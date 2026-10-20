@@ -1,0 +1,26 @@
+[
+  {
+    "file": "archive-oct07-table9.csv",
+    "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2026/2026_10_07/csv/table9.csv",
+    "status": 200,
+    "bytes": 46771,
+    "sha256": "9a0a30ae3f5667625598e9c43c7b51ad87a6131a5654ba5df022ecd565fd0a98",
+    "captured_at": "2026-10-20T19:14:05-04:00"
+  },
+  {
+    "file": "archive-sep30-table9.csv",
+    "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2026/2026_09_30/csv/table9.csv",
+    "status": 200,
+    "bytes": 46783,
+    "sha256": "ecf3faf29aaf4dad12dd3f6a4b37050ad1cd28afc8c8c5a54126ca0d1305d063",
+    "captured_at": "2026-10-20T19:14:05-04:00"
+  },
+  {
+    "file": "seds-gasoline.html",
+    "url": "https://www.eia.gov/state/seds/data.php?incfile=/state/seds/sep_fuel/html/fuel_use_mg.html&sid=US",
+    "status": 200,
+    "bytes": 94328,
+    "sha256": "0f38d2a9cbb1183d1bda71b3fb9fd1d614945bab3e1e3a40d1a575cab779c777",
+    "captured_at": "2026-10-20T19:14:05-04:00"
+  }
+]

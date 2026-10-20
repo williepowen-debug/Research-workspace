@@ -1,0 +1,2588 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta name="agency" content="EIA" />
+<meta name="audience" content="general" />
+<meta name="subject" content="Energy Data and Statistics, Information, and Maps" />
+<meta name="Description" content="Petroleum prices, supply and demand information from the Energy Information Administration - EIA - Official Energy Statistics from the U.S. Government" />
+<meta name="Keywords" content="crude oil, spot prices, retail gasoline prices, diesel fuel prices, weekly supply estimates,
+crude oil inventories, stocks" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta http-equiv="Content-Language" content="en-us" />
+<meta name="robots" content="all" />
+<meta name="agency" content="EIA - Energy Information Administration" />
+<meta name="subject" content="official energy statistics, data, analysis and forecasting" />
+<meta name="Description" content="Energy Information Administration - EIA - Official Energy Statistics from the U.S. Government" />
+
+<link href="/global/styles/screen.css" type="text/css" media="screen, projection" rel="stylesheet" />
+<link href="/global/styles/eia-styles.min.css?v=10.14.26" media="screen, projection" rel="stylesheet" />
+
+<link type="text/css" href="/global/scripts/jquery/datepicker/jquery-ui-dp.custom.css?v=11.1" rel="stylesheet" />
+<link href="/global/styles/EIA_global.css?v=8.27.26" type="text/css" media="screen, projection" rel="stylesheet" />
+
+<link href="/global/styles/print.css" type="text/css" media="print" rel="stylesheet" />
+<link href="/global/styles/eia-print.min.css" type="text/css" media="print" rel="stylesheet" />
+
+
+<script src="/global/scripts/jquery/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="/global/scripts/jquery/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="/global/scripts/jquery/ui/1.10.3/js/jquery-ui-1.10.3.custom.min.js"></script>
+<script type="text/javascript" src="/global/scripts/jquery/touch-punch/jquery.ui.touch-punch.min.js"></script>
+<script type="text/javascript" src="/global/scripts/jquery/eia_utils.js"></script>
+<script type="text/javascript" src="/global/scripts/eia_global.js?v=11.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+<script>
+
+	$.fn.fancybox = function (){
+	
+	};
+</script>
+
+<style>
+.fancybox__content .fancybox__iframe {
+	background-color: #ffffff;
+}
+</style>
+<script type="text/javascript" src="/global/scripts/jquery/highcharts/3.0.10/js/highcharts.js"></script>		<script type="text/javascript" src="/global/scripts/jquery/highcharts/3.0.10/js/highcharts-more.js"></script>
+
+		<script type="text/javascript" src="/global/scripts/jquery/highcharts/3.0.10/js/modules/exporting.js"></script>
+
+		<script type="text/javascript" src="/global/scripts/jquery/highcharts/3.0.10/js/modules/no-data-to-display.js"></script>
+
+		<script type="text/javascript" src="/global/scripts/jquery/highcharts/3.0.10/js/eia-theme-module.min.js"></script>
+<script type="text/javascript" src="/global/scripts/jquery/highcharts/3.0.10/js/modules/captions.min.js"></script>
+
+	<script src="/global/scripts/jquery/ga/ga-file-downloads.js"></script>
+		
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-25837230-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-25837230-1');
+	</script>
+
+
+
+
+<link rel="shortcut icon" href="//www.eia.gov/favicon.ico" />
+<link rel="icon" href="//www.eia.gov/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="//www.eia.gov/favicon.ico" />
+
+
+
+	
+<script type="text/javascript" src="/global/survey/engine/js/survey_engine.js"></script>
+<link href="/global/survey/engine/css/layout.css" rel="stylesheet" type="text/css" media="screen" />
+<title>U.S. Energy Information Administration - EIA - Independent Statistics and Analysis</title>
+
+	<script language="javascript" src="/global/scripts/modules/lib/require-2.3.7.src.js"></script>
+
+
+<link type="text/css" rel="stylesheet" href="/state/css/states.css"/>
+<!--[IF IE 7]><link rel="stylesheet" href="/state/css/ie7.css" type="text/css" /><![endif]-->
+  <link rel="stylesheet" href="https://js.arcgis.com/4.31/esri/themes/light/main.css">
+  <script src="https://js.arcgis.com/4.31/"></script>
+  
+  
+<script type="text/javascript">
+	var config = {"shim":{"jVectorMap":{"exports":"jQuery.fn.vectorMap","deps":["mousewheel"]},"us-merc-en":{"exports":"jvm.WorldMap.maps.us_merc_en","deps":["jVectorMap"]},"loadmask":{"exports":"jQuery.fn.mask"},"mousewheel":{"exports":"jQuery.fn.mousewheel"},"qtips":{"exports":"jQuery.fn.qtip"},"us-census-merc-en":{"exports":"jvm.WorldMap.maps.us_census_merc_en","deps":["jVectorMap"]},"usa-en-labels":{"exports":"jQuery.fn.vectorMap.prototype.usa_en_labels","deps":["jVectorMapOld"]},"us-terr-merc-en":{"exports":"jvm.WorldMap.maps.us_terr_merc_en","deps":["jVectorMap"]},"us-aea-en":{"exports":"jvm.WorldMap.maps.us_aea_en","deps":["jVectorMap"]},"coal-basin-merc-en":{"exports":"jvm.WorldMap.maps.coal_basin_merc_en","deps":["jVectorMap"]},"slickcore":{"exports":"Slick.Event","deps":["dragevent","mousewheel"]},"slickdataview":{"exports":"Slick.Data.DataView","deps":["slickgrid"]},"mustache":{"exports":"Mustache"},"slickgrid":{"exports":"Slick.Grid","deps":["slickcore"]},"usa-en":{"exports":"jvm.WorldMap.maps.usa_en","deps":["jVectorMap"]},"world-mill-en":{"exports":"jvm.WorldMap.maps.world_mill_en","deps":["jVectorMap"]},"json2":{"exports":"JSON"},"dragevent":{"exports":"jQuery.fn.drag"},"simpleModal":{"exports":"jQuery.modal"},"multiselect":{"exports":"jQuery.fn.multiselect"},"jVectorMapOld":{"exports":"jQuery.fn.vectorMap","deps":["mousewheel"]}},"paths":{"viewStack":"/global/scripts/modules/dist/viewStack","order":"/global/scripts/modules/lib/order","us-census-merc-en":"/global/scripts/modules/lib/jvectormap/maps/us-census-merc-en","timeSlider":"/global/scripts/modules/dist/timeSlider","coal-basin-merc-en":"/global/scripts/modules/lib/jvectormap/maps/coal-basin-merc-en","rankingsTable":"/global/scripts/modules/dist/rankingsTable","hasher":"/global/scripts/modules/lib/hasher","mustache":"/global/scripts/modules/lib/mustache","classy":"/global/scripts/modules/lib/classy","queryRouter":"/global/scripts/modules/dist/queryRouter","world-mill-en":"/global/scripts/modules/lib/jvectormap/maps/world-mill-en","microcache":"/global/scripts/modules/lib/microcache","dragevent":"/global/scripts/modules/lib/jquery.event.drag-2.2","selection":"/global/scripts/modules/dist/selection","jVectorMap":"/global/scripts/modules/lib/jvectormap/jquery-jvectormap-mod.min","dateCodeUtils":"/global/scripts/modules/dist/dateCodeUtils","us-merc-en":"/global/scripts/modules/lib/jvectormap/maps/us-merc-en","loadmask":"/global/scripts/modules/lib/jquery.loadmask","mousewheel":"/global/scripts/modules/lib/jquery.mousewheel","numberformatter":"/global/scripts/modules/dist/numberformatter","bucketMap":"/global/scripts/modules/dist/bucketMap","puremvc":"/global/scripts/modules/lib/puremvc-classy-1.0","us-terr-merc-en":"/global/scripts/modules/lib/jvectormap/maps/us-terr-merc-en","growthMap":"/global/scripts/modules/dist/growthMap","crossroads":"/global/scripts/modules/lib/crossroads","signals":"/global/scripts/modules/lib/signals","usa-en":"/global/scripts/modules/lib/vector-map/usa-en","multiselect":"/global/scripts/modules/lib/jquery.multiselect.1.13.min","chartTabs":"/global/scripts/modules/dist/chartTabs","animatedComponent":"/global/scripts/modules/dist/animatedComponent","qtips":"/global/scripts/modules/lib/jquery.qtip-1.0.min","continuousMap":"/global/scripts/modules/dist/continuousMap","dropdown":"/global/scripts/modules/dist/dropdown","us-aea-en":"/global/scripts/modules/lib/jvectormap/maps/us-aea-en","animatedMap":"/global/scripts/modules/dist/animatedMap","text":"/global/scripts/modules/lib/text.src","slickgrid":"/global/scripts/modules/lib/slick.grid","datagrid":"/global/scripts/modules/dist/datagrid","json2":"/global/scripts/modules/lib/json2","simpleModal":"/global/scripts/modules/lib/jquery.simplemodal-1.4.2","page":"/global/scripts/modules/dist/page","usa-en-labels":"/global/scripts/modules/lib/vector-map/usa-en-labels","map":"/global/scripts/modules/dist/map","slickdataview":"/global/scripts/modules/lib/slick.dataview","slickcore":"/global/scripts/modules/lib/slick.core","timeSliderInput":"/global/scripts/modules/dist/timeSliderInput","kizzy":"/global/scripts/modules/lib/kizzy","qTipsHelp":"/global/scripts/modules/dist/qTipsHelp","jVectorMapOld":"/global/scripts/modules/lib/vector-map/jquery.vector-map"},"enforceDefine":true};
+	config['paths']['helpTooltips'] = '/state/js/helpTooltips';
+
+	;
+		config['urlArgs'] = 'v=1.2';
+		config['waitSeconds'] = 0; //Disable require timeout for loading modules
+		config['context'] = 'main';
+		var mainRequire = require.config(config);
+		</script>
+	
+		
+	<script>
+	mainRequire(['require', 'mustache'], function(){
+		$(function(){
+			function stateListPopupGenerator(popupId){
+				return function(){
+					var self = this;
+					function onRegionChange(){
+						window.location.href = Mustache.render(
+							$(self).attr('data-page-href'),
+							{
+								ID:$(popupId + ' .list_select option:selected').val()
+							}
+						);
+					}
+					$(this).fancybox({
+						href : popupId,
+						beforeShow : function(){
+							$(popupId + ' .page_span').html($(self).attr('data-page-name'));
+							$(popupId + ' .region_span').html($(self).attr('data-region-name'));
+							$(popupId + ' .list_select').on('change', onRegionChange);
+						},
+						afterClose : function(){
+							$(popupId + ' .list_select').off('change', onRegionChange);
+						}
+					});
+				}
+			}
+			$('.state_list_inc_us_popup_link').each(stateListPopupGenerator('#state_list_inc_us_popup'));
+			$('.state_list_exc_us_popup_link').each(stateListPopupGenerator('#state_list_exc_us_popup'));
+			$('.state_terr_list_exc_us_popup_link').each(stateListPopupGenerator('#state_terr_list_exc_us_popup'));
+			$('.region_overview_popup_link').each(function(){
+				var self = this;
+				$(this).fancybox({
+					href : '#region_overview_popup',
+					beforeShow : function(){
+						$('#region_overview_popup .page_span').html($(self).attr('data-page-name'));
+						$('#region_overview_popup .region_span').html($(self).attr('data-region-name'));
+						$('#region_overview_popup .overview_link').attr('href', $(self).attr('href'));
+					}
+				});
+			});
+		});
+	});
+	
+</script>
+
+
+	<title>United States - SEDS - U.S. Energy Information Administration (EIA)</title>
+    </head>
+		<script>
+		$(document).ready(function(){
+			var rowNum=0; //iterator
+			var headerRows = new Array(); //row number that contain the header
+			var isHeaderRow = true;
+			var newHeader = '<thead>';
+			//Finds the header rows
+			var headerRowCount = $('td:first', $('table.tpl tr')[0]).attr('rowspan');
+			$('table.tpl tr').each(function(index, value){
+				if(index < headerRowCount) {
+					headerRows.push(rowNum);
+				}
+				else{
+					isHeaderRow = false; //ensures that only until you encounter the first integer the rows are counted as header rows
+				}
+				rowNum++;
+			});
+			//Construct new header
+			if(headerRows.length > 0){
+				for(var i=0; i<headerRows.length; i++){
+					var originalRow = $('table.tpl tr').eq(i).html();
+					newHeader += '<tr>'+originalRow.replace(/<td/gi,'<th').replace(/td>/gi,'th>')+'</tr>';
+				}
+				newHeader += '</thead>';
+			}
+			
+			//delete the original header
+			for(var i=headerRows.length-1; i>-1; i--){
+				$('table.tpl tr').eq(i).remove();
+			}
+			//prepend the new header to the table
+			$('table.tpl').prepend(newHeader);
+			
+			var rows =	$('table.tpl > tbody > tr');
+			var tbody2 = $('<tbody></tbody>');
+			var found = false;
+			for(var i = 0 ; i < rows.length; i++) {
+				if(found) {
+					$(rows[i]).remove();
+					tbody2.append($(rows[i]));
+				}
+				else if(!found && $('td', $(rows[i])).length == 1 && i != rows.length-1) {
+					var thead2 = $('<thead></thead>');
+					thead2.append('<tr>' + $(rows[i]).html().replace(/<td/gi, '<th').replace(/td>/gi, 'th>') + '</tr>');
+					$(rows[i]).parent().after(thead2);
+					$(rows[i]).remove();
+					found = true;
+					thead2.after(tbody2);
+				}
+			}
+			
+						var tfoot = $('<tfoot></tfoot>');
+			tfoot.append($('table.tplfooter > tbody > tr'));
+			$('table.tpl').append(tfoot);
+			$('table.tplfooter').parentsUntil('tbody', 'tr').remove();
+			$('table.tpl tfoot br').replaceWith('&nbsp;');
+			
+			if($('th:first').text().match(/rank/gi)) {
+				$.each($('table.tpl > tbody > tr'), function(index, value) {
+					$('> td:odd', $(value)).css('text-align', 'left');
+				});
+			}
+			
+			$("td:contains('[R ]')").css('padding-left', 0).css('padding-right', 20);
+			$('.d1').width($('.wr2')[0].scrollWidth);
+			
+			$(".wr1").scroll(function(){
+				$(".wr2")
+					.scrollLeft($(".wr1").scrollLeft());
+			});
+			$(".wr2").scroll(function(){
+				$(".wr1")
+					.scrollLeft($(".wr2").scrollLeft());
+			});
+		});
+	</script>
+
+	<style>
+		h2 {
+			font-size: 1.5em;
+			padding-top: 10px;
+		}
+		
+		.tpl {
+			background-color: #FFF;
+		}
+		
+		.tpl > tbody tr:first-child {
+		  border-top: 2px solid #189BD7;
+		}
+		
+		.tpl > thead th, .tpl > tbody > tr > td {
+			white-space: nowrap;
+		}
+
+		.tpl .double-header th[colspan]{
+			border-bottom: 1px solid #ccc;
+			border-right: 6px solid #fff;
+			text-align: left;
+		}
+		.tpl th{
+			border: 1px solid #ccc;
+			/*border-right: 6px solid #fff;*/
+			text-align: left;
+		}
+		.basic_table tr th { 
+			border-bottom: 1px solid #ccc;
+		}
+		.tpl tfoot td {
+			text-align: left;
+		}
+		sup,sub {height: 0; line-height: 1; vertical-align: baseline; _vertical-align: bottom; position: relative;}
+		sup {bottom: 1ex;}
+		sub {top: .5ex;}
+		
+		.tplfooter tr td{font-size:12px;margin:0px;text-align:left;white-space: normal;}
+		.tplfooter br {content: ' '}
+		.tplfooter br:after {content: ' '}
+
+		.wr1, .wr2{width: 957px; border: none 0px RED;overflow-x: scroll; overflow-y:hidden;}
+		.wr1{height: 20px; }
+		.wr2{height: auto; }
+		.d1 {height: 20px; }
+	</style>
+
+	
+	<body>
+		<div class="popup_wrapper">
+			<div id="state_list_inc_us_popup" class="list_popup">
+				<p><strong>The <span class="page_span"></span> page does not exist for <span class="region_span"></span>.</strong></p>
+				<p>To view this page, please select a state:
+				<select class="list_select">
+					<option value="" selected="selected"></option>
+					<option value="US">United States</option>
+																		<option value="AL">Alabama</option>
+																								<option value="AK">Alaska</option>
+																								<option value="AZ">Arizona</option>
+																								<option value="AR">Arkansas</option>
+																								<option value="CA">California</option>
+																								<option value="CO">Colorado</option>
+																								<option value="CT">Connecticut</option>
+																								<option value="DE">Delaware</option>
+																								<option value="DC">District of Columbia</option>
+																								<option value="FL">Florida</option>
+																								<option value="GA">Georgia</option>
+																								<option value="HI">Hawaii</option>
+																								<option value="ID">Idaho</option>
+																								<option value="IL">Illinois</option>
+																								<option value="IN">Indiana</option>
+																								<option value="IA">Iowa</option>
+																								<option value="KS">Kansas</option>
+																								<option value="KY">Kentucky</option>
+																								<option value="LA">Louisiana</option>
+																								<option value="ME">Maine</option>
+																								<option value="MD">Maryland</option>
+																								<option value="MA">Massachusetts</option>
+																								<option value="MI">Michigan</option>
+																								<option value="MN">Minnesota</option>
+																								<option value="MS">Mississippi</option>
+																								<option value="MO">Missouri</option>
+																								<option value="MT">Montana</option>
+																								<option value="NE">Nebraska</option>
+																								<option value="NV">Nevada</option>
+																								<option value="NH">New Hampshire</option>
+																								<option value="NJ">New Jersey</option>
+																								<option value="NM">New Mexico</option>
+																								<option value="NY">New York</option>
+																								<option value="NC">North Carolina</option>
+																								<option value="ND">North Dakota</option>
+																								<option value="OH">Ohio</option>
+																								<option value="OK">Oklahoma</option>
+																								<option value="OR">Oregon</option>
+																								<option value="PA">Pennsylvania</option>
+																								<option value="RI">Rhode Island</option>
+																								<option value="SC">South Carolina</option>
+																								<option value="SD">South Dakota</option>
+																								<option value="TN">Tennessee</option>
+																								<option value="TX">Texas</option>
+																																			<option value="UT">Utah</option>
+																								<option value="VT">Vermont</option>
+																								<option value="VA">Virginia</option>
+																								<option value="WA">Washington</option>
+																								<option value="WV">West Virginia</option>
+																								<option value="WI">Wisconsin</option>
+																								<option value="WY">Wyoming</option>
+															</select>
+				</p>
+			</div>
+			<div id="state_list_exc_us_popup" class="list_popup">
+				<p><strong>The <span class="page_span"></span> page does not exist for <span class="region_span"></span>.</strong></p>
+				<p>To view this page, please select a state:
+				<select class="list_select">
+						<option value="" selected="selected"></option>
+
+																					<option value="AL">Alabama</option>
+																												<option value="AK">Alaska</option>
+																												<option value="AZ">Arizona</option>
+																												<option value="AR">Arkansas</option>
+																												<option value="CA">California</option>
+																												<option value="CO">Colorado</option>
+																												<option value="CT">Connecticut</option>
+																												<option value="DE">Delaware</option>
+																												<option value="DC">District of Columbia</option>
+																												<option value="FL">Florida</option>
+																												<option value="GA">Georgia</option>
+																												<option value="HI">Hawaii</option>
+																												<option value="ID">Idaho</option>
+																												<option value="IL">Illinois</option>
+																												<option value="IN">Indiana</option>
+																												<option value="IA">Iowa</option>
+																												<option value="KS">Kansas</option>
+																												<option value="KY">Kentucky</option>
+																												<option value="LA">Louisiana</option>
+																												<option value="ME">Maine</option>
+																												<option value="MD">Maryland</option>
+																												<option value="MA">Massachusetts</option>
+																												<option value="MI">Michigan</option>
+																												<option value="MN">Minnesota</option>
+																												<option value="MS">Mississippi</option>
+																												<option value="MO">Missouri</option>
+																												<option value="MT">Montana</option>
+																												<option value="NE">Nebraska</option>
+																												<option value="NV">Nevada</option>
+																												<option value="NH">New Hampshire</option>
+																												<option value="NJ">New Jersey</option>
+																												<option value="NM">New Mexico</option>
+																												<option value="NY">New York</option>
+																												<option value="NC">North Carolina</option>
+																												<option value="ND">North Dakota</option>
+																												<option value="OH">Ohio</option>
+																												<option value="OK">Oklahoma</option>
+																												<option value="OR">Oregon</option>
+																												<option value="PA">Pennsylvania</option>
+																												<option value="RI">Rhode Island</option>
+																												<option value="SC">South Carolina</option>
+																												<option value="SD">South Dakota</option>
+																												<option value="TN">Tennessee</option>
+																												<option value="TX">Texas</option>
+																																									<option value="UT">Utah</option>
+																												<option value="VT">Vermont</option>
+																												<option value="VA">Virginia</option>
+																												<option value="WA">Washington</option>
+																												<option value="WV">West Virginia</option>
+																												<option value="WI">Wisconsin</option>
+																												<option value="WY">Wyoming</option>
+																	</select>
+				</p>
+			</div>
+			<div id="state_terr_list_exc_us_popup" class="list_popup">
+				<p><strong>The <span class="page_span"></span> page does not exist for <span class="region_span"></span>.</strong></p>
+				<p>To view this page, please select a state or territory:
+				<select class="list_select">
+						<option value="" selected="selected"></option>
+																					<option value="AL">Alabama</option>
+																												<option value="AK">Alaska</option>
+																												<option value="AZ">Arizona</option>
+																												<option value="AR">Arkansas</option>
+																												<option value="CA">California</option>
+																												<option value="CO">Colorado</option>
+																												<option value="CT">Connecticut</option>
+																												<option value="DE">Delaware</option>
+																												<option value="DC">District of Columbia</option>
+																												<option value="FL">Florida</option>
+																												<option value="GA">Georgia</option>
+																												<option value="HI">Hawaii</option>
+																												<option value="ID">Idaho</option>
+																												<option value="IL">Illinois</option>
+																												<option value="IN">Indiana</option>
+																												<option value="IA">Iowa</option>
+																												<option value="KS">Kansas</option>
+																												<option value="KY">Kentucky</option>
+																												<option value="LA">Louisiana</option>
+																												<option value="ME">Maine</option>
+																												<option value="MD">Maryland</option>
+																												<option value="MA">Massachusetts</option>
+																												<option value="MI">Michigan</option>
+																												<option value="MN">Minnesota</option>
+																												<option value="MS">Mississippi</option>
+																												<option value="MO">Missouri</option>
+																												<option value="MT">Montana</option>
+																												<option value="NE">Nebraska</option>
+																												<option value="NV">Nevada</option>
+																												<option value="NH">New Hampshire</option>
+																												<option value="NJ">New Jersey</option>
+																												<option value="NM">New Mexico</option>
+																												<option value="NY">New York</option>
+																												<option value="NC">North Carolina</option>
+																												<option value="ND">North Dakota</option>
+																												<option value="OH">Ohio</option>
+																												<option value="OK">Oklahoma</option>
+																												<option value="OR">Oregon</option>
+																												<option value="PA">Pennsylvania</option>
+																												<option value="RI">Rhode Island</option>
+																												<option value="SC">South Carolina</option>
+																												<option value="SD">South Dakota</option>
+																												<option value="TN">Tennessee</option>
+																												<option value="TX">Texas</option>
+																																									<option value="UT">Utah</option>
+																												<option value="VT">Vermont</option>
+																												<option value="VA">Virginia</option>
+																												<option value="WA">Washington</option>
+																												<option value="WV">West Virginia</option>
+																												<option value="WI">Wisconsin</option>
+																												<option value="WY">Wyoming</option>
+																												<option value="AQ">American Samoa</option>
+																												<option value="GQ">Guam</option>
+																												<option value="CQ">Northern Mariana Islands</option>
+																												<option value="RQ">Puerto Rico</option>
+																												<option value="VQ">US Virgin Islands</option>
+																	</select>
+				</p>
+			</div>
+			<div id="region_overview_popup">
+				<p><strong>The <span class="page_span"></span> page does not exist for <span class="region_span"></span>.</strong></p>
+				<p>Would you like to go to the <a class="overview_link"><span class="region_span"></span> overview page</a> instead?</p>
+			</div>
+		</div>
+				<div id="outerX">
+												<div class="page-wrapper">
+	<div id="sticker">
+    <ul>
+        <li><a href="http://x.com/eiagov/" target="_blank" class="ico-sticker twitter"></a></li>
+        <li><a href="https://www.facebook.com/eiagov" target="_blank" class="ico-sticker facebook"></a></li>
+    </ul>
+</div>	<header>
+	<div class="print">
+		<img src="/global/images/logos/eia_logo_print.png" alt="U.S. Energy Information Administration logo" />
+	</div>
+	<a href="#page-sub-nav" class="eia-accessibility">Skip to sub-navigation</a>
+	<nav class="primary-navigation">
+		<a class="logo" href="/">
+			<h1>U.S. Energy Information Administration - EIA - Independent Statistics and Analysis</h1>
+		</a>
+		<div class="nav-mobile">
+			<div class="search-menu-toggle">
+				<span class="ico-menu search-icon"></span>
+			</div>
+			<div class="nav-primary-item-link menu-toggle" data-topic="topic-1">
+				<div class="bars">
+					<div class="toggle-bar"></div>
+					<div class="toggle-bar"></div>
+					<div class="toggle-bar"></div>
+				</div>
+				<p>Menu</p>
+			</div>
+		</div>
+		<ul class="nav-primary">
+			<li class="nav-primary-item">
+				<div class="nav-primary-item-link" data-topic="topic-1">Statistics</div>
+			</li>
+			<li class="nav-primary-item">
+				<div class="nav-primary-item-link" data-topic="topic-2">Analysis</div>
+			</li>
+			<li class="nav-primary-item">
+				<div class="nav-primary-item-link" data-topic="topic-3">Tools</div>
+			</li>
+			<li class="nav-primary-item">
+				<div class="nav-primary-item-link" data-topic="topic-4">Education</div>
+			</li>
+			<li class="nav-primary-item">
+				<div class="nav-primary-item-link" data-topic="topic-5">News</div>
+			</li>
+			<li class="nav-primary-item search-toggle-button">
+				<div class="nav-primary-item-link search-menu-toggle">
+					<span class="ico-menu search-icon"></span>
+				</div>
+			</li>
+		</ul>
+		<div class="nav-search search-panel form-wrapper hide-search-panel">
+			<div class="search">
+				<form accept-charset="UTF-8" action="//search.usa.gov/search" id="search_form" method="get">
+					<input name="utf8" type="hidden" value="&#x2713;" />
+					<input id="affiliate" name="affiliate" type="hidden" value="eia.doe.gov" />
+					<!-- label class="accessibility" for="query">Enter Search Term(s):</label -->
+					<!-- span class="ico-menu search-icon"></span -->
+					<input autocomplete="off" class="usagov-search-autocomplete header-search-input" name="query" id="query" type="text" placeholder="Search eia.gov" />
+					<button type="submit" name="search" id="goBtn" class="button primary">Search</button>
+				</form>
+							</div>
+		</div>
+	</nav>
+</header>	<section>
+		<div class="l-outer-wrapper">
+			<div class="l-inner-wrapper" id="innerX">
+				
+
+
+
+				
+			<script type="text/javascript">
+	$(document).ready(function(){
+		$('.dropdown').dd();
+		
+		$('.change_location').click(function() {
+			/*$('.change_location').toggleText("Change Location", "Close Location Menu");*/
+			if($('.L2_blue_toggle').css('display') == 'none' || typeof $(this).attr('href') == 'undefined') {
+				$('.arrow_rL').toggleClass("arrow_rL_up");
+
+				$('.L2_blue_toggle').slideToggle('slow', function() {
+					$.each($('.dropdown'), function(index, value) {
+						var datBlock = $(this).next('div');
+						datBlock.css({
+							top:	$(this).offset().top + $(this).height()
+						});
+					});
+				});
+			}
+		});
+		
+		$('.rankLink').on('click', function(event) { 
+			$(this).parents('.dat_block').css('display', 'none'); return true;
+		});
+		
+	
+		mainRequire(['require', 'qTipsHelp', 'helpTooltips'], function(require, qTipsHelp, helpToolTips) {
+			$(function() {
+				var help = new qTipsHelp();
+				$('.help').on('click', function(event) {
+					help.toggleHelpTooltips(helpToolTips());
+				});
+			});
+		});
+	});
+</script>
+
+
+<div class="pub_title bg_pub_states_tall new_header" id="stateSelection">
+  <a href="/state/">&lsaquo; U.S. States</a>
+  <h1 style="padding-top:45px;">U.S. States&nbsp;&nbsp;&nbsp;<img src="/state/img/flags/US.png" height="25" align="absmiddle" vspace="2" alt="U.S. States Profile" style="border:1px solid #eee"></h1>
+  <p class="subtitle"><i>State Profiles and Energy Estimates</i></p>
+  <p class="submenu rnd_crn4  no_print"><a class="change_location submenu_toggle">Change State/Territory<span class="arrow_rL">&nbsp;</span></a></p>
+</div>
+	
+
+<div class="L2_blue_toggle no_print">
+	<h2>Choose a U.S. State or Territory</h2>
+	<table class="L2_toggle_table" width="100%">
+	  <tr>
+		<td width="14%">
+		
+					<a href="?incfile=/state/seds/sep_fuel/html/fuel_use_mg.html&sid=US">United States</a><br />
+																						<a href="?incfile=/state/seds/sep_fuel/html/fuel_use_mg.html&sid=AL">
+						Alabama					</a><br />
+																								<a href="?incfile=/state/seds/sep_fuel/html/fuel_use_mg.html&sid=AK">
+						Alaska					</a><br />
+																								<a href="?incfile=/state/seds/sep_fuel/html/fuel_use_mg.html&sid=AZ">
+						Arizona					</a><br />
+																								<a href="?incfile=/state/seds/sep_fuel/html/fuel_use_mg.html&sid=AR">
+						Arkansas					</a><br />
+																								<a href="?incfile=/state/seds/sep_fuel/html/fuel_use_mg.html&sid=CA">
+						California					</a><br />
+																								<a href="?incfile=/state/seds/sep_fuel/html/fuel_use_mg.html&sid=CO">
+						Colorado					</a><br />
+																								<a href="?incfile=/state/seds/sep_fuel/html/fuel_use_mg.html&sid=CT">
+						Connecticut					</a><br />
+																								<a href="?incfile=/state/seds/sep_fuel/html/fuel_use_mg.html&sid=DE">
+						Delaware					</a><br />
+																				</td>
+					<td width="14%">
+													<a href="?incfile=/state/seds/sep_fuel/html/fuel_use_mg.html&sid=DC">
+						District of Columbia					</a><br />
+																								<a href="?incfile=/state/seds/sep_fuel/html/fuel_use_mg.html&sid=FL">
+						Florida					</a><br />
+																								<a href="?incfile=/state/seds/sep_fuel/html/fuel_use_mg.html&sid=GA">
+						Georgia					</a><br />
+																								<a href="?incfile=/state/seds/sep_fuel/html/fuel_use_mg.html&sid=HI">
+						Hawaii					</a><br />
+																								<a href="?incfile=/state/seds/sep_fuel/html/fuel_use_mg.html&sid=ID">
+						Idaho					</a><br />
+																								<a href="?incfile=/state/seds/sep_fuel/html/fuel_use_mg.html&sid=IL">
+						Illinois					</a><br />
+																								<a href="?incfile=/state/seds/sep_fuel/html/fuel_use_mg.html&sid=IN">
+						Indiana					</a><br />
+																								<a href="?incfile=/state/seds/sep_fuel/html/fuel_use_mg.html&sid=IA">
+						Iowa					</a><br />
+																								<a href="?incfile=/state/seds/sep_fuel/html/fuel_use_mg.html&sid=KS">
+						Kansas					</a><br />
+																				</td>
+					<td width="14%">
+													<a href="?incfile=/state/seds/sep_fuel/html/fuel_use_mg.html&sid=KY">
+						Kentucky					</a><br />
+																								<a href="?incfile=/state/seds/sep_fuel/html/fuel_use_mg.html&sid=LA">
+						Louisiana					</a><br />
+																								<a href="?incfile=/state/seds/sep_fuel/html/fuel_use_mg.html&sid=ME">
+						Maine					</a><br />
+																								<a href="?incfile=/state/seds/sep_fuel/html/fuel_use_mg.html&sid=MD">
+						Maryland					</a><br />
+																								<a href="?incfile=/state/seds/sep_fuel/html/fuel_use_mg.html&sid=MA">
+						Massachusetts					</a><br />
+																								<a href="?incfile=/state/seds/sep_fuel/html/fuel_use_mg.html&sid=MI">
+						Michigan					</a><br />
+																								<a href="?incfile=/state/seds/sep_fuel/html/fuel_use_mg.html&sid=MN">
+						Minnesota					</a><br />
+																								<a href="?incfile=/state/seds/sep_fuel/html/fuel_use_mg.html&sid=MS">
+						Mississippi					</a><br />
+																								<a href="?incfile=/state/seds/sep_fuel/html/fuel_use_mg.html&sid=MO">
+						Missouri					</a><br />
+																				</td>
+					<td width="14%">
+													<a href="?incfile=/state/seds/sep_fuel/html/fuel_use_mg.html&sid=MT">
+						Montana					</a><br />
+																								<a href="?incfile=/state/seds/sep_fuel/html/fuel_use_mg.html&sid=NE">
+						Nebraska					</a><br />
+																								<a href="?incfile=/state/seds/sep_fuel/html/fuel_use_mg.html&sid=NV">
+						Nevada					</a><br />
+																								<a href="?incfile=/state/seds/sep_fuel/html/fuel_use_mg.html&sid=NH">
+						New Hampshire					</a><br />
+																								<a href="?incfile=/state/seds/sep_fuel/html/fuel_use_mg.html&sid=NJ">
+						New Jersey					</a><br />
+																								<a href="?incfile=/state/seds/sep_fuel/html/fuel_use_mg.html&sid=NM">
+						New Mexico					</a><br />
+																								<a href="?incfile=/state/seds/sep_fuel/html/fuel_use_mg.html&sid=NY">
+						New York					</a><br />
+																								<a href="?incfile=/state/seds/sep_fuel/html/fuel_use_mg.html&sid=NC">
+						North Carolina					</a><br />
+																								<a href="?incfile=/state/seds/sep_fuel/html/fuel_use_mg.html&sid=ND">
+						North Dakota					</a><br />
+																				</td>
+					<td width="14%">
+													<a href="?incfile=/state/seds/sep_fuel/html/fuel_use_mg.html&sid=OH">
+						Ohio					</a><br />
+																								<a href="?incfile=/state/seds/sep_fuel/html/fuel_use_mg.html&sid=OK">
+						Oklahoma					</a><br />
+																								<a href="?incfile=/state/seds/sep_fuel/html/fuel_use_mg.html&sid=OR">
+						Oregon					</a><br />
+																								<a href="?incfile=/state/seds/sep_fuel/html/fuel_use_mg.html&sid=PA">
+						Pennsylvania					</a><br />
+																								<a href="?incfile=/state/seds/sep_fuel/html/fuel_use_mg.html&sid=RI">
+						Rhode Island					</a><br />
+																								<a href="?incfile=/state/seds/sep_fuel/html/fuel_use_mg.html&sid=SC">
+						South Carolina					</a><br />
+																								<a href="?incfile=/state/seds/sep_fuel/html/fuel_use_mg.html&sid=SD">
+						South Dakota					</a><br />
+																								<a href="?incfile=/state/seds/sep_fuel/html/fuel_use_mg.html&sid=TN">
+						Tennessee					</a><br />
+																								<a href="?incfile=/state/seds/sep_fuel/html/fuel_use_mg.html&sid=TX">
+						Texas					</a><br />
+																				</td>
+					<td width="14%">
+													<a href="?incfile=/state/seds/sep_fuel/html/fuel_use_mg.html&sid=UT">
+						Utah					</a><br />
+																								<a href="?incfile=/state/seds/sep_fuel/html/fuel_use_mg.html&sid=VT">
+						Vermont					</a><br />
+																								<a href="?incfile=/state/seds/sep_fuel/html/fuel_use_mg.html&sid=VA">
+						Virginia					</a><br />
+																								<a href="?incfile=/state/seds/sep_fuel/html/fuel_use_mg.html&sid=WA">
+						Washington					</a><br />
+																								<a href="?incfile=/state/seds/sep_fuel/html/fuel_use_mg.html&sid=WV">
+						West Virginia					</a><br />
+																								<a href="?incfile=/state/seds/sep_fuel/html/fuel_use_mg.html&sid=WI">
+						Wisconsin					</a><br />
+																								<a href="?incfile=/state/seds/sep_fuel/html/fuel_use_mg.html&sid=WY">
+						Wyoming					</a><br />
+																				</td>
+		  			<td width="15%">
+					<strong>U.S. Territories</strong><br />
+													<a class="region_overview_popup_link"
+					   href="/state/?sid=AQ"
+					   data-region-name="American Samoa"
+					   data-page-name="SEDS"
+					>American Samoa</a><br />
+																								<a class="region_overview_popup_link"
+					   href="/state/?sid=GQ"
+					   data-region-name="Guam"
+					   data-page-name="SEDS"
+					>Guam</a><br />
+																								<a class="region_overview_popup_link"
+					   href="/state/?sid=CQ"
+					   data-region-name="Northern Mariana Islands"
+					   data-page-name="SEDS"
+					>Northern Mariana Islands</a><br />
+																								<a class="region_overview_popup_link"
+					   href="/state/?sid=RQ"
+					   data-region-name="Puerto Rico"
+					   data-page-name="SEDS"
+					>Puerto Rico</a><br />
+																								<a class="region_overview_popup_link"
+					   href="/state/?sid=VQ"
+					   data-region-name="US Virgin Islands"
+					   data-page-name="SEDS"
+					>US Virgin Islands</a><br />
+									 </td>
+	  </tr>
+	</table>
+</div>
+
+<div class="subnav tools">
+    <ul>
+	<li  id="overview"><a href="/state/?sid=US">Overview</a></li>
+	<li class="active dropdown" id="data">
+					<a class="state_terr_list_exc_us_popup_link"
+				data-page-href="/state/data.cfm?sid={{ID}}"
+				data-region-name="the United States"
+				data-page-name="Data"
+				href="/state/data.cfm">Data</a>
+
+			</li>
+    <div class="dat_block">
+			<ul>
+					            <li><strong>State Profiles</strong></li>
+							<li>
+					<a class="state_terr_list_exc_us_popup_link"
+					   data-page-href="/state/data.cfm?sid={{ID}}#EnergyIndicators"
+					   data-region-name="the United States"
+					   data-page-name="Data"
+					   href="/state/data.cfm#EnergyIndicators">Energy Indicators</a>
+				</li>
+							<li>
+					<a class="state_terr_list_exc_us_popup_link"
+					   data-page-href="/state/data.cfm?sid={{ID}}#Prices"
+					   data-region-name="the United States"
+					   data-page-name="Data"
+					   href="/state/data.cfm#Prices">Prices</a>
+				</li>
+							<li>
+					<a class="state_terr_list_exc_us_popup_link"
+					   data-page-href="/state/data.cfm?sid={{ID}}#Reserves"
+					   data-region-name="the United States"
+					   data-page-name="Data"
+					   href="/state/data.cfm#Reserves">Reserves</a>
+				</li>
+							<li>
+					<a class="state_terr_list_exc_us_popup_link"
+					   data-page-href="/state/data.cfm?sid={{ID}}#SupplyDistribution"
+					   data-region-name="the United States"
+					   data-page-name="Data"
+					   href="/state/data.cfm#SupplyDistribution">Supply & Distribution</a>
+				</li>
+							<li>
+					<a class="state_terr_list_exc_us_popup_link"
+					   data-page-href="/state/data.cfm?sid={{ID}}#ConsumptionExpenditures"
+					   data-region-name="the United States"
+					   data-page-name="Data"
+					   href="/state/data.cfm#ConsumptionExpenditures">Consumption & Expenditures</a>
+				</li>
+							<li>
+					<a class="state_terr_list_exc_us_popup_link"
+					   data-page-href="/state/data.cfm?sid={{ID}}#Environment"
+					   data-region-name="the United States"
+					   data-page-name="Data"
+					   href="/state/data.cfm#Environment">Environment</a>
+				</li>
+			
+				    
+	
+            <li><strong>Energy estimates (SEDS)</strong></li>
+                
+            <li>
+									<a href="/state/seds/seds-data-complete.cfm?sid=US">1960-2024 estimates</a>
+				            </li>
+            <li>
+                            <a href="/state/seds/seds-data-fuel.cfm?sid=US">2025 updates (release schedule)</a>
+                        
+            
+            </li>
+
+            
+            </li>
+                    </ul>
+    </div>
+	<li  id="analysis">
+					<a class="state_terr_list_exc_us_popup_link"
+				data-page-href="/state/analysis.cfm?sid={{ID}}"
+				data-region-name="the United States"
+				data-page-name="Analysis"
+				href="/state/analysis.cfm">Analysis</a>
+			</li>
+	
+       
+      </ul>
+  <div>
+		<ul>
+			<li>&nbsp;</li>
+			<li  id="rankings">
+				 
+					<a href="/state/rankings/?sid=US">Rankings</a>
+							</li>
+			<li class="" id="compare">
+									<a href="/state/compare/?sid=US#?selected=US-US">Compare</a>
+							</li>
+			<!--<li  id="find"><a href="/state/search/?sid=US				
+				">Find</a></li>
+			<li class="help"><a>Help</a></li>-->
+		</ul>
+	</div>
+</div>
+
+<!--
+<div class="blue_side" style="margin-top: 10px; margin-bottom: 10px; background-color: #e8cccf; border: 3px solid #a33340;">
+	<span>
+		<strong>Changes to the State Energy Data System (SEDS) Notice:</strong>&nbsp;In October 2023, we updated the way we calculate primary energy consumption of electricity generation from noncombustible renewable energy sources (solar, wind, hydroelectric, and geothermal). Visit our <a href="/state/seds/seds-change/index.php/">Changes to 1960—2022 conversion factor for renewable energy</a> page to learn more.</div>
+	</span>
+</div>
+-->						
+
+
+
+
+
+
+
+	<h2></h2>
+	<div class="wr1">
+		<div class="d1"></div>
+	</div>
+	<div class="wr2">
+
+
+
+
+<title>Table F15:  Motor gasoline consumption estimates, 2024</title>
+
+
+<table class="basic_table tpl">
+<caption span> <font size = 4>Table F15:  Motor gasoline consumption estimates, 2024</font></caption>
+<tr><td  rowspan="2"  ><br /><br />State</td>
+<td    >Commercial</td>
+<td    >Industrial</td>
+<td    >Transportation</td>
+<td    >Total</td>
+<td    >Commercial</td>
+<td    >Industrial</td>
+<td    >Transportation</td>
+<td    >Total</td>
+</tr>
+<tr>
+<td  colspan="4"  >Thousand barrels</td>
+<td  colspan="4"  >Trillion Btu</td>
+</tr>
+<tr>
+<th scope="row"  >Alabama</th>
+<td     >
+906</td>
+<td     >
+570</td>
+<td     >
+76,509</td>
+<td     >
+77,985</td>
+<td     >
+4.6</td>
+<td     >
+2.9</td>
+<td     >
+386.4</td>
+<td     >
+393.8</td>
+</tr>
+<tr>
+<th scope="row"  >Alaska</th>
+<td     >
+78</td>
+<td     >
+63</td>
+<td     >
+6,029</td>
+<td     >
+6,170</td>
+<td     >
+0.4</td>
+<td     >
+0.3</td>
+<td     >
+30.4</td>
+<td     >
+31.2</td>
+</tr>
+<tr>
+<th scope="row"    >Arizona</th>
+<td       >
+1,605</td>
+<td       >
+923</td>
+<td       >
+68,510</td>
+<td       >
+71,038</td>
+<td       >
+8.1</td>
+<td       >
+4.7</td>
+<td       >
+346.0</td>
+<td       >
+358.7</td>
+</tr>
+<tr>
+<th scope="row"  >Arkansas</th>
+<td     >
+539</td>
+<td     >
+460</td>
+<td     >
+35,401</td>
+<td     >
+36,401</td>
+<td     >
+2.7</td>
+<td     >
+2.3</td>
+<td     >
+178.8</td>
+<td     >
+183.8</td>
+</tr>
+<tr>
+<th scope="row"  >California</th>
+<td     >
+8,390</td>
+<td     >
+9,610</td>
+<td     >
+294,840</td>
+<td     >
+312,840</td>
+<td     >
+42.4</td>
+<td     >
+48.5</td>
+<td     >
+1,488.9</td>
+<td     >
+1,579.8</td>
+</tr>
+<tr>
+<th scope="row"    >Colorado</th>
+<td       >
+1,712</td>
+<td       >
+968</td>
+<td       >
+52,499</td>
+<td       >
+55,178</td>
+<td       >
+8.6</td>
+<td       >
+4.9</td>
+<td       >
+265.1</td>
+<td       >
+278.7</td>
+</tr>
+<tr>
+<th scope="row"  >Connecticut</th>
+<td     >
+673</td>
+<td     >
+389</td>
+<td     >
+34,619</td>
+<td     >
+35,681</td>
+<td     >
+3.4</td>
+<td     >
+2.0</td>
+<td     >
+174.8</td>
+<td     >
+180.2</td>
+</tr>
+<tr>
+<th scope="row"  >Delaware</th>
+<td     >
+274</td>
+<td     >
+75</td>
+<td     >
+11,398</td>
+<td     >
+11,747</td>
+<td     >
+1.4</td>
+<td     >
+0.4</td>
+<td     >
+57.6</td>
+<td     >
+59.3</td>
+</tr>
+<tr>
+<th scope="row"    >Dist. of Col.</th>
+<td       >
+47</td>
+<td       >
+26</td>
+<td       >
+2,303</td>
+<td       >
+2,376</td>
+<td       >
+0.2</td>
+<td       >
+0.1</td>
+<td       >
+11.6</td>
+<td       >
+12.0</td>
+</tr>
+<tr>
+<th scope="row"  >Florida</th>
+<td     >
+5,548</td>
+<td     >
+3,143</td>
+<td     >
+216,645</td>
+<td     >
+225,335</td>
+<td     >
+28.0</td>
+<td     >
+15.9</td>
+<td     >
+1,094.1</td>
+<td     >
+1,137.9</td>
+</tr>
+<tr>
+<th scope="row"  >Georgia</th>
+<td     >
+2,289</td>
+<td     >
+1,592</td>
+<td     >
+113,188</td>
+<td     >
+117,070</td>
+<td     >
+11.6</td>
+<td     >
+8.0</td>
+<td     >
+571.6</td>
+<td     >
+591.2</td>
+</tr>
+<tr>
+<th scope="row"    >Hawaii</th>
+<td       >
+309</td>
+<td       >
+137</td>
+<td       >
+9,494</td>
+<td       >
+9,940</td>
+<td       >
+1.6</td>
+<td       >
+0.7</td>
+<td       >
+47.9</td>
+<td       >
+50.2</td>
+</tr>
+<tr>
+<th scope="row"  >Idaho</th>
+<td     >
+333</td>
+<td     >
+401</td>
+<td     >
+17,252</td>
+<td     >
+17,986</td>
+<td     >
+1.7</td>
+<td     >
+2.0</td>
+<td     >
+87.1</td>
+<td     >
+90.8</td>
+</tr>
+<tr>
+<th scope="row"  >Illinois</th>
+<td     >
+2,436</td>
+<td     >
+1,940</td>
+<td     >
+95,313</td>
+<td     >
+99,689</td>
+<td     >
+12.3</td>
+<td     >
+9.8</td>
+<td     >
+481.3</td>
+<td     >
+503.4</td>
+</tr>
+<tr>
+<th scope="row"    >Indiana</th>
+<td       >
+1,292</td>
+<td       >
+1,536</td>
+<td       >
+68,315</td>
+<td       >
+71,142</td>
+<td       >
+6.5</td>
+<td       >
+7.8</td>
+<td       >
+345.0</td>
+<td       >
+359.3</td>
+</tr>
+<tr>
+<th scope="row"  >Iowa</th>
+<td     >
+530</td>
+<td     >
+1,014</td>
+<td     >
+35,174</td>
+<td     >
+36,717</td>
+<td     >
+2.7</td>
+<td     >
+5.1</td>
+<td     >
+177.6</td>
+<td     >
+185.4</td>
+</tr>
+<tr>
+<th scope="row"  >Kansas</th>
+<td     >
+521</td>
+<td     >
+676</td>
+<td     >
+31,396</td>
+<td     >
+32,593</td>
+<td     >
+2.6</td>
+<td     >
+3.4</td>
+<td     >
+158.6</td>
+<td     >
+164.6</td>
+</tr>
+<tr>
+<th scope="row"    >Kentucky</th>
+<td       >
+612</td>
+<td       >
+512</td>
+<td       >
+51,145</td>
+<td       >
+52,269</td>
+<td       >
+3.1</td>
+<td       >
+2.6</td>
+<td       >
+258.3</td>
+<td       >
+264.0</td>
+</tr>
+<tr>
+<th scope="row"  >Louisiana</th>
+<td     >
+636</td>
+<td     >
+684</td>
+<td     >
+50,397</td>
+<td     >
+51,717</td>
+<td     >
+3.2</td>
+<td     >
+3.5</td>
+<td     >
+254.5</td>
+<td     >
+261.2</td>
+</tr>
+<tr>
+<th scope="row"  >Maine</th>
+<td     >
+317</td>
+<td     >
+142</td>
+<td     >
+15,216</td>
+<td     >
+15,674</td>
+<td     >
+1.6</td>
+<td     >
+0.7</td>
+<td     >
+76.8</td>
+<td     >
+79.2</td>
+</tr>
+<tr>
+<th scope="row"    >Maryland</th>
+<td       >
+1,542</td>
+<td       >
+478</td>
+<td       >
+54,325</td>
+<td       >
+56,345</td>
+<td       >
+7.8</td>
+<td       >
+2.4</td>
+<td       >
+274.3</td>
+<td       >
+284.5</td>
+</tr>
+<tr>
+<th scope="row"  >Massachusetts</th>
+<td     >
+1,257</td>
+<td     >
+837</td>
+<td     >
+57,969</td>
+<td     >
+60,062</td>
+<td     >
+6.3</td>
+<td     >
+4.2</td>
+<td     >
+292.7</td>
+<td     >
+303.3</td>
+</tr>
+<tr>
+<th scope="row"  >Michigan</th>
+<td     >
+1,499</td>
+<td     >
+1,446</td>
+<td     >
+101,506</td>
+<td     >
+104,452</td>
+<td     >
+7.6</td>
+<td     >
+7.3</td>
+<td     >
+512.6</td>
+<td     >
+527.5</td>
+</tr>
+<tr>
+<th scope="row"    >Minnesota</th>
+<td       >
+976</td>
+<td       >
+1,139</td>
+<td       >
+55,962</td>
+<td       >
+58,077</td>
+<td       >
+4.9</td>
+<td       >
+5.8</td>
+<td       >
+282.6</td>
+<td       >
+293.3</td>
+</tr>
+<tr>
+<th scope="row"  >Mississippi</th>
+<td     >
+323</td>
+<td     >
+305</td>
+<td     >
+38,995</td>
+<td     >
+39,623</td>
+<td     >
+1.6</td>
+<td     >
+1.5</td>
+<td     >
+196.9</td>
+<td     >
+200.1</td>
+</tr>
+<tr>
+<th scope="row"  >Missouri</th>
+<td     >
+1,204</td>
+<td     >
+975</td>
+<td     >
+74,606</td>
+<td     >
+76,785</td>
+<td     >
+6.1</td>
+<td     >
+4.9</td>
+<td     >
+376.8</td>
+<td     >
+387.8</td>
+</tr>
+<tr>
+<th scope="row"    >Montana</th>
+<td       >
+172</td>
+<td       >
+422</td>
+<td       >
+12,691</td>
+<td       >
+13,286</td>
+<td       >
+0.9</td>
+<td       >
+2.1</td>
+<td       >
+64.1</td>
+<td       >
+67.1</td>
+</tr>
+<tr>
+<th scope="row"  >Nebraska</th>
+<td     >
+314</td>
+<td     >
+601</td>
+<td     >
+20,823</td>
+<td     >
+21,738</td>
+<td     >
+1.6</td>
+<td     >
+3.0</td>
+<td     >
+105.2</td>
+<td     >
+109.8</td>
+</tr>
+<tr>
+<th scope="row"  >Nevada</th>
+<td     >
+812</td>
+<td     >
+434</td>
+<td     >
+26,866</td>
+<td     >
+28,112</td>
+<td     >
+4.1</td>
+<td     >
+2.2</td>
+<td     >
+135.7</td>
+<td     >
+142.0</td>
+</tr>
+<tr>
+<th scope="row"    >New Hampshire</th>
+<td       >
+341</td>
+<td       >
+193</td>
+<td       >
+16,279</td>
+<td       >
+16,813</td>
+<td       >
+1.7</td>
+<td       >
+1.0</td>
+<td       >
+82.2</td>
+<td       >
+84.9</td>
+</tr>
+<tr>
+<th scope="row"  >New Jersey</th>
+<td     >
+1,725</td>
+<td     >
+1,263</td>
+<td     >
+81,729</td>
+<td     >
+84,717</td>
+<td     >
+8.7</td>
+<td     >
+6.4</td>
+<td     >
+412.7</td>
+<td     >
+427.8</td>
+</tr>
+<tr>
+<th scope="row"  >New Mexico</th>
+<td     >
+347</td>
+<td     >
+488</td>
+<td     >
+21,683</td>
+<td     >
+22,518</td>
+<td     >
+1.8</td>
+<td     >
+2.5</td>
+<td     >
+109.5</td>
+<td     >
+113.7</td>
+</tr>
+<tr>
+<th scope="row"    >New York</th>
+<td       >
+2,783</td>
+<td       >
+2,434</td>
+<td       >
+119,752</td>
+<td       >
+124,969</td>
+<td       >
+14.1</td>
+<td       >
+12.3</td>
+<td       >
+604.7</td>
+<td       >
+631.1</td>
+</tr>
+<tr>
+<th scope="row"  >North Carolina</th>
+<td     >
+2,081</td>
+<td     >
+1,469</td>
+<td     >
+119,590</td>
+<td     >
+123,140</td>
+<td     >
+10.5</td>
+<td     >
+7.4</td>
+<td     >
+603.9</td>
+<td     >
+621.9</td>
+</tr>
+<tr>
+<th scope="row"  >North Dakota</th>
+<td     >
+111</td>
+<td     >
+541</td>
+<td     >
+9,472</td>
+<td     >
+10,123</td>
+<td     >
+0.6</td>
+<td     >
+2.7</td>
+<td     >
+47.8</td>
+<td     >
+51.1</td>
+</tr>
+<tr>
+<th scope="row"    >Ohio</th>
+<td       >
+2,174</td>
+<td       >
+1,379</td>
+<td       >
+109,682</td>
+<td       >
+113,235</td>
+<td       >
+11.0</td>
+<td       >
+7.0</td>
+<td       >
+553.9</td>
+<td       >
+571.8</td>
+</tr>
+<tr>
+<th scope="row"  >Oklahoma</th>
+<td     >
+943</td>
+<td     >
+837</td>
+<td     >
+44,296</td>
+<td     >
+46,076</td>
+<td     >
+4.8</td>
+<td     >
+4.2</td>
+<td     >
+223.7</td>
+<td     >
+232.7</td>
+</tr>
+<tr>
+<th scope="row"  >Oregon</th>
+<td     >
+968</td>
+<td     >
+1,132</td>
+<td     >
+32,416</td>
+<td     >
+34,516</td>
+<td     >
+4.9</td>
+<td     >
+5.7</td>
+<td     >
+163.7</td>
+<td     >
+174.3</td>
+</tr>
+<tr>
+<th scope="row"    >Pennsylvania</th>
+<td       >
+2,345</td>
+<td       >
+1,479</td>
+<td       >
+101,610</td>
+<td       >
+105,434</td>
+<td       >
+11.8</td>
+<td       >
+7.5</td>
+<td       >
+513.1</td>
+<td       >
+532.4</td>
+</tr>
+<tr>
+<th scope="row"  >Rhode Island</th>
+<td     >
+147</td>
+<td     >
+113</td>
+<td     >
+8,498</td>
+<td     >
+8,758</td>
+<td     >
+0.7</td>
+<td     >
+0.6</td>
+<td     >
+42.9</td>
+<td     >
+44.2</td>
+</tr>
+<tr>
+<th scope="row"  >South Carolina</th>
+<td     >
+1,374</td>
+<td     >
+574</td>
+<td     >
+64,992</td>
+<td     >
+66,940</td>
+<td     >
+6.9</td>
+<td     >
+2.9</td>
+<td     >
+328.2</td>
+<td     >
+338.0</td>
+</tr>
+<tr>
+<th scope="row"    >South Dakota</th>
+<td       >
+142</td>
+<td       >
+322</td>
+<td       >
+11,044</td>
+<td       >
+11,508</td>
+<td       >
+0.7</td>
+<td       >
+1.6</td>
+<td       >
+55.8</td>
+<td       >
+58.1</td>
+</tr>
+<tr>
+<th scope="row"  >Tennessee</th>
+<td     >
+1,147</td>
+<td     >
+855</td>
+<td     >
+80,396</td>
+<td     >
+82,398</td>
+<td     >
+5.8</td>
+<td     >
+4.3</td>
+<td     >
+406.0</td>
+<td     >
+416.1</td>
+</tr>
+<tr>
+<th scope="row"  >Texas</th>
+<td     >
+4,927</td>
+<td     >
+5,299</td>
+<td     >
+340,939</td>
+<td     >
+351,166</td>
+<td     >
+24.9</td>
+<td     >
+26.8</td>
+<td     >
+1,721.7</td>
+<td     >
+1,773.4</td>
+</tr>
+<tr>
+<th scope="row"    >Utah</th>
+<td       >
+538</td>
+<td       >
+550</td>
+<td       >
+30,220</td>
+<td       >
+31,308</td>
+<td       >
+2.7</td>
+<td       >
+2.8</td>
+<td       >
+152.6</td>
+<td       >
+158.1</td>
+</tr>
+<tr>
+<th scope="row"  >Vermont</th>
+<td     >
+140</td>
+<td     >
+156</td>
+<td     >
+6,466</td>
+<td     >
+6,761</td>
+<td     >
+0.7</td>
+<td     >
+0.8</td>
+<td     >
+32.7</td>
+<td     >
+34.1</td>
+</tr>
+<tr>
+<th scope="row"  >Virginia</th>
+<td     >
+2,023</td>
+<td     >
+796</td>
+<td     >
+93,311</td>
+<td     >
+96,130</td>
+<td     >
+10.2</td>
+<td     >
+4.0</td>
+<td     >
+471.2</td>
+<td     >
+485.5</td>
+</tr>
+<tr>
+<th scope="row"    >Washington</th>
+<td       >
+1,487</td>
+<td       >
+971</td>
+<td       >
+59,222</td>
+<td       >
+61,681</td>
+<td       >
+7.5</td>
+<td       >
+4.9</td>
+<td       >
+299.1</td>
+<td       >
+311.5</td>
+</tr>
+<tr>
+<th scope="row"  >West Virginia</th>
+<td     >
+277</td>
+<td     >
+222</td>
+<td     >
+17,146</td>
+<td     >
+17,645</td>
+<td     >
+1.4</td>
+<td     >
+1.1</td>
+<td     >
+86.6</td>
+<td     >
+89.1</td>
+</tr>
+<tr>
+<th scope="row"  >Wisconsin</th>
+<td     >
+995</td>
+<td     >
+945</td>
+<td     >
+57,527</td>
+<td     >
+59,468</td>
+<td     >
+5.0</td>
+<td     >
+4.8</td>
+<td     >
+290.5</td>
+<td     >
+300.3</td>
+</tr>
+<tr>
+<th scope="row"    >Wyoming</th>
+<td       >
+89</td>
+<td       >
+205</td>
+<td       >
+8,123</td>
+<td       >
+8,417</td>
+<td       >
+0.4</td>
+<td       >
+1.0</td>
+<td       >
+41.0</td>
+<td       >
+42.5</td>
+</tr>
+<tr>
+<th scope="row"  >United States</th>
+<td     >
+64,248</td>
+<td     >
+53,723</td>
+<td     >
+3,163,779</td>
+<td     >
+3,281,750</td>
+<td     >
+324.5</td>
+<td     >
+271.3</td>
+<td     >
+15,977.1</td>
+<td     >
+16,572.8</td>
+</tr>
+<tr>
+	</tr>
+	
+</table>
+	
+	<p> <font size = 2>Footnotes:
+		
+		<br><br>
+		Where shown, (s) = Physical unit value less than 0.5 or Btu value less than 0.05.
+<br><br>
+	Notes: · Motor gasoline estimates include fuel ethanol blended into motor gasoline. · Totals may not
+equal sum of components due to independent rounding.
+<br><br>
+	Data source: U.S. Energy Information Administration, State Energy Data System. See technical notes. <a href="https://www.eia.gov/state/seds/" title="https://www.eia.gov/state/seds/">https://www.eia.gov/state/seds/</a>
+	
+	
+
+		</font>
+	</p>
+	
+
+
+
+
+	</div>
+
+				            <!-- start footer -->
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+	<div class="footer-inner">
+		<div class="l-row  l-two-col-right address-bar">
+			<div class="l-col">
+				<ul class="above-address-links">
+					<li><a href="/about/">About EIA</a><span class="right-arrow-head"></span></li>
+					<li><a href="/beta/api/">Open Data</a><span class="right-arrow-head"></span></li>
+					<li><a href="/reports/legacy/">Legacy</a><span class="right-arrow-head"></span></li>
+					<li><a href="/about/contact/">Contact Us</a><span class="right-arrow-head"></span></li>
+				</ul>
+			</div>
+			<div class="l-col">
+				<div>U.S. Energy Information Administration</div>
+				<div>1000 Independence Ave., SW</div>
+				<div>Washington, DC 20585</div>
+			</div>
+		</div>
+		<div class="footer-links">
+			<!-- col 1 -->
+			<div>Policies</div>
+			<div><a href="/about/privacy_security_policy.php">Privacy/Security</a></div>
+			<div><a href="/about/copyrights_reuse.php">Copyright &amp; Reuse</a></div>
+			<div><a href="/about/accessibility.php">Accessibility</a></div>
+			<!-- col 2 -->
+			<div><a href="/about/information_quality_guidelines.php">Information Quality</a></div>
+			<div><a href="/about/foia.php">Freedom of Information Act (FOIA)</a></div>
+			<!-- col 3 -->
+			<div>Related Sites</div>
+			<div><a href="https://www.usa.gov/">usa.gov</a></div>
+			<div><a href="https://www.energy.gov/">U.S. Department of Energy</a></div>
+			<!-- col 4 -->
+			<div>Stay Connected</div>
+			<div><a href="http://facebook.com/eiagov/" target="_blank"><span class="ico-footer facebook"></span>Facebook</a></div>
+			<div><a href="http://x.com/eiagov/" target="_blank"><span class="ico-footer twitter"></span>X</a></div>
+			<!-- col 5 -->
+			<div><a href="http://youtube.com/eiagov/" target="_blank"><span class="ico-footer youtube"></span>Youtube</a></div>
+			<div><a href="http://linkedin.com/company/u-s-energy-information-administration" target="_blank"><span class="ico-footer linkedin"></span>LinkedIn</a></div>
+			<!-- col 6 -->
+			<div><a href="/tools/emailupdates/" target="_blank"><span class="ico-footer email"></span>Email Updates</a></div>
+			<div><a href="/tools/rssfeeds/" target="_blank"><span class="ico-footer rss"></span>RSS Feeds</a></div>
+		</div>
+	</div>
+</footer>
+<div class="mega-menu-overlay">
+	<div class="mega-menu">
+		<button type="button" class="close" tabindex="0"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" class="p-dialog-header-close-icon p-icon" aria-hidden="true">
+				<path d="M8.01186 7.00933L12.27 2.75116C12.341 2.68501 12.398 2.60524 12.4375 2.51661C12.4769 2.42798 12.4982 2.3323 12.4999 2.23529C12.5016 2.13827 12.4838 2.0419 12.4474 1.95194C12.4111 1.86197 12.357 1.78024 12.2884 1.71163C12.2198 1.64302 12.138 1.58893 12.0481 1.55259C11.9581 1.51625 11.8617 1.4984 11.7647 1.50011C11.6677 1.50182 11.572 1.52306 11.4834 1.56255C11.3948 1.60204 11.315 1.65898 11.2488 1.72997L6.99067 5.98814L2.7325 1.72997C2.59553 1.60234 2.41437 1.53286 2.22718 1.53616C2.03999 1.53946 1.8614 1.61529 1.72901 1.74767C1.59663 1.88006 1.5208 2.05865 1.5175 2.24584C1.5142 2.43303 1.58368 2.61419 1.71131 2.75116L5.96948 7.00933L1.71131 11.2675C1.576 11.403 1.5 11.5866 1.5 11.7781C1.5 11.9696 1.576 12.1532 1.71131 12.2887C1.84679 12.424 2.03043 12.5 2.2219 12.5C2.41338 12.5 2.59702 12.424 2.7325 12.2887L6.99067 8.03052L11.2488 12.2887C11.3843 12.424 11.568 12.5 11.7594 12.5C11.9509 12.5 12.1346 12.424 12.27 12.2887C12.4053 12.1532 12.4813 11.9696 12.4813 11.7781C12.4813 11.5866 12.4053 11.403 12.27 11.2675L8.01186 7.00933Z" fill="currentColor"></path>
+			</svg></button>
+		<div class="topic-selectors">
+			<div class="topic-selector topic-selector-1" data-topic="topic-1" data-topic-selector="inactive">Statistics</div>
+			<div class="topic-selector topic-selector-2" data-topic="topic-2" data-topic-selector="inactive">Analysis</div>
+			<div class="topic-selector topic-selector-3" data-topic="topic-3" data-topic-selector="inactive">Tools</div>
+			<div class="topic-selector topic-selector-4" data-topic="topic-4" data-topic-selector="inactive">Education</div>
+			<div class="topic-selector topic-selector-5" data-topic="topic-5" data-topic-selector="inactive">News</div>
+		</div>
+		<div class="topics">
+			<div class="topic topic-1" data-topic-panel="inactive">
+				<div class="column">
+					<div class="petroleum">
+						<span class="ico-menu petroleum-icon"></span>
+						<span>
+							<h3>
+								<a href="/petroleum/" title="Petroleum & Other Liquids">Petroleum &amp; Other Liquids</a>
+							</h3>
+							<p>Crude oil, gasoline, heating oil, diesel, propane, and other liquids including biofuels and natural gas liquids.</p>
+						</span>
+					</div>
+					<div class="natural-gas">
+						<span class="ico-menu natural-gas-icon"></span>
+						<span>
+							<h3>
+								<a href="/naturalgas/" title="Natural Gas">Natural Gas</a>
+							</h3>
+							<p>Exploration and reserves, storage, imports and exports, production, prices, sales.</p>
+						</span>
+					</div>
+
+					<div class="electricity">
+						<span class="ico-menu electricity-icon"></span>
+						<span>
+							<h3>
+								<a href="/electricity/" title="Electricity">Electricity</a>
+							</h3>
+							<p>Sales, revenue and prices, power plants, fuel use, stocks, generation, trade, demand &amp; emissions.</p>
+						</span>
+					</div>
+					<div class="coal">
+						<span class="ico-menu coal-icon"></span>
+						<span>
+							<h3>
+								<a href="/coal/" title="Coal">Coal</a>
+							</h3>
+							<p>Reserves, production, prices, employment and productivity, distribution, stocks, imports and exports.</p>
+						</span>
+					</div>
+					<div class="nuclear">
+						<span class="ico-menu nuclear-icon"></span>
+						<span>
+							<h3>
+								<a href="/nuclear/" title="Nuclear & Uranium">Nuclear &amp; Uranium</a>
+							</h3>
+							<p>Uranium fuel, nuclear reactors, generation, spent fuel.</p>
+						</span>
+					</div>
+
+					<div class="renewable">
+						<span class="ico-menu renewable-icon"></span>
+						<span>
+							<h3>
+								<a href="/renewable/" title="Renewable & Alternative Fuels">Renewable &amp; Alternative Fuels</a>
+							</h3>
+							<p>Includes hydropower, solar, wind, geothermal, biomass and ethanol.</p>
+						</span>
+					</div>
+
+					<div class="survey-forms">
+						<span class="ico-menu survey-forms-icon"></span>
+						<span>
+							<h3>
+								<a href="/survey/" title="EIA Survey Forms">EIA Survey Forms</a>
+							</h3>
+							<p>Forms EIA uses to collect energy data including descriptions, links to survey instructions, and additional information.</p>
+													</span>
+					</div>
+
+				</div>
+				<div class="column">
+
+					<div class="total-energy">
+						<span class="ico-menu total-energy-icon"></span>
+						<span>
+							<h3>
+								<a href="/totalenergy/" title="Total Energy">Total Energy</a>
+							</h3>
+							<p>Comprehensive data summaries, comparisons, analysis, and projections integrated across all energy sources.</p>
+							<ul>
+								<li>
+									<a href="/totalenergy/data/monthly/" title="Monthly Energy Review">Monthly Energy Review</a>
+								</li>
+								<!--li>
+										<a href="/totalenergy/data/annual/" title="Annual Energy Review">Annual Energy Review</a>
+									</li-->
+							</ul>
+						</span>
+					</div>
+
+					<div class="consumption">
+						<span class="ico-menu consumption-icon"></span>
+						<span>
+							<h3>
+								<a href="/consumption/" title="Consumption & Efficiency">Consumption &amp; Efficiency</a>
+							</h3>
+							<p>Energy use in homes, commercial buildings, manufacturing, and transportation.</p>
+							<ul>
+								<li>
+									<a href="/consumption/residential/" title="Residential Energy Consumption Survey (RECS)">Residential Energy Consumption Survey (RECS)</a>
+								</li>
+								<li>
+									<a href="/consumption/commercial/" title="Commercial Buildings Energy Consumption Survey (CBECS)">Commercial Buildings Energy Consumption Survey (CBECS)</a>
+								</li>
+								<li>
+									<a href="/consumption/manufacturing/" title="Manufacturing Energy Consumption Survey (MECS)">Manufacturing Energy Consumption Survey (MECS)</a>
+								</li>
+							</ul>
+						</span>
+					</div>
+
+					<div class="states">
+						<span class="ico-menu states-icon"></span>
+						<span>
+							<h3>
+								<a href="/states/" title="U.S. States">U.S. States</a>
+							</h3>
+							<p>State energy information, including overviews, rankings, data, and analyses.</p>
+							<!--ul>
+									<li>
+										<a href="/state/seds/" title="State Energy Data System (SEDS)">State Energy Data System (SEDS)</a>
+									</li>
+								</ul-->
+						</span>
+					</div>
+					<div class="international">
+						<span class="ico-menu international-icon"></span>
+						<span>
+							<h3>
+								<a href="/international/" title="International">International</a>
+							</h3>
+							<p>International energy information, including overviews, rankings, data, and analyses.</p>
+							<!--ul>
+									<li>
+										<a href="/international/data/browser/" title="International Energy Statistics">International Energy Statistics</a>
+									</li>
+								</ul-->
+						</span>
+					</div>
+
+					<div class="environment">
+						<span class="ico-menu environment-icon"></span>
+						<span>
+							<h3>
+								<a href="/environment/" title="Environment">Environment</a>
+							</h3>
+							<p>Greenhouse gas data, voluntary reporting, electric power plant emissions.</p>
+							<ul>
+								<li><a href="/environment/emissions/carbon/" title="U.S. Energy-Related Carbon Dioxide Emissions">U.S. Energy-Related Carbon Dioxide Emissions</a></li>
+								<!-- li><a href="/environment/emissions/state/analysis/" title="Energy-Related Carbon Dioxide Emissions at the State Level, 2005-2016">Energy-Related Carbon Dioxide Emissions at the State Level, 2005-2016</a></li -->
+								<li><a href="/environment/emissions/state/" title="Energy-Related Carbon Dioxide Emissions at the State Level">Energy-Related Carbon Dioxide Emissions at the State Level</a></li>
+							</ul>
+						</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="topic topic-2" data-topic-panel="inactive">
+				<div class="column">
+					<div>
+						<span class="ico-menu analysis-projections-icon"></span>
+						<span>
+							<h3>
+								<a href="/analysis/" title="Analysis">Analysis and Projections</a>
+							</h3>
+							<p>Monthly and yearly energy forecasts, analysis of energy topics, financial analysis, congressional reports.</p>
+							<ul>
+								<li>
+									<a href="/outlooks/steo/" title="Short-Term Energy Outlook">Short-Term Energy Outlook</a>
+								</li>
+								<li>
+									<a href="/outlooks/aeo/" title="Annual Energy Outlook">Annual Energy Outlook</a>
+								</li>
+							</ul>
+						</span>
+					</div>
+
+					<div>
+						<span class="ico-menu markets-finance-icon"></span>
+						<span>
+							<h3>
+								<!--Special Reports-->
+								<a href="/reports/#T138" title="Special Reports">Special Reports</a>
+							</h3>
+							<p>Special market analysis and/or data requests.</p>
+							<ul>
+								<li>
+									<a href="/analysis/requests/residential/utility/" title="Residential Utility Disconnections Report">EIA-112 Residential Utility Disconnections</a>
+								</li>
+								<li>
+									<a href="/international/analysis/special-topics/SHIP_Act" title="SHIP Act">SHIP Act</a>
+								</li>
+								<li>
+									<a href="/finance/markets/crudeoil/" title="Energy & Financial Markets: What Drives Crude Oil Prices?">Energy &amp; Financial Markets: What Drives Crude Oil Prices?</a>
+								</li>
+							</ul>
+						</span>
+					</div>
+				</div>
+
+				<div class="column">
+					<div class="international">
+						<span class="ico-menu international-icon"></span>
+						<span>
+							<h3>
+								<a href="/international/" title="International">International</a>
+							</h3>
+							<p>International energy analyses.</p>
+							<ul>
+								<li>
+									<a href="/international/analysis/world" title="Regional Analysis Briefs">Regional Analysis Briefs</a>
+								</li>
+								<li>
+									<a href="/international/analysis/world" title="Country Analysis Briefs">Country Analysis Briefs</a>
+								</li>
+								<li>
+									<a href="/international/analysis/special-topics/World_Oil_Transit_Chokepoints" title="World Oil Transit Chokepoints">World Oil Transit Chokepoints</a>
+								</li>
+								<li>
+									<a href="/international/analysis/special-topics/OPEC_Revenues_Fact_Sheet" title="OPEC Revenue">OPEC Revenue</a>
+								</li>
+
+								<li>
+									<a href="/outlooks/steo/report/energysecurity/article.php" title="Global Energy Security data">Global Energy Security Data</a>
+								</li>
+
+							</ul>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="topic topic-3" data-topic-panel="inactive">
+				<div class="column">
+					<!--div class="eia-glossary">
+									<span class="ico-menu eia-glossary-icon"></span>
+									<span>
+										<h3>
+											<a href="/tools/glossary/" title="Glossary">Glossary</a>
+										</h3>
+										<div class="form-wrapper">
+    <form action="/tools/glossary/index.php" method="post" name="frmGlossary">
+        <input class="fancy-search-box" name="glossary" placeholder="Search the glossary" onfocus="this.placeholder=''" onblur="this.placeholder='Search the glossary'"
+            type="text" />
+        <button class="search-submit"></button>
+    </form>
+</div>								</div-->
+					<div class="data-tools-model">
+						<span class="ico-menu data-tools-model-icon"></span>
+						<span>
+							<h3>
+								<a href="/tools/" title="Data Tools, Apps, & Maps">Data Tools, Apps, &amp; Maps</a>
+							</h3>
+							<p>Tools to customize searches, view specific data sets, study detailed documentation, and access time-series data.</p>
+						</span>
+					</div>
+					<div class="open-data">
+						<span class="ico-menu open-data-icon"></span>
+						<span>
+							<h3>
+								<a href="/opendata/" title="Open Data">Open Data</a>
+							</h3>
+							<p>EIA's free and open data available as API, Excel add-in, bulk files, and widgets</p>
+						</span>
+					</div>
+					<div class="beta">
+						<span class="ico-menu beta-icon"></span>
+						<span>
+							<h3>
+								<a href="/beta" title="EIA Beta">EIA Beta</a>
+							</h3>
+							<p>Come test out some of the products still in development and let us know what you think!</p>
+						</span>
+					</div>
+					<div class="open-source-code">
+						<span class="ico-menu open-source-code-icon"></span>
+						<span>
+							<h3>
+								<a href="/tools/open-source-code/" title="Open Source Code">Open Source Code</a>
+							</h3>
+							<p>EIA's open source code, available on GitHub.</p>
+						</span>
+					</div>
+				</div>
+				<div class="column">
+					<div class="reports">
+						<span class="ico-menu reports-icon"></span>
+						<span>
+							<h3>
+								<a href="/reports/" title="All Reports & Products">All Reports &amp; Products</a>
+							</h3>
+							<div id="header-tag-search" class="reports-publication-search form-wrapper">
+	<form id="header-bookshelf-search-form">
+		<input type="text" class="fancy-search-box" value="" tabindex="-1" placeholder="Enter tags. Tags should be separated with the + character" onfocus="this.placeholder=''" onblur="this.placeholder='Enter tags. Tags should be separated with the + character'" />
+		<button class="search-submit" id="goBtn"></button>
+		<div id="header-tags-search" class="tags-search">
+			<ul class="bookshelftags"></ul>
+		</div>
+	</form>
+</div>
+
+
+
+
+
+						</span>
+					</div>
+					<!--div class="survey-forms">
+									<span class="ico-menu survey-forms-icon"></span>
+									<span>
+										<h3>
+											<a href="/survey/" title="EIA Survey Forms">EIA Survey Forms</a>
+										</h3>
+										<p>Forms EIA uses to collect energy data including descriptions, links to survey instructions, and additional information.</p>
+																			</span>
+								</div-->
+					<div class="email-complex">
+						<span class="ico-menu email-complex-icon"></span>
+						<span>
+							<h3>
+								<a href="/tools/emailupdates/" title="Email Updates">Email Updates</a>
+							</h3>
+							<p>Sign up for email subscriptions to receive messages about specific EIA products</p>
+						</span>
+					</div>
+					<div class="rss-complex">
+						<span class="ico-menu rss-complex-icon"></span>
+						<span>
+							<h3>
+								<a href="/tools/rssfeeds/" title="RSS Feeds">RSS Feeds</a>
+							</h3>
+							<p>Subscribe to feeds for updates on EIA products including Today in Energy and What's New.</p>
+						</span>
+					</div>
+					<div class="follow-us">
+						<span class="ico-menu follow-us-icon"></span>
+						<span>
+							<h3>Follow us. . .</h3>
+							<p>
+								<a href="http://facebook.com/eiagov/" title="facebook" target="_blank">
+									<span class="ico-menu facebook"></span>
+								</a>
+								<a href="http://x.com/eiagov/" title="twitter" target="_blank">
+									<span class="ico-menu twitter"></span>
+								</a>
+								<a href="http://youtube.com/eiagov/" title="youtube" target="_blank">
+									<span class="ico-menu youtube"></span>
+								</a>
+								<!--a href="https://www.flickr.com/photos/eiagov/" title="flickr">
+                                            <span class="ico-menu flickr"></span>
+                                        </a-->
+								<a href="https://www.linkedin.com/company/u-s-energy-information-administration" title="linkedin">
+									<span class="ico-menu linkedin"></span>
+								</a>
+							</p>
+						</span>
+
+					</div>
+				</div>
+				<div class="a-z-bottom" style="--d: 280ms;">
+	<div class="nav-menu a-z-index">
+		<span class="ico-menu a-z-index-icon"></span>
+		<span>
+			<h3>
+				<a href="/tools/a-z/" title="A-Z Index">A-Z Index</a>
+			</h3>
+			<div class="a-z-list">
+				<a href="/tools/a-z/index.php?id=a" title="A">A</a> |
+				<a href="/tools/a-z/index.php?id=b" title="B">B</a> |
+				<a href="/tools/a-z/index.php?id=c" title="C">C</a> |
+				<a href="/tools/a-z/index.php?id=d" title="D">D</a> |
+				<a href="/tools/a-z/index.php?id=e" title="E">E</a> |
+				<a href="/tools/a-z/index.php?id=f" title="F">F</a> |
+				<a href="/tools/a-z/index.php?id=g" title="G">G</a> |
+				<a href="/tools/a-z/index.php?id=h" title="H">H</a> |
+				<a href="/tools/a-z/index.php?id=i" title="I">I</a> |
+				<a href="/tools/a-z/index.php?id=j" title="J">J</a> |
+				<a href="/tools/a-z/index.php?id=k" title="K">K</a> |
+				<a href="/tools/a-z/index.php?id=l" title="L">L</a> |
+				<a href="/tools/a-z/index.php?id=m" title="M">M</a> |
+				<a href="/tools/a-z/index.php?id=n" title="N">N</a> |
+				<a href="/tools/a-z/index.php?id=o" title="O">O</a> |
+				<a href="/tools/a-z/index.php?id=p" title="P">P</a> |
+				<a href="/tools/a-z/index.php?id=q" title="Q">Q</a> |
+				<a href="/tools/a-z/index.php?id=r" title="R">R</a> |
+				<a href="/tools/a-z/index.php?id=s" title="S">S</a> |
+				<a href="/tools/a-z/index.php?id=t" title="T">T</a> |
+				<a href="/tools/a-z/index.php?id=u" title="U">U</a> |
+				<a href="/tools/a-z/index.php?id=v" title="V">V</a> |
+				<a href="/tools/a-z/index.php?id=w" title="W">W</a> |
+				<a href="/tools/a-z/index.php?id=xyz" title="XYZ">XYZ</a>
+			</div>
+		</span> 
+	</div>
+</div>			</div>
+			<div class="topic topic-4" data-topic-panel="inactive">
+				<div class="column">
+					<!--div class="today-in-energy">
+									<span class="ico-menu today-in-energy-icon"></span>
+									<span>
+										<h3>
+											<a href="/todayinenergy/" title="Today in Energy">Today in Energy</a>
+										</h3>
+										<p>Short, timely articles with graphics on energy, facts, issues, and trends.</p>
+									</span>
+								</div-->
+					<div>
+						<span class="ico-menu energy-explained-icon"></span>
+						<span style="width: 100%;">
+							<h3>
+								<a href="/energyexplained/" title="Energy Explained">Energy Explained</a>
+							</h3>
+							<div class="temporary-class">
+								<ul class="energy-explained-list left">
+									<li>
+										<a href="/energyexplained/what-is-energy/" title="What is Energy?">What is Energy?</a>
+									</li>
+									<li>
+										<a href="/energyexplained/units-and-calculators/" title="Units & Calculators">Units &amp; Calculators</a>
+									</li>
+									<li>
+										<a href="/energyexplained/us-energy-facts/" title="U.S. Energy Facts">U.S. Energy Facts</a>
+									</li>
+									<li>
+										<a href="/energyexplained/use-of-energy/" title="Use of Energy">Use of Energy</a>
+									</li>
+									<li>
+										<a href="/energyexplained/energy-and-the-environment/" title="Energy & Environment">Energy &amp; Environment</a>
+									</li>
+									<li>
+										<a href="/energyexplained/oil-and-petroleum-products/" title="Petroleum">Petroleum</a>
+									</li>
+									<li>
+										<a href="/energyexplained/hydrocarbon-gas-liquids/" title="Hydrocarbon Gas Liquids">Hydrocarbon Gas Liquids</a>
+									</li>
+									<li>
+										<a href="/energyexplained/natural-gas/" title="Natural Gas">Natural Gas</a>
+									</li>
+								</ul>
+								<ul class="energy-explained-list right">
+									<li>
+										<a href="/energyexplained/coal/" title="Coal">Coal</a>
+									</li>
+									<li>
+										<a href="/energyexplained/nuclear/" title="Nuclear">Nuclear</a>
+									</li>
+									<li>
+										<a href="/energyexplained/electricity/" title="Electricity">Electricity</a>
+									</li>
+									<li>
+										<a href="/energyexplained/hydrogen/" title="Hydrogen">Hydrogen</a>
+									</li>
+									<li>
+										<a href="/energyexplained/hydropower/" title="Hydropower">Hydropower</a>
+									</li>
+									<li>
+										<a href="/energyexplained/biofuels/" title="Biofuels">Biofuels</a>
+									</li>
+									<li>
+										<a href="/energyexplained/biomass/" title="Biomass">Biomass</a>
+									</li>
+									<li>
+										<a href="/energyexplained/wind/" title="Wind">Wind</a>
+									</li>
+									<li>
+										<a href="/energyexplained/geothermal/" title="Geothermal">Geothermal</a>
+									</li>
+									<li>
+										<a href="/energyexplained/solar/" title="Solar">Solar</a>
+									</li>
+								</ul>
+							</div>
+						</span>
+					</div>
+					<div class="teachers">
+						<span class="ico-menu teachers-icon"></span>
+						<span>
+							<h3>
+								<a href="/kids/energy.php?page=6" title="For Teachers">For Teachers</a>
+							</h3>
+							<p>Lesson plans, science fair experiments, field trips, teacher guide, and career corner.</p>
+						</span>
+					</div>
+				</div>
+				<div class="column">
+					<div class="eia-glossary">
+						<span class="ico-menu eia-glossary-icon"></span>
+						<span>
+							<h3>
+								<a href="/tools/glossary/" title="Glossary">Glossary</a>
+							</h3>
+							<div class="form-wrapper">
+    <form action="/tools/glossary/index.php" method="post" name="frmGlossary">
+        <input class="fancy-search-box" name="glossary" placeholder="Search the glossary" onfocus="this.placeholder=''" onblur="this.placeholder='Search the glossary'"
+            type="text" />
+        <button class="search-submit"></button>
+    </form>
+</div>						</span>
+					</div>
+					<div>
+						<span class="ico-menu faq-icon"></span>
+						<span style="width: 100%">
+							<h3>
+								<a href="/tools/faqs/" title="FAQs">FAQs</a>
+							</h3>
+							<div class="temporary-class">
+								<ul class="faq-list left">
+									<li>
+										<a href="/tools/faqs/#coal" title="Coal">Coal</a>
+									</li>
+									<li>
+										<a href="/tools/faqs/#conversion equivalents" title="Conversion & Equivalents">Conversion &amp; Equivalents</a>
+									</li>
+									<li>
+										<a href="/tools/faqs/index.php#oil/petroleum" title="Oil/Petroleum">Oil/Petroleum</a>
+									</li>
+									<li>
+										<a href="/tools/faqs/#diesel" title="Diesel">Diesel</a>
+									</li>
+									<li>
+										<a href="/tools/faqs/#electricity" title="Electricity">Electricity</a>
+									</li>
+									<li>
+										<a href="/tools/faqs/#environment" title="Environment">Environment</a>
+									</li>
+								</ul>
+								<ul class="faq-list right">
+									<li>
+										<a href="/tools/faqs/index.php#gasoline" title="Gasoline">Gasoline</a>
+									</li>
+									<li>
+										<a href="/tools/faqs/index.php#generalenergy" title="General Energy">General Energy</a>
+									</li>
+									<li>
+										<a href="/tools/faqs/index.php#naturalgas" title="Natural Gas">Natural Gas</a>
+									</li>
+									<li>
+										<a href="/tools/faqs/index.php#nuclear" title="Nuclear">Nuclear</a>
+									</li>
+									<li>
+										<a href="/tools/faqs/index.php#prices" title="Prices">Prices</a>
+									</li>
+									<li>
+										<a href="/tools/faqs/index.php#renewables" title="Renewables">Renewables</a>
+									</li>
+								</ul>
+							</div>
+						</span>
+					</div>
+					<div class="energy-kids">
+						<a href="/kids/" class="energy-kids" title="energy kids">
+							<svg id="nav-kids" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 431.38 105.45">
+								<polygon points="410.24 96.12 9.24 96.12 27.24 80.12 428.24 80.12 410.24 96.12" fill="#e4f6ff" />
+								<image width="373" height="332" transform="translate(176.25 11.28) scale(0.24)" xlink:href="/global/images/energy-kids/energy-ant.png" />
+								<path d="M46.38,74.79H35.65a0.59,0.59,0,0,0-.71.62,3.67,3.67,0,0,0,1.61,2.79A5.37,5.37,0,0,0,40,79.51a8.12,8.12,0,0,0,2.43-.42,7.89,7.89,0,0,0,2.2-1,2.41,2.41,0,0,1,1.23-.55,1.55,1.55,0,0,1,1.16.73,2.42,2.42,0,0,1,.57,1.51q0,1.64-2.05,3.17a13.59,13.59,0,0,1-8.37,2.71,11.89,11.89,0,0,1-8-2.78,11.4,11.4,0,0,1-2.6-3.31,11.57,11.57,0,0,1-1.35-5.43,11.08,11.08,0,0,1,2.33-6.89,12.23,12.23,0,0,1,5.11-3.95,12.84,12.84,0,0,1,5-1,11.31,11.31,0,0,1,7.37,2.46,9.85,9.85,0,0,1,2.46,2.92,7.64,7.64,0,0,1,1.07,3.74A4.38,4.38,0,0,1,48,73.84,1.84,1.84,0,0,1,46.38,74.79ZM36.25,70.52h2.3A1.24,1.24,0,0,0,40,69.18a2.86,2.86,0,0,0-.71-2,2.38,2.38,0,0,0-1.85-.78,2.35,2.35,0,0,0-2,1,3.18,3.18,0,0,0-.68,1.89,1.19,1.19,0,0,0,.33,1A1.84,1.84,0,0,0,36.25,70.52Z" class="hello" fill="@{fill-color}" />
+								<path d="M77.72,70.71l0.32,8a3.25,3.25,0,0,0,.29,1.35,11.51,11.51,0,0,0,1.4,1.67,1.44,1.44,0,0,1,.34,1,2.18,2.18,0,0,1-1.8,2.1,23.53,23.53,0,0,1-6.43.59,12.66,12.66,0,0,1-4.45-.55A1.92,1.92,0,0,1,66,83.07a1.3,1.3,0,0,1,.14-0.67,11.94,11.94,0,0,1,.91-1.06q0.91-1,.91-6.39a11.21,11.21,0,0,0-.73-4.65A2.66,2.66,0,0,0,63,70.07a7.73,7.73,0,0,0-.57,3.56v4.52A6.68,6.68,0,0,0,62.59,80a11.28,11.28,0,0,0,1.13,1.94,1.76,1.76,0,0,1,.25.94q0,1.35-1.87,2a19.52,19.52,0,0,1-5.84.64q-6.34,0-6.34-2.62a1.48,1.48,0,0,1,.2-0.83A4.15,4.15,0,0,1,51,81.22a1.89,1.89,0,0,0,.75-1,17.71,17.71,0,0,0,.3-2.75q0.16-2.6.16-5.45A5.59,5.59,0,0,0,52,70a3.76,3.76,0,0,0-1.38-1.2,1.71,1.71,0,0,1-.18-3,15,15,0,0,1,3.28-1.47q2.19-.78,4.22-1.31a13.33,13.33,0,0,1,2.78-.54,1.52,1.52,0,0,1,1.15.5,1.69,1.69,0,0,1,.47,1.19s0,0.24,0,.57a2.6,2.6,0,0,0,0,.32,0.9,0.9,0,0,0,.91,1.09,1.63,1.63,0,0,0,1.16-.87,6.51,6.51,0,0,1,5.7-2.83A8.1,8.1,0,0,1,75,63.93a5.79,5.79,0,0,1,2,2.52A14.08,14.08,0,0,1,77.72,70.71Z" class="hello" fill="@{fill-color}" />
+								<path d="M100.89,74.79H90.17a0.59,0.59,0,0,0-.71.62,3.66,3.66,0,0,0,1.61,2.79,5.37,5.37,0,0,0,3.46,1.31,8.11,8.11,0,0,0,2.43-.42,7.9,7.9,0,0,0,2.2-1,2.41,2.41,0,0,1,1.23-.55,1.55,1.55,0,0,1,1.16.73,2.42,2.42,0,0,1,.57,1.51q0,1.64-2.05,3.17a13.59,13.59,0,0,1-8.37,2.71,11.89,11.89,0,0,1-8-2.78,11.4,11.4,0,0,1-2.6-3.31,11.57,11.57,0,0,1-1.35-5.43A11.09,11.09,0,0,1,82,67.22a12.23,12.23,0,0,1,5.11-3.95,12.84,12.84,0,0,1,5-1,11.31,11.31,0,0,1,7.37,2.46A9.86,9.86,0,0,1,102,67.67a7.64,7.64,0,0,1,1.07,3.74,4.38,4.38,0,0,1-.62,2.43A1.84,1.84,0,0,1,100.89,74.79ZM90.76,70.52h2.3a1.24,1.24,0,0,0,1.46-1.35,2.86,2.86,0,0,0-.71-2A2.38,2.38,0,0,0,92,66.4a2.35,2.35,0,0,0-2,1,3.18,3.18,0,0,0-.68,1.89,1.19,1.19,0,0,0,.33,1A1.84,1.84,0,0,0,90.76,70.52Z" class="hello" fill="@{fill-color}" />
+								<path d="M114.3,62.43a2,2,0,0,1,1.47.34,6.11,6.11,0,0,1,.47,2.19q0.11,1,.71,1a1.12,1.12,0,0,0,.87-0.66,5.48,5.48,0,0,1,4.77-2.85A4.56,4.56,0,0,1,126,63.8a5.13,5.13,0,0,1,1,1.7,5.07,5.07,0,0,1-.09,4.2,5.52,5.52,0,0,1-1.3,1.86,5,5,0,0,1-3.58,1.39,4.19,4.19,0,0,1-2-.41A9.85,9.85,0,0,1,118,70.87a1.33,1.33,0,0,0-.89-0.48,0.83,0.83,0,0,0-.83.72,14.54,14.54,0,0,0-.19,3,28.58,28.58,0,0,0,.25,4.7,1.86,1.86,0,0,0,.44.95,3.4,3.4,0,0,0,1.22.54q2.05,0.62,2.05,2.14a2.29,2.29,0,0,1-.66,1.63,3.26,3.26,0,0,1-1.76.93,33.88,33.88,0,0,1-6.43.46,20.29,20.29,0,0,1-6.14-.71,2.31,2.31,0,0,1-1.87-2.21,2.61,2.61,0,0,1,1.37-2.12,3.44,3.44,0,0,0,.91-0.79,2.23,2.23,0,0,0,.34-1,52.81,52.81,0,0,0,.36-7.69,3.45,3.45,0,0,0-.23-1.47,1.65,1.65,0,0,0-.91-0.72,2.07,2.07,0,0,1-1.62-1.85,2.28,2.28,0,0,1,1.12-1.88,13.63,13.63,0,0,1,3.74-1.56A22.22,22.22,0,0,1,114.3,62.43Z" class="hello" fill="@{fill-color}" />
+								<path d="M151.94,61.06a1.22,1.22,0,0,1,1,.65,2.67,2.67,0,0,1,.43,1.52,4.93,4.93,0,0,1-.58,2.12,5.87,5.87,0,0,1-1.4,1.89,1.23,1.23,0,0,0-.52.73s0,0.23,0,.55a6.17,6.17,0,0,1,.07.87,6.24,6.24,0,0,1-1.82,4.56,11.09,11.09,0,0,1-4.23,2.55,17,17,0,0,1-5.69.91,11.94,11.94,0,0,1-1.48-.09,8.58,8.58,0,0,0-.91-0.07,1.07,1.07,0,0,0-1.21,1.21,1.36,1.36,0,0,0,.79,1.22,4.35,4.35,0,0,0,2.13.44,21,21,0,0,0,2.69-.25,44.23,44.23,0,0,1,5.52-.52,8.15,8.15,0,0,1,4.17.89,5,5,0,0,1,1.88,1.92,5.29,5.29,0,0,1,.7,2.65,7.2,7.2,0,0,1-1.69,4.47,11.75,11.75,0,0,1-5.91,3.79,23.67,23.67,0,0,1-7.07,1,18.65,18.65,0,0,1-8.21-1.55,6.32,6.32,0,0,1-2.33-1.92,4.12,4.12,0,0,1-.87-2.46,2.94,2.94,0,0,1,.49-1.64,2.75,2.75,0,0,1,1.24-1.07,0.86,0.86,0,0,0,.68-0.59,1.32,1.32,0,0,0-.57-0.73,4.24,4.24,0,0,1-1.82-3.17,3.77,3.77,0,0,1,.88-2.26,6,6,0,0,1,2.18-1.8,0.78,0.78,0,0,0,.55-0.55,1.78,1.78,0,0,0-.68-1A6.69,6.69,0,0,1,128,70.25a5.6,5.6,0,0,1,.83-2.92A7.4,7.4,0,0,1,131.18,65a14.59,14.59,0,0,1,8.14-2.4,19.62,19.62,0,0,1,4,.46,17.78,17.78,0,0,0,2.85.41,7.93,7.93,0,0,0,4.95-2A1.65,1.65,0,0,1,151.94,61.06ZM134.58,86.54a0.55,0.55,0,0,0-.57.66,2.47,2.47,0,0,0,1.46,2.18,7.59,7.59,0,0,0,3.79.83,8.42,8.42,0,0,0,3.5-.59A1.84,1.84,0,0,0,144,88a1.22,1.22,0,0,0-.48-1,1.78,1.78,0,0,0-1.19-.4,8.56,8.56,0,0,0-1,.09,18.07,18.07,0,0,1-2.85.21,21.14,21.14,0,0,1-2.24-.11,9.9,9.9,0,0,1-1.3-.18A1.92,1.92,0,0,0,134.58,86.54Zm5-20.76a2.24,2.24,0,0,0-1.84.87A3.57,3.57,0,0,0,137,69a8.77,8.77,0,0,0,.75,3.95,2.25,2.25,0,0,0,2,1.48,2.28,2.28,0,0,0,1.92-.93,4,4,0,0,0,.71-2.47,8,8,0,0,0-.74-3.8A2.39,2.39,0,0,0,139.55,65.78Z" class="hello" fill="@{fill-color}" />
+								<path d="M176.32,73.51l-3,8.28a32,32,0,0,1-2.25,5,14.76,14.76,0,0,1-2.57,3.32A10,10,0,0,1,161.36,93a8.17,8.17,0,0,1-5.47-1.78,4.37,4.37,0,0,1-1.62-3.49,4.14,4.14,0,0,1,1.13-3,3.66,3.66,0,0,1,2.77-1.2,3.42,3.42,0,0,1,2.65,1.09,3.08,3.08,0,0,1,.64.89,14.93,14.93,0,0,1,.48,1.71,1.13,1.13,0,0,0,1.14,1,1.45,1.45,0,0,0,1.19-.62,2.41,2.41,0,0,0,.48-1.53,10.09,10.09,0,0,0-1.19-3.58L158,70.82a10.66,10.66,0,0,0-1.3-2.28,6.69,6.69,0,0,0-1.92-1.12A1.67,1.67,0,0,1,154,66.7a2,2,0,0,1-.33-1q0-2,4-2.76a35.27,35.27,0,0,1,6.14-.48,11.59,11.59,0,0,1,3.81.5,2.35,2.35,0,0,1,1.87,2.26,2.53,2.53,0,0,1-.52,1.35,2.38,2.38,0,0,0-.5,1.3,3,3,0,0,0,.24,1.14,22,22,0,0,0,1,2q0.87,1.6,1.53,1.6t1.46-1.4a5.71,5.71,0,0,0,.75-2.7,2.53,2.53,0,0,0-.57-1.71A3,3,0,0,1,172.1,65a2.13,2.13,0,0,1,1.55-1.86,10.32,10.32,0,0,1,4.15-.69q4.84,0,4.84,2.33a1.89,1.89,0,0,1-.49,1.36,4.71,4.71,0,0,1-1.79,1,3.51,3.51,0,0,0-1.73,1.37A26.91,26.91,0,0,0,176.32,73.51Z" class="hello" fill="@{fill-color}" />
+								<path d="M296.3,54.3l-3.09,3a4.41,4.41,0,0,0-1.71,2.95,3,3,0,0,0,.39,1.44,12.36,12.36,0,0,0,1.46,2l10.81,12.51a20.77,20.77,0,0,0,2,2.12,7.41,7.41,0,0,0,1.65.94A5.66,5.66,0,0,1,310,80.68a3.27,3.27,0,0,1,.65,2.11q0,3.06-4.36,3.06h-11a2.88,2.88,0,0,1-1.78-.49,13.49,13.49,0,0,1-2.07-2.43,83.32,83.32,0,0,0-6-7.11,29.49,29.49,0,0,0-2.27-2.27,2,2,0,0,0-1.2-.53q-1.68,0-1.68,3.15,0,2.57,1.1,3.55l0.92,0.64A3,3,0,0,1,284,82.88q0,1.91-2.54,2.73a30.93,30.93,0,0,1-8.55.82,34.25,34.25,0,0,1-7.8-.64,3.32,3.32,0,0,1-1.69-1.05,2.59,2.59,0,0,1-.65-1.72,3.13,3.13,0,0,1,1.73-2.63,3.27,3.27,0,0,0,1.11-1.14,8.16,8.16,0,0,0,.62-2.09,63.23,63.23,0,0,0,.58-10.05,74.21,74.21,0,0,0-.61-11.47,5.4,5.4,0,0,0-.64-2,4.18,4.18,0,0,0-1.42-1.18,2.84,2.84,0,0,1-1.62-2.57,2.74,2.74,0,0,1,1-2.23,7.33,7.33,0,0,1,3.24-1.27,39.5,39.5,0,0,1,7.4-.58,19.52,19.52,0,0,1,6.73.87,2.9,2.9,0,0,1,2,2.89,2.52,2.52,0,0,1-.3,1.34A8.07,8.07,0,0,1,281,52.39a4.12,4.12,0,0,0-.85,1.94,12.11,12.11,0,0,0-.39,3q0,2.43,1.1,2.43a1.88,1.88,0,0,0,1.28-.58,36.56,36.56,0,0,0,2.5-2.89q2.17-2.69,2.17-3.67a3.85,3.85,0,0,0-.55-1.56,2.91,2.91,0,0,1-.38-1.33,3.1,3.1,0,0,1,2.31-3q2.31-.88,7.89-0.88a27.41,27.41,0,0,1,6.59.58q2.63,0.72,2.63,3.06a3,3,0,0,1-.55,1.72,2.46,2.46,0,0,1-1.36,1,11.94,11.94,0,0,1-2.8.23,6.36,6.36,0,0,0-2.3.36A7.67,7.67,0,0,0,296.3,54.3Z" class="hello" fill="@{fill-color}" />
+								<path d="M324.54,45.8a32.06,32.06,0,0,1,6.21.58q3.93,0.78,3.93,3.32a1.78,1.78,0,0,1-.39,1.26,8.45,8.45,0,0,1-2,1.23,3.76,3.76,0,0,0-1.75,2.92,58.41,58.41,0,0,0-.42,8.78q0,11,.55,13.67a2.79,2.79,0,0,0,.62,1.29,5.28,5.28,0,0,0,1.46,1,2.74,2.74,0,0,1,1.91,2.51q0,2.31-3.53,3.18a40.27,40.27,0,0,1-9.33.93q-9.42,0-9.42-3.58,0-1.3,1.85-2.43A3.38,3.38,0,0,0,315.93,78a109,109,0,0,0,.55-14q0-7.4-.75-9.48a4.29,4.29,0,0,0-1.94-2.14,6.92,6.92,0,0,1-1.59-1.3,2.09,2.09,0,0,1-.41-1.33,2.24,2.24,0,0,1,1.2-2,13.66,13.66,0,0,1,4.23-1.32A37.25,37.25,0,0,1,324.54,45.8Z" class="hello" fill="@{fill-color}" />
+								<path d="M349.27,85.85h-2.08q-1.82,0-4.07.17-1.42.11-2,.12a5.16,5.16,0,0,1-3.15-.9,2.77,2.77,0,0,1-1.21-2.34,2.2,2.2,0,0,1,.53-1.58,3.87,3.87,0,0,1,1.75-.91,2.43,2.43,0,0,0,1.56-.94,7,7,0,0,0,.64-2.53q0.23-2.17.42-8.44t0.19-12.45a9,9,0,0,0-.38-3.24,2.86,2.86,0,0,0-1.76-1.3,2.65,2.65,0,0,1-2-2.57,2.45,2.45,0,0,1,1.37-2.21,7.67,7.67,0,0,1,3.83-.8l1.91,0q2.43,0.09,3.53.09,4.13,0,9.33-.26,1.1-.06,2.74-0.06a29.54,29.54,0,0,1,10.46,1.5,16.29,16.29,0,0,1,8.61,7.57A22.82,22.82,0,0,1,382.09,66a23.32,23.32,0,0,1-1,6.54,20.15,20.15,0,0,1-2.57,5.68A17.68,17.68,0,0,1,369.32,85a23.25,23.25,0,0,1-7.4,1.16l-3.5-.12-3-.09Q351.93,85.85,349.27,85.85Zm6.07-31.32V76.89a3.53,3.53,0,0,0,.78,2.59,3.63,3.63,0,0,0,2.6.77q8.44,0,8.44-12.83,0-7.08-2-11a7.57,7.57,0,0,0-7.34-4.31,2.76,2.76,0,0,0-1.95.55A2.5,2.5,0,0,0,355.34,54.53Z" class="hello" fill="@{fill-color}" />
+								<path d="M401.8,45.6a28.19,28.19,0,0,1,7.8,1.47,3.37,3.37,0,0,0,.93.17,8.79,8.79,0,0,0,1.73-.52,2.77,2.77,0,0,1,1-.17q1.93,0,4.09,3.06a10.25,10.25,0,0,1,2.15,5.84,4,4,0,0,1-1,2.73,3,3,0,0,1-2.35,1.11,3.42,3.42,0,0,1-1.88-.46,32.3,32.3,0,0,1-3.18-2.74q-3.47-3.24-6.82-3.24a4,4,0,0,0-2.59.78,2.5,2.5,0,0,0-1,2.05q0,2.51,4.42,3.79A65,65,0,0,1,412.81,62q7.37,3.58,7.37,10.55a12.17,12.17,0,0,1-5,10.05q-5.14,4-13.44,4a37.2,37.2,0,0,1-7.8-.88A18.58,18.58,0,0,1,388,83.68q-1.39-.92-2.5-4a17.89,17.89,0,0,1-1.11-6.05,3.36,3.36,0,0,1,.58-2.14,2.22,2.22,0,0,1,1.82-.93,2.87,2.87,0,0,1,2.11,1.13,42.31,42.31,0,0,1,2.86,4.07,7.82,7.82,0,0,0,3.39,2.69,11.39,11.39,0,0,0,4.81,1.07,6.71,6.71,0,0,0,3.47-.79,2.34,2.34,0,0,0,1.33-2,2.5,2.5,0,0,0-1-2,10.56,10.56,0,0,0-3.38-1.56,45.3,45.3,0,0,1-6.3-2.38A19.06,19.06,0,0,1,390,68q-4.57-4-4.57-9.19a11.1,11.1,0,0,1,1.18-5A12.37,12.37,0,0,1,390,49.68,17.81,17.81,0,0,1,401.8,45.6Z" class="hello" fill="@{fill-color}" />
+							</svg>
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="topic topic-5" data-topic-panel="inactive">
+				<div class="column">
+					<div class="nav-menu whats-new">
+	<span class="ico-menu whats-new-icon"></span>
+	<span>
+		<h3><a href="/about/new/">What's New?</a></h3>
+		<ul class="header-whats-new">
+			<li><a href="/electricity/wholesale/">Wholesale Electricity Market Data</a></li><li class="date">Oct 15, 2026</li><li><a href="/biofuels/biomass/">Monthly Densified Biomass Fuel Report</a></li><li class="date">Oct 08, 2026</li><li><a href="/electricity/data/eia861/">Final 2025 Annual Electric Sales and Revenue Data</a></li><li class="date">Oct 07, 2026</li>		</ul>
+	</span>
+</div>				</div>
+				<div class="column">
+					<div class="press-room">
+						<span class="ico-menu press-room-icon"></span>
+						<span>
+							<h3>
+								<a href="/pressroom/" title="Press Room">Press Room</a>
+							</h3>
+							<ul>
+								<li>
+									<a href="/pressroom/releases.php" title="Press Releases">Press Releases</a>
+								</li>
+								<li>
+									<a href="/pressroom/testimony.php" title="Congressional Testimony">Congressional Testimony</a>
+								</li>
+								<li>
+									<a href="/pressroom/presentations.php" title="Presentations">Presentations</a>
+								</li>
+								<li>
+									<a href="/pressroom/events/" title="Events">Events</a>
+								</li>
+							</ul>
+						</span>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+	$('#outerX').removeAttr('id');
+	$('.l-outer-wrapper').attr('id', 'outerX');
+</script>
+<script defer>
+	Fancybox.bind("a.lightbox", {
+		type: "iframe",
+		preload: false,
+		width: 940,
+	});
+</script>
+<script src='/global/scripts/eia-scripts.min.js?v=10.14.26'></script>
+<script>
+function MM_jumpMenuGo(objId, targ, restore) { 
+	var selObj = null; with (document) {
+		if (getElementById) selObj = getElementById(objId);
+		if (selObj) eval(targ + ".location='" + selObj.options[selObj.selectedIndex].value + "'");
+		if (restore) selObj.selectedIndex = 0;
+	}
+}
+</script>		</div>
+	</body>
+</html>
+

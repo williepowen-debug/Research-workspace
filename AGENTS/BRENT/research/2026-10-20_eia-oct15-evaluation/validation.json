@@ -1,0 +1,13 @@
+{
+  "checked_at": "2026-10-20T19:19:46-04:00",
+  "checks": {
+    "BRT31nonNotesfieldsunchanged": true,
+    "BRT31OPEN": true,
+    "other_prediction_rows_unchanged": true,
+    "reproducer_result_matches": true,
+    "charter_one_sentence_only": true,
+    "updated_reader_links_exist": true
+  },
+  "scope": "nonterminal evaluation/counters, saved primary reconstruction, field preservation and reader links. No independent third-party review, no final policy-absence or investment-return test.",
+  "consumer_check": "No external consumer of old rounded-pair -0.4017 found. Two own routine mentions are dated reporting; owner correction pointer added, original text retained. Weekly/4wk diesel figures are different aggregations; never blind-replaced."
+}

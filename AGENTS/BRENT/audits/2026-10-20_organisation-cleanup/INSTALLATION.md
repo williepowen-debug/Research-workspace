@@ -1,6 +1,6 @@
 # Charter cleanup installed — 2026-10-20T18:39:37-04:00
 
-Will directly: “I think you should just be able to start.” Proceeded without waiting for PROME pre-review; all other preservation conditions remain. Implementation complete; independent PROME review pending, not claimed complete.
+Will directly: “I think you should just be able to start.” Proceeded without waiting for PROME pre-review; all other preservation conditions remain. Implementation complete; PROME review ACCEPTED; numbering warning restored ([closure](REVIEW-CLOSED.md)).
 
 CLAUDE.md: **31,848 → 22,773 UTF-8 bytes**, a reduction of 9,075 bytes (28.49%). Below the existing70%budget target22,785bytes. No new mandatory file, check, schedule, threshold or authority.
 

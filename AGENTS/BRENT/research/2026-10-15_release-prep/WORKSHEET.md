@@ -25,6 +25,8 @@ For each statement/cargo, record one row with: country/issuer; decision date and
 
 Interpretation: accelerated delivery can ease near-term pressure even if the total pledge is unchanged. Supplemental pledges can reprice expectations before delivery, but remain separate from observed additions. Delivered diesel competes directly with refinery output; crude release supplies feedstock. Neither mechanically implies lower crude and lower refiner earnings by the same amount.
 
+**October20 owner correction:** output/ULSDcomparison cells sourced from Data14 are four-week means, not weekly observations; do not compare them against a new single week. Original dated table retained below. Correct weekly pairs, first-week BRT31evaluation and source-vintage limits: [owner report](../2026-10-20_eia-oct15-evaluation/REPORT.md).
+
 ## Fixed EIA comparison baseline
 
 **[CONF EIA saved October7vintage, observationweekOctober2; not a new October14survey].** Exact source workbook hashes, field keys, sheets/columns and last observations are at [baseline.json](baseline.json). Key values re-extracted locally; multiple EIA formats remain one measurement lineage. Product/region cells not available at release remain missing, not inferred from national totals.

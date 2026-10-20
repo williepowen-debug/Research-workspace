@@ -630,3 +630,4 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-20T17:56:00-04:00	SIG-W-20261020-031	info-only	INBOX_WALTER	Renewed cable threat; unauthenticated origin, no operator damage/outage established. FALCON owns assessment.
 2026-10-20T17:56:00-04:00	SIG-W-20261020-032	info-only	INBOX_WALTER	Konarak claim and US denial travel together; separate destroyer chain unverified. No new kinetic/loss grade.
 2026-10-20T17:56:00-04:00	2026-10-20_from-PROME_organisation-cleanup-go-ahead.md	acted	INBOX	Accepted bounded no-deletion cleanup. Non-charter work completed; live charter unchanged, draft and exact before/after request at audits/2026-10-20_organisation-cleanup. PROME review pending.
+2026-10-20T19:16:59-04:00	2026-10-20_from-PROME_charter-cleanup-review-accepted.md	acted	INBOX	PROME acceptance consumed; restored explicit do-not-renumber warning at CLAUDE EXECUTE. Cleanup review closed. Research evaluation at research/2026-10-20_eia-oct15-evaluation/REPORT.md.

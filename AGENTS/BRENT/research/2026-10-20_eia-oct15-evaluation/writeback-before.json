@@ -1,0 +1,79 @@
+{
+  "CLAUDE.md": {
+    "before": "research/2026-10-20_eia-oct15-evaluation/before/CLAUDE.md",
+    "bytes": 22773,
+    "sha256": "a900b37af30a3222a9e47b967299802b114ea0f768804b0da6dcc420c6ae2ea0",
+    "crc32": "713c7161",
+    "payload_rule": "whole file; UTF8bytes"
+  },
+  "STATUS.md": {
+    "before": "research/2026-10-20_eia-oct15-evaluation/before/STATUS.md",
+    "bytes": 21225,
+    "sha256": "9bcf26fb4bec3830970dbaf03200910b94fefeb86db8eec5ef1b86b537d325a6",
+    "crc32": "22995218",
+    "payload_rule": "whole file; UTF8bytes"
+  },
+  "SCRATCH.md": {
+    "before": "research/2026-10-20_eia-oct15-evaluation/before/SCRATCH.md",
+    "bytes": 4230,
+    "sha256": "d0fbc28fc438c1f1f3ecaa61cda1e4b6563480f762dfc48e07894fee4b9969ff",
+    "crc32": "5454e8a8",
+    "payload_rule": "whole file; UTF8bytes"
+  },
+  "NEXUS_BRIEF.md": {
+    "before": "research/2026-10-20_eia-oct15-evaluation/before/NEXUS_BRIEF.md",
+    "bytes": 14977,
+    "sha256": "bb1e9536cdbda2c67a0f8324a5f55ac12741e91ed9a01e27331534415a312da5",
+    "crc32": "621d75be",
+    "payload_rule": "whole file; UTF8bytes"
+  },
+  "RULINGS.md": {
+    "before": "research/2026-10-20_eia-oct15-evaluation/before/RULINGS.md",
+    "bytes": 69283,
+    "sha256": "245b91d49d89380875d4f01b572374f896d1f136b50dc3335173863cf53e2a89",
+    "crc32": "a650795b",
+    "payload_rule": "whole file; UTF8bytes"
+  },
+  "demand_destruction/TRACKER.md": {
+    "before": "research/2026-10-20_eia-oct15-evaluation/before/demand_destruction__TRACKER.md",
+    "bytes": 30857,
+    "sha256": "8e1fbeb76df04072693eaff9d996f4a61b42ffaf86832ed5ce64ccffd21b3d5b",
+    "crc32": "9ea97cb6",
+    "payload_rule": "whole file; UTF8bytes"
+  },
+  "thesis/PREDICTIONS.tsv": {
+    "before": "research/2026-10-20_eia-oct15-evaluation/before/thesis__PREDICTIONS.tsv",
+    "bytes": 70814,
+    "sha256": "67ee929a0ff354ca7f32c371976a93509f7246f1606bdf73d462c7ff89e64f4d",
+    "crc32": "b03c7811",
+    "payload_rule": "whole file; UTF8bytes"
+  },
+  "thesis/prediction_notes/BRT-31.md": {
+    "before": "research/2026-10-20_eia-oct15-evaluation/before/thesis__prediction_notes__BRT-31.md",
+    "bytes": 1804,
+    "sha256": "dff893805af3e25a9064e91dc133ba3a27be0ca000d1613c38a56beb67b2b4db",
+    "crc32": "bd9eda5f",
+    "payload_rule": "whole file; UTF8bytes"
+  },
+  "thesis/THESIS.md": {
+    "before": "research/2026-10-20_eia-oct15-evaluation/before/thesis__THESIS.md",
+    "bytes": 23473,
+    "sha256": "92aeca5fb7151918aac34344739ef744f82281da56db1fa5925b6d12cb000da2",
+    "crc32": "af9f3492",
+    "payload_rule": "whole file; UTF8bytes"
+  },
+  "thesis/CHANGELOG.md": {
+    "before": "research/2026-10-20_eia-oct15-evaluation/before/thesis__CHANGELOG.md",
+    "bytes": 178100,
+    "sha256": "83d9f7c8b0247d6f7db95ec7075efa5437059e440574635b13e810964d92afd9",
+    "crc32": "61469fa5",
+    "payload_rule": "whole file; UTF8bytes"
+  },
+  "research/2026-10-15_release-prep/WORKSHEET.md": {
+    "before": "research/2026-10-20_eia-oct15-evaluation/before/research__2026-10-15_release-prep__WORKSHEET.md",
+    "bytes": 10545,
+    "sha256": "3de4c56176eb8790ee6817201d8552c1201ff85ec8bd027a11af5c04af504688",
+    "crc32": "10d63dfb",
+    "payload_rule": "whole file; UTF8bytes"
+  }
+}

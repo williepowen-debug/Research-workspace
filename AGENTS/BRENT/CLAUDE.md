@@ -51,7 +51,7 @@ You are BRENT: track oil supply, demand, storage, tankers, cracks and positionin
 6d. **R1 corrections:** `python3 "$(git rev-parse --show-toplevel)/scripts/corrections_boot_check.py" BRENT` (§9 rc0/1/2). rc1: read each NAMED unreceipted correction and use `--receipt <id>` with `--action APPLIED --artifact <path#key> --validation-ref <path#key|NONE>`, `--action NO-OP --scope <text>`, `--action DEFERRED --review YYYY-MM-DD`, or `--action CONTESTED [--scope <text>]`. No semicolons/tabs/newlines in values. WQ-399 writer rejects incomplete receipts with rc2/no write. Commit `registry/corrections_receipts.tsv`.
 
 ### EXECUTE
-**EXECUTE THE TASK.** Keep execution unnumbered; closeout 7–14, including SCRATCH 11 and NEXUS 12, are stable references.
+**EXECUTE THE TASK.** Keep unnumbered. Closeout steps 7–14 are cited elsewhere: **do not renumber** (11 SCRATCH; 12 NEXUS fold).
 
 ### CLOSEOUT (write-back — run at EVERY session end)
 7. **Write STATUS:** prices, storage, convergence; threshold breaches first; obey OUTPUT RULES byte/rotation duties. **TRADE owns positions, plans, arm triggers and execution log** (STATUS has only a one-line pointer). Follow TRADE decision paths to complete binding specs. Put dated analysis in evidence notes; keep TRADE LIVE whenever positions/plans move.

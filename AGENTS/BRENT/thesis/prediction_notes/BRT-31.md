@@ -13,4 +13,8 @@
 
 **Caveats recorded at the ruling (WQ-346 row):** ~6 surviving episodes, ±15 pts · CARL's unconditional 25–30% view is defensible · the 15% ordinary-times noise floor. DOCKET L537 carries the rider.
 
-**Grading log:** *(none yet — first window print releases Thu 10/15)*
+**Grading log:** first window week evaluated October20; overall row remains OPEN, not resolved.
+
+## October20 owner evaluation — data weekOctober9/releaseOctober15
+
+First week NON-QUALIFYING: exact four-week WGFUPUS2 comparison−0.3959714211930791%, qualifying streak0. Price checkOctober12$4.331 versusOctober13,2025$3.061 =+41.4897092453%; below+20%counter0of3. Confidence40%and overall OPEN unchanged; no terminal event. Full source/date/counter/contamination evaluation and matched weekly output correction: [report](../../research/2026-10-20_eia-oct15-evaluation/REPORT.md), [machine receipt](../../research/2026-10-20_eia-oct15-evaluation/evaluation.json). Exact eight inputs match publisher-dated archived weekly rows; no local release-day XLS capture or immutable-archive guarantee claimed. NCin-window suspension3.7523%SEDScoverage alone below10%; other identified cuts predatewindow. Bounded policy review is not a50state absence certificate; finalNOTMETneeds recheck. METstillavailableunderletter. No rounded-summary substitution or new threshold.

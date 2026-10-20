@@ -419,3 +419,7 @@ PROME conveyed Will's17:51word: “I want to okay this I just dont want anything
 ## R-2026-10-20-organisation-start — proceed on Will's direct word
 
 Will directly: “I think you should just be able to start.” This supersedes waiting for PROME pre-install review of the authorised cleanup; it does not relax verbatim conservation, no-deletion, no research/evidence moves or preservation of binding rules. The slimmed charter is installed; result sent for PROME review, with no independent review/consumption claimed. Binding operational text remains in CLAUDE.md; exact original and final range/hash mapping at [installation receipt](audits/2026-10-20_organisation-cleanup/INSTALLATION.md). Previous ruling text remains as dated history.
+
+## R-2026-10-20-organisation-acceptance — PROME review accepted; warning restored
+
+PROME's18:5xartifact review ACCEPTED the cleanup, with one requested restoration: closeout step numbers are cited elsewhere and must not be renumbered. Exact acceptance at [processed packet](inbox/processed/2026-10-20_from-PROME_charter-cleanup-review-accepted.md). Restored explicit wording in CLAUDE.md EXECUTE; numbers/steps unchanged. PROME describes this as its own review, not a third-party review. Supersedes pending-review state in earlier dated receipts; cleanup implementation/review complete, no new Will decision or trade/research scope.

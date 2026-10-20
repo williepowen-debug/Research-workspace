@@ -1,0 +1,73 @@
+# EIA Weekly Petroleum Status Report — Thursday October 15 fallback pull, week ending October 9, 2026
+
+**AUTONOMOUS Thursday EIA PUBLICATION FALLBACK, 14:15 ET scheduled slot — no human watching.** This is the intended read: the standard Wednesday slot is the Columbus Day holiday exception for this data week, confirmed at the EIA release schedule (`https://www.eia.gov/petroleum/supply/weekly/schedule.php`): *"For the week ending October 9, 2026, the schedule lists an alternate release date of Thursday, October 15, 2026, at 12:00 p.m. ET... This week's exception moved the release from the standard Wednesday, 10:30 a.m. slot to Thursday at noon."* The October 14 (Wed) operational follow-up correctly retained week-10/2 values pending this publication (TRACKER top block, "October14 operational follow-up" note); this run supplies the first new core observation since then. **Retrieved 2026-10-15 ~14:20 ET** (18:20 UTC) — after both the 12:00 p.m. and 1:00 p.m. possible release times; the EIA WPSR landing page's archive dropdown shows October 15, 2026 as its most recent issue, confirming this is the current release, not a cached prior week.
+
+## Sourcing note
+
+Pulled the current-vintage CSVs directly from the primary press-release mirror; every table header agrees on **week ending 10/9/2026** (prior-week column 10/2/2026, year-ago column 10/10/2025):
+- `https://ir.eia.gov/wpsr/summary.txt` (highlights mirror, text)
+- `https://ir.eia.gov/wpsr/table1.csv` (U.S. Petroleum Balance Sheet — stocks + supply/demand)
+- `https://ir.eia.gov/wpsr/table4.csv` (crude stocks incl. Cushing)
+- `https://ir.eia.gov/wpsr/table9.csv` (production, refinery inputs/utilization, net production, imports/exports, product supplied)
+
+All figures below are **[CONF EIA PRIMARY]**, week ending 2026-10-09, released 2026-10-15 (Columbus Day exception; standard slot would have been Wed 2026-10-14), unless marked otherwise. No FRED/EIA-API-key dependency for the WPSR figures (public `ir.eia.gov/wpsr/*.csv` mirror, no key needed); `env_doctor FAIL` noted at session start does not affect these figures.
+
+## Headline figures
+
+| Metric | This week (wk-10/9) | Prior week (wk-10/2) | WoW | vs 5-yr avg / YoY |
+|---|---|---|---|---|
+| Commercial crude oil (ex-SPR) | **415.577M bbl** | 424.134M | **−8.557M (DRAW)** | **3% BELOW** 5-yr avg [EIA summary text]; vs year-ago 423.785M (−1.9%) |
+| Cushing, OK crude stocks | **26.607M bbl** | 24.745M | **+1.862M (BUILD)** — 4th straight weekly build | vs year-ago 22.001M (+20.9%) |
+| SPR level | **282.983M bbl** | 282.983M | **0.000 (unchanged)** | vs year-ago 407.745M (−30.6% / −124.762M bbl in 12mo) |
+| Total crude stocks (commercial+SPR) | 698.560M bbl | 707.117M | −8.557M | vs year-ago 831.530M (−16.0%) |
+| Gasoline inventories (Total Motor Gasoline) | 208.262M bbl | 204.744M | +3.518M (build) | **4% BELOW** 5-yr avg [EIA summary text]; vs year-ago 218.826M (−4.8%) |
+| Distillate inventories | 102.611M bbl | 105.138M | −2.527M (draw) | **12% BELOW** 5-yr avg [EIA summary text]; vs year-ago 117.030M (−12.3%) |
+| Propane/propylene inventories | 106.375M bbl | 107.846M | −1.471M (draw) | **15% ABOVE** 5-yr avg [EIA summary text]; vs year-ago 102.376M (+3.9%) |
+| Total commercial petroleum stocks (excl SPR) | 1,224.016M bbl | 1,237.400M | −13.384M | vs year-ago 1,288.820M (−5.0%) |
+| Refinery utilization | **93.5%** | 92.7% | **+0.8pp** | vs year-ago wk 85.7%; 4-wk avg 93.2% vs 90.6% ya |
+| Crude oil inputs to refineries | 16.615M b/d | 16.480M b/d | **+0.135M b/d** | 4-wk avg 16.541M vs 16.018M ya (+3.3%) |
+| Gasoline output (net production) | 9.232M b/d | 9.349M b/d | −0.117M b/d | — |
+| Distillate production (net production) | 5.189M b/d | 5.290M b/d | −0.101M b/d | EIA summary: "decreased to 5.2 million b/d" |
+| US crude oil production (domestic) | **13.679M b/d** | 13.979M b/d | **−0.300M b/d** | vs year-ago wk 13.636M b/d (+0.3%); 4-wk avg 13.888M vs 13.568M ya (+2.4%) |
+| Crude oil imports (gross) | 6.049M b/d | 6.840M b/d | −0.791M b/d | 4-wk avg 6.116M b/d, **+0.9% YoY** [matches EIA summary text] |
+| Crude oil exports | 4.570M b/d | 4.765M b/d | −0.195M b/d | vs year-ago wk 4.047M b/d |
+| Net imports, crude oil (incl SPR) | **1.479M b/d** (net importer) | 2.075M b/d | −0.596M b/d | 4-wk avg 2.069M vs 1.991M ya (+3.9%) |
+| Net imports, products | −5.852M b/d (net exporter) | −6.610M b/d | +0.758M b/d | 4-wk avg −6.210M vs −5.260M ya |
+| **Net imports, total (crude+products)** | **−4.373M b/d** (net exporter) | −4.535M b/d | +0.162M b/d | vs year-ago −4.249M b/d (wider by −0.124M) |
+| Total product supplied, 4-wk avg | 21.077M b/d | — | — | **+2.0% YoY** (20,669 ya) [matches EIA summary text] |
+| **Gasoline product supplied, 4-wk avg** | **8.678M b/d** | — | — | **−0.4% YoY** (8,713 ya) [EIA summary text; unrounded on EIA's own published 4-wk-avg pair: 8,678/8,713−1 = −0.4017%] |
+| Distillate product supplied, 4-wk avg | 3.974M b/d | — | — | −0.2% YoY (3,983 ya) [matches EIA summary text] |
+| Jet fuel product supplied, 4-wk avg | 1.695M b/d | — | — | **+2.3% YoY** (1,657 ya) [matches EIA summary text] |
+
+**Retail gasoline (GASREGW):** already captured and recorded on the October14 operational follow-up — **$4.331/gal, week of Oct 12, 2026** [CONF FRED keyless CSV, `fredgraph.csv?id=GASREGW`], −$0.023 WoW vs Oct 5 ($4.354). Re-verified this run (same value at the FRED mirror as of 2026-10-15); no new observation to add — the next retail print is Oct 19. This is a separate weekly survey (Mondays) from the WPSR (Thursdays this week); not duplicated as a new observation.
+
+**Gasoline product-supplied hoarding caveat** [per `demand_destruction/HOARDING.md`]: product supplied is a demand PROXY, not a direct measurement. This week gasoline net production fell (9.232M b/d, −117kb/d WoW) alongside a single-week gasoline product-supplied decline (8.408M b/d vs 8.769M b/d WoW, −362kb/d) and a large gasoline stock BUILD (+3.518M bbl) — output, single-week supplied and the 4-wk YoY all moved in the same (weaker) direction; no inputs-vs-supplied divergence to flag this week. Distillate moved the other way (production −101kb/d but single-week supplied +673kb/d, stocks drew −2.527M) — a storm-season/heating-oil-season pattern worth noting but not a hoarding signal under this desk's existing framework.
+
+## ALERTS — applied against TRACKER.md's currently-registered lines (2026-10-14 vintage, top block)
+
+| # | Line | This week's reading | State |
+|---|---|---|---|
+| 1 | Cushing < 20.0M | **26.607M**, +1.862M WoW BUILD (4th straight weekly build: +0.553M 9/25 → +0.444M 10/2 → +1.862M 10/9) | 🟢 NOT breached — 6.607M above the line, gap widening further. Boundary #3 stays RESCINDED (re-activates only on a single sub-20.0M print, per the 8/12 ruling). Not close to that condition. |
+| 2 | Weekly crude draw > 5.0M | **−8.557M DRAW** | 🔴 **BREACHED.** This is the first crossing of this registered line observed by this desk's recent run history (prior prints: −3.186M wk-10/2, +0.922M wk-9/25, both not breached). Draw is ~70% larger than the 5.0M bar. Dated 🔴 entry added to TRACKER top block; flag packet written to `PROME/inbox/`. **This is a record+flag only — no gate is graded, no capital action authorized by this routine.** |
+| 3 | Refinery util > 95% | **93.5%**, +0.8pp WoW (from 92.7%) | 🟢 NOT breached — third straight sub-95% print (94.0% → 92.5% → 93.5%), ticked up this week after two consecutive declines. No distress conclusion from utilization alone. |
+| 4 | GASREGW > $4.00 | **$4.331/gal, Oct 12 observation** [CONF, already recorded 10/14; re-verified, unchanged] | 🟢 Above the line. No new observation this run — next retail print Oct 19. |
+| 5 | SPR | **282.983M bbl, unchanged WoW (0.000)** | Record only; no registered SPR band. Burn-rate context: −124.762M bbl / −30.6% YoY vs 407.745M a year ago. November–December exchange-deliveries awards remain UNKNOWN (per Oct14 worksheet). |
+| 6 | Gasoline 4-wk YoY | **−0.4%** (EIA table1/summary text: 8,678 vs 8,713 kb/d ya) | 🟢 Record only; retired BRT-08 trigger not evaluated. **This is the FIRST eligible BRT-31 window print** (data week ending 10/9, window runs 10/9→11/27). Reading is −0.4%, well short of the −1.5% two-consecutive-week MET bar and also short of the −1.0% NOT-MET bar for a single print — reported only, not graded; resolution of BRT-31 (including its price-check precondition and contamination list) is a live-BRENT-session action only, per the standing prediction-row fence. |
+
+**One registered line crossed in the danger direction this run: line 2 (weekly crude draw > 5.0M), at −8.557M.** This coexists with a 4th consecutive Cushing build (line 1 unaffected) and a gasoline stock build — i.e., the national commercial crude draw is not mirrored at Cushing or in product stocks this week. No other line breached. Domestic crude production also fell a notable −300kb/d WoW (13.679M b/d, 4-wk avg still +2.4% YoY) — not a registered line, flagged for context only.
+
+## BRT-xx prediction rows — reading only, per the standing prediction-row fence
+
+**Never grade, resolve, or re-mark a BRT-xx row here.** This run touches no rig or COT print (Thursday EIA fallback slot only).
+
+- **BRT-31** (Path-B successor, gasoline demand weakening): first eligible window print is today's (data week ending 10/9). **Reading: gasoline product supplied 4-wk avg −0.4% YoY** (EIA's own published figure; unrounded on EIA's own 4-wk-avg pair ≈ −0.4017%), per the frozen letter's EVALUATION ORDER this also requires a price-check leg (GASREGW on the Monday after the data week, Oct 12 2026, vs 364 days earlier, Oct 13 2025) before any MET/NOT-MET path advances — that price-check comparison is NOT performed here; it belongs to a live BRENT session per the registered letter (`setups/2026-09-30_BRT-31-path-B-successor-DRAFT-v2.md` §2, `thesis/prediction_notes/BRT-31.md`). Reported, not graded.
+- **BRT-26, BRT-29:** no new print this run (Baker Hughes/COT are Friday; BRT-29 already resolved 2026-09-30). No action here.
+
+## Flag to PROME
+
+A packet is being written to `PROME/inbox/` noting: (1) **weekly commercial crude draw of −8.557M bbl breaches the registered >5.0M draw line** for the first time in this desk's recent run history, to 415.577M bbl (3% below the 5-yr average per EIA's own text); (2) this coexists with a 4th consecutive Cushing BUILD (+1.862M to 26.607M, well above the 20.0M floor) and a gasoline stock build (+3.518M) — the draw is concentrated outside Cushing and outside products; (3) this week's print is also the **first eligible data week in the BRT-31 gasoline-demand window** (−0.4% YoY, nowhere near either the −1.5% MET or −1.0% NOT-MET bar) — reported only, no grade; (4) domestic crude production fell −300kb/d WoW, a non-registered but notable move. Record + flag only; no gate graded, no capital action authorized, no BRT-xx row resolved by this routine.
+
+## env_doctor / sync-state notes (this session)
+
+- **`env_doctor FAIL`** at session-start hook: `FORGE/tools/market-data/.env` missing on this cloud machine — `eia_weekly.py`'s LIVE mode (EIA v2 API key) and its LOCAL mode (needs a `.venv`) were both unavailable (`FATAL: yfinance unavailable and no venv found`). **Nothing in this file's WPSR figures depends on that script, the EIA v2 API key, or FRED** — every WPSR figure above is sourced directly from the public `ir.eia.gov/wpsr/*.csv` primary mirror (no key required, HTTP 200 on all four files, retrieved via `-L` after a 302 redirect). The GASREGW retail line was cross-checked against FRED's keyless public CSV endpoint directly (no key needed) and found unchanged from the already-recorded Oct 12 value.
+- Fields not captured this run (not fabricated, not carried from another period): Gulf Coast / PADD-level distillate-output and ULSD-specific (≤15ppm) breakout — `table9.csv`'s row labels do not cleanly key those cells for a quick, low-risk parse this run; national distillate production and stocks (incl. the ≤15/≤500/>500ppm stock splits, which ARE present in table1.csv) are captured above. Distillate imports/exports and PADD1/PADD3 distillate stocks from the Oct14 worksheet's comparison baseline were not separately re-extracted this run; national distillate figures stand in their place.

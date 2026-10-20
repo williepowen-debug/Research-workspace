@@ -1,0 +1,8 @@
+{
+  "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2026/2026_09_23/csv/table9.csv",
+  "status": 200,
+  "file": "archive-sep23-table9.csv",
+  "bytes": 46772,
+  "sha256": "3a97b2de7e8c1bf8cb42221fb7ce5138fd314edfbf310ebe54b5c09112a8ba78",
+  "captured_at": "2026-10-20T19:14:25-04:00"
+}

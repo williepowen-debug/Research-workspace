@@ -1,3 +1,7 @@
+## 2026-10-20 — BRT31first-week evaluation; v5.13/40%unchanged
+
+Old: October15routine reporting-only, price check and unrounded owner evaluation pending. New: first weekOctober9 NON-QUALIFYING at−0.3959714212%, priceYoY+41.4897092453%, counters0/0; overall OPEN. Primary dated archive rows validate all eight weekly inputs; EIAretailfallback supplies exact364dayprice mapping. NCtaxcoverage alonebelow10%; bounded review does not certify50stateabsence. Corrected preparation's weekly-versus4wkaveragemix: matched weekly diesel output fell despite rising utilization. [Full evidence and limitations](../research/2026-10-20_eia-oct15-evaluation/REPORT.md). No new phase/version, confidence, test, holding grade, monitor or capital authority.
+
 ## 2026-10-20 — key-file/workbook reconciliation; v5.13 unchanged
 
 Will requested review of BRENT's key files, including workbook. THESIS position context now points to TRADE's October 20 recovery and October 19 secondary evidence; October 14 call outcome is no longer described as unresolved. No new broker verification, position booking or owner holding grade. October 20 news and USO findings linked with their source/measurement limits: acceleration announcement is not delivery, anonymous proposals are not reopening, and lagged share-short observations are not current squeeze evidence. Existing WAIT, phase, probabilities, thresholds, holding rules and capital authority retained.

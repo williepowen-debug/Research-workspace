@@ -1,0 +1,156 @@
+{
+  "WCRRIUS2": {
+    "file": "psw09.xls",
+    "sheet": "Data 2",
+    "column": 1,
+    "title": "Weekly U.S. Refiner Net Input of Crude Oil  (Thousand Barrels per Day)",
+    "series": "WCRRIUS2",
+    "observations": {
+      "2026-10-02": "16480.0",
+      "2026-10-09": "16615.0"
+    }
+  },
+  "WCRRIP32": {
+    "file": "psw09.xls",
+    "sheet": "Data 2",
+    "column": 4,
+    "title": "Weekly Gulf Coast (PADD 3) Refiner Net Input of Crude Oil  (Thousand Barrels per Day)",
+    "series": "WCRRIP32",
+    "observations": {
+      "2026-10-02": "9263.0",
+      "2026-10-09": "9414.0"
+    }
+  },
+  "WPULEUS3": {
+    "file": "psw09.xls",
+    "sheet": "Data 2",
+    "column": 19,
+    "title": "Weekly U.S. Percent Utilization of Refinery Operable Capacity (Percent)",
+    "series": "WPULEUS3",
+    "observations": {
+      "2026-10-02": "92.7",
+      "2026-10-09": "93.5"
+    }
+  },
+  "W_NA_YUP_R30_PER": {
+    "file": "psw09.xls",
+    "sheet": "Data 2",
+    "column": 22,
+    "title": "Weekly Gulf Coast (PADD 3) Percent Utilization of Refinery Operable Capacity (Percent)",
+    "series": "W_NA_YUP_R30_PER",
+    "observations": {
+      "2026-10-02": "95.0",
+      "2026-10-09": "96.3"
+    }
+  },
+  "WDISTUS1": {
+    "file": "psw09.xls",
+    "sheet": "Data 6",
+    "column": 108,
+    "title": "Weekly U.S. Ending Stocks of Distillate Fuel Oil  (Thousand Barrels)",
+    "series": "WDISTUS1",
+    "observations": {
+      "2026-10-02": "105138.0",
+      "2026-10-09": "102611.0"
+    }
+  },
+  "WDISTP11": {
+    "file": "psw09.xls",
+    "sheet": "Data 6",
+    "column": 109,
+    "title": "Weekly East Coast (PADD 1) Ending Stocks of Distillate Fuel Oil  (Thousand Barrels)",
+    "series": "WDISTP11",
+    "observations": {
+      "2026-10-02": "21687.0",
+      "2026-10-09": "21513.0"
+    }
+  },
+  "WDISTP31": {
+    "file": "psw09.xls",
+    "sheet": "Data 6",
+    "column": 114,
+    "title": "Weekly Gulf Coast (PADD 3) Ending Stocks of Distillate Fuel Oil  (Thousand Barrels)",
+    "series": "WDISTP31",
+    "observations": {
+      "2026-10-02": "43857.0",
+      "2026-10-09": "42065.0"
+    }
+  },
+  "WDIEXUS2": {
+    "file": "psw09.xls",
+    "sheet": "Data 8",
+    "column": 7,
+    "title": "Weekly U.S. Exports of Total Distillate  (Thousand Barrels per Day)",
+    "series": "WDIEXUS2",
+    "observations": {
+      "2026-10-02": "1764.0",
+      "2026-10-09": "1373.0"
+    }
+  },
+  "WDIIMUS2": {
+    "file": "psw09.xls",
+    "sheet": "Data 7",
+    "column": 112,
+    "title": "Weekly U.S. Imports of Distillate Fuel Oil  (Thousand Barrels per Day)",
+    "series": "WDIIMUS2",
+    "observations": {
+      "2026-10-02": "118.0",
+      "2026-10-09": "145.0"
+    }
+  },
+  "WDIRPUS2": {
+    "file": "psw09.xls",
+    "sheet": "Data 3",
+    "column": 75,
+    "title": "Weekly U.S. Refiner and Blender Net Production of Distillate Fuel Oil  (Thousand Barrels per Day)",
+    "series": "WDIRPUS2",
+    "observations": {
+      "2026-10-02": "5290.0",
+      "2026-10-09": "5189.0"
+    }
+  },
+  "WDIRPP32": {
+    "file": "psw09.xls",
+    "sheet": "Data 3",
+    "column": 78,
+    "title": "Weekly Gulf Coast (PADD 3) Refiner and Blender Net Production of Distillate Fuel Oil  (Thousand Barrels per Day)",
+    "series": "WDIRPP32",
+    "observations": {
+      "2026-10-02": "3102.0",
+      "2026-10-09": "3097.0"
+    }
+  },
+  "WD0TP_NUS_2": {
+    "file": "psw09.xls",
+    "sheet": "Data 3",
+    "column": 81,
+    "title": "Weekly U.S. Refiner and Blender Net Production of Distillate Fuel Oil, 0 to 15 ppm Sulfur  (Thousand Barrels per Day)",
+    "series": "WD0TP_NUS_2",
+    "observations": {
+      "2026-10-02": "5066.0",
+      "2026-10-09": "4945.0"
+    }
+  },
+  "WD0TP_R30_2": {
+    "file": "psw09.xls",
+    "sheet": "Data 3",
+    "column": 84,
+    "title": "Weekly Gulf Coast (PADD 3) Refiner and Blender Net Production of Distillate Fuel Oil, 0 to 15 ppm Sulfur  (Thousand Barrels per Day)",
+    "series": "WD0TP_R30_2",
+    "observations": {
+      "2026-10-02": "2924.0",
+      "2026-10-09": "2897.0"
+    }
+  },
+  "WDIUPUS2": {
+    "file": "psw09.xls",
+    "sheet": "Data 10",
+    "column": 4,
+    "title": "Weekly U.S. Product Supplied of Distillate Fuel Oil  (Thousand Barrels per Day)",
+    "series": "WDIUPUS2",
+    "observations": {
+      "2026-10-02": "3650.0",
+      "2026-10-09": "4323.0"
+    }
+  }
+}
