@@ -1,6 +1,6 @@
 # SAM — NEXUS Brief
 
-**As of:** 2026-10-20T16:06:24+00:00, October sweep plus Will-requested internal steward reviews. **STATUS commit `d9db5bf31`** (Amendment 11). Folded after final owner-state commit.
+**As of:** 2026-10-20T19:14:57+00:00, Will-directed key-file reconciliation and US-transmission interpretation. **STATUS commit `2b037532d`** (Amendment 11). Folded after final owner-state commit; market observations retain their own source dates.
 
 ## VIEW
 
@@ -9,6 +9,8 @@
 **Domestic sponsorship:** MOF Oct-20 20Y auction **5.844× / tail 0.6bp ⇒ FIRM**, not precision-limited under frozen bars. Buyer identity unknown. Reuters Oct-16 Fukoku H2 plan adds 20Y/30Y purchases; ongoing 30Y-avoidance inference withdrawn, nothing inferred about 40Y/Asahi. Plan ≠ executed flow. BOJ Oct-16 offers matched published dates/sizes; Oct-19/20 no emergency JGB cap. SAM-33 falsifier un-fired through audited Oct-20.
 
 **Cross-border counter-signal:** MOF monthly investor-type data updated Oct-8: September life-insurer foreign-LT-debt net **−¥288.6B** versus August **−¥137.3B**. Bank banking accounts **−¥2,485.6B**, trust accounts **+¥1,195.3B**, all categories **−¥1,426.0B**. Sector selling is real; named sellers, USTs, forced-sale cause and repatriation destination unproved. Channel 1's two-named-institution/two-window test is not met. Latest weekly debt **−¥339.7B** for Oct-4–10 is a different frequency/population; do not substitute it for the monthly sector signal.
+
+**US read-through — conditional:** better JGB sponsorship and reduced foreign-debt sponsorship are consistent with orderly allocation adjustment, but the institutions, US assets and yen-conversion link are unproved. If US bonds are affected, less reinvestment can remove buying support; active US-credit sales can widen spreads. A separate leveraged unwind can hurt equities while safety demand/Fed repricing lowers Treasury yields. Shared global drivers can move JGB/UST yields without Japan causation. No observed US transmission, yield/equity target or new entry. Canonical mechanism matrix → THESIS § US TRANSMISSION.
 
 **BOJ:** primary speeches/presser maintain further hikes, timing conditional; no October-specific signal established. Reviewed Totan **Oct-20 15:15 JST: October 5%, December 76%, April cumulative 1.93 hikes**. Incremental 25bp equivalents are not general probabilities; counts are not probabilities. OIS source-age expiry **Oct-24 15:15 JST**. SAM-42 stays 25% as made; both re-mark conditions un-fired. Bessent missed Bangkok per Ueda primary transcript; September strong-yen endorsement not withdrawn.
 
@@ -24,7 +26,7 @@ October20 internal reviews completed: current prediction summaries repaired with
 
 **SENDING:** dated signal packet saved for WALTER routing judgment to LIQUID/HENRY/BOND/PROME; completion memo saved in PROME/inbox. Native discovery/transport unavailable; delivery/consumption unverified. See exact artifact paths in sweep and dated packets.
 
-**WAITING-FOR:** September trade volume, CPI, BOJ October statement; larger insurers' H2 disclosures. METI August final IIP access failed (403), direct offshore basis remains absent. Korea exact-value/primary reconciliation and legacy code repairs remain separate outstanding work. No auto-memory or new tooling.
+**WAITING-FOR:** September trade volume, CPI, BOJ October statement; larger insurers' H2 disclosures (actual sales versus maturities/valuation, US asset/tenor, hedges and yen conversion are discriminating evidence, not assumed facts). METI August final IIP access failed (403), direct offshore basis remains absent. Korea exact-value/primary reconciliation and legacy code repairs remain separate outstanding work. No auto-memory or new tooling.
 
 ## NEXT DECISION POINT
 
@@ -39,6 +41,7 @@ No Will ruling needed from this sweep. Watch whether stronger domestic sponsorsh
 | Oct-24 15:15 JST / 02:15 ET | Totan quote source-age expiry |
 | Oct-29/30 | BOJ MPM + Outlook |
 | Oct-31 23:59 JST | SAM-42 outcome boundary |
+| Nov-5 08:50 JST | September BOJ meeting minutes |
 | Approx. Oct-30 / Nov-9 / Nov-13 | MOF monthly / quarterly and FRBNY FX reports, estimated dates |
 
-[STATUS](STATUS.md) · [Full sweep/source limits](research/outputs/2026-10-20_sweep/NEWS_SWEEP.md). Schema owner NEXUS (`AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md` §4.1). Pull/push deferred under dirty-owner rule; local commits do not certify recipient consumption.
+[STATUS](STATUS.md) · [Key-file reconciliation](reports/2026-10-20_key-file-reconciliation.md) · [Full sweep/source limits](research/outputs/2026-10-20_sweep/NEWS_SWEEP.md). Schema owner NEXUS (`AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md` §4.1). Pull/push deferred under dirty-owner rule; local commits do not certify recipient consumption.
