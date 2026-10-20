@@ -1,3 +1,54 @@
+## 2026-10-20T16:29Z — READ-CAP rotation: oldest closeout evidence entries
+
+VERBATIM contiguous historical receipt entries demoted from LAST_COMPLETION; current duties unchanged. Bytes 1956, crc32 f024e3d9, sha256 9c670b3b9a012993909e077d8aeecab6ce27be34784315c972c55dac8ca8c0dd. Original JSON list fragment, including commas, follows.
+
+```json
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-live-acceptance/RESULT.md",
+        "sha256": "282e6e2af626c99013da9717a619b46d4f009531427bd46e35c58b3139595749"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-live-acceptance/INDEPENDENT-REVIEW.md",
+        "sha256": "e6a7f2dcd7b781966e75308a5ec4aaff6dd9873883e274784bd9880c60ffbf89"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-live-acceptance/accepted-version.json",
+        "sha256": "4cd7c905dfaad48440175c2293ebd504f207aa97c90a3018506cd3b5b63f8665"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-live-acceptance/publication.json",
+        "sha256": "be9dae19ab7eb9df486639df60fa464ebc67896f14f9a521b114179b7fbd37a4"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-live-acceptance/live-scan-1.json",
+        "sha256": "1253157ae942fe38ef130e5db3da2deb73fff11827ebab1f2572b4a642787357"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-live-acceptance/live-mark-resume-smoke.json",
+        "sha256": "28cfe39a10d9d8f7bb99b10a9bbe21c98214738481bc1d9a52372d1290b206b4"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-live-acceptance/UNREVIEWED-BACKLOG.json",
+        "sha256": "5f23342e9a6f2615feb4af9e1b313d59a1132dd8b2041c18d2148046c5cb8691"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/RESULT.md",
+        "sha256": "a238655e0d92151bee1250662e38ac579d8f6c967706e5c628d727b164a7f3f8"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/BATCH-PLAN.json",
+        "sha256": "11371ec29409f6d7bab12eeaa2f87c69c0be0b12cea4a89a4860d8ecf1b23bab"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/FOLLOW-UPS.md",
+        "sha256": "3adb7b6570ed0bc497346938869798aea1611b53754bf4f46944a30cb0ae5cb2"
+      },
+```
+
+## 2026-10-20T16:28:24Z — LIGHT CLOSEOUT; bookmark batch4of16
+
+Willnextbatchauthorization;BM-20261020-04CLOSED7contentitems/sixposts:three012–014routes,power/yuan/BrentandHMIcoreDUP.24of96dispositioned/72untriaged;19full/5earlierpartialreadattestations.0productionAPI/mark/stageedit. Threeverifiersclosed/fullpublisher+primaryrecordsreadwithlimits. Priorbatchesorigin-proven34handoffs,currenteightawaitWill-coordinatedSPEC7publication. Generalboot/READS/threshold/financing/SAMintegration/fullnarrativedebt>=3retained;selectedchecksnotfullclearance. Evidence research/2026-10-20_bookmark-batches/batch4/RESULT.md.
+
 ## 2026-10-20T16:01:09Z — LIGHT CLOSEOUT; bookmark batch3 of16
 
 Willkeep-goingauthorization;BM-20261020-03CLOSED6/6:four008–011routes,olderbondsFOLD,coveranalogyNO-ACTION.18of96dispositioned,78untriaged;13full/5partialsourceattestations.0productionAPI/mark/stageedit.12imagesrecovered/readfree;threeRule9verifiersclosed/noCREEDlaunch. Priorbatchesnoworigin-proven20handoffs,current14pending. SourcegapsandIllinois2property/1loanboundinresearch/2026-10-20_bookmark-batches/batch3. ForeignBRENT/TERRYworkuntouched. Generalboot/READS/threshold/financing/SAMintegration/fullnarrativedebt>=3retained;selectedchecksnotfullclearance.

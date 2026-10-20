@@ -1,0 +1,37 @@
+---
+to: ["HANS"]
+action: ["HANS"]
+info: ["LABOR", "CARL", "RED", "PROME"]
+from: WALTER
+date: 2026-10-20
+timestamp: 2026-10-20T16:27:10Z
+dispatched: 2026-10-20T16:27:10Z
+signal_id: SIG-W-20261020-013
+domain: EUROPE_MACRO
+signal_type: research
+cluster: CONSUMER_STAGFLATION
+precedence: PRIORITY
+confidence: 0.85
+confidence_language: reports
+entities: ["Volkswagen", "VW", "IG-Metall", "Germany"]
+source: Will-authorized X bookmark batch BM-20261020-04
+resources: 1
+safety_net: clear
+word_count: 192
+event_window: closed
+dispatch_note: CORRECTED-framing; source, bargaining, sampling and revision limits retained; no owner launch/grade.
+---
+
+# Volkswagen global pay-budget directive remains a contested proposal
+
+## Signal
+IG Metall's October19 statement reports a worldwide VW HR budget directive holding 2026 pay levels through2030, but explicitly describes a proposal subject to local bargaining. This is not a verified wage freeze already implemented for every employee.
+
+## Data
+Intended worldwide scope is roughly660,000 workers; Germany275,000 and the VW company agreement130,000 are subsets, not substitutes for the global perimeter. The union opposes implementation and identifies separate contracting parties. ARD reports possible bonus/benefit restrictions and Volkswagen declining comment. Underlying internal directive, full SZ article and all-country implementation inventory were not obtained. This differs from older German-brand restructuring agreements.
+
+## Relevance
+ACTION HANS: integrate the contested industrial cost-budget/bargaining development in existing Europe macro work. LABOR INFO for the proposal/realized-wage distinction; CARL INFO for a qualified global-demand channel, not a new US labor observation; RED/PROME INFO. No HANS launch, new layoffs, completed agreement or realized purchasing-power loss established. Neither already-frozen-everywhere nor Germany-only framing is warranted.
+
+## Source
+[IG Metall Wolfsburg October19 bilingual statement](https://www.igm-bei-vw.de/meldung/vw-konzernvorstand-will-jahrelange-nullrunden-fuer-belegschaften-weltweit-durchdruecken), full body read; [ARD October19](https://www.tagesschau.de/wirtschaft/unternehmen/vw-1620.html), full reporting body read. Origin https://x.com/Polymarket/status/2112504350652154327 . Exact evidence/read limits/dedup: AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch4/verify-volkswagen.md. CORRECTED-framing: union/works-council account supports a global management instruction, not a concluded global pay agreement.

@@ -1,0 +1,37 @@
+---
+to: ["VULCAN", "WATT"]
+action: ["VULCAN", "WATT"]
+info: ["LIQUID", "HENRY", "RED", "PROME"]
+from: WALTER
+date: 2026-10-20
+timestamp: 2026-10-20T16:27:10Z
+dispatched: 2026-10-20T16:27:10Z
+signal_id: SIG-W-20261020-012
+domain: AI_CAPEX
+signal_type: research
+cluster: AI_INFRA_CAPEX
+precedence: PRIORITY
+confidence: 0.85
+confidence_language: reports
+entities: ["Amazon", "AMZN", "AWS", "Early-Rack-Receipt"]
+source: Will-authorized X bookmark batch BM-20261020-04
+resources: 1
+safety_net: clear
+word_count: 224
+event_window: closed
+dispatch_note: CORRECTED-framing; source, bargaining, sampling and revision limits retained; no owner launch/grade.
+---
+
+# Amazon rack-receipt reporting adds deployment and cash-timing questions
+
+## Signal
+Business Insider reports some AWS sites had space for racks but insufficient available power. An early-receipt program moves ownership/payment earlier, potentially leaving cash out before productive deployment. Amazon disputes a company-wide absence of installation forecasts and calls nearby staging routine.
+
+## Data
+Article published October19, updated October20; both offered screenshots and complete publisher articleBody were read. Forecast uncertainty belonged to at least one team. Underlying August emails/September recording were not independently obtained. Projected $5B rack receipts in August and about $3B monthly thereafter are plans, not verified deliveries or stranded inventory. The broader $220B annual capex plan is not warehouse stock. No measured idle duration, cancelled purchase order, aggregate capex cut or realized loss established.
+
+## Relevance
+ACTION VULCAN: assess the source-specific deployment/working-capital assumptions in existing capex sustainability work, including Amazon's contrary account and return outlook. ACTION WATT: assess the reported power-readiness constraint without treating a Maryland collateral proposal as an enacted rule or payment. LIQUID INFO for cash/counterparty timing, HENRY INFO for the demand-versus-execution distinction; RED/PROME INFO. No new credit structure, gate/fire or owner grade. Cash timing risk and strong demand can coexist.
+
+## Source
+[Business Insider, Eugene Kim](https://www.businessinsider.com/amazon-220-billion-ai-bet-data-centers-spending-challenges-2026-10), published2026-10-19T09:00Z, modified2026-10-20T15:14Z; free publisher articleBody recovered after web-tool failure. Origin https://x.com/edzitron/status/2112336168784134484 . Source scope, rebuttal and dedup: AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch4/verify-amazon.md. CORRECTED-framing; corporate records unavailable independently. No supplier or asset-wide inference from one team's email.

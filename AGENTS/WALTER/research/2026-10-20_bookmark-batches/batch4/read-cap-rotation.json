@@ -1,0 +1,8 @@
+{
+  "old_bytes": 24461,
+  "new_bytes": 22618,
+  "verbatim_payload_bytes": 1956,
+  "verbatim_payload_sha256": "9c670b3b9a012993909e077d8aeecab6ce27be34784315c972c55dac8ca8c0dd",
+  "destination": "AGENTS/WALTER/SESSION_LOG.md#2026-10-20T16:29Z",
+  "duties": "retained; only historical evidence pointer entries demoted"
+}
