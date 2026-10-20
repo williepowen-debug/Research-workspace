@@ -1,0 +1,1056 @@
+Tharisa plc 
+(Incorporated in the Republic of Cyprus with limited liability)  
+(Registration number HE223412) 
+JSE share code: THA  
+LSE share code: THS  
+A2X share code: THA  
+ISIN: CY0103562118 
+LEI: 213800WW4YWMVVZIJM90 
+Bond issuer: Arxo Finance plc     
+Bond ISIN: NO0013769844     
+('Tharisa' or the 'Company' or ‘Group’) 
+
+PRODUCTION REPORT FOR THE FOURTH QUARTER AND FULL YEAR ENDED 30 SEPTEMBER 2026 
+
+Tharisa,  the  mining,  metals  and  innovation  company  dual-listed  on  the  Johannesburg  and  London 
+stock  exchanges,  announces  its  production  results  for  Q4  FY2026  and  the  financial  year  ended  
+30 September 2026, together with its capital structure and liquidity position as at that date. 
+
+Highlights 
+
+•  Lost Time Injury Frequency Rate (‘LTIFR’) per 200 000 man hours worked: 
+
+–  0.03 at Tharisa Minerals 
+
+–  0.00 at Karo Platinum 
+
+•  Quarterly PGM production of 41.0 koz on a 6E basis (Q3 FY2026: 39.6 koz), bringing FY2026 PGM 
+
+production to 153.7 koz (FY2025: 138.7 koz) in line with guidance 
+
+•  Average PGM contained metal basket price of US$2 535/oz (Q3 FY2026: US$2 681/oz) and FY2026 
+
+average price of US$2 607/oz (FY2025: US$1 615/oz ) 
+
+•  Quarterly  chrome  concentrate  production  of  416.7  kt  (Q3  FY2026:  393.8  kt),  bringing  FY2026 
+
+production to 1 563.8 kt (FY2025: 1 558.2 kt) in line with guidance 
+
+•  Average metallurgical grade chrome concentrate price of US$285/t on a 42% basis (Q3 FY2026: 
+
+US$306/t) and FY2026 average price of US$290/t (FY2025: US$266/t) 
+
+•  Tharisa underground transition: project remains on track and within budget with a total of 450 
+development metres advanced, delivering 52 kt total tonnes, including 30.8 kt of development 
+reef 
+
+•  Karo Platinum further de-risked, signing of a 25-year Special Mining Lease Agreement with the 
+Government  of  Zimbabwe  on  24  August  2026,  and  a  five-year  PGM  concentrate  purchase 
+agreement signed with Valterra Platinum on 27 August 2026 providing offtake certainty  
+
+•  Karo  Platinum  Phase  1,  US$240  million  investment  to  date  against  a  total  capex  estimate  of 
+
+US$516 million, with first ore to the mill targeted for Q4 CY2027 
+
+•  Karo  Platinum  fully  funded  with  the  US$300  million  senior  secured  Nordic  bond,  net  proceeds 
+
+placed in escrow  
+
+•  Group cash on hand of US$123.6 million (30 June 2026: US$198.8 million), with additional escrow 
+cash  of  US$288.2  million  amounting  to  a  combined  total  of  US$411.8  million  and  debt  of 
+in  a  net  debt  position  
+US$462.8 million  (30  June  2026:  US$188.1  million),  resulting 
+of  US$51.0 million  (30  June  2026:  US$10.7 million  net  cash).  The  Group’s  net  debt  position  of 
+US$51.0 million  at 30 September 2026  compares to net cash of $10.7 million at 30  June 2026.  
+The US$61.7 million movement is stated after growth capex of US$19.6 million associated with 
+Page | 1  
+
+ 
+ 
+Tharisa Underground project, US$30.4 million capex at Karo Platinum, and US$12.4 million net 
+issue discount, fees and accrued interest related to the Nordic Bond. 
+
+•  Production  guidance  for  FY2027  is  set  at  between  150  koz  and  170  koz  PGMs  (6E  basis)  and  
+
+1.50 Mt to 1.65 Mt of chrome concentrates 
+
+Summary of key metrics 
+
+Unit  Q4 
+
+FY2026 
+
+Q3 
+FY2026 
+
+QoQ 
+% 
+
+FY2026 
+
+FY2025  YoY % 
+
+Reef mined 
+
+Reef milled 
+
+Kt 
+
+Kt 
+
+1 339.8 
+
+1 235.2 
+
+8.5  
+
+4 686.4 
+
+5 353.8  (12.0) 
+
+1 428.1 
+
+1 331.0 
+
+7.3  
+
+5 508.5 
+
+5 555.7  _ 
+
+6E PGMs produced 
+
+Koz 
+
+41.0 
+
+39.6 
+
+Chrome concentrates 
+produced 
+
+Kt 
+
+416.7 
+
+393.8 
+
+3.5  
+
+5.8  
+
+153.7 
+
+138.3 
+
+11.0 
+
+1 563.8 
+
+1 558.2  1.0 
+
+PGM contained metal 
+basket price 
+
+US$/
+oz 
+
+Met.  grade  chrome 
+price, 42% basis 
+
+US$/
+t 
+
+2 535 
+
+2 681 
+
+(5.4) 
+
+2 607 
+
+1 615 
+
+61 
+
+285 
+
+306 
+
+(6.9) 
+
+290 
+
+266 
+
+9.0 
+
+Phoevos Pouroulis, CEO of Tharisa, commented: 
+
+"FY2026 was the year Tharisa's growth moved from planning into construction. 
+
+As always, we begin with safety. Our Lost Time Injury Frequency Rate for the year was 0.03 at Tharisa 
+Minerals and 0.00 at Karo Platinum, and there were no fatalities at either site. This remains the most 
+important measure of our performance. 
+
+Operationally, we met our market guidance for both commodities, producing 153.7 koz of 6E PGMs 
+and 1 563.8 kt of chrome concentrates for the year. 
+
+The pricing environment was materially stronger than in the prior year. Our average PGM contained 
+metal basket price was US$2 607/oz, compared with US$1 615/oz for FY2025, while the metallurgical 
+grade  chrome  concentrate  price  averaged  US$290/t  on  a  42%  basis,  compared  with  US$266/t. 
+Platinum market fundamentals remain supportive over the medium term, despite the WPIC's revised 
+forecast of a marginal surplus for 2026. While chrome prices softened late in the year amid weaker 
+stainless steel demand and cautious mill procurement, we believe market conditions are positioned to 
+improve  as  procurement  normalises  and  demand  strengthens,  supporting  a  firmer  chrome  price 
+outlook. 
+
+Years of tenacity and resilience culminated in a three-week period that fundamentally strengthened 
+Karo  Platinum’s  position.  On  24  August,  we  signed  a  25-year  Special  Mining  Lease  with  the 
+Government of Zimbabwe over 23 903 hectares of the Great Dyke, securing tenure and fiscal certainty 
+for the life of the project. Three days later, we signed a five-year PGM concentrate offtake agreement 
+with Valterra Platinum. On 24 September, we issued US$300 million senior secured bond, supported 
+by institutional investors across Europe, the United Kingdom, the Middle East, North America, and Asia 
+which were oversubscribed. 
+
+Page | 2  
+
+ 
+ 
+ 
+Security of tenure, regulatory certainty and offtake is what is required to attract international capital 
+to a major African mining project. Capital is  available for critical-minerals exposure, but it requires 
+confidence  and  conviction  in  the  underlying  PGM  market  fundamentals  coupled  with  credible 
+partnerships,  and  meaningful  sponsor  commitment.  We  had  invested  more  than  US$240 million  in 
+Karo before approaching the bond market. By combining that commitment with the Special Mining 
+Lease and the Valterra Platinum offtake agreement, we created an investable proposition that secured 
+substantial international funding. 
+
+We are accountable for converting our resources into sustainable returns for shareholders by delivering 
+more quality tonnes, earlier and at a competitive cost. Our safety performance, carbon commitments 
+and  relationships  with  neighbouring  communities  are  integral  to  that  objective.  These  support  our 
+licence to operate, strengthen our partnerships, and underpin the long-term performance of both the 
+Tharisa Mine and Karo Platinum. 
+
+We enter FY2027 with tenure, offtake, and funding in place at Karo Platinum. First ore to mill remains 
+targeted  for  the  fourth  quarter  of  calendar  2027.  At  the  Tharisa  Mine,  the  Apollo  underground 
+transition is progressing, with first run-of-mine ore and development milestones reported against the 
+project plan. 
+
+Finally, I would like to sincerely thank Loucas Pouroulis for his fifteen years as Chairman. Tharisa was 
+founded on his vision and leadership which has shaped Tharisa into the business it is today; we are 
+deeply  grateful  for  the  resilient  platform  he  has  established  upon  which  we  continue  to  build  for 
+generations to come. I warmly welcome Carol Bell as Chairman and look forward to working with her. 
+As we begin this next  chapter,  our  priority is clear:  to deliver  Karo Platinum and the next phase of 
+growth at the Tharisa Mine safely, responsibly and with proven capital discipline." 
+
+Safety, health and environment 
+
+The health and safety of our stakeholders is a core value, and Tharisa continues to strive for zero harm 
+at its operations. 
+
+Metric 
+
+Q4 FY2026 
+
+FY2026 
+
+LTIFR — Tharisa Minerals 
+
+LTIFR — Karo Platinum 
+
+Fatalities 
+
+0.03 
+
+0.00 
+
+- 
+
+0.03 
+
+0.00 
+
+- 
+
+Tharisa  Minerals  won  the  Safety  Excellence  Award  at  The  Chrome  Dinner  2026  in  recognition  of 
+achieving a Level 9 safety rating and operating for three years without a lost-time injury. 
+
+Karo Platinum achieved 3.5 million LTI-free hours during September 2026. 
+
+Redox One won the Environmental Award at The Chrome Dinner 2026 for development of battery 
+energy storage systems (BESS) and contributions to the energy transition and sustainability in South 
+African mining. 
+
+Page | 3  
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Operational review 
+
+Mining 
+
+–  Reef mined totalled 1 339.8 kt in Q4 FY2026 (Q3 FY2026: 1 235.2 kt). 
+–  Stripping ratio of 10.2 m³:m³ (Q3 FY2026: 10.7 m³:m³)Mining performance strengthened in 
+Q4  FY2026,  with  reef  mined  increasing  by  8.5%  quarter  on  quarter  to  1  339.8  kt  from  
+1  235.2  kt  in  Q3  FY2026.  The  improvement  in  mined  volumes  continues  the  recovery  in 
+operating  momentum  over  recent  quarters,  although  FY2026  reef  mined  of  4  686.4  kt 
+remained below the 5 353.8 kt achieved in FY2025 following a weather challenged Q2 FY2026. 
+
+Processing 
+
+–  Reef milled totalled 1 428.1 kt in Q4 FY2026 (Q3 FY2026: 1 331.0 kt) bringing FY2026 total reef 
+
+milled to 5 5508.5 kt (FY2025 5555.7 kt) 
+
+–  PGM flotation feed of 1 095.2 kt at a rougher feed grade of 1.41 g/t (Q3 FY2026: 1 018.7 kt at 
+
+1.44 g/t) 
+
+–  PGM  recovery  of  82.6%  (Q3  FY2026:  83.8%),  producing  41.0  koz  of  6E  PGMs  (Q3  FY2026:  
+
+39.6 koz) 
+
+–  Chrome  ROM  grade  of  17.0%  Cr₂O₃  (Q3  FY2026:  17.7%),  recovery  of  70.4%  (Q3  FY2026: 
+
+68.2%) and yield of 29.2% (Q3 FY2026: 29.6%) 
+
+–  Chrome  concentrate  production  of  416.7  kt  (Q3  FY2026:  393.8  kt),  comprising  371.3  kt 
+
+metallurgical grade and 45.4 kt specialty grades 
+
+Processing performance strengthened in Q4 FY2026, with reef milled increasing by 7.3% quarter on 
+quarter to 1 428.1 kt. The 88.3 kt difference between reef mined and reef milled was supplemented 
+by purchased ore. Higher throughput supported a 3.5% increase in 6E PGM production to 41.0 koz 
+and a 5.8% increase in chrome concentrate production to 416.7 kt. PGM recovery decreased to 82.6% 
+amid slightly softer feed grades, while chrome recovery improved to 70.4%, supported by Vulcan’s 
+recovery of chrome from the processing circuit and a slightly higher ex-pit chrome grade from the 
+mining of the MG4A, MG4 and MG2 seams. 
+
+Underground progress 
+
+The underground transition remains on schedule to reach steady state for Apollo shaft by start of our 
+FY2029. A total of 450 development metres was advanced during the quarter, while 52 kt was mined, 
+including  30.8  kt  of  reef.  Sunday  labour  permission,  approval  for  twice-daily  blasting  and 
+implementation  of  a  full-calendar  operating  roster  were  secured  during  the  quarter,  enabling 
+continuous operations.  
+
+Karo Platinum 
+Karo  maintained  its  strong  safety  performance  during  the  quarter,  while  mine  development  and 
+construction activities continued in line with the phased funding profile. Pre-stripping advanced to 
+1.91 million BCM and the project transitioned from bulk earthworks towards fabrication, structural 
+steel erection, and preparation for mechanical installation. First ore to the mill remains targeted for 
+Q4 CY2027. 
+
+Safety 
+
+Zero lost-time injuries in FY2026; 3.66 million cumulative LTI-free hours. 
+
+Page | 4  
+
+ 
+ 
+ 
+Mining 
+
+The life-of-mine mining contractor is fully mobilised, with 44 of the planned 82 fleet units currently on 
+site. Pre-stripping volumes totalled 785k BCM during July and August, increasing cumulative waste 
+stripping  to 1.91  million  BCM  as  mining  progressed from  soft  into  hard  overburden.  Ore  mining  is 
+scheduled to commence in October 2026, providing fresh ore for ongoing metallurgical test work. 
+
+Construction 
+
+Design  and  engineering  activities  are  complete,  with  construction  having  progressed  from  bulk 
+earthworks  into  fabrication  and  structural  steel  erection.  The  focus  for  the  next  phase  is  the 
+completion of fabrication and steel installation ahead of the planned commencement of mechanical 
+installation in Q1 2027 and electrical and instrumentation installation in Q2 2027. 
+
+Construction  of  the  milling  structures  has  advanced,  while  cleaner  flotation  installation  is  73% 
+complete. Construction of the Chirundazi Dam is 75% complete. Logistics activities continued during 
+the period. Deliveries of the substation, thickener and clarifier commenced from mid-September, and 
+the on-site bonded warehouse is operating as planned. 
+
+Funding 
+
+Cumulative investment in the project stands at US$240 million of the estimated US$516 million project 
+capex requirement. Funding to date comprises US$204 million of Tharisa equity and US$36 million 
+from the KMH  bond. The US$300 million bond has been sized to fund the remaining construction 
+programme, with proceeds held in escrow pending fulfilment of the customary conditions precedent. 
+Project drawdowns are expected to commence from November 2026. A US$75 million Zimbabwean 
+working-capital  facility  is  also  being  finalised.  Bond  proceeds  are  ring-fenced  for  Karo,  with  debt 
+service settled through offshore accounts.  
+
+Outlook 
+
+Over  the  next  12  months,  Karo  is  expected  to  transition  from  construction  into  commissioning.  
+Ore  mining  is  scheduled  to  commence  in  October  2026,  followed  by  mechanical  and  pipeline 
+installation  from  Q1  2027  and  electrical  and 
+installation  from  Q2  2027. 
+Commissioning  is  planned  between  July  and  October  2027,  with  first  ore  to  the  mill  targeted  for  
+Q4  CY2027.  Steady-state  production  of  between  220  koz  and  230  koz  6E  per  annum  is  expected 
+approximately six months after first ore in mill. 
+
+instrumentation 
+
+Financial and funding 
+
+Group cash on hand of US$123.6 million (30 June 2026: US$198.8 million), with additional escrow cash 
+of US$288.2 million amounting to a combined total of US$411.8 million and debt of US$462.8 million 
+(30 June 2026: US$188.1 million), resulting in a net debt position of US$51.0 million (30 June 2026: 
+US$10.7 million net cash).  The Group’s net debt position of US$51.0 million at 30 September 2026 
+compares to net cash of $10.7 million at 30 June 2026. The US$61.7 million movement is stated after 
+growth capex of ~US$19.6 million associated with Tharisa Underground project, US$30.4 million capex 
+at Karo Platinum, and  US$12.4 million net issue discount, fees and accrued interest related to the 
+Nordic Bond. 
+
+Page | 5  
+
+ 
+ 
+Market review 
+
+Platinum Group Metals (PGM) prices partially recovered during our Q4, although most of the gains 
+had reversed by quarter-end. Following the sharp sell-off in the first half of the year, platinum led a 
+rally  through  July  and  August,  supported  by  a  softer  US  dollar  and  renewed  investor  interest  in 
+precious  metals.  Macroeconomic  pressures  intensified  in  September:  oil  prices  remained  elevated 
+amid the US–Iran conflict, the US Federal Reserve maintained a hawkish stance as support for a rate 
+increase grew, and the dollar strengthened. Prices consequently weakened across the PGM basket. In 
+its  September  update,  the  WPIC  revised  its  2026  platinum  forecast  to  a  small  surplus,  principally 
+because of ETF selling and weaker Chinese jewellery demand. However, it still expects deficits during 
+the second half of the year, while above-ground stocks remain critically low.  
+
+The  chrome  ore  market  remained  well  supplied  during  the  quarter,  with  Chinese  port  inventories 
+remaining elevated at approximately ten weeks of consumption. Prices came under pressure towards 
+the end of the  seasonal  lull,  with  transactions for UG2 chrome ore at approximately US$265/t CIF 
+China.  Stainless  steel  producers  continued  to  prioritise  cost  control  and  scheduled  maintenance. 
+Elevated  alloy  inventories  weighed  on  ferrochrome  market  sentiment,  with  Chinese  ferrochrome 
+tender  prices  declining  by  RMB200/t  towards  the  end  of  the  quarter.  Looking  ahead,  improved 
+electricity tariffs for South African ferrochrome producers are facilitating the resumption of previously 
+curtailed  smelting  operations,  with  potential  implications  for  both  ferrochrome  supply  and  the 
+availability of chrome ore for export. A reallocation of ore from exports to domestic processing could 
+support chrome ore prices, while increased ferrochrome output may constrain alloy prices. Market 
+conditions  will  also  be  influenced  by  Chinese  port  inventory  levels,  stainless  steel  production,  and 
+trends in chrome ore production and logistics costs. 
+
+Guidance and outlook 
+
+FY2026 was a transformational year for Tharisa, with the Tharisa Mine delivering against guidance and 
+Karo Platinum fully funded and in construction. FY2027 production guidance is set at between 150 koz 
+and  170  koz  of  PGMs  on  a  6E  basis  and  between  1.50  Mt  and  1.65  Mt  of  chrome  concentrates, 
+reflecting production from the Tharisa Mine only, with first ore to the mill at Karo Platinum targeted 
+for  Q4  CY2027.  Supported  by  improved  operating  momentum  at  the  Tharisa  Mine  and  continued 
+progress  on  the  Apollo  underground  transition,  Tharisa  enters  FY2027  well  positioned  for  its  next 
+phase of growth. 
+
+FY2026 
+guidance 
+
+FY2026 actual 
+
+6E PGMs (koz) 
+
+145 – 165 
+
+153.7 
+
+Chrome concentrates (Mt)  1.50 – 1.65 
+
+1.56 
+
+FY2027 
+guidance 
+
+150-170 
+
+1.50-1.65 
+
+Page | 6  
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Full production table and comparison 
+
+Quarter 
+ended 
+30 Sep 
+2026  
+
+Quarter 
+ended 
+30 June 
+2026  
+
+Quarter on 
+quarter 
+movement 
+%  
+
+Quarter 
+ended 
+30 Sep 
+2025  
+
+Year 
+ended 
+30 Sep 
+2026  
+
+Year  
+ended 
+30 Sep 
+2025  
+
+Reef mined 
+
+kt 
+
+1 339.8 
+
+1 235.2 
+
+8.5  
+
+1 486.7 
+
+4 686.4 
+
+5 353.8 
+
+Stripping ratio 
+
+m3: m3 
+
+10.2 
+
+10.7 
+
+(4.7) 
+
+9.3 
+
+11.4 
+
+8.9 
+
+Reef milled 
+
+PGM flotation feed 
+
+PGM rougher feed 
+grade 
+
+PGM recovery 
+
+6E PGMs produced 
+
+Platinum  
+
+Palladium  
+
+Rhodium  
+
+Average PGM 
+contained metal 
+basket price 
+
+kt 
+
+kt 
+
+g/t 
+
+% 
+
+koz 
+
+koz 
+
+koz 
+
+koz 
+
+1 428.1 
+
+1 331.0 
+
+7.3  
+
+1 429.6 
+
+5 508.5 
+
+5 555.7 
+
+1 095.2 
+
+1 018.7 
+
+7.5  
+
+1 117.9 
+
+4 272.4 
+
+4 330.7 
+
+1.41 
+
+1.44 
+
+(2.1) 
+
+1.42 
+
+1.39 
+
+1.39 
+
+82.6 
+
+41.0 
+
+20.7 
+
+6.5 
+
+3.8 
+
+83.8 
+
+39.6 
+
+20.9 
+
+6.9 
+
+4.0 
+
+(1.4) 
+
+80.7 
+
+80.7 
+
+71.3 
+
+3.5  
+
+41.3 
+
+153.7 
+
+138.3 
+
+(1.0) 
+
+22.6 
+
+(5.8) 
+
+(5.0) 
+
+6.7 
+
+4.5 
+
+81.6 
+
+25.1 
+
+15.0 
+
+73.0 
+
+22.0 
+
+14.5 
+
+US$/oz 
+
+2 535 
+
+2 681 
+
+(5.4) 
+
+1 953 
+
+2 607 
+
+1 615 
+
+Platinum  
+
+US$/oz 
+
+1 727 
+
+1 919 
+
+(10.0) 
+
+1 384 
+
+1 882 
+
+1 098 
+
+Palladium  
+
+US$/oz 
+
+1 307 
+
+1 414 
+
+(7.6) 
+
+1 170 
+
+1 476 
+
+1 033 
+
+Rhodium  
+
+US$/oz 
+
+8 461 
+
+8 981 
+
+(5.8) 
+
+6 575 
+
+8 914 
+
+5 309 
+
+Cr2O3 ROM grade 
+
+Chrome recovery 
+
+Chrome yield 
+
+Chrome concentrates 
+produced  
+
+Metallurgical grade 
+
+Specialty grades 
+
+% 
+
+% 
+
+% 
+
+kt 
+
+kt 
+
+kt 
+
+17.0 
+
+70.4 
+
+29.2 
+
+17.7 
+
+68.2 
+
+29.6 
+
+(4.0) 
+
+3.2  
+
+(1.4) 
+
+15.7 
+
+74.0 
+
+28.5 
+
+16.6 
+
+69.6 
+
+28.4 
+
+16.3 
+
+70.3 
+
+28.0 
+
+416.7 
+
+393.8 
+
+5.8  
+
+407.2 
+
+1 563.8 
+
+1 558.2 
+
+371.3 
+
+349.9 
+
+45.4 
+
+43.9 
+
+6.1  
+
+3.4  
+
+371.1 
+
+1 400.0 
+
+1 381.8 
+
+36.1 
+
+163.8 
+
+176.4 
+
+Page | 7  
+
+ 
+ 
+ 
+ 
+Average metallurgical 
+grade chrome 
+concentrate contract 
+price – 42% basis 
+
+Average exchange 
+rate 
+
+US$/t 
+CIF 
+China 
+
+ZAR: 
+US$ 
+
+285 
+
+306 
+
+(6.9) 
+
+276 
+
+290 
+
+266 
+
+16.3 
+
+16.5 
+
+(1.2) 
+
+17.6 
+
+16.6 
+
+18.1 
+
+The above forward-looking statements have not been reported on or reviewed by Tharisa's auditors 
+and are the responsibility of the directors. 
+
+Definitions and basis of preparation 
+
+Term 
+
+6E 
+
+Definition 
+
+Six-element basis: platinum, palladium, rhodium, ruthenium, iridium, 
+and gold. 
+
+Contained  metal  basket 
+price 
+
+The  value  of  the  contained  metal  in  concentrate  produced  before 
+smelter  and  refinery  deductions  and  the  application  of  payability 
+terms. 
+
+Realised basket price 
+
+The price received for ounces sold during the period, after applicable 
+deductions and payability terms. 
+
+Stripping ratio 
+
+Chrome yield 
+
+PGMs 
+
+Cubic metres of waste moved per cubic metre of reef mined. 
+
+Chrome concentrate produced as a percentage of reef milled. 
+
+Platinum  group  metals,  comprising  platinum,  palladium,  rhodium, 
+ruthenium, iridium, and osmium. 
+
+PGM concentrate 
+
+Commercially acceptable flotation concentrate containing PGMs. 
+
+Chrome concentrate 
+
+Any  combination  of  chemical,  foundry,  and/or  metallurgical  grade 
+chrome  concentrate,  with  a  predominance  of  metallurgical  grade 
+concentrate. 
+
+Metallurgical 
+chrome concentrate 
+
+grade 
+
+Saleable  chromium-rich  product  typically  reported  on  a  42%  Cr₂O₃ 
+basis. 
+
+Cr₂O₃ 
+
+Reef 
+
+ROM 
+
+LTIFR 
+
+Tharisa Mine 
+
+Karo Platinum 
+
+Chromium (III) oxide. 
+
+The mineralised chromitite layers mined and processed at the Tharisa 
+Mine. 
+
+Run of mine, being ore extracted and available for processing. 
+
+Lost-time injury frequency rate, calculated as the number of lost-time 
+injuries per 200 000 hours worked. 
+
+Tharisa Minerals’ PGM and chrome mining and processing operation 
+located in the Bushveld Complex in South Africa. 
+
+The  Group’s  PGM  development  project  on  the  Great  Dyke  in 
+Zimbabwe. 
+
+Page | 8  
+
+ 
+ 
+koz:  thousand  ounces;  kt:  thousand  tonnes;  Mt:  million  tonnes;  t: 
+tonnes; US$/oz: United States dollars per ounce; US$/t: United States 
+dollars per tonne. 
+
+Units 
+
+Paphos, Cyprus 
+
+13 October 2026 
+
+JSE Sponsor 
+Investec Bank Limited 
+Connect with us on LinkedIn to get further news and updates about our business or visit our Curation 
+Corp Showcase. 
+
+Contacts 
+
+Investor Relations 
+Ilja Graulich (Head of Investor Relations and Communications) 
++27 11 996 3500  |  +27 83 604 0820  |  igraulich@tharisa.com  
+
+Broker Contacts 
+Berenberg (UK Joint Broker) — Matthew Armitt / Jennifer Lee / Detlir Elezi — +44 203 207 7800 
+BMO Capital Markets Limited (UK Joint Broker) — Thomas Rider / Nick Macann — +44 207 236 1010 
+Peel Hunt LLP (UK Joint Broker) — Ross Allister / Georgia Langoulant — +44 207 418 8900 
+
+About Tharisa – funded growth, a second operating asset, commercialising technology 
+
+Tharisa  plc  is  an  integrated  resource  group  producing  platinum  group  metals  (PGMs)  and  chrome 
+concentrates, commodities central to the global energy transition and the decarbonisation of industry. 
+The  Group  operates  across  the  full  value  chain  –  exploration,  mining,  processing,  beneficiation, 
+marketing, sales, and logistics. 
+
+The  Tharisa Mine, on  the south-western  limb  of  the  Bushveld  Complex  in  South  Africa,  is  a  multi-
+generational operation co-producing PGMs and chrome from a single orebody – a combination that 
+underpins  the  Group’s  cost  position  through  the  commodity  cycle.  Downstream  beneficiation, 
+including the Vulcan ultra-fine chrome recovery plant and proven chrome and PGM alloy production, 
+extends the Group’s reach along the value chain. 
+
+The Karo Platinum Project on Zimbabwe’s Great Dyke is the Group’s second major mining asset and is 
+under development. Phase  1  is  designed to produce approximately 226 koz of PGMs a year at full 
+capacity, more than doubling Group PGM production, with first ore in mill expected by the end of 
+2027. PGM concentrate offtake has been secured with Valterra Platinum for an initial five-year term. 
+
+Through  Redox  One,  Tharisa  is  commercialising  proprietary  iron-chromium  redox  flow  battery 
+technology for long-duration energy storage, using the chrome and iron the Group already produces. 
+
+Tharisa targets a 30% reduction in carbon emissions by 2030 and net carbon neutrality by 2050. 
+Tharisa plc is incorporated in Cyprus. Its ordinary shares are primary listed on the Main Board of the 
+Johannesburg Stock Exchange (JSE: THA), with listings on the Equity Shares (Commercial Companies) 
+category of the London Stock Exchange (LSE: THS) and A2X Markets (A2X: THA). 
+
+Page | 9  
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Information for South African institutional investors: exchange control classification 
+Tharisa plc is incorporated in Cyprus, and its ordinary shares are primary listed on the Main Board of 
+the JSE. The shares are an approved inward listing, denominated in Rand and settled through Strate. 
+In terms of South African Reserve Bank Exchange Control Circular No. 9/2022, approved inward listed 
+shares  are  classified  as  domestic  assets  for  exchange  control  purposes.  On  that  basis,  holdings  of 
+Tharisa ordinary shares acquired on the JSE are not marked off against the prudential foreign exposure 
+limit  applicable  to  South  African  institutional  investors,  and  do  not  consume  the  foreign  asset 
+allowance under Regulation 28 of the Pension Funds Act. This treatment differs from that applied to 
+inward listed debt instruments, derivatives, and exchange traded funds. 
+The ordinary asset class and per-issuer limits under Regulation 28 continue to apply. This summary is 
+provided  for  information  only,  does  not  constitute  investment,  legal  or  tax  advice,  and  investors 
+should satisfy themselves as to their own position. 
+
+Page | 10  
+
+ 
+

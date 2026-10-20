@@ -1,0 +1,37 @@
+[
+  {
+    "key": "tharisa_q4",
+    "url": "https://www.tharisa.com/download/sens-rns-tharisa-q4-fy2026-production-report-13oct26.pdf",
+    "status": 200,
+    "path": "AGENTS/MIDAS/sources/2026-10-20_news/tharisa_q4.pdf",
+    "sha256": "eb87a436b3619403df8c051cd9c8059f7fb66f11b32da3689ca30e75b2d5a4a3"
+  },
+  {
+    "key": "tharisa_offtake",
+    "url": "https://www.tharisa.com/download/sens-rns-tharisa-valterra-offtake-and-chrome-collaboration-15oct26.pdf",
+    "status": 200,
+    "path": "AGENTS/MIDAS/sources/2026-10-20_news/tharisa_offtake.pdf",
+    "sha256": "63e431b84720dedc03900531149ea33c002a61f0a478e47002d6e62cae75856c"
+  },
+  {
+    "key": "tharisa_energy",
+    "url": "https://www.tharisa.com/download/sens-rns-tharisa-early-wheeled-renewable-energy-etana-20oct26.pdf",
+    "status": 200,
+    "path": "AGENTS/MIDAS/sources/2026-10-20_news/tharisa_energy.pdf",
+    "sha256": "aa358b27a600798eb5f9b96b7fede0ce7a3cf39597bf1dbd6d12ac7234b9c756"
+  },
+  {
+    "key": "safe_reserves",
+    "url": "https://www.safe.gov.cn/safe/2026/0206/27116.html",
+    "status": 200,
+    "path": "AGENTS/MIDAS/sources/2026-10-20_news/safe_reserves.html",
+    "sha256": "1fa0dded1b810ca521872d21eed3b80435a0d9a0ec9605e076a8d29fc83827c1"
+  },
+  {
+    "key": "heraeus_weekly",
+    "url": "https://www.heraeus-precious-metals.com/en/precious-metal-prices-reports/weekly-market-report/",
+    "status": 200,
+    "path": "AGENTS/MIDAS/sources/2026-10-20_news/heraeus_weekly.html",
+    "sha256": "626e227f41f493aebc6c57aca1e3ddf21d98bf722014cdbf4b5851d5253d16c6"
+  }
+]

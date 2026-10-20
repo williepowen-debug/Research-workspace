@@ -1,0 +1,58 @@
+[
+  {
+    "key": "wgc_india",
+    "url": "https://www.gold.org/goldhub/gold-focus/2026/10/india-gold-market-update-seasonal-demand-shows-early-strength",
+    "status": 200,
+    "path": "AGENTS/MIDAS/sources/2026-10-20_news/wgc_india.html",
+    "bytes": 89993,
+    "sha256": "e3afa99dc565f6faba84199512349303b91b2103bdbf7bcfefea4859e2a2a1c2"
+  },
+  {
+    "key": "wgc_china",
+    "url": "https://www.gold.org/goldhub/gold-focus/2026/10/china-gold-market-update-q3-ends-strong-official-gold-buying",
+    "status": 200,
+    "path": "AGENTS/MIDAS/sources/2026-10-20_news/wgc_china.html",
+    "bytes": 85868,
+    "sha256": "85b09f9d5e90eba781a619f3af08685fa4b21f68dbf0204c7effe999004b9cb0"
+  },
+  {
+    "key": "wgc_weekly",
+    "url": "https://www.gold.org/download/file/21288/WMM_19_Oct_2026_Bonds_back_in_the_room.pdf",
+    "status": 200,
+    "path": "AGENTS/MIDAS/sources/2026-10-20_news/wgc_weekly.pdf",
+    "bytes": 1604434,
+    "sha256": "eb2402469f198c4ae7e883b592e9825ce9027ce9fae47328b0076382560503ae"
+  },
+  {
+    "key": "wpic_oct9",
+    "url": "https://platinuminvestment.com/files/perspectives/WPIC_Platinum_Perspectives_October_2026(Platinumsdiverseend-marketssupportrecovery).pdf",
+    "status": 200,
+    "path": "AGENTS/MIDAS/sources/2026-10-20_news/wpic_oct9.pdf",
+    "bytes": 320877,
+    "sha256": "59e155eb6a8a2c44764b6d4b1476356dd11fb29f3414f1918a41cf5f80ce5d0c"
+  },
+  {
+    "key": "bls_ppi",
+    "url": "https://www.bls.gov/news.release/archives/ppi_10152026.htm",
+    "status": 200,
+    "path": "AGENTS/MIDAS/sources/2026-10-20_news/bls_ppi.html",
+    "bytes": 1607485,
+    "sha256": "3ea265ba342320909d625ebbe4bfc55f4a988346593d751d0b02a23c606524c5"
+  },
+  {
+    "key": "lbma_vaults",
+    "url": "https://www.lbma.org.uk/prices-and-data/london-vault-data",
+    "status": 200,
+    "path": "AGENTS/MIDAS/sources/2026-10-20_news/lbma_vaults.html",
+    "bytes": 273425,
+    "sha256": "5d0d5eb618ab0ebba6eebe7e7c8029cf8122f0e77783487171c65b3124623fb6"
+  },
+  {
+    "key": "tharisa_index",
+    "url": "https://www.tharisa.com/sens-rns-announcements.php",
+    "status": 200,
+    "path": "AGENTS/MIDAS/sources/2026-10-20_news/tharisa_index.html",
+    "bytes": 6461013,
+    "sha256": "0d72aaa03b0a08f6d16168e35aa73448dfd4ee1fbcf3b28e9c42de75957ca16f"
+  }
+]
