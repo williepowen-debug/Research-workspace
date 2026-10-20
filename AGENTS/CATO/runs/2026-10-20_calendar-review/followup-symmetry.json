@@ -1,0 +1,16 @@
+{
+  "implementation_pin": "69b1bb2aa",
+  "original_suite": "8 tests pass under -W error::ResourceWarning",
+  "fresh_cases": {
+    "ordinary": [],
+    "row_removed": [
+      "PROME/state/CALENDAR.md"
+    ],
+    "wrong_owner": [
+      "PROME/state/CALENDAR.md"
+    ],
+    "row_in_fenced_example": [],
+    "row_in_multiline_comment": []
+  },
+  "limits": "Original CM1 witnesses corrected; comments/fences remain a lower-impact parsing limitation."
+}
