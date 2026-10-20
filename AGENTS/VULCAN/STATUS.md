@@ -6,6 +6,8 @@
 
 **CRWV analysis 2026-10-20T14:43:14-04:00:** [Financing and shareholder risk](CRWV/2026-10-20_analysis.md), KB-246/247. Independent Q2 re-read: most net debt recourse; principal amortization and conditional draw access matter before final maturities. Deployment and parent/project cash bridge are the priority inference; no current runway, imminent-default, contagion or valuation conclusion. Interest shorthand qualified in TRADE; scores/five falsifiers unchanged. PROME-owned summons row remains outside VULCAN apply authority; LIQUID neighbour L4 already consumed.
 
+**CRWV organization review 2026-10-20T14:57:41-04:00:** [Audit and recommendations](CRWV/2026-10-20_organization-review.md):12 redundant source copies, routing overlap, three qualified KB rows absent from frozen snapshot, KB243 missed by token selector. CompanyKB in subfolder is proposed with single-row authority and consumer migration; current mainKB remains canonical. No structure or ownership migration applied.
+
 **Class:** Market-agent (AI-capex/semi/memory → systemic risk) · **Spawnable by:** PROME or Will · **Maturity:** **L4** (DAEDALUS `FLEET_MAP.tsv` since 2026-09-05; Last_scored 2026-09-17, `7bfee0060`; ⚠️ DAEDALUS PR#7 RE-SCORED 2026-10-01, L4/H held — never sent to this desk, reported in its 10/08 refresh packet; refresh 10/08 also held L4/H)
 
 > ## 📖 WHERE THINGS LIVE (READ-CAP split 2026-09-02; rotated again 2026-09-25)

@@ -1,4 +1,8 @@
-> # ⛔ 2026-10-20T14:43:14-04:00 — READ THIS BLOCK FIRST. Will requested CRWV analysis.
+> # ⛔ 2026-10-20T14:57:41-04:00 — READ THIS BLOCK FIRST. Will requested a CRWV organization audit and asked about local KB rows.
+> ▶ START HERE: `CRWV/2026-10-20_organization-review.md`. Proposed companyKB ownership needs reader/validator migration; currently mainKB canonical, frozen extract historical.
+> Audit:12 redundant copies, routing overlap, KB243 capture omission, three later-qualified snapshot rows. No deletions, document moves, KB migration or new financial grades applied. Scores15/25 and scheduled work unchanged.
+
+> # ⛔ 2026-10-20T14:43:14-04:00 — superseded resume block. Will requested CRWV analysis.
 > ▶ START HERE: `CRWV/2026-10-20_analysis.md`; KB-246/247. Financing/deployment and parent cash availability support equity caution; current runway/default/valuation not established.
 > Q2 recourse/non-recourse and principal/conditional leases rechecked; TRADE interest shorthand qualified. Frozen library originals unchanged. Scores15/25, five falsifiers, approvals and scheduled work unchanged.
 > Runtime OpenAI Codex; session identity not newly exposed; shell/web available, native cross-fleet presence/consumption unverified. No pull with other desks dirty. Primary original DDTL agreement not re-read; owner correction used.
