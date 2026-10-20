@@ -2,14 +2,14 @@
 
 **Status:** S1 3 / S2 2 / S3 3 / S4 3 / S5 4 = **15/25**; one fired channel, **two S5 events** after Will's WQ-441 B selection/retention. Separate4→5proposal pending; no score or capital permission inferred.
 **Domain:** AI-capex / semiconductor / memory systemic transmission, S1–S5; shared AI-demand root counted once.
-**As of:** 2026-10-20T14:58:00-04:00 | **STATUS commit:** 7103508a1
+**As of:** 2026-10-20T15:12:45-04:00 | **STATUS commit:** 2a3640f09
 **Variant:** FULL. Research/state c6669e4f3; routed packets8825402cd. SOURCE/BASIS: report under reports/2026-10-20_catchup/. Native cross-fleet transport unavailable; receipt/consumption unverified.
 
 **Research navigation:** [CoreWeave library](CRWV/README.md) now consolidates 79 documents, seven data files and six ledger extracts as frozen reference copies. Original source paths and desk ownership remain authoritative; this organization update changes no score or research vintage.
 
 **CRWV synthesis:** [Financing and shareholder risk](CRWV/2026-10-20_analysis.md), KB-246/247: most June30 net debt recourse; deployment/acceptance and principal amortization can interact. Historical balances are not October runway. Parent/project cash bridge and valuation remain incomplete. Interest-loss shorthand qualified; five company falsifiers, scores and capital permissions unchanged.
 
-**Organization review:** [CRWV audit](CRWV/2026-10-20_organization-review.md) finds12 redundant copies and snapshot/selector limits. CompanyKB migration is proposed only; main workbook remains authoritative. No market refresh or rule/score change.
+**Organization implemented:** [CRWV entry point](CRWV/README.md):20 company rows at CRWV/KB.tsv,227 broader rows at workbook/KB_GENERAL.tsv; workbook/KB.tsv is a generated247-row compatibility view. All IDs/fields preserved,53 regressions passed. Correction map and48-entry topic catalogue retain86 source aliases/copies. Schema/boot/closeout enforce both authorities and reject duplicate IDs/stale views. No market refresh or rule/score/capital change. Main implementation2a3640f09.
 
 ## CROSS-DOMAIN
 
