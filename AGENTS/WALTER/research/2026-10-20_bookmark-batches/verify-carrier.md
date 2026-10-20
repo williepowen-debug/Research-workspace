@@ -1,0 +1,17 @@
+# Carrier bookmark verification — 2026-10-20
+
+**Verdict: CORRECTED-framing / DUP.** The supplied October20 bookmark repeats an October1–2, **2026** deployment report already routed and reviewed. It does not establish a new October20 order or arrival. No fresh dispatch recommended on this item alone.
+
+| Field | Evidence / bounded conclusion |
+|---|---|
+| Submitted claim | @OilHeadlineNews, post `2112556619326468597`, supplied creation time `2026-10-20T14:48:42Z`: Fox/two officials; Roosevelt CSG + 13th MEU; end-November arrival; roughly 10,000 personnel. Post metadata/body supplied by parent; helper did not access live X API. |
+| Named publisher reached | Fox News Digital, [October1 liveblog](https://www.foxnews.com/live-news/us-iran-war-peace-trump-talks-latest-october-1/), body entry posted by Emma Bussey, Liz Friden contributing. Opened original publisher body, not merely search summary. Entry is explicitly October1; parent liveblog header last updated **October2, 2026, 06:41 EDT**. |
+| Publisher observation | Oct1 deployment report: Roosevelt/13th MEU, approximately 10,000 personnel, anticipated end-November arrival. This supports the dated announcement, not completed arrival. |
+| Event dates already carried locally | `BOARD/SIG-W-20261002-003-WSJ-roosevelt-makin-island-add-9-10k-troops-by-end-Nov-US-official-says-carrier-RELIEVES-george-washington.md` carries departures **September27–28, 2026**, arrival expectation **by end-November**, and **9,000–10,000** personnel via WSJ relays. It retains the anonymous-official relief account and lack of on-record Pentagon/Navy confirmation. `SIG-W-20261001-007` already carried deployment and contested simultaneous third carrier. |
+| Owner evidence read before browsing | FALCON STATUS lead/current marks and `reports/2026-10-02_falcon-l0-drain-ukmto-reconcile-yanbu-grade.md` row for `-1002-003` / KB-230: **NOTED, no mark move**, no rung keyed to carrier/troop count. HAWK STATUS lead and `board_log.tsv` rows for `-1001-007`/`-1002-003`, consumed October10: third-vs-relief conflict retained, no HAWK letter. BRENT STATUS October20 scoped context and `board_log.tsv` October2 09:34:34 EDT row: relief account weakens third-carrier framing; personnel addition can coexist. These are dated owner inputs, not refreshed owner judgments. |
+
+**Limits:** Exact Fox entry clock was not exposed; distinguish its October1 entry date from the October2 page-update clock and October20 bookmark clock. No new official order, present vessel location, actual arrival, net contemporaneous carrier count, or escalation grade established here. The supplied **two** officials count was not independently established by the opened entry; no decision relies on it. Fox's third-carrier framing does not settle the existing relief conflict. Alternate Fox Noticias URL redirected to homepage; trailing-slash alternate timed out; the canonical Fox original body was accessible. No credential or bookmark API calls, no owner-file edits, no commit/push.
+
+**Runtime/scope:** Codex/OpenAI; exact model UNKNOWN. Git root explicitly resolved as `/home/willi/Research-workspace`; root instructions, WALTER charter/startup text and COMPLETION_SPEC explicitly accessed. Narrow Rule9 helper, not a domain-owner launch. Exposed tools used: shell, web, apply_patch, thread messaging. No dependency missing for this bounded verification.
+
+**Closeout:** DONE. One owned verification artifact created. No remaining helper work; parent owns batch disposition and publication.

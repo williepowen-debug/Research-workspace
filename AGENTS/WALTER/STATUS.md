@@ -1,9 +1,9 @@
 # WALTER STATUS
-**Updated:** 2026-10-20T15:14:55Z — independent bookmark acceptance and live technical check; boot PARTIAL. BOARD **1524**; no new dispatches. Current duties/receipts LAST_COMPLETION.md.
+**Updated:** 2026-10-20T15:25:40Z — bookmark backlog batch1; boot PARTIAL. BOARD **1527**; three new dispatches. Current duties/receipts LAST_COMPLETION.md.
 
 ## BOTTOM LINE
 
-Bookmark code independently accepted after67tests/sixadversarialprobes. Real fetching/pagination plus isolated copied-state marking passed;96bookmarks discovered still need source review,0production marks. Authentication works. General boot/source coverage remains PARTIAL; duties and approvals LAST_COMPLETION.md. No new domain market evidence.
+Bookmark code independently accepted after67tests/sixadversarialprobes. Real fetching/pagination plus isolated copied-state marking passed;96discovered:batch1closed6/6(3dispatch,2DUP,1NO-ACTION);90untriaged,0production marks. Two source/media gaps explicitly followed up; exact94stage remains intact. Authentication works. General boot/source coverage remains PARTIAL; duties and approvals LAST_COMPLETION.md. New001Septembercontracts/HOMER;002datedEpochresearchand003namedfabheliumallocation/VULCAN. Locally written; publication/consumption pending. Full narrative deferral debt surfaced in LAST_COMPLETION, not discharged.
 
 October19 domain context (dated, not refreshed by this repair): Evening owner synthesis weakens a common financing-crunch explanation. MOS is strongest residual equity case with input/output alternatives; ADM worst-only20residual−0.35%;HII worst-onlyreturns turnpositive and Copart60loss reverses afterearnings removal. ACVcompletedOctober16; primaryfour unmatched, no causal coefficient. ActualMOS/ADMissuance,HIIlowerinterest,Copartbankrenewal and cruiseoperatingdifferences constrain financingattribution. WALQ3NCO30bp/stabledeposits/lowerborrowings and VIOLETpartialMondaypublications/easing provide counterevidence, not systemclearance. HENRYafterclosegammaestimateNEGboth horizons,assumeddealerpositions/wallswithheld;refreshbeforeuse. Existing scientific/currentcash/creditpanel and generalboot/READS gaps retained. No owner/helperlaunch,newscreen,monitor,trade,threshold or independentstressvote. Bounded contribution complete; no WALTER unattended work.
 

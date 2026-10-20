@@ -1,0 +1,21 @@
+⚠️  uncommitted files outside AGENTS/WALTER/:
+     [not yours]    AGENTS/BRENT/inbox/WALTER/SIG-W-20261020-003.md
+     [not yours]    AGENTS/HAWK/inbox/WALTER/SIG-W-20261020-003.md
+     [not yours]    AGENTS/HENRY/inbox/WALTER/SIG-W-20261020-002.md
+     [not yours]    AGENTS/HOMER/inbox/WALTER/SIG-W-20261020-001.md
+     [not yours]    AGENTS/REGINALD/domain/sources/2026-10-20_earnings-catchup/
+     [not yours]    AGENTS/REGINALD/inbox/WALTER/SIG-W-20261020-001.md
+     [not yours]    AGENTS/SAM/research/outputs/2026-10-20_sweep/
+     [not yours]    AGENTS/SAM/research/outputs/boj-review/2026-10-20_7f7a5bcf1c32f8eff6dbb7b0cd76aa48565d1d54c61bdcab4142895b039328fb/
+     [not yours]    AGENTS/SAM/workbook/BOJ_MEETING_OIS.tsv
+     [not yours]    AGENTS/SAM/workbook/boj_ois_reviews/2026-10-20T1515-JST.json
+     [not yours]    AGENTS/VIOLET/inbox/WALTER/SIG-W-20261020-002.md
+     [not yours]    AGENTS/VULCAN/inbox/WALTER/SIG-W-20261020-002.md
+     [not yours]    AGENTS/VULCAN/inbox/WALTER/SIG-W-20261020-003.md
+     [not yours]    BOARD/INDEX.md
+     [not yours]    BOARD/SIG-W-20261020-001-nar-september-pending-contracts-decline-record-framing-unverified.md
+     [not yours]    BOARD/SIG-W-20261020-002-epoch-september-fixed-performance-inference-price-research.md
+     [not yours]    BOARD/SIG-W-20261020-003-helium-polar-supplier-allocation-dated-cbs-transcript.md
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.
