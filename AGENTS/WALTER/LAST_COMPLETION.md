@@ -99,6 +99,10 @@ LIGHT routing checkpoint. Batch8 closed12/12;48of96reviewed,39full/9partial,48re
     {
       "commit": "5370995f5",
       "state": "published"
+    },
+    {
+      "commit": "30dbc0907",
+      "state": "pending"
     }
   ],
   "delivery": {
@@ -152,12 +156,13 @@ LIGHT routing checkpoint. Batch8 closed12/12;48of96reviewed,39full/9partial,48re
     "7h": "48valid/46null;seen870/pending94unchanged;0mark",
     "Tier1": "dated observations retained; no fresh market allclear",
     "root.retirement": "priorLAST_COMPLETION preserved verbatim; no source/owner deletions",
-    "16": "exact-path local persistence; push deferred foreigndirtytree",
+    "16": "30dbc0907 exact-path local commit; publication deferred foreigndirtytree;7newhandoffs pending, recipientconsumptionUNKNOWN",
     "14": "MEMORYsessionnote updated; no auto-memory",
     "helpers": "3explicitCLOSEDreceipts",
     "7g": "PROMEexpiryinstruction integrated/filed; SAMremainsNEW",
     "basis": "READSstale,basis8changed; no renewal",
-    "ledgers": "3route/7delivery/3kill rows, no newfire/grade/correction/doorbell"
+    "ledgers": "3route/7delivery/3kill rows, no newfire/grade/correction/doorbell",
+    "Tier1.breadcrumb": "SESSION_LOG LIGHT entry; full narrative debt retained; selected ledger-nudge REVIEW for deferred REGISTRY, not certification"
   }
 }
 END_CLOSEOUT_RECEIPT -->
