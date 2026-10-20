@@ -1,40 +1,42 @@
 # SAM — NEXUS Brief
 
-**As of:** 2026-10-20T15:18:00+00:00. October 20 startup recovery, user-directed. **STATUS commit `e48fdf1b7`** (amendment 11). Brief folded after final STATUS write.
+**As of:** 2026-10-20T15:34:53+00:00, Will-directed October 9–20 catch-up. **STATUS commit `ad61cfd51`** (Amendment 11). Folded after final owner-state write.
 
 ## VIEW
 
-v1.7 remains retired-to-LOW; no successor declared. Last recorded position FLAT is historical desk state, not a fresh broker confirmation. Startup is complete as orientation; unresolved evidence is retained explicitly.
+**Two simultaneous developments:** domestic bond demand looks better, while insurer-sector foreign-bond dispositions are intensifying. No fresh observed Japan-led carry unwind; this is not a global all-clear. v1.7 remains retired-to-LOW, no successor or entry. Last Will-confirmed FLAT is June 29, not a fresh broker reconciliation.
 
-MOF October 19 curve: 10Y 2.935%, 30Y 4.028%, 40Y 4.040%; the long end remains above the demand-floor investigation level. October 20 auction parser retrieved 20Y BTC 5.844x / tail 0.6bp; source/frozen-bar owner assessment remains pending. No auction or transmission grade issued here.
+**Domestic sponsorship:** MOF Oct-20 20Y auction **5.844× / tail 0.6bp ⇒ FIRM**, not precision-limited under frozen bars. Buyer identity unknown. Reuters Oct-16 Fukoku H2 plan adds 20Y/30Y purchases; ongoing 30Y-avoidance inference withdrawn, nothing inferred about 40Y/Asahi. Plan ≠ executed flow. BOJ Oct-16 offers matched published dates/sizes; Oct-19/20 no emergency JGB cap. SAM-33 falsifier un-fired through audited Oct-20.
 
-MOF week October 4–10 foreign LT-debt net −¥339.7B, inside the one-week selling bar. Current CSV revises the prior week to −¥345.7B while the ledger retains first-print −¥347.6B. These are designated reporting investors and global foreign debt, not insurer-only or UST-only sales. CFTC October 13 net +50,207 yen LONG, down 12,118; no forced-liquidation inference. No retired channel re-arms.
+**Cross-border counter-signal:** MOF monthly investor-type data updated Oct-8: September life-insurer foreign-LT-debt net **−¥288.6B** versus August **−¥137.3B**. Bank banking accounts **−¥2,485.6B**, trust accounts **+¥1,195.3B**, all categories **−¥1,426.0B**. Sector selling is real; named sellers, USTs, forced-sale cause and repatriation destination unproved. Channel 1's two-named-institution/two-window test is not met. Latest weekly debt **−¥339.7B** for Oct-4–10 is a different frequency/population; do not substitute it for the monthly sector signal.
 
-BOJ rate pricing is unavailable currently: changed Totan image requires visual review; October 15 quote expired. Oil basis guard failed on unavailable vendor contract history. Do not propagate prior 6% as current or infer a fresh oil-in-yen trigger. News/BOJ ops assessment remains at inherited October 15 scope pending primary reads.
+**BOJ:** primary speeches/presser maintain further hikes, timing conditional; no October-specific signal established. Reviewed Totan **Oct-20 15:15 JST: October 5%, December 76%, April cumulative 1.93 hikes**. Incremental 25bp equivalents are not general probabilities; counts are not probabilities. OIS source-age expiry **Oct-24 15:15 JST**. SAM-42 stays 25% as made; both re-mark conditions un-fired. Bessent missed Bangkok per Ueda primary transcript; September strong-yen endorsement not withdrawn.
+
+**Fiscal/data:** food-tax/support bill cabinet-approved Oct-9, Diet debate Oct-20; proposed food tax **8→1% April 2027 for two years**, legislation/offsets unresolved. Core machinery orders +5.2% m/m August; BOJ household survey improves but remains strained and predates September hike. Wider US HY **329bp Oct-19** coexists with orderly yen; SOFR−IORB **−3bp same date** does not measure offshore yen swaps. No transmission attribution from those alone.
 
 ## CALIBRATION
 
-35 validated prediction rows, **2 OPEN: SAM-33 and SAM-42**. No grade, re-mark or term change. SAM-42 remains 25% as made, authorized WQ-336; its registered re-mark tests govern. SAM-33 ops review is pending after October 15 AM. Historical SAM-28/31 qualifications remain in STATUS and the prediction record.
+**35 validated rows; 2 OPEN: SAM-33, SAM-42.** No marks, terms or statuses changed. Historical SAM-28/31 qualifications remain in STATUS and the prediction record; no retired gate re-arms. No thesis promotion or trade commission.
 
 ## CROSS-DOMAIN
 
-**SENDING:** no new signal or notice sent during startup; 17 existing WALTER packets read and receipted. Figures above are startup observations, not a new entry engine.
+**SENDING:** dated signal packet saved for WALTER routing judgment to LIQUID/HENRY/BOND/PROME; completion memo saved in PROME/inbox. Native discovery/transport unavailable; delivery/consumption unverified. See exact artifact paths in sweep and dated packets.
 
-**WAITING-FOR:** OIS image review, oil contract-basis resolution, BOJ primary/news catch-up including Ueda October 16 and post-meetings yen language, today's auction/ops assessment. Korea close/intraday exact-value gap remains deferred. Legacy RED reply is outside normal-boot inbox scope.
+**WAITING-FOR:** September trade volume, CPI, BOJ October statement; larger insurers' H2 disclosures. METI August final IIP access failed (403), direct offshore basis remains absent. Korea exact-value/primary reconciliation and legacy code repairs remain separate outstanding work. No auto-memory or new tooling.
 
 ## NEXT DECISION POINT
 
-No Will decision identified at startup. Resume exact pending work in `reports/2026-10-20_startup.md`; no new-direction research or trade commission inferred. Git synchronization pending because other owners have dirty paths. Native fleet notification/consumption unverified.
+No Will ruling needed from this sweep. Watch whether stronger domestic sponsorship persists alongside increasing insurer foreign-debt dispositions; neither establishes an entry. Next hard data is September trade balance, **Oct-20 19:50 ET / Oct-21 08:50 JST**.
 
 ## FORWARD CATALYSTS
 
 | When | What |
 |---|---|
-| Pending | OIS visual review; October 20 20Y source/frozen-bar assessment |
-| October 21 | September Japan trade balance; crude volume |
-| October 23 | September Japan CPI, 2025 base |
-| October 29–30 | BOJ MPM + Outlook |
-| October 31 23:59 JST | SAM-42 outcome boundary |
-| Approx. October 30 / November 9 / November 13 | MOF monthly / quarterly and FRBNY FX reports; estimated dates retain source caveats |
+| Oct-21 JST | September trade balance (crude volume); scheduled BOJ purchases |
+| Oct-23 | September CPI, 2025 base |
+| Oct-24 15:15 JST / 02:15 ET | Totan quote source-age expiry |
+| Oct-29/30 | BOJ MPM + Outlook |
+| Oct-31 23:59 JST | SAM-42 outcome boundary |
+| Approx. Oct-30 / Nov-9 / Nov-13 | MOF monthly / quarterly and FRBNY FX reports, estimated dates |
 
-[STATUS](STATUS.md) · [startup receipt](reports/2026-10-20_startup.md). Schema owner NEXUS (`AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md` §4.1).
+[STATUS](STATUS.md) · [Full sweep/source limits](research/outputs/2026-10-20_sweep/NEWS_SWEEP.md). Schema owner NEXUS (`AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md` §4.1). Pull/push deferred under dirty-owner rule; local commits do not certify recipient consumption.
