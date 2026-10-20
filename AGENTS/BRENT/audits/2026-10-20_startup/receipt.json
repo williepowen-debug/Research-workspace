@@ -1,0 +1,279 @@
+{
+  "date": "2026-10-20T10:40:38-04:00",
+  "scope": "Will-requested boot/recovery only; no additional research, source grade or capital action",
+  "desk": "BRENT",
+  "provider": "OpenAI",
+  "runtime": "Codex",
+  "model": "GPT-6 family; exact variant UNKNOWN",
+  "session_id": "01a159be-1572-7be1-a965-f6f6e9854c4b",
+  "repo_root": "/home/willi/Research-workspace",
+  "cwd_at_launch": "/home/willi/Research-workspace/AGENTS/BRENT",
+  "explicit_reads": [
+    "CLAUDE.md",
+    "AGENTS.md",
+    "USER.md",
+    "AGENTS/BRENT/CLAUDE.md",
+    "PROME/COMPLETION_SPEC.md",
+    "PROME/ORCHESTRATION_PLAYBOOK.md (Runtime mechanics)",
+    "docs/GIT_WORKTREE_PROCEDURES.md",
+    "AGENTS/BRENT/STATUS.md",
+    "AGENTS/BRENT/SCRATCH.md",
+    "AGENTS/BRENT/LESSONS.md",
+    "AGENTS/BRENT/TRADE.md",
+    "AGENTS/BRENT/setups/SPECS_TRADE_RULES.md",
+    "AGENTS/TERRY/setups/USO150C_oct14-sell-or-roll_2026-10-12.md"
+  ],
+  "startup_instruction_home": "AGENTS/BRENT/CLAUDE.md SPAWN PROTOCOL; no separate local AGENTS.md/BOOT/STARTUP file found",
+  "pull": "DEFERRED: 8 foreign WALTER untracked cache directories at boot; no stash/pull/foreign edit",
+  "capabilities": {
+    "shell": "verified",
+    "git": "verified",
+    "local_python_venv": "verified by complete boot",
+    "web": "exposed; not used for new research this turn",
+    "thread_helpers": "exposed; no helpers launched; not fleet inventory",
+    "fleet_discovery": "UNKNOWN cross-runtime coverage",
+    "fleet_messaging": "no verified exact-pair channel; no notification/consumption claimed",
+    "live_BRENT_scheduler": "no exposed verified connector for existing routine configuration"
+  },
+  "boot": {
+    "command": ".venv/bin/python3 AGENTS/BRENT/scripts/boot.py",
+    "rc": 2,
+    "OK": 7,
+    "FINDINGS": 3,
+    "FAIL": 0,
+    "duration_seconds": 25.7,
+    "findings": [
+      "EIA refinery utilization observation October9 is 11d old against 10d budget",
+      "Pending-receipts: October14 USO calls elapsed in stale owned row; newer broker/TERRY closing evidence recovered",
+      "JWC last_verified October5 age15d versus9d budget; CFTC raw403/publisher status unestablished and human stamp stale; paired coverage/owner grades incomplete",
+      "Incidents:5 ACTIVE aged rows plus20 other aged present-tense rows; no automatic status changes"
+    ]
+  },
+  "latest_routine": "demand_destruction/data/monday_2026-10-19.md",
+  "routine_recovery": [
+    "EIA October15 output exists, first BRT31 week reported but owner price-check/full grade not done",
+    "COT vintage10 already saved for October13 and consumed by PROME; do not duplicate grade",
+    "Monday WTI prose conflicts internally: table says expiring contract through session before last trade, text says through October20 settle; REGISTRY governs, no new state grade",
+    "Monday straits.live source remains excluded under BH13; IRGC claims do not establish interdicted trade or destroyed capacity; no gate adjudication"
+  ],
+  "approvals": [
+    "WQ192 STAND DOWN unchanged",
+    "WQ386/420 original held VLO share only; no automatic extension to added shares",
+    "October14 option screen research-only, no approved replacement",
+    "October14 operational-followup approval does not authorize new broad research/scheduler deployment"
+  ],
+  "corrections": {
+    "COR-20261014-23": "Headline pass-through only; do not infer energy-to-core from RED FT08",
+    "COR-20261014-31": "October14 IMO correction distinguishes its three sunk rows from FALCON census; later CapeDao reports conflict and remain owner-adjudicated",
+    "COR-20261014-35": "Dhahran production unaffected is anonymous-source assertion, not operator/Ministry confirmation; 13th death is Indian Embassy count; no loss census/gate replaced"
+  },
+  "walter_intake": [
+    {
+      "signal_id": "SIG-W-20261014-023",
+      "disposition": "acted",
+      "path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261014-023.md",
+      "saved_path": "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261014-023.md"
+    },
+    {
+      "signal_id": "SIG-W-20261014-024",
+      "disposition": "deferred",
+      "path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261014-024.md",
+      "saved_path": "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261014-024.md"
+    },
+    {
+      "signal_id": "SIG-W-20261014-025",
+      "disposition": "deferred",
+      "path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261014-025.md",
+      "saved_path": "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261014-025.md"
+    },
+    {
+      "signal_id": "SIG-W-20261014-026",
+      "disposition": "info-only",
+      "path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261014-026.md",
+      "saved_path": "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261014-026.md"
+    },
+    {
+      "signal_id": "SIG-W-20261014-031",
+      "disposition": "acted",
+      "path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261014-031.md",
+      "saved_path": "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261014-031.md"
+    },
+    {
+      "signal_id": "SIG-W-20261014-032",
+      "disposition": "deferred",
+      "path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261014-032.md",
+      "saved_path": "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261014-032.md"
+    },
+    {
+      "signal_id": "SIG-W-20261014-035",
+      "disposition": "acted",
+      "path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261014-035.md",
+      "saved_path": "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261014-035.md"
+    },
+    {
+      "signal_id": "SIG-W-20261015-004",
+      "disposition": "info-only",
+      "path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261015-004-handoff.md",
+      "saved_path": "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261015-004-handoff.md"
+    },
+    {
+      "signal_id": "SIG-W-20261015-008",
+      "disposition": "deferred",
+      "path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261015-008-handoff.md",
+      "saved_path": "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261015-008-handoff.md"
+    },
+    {
+      "signal_id": "SIG-W-20261015-009",
+      "disposition": "deferred",
+      "path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261015-009-handoff.md",
+      "saved_path": "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261015-009-handoff.md"
+    },
+    {
+      "signal_id": "SIG-W-20261015-010",
+      "disposition": "info-only",
+      "path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261015-010-handoff.md",
+      "saved_path": "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261015-010-handoff.md"
+    },
+    {
+      "signal_id": "SIG-W-20261015-012",
+      "disposition": "info-only",
+      "path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261015-012-handoff.md",
+      "saved_path": "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261015-012-handoff.md"
+    },
+    {
+      "signal_id": "SIG-W-20261015-016",
+      "disposition": "deferred",
+      "path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261015-016-handoff.md",
+      "saved_path": "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261015-016-handoff.md"
+    },
+    {
+      "signal_id": "SIG-W-20261016-003",
+      "disposition": "info-only",
+      "path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261016-003-handoff.md",
+      "saved_path": "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261016-003-handoff.md"
+    },
+    {
+      "signal_id": "SIG-W-20261016-004",
+      "disposition": "deferred",
+      "path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261016-004-handoff.md",
+      "saved_path": "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261016-004-handoff.md"
+    },
+    {
+      "signal_id": "SIG-W-20261016-009",
+      "disposition": "deferred",
+      "path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261016-009.md",
+      "saved_path": "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261016-009.md"
+    },
+    {
+      "signal_id": "SIG-W-20261016-018",
+      "disposition": "info-only",
+      "path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261016-018.md",
+      "saved_path": "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261016-018.md"
+    },
+    {
+      "signal_id": "SIG-W-20261016-024",
+      "disposition": "deferred",
+      "path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261016-024.md",
+      "saved_path": "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261016-024.md"
+    },
+    {
+      "signal_id": "SIG-W-20261016-026",
+      "disposition": "deferred",
+      "path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261016-026.md",
+      "saved_path": "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261016-026.md"
+    },
+    {
+      "signal_id": "SIG-W-20261016-032",
+      "disposition": "info-only",
+      "path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261016-032.md",
+      "saved_path": "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261016-032.md"
+    },
+    {
+      "signal_id": "SIG-W-20261016-035",
+      "disposition": "deferred",
+      "path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261016-035.md",
+      "saved_path": "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261016-035.md"
+    },
+    {
+      "signal_id": "SIG-W-20261018-002",
+      "disposition": "deferred",
+      "path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261018-002.md",
+      "saved_path": "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261018-002.md"
+    },
+    {
+      "signal_id": "SIG-W-20261018-003",
+      "disposition": "info-only",
+      "path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261018-003.md",
+      "saved_path": "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261018-003.md"
+    },
+    {
+      "signal_id": "SIG-W-20261019-002",
+      "disposition": "info-only",
+      "path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261019-002.md",
+      "saved_path": "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261019-002.md"
+    },
+    {
+      "signal_id": "SIG-W-20261019-003",
+      "disposition": "info-only",
+      "path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261019-003.md",
+      "saved_path": "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261019-003.md"
+    },
+    {
+      "signal_id": "SIG-W-20261019-005",
+      "disposition": "deferred",
+      "path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261019-005.md",
+      "saved_path": "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261019-005.md"
+    },
+    {
+      "signal_id": "SIG-W-20261019-013",
+      "disposition": "info-only",
+      "path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261019-013.md",
+      "saved_path": "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261019-013.md"
+    }
+  ],
+  "general_inbox": {
+    "consumed": [
+      "2026-10-19_from-PROME_broker-energy-receipts.md",
+      "2026-10-16_from-PROME_instrument-check-decouple-rec-and-COT10-consumed.md",
+      "2026-10-15_from-PROME_ORACLE-pulls-iran-odds-fell-crude-1.957-oil110-9pct.md"
+    ],
+    "deferred": [
+      "2026-10-19_from-HENRY_december-measurement-proof.md",
+      "2026-10-15_from-OSPREY_osp06-confirmed-l544-not-met-energy-pause-lifted.md"
+    ]
+  },
+  "followups": [
+    "October15 policy/weekly inventory owner interpretation plus BRT31 first-published exact method/price check/contamination",
+    "HENRY December measurement packet adoption/rejection at source evidence, not merely packet values",
+    "PROME recommendation to lazy-import fetch in instrument_check: saved for next maintenance pass; no code changed",
+    "OSPREY Bloomberg text confirmation request remains access-dependent",
+    "Live scheduler deployment/configuration/normal-run acceptance remains unverified; cloud missing dependencies are not missing local dependencies"
+  ],
+  "source_limits": "Broker transcriptions secondary, original screenshots off-repo not independently read; current holdings/orders/capture clocks UNKNOWN; no current prices published by this startup receipt",
+  "will_needs": "None new for boot/recovery",
+  "closeout_checks": {
+    "pending_receipts": "PASS after exact contract/account source repair; not broker certification",
+    "corrections": "PASS scoped register: 0 unreceipted named rows",
+    "read_cap": "PASS; no rotation performed",
+    "calendar": "PASS generated event set; no edit",
+    "claim_weekday": "PASS 4 existing files",
+    "mail_preservation": "27 WALTER + 3 general moves byte-identical to HEAD originals, one ledger row each",
+    "ledger_nudge": "FINDINGS: LESSONS_INDEX/CATALYSTS/TRADE historical commit cadence. No lesson/event grade changed; do not fake stamps. TRADE updated with receipts in this commit",
+    "orphan": "8 foreign WALTER cache directories disclosed to Will; untouched",
+    "consumer_check": "No registered threshold/flip/band superseded; no rerun of completed COT grade",
+    "memory": "No auto-memory edits; checks not triggered",
+    "outbox": "No outgoing packets written or consumption asserted; no loop closed by this startup"
+  },
+  "before_images": {
+    "TRADE.md.before": {
+      "sha256": "9fb1a3fa0610be83fd87eacbfd44f535890154f76f8182ca74c09de74f28936c",
+      "utf8_bytes": 22590,
+      "payload_rule": "whole file"
+    },
+    "SCRATCH.md.before": {
+      "sha256": "20e457b7a0f1c66b6679b4fb877d366d256d1cbe5b46064db64c7e6920a41c58",
+      "utf8_bytes": 5637,
+      "payload_rule": "whole file"
+    }
+  }
+}

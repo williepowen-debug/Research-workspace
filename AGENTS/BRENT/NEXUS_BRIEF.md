@@ -1,5 +1,15 @@
 # BRENT — NEXUS Brief
 
+**October20 startup scope — C6(b) SCOPED-PARTIAL:** runtime/boot, newer broker transcription and TERRY October14 closing receipt re-read; current structural positions/rules → [TRADE](TRADE.md), findings/pending research → [startup receipt](audits/2026-10-20_startup/receipt.json). The October14 brief below is dated context: its unclosed-call, prior quantity and future-release language is superseded by those owner paths. Fundamental claims, company edge, settlements and holding grades below were not re-verified. No marks, new forecast, phase transition or capital approval.
+
+**CROSS-DOMAIN update:** HENRY supplied December margin evidence, pending BRENT source-level adoption/rejection; common-basis publication remains unresolved. WALTER correction receipts preserve headline-versus-core attribution, separate loss censuses and anonymous Dhahran production assertions; newer CapeDao source conflict remains FALCON-owned. Acute route-risk reports do not establish lost barrels. COT#10 already saved/consumed, no duplicate grade. Deferred WALTER ACTION items remain enumerated in the receipt.
+
+**CALIBRATION / tensions:** existing moderate/WAIT assessment retained from October14, no new numeric calibration. HENRY evidence awaiting adoption is a measurement-handoff gap, not an adjudicated disagreement. CapeDao chronology/status conflict remains unresolved. Source and live-scheduler gaps remain explicit; no fleet notification/consumption asserted. No new Will decision.
+
+---
+
+## October14 brief — retained dated context
+
 **Status:** 🟠 Energy WAIT unchanged; delivered diesel, own-asset earnings capture and pricing edge remain unproved.
 **Domain:** Oil/energy physical balance, structure and transmission.
 **Thesis version:** v5.13 minor OMR evidence/interpretation refinement; dated numerical calibration retained.

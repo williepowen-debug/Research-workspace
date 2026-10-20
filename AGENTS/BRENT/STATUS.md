@@ -1,5 +1,9 @@
 # BRENT STATUS
 
+**Startup recovery October20 — SCOPED-PARTIAL:** boot 7 OK / 3 FINDINGS / 0 FAIL, rc2. EIA utilization stale; JWC/CFTC instrument gaps remain. Broker reconciliation now closes the stale October14 call row; positions and authority → [TRADE](TRADE.md). Last fundamental owner synthesis below remains October14, not refreshed by this receipt. [Runtime, approvals, mail dispositions and dependencies](audits/2026-10-20_startup/receipt.json).
+
+**Recovered work:** October15 EIA routine output and October16 COT#10 already exist; do not repeat the latter grade. Policy/inventory owner interpretation, BRT31 price-check and HENRY December measurement adoption remain open. WAIT / WQ192 unchanged; no new Will decision or trade authority. Three correction restrictions applied in startup receipt; deferred mail is not completed research.
+
 **Last real data refresh: 2026-10-14 14:12 EDT — SCOPED-PARTIAL:** direct EIA/FedEx bodies observe October12retail and lagged surcharge; utilization API returns October2, present but outside unchanged10day budget. Option quotes retain13:30EDT/unknownbid-askclocks; IEA retains September estimates/forecasts. Earlier boot6OK/4FINDINGS/0FAIL,rc2 not reissued. [Operational review](audits/2026-10-14_operational-followups/REPORT.md).
 
 **Current judgment:** product scarcity more persistent than crude recovery; WAIT on new energy purchases. THESIS v5.13 refines that distinction; no new capital, prediction or holding grade. October14 OMR public review COMPLETE; supplemental/delivered diesel still UNKNOWN. Today's USO call sell-or-roll and tomorrow's VLO basis switch remain at [TRADE](TRADE.md). Earlier intake closeout at [receipt](audits/2026-10-14_closeout/CLOSEOUT.md); wider news coverage partial.

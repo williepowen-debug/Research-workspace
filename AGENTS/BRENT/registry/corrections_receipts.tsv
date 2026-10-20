@@ -14,3 +14,6 @@ receipt_date	correction_id	action	note
 2026-10-12T15:15Z	COR-20261012-09	APPLIED	artifact=AGENTS/BRENT/research/2026-10-12_L689-energy-opportunities/MEMO.md#attempted-alternatives--pass; validation_ref=AGENTS/BRENT/research/2026-10-12_L689-energy-opportunities/web-sources.json#UKMTOreportNo10;
 2026-10-12T18:54Z	COR-20261012-15	NO-OP	scope=No live BRENT peak/refill projection uses November6/87days or a categorical ceiling. INFO retained in desk audit. HANS owns its resolver.;
 2026-10-12T18:54Z	COR-20261012-16	APPLIED	artifact=AGENTS/BRENT/audits/2026-10-12_desk-health/REPORT.md#cor-20261012-16; validation_ref=AGENTS/BRENT/research/2026-10-12_L694-energy-disposition/NOTE.md#l694-energy-disposition--wait-on-existing-evidence;
+2026-10-20T14:40Z	COR-20261014-23	APPLIED	artifact=AGENTS/BRENT/audits/2026-10-20_startup/receipt.json#corrections.COR-20261014-23; validation_ref=NONE;
+2026-10-20T14:40Z	COR-20261014-31	APPLIED	artifact=AGENTS/BRENT/audits/2026-10-20_startup/receipt.json#corrections.COR-20261014-31; validation_ref=NONE;
+2026-10-20T14:40Z	COR-20261014-35	APPLIED	artifact=AGENTS/BRENT/audits/2026-10-20_startup/receipt.json#corrections.COR-20261014-35; validation_ref=NONE;
