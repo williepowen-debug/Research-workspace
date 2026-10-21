@@ -47,7 +47,7 @@ Earlier morning handoffs and owner identities → `reports/2026-10-19_CATO-follo
 
 ## Pending Will
 <!-- WILLQ-VIEW BEGIN -->
-- **Pending Will (GENERATED from `PROME/WILL_QUEUE.md` § OPEN by `PROME/tools/willq_view.py` · as-of 2026-10-21 · 14 open, 0 blocked — dated first, blocked last; never hand-edit inside the markers):** WQ-463 (10/9) · WQ-204 (10/9) · WQ-357 (10/14) · WQ-448 (10/17) · WQ-443 (10/19) · WQ-455 (10/20) · WQ-452 (10/20) · WQ-456 (10/21) · WQ-451 (10/23) · WQ-422 (10/23) · WQ-464 (10/27) · WQ-466 (10/28) · WQ-454 (10/30) · WQ-31 (11/1)
+- **Pending Will (GENERATED from `PROME/WILL_QUEUE.md` § OPEN by `PROME/tools/willq_view.py` · as-of 2026-10-21 · 15 open, 0 blocked — dated first, blocked last; never hand-edit inside the markers):** WQ-463 (10/9) · WQ-204 (10/9) · WQ-357 (10/14) · WQ-448 (10/17) · WQ-443 (10/19) · WQ-455 (10/20) · WQ-452 (10/20) · WQ-456 (10/21) · WQ-451 (10/23) · WQ-422 (10/23) · WQ-467 (10/25) · WQ-464 (10/27) · WQ-466 (10/28) · WQ-454 (10/30) · WQ-31 (11/1)
 <!-- WILLQ-VIEW END -->
 
 ## Operator card
