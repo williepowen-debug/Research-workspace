@@ -22,5 +22,59 @@
       "after": "c6c280f7cae3da79e7ede7593fa1afb2119f87bdc2ecc9c9b804d9d5968840b0"
     },
     "note": "Same patch file, applied with `git apply` to live HEAD in a temp worktree (no fuzz needed). L548 tests 16/16; the gate test set has the SAME 4 pre-existing failures (test_gate_isolation_L294_F7) with and without the patch. Live hash moved because PROME commits 0a537997e\u2026989c11daa touched other hunks. Use THESE hashes at apply."
+  },
+  "reverified_2026-10-20_codex": {
+    "observed_at": "2026-10-21T01:26:36.191551+00:00",
+    "base_commit": "f36cd5d0bcb35f6ca42a6d1abe13d2a6465a1d9d",
+    "PROME/tools/prome_gate.py": {
+      "before": "a74bbd6b51bdfb7e913fb1f33ae4e019a06a5efe2c2bad1e61b08c48aae2bd80",
+      "after": "85fb63ac09515a2d5b4f8e045d4afaf6781addbde7a2ea91d87ca7f9588115bd"
+    },
+    "targeted_tests": 16,
+    "full_suite": {
+      "before": {
+        "rc": 1,
+        "seconds": 124.2,
+        "summary": [
+          "FAILED (1 error(s))",
+          "Ran 956 tests in 123.359s",
+          "FAILED (failures=8, errors=2, skipped=3)"
+        ],
+        "failures": [
+          "ERROR: test_the_order_is_commit_then_verify_then_push_then_publish (test_review_mechanism_WQ240b.Repro5_GenerationBeforeFreeze.test_the_order_is_commit_then_verify_then_push_then_publish)",
+          "ERROR: test_spawn_list_fail_closed (unittest.loader._FailedTest.test_spawn_list_fail_closed)",
+          "FAIL: test_clean_desk_is_clear_to_brief (test_agent_freshness_L294_F4.PreSpawnStopFailsClosed.test_clean_desk_is_clear_to_brief)",
+          "FAIL: test_no_check_errored (test_gate_isolation_L294_F7.CleanFixturePasses.test_no_check_errored)",
+          "FAIL: test_rc_is_0 (test_gate_isolation_L294_F7.CleanFixturePasses.test_rc_is_0)",
+          "FAIL: test_verdict_says_pass (test_gate_isolation_L294_F7.CleanFixturePasses.test_verdict_says_pass)",
+          "FAIL: test_no_bare_check_call_sites_remain (test_gate_isolation_L294_F7.NoFabricatedDefaults.test_no_bare_check_call_sites_remain)",
+          "FAIL: test_q1_one_snapshot_so_a_row_appended_between_reads_reaches_neither_output (test_helm_size_split.HelmSnapshotTests.test_q1_one_snapshot_so_a_row_appended_between_reads_reaches_neither_output)",
+          "FAIL: test_LIMIT_hand_row_absorbed_by_a_later_writer_append (test_orch_log_wiring_L733.ObservedCheck.test_LIMIT_hand_row_absorbed_by_a_later_writer_append)",
+          "FAIL: test_the_runner_matches_the_manual_order (test_review_mechanism_WQ240b.Repro5_GenerationBeforeFreeze.test_the_runner_matches_the_manual_order)"
+        ]
+      },
+      "after": {
+        "rc": 1,
+        "seconds": 122.52,
+        "summary": [
+          "FAILED (1 error(s))",
+          "Ran 972 tests in 122.071s",
+          "FAILED (failures=8, errors=2, skipped=3)"
+        ],
+        "failures": [
+          "ERROR: test_the_order_is_commit_then_verify_then_push_then_publish (test_review_mechanism_WQ240b.Repro5_GenerationBeforeFreeze.test_the_order_is_commit_then_verify_then_push_then_publish)",
+          "ERROR: test_spawn_list_fail_closed (unittest.loader._FailedTest.test_spawn_list_fail_closed)",
+          "FAIL: test_clean_desk_is_clear_to_brief (test_agent_freshness_L294_F4.PreSpawnStopFailsClosed.test_clean_desk_is_clear_to_brief)",
+          "FAIL: test_no_check_errored (test_gate_isolation_L294_F7.CleanFixturePasses.test_no_check_errored)",
+          "FAIL: test_rc_is_0 (test_gate_isolation_L294_F7.CleanFixturePasses.test_rc_is_0)",
+          "FAIL: test_verdict_says_pass (test_gate_isolation_L294_F7.CleanFixturePasses.test_verdict_says_pass)",
+          "FAIL: test_no_bare_check_call_sites_remain (test_gate_isolation_L294_F7.NoFabricatedDefaults.test_no_bare_check_call_sites_remain)",
+          "FAIL: test_q1_one_snapshot_so_a_row_appended_between_reads_reaches_neither_output (test_helm_size_split.HelmSnapshotTests.test_q1_one_snapshot_so_a_row_appended_between_reads_reaches_neither_output)",
+          "FAIL: test_LIMIT_hand_row_absorbed_by_a_later_writer_append (test_orch_log_wiring_L733.ObservedCheck.test_LIMIT_hand_row_absorbed_by_a_later_writer_append)",
+          "FAIL: test_the_runner_matches_the_manual_order (test_review_mechanism_WQ240b.Repro5_GenerationBeforeFreeze.test_the_runner_matches_the_manual_order)"
+        ]
+      }
+    },
+    "note": "Use this newest hash block; patch bytes unchanged. Isolated shared clone; source venv Python. Same failures/errors both sides. Apply only on matching before hash; CATO post-apply review remains PROME responsibility."
   }
 }

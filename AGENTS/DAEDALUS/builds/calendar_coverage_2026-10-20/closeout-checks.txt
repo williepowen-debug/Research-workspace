@@ -1,0 +1,67 @@
+GATE closeout — DAEDALUS · 20261021T013200Z · HEAD f36cd5d0b
+  ⏰ C0  DUE             sweeps_due (SELF-ROW · DIRECTORY-STALE · cadence)
+      ↳ child rc 1 = owed work per its contract
+        · 🔴 RESOLVE_BY PASSED: Queue: profile-refresh (fired triggers + missing profiles) — dated obligation 2026-10-15 is 5d past (this is NOT a cadence miss; the cadence clock may be perfectly fine) → UPGRADE_PROTOCOL.md
+        · 🔴 RESOLVE_BY PASSED: Queue: coordination scorecard weekly render (DOCKET L239) — dated obligation 2026-10-16 is 4d past (this is NOT a cadence miss; the cadence clock may be perfectly fine) → design/2026-08-28_coordination_scorecard_v1.md
+        · ⏰ DUE: Harness Audit (boot/closeout doc re-test) — last run 105d ago (cadence 90d, +15d over) → sweeps/HARNESS_AUDIT_SWEEP.md
+        · ⏰ DUE: Queue: profile-refresh (fired triggers + missing profiles) — last run 33d ago (cadence 21d, +12d over) → UPGRADE_PROTOCOL.md
+        · ⏰ DUE: Fleet Staleness Sweep — last run 26d ago (cadence 21d, +5d over) → sweeps/STALENESS_SWEEP.md
+        · ⏰ DUE: Fleet Production Review — last run 19d ago (cadence 14d, +5d over) → sweeps/PRODUCTION_REVIEW.md
+        · ⏰ DUE: Queue: check-registry (CHECKS.tsv row-completeness) — last run 26d ago (cadence 21d, +5d over) → sweeps/PRODUCTION_REVIEW.md
+        · ⏰ DUE: Queue: invocation-mapping (CHECKS.tsv Invoked_by/State currency) — last run 26d ago (cadence 21d, +5d over) → sweeps/PRODUCTION_REVIEW.md
+        · ⏰ DUE: Queue: roster-health (FLEET_MAP+FLEET_DIRECTORY vs ROSTER) — last run 26d ago (cadence 21d, +5d over) → sweeps/PRODUCTION_REVIEW.md
+        · ⏰ DUE: Queue: unwired-checks (CHECKS.tsv UNWIRED dispositions) — last run 26d ago (cadence 21d, +5d over) → sweeps/PRODUCTION_REVIEW.md
+        · ⏰ DUE: Queue: surfaces-currency (SURFACES.tsv rows vs artifacts) — last run 26d ago (cadence 21d, +5d over) → sweeps/PRODUCTION_REVIEW.md
+        · ⏰ DUE: Queue: doc-retirement (>60d + not-boot-read + unreferenced → archive/) — last run 33d ago (cadence 30d, +3d over) → sweeps/STALENESS_SWEEP.md
+        · ⏰ DUE: Queue: shared-guard-standard (STRICT_TEXT + STATE_VOCABULARY + CHECK_STANDARD registries) — last run 46d ago (cadence 45d, +1d over) → BLUEPRINTS/STATE_VOCABULARY.md
+        · ⏰ SELF-ROW: DAEDALUS FLEET_MAP row Last_scored 12d old (max 5d, PAT-050) — re-cut or confirm current
+  ⏰ C1  DUE             orphan_check DAEDALUS
+      ↳ 1 self-authored packet(s) uncommitted — commit them (carve-out ①)
+        · ⚠️  uncommitted files outside AGENTS/DAEDALUS/:
+        · [likely YOURS] PROME/inbox/2026-10-20_from-DAEDALUS_L628-reverified-calendar-coverage-built.md
+        · [not yours]    AGENTS/WALTER/research/2026-10-12_reboot/.cache/
+        · [not yours]    AGENTS/WALTER/research/2026-10-16_codex-boot/.cache/
+        · [not yours]    AGENTS/WALTER/research/2026-10-16_finish/.cache/
+        · [not yours]    AGENTS/WALTER/research/2026-10-16_finish/credit-cache/
+        · [not yours]    AGENTS/WALTER/research/2026-10-16_finish/hans-cache/
+        · [not yours]    AGENTS/WALTER/research/2026-10-19_afternoon/.cache/
+        · [not yours]    AGENTS/WALTER/research/2026-10-19_afternoon/hans-cache/
+        · [not yours]    AGENTS/WALTER/research/2026-10-19_resume/.cache/
+        · 🔴 THE FLAGGED FILES LOOK LIKE PACKETS YOU AUTHORED.
+        · If you do not commit them they never reach the recipient, and the recipient
+        · is never told anything was sent. Committing files you authored into another
+        · agent's inbox is the ONE sanctioned exception to the pathspec rule.
+        · git add <paths> && git commit <paths> -m "DAEDALUS -> <recipient>: <what>"
+  — C2  NOT-APPLICABLE  consumer_check (declaration-gated)
+      ↳ declared: no figure superseded this session (--no-superseded)
+  ⏰ C3  DUE             ledger_staleness --nudge DAEDALUS
+      ↳ child rc 1 = owed work per its contract
+        · ⚠️  nudge: [DAEDALUS] STATUS moving without ledgers — 2 ledger(s) behind: SURFACES.tsv (56 STATUS-writes behind), PATTERNS.tsv (3 STATUS-writes behind) — freeze-or-refresh EACH, or say why not in the commit
+  ✅ C4  CLEAN           memory (index-check per slug · length cap)
+      ↳ index-check N/A: declared no auto-memory written (--no-memory)
+  ✅ C5  CLEAN           claim_check --check weekday
+      ↳ no weekday mismatch in 4 paths
+  ✅ C6  CLEAN           PATTERNS_HOT conservation (read-only)
+      ↳ conservation holds: 188 rows == 51+137 (generated 2026-10-14); NOT checked: whether a row's TEXT changed since generation
+  ⏰ C7  DUE             read_cap_check --agent DAEDALUS (rotation DUE; rc1 BLOCKING at closeout)
+      ↳ child rc 0; rotation_due=1 — maintenance owed (see paths below)
+        · 🟡 AGENTS/DAEDALUS/EVOLUTION.md         26,011 B    80% of budget  rotate-tier (≥75% of budget)  (whole · DAEDALUS:CLAUDE.md-SPAWN-4)
+        · ↳ rule 5 STOP is <70% of budget (22,785 B): REMOVE 3,227 MORE B to finish rotating. ⛔ Stopping at the 75% TRIGGER is not finishing — that band re-breaches on the next append (PAT-055 regrowth), which is why rule 5 has two thresholds.
+        · ↳ 70–75% BAND — rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 1,111 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. ⚠️ Headroom to the trigger: 517 B.
+        · 🟠 AGENTS/DAEDALUS/BLUEPRINTS/STATE_VOCABULARY.md   38,074 B   117% of budget  over budget (readable, no headroom)  ← read whole by HANS:RULE-1c (CONDITIONAL — before minting a status token)
+        · ℹ️  READ-CAP ADVISORY [DAEDALUS]: 1 reading(s) this check will NOT adjudicate (above). ⛔ These do NOT affect rc — the declaration is the reader's, and a refusal to adjudicate cannot be a blocking verdict (severity split 2026-09-14, L354).
+        · READ-CAP [DAEDALUS] — cap 54,250 B · budget 32,550 B (60%) · ALL % BELOW ARE OF BUDGET (the number every verdict grades; ≥100% = over) · perimeter: DECLARED in PROME/registry/READS.tsv — 15 cap-bearing (whole/programmatic) measured, 12 declared-not-counted (scoped/grep/summary), 45 manifest row(s) for this desk; 4 of the measured are MEMBERS of 2 cap-bearing CLASS row(s), each measured per member (rule 16); ATTESTED by the desk itself
+        · ▣ AGENTS/DAEDALUS/inbox/*.md                   declared `whole` · CLASS row — cap-bearing PER MEMBER (rule 16 ruling 2026-09-24): 4 member(s) measured, 0 over budget, 0 over the CAP, largest 2,906 B (9% of budget)  (DAEDALUS:CLAUDE.md-SPAWN-3b)
+        · READ-CAP-RESULT v1 mode=agent rc=0 assessed=1 desk=DAEDALUS reads=15 over_budget=0 over_cap=0 manifest_defects=0 advisories=1 generated_flagged=0 rotation_due=1 active_decisions_over_budget=0 charter_mode=explicit charter_reads=2 owner_notices=1 owner_notices_over_budget=1 charter_bytes=20200
+  ✅ C8  CLEAN           complete_check (pairing · pair-symmetry · EVOLUTION placement · claim walk-list)
+      ↳ child rc 0
+        · · CLAIM AGENTS/DAEDALUS/design/2026-10-20_L495_RECEIVER_CANARY_SPEC.md:32: | **AC4 Loud** | FAIL and UNKNOWN print at the consumer's boot **before** triage begins, name the path + class + last good date, and are car
+  ✅ C9  CLEAN           STATUS stamped today (header + BOTTOM LINE)
+      ↳ header and BOTTOM LINE both stamped today
+  ✍️  C10 DECLARED        rule-declared-this-session (judgment, DECLARED only)
+      ↳ operator declares: no rule declared or amended this session
+
+GATE closeout rc=0 · checked: 10 steps ['C0', 'C1', 'C2', 'C3', 'C4', 'C5', 'C6', 'C7', 'C8', 'C9'] · NOT checked (declared/enumerated only): ['C10'] · proves nothing about: completion of work beyond complete_check's legs, owner consumption of packets, the truth of any DECLARED value, or anything a child's own PASS line disclaims.
+  counts: CLEAN 5 · DECLARED 1 · DUE 4 · NOT-APPLICABLE 1
+  receipt: /tmp/claude-1000/daedalus-gate/20261021T013200Z_closeout.json (sha 24bc10de) — fingerprint 71fe80a8f3a3
+  logged: /home/willi/Research-workspace/AGENTS/DAEDALUS/runs/GATE_LOG.tsv (the only tree write this runner makes)

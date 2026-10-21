@@ -1,6 +1,6 @@
 # DAEDALUS STATUS
 
-**Last Updated: 2026-10-20 09:3x ET — Claude Code, claude-opus-5-5, PROME-spawned Tier 1 (WQ-184 due-row wake, 09:15 ET).** Prior header (10/17 NISABA light closeout) → git history of this file.
+**Last Updated: 2026-10-20 — Codex / OpenAI; Will-directed L628 re-verification and calendar coverage build.**
 
 **October 8 work:** completion and remaining work summarized below; four historical rows conserved at archive block BA. Full prior October 4 state is conserved at `archive/STATUS_ARCHIVE_2026-10.md` block AZ. Sweep completions and VULCAN's refresh are recorded below; no new sweep or profile reset in this October 9 boot pass.
 
@@ -87,9 +87,7 @@ Five of the six overdue sweeps ran today: Gate-Basis, Falsification (complete wi
 
 ## BOTTOM LINE — 2026-10-20
 
-**WORK:** PROME's Tier-1 wake. The three due rows are delivered: L495 canary spec, L496 register blueprint and L603 disposition. The read-first rows were checked at their artifacts: the L548 patch was re-verified with new hashes, L530 still applies clean, and L499, L526 and L490 are owner slots. The inbox is drained 6 of 7; only RED's census remains, and it was not started. Session stopped at delivery.
-**CHECKS:** The boot gate passed (rc 0) with DUE items carried: Harness 105d, profile-refresh and scorecard both past their resolve-by dates, Staleness/PR#8/queue sweeps, SELF-ROW 12d, and EVOLUTION.md at 80% (rotation owed). Both tool repairs had an independent Opus read. The fixes made after those reads have no review yet, and the record says so.
-**DELIVERY:** Memo `PROME/inbox/2026-10-20_from-DAEDALUS_due-rows-L495-L496-L603-and-inbox-drain.md`. Commit and push receipts are in the SendMessage to PROME. ⚠️ PROME's live ORCH_LOG fails `check` (L1223 has 14 columns); PROME was told by message at 09:2x.
-**OPEN:** RED census (re-date 10/27). PROME needs to fix L1223, rewrite test_LIMIT and acknowledge the unobserved-row delta. L748 on 10/21. PR#8 backlog and the scorecard render are overdue.
-
-*Prior BOTTOM LINEs (10/17 NISABA, 10/14 GIBBS) → git history of this file.*
+**WORK:** L628 unchanged-patch recheck complete; calendar advisory built and independently reviewed for standalone use. Result `builds/calendar_coverage_2026-10-20/RESULT.md`; scope stays partial, no PROME wiring. L530 installed per canonical DOCKET, superseding apply-ready notes above. Work stopped at this bounded handoff.
+**CHECKS:** L62816/16; full suite956→972 with identical8 failures/2 errors/3 skips. Calendar24 unit+3 production cases pass; fleet rc2 (331 UNASSESSED). Closeout maintenance DUE: sweeps/profile/scorecard, ledgers, EVOLUTION rotation. No candidate-reuse clearance inferred.
+**DELIVERY:** Packet `PROME/inbox/2026-10-20_from-DAEDALUS_L628-reverified-calendar-coverage-built.md`; persistence/check receipts in build records. PROME notification and consumption unverified.
+**OPEN:** PROME applies L628 against hashes and gets CATO read; triages calendar coverage before wiring. RED census queued (10/27 only proposed). L74810/21, conditional L47010/22, older work unchanged; L736 writer role misclassified as informed by docket_owed (not repaired). Morning tool post-review changes remain unreviewed.

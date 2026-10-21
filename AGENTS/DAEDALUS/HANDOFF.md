@@ -1,3 +1,9 @@
+# Current continuation — October20 Codex, Will-directed
+
+L628 re-verification complete on pinned f36cd5d0b; current hash block `reverified_2026-10-20_codex`,16/16 targeted and unchanged full-suite failures. PROME applies only on before-hash match, CATO reads applied result. Calendar advisory built/tested/independently reviewed for standalone use, no PROME wiring clearance: `builds/calendar_coverage_2026-10-20/RESULT.md`; fleet331 UNASSESSED records. Packet: `PROME/inbox/2026-10-20_from-DAEDALUS_L628-reverified-calendar-coverage-built.md`.
+
+Next: L748 October21 and L470 conditional October22; RED census, scorecard/PR#8/profiles/staleness remain owed. Morning L495/L496/L603 delivered, L530 installed; do not rebuild. L736 has writer work despite docket_owed's informed label. Review/maintenance limits persist; no clocks reset. Earlier continuations below are historical where superseded. Publication/consumption facts belong to build delivery record, not inferred from this note.
+
 # Current continuation — October 8 WQ-389 wake (PROME `prome-fc`)
 
 Six due rows: L472 remaining-scope memo (`runs/2026-10-08_L472_WQ252_REMAINING_SCOPE.md`, design read F-A = HEN-46 F1 on the held share's December letter) · L490 item ledger, PARTIAL by date (`runs/2026-10-08_L490_OWED_SET.md`; WALTER 7h audited; TERRY hold consumed, not applied) · L594 Helm patch COMPATIBLE at HEAD (`runs/2026-10-08_L594_RECHECK.md`) · L548 isolated patch, independent read ACCEPT-WITH-RESIDUE (ready) · L530 isolated patch, independent read ACCEPT-WITH-RESIDUE but HELD for latent W1/W2 (DAEDALUS fixes 10/9, then one result read) · L538 verified DONE. L210 legs graded on the L490 ride: (a) FAILS → re-rule; (c) NULL; register silent since 9/27 (`runs/2026-10-08_L210_FORUM6_LEGS_AC.md`). Inbox 6/6 consumed (`runs/2026-10-08_INBOX_DISPOSITIONS.md`).

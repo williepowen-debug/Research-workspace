@@ -1,0 +1,245 @@
+...................F..........................................................usage: python3 -m unittest [-h] [--json] [--no-pending]
+                           [--record-baseline SHA] [--record-review]
+                           [--contract CONTRACT] [--observe OBSERVE]
+                           [--observe-at OBSERVE_AT] [--snapshot SNAPSHOT]
+                           [--verify-review] [--paths PATH [PATH ...]]
+                           [--ref REF] [--consumed-move ORIGIN DEST]
+                           [--mark-reviewed [NOTE]]
+python3 -m unittest: error: --consumed-move is only meaningful with --record-review (it DECLARES a move at freeze time)
+.usage: python3 -m unittest [-h] [--json] [--no-pending]
+                           [--record-baseline SHA] [--record-review]
+                           [--contract CONTRACT] [--observe OBSERVE]
+                           [--observe-at OBSERVE_AT] [--snapshot SNAPSHOT]
+                           [--verify-review] [--paths PATH [PATH ...]]
+                           [--ref REF] [--consumed-move ORIGIN DEST]
+                           [--mark-reviewed [NOTE]]
+python3 -m unittest: error: the same DEST is declared more than once — one declaration per destination
+..................................................................................................................................................................................................................................................................................⚠️ decision_deck: WQ-1: options_source cards/x.md#9 unreadable (file, section or label-shaped rows missing) — options NOT rendered (plain card)
+⚠️ decision_deck: WQ-1: options_source cards/missing.md#3 unreadable (file, section or label-shaped rows missing) — options NOT rendered (plain card)
+⚠️ decision_deck: WQ-1: options_source cards/x.md#2 unreadable (file, section or label-shaped rows missing) — options NOT rendered (plain card)
+⚠️ decision_deck: WQ-1: no options_source registered — options NOT rendered (plain card)
+....⚠️ decision_deck: WQ-1: options_source cards/moved.md#3 unreadable (file, section or label-shaped rows missing) — options NOT rendered (plain card)
+.........................⚠️ decision_deck: § OPEN header has 4 columns (the table is 7) — table skipped
+....⚠️ decision_deck: § OPEN header has 4 columns (the table is 7) — table skipped
+................BUILD FAILED (1 error(s)) -- ../../tmppddufik5/state.json NOT updated, still at an older build.
+  - missing source
+........../tmp/daedalus-l628-bxzb9pgo/repo/PROME/tools/tests/test_docket_open_query_L368.py:62: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/daedalus-l628-bxzb9pgo/repo/PROME/DOCKET.tsv' mode='r' encoding='utf-8'>
+  rows = list(csv.reader((ROOT / "PROME/DOCKET.tsv").open(encoding="utf-8"), delimiter="\t"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+............................................⚠️ decision_deck: fx row 416 has 2 cell(s) (< 3) — SKIPPED: invisible to the Decided view and the event ledger; fix the ROW
+......................................................................................................sss......................................FF.F...................F..........................BUILD FAILED (1 error(s)) -- ../../tmpifwc3xjp/state.json NOT updated, still at an older build.
+  - bad amendment
+.............................F..................................................................../tmp/daedalus-l628-bxzb9pgo/repo/scripts/orch_log.py:103: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmptzhqegmb/ORCH_LOG.tsv' mode='r' encoding='utf-8'>
+  lines = open(path, encoding="utf-8").read().split("\n")
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+./tmp/daedalus-l628-bxzb9pgo/repo/scripts/orch_log.py:103: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmprv5w6x4o/ORCH_LOG.tsv' mode='r' encoding='utf-8'>
+  lines = open(path, encoding="utf-8").read().split("\n")
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/tmp/daedalus-l628-bxzb9pgo/repo/scripts/orch_log.py:163: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmprv5w6x4o/ORCH_INFLIGHT.md' mode='r' encoding='utf-8'>
+  head = open(view_path, encoding="utf-8").read(4096)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/tmp/daedalus-l628-bxzb9pgo/repo/scripts/orch_log.py:210: ResourceWarning: unclosed file <_io.BufferedReader name='/tmp/tmprv5w6x4o/ORCH_LOG.tsv'>
+  prefix = "" if (fh.tell() == 0 or open(path, "rb").read()[-1:] == b"\n") else "\n"
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+../tmp/daedalus-l628-bxzb9pgo/repo/scripts/orch_log.py:103: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp0qfgpro0/ORCH_LOG.tsv' mode='r' encoding='utf-8'>
+  lines = open(path, encoding="utf-8").read().split("\n")
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/tmp/daedalus-l628-bxzb9pgo/repo/scripts/orch_log.py:163: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp0qfgpro0/ORCH_INFLIGHT.md' mode='r' encoding='utf-8'>
+  head = open(view_path, encoding="utf-8").read(4096)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+F/tmp/daedalus-l628-bxzb9pgo/repo/scripts/orch_log.py:103: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpu78imuxq/ORCH_LOG.tsv' mode='r' encoding='utf-8'>
+  lines = open(path, encoding="utf-8").read().split("\n")
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+.............................................................................................EF......................E................................................................................⚠️ decision_deck: SHIFTED row WQ-901 (6 cells vs header 7) skipped — an unescaped | inside a cell; write it \|
+.......
+======================================================================
+ERROR: test_the_order_is_commit_then_verify_then_push_then_publish (test_review_mechanism_WQ240b.Repro5_GenerationBeforeFreeze.test_the_order_is_commit_then_verify_then_push_then_publish)
+Anchor on COMMANDS, which are stable, not on headings, which get reworded.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/daedalus-l628-bxzb9pgo/repo/PROME/tools/tests/test_review_mechanism_WQ240b.py", line 277, in test_the_order_is_commit_then_verify_then_push_then_publish
+    i_verify = self.m.index("--verify-review --ref HEAD --paths")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: substring not found
+
+======================================================================
+ERROR: test_spawn_list_fail_closed (unittest.loader._FailedTest.test_spawn_list_fail_closed)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_spawn_list_fail_closed
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/unittest/loader.py", line 394, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/unittest/loader.py", line 337, in _get_module_from_name
+    __import__(name)
+  File "/tmp/daedalus-l628-bxzb9pgo/repo/PROME/tools/tests/test_spawn_list_fail_closed.py", line 97, in <module>
+    sys.exit(0 if ok else 1)
+SystemExit: 0
+
+
+======================================================================
+FAIL: test_clean_desk_is_clear_to_brief (test_agent_freshness_L294_F4.PreSpawnStopFailsClosed.test_clean_desk_is_clear_to_brief)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/daedalus-l628-bxzb9pgo/repo/PROME/tools/tests/test_agent_freshness_L294_F4.py", line 245, in test_clean_desk_is_clear_to_brief
+    self.assertEqual(rc, 0)
+AssertionError: 1 != 0
+
+======================================================================
+FAIL: test_no_check_errored (test_gate_isolation_L294_F7.CleanFixturePasses.test_no_check_errored)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/daedalus-l628-bxzb9pgo/repo/PROME/tools/tests/test_gate_isolation_L294_F7.py", line 134, in test_no_check_errored
+    self.assertNotIn("[ERROR", CLEAN.stdout)
+AssertionError: '[ERROR' unexpectedly found in "\n======================================================================\n  PROME GATE · BOOT · ⚠️  INCOMPLETE — NOT A PASS (8 blocking / 24 advisory / 1 NOT RUN)\n======================================================================\n  ⚠️  1 check(s) did not run. Their subjects are UNKNOWN, not clean.\n      rc=2 = COULD NOT ESTABLISH. Do not read this run as evidence of anything they cover.\n\n  ⚠️  [advisory] orchestrated touch closeout evidence (WQ-249): rc=1 · ASKED→receipt 7 (DAEDALUS NEXUS OSPREY ZHAO REGINALD ANVIL ARGUS) · still working 19 · already closed 0 · dark-before-ask 28 · UNKNOWN rows 632 (today 0 · older 632 ≤2026-10-19, the standing WQ-249 backlog — not a boot read) · spawn inventory coverage UNKNOWN; ledger absence cannot prove no spawns\n       full output: /tmp/prome-gate-checks-8v1r1s6k/00-orchestrated-touch-closeout-evidence-wq-249-.txt\n       → Enumerate ORCH_LOG touches, including read-only helpers. Request closeout via the actual runtime before handoff; record evidence in notes. UNKNOWN is not DARK or a receipt. Reconcile --expected-key values from the tool record with --inventory-complete; without that attestation inventory coverage remains UNKNOWN. Reporting only, not BLOCK.\n  ✅ [BLOCKING] position_agreement: rc=0\n       full output: /tmp/prome-gate-checks-8v1r1s6k/01-position-agreement.txt\n  ✅ [BLOCKING] board_scan: rc=0\n       full output: /tmp/prome-gate-checks-8v1r1s6k/02-board-scan.txt\n  ⚠️  [advisory] exempt-desk BOARD gap (§3.5 pull-complete desks vs their ledgers): rc=2 · → 3 desk(s) flagged. Rule: the ledger is the DESK's to fill — packet/doorbell it (§3.5.2: a reader who cannot \n       ↳ ⚠️  CARL: NO BOARD consumption ledger found (board_log.tsv | board/BOARD_LOG.tsv | archive/board_log*.tsv | board/archiv… [preview]\n       ↳ ⚠️  RED: NO BOARD consumption ledger found (board_log.tsv | board/BOARD_LOG.tsv | archive/board_log*.tsv | board/archive… [preview]\n       ↳ ⚠️  TERRY: NO BOARD consumption ledger found (board_log.tsv | board/BOARD_LOG.tsv | archive/board_log*.tsv | board/archi… [preview]\n       full output: /tmp/prome-gate-checks-8v1r1s6k/03-exempt-desk-board-gap-3-5-pull-complete-desks-vs-their-ledgers-.txt\n       → the ledger is the DESK's to fill (§3.5.2) — packet/doorbell the desk; no ledger ⇒ the desk owes one; never grade on its behalf\n  ⚠️  [advisory] firetime (owner-routed flags persist): rc=1 · → 217 flag(s). Rule: a DATE flag means FULL LOGIC RE-READ of the artifact (a date fix can break gate sequencin\n       ↳ ⚠️  AGENTS/WAL/STATUS.md\n       ↳ ⚠️  DEAD POINTER: `research/2026-10-19_Q3-recurring-earnings-bridge.md` does not exist\n       ↳ ⚠️  DEAD POINTER: `research/2026-10-19_Q3-stage1-closeout-receipt.json` does not exist\n       ↳ 272 additional flag(s); read full log\n       full output: /tmp/prome-gate-checks-8v1r1s6k/04-firetime-owner-routed-flags-persist-.txt\n       → scripts/firetime_allowlist.tsv · DATE flag = full logic re-read, never find-replace\n  ⚠️  [advisory] agent freshness (ground-truth vs narrative): rc=1 · unread from-agent packets in PROME/inbox: BOND×3, BRENT×5, CATO×1, CRUISE×6, DAEDALUS×1, GIBBS×1, HENRY×7, HOM\n       full output: /tmp/prome-gate-checks-8v1r1s6k/05-agent-freshness-ground-truth-vs-narrative-.txt\n       → run PROME/tools/agent_freshness.py --agent <NAME> before ANY launch brief; drain first\n  ⚠️  [advisory] R1 corrections check (FORUM-6 ①): rc=2 · CORRECTIONS-CHECK 2 CANNOT-EVALUATE: cannot validate agent 'PROME': FLEET_DIRECTORY.md missing — regenerate it\n       full output: /tmp/prome-gate-checks-8v1r1s6k/06-r1-corrections-check-forum-6-.txt\n       → rc=1 = a NAMED correction is unreceipted: read the pointer, then `scripts/corrections_boot_check.py PROME --receipt <id> --action <APPLIED|NO-OP|DEFERRED|CONTESTED>` and commit PROME/registry/corrections_receipts.tsv\n  ✅ [BLOCKING] GATES fired-unexecuted: none\n  ✅ [BLOCKING] GATES token vocabulary: 21 rows all lead with enumerated tokens\n  ✅ [advisory] GATES consumed_by (consumer passed / cell empty): all LIVE rows have live consumers or declared NONE\n  ✅ [BLOCKING] GATES review_by passed — LIVE INSTRUMENT rows: no live INSTRUMENT row past its review date\n  ✅ [advisory] GATES review_by passed — LIVE JUDGEMENT rows: no live JUDGEMENT row past its review date\n  ✅ [advisory] GATES last_checked blank on LIVE INSTRUMENT rows: every live INSTRUMENT row carries a last_checked\n  ✅ [BLOCKING] GATES gate-citability (WQ-250 ③, L417): 0 hits over 3 files · condition cells: 0 · 3 of 19 LIVE rows' letters read · UNREAD: GATE-BRENT-COT-35B, GATE-BRK-OTIC, GATE-BRK-R2, GATE-FALCON-001, GATE-FERT-G3, GATE-FERT-G5, GATE-HOMER-THESIS-KILL, GATE-HY-REKILL, GATE-LIQ-069, GATE-LIQ-072, GATE-LIQ-076, GATE-LIQ-079, GATE-NEXUS-T12S-DFII10, GATE-NEXUS-WQ459-HY, GATE-OP-SCALE-01, GATE-OSPREY-001, GATE-TERRY-ROLL70-EXIT, GATE-TERRY-VLO-HELD-01\n  ⚠️  [ERROR   ] GATES gate-citability — LIVE row letter NOT READ: GATE-HY-REKILL → AGENTS/LIQUID/workbook/KILL_MEMO_HY_OAS_260.md; GATE-LIQ-069 → AGENTS/LIQUID/workbook/KB.tsv; GATE-LIQ-072 → AGENTS/LIQUID/workbook/KB.tsv; GATE-LIQ-076 → AGENTS/LIQUID/workbook/DEALER_POSITIONING_NEXUS_WATCH.md; GATE-LIQ-079 → AGENTS/LIQUID/workbook/FUNDING_SEIZURE_GATE_SCOPED.md; GATE-FALCON-001 → AGENTS/FALCON/reports/2026-07-21_babelmandeb-SIG-003-adjudication.md; GATE-FALCON-001 → AGENTS/FALCON/reports/2026-08-10_gate-falcon-001-leg2-tankermap-likeforlike-adjudication.md; GATE-FALCON-001 → AGENTS/FALCON/domain/FRESH_LEG_BASELINE.md; GATE-OSPREY-001 → AGENTS/OSPREY/domain/energy-strikes/CPC_HALT_2026-07-21.md; GATE-OP-SCALE-01 → FORUM/2026-08-07_system-review/08_dissent/05_TERRY_capitals-case.md; GATE-BRENT-COT-35B → AGENTS/BRENT/workbook/REGISTRY.tsv; GATE-BRENT-COT-35B → AGENTS/BRENT/setups/2026-08-14_COT-friday-card-incumbent-final-grade-then-35b-register.md; GATE-FERT-G5 → AGENTS/FERT/workbook/TRIGGERS.tsv; GATE-FERT-G3 → AGENTS/FERT/workbook/KB.tsv; GATE-TERRY-ROLL70-EXIT → AGENTS/TERRY/setups/WAL_dec18-70P-duration-roll_2026-09-01.md; GATE-BRK-R2 → AGENTS/BROCK/workbook/PC_REDEMPTION_REGISTER.tsv; GATE-NEXUS-T12S-DFII10 → AGENTS/NEXUS/research/2026-09-24_t12_successor_DFII10_letter.md; GATE-TERRY-VLO-HELD-01 → AGENTS/TERRY/setups/VLO-SHARE_management-proposal_2026-09-28.md; GATE-HOMER-THESIS-KILL → AGENTS/HOMER/thesis/THESIS.md; GATE-BRK-OTIC → AGENTS/BROCK/research/2026-10-09_GATE-BRK-OTIC_draft-letter.md; GATE-NEXUS-WQ459-HY → AGENTS/NEXUS/research/2026-10-19_WQ459_guarded_HY_letter.md (the letter was NOT read; the check established nothing for these rows — re-point definition_surface at the letter FILE)\n       → PROME/GATES.tsv definition_surface cell (repair the path)\n  ✅ [advisory] DOCKET overdue-unannotated: every past-dated PENDING row carries an OVERDUE annotation\n  ✅ [BLOCKING] DOCKET buried state token (row invisible to the canonical reader): every row containing PENDING leads with a state token\n  ✅ [advisory] generated calendar freshness: rc=0 · FRESH generated block · assessed=1 · as_of=2026-10-20 · snapshot identities in full output\n       full output: /tmp/prome-gate-checks-8v1r1s6k/17-generated-calendar-freshness.txt\n  ✅ [advisory] handwritten calendar coverage: rc=0 · EMPTY dated scope · matched=0 · assessed=0 · unassessed=0 · ignored=0 · generated content EXCLUDED\n       full output: /tmp/prome-gate-checks-8v1r1s6k/18-handwritten-calendar-coverage.txt\n  ⚠️  [advisory] WILL_QUEUE fresh + nothing due/passed/aging: reconcile stamp 2026-10-15 is 5d old; PASSED #463 ⚖️ **DBPR PUBLIC-RECORDS PORTAL — ch (needed 2026-10-09); DUE TODAY #462 ⚖️ **QQQ Oct-20 puts EXPIRE TODAY — ; DUE TODAY #455 ⚖️ **FULL FIDELITY IRA ACCOUNT NUMBE; PASSED #448 ⚖️ **MAKE THE PUSH OBEY THE CLOSEOUT (needed 2026-10-17) (+27 more)\n       → PROME/WILL_QUEUE.md (act on DUE TODAY; reconcile PASSED; date/decline AGING)\n  ✅ [advisory] aged waits (WQ-221): ⛔-waits rows whose blocker is dark ≥7d: no ⛔-waits row has a blocker dark ≥7d without a dated deliverable\n  ✅ [advisory] willq_view drift (SCRATCH Pending-Will block vs WILL_QUEUE OPEN): rc=0\n       full output: /tmp/prome-gate-checks-8v1r1s6k/21-willq-view-drift-scratch-pending-will-block-vs-will-queue-open-.txt\n  ✅ [advisory] HEARTBEAT amendment chain (<4): chain at 0 amendment(s)\n  ✅ [advisory] boot-read tables: no over-celled rows: rc=0\n       full output: /tmp/prome-gate-checks-8v1r1s6k/23-boot-read-tables-no-over-celled-rows.txt\n  ✅ [advisory] done rows: parser-independent short-row + rulings-reach-ledger (WQ-417 P1): rc=0\n       full output: /tmp/prome-gate-checks-8v1r1s6k/24-done-rows-parser-independent-short-row-rulings-reach-ledger-wq-417-p1-.txt\n  ✅ [advisory] boot↔closeout symmetry: 9 boot-read surfaces all registered\n  ✅ [BLOCKING] .claude/{agents,skills} root↔PROME parity: 9 agent/skill definition(s) identical\n  ⚠️  [advisory] desk catalyst summons (BD-02): LABOR ledger MISSING (AGENTS/LABOR/docket/CATALYSTS.tsv) · VULCAN ledger MISSING (AGENTS/VULCAN/docket/CATALYSTS.tsv) · VIOLET ledger MISSING (AGENTS/VIOLET/workbook/CATALYSTS.tsv)\n       → WQ-184 L0 applies: a due desk-ledger row with a dark owner is a Tier-1 spawn (ListAgents first) — never grade on the owner's behalf; registry = SUMMONS_LEDGERS above\n  ⚠️  [advisory] spawn list — L0 due-row candidates (WQ-184): rc=1 · as-of 2026-10-20 · horizon +0d · 51 row(s): DARK 8 · ACTIVE 0 · lands-ahead 0 · PROME 41 · WILL 2 · DARK: D:L490 DAEDALUS, D:L568 LIQUID, D:L499 DAEDALUS, D:L526 DAEDALUS, D:L639 NEXUS, D:L667 VIOLET, D:L704 GIBBS, D:L755 WALTER\n       ↳ ⚠️ D:L490\t2026-10-09\t11\tDAEDALUS\tDARK\tno self-commit found in history\tWEEKLY — CANNOT-EVALUATE (no qualifying owner comm… [preview]\n       ↳ ⚠️ D:L568\t2026-10-09\t11\tLIQUID\tDARK\tno self-commit found in history\tWEEKLY — CANNOT-EVALUATE (no qualifying owner commit… [preview]\n       ↳ ⚠️ D:L499\t2026-10-12\t8\tDAEDALUS\tDARK\tno self-commit found in history\tWEEKLY — CANNOT-EVALUATE (no qualifying owner commi… [preview]\n       ↳ 5 additional flag(s); read full log\n       full output: /tmp/prome-gate-checks-8v1r1s6k/28-spawn-list-l0-due-row-candidates-wq-184-.txt\n       → DARK ⇒ ListAgents same minute → Tier-1 spawn (cap 4/boot) or doorbell a live desk; ACTIVE ⇒ read the owner's artifact first (receipt gap); WILL ⇒ queue; PROME ⇒ do it\n  ⚠️  [advisory] spawn slate — prepared stanzas (advisory; RETURN FOUND is a pointer, not a grade): rc=1 ·   spawn candidates: DAEDALUS (slot 1 of 4; D:L490, D:L499, D:L526); LIQUID (slot 2 of 4; D:L568); NEXUS (slot \n       full output: /tmp/prome-gate-checks-8v1r1s6k/29-spawn-slate-prepared-stanzas-advisory-return-found-is-a-pointer-not-a-.txt\n       → read the top block of PROME/state/SPAWN_SLATE.md, then only the stanzas you act on\n  ✅ [advisory] session evidence beside ALL due rows — fleet presence UNKNOWN: rc=0\n       full output: /tmp/prome-gate-checks-8v1r1s6k/30-session-evidence-beside-all-due-rows-fleet-presence-unknown.txt\n  ⚠️  [advisory] declared read budgets: rc=1 · declared PROME perimeter · charter_mode=explicit · assessed=1 · reads=9 · over_budget=0 · over_cap=0 · manifest_defects=2 · advisories=0 · generated_flagged=0 · rotation_due=0 · active_decisions_over_budget=0\n       ↳ ⚠️  READ-CAP 1 [PROME]: 2 manifest defect(s) above. A declared read that does not resolve is a defect of the DECLARATION… [preview]\n       full output: /tmp/prome-gate-checks-8v1r1s6k/31-declared-read-budgets.txt\n       → READ_CAP.md · PROME/registry/READS.tsv · full output names affected reads\n  ⚠️  [advisory] auto-memory byte budget: UNKNOWN: [Errno 2] No such file or directory: '/tmp/gate-fixture-y2r7c2u3/memory/auto/MEMORY.md'\n       → scripts/harness_caps.env · MEMORY flow rule 8/12\n  ------------------------------------------------------------------\n  CAPABILITIES — never gate unrelated work; reported every run until RESTORED\n  ⛔ [UNAVAILABLE] machine credentials (env_doctor): ENV-DOCTOR ✗ MISSING /tmp/gate-fixture-y2r7c2u3/FORGE/tools/market-data/.env — all FRED/EIA pulls fa\n       full output: /tmp/prome-gate-checks-8v1r1s6k/cap-machine-credentials-env-doctor-.txt\n       ↳ withholds: FFIEC call-report pulls · NASA FIRMS hotspot grading (FALCON/OSPREY) · FRED/EIA-dependent levels\n       ↳ unrelated work PROCEEDS — this is not a gate\n       ↳ tracked at WQ-238\n       → PROME/MACHINE_LOCAL.md\n======================================================================\n  ⚠️  INCOMPLETE: 1 check(s) NOT RUN. rc=2 — this run establishes nothing about the unevaluated subjects.\n\n"
+
+======================================================================
+FAIL: test_rc_is_0 (test_gate_isolation_L294_F7.CleanFixturePasses.test_rc_is_0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/daedalus-l628-bxzb9pgo/repo/PROME/tools/tests/test_gate_isolation_L294_F7.py", line 128, in test_rc_is_0
+    self.assertEqual(CLEAN.returncode, 0, CLEAN.stdout[-600:])
+AssertionError: 2 != 0 : NV-DOCTOR ✗ MISSING /tmp/gate-fixture-y2r7c2u3/FORGE/tools/market-data/.env — all FRED/EIA pulls fa
+       full output: /tmp/prome-gate-checks-8v1r1s6k/cap-machine-credentials-env-doctor-.txt
+       ↳ withholds: FFIEC call-report pulls · NASA FIRMS hotspot grading (FALCON/OSPREY) · FRED/EIA-dependent levels
+       ↳ unrelated work PROCEEDS — this is not a gate
+       ↳ tracked at WQ-238
+       → PROME/MACHINE_LOCAL.md
+======================================================================
+  ⚠️  INCOMPLETE: 1 check(s) NOT RUN. rc=2 — this run establishes nothing about the unevaluated subjects.
+
+
+
+======================================================================
+FAIL: test_verdict_says_pass (test_gate_isolation_L294_F7.CleanFixturePasses.test_verdict_says_pass)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/daedalus-l628-bxzb9pgo/repo/PROME/tools/tests/test_gate_isolation_L294_F7.py", line 131, in test_verdict_says_pass
+    self.assertIn("✅ PASS", CLEAN.stdout)
+AssertionError: '✅ PASS' not found in "\n======================================================================\n  PROME GATE · BOOT · ⚠️  INCOMPLETE — NOT A PASS (8 blocking / 24 advisory / 1 NOT RUN)\n======================================================================\n  ⚠️  1 check(s) did not run. Their subjects are UNKNOWN, not clean.\n      rc=2 = COULD NOT ESTABLISH. Do not read this run as evidence of anything they cover.\n\n  ⚠️  [advisory] orchestrated touch closeout evidence (WQ-249): rc=1 · ASKED→receipt 7 (DAEDALUS NEXUS OSPREY ZHAO REGINALD ANVIL ARGUS) · still working 19 · already closed 0 · dark-before-ask 28 · UNKNOWN rows 632 (today 0 · older 632 ≤2026-10-19, the standing WQ-249 backlog — not a boot read) · spawn inventory coverage UNKNOWN; ledger absence cannot prove no spawns\n       full output: /tmp/prome-gate-checks-8v1r1s6k/00-orchestrated-touch-closeout-evidence-wq-249-.txt\n       → Enumerate ORCH_LOG touches, including read-only helpers. Request closeout via the actual runtime before handoff; record evidence in notes. UNKNOWN is not DARK or a receipt. Reconcile --expected-key values from the tool record with --inventory-complete; without that attestation inventory coverage remains UNKNOWN. Reporting only, not BLOCK.\n  ✅ [BLOCKING] position_agreement: rc=0\n       full output: /tmp/prome-gate-checks-8v1r1s6k/01-position-agreement.txt\n  ✅ [BLOCKING] board_scan: rc=0\n       full output: /tmp/prome-gate-checks-8v1r1s6k/02-board-scan.txt\n  ⚠️  [advisory] exempt-desk BOARD gap (§3.5 pull-complete desks vs their ledgers): rc=2 · → 3 desk(s) flagged. Rule: the ledger is the DESK's to fill — packet/doorbell it (§3.5.2: a reader who cannot \n       ↳ ⚠️  CARL: NO BOARD consumption ledger found (board_log.tsv | board/BOARD_LOG.tsv | archive/board_log*.tsv | board/archiv… [preview]\n       ↳ ⚠️  RED: NO BOARD consumption ledger found (board_log.tsv | board/BOARD_LOG.tsv | archive/board_log*.tsv | board/archive… [preview]\n       ↳ ⚠️  TERRY: NO BOARD consumption ledger found (board_log.tsv | board/BOARD_LOG.tsv | archive/board_log*.tsv | board/archi… [preview]\n       full output: /tmp/prome-gate-checks-8v1r1s6k/03-exempt-desk-board-gap-3-5-pull-complete-desks-vs-their-ledgers-.txt\n       → the ledger is the DESK's to fill (§3.5.2) — packet/doorbell the desk; no ledger ⇒ the desk owes one; never grade on its behalf\n  ⚠️  [advisory] firetime (owner-routed flags persist): rc=1 · → 217 flag(s). Rule: a DATE flag means FULL LOGIC RE-READ of the artifact (a date fix can break gate sequencin\n       ↳ ⚠️  AGENTS/WAL/STATUS.md\n       ↳ ⚠️  DEAD POINTER: `research/2026-10-19_Q3-recurring-earnings-bridge.md` does not exist\n       ↳ ⚠️  DEAD POINTER: `research/2026-10-19_Q3-stage1-closeout-receipt.json` does not exist\n       ↳ 272 additional flag(s); read full log\n       full output: /tmp/prome-gate-checks-8v1r1s6k/04-firetime-owner-routed-flags-persist-.txt\n       → scripts/firetime_allowlist.tsv · DATE flag = full logic re-read, never find-replace\n  ⚠️  [advisory] agent freshness (ground-truth vs narrative): rc=1 · unread from-agent packets in PROME/inbox: BOND×3, BRENT×5, CATO×1, CRUISE×6, DAEDALUS×1, GIBBS×1, HENRY×7, HOM\n       full output: /tmp/prome-gate-checks-8v1r1s6k/05-agent-freshness-ground-truth-vs-narrative-.txt\n       → run PROME/tools/agent_freshness.py --agent <NAME> before ANY launch brief; drain first\n  ⚠️  [advisory] R1 corrections check (FORUM-6 ①): rc=2 · CORRECTIONS-CHECK 2 CANNOT-EVALUATE: cannot validate agent 'PROME': FLEET_DIRECTORY.md missing — regenerate it\n       full output: /tmp/prome-gate-checks-8v1r1s6k/06-r1-corrections-check-forum-6-.txt\n       → rc=1 = a NAMED correction is unreceipted: read the pointer, then `scripts/corrections_boot_check.py PROME --receipt <id> --action <APPLIED|NO-OP|DEFERRED|CONTESTED>` and commit PROME/registry/corrections_receipts.tsv\n  ✅ [BLOCKING] GATES fired-unexecuted: none\n  ✅ [BLOCKING] GATES token vocabulary: 21 rows all lead with enumerated tokens\n  ✅ [advisory] GATES consumed_by (consumer passed / cell empty): all LIVE rows have live consumers or declared NONE\n  ✅ [BLOCKING] GATES review_by passed — LIVE INSTRUMENT rows: no live INSTRUMENT row past its review date\n  ✅ [advisory] GATES review_by passed — LIVE JUDGEMENT rows: no live JUDGEMENT row past its review date\n  ✅ [advisory] GATES last_checked blank on LIVE INSTRUMENT rows: every live INSTRUMENT row carries a last_checked\n  ✅ [BLOCKING] GATES gate-citability (WQ-250 ③, L417): 0 hits over 3 files · condition cells: 0 · 3 of 19 LIVE rows' letters read · UNREAD: GATE-BRENT-COT-35B, GATE-BRK-OTIC, GATE-BRK-R2, GATE-FALCON-001, GATE-FERT-G3, GATE-FERT-G5, GATE-HOMER-THESIS-KILL, GATE-HY-REKILL, GATE-LIQ-069, GATE-LIQ-072, GATE-LIQ-076, GATE-LIQ-079, GATE-NEXUS-T12S-DFII10, GATE-NEXUS-WQ459-HY, GATE-OP-SCALE-01, GATE-OSPREY-001, GATE-TERRY-ROLL70-EXIT, GATE-TERRY-VLO-HELD-01\n  ⚠️  [ERROR   ] GATES gate-citability — LIVE row letter NOT READ: GATE-HY-REKILL → AGENTS/LIQUID/workbook/KILL_MEMO_HY_OAS_260.md; GATE-LIQ-069 → AGENTS/LIQUID/workbook/KB.tsv; GATE-LIQ-072 → AGENTS/LIQUID/workbook/KB.tsv; GATE-LIQ-076 → AGENTS/LIQUID/workbook/DEALER_POSITIONING_NEXUS_WATCH.md; GATE-LIQ-079 → AGENTS/LIQUID/workbook/FUNDING_SEIZURE_GATE_SCOPED.md; GATE-FALCON-001 → AGENTS/FALCON/reports/2026-07-21_babelmandeb-SIG-003-adjudication.md; GATE-FALCON-001 → AGENTS/FALCON/reports/2026-08-10_gate-falcon-001-leg2-tankermap-likeforlike-adjudication.md; GATE-FALCON-001 → AGENTS/FALCON/domain/FRESH_LEG_BASELINE.md; GATE-OSPREY-001 → AGENTS/OSPREY/domain/energy-strikes/CPC_HALT_2026-07-21.md; GATE-OP-SCALE-01 → FORUM/2026-08-07_system-review/08_dissent/05_TERRY_capitals-case.md; GATE-BRENT-COT-35B → AGENTS/BRENT/workbook/REGISTRY.tsv; GATE-BRENT-COT-35B → AGENTS/BRENT/setups/2026-08-14_COT-friday-card-incumbent-final-grade-then-35b-register.md; GATE-FERT-G5 → AGENTS/FERT/workbook/TRIGGERS.tsv; GATE-FERT-G3 → AGENTS/FERT/workbook/KB.tsv; GATE-TERRY-ROLL70-EXIT → AGENTS/TERRY/setups/WAL_dec18-70P-duration-roll_2026-09-01.md; GATE-BRK-R2 → AGENTS/BROCK/workbook/PC_REDEMPTION_REGISTER.tsv; GATE-NEXUS-T12S-DFII10 → AGENTS/NEXUS/research/2026-09-24_t12_successor_DFII10_letter.md; GATE-TERRY-VLO-HELD-01 → AGENTS/TERRY/setups/VLO-SHARE_management-proposal_2026-09-28.md; GATE-HOMER-THESIS-KILL → AGENTS/HOMER/thesis/THESIS.md; GATE-BRK-OTIC → AGENTS/BROCK/research/2026-10-09_GATE-BRK-OTIC_draft-letter.md; GATE-NEXUS-WQ459-HY → AGENTS/NEXUS/research/2026-10-19_WQ459_guarded_HY_letter.md (the letter was NOT read; the check established nothing for these rows — re-point definition_surface at the letter FILE)\n       → PROME/GATES.tsv definition_surface cell (repair the path)\n  ✅ [advisory] DOCKET overdue-unannotated: every past-dated PENDING row carries an OVERDUE annotation\n  ✅ [BLOCKING] DOCKET buried state token (row invisible to the canonical reader): every row containing PENDING leads with a state token\n  ✅ [advisory] generated calendar freshness: rc=0 · FRESH generated block · assessed=1 · as_of=2026-10-20 · snapshot identities in full output\n       full output: /tmp/prome-gate-checks-8v1r1s6k/17-generated-calendar-freshness.txt\n  ✅ [advisory] handwritten calendar coverage: rc=0 · EMPTY dated scope · matched=0 · assessed=0 · unassessed=0 · ignored=0 · generated content EXCLUDED\n       full output: /tmp/prome-gate-checks-8v1r1s6k/18-handwritten-calendar-coverage.txt\n  ⚠️  [advisory] WILL_QUEUE fresh + nothing due/passed/aging: reconcile stamp 2026-10-15 is 5d old; PASSED #463 ⚖️ **DBPR PUBLIC-RECORDS PORTAL — ch (needed 2026-10-09); DUE TODAY #462 ⚖️ **QQQ Oct-20 puts EXPIRE TODAY — ; DUE TODAY #455 ⚖️ **FULL FIDELITY IRA ACCOUNT NUMBE; PASSED #448 ⚖️ **MAKE THE PUSH OBEY THE CLOSEOUT (needed 2026-10-17) (+27 more)\n       → PROME/WILL_QUEUE.md (act on DUE TODAY; reconcile PASSED; date/decline AGING)\n  ✅ [advisory] aged waits (WQ-221): ⛔-waits rows whose blocker is dark ≥7d: no ⛔-waits row has a blocker dark ≥7d without a dated deliverable\n  ✅ [advisory] willq_view drift (SCRATCH Pending-Will block vs WILL_QUEUE OPEN): rc=0\n       full output: /tmp/prome-gate-checks-8v1r1s6k/21-willq-view-drift-scratch-pending-will-block-vs-will-queue-open-.txt\n  ✅ [advisory] HEARTBEAT amendment chain (<4): chain at 0 amendment(s)\n  ✅ [advisory] boot-read tables: no over-celled rows: rc=0\n       full output: /tmp/prome-gate-checks-8v1r1s6k/23-boot-read-tables-no-over-celled-rows.txt\n  ✅ [advisory] done rows: parser-independent short-row + rulings-reach-ledger (WQ-417 P1): rc=0\n       full output: /tmp/prome-gate-checks-8v1r1s6k/24-done-rows-parser-independent-short-row-rulings-reach-ledger-wq-417-p1-.txt\n  ✅ [advisory] boot↔closeout symmetry: 9 boot-read surfaces all registered\n  ✅ [BLOCKING] .claude/{agents,skills} root↔PROME parity: 9 agent/skill definition(s) identical\n  ⚠️  [advisory] desk catalyst summons (BD-02): LABOR ledger MISSING (AGENTS/LABOR/docket/CATALYSTS.tsv) · VULCAN ledger MISSING (AGENTS/VULCAN/docket/CATALYSTS.tsv) · VIOLET ledger MISSING (AGENTS/VIOLET/workbook/CATALYSTS.tsv)\n       → WQ-184 L0 applies: a due desk-ledger row with a dark owner is a Tier-1 spawn (ListAgents first) — never grade on the owner's behalf; registry = SUMMONS_LEDGERS above\n  ⚠️  [advisory] spawn list — L0 due-row candidates (WQ-184): rc=1 · as-of 2026-10-20 · horizon +0d · 51 row(s): DARK 8 · ACTIVE 0 · lands-ahead 0 · PROME 41 · WILL 2 · DARK: D:L490 DAEDALUS, D:L568 LIQUID, D:L499 DAEDALUS, D:L526 DAEDALUS, D:L639 NEXUS, D:L667 VIOLET, D:L704 GIBBS, D:L755 WALTER\n       ↳ ⚠️ D:L490\t2026-10-09\t11\tDAEDALUS\tDARK\tno self-commit found in history\tWEEKLY — CANNOT-EVALUATE (no qualifying owner comm… [preview]\n       ↳ ⚠️ D:L568\t2026-10-09\t11\tLIQUID\tDARK\tno self-commit found in history\tWEEKLY — CANNOT-EVALUATE (no qualifying owner commit… [preview]\n       ↳ ⚠️ D:L499\t2026-10-12\t8\tDAEDALUS\tDARK\tno self-commit found in history\tWEEKLY — CANNOT-EVALUATE (no qualifying owner commi… [preview]\n       ↳ 5 additional flag(s); read full log\n       full output: /tmp/prome-gate-checks-8v1r1s6k/28-spawn-list-l0-due-row-candidates-wq-184-.txt\n       → DARK ⇒ ListAgents same minute → Tier-1 spawn (cap 4/boot) or doorbell a live desk; ACTIVE ⇒ read the owner's artifact first (receipt gap); WILL ⇒ queue; PROME ⇒ do it\n  ⚠️  [advisory] spawn slate — prepared stanzas (advisory; RETURN FOUND is a pointer, not a grade): rc=1 ·   spawn candidates: DAEDALUS (slot 1 of 4; D:L490, D:L499, D:L526); LIQUID (slot 2 of 4; D:L568); NEXUS (slot \n       full output: /tmp/prome-gate-checks-8v1r1s6k/29-spawn-slate-prepared-stanzas-advisory-return-found-is-a-pointer-not-a-.txt\n       → read the top block of PROME/state/SPAWN_SLATE.md, then only the stanzas you act on\n  ✅ [advisory] session evidence beside ALL due rows — fleet presence UNKNOWN: rc=0\n       full output: /tmp/prome-gate-checks-8v1r1s6k/30-session-evidence-beside-all-due-rows-fleet-presence-unknown.txt\n  ⚠️  [advisory] declared read budgets: rc=1 · declared PROME perimeter · charter_mode=explicit · assessed=1 · reads=9 · over_budget=0 · over_cap=0 · manifest_defects=2 · advisories=0 · generated_flagged=0 · rotation_due=0 · active_decisions_over_budget=0\n       ↳ ⚠️  READ-CAP 1 [PROME]: 2 manifest defect(s) above. A declared read that does not resolve is a defect of the DECLARATION… [preview]\n       full output: /tmp/prome-gate-checks-8v1r1s6k/31-declared-read-budgets.txt\n       → READ_CAP.md · PROME/registry/READS.tsv · full output names affected reads\n  ⚠️  [advisory] auto-memory byte budget: UNKNOWN: [Errno 2] No such file or directory: '/tmp/gate-fixture-y2r7c2u3/memory/auto/MEMORY.md'\n       → scripts/harness_caps.env · MEMORY flow rule 8/12\n  ------------------------------------------------------------------\n  CAPABILITIES — never gate unrelated work; reported every run until RESTORED\n  ⛔ [UNAVAILABLE] machine credentials (env_doctor): ENV-DOCTOR ✗ MISSING /tmp/gate-fixture-y2r7c2u3/FORGE/tools/market-data/.env — all FRED/EIA pulls fa\n       full output: /tmp/prome-gate-checks-8v1r1s6k/cap-machine-credentials-env-doctor-.txt\n       ↳ withholds: FFIEC call-report pulls · NASA FIRMS hotspot grading (FALCON/OSPREY) · FRED/EIA-dependent levels\n       ↳ unrelated work PROCEEDS — this is not a gate\n       ↳ tracked at WQ-238\n       → PROME/MACHINE_LOCAL.md\n======================================================================\n  ⚠️  INCOMPLETE: 1 check(s) NOT RUN. rc=2 — this run establishes nothing about the unevaluated subjects.\n\n"
+
+======================================================================
+FAIL: test_no_bare_check_call_sites_remain (test_gate_isolation_L294_F7.NoFabricatedDefaults.test_no_bare_check_call_sites_remain)
+Every check must go through guard(), or one of them is still able to
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/daedalus-l628-bxzb9pgo/repo/PROME/tools/tests/test_gate_isolation_L294_F7.py", line 241, in test_no_bare_check_call_sites_remain
+    self.assertEqual(bare, [], f"unguarded call sites: {bare}")
+AssertionError: Lists differ: ['    check_will_queue.last_problems = [] [285 chars]t()'] != []
+
+First list contains 4 additional elements.
+First extra element 0:
+'    check_will_queue.last_problems = []                  # reset at ENTRY so a stale list never survives an early return (parserfix2cold ⚠️)'
+
++ []
+- ['    check_will_queue.last_problems = []                  # reset at ENTRY so '
+-  'a stale list never survives an early return (parserfix2cold ⚠️)',
+-  '    check_will_queue.last_problems = list(problems)   # the FULL list, for '
+-  'queue_parser_selftest (the detail below shows five)',
+-  '    check_orch_closeout()',
+-  '    check_orch_closeout()'] : unguarded call sites: ['    check_will_queue.last_problems = []                  # reset at ENTRY so a stale list never survives an early return (parserfix2cold ⚠️)', '    check_will_queue.last_problems = list(problems)   # the FULL list, for queue_parser_selftest (the detail below shows five)', '    check_orch_closeout()', '    check_orch_closeout()']
+
+======================================================================
+FAIL: test_q1_one_snapshot_so_a_row_appended_between_reads_reaches_neither_output (test_helm_size_split.HelmSnapshotTests.test_q1_one_snapshot_so_a_row_appended_between_reads_reaches_neither_output)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/daedalus-l628-bxzb9pgo/repo/PROME/tools/tests/test_helm_size_split.py", line 137, in test_q1_one_snapshot_so_a_row_appended_between_reads_reaches_neither_output
+    self.assertIsNotNone(dk)
+AssertionError: unexpectedly None
+
+======================================================================
+FAIL: test_LIMIT_hand_row_absorbed_by_a_later_writer_append (test_orch_log_wiring_L733.ObservedCheck.test_LIMIT_hand_row_absorbed_by_a_later_writer_append)
+Independent read 1 (2026-10-15), counterexample CE1 — the check's KNOWN LIMIT, pinned so a change is
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/daedalus-l628-bxzb9pgo/repo/PROME/tools/tests/test_orch_log_wiring_L733.py", line 107, in test_LIMIT_hand_row_absorbed_by_a_later_writer_append
+    self.assertEqual(orch_log.append(ns, str(self.ledger), view_path=str(self.view)), 0)   # today: absorbed
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 2 != 0
+
+======================================================================
+FAIL: test_the_runner_matches_the_manual_order (test_review_mechanism_WQ240b.Repro5_GenerationBeforeFreeze.test_the_runner_matches_the_manual_order)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/daedalus-l628-bxzb9pgo/repo/PROME/tools/tests/test_review_mechanism_WQ240b.py", line 307, in test_the_runner_matches_the_manual_order
+    self.assertIn("--ref HEAD", r)
+AssertionError: '--ref HEAD' not found in '---\nname: closeout\ndescription: PROME session closeout runner — the execution order for `PROME/CLOSEOUT.md` (which stays canonical). Use on "close out", "lets close out", before /clear or a machine switch, or a long pause. Picks the tier, writes each fact once, freezes and audits the finished candidate, gates, then reports which of committed/pushed/published was reached.\nuser-invocable: true\n---\n\n# /closeout — ordered index over `PROME/CLOSEOUT.md`\n\nAn **index in execution order**, nothing more. Every rule, tier, threshold and recipe lives in `PROME/CLOSEOUT.md`; conditional procedures live in `PROME/CLOSEOUT_PROCEDURES.md`. On any conflict the manual wins — fix this index rather than working around it.\n\n0. **Pre-closeout + tier** → CLOSEOUT.md "Pre-closeout" (items 1–4; item 3 applies at ANY tier). Item 3\'s ORCH_LOG rows are written by `python3 scripts/orch_log.py append …` — the only writer (L733), never typed. Take the clock per BOOT.md step 0 before writing any stamp.\n0b. **Publication prerequisites, NOW and not at the render** → CLOSEOUT.md Pre-closeout item 5 / § Delivery. **Helm RETIRED (WQ-461); Decision Deck PAUSED BY WILL (WQ-460)**: no routine dashboard upkeep or hosted reads/listing. Establish prerequisites only for a separately requested active deliverable.\n1. **Write each fact ONCE** → CLOSEOUT.md § Boot↔Closeout symmetry — ONE HOME PER FACT. The targeted-update test applies at **every tier**: *does the boot path already reach it?* Registered ⇒ do not restate. Nothing changed in a column ⇒ a **stated no-op**.\n2. **Steps 1–7 of § The routine, in order** → GATES/DOCKET first + the calendar view (`docket_view.py --write PROME/state/CALENDAR.md`) · WILL_QUEUE + ledger + view · SCRATCH/STATUS/ACTIVE_DECISIONS/HEARTBEAT/HANDOFF · memory · residual triggers · root steps 1b–1e · **then ALL generation for active views specified in steps 1–6. Helm generation/supporting docket and presentation upkeep are RETIRED (WQ-461); Deck generation/explainers remain PAUSED BY WILL (WQ-460).** ⛔ Renders write tracked snapshot files, so generation is the last step that may write any file **inside the reviewed candidate** — **step 7, before the freeze.** (Step 8\'s review receipt and step 12\'s baseline record are tracked too, but `RECEIPT_PATHS` excludes both from every manifest, which is why they may run later.) · **Then the deterministic checks BEFORE the freeze** (CLOSEOUT.md step 7: `table_check.py --quiet` · `done_rows_check.py` · `wq_ledger.py check` · `scripts/orch_log.py check`), regenerate affected active outputs AND re-run the checks after ANY correction pass; retired Helm and paused Deck outputs stay inactive.\n3. 🔴 **FREEZE, then AUDIT** → step 8; concurrent delivery plan and inventory classification → `PROME/tools/ARGUS_CONTRACT.md`:\n   `cd "$(git rev-parse --show-toplevel)" && python3 PROME/tools/argus_scope.py --record-review --contract /tmp/prome-delivery-plan.json`\n   (legacy consumed-move workflow only: consumed a packet this closeout by `git mv` into `PROME/inbox/processed/`? add `--consumed-move <ORIGIN> <DEST>` per pair, at every re-freeze → CLOSEOUT.md step 8; ⛔ NOT VERIFIED — the live condition is DOCKET L488\'s state cell (L473 RESOLVED — FOLDED INTO L488); commit consumed packets separately before the candidate instead)\n   spawn `argus`; apply ❌ only, ⚠️ → residue, RUN-LOG row via `python3 scripts/orch_log.py append` (never typed, L733); then `python3 PROME/tools/argus_scope.py --mark-reviewed "<one line>"`. ⛔ **Freezing writes FROZEN; only the audit earns REVIEWED.** Any ❌ fix ⇒ re-review the changed portion, regenerate affected active outputs only (manual step 7), re-freeze, re-mark.\n4. **FINAL gate WITH THE TIER** → step 9: `cd "$(git rev-parse --show-toplevel)" && python3 PROME/tools/prome_gate.py closeout --tier <bounce|light|standard|heavy> (--no-memory | --slug <name> …) (--no-superseded | --superseded <old> <new> …)`. standard/heavy: missing, unevaluable or merely-FROZEN review is BLOCKING. The gate also runs `orch_log.py check` and the OBSERVED view-count check as BLOCKING at every tier (L733).\n5. **Commit → VERIFY → push** → step 10, in that order: `commit_check.py commit --stage -F <msgfile> -- <exact paths>` (⛔ **no `--push`**), then `python3 PROME/tools/argus_scope.py --verify-review --ref <DELIVERY_SHA> --paths <the same exact paths>`, then `bash scripts/safe-push.sh` **only on rc 0**. Record the immutable delivery SHA after committing; compare outgoing and actual fresh-fetch snapshots under ARGUS_CONTRACT.md. Verifying only after push is not enforcement.\n6. **Publish the verified artifacts** → step 11, only for a separately requested active deliverable. **Helm RETIRED (WQ-461); Deck Owed/Reference PAUSED BY WILL (WQ-460).** No routine dashboard publish, hosted read/listing or receipt write, including at spine audits. Other active delivery retains its verification requirements.\n7. **ARGUS baseline** → step12, AFTER successful verified delivery, using the recorded DELIVERY_SHA.\n8. **Report** → CLOSEOUT.md § Delivery: name **committed · pushed · published** separately; an owed state not reached is **PARTIAL** with its concrete blocker; Deck is reported PAUSED BY WILL (WQ-460), never PUBLISHED, and the pause alone is not PARTIAL; Helm is RETIRED (WQ-461), likewise not PARTIAL or PUBLISHED; **the "Done without asking" list (WQ-348) and any SKIPPED active control (headline PARTIAL) — both in § Delivery\'s summary list**.\n'
+
+----------------------------------------------------------------------
+Ran 956 tests in 123.359s
+
+FAILED (failures=8, errors=2, skipped=3)
+A1 ordinary — runs to completion, one line per due row
+  ✅ A1 rc 0 on a clean run
+  ✅ A1 emits the due row
+A2 producer may gain fields — the reader must not positionally unpack
+  ✅ A2 a 9-field plain tuple does not crash the reader
+  ✅ A2 and still resolves the right owner
+  ✅ A2 producer row is self-describing (named access available)
+A3 a crash must NOT render as the evidence-unavailable verdict
+  ✅ A3 a reader crash returns rc=2 (did not look), not rc=1
+  ✅ A3 and says so in words
+  ✅ A3 disclaims the rc=1 reading BY NAME
+  ✅ A3 ALSO disclaims the rc=2 cannot-certify reading (reader ❌1)
+A4 a real unknown stays unknown — the repair must not manufacture a pass
+  ✅ A4 stale snapshot still returns rc=1
+  ✅ A4 with its reason named
+  ✅ A4 foreign-host snapshot also rc=1
+  ✅ A4 foreign-host reason names the host mismatch
+OVERLAP (cat 2) — two failure states at once; neither may mask the other
+  ✅ overlap: stale snapshot reported
+  ✅ overlap: the extra-field row still rendered, not dropped
+  ✅ overlap: rc reflects the unavailable evidence
+WRONG OWNER (cat 3) — a WILL/? row must not crash or claim desk evidence
+  ✅ wrong owner: WILL row does not crash
+  ✅ wrong owner: excluded from the desk overview
+MISSING INFORMATION (cat 4) — fail loud, never silently drop or claim
+  ✅ missing info: empty due-row set does not crash
+  ✅ missing info: still prints the header and the completion line
+  ✅ missing info: absent 'observed_at' fails LOUD (rc=1 + reason)
+  ✅ missing info: absent 'host' fails LOUD (rc=1 + reason)
+A5 standing guarantees unchanged
+  ✅ A5 spawn_authorized never true
+  ✅ A5 never asserts a desk is absent/offline
+A6 an IMPORT-TIME failure must reach the same DID-NOT-RUN state (reader ❌2)
+  ✅ A6 a missing dependency returns rc=2, not rc=1
+  ✅ A6 and prints the marker
+A7 the GATE must key did-not-run on the MARKER, never on rc==2 (reader ❌1)
+  ✅ A7 the gate defines a did-not-run MARKER
+  ✅ A7 the gate no longer keys the label on rc==2
+  ✅ A7 it keys on the marker instead
+  ✅ A7 marker string agrees with what session_presence prints
+A7b a COMPLETED cannot-certify rc=2 must NOT be labelled did-not-run
+  ✅ A7b the cannot-certify fixture exits 2 without the marker
+  ✅ A7b so the gate's label would NOT fire on it
+
+✅ PRESENCE-READER CONTRACT: all acceptance conditions + 3 neighbour categories PASS
+PASS git rc!=0 => UNKNOWN, never DARK
+PASS   and the basis says liveness was NOT established
+PASS   and it says NOT a spawn candidate
+PASS rc=0 + empty => still DARK (real signal preserved)
+PASS   with the original 'no self-commit' basis
+PASS failure and absence are DISTINGUISHABLE
+PASS rc=0 with a commit before row start => DARK
+PASS rc=0 with a commit on/after row start => ACTIVE
+PASS overlap (no commits AND failure) => UNKNOWN, error dominates
+PASS unparseable owner '?' => UNKNOWN, not DARK
+PASS   and says so
+PASS UNKNOWN => rc 2 (not 0, not DARK's 1)
+PASS UNKNOWN is flagged in the header line
+PASS output warns never to spawn on UNKNOWN
+PASS a real DARK row still returns rc 1
+
+test_spawn_list_fail_closed: PASS 15/15
+  ↳ declared consumed move: PROME/inbox/2026-09-24_from-VIOLET_walkback.md → PROME/inbox/processed/2026-09-24_from-VIOLET_walkback.md (ARGUS confirms at the artifact)
+ARGUS-SCOPE · review candidate frozen: 1 path(s) → PROME/state/argus_review.json
+  ↳ after the audit: `--verify-review` must read UNCHANGED before the commit; any ❌ fix re-freezes it.
+wrote /tmp/tmppddufik5/out.html; change baseline unchanged (1 build error(s) -- ../../tmppddufik5/build.json)
+wrote /tmp/tmpifwc3xjp/view.html; change baseline unchanged (1 build error(s) -- ../../tmpifwc3xjp/build.json)
+ORCH-LOG ✓ appended 1 row (2026-10-15 BROCK touch 1, TOUCH) — ledger validates after the write · view regenerated → ../../tmprv5w6x4o/ORCH_INFLIGHT.md
+ORCH-LOG ✗ rc 2 — append REFUSED: 3 ledger rows vs the view's 2 — 1 row(s) entered without this writer; run `check`, name them, then re-run with --acknowledge-unobserved 1; nothing written
+WQ-LEDGER ✗ rc 1 — 1 problem(s) in /tmp/tmphhlpmxss/L.tsv:
+  L3: duplicate event — WQ-901 UPDATED on 2026-09-11 repeats the immediately preceding event for that row with no change; sync never writes this
+WQ-LEDGER ✓ /tmp/tmpnma6_61o/L.tsv: 4 event row(s) × 14 columns; append-only order holds
+WQ-LEDGER ✓ /tmp/tmpu6kwu6h6/L.tsv: 2 event row(s) × 14 columns; append-only order holds
+WQ-LEDGER ✓ /tmp/tmp6g62a_i6/L.tsv: 2 event row(s) × 14 columns; append-only order holds

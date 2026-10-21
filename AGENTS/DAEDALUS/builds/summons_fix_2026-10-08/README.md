@@ -2,6 +2,10 @@
 
 ⛔ Not built by PROME 9/29 — the session's one process change was the registry line (R1).
 
+## Current re-verification — October20 Codex
+
+Use `target_hashes.json` → `reverified_2026-10-20_codex`, superseding the morning hash block below. Same patch;16/16 targeted tests; full discover956→972 tests with identical8 failures/2 errors/3 skipped. Evidence: `REVERIFICATION_2026-10-20_CODEX.md`. Apply-time hash match and PROME/CATO result read remain required.
+
 ## ★ RE-VERIFIED 2026-10-20 09:2x ET on live HEAD 93a12fc5a — same patch, NEW hashes in `target_hashes.json` → `reverified_2026-10-20` (before `619c7853…`, after `1aa0c7b9…`). `git apply --check` clean; L548 tests 16/16; the four `test_gate_isolation_L294_F7` failures are pre-existing (identical with and without the patch). The step-1 precondition below uses these hashes from today.
 
 ## ★ REBASED 2026-10-14 20:2x ET — use THIS bundle state (PROME prome-8e: old before-hash no longer matched)

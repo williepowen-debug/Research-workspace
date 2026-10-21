@@ -1,0 +1,213 @@
+{
+  "schema": 1,
+  "purpose": "October20 bounded handoff: attempt candidate capture honestly; known C1/C8 global-context limitations remain, no reusable assurance asserted.",
+  "candidates": [
+    {
+      "path": "AGENTS/DAEDALUS/HANDOFF.md",
+      "reason": "October20 authorized build/re-verification and finite completion evidence."
+    },
+    {
+      "path": "AGENTS/DAEDALUS/STATUS.md",
+      "reason": "October20 authorized build/re-verification and finite completion evidence."
+    },
+    {
+      "path": "AGENTS/DAEDALUS/builds/summons_fix_2026-10-08/README.md",
+      "reason": "October20 authorized build/re-verification and finite completion evidence."
+    },
+    {
+      "path": "AGENTS/DAEDALUS/builds/summons_fix_2026-10-08/target_hashes.json",
+      "reason": "October20 authorized build/re-verification and finite completion evidence."
+    },
+    {
+      "path": "AGENTS/DAEDALUS/builds/calendar_coverage_2026-10-20/RESULT.md",
+      "reason": "October20 authorized build/re-verification and finite completion evidence."
+    },
+    {
+      "path": "AGENTS/DAEDALUS/builds/calendar_coverage_2026-10-20/baseline.json",
+      "reason": "October20 authorized build/re-verification and finite completion evidence."
+    },
+    {
+      "path": "AGENTS/DAEDALUS/builds/calendar_coverage_2026-10-20/production.json",
+      "reason": "October20 authorized build/re-verification and finite completion evidence."
+    },
+    {
+      "path": "AGENTS/DAEDALUS/builds/calendar_coverage_2026-10-20/production_check.py",
+      "reason": "October20 authorized build/re-verification and finite completion evidence."
+    },
+    {
+      "path": "AGENTS/DAEDALUS/builds/summons_fix_2026-10-08/2026-10-20_codex_after.txt",
+      "reason": "October20 authorized build/re-verification and finite completion evidence."
+    },
+    {
+      "path": "AGENTS/DAEDALUS/builds/summons_fix_2026-10-08/2026-10-20_codex_before.txt",
+      "reason": "October20 authorized build/re-verification and finite completion evidence."
+    },
+    {
+      "path": "AGENTS/DAEDALUS/builds/summons_fix_2026-10-08/2026-10-20_codex_targeted.txt",
+      "reason": "October20 authorized build/re-verification and finite completion evidence."
+    },
+    {
+      "path": "AGENTS/DAEDALUS/builds/summons_fix_2026-10-08/REVERIFICATION_2026-10-20_CODEX.md",
+      "reason": "October20 authorized build/re-verification and finite completion evidence."
+    },
+    {
+      "path": "AGENTS/DAEDALUS/design/2026-10-20_CALENDAR_COVERAGE_ACCEPTANCE.md",
+      "reason": "October20 authorized build/re-verification and finite completion evidence."
+    },
+    {
+      "path": "AGENTS/DAEDALUS/runs/2026-10-20_CALENDAR_COVERAGE_REVIEW.md",
+      "reason": "October20 authorized build/re-verification and finite completion evidence."
+    },
+    {
+      "path": "AGENTS/DAEDALUS/runs/2026-10-20_CODEX_BOOT_RECOVERY.md",
+      "reason": "October20 authorized build/re-verification and finite completion evidence."
+    },
+    {
+      "path": "AGENTS/DAEDALUS/runs/2026-10-20_INBOX_OWED_REVIEW.md",
+      "reason": "October20 authorized build/re-verification and finite completion evidence."
+    },
+    {
+      "path": "AGENTS/DAEDALUS/scripts/calendar_docket_coverage.py",
+      "reason": "October20 authorized build/re-verification and finite completion evidence."
+    },
+    {
+      "path": "AGENTS/DAEDALUS/scripts/test_calendar_docket_coverage.py",
+      "reason": "October20 authorized build/re-verification and finite completion evidence."
+    },
+    {
+      "path": "PROME/inbox/2026-10-20_from-DAEDALUS_L628-reverified-calendar-coverage-built.md",
+      "reason": "October20 authorized build/re-verification and finite completion evidence."
+    }
+  ],
+  "bookkeeping": [
+    {
+      "path": "AGENTS/DAEDALUS/runs/GATE_LOG.tsv",
+      "reason": "Only the existing runner-owned append log exclusion."
+    }
+  ],
+  "separate": [],
+  "review_required": true,
+  "review_policy": "UPGRADE_PROTOCOL rules4/4a/4b: read-boundary consumers require independent remedy and final content review. Candidate acceptance cannot exist when capture refuses.",
+  "dependencies": {
+    "C0": {
+      "paths": [
+        "AGENTS/DAEDALUS/scripts/sweeps_due.py",
+        "AGENTS/DAEDALUS/scripts/profile_clock_check.py",
+        "AGENTS/DAEDALUS/sweeps/REGISTRY.tsv",
+        "AGENTS/DAEDALUS/FLEET_MAP.tsv",
+        "AGENTS/DAEDALUS/FLEET_DIRECTORY.md",
+        "PROME/ROSTER.md"
+      ],
+      "optional_paths": [],
+      "globs": [],
+      "context": [],
+      "completeness": "Provisional named inputs only; no activation completeness attested. Known unsupported global context prevents capture before checks."
+    },
+    "C1": {
+      "paths": [
+        "scripts/orphan_check.sh"
+      ],
+      "optional_paths": [],
+      "globs": [],
+      "context": [],
+      "completeness": "Provisional named inputs only; no activation completeness attested. Known unsupported global context prevents capture before checks.",
+      "limitations": [
+        "orphan_check executes unscoped global git status; existing exact-path context cannot bind all possible top-level untracked paths."
+      ]
+    },
+    "C2": {
+      "paths": [],
+      "optional_paths": [],
+      "globs": [],
+      "context": [],
+      "completeness": "Provisional named inputs only; no activation completeness attested. Known unsupported global context prevents capture before checks."
+    },
+    "C3": {
+      "paths": [
+        "scripts/ledger_staleness.py",
+        "AGENTS/DAEDALUS/workbook/LEDGER_GLOB",
+        "AGENTS/DAEDALUS/STATUS.md"
+      ],
+      "optional_paths": [],
+      "globs": [],
+      "context": [],
+      "completeness": "Provisional named inputs only; no activation completeness attested. Known unsupported global context prevents capture before checks."
+    },
+    "C4": {
+      "paths": [
+        "scripts/check_memory_length.sh"
+      ],
+      "optional_paths": [],
+      "globs": [],
+      "context": [],
+      "completeness": "Provisional named inputs only; no activation completeness attested. Known unsupported global context prevents capture before checks."
+    },
+    "C5": {
+      "paths": [
+        "scripts/claim_check.py",
+        "PROME/DOCKET.tsv",
+        "PROME/GATES.tsv",
+        "PROME/WILL_QUEUE.md",
+        "AGENTS/DAEDALUS/STATUS.md"
+      ],
+      "optional_paths": [],
+      "globs": [],
+      "context": [],
+      "completeness": "Provisional named inputs only; no activation completeness attested. Known unsupported global context prevents capture before checks."
+    },
+    "C6": {
+      "paths": [
+        "AGENTS/DAEDALUS/PATTERNS_HOT.md",
+        "AGENTS/DAEDALUS/PATTERNS.tsv"
+      ],
+      "optional_paths": [],
+      "globs": [],
+      "context": [],
+      "completeness": "Provisional named inputs only; no activation completeness attested. Known unsupported global context prevents capture before checks."
+    },
+    "C7": {
+      "paths": [
+        "scripts/read_cap_check.py",
+        "PROME/registry/READS.tsv",
+        "CLAUDE.md",
+        "AGENTS/DAEDALUS/CLAUDE.md",
+        "AGENTS/DAEDALUS/OPERATIONS.md"
+      ],
+      "optional_paths": [],
+      "globs": [],
+      "context": [],
+      "completeness": "Provisional named inputs only; no activation completeness attested. Known unsupported global context prevents capture before checks."
+    },
+    "C8": {
+      "paths": [
+        "AGENTS/DAEDALUS/scripts/complete_check.py",
+        "AGENTS/DAEDALUS/EVOLUTION.md"
+      ],
+      "optional_paths": [],
+      "globs": [],
+      "context": [],
+      "completeness": "Provisional named inputs only; no activation completeness attested. Known unsupported global context prevents capture before checks.",
+      "limitations": [
+        "complete_check selects DAEDALUS commits from unscoped global git log, including empty/outside-root commits; named-path history is not equivalent."
+      ]
+    },
+    "C9": {
+      "paths": [
+        "AGENTS/DAEDALUS/STATUS.md"
+      ],
+      "optional_paths": [],
+      "globs": [],
+      "context": [],
+      "completeness": "Provisional named inputs only; no activation completeness attested. Known unsupported global context prevents capture before checks."
+    },
+    "C10": {
+      "paths": [
+        "AGENTS/DAEDALUS/CLAUDE.md"
+      ],
+      "optional_paths": [],
+      "globs": [],
+      "context": [],
+      "completeness": "Provisional named inputs only; no activation completeness attested. Known unsupported global context prevents capture before checks."
+    }
+  }
+}
