@@ -51,7 +51,7 @@ Coordination is file-based. **Write to `PROME/inbox/` (repo root — NOT under `
 
 ## Output Canon (fleet-wide — single home; agent files cite, don't restate)
 
-**Tables > prose. Numbers > narrative** ("$477.3B (+26% YoY)", not "grew significantly"). **Source + date every claim.** **File > verbal** — work not written to a file in your dir doesn't exist. Agent-specific rules (STATUS line caps, domain caveats) stay local.
+**Tables > prose. Numbers > narrative** ("$477.3B (+26% YoY)", not "grew significantly"). **Source + date every claim.** **File > verbal** — work not written to a file in your dir doesn't exist. Agent-specific rules (STATUS line caps, domain caveats) stay local. **Write normal spaced words and numbers** ("BRT-31 week NON-QUALIFYING", "sold 1 at $6.66, net $665.32"); never glue words together to save bytes — byte budgets are met by moving history out, not by compressing what remains.
 
 **Cost-bearing text & state tokens:** packet ACTION/ASK lines, script output messages, and gate/threshold/kill specs follow `AGENTS/DAEDALUS/BLUEPRINTS/STRICT_TEXT.md`. Machine-read state tokens come from `AGENTS/DAEDALUS/BLUEPRINTS/STATE_VOCABULARY.md` — new surfaces use canonical tokens; legacy is grandfathered. Prose, thesis docs and Will-facing synthesis are exempt.
 
