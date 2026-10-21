@@ -292,12 +292,18 @@ def _tracker_overdue(row_id, today=None, queue_path=None):
 DID_NOT_RUN = "CHECK DID NOT RUN"   # the marker a check prints when it could not run at all
 
 
-def run_script(severity, name, cmd, owner, ok_rc=(0,), summarize=None):
-    """Keep complete evidence on disk; summarize without silently dropping flags."""
+def _check_log_path(name):
+    """The run-dir log path for one check's complete output — ONE naming scheme for
+    run_script and for in-process checks that keep a full list on disk (L548)."""
     global LOG_DIR
     if LOG_DIR is None:
         LOG_DIR = Path(tempfile.mkdtemp(prefix="prome-gate-checks-"))
-    log = LOG_DIR / f"{len(results):02d}-{re.sub(r'[^a-z0-9]+', '-', name.lower())[:70]}.txt"
+    return LOG_DIR / f"{len(results):02d}-{re.sub(r'[^a-z0-9]+', '-', name.lower())[:70]}.txt"
+
+
+def run_script(severity, name, cmd, owner, ok_rc=(0,), summarize=None):
+    """Keep complete evidence on disk; summarize without silently dropping flags."""
+    log = _check_log_path(name)
     try:
         with log.open("x", encoding="utf-8") as output:
             p = subprocess.run(cmd, cwd=ROOT, stdout=output, stderr=subprocess.STDOUT, timeout=120)
@@ -1233,13 +1239,19 @@ def check_symmetry():
            "PROME/CLOSEOUT.md symmetry table (add paired-write row or declare one-way)")
 
 
-def check_desk_catalyst_summons():
+def check_desk_catalyst_summons(today=None):
     """BD-02 summons half (LABOR ask 2026-08-20). For each registered desk
     catalyst ledger: flag rows dated within SUMMONS_WINDOW_DAYS or past-due.
-    Advisory — the disposition is 'flag Will to spawn the desk', nothing else."""
-    today = dt.date.today()
+    Advisory — the disposition is 'flag Will to spawn the desk', nothing else.
+    L548 (2026-10-08, rebased 2026-10-14 onto the 10/10 VIOLET/EMPTY-FORWARD
+    change): the forward window (TODAY · in Nd) is listed FIRST and in FULL;
+    past-due rows are one bit per desk ('N past-due (oldest D) — owner
+    prunes'); the complete untruncated list goes to the run's check log. Before
+    this, flags sorted date-ascending and printed [:4], so past-due rows hid
+    every in-window row the check exists to show."""
+    today = today or dt.date.today()
     horizon = today + dt.timedelta(days=SUMMONS_WINDOW_DAYS)
-    flags, dead_ledgers = [], []
+    window, past, dead_ledgers, undated = [], {}, [], {}
     empty_horizon = today + dt.timedelta(days=EMPTY_FORWARD_DAYS)
     for desk, rel in SUMMONS_LEDGERS.items():
         path = ROOT / rel
@@ -1252,6 +1264,7 @@ def check_desk_catalyst_summons():
                 for row in csv.DictReader(f, delimiter="\t"):
                     m = re.match(r"(\d{4}-\d{2}-\d{2})", (row.get("date") or "").strip())
                     if not m:
+                        undated[desk] = undated.get(desk, 0) + 1
                         continue
                     d = dt.date.fromisoformat(m.group(1))
                     if today <= d <= empty_horizon:
@@ -1262,17 +1275,32 @@ def check_desk_catalyst_summons():
                     ev = (row.get("event") or "?").strip()[:45]
                     when = (f"PAST-DUE {(today - d).days}d — ungraded?" if d < today
                             else ("TODAY" if d == today else f"in {(d - today).days}d"))
-                    flags.append((d, f"{desk} {d} [{pri}] {ev} ({when})"))
+                    line = f"{desk} {d} [{pri}] {ev} ({when})"
+                    (past.setdefault(desk, []) if d < today else window).append((d, line))
             if forward_rows == 0:
                 dead_ledgers.append(f"{desk} ledger EMPTY-FORWARD (no row within {EMPTY_FORWARD_DAYS}d) — nothing to summon on; "
                                     f"the owner's calendar needs rows or the desk goes unwoken")
         except Exception as e:
             dead_ledgers.append(f"{desk} unreadable: {type(e).__name__}")
-    flags.sort()
-    detail_bits = dead_ledgers + [s for _, s in flags]
-    record(ADVISE, "desk catalyst summons (BD-02)", not detail_bits,
-           " · ".join(detail_bits[:4]) + (f" (+{len(detail_bits)-4} more)" if len(detail_bits) > 4 else "")
-           if detail_bits else f"{len(SUMMONS_LEDGERS)} desk ledger(s) quiet inside {SUMMONS_WINDOW_DAYS}d",
+    window.sort()
+    past_bits = [f"{desk} {len(rows)} past-due (oldest {min(rows)[0]}) — owner prunes"
+                 for desk, rows in sorted(past.items(), key=lambda kv: (min(kv[1])[0], kv[0]))]
+    detail_bits = [s for _, s in window] + dead_ledgers + past_bits
+    if detail_bits:
+        detail = " · ".join(detail_bits)
+        full = ([s for _, s in window] + dead_ledgers
+                + [s for desk in past for _, s in sorted(past[desk])]
+                + [f"{desk} {n} row(s) with no parseable date — skipped" for desk, n in undated.items()])
+        try:
+            log = _check_log_path("desk catalyst summons (BD-02)")
+            with log.open("x", encoding="utf-8") as out:
+                out.write("\n".join(full) + "\n")
+            detail += f"\n       full output: {log}"
+        except OSError as e:
+            detail += f"\n       full output: UNAVAILABLE ({type(e).__name__}: {str(e)[:80]})"
+    else:
+        detail = f"{len(SUMMONS_LEDGERS)} desk ledger(s) quiet inside {SUMMONS_WINDOW_DAYS}d"
+    record(ADVISE, "desk catalyst summons (BD-02)", not detail_bits, detail,
            "WQ-184 L0 applies: a due desk-ledger row with a dark owner is a Tier-1 spawn (ListAgents first) — "
            "never grade on the owner's behalf; registry = SUMMONS_LEDGERS above")
 
