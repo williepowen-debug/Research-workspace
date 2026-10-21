@@ -40,6 +40,7 @@ CATALYSTS = [
     ("2026-10-06", False, "🟡", "Bluerock BPRE roadmap webinar — IQHQ mark/exit talk (context, not a grade)"),
     ("2026-10-21", False, "🔴", "Q3 2026 earnings (Tue 10/20 after close) + call Wed 10/21 8:30 ET [OZK release 9/30] — mgmt's self-set \"~92 day\" RaDD report-back"),
     ("2026-10-20", False, "🟡", "NEA/USRE2021-1 original expected repayment (ARD); legal final 2061; amendments/payoff UNKNOWN, trustee sign-in; not automatic Affinius corporate default (C5 read 10/12)"),
+    ("2026-10-31", False, "🔴", "L520 CHECK-BY — Q3 Stage-2 call read (Stage-1 written graded 10/21, FLNG 12022)"),
     ("2026-11-05", False, "🟠", "FFIEC JWT EXPIRES — renewal is a Will action (PWS login); blocks the Q3 pull"),
     ("2026-11-07", True,  "🟠", "Q3 2026 Call Report (REPDTE 20260930) — LOG-ONLY, Z6 never re-grades"),
     ("2027-01-19", True,  "🔴", "Q4'26 print — resolves OZK-02/03/04; closes OZK-09 Option-2 window (Q4 prints Jan 16-20, 2023-26)"),
@@ -56,12 +57,12 @@ CATALYSTS = [
 #    figures for 5 weeks after Q2 graded (found 2026-08-28 sweep). CATALYSTS filters past rows; this
 #    list had no date at all, so it could not.
 STANDING_WATCH = [
-    ("NCO ≤55bps kill-line (Invalidation §2) — Q2'26 printed 0.69%, ABOVE the kill line (OZK-05 TRUE)",
-     "Q2 2026", "2026-10-21"),
-    ("Past-due >$550M or >2.0% — Q2'26 $298M/0.92% (OZK-06 FALSE, improved from $465M/1.41%)",
-     "Q2 2026", "2026-10-21"),
-    ("IQHQ specific reserve — none at Q2 (OZK-08 FALSE); mgmt self-set “~92d” report-back → Q3 call",
-     "Q2 2026", "2026-10-21"),
+    ("NCO ≤55bps kill-line (Invalidation §2) — Q3'26 printed 0.53% (under the line; Q2 0.69%), §2 needs sustained sub-50bps Q2–Q3 → NOT fired [FLNG 12022, graded 10/21]",
+     "Q3 2026", "2027-01-19"),
+    ("Past-due >$550M or >2.0% — Q3'26 $88M/0.26% (Q2 $298M/0.92%) [FLNG 12022 MC Fig 22]",
+     "Q3 2026", "2027-01-19"),
+    ("IQHQ specific reserve — none named in Q3 written materials (pass-rated by elimination 9/30); Stage-2 call read + Q3 10-Q pending → OZK-09 OPEN/STUCK",
+     "Q3 2026", "2026-10-31"),
 ]
 
 # OZK price bands (STATUS Signal Dashboard).
