@@ -92,12 +92,12 @@ Other gaps, including HANS T12's missing feed and owner-method decisions, remain
 
 ## CLOSEOUT RECEIPT
 
-October21 startup checkpoint 2026-10-21T13:13:24Z: boot PARTIAL, inbox6/6integrated, intake7/22dispositioned, six signals/25handoffs. Commit673931517 is local at this receipt; fresh-origin reconciliation and later source/filing/checkpoint commits retain their own evidence. Foreign dirty work prevents WALTER pull/push. No recipient consumption inferred. Current owned evidence boot receipt and THRESHOLDS.md; no READS/basis hashes renewed. Older complete receipt preserved verbatim in prior-LAST_COMPLETION.md.
+October21 startup checkpoint 2026-10-21T13:13:24Z: boot PARTIAL, inbox6/6integrated, intake7/22dispositioned, six signals/25handoffs. Fresh-origin delivery reconciliation proves 13/25 handoffs published; recipient consumption remains separate. Exact source publication states are recorded below. Foreign dirty work prevents WALTER pull/push. No recipient consumption inferred. Current owned evidence boot receipt and THRESHOLDS.md; no READS/basis hashes renewed. Older complete receipt preserved verbatim in prior-LAST_COMPLETION.md.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-21T13:17:53Z",
+  "as_of": "2026-10-21T13:18:27Z",
   "next_review": "2026-10-21",
   "publication": [
     {
@@ -112,8 +112,8 @@ October21 startup checkpoint 2026-10-21T13:13:24Z: boot PARTIAL, inbox6/6integra
   "delivery": {
     "signal_date": "20261021",
     "total": 25,
-    "delivered": 0,
-    "note": "Written; publication and recipient consumption unverified until fresh-origin reconciliation"
+    "delivered": 13,
+    "note": "Fresh-origin reconciliation after another session published; publication does not establish consumption. WALTER did not push."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
@@ -150,7 +150,7 @@ October21 startup checkpoint 2026-10-21T13:13:24Z: boot PARTIAL, inbox6/6integra
     "9b": "Fleet visibility UNKNOWN; in-flight is not liveness; current whole reread incomplete",
     "14": "ExistingMEMORY triggers read; no new lesson/auto-memory or removal",
     "root.retirement": "No owned source retired during this startup; no deletion; pending-event evidence retained",
-    "16": "Source/inbox673931517 and intake/continuity5265c3219 committed exactly; no push; foreign dirty work preserved. Final receipt-only commit separate."
+    "16": "673931517 and5265c3219 exact-path source commits; fresh-origin states above. Another session published part/all; WALTER did not push. Foreign dirty work preserved."
   }
 }
 END_CLOSEOUT_RECEIPT -->

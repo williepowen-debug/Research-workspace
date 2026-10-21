@@ -1,0 +1,18 @@
+delivery_log rows: 4953
+  pending -> delivered (in origin/master tree, or in origin/master HISTORY): 13
+  REAL ORPHANS (origin/master has NEVER seen the path, left untouched): 12
+    row 4943: AGENTS/BRENT/inbox/WALTER/SIG-W-20261021-004.md
+    row 4944: AGENTS/OSPREY/inbox/WALTER/SIG-W-20261021-004.md
+    row 4945: AGENTS/HAWK/inbox/WALTER/SIG-W-20261021-004.md
+    row 4946: AGENTS/HENRY/inbox/WALTER/SIG-W-20261021-004.md
+    row 4947: AGENTS/VULCAN/inbox/WALTER/SIG-W-20261021-005.md
+    row 4948: AGENTS/HENRY/inbox/WALTER/SIG-W-20261021-005.md
+    row 4949: AGENTS/VIOLET/inbox/WALTER/SIG-W-20261021-005.md
+    row 4950: AGENTS/WATT/inbox/WALTER/SIG-W-20261021-005.md
+    row 4951: AGENTS/HANS/inbox/WALTER/SIG-W-20261021-006.md
+    row 4952: AGENTS/BRENT/inbox/WALTER/SIG-W-20261021-006.md
+    row 4953: AGENTS/HENRY/inbox/WALTER/SIG-W-20261021-006.md
+    row 4954: AGENTS/LIQUID/inbox/WALTER/SIG-W-20261021-006.md
+
+WROTE 13 rows -> delivered. Field count uniform at 9.
+⚠️  12 real orphan(s) LEFT AS-IS — investigate, do not sweep.
