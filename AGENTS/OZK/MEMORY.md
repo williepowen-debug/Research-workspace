@@ -67,6 +67,7 @@
 - Q3 bundle FDIC FLNG 12022 saved `raw/Q3_2026_8K_bundle.pdf` (sha256 81ba170d…). **Stage-1 graded** against the pre-print card and the 9/27 thread's "next observations": RaDD report-back = against-stress branch; Boston = toward-stress branch ($37.3M c/o, title, OREO $132.0M); OREO sales = "no OREO sale priced in Q3"; SM = mixed; kill-§2 not fired (Q3 0.53%, Q2 0.69%). OZK-09 OPEN/STUCK. → `research/threads/2026-10-21_Q3_PRINT_STAGE1_GRADE.md`; card RESULTS appended.
 - Conviction token stamped Q2-vintage/not re-graded (RED S54 ask); no prediction, weight, threshold or THESIS change. Sub-notes 6.14% (issuer) supersedes ≈6.19%.
 - Inbox drained: 6 peer packets + 9 WALTER signals → processed, board_log rows. Quartr MCP needed re-auth (unavailable); session dropped once at 09:00 ET and resumed.
+- Self-sweep (report-only) → `reports/2026-10-21_self-sweep.md` (36 items). Will-approved fixes done: boot.py watch items → Q3 (3599129f5); STATUS rotated to `archive/STATUS_HISTORY_2026-10-21.md` (63% of read-cap budget); REGINALD 6.14% packet (a979a524a). Remaining sweep items await Will's direction.
 
 ### NEXT SESSION — existing obligations
 1. **L520 Stage-2 by Sat 10/31:** read the 10/21 call transcript — SM credit flow, RaDD reserve/readvance/rating words, Boston OREO plan, Sullivan; append to the Q3 card. Then re-grade the conviction token (with THESIS/CHANGELOG if it moves).
