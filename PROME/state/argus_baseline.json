@@ -1,9 +1,9 @@
 {
   "_doc": "L336 condition A1 \u2014 the RECORDED audit baseline. Written by PROME at each closeout commit; read by argus_scope.py. No regex decides what a closeout is, so a commit whose SUBJECT is about closeout can never become the baseline (BLOCKER F-1: 00afa8b99 did exactly that and silently truncated the audit by 11 commits / 29 paths).",
   "_written_by": "PROME/tools/argus_scope.py --record-baseline <sha>",
-  "sha": "ba5525433053d4c696b11f6384f05518d066de8e",
-  "subject": "PROME: Standard closeout 10/20 evening b94e8a3e (finished 10/21 08:1x)",
-  "recorded_at": "2026-10-21T08:12:42-04:00",
+  "sha": "e186c27abceebce43fa2ff8d3fbf76e9ecfb5e5b",
+  "subject": "PROME: Standard closeout 10/21 af287aee \u2014 ARGUS-reviewed; five desks closed",
+  "recorded_at": "2026-10-21T13:08:46-04:00",
   "recorded_by": "PROME",
   "delivery_receipt": {
     "delivery_sha": "66903b1cf860794a89cffefcb74b31e8491daed4",

@@ -85,8 +85,9 @@ class ActionOwed(unittest.TestCase):
 
     def test_AO6_exactly_the_three_named_checks_use_action(self):
         sites = re.findall(r'(?:record|run_script)\((?:ACTION|_owed_sev\(\)),\s*(?:f?)"([^"]+)"', SRC)
-        self.assertEqual(sorted(sites), sorted([
+        self.assertEqual(sorted(set(sites)), sorted([
             "WILL_QUEUE present",
+            "PROME/inbox drained (every unfiled file, BOOT step 6)",   # 2026-10-21 inbox drain
             "WILL_QUEUE fresh + nothing due/passed/aging",
             "exempt-desk BOARD gap (§3.5 pull-complete desks vs their ledgers)",
             "firetime (owner-routed flags persist)"]))
@@ -108,6 +109,35 @@ class ActionOwed(unittest.TestCase):
     def test_W1_blocked_footer_still_counts_owed(self):
         rc, out = run([BAD_B, ACT_FLAG])
         self.assertIn("1 ACTION OWED line(s) also need a disposition", out)
+
+class InboxDrain(unittest.TestCase):
+    """2026-10-21 inbox drain; independent read ❌1: count EVERY unfiled file, whatever its name."""
+
+    def _run(self, files):
+        with tempfile.TemporaryDirectory() as td, mock.patch.object(g, "ROOT", pathlib.Path(td)):
+            base = pathlib.Path(td) / "PROME/inbox"
+            (base / "processed").mkdir(parents=True)
+            for f in files:
+                (base / f).parent.mkdir(parents=True, exist_ok=True)
+                (base / f).write_text("x")
+            g.results.clear(); g.GATE_MODE = "boot"
+            g.check_prome_inbox()
+            return g.results[-1]
+
+    def test_every_name_shape_counts(self):
+        odd = ["2026-10-21_from-REGINALD-REG27.md", "MSG-PROME-001.md", "ANVIL-reconcile-report.md",
+               "2026-10-21_from-PROME_self.md", "WALTER-to-PROME_x.md", "archive/misfiled.md",
+               "2026-10-21_from-WALTERX_y.md", "SIG-W-20261021-001.md", "notes.txt"]
+        sev, name, ok, detail, _ = self._run(odd)
+        self.assertEqual(sev, g.ACTION)
+        self.assertFalse(ok)
+        self.assertIn("9 unfiled file(s)", detail)
+
+    def test_processed_and_dotfiles_do_not_count(self):
+        sev, name, ok, detail, _ = self._run(["processed/2026-10-19_from-WAL_a.md", ".gitkeep", "processed/.gitkeep"])
+        self.assertTrue(ok)
+        self.assertIn("empty", detail)
+
 
 if __name__ == "__main__":
     unittest.main()

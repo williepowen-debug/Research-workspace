@@ -826,6 +826,24 @@ def check_docket_today():
            "closeout is the routing-gap class: say who covers it or do it now.")
 
 
+def check_prome_inbox():
+    """ACTION (boot/refresh): every file under PROME/inbox/ that is not under processed/ (any name, any
+    sender, any subdirectory; dotfiles such as .gitkeep excluded) is an undrained packet. BOOT.md step 6."""
+    base = ROOT / "PROME/inbox"
+    if not base.is_dir():
+        record(_owed_sev(), "PROME/inbox drained (every unfiled file, BOOT step 6)", False,
+               "PROME/inbox missing — cannot establish", "PROME/inbox")
+        return
+    left = sorted(str(p.relative_to(base)) for p in base.rglob("*")
+                  if p.is_file() and not p.name.startswith(".")
+                  and p.relative_to(base).parts[0] != "processed")
+    detail = (f"{len(left)} unfiled file(s)" + "".join(f"\n       ↳ {f[:110]}" for f in left[:5])
+              + (f"\n       ↳ {len(left) - 5} more" if len(left) > 5 else "")) if left else "empty (every packet filed to processed/)"
+    record(_owed_sev(), "PROME/inbox drained (every unfiled file, BOOT step 6)", not left, detail,
+           "BOOT.md step 6: each packet consumed, routed or registered, and FILED to PROME/inbox/processed/ "
+           "(rows point at the processed path) — before any desk launch and before the report")
+
+
 def check_will_queue():
     """WILL_QUEUE.md — passed needed-by dates on OPEN rows + stale reconcile stamp.
     Born 2026-07-30 (Will-directed): the operator queue decays like any surface,
@@ -1878,9 +1896,15 @@ def mode_boot(advance_board=True):
     # 8/14 Will-directed: agent staleness reads come from ground truth, not narrative.
     # rc=1 = unread from-agent packets sit in PROME/inbox — PROME's model of those
     # agents is stale regardless of what SCRATCH's spawn-queue prose says.
+    # Per-agent staleness only (it keys on `from-<AGENT>` names, so it cannot measure the whole inbox —
+    # independent read 2026-10-21 ❌1). The inbox drain itself is the ACTION check `check_prome_inbox` below.
     run_script(ADVISE, "agent freshness (ground-truth vs narrative)", [sys.executable,
                "PROME/tools/agent_freshness.py", "--gate"],
-               "run PROME/tools/agent_freshness.py --agent <NAME> before ANY launch brief; drain first")
+               "run PROME/tools/agent_freshness.py --agent <NAME> before ANY launch brief; the drain is the "
+               "'PROME/inbox drained' line")
+    # 2026-10-21 (Will "we need to fix this"): the inbox went undrained 10/19–10/21 (127 packets) with no
+    # step naming the drain; acceptance PROME/tools/tests/ACCEPTANCE_inbox_drain_2026-10-21.md.
+    guard(check_prome_inbox)
     # R1 corrections check (FORUM-6 ruling ①, Will-approved 2026-08-17; wired for PROME 2026-08-28 at the
     # DAEDALUS R1 batch — BOOT.md rule: new fleet-wide checks land in THIS script, prose points here).
     # rc=1 = a NAMED correction is unreceipted → read the pointer, receipt it, commit registry/corrections_receipts.tsv.
