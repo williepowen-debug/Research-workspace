@@ -2,6 +2,10 @@
 
 Read only entries relevant to Will's current assignment. This is historical evidence and retained authority, not an automatic task queue. Moved from CONTINUITY.md on October 1, 2026; pre-move record at `c8a8fb86a969688c4b8e9ee25b130770d40be0c2`. Current resume point: [CONTINUITY.md](CONTINUITY.md). Dates and owner states below are last-checked observations, not fresh verification. Moving a record neither closes a finding nor revokes its approval.
 
+## October 20 REGINALD cleanup discussion
+
+Will relayed PROME's acceptance at 55cfb3982: charter preservation/size checks and boot-read registration reported complete. CATO advised accepting the cleanup and returning to research, without independently inspecting the implementation. Remaining owner actions at that receipt: REGINALD restores the reports/*_grading_frame.md pointer; WALTER splits the oversized selected signal into a short active document and linked archive, preserving the appropriate read instruction. Text preservation is not proof of instruction reachability; prior size violation does not prove actual runtime truncation. CATO supports readable spacing in new/edited prose, not a fleet cleanup/checker; this is advice, not Will's approval of a root rule. DOCKET guard remains a separate proposal, not approved by this discussion. No CATO assignment or automatic follow-up; later owner work unassessed.
+
 ## October 20 moment-tagged lessons discussion
 
 [Assessment](runs/2026-10-20_moment-lessons-review.md) at6fdb5b933: park the broad proposal; retain contextual cues as a possible small future experiment. Manual lookup and an optional new publication command both leave skipped invocation unresolved; existing publication checks already supply evidence. Top3 conflicts with4 H lessons in two moments; one claimed catch alone does not justify permanent wiring. No build, send, owner edit or trial authorized. Literature claims not independently validated; no automatic follow-up.
