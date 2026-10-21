@@ -33,6 +33,7 @@ inside it — nothing is hidden by the default). One writer, one lock ⇒ the vi
 scorecard consumer half de-duplicates on (date, desk, touch) and REPORTS — never a silent loss, never a silent double count.
 """
 import argparse, datetime, fcntl, os, re, subprocess, sys, tempfile, zlib
+import orch_time
 
 ROOT = subprocess.run(["git", "rev-parse", "--show-toplevel"], capture_output=True, text=True).stdout.strip() or "."
 LEDGER = os.path.join(ROOT, "PROME", "state", "ORCH_LOG.tsv")
@@ -189,6 +190,11 @@ def append(args, path=LEDGER, view_path=VIEW, window_days=DEFAULT_WINDOW_DAYS, _
             rc, rows = check(path, quiet=True)
             if rc:
                 print("ORCH-LOG ✗ rc 2 — refusing to append to a ledger that does not validate (run `check`)"); return 2
+            if orch_time.MARKER in fields[8]:
+                try:
+                    orch_time.validate_correction(fields, rows, datetime.datetime.now(datetime.timezone.utc))
+                except (ValueError, TypeError, KeyError) as exc:
+                    print(f"ORCH-LOG ✗ rc 2 — invalid time correction: {exc}; nothing written"); return 2
             # L733 CE1: rows entered WITHOUT this writer are named here, never absorbed by the regenerated view.
             state, val = _view_count(view_path, path)
             if state == "missing":
@@ -375,6 +381,9 @@ def rotate(through, path=LEDGER, archive_dir=ARCHIVE_DIR, today=None, view_path=
                 (move if f[0][:7] <= through else keep).append(ln)
             if not move:
                 print(f"ORCH-LOG ✗ rc 2 — rotate REFUSED: no rows dated <= {through}; nothing written"); return 2
+            time_problem = orch_time.rotation_problem(rows_before, [ln.split("\t") for ln in move])
+            if time_problem:
+                print(f"ORCH-LOG ✗ rc 2 — rotate REFUSED: {time_problem}; nothing written"); return 2
             stuck = [ln.split("\t") for ln in move if _is_inflight(ln.split("\t"))]
             if stuck:
                 print(f"ORCH-LOG ✗ rc 2 — rotate REFUSED: {len(stuck)} candidate row(s) still IN-FLIGHT — " +

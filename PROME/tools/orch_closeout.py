@@ -16,6 +16,9 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[2]
+import sys
+sys.path.insert(0, str(ROOT / "scripts"))
+import orch_time
 HEADER = ['date', 'desk', 'tier', 'touch', 'trigger', 'drained', 'delivered',
           'zero_capital', 'notes', 'brief_defects', 'inbox_before', 'inbox_after',
           'brief_defect_count']
@@ -52,7 +55,7 @@ def read_touches(path, day):
             raise ValueError(f'line {line_no}: invalid touch date') from exc
         if fields[3] != 'CLOSE' and not re.fullmatch(r'[1-9][0-9]*(?:[A-Za-z][A-Za-z0-9_-]*|-[A-Za-z0-9_-]+)?', fields[3]):
             raise ValueError(f'line {line_no}: invalid TOUCH/CLOSE token {fields[3]!r}')
-        if row_day > day or fields[3] == 'CLOSE':
+        if row_day > day or (fields[3] == 'CLOSE' and orch_time.MARKER not in fields[8]):
             continue
         key = touch_key(fields)
         if key in seen:
@@ -126,11 +129,15 @@ def reconcile(touches, now):
     """
     originals, issues = {}, []
     for key, row in touches:
-        state, detail = disposition(row, now)
-        try:
-            data = structured(row)
-        except (ValueError, TypeError):
-            data = {}
+        if orch_time.MARKER in row[8]:
+            # Invalidation events never act as lifecycle evidence, even if malformed.
+            state, detail, data = 'UNKNOWN', 'time correction pending validation', {}
+        else:
+            state, detail = disposition(row, now)
+            try:
+                data = structured(row)
+            except (ValueError, TypeError):
+                data = {}
         targets = data.get('resolves')
         result = {'key': key, 'date': row[0], 'desk': row[1], 'touch': row[3],
                   'state': state, 'detail': detail, 'session_id': data.get('session_id'),
@@ -168,7 +175,7 @@ def reconcile(touches, now):
             issues.append(f'resolution {key}: {exc}; UNKNOWN')
             result.update(state='UNKNOWN', detail=str(exc))
             originals[key] = (row, data, result)
-    return [item[2] for item in originals.values()], issues
+    return orch_time.apply_invalidations(touches, [item[2] for item in originals.values()], issues, now)
 
 
 def evaluate(path, day, expected=(), inventory_complete=False, now=None, session_inventory=None):
