@@ -1,10 +1,11 @@
 # BROCK catch-ups — INDEX
 
-**CURRENT:** `catchups/2026-10-16.md` (PROME due-row wake: L653 CABO backstop — no filing, 10/9 TRO reported in press · BRK-31 MTB/CFG no fire · CRMT 10/15 window empty · drain 7/7).
+**CURRENT:** `catchups/2026-10-21.md` (PROME due-row wake: D:L652 CRMT backstop #4 SILENT through 08:56 ET, PROVISIONAL, final at the L740 read · CRMT −26% 10/20 no filing · CABO Graham 13D/A 10/19 · drain 23/23).
 
 **Rule (since the 2026-10-02 split):** ONE FILE PER DAY — a later session the same day appends its own `## <time> session` section to that day's file. Each session's narrative — stamps, superseded BOTTOM LINEs, closed calendar rows, pre-grade records — goes to `catchups/YYYY-MM-DD.md`, never into STATUS. Mark the new file CURRENT here and move the previous line to *Superseded*. STATUS keeps only current state.
 
 ## Superseded catch-ups
+- `catchups/2026-10-16.md` (PROME due-row wake: L653 CABO backstop — no filing, 10/9 TRO reported in press · BRK-31 MTB/CFG no fire · CRMT 10/15 window empty · drain 7/7).
 - `catchups/2026-10-15.md` (PROME due-row wake: L651 GRADED, a seventh CRMT bridge → 10/22 · L586 CLOSED SILENT · CABO 13D/A · L0 drain 21/21 · GATE-BRK-OTIC acknowledged).
 - `catchups/2026-10-14.md` (Will own-window wave: three Q3 bank reads, FSK contract/commitment bridge, October15 CRMT prepared, intake25; Will desk audit with15finding groups; bounded corrections/two evidence checks; CATO scoring/publication refinement and boundedCCLFX followup; Will-requested final closeout).
 - `catchups/2026-10-09.md` (CRMT sixth bridge, Kellermeyer marks, frozen bank frame).

@@ -249,3 +249,20 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-16T17:40:12Z	SIG-W-20261016-014	info-only	INBOX_WALTER	CoreWeave founder sales $3.3B since IPO (Bloomberg relay); not timing proof; separate from corporate cash/debt. No action.
 2026-10-16T17:40:12Z	SIG-W-20261016-017	noted	INBOX_WALTER	Volta sold at benchmark+650/95c (Bloomberg via Yahoo, unnamed sources); yield '>11%'; exact YTM UNKNOWN. VULCAN/LIQUID letters theirs. Watch on final allocation to an insurer/Athene carried; no score.
 2026-10-16T17:40:12Z	SIG-W-20261016-019	info-only	INBOX_WALTER	Trepp Sept special servicing 11.49% (+7bp); office 16.85% (below >18 bar); multifamily 8.54% (+17bp). CREED/HOMER own. No BROCK vector.
+2026-10-21T12:58:26Z	SIG-W-20261016-030	acted	INBOX_WALTER	CABO SDNY TRO (CoBank). Read owned: CABO feed 10/21 shows new Graham 13D/A 10/19, no TRO/close/financing 8-K (KB-BRK-353). Weekly read 10/23 stands. WATCH_FOR terms 'Cable One'/'CoBank' = PROME config, requested in PROME packet.
+2026-10-21T12:58:26Z	SIG-W-20261016-031	acted	INBOX_WALTER	Blue Owl 'falling' = Q1->Q2 per relays ($5.4B->$4.7B; OCIC 18.8%), no Q3 figure below Q2; R2 state unchanged (KB-BRK-354). Moody's dispersion (3/31 basis, ~$10.4B short runway+<95% marks): noted, amend-extend before default is consistent with PIK thesis; no grade.
+2026-10-21T12:58:26Z	SIG-W-20261016-036	noted	INBOX_WALTER	Two Sigma RE unit halts fundraising/new investments (Bloomberg headline+takeaways). Alt-manager retreat; lending role unknown. No vector.
+2026-10-21T12:58:26Z	SIG-W-20261019-003	noted	INBOX_WALTER	HY 331 [10/16] completes >320 x3 (LIQUID rung MET; RED/REGINALD own consequences). STATUS HY row updated to cite; X1 CLOSED. My CCC/BB watch not refreshed this session.
+2026-10-21T12:58:26Z	SIG-W-20261019-006	info-only	INBOX_WALTER	Exeter reserve contributions; CPS warehouse $390M->$518M; Enova NetCredit amendment. Subprime-auto funding still available - contrast to CRMT (no warehouse). OTTO owns.
+2026-10-21T12:58:26Z	SIG-W-20261019-008	info-only	INBOX_WALTER	OTTO Sept panel 44/44 worse YoY (5/9 deals); OTTO-31 12%->8%. OTTO/REGINALD own. Context for CRMT subprime auto.
+2026-10-21T12:58:26Z	SIG-W-20261019-009	info-only	INBOX_WALTER	HOMER nine-read housing/MF. No BROCK vector.
+2026-10-21T12:58:26Z	SIG-W-20261019-011	info-only	INBOX_WALTER	CoreWeave 10/16 bond evaluations/DTCC upfronts; model outputs qualified. LIQUID/VULCAN own; AI-infra leg stays deferred (on Will's ask).
+2026-10-21T12:58:26Z	SIG-W-20261019-012	info-only	INBOX_WALTER	OTTO Ally-Carvana contract correction; warehouse-exit forecast 55->25%. OTTO owns.
+2026-10-21T12:58:26Z	SIG-W-20261020-007	info-only	INBOX_WALTER	CoreWeave contract-economics assumptions (HSBC, stylized model). Not a financing observation.
+2026-10-21T12:58:26Z	SIG-W-20261020-008	info-only	INBOX_WALTER	Illinois Center 11/12 sheriff sale calendar lead; CREED owns. Securitized overlap only.
+2026-10-21T12:58:26Z	SIG-W-20261020-010	info-only	INBOX_WALTER	DC bond cohort G-spreads 10/16->10/19 (CRWV 2030 953->980; EDGCOM 571->656). LIQUID owns; not OAS.
+2026-10-21T12:58:26Z	SIG-W-20261020-011	info-only	INBOX_WALTER	Lambda-linked ~$301M KC data-center CMBS (AAA talk S+225, 9/22); execution INDETERMINATE. CREED/LIQUID own.
+2026-10-21T12:58:26Z	SIG-W-20261020-017	acted	INBOX_WALTER	Grant Thornton/CBIZ $1.75B secured notes ~10.5% talk; structural read logged KB-BRK-355 (holdco $1.4B = PC-shaped risk). No threshold.
+2026-10-21T12:58:26Z	SIG-W-20261020-022	info-only	INBOX_WALTER	Farr CDS cohort chart (CRWV 1089.9 label, right axis). LIQUID owns; source-limited.
+2026-10-21T12:58:26Z	SIG-W-20261021-001	info-only	INBOX_WALTER	H.8 small-bank borrowing partial reversal; correction to 20261010-007. LIQUID/REGINALD own. File untracked (WALTER uncommitted) - logged, not moved.
+2026-10-21T12:58:26Z	SIG-W-20261021-003	info-only	INBOX_WALTER	OZK Boston failed sale: $37.3M charge-off, $132M OREO. CRE life-science, not PC/NDFI - no BRK-31 F1/F2 fire on its face; OZK BRK-31 read still owed. File untracked - logged, not moved.
