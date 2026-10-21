@@ -1,6 +1,6 @@
 # WAL — NEXUS Brief
 
-**As of:** October21 2026 13:17 ET. **STATUS commit `e50270188ee1e91f21fafa5d8d99a1b855dcf50d`**. Final desk write of the Stage-2 call session (PROME L170 spawn).
+**As of:** October21 2026 13:17 ET. **STATUS commit `42fe5c022d8477dea97448544614b81209095217`**. Final desk write of the Stage-2 call session (PROME L170 spawn).
 **Status:** Q3 Stage-2 (10/20 call) GRADED → `research/2026-10-21_Q3_STAGE2_CALL_GRADE.md` (two B2 third-party transcripts; Quartr needed re-auth). $99M not mentioned ⇒ PENDING-10-Q (never benign); migration DISCONFIRM DP2 of 3 FINAL (RETIRE counter 2 of 3); four of six credits sold outside the bank, no seller financing; credits 5/6 open at 9/30; coverage 118% MET; mgmt $567M-basis NPL NOT-PRINTED ⇒ PENDING-10-Q; non-credit falsifier NOT TRIGGERED (10/20 WAL +2.27%, KRE +1.96%). Live WAL $75.23 intraday 10/21 (−0.96% vs EV). Next carrier: Q3 10-Q (L171; not filed as of 10/21 13:15 ET; statutory 11/9). Prior status (10/19): Stage1 + full read + earnings bridge complete; credit actuals weaken the near-term bear.
 **Thesis:** v2.4; Bear-fast2%/Bear-medium16%/Base45%/Bull30%/Tail7%; **EV$75.96 / PT$52–76**, V3=3/5, composite13/25 unchanged. Frozen frames, THESIS/SCENARIOS/PREDICTIONS/POSITIONS bytes unchanged by this follow-up. No grade/probability/score/valuation/rule/order change.
 **Domain:** issuer evidence and frozen grading. Funding/cohort/severity/price guard remain REGINALD-owned; structure and position management TERRY/Will. No helpers, duplicate owners, wider investigations or background jobs.
