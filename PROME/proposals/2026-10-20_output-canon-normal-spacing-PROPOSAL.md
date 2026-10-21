@@ -15,7 +15,7 @@ On 10/20, text written in Codex windows glued words and numbers together to save
 - REGINALD: "canonical10-column", "FROZEN10/10, last data9/11"
 - Also WALTER and BOND packets
 
-BRENT raised it in its own sweep ("saves little space and makes the files harder to scan"). Claude-runtime desks write normal spacing, so this is a runtime habit, not a desk rule. Fixing it desk by desk would not hold. The root canon is the one surface every runtime reads.
+BRENT raised it in its own sweep (in BRENT's Codex window, relayed to PROME by Will; wording paraphrased: it saves little space and makes files harder to scan). Claude-runtime desks write normal spacing, so this is a runtime habit, not a desk rule. Fixing it desk by desk would not hold. The root canon is the one surface every runtime reads.
 
 ## Proposed text (one sentence, appended to the first paragraph of § Output Canon)
 Current paragraph ends: *"…Agent-specific rules (STATUS line caps, domain caveats) stay local."*
