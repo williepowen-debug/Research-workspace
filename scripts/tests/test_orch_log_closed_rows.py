@@ -3,6 +3,7 @@ import contextlib
 import copy
 import datetime
 import io
+import json
 from pathlib import Path
 import tempfile
 import unittest
@@ -32,12 +33,12 @@ class ClosedRows(unittest.TestCase):
 
     def test_later_receipt_variants_and_close_summary(self):
         for touch in ('2-CLOSEOUT-RECEIPT', '4-REPING-RECEIPT', '6-REPING-RECEIPT',
-                      'CLOSE', '2-receipt', '2-CLOSEOUT-PING'):
+                      '2-receipt'):
             with self.subTest(touch=touch):
                 text = self.inflight(self.render([row(), row(touch=touch, delivered='DONE')]))
                 self.assertIn('## IN-FLIGHT rows (0)', text)
                 self.assertIn('Omitted 1 IN-FLIGHT row(s)', text)
-                self.assertIn('exact same desk string', text)
+                self.assertIn('same-desk', text)
 
     def test_different_desk_strings_do_not_close(self):
         for desk in ('RED', 'OZK (owner)', 'ozk', 'OZK '):
@@ -107,6 +108,121 @@ class ClosedRows(unittest.TestCase):
                 self.assertEqual(orch.write_view(str(ledger), str(view), today=DAY), 0)
             self.assertEqual(ledger.read_bytes(), raw)
             self.assertIn('Omitted 1 IN-FLIGHT row(s)', view.read_text())
+
+
+    def structured(self, r, session='A', minute=0, state='UNKNOWN', resolves=None, owner='PROME'):
+        r[0] = '2020-01-01'
+        r[4] = 'fixture session ' + session
+        stamp = f'2020-01-01T12:{minute:02d}:00+00:00'
+        data = dict(owner=owner, session_id=session, touch_at=stamp, observed_at=stamp,
+                    state=state, ask='actual closeout ask', receipt='actual closeout reply')
+        if resolves is not None:
+            data['resolves'] = resolves
+        r[8] = 'closeout_v1=' + json.dumps(data)
+        return r
+
+    def receipt(self, original, touch='2-CLOSEOUT-RECEIPT', **changes):
+        r = self.structured(row(touch=touch, delivered='DONE'), minute=1,
+                            state='ASKED_RECEIPT', resolves=[orch.orch_closeout.touch_key(original)])
+        if changes:
+            data = json.loads(r[8].split('=', 1)[1])
+            data.update(changes)
+            r[8] = 'closeout_v1=' + json.dumps(data)
+        return r
+
+    def test_ce1_late_receipt_keeps_higher_numbered_reping(self):
+        rows = [row(touch='3-REPING'), row(touch='5-REPING'),
+                row(touch='4-REPING-RECEIPT', delivered='DONE')]
+        self.assertEqual(orch._closed_inflight(rows), {0})
+        text = self.inflight(self.render(rows))
+        self.assertIn('| 5-REPING |', text)
+        self.assertNotIn('| 3-REPING |', text)
+
+    def test_ce2_explicit_receipt_closes_only_session_a(self):
+        a = self.structured(row())
+        b = self.structured(row(), session='B')
+        rows = [a, b, self.receipt(a)]
+        self.assertEqual(orch._closed_inflight(rows), {0})
+        self.assertIn('## IN-FLIGHT rows (1)', self.render(rows))
+
+    def test_ce2_ambiguous_legacy_session_prose_keeps_both(self):
+        a, b, receipt = row(), row(), row(touch='2-CLOSEOUT-RECEIPT', delivered='DONE')
+        a[8], b[8], receipt[8] = 'session A', 'session B', 'session A'
+        self.assertEqual(orch._closed_inflight([a, b, receipt]), set())
+
+    def test_ce3_time_corrections_never_close(self):
+        for delivered, notes in [('TIME-CORRECTION (original time UNKNOWN)', ''),
+                                 ('DONE', 'time_correction_v1={}')]:
+            with self.subTest(delivered=delivered, notes=notes):
+                correction = row(touch='CLOSE', delivered=delivered)
+                correction[8] = notes
+                self.assertEqual(orch._closed_inflight([row(), correction]), set())
+                # Also exclude numbered receipts bearing either correction marker.
+                correction[3] = '2-CLOSEOUT-RECEIPT'
+                self.assertEqual(orch._closed_inflight([row(), correction]), set())
+
+    def test_ce5_new_closeout_audit_keeps_spawn_and_audit_visible(self):
+        rows = [row(desk='ARGUS'), row(desk='ARGUS', touch='1-CLOSEOUT-AUDIT')]
+        text = self.inflight(self.render(rows))
+        self.assertIn('## IN-FLIGHT rows (2)', text)
+        self.assertIn('| 1-SPAWN |', text)
+        self.assertIn('| 1-CLOSEOUT-AUDIT |', text)
+
+    def test_closeout_asks_pings_plans_and_substrings_close_nothing(self):
+        for touch in ('2-CLOSEOUT-ASK', '2-CLOSEOUT-PING', '1-CLOSEOUT-PLAN',
+                      '2-CLOSEOUT-CHECK-ASK', '2-RECEIPT-FOLLOWUP', '2-POSTCLOSE'):
+            with self.subTest(touch=touch):
+                self.assertEqual(orch._closed_inflight([row(), row(touch=touch, delivered='DONE')]), set())
+        pending = row(touch='2-RECEIPT', delivered='IN-FLIGHT; still working')
+        self.assertEqual(orch._closed_inflight([row(), pending]), set())
+
+    def test_one_legacy_receipt_closes_one_unique_highest_lower_touch(self):
+        rows = [row(), row(touch='3-REPING'), row(touch='4-RECEIPT', delivered='DONE')]
+        self.assertEqual(orch._closed_inflight(rows), {1})
+        rows.append(row(touch='4-RECEIPT', delivered='DONE'))
+        self.assertEqual(orch._closed_inflight(rows), {1})
+
+    def test_unnumbered_close_requires_explicit_valid_resolution(self):
+        self.assertEqual(orch._closed_inflight([row(), row(touch='CLOSE', delivered='DONE')]), set())
+        original = self.structured(row())
+        self.assertEqual(orch._closed_inflight([original, self.receipt(original, touch='CLOSE')]), {0})
+
+    def test_bad_structured_links_never_fall_back(self):
+        original = self.structured(row())
+        for changes in ({'session_id': 'B'}, {'owner': 'WILL'}, {'resolves': ['f' * 64]},
+                        {'resolves': []}, {'touch_at': '2019-01-01T12:00:00+00:00'},
+                        {'observed_at': '2020-01-01T12:00:00+00:00'}):
+            with self.subTest(changes=changes):
+                self.assertEqual(orch._closed_inflight([original, self.receipt(original, **changes)]), set())
+        receipt = self.receipt(original)
+        data = json.loads(receipt[8].split('=', 1)[1]); data.pop('resolves')
+        receipt[8] = 'closeout_v1=' + json.dumps(data)
+        self.assertEqual(orch._closed_inflight([original, receipt]), set())
+        # Both directions of a malformed payload must preserve the original.
+        malformed = row(); malformed[8] = 'closeout_v1={'
+        self.assertEqual(orch._closed_inflight([malformed, row(touch='2-RECEIPT', delivered='DONE')]), set())
+        malformed = row(touch='2-RECEIPT', delivered='DONE'); malformed[8] = 'closeout_v1={'
+        self.assertEqual(orch._closed_inflight([row(), malformed]), set())
+
+    def test_valid_working_correction_reopens_original(self):
+        original = self.structured(row())
+        receipt = self.receipt(original)
+        working = self.receipt(original, touch='3-CLOSEOUT-ASK', state='ASKED_WORKING',
+                               touch_at='2020-01-01T12:02:00+00:00',
+                               observed_at='2020-01-01T12:02:00+00:00')
+        self.assertEqual(orch._closed_inflight([original, receipt, working]), set())
+
+    def test_duplicate_structured_keys_remain_visible(self):
+        original = self.structured(row())
+        duplicate = copy.deepcopy(original)
+        self.assertEqual(orch._closed_inflight([original, duplicate, self.receipt(original)]), set())
+
+    def test_explicit_multi_target_event_does_not_hide_multiple_originals(self):
+        a = self.structured(row())
+        b = self.structured(row(touch='3-REPING'))
+        receipt = self.receipt(a, touch='4-RECEIPT',
+                               resolves=[orch.orch_closeout.touch_key(a), orch.orch_closeout.touch_key(b)])
+        self.assertEqual(orch._closed_inflight([a, b, receipt]), set())
 
 
 if __name__ == '__main__':
