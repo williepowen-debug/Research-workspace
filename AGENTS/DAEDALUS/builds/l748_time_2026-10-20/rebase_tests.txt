@@ -1,0 +1,35 @@
+ORCH-LOG ✓ appended 1 row (2026-10-20 reader touch CLOSE, CLOSE_SUMMARY) — ledger validates after the write · first use: no view existed · view regenerated → ../../tmpnh638h0n/view.md
+ORCH-LOG ✗ rc 2 — rotate REFUSED: time correction/original pinned in hot ledger; UNKNOWN debt cannot age away; nothing written
+ORCH-LOG ✗ rc 2 — invalid time correction: target must identify exactly one earlier original; nothing written
+/tmp/l748-rebase-yb2mt2_p/repo/scripts/orch_log.py:104: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphcfcy9sv/ledger' mode='r' encoding='utf-8'>
+  lines = open(path, encoding="utf-8").read().split("\n")
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/tmp/l748-rebase-yb2mt2_p/repo/scripts/orch_log.py:104: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphcfcy9sv/ledger' mode='r' encoding='utf-8'>
+  lines = open(path, encoding="utf-8").read().split("\n")
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/tmp/l748-rebase-yb2mt2_p/repo/scripts/orch_log.py:104: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphcfcy9sv/ledger' mode='r' encoding='utf-8'>
+  lines = open(path, encoding="utf-8").read().split("\n")
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+...../tmp/l748-rebase-yb2mt2_p/repo/scripts/orch_log.py:104: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp1za_bhs0/ledger' mode='r' encoding='utf-8'>
+  lines = open(path, encoding="utf-8").read().split("\n")
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/tmp/l748-rebase-yb2mt2_p/repo/scripts/orch_log.py:104: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp1za_bhs0/ledger' mode='r' encoding='utf-8'>
+  lines = open(path, encoding="utf-8").read().split("\n")
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/tmp/l748-rebase-yb2mt2_p/repo/scripts/orch_log.py:104: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp1za_bhs0/ledger' mode='r' encoding='utf-8'>
+  lines = open(path, encoding="utf-8").read().split("\n")
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+......./tmp/l748-rebase-yb2mt2_p/repo/scripts/orch_log.py:104: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpnh638h0n/log.tsv' mode='r' encoding='utf-8'>
+  lines = open(path, encoding="utf-8").read().split("\n")
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/tmp/l748-rebase-yb2mt2_p/repo/scripts/orch_log.py:216: ResourceWarning: unclosed file <_io.BufferedReader name='/tmp/tmpnh638h0n/log.tsv'>
+  prefix = "" if (fh.tell() == 0 or open(path, "rb").read()[-1:] == b"\n") else "\n"
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/tmp/l748-rebase-yb2mt2_p/repo/scripts/orch_log.py:255: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpnh638h0n/log.tsv' mode='r' encoding='utf-8'>
+  text = open(path, encoding="utf-8").read()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+.
+----------------------------------------------------------------------
+Ran 13 tests in 0.088s
+
+OK

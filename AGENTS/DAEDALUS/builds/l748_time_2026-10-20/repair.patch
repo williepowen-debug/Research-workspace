@@ -52,7 +52,7 @@ index 9e07c4b2d..5716373c0 100644
  
  def evaluate(path, day, expected=(), inventory_complete=False, now=None, session_inventory=None):
 diff --git a/scripts/orch_log.py b/scripts/orch_log.py
-index 5c958ad08..3c1d55cee 100644
+index a1772d360..0da882a77 100644
 --- a/scripts/orch_log.py
 +++ b/scripts/orch_log.py
 @@ -33,6 +33,7 @@ inside it — nothing is hidden by the default). One writer, one lock ⇒ the vi
@@ -75,7 +75,7 @@ index 5c958ad08..3c1d55cee 100644
              # L733 CE1: rows entered WITHOUT this writer are named here, never absorbed by the regenerated view.
              state, val = _view_count(view_path, path)
              if state == "missing":
-@@ -342,6 +348,9 @@ def rotate(through, path=LEDGER, archive_dir=ARCHIVE_DIR, today=None, view_path=
+@@ -375,6 +381,9 @@ def rotate(through, path=LEDGER, archive_dir=ARCHIVE_DIR, today=None, view_path=
                  (move if f[0][:7] <= through else keep).append(ln)
              if not move:
                  print(f"ORCH-LOG ✗ rc 2 — rotate REFUSED: no rows dated <= {through}; nothing written"); return 2
