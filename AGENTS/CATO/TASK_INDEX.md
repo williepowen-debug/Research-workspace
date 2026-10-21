@@ -2,6 +2,10 @@
 
 Read only entries relevant to Will's current assignment. This is historical evidence and retained authority, not an automatic task queue. Moved from CONTINUITY.md on October 1, 2026; pre-move record at `c8a8fb86a969688c4b8e9ee25b130770d40be0c2`. Current resume point: [CONTINUITY.md](CONTINUITY.md). Dates and owner states below are last-checked observations, not fresh verification. Moving a record neither closes a finding nor revokes its approval.
 
+## October 20 moment-tagged lessons discussion
+
+[Assessment](runs/2026-10-20_moment-lessons-review.md) at6fdb5b933: park the broad proposal; retain contextual cues as a possible small future experiment. Manual lookup and an optional new publication command both leave skipped invocation unresolved; existing publication checks already supply evidence. Top3 conflicts with4 H lessons in two moments; one claimed catch alone does not justify permanent wiring. No build, send, owner edit or trial authorized. Literature claims not independently validated; no automatic follow-up.
+
 ## October 19 resume complete
 
 Will closed résumé work on October 19: “alright lets consider it done.” Accepted Fellows file `William_Owen_Resume_Fellows.docx`, hash starts `51f5670c`; RS6 source-scope correction and earlier wording fixes closed. [Final version and limits](runs/2026-10-17_1049_readme-application-review.md#october-19--fellows-copy-wording-accepted) · [Will's closure](runs/2026-10-17_1049_readme-application-review.md#october-19--will-closes-resume-work). File unchanged by acceptance review; visual-layout and factual-verification limits survive without an automatic further assignment. Will is drafting boxes; no application, cover-letter draft or Andrew Lampinen DM was sent. Prior README/application records below remain dated evidence.
