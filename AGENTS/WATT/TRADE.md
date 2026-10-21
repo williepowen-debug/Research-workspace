@@ -15,4 +15,6 @@ WATT supplies power evidence; TERRY constructs and Will approves each trade. No 
 
 **Conditional financing channel:** CoreWeaveunhedgedpowercost→modeledDSCR survives, but hedgedshares UNKNOWN; no materialtailtilt, measuredcashcall or covenantbreach. October 14HYG2032YTW15.83% is a fundevaluation, not atrade/executablefinancingquote. Do not turn ~Decpower-marktiming into a datedcatalyst before thehedgepremise is known.
 
+**October20 news implication:** Forward scarcity is less one-sided: IMM tracks4.0GWdelayed/cancelledload, with explicit IIR/EDC-data gaps and no officialforecast revision; announcednuclearuprates arrive2028–32. Do not equate promisedcapacitywithdeliveredpower, or a sector thesis with an underpricedsecurity. RBPnotactiveprocurement;next2029/30auctionDecember2026corrects oldtiming. ExistingP3score4held, forwardrealization confidenceweaker. No new livequotes/entrycase or TERRY construction request established.
+
 **Construction handoff:** an idea may be labelled NOT-FIRED; bring datedsignal, liveinstrumentprice, triggerstate, expectedreturn/risk and falsifier to TERRY. Defaultcapitalrails remain TERRY/Willowned; no authority to placeorders. Current sweep yields updatedevidence, no quantifiednewentryedge.

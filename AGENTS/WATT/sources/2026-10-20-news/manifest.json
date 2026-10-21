@@ -1,0 +1,76 @@
+[
+  {
+    "file": "google-ceg.html",
+    "url": "https://www.constellationenergy.com/news/2026/10/google-and-constellation-announce-landmark-agreement-to-bring-890-mw-of-new-nuclear-capacity-to-pjm-grid.html",
+    "observed_at": "2026-10-20T22:49:02.198539-04:00",
+    "status": 200,
+    "bytes": 128244
+  },
+  {
+    "file": "amazon-ceg.html",
+    "url": "https://investors.constellationenergy.com/news-releases/news-release-details/constellation-and-amazon-announce-20-year-power-purchase",
+    "observed_at": "2026-10-20T22:49:02.199016-04:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "rbp-pjm.html",
+    "url": "https://insidelines.pjm.com/ferc-accepts-pjm-reliability-backstop-proposal/",
+    "observed_at": "2026-10-20T22:49:02.199454-04:00",
+    "status": 200,
+    "bytes": 172938
+  },
+  {
+    "file": "ferc-conference.html",
+    "url": "https://ferc.gov/news-events/events/commissioner-led-reliability-technical-conference-06122026",
+    "observed_at": "2026-10-20T22:49:02.200027-04:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "ER24-2045-005.pdf",
+    "url": "https://www.ferc.gov/sites/default/files/2026-10/E-5-ER24-2045-005.pdf",
+    "observed_at": "2026-10-20T22:49:02.354084-04:00",
+    "status": 200,
+    "bytes": 557584
+  },
+  {
+    "file": "steo-oct26.pdf",
+    "url": "https://www.eia.gov/outlooks/steo/archives/oct26.pdf",
+    "observed_at": "2026-10-20T22:49:02.421293-04:00",
+    "status": 200,
+    "bytes": 7234778
+  },
+  {
+    "file": "pjm-board.html",
+    "url": "https://emergencyprocedures.pjm.com/ep/pages/dashboard.jsf",
+    "observed_at": "2026-10-20T22:49:02.523736-04:00",
+    "status": 200,
+    "bytes": 126398
+  },
+  {
+    "file": "pjm-home.html",
+    "url": "https://www.pjm.com/",
+    "observed_at": "2026-10-20T22:49:02.533653-04:00",
+    "status": 200,
+    "bytes": 177656
+  },
+  {
+    "file": "imm-home.html",
+    "url": "https://www.monitoringanalytics.com/",
+    "observed_at": "2026-10-20T22:49:02.707709-04:00",
+    "status": 200,
+    "bytes": 1190
+  },
+  {
+    "file": "imm-filings.html",
+    "url": "https://www.monitoringanalytics.com/filings/2026/index.shtml",
+    "observed_at": "2026-10-20T22:49:02.882941-04:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "file": "pjm-today.json",
+    "url": "https://api.pjm.com/api/v1/rt_unverified_fivemin_lmps?rowCount=1000&startRow=1&pnode_id=1&datetime_beginning_ept=10%2F20%2F2026+00%3A00to10%2F20%2F2026+23%3A59&fields=datetime_beginning_ept%2Ctotal_lmp_rt",
+    "observed_at": "2026-10-20T22:49:12.579124-04:00",
+    "status": 200,
+    "bytes": 20850
+  }
+]

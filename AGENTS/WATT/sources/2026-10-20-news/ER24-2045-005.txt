@@ -1,0 +1,2056 @@
+197 FERC ¶ 61,026 
+UNITED STATES OF AMERICA 
+FEDERAL ENERGY REGULATORY COMMISSION 
+
+Before Commissioners:  Laura V. Swett, Chairman; 
+                                        David Rosner, Lindsay S. See, 
+                                        Judy W. Chang, and David LaCerte.   
+
+PJM Interconnection, L.L.C.  
+
+Docket No.  ER24-2045-005 
+
+ORDER ACCEPTING COMPLIANCE FILING IN PART AND DIRECTING 
+FURTHER COMPLIANCE 
+
+(Issued October 15, 2026) 
+
+On June 15, 2026, PJM Interconnection, L.L.C. (PJM) submitted proposed 
+
+revisions to its Open Access Transmission Tariff (Tariff) in compliance with the 
+requirements of Order Nos. 2023 and 2023-A1 and the Commission’s order on 
+compliance issued on April 16, 2026 (Third Compliance Filing).2  As discussed below, 
+we find that PJM’s Third Compliance Filing partially complies with the requirements of 
+Order Nos. 2023 and 2023-A and with the Commission’s directives in the Second 
+Compliance Order.  Accordingly, we accept in part and reject in part PJM’s Third 
+Compliance Filing, to become effective as of the commencement date of the next Cycle,3  
+and direct PJM to submit further compliance filings. 
+
+1 Improvements to Generator Interconnection Procs. & Agreements, Order        
+
+No. 2023, 184 FERC ¶ 61,054, order on reh’g, 185 FERC ¶ 61,063 (2023), order on 
+reh’g, Order No. 2023-A, 186 FERC ¶ 61,199, errata notice, 188 FERC ¶ 61,134 (2024), 
+aff'd sub nom. Advanced Energy United v. FERC, 185 F.4th 186 (D.C. Cir. 2026). 
+
+2 PJM Interconnection, L.L.C., 195 FERC ¶ 61,031 (2026) (Second Compliance 
+
+Order). 
+
+3 PJM refers to its first-ready, first-served cluster study process as a “Cycle.”  
+
+PJM’s Tariff defines a Cycle as “that period of time between the start of an Application 
+phase and conclusion of the corresponding Final Agreement Negotiation Phase.  The 
+Cycle consists of the Application Phase, Phase I, Decision Point I, Phase II, Decision 
+Point II, Phase III, Decision Point III, and the Final Agreement Negotiation Phase.”  PJM 
+Interconnection, L.L.C., Intra-PJM Tariffs, pt. VIII, subpt. A, § 400C (Definitions C) 
+(1.0.0) (PJM Tariff). 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Docket No. ER24-2045-005  
+
+- 2 - 
+
+I. 
+
+Background 
+
+Order Nos. 2023 and 2023-A amended the Commission’s pro forma Large 
+
+Generator Interconnection Procedures (LGIP), pro forma Large Generator 
+Interconnection Agreement (LGIA), pro forma Small Generator Interconnection 
+Procedures (SGIP), and pro forma Small Generator Interconnection Agreement (SGIA).4  
+Order No. 2023 requires all public utility transmission providers to adopt revised pro 
+forma LGIPs, pro forma LGIAs, pro forma SGIPs, and pro forma SGIAs.  These 
+revisions ensure that interconnection customers are able to interconnect to the 
+transmission system in a reliable, efficient, transparent, and timely manner, and will 
+prevent undue discrimination.5  In Order No. 2023, the Commission adopted a 
+comprehensive package of reforms in three general categories:  (1) reforms to implement 
+a first-ready, first-served cluster study process; (2) reforms to increase the speed of 
+interconnection queue processing; and (3) reforms to incorporate technological 
+advancements into the interconnection process. 
+
+On May 16, 2024, and October 29, 2024, in Docket Nos. ER24-2045-000 and 
+ER24-2045-002, PJM submitted its compliance filing and response to Commission staff’s 
+data request in compliance with Order Nos. 2023 and 2023-A (together, Initial 
+Compliance Filing).  In the First Compliance Order, the Commission found that PJM’s 
+Initial Compliance Filing partially complied with the requirements of Order Nos. 2023 
+and 2023-A and directed PJM to submit a further compliance filing within 60 days of the 
+issuance of the First Compliance Order.6    
+
+On October 23, 2025, PJM submitted proposed revisions to its Tariff in 
+compliance with Order Nos. 2023 and 2023-A and the First Compliance Order (Second 
+Compliance Filing).  In the Second Compliance Order, the Commission found that PJM’s 
+Second Compliance Filing partially complied with the requirements of Order Nos. 2023 
+and 2023-A and with the Commission’s directives in the First Compliance Order.  
+Accordingly, the Commission accepted in part and rejected in part PJM’s Second 
+
+4 The pro forma LGIP and pro forma LGIA establish the terms and conditions 
+
+under which public utilities that own, control, or operate facilities for transmitting energy 
+in interstate commerce must provide interconnection service to generating facilities  
+larger than 20 MW.  The pro forma SGIP and pro forma SGIA establish the terms and 
+conditions under which public utilities that own, control, or operate facilities for 
+transmitting energy in interstate commerce must provide interconnection service to 
+generating facilities no larger than 20 MW.  Order No. 2023, 184 FERC ¶ 61,054 at P 2. 
+
+5 Order No. 2023, 184 FERC ¶ 61,054 at P 1. 
+
+6 PJM Interconnection, L.L.C., 192 FERC ¶ 61,077, at P 1 (2025) (First 
+
+Compliance Order). 
+
+ 
+ 
+ 
+ 
+Docket No. ER24-2045-005  
+
+- 3 - 
+
+Compliance Filing and directed PJM to submit further compliance filings.7  Specifically, 
+the Commission directed revisions to PJM’s Tariff to comply with the following 
+requirements of Order Nos. 2023 and 2023-A:  cluster study process, allocation of cluster 
+network upgrade costs, site control, elimination of reasonable efforts, affected system 
+study process and modeling requirements, affected system pro forma agreements, co-
+located generating facilities, operating assumptions for interconnection customers, 
+incorporating the enumerated alternative transmission technologies, and modeling and 
+ride-through requirements.8 
+
+II. 
+
+Third Compliance Filing 
+
+PJM states that it proposes Tariff revisions in this Third Compliance Filing to 
+
+address the directives in the Second Compliance Order, provide further justifications for 
+certain requested independent entity variations, and withdraw several of its previously 
+requested independent entity variations.9 
+
+III.  Notice of Filing and Responsive Pleadings 
+
+Notice of PJM’s Third Compliance Filing was published in the Federal Register, 
+
+91 Fed. Reg 36824 (Jun. 18, 2026), with interventions and protests due on or before 
+July 6, 2026.  None was filed. 
+
+IV.  Discussion 
+
+As discussed below, we find that PJM’s Third Compliance Filing partially 
+complies with the directives in the Second Compliance Order and the requirements of 
+Order Nos. 2023 and 2023-A.  Accordingly, we accept in part and reject in part PJM’s 
+Third Compliance Filing, to become effective as of the commencement date of next 
+Cycle (i.e., Cycle No. 3), and direct PJM to submit further compliance filings.10 
+
+7 Second Compliance Order, 195 FERC ¶ 61,031 at P 1. 
+
+8 Id. PP 39, 69, 70, 72-73, 98-100, 132, 135-140, 143-145, 159, 170, 182, 191. 
+
+9 Third Compliance Filing at 2. 
+
+10 We reiterate that PJM must make a further compliance filing in this docket  
+no more than 120 days and no less than 60 days before the proposed effective date,  
+as PJM proposes to do.  Specifically, PJM is required to make a further compliance  
+filing in this docket through the Commission’s eTariff system with the accepted tariff 
+record text that establishes the actual effective date of the Tariff records as the date  
+of the commencement of the next Cycle after the issuance of this order and designates 
+
+ 
+ 
+ 
+ 
+  
+ 
+Docket No. ER24-2045-005  
+
+- 4 - 
+
+As an initial matter, we find that PJM has complied with directive in the Second 
+
+Compliance Order regarding the requirement for ride-through capability and performance 
+for non-synchronous generating facilities.11  Specifically, PJM proposes to adopt, without 
+modification, the following provisions of the Commission’s pro forma LGIA and pro 
+forma SGIA:  the requirement in pro forma LGIA article 9.7.3 and pro forma SGIA 
+article 1.5.7 for ride-through capability and performance for non-synchronous generating 
+facilities.12 
+
+  We now turn to PJM’s proposed variations from the Commission’s pro forma 
+
+LGIP and pro forma LGIA. 
+
+A. 
+
+Proposed Variations 
+
+  As discussed further below, PJM has proposed certain variations from the 
+
+Commission’s requirements in Order Nos. 2023 and 2023-A.  The Commission explained 
+in Order No. 2023 that such variations would be reviewed under the same standard 
+allowed by Order Nos. 2003, 2006, and 845.13  In Order No. 2003, when adopting the  
+pro forma LGIP and pro forma LGIA, the Commission permitted Regional Transmission 
+Organizations/Independent System Operators (RTO/ISO) to seek “independent entity 
+variations” for pricing and non-pricing provisions, and stated that RTOs/ISOs “shall  
+have greater flexibility to customize [their] interconnection procedures and agreement to 
+
+the records accepted in this order as OBE (overtaken by events).  See Second Compliance 
+Order, 195 FERC ¶ 61,031 at P 210. 
+
+11 Second Compliance Order, 195 FERC ¶ 61,031 at P 202. 
+
+12 See PJM Tariff, pt. IX, subpt. B, GIA Schedule H (1.1.0). 
+
+13 Order No. 2023, 184 FERC ¶ 61,054 at P 1764 (citing Standardization of 
+Generator Interconnection Agreements & Procs., Order No. 2003, 104 FERC ¶ 61,103, 
+at P 826 (2003), order on reh’g, Order No. 2003-A, 106 FERC ¶ 61,220, order on reh’g, 
+Order No. 2003-B, 109 FERC ¶ 61,287 (2004), order on reh’g, Order No. 2003-C,  
+111 FERC ¶ 61,401 (2005), aff’d sub nom. Nat’l Ass’n of Regul. Util. Comm’rs v. FERC, 
+475 F.3d 1277 (D.C. Cir. 2007); Standardization of Small Generator Interconnection 
+Agreements & Procs., Order No. 2006, 111 FERC ¶ 61,220, at PP 447, 549, order on 
+reh’g, Order No. 2006-A, 113 FERC ¶ 61,195 (2005), order granting clarification,  
+Order No. 2006-B, 116 FERC ¶ 61,046 (2006); see Reform of Generator Interconnection 
+Procs. & Agreements, Order No. 845, 163 FERC ¶ 61,043, at P 556 (2018), order on 
+reh’g, Order No. 845-A, 166 FERC ¶ 61,137, order on reh’g, Order No. 845-B,           
+168 FERC ¶ 61,092 (2019)). 
+
+ 
+ 
+Docket No. ER24-2045-005  
+
+- 5 - 
+
+fit regional needs.”14  The Commission stated that this approach recognizes that an 
+RTO/ISO is less likely to act in an unduly discriminatory manner than a transmission 
+provider that is a market participant.15  The Commission has granted independent entity 
+variations from interconnection-related rulemakings where the RTO/ISO demonstrates 
+that the proposed variation:  (1) is just and reasonable and not unduly discriminatory or 
+preferential; and (2) accomplishes the purposes of the order.16  It is not a sufficient 
+justification to state that a variation conforms to current RTO/ISO practices or to the 
+RTO’s/ISO’s tariff definitions and terminology.17  Even if the transmission provider is an 
+RTO/ISO, it must still justify its variations in light of the Commission’s pro forma LGIP 
+and/or pro forma LGIA and/or pro forma SGIP and/or pro forma SGIA.18  We evaluate 
+PJM’s proposed variations from the requirements of Order Nos. 2023 and 2023-A 
+accordingly. 
+
+B. 
+
+Cluster Study Process: Commercial Operation Date Extension 
+
+In Order No. 2023, the Commission revised the pro forma LGIP and pro forma 
+LGIA to require transmission providers to study interconnection requests in clusters.  
+Regarding a commercial operation date extension, the Commission revised section 4.4.5 
+of the pro forma LGIP to require that an interconnection customer receive an extension  
+of fewer than three cumulative years of the generating facility’s commercial operation 
+date without requiring it to request such an extension from the transmission provider.19  
+Specifically, the Commission clarified that (1) the commercial operation date reflected  
+in the initial interconnection request shall be used in calculating the permissible fewer 
+than three-year extension until the interconnection customer executes, or requests the 
+unexecuted filing of, an LGIA, but (2) once the interconnection customer has executed  
+
+14 Order No. 2003, 104 FERC ¶ 61,103 at P 826. 
+
+15 Id. P 827. 
+
+16 See, e.g., ISO New Eng. Inc., 164 FERC ¶ 61,222, at P 9 (2018) (citing Order  
+No. 2003, 104 FERC ¶ 61,103 at PP 26, 827; Midcontinent Indep. Sys. Operator, Inc.,  
+154 FERC ¶ 61,247, at P 20 (2016); Cal. Indep. Sys. Operator Corp., 140 FERC ¶ 61,070, 
+at P 44 (2012)). 
+
+17 See Cal. Indep. Sys. Operator Corp., 170 FERC ¶ 61,112, at P 11 (2020);       
+
+Sw. Power Pool, Inc., 170 FERC ¶ 61,042, at P 14 (2020); ISO New Eng. Inc., 170 FERC 
+¶ 61,209, at P 14 (2020); Midcontinent Indep. Sys. Operator, Inc., 169 FERC ¶ 61,221,   
+at P 18 (2019); PJM Interconnection, L.L.C., 169 FERC ¶ 61,226, at P 15 (2019). 
+
+18 See PJM Interconnection, L.L.C., 108 FERC ¶ 61,025, at P 16 (2004). 
+
+19 Order No. 2023, 184 FERC ¶ 61,054 at P 293; see also pro forma LGIP § 4.4.5. 
+
+ 
+ 
+Docket No. ER24-2045-005  
+
+- 6 - 
+
+an LGIA or requested that the LGIA be filed unexecuted, the commercial operation date 
+established in the LGIA shall be the date from which the up to three cumulative years is 
+calculated. 
+
+1. 
+
+Second Compliance Order 
+
+In the Second Compliance Order, the Commission directed PJM to submit a 
+
+further compliance filing to clarify how PJM proposes to comply with the requirement  
+in section 4.4.5 of the pro forma LGIP for the commercial operation date in the initial 
+interconnection request to be used in calculating the permissible extension of the 
+commercial operation date until the interconnection customer executes, or requests the 
+unexecuted filing of, an LGIA, or justify its proposal under the independent entity 
+variation standard.20 
+
+2. 
+
+Third Compliance Filing 
+
+PJM proposes revisions to Tariff section 403(A)(1)(o) to specify that the 
+commercial operation date in the Generation Interconnection Request is used in 
+calculating the permissible extension of the commercial operation date before the 
+interconnection customer executes, or requests unexecuted filing of, the GIA.21 
+
+3. 
+
+Commission Determination 
+
+  We find that PJM’s proposed revisions to Tariff section 403(A)(1)(o) related to a 
+commercial operation date extension comply with the requirements of Order Nos. 2023 
+and 2023-A and the Commission’s directive in the Second Compliance Order.  
+Specifically, PJM has complied with the requirement in section 4.4.5 of the pro forma 
+LGIP for the commercial operation date in the initial interconnection request to be used 
+in calculating the permissible extension of the commercial operation date until the 
+interconnection customer executes, or requests the unexecuted filing of, an LGIA by 
+revising Tariff section 403(A)(1)(o) to specify that the commercial operation date in the 
+Generation Interconnection Request is used in calculating the permissible extension of 
+the commercial operation date before the interconnection customer executes, or requests 
+unexecuted filing of, the GIA. 
+
+20 Second Compliance Order, 195 FERC ¶ 61,031 at P 39.  
+
+21 Third Compliance Filing at 3-5; see also PJM Tariff, pt. VIII, subpt. B, § 403 
+
+(2.1.0), § 403(A)(1)(o). 
+
+ 
+ 
+ 
+Docket No. ER24-2045-005  
+
+- 7 - 
+
+C. 
+
+Allocation of Cluster Network Upgrade Costs 
+
+In Order No. 2023, the Commission required transmission providers to allocate 
+system network upgrade22 costs based on a proportional impact method.23  Specifically, 
+the Commission added pro forma LGIP section 4.2.1 (Cost Allocation for 
+Interconnection Facilities and Network Upgrades) to require a transmission provider to:  
+(1) allocate the costs of network upgrades located at substations equally among each 
+generating facility interconnecting to the same substation (i.e., on a per capita basis); and 
+(2) direct the transmission provider on compliance to provide tariff provisions that 
+describe, for each type of system network upgrade that a transmission provider would 
+identify in the cluster study process, how the costs of each system network upgrade type 
+will be allocated among the interconnection customers within the cluster.24  The 
+Commission added to the pro forma LGIP and pro forma LGIA definitions for 
+“proportional impact method,” “substation network upgrades,” and “system network 
+upgrades” and modified the existing definition of “stand alone network upgrades.”25  The 
+Commission required the transmission provider’s revisions on compliance to provide that 
+costs for a discrete network upgrade identified in the cluster study process are allocated to 
+only the interconnection customers in the cluster that are shown through technical 
+analyses to contribute to the need for that discrete network upgrade.26  The Commission 
+also required transmission providers to allocate the costs of interconnection facilities (i.e., 
+both the interconnection customer’s interconnection facilities and transmission provider’s 
+interconnection facilities) on a per capita basis.  The Commission further provided that 
+interconnection customers may agree to share interconnection facilities, that the per 
+capita cost allocation will apply only where interconnection customers agree to share 
+interconnection facilities, and that interconnection customers may choose a different cost 
+
+22 The pro forma LGIP defines system network upgrades as “Network Upgrades that 
+
+are required beyond the substation located at the Point of Interconnection.”  Pro forma 
+LGIP § 1. 
+
+23 The pro forma LGIP defines proportional impact method as “a technical 
+
+analysis conducted by Transmission Provider to determine the degree to which each 
+Generating Facility in the Cluster Study contributes to the need for a specific System 
+Network Upgrade.”  Id. 
+
+24 Order No. 2023, 184 FERC ¶ 61,054 at PP 453, 461; see also pro forma LGIP  
+
+§ 4.2.1. 
+
+25 Order No. 2023, 184 FERC ¶ 61,054 at PP 458, 460; see also pro forma LGIP  
+
+§ 1; see also pro forma LGIA art. 1. 
+
+26 Order No. 2023, 184 FERC ¶ 61,054 at P 461. 
+
+ 
+ 
+Docket No. ER24-2045-005  
+
+- 8 - 
+
+sharing arrangement upon mutual agreement.27  Finally, the Commission revised 
+Appendix A (Interconnection Facilities, Network Upgrades and Distribution Upgrades) 
+of the pro forma LGIA to include substation network upgrades and system network 
+upgrades.28 
+
+1. 
+
+Second Compliance Order 
+
+In the Second Compliance Order, the Commission directed PJM to adopt the pro 
+forma LGIA and pro forma LGIP definition for “system network upgrades” or justify its 
+proposal under the independent entity variation standard.29  The Commission also 
+directed PJM to provide Tariff revisions that describe, for each discrete type of system 
+network upgrade PJM would identify in the cluster study process, how the costs of each 
+system network upgrade type will be allocated among the interconnection customers 
+within the cluster that are shown through technical analyses to contribute to the need for 
+that discrete network upgrade.30 
+
+The Commission directed PJM to adopt the pro forma LGIP cost allocation 
+
+method for substation network upgrades or justify its proposal under the independent 
+entity variation standard.31  The Commission also directed PJM to explain how PJM 
+proposes to comply with the requirement in Order Nos. 2023 and 2023-A to include 
+substation network upgrades and system network upgrades through Appendix A of the 
+pro forma LGIA or justify its proposal under the independent entity variation standard.32 
+
+2. 
+
+Third Compliance Filing 
+
+PJM proposes revisions to its Tariff definition of “system network upgrade” in 
+Tariff section 400 to include the phrase “beyond the substation located at the Point of 
+Interconnection.”33  PJM states that this revised definition distinguishes “system network 
+
+27 Id. P 454. 
+
+28 Pro forma LGIA app. A. 
+
+29 Second Compliance Order, 195 FERC ¶ 61,031 at P 69.  
+
+30 Id. P 70. 
+
+31 Id. P 72.  
+
+32 Id. P 73.  
+
+33 Third Compliance Filing at 7.  See also PJM Tariff, pt. VIII, subpt. A, § 400S 
+
+(Definitions S) (4.1.0). 
+
+ 
+ 
+ 
+ 
+Docket No. ER24-2045-005  
+
+- 9 - 
+
+upgrades” from “substation network upgrades” as required by Orders No. 2023 and 2023-
+A.   
+
+PJM also proposes revisions to Tariff section 404(A)(5)(d) that describe the 
+
+proportional impact method for system network upgrades.  Specifically, PJM proposes 
+Tariff revisions to describe cost allocation based on the proportional impact method for 
+thermal and non-thermal categories of system network upgrades.  PJM proposes that 
+thermal system network upgrade costs will be allocated “per the pro rata share of MW 
+impact of Cycle projects on the constraints being alleviated by the System Network 
+Upgrade, as further described in the PJM Manual 14H,” and non-thermal system network 
+upgrade costs will be allocated “per the pro rata share of impact of Cycle projects on the 
+constraints being alleviated by the System Network Upgrade, as further described in PJM 
+Manual 14H.”34 
+
+PJM proposes additional revisions to its Tariff section 404(A)(5)(d) to provide 
+
+more detail on how PJM allocates the costs of substation network upgrades.35  The 
+proposed Tariff language provides that the costs of substation network upgrades, 
+including all switching stations, “shall be allocated first per capita to Interconnection 
+Facilities interconnecting to the substation at the same voltage level, and then per capita 
+to each New Service Request sharing the Interconnection Facilities.”36   
+
+PJM adds to its Tariff section 404(A)(6) to set forth that the cost allocation of 
+
+interconnection facilities “where interconnection customers agree to share 
+interconnection facilities shall be allocated based on the number of generating facilities 
+sharing use of such interconnection facilities on a per capita basis.”37    
+
+PJM proposes to include in its pro forma GIA and its pro forma Wholesale Market 
+
+Participation Agreement (WMPA) provisions to separately specify system network 
+upgrades and substation network upgrades.38  PJM requests that the Commission accept 
+the PJM-specific modification to include the various types of network upgrades through a 
+
+34 PJM Tariff, pt. VIII, subpt. C, § 404 (2.1.0), § 404(A)(5)(d)(ii). 
+
+35 Third Compliance Filing at 7; PJM Tariff, pt. VIII, subpt. C, § 404 (2.1.0),  
+
+§ 404(A)(5)(d). 
+
+36 Id. 
+
+37 Third Compliance Filing at 7; PJM Tariff, pt. VIII, subpt. C, § 404 (2.1.0),  
+
+§ 404(A)(6).  
+
+38 Third Compliance Filing at 6; PJM Tariff, pt. IX, subpt. B, GIA Specs (3.1.0); 
+
+id. subpt. C, WMPA Schedules A-F (1.1.0). 
+
+ 
+ 
+ 
+ 
+ 
+Docket No. ER24-2045-005  
+
+- 10 - 
+
+table in the Specifications portion of its pro forma GIA and Schedule D of its pro forma 
+WMPA rather than through Appendix A to the pro forma LGIA.39  PJM argues that this 
+table serves the same function as Appendix A to the pro forma LGIA, and is a just and 
+reasonable, not unduly discriminatory means of accomplishing the objectives of the final 
+rule with respect to identification of the various types of network upgrades in the pro 
+forma LGIA.  
+
+3. 
+
+Commission Determination 
+
+  We find that PJM’s proposal regarding allocation of cluster network upgrade costs 
+
+partially complies with the requirements of Order Nos. 2023 and 2023-A and the 
+directives in the Second Compliance Order.  As discussed below, we accept in part PJM’s 
+proposed Tariff revisions regarding allocation of cluster network upgrade costs and direct 
+further compliance. 
+
+First, we find that PJM’s proposed revision in Tariff section 400 to specify in the 
+
+definition of “system network upgrades” that such upgrades are located “beyond the 
+substation located at the Point of Interconnection” complies with the Commission’s 
+directive in the Second Compliance Order and accomplishes the purposes of Order Nos. 
+2023 and 2023-A to distinguish substation network upgrades from system network 
+upgrades.40   
+
+  Next, we find that PJM complies with the Commission’s directive to provide 
+Tariff revisions that describe, for each discrete type of system network upgrade PJM 
+would identify in the cluster study process, how the costs of each system network 
+upgrade type will be allocated among the interconnection customers within the cluster 
+that are shown through technical analyses to contribute to the need for that discrete 
+network upgrade.  We find that PJM’s proposed revisions in Tariff section 404 providing 
+that PJM shall allocate the costs of thermal system network upgrades based on the pro 
+rata share of MW impact of Cycle projects and the costs of non-thermal upgrades based 
+on the pro rata share of impact of the Cycle projects as set forth in PJM Manual 14H 
+complies with the Commission’s directive in the Second Compliance Order.  At present, 
+PJM Manual 14H appears to be inconsistent with PJM’s proposed Tariff allocation for 
+non-thermal upgrades based on their pro rata share of impact, because Manual 14H 
+describes that PJM allocates the costs of stability upgrades pro rata based on a generating 
+facility’s maximum facility output relative to the rest of the cluster and short circuit 
+
+39 Third Compliance Filing at 8.  
+
+40 Second Compliance Order, 195 FERC ¶ 61,031 at P 69; see also Order  
+
+No. 2023, 184 FERC ¶ 61,054 at P 458.  
+
+ 
+ 
+ 
+Docket No. ER24-2045-005  
+
+- 11 - 
+
+upgrades pro rata based on current (kVA) impact.41  We note that to the extent that there 
+is inconsistency between the Tariff and Manual 14H, the Tariff is the governing 
+document and has precedence over the latter.42  
+
+  We find that PJM’s proposed revisions to Tariff section 404(A)(5)(d) comply with 
+
+the Commission’s directive in the Second Compliance Order to adopt the pro forma 
+LGIP cost allocation method for substation network upgrades.43  Specifically, PJM’s 
+proposed Tariff language adopts the pro forma LGIP language without modification.44  
+
+  We find that PJM’s proposed additions to Tariff section 404(A)(6) are not 
+
+consistent with the pro forma LGIP cost allocation method for interconnection facilities 
+where interconnection customers agree to share interconnection facilities.45  PJM 
+proposes to revise Tariff section 404(A)(6) to specify that the cost allocation of 
+interconnection facilities “where interconnection customers agree to share 
+interconnection facilities shall be allocated based on the number of generating facilities 
+sharing use of such interconnection facilities on a per capita basis.”46  However, PJM’s 
+proposed revisions do not reflect the requirement in the pro forma LGIP that such cost 
+allocation will be “on a per Generating Facility basis… unless Parties mutually agree to 
+a different cost sharing arrangement.”47  PJM fails to justify this proposed deviation from 
+the pro forma LGIP.  Accordingly, we direct PJM to submit a further compliance filing 
+within 60 days of the date of this order adopting the pro forma LGIP cost allocation 
+
+41 PJM Interconnection, L.L.C., PJM Manual 14H: PJM Generation and 
+
+Transmission Interconnection Cost Allocation Methodologies, attach. B § B.3.5 (effective 
+Sep. 25, 2025), https://pjm.com/-/media/DotCom/documents/manuals/m14h.pdf (PJM 
+Manual 14H).    
+
+42 See Midwest Indep. Transmission Sys. Operator, Inc., 117 FERC ¶ 61,113,  
+
+at P 47 (2006) (“the filed and accepted tariff is the governing document and not the 
+Business Practice Manuals - the former has precedence over the latter and not the other 
+way around”). 
+
+43 Second Compliance Order, 195 FERC ¶ 61,031 at P 72.  
+
+44 PJM Tariff, pt. VIII, subpt. C, § 404 (2.1.0), § 404(A)(5)(d). 
+
+45 Second Compliance Order, 195 FERC ¶ 61,031 at P 72; see also Order  
+No. 2023-A, 186 FERC ¶ 61,199 at PP 177-178; see also pro forma LGIP § 4.2.1.1.a. 
+
+46 Third Compliance Filing at 7; PJM Tariff, pt. VIII, subpt. C, § 404 (2.1.0),  
+
+§ 404(A)(6).  
+
+47 See pro forma LGIP § 4.2.1.2 (emphasis added).  
+
+ 
+Docket No. ER24-2045-005  
+
+- 12 - 
+
+method for interconnection facilities where interconnection customers agree to share 
+interconnection facilities or justify its proposal under the independent entity standard.  
+
+  We grant PJM’s request for an independent entity variation regarding its proposed 
+
+inclusion of various types of network upgrades in the Specifications portion of its pro 
+forma GIA and Schedule D to its pro forma WMPA.  We find that PJM has demonstrated 
+that its proposal accomplishes the purposes of Orders No. 2023 and 2023-A to include 
+different types of network upgrades (namely, substation network upgrades and system 
+network upgrades) in the transmission provider’s pro forma LGIA.48 
+
+D. 
+
+Elimination of Reasonable Efforts and Study Delay Penalties 
+
+In Order No. 2023, the Commission revised sections 2.2 (Comparability), 3.5.4, 
+7.4, 8.3 (Interconnection Facilities Study Procedures), and Attachment A to Appendix 3 
+(formerly Appendix 4) of the pro forma LGIP to eliminate the reasonable efforts standard 
+for conducting cluster studies, cluster restudies, facilities studies, and affected system 
+studies by the tariff-specified deadlines.49  The Commission added new section 3.9 
+(Penalties for Failure to Meet Study Deadlines) to the pro forma LGIP to implement a 
+structure of study delay penalties.50  The Commission also specified that the study delay 
+penalty regime contains the following safeguards for transmission providers: no study 
+delay penalties will be assessed until the third cluster study cycle (including any 
+transitional cluster study cycle, but not transitional serial studies) after the Commission-
+approved effective date of the transmission provider’s filing in compliance with Order 
+No. 2023.51 
+
+1. 
+
+Second Compliance Order 
+
+In the Second Compliance Order, the Commission directed PJM to remove from 
+
+its Tariff section 403(B)(3) providing that the application review phase would extend for 
+either 90 days “or the amount of time it takes to complete all Application review 
+
+48 First Compliance Order, 192 FERC ¶ 61,077 at P 131 (citing pro forma LGIA 
+
+app. A). 
+
+49 Order No. 2023, 184 FERC ¶ 61,054 at P 962; see also pro forma LGIP §§ 2.2, 
+
+3.5.4, 7.4, 8.3; pro forma LGIP, app. 3, attach. A. 
+
+50 Order No. 2023, 184 FERC ¶ 61,054 at P 962; see also pro forma LGIP § 3.9. 
+
+51 Order No. 2023, 184 FERC ¶ 61,054 at P 972; see pro forma LGIP § 3.9(6). 
+
+ 
+ 
+ 
+Docket No. ER24-2045-005  
+
+- 13 - 
+
+activities for the relevant Cycle, whichever is greater,” or justify its proposal under the 
+independent entity variation standard.52 
+
+The Commission accepted PJM’s proposed Tariff sections 438(B), 438(C), 
+438(D), and 438(F) as consistent with pro forma LGIP sections 3.9(2), 3.9(3), 3.9(4), and 
+3.9(6), respectively.53  However, the Commission directed PJM to remove the proposed 
+Tariff provisions in Tariff section 438(E) that allow PJM to unilaterally extend study 
+timelines.  Additionally, the Commission directed PJM to submit a further compliance 
+filing that removes the proposed Tariff provisions in Tariff section 438(H) to pay study 
+delay penalties from the non-refundable portion of the study deposits collected from 
+interconnection customers, which the Commission found to be outside the scope of Order 
+Nos. 2023 and 2023-A.54   
+
+2. 
+
+Third Compliance Filing 
+
+PJM proposes revisions to Tariff section 403(B)(3) to remove the phrase “or the 
+
+amount of time it takes to complete all Application review activities for the relevant 
+Cycle, whichever is greater,” so that the Application review phase extends only for 90 
+days.55  PJM also proposes revisions to its Tariff to incorporate the pro forma LGIP’s 
+study delay penalty provisions, including removal of its previous language in Tariff 
+section 438(E) allowing PJM to unilaterally extend study deadlines up to 30 days and 
+inclusions of the mutual agreement language in pro forma LGIP section 3.9.56  PJM also 
+proposes to remove previously proposed Tariff section 438(F), which set out that the 
+penalty regime under section 438 would not be implemented until the start of studies for 
+the third Cycle following the Commission approved effective date of PJM’s filing made 
+in compliance with the requirements of Order Nos. 2023 and 2023-A.57 
+
+52 Second Compliance Order, 195 FERC ¶ 61,031 at P 98.  
+
+53 Id. P 99. 
+
+54 Id. P 100. 
+
+55 Third Compliance Filing at 9.  
+
+56 Id. at 9-10.  See PJM Tariff, pt. VIII, subpt. K, § 438 (0.1.0). 
+
+57 Third Compliance Filing at 10, n.34.  See also PJM Tariff, pt. VIII, subpt. K,  
+
+§ 438(F) (0.0.0). 
+
+ 
+ 
+ 
+Docket No. ER24-2045-005  
+
+- 14 - 
+
+PJM’s proposed revisions also remove the proposed language in Tariff section 
+
+438(H) permitting it to pay any study delay penalties it incurs from the non-refundable 
+portion of the study deposits collected from project developers.58  
+
+3. 
+
+Commission Determination 
+
+  We find that PJM’s proposed revisions regarding the elimination of reasonable 
+efforts and study delay penalties partially comply with the Commission’s directives in the 
+Second Compliance Order.  Specifically, we accept PJM’s proposed Tariff revisions to 
+remove:  (1) the phrase “or the amount of time it takes to complete all Application review 
+activities for the relevant cycle, whichever is greater,” from Tariff section 403(B)(3);59 
+(2) the previously proposed language in Tariff section 438(E) that would allow PJM to 
+unilaterally extend study deadlines up to 30 days;60 and (3) proposed Tariff provisions in 
+section 438(H) that permit it to pay any study delay penalties it incurs from the non-
+refundable portion of the study deposits collected from interconnection customers.61  
+Further, we find that PJM’s proposed Tariff section 438(E) complies with the 
+requirements of Order Nos. 2023 and 2023-A and the directives in the Second 
+Compliance Order because PJM’s proposed Tariff revisions remove the previously 
+proposed revisions allowing PJM to unilaterally extend study deadlines and adopt 
+language from pro forma LGIP sections 3.9(5).  We also find that PJM’s proposal to 
+remove Tariff section 438(H) complies with the directive in the Second Compliance 
+Order to remove the out-of-scope provision. 
+
+  However, we reject PJM’s proposed Tariff revisions that remove Tariff section 
+
+438(F).  The Commission did not direct the removal of section 438(F) in its Second 
+Compliance Order.  Accordingly, we direct PJM to submit a further compliance filing 
+within 60 days of the date of this order to reinstate the provisions in Tariff section 438(F).     
+
+58 Id. at 10.  See also PJM Tariff, pt. VIII, subpt. K § 438 (0.1.0), § 438(E).  PJM 
+also proposes to remove Tariff section 438(F), which provided a separate effective date 
+for section 438.  
+
+59 Second Compliance Order, 195 FERC ¶ 61,031 at P 98. 
+
+60 Id. P 99. 
+
+61 Id. P 100.  
+
+ 
+ 
+Docket No. ER24-2045-005  
+
+- 15 - 
+
+E. 
+
+Affected System Study Process and Modeling Requirements 
+
+In Order No. 2023, the Commission adopted an affected system study process and 
+
+added several related definitions to the pro forma LGIP.62 
+
+The Commission adopted section 9.2 (Response to Initial Notification) of the pro 
+
+forma LGIP, which requires the affected system transmission provider to respond to 
+notification of a potential affected system impact in writing within 20 business days, 
+indicating whether it intends to conduct an affected system study.63  Section 9.2 also 
+requires that, within 15 business days of the affected system transmission provider’s 
+affirmative response of its intent to conduct an affected system study, the affected system 
+transmission provider must share a non-binding good faith estimate of the cost and 
+schedule to complete the affected system study. 
+
+The Commission next adopted section 9.4 (Affected System Study 
+Agreement/Multiparty Affected System Study Agreement) of the pro forma LGIP  
+to require that the transmission provider tender the affected system study agreement 
+within 10 business days of sharing the schedule for the study with the affected  
+system interconnection customers.64  Section 9.4 also requires the affected system 
+interconnection customer to compensate the affected system transmission provider for  
+the actual costs of the affected system study, and the difference between the affected 
+system study deposit and actual cost of the affected system study will be detailed in an 
+invoice and paid by or refunded to the affected system interconnection customer within 
+30 calendar days of the receipt of such invoice.65  An affected system interconnection 
+customer’s failure to pay the difference between these amounts will result in loss of that 
+affected system interconnection customer’s affected system queue position.  Section 9.4 
+also requires that the affected system transmission provider notify the host transmission 
+provider of the affected system interconnection customer’s breach of its obligations under 
+this section, should such breach occur.66 
+
+The Commission next adopted section 9.5 (Execution of Affected System Study 
+
+Agreement/Multiparty Affected System Study Agreement) of the pro forma LGIP, which 
+
+62 Order No. 2023, 184 FERC ¶ 61,054 at PP 1110, 1112; see also pro forma LGIP 
+
+§ 1. 
+
+63 Order No. 2023, 184 FERC ¶ 61,054 at P 1120; see also pro forma LGIP § 9.2. 
+
+64 Order No. 2023, 184 FERC ¶ 61,054 at P 1154; see also pro forma LGIP § 9.4. 
+
+65 Order No. 2023, 184 FERC ¶ 61,054 at P 1157. 
+
+66 Id. P 1159. 
+
+ 
+ 
+ 
+ 
+ 
+Docket No. ER24-2045-005  
+
+- 16 - 
+
+provides the affected system interconnection customer with 10 business days from the 
+date of receipt of the affected system study agreement to execute and deliver it to the 
+affected system transmission provider.67  Section 9.5 also provides that, if the affected 
+system interconnection customer does not provide all required technical data when it 
+delivers the affected system study agreement, the affected system transmission provider 
+shall notify the affected system interconnection customer of the deficiency within five 
+business days of the receipt of the affected system study agreement, and the affected 
+system interconnection customer has 10 business days to cure the deficiency after receipt 
+of such notice (provided that the deficiency does not include failure to deliver the 
+executed affected system study agreement or deposit). 
+
+The Commission next adopted section 9.6 (Scope of Affected System Study) of 
+
+the pro forma LGIP, which requires the affected system study to consider the base case  
+as well as all higher-queued generating facilities on the affected system transmission 
+provider’s transmission system and to consist of a power flow, stability, and short circuit 
+analysis.68  Section 9.6 also requires the affected system study to provide a list of affected 
+system network upgrades that are required because of the affected system interconnection 
+customer’s proposed interconnection, a non-binding good faith estimate of cost 
+responsibility, and a non-binding good faith estimated time to construct.  The affected 
+system study may consist of a system impact study, a facilities study, or some 
+combination thereof. 
+
+The Commission next adopted section 9.7 (Affected System Study Procedures) of 
+
+the pro forma LGIP, which requires clustering of affected system interconnection 
+customers for study purposes where multiple interconnection requests that are part of a 
+single cluster in the host system’s cluster study process cause the need for an affected 
+system study.69  Section 9.7 also requires the affected system transmission provider to 
+complete the affected system study and provide the affected system interconnection 
+customer with affected system study results within 150 calendar days after receipt of the 
+affected system study agreement.  Section 9.7 also requires the affected system 
+transmission provider to provide the affected system study report to the host transmission 
+provider at the same time it provides the report to the affected system interconnection 
+customer.  The affected system transmission provider must notify the affected system 
+interconnection customer that an affected system study will be late.70  Lastly, pro forma 
+LGIP section 9.7 requires affected system transmission providers to study all affected 
+
+67 Id. P 1158; see also pro forma LGIP § 9.5. 
+
+68 Order No. 2023, 184 FERC ¶ 61,054 at P 1160; see also pro forma LGIP § 9.6. 
+
+69 Order No. 2023, 184 FERC ¶ 61,054 at P 1133; see also pro forma LGIP § 9.7. 
+
+70 Order No. 2023, 184 FERC ¶ 61,054 at P 1135. 
+
+ 
+ 
+ 
+Docket No. ER24-2045-005  
+
+- 17 - 
+
+system interconnection requests using Energy Resource Interconnection Service (ERIS)71 
+modeling standards.72 
+
+The Commission added a new section 11.2.1 (Delay in LGIA Execution, or Filing 
+
+Unexecuted, to Await Affected System Study Report) to the pro forma LGIP.73  Under 
+this section, if the interconnection customer does not receive its affected system study 
+results before the deadline in its host system for LGIA execution, or the deadline to 
+request that the LGIA be filed unexecuted, the host transmission provider must, at the 
+interconnection customer’s request, delay the deadline for the interconnection customer 
+to finalize its LGIA.  The interconnection customer will have 30 calendar days after 
+receipt of the affected system study report to execute the LGIA, or request that the LGIA 
+be filed unexecuted.  Additionally, if the interconnection customer prefers to proceed to 
+the execution of its LGIA, or request that the LGIA be filed unexecuted, before it has 
+received its affected system study results, it may notify the host transmission provider of 
+its intent to proceed with the execution of the LGIA, or request that the LGIA be filed 
+unexecuted.74  If the host transmission provider determines that further delay to the LGIA 
+execution date would cause a material impact on the cost or timing of an equal- or lower-
+queued interconnection customer, the transmission provider must notify the relevant 
+interconnection customer of such impact and establish that the new deadline is 30 
+calendar days after such notice is provided. 
+
+The Commission adopted section 9.8 (Meeting with Transmission Provider) of the 
+
+pro forma LGIP, which requires the affected system transmission provider and the 
+affected system interconnection customer to meet within 10 business days of the affected 
+system transmission provider tendering the affected system study report to the affected 
+system interconnection customer.75 
+
+71 ERIS is an interconnection service that allows the interconnection customer to 
+connect its generating facility to the transmission provider’s transmission system to be 
+eligible to deliver the generating facility’s electric output using the existing firm or non-
+firm capacity of the transmission provider’s transmission system on an as available basis. 
+ERIS in and of itself does not convey transmission service.  Pro forma LGIP § 1. 
+
+72 Order No. 2023, 184 FERC ¶ 61,054 at P 1276. 
+
+73 Id. P 1123; see also pro forma LGIP § 11.2.1. 
+
+74 Order No. 2023, 184 FERC ¶ 61,054 at P 1124. 
+
+75 Id. P 1169; see also pro forma LGIP § 9.8. 
+
+ 
+ 
+ 
+Docket No. ER24-2045-005  
+
+- 18 - 
+
+1. 
+
+Second Compliance Order 
+
+In the Second Compliance Order, the Commission directed PJM to submit a 
+
+further compliance filing to either adopt the definitions in section 1 of the pro forma 
+LGIP related to the affected system reforms or justify its affected system-related terms 
+and their associated definitions in PJM Tariff section 400 under the independent entity 
+variation standard.76   
+
+The Commission also rejected several of PJM’s unexplained independent entity 
+
+variations and directed PJM to justify its proposal under the independent entity variation 
+standard or adopt the affected system provisions of the pro forma LGIP.  First, the 
+Commission found that PJM had not explained how its omission in Tariff section 
+434(B)(2) of the requirement to provide a non-binding good faith estimate of the cost and 
+schedule to complete the affected system study accomplishes the purposes of Order Nos. 
+2023 and 2023-A.77 
+
+Second, the Commission found that PJM’s provision in Tariff section 434(A)(3) 
+did not explain how relying on the conclusion of another phase in PJM’s Cycle process 
+accomplishes the purposes of Order Nos. 2023 and 2023-A.78 
+
+Third, the Commission found that PJM did not explain how the lack of a 
+deficiency cure period for affected system interconnection customers in Tariff sections 
+434(B)(3)(a), 434(B)(7), and 434(B)(7)(a), or PJM’s shorter timeframe for an affected 
+system customer to pay affected system impact study costs, accomplishes the purposes of 
+Order Nos. 2023 and 2023-A.79 
+
+Fourth, the Commission found that PJM did not explain how its proposed 
+
+provision in Tariff section 434(B)(5)(a) providing that PJM will commence affected 
+system studies “[w]hen all relevant Affected System Interconnection Customers have 
+
+76 Second Compliance Order, 195 FERC ¶ 61,031 at PP 117 n.229, 132, 160.  PJM 
+had proposed the following terms:  “affected system customer facilities study application 
+and agreement,” “affected system customer impact study agreement,” “affected system 
+facilities study,” “affected system facilities study deposit,” “affected system facilities 
+study report,” “affected system impact study,” “affected system impact study deposit,” 
+“affected system impact study report,” “affected system network upgrades,” and 
+“affected system queue position.”   
+
+77 Id. P 135. 
+
+78 Id. P 136. 
+
+79 Id. P 137. 
+
+ 
+ 
+ 
+ 
+ 
+ 
+Docket No. ER24-2045-005  
+
+- 19 - 
+
+executed an Affected System Customer Impact Study Agreement, provided the 
+associated deposit, and provided all the required technical data” accomplishes the 
+purposes of Order Nos. 2023 and 2023-A.80 
+
+Fifth, the Commission found that PJM did not explain how its proposal in Tariff 
+
+section 434(B)(5) to reference the PJM Manuals for study parameter details accomplishes 
+the purposes of Order Nos. 2023 and 2023-A.81 
+
+Sixth, the Commission found that PJM did not explain how its proposal in Tariff 
+
+section 434(B)(7) to establish a separate, 120-calendar-day timeframe for the affected 
+system facilities study accomplishes the purposes of Order Nos. 2023 and 2023-A.82 
+
+Seventh, the Commission found that PJM did not explain how its proposed Tariff 
+provisions in sections 434(B)(5)(c), 434(B)(5)(d), and 434(B)(7)(b) stating that PJM will 
+complete the affected system studies after PJM has received “required deposits from all 
+Affected System Customers in the cluster” accomplishes the purposes of Order Nos. 
+2023 and 2023-A.83 
+
+Eighth, the Commission found that PJM’s proposed Tariff sections 403(C)(1) and 
+
+403(C)(2) did not include language reflecting the Order Nos. 2023 and 2023-A 
+requirement that the transmission provider meet with the affected system interconnection 
+customer to discuss the results of the affected system study and PJM did not explain how 
+the omission accomplishes the purposes of Order No. 2023 and 2023-A.84 
+
+Finally, the Commission found that PJM did not explain how the omission of  
+pro forma LGIP section 11.2.1 (Delay in LGIA Execution, or Filing Unexecuted, to 
+Await Affected System Study Report) accomplishes the purposes of Order Nos. 2023 and 
+2023-A.85 
+
+80 Id. P 138. 
+
+81 Id. P 139. 
+
+82 Id. P 140. 
+
+83 Id. P 143. 
+
+84 Id. P 144. 
+
+85 Id. P 145. 
+
+ 
+ 
+ 
+ 
+ 
+ 
+Docket No. ER24-2045-005  
+
+- 20 - 
+
+2. 
+
+Third Compliance Filing 
+
+In response to the Commission’s directive to adopt the definitions in section 1 of 
+the pro forma LGIP related to the affected system reforms or justify its affected system-
+related terms and their associated definitions under the independent entity variation 
+standard,86 PJM provides justifications for its proposed terms and definitions.87  PJM 
+asserts that the affected systems terms and definitions PJM uses in its Tariff are 
+substantively similar to the final rule’s terms and definitions and that where PJM’s 
+nomenclature varies from the terms used in the pro forma LGIP, those variations are just 
+and reasonable and not unduly discriminatory and are consistent with the objectives of 
+the final rule.88 
+
+For the pro forma LGIP term “affected system network upgrades,” PJM proposes 
+
+that its definition “shall mean the Network Upgrades that are needed on Transmission 
+Provider’s Transmission System as a result of an Affected System Facility.”89  PJM states 
+that its proposed definition of “affected system network upgrades” uses PJM’s term 
+“network upgrades” to encompass the “additions, modifications, and upgrades” 
+referenced in the final rule’s definition.90  
+
+For the pro forma LGIP term “affected system study,” PJM proposes two terms: 
+
+“affected system facilities study” and “affected system impact study.”  PJM proposes that 
+the term “affected system facilities study” “shall mean the study performed to determine 
+the scope, cost and time schedule to complete any required Network Upgrades to 
+transmission facilities on Transmission Provider’s Transmission System.”  PJM proposes 
+that the term “affected system impact study” “shall mean the study performed to 
+determine if an Affected System Facility has any impact which may require Network 
+Upgrades on Transmission Provider’s Transmission System.”  PJM states that, taken 
+together, PJM’s more granular definitions comprise the totality of the final rule’s 
+definition.91 
+
+86 Id. PP 117 n.229, 132, 160.     
+
+87 Third Compliance Filing at 11.  
+
+88 Id. at 11.  
+
+89 PJM Tariff, pt. VIII, subpt. A, § 400A (Definitions A) (3.0.0). 
+
+90 Id. 
+
+91 Id. 
+
+ 
+ 
+ 
+ 
+Docket No. ER24-2045-005  
+
+- 21 - 
+
+For the pro forma LGIP term “affected system study report,” PJM proposes two 
+
+terms: “affected system impact study report” and “affected system facilities study report.”  
+PJM proposes that the term “affected system impact study report” “shall mean a report 
+summarizing the impacts of an Affected System Facility on transmission facilities on 
+Transmission Provider’s Transmission System and any required Network Upgrades.”  
+PJM proposes that the term “affected system facilities study report” “shall mean a report 
+summarizing the scope, cost and schedule for any required Network Upgrades to 
+transmission facilities on Transmission Provider’s Transmission System.”  PJM explains 
+that the “affected system impact study report” and “affected system facilities study 
+report” are the reports issued following the completion of an Affected System Impact 
+Study or affected system facilities study, as applicable.  
+
+For the pro forma LGIP term “affected system queue position,” PJM proposes that 
+the term “affected system queue position” “shall mean the priority in which the Affected 
+System Customer’s project is studied relative to Transmission Provider’s New Service 
+Requests.”92  
+
+For the pro forma LGIP term “affected system study agreement,” PJM proposes 
+
+two terms: “affected system customer facilities study application and agreement” and 
+“affected system customer impact study agreement.”  PJM proposes that the term 
+“affected system customer facilities study application and agreement” “shall mean the 
+agreement set forth in Tariff, Part IX, Subpart L, Affected System Customer Facilities 
+Study Application and Agreement.”  PJM proposes that the term “affected system 
+customer impact study agreement” “shall mean the agreement set forth in Tariff, Part IX, 
+Subpart O, Affected System Customer Facilities Study Application and Agreement.  PJM 
+argues that the “affected system customer facilities study application and agreement” and 
+“the affected system customer impact study agreement,” as applicable, satisfy the pro 
+forma LGIP definition of “affected system study agreement.”93 
+
+In response to the Commission’s directive to explain its omission in Tariff section 
+434(B)(2) of the requirement to provide a non-binding good faith estimate of the cost and 
+schedule to complete the affected system impact study or adopt the pro forma LGIP 
+provisions,94 PJM proposes to revise Tariff section 434(B)(2) to provide that, 
+“Transmission Provider estimates that the Affected System Impact Study will require 
+approximately 120 days after Transmission Provider receives all Affected System 
+Customer’s technical information and will cost approximately $30,000.”  PJM argues the 
+Commission should find that this information provides affected system customers and the 
+
+92 Id.  
+
+93 Id. 
+
+94 Second Compliance Order, 195 FERC ¶ 61,031 at P 135. 
+
+ 
+ 
+ 
+ 
+ 
+Docket No. ER24-2045-005  
+
+- 22 - 
+
+affected system customers’ host transmission providers a non-binding good faith estimate 
+of the cost and schedule to complete the affected system impact study and, therefore, the 
+Commission should grant PJM’s independent entity variation request.  PJM adds that the 
+proposed Tariff revision represents a just and reasonable and not unduly discriminatory 
+change to accommodate the volume of affected system impact studies PJM handles while 
+still providing information to affected system customers, and thus is consistent with the 
+objectives of the final rule.95  PJM explains that based on PJM’s decades of experience 
+performing affected system impact studies, estimates of costs and schedules tend not to 
+change over time and that these estimates in the Tariff also eliminate potential concerns 
+about cost variations and study length on a project-by-project basis.96 
+
+In response to the Commission’s directive to justify relying on the conclusion of 
+
+another phase in PJM’s Cycle process or adopt the pro forma LGIP provisions,97 PJM 
+proposes to revise Tariff section 434(A)(3) to rely on Decision Point II for PJM’s 
+interconnection customers that are required to enter into a affected system study 
+agreement with an affected system operator to demonstrate that it “continues to meet the 
+requirements of the affected system operator’s process, including, but not limited to 
+providing evidence of a fully executed affected systems study agreement and acceptance 
+of any required technical data and study deposits from the affected system operator no 
+later than the conclusion of Decision Point II of the relevant Cycle.”  PJM explains that 
+based on its experience with the Cycle process and its neighbors’ adoption of affected 
+system study processes compliant with Order No. 2023, PJM believes that this 
+requirement should remain tied to the end of a decision point but that the relevant 
+decision point is at the end of Decision Point II.  PJM explains that while it had originally 
+proposed to tie this requirement to Decision Point I, recent experience has shown that 
+putting this requirement later in the Cycle process allows affected system operators, 
+interconnection customers, and PJM the time needed to enter into the affected system 
+study process and provide actionable data while maintaining the integrity of the Cycle 
+process.98  PJM explains that requiring interconnection customers in the Cycle process to 
+enter into affected system agreements with affected system operators prior to the end of 
+Decision Point II will ensure that all projects under study in the Cycle process, including 
+
+95 Third Compliance Filing at 12.  
+
+96 Id., Affidavit of Lisa Krizenoskas ¶¶ 17-18 (Krizenoskas Aff.). 
+
+97 Second Compliance Order, 195 FERC ¶ 61,031 at P 136. 
+
+98 Krizenoskas Aff. ¶ 16. 
+
+ 
+ 
+Docket No. ER24-2045-005  
+
+- 23 - 
+
+those owned by affected system customers, are meeting all their requirements in 
+advance.99   
+
+In response to the Commission’s directive to justify its lack of a cure period or 
+adopt the pro forma LGIP provisions,100 PJM proposes new language in Tariff section 
+434(B)(3)(b) to adopt a deficiency cure process that PJM asserts is very similar to the 
+process in section 9.5 of the pro forma LGIP and in the PJM Cycle application process.  
+PJM requests an independent entity variation to provide PJM with 15 business days to 
+provide the initial notice of deficiency and that the affected system customer shall cure 
+the technical deficiency within 10 business days.101  PJM argues this timing is necessary 
+to reflect the volume of affected system studies PJM undertakes and also aligns with the 
+deficiency notice timing in the Cycle process.102  
+
+In response to the Commission’s directive to explain its proposed Tariff provision 
+
+in section 434(B)(5)(a) providing that PJM will commence affected system studies 
+“[w]hen all relevant Affected System Interconnection Customers have executed an 
+Affected System Customer Impact Study Agreement, provided the associated deposit, 
+and provided all the required technical data” or adopt the pro forma LGIP provisions103 
+and to the Commission’s directive to explain its proposed Tariff provisions in sections 
+434(B)(5)(c), 434(B)(5)(d), and 434(B)(7)(b) stating that PJM will complete the affected 
+system studies after PJM has received “required deposits from all Affected System 
+Customers in the cluster” or adopt the pro forma LGIP provisions,104 PJM provides 
+further justification for its requested independent entity variation and also proposes 
+additional revisions in Tariff section 434(B)(3)(b) to provide a definitive timeline, 
+pursuant to the deficiency cure process established within the same Tariff section (i.e., 
+PJM with 15 business days to provide the initial notice of deficiency and affected system 
+customer shall cure the technical deficiency within 10 business days) within the affected 
+system process when all inputs, deposits, and agreements are in place to allow PJM to 
+
+99 Id. 
+
+100 Second Compliance Order, 195 FERC ¶ 61,031 at P 137. 
+
+101 PJM Tariff, pt. VIII, subpt. G, § 434 (4.1.0), § 434(B)(3)(b).  
+
+102 Third Compliance Filing at 14.  
+
+103 Second Compliance Order, 195 FERC ¶ 61,031 at P 138. 
+
+104 Id. P 143. 
+
+ 
+ 
+ 
+ 
+ 
+Docket No. ER24-2045-005  
+
+- 24 - 
+
+move forward with studying the affected system study cluster.105  PJM asserts that it is 
+most efficient for PJM to perform one study for all members of an affected system study 
+cluster and start that work when all the required information has been received.  PJM 
+asserts that the Commission should find that the new section 434(B)(3)(b) provides 
+clarity as to the application deficiency review timing between PJM and the affected 
+system customer(s) and establishes a definitive point at which PJM will commence  
+study activities, while also recognizing the volume of studies that PJM encounters.  
+Accordingly, PJM states, this variation from the pro forma LGIP is just and reasonable 
+and not unduly discriminatory and satisfies the objectives of Order Nos. 2023 and 2023-
+A by providing transparency and certainty and making the affected system study process 
+more efficient.  
+
+In response to the Commission’s directive to explain its proposal in Tariff section 
+
+434(B)(5) to reference the PJM Manuals for study parameter details,106 PJM proposes  
+to remove from Tariff section 434(B)(5)(a) the reference to the PJM Manuals and 
+withdraws its request for an independent entity variation to reference the PJM Manuals 
+for study parameter details as unnecessary.107 
+
+In response to the Commission’s directive to explain its proposal in Tariff section 
+
+434(B)(7) to establish a separate, 120-calendar-day timeframe for the affected system 
+facilities study or adopt the pro forma LGIP provisions,108 PJM proposes a separate,  
+180-day affected system facilities study period.  PJM states that retaining the two-part 
+affected system study process – 120 days for the affected system impact study followed 
+by 180 days for the affected system facilities study – will allow PJM to expedite projects 
+that do not cause any network impacts and provides a more appropriate, transparent, and 
+nondiscriminatory framework than a single, combined 150-day study period.109  PJM 
+notes that it relied on its extensive experience in conducting affected system studies and 
+if PJM were required to shorten the affected system study or limit the study to only the 
+system impact component, then it will not be able to provide the same level of 
+information to affected system customers it provides to interconnection customers in the 
+
+105 Third Compliance Filing at 15; see also PJM Tariff, pt. VIII, subpt. G, § 434 
+
+(4.1.0), § 434(B)(3)(b).  
+
+106 Second Compliance Order, 195 FERC ¶ 61,031 at P 139. 
+
+107 Third Compliance Filing at 16.  
+
+108 Second Compliance Order, 195 FERC ¶ 61,031 at P 140. 
+
+109 Krizenoskas Aff. ¶ 10.  
+
+ 
+ 
+ 
+Docket No. ER24-2045-005  
+
+- 25 - 
+
+Cycle.110  PJM asserts that, for the same reasons that the Commission provided PJM an 
+independent entity variation to continue using its longer, three-phase Cycle process 
+timelines (i.e., to accommodate the volume of Interconnection Requests PJM must 
+process), the Commission should also permit PJM to have a separate, 180-day period for 
+the affected system facilities study.111  PJM states that until further automation and 
+technology advancements can be implemented to significantly reduce the time needed to 
+conduct both the affected system impact study and the affected system facilities study, 
+PJM’s proposal ensures that the scope and cost estimates for any required network 
+upgrades are sufficiently developed.112  PJM states that for projects that do trigger 
+affected system impacts, the subsequent 180-day affected system facilities study period is 
+necessary to ensure that transmission owners have sufficient time to develop accurate and 
+reliable scope, cost, and schedule estimates that directly inform the interconnection 
+customer’s decision-making.113   
+
+PJM also proposes that the affected system impact study deposit is an amount that 
+is refundable and non-binding, and that actual study costs may exceed the deposit amount 
+of $30,000.  The affected system customer is responsible for, and must pay, actual study 
+costs.  The affected system impact study deposit is due to the transmission provider 
+within 10 business days of the receipt of the affected system customer impact study 
+agreement which must be executed.114  Relatedly, PJM proposes that the affected system 
+facilities study deposit is an amount that is refundable and non-binding, and that actual 
+study costs may exceed the deposit amount of $100,000.  The affected system customer is 
+responsible for, and must pay, actual study costs.  The affected system facilities study 
+deposit is due to the transmission provider within 15 business days of the receipt of the 
+Affected System Customer Facilities Study Application and Agreement, which must be 
+executed.115  
+
+In response to the Commission’s directive to explain its proposal to omit in Tariff 
+
+sections 403(C)(1) and 403(C)(2) the requirement that the transmission provider meet 
+with the affected system interconnection customer to discuss the results of the affected 
+
+110 Third Compliance Filing at 16.  
+
+111 Third Compliance Filing at 16-17. 
+
+112 Id., Krizenoskas Aff. ¶ 9. 
+
+113 Id. ¶ 11. 
+
+114 PJM Tariff, pt. VIII, subpt. G, § 434 (4.1.0), § 434(B)(3). 
+
+115 Id. §§ 434(B)(7), 434(B)(7)(a). 
+
+ 
+ 
+ 
+Docket No. ER24-2045-005  
+
+- 26 - 
+
+system study or adopt the pro forma LGIP provisions,116 PJM requests an independent 
+entity variation from the pro forma LGIP’s requirement.117  PJM states that given the 
+volume of affected system studies that PJM undertakes, a requirement to meet with each 
+individual affected systems customer would be administratively burdensome and would 
+delay the processing of other studies.118  PJM explains that it provides affected system 
+customers as well as PJM’s interconnection customers substantial process information 
+through monthly Interconnection Process Subcommittee meetings, the PJM Manuals, and 
+the “frequently asked question” pages of PJM’s website.  PJM states that when deemed 
+more effective and efficient, PJM holds meetings with affected system customers.119  
+PJM also explains that PJM’s current Cycle process does not include this requirement for 
+Cycle projects and that including it here for affected system studies would create 
+different treatment between PJM’s interconnection customers and external affected 
+system customers.120   
+
+In response to the Commission’s directive to explain its proposal to omit the 
+
+requirement in Tariff section 11.2.1 of the pro forma LGIP allowing a delay in LGIA 
+execution, or filing unexecuted, to await affected system study report,121 PJM requests an 
+independent entity variation to forgo adopting this requirement.122  PJM explains that it 
+processes all final agreements together, so that if one project is delayed, all projects are 
+delayed.  PJM states that a delay at this late stage of the process would impede and could 
+drastically slow down PJM’s Cycle process, which may upend interconnection 
+customers’ expectations as to when they will have final, effective agreements.123  PJM 
+argues that such an outcome would be contrary to Order No. 2023’s purpose of making 
+generation interconnection faster and more efficient.124 
+
+116 Second Compliance Order, 195 FERC ¶ 61,031 at P 144. 
+
+117 Third Compliance Filing at 17.  
+
+118 Id. at 17-18. 
+
+119 Id. at 18; see also Krizenoskas Aff. ¶ 19. 
+
+120 Krizenoskas Aff. ¶ 19. 
+
+121 Second Compliance Order, 195 FERC ¶ 61,031 at P 145. 
+
+122 Third Compliance Filing at 18.  
+
+123 Id. at 18-19.  
+
+124 Id. at 19.  
+
+ 
+ 
+Docket No. ER24-2045-005  
+
+- 27 - 
+
+3. 
+
+Commission Determination 
+
+  We find that PJM’s proposed terms and definitions for “affected system network 
+upgrades,” “affected system facilities study,” “affected system facilities study deposit,” 
+“affected system impact study,” “affected system impact study deposit,” “affected system 
+impact study report,” “affected system facilities study report,” “affected system queue 
+position,” “affected system customer facilities study application and agreement,” and, 
+“affected system customer impact study agreement” in Tariff section 400 comply with 
+the directives in the Second Compliance Order and accomplish the purpose of Order Nos. 
+2023 and 2023-A.  Specifically, PJM’s proposed terms and definitions do not alter the 
+meaning of the pro forma LGIP terms and definitions and provide additional clarity by 
+enumerating the affected system transmission provider’s responsibilities in the affected 
+system study process.125  We also find that proposed terms “affected system impact study 
+deposit” and “affected system facilities study deposit” are just and reasonable and not 
+unduly discriminatory or preferential and accomplish the purposes of Order Nos. 2023 
+and 2023-A because, in light of the Commission’s acceptance of the $30,000 affected 
+system impact study deposit, these terms clarify the affected system interconnection 
+customer’s obligation to provide study deposits.126   
+
+  We find that PJM’s proposed revision to Tariff section 434(B)(2), which states 
+“Transmission Provider estimates that the Affected System Impact Study will require 
+approximately 120 days after Transmission Provider receives all Affected System 
+Customer’s technical information and will cost approximately $30,000,” is just and 
+reasonable and not unduly discriminatory or preferential and accomplishes the purposes 
+of Order Nos. 2023 and 2023-A.127  As PJM acknowledges, estimates of costs and 
+schedules tend not to change over time.128  Accordingly, we grant PJM’s independent 
+entity variation request because PJM’s proposed language in Tariff section 434(B)(2) 
+ensures that the affected system study process leads to timely affected system study 
+results that provide greater cost certainty while still providing affected system 
+interconnection customers with a non-binding good faith estimate of the approximate cost 
+and schedule to complete the affected system study.129 
+
+125 Order No. 2023, 184 FERC ¶ 61,054 at P 1112.  
+
+126 Id. P 1136. 
+
+127 See Second Compliance Order, 195 FERC ¶ 61,031 at P 133 n.266. 
+
+128 Krizenoskas Aff. ¶¶ 17-18. 
+
+129 Order No. 2023, 184 FERC ¶ 61,054 at P 1121.  
+
+ 
+Docket No. ER24-2045-005  
+
+- 28 - 
+
+  We find that PJM’s proposed language in Tariff section 434(B)(3)(b) that 
+establishes a 15-business day period for affected system interconnection customers to 
+cure any deficiencies in their affected system interconnection study agreements or face 
+the loss of their affected system queue position is just and reasonable and not unduly 
+discriminatory or preferential and accomplishes the purposes of Order Nos. 2023 and 
+2023-A because it provides an additional five business days over the Commission’s pro 
+forma LGIP for affected system interconnection customers to cure any deficiencies, 
+which provides flexibility for affected system interconnection customers and will still 
+result in timely completion of the affected system impact study.130 
+
+  Related to PJM’s proposed language in Tariff section 434(B)(3)(b) that establishes 
+a 15-business day deficiency cure period, we find that PJM’s proposed language in Tariff 
+section 434(B)(3)(b), which provides a definitive timeline within the affected system 
+process when all inputs, deposits, and agreements are in place to allow PJM to move 
+forward with studies, is just and reasonable and not unduly discriminatory or preferential 
+and accomplishes the purposes of Order Nos. 2023 and 2023-A because PJM’s proposed 
+language ensures that the affected system study process moves along expediently, 
+providing clarity, cost certainty, and increased transparency.131  Similarly, we find that 
+PJM’s proposal to commence studies after all deposits are in place is just and reasonable 
+and not unduly discriminatory or preferential and accomplishes the purposes of Order 
+Nos. 2023 and 2023-A because it will improve administrative efficiency in the affected 
+system study process, thereby promoting overall efficiency in the interconnection 
+process.132 
+
+  We find that PJM’s proposed revisions in Tariff section 434(B)(5)(a) to remove 
+
+the reference to the PJM Manuals for affected system study parameter details and 
+withdraw its independent entity variation request complies with the Commission’s 
+directive in the Second Compliance Order.133  
+
+  We find that PJM’s proposed 180-day period for affected system facilities studies 
+is just and reasonable and not unduly discriminatory or preferential and accomplishes the 
+purposes of Order Nos. 2023 and 2023-A.  As PJM explains, its 180-day affected system 
+facility study timeframe is necessary to ensure that transmission owners have sufficient 
+
+130 Id. P 1158.  
+
+131 Id. P 1110.  
+
+132 Id. P 1133. 
+
+133 See Second Compliance Order, 195 FERC ¶ 61,031 at P 139. 
+
+ 
+Docket No. ER24-2045-005  
+
+- 29 - 
+
+time to develop accurate and reliable scope, cost, and schedule estimates.134  Relatedly, 
+PJM states that the 120-day affected system impact study period enables the affected 
+system transmission provider to issue results to affected system interconnection 
+customers with no identified affected system impacts significantly earlier than would be 
+possible under a 150-day combined study window.  PJM states that early issuance of “no-
+impact” determinations reduces unnecessary delay, improves queue processing 
+efficiency, and supports timely development of projects that do not require further 
+analysis.135  PJM cautions that a compressed or combined study period would risk 
+producing incomplete or lower-quality estimates, thereby undermining the affected 
+system interconnection customer’s ability to make informed commercial decisions.136  
+We find PJM’s explanation persuasive.  Accordingly, we find that PJM’s proposed 180-
+day affected system facility study timeframe and 120-day affected system impact study 
+period accomplish the purposes of the affected systems study process reforms in Order 
+Nos. 2023 and 2023-A by helping to ensure that the affected system study process moves 
+along expediently while providing greater clarity, cost certainty, and transparency to 
+affected system interconnection customers throughout the study process.137 
+
+  We reject PJM’s requested independent entity variation to omit the pro forma 
+LGIP requirement to meet with the affected system interconnection customer to discuss 
+the results of the affected system study.  While PJM asserts that, given the volume of 
+affected system studies that PJM undertakes, a requirement to meet with each individual 
+affected system interconnection customer would be administratively burdensome and 
+would delay the processing of other studies,138 we reiterate that the suite of affected 
+system study reforms the Commission adopted in Order Nos. 2023 and 2023-A were 
+intended to ensure that the affected system study process moves along expediently with 
+increased transparency and that while certain steps may increase the need for 
+communication and coordination between affected system transmission providers and 
+interconnection customers, the potential burden of those steps are outweighed by the 
+efficiencies of a standardized, predictable affected system study process.139  Further, 
+while we note that PJM acknowledges it will hold meetings with affected system 
+
+134 Krizenoskas Aff. ¶ 11. 
+
+135 Id. ¶ 10. 
+
+136 Id.  
+
+137 Order No. 2023, 184 FERC ¶ 61,054 at P 1110; see also N.Y. Indep. Sys. 
+
+Operator, Inc., 193 FERC ¶ 61,031, at P 104 (2025).  
+
+138 Third Compliance Filing at 17-18. 
+
+139 Order No. 2023, 184 FERC ¶ 61,054 at PP 1110-1111. 
+
+ 
+Docket No. ER24-2045-005  
+
+- 30 - 
+
+customers when deemed more effective and efficient, Order No. 2023 explains that such 
+a meeting between the affected system transmission provider and affected system 
+interconnection customer will facilitate transparency and meaningful communication in 
+the affected system study process.140  Accordingly, we direct PJM to submit within 60 
+days of the date of this order a further compliance filing to adopt the requirements of pro 
+forma LGIP section 9.8.  
+
+  We find that PJM’s proposal to omit the requirement of the pro forma LGIP 
+
+section 11.2.1 to allow, at the interconnection customer’s request, a delay in the deadline 
+for the interconnection customer to finalize its LGIA or request that its LGIA be filed 
+unexecuted to await an affected system study report is just and reasonable and not unduly 
+discriminatory or preferential and accomplishes the purposes of Order Nos. 2023 and 
+2023-A.  As PJM explains, it processes all final agreements in a lock-step approach such 
+that delays in a Cycle would cascade into later Cycles.  Because a delay in execution of a 
+GIA by an interconnection customer would cause cascading effects on interconnection 
+customers in other Cycles in PJM, we find that PJM’s proposal to omit the requirement of 
+pro forma LGIP section 11.2.1 from its Tariff is just and reasonable.  Accordingly, we 
+grant PJM’s independent entity variation request because PJM’s proposed omission 
+ensures that the affected system study process moves along expediently, providing 
+clarity, cost certainty, and increased transparency.141  
+
+  We find that PJM’s requested independent entity variation in Tariff section 
+
+434(A)(3) to require PJM’s interconnection customers in the Cycle process to 
+demonstrate to PJM that the interconnection customer continues to meet the requirements 
+of the affected system operator’s process, such as providing evidence of a fully executed 
+affected systems study agreement no later than the conclusion of Decision Point II, is just 
+and reasonable and not unduly discriminatory or preferential and accomplishes the 
+purposes of Order Nos. 2023 and 2023-A.  As PJM notes, requiring interconnection 
+customers in the Cycle process to enter into affected system agreements with affected 
+system operators prior to the end of Decision Point II will ensure that all projects under 
+study in the Cycle process, including those owned by affected system interconnection 
+customers, are meeting all their requirements in advance.142  Accordingly, we grant 
+PJM’s independent entity variation request because PJM’s revised Tariff section 
+434(A)(3) ensures that the Cycle process moves along expediently, and accomplishes the 
+purposes of Order Nos. 2023 and 2023-A to require that the interconnection customer 
+
+140 Id. P 1169.  
+
+141 Id. P 1110; see also N.Y. Indep. Sys. Operator, Inc., 191 FERC ¶ 61,049, at  
+
+P 283 (2025).  
+
+142 Krizenoskas Aff. ¶ 16. 
+
+ 
+Docket No. ER24-2045-005  
+
+- 31 - 
+
+demonstrate meaningful progress towards achieving commercial viability and allow 
+transmission providers to focus on processing viable interconnection requests.143       
+
+F. 
+
+Affected System Pro Forma Agreements 
+
+In Order No. 2023, the Commission adopted several pro forma agreements to 
+
+improve the efficiency and transparency of the interactions among the parties during the 
+affected system study process.  The Commission first adopted a pro forma affected 
+system study agreement in new Appendix 9 (Two-Party Affected System Study 
+Agreement) of the pro forma LGIP and a pro forma multiparty affected system study 
+agreement in new Appendix 10 (Multiparty Affected System Study Agreement) of the 
+pro forma LGIP.144  These pro forma affected system study agreements stipulate how to 
+study the impact of interconnecting generating facilities on an affected system to identify 
+network upgrades needed to accommodate the interconnection request. 
+
+1. 
+
+Second Compliance Order 
+
+In the Second Compliance Order, the Commission found that PJM’s proposed  
+
+pro forma Affected System Customer Impact Study Agreement did not include the 
+information that the affected system transmission provider will provide to the affected 
+system interconnection customer in a study report upon completion of the affected  
+system study as set forth in Article 5 of appendices 9 and 10 to the pro forma LGIP.145  
+Accordingly, the Commission directed PJM to submit a compliance filing to incorporate 
+in its Tariff the information set forth in Article 5 of appendices 9 and 10 to the pro forma 
+LGIP or justify its proposal under the independent entity variation standard. 
+
+2. 
+
+Third Compliance Filing 
+
+PJM states it has revised its pro forma Affected System Customer Impact Study 
+Agreement to include the required information as set forth in Article 5 of appendices 9 
+and 10 of the pro forma LGIP.146  PJM’s proposed revisions provide that “The [Affected 
+
+143 Order No. 2023, 184 FERC ¶ 61,054 at P 490.   
+
+144 Order No. 2023, 184 FERC ¶ 61,054 at PP 1171, 1232; see also pro forma 
+
+LGIP, apps. 9, 10. 
+
+145 Second Compliance Order, 195 FERC ¶ 61,031 at P 159. 
+
+146 Third Compliance Filing at 19.  
+
+ 
+ 
+ 
+ 
+Docket No. ER24-2045-005  
+
+- 32 - 
+
+System Customer] Impact Study will provide one or more of the following” and includes 
+the list of information in Article 5 of appendices 9 and 10 of the pro forma LGIP.147   
+
+3. 
+
+Commission Determination 
+
+  We find PJM’s proposed revisions to its pro forma Affected System Customer 
+Impact Study Agreement comply with the directives in the Second Compliance Order and 
+the requirements of Order Nos. 2023 and 2023-A because PJM includes the required 
+information set forth in Article 5 of appendices 9 and 10 to the pro forma LGIP. 
+
+G. 
+
+Co-Located Generating Facilities 
+
+In Order No. 2023, the Commission revised pro forma LGIP section 3.1.2 to 
+require transmission providers to allow more than one generating facility to co-locate on 
+a shared site behind a single point of interconnection and share a single interconnection 
+request.148  The Commission clarified that interconnection customers have the choice to 
+structure their interconnection requests for co-located generating facilities according to 
+their preference (i.e., as separate interconnection requests or as a shared interconnection 
+request) and that Order No. 2023 does not require interconnection customers to share a 
+single interconnection request for multiple generating facilities located on the same 
+site.149  The Commission also clarified that co-located generating facilities can be owned 
+by a single interconnection customer with multiple generating facilities sharing a site, or 
+by multiple interconnection customers that have a contract or other agreement that allows 
+for shared land use.150 
+
+1. 
+
+Second Compliance Order 
+
+In the Second Compliance Order, the Commission found several of PJM’s 
+proposals to be outside the scope of its Order Nos. 2023 and 2023-A compliance 
+proceeding.151  Accordingly, the Commission directed PJM to submit a further 
+compliance filing to remove from its Tariff the proposed requirement to submit 
+documentation with the interconnection request detailing the shared facility 
+
+147 PJM Tariff, pt. IX, subpt. O, § 10.1 (0.10). 
+
+148 Order No. 2023, 184 FERC ¶ 61,054 at P 1346; see also pro forma LGIP         
+
+§ 3.1.2. 
+
+149 Order No. 2023, 184 FERC ¶ 61,054 at PP 1351-1352. 
+
+150 Id. P 1355. 
+
+151 Second Compliance Order, 195 FERC ¶ 61,031 at P 170. 
+
+ 
+ 
+ 
+Docket No. ER24-2045-005  
+
+- 33 - 
+
+configurations, ownership arrangements, and division of rights and responsibilities with 
+respect to operations, maintenance, and repair, and proposed Schedule N of PJM’s pro 
+forma GIA for shared interconnection customer interconnection facilities. 
+
+2. 
+
+Third Compliance Filing 
+
+PJM proposes revisions to Tariff section 403, its pro forma Application and 
+Studies Agreement, and its pro forma GIA to remove the provisions concerning multiple 
+generating facilities behind the same point of interconnection that the Commission found 
+to be outside the scope of this compliance proceeding, including Schedule N of PJM’s 
+pro forma GIA, which established terms and conditions governing the ownership, 
+control, and use of shared project developer interconnection facilities, and to remove 
+Tariff provisions requiring a project developer to submit documentation concerning 
+shared facilities arrangements in its Application.152 
+
+3. 
+
+Commission Determination 
+
+  We find that PJM’s proposed revisions concerning multiple generating facilities 
+behind the same point of interconnection comply with the Commission’s directive in the 
+Second Compliance Order because PJM has removed the provisions that the Commission 
+found to be outside the scope of this compliance proceeding in the Second Compliance 
+Order.  
+
+H.  Operating Assumptions for Interconnection Studies 
+
+In Order No. 2023, the Commission revised sections 3.1.2, 3.2.1.2 (The Study), 
+
+3.2.2.2 (The Study), 3.3.1, 3.4.2, 4.4.3, 7.3, 8.2 (Scope of Interconnection Facilities 
+Study), and Appendix 1 (Interconnection Request for a Large Generating Facility)  
+of the pro forma LGIP and article 17.2 (Violation of Operating Assumptions for 
+Generating Facilities) and Appendix H (Operating Assumptions for Generating Facility) 
+of the pro forma LGIA to require transmission providers, at the request of the 
+interconnection customer, to use operating assumptions in interconnection studies that 
+reflect the proposed charging behavior of electric storage resources (whether standalone, 
+co-located generating facilities, or part of a hybrid generating facility)—i.e., whether the 
+interconnecting generating facility will or will not charge during peak load conditions—
+unless good utility practice, including applicable reliability standards, otherwise requires 
+the use of different operating assumptions.153  The Commission also added article 17.2 to 
+
+152 Third Compliance Filing at 21. 
+
+153 Order No. 2023, 184 FERC ¶ 61,054 at P 1509; see also pro forma LGIP        
+
+§§ 3.1.2, 3.2.1.2, 3.2.2.2, 3.3.1, 3.4.2, 4.4.3, 7.3, 8.2, app.1; pro forma LGIA art. 17.2, 
+app. H. 
+
+ 
+ 
+ 
+Docket No. ER24-2045-005  
+
+- 34 - 
+
+the pro forma LGIA to describe a violation of operating assumptions and Appendix H to 
+the pro forma LGIA as the location for the interconnection customer to memorialize its 
+operating assumptions.154 
+
+1. 
+
+Second Compliance Order 
+
+In the Second Compliance Order, the Commission directed PJM to submit a 
+further compliance filing revising its Tariff to incorporate provisions consistent with the 
+Commission’s pro forma LGIA article 17.2 and Appendix H, as adopted in Order Nos. 
+2023 and 2023-A, or otherwise justify its proposed variations under the independent 
+entity variation standard.155 
+
+2. 
+
+Third Compliance Filing 
+
+PJM proposes revisions to its pro forma GIA, Appendix 2, section 4.6.2.4.1 and 
+
+Schedule I to incorporate provisions concerning operating assumptions for electric 
+storage resources.  Specifically, PJM proposes to add section 4.6.2.4.1 to its pro forma 
+GIA to incorporate the provisions of article 17.2 of the Commission’s pro forma LGIA 
+and to revise Schedule I of its pro forma GIA to incorporate the provisions of Appendix 
+H of the Commission’s pro forma LGIA, with minor modifications to conform to PJM’s 
+terminology, to memorialize the operating assumptions for the charging behavior under 
+which the electric storage resource was studied.156  Specifically, PJM’s proposed Tariff 
+revisions provide that PJM may consider an interconnection customer to be in breach of 
+its GIA for operating against the charging assumptions under which its electric storage 
+resource was studied, unless operating contrary to those assumptions at PJM’s direction.   
+
+3. 
+
+Commission Determination 
+
+  We find that PJM’s proposed revisions concerning operating assumptions for 
+interconnection studies comply with the requirements of Order Nos. 2023 and 2023-A 
+and Commission’s directive in the Second Compliance Order.  Specifically, PJM 
+proposes Tariff provisions that are consistent with article 17.2 and Appendix H of the 
+Commission’s pro forma LGIA by adding to its pro forma GIA, Appendix 2, section 
+4.6.2.4.1.  Additionally, PJM revises its pro forma GIA, Schedule I to incorporate the 
+provisions of Appendix H of the Commission’s pro forma LGIA, which memorializes the 
+
+154 Order No. 2023, 184 FERC ¶ 61,054 at P 1521; see also pro forma LGIA art. 
+
+17.2, app. H. 
+
+155 Second Compliance Order, 195 FERC ¶ 61,031 at P 182. 
+
+156 Third Compliance Filing at 22. 
+
+ 
+ 
+ 
+Docket No. ER24-2045-005  
+
+- 35 - 
+
+operating assumptions for the charging behavior under which the electric storage 
+resource was studied. 
+
+I. 
+
+Incorporating the Enumerated Alternative Transmission Technologies 
+
+In Order No. 2023, the Commission revised pro forma LGIP section 7.3 to require 
+
+transmission providers to evaluate the list of alternative transmission technologies 
+enumerated in Order No. 2023 during the cluster study, including any restudies, of the 
+generator interconnection process in all instances (i.e., for all interconnection customers 
+in a cluster), without the need for a request from an interconnection customer.   
+
+1. 
+
+Second Compliance Order 
+
+In the Second Compliance Order, the Commission directed PJM to submit a 
+
+further compliance filing that requires PJM to study the enumerated list of alternative 
+transmission technologies in its Phase I System Impact Study in addition to its Phases II 
+and III System Impact Studies, or justify its proposal under the independent entity 
+variation standard.157 
+
+2. 
+
+Third Compliance Filing 
+
+PJM proposes revisions to Tariff sections 403, 405, 407, and 409 to provide that 
+
+PJM will study the alternative transmission technologies in Phases I, II, and III, when the 
+interconnection customer provides the necessary technical information regarding the 
+alternative technologies to be studied in its Application and at Decision Point I, if 
+applicable.158 
+
+3. 
+
+Commission Determination 
+
+  We find that PJM’s proposed revisions in Tariff sections 403, 405, 407, and 409 
+
+relating to the evaluation of the enumerated alternative transmission technologies 
+complies with the directive in the Second Compliance Order because PJM’s revision 
+provides that it will also evaluate the enumerated alternative transmission technologies 
+during the Phase I System Impact Study of its cluster study process.159   
+
+157 Second Compliance Order, 195 FERC ¶ 61,031 at P 191. 
+
+158 Third Compliance Filing at 24; PJM Tariff, pt. VIII, subpt. B, § 403 (2.1.0); id. 
+
+subpt. C, § 405 (1.1.0); id. § 407 (2.1.0); id. § 409 (2.1.0).  
+
+159 Second Compliance Order, 195 FERC ¶ 61,031 at P 190; see also Midcontinent 
+
+Indep. Sys. Operator, Inc., 191 FERC ¶ 61,229, at PP 322-323 (2025).  
+
+ 
+ 
+ 
+ 
+Docket No. ER24-2045-005  
+
+- 36 - 
+
+J. 
+
+Effective Date 
+
+In Order No. 2023, the Commission stated that the requirements in transmission 
+providers’ tariffs will not be effective until the Commission-approved effective date of 
+the transmission provider’s filing in compliance with the final rule.160  In Order No. 
+2023-A, the Commission clarified that “transmission providers may propose effective 
+dates in their compliance filings that align with their existing queue processing dates, 
+such as the start of a new processing window.  We will consider these requests on a case-
+by-case basis in each individual compliance filing.”161 
+
+1. 
+
+Second Compliance Order 
+
+In the Second Compliance Order, the Commission accepted in part and rejected in 
+
+part PJM’s proposal with respect to the requested effective date.  The Commission 
+accepted PJM’s proposal for the Tariff revisions in the Second Compliance Filing to 
+become effective at the commencement of the next Cycle after the issuance of the Second 
+Compliance Order.162  However, the Commission rejected PJM’s proposal requesting a 
+later effective date for the Tariff revisions in PJM’s Tariff to remove the term “reasonable 
+efforts” and in section 438 of PJM’s Tariff regarding study delay penalties, and accepted 
+all of PJM’s proposed Tariff revisions to become effective at the same date.163  The 
+Commission directed PJM to make a further compliance filing no more than 120 days 
+and no less than 60 days before the proposed effective date to establish the effective date 
+of the Tariff revisions, as PJM proposed to do.164 
+
+2. 
+
+Third Compliance Filing 
+
+PJM files the Tariff records in compliance with the Second Compliance Order 
+with an indefinite effective date and states that it will make a filing no earlier than 120 
+days before and no later than 60 days before the commencement of Cycle No. 3 in mid-
+2027 to establish the effective date for these compliance revisions to the Tariff.165 
+
+160 Order No. 2023, 184 FERC ¶ 61,054 at P 1769. 
+
+161 Order No. 2023-A, 186 FERC ¶ 61,199 at P 669. 
+
+162 Second Compliance Order, 195 FERC ¶ 61,031 at P 210. 
+
+163 Id. PP 211-212. 
+
+164 Id. P 213. 
+
+165 Third Compliance Filing at 26. 
+
+ 
+ 
+ 
+ 
+Docket No. ER24-2045-005  
+
+- 37 - 
+
+3. 
+
+Commission Determination 
+
+  We accept PJM’s proposal for the effective date of the proposed Tariff revisions to 
+become effective at the commencement of Cycle No. 3.  We direct PJM to make a further 
+compliance filing in this docket no more than 120 days and no less than 60 days before 
+the proposed effective date, as PJM proposes to do.  Specifically, PJM is required to 
+make a further compliance filing in this docket through the Commission’s eTariff system 
+with the accepted tariff record text that establishes the actual effective date of the Tariff 
+records as the date of the commencement of the next Cycle after the issuance of this order 
+and designates the records accepted in this order as OBE (overtaken by events).166 
+
+The Commission orders: 
+
+(A)  PJM’s Third Compliance Filing is hereby accepted in part and rejected in 
+
+part, effective as requested, subject to a further compliance filing, as discussed in the 
+body of this order. 
+
+(B) 
+
+PJM is hereby directed to submit a compliance filing that addresses the 
+
+directives in this order within 60 days of the date of this order, as discussed in the body of 
+this order. 
+
+(C) 
+
+PJM is directed to make a compliance filing to establish the effective date 
+
+of the tariff records as discussed in the body of the order. 
+
+By the Commission. 
+
+( S E A L )   
+
+Debbie-Anne A. Reese, 
+Secretary. 
+
+166 PJM must make a compliance filing using Type of Filing Code 80 in this 
+
+docket by including the associated filing identifier (associated_filing_id) for this  
+filing at the filing level.  The filing must include tariff records with the effective  
+date for the previously accepted tariff records and also include, at the tariff record  
+level, the associated filing identifier (associated_filing_id), associated record id 
+(associated_record_id), and associated option code (associated_option_code) of the 
+original tariff records accepted with a 12/31/9998 date. 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Docket No. ER24-2045-005  
+
+- 38 - 
+
+Appendix – Tariff Records  
+
+PJM Interconnection, L.L.C. 
+Intra-PJM Tariffs 
+
+Tariff Records Accepted Effective December 31, 9998: 
+
+•  400 S, OATT 400 Definitions S (4.1.0) 
+•  403, OATT Part VIII.B 403 Application Rules (2.1.0) 
+•  404, OATT Part VIII.C 404 Introduction (2.1.0) 
+•  405, OATT Part VIII.C 405 Phase I (1.1.0) 
+•  407, OATT Part VIII.C 407 Phase II (2.1.0) 
+•  409, OATT Part VIII.C 409 Phase III (2.1.0) 
+•  434, OATT Part VIII.G 434 Affected System Rules (4.1.0) 
+•  438, OATT Part VIII.K 438 Penalties for Failure to Meet Study Dea (0.1.0) 
+•  IX Subpart A, OATT Part IX Subpart A FORM OF APPLICATION AND 
+
+STUDIES AGRMT (3.1.0) 
+
+•  IX.B GIA, OATT Part IX.B GIA (4.1.0) 
+•  IX.B GIA Specs, OATT Part IX.B GIA Specs (3.1.0) 
+•  IX.B GIA Appx-Sched, OATT Part IX.B GIA Appendices and Schedules (3.1.0) 
+•  IX.B GIA Appx 2 Sec 4, OATT Part IX.B GIA Appx 2 Section 4 (2.0.0) 
+•  IX.B GIA Schedule H, OATT Part IX.B GIA Schedule H (1.1.0) 
+•  IX.B GIA Schedule I, OATT Part IX.B GIA Schedule I (2.0.0) 
+•  IX.C WMPA Schedules A-F, OATT Part IX.C WMPA Schedules A-F (1.1.0) 
+•  IX Subpart O, OATT  IX Subpart O Form of Affected System Customer Impact S 
+
+(0.1.0)  
+
+ 
+ 
+ 
+

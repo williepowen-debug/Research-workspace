@@ -1,0 +1,22 @@
+[
+  {
+    "source": "STATUS.md",
+    "bytes": 10930,
+    "sha256": "39462e4b0dd0ba4ce60b843acfb13b7619c75972ba8a525ad78d6a5e99481788"
+  },
+  {
+    "source": "SCRATCH.md",
+    "bytes": 4128,
+    "sha256": "e35dd9e090d79f192e54bd1045dacdf8232da7b935e41c9d7300f0504a5ae470"
+  },
+  {
+    "source": "THESIS.md",
+    "bytes": 19700,
+    "sha256": "15ab0df6ed55523b9a50d02fb529da1e085a83fd0defadca37f7a0d7c2f36434"
+  },
+  {
+    "source": "TRADE.md",
+    "bytes": 2592,
+    "sha256": "d5afbd1d88eda9df94fa392a1c5eb55fca13c10a1a56b1a08e9c1e1eaa9a88c4"
+  }
+]

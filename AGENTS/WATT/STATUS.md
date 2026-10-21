@@ -1,22 +1,32 @@
 # WATT — STATUS
 
-**Record updated:** 2026-10-20T22:39:45-04:00 — Will-directed sweep. **Observation cutoff:** PJM tape through October 20 22:20EPT; board/DOE readOctober20; gas quote22:29ET. Auctions July 14, regulatory orderOctober9/readOctober12; no fresh all-issuer guidance census. **P1/P2/P3/P4=5/5/4/2; composite16/20 unchanged.**
+**Record updated:** 2026-10-20T22:56:04-04:00 — news/data sweep; previous record/inbox sweep retained. **Observation cutoff:** PJM tape through October 20 22:45 EPT; board/DOE readOctober20; gas quote22:29ET. Auctions July 14, regulatory orderOctober9/readOctober12; no fresh all-issuer guidance census. **P1/P2/P3/P4=5/5/4/2; composite16/20 unchanged.**
 **Class:** market-agent, grid stress → wholesale price → industrial/data-center cost. **Maturity:** L4, ConfH (DAEDALUS September 5); spawnable by Will/PROME. Historical records and operating explanations: `archive/2026-10-20_before-sweep/` byte-exact snapshots and manifest; earlier status archives retained. Whole-read budget32,550B; measured by checks.
 
 ## CONVERGENCE MATRIX
 
 | # | Channel | Score (1–5) | Local state | Independence | Key signal | Upgrade trigger |
 |---|---|:---:|---|---|---|---|
-|P1|Stress→price|5 HELD|No new RED observed Oct 15–20 cutoff; de-escalation pendingOct22|Outage-season root; backup authority shares event root|Oct 16–19 complete tape max471.98/387.92/295.18/380.98 dollars/MWh; Oct 20max315.14 through22:20. Oct 19CapacityAdvisory, not EEA; outageforecast72.4GWOct20 [KB157/158]|No early5→3. Grade fullOct15–21window afterOct21 ends, including DOE renewal/EEA/RED checks. EEA2+ invokes existing rules |
+|P1|Stress→price|5 HELD|No new RED observed Oct 15–20 cutoff; de-escalation pendingOct22|Outage-season root; backup authority shares event root|Oct 16–19 complete tape max471.98/387.92/295.18/380.98 dollars/MWh; Oct 20max315.14 through22:45. Oct 19CapacityAdvisory, not EEA; outageforecast72.4GWOct20 [KB157/158]|No early5→3. Grade fullOct15–21window afterOct21 ends, including DOE renewal/EEA/RED checks. EEA2+ invokes existing rules |
 |P2|Structural capacity cost|5|Three at-cap clears/two shortfalls; IRAS core rejected, registry only|P2/P3 share demand-forecast root; not independent confirmations|28/29$325/MWday=100%owncap,6831MWshort [PJMJuly14]. IRAS rejectedOct9/readOct12, WATT10MISS, DoorB~50% [KB140/141]|29/30BRA belowcap AND queuesdrain for thesis-kill; cost allocation unresolved |
 |P3|Data-center demand|4 HELD|Demand discriminator unchanged; current active-queue limb UNKNOWN|Shares P2 load forecast; site execution reports not independent demand proof|Cycle1PhaseI168.6 GW [PJMSept30]; old~250GWactive/1.56x historical. Current transition remainder unmeasured; EIT2115MWplanned2029, not online [Oct 8;KB159]|ACTIVE queue>2x forecastpeak OR IPPload-growthguide RAISED. No evidence for5; do not replace total withcycle-only |
 |P4|Gas→power|2|NOT-FIRED; positive power-window proxy, no direction inference|Shares P1 price root; gas basis remains unmeasured|Oct 15–19onpeak49.7217,n958; Oct 20NG=F2.970→HR7spark+28.93/HR8+25.96 [KB161]|Negative3+sessions on consistentbasis; proxy is not matched daily settlements |
 
 **Composite16/20** transparent arithmetic5+5+4+2. Current positive/quiet snapshots do not retroactively erase October 13RED or prove the seven-day clear window. No deploy-posture change or security mispricing measurement.
 
+## NEWS / NEW DATA — primary reads October 20 (KB165–172)
+
+**Demand counterevidence:** The Market Monitor's September 25 filing identifies **4,016.9 MW cancelled OR delayed** as of September 21, about **42% of 9,481 MW forecast growth**, not total data-center load. Scenario 3 shortfall **3,055 MW** versus historical auction **6,831.3 MW** is a sensitivity, not PJM's revised forecast. IIR/public-data tracking; monitor lacks EDC project-level adjustments, and WATT did not independently verify projects. P3 stays4 on its registered funding discriminator, with weaker forward realization confidence. Generation-queue attrition is a different population.
+
+**Supply response:** Google/Constellation October6: **890 MW new uprates**, first expected2028,20-yearPPA; separate **2,700 MW existing-fleet** agreement not new supply. Amazon/Constellation September30: **690 MW total includes190 MW new**, planned2030–32. Issuer announcements, no contracts/permits or deliveredMW inspected. Not immediate2026/27relief, not an adopted IRAS cost rule, and no nameplate subtraction from UCAPshortfall.
+
+**Policy and clocks:** September29RBPorder accepts for filing but suspends to **February28,2027**, subject torefund/furtherproceedings. No September30procurementstart. PrimaryOctober22MCagenda9am-noon confirms consultation onsection205revisions. October29refile/October21motionanswerdates remain secondaryleads awaiting primarydocuments. **Next2029/30BRA is December2026 perPJM, not WATT's old~mid2027**; exactday/latestcalendarunverified. October21FERCAD26-8conference10am–2:40pmEDT is an agenda, not ruling. ER24-2045October15generatororder requires60daycompliance and laterCycle3effectiveness; not data-center ride-through law or immediatequeueclearance.
+
+**Backdrop and current read:** EIAOctober6forecast/inputcutoffOct1primarychecked:2026US11hubmean$52/MWh,PJM+41%YoY;2027USmean$49. Forecasts, not spotprices; noOct13–14information incorporated. FreshPJMthrough22:45:$30.82latest,max$315.14,n273,0observedRED;unverified/partialday,21:15missing. Fullreport:`reports/2026-10-20_NEWS_SWEEP.md`. Priorhistoricalcorrections/sourcewalls below remainbinding.
+
 ## LIVE READS AND CORRECTIONS
 
-**P1:** October 15–19 zero observed>=1000prints. Oct 15n286 missing10:35/22:20; Oct 16–19n288each. Oct 20n268 through22:20,21:15missing; latest$34.30/MWh. Five-minute operational/unverified, not settlement. Isolated missing stamps have non-REDneighbors; no fullOct20/21grade. Valid posting105575:Oct 19CapacityAdvisory;105576:DOMlocalwarning, not RTOemergency.105577–595invalid/unavailable cannot prove never issued/withdrawn. Same-day outage forecasts67.7/67.9/75.2/72.9/72.4/72.4GWOct15–20, not real-time availability. Report/source captures: `reports/2026-10-20_WATT_SWEEP.md`, `sources/2026-10-20-sweep/`.
+**P1:** October 15–19 zero observed>=1000prints. Oct 15n286 missing10:35/22:20; Oct 16–19n288each. Oct 20n273 through22:45,21:15missing; latest$30.82/MWh. Five-minute operational/unverified, not settlement. Isolated missing stamps have non-REDneighbors; no fullOct20/21grade. Valid posting105575:Oct 19CapacityAdvisory;105576:DOMlocalwarning, not RTOemergency.105577–595invalid/unavailable cannot prove never issued/withdrawn. Same-day outage forecasts67.7/67.9/75.2/72.9/72.4/72.4GWOct15–20, not real-time availability. Report/source captures: `reports/2026-10-20_WATT_SWEEP.md`, `sources/2026-10-20-sweep/`.
 
 **DOE:** 202-26-50 expired perOct16term; no extension/newerPJMorder indexed atOct20read. Bounded public-index negative. **PJM October 15 primary retrospective explicitly says large-load backup authority was not used and had not been used to date**: October 14-use unknown CLOSED for this specific instrument [KB158]. No claim afterOct15; paraEreports still unavailable. Specified-unit operation is a different object. Earlier “fourth grant” counted a subset; PJM says ninth authorization in2026.
 
@@ -38,7 +48,7 @@
 
 |Channel|Standing rule|Current state|FIRED?|
 |---|---|---|---|
-|P1|EEA2+ OR LMP>=1000for2+consecutive5-min AND(posting OR demand>=97%trailingpeak)|No newfire observed throughOct20cutoff; lastfireOct13. HistoricalSept17EEA2nowverified|NOT-FIRED atthisread; historical fire remains on5days9/2,9/16,9/17,10/7,10/13 |
+|P1|EEA2+ OR LMP>=1000for2+consecutive5-min AND(posting OR demand>=97%trailingpeak)|No newfire observed through Oct20 22:45 cutoff; lastfireOct13. HistoricalSept17EEA2nowverified|NOT-FIRED atthisread; historical fire remains on5days9/2,9/16,9/17,10/7,10/13 |
 |P2|BRAatcap AND reliabilityshort|Threeatcap/twoshort, July 14basis|FIRED |
 |P3|ACTIVEgenerationqueue>2xforecastsummerpeak|Currentactive-total UNKNOWN; old250 GW/1.56xhistorical; currentcycle168.6GWnotwholequeue|UNKNOWN limb; no newgrade/upgrade |
 |P4|Negative spark3+sessions, consistentbasis|Positive+28.93windowproxy; no matcheddailysettlementseries|NOT-FIRED onavailableevidence |
@@ -49,6 +59,9 @@
 
 |Next touch|Date / owner|Reason|
 |---|---|---|
+| FERC reliability conference | Oct21,10:00–14:40EDT | AD26-8 agenda; not pending-case ruling; next existing-source touch, no automatic monitor |
+| RBP stakeholder consultation | Oct22,09:00–12:00EPT | Primary SpecialMCagenda; new section205proposal discussion, not approved outcome |
+| Next2029/30BRA | December2026, exactdaytoverify | Corrects old~mid2027; registered thesis test, no threshold change |
 |CompleteOct20–21coverage;P1de-escalation|Firstboot>=Oct 22,WATT;registeredPROME DOCKETphysicalL717|Windowunfinished; noearly5→3; repeatDOE/EEA/REDchecks. Registeredwake, notrunningmonitor |
 |Currentactivegenerationqueue/remainder|NextP3primarytouch,WATT|Withdrawoldratio; do notmanufacturetotalfromdifferentdates/populations |
 |MeteredvsDRJulyrecord,L650|Oct 23,WATT→AEOLUS|PJMOct15stillcalls~168GWpreliminary; finalDRverifiedsplitnotlocated, unresolved |
@@ -66,4 +79,4 @@ Other retainedopenwork:6.5GWhistoricalgap viaoutages;CoreWeavehedgeshares;Lought
 
 ## BOTTOM LINE
 
-Power prices have eased since October’s emergency, but PJM’s October 20 forecast still had 72.4 GW of generation offline. The held stress score stays 16/20 until the complete October 15–21 window can be graded. PJM confirms it did not use large-load backup generation during October 13–14; September 17 was EEA-2, correcting WATT’s earlier account. The current total generation queue is unknown after the study cycle shrank; this does not establish cancelled data-center demand. Next is the registered October 22 test; no new trade or Will decision.
+The forward power-scarcity case now carries material counterevidence: the Market Monitor identifies 4.0 GW of delayed or cancelled data-center projects, while announced nuclear uprates could add supply from2028 onward. The monitor's lower shortfall is a scenario based on outside project tracking, not PJM's adopted forecast; the uprates are planned, not online. Current prices remain below crisis levels, but P1 stays5 and composite16/20 until the October22complete-window grade. The next2029/30capacityauction is scheduled forDecember2026, earlier than WATT had recorded; no trade or Will decision.
