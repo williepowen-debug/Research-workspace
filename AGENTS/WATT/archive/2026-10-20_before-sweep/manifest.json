@@ -1,0 +1,38 @@
+[
+  {
+    "source": "STATUS.md",
+    "archive": "archive/2026-10-20_before-sweep/STATUS.md",
+    "bytes": 21907,
+    "sha256": "df8019267765bcaa4680cc535ae05bff460a5945d11579d49ff47dc0b0714107"
+  },
+  {
+    "source": "SCRATCH.md",
+    "archive": "archive/2026-10-20_before-sweep/SCRATCH.md",
+    "bytes": 4405,
+    "sha256": "758db129af9b8b40567221576eee08553e917d657058f2d08f5be111a97230d8"
+  },
+  {
+    "source": "THESIS.md",
+    "archive": "archive/2026-10-20_before-sweep/THESIS.md",
+    "bytes": 21024,
+    "sha256": "2dfe1aeee7cb501d7a8914f30c25108879f852f8aa300f4dc9fc6f0124f1d8de"
+  },
+  {
+    "source": "TRADE.md",
+    "archive": "archive/2026-10-20_before-sweep/TRADE.md",
+    "bytes": 6106,
+    "sha256": "c65cb0598eb51e775be2ca9c90d54968ff43c89bcb40d1c353d88916458dc6f5"
+  },
+  {
+    "source": "workbook/VX.tsv",
+    "archive": "archive/2026-10-20_before-sweep/workbook/VX.tsv",
+    "bytes": 9922,
+    "sha256": "869b473b053113efa4388b3c6050fa4930ec0bec8f3287cb50b24a69f06f7dc8"
+  },
+  {
+    "source": "workbook/FLOW.tsv",
+    "archive": "archive/2026-10-20_before-sweep/workbook/FLOW.tsv",
+    "bytes": 18295,
+    "sha256": "320151b0effc9ba6ce6931a8aa9b62103b7a686dbd181d966a924ce049120b21"
+  }
+]

@@ -1,0 +1,18 @@
+PJM has accepted the first three projects in a new, temporary process designed to get large generation resources online quickly to address the urgent growth in demand for electricity.
+The projects are two battery storage projects and one natural gas generator upgrade with more than 2,100 MW in combined nameplate capacity. Nameplate capacity refers to a generator’s capability at full output.
+The application window for the
+Expedited Interconnection Track
+(EIT) opened on July 31 for projects that are backed by a primary siting authority and can begin operation within three years.
+On Wednesday, PJM published the accepted proposals on its new
+EIT page
+. The projects, slated to come online in mid-2029, are:
+Two battery storage projects from ENGIE IR Holdings LLC with a total of 1,660 MW of nameplate capacity
+Wayne 345 kV is a storage project to be sited in Crawford, Pennsylvania, in the PENELEC zone, with 860 MW of nameplate capacity.
+Galion 345 kV is a storage project in Morrow, Ohio, in the ATSI zone, with 800 MW of nameplate capacity.
+Hunterstown 500 kV is an upgrade to an existing natural gas facility in Adams, Pennsylvania, in the Met-Ed zone, adding 455 MW of nameplate capacity.
+The projects in the PJM database are referenced by their planned point of interconnection onto the PJM transmission system.
+In addition to getting generation online quickly, the EIT enables individual states to accelerate select projects based on their resource adequacy needs.
+Through the EIT, PJM will approve up to 10 interconnection requests per calendar year in 2026 and 2027 for large new or uprated capacity resources. To qualify, these resources must have, among other requirements, a commitment from a relevant state authority to help expedite site permitting – one of the hurdles many projects face after receiving PJM’s permission to connect with the grid.
+A project must also offer at least 250 MW of unforced capacity, the amount credited for reliability purposes.
+PJM expects the projects to execute a Generation Interconnection Agreement within 10 months of submission. Proposals will be accepted on a rolling basis until the limit is reached for that calendar year. The EIT process will sunset at the end of 2027.
+The EIT is one element of a multifaceted approach to address supply/demand challenges in the PJM region resulting from significant growth in the demand for electricity, particularly from data centers and other so-called “Large Load” customers.

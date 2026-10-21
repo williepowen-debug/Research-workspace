@@ -1,0 +1,13 @@
+The first phase of PJM’s new interconnection process started Sept. 28, with 617 projects capable of generating nearly 169 GW of electricity remaining in the study Cycle.
+This marks the first group of proposed generation resources to be processed under a new approach designed to reduce speculative projects, improve predictability and increase the overall pace of interconnection. Projects will be reviewed in what is designed to be a one- to two-year process, depending on the impact of an individual project.
+Of 811 initial applications, 715 projects were accepted into the Cycle. Those that withdrew before Phase I will be refunded their readiness deposits.
+PJM’s new first-ready, first-served approach requires meaningful up-front financial commitments and proof of Site Control to demonstrate viability.
+The applications include a diverse mix of generation resources:
+617 projects, led by storage (265), natural gas (124), solar (101), wind (58), solar/storage (29), nuclear (25), other (9) and hydro (6)
+168.6 GW of nameplate capacity, led by natural gas (81.1 GW), storage (50.1 GW), nuclear (17.6 GW), solar (9.4 GW), solar/storage (6.0 GW), wind (3.5 GW), other (0.789 GW) and hydro (0.086 GW)
+PJM expects electricity demand to increase by up to 70 GW by 2038, driven largely by data centers and other Large Load customers. Demand growth is outpacing the addition of new supply, risking reliability and making the timely interconnection of new resources critical to keeping the lights on for 67 million people in 13 states and the District of Columbia.
+The nameplate capacity figures cited above represent the maximum potential output of a resource into the system. Based on historical performance, only a percentage of projects that apply for interconnection will sign interconnection agreements and become operational.
+PJM currently has 49 GW of generation with signed agreements, but many of these projects are either not being built at all or are being slowed by hurdles such as state permitting and supply chain backlogs. PJM, its stakeholders, and state and federal policymakers are united in efforts to solve these challenges.
+Details on specific projects seeking interconnection may be found on the
+Cycle Service Request Status Page
+of PJM.com.

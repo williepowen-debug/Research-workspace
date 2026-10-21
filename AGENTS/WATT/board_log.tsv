@@ -57,3 +57,12 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-15T08:15:00-04:00	2026-10-14_from-PROME_compound-stress-evidence	acted	INBOX	PROME evidence: KB-WATT-047 hedge inference withdrawn; Top-Up clause (c) verified by WATT (WebFetch); sec 5.25 redacted power percentages on PROME's read; hedged share UNKNOWN; FL-WATT-08 corrected; VULCAN packet; KB-WATT-152
 2026-10-15T08:15:00-04:00	2026-10-14_from-PROME_L692-L693-wake-brief	acted	INBOX	L692 done (L654 full-day leg CLOSED); L693 NOT MET (P1 stays 5, re-test first boot >=10/22); L200 no new grade; KB-WATT-147..151,155; report reports/2026-10-15_DOCKET-L692-L693_PJM-emergency-clear-day-grade.md
 2026-10-15T08:15:00-04:00	2026-10-15_from-PROME_crash-recovery-L692-L693	acted	INBOX	Crash recovery: residue verified, report repaired, unapplied KB/STATUS/VX/FLOW/TRADE/packets/memo re-done from the dead session transcript and re-verified; L-57
+2026-10-20T22:39:45-04:00	SIG-W-20261015-005	acted	INBOX_WALTER	KB156: correctedhistorical2032relayto15.83pctHYGfund-evaluationOct14,nottrade;KB154annotated;R1receipt.
+2026-10-20T22:39:45-04:00	SIG-W-20261015-011	acted	INBOX_WALTER	AlreadygradedDOE/IRASoutcomesreconciled;KB158currentexpiry/backup-negative;no duplicatepredictiongrade.
+2026-10-20T22:39:45-04:00	SIG-W-20261016-011	acted	INBOX_WALTER	KB163 nationalall-utilities71.3pctprimaryread,notregionaldeliverablecapacity;70.3924electric-onlyattributed/notreproduced.
+2026-10-20T22:39:45-04:00	SIG-W-20261018-001	noted	INBOX_WALTER	KB162Loughtonreportedwithdrawal,rights/removalunverified;no broadneocloudexit orscorechange.
+2026-10-20T22:39:45-04:00	SIG-W-20261019-003	info-only	INBOX_WALTER	PublishedcreditcontextownerLIQUID/RED/REGINALD;noWATTthreshold/score.
+2026-10-20T22:39:45-04:00	SIG-W-20261020-012	acted	INBOX_WALTER	KB162Amazonpower-readinessassessed;privatecorporaterecordsnotinspected;rebuttalretained;no measuredstrandedstock/capexcut.
+2026-10-20T22:39:45-04:00	2026-10-15_from-VULCAN_ports-pike-reconciled-and-IRAS-integrated	acted	INBOX	KB162acknowledgment;4MWpopulationsnevernetted;hedge/IRASintegrationconfirmedatVULCANartifact.
+2026-10-20T22:39:45-04:00	2026-10-20_from-VULCAN_ferc-calendar-date-roles	noted	INBOX	KB162calendaracknowledgment;Nov16responses/Dec16answerswith205proviso;noask.
+2026-10-20T22:39:45-04:00	2026-10-20_from-VULCAN_loughton-amazon-and-power-date-correction	acted	INBOX	KB162existinggridlaneassessment;firmrights/withdrawal/substitutionnotestablished;October14backupnegativeclosedseparatelyKB158.

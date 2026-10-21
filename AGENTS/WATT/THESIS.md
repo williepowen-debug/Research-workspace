@@ -1,6 +1,6 @@
 # WATT — THESIS (per-channel transmission tables)
 
-**Last real data refresh: 2026-10-12** (P2 regulatory mechanism only; older per-channel stamps remain historical) · *prior: 2026-07-12 (rd-3)* — **⚠️ this file sat 36 days without a refresh while STATUS moved under it, and it contradicted STATUS on 9 load-bearing facts. All 9 are corrected below and each is marked ⟲.** *(Two-clock header adopted per PAT-044 + DAEDALUS D1/D6; the per-channel `[stamp]` lines exist so a reader — or a scanner — can date any single claim without dating the file. That absence is what let this file rot: it was **outside every check's range**, because a staleness checker keyed on STATUS could not see a file with no vintage of its own.)*
+**Last real data refresh: 2026-10-20** (P1/P3/P4 and stale live-state reconciliation; P2 auction/regulatory vintages remain July14/October12) · *prior: 2026-07-12 (rd-3)* — **⚠️ this file sat 36 days without a refresh while STATUS moved under it, and it contradicted STATUS on 9 load-bearing facts. All 9 are corrected below and each is marked ⟲.** *(Two-clock header adopted per PAT-044 + DAEDALUS D1/D6; the per-channel `[stamp]` lines exist so a reader — or a scanner — can date any single claim without dating the file. That absence is what let this file rot: it was **outside every check's range**, because a staleness checker keyed on STATUS could not see a file with no vintage of its own.)*
 
 **The one-line thesis:** AI-capex data-center load is colliding with a supply-constrained grid, turning wholesale power cost into a first-order AI-buildout FCF input, an industrial-cost channel, and a consumer pass-through — with grid-emergency events as the live tripwire and capacity-auction structure as the slow, high-conviction backbone.
 
@@ -12,30 +12,30 @@
 
 ---
 
-## P1 — Stress → price (the live tripwire) `[stamp 2026-08-17]`
+## P1 — Stress → price (the live tripwire) `[stamp 2026-10-20]`
 
 | Stage | Mechanism | State |
 |---|---|---|
-| 1 | Heat dome / cold snap / generator outage → load spike or supply loss | open (seasonal) — **summer 2026 is now spent as a driver**: peak demand ran 159–162 GW in early-mid July and has not exceeded **145,375 MW (8/6)** since; Aug 9-11 drew only a **Hot Weather Alert**, explicitly *"routine"* and non-emergency |
-| 2 | Reserve margin erodes → PJM issues emergency-procedure postings (warnings → EEA1 → EEA2) | ⟲ **open — 2 realized episodes, not 1** (7/3 EEA2 [primary-verified, KB-WATT-034]; 7/15-16 EEA-1). **Season-to-date count: 2, both July, both retraced.** **WATT-06 resolved MISS 8/17** — zero emergency-class postings 7/17–8/15 ⇒ the two episodes were **heat-clustered, not a structural cadence** |
-| 3 | Reserve shortfall → RT/DA LMP spikes (to scarcity pricing / cap) | ⟲ **confirmed, and the instrument question is settled: official PJM Data Miner 2 IS wired** (leg-5 live since 7/16; `PJM_API_KEY` restored 8/4) and is the **resolution instrument of record for P1 price predictions** (L-16). The EIA ICE proxy is **demoted to backdrop** (~12-day lag). Realized: $574.04 (7/1, proxy) · $410.55 5-min (7/16) · **$1,217.52 5-min (8/16)** |
-| 3b | **⚠️ NEW MECHANISM CANDIDATE — scarcity-type price WITHOUT scarcity.** Low-load hour → few units committed → thin ONLINE reserve → a contingency or the evening solar-sunset ramp prices like scarcity | **HYPOTHESIS, not established (FL-WATT-10, 8/17).** 8/16 printed 5 intervals ≥$1,000 peaking **$1,217.52**, in two ~20-min episodes, **on the month's LOWEST-demand day (122,075 MW)** with **zero postings of any class**, day mean $78.41. Base rate: 10 of 4,149 August 5-min intervals ≥$500, **all on that one day**; the month's *highest*-demand day (145,375 MW) maxed at $422.35. **Price and demand are anti-correlated at the extreme.** ⚠️ No cause published by PJM; the sunset-ramp timing of the second episode is suggestive, not evidence. **If true it moves P1 risk from PEAK to VALLEY** — and couples to P3, since always-on data-center load raises the valley floor |
-| 4 | Sustained power cost → industrial/data-center cost; emergency backup authority | **IRAS standing tariff route rejected 10/9** (197 FERC ¶61,019, paragraphs 13–15). Emergency section 202(c) authority remains separate; new request unverified as issued. Authority never proves utilisation |
+| 1 | Weather / outage / export pressure changes deliverable supply versus load | Active mechanism beyond summer: October13–14emergency at ordinary~108GWload with~61GWoutages; October19advisory with~72GWoutageforecast [KB148/151/157]. No reserve-erosion attribution from planned outages alone |
+| 2 | Operating constraint → emergency postings | Five tracked capacity episodes throughOct14; September17EEA2 nowverified atposting105532. Prior “two episodes, bothJuly” is historical; historicalC1MET from primaryposting+priorKB121REDtimings, rawreplayunavailable [KB160] |
+| 3 | Deliverable-supply stress → wholesale price | DM2five-minuteoperationalread is live; Oct13max2327.04/29consecutiveREDintervals. Oct15–19noobservedRED, Oct20partialmax315.14through22:20. No settlement label; currentP1=5held until completeOct22grade [KB148/157] |
+| 3b | Low-load price events: causal alternatives tested | FL10thincommitment and FL13hourlyramp hypotheses REFUTED Aug17 [KB086/087]; causeunexplained. Never inherit a refuted hypothesis as an open mechanism. Subhourly possibility was not directly tested; no successor registered |
+| 4 | Powercost / curtailment authority → operator economics | IRAScore rejectedOct9; emergencyauthorityseparate. DOE202-26-50issuedOct12,termendedOct16,noextensionindexedOct20. PJMOct15states large-loadbackupunusedtodate, coveringOct13–14; no laternegative. Hedge share/cash impact unknown [KB140/152/158] |
 
 **Repricing:** IPP power-generator equities (upside on scarcity), industrial power-cost margin compression, neocloud FCF drag.
-**Confirms/breaks this channel alone:** an EEA2+ event with an LMP spike confirms; **a full mild summer with no emergency postings kills the *live read*** (migrates to P2/P3, does **not** kill the thesis). ⟲ **That branch has now EXECUTED** — P1 fell 4→3→2 across three sessions with **WATT-03 MISS** and **WATT-06 MISS**, and the weight moved to P2/P3 exactly as written. **This is a channel-kill, not a thesis-kill**, and it happened along a path registered before the fact.
+**Confirms/breaks this channel alone:** summer dormancy was a historical channel state, reopened by September/October scarcity. Current P1=5 held; no early de-escalation before the complete October15–21window. Historical EEA2/RED overlap on September17 meets C1 on recorded evidence; no new live emergency or trade inferred.
 
 > ⚠️ **BAND RE-SPECIFIED 2026-08-17 — the old rule fired on its LETTER and that is preserved, not erased.** The prior band, *"RT LMP >$1,000 sustained 2+ intervals,"* named **no interval length and no instrument**, so the same 8/16 event fires on the 5-min tape (19:50 + 19:55 consecutive ≥$1,000) and cannot fire at all on the verified hourly. **Recorded FIRED-ON-LETTER / MECHANISM-REFUTED.** Replacement, prospective only:
 > **RED = LMP ≥$1,000 sustained 2+ CONSECUTIVE 5-min intervals AND (an emergency-class posting is live OR demand ≥97% of the trailing 24h peak).** Price alone = a **logged transient**, not a band. (L-29, KB-WATT-069.)
 
-## P2 — Structural capacity cost (the backbone — FIRED, at MAX) `[stamp 2026-08-17]`
+## P2 — Structural capacity cost (the backbone — FIRED, at MAX) `[stamp 2026-10-12 regulatory; 2026-07-14 auction]`
 
 | Stage | Mechanism | State |
 |---|---|---|
 | 1 | Data-center load growth outpaces new generation + retirements | confirmed |
 | 2 | PJM base residual auction (BRA) clears at the price cap | ⟲ **confirmed ×3** (26/27 **$329.17**; 27/28 **$333.44**; **28/29 $325 = AT its own cap (100%), cleared 2026-07-14**) ✅ *"97.5% of $333.44" RESOLVED 9/6 at PJM primary: $325 IS the 28/29 cap; PJM's "Down 2.5%" is the YoY cap change, mislabelled here as utilisation.* |
 | 3 | Cleared capacity falls short of the reliability requirement | ⟲ **confirmed ×2 — two consecutive RTO-wide shortfalls** (27/28 short **6,623 MW**, the first in PJM history where the *entire* RTO fell short; **28/29 short 6,831 MW**). 28/29: 138,318 MW UCAP+DR procured, uncapped sim **$554.72** (ComEd $776.69), **$16.4B** vs ~$30B uncapped. ⚠️ Attribution caveat: the ~$6.3B-of-$16.4B data-center figure is the **Market Monitor's**, not PJM's — PJM isolates no % |
-| 4 | Capacity cost passes through to retail/industrial bills (ComEd/BGE/Dominion) | open (in train, annual cadence). US industrial retail **8.71¢/kWh** (EIA 2026-05, canonical), residential **18.44¢/kWh** — ⚠️ read the shallow sequential uptick as monthly noise, **not** BRA pass-through: the 28/29 clear only landed 7/14 |
+| 4 | Capacity cost → retail/industrial bills | Annual pass-through mechanism, amount/allocation unresolved. Latest boot retail backdropJuly2026industrial9.77c/kWh,residential18.31; not a measured 2028/29auction pass-through [KB157scope/report] |
 | 5 | Cost allocation: ratepayers (Door A) versus new large loads (Door B) | **IRAS/BYONC rejected 10/9; definition/registry only accepted**. WATT-10 MISS; WATT-08 **~70%→~50%**, OPEN through 2027-06-30. Only proposed IRAS obligation removed; existing contracts, state tariffs and physical costs persist. Actual socialization unresolved. EL26-67 responses 11/16 with section 205 proviso (KB-140/141) |
 
 **Repricing:** utility retail rate cases, industrial siting economics, consumer energy CPI (→ CARL).
@@ -43,7 +43,7 @@
 **The live flip is now the 29/30 BRA (~mid-2027):** clears at cap again → thesis confirmed structural through the decade; clears **materially below cap AND with queues draining** → the structural leg is falsified. **Both conditions required** — a below-cap clear with queues still full is a supply response, not a demand collapse.
 **Near-term flip resolved 10/12:** WATT-10 MISS on the October 9 IRAS/BYONC rejection. Consumer allocation risk gains relative weight; actual allocation remains unresolved. Only the proposed IRAS obligation was removed. Any refile can change the mechanism; companion backstop is not graded here.
 
-## P3 — Data-center demand leg (couples to HEN-36) `[stamp 2026-08-17]`
+## P3 — Data-center demand leg (couples to HEN-36) `[stamp 2026-10-20; demand discriminator July31 carried]`
 
 | Stage | Mechanism | State |
 |---|---|---|
@@ -59,18 +59,22 @@
 **Queue rule, now measurable and still unmet:** ~**212,000 MW** of applications (829, as of May-2026, after FERC accepted PJM's **Expedited Interconnection Track on 2026-06-09**) vs the **160,451 MW** 2027 peak = **~1.32×**; it would take ~321,000 MW to trip. ⚠️ **SECONDARY source, PROVISIONAL, population unestablished** (whole active queue vs one cycle's intake vs EIT-eligible subset are three different denominators) — **do not publish the ratio cross-agent until pulled from a PJM primary.**
 ⚠️ **EXPECTED_SIGNALS running the WRONG way, logged as such (8/17):** the August EIA STEO cut **ERCOT 2027 load growth 14% → 6%** after Texas ordered an audit of every data centre in its queue (**474 GW** of requests, >1,800 projects, **>5× the state's record peak**; Batch Zero postponed). **But the cause is POLICY, not demand withdrawal** — the cut *follows* the pause — so it **confirms administrative rationing while disconfirming naive load-growth extrapolation.** **ERCOT, not PJM; ANALOGUE, NOT TRANSFER** — do not apply an ERCOT attrition rate here. 🔑 **474 GW against a <95 GW record peak cannot all be real demand: Texas has ordered the measurement of exactly the self-report inflation I attribute to PJM's 55 GW and cannot observe.**
 
-## P4 — Gas → power coupling (spark spread) `[stamp 2026-08-17]`
+**October20 P3 supply/queue reconciliation [KB159/162]:** Cycle1PhaseI168.6GW vs historicalintake220GW; currentactive-total/transitionremainder UNKNOWN, so old~250GW/1.56x is historical. Cycle-only1.051x uses older160.451GWforecastpeak and is not thetriad. Generationattrition is not cancelleddata-centerload. EITfirst3accepted2115MWplannedmid2029 are not online/firmsparecapacity. Amazon/Loughtonexecutionleads supportdelaymechanism only withsource/rebuttal/rights limits inSTATUS/report; no raisedIPPguidance or P3upgrade established.
+
+## P4 — Gas → power coupling (spark spread) `[stamp 2026-10-20]`
 
 | Stage | Mechanism | State |
 |---|---|---|
-| 1 | Henry Hub gas price (BRENT owns) sets gas-fired marginal cost | live: **HH $2.666/MMBtu (2026-08-17)**. ⚠️ **N5 (i-b) NOT YET DISCHARGED on this leg** — I have not established the settlement clock of the `NG=F` futures quote, so **every spark figure here is PROVISIONAL by default** until I do (KB-WATT-079) |
-| 2 | Gas-fired unit sets the power clearing price → spark spread | ⟲ **live, and the heat rate is CALIBRATED, not an assumption.** 7.0 MMBtu/MWh is **EIA's published benchmark** (7,000 Btu/kWh, efficient CCGT), with PJM vintage context (1990s CCGT >8,000 / 2000s 7,300 / 2010s 6,700–7,000) [KB-WATT-025]. **Same-vintage read: +$48.31/MWh** (6-day on-peak mean HE08–23 EPT, 8/11–8/16: RT LMP $66.97 − 7.0 × $2.666); @HR 8.0 → **+$45.64** (Δ$2.67, low-stakes at ~$2.67 gas). **WIDENED from +$29.84 (8/4)** — moving *away* from the trigger. ⚠️ **The superseded +$49.53 and +$43.86 figures are DEAD** — the first was an early uncalibrated pull, the second was **my instrument's overstatement, never a market level** |
-| 3 | Spread compresses/negative → gas-fired uneconomic → supply tightens further | open — **mechanism refinement holds:** the heat-stress regime that drives P1 **WIDENS** the spread (gas captures scarcity rent as marginal price-setter) rather than compressing it. Compression is a *different* regime this thesis has not tested — likely mild-weather oversupply or high-renewable-curtailment days, not the heat-dome/P1 regime |
+| 1 | Gas benchmark sets gas-fired marginal-cost proxy | NG=F2.970datedOctober20observed22:29ET; vendor daily-closefield, contractroll/settlementclockunverified. Appalachianbasisunknown; provisional, not settledmarginalgas [KB161] |
+| 2 | Gas→power clearing-price coupling | HR7 is EIA efficient-CCGTbenchmark, not measuredmarginalunit. Oct15–19RTonpeak49.7217,n958 less7xcurrentOctober20gas2.970 gives+28.93/MWh;HR8+25.96. Not matcheddailysettlements; no directionclaim versus differentstresswindow [KB161] |
+| 3 | Sustained negative spark → uneconomic gas-fired operation | Open mechanism, NOT-FIRED on positivecurrentproxy. Need3+sessions on one consistentbasis; currentwindowproxy is not3matchedobservations. Heat-driven priceevents can widenmargins; do not assign everyevent a heatcause |
 
 **Repricing:** the gas↔power handshake with BRENT; power-price floor.
 ⟲ **Data source — CORRECTED.** Primary is now **PJM Data Miner 2** (`rt_hrl_lmps` verified / `rt_unverified_fivemin_lmps` operational) × Henry Hub. The **EIA biweekly ICE file is demoted to backdrop** (~12-day lag) and must **never** be paired with same-day gas.
-⚠️ **KNOWN INSTRUMENT DEFECT, OPEN SINCE 8/4 (L-17):** `power_watch.py` leg-4 still prints a spark from a **stale ICE power leg × same-day gas** — on 8/17 that read **+$59.37** against a same-vintage **+$48.31**, an **$11.06 overstatement**. **Fix owed:** compute spark off DM2 on-peak inside the instrument, or refuse to print when the legs' vintages differ by more than a few days.
+**Instrument correction discharged:** leg4 now refuses stale proxy pairing beyond3days and computes a DM2power-windowproxy; verified in October20boot/code. The old August “fix owed” sentence was stale. Basis/settlement and window-composition limits remain; no new instrument change this sweep.
 ⚠️ **BASIS CAVEAT:** RT on-peak LMP ≠ the ICE peak-period OTC print — **different products.** The two series are **not** interchangeable in a compression time-series, and a level change across them is a **basis change, not a market move** — never score it against the "compresses 50%" trigger.
+
+
 
 ## P5 — PPA tape (tier-2, NOT in the live matrix) `[stamp 2026-07-12 — unchanged, and that is correct]`
 
@@ -87,7 +91,7 @@ Corporate PPA price trend → contracted-power cost for hyperscalers. Full tape 
 
 ## Mechanism vs thermometer (standing discipline)
 
-The **structural capacity shortfall** (auctions at cap ×3, two RTO-wide shortfalls) is a high-confidence **MECHANISM**. Any single day's LMP print is a confounded **THERMOMETER**. **The thesis survives a mild week — and it has now survived a mild month.** ⚠️ The 8/16 spike is the thermometer at its most misleading: the largest price print of the season on one of its quietest days.
+The **structural capacity shortfall** (auctions at cap ×3, two RTO-wide shortfalls) is a high-confidence **MECHANISM**. Any single day's LMP print is a confounded **THERMOMETER**. **The thesis survives a mild week — and it has now survived a mild month.** ⚠️ The 8/16 spike is the thermometer at its most misleading: a historical low-demand price spike, later exceeded by September events.
 
 ## Boundaries (reconcile-to-one-figure, don't silo)
 

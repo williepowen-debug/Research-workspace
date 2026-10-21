@@ -9,22 +9,18 @@
 
 ---
 
-## CURRENT PICKUP — 2026-10-15 08:2x ET; L692/L693 graded and recorded (PROME Tier-1 wake → crash recovery, prome-73)
+## CURRENT PICKUP — 2026-10-20T22:39:45-04:00; October 20sweep completed
 
-**Source boundary:** PJM board (ids 105552–105574 read; dashboard 10/15 08:06 ET), DM2 tape 10/12–10/14 complete + 10/15 to 08:00, DM2 outages (executed 10/12–10/15), EIA-930, DOE 202-26-50 PDF + 2026 index (10/15 08:07 ET), PJM M-13 rev 98. P1/P2/P3/P4 **5/5/4/2**, composite 16/20. No trade, threshold, gate letter or prediction changed.
+**State:** P1/P2/P3/P4=5/5/4/2,16/20unchanged. TapeOct15–19completecalendarcoverage with2isolatedmissingOct15prints;Oct 20through22:20with1missing. No observedRED. DOE202-26-50expiredperterm/noextensionindexed;October 19CapacityAdvisorynotEEA. P1held untilOct22grade.
 
-**Completed:** L692 — L654 full-day leg CLOSED (10/12 max $845.48, 0 RED; 202-26-50 issued 10/12). PJM's **5th emergency 10/13–14** (EEA-1 ×2, Pre-Emergency DR ×4, 202-26-50 10/13–16); **RED re-fire 10/13** (29 consecutive ≥$1,000, max $2,327.04, ~108 GW load, ~61 GW out). L693 — de-escalation **NOT MET**. C1/C2/C3 NOT-FIRED. KB-047 hedge inference withdrawn (KB-152). Whole inbox drained (13 files incl. the crash brief). Records: KB-147…155, VX P1, FLOW FL-WATT-08, TRADE P1/P4, STATUS, LESSONS L-55…57, report `reports/2026-10-15_DOCKET-L692-L693_PJM-emergency-clear-day-grade.md`. Packets HENRY/AEOLUS/VULCAN and PROME memo `PROME/inbox/2026-10-15_from-WATT_L692-L693-grade.md` — see that memo for commit shas and push receipt.
+**Completed:** report `reports/2026-10-20_WATT_SWEEP.md`; KB156–164; correctedKB122/154andhistoricalqueueKB084/085; VX/FLOW/THESIS/TRADE/STATUSreconciled. COR-20261015-05applied(15.83%Oct 14HYG2032fund-evaluation, nottrade). Nineinboxfiles read/dispositioned; filemoves/receipt/checks/persistence reconciled in sweepreport. Priorpickupandotherreplacedrecords archivedbyte-exact `archive/2026-10-20_before-sweep/`,SHA256manifest. FinalNEXUSfold pinsfinalSTATUScommit.
 
-**Crash note:** the 10/14–15 session died at 03:08 ET with most records drafted only in /tmp; recovered from its transcript and re-verified (report § Crash recovery; L-57). Its over-claiming pickup is archived verbatim as the second block of `archive/SCRATCH_ARCHIVE_2026-10-15_before-L692-L693.md`.
+**Discharged:** September 17EEA2primaryposting105532verified; historicalC1MET frompriorKB121price-runoverlap, rawreplayunavailable. PJMOct15explicitnegative closesOctober14large-loadbackup-useunknown; no negativeclaimafterOct15. October 22wakeis actuallyregistered atPROME DOCKETphysicalL717; no longer “rowrequested”. VULCANacknowledgeshedge/IRASandcalendarcorrections; otherconsumerreceiptsunknown.
 
-## NEXT OWNER TOUCH — registered event work, not automatic monitoring
+**Next owner touch:** firstboot>=Oct 22 completeOct20–21tape/board/DOE and gradeunchangedde-escalationletter. IsolatedmissingOct15/20prints have non-REDneighbors; boardinvalidids cannot distinguishwithdrawn/unissued. Do not claimautomaticmonitoring or earlyall-clear. Currenttotalactivequeue/remainder atPJMneeded; old250 GW/1.56xhistorical,168.6GWcycle-onlynotreplacementtotal. P3=4demanddiscriminator unchanged.
 
-1. **202-26-50 lapse, 23:59 10/16:** confirm no renewal at the DOE index; renewal or any new EEA-class posting re-dates the clock.
-2. **P1 de-escalation re-test, first boot ≥10/22:** clear calendar days 10/15–10/21 (no EEA-class posting, no new PJM §202(c), no RED re-fire). PROME asked to register the DOCKET row. No early 5→3. Outage forecast 65.0–68.1 GW/day through 10/21 (KB-155) — watch fact.
-3. **9/17 EEA-2 re-adjudication (historical):** KB-122 recorded Emergency DR in BGE/PEPCO/DOM with "no EEA-2 found" via a fact-sheet mapping; M-13 rev 98 §2.3.2 ties EEA2 to Emergency LM reductions. No current score depends on it. Lead: Inside Lines "PJM Reviews September Hot Weather Operations" (10/12), unread.
-4. **FERC:** registry compliance filing due ≈11/8 (30 days from 10/9); EL26-67 responses 11/16, answers 12/16; WATT-09 outer 11/30.
-5. **Other clocks:** battery recheck ≥10/19; weekly cadence by 10/19; deferrals (L546 float, AEOLUS interchange, KB-034 metered-vs-DR) 10/23; wake-list review 10/31.
+**Other clocks:** L650metered-vs-DR,L546demandfloat,AEOLUSinterchangeOct23;nextweekly<=Oct 27(Oct 22eventearlier);L487wakelistOct31;IRAScompliancewithin30daysOct9(~Nov 8unadjusted, verifylegalclock);EL26-67responsesNov16/answersDec16withqualifying205proviso;WATT09outerNov30;B1closed/T1Nov10–11Beijing,positiveT2notestablished;NERCDec31;wintergateHELDKB076.
 
-**Unresolved owner carry:** hedged/floating exposure owed to VULCAN (no longer tilted to "material", KB-152); 6.5 GW gap; Appalachian basis/NG=F settlement clock; ERCOT Cal-27 discriminator; 8/13–8/16 spark cause.
+**Source walls:** CoreWeavehedgesharesunknown;Amazonprivateemails/recordingandsitefirmgridrightsnotinspected, rebuttalretained;Loughtonwithdrawalreported/rightsunknown;NG=Fsettlementroll/Appalachianbasisunknown;meteredDRfinalnotfound;6.5GWgap/ERCOTpairedforwardstrips/Aug 13–16sparkcauseopen. No newmonitor,trade,thresholdorpaid-feedapproval. KILL_MEMOC1historical“neverobserved”premiseobsolete, ruleunchanged; flaggedtoPROME.
 
-**Operational continuity:** this window = Claude Code subagent of session 16d245b5-0cb3-4174-b43d-e76c4903c384 (PROME-spawned); do not reuse. Startup pull not run (foreign dirty tree incl. staged renames); exact-path commits only.
+**Runtime:** Codex/OpenAI, exactmodelUNKNOWN; session01a15b41-3b2c-71f1-b0b1-7fcaba915bd9, independentWill-launchedowner. Shell/networkapproved forcaptures; nofleetwideownerdiscovery/notificationchannelverified, presenceUNKNOWN. GitpullskippedforeignWALTERcachework; exactownedpathcommits only. Publication/consumptionreceipts belonginsweepreport. NoWilldecision.
