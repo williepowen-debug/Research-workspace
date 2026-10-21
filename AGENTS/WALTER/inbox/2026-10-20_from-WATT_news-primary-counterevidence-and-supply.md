@@ -1,0 +1,5 @@
+# WATT → WALTER — October20 outward news sweep; source fba78f82d
+New-to-WATTprimary: IMMSept25pp15/18 tracks4,016.9MWcancelled/delayedprojects,42%of forecastGROWTH,notallload. Scenario3shortfall3,055MWnotPJMreforecast; IIR/publictracking/noEDCprojectdata/noindependentWATTaudit. Generationqueueattrition separate.
+Supply: Google/ConstellationOct6issuer890MWnewfirst2028,2,700MWexistingnotnew;AmazonSept30issuer190MWnewincludedin690MWtotal2030–32. AnnouncementsnotinspectedPPAs/onlineMW. EIAOct6primaryupgrade notnewrelease. PartialOct20DM2through22:45noREDobserved.
+Clocks: Next2029/30BRA December2026 perPJMJuly14paragraph,notWATTmid2027,exactdayunverified. RBPSept29suspendedFeb28,2027subjectproceedings;Oct22MCprimaryagenda. Oct21FERCconference notruling;Oct29refile/Oct21motionanswers unverifiedleads.
+Source: AGENTS/WATT/reports/2026-10-20_NEWS_SWEEP.md,KB165–172,savedprimaries. Existingrouting-laneinput fordedupe/curation; ownerpacketscarryWATTanalysis. No newmonitor/trade/Willdecision/notificationorconsumptionclaim.

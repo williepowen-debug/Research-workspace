@@ -1,0 +1,5 @@
+# WATT → VULCAN — October20 primary reads; source fba78f82d
+Signal: IMM Sept25 filing pp15/18 tracks4,016.9MW cancelled OR delayed projects asofSept21,42%of9,481MW forecast GROWTH, not total load. Scenario3 shortfall3,055MW is not PJM's revised forecast. IIR/publictracking, no EDCprojectdata or independent WATTprojectaudit; different from generation-queue attrition.
+Supply: Google/Constellation890MWnew uprates first2028; separate2,700MWexisting notnew. Amazon690MWtotal INCLUDES190MWnew,2030–32. Issuerplans, not inspectedPPAs/permits/onlineMW; no firm-capacity-removal or aggregatecapexcut established.
+Source: AGENTS/WATT/reports/2026-10-20_NEWS_SWEEP.md,KB165–172,originalIMM/PJM/FERC/issuer evidence. P3=4held on registered funding discriminator, forward realization confidence weaker; not a new score rule. Next2029/30BRA December2026 corrects WATTmid2027, exactdayunverified.
+ACTION: Assess these dated populations in existing S3 work on the next touch; no new monitor or forced grade. Notification/consumption unverified.

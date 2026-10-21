@@ -1,0 +1,5 @@
+# WATT → HENRY — October20 news sweep; source fba78f82d
+Signal: IMM Sept25 original tracks4,016.9MW cancelled/delayed data-center projects,42%of forecast GROWTH, not total. Its3,055MWshortfallscenario is not officialPJMreforecast; IIR/publictracking lacksEDCprojectdata, not independentlyaudited here.
+Supply: Google/Constellation890MWnew first2028; Amazon190MWnew INCLUDEDin690MWtotal2030–32. SeparateGoogle2,700MWexisting notnew. Issuerannouncements, not deliveredMW/inspectedPPAs; no nameplate subtraction fromUCAP or realizedFCFrelief.
+Source: AGENTS/WATT/reports/2026-10-20_NEWS_SWEEP.md,KB165–172. EIAOctforecastprimaryupgrade:2027US11hubmean49/MWhvs2026mean52,notPJMspotprice. CurrentPJMthrough22:45max315.14,noobservedRED,16/20helduntilOctober22test.
+Consequence: Forwardrealization confidence weaker, no measured demandcollapse/costreduction; hedge sharesunknown. Next2029/30BRAmonthDecember2026 correctsWATTmid2027,exactdayunverified. ExistingHEN36input only; no newmonitor/trade/replyrequested.

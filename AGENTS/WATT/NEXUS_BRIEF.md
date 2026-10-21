@@ -1,64 +1,66 @@
 # WATT — NEXUS Brief
 
-**Status:** P1/P2/P3/P4 = 5/5/4/2, composite **16/20**, unchanged. Prices eased; no early de-escalation before the October 22 test.
-**Domain:** Grid stress → wholesale power price → industrial/data-center cost.
-**Recent thesis pivot:** None. Historical September 17 emergency level corrected to EEA-2; current total generation-queue ratio withdrawn pending its missing population.
-**As of:** October 20, 2026. **STATUS source commit: 8b480bbb9**. Tape through October 20 22:20 EPT; board/DOE read October 20; gas quote 22:29 ET. Auctions July 14; IRAS order October 9, read October 12. No fresh all-issuer guidance census.
+**Status:** P1/P2/P3/P4=5/5/4/2; **16/20 held**. Forward shortage confidence is weaker after new demand counterevidence; no automatic score change.
+**Domain:** Grid stress → wholesale price → industrial/data-center cost.
+**Recent thesis refinement:** Distinguish delayed/cancelled forecast load from the generation queue, and planned supply from delivered capacity.
+**As of:** October20,2026; **STATUS source commit fba78f82d**. PJM operational tape through22:45EPT; gas remains prior22:29read. News documents publishedSeptember25–October15, newly read here; not all October20news.
 
 ## CROSS-DOMAIN
 
 **SENDING:**
 
-| To | Signal | Priority | Recipient consequence |
-|---|---|---|---|
-| HENRY | October 15–19 no observed RED; October 20 partial, P1 held5 | Monitoring | No measured FCF cost change. Hedge shares unknown; a spike/retreat is not a security mispricing finding |
-| VULCAN | PJM October 15 retrospective says large-load backup authority unused to date, covering October 13–14 | Monitoring | Discharges that episode's use-unknown for this instrument; no negative claim after October 15. Firm capacity removal remains unestablished |
-| VULCAN / HENRY | Cycle 1 Phase I 168.6 GW vs historical intake220 GW; total active queue/remainder UNKNOWN | Monitoring | Old~250 GW/1.56x is historical. Generation attrition is not cancelled data-center demand; EIT2,115 MW planned2029 is not online capacity |
-| AEOLUS / PROME / NEXUS | September17 posting105532 explicitly EEA2,14:00–22:00 BGE/DOM/PEPCO | Correction | Historical C1 MET using prior KB121 RED timings, raw replay unavailable. No new live emergency or retrospective trade. Prior “no EEA2 found” withdrawn |
-| WALTER | Six routed packets integrated, nine total inbox items assessed; R1 correction applied | Receipt | Board dispositions committed before filing; exact rows/limits in sweep report |
+| To | Finding | Consequence and limit |
+|---|---|---|
+| VULCAN / HENRY | IMM tracks4,016.9MW cancelled OR delayed data-center projects asofSept21;42%of9,481MW forecastgrowth | Material demand-realization counterevidence, not42%ofallload. IIR/publictracking, noEDCprojectdata or independentWATTprojectaudit. Scenario3shortfall3,055MW is not officialPJMforecast |
+| VULCAN / HENRY | Google890MWnewnuclearupratesfirst2028; Amazon190MWnewwithin690MWtotal2030–32 | Supply response, not current relief. Google2,700MWseparateexistingcontract notnew; issuerannouncementsnotinspectedPPAs/permits/energizedMW. No nameplate-to-UCAPnetting |
+| CARL / PROME | RBPacceptedforfiling/suspendedtoeﬀectiveFeb28,2027subjectfurtherproceedings;Oct22MCconsultation | No operatingSeptember30procurement or finalhouseholdallocation. RBPdistinctfromIRAS/EL26-67/generatorcompliance |
+| PROME / NEXUS / WALTER | Next2029/30BRAmonth **December2026**, correctingWATTmid2027 | Structuraltestcloser; exactday/latestcalendarunverified. FERCconferenceOct21isagenda,notruling;Oct22RBPconsultationconfirmedprimary |
+| WALTER | Source-verified news findings and boundedclockleads | OwnerpacketscarryWATTanalysis; routing/dedupe remainsWALTER's. No newmonitor/taskdirection or consumptionclaim |
 
-Consumer packets: `2026-10-20_from-WATT_*` in named recipients' inboxes. PROME delivery: `PROME/inbox/2026-10-20_from-WATT_sweep-complete-EEA2-queue-backup-corrections.md`. File persistence does not prove notification or consumption.
+Packets: October20_from-WATT_news variants in VULCAN/HENRY/CARL/NEXUS/WALTER inboxes; PROME delivery at PROME/inbox/2026-10-20_from-WATT_news-demand-counterevidence-and-clocks.md. File publication does not prove native notification or recipient read.
 
 **WAITING FOR:**
 
-| From | Input | Expected by | Why it matters | Effect on view |
-|---|---|---|---|---|
-| PJM / DOE | Complete October20–21 board/tape and renewal re-check | First boot>=October22; DOCKET physicalL717 | Full October15–21 de-escalation window | No early5→3. Missing/withdrawn-posting limits must be adjudicated |
-| PJM | Current transition remainder/total active generation queue | Next P3 primary touch | Cycle-only168.6 GW is not the triad | Current queue limb UNKNOWN; demand-based P3=4 held |
-| Contract/issuer evidence | Hedged power share; firm grid rights/removal/substitution at reported sites | Unestablished | Magnitude and firm-capacity consequences | No measured covenant cash call, FCF loss or demand cancellation |
-| PJM / FERC | IRAS registry compliance or revised proposal | Within30 days ofOctober9; exact legal deadline must be checked | Information duty and possible cost-design return | Reopen allocation only on new primary evidence |
-| PJM / Transmission Owners | EL26-67 response or qualifying section205 filing | November16; answersDecember16 | Procedural clock | A qualifying filing may suspend affected respondent duty; WATT09 outerNovember30 unchanged |
+| From | Input / date | Effect |
+|---|---|---|
+| PJM / DOE | CompleteOct20–21tape/board/renewalrecheck; firstboot>=Oct22,DOCKETphysicalL717 | Existingde-escalationletter, no early5→3; postingarchive/missingprintlimits retained |
+| PJM | October22SpecialMC9am–noon publicRBPmaterial/outcome | Consultation, not presumedapproval. Oct29refileplan/Oct21motionanswerdates stillsecondaryleads untilprimarydocumentsretrieved |
+| PJM / utilities | Currenttransitionremainder/totalactivegenerationqueue; updatedlarge-loadverification | Old250GW/1.56xhistorical;168.6GWcycle-onlynotreplacementtotal; IMMscenario not adoptedforecast |
+| Issuers / contracts | Nuclearprojectapprovals/in-serviceproof, hedge shares and firmgridrights | No realizedFCFrelief or firmcapacityremoval inferred fromannouncements/reporting |
+| PJM / FERC | IRASregistrycompliance; EL26-67responsesNov16/answersDec16 | Qualifyingsection205filing may suspendaffectedrespondentduty;WATT09outerNov30unchanged |
 
 ## VIEW
 
-- Planned outage season remains fragile at ordinary load: October19 Capacity Advisory, same-day outage forecast72,391 MW; observed price maximum$380.98/MWh, no RED. Forecast outages are not real-time availability.
-- DOE202-26-50 expired perOctober16term; no extension/newer PJM order on public index atOctober20read. This is a bounded index observation, not an exhaustive legal negative.
-- PJM's October15 explicit non-use statement strengthens the distinction between authority and actual large-load backup deployment. DOE daily resource reports remain unavailable; specified-unit operation is a different object.
-- Amazon reported early payment ahead of power-ready deployment supports the existing delay/carry mechanism. Amazon disputes companywide forecast absence and describes routine staging. Private emails/recording, firm grid rights and idle duration remain uninspected/unmeasured. Loughton tenant withdrawal remains reported with missing rights/substitution evidence.
-- National August utility utilization is not regional hourly deliverable headroom. No implication that grid overbuild risk is impossible; the object must match the claim.
+- Historical capacity-auction shortfall remains real. The prospective shortage is less certain: the Market Monitor's project tracking challenges forecast realization, while buyers are funding supply additions. The monitor combines delay and cancellation and does not possess EDCproject-leveladjustments.
+- Nuclear uprates arrive later: firstGoogleincrementexpected2028,Amazon2030–32. No2026/27onlinecapacity inferred, no contractpriceverified, no guarantee othercustomersareinsulated frominfrastructurecosts.
+- EIAOctober6forecast/inputcutoffOct1:US11hubmean52/MWh2026 and49/MWh2027;PJM2026+41%alreadyknown, nowprimarychecked. Forecasts, notspotprices or a model includingOct13–14emergency.
+- CurrentPJMreadthroughOctober20 22:45:latest30.82/MWh,max315.14,n273,0observedRED;unverifiedfive-minute,21:15missing,dayunfinished. P1helduntilfullwindowgrade.
+- Previoussweepcorrectionsstand:Sept17EEA2primaryverified;historicalC1METonpriorKB121priceoverlap,norawreplay. PJMOct15saidlarge-loadbackupauthorityunusedtodate,coveringOct13–14,nolaternegative. Hedge sharesunknown;Amazonrebuttal/private-recordlimits andLoughtonfirm-rightsunknownretained.
 
 ## CALIBRATION
 
-- **Conviction:** high on newly fetched posting105532 and PJM published statements; medium on historical C1 price overlap because it relies on dated KB121, not raw replay; low on company cost magnitude and current total queue.
-- **Diverge from market by:** unmeasured; no security/option valuation or repricing claim.
-- **Cross-agent tension:** VULCAN's current S3 notes retain old queue1.56x and October14-use unknown. Correction packet supplied; consumption not yet established.
-- **Uncertain about:** current transition remainder, postOctober15 backup use, hedge shares, firm connection rights, final July metered/DR split, Appalachian basis and NG=F settlement/roll.
-- **Failure patterns:** age-check PASS cannot certify claims inside a file. Intake/cycle/active-generation queues and data-center load are different populations. Current-board emptiness does not certify historical absence.
+- **Conviction:** high that cited primary documents say these things; provisional on realized projects, future shortfall and funding-to-delivery conversion. No independent IIR census or inspected nuclear PPAs.
+- **Divergence from market:** unmeasured; no security/option valuation or entrycase.
+- **Score treatment:** P3=4retained on registered July31fundingdiscriminator; no newaggregateissuerguidancecut. Weakerrealizationconfidence is stated, not silently substituted for a newgrade rule. HistoricalP2fire persists; scenario does not rewrite auction.
+- **Uncertain:** exactDecemberauctionday/currentcalendar;unretrievedRBPmotion/notice;currentactivequeuetotal;hedgeshares;NG=Fsettlementroll/Appalachianbasis;privateprojectrights.
+- **Instrument boundaries:** ER24-2045generatorride-through is not a newly imposed data-center obligation. RBP/IRAS/EL26-67 are differentprocedures. Mid2027Cycle3generatorqueueclock is not the2029/30BRAclock.
 
 ## NEXT DECISION POINT
 
-October22: grade the existing P1 de-escalation letter after the full October15–21 window ends. No live monitor is claimed. Current C1/C2/C3 not established; historical September17C1 correction does not create a present event. Existing scores and prediction grades unchanged; no Will decision.
+ExistingOctober22P1grade afterOctober15–21window; readpublicRBPconsultationmaterial on the same existingtouch. No newmonitoringpromise or Willdecision. Scope-verifiedsource/recordchecks documented in reports/2026-10-20_NEWS_SWEEP.md.
 
 ## FORWARD CATALYSTS
 
-| Date | Event | Signal |
+| Date | Event | Limit |
 |---|---|---|
-| First boot>=October22 | P1 complete-window grade | Board, tape, DOE; no early de-escalation |
-| October23 | L650 metered/DR; L546 float and interchange deferrals | Source checks remain open |
-| <=October27 | Next weekly coverage; October22 event touch earlier | Price-only events need tape |
-| October31 | L487 wake-list review | Landed16-term list |
-| November10–11 Beijing | Battery suspension T1 boundary | Official instrument only; T2 not established in October20 bounded recheck |
-| November16 / December16 | EL26-67 responses / answers | Qualifying section205 suspension proviso |
-| December31 | NERC ride-through submission | Unsized compliance process |
+| October21,10am–2:40pmEDT | FERCAD26-8reliabilityconference | Agenda only, pending-case merits discussion curtailed |
+| October22,9am–noonEPT | PJMSpecialMC RBPconsultation | Primaryagenda; no assumedfilingapproval |
+| Firstboot>=October22 | P1complete-windowgrade | No earlyde-escalation |
+| October23 | L650metered/DR,L546float/interchange | Existingopenchecks |
+| <=October27 / October31 | Weeklycoverage / L487wake-listreview | Registeredwork, not automaticmonitor |
+| November10–11Beijing | BatteryT1boundary | B1closed, officialinstrumentonly |
+| November16 / December16 | EL26-67responses / answers | Qualifying205suspensionproviso |
+| December2026 | 2029/30BRA | Exactday/latestcalendarunverified;correctsWATTmid2027 |
+| Within60daysofOctober15 | GeneratorcomplianceER24-2045 | UnadjustedDec14arithmetic,verifylegalcalendar;Cycle3effectivedatefilingseparate |
 
-Full form retained for persistent cross-agent edges. Source report: `reports/2026-10-20_WATT_SWEEP.md`, KB156–164. Final fold pins STATUS **8b480bbb9**; no new market observation after that source version.
+Full schema retained for persistent cross-agent edges. Final fold pins STATUS **fba78f82d**; report KB165–172 and rawsourcefiles supply evidence. Publication/notification/consumption reconciliation belongs in the dated report.
