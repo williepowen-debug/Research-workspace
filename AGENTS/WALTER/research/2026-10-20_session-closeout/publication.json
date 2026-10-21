@@ -1,0 +1,10 @@
+{
+  "as_of": "2026-10-21T00:54:22Z",
+  "fresh_fetch": true,
+  "origin": "fd08b88fc5e1cb0b01d004971d22de4068ee52e4",
+  "workflow_commit": "52816a6ce697ec2eb96cb8ef4a768fd94c677261",
+  "workflow_publication": "published",
+  "source_handoffs": "106/106 published; reconciliation preview0changes/0orphans",
+  "recipient_use": "six previously verified VULCAN/BRENT dispositions; no expanded consumption claim",
+  "foreign_work": "DAEDALUSGATE_LOG dirty and boot-recovery file untracked; untouched; no pull/push"
+}
