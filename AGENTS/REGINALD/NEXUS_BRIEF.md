@@ -2,7 +2,7 @@
 
 **Status:** Concentrated bank risk; October20 releases do not establish tier-wide credit transmission.
 **Domain:** Regional-bank comparison, FHLB advances, hidden CRE and sponsor-bank balance-sheet risk.
-**As of:** 2026-10-20T19:13:00-04:00 | STATUS commit: c610f9c20
+**As of:** acceptance touch October20,2026 | STATUS commit: cbc14828a
 
 ## CROSS-DOMAIN
 
@@ -34,7 +34,6 @@
 | Will / PROME | Existing WQ-454.REG27 and WQ-454.REGT06 rulings | WILL_QUEUE's registered deadlines | REG-07 VOID; no successor inferred. REG-T-06 CFR/Highlights discrepancy remains unresolved; as-written CFR governs. |
 | Will / existing FFIEC run | JWT renewal; cohort-selection/completeness | November5 renewal /November7 planned retrieval | Missing bank capable of flipping breadth → UNKNOWN; no silent cohort expansion. |
 | Will / PROME / TERRY | Existing contract ownership/card evidence at FORGE D-74/D-77; structural source→POSITIONS | Existing records only | Broker holdings are not research/trade approval; disposition remains unknown without broker evidence. No expiry reminder. |
-| PROME | Charter post-review and READS registration | Bounded cleanup handoff | Own edits are implemented; acceptance/registration not claimed by REGINALD. |
 
 ## VIEW
 
@@ -71,4 +70,4 @@ Use existing Q3 disclosures to append outcomes to original expectations under BA
 | FFIEC Q3 run and later QBP | CALENDAR | Renewal/cohort choice before existing November7 run; completeness checked at retrieval, later QBP remains dated. |
 
 **Preservation:** Original contiguous blocks B01–B06 → `archive/2026-10-20_organisation-cleanup_NEXUS_BRIEF.md`; exact source-line/section map and verified CRCs → `reports/2026-10-20_organisation-cleanup/RECEIPT.md`. Re-check size at any append or on 2026-11-20, whichever first.
-**Cleanup:** No fresh economic observation, broker evidence or trade action. Prior delivery tables and dated research paragraphs are preserved verbatim in that archive; current intake/dispositions live in board/BOARD_LOG. No new stacked update layers.
+**Cleanup:** PROME accepted the charter review and registered the boot reads (`55cfb3982`). Grading-frame pointer restored; both handoff dependencies closed. No economic observation or trade change. Acceptance→`reports/2026-10-20_organisation-cleanup/ACCEPTANCE.md`. WALTER retains its historical BOARD size remedy.

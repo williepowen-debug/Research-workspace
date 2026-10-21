@@ -1,0 +1,4 @@
+PASS: 5 originals / 46 contiguous payloads reconstructed exactly; CRC/SHA verified.
+PASS: protected STATUS sections, MEMORY next steps, five hidden-CRE rules and threshold predicates preserved.
+PASS: full prior NEXUS SENDING and CALIBRATION preserved; live STATUS pin matches.
+PASS: no tracked deletions or existing evidence/ledger/script changes; charter below rotation stop.

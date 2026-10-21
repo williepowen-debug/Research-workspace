@@ -1,0 +1,86 @@
+READ-CAP [REGINALD] — cap 54,250 B · budget 32,550 B (60%) · ALL % BELOW ARE OF BUDGET (the number every verdict grades; ≥100% = over) · perimeter: DECLARED in PROME/registry/READS.tsv — 1581 cap-bearing (whole/programmatic) measured, 22 declared-not-counted (scoped/grep/summary), 52 manifest row(s) for this desk; 1558 of the measured are MEMBERS of 3 cap-bearing CLASS row(s), each measured per member (rule 16); ATTESTED by the desk itself
+  ✅ AGENTS/CREED/STATUS.md               24,217 B    74% of budget    (whole · REGINALD:CLAUDE.md-Boot-9)
+      ↳ 70–75% BAND — rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 1,433 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. ⚠️ Headroom to the trigger: 195 B.
+  ✅ AGENTS/REGINALD/CALENDAR.md          24,210 B    74% of budget    (whole · REGINALD:CLAUDE.md-Boot-3)
+      ↳ 70–75% BAND — rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 1,426 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. ⚠️ Headroom to the trigger: 202 B.
+  ✅ AGENTS/REGINALD/DECK_EVIDENCE.md     24,091 B    74% of budget    (whole · REGINALD:closeout-or-existing-fire)
+      ↳ 70–75% BAND — rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 1,307 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. ⚠️ Headroom to the trigger: 321 B.
+  ✅ AGENTS/OZK/STATUS.md                 24,042 B    74% of budget    (whole · REGINALD:CLAUDE.md-Boot-9)
+      ↳ 70–75% BAND — rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 1,258 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. ⚠️ Headroom to the trigger: 370 B.
+  ✅ AGENTS/CORAL/STATUS.md               23,728 B    73% of budget    (whole · REGINALD:CLAUDE.md-Boot-9)
+      ↳ 70–75% BAND — rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 944 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. ⚠️ Headroom to the trigger: 684 B.
+  ✅ AGENTS/BROCK/STATUS.md               23,658 B    73% of budget    (whole · REGINALD:CLAUDE.md-Boot-9)
+      ↳ 70–75% BAND — rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 874 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. ⚠️ Headroom to the trigger: 754 B.
+  ✅ AGENTS/REGINALD/CLAUDE.md            22,783 B    70% of budget    (whole · REGINALD:IDENTITY-AND-AUTHORITY)
+  ✅ CLAUDE.md                            22,499 B    69% of budget    (whole · REGINALD:IDENTITY-AND-AUTHORITY)
+  ✅ AGENTS/REGINALD/ROADMAP.md           22,001 B    68% of budget    (whole · REGINALD:CLAUDE.md-Boot-5)
+  ✅ AGENTS/REGINALD/thesis/CHANGELOG.md   20,270 B    62% of budget    (whole · REGINALD:closeout-or-existing-fire)
+  ✅ AGENTS/REGINALD/STATUS.md            20,046 B    62% of budget    (whole · REGINALD:CLAUDE.md-Boot-1 · ALSO read whole by NEXUS:6)
+  ✅ PROME/COMPLETION_SPEC.md             18,579 B    57% of budget    (whole · REGINALD:IDENTITY-AND-AUTHORITY)
+  ✅ AGENTS/REGINALD/MEMORY.md            14,510 B    45% of budget    (whole · REGINALD:CLAUDE.md-Boot-4)
+  ✅ AGENTS/REGINALD/POSITIONS.md         14,222 B    44% of budget    (whole · REGINALD:spawn-card)
+  ✅ AGENTS/REGINALD/LESSONS.md           11,843 B    36% of budget    (whole · REGINALD:CLAUDE.md-Boot-2)
+  ✅ AGENTS/_NETWORK.md                   11,798 B    36% of budget    (whole · REGINALD:IDENTITY-AND-AUTHORITY)
+  ✅ AGENTS/WAL/STATUS.md                 11,797 B    36% of budget    (whole · REGINALD:CLAUDE.md-Boot-9)
+  ✅ AGENTS/REGINALD/NEXUS_BRIEF.md       11,346 B    35% of budget    (whole · REGINALD:closeout-or-existing-fire · ALSO read whole by NEXUS:6)
+  ✅ USER.md                               8,458 B    26% of budget    (whole · REGINALD:IDENTITY-AND-AUTHORITY)
+  ✅ AGENTS/REGINALD/BANK_RESEARCH_STANDARD.md    6,368 B    20% of budget    (whole · REGINALD:CLAUDE.md-Boot-5a)
+  ✅ AGENTS.md                             5,427 B    17% of budget    (whole · REGINALD:IDENTITY-AND-AUTHORITY)
+  ✅ AGENTS/REGINALD/SCRATCH.md            5,257 B    16% of budget    (whole · REGINALD:CLAUDE.md-Boot-6)
+  ✅ AGENTS/REGINALD/registry/THRESHOLDS.tsv    3,542 B    11% of budget    (whole · REGINALD:closeout-or-existing-fire · ALSO read whole by WALTER:6b)
+  ▣ AGENTS/REGINALD/inbox/*.md                —  declared `whole` · CLASS row matched 0 files today (248 files matched historically) — correctly quiet, not counted  (REGINALD:MAIL)
+  ▣ AGENTS/REGINALD/inbox/WALTER/*.md         —  declared `whole` · CLASS row matched 0 files today (315 files matched historically) — correctly quiet, not counted  (REGINALD:WALTER-intake)
+  ▣ BOARD/SIG-W-*.md                             declared `whole` · CLASS row — cap-bearing PER MEMBER (rule 16 ruling 2026-09-24): 1558 member(s) measured, 1 over budget, 0 over the CAP, largest 39,509 B (121% of budget)  (REGINALD:CLAUDE.md-Boot-9b-selected)
+      🟠 BOARD/SIG-W-20260619-008-south-florida-distress-deep-research-bank-transmission-assessment.md   39,509 B   121% of budget  over budget (readable, no headroom)  (whole · REGINALD:CLAUDE.md-Boot-9b-selected)
+      ↳ rule 5 STOP is <70% of budget (22,785 B): REMOVE 16,725 MORE B to finish rotating. ⛔ Stopping at the 75% TRIGGER is not finishing — that band re-breaches on the next append (PAT-055 regrowth), which is why rule 5 has two thresholds.
+      🟡 BOARD/SIG-W-20260627-033-ai-infra-circular-vendor-financing-athene-insurer-leg-deep-research.md   27,747 B    85% of budget  rotate-tier (≥75% of budget)  (whole · REGINALD:CLAUDE.md-Boot-9b-selected)
+      ↳ rule 5 STOP is <70% of budget (22,785 B): REMOVE 4,963 MORE B to finish rotating. ⛔ Stopping at the 75% TRIGGER is not finishing — that band re-breaches on the next append (PAT-055 regrowth), which is why rule 5 has two thresholds.
+      🟡 BOARD/SIG-W-20260628-001-muni-fiscal-stress-data-center-deep-research.md   27,041 B    83% of budget  rotate-tier (≥75% of budget)  (whole · REGINALD:CLAUDE.md-Boot-9b-selected)
+      ↳ rule 5 STOP is <70% of budget (22,785 B): REMOVE 4,257 MORE B to finish rotating. ⛔ Stopping at the 75% TRIGGER is not finishing — that band re-breaches on the next append (PAT-055 regrowth), which is why rule 5 has two thresholds.
+      🟡 BOARD/SIG-W-20260622-001-fl-bank-loss-transmission-timing-deep-research.md   25,567 B    79% of budget  rotate-tier (≥75% of budget)  (whole · REGINALD:CLAUDE.md-Boot-9b-selected)
+      ↳ rule 5 STOP is <70% of budget (22,785 B): REMOVE 2,783 MORE B to finish rotating. ⛔ Stopping at the 75% TRIGGER is not finishing — that band re-breaches on the next append (PAT-055 regrowth), which is why rule 5 has two thresholds.
+      ✅ BOARD/SIG-W-20260628-002-housing-distress-inflection-deep-research.md   24,235 B    74% of budget    (whole · REGINALD:CLAUDE.md-Boot-9b-selected)
+      ↳ 70–75% BAND — rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 1,451 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. ⚠️ Headroom to the trigger: 177 B.
+      ✅ BOARD/SIG-W-20260627-034-ex-ai-capex-gdp-decomposition-deep-research.md   23,087 B    71% of budget    (whole · REGINALD:CLAUDE.md-Boot-9b-selected)
+      ↳ 70–75% BAND — rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 303 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. ⚠️ Headroom to the trigger: 1,325 B.
+      ✅ BOARD/SIG-W-20260716-002-iran-7d-reverify-mou-formally-repudiated-blockade-live-oil-risk-premium-not-supply-loss.md   22,858 B    70% of budget    (whole · REGINALD:CLAUDE.md-Boot-9b-selected)
+      ↳ 70–75% BAND — rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 74 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. ⚠️ Headroom to the trigger: 1,554 B.
+      + 1551 member(s) all under 70% of budget (<22,785 B)
+  ◦ PROME/ORCHESTRATION_PLAYBOOK.md    50,032 B  declared `scoped` — not cap-bearing, not counted  (REGINALD:IDENTITY-AND-AUTHORITY)
+  ◦ PROME/ROSTER.md                    63,737 B  declared `scoped` — not cap-bearing, not counted  (REGINALD:IDENTITY-AND-AUTHORITY)
+  ◦ docs/GIT_WORKTREE_PROCEDURES.md     3,185 B  declared `scoped` — not cap-bearing, not counted  (REGINALD:Git-and-paths)
+  ◦ FORGE/STATUS.md                    29,976 B  declared `scoped` — not cap-bearing, not counted  (REGINALD:spawn-card)
+  ◦ AGENTS/REGINALD/board/BOARD_LOG.tsv174,298 B  declared `summary` — not cap-bearing, not counted  (REGINALD:WALTER-intake-and-9b)
+  ◦ BOARD/INDEX.md                    818,983 B  declared `scoped` — not cap-bearing, not counted  (REGINALD:CLAUDE.md-Boot-9b)
+  ◦ BOARD/SIG-W-*.md                          —  declared `summary · CLASS row, not a single file` — not cap-bearing, not counted  (REGINALD:CLAUDE.md-Boot-9b-discovery)
+  ◦ AGENTS/REGINALD/BANK_EXPOSURE_MATRIX.md 23,030 B  declared `scoped` — not cap-bearing, not counted  (REGINALD:CLAUDE.md-Boot-9b)
+  ◦ AGENTS/REGINALD/workbook/*.tsv            —  declared `summary · CLASS row, not a single file` — not cap-bearing, not counted  (REGINALD:CLAUDE.md-Boot-7a)
+  ◦ AGENTS/REGINALD/CALENDAR.md        24,210 B  declared `summary` — not cap-bearing, not counted  (REGINALD:CLAUDE.md-Boot-7b)
+  ◦ AGENTS/REGINALD/scripts/.kre_float_state.json    114 B  declared `summary` — not cap-bearing, not counted  (REGINALD:CLAUDE.md-Boot-7b)
+  ◦ AGENTS/REGINALD/workbook/SHORT_INTEREST.tsv  3,301 B  declared `summary` — not cap-bearing, not counted  (REGINALD:CLAUDE.md-Boot-7b)
+  ◦ AGENTS/REGINALD/workbook/DARKPOOL.tsv  1,832 B  declared `summary` — not cap-bearing, not counted  (REGINALD:CLAUDE.md-Boot-7b)
+  ◦ AGENTS/REGINALD/workbook/SHORT_VOL.tsv 15,787 B  declared `summary` — not cap-bearing, not counted  (REGINALD:CLAUDE.md-Boot-7b)
+  ◦ AGENTS/WALTER/registry/CORRECTIONS.tsv 44,967 B  declared `summary` — not cap-bearing, not counted  (REGINALD:CLAUDE.md-Boot-9c)
+  ◦ AGENTS/REGINALD/registry/corrections_receipts.tsv  4,074 B  declared `summary` — not cap-bearing, not counted  (REGINALD:CLAUDE.md-Boot-9c)
+  ◦ AGENTS/DAEDALUS/FLEET_DIRECTORY.md 12,539 B  declared `summary` — not cap-bearing, not counted  (REGINALD:CLAUDE.md-Boot-9c)
+  ◦ AGENTS/REGINALD/inbox/*.md                —  declared `summary · CLASS row, not a single file` — not cap-bearing, not counted  (REGINALD:CLAUDE.md-Boot-8)
+  ◦ AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md 32,443 B  declared `scoped` — not cap-bearing, not counted  (REGINALD:closeout-or-existing-fire)
+  ◦ AGENTS/REGINALD/registry/REG_T02_EXIT_LOG.tsv 14,933 B  declared `scoped` — not cap-bearing, not counted  (REGINALD:closeout-or-existing-fire)
+  ◦ AGENTS/REGINALD/registry/NOTES.md  52,890 B  declared `scoped` — not cap-bearing, not counted  (REGINALD:closeout-or-existing-fire)
+  ◦ PROME/registry/READS.tsv          116,020 B  declared `summary` — not cap-bearing, not counted  (REGINALD:closeout-or-existing-fire)
+  ℹ️ ADVISORY: CLASS row `AGENTS/REGINALD/inbox/*.md` (REGINALD:MAIL) declared `whole` matched 0 files today (248 files matched historically) — correctly quiet, not counted
+  ℹ️ ADVISORY: CLASS row `AGENTS/REGINALD/inbox/WALTER/*.md` (REGINALD:WALTER-intake) declared `whole` matched 0 files today (315 files matched historically) — correctly quiet, not counted
+⚠️  READ-CAP 1 [REGINALD]: 1 boot-mandated read(s) over budget, 0 over the CAP itself. Remedy = two-state rotation (verbatim, crc-stamped, to archive/) or hot/cold split — per surface, owner's choice of HOW. ⛔ Never raise the budget: the read cap is not ours to move.
+   ⛔ AND DO NOT TRY TO REWRITE ALREADY-COMPRESSED TEXT UNDER: a tightening pass over settled prose RELIABLY ADDS bytes (measured +242 B and +451 B on two real attempts) because the compression is already gone and all a re-read adds is the disambiguation it notices. Only MOVING text out removes them — rotate, or collapse several verbose pointers into ONE terse index; both are mechanical, a rewrite is not. (RED 2026-09-12: a reword DOES gain on a first draft you wrote an hour ago and have not yet compressed — +584 B there — but it hits a content floor, and rotation is what clears budget.)
+   ℹ️  IF A FLAGGED FILE IS NOT ACTUALLY READ WHOLE, the fix may be your CHARTER'S
+      WORDING, not the file. This scanner keys on LITERAL phrases; a semantically exact
+      paraphrase does NOT match (BROCK wrote 'never whole' and stayed flagged).
+      Phrases that EXCLUDE a file: 'on demand', 'on-demand', 'grep', 'cold', 'by id', 'per-agent', 'do not read', 'never read', 'not a boot read', 'read per-agent'.
+      Phrases that mark a PART read: 'header', 'section', 'the top', 'first/last N',
+      'only the', 'just the', 'rows ', 'lines ', 'table', 'summary'.
+      ⛔ The matcher is deliberately LITERAL and fail-closed. Say the exact words — or
+      declare the file in PROME/registry/READS.tsv, which supersedes this heuristic.
+  ℹ️  charter AGENTS/REGINALD/CLAUDE.md = 22,783 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+  ℹ️  OWNER-DIRECTED NOTICE [REGINALD] (READ_CAP rule 15): no file under AGENTS/REGINALD/ is loaded whole by another desk OUTSIDE this desk's own perimeter (manifest scanned, CLASS rows expanded); 3 file(s) this desk also reads are annotated `ALSO read whole by` in the table above — nothing further to report.
+ℹ️  READ-CAP ADVISORY [REGINALD]: 2 reading(s) this check will NOT adjudicate (above). ⛔ These do NOT affect rc — the declaration is the reader's, and a refusal to adjudicate cannot be a blocking verdict (severity split 2026-09-14, L354).
+READ-CAP-RESULT v1 mode=agent rc=1 assessed=1 desk=REGINALD reads=1581 over_budget=1 over_cap=0 manifest_defects=0 advisories=2 generated_flagged=0 rotation_due=4 active_decisions_over_budget=0 charter_mode=unspecified charter_reads=0 owner_notices=0 owner_notices_over_budget=0 charter_bytes=22783

@@ -6,4 +6,6 @@ Restored: per-event bull/bear forks live at `reports/*_grading_frame.md` in the 
 
 PROME owns fleet wording decisions; no root spacing rule is presumed approved here. WALTER owns the historical oversized BOARD record; registered checker rc1 can remain for that input and is no longer UNKNOWN. No WALTER edit or signal-selector change by REGINALD.
 
-Superseded continuity/charter strings preserved verbatim in `archive/2026-10-20_organisation-cleanup_acceptance-amendment.md` §§A01–A07. Original46 archival blocks remain unchanged. No file or ledger row deleted; no economic observation or regrade. Earlier completed research and future obligations remain their own records.
+Superseded continuity/charter strings preserved verbatim in `archive/2026-10-20_organisation-cleanup_acceptance-amendment.md` §§A01–A09. Original46 archival blocks remain unchanged. No file or ledger row deleted; no economic observation or regrade. Earlier completed research and future obligations remain their own records.
+
+Final NEXUS fold follows STATUS `cbc14828a`; the brief no longer lists PROME review/registration as WAITING FOR. Original archival payloads retain their hashes; current-file hashes are updated in manifest.json with prior hashes preserved under acceptance_amendments.

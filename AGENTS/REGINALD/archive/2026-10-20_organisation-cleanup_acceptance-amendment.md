@@ -45,3 +45,15 @@ Charter post-review and boot-read registration are PROME-owned and pending; pack
 
 <!-- END A07 -->
 
+## A08 — NEXUS_BRIEF.md metadata
+
+<!-- BEGIN A08 -->
+**As of:** 2026-10-20T19:13:00-04:00 | STATUS commit: c610f9c20
+<!-- END A08 -->
+
+## A09 — NEXUS_BRIEF.md metadata
+
+<!-- BEGIN A09 -->
+**Cleanup:** No fresh economic observation, broker evidence or trade action. Prior delivery tables and dated research paragraphs are preserved verbatim in that archive; current intake/dispositions live in board/BOARD_LOG. No new stacked update layers.
+<!-- END A09 -->
+

@@ -509,11 +509,11 @@
           "crc32": "70ce76b8"
         }
       ],
-      "after_bytes": 11433,
-      "after_sha256": "c0686776866b1bdccf2c5a264ff41c58ed333879280d01bb3643c71cebd6d5c7"
+      "after_bytes": 11346,
+      "after_sha256": "0de86ff656cf0732b9cc4a34bacd555dd7923cbf25510f00f520e54334b3e337"
     }
   ],
-  "status_commit_pin": "c610f9c20",
+  "status_commit_pin": "cbc14828a",
   "acceptance_amendments": [
     {
       "observed_at": "2026-10-20T22:25:55-04:00",
