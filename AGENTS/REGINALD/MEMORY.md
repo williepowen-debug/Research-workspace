@@ -24,8 +24,8 @@ Original contiguous blocks B01–B08 → `archive/2026-10-20_organisation-cleanu
 
 ⚠️ **Open question at close:** did Eagle's troubled loans receive genuine outside cash/recovery or continued bank support? Four existing outcomes remain UNKNOWN; no independent property match. The M&T capacity result covers recognized provisions/reported earnings, not complete economic losses.
 
-### LAST SESSION — 2026-10-20T19:13:00-04:00, bounded organizational cleanup
-Implemented Will/PROME's approved documentation pass: charter/peer wording, current STATUS/MEMORY/NEXUS summaries, verbatim contiguous archives and block receipt. No evidence/hub/ledger/script moves or deletions. Source/claim/rule/threshold/score/prediction/position authority unchanged. Charter post-review and boot-read registration are PROME-owned and pending; packet/receipt→`reports/2026-10-20_organisation-cleanup/RECEIPT.md`. Existing economic outcomes and unresolved next work below remain. Pull withheld for dirty peer paths; no new quote/source/broker retrieval in cleanup.
+### LAST SESSION — 2026-10-20T22:25:55-04:00, cleanup acceptance integrated
+Implemented Will/PROME's approved documentation pass: charter/peer wording, current STATUS/MEMORY/NEXUS summaries, verbatim contiguous archives and block receipt. No evidence/hub/ledger/script moves or deletions. Source/claim/rule/threshold/score/prediction/position authority unchanged. PROME accepted the cleanup and registered all 52 declared rows (`55cfb3982`); both dependencies are closed. Restored `reports/*_grading_frame.md` pointer. Acceptance/receipt→`reports/2026-10-20_organisation-cleanup/ACCEPTANCE.md`. Existing economic outcomes and unresolved next work below remain. Pull withheld for dirty peer paths; no new quote/source/broker retrieval in cleanup.
 
 Prior session records moved verbatim → `archive/2026-10-20_organisation-cleanup_MEMORY.md` (source-line/section receipt below). No research completion inferred from organizational cleanup.
 

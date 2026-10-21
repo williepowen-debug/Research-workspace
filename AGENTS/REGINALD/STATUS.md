@@ -1,6 +1,6 @@
 # REGINALD STATUS
 
-**Last Updated:** 2026-10-20T19:13:00-04:00; bounded organizational cleanup. No new market/broker/source retrieval or economic regrade; numerical tables below keep their dated evidence. PROME charter review and READS registration remain pending.
+**Last Updated:** 2026-10-20T22:25:55-04:00; PROME acceptance integrated, grading-frame pointer restored. Cleanup accepted; boot reads registered at `55cfb3982`. No new market/broker/source retrieval or economic regrade; numerical rows retain their dates. Acceptance→`reports/2026-10-20_organisation-cleanup/ACCEPTANCE.md`.
 
 **Current judgment:** severity is concentrated, not tier-wide. Latest bank comparison → `reports/2026-10-20_reported-bank-earnings-catchup.md`; no formal breadth verdict from release headlines. WAL funding grade INCONCLUSIVE provisional; F3/N/call/filing questions unresolved.
 

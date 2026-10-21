@@ -139,8 +139,8 @@
           "crc32": "83b7ef41"
         }
       ],
-      "after_bytes": 22779,
-      "after_sha256": "55a9da289b3f27a98474fac025605dc56bd162036f4e49f20a95d156acdc9840"
+      "after_bytes": 22783,
+      "after_sha256": "ae0076afddd776ddfff8e869a70f351f594483aaecf461a072b082922aa217fd"
     },
     {
       "source": "AGENTS/REGINALD/SUB_AGENTS.md",
@@ -349,8 +349,8 @@
           "crc32": "1c220a4a"
         }
       ],
-      "after_bytes": 19966,
-      "after_sha256": "f315860f393be3adc8e300fcd4d0340094ae69f741ab3b494d97e9b501ece215"
+      "after_bytes": 20046,
+      "after_sha256": "86f2bdbcdaa3cb2168c965a50fa7652ee600e682c413c3c7fa47049b4008b033"
     },
     {
       "source": "AGENTS/REGINALD/MEMORY.md",
@@ -439,8 +439,8 @@
           "crc32": "2fb3e521"
         }
       ],
-      "after_bytes": 14425,
-      "after_sha256": "24e74f086cc3c061979fe3da2cc654f1dd757a74cfc9eb054c9556578cfb3af5"
+      "after_bytes": 14510,
+      "after_sha256": "5d29f20af87dc7cf55619677a758e6d2675a85e0ddb76b53458f3070cccfecbb"
     },
     {
       "source": "AGENTS/REGINALD/NEXUS_BRIEF.md",
@@ -513,5 +513,20 @@
       "after_sha256": "c0686776866b1bdccf2c5a264ff41c58ed333879280d01bb3643c71cebd6d5c7"
     }
   ],
-  "status_commit_pin": "c610f9c20"
+  "status_commit_pin": "c610f9c20",
+  "acceptance_amendments": [
+    {
+      "observed_at": "2026-10-20T22:25:55-04:00",
+      "review_commit": "b4a5cbb09",
+      "registration_commit": "55cfb3982",
+      "prior_final_hashes": {
+        "AGENTS/REGINALD/CLAUDE.md": "55a9da289b3f27a98474fac025605dc56bd162036f4e49f20a95d156acdc9840",
+        "AGENTS/REGINALD/SUB_AGENTS.md": "c3fa668b36243ea169ff5d4bfb3d7a539c78437c3f3048a64346d5fbb7ef7044",
+        "AGENTS/REGINALD/STATUS.md": "f315860f393be3adc8e300fcd4d0340094ae69f741ab3b494d97e9b501ece215",
+        "AGENTS/REGINALD/MEMORY.md": "24e74f086cc3c061979fe3da2cc654f1dd757a74cfc9eb054c9556578cfb3af5",
+        "AGENTS/REGINALD/NEXUS_BRIEF.md": "c0686776866b1bdccf2c5a264ff41c58ed333879280d01bb3643c71cebd6d5c7"
+      },
+      "superseded_text_archive": "AGENTS/REGINALD/archive/2026-10-20_organisation-cleanup_acceptance-amendment.md"
+    }
+  ]
 }

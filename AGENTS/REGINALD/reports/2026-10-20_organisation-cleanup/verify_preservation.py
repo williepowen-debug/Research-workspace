@@ -11,6 +11,12 @@ ROOT = Path(__file__).resolve().parents[4]
 DESK = ROOT / 'AGENTS/REGINALD'
 HERE = Path(__file__).resolve().parent
 BASELINE = '2b667e627'
+RELOCATED = {
+    'AGENTS/REGINALD/inbox/2026-10-20_from-PROME_organisation-cleanup-go-ahead.md':
+        'AGENTS/REGINALD/inbox/processed/2026-10-20_from-PROME_organisation-cleanup-go-ahead.md',
+    'AGENTS/REGINALD/inbox/2026-10-20_from-PROME_cleanup-review-accepted-reads-registered.md':
+        'AGENTS/REGINALD/inbox/processed/2026-10-20_from-PROME_cleanup-review-accepted-reads-registered.md',
+}
 
 
 def between(text, start, end):
@@ -86,12 +92,18 @@ def main():
     for line in changed:
         state, path = line.split('\t', 1)
         assert state != 'D', f'Deletion: {path}'
+        if state.startswith('R'):
+            source, destination = path.split('\t')
+            assert RELOCATED.get(source) == destination, f'Unexpected move: {line}'
+            prior = subprocess.check_output(['git', 'show', f'{BASELINE}:{source}'], cwd=ROOT)
+            assert prior == (ROOT / destination).read_bytes(), f'Move changed content: {source}'
+            continue
         if state != 'A':
             assert path in allowed, f'Unexpected tracked change: {line}'
     tracked = subprocess.check_output(
         ['git', 'ls-tree', '-r', '--name-only', BASELINE, '--', 'AGENTS/REGINALD/'], cwd=ROOT
     ).decode().splitlines()
-    assert all((ROOT / path).exists() for path in tracked), 'Original tracked file missing'
+    assert all((ROOT / RELOCATED.get(path, path)).exists() for path in tracked), 'Original tracked file missing'
     with (HERE / 'READS.proposed.tsv').open() as stream:
         rows = list(csv.DictReader(stream, delimiter='\t'))
     att = [r for r in rows if r['row_kind'] == 'ATTESTATION']
