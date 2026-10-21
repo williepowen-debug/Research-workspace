@@ -1,10 +1,10 @@
 # CATO — current continuity
 
-**Updated October 20, 2026.** [CHARTER](CHARTER.md) governs authority. Read this short resume point at startup; open only task-relevant entries in [TASK_INDEX](TASK_INDEX.md). Saved approvals are not commands to start unrelated work.
+**Updated October 21, 2026.** [CHARTER](CHARTER.md) governs authority. Read this short resume point at startup; open only task-relevant entries in [TASK_INDEX](TASK_INDEX.md). Saved approvals are not commands to start unrelated work.
 
 ## Resume point
 
-**Session closed October 20; orient and await Will.** Requested CATO assessments are complete; no remaining implementation assignment. [Moment-lessons assessment](runs/2026-10-20_moment-lessons-review.md) and [REGINALD discussion limits](TASK_INDEX.md#october-20-reginald-cleanup-discussion) preserve the latest advice. Saved approvals below survive; no pending pilot, review or owner follow-up starts automatically. No fleet shutdown/machine-handoff completion claimed.
+**October 21 boot oversight delivered; await Will.** [Assessment](runs/2026-10-21_0843_prome-boot-oversight.md): PROME boot remains PARTIAL for skipped follow-through; 47 mixed flags are not 47 wrong dates/files. Guard CRLF repair independently checked at `49cf39f7b` (51 tests plus separate fixtures); edited-swap/reconciliation/override limits survive. PROME owns warning dispositions, reminders, queue reconciliation and accurate guard claims; only uncertain usage preference needs Will. No CATO implementation assignment, owner edits/sends/launches or new process change. Saved approvals survive without automatic triggers; no fleet shutdown/machine-handoff completion claimed.
 
 **WALTER follow-through belongs to WALTER.** [Workflow review and relayed implementation](runs/2026-10-20_walter-bookmark-workflow-review.md): WALTER reports all six improvements installed at 52816a6ce, WW1's 29 delivery entries reconciled, and VULCAN/BRENT responses verified. Owner-reported closure, not a new CATO verification; other recipient incorporation and realized benefit remain unconfirmed. SAM integration and fresh threshold/intake checks remained unfinished at that receipt. No automatic review of later work or new CATO assignment.
 
