@@ -8,7 +8,9 @@
 - **Owed, in order:**
   0. **DOCKET citation-stability guard** (Will 22:13 ET "ok check"): `docket_row_cap.py` is DORMANT (no `DOCKET_ROW_CAP_BYTES`), so even ROWS-REMOVED never runs. Even if it were active it misses mid-file insert, swap, and delete+append, all tested 10/20. Build an always-on, policy-free diff-alignment check in the pre-commit hook: edits in place + EOF appends only. Tests = the four shift cases. Acceptance first (WQ-229); one independent read (it is a gate).
   0b. **Root Output Canon normal-spacing sentence** (Will 22:41 ET "okay go ahead"): draft at `proposals/2026-10-20_output-canon-normal-spacing-PROPOSAL.md`. Do a plan read, then ONE edit to root CLAUDE.md, then a result read.
-  1. Install **L628** once DAEDALUS re-hashes (packet 4330db8a5); CATO then does the result read.
+  1. Install **L628**: DAEDALUS re-hashed 10/20 23:2x (`target_hashes.json` → `reverified_2026-10-20_codex`; before a74bbd6b = live, `git apply --check` clean). CATO then does the result read.
+  1b. Install **L748** (DAEDALUS `builds/l748_time_2026-10-20/RESULT.md`): verify the before-hashes, apply all 3 paths together, run its tests, then append the four single-key invalidations through `orch_log.py` with current time and evidence.
+  1c. **DAEDALUS blind counterpart review** (packet `2026-10-20_from-DAEDALUS_organization-blind-counterpart-ASK.md`): PROME reviews DAEDALUS's organisation without seeing its findings. Cleanup receipt: `2026-10-20_from-DAEDALUS_organization-cleanup-RECEIPT.md`; 0 deletions verified by PROME.
   2. Encode **WQ-453** in GATES on ORACLE's packet (FOMC 10/28).
   3. Before **Sun 10/25**, refresh the L600 ranked table (`proposals/2026-10-03_l600-process-backlog-ranked-table-PROPOSAL.md`); class-A rows stay overdue (CATO BP1).
   4. Land BOND's 7-term R3 clean set (L565; both config copies, L634).
