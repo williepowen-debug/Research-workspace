@@ -1,0 +1,32 @@
+{
+  "rows_recut": 41,
+  "moves": [
+    [
+      "AEOLUS",
+      "L3",
+      "M",
+      "L4",
+      "M"
+    ],
+    [
+      "HOMER",
+      "L2",
+      "H",
+      "L3",
+      "M"
+    ],
+    [
+      "GIBBS",
+      "L0",
+      "M",
+      "L1",
+      "M"
+    ]
+  ],
+  "retired_rows_unchanged": [
+    "HERMES",
+    "YEYOU"
+  ],
+  "before_bytes": 29864,
+  "after_bytes": 26727
+}

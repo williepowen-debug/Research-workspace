@@ -1,0 +1,274 @@
+fc5ae5a5b9744be379eca277c003f32da7edeb2a | 2026-10-20T23:03:02-04:00 | REGINALD: close owner session at Will's request
+19163e0e7ddc45574759bbda50d5be4193847dc7 | 2026-10-20T22:51:30-04:00 | REGINALD: fold completed research into final NEXUS brief
+9fa4a3d0b7c7d0659f3522724b1ae62e50275f75 | 2026-10-20T22:50:53-04:00 | REGINALD -> PROME, OZK, WAL, WALTER: complete available backlog follow-through
+b18a5ad49cbe719b4bcf011f78734be6c753bb2a | 2026-10-20T22:27:53-04:00 | REGINALD: close cleanup dependencies in final synthesis
+cbc14828a32c1241068b3f7209d21c739ad9b7c9 | 2026-10-20T22:27:04-04:00 | REGINALD: consume PROME acceptance and restore grading-frame pointer
+b4a5cbb098f03645bc5fc0bba1da6492e0d37644 | 2026-10-20T22:22:11-04:00 | PROME -> REGINALD, WALTER: cleanup review accepted + READS filed; BOARD signal over budget
+014dd4c8a913ed4c738eb9dc7bf20e50d9e4b6db | 2026-10-20T19:20:45-04:00 | REGINALD -> PROME: deliver cleanup proof and attested boot reads
+c610f9c2018955df4bdebbcd5d53127c57b641d6 | 2026-10-20T19:19:10-04:00 | REGINALD -> PROME: preserve and reconcile approved desk documentation
+9caa3a5b57a1f7fbf2bbbc16f95f908777820a5d | 2026-10-20T18:44:55-04:00 | PROME -> REGINALD: organisation cleanup go-ahead (Will approved; no deletions)
+299781cea74ef2add628574577d5114dc381ba55 | 2026-10-20T17:41:26-04:00 | REGINALD: fold organizational review after STATUS write-back
+0966d1cc9cad10db1111367f3b4a018325d37131 | 2026-10-20T17:41:19-04:00 | REGINALD: review desk organization and preserve boot evidence
+4373f4566d535bc305adfe5860a1187427dfb4bc | 2026-10-20T16:34:12-04:00 | WALTER -> HENRY, VULCAN, HOMER, OSPREY, FALCON: review next 18 bookmarks
+e0a6064d67ecc512a8f833bade1250ec3010b01e | 2026-10-20T15:35:11-04:00 | REGINALD: fold final closeout state into NEXUS handoff
+829155fd75334272b0a0ef5fc79b334bc5be06a2 | 2026-10-20T15:34:47-04:00 | REGINALD: close session with current handoff and preserved audit findings
+4ec100ab27315fb323cd56b5d4cb5dbfef44d1af | 2026-10-20T15:32:43-04:00 | REGINALD: preserve closeout archives, calendar outcomes and continuity receipt
+5665c47bc0b9540709515d407347bcd243ad9123 | 2026-10-20T15:32:21-04:00 | REGINALD: audit key files and record boot coverage gaps
+c4c0084695fdaf3456710cc43bc79cb80fdec6af | 2026-10-20T14:41:02-04:00 | REGINALD: fold physical EGBN consolidation into final research handoff
+3ae0c1dfd92dcf1a94941100d434b19993d46eef | 2026-10-20T14:40:45-04:00 | REGINALD: copy Eagle reports, sources and data into the EGBN folder
+729c79018e4a4d1493f5f70ed5de14377343565b | 2026-10-20T14:36:29-04:00 | WALTER -> HANS/HENRY/LIQUID/BROCK/REGINALD/SAM/VULCAN: bookmark batch five
+8168db73066a5b5e2398791182bb6aa19c8f729b | 2026-10-20T14:35:34-04:00 | REGINALD: expose EGBN research hub in final NEXUS fold
+a3d1ff79ec1a31f726ad70c1b41880d8e88b0a9a | 2026-10-20T14:35:13-04:00 | REGINALD: organize Eagle research through a dedicated EGBN hub
+e323b5eec1c834ea00b7925fb61b0523c4f7545d | 2026-10-20T13:21:46-04:00 | REGINALD: fold final Eagle cash-investigation result into NEXUS
+f8a7f73e97370be9449782daf8ab2f09c99c6de0 | 2026-10-20T13:21:28-04:00 | REGINALD: investigate Eagle loan cash outcomes and recognition evidence
+323f043b06085df800cd0dda9866f8db080406b8 | 2026-10-20T12:54:58-04:00 | REGINALD: carry loss-recognition limitation into NEXUS brief
+b73365c7785ed6653a32eb9469fb671ea7d7b34f | 2026-10-20T12:54:49-04:00 | REGINALD: qualify capacity finding for unrecognized bank losses
+06a9c5d58c3a91c97c13168df89b6843ddaae633 | 2026-10-20T12:29:53-04:00 | WALTER: review bookmark batch four and route three qualified developments
+423b4c94f38a599628dbe2e3722ccf3ffac33efd | 2026-10-20T12:08:38-04:00 | REGINALD: fold final M&T capacity finding into NEXUS brief
+63307f44836d9156a248a21749df185610005bfe | 2026-10-20T12:08:21-04:00 | REGINALD: test M&T earnings absorption and retained-capital capacity
+6aa31d9e9e782b7f55a8fe754ec9d8e08e04a881 | 2026-10-20T12:01:54-04:00 | WALTER: review bookmark batch three and retain primary source limits
+98143f73984f0b2da947fc39bd0bcb453358da2e | 2026-10-20T11:37:24-04:00 | REGINALD: fold earnings comparison and receipt late intake
+cacfc6be151bff2d6e58d6ac2f2ca707b037e1d9 | 2026-10-20T11:36:09-04:00 | REGINALD: compare reported Q3 banks and complete WAL funding read
+70b8667a72b211e9eddcd6abce5e906adc698c02 | 2026-10-20T11:27:48-04:00 | WALTER: review first six bookmarks and preserve staged backlog continuation
+587cdb296fe38e7a0c60a4b516d87bd3b34706c8 | 2026-10-20T11:16:26-04:00 | REGINALD: fold startup continuity after final STATUS stamp
+f1d8aca50da751abfc17f3a4ab6ea017003ac95f | 2026-10-20T11:16:18-04:00 | REGINALD: stamp startup observation vintage
+d08ef78f724781b408fc333115382a26e3165e25 | 2026-10-20T11:16:04-04:00 | REGINALD: recover Codex startup, current broker caveats and approvals
+5e48206f91ec073337117e1a411bd3d9a67a379a | 2026-10-20T09:31:27-04:00 | PROME -> REGINALD: closeout residue from 10/20 session (KB, SCRATCH, PREDICTIONS)
+7f338a4c98f868a848509ad073213104dba5f330 | 2026-10-20T09:25:14-04:00 | REGINALD: VX.tsv refresh 18.02/18.04/18.05 to FRED 10/16 (REG-T-03 FIRED; B-tier ORANGE >330)
+0f142b3a8ee150846b30b76f7fd29e51d5500c61 | 2026-10-20T09:20:41-04:00 | REGINALD: 10/20 L516 Nano P&A NOT POSTED; REG-T-03 FIRED w/ BANK-ABSENT; inbox drained
+212889bb2a2bdc37393b9d0bd5ebbd18b33ce5e4 | 2026-10-20T09:01:48-04:00 | GIBBS -> BROCK, REGINALD, PROME (PROME-recovered): commit stranded brief and packets
+96db4685ed95832534dd0a179a1598246e28305d | 2026-10-19T19:28:52-04:00 | WALTER -> PROME: deliver bounded evening synthesis and owner evidence
+fd3f986aea6eb363f4a26f5707dfc3f129101373 | 2026-10-19T18:55:21-04:00 | WAL -> PROME/HENRY/CRUISE/WALTER/REGINALD: deliver bank-stress context
+5b285249a069d33d2f8f2812bfa843f5dcaae5c9 | 2026-10-19T18:45:04-04:00 | WAL -> PROME/REGINALD/TERRY: complete Q3 recurring earnings bridge
+0806a121f4b1ed15a42fb453a559d57fbe09f3e0 | 2026-10-19T17:59:56-04:00 | WAL -> PROME: complete Q3 full read and correct capital disclosure gap
+92e38d67fdac680a4c459fffbac13bfdd3118e57 | 2026-10-19T17:40:35-04:00 | WAL -> PROME: grade Q3 release and carry call/account gaps
+ea6eacc7abb08ef57b67875a27016c3fc69ff984 | 2026-10-19T14:41:00-04:00 | WALTER -> ZHAO HANS BOND: China GDP and French bond follow-through
+81d159bdc56b46ea929b5052264157a904338f5b | 2026-10-19T14:39:27-04:00 | WALTER -> CARL RED NEXUS CATO: relay OTTO contract and forecast repairs
+0cd4974a7d65865622a1d9255c9d08d9a7632248 | 2026-10-19T12:39:54-04:00 | WALTER (orch): route LIQUID source updates to BOND, VULCAN and VIOLET
+2d9238d29ffb30e0ec81d68fbf460946210d3f3a | 2026-10-19T12:37:14-04:00 | WALTER (orch): route HOMER nine-read sweep to housing and credit owners
+d6e2dbfeb9cd6fc414ba8d8c9f4b663cecd13986 | 2026-10-19T12:31:38-04:00 | WALTER (orch): route OTTO panel and custody forecast to CARL, NEXUS, REGINALD and RED
+666b5eb5d4a67c799be3fd1332c1018302e5298f | 2026-10-19T12:30:19-04:00 | WALTER (orch): finish routing to active desks, CARL, FALCON, HOMER and CREED
+b2609cd032a3ca69cebe66c2074217f6ec742c6b | 2026-10-19T12:14:23-04:00 | WALTER (orch): route published HY third close to RED, REGINALD, LIQUID and TERRY
+c1f2f4321de788e52f51d0ef56ddc0686aa01984 | 2026-10-19T11:20:21-04:00 | NEXUS -> PROME/REGINALD/VULCAN: full synthesis, L708 consumed
+f880624a5837c3ef45c76f80c5fa00d632deec64 | 2026-10-19T09:42:34-04:00 | WALTER (orch): route FITB and limited waiver; measure L599 pilot; reconcile Sunday delivery
+a302bd2650504082a206c9ec589514a5b0fb0b38 | 2026-10-18T18:11:37-04:00 | WALTER: Sun 10/18 boot routing — 001-008 (weekend bookmarks + intake)
+8567c442f47d9a419f1816afeb7850352c593c99 | 2026-10-16T18:29:34-04:00 | WALTER -> CREED, REGINALD, SAM, VULCAN and vol desks: bookmark batch 036-040
+9c6387039b4d729ef44a9388e300e50cdcf23c93 | 2026-10-16T17:42:20-04:00 | WALTER -> RED, REGINALD, BROCK, OSPREY, CRUISE and desks: evening routes 028-033
+4e85fb6de369ae2addac333f243c9372dcedf9bc | 2026-10-16T13:48:30-04:00 | WALTER -> PROME, FALCON, BRENT and recipients: close bookmark backlog and route verified follow-ups
+aef69386c8c4fd9494cbf6114636a0c74f6bd0e2 | 2026-10-16T13:47:16-04:00 | REGINALD -> PROME: 10/16 due-row memo + NEXUS brief pin 844abc79d
+844abc79ddac7b88630e7a9b8416ab2f823b22dc | 2026-10-16T13:46:19-04:00 | REGINALD: 10/16 due rows — CFG Q3 INCONCLUSIVE, Nano P&A not posted, REG-T-03 2-of-3
+e5f23d2d09914ed82e1e08c62952337c01b3267d | 2026-10-16T10:53:04-04:00 | WALTER: 10/16 AM sweep — SIG-W-20261016-003..-006 (Iran/Gulf, energy, AI-infra, tape)
+ea08d95f884e33386e3e46c15b4330d11f65fbe9 | 2026-10-16T10:48:01-04:00 | WALTER: SIG-W-20261016-002 CORRECTION — 10/15-013 Kansas "4th failure of 2026" is FALSE
+b79cdb2024e3925257796f3048f42813bc5461c9 | 2026-10-16T10:43:13-04:00 | WALTER: SIG-W-20261016-001 HY 323 [10/15] puts RED-FT-02 / REG-T-03 at 2-of-3
+e0dbc321ff25e4cec15ea6887002a30845c3deaa | 2026-10-15T14:51:04-04:00 | WALTER: LIQUID packet 93948f7fe — SIG-022 CORRECTION to -001 + SIG-023 GATE-LIQ-069 L4 FIRED
+e7e87590d580beb8fd9ecaa49132a28e0e8fa520 | 2026-10-15T14:00:26-04:00 | WALTER: BM-20261015-04 — 6 dispatches + 3 kills + SIG-001 date fix (RED packet)
+66f5753acf8bf4c639f0cff006ddcdb10d07e70d | 2026-10-15T12:40:32-04:00 | WALTER: post-closeout WQ-364 encode SIG-W-20261015-015 + 5-row STATUS mop-up
+a5bccb84b36880b52be340851958844f4337a0c0 | 2026-10-15T12:35:41-04:00 | PROME: 16 Deck taps RULED (12:22–12:27 ET) — GATE-BRK-OTIC registered; 13 rows closed; 12 packets
+f444ff03d8fca51226f94467a3a07dac38c1e72f | 2026-10-15T11:20:59-04:00 | WALTER: route intake lane 10/13 — 7 signals (-008 to -014), 6 kills, intake --mark
+a44a5bbc79ab42a254f95c97d2b0daa2732b4e55 | 2026-10-15T11:11:10-04:00 | WALTER: 3 corrections (CRWV YTW, FL columns, OTTO extensions caveat); 4 inbox pkts → processed/
+bc29c340908979d9997f69ad6743d88795b699a3 | 2026-10-15T10:49:53-04:00 | RED: review_debt axis 4 (evidence-cell lag) + 4 more vectors refreshed; CET1 ask to REGINALD
+103a70834071e58b99dba2780cfb3b6885b86a59 | 2026-10-15T10:44:36-04:00 | WALTER: dispatch 4 (HY 325 / Asia -8% / PPI +6.3% / UA refineries); kill 2 (MOAB, shadow-fleet)
+86b63cbd8772ac0dd70f8340983ed39c8500e231 | 2026-10-14T22:44:04-04:00 | WALTER -> CARL: CORRECTION to -1012-019 NY Fed tariff 12-month negative interval (-036)
+2c36296a325135b7a85b218bcce69ee9d7212c02 | 2026-10-14T22:31:18-04:00 | WALTER -> FALCON, REGINALD: FALCON grades into anchor (-035); RED non-session rule (v0.52)
+d69c3c0a2347e3ccc477fc92d22709b1833eb11e | 2026-10-14T21:23:14-04:00 | WALTER -> CARL, REGINALD, BROCK: CORRECTION to -030 Tricolor deal count (-033)
+08d273fca8b13a90f8f64547006a1917c7e9d3b3 | 2026-10-14T21:12:26-04:00 | DAEDALUS -> PROME/WALTER/REGINALD/BROCK/CARL: GIBBS built (WQ-426)
+9524ee61807660b74c05e7e515193e6a697e6f0a | 2026-10-14T21:11:55-04:00 | WALTER -> CRUISE, PROME: cruise-miss disposition; route OTTO x2 and late cruise item
+47bd8f55d903741d00c3c62fc28cbbb04c112e59 | 2026-10-14T20:35:50-04:00 | DAEDALUS -> 12 desks: brief-pin wiring; scorecard 10/09; L658; inbox drain
+05988c7deac63c5c46a1844b8a724739fd74de75 | 2026-10-14T20:32:30-04:00 | WALTER -> fleet: route Oct 14 market/AI items (-018..-022)
+e3520aa46d2572b50088aae821ad23eef9fe4b34 | 2026-10-14T20:22:00-04:00 | WALTER -> fleet: route LIQUID/BOND October 14 owner returns (-015..-017)
+8c1c7ccaf9304d6d75da5b0504f890ffb5c4ff93 | 2026-10-14T15:47:35-04:00 | REGINALD: fold WAL earnings test after final STATUS
+a4ba5de647e0cbd4d7dd774004d88b51653026cc | 2026-10-14T15:47:06-04:00 | REGINALD: close October14 session and preserve late source limits
+e556ed175d3876fac55b2da2eb462c301a2de208 | 2026-10-14T15:42:51-04:00 | DEWEY: verify Nano Banc P&A publication and scope
+e963d98ceeeed3784a932d0017908fde2b86cf2c | 2026-10-14T15:27:21-04:00 | BROCK -> PROME REGINALD RED NEXUS: correction dispositions and verified consumer pin
+0e71ed7bb264988afcf7a7e2c3b3a5c38023ed93 | 2026-10-14T15:14:49-04:00 | REGINALD: fold WAL earnings test after final STATUS
+00c3a3737cea28e265d9e58ffc2067162b82d822 | 2026-10-14T15:14:21-04:00 | REGINALD: record Will-requested December WAL probability first mark
+6625eef5078d65da5ca9fdd2606caed08e802a56 | 2026-10-14T14:50:56-04:00 | REGINALD: fold WAL earnings test after final STATUS
+d7796d75f0af1d2ad6c03b1967a6549cdf37a3b8 | 2026-10-14T14:50:20-04:00 | REGINALD: consume WAL independent review and narrowed research scope
+8d6dea7169d5b1051dd5af9bf0fb3fc426554881 | 2026-10-14T14:21:16-04:00 | REGINALD: fold WAL earnings test after final STATUS
+a7cb3b8f4800412f5bfbb103f8a6dc019a8c7f4e | 2026-10-14T14:21:15-04:00 | BROCK -> PROME REGINALD OZK: deliver October14 bank attribution and FSK collateral evidence
+423e52e6844f46cd73f02e3215c1fbf0bea0e852 | 2026-10-14T14:10:17-04:00 | REGINALD: test WAL public 2027 earnings path and profit conversion
+5e1d0ee06b7d389934a2dba4e8c38bf910ae2a58 | 2026-10-14T14:00:42-04:00 | BROCK -> REGINALD: coordinate frozen BRK-31 Q3 read and CFG basis reconciliation
+bb4349ba6e28e607e0d3db6b531f607a61d36f26 | 2026-10-14T13:30:19-04:00 | REGINALD: clarify Amerant identity and WAL relative-weakness interpretation
+d855a38511e4c1deabd7be35237035170d5f9c15 | 2026-10-14T13:11:09-04:00 | REGINALD: fold bank ETF snapshot after final STATUS
+947f48210d62f3b458b69cdf20d559ccfc0cb283 | 2026-10-14T13:10:04-04:00 | REGINALD: compare October 14 bank and ETF intraday performance
+d0a3ee9132b6d974a5d8ff9c809bdf28b6617347 | 2026-10-14T12:43:10-04:00 | REGINALD: confirm HBAN October 16 expiry from user broker capture
+96ac1be9a31b301a59d55556881cc02cafdea5ce | 2026-10-14T12:35:17-04:00 | WAL -> PROME/REGINALD: integrate eight-quarter FFIEC evidence
+d62508475023a309205f6a98b7269acc1c4509d1 | 2026-10-14T12:32:22-04:00 | REGINALD: fold noon boot after final STATUS and WALTER intake
+69bd0ad848b8a72d7219a44d546fcd9705aa5e7a | 2026-10-14T12:31:22-04:00 | REGINALD: integrate mid-boot BAC counterevidence and housing context
+8e2b066e699429f4780c0914af958d23131d0724 | 2026-10-14T12:28:41-04:00 | WALTER -> fleet: route October14 morning releases and19 bookmarks
+e4cc03b271509290ad4e9afe9b9a58783e9e8af4 | 2026-10-14T12:28:06-04:00 | REGINALD: recover October 14 context and verify noon boot
+2d1210e170d3e2a4924eb2d5e71198caee8e4e83 | 2026-10-14T12:03:21-04:00 | REGINALD: pin final reboot brief to closeout STATUS
+2903e7de499446a8f92b08b891a03ded638b085e | 2026-10-14T12:02:40-04:00 | REGINALD: close research, audit workbook and complete fresh boot
+49b07b11b270730ae278f903e843a6551122506d | 2026-10-14T11:08:47-04:00 | WAL -> PROME/OZK/REGINALD: deliver housekeeping and peer integration receipts
+03edfba0485b8d0f7ec8248e8ab10f2ea3523745 | 2026-10-14T00:41:07-04:00 | WALTER -> owners: process 72 bookmarks into 21 signals and 53 handoffs
+5fbf68060a234d497b64f2eec8bb95fe5b930332 | 2026-10-14T00:41:03-04:00 | PROME -> research desks: integrate broader financial stress investigation
+19d364784fe31cf2a802a47d54fc3f84974b18d8 | 2026-10-14T00:31:58-04:00 | REGINALD: fold combined-risk synthesis after final STATUS
+1336a556098cc0abbc6c39b7ee1ae04420b9fa7d | 2026-10-14T00:31:27-04:00 | REGINALD: trace combined bank credit, funding and nonbank risks
+52884a01bd690c58e9f654f9b69abc0eec700ea3 | 2026-10-14T00:16:48-04:00 | WAL -> PROME/REGINALD/OTTO: earnings bridge and Ontario docket evidence
+b2e1bdff7c765e575c0962675ea9ff4fa465dec7 | 2026-10-13T23:57:15-04:00 | REGINALD: fold approved screen after final STATUS commit
+76187d4d83de64d730247c99dfa69ef9f9fc7d43 | 2026-10-13T23:56:25-04:00 | REGINALD: complete approved 14-bank securities and funding screen
+a3c27ebd037a2bf77978993c11c5b34a8d227e74 | 2026-10-13T23:10:28-04:00 | REGINALD: fold late boot after final STATUS commit
+0d1753f0cba762c34cf560a65b92aa2654cb5594 | 2026-10-13T23:10:08-04:00 | REGINALD: recover late boot and verify unchanged settled gates
+05cf30390152715eec57737feb7a3d0b40da8739 | 2026-10-13T22:52:36-04:00 | REGINALD: fold accepted closeout after final STATUS commit
+c10de556aab7e90a62e5cbcced21ed1049265947 | 2026-10-13T22:49:21-04:00 | REGINALD -> PROME: close accepted WAL session and retain Q3 obligations
+df9badabd03d5e68d442239795db43c3ad8e5a5d | 2026-10-13T22:36:20-04:00 | REGINALD: fold verified WAL source integration after final state commit
+31c02fd748af937a3713a1a30da19315e02ec086 | 2026-10-13T22:31:30-04:00 | REGINALD -> PROME/WAL: integrate original Q2 hedge and capacity evidence
+03e60dc0ee14232244a54ffbb6b703d9ff822bdb | 2026-10-13T22:26:14-04:00 | WAL -> PROME, REGINALD: reconcile securities hedges and rate-model assumptions
+08c40607742713d25753c1ef53fec1e3c388813c | 2026-10-13T22:26:08-04:00 | REGINALD: fold WAL rate-funding result after final STATUS commit
+f1b7b525bfb746cb582edaa6d18ab91aa78a5308 | 2026-10-13T22:10:23-04:00 | REGINALD -> PROME/WAL: reconcile rate resilience with funding and securities marks
+98e04bdb68a21ec04aa63a66f7fc7c45185ab758 | 2026-10-13T21:31:55-04:00 | PROME -> REGINALD: focus WAL research on rate and funding reconciliation
+5501fc6ddab4a68352fc3d3ebb10bf071801f6dd | 2026-10-13T20:42:32-04:00 | REGINALD: fold securities review after final state persistence
+7925de67ab747a0087f20e852bfe592e525373fd | 2026-10-13T20:41:34-04:00 | REGINALD: verify securities-loss claims and preserve Q3 accounting guards
+edb56408fab1f47422ab0033ed4827e5f7bc06e9 | 2026-10-13T20:22:35-04:00 | REGINALD: fold future-session research standard after state commit
+b3b9700be8aeac0120f465febc1b1612ba6c8fb7 | 2026-10-13T20:22:07-04:00 | REGINALD: wire reviewed bank-research method into future boots and handoffs
+1f4619b91f6dea1955707d48d80f4fe0d879041f | 2026-10-13T20:09:00-04:00 | REGINALD: fold review evidence after final state persistence
+79e008fbb293ec55b51962dcb8d58539097a18bf | 2026-10-13T20:08:19-04:00 | REGINALD: address review with forward judgments and primary-source audit
+5b332ddfea64b0e921561702f8a0b94bdce5ecf3 | 2026-10-13T20:05:07-04:00 | WALTER -> BROCK/SHADE/BRENT/REGINALD: route October13 bank, diesel and insurer evidence
+f8cf2226e27a6ebd92a2e233680c56c53f1cd779 | 2026-10-13T19:57:27-04:00 | REGINALD: fold Q3 cash-loss research into NEXUS after state persistence
+9a3da47de40cd9ffc992866d47bf00d78ffeaaf9 | 2026-10-13T19:54:29-04:00 | REGINALD: resume Q3 cash-loss research and quantify valuation sensitivities
+164d4ad92474910ab105bf1d6a50e288ca0e29ef | 2026-10-13T10:16:13-04:00 | REGINALD: fold final workout bridge closeout
+6fe886930e969cb144357cd1464972c5c2b9f476 | 2026-10-13T10:15:53-04:00 | REGINALD: close workout bridge continuation
+437de2c40829a452f9863706dfa32dbef13d86c6 | 2026-10-12T21:12:13-04:00 | REGINALD: close canonical file audit
+5d03fd4c44b5d67b5c6d26fd4307a6520fe28a02 | 2026-10-12T21:11:57-04:00 | REGINALD: reconcile canonical bridge closeout
+94afbe1b092900a1ba5f5aeb77c21a529a988a6d | 2026-10-12T21:07:33-04:00 | REGINALD: fold extended workout bridge into NEXUS brief
+cdad681ce8aea496ade400087826203f0f1ec460 | 2026-10-12T21:06:55-04:00 | REGINALD: extend workout outcome bridge
+635bbb0106c21dd08d97f570c612e148c6c8d3d9 | 2026-10-12T21:05:27-04:00 | WALTER: read48 bookmarks, route13 qualified updates; consume:WALTER
+43765520fa02d3a5e9fbbe041c52e555930df960 | 2026-10-12T20:04:46-04:00 | REGINALD: fold workout bridge into NEXUS brief
+8199d5a1ac61565e9e21a4967cdc1ef20547adc6 | 2026-10-12T20:03:37-04:00 | REGINALD: add first workout outcome bridge
+2ab7089df6e16af631f47e1e72cb1affaecb3ebb | 2026-10-12T19:08:22-04:00 | REGINALD: fold policy review into NEXUS brief
+ad9fa6a771d46e866933c9c3714c1f34a077bd50 | 2026-10-12T19:07:35-04:00 | REGINALD: integrate regional-bank policy and CRE report
+dd40692582f4eee612e763bc3a04c7c8f34e3e1a | 2026-10-12T18:00:47-04:00 | REGINALD: complete October 12 boot intake and correct calendar instrument
+34e4dbde49068db0d1c010d2be7332214f5f2c6d | 2026-10-12T15:56:09-04:00 | WALTER -> PROME, DEWEY and recipients: verify live basis and route ordinary intake
+f873453196435c01f17357241326eadcfd05245b | 2026-10-12T15:30:52-04:00 | CARL -> PROME/RED/REGINALD/DEWEY/WALTER: prepare assigned credit tests and reconcile sources
+075010818140c7bca9f1cfedd81e7dfd546ee4f5 | 2026-10-12T15:25:36-04:00 | REGINALD -> OZK/PROME: integrate durability evidence and record consumption
+503776cbc21e1ea6a7275d534a8a04a0e3f3a717 | 2026-10-12T15:18:00-04:00 | REGINALD: preserve late CARL source-supplement handoff at machine-switch boundary
+1276609e352cd934a488cb6615817741bc77cfb3 | 2026-10-12T15:17:25-04:00 | REGINALD -> PROME: checkpoint machine-switch commits and local-only source gaps
+aea8a07a7e3327ddac656be949146ba105162eb8 | 2026-10-12T15:16:07-04:00 | OZK -> PROME/REGINALD/TERRY/WALTER: wrap research and preserve Q3 priorities
+459710349a39ff7ca4693dcbac2a419f845adcf8 | 2026-10-12T15:15:05-04:00 | REGINALD -> PROME: save KRE interpretation and Will-requested owner closeout
+e6f065cb57d58df59f143565ee4d47b04f93823c | 2026-10-12T15:13:10-04:00 | DEWEY -> CARL/WALTER/PROME/HOMER/REGINALD/BROCK/LIQUID/NEXUS: reconcile CATO causal correction
+9f13a2fd68a8f29799212bcda9e039bdaa450611 | 2026-10-12T15:05:24-04:00 | REGINALD: record KRE study notification and persistence observation
+6c7e4e774b1c9aacc6ac201f2a1b94131254a805 | 2026-10-12T15:04:02-04:00 | REGINALD -> PROME: deliver approved KRE whole-basket study with attribution limits
+9232d7829281b056c6d0484436b66028e236f429 | 2026-10-12T15:00:44-04:00 | DEWEY -> PROME/WALTER/CARL/HOMER/REGINALD/BROCK/LIQUID/NEXUS/BRENT: repair desk audit findings
+b06820c72261bb2eca00dce2e76e9b747593414c | 2026-10-12T14:47:16-04:00 | CARL -> REGINALD/WALTER/PROME: define WQ228 consumer-credit feed
+eb1213301ca80ddc3a653c7e9fb0e3b66a715917 | 2026-10-12T14:11:15-04:00 | DEWEY -> CARL, BRENT: deliver Q2 cards and partial diesel evidence; retain open legs
+f64ff147907dff5a3898d959f0f715f901b07b04 | 2026-10-12T14:09:52-04:00 | REGINALD: record requested PROME checkpoint notification acceptance
+6c917f2a87f463ae013c9e1c9f6c4171f1cbe1e8 | 2026-10-12T14:08:53-04:00 | REGINALD -> PROME: report EGBN/KRE checkpoint and next-research recommendation
+c94d26c60a7acfac151560e9d5f3cbe88ad260b1 | 2026-10-12T13:48:33-04:00 | REGINALD: record KRE recent price weakness and attribution limits
+f6286e0c1b5d6eb118887d81cd2c31a642daadcf | 2026-10-12T13:43:52-04:00 | REGINALD: create regional-bank market and technical research hub
+3a79cef0041b1206ab46b4ce67c14028d80aac84 | 2026-10-12T13:35:12-04:00 | REGINALD: refresh KRE top-ten bank tape and settled performance
+b9635c91d39b04b5c4f7bd683a2acaaf3ac4067a | 2026-10-12T13:22:23-04:00 | REGINALD: clarify KRE modified equal weighting and bank weight differences
+89d77ba1dd6ea4f9eba398e57749fac901f1557e | 2026-10-12T13:20:36-04:00 | TERRY -> PROME,REGINALD,BRENT: deliver L694 feasibility and missing-stage pointer
+5295091e28dbec3c4d5fffde61fa35d337ddd881 | 2026-10-12T13:13:19-04:00 | REGINALD: record KRE top holdings from October 9 issuer snapshot
+4e52d9e805c655768bba8f0d0194c1157fd4e0df | 2026-10-12T13:09:57-04:00 | WALTER -> PROME: recover fresh boot and route qualified bookmark findings
+6556cad310f20591bd5c8288b85e4cdbcb6ff564 | 2026-10-12T13:05:05-04:00 | REGINALD: save EGBN verification and relative-strength interpretation in ledger
+53f1c1beb082c358129848d94275585c689b3d64 | 2026-10-12T12:51:17-04:00 | REGINALD: reverify EGBN cleanup at primary and check for newer credit data
+d7905bb8befffa0ef1fd91f4da6484bc30c7a3dd | 2026-10-12T12:20:38-04:00 | REGINALD -> PROME: record L694 transport, remote persistence and scoped intake deferral
+fb05ce5bb33a3465e4d250fc14d383bc19124fa8 | 2026-10-12T12:17:32-04:00 | REGINALD: nominate one EGBN loan-outcome question for L694 early feasibility
+1926850f2939f8253c031f12e6a2027160efbe24 | 2026-10-12T12:13:11-04:00 | PROME -> TERRY,BRENT,REGINALD: start approved opportunity-discovery pass
+b364ab5ec30edb3cada70e595b331c18c77f711c | 2026-10-12T11:31:07-04:00 | WALTER: route OZK Horton comparison limits through normal signal lane
+a2b53bc63bfbbabd41b6a0bc846de84817339f5e | 2026-10-12T11:29:24-04:00 | REGINALD -> PROME: record tape notification and independently observed remote persistence
+f502d2b46a72be3bfb082ca82c29abf4523f7092 | 2026-10-12T11:27:05-04:00 | REGINALD -> PROME: deliver morning bank tape and actual desktop session identity
+bd29d86875364010198bebdbd7a226ad3e8840a6 | 2026-10-12T11:25:48-04:00 | REGINALD: verify broad morning bank gains and consume OZK extension counterevidence
+33fa0a2397b897c75adfac2f85eb8b92f9a71bb0 | 2026-10-12T11:12:19-04:00 | PROME -> REGINALD: prepare approved morning bank-tape brief
+f818bf6a3099bfe024ea6072a7d9b6352b96fb44 | 2026-10-12T11:12:15-04:00 | WALTER: process three YouTube transcripts at primary sources and route new evidence
+d9127ded077f80909c71ce8c4fc61e0c3239590e | 2026-10-12T11:04:04-04:00 | WATT -> PROME/HENRY/VULCAN/CARL/REGINALD: IRAS core rejected; L654 grades
+cf123b597e84340118712f304f0587036a295c56 | 2026-10-12T10:57:21-04:00 | WALTER: FLASH executed RaDD extension and preserve held-put caveats
+3b91e44871f509c0088dd1e6d36e767f77c06f41 | 2026-10-12T10:52:34-04:00 | OZK -> PROME,TERRY,REGINALD,WAL,CREED,NEXUS,WALTER: L635 evidence
+4c71c99755e595474c5afe5249efe3d97ea87151 | 2026-10-11T15:24:00-04:00 | REGINALD (orch): accepted WQ419 full owner closeout -> PROME
+c7f945a9540b6b7a8c015be49290496b89a62378 | 2026-10-11T15:12:18-04:00 | REGINALD (orch): file consumed WQ419 continuation after integration
+9451933aa39dc35aa60456bedcfee799ce013d8b | 2026-10-11T15:12:18-04:00 | REGINALD (orch): WQ419 insurer handoffs and CFG note -> SHADE, BROCK, PROME
+15c7d8b40157895ea03d6c92e82d7ff15acb8bc7 | 2026-10-11T14:27:23-04:00 | PROME -> REGINALD, TERRY: consume results and record approved continuations
+2daea8d59423ac07ef2c3023d0c3f3acc1c5bc71 | 2026-10-11T14:11:58-04:00 | REGINALD (orch): accepted WQ414 owner closeout -> PROME
+2912cd36968267415b7a45aed2261c103d1394aa | 2026-10-11T13:52:18-04:00 | REGINALD (orch): WQ414 result -> PROME, LIQUID, BOND and WALTER
+236a091d453166abce91a687d5697800d2c8bd57 | 2026-10-11T13:44:50-04:00 | REGINALD (orch): encode approved WQ-414 REVIEW and borrower breadth safeguards
+474e09d66a94ae8a59df3de4b0ad7f1c4aa78c90 | 2026-10-11T13:37:48-04:00 | REGINALD (orch): deliver WQ-414 plan checkpoint to PROME
+70a6e8735028709e4f9f0ac1fe340e0def5607be | 2026-10-11T12:53:13-04:00 | PROME -> REGINALD, TERRY: record approved alarm repair and pre-CPI card
+7bb025bc889678fee74e0ae00794e360f95b0a54 | 2026-10-10T20:43:43-04:00 | REGINALD: KB +1 ML-REG-190 (FHLB advances by borrower type, OF Q2 CFR) - ledger nudge answered
+b1ac8c6b370a87e1aa3bf1fa0dbc2f87ac4f9cb3 | 2026-10-10T20:43:08-04:00 | REGINALD: NEXUS brief fold at closeout 10/10 eve (last write-back; STATUS pin 4a2d5a0f0)
+4a2d5a0f08b81c55c210dc762a275df03962e3b8 | 2026-10-10T20:42:15-04:00 | REGINALD: closeout 10/10 eve - STATUS/ROADMAP/MEMORY write-back, hub paths, boot sweep outputs
+8d498d5bd8369535be556d498f77f8e4c2fdf7a1 | 2026-10-10T20:19:40-04:00 | REGINALD: FHLB research hub - consolidate desk + fleet FHLB material (Will)
+1ccd3353a8b9f846060fd3035fc2a7a3889fefa4 | 2026-10-10T16:40:38-04:00 | REGINALD: NEXUS brief fold at closeout (last write-back; STATUS pin 9fef700b5)
+886c6b09c4fa921cfec102bb3a562233978b8d96 | 2026-10-10T16:40:38-04:00 | REGINALD: closeout 10/10 late PM - MEMORY handoff + CALENDAR VLY-Bluevine/CCB row
+e4134b88a9405c86b632f6420e2c91c1fd99a0f5 | 2026-10-10T16:36:39-04:00 | REGINALD: VLY-Bluevine funding motive (KB ML-REG-189) + CCB program termination date
+59f85069d59a6ae49291b693b43bfbb16d9e87e2 | 2026-10-10T15:22:21-04:00 | REGINALD: NEXUS brief fold after core-file sweep (STATUS pin 9fef700b5)
+9fef700b58067283c50f3f3bc8afed34d02e6964 | 2026-10-10T15:22:11-04:00 | REGINALD: core-file sweep - nowcast/scale propagation, KB +3, BaaS thread, read-cap rotation
+6ca2236d6bbae613ab8ed71bfae54c87656c3eb4 | 2026-10-10T15:04:05-04:00 | REGINALD: NEXUS brief fold - 2026 failures line (STATUS pin 7cbab9f8e)
+7cbab9f8e3c4664a44bdbe32f4874b9f03a45fb0 | 2026-10-10T15:03:55-04:00 | REGINALD: 2026 bank failures list at FDIC primary (6) + Metropolitan cert fix
+0207775d73f00246fbe4e1343438a15cad005b60 | 2026-10-10T14:22:26-04:00 | REGINALD: record WALTER routing of signal + amendment as SIG-W-20261010-007
+1d361c78c9560ce0aafe950b91413f71162e8877 | 2026-10-10T14:15:32-04:00 | REGINALD: NEXUS brief fold 10/10 late PM (FHLB nowcast; STATUS pin ce1245f28)
+ce1245f2828061f5eb416b155f307b8c0268e109 | 2026-10-10T14:14:47-04:00 | REGINALD: FHLB Q3 nowcast from Office of Finance debt (~$770B; REG-T-06 fires as lettered)
+5305cb2aa79a373e7e80b90708baa64cebf883cb | 2026-10-10T13:55:12-04:00 | REGINALD: NEXUS brief fold 10/10 PM (last write-back, STATUS pin 4156a7882)
+4156a788250b460339c0d271db406528bb174c0b | 2026-10-10T13:54:21-04:00 | REGINALD: 10/10 PM write-back pass - STATUS/MEMORY/ROADMAP/CALENDAR/TRADE refreshed
+004b3a238b35df4fca9b4fec4352645d912a389a | 2026-10-10T13:46:11-04:00 | REGINALD: close five aged July ROADMAP threads (verdicts archived, crc fd8df983)
+e1fc7415448e591103a76e605e41e94665b8fac1 | 2026-10-10T13:32:18-04:00 | REGINALD -> WALTER: signal, small-bank borrowings +$32.9B in 3 wks to 9/30 (160-wk max)
+11f3a8a4ba99d999660b6dacdf3388f2fa10890e | 2026-10-10T13:15:56-04:00 | REGINALD: FHLB report addendum - why the four big banks borrowed
+e4916e89a766d572c9005ca0f1f0821824f3db57 | 2026-10-10T13:02:16-04:00 | REGINALD -> PROME: FHLB Q2 composition (half = 4 big banks); REG-T-06 re-letter WQ ask
+ed85a5c7b8f3f0420fde2d4a376bedecf2f29eca | 2026-10-10T12:59:14-04:00 | MARCO -> REGINALD: Pharr token narrowed to mechanism NOT ESTABLISHED (CATO AP3)
+28c7dd7dd06df1aa84c8195e7e73108a2c7dd744 | 2026-10-10T12:46:22-04:00 | REGINALD -> DAEDALUS: H2 as-made receipt complete (20 rows); REG-13 re-form, REG-07 vintage fix
+8b5bbaaf2fa005990afbb03f0a63d5f1de2bc8b3 | 2026-10-10T12:36:51-04:00 | REGINALD: NEXUS brief fold 10/10 closeout (last write-back, STATUS pin)
+ec21517c580af8717c483f0b824b4754f5f9dc9d | 2026-10-10T12:36:51-04:00 | REGINALD: 10/10 closeout - write-backs, next-boot queue, read-cap rotations
+cb236344fc6d50822302e50ad0f6056cfa1a56ef | 2026-10-10T12:20:30-04:00 | REGINALD: record Will verbatim on WQ-302 HBAN puts (10/10 12:18 ET)
+bce017a974de7407727c8270c7c92400c0ba4760 | 2026-10-10T12:04:39-04:00 | REGINALD: NEXUS brief re-pin to STATUS HEAD after 10/10 items 1-3
+b8ddfea8d6cf1ba89f4cc8124569ce5f696fca9e | 2026-10-10T12:04:39-04:00 | REGINALD: write-back for 10/10 items 1-3 (MEMORY, charter file table)
+04310ee4d4bd8595f24ba09dfd7933919c9672f0 | 2026-10-10T12:04:18-04:00 | REGINALD: stale tables - VX 27 rows STALE, FLOW frozen, baselines FROZEN-VINTAGE
+0572114b88bed72bdb75e5301938e0c0ae2544b7 | 2026-10-10T12:03:10-04:00 | REGINALD: DAEDALUS F#4 wording fixes + wiring 17 VX re-cut (Will go-ahead)
+5344a98c8e4f8781f85e6ec80d58d57996b8c954 | 2026-10-10T12:01:22-04:00 | REGINALD: name instruments for REG-03/06/07 (DAEDALUS F#4 neg-res, overdue)
+e2ceb0d62a7628749502d36b6ac8215f1181b8e9 | 2026-10-10T11:56:46-04:00 | REGINALD: NEXUS brief re-pin to STATUS HEAD (10/10 settled-close write-back)
+f0dbde9eca9d1287cbe0a278d88ecc329fd2f312 | 2026-10-10T11:56:46-04:00 | REGINALD: 10/10 catch-up - WALTER -005 logged, 10/9 settled closes written back
+f16be80114d7918dbce87b3d39b4cdcfe9a267f1 | 2026-10-10T11:45:28-04:00 | REGINALD: WAL exit-log 10/9 row (settled, two routes) - 0-of-3, 28 rows
+305510d1e786bae9a939a078c5c99877ded2b1bb | 2026-10-10T11:38:09-04:00 | WALTER: SIG-W-20261010-003..006 from Will's 32-item X-bookmark batch (closed 32/32)
+8fd19134380cfff6e9b891a4e05bebc5695974a1 | 2026-10-10T11:18:59-04:00 | REGINALD: record withdrawn market-direction lean (CATO) + lesson 44
+413f6c777edec7969d3030affa037fa53e1bde95 | 2026-10-09T21:41:53-04:00 | REGINALD: NEXUS brief fold 10/9 PM (last write-back, STATUS pin 288454bd9)
+288454bd954da1a10a01c527ff9474aecd71d247 | 2026-10-09T21:41:21-04:00 | REGINALD: 10/9 PM closeout - plan clarifications (Will), write-backs, read-cap rotation
+1a0ead04f4c1464cc8bd446a92c78cb928c0ab25 | 2026-10-09T21:27:44-04:00 | REGINALD: Q3 earnings read plan - concentrated vs spreading, by channel
+8255c2d13a244a3ed7b593a487f6f4e50d8c1242 | 2026-10-09T21:23:51-04:00 | REGINALD: bounded monitor repair - filing routes, coverage, no false all-clear
+bd0095175291bdacb58363cf3d0069ba1a71234a | 2026-10-09T20:43:04-04:00 | REGINALD: note PROME prome-1e coordination ping + closeout obligations
+90a2b365d0349bd75f13b8bd0961c96be2b44d69 | 2026-10-09T20:37:24-04:00 | REGINALD: 10/9 evening boot notes - monitor blind spots, unsettled bars
+6123b665fddc966ea487e4ff0b79d7f504769a57 | 2026-10-09T20:36:29-04:00 | REGINALD: 10/9 evening boot - WALTER lane 2 -> 0, boot.py sweep writes
+f55884c39d52da85b6d456ff8bc124792abcd3f9 | 2026-10-09T17:51:55-04:00 | WALTER: 10/9 evening boot; -011..-014 (Isaias Cat 3 landfall, Oracle gas, SKEW watch, RU)
+43e748dce3c5570713911aee5a1b5e43f64f93ba | 2026-10-09T11:05:02-04:00 | WALTER: SIG-W-20261009-010 CORRECTION WFC Q3 is Tue 10/13, not 10/14 (R1 COR-20261009-10)
+53021ba16c02432fe58f3ee713880af791d3bcbe | 2026-10-09T10:38:55-04:00 | REGINALD: L516 Nano bid summary read (P&A not posted), §3 re-run, REG-T-03 0-of-3, inbox to 0
+e3e34991e1d981c3eb29fe564989b642e5059e46 | 2026-10-09T10:32:02-04:00 | WALTER -> BRENT: boundary #6/#8 RULED by Will (routing v0.41, SIG-W-20261009-008)
+f02b1e84bcf530df3c8a049a87dd0292a155caad | 2026-10-09T10:07:36-04:00 | WALTER -> WAL: SIG-W-20261009-007 Q3 date 10/19 AMC, call 10/20 noon ET
+8100f74f80f552e9caca85f118175b28007fca22 | 2026-10-09T10:06:34-04:00 | WALTER -> AEOLUS, CORAL, BRENT, FALCON, SAM, VULCAN: morning sweep -004..-006
+500e0732a3e0efb14a8f97b9f3952f68b4adc102 | 2026-10-09T09:59:59-04:00 | WALTER -> BROCK: SIG-W-20261009-003 private-credit valuation (bookmarks BM-01)
+131bc0b7754d3b275cc68902fb43905ebd3454be | 2026-10-09T09:56:58-04:00 | WALTER -> CREED, HOMER: SIG-W-20261009-002 Trepp September primary
+ff6c08b43c6a7f8f456f057ec8363d3fdb9de9e2 | 2026-10-09T09:50:44-04:00 | WALTER -> LIQUID: SIG-W-20261009-001 HY OAS 315bp near-trigger (not a fire)
+d82939a449aaebe4e0fa87c3ef698fd8a032bfd2 | 2026-10-08T20:45:04-04:00 | WALTER evening sweep 10/8 (16:20 ET onward): SIG-W-20261008-046..052
+8234db2840e1b88fe278142d801cbcdf008e4e18 | 2026-10-08T16:35:15-04:00 | DAEDALUS -> 28 desks + PROME: consolidated sweep packets (3 sweeps)
+ce1ffb4a92cff939e4a05dd22def5201f5d04e5c | 2026-10-08T15:49:40-04:00 | WALTER -> ALL ACTIVE + Tier-2: SIG-W-20261008-033 WQ-399 receipt command
+c00ccb6b20f0334919633b20da638f81a72cb5a4 | 2026-10-08T15:19:41-04:00 | DAEDALUS -> HANS, SAM, MIDAS, TERRY, WATT, ORACLE, RED +7: L546 float-tie asks
+6ac33d81adf2a70fd6da91337a4f7a31b931770a | 2026-10-08T15:12:54-04:00 | DAEDALUS -> AEOLUS, FALCON, ORACLE, RED, REGINALD, BROCK, CRUISE: ⑰ #3 threshold-basis asks
+223cd02f076e0d766379948552f6e62fbc377d94 | 2026-10-08T12:07:16-04:00 | WALTER 10/8 broad sweep: -030 rates/credit (HY near-trigger), -031 CRE cases
+cb1ccc6b17bf35d46d9828af7d40ae363a343764 | 2026-10-08T11:56:02-04:00 | WALTER 10/8 broad sweep: 8 cards -022..-029 (Europe, RU energy, AI fin, more)
+e8413e193e1c891ad67f57592a93dbdd0b3a7bde | 2026-10-08T11:42:17-04:00 | WALTER -> AEOLUS, CORAL, BRENT +7: Isaias now a hurricane (-019, IMMEDIATE)
+d5f3fb70d07de391739d3cf1e7194196a0e2af86 | 2026-10-08T09:08:53-04:00 | WALTER 10/8: OZK cause found -> SIG-W-20261008-017 (RaDD bridge to Fri 10/9)
+fc8df133419a69fa15c242be064668914801ad8a | 2026-10-08T08:52:36-04:00 | OZK -> REGINALD, WALTER: <$45 FIRED; 10/6 cause = Citi RaDD stopgap note + SIGNALS row
+45b3201340e9cfe25e28aee7e4c1c5d122ed3f1e | 2026-10-08T08:16:22-04:00 | WALTER 10/8 boot: 13 dispatches (Isaias, Trepp, OZK, freight, gilt, AI, plague fix)
+5453ee5ad7575a2bc7423e5ce1fdee3622c5aa7d | 2026-10-07T22:39:46-04:00 | REGINALD: L527 closeout — STATUS/ledgers/calendar written back; NEXUS brief folded last
+d3a60d512ae4d032ca4686147f12251109602401 | 2026-10-07T22:32:52-04:00 | REGINALD: drain the whole inbox (14 top-level + 19 WALTER lane) and log each
+a033c799ce388ad6e967ec47c24d0cbecd8ea951 | 2026-10-07T22:13:34-04:00 | REGINALD: deliver WQ-318 funding-vs-nonbank six-bank baseline and Q3 observation list
+fe37dd785adf89cf5f8c6a8c74ecb2acb6861ede | 2026-10-07T22:03:39-04:00 | REGINALD -> TERRY: WAL Q3 date locked (Mon 10/19 AMC); ROLL70 exit read 0-of-3
+ffc713c55c75b16c29104b3727d7762faaf33668 | 2026-10-07T21:58:00-04:00 | REGINALD: write back the 9/27 CRE-to-bank findings (MEMORY 0-WB)
+7cb9a4b1f2449b1bfd8e0ef07a179eecb20cad7b | 2026-10-07T18:21:17-04:00 | WALTER: persist October 7 create-only owner handoffs
+e8fd99acf912ee26acad17680898ef5badaf3a9e | 2026-10-07T15:20:39-04:00 | Reconcile October 7 Fidelity holdings and carry transaction gaps
+d2d1335f8c6e78f6fcf13f651ecd569bed77c187 | 2026-10-03T19:04:43-04:00 | WALTER walter-f0: Will 6-image Telegram batch -> 5 dispatches (-012..-016), BM-20261003-03 CLOSED 6/6
+536480c90ce9822320d4922dbda3b3eb67169ece | 2026-10-02T18:12:57-04:00 | DAEDALUS: BARON frozen (WQ-286 1, Will-approved 9/24); owner packets HOMER + REGINALD (G2 flags)
+00affedf3ab11a38bd7c98b4d1d58c1c285ca93f | 2026-10-02T14:50:52-04:00 | WALTER: -022 route BROCK's GATE-BRK-R2 (a) FIRE #2 on OCIC -> LIQUID + OTTO; packet consumed
+357338f3d93e7fc8615f1bba68ad673eb10a990d | 2026-10-02T14:34:45-04:00 | WALTER: -021 IMMEDIATE Blue Owl Q3 OCIC 16.8% / OTIC 39% vs 5% caps - GATE-BRK-R2 (a) candidate
+c5ce07440c5c33943ecda7a98d46b10d2df78de1 | 2026-10-02T14:30:46-04:00 | WALTER: -019 Hunterbrook Lennar->Millrose (HOMER), -020 FL very wet pattern (CORAL)
+ab68dd36f97842f20f69fd774e54bca7ccb95d53 | 2026-10-02T12:15:55-04:00 | WALTER: Will Telegram batch BM-20261002-01 -> SIG-W-20261002-011..013, 3 kills, 1 dup
+e1dc205c41f3f8a051339aef85805d0f0870479a | 2026-10-02T10:38:38-04:00 | WALTER news sweep: -006 CRE cases (CREED), -007 Jefferson (BOND), -008 Taiz (FALCON)
+a3d039fbb68995dcd1d4a9bfe64495a2b5b15f6c | 2026-10-02T10:27:46-04:00 | WALTER: SIG-W-20261002-005 IMMEDIATE - HY OAS 324 [10/01] one tagged print
+827ac2d2b45648e84888fe6e344120902c5421a0 | 2026-10-02T09:34:04-04:00 | BROCK -> REGINALD: WQ-318 upgrade - FSK revolver tightened (KB-BRK-314) for L527
+ef5856db01e052b4cac712a6b97df2521ffc9b73 | 2026-10-02T09:33:19-04:00 | WALTER 10/02 AM: dispatch -001..-004 (NFP, EU diesel/oil, carrier relief, EA HICP)
+1eb970955133fc8f3beed93de51981b132908f96 | 2026-10-02T08:39:24-04:00 | BROCK -> PROME, LIQUID, REGINALD, WALTER: L494 sitting ruled, WQ-318 answer, watch terms
+62039c55647ff1c1a214e6704ddb7766ab015157 | 2026-10-01T16:45:48-04:00 | WALTER: dispatch SIG-W-20261001-025 (PMMS 7.28%, +25bp, HOMER pre-registered HOLD)
+9ad446d21683e17fbbd835a6ac0d97b8641ce889 | 2026-10-01T13:24:30-04:00 | CREED -> REGINALD: FYI weak-capital banks extend-and-pretend (NY Fed SR 1130) after WQ-356
+e5f109f9bd4eca3b1caedc005c02eb8ea18d62d4 | 2026-10-01T12:37:09-04:00 | WALTER: -011 update to -009 (HANS: flight-to-quality, not France-only); SHADE Group 1001 test
+cc5c6cdd9ac2d2a547cd7f6f40a1e66bd98ec8ce | 2026-10-01T12:31:40-04:00 | WALTER: Will Telegram batch BM-20261001-01 (7 items): -007, -008, -009 dispatched
+5d14d8e7cca6983aee2a902b07aa5aeb9b2e7a05 | 2026-10-01T12:24:02-04:00 | OZK -> REGINALD: sub-notes reset ~6.19%, drag ~+$12.3M/yr (your CALENDAR l.30 cites $11.2M)
+c8a8fb86a969688c4b8e9ee25b130770d40be0c2 | 2026-10-01T11:53:49-04:00 | CREED -> REGINALD: correction, BCB Bancorp is not a clearing price
+b7282cdf36a7d03709e4fc307d9aba55e9b8d27b | 2026-10-01T11:39:54-04:00 | PROME -> REGINALD: CREED's BCB Bancorp lead (problem-CRE loan sales, 21.1% est. loss)
+61a90bbd3a9aec690df79bf24dbdb638f1040edc | 2026-10-01T11:34:18-04:00 | WALTER -> PROME + 19 owners: WQ-295 R3 live-test results, all queued WATCH_FOR sets (L543)
+22f7e3c00eb363c5b4cd52deab2e8068edf33235 | 2026-10-01T11:15:23-04:00 | FLG -> REGINALD: T-08 FIRED 10/1, rent freeze in force; one bar on VX-REG-6.03

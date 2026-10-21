@@ -1,0 +1,12 @@
+READ-CAP [SAM] — cap 54,250 B · budget 32,550 B (60%) · ALL % BELOW ARE OF BUDGET (the number every verdict grades; ≥100% = over) · perimeter: 3 boot section(s) in CLAUDE.md, 20 'read' line(s) scanned (4 on-demand/grep + 0 SCOPED-read token(s) excluded by marker; 0 list item(s) inherited the parent line's read verb, L530), 3 whole-read file(s) found; boot.py-internal reads and prose outside the boot section NOT seen (heuristic — READS.tsv replaces it)
+  ✅ MEMORY.md                            24,191 B    74% of budget    (boot-step line 26)
+      ↳ 70–75% BAND — rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 1,407 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. ⚠️ Headroom to the trigger: 221 B.
+  ✅ STATUS_REFERENCE.md                  16,886 B    52% of budget    (boot-step line 23)
+  ✅ STATUS.md                            16,145 B    50% of budget    (STATUS.md — universal boot read (root canon) · ALSO read whole by NEXUS:6)
+✅ READ-CAP 0 [SAM]: every boot-mandated read this check found is under budget (3 file(s)). ⚠️ PERIMETER IS THE CHARTER HEURISTIC — this desk has no declaration in PROME/registry/READS.tsv, so this is 'clean within what the scan found', NOT a clean bill. 29 of 37 desks delegate boot to a file it cannot see.
+  ℹ️  charter AGENTS/SAM/CLAUDE.md = 41,926 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+  ✉️  OWNER-DIRECTED NOTICE [SAM] (READ_CAP rule 15): 1 file(s) under AGENTS/SAM/ that OTHER desks' declared boot reads load WHOLE — counted in THOSE readers' perimeters, NOT in this desk's totals or rc. The bytes are this desk's to rotate (rule 4); a breach here is also turning the READER's check red.
+     ✅ AGENTS/SAM/NEXUS_BRIEF.md             5,753 B    18% of budget  under 75% of budget  ← read whole by NEXUS:6
+READ-CAP-RESULT v1 mode=agent rc=0 assessed=1 desk=SAM reads=3 over_budget=0 over_cap=0 manifest_defects=0 advisories=0 generated_flagged=0 rotation_due=0 active_decisions_over_budget=0 charter_mode=unspecified charter_reads=0 owner_notices=1 owner_notices_over_budget=0 charter_bytes=41926
+
+EXIT_CODE=0

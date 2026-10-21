@@ -1,0 +1,38 @@
+{
+  "CARL": [
+    "2026-10-15 da3e278fc CARL: SCRATCH + NEXUS brief refold after retail read and CRL-29 ruling",
+    "2026-10-15 b5ff7fd87 CARL: CRL-29 letter RULED (WQ-437, Will 08:31 ET) encoded; STATUS retail rows"
+  ],
+  "FALCON": [
+    "2026-10-14 0f1453c71 FALCON closeout 10/14: SCRATCH final state + MEMORY finding (base-rate claim vs ledger)",
+    "2026-10-14 2c50eea4f FALCON: NEXUS_BRIEF re-pin (WQ-434 ruled B)"
+  ],
+  "MARCO": [
+    "2026-10-14 bdb01d98e MARCO: s32 closeout brief fold (last write-back; pin = STATUS HEAD fb8382621)",
+    "2026-10-14 8ecfd18f6 MARCO: s32 closeout \u2014 memory routes, thesis evidence note, catch-up workpapers"
+  ],
+  "OZK": [
+    "2026-10-12 691be8d20 OZK -> PROME: verify late REGINALD receipt and final switch inventory",
+    "2026-10-12 4f68888f5 OZK: record accepted machine-switch checkpoint notification"
+  ],
+  "RED": [
+    "2026-10-15 ed650de51 RED: Network Sweep S54 delivered (Will lifted the S50 hold 15:52 ET); CHG-RED-055 opened; OZK packet",
+    "2026-10-15 3b94dd1f3 RED -> PROME: reviewer findings on the closeout gate routed to owners (checkers, receipt, nudge)"
+  ],
+  "SAM": [
+    "2026-10-20 b613efeef SAM: fold final closeout handoff after owner-state commit",
+    "2026-10-20 0055442a8 SAM: save final closeout and distinguish push from unsafe pull"
+  ],
+  "TERRY": [
+    "2026-10-20 ef517dc6a TERRY -> PROME: consume operator packets and deliver five trade ideas",
+    "2026-10-20 ef82d240d TERRY -> PROME: record QQQ sale and reconcile October20 broker captures"
+  ],
+  "FLG": [
+    "2026-10-01 d9fcfc1bd FLG: T-08 FIRED 10/1 - rent freeze in force, graded on the letter; inbox drained",
+    "2026-09-28 d90bb1eb5 FLG closeout: cadence declared on PREDICTIONS and RGB_GUIDELINES (ledger nudge)"
+  ],
+  "BROCK": [
+    "2026-10-16 3e1148af4 BROCK: D:L653 CABO backstop (no filing, TRO press) + BRK-31 MTB/CFG no fire + drain 7/7",
+    "2026-10-15 f4659c3c2 BROCK: NEXUS brief refold, CRMT seventh bridge, OTIC live; re-pin to a131c7018"
+  ]
+}

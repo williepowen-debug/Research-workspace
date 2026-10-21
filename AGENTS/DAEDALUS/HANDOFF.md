@@ -1,3 +1,13 @@
+# October21 maintenance continuation
+
+PR8 and Staleness6 bounded scope completed;41map rows re-cut,37profile delta annotations,56CHECKS rows. GIBBSL1/M,HOMERL3/M,AEOLUSL4/M independently read; no other grade changed. RED duplication census delivered: no shared library, two source-only error-path candidates. Evidence/current residuals in STATUS and named October21 reports. This supersedes earlier “PR8/full Staleness next” instructions below.
+
+Closeout rc0 WITH-DEBT; structural/pairing/explicit-runtime read-cap pass. Raw receipt and adjudicated debt: runs/2026-10-21_CLOSEOUT_DISPOSITION.md. Publication pending at this write. Consolidated packet: `PROME/inbox/2026-10-21_from-DAEDALUS_maintenance-PR8-staleness6.md`. No native notification/consumption claim. Next scorecardOctober23,YUR-F01October24,backlog/27retirement migration holdsOctober25; accepted whole-profile cohort/order remains~October29. Do not repeat completed grades/scans/census or reset body dates. validate_all C2increase/D1cannot need disposition, not rebaseline-to-green. Existing future approvals/owner tools remain with their owners.
+
+## October21 boot update
+
+Session active. `runs/2026-10-21_BOOT.md` records current checks and inbox dispositions. L748 is now installed (PROME `2b1aa69a8`); all three live files match reviewed after-hashes. Owner reports 83 tests and four invalidations; original historical times remain UNKNOWN. This supersedes the installation-pending statements in the October20 handoff below. Maintenance continuation remains PR#8/full Staleness; boot does not complete it.
+
 # Current continuation — October20 session closed
 
 **Session closed at Will’s request.** Resume with Production Review #8 and full Staleness #6 dispositions using the saved detection evidence; do not repeat completed builds or scorecard. Next scorecard October23; YUR-F01 grade October24 awaits acceptance of its1–2-call interpretation. Completed maintenance publication: `cf074c5fc`, receipt `9284f5ce9`. Five inbox packets remain at existing paths; latest PROME install/rebase/triage packet consumed in the bounded L748 follow-up. Older dispositions remain in maintenance/cleanup records. Later owner packet reconciled: L628 INSTALLED748388a3a, live hash verified; CATO result read pending. L748 rebased over L736 in isolated package, owner application still pending.

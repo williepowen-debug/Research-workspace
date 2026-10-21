@@ -1,0 +1,85 @@
+READ-CAP FLEET — cap 54,250 B · budget 32,550 B · 39 active+tier-2 desks · perimeter per desk = heuristic boot-read set (see --agent for each)
+  desk       reads  >budget  >cap  worst file (% is of BUDGET — the number the verdict grades)
+  ✅ PROME        7        0     0  PROME/BOOT.md 70% of budget
+      ℹ️  charter PROME/CLAUDE.md = 24,162 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+  ✅ WALTER      30        0     0  PROME/state/ORCH_INFLIGHT.md 94% of budget
+      ℹ️  charter AGENTS/WALTER/CLAUDE.md = 22,760 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+  ✅ NEXUS       78        0     0  AGENTS/OSPREY/STATUS.md 88% of budget
+      ℹ️  charter AGENTS/NEXUS/CLAUDE.md = 71,849 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+  ✅ RED          6        0     0  AGENTS/RED/CLAUDE.md 85% of budget
+      ℹ️  charter AGENTS/RED/CLAUDE.md = 27,827 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+  ✅ SAM          3        0     0  MEMORY.md 74% of budget
+      ℹ️  charter AGENTS/SAM/CLAUDE.md = 41,926 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+  ✅ LIQUID       2        0     0  STATUS.md 73% of budget
+      ℹ️  charter AGENTS/LIQUID/CLAUDE.md = 27,139 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+  ✅ VIOLET       5        0     0  MEMORY.md 73% of budget
+      ℹ️  charter AGENTS/VIOLET/CLAUDE.md = 27,535 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+  ✅ BRENT        5        0     0  TRADE.md 72% of budget
+      ℹ️  charter AGENTS/BRENT/CLAUDE.md = 22,783 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+  ✅ HENRY        4        0     0  LESSONS.md 75% of budget
+      ℹ️  charter AGENTS/HENRY/CLAUDE.md = 35,938 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+  ✅ CARL         8        0     0  board_log.tsv 72% of budget
+      ℹ️  charter AGENTS/CARL/CLAUDE.md = 49,224 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+  ✅ LABOR        2        0     0  STATUS.md 74% of budget
+      ℹ️  charter AGENTS/LABOR/CLAUDE.md = 52,995 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+  ✅ BROCK       29        0     0  AGENTS/BROCK/STATUS.md 73% of budget
+      ℹ️  charter AGENTS/BROCK/CLAUDE.md = 31,318 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+  ✅ HAWK         5        0     0  LESSONS.md 86% of budget
+      ℹ️  charter AGENTS/HAWK/CLAUDE.md = 28,967 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+  ✅ TERRY        7        0     0  TRADE_BOOK.md 74% of budget
+      ℹ️  charter AGENTS/TERRY/CLAUDE.md = 32,053 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+  🟠 REGINALD  1586        1     0  BOARD/SIG-W-20260619-008-south-florida-distress-deep-research-bank-transmission-assessment.md 121% of budget
+      ℹ️  charter AGENTS/REGINALD/CLAUDE.md = 22,783 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+  ✅ MARCO        4        0     0  MEMORY.md 75% of budget
+      ℹ️  charter AGENTS/MARCO/CLAUDE.md = 32,539 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+  ✅ ORACLE       4        0     0  STATUS.md 64% of budget
+      ℹ️  charter AGENTS/ORACLE/CLAUDE.md = 27,641 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+  ✅ BOND        10        0     0  AGENTS/BOND/MEMORY.md 76% of budget
+      ℹ️  charter AGENTS/BOND/CLAUDE.md = 33,525 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+  ✅ CORAL        7        0     0  STATUS.md 73% of budget
+      ℹ️  charter AGENTS/CORAL/CLAUDE.md = 29,239 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+  ✅ SHADE        4        0     0  MEMORY.md 98% of budget
+      ℹ️  charter AGENTS/SHADE/CLAUDE.md = 28,241 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+  ✅ ZHAO         2        0     0  STATUS.md 74% of budget
+      ℹ️  charter AGENTS/ZHAO/CLAUDE.md = 32,548 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+  ✅ WATT         3        0     0  STATUS.md 43% of budget
+      ℹ️  charter AGENTS/WATT/CLAUDE.md = 17,667 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+  ✅ VULCAN       3        0     0  STATUS.md 69% of budget
+      ℹ️  charter AGENTS/VULCAN/CLAUDE.md = 32,131 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+  ✅ MIDAS        3        0     0  STATUS.md 56% of budget
+      ℹ️  charter AGENTS/MIDAS/CLAUDE.md = 28,073 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+  ✅ OSPREY       5        0     0  STATUS.md 88% of budget
+      ℹ️  charter AGENTS/OSPREY/CLAUDE.md = 49,863 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+  ✅ FALCON       5        0     0  LESSONS.md 75% of budget
+      ℹ️  charter AGENTS/FALCON/CLAUDE.md = 50,624 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+  ✅ HOMER        3        0     0  LESSONS.md 73% of budget
+      ℹ️  charter AGENTS/HOMER/CLAUDE.md = 38,671 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+  ✅ YURI         6        0     0  AGENTS/YURI/STATUS.md 53% of budget
+      ℹ️  charter AGENTS/YURI/CLAUDE.md = 15,345 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+  ✅ OZK          4        0     0  STATUS.md 74% of budget
+      ℹ️  charter AGENTS/OZK/CLAUDE.md = 29,021 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+  ✅ WAL          1        0     0  STATUS.md 36% of budget
+      ℹ️  charter AGENTS/WAL/CLAUDE.md = 25,878 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+  ✅ FLG          3        0     0  workbook/TRIGGERS.tsv 70% of budget
+      ℹ️  charter AGENTS/FLG/CLAUDE.md = 26,500 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+  ✅ CRUISE       2        0     0  STATUS.md 67% of budget
+      ℹ️  charter AGENTS/CRUISE/CLAUDE.md = 21,607 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+  ✅ FERT         2        0     0  STATUS.md 70% of budget
+      ℹ️  charter AGENTS/FERT/CLAUDE.md = 20,295 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+  ✅ GIBBS        2        0     0  workbook/PERIMETER.tsv 16% of budget
+      ℹ️  charter AGENTS/GIBBS/CLAUDE.md = 20,375 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+  ✅ CREED       58        0     0  AGENTS/CREED/thesis/CHANGELOG.md 89% of budget
+      ℹ️  charter AGENTS/CREED/CLAUDE.md = 38,108 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+  ✅ DEWEY        1        0     0  CONTEXT.md 60% of budget
+      ℹ️  charter AGENTS/DEWEY/CLAUDE.md = 33,606 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+  🟠 HANS        42        1     0  AGENTS/DAEDALUS/BLUEPRINTS/STATE_VOCABULARY.md 117% of budget
+      ℹ️  charter AGENTS/HANS/CLAUDE.md = 24,392 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+  ✅ OTTO         1        0     0  STATUS.md 70% of budget
+      ℹ️  charter AGENTS/OTTO/CLAUDE.md = 47,240 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+
+  desks with ≥1 boot read over BUDGET: 2/38 · over the CAP: 0/38   (of 38 ASSESSED, not 39 — 1 CANNOT-EVALUATE: AEOLUS)
+  ℹ️  charters: 39/39 measured, 1,270,422 B total, largest NEXUS 71,849 B — OUT OF PERIMETER by rule 20 (harness-injected, context cost not truncation; not graded here; composite-injection advisory is PROME/Will's). ⛔ The over-BUDGET/over-CAP totals above EXCLUDE every charter by design — they are NOT a clean-charter verdict.
+  ℹ️  2 desk(s) carry an ADVISORY reading this check will not adjudicate (`--agent <NAME>` for the text). ⛔ Advisories do NOT drive rc — a refusal to adjudicate cannot be a blocking verdict (severity split 2026-09-14, DOCKET L354).
+  ↳ 22 desk(s) hold a boot read in the 70–75% BAND — rc 0, unflagged, and NOT a completed rotation if the surface was just rotated (rule 5 stops at <70% = 22,785 B). ⛔ This is the band both DAEDALUS and RED stopped in on 2026-09-14 and called done; `--agent <NAME>` prints the bytes owed (PAT-176).
+  ℹ️  1 flagged read(s) are GENERATED projections — those flags route to the SOURCE surface's owner, not to the reader's desk (`--agent <NAME>` names the target).
+READ-CAP-RESULT v1 mode=fleet rc=2 assessed=38 desks=39 cannot_evaluate=1 desks_over_budget=2 desks_over_cap=0 desks_with_manifest_defect=0 desks_with_advisory=2 generated_flagged=1 desks_above_stop_threshold=22

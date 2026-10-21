@@ -1,0 +1,51 @@
+{
+  "commands": {
+    "floor": [
+      "python3",
+      "AGENTS/DAEDALUS/scripts/maturity_scan.py"
+    ],
+    "coverage": [
+      "python3",
+      "scripts/lane_coverage_check.py"
+    ],
+    "canon": [
+      "python3",
+      "scripts/canon_check.py"
+    ],
+    "memory_census": [
+      "python3",
+      "scripts/memory_citation_census.py"
+    ],
+    "profiles": [
+      "python3",
+      "AGENTS/DAEDALUS/scripts/profile_clock_check.py"
+    ]
+  },
+  "results": [
+    [
+      "floor",
+      0,
+      3543
+    ],
+    [
+      "coverage",
+      0,
+      3594
+    ],
+    [
+      "canon",
+      1,
+      1907
+    ],
+    [
+      "memory_census",
+      0,
+      2067
+    ],
+    [
+      "profiles",
+      2,
+      4772
+    ]
+  ]
+}

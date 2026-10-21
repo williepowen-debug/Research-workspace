@@ -1,0 +1,856 @@
+[
+  {
+    "path": "AGENTS/BRENT/archive/STATUS_DETAIL_2026-09.md",
+    "month": "2026-09",
+    "later_headers": [],
+    "header": [
+      "# BRENT STATUS \u2014 DATED DETAIL, 2026-09",
+      "",
+      "**COLD RECORD.** Created 2026-09-07 as the first application site of **READ_CAP rule 19**",
+      "(*\"hot surfaces carry current values, rules, active obligations, next actions and evidence",
+      "POINTERS; one cold record per desk carries the analysis\"*). Will-approved; DAEDALUS",
+      "architecture review P1, ACTIONs 1-4.",
+      "",
+      "\u26d4 **VERBATIM.** Rotated whole, on the day, from `STATUS.md` lines 9-94."
+    ]
+  },
+  {
+    "path": "AGENTS/CARL/archive/ROADMAP_ARCHIVE_2026-09.md",
+    "month": "2026-09",
+    "later_headers": [],
+    "header": [
+      "# CARL ROADMAP ARCHIVE \u2014 rotation #1, 2026-09-01",
+      "",
+      "\u26d4 **NOTHING IN THIS FILE IS A CURRENT READ.** It is here because it is CLOSED. Rotated out of `ROADMAP.md` on 2026-09-01 under the P1 read-cap ruling (DAEDALUS 2026-08-28, Will-approved): ROADMAP measured **185,744 B = 342% of the 54,250 B cap**, so a boot instructed to read it whole was getting a truncated file with no error.",
+      "",
+      "**Content is VERBATIM \u2014 not summarised, not re-worded.** `crc32 = fd7a9e76` over the rotated body below.",
+      "",
+      "**What was rotated:** (a) **25 CLOSED/\u2705 rows** lifted out of `## OPEN THREADS` \u2014 closed threads are audit trail, not live work; (b) the **entire `## RECENTLY RESOLVED` section** (71 lines), which was **60.2% of the whole file on its own**.",
+      ""
+    ]
+  },
+  {
+    "path": "AGENTS/CARL/status_archive/STATUS_ARCHIVE_2026-08.md",
+    "month": "2026-08",
+    "later_headers": [
+      [
+        213,
+        "2026-09-01",
+        "# ROTATION #2 \u2014 2026-09-01"
+      ],
+      [
+        217,
+        "2026-09-01",
+        "### ROTATION #2 (2026-09-01) \u2014 Subprime Auto 60+ DQ \u2014 full row as it stood 2026-09-01 before rotation #2 (contains the superseded 8/27 first-grade narrative and the same-session Mo"
+      ],
+      [
+        217,
+        "2026-09-01",
+        "### ROTATION #2 (2026-09-01) \u2014 Subprime Auto 60+ DQ \u2014 full row as it stood 2026-09-01 before rotation #2 (contains the superseded 8/27 first-grade narrative and the same-session Mo"
+      ],
+      [
+        223,
+        "2026-09-01",
+        "### ROTATION #2 (2026-09-01) \u2014 Masthead as it stood at the 2026-08-27 session close"
+      ],
+      [
+        230,
+        "2026-09-01",
+        "# ROTATION #3 \u2014 2026-09-01 \u2014 PREDICTIONS mirror thinned"
+      ],
+      [
+        234,
+        "2026-09-01",
+        "### CRL-05 \u2014 full STATUS 'Current' cell as it stood 2026-09-01"
+      ],
+      [
+        238,
+        "2026-09-01",
+        "### CRL-08 \u2014 full STATUS 'Current' cell as it stood 2026-09-01"
+      ],
+      [
+        242,
+        "2026-09-01",
+        "### CRL-10 \u2014 full STATUS 'Current' cell as it stood 2026-09-01"
+      ],
+      [
+        246,
+        "2026-09-01",
+        "### CRL-17 \u2014 full STATUS 'Current' cell as it stood 2026-09-01"
+      ],
+      [
+        250,
+        "2026-09-01",
+        "### CRL-21 \u2014 full STATUS 'Current' cell as it stood 2026-09-01"
+      ],
+      [
+        254,
+        "2026-09-01",
+        "### CRL-22 \u2014 full STATUS 'Current' cell as it stood 2026-09-01"
+      ],
+      [
+        258,
+        "2026-09-01",
+        "### CRL-23 \u2014 full STATUS 'Current' cell as it stood 2026-09-01"
+      ],
+      [
+        262,
+        "2026-09-01",
+        "### CRL-28 \u2014 full STATUS 'Current' cell as it stood 2026-09-01"
+      ],
+      [
+        266,
+        "2026-09-01",
+        "### CRL-29 \u2014 full STATUS 'Current' cell as it stood 2026-09-01"
+      ],
+      [
+        270,
+        "2026-09-01",
+        "### CRL-27 \u2014 full STATUS 'Current' cell as it stood 2026-09-01"
+      ],
+      [
+        277,
+        "2026-09-01",
+        "# ROTATION #4 \u2014 2026-09-01 \u2014 dashboard cells thinned"
+      ],
+      [
+        281,
+        "2026-09-01",
+        "### CC 90+ DQ \u2014 full STATUS cell as it stood 2026-09-01"
+      ],
+      [
+        285,
+        "2026-09-01",
+        "### Auto 90+ DQ \u2014 full STATUS cell as it stood 2026-09-01"
+      ],
+      [
+        289,
+        "2026-09-01",
+        "### Student Loan 90+ DQ \u2014 full STATUS cell as it stood 2026-09-01"
+      ],
+      [
+        293,
+        "2026-09-01",
+        "### Student Loan Defaults \u2014 full STATUS cell as it stood 2026-09-01"
+      ],
+      [
+        297,
+        "2026-09-01",
+        "### **FHA/VA \u2014 where housing distress is concentrating** *(DEWEY \u2014 full STATUS cell as it stood 2026-09-01"
+      ],
+      [
+        301,
+        "2026-09-01",
+        "### **ISM \u2014 JULY MANUFACTURING (rel ~8/1), captured 8/15 \u00b7 \u26a0\ufe0f th \u2014 full STATUS cell as it stood 2026-09-01"
+      ],
+      [
+        305,
+        "2026-09-01",
+        "### **Small business \u2014 COUNTER-SIGNAL** *(POP final refresh 7/24 \u2014 full STATUS cell as it stood 2026-09-01"
+      ],
+      [
+        309,
+        "2026-09-01",
+        "### **CPI JULY (rel Wed 8/12) \u2014 \u26d4 THE PRE-REGISTERED DO-NOT-GRAD \u2014 full STATUS cell as it stood 2026-09-01"
+      ],
+      [
+        313,
+        "2026-09-01",
+        "### Retail Sales MoM \u2014 full STATUS cell as it stood 2026-09-01"
+      ],
+      [
+        320,
+        "2026-09-01",
+        "# ROTATION #5 \u2014 2026-09-01"
+      ],
+      [
+        403,
+        "2026-09-01",
+        "# ROTATION #6 \u2014 2026-09-01 (final pass to get STATUS UNDER THE CAP)"
+      ],
+      [
+        446,
+        "2026-09-01",
+        "# ROTATION #7 \u2014 2026-09-01"
+      ],
+      [
+        497,
+        "2026-09-01",
+        "# ROTATION #8 \u2014 2026-09-01 \u2014 EXIT RULES de-duplicated"
+      ]
+    ],
+    "header": [
+      "# CARL \u2014 STATUS ARCHIVE 2026-08",
+      "",
+      "> \u26d4 **THE FILENAME'S MONTH IS WRONG ABOUT MOST OF THIS FILE. TRUE RANGE: 2026-08-27 \u2192 2026-09-01, rotations #1\u2013#8.**",
+      "> **Only rotation #1 is August (8/27). Rotations #2\u2013#8 are ALL dated 2026-09-01** \u2014 seven of eight blocks, and the large majority of the bytes. A reader who trusts the `2026-08` in the name will not look here for September content and will conclude it was never rotated.",
+      "> **Not renamed deliberately** \u2014 `STATUS.md:5`, `STATUS.md:159` and the ROADMAP pointer all name this path (PAT-091: a rename breaks every pointer that travels to it). The banner is the fix; the name is load-bearing.",
+      "> **Cause, and it is not a CARL defect:** `BLUEPRINTS/STATUS_TWO_STATE_PILOT.md:46` prescribed `STATUS_ARCHIVE_<YYYY-MM>.md` and never said what happens when a rotation runs on the 1st. DAEDALUS amended it 2026-09-02 (PAT-050): **a date in a filename asserts a CLOSED range, and nothing was maintaining that claim.** Fleet census: `AGENTS/DAEDALUS/runs/2026-09-02_MONTH_CONTAINER_CENSUS.md`.",
+      "> \ud83d\udcc5 **Forward rule for the next rotation (closeout guard, owed):** assert `block month == file month` before the splice, and open `STATUS_ARCHIVE_2026-09.md` when it fails. This file stays closed at rotation #8.",
+      ""
+    ]
+  },
+  {
+    "path": "AGENTS/CARL/status_archive/STATUS_ARCHIVE_2026-09.md",
+    "month": "2026-09",
+    "later_headers": [],
+    "header": [
+      "# CARL STATUS ARCHIVE \u2014 2026-09",
+      "",
+      "**Rotation #10, executed 2026-09-02 (Wed LATE) under the fleet READ-CAP rule** (`AGENTS/DAEDALUS/BLUEPRINTS/READ_CAP.md`), DAEDALUS two-state pilot.",
+      "",
+      "\u26d4 **NOTHING IN THIS FILE IS A CURRENT READ.** Every block below is here because something newer replaced it, or because it was a mirror of an owner doc. **Grep this file before re-deriving anything; never cite a row here as live.**",
+      "",
+      "## Rule-17 accounting \u2014 what this split chose, and what it cost",
+      ""
+    ]
+  },
+  {
+    "path": "AGENTS/CARL/status_archive/STATUS_ARCHIVE_2026-10.md",
+    "month": "2026-10",
+    "later_headers": [],
+    "header": [
+      "# CARL STATUS ARCHIVE \u2014 2026-10",
+      "",
+      "\ud83e\uddca FROZEN rows rotated VERBATIM out of `STATUS.md` (read-cap rule 5). Never cite as current.",
+      "",
+      "## Rotation 2026-10-01 12:56 ET (sha256[:12] of the moved block 48e344457800)",
+      "",
+      "| **FHA/VA \u2014 where housing distress is concentrating** *(DEWEY pointer 7/24, info)* | **FHA total DQ 11.79% Q2-2026 (\u22129bps QoQ, +122bps YoY \u26d4 **THE YoY LEG IS NOT A CREDIT SIGNAL \u2014 COR-20260828-04 APPLIED 2026-09-01: any YoY FHA/Ginnie DQ comparison spanning October 2025 crosses a PROCESS BREAK.** The COVID loss-mit options expired 2025-09-30; from 10/1 the waterfall requires a 3-month TPP with a ~5-month pipeline, and HUD counts pipeline loans as delinquent. DEWEY's decomposition: inflow +8.3% but outflow \u221233.1%, so **79% of the +226bps SDQ rise is a SLOWER DRAIN, not more borrowers falling behind.** Cite the QoQ; the YoY measures a pipeline change) \u2014 SECOND-highest since Q2-2021; Q1-2026's 11.88% remains the peak** [MBA NDS Q2, via HOMER 8/13 \u2014 \u26a0\ufe0fSECONDARY: mba.org 403s to curl+UA and WebFetch, graded off HousingWire 8/13 12:11pm ET; issuer release owed]. *(\u2192 rot#10)* | **Q2 2026 MBA NDS via HOMER (8/13)** *(label corrected 9/11 \u2014 it said Q1 while the value was already Q2-2026)* | \ud83d\udd34 |",
+      "| Gas Pump | **EIA GASREGW $4.465 w/e 9/28 (\u22121.3\u00a2 WoW; FRED, pulled 10/01) \u2014 first weekly decline since at least 8/31 (earliest week checked); Aug\u2013Sep max $4.478 (w/e 9/21), no print \u2265$4.50. CRL-08 RESOLVED MISSED 10/01 at its 7/06 Brent-kill fire, scored 28% (WQ-288; see PREDICTIONS).** Prior: **AAA $4.4825 regular 9/24** (9/17 $4.4386; 9/10 $4.2770); **EIA GASREGW $4.478 w/e 9/21, +15.9\u00a2 WoW.** 2026 high $4.56 (May21). **No September $4.50 touch documented** (AAA publishes no daily history; documented points rise monotonically). **CRL-08 (7%, window Aug\u2013Sep):** the sustained-2wk bar it is priced on cannot be met in-window (needs two weekly prints \u2265$4.50; only 9/28 remains). **Will ruled 9/24 (WQ-281): the sustained bar governs, so CRL-08 resolves MISSED on 9/30.** Not re-priced before resolution (confidence-walk rule). FL regular $4.382 (+8.8\u00a2 in one day). [AAA 9/24; FRED GASREGW] | 2026-09-24 AAA | \ud83d\udfe0 |"
+    ]
+  },
+  {
+    "path": "AGENTS/CARL/sub_agents/STUE/archive/STUE_STATUS_ARCHIVE_2026-09.md",
+    "month": "2026-09",
+    "later_headers": [],
+    "header": [
+      "# STUE \u2014 STATUS ARCHIVE (rotation of 2026-09)",
+      "> ## \u26d4 Nothing in this file is a current read \u2014 it is here because something newer replaced it.",
+      "**Rotated:** 2026-09-05 \u00b7 **Source:** `AGENTS/CARL/sub_agents/STUE/STATUS.md` \u00b7 **Authority:** CARL ruling 2026-09-05 (rotate, do not hot/cold split \u2014 a split creates two surfaces that drift, and no automated coherence checker reaches a sub-agent).",
+      "**Rule applied:** blocks moved **VERBATIM**. **No canonical value moved** \u2014 every figure cited as current stayed in `STATUS.md`; a safety test confirmed each live figure survives outside the rotation set before any block was cut. Each block below carries its byte count and CRC32 so the move is checkable.",
+      "**Reading this file:** each `\u00a7Bn` matches a one-line pointer left at the original location in `STATUS.md`.",
+      "",
+      "---",
+      ""
+    ]
+  },
+  {
+    "path": "AGENTS/DAEDALUS/archive/CLAUDE_ARCHIVE_2026-09.md",
+    "month": "2026-09",
+    "later_headers": [],
+    "header": [
+      "# CLAUDE.md rotation archive \u2014 2026-09 (month = ROTATION month; per-block crc32; verbatim spans cut from the charter to bring it back under the 32,550 B budget \u2014 it measured 33,850 B = 104% on 2026-09-03)",
+      "> Each block is the EXACT span removed, recoverable by crc. The charter keeps a compact pointer at each cut site. A rotation is not a discharge: the rules these spans carried are restated in the pointers.",
+      "",
+      "## block 1 \u2014 block 1 \u2014 closeout-battery read_cap_check invocation note (line 46), rotated 2026-09-03 (crc32 4146631002; 1423 B)",
+      "",
+      "\u26a0\ufe0f **(invocation CORRECTED 2026-09-02 \u2014 and the first diagnosis was WRONG, which is the lesson.** This line prescribed `AGENTS/DAEDALUS/scripts/read_cap_check.py` bare. **TWO DIFFERENT TOOLS SHARE THAT ONE NAME:** repo-root `scripts/read_cap_check.py` (15,832 B) is the fleet tool \u2014 owns the constants, takes `--agent`/`--fleet` \u2014 and `AGENTS/DAEDALUS/scripts/read_cap_check.py` (9,400 B) is a DAEDALUS-local **file-list** checker that takes `[FILE ...]` and **imports** those constants. Not a fork and not stale: a deliberate single-owner-constants split, and good design. **The defect is that the charter's command and `READ_CAP.md`'s documented command name the same file and mean different tools** \u2014 run the documented `--agent DAEDALUS` against the local one and it dies `CANNOT-CERTIFY: could not size 2 file(s): --agent, DAEDALUS`, reading the flags as filenames. It fails loud, which is the only reason this was survivable. \u26a0\ufe0f **I first wrote this note calling the local copy a stale predecessor and had to retract it one command later** \u2014 the uncharitable reading of my own tree was as unchecked as a flattering one would have been (`finding_a_charitable_reading_of_your_work_is_the_one_to_check`, inverted). **Standing rule this earns: two tools may not share a basename across `scripts/` and `AGENTS/<NAME>/scripts/` \u2014 the invocation site cannot disambiguate them and neither can a grep.**)**",
+      "",
+      "## block 2 \u2014 block 2 \u2014 STATUS byte-budget constant history (line 156), rotated 2026-09-03 (crc32 3048412124; 412 B)"
+    ]
+  },
+  {
+    "path": "AGENTS/DAEDALUS/archive/CLAUDE_ARCHIVE_2026-10.md",
+    "month": "2026-10",
+    "later_headers": [],
+    "header": [
+      "# CLAUDE rotation archive \u2014 October 2026",
+      "",
+      "## block 1 \u2014 retired-reviewer history; verbatim 2026-10-09; crc32 `8619a400`; 1089 B",
+      "",
+      "> \u26a0\ufe0f **THE PER-PUSH SEAT IS RETIRED (Will *\"retire yeyou\"* 11:56 ET 2026-09-05; WQ-181 \u2460; ROSTER `1627f77a3`). RAV is now the STANDING sole-QC \u2014 the compose-on-revival path is CLOSED.** YEYOU ran **once**, 2026-08-20: 143 commits / 21 agents, `REVIEW_LOG` 25 data rows (13 findings + 12 PASS). **It reviewed DAEDALUS and passed it** (`YEY-P05`). **Hold this: your pushes were mechanically reviewed exactly once, on 8/20, and never will be again.** Cite that pass where it exists; expect no feed. **RAV** (Codex, Will-driven, on-demand) covers the *deep* half of the old two-reviewer funnel \u2014 never the mechanical half, and never on a cadence you control. \u26a0\ufe0f **Consequence that outlives the desk:** the utility L5 leg *\"zero YEYOU flags\"* is now a **default-zero instrument that can never fire** (PAT-060) \u2014 WQ-181 \u2461, ruled N/A (WQ-181 \u2461 9/10; L285 9/14; encoded in the ladder table 9/17). *(This box asserted \"zero findings all-time\" for 16 days after that went false, then \"UNSCHEDULED\" for 6 hours after the retirement \u2014 a carried assertion never self-evaluates.)*",
+      "",
+      "<!-- End block 1. -->"
+    ]
+  },
+  {
+    "path": "AGENTS/DAEDALUS/archive/EVOLUTION_ARCHIVE_2026-08.md",
+    "month": "2026-08",
+    "later_headers": [],
+    "header": [
+      "# EVOLUTION rotation archive \u2014 2026-08-21 (audit-driven restructure, Will-approved)",
+      "",
+      "> **CLOSED 2026-09-03.** True range: three rotations executed 2026-08-21 (blocks 1\u20132) and 2026-08-28 (entry tail), content 2026-06-27 \u2192 2026-08-20 (f). Successor: `EVOLUTION_ARCHIVE_2026-09.md` (month = rotation month, per the 9/2 pilot amendment). Block crcs below are unaffected: this banner sits above block 1's header.",
+      "",
+      "> **LABELS RENUMBERED 2026-09-17 to PHYSICAL ORDER 1\u20136** (was 1 \u00b7 2 \u00b7 2 \u00b7 3 \u00b7 4 \u00b7 5 across three heading spellings `block`/`BLOCK`/`Block`; found by complete_check leg (v) on its first run, PAT-180 n=2). Only the six header lines changed \u2014 bodies verified line-identical to the committed file at renumber time. Each writer hashed its own span, so verify a block by the span ITS header or first body line describes; the label is a locator, the crc is the identity. Map old\u2192new: 1\u21921 (3618051777) \u00b7 2\u21922 (1162786417) \u00b7 2\u21923 (crc on body line) \u00b7 3\u21924 (crc on body line) \u00b7 4\u21925 (crc on body line) \u00b7 5\u21926 (2285518930). Any sealed body text citing an OLD label resolves by its crc.",
+      "",
+      "## block 1 \u2014 Phase-era changelog entries 2026-06-27 \u2192 2026-07-12, rotated verbatim 2026-08-21 (crc32 3618051777)",
+      ""
+    ]
+  },
+  {
+    "path": "AGENTS/DAEDALUS/archive/EVOLUTION_ARCHIVE_2026-09.md",
+    "month": "2026-09",
+    "later_headers": [
+      [
+        267,
+        "2026-10-09",
+        "## block 8 \u2014 entries 2026-09-12 (u) and 2026-09-08 (a), rotated verbatim 2026-10-09; crc32 fe6cc6b0; 5035 B"
+      ]
+    ],
+    "header": [
+      "# EVOLUTION rotation archive \u2014 2026-09 (month = ROTATION month per `BLUEPRINTS/STATUS_TWO_STATE_PILOT.md` 9/2 amendment; guard PER BLOCK: rotation-date month == file month)",
+      "",
+      "> Verbatim, crc-stamped blocks rotated out of `EVOLUTION.md`. **A rotation is not a discharge.** Verify any block by extracting it from `## block N` header+1 to the next `## block` (or EOF) and recomputing crc32. Predecessor: `EVOLUTION_ARCHIVE_2026-08.md` (CLOSED 2026-09-03).",
+      "",
+      "> **LABELS RENUMBERED 2026-09-17 to PHYSICAL ORDER 1\u20136** (was 1 \u00b7 2 \u00b7 3 \u00b7 2 \u00b7 3 \u00b7 3 \u2014 three rotations by the same author each computed \"next block\" from memory, and a case variant `Block` hid two of them from a `## block` grep). Only the header lines changed \u2014 bodies verified line-identical to the committed file at renumber time (5 diff ops: this note, three relabels, block 6 appended). Each writer hashed its own span (block 5 carries its crc on its first body line), so verify a block by the span ITS header describes; **the label is a locator, the crc is the identity.** Map old\u2192new: 1\u21921 (crc 1967475117) \u00b7 2\u21922 (crc 2545191367) \u00b7 3\u21923 (crc 2a0036a3) \u00b7 2\u21924 (crc c8a5f60a) \u00b7 3\u21925 (crc ?) \u00b7 3\u21926 (crc 3979447289).",
+      "",
+      "## block 1 \u2014 changelog entries 2026-08-23 \u2192 2026-08-26 (four entries: 8/23 wiring-sweep scope \u00b7 8/23 (b) byte budget re-derived \u00b7 8/23 (c) boot spine repaired \u00b7 8/26 R1 boot leg), rotated verbatim 2026-09-03 (crc32 1967475117; 17964 B)",
+      ""
+    ]
+  },
+  {
+    "path": "AGENTS/DAEDALUS/archive/STATUS_ARCHIVE_2026-09.md",
+    "month": "2026-09",
+    "later_headers": [],
+    "header": [
+      "# DAEDALUS STATUS \u2014 ARCHIVE, 2026-09 rotation container",
+      "",
+      "> Verbatim crc-stamped rotation blocks from `AGENTS/DAEDALUS/STATUS.md`, byte-tier convention (rotate at \u226575% of the 32,550 B budget until <70%; rotation, never deletion). Month-named rolling container per the 9/2 pilot form. Blocks are append-only and are NOT edited after rotation.",
+      "",
+      "## Block A \u2014 9/4 EVE session header (rotated 2026-09-05)",
+      "**crc32 at rotation:** `9f14f20b` \u00b7 **bytes:** 2420 \u00b7 **source:** `STATUS.md` line 3, the span following the 'Prior header 9/4 EVE follows verbatim' marker.",
+      "",
+      "```"
+    ]
+  },
+  {
+    "path": "AGENTS/DAEDALUS/archive/STATUS_ARCHIVE_2026-10.md",
+    "month": "2026-10",
+    "later_headers": [],
+    "header": [
+      "# DAEDALUS STATUS ARCHIVE \u2014 2026-10 container",
+      "",
+      "Verbatim rotation blocks out of `AGENTS/DAEDALUS/STATUS.md` (byte-tier convention: oldest first, contiguous, crc32 of the block's UTF-8 bytes as rotated; lettering continues from `STATUS_ARCHIVE_2026-09.md` block AQ). Never edit a block.",
+      "",
+      "## Block AR \u2014 STATUS 'Prior session header' 2026-09-24 (Will-launched catch-up `daedalus-8f`: YURI wired \u00b7 rulings encoded \u00b7 six scripts \u00b7 Staleness #5) \u2014 rotated VERBATIM 2026-10-01 ~12:5x ET at the 75% trigger (STATUS 25,034 B) \u00b7 crc32 `dd8196b4` \u00b7 3785 B",
+      "",
+      "**Prior session header (2026-09-24 (Thu, ~18:xx ET)) \u2014 Will-launched catch-up (`daedalus-8f`) after 5 dark days (9/19 \u2192 9/24): 30 packets drained to `processed/` with a written disposition each (`runs/2026-09-24_CATCHUP_DISPOSITIONS.md`), YURI WIRED, four Will rulings encoded, six shared-script repairs shipped under CHECK_STANDARD \u00a73, Staleness #5 run, 14 FLEET_MAP rows re-cut + YURI's added, directory regenerated. 13 owner packets out. Markets open; nothing here is market-facing.**",
+      ""
+    ]
+  },
+  {
+    "path": "AGENTS/HENRY/status_archive/STATUS_ARCHIVE_2026-08.md",
+    "month": "2026-08",
+    "later_headers": [],
+    "header": [
+      "# HENRY STATUS \u2014 ARCHIVE 2026-08",
+      "",
+      "**FROZEN ROTATION RECORD \u2014 not maintained; `STATUS.md` is canonical, do not cite rows as current.**",
+      "",
+      "**\u26d4 CLOSED 2026-09-02. TRUE RANGE: rotation blocks moved 2026-08-23 \u2192 2026-08-28. No September block belongs in this file.** The successor rolling target is `STATUS_ARCHIVE_2026-09.md`. **NOT RENAMED** \u2014 pointers to this filename exist on HENRY surfaces (DAEDALUS 9/2: *\"Do not rename the August file\"*).",
+      "",
+      "Created 2026-08-23 under the STATUS two-state PILOT (`AGENTS/DAEDALUS/BLUEPRINTS/STATUS_TWO_STATE_PILOT.md`, WATT \u00b7 HENRY \u00b7 CARL). Content is appended **verbatim** from `STATUS.md` and never deleted. Class A = dated session sections already self-labelled GRADED/SUPERSEDED.",
+      ""
+    ]
+  },
+  {
+    "path": "AGENTS/HENRY/status_archive/STATUS_ARCHIVE_2026-09.md",
+    "month": "2026-09",
+    "later_headers": [],
+    "header": [
+      "# HENRY STATUS \u2014 ARCHIVE 2026-09",
+      "",
+      "**FROZEN ROTATION RECORD \u2014 not maintained; `STATUS.md` is canonical, do not cite rows as current.**",
+      "**TRUE RANGE OF THIS FILE: rotation blocks moved during 2026-09-01 \u2192 2026-09-30.** The date in this filename asserts the **ROTATION month** (when the block moved), never the content's own date \u2014 the block below is 8/27\u20138/28 content rotated on 9/2.",
+      "",
+      "Opened 2026-09-02 adopting **CARL's form** over the pilot's (DAEDALUS packet 9/2 + its same-day CORRECTION): **banner the true range \u00b7 per-block assert `rotation month == file month` \u00b7 open the next month's file on failure \u00b7 NEVER rename.** The pilot's bare `STATUS_ARCHIVE_<YYYY-MM>.md` had no rule for the 1st, which is why `STATUS_ARCHIVE_2026-08.md` was still the live target on 9/2 and my first September rotation would have landed August-labelled (DAEDALUS PAT-050). \u26a0\ufe0f **The correction matters more than the choice: the assert runs PER BLOCK at the splice, not once per session** \u2014 a session-level check passes on block one and every later block rides through (CARL: 7 of 8 blocks September inside an August-named file).",
+      "",
+      "Content is appended **verbatim** from `STATUS.md` and never deleted."
+    ]
+  },
+  {
+    "path": "AGENTS/HENRY/status_archive/STATUS_ARCHIVE_2026-10.md",
+    "month": "2026-10",
+    "later_headers": [],
+    "header": [
+      "# HENRY STATUS ARCHIVE \u2014 2026-10",
+      "",
+      "*Verbatim rotations out of `STATUS.md`. Nothing here is retired: every live value is re-derived in the current STATUS. Do NOT cite rows here as current. Block numbering continues from `STATUS_ARCHIVE_2026-09.md` (last block 39).*",
+      "",
+      "---",
+      "",
+      "## Block 40 \u2014 rotated verbatim 2026-10-02 08:37 EDT (`date`) by HENRY. Source: the WHOLE of `STATUS.md` as last committed (HEAD before this session, 9/30 17:37 EDT evening re-ping), crc32 `963fd474` (`python3 PROME/tools/measure.py` re-reads it at receipt time). Rotated because it was at ~97% of the 32,550 B read cap (rotation owed since 9/30). Nothing retired \u2014 the 10/2 STATUS re-derives every live value; the 9/28\u20139/30 session logs, the 9/30 PCE/GDP release log, the superseded 9/28 and 9/30 gamma boards and the 9/28 BOTTOM LINE are the record below.",
+      ""
+    ]
+  },
+  {
+    "path": "AGENTS/MIDAS/analysis/LESSONS_ARCHIVE_2026-08.md",
+    "month": "2026-08",
+    "later_headers": [
+      [
+        3,
+        "2026-09-02",
+        "> ## \u26d4 CONTENT RANGE \u2014 MEASURED 2026-09-02, NOT ASSERTED"
+      ]
+    ],
+    "header": [
+      "# MIDAS \u2014 LESSONS ARCHIVE, JULY\u2013AUGUST 2026 (full bodies, L-01 \u2026 L-44)",
+      "",
+      "> ## \u26d4 CONTENT RANGE \u2014 MEASURED 2026-09-02, NOT ASSERTED",
+      "> **The `2026-08` in this filename is the ROTATION month, not the content range** (DAEDALUS month-container census \u00a7CORRECTION `1cd35a367`; CARL pilot `2c7615a3d`; PROME 9/2 \u2014 **no rename**).",
+      "> **True content range: 2026-07-11 \u2192 2026-09-02.** Dated-block tally: **58 August \u00b7 4 September.** Lesson bodies run **L-01 \u2026 L-46**; the September bodies are **L-45 and L-46 (both 2026-09-02)**, appended by the 9/2 boot session.",
+      "> **Splice rule from here:** assert each new block's date against this file's month **at the splice**; on assert failure open `LESSONS_ARCHIVE_2026-09.md` rather than appending.",
+      ">",
+      "> \u26d4 **SUPERSEDED IN PART, 2026-09-11 \u2014 the September bodies DID move.** The clause *\"Nothing already here moves\"* was written 9/2 and is overridden by **PROME's ruling of 2026-09-05**: **L-45 \u2026 L-50 (2026-09-02 and 2026-09-05) are now in `LESSONS_ARCHIVE_2026-09.md`**, moved verbatim and byte-conserving. **This file now holds L-01 \u2026 L-44 and is JULY\u2013AUGUST ONLY** \u2014 the content range above (*\"2026-07-11 \u2192 2026-09-02\"*, *\"58 August \u00b7 4 September\"*) describes the PRE-MOVE file and is preserved as the record of what was measured, **not as current state**. September bodies append to the September file."
+    ]
+  },
+  {
+    "path": "AGENTS/MIDAS/analysis/LESSONS_ARCHIVE_2026-09.md",
+    "month": "2026-09",
+    "later_headers": [
+      [
+        181,
+        "2026-10-01",
+        "# L-53 \u2014 2026-10-01 \u2014 A stale hand-maintained contract map does not fail quiet; it certifies the dying contract"
+      ]
+    ],
+    "header": [
+      "# MIDAS \u2014 LESSONS ARCHIVE, SEPTEMBER 2026 (full bodies, L-45 \u2026 )",
+      "",
+      "> **Opened 2026-09-11 by the VECTOR-3 session.** Rolled out of `LESSONS_ARCHIVE_2026-08.md` per **PROME's ruling of 2026-09-05** (*\"Roll: `analysis/LESSONS_ARCHIVE_2026-09.md` receives L-45\u2026L-50 (September); the August file keeps only August\"*) \u2014 the August filename had been promising a month it did not hold, which is `finding_header_edit_is_the_edit_most_mistaken_for_maintenance` one level up.",
+      ">",
+      "> **Contents: L-45 \u2026 L-50 (all 2026-09-02 and 2026-09-05), moved VERBATIM \u2014 byte-conserving, nothing edited, nothing deleted.** Split asserted mechanically: August bytes + September bytes == the pre-split file's bytes, and `## L-45` is absent from the August file after the move while `## L-44` is absent from this one. New September lessons append HERE.",
+      ">",
+      "> \u26a0\ufe0f **This move overrides the August file's own 9/2 splice note (*\"Nothing already here moves\"*), which predates PROME's 9/5 ruling. The override is deliberate and recorded in both files, not silent.**",
+      ">"
+    ]
+  },
+  {
+    "path": "AGENTS/MIDAS/analysis/NEXUS_BRIEF_ARCHIVE_2026-09.md",
+    "month": "2026-09",
+    "later_headers": [],
+    "header": [
+      "# MIDAS \u2014 NEXUS_BRIEF ARCHIVE, SEPTEMBER 2026",
+      "",
+      "> **Rotated OUT of `NEXUS_BRIEF.md` 2026-09-25 by MIDAS** (PROME owner notice 9/24: the brief was 72,126 B against a 22,785 B rule-5 stop, and it sits in NEXUS's whole-read perimeter). **MOVED VERBATIM, NEVER DELETED.** Cite as history, never as state.",
+      ">",
+      "> **Audit by OBLIGATION (READ_CAP rules 18\u201319):** every standing citation rule, owed watch and dated event in the rows below was enumerated and re-homed in the new brief's section \"STANDING ROWS CARRIED FORWARD\" before the cut. That covers: the explicit-month rule \u00b7 the beta as a dated carry item \u00b7 the BRENT 9/10 correction \u00b7 copper diversion (KB-113) \u00b7 CB relocation \u2260 purchase (KB-110) \u00b7 no author for \u22122.35%, cite \u22122.95% \u00b7 COT level \u00b7 MIDAS-08 (b), no BOND correction \u00b7 M1 carve-outs + 87.7\u201391.1% \u00b7 the construction 46.9 record + the 9/30 settler \u00b7 the HAWK PGM-instrument negative \u00b7 the 9/30 triple. Rows that were delivered as packets and then closed (BND-21, the DAEDALUS F-1..F-4 closures, the WQ encodings) are history only.",
+      "",
+      "---",
+      ""
+    ]
+  },
+  {
+    "path": "AGENTS/MIDAS/analysis/NEXUS_BRIEF_ARCHIVE_2026-10.md",
+    "month": "2026-10",
+    "later_headers": [],
+    "header": [
+      "# NEXUS_BRIEF \u2014 archived snapshot before 2026-10-12 review",
+      "",
+      "Historical snapshot, moved off the boot path. Current state and obligations live in the desk files. Old quotes, waits and completed work below are not current.",
+      "",
+      "# MIDAS \u2014 NEXUS_BRIEF (curated cross-agent sync)",
+      "",
+      "**Written back 2026-10-01 ~12:3x ET (Thu), due-row session: MIDAS-01/02 HIT, gold settles owed, no score moved.** *Prior:* **2026-09-25 ~11:44 ET (Fri). WILL-DIRECTED session after 14 dark days.** Zero capital \u00b7 **composite 8/20 unchanged, no score moved** \u00b7 no card, no order, no band or threshold set \u00b7 **silver, platinum and palladium are now first-class coverage (Will's word)** \u00b7 MIDAS-09/10 registered \u00b7 cadence **WEEKLY** declared (WQ-295).",
+      "\ud83d\udcc1 **Rotated 2026-09-25:** every row from 2026-07-12 \u2192 2026-09-11 is moved verbatim to `analysis/NEXUS_BRIEF_ARCHIVE_2026-09.md` (PROME read-cap notice 9/24: 72,126 B vs a 22,785 B stop). The live obligations in those rows are carried in the last section here."
+    ]
+  },
+  {
+    "path": "AGENTS/MIDAS/analysis/OPEN_ITEMS_ARCHIVE_2026-10.md",
+    "month": "2026-10",
+    "later_headers": [],
+    "header": [
+      "# MIDAS \u2014 closed open-item history, rotated 2026-10-12",
+      "",
+      "Historical prediction design evidence, off the boot path. The terminal grade, current successor obligation and standing disciplines remain in OPEN_ITEMS/STATUS.",
+      "",
+      "### 21-hist. The registration record, retained (it is the calibration evidence)",
+      "",
+      "",
+      "\u26d4 **TWICE OFFERED A MID-FLIGHT IMPROVEMENT, TWICE DECLINED (see \u00a77\u2013\u00a78 of the registration note).** `BND-21` resolving TRUE raised the prior on branch (a) \u2014 **P(a) not re-tuned.** ZHAO's **STUCK** design (non-resolution is a *status*, not a mass-bearing branch) is **better than my (d) and I adopted it PROSPECTIVELY only** \u2014 retrofitting it would renormalise (a)(b)(c) from sum 0.98 to 1.00 and change the scored masses. **Third honouring of the freeze in three days, in three different currencies: a score (8/31 band fence), calibration credit (BND-21), and now a known-second-best design.**"
+    ]
+  },
+  {
+    "path": "AGENTS/MIDAS/analysis/SCRATCH_ARCHIVE_2026-08.md",
+    "month": "2026-08",
+    "later_headers": [],
+    "header": [
+      "# MIDAS \u2014 SCRATCH ARCHIVE (sessions 2026-07-12 \u2192 2026-08-23)",
+      "",
+      "> **Full verbatim session record. Nothing deleted or edited** \u2014 blocks are byte-identical to the pre-split `SCRATCH.md`.",
+      ">",
+      "> **Split 2026-08-27, Will-directed (option B).** `SCRATCH.md` was **74,279 B / 269 lines**, of which **76.6% was session history** rather than next-session pickup, and **every durable claim in it was verified already banked elsewhere \u2014 36/36 KB rows in `KB.tsv`, 32/32 lessons in the lessons archive, zero orphans.** The two NEWEST blocks were **45.5%** of the file, so an age-based rule would have pruned 5.8% and missed the weight; the cut is by **supersession, not age**.",
+      ">",
+      "> \u26d4 **The two banners below govern text in THIS file** (retired bands `87\u201393%`, `85\u201392%`, `61\u201369%`; the computed figure is **87.7\u201391.1% univariate**). They are also retained in `SCRATCH.md`, which still carries retired figures in its 8/27 block. **Preserved as the record of what was believed \u2014 do not cite as state.**",
+      ""
+    ]
+  },
+  {
+    "path": "AGENTS/MIDAS/analysis/SCRATCH_ARCHIVE_2026-09.md",
+    "month": "2026-09",
+    "later_headers": [],
+    "header": [
+      "# MIDAS \u2014 SCRATCH ARCHIVE, SEPTEMBER 2026",
+      "",
+      "> **Rotated OUT of `SCRATCH.md` 2026-09-05 ~20:3x ET by MIDAS**, executing the instruction the 9/2 block itself left: *\"Next session: rotate the 9/2 session block to `analysis/SCRATCH_ARCHIVE_2026-09.md` (assert the date at the splice) before adding a new one.\"*",
+      "> **Date asserted at the splice: 2026-09-05.** Companion to `SCRATCH_ARCHIVE_2026-08.md`, which holds 2026-07-12 \u2192 2026-08-23.",
+      ">",
+      "> \u26d4 **MOVED, NEVER DELETED \u2014 verbatim.** These are the **2026-09-02** carry-forward block, the **2026-08-31** carry-forward block, and the 8/31 + 9/2-boot closeout paragraphs. **Cite as history, not as state.**",
+      "> **Every still-live item in them was carried forward into the 2026-09-05 block on `SCRATCH.md` before the cut** \u2014 the amendment-rule caution (WQ-161, 9/15), the PGM instrument ask, the `fetch.py` gap, the 9/30 double grade, the LESSONS-archive naming flag, and the STATUS read-cap pressure. **Nothing here is the only home of a live obligation.**",
+      ""
+    ]
+  },
+  {
+    "path": "AGENTS/MIDAS/analysis/SCRATCH_ARCHIVE_2026-10.md",
+    "month": "2026-10",
+    "later_headers": [],
+    "header": [
+      "# SCRATCH \u2014 archived snapshot before 2026-10-12 review",
+      "",
+      "Historical snapshot, moved off the boot path. Current state and obligations live in the desk files. Old quotes, waits and completed work below are not current.",
+      "",
+      "# MIDAS \u2014 SCRATCH (next-session pickup)",
+      "",
+      "> \u26d4 **SUPERSEDED AGAIN 2026-08-27 (fourth re-base): every \"85\u201392%\" below is retired \u2014 the COMPUTED univariate band is 87.7\u201391.1%** (BOND six-cell run KB-BND-185; **independently reproduced here at 87.6\u201391.1%, agreeing to 0.1pp**). **87\u201393% had an unsupported TOP; 85\u201392% an unsupported BOTTOM.** Preserved as the record of what was believed \u2014 **do not cite as state.** Verdict untouched: rates-ASSISTED. \u2192 KB-068, L-35.",
+      ""
+    ]
+  },
+  {
+    "path": "AGENTS/MIDAS/analysis/STATUS_ARCHIVE_2026-08.md",
+    "month": "2026-08",
+    "later_headers": [
+      [
+        3,
+        "2026-09-02",
+        "> ## \u26d4 CONTENT RANGE \u2014 MEASURED 2026-09-02, NOT ASSERTED"
+      ],
+      [
+        302,
+        "2026-09-02",
+        "## ROTATED OUT OF `STATUS.md` 2026-09-02 (read-cap rotation; MOVED, never deleted)"
+      ],
+      [
+        318,
+        "2026-09-02",
+        "### Rotated 2026-09-02 (second pass \u2014 read-cap): the SELF-CORRECTION section, verbatim"
+      ],
+      [
+        320,
+        "2026-09-02",
+        "## \ud83d\udd34 SELF-CORRECTION \u2014 three published base rates were computed on the wrong window (**CLOSED; rotated 2026-09-02**)"
+      ],
+      [
+        325,
+        "2026-09-02",
+        "### Rotated 2026-09-02 (third pass \u2014 read-cap): the compressed MIDAS-06 STATUS block, verbatim"
+      ],
+      [
+        327,
+        "2026-09-02",
+        "### \u26d4 MIDAS-06 \u2014 GRADED TERMINAL 8/31: **(a) DIVERGE PERSISTS. CLOSED.** *(compressed 2026-09-02; full record \u2192 `analysis/2026-08-31_midas-06-TERMINAL-GRADE.md`)*"
+      ]
+    ],
+    "header": [
+      "# MIDAS \u2014 STATUS ARCHIVE, August 2026",
+      "",
+      "> ## \u26d4 CONTENT RANGE \u2014 MEASURED 2026-09-02, NOT ASSERTED",
+      "> **The `2026-08` in this filename is the ROTATION month, not the content range** (DAEDALUS month-container census \u00a7CORRECTION `1cd35a367`; CARL pilot `2c7615a3d`; PROME 9/2 \u2014 **no rename**).",
+      "> **True content range: 2026-08-07 \u2192 2026-09-02.** Rotation blocks: **1 August (8/27, the original Will-approved archive+slim) \u00b7 3 September (all 2026-09-02** \u2014 the read-cap passes at lines ~297, ~313, ~320: the OPEN-items rotation, the SELF-CORRECTION section, and the compressed MIDAS-06 block**)**. The August rotation is the majority of the bytes; the September blocks are this one session.",
+      "> **Splice rule from here:** assert each new block's date against this file's month **at the splice**; on assert failure open `STATUS_ARCHIVE_2026-09.md` rather than appending. **Nothing already here moves.**",
+      "",
+      "**Created 2026-08-27 (Will-approved: \"archive + slim\").** Rows here were **MOVED, never deleted** \u2014 `STATUS.md` was 59.9KB on 137 lines, i.e. **under its <250-line cap while carrying ~60KB**, the same line-cap/byte-load mismatch that forced the `MEMORY.md` restructure. Every row below was **CLOSED or fully superseded** at the time it moved. `STATUS.md` keeps a one-line pointer to this file."
+    ]
+  },
+  {
+    "path": "AGENTS/MIDAS/analysis/STATUS_ARCHIVE_2026-09.md",
+    "month": "2026-09",
+    "later_headers": [],
+    "header": [
+      "# MIDAS \u2014 STATUS ARCHIVE, SEPTEMBER 2026",
+      "",
+      "> **Rotated OUT of `STATUS.md` 2026-09-05 ~20:2x ET by MIDAS**, to fit the 32,550 B read-cap budget",
+      "> (STATUS was at 31,105 B = **95.6% of budget** before this session's writes; rotation candidates at",
+      "> the closed-item tier were declared exhausted on 9/2, so this pass takes the CLOSED-AND-GRADED tier).",
+      ">",
+      "> \u26d4 **MOVED, NEVER DELETED \u2014 verbatim, in STATUS order.** Cite these as **history**, not as state.",
+      ">"
+    ]
+  },
+  {
+    "path": "AGENTS/MIDAS/analysis/STATUS_ARCHIVE_2026-10.md",
+    "month": "2026-10",
+    "later_headers": [],
+    "header": [
+      "# STATUS \u2014 archived snapshot before 2026-10-12 review",
+      "",
+      "Historical snapshot, moved off the boot path. Current state and obligations live in the desk files. Old quotes, waits and completed work below are not current.",
+      "",
+      "# MIDAS \u2014 STATUS",
+      "",
+      "**Last Updated:** 2026-10-02 ~15:3x ET (Fri), PROME re-ping for the 9/29 CFTC COT vintage (`prome-96` \u2192 MIDAS, same session chain as the morning WQ-352 encode). **COT 9/29 consumed: net/OI 53.79% = 97.81th pct, \u22120.92pp WoW; first post-shock de-crowding; still top 2.2% of history. No registered test consumes it (M1 has no live test). ARMED-state, no line crossed.** Composite **8/20 UNCHANGED**. $0. *Prior:* 2026-10-02 ~11:5x ET (Fri), PROME-spawned WQ-184 L0 session (`prome-96` \u2192 MIDAS, DOCKET L582). **WQ-352 ENCODED: silver / Pt / Pd standalone bands are ADOPTED, LIVE-BUT-UNSCORED on Will's 2026-10-01 21:40 ET ruling (verbatim *\"all with your recs\"*, PROME rec = MIDAS's \u00a7A4 amendment); charter THRESHOLDS carries the three-leg table, the 2026-11-01 window end, and the day-31 CROSSING reading; one open question (WQ-368) flagged to PROME for Will (CROSSING vs CALENDAR).** No score moves from the ruling. M2 stays `1 \u26aa BAND-BLIND` and I2 stays `2 \ud83d\udfe1`; composite **8/20 UNCHANGED**. $0. *Prior:* 2026-10-01 ~12:3x ET (Thu), PROME-spawned due-row session (`prome-0c`, DOCKET L231/L176). **MIDAS-01 + MIDAS-02 RESOLVED HIT on their frozen letters, every basis printed** (`analysis/2026-10-01_MIDAS-01-02-RESOLUTION.md`, KB-119) \u00b7 WT-1 record-closed (superseded 8/11, never fired) \u00b7 COT 9/22 consumed (KB-120) \u00b7 `FRONT_MONTHS` platinum rolled to `PLF27`. **Scores, composite 8/20, bands and thresholds UNCHANGED. $0.** The marks table below is still the 9/24 page except where a 9/30 figure is marked. *Prior:* 2026-09-25 ~11:44 ET (Fri), CLOSEOUT. **WILL-DIRECTED BOOT after 14 dark days: news catch-up, silver/Pt/Pd made first-class coverage (Will's word), full-page STATUS re-base.** The 9/11 page is preserved verbatim at `analysis/STATUS_ARCHIVE_2026-09.md` \u00a7\u2469, off the boot path, and every obligation on it is re-homed below. **M1 holds 4. Composite 8/20 UNCHANGED. Zero capital. No card, no order, no band or threshold moved.**",
+      "**Class:** Market-agent (metals as macro tells) \u00b7 **Spawnable by:** PROME or Will \u00b7 **Fleet maturity: L4** (FLEET_MAP since 2026-09-08; DAEDALUS PR6 9/17 \u2014 this line read L3 until today) \u00b7 **Cadence: WEEKLY** (declared 9/25, WQ-295) \u00b7 **Instrument coverage: tier 2** *(spot/yield/GSR/LME + the contract-identity guard via `metals_watch.py`; gold COT via `cot_gold.py` = boot leg 3; **silver/Pt/Pd COT via `cot_metals.py`, new 9/25, on-demand**; one-shot graders on-demand by design)*"
+    ]
+  },
+  {
+    "path": "AGENTS/SAM/archive/ML_ARCHIVE_2026-01.tsv",
+    "month": "2026-01",
+    "later_headers": [],
+    "header": [
+      "ID\tTimestamp\tSession\tVectors\tEntity\tDescription\tAnalysis\tData Quote\tSource\tStatus\tConfidence\tThesis Impact\tCross Links\tNotes\tArchive Reason",
+      "ML-JPN-131\t2026-01-23\tSAM-X\tVX-SAM-1.02\tBOJ\tBOJ held at 0.75% (8-1 vote); Takata dissented wanting 1.0%\tExpected hold. Takata's dissent signals ongoing debate. Ueda: \"will continue raising if forecasts materialize.\" Market expects terminal 1.25%, possibly 1.5% if 160 breaks.\tHeld 0.75%; 8-1 vote; GDP forecast \u21910.9%; inflation \u21911.9%\tCNBC, BOJ\tCONFIRMED\t0.95\tNEUTRAL - as expected, no surprise\tFL-JPN-061\tState Street: terminal 1.25-1.5%\tStale - Jan meeting context outdated",
+      "ML-JPN-132\t2026-01-23\tSAM-X\tVX-SAM-1.01\tJGB\tJGB yields off peaks post-BOJ: 10Y 2.26% (from 2.33%), 30Y 3.67% (from 3.91%), BUT 40Y new record 4.24%\tNear-term stabilization, not resolution. Market absorbed BOJ decision. However 40Y still at record suggests ultra-long stress persists.\t10Y 2.26%; 20Y 3.48%; 30Y 3.67%; 40Y 4.24% (record)\tTrading Economics, Bloomberg\tCONFIRMED\t0.95\tMIXED - partial stabilization\tML-JPN-130\t40Y still at record\tSuperseded - yields have moved",
+      "ML-JPN-133\t2026-01-23\tSAM-X\tVX-SAM-1.04\tTakaichi\tParliament dissolved Jan 23; Feb 8 snap election confirmed; Sanaeconomics platform\tTakaichi 62-78% approval BUT LDP only 29.7%. Gap suggests narrow win possible despite personal popularity. Platform: \u00a5122.3T budget, 0% food tax (\u00a55T/yr loss).\tApproval 62-78%; LDP 29.7%; Budget \u00a5122.3T; 0% food tax\tCNBC, Nippon.com, NHK\tCONFIRMED\t0.90\tCONSISTENT - fiscal expansion risk\tFL-JPN-065\tLDP internal projection: 233 minimum\tResolved - Election happened, LDP 316 seats",
+      "ML-JPN-135\t2026-01-23\tSAM-X\tVX-SAM-2.01\tLife Insurers\tJapan life insurers ~$60B (~\u00a59T) unrealized losses on domestic bond portfolios\tJGB yield spike hit insurer bond holdings. This accelerates ESR-driven rotation. Confirms J-SOLV thesis - insurers under pressure from both sides.\t~$60B unrealized losses\tTrading Key, Financial Content\tESTIMATED\t0.75\tCONSISTENT - validates repatriation pressure\tFLOW-JPN-2.03\tESR June 2026 will intensify\tSuperseded - ML-JPN-141/167 have better data",
+      "ML-JPN-136\t2026-01-23\tSAM-X\tVX-SAM-1.04\tElection\tLDP seat math: 233 current (1-seat majority); Centrist Reform Alliance 172; Nippon TV model: LDP retains only 60/132 SMDs\tElection more uncertain than Takaichi approval suggests. Narrow win (233-250) would CONSTRAIN fiscal mandate. Large win (260+) confirms D2 pathway.\tLDP 233; CRA 172; Internal projection \"260 too optimistic\"\tWikipedia, Nippon.com, CNBC\tRESEARCH\t0.80\tVARIABLE - outcome determines fiscal path\tFL-JPN-065\tKey insight: watch seat count not just win/lose\tResolved - Prediction wrong, LDP got 316",
+      "ML-JPN-137\t2026-01-24\tSAM-XI\tVX-SAM-3.01\tUSD/JPY\tYen strengthened post-BOJ to 157.50-157.97 range; distance to 160 intervention increased\tCounter-signal to immediate crisis. Yen gaining after BOJ hold. Traders on alert for possible intervention. Now ~2.5 handles from 160 vs 1.45 previously.\tUSD/JPY 157.50-157.97 (from 158.55)\tTrading Economics, Forex.com\tCONFIRMED\t0.90\tINCONSISTENT - near-term stabilization\tVX-SAM-3.01\tSudden rise put traders on intervention alert\tStale - Yen has moved since",
+      "ML-JPN-138\t2026-01-24\tSAM-XI\tVX-SAM-3.02\tMOF/Katayama\tFinance Minister Katayama escalates intervention rhetoric; claims US-Japan agreement justifies action for sudden moves\tVerbal intervention intensifying. Claims Bessent \"shares view\" on yen weakness. Floated potential joint intervention with US. Credibility test in 158-162 range.\t\"All options open\"; \"No constraints on intervention\"; US agreement cited\tBloomberg, Investing.com\tCONFIRMED\t0.88\tCONSISTENT - intervention groundwork laid\tVX-SAM-3.02\tCredibility depends on action if 160 approaches\tAbsorbed - Context now in STATUS.md"
+    ]
+  },
+  {
+    "path": "AGENTS/VULCAN/archive/EXIT_PROTOCOL_LOG_ARCHIVE_2026-10.md",
+    "month": "2026-10",
+    "later_headers": [],
+    "header": [
+      "# EXIT_PROTOCOL \u2014 dated log archive (moved 2026-10-01)",
+      "",
+      "\u26d4 **History. Never cite an entry here as a current kill state.** The live rail is `workbook/EXIT_PROTOCOL.md`; its \u00a71 table, \u00a72 table, \u00a74b flip and \u00a77 trigger are canonical. Every block below was moved **verbatim** (byte-for-byte lines) on 2026-10-01 by the PROME-spawned VULCAN session (DOCKET L547), because the live file was over the 54,250 B physical read cap and is re-read at every closeout. Archived by ENTRY, read first for forward commitments: the only ones found were the 9/30 rewrite trigger (FIRED, its successor written live in \u00a77) and the owed items in \u00a7C (discharged or re-dated live, see \u00a78 of the live file).",
+      "",
+      "Integrity line: see the README-free footer at the end of this file (crc32 of each block, computed by the command at write time).",
+      "",
+      "---",
+      ""
+    ]
+  },
+  {
+    "path": "AGENTS/VULCAN/archive/NEXUS_BRIEF_ARCHIVE_2026-07.md",
+    "month": "2026-07",
+    "later_headers": [
+      [
+        1,
+        "2026-08-03",
+        "# VULCAN \u2014 NEXUS_BRIEF ARCHIVE (2026-07-12 \u2192 2026-08-03)"
+      ],
+      [
+        3,
+        "2026-08-21",
+        "> ## \u26d4 FROZEN 2026-08-21 \u2014 NOT MAINTAINED. `AGENTS/VULCAN/NEXUS_BRIEF.md` IS CANONICAL. DO NOT CITE ROWS HERE AS CURRENT."
+      ]
+    ],
+    "header": [
+      "# VULCAN \u2014 NEXUS_BRIEF ARCHIVE (2026-07-12 \u2192 2026-08-03)",
+      "",
+      "> ## \u26d4 FROZEN 2026-08-21 \u2014 NOT MAINTAINED. `AGENTS/VULCAN/NEXUS_BRIEF.md` IS CANONICAL. DO NOT CITE ROWS HERE AS CURRENT.",
+      ">",
+      "> **What this is:** the 8/3, 7/31, 7/30, 7/22 and 7/12 cross-agent sync sections, **moved out of the live brief on 2026-08-21, not deleted.** Content conservation verified by probe on every moved block.",
+      ">",
+      "> **Why it was moved:** the live brief had reached **65 KB with 53% of it retained history** and had never had anything removed, while carrying the word *\"curated.\"* Nothing below this banner was being read or maintained \u2014 which is the same **out-of-loop** condition that let `THESIS.md` drift 18 days into asserting the opposite of `STATUS.md`. A section that no loop touches does not stay correct by discipline. `STATUS.md` took the identical treatment the same day (276 \u2192 221 lines \u2192 `archive/STATUS_ARCHIVE_2026-07.md`).",
+      ">"
+    ]
+  },
+  {
+    "path": "AGENTS/VULCAN/archive/NEXUS_BRIEF_ARCHIVE_2026-09.md",
+    "month": "2026-09",
+    "later_headers": [],
+    "header": [
+      "# VULCAN \u2014 NEXUS BRIEF ARCHIVE 2026-09 (the whole brief as of 2026-09-13, rotated 2026-09-25)",
+      "",
+      "> **FROZEN 2026-09-25 \u2014 not maintained; `NEXUS_BRIEF.md` is canonical, do not cite rows here as current.**",
+      "> **Why:** PROME read-cap owner notice 2026-09-24 \u2014 the brief was **137,282 B = 4.2\u00d7 the 32,550 B budget** of its reader (NEXUS reads briefs whole). Rotated per READ_CAP rules 18\u201319 at the 9/25 closeout.",
+      "> **Content is VERBATIM** \u2014 the whole file, moved not rewritten. **137,282 B, crc32 `0xadc7bff2`.**",
+      "> **Obligation audit (by OBLIGATION, not by byte) was run BEFORE the cut:** \u2460 every `\ud83d\udccc STANDING ITEMS BY DESK` HOLD/DROP was re-stated, updated, in the new brief \u00b7 \u2461 every forward row of `\u23f1\ufe0f THE CLOCK` is either in `docket/CATALYSTS.tsv` (canonical) or re-stated in the new WATCH \u00b7 \u2462 VIEW / CALIBRATION / NEXT DECISION POINT were rewritten current \u00b7 \u2463 the dated `\ud83d\udd14` session sections are RECORD (what was sent on those dates) and live here. The pre-8/13 record stays in `NEXUS_BRIEF_ARCHIVE_2026-07.md`.",
+      "",
+      "---"
+    ]
+  },
+  {
+    "path": "AGENTS/VULCAN/archive/SCRATCH_ARCHIVE_2026-08.md",
+    "month": "2026-08",
+    "later_headers": [
+      [
+        329,
+        "2026-09-11",
+        "> ## \ud83c\udfaf SELF-GRADE \u2014 THREE CHECKS, REGISTERED 2026-08-21, BASELINES FROZEN. GRADE DATE **2026-09-11**."
+      ],
+      [
+        629,
+        "2026-09-06",
+        "# \u26d4 ROTATED FROM `SCRATCH.md` 2026-09-06 \u2014 VERBATIM, crc32 `0x1f658437`, 8,190 B"
+      ]
+    ],
+    "header": [
+      "# VULCAN \u2014 SCRATCH ARCHIVE 2026-08 (session continuity blocks, 2026-07-17 \u2192 2026-08-27 PM)",
+      "",
+      "> **FROZEN 2026-09-02 \u2014 not maintained; `SCRATCH.md` is canonical, do not cite rows as current.**",
+      ">",
+      "> \u26a0\ufe0f **RANGE RESTATED 2026-09-25 (DAEDALUS Staleness Sweep #5, option (a)).** The title said *\"\u2192 2026-08-27 AM\"*; **one block was appended AFTER the freeze** \u2014 the **2026-08-27 PM closeout**, rotated here on **2026-09-06** (line ~627, crc32 `0x1f658437`, 8,190 B). It lives in this file, not `SCRATCH_ARCHIVE_2026-09.md`, because its CONTENT is August (8/27 PM) and the September archive did not exist until 9/11. **The freeze date is unchanged; the range now names every block the file holds.** Content not moved, only the banner.",
+      ">",
+      "> **Why this file exists:** the 2026-09-02 READ-CAP split. `SCRATCH.md` measured **153,247 B = 282% of the 54,250 B physical cap** \u2014 the fleet's worst single boot read \u2014 and could not be read whole. The blocks below (2026-08-27 AM back to 2026-07-17) are discharged continuity state.",
+      ">"
+    ]
+  },
+  {
+    "path": "AGENTS/VULCAN/archive/SCRATCH_ARCHIVE_2026-09.md",
+    "month": "2026-09",
+    "later_headers": [
+      [
+        221,
+        "2026-10-08",
+        "## \ud83d\udce6 Moved VERBATIM from `SCRATCH.md` on 2026-10-08 (READ-CAP rule 5: SCRATCH was 24,310 B = 75% of the 32,550 B budget before the 10/08 block). The 2026-09-25 and 2026-09-13 close"
+      ]
+    ],
+    "header": [
+      "# VULCAN \u2014 SCRATCH ARCHIVE 2026-09",
+      "",
+      "> **FROZEN \u2014 never cite a row here as current.** `SCRATCH.md` is the next-session pickup; this file holds session blocks rotated off it under READ_CAP rules 16-17 (the August blocks are in `SCRATCH_ARCHIVE_2026-08.md`).",
+      "",
+      "---",
+      "",
+      "## ROTATED 2026-09-11 from `SCRATCH.md` \u2014 the two 2026-09-06 blocks (PM CODEX-review block + AM Will-directed block) \u2014 VERBATIM, crc32 `0x8c967b99`, 18,453 B",
+      "> Cut at the 9/11 session start: SCRATCH stood at 31,689 B against a 32,550 B budget with a session block to write. The 9/6 START-HERE items that were still live are re-stated in the 9/11 block; the rest is record."
+    ]
+  },
+  {
+    "path": "AGENTS/VULCAN/archive/SCRATCH_ARCHIVE_2026-10.md",
+    "month": "2026-10",
+    "later_headers": [],
+    "header": [
+      "# VULCAN SCRATCH ARCHIVE \u2014 2026-10",
+      "",
+      "> FROZEN \u2014 moved VERBATIM from `SCRATCH.md` 2026-10-15 (READ-CAP: SCRATCH was 28,302 B). Blocks 2026-10-02 (incl. the untitled 10/01 block) and 2026-09-29. crc32 `0x468d02f4` over the body below. Never cite as current; live items were carried forward in the 10/15 block.",
+      "",
+      "> # 2026-10-02 (Fri) \u2014 *(superseded by the 2026-10-09 block above; kept as record)*. PROME-spawned Tier-2 session (DOCKET L564 FRIDAY POST-CLOSE SLOT, prome-96, above-cap under Will's in-session authorization), boot 16:01 ET (`date`), markets closed. Task: `mag7.py` slot 4 + GPU reading 4 + consume -012 + consume -024 + close out. **All five done; +3 lower-priority WALTER signals consumed; +1 PROME packet; +1 TERRY ACK/starter packet.**",
+      ">",
+      "> ## ONE LINE: **Breadth 63d RSP\u2212SPY went +3.70pp \u2192 \u22125.07pp in 30d \u2014 8.77pp into the collapse neighbourhood, 2.4pp from the red band's leg. Mag-7 34.5445% (still 5.5pp from 40%), band stays YELLOW on the AND. Composite 14/25 HELD, no score moved.** GPU_SERIES first row written: indices BOTH UP since 9/13 freeze (SDH100RT +9.5%, OCPI +5.0%); on-demand mean $4.64/GPU-hr (Nebius +16.9% effective 10/01). AMZN $8B SPV (-012) = capex funded differently NOT cut; Toshiba HDD (-024) = storage crack OUTSIDE S2's memory cell.",
+      ">"
+    ]
+  },
+  {
+    "path": "AGENTS/VULCAN/archive/STATUS_ARCHIVE_2026-07.md",
+    "month": "2026-07",
+    "later_headers": [
+      [
+        78,
+        "2026-08-21",
+        "## Appended 2026-08-21 (pass 7) \u2014 records moved out of `STATUS.md` at its <250-line cap"
+      ],
+      [
+        98,
+        "2026-08-21",
+        "## Appended 2026-08-21 (pass 8) \u2014 the 8/21 morning-boot record, moved at the <250-line cap"
+      ],
+      [
+        102,
+        "2026-08-21",
+        "### (2026-08-21 morning-boot record \u2014 retained)"
+      ],
+      [
+        108,
+        "2026-08-21",
+        "## Appended 2026-08-21 (pass 8) \u2014 PASS 6 session record, moved at the <250-line cap"
+      ],
+      [
+        187,
+        "2026-08-21",
+        "## BOTTOM LINE \u2014 2026-08-21 end-of-session (MOVED HERE 2026-08-27, not deleted)"
+      ],
+      [
+        187,
+        "2026-08-27",
+        "## BOTTOM LINE \u2014 2026-08-21 end-of-session (MOVED HERE 2026-08-27, not deleted)"
+      ],
+      [
+        209,
+        "2026-08-21",
+        "## 2026-08-21 SESSION RECORDS (passes 7, 8, 9) \u2014 moved from `STATUS.md` at the 2026-08-27 PM closeout"
+      ],
+      [
+        209,
+        "2026-08-27",
+        "## 2026-08-21 SESSION RECORDS (passes 7, 8, 9) \u2014 moved from `STATUS.md` at the 2026-08-27 PM closeout"
+      ]
+    ],
+    "header": [
+      "# VULCAN \u2014 STATUS ARCHIVE (retired `STATUS.md` session records)",
+      "",
+      "> \u26a0\ufe0f **TITLE CORRECTED 2026-08-27 PM: it read *\"(pre-August 2026 session records)\"* while this file has held **August** records since 8/21 \u2014 the 8/13 and 8/3 blocks, then 8/21 passes 6-9. The FILENAME still says `2026-07` and is deliberately NOT renamed: it is cited by path from `STATUS.md` and `CLAUDE.md`, and a rename breaks those links to fix a cosmetic. **The heading is the part that claimed something false, so the heading is what was fixed.** Fourth instance today of one class \u2014 a heading asserting a state its own body contradicts.**",
+      "",
+      "**FROZEN 2026-08-21 \u2014 not maintained; `STATUS.md` is canonical, do not cite rows here as current.**",
+      "",
+      "*Moved out of `STATUS.md` at the 2026-08-21 closeout because the file had reached 276 lines against its own stated **<250** cap (CLAUDE.md FILES table) and I had made it worse twice that day. **Content is MOVED, not deleted** \u2014 every block below is verbatim. These are the 7/31, 7/30, 7/22 and 7/17 session records, the 7/16 read-only-instance ledger (R-01..R-08, fully adjudicated 7/17), and the retained 7/31 + 7/17 bottom lines. The 8/21, 8/13 and 8/3 records stay in STATUS: they are recent, actively referenced, and the 8/13 one is what 8/21's correction is measured against.*",
+      ""
+    ]
+  },
+  {
+    "path": "AGENTS/VULCAN/archive/STATUS_ARCHIVE_2026-08.md",
+    "month": "2026-08",
+    "later_headers": [],
+    "header": [
+      "# VULCAN \u2014 STATUS ARCHIVE 2026-08 (session records)",
+      "",
+      "> **FROZEN 2026-09-02 \u2014 not maintained; `STATUS.md` is canonical, do not cite rows as current.**",
+      ">",
+      "> **Why this file exists:** the 2026-09-02 READ-CAP split (DAEDALUS P1, Will-ruled 2026-08-28; `AGENTS/DAEDALUS/BLUEPRINTS/READ_CAP.md` rules 16-17). `STATUS.md` measured **117,622 B = 217% of the 54,250 B physical cap** and could not be read whole at boot. The **session-record narrative** below \u2014 the 2026-08-27 and 2026-08-24 blocks \u2014 is HISTORY and moved off the boot path.",
+      ">",
+      "> **Content is VERBATIM**, moved not rewritten. Source: `STATUS.md` lines 5-67 at HEAD before the split.",
+      "> **Receipt (`PROME/tools/measure.py` semantics):** moved segment **38,950 B**, crc32 **8b6c93e7**."
+    ]
+  },
+  {
+    "path": "AGENTS/VULCAN/archive/STATUS_ARCHIVE_2026-09.md",
+    "month": "2026-09",
+    "later_headers": [],
+    "header": [
+      "# VULCAN \u2014 STATUS ARCHIVE 2026-09",
+      "",
+      "> **FROZEN \u2014 never cite a row here as current.** `STATUS.md` is canonical for SCORE, BAND STATE and FIRED-COUNT; this file holds session RECORDS rotated off it under READ_CAP rules 16-17.",
+      "",
+      "---",
+      "",
+      "## ROTATED 2026-09-06 from `STATUS.md` \u00a70c \u2014 VERBATIM, crc32 `0x26842de0`, 1,976 B",
+      "> Cut because STATUS hit **33,229 B vs a 32,550 B budget** \u2014 pushed over by the session's own correction text. **History moved, state kept:** a list of already-fixed defects is not a score, a band or an owed item, so it is exactly what a canonical live-state surface should shed first."
+    ]
+  },
+  {
+    "path": "AGENTS/WATT/status_archive/STATUS_ARCHIVE_2026-08.md",
+    "month": "2026-08",
+    "later_headers": [
+      [
+        142,
+        "2026-09-02",
+        "## \u26d4 CONTAINER CLOSED 2026-09-02"
+      ]
+    ],
+    "header": [
+      "# WATT \u2014 STATUS ARCHIVE, 2026-08",
+      "",
+      "**What this is:** superseded content rotated out of `STATUS.md` under the DAEDALUS **two-state STATUS pilot** (`AGENTS/DAEDALUS/BLUEPRINTS/STATUS_TWO_STATE_PILOT.md`, Will-confirmed 2026-08-07; WATT/HENRY/CARL, window to 2026-08-22). `STATUS.md` carries **LIVE current state only**; everything here was **replaced by a later read**, not deleted. Nothing is edited on the way in \u2014 blocks are verbatim.",
+      "",
+      "**Rotated 2026-08-17** (first rotation). Each block below is headed by what it was and the date it was written.",
+      "",
+      "\u26a0\ufe0f **Do not cite anything in this file as current.** These are historical reads that a later read superseded. If a figure here disagrees with `STATUS.md`, `STATUS.md` wins.",
+      ""
+    ]
+  },
+  {
+    "path": "AGENTS/WATT/status_archive/STATUS_ARCHIVE_2026-09.md",
+    "month": "2026-09",
+    "later_headers": [],
+    "header": [
+      "# WATT \u2014 STATUS ARCHIVE, rotations made in 2026-09",
+      "",
+      "**Container rule (adopted 2026-09-02 from DAEDALUS's 9/2 packet + its same-day CORRECTION):** the month in this filename is the **ROTATION month** \u2014 when the block moved \u2014 **not** the month the content describes. A date in a filename asserts a **CLOSED range**. Blocks below therefore all moved in **September 2026** and may describe August content. **Per-block assert at the splice:** if a block's rotation month != this file's month, open the next month's file \u2014 the check runs **per block**, never once per session (a session-level check passes on block one and the rest ride through \u2014 DAEDALUS's correction, from CARL's 8-pass file).",
+      "",
+      "**What this is:** superseded content rotated verbatim out of `STATUS.md`. `STATUS.md` carries **LIVE current state only**; everything here was **replaced by a later read**, not deleted. Nothing is edited on the way in.",
+      "",
+      "\u26a0\ufe0f **Do not cite anything in this file as current.** If a figure here disagrees with `STATUS.md`, `STATUS.md` wins.",
+      ""
+    ]
+  },
+  {
+    "path": "AGENTS/WATT/status_archive/STATUS_ARCHIVE_2026-10.md",
+    "month": "2026-10",
+    "later_headers": [],
+    "header": [
+      "# WATT \u2014 STATUS ARCHIVE, rotations made in 2026-10",
+      "",
+      "**Container rule:** the month in this filename is the ROTATION month (when a block moved), not the month its content describes \u2014 same rule as `STATUS_ARCHIVE_2026-09.md`. Superseded content moved **verbatim**; nothing edited on the way in. \u26a0\ufe0f **Do not cite anything here as current \u2014 `STATUS.md` wins.**",
+      "",
+      "---",
+      "",
+      "### Block BI \u2014 2026-10-09 twelfth-session rewrite (P1 re-fire 10/7, WATT-12 HIT): every line the session replaced, verbatim; bytes + crc32 of each, measured at rotation by Python zlib.crc32 over the UTF-8 line without its newline",
+      ""
+    ]
+  }
+]

@@ -1,0 +1,91 @@
+4373f4566d535bc305adfe5860a1187427dfb4bc | 2026-10-20T16:34:12-04:00 | WALTER -> HENRY, VULCAN, HOMER, OSPREY, FALCON: review next 18 bookmarks
+45f4bcd09d88a0144ff09f09d97dc479235e036f | 2026-10-20T15:16:54-04:00 | BOND: save final session close and pending informational handoff
+5370995f5e14b21d0c6bb994621460d000740f18 | 2026-10-20T14:49:56-04:00 | WALTER -> BRENT/HENRY/CRUISE/MIDAS/LIQUID/BOND/ZHAO/SAM/BROCK/VULCAN: bookmark batches 6-7
+2e1117ae46c8351306c34f192ca883b98ce9383e | 2026-10-20T14:07:08-04:00 | BOND -> PROME: close frozen-bar grader and stale monitor repairs
+8825402cd15c15c3376f30218693f23e18e3524f | 2026-10-20T13:03:55-04:00 | VULCAN -> PROME and peers: deliver catch-up, Volta B and source-qualified deltas
+b2e255ba22a3fa8d1349bf18a28f657e516598a9 | 2026-10-20T12:54:29-04:00 | BOND: audit owed repairs, coverage gaps and scheduled obligations
+75545a550155d020b57c425936be72875530c49b | 2026-10-20T12:13:20-04:00 | BOND -> PROME: deliver catch-up and R3 answer; record closeout sequencing correction
+cfa4b420122632a455ee7bf7f3de2b3dd7f5d283 | 2026-10-20T12:12:17-04:00 | BOND: catch up live evidence, inboxes, approvals and catalyst calendar
+c2d803c546de82af03a2f06b24b8641489d59fd6 | 2026-10-20T11:53:50-04:00 | BOND: record explicit Codex startup and recover pending work
+f877360a110007c000261fbcfc1599a4a7ef903f | 2026-10-19T18:11:08-04:00 | HENRY -> BOND: deliver catch-up evidence and owner receipt
+ea6eacc7abb08ef57b67875a27016c3fc69ff984 | 2026-10-19T14:41:00-04:00 | WALTER -> ZHAO HANS BOND: China GDP and French bond follow-through
+0cd4974a7d65865622a1d9255c9d08d9a7632248 | 2026-10-19T12:39:54-04:00 | WALTER (orch): route LIQUID source updates to BOND, VULCAN and VIOLET
+666b5eb5d4a67c799be3fd1332c1018302e5298f | 2026-10-19T12:30:19-04:00 | WALTER (orch): finish routing to active desks, CARL, FALCON, HOMER and CREED
+a302bd2650504082a206c9ec589514a5b0fb0b38 | 2026-10-18T18:11:37-04:00 | WALTER: Sun 10/18 boot routing — 001-008 (weekend bookmarks + intake)
+4e85fb6de369ae2addac333f243c9372dcedf9bc | 2026-10-16T13:48:30-04:00 | WALTER -> PROME, FALCON, BRENT and recipients: close bookmark backlog and route verified follow-ups
+cbed6d56b8555cda6ac4ddfaab7f73ab38906f4d | 2026-10-16T12:53:52-04:00 | WALTER -> RED, BOND and routing desks: boot signals and X authorization receipt
+cada759e1a3bcbd0945c88934f6b18b2fadf4a75 | 2026-10-15T15:20:45-04:00 | BOND: 10/15 standard closeout - PPI-day haven rally, buyback dig, 20Y-cut news sweep
+103a70834071e58b99dba2780cfb3b6885b86a59 | 2026-10-15T10:44:36-04:00 | WALTER: dispatch 4 (HY 325 / Asia -8% / PPI +6.3% / UA refineries); kill 2 (MOAB, shadow-fleet)
+268a416a0ee078b50988f7475ddfd347310e6448 | 2026-10-15T08:51:02-04:00 | PROME: consume ORACLE — WQ-439/440 registered, MACHINE_LOCAL row 15 fixed, odds routed to 7 desks
+86b63cbd8772ac0dd70f8340983ed39c8500e231 | 2026-10-14T22:44:04-04:00 | WALTER -> CARL: CORRECTION to -1012-019 NY Fed tariff 12-month negative interval (-036)
+05988c7deac63c5c46a1844b8a724739fd74de75 | 2026-10-14T20:32:30-04:00 | WALTER -> fleet: route Oct 14 market/AI items (-018..-022)
+e3520aa46d2572b50088aae821ad23eef9fe4b34 | 2026-10-14T20:22:00-04:00 | WALTER -> fleet: route LIQUID/BOND October 14 owner returns (-015..-017)
+7c6b0e2b31acc52ae01a3391462f063ae99b9834 | 2026-10-14T15:54:47-04:00 | BOND -> PROME: record Will's safe-publication authorization
+70d58221e0d6a6625bc5e9caea240219f7a30a48 | 2026-10-14T15:51:17-04:00 | BOND -> PROME: close session and confirm shared-train publication
+2b89d943b9e832bac61d99ca7ed751ce81470383 | 2026-10-14T15:42:50-04:00 | BOND -> PROME: record maintenance publication approval dependency
+21357468c085abdf5912df523262e547e2e6824d | 2026-10-14T15:41:15-04:00 | BOND -> PROME, MIDAS: refresh transition narrative and workbook evidence
+0146a9947bf496543499124fe778192d925641e8 | 2026-10-14T14:28:23-04:00 | BOND -> PROME: actual origin receipt and shared push exception
+fa5212fe35af86f56ebeb6460a0e7607062e40a5 | 2026-10-14T14:23:09-04:00 | BOND -> PROME: record Will approval of public publication
+fe675384927077daf24bfc53a7130d8fc2dfc454 | 2026-10-14T14:21:28-04:00 | BOND -> PROME: record closeout and public publication hold
+99c38dbfbec34bfce8beba0ef132a8d9cf3765a4 | 2026-10-14T14:17:45-04:00 | BOND -> PROME, TERRY, WALTER, DAEDALUS: October14 rates and functioning
+03edfba0485b8d0f7ec8248e8ab10f2ea3523745 | 2026-10-14T00:41:07-04:00 | WALTER -> owners: process 72 bookmarks into 21 signals and 53 handoffs
+635bbb0106c21dd08d97f570c612e148c6c8d3d9 | 2026-10-12T21:05:27-04:00 | WALTER: read48 bookmarks, route13 qualified updates; consume:WALTER
+778ef6a3828a84f59f171bcff6b77f54f919c21c | 2026-10-12T20:54:50-04:00 | MIDAS -> PROME, WALTER, ZHAO, HENRY, HAWK, LIQUID, BOND, TERRY, NEXUS: news sweep
+8915e05fc617687ef16e6d34147ec7d7a3dc3bf8 | 2026-10-12T20:25:22-04:00 | MIDAS: deliver approved maintenance with remaining interpretation and data limits
+60815a59036f5d8c4c2f8e5d9d6f1405d0058d56 | 2026-10-12T17:18:01-04:00 | MIDAS -> PROME/BOND/TERRY/LIQUID/HENRY/ZHAO/HAWK/WALTER/DAEDALUS: metals review
+5a9f78a43f8f76d0628820a983574070331073c8 | 2026-10-12T10:51:11-04:00 | WALTER -> LIQUID, BOND, FALCON, BRENT: route Monday intake and transit vintage warning
+80e61cf0235ed0a6ed5cb5035b3a35bdfb08060a | 2026-10-11T16:41:21-04:00 | WALTER 10/11 Sunday boot: six dispatches, REG-T-06 cache refresh, Iran anchor limbs + rotation
+2912cd36968267415b7a45aed2261c103d1394aa | 2026-10-11T13:52:18-04:00 | REGINALD (orch): WQ414 result -> PROME, LIQUID, BOND and WALTER
+305510d1e786bae9a939a078c5c99877ded2b1bb | 2026-10-10T11:38:09-04:00 | WALTER: SIG-W-20261010-003..006 from Will's 32-item X-bookmark batch (closed 32/32)
+f55884c39d52da85b6d456ff8bc124792abcd3f9 | 2026-10-09T17:51:55-04:00 | WALTER: 10/9 evening boot; -011..-014 (Isaias Cat 3 landfall, Oracle gas, SKEW watch, RU)
+8100f74f80f552e9caca85f118175b28007fca22 | 2026-10-09T10:06:34-04:00 | WALTER -> AEOLUS, CORAL, BRENT, FALCON, SAM, VULCAN: morning sweep -004..-006
+27ad3a389a625aa9c17b291d71e05e7dda9b9683 | 2026-10-09T09:55:29-04:00 | PROME 10/9 boot: nine Deck taps consumed (370/378/398/400 RULED), 750C fill receipt, 3 packets
+d82939a449aaebe4e0fa87c3ef698fd8a032bfd2 | 2026-10-08T20:45:04-04:00 | WALTER evening sweep 10/8 (16:20 ET onward): SIG-W-20261008-046..052
+dd727425f4f7cc0edf88fe9719493910ea7a37c1 | 2026-10-08T18:33:50-04:00 | WALTER -> BOND,ZHAO,LIQUID,HENRY: SIG-W-20261008-041 CORRECTION to -036 (30Y since Aug 2000)
+67ec3308885625907bf3e9ba16d39d568e84864b | 2026-10-08T16:49:21-04:00 | BOND 10/8 ninth wake: 30Y-R clean (counter 2), F2 OFF, FR2004 9/30, PMMS, 10/8 curve
+ab71f28e0e8bf202d379bd8acbb14e477ea3a343 | 2026-10-08T16:32:35-04:00 | WALTER 10/8 afternoon sweep: 7 cards -034..-040 (Iran, Isaias, 30Y, gilts, AI)
+ce1ffb4a92cff939e4a05dd22def5201f5d04e5c | 2026-10-08T15:49:40-04:00 | WALTER -> ALL ACTIVE + Tier-2: SIG-W-20261008-033 WQ-399 receipt command
+a004639de61b069651ae8e720221f9cf715a6ea2 | 2026-10-08T12:12:53-04:00 | WALTER -> HANS, BOND: -032 gilt grade input (vendor closes under both lines)
+223cd02f076e0d766379948552f6e62fbc377d94 | 2026-10-08T12:07:16-04:00 | WALTER 10/8 broad sweep: -030 rates/credit (HY near-trigger), -031 CRE cases
+cb1ccc6b17bf35d46d9828af7d40ae363a343764 | 2026-10-08T11:56:02-04:00 | WALTER 10/8 broad sweep: 8 cards -022..-029 (Europe, RU energy, AI fin, more)
+015a8e819dad1f66a93050df962eaea1293c1c7c | 2026-10-08T11:49:39-04:00 | WALTER -> SAM +4: CORRECTION -021 to -005 (JGB labels, MOF basis)
+45b3201340e9cfe25e28aee7e4c1c5d122ed3f1e | 2026-10-08T08:16:22-04:00 | WALTER 10/8 boot: 13 dispatches (Isaias, Trepp, OZK, freight, gilt, AI, plague fix)
+a7791435be1ff361586a007995cf1c29e0996b50 | 2026-10-07T20:38:42-04:00 | BOND: complete standard October 7 closeout and restore distinct expert deadline
+5546f01daa3afcb8fb6b9d89e9c36a505ec9ad5f | 2026-10-07T20:07:31-04:00 | BOND: reconcile remaining live funding and credit flow scalars
+f4f40e5fdb02231638c042c7e35289e1cabf91b5 | 2026-10-07T20:04:24-04:00 | BOND: refresh current flow evidence from delivered October 7 findings
+d7492d763425b6e0e7de1f4690bc53d43d7436dc | 2026-10-07T20:02:17-04:00 | BOND: reconcile live document write-back and publication continuity
+d2f034178c1a4de18702b140a7dfd90c5c1aa8d7 | 2026-10-07T19:46:32-04:00 | BOND: archive two verified WALTER handoffs after sender persistence
+2144da1adfbbcf9a01d58f8058c25642cc9846b7 | 2026-10-07T19:41:17-04:00 | WALTER: persist final two October 7 BOND handoffs
+fd84bb90d90dff4ed4c59fb2506cb4dcfe3883f5 | 2026-10-07T19:36:23-04:00 | BOND -> PROME and peers: grade October auctions and integrate minutes
+259bd8578d43b9807e39d6b5c18f7bfc93204a0e | 2026-10-07T16:35:02-04:00 | BOND -> PROME: save partial catch-up and close out at Will's request
+9798f6da4244955e41ca0ad7ebd25bc0bcb89e57 | 2026-10-05T11:03:10-04:00 | BOND: close session; record PROME acceptance and final handoff
+ff0992bf17faa0fc668aab8d90fff6132ea9a259 | 2026-10-05T10:57:00-04:00 | BOND: refresh live rates and credit evidence; deliver rebound research
+e007cfd4cd5fea6b8eefb458a2bd13b4f1f0fe1e | 2026-10-05T10:04:40-04:00 | BOND: reconcile startup approvals and record boot priorities and capability gaps
+77b940a2a375c99d5f1382f630b2f3aae78d8ab5 | 2026-10-04T16:42:57-04:00 | WALTER boot 7h: 14 X-bookmarks -> 4 dispatches (-010..-013); Iran cluster verify-checked at primary; BOARD 1211->1215
+a0d95e4c73859b2123f14f2ee44d61d63b3a29bf | 2026-10-03T21:18:08-04:00 | PROME: Deck pickup — eight Will taps 10/3 21:07–21:11 ET consumed (six rows closed, two LATER)
+38d1e705ca0387d8ee69de25dda5525019b933c1 | 2026-10-03T21:12:01-04:00 | WALTER walter-f0: x-bookmarks LIVE TEST — tool caught 25 new, BM-20261004-01 CLOSED 25/25, 4 dispatches
+7219d454b6f83ac0442e708721564c0432b05887 | 2026-10-03T14:02:06-04:00 | WALTER: X-bookmark backlog slice - route 6 (-003..-008), annotate -002; BOARD 1184->1190
+18d017f16c2c285ffa4e1b57f72288956c642258 | 2026-10-02T17:09:38-04:00 | WALTER: dispatch -032 futures price just under one Fed hike by YE -> BOND
+42a5b3bf94246fd7594e6cd5eb805173fc4c5b23 | 2026-10-02T16:37:56-04:00 | WALTER: -029 CORRECTION to -028 - Brent basis was post-settle; settle-window Brent flat, WTI ~-1.9% (BRENT caught)
+1be2ca661c837c7b1c75dd933d35912a161ea4c1 | 2026-10-02T16:36:42-04:00 | WALTER: -028 close update - 10Y rally reversed (+4-5bp on a jobs miss), Brent erased G7 drop (BOND/BRENT)
+0cbc87c63fc775e0a43adf4506f2932dda361749 | 2026-10-02T16:07:02-04:00 | BOND: official 10/2 Treasury par/real curve (phase-2 EOD) — WQ-357 unchanged, thesis STRONGLY STRENGTHENED
+bf27866cab7ff78919a07da00e93da86a978c823 | 2026-10-02T12:34:30-04:00 | WALTER: lane manual run -> -014 IMMEDIATE Yanbu port struck 10/01, -015 ECB pricing (HANS)
+ab68dd36f97842f20f69fd774e54bca7ccb95d53 | 2026-10-02T12:15:55-04:00 | WALTER: Will Telegram batch BM-20261002-01 -> SIG-W-20261002-011..013, 3 kills, 1 dup
+86a0f662ccab62fb5af74f090b2fc93bced64839 | 2026-10-02T11:56:41-04:00 | BOND: WQ-357 grade on the 10/2 post-NFP tape — REAFFIRM EXIT per the Will-ruled kill letter; analytical thesis incrementally STRENGTHENED
+e1dc205c41f3f8a051339aef85805d0f0870479a | 2026-10-02T10:38:38-04:00 | WALTER news sweep: -006 CRE cases (CREED), -007 Jefferson (BOND), -008 Taiz (FALCON)
+ef5856db01e052b4cac712a6b97df2521ffc9b73 | 2026-10-02T09:33:19-04:00 | WALTER 10/02 AM: dispatch -001..-004 (NFP, EU diesel/oil, carrier relief, EA HICP)
+282f39a590cd1d208a1bb6284d8f461de93178d2 | 2026-10-02T08:43:02-04:00 | HENRY -> BOND: FORUM-7 FINAL PREMIUM-ABSORPTION, co-sign requested
+9c9b5497deb0b540d76c9922a590642cad2a5d6a | 2026-10-01T18:06:34-04:00 | WALTER: dispatch SIG-W-20261001-033..036 (UKMTO 147-26 + Yanbu video unverified; PBF; FedWatch; RSP)
+90e4fea86a3328d0c8dd7f48ab112601a43dd650 | 2026-10-01T17:14:10-04:00 | WALTER: dispatch SIG-W-20261001-030..032 (CleanSpark/Meta HY; ECB pricing + NL storage; CA SB 951)
+36ecaa57f79b9a1ed58778ec2bef96cf2794a41c | 2026-10-01T17:05:13-04:00 | BOND: full closeout 10/1 - WQ-291 rec PENDING WILL (WQ-357), next-session order, rotations
+96ccc7a0c45279e1867aaa63bc001784733ca8d8 | 2026-10-01T16:21:58-04:00 | BOND: WQ-291 FR2004 dealer leg MET (3-6Y $60.079B vs $56.586B) - kill letter MET, rec only
+b77dd7586e33e2f86a7a0fbcffc9ce5587d4b86e | 2026-10-01T14:33:58-04:00 | WALTER: dispatch SIG-W-20261001-021..024 (9/30 lane omissions: Fairford, Kaliningrad, Ukraine grid, UK cap)
+1b4b7c6f0549af176c0d79438518543754d4c49d | 2026-10-01T14:26:07-04:00 | BOND: 10/1 closeout - FR2004 WQ-291 grade ARMED and carried to next session; post-delivery lines
+e07fcd72328cfeed34a4e7579f7823f6d0ac6bc1 | 2026-10-01T13:10:38-04:00 | BOND: 10/1 phase 1 - L410 grader repair + I' re-freeze, WQ-317 page, 9/30 curve, L0 drain
+6425e97c18b5e2cb16002abbdca158ca4e8cbba3 | 2026-10-01T12:49:43-04:00 | WALTER: Will Telegram batch BM-20261001-03 (8 items): -015..-018, 2 kills
+0d3b652ef7fc2eea8c176d65ea6b75aaf1a86eef | 2026-10-01T12:36:12-04:00 | HANS: correct 10/01 composition - Bund rallied, Italy widened too (WALTER -009)
+cc5c6cdd9ac2d2a547cd7f6f40a1e66bd98ec8ce | 2026-10-01T12:31:40-04:00 | WALTER: Will Telegram batch BM-20261001-01 (7 items): -007, -008, -009 dispatched
+0f6d90f6d88dc9297db73617cccf2e5eef6a1b88 | 2026-10-01T12:22:28-04:00 | WALTER: -006 correction to -004 (MOF sums true on different vintages)
+13629bff8d18f2e0a1e9897e7a068f0c5aef2304 | 2026-10-01T12:20:18-04:00 | WALTER: dispatch -004 MOF weekly bar (SAM) and -005 LIQ-07 trigger (LIQUID)
+bf1c167a487bc43a591dc70443367654dd491038 | 2026-10-01T12:15:24-04:00 | HANS -> BOND: WQ-317 EU/UK rows for the 10/02 attribution page (L532)
+61a90bbd3a9aec690df79bf24dbdb638f1040edc | 2026-10-01T11:34:18-04:00 | WALTER -> PROME + 19 owners: WQ-295 R3 live-test results, all queued WATCH_FOR sets (L543)

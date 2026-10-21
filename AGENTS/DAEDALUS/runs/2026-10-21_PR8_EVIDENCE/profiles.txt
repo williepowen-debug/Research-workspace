@@ -1,0 +1,43 @@
+PROFILE-CLOCK perimeter as-of 2026-10-21: 38 profile(s) attempted (includes retired); 29 dated clocks evaluated; 6 NO-DATED-CLOCK; 3 CANNOT-EVALUATE
+Excluded non-profile filenames: NEXUS_REFRESH_2026-09-03_READER_REPORT.md, PROME_REFRESH_2026-09-03_READER_REPORT.md, RED_REFRESH_2026-09-03_READER_REPORT.md, REFRESH_2026-09-17_READER_P1_BOND_BROCK.md, REFRESH_2026-09-17_READER_P2_CARL_LIQUID.md, REFRESH_2026-09-17_READER_P3_SAM_SHADE.md, REFRESH_2026-09-17_VERIFY_P1_BOND_BROCK.md, REFRESH_2026-09-17_VERIFY_P2_CARL_LIQUID.md, REFRESH_2026-09-17_VERIFY_P3_SAM_SHADE.md, VIOLET_REFRESH_2026-09-04_READER_A.md, VIOLET_REFRESH_2026-09-04_READER_B.md, VIOLET_REFRESH_2026-09-04_READER_C.md, VIOLET_REFRESH_2026-09-04_READER_D.md, VULCAN_REFRESH_2026-10-08_READER_V1.md, VULCAN_REFRESH_2026-10-08_READER_V2.md, VULCAN_REFRESH_2026-10-08_READER_V3.md, _TEMPLATE.md
+NOT certified: content/event triggers, owner STATUS-relative clocks, or truth of declared refresh work. No git-date fallback.
+NO-DATED-CLOCK (agent-judged): AEOLUS: body 2026-08-17, age 65d [Built: 2026-08-17]
+NO-DATED-CLOCK (agent-judged): DEWEY: body 2026-08-07, age 75d [Built: 2026-08-07]
+NO-DATED-CLOCK (agent-judged): FALCON: body 2026-08-07, age 75d [Built: 2026-08-07]
+NO-DATED-CLOCK (agent-judged): HAWK: body 2026-08-07, age 75d [FULLY REBUILT: 2026-08-07]
+NO-DATED-CLOCK (agent-judged): WAL: body 2026-08-07, age 75d [Built: 2026-08-07]
+NO-DATED-CLOCK (agent-judged): WALTER: body 2026-08-26, age 56d [Date: 2026-08-26]
+PROFILE-CLOCK 1: 21 PAST own day clock — DAEDALUS: refresh/banner under UPGRADE_PROTOCOL step 0
+  ALERT CORAL: body 2026-09-05, age 46d [Body refreshed 2026-09-05]; 46d > 30d
+  ALERT CREED: body 2026-06-28, age 115d [Date: 2026-06-28]; floor 2026-09-25 passed
+  ALERT CRUISE: body 2026-09-05, age 46d [Date: 2026-09-05]; 46d > 21d
+  ALERT FERT: body 2026-09-05, age 46d [Date: 2026-09-05]; 46d > 21d
+  ALERT FLG: body 2026-09-05, age 46d [Date: 2026-09-05]; 46d > 21d
+  ALERT HANS: body 2026-09-05, age 46d [Body date: 2026-09-05]; 46d > 45d
+  ALERT LABOR: body 2026-09-07, age 44d [REFRESHED (parity assessment, 3-reader fan-out + artifact re-verification): 2026-09-07]; 44d > 30d
+  ALERT LIQUID: body 2026-09-17, age 34d [Profile vintage: 2026-09-17]; 34d > 30d
+  ALERT MARCO: body 2026-09-05, age 46d [Body refreshed 2026-09-05]; 46d > 45d
+  ALERT MIDAS: body 2026-09-05, age 46d [Date: 2026-09-05]; 46d > 21d
+  ALERT NEXUS: body 2026-09-03, age 48d [Body vintage: 2026-09-03]; 48d > 21d
+  ALERT ORACLE: body 2026-09-05, age 46d [Body date: 2026-09-05]; 46d > 45d
+  ALERT OTTO: body 2026-09-05, age 46d [Profile vintage: 2026-09-05]; 46d > 45d
+  ALERT OZK: body 2026-09-05, age 46d [Body refreshed 2026-09-05]; 46d > 21d
+  ALERT PROME: body 2026-09-03, age 48d [Body vintage: 2026-09-03]; 48d > 21d
+  ALERT RED: body 2026-09-03, age 48d [Body vintage: 2026-09-03]; 48d > 21d
+  ALERT REGINALD: body 2026-08-07, age 75d [FULLY REWRITTEN: 2026-08-07]; 75d > 45d
+  ALERT TERRY: body 2026-09-05, age 46d [Body refreshed 2026-09-05]; 46d > 21d
+  ALERT VIOLET: body 2026-09-04, age 47d [Body vintage: 2026-09-04]; 47d > 21d
+  ALERT WATT: body 2026-09-05, age 46d [Body refreshed 2026-09-05]; 46d > 21d
+  ALERT YEYOU: body 2026-09-05, age 46d [Body date: 2026-09-05]; 46d > 45d
+  OK BOND: body 2026-09-17, age 34d [Profile vintage: 2026-09-17]; inside declared window (days=45, floor=None)
+  OK BRENT: body 2026-09-07, age 44d [FULL REFRESH: 2026-09-07]; inside declared window (days=45, floor=None)
+  OK BROCK: body 2026-09-17, age 34d [Profile vintage: 2026-09-17]; inside declared window (days=45, floor=None)
+  OK CARL: body 2026-09-17, age 34d [Profile vintage: 2026-09-17]; inside declared window (days=45, floor=None)
+  OK SAM: body 2026-09-17, age 34d [Profile vintage: 2026-09-17]; inside declared window (days=45, floor=2026-11-01)
+  OK SHADE: body 2026-09-17, age 34d [Profile vintage: 2026-09-17]; inside declared window (days=45, floor=2026-11-01)
+  OK VULCAN: body 2026-10-08, age 13d [Body vintage: 2026-10-08]; inside declared window (days=21, floor=None)
+  OK ZHAO: body 2026-10-14, age 7d [Body vintage: 2026-10-14]; inside declared window (days=45, floor=None)
+PROFILE-CLOCK 2 CANNOT-EVALUATE — DAEDALUS: verify metadata or compare named owner stamp before certifying
+  HENRY: HENRY: body 2026-08-07, age 75d [FULLY REWRITTEN: 2026-08-07]; STATUS-stamp-relative >21d trigger needs owner-stamp comparison; wall-clock age is NOT that trigger
+  HOMER: HOMER: body 2026-08-07, age 75d [Built: 2026-08-07]; STATUS-stamp-relative >21d trigger needs owner-stamp comparison; wall-clock age is NOT that trigger
+  OSPREY: OSPREY: body 2026-08-07, age 75d [Built: 2026-08-07]; STATUS-stamp-relative >21d trigger needs owner-stamp comparison; wall-clock age is NOT that trigger

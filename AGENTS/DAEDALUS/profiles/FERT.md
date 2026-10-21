@@ -1,5 +1,7 @@
 # Agent Profile — FERT
 
+> **⚠️ STALE — trigger verified 2026-10-21:** named calendar/content/owner-state trigger fired; see the per-desk trigger table in PR8. Backlog disposition checkpoint October25; accepted whole-refresh order/scope (~October29 cohort where assigned) and prior body vintage unchanged. Current verified delta: Reading A branch 2 PASS independently of whether CF positioning is a no-book charter: frozen trade has explicit bullish-flip re-look condition and Nov15 mandatory review. FERT-11 HIT 10/07, FERT-12 MISS 10/14; zero OPEN rows is not a maturity failure. G5 nine prints graded through 10/14; current next print 10/21. Source/evidence: `upgrades/PRODUCTION_REVIEW_2026-10-21.md` and its named reader companion. This annotation supersedes conflicting current-state claims below only on these inspected facts; no whole-profile refresh or grade change is established by the annotation.
+
 **Built by:** DAEDALUS · **Date:** 2026-09-05 (**FIRST BUILD** — owed "at the first firming touch"; that touch was 2026-08-17)
 **Method:** solo full-tree read + `boot.py` RUN (rc=1) + the L3 gate re-measured at `PREDICTIONS.tsv`
 **Sources read:** `CLAUDE.md` (189 ln) · `STATUS.md` (126) · `TRADE.md` · `workbook/` (5 TSV + `EXIT_PROTOCOL.md`) · `boot.py` · `archive/CLAUDE_2026-03_SUPERSEDED.md` · `board_log.tsv` · inbox/outbox

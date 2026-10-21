@@ -1,0 +1,22 @@
+============================================================================
+  RED CLOSEOUT CHECK — vintage working tree (base HEAD) — today 2026-10-21
+============================================================================
+  a  challenge table == canon        PASS
+  b  prediction tally x3            PASS   derived 13C/10W/2A of 25 rows, ACTIVE RED-23, RED-25
+  c  trigger states + header counts PASS
+  d  SCRATCH addendum floor         PASS
+  e  state change -> CHANGELOG+OUTBOX PASS   no registered state changed vs HEAD
+  f  NEXUS/CALENDAR HOLD, net-bear  PASS   STATUS HOLD 70 / net-bear 65
+  SKIPPED (say so in the closeout message; the headline is then PARTIAL):
+     - g delegated instruments (--no-delegate)
+     - g memory_index_check (no --memory-slug given — pass one per auto-memory written, or none were)
+  MANUAL — unverifiable here, printed every run so they cannot be skipped silently:
+     W2   every DUE row dispositioned (boot.py §④ lists them); mechanism vs threshold kept separate
+     W3   the CHANGELOG entry EXPLAINS old view -> new view (e only proves one exists)
+     W6   workbook rows carry dated evidence; Flip_If graded against this session's data
+     W7   transferable lesson -> memory/auto/ + index row (then re-run with --memory-slug)
+     W8   OUTBOX content is routable; NEXUS_BRIEF refreshed LAST before the commit
+     W9   any file/schema/tool/protocol change recorded in MAINTENANCE.md
+     W10  safe-push receipt line "Pushed. CONFIRMED: HEAD <sha> is on origin/master (fresh fetch)." — the only proof of PUSHED
+
+  ✅ CLOSEOUT-CHECK 0 PASS — scope a-f on working tree; SKIPPED: g delegated instruments (--no-delegate); g memory_index_check (no --memory-slug given — pass one per auto-memory written, or none were). A PASS certifies agreement and floor marks, not judgement.

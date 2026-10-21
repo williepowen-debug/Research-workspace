@@ -1,3 +1,5 @@
+> **PR8 write-back 2026-10-21:** BND30/31 resolve TRUE October1; do not reassert no prediction resolution. Four verified header/glob gaps and MEMORY rotation remain. Evidence and current scope: `PRODUCTION_REVIEW_2026-10-21.md`.
+
 # Upgrade Card — BOND (read-only assessment, no agent files touched)
 
 > ✅ **CLOSED/SUPERSEDED 2026-07-22 (self-sweep fix-batch, Will-approved):** NEXUS_BRIEF **CREATED 7/18** (`6b0b1e48`) — every 'ABSENT/HELD-build' claim below is obsolete; §5 ACTION col landed 7/1; conf M→H 7/22. Remaining open = MATRIX_V2 disposition only. Current truth = FLEET_MAP row + `upgrades/PRODUCTION_REVIEW_2026-07-22.md`. States below are HISTORICAL.

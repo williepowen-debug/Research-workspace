@@ -1,3 +1,5 @@
+> **PR8 write-back 2026-10-21:** Section3c CLOSED-VERIFIED: THESIS§8 built October15; independent PR8 read supports L3/M. Former L2/H and sole-surviving-blocker statements below are historical. Current next leg is reading-A trade/consumer adjudication, not another convergence build. Evidence and current scope: `PRODUCTION_REVIEW_2026-10-21.md`.
+
 # HOMER — Upgrade Card
 
 **Created 2026-08-22** (DAEDALUS structure review). **This artifact did not exist before today** — HOMER had
@@ -72,7 +74,7 @@ Read-only against the 8/22 baseline; subject LIVE throughout so **packet-only, n
 |---|---|---|---|
 | **3a** | **Give the A–G servicer spec a durable, boot-read home.** Twice Will-ruled (8/14, 8/22); five homes, **not one both durable AND read**; violates HOMER's own `:170`. **Highest consequence on this card** — the rest is wrong text, this is a ruled spec degrading each session | 3 | R1-A4, sharpened |
 | 3b | **Author `thesis/THESIS.md` + the thesis-level kill rail** — ONE build, greenfield, five elements per leg | 1+4 | L3 blockers (a)+(b) |
-| 3c | **Build the convergence handle** (local scoring + 5-pt/Independence overlay) | 2 | sole surviving PR#4 blocker |
+| 3c | **Build the convergence handle** (local scoring + 5-pt/Independence overlay) | 2 | CLOSED-VERIFIED 2026-10-21: THESIS§8 built10/15; independent PR8 L3/M |
 | ◐3d | **`:87` source label DONE 8/22; `:83` DISARMED not recalibrated 8/22** (no level invented, retune docketed Will-gated — the DISARM template applied exactly as intended). **Apply the FL basis template to the other 11 threshold rows** — start with `:83` (uninformative under every basis) and `:87` (source wrong vs practice) | 3 | 4 of them already have the basis written elsewhere |
 
 ### Tier 4 — POLISH

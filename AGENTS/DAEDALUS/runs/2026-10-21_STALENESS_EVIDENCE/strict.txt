@@ -1,0 +1,57 @@
+⚠️  [AEOLUS] 1 stale ledger(s) behind STATUS: SCHEMA.tsv (+104d behind)
+  perimeter [AEOLUS]: 17 ledger(s) scanned; 1 TSV(s) NOT scanned by this pass: registry/corrections_receipts.tsv
+⚠️  [BOND] 1 stale ledger(s) behind STATUS: SCHEMA.tsv (+207d behind)
+  perimeter [BOND]: 4 ledger(s) scanned; 11 TSV(s) NOT scanned by this pass: analysis/2026-10-07_catchup/VX_pre-continuation.tsv, docket/CATALYSTS.tsv, monitors/FOMC_CALENDAR.tsv, monitors/RETIRED_TOKENS.tsv (+7 more)
+⚠️  [BRENT] 1 stale ledger(s) behind STATUS: SCHEMA.tsv (+41d behind)
+  perimeter [BRENT]: 13 ledger(s) scanned; 16 TSV(s) NOT scanned by this pass: audits/2026-10-12_desk-health/CATALYSTS-before.tsv, demand_destruction/data/yanbu_berth_2026-09-25.tsv, demand_destruction/data/yanbu_berth_2026-09-28.tsv, demand_destruction/data/yanbu_berth_2026-10-02.tsv (+12 more)
+⚠️  [BROCK] 4 stale ledger(s) behind STATUS: KB_ARCHIVE_MAR26.tsv (+204d behind), PREDICTIONS_ARCHIVE.tsv (+99d behind), SCHEMA.tsv (+218d behind), VX_HISTORY.tsv (+71d behind)
+  perimeter [BROCK]: 13 ledger(s) scanned; 3 TSV(s) NOT scanned by this pass: registry/corrections_receipts.tsv, research/2026-10-14_wave/fsk_may8_commitments.tsv, research/NDFI_BANK_LEVEL_Q4_2025.tsv
+⚠️  [CARL] 30 stale ledger(s) behind STATUS: COST_DRIVER.tsv (+65d behind), COVERAGE.tsv (+65d behind), ML.tsv (+65d behind), PREDICTIONS.tsv (+65d behind), SCHEMA.tsv (+188d behind), VX.tsv (+65d behind), DRIVER_ECONOMICS.tsv (+65d behind), FLOW.tsv (+65d behind), ML.tsv (+65d behind), PLATFORM.tsv (+65d behind), PREDICTIONS.tsv (+65d behind), SCHEMA.tsv (+189d behind), VX.tsv (+65d behind), COCKROACH.tsv (+34d behind, UNATTENDED (attention 40d)), PREDICTIONS.tsv (+34d behind), REGULATORY.tsv (+34d behind, UNATTENDED (attention 40d)), SCHEMA.tsv (+189d behind), CARRIER.tsv (+65d behind), ML.tsv (+65d behind), PREDICTIONS.tsv (+65d behind), SCHEMA.tsv (+188d behind), STATE_MARKET.tsv (+65d behind), VX.tsv (+65d behind), SCHEMA.tsv (+188d behind), CASCADE.tsv (+63d behind, UNATTENDED (attention 72d)), EXPECTED_SIGNALS_TRACKER.md (+40d behind, UNATTENDED (attention 72d)), SCHEMA.tsv (+63d behind), SERVICER.tsv (+40d behind, UNATTENDED (attention 72d)), TIMELINE.tsv (+40d behind, UNATTENDED (attention 72d)), SCHEMA.tsv (+83d behind)
+  perimeter [CARL]: 52 ledger(s) scanned; 11 TSV(s) NOT scanned by this pass: board/BOARD_LOG.tsv, board/BOARD_STAGING_2026-07-18.tsv, book/PAPER_SLEEVE.tsv, docket/CATALYSTS.tsv (+7 more)
+  perimeter [CREED]: 11 ledger(s) scanned; 1 TSV(s) NOT scanned by this pass: evals/results.tsv
+⚠️  [CRUISE] 1 stale ledger(s) behind STATUS: SCHEMA.tsv (+213d behind)
+  perimeter [DAEDALUS]: 7 ledger(s) scanned; 14 TSV(s) NOT scanned by this pass: builds/YURI_INTENT_LEDGER_DRAFT.tsv, design/2026-10-20_L496_SEED_ROWS.tsv, registry/2026-10-09_READS_PROPOSED.tsv, registry/2026-10-09_READS_SPLIT_DELTA.tsv (+10 more)
+⚠️  [FALCON] 2 stale ledger(s) behind STATUS: FLOW.tsv (+178d behind), SCHEMA.tsv (+94d behind)
+  perimeter [FALCON]: 5 ledger(s) scanned; 5 TSV(s) NOT scanned by this pass: domain/casualties/CASUALTIES.tsv, domain/energy-strikes/STRIKES.tsv, domain/vessel-incidents/VESSELS.tsv, registry/corrections_receipts.tsv (+1 more)
+⚠️  [FERT] 1 stale ledger(s) behind STATUS: SCHEMA.tsv (+209d behind)
+ℹ️  [FLG] 4 declared-quiet ledger(s) not counted stale (Cadence: declaration, WQ-147): MATURITY_WALL.tsv (SCHEDULED next_due 2027-03-01), MI3_FLG.tsv (SCHEDULED next_due 2026-11-14), NONACCRUAL_FLOW.tsv (SCHEDULED next_due 2026-11-06), PREDICTIONS.tsv (SCHEDULED next_due 2026-11-20)
+  perimeter [FLG]: 7 ledger(s) scanned; 1 TSV(s) NOT scanned by this pass: registry/corrections_receipts.tsv
+  perimeter [GIBBS]: 4 ledger(s) scanned; 1 TSV(s) NOT scanned by this pass: docket/CATALYSTS.tsv
+  perimeter [HANS]: 6 ledger(s) scanned; 3 TSV(s) NOT scanned by this pass: registry/HANS_T_FIRED_LOG.tsv, registry/THRESHOLDS.tsv, registry/corrections_receipts.tsv
+⚠️  [HAWK] 1 stale ledger(s) behind STATUS: SCHEMA.tsv (+32d behind)
+  perimeter [HAWK]: 6 ledger(s) scanned; 4 TSV(s) NOT scanned by this pass: domain/energy-strikes/STRIKES.tsv, domain/europe-rearm/INCURSIONS.tsv, registry/corrections_receipts.tsv, thesis/PREDICTIONS.tsv
+  perimeter [HENRY]: 8 ledger(s) scanned; 4 TSV(s) NOT scanned by this pass: evals/results.tsv, registry/corrections_receipts.tsv, research/2026-10-04_ISM-services-owner-adoption/forecast.tsv, research/2026-10-08_ISM-services-september-grade/provenance.tsv
+  perimeter [HOMER]: 10 ledger(s) scanned; 3 TSV(s) NOT scanned by this pass: docket/CATALYSTS.tsv, registry/corrections_receipts.tsv, thesis/PREDICTIONS.tsv
+⚠️  [LABOR] 1 stale ledger(s) behind STATUS: SCHEMA.tsv (+221d behind)
+  perimeter [LABOR]: 7 ledger(s) scanned; 3 TSV(s) NOT scanned by this pass: docket/CATALYSTS.tsv, docket/WARN_COHORT.tsv, registry/corrections_receipts.tsv
+  perimeter [LIQUID]: 6 ledger(s) scanned; 4 TSV(s) NOT scanned by this pass: registry/corrections_receipts.tsv, research/2026-10-19_equity-financing/conditional/events.tsv, research/2026-10-19_equity-financing/conditional/funding-evidence.tsv, research/2026-10-19_equity-financing/maturities.tsv
+⚠️  [MARCO] 1 stale ledger(s) behind STATUS: VX.tsv (+55d behind)
+  perimeter [MARCO]: 5 ledger(s) scanned; 24 TSV(s) NOT scanned by this pass: baselines/banxico_destination_states.tsv, baselines/banxico_monthly.tsv, baselines/beef_belt_layoffs.tsv, baselines/bts_airport_pax.tsv (+20 more)
+⚠️  [MIDAS] 1 stale ledger(s) behind STATUS: SCHEMA.tsv (+102d behind)
+  perimeter [MIDAS]: 5 ledger(s) scanned; 11 TSV(s) NOT scanned by this pass: KB_METALS.tsv, METALS_CATALOG.tsv, analysis/BEFORE_MAINTENANCE_2026-10-12_FLOW.tsv, analysis/BEFORE_MAINTENANCE_2026-10-12_VX.tsv (+7 more)
+  perimeter [ORACLE]: 7 ledger(s) scanned; 5 TSV(s) NOT scanned by this pass: kalshi_watchlist.tsv, registry/corrections_receipts.tsv, watchlist.tsv, workbook/T6_PIN.tsv (+1 more)
+⚠️  [OSPREY] 1 stale ledger(s) behind STATUS: SCHEMA.tsv (+100d behind)
+ℹ️  [OSPREY] 1 declared-quiet ledger(s) not counted stale (Cadence: declaration, WQ-147): WARRISK.tsv (EVENT-DRIVEN re-pull 2026-10-18)
+  perimeter [OSPREY]: 5 ledger(s) scanned; 17 TSV(s) NOT scanned by this pass: domain/energy-strikes/STRIKES.tsv, domain/energy-strikes/feed/FEED_CANDIDATES_2026-09-15.tsv, domain/energy-strikes/feed/FEED_CANDIDATES_2026-09-16.tsv, domain/energy-strikes/feed/FEED_CANDIDATES_2026-09-29.tsv (+13 more)
+  perimeter [OTTO]: 10 ledger(s) scanned; 12 TSV(s) NOT scanned by this pass: docket/CATALYSTS.tsv, registry/corrections_receipts.tsv, research/2026-10-19_L708/events.tsv, research/2026-10-19_L708/issuer_coverage.tsv (+8 more)
+⚠️  [OZK] 1 stale ledger(s) behind STATUS: CALL_REPORT_SERIES.tsv (+67d behind, held (attention 27d))
+ℹ️  [OZK] 1 declared-quiet ledger(s) not counted stale (Cadence: declaration, WQ-147): PREDICTIONS.tsv (EVENT-DRIVEN re-pull 2026-08-28)
+  perimeter [OZK]: 4 ledger(s) scanned; 1 TSV(s) NOT scanned by this pass: registry/corrections_receipts.tsv
+⚠️  [RED] 1 stale ledger(s) behind STATUS: VX.tsv (+136d behind)
+  perimeter [RED]: 14 ledger(s) scanned; 3 TSV(s) NOT scanned by this pass: handoff_WALTER/bifurcation_classification_2026-05-06.tsv, registry/FALSIFICATION_TRIGGERS_SCAN.tsv, registry/corrections_receipts.tsv
+ℹ️  [REGINALD] 4 declared-quiet ledger(s) not counted stale (Cadence: declaration, WQ-147): ACL_ROLLFORWARD_COHORT.tsv (SCHEDULED next_due 2026-11-07), MI3_COHORT.tsv (SCHEDULED next_due 2026-11-07), NDFI_COHORT.tsv (SCHEDULED next_due 2026-11-07), RUNWAY_COHORT.tsv (SCHEDULED next_due 2026-11-07)
+  perimeter [REGINALD]: 16 ledger(s) scanned; 27 TSV(s) NOT scanned by this pass: board/BOARD_LOG.tsv, domain/research/capital-rewrite-2026/KB_ADDITIONS.tsv, registry/REG_T02_EXIT_LOG.tsv, registry/THRESHOLDS.tsv (+23 more)
+⚠️  [SAM] 4 stale ledger(s) behind STATUS: BIS_GLI.tsv (+36d behind), FLOW_ARCHIVE.tsv (+145d behind), GPIF_FLOWS.tsv (+74d behind), KB_ARCHIVE.tsv (+39d behind)
+  perimeter [SAM]: 19 ledger(s) scanned; 16 TSV(s) NOT scanned by this pass: docket/CATALYSTS.tsv, evals/results.tsv, registry/corrections_receipts.tsv, reports/2026-09-14_resolved-catalysts.tsv (+12 more)
+⚠️  [TERRY] 2 stale ledger(s) behind STATUS: CALIBRATION.tsv (+46d behind, held (attention 2d)), LEDGER.tsv (+79d behind, held (attention 2d))
+  perimeter [TERRY]: 6 ledger(s) scanned; 3 TSV(s) NOT scanned by this pass: registry/corrections_receipts.tsv, research/2026-10-19_broker-reconcile/ACTIVITY.tsv, research/2026-10-20_broker-receipt/ACTIVITY.tsv
+⚠️  [VIOLET] 3 stale ledger(s) behind STATUS: SCHEMA.tsv (+190d behind), VX_M1_HISTORY.tsv (+81d behind), VX_TERM_HISTORY.tsv (+76d behind)
+  perimeter [VIOLET]: 17 ledger(s) scanned; 6 TSV(s) NOT scanned by this pass: reports/2026-09-14_inbox/consumption.tsv, research/2026-10-14_accuracy-sweep/expired-kb-review.tsv, research/2026-10-14_accuracy-sweep/inventory-before.tsv, research/2026-10-14_data-refresh/freshness.tsv (+2 more)
+  perimeter [VULCAN]: 13 ledger(s) scanned; 2 TSV(s) NOT scanned by this pass: docket/CATALYSTS.tsv, registry/corrections_receipts.tsv
+  perimeter [WAL]: 4 ledger(s) scanned; 5 TSV(s) NOT scanned by this pass: registry/corrections_receipts.tsv, research/2026-10-14_FFIEC-metrics.tsv, research/2026-10-14_FFIEC-selected-fields.tsv, research/2026-10-14_Q3-evidence-worksheet.tsv (+1 more)
+  perimeter [WALTER]: 11 ledger(s) scanned; 55 TSV(s) NOT scanned by this pass: design/history/BOUNDARY_6_8_BEFORE_2026-10-09.adjudicated.tsv, design/history/cluster_assignment_v1.tsv, design/pilot_runs/fixture/AGENTS/REGINALD/registry/THRESHOLDS.tsv, handoff_BRENT/route_log_brent_slice.tsv (+51 more)
+⚠️  [WATT] 1 stale ledger(s) behind STATUS: SCHEMA.tsv (+65d behind)
+  perimeter [WATT]: 6 ledger(s) scanned; 1 TSV(s) NOT scanned by this pass: registry/corrections_receipts.tsv
+  perimeter [YURI]: 1 ledger(s) scanned; 1 TSV(s) NOT scanned by this pass: registry/corrections_receipts.tsv
+⚠️  [ZHAO] 2 stale ledger(s) behind STATUS: SCHEMA.tsv (+226d behind), VX_HISTORY.tsv (+249d behind)
+  perimeter [ZHAO]: 6 ledger(s) scanned; 2 TSV(s) NOT scanned by this pass: docket/CATALYSTS.tsv, registry/corrections_receipts.tsv

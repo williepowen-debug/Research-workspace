@@ -1,0 +1,10 @@
+READ-CAP [ORACLE] — cap 54,250 B · budget 32,550 B (60%) · ALL % BELOW ARE OF BUDGET (the number every verdict grades; ≥100% = over) · perimeter: 3 boot section(s) in CLAUDE.md, 13 'read' line(s) scanned (0 on-demand/grep + 0 SCOPED-read token(s) excluded by marker; 0 list item(s) inherited the parent line's read verb, L530), 4 whole-read file(s) found; boot.py-internal reads and prose outside the boot section NOT seen (heuristic — READS.tsv replaces it)
+  ✅ STATUS.md                            20,935 B    64% of budget    (boot-step line 33 · ALSO read whole by NEXUS:6)
+  ✅ PREDICTION_MARKET_METRICS.md          8,396 B    26% of budget    (boot-step line 35)
+  ✅ SCRATCH.md                            8,208 B    25% of budget    (boot-step line 32)
+  ✅ workbook/SCHEMA.tsv                   1,829 B     6% of budget    (boot-step line 34)
+✅ READ-CAP 0 [ORACLE]: every boot-mandated read this check found is under budget (4 file(s)). ⚠️ PERIMETER IS THE CHARTER HEURISTIC — this desk has no declaration in PROME/registry/READS.tsv, so this is 'clean within what the scan found', NOT a clean bill. 29 of 37 desks delegate boot to a file it cannot see.
+  ℹ️  charter AGENTS/ORACLE/CLAUDE.md = 27,641 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+  ✉️  OWNER-DIRECTED NOTICE [ORACLE] (READ_CAP rule 15): 1 file(s) under AGENTS/ORACLE/ that OTHER desks' declared boot reads load WHOLE — counted in THOSE readers' perimeters, NOT in this desk's totals or rc. The bytes are this desk's to rotate (rule 4); a breach here is also turning the READER's check red.
+     ✅ AGENTS/ORACLE/NEXUS_BRIEF.md          4,615 B    14% of budget  under 75% of budget  ← read whole by NEXUS:6
+READ-CAP-RESULT v1 mode=agent rc=0 assessed=1 desk=ORACLE reads=4 over_budget=0 over_cap=0 manifest_defects=0 advisories=0 generated_flagged=0 rotation_due=0 active_decisions_over_budget=0 charter_mode=unspecified charter_reads=0 owner_notices=1 owner_notices_over_budget=0 charter_bytes=27641

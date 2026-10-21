@@ -1,0 +1,62 @@
+READ-CAP [NEXUS] — cap 54,250 B · budget 32,550 B (60%) · ALL % BELOW ARE OF BUDGET (the number every verdict grades; ≥100% = over) · perimeter: DECLARED in PROME/registry/READS.tsv — 78 cap-bearing (whole/programmatic) measured, 15 declared-not-counted (scoped/grep/summary), 35 manifest row(s) for this desk; 72 of the measured are MEMBERS of 5 cap-bearing CLASS row(s), each measured per member (rule 16); ATTESTED by the desk itself
+  ✅ AGENTS/NEXUS/BRIEFS_MAP.md           23,272 B    71% of budget    (whole · NEXUS:15a)
+      ↳ 70–75% BAND — rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 488 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. ⚠️ Headroom to the trigger: 1,140 B.
+  ✅ AGENTS/NEXUS/STATUS.md               22,275 B    68% of budget    (whole · NEXUS:15a)
+  ✅ AGENTS/NEXUS/PREDICTIONS_MONITOR.md   21,033 B    65% of budget    (whole · NEXUS:15a)
+  ✅ AGENTS/NEXUS/brief_fallback_log.tsv   16,890 B    52% of budget    (whole · NEXUS:9a)
+  ✅ AGENTS/NEXUS/CONFIRMED.md            10,464 B    32% of budget    (whole · NEXUS:15a)
+  ✅ AGENTS/NEXUS/LAST_COMPLETION.md       9,741 B    30% of budget    (whole · NEXUS:15a)
+  ▣ AGENTS/NEXUS/inbox/*.md                      declared `whole` · CLASS row — cap-bearing PER MEMBER (rule 16 ruling 2026-09-24): 3 member(s) measured, 0 over budget, 0 over the CAP, largest 1,076 B (3% of budget)  (NEXUS:4)
+      3 member(s) all under 70% of budget (<22,785 B)
+  ▣ AGENTS/*/NEXUS_BRIEF.md                      declared `whole` · CLASS row — cap-bearing PER MEMBER (rule 16 ruling 2026-09-24): 28 member(s) measured, 0 over budget, 0 over the CAP, largest 26,992 B (83% of budget)  (NEXUS:6)
+      🟡 AGENTS/OSPREY/NEXUS_BRIEF.md         26,992 B    83% of budget  rotate-tier (≥75% of budget)  (whole · NEXUS:6)
+      ↳ rule 5 STOP is <70% of budget (22,785 B): REMOVE 4,208 MORE B to finish rotating. ⛔ Stopping at the 75% TRIGGER is not finishing — that band re-breaches on the next append (PAT-055 regrowth), which is why rule 5 has two thresholds.
+      + 27 member(s) all under 70% of budget (<22,785 B)
+  ▣ AGENTS/*/STATUS.md                           declared `whole` · CLASS row — cap-bearing PER MEMBER (rule 16 ruling 2026-09-24): 40 member(s) measured, 0 over budget, 0 over the CAP, largest 28,562 B (88% of budget); 1 member(s) also matched by another manifest row, graded there  (NEXUS:6)
+      🟡 AGENTS/OSPREY/STATUS.md              28,562 B    88% of budget  rotate-tier (≥75% of budget)  (whole · NEXUS:6)
+      ↳ rule 5 STOP is <70% of budget (22,785 B): REMOVE 5,778 MORE B to finish rotating. ⛔ Stopping at the 75% TRIGGER is not finishing — that band re-breaches on the next append (PAT-055 regrowth), which is why rule 5 has two thresholds.
+      ✅ AGENTS/MARCO/STATUS.md               24,248 B    74% of budget    (whole · NEXUS:6)
+      ↳ 70–75% BAND — rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 1,464 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. ⚠️ Headroom to the trigger: 164 B.
+      ✅ AGENTS/CREED/STATUS.md               24,217 B    74% of budget    (whole · NEXUS:6)
+      ↳ 70–75% BAND — rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 1,433 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. ⚠️ Headroom to the trigger: 195 B.
+      ✅ AGENTS/LABOR/STATUS.md               24,117 B    74% of budget    (whole · NEXUS:6)
+      ↳ 70–75% BAND — rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 1,333 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. ⚠️ Headroom to the trigger: 295 B.
+      ✅ AGENTS/ZHAO/STATUS.md                24,067 B    74% of budget    (whole · NEXUS:6)
+      ↳ 70–75% BAND — rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 1,283 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. ⚠️ Headroom to the trigger: 345 B.
+      ✅ AGENTS/OZK/STATUS.md                 24,042 B    74% of budget    (whole · NEXUS:6)
+      ↳ 70–75% BAND — rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 1,258 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. ⚠️ Headroom to the trigger: 370 B.
+      ✅ AGENTS/AEOLUS/STATUS.md              23,768 B    73% of budget    (whole · NEXUS:6)
+      ↳ 70–75% BAND — rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 984 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. ⚠️ Headroom to the trigger: 644 B.
+      ✅ AGENTS/CORAL/STATUS.md               23,728 B    73% of budget    (whole · NEXUS:6)
+      ↳ 70–75% BAND — rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 944 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. ⚠️ Headroom to the trigger: 684 B.
+      ✅ AGENTS/BROCK/STATUS.md               23,658 B    73% of budget    (whole · NEXUS:6)
+      ↳ 70–75% BAND — rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 874 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. ⚠️ Headroom to the trigger: 754 B.
+      ✅ AGENTS/LIQUID/STATUS.md              23,648 B    73% of budget    (whole · NEXUS:6)
+      ↳ 70–75% BAND — rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 864 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. ⚠️ Headroom to the trigger: 764 B.
+      ✅ AGENTS/SHADE/STATUS.md               23,497 B    72% of budget    (whole · NEXUS:6)
+      ↳ 70–75% BAND — rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 713 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. ⚠️ Headroom to the trigger: 915 B.
+      + 29 member(s) all under 70% of budget (<22,785 B)
+  ▣ AGENTS/NEXUS/inbox/WALTER/*.md            —  declared `whole` · CLASS row matched 0 files today (112 files matched historically) — correctly quiet, not counted  (NEXUS:7)
+  ▣ AGENTS/NEXUS/analysis/*.md                   declared `whole` · CLASS row — cap-bearing PER MEMBER (rule 16 ruling 2026-09-24): 1 member(s) measured, 0 over budget, 0 over the CAP, largest 21,537 B (66% of budget)  (NEXUS:15a)
+      1 member(s) all under 70% of budget (<22,785 B)
+  ◦ scripts/read_cap_check.py         141,695 B  declared `summary` — not cap-bearing, not counted  (NEXUS:0a)
+  ◦ PROME/GATES.tsv                    67,990 B  declared `grep` — not cap-bearing, not counted  (NEXUS:0b)
+  ◦ AGENTS/NEXUS/analysis/*.md                —  declared `scoped · CLASS row, not a single file` — not cap-bearing, not counted  (NEXUS:0b)
+  ◦ AGENTS/*/STATUS.md                        —  declared `summary · CLASS row, not a single file` — not cap-bearing, not counted  (NEXUS:6,9c)
+  ◦ AGENTS/*/NEXUS_BRIEF.md                   —  declared `summary · CLASS row, not a single file` — not cap-bearing, not counted  (NEXUS:6,9c)
+  ◦ PROME/STATUS.md                    17,478 B  declared `summary` — not cap-bearing, not counted  (NEXUS:6,9c)
+  ◦ BOARD/SIG-W-*.md                          —  declared `scoped · CLASS row, not a single file` — not cap-bearing, not counted  (NEXUS:7)
+  ◦ AGENTS/NEXUS/board_log.tsv         73,198 B  declared `grep` — not cap-bearing, not counted  (NEXUS:7)
+  ◦ scripts/corrections_boot_check.py  53,658 B  declared `summary` — not cap-bearing, not counted  (NEXUS:7a)
+  ◦ AGENTS/NEXUS/                             —  declared `grep · directory` — not cap-bearing, not counted  (NEXUS:9b)
+  ◦ scripts/orphan_check.sh             4,380 B  declared `summary` — not cap-bearing, not counted  (NEXUS:16)
+  ◦ scripts/consumer_check.py          63,038 B  declared `summary` — not cap-bearing, not counted  (NEXUS:16)
+  ◦ scripts/claim_check.py             29,439 B  declared `summary` — not cap-bearing, not counted  (NEXUS:16)
+  ◦ scripts/memory_index_check.py      41,274 B  declared `summary` — not cap-bearing, not counted  (NEXUS:16)
+  ◦ scripts/check_memory_length.sh      3,158 B  declared `summary` — not cap-bearing, not counted  (NEXUS:16)
+  ℹ️ ADVISORY: CLASS row `AGENTS/NEXUS/inbox/WALTER/*.md` (NEXUS:7) declared `whole` matched 0 files today (112 files matched historically) — correctly quiet, not counted
+✅ READ-CAP 0 [NEXUS]: every CAP-BEARING read in this desk's ATTESTED manifest is under budget (78 measured, 15 declared-not-counted). Perimeter = the desk's own declaration, not a scan.
+  ℹ️  charter AGENTS/NEXUS/CLAUDE.md = 71,849 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+  ℹ️  OWNER-DIRECTED NOTICE [NEXUS] (READ_CAP rule 15): no file under AGENTS/NEXUS/ is loaded whole by another desk OUTSIDE this desk's own perimeter (manifest scanned, CLASS rows expanded) — nothing further to report.
+ℹ️  READ-CAP ADVISORY [NEXUS]: 1 reading(s) this check will NOT adjudicate (above). ⛔ These do NOT affect rc — the declaration is the reader's, and a refusal to adjudicate cannot be a blocking verdict (severity split 2026-09-14, L354).
+READ-CAP-RESULT v1 mode=agent rc=0 assessed=1 desk=NEXUS reads=78 over_budget=0 over_cap=0 manifest_defects=0 advisories=1 generated_flagged=0 rotation_due=2 active_decisions_over_budget=0 charter_mode=unspecified charter_reads=0 owner_notices=0 owner_notices_over_budget=0 charter_bytes=71849

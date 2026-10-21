@@ -1,5 +1,7 @@
 # Agent Profile — WATT
 
+> **⚠️ STALE — trigger verified 2026-10-21:** named calendar/content/owner-state trigger fired; see the per-desk trigger table in PR8. Backlog disposition checkpoint October25; accepted whole-refresh order/scope (~October29 cohort where assigned) and prior body vintage unchanged. Current verified delta: No-session-since-9/25 is false. October20 maintained state and primary sweep exist. P1 de-escalation is now a full Oct15–21 window at first boot >=10/22, not an unrun September26 clause. Historical September17 EEA2 correction establishes historical C1 MET with raw replay limitation. Source/evidence: `upgrades/PRODUCTION_REVIEW_2026-10-21.md` and its named reader companion. This annotation supersedes conflicting current-state claims below only on these inspected facts; no whole-profile refresh or grade change is established by the annotation.
+
 **Built by:** DAEDALUS · **Body:** 2026-08-07, **refreshed 2026-09-05** · **Method:** solo read + both L4 legs verified at the artifacts (inbox `processed/` and each reader's own STATUS)
 **Staleness:** **DATED TRIGGER ADDED** (the prior body had none — UNEVALUABLE): refresh at the **PJM 2028/29 Base Residual Auction / FERC action on the Door-B filing (~2026-10-12)** or **21d** → checkpoint **2026-09-26**
 

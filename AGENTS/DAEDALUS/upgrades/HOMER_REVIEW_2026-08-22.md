@@ -1,3 +1,5 @@
+> **PR8 write-back 2026-10-21:** Section3c convergence build CLOSED-VERIFIED October15 at THESIS§8; PR8 independent per-leg review adopts L3/M. Preserve original assessment; do not reopen the construction ask. Evidence and current scope: `PRODUCTION_REVIEW_2026-10-21.md`.
+
 > STATUS 2026-09-24: CLOSED — dispositions recorded at upgrades/HOMER_CARD.md (the live queue; profiles/HOMER.md:14 names this file as its synthesis source)
 
 # HOMER — DAEDALUS Structure Review, 2026-08-22

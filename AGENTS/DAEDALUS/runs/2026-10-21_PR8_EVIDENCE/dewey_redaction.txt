@@ -1,0 +1,1 @@
+PASS: synthetic failing request redacts key from URL and exception. No network or real credential used. Source artifact + one negative-path exercise; not a comprehensive secret audit.

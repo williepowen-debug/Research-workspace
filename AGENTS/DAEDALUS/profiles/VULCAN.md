@@ -1,5 +1,7 @@
 # Agent Profile — VULCAN
 
+> **BOUNDED DELTA 2026-10-21:** named date/event triggers not established as fired on the inspected legs; this is not all-content clearance. Current verified delta: TRADE was re-cut 10/15, now explicitly feeds TERRY CRWV concept; reading A branch 1 PASS. Old unchanged-since-August claim is refuted. S5 second event recognized under October20 B choice; score proposal remains separate. Source/evidence: `upgrades/PRODUCTION_REVIEW_2026-10-21.md` and its named reader companion. This annotation supersedes conflicting current-state claims below only on these inspected facts; no whole-profile refresh or grade change is established by the annotation.
+
 **Built by:** DAEDALUS · **Body vintage: 2026-10-08** · **Body:** 2026-08-07, refreshed 2026-09-05, **WHOLE refresh 2026-10-08** (2026-10-08 16:52 EDT from `date`; pulled forward from the owner-dated 10/12 slot, L490) · **Method:** Mode-A, three fresh Opus readers over file clusters (V1 core docs + consumption leg · V2 ledgers, docket, registry, code, guards run both directions · V3 delta since 9/05, every 9/05 claim re-graded), DAEDALUS synthesis + spot-verification. Reader slices (PAT-100 companions): `VULCAN_REFRESH_2026-10-08_READER_V{1,2,3}.md`. Prior body: `_prior/VULCAN_2026-09-05.md` (26 claims: 7 still true · 16 changed · 2 false · 1 unverifiable).
 **Staleness trigger:** refresh at the **10/28 EXIT_PROTOCOL §7 re-derivation** or **21 days (2026-10-29)**, whichever first; or at once if a kill-rail leg fires.
 

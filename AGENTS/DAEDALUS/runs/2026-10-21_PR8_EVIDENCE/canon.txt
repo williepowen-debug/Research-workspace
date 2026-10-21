@@ -1,0 +1,18 @@
+CANON-CHECK ⚠️  3 prescription(s) of a forbidden command on a LIVE instruction surface (6389 doc(s) searched; 3 further hit(s) on historical/mail surfaces NOT listed — point-in-time, and the 6/08 packets that argued canon toward pathspec discipline necessarily quote the old recipe)
+
+  [computed-pathspec] AGENTS/DAEDALUS/profiles/REFRESH_2026-09-17_VERIFY_P3_SAM_SHADE.md:313
+      [ -z "$(git ls-files 'AGENTS/SHADE/*PREDICT*' 'AGENTS/SHADE/**/PREDICTIONS.tsv')" ] \
+      why: reads the SHARED index, so the list is the FLEET's pending work, not yours — this is the mechanism that published half of MARCO's git mv
+      canon: DAEDALUS ruling 2026-08-03 (RAV-QC-20260801-002), design/2026-08-03_RAV_QC_002_SHARED_INDEX_RECIPE_REVIEW.md
+
+  [reset-head] memory/auto/finding_governance_doc_stale_default_drift.md:11
+      1. `git reset HEAD` in "Before committing" — 4 agents (SAM/BRENT/REGINALD/BROCK) had each independently moved to pathspec in their *own* CLAUDE.md, wi
+      why: un-stages EVERY agent's pending work, not just yours
+      canon: root CLAUDE.md § Before committing 4: 'Never `git reset HEAD` — shared .git/index makes it a global unstage that races against other agents'
+
+  [computed-pathspec] memory/auto/finding_pathspec_wildcard_ending_at_directory_matches_nothing.md:28
+      NEW=$(git status --porcelain -- BOARD/ 'AGENTS/*/inbox/WALTER/' PROME/inbox/ | awk '$1=="??"{print $2}')
+      why: reads the SHARED index, so the list is the FLEET's pending work, not yours — this is the mechanism that published half of MARCO's git mv
+      canon: DAEDALUS ruling 2026-08-03 (RAV-QC-20260801-002), design/2026-08-03_RAV_QC_002_SHARED_INDEX_RECIPE_REVIEW.md
+
+Advisory. A hit means the doc TELLS someone to run a command canon forbids — fix the doc, not the agent who followed it. If the command is being quoted in order to forbid it, add the negation to the line so this stops flagging it.

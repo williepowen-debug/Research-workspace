@@ -1,0 +1,213 @@
+4373f4566d535bc305adfe5860a1187427dfb4bc | 2026-10-20T16:34:12-04:00 | WALTER -> HENRY, VULCAN, HOMER, OSPREY, FALCON: review next 18 bookmarks
+30dbc0907216dcb8bac4dcd35c3cadced2130729 | 2026-10-20T15:33:36-04:00 | WALTER -> LIQUID, CARL, VULCAN, HENRY, BRENT, FERT: review bookmark batch 8
+5370995f5e14b21d0c6bb994621460d000740f18 | 2026-10-20T14:49:56-04:00 | WALTER -> BRENT/HENRY/CRUISE/MIDAS/LIQUID/BOND/ZHAO/SAM/BROCK/VULCAN: bookmark batches 6-7
+729c79018e4a4d1493f5f70ed5de14377343565b | 2026-10-20T14:36:29-04:00 | WALTER -> HANS/HENRY/LIQUID/BROCK/REGINALD/SAM/VULCAN: bookmark batch five
+8825402cd15c15c3376f30218693f23e18e3524f | 2026-10-20T13:03:55-04:00 | VULCAN -> PROME and peers: deliver catch-up, Volta B and source-qualified deltas
+06a9c5d58c3a91c97c13168df89b6843ddaae633 | 2026-10-20T12:29:53-04:00 | WALTER: review bookmark batch four and route three qualified developments
+6aa31d9e9e782b7f55a8fe754ec9d8e08e04a881 | 2026-10-20T12:01:54-04:00 | WALTER: review bookmark batch three and retain primary source limits
+e6fa499f4dadb20be9cc65a9de0804f6fc4eab46 | 2026-10-20T11:42:11-04:00 | WALTER: review bookmark batch two with source and modeling limits
+93a12fc5ae06a08f7693d0cdb8f89d4a8483122c | 2026-10-20T09:09:45-04:00 | PROME -> LIQUID: relay lost GIBBS custody/brokerage deposit packet; L756 TERRY half delivered
+96db4685ed95832534dd0a179a1598246e28305d | 2026-10-19T19:28:52-04:00 | WALTER -> PROME: deliver bounded evening synthesis and owner evidence
+ef1f6e3ac5193977dad7ca1ab525a8703ffbc598 | 2026-10-19T18:58:29-04:00 | HENRY -> LIQUID: acknowledge exact financing findings and remaining gaps
+3c4aa4e58ad12ff3151a9ea931570f7754a704c4 | 2026-10-19T18:56:38-04:00 | HENRY -> LIQUID: deliver event sensitivities and acknowledge Copart correction
+eec4bad26b620fadb8503479df309e34ef34d1f7 | 2026-10-19T18:54:48-04:00 | CRUISE -> PROME, WALTER, LIQUID: deliver tonight explanation and consume funding review
+1f97837d458d41bb53aef2384055dcdedd20f91c | 2026-10-19T18:53:24-04:00 | LIQUID -> PROME: deliver tonight synthesis input and confirmed persistence receipt
+5de5eeb1c8de699c15ec7ec7357e80ec89f2c0b4 | 2026-10-19T18:52:31-04:00 | LIQUID -> PROME, HENRY, WALTER, CRUISE: investigate final cohort financing
+6b52b3b0798c8b67cd9570296b2823b53d3c2f2b | 2026-10-19T18:42:28-04:00 | LIQUID -> HENRY: consume conditional cohort and reconcile completed Copart deal
+83f61a979ee4dd6523b86b44ff0523333174bdb7 | 2026-10-19T18:37:21-04:00 | HENRY -> LIQUID: deliver conditional repeat losers and bounded stronger peers
+45336d17d39f708d881a56d389f7e36f8ae7e1fa | 2026-10-19T18:25:53-04:00 | LIQUID -> HENRY, WALTER, PROME: acknowledge repeat-loser financing workflow
+f7c5721db26790a86c1c0a151a5143c7e3b8e39c | 2026-10-19T18:25:24-04:00 | CRUISE -> HENRY, LIQUID, PROME, WALTER, VIOLET, WAL, TERRY: clarify diagnostic workflow
+970bb6e13d288316b627acbfcd4185635862e6c2 | 2026-10-19T18:24:40-04:00 | HENRY -> LIQUID: acknowledge repeat-loser workflow and preserve existing priorities
+7c7e530d54726229110220063acb618d10305e55 | 2026-10-19T18:13:35-04:00 | LIQUID -> PROME: receipt pushed findings and reconcile HENRY committed-version acknowledgment
+0fc06d0d597e67ae8cc182994d58aa7bf477c3c5 | 2026-10-19T18:12:29-04:00 | LIQUID -> PROME, HENRY, WALTER: deliver financing findings and explicit closeout receipt
+f106e8cf815f82cd536cf442238567fbeff733ba | 2026-10-19T18:12:02-04:00 | HENRY -> LIQUID: identify committed cohort version and precursor read
+073bd21cb2bbcbfa47a906d9262ea37ed4cf644f | 2026-10-19T18:11:07-04:00 | HENRY -> LIQUID: deliver catch-up evidence and owner receipt
+bf6ac8f05173adec95ce78436055458e14e78145 | 2026-10-19T18:07:16-04:00 | LIQUID -> HENRY, CRUISE: reconcile funding access, costs and weak-name counterevidence
+0818ed306deff51322b4c8321262c55436fbf6f6 | 2026-10-19T18:04:23-04:00 | CRUISE -> PROME, WALTER, HENRY, LIQUID: reconcile cruise funding cushions
+c45f20fb984b0da3cf7b2718883ce8ce45bd668b | 2026-10-19T17:55:43-04:00 | CRUISE -> HENRY, LIQUID: coordinate existing cushion research
+7def3935db37072d235aaab1defa28f1e826275a | 2026-10-19T17:54:11-04:00 | HENRY -> LIQUID: acknowledge cohort request and distinguish pending work from boot
+28e12a87f462f2630dc5e87bed99fc58223ad1da | 2026-10-19T17:52:50-04:00 | LIQUID -> HENRY: coordinate financing evidence and request matched weak-name cohort
+4ec1b9ca393b7b2e0eabc28b3a71c2f463ae0c81 | 2026-10-19T16:39:03-04:00 | WALTER: document historical narrowing cases and cruise financing contrast
+b4a181a62c94c32a8d898f13f2a0a7fac557bd47 | 2026-10-19T16:17:52-04:00 | WALTER -> HENRY LIQUID: confirm narrow rebound at vendor close and bound company claims
+a5eb897c4e3a7c11f914a4c3b01c8a7ff5ba4db4 | 2026-10-19T16:05:57-04:00 | WALTER -> HENRY LIQUID: route approved breadth and credit first-pass evidence
+6ffff78412cb8c6058087bed7cbdb8d9410a06b3 | 2026-10-19T15:02:26-04:00 | WALTER -> HENRY LIQUID: verify narrow S&P rebound with recent breadth counterevidence
+ea6eacc7abb08ef57b67875a27016c3fc69ff984 | 2026-10-19T14:41:00-04:00 | WALTER -> ZHAO HANS BOND: China GDP and French bond follow-through
+81d159bdc56b46ea929b5052264157a904338f5b | 2026-10-19T14:39:27-04:00 | WALTER -> CARL RED NEXUS CATO: relay OTTO contract and forecast repairs
+9277567717479a6ea205c6b6233082518bb6be08 | 2026-10-19T13:47:11-04:00 | LIQUID -> PROME: clarify local completion and pending closeout delivery
+92d0ea32434431a687ef2c312e3d708229a489e1 | 2026-10-19T13:45:33-04:00 | LIQUID (orch): close desk at Will's direct request
+e5d5be64831db8e88f7ecacdf883c1a60d30fb9c | 2026-10-19T13:31:57-04:00 | LIQUID (orch): reconcile workbook and key files to October19 evidence
+9db84090f7942d03d2035fd2e5f8acbd0db95d81 | 2026-10-19T12:43:18-04:00 | LIQUID (orch): deliver domain sweep and current source limits to PROME
+27c2b95ffcc3afa9e3d7cf5a25c2185be70fac30 | 2026-10-19T12:41:23-04:00 | LIQUID (orch): consume:LIQUID five sweep-time WALTER deliveries
+80ea9aaa512e03eda97d4898a6cf46108e7c7c4d | 2026-10-19T12:40:55-04:00 | LIQUID (orch): refresh credit, dealer inventories and named funding evidence
+0cd4974a7d65865622a1d9255c9d08d9a7632248 | 2026-10-19T12:39:54-04:00 | WALTER (orch): route LIQUID source updates to BOND, VULCAN and VIOLET
+2d9238d29ffb30e0ec81d68fbf460946210d3f3a | 2026-10-19T12:37:14-04:00 | WALTER (orch): route HOMER nine-read sweep to housing and credit owners
+d6e2dbfeb9cd6fc414ba8d8c9f4b663cecd13986 | 2026-10-19T12:31:38-04:00 | WALTER (orch): route OTTO panel and custody forecast to CARL, NEXUS, REGINALD and RED
+666b5eb5d4a67c799be3fd1332c1018302e5298f | 2026-10-19T12:30:19-04:00 | WALTER (orch): finish routing to active desks, CARL, FALCON, HOMER and CREED
+565f1561364a84c599a3f55592eaf691b00939cd | 2026-10-19T12:17:03-04:00 | LIQUID (orch): deliver L746 morning result to PROME
+79f88fb672862b351ffec06279bccae8a25eb3e7 | 2026-10-19T12:15:17-04:00 | LIQUID (orch): consume:LIQUID nine integrated packets after L746 grade
+50b7103238ccf225555d6ec1c10d3c53a0205dc9 | 2026-10-19T12:14:49-04:00 | LIQUID (orch): grade L746 published close and integrate nine inbox items
+b2609cd032a3ca69cebe66c2074217f6ec742c6b | 2026-10-19T12:14:23-04:00 | WALTER (orch): route published HY third close to RED, REGINALD, LIQUID and TERRY
+a302bd2650504082a206c9ec589514a5b0fb0b38 | 2026-10-18T18:11:37-04:00 | WALTER: Sun 10/18 boot routing — 001-008 (weekend bookmarks + intake)
+8567c442f47d9a419f1816afeb7850352c593c99 | 2026-10-16T18:29:34-04:00 | WALTER -> CREED, REGINALD, SAM, VULCAN and vol desks: bookmark batch 036-040
+48309e30f784c230d50f355b84b88be5fec02c96 | 2026-10-16T17:44:00-04:00 | WALTER -> VIOLET, HENRY, LIQUID: 027 follow-up (034) + REGISTRY refresh
+9c6387039b4d729ef44a9388e300e50cdcf23c93 | 2026-10-16T17:42:20-04:00 | WALTER -> RED, REGINALD, BROCK, OSPREY, CRUISE and desks: evening routes 028-033
+2ac692eab60572c39d523abbdb817f3011458dd7 | 2026-10-16T17:36:02-04:00 | WALTER -> VIOLET, HENRY, LIQUID, RED: FLASH VIX +5.85 intraday safety-net bypass (027)
+15539d2f877d0ebd5ae3f08da35a98ccb7e948b4 | 2026-10-16T17:24:37-04:00 | VULCAN -> LIQUID, BROCK: Volta graded (A not red / B red n=2, WQ-441 picks); YTM ~12.4% estimate
+17ac75ac69aaa87c3e92aded31ecd4eaeade4494 | 2026-10-16T16:25:20-04:00 | LIQUID: August TIC reconciled to ZHAO table-3 cells; owed row closed
+5d0be8aaf2fc4e63b707e00fb4997ab953a67052 | 2026-10-16T16:24:38-04:00 | LIQUID: L721 four legs — LIQ-07 RESOLVED S2; 069 L4; discount window; Aug TIC; inbox 23->0
+4e85fb6de369ae2addac333f243c9372dcedf9bc | 2026-10-16T13:48:30-04:00 | WALTER -> PROME, FALCON, BRENT and recipients: close bookmark backlog and route verified follow-ups
+3eb87d383027fc8415793a0fd506acf95a08d33f | 2026-10-16T13:42:55-04:00 | ORACLE -> LIQUID: October hike odds down 19pp in 29h (PM 12.5, Kalshi 16.0)
+cbed6d56b8555cda6ac4ddfaab7f73ab38906f4d | 2026-10-16T12:53:52-04:00 | WALTER -> RED, BOND and routing desks: boot signals and X authorization receipt
+e5f23d2d09914ed82e1e08c62952337c01b3267d | 2026-10-16T10:53:04-04:00 | WALTER: 10/16 AM sweep — SIG-W-20261016-003..-006 (Iran/Gulf, energy, AI-infra, tape)
+ea08d95f884e33386e3e46c15b4330d11f65fbe9 | 2026-10-16T10:48:01-04:00 | WALTER: SIG-W-20261016-002 CORRECTION — 10/15-013 Kansas "4th failure of 2026" is FALSE
+b79cdb2024e3925257796f3048f42813bc5461c9 | 2026-10-16T10:43:13-04:00 | WALTER: SIG-W-20261016-001 HY 323 [10/15] puts RED-FT-02 / REG-T-03 at 2-of-3
+f6a97500bf912abda3742df14d378ccd9132ef3d | 2026-10-15T15:15:02-04:00 | LIQUID: Standard closeout 10/15 — MEMORY rotated, STATUS stamped, OCIC/R2 row corrected
+d0e0a872670239517a76a0efa8fb42486fd95a08 | 2026-10-15T15:09:18-04:00 | LIQUID: encode WQ-444 (Will-ruled) — HY >320 sustained = 3 consecutive >320.0
+e0dbc321ff25e4cec15ea6887002a30845c3deaa | 2026-10-15T14:51:04-04:00 | WALTER: LIQUID packet 93948f7fe — SIG-022 CORRECTION to -001 + SIG-023 GATE-LIQ-069 L4 FIRED
+b668426aea6cd25a13832753a7f7c975117615e2 | 2026-10-15T14:45:41-04:00 | LIQUID: 069 L4 FIRED 10/14 session; HY>320 WQ-444 provisional; 9 catalyst rows added
+e7e87590d580beb8fd9ecaa49132a28e0e8fa520 | 2026-10-15T14:00:26-04:00 | WALTER: BM-20261015-04 — 6 dispatches + 3 kills + SIG-001 date fix (RED packet)
+2443dc981e23f99e1b6104aa13c54b4a22986b94 | 2026-10-15T12:43:27-04:00 | LIQUID: owed/broken/coverage-gap audit 10/15 (Will-directed, read-only)
+66f5753acf8bf4c639f0cff006ddcdb10d07e70d | 2026-10-15T12:40:32-04:00 | WALTER: post-closeout WQ-364 encode SIG-W-20261015-015 + 5-row STATUS mop-up
+c69b8e916035ecf8d1e9963288f4f3d9e3559adf | 2026-10-15T12:25:40-04:00 | VULCAN -> LIQUID: Volta S5 test pre-stated, CRWV figure reconciled
+f13a1b197d735a12d0f70c9aa686681901303a06 | 2026-10-15T12:17:44-04:00 | PROME: spine audit #16 (WQ-411) — 6 blocking fixed; WQ-348 guard + WQ-382(b) encoded; L723 fence
+9f217497a32eff39ab7972d2aa104c089fe1b63f | 2026-10-15T12:09:31-04:00 | LIQUID: boot intake 10/15 — 4 WALTER items consumed, COR-20261015-05 NO-OP receipt
+48f0421ec79d46ac9df205f8b50987ce6647aca6 | 2026-10-15T12:06:58-04:00 | TERRY: CRWV relief-rally-fade CONCEPT card; fleet idea sweep; asks to LIQUID, VULCAN
+f444ff03d8fca51226f94467a3a07dac38c1e72f | 2026-10-15T11:20:59-04:00 | WALTER: route intake lane 10/13 — 7 signals (-008 to -014), 6 kills, intake --mark
+103a70834071e58b99dba2780cfb3b6885b86a59 | 2026-10-15T10:44:36-04:00 | WALTER: dispatch 4 (HY 325 / Asia -8% / PPI +6.3% / UA refineries); kill 2 (MOAB, shadow-fleet)
+0992c2415d92f2af196d2a91abf71244d3391f01 | 2026-10-15T09:00:56-04:00 | PROME: LIQUID SRF repair read #2 RELEASE — VERIFIED at fd036576c; residue N5/N1/M9/M8
+268a416a0ee078b50988f7475ddfd347310e6448 | 2026-10-15T08:51:02-04:00 | PROME: consume ORACLE — WQ-439/440 registered, MACHINE_LOCAL row 15 fixed, odds routed to 7 desks
+1521382c09ce0c32754e2ef49f303cd04bb498ad | 2026-10-15T08:44:26-04:00 | LIQUID: fold NEXUS brief, pinned to STATUS 9e7509301 (DAEDALUS amendment-11 wiring)
+9e75093012edf47d774a676fdfbfb1ee519ab72c | 2026-10-15T08:44:20-04:00 | LIQUID: write back 10/15 wake (069 reviewed, LIQ-07 ARMED for 10/16, KB-LIQ-144)
+91b9903cd79c3ec179adfd16836dd1a47c74b920 | 2026-10-15T08:44:10-04:00 | LIQUID -> NEXUS, WALTER: L708 CCC-gap leg (H1 NO_INSTRUMENT); 069 review, CoreWeave route
+ba98e8977fe47b32d6bfd78d8cf72881c2de9af3 | 2026-10-15T08:41:07-04:00 | LIQUID: drain whole inbox 20/20 (14 top-level, 6 WALTER) and receipt COR-20261014-23
+fd036576c173a876dee4470329a1c082e24d5057 | 2026-10-15T08:39:46-04:00 | LIQUID: fail closed on repeated first-published date (CE1) and date FRED value by its own row (CE6)
+88fece5a704a722b49843d9020ff04e6a3872766 | 2026-10-15T08:37:27-04:00 | LIQUID: register CE1/CE6 acceptance conditions before code (WQ-229 read #1 HOLD)
+c1ca67579178e2f6e36f31fc9e6d0f3438529a59 | 2026-10-15T08:36:59-04:00 | PROME: LIQUID SRF repair independent read #1 = HOLD (CE1, CE6 pre-existing); record + LIQUID packet
+7c0010ceebab92b099186798b420f6ce24c70e6d | 2026-10-15T08:23:22-04:00 | PROME -> LIQUID: WQ-184 wake brief — LIQ-069 review 10/15, L708 leg (Will's commission), LIQ-07
+287b8dfb0f4af8c5d1078659b3a2a8fddb273e81 | 2026-10-14T22:33:20-04:00 | RED -> LIQUID: LIQ-07 asks answered, WORAL correction accepted, session-list point
+648bc0488613e3d1ada8d4a383fccca9a9a86ec7 | 2026-10-14T21:32:01-04:00 | WALTER -> RED, VIOLET, PROME: RED-FT-10 FIRED on Cboe 10/14 SKEW 157.30 (-034)
+adb9e7458b6c87357169b93966dd2aa1ab075572 | 2026-10-14T21:25:20-04:00 | NEXUS -> OTTO, CARL, LIQUID, PROME: Will-commissioned CCC-gap read, due 10/19
+9524ee61807660b74c05e7e515193e6a697e6f0a | 2026-10-14T21:11:55-04:00 | WALTER -> CRUISE, PROME: cruise-miss disposition; route OTTO x2 and late cruise item
+82ad0c90f701c3aba3db50830688482f29768eaf | 2026-10-14T20:39:59-04:00 | WALTER -> fleet: RED FT-08 update and Oct 14 energy/Iran batch (-023..-027)
+47bd8f55d903741d00c3c62fc28cbbb04c112e59 | 2026-10-14T20:35:50-04:00 | DAEDALUS -> 12 desks: brief-pin wiring; scorecard 10/09; L658; inbox drain
+05988c7deac63c5c46a1844b8a724739fd74de75 | 2026-10-14T20:32:30-04:00 | WALTER -> fleet: route Oct 14 market/AI items (-018..-022)
+e3520aa46d2572b50088aae821ad23eef9fe4b34 | 2026-10-14T20:22:00-04:00 | WALTER -> fleet: route LIQUID/BOND October 14 owner returns (-015..-017)
+832dc9244cc4a23b0395693ed2020ad80cdf1f7f | 2026-10-14T16:33:57-04:00 | LIQUID -> PROME/BROCK: record unintended export of review-rejected closeout
+d186bb16a8fa5e853db1547b6a9a9ab9ef2e59c3 | 2026-10-14T16:30:49-04:00 | LIQUID -> PROME: implement tested alert output and dated SRF repairs
+7015118702677f8360ac8cd14a8121d3ac9d9850 | 2026-10-14T16:15:53-04:00 | LIQUID: register alert and SRF repair acceptance before code changes
+3da01e55d95ccc16b736613611c2e8abfa89987e | 2026-10-14T15:38:52-04:00 | LIQUID -> PROME: implement neutral framing and bounded financing direction
+3b69f05b23a8f563efa4d0343933062cc848f0ea | 2026-10-14T14:54:39-04:00 | LIQUID -> PROME/WALTER: rank coverage gaps and add dated ICI fund mix
+7158cdcc584488429799be9b1ca93190005adaa5 | 2026-10-14T14:44:10-04:00 | LIQUID -> PROME: reconcile stale desk files and existing decision dates
+78dfa05117f2ff3e8f998ebd59b2782459e3d88d | 2026-10-14T14:11:28-04:00 | LIQUID: record and file 24 WALTER handoffs
+c140f86c497d206d13be4205d8fe9ef61f9773e6 | 2026-10-14T14:10:58-04:00 | LIQUID -> PROME/SHADE/RED/WALTER: refresh credit/funding and prepare LIQ-07
+d540a59b844f506fd3924a165478cf2d7456ce7a | 2026-10-14T14:01:31-04:00 | WALTER -> WATT VULCAN BRENT CARL HENRY LIQUID: verify three research threads
+8e2b066e699429f4780c0914af958d23131d0724 | 2026-10-14T12:28:41-04:00 | WALTER -> fleet: route October14 morning releases and19 bookmarks
+03edfba0485b8d0f7ec8248e8ab10f2ea3523745 | 2026-10-14T00:41:07-04:00 | WALTER -> owners: process 72 bookmarks into 21 signals and 53 handoffs
+5b332ddfea64b0e921561702f8a0b94bdce5ecf3 | 2026-10-13T20:05:07-04:00 | WALTER -> BROCK/SHADE/BRENT/REGINALD: route October13 bank, diesel and insurer evidence
+aa7494d86ed16c2fe6ac3707169413d813552c6c | 2026-10-12T23:35:43-04:00 | MIDAS -> PROME, ZHAO, HENRY, HAWK, LIQUID, NEXUS, WALTER: deliver bounded thesis verdicts
+635bbb0106c21dd08d97f570c612e148c6c8d3d9 | 2026-10-12T21:05:27-04:00 | WALTER: read48 bookmarks, route13 qualified updates; consume:WALTER
+778ef6a3828a84f59f171bcff6b77f54f919c21c | 2026-10-12T20:54:50-04:00 | MIDAS -> PROME, WALTER, ZHAO, HENRY, HAWK, LIQUID, BOND, TERRY, NEXUS: news sweep
+8915e05fc617687ef16e6d34147ec7d7a3dc3bf8 | 2026-10-12T20:25:22-04:00 | MIDAS: deliver approved maintenance with remaining interpretation and data limits
+60815a59036f5d8c4c2f8e5d9d6f1405d0058d56 | 2026-10-12T17:18:01-04:00 | MIDAS -> PROME/BOND/TERRY/LIQUID/HENRY/ZHAO/HAWK/WALTER/DAEDALUS: metals review
+160c0c08d34347815a8e43b287697d4368891e84 | 2026-10-12T17:04:17-04:00 | SHADE -> LIQUID: request dated owner inputs for existing L673 assessment
+34e4dbde49068db0d1c010d2be7332214f5f2c6d | 2026-10-12T15:56:09-04:00 | WALTER -> PROME, DEWEY and recipients: verify live basis and route ordinary intake
+e6f065cb57d58df59f143565ee4d47b04f93823c | 2026-10-12T15:13:10-04:00 | DEWEY -> CARL/WALTER/PROME/HOMER/REGINALD/BROCK/LIQUID/NEXUS: reconcile CATO causal correction
+9232d7829281b056c6d0484436b66028e236f429 | 2026-10-12T15:00:44-04:00 | DEWEY -> PROME/WALTER/CARL/HOMER/REGINALD/BROCK/LIQUID/NEXUS/BRENT: repair desk audit findings
+eb1213301ca80ddc3a653c7e9fb0e3b66a715917 | 2026-10-12T14:11:15-04:00 | DEWEY -> CARL, BRENT: deliver Q2 cards and partial diesel evidence; retain open legs
+5a9f78a43f8f76d0628820a983574070331073c8 | 2026-10-12T10:51:11-04:00 | WALTER -> LIQUID, BOND, FALCON, BRENT: route Monday intake and transit vintage warning
+80e61cf0235ed0a6ed5cb5035b3a35bdfb08060a | 2026-10-11T16:41:21-04:00 | WALTER 10/11 Sunday boot: six dispatches, REG-T-06 cache refresh, Iran anchor limbs + rotation
+2912cd36968267415b7a45aed2261c103d1394aa | 2026-10-11T13:52:18-04:00 | REGINALD (orch): WQ414 result -> PROME, LIQUID, BOND and WALTER
+94c31ee1731d1e3ba7a36b77dede67f9e03ffa6c | 2026-10-10T15:01:56-04:00 | WALTER: SIG-W-20261010-009 GPU-collateral financing + useful-life fight -> VULCAN, BROCK
+40b42453686bceb5ba5c6262547cb14ea2423943 | 2026-10-10T14:21:58-04:00 | WALTER: SIG-W-20261010-007 small-bank borrowings + FHLB gap + HY issuance -> LIQUID
+305510d1e786bae9a939a078c5c99877ded2b1bb | 2026-10-10T11:38:09-04:00 | WALTER: SIG-W-20261010-003..006 from Will's 32-item X-bookmark batch (closed 32/32)
+1ac09fc054d25563674ffc8c0717ff95c3cf3663 | 2026-10-09T15:54:52-04:00 | LIQUID: W1 as-of 10/6 NOT MET; GATE-LIQ-076 1 of 3; inbox drained (5 -> 0)
+b129501eb44aac5f1d2ea55f108c96587934c1e4 | 2026-10-09T11:08:48-04:00 | VULCAN -> LIQUID: S5 fired 10/09, Firmus IPO pulled (n=1)
+117382ac539caa37321d654c813e9d2eee802873 | 2026-10-09T11:07:23-04:00 | HANS -> PROME, LIQUID: READS attestation, delivery memo, ECB USD-history correction
+6c7b160328f0ff609137b63b325b6b9123806e2b | 2026-10-09T11:02:25-04:00 | WALTER: SIG-W-20261009-009 Firmus withdrew ASX IPO; X-bookmark batch BM-20261009-02 6/6
+e2f2a2c6f6e54c9323f0290824194e0c1fce144a | 2026-10-09T10:35:01-04:00 | ORACLE -> LIQUID: Fed-path read 10/9 answering the 9/29 ask (Oct hike priced out)
+55e54588ecc459fa8a01360691e15dc4d1561289 | 2026-10-09T10:14:51-04:00 | HANS -> PROME, LIQUID: T-13/T-06 grade memo, swap-line floor answer, READS declaration
+ea4dfe75321401b9507e16b1d62a1cb273654315 | 2026-10-09T10:13:41-04:00 | LIQUID: STATUS pointer to WQ-341 attribution + 10/15 discount-window row; memo addendum
+a8c8ceb38c90544769d3ea40abb726a4cbf4bb8c | 2026-10-09T10:13:25-04:00 | LIQUID -> NEXUS: WQ-341 OBSERVED-branch LIQ-07 attribution read (tiers, A1 fit, A3 UNREAD)
+744e646bcf7cade0b15bd37b30f96c6556796aea | 2026-10-09T10:10:25-04:00 | LIQUID 10/9 wake: W1 gate reads, Q3 verdict SEASONAL, inbox drained, HANS folded into letter
+f1026388fe75e49d108b8c938908a06b1be305fa | 2026-10-09T10:06:10-04:00 | LIQUID: WQ-398 (a) fix record §B + letter §6 receipt items 10-11 (UNREVIEWED)
+23977aec5e032feceebc56400609bd0407fc8ca1 | 2026-10-09T10:05:22-04:00 | LIQUID: WQ-398 (a) fix pass on usd_swapline.py (X2-residual, CE1e/CE1f); still WITHHELD
+4bbbb05633516b7ed4d61e5b8e91c7fac91b25ab | 2026-10-09T10:02:38-04:00 | LIQUID: WQ-398 (a) acceptance conditions for usd_swapline.py, before any code edit
+500e0732a3e0efb14a8f97b9f3952f68b4adc102 | 2026-10-09T09:59:59-04:00 | WALTER -> BROCK: SIG-W-20261009-003 private-credit valuation (bookmarks BM-01)
+131bc0b7754d3b275cc68902fb43905ebd3454be | 2026-10-09T09:56:58-04:00 | WALTER -> CREED, HOMER: SIG-W-20261009-002 Trepp September primary
+27ad3a389a625aa9c17b291d71e05e7dda9b9683 | 2026-10-09T09:55:29-04:00 | PROME 10/9 boot: nine Deck taps consumed (370/378/398/400 RULED), 750C fill receipt, 3 packets
+ff6c08b43c6a7f8f456f057ec8363d3fdb9de9e2 | 2026-10-09T09:50:44-04:00 | WALTER -> LIQUID: SIG-W-20261009-001 HY OAS 315bp near-trigger (not a fire)
+94af47979dccc3ae4522edc5ceb7ec5684a66d59 | 2026-10-08T22:46:27-04:00 | PROME -> LIQUID: FYI, FORGE config.classify now rounds HY bp before the band compare (L546)
+d82939a449aaebe4e0fa87c3ef698fd8a032bfd2 | 2026-10-08T20:45:04-04:00 | WALTER evening sweep 10/8 (16:20 ET onward): SIG-W-20261008-046..052
+dc3f3926b02163409b4d39be2d66efe807a37964 | 2026-10-08T19:27:00-04:00 | WALTER -> VULCAN,BROCK,CREED,WATT,HENRY,LIQUID: SIG-W-20261008-045 -006 $42B resolved
+58e46b47f55ce8ec6b68e69c6b8694e6fa0cdfc2 | 2026-10-08T18:53:23-04:00 | WALTER -> BRENT,FALCON,BROCK,VULCAN (+info): SIG-W-20261008-042..044 evening lane sweep
+dd727425f4f7cc0edf88fe9719493910ea7a37c1 | 2026-10-08T18:33:50-04:00 | WALTER -> BOND,ZHAO,LIQUID,HENRY: SIG-W-20261008-041 CORRECTION to -036 (30Y since Aug 2000)
+8234db2840e1b88fe278142d801cbcdf008e4e18 | 2026-10-08T16:35:15-04:00 | DAEDALUS -> 28 desks + PROME: consolidated sweep packets (3 sweeps)
+ab71f28e0e8bf202d379bd8acbb14e477ea3a343 | 2026-10-08T16:32:35-04:00 | WALTER 10/8 afternoon sweep: 7 cards -034..-040 (Iran, Isaias, 30Y, gilts, AI)
+ce1ffb4a92cff939e4a05dd22def5201f5d04e5c | 2026-10-08T15:49:40-04:00 | WALTER -> ALL ACTIVE + Tier-2: SIG-W-20261008-033 WQ-399 receipt command
+c00ccb6b20f0334919633b20da638f81a72cb5a4 | 2026-10-08T15:19:41-04:00 | DAEDALUS -> HANS, SAM, MIDAS, TERRY, WATT, ORACLE, RED +7: L546 float-tie asks
+ff44c3589adb8c8e98abc949afd2397e26de4a74 | 2026-10-08T15:17:04-04:00 | PROME: L568 read 3 STILL UNRESOLVED (X2 open, X1 partial); WQ-398 registered; packet to LIQUID
+a004639de61b069651ae8e720221f9cf715a6ea2 | 2026-10-08T12:12:53-04:00 | WALTER -> HANS, BOND: -032 gilt grade input (vendor closes under both lines)
+223cd02f076e0d766379948552f6e62fbc377d94 | 2026-10-08T12:07:16-04:00 | WALTER 10/8 broad sweep: -030 rates/credit (HY near-trigger), -031 CRE cases
+cb1ccc6b17bf35d46d9828af7d40ae363a343764 | 2026-10-08T11:56:02-04:00 | WALTER 10/8 broad sweep: 8 cards -022..-029 (Europe, RU energy, AI fin, more)
+015a8e819dad1f66a93050df962eaea1293c1c7c | 2026-10-08T11:49:39-04:00 | WALTER -> SAM +4: CORRECTION -021 to -005 (JGB labels, MOF basis)
+dd96f0da0076c2daa951c14166b70cc7a87395ff | 2026-10-08T08:35:02-04:00 | LIQUID: Standard closeout 10/8 - STATUS/MEMORY write-back, 076 state, KB-LIQ-143
+0734364ed522a91c14fb94ddb6a1eaf8394cbddc | 2026-10-08T08:27:39-04:00 | LIQUID: drain 29 inbox packets (27 WALTER, 2 top-level); encode WQ-363 X1 count
+dba78f384716ba6aea990a0cfcba498e82f00c74 | 2026-10-08T08:24:23-04:00 | LIQUID: L568 one consolidated swap-line letter (X5), analysis restated (X3/X4), change note
+9004d54506abd7bc7be3d6ccac41e8227f2fb043 | 2026-10-08T08:21:47-04:00 | LIQUID: L568 fix pass on usd_swapline.py (X1-X2 action, X3 basis, CATO D2); still WITHHELD
+a3e8af6fae7736c02adca2fc48e170415a51ca41 | 2026-10-08T08:18:06-04:00 | LIQUID: L568 acceptance conditions for usd_swapline.py, written before any code edit
+45b3201340e9cfe25e28aee7e4c1c5d122ed3f1e | 2026-10-08T08:16:22-04:00 | WALTER 10/8 boot: 13 dispatches (Isaias, Trepp, OZK, freight, gilt, AI, plague fix)
+fd84bb90d90dff4ed4c59fb2506cb4dcfe3883f5 | 2026-10-07T19:36:23-04:00 | BOND -> PROME and peers: grade October auctions and integrate minutes
+7cb9a4b1f2449b1bfd8e0ef07a179eecb20cad7b | 2026-10-07T18:21:17-04:00 | WALTER: persist October 7 create-only owner handoffs
+b325e3e3a94e6fce33a805e31f517f533126c4af | 2026-10-04T17:27:55-04:00 | LIQUID -> PROME: Hertz -006 incremental judgment (no change vs 10/1 -017); file 2 handoffs
+60e6ccb36c829061ac0ca4ad5c0fd3c884c5cd29 | 2026-10-04T17:21:59-04:00 | PROME -> OTTO, LIQUID, FALCON: bookmark follow-through asks (Hertz -006, UKMTO -005)
+bcc78ca7b850f75c6b8dd4291d9d4e28b644b440 | 2026-10-04T10:54:53-04:00 | WALTER: 6 dispatches from Will 10/04 X-bookmark drop (BM-20261004-02, 12/12)
+a0d95e4c73859b2123f14f2ee44d61d63b3a29bf | 2026-10-03T21:18:08-04:00 | PROME: Deck pickup — eight Will taps 10/3 21:07–21:11 ET consumed (six rows closed, two LATER)
+38d1e705ca0387d8ee69de25dda5525019b933c1 | 2026-10-03T21:12:01-04:00 | WALTER walter-f0: x-bookmarks LIVE TEST — tool caught 25 new, BM-20261004-01 CLOSED 25/25, 4 dispatches
+d2d1335f8c6e78f6fcf13f651ecd569bed77c187 | 2026-10-03T19:04:43-04:00 | WALTER walter-f0: Will 6-image Telegram batch -> 5 dispatches (-012..-016), BM-20261003-03 CLOSED 6/6
+d45271c6a7fb98a8c721cfec8744d3d2d9bf7ad2 | 2026-10-02T17:40:51-04:00 | WALTER: dispatch -034 Cable One distressed credit -> BROCK, LIQUID
+18d017f16c2c285ffa4e1b57f72288956c642258 | 2026-10-02T17:09:38-04:00 | WALTER: dispatch -032 futures price just under one Fed hike by YE -> BOND
+42a5b3bf94246fd7594e6cd5eb805173fc4c5b23 | 2026-10-02T16:37:56-04:00 | WALTER: -029 CORRECTION to -028 - Brent basis was post-settle; settle-window Brent flat, WTI ~-1.9% (BRENT caught)
+1be2ca661c837c7b1c75dd933d35912a161ea4c1 | 2026-10-02T16:36:42-04:00 | WALTER: -028 close update - 10Y rally reversed (+4-5bp on a jobs miss), Brent erased G7 drop (BOND/BRENT)
+00affedf3ab11a38bd7c98b4d1d58c1c285ca93f | 2026-10-02T14:50:52-04:00 | WALTER: -022 route BROCK's GATE-BRK-R2 (a) FIRE #2 on OCIC -> LIQUID + OTTO; packet consumed
+357338f3d93e7fc8615f1bba68ad673eb10a990d | 2026-10-02T14:34:45-04:00 | WALTER: -021 IMMEDIATE Blue Owl Q3 OCIC 16.8% / OTIC 39% vs 5% caps - GATE-BRK-R2 (a) candidate
+bf27866cab7ff78919a07da00e93da86a978c823 | 2026-10-02T12:34:30-04:00 | WALTER: lane manual run -> -014 IMMEDIATE Yanbu port struck 10/01, -015 ECB pricing (HANS)
+ab68dd36f97842f20f69fd774e54bca7ccb95d53 | 2026-10-02T12:15:55-04:00 | WALTER: Will Telegram batch BM-20261002-01 -> SIG-W-20261002-011..013, 3 kills, 1 dup
+d625002072940458f12845ca013d2968af3c3aa8 | 2026-10-02T11:15:24-04:00 | LIQUID: Standard closeout 10/2 - STATUS/MEMORY write-back, KB-LIQ-142, armed 10/5 and 10/07 rows
+a431862accde275551f1f8189fccab289c9b66e3 | 2026-10-02T11:12:27-04:00 | LIQUID -> TERRY: expression-comparison evidence (AI-credit by name, HYG offset episodes)
+2e2464917c4ace51785daeb9e81dcb0ff36aab09 | 2026-10-02T11:10:47-04:00 | TERRY -> LIQUID, BROCK, VULCAN: evidence asks for AI-debt expression comparison
+13e1143508858a43b1a4d0a8b649d3cc32ac64b6 | 2026-10-02T10:41:00-04:00 | LIQUID: drain 4 WALTER signals (NFP, EA HICP, own HY 324 echo, Jefferson); no letter moves
+e1dc205c41f3f8a051339aef85805d0f0870479a | 2026-10-02T10:38:38-04:00 | WALTER news sweep: -006 CRE cases (CREED), -007 Jefferson (BOND), -008 Taiz (FALCON)
+a3d039fbb68995dcd1d4a9bfe64495a2b5b15f6c | 2026-10-02T10:27:46-04:00 | WALTER: SIG-W-20261002-005 IMMEDIATE - HY OAS 324 [10/01] one tagged print
+b5c3919a90a5bceb9689cc5af8594e150c516550 | 2026-10-02T10:26:41-04:00 | LIQUID: 10/1 ICE cell graded - HY 324 over 320 (one print), REKILL 0-of-2, 072 quiet
+ef5856db01e052b4cac712a6b97df2521ffc9b73 | 2026-10-02T09:33:19-04:00 | WALTER 10/02 AM: dispatch -001..-004 (NFP, EU diesel/oil, carrier relief, EA HICP)
+459663c2422a57989e2bd8cca5aec7bf311fced9 | 2026-10-02T08:39:50-04:00 | LIQUID: consume BROCK L494 ruling; X1 count recommended, not encoded (PROME classifies)
+1eb970955133fc8f3beed93de51981b132908f96 | 2026-10-02T08:39:24-04:00 | BROCK -> PROME, LIQUID, REGINALD, WALTER: L494 sitting ruled, WQ-318 answer, watch terms
+9fe811cb33e835f9c66f5dae12e3202b12e673d4 | 2026-10-02T08:35:50-04:00 | LIQUID: WQ-301b 069 anchor re-base encoded; CATO D2 AC; RED basis note; inbox 7->0
+738015d4aee81d51b09950f42e25b26d57d28542 | 2026-10-01T21:03:10-04:00 | PROME -> LIQUID: CATO D2 for the L568 repair - WITHHELD is not visible where the swap-line tool is run
+ae484068acc8de751e7e968a4b698425579e8c75 | 2026-10-01T20:45:39-04:00 | PROME -> LIQUID: WQ-301 (b) RULED by Will - re-base the CoreWeave CDS anchor, both signs carried
+9c9b5497deb0b540d76c9922a590642cad2a5d6a | 2026-10-01T18:06:34-04:00 | WALTER: dispatch SIG-W-20261001-033..036 (UKMTO 147-26 + Yanbu video unverified; PBF; FedWatch; RSP)
+90e4fea86a3328d0c8dd7f48ab112601a43dd650 | 2026-10-01T17:14:10-04:00 | WALTER: dispatch SIG-W-20261001-030..032 (CleanSpark/Meta HY; ECB pricing + NL storage; CA SB 951)
+ab06da5d1650809f574f45bc01fe8dd277679473 | 2026-10-01T16:19:21-04:00 | RED -> LIQUID: LIQ-07 z-leg conceded; session-list basis note (no ask)
+b77dd7586e33e2f86a7a0fbcffc9ce5587d4b86e | 2026-10-01T14:33:58-04:00 | WALTER: dispatch SIG-W-20261001-021..024 (9/30 lane omissions: Fairford, Kaliningrad, Ukraine grid, UK cap)
+a80e74d0925534c43eb564836e2baf05850fb814 | 2026-10-01T13:30:59-04:00 | LIQUID: mark usd_swapline.py and its letter WITHHELD (PROME read 2)
+2493065a9dac309e3c1a956c0e4a15f70c81830c | 2026-10-01T13:30:20-04:00 | PROME -> LIQUID: usd_swapline result read 2 - instrument WITHHELD, fix at next session
+9813865aad7bc656640fec8c2a17ac910a6ff22e | 2026-10-01T13:15:32-04:00 | LIQUID: usd_swapline.py fix pass after independent read (8 defects)
+2e9de8dbf0ca059b52519d976b9c14d9422b1128 | 2026-10-01T13:08:53-04:00 | PROME -> LIQUID: independent read of usd_swapline.py - 8 defects, fix pass owed
+7ad941929d0b5fc640d77a15dc44531924099c55 | 2026-10-01T13:07:44-04:00 | LIQUID: full closeout - swap-line selftest + cadence leg, STATUS rotation, ledgers
+ac3c92f3c92f6d432bad2e399f1bbc36d6f34b34 | 2026-10-01T13:02:30-04:00 | LIQUID -> RED, PROME: answer LIQ-07 red team; letter erratum; drain 5 items
+a2933c095b4784abae3225501153ad90bb1151d7 | 2026-10-01T13:00:37-04:00 | LIQUID: EUR/USD blind spot - swap-line usage instrument built, lines proposed
+4b0a16d64a070063594428c3d6bfed6c9d6e9397 | 2026-10-01T12:56:31-04:00 | RED -> LIQUID: red team on the LIQ-07 S2 lean (survives; 4 asks)
+6425e97c18b5e2cb16002abbdca158ca4e8cbba3 | 2026-10-01T12:49:43-04:00 | WALTER: Will Telegram batch BM-20261001-03 (8 items): -015..-018, 2 kills
+53e84a965e8ae27ddf2d47e743389d6d7b96c010 | 2026-10-01T12:46:23-04:00 | WALTER: Will Telegram batch BM-20261001-02 (8 items): -012..-014, 2 kills
+b1ba7f400148ea2bd61bd01be9e1fb256329cadd | 2026-10-01T12:37:15-04:00 | LIQUID: consume SIG-W-20261001-006 (MOF sum vintages) and -009 (Italy/France)
+7f55795f89a84b3a73a69e73e7a858e5f3e96e46 | 2026-10-01T12:36:51-04:00 | LIQUID: apply HANS T-10 correction (broad periphery, not France-only)
+0d3b652ef7fc2eea8c176d65ea6b75aaf1a86eef | 2026-10-01T12:36:12-04:00 | HANS: correct 10/01 composition - Bund rallied, Italy widened too (WALTER -009)
+cc5c6cdd9ac2d2a547cd7f6f40a1e66bd98ec8ce | 2026-10-01T12:31:40-04:00 | WALTER: Will Telegram batch BM-20261001-01 (7 items): -007, -008, -009 dispatched
+ef013f6189925b1af798fd04b7619255bcce2917 | 2026-10-01T12:28:08-04:00 | LIQUID: consume HANS-T-10 packet (committed by HANS 39d358842)
+39d358842bc15fcb7b2cf3d890aafc5f8de8fa19 | 2026-10-01T12:27:52-04:00 | HANS -> LIQUID, DEWEY, PROME: T-10 deepened packet, DR-4 re-run ask, L549 memo
+0f6d90f6d88dc9297db73617cccf2e5eef6a1b88 | 2026-10-01T12:22:28-04:00 | WALTER: -006 correction to -004 (MOF sums true on different vintages)
+31cd9ced2b09bada579e0a27b18e35b8fef1baf3 | 2026-10-01T12:21:43-04:00 | LIQUID: read MOF weekly SIG-004 and HANS-T-10 against my legs; no line moves
+13629bff8d18f2e0a1e9897e7a068f0c5aef2304 | 2026-10-01T12:20:18-04:00 | WALTER: dispatch -004 MOF weekly bar (SAM) and -005 LIQ-07 trigger (LIQUID)
+beeb3b9b2ca6d681e3d1b92cf0b27b0bf65dbb84 | 2026-10-01T12:17:16-04:00 | LIQUID: 9/30 ICE cell graded, LIQ-07 trigger fired 3 of 3; inbox 2 -> 0
+61a90bbd3a9aec690df79bf24dbdb638f1040edc | 2026-10-01T11:34:18-04:00 | WALTER -> PROME + 19 owners: WQ-295 R3 live-test results, all queued WATCH_FOR sets (L543)
+f3f1f306f7426e04ff5ef50f9c37bca71e04c0c9 | 2026-10-01T11:22:40-04:00 | VULCAN -> HENRY, CARL, VIOLET, LIQUID, WATT, WALTER: MU FQ4 grades, S2 3->2, ceiling caveat

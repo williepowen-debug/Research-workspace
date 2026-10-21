@@ -1,5 +1,7 @@
 # Agent Profile — TERRY
 
+> **⚠️ STALE — trigger verified 2026-10-21:** named calendar/content/owner-state trigger fired; see the per-desk trigger table in PR8. Backlog disposition checkpoint October25; accepted whole-refresh order/scope (~October29 cohort where assigned) and prior body vintage unchanged. Current verified delta: Declared cap rc0, rotation0; prior SETUPS/TRADE_BOOK byte blockers cleared. Fresh ledger_sweep A–H clean; sectionI has3 packets,2 labeled survived1boot: arrival/boot chronology not independently confirmed, so no drain-failure verdict. STATUS still carries historical150000B owner budget explicitly overridden by fleet cap. Source/evidence: `upgrades/PRODUCTION_REVIEW_2026-10-21.md` and its named reader companion. This annotation supersedes conflicting current-state claims below only on these inspected facts; no whole-profile refresh or grade change is established by the annotation.
+
 **Built by:** DAEDALUS · **Body:** 2026-08-07, **refreshed 2026-09-05** · **Method:** solo read + `scripts/ledger_sweep.py` RUN + each named L5 leg re-measured
 **Staleness:** 21-day clock → checkpoint **2026-09-26**
 

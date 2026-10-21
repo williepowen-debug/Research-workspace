@@ -1,0 +1,79 @@
+[
+  {
+    "path": "SAM/scripts/closeout_check.py",
+    "total": 676,
+    "repeated-mechanics candidate": 79,
+    "desk-specific evidence": 244,
+    "other/unclassified": 353
+  },
+  {
+    "path": "CARL/scripts/consistency_check.py",
+    "total": 1317,
+    "repeated-mechanics candidate": 0,
+    "desk-specific evidence": 638,
+    "other/unclassified": 679
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "total": 1603,
+    "repeated-mechanics candidate": 0,
+    "desk-specific evidence": 516,
+    "other/unclassified": 1087
+  },
+  {
+    "path": "BOND/monitors/closeout_check.py",
+    "total": 172,
+    "repeated-mechanics candidate": 0,
+    "desk-specific evidence": 0,
+    "other/unclassified": 172
+  },
+  {
+    "path": "BOND/monitors/closeout_run.py",
+    "total": 448,
+    "repeated-mechanics candidate": 73,
+    "desk-specific evidence": 0,
+    "other/unclassified": 375
+  },
+  {
+    "path": "WALTER/tools/closeout_check.py",
+    "total": 133,
+    "repeated-mechanics candidate": 0,
+    "desk-specific evidence": 94,
+    "other/unclassified": 39
+  },
+  {
+    "path": "WALTER/tools/closeout_run.py",
+    "total": 183,
+    "repeated-mechanics candidate": 25,
+    "desk-specific evidence": 0,
+    "other/unclassified": 158
+  },
+  {
+    "path": "BROCK/scripts/brock_selfcheck.py",
+    "total": 123,
+    "repeated-mechanics candidate": 5,
+    "desk-specific evidence": 58,
+    "other/unclassified": 60
+  },
+  {
+    "path": "HANS/scripts/closeout_check.py",
+    "total": 191,
+    "repeated-mechanics candidate": 47,
+    "desk-specific evidence": 0,
+    "other/unclassified": 144
+  },
+  {
+    "path": "VULCAN/tools/closeout_check.py",
+    "total": 465,
+    "repeated-mechanics candidate": 21,
+    "desk-specific evidence": 65,
+    "other/unclassified": 379
+  },
+  {
+    "path": "RED/scripts/closeout_check.py",
+    "total": 586,
+    "repeated-mechanics candidate": 59,
+    "desk-specific evidence": 239,
+    "other/unclassified": 288
+  }
+]

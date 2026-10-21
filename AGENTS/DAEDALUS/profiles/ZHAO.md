@@ -1,5 +1,7 @@
 # Agent Profile — ZHAO
 
+> **BOUNDED DELTA 2026-10-21:** named date/event triggers not established as fired on the inspected legs; this is not all-content clearance. Current verified delta: ZHA-18 NO, branch B, graded 10/16; old ungraded claim refuted. GACC August reconciliation and SAFE August reserves/gold remain owed. Reading A branch 2 PASS: TRADE freeze explicitly lasts until a concrete position re-emerges. Profile was wholly refreshed 10/14; do not carry September stale-body claim. Source/evidence: `upgrades/PRODUCTION_REVIEW_2026-10-21.md` and its named reader companion. This annotation supersedes conflicting current-state claims below only on these inspected facts; no whole-profile refresh or grade change is established by the annotation.
+
 **Built by:** DAEDALUS · **Body vintage: 2026-10-14** · **Body:** 2026-07-04 · refreshed 2026-09-05 · **WHOLE refresh 2026-10-14** (queue slot 10/12, done +2d)
 **Method:** Mode-A fan-out, 2 readers over 2 clusters (R1 operating layer · R2 evidence + consumption), synthesized here. Raw tables, ranked route lists and every not-read limit live in `runs/2026-10-14_ZHAO_PROFILE_READER_REPORTS.md` (index → R1, R2). Prior body verbatim: `profiles/_prior/ZHAO_2026-09-05.md`.
 **Staleness:** refresh at the next post-TIC session that changes the matrix, or >45d → checkpoint **2026-11-28**.

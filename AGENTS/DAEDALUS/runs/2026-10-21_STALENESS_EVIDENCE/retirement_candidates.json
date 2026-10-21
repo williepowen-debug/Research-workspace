@@ -1,0 +1,326 @@
+[
+  {
+    "path": "AGENTS/DAEDALUS/design/2026-08-03_RAV_QC_002_SHARED_INDEX_RECIPE_REVIEW.md",
+    "last_commit": "2026-08-03"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/design/2026-08-20_GATE_REGISTRY_ADJUDICATION.md",
+    "last_commit": "2026-08-20"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/design/2026-08-03_HAWK_SUNSET_ADJUDICATION.md",
+    "last_commit": "2026-08-03"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/design/2026-07-31_STE_WRITING_STANDARD_ASSESSMENT.md",
+    "last_commit": "2026-08-17"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/design/2026-08-03_DESIGN_BUNDLE_DISPOSITION.md",
+    "last_commit": "2026-08-03"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/design/2026-08-15_LEDGER_STALENESS_REGISTERED_SURFACES_SPEC.md",
+    "last_commit": "2026-08-15"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/design/COMPOUND_GATE_AUDIT.md",
+    "last_commit": "2026-07-30"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/design/2026-07-22_ledger_staleness_two_clock_parse.md",
+    "last_commit": "2026-07-22"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/design/2026-08-21_CHECK_STANDARD_BATCH_B_DRAFT.md",
+    "last_commit": "2026-08-21"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/design/2026-08-11_STALENESS_CADENCE_PROPOSAL.md",
+    "last_commit": "2026-08-20"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/builds/OSPREY_FALCON_BUILD.md",
+    "last_commit": "2026-07-30"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/builds/FLG_BUILD_2026-08-20.md",
+    "last_commit": "2026-08-20"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/builds/FERT_RECHARTER_2026-08-16.md",
+    "last_commit": "2026-08-16"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/builds/WATT_SPEC.md",
+    "last_commit": "2026-07-22"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/builds/MIDAS_SPEC.md",
+    "last_commit": "2026-07-22"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/builds/VULCAN_SPEC.md",
+    "last_commit": "2026-07-22"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/builds/AEOLUS_SPEC.md",
+    "last_commit": "2026-07-22"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/builds/RAV_CHARTER.md",
+    "last_commit": "2026-08-03"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/builds/FLG_BUILD_PROPOSAL_2026-08-20.md",
+    "last_commit": "2026-08-20"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/builds/wal_promotion/PROMOTION_REVIEW.md",
+    "last_commit": "2026-08-17"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/builds/homer_promotion/MANIFEST_D_homer.md",
+    "last_commit": "2026-08-17"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/builds/homer_promotion/WPH1_REPORT.md",
+    "last_commit": "2026-08-17"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/builds/homer_promotion/WPH2_REPORT.md",
+    "last_commit": "2026-08-17"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/builds/homer_promotion/PROMOTION_REVIEW.md",
+    "last_commit": "2026-07-22"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/builds/hawk_split/WP2_REPORT.md",
+    "last_commit": "2026-08-17"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/builds/hawk_split/MANIFEST_B_ledgers.md",
+    "last_commit": "2026-08-17"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/builds/hawk_split/WP1_REPORT.md",
+    "last_commit": "2026-08-17"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/builds/hawk_split/MANIFEST_A_core.md",
+    "last_commit": "2026-08-17"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/builds/hawk_split/MANIFEST_C_thesis.md",
+    "last_commit": "2026-08-17"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/builds/hawk_split/WP3_REPORT.md",
+    "last_commit": "2026-08-17"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/HENRY_CARD.md",
+    "last_commit": "2026-07-22"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/MARCO_CARD.md",
+    "last_commit": "2026-08-17"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/SAM_BRENT_REVIEW_2026-08-17_READER_REPORTS.md",
+    "last_commit": "2026-08-17"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/LIQUID_CARD.md",
+    "last_commit": "2026-08-17"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/CARL_CARD.md",
+    "last_commit": "2026-08-17"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/BATCH_02_handles.md",
+    "last_commit": "2026-07-22"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/ZHAO_CARD.md",
+    "last_commit": "2026-08-17"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/SAM_CARD.md",
+    "last_commit": "2026-08-17"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/YEYOU_CARD.md",
+    "last_commit": "2026-08-17"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/CREED_CARD.md",
+    "last_commit": "2026-07-27"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/SIX_IDEAS_RESPONSE_2026-08-17.md",
+    "last_commit": "2026-08-20"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/FIXBATCH_REPORT_2026-07-12.md",
+    "last_commit": "2026-08-11"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/CARL_SUBAGENT_AUDIT_2026-07-10.md",
+    "last_commit": "2026-08-17"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/TERRY_CARD.md",
+    "last_commit": "2026-07-22"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/RAV_CHANGE_REVIEW_2026-07-30.md",
+    "last_commit": "2026-08-17"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/TERRY_ARCHITECTURE_AUDIT_2026-07-30.md",
+    "last_commit": "2026-08-17"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/BRENT_AUDIT_2026-07-28.md",
+    "last_commit": "2026-08-17"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/PROME_AUDIT_2026-07-28.md",
+    "last_commit": "2026-08-17"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/RED_AUDIT_2026-08-12_READER_REPORTS.md",
+    "last_commit": "2026-08-12"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/FORGE_AUDIT_2026-07-30.md",
+    "last_commit": "2026-08-17"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/WP4_ECHO_REPORT_2026-07-10.md",
+    "last_commit": "2026-08-17"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/DAEDALUS_SELF_AUDIT_2026-08-17.md",
+    "last_commit": "2026-08-17"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/CODEX_CROSS_REVIEW_2026-07-12.md",
+    "last_commit": "2026-08-11"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/PRODUCTION_REVIEW_2026-08-07.md",
+    "last_commit": "2026-08-17"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/ORACLE_CARD.md",
+    "last_commit": "2026-08-17"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/BROCK_CARD.md",
+    "last_commit": "2026-08-17"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/HANDLE_SWEEP_independence-action.md",
+    "last_commit": "2026-07-03"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/SHADE_CARD.md",
+    "last_commit": "2026-08-17"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/CREED_REVIEW_2026-08-20_reader_raw.md",
+    "last_commit": "2026-08-20"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/DAEDALUS_SELF_SWEEP_2026-07-12.md",
+    "last_commit": "2026-08-17"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/FLEET_DIRECTORY_BUILD_PLAN.md",
+    "last_commit": "2026-08-17"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/PROME_SWEEP_RUN1_2026-08-16_READER_REPORTS.md",
+    "last_commit": "2026-08-16"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/VIOLET_CARD.md",
+    "last_commit": "2026-08-17"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/WAR_TRIAD_REVIEW_2026-08-15_READER_REPORTS.md",
+    "last_commit": "2026-08-15"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/BOND_REVIEW_2026-08-20_reader_raw.md",
+    "last_commit": "2026-08-20"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/LABOR_QC_2026-07-22.md",
+    "last_commit": "2026-08-17"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/AEOLUS_QC_2026-07-22.md",
+    "last_commit": "2026-08-17"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/WP3_MOLD_REPORT_2026-07-10.md",
+    "last_commit": "2026-08-11"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/DAEDALUS_SELF_SWEEP_2026-07-22.md",
+    "last_commit": "2026-08-17"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/REGINALD_CARD.md",
+    "last_commit": "2026-08-17"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/BOND_CARD.md",
+    "last_commit": "2026-07-22"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/WP1_TALOS_REPORT_2026-07-10.md",
+    "last_commit": "2026-08-11"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/SFG_SWEEP_2026-08-17_READER_REPORTS.md",
+    "last_commit": "2026-08-17"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/CORAL_CARD.md",
+    "last_commit": "2026-08-17"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/PRODUCTION_REVIEW_2026-08-17_READER_REPORTS.md",
+    "last_commit": "2026-08-17"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/DAEDALUS_SELF_AUDIT_2026-08-17_READER_REPORTS.md",
+    "last_commit": "2026-08-17"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/WALTER_CARD.md",
+    "last_commit": "2026-07-22"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/PROME_AUDIT_2026-07-28_readers/reader_rails_findings.md",
+    "last_commit": "2026-07-28"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/PROME_AUDIT_2026-07-28_readers/reader_tools_findings.md",
+    "last_commit": "2026-07-28"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/PROME_AUDIT_2026-07-28_readers/reader_flow_findings.md",
+    "last_commit": "2026-07-28"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/PROME_AUDIT_2026-07-28_readers/reader_spine_findings.md",
+    "last_commit": "2026-07-28"
+  }
+]

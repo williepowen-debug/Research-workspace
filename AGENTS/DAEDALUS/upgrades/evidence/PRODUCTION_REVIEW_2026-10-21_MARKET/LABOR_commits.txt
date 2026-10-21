@@ -1,0 +1,45 @@
+43f064187afc0572ee031ad39f1f8a42cd475c2b | 2026-10-21T08:51:44-04:00 | PROME: boot follow-through — fire-time flag disposition, guard P1 qualified
+06a9c5d58c3a91c97c13168df89b6843ddaae633 | 2026-10-20T12:29:53-04:00 | WALTER: review bookmark batch four and route three qualified developments
+e6fa499f4dadb20be9cc65a9de0804f6fc4eab46 | 2026-10-20T11:42:11-04:00 | WALTER: review bookmark batch two with source and modeling limits
+666b5eb5d4a67c799be3fd1332c1018302e5298f | 2026-10-19T12:30:19-04:00 | WALTER (orch): finish routing to active desks, CARL, FALCON, HOMER and CREED
+a302bd2650504082a206c9ec589514a5b0fb0b38 | 2026-10-18T18:11:37-04:00 | WALTER: Sun 10/18 boot routing — 001-008 (weekend bookmarks + intake)
+103a70834071e58b99dba2780cfb3b6885b86a59 | 2026-10-15T10:44:36-04:00 | WALTER: dispatch 4 (HY 325 / Asia -8% / PPI +6.3% / UA refineries); kill 2 (MOAB, shadow-fleet)
+e30d92c628baa94e64a6fb20960647763d8982ec | 2026-10-15T08:43:28-04:00 | PROME: WQ-438 RULED (Will 08:42 ET "438 - approved."); LABOR packet; DOCKET L720 annotated
+f0a1e720b0722cb79bedb34f146324bc9c47bdca | 2026-10-15T08:37:13-04:00 | LABOR: NEXUS brief fold (10/15 claims grade) pinned to STATUS 2c0b16058; board_log receipts
+2c0b160582fe0e9aff74f590c916a26aac8919c8 | 2026-10-15T08:36:53-04:00 | LABOR: STATUS - JOLTS Sep date tokens set to the confirmed Tue 11/3 (no figure moved)
+b290ab4d04c02fbfdc0057e9e35c7e05eb03000f | 2026-10-15T08:36:01-04:00 | LABOR: claims w/e Oct 10 graded 199,000 band B, MA 198,500, nothing fired; 10/22 card frozen
+4eee20f2627fd44e4c3d6afe165082948d6b30ed | 2026-10-15T08:11:35-04:00 | LABOR: crash recovery 2/2 - STATUS/KB/board_log/receipts residue verified or repaired; MARCO answer
+67106d181ab8034fd7ba336d8f36fa238db34148 | 2026-10-15T08:05:13-04:00 | LABOR: crash recovery 1/2 - commit labor-89 residue (renames, path packets, BD-38, repoints)
+a82599735bbc79a7d421acbc86aad8554753b97a | 2026-10-15T08:03:11-04:00 | PROME -> LABOR, WATT, FERT, CARL, OSPREY, CORAL: crash-recovery briefs (box died ~03:08 ET 10/15)
+82ad0c90f701c3aba3db50830688482f29768eaf | 2026-10-14T20:39:59-04:00 | WALTER -> fleet: RED FT-08 update and Oct 14 energy/Iran batch (-023..-027)
+2a54cc4a74e711a83524bd8ed4691587d7b431e4 | 2026-10-14T20:37:39-04:00 | MARCO -> LABOR: SDL-01 flipped NORMAL on Sep foreign-born LF +206K; population-control ask
+47bd8f55d903741d00c3c62fc28cbbb04c112e59 | 2026-10-14T20:35:50-04:00 | DAEDALUS -> 12 desks: brief-pin wiring; scorecard 10/09; L658; inbox drain
+8e2b066e699429f4780c0914af958d23131d0724 | 2026-10-14T12:28:41-04:00 | WALTER -> fleet: route October14 morning releases and19 bookmarks
+635bbb0106c21dd08d97f570c612e148c6c8d3d9 | 2026-10-12T21:05:27-04:00 | WALTER: read48 bookmarks, route13 qualified updates; consume:WALTER
+34e4dbde49068db0d1c010d2be7332214f5f2c6d | 2026-10-12T15:56:09-04:00 | WALTER -> PROME, DEWEY and recipients: verify live basis and route ordinary intake
+305510d1e786bae9a939a078c5c99877ded2b1bb | 2026-10-10T11:38:09-04:00 | WALTER: SIG-W-20261010-003..006 from Will's 32-item X-bookmark batch (closed 32/32)
+e3028b8dfa659b5d9abf29a76e8e7cd6015b924e | 2026-10-08T16:43:10-04:00 | DAEDALUS -> NEXUS, BROCK, CORAL +6: brief pin check built; held asks resolved
+8234db2840e1b88fe278142d801cbcdf008e4e18 | 2026-10-08T16:35:15-04:00 | DAEDALUS -> 28 desks + PROME: consolidated sweep packets (3 sweeps)
+ce1ffb4a92cff939e4a05dd22def5201f5d04e5c | 2026-10-08T15:49:40-04:00 | WALTER -> ALL ACTIVE + Tier-2: SIG-W-20261008-033 WQ-399 receipt command
+cb1ccc6b17bf35d46d9828af7d40ae363a343764 | 2026-10-08T11:56:02-04:00 | WALTER 10/8 broad sweep: 8 cards -022..-029 (Europe, RU energy, AI fin, more)
+6e787e1c9dddea1ef92993cba21f82e315fa5e81 | 2026-10-08T08:38:23-04:00 | LABOR: NEXUS brief re-pinned to 10/8 grade (pin 360caeeb1); FRED-agreement receipts on cards
+360caeeb117d5b16ea4e89778fd8863c0388b15b | 2026-10-08T08:36:43-04:00 | LABOR: claims w/e Oct 3 graded 197K band B; v13 2->1, v7 3->2; score 26/75; 10/15 card frozen
+c54409abb70398d4b0ab83f66af34c08a4b21675 | 2026-10-08T08:24:00-04:00 | LABOR: Canada counter-tariff re-check #1 graded NO EVIDENCE (IL/IA/WI verified)
+22c4c94ba05711db62728af30fc6e128b7de5f08 | 2026-10-08T08:21:35-04:00 | LABOR: drain WALTER lane 2/2 (Workday 9/29 reorg verified, WARN cohort row)
+7cb9a4b1f2449b1bfd8e0ef07a179eecb20cad7b | 2026-10-07T18:21:17-04:00 | WALTER: persist October 7 create-only owner handoffs
+0c1c9071a58d6e6e1187dd31567197c8e53db5f9 | 2026-10-02T11:15:04-04:00 | LABOR: NEXUS_BRIEF re-pin to STATUS 0dc213f8a (stamp fix; last write-back)
+0dc213f8ae7cba0fcc84c35352982a9dd0e57235 | 2026-10-02T11:15:04-04:00 | LABOR: STATUS stamp fixed to the wall clock (was a typed 11:2x; date gave 11:14)
+d17b56cb2ab4801dcc5b1668e9d0120757b9689f | 2026-10-02T11:14:56-04:00 | LABOR: NEXUS_BRIEF re-pin to STATUS 1d6c85c1f (full closeout, last write-back)
+1d6c85c1fc7e3281bc07e30a5509dc4cc2b0fcb2 | 2026-10-02T11:14:51-04:00 | LABOR: full closeout 10/2 - 1c run, PUBLISHED + PAYROLL_VINTAGES refreshed, armed items
+8c5d046f42823bd8288d85cdd5c9acce4d0bc262 | 2026-10-02T08:35:55-04:00 | LABOR: NEXUS_BRIEF re-pin to STATUS d1a56aa55 (Sep NFP grade, last write-back)
+d1a56aa55aec52e9f941f20d0ab818fad9b03741 | 2026-10-02T08:35:39-04:00 | LABOR: Sep NFP graded (card s.8) + STATUS/PREDICTIONS/KB/CATALYSTS write-back + drain 1
+48be15f75271c4ea2a6c3a504832cdba4b239ea7 | 2026-10-02T08:31:54-04:00 | LABOR -> PROME: Sep NFP grade memo (+29K; kill line not fired) + saved BLS primary
+90e4fea86a3328d0c8dd7f48ab112601a43dd650 | 2026-10-01T17:14:10-04:00 | WALTER: dispatch SIG-W-20261001-030..032 (CleanSpark/Meta HY; ECB pricing + NL storage; CA SB 951)
+1ebd6080f8f251132252b96183a1a4a7647f8d3d | 2026-10-01T12:57:37-04:00 | LABOR: NEXUS brief re-pin to STATUS HEAD bf576ca54
+bf576ca540b5489d53a36cb767989381b0a7b5a7 | 2026-10-01T12:57:37-04:00 | LABOR: STATUS pickup 11 - C5 retirement candidates listed, moves deferred
+2f650a7895ed18d3a6356c2587f1f963d5580398 | 2026-10-01T12:57:11-04:00 | LABOR: NEXUS brief re-pin to STATUS HEAD 226b9fdd1 (full closeout)
+226b9fdd18639050c8cbe85739ee34baaeafff76 | 2026-10-01T12:57:01-04:00 | LABOR: full closeout 10/1 - reader caveats applied, post-delivery receipts, LESSONS L-31 n+1
+f4b70b113ea1b08c68a4d3ce8a9988ac069c254f | 2026-10-01T12:24:44-04:00 | LABOR: NEXUS brief re-pin to STATUS HEAD 10e94b5b2 (10/1 grades, 10/2 armed)
+10e94b5b26fb29a90aa42dcb1e010db14fb995a0 | 2026-10-01T12:24:09-04:00 | LABOR: STATUS stamp from the wall clock (was a typed 12:2x)
+5a339a6db1dae7c87feac6c7f258f7420adb1e5b | 2026-10-01T12:23:55-04:00 | LABOR: grade 10/1 claims + Challenger Sep, resolve LAB-03, freeze 10/8 card, arm 10/2 NFP
+61a90bbd3a9aec690df79bf24dbdb638f1040edc | 2026-10-01T11:34:18-04:00 | WALTER -> PROME + 19 owners: WQ-295 R3 live-test results, all queued WATCH_FOR sets (L543)

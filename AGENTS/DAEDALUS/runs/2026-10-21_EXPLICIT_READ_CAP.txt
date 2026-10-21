@@ -1,0 +1,34 @@
+READ-CAP [DAEDALUS] — cap 54,250 B · budget 32,550 B (60%) · ALL % BELOW ARE OF BUDGET (the number every verdict grades; ≥100% = over) · perimeter: DECLARED in PROME/registry/READS.tsv — 17 cap-bearing (whole/programmatic) measured, 12 declared-not-counted (scoped/grep/summary), 45 manifest row(s) for this desk; 6 of the measured are MEMBERS of 2 cap-bearing CLASS row(s), each measured per member (rule 16); ATTESTED by the desk itself
+  ✅ CLAUDE.md                            22,726 B    70% of budget    (whole · DAEDALUS:runtime-boot)
+  ✅ AGENTS/DAEDALUS/CLAUDE.md            20,200 B    62% of budget    (whole · DAEDALUS:runtime-boot)
+  ✅ AGENTS/DAEDALUS/EVOLUTION.md         19,275 B    59% of budget    (whole · DAEDALUS:CLAUDE.md-SPAWN-4)
+  ✅ AGENTS/DAEDALUS/OPERATIONS.md        19,231 B    59% of budget    (whole · DAEDALUS:CLAUDE.md-SPAWN-0)
+  ✅ PROME/COMPLETION_SPEC.md             18,579 B    57% of budget    (whole · DAEDALUS:runtime-boot)
+  ✅ AGENTS/DAEDALUS/STATUS.md            13,516 B    42% of budget    (whole · DAEDALUS:CLAUDE.md-SPAWN-1 · ALSO read whole by NEXUS:6)
+  ✅ AGENTS/DAEDALUS/SPEC.md              13,043 B    40% of budget    (whole · DAEDALUS:CLAUDE.md-header)
+  ✅ AGENTS/DAEDALUS/FLEET_DIRECTORY.md   12,394 B    38% of budget    (whole · DAEDALUS:CLAUDE.md-SPAWN-2)
+  ✅ USER.md                               8,458 B    26% of budget    (whole · DAEDALUS:runtime-boot)
+  ✅ AGENTS/DAEDALUS/PATTERNS_HOT.md       7,799 B    24% of budget    (whole · DAEDALUS:CLAUDE.md-SPAWN-3)
+  ✅ AGENTS.md                             5,427 B    17% of budget    (whole · DAEDALUS:runtime-boot)
+  ▣ AGENTS/DAEDALUS/inbox/*.md                   declared `whole` · CLASS row — cap-bearing PER MEMBER (rule 16 ruling 2026-09-24): 6 member(s) measured, 0 over budget, 0 over the CAP, largest 2,906 B (9% of budget)  (DAEDALUS:CLAUDE.md-SPAWN-3b)
+      6 member(s) all under 70% of budget (<22,785 B)
+  ▣ AGENTS/DAEDALUS/inbox/WALTER/*.md         —  declared `whole` · CLASS row matched 0 files today (8 files matched historically) — correctly quiet, not counted  (DAEDALUS:SPAWN-3b)
+  ◦ AGENTS/DAEDALUS/FLEET_MAP.tsv      26,727 B  declared `grep` — not cap-bearing, not counted  (DAEDALUS:CLAUDE.md-SPAWN-2)
+  ◦ AGENTS/DAEDALUS/PATTERNS_COLD_INDEX.md 21,649 B  declared `grep` — not cap-bearing, not counted  (DAEDALUS:CLAUDE.md-SPAWN-3)
+  ◦ AGENTS/DAEDALUS/PATTERNS.tsv      390,604 B  declared `grep` — not cap-bearing, not counted  (DAEDALUS:CLAUDE.md-SPAWN-3)
+  ◦ AGENTS/DAEDALUS/sweeps/REGISTRY.tsv 22,035 B  declared `summary` — not cap-bearing, not counted  (DAEDALUS:CLAUDE.md-SPAWN-5)
+  ◦ AGENTS/DAEDALUS/profiles/*.md             —  declared `summary · CLASS row, not a single file` — not cap-bearing, not counted  (DAEDALUS:CLAUDE.md-SPAWN-5)
+  ◦ AGENTS/WALTER/registry/CORRECTIONS.tsv 45,736 B  declared `summary` — not cap-bearing, not counted  (DAEDALUS:CLAUDE.md-SPAWN-5b)
+  ◦ PROME/ORCHESTRATION_PLAYBOOK.md    50,032 B  declared `scoped` — not cap-bearing, not counted  (DAEDALUS:runtime-boot)
+  ◦ PROME/ROSTER.md                    63,737 B  declared `grep` — not cap-bearing, not counted  (DAEDALUS:runtime-boot)
+  ◦ PROME/WILL_QUEUE.md                98,022 B  declared `scoped` — not cap-bearing, not counted  (DAEDALUS:runtime-boot)
+  ◦ PROME/DOCKET.tsv                  1,642,708 B  declared `summary` — not cap-bearing, not counted  (DAEDALUS:SPAWN-5c)
+  ◦ PROME/registry/READS.tsv          116,020 B  declared `summary` — not cap-bearing, not counted  (DAEDALUS:SPAWN-5/9)
+  ◦ AGENTS/DAEDALUS/registry/basis-hashes.json  2,761 B  declared `scoped` — not cap-bearing, not counted  (DAEDALUS:runtime-boot)
+  ℹ️ ADVISORY: CLASS row `AGENTS/DAEDALUS/inbox/WALTER/*.md` (DAEDALUS:SPAWN-3b) declared `whole` matched 0 files today (8 files matched historically) — correctly quiet, not counted
+✅ READ-CAP 0 [DAEDALUS]: every CAP-BEARING read in this desk's ATTESTED manifest is under budget (17 measured, 12 declared-not-counted). Perimeter = the desk's own declaration plus explicit root/local charter reads.
+  ℹ️  charter AGENTS/DAEDALUS/CLAUDE.md = 20,200 B — explicit whole read; root and local charters INCLUDED
+  ✉️  OWNER-DIRECTED NOTICE [DAEDALUS] (READ_CAP rule 15): 1 file(s) under AGENTS/DAEDALUS/ that OTHER desks' declared boot reads load WHOLE — counted in THOSE readers' perimeters, NOT in this desk's totals or rc. The bytes are this desk's to rotate (rule 4); a breach here is also turning the READER's check red.
+     🟠 AGENTS/DAEDALUS/BLUEPRINTS/STATE_VOCABULARY.md   38,074 B   117% of budget  over budget (readable, no headroom)  ← read whole by HANS:RULE-1c (CONDITIONAL — before minting a status token)
+ℹ️  READ-CAP ADVISORY [DAEDALUS]: 1 reading(s) this check will NOT adjudicate (above). ⛔ These do NOT affect rc — the declaration is the reader's, and a refusal to adjudicate cannot be a blocking verdict (severity split 2026-09-14, L354).
+READ-CAP-RESULT v1 mode=agent rc=0 assessed=1 desk=DAEDALUS reads=17 over_budget=0 over_cap=0 manifest_defects=0 advisories=1 generated_flagged=0 rotation_due=0 active_decisions_over_budget=0 charter_mode=explicit charter_reads=2 owner_notices=1 owner_notices_over_budget=1 charter_bytes=20200

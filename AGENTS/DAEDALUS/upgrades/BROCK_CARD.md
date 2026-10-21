@@ -1,3 +1,5 @@
+> **PR8 write-back 2026-10-21:** BRK02 grade, BRK30 state agreement and tracker historical banner now verified repaired; no automatic L5 promotion. Card stays closed as a queue. Evidence and current scope: `PRODUCTION_REVIEW_2026-10-21.md`.
+
 # Upgrade Card — BROCK (read-only assessment, no agent files touched)
 
 > 🗄 **ROUTED 2026-07-12 — CLOSED AS A QUEUE 2026-08-17 (self-audit F5 banner pass).** This card's findings were routed to the owner/FLEET_MAP when written; per-row states below are historical. Not maintained — current gaps live on the agent's FLEET_MAP row. Do not work rows from here without re-verifying at the agent.

@@ -1,3 +1,5 @@
+> **PR8 write-back 2026-10-21:** Prior SETUPS/TRADE_BOOK byte blockers closed at fresh declared read-cap result, rotation0. Newly arrived inbox packets are not automatically failed drain history. Evidence and current scope: `PRODUCTION_REVIEW_2026-10-21.md`.
+
 # Upgrade Card — TERRY (read-only assessment, no agent files touched)
 
 > ✅ **CARD CLOSED 2026-07-22 — packet 6/6 APPLIED by TERRY 7/17 (write-back `inbox/processed/2026-07-17_from-TERRY_utility-firming-applied.md`), claims verified in-file by DAEDALUS 7/22: CONTRACT block CLAUDE.md:10 · BOTTOM LINE at STATUS end · PAT-031 wraps BOOT 11-13 + covering cwd note :156 + README · 3 drift fixes (L5 OpenClaw, L161 + CLOSEOUT L67 push).** The §-row "ROUTED — still owner-pending" states below are HISTORICAL. **L3(prov-L4) → L4 re-graded 7/22** — the PAT-028 card-product ceiling lifted by events: TRY-FIRE-004 fired live 7/20 (first card, Will-executed). Remaining L5 lane = TERRY's self-identified inter-session ledger discipline (TRY-FIRE-005 7-day stale-ARMED incident → POSTMORTEMS.md + named-grader rule). See FLEET_MAP row for the current grade of record.

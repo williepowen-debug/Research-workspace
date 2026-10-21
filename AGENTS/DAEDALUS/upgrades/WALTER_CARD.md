@@ -1,3 +1,5 @@
+> **PR8 write-back 2026-10-21:** Push authority conflict closed: current charter step16 matches BCS Will-coordinated push and bounded FLASH/IMMEDIATE exception. General procedural/read-perimeter work remains; no automatic L5. Evidence and current scope: `PRODUCTION_REVIEW_2026-10-21.md`.
+
 # Upgrade Card — WALTER (read-only assessment, no agent files touched)
 
 > ✅ **CLOSED/SUPERSEDED 2026-07-22 (self-sweep fix-batch, Will-approved):** Sweep A/B **APPLIED 7/11** and grep-verified in-file 7/22 (CONTRACT `CLAUDE.md:25`, BOTTOM LINE `STATUS.md:134`) — the header's 'STILL NOT APPLIED' framing is obsolete. New minor owner-lane item: stale embedded counters inside the BOTTOM LINE (PAT-055). Current truth = FLEET_MAP row + `upgrades/PRODUCTION_REVIEW_2026-07-22.md`. States below are HISTORICAL.

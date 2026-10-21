@@ -1,5 +1,7 @@
 # Agent Profile — CORAL
 
+> **⚠️ STALE — trigger verified 2026-10-21:** named calendar/content/owner-state trigger fired; see the per-desk trigger table in PR8. Backlog disposition checkpoint October25; accepted whole-refresh order/scope (~October29 cohort where assigned) and prior body vintage unchanged. Current verified delta: FL_Forward_Log still lacks FROZEN banner and retains July catalyst body. THESIS still says rails reviewed 8/23 while explicitly showing 9/28 installation. STATUS now 23,728 bytes (<24,412 rotation trigger); prior STATUS-size finding refuted. Source/evidence: `upgrades/PRODUCTION_REVIEW_2026-10-21.md` and its named reader companion. This annotation supersedes conflicting current-state claims below only on these inspected facts; no whole-profile refresh or grade change is established by the annotation.
+
 **Built by:** DAEDALUS · **Body:** prior 2026-07-22, **refreshed 2026-09-05**
 **Method:** solo read + named blockers re-measured + the MARCO overlap reconciled at both artifacts
 **Staleness:** 30-day clock (its own, tighter than fleet default) → checkpoint **2026-10-05**

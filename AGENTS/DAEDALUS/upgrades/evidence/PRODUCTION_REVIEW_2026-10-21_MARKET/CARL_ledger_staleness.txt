@@ -1,0 +1,51 @@
+
+[CARL]  (ledger age relative to STATUS.md; + = older than STATUS)
+  ⚠️ STALE   +65d  AGENTS/CARL/sub_agents/DOC/workbook/COST_DRIVER.tsv
+  ⚠️ STALE   +65d  AGENTS/CARL/sub_agents/DOC/workbook/COVERAGE.tsv
+  FROZEN     +65d  AGENTS/CARL/sub_agents/DOC/workbook/FLOW.tsv
+  ⚠️ STALE   +65d  AGENTS/CARL/sub_agents/DOC/workbook/ML.tsv
+  ⚠️ STALE   +65d  AGENTS/CARL/sub_agents/DOC/workbook/PREDICTIONS.tsv
+  ⚠️ STALE   +65d  AGENTS/CARL/sub_agents/DOC/workbook/VX.tsv
+  FROZEN     +99d  AGENTS/CARL/sub_agents/GIG/workbook/AV_TRACKER.tsv
+  ⚠️ STALE   +65d  AGENTS/CARL/sub_agents/GIG/workbook/DRIVER_ECONOMICS.tsv
+  ⚠️ STALE   +65d  AGENTS/CARL/sub_agents/GIG/workbook/FLOW.tsv
+  ⚠️ STALE   +65d  AGENTS/CARL/sub_agents/GIG/workbook/ML.tsv
+  ⚠️ STALE   +65d  AGENTS/CARL/sub_agents/GIG/workbook/PLATFORM.tsv
+  ⚠️ STALE   +65d  AGENTS/CARL/sub_agents/GIG/workbook/PREDICTIONS.tsv
+  ⚠️ STALE   +65d  AGENTS/CARL/sub_agents/GIG/workbook/VX.tsv
+  ⚠️ UNATT   +34d  [attention 40d via 'Last hygiene/no-event check']  AGENTS/CARL/sub_agents/PHAN/workbook/COCKROACH.tsv
+  FROZEN     +97d  AGENTS/CARL/sub_agents/PHAN/workbook/FLOW.tsv
+  FROZEN     +97d  AGENTS/CARL/sub_agents/PHAN/workbook/ML.tsv
+  ⚠️ STALE   +34d  AGENTS/CARL/sub_agents/PHAN/workbook/PREDICTIONS.tsv
+  FROZEN     +34d  AGENTS/CARL/sub_agents/PHAN/workbook/PROVIDER.tsv
+  ⚠️ UNATT   +34d  [attention 40d via 'Last hygiene/no-event check']  AGENTS/CARL/sub_agents/PHAN/workbook/REGULATORY.tsv
+  FROZEN     +97d  AGENTS/CARL/sub_agents/PHAN/workbook/VX.tsv
+  ⚠️ STALE   +65d  AGENTS/CARL/sub_agents/POLLY/workbook/CARRIER.tsv
+  FROZEN     +65d  AGENTS/CARL/sub_agents/POLLY/workbook/FLOW.tsv
+  FROZEN     +65d  AGENTS/CARL/sub_agents/POLLY/workbook/HOTSPOTS.tsv
+  ⚠️ STALE   +65d  AGENTS/CARL/sub_agents/POLLY/workbook/ML.tsv
+  ⚠️ STALE   +65d  AGENTS/CARL/sub_agents/POLLY/workbook/PREDICTIONS.tsv
+  ⚠️ STALE   +65d  AGENTS/CARL/sub_agents/POLLY/workbook/STATE_MARKET.tsv
+  ⚠️ STALE   +65d  AGENTS/CARL/sub_agents/POLLY/workbook/VX.tsv
+  FROZEN     +97d  AGENTS/CARL/sub_agents/POP/workbook/FLOW.tsv
+  FROZEN     +61d  AGENTS/CARL/sub_agents/POP/workbook/ML.tsv
+  FROZEN     +62d  AGENTS/CARL/sub_agents/POP/workbook/PREDICTIONS.tsv
+  FROZEN     +97d  AGENTS/CARL/sub_agents/POP/workbook/SECTOR.tsv
+  FROZEN     +97d  AGENTS/CARL/sub_agents/POP/workbook/TARIFF.tsv
+  FROZEN     +97d  AGENTS/CARL/sub_agents/POP/workbook/VX.tsv
+  ⚠️ UNATT   +63d  [attention 72d via 'Staleness sweep']  AGENTS/CARL/sub_agents/STUE/workbook/CASCADE.tsv
+  ⚠️ UNATT   +40d  [attention 72d via 'Staleness sweep']  AGENTS/CARL/sub_agents/STUE/workbook/EXPECTED_SIGNALS_TRACKER.md
+  ⚠️ UNATT   +40d  [attention 72d via 'Staleness sweep']  AGENTS/CARL/sub_agents/STUE/workbook/SERVICER.tsv
+  FROZEN     +97d  AGENTS/CARL/sub_agents/STUE/workbook/STATE_DQ.tsv
+  ⚠️ UNATT   +40d  [attention 72d via 'Staleness sweep']  AGENTS/CARL/sub_agents/STUE/workbook/TIMELINE.tsv
+  FROZEN     +97d  AGENTS/CARL/workbook/ABS_BASELINE.tsv
+  FROZEN    +111d  AGENTS/CARL/workbook/BNPL_STRESS.tsv
+  FROZEN    +111d  AGENTS/CARL/workbook/FLOW.tsv
+  ok          +0d  AGENTS/CARL/workbook/KB.tsv
+  FROZEN    +111d  AGENTS/CARL/workbook/STATE_DIFFUSION.tsv
+  FROZEN    +111d  AGENTS/CARL/workbook/TRENDS.tsv
+  FROZEN     +97d  AGENTS/CARL/workbook/VX.tsv
+  → 23 stale: freeze (add 'FROZEN <date> — ...' banner) or refresh at closeout.
+  perimeter [CARL]: 52 ledger(s) scanned; 11 TSV(s) NOT scanned by this pass: board/BOARD_LOG.tsv, board/BOARD_STAGING_2026-07-18.tsv, book/PAPER_SLEEVE.tsv, docket/CATALYSTS.tsv (+7 more)
+
+EXIT_CODE=1

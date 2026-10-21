@@ -1,0 +1,270 @@
+a815dc9d6ed5410a297b461f4ef093b29dd3ac9a | 2026-10-20T22:42:15-04:00 | PROME -> BRENT: consistency pass go-ahead (Will approved; no deletions, no renames)
+fd08b88fc5e1cb0b01d004971d22de4068ee52e4 | 2026-10-20T20:02:27-04:00 | BRENT -> PROME: deliver consistency repairs and fold final synthesis
+7020e3838e6a001d6d7525b5c23a7f6505f65285 | 2026-10-20T20:02:04-04:00 | BRENT: repair stale summaries and preserve rejected-response provenance
+19211a62f53205235238f965fdb8f1a5de3092b8 | 2026-10-20T19:21:01-04:00 | BRENT -> PROME: deliver EIA first-week owner evaluation and fold synthesis
+e91484c27396013b6591babc16d0c45bfabadc98 | 2026-10-20T19:20:29-04:00 | BRENT: evaluate October15 EIA first week and close accepted cleanup review
+07449937cd89fd5124d46d9100e0a5af9e29e82f | 2026-10-20T18:47:47-04:00 | PROME -> BRENT: charter cleanup review accepted (restore do-not-renumber line)
+bdefc9acf9920932db36ce80d6fb267abd0c39ba | 2026-10-20T18:40:39-04:00 | BRENT -> PROME: deliver installed charter and final scoped synthesis fold
+b986c31bea7881296a74dae994ab9d90a63f6038 | 2026-10-20T18:40:22-04:00 | BRENT: install conserved charter cleanup on Will's direct start instruction
+8af6cec24d57d43b7e51d3836dc1a2dc742666df | 2026-10-20T17:57:58-04:00 | BRENT -> PROME: submit charter pre-review and fold conserved synthesis brief
+856796214852d069920bbd5b5b00419f5b511a3a | 2026-10-20T17:57:47-04:00 | BRENT: conserve reader history and implement approved organisation cleanup
+cf112be1b8bc45d5a9e5566227f0f0f709c3e73b | 2026-10-20T17:51:48-04:00 | PROME -> BRENT: organisation cleanup go-ahead (Will approved; no deletions)
+4373f4566d535bc305adfe5860a1187427dfb4bc | 2026-10-20T16:34:12-04:00 | WALTER -> HENRY, VULCAN, HOMER, OSPREY, FALCON: review next 18 bookmarks
+30dbc0907216dcb8bac4dcd35c3cadced2130729 | 2026-10-20T15:33:36-04:00 | WALTER -> LIQUID, CARL, VULCAN, HENRY, BRENT, FERT: review bookmark batch 8
+5558f27acc8341ae6001e6667a0581af5770efea | 2026-10-20T15:28:22-04:00 | BRENT: recover continuity, record boot findings and triage three signals
+5370995f5e14b21d0c6bb994621460d000740f18 | 2026-10-20T14:49:56-04:00 | WALTER -> BRENT/HENRY/CRUISE/MIDAS/LIQUID/BOND/ZHAO/SAM/BROCK/VULCAN: bookmark batches 6-7
+0728e2ded779268408281366ea6dfec9ab6aed86 | 2026-10-20T14:29:00-04:00 | BRENT: close out October20 research and persist resume point
+221028f09306de8637be8a7082143fb72fe84403 | 2026-10-20T13:53:23-04:00 | BRENT: reconcile workbook coverage, calendar and current research readers
+031a1af90791f86565f1d52d7236bc5d76170683 | 2026-10-20T11:55:30-04:00 | BRENT: store USO investigation and discussion findings in USO folder
+56983b88442446529ca7350a8f926bcf08dd34e2 | 2026-10-20T11:39:53-04:00 | BRENT: establish USO structural and technical research folder
+70b8667a72b211e9eddcd6abce5e906adc698c02 | 2026-10-20T11:27:48-04:00 | WALTER: review first six bookmarks and preserve staged backlog continuation
+a4d7e79fe4f1eaed3aa1c81be46f63f160cdc52f | 2026-10-20T11:11:33-04:00 | BRENT: verify USO short interest at FINRA and audit float and borrow claims
+f2727832dd3aa526b5a5273517026936a4e16e41 | 2026-10-20T10:52:11-04:00 | BRENT: verify deal report, oil reversal and recent energy relief policy
+5e300ad263047a9c1ae01b8d5869c707603f81b8 | 2026-10-20T10:41:41-04:00 | BRENT: recover October20 startup, reconcile broker receipts and triage mail
+857d2ad14f79c26f09f11a6417d85c97fc7f4512 | 2026-10-19T18:11:07-04:00 | HENRY -> BRENT: deliver catch-up evidence and owner receipt
+ba1a41e09b21f6399acd9e47b6aa5a8e2b1c3125 | 2026-10-19T16:57:51-04:00 | PROME: reconcile October19 broker holdings and activity
+ea6eacc7abb08ef57b67875a27016c3fc69ff984 | 2026-10-19T14:41:00-04:00 | WALTER -> ZHAO HANS BOND: China GDP and French bond follow-through
+666b5eb5d4a67c799be3fd1332c1018302e5298f | 2026-10-19T12:30:19-04:00 | WALTER (orch): finish routing to active desks, CARL, FALCON, HOMER and CREED
+f880624a5837c3ef45c76f80c5fa00d632deec64 | 2026-10-19T09:42:34-04:00 | WALTER (orch): route FITB and limited waiver; measure L599 pilot; reconcile Sunday delivery
+2371464d2ab49c542669abe472c6d51b44504556 | 2026-10-19T13:54:46+00:00 | BRENT: Monday 10/19 routine — WTI intraday near-$100 flag, two unconfirmed Hormuz mine-strike claims
+a302bd2650504082a206c9ec589514a5b0fb0b38 | 2026-10-18T18:11:37-04:00 | WALTER: Sun 10/18 boot routing — 001-008 (weekend bookmarks + intake)
+a4e9436e18990bf03bfed776280926b248907d1f | 2026-10-16T17:46:14-04:00 | WALTER -> FALCON, BRENT, HAWK, SAM: Iran/Saudi 10/16 scoped verify (035)
+9c6387039b4d729ef44a9388e300e50cdcf23c93 | 2026-10-16T17:42:20-04:00 | WALTER -> RED, REGINALD, BROCK, OSPREY, CRUISE and desks: evening routes 028-033
+ac677fbc4d0c31758f025725058e2e1fe35bc998 | 2026-10-16T17:09:38-04:00 | PROME -> BRENT: COT #10 consumed; instrument_check decouple rec (b); Baker Hughes 403 pattern noted
+060db28adf2eb7f8fa074a5825667daea147447a | 2026-10-16T20:28:33+00:00 | BRENT: Friday COT grade #10 (10/13) + rig/airline read, TRACKER refresh
+4e85fb6de369ae2addac333f243c9372dcedf9bc | 2026-10-16T13:48:30-04:00 | WALTER -> PROME, FALCON, BRENT and recipients: close bookmark backlog and route verified follow-ups
+cbed6d56b8555cda6ac4ddfaab7f73ab38906f4d | 2026-10-16T12:53:52-04:00 | WALTER -> RED, BOND and routing desks: boot signals and X authorization receipt
+e5f23d2d09914ed82e1e08c62952337c01b3267d | 2026-10-16T10:53:04-04:00 | WALTER: 10/16 AM sweep — SIG-W-20261016-003..-006 (Iran/Gulf, energy, AI-infra, tape)
+e7e87590d580beb8fd9ecaa49132a28e0e8fa520 | 2026-10-15T14:00:26-04:00 | WALTER: BM-20261015-04 — 6 dispatches + 3 kills + SIG-001 date fix (RED packet)
+a930e1004279c7259f05201b0e30690acbde3611 | 2026-10-15T18:23:59+00:00 | BRENT: Thursday EIA fallback wk-10/9 — crude draw breach, Cushing build, BRT-31 first print
+f444ff03d8fca51226f94467a3a07dac38c1e72f | 2026-10-15T11:20:59-04:00 | WALTER: route intake lane 10/13 — 7 signals (-008 to -014), 6 kills, intake --mark
+103a70834071e58b99dba2780cfb3b6885b86a59 | 2026-10-15T10:44:36-04:00 | WALTER: dispatch 4 (HY 325 / Asia -8% / PPI +6.3% / UA refineries); kill 2 (MOAB, shadow-fleet)
+268a416a0ee078b50988f7475ddfd347310e6448 | 2026-10-15T08:51:02-04:00 | PROME: consume ORACLE — WQ-439/440 registered, MACHINE_LOCAL row 15 fixed, odds routed to 7 desks
+89eb939f9102dd50314382d9a3f2db70f87c91a4 | 2026-10-15T08:22:15-04:00 | OSPREY -> BRENT, HAWK, RED: OSP-06 CONFIRMED, L544 NOT MET, Azov answer, pause lifted
+2c36296a325135b7a85b218bcce69ee9d7212c02 | 2026-10-14T22:31:18-04:00 | WALTER -> FALCON, REGINALD: FALCON grades into anchor (-035); RED non-session rule (v0.52)
+28b29bfad3f1d73a4b2f1fe66d4eaab59bdd2329 | 2026-10-14T21:17:25-04:00 | WALTER -> FALCON, BRENT, PROME: Iran full re-verify week to 10/15 (-031, -032)
+82ad0c90f701c3aba3db50830688482f29768eaf | 2026-10-14T20:39:59-04:00 | WALTER -> fleet: RED FT-08 update and Oct 14 energy/Iran batch (-023..-027)
+33b3fb682f7c500c02d062af166740cef2b76029 | 2026-10-14T14:29:19-04:00 | BRENT: pin operational follow-ups and fresh retail transmission in brief
+a070cfe157515ba5ec877e2ee2d1bf4aa184212d | 2026-10-14T14:28:30-04:00 | BRENT: reconcile operational readers and preserve unresolved evidence gaps
+d540a59b844f506fd3924a165478cf2d7456ce7a | 2026-10-14T14:01:31-04:00 | WALTER -> WATT VULCAN BRENT CARL HENRY LIQUID: verify three research threads
+138500e9ce13f42e628814109ab9cd3a1e528bc0 | 2026-10-14T13:55:34-04:00 | BRENT: pin canonical sweep and accepted VLO installation
+93458791fc4220ffbf00c77408ae605339c89c01 | 2026-10-14T13:55:33-04:00 | BRENT: reconcile accepted VLO installation across live readers
+9d7f9735a57fd03e27bb2cd6a18087515c2abcb9 | 2026-10-14T13:51:29-04:00 | BRENT: reconcile trade thesis and demand readers with completed October14 work
+93eb58ac2a5d0a4ce8b0044619a8299b438614ec | 2026-10-14T13:37:51-04:00 | BRENT: fold option continuity study into pinned brief
+cb6a3b9a013cd3a61bd544614dc8d0f8d7ab35ef | 2026-10-14T13:37:03-04:00 | BRENT: compare continuing energy option exposure with current chains
+a3da53012a1a6b18e72fd82ba4c365e2e37d33e4 | 2026-10-14T13:11:05-04:00 | BRENT: fold shipping result and October15 preparation into pinned brief
+235fee72ec7395cc684c374bcb636745675df6eb | 2026-10-14T13:10:00-04:00 | BRENT: check shipping transmission then prepare October15 evidence read
+51c35cacc2c2598bc74816a1ffae23a175a1a8ef | 2026-10-14T12:35:08-04:00 | BRENT: fold shipping and fuel transmission into pinned brief
+5e0af00ad858c5a4c043830055bc3c25171a0118 | 2026-10-14T12:35:08-04:00 | BRENT: rank today attention and consume shipping CPI OMR intake
+8e2b066e699429f4780c0914af958d23131d0724 | 2026-10-14T12:28:41-04:00 | WALTER -> fleet: route October14 morning releases and19 bookmarks
+675d5ebbd483640ef605b09ae62a1c978297c2ff | 2026-10-14T12:18:26-04:00 | BRENT: fold call reflection into pinned handoff
+826c66e7a452d67b65de18867a88e49d37eed356 | 2026-10-14T12:18:26-04:00 | BRENT: reflect on USO call outcome and tactical payoff framing
+68e9cbf70296d202f52bd2f5564f468e7461a4c5 | 2026-10-14T12:14:42-04:00 | BRENT: fold October14 OMR into pinned cross-domain handoff
+f0fa7ac6e364b9e894100ece925d0b72012f5553 | 2026-10-14T12:13:19-04:00 | BRENT: read October14 OMR and refine crude versus diesel recovery
+52b7248c7084b7cab2ce6c344ada83d0372ec62d | 2026-10-14T11:57:47-04:00 | BRENT: fold final intake closeout into the pinned NEXUS handoff
+0b383101245ba35bed12a7fed0bd4d96fb48f6bf | 2026-10-14T11:57:24-04:00 | BRENT: fold final intake closeout into the pinned NEXUS handoff
+1ec4d7a5266b9d79302e9ed4f175f8b956c99c23 | 2026-10-14T11:51:40-04:00 | BRENT: close out with completed WALTER intake and preserved evidence duties
+03edfba0485b8d0f7ec8248e8ab10f2ea3523745 | 2026-10-14T00:41:07-04:00 | WALTER -> owners: process 72 bookmarks into 21 signals and 53 handoffs
+c4c0f593ec4ff7c5f126fb4e402f7ca78c76f568 | 2026-10-13T23:05:03-04:00 | BRENT: fold verified holdings and news-coverage gaps into NEXUS
+529b007bb16482a557f8a246f77d8270da58d885 | 2026-10-13T23:03:39-04:00 | BRENT -> PROME: reconcile holdings, source continuity and news coverage
+53dc4b7ff13a59c0c92278a865379478762dddce | 2026-10-13T21:39:58-04:00 | BRENT: preserve IEA duties after the final DEWEY return
+1ce834c41a2a85863599f99f562e581ae08350d9 | 2026-10-13T21:33:58-04:00 | BRENT -> PROME: close DEWEY dependency and retain company-evidence WAIT
+31397158f3b704049b4c1459eb36fe0cdeece9a8 | 2026-10-13T20:12:31-04:00 | DEWEY -> diesel owners/PROME/WALTER: final report and closeout
+5b332ddfea64b0e921561702f8a0b94bdce5ecf3 | 2026-10-13T20:05:07-04:00 | WALTER -> BROCK/SHADE/BRENT/REGINALD: route October13 bank, diesel and insurer evidence
+56626a10b6300c53b85ec80e67e819850289c7ac | 2026-10-13T19:57:38-04:00 | BRENT: record verified energy-research publication
+1abd16cb37a63d8d685107c1d5a89082b55b5388 | 2026-10-13T19:38:14-04:00 | BRENT: receipt and archive the published DEWEY checkpoint
+dbd3d38e36c611dbe1eff05f08f82dbf7b3d9ac4 | 2026-10-13T19:29:48-04:00 | BRENT: fold energy evidence into the pinned NEXUS handoff
+e40ea12fbf0475f7fd00c30f38379fcade7d465e | 2026-10-13T19:22:31-04:00 | BRENT -> PROME: retain energy WAIT and prepare October 14–15 evidence
+86686cdb360e819150d3739e88d807ff3aec0209 | 2026-10-13T19:22:24-04:00 | DEWEY -> PROME/WALTER and diesel owners: delivered supply checkpoint
+635bbb0106c21dd08d97f570c612e148c6c8d3d9 | 2026-10-12T21:05:27-04:00 | WALTER: read48 bookmarks, route13 qualified updates; consume:WALTER
+6db3b1dedcbb3ba3cd4c1872113942a181519634 | 2026-10-12T17:13:17-04:00 | YURI -> PROME/OSPREY/BRENT/DEWEY/HAWK/HANS/NEXUS/WALTER: review actor and diesel instruments
+34e4dbde49068db0d1c010d2be7332214f5f2c6d | 2026-10-12T15:56:09-04:00 | WALTER -> PROME, DEWEY and recipients: verify live basis and route ordinary intake
+42c6af6abe8cc9551932d44117788611c315eed3 | 2026-10-12T15:25:30-04:00 | DEWEY -> BRENT/TERRY/OSPREY/YURI/HANS/WALTER/PROME: advance diesel cargo evidence and CATO receipts
+9bcc91c6d1bad0a145956ac19117a487a74e7658 | 2026-10-12T15:18:39-04:00 | BRENT: retain confirmed closeout publication receipt
+a54231b358caf8b9b8aa8925f4930b98071fc2ca | 2026-10-12T15:17:06-04:00 | BRENT: save closeout notification and remote-check receipts
+f23f7eed921651834023b14c9c67e8b9f49af2ea | 2026-10-12T15:15:41-04:00 | BRENT -> PROME: close out computer-switch session and preserve owner receipts
+96e7a9de43fa21b6c524fbe42c3faf69e39c5875 | 2026-10-12T15:09:34-04:00 | BRENT: record authorized shared-train checkpoint handoff
+9b86f1062ca07a9b9d0f1d1c1ffd7bd46f302974 | 2026-10-12T15:08:06-04:00 | TERRY -> PROME,BRENT: deliver desk sweep and prospective UNKNOWN grade
+40da4e48996d9efc95d281a14f781922642bc90f | 2026-10-12T15:06:03-04:00 | BRENT: continue existing afternoon source and owner-grade read
+c478d0ed88bec34c23e6d7c2ce4bc0cec14ef291 | 2026-10-12T15:01:14-04:00 | BRENT: preserve local audit handoff notification receipts
+9232d7829281b056c6d0484436b66028e236f429 | 2026-10-12T15:00:44-04:00 | DEWEY -> PROME/WALTER/CARL/HOMER/REGINALD/BROCK/LIQUID/NEXUS/BRENT: repair desk audit findings
+0be1518003424906571db414b1477ef1c16f0bb2 | 2026-10-12T14:59:54-04:00 | BRENT: audit desk health and reconcile completed obligations
+2d136fced2d731900e362e82c30d949089efdeb6 | 2026-10-12T14:23:08-04:00 | DEWEY -> PROME/WALTER/BRENT/TERRY/OSPREY/YURI/HANS: preserve diesel evidence checkpoint
+c4eec5acf209ebc84f3b6f947d81180f5bb73c5b | 2026-10-12T14:11:00-04:00 | BRENT: record accepted L694 handoff notifications
+b6aac51051eeb857e7953f1579c2b2e37a4f7b9c | 2026-10-12T14:10:03-04:00 | BRENT: deliver L694 energy wait disposition to TERRY and PROME
+39fd03670a4d51e127475ed13cf2099b128f16d5 | 2026-10-12T14:05:24-04:00 | WALTER -> BRENT/TERRY/OSPREY/YURI/HANS/PROME: retain partial diesel return
+7a7334af575424e111e7358fe5f8b98fb73ec0fe | 2026-10-12T13:55:16-04:00 | WALTER -> PROME/HANS/OSPREY/VULCAN: finish scoped boot recovery
+9dedd595b039703b437f582d399592cff7fbb3e1 | 2026-10-12T13:48:26-04:00 | TERRY -> BRENT,PROME: deliver BNO construction review with pricing limits
+1cdd6aacb6d751bc41bdaefec1407e3e5ecb40e0 | 2026-10-12T13:47:43-04:00 | DEWEY -> HANS: refresh DR4 storage model; correct peak horizon and FRED diagnostics
+ceb81bec841635d78451b33cf494c92af2faf1bc | 2026-10-12T13:45:07-04:00 | BRENT: update thesis v5.12 and trade expression assessment
+8def0078177b44aec9f1627a94e408e2e7657fb8 | 2026-10-12T13:32:26-04:00 | BRENT: clarify candidate shortlist versus purchase recommendation
+27519f048b44b32412ffdb3a393bd88f96ebf5cc | 2026-10-12T13:28:31-04:00 | BRENT: distinguish USO from Brent exposure and option horizon
+89d77ba1dd6ea4f9eba398e57749fac901f1557e | 2026-10-12T13:20:36-04:00 | TERRY -> PROME,REGINALD,BRENT: deliver L694 feasibility and missing-stage pointer
+0791724fd53e60e827efcd3212f58889b3a0373f | 2026-10-12T13:18:37-04:00 | BRENT -> PROME: reconcile Iran owner research and flag refresh gaps
+069f3c1d1e0d34291f566529de3723432061dc52 | 2026-10-12T13:12:12-04:00 | BRENT: assess Middle East and Panama compound delivery risk
+9ecd517245ac94dfe5f510af2883110d2074e63d | 2026-10-12T12:59:46-04:00 | BRENT: assess USO upside against crude and product evidence
+95b4f12b98c8da8c4f45460d70e742aaccb78805 | 2026-10-12T12:50:33-04:00 | BRENT: distinguish Russian diesel reaction from Monday crude rebound
+1feca24fcfd4552ffd4d6502e0afe323f7d3fb09 | 2026-10-12T12:46:23-04:00 | BRENT -> PROME: recover fresh-context state and record boot identity
+f0077565aafd627fef41b2a901c89b71b38ac03f | 2026-10-12T12:21:53-04:00 | BRENT: preserve actual PROME context-reset closeout queue receipt
+32d297d6d43b996a239cf45e6fecd55869617696 | 2026-10-12T12:21:28-04:00 | BRENT -> PROME: close out for Will context reset, preserve L694 and afternoon work
+1926850f2939f8253c031f12e6a2027160efbe24 | 2026-10-12T12:13:11-04:00 | PROME -> TERRY,BRENT,REGINALD: start approved opportunity-discovery pass
+108d764c75f209c1d1f0ce2e1c4905c472cad56a | 2026-10-12T11:22:50-04:00 | BRENT: record L689 queue notifications to existing TERRY and PROME owners
+d8420f2237e261ba39b5499de25b09fea3048c86 | 2026-10-12T11:21:40-04:00 | BRENT: deliver L689 conditional refiner screen with relief and disproof evidence
+f818bf6a3099bfe024ea6072a7d9b6352b96fb44 | 2026-10-12T11:12:15-04:00 | WALTER: process three YouTube transcripts at primary sources and route new evidence
+de7999fe20064273549c030e6b9e7d83fb94d4af | 2026-10-12T11:05:34-04:00 | BRENT -> PROME: accept Will-approved L689 and preserve L633 obligations
+acbb3931db75da0b5340ba2ff8d42d75cd6021e4 | 2026-10-12T11:04:15-04:00 | PROME -> BRENT: commission approved energy opportunities memo for TERRY
+50ed805520edfe3bf92c38bdb2a8a9ce6f10c2e9 | 2026-10-12T11:00:12-04:00 | WALTER: correct closed USO call disposition and broker-time inference
+6da87d73fb3c24c51d8aaba157262174e55dce51 | 2026-10-12T10:59:38-04:00 | BRENT: record accepted Codex queue status reply to PROME
+5fa5cdb1c12f43efb6438fed2f9adc7ff1d95941 | 2026-10-12T10:58:32-04:00 | BRENT -> PROME: answer desktop status request without repeating completed work
+c394311dc8168496715e351033e048739469966e | 2026-10-12T10:54:44-04:00 | BRENT: recover Monday work, inspect CSVs and deliver partial L633 read
+5a9f78a43f8f76d0628820a983574070331073c8 | 2026-10-12T10:51:11-04:00 | WALTER -> LIQUID, BOND, FALCON, BRENT: route Monday intake and transit vintage warning
+ad52c2b958e3b58dfb2c8f41f9ae734f4cdcb3d0 | 2026-10-12T10:13:23-04:00 | BRENT: close October 12 morning session with dated handoff
+642232a284fd935748551d0d85ac5070763af01b | 2026-10-12T10:07:36-04:00 | BRENT: refresh Monday oil tape and verify Shell and Sohar updates
+e7f5b979ca75dc755e24ad29613d05f3b871c497 | 2026-10-11T21:26:11-04:00 | BRENT: reconcile evening oil relief news and stock-release accounting
+2e0c7569a6f939297a1783901fe7a45d76afec6a | 2026-10-11T19:19:59-04:00 | BRENT: boot October 11 evening and reconcile USO contract receipts
+ac41f8235f7f688723020939d22891a4d7fe83a4 | 2026-10-11T18:23:30-04:00 | WALTER -> BRENT: SIG-W-20261011-008 Sunday-evening reopen read (diesel crack -$3)
+5a8168f95404241a0e667f05f8573bde1b98250f | 2026-10-11T17:11:01-04:00 | WALTER -> FALCON, BRENT: SIG-W-20261011-007 Sohar drone hit (Petro Dolphin), Valthera named
+80e61cf0235ed0a6ed5cb5035b3a35bdfb08060a | 2026-10-11T16:41:21-04:00 | WALTER 10/11 Sunday boot: six dispatches, REG-T-06 cache refresh, Iran anchor limbs + rotation
+2a66551e8752c94870de6e8d218da106dc2314b3 | 2026-10-10T14:31:42-04:00 | WALTER: SIG-W-20261010-008 Baltic wk41 tanker prints -> BRENT; tanker watch updated
+c2213e36f77cf1b1782625cf4c03e4f7ebd860f2 | 2026-10-10T12:18:09-04:00 | FALCON -> BRENT: Ghawar GOSP-flaring inference after Shedgum fire (INFERRED, heat only)
+0e7e584d12d1dffced104242a9af962f7f6d1168 | 2026-10-10T12:14:46-04:00 | BRENT: correct 10/10 closeout stamps to the wall clock (12:15/12:17 -> 12:14 EDT)
+b491e0f538eb086c36219bddd78de6be41c5178c | 2026-10-10T12:14:24-04:00 | BRENT: 10/10 closeout tail - TRACKER brent-58 grader, SCRATCH, NEXUS C6(b) + rotation, inbox
+fc0362a3253fe3744d56bf9f013bc7edc112c25f | 2026-10-10T12:08:40-04:00 | OSPREY -> BRENT: refinery/terminal state behind GL 135; Azov lead open; ask 4-wk to 10/11
+4d33524053dbe983079dde1de8ea39af30ebb9d8 | 2026-10-10T11:57:43-04:00 | AEOLUS -> BRENT: strong-El-Nino winter HDD composite vs official forecasts
+676d756fc45c1969c57e784e2e65cc0547bbe931 | 2026-10-10T11:47:20-04:00 | BRENT: STATUS Oct-10 block, Oct-9 AM rotation, Isaias partial grade, GL135 row
+8c47f8b5c00ec5d630fcd20744c2bb1046bca357 | 2026-10-10T11:45:26-04:00 | BRENT: OFAC GL 135 diesel read, Isaias restart state, freight verify; inbox drained (7)
+305510d1e786bae9a939a078c5c99877ded2b1bb | 2026-10-10T11:38:09-04:00 | WALTER: SIG-W-20261010-003..006 from Will's 32-item X-bookmark batch (closed 32/32)
+49ac15089655d0fcd3bf1060743a7edc4f1bfa28 | 2026-10-10T11:33:29-04:00 | WALTER: SIG-W-20261010-002 IMMEDIATE Iran/Saudi 10/10 (Ghawar gas-plant fires, KKIA, Aramco)
+ab52bc2ec651d53e1d6b9d59744ddd63d161ae30 | 2026-10-09T21:35:53-04:00 | AEOLUS -> BRENT: Isaias landfall near Destin + MMA 10/9 71.51% at primary
+216ec260dd81efbeecee548d475c084ecde9f912 | 2026-10-09T18:21:11-04:00 | WALTER: weekly tanker review 10/9 -> SIG-W-20261009-015 (freight new high)
+f55884c39d52da85b6d456ff8bc124792abcd3f9 | 2026-10-09T17:51:55-04:00 | WALTER: 10/9 evening boot; -011..-014 (Isaias Cat 3 landfall, Oracle gas, SKEW watch, RU)
+7cbe5e7eb50acda65f773204a1ef0d4fb7b333c6 | 2026-10-09T16:35:02-04:00 | PROME -> BRENT: COT #9 grader identified (brent-58); L526 sixth instance annotated
+9860b77ffb6121db5758e153785267989f969174 | 2026-10-09T20:24:09+00:00 | BRENT Friday routine: COT vintage #9 confirmed, rigs 462(+6), EasyJet flag
+f50d59625a6fc3b8c5bb40380f242e1137677787 | 2026-10-09T15:30:36-04:00 | BRENT: COT-35B #9 (as-of 10/6) graded JOINT NOT-SPENT, 3rd consecutive
+332d877caf0c525647c17d66b8e84482e42c98d5 | 2026-10-09T14:45:22-04:00 | BRENT: 10/9 settle-window crack EST Nov $107.16 / Dec $101.69 (L659 item 3)
+6c0db64fe22a5d140d4d6665bc0b72baa5f54bf1 | 2026-10-09T12:44:40-04:00 | BRENT: MMA 10/9 Isaias shut-in 1,458,814 b/d = 71.51% (BSEE primary)
+165292962288c1af481c8335972ad8a1501d4f90 | 2026-10-09T11:19:16-04:00 | BRENT: closeout 10/9 AM — SCRATCH, NEXUS C6(b), TRACKER, TRADE, RULINGS, rotation
+1b70f10999f0aedb64dbd055327b9a72be274b90 | 2026-10-09T11:12:21-04:00 | BRENT: research note, structural freight/insurance cost after reopening
+d5d018aae326be0ffed1fbd09f9c7b416b494b8c | 2026-10-09T11:07:45-04:00 | BRENT: STATUS freight + war-risk line (FT 6-10% hull; Baltic wk41 bot-gated)
+303f3b241e2236bab1782904d9838f609d324fda | 2026-10-09T10:54:49-04:00 | BRENT: grade China export row (~3.7 Mt Oct approved); SPR awards still open
+0068cabc51918b80fdb5e9d79a3d12d7b49251be | 2026-10-09T10:33:21-04:00 | BRENT: #8 switch date (BZZ26 LTD Fri 10/30, Jan legs from 11/2); consume -008
+e3e34991e1d981c3eb29fe564989b642e5059e46 | 2026-10-09T10:32:02-04:00 | WALTER -> BRENT: boundary #6/#8 RULED by Will (routing v0.41, SIG-W-20261009-008)
+bcb5783b5e2a6772fe8c169e0c594977d78161ff | 2026-10-09T10:31:11-04:00 | BRENT: re-verify 5 aged ACTIVE incident rows; RF-022 refreshed to 04-21
+94539da095e713cd4c781010657d1ce359776006 | 2026-10-09T10:28:16-04:00 | BRENT: STATUS rule-5 rotation 89% -> 69% of read-cap budget
+aed5d7f20691eb89b3e38109e6077aac48fd9e3a | 2026-10-09T10:27:28-04:00 | BRENT: Dated Brent >$120 self-correction; prune 9 graded catalysts
+f35d5cc4a6835e0572c161641ae59fa9a00a5b9a | 2026-10-09T10:27:28-04:00 | BRENT: lessons index semantic reconcile; separator lint hid L05 from --spec
+085bac42a79b2530a81356f5d871095b267d9d55 | 2026-10-09T10:24:11-04:00 | BRENT: cot_grade Leg-B exact rational compare (DAEDALUS L546) + edge test
+a16831e82943c61ea7eec0814a023033a1f631ad | 2026-10-09T10:14:39-04:00 | BRENT -> OSPREY: 3.76 not confirmed; Oct-9 AM STATUS, NEXUS settle answer, inbox
+6306885b3f2a4c04f637a84b276fbc86b5690f4d | 2026-10-09T10:11:11-04:00 | OSPREY -> BRENT: C2 killed 10/9; confirm 4-wk 3.76 to 10/4; Volgograd halt verified
+8100f74f80f552e9caca85f118175b28007fca22 | 2026-10-09T10:06:34-04:00 | WALTER -> AEOLUS, CORAL, BRENT, FALCON, SAM, VULCAN: morning sweep -004..-006
+4994ec168bbfe38be30a00d7a39655ca3ec46cde | 2026-10-09T10:06:11-04:00 | NEXUS -> PROME, BRENT: PRED-50 grade memo, WQ-341 attribution asks, BZZ26 settle ask
+d82939a449aaebe4e0fa87c3ef698fd8a032bfd2 | 2026-10-08T20:45:04-04:00 | WALTER evening sweep 10/8 (16:20 ET onward): SIG-W-20261008-046..052
+58e46b47f55ce8ec6b68e69c6b8694e6fa0cdfc2 | 2026-10-08T18:53:23-04:00 | WALTER -> BRENT,FALCON,BROCK,VULCAN (+info): SIG-W-20261008-042..044 evening lane sweep
+7f98d1bb0e8838b50ae5151c77a3eb1c3322999d | 2026-10-08T16:42:46-04:00 | BRENT: 10/8 PM wake - Isaias shut-in 62.89%, settle-window crack, COT-35B base, inbox drain
+ab71f28e0e8bf202d379bd8acbb14e477ea3a343 | 2026-10-08T16:32:35-04:00 | WALTER 10/8 afternoon sweep: 7 cards -034..-040 (Iran, Isaias, 30Y, gilts, AI)
+ce1ffb4a92cff939e4a05dd22def5201f5d04e5c | 2026-10-08T15:49:40-04:00 | WALTER -> ALL ACTIVE + Tier-2: SIG-W-20261008-033 WQ-399 receipt command
+c00ccb6b20f0334919633b20da638f81a72cb5a4 | 2026-10-08T15:19:41-04:00 | DAEDALUS -> HANS, SAM, MIDAS, TERRY, WATT, ORACLE, RED +7: L546 float-tie asks
+00cb18c9f28172ca55f022e9c5ea14baef71ce02 | 2026-10-08T12:01:33-04:00 | BRENT 10/8: triage WALTER -023 (info), -027 (info), -028 (acted, freight basis-check)
+4abbe5c737f2a380fbe7bec23b95a31ba67ba0e8 | 2026-10-08T11:59:32-04:00 | BRENT 10/8: integrate AEOLUS Adv#8 primary read (refines Isaias geometry), ACTED
+888f215e90ab6104b1fd6b2ee3a58e49f8929277 | 2026-10-08T11:57:59-04:00 | AEOLUS -> BRENT: Isaias NHC #8 theater update, Pascagoula geometry, no MMA 10/8 release
+ac132df0a30a2bdbea583642cc28aa914e9fadd4 | 2026-10-08T11:57:37-04:00 | BRENT 10/8 closeout: TRACKER alert-line re-stamp (2nd session, SCOPED-PARTIAL)
+cb1ccc6b17bf35d46d9828af7d40ae363a343764 | 2026-10-08T11:56:02-04:00 | WALTER 10/8 broad sweep: 8 cards -022..-029 (Europe, RU energy, AI fin, more)
+fac2a342e38f3b2e8e02706e941a8a53f75b9ffd | 2026-10-08T11:49:57-04:00 | BRENT 10/8: process WALTER SIG-W-20261008-020 (Iran/Gulf PM update), ACTED
+45bd1ffb30cc299377193b9bcad4a89027f9447e | 2026-10-08T11:46:37-04:00 | BRENT 10/8: process WALTER SIG-W-20261008-019 (Isaias hurricane upgrade), ACTED
+f0a624bd1258a48aa0b259d674c3df219f11fdfc | 2026-10-08T11:45:30-04:00 | WALTER -> FALCON, BRENT +2: Iran/Gulf PM update -020 (IMMEDIATE), anchor limb
+e8413e193e1c891ad67f57592a93dbdd0b3a7bde | 2026-10-08T11:42:17-04:00 | WALTER -> AEOLUS, CORAL, BRENT +7: Isaias now a hurricane (-019, IMMEDIATE)
+dbc40d0c438298d78a8267228e3e6227500cbedf | 2026-10-08T11:10:40-04:00 | BRENT 10/8 2nd session: Isaias channel/scenario framework + COR-20260921-16 NO-OP receipt
+cfbfbad84b478c5bde134cd456e419df007313d1 | 2026-10-08T08:47:45-04:00 | BRENT 10/8 closeout: STATUS/TRADE/SCRATCH/NEXUS/TRACKER/CATALYSTS write-back
+767192ebb616339a390479f38d8b85ae08f38299 | 2026-10-08T08:45:26-04:00 | BRENT 10/8: oil read (Hormuz+Isaias), drain 6/6 (5 WALTER + AEOLUS)
+b154f423150f7b233b313f974894d3b3d5ecb631 | 2026-10-08T08:38:11-04:00 | AEOLUS -> BRENT: Isaias Gulf theater at primary for your shut-in read
+4608a0e78dfabc10ec8457d4a42cc5216cedd479 | 2026-10-08T08:25:51-04:00 | WALTER 10/8: Iran full sweep (-014), diesel (-015), anchor re-stamp, Tier-1 flush
+45b3201340e9cfe25e28aee7e4c1c5d122ed3f1e | 2026-10-08T08:16:22-04:00 | WALTER 10/8 boot: 13 dispatches (Isaias, Trepp, OZK, freight, gilt, AI, plague fix)
+798543987bfa2c5870630a9f093117eb2f2e3c04 | 2026-10-07T20:47:10-04:00 | BRENT -> PROME: deliver full closeout and pin final NEXUS to current STATUS
+13516563b2d18e805345e637314983122fa5a423 | 2026-10-07T20:45:07-04:00 | BRENT: complete full closeout writeback and restore verbatim archive integrity
+b85b829b9b6dc763b98de7a5b288e811b6378f90 | 2026-10-07T20:04:06-04:00 | BRENT: verify findings in live documents and reconcile publication continuity
+d10bf9503cd8b680b163b6a2470ebb726fc52bfd | 2026-10-07T18:28:09-04:00 | BRENT: finish four receipted WALTER packet archives
+813ee8a052c4eca9af934ea8151d7ec00cc60668 | 2026-10-07T18:25:18-04:00 | WALTER: persist four October 7 BRENT source handoffs
+bfa187b250857ac9318d89ac220e35c5bad7143f | 2026-10-07T18:10:51-04:00 | BRENT -> PROME: deliver recovered energy catch-up and current NEXUS brief
+88364423e154e12d72f749370d2c28f7e5dc2279 | 2026-10-07T18:03:04-04:00 | BRENT: integrate qualified minister recovery report and retain fire verification gap
+fd9a422e35af590ed6603685d16aea3f39f6150a | 2026-10-07T18:01:40-04:00 | BRENT: integrate October 7 energy evidence and preserve approved management
+7ba94134b9666cae44131b3ba570ee887d6ac7ba | 2026-10-05T10:53:40-04:00 | BRENT: reconcile handoff references after publication rebase
+73ed595e83c075e17fe8b4c007ac09ed5c4c101f | 2026-10-05T10:36:44-04:00 | BRENT: fold corrected closeout into NEXUS
+d2370de18e802b91aecf9b12e5903f6524a5e376 | 2026-10-05T10:35:37-04:00 | BRENT: repair missed closeout intake, retention and decision-record steps
+342bc82ce7838fa2f5490551ea76c8c99e6a7458 | 2026-10-05T10:30:17-04:00 | BRENT: save owed tasks and close the October 5 session
+e56aa9b0299d465a06d664f1a76447f8fa60d716 | 2026-10-05T10:25:49-04:00 | BRENT: fold inbox and task audit into NEXUS
+56e22cebdc8510fcf5ce226625af0d8851b9baea | 2026-10-05T10:25:45-04:00 | BRENT: reconcile inbox inventory and owed-task priorities
+a32b7901e4b30f1f7f2af540e7a69127afca0708 | 2026-10-05T10:18:20-04:00 | BRENT: record deferred late freight intake
+9475587cfef82fae72bb0229214e1e6d78d252ec | 2026-10-05T10:14:47-04:00 | BRENT: align NEXUS with the explicit overall assessment
+8554b4210463dbdc5ba4a202359a4491a3ae8a9d | 2026-10-05T10:13:55-04:00 | BRENT: make the October 5 overall assessment explicit in core files
+f72bb32104c281c5581a21b3ee0bdc15245b26cf | 2026-10-05T10:04:49-04:00 | BRENT: fold market-open evidence into NEXUS brief
+cecf4a7f4ed73425de360491904dcc397eb1bd30 | 2026-10-05T10:02:52-04:00 | BRENT: refresh October 5 market-open data and reconcile current reader paths
+42c9fc2929afedb4b6b189b94b557679f06218a9 | 2026-10-05T13:57:44+00:00 | BRENT: Monday 10/05 routine — market pull, M1-M3 fresh, tanker strikes flagged
+53d4ee6cb5627543ed702bd89a63c6ba7cbb233e | 2026-10-05T09:37:41-04:00 | BRENT: complete scoped boot handoff and pin NEXUS to STATUS
+ce4a67ae2c29b66db6a55618939a6e40e0bd235d | 2026-10-05T09:35:40-04:00 | BRENT: record scoped Codex boot and preserve approvals and deployment deferrals
+89a310384ebca519350da3e1bc584a8d9a719a13 | 2026-10-04T23:31:55-04:00 | BRENT: grade Aramco November pricing signal
+d22ca710fbe8bf914a05b3a0faa5b67d50f6d66b | 2026-10-04T23:04:48-04:00 | BRENT: record unresolved live routine deployment
+7a38294872b9ec65e0820652ad30f42d8b9f3971 | 2026-10-04T22:53:13-04:00 | BRENT: close CATO October 4 correction findings
+5f7233fb7c5c1473d232ded65c1320affd3d06ea | 2026-10-04T22:23:19-04:00 | BRENT: repair file sweep defects and record residual debt
+37ab9c3788625d1c4b5ef4db3b5fab3a6ea06265 | 2026-10-04T21:57:40-04:00 | BRENT: record Sunday evening futures and Gulf evidence
+e3bfd7c5ac4c062070d605aefb60881251a7c41f | 2026-10-04T17:54:53-04:00 | WALTER: dispatch -014 FALCON Khurais-corridor FIRMS finding -> BRENT+HAWK (before Monday open), TERRY info
+907e29ccc14a701e5097c91db5912e41f88faf70 | 2026-10-04T17:41:40-04:00 | WALTER: CATO correction pass -- fix ISM + Iraq interpretations, add provenance/read-state, re-attest boot-basis
+77b940a2a375c99d5f1382f630b2f3aae78d8ab5 | 2026-10-04T16:42:57-04:00 | WALTER boot 7h: 14 X-bookmarks -> 4 dispatches (-010..-013); Iran cluster verify-checked at primary; BOARD 1211->1215
+ea7f25bcc6378cf525e2c1f2af47157bde4626a9 | 2026-10-04T11:45:09-04:00 | BRENT: D:L297 OPEC+ November graded — outcome (1) HELD; L0 drain 10/11
+bcc78ca7b850f75c6b8dd4291d9d4e28b644b440 | 2026-10-04T10:54:53-04:00 | WALTER: 6 dispatches from Will 10/04 X-bookmark drop (BM-20261004-02, 12/12)
+38d1e705ca0387d8ee69de25dda5525019b933c1 | 2026-10-03T21:12:01-04:00 | WALTER walter-f0: x-bookmarks LIVE TEST — tool caught 25 new, BM-20261004-01 CLOSED 25/25, 4 dispatches
+103d42a62e52bf722e2551c5bae0f309c26eb62d | 2026-10-03T19:17:41-04:00 | WALTER walter-f0: -003 Riyadh-refinery re-route to BRENT/TERRY (PROME flag) + PROME pre-fetch annotations on -012/-013
+d2d1335f8c6e78f6fcf13f651ecd569bed77c187 | 2026-10-03T19:04:43-04:00 | WALTER walter-f0: Will 6-image Telegram batch -> 5 dispatches (-012..-016), BM-20261003-03 CLOSED 6/6
+1e078e7ffe37045a06a61e2327eb9e4aeec3d710 | 2026-10-03T17:02:18-04:00 | WALTER walter-f0 boot 10/3 PM + lane dispatch: SIG-W-20261003-011 (US principal confirms NO diesel-export ban -> closes -027 US-unconfirmed caveat; de-escalatory, VLO-gate-relevant)
+633a83fcf6f64dcef2865d92a26b13f4b200f7e2 | 2026-10-03T15:44:39-04:00 | WALTER: route 2 dated research leads from bookmark diagnostic (-009 JPM oil, -010 Guggenheim); BOARD 1190->1192
+7219d454b6f83ac0442e708721564c0432b05887 | 2026-10-03T14:02:06-04:00 | WALTER: X-bookmark backlog slice - route 6 (-003..-008), annotate -002; BOARD 1184->1190
+3dbff86ec65918984fed50999cb7aa4db8f64c87 | 2026-10-02T17:52:00-04:00 | BRENT: re-point rebase-orphaned commit refs (3f66ae504->1857731ff TERRY grade, 9e97bb5b4->9f50d787e)
+99a978b0c3f34b83d0f3f9f4d6c5d11ead97f8c9 | 2026-10-02T17:28:34-04:00 | BRENT: cloud routines - 9/9 timing/publication repair INSTALLED (Will: "Install now" 10/02)
+721cf49121648e5c2794b9fc77dd1b4611ce9f48 | 2026-10-02T17:22:14-04:00 | BRENT: SCHEDULED_RUNS - live routine config read via RemoteTrigger (matches mirror; 9/9 fix still not installed)
+65a6ee7a9b3b966d6c8520bcde8ae6976c39c33e | 2026-10-02T17:22:01-04:00 | BRENT: DEMAND_COMPOSITE retail row -> EIA primary (diesel record $6.529 wk-9/21, $6.382 wk-9/28)
+a207f686233a2294257b1cfa6a34cbfb559941c8 | 2026-10-02T17:21:04-04:00 | BRENT: REGISTRY - 22 live price/FRED rows observation re-verified 10/2 (last_verified 8/4-8/13 -> 10/2)
+68aba4ec3ef1445ffb77057ba0f17402b5936f15 | 2026-10-02T17:13:54-04:00 | WALTER: dispatch -033 FT Arctic routes boom (NSR) -> AEOLUS
+3e07f4f78a04699f8e39016088d9f52558e07069 | 2026-10-02T16:56:55-04:00 | BRENT: stale-data sweep (Will) - STATUS/NEXUS PM write-back, forward catalysts, THESIS vintage clause
+4919722518bb60561a24231ed05dee23a3325ce1 | 2026-10-02T16:38:04-04:00 | BRENT: consume WALTER -029 (correction to -028, info)
+42a5b3bf94246fd7594e6cd5eb805173fc4c5b23 | 2026-10-02T16:37:56-04:00 | WALTER: -029 CORRECTION to -028 - Brent basis was post-settle; settle-window Brent flat, WTI ~-1.9% (BRENT caught)
+f23749aa4116133f6afff068dac556b9a84cccaf | 2026-10-02T16:37:08-04:00 | BRENT: consume WALTER -028 (Brent 102.88 is post-settle; settle-window 102.16)
+1be2ca661c837c7b1c75dd933d35912a161ea4c1 | 2026-10-02T16:36:42-04:00 | WALTER: -028 close update - 10Y rally reversed (+4-5bp on a jobs miss), Brent erased G7 drop (BOND/BRENT)
+3dc6c699927e29439104737965dcdffec195ff8b | 2026-10-02T16:01:23-04:00 | BRENT: consume WALTER -017 -018 -025 -026 -027 (Hormuz hits, NYT attack rate, tanker cyber, -023 fix)
+ea350e5c09dfd4b1327444ff9d26c4c173517c13 | 2026-10-02T16:00:57-04:00 | WALTER: -027 CORRECTION to -023 - LatAm not established as 'non-allies' (BRENT caught); dispositions
+1350afb022a6f23a6001fac954f84524eaca93fd | 2026-10-02T15:59:54-04:00 | WALTER: -024 Toshiba HDD/STX-WDC -10% (VULCAN), -025 NYT Hormuz attack rate (FALCON), -026 summer tanker hack (FALCON)
+3a8bc525106e1fbb66a43d8a7de952d339300457 | 2026-10-02T15:58:04-04:00 | BRENT: consume WALTER -023 (G7 no export bans on allies per EU; B1 letter unchanged)
+de8805031cdf51bbaab1ad83370be28f76b962dd | 2026-10-02T15:57:41-04:00 | WALTER: second 10/02 lane batch -> -023 US diesel-ban state (BRENT); 2 kills, 2 folds, 4 dups
+a43e7734772ade3d1af1f18bedaf5873fff3c31c | 2026-10-02T15:33:39-04:00 | BRENT: COT-35B #8 graded JOINT NOT-SPENT (129,436 / 6.8901%); ledger, STATUS, TRACKER line 8
+43622e2d1ecc590489cee2f8ee7628ce59908428 | 2026-10-02T14:41:58-04:00 | BRENT: TRACKER routine block rotated (~60 KB -> ~13 KB), line 7 retired, lines 8-11 refreshed
+32272dbf259bbb711b513c5a74f3f36aac34a74b | 2026-10-02T14:19:38-04:00 | BRENT: INCIDENTS re-verify (11 stale ACTIVE -> 4), +Kuibyshev/Volgograd rows, Jazan catalyst graded
+aa2a9642c1bae34cc72c787d42c06eff8b387a77 | 2026-10-02T18:19:33+00:00 | BRENT: Friday COT/rigs/airlines pull 10/2 — no line crossed, COT owed
+9712522ba28abdeaa40fe817c40b52f5122b3d98 | 2026-10-02T14:12:24-04:00 | WALTER: -018 CORRECTION to -017 - a NEW Hormuz tanker hit 10/02 1122Z (Will caught)
+04fddaca7ebf9b3c625293979e2c49a182ad219e | 2026-10-02T14:12:04-04:00 | BRENT: retire 4 files >60d old with no live-doc reference (closeout retirement rule)
+0a600c0ae00073ae3b02b121a74957b81be741a3 | 2026-10-02T14:11:45-04:00 | BRENT: DEMAND_COMPOSITE US rows refreshed 10/2 (SCOPED-PARTIAL)
+f934855ecb7adb668e384657aa13fc7bc207f43a | 2026-10-02T14:11:16-04:00 | BRENT: grade 5 of 6 past-dated catalysts (ATA, EU storage; 3 closed NO-VERDICT)
+3be543bfc4d85a266d1f2c372499eb144f51bdb9 | 2026-10-02T14:08:06-04:00 | BRENT sweep (Will "go ahead"): retire BRT-26-RIGS, thesis refs v5.11, TRADE re-stamp, charter fix
+1bc810893302229402b88cc03510f84255957966 | 2026-10-02T12:39:12-04:00 | WALTER: -017 UKMTO 147-26 named Kazimah III (KOTC VLCC); no new 10/02 tanker attack found
+14a1d22d116236be6cf7cc16566ac3149c4d90af | 2026-10-02T12:37:17-04:00 | BRENT: consume WALTER -016 (Yanbu terminal-wide correction, info)
+5775407c300cc763847b9a9d868d2f7ce929d296 | 2026-10-02T12:36:45-04:00 | WALTER: -016 CORRECTION to -014 - Yanbu suspension TERMINAL-WIDE (BRENT caught)
+62fe854918fb9496db35b5262ba507c1a58c67aa | 2026-10-02T12:35:15-04:00 | BRENT: WALTER -014 Yanbu strike consumed; berth shadow-run 9/30 pass (pre-strike)
+bf27866cab7ff78919a07da00e93da86a978c823 | 2026-10-02T12:34:30-04:00 | WALTER: lane manual run -> -014 IMMEDIATE Yanbu port struck 10/01, -015 ECB pricing (HANS)
+6a12a8970841aaf2d405d8e0b8763853718bf9af | 2026-10-02T11:17:11-04:00 | BRENT closeout 10/2: STATUS write-back, 8 standing rows re-verified, 3 items ARMED
+555496a568226f2aa051a3c3c9d7055345f5eb33 | 2026-10-02T10:52:40-04:00 | WALTER sweep part 2: -010 Ukraine hits Volgograd refinery + Samara hub (OSPREY)
+422d0ba24eecf88b3bb23133ed627b8c5624742f | 2026-10-02T10:42:14-04:00 | BRENT -> TERRY: G7 release ADOPTED, verified read; VLO-HELD-01 leg A at $95.87
+11570b77e9bf7e185f0fcec7bef7393019de1402 | 2026-10-02T10:40:21-04:00 | WALTER: SIG-W-20261002-009 IMMEDIATE - G7 decided 100M bbl diesel+crude release over 4 months
+e1dc205c41f3f8a051339aef85805d0f0870479a | 2026-10-02T10:38:38-04:00 | WALTER news sweep: -006 CRE cases (CREED), -007 Jefferson (BOND), -008 Taiz (FALCON)
+1ffe243cfbc728d186d36dd3cba2f60a5ecd3d1a | 2026-10-02T09:34:34-04:00 | BRENT: consume WALTER 1002-002/-003; grade CATALYSTS 10/02 EU taskforce row
+ef5856db01e052b4cac712a6b97df2521ffc9b73 | 2026-10-02T09:33:19-04:00 | WALTER 10/02 AM: dispatch -001..-004 (NFP, EU diesel/oil, carrier relief, EA HICP)
+aae01599b783f880717ff3c0bbd0102855b65570 | 2026-10-02T08:39:07-04:00 | BRENT 10/2: 10/1 proxies, Thursday oil move sourced, COT-35B armed, L0 drain 7
+9c9b5497deb0b540d76c9922a590642cad2a5d6a | 2026-10-01T18:06:34-04:00 | WALTER: dispatch SIG-W-20261001-033..036 (UKMTO 147-26 + Yanbu video unverified; PBF; FedWatch; RSP)
+90e4fea86a3328d0c8dd7f48ab112601a43dd650 | 2026-10-01T17:14:10-04:00 | WALTER: dispatch SIG-W-20261001-030..032 (CleanSpark/Meta HY; ECB pricing + NL storage; CA SB 951)
+33898a0791fb90bfb976e7ee0aeb309a6045a37c | 2026-10-01T17:07:31-04:00 | WALTER: dispatch SIG-W-20261001-027 (Petroline ~5.5 mb/d per Argus, one source)
+c9e3df4cdc42c382a57b2e04e71a8d989f3d7f4f | 2026-10-01T16:47:31-04:00 | WALTER: dispatch SIG-W-20261001-026 (US diesel-ban threat to France/Germany; Russia ban to Oct 31)
+b77dd7586e33e2f86a7a0fbcffc9ce5587d4b86e | 2026-10-01T14:33:58-04:00 | WALTER: dispatch SIG-W-20261001-021..024 (9/30 lane omissions: Fairford, Kaliningrad, Ukraine grid, UK cap)
+77b8f8af67440c29f3d7e8027de3cfebfc4a3eba | 2026-10-01T14:23:52-04:00 | BRENT 10/01 final closeout: 10/1 settle proxies OWED (window unprinted at 14:23 ET)
+b4c7d94ba6da4473bb8006f2a541e9163bf88e13 | 2026-10-01T13:33:06-04:00 | BRENT 10/01 closeout prep: STATUS rotation, NEXUS/TRACKER/SCRATCH write-back, RULINGS
+85d7d18781dcfb36e2df8f05a644872ded2772c8 | 2026-10-01T13:29:10-04:00 | BRENT 10/01 L0 drain phase 1: nothing fires; BRT-31 registered; TRADE 159C/150C corrected
+19e3515f9867afc0b6b75bbd73d021bc19cb72c5 | 2026-10-01T13:05:36-04:00 | WALTER: Will Telegram batch BM-20261001-05 (6 items): -019 SPR, -020 Pacific hurricanes
+6425e97c18b5e2cb16002abbdca158ca4e8cbba3 | 2026-10-01T12:49:43-04:00 | WALTER: Will Telegram batch BM-20261001-03 (8 items): -015..-018, 2 kills
+e5dfbfa12fe051179ce7537e284c1aa00c7cd8fb | 2026-10-01T12:34:14-04:00 | PROME -> TERRY, BRENT: 10/1 partial sales (QQQ 740P x4, USO 150C x1); stale-quantity corrections
+cc5c6cdd9ac2d2a547cd7f6f40a1e66bd98ec8ce | 2026-10-01T12:31:40-04:00 | WALTER: Will Telegram batch BM-20261001-01 (7 items): -007, -008, -009 dispatched
+5afc4c1021fbdd4b338d0da6391d880206a8aa0b | 2026-10-01T11:15:54-04:00 | WALTER 10/01 Iran full sweep: -001..-003 to FALCON (Hormuz hits resumed, US response, Ghawar-area plume)

@@ -1,0 +1,499 @@
+[
+  {
+    "path": "SAM/scripts/closeout_check.py",
+    "start": 464,
+    "end": 490,
+    "group": "repeated-mechanics candidate",
+    "family": "TSV-width/CR"
+  },
+  {
+    "path": "SAM/scripts/closeout_check.py",
+    "start": 516,
+    "end": 534,
+    "group": "repeated-mechanics candidate",
+    "family": "ordering/tree"
+  },
+  {
+    "path": "SAM/scripts/closeout_check.py",
+    "start": 553,
+    "end": 585,
+    "group": "repeated-mechanics candidate",
+    "family": "delegation"
+  },
+  {
+    "path": "BOND/monitors/closeout_run.py",
+    "start": 74,
+    "end": 122,
+    "group": "repeated-mechanics candidate",
+    "family": "process/classifiers"
+  },
+  {
+    "path": "BOND/monitors/closeout_run.py",
+    "start": 182,
+    "end": 205,
+    "group": "repeated-mechanics candidate",
+    "family": "ordering"
+  },
+  {
+    "path": "WALTER/tools/closeout_run.py",
+    "start": 71,
+    "end": 95,
+    "group": "repeated-mechanics candidate",
+    "family": "process/classifier"
+  },
+  {
+    "path": "BROCK/scripts/brock_selfcheck.py",
+    "start": 112,
+    "end": 116,
+    "group": "repeated-mechanics candidate",
+    "family": "TSV-width"
+  },
+  {
+    "path": "HANS/scripts/closeout_check.py",
+    "start": 32,
+    "end": 42,
+    "group": "repeated-mechanics candidate",
+    "family": "process"
+  },
+  {
+    "path": "HANS/scripts/closeout_check.py",
+    "start": 56,
+    "end": 91,
+    "group": "repeated-mechanics candidate",
+    "family": "classifier"
+  },
+  {
+    "path": "VULCAN/tools/closeout_check.py",
+    "start": 150,
+    "end": 152,
+    "group": "repeated-mechanics candidate",
+    "family": "process"
+  },
+  {
+    "path": "VULCAN/tools/closeout_check.py",
+    "start": 233,
+    "end": 239,
+    "group": "repeated-mechanics candidate",
+    "family": "pin/ordering"
+  },
+  {
+    "path": "VULCAN/tools/closeout_check.py",
+    "start": 329,
+    "end": 339,
+    "group": "repeated-mechanics candidate",
+    "family": "tree/publication"
+  },
+  {
+    "path": "RED/scripts/closeout_check.py",
+    "start": 107,
+    "end": 116,
+    "group": "repeated-mechanics candidate",
+    "family": "TSV parser"
+  },
+  {
+    "path": "RED/scripts/closeout_check.py",
+    "start": 440,
+    "end": 488,
+    "group": "repeated-mechanics candidate",
+    "family": "delegation"
+  },
+  {
+    "path": "SAM/scripts/closeout_check.py",
+    "start": 124,
+    "end": 151,
+    "group": "desk-specific evidence",
+    "family": "_quoted_spans"
+  },
+  {
+    "path": "SAM/scripts/closeout_check.py",
+    "start": 168,
+    "end": 173,
+    "group": "desk-specific evidence",
+    "family": "_is_historical_quote"
+  },
+  {
+    "path": "SAM/scripts/closeout_check.py",
+    "start": 220,
+    "end": 310,
+    "group": "desk-specific evidence",
+    "family": "check_docket"
+  },
+  {
+    "path": "SAM/scripts/closeout_check.py",
+    "start": 332,
+    "end": 435,
+    "group": "desk-specific evidence",
+    "family": "check_scoreboard"
+  },
+  {
+    "path": "SAM/scripts/closeout_check.py",
+    "start": 499,
+    "end": 513,
+    "group": "desk-specific evidence",
+    "family": "check_sidecar"
+  },
+  {
+    "path": "CARL/scripts/consistency_check.py",
+    "start": 194,
+    "end": 234,
+    "group": "desk-specific evidence",
+    "family": "parse_tsv"
+  },
+  {
+    "path": "CARL/scripts/consistency_check.py",
+    "start": 243,
+    "end": 299,
+    "group": "desk-specific evidence",
+    "family": "parse_status"
+  },
+  {
+    "path": "CARL/scripts/consistency_check.py",
+    "start": 305,
+    "end": 358,
+    "group": "desk-specific evidence",
+    "family": "check_a"
+  },
+  {
+    "path": "CARL/scripts/consistency_check.py",
+    "start": 438,
+    "end": 519,
+    "group": "desk-specific evidence",
+    "family": "check_g"
+  },
+  {
+    "path": "CARL/scripts/consistency_check.py",
+    "start": 617,
+    "end": 688,
+    "group": "desk-specific evidence",
+    "family": "check_f"
+  },
+  {
+    "path": "CARL/scripts/consistency_check.py",
+    "start": 717,
+    "end": 748,
+    "group": "desk-specific evidence",
+    "family": "_find_matrix"
+  },
+  {
+    "path": "CARL/scripts/consistency_check.py",
+    "start": 751,
+    "end": 791,
+    "group": "desk-specific evidence",
+    "family": "_find_histogram"
+  },
+  {
+    "path": "CARL/scripts/consistency_check.py",
+    "start": 794,
+    "end": 910,
+    "group": "desk-specific evidence",
+    "family": "check_b"
+  },
+  {
+    "path": "CARL/scripts/consistency_check.py",
+    "start": 921,
+    "end": 957,
+    "group": "desk-specific evidence",
+    "family": "parse_instrument"
+  },
+  {
+    "path": "CARL/scripts/consistency_check.py",
+    "start": 967,
+    "end": 994,
+    "group": "desk-specific evidence",
+    "family": "check_d"
+  },
+  {
+    "path": "CARL/scripts/consistency_check.py",
+    "start": 1067,
+    "end": 1143,
+    "group": "desk-specific evidence",
+    "family": "check_e"
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "start": 210,
+    "end": 219,
+    "group": "desk-specific evidence",
+    "family": "strip_history"
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "start": 222,
+    "end": 245,
+    "group": "desk-specific evidence",
+    "family": "state_of"
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "start": 263,
+    "end": 295,
+    "group": "desk-specific evidence",
+    "family": "cards_from_text"
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "start": 298,
+    "end": 316,
+    "group": "desk-specific evidence",
+    "family": "management_states"
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "start": 319,
+    "end": 346,
+    "group": "desk-specific evidence",
+    "family": "setups_tsv_states"
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "start": 361,
+    "end": 388,
+    "group": "desk-specific evidence",
+    "family": "trade_book_states"
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "start": 393,
+    "end": 417,
+    "group": "desk-specific evidence",
+    "family": "check_state_agreement"
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "start": 422,
+    "end": 461,
+    "group": "desk-specific evidence",
+    "family": "check_read_sanity"
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "start": 480,
+    "end": 491,
+    "group": "desk-specific evidence",
+    "family": "declared_verdict"
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "start": 494,
+    "end": 510,
+    "group": "desk-specific evidence",
+    "family": "check_header_vs_body"
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "start": 556,
+    "end": 591,
+    "group": "desk-specific evidence",
+    "family": "struck_tokens_from_diff"
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "start": 594,
+    "end": 624,
+    "group": "desk-specific evidence",
+    "family": "check_superseded_drift"
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "start": 654,
+    "end": 669,
+    "group": "desk-specific evidence",
+    "family": "check_unparseable_claims"
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "start": 689,
+    "end": 700,
+    "group": "desk-specific evidence",
+    "family": "fingerprint"
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "start": 703,
+    "end": 718,
+    "group": "desk-specific evidence",
+    "family": "check_structure_agreement"
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "start": 803,
+    "end": 833,
+    "group": "desk-specific evidence",
+    "family": "check_future_stamps"
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "start": 878,
+    "end": 881,
+    "group": "desk-specific evidence",
+    "family": "counts_in"
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "start": 884,
+    "end": 898,
+    "group": "desk-specific evidence",
+    "family": "paper_live_counts"
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "start": 901,
+    "end": 914,
+    "group": "desk-specific evidence",
+    "family": "contract_count_findings"
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "start": 917,
+    "end": 928,
+    "group": "desk-specific evidence",
+    "family": "_own_row"
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "start": 931,
+    "end": 954,
+    "group": "desk-specific evidence",
+    "family": "check_contract_counts"
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "start": 991,
+    "end": 1046,
+    "group": "desk-specific evidence",
+    "family": "open_inbox_packets"
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "start": 1049,
+    "end": 1061,
+    "group": "desk-specific evidence",
+    "family": "advisory_red_count"
+  },
+  {
+    "path": "WALTER/tools/closeout_check.py",
+    "start": 30,
+    "end": 123,
+    "group": "desk-specific evidence",
+    "family": "inspect"
+  },
+  {
+    "path": "VULCAN/tools/closeout_check.py",
+    "start": 91,
+    "end": 95,
+    "group": "desk-specific evidence",
+    "family": "parse_composite"
+  },
+  {
+    "path": "VULCAN/tools/closeout_check.py",
+    "start": 98,
+    "end": 104,
+    "group": "desk-specific evidence",
+    "family": "fixed_without_sha"
+  },
+  {
+    "path": "VULCAN/tools/closeout_check.py",
+    "start": 107,
+    "end": 116,
+    "group": "desk-specific evidence",
+    "family": "prestated_without_public"
+  },
+  {
+    "path": "VULCAN/tools/closeout_check.py",
+    "start": 119,
+    "end": 129,
+    "group": "desk-specific evidence",
+    "family": "past_catalyst_rows"
+  },
+  {
+    "path": "VULCAN/tools/closeout_check.py",
+    "start": 132,
+    "end": 139,
+    "group": "desk-specific evidence",
+    "family": "deferral_covers"
+  },
+  {
+    "path": "VULCAN/tools/closeout_check.py",
+    "start": 372,
+    "end": 395,
+    "group": "desk-specific evidence",
+    "family": "new_ruling_lines"
+  },
+  {
+    "path": "RED/scripts/closeout_check.py",
+    "start": 146,
+    "end": 188,
+    "group": "desk-specific evidence",
+    "family": "check_challenges"
+  },
+  {
+    "path": "RED/scripts/closeout_check.py",
+    "start": 192,
+    "end": 211,
+    "group": "desk-specific evidence",
+    "family": "derive_tally"
+  },
+  {
+    "path": "RED/scripts/closeout_check.py",
+    "start": 214,
+    "end": 236,
+    "group": "desk-specific evidence",
+    "family": "live_tallies"
+  },
+  {
+    "path": "RED/scripts/closeout_check.py",
+    "start": 239,
+    "end": 261,
+    "group": "desk-specific evidence",
+    "family": "check_tally"
+  },
+  {
+    "path": "RED/scripts/closeout_check.py",
+    "start": 277,
+    "end": 321,
+    "group": "desk-specific evidence",
+    "family": "check_triggers"
+  },
+  {
+    "path": "RED/scripts/closeout_check.py",
+    "start": 338,
+    "end": 349,
+    "group": "desk-specific evidence",
+    "family": "check_scratch"
+  },
+  {
+    "path": "RED/scripts/closeout_check.py",
+    "start": 353,
+    "end": 361,
+    "group": "desk-specific evidence",
+    "family": "weights_table"
+  },
+  {
+    "path": "RED/scripts/closeout_check.py",
+    "start": 364,
+    "end": 393,
+    "group": "desk-specific evidence",
+    "family": "check_state_change"
+  },
+  {
+    "path": "RED/scripts/closeout_check.py",
+    "start": 401,
+    "end": 416,
+    "group": "desk-specific evidence",
+    "family": "hold_netbear"
+  },
+  {
+    "path": "RED/scripts/closeout_check.py",
+    "start": 419,
+    "end": 436,
+    "group": "desk-specific evidence",
+    "family": "check_headers"
+  },
+  {
+    "path": "BROCK/scripts/brock_selfcheck.py",
+    "start": 52,
+    "end": 109,
+    "group": "desk-specific evidence",
+    "family": "fire/resolution/matrix"
+  }
+]

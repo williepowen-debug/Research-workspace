@@ -1,0 +1,2 @@
+⚠️  [FLG] 1 stale ledger(s) behind STATUS: TRADE.md (+42d behind)
+trade perimeter: 25 agent(s) with a matching trade surface graded; 16 agent(s) matched NO trade surface and are NOT certified by this pass: ATHENA, CREED, DAEDALUS, FALCON, HANS, HENRY, HOMER, LIQUID, NEXUS, OSPREY, RED, SENTRY, SHADE, WALTER, YEYOU, YURI

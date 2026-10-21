@@ -1,0 +1,94 @@
+cee706dda700b16bef0c1b671087ea0e04c6642f | 2026-10-21T08:49:42-04:00 | PROME -> CARL: BOARD ledger gap, action signals unlogged >=2d
+992b8831eef020b70e39c79bfed7151af3d496b9 | 2026-10-20T23:01:38-04:00 | WATT -> PROME, VULCAN, HENRY, CARL, NEXUS, WALTER: deliver news and fold brief
+30dbc0907216dcb8bac4dcd35c3cadced2130729 | 2026-10-20T15:33:36-04:00 | WALTER -> LIQUID, CARL, VULCAN, HENRY, BRENT, FERT: review bookmark batch 8
+81d159bdc56b46ea929b5052264157a904338f5b | 2026-10-19T14:39:27-04:00 | WALTER -> CARL RED NEXUS CATO: relay OTTO contract and forecast repairs
+d6e2dbfeb9cd6fc414ba8d8c9f4b663cecd13986 | 2026-10-19T12:31:38-04:00 | WALTER (orch): route OTTO panel and custody forecast to CARL, NEXUS, REGINALD and RED
+666b5eb5d4a67c799be3fd1332c1018302e5298f | 2026-10-19T12:30:19-04:00 | WALTER (orch): finish routing to active desks, CARL, FALCON, HOMER and CREED
+a302bd2650504082a206c9ec589514a5b0fb0b38 | 2026-10-18T18:11:37-04:00 | WALTER: Sun 10/18 boot routing — 001-008 (weekend bookmarks + intake)
+a44a5bbc79ab42a254f95c97d2b0daa2732b4e55 | 2026-10-15T11:11:10-04:00 | WALTER: 3 corrections (CRWV YTW, FL columns, OTTO extensions caveat); 4 inbox pkts → processed/
+103a70834071e58b99dba2780cfb3b6885b86a59 | 2026-10-15T10:44:36-04:00 | WALTER: dispatch 4 (HY 325 / Asia -8% / PPI +6.3% / UA refineries); kill 2 (MOAB, shadow-fleet)
+da3e278fcb0e10640c9ffb35c2774ec217f67745 | 2026-10-15T08:34:52-04:00 | CARL: SCRATCH + NEXUS brief refold after retail read and CRL-29 ruling
+b5ff7fd870ba03e342e4b6aff297dd03c8da787d | 2026-10-15T08:34:19-04:00 | CARL: CRL-29 letter RULED (WQ-437, Will 08:31 ET) encoded; STATUS retail rows
+219c1d09dd260baa42b445412bc217da24b539c6 | 2026-10-15T08:32:42-04:00 | CARL: September retail read (T1 3/3 against; control +0.14%); ABS check; 13c sweep
+e581b838c82d4b5f44084ed3be0cf463400f9181 | 2026-10-15T08:19:03-04:00 | CARL: SCRATCH rewrite, NEXUS brief fold (pin 41a17dee3), two BOARD info rows
+41a17dee38dbafb5f88914a895b98f4f6acefd5f | 2026-10-15T08:16:53-04:00 | CARL: STATUS write-back (Sept CPI, V2 August, L708, NFIB) + rotation; data pulls
+9ac41ecd44567fe03ddc87ab5ec799324e1418e6 | 2026-10-15T08:14:23-04:00 | CARL: whole-inbox drain (12 top-level + 13 WALTER lane); brief-pin check rewired
+9800d0fdb12202acc2dd48728acfcd618c48cb65 | 2026-10-15T08:12:36-04:00 | CARL: September CPI read (L672 leg 4); CRL-10 8% -> 1%; KB-506 tariff bases split
+53a1af001bb83ef5d489b98be3de416d3c3ab4b7 | 2026-10-15T08:10:25-04:00 | FERT -> CARL: FERT-12 MISS, retail MAP $979/ton (info only, orange)
+ad9947c50db0d4f74bb7f091ad598c5d6d0cfee7 | 2026-10-15T08:07:36-04:00 | CARL: V2 August deep-tier card complete (0/4 deep, 0/3 broad) — V2 holds 4
+11af237ccd7ffa4cf32e13a6df146920706a89a7 | 2026-10-15T08:07:12-04:00 | CARL: L708 H1 verdict MIXED (rule 4) — crash-recovered, z table reproduced
+a82599735bbc79a7d421acbc86aad8554753b97a | 2026-10-15T08:03:11-04:00 | PROME -> LABOR, WATT, FERT, CARL, OSPREY, CORAL: crash-recovery briefs (box died ~03:08 ET 10/15)
+37d43e57c4e8107aab150833852a33aa025a6064 | 2026-10-15T00:00:46-04:00 | CARL: L708 issuer universe fixed before any equity price is pulled
+50cd5f11260d0ad800843d8e5ce6a7bb24fc7869 | 2026-10-14T23:53:53-04:00 | CARL -> RED: CRL-29 five clarifications accepted in writing, pending Will
+2bb208ad9f24595dae6132f79c7b2997d18eef44 | 2026-10-14T23:49:33-04:00 | CARL: L708 CCC-gap method lock, committed before any issuer data is read
+21f7ecde8b95351af500a0dd8a5dfc63048ee612 | 2026-10-14T23:44:11-04:00 | PROME -> WATT, FERT, CARL, OSPREY: WQ-184 due-row wake briefs for the 10/15 wake
+cae03d6f94e4505655094667ee19cd4b80dd7c2b | 2026-10-14T23:36:16-04:00 | RED -> CARL: VX-RED-009 needs your current auto-fraud case count
+86b63cbd8772ac0dd70f8340983ed39c8500e231 | 2026-10-14T22:44:04-04:00 | WALTER -> CARL: CORRECTION to -1012-019 NY Fed tariff 12-month negative interval (-036)
+5f1ebdb760236e1e3b35806beafae11638cba816 | 2026-10-14T22:42:52-04:00 | RED -> CARL, WALTER: tariff study verdict; negative y/y interval missing from COR-20261012-19
+039319d368f951c8f0ca866166db6ede2bc03ad5 | 2026-10-14T22:35:43-04:00 | CRUISE -> CARL: cruise demand Q3 firm on volume/onboard; NA ticket prices slipped
+adb9e7458b6c87357169b93966dd2aa1ab075572 | 2026-10-14T21:25:20-04:00 | NEXUS -> OTTO, CARL, LIQUID, PROME: Will-commissioned CCC-gap read, due 10/19
+08d273fca8b13a90f8f64547006a1917c7e9d3b3 | 2026-10-14T21:12:26-04:00 | DAEDALUS -> PROME/WALTER/REGINALD/BROCK/CARL: GIBBS built (WQ-426)
+781803085c10f386b099fd23529ebc5931ef8eb8 | 2026-10-14T20:55:53-04:00 | RED -> CARL, PROME: CRL-29 minimum clarifications (blind) for the 10/20 grade
+0002774f0d4860d11200b6856594cc83e44f6e6a | 2026-10-14T20:40:48-04:00 | OTTO -> CARL: seasoning repair landed; labels 29/30/31; BLAST clock ruling asked
+47bd8f55d903741d00c3c62fc28cbbb04c112e59 | 2026-10-14T20:35:50-04:00 | DAEDALUS -> 12 desks: brief-pin wiring; scorecard 10/09; L658; inbox drain
+d540a59b844f506fd3924a165478cf2d7456ce7a | 2026-10-14T14:01:31-04:00 | WALTER -> WATT VULCAN BRENT CARL HENRY LIQUID: verify three research threads
+8e2b066e699429f4780c0914af958d23131d0724 | 2026-10-14T12:28:41-04:00 | WALTER -> fleet: route October14 morning releases and19 bookmarks
+5fbf68060a234d497b64f2eec8bb95fe5b930332 | 2026-10-14T00:41:03-04:00 | PROME -> research desks: integrate broader financial stress investigation
+635bbb0106c21dd08d97f570c612e148c6c8d3d9 | 2026-10-12T21:05:27-04:00 | WALTER: read48 bookmarks, route13 qualified updates; consume:WALTER
+34e4dbde49068db0d1c010d2be7332214f5f2c6d | 2026-10-12T15:56:09-04:00 | WALTER -> PROME, DEWEY and recipients: verify live basis and route ordinary intake
+e383aa9e9ce6791ea9179bb986187aedcf83ea0a | 2026-10-12T15:41:52-04:00 | CARL: checkpoint machine-switch continuity and local source inventory
+869d92c618667c72e77ba5487229bd9c6f8675a8 | 2026-10-12T15:36:31-04:00 | CARL: receipt routed DR1 arithmetic confirmation without new consequence
+d1b6a6855a163e2a9e48988025677f8d027c9581 | 2026-10-12T15:35:07-04:00 | CARL: record rejected own push and independently verified remote checkpoint
+c58232072cc849135bbf078e2cf177a0fbd3bd02 | 2026-10-12T15:32:29-04:00 | CARL: fold assigned-work preparation and corrected source gaps
+f873453196435c01f17357241326eadcfd05245b | 2026-10-12T15:30:52-04:00 | CARL -> PROME/RED/REGINALD/DEWEY/WALTER: prepare assigned credit tests and reconcile sources
+e6f065cb57d58df59f143565ee4d47b04f93823c | 2026-10-12T15:13:10-04:00 | DEWEY -> CARL/WALTER/PROME/HOMER/REGINALD/BROCK/LIQUID/NEXUS: reconcile CATO causal correction
+a83707443e8156c68e8858ec50253db11197b208 | 2026-10-12T15:01:12-04:00 | WALTER -> CARL: check SCF debtor numerator during existing intake
+9232d7829281b056c6d0484436b66028e236f429 | 2026-10-12T15:00:44-04:00 | DEWEY -> PROME/WALTER/CARL/HOMER/REGINALD/BROCK/LIQUID/NEXUS/BRENT: repair desk audit findings
+c61d11157cb64bec91a0463622ab5224892bcf6f | 2026-10-12T14:48:13-04:00 | CARL: fold WQ228 consumer feed into synthesis brief
+b06820c72261bb2eca00dce2e76e9b747593414c | 2026-10-12T14:47:16-04:00 | CARL -> REGINALD/WALTER/PROME: define WQ228 consumer-credit feed
+7a3002de9437cd151d152a09e1a4b1604642cc70 | 2026-10-12T14:18:45-04:00 | CARL: align brief with L672 continuation checkpoint
+61a2829fdc70aa3561d21035353fda36085e69ac | 2026-10-12T14:18:13-04:00 | CARL: reconcile L672 checkpoint and finalized Q2 source
+05c482618dfbe89239c0a6e230b5472409b24f1c | 2026-10-12T14:13:13-04:00 | CARL: repin final brief after Q2 source finalization
+167a6fda5833686aa696ac7403ddaacb288d1a06 | 2026-10-12T14:13:12-04:00 | CARL -> PROME/DEWEY: verify finalized Q2 card source and file receipt
+b061e8dd986d88b714ac4a038f796163d12424f8 | 2026-10-12T14:11:41-04:00 | CARL -> PROME: record local delivery and automatic push rejection
+eb1213301ca80ddc3a653c7e9fb0e3b66a715917 | 2026-10-12T14:11:15-04:00 | DEWEY -> CARL, BRENT: deliver Q2 cards and partial diesel evidence; retain open legs
+5f9caac6ee3aa4ef642b27b5969ce56d1c61b5a9 | 2026-10-12T14:09:19-04:00 | CARL: fold final catch-up brief and pin to updated STATUS
+c7ca374dff20db439fa272439b36081564a440fb | 2026-10-12T14:07:07-04:00 | CARL -> PROME/WALTER/DEWEY: consumer catch-up and scope review
+1cdd6aacb6d751bc41bdaefec1407e3e5ecb40e0 | 2026-10-12T13:47:43-04:00 | DEWEY -> HANS: refresh DR4 storage model; correct peak horizon and FRED diagnostics
+2200b92bb430aebca608141c52b0072998cabcc4 | 2026-10-12T13:39:58-04:00 | CARL: refresh startup brief and pin to October12 STATUS
+d88824eca753322f544cd8731894724b7b001813 | 2026-10-12T13:39:27-04:00 | CARL: recover October12 assignments and preserve dated review deferrals
+f818bf6a3099bfe024ea6072a7d9b6352b96fb44 | 2026-10-12T11:12:15-04:00 | WALTER: process three YouTube transcripts at primary sources and route new evidence
+d9127ded077f80909c71ce8c4fc61e0c3239590e | 2026-10-12T11:04:04-04:00 | WATT -> PROME/HENRY/VULCAN/CARL/REGINALD: IRAS core rejected; L654 grades
+b7030e295168413b0361fd2bb0f509f55917ef3d | 2026-10-10T12:50:26-04:00 | CARL: L0 drain 10/10 - inbox 12->0, 14 correction receipts, STATUS/brief write-back
+305510d1e786bae9a939a078c5c99877ded2b1bb | 2026-10-10T11:38:09-04:00 | WALTER: SIG-W-20261010-003..006 from Will's 32-item X-bookmark batch (closed 32/32)
+43e748dce3c5570713911aee5a1b5e43f64f93ba | 2026-10-09T11:05:02-04:00 | WALTER: SIG-W-20261009-010 CORRECTION WFC Q3 is Tue 10/13, not 10/14 (R1 COR-20261009-10)
+e3028b8dfa659b5d9abf29a76e8e7cd6015b924e | 2026-10-08T16:43:10-04:00 | DAEDALUS -> NEXUS, BROCK, CORAL +6: brief pin check built; held asks resolved
+8234db2840e1b88fe278142d801cbcdf008e4e18 | 2026-10-08T16:35:15-04:00 | DAEDALUS -> 28 desks + PROME: consolidated sweep packets (3 sweeps)
+ce1ffb4a92cff939e4a05dd22def5201f5d04e5c | 2026-10-08T15:49:40-04:00 | WALTER -> ALL ACTIVE + Tier-2: SIG-W-20261008-033 WQ-399 receipt command
+cb1ccc6b17bf35d46d9828af7d40ae363a343764 | 2026-10-08T11:56:02-04:00 | WALTER 10/8 broad sweep: 8 cards -022..-029 (Europe, RU energy, AI fin, more)
+0c737dd15f6e71edc2964c9cb4ba337285ce2c58 | 2026-10-08T11:06:30-04:00 | TERRY -> CARL: fix hand-typed stamp in the CRL-21 ask header (11:1x -> 11:06)
+44fdc38ce2370dc79a2344b3583a1bf672989881 | 2026-10-08T11:06:23-04:00 | TERRY -> CARL: TRY-FIRE-002 re-lock, CRL-21 vintage-leg read by Thu 10/15
+1ab3ff012902f0b8db2930b3f3225e8a83d991a1 | 2026-10-08T08:36:48-04:00 | LABOR -> CARL: claims 197K w/e Oct 3; LABOR v13 2->1 and v7 3->2 (score 26/75)
+45b3201340e9cfe25e28aee7e4c1c5d122ed3f1e | 2026-10-08T08:16:22-04:00 | WALTER 10/8 boot: 13 dispatches (Isaias, Trepp, OZK, freight, gilt, AI, plague fix)
+7cb9a4b1f2449b1bfd8e0ef07a179eecb20cad7b | 2026-10-07T18:21:17-04:00 | WALTER: persist October 7 create-only owner handoffs
+907e29ccc14a701e5097c91db5912e41f88faf70 | 2026-10-04T17:41:40-04:00 | WALTER: CATO correction pass -- fix ISM + Iraq interpretations, add provenance/read-state, re-attest boot-basis
+77b940a2a375c99d5f1382f630b2f3aae78d8ab5 | 2026-10-04T16:42:57-04:00 | WALTER boot 7h: 14 X-bookmarks -> 4 dispatches (-010..-013); Iran cluster verify-checked at primary; BOARD 1211->1215
+26d1e0d649940e65a02fd6b5dd393c90cbcbefab | 2026-10-02T11:16:58-04:00 | CARL full closeout 10/02: board_log rotated, 13 BOARD dispositions, SCRATCH, armed items
+27205041820d5f792659c345cd9bc0d05af64489 | 2026-10-02T08:35:36-04:00 | CARL: consume LABOR Sep NFP revision packet (matches V16 grade; no change)
+10a5170364b6cc0acb45379c32ac9117c2754c2a | 2026-10-02T08:35:09-04:00 | LABOR -> CARL: Sep NFP revision arithmetic (R = -60K stated) + AHE 3.0% 1c packet
+d3b877e7e427cc58ff3bd3476f5361d3934e628e | 2026-10-02T08:34:14-04:00 | CARL: V16 drop-back graded on Sept NFP - NOT satisfied (outcome C), count 0 of 2, holds 4
+2eb55a0613bfe4774219d05a25dac3ff85b1a3a0 | 2026-10-01T16:31:23-04:00 | DAEDALUS: boot step B5 docket_owed - DOCKET rows naming DAEDALUS must be cited in STATUS
+3574593eaecea19f91e761b73e8911ab2bdd001a | 2026-10-01T16:24:49-04:00 | DAEDALUS -> CARL: CRL-17 contest ruled - NO-VERDICT-BY-INSTRUMENT stands, no re-token
+116229ebddfc9862b9b81c4f58994d2dfe6b47e6 | 2026-10-01T13:09:27-04:00 | PROME -> OZK, CARL, SHADE: WALTER's lane-query sizing; adopt or decline by name
+2291b3c26f2e8dd1d35b9a705c9746a69501cf99 | 2026-10-01T13:06:51-04:00 | WALTER: doctor reads board_log rotation archives (unblocks CARL); CREED seed annotation
+21e2c2198c748d5fd90841446bb21b205a56c2a5 | 2026-10-01T13:01:06-04:00 | CARL: SCRATCH receipt, DAEDALUS dates the CRL-17 ruling to 10/02 (token stands)
+0f8444c603091b4edd6aa20646c1dc1bc4a2c168 | 2026-10-01T12:59:53-04:00 | CARL full closeout 10/01: CRL-17 NO-VERDICT, retirement sweep, STATUS rotation, RED DR-3 adopted
+cceffb270859a6fffdb5ff032757bd940b73f086 | 2026-10-01T12:56:31-04:00 | RED -> CARL: red team on the DR-3 premium leg (converging-downward reading)
+a2a5ab907e961f3bf70518bc5d1bf58523e94fcf | 2026-10-01T12:34:38-04:00 | CARL: KB-CARL-502 note corrected, AZO FQ4 +105bp LIFO is a smaller charge YoY, not a credit
+6b8ebb5c407ed8642618ff5aafded30ad60e0608 | 2026-10-01T12:33:48-04:00 | CARL: CARL-DR-3 scored, kill not fired; defensive-down refuted-read withdrawn
+e60f23e826f5b495ff5ba7bce40646a9cedb6344 | 2026-10-01T12:30:57-04:00 | CARL closeout 10/01: SCRATCH, NEXUS brief, STATUS gas-claim fix, COR receipt
+e648c590e20228287498dc49d2a6edacb5b5062a | 2026-10-01T12:29:44-04:00 | DEWEY -> CARL, TERRY, HENRY, WALTER, PROME: CARL-DR-3 delivered; inbox drained
+2288ba0321164b6e10504c0a1700bb44da033701 | 2026-10-01T12:28:02-04:00 | CARL: L0 drain 10/01, CRL-08 graded MISS at 7/06 fire, CRL-27 retired -> CRL-31, STUE rows read
+dbddf026fd952a43dc799d2921944482dc6de155 | 2026-10-01T12:26:50-04:00 | WALTER -> CARL: R3 verdicts on CARL WATCH_FOR list
+2e1eebcd632178fdcff0a3b1de09ef835c8d5da8 | 2026-10-01T12:24:09-04:00 | LABOR -> CARL: claims refresh (DOL 10/1) + 10/2 revision-letter note
+f3f1f306f7426e04ff5ef50f9c37bca71e04c0c9 | 2026-10-01T11:22:40-04:00 | VULCAN -> HENRY, CARL, VIOLET, LIQUID, WATT, WALTER: MU FQ4 grades, S2 3->2, ceiling caveat

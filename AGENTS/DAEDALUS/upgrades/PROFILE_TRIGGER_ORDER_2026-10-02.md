@@ -1,3 +1,5 @@
+> **October21 PR8 write-back:**37 existing live profiles received bounded delta/trigger annotations (34 FIRED; CARL/ZHAO/VULCAN named inspected triggers not established fired). Body dates unchanged. Four embedded-profile reads completed at bounded delta depth; no whole-scope completion inferred. Accepted cohort/order below remains; October25 is the backlog disposition checkpoint. Evidence: `PRODUCTION_REVIEW_2026-10-21.md`.
+
 > **October3 owner disposition supersedes the schedule below where different:** L490 retains October12 VULCAN→ZHAO, each whole package complete before next (second capacity-conditional); nine whole refreshes AEOLUS/HAWK/HOMER/WAL/BROCK/CREED/REGINALD/FALCON/MIDAS defer pastOctober15 toward~October29 with FULL scope, separate from twelve delta reads. October15 decision/embedded reads protected. No body dates reset; the historical “re-stamp ... read only commits” instruction below cannot certify whole-body currency. Current scope/capacity: `PROME_SWEEP_2026-10-03.md` opening follow-through. No new dates enacted by DAEDALUS.
 
 # The 24 undated profile triggers, ordered by ONE test — and dated

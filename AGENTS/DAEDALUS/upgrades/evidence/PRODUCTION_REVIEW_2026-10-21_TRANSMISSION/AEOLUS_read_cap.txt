@@ -1,0 +1,4 @@
+Command: python3 scripts/read_cap_check.py --agent AEOLUS
+Exit: 2
+READ-CAP 2 CANNOT-EVALUATE [AEOLUS]: perimeter: DECLARED in PROME/registry/READS.tsv — 10 cap-bearing (whole/programmatic) measured, 0 declared-not-counted (scoped/grep/summary), 2 manifest row(s) for this desk; 10 of the measured are MEMBERS of 2 cap-bearing CLASS row(s), each measured per member (rule 16); ⛔ NOT ATTESTED by this desk — the perimeter is PARTIAL. An unattested desk is UNKNOWN, never clean — the desk itself must attest (packet to PROME/inbox/; no desk may commit inside PROME/, and PROME may not attest on a desk's behalf).
+READ-CAP-RESULT v1 mode=agent rc=2 assessed=0 desk=AEOLUS reads=0 over_budget=0 over_cap=0 manifest_defects=0 advisories=0 generated_flagged=0 rotation_due=0 active_decisions_over_budget=0 charter_mode=unspecified charter_reads=0 owner_notices=0 owner_notices_over_budget=0 charter_bytes=48034

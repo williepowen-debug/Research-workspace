@@ -1,0 +1,23 @@
+READ-CAP [BOND] — cap 54,250 B · budget 32,550 B (60%) · ALL % BELOW ARE OF BUDGET (the number every verdict grades; ≥100% = over) · perimeter: DECLARED in PROME/registry/READS.tsv — 9 cap-bearing (whole/programmatic) measured, 5 declared-not-counted (scoped/grep/summary), 19 manifest row(s) for this desk; 2 of the measured are MEMBERS of 1 cap-bearing CLASS row(s), each measured per member (rule 16); ATTESTED by the desk itself
+  🟡 AGENTS/BOND/MEMORY.md                24,635 B    76% of budget  rotate-tier (≥75% of budget)  (whole · BOND:3)
+      ↳ rule 5 STOP is <70% of budget (22,785 B): REMOVE 1,851 MORE B to finish rotating. ⛔ Stopping at the 75% TRIGGER is not finishing — that band re-breaches on the next append (PAT-055 regrowth), which is why rule 5 has two thresholds.
+  ✅ AGENTS/BOND/docket/CATALYSTS.tsv     19,376 B    60% of budget    (whole · BOND:5)
+  ✅ AGENTS/BOND/SCRATCH.md               13,735 B    42% of budget    (whole · BOND:2)
+  ✅ AGENTS/BOND/STATUS.md                10,657 B    33% of budget    (whole · BOND:1 · ALSO read whole by NEXUS:6)
+  ✅ AGENTS/BOND/thesis/PREDICTIONS.tsv    8,297 B    25% of budget    (whole · BOND:4)
+  ✅ AGENTS/VOCABULARIES.tsv               6,760 B    21% of budget    (whole · BOND:7)
+  ✅ AGENTS/BOND/workbook/SCHEMA.tsv       1,829 B     6% of budget    (whole · BOND:7)
+  ▣ AGENTS/BOND/inbox/WALTER/*.md                declared `whole` · CLASS row — cap-bearing PER MEMBER (rule 16 ruling 2026-09-24): 2 member(s) measured, 0 over budget, 0 over the CAP, largest 2,425 B (7% of budget)  (BOND:7)
+      2 member(s) all under 70% of budget (<22,785 B)
+  ◦ AGENTS/BOND/monitors/docket_check.py 24,162 B  declared `summary` — not cap-bearing, not counted  (BOND:5)
+  ◦ AGENTS/BOND/monitors/boot_recompute.py 23,618 B  declared `summary` — not cap-bearing, not counted  (BOND:6)
+  ◦ AGENTS/BOND/TRADE.md               15,259 B  declared `scoped` — not cap-bearing, not counted  (BOND:6)
+  ◦ AGENTS/BOND/monitors/*.md                 —  declared `summary · CLASS row, not a single file` — not cap-bearing, not counted  (BOND:6)
+  ◦ scripts/corrections_boot_check.py  53,658 B  declared `summary` — not cap-bearing, not counted  (BOND:7b)
+✅ READ-CAP 0 [BOND]: every CAP-BEARING read in this desk's ATTESTED manifest is under budget (9 measured, 5 declared-not-counted). Perimeter = the desk's own declaration, not a scan.
+  ℹ️  charter AGENTS/BOND/CLAUDE.md = 33,525 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+  ✉️  OWNER-DIRECTED NOTICE [BOND] (READ_CAP rule 15): 1 file(s) under AGENTS/BOND/ that OTHER desks' declared boot reads load WHOLE — counted in THOSE readers' perimeters, NOT in this desk's totals or rc. The bytes are this desk's to rotate (rule 4); a breach here is also turning the READER's check red.
+     ✅ AGENTS/BOND/NEXUS_BRIEF.md            2,689 B     8% of budget  under 75% of budget  ← read whole by NEXUS:6
+READ-CAP-RESULT v1 mode=agent rc=0 assessed=1 desk=BOND reads=9 over_budget=0 over_cap=0 manifest_defects=0 advisories=0 generated_flagged=0 rotation_due=1 active_decisions_over_budget=0 charter_mode=unspecified charter_reads=0 owner_notices=1 owner_notices_over_budget=0 charter_bytes=33525
+
+EXIT_CODE=0

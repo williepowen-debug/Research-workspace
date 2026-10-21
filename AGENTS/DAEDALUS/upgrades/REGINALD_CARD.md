@@ -1,3 +1,5 @@
+> **PR8 write-back 2026-10-21:** Prior memory/inbox and REG03 instrument asks closed at current artifacts; REG06 instrument/dated negative-search remains. External BOARD size is not a desk-local gate. Card stays historical. Evidence and current scope: `PRODUCTION_REVIEW_2026-10-21.md`.
+
 # Upgrade Card — REGINALD (read-only assessment, no agent files touched)
 
 > 🗄 **ROUTED 2026-06-29 — CLOSED AS A QUEUE 2026-08-17 (self-audit F5 banner pass).** This card's findings were routed to the owner/FLEET_MAP when written; per-row states below are historical. Not maintained — current gaps live on the agent's FLEET_MAP row. Do not work rows from here without re-verifying at the agent.

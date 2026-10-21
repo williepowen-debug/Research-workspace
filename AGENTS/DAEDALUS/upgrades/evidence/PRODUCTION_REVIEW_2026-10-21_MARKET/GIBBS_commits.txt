@@ -1,0 +1,11 @@
+eb3b6f205716ca87d3ad7e887465b8a87fef6379 | 2026-10-20T09:20:48-04:00 | REGINALD -> GIBBS: owner seams confirmed (AOCI/Basel, HBAN stay; FITB tag CFG-only)
+212889bb2a2bdc37393b9d0bd5ebbd18b33ce5e4 | 2026-10-20T09:01:48-04:00 | GIBBS -> BROCK, REGINALD, PROME (PROME-recovered): commit stranded brief and packets
+6ef8f03757c1bb50f4896d92b816a3e66dd2bb57 | 2026-10-19T09:42:37-04:00 | GIBBS (orch): establish first-owner Q3 evidence and retain explicit coverage gaps
+f880624a5837c3ef45c76f80c5fa00d632deec64 | 2026-10-19T09:42:34-04:00 | WALTER (orch): route FITB and limited waiver; measure L599 pilot; reconcile Sunday delivery
+8567c442f47d9a419f1816afeb7850352c593c99 | 2026-10-16T18:29:34-04:00 | WALTER -> CREED, REGINALD, SAM, VULCAN and vol desks: bookmark batch 036-040
+70c048a8a83a3bc60318c8422ed46f76960fe980 | 2026-10-16T13:46:24-04:00 | REGINALD -> WALTER, BROCK, GIBBS: REG-T-03 2-of-3 + holiday rule, CFG NDFI basis, Q3 read locations
+47f13a81af3ef9dc2d1ca7df260c26f2eb7f0715 | 2026-10-14T21:39:12-04:00 | DAEDALUS: GIBBS routing cites v0.43 after WALTER version bump
+f8e3c36cbc4a74fdeb6ca254576486d115bdee58 | 2026-10-14T21:38:37-04:00 | DAEDALUS: GIBBS IHC routing fix landed; record and own correction
+b3365351cd73dd4a7ed650a071424de98f1978a3 | 2026-10-14T21:37:51-04:00 | DAEDALUS: WALTER GIBBS lane landed and reviewed; one IHC fix sent
+80abb4bdff91835baa3acba212ab8a028016e902 | 2026-10-14T21:13:20-04:00 | DAEDALUS: record WALTER deferral of the GIBBS routing lane
+08d273fca8b13a90f8f64547006a1917c7e9d3b3 | 2026-10-14T21:12:26-04:00 | DAEDALUS -> PROME/WALTER/REGINALD/BROCK/CARL: GIBBS built (WQ-426)

@@ -1,0 +1,57 @@
+[
+  {
+    "path": "AGENTS/SAM/scripts/closeout_check.py",
+    "lines": 676,
+    "sha256": "9a1b5bf9c20c2f6e5bcf94e8cd59f4873aa242a7df5b4f481b4bf212b97ea9b8"
+  },
+  {
+    "path": "AGENTS/CARL/scripts/consistency_check.py",
+    "lines": 1317,
+    "sha256": "542792009b9a1885c3d7eb4f9f5eb52be50d72350c136327d24ddd6907f60b88"
+  },
+  {
+    "path": "AGENTS/TERRY/scripts/ledger_sweep.py",
+    "lines": 1603,
+    "sha256": "3595061c883a0ccfa024649c79068788f55d46afc26800f8b40c340d5c62c3b1"
+  },
+  {
+    "path": "AGENTS/BOND/monitors/closeout_check.py",
+    "lines": 172,
+    "sha256": "bdd9c5cda68ddd00b46baf15c3078dd125c85edae1d5f847595639aa48be2400"
+  },
+  {
+    "path": "AGENTS/BOND/monitors/closeout_run.py",
+    "lines": 448,
+    "sha256": "9685485273d5cf74d1f22277499aafd4dcadde920e97eb2dc04a23f99723c863"
+  },
+  {
+    "path": "AGENTS/WALTER/tools/closeout_check.py",
+    "lines": 133,
+    "sha256": "a6c2484b4444b347f5b4f255d3f9a0bdc2199404f1f951daff0df4ad472bfeac"
+  },
+  {
+    "path": "AGENTS/WALTER/tools/closeout_run.py",
+    "lines": 183,
+    "sha256": "5bc2904bdf4160d1be375b0edddf8f57e39a6a7eb10c086a2fee2964c794c3ac"
+  },
+  {
+    "path": "AGENTS/BROCK/scripts/brock_selfcheck.py",
+    "lines": 123,
+    "sha256": "dc8fa55787689012bb1a4df1c12e142a6a947c4a58865d167e04abcae8e4bb36"
+  },
+  {
+    "path": "AGENTS/HANS/scripts/closeout_check.py",
+    "lines": 191,
+    "sha256": "a7a0948c341a8476a6cd8046b805bc4e970f475c1b121c8be6e4a0c04633b18c"
+  },
+  {
+    "path": "AGENTS/VULCAN/tools/closeout_check.py",
+    "lines": 465,
+    "sha256": "c9cb5c212e648d74189310fa3ef05707c4a24524607098ab10d327167995d0cc"
+  },
+  {
+    "path": "AGENTS/RED/scripts/closeout_check.py",
+    "lines": 586,
+    "sha256": "b5c72b45f48d6341c0926a3ec90c59b520dd809fbb13abb7abe887f407ad91fe"
+  }
+]

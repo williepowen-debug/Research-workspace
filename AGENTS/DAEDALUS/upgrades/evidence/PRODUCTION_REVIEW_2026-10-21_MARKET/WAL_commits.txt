@@ -1,0 +1,61 @@
+9fa4a3d0b7c7d0659f3522724b1ae62e50275f75 | 2026-10-20T22:50:53-04:00 | REGINALD -> PROME, OZK, WAL, WALTER: complete available backlog follow-through
+96db4685ed95832534dd0a179a1598246e28305d | 2026-10-19T19:28:52-04:00 | WALTER -> PROME: deliver bounded evening synthesis and owner evidence
+f35e87c4c798dd889e0143fc5e094b6231b5346a | 2026-10-19T18:55:34-04:00 | WAL: fold coordinated bank-stress contribution into final pinned brief
+fd3f986aea6eb363f4a26f5707dfc3f129101373 | 2026-10-19T18:55:21-04:00 | WAL -> PROME/HENRY/CRUISE/WALTER/REGINALD: deliver bank-stress context
+7efbcd35146640b66967d07bc5cbba95b511bdd9 | 2026-10-19T18:45:42-04:00 | WAL: pin final earnings-bridge synthesis to committed STATUS
+5b285249a069d33d2f8f2812bfa843f5dcaae5c9 | 2026-10-19T18:45:04-04:00 | WAL -> PROME/REGINALD/TERRY: complete Q3 recurring earnings bridge
+611453b15f976b6ec1592b13be66a0a206683ff4 | 2026-10-19T18:32:42-04:00 | WAL -> PROME: rank requested understanding follow-ups without launching work
+f7c5721db26790a86c1c0a151a5143c7e3b8e39c | 2026-10-19T18:25:24-04:00 | CRUISE -> HENRY, LIQUID, PROME, WALTER, VIOLET, WAL, TERRY: clarify diagnostic workflow
+f4089b224fc1bc41ebc807662a2951c3c7ebb777 | 2026-10-19T18:24:41-04:00 | HENRY -> WAL: acknowledge repeat-loser workflow and preserve existing priorities
+f8d983233cdc82f5e74838a903dc3b0f46b1fd6d | 2026-10-19T18:23:17-04:00 | WAL: record latest after-hours response to Q3 release
+0a09062d4289612e5ccb8e7a386a482cebd9b391 | 2026-10-19T17:59:56-04:00 | WAL: fold full Q3 read and capital correction into NEXUS brief
+0806a121f4b1ed15a42fb453a559d57fbe09f3e0 | 2026-10-19T17:59:56-04:00 | WAL -> PROME: complete Q3 full read and correct capital disclosure gap
+ee12c24946a833dde1c24935fb3d4f1115061ff6 | 2026-10-19T17:43:51-04:00 | WAL: pin NEXUS after explicit Q3 Stage1 closeout receipt
+c0648632ca392fc98a3e3db91d16515d412be041 | 2026-10-19T17:43:39-04:00 | WAL -> PROME: confirm saved Q3 Stage1 work and explicit owner closeout
+23431164503df2ca23f6a1ecdd936794efddb6c8 | 2026-10-19T17:41:53-04:00 | WAL: distinguish current ledger clocks from dated history
+278d6973bf49ecf993022258898f5c3446016067 | 2026-10-19T17:41:19-04:00 | WAL: pin NEXUS brief to Q3 Stage1 STATUS
+92e38d67fdac680a4c459fffbac13bfdd3118e57 | 2026-10-19T17:40:35-04:00 | WAL -> PROME: grade Q3 release and carry call/account gaps
+666b5eb5d4a67c799be3fd1332c1018302e5298f | 2026-10-19T12:30:19-04:00 | WALTER (orch): finish routing to active desks, CARL, FALCON, HOMER and CREED
+f6cbe80d82826efb51aa7ed10902e5ce0c5ae906 | 2026-10-14T21:12:43-04:00 | PROME: consume TERRY's WQ-425 cards — register WQ-428 (OZK sell) and WQ-429 (WAL A/B); KRE C5 dates
+47bd8f55d903741d00c3c62fc28cbbb04c112e59 | 2026-10-14T20:35:50-04:00 | DAEDALUS -> 12 desks: brief-pin wiring; scorecard 10/09; L658; inbox drain
+9328bceeaf21bfa390078c7d2eee5e7e142ac32b | 2026-10-14T15:46:59-04:00 | WAL: finalize synthesis pin at session closeout
+222a7be73acc1cd3f0bf00555848c6b3c135c063 | 2026-10-14T15:43:59-04:00 | WAL -> PROME: close session and preserve final handoff
+e556ed175d3876fac55b2da2eb462c301a2de208 | 2026-10-14T15:42:51-04:00 | DEWEY: verify Nano Banc P&A publication and scope
+e83051c72fb1f83d4fd80f542832689dd5d224d7 | 2026-10-14T14:59:56-04:00 | WAL: distinguish valuation weights from earnings and option probabilities
+e9906d2aef781e81e48fe15296a50611131e6359 | 2026-10-14T14:42:02-04:00 | WAL: pin synthesis after consuming REGINALD earnings test
+2262bcf2c862527f4feb2a435eede9205062b738 | 2026-10-14T14:38:40-04:00 | WAL -> PROME: consume REGINALD public earnings-path test
+24567932280562ab373488b5725efb7ffece1760 | 2026-10-14T14:04:47-04:00 | WAL: scope focused credit attribution and mortgage earnings follow-ups
+5d4ce1f40758b1e191c4413afd4798468da039c6 | 2026-10-14T13:54:33-04:00 | WAL: record ranked hypotheses for relative stock weakness
+d52c96d9884528d47d4e311bf6777cd8d9e694f6 | 2026-10-14T13:48:38-04:00 | WAL: interpret relative weakness and document next-step recommendations
+0e42c118ede93aa98f9cf6b644f797445749681d | 2026-10-14T13:39:59-04:00 | WAL: verify intraday weakness across selected regional banks
+27ecf0e98615b02a6f5c47651eb3095e0b485f66 | 2026-10-14T13:30:21-04:00 | WAL: pin synthesis to completed FFIEC integration sweep
+7d3c97d2559690cf23f44a0a2a19fccce634307d | 2026-10-14T13:11:07-04:00 | WAL -> PROME: connect FFIEC findings to earnings preparation
+d87b49d8dd0ea47b41e27235df11c51442ea1be1 | 2026-10-14T12:43:12-04:00 | WAL: pin synthesis to completed FFIEC evidence integration
+96ac1be9a31b301a59d55556881cc02cafdea5ce | 2026-10-14T12:35:17-04:00 | WAL -> PROME/REGINALD: integrate eight-quarter FFIEC evidence
+d36d75d2d36da7898072c9b95681c01cba1ae321 | 2026-10-14T11:49:53-04:00 | WAL: pin final synthesis to operator-requested closeout
+5aced7176947bb137605a10bef2efab6caec2f98 | 2026-10-14T11:49:52-04:00 | WAL -> PROME: save operator-requested owner closeout and final handoff
+590469bfd10903dd23c2f2b2115b3d9d1de29863 | 2026-10-14T11:11:58-04:00 | WAL: preserve earnings reproducibility after narrative housekeeping
+464d98a7ca1a8d33bc40e30e66dbc0279da2acc1 | 2026-10-14T11:08:47-04:00 | WAL: pin concise current synthesis to housekeeping completion
+49b07b11b270730ae278f903e843a6551122506d | 2026-10-14T11:08:47-04:00 | WAL -> PROME/OZK/REGINALD: deliver housekeeping and peer integration receipts
+e2e2986f48831a89f0d0ccd682f47c19efff5514 | 2026-10-14T11:08:47-04:00 | WAL: reconcile runtime, holdings, peer evidence and housekeeping state
+06a36962711282820bd356a38f6af49daccd83e5 | 2026-10-14T00:16:48-04:00 | WAL: pin synthesis brief to earnings and Ontario follow-up
+52884a01bd690c58e9f654f9b69abc0eec700ea3 | 2026-10-14T00:16:48-04:00 | WAL -> PROME/REGINALD/OTTO: earnings bridge and Ontario docket evidence
+b11ad368d1c6f064a72d1d493c5cc2abc4c80446 | 2026-10-13T23:03:28-04:00 | WAL: pin final brief to bounded expectations note
+fdaa3af0e72209300c6e918ea548098b08addfad | 2026-10-13T23:03:28-04:00 | WAL -> PROME: bound pre-print expectations and conditional valuations
+0a4e26c628629af99dc197c1cda5228421bd876b | 2026-10-13T22:33:06-04:00 | PROME -> WAL: assign pre-print expectations and valuation gap
+31c02fd748af937a3713a1a30da19315e02ec086 | 2026-10-13T22:31:30-04:00 | REGINALD -> PROME/WAL: integrate original Q2 hedge and capacity evidence
+ac7648a038c380e4e88bb2e080cfc9a676fea93d | 2026-10-13T22:28:18-04:00 | WAL: pin synthesis brief to completed rate reconciliation
+03e60dc0ee14232244a54ffbb6b703d9ff822bdb | 2026-10-13T22:26:14-04:00 | WAL -> PROME, REGINALD: reconcile securities hedges and rate-model assumptions
+f1b7b525bfb746cb582edaa6d18ab91aa78a5308 | 2026-10-13T22:10:23-04:00 | REGINALD -> PROME/WAL: reconcile rate resilience with funding and securities marks
+cf123b597e84340118712f304f0587036a295c56 | 2026-10-12T10:57:21-04:00 | WALTER: FLASH executed RaDD extension and preserve held-put caveats
+3b91e44871f509c0088dd1e6d36e767f77c06f41 | 2026-10-12T10:52:34-04:00 | OZK -> PROME,TERRY,REGINALD,WAL,CREED,NEXUS,WALTER: L635 evidence
+1d0fb0141fe79e34d2f1ca4820c743f48b87a27d | 2026-10-09T11:00:53-04:00 | WAL s#12: NEXUS_BRIEF re-pin to STATUS 3e20cf037 (Amendment 10, last write)
+3e20cf03774bbe1cf27c41765cb2c8b39a4ea3e2 | 2026-10-09T11:00:43-04:00 | WAL s#12: hotel perimeter GAP named (segment=business line, type=collateral), KB-218
+53021ba16c02432fe58f3ee713880af791d3bcbe | 2026-10-09T10:38:55-04:00 | REGINALD: L516 Nano bid summary read (P&A not posted), §3 re-run, REG-T-03 0-of-3, inbox to 0
+f02b1e84bcf530df3c8a049a87dd0292a155caad | 2026-10-09T10:07:36-04:00 | WALTER -> WAL: SIG-W-20261009-007 Q3 date 10/19 AMC, call 10/20 noon ET
+20be0d6edd956b2498a0e919300053c2a4a44a20 | 2026-10-09T10:05:24-04:00 | WAL s#11: NEXUS_BRIEF re-pin to STATUS 7cedffe74 (Amendment 10, last write)
+7cedffe74a810531acb36bec9227cb8e3633669d | 2026-10-09T10:05:12-04:00 | WAL s#11: WQ-328 hotel exposure read + Q3 print date pinned (10/19 AMC)
+ce1ffb4a92cff939e4a05dd22def5201f5d04e5c | 2026-10-08T15:49:40-04:00 | WALTER -> ALL ACTIVE + Tier-2: SIG-W-20261008-033 WQ-399 receipt command
+7cb9a4b1f2449b1bfd8e0ef07a179eecb20cad7b | 2026-10-07T18:21:17-04:00 | WALTER: persist October 7 create-only owner handoffs
+e8fd99acf912ee26acad17680898ef5badaf3a9e | 2026-10-07T15:20:39-04:00 | Reconcile October 7 Fidelity holdings and carry transaction gaps
+61a90bbd3a9aec690df79bf24dbdb638f1040edc | 2026-10-01T11:34:18-04:00 | WALTER -> PROME + 19 owners: WQ-295 R3 live-test results, all queued WATCH_FOR sets (L543)

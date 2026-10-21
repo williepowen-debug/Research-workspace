@@ -1,0 +1,17 @@
+READ-CAP [CARL] — cap 54,250 B · budget 32,550 B (60%) · ALL % BELOW ARE OF BUDGET (the number every verdict grades; ≥100% = over) · perimeter: 2 boot section(s) in CLAUDE.md, 35 'read' line(s) scanned (2 on-demand/grep + 0 SCOPED-read token(s) excluded by marker; 0 list item(s) inherited the parent line's read verb, L530), 8 whole-read file(s) found; boot.py-internal reads and prose outside the boot section NOT seen (heuristic — READS.tsv replaces it)
+  ✅ board_log.tsv                        23,364 B    72% of budget    (boot-step line 74)
+      ↳ 70–75% BAND — rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 580 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. ⚠️ Headroom to the trigger: 1,048 B.
+  ✅ STATUS.md                            22,768 B    70% of budget    (boot-step line 65 · ALSO read whole by NEXUS:6)
+  ✅ ROADMAP.md                           20,663 B    63% of budget    (boot-step line 76)
+  ✅ TEAM.md                              14,352 B    44% of budget    (boot-step line 67)
+  ✅ SPAWN_PROTOCOL.md                    13,461 B    41% of budget    (boot-step line 67)
+  ✅ MEMORY.md                            12,324 B    38% of budget    (boot-step line 64)
+  ✅ SCRATCH.md                            6,152 B    19% of budget    (boot-step line 63)
+  ✅ workbook/SCHEMA.tsv                   4,211 B    13% of budget    (boot-step line 66)
+✅ READ-CAP 0 [CARL]: every boot-mandated read this check found is under budget (8 file(s)). ⚠️ PERIMETER IS THE CHARTER HEURISTIC — this desk has no declaration in PROME/registry/READS.tsv, so this is 'clean within what the scan found', NOT a clean bill. 29 of 37 desks delegate boot to a file it cannot see.
+  ℹ️  charter AGENTS/CARL/CLAUDE.md = 49,224 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+  ✉️  OWNER-DIRECTED NOTICE [CARL] (READ_CAP rule 15): 1 file(s) under AGENTS/CARL/ that OTHER desks' declared boot reads load WHOLE — counted in THOSE readers' perimeters, NOT in this desk's totals or rc. The bytes are this desk's to rotate (rule 4); a breach here is also turning the READER's check red.
+     ✅ AGENTS/CARL/NEXUS_BRIEF.md            7,062 B    22% of budget  under 75% of budget  ← read whole by NEXUS:6
+READ-CAP-RESULT v1 mode=agent rc=0 assessed=1 desk=CARL reads=8 over_budget=0 over_cap=0 manifest_defects=0 advisories=0 generated_flagged=0 rotation_due=0 active_decisions_over_budget=0 charter_mode=unspecified charter_reads=0 owner_notices=1 owner_notices_over_budget=0 charter_bytes=49224
+
+EXIT_CODE=0

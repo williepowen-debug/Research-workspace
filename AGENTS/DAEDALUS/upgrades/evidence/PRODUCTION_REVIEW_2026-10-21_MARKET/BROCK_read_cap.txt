@@ -1,0 +1,23 @@
+READ-CAP [BROCK] — cap 54,250 B · budget 32,550 B (60%) · ALL % BELOW ARE OF BUDGET (the number every verdict grades; ≥100% = over) · perimeter: DECLARED in PROME/registry/READS.tsv — 27 cap-bearing (whole/programmatic) measured, 6 declared-not-counted (scoped/grep/summary), 19 manifest row(s) for this desk; 23 of the measured are MEMBERS of 2 cap-bearing CLASS row(s), each measured per member (rule 16); ATTESTED by the desk itself
+  ✅ AGENTS/BROCK/STATUS.md               23,658 B    73% of budget    (whole · BROCK:1 · ALSO read whole by NEXUS:6, REGINALD:CLAUDE.md-Boot-9)
+      ↳ 70–75% BAND — rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 874 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. ⚠️ Headroom to the trigger: 754 B.
+  ✅ AGENTS/BROCK/LESSONS.md              21,662 B    67% of budget    (whole · BROCK:2)
+  ✅ AGENTS/BROCK/catchups/INDEX.md        3,600 B    11% of budget    (whole · BROCK:1)
+  ✅ AGENTS/BROCK/SCRATCH.md               1,047 B     3% of budget    (whole · BROCK:0b)
+  ▣ AGENTS/BROCK/catchups/*.md                   declared `whole` · CLASS row — cap-bearing PER MEMBER (rule 16 ruling 2026-09-24): 6 member(s) measured, 0 over budget, 0 over the CAP, largest 15,392 B (47% of budget); 1 member(s) also matched by another manifest row, graded there  (BROCK:1)
+      6 member(s) all under 70% of budget (<22,785 B)
+  ▣ AGENTS/BROCK/inbox/WALTER/*.md               declared `whole` · CLASS row — cap-bearing PER MEMBER (rule 16 ruling 2026-09-24): 17 member(s) measured, 0 over budget, 0 over the CAP, largest 2,870 B (9% of budget)  (BROCK:5)
+      17 member(s) all under 70% of budget (<22,785 B)
+  ◦ AGENTS/BROCK/workbook/PREDICTIONS.tsv 54,050 B  declared `scoped` — not cap-bearing, not counted  (BROCK:3)
+  ◦ AGENTS/BROCK/board_log.tsv        133,686 B  declared `grep` — not cap-bearing, not counted  (BROCK:5)
+  ◦ AGENTS/BROCK/registry/corrections_receipts.tsv  1,572 B  declared `scoped` — not cap-bearing, not counted  (BROCK:5b)
+  ◦ scripts/ledger_staleness.py        71,219 B  declared `summary` — not cap-bearing, not counted  (BROCK:3)
+  ◦ FORGE/tools/market-data/dashboard.py 30,773 B  declared `summary` — not cap-bearing, not counted  (BROCK:4)
+  ◦ scripts/corrections_boot_check.py  53,658 B  declared `summary` — not cap-bearing, not counted  (BROCK:5b)
+✅ READ-CAP 0 [BROCK]: every CAP-BEARING read in this desk's ATTESTED manifest is under budget (27 measured, 6 declared-not-counted). Perimeter = the desk's own declaration, not a scan.
+  ℹ️  charter AGENTS/BROCK/CLAUDE.md = 31,318 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+  ✉️  OWNER-DIRECTED NOTICE [BROCK] (READ_CAP rule 15): 1 file(s) under AGENTS/BROCK/ that OTHER desks' declared boot reads load WHOLE — counted in THOSE readers' perimeters, NOT in this desk's totals or rc. The bytes are this desk's to rotate (rule 4); a breach here is also turning the READER's check red.
+     ✅ AGENTS/BROCK/NEXUS_BRIEF.md           9,609 B    30% of budget  under 75% of budget  ← read whole by NEXUS:6
+READ-CAP-RESULT v1 mode=agent rc=0 assessed=1 desk=BROCK reads=27 over_budget=0 over_cap=0 manifest_defects=0 advisories=0 generated_flagged=0 rotation_due=0 active_decisions_over_budget=0 charter_mode=unspecified charter_reads=0 owner_notices=1 owner_notices_over_budget=0 charter_bytes=31318
+
+EXIT_CODE=0

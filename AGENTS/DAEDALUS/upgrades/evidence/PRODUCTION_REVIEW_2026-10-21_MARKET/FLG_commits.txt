@@ -1,0 +1,8 @@
+666b5eb5d4a67c799be3fd1332c1018302e5298f | 2026-10-19T12:30:19-04:00 | WALTER (orch): finish routing to active desks, CARL, FALCON, HOMER and CREED
+785a0856f6fb5b27d95be9e97138488d24a5e8cc | 2026-10-16T13:38:43-04:00 | PROME -> FLG: T-03 Q3 date confirmed 10/23; DOCKET L563 + L707 DONE, L522 date HARD
+8234db2840e1b88fe278142d801cbcdf008e4e18 | 2026-10-08T16:35:15-04:00 | DAEDALUS -> 28 desks + PROME: consolidated sweep packets (3 sweeps)
+ce1ffb4a92cff939e4a05dd22def5201f5d04e5c | 2026-10-08T15:49:40-04:00 | WALTER -> ALL ACTIVE + Tier-2: SIG-W-20261008-033 WQ-399 receipt command
+018af98466694d3ec74eb35a29acd53ee95a29d5 | 2026-10-07T22:03:38-04:00 | REGINALD -> PROME, FLG: FLG price ladder RED on the 10/7 close ($11.30)
+b66ec4c9373cf6ddd8ecc1f689f58bb78d053f91 | 2026-10-01T19:48:16-04:00 | PROME -> FLG: rent-freeze docket read (NY County 453580/2026): no stay through 10/1, case live
+61a90bbd3a9aec690df79bf24dbdb638f1040edc | 2026-10-01T11:34:18-04:00 | WALTER -> PROME + 19 owners: WQ-295 R3 live-test results, all queued WATCH_FOR sets (L543)
+d9fcfc1bd4d01b6c5b90d92d6284178377fcbe38 | 2026-10-01T11:15:18-04:00 | FLG: T-08 FIRED 10/1 - rent freeze in force, graded on the letter; inbox drained

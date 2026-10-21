@@ -1,0 +1,122 @@
+{
+  "commands": {
+    "PROME_cap": [
+      "python3",
+      "scripts/read_cap_check.py",
+      "--agent",
+      "PROME"
+    ],
+    "WALTER_cap": [
+      "python3",
+      "scripts/read_cap_check.py",
+      "--agent",
+      "WALTER"
+    ],
+    "NEXUS_cap": [
+      "python3",
+      "scripts/read_cap_check.py",
+      "--agent",
+      "NEXUS"
+    ],
+    "RED_cap": [
+      "python3",
+      "scripts/read_cap_check.py",
+      "--agent",
+      "RED"
+    ],
+    "TERRY_cap": [
+      "python3",
+      "scripts/read_cap_check.py",
+      "--agent",
+      "TERRY"
+    ],
+    "ORACLE_cap": [
+      "python3",
+      "scripts/read_cap_check.py",
+      "--agent",
+      "ORACLE"
+    ],
+    "DEWEY_cap": [
+      "python3",
+      "scripts/read_cap_check.py",
+      "--agent",
+      "DEWEY"
+    ],
+    "RAV_cap": [
+      "python3",
+      "scripts/read_cap_check.py",
+      "--agent",
+      "RAV"
+    ],
+    "terry_ledger": [
+      "python3",
+      "AGENTS/TERRY/scripts/ledger_sweep.py"
+    ],
+    "red_debt": [
+      "python3",
+      "AGENTS/RED/scripts/review_debt.py"
+    ],
+    "red_closeout": [
+      "python3",
+      "AGENTS/RED/scripts/closeout_check.py",
+      "--no-delegate"
+    ]
+  },
+  "results": [
+    [
+      "PROME_cap",
+      0,
+      5379
+    ],
+    [
+      "WALTER_cap",
+      0,
+      10968
+    ],
+    [
+      "NEXUS_cap",
+      0,
+      10454
+    ],
+    [
+      "RED_cap",
+      0,
+      3535
+    ],
+    [
+      "TERRY_cap",
+      0,
+      3157
+    ],
+    [
+      "ORACLE_cap",
+      0,
+      2092
+    ],
+    [
+      "DEWEY_cap",
+      0,
+      1582
+    ],
+    [
+      "RAV_cap",
+      2,
+      357
+    ],
+    [
+      "terry_ledger",
+      0,
+      1886
+    ],
+    [
+      "red_debt",
+      0,
+      1188
+    ],
+    [
+      "red_closeout",
+      0,
+      1821
+    ]
+  ]
+}

@@ -1,0 +1,49 @@
+9fa4a3d0b7c7d0659f3522724b1ae62e50275f75 | 2026-10-20T22:50:53-04:00 | REGINALD -> PROME, OZK, WAL, WALTER: complete available backlog follow-through
+666b5eb5d4a67c799be3fd1332c1018302e5298f | 2026-10-19T12:30:19-04:00 | WALTER (orch): finish routing to active desks, CARL, FALCON, HOMER and CREED
+ed650de5113c4ad9bafa7005ecd38711004c875e | 2026-10-15T16:02:41-04:00 | RED: Network Sweep S54 delivered (Will lifted the S50 hold 15:52 ET); CHG-RED-055 opened; OZK packet
+f6cbe80d82826efb51aa7ed10902e5ce0c5ae906 | 2026-10-14T21:12:43-04:00 | PROME: consume TERRY's WQ-425 cards — register WQ-428 (OZK sell) and WQ-429 (WAL A/B); KRE C5 dates
+a7cb3b8f4800412f5bfbb103f8a6dc019a8c7f4e | 2026-10-14T14:21:15-04:00 | BROCK -> PROME REGINALD OZK: deliver October14 bank attribution and FSK collateral evidence
+49b07b11b270730ae278f903e843a6551122506d | 2026-10-14T11:08:47-04:00 | WAL -> PROME/OZK/REGINALD: deliver housekeeping and peer integration receipts
+34e4dbde49068db0d1c010d2be7332214f5f2c6d | 2026-10-12T15:56:09-04:00 | WALTER -> PROME, DEWEY and recipients: verify live basis and route ordinary intake
+691be8d20d528f6bfe2dbcb72c1e8792e5ab0fb4 | 2026-10-12T15:27:23-04:00 | OZK -> PROME: verify late REGINALD receipt and final switch inventory
+4f68888f5f5a5b4a1a3ecedb0c4e4ae20551d490 | 2026-10-12T15:26:16-04:00 | OZK: record accepted machine-switch checkpoint notification
+a7ee18d87095337936594238d18fb12d94a9f336 | 2026-10-12T15:25:36-04:00 | OZK -> PROME: checkpoint machine-switch continuity and peer-owned residue
+075010818140c7bca9f1cfedd81e7dfd546ee4f5 | 2026-10-12T15:25:36-04:00 | REGINALD -> OZK/PROME: integrate durability evidence and record consumption
+15017d6e7952c64ecd87086def56a3b1d93ed8a7 | 2026-10-12T15:22:19-04:00 | OZK -> PROME: record final closeout notification and publication approval gap
+73623fe6438378be31a271919040e63436c6deef | 2026-10-12T15:21:12-04:00 | OZK: verify published handoff and record blocked shared push
+41526df5eb58d3248e7619bf7ba2fafcf8fa478e | 2026-10-12T15:17:23-04:00 | OZK: record consumer doorbells and closeout checks
+aea8a07a7e3327ddac656be949146ba105162eb8 | 2026-10-12T15:16:07-04:00 | OZK -> PROME/REGINALD/TERRY/WALTER: wrap research and preserve Q3 priorities
+dfd9c443eb3e3a8bde6c5f662b280c106299ee44 | 2026-10-12T14:58:25-04:00 | OZK: record accepted durability delivery doorbell
+5c41bce79e8aae5ee23fe29ce60b00d0922dfe2f | 2026-10-12T14:58:01-04:00 | OZK -> PROME/WALTER: deliver durability results and Q3 dependencies
+26ff20a0ec6cd9e6eea22b35316cc1b63208a7e0 | 2026-10-12T14:56:57-04:00 | OZK: deliver approved funding durability, Boston and recovery reconciliation
+e5c89b171b3ed1d31f761fe64fc799056e85e0c3 | 2026-10-12T14:38:52-04:00 | OZK: rank incremental funding and credit-outcome research questions
+d4d1f2ff006f43d3f3ad9a9c3379df023f12a830 | 2026-10-12T14:14:51-04:00 | OZK: record accepted PROME checkpoint doorbell
+737c289faec35bae3fd635cd632f6714415fac03 | 2026-10-12T14:14:30-04:00 | OZK -> PROME: report approved-gap checkpoint and existing handoffs
+2e68fa822cdd515b704ff45c02946d4edfb500bc | 2026-10-12T14:09:31-04:00 | OZK: preserve three-gap delivery receipt and validation limits
+ccfa8fff575c3002351a24e99da2edd75135a987 | 2026-10-12T14:07:38-04:00 | OZK: complete ordered public-evidence follow-up on three gaps
+fd3b697f45ee68a4416e65d8829003a6313fb272 | 2026-10-12T13:23:56-04:00 | OZK: preserve owed-work delivery notification receipt
+b88ca67d563d87a454b91d27d312c36b41d0803a | 2026-10-12T13:22:53-04:00 | OZK: reconcile owed work and record Wauwatosa sale evidence
+b364ab5ec30edb3cada70e595b331c18c77f711c | 2026-10-12T11:31:07-04:00 | WALTER: route OZK Horton comparison limits through normal signal lane
+2208fd0b2b30267eebaa75397c0cd33c78f987d3 | 2026-10-12T11:29:59-04:00 | OZK: record L690 delivery notification acceptance
+961218af62d3fd3621cbc99041f4a61a139f2ccd | 2026-10-12T11:27:28-04:00 | OZK: complete L690 review, Q3 pre-print card and bounded Horton disposition
+b3157aa2619612964428ad48c364913d9b6c94eb | 2026-10-12T11:10:30-04:00 | OZK: acknowledge exact L690 approval artifact and bounded deliverables
+25e8cd00eddf0d7da4880c0aa4128e3cfc62f5e6 | 2026-10-12T11:09:24-04:00 | PROME -> OZK: commission approved post-extension review and Q3 card
+5e0171edcda341743a956b2190a1de589bf635df | 2026-10-12T10:58:21-04:00 | OZK: record verified PROME L635 consumption; L520 remains separate
+cf123b597e84340118712f304f0587036a295c56 | 2026-10-12T10:57:21-04:00 | WALTER: FLASH executed RaDD extension and preserve held-put caveats
+f428389a2b2cdceea3bc74f1c4fc06bfbfa6f1cf | 2026-10-12T10:56:33-04:00 | OZK: record requested PROME queue acceptance and native CLI capability
+cf75f1df8abdb951c19927ab01b1bae0cf53b6aa | 2026-10-12T10:50:51-04:00 | OZK: establish L635 executed RaDD extension and preserve recognition guard
+83aad459efeb0b46ebf7f33484ae43cb69620ae3 | 2026-10-12T10:36:57-04:00 | OZK: encode WQ-395 executed-extension reading before L635 grade
+ce1ffb4a92cff939e4a05dd22def5201f5d04e5c | 2026-10-08T15:49:40-04:00 | WALTER -> ALL ACTIVE + Tier-2: SIG-W-20261008-033 WQ-399 receipt command
+223cd02f076e0d766379948552f6e62fbc377d94 | 2026-10-08T12:07:16-04:00 | WALTER 10/8 broad sweep: -030 rates/credit (HY near-trigger), -031 CRE cases
+d5f3fb70d07de391739d3cf1e7194196a0e2af86 | 2026-10-08T09:08:53-04:00 | WALTER 10/8: OZK cause found -> SIG-W-20261008-017 (RaDD bridge to Fri 10/9)
+d28131cb31e523b35219abb59d6d5678a9d07f3e | 2026-10-08T08:57:12-04:00 | PROME: WQ-395 RULED (Will 08:56: stopgap ≠ executed extension; OZK-09 OPEN) — OZK encode packet
+f1e5a15364ff4ebec733382e5a61c8db3212d12f | 2026-10-08T08:52:27-04:00 | OZK 10/8: <$45 band FIRED (10/6 $44.58); cause = Citi note on RaDD stopgap to 10/9
+45b3201340e9cfe25e28aee7e4c1c5d122ed3f1e | 2026-10-08T08:16:22-04:00 | WALTER 10/8 boot: 13 dispatches (Isaias, Trepp, OZK, freight, gilt, AI, plague fix)
+e8fd99acf912ee26acad17680898ef5badaf3a9e | 2026-10-07T15:20:39-04:00 | Reconcile October 7 Fidelity holdings and carry transaction gaps
+5f418ac9a907e53ba3509f426e5fa3ff2c7a5e75 | 2026-10-02T11:13:54-04:00 | OZK 10/2 closeout: live price, armed items (Horton 10/14, Q3 10/20-21, notice window)
+7234b8e793309085600d25f7f454965b12a26f4d | 2026-10-02T08:36:05-04:00 | OZK 10/2 read (L463): sub-notes reset happened, uncontradicted; Q3 date 10/20-21
+116229ebddfc9862b9b81c4f58994d2dfe6b47e6 | 2026-10-01T13:09:27-04:00 | PROME -> OZK, CARL, SHADE: WALTER's lane-query sizing; adopt or decline by name
+5d7c646426b2518a63afeb4810c560a174350078 | 2026-10-01T12:54:46-04:00 | OZK 10/1 full closeout: post-delivery facts dated, Horton CHECK-BY 10/14, $11.2M re-based
+ea46fc961af0f3925ba157f14304862b81adea87 | 2026-10-01T12:26:29-04:00 | OZK -> PROME: R3 adopt IQHQ, decline BPRE, adopt Campus at Horton (recall unproven)
+4e51f69ee24f41d54dda7f11dc792a60fef4d9a1 | 2026-10-01T12:25:56-04:00 | WALTER -> OZK: R3 live verdicts (IQHQ adopt, BPRE reject, Horton no verdict)
+f48e8062e7512c553f6e83f9dc9b8a07fbf4245c | 2026-10-01T12:23:54-04:00 | OZK 10/1: sub-notes reset re-based to ~6.19% (+$12.3M/yr); Dec-18 flag re-read; inbox 3->0

@@ -1,0 +1,265 @@
+{
+  "schema": "suggested CHECKS changes; not applied",
+  "date": "2026-10-21",
+  "scope": "39 registered rows; current root runtime scripts/hooks; new local code added since 2026-10-01; W2 boot-invoker exclusions",
+  "updates": [
+    {
+      "Check": "scripts/safe-push.sh",
+      "action": "review_update",
+      "recommended_change": "UPDATE: Oct5 bootstrap installs/verifies native hooks before push (also dry-run); refusal is part of current contract. Historical run receipt is not current-source verification.",
+      "verification": "2026-10-21 source/invocation inspection only; preserve historical behavioral receipts; no behavioral rerun"
+    },
+    {
+      "Check": "scripts/claim_check.py",
+      "action": "review_update",
+      "recommended_change": "UPDATE verification provenance: Oct5 syntax/runtime change; lexical enumerated claims only, not all correctness.",
+      "verification": "2026-10-21 source/invocation inspection only; preserve historical behavioral receipts; no behavioral rerun"
+    },
+    {
+      "Check": "scripts/firetime_check.py",
+      "action": "review_update",
+      "recommended_change": "UPDATE: Oct5 artifact-cell parser accepts middle-dot/+ /semicolon and strips locators; gitignored missing paths informational. Parsed-window PASS is not proof every obligation was found.",
+      "verification": "2026-10-21 source/invocation inspection only; preserve historical behavioral receipts; no behavioral rerun"
+    },
+    {
+      "Check": "scripts/position_agreement_check.py",
+      "action": "review_update",
+      "recommended_change": "UPDATE NULL: compares owner STATUS TRY-* LIVE tokens to trade surfaces. Does not establish broker/external position truth; no matching surface/token can be clean.",
+      "verification": "2026-10-21 source/invocation inspection only; preserve historical behavioral receipts; no behavioral rerun"
+    },
+    {
+      "Check": "scripts/session_banner.sh",
+      "action": "review_update",
+      "recommended_change": "UPDATE NULL: Oct5 now installs Git hooks and may fetch --unshallow (120-second bound), otherwise fetch with 10-second bound; failure ancestry UNKNOWN. Harness wiring is Claude settings, not Codex evidence.",
+      "verification": "2026-10-21 source/invocation inspection only; preserve historical behavioral receipts; no behavioral rerun"
+    },
+    {
+      "Check": "scripts/canon_check.py",
+      "action": "review_update",
+      "recommended_change": "UPDATE NULL/gap: checks enumerated forbidden forms only; known amend/no-pathspec canon omissions remain, no code fix in this audit.",
+      "verification": "2026-10-21 source/invocation inspection only; preserve historical behavioral receipts; no behavioral rerun"
+    },
+    {
+      "Check": "AGENTS/DAEDALUS/scripts/verify_push.sh",
+      "action": "review_update",
+      "recommended_change": "UPDATE INVOKED: legacy-only verification under current charter; candidate-v2 uses exact-commit verification. No every-closeout claim and no acceptance inference from subject/ancestry.",
+      "verification": "2026-10-21 source/invocation inspection only; preserve historical behavioral receipts; no behavioral rerun"
+    },
+    {
+      "Check": "AGENTS/DAEDALUS/scripts/read_cap_check.py",
+      "action": "review_update",
+      "recommended_change": "UPDATE state/invoker/gap: legacy local checker no longer canonical closeout invoker; root read_cap_check is canonical and already covers the prior READS consumer gap. Preserve historical receipt.",
+      "verification": "2026-10-21 source/invocation inspection only; preserve historical behavioral receipts; no behavioral rerun"
+    },
+    {
+      "Check": "scripts/corrections_boot_check.py",
+      "action": "review_update",
+      "recommended_change": "UPDATE gap/invocation: WALTER tools/closeout_check.py:113 calls --write-compliance; closeout_run.py:41 invokes that checker. Row says 59/59 tests while old gap says no self-tests/no independent read/uninvoked: remove obsolete assertions, preserve dated evidence and live resolver limits.",
+      "verification": "2026-10-21 source/invocation inspection only; preserve historical behavioral receipts; no behavioral rerun"
+    },
+    {
+      "Check": "scripts/docket_view.py",
+      "action": "review_update",
+      "recommended_change": "UPDATE: current write target PROME/state/CALENDAR.md (CLOSEOUT lines51/63/74); Oct16 far rows retain L#/owner/severity beyond detailed 7-day window. Calendar digest is not semantic obligation completeness.",
+      "verification": "2026-10-21 source/invocation inspection only; preserve historical behavioral receipts; no behavioral rerun"
+    },
+    {
+      "Check": "scripts/orch_log.py",
+      "action": "review_update",
+      "recommended_change": "UPDATE: L748 Oct21 installed after L736 receipt. orch_log check/validate_line grades schema v2, typed nonnegative counts, event class and basic field constraints, NOT structured closeout timestamps. append validates a time_correction_v1 row via orch_time.validate_correction; rotation separately guards correction/target closure. PROME/tools/orch_closeout.py validates lifecycle timestamps. No authentication, original append-time proof, or fleet liveness follows from orch_log check PASS.",
+      "verification": "2026-10-21 source/invocation inspection only; preserve historical behavioral receipts; no behavioral rerun"
+    },
+    {
+      "Check": "scripts/read_cap_check.py",
+      "action": "review_update",
+      "recommended_change": "UPDATE NULL: explicit charter-loading grades root/local charter bytes; injected/unspecified modes differ. Remove unconditional charter-visible/ungraded statement. L530 implementation present; preserve actual prior test receipts.",
+      "verification": "2026-10-21 source/invocation inspection only; preserve historical behavioral receipts; no behavioral rerun"
+    },
+    {
+      "Check": "scripts/validate_all.py",
+      "action": "review_update",
+      "recommended_change": "UPDATE baseline/gap only with exact evidence: saved baseline remains Sep24 C2=1345,D1=2,recheckOct15; lead reports fresh C2=1750 and D1 cannot/AEOLUS unattested. Fresh observation is not installed baseline or D1 pass; no rebaseline here.",
+      "verification": "2026-10-21 source/invocation inspection only; preserve historical behavioral receipts; no behavioral rerun"
+    },
+    {
+      "Check": "scripts/pipeline_rc_guard.py",
+      "action": "review_update",
+      "recommended_change": "UPDATE gap: settings statusMessage already Pipeline rc advisory (additionalContext; no approval); old blocking-label complaint is resolved. Harness-only/selected-pipeline limits remain.",
+      "verification": "2026-10-21 source/invocation inspection only; preserve historical behavioral receipts; no behavioral rerun"
+    },
+    {
+      "Check": "scripts/brief_pin_check.py",
+      "action": "review_update",
+      "recommended_change": "UPDATE state/invoker: NEXUS CLAUDE.md:51 executable reader boot instruction adopted Oct8; WIRED-SINGLE-INVOKER, not BUILT-UNWIRED. Pin checks pointer identity, not contents or reader comprehension; independent-reader gap not cleared by this wiring inspection.",
+      "verification": "2026-10-21 source/invocation inspection only; preserve historical behavioral receipts; no behavioral rerun"
+    },
+    {
+      "Check": "scripts/account_guard.py",
+      "action": "review_update",
+      "recommended_change": "UPDATE verification provenance: Oct20 fixes after initial install. Actual pre-commit condition skips account guard if Python/script absent; narrow known-candidate detection, not whole-hook fail-closed.",
+      "verification": "2026-10-21 source/invocation inspection only; preserve historical behavioral receipts; no behavioral rerun"
+    }
+  ],
+  "additions": [
+    {
+      "Check": "scripts/orch_time.py",
+      "Owner": "DAEDALUS (surface); PROME integration",
+      "State": "WIRED",
+      "Invoked_by": "scripts/orch_log.py and PROME/tools/orch_closeout.py:21,58,132,178",
+      "Null_meaning (what a PASS proves \u2014 PAT-074)": "L748 append-only UNKNOWN time invalidation and attributed Git upper-bound audit. Not receipt authentication, original append-time proof, or fleet liveness. invalidate mutates and requires owner authorization.",
+      "Last_verified_run": "2026-10-21 source/invocation inspection only; no behavioral rerun",
+      "action": "suggest_add; owner/lead review before register edit",
+      "Notes": "DAEDALUS-built L748 mechanism; distinguish imported correction validation from lifecycle validation in PROME/tools/orch_closeout.py."
+    },
+    {
+      "Check": "scripts/install-git-hooks.sh",
+      "Owner": "DAEDALUS (surface); PROME integration",
+      "State": "SETUP-ONLY",
+      "Invoked_by": "scripts/safe-push.sh; scripts/session_banner.sh",
+      "Null_meaning (what a PASS proves \u2014 PAT-074)": "Verifies required executable native hooks and local hooksPath; refuses conflicting hook setups. Installer can mutate Git config, not a read-only checker.",
+      "Last_verified_run": "2026-10-21 source/invocation inspection only; no behavioral rerun",
+      "action": "suggest_add; owner/lead review before register edit"
+    },
+    {
+      "Check": "scripts/install-claude-hooks.py",
+      "Owner": "DAEDALUS (surface); PROME integration",
+      "State": "SETUP-ONLY",
+      "Invoked_by": "Explicit host setup; no recurrent invocation certified",
+      "Null_meaning (what a PASS proves \u2014 PAT-074)": "Merges/backs up host settings atomically with locking; defaults write. Installation is not proof Claude hook execution, and not Codex wiring.",
+      "Last_verified_run": "2026-10-21 source/invocation inspection only; no behavioral rerun",
+      "action": "suggest_add; owner/lead review before register edit"
+    },
+    {
+      "Check": "scripts/githooks/pre-commit",
+      "Owner": "DAEDALUS (surface); PROME integration",
+      "State": "WIRED-HARNESS",
+      "Invoked_by": "Native Git; local core.hooksPath currently scripts/githooks",
+      "Null_meaning (what a PASS proves \u2014 PAT-074)": "Conditional account guard plus staged docket line-stability and row-cap checks. Account dependency absence skips that leg; docket checks refuse missing dependencies. Not whole repo policy proof.",
+      "Last_verified_run": "2026-10-21 source/invocation inspection only; no behavioral rerun",
+      "action": "suggest_add; owner/lead review before register edit"
+    },
+    {
+      "Check": "scripts/githooks/commit-msg",
+      "Owner": "DAEDALUS (surface); PROME integration",
+      "State": "WIRED-HARNESS",
+      "Invoked_by": "Native Git; local core.hooksPath currently scripts/githooks",
+      "Null_meaning (what a PASS proves \u2014 PAT-074)": "Normalizes subject via stripspace/NFC; first paragraph <=100 characters; missing Python refuses. Not correctness or complete Git protocol enforcement.",
+      "Last_verified_run": "2026-10-21 source/invocation inspection only; no behavioral rerun",
+      "action": "suggest_add; owner/lead review before register edit"
+    },
+    {
+      "Check": "scripts/githooks/pre-push",
+      "Owner": "DAEDALUS (surface); PROME integration",
+      "State": "WIRED-HARNESS",
+      "Invoked_by": "Native Git; local core.hooksPath currently scripts/githooks",
+      "Null_meaning (what a PASS proves \u2014 PAT-074)": "Existing-remote ancestry check; deletion refused, UNKNOWN/non-FF refused, new-ref zero OID skipped. Does not detect every force flag or authorize publication.",
+      "Last_verified_run": "2026-10-21 source/invocation inspection only; no behavioral rerun",
+      "action": "suggest_add; owner/lead review before register edit"
+    },
+    {
+      "Check": "AGENTS/BROCK/scripts/brock_selfcheck.py",
+      "Owner": "BROCK",
+      "State": "WIRED-SINGLE-INVOKER",
+      "Invoked_by": "AGENTS/BROCK/CLAUDE.md:62 closeout",
+      "Null_meaning (what a PASS proves \u2014 PAT-074)": "Three narrow checks: fire/resolution propagation in enumerated phrasings, STATUS matrix arithmetic, KB/VX 13-field shape. Not general claim or financial truth.",
+      "Last_verified_run": "2026-10-21 source/invocation inspection only; no behavioral rerun",
+      "action": "suggest_add; owner/lead review before register edit"
+    },
+    {
+      "Check": "AGENTS/DAEDALUS/scripts/calendar_docket_coverage.py",
+      "Owner": "DAEDALUS",
+      "State": "MANUAL-BY-DESIGN",
+      "Invoked_by": "builds/calendar_coverage_2026-10-20/RESULT.md standalone command; boot integration not approved",
+      "Null_meaning (what a PASS proves \u2014 PAT-074)": "Four discovery patterns, supported explicit point dates and lexical candidate correspondence; rc0 nonempty complete assessed population, rc1 unmatched, rc2 cannot dominates. No event identity/schedule/delivery proof.",
+      "Last_verified_run": "2026-10-21 source/invocation inspection only; no behavioral rerun",
+      "action": "suggest_add; owner/lead review before register edit"
+    },
+    {
+      "Check": "AGENTS/DAEDALUS/scripts/dark_window_check.py",
+      "Owner": "DAEDALUS",
+      "State": "MANUAL-BY-DESIGN",
+      "Invoked_by": "No standing boot/sweep invoker located; owner to confirm intended cadence",
+      "Null_meaning (what a PASS proves \u2014 PAT-074)": "Descriptive self-prefix commit gap against declared live tests; threshold enforcement opt-in under Will N. Commit activity is not current evidence/attention or liveness.",
+      "Last_verified_run": "2026-10-21 source/invocation inspection only; no behavioral rerun",
+      "action": "suggest_add; owner/lead review before register edit"
+    },
+    {
+      "Check": "AGENTS/DAEDALUS/scripts/prose_remedy_candidates.py",
+      "Owner": "DAEDALUS",
+      "State": "WIRED-SINGLE-INVOKER",
+      "Invoked_by": "sweeps/PROSE_REMEDY_SWEEP.md:13",
+      "Null_meaning (what a PASS proves \u2014 PAT-074)": "Extracts candidate prose remedies; not acceptance, owner obligation, or completed repair.",
+      "Last_verified_run": "2026-10-21 source/invocation inspection only; no behavioral rerun",
+      "action": "suggest_add; owner/lead review before register edit"
+    },
+    {
+      "Check": "AGENTS/RED/scripts/closeout_check.py",
+      "Owner": "RED",
+      "State": "WIRED-SINGLE-INVOKER",
+      "Invoked_by": "AGENTS/RED/CLAUDE.md:74 W10",
+      "Null_meaning (what a PASS proves \u2014 PAT-074)": "Enumerated cross-surface checks and delegated checks; rc1/rc2 block. Selected surface consistency and executed children only, not whole session truth.",
+      "Last_verified_run": "2026-10-21 source/invocation inspection only; no behavioral rerun",
+      "action": "suggest_add; owner/lead review before register edit"
+    },
+    {
+      "Check": "AGENTS/VULCAN/tools/closeout_check.py",
+      "Owner": "VULCAN",
+      "State": "WIRED-SINGLE-INVOKER",
+      "Invoked_by": "AGENTS/VULCAN/CLAUDE.md:38 closeout FIRST/LAST",
+      "Null_meaning (what a PASS proves \u2014 PAT-074)": "Distinguishes CHECKED/DELEGATED/MANUAL; bounded checklist evidence is not whole judgment or independent validation.",
+      "Last_verified_run": "2026-10-21 source/invocation inspection only; no behavioral rerun",
+      "action": "suggest_add; owner/lead review before register edit"
+    },
+    {
+      "Check": "AGENTS/WALTER/tools/closeout_run.py",
+      "Owner": "WALTER",
+      "State": "WIRED-SINGLE-INVOKER",
+      "Invoked_by": "AGENTS/WALTER/CLAUDE.md:98 selected light/full closeout",
+      "Null_meaning (what a PASS proves \u2014 PAT-074)": "Runs selected checks and drafts receipt; rc0/1/2 PASS/REVIEW/UNKNOWN grades selected checks only. No source edits/fetch/Git/scheduling/completion judgment.",
+      "Last_verified_run": "2026-10-21 source/invocation inspection only; no behavioral rerun",
+      "action": "suggest_add; owner/lead review before register edit"
+    },
+    {
+      "Check": "PROME/tools/docket_line_stability.py",
+      "Owner": "PROME",
+      "State": "WIRED-HARNESS",
+      "Invoked_by": "scripts/githooks/pre-commit before row cap",
+      "Null_meaning (what a PASS proves \u2014 PAT-074)": "Protects detectable unique unchanged row identities from movement; all moved-and-edited rows blind spot, sanctioned override explicit. Not full semantic identity or merge/rebase validation.",
+      "Last_verified_run": "2026-10-21 source/invocation inspection only; no behavioral rerun",
+      "action": "suggest_add; owner/lead review before register edit"
+    },
+    {
+      "Check": "PROME/tools/docket_row_cap.py",
+      "Owner": "PROME",
+      "State": "WIRED",
+      "Invoked_by": "PROME/tools/prome_gate.py:1959 closeout; native pre-commit; post-save validator",
+      "Null_meaning (what a PASS proves \u2014 PAT-074)": "Changed rows pair by physical line, ratchet existing oversize rows; staged policy from index. Missing policy => dormant rc0, not enforced cap. rc2 cannot is not PASS.",
+      "Last_verified_run": "2026-10-21 source/invocation inspection only; no behavioral rerun",
+      "action": "suggest_add; owner/lead review before register edit"
+    },
+    {
+      "Check": "AGENTS/RED/scripts/status_mirrors.py",
+      "Owner": "RED",
+      "State": "WIRED-SINGLE-INVOKER (writer); MANUAL-BY-DESIGN (--check)",
+      "Invoked_by": "RED CLAUDE.md:65,74 --write; standalone --check documented, not directly invoked by closeout wrapper",
+      "Null_meaning (what a PASS proves \u2014 PAT-074)": "--check compares two generated blocks against canon ignoring stamp; rc1 drift, rc2 markers missing/canon unreadable. --write regenerates blocks and is not a check result; closeout a/b separately inspect them.",
+      "Last_verified_run": "2026-10-21 source/invocation inspection only; no behavioral rerun",
+      "action": "suggest_add; check-capable generator, no boot invoker found"
+    },
+    {
+      "Check": "AGENTS/WALTER/tools/closeout_check.py",
+      "Owner": "WALTER",
+      "State": "WIRED-SINGLE-INVOKER",
+      "Invoked_by": "AGENTS/WALTER/CLAUDE.md:98 requires rerun after publication/reconciliation; tools/closeout_run.py:41 selected receipt leg",
+      "Null_meaning (what a PASS proves \u2014 PAT-074)": "Explicit LAST_COMPLETION receipt and duplicate status consistency, publication/delivery evidence relative to LOCAL origin ref, hash-bound manually reviewed owner-evidence pointers, and delegated corrections --write-compliance. Not remote freshness, semantic owner integration, arbitrary prose, or all obligations complete. rc2 UNKNOWN is not PASS.",
+      "Last_verified_run": "2026-10-21 source/invocation inspection only; no behavioral rerun",
+      "Notes": "Added September15 (3fe9a55d3), hence omitted from original newly-added-since-Oct1 inventory; qualifies under W2, no owner boot invoker found. Directly encountered dependency now recorded as historical omission.",
+      "action": "suggest_add; historical omission found during current audit"
+    }
+  ],
+  "limits": [
+    "No tests rerun or external/tool-runtime execution attested.",
+    "No complete audit of historical pre-Oct1 local tools or every runtime host.",
+    "Keep original behavioral verification receipts separate from today source inspection."
+  ]
+}

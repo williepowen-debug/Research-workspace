@@ -1,0 +1,22 @@
+READ-CAP [RED] — cap 54,250 B · budget 32,550 B (60%) · ALL % BELOW ARE OF BUDGET (the number every verdict grades; ≥100% = over) · perimeter: DECLARED in PROME/registry/READS.tsv — 6 cap-bearing (whole/programmatic) measured, 8 declared-not-counted (scoped/grep/summary), 26 manifest row(s) for this desk; ATTESTED by the desk itself
+  🟡 AGENTS/RED/CLAUDE.md                 27,827 B    85% of budget  rotate-tier (≥75% of budget)  (whole · RED:charter (auto-injected at launch))
+      ↳ rule 5 STOP is <70% of budget (22,785 B): REMOVE 5,043 MORE B to finish rotating. ⛔ Stopping at the 75% TRIGGER is not finishing — that band re-breaches on the next append (PAT-055 regrowth), which is why rule 5 has two thresholds.
+  ✅ AGENTS/RED/MEMORY.md                 22,096 B    68% of budget    (whole · RED:CLAUDE.md-boot-1)
+  ✅ AGENTS/RED/board_log.tsv             19,371 B    60% of budget    (whole · RED:CLAUDE.md-boot-1.5/5.5)
+  ✅ AGENTS/RED/STATUS.md                 18,220 B    56% of budget    (whole · RED:CLAUDE.md-boot-2 · ALSO read whole by NEXUS:6)
+  ✅ AGENTS/RED/SCRATCH.md                15,723 B    48% of budget    (whole · RED:CLAUDE.md-boot-5)
+  ✅ AGENTS/RED/CALENDAR.md                9,099 B    28% of budget    (whole · RED:CLAUDE.md-boot-3)
+  ◦ AGENTS/RED/thesis/CHANGELOG.md    176,484 B  declared `scoped` — not cap-bearing, not counted  (RED:CLAUDE.md-boot-4)
+  ◦ AGENTS/RED/docket/CATALYSTS.tsv    67,113 B  declared `scoped` — not cap-bearing, not counted  (RED:CLAUDE.md-boot-3)
+  ◦ AGENTS/RED/workbook/KB.tsv        142,743 B  declared `scoped` — not cap-bearing, not counted  (RED:CLAUDE.md-boot-3/9c)
+  ◦ AGENTS/RED/workbook/VX.tsv         64,211 B  declared `scoped` — not cap-bearing, not counted  (RED:CLAUDE.md-boot-3/9c)
+  ◦ AGENTS/RED/workbook/CHALLENGES.tsv116,700 B  declared `scoped` — not cap-bearing, not counted  (RED:CLAUDE.md-boot-3/9c)
+  ◦ AGENTS/RED/workbook/PREDICTIONS.tsv 36,686 B  declared `scoped` — not cap-bearing, not counted  (RED:CLAUDE.md-boot-3/9c)
+  ◦ AGENTS/RED/workbook/SCHEMA.tsv     25,913 B  declared `summary` — not cap-bearing, not counted  (RED:CLAUDE.md-9b (self-labelled 'closeout, not boot'))
+  ◦ AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv116,031 B  declared `summary` — not cap-bearing, not counted  (RED:CLAUDE.md-boot-9)
+✅ READ-CAP 0 [RED]: every CAP-BEARING read in this desk's ATTESTED manifest is under budget (6 measured, 8 declared-not-counted). Perimeter = the desk's own declaration, not a scan.
+  ℹ️  charter AGENTS/RED/CLAUDE.md = 27,827 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+  ✉️  OWNER-DIRECTED NOTICE [RED] (READ_CAP rule 15): 2 file(s) under AGENTS/RED/ that OTHER desks' declared boot reads load WHOLE — counted in THOSE readers' perimeters, NOT in this desk's totals or rc. The bytes are this desk's to rotate (rule 4); a breach here is also turning the READER's check red.
+     ✅ AGENTS/RED/registry/FALSIFICATION_TRIGGERS_SCAN.tsv   20,453 B    63% of budget  under 75% of budget  ← read whole by WALTER:6b
+     ✅ AGENTS/RED/NEXUS_BRIEF.md            10,596 B    33% of budget  under 75% of budget  ← read whole by NEXUS:6
+READ-CAP-RESULT v1 mode=agent rc=0 assessed=1 desk=RED reads=6 over_budget=0 over_cap=0 manifest_defects=0 advisories=0 generated_flagged=0 rotation_due=1 active_decisions_over_budget=0 charter_mode=unspecified charter_reads=0 owner_notices=2 owner_notices_over_budget=0 charter_bytes=27827

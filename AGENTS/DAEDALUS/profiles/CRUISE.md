@@ -1,5 +1,7 @@
 # Agent Profile — CRUISE
 
+> **⚠️ STALE — trigger verified 2026-10-21:** named calendar/content/owner-state trigger fired; see the per-desk trigger table in PR8. Backlog disposition checkpoint October25; accepted whole-refresh order/scope (~October29 cohort where assigned) and prior body vintage unchanged. Current verified delta: CRU-09 FAILED 10/03; charter re-scoped under WQ-435 10/16 to operator dispersion/NCLH credit-demand, consumer demand and ports. CCL WATCH row retired under WQ-427; NCLH WATCH remains. VX-CRU-01 re-reference still pending L732 10/23. Source/evidence: `upgrades/PRODUCTION_REVIEW_2026-10-21.md` and its named reader companion. This annotation supersedes conflicting current-state claims below only on these inspected facts; no whole-profile refresh or grade change is established by the annotation.
+
 **Built by:** DAEDALUS · **Date:** 2026-09-05 (**FIRST BUILD**) · **Method:** solo full-tree read + the three staged items re-measured at the artifacts
 **Sources read:** `CLAUDE.md` (280 ln) · `STATUS.md` (137) · `TRADE.md` · `WATCHLIST_CCL_PREANNOUNCE.md` · `2026-09-02_LADDER_DISPOSITION_MEMO.md` · `workbook/` (5 TSV) · `board_log.tsv` · inbox/outbox
 **Staleness:** **event-keyed — the CCL Q3 print (~2026-09-28/29)**, or >21d → checkpoint **2026-09-26**

@@ -1,5 +1,7 @@
 # Agent Profile — OTTO
 
+> **⚠️ STALE — trigger verified 2026-10-21:** named calendar/content/owner-state trigger fired; see the per-desk trigger table in PR8. Backlog disposition checkpoint October25; accepted whole-refresh order/scope (~October29 cohort where assigned) and prior body vintage unchanged. Current verified delta: Current row's OTTO-12 unlogged-October1 premise is superseded by Oct19 forecast repair: OPEN subjective25%, original55% retained, VRM/private coverage gaps explicit. §2 source-cell overlay exists since10/14. s035 completed omitted closeout checks, while Oct30 thesis/cold read remains separate. Source/evidence: `upgrades/PRODUCTION_REVIEW_2026-10-21.md` and its named reader companion. This annotation supersedes conflicting current-state claims below only on these inspected facts; no whole-profile refresh or grade change is established by the annotation.
+
 **Profile vintage:** 2026-09-05 (metadata clarified 2026-09-08: the existing 9/5 record below covers refreshed §§1–3/6–8 and item-by-item re-verification of §§4–5; no new content review or clock reset).
 
 **Built by:** DAEDALUS · **Body:** 2026-07-07, **§1–§3 + §6–§8 refreshed 2026-09-05**; **§4–§5 carried forward and RE-VERIFIED item by item** (they were still true — except §5.6, see F-1)

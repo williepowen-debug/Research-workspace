@@ -1,0 +1,37 @@
+TERRY ledger sweep
+==================
+
+D. READ SANITY — did every surface actually parse?
+  ✓ every surface returned rows (a zero here would be a parser defect, not a clean ledger)
+
+C. CARD HEADER vs ITS OWN BODY — 22 card(s)
+  ✓ every card header matches its latest in-body verdict
+
+A. STATE AGREEMENT — 64 setup_ids across 52 surfaces
+  ✓ all surfaces agree
+
+B. SUPERSEDED-VALUE DRIFT — 4 corrected value(s) since '2 days ago': VIX3M/VIX min=1.0888, beta=0.28, beta=0.53, session high=18.71
+  ✓ no naked superseded values
+
+E. FUTURE-DATED STAMPS — 125 surface(s) (ledgers + cards), clock now 2026-10-21 08:52
+  ✓ no stamp claims a time that has not happened yet
+
+F. UNREADABLE STATE CLAIMS — is a surface silently dropping out of check A?
+  ✓ every non-empty claim parsed — check A's ✓ means COMPARED, not merely unread
+
+G. STRUCTURE FINGERPRINT — strikes/expiry, where the STATE token agrees but the trade may not
+  ✓ no surface disagrees with another on strikes or expiry
+
+H. CONTRACT COUNT vs OPEN REAL PAPER ROWS — 2 live reference(s): TRY-BRENT-REFINER=1×, TRY-WAL-ROLL70=1×
+  ✓ every registry surface carries the live contract count
+
+I. INBOX AT CLOSEOUT (advisory — never blocks) — 3 undrained packet(s)
+  📬 inbox/2026-10-20_from-PROME_slate-kept-as-ideas.md
+       added 2026-10-20 (1d) — 🔴 SURVIVED 1 BOOT REPORT(S): this is a DRAIN failure, not late mail
+  📬 inbox/2026-10-20_from-VULCAN_crwv-card-source-qualified-delta.md
+       added 2026-10-20 (1d) — 🔴 SURVIVED 1 BOOT REPORT(S): this is a DRAIN failure, not late mail
+  📬 inbox/2026-10-21_from-PROME_board-ledger-gap.md
+       added 2026-10-21 (today) — likely landed AFTER the boot drain
+  → consume it, or state the disposition in the commit message. ⛔ Do NOT git mv to processed/ just to clear this line — an unread packet filed as consumed is worse than one left visible.
+
+✅ CLEAN (A–H) · 2 advisory 🔴 in section I

@@ -1,0 +1,40 @@
+{
+  "tool": "VALIDATE-ALL",
+  "version": "v1",
+  "date": "2026-10-21",
+  "rc": 2,
+  "legs": [
+    {
+      "id": "C2",
+      "group": "C",
+      "label": "KB Stale_By expiry",
+      "state": "FINDINGS",
+      "flips": false,
+      "headline": "1750 row(s) past Stale_By and not terminal (control: 3451 dated cells over 32 KB(s); 9 KB(s) have no Stale_By column)",
+      "count": 1750,
+      "baseline": 1345,
+      "detail": [
+        "DELTA +405 above recorded baseline 1345 \u2014 owner action owed",
+        "AEOLUS/KB-AEO-001 Stale_By 2026-07-15 status=ACTIVE",
+        "AEOLUS/KB-AEO-002 Stale_By 2026-08-05 status=ACTIVE",
+        "AEOLUS/KB-AEO-003 Stale_By 2026-08-05 status=ACTIVE",
+        "AEOLUS/KB-AEO-004 Stale_By 2026-08-05 status=ACTIVE",
+        "AEOLUS/KB-AEO-006 Stale_By 2026-07-07 status=ACTIVE",
+        "(+1745 more not listed)"
+      ]
+    },
+    {
+      "id": "D1",
+      "group": "D",
+      "label": "read-cap fleet budget",
+      "state": "CANNOT-CERTIFY",
+      "flips": false,
+      "headline": "read_cap_check --fleet returned rc 2 (CANNOT-EVALUATE) \u2014 no fleet figure is available from this run; read its output for the desk or manifest at fault",
+      "count": null,
+      "baseline": null,
+      "detail": []
+    }
+  ],
+  "expired_gaps": [],
+  "gap_register": "0 row(s), 0 EXPIRED"
+}

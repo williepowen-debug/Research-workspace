@@ -1,0 +1,1073 @@
+[
+  {
+    "path": "SAM/scripts/closeout_check.py",
+    "name": "git",
+    "start": 84,
+    "end": 88,
+    "physical_span": 5
+  },
+  {
+    "path": "SAM/scripts/closeout_check.py",
+    "name": "_catalysts_all",
+    "start": 91,
+    "end": 94,
+    "physical_span": 4
+  },
+  {
+    "path": "SAM/scripts/closeout_check.py",
+    "name": "_calendar_forward_counts",
+    "start": 97,
+    "end": 112,
+    "physical_span": 16
+  },
+  {
+    "path": "SAM/scripts/closeout_check.py",
+    "name": "_quoted_spans",
+    "start": 124,
+    "end": 151,
+    "physical_span": 28
+  },
+  {
+    "path": "SAM/scripts/closeout_check.py",
+    "name": "_is_historical_quote",
+    "start": 168,
+    "end": 173,
+    "physical_span": 6
+  },
+  {
+    "path": "SAM/scripts/closeout_check.py",
+    "name": "_tokens",
+    "start": 182,
+    "end": 184,
+    "physical_span": 3
+  },
+  {
+    "path": "SAM/scripts/closeout_check.py",
+    "name": "_calendar_forward_rows",
+    "start": 187,
+    "end": 191,
+    "physical_span": 5
+  },
+  {
+    "path": "SAM/scripts/closeout_check.py",
+    "name": "_row_date",
+    "start": 197,
+    "end": 203,
+    "physical_span": 7
+  },
+  {
+    "path": "SAM/scripts/closeout_check.py",
+    "name": "_calendar_forward_events",
+    "start": 206,
+    "end": 213,
+    "physical_span": 8
+  },
+  {
+    "path": "SAM/scripts/closeout_check.py",
+    "name": "_calendar_undated_rows",
+    "start": 216,
+    "end": 217,
+    "physical_span": 2
+  },
+  {
+    "path": "SAM/scripts/closeout_check.py",
+    "name": "check_docket",
+    "start": 220,
+    "end": 310,
+    "physical_span": 91
+  },
+  {
+    "path": "SAM/scripts/closeout_check.py",
+    "name": "_pred_rows",
+    "start": 326,
+    "end": 329,
+    "physical_span": 4
+  },
+  {
+    "path": "SAM/scripts/closeout_check.py",
+    "name": "check_scoreboard",
+    "start": 332,
+    "end": 435,
+    "physical_span": 104
+  },
+  {
+    "path": "SAM/scripts/closeout_check.py",
+    "name": "check_sam_memory",
+    "start": 438,
+    "end": 450,
+    "physical_span": 13
+  },
+  {
+    "path": "SAM/scripts/closeout_check.py",
+    "name": "check_ledgers",
+    "start": 464,
+    "end": 490,
+    "physical_span": 27
+  },
+  {
+    "path": "SAM/scripts/closeout_check.py",
+    "name": "_row_hash",
+    "start": 493,
+    "end": 496,
+    "physical_span": 4
+  },
+  {
+    "path": "SAM/scripts/closeout_check.py",
+    "name": "check_sidecar",
+    "start": 499,
+    "end": 513,
+    "physical_span": 15
+  },
+  {
+    "path": "SAM/scripts/closeout_check.py",
+    "name": "check_brief_ordering",
+    "start": 516,
+    "end": 527,
+    "physical_span": 12
+  },
+  {
+    "path": "SAM/scripts/closeout_check.py",
+    "name": "check_tree_clean",
+    "start": 530,
+    "end": 534,
+    "physical_span": 5
+  },
+  {
+    "path": "SAM/scripts/closeout_check.py",
+    "name": "run_delegated",
+    "start": 553,
+    "end": 585,
+    "physical_span": 33
+  },
+  {
+    "path": "SAM/scripts/closeout_check.py",
+    "name": "_assert_table_matches_delegations",
+    "start": 588,
+    "end": 596,
+    "physical_span": 9
+  },
+  {
+    "path": "SAM/scripts/closeout_check.py",
+    "name": "main",
+    "start": 599,
+    "end": 672,
+    "physical_span": 74
+  },
+  {
+    "path": "CARL/scripts/consistency_check.py",
+    "name": "strip_markdown",
+    "start": 152,
+    "end": 161,
+    "physical_span": 10
+  },
+  {
+    "path": "CARL/scripts/consistency_check.py",
+    "name": "extract_confidence",
+    "start": 164,
+    "end": 175,
+    "physical_span": 12
+  },
+  {
+    "path": "CARL/scripts/consistency_check.py",
+    "name": "normalize_timeframe",
+    "start": 178,
+    "end": 188,
+    "physical_span": 11
+  },
+  {
+    "path": "CARL/scripts/consistency_check.py",
+    "name": "parse_tsv",
+    "start": 194,
+    "end": 234,
+    "physical_span": 41
+  },
+  {
+    "path": "CARL/scripts/consistency_check.py",
+    "name": "_split_md_row",
+    "start": 237,
+    "end": 240,
+    "physical_span": 4
+  },
+  {
+    "path": "CARL/scripts/consistency_check.py",
+    "name": "parse_status",
+    "start": 243,
+    "end": 299,
+    "physical_span": 57
+  },
+  {
+    "path": "CARL/scripts/consistency_check.py",
+    "name": "check_a",
+    "start": 305,
+    "end": 358,
+    "physical_span": 54
+  },
+  {
+    "path": "CARL/scripts/consistency_check.py",
+    "name": "_prior_pred_ids",
+    "start": 419,
+    "end": 435,
+    "physical_span": 17
+  },
+  {
+    "path": "CARL/scripts/consistency_check.py",
+    "name": "check_g",
+    "start": 438,
+    "end": 519,
+    "physical_span": 82
+  },
+  {
+    "path": "CARL/scripts/consistency_check.py",
+    "name": "_print_g_coverage",
+    "start": 522,
+    "end": 532,
+    "physical_span": 11
+  },
+  {
+    "path": "CARL/scripts/consistency_check.py",
+    "name": "_read_sleeve",
+    "start": 563,
+    "end": 583,
+    "physical_span": 21
+  },
+  {
+    "path": "CARL/scripts/consistency_check.py",
+    "name": "_prior_confidences",
+    "start": 586,
+    "end": 614,
+    "physical_span": 29
+  },
+  {
+    "path": "CARL/scripts/consistency_check.py",
+    "name": "check_f",
+    "start": 617,
+    "end": 688,
+    "physical_span": 72
+  },
+  {
+    "path": "CARL/scripts/consistency_check.py",
+    "name": "_print_f_coverage",
+    "start": 691,
+    "end": 707,
+    "physical_span": 17
+  },
+  {
+    "path": "CARL/scripts/consistency_check.py",
+    "name": "_find_matrix",
+    "start": 717,
+    "end": 748,
+    "physical_span": 32
+  },
+  {
+    "path": "CARL/scripts/consistency_check.py",
+    "name": "_find_histogram",
+    "start": 751,
+    "end": 791,
+    "physical_span": 41
+  },
+  {
+    "path": "CARL/scripts/consistency_check.py",
+    "name": "check_b",
+    "start": 794,
+    "end": 910,
+    "physical_span": 117
+  },
+  {
+    "path": "CARL/scripts/consistency_check.py",
+    "name": "parse_instrument",
+    "start": 921,
+    "end": 957,
+    "physical_span": 37
+  },
+  {
+    "path": "CARL/scripts/consistency_check.py",
+    "name": "_series_key",
+    "start": 960,
+    "end": 961,
+    "physical_span": 2
+  },
+  {
+    "path": "CARL/scripts/consistency_check.py",
+    "name": "check_d",
+    "start": 967,
+    "end": 994,
+    "physical_span": 28
+  },
+  {
+    "path": "CARL/scripts/consistency_check.py",
+    "name": "collect_ledgers",
+    "start": 1000,
+    "end": 1032,
+    "physical_span": 33
+  },
+  {
+    "path": "CARL/scripts/consistency_check.py",
+    "name": "parse_sub_tsv",
+    "start": 1035,
+    "end": 1064,
+    "physical_span": 30
+  },
+  {
+    "path": "CARL/scripts/consistency_check.py",
+    "name": "check_e",
+    "start": 1067,
+    "end": 1143,
+    "physical_span": 77
+  },
+  {
+    "path": "CARL/scripts/consistency_check.py",
+    "name": "_print_e_coverage",
+    "start": 1146,
+    "end": 1158,
+    "physical_span": 13
+  },
+  {
+    "path": "CARL/scripts/consistency_check.py",
+    "name": "_short",
+    "start": 1161,
+    "end": 1170,
+    "physical_span": 10
+  },
+  {
+    "path": "CARL/scripts/consistency_check.py",
+    "name": "_fmt_conf",
+    "start": 1173,
+    "end": 1174,
+    "physical_span": 2
+  },
+  {
+    "path": "CARL/scripts/consistency_check.py",
+    "name": "print_report",
+    "start": 1180,
+    "end": 1248,
+    "physical_span": 69
+  },
+  {
+    "path": "CARL/scripts/consistency_check.py",
+    "name": "main",
+    "start": 1252,
+    "end": 1313,
+    "physical_span": 62
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "name": "strip_history",
+    "start": 210,
+    "end": 219,
+    "physical_span": 10
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "name": "state_of",
+    "start": 222,
+    "end": 245,
+    "physical_span": 24
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "name": "read",
+    "start": 248,
+    "end": 249,
+    "physical_span": 2
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "name": "md_cells",
+    "start": 252,
+    "end": 256,
+    "physical_span": 5
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "name": "cards_from_text",
+    "start": 263,
+    "end": 295,
+    "physical_span": 33
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "name": "management_states",
+    "start": 298,
+    "end": 316,
+    "physical_span": 19
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "name": "setups_tsv_states",
+    "start": 319,
+    "end": 346,
+    "physical_span": 28
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "name": "index_md_states",
+    "start": 349,
+    "end": 358,
+    "physical_span": 10
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "name": "trade_book_states",
+    "start": 361,
+    "end": 388,
+    "physical_span": 28
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "name": "check_state_agreement",
+    "start": 393,
+    "end": 417,
+    "physical_span": 25
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "name": "check_read_sanity",
+    "start": 422,
+    "end": 461,
+    "physical_span": 40
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "name": "declared_verdict",
+    "start": 480,
+    "end": 491,
+    "physical_span": 12
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "name": "check_header_vs_body",
+    "start": 494,
+    "end": 510,
+    "physical_span": 17
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "name": "struck_tokens_from_diff",
+    "start": 556,
+    "end": 591,
+    "physical_span": 36
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "name": "check_superseded_drift",
+    "start": 594,
+    "end": 624,
+    "physical_span": 31
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "name": "check_unparseable_claims",
+    "start": 654,
+    "end": 669,
+    "physical_span": 16
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "name": "fingerprint",
+    "start": 689,
+    "end": 700,
+    "physical_span": 12
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "name": "check_structure_agreement",
+    "start": 703,
+    "end": 718,
+    "physical_span": 16
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "name": "today_tokens",
+    "start": 799,
+    "end": 800,
+    "physical_span": 2
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "name": "check_future_stamps",
+    "start": 803,
+    "end": 833,
+    "physical_span": 31
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "name": "counts_in",
+    "start": 878,
+    "end": 881,
+    "physical_span": 4
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "name": "paper_live_counts",
+    "start": 884,
+    "end": 898,
+    "physical_span": 15
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "name": "contract_count_findings",
+    "start": 901,
+    "end": 914,
+    "physical_span": 14
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "name": "_own_row",
+    "start": 917,
+    "end": 928,
+    "physical_span": 12
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "name": "check_contract_counts",
+    "start": 931,
+    "end": 954,
+    "physical_span": 24
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "name": "gather_live",
+    "start": 959,
+    "end": 985,
+    "physical_span": 27
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "name": "open_inbox_packets",
+    "start": 991,
+    "end": 1046,
+    "physical_span": 56
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "name": "advisory_red_count",
+    "start": 1049,
+    "end": 1061,
+    "physical_span": 13
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "name": "recent_diff",
+    "start": 1064,
+    "end": 1072,
+    "physical_span": 9
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "name": "selftest",
+    "start": 1077,
+    "end": 1447,
+    "physical_span": 371
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "name": "main",
+    "start": 1452,
+    "end": 1467,
+    "physical_span": 16
+  },
+  {
+    "path": "TERRY/scripts/ledger_sweep.py",
+    "name": "run_live",
+    "start": 1470,
+    "end": 1599,
+    "physical_span": 130
+  },
+  {
+    "path": "BOND/monitors/closeout_check.py",
+    "name": "_load",
+    "start": 44,
+    "end": 48,
+    "physical_span": 5
+  },
+  {
+    "path": "BOND/monitors/closeout_check.py",
+    "name": "main",
+    "start": 51,
+    "end": 168,
+    "physical_span": 118
+  },
+  {
+    "path": "BOND/monitors/closeout_run.py",
+    "name": "sh",
+    "start": 74,
+    "end": 81,
+    "physical_span": 8
+  },
+  {
+    "path": "BOND/monitors/closeout_run.py",
+    "name": "classify",
+    "start": 85,
+    "end": 98,
+    "physical_span": 14
+  },
+  {
+    "path": "BOND/monitors/closeout_run.py",
+    "name": "classify_consumer",
+    "start": 101,
+    "end": 111,
+    "physical_span": 11
+  },
+  {
+    "path": "BOND/monitors/closeout_run.py",
+    "name": "classify_claim",
+    "start": 114,
+    "end": 122,
+    "physical_span": 9
+  },
+  {
+    "path": "BOND/monitors/closeout_run.py",
+    "name": "context_lines",
+    "start": 125,
+    "end": 132,
+    "physical_span": 8
+  },
+  {
+    "path": "BOND/monitors/closeout_run.py",
+    "name": "verify_decision",
+    "start": 135,
+    "end": 148,
+    "physical_span": 14
+  },
+  {
+    "path": "BOND/monitors/closeout_run.py",
+    "name": "lags",
+    "start": 151,
+    "end": 152,
+    "physical_span": 2
+  },
+  {
+    "path": "BOND/monitors/closeout_run.py",
+    "name": "tree_digest",
+    "start": 156,
+    "end": 179,
+    "physical_span": 24
+  },
+  {
+    "path": "BOND/monitors/closeout_run.py",
+    "name": "vintage",
+    "start": 182,
+    "end": 190,
+    "physical_span": 9
+  },
+  {
+    "path": "BOND/monitors/closeout_run.py",
+    "name": "check_ordering",
+    "start": 193,
+    "end": 205,
+    "physical_span": 13
+  },
+  {
+    "path": "BOND/monitors/closeout_run.py",
+    "name": "inbox_scan",
+    "start": 208,
+    "end": 217,
+    "physical_span": 10
+  },
+  {
+    "path": "BOND/monitors/closeout_run.py",
+    "name": "verify",
+    "start": 220,
+    "end": 224,
+    "physical_span": 5
+  },
+  {
+    "path": "BOND/monitors/closeout_run.py",
+    "name": "main",
+    "start": 228,
+    "end": 375,
+    "physical_span": 148
+  },
+  {
+    "path": "BOND/monitors/closeout_run.py",
+    "name": "_tmp_repo_digest_test",
+    "start": 379,
+    "end": 407,
+    "physical_span": 29
+  },
+  {
+    "path": "BOND/monitors/closeout_run.py",
+    "name": "selftest",
+    "start": 436,
+    "end": 444,
+    "physical_span": 9
+  },
+  {
+    "path": "WALTER/tools/closeout_check.py",
+    "name": "git",
+    "start": 23,
+    "end": 27,
+    "physical_span": 5
+  },
+  {
+    "path": "WALTER/tools/closeout_check.py",
+    "name": "inspect",
+    "start": 30,
+    "end": 123,
+    "physical_span": 94
+  },
+  {
+    "path": "WALTER/tools/closeout_run.py",
+    "name": "plan",
+    "start": 35,
+    "end": 68,
+    "physical_span": 34
+  },
+  {
+    "path": "WALTER/tools/closeout_run.py",
+    "name": "execute",
+    "start": 71,
+    "end": 72,
+    "physical_span": 2
+  },
+  {
+    "path": "WALTER/tools/closeout_run.py",
+    "name": "classify",
+    "start": 75,
+    "end": 95,
+    "physical_span": 21
+  },
+  {
+    "path": "WALTER/tools/closeout_run.py",
+    "name": "run",
+    "start": 98,
+    "end": 158,
+    "physical_span": 61
+  },
+  {
+    "path": "WALTER/tools/closeout_run.py",
+    "name": "main",
+    "start": 161,
+    "end": 179,
+    "physical_span": 19
+  },
+  {
+    "path": "BROCK/scripts/brock_selfcheck.py",
+    "name": "R",
+    "start": 43,
+    "end": 45,
+    "physical_span": 3
+  },
+  {
+    "path": "BROCK/scripts/brock_selfcheck.py",
+    "name": "surfaces",
+    "start": 62,
+    "end": 69,
+    "physical_span": 8
+  },
+  {
+    "path": "HANS/scripts/closeout_check.py",
+    "name": "run",
+    "start": 32,
+    "end": 42,
+    "physical_span": 11
+  },
+  {
+    "path": "HANS/scripts/closeout_check.py",
+    "name": "_crashed",
+    "start": 56,
+    "end": 70,
+    "physical_span": 15
+  },
+  {
+    "path": "HANS/scripts/closeout_check.py",
+    "name": "_ok",
+    "start": 73,
+    "end": 91,
+    "physical_span": 19
+  },
+  {
+    "path": "HANS/scripts/closeout_check.py",
+    "name": "main",
+    "start": 147,
+    "end": 187,
+    "physical_span": 41
+  },
+  {
+    "path": "VULCAN/tools/closeout_check.py",
+    "name": "git",
+    "start": 50,
+    "end": 54,
+    "physical_span": 5
+  },
+  {
+    "path": "VULCAN/tools/closeout_check.py",
+    "name": "today_et",
+    "start": 57,
+    "end": 58,
+    "physical_span": 2
+  },
+  {
+    "path": "VULCAN/tools/closeout_check.py",
+    "name": "session_base",
+    "start": 61,
+    "end": 68,
+    "physical_span": 8
+  },
+  {
+    "path": "VULCAN/tools/closeout_check.py",
+    "name": "at_base",
+    "start": 71,
+    "end": 72,
+    "physical_span": 2
+  },
+  {
+    "path": "VULCAN/tools/closeout_check.py",
+    "name": "now_text",
+    "start": 75,
+    "end": 77,
+    "physical_span": 3
+  },
+  {
+    "path": "VULCAN/tools/closeout_check.py",
+    "name": "changed_since",
+    "start": 80,
+    "end": 82,
+    "physical_span": 3
+  },
+  {
+    "path": "VULCAN/tools/closeout_check.py",
+    "name": "added_lines",
+    "start": 85,
+    "end": 87,
+    "physical_span": 3
+  },
+  {
+    "path": "VULCAN/tools/closeout_check.py",
+    "name": "parse_composite",
+    "start": 91,
+    "end": 95,
+    "physical_span": 5
+  },
+  {
+    "path": "VULCAN/tools/closeout_check.py",
+    "name": "fixed_without_sha",
+    "start": 98,
+    "end": 104,
+    "physical_span": 7
+  },
+  {
+    "path": "VULCAN/tools/closeout_check.py",
+    "name": "prestated_without_public",
+    "start": 107,
+    "end": 116,
+    "physical_span": 10
+  },
+  {
+    "path": "VULCAN/tools/closeout_check.py",
+    "name": "past_catalyst_rows",
+    "start": 119,
+    "end": 129,
+    "physical_span": 11
+  },
+  {
+    "path": "VULCAN/tools/closeout_check.py",
+    "name": "deferral_covers",
+    "start": 132,
+    "end": 139,
+    "physical_span": 8
+  },
+  {
+    "path": "VULCAN/tools/closeout_check.py",
+    "name": "rec",
+    "start": 146,
+    "end": 147,
+    "physical_span": 2
+  },
+  {
+    "path": "VULCAN/tools/closeout_check.py",
+    "name": "run_cmd",
+    "start": 150,
+    "end": 152,
+    "physical_span": 3
+  },
+  {
+    "path": "VULCAN/tools/closeout_check.py",
+    "name": "checks",
+    "start": 155,
+    "end": 351,
+    "physical_span": 197
+  },
+  {
+    "path": "VULCAN/tools/closeout_check.py",
+    "name": "report",
+    "start": 354,
+    "end": 364,
+    "physical_span": 11
+  },
+  {
+    "path": "VULCAN/tools/closeout_check.py",
+    "name": "new_ruling_lines",
+    "start": 372,
+    "end": 395,
+    "physical_span": 24
+  },
+  {
+    "path": "VULCAN/tools/closeout_check.py",
+    "name": "selftest",
+    "start": 398,
+    "end": 434,
+    "physical_span": 37
+  },
+  {
+    "path": "VULCAN/tools/closeout_check.py",
+    "name": "main",
+    "start": 437,
+    "end": 461,
+    "physical_span": 25
+  },
+  {
+    "path": "RED/scripts/closeout_check.py",
+    "name": "git",
+    "start": 69,
+    "end": 71,
+    "physical_span": 3
+  },
+  {
+    "path": "RED/scripts/closeout_check.py",
+    "name": "Vintage",
+    "start": 74,
+    "end": 104,
+    "physical_span": 31
+  },
+  {
+    "path": "RED/scripts/closeout_check.py",
+    "name": "tsv",
+    "start": 107,
+    "end": 116,
+    "physical_span": 10
+  },
+  {
+    "path": "RED/scripts/closeout_check.py",
+    "name": "section",
+    "start": 119,
+    "end": 126,
+    "physical_span": 8
+  },
+  {
+    "path": "RED/scripts/closeout_check.py",
+    "name": "top_block",
+    "start": 129,
+    "end": 131,
+    "physical_span": 3
+  },
+  {
+    "path": "RED/scripts/closeout_check.py",
+    "name": "table_rows",
+    "start": 134,
+    "end": 138,
+    "physical_span": 5
+  },
+  {
+    "path": "RED/scripts/closeout_check.py",
+    "name": "clean",
+    "start": 141,
+    "end": 142,
+    "physical_span": 2
+  },
+  {
+    "path": "RED/scripts/closeout_check.py",
+    "name": "check_challenges",
+    "start": 146,
+    "end": 188,
+    "physical_span": 43
+  },
+  {
+    "path": "RED/scripts/closeout_check.py",
+    "name": "derive_tally",
+    "start": 192,
+    "end": 211,
+    "physical_span": 20
+  },
+  {
+    "path": "RED/scripts/closeout_check.py",
+    "name": "live_tallies",
+    "start": 214,
+    "end": 236,
+    "physical_span": 23
+  },
+  {
+    "path": "RED/scripts/closeout_check.py",
+    "name": "check_tally",
+    "start": 239,
+    "end": 261,
+    "physical_span": 23
+  },
+  {
+    "path": "RED/scripts/closeout_check.py",
+    "name": "registry_states",
+    "start": 265,
+    "end": 267,
+    "physical_span": 3
+  },
+  {
+    "path": "RED/scripts/closeout_check.py",
+    "name": "lead_token",
+    "start": 270,
+    "end": 274,
+    "physical_span": 5
+  },
+  {
+    "path": "RED/scripts/closeout_check.py",
+    "name": "check_triggers",
+    "start": 277,
+    "end": 321,
+    "physical_span": 45
+  },
+  {
+    "path": "RED/scripts/closeout_check.py",
+    "name": "newest_stamp",
+    "start": 325,
+    "end": 335,
+    "physical_span": 11
+  },
+  {
+    "path": "RED/scripts/closeout_check.py",
+    "name": "check_scratch",
+    "start": 338,
+    "end": 349,
+    "physical_span": 12
+  },
+  {
+    "path": "RED/scripts/closeout_check.py",
+    "name": "weights_table",
+    "start": 353,
+    "end": 361,
+    "physical_span": 9
+  },
+  {
+    "path": "RED/scripts/closeout_check.py",
+    "name": "check_state_change",
+    "start": 364,
+    "end": 393,
+    "physical_span": 30
+  },
+  {
+    "path": "RED/scripts/closeout_check.py",
+    "name": "hold_netbear",
+    "start": 401,
+    "end": 416,
+    "physical_span": 16
+  },
+  {
+    "path": "RED/scripts/closeout_check.py",
+    "name": "check_headers",
+    "start": 419,
+    "end": 436,
+    "physical_span": 18
+  },
+  {
+    "path": "RED/scripts/closeout_check.py",
+    "name": "delegated",
+    "start": 440,
+    "end": 488,
+    "physical_span": 49
+  },
+  {
+    "path": "RED/scripts/closeout_check.py",
+    "name": "main",
+    "start": 502,
+    "end": 582,
+    "physical_span": 81
+  }
+]

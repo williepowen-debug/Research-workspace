@@ -1,4 +1,6 @@
-# EVOLUTION rotation archive — 2026-09 (month = ROTATION month per `BLUEPRINTS/STATUS_TWO_STATE_PILOT.md` 9/2 amendment; guard PER BLOCK: rotation-date month == file month)
+# EVOLUTION rotation archive — 2026-09 (intended rotation month; recorded boundary exception below)
+
+> **CLOSED 2026-10-21 — actual rotation range: 2026-09-03 through 2026-10-09.** Block 8 was appended October9 to this September-named container, contrary to the intended per-block rotation-month check. Its recorded 5,035 bytes and crc32 `fe6cc6b0` are unchanged by this header correction. The filename is a historical label, not an assertion that every rotation happened in September. Do not append here; subsequent October rotations use the October container. Existing rule: `BLUEPRINTS/STATUS_TWO_STATE_PILOT.md`, month-container amendment.
 
 > Verbatim, crc-stamped blocks rotated out of `EVOLUTION.md`. **A rotation is not a discharge.** Verify any block by extracting it from `## block N` header+1 to the next `## block` (or EOF) and recomputing crc32. Predecessor: `EVOLUTION_ARCHIVE_2026-08.md` (CLOSED 2026-09-03).
 

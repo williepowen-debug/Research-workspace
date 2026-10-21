@@ -1,5 +1,7 @@
 # HOMER — DAEDALUS Comprehension Profile
 
+> **⚠️ STALE — trigger verified 2026-10-21:** named calendar/content/owner-state trigger fired; see the per-desk trigger table in PR8. Backlog disposition checkpoint October25; accepted whole-refresh order/scope (~October29 cohort where assigned) and prior body vintage unchanged. Current verified delta: L3 convergence absence refuted: thesis/THESIS.md§8 built October 15;5-point19/25 handle,3independent roots and explicit CARL links. Dated kill rail§§3-9, HOM-01 MISSED early-kill and liveHOM-02, KB_LIVE 38valid11-column rows establish L3 legs. C2 reached its upgrade condition; score deliberately waits formal November 20 grade. Profile FIRED; body August 7 remains historical. Source/evidence: `upgrades/PRODUCTION_REVIEW_2026-10-21.md` and its named reader companion. This annotation supersedes conflicting current-state claims below only on these inspected facts; no whole-profile refresh or grade change is established by the annotation.
+
 > ⚠️ **STALE — TRIGGER FIRED, unserviced (PR#5 2026-09-01):** own DATED REWRITE TRIGGER (:14) fired · :54 CORAL-lock superseded · 25d. Read the FLEET_MAP row (re-cut 2026-09-01) and `upgrades/PRODUCTION_REVIEW_2026-09-01.md` before this body. Refresh checkpoint: **2026-09-15**. *(Bannered by `scripts/profile_clock_check.py` + the PR#5 readers; a banner is a warning, not a fix — PAT-085.)*
 
 > ⚠️ **SUPERSEDED IN PART — 2026-08-22. READ THE REVIEW FIRST, NOT THIS FILE.**

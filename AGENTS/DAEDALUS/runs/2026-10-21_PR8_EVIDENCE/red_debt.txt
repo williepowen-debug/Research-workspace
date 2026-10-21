@@ -1,0 +1,22 @@
+==========================================================================
+RED REVIEW-DEBT — row-level review dates, 2026-10-21
+==========================================================================
+
+① KB.tsv — ACTIVE rows past their own Stale_By   [2]
+   🔴 KB-RED-047    due 2026-10-15     6d overdue   status=ACTIVE-UNREFRESHED
+   🔴 KB-RED-092    due 2026-10-15     6d overdue   status=ACTIVE
+
+② KB.tsv — TERMINAL rows still CITED by a live surface   [3]
+   (no review SCHEDULED; contents must still be CURRENT — the KB-RED-001 class)
+   🟠 KB-RED-006
+   🟠 KB-RED-012
+   🟠 KB-RED-081
+
+③ VX.tsv — live vectors unreviewed >45d   [1 of 15 live]
+   🔴 VX-RED-009    CARL                         WEAK               rev 2026-06-02 (141d)
+
+④ VX.tsv — live vectors whose EVIDENCE CELL is >45d older than Last_Reviewed, or undated   [1 of 15 live]
+   (a review that bumps the date and leaves the cell re-certifies a stale fact — the VX-003 class, ML-RED-297)
+   🔴 VX-RED-009    WEAK               rev 2026-06-02  cell newest NO DATE IN CELL
+
+🔴 4 review(s) owed.  Disposition: refresh · re-class DATED-HISTORICAL · or route to the owner (never re-derive another desk's number to clear a flag).

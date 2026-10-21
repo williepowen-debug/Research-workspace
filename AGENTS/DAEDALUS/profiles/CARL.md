@@ -1,4 +1,6 @@
 <!-- INSTALLED 2026-09-17 by DAEDALUS (PR#6 profile-refresh queue). Mode-A: reader draft P2 + independent locator verification (evidence: profiles/REFRESH_2026-09-17_VERIFY_P2_CARL_LIQUID.md — verification table, totals, §4b missed-🔴). Prior body preserved verbatim at profiles/_prior/CARL_PRIOR_2026-09-17.md. -->
+
+> **BOUNDED DELTA 2026-10-21:** named date/event triggers not established as fired on the inspected legs; this is not all-content clearance. Current verified delta: October 21 ledger run:17 STALE plus6 UNATT child surfaces (23 combined warnings); parent ledgers clean/FROZEN. STUE read-cap still over hard cap; boot.py:152 still uses getmtime. CARL own read-cap rotation_due=0. Current-judgment local form passes reading B. Profile named triggers NOT FIRED on measured version/score/7 children/STUE legs; TEAM lifecycle diff still requires confirmation, clock November 1. Source/evidence: `upgrades/PRODUCTION_REVIEW_2026-10-21.md` and its named reader companion. This annotation supersedes conflicting current-state claims below only on these inspected facts; no whole-profile refresh or grade change is established by the annotation.
 # Agent Profile — CARL
 
 **Profile vintage:** 2026-09-17 (Mode-A: reader draft P2 + independent locator verification; installed by DAEDALUS)

@@ -1,0 +1,162 @@
+[
+  {
+    "Agent": "SAM",
+    "Level": "L4",
+    "Conf": "H",
+    "Last_scored": "2026-10-21",
+    "Gaps": "SAM-42 remains OPEN through 2026-10-31 JST; read-cap rotation_due=0. CLAUDE.md:93 still teaches unreliable HERMES/outbox-hygiene avoidance. RECONCILIATION.md remains owner-to-derived; no two-direction receipt established in the sampled October 20 steward/sweep records. Profile trigger FIRED: OPEN set changed from SAM-28/31/33 to SAM-33/42.",
+    "Next_upgrade": "At the first closeout after SAM-42 resolves: verify both-direction reconciliation on one figure, remove or scope the obsolete CLAUDE.md:93 hygiene exemption, and retain rotation_due=0. DAEDALUS reads the receipt; no new thesis or RED-owned edit required.",
+    "Notes": "→ HISTORY",
+    "proposal_only": true
+  },
+  {
+    "Agent": "LIQUID",
+    "Level": "L4",
+    "Conf": "H",
+    "Last_scored": "2026-10-21",
+    "Gaps": "THESIS v2.0 now carries an October 14 historical-baseline coverage note and points to live STATUS/NEXUS/KB; the old unqualified-current-June claim is refuted, but full structural re-cut remains unverified. read-cap rotation_due=0. Swap-line instrument remains WITHHELD pending the further named review; funding channel UNMEASURED. Profile clock FIRED October 17 and budget-cure trigger FIRED.",
+    "Next_upgrade": "DAEDALUS confirms whether the October 14 baseline banner plus live owner surfaces discharges the old thesis-currency leg under reading B; do not require a version bump merely for age. LIQUID completes any remaining structural-leg re-cut on its own declared trigger; swap-line release remains separately review-gated.",
+    "Notes": "→ HISTORY",
+    "proposal_only": true
+  },
+  {
+    "Agent": "VIOLET",
+    "Level": "L4",
+    "Conf": "M",
+    "Last_scored": "2026-10-21",
+    "Gaps": "KB.tsv still opens directly on its schema: two-clock vintage-header leg NOT MET. October 19 official-check/feed-repair evidence and STATUS are current within their declared windows; read-cap rotation_due=0. Full standard-match confirmation and whole-profile refresh remain DAEDALUS-owed; profile clock FIRED September 25.",
+    "Next_upgrade": "L5 candidate after KB.tsv gains its two-clock header and a clean closeout is verified, with rotation_due=0. Conf M-to-H requires DAEDALUS's full profile/standard-match read, not another owner deliverable; checkpoint next PR completion.",
+    "Notes": "→ HISTORY",
+    "proposal_only": true
+  },
+  {
+    "Agent": "BRENT",
+    "Level": "L5",
+    "Conf": "M",
+    "Last_scored": "2026-10-21",
+    "Gaps": "October 20 cleanup and EIA evaluation landed; STATUS now 20188 B and read-cap rotation_due=0, refuting the old85% blocker. scripts/boot.py still has no version-sweep invocation. Latest owner STATUS explicitly retains source-age/coverage/ledger/standing-reconciliation findings; no all-clean claim. Profile FIRED on rule19 restructure and TRADE split; body September 7.",
+    "Next_upgrade": "Conf M-to-H after version-consistency check is wired and observed on capable/clean cases, calendar twin passes, and a bounded clean closeout with rotation_due=0 is independently read. Keep current source/coverage findings explicit; do not equate compact files with clean evidence.",
+    "Notes": "→ HISTORY",
+    "proposal_only": true
+  },
+  {
+    "Agent": "HENRY",
+    "Level": "L4",
+    "Conf": "H",
+    "Last_scored": "2026-10-21",
+    "Gaps": "Read-cap rotation_due=0; old STATUS97% claim refuted. STATUS/NEXUS searches still find no universal5-point/composite/Independence table; the profile describes substantive evidence-type discipline already present. Whether that local form satisfies the interface remains DAEDALUS's ruling, not an owner failure. Profile FIRED: October 19 owner stamp exceeds August 7 body by>21d.",
+    "Next_upgrade": "DAEDALUS adjudicates the existing prose local form at the next profile refresh; if inadequate, specify the minimal additive handle in HENRY's own tree. L5 only after that adjudication and a verified clean/current closeout; no gate on a missing DAEDALUS ruling attributed to HENRY.",
+    "Notes": "→ HISTORY",
+    "proposal_only": true
+  },
+  {
+    "Agent": "CARL",
+    "Level": "L4",
+    "Conf": "H",
+    "Last_scored": "2026-10-21",
+    "Gaps": "October 21 ledger run:17 STALE plus6 UNATT child surfaces (23 combined warnings); parent ledgers clean/FROZEN. STUE read-cap still over hard cap; boot.py:152 still uses getmtime. CARL own read-cap rotation_due=0. Current-judgment local form passes reading B. Profile named triggers NOT FIRED on measured version/score/7 children/STUE legs; TEAM lifecycle diff still requires confirmation, clock November 1.",
+    "Next_upgrade": "L5 after CARL dispositions its17 stale child ledgers and6 attention warnings under existing parent authority, verifies STUE readable scope, and removes mtime freshness dependence. Not keyed to a PHAN launch; dossier-mode silence alone is not failure.",
+    "Notes": "→ HISTORY",
+    "proposal_only": true
+  },
+  {
+    "Agent": "LABOR",
+    "Level": "L5",
+    "Conf": "H",
+    "Last_scored": "2026-10-21",
+    "Gaps": "October 8 claims grade executed: v7/v13 downgraded; October 15 next grade retains26/75. Current read-cap rotation_due=0. October 8 closeout-time read-cap receipt not independently re-run from its historical revision. Profile FIRED by October 7 clock and29-to26 composite move; LAB-18/19 still OPEN.",
+    "Next_upgrade": "SUSTAIN at next claims-grade closeout (after its source release) with observed rotation_due=0 and dated grade receipt. DAEDALUS must retain the unverified historical October 8 closeout dimension rather than assert it passed from today's size.",
+    "Notes": "→ HISTORY",
+    "proposal_only": true
+  },
+  {
+    "Agent": "BROCK",
+    "Level": "L4",
+    "Conf": "H",
+    "Last_scored": "2026-10-21",
+    "Gaps": "Prior named trio discharged: BRK-02 RESOLVED-FALSE October 2; STATUS:103 agrees BRK-30 RESOLVED-TRUE; domain/PRIVATE_CREDIT_CONTAGION_TRACKER.md HISTORICAL-bannered October 14. read-cap rotation_due=0. Header Instrument-column absence persists, but named resolving instrument now in BRK-02 Outcome. Full clean-closeout/ruling-A re-adjudication not completed by this bounded read. Profile FIRED on BRK-02 terminal and58/70.",
+    "Next_upgrade": "DAEDALUS conducts L5 per-leg confirmation at this PR: old three owner repairs are complete, not another owner build. Verify current clean-closeout evidence, dated falsification and reading-A trade/consumer leg; missing independent read remains DAEDALUS-owned.",
+    "Notes": "→ HISTORY",
+    "proposal_only": true
+  },
+  {
+    "Agent": "REGINALD",
+    "Level": "L4",
+    "Conf": "H",
+    "Last_scored": "2026-10-21",
+    "Gaps": "MEMORY now 14081 B and root/WALTER inbox glob empty. REG-03 names its instrument in October 10 amendment; REG-06 still names no dated search instrument. read-cap rc1/rotation_due4 are external BOARD class members, not REGINALD-owned files. October 20 production/current-state cleanup landed. Profile FIRED, body August 7.",
+    "Next_upgrade": "L5 candidate after REG-06 gets a dated positive search instrument before itsDecember 31 ceiling and DAEDALUS verifies clean/current remaining legs. Judge REGINALD-owned reads separately from WALTER-owned BOARD members; route those members to their owner rather than demand impossible whole-check green.",
+    "Notes": "→ HISTORY",
+    "proposal_only": true
+  },
+  {
+    "Agent": "BOND",
+    "Level": "L4",
+    "Conf": "H",
+    "Last_scored": "2026-10-21",
+    "Gaps": "workbook/LEDGER_GLOB remains absent; KB/VX/FLOW/thesis-PREDICTIONS still start with schema, without two-clock headers. MEMORY 24635 B triggers rotation_due=1. October 20 frozen-bar/monitor repairs and current evidence landed; old predictions-unresolved scanner premise remains false (BND-30/31 TRUE October 1). Profile FIRED: thesisv1.2.11, TRADEOctober 20.",
+    "Next_upgrade": "L5 candidate after own-tree LEDGER_GLOB and named-core two-clock headers, MEMORY rotation to<70%, and an independently verified clean closeout. Verify which fifth coreTSV the old row meant before prescribing five headers; do not silently invent a target.",
+    "Notes": "→ HISTORY",
+    "proposal_only": true
+  },
+  {
+    "Agent": "SHADE",
+    "Level": "L3",
+    "Conf": "H",
+    "Last_scored": "2026-10-21",
+    "Gaps": "PREDICTIONS.tsv and declared-flat TRADE surface remain absent; owner renewed target to October 23 after October 8 lapse, adding thesis-falsifier-or-reasoned-charter-disposition. MEMORY 31944 B, rotation_due=1. T-SHADE-01 first prospective October 15 grade NOT MET; no dig follows. Profile FIRED on owner stamp and intake changes.",
+    "Next_upgrade": "At the already-recorded October 23 owner session: predictions with registration confidences, declared-flat trade/re-arm surface, thesis-falsifier disposition and memory rotation. Requires PROME wake if idle; do not reopen the NOT-MET dig or fabricate a successful prediction grade.",
+    "Notes": "→ HISTORY",
+    "proposal_only": true
+  },
+  {
+    "Agent": "OZK",
+    "Level": "L4",
+    "Conf": "H",
+    "Last_scored": "2026-10-21",
+    "Gaps": "KB_INDEX header now 259 correctly matches KB 259, but MEMO_ITEM_3 still lists018-020,087 (4), omitting KB 218/219 present in that group. read-cap rotation_due=0. Latest owner state October 12; preparedQ3 event window October 20-21, outcome not established here. Profile21-day checkpoint September 26 FIRED.",
+    "Next_upgrade": "L5 candidate after adding218/219 to MEMO_ITEM_3 and proving row-ID coverage against the current259-row ledger, followed by clean-closeout verification. Do not reset header to obsolete241. Q3 event grading remains the owner's existing work.",
+    "Notes": "→ HISTORY",
+    "proposal_only": true
+  },
+  {
+    "Agent": "WAL",
+    "Level": "L4",
+    "Conf": "M",
+    "Last_scored": "2026-10-21",
+    "Gaps": "Q3 published andStage1 graded October 19 (old unannounced-date premise refuted). WAL-02 RESOLVED-INVALIDATED; WAL-01 OPEN with INVALIDATED-PROVISIONAL Outcome pending the registered 10-Q classified-assets cross-check. STATUS11797 B, rotation_due=0. Stage2 call integration remains pending in latest owner state. Profile FIRED atQ3 framing/print.",
+    "Next_upgrade": "Conf M-to-H after Q3 10-Q is published and the registered cross-check closes WAL-01 with verdict orNO-VERDICT, plus WAL-02 precedence confirmation. Trigger on actual filing, preserve November 15 Resolve_By; do not promote on provisional release arithmetic alone.",
+    "Notes": "→ HISTORY",
+    "proposal_only": true
+  },
+  {
+    "Agent": "FLG",
+    "Level": "L3",
+    "Conf": "M",
+    "Last_scored": "2026-10-21",
+    "Gaps": "No owner STATUS update after October 1; this is a print-driven desk, not automatic dark-session failure. PROMEOctober 16 packet confirmsQ3October 23 and closes T-03 date task; old no-wake claim is stale. FLG-02/03 still awaitQ3 10-Q. Profile clock September 26 FIRED; no full refresh this pass.",
+    "Next_upgrade": "Conf M-to-H when FLG-02/03 are graded from actualQ3 10-Q publication, Resolve_By November 20. October 23 release wake is preparatory, not a substitute for the filing. Retain L3 resolving leg NOT-ADJUDICATED until observable grade.",
+    "Notes": "→ HISTORY",
+    "proposal_only": true
+  },
+  {
+    "Agent": "GIBBS",
+    "Level": "L1",
+    "Conf": "M",
+    "Last_scored": "2026-10-21",
+    "Gaps": "First owner session October 19 establishes a current Q1/Q2 judgment: L0/zero-session absence refuted. READS 52 valid12-column slots,15observations/canonical reads and37PENDING; KB 10 valid13-column rows (8seeded+2owner), predictions empty. Commissioning PARTIAL, Citi assets/source reads unresolved; one production session observed. No profile yet.",
+    "Next_upgrade": "L2 after tagged READS accrual across a second owner session under existing map condition; do not count build rows or PENDING placeholders as completed observations. Finish existing first-session source/owner-seam work; R0November 15 asks for consumer-caused judgment change, not packet filing.",
+    "Notes": "→ HISTORY",
+    "proposal_only": true
+  },
+  {
+    "Agent": "HOMER",
+    "Level": "L3",
+    "Conf": "M",
+    "Last_scored": "2026-10-21",
+    "Gaps": "L3 convergence absence refuted: thesis/THESIS.md§8 built October 15;5-point19/25 handle,3independent roots and explicit CARL links. Dated kill rail§§3-9, HOM-01 MISSED early-kill and liveHOM-02, KB_LIVE 38valid11-column rows establish L3 legs. C2 reached its upgrade condition; score deliberately waits formal November 20 grade. Profile FIRED; body August 7 remains historical.",
+    "Next_upgrade": "L4 adjudication on reading-A trade/consumer leg at next DAEDALUS review; this reader has not verified a current TRADE/re-arm or no-book-by-charter plus receiver-side consumption. Do not carry obsolete3c build ask or alter frozen November 20 scoring cadence.",
+    "Notes": "→ HISTORY",
+    "proposal_only": true
+  }
+]

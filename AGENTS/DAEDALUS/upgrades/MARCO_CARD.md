@@ -1,3 +1,5 @@
+> **PR8 write-back 2026-10-21:** Current dated BOTTOM LINE and declared-flat explicit rearm repaired the two named local-form gaps. No confidence increase inferred from those repairs alone. Evidence and current scope: `PRODUCTION_REVIEW_2026-10-21.md`.
+
 # MARCO — Upgrade Card (graded vs BLUEPRINTS/market-agent.md)
 
 > 🗄 **ROUTED 2026-07-10 — CLOSED AS A QUEUE 2026-08-17 (self-audit F5 banner pass).** This card's findings were routed to the owner/FLEET_MAP when written; per-row states below are historical. Not maintained — current gaps live on the agent's FLEET_MAP row. Do not work rows from here without re-verifying at the agent.

@@ -1,0 +1,38 @@
+READ-CAP [PROME] — cap 54,250 B · budget 32,550 B (60%) · ALL % BELOW ARE OF BUDGET (the number every verdict grades; ≥100% = over) · perimeter: DECLARED in PROME/registry/READS.tsv — 7 cap-bearing (whole/programmatic) measured, 23 declared-not-counted (scoped/grep/summary), 37 manifest row(s) for this desk; ATTESTED by the desk itself
+  ✅ PROME/BOOT.md                        22,896 B    70% of budget    (whole · PROME:CLAUDE.md-Boot-2)
+      ↳ 70–75% BAND — rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 112 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. ⚠️ Headroom to the trigger: 1,516 B.
+  ✅ PROME/STATUS.md                      17,478 B    54% of budget    (whole · PROME:BOOT.md-4)
+  ✅ PROME/SCRATCH.md                     16,823 B    52% of budget    (whole · PROME:BOOT.md-2)
+  ✅ PROME/state/CALENDAR.md              10,457 B    32% of budget    (whole · PROME:BOOT.md-2)
+  ✅ HEARTBEAT.md                         10,092 B    31% of budget    (whole · PROME:BOOT.md-5)
+  ✅ USER.md                               8,458 B    26% of budget    (whole · PROME:CLAUDE.md-Boot-1)
+  ✅ PROME/HANDOFF.md                      7,067 B    22% of budget    (whole · PROME:BOOT.md-1)
+  ◦ PROME/BOOT_MODULES.md               9,004 B  declared `scoped` — not cap-bearing, not counted  (PROME:BOOT.md-pointers)
+  ◦ PROME/ACTIVE_DECISIONS.md          23,734 B  declared `scoped` — not cap-bearing, not counted  (PROME:BOOT.md-3)
+  ◦ PROME/GATES.tsv                    67,990 B  declared `summary` — not cap-bearing, not counted  (PROME:BOOT.md-3)
+  ◦ PROME/HEARTBEAT_COLD.md           558,110 B  declared `grep` — not cap-bearing, not counted  (HEARTBEAT.md-Pointers)
+  ◦ PROME/DOCKET.tsv                  1,640,269 B  declared `summary` — not cap-bearing, not counted  (PROME:BOOT.md-5)
+  ◦ PROME/WILL_QUEUE.md                98,428 B  declared `summary` — not cap-bearing, not counted  (PROME:BOOT.md-5)
+  ◦ PROME/WILL_QUEUE.md                98,428 B  declared `scoped` — not cap-bearing, not counted  (PROME:BOOT.md-8)
+  ◦ AGENTS/WALTER/LAST_COMPLETION.md   23,880 B  declared `scoped` — not cap-bearing, not counted  (PROME:BOOT.md-3b)
+  ◦ PROME/CLOSEOUT.md                  21,823 B  declared `summary` — not cap-bearing, not counted  (PROME:BOOT.md-5)
+  ◦ scripts/harness_caps.env            2,694 B  declared `summary` — not cap-bearing, not counted  (PROME:BOOT.md-5)
+  ◦ BOARD/INDEX.md                    818,983 B  declared `summary` — not cap-bearing, not counted  (PROME:BOOT.md-6)
+  ◦ PROME/state/board_cursor.txt           19 B  declared `summary` — not cap-bearing, not counted  (PROME:BOOT.md-6)
+  ◦ scripts/firetime_allowlist.tsv     16,208 B  declared `summary` — not cap-bearing, not counted  (PROME:BOOT.md-5)
+  ◦ PROME/registry/corrections_receipts.tsv 14,473 B  declared `summary` — not cap-bearing, not counted  (PROME:BOOT.md-5b)
+  ◦ AGENTS/WALTER/registry/CORRECTIONS.tsv 44,967 B  declared `summary` — not cap-bearing, not counted  (PROME:BOOT.md-5b)
+  ◦ AGENTS/DAEDALUS/FLEET_DIRECTORY.md 12,539 B  declared `summary` — not cap-bearing, not counted  (PROME:BOOT.md-5b)
+  ◦ AGENTS/*/STATUS.md                        —  declared `summary · CLASS row, not a single file` — not cap-bearing, not counted  (PROME:BOOT.md-5)
+  ◦ .claude                                   —  declared `summary · directory` — not cap-bearing, not counted  (PROME:BOOT.md-5)
+  ◦ PROME/registry/READS.tsv          116,020 B  declared `summary` — not cap-bearing, not counted  (PROME:BOOT.md-5)
+  ◦ PROME/state/board_consumed.tsv    232,438 B  declared `summary` — not cap-bearing, not counted  (PROME:BOOT.md-6)
+  ◦ PROME/state/SPAWN_SLATE.md         40,286 B  declared `scoped` — not cap-bearing, not counted  (PROME:BOOT.md-6)
+  ◦ FORGE/STATUS.md                    29,976 B  declared `summary` — not cap-bearing, not counted  (PROME:BOOT.md-8)
+  ◦ PROME/COMPLETION_SPEC.md           18,579 B  declared `scoped` — not cap-bearing, not counted  (PROME:BOOT.md-0)
+✅ READ-CAP 0 [PROME]: every CAP-BEARING read in this desk's ATTESTED manifest is under budget (7 measured, 23 declared-not-counted). Perimeter = the desk's own declaration, not a scan.
+  ℹ️  charter PROME/CLAUDE.md = 24,162 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+  ✉️  OWNER-DIRECTED NOTICE [PROME] (READ_CAP rule 15): 2 file(s) under PROME/ that OTHER desks' declared boot reads load WHOLE — counted in THOSE readers' perimeters, NOT in this desk's totals or rc. The bytes are this desk's to rotate (rule 4); a breach here is also turning the READER's check red.
+     🟡 PROME/state/ORCH_INFLIGHT.md         30,175 B    93% of budget  rotate-tier (≥75% of budget)  ← read whole by WALTER:9b
+     ✅ PROME/COMPLETION_SPEC.md             18,579 B    57% of budget  under 75% of budget  ← read whole by DAEDALUS:runtime-boot, REGINALD:IDENTITY-AND-AUTHORITY
+READ-CAP-RESULT v1 mode=agent rc=0 assessed=1 desk=PROME reads=7 over_budget=0 over_cap=0 manifest_defects=0 advisories=0 generated_flagged=0 rotation_due=0 active_decisions_over_budget=0 charter_mode=unspecified charter_reads=0 owner_notices=2 owner_notices_over_budget=0 charter_bytes=24162

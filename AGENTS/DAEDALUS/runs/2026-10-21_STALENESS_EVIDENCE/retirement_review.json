@@ -1,0 +1,2292 @@
+[
+  {
+    "path": "AGENTS/DAEDALUS/design/2026-08-03_RAV_QC_002_SHARED_INDEX_RECIPE_REVIEW.md",
+    "last_commit": "2026-08-03",
+    "refs": [
+      "AGENTS/WALTER/inbox/processed/2026-08-04_from-PROME_your-own-memory-contradicts-itself-at-line-15-and-you-have-refuted-it-three-times.md",
+      "PROME/inbox/processed/2026-08-03c_from-DAEDALUS_hawk-sunset-stood-down-plus-rav-qc-002-ruled-two-memories-contradict.md",
+      "AGENTS/DAEDALUS/runs/2026-10-20_MAINTENANCE_EVIDENCE/canon.txt",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json",
+      "AGENTS/DAEDALUS/runs/2026-10-21_PR8_EVIDENCE/canon.txt"
+    ],
+    "live_candidates": [],
+    "header": [
+      "# RAV-QC-20260801-002 \u2014 shared-index race recipe \u00b7 design-layer review",
+      "",
+      "**Routed by:** PROME 2026-08-02 (RAV's 8/01 QC pass, ledger row 002, `Open \u2192 DAEDALUS`). Mine by the `finding_pathspec_commit_race_safety` lineage.",
+      "**Question as routed:** *does the fleet recipe need a safer exact-command pattern, or a prohibition on computed staged pathspecs in concurrent sessions?*",
+      "**Answer:** **a prohibition \u2014 and RAV's real point is stronger than the question it asked.** The recipe did not merely fail to prevent the incident. **One of the two live memories that document this race prescribes, verbatim, three things the fleet's canonical protocol forbids** \u2014 and WALTER followed it."
+    ],
+    "open_tokens": 0,
+    "disposition": "RETIRE_CANDIDATE_VERIFIED_HISTORY",
+    "basis": "Header/context says closed queue, executed build/audit, historical findings or shipped mechanism; no live-reference candidate and no pending docket/gate reference found in basename search."
+  },
+  {
+    "path": "AGENTS/DAEDALUS/design/2026-08-20_GATE_REGISTRY_ADJUDICATION.md",
+    "last_commit": "2026-08-20",
+    "refs": [
+      "PROME/GATES_README.md",
+      "PROME/inbox/processed/2026-08-20_from-DAEDALUS_WILL-RULED-gate-registry-envelope-pass-GATES-tsv-3-column-spec-plus-3-drift-fixes-to-route.md",
+      "AGENTS/DAEDALUS/archive/STATUS_ARCHIVE_2026-08-20.md",
+      "AGENTS/DAEDALUS/archive/EVOLUTION_ARCHIVE_2026-08.md",
+      "AGENTS/DAEDALUS/PATTERNS.tsv",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/BLUEPRINTS/STATE_VOCABULARY_PROVENANCE.md",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json",
+      "AGENTS/LIQUID/inbox/processed/2026-08-20_from-PROME_gate-registry-ACTION5-liq076-row-vs-note-contradiction-plus-review-by-dates.md",
+      "AGENTS/WALTER/inbox/processed/2026-08-20_from-DAEDALUS_your-8-19-question-RULED-envelope-not-letter-and-one-correction-your-pass-1-missed-the-central-registry.md",
+      "AGENTS/FALCON/inbox/processed/2026-08-20_from-PROME_gate-registry-ACTION3-confirm-canonical-anchor-for-falcon-001-letter.md",
+      "AGENTS/FALCON/inbox/processed/2026-08-22_from-PROME_envelope-pass-ACTION3-anchor-confirm-gate-falcon-001.md"
+    ],
+    "live_candidates": [
+      "PROME/GATES_README.md",
+      "AGENTS/DAEDALUS/PATTERNS.tsv",
+      "AGENTS/DAEDALUS/BLUEPRINTS/STATE_VOCABULARY_PROVENANCE.md"
+    ],
+    "header": [
+      "# Gate-registry adjudication \u2014 machine-readable registries vs prose gates (WALTER 8/19 Will-routed question)",
+      "",
+      "**Date:** 2026-08-20 \u00b7 **Author:** DAEDALUS \u00b7 **Status:** MEASURED + RECOMMENDED \u2014 Will ruling pending",
+      "**Inputs:** WALTER packet 8/19 (`inbox/2026-08-19_from-WALTER_only-3-fleet-agents-keep-machine-readable-trigger-registries...`) \u00b7 CREED packet 8/20 (untrippable-row finding, T-02 fire) \u00b7 PROME scope-add 8/20 (predictions-ledger path convention) \u00b7 own first-hand reads of all 3 registries + PROME/GATES.tsv \u00b7 3-reader Mode-A fan-out over the 8 named prose families (FALCON+HAWK / SAM+TERRY / LIQUID+VIOLET+OSPREY), reports verbatim in this session's record",
+      "**Method note (PAT-100):** the three reader reports are preserved in full in the session transcript; every load-bearing claim below carries its source surface. Readers were instructed facts-only, no recommendations."
+    ],
+    "open_tokens": 2,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: PROME/GATES_README.md; AGENTS/DAEDALUS/PATTERNS.tsv; AGENTS/DAEDALUS/BLUEPRINTS/STATE_VOCABULARY_PROVENANCE.md"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/design/2026-08-03_HAWK_SUNSET_ADJUDICATION.md",
+    "last_commit": "2026-08-03",
+    "refs": [
+      "PROME/inbox/processed/2026-08-03c_from-DAEDALUS_hawk-sunset-stood-down-plus-rav-qc-002-ruled-two-memories-contradict.md",
+      "AGENTS/HAWK/inbox/processed/2026-08-03_from-DAEDALUS_sunset-stood-down-L4-holds-and-your-exit-rail-is-still-march.md",
+      "AGENTS/DAEDALUS/FLEET_MAP_HISTORY.tsv",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json",
+      "AGENTS/DAEDALUS/archive/2026-09-08_CLOCK_SWEEP_BEFORE_IMAGES.json"
+    ],
+    "live_candidates": [],
+    "header": [
+      "# HAWK sunset adjudication \u2014 2026-08-03 (registered ~8/1, ~2d overdue)",
+      "",
+      "**Registered condition, verbatim from HAWK's own `FLEET_MAP` row:** *\"If no real synthesis pass by FAL-01/OSP-01 resolution week (~8/1) or next review \u2192 **DOWNGRADE L4\u2192L3** (role unexercised = ungraded substance).\"* With the 7/27 softening: *\"Whether 7/25 constitutes the spec-\u00a76 synthesis pass = **adjudicate off HAWK's OWN files at the ~8/1 review, not the memo**.\"*",
+      "",
+      "**First correction, to my own framing:** I have been calling this a \"sunset\" in my STATUS and next-actions for two weeks. **It is not a retirement gate \u2014 it is a maturity downgrade gate.** Nothing in the registered condition proposes archiving HAWK. That mislabel is worth naming because a retirement adjudication and a grade adjudication have different evidentiary bars, and carrying the heavier word made the item look more consequential and more deferrable than it was."
+    ],
+    "open_tokens": 0,
+    "disposition": "RETIRE_CANDIDATE_VERIFIED_HISTORY",
+    "basis": "Header/context says closed queue, executed build/audit, historical findings or shipped mechanism; no live-reference candidate and no pending docket/gate reference found in basename search."
+  },
+  {
+    "path": "AGENTS/DAEDALUS/design/2026-07-31_STE_WRITING_STANDARD_ASSESSMENT.md",
+    "last_commit": "2026-08-17",
+    "refs": [
+      "AGENTS/DAEDALUS/upgrades/DAEDALUS_SELF_AUDIT_2026-08-17_READER_REPORTS.md",
+      "AGENTS/DAEDALUS/BLUEPRINTS/STRICT_TEXT.md",
+      "AGENTS/DAEDALUS/BLUEPRINTS/STATE_VOCABULARY.md",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/archive/EVOLUTION_ARCHIVE_2026-08.md",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json"
+    ],
+    "live_candidates": [
+      "AGENTS/DAEDALUS/BLUEPRINTS/STRICT_TEXT.md",
+      "AGENTS/DAEDALUS/BLUEPRINTS/STATE_VOCABULARY.md"
+    ],
+    "header": [
+      "# STE / Controlled-Language Ideas \u2014 Fleet Adaptation Assessment",
+      "",
+      "**Date:** 2026-07-31 \u00b7 **Requested by:** Will (YT transcript, https://www.youtube.com/watch?v=uJblcC4lKYw \u2014 ASD-STE100 applied to AI writing) \u00b7 **Author:** DAEDALUS \u00b7 **Status:** \ud83d\uddc4 **EXECUTED SAME DAY \u2014 both recommendations SHIPPED 2026-07-31 (Will-approved) and are now fleet canon**: `BLUEPRINTS/STATE_VOCABULARY.md` + `BLUEPRINTS/STRICT_TEXT.md`, cited by root CLAUDE.md \u00a7 Output Canon. *(Corrected 2026-08-17, self-audit F22 \u2014 this line still read \"ASSESSMENT ONLY \u2014 nothing built or wired,\" inverting the record for any fresh reader.)* Historical assessment below unchanged.",
+      "",
+      "---"
+    ],
+    "open_tokens": 1,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: AGENTS/DAEDALUS/BLUEPRINTS/STRICT_TEXT.md; AGENTS/DAEDALUS/BLUEPRINTS/STATE_VOCABULARY.md"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/design/2026-08-03_DESIGN_BUNDLE_DISPOSITION.md",
+    "last_commit": "2026-08-03",
+    "refs": [
+      "AGENTS/DAEDALUS/builds/REGISTRATION_CHECKLIST.md",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "PROME/inbox/processed/2026-08-03b_from-DAEDALUS_design-bundle-RULED-plus-a-live-docket-row-that-disagrees-with-itself.md",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json"
+    ],
+    "live_candidates": [
+      "AGENTS/DAEDALUS/builds/REGISTRATION_CHECKLIST.md"
+    ],
+    "header": [
+      "# Design-bundle disposition \u2014 PROME 2026-07-31 (+ addendum) \u00b7 ruled 2026-08-03",
+      "",
+      "**Inputs:** `inbox/2026-07-31_from-PROME_design-bundle-\u2026` (4 items) + `inbox/2026-07-31b_from-PROME_bundle-addendum-\u2026` (1 count correction, 2 evidence upgrades, 1 live instance). Items 1-2 were *evaluate-and-propose*; 3-4 carried PROME recs. **PROME's own words: \"No reply owed \u2014 your disposition doc is the ack.\" This is that doc**; a reply packet went out anyway because two items produced live findings PROME owns.",
+      "",
+      "**Method note:** every premise was re-verified against the tree before ruling. Three of the four moved on verification \u2014 one to a much cheaper fix, one to a *stricter* answer than proposed, one confirmed at the corrected number. That is not diligence theatre: the bundle's own item 3 exists because a relayed count was wrong."
+    ],
+    "open_tokens": 1,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: AGENTS/DAEDALUS/builds/REGISTRATION_CHECKLIST.md"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/design/2026-08-15_LEDGER_STALENESS_REGISTERED_SURFACES_SPEC.md",
+    "last_commit": "2026-08-15",
+    "refs": [
+      "AGENTS/DAEDALUS/upgrades/DAEDALUS_SELF_AUDIT_2026-08-17_READER_REPORTS.md",
+      "AGENTS/DAEDALUS/upgrades/LEDGER_STALENESS_RC_CONTRACT_2026-08-17.md",
+      "AGENTS/DAEDALUS/upgrades/WAR_TRIAD_REVIEW_2026-08-15.md",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/archive/STATUS_ARCHIVE_2026-08-21.md",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json",
+      "AGENTS/DAEDALUS/archive/STATUS_ARCHIVE_2026-08-17.md",
+      "PROME/inbox/processed/2026-08-17_from-DAEDALUS_ledger-staleness-rc-contract-SHIPPED-7-consumers-same-batch-coverage-audit-measured.md"
+    ],
+    "live_candidates": [
+      "AGENTS/DAEDALUS/upgrades/LEDGER_STALENESS_RC_CONTRACT_2026-08-17.md",
+      "AGENTS/DAEDALUS/upgrades/WAR_TRIAD_REVIEW_2026-08-15.md"
+    ],
+    "header": [
+      "# SPEC \u2014 `ledger_staleness.py` registered-surfaces extension (per-agent manifest)",
+      "",
+      "**Status:** SPEC \u2014 no code yet. Will-visible batch pattern per the 7/31 `scripts/` grant; PROME GO 2026-08-15 (war-triad answer packet \u00a72). Build after review; wire into Staleness Sweep run #4 (~9/1) as the first consumer.",
+      "",
+      "## Problem (measured, 2026-08-15 war-triad review)"
+    ],
+    "open_tokens": 0,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: AGENTS/DAEDALUS/upgrades/LEDGER_STALENESS_RC_CONTRACT_2026-08-17.md; AGENTS/DAEDALUS/upgrades/WAR_TRIAD_REVIEW_2026-08-15.md"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/design/COMPOUND_GATE_AUDIT.md",
+    "last_commit": "2026-07-30",
+    "refs": [
+      "PROME/inbox/processed/2026-08-07_from-DAEDALUS_compound-gate-ruling-LATE-DELIVERY-sat-in-my-outbox-8d.md",
+      "AGENTS/DAEDALUS/PATTERNS.tsv",
+      "AGENTS/DAEDALUS/outbox/delivered/2026-07-30_to-PROME_compound-gate-mechanism-ruled-plus-screen.md",
+      "AGENTS/DAEDALUS/BLUEPRINTS/market-agent.md",
+      "AGENTS/VIOLET/inbox/processed/2026-07-30_from-DAEDALUS_stand-down-gate-is-a-ratchet.md",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json",
+      "AGENTS/OSPREY/inbox/processed/2026-07-30_from-DAEDALUS_thesis-kill-60d-conjunction-plus-a-withdrawn-flag.md",
+      "AGENTS/TERRY/inbox/processed/2026-07-30_from-DAEDALUS_paper-book-scoring-gate-design-affirmed-one-note.md"
+    ],
+    "live_candidates": [
+      "AGENTS/DAEDALUS/PATTERNS.tsv",
+      "AGENTS/DAEDALUS/BLUEPRINTS/market-agent.md"
+    ],
+    "header": [
+      "# COMPOUND-GATE JOINT-SATISFIABILITY \u2014 AUDIT DESIGN + FIRST SCREEN",
+      "",
+      "**Author:** DAEDALUS \u00b7 **Date:** 2026-07-30 \u00b7 **Origin:** PROME packet `inbox/2026-07-30_from-PROME_sweep-candidate-compound-gate-joint-satisfiability-audit.md`, off BRENT's `setups/2026-07-30_LESSONS21a-cooldown-gate-respec-PROPOSAL.md` (Will-approved Option A same day)",
+      "**Status:** design ruled + screen run. **Semantic screen = mine and DONE. Joint base-rating = owners' (domain data).** No cross-agent file touched.",
+      ""
+    ],
+    "open_tokens": 2,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: AGENTS/DAEDALUS/PATTERNS.tsv; AGENTS/DAEDALUS/BLUEPRINTS/market-agent.md"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/design/2026-07-22_ledger_staleness_two_clock_parse.md",
+    "last_commit": "2026-07-22",
+    "refs": [
+      "AGENTS/DAEDALUS/outbox/delivered/2026-07-22_to-PROME_pattern-packet-dispositions.md",
+      "AGENTS/DAEDALUS/runs/2026-09-24_STALENESS_SWEEP_05.md",
+      "AGENTS/DAEDALUS/BLUEPRINTS/market-agent.md",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/archive/EVOLUTION_ARCHIVE_2026-08.md",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json"
+    ],
+    "live_candidates": [
+      "AGENTS/DAEDALUS/BLUEPRINTS/market-agent.md"
+    ],
+    "header": [
+      "# ledger_staleness.py two-clock parse \u2014 change record (PAT-039 fix)",
+      "",
+      "**By:** DAEDALUS \u00b7 **Date:** 2026-07-22 \u00b7 **Status:** \u2705 APPLIED + VALIDATED (Will-directed session \u2014 item 5 of the 7/22 open-items docket; the gated shared-script change PAT-039 graduated to PROPOSE on 7/10)",
+      "**File:** `scripts/ledger_staleness.py` (repo root \u2014 shared, 13 CLAUDE.md boot references across the fleet)",
+      ""
+    ],
+    "open_tokens": 0,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: AGENTS/DAEDALUS/BLUEPRINTS/market-agent.md"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/design/2026-08-21_CHECK_STANDARD_BATCH_B_DRAFT.md",
+    "last_commit": "2026-08-21",
+    "refs": [
+      "PROME/proposals/2026-08-21_batchB-check-standard-six-items-RULED.md",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json"
+    ],
+    "live_candidates": [
+      "PROME/proposals/2026-08-21_batchB-check-standard-six-items-RULED.md"
+    ],
+    "header": [
+      "# CHECK_STANDARD Batch B \u2014 DRAFT for Will's gate (unblocks PROME's Batch B; drafted 2026-08-21 eve)",
+      "",
+      "**Status: \u2705 RULED 2026-08-21 (Will verbatim \"okay approved.\", record `PROME/proposals/2026-08-21_batchB-check-standard-six-items-RULED.md` `0416eaa40`) AND ENCODED same evening \u2014 `BLUEPRINTS/CHECK_STANDARD.md` \u00a71/\u00a73/\u00a76/\u00a78-r6/\u00a712/\u00a713 + EVOLUTION 8/21(d). This file is now the drafting record; the encoded text is canonical.** *(Original draft banner:)* One ruling covers all six items (PROME's one-word-instead-of-three rec, my concurrence). On approval: encode into `BLUEPRINTS/CHECK_STANDARD.md` + EVOLUTION same commit; \u00a710/\u00a711-style PROVISIONAL markers where the flow requires ratify-after-first-live-use.",
+      "",
+      "**Provenance discipline:** every \u2464b item below was verified at ZHAO's artifact before drafting (precondition from my own register): counts-keyed verdict at `AGENTS/ZHAO/scripts/boot.py:319-332` \u00b7 monkeypatched-legs fixture in commit `9f97c7f5f` (\"Both branches fixture-tested via monkeypatched legs so the OK path runs without mutating real files\") \u00b7 declared-asymmetry comment at `boot.py:298-301`. WAL rules verified at the source packet + `AGENTS/WAL/MEMORY.md:80` (base rates 54\u2192scoped and 10/23 baseline are WAL's own measurements)."
+    ],
+    "open_tokens": 0,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: PROME/proposals/2026-08-21_batchB-check-standard-six-items-RULED.md"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/design/2026-08-11_STALENESS_CADENCE_PROPOSAL.md",
+    "last_commit": "2026-08-20",
+    "refs": [
+      "AGENTS/DAEDALUS/archive/EVOLUTION_ARCHIVE_2026-08.md",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json"
+    ],
+    "live_candidates": [],
+    "header": [
+      "# Staleness-cadence proposal \u2014 (b) pre-commit nudge + (a) STATUS-writes backstop + (c) absolute-age floor",
+      "",
+      "**Status:** \u2705 **APPROVED \u2014 Will verbatim \"approve the staleness proposal\", 2026-08-20 (in DAEDALUS's session, morning). Rollout live: modes built 8/20 (this session); root-canon (b) line drafted \u2192 PROME to land with Will's OK on record; (a)+(c) CANDIDATES pass runs at Staleness #4 ~9/1.** *(Prior: DRAFT for Will; greenlit PROME\u2192WATT 2026-08-04, (b)-first ordering endorsed; drafted 2026-08-11)* \u00b7 **Provenance:** WATT 8/4 \u00a73 (the sprint-blindness finding + its own withdrawn per-day `LEDGER_CADENCE`, correctly withdrawn) \u00b7 Staleness Sweep #3 (PAT-092 live witness, PAT-095) \u00b7 **Owner if adopted:** DAEDALUS (`ledger_staleness.py` + `scripts/` grant).",
+      "",
+      "## The problem \u2014 three measured blind spots of a day-denominated relative clock"
+    ],
+    "open_tokens": 0,
+    "disposition": "RETIRE_CANDIDATE_VERIFIED_HISTORY",
+    "basis": "Header/context says closed queue, executed build/audit, historical findings or shipped mechanism; no live-reference candidate and no pending docket/gate reference found in basename search."
+  },
+  {
+    "path": "AGENTS/DAEDALUS/builds/OSPREY_FALCON_BUILD.md",
+    "last_commit": "2026-07-30",
+    "refs": [
+      "PROME/ROSTER.md",
+      "AGENTS/HAWK/outbox/delivered/DISPOSITION_2026-07-28.md",
+      "AGENTS/HAWK/CLAUDE.md",
+      "AGENTS/OSPREY/CLAUDE.md",
+      "AGENTS/DAEDALUS/builds/REGISTRATION_CHECKLIST.md",
+      "AGENTS/DAEDALUS/builds/hawk_split/WP3_REPORT.md",
+      "AGENTS/DAEDALUS/builds/hawk_split/WP1_REPORT.md",
+      "AGENTS/DAEDALUS/builds/hawk_split/WP2_REPORT.md",
+      "AGENTS/DAEDALUS/upgrades/DAEDALUS_SELF_SWEEP_2026-07-12.md",
+      "AGENTS/DAEDALUS/upgrades/HAWK_CARD.md",
+      "AGENTS/DAEDALUS/upgrades/FIXBATCH_REPORT_2026-07-12.md",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/FLEET_MAP_HISTORY.tsv",
+      "AGENTS/WALTER/research/2026-09-15_boot-repairs/owner-headers.json",
+      "AGENTS/DAEDALUS/outbox/delivered/2026-07-12_to-PROME_hawk-split-homer-promotion-registered.md",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json",
+      "AGENTS/DAEDALUS/PATTERNS.tsv",
+      "AGENTS/DAEDALUS/BLUEPRINTS/market-agent.md",
+      "AGENTS/DAEDALUS/archive/2026-09-08_CLOCK_SWEEP_BEFORE_IMAGES.json",
+      "AGENTS/DAEDALUS/archive/retired_2026-09-17/STATUS_archive_2026-07-12.md",
+      "AGENTS/WALTER/research/2026-09-15_closeout/registry-header-receipt.json",
+      "AGENTS/DAEDALUS/inbox/processed/2026-07-30_from-FALCON_war-split-build-spec-asymmetry-and-molecule-blindspot.md",
+      "AGENTS/FALCON/CLAUDE.md",
+      "AGENTS/FALCON/thesis/CHANGELOG.md",
+      "AGENTS/FALCON/inbox/processed/2026-07-30_from-DAEDALUS_war-split-findings-all-three-accepted-fixes-shipped.md",
+      "AGENTS/FALCON/domain/sources/STATUS_archive_2026-09-16_before-review.md"
+    ],
+    "live_candidates": [
+      "PROME/ROSTER.md",
+      "AGENTS/HAWK/CLAUDE.md",
+      "AGENTS/OSPREY/CLAUDE.md",
+      "AGENTS/DAEDALUS/builds/REGISTRATION_CHECKLIST.md",
+      "AGENTS/DAEDALUS/builds/hawk_split/WP3_REPORT.md",
+      "AGENTS/DAEDALUS/builds/hawk_split/WP1_REPORT.md",
+      "AGENTS/DAEDALUS/builds/hawk_split/WP2_REPORT.md",
+      "AGENTS/DAEDALUS/upgrades/DAEDALUS_SELF_SWEEP_2026-07-12.md",
+      "AGENTS/DAEDALUS/upgrades/HAWK_CARD.md",
+      "AGENTS/DAEDALUS/upgrades/FIXBATCH_REPORT_2026-07-12.md",
+      "AGENTS/WALTER/research/2026-09-15_boot-repairs/owner-headers.json",
+      "AGENTS/DAEDALUS/PATTERNS.tsv",
+      "AGENTS/DAEDALUS/BLUEPRINTS/market-agent.md",
+      "AGENTS/WALTER/research/2026-09-15_closeout/registry-header-receipt.json",
+      "AGENTS/FALCON/CLAUDE.md",
+      "AGENTS/FALCON/thesis/CHANGELOG.md",
+      "AGENTS/FALCON/domain/sources/STATUS_archive_2026-09-16_before-review.md"
+    ],
+    "header": [
+      "# OSPREY + FALCON Build \u2014 Execution Spec (HAWK split)",
+      "",
+      "> \ud83d\uddc4 **DATED BUILD RECORD \u2014 states herein are as-of the build day; do NOT cite as current.** First content-grades landed at the 7/22 review: OSPREY L2, FALCON L3 (skip-level); HAWK L4-prov w/ sunset ~8/1. Current truth = FLEET_MAP row + `upgrades/PRODUCTION_REVIEW_2026-07-22.md`.",
+      "",
+      "**Author:** DAEDALUS \u00b7 **Date:** 2026-07-12 \u00b7 **Status:** \ud83d\udfe2 EXECUTED 2026-07-12 (WP-1..5 complete; WP-4/5 run directly by DAEDALUS \u2014 verification in session record; registered + pushed same-day)"
+    ],
+    "open_tokens": 2,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: PROME/ROSTER.md; AGENTS/HAWK/CLAUDE.md; AGENTS/OSPREY/CLAUDE.md; AGENTS/DAEDALUS/builds/REGISTRATION_CHECKLIST.md"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/builds/FLG_BUILD_2026-08-20.md",
+    "last_commit": "2026-08-20",
+    "refs": [
+      "PROME/DOCKET.tsv",
+      "PROME/ROSTER.md",
+      "PROME/reports/2026-09-08_inbox-before.json",
+      "PROME/tools/tests/fixtures/desk_attention/PROME/DOCKET.tsv",
+      "PROME/inbox/processed/2026-08-20_from-DAEDALUS_FLG-build-executed-registration-surfaces-owed.md",
+      "AGENTS/DAEDALUS/archive/2026-09-08_CLOCK_SWEEP_BEFORE_IMAGES.json",
+      "AGENTS/DAEDALUS/runs/2026-08-28_WIRING_SWEEP/leg21_HANS_EVIDENCE.md",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/FLEET_MAP_HISTORY.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json"
+    ],
+    "live_candidates": [
+      "PROME/DOCKET.tsv",
+      "PROME/ROSTER.md",
+      "PROME/reports/2026-09-08_inbox-before.json",
+      "PROME/tools/tests/fixtures/desk_attention/PROME/DOCKET.tsv"
+    ],
+    "header": [
+      "# BUILD RECORD \u2014 FLG (Flagstar Financial)",
+      "",
+      "**Built:** 2026-08-20, one session \u00b7 **By:** DAEDALUS \u00b7 **Approval:** Will, in-session, verbatim **\"Yes build it\"**",
+      "**Proposal:** `FLG_BUILD_PROPOSAL_2026-08-20.md` \u00b7 **Blueprint:** `BLUEPRINTS/market-agent.md` \u00b7 **Template:** FERT re-charter `595ac2306`",
+      "**Class:** Market domain \u2014 print-driven single-name specialist \u00b7 **Grade at birth:** L1 (see \u00a76)"
+    ],
+    "open_tokens": 0,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: PROME/DOCKET.tsv; PROME/ROSTER.md; PROME/reports/2026-09-08_inbox-before.json; PROME/tools/tests/fixtures/desk_attention/PROME/DOCKET.tsv"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/builds/FERT_RECHARTER_2026-08-16.md",
+    "last_commit": "2026-08-16",
+    "refs": [
+      "PROME/inbox/processed/2026-08-16_from-DAEDALUS_FERT-build-LANDED-plus-orphaned-threshold-sweep-results.md",
+      "AGENTS/DAEDALUS/upgrades/DAEDALUS_SELF_AUDIT_2026-08-17_READER_REPORTS.md",
+      "AGENTS/DAEDALUS/FLEET_MAP_HISTORY.tsv",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json",
+      "AGENTS/DAEDALUS/archive/2026-09-08_CLOCK_SWEEP_BEFORE_IMAGES.json",
+      "AGENTS/DAEDALUS/archive/EVOLUTION_ARCHIVE_2026-08.md",
+      "AGENTS/DAEDALUS/archive/STATUS_ARCHIVE_2026-08-17.md"
+    ],
+    "live_candidates": [],
+    "header": [
+      "# BUILD RECORD \u2014 FERT re-charter \u00b7 2026-08-16 \u00b7 DAEDALUS",
+      "",
+      "**Authorization:** Will-ruled 2026-08-16 (`PROME/proposals/2026-08-16_fert-recharter-RULED.md`); commission = `inbox/2026-08-16_from-PROME_fert-recharter-COMMISSIONED-...md`. DOCKET checkpoint 2026-08-23 \u2014 **landed 8/16, 7 days inside the window.**",
+      "**Shape:** market-agent blueprint variant \u00b7 **EVENT-DRIVEN SPECIALIST** cadence (wakes on named triggers; decision tempo weekly-to-monthly, assessment \u00a74c).",
+      ""
+    ],
+    "open_tokens": 2,
+    "disposition": "RETIRE_CANDIDATE_VERIFIED_HISTORY",
+    "basis": "Header/context says closed queue, executed build/audit, historical findings or shipped mechanism; no live-reference candidate and no pending docket/gate reference found in basename search."
+  },
+  {
+    "path": "AGENTS/DAEDALUS/builds/WATT_SPEC.md",
+    "last_commit": "2026-07-22",
+    "refs": [
+      "PROME/archive/AGENTS_PROME_LEGACY_2026-06-24/reaccumulated_2026-06-25_to_07-24/inbox_processed/2026-07-10_from-DAEDALUS_watt-wiring-registration.md",
+      "AGENTS/WATT/CLAUDE.md",
+      "AGENTS/DAEDALUS/runs/2026-09-24_STALENESS_SWEEP_05.md",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/FLEET_MAP_HISTORY.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json",
+      "AGENTS/DAEDALUS/archive/2026-09-08_CLOCK_SWEEP_BEFORE_IMAGES.json",
+      "AGENTS/DAEDALUS/archive/retired_2026-09-17/STATUS_archive_2026-07-12.md",
+      "AGENTS/DAEDALUS/archive/EVOLUTION_ARCHIVE_2026-08.md"
+    ],
+    "live_candidates": [
+      "AGENTS/WATT/CLAUDE.md"
+    ],
+    "header": [
+      "# BUILD SPEC \u2014 WATT (grid-stress \u2192 power-price \u2192 industrial/data-center-cost agent)",
+      "",
+      "> \ud83d\uddc4 **DATED BUILD RECORD \u2014 states herein are as-of the build day; do NOT cite as current.** \u00a77's 'keep power_watch in FORGE' was OVERRIDDEN by Will 7/10 (instrument moved to `AGENTS/WATT/`); registration completed 7/11; WATT graded L2 7/22 (PJM key live). Current truth = FLEET_MAP row + `upgrades/PRODUCTION_REVIEW_2026-07-22.md`.",
+      "",
+      "**Status:** \ud83d\udfe2 EXECUTED \u2014 Will approved 2026-07-10 (name WATT, instrument\u2192AGENTS/WATT/, P1\u2013P4 core). Scaffolded + smoke-tested (`boot.py` rc 0); agent-tree wiring applied direct; ROSTER/root/AGENTS.md registration routed to PROME; FLEET_MAP row + FLEET_DIRECTORY regen held until PROME registers ROSTER (render guard)."
+    ],
+    "open_tokens": 0,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: AGENTS/WATT/CLAUDE.md"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/builds/MIDAS_SPEC.md",
+    "last_commit": "2026-07-22",
+    "refs": [
+      "PROME/archive/AGENTS_PROME_LEGACY_2026-06-24/reaccumulated_2026-06-25_to_07-24/inbox_processed/2026-07-11_from-DAEDALUS_midas-wiring-registration.md",
+      "AGENTS/DAEDALUS/archive/2026-09-08_INBOX_PROFILE_BEFORE_IMAGES.json",
+      "AGENTS/DAEDALUS/FLEET_MAP_HISTORY.tsv",
+      "AGENTS/DAEDALUS/archive/2026-09-08_CLOCK_SWEEP_BEFORE_IMAGES.json",
+      "AGENTS/DAEDALUS/archive/EVOLUTION_ARCHIVE_2026-08.md",
+      "AGENTS/DAEDALUS/profiles/MIDAS.md",
+      "AGENTS/DAEDALUS/runs/2026-09-24_STALENESS_SWEEP_05.md",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json",
+      "AGENTS/MIDAS/CLAUDE.md"
+    ],
+    "live_candidates": [
+      "AGENTS/DAEDALUS/profiles/MIDAS.md",
+      "AGENTS/MIDAS/CLAUDE.md"
+    ],
+    "header": [
+      "# BUILD SPEC \u2014 MIDAS (precious + industrial metals agent)",
+      "",
+      "> \ud83d\uddc4 **DATED BUILD RECORD \u2014 states herein are as-of the build day; do NOT cite as current.** metals_watch.py was BUILT+WIRED day 1 (7/12); registration completed 7/11; MIDAS graded L3 7/22. Current truth = FLEET_MAP row + `upgrades/PRODUCTION_REVIEW_2026-07-22.md`.",
+      "",
+      "**Status:** \ud83d\udfe2 EXECUTED \u2014 Will approved 2026-07-11 (name MIDAS, 4 channels M1\u2013I2, Active/always-on, dual-channel monetary+industrial). Phase 3 (final) of the 3-agent build queue (power \u2192 semis \u2192 **metals**)."
+    ],
+    "open_tokens": 0,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: AGENTS/DAEDALUS/profiles/MIDAS.md; AGENTS/MIDAS/CLAUDE.md"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/builds/VULCAN_SPEC.md",
+    "last_commit": "2026-07-22",
+    "refs": [
+      "AGENTS/VULCAN/reports/2026-10-20_catchup/CLAUDE_RATIONALE_SNAPSHOT.md",
+      "AGENTS/VULCAN/reports/2026-10-20_catchup/CLAUDE_SLIM_CANDIDATE.md",
+      "AGENTS/VULCAN/CLAUDE.md",
+      "AGENTS/DAEDALUS/FLEET_MAP_HISTORY.tsv",
+      "AGENTS/VULCAN/archive/CLAUDE_PRE_REPAIR_2026-10-20.md",
+      "PROME/archive/AGENTS_PROME_LEGACY_2026-06-24/reaccumulated_2026-06-25_to_07-24/inbox_processed/2026-07-10_from-DAEDALUS_vulcan-wiring-registration.md",
+      "AGENTS/DAEDALUS/archive/2026-09-08_CLOCK_SWEEP_BEFORE_IMAGES.json",
+      "AGENTS/DAEDALUS/runs/2026-09-24_STALENESS_SWEEP_05.md",
+      "AGENTS/DAEDALUS/archive/EVOLUTION_ARCHIVE_2026-08.md",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json"
+    ],
+    "live_candidates": [
+      "AGENTS/VULCAN/reports/2026-10-20_catchup/CLAUDE_RATIONALE_SNAPSHOT.md",
+      "AGENTS/VULCAN/reports/2026-10-20_catchup/CLAUDE_SLIM_CANDIDATE.md",
+      "AGENTS/VULCAN/CLAUDE.md"
+    ],
+    "header": [
+      "# BUILD SPEC \u2014 VULCAN (AI / semiconductor / memory agent)",
+      "",
+      "> \ud83d\uddc4 **DATED BUILD RECORD \u2014 states herein are as-of the build day; do NOT cite as current.** Registration completed 7/11; VULCAN graded L2 7/22 (cluster armed). Current truth = FLEET_MAP row + `upgrades/PRODUCTION_REVIEW_2026-07-22.md`.",
+      "",
+      "**Status:** \ud83d\udfe2 EXECUTED \u2014 Will approved 2026-07-10 (name VULCAN, S1\u2013S4 core / S5 tier-2, Active/always-on, systemic-risk lens). Phase 2 of the 3-agent build queue (power \u2192 semis \u2192 metals)."
+    ],
+    "open_tokens": 0,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: AGENTS/VULCAN/reports/2026-10-20_catchup/CLAUDE_RATIONALE_SNAPSHOT.md; AGENTS/VULCAN/reports/2026-10-20_catchup/CLAUDE_SLIM_CANDIDATE.md; AGENTS/VULCAN/CLAUDE.md"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/builds/AEOLUS_SPEC.md",
+    "last_commit": "2026-07-22",
+    "refs": [
+      "PROME/proposals/2026-10-16_root-readme-revision-PROPOSAL.md",
+      "PROME/ROSTER.md",
+      "AGENTS/WALTER/REGISTRY.tsv",
+      "AGENTS/AEOLUS/CLAUDE.md",
+      "AGENTS/WALTER/research/2026-10-14_walter-closeout/before-REGISTRY.tsv",
+      "AGENTS/WALTER/research/2026-10-14_morning-news/before-REGISTRY.tsv",
+      "AGENTS/WALTER/SESSION_LOG.md",
+      "AGENTS/WALTER/research/2026-10-16_finish/prior-REGISTRY.tsv",
+      "AGENTS/DAEDALUS/FLEET_MAP_HISTORY.tsv",
+      "AGENTS/DAEDALUS/runs/2026-09-24_STALENESS_SWEEP_05.md",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/WALTER/research/2026-10-19_breadth-followup/prior-REGISTRY.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json",
+      "AGENTS/WALTER/research/2026-10-19_afternoon/prior-REGISTRY.tsv",
+      "AGENTS/WALTER/research/2026-10-07_closeout/prior-REGISTRY.tsv",
+      "AGENTS/DAEDALUS/archive/2026-09-08_CLOCK_SWEEP_BEFORE_IMAGES.json",
+      "AGENTS/WALTER/research/2026-09-15_closeout/previous-REGISTRY.tsv",
+      "AGENTS/DAEDALUS/archive/EVOLUTION_ARCHIVE_2026-08.md",
+      "AGENTS/WALTER/research/2026-10-19_evening-combined/prior-REGISTRY.tsv",
+      "AGENTS/WALTER/research/2026-10-19_breadth/prior-REGISTRY.tsv",
+      "AGENTS/CORAL/inbox/processed/2026-06-28_from-AEOLUS_boundary-handshake.md",
+      "AGENTS/WALTER/research/2026-10-19_full-closeout/prior-REGISTRY.tsv",
+      "AGENTS/WALTER/research/2026-10-14_resume-1449/registry-before.tsv"
+    ],
+    "live_candidates": [
+      "PROME/proposals/2026-10-16_root-readme-revision-PROPOSAL.md",
+      "PROME/ROSTER.md",
+      "AGENTS/WALTER/REGISTRY.tsv",
+      "AGENTS/AEOLUS/CLAUDE.md",
+      "AGENTS/WALTER/research/2026-10-14_walter-closeout/before-REGISTRY.tsv",
+      "AGENTS/WALTER/research/2026-10-14_morning-news/before-REGISTRY.tsv",
+      "AGENTS/WALTER/SESSION_LOG.md",
+      "AGENTS/WALTER/research/2026-10-16_finish/prior-REGISTRY.tsv",
+      "AGENTS/WALTER/research/2026-10-19_breadth-followup/prior-REGISTRY.tsv",
+      "AGENTS/WALTER/research/2026-10-19_afternoon/prior-REGISTRY.tsv",
+      "AGENTS/WALTER/research/2026-10-07_closeout/prior-REGISTRY.tsv",
+      "AGENTS/WALTER/research/2026-09-15_closeout/previous-REGISTRY.tsv",
+      "AGENTS/WALTER/research/2026-10-19_evening-combined/prior-REGISTRY.tsv",
+      "AGENTS/WALTER/research/2026-10-19_breadth/prior-REGISTRY.tsv",
+      "AGENTS/WALTER/research/2026-10-19_full-closeout/prior-REGISTRY.tsv",
+      "AGENTS/WALTER/research/2026-10-14_resume-1449/registry-before.tsv"
+    ],
+    "header": [
+      "# BUILD SPEC \u2014 AEOLUS (climate \u2192 economy agent)",
+      "",
+      "> \ud83d\uddc4 **DATED BUILD RECORD \u2014 states herein are as-of the build day; do NOT cite as current.** AEOLUS ran its first data pass 6/28 and holds L2 (25 commits/30d as of 7/22). Current truth = FLEET_MAP row + `upgrades/PRODUCTION_REVIEW_2026-07-22.md`.",
+      "",
+      "**Status:** \ud83d\udfe2 EXECUTED \u2014 Will approved 2026-06-28; scaffolded + wired this session. AEOLUS is live (awaiting its own first data pass)."
+    ],
+    "open_tokens": 0,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: PROME/proposals/2026-10-16_root-readme-revision-PROPOSAL.md; PROME/ROSTER.md; AGENTS/WALTER/REGISTRY.tsv; AGENTS/AEOLUS/CLAUDE.md"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/builds/RAV_CHARTER.md",
+    "last_commit": "2026-08-03",
+    "refs": [
+      "PROME/ROSTER.md",
+      "PROME/reports/2026-10-04_harness-audit-blind-counterpart.md",
+      "PROME/reports/2026-10-04_harness-audit-counterpart-comparison.md",
+      "AGENTS/DAEDALUS/FLEET_MAP_HISTORY.tsv",
+      "AGENTS/DAEDALUS/FLEET_MAP.tsv",
+      "AGENTS/DAEDALUS/upgrades/PRODUCTION_REVIEW_2026-10-01_RECUT.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-20_MAINTENANCE_EVIDENCE/floor.txt",
+      "AGENTS/DAEDALUS/upgrades/PRODUCTION_REVIEW_2026-10-01_READER_R1_meta_utility.md",
+      "AGENTS/RAV/README.md",
+      "AGENTS/DAEDALUS/runs/2026-10-08_HARNESS_CHANGELIST_A.md",
+      "AGENTS/DAEDALUS/upgrades/PRODUCTION_REVIEW_2026-09-17_READER_R1_meta_utility.md",
+      "AGENTS/RAV/inbox/2026-08-05_from-PROME_both-flags-fixed-your-limit-answered-and-one-wording-note.md",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/PATTERNS.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-08_HARNESS_CHANGELIST.md",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json",
+      "AGENTS/DAEDALUS/runs/2026-10-21_PR8_EVIDENCE/floor.txt",
+      "AGENTS/DAEDALUS/archive/2026-09-08_CLOCK_SWEEP_BEFORE_IMAGES.json",
+      "AGENTS/DAEDALUS/archive/EVOLUTION_ARCHIVE_2026-08.md",
+      "AGENTS/DAEDALUS/runs/harness_audit_2026-10-04/FINAL_SCOPE.json",
+      "AGENTS/DAEDALUS/runs/harness_audit_2026-10-04/SELF_ROOT_READER.md",
+      "AGENTS/DAEDALUS/runs/harness_audit_2026-10-04/FINAL_INPUT_SNAPSHOT.json",
+      "AGENTS/DAEDALUS/runs/harness_audit_2026-10-04/TRANCHE3_SCOPE.json",
+      "AGENTS/DAEDALUS/runs/harness_audit_2026-10-04/COUNTERPART_RECONCILIATION_INPUTS.json",
+      "AGENTS/DAEDALUS/runs/harness_audit_2026-10-04/CONTINUATION_SCOPE.json",
+      "AGENTS/DAEDALUS/runs/harness_audit_2026-10-04/scope_snapshot.json",
+      "AGENTS/DAEDALUS/scripts/maturity_scan.py"
+    ],
+    "live_candidates": [
+      "PROME/ROSTER.md",
+      "PROME/reports/2026-10-04_harness-audit-blind-counterpart.md",
+      "PROME/reports/2026-10-04_harness-audit-counterpart-comparison.md",
+      "AGENTS/DAEDALUS/FLEET_MAP.tsv",
+      "AGENTS/DAEDALUS/upgrades/PRODUCTION_REVIEW_2026-10-01_RECUT.tsv",
+      "AGENTS/RAV/README.md",
+      "AGENTS/RAV/inbox/2026-08-05_from-PROME_both-flags-fixed-your-limit-answered-and-one-wording-note.md",
+      "AGENTS/DAEDALUS/PATTERNS.tsv",
+      "AGENTS/DAEDALUS/scripts/maturity_scan.py"
+    ],
+    "header": [
+      "# RAV \u2014 Charter",
+      "",
+      "**Status:** \ud83d\udfe2 **RATIFIED 2026-08-02** \u2014 Will, in-session, **as-drafted in full** (\u00a73 repair/flag split \u00b7 fence (c) accepted \u00b7 the Meta classification recommendation in \u00a77 taken). Superseded the DRAFT line on 2026-08-03 when DAEDALUS executed the wiring below.",
+      "**Wired 2026-08-03:** ROSTER \u00a7 SPECIAL (`de539d32e`, PROME) \u2192 `AGENTS/RAV/` scaffold \u2192 `FLEET_MAP.tsv` row, in PAT-047 order.",
+      "**Author:** DAEDALUS \u00b7 **Date:** 2026-07-30 \u00b7 **Approved to draft:** Will, in-session"
+    ],
+    "open_tokens": 0,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: PROME/ROSTER.md; PROME/reports/2026-10-04_harness-audit-blind-counterpart.md; PROME/reports/2026-10-04_harness-audit-counterpart-comparison.md; AGENTS/DAEDALUS/FLEET_MAP.tsv"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/builds/FLG_BUILD_PROPOSAL_2026-08-20.md",
+    "last_commit": "2026-08-20",
+    "refs": [
+      "PROME/inbox/processed/2026-08-20_from-DAEDALUS_FLG-build-executed-registration-surfaces-owed.md",
+      "AGENTS/DAEDALUS/builds/FLG_BUILD_2026-08-20.md",
+      "AGENTS/DAEDALUS/FLEET_MAP_HISTORY.tsv",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json",
+      "AGENTS/FLG/workbook/KB.tsv",
+      "AGENTS/FLG/CLAUDE.md",
+      "AGENTS/DAEDALUS/archive/2026-09-08_CLOCK_SWEEP_BEFORE_IMAGES.json",
+      "AGENTS/DAEDALUS/archive/STATUS_ARCHIVE_2026-08-21.md"
+    ],
+    "live_candidates": [
+      "AGENTS/DAEDALUS/builds/FLG_BUILD_2026-08-20.md",
+      "AGENTS/FLG/workbook/KB.tsv",
+      "AGENTS/FLG/CLAUDE.md"
+    ],
+    "header": [
+      "# BUILD PROPOSAL \u2014 FLG (Flagstar Financial) as a standalone per-bank agent",
+      "",
+      "**Author:** DAEDALUS \u00b7 **Date:** 2026-08-20 16:21 EDT \u00b7 **Status:** \ud83d\udfe1 PROPOSED \u2014 Will-gated, nothing scaffolded",
+      "**Requested by:** Will, in-session, off REGINALD's rebuilt convergence matrix (`75f0dd18b`, 2026-08-20 16:04 EDT \u2014 17 min before this file)",
+      "**Job:** #1 Build \u00b7 **Blueprint:** `BLUEPRINTS/market-agent.md` \u00b7 **Template:** FERT re-charter `595ac2306` (greenfield), *not* WAL (promotion)"
+    ],
+    "open_tokens": 2,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: AGENTS/DAEDALUS/builds/FLG_BUILD_2026-08-20.md; AGENTS/FLG/workbook/KB.tsv; AGENTS/FLG/CLAUDE.md"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/builds/wal_promotion/PROMOTION_REVIEW.md",
+    "last_commit": "2026-08-17",
+    "refs": [
+      "AGENTS/HOMER/reports/2026-07-12_CRL-06-data-package.md",
+      "AGENTS/HOMER/STATUS_COLD.md",
+      "AGENTS/HOMER/workbook/RATES.tsv",
+      "AGENTS/HOMER/MEMORY.md",
+      "AGENTS/HOMER/thesis/PREDICTIONS.tsv",
+      "AGENTS/HOMER/CLAUDE.md",
+      "AGENTS/HOMER/archive/CLAUDE_charter_history_2026-09-29.md",
+      "AGENTS/HOMER/archive/STATUS_2026-09-14_pre-catchup-VERBATIM.md",
+      "AGENTS/CREED/inbox/processed/2026-07-12_from-DAEDALUS_homer-promotion-s5-demotion.md",
+      "AGENTS/CARL/archive/2026-09-16_before-key-file-audit.md",
+      "AGENTS/CARL/archive/ROADMAP_ARCHIVE_2026-09.md",
+      "AGENTS/CARL/status_archive/STATUS_ARCHIVE_2026-09.md",
+      "AGENTS/CARL/inbox/processed/2026-07-12_from-DAEDALUS_homer-promotion-complete.md",
+      "AGENTS/CARL/TEAM.md",
+      "AGENTS/TERRY/inbox/processed/2026-07-25_from-DAEDALUS_wal-grind-card-owner-is-now-WAL-agent.md",
+      "AGENTS/REGINALD/inbox/processed/2026-07-22_from-DAEDALUS_wal-promotion-review-delivered.md",
+      "AGENTS/REGINALD/inbox/processed/2026-07-12_from-DAEDALUS_homer-promotion-trepp-mf-owner.md",
+      "AGENTS/TERRY/setups/WAL_grind-putspread_2026-07-17.md",
+      "AGENTS/DAEDALUS/builds/homer_promotion/WPH2_REPORT.md",
+      "AGENTS/DAEDALUS/builds/homer_promotion/WPH1_REPORT.md",
+      "AGENTS/DAEDALUS/upgrades/DAEDALUS_SELF_AUDIT_2026-08-17_READER_REPORTS.md",
+      "AGENTS/DAEDALUS/FLEET_MAP_HISTORY.tsv",
+      "AGENTS/DAEDALUS/outbox/delivered/2026-07-22_to-REGINALD_wal-promotion-review.md",
+      "AGENTS/DAEDALUS/outbox/delivered/2026-07-22_to-PROME_wal-promotion-approved.md",
+      "AGENTS/DAEDALUS/outbox/delivered/2026-07-25_to-PROME_wal-cutover-executed-roster-handshake.md",
+      "AGENTS/DAEDALUS/outbox/delivered/2026-07-12_to-PROME_hawk-split-homer-promotion-registered.md",
+      "AGENTS/DAEDALUS/runs/2026-09-24_STALENESS_SWEEP_05.md",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json",
+      "AGENTS/DAEDALUS/archive/2026-09-08_CLOCK_SWEEP_BEFORE_IMAGES.json",
+      "AGENTS/DAEDALUS/archive/retired_2026-09-17/STATUS_archive_2026-07-12.md",
+      "AGENTS/DAEDALUS/archive/EVOLUTION_ARCHIVE_2026-08.md",
+      "AGENTS/WAL/MEMORY_ARCHIVE.md",
+      "AGENTS/WAL/CLAUDE.md",
+      "AGENTS/WAL/archive/MEMORY_before-Q3-stage1_2026-10-19.md",
+      "AGENTS/WAL/archive/INDEX_before-housekeeping_2026-10-14.md",
+      "AGENTS/WAL/archive/MEMORY_before-housekeeping_2026-10-14.md",
+      "AGENTS/CORAL/inbox/processed/2026-07-12_from-DAEDALUS_homer-fl-condo-reconcile.md"
+    ],
+    "live_candidates": [
+      "AGENTS/HOMER/reports/2026-07-12_CRL-06-data-package.md",
+      "AGENTS/HOMER/STATUS_COLD.md",
+      "AGENTS/HOMER/workbook/RATES.tsv",
+      "AGENTS/HOMER/MEMORY.md",
+      "AGENTS/HOMER/thesis/PREDICTIONS.tsv",
+      "AGENTS/HOMER/CLAUDE.md",
+      "AGENTS/CARL/TEAM.md",
+      "AGENTS/TERRY/setups/WAL_grind-putspread_2026-07-17.md",
+      "AGENTS/DAEDALUS/builds/homer_promotion/WPH2_REPORT.md",
+      "AGENTS/DAEDALUS/builds/homer_promotion/WPH1_REPORT.md",
+      "AGENTS/WAL/CLAUDE.md"
+    ],
+    "header": [
+      "# WAL Promotion \u2014 DAEDALUS Structural Review + Rulings",
+      "",
+      "**Author:** DAEDALUS \u00b7 **Date:** 2026-07-22 \u00b7 **Status:** \ud83d\uddc4 **EXECUTED \u2014 WAL PROMOTED 2026-07-25 (root CLAUDE.md records it); this is the dated pre-execution review.** *(Corrected 2026-08-17, self-audit F22 \u2014 this line still read \"Execution remains gated on WP-W0\" 23 days after the promotion completed, presenting a dead gate as live.)* Original approval: \u2705 by Will 2026-07-22 AM, verdict + all 5 rulings as written; WP-W0 gate cleared and WP-W1..W6 executed by 7/25.",
+      "**Case:** `inbox/2026-07-17_from-REGINALD_wal-promotion-request.md` (REGINALD, Will-directed 7/17)",
+      "**Method:** Mode-A 4-reader fan-out 7/22 \u2014 (A) WAL corpus core vs market-agent blueprint \u00b7 (B) FRAUD/ + workbook + cross-agent consumer map \u00b7 (C) OZK precedent seam audit \u00b7 (D) REGINALD hub side + 7/21 Stage-1 grade state. Reader reports summarized inline; full evidence cites in this doc trace to their file:line findings."
+    ],
+    "open_tokens": 1,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: AGENTS/HOMER/reports/2026-07-12_CRL-06-data-package.md; AGENTS/HOMER/STATUS_COLD.md; AGENTS/HOMER/workbook/RATES.tsv; AGENTS/HOMER/MEMORY.md"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/builds/homer_promotion/MANIFEST_D_homer.md",
+    "last_commit": "2026-08-17",
+    "refs": [
+      "AGENTS/CARL/status_archive/STATUS_ARCHIVE_2026-09.md",
+      "AGENTS/CARL/inbox/processed/2026-07-12_from-DAEDALUS_homer-promotion-complete.md",
+      "AGENTS/REGINALD/inbox/processed/2026-07-12_from-DAEDALUS_homer-promotion-trepp-mf-owner.md",
+      "AGENTS/DAEDALUS/builds/homer_promotion/PROMOTION_REVIEW.md",
+      "AGENTS/DAEDALUS/runs/2026-09-17_OVERDUE_BATTERY.md",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json",
+      "AGENTS/HOMER/inbox/processed/2026-07-27_from-CREED_S5-demotion-EXECUTED-you-are-the-MF-owner-plus-a-lender-side-MF-datum.md",
+      "AGENTS/CORAL/inbox/processed/2026-07-12_from-DAEDALUS_homer-fl-condo-reconcile.md",
+      "AGENTS/CREED/inbox/processed/2026-07-12_from-DAEDALUS_homer-promotion-s5-demotion.md"
+    ],
+    "live_candidates": [
+      "AGENTS/DAEDALUS/builds/homer_promotion/PROMOTION_REVIEW.md"
+    ],
+    "header": [
+      "# MANIFEST D \u2014 HOMER Promotion Comprehension Pack",
+      "",
+      "> \ud83d\uddc4 **DATED BUILD-EXECUTION RECORD (2026-07-12; bannered 2026-08-17, self-audit F5 \u2014 same class as the 8/11 upgrades/ pass, which was scoped to upgrades/ only).** One-shot record; not maintained.",
+      "**Reader:** DAEDALUS sub-agent \u00b7 **Date:** 2026-07-12 \u00b7 **Scope:** full file read of `AGENTS/CARL/sub_agents/HOMER/`, CARL housing-section STATUS/THESIS/CATALYSTS/PREDICTIONS, CREED structural read, external-consumer sweep.",
+      "**Source case:** `AGENTS/DAEDALUS/inbox/2026-07-12_from-CARL_homer-promotion-case.md`"
+    ],
+    "open_tokens": 2,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: AGENTS/DAEDALUS/builds/homer_promotion/PROMOTION_REVIEW.md"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/builds/homer_promotion/WPH1_REPORT.md",
+    "last_commit": "2026-08-17",
+    "refs": [
+      "AGENTS/DAEDALUS/upgrades/CARL_SUBAGENT_AUDIT_2026-07-10.md",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json"
+    ],
+    "live_candidates": [
+      "AGENTS/DAEDALUS/upgrades/CARL_SUBAGENT_AUDIT_2026-07-10.md"
+    ],
+    "header": [
+      "# WP-H1 Report \u2014 HOMER Top-Level Surface Rebuild",
+      "",
+      "> \ud83d\uddc4 **DATED BUILD-EXECUTION RECORD (2026-07-12; bannered 2026-08-17, self-audit F5 \u2014 same class as the 8/11 upgrades/ pass, which was scoped to upgrades/ only).** One-shot record; not maintained.",
+      "",
+      "**Executor:** DAEDALUS build sub-agent \u00b7 **Date:** 2026-07-12 \u00b7 **Scope:** `AGENTS/HOMER/` only, per `PROMOTION_REVIEW.md` WP-H1. Read-only everywhere else (esp. `AGENTS/CARL/` \u2014 WP-H2's job, untouched). No git commands run \u2014 DAEDALUS commits."
+    ],
+    "open_tokens": 0,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: AGENTS/DAEDALUS/upgrades/CARL_SUBAGENT_AUDIT_2026-07-10.md"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/builds/homer_promotion/WPH2_REPORT.md",
+    "last_commit": "2026-08-17",
+    "refs": [
+      "AGENTS/CARL/inbox/processed/2026-07-12_from-DAEDALUS_homer-promotion-complete.md",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json"
+    ],
+    "live_candidates": [],
+    "header": [
+      "# WP-H2 Report \u2014 CARL-Side Shed + Cross-Agent Handoff Packets",
+      "",
+      "> \ud83d\uddc4 **DATED BUILD-EXECUTION RECORD (2026-07-12; bannered 2026-08-17, self-audit F5 \u2014 same class as the 8/11 upgrades/ pass, which was scoped to upgrades/ only).** One-shot record; not maintained.",
+      "",
+      "**Executor:** DAEDALUS build sub-agent \u00b7 **Date:** 2026-07-12 \u00b7 **Scope:** `AGENTS/CARL/` (own files) + 4 new inbox packets per `PROMOTION_REVIEW.md` WP-H2/WP-H3. `AGENTS/HOMER/` untouched (WP-H1's job, already complete). No git commands run."
+    ],
+    "open_tokens": 2,
+    "disposition": "RETIRE_CANDIDATE_VERIFIED_HISTORY",
+    "basis": "Header/context says closed queue, executed build/audit, historical findings or shipped mechanism; no live-reference candidate and no pending docket/gate reference found in basename search."
+  },
+  {
+    "path": "AGENTS/DAEDALUS/builds/homer_promotion/PROMOTION_REVIEW.md",
+    "last_commit": "2026-07-22",
+    "refs": [
+      "AGENTS/DAEDALUS/builds/homer_promotion/WPH2_REPORT.md",
+      "AGENTS/DAEDALUS/builds/homer_promotion/WPH1_REPORT.md",
+      "AGENTS/DAEDALUS/FLEET_MAP_HISTORY.tsv",
+      "AGENTS/DAEDALUS/outbox/delivered/2026-07-22_to-REGINALD_wal-promotion-review.md",
+      "AGENTS/DAEDALUS/outbox/delivered/2026-07-22_to-PROME_wal-promotion-approved.md",
+      "AGENTS/DAEDALUS/outbox/delivered/2026-07-25_to-PROME_wal-cutover-executed-roster-handshake.md",
+      "AGENTS/DAEDALUS/outbox/delivered/2026-07-12_to-PROME_hawk-split-homer-promotion-registered.md",
+      "AGENTS/DAEDALUS/upgrades/DAEDALUS_SELF_AUDIT_2026-08-17_READER_REPORTS.md",
+      "AGENTS/DAEDALUS/archive/2026-09-08_CLOCK_SWEEP_BEFORE_IMAGES.json",
+      "AGENTS/DAEDALUS/archive/retired_2026-09-17/STATUS_archive_2026-07-12.md",
+      "AGENTS/DAEDALUS/archive/EVOLUTION_ARCHIVE_2026-08.md",
+      "AGENTS/DAEDALUS/runs/2026-09-24_STALENESS_SWEEP_05.md",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json",
+      "AGENTS/CORAL/inbox/processed/2026-07-12_from-DAEDALUS_homer-fl-condo-reconcile.md",
+      "AGENTS/CARL/status_archive/STATUS_ARCHIVE_2026-09.md",
+      "AGENTS/TERRY/inbox/processed/2026-07-25_from-DAEDALUS_wal-grind-card-owner-is-now-WAL-agent.md",
+      "AGENTS/CARL/inbox/processed/2026-07-12_from-DAEDALUS_homer-promotion-complete.md",
+      "AGENTS/CARL/TEAM.md",
+      "AGENTS/TERRY/setups/WAL_grind-putspread_2026-07-17.md",
+      "AGENTS/CARL/archive/ROADMAP_ARCHIVE_2026-09.md",
+      "AGENTS/CARL/archive/2026-09-16_before-key-file-audit.md",
+      "AGENTS/HOMER/reports/2026-07-12_CRL-06-data-package.md",
+      "AGENTS/HOMER/STATUS_COLD.md",
+      "AGENTS/HOMER/workbook/RATES.tsv",
+      "AGENTS/HOMER/MEMORY.md",
+      "AGENTS/HOMER/thesis/PREDICTIONS.tsv",
+      "AGENTS/HOMER/CLAUDE.md",
+      "AGENTS/HOMER/archive/CLAUDE_charter_history_2026-09-29.md",
+      "AGENTS/HOMER/archive/STATUS_2026-09-14_pre-catchup-VERBATIM.md",
+      "AGENTS/CREED/inbox/processed/2026-07-12_from-DAEDALUS_homer-promotion-s5-demotion.md",
+      "AGENTS/WAL/MEMORY_ARCHIVE.md",
+      "AGENTS/REGINALD/inbox/processed/2026-07-22_from-DAEDALUS_wal-promotion-review-delivered.md",
+      "AGENTS/REGINALD/inbox/processed/2026-07-12_from-DAEDALUS_homer-promotion-trepp-mf-owner.md",
+      "AGENTS/WAL/CLAUDE.md",
+      "AGENTS/WAL/archive/MEMORY_before-Q3-stage1_2026-10-19.md",
+      "AGENTS/WAL/archive/INDEX_before-housekeeping_2026-10-14.md",
+      "AGENTS/WAL/archive/MEMORY_before-housekeeping_2026-10-14.md"
+    ],
+    "live_candidates": [
+      "AGENTS/DAEDALUS/builds/homer_promotion/WPH2_REPORT.md",
+      "AGENTS/DAEDALUS/builds/homer_promotion/WPH1_REPORT.md",
+      "AGENTS/CARL/TEAM.md",
+      "AGENTS/TERRY/setups/WAL_grind-putspread_2026-07-17.md",
+      "AGENTS/HOMER/reports/2026-07-12_CRL-06-data-package.md",
+      "AGENTS/HOMER/STATUS_COLD.md",
+      "AGENTS/HOMER/workbook/RATES.tsv",
+      "AGENTS/HOMER/MEMORY.md",
+      "AGENTS/HOMER/thesis/PREDICTIONS.tsv",
+      "AGENTS/HOMER/CLAUDE.md",
+      "AGENTS/WAL/CLAUDE.md"
+    ],
+    "header": [
+      "# HOMER Promotion \u2014 DAEDALUS Structural Review + Rulings",
+      "",
+      "**Author:** DAEDALUS \u00b7 **Date:** 2026-07-12 \u00b7 **Status:** \u2705 EXECUTED 2026-07-12 (HOMER live; L2-strong confirmed at the 7/22 production review) (Will directive 7/12 \u2014 overrides CARL's wait-until-post-7/24 recommendation; review compressed, not skipped)",
+      "**Case:** `inbox/2026-07-12_from-CARL_homer-promotion-case.md` (CARL, Will-directed)",
+      "**Evidence:** `builds/homer_promotion/MANIFEST_D_homer.md` (full HOMER read + CARL housing rows + CREED + external-consumer sweep)"
+    ],
+    "open_tokens": 0,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: AGENTS/DAEDALUS/builds/homer_promotion/WPH2_REPORT.md; AGENTS/DAEDALUS/builds/homer_promotion/WPH1_REPORT.md; AGENTS/CARL/TEAM.md; AGENTS/TERRY/setups/WAL_grind-putspread_2026-07-17.md"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/builds/hawk_split/WP2_REPORT.md",
+    "last_commit": "2026-08-17",
+    "refs": [
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json"
+    ],
+    "live_candidates": [],
+    "header": [
+      "# WP-2 Report \u2014 OSPREY Scaffold + Migration",
+      "",
+      "> \ud83d\uddc4 **DATED BUILD-EXECUTION RECORD (2026-07-12; bannered 2026-08-17, self-audit F5 \u2014 same class as the 8/11 upgrades/ pass, which was scoped to upgrades/ only).** One-shot record; not maintained.",
+      "",
+      "**Build agent:** DAEDALUS sub-agent (WP-2) \u00b7 **Date:** 2026-07-12 \u00b7 **Scope:** `AGENTS/OSPREY/` only (write), read-only everywhere else, zero git operations run (DAEDALUS commits after verification per build spec WP-4)."
+    ],
+    "open_tokens": 0,
+    "disposition": "RETIRE_CANDIDATE_VERIFIED_HISTORY",
+    "basis": "Header/context says closed queue, executed build/audit, historical findings or shipped mechanism; no live-reference candidate and no pending docket/gate reference found in basename search."
+  },
+  {
+    "path": "AGENTS/DAEDALUS/builds/hawk_split/MANIFEST_B_ledgers.md",
+    "last_commit": "2026-08-17",
+    "refs": [
+      "AGENTS/DAEDALUS/builds/OSPREY_FALCON_BUILD.md",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json"
+    ],
+    "live_candidates": [
+      "AGENTS/DAEDALUS/builds/OSPREY_FALCON_BUILD.md"
+    ],
+    "header": [
+      "# HAWK Split \u2014 Manifest B: Ledgers (VX.tsv, FLOW.tsv, STRIKES.tsv, SUMMARY.md, KB.tsv)",
+      "",
+      "> \ud83d\uddc4 **DATED BUILD-EXECUTION RECORD (2026-07-12; bannered 2026-08-17, self-audit F5 \u2014 same class as the 8/11 upgrades/ pass, which was scoped to upgrades/ only).** One-shot record; not maintained.",
+      "",
+      "**Reader:** DAEDALUS sub-agent B. **Scope:** `AGENTS/HAWK/workbook/*.tsv` + `AGENTS/HAWK/domain/energy-strikes/`. **Date:** 2026-07-12."
+    ],
+    "open_tokens": 0,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: AGENTS/DAEDALUS/builds/OSPREY_FALCON_BUILD.md"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/builds/hawk_split/WP1_REPORT.md",
+    "last_commit": "2026-08-17",
+    "refs": [
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json"
+    ],
+    "live_candidates": [],
+    "header": [
+      "# WP-1 Report \u2014 FALCON scaffold + content migration",
+      "",
+      "> \ud83d\uddc4 **DATED BUILD-EXECUTION RECORD (2026-07-12; bannered 2026-08-17, self-audit F5 \u2014 same class as the 8/11 upgrades/ pass, which was scoped to upgrades/ only).** One-shot record; not maintained.",
+      "",
+      "**Executed by:** DAEDALUS build sub-agent (WP-1) \u00b7 **Date:** 2026-07-12 \u00b7 **Scope:** `AGENTS/FALCON/` only (created), + this report."
+    ],
+    "open_tokens": 2,
+    "disposition": "RETIRE_CANDIDATE_VERIFIED_HISTORY",
+    "basis": "Header/context says closed queue, executed build/audit, historical findings or shipped mechanism; no live-reference candidate and no pending docket/gate reference found in basename search."
+  },
+  {
+    "path": "AGENTS/DAEDALUS/builds/hawk_split/MANIFEST_A_core.md",
+    "last_commit": "2026-08-17",
+    "refs": [
+      "AGENTS/DAEDALUS/builds/OSPREY_FALCON_BUILD.md",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json"
+    ],
+    "live_candidates": [
+      "AGENTS/DAEDALUS/builds/OSPREY_FALCON_BUILD.md"
+    ],
+    "header": [
+      "# HAWK Split \u2014 Manifest A (Core state + everything not workbook/energy-strikes/thesis/LESSONS/scripts)",
+      "",
+      "> \ud83d\uddc4 **DATED BUILD-EXECUTION RECORD (2026-07-12; bannered 2026-08-17, self-audit F5 \u2014 same class as the 8/11 upgrades/ pass, which was scoped to upgrades/ only).** One-shot record; not maintained.",
+      "",
+      "**Reader:** A (core surfaces + full-tree inventory) \u00b7 **Date:** 2026-07-12 \u00b7 **Spec:** `AGENTS/HAWK/design/2026-07-12_war-agent-split-spec.md`"
+    ],
+    "open_tokens": 5,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: AGENTS/DAEDALUS/builds/OSPREY_FALCON_BUILD.md"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/builds/hawk_split/MANIFEST_C_thesis.md",
+    "last_commit": "2026-08-17",
+    "refs": [
+      "AGENTS/DAEDALUS/builds/OSPREY_FALCON_BUILD.md",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json"
+    ],
+    "live_candidates": [
+      "AGENTS/DAEDALUS/builds/OSPREY_FALCON_BUILD.md"
+    ],
+    "header": [
+      "# HAWK Split \u2014 Manifest C: thesis/, LESSONS.md, scripts/",
+      "",
+      "> \ud83d\uddc4 **DATED BUILD-EXECUTION RECORD (2026-07-12; bannered 2026-08-17, self-audit F5 \u2014 same class as the 8/11 upgrades/ pass, which was scoped to upgrades/ only).** One-shot record; not maintained.",
+      "",
+      "**Reader:** C (thesis, predictions, lessons, scripts) | **Date:** 2026-07-12 | **Scope:** `AGENTS/HAWK/thesis/`, `AGENTS/HAWK/LESSONS.md`, `AGENTS/HAWK/scripts/`"
+    ],
+    "open_tokens": 9,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: AGENTS/DAEDALUS/builds/OSPREY_FALCON_BUILD.md"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/builds/hawk_split/WP3_REPORT.md",
+    "last_commit": "2026-08-17",
+    "refs": [
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json"
+    ],
+    "live_candidates": [],
+    "header": [
+      "# WP-3 Report \u2014 HAWK re-cut to synthesis + dormant book",
+      "",
+      "> \ud83d\uddc4 **DATED BUILD-EXECUTION RECORD (2026-07-12; bannered 2026-08-17, self-audit F5 \u2014 same class as the 8/11 upgrades/ pass, which was scoped to upgrades/ only).** One-shot record; not maintained.",
+      "",
+      "**Executed by:** DAEDALUS build sub-agent \u00b7 **Date:** 2026-07-12 \u00b7 **Scope:** `AGENTS/HAWK/` only (OSPREY/FALCON read-only, untouched \u2014 hard constraint honored throughout)."
+    ],
+    "open_tokens": 7,
+    "disposition": "RETIRE_CANDIDATE_VERIFIED_HISTORY",
+    "basis": "Header/context says closed queue, executed build/audit, historical findings or shipped mechanism; no live-reference candidate and no pending docket/gate reference found in basename search."
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/HENRY_CARD.md",
+    "last_commit": "2026-07-22",
+    "refs": [
+      "PROME/archive/AGENTS_PROME_LEGACY_2026-06-24/reaccumulated_2026-06-25_to_07-24/inbox_processed/2026-07-10_from-DAEDALUS_henry-boot-urgency-and-creed-nudge.md",
+      "AGENTS/DAEDALUS/FLEET_MAP_HISTORY.tsv",
+      "AGENTS/DAEDALUS/runs/2026-09-24_STALENESS_SWEEP_05.md",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD_CLOSEOUT.json",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json",
+      "AGENTS/DAEDALUS/archive/2026-09-08_CLOCK_SWEEP_BEFORE_IMAGES.json",
+      "AGENTS/DAEDALUS/profiles/HENRY.md"
+    ],
+    "live_candidates": [
+      "AGENTS/DAEDALUS/profiles/HENRY.md"
+    ],
+    "header": [
+      "# HENRY \u2014 Upgrade Card (graded vs BLUEPRINTS/market-agent.md)",
+      "",
+      "> \u2705 **CLOSED/SUPERSEDED 2026-07-22 (self-sweep fix-batch, Will-approved):** the urged pre-7/14 full boot **HAPPENED** (7/10-17 arc): NEXUS_BRIEF unstuck 7/16, backlog drained, HEN-40 graded, PAT-040 likely resolved (boot.py owner-run + gamma_flip built). Remaining = \u00a72 handle. Current truth = FLEET_MAP row + `upgrades/PRODUCTION_REVIEW_2026-07-22.md`. States below are HISTORICAL.",
+      "**Graded:** 2026-07-10 (first read \u2014 oldest grade on the map, surveyed 6/27 pre-blueprint) \u00b7 **L4 Conf-H** (L3\u2192L4) \u00b7 Profile: `profiles/HENRY.md` \u00b7 **Sequenced for the catalyst stack: 7/14 CPI \u2192 7/22 GOOGL \u2192 7/29 MSFT/META (HEN-36 gates).** All owner-lane; DAEDALUS edits only on approval + idle.",
+      ""
+    ],
+    "open_tokens": 1,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: AGENTS/DAEDALUS/profiles/HENRY.md"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/MARCO_CARD.md",
+    "last_commit": "2026-08-17",
+    "refs": [
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD_CLOSEOUT.json",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json",
+      "AGENTS/DAEDALUS/FLEET_MAP_HISTORY.tsv",
+      "AGENTS/DAEDALUS/archive/2026-09-08_CLOCK_SWEEP_BEFORE_IMAGES.json"
+    ],
+    "live_candidates": [],
+    "header": [
+      "# MARCO \u2014 Upgrade Card (graded vs BLUEPRINTS/market-agent.md)",
+      "",
+      "> \ud83d\uddc4 **ROUTED 2026-07-10 \u2014 CLOSED AS A QUEUE 2026-08-17 (self-audit F5 banner pass).** This card's findings were routed to the owner/FLEET_MAP when written; per-row states below are historical. Not maintained \u2014 current gaps live on the agent's FLEET_MAP row. Do not work rows from here without re-verifying at the agent.",
+      "**Graded:** 2026-07-10 \u00b7 **L4 Conf-H** (L2\u2192L4, PAT-024 #7) \u00b7 Profile: `profiles/MARCO.md` \u00b7 All items OWNER-LANE unless marked; MARCO is a blueprint donor \u2014 additive handles only, never conform its local forms (PAT-015).",
+      ""
+    ],
+    "open_tokens": 0,
+    "disposition": "RETIRE_CANDIDATE_VERIFIED_HISTORY",
+    "basis": "Header/context says closed queue, executed build/audit, historical findings or shipped mechanism; no live-reference candidate and no pending docket/gate reference found in basename search."
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/SAM_BRENT_REVIEW_2026-08-17_READER_REPORTS.md",
+    "last_commit": "2026-08-17",
+    "refs": [
+      "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD_LOGS.txt",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-09-08_CLOCK_SWEEP_CLOSEOUT.json",
+      "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD_CLOSEOUT.json",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json"
+    ],
+    "live_candidates": [],
+    "header": [
+      "# SAM+BRENT structure review 2026-08-17 \u2014 READER_REPORTS index stub (canonical-name pointer)",
+      "",
+      "> **INDEX STUB (created 2026-08-17 self-audit F31, per the UPGRADE_PROTOCOL enumerated-cluster clause).** The 8/17 SAM+BRENT 6-reader Mode-A review persisted its reader deliverables under individually-named cluster docs \u2014 substance-compliant with PAT-100 but invisible to any filename-keyed check. This stub is the canonical-name index. The cluster files (all in `upgrades/`, each carrying its own NOT-READ list):",
+      "",
+      "- `SAM_SPINE_REVIEW_2026-08-17.md`"
+    ],
+    "open_tokens": 0,
+    "disposition": "RETIRE_CANDIDATE_VERIFIED_HISTORY",
+    "basis": "Header/context says closed queue, executed build/audit, historical findings or shipped mechanism; no live-reference candidate and no pending docket/gate reference found in basename search."
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/LIQUID_CARD.md",
+    "last_commit": "2026-08-17",
+    "refs": [
+      "AGENTS/DAEDALUS/upgrades/FIXBATCH_REPORT_2026-07-12.md",
+      "AGENTS/DAEDALUS/FLEET_MAP_HISTORY.tsv",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD_CLOSEOUT.json",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json",
+      "AGENTS/DAEDALUS/archive/2026-09-08_CLOCK_SWEEP_BEFORE_IMAGES.json",
+      "AGENTS/DAEDALUS/profiles/REFRESH_2026-09-17_READER_P2_CARL_LIQUID.md",
+      "AGENTS/DAEDALUS/profiles/REFRESH_2026-09-17_VERIFY_P2_CARL_LIQUID.md",
+      "AGENTS/DAEDALUS/profiles/LIQUID.md",
+      "AGENTS/LIQUID/inbox/processed/2026-07-04_from-DAEDALUS_L4-firming-batch1.md"
+    ],
+    "live_candidates": [
+      "AGENTS/DAEDALUS/upgrades/FIXBATCH_REPORT_2026-07-12.md",
+      "AGENTS/DAEDALUS/profiles/REFRESH_2026-09-17_VERIFY_P2_CARL_LIQUID.md",
+      "AGENTS/DAEDALUS/profiles/LIQUID.md"
+    ],
+    "header": [
+      "# Upgrade Card \u2014 LIQUID (read-only assessment, no agent files touched)",
+      "",
+      "> \ud83d\uddc4 **ROUTED 2026-07-12 \u2014 CLOSED AS A QUEUE 2026-08-17 (self-audit F5 banner pass).** This card's findings were routed to the owner/FLEET_MAP when written; per-row states below are historical. Not maintained \u2014 current gaps live on the agent's FLEET_MAP row. Do not work rows from here without re-verifying at the agent.",
+      "",
+      "**By:** DAEDALUS \u00b7 **Date:** 2026-07-04 \u00b7 **Class:** Market (liquidity/Treasury-plumbing; the amplification node; holds NO trade book \u2014 signal/DATA agent, like CARL)"
+    ],
+    "open_tokens": 0,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: AGENTS/DAEDALUS/upgrades/FIXBATCH_REPORT_2026-07-12.md; AGENTS/DAEDALUS/profiles/REFRESH_2026-09-17_VERIFY_P2_CARL_LIQUID.md; AGENTS/DAEDALUS/profiles/LIQUID.md"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/CARL_CARD.md",
+    "last_commit": "2026-08-17",
+    "refs": [
+      "AGENTS/DAEDALUS/builds/homer_promotion/MANIFEST_D_homer.md",
+      "AGENTS/DAEDALUS/FLEET_MAP_HISTORY.tsv",
+      "AGENTS/DAEDALUS/archive/2026-09-08_CLOCK_SWEEP_BEFORE_IMAGES.json",
+      "AGENTS/DAEDALUS/profiles/REFRESH_2026-09-17_READER_P2_CARL_LIQUID.md",
+      "AGENTS/DAEDALUS/profiles/REFRESH_2026-09-17_VERIFY_P2_CARL_LIQUID.md",
+      "AGENTS/DAEDALUS/profiles/CARL.md",
+      "AGENTS/DAEDALUS/profiles/_prior/CARL_PRIOR_2026-09-17.md",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/scripts/tests/fixtures/profile_clock/CARL.md",
+      "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD_CLOSEOUT.json",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json",
+      "AGENTS/CARL/inbox/processed/2026-07-10_from-DAEDALUS_upgrade-docket.md"
+    ],
+    "live_candidates": [
+      "AGENTS/DAEDALUS/builds/homer_promotion/MANIFEST_D_homer.md",
+      "AGENTS/DAEDALUS/profiles/REFRESH_2026-09-17_VERIFY_P2_CARL_LIQUID.md",
+      "AGENTS/DAEDALUS/profiles/CARL.md",
+      "AGENTS/DAEDALUS/profiles/_prior/CARL_PRIOR_2026-09-17.md",
+      "AGENTS/DAEDALUS/scripts/tests/fixtures/profile_clock/CARL.md"
+    ],
+    "header": [
+      "# Upgrade Card \u2014 CARL (read-only assessment, no agent files touched)",
+      "",
+      "> \ud83d\uddc4 **ROUTED 2026-07-10 \u2014 CLOSED AS A QUEUE 2026-08-17 (self-audit F5 banner pass).** This card's findings were routed to the owner/FLEET_MAP when written; per-row states below are historical. Not maintained \u2014 current gaps live on the agent's FLEET_MAP row. Do not work rows from here without re-verifying at the agent.",
+      "",
+      "**By:** DAEDALUS \u00b7 **Date:** 2026-06-29 \u00b7 **Class:** Market (U.S. consumer financial stress \u2192 credit deterioration; **transmission MIDDLE** of `LABOR \u2192 CARL \u2192 REGINALD \u2192 HENRY`)"
+    ],
+    "open_tokens": 6,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: AGENTS/DAEDALUS/builds/homer_promotion/MANIFEST_D_homer.md; AGENTS/DAEDALUS/profiles/REFRESH_2026-09-17_VERIFY_P2_CARL_LIQUID.md; AGENTS/DAEDALUS/profiles/CARL.md; AGENTS/DAEDALUS/profiles/_prior/CARL_PRIOR_2026-09-17.md"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/BATCH_02_handles.md",
+    "last_commit": "2026-07-22",
+    "refs": [
+      "AGENTS/DAEDALUS/upgrades/REGINALD_CARD.md",
+      "AGENTS/DAEDALUS/upgrades/HANDLE_SWEEP_independence-action.md",
+      "AGENTS/DAEDALUS/upgrades/HAWK_CARD.md",
+      "AGENTS/DAEDALUS/upgrades/CARL_CARD.md",
+      "AGENTS/DAEDALUS/outbox/delivered/2026-06-28_to-PROME_BATCH_02-and-firming-headline.md",
+      "AGENTS/DAEDALUS/outbox/delivered/2026-06-29_to-PROME_firm7-cards-and-batch02-revalidation.md",
+      "AGENTS/DAEDALUS/runs/2026-09-24_STALENESS_SWEEP_05.md",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD_CLOSEOUT.json",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json",
+      "AGENTS/DAEDALUS/runs/2026-09-24_SELF_HYGIENE_PASS.md",
+      "AGENTS/DAEDALUS/PATTERNS.tsv",
+      "AGENTS/DAEDALUS/archive/retired_2026-09-17/STATUS_archive_2026-07-12.md"
+    ],
+    "live_candidates": [
+      "AGENTS/DAEDALUS/upgrades/REGINALD_CARD.md",
+      "AGENTS/DAEDALUS/upgrades/HANDLE_SWEEP_independence-action.md",
+      "AGENTS/DAEDALUS/upgrades/HAWK_CARD.md",
+      "AGENTS/DAEDALUS/upgrades/CARL_CARD.md",
+      "AGENTS/DAEDALUS/PATTERNS.tsv"
+    ],
+    "header": [
+      "# Batch Changelist 02 \u2014 the 7 firmed L4 agents (REGINALD/CARL/BRENT/HAWK/LABOR/BOND/ORACLE)",
+      "",
+      "**By:** DAEDALUS \u00b7 **Date:** 2026-06-28 \u00b7 **Status:** \u2705 DISPOSITIONED 2026-07-01 (see the disposition entries below; banner flipped 7/22 self-sweep \u2014 was: \ud83d\udfe1 DRAFT/NOT-applied)",
+      "**Source:** firm-next7 workflow (14 agents: 7 grade + 7 adversarial verify). Same gate as BATCH_01 (assess \u2192 propose \u2192 PROME review \u2192 apply; never auto-apply).",
+      ""
+    ],
+    "open_tokens": 1,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: AGENTS/DAEDALUS/upgrades/REGINALD_CARD.md; AGENTS/DAEDALUS/upgrades/HANDLE_SWEEP_independence-action.md; AGENTS/DAEDALUS/upgrades/HAWK_CARD.md; AGENTS/DAEDALUS/upgrades/CARL_CARD.md"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/ZHAO_CARD.md",
+    "last_commit": "2026-08-17",
+    "refs": [
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/archive/2026-09-08_CLOCK_SWEEP_BEFORE_IMAGES.json",
+      "AGENTS/DAEDALUS/FLEET_MAP_HISTORY.tsv",
+      "AGENTS/DAEDALUS/archive/retired_2026-09-17/STATUS_archive_2026-07-12.md",
+      "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD_CLOSEOUT.json",
+      "AGENTS/DAEDALUS/archive/EVOLUTION_ARCHIVE_2026-08.md",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json",
+      "AGENTS/ZHAO/inbox/processed/2026-07-07_from-DAEDALUS_scan-complete-upgrade-queue.md"
+    ],
+    "live_candidates": [],
+    "header": [
+      "# Upgrade Card \u2014 ZHAO (read-only assessment; edits routed as task-packet \u2014 ZHAO is LIVE)",
+      "",
+      "> \ud83d\uddc4 **ROUTED 2026-07-08 \u2014 CLOSED AS A QUEUE 2026-08-17 (self-audit F5 banner pass).** This card's findings were routed to the owner/FLEET_MAP when written; per-row states below are historical. Not maintained \u2014 current gaps live on the agent's FLEET_MAP row. Do not work rows from here without re-verifying at the agent.",
+      "",
+      "**By:** DAEDALUS \u00b7 **Date:** 2026-07-07 \u00b7 **Class:** Market (China macro \u2192 U.S. transmission; research/signal, no position)"
+    ],
+    "open_tokens": 0,
+    "disposition": "RETIRE_CANDIDATE_VERIFIED_HISTORY",
+    "basis": "Header/context says closed queue, executed build/audit, historical findings or shipped mechanism; no live-reference candidate and no pending docket/gate reference found in basename search."
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/SAM_CARD.md",
+    "last_commit": "2026-08-17",
+    "refs": [
+      "AGENTS/DAEDALUS/FLEET_MAP_HISTORY.tsv",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD_CLOSEOUT.json",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json",
+      "AGENTS/DAEDALUS/archive/2026-09-08_CLOCK_SWEEP_BEFORE_IMAGES.json",
+      "AGENTS/DAEDALUS/profiles/SAM.md",
+      "AGENTS/DAEDALUS/profiles/REFRESH_2026-09-17_READER_P3_SAM_SHADE.md",
+      "AGENTS/DAEDALUS/profiles/REFRESH_2026-09-17_VERIFY_P3_SAM_SHADE.md"
+    ],
+    "live_candidates": [
+      "AGENTS/DAEDALUS/profiles/SAM.md",
+      "AGENTS/DAEDALUS/profiles/REFRESH_2026-09-17_VERIFY_P3_SAM_SHADE.md"
+    ],
+    "header": [
+      "# SAM \u2014 Upgrade Card (graded vs BLUEPRINTS/market-agent.md)",
+      "",
+      "> \ud83d\uddc4 **ROUTED 2026-07-10 \u2014 CLOSED AS A QUEUE 2026-08-17 (self-audit F5 banner pass).** This card's findings were routed to the owner/FLEET_MAP when written; per-row states below are historical. Not maintained \u2014 current gaps live on the agent's FLEET_MAP row. Do not work rows from here without re-verifying at the agent.",
+      "**Graded:** 2026-07-10 \u00b7 **L4 Conf-H** (L2\u2192L4, PAT-024 #9) \u00b7 Profile: `profiles/SAM.md` \u00b7 **Zero substance gaps \u2014 every item is a handle or hygiene.** All owner-lane.",
+      ""
+    ],
+    "open_tokens": 0,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: AGENTS/DAEDALUS/profiles/SAM.md; AGENTS/DAEDALUS/profiles/REFRESH_2026-09-17_VERIFY_P3_SAM_SHADE.md"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/YEYOU_CARD.md",
+    "last_commit": "2026-08-17",
+    "refs": [
+      "AGENTS/DAEDALUS/FLEET_MAP_HISTORY.tsv",
+      "AGENTS/DAEDALUS/archive/2026-09-08_CLOCK_SWEEP_BEFORE_IMAGES.json",
+      "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD_CLOSEOUT.json",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv"
+    ],
+    "live_candidates": [],
+    "header": [
+      "# Upgrade Card \u2014 YEYOU (read-only assessment, no agent files touched)",
+      "",
+      "> \ud83d\uddc4 **ROUTED 2026-07-04 \u2014 CLOSED AS A QUEUE 2026-08-17 (self-audit F5 banner pass).** This card's findings were routed to the owner/FLEET_MAP when written; per-row states below are historical. Not maintained \u2014 current gaps live on the agent's FLEET_MAP row. Do not work rows from here without re-verifying at the agent.",
+      "",
+      "**By:** DAEDALUS \u00b7 **Date:** 2026-07-04 \u00b7 **Class:** Utility (repo-wide per-push conformance reviewer \u2014 the per-push analogue of RED)"
+    ],
+    "open_tokens": 0,
+    "disposition": "RETIRE_CANDIDATE_VERIFIED_HISTORY",
+    "basis": "Header/context says closed queue, executed build/audit, historical findings or shipped mechanism; no live-reference candidate and no pending docket/gate reference found in basename search."
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/CREED_CARD.md",
+    "last_commit": "2026-07-27",
+    "refs": [
+      "AGENTS/DAEDALUS/FLEET_MAP_HISTORY.tsv",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/archive/2026-09-08_CLOCK_SWEEP_BEFORE_IMAGES.json",
+      "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD_CLOSEOUT.json",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json",
+      "AGENTS/DAEDALUS/profiles/CREED.md"
+    ],
+    "live_candidates": [
+      "AGENTS/DAEDALUS/profiles/CREED.md"
+    ],
+    "header": [
+      "# Upgrade Card \u2014 CREED (read-only assessment, no agent files touched)",
+      "",
+      "**By:** DAEDALUS \u00b7 **Date:** 2026-06-28 \u00b7 **Class:** Market (Tier-2 spawn-on-need transmitter \u2014 national CRE/CMBS \u2192 REGINALD/CORAL/LIQUID/CARL)",
+      "**Method:** `UPGRADE_PROTOCOL.md` (one section at a time) \u00b7 graded vs `BLUEPRINTS/market-agent.md` \u00b7 comprehension in `profiles/CREED.md`",
+      "**Verdict (RE-SCORED 2026-07-10): L2, conf M\u2192H FIRMED.** ~~L1 (conf M)~~ \u2014 the L2 gate cleared 7/4 via CREED's **native** source-pack + accruing convergence matrix (PAT-030), NOT the originally-scoped legacy rehab. Not L3 \u2014 honest hold: predictions leg empty (zero logged/resolving), exit-rule handles unapplied. **The frozen-VX pull-forward question is CLOSED: banner-and-archive** \u2014 schema harvested into `workbook/WORKBOOK_DESIGN.md` (7/4, \"do not import the 40KB legacy KB\" \u00a76), FROZEN banners applied by REGINALD to all 5 legacy TSVs (MEMORY.md:77). Queue rewritten below; delta detail in `profiles/CREED.md` (refreshed 7/10)."
+    ],
+    "open_tokens": 0,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: AGENTS/DAEDALUS/profiles/CREED.md"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/SIX_IDEAS_RESPONSE_2026-08-17.md",
+    "last_commit": "2026-08-20",
+    "refs": [
+      "PROME/inbox/processed/2026-08-20_from-DAEDALUS_WILL-RULED-four-decisions-your-two-legs-idea6-messaging-canon-plus-root-nudge-line.md",
+      "AGENTS/DAEDALUS/archive/STATUS_ARCHIVE_2026-08-20.md",
+      "AGENTS/DAEDALUS/archive/2026-10-20_ORGANIZATION_CLEANUP/UPGRADE_PROTOCOL.md.before",
+      "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD_CLOSEOUT.json",
+      "AGENTS/DAEDALUS/runs/2026-10-20_CLEANUP_MOVEMENT_RECEIPT.json",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/UPGRADE_PROTOCOL.md"
+    ],
+    "live_candidates": [
+      "AGENTS/DAEDALUS/UPGRADE_PROTOCOL.md"
+    ],
+    "header": [
+      "# DAEDALUS \u2192 PROME/Will: six second-level ideas \u2014 verdicts (Will-directed: \"lets see if she agrees\")",
+      "",
+      "**Status: RULED 2026-08-20 \u2014 Will verbatim \"approve the six-ideas batch\" (in DAEDALUS's session, morning). Batch approved AS AMENDED per the verdicts below. Encodes executed same session: ideas 1/4/5 \u2192 UPGRADE_PROTOCOL + blueprint ladder sections (EVOLUTION same commit); ideas 2/3a \u2192 registered as ~8/28 sweep columns (fallback Staleness #4 ~9/1); idea 3b \u2192 R7 line at STATUS, **registered 8/20 \u2014 \u00a73b's own \"registered in my R7 build spec NOW\" was a PAT-101 self-asserted side effect never performed (no R7 spec file existed; found at ruling time by grepping for the artifact)**; idea 6 \u2192 **LANDED by PROME same day as MESSAGING rule 7 (`8f0e4a9cb`) and DAEDALUS-REVIEWED APPROVED (the ruling's ownership split, mirror of the 8/16 flow): text faithful to the \u00a76 seed + two genuine improvements (coordination-ping carve-out reconciles rule 7 with rule 6's doorbell in-line; post-contact convergence explicitly weighs less), provenance chain verified at both artifacts; first governed instance = NEXUS blind leg 8/29-31.** *(Prior status: DELIVERED 2026-08-17 eve, verdicts only.)* Source: `inbox/2026-08-17_from-PROME_will-directed-six-second-level-ideas-for-your-concur-amend-reject.md` (cd82b34c7). Format as asked: verdict + reasons + sequencing + ownership per item.",
+      "",
+      "| # | Idea | Verdict |"
+    ],
+    "open_tokens": 0,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: AGENTS/DAEDALUS/UPGRADE_PROTOCOL.md"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/FIXBATCH_REPORT_2026-07-12.md",
+    "last_commit": "2026-08-11",
+    "refs": [
+      "AGENTS/DAEDALUS/upgrades/DAEDALUS_SELF_SWEEP_2026-07-12.md",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD_CLOSEOUT.json",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json"
+    ],
+    "live_candidates": [
+      "AGENTS/DAEDALUS/upgrades/DAEDALUS_SELF_SWEEP_2026-07-12.md"
+    ],
+    "header": [
+      "> \ud83d\uddc4 **CLOSED 2026-08-11 (sweep #3 self-scope banner pass) \u2014 one-shot execution record, work consumed at the time; historical reference only, cite as history never as current state.**",
+      "# Fix-Batch Report \u2014 2026-07-12 (Self-Sweep Record-Fix, executed by editor sub-agent)",
+      "",
+      "**By:** editor sub-agent for DAEDALUS \u00b7 **Source contract:** `upgrades/DAEDALUS_SELF_SWEEP_2026-07-12.md` + team-lead work list (Will-approved) \u00b7 **Scope:** record-fix only \u2014 no decisions changed, only stale records updated to match verified-live reality (per S1-S4 raw findings).",
+      ""
+    ],
+    "open_tokens": 0,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: AGENTS/DAEDALUS/upgrades/DAEDALUS_SELF_SWEEP_2026-07-12.md"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/CARL_SUBAGENT_AUDIT_2026-07-10.md",
+    "last_commit": "2026-08-17",
+    "refs": [
+      "AGENTS/DAEDALUS/builds/homer_promotion/MANIFEST_D_homer.md",
+      "AGENTS/DAEDALUS/upgrades/WP1_TALOS_REPORT_2026-07-10.md",
+      "AGENTS/DAEDALUS/upgrades/WP3_MOLD_REPORT_2026-07-10.md",
+      "AGENTS/DAEDALUS/upgrades/CARL_CARD.md",
+      "AGENTS/DAEDALUS/upgrades/FIXBATCH_REPORT_2026-07-12.md",
+      "AGENTS/DAEDALUS/FLEET_MAP_HISTORY.tsv",
+      "AGENTS/DAEDALUS/archive/2026-09-08_CLOCK_SWEEP_BEFORE_IMAGES.json",
+      "AGENTS/DAEDALUS/archive/retired_2026-09-17/WP2_KORE_REPORT_2026-07-10.md",
+      "AGENTS/DAEDALUS/archive/retired_2026-09-17/STATUS_archive_2026-07-12.md",
+      "AGENTS/DAEDALUS/profiles/REFRESH_2026-09-17_READER_P2_CARL_LIQUID.md",
+      "AGENTS/DAEDALUS/profiles/REFRESH_2026-09-17_VERIFY_P2_CARL_LIQUID.md",
+      "AGENTS/DAEDALUS/profiles/CARL.md",
+      "AGENTS/DAEDALUS/profiles/_prior/CARL_PRIOR_2026-09-17.md",
+      "AGENTS/DAEDALUS/scripts/tests/fixtures/profile_clock/CARL.md",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD_CLOSEOUT.json",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json",
+      "AGENTS/CARL/sub_agents/STUE/state_vectors/SV-STUE-2026-07-10-01.md",
+      "AGENTS/CARL/sub_agents/GIG/RECONCILIATION_DRAFT_2026-07-10.md",
+      "AGENTS/CARL/sub_agents/PHAN/DOSSIER.md",
+      "AGENTS/CARL/SPAWN_PROTOCOL.md",
+      "AGENTS/CARL/inbox/processed/2026-07-10_from-DAEDALUS_upgrade-docket.md",
+      "AGENTS/CARL/inbox/processed/2026-07-10_from-DAEDALUS_subagent-restructure-complete.md",
+      "AGENTS/HOMER/state_vectors/SV-HOMER-2026-07-10-01.md"
+    ],
+    "live_candidates": [
+      "AGENTS/DAEDALUS/builds/homer_promotion/MANIFEST_D_homer.md",
+      "AGENTS/DAEDALUS/upgrades/WP1_TALOS_REPORT_2026-07-10.md",
+      "AGENTS/DAEDALUS/upgrades/WP3_MOLD_REPORT_2026-07-10.md",
+      "AGENTS/DAEDALUS/upgrades/CARL_CARD.md",
+      "AGENTS/DAEDALUS/upgrades/FIXBATCH_REPORT_2026-07-12.md",
+      "AGENTS/DAEDALUS/profiles/REFRESH_2026-09-17_VERIFY_P2_CARL_LIQUID.md",
+      "AGENTS/DAEDALUS/profiles/CARL.md",
+      "AGENTS/DAEDALUS/profiles/_prior/CARL_PRIOR_2026-09-17.md",
+      "AGENTS/DAEDALUS/scripts/tests/fixtures/profile_clock/CARL.md",
+      "AGENTS/CARL/sub_agents/STUE/state_vectors/SV-STUE-2026-07-10-01.md",
+      "AGENTS/CARL/sub_agents/GIG/RECONCILIATION_DRAFT_2026-07-10.md",
+      "AGENTS/CARL/sub_agents/PHAN/DOSSIER.md",
+      "AGENTS/CARL/SPAWN_PROTOCOL.md",
+      "AGENTS/HOMER/state_vectors/SV-HOMER-2026-07-10-01.md"
+    ],
+    "header": [
+      "# CARL Sub-Agent Structure Audit \u2014 2026-07-10",
+      "",
+      "> \ud83d\uddc4 **DATED AUDIT/WORK RECORD (last content 2026-07-12; bannered 2026-08-17, self-audit F5).** Findings were routed at write time; this doc is history, not a live queue. Closure state of individual findings lives with the owning agents.",
+      "",
+      "**By:** DAEDALUS (Will-requested: \"I imagine they are not built out correctly\") \u00b7 **Method:** Mode-A 4-reader fan-out (STUE+HOMER / DOC+GIG / PHAN+POLLY / POP+META, every file read incl. TSVs) + DAEDALUS cross-cutting checks (CARL-side wiring, KB delegation, COOK trace). **Read-only \u2014 no CARL files touched.** CARL was LIVE during the audit."
+    ],
+    "open_tokens": 0,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: AGENTS/DAEDALUS/builds/homer_promotion/MANIFEST_D_homer.md; AGENTS/DAEDALUS/upgrades/WP1_TALOS_REPORT_2026-07-10.md; AGENTS/DAEDALUS/upgrades/WP3_MOLD_REPORT_2026-07-10.md; AGENTS/DAEDALUS/upgrades/CARL_CARD.md"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/TERRY_CARD.md",
+    "last_commit": "2026-07-22",
+    "refs": [
+      "AGENTS/DAEDALUS/runs/2026-09-24_SELF_HYGIENE_PASS.md",
+      "AGENTS/DAEDALUS/runs/2026-09-24_STALENESS_SWEEP_05.md",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/archive/2026-09-08_CLOCK_SWEEP_BEFORE_IMAGES.json",
+      "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD_CLOSEOUT.json",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json",
+      "AGENTS/DAEDALUS/upgrades/TERRY_ARCHITECTURE_AUDIT_2026-07-30.md",
+      "AGENTS/DAEDALUS/FLEET_MAP_HISTORY.tsv"
+    ],
+    "live_candidates": [
+      "AGENTS/DAEDALUS/upgrades/TERRY_ARCHITECTURE_AUDIT_2026-07-30.md"
+    ],
+    "header": [
+      "# Upgrade Card \u2014 TERRY (read-only assessment, no agent files touched)",
+      "",
+      "> \u2705 **CARD CLOSED 2026-07-22 \u2014 packet 6/6 APPLIED by TERRY 7/17 (write-back `inbox/processed/2026-07-17_from-TERRY_utility-firming-applied.md`), claims verified in-file by DAEDALUS 7/22: CONTRACT block CLAUDE.md:10 \u00b7 BOTTOM LINE at STATUS end \u00b7 PAT-031 wraps BOOT 11-13 + covering cwd note :156 + README \u00b7 3 drift fixes (L5 OpenClaw, L161 + CLOSEOUT L67 push).** The \u00a7-row \"ROUTED \u2014 still owner-pending\" states below are HISTORICAL. **L3(prov-L4) \u2192 L4 re-graded 7/22** \u2014 the PAT-028 card-product ceiling lifted by events: TRY-FIRE-004 fired live 7/20 (first card, Will-executed). Remaining L5 lane = TERRY's self-identified inter-session ledger discipline (TRY-FIRE-005 7-day stale-ARMED incident \u2192 POSTMORTEMS.md + named-grader rule). See FLEET_MAP row for the current grade of record.",
+      "",
+      "**By:** DAEDALUS \u00b7 **Date:** 2026-07-04 \u00b7 **Class:** Utility (trade construction \u2014 converts thesis into sized/timed/structured proposals; never executes)"
+    ],
+    "open_tokens": 0,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: AGENTS/DAEDALUS/upgrades/TERRY_ARCHITECTURE_AUDIT_2026-07-30.md"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/RAV_CHANGE_REVIEW_2026-07-30.md",
+    "last_commit": "2026-08-17",
+    "refs": [
+      "AGENTS/YEYOU/CLAUDE.md",
+      "AGENTS/WALTER/inbox/processed/2026-07-30_from-DAEDALUS_rav-review-three-validator-fixes-plus-two-doc-items.md",
+      "AGENTS/DAEDALUS/builds/RAV_CHARTER.md",
+      "AGENTS/DAEDALUS/FLEET_MAP_HISTORY.tsv",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD_CLOSEOUT.json",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json",
+      "AGENTS/DAEDALUS/archive/2026-09-08_CLOCK_SWEEP_BEFORE_IMAGES.json"
+    ],
+    "live_candidates": [
+      "AGENTS/YEYOU/CLAUDE.md",
+      "AGENTS/DAEDALUS/builds/RAV_CHARTER.md"
+    ],
+    "header": [
+      "# RAV \u2014 Review of 2026-07-29 changes to WALTER (+ REGINALD, BOARD)",
+      "",
+      "> \ud83d\uddc4 **DATED AUDIT/WORK RECORD (last content 2026-07-30; bannered 2026-08-17, self-audit F5).** Findings were routed at write time; this doc is history, not a live queue. Closure state of individual findings lives with the owning agents.",
+      "",
+      "**Date:** 2026-07-30 \u00b7 **Reviewer:** DAEDALUS (Will-directed) \u00b7 **Subject:** RAV Codex, 4 commits landed on master 2026-07-29 18:02\u201321:36 ET, during the ~8h Claude usage outage"
+    ],
+    "open_tokens": 1,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: AGENTS/YEYOU/CLAUDE.md; AGENTS/DAEDALUS/builds/RAV_CHARTER.md"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/TERRY_ARCHITECTURE_AUDIT_2026-07-30.md",
+    "last_commit": "2026-08-17",
+    "refs": [
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD_CLOSEOUT.json",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json",
+      "AGENTS/DAEDALUS/inbox/processed/2026-07-30_from-TERRY_S1-ROUTED-TO-YOU-by-Will-ledger-staleness-false-negative.md",
+      "AGENTS/TERRY/inbox/processed/2026-07-30_from-DAEDALUS_architecture-audit-7-findings-plus-one-against-my-own-instrument.md"
+    ],
+    "live_candidates": [],
+    "header": [
+      "# TERRY \u2014 ARCHITECTURE AUDIT (structure / file system / wiring)",
+      "",
+      "> \ud83d\uddc4 **DATED AUDIT/WORK RECORD (last content 2026-07-30; bannered 2026-08-17, self-audit F5).** Findings were routed at write time; this doc is history, not a live queue. Closure state of individual findings lives with the owning agents.",
+      "",
+      "**Author:** DAEDALUS \u00b7 **Date:** 2026-07-30 PM \u00b7 **Directed by:** Will \u00b7 **Method:** read-only, solo (no fan-out \u2014 session rules). TERRY **LIVE** (last commit 16:26, `PAPER_BOOK.tsv` uncommitted) \u21d2 every fix packet-routed, **nothing edited**."
+    ],
+    "open_tokens": 0,
+    "disposition": "RETIRE_CANDIDATE_VERIFIED_HISTORY",
+    "basis": "Header/context says closed queue, executed build/audit, historical findings or shipped mechanism; no live-reference candidate and no pending docket/gate reference found in basename search."
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/BRENT_AUDIT_2026-07-28.md",
+    "last_commit": "2026-08-17",
+    "refs": [
+      "AGENTS/DAEDALUS/upgrades/BRENT_REVIEW_2026-08-17.md",
+      "AGENTS/DAEDALUS/FLEET_MAP_HISTORY.tsv",
+      "AGENTS/DAEDALUS/archive/2026-09-08_CLOCK_SWEEP_BEFORE_IMAGES.json",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD_CLOSEOUT.json",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json",
+      "AGENTS/BRENT/inbox/processed/2026-07-28_from-DAEDALUS_architecture-audit-findings.md"
+    ],
+    "live_candidates": [
+      "AGENTS/DAEDALUS/upgrades/BRENT_REVIEW_2026-08-17.md"
+    ],
+    "header": [
+      "# BRENT Architecture & Folder-Tree Audit \u2014 2026-07-28 (Will-directed)",
+      "",
+      "> \ud83d\uddc4 **DATED AUDIT/WORK RECORD (last content 2026-07-28; bannered 2026-08-17, self-audit F5).** Findings were routed at write time; this doc is history, not a live queue. Closure state of individual findings lives with the owning agents.",
+      "",
+      "**Method:** Mode-A 3-reader fan-out (CLAUDE.md wiring \u00b7 live-state surfaces \u00b7 workbook/thesis/tooling) + DAEDALUS mechanical checks (ledger_staleness workbook + --trade, git-tracking, outbox ages). **Read-only throughout \u2014 BRENT went LIVE ~21:42 ET mid-audit** (consuming PROME's fighting-shape packet); all fixes route via inbox packet per AUTHORITY (permission + idle)."
+    ],
+    "open_tokens": 5,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: AGENTS/DAEDALUS/upgrades/BRENT_REVIEW_2026-08-17.md"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/PROME_AUDIT_2026-07-28.md",
+    "last_commit": "2026-08-17",
+    "refs": [
+      "PROME/DOCKET.tsv",
+      "PROME/reports/2026-09-08_inbox-before.json",
+      "PROME/inbox/processed/2026-07-28_from-DAEDALUS_full-directory-audit-findings.md",
+      "PROME/tools/tests/fixtures/desk_attention/PROME/DOCKET.tsv",
+      "PROME/inbox/processed/2026-07-28_from-DAEDALUS_architecture-proposals-for-the-maintenance-batch.md",
+      "AGENTS/DAEDALUS/sweeps/PROME_SWEEP.md",
+      "AGENTS/DAEDALUS/FLEET_MAP_HISTORY.tsv",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD_CLOSEOUT.json",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json",
+      "AGENTS/DAEDALUS/archive/2026-09-08_CLOCK_SWEEP_BEFORE_IMAGES.json",
+      "AGENTS/DAEDALUS/archive/EVOLUTION_ARCHIVE_2026-08.md",
+      "AGENTS/DAEDALUS/inbox/processed/2026-08-08_from-PROME_firetime-two-false-positive-classes-plus-silent-cap-sweep.md"
+    ],
+    "live_candidates": [
+      "PROME/DOCKET.tsv",
+      "PROME/reports/2026-09-08_inbox-before.json",
+      "PROME/tools/tests/fixtures/desk_attention/PROME/DOCKET.tsv",
+      "AGENTS/DAEDALUS/sweeps/PROME_SWEEP.md"
+    ],
+    "header": [
+      "# PROME FULL-DIRECTORY AUDIT \u2014 2026-07-28",
+      "",
+      "> \ud83d\uddc4 **DATED AUDIT/WORK RECORD (last content 2026-07-28; bannered 2026-08-17, self-audit F5).** Findings were routed at write time; this doc is history, not a live queue. Closure state of individual findings lives with the owning agents.",
+      "",
+      "**Directed by:** Will (in-session) \u00b7 **Method:** Mode-A 4-reader fan-out (spine / rails / tools / flow) + DAEDALUS meta-layer checks \u00b7 **Scope:** all of `PROME/` (309 files; archive/ at boundary level) \u00b7 **Posture:** strictly READ-ONLY \u2014 PROME ran live during the audit (6+ commits this morning); every fix below is a proposal routed via packet, zero PROME files touched."
+    ],
+    "open_tokens": 1,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: PROME/DOCKET.tsv; PROME/reports/2026-09-08_inbox-before.json; PROME/tools/tests/fixtures/desk_attention/PROME/DOCKET.tsv; AGENTS/DAEDALUS/sweeps/PROME_SWEEP.md"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/RED_AUDIT_2026-08-12_READER_REPORTS.md",
+    "last_commit": "2026-08-12",
+    "refs": [
+      "AGENTS/DAEDALUS/upgrades/DAEDALUS_SELF_AUDIT_2026-08-17_READER_REPORTS.md",
+      "AGENTS/DAEDALUS/upgrades/RED_AUDIT_2026-08-12.md",
+      "AGENTS/DAEDALUS/PATTERNS.tsv",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD_CLOSEOUT.json",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json",
+      "AGENTS/DAEDALUS/archive/STATUS_ARCHIVE_2026-08-17.md"
+    ],
+    "live_candidates": [
+      "AGENTS/DAEDALUS/upgrades/RED_AUDIT_2026-08-12.md",
+      "AGENTS/DAEDALUS/PATTERNS.tsv"
+    ],
+    "header": [
+      "# RED audit 2026-08-12 \u2014 READER DELIVERABLES (raw evidence store)",
+      "",
+      "**Why this file exists:** Will asked \"did we properly save the results of the three sub-agents?\" and the answer was **no**. The audit's *conclusions* went into `RED_AUDIT_2026-08-12.md`, `profiles/RED.md`, `PATTERNS.tsv` (PAT-096..099) and four routed packets \u2014 but the readers' **raw tables and their coverage caveats existed only in the session transcript**, which dies with the session. That is PAT-093 (a baseline whose derivation lives only in a scratchpad cannot be re-measured by a second reader) firing on my own work for the third time, and the same fix as the 8/11 `DARK_CENSUS` persist. **File > verbal is my #1 rule; this is the file.**",
+      "",
+      "**Provenance:** 3 readers (`red-spine` / `red-workbook` / `red-comms`), Mode-A fan-out, read-only, RED LIVE throughout. Six deliverables total (each reader: one audit round + one Task A profile slice + one Task B follow-on). Read vintage `4b3bb1b55` (S29c 12:16 ET), spine reader re-stamped to `0940549e7` (S29d 13:22). **All three idled holding; all three delivered complete on one chase.**"
+    ],
+    "open_tokens": 0,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: AGENTS/DAEDALUS/upgrades/RED_AUDIT_2026-08-12.md; AGENTS/DAEDALUS/PATTERNS.tsv"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/FORGE_AUDIT_2026-07-30.md",
+    "last_commit": "2026-08-17",
+    "refs": [
+      "PROME/ACTIVE_DECISIONS.md",
+      "PROME/archive/ACTIVE_DECISIONS_ROTATION_2026-08-28.md",
+      "PROME/artifacts/decision_reference.html",
+      "PROME/archive/ACTIVE_DECISIONS_ROTATION_2026-08-22.md",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD_CLOSEOUT.json",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json",
+      "AGENTS/TERRY/inbox/processed/2026-07-30_from-PROME_parser-breaks-on-forge-restructure-fix-before-refresh.md"
+    ],
+    "live_candidates": [
+      "PROME/ACTIVE_DECISIONS.md",
+      "PROME/artifacts/decision_reference.html"
+    ],
+    "header": [
+      "# FORGE \u2014 Full Architecture Audit",
+      "",
+      "> \ud83d\uddc4 **DATED AUDIT/WORK RECORD (last content 2026-07-30; bannered 2026-08-17, self-audit F5).** Findings were routed at write time; this doc is history, not a live queue. Closure state of individual findings lives with the owning agents.",
+      "",
+      "**Date:** 2026-07-30 (Thu, ~11:40 AM ET) \u00b7 **Auditor:** DAEDALUS (Will-directed) \u00b7 **Method:** solo read (no fan-out per session rules) \u2014 full file inventory, repo-wide reference graph, live tool execution (PAT-070), parser run against the 2-hour-old restructure"
+    ],
+    "open_tokens": 0,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: PROME/ACTIVE_DECISIONS.md; PROME/artifacts/decision_reference.html"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/WP4_ECHO_REPORT_2026-07-10.md",
+    "last_commit": "2026-08-17",
+    "refs": [
+      "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD_CLOSEOUT.json",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv"
+    ],
+    "live_candidates": [],
+    "header": [
+      "# WP-4 Report \u2014 GIG Reconciliation Draft (ECHO)",
+      "",
+      "> \ud83d\uddc4 **DATED AUDIT/WORK RECORD (last content 2026-07-10; bannered 2026-08-17, self-audit F5).** Findings were routed at write time; this doc is history, not a live queue. Closure state of individual findings lives with the owning agents.",
+      "",
+      "**Date:** 2026-07-10 \u00b7 **Analyst:** ECHO (named agent) \u00b7 **Report author:** DAEDALUS (ECHO hit its session limit at ~13:01 ET *after* completing the deliverable but before filing this report; DAEDALUS verified the output and wrote this stub)."
+    ],
+    "open_tokens": 0,
+    "disposition": "RETIRE_CANDIDATE_VERIFIED_HISTORY",
+    "basis": "Header/context says closed queue, executed build/audit, historical findings or shipped mechanism; no live-reference candidate and no pending docket/gate reference found in basename search."
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/DAEDALUS_SELF_AUDIT_2026-08-17.md",
+    "last_commit": "2026-08-17",
+    "refs": [
+      "AGENTS/DAEDALUS/upgrades/DAEDALUS_SELF_AUDIT_2026-08-17_READER_REPORTS.md",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD_CLOSEOUT.json",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json",
+      "AGENTS/DAEDALUS/archive/STATUS_ARCHIVE_2026-08-20.md",
+      "AGENTS/DAEDALUS/archive/EVOLUTION_ARCHIVE_2026-08.md"
+    ],
+    "live_candidates": [],
+    "header": [
+      "# DAEDALUS SELF-AUDIT \u2014 2026-08-17 (Will-directed reflective analysis)",
+      "",
+      "**Status: EXECUTED 2026-08-17 same day \u2014 Will approved the joint recommendation set (\"Lets go with the recommendations - especially if you both agree\"): Batches A + C landed in full, B0 boot-spine wave landed, B1\u2013B7 landed, W1 resolved DAEDALUS-specific, W2 applied, W3/W4 encoded PROVISIONAL (CHECK_STANDARD \u00a710/\u00a711). Execution commits: 362ae590f (Batch C) \u00b7 d5ce29767 (CHECKS+wiring) \u00b7 dafbda0fa (blueprints) \u00b7 51c4b55a6 (boot-spine wave) \u00b7 the banner/registers commit following. Zero fixes had been applied before the ruling (state frozen for PROME's independent pass \u2014 see below).**",
+      "**Commission:** Will, in-session: \"Recently we did a bunch of upgrades to Prome's system. I'd like to do a similar reflective analysis on DAEDALUS system and file structure too.\"",
+      "**Method:** 5-reader Mode-A fan-out over my own tree (spine \u00b7 registers \u00b7 blueprints \u00b7 work-product \u00b7 tooling+lifecycle), all read-only. Companion (PAT-100): `DAEDALUS_SELF_AUDIT_2026-08-17_READER_REPORTS.md` \u2014 all 5 raw reports + NOT-READ lists, verbatim."
+    ],
+    "open_tokens": 0,
+    "disposition": "RETIRE_CANDIDATE_VERIFIED_HISTORY",
+    "basis": "Header/context says closed queue, executed build/audit, historical findings or shipped mechanism; no live-reference candidate and no pending docket/gate reference found in basename search."
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/CODEX_CROSS_REVIEW_2026-07-12.md",
+    "last_commit": "2026-08-11",
+    "refs": [
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD_CLOSEOUT.json",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json",
+      "AGENTS/CARL/inbox/processed/2026-07-12_from-PROME_status-l232-catalyst-line-patched.md"
+    ],
+    "live_candidates": [],
+    "header": [
+      "> \ud83d\uddc4 **CLOSED 2026-08-11 (sweep #3 self-scope banner pass) \u2014 one-shot execution record, work consumed at the time; historical reference only, cite as history never as current state.**",
+      "# CODEX Cross-Model Review \u2014 2026-07-12 (Will-directed, first of its kind)",
+      "",
+      "**Method:** OpenAI Codex CLI 0.143.0 (`codex exec --sandbox read-only`, repo root, self-contained briefing prompt carrying today's ground truth + fleet-convention false-positive guards). Reviewed today's session work: OSPREY/FALCON/HOMER/HAWK-recut in full, registration surface consistency, DAEDALUS's rewritten files, CARL post-shed, BRENT fix-in-context. ~218K Codex tokens. Raw trace: session scratchpad (990KB); final report extracted below verbatim.",
+      "**Rationale (Will):** a different LLM family reviewing the session avoids shared-blind-spot risk \u2014 the cross-model extension of PAT-050's self-audit lesson."
+    ],
+    "open_tokens": 3,
+    "disposition": "RETIRE_CANDIDATE_VERIFIED_HISTORY",
+    "basis": "Header/context says closed queue, executed build/audit, historical findings or shipped mechanism; no live-reference candidate and no pending docket/gate reference found in basename search."
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/PRODUCTION_REVIEW_2026-08-07.md",
+    "last_commit": "2026-08-17",
+    "refs": [
+      "AGENTS/DAEDALUS/upgrades/DAEDALUS_SELF_AUDIT_2026-08-17_READER_REPORTS.md",
+      "AGENTS/DAEDALUS/sweeps/PRODUCTION_REVIEW.md",
+      "AGENTS/DAEDALUS/upgrades/PRODUCTION_REVIEW_2026-09-17_READER_R4_theaters_commod.md",
+      "PROME/inbox/processed/2026-08-07_from-DAEDALUS_production-review-3-promotions-F5-corrected-phase2-registered-plus-consolidated-routing.md",
+      "AGENTS/DAEDALUS/archive/STATUS_ARCHIVE_2026-08-17.md",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD_CLOSEOUT.json",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json"
+    ],
+    "live_candidates": [
+      "AGENTS/DAEDALUS/sweeps/PRODUCTION_REVIEW.md"
+    ],
+    "header": [
+      "# Fleet Production Review \u2014 Run #3 \u00b7 2026-08-07",
+      "",
+      "> \ud83d\uddc4 **DATED AUDIT/WORK RECORD (last content 2026-08-07; bannered 2026-08-17, self-audit F5).** Findings were routed at write time; this doc is history, not a live queue. Closure state of individual findings lives with the owning agents.",
+      "",
+      "**Cadence:** 14d, due 8/5, ran 8/7 (+2d \u2014 **third consecutive over-cadence run**; the L5 cadence leg fails again honestly, and the Phase-2 C3 queue rows registered this session now mechanize the escalation at N=21 so the next slip prints at any DAEDALUS boot)."
+    ],
+    "open_tokens": 0,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: AGENTS/DAEDALUS/sweeps/PRODUCTION_REVIEW.md"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/ORACLE_CARD.md",
+    "last_commit": "2026-08-17",
+    "refs": [
+      "AGENTS/DAEDALUS/FLEET_MAP_HISTORY.tsv",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD_CLOSEOUT.json",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json",
+      "AGENTS/DAEDALUS/archive/2026-09-08_CLOCK_SWEEP_BEFORE_IMAGES.json",
+      "AGENTS/DAEDALUS/archive/retired_2026-09-24/TRADE_STALENESS_SWEEP.md"
+    ],
+    "live_candidates": [],
+    "header": [
+      "# Upgrade Card \u2014 ORACLE (read-only assessment, no agent files touched)",
+      "",
+      "> \ud83d\uddc4 **ROUTED 2026-07-03 \u2014 CLOSED AS A QUEUE 2026-08-17 (self-audit F5 banner pass).** This card's findings were routed to the owner/FLEET_MAP when written; per-row states below are historical. Not maintained \u2014 current gaps live on the agent's FLEET_MAP row. Do not work rows from here without re-verifying at the agent.",
+      "",
+      "**By:** DAEDALUS \u00b7 **Date:** 2026-06-29 \u00b7 **Class:** Utility (prediction-market diagnostics \u2014 Polymarket + Kalshi real-money crowd-implied odds)"
+    ],
+    "open_tokens": 0,
+    "disposition": "RETIRE_CANDIDATE_VERIFIED_HISTORY",
+    "basis": "Header/context says closed queue, executed build/audit, historical findings or shipped mechanism; no live-reference candidate and no pending docket/gate reference found in basename search."
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/BROCK_CARD.md",
+    "last_commit": "2026-08-17",
+    "refs": [
+      "AGENTS/DAEDALUS/upgrades/FIXBATCH_REPORT_2026-07-12.md",
+      "AGENTS/DAEDALUS/FLEET_MAP_HISTORY.tsv",
+      "AGENTS/DAEDALUS/runs/2026-09-17_OVERDUE_BATTERY.md",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/archive/2026-09-08_CLOCK_SWEEP_BEFORE_IMAGES.json",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json",
+      "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD_CLOSEOUT.json",
+      "AGENTS/DAEDALUS/profiles/REFRESH_2026-09-17_VERIFY_P1_BOND_BROCK.md",
+      "AGENTS/DAEDALUS/profiles/REFRESH_2026-09-17_READER_P1_BOND_BROCK.md",
+      "AGENTS/DAEDALUS/profiles/_prior/BROCK_PRIOR_2026-09-17.md",
+      "AGENTS/DAEDALUS/profiles/BROCK.md",
+      "AGENTS/DAEDALUS/scripts/tests/fixtures/profile_clock/BROCK.md"
+    ],
+    "live_candidates": [
+      "AGENTS/DAEDALUS/upgrades/FIXBATCH_REPORT_2026-07-12.md",
+      "AGENTS/DAEDALUS/profiles/REFRESH_2026-09-17_VERIFY_P1_BOND_BROCK.md",
+      "AGENTS/DAEDALUS/profiles/_prior/BROCK_PRIOR_2026-09-17.md",
+      "AGENTS/DAEDALUS/profiles/BROCK.md",
+      "AGENTS/DAEDALUS/scripts/tests/fixtures/profile_clock/BROCK.md"
+    ],
+    "header": [
+      "# Upgrade Card \u2014 BROCK (read-only assessment, no agent files touched)",
+      "",
+      "> \ud83d\uddc4 **ROUTED 2026-07-12 \u2014 CLOSED AS A QUEUE 2026-08-17 (self-audit F5 banner pass).** This card's findings were routed to the owner/FLEET_MAP when written; per-row states below are historical. Not maintained \u2014 current gaps live on the agent's FLEET_MAP row. Do not work rows from here without re-verifying at the agent.",
+      "",
+      "**By:** DAEDALUS \u00b7 **Date:** 2026-06-28 \u00b7 **Class:** Market (private credit / BDC contagion \u2192 bank transmission)"
+    ],
+    "open_tokens": 0,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: AGENTS/DAEDALUS/upgrades/FIXBATCH_REPORT_2026-07-12.md; AGENTS/DAEDALUS/profiles/REFRESH_2026-09-17_VERIFY_P1_BOND_BROCK.md; AGENTS/DAEDALUS/profiles/_prior/BROCK_PRIOR_2026-09-17.md; AGENTS/DAEDALUS/profiles/BROCK.md"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/HANDLE_SWEEP_independence-action.md",
+    "last_commit": "2026-07-03",
+    "refs": [
+      "AGENTS/DAEDALUS/outbox/delivered/2026-06-29_to-PROME_handle-sweep-and-brent-routing.md",
+      "AGENTS/DAEDALUS/upgrades/BATCH_02_handles.md",
+      "AGENTS/DAEDALUS/runs/2026-09-17_OVERDUE_BATTERY.md",
+      "AGENTS/DAEDALUS/runs/2026-09-01_STALENESS_SWEEP_04.md",
+      "AGENTS/DAEDALUS/runs/2026-09-24_STALENESS_SWEEP_05.md",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD_CLOSEOUT.json",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json",
+      "AGENTS/DAEDALUS/runs/2026-09-24_SELF_HYGIENE_PASS.md",
+      "AGENTS/DAEDALUS/PATTERNS.tsv",
+      "AGENTS/DAEDALUS/BLUEPRINTS/market-agent.md",
+      "AGENTS/DAEDALUS/archive/EVOLUTION_ARCHIVE_2026-08.md"
+    ],
+    "live_candidates": [
+      "AGENTS/DAEDALUS/upgrades/BATCH_02_handles.md",
+      "AGENTS/DAEDALUS/PATTERNS.tsv",
+      "AGENTS/DAEDALUS/BLUEPRINTS/market-agent.md"
+    ],
+    "header": [
+      "# Handle Sweep \u2014 \u00a72 `Independence` column + \u00a75 `If-Falsified ACTION` column (market cohort, fleet-wide)",
+      "",
+      "**By:** DAEDALUS \u00b7 **Date:** 2026-06-29 \u00b7 **Status:** \u2705 **DISPOSITIONED 2026-07-01** (folded into the BATCH_02 PROME review, Will-approved) \u2014 see banner. *(Was \ud83d\udfe1 DRAFT; banner corrected in the 2026-07-03 reconciliation \u2014 the items were resolved 7/1 but this doc's status line was never updated, which made the sweep look pending when it wasn't.)*",
+      "**Source:** the `firm7-profiles-cards` pass surfaced the *same two handles* missing across the market cohort \u2014 a pattern invisible per-agent, visible only across all 7 cards at once. [[finding_fleet_selfreport_convergence]] / PAT-011: a convergent gap is **one fleet-wide fix, not N per-agent items.**",
+      ""
+    ],
+    "open_tokens": 1,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: AGENTS/DAEDALUS/upgrades/BATCH_02_handles.md; AGENTS/DAEDALUS/PATTERNS.tsv; AGENTS/DAEDALUS/BLUEPRINTS/market-agent.md"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/SHADE_CARD.md",
+    "last_commit": "2026-08-17",
+    "refs": [
+      "AGENTS/DAEDALUS/runs/2026-09-17_OVERDUE_BATTERY.md",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/upgrades/FIXBATCH_REPORT_2026-07-12.md",
+      "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD_CLOSEOUT.json",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json",
+      "AGENTS/DAEDALUS/FLEET_MAP_HISTORY.tsv",
+      "AGENTS/DAEDALUS/archive/2026-09-08_CLOCK_SWEEP_BEFORE_IMAGES.json",
+      "AGENTS/DAEDALUS/profiles/SHADE.md",
+      "AGENTS/DAEDALUS/profiles/REFRESH_2026-09-17_READER_P3_SAM_SHADE.md",
+      "AGENTS/DAEDALUS/profiles/REFRESH_2026-09-17_VERIFY_P3_SAM_SHADE.md",
+      "AGENTS/DAEDALUS/profiles/_prior/SHADE_PRIOR_2026-09-17.md"
+    ],
+    "live_candidates": [
+      "AGENTS/DAEDALUS/upgrades/FIXBATCH_REPORT_2026-07-12.md",
+      "AGENTS/DAEDALUS/profiles/SHADE.md",
+      "AGENTS/DAEDALUS/profiles/REFRESH_2026-09-17_VERIFY_P3_SAM_SHADE.md",
+      "AGENTS/DAEDALUS/profiles/_prior/SHADE_PRIOR_2026-09-17.md"
+    ],
+    "header": [
+      "# Upgrade Card \u2014 SHADE (read-only assessment, no agent files touched)",
+      "",
+      "> \ud83d\uddc4 **ROUTED 2026-07-27 \u2014 CLOSED AS A QUEUE 2026-08-17 (self-audit F5 banner pass).** This card's findings were routed to the owner/FLEET_MAP when written; per-row states below are historical. Not maintained \u2014 current gaps live on the agent's FLEET_MAP row. Do not work rows from here without re-verifying at the agent.",
+      "",
+      "**By:** DAEDALUS \u00b7 **Date:** 2026-06-28 \u00b7 **Class:** Market (PE-owned insurer-lender stress \u2192 funding/credit fault line)"
+    ],
+    "open_tokens": 0,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: AGENTS/DAEDALUS/upgrades/FIXBATCH_REPORT_2026-07-12.md; AGENTS/DAEDALUS/profiles/SHADE.md; AGENTS/DAEDALUS/profiles/REFRESH_2026-09-17_VERIFY_P3_SAM_SHADE.md; AGENTS/DAEDALUS/profiles/_prior/SHADE_PRIOR_2026-09-17.md"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/CREED_REVIEW_2026-08-20_reader_raw.md",
+    "last_commit": "2026-08-20",
+    "refs": [
+      "AGENTS/DAEDALUS/upgrades/CREED_REVIEW_2026-08-20.md",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/PATTERNS.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD_CLOSEOUT.json",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json"
+    ],
+    "live_candidates": [
+      "AGENTS/DAEDALUS/upgrades/CREED_REVIEW_2026-08-20.md",
+      "AGENTS/DAEDALUS/PATTERNS.tsv"
+    ],
+    "header": [
+      "# CREED structure review 2026-08-20 \u2014 reader raw payloads (PAT-100 persistence)",
+      "",
+      "> Will-directed session (BOND leg closed \u2014 packet routed + Will-ruled; this is leg 2). 2-reader Mode-A fan-out, read-only.",
+      "> Synthesis \u2192 `CREED_REVIEW_2026-08-20.md` after both readers. **Review vintage: last CREED commit `30646ae71` (11:37 ET closeout) \u2014 but creed-53 session BUSY during the read; readers report working-tree dirty state per file.**",
+      "> Blind-leg protocol (MESSAGING rule 7): PROME's own CREED oversight digest reached the desk ~11:4x-12:0x; PROME findings withheld from me until both my legs close. Findings diff at the doorbell; post-11:37 uncommitted changes may be PROME-digest provenance."
+    ],
+    "open_tokens": 3,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: AGENTS/DAEDALUS/upgrades/CREED_REVIEW_2026-08-20.md; AGENTS/DAEDALUS/PATTERNS.tsv"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/DAEDALUS_SELF_SWEEP_2026-07-12.md",
+    "last_commit": "2026-08-17",
+    "refs": [
+      "AGENTS/DAEDALUS/PATTERNS.tsv",
+      "AGENTS/DAEDALUS/upgrades/DAEDALUS_SELF_SWEEP_2026-07-22.md",
+      "AGENTS/DAEDALUS/upgrades/FIXBATCH_REPORT_2026-07-12.md",
+      "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD_CLOSEOUT.json",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json"
+    ],
+    "live_candidates": [
+      "AGENTS/DAEDALUS/PATTERNS.tsv",
+      "AGENTS/DAEDALUS/upgrades/DAEDALUS_SELF_SWEEP_2026-07-22.md",
+      "AGENTS/DAEDALUS/upgrades/FIXBATCH_REPORT_2026-07-12.md"
+    ],
+    "header": [
+      "# DAEDALUS Self-Sweep \u2014 2026-07-12 (Will-directed)",
+      "",
+      "> \ud83d\uddc4 **DATED AUDIT/WORK RECORD (last content 2026-07-22; bannered 2026-08-17, self-audit F5).** Findings were routed at write time; this doc is history, not a live queue. Closure state of individual findings lives with the owning agents.",
+      "",
+      "**Method:** 4 Sonnet readers over the full DAEDALUS tree (132 files): S1 core state/governance \u00b7 S2 FLEET_MAP + 24 profiles \u00b7 S3 upgrades/ work queue (~40 files) \u00b7 S4 BLUEPRINTS/builds/outbox/reference. All HIGH flags grep-verified against live agent files by the readers. **Disposition: \u2705 DISPOSITIONED SAME-DAY (fix-batch executed per `FIXBATCH_REPORT_2026-07-12.md`, Will-approved; PAT-050 banked [re-homed to canonical PATTERNS.tsv 7/22 after a stray-file misfile \u2014 7/22 self-sweep H1]) \u2014 original framing: FLAG-ONLY** \u2014 nothing fixed pending Will's go. Raw findings: session scratchpad `selfsweep_S{1-4}.md`."
+    ],
+    "open_tokens": 0,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: AGENTS/DAEDALUS/PATTERNS.tsv; AGENTS/DAEDALUS/upgrades/DAEDALUS_SELF_SWEEP_2026-07-22.md; AGENTS/DAEDALUS/upgrades/FIXBATCH_REPORT_2026-07-12.md"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/FLEET_DIRECTORY_BUILD_PLAN.md",
+    "last_commit": "2026-08-17",
+    "refs": [
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD_CLOSEOUT.json",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json",
+      "AGENTS/DAEDALUS/scripts/render_directory.py"
+    ],
+    "live_candidates": [
+      "AGENTS/DAEDALUS/scripts/render_directory.py"
+    ],
+    "header": [
+      "# FLEET_DIRECTORY \u2014 Build Plan",
+      "",
+      "> \ud83d\uddc4 **DATED AUDIT/WORK RECORD (last content 2026-07-22; bannered 2026-08-17, self-audit F5).** Findings were routed at write time; this doc is history, not a live queue. Closure state of individual findings lives with the owning agents.",
+      "",
+      "> \u2705 **EXECUTED** \u2014 `scripts/render_directory.py` + generated `FLEET_DIRECTORY.md` live since 7/10; regenerated at every FLEET_MAP change since. This plan is a dated build record."
+    ],
+    "open_tokens": 0,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: AGENTS/DAEDALUS/scripts/render_directory.py"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/PROME_SWEEP_RUN1_2026-08-16_READER_REPORTS.md",
+    "last_commit": "2026-08-16",
+    "refs": [
+      "AGENTS/DAEDALUS/upgrades/DAEDALUS_SELF_AUDIT_2026-08-17_READER_REPORTS.md",
+      "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD_LOGS.txt",
+      "AGENTS/DAEDALUS/sweeps/PROME_SWEEP.md",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-09-08_CLOCK_SWEEP_CLOSEOUT.json",
+      "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD_CLOSEOUT.json",
+      "AGENTS/DAEDALUS/PATTERNS.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json",
+      "AGENTS/DAEDALUS/archive/2026-09-08_CLOCK_SWEEP_BEFORE_IMAGES.json",
+      "AGENTS/DAEDALUS/archive/STATUS_ARCHIVE_2026-08-17.md",
+      "PROME/inbox/processed/2026-08-16_from-DAEDALUS_judgment-tail-sweep-1-findings-3-URGENT-L5-leg-NOT-satisfied.md"
+    ],
+    "live_candidates": [
+      "AGENTS/DAEDALUS/sweeps/PROME_SWEEP.md",
+      "AGENTS/DAEDALUS/PATTERNS.tsv"
+    ],
+    "header": [
+      "# PROME Judgment-Tail Sweep \u2014 RUN #1 (2026-08-16) \u2014 READER RAW REPORTS",
+      "",
+      "**Companion file per UPGRADE_PROTOCOL Step-0 mandate (PAT-100):** full reader deliverables verbatim, including NOT-READ lists and ranked route lists. Synthesis + findings packet are separate artifacts; THIS file is the evidence layer.",
+      "",
+      "**Run context:** playbook `sweeps/PROME_SWEEP.md` run #1 (registered cadence 21d; last_run = run #0 founding audit 7/28; run 2d early on Will's word). Diff sized at 478 PROME commits since 7/28 \u2192 playbook max form: 2 Mode-A readers, read-only throughout, PROME live (S3 closed 20:44, no PROME session edits made by this sweep)."
+    ],
+    "open_tokens": 12,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: AGENTS/DAEDALUS/sweeps/PROME_SWEEP.md; AGENTS/DAEDALUS/PATTERNS.tsv"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/VIOLET_CARD.md",
+    "last_commit": "2026-08-17",
+    "refs": [
+      "AGENTS/VIOLET/inbox/processed/2026-07-04_from-DAEDALUS_L4-firming-batch1.md",
+      "AGENTS/DAEDALUS/upgrades/FIXBATCH_REPORT_2026-07-12.md",
+      "AGENTS/DAEDALUS/FLEET_MAP_HISTORY.tsv",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD_CLOSEOUT.json",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json",
+      "AGENTS/DAEDALUS/runs/2026-09-08_CLOCK_SWEEP_CONSUMERS.json",
+      "AGENTS/DAEDALUS/archive/2026-09-08_CLOCK_SWEEP_BEFORE_IMAGES.json"
+    ],
+    "live_candidates": [
+      "AGENTS/DAEDALUS/upgrades/FIXBATCH_REPORT_2026-07-12.md"
+    ],
+    "header": [
+      "# Upgrade Card \u2014 VIOLET (read-only assessment, no agent files touched)",
+      "",
+      "> \ud83d\uddc4 **ROUTED 2026-07-12 \u2014 CLOSED AS A QUEUE 2026-08-17 (self-audit F5 banner pass).** This card's findings were routed to the owner/FLEET_MAP when written; per-row states below are historical. Not maintained \u2014 current gaps live on the agent's FLEET_MAP row. Do not work rows from here without re-verifying at the agent.",
+      "",
+      "**By:** DAEDALUS \u00b7 **Date:** 2026-07-04 \u00b7 **Class:** Market (volatility-regime; the modulation layer \u2014 dual-channel Path A/B; holds a LIVE trade book)"
+    ],
+    "open_tokens": 0,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: AGENTS/DAEDALUS/upgrades/FIXBATCH_REPORT_2026-07-12.md"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/WAR_TRIAD_REVIEW_2026-08-15_READER_REPORTS.md",
+    "last_commit": "2026-08-15",
+    "refs": [
+      "AGENTS/OSPREY/inbox/processed/2026-08-15_from-DAEDALUS_hygiene-bundle-kb-supersession-rail-repoint-thesis-clock.md",
+      "AGENTS/DAEDALUS/upgrades/DAEDALUS_SELF_AUDIT_2026-08-17_READER_REPORTS.md",
+      "AGENTS/DAEDALUS/FLEET_MAP_HISTORY.tsv",
+      "AGENTS/DAEDALUS/upgrades/WAR_TRIAD_REVIEW_2026-08-15.md",
+      "AGENTS/DAEDALUS/archive/2026-09-08_INBOX_PROFILE_BEFORE_IMAGES.json",
+      "AGENTS/DAEDALUS/archive/2026-09-08_CLOCK_SWEEP_BEFORE_IMAGES.json",
+      "AGENTS/DAEDALUS/archive/STATUS_ARCHIVE_2026-08-17.md",
+      "AGENTS/DAEDALUS/profiles/HAWK.md",
+      "AGENTS/DAEDALUS/profiles/OSPREY.md",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/profiles/FALCON.md",
+      "AGENTS/HAWK/inbox/processed/2026-08-15_from-DAEDALUS_synthesis-bundle-flow19-recut-mechanize-ruling-carried.md",
+      "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD_CLOSEOUT.json",
+      "AGENTS/DAEDALUS/scripts/tests/fixtures/profile_clock/OSPREY.md",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json",
+      "AGENTS/DAEDALUS/runs/2026-09-08_CLOCK_SWEEP_CONSUMERS.json",
+      "AGENTS/FALCON/inbox/processed/2026-08-15_from-DAEDALUS_rail-repair-bundle-GREENLIT-will-gate-on-D-indicator-wording.md"
+    ],
+    "live_candidates": [
+      "AGENTS/DAEDALUS/upgrades/WAR_TRIAD_REVIEW_2026-08-15.md",
+      "AGENTS/DAEDALUS/profiles/HAWK.md",
+      "AGENTS/DAEDALUS/profiles/OSPREY.md",
+      "AGENTS/DAEDALUS/profiles/FALCON.md",
+      "AGENTS/DAEDALUS/scripts/tests/fixtures/profile_clock/OSPREY.md"
+    ],
+    "header": [
+      "# WAR-TRIAD REVIEW 2026-08-15 \u2014 reader raw reports (companion file, UPGRADE_PROTOCOL Step-0 mandate)",
+      "",
+      "**Context:** Will-directed review of HAWK / OSPREY / FALCON while all three run LIVE under PROME orchestration. 3-reader Mode-A fan-out, read-only (live targets \u2014 zero edits, packet-route only). Readers idle-held 3-for-3; delivered on chase (the standing floor). This file preserves each reader's FULL raw deliverable verbatim \u2014 tables, ranked route lists, and NOT-READ coverage caveats. Synthesis + routing: see the DAEDALUS session record of this date and the outbound packets it names.",
+      "",
+      "---"
+    ],
+    "open_tokens": 8,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: AGENTS/DAEDALUS/upgrades/WAR_TRIAD_REVIEW_2026-08-15.md; AGENTS/DAEDALUS/profiles/HAWK.md; AGENTS/DAEDALUS/profiles/OSPREY.md; AGENTS/DAEDALUS/profiles/FALCON.md"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/BOND_REVIEW_2026-08-20_reader_raw.md",
+    "last_commit": "2026-08-20",
+    "refs": [
+      "AGENTS/DAEDALUS/upgrades/BOND_REVIEW_2026-08-20.md",
+      "AGENTS/DAEDALUS/PATTERNS.tsv",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD_CLOSEOUT.json",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json"
+    ],
+    "live_candidates": [
+      "AGENTS/DAEDALUS/upgrades/BOND_REVIEW_2026-08-20.md",
+      "AGENTS/DAEDALUS/PATTERNS.tsv"
+    ],
+    "header": [
+      "# BOND structure review 2026-08-20 \u2014 reader raw payloads (PAT-100 persistence)",
+      "",
+      "> Will-directed session (\"focus on BOND first... look for improvements\"). 3-reader Mode-A fan-out, read-only.",
+      "> Synthesis \u2192 `BOND_REVIEW_2026-08-20.md` (written after all 3 readers). This file = verbatim reader payloads + not-read lists. Raw evidence, not conclusions \u2014 the synthesis reconciles.",
+      "> **Review vintage: BOND tree @ `c708ed83e` (2026-08-20 11:49 ET, the CCC-retraction commit).** Blind-leg protocol live (MESSAGING rule 7): PROME ran its own oversight pass on the same commits, findings withheld both directions until this pass closes; desks already hold PROME's digests (~11:4x-12:0x), so post-11:49 BOND file changes are PROME-digest provenance, not spontaneous. Findings diff with PROME at close \u2014 convergence/divergence recorded either way."
+    ],
+    "open_tokens": 14,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: AGENTS/DAEDALUS/upgrades/BOND_REVIEW_2026-08-20.md; AGENTS/DAEDALUS/PATTERNS.tsv"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/LABOR_QC_2026-07-22.md",
+    "last_commit": "2026-08-17",
+    "refs": [
+      "AGENTS/DAEDALUS/FLEET_MAP_HISTORY.tsv",
+      "AGENTS/DAEDALUS/archive/2026-09-08_CLOCK_SWEEP_BEFORE_IMAGES.json",
+      "AGENTS/DAEDALUS/outbox/delivered/2026-07-22_to-PROME_labor-qc-flags.md",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD_CLOSEOUT.json",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json"
+    ],
+    "live_candidates": [],
+    "header": [
+      "# LABOR Quality Check \u2014 2026-07-22 (Will-directed, DAEDALUS)",
+      "",
+      "> \ud83d\uddc4 **DATED AUDIT/WORK RECORD (last content 2026-07-22; bannered 2026-08-17, self-audit F5).** Findings were routed at write time; this doc is history, not a live queue. Closure state of individual findings lives with the owning agents.",
+      "",
+      "**Scope:** full file-level QC + the L5 confirm-read (FLEET_MAP next-upgrade: \"L5 ratify \u2014 clean-closeout confirm-read only\"; YEYOU leg waived-while-dormant, Will 7/22) + profile refresh (priority #1, oldest vintage 6/29)."
+    ],
+    "open_tokens": 0,
+    "disposition": "RETIRE_CANDIDATE_VERIFIED_HISTORY",
+    "basis": "Header/context says closed queue, executed build/audit, historical findings or shipped mechanism; no live-reference candidate and no pending docket/gate reference found in basename search."
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/AEOLUS_QC_2026-07-22.md",
+    "last_commit": "2026-08-17",
+    "refs": [
+      "AGENTS/DAEDALUS/FLEET_MAP_HISTORY.tsv",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD_CLOSEOUT.json",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json",
+      "AGENTS/DAEDALUS/archive/2026-09-08_CLOCK_SWEEP_BEFORE_IMAGES.json"
+    ],
+    "live_candidates": [],
+    "header": [
+      "# AEOLUS Quality Check \u2014 2026-07-22 (Will-directed, DAEDALUS)",
+      "",
+      "> \ud83d\uddc4 **DATED AUDIT/WORK RECORD (last content 2026-07-22; bannered 2026-08-17, self-audit F5).** Findings were routed at write time; this doc is history, not a live queue. Closure state of individual findings lives with the owning agents.",
+      "",
+      "**Scope:** full file-level QC \u2014 structure, staleness, wiring, cross-agent seams, mechanism checks. Read set: CLAUDE.md, STATUS.md, THESIS.md, TRADE.md, SCRATCH.md, NEXUS_BRIEF.md, LESSONS.md, OPEN_THREADS_2026-07-09.md, workbook (KB/VX/FLOW/PREDICTIONS/SCHEMA), all 10 unprocessed inbox items, outbox, MARCO-side delivery check, `ledger_staleness` + `maturity_scan` runs."
+    ],
+    "open_tokens": 2,
+    "disposition": "RETIRE_CANDIDATE_VERIFIED_HISTORY",
+    "basis": "Header/context says closed queue, executed build/audit, historical findings or shipped mechanism; no live-reference candidate and no pending docket/gate reference found in basename search."
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/WP3_MOLD_REPORT_2026-07-10.md",
+    "last_commit": "2026-08-11",
+    "refs": [
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD_CLOSEOUT.json",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json"
+    ],
+    "live_candidates": [],
+    "header": [
+      "> \ud83d\uddc4 **CLOSED 2026-08-11 (sweep #3 self-scope banner pass) \u2014 one-shot execution record, work consumed at the time; historical reference only, cite as history never as current state.**",
+      "# WP3 \u2014 PHAN Demotion to Dossier \u2014 MOLD Report",
+      "",
+      "**Date:** 2026-07-10 \u00b7 **Editor:** MOLD (DAEDALUS sub-editor) \u00b7 **Authority:** Will-approved PHAN demotion (DAEDALUS `upgrades/CARL_SUBAGENT_AUDIT_2026-07-10.md`)",
+      "**Writable fence honored:** `AGENTS/CARL/sub_agents/PHAN/**` ONLY. CARL LIVE in parallel session; no git commands run (DAEDALUS commits the batch)."
+    ],
+    "open_tokens": 2,
+    "disposition": "RETIRE_CANDIDATE_VERIFIED_HISTORY",
+    "basis": "Header/context says closed queue, executed build/audit, historical findings or shipped mechanism; no live-reference candidate and no pending docket/gate reference found in basename search."
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/DAEDALUS_SELF_SWEEP_2026-07-22.md",
+    "last_commit": "2026-08-17",
+    "refs": [
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD_CLOSEOUT.json",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json",
+      "AGENTS/DAEDALUS/archive/EVOLUTION_ARCHIVE_2026-08.md"
+    ],
+    "live_candidates": [],
+    "header": [
+      "# DAEDALUS Self-Sweep \u2014 2026-07-22 (Will-directed; 148 files; \u2705 FIX-BATCH EXECUTED same-session, Will-approved \u2014 all 3 HIGHs + time-sensitive + MED stamps + orphan dispositions + CORAL route + harness sweep #4 registered; PAT-058 banked)",
+      "",
+      "> \ud83d\uddc4 **DATED AUDIT/WORK RECORD (last content 2026-07-22; bannered 2026-08-17, self-audit F5).** Findings were routed at write time; this doc is history, not a live queue. Closure state of individual findings lives with the owning agents.",
+      "",
+      "**Method:** mechanical layer by DAEDALUS direct (script health \u00b7 TSV integrity \u00b7 dangling-ref scan w/ subject-agent resolution \u00b7 banner census \u00b7 inbox/outbox inventory) + 3 parallel content auditors (root docs+blueprints / builds+sweeps+scripts+design / upgrades corpus+profiles). Prior instance: `DAEDALUS_SELF_SWEEP_2026-07-12.md` (33 findings). **This sweep: 3 HIGH \u00b7 ~17 MED \u00b7 ~12 LOW.** 7/12's fix-batch verified HELD on all 7 spot-checked findings \u2014 the new rot is the FLOW (items resolved 7/12\u21927/22 without closure stamps), not the stock."
+    ],
+    "open_tokens": 0,
+    "disposition": "RETIRE_CANDIDATE_VERIFIED_HISTORY",
+    "basis": "Header/context says closed queue, executed build/audit, historical findings or shipped mechanism; no live-reference candidate and no pending docket/gate reference found in basename search."
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/REGINALD_CARD.md",
+    "last_commit": "2026-08-17",
+    "refs": [
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD_CLOSEOUT.json",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json",
+      "AGENTS/DAEDALUS/FLEET_MAP_HISTORY.tsv",
+      "AGENTS/DAEDALUS/archive/2026-09-08_CLOCK_SWEEP_BEFORE_IMAGES.json"
+    ],
+    "live_candidates": [],
+    "header": [
+      "# Upgrade Card \u2014 REGINALD (read-only assessment, no agent files touched)",
+      "",
+      "> \ud83d\uddc4 **ROUTED 2026-06-29 \u2014 CLOSED AS A QUEUE 2026-08-17 (self-audit F5 banner pass).** This card's findings were routed to the owner/FLEET_MAP when written; per-row states below are historical. Not maintained \u2014 current gaps live on the agent's FLEET_MAP row. Do not work rows from here without re-verifying at the agent.",
+      "",
+      "**By:** DAEDALUS \u00b7 **Date:** 2026-06-29 \u00b7 **Class:** Market (regional-bank **convergence HUB** \u2014 the named end-of-chain transmission terminus)"
+    ],
+    "open_tokens": 0,
+    "disposition": "RETIRE_CANDIDATE_VERIFIED_HISTORY",
+    "basis": "Header/context says closed queue, executed build/audit, historical findings or shipped mechanism; no live-reference candidate and no pending docket/gate reference found in basename search."
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/BOND_CARD.md",
+    "last_commit": "2026-07-22",
+    "refs": [
+      "AGENTS/DAEDALUS/FLEET_MAP_HISTORY.tsv",
+      "AGENTS/DAEDALUS/upgrades/FIXBATCH_REPORT_2026-07-12.md",
+      "AGENTS/DAEDALUS/runs/2026-09-24_STALENESS_SWEEP_05.md",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD_CLOSEOUT.json",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json",
+      "AGENTS/DAEDALUS/archive/2026-09-08_CLOCK_SWEEP_BEFORE_IMAGES.json",
+      "AGENTS/DAEDALUS/profiles/REFRESH_2026-09-17_VERIFY_P1_BOND_BROCK.md",
+      "AGENTS/DAEDALUS/profiles/BOND.md",
+      "AGENTS/DAEDALUS/profiles/REFRESH_2026-09-17_READER_P1_BOND_BROCK.md",
+      "AGENTS/DAEDALUS/profiles/_prior/BOND_PRIOR_2026-09-17.md"
+    ],
+    "live_candidates": [
+      "AGENTS/DAEDALUS/upgrades/FIXBATCH_REPORT_2026-07-12.md",
+      "AGENTS/DAEDALUS/profiles/REFRESH_2026-09-17_VERIFY_P1_BOND_BROCK.md",
+      "AGENTS/DAEDALUS/profiles/BOND.md",
+      "AGENTS/DAEDALUS/profiles/_prior/BOND_PRIOR_2026-09-17.md"
+    ],
+    "header": [
+      "# Upgrade Card \u2014 BOND (read-only assessment, no agent files touched)",
+      "",
+      "> \u2705 **CLOSED/SUPERSEDED 2026-07-22 (self-sweep fix-batch, Will-approved):** NEXUS_BRIEF **CREATED 7/18** (`6b0b1e48`) \u2014 every 'ABSENT/HELD-build' claim below is obsolete; \u00a75 ACTION col landed 7/1; conf M\u2192H 7/22. Remaining open = MATRIX_V2 disposition only. Current truth = FLEET_MAP row + `upgrades/PRODUCTION_REVIEW_2026-07-22.md`. States below are HISTORICAL.",
+      "",
+      "**By:** DAEDALUS \u00b7 **Date:** 2026-06-29 \u00b7 **Class:** Market (US bond-market structure as a transmission mechanism \u2014 auction health / issuance freeze / dealer positioning / credit-leads-equity)"
+    ],
+    "open_tokens": 4,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: AGENTS/DAEDALUS/upgrades/FIXBATCH_REPORT_2026-07-12.md; AGENTS/DAEDALUS/profiles/REFRESH_2026-09-17_VERIFY_P1_BOND_BROCK.md; AGENTS/DAEDALUS/profiles/BOND.md; AGENTS/DAEDALUS/profiles/_prior/BOND_PRIOR_2026-09-17.md"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/WP1_TALOS_REPORT_2026-07-10.md",
+    "last_commit": "2026-08-11",
+    "refs": [
+      "AGENTS/DAEDALUS/builds/homer_promotion/MANIFEST_D_homer.md",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD_CLOSEOUT.json",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json"
+    ],
+    "live_candidates": [
+      "AGENTS/DAEDALUS/builds/homer_promotion/MANIFEST_D_homer.md"
+    ],
+    "header": [
+      "> \ud83d\uddc4 **CLOSED 2026-08-11 (sweep #3 self-scope banner pass) \u2014 one-shot execution record, work consumed at the time; historical reference only, cite as history never as current state.**",
+      "# WP1 \u2014 TALOS Report: CARL Sub-Agent CLAUDE.md Fixes (2026-07-10)",
+      "",
+      "**Agent:** TALOS (editor, under DAEDALUS) \u00b7 **Scope:** `AGENTS/CARL/sub_agents/{STUE,HOMER,DOC,GIG,POLLY,POP}/CLAUDE.md` ONLY \u00b7 **Driver:** `upgrades/CARL_SUBAGENT_AUDIT_2026-07-10.md`",
+      "**Fence honored:** only the six CLAUDE.md files touched. No STATUS.md, no workbook TSV, no CARL top-level, no PHAN/META. No git commands run (DAEDALUS commits the batch)."
+    ],
+    "open_tokens": 0,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: AGENTS/DAEDALUS/builds/homer_promotion/MANIFEST_D_homer.md"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/SFG_SWEEP_2026-08-17_READER_REPORTS.md",
+    "last_commit": "2026-08-17",
+    "refs": [
+      "AGENTS/DAEDALUS/upgrades/DAEDALUS_SELF_AUDIT_2026-08-17_READER_REPORTS.md",
+      "PROME/inbox/processed/2026-08-17_from-DAEDALUS_sfg-sweep-RESULTS-16-class-hits-2-urgent-plus-s8-will-gate.md",
+      "AGENTS/DAEDALUS/sweeps/SILENT_FALLBACK_GREEN_SWEEP_2026-08-17.md",
+      "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD_LOGS.txt",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-09-08_CLOCK_SWEEP_CLOSEOUT.json",
+      "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD_CLOSEOUT.json",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json"
+    ],
+    "live_candidates": [
+      "AGENTS/DAEDALUS/sweeps/SILENT_FALLBACK_GREEN_SWEEP_2026-08-17.md"
+    ],
+    "header": [
+      "# Silent-Fallback-Green Sweep 2026-08-17 \u2014 raw reader reports (PAT-100 companion)",
+      "",
+      "**Fan-out:** 4 readers (1: FORGE/DEWEY/BOND/ORACLE/SHADE/MIDAS \u00b7 2: VIOLET/TERRY/HENRY/REGINALD \u00b7 3: SAM/HAWK/FALCON/MARCO/LABOR/CARL \u00b7 4: boot-wrapper swallow layer). Reader-3's full table lives at `sweeps/SILENT_FALLBACK_GREEN_SWEEP_2026-08-17.md` (reader-authored file, DAEDALUS dir). This file preserves the raw deliveries + every NOT-READ list. Commission: PROME 8/17 packet (SAM cpi_japan exhibit).",
+      "",
+      "**Reader ops:** readers 1 & 4 idled holding, delivered on chase (the standing floor); reader 3 delivered unprompted with a persisted file; reader 3 re-tasked once (fxy_options NOT-READ closure)."
+    ],
+    "open_tokens": 0,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: AGENTS/DAEDALUS/sweeps/SILENT_FALLBACK_GREEN_SWEEP_2026-08-17.md"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/CORAL_CARD.md",
+    "last_commit": "2026-08-17",
+    "refs": [
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD_CLOSEOUT.json",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json"
+    ],
+    "live_candidates": [],
+    "header": [
+      "# Upgrade Card \u2014 CORAL (read-only assessment, no files touched)",
+      "",
+      "> \ud83d\uddc4 **ROUTED 2026-07-25 \u2014 CLOSED AS A QUEUE 2026-08-17 (self-audit F5 banner pass).** This card's findings were routed to the owner/FLEET_MAP when written; per-row states below are historical. Not maintained \u2014 current gaps live on the agent's FLEET_MAP row. Do not work rows from here without re-verifying at the agent.",
+      "",
+      "**By:** DAEDALUS \u00b7 **Date:** 2026-06-27 \u00b7 **Class:** Market (transmitter \u2014 FL household stress \u2192 bank loss)"
+    ],
+    "open_tokens": 0,
+    "disposition": "RETIRE_CANDIDATE_VERIFIED_HISTORY",
+    "basis": "Header/context says closed queue, executed build/audit, historical findings or shipped mechanism; no live-reference candidate and no pending docket/gate reference found in basename search."
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/PRODUCTION_REVIEW_2026-08-17_READER_REPORTS.md",
+    "last_commit": "2026-08-17",
+    "refs": [
+      "AGENTS/DAEDALUS/upgrades/PRODUCTION_REVIEW_2026-08-17.md",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD_CLOSEOUT.json",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json",
+      "AGENTS/DAEDALUS/runs/2026-09-08_CLOCK_SWEEP_CONSUMERS.json",
+      "AGENTS/DAEDALUS/profiles/REGINALD.md",
+      "AGENTS/DAEDALUS/profiles/_prior/LIQUID_PRIOR_2026-09-17.md",
+      "AGENTS/DAEDALUS/profiles/_prior/CARL_PRIOR_2026-09-17.md",
+      "AGENTS/DAEDALUS/profiles/HENRY.md",
+      "AGENTS/DAEDALUS/profiles/AEOLUS.md",
+      "AGENTS/DAEDALUS/scripts/tests/fixtures/profile_clock/CARL.md"
+    ],
+    "live_candidates": [
+      "AGENTS/DAEDALUS/upgrades/PRODUCTION_REVIEW_2026-08-17.md",
+      "AGENTS/DAEDALUS/profiles/REGINALD.md",
+      "AGENTS/DAEDALUS/profiles/_prior/LIQUID_PRIOR_2026-09-17.md",
+      "AGENTS/DAEDALUS/profiles/_prior/CARL_PRIOR_2026-09-17.md",
+      "AGENTS/DAEDALUS/profiles/HENRY.md",
+      "AGENTS/DAEDALUS/profiles/AEOLUS.md",
+      "AGENTS/DAEDALUS/scripts/tests/fixtures/profile_clock/CARL.md"
+    ],
+    "header": [
+      "# PRODUCTION REVIEW #4 (2026-08-17, on-demand trigger) \u2014 RAW READER REPORTS (PAT-100 companion)",
+      "",
+      "**Run:** #4, pulled forward from ~8/21 on the playbook's own on-demand clause (heaviest Will-active period on record: 1,177 commits / 20+ shippers since run #3, 8/07 12:00). Will's word in-session: \"Okay how about item 2? Does it make sense to continue to work through these?\" \u2192 run executed same evening.",
+      "**Method:** 5-reader Mode-A fan-out clustered by staleness-relative-to-volume. Synthesis: `PRODUCTION_REVIEW_2026-08-17.md` beside this file (the mandated pair).",
+      "**Reader-ops record:** 4 of 5 delivered unprompted (tail, vol, banks, walter \u2014 the best unprompted rate on record); pr4-aeolus idled holding once, delivered complete on one chase."
+    ],
+    "open_tokens": 20,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: AGENTS/DAEDALUS/upgrades/PRODUCTION_REVIEW_2026-08-17.md; AGENTS/DAEDALUS/profiles/REGINALD.md; AGENTS/DAEDALUS/profiles/_prior/LIQUID_PRIOR_2026-09-17.md; AGENTS/DAEDALUS/profiles/_prior/CARL_PRIOR_2026-09-17.md"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/DAEDALUS_SELF_AUDIT_2026-08-17_READER_REPORTS.md",
+    "last_commit": "2026-08-17",
+    "refs": [
+      "AGENTS/DAEDALUS/runs/2026-09-08_CLOCK_SWEEP_CONSUMERS.json",
+      "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD_CLOSEOUT.json",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/upgrades/DAEDALUS_SELF_AUDIT_2026-08-17.md",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json",
+      "AGENTS/DAEDALUS/inbox/processed/2026-08-17_from-PROME_self-audit-cross-read-four-additive-findings-plus-synthesis-priorities.md"
+    ],
+    "live_candidates": [
+      "AGENTS/DAEDALUS/upgrades/DAEDALUS_SELF_AUDIT_2026-08-17.md"
+    ],
+    "header": [
+      "# DAEDALUS SELF-AUDIT 2026-08-17 \u2014 RAW READER REPORTS (PAT-100 companion)",
+      "",
+      "**Commissioned by:** Will (verbatim intent: \"Recently we did a bunch of upgrades to Prome's system. I'd like to do a similar reflective analysis on DAEDALUS system and file structure too.\")",
+      "**Method:** 5-reader Mode-A fan-out over DAEDALUS's own tree, all read-only, zero edits by readers. Synthesis doc: `DAEDALUS_SELF_AUDIT_2026-08-17.md` (beside this file \u2014 the mandated pair, both halves present).",
+      "**Reader-ops record:** 5 spawned in parallel. reader-spine and reader-blueprints delivered unprompted; reader-tooling, reader-registers, reader-workproduct idled holding and delivered on chase (3-of-5 chase rate \u2014 consistent with the standing floor; the chase remains standing procedure). All 5 delivered complete reports with NOT-READ lists."
+    ],
+    "open_tokens": 1,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: AGENTS/DAEDALUS/upgrades/DAEDALUS_SELF_AUDIT_2026-08-17.md"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/WALTER_CARD.md",
+    "last_commit": "2026-07-22",
+    "refs": [
+      "AGENTS/DAEDALUS/upgrades/FIXBATCH_REPORT_2026-07-12.md",
+      "AGENTS/DAEDALUS/FLEET_MAP_HISTORY.tsv",
+      "AGENTS/DAEDALUS/archive/2026-09-08_CLOCK_SWEEP_BEFORE_IMAGES.json",
+      "AGENTS/DAEDALUS/runs/2026-09-24_STALENESS_SWEEP_05.md",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD_CLOSEOUT.json",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json",
+      "AGENTS/DAEDALUS/runs/2026-09-24_SELF_HYGIENE_PASS.md"
+    ],
+    "live_candidates": [
+      "AGENTS/DAEDALUS/upgrades/FIXBATCH_REPORT_2026-07-12.md"
+    ],
+    "header": [
+      "# Upgrade Card \u2014 WALTER (read-only assessment, no agent files touched)",
+      "",
+      "> \u2705 **CLOSED/SUPERSEDED 2026-07-22 (self-sweep fix-batch, Will-approved):** Sweep A/B **APPLIED 7/11** and grep-verified in-file 7/22 (CONTRACT `CLAUDE.md:25`, BOTTOM LINE `STATUS.md:134`) \u2014 the header's 'STILL NOT APPLIED' framing is obsolete. New minor owner-lane item: stale embedded counters inside the BOTTOM LINE (PAT-055). Current truth = FLEET_MAP row + `upgrades/PRODUCTION_REVIEW_2026-07-22.md`. States below are HISTORICAL.",
+      "",
+      "**By:** DAEDALUS \u00b7 **Date:** 2026-07-04 \u00b7 **Class:** Utility (signal/news routing \u2014 the fleet's single entry point for external information)"
+    ],
+    "open_tokens": 1,
+    "disposition": "RETAIN_LINKED_PACKAGE",
+    "basis": "Current analytical/protocol or package dependency reference: AGENTS/DAEDALUS/upgrades/FIXBATCH_REPORT_2026-07-12.md"
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/PROME_AUDIT_2026-07-28_readers/reader_rails_findings.md",
+    "last_commit": "2026-07-28",
+    "refs": [
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json",
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv"
+    ],
+    "live_candidates": [],
+    "header": [
+      "# PROME Decision-Rails & Ledger Audit \u2014 READ-ONLY findings",
+      "**Reader:** DAEDALUS audit reader \u00b7 **Date:** 2026-07-28 (Tue) \u00b7 **Scope:** `PROME/` \u2014 STATUS.md, SCRATCH.md, GATES.tsv, DOCKET.tsv, ACTIVE_DECISIONS.md, ROSTER.md, FLEET_SCAN.md, MID_JULY_NODE.md, action-cards/",
+      "**Method note:** every negative claim below was verified by grep/`date` before assertion; the verification is quoted inline with the finding.",
+      "",
+      "---"
+    ],
+    "open_tokens": 6,
+    "disposition": "RETIRE_CANDIDATE_VERIFIED_HISTORY",
+    "basis": "Header/context says closed queue, executed build/audit, historical findings or shipped mechanism; no live-reference candidate and no pending docket/gate reference found in basename search."
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/PROME_AUDIT_2026-07-28_readers/reader_tools_findings.md",
+    "last_commit": "2026-07-28",
+    "refs": [
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json",
+      "AGENTS/DAEDALUS/runs/2026-09-08_CLOCK_SWEEP_CONSUMERS.json"
+    ],
+    "live_candidates": [],
+    "header": [
+      "# PROME TOOL-LAYER + ORCHESTRATION-DOC AUDIT",
+      "",
+      "**Auditor:** reader-tools (READ-ONLY audit reader for DAEDALUS) \u00b7 **Date:** 2026-07-28 \u00b7 **Status:** COMPLETE (not partial)",
+      "",
+      "**Scope:** `PROME/tools/` (board_scan.py, fleet_dashboard.py, spine_audit.workflow.js, dashboard_state.json, dashboard_parked.tsv, `__pycache__/`) + `PROME/codex/CHARTER.md` + `PROME/ORCHESTRATION_PLAYBOOK.md` + `PROME/ORCHESTRAL_LAYER_DESIGN.md`."
+    ],
+    "open_tokens": 0,
+    "disposition": "RETIRE_CANDIDATE_VERIFIED_HISTORY",
+    "basis": "Header/context says closed queue, executed build/audit, historical findings or shipped mechanism; no live-reference candidate and no pending docket/gate reference found in basename search."
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/PROME_AUDIT_2026-07-28_readers/reader_flow_findings.md",
+    "last_commit": "2026-07-28",
+    "refs": [
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json"
+    ],
+    "live_candidates": [],
+    "header": [
+      "# PROME FLOW-SURFACES AUDIT \u2014 reader-flow findings",
+      "",
+      "**Auditor:** reader-flow (read-only audit reader for DAEDALUS) \u00b7 **Date:** 2026-07-28 \u00b7 **Status:** COMPLETE (not partial)",
+      "",
+      "**Scope covered:** `PROME/inbox/` (+ `processed/`), `packets/`, `proposals/`, `reports/`, `cluster/`, `drafts/`, `research/`, `public-prep/`, `artifacts/`, `action-cards/`, plus `archive/` at **boundary level only** (top-level listing + BOOT/CLOSEOUT reference test; contents not read deeply, per instruction)."
+    ],
+    "open_tokens": 1,
+    "disposition": "RETIRE_CANDIDATE_VERIFIED_HISTORY",
+    "basis": "Header/context says closed queue, executed build/audit, historical findings or shipped mechanism; no live-reference candidate and no pending docket/gate reference found in basename search."
+  },
+  {
+    "path": "AGENTS/DAEDALUS/upgrades/PROME_AUDIT_2026-07-28_readers/reader_spine_findings.md",
+    "last_commit": "2026-07-28",
+    "refs": [
+      "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/retirement_candidates.json"
+    ],
+    "live_candidates": [],
+    "header": [
+      "# PROME PROTOCOL-SPINE AUDIT \u2014 read-only reader findings",
+      "",
+      "**Date:** 2026-07-28 \u00b7 **Scope:** PROME/{CLAUDE,BOOT,CLOSEOUT,SYSTEM,AUTONOMY,MACHINE_LOCAL,GIT_COORDINATION,HANDOFF,COMPLETION_SPEC}.md + root CLAUDE.md",
+      "**Status:** COMPLETE \u2014 all 9 PROME files + root CLAUDE.md read in full. Read-only; nothing edited, created, moved, or deleted outside this scratchpad file.",
+      "**Result:** 19 findings \u2014 4 \ud83d\udd34 wrong-now / 7 \ud83d\udfe0 rots-soon / 8 \ud83d\udfe1 cosmetic."
+    ],
+    "open_tokens": 0,
+    "disposition": "RETIRE_CANDIDATE_VERIFIED_HISTORY",
+    "basis": "Header/context says closed queue, executed build/audit, historical findings or shipped mechanism; no live-reference candidate and no pending docket/gate reference found in basename search."
+  }
+]
