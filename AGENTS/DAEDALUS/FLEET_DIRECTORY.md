@@ -69,7 +69,7 @@ WF source: `/home/willi/Research-Intake/scripts/newsweep_config.py` · SHA256 `9
 
 | Agent | Class | Lvl | Cf | Scored | What it does | Missing / next | WF |
 |---|---|---|---|---|---|---|---|
-| DAEDALUS | Meta | L4 | M | 2026-10-21 | Fleet architect — design / structure / maturity / lifecycle | L5 not attempted: finish current review dispositions and satisfy zero-o… | n/a |
+| DAEDALUS | Meta | L4 | M | 2026-10-21 | Fleet architect — design / structure / maturity / lifecycle | HAWK whole profile next, then remaining accepted cohort | n/a |
 | RAV | Meta | L2 | M | 2026-10-21 | Deep factual/analytical reviewer + bounded repair (Codex, Will-driven) | L3 on first charter §5 run report when Will commissions it | — |
 | CATO | — | — | — | — | Will's manual Codex/Astra adviser + independent reviewer | UNGRADED BY RULING (WQ-255, 2026-09-26): manual-only — no launch, no routing, no ladder row | — |
 
