@@ -10,7 +10,7 @@ ahead, past-due always) or session-keyed (non-date span), is checked for a citat
 AGENTS/DAEDALUS/STATUS.md. An uncited row is printed in full-enough form to act on.
   · "open" = `docket_view.state_kind(...) == "PENDING"` — the fleet's one definition, imported,
     never re-derived here (a DECLINED-prefixed state is TERMINAL there, and so here).
-  · a row whose DAEDALUS owner segment says "informed" is listed separately and does NOT gate.
+  · a row whose EVERY relevant owner segment unambiguously says DAEDALUS informed is listed separately and does NOT gate; mixed/uncertain roles remain gating.
 
 rc (CHECK_STANDARD §9):  0 CLEAN  every gating row cited
                          1 DUE    ≥1 gating row uncited (owed: triage it onto the board)
@@ -43,12 +43,63 @@ STATUS_DEFAULT = os.path.join(ROOT, "AGENTS", AGENT, "STATUS.md")
 NAME_RE = re.compile(r"\b%s\b" % AGENT)
 
 
+def owner_segments(owners):
+    """All top-level slash-separated segments naming DAEDALUS; malformed nesting is conservative."""
+    segments, start, depth = [], 0, 0
+    for i, char in enumerate(owners):
+        if char == "(":
+            depth += 1
+        elif char == ")":
+            depth -= 1
+            if depth < 0:
+                return [owners] if NAME_RE.search(owners) else []
+        elif char == "/" and depth == 0:
+            segments.append(owners[start:i].strip())
+            start = i + 1
+    if depth:
+        return [owners] if NAME_RE.search(owners) else []
+    segments.append(owners[start:].strip())
+    return [seg for seg in segments if NAME_RE.search(seg)]
+
+
 def owner_segment(owners):
-    """The ' / '-separated owner segment that names the agent (first one), or ''."""
-    for seg in re.split(r"\s+/\s+", owners):
-        if NAME_RE.search(seg):
-            return seg
-    return ""
+    """Display every relevant segment; never hide a later accountable role."""
+    return " / ".join(owner_segments(owners))
+
+
+def informed_only(owners):
+    """Only explicit, unambiguous informed roles exempt; uncertain prose remains accountable.
+
+    Descriptive tails, negation and mixed actions are deliberately NOT inferred away.
+    Slash inside parentheses (e.g. scripts/ ownership) is not an owner separator.
+    """
+    depth = 0
+    for char in owners:
+        depth += (char == "(") - (char == ")")
+        if depth < 0:
+            return False
+    if depth:
+        return False
+    segments = owner_segments(owners)
+    indirect = re.compile(r"[A-Z][A-Z0-9_]*\s*\(\s*DAEDALUS\s+(?:informed|informed-only)\s*\)", re.I)
+    descriptor = re.compile(r"(?:cadence spec owner|rule \d+ owner|tool owner(?: for scripts/)?|scripts/ grant)", re.I)
+
+    def explicit(seg):
+        if len(NAME_RE.findall(seg)) != 1:
+            return False
+        if indirect.fullmatch(seg):
+            return True
+        if not re.match(r"^DAEDALUS(?:\b)", seg):
+            return False
+        body = seg[len(AGENT):].strip()
+        # Known owner descriptors name provenance, not an instruction. Any other
+        # clause (writer, negation, arbitrary prose) stays conservatively gating.
+        tokens = [t.strip() for t in re.split(r"[();,]", body) if t.strip()]
+        return (sum(t.lower() in ("informed", "informed-only") for t in tokens) == 1
+                and all(t.lower() in ("informed", "informed-only") or descriptor.fullmatch(t) for t in tokens))
+
+    return bool(segments) and all(explicit(seg) for seg in segments)
+
 
 
 def cited(n, status_text):
@@ -79,7 +130,7 @@ def assess(docket_path, status_path, as_of, horizon):
             continue
         if cited(r["line"], status):
             cited_rows.append(r)
-        elif "informed" in owner_segment(r["owners"]).lower():
+        elif informed_only(r["owners"]):
             informed.append(r)
         else:
             gating.append(r)
@@ -91,7 +142,7 @@ def assess(docket_path, status_path, as_of, horizon):
     def show(r):
         when = r["span"] if r["start"] is None else (
             r["span"] + (" (PAST)" if (r["end"] or r["start"]) < as_of else ""))
-        return (f"  ⏰ L{r['line']} · {when} · role: {owner_segment(r['owners'])[:90]} · "
+        return (f"  ⏰ L{r['line']} · {when} · role: {owner_segment(r['owners'])} · "
                 f"{r['catalyst'][:110]}")
     if gating:
         out.append(f"⏰ UNCITED in STATUS.md — put each on the board (act · date · or say why not):")

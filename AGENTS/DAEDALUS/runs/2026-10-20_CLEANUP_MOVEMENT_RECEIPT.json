@@ -1,0 +1,554 @@
+{
+  "base": "fc5ae5a5b9744be379eca277c003f32da7edeb2a",
+  "terms": "No original bytes discarded; archived full originals retain original line numbers. Live rewrites summarized only after preservation.",
+  "files": [
+    {
+      "source": "AGENTS/DAEDALUS/STATUS.md",
+      "archive": "AGENTS/DAEDALUS/archive/2026-10-20_ORGANIZATION_CLEANUP/STATUS.md.before",
+      "bytes": 24765,
+      "sha256": "fe4be297af30c4656885700b60c58817afaca2336bb300d7ca6a1f4d50d2f3eb",
+      "blocks": [
+        {
+          "start_line": 1,
+          "end_line": 10,
+          "heading": "# DAEDALUS STATUS",
+          "sha256": "19200ab05226117d318030c029e401dba19fbeec00b26c4a260d7f2766cef342"
+        },
+        {
+          "start_line": 11,
+          "end_line": 16,
+          "heading": "## Current capabilities and operating limits",
+          "sha256": "e367d0e53f9919fdbbde91be7a675ae5e734a7461c1e41286a550feca2064d8f"
+        },
+        {
+          "start_line": 17,
+          "end_line": 29,
+          "heading": "## October 2 deliveries \u2014 actual state, not the superseded owed list",
+          "sha256": "4c297a0cb0fd851af4aaa84ece9229a372f675279f339f0ae7365894e1c964ad"
+        },
+        {
+          "start_line": 30,
+          "end_line": 50,
+          "heading": "## Dated work \u2014 incomplete work remains visible",
+          "sha256": "ef4c9c700fe921644676bddfebe05cbec2ae67564d5610000e16d87124dda533"
+        },
+        {
+          "start_line": 51,
+          "end_line": 63,
+          "heading": "## Older design obligations \u2014 next action, not erased by the new schedule",
+          "sha256": "8b3b549a1249106b896110d498665358ac4691da7cb887d54413d23c6ccafaaf"
+        },
+        {
+          "start_line": 64,
+          "end_line": 74,
+          "heading": "## Conditional seats and other owners",
+          "sha256": "17be2ada7603d8b9ebe60f9008847ffdca73e519c1dd74b60b5f83f8c7abec7e"
+        },
+        {
+          "start_line": 75,
+          "end_line": 78,
+          "heading": "## Closeout implementation \u2014 DC7, October4",
+          "sha256": "0b1726a392f2abac6943e6be5a8f5e0a57475ca97feb696a9a72b9ab5b9837e6"
+        },
+        {
+          "start_line": 79,
+          "end_line": 85,
+          "heading": "## Next actions",
+          "sha256": "6190eaf5edeb868bc12517736ac9e0bb86671b39c75ebe692254eee727499749"
+        },
+        {
+          "start_line": 86,
+          "end_line": 89,
+          "heading": "## Prior assessment \u2014 2026-10-08 late evening",
+          "sha256": "c5044097e79f066418fbb68e99ff7e9162989d0fb17ce078585aa6d46be4a507"
+        },
+        {
+          "start_line": 90,
+          "end_line": 95,
+          "heading": "## BOTTOM LINE \u2014 2026-10-20",
+          "sha256": "00c624b81aaee597b4031855e37122c9a1b30bb0eadd8a5549f856857a8bcb54"
+        }
+      ]
+    },
+    {
+      "source": "AGENTS/DAEDALUS/HANDOFF.md",
+      "archive": "AGENTS/DAEDALUS/archive/2026-10-20_ORGANIZATION_CLEANUP/HANDOFF.md.before",
+      "bytes": 21850,
+      "sha256": "f57fd68dfb80c9947df9196489d378a3c67b8c235628b0eb3e584cfe2db45530",
+      "blocks": [
+        {
+          "start_line": 1,
+          "end_line": 6,
+          "heading": "# Current continuation \u2014 October20 Codex, Will-directed organization review",
+          "sha256": "f05b3c5cd19e3acf614bd66c240b6b6ca2f968be82b5e50222536fc80e92fdd1"
+        },
+        {
+          "start_line": 7,
+          "end_line": 12,
+          "heading": "# Current continuation \u2014 October 8 WQ-389 wake (PROME `prome-fc`)",
+          "sha256": "e87456d9232c4f7f98a4a642a63a07ae1ec221437cbb087a823bae1ab48b61b7"
+        },
+        {
+          "start_line": 13,
+          "end_line": 18,
+          "heading": "# Current continuation \u2014 October4 bounded closeout implementation",
+          "sha256": "b13d5eb69c54f62bb8076af46cc9189ed7677d9d5785bf94e541ef6b73a52972"
+        },
+        {
+          "start_line": 19,
+          "end_line": 28,
+          "heading": "# Current continuation \u2014 October4 final harness evidence",
+          "sha256": "cd439a2e633c81dbdaf9513704c7afad4162b7cdb5668e5b36072ba47efd2ff4"
+        },
+        {
+          "start_line": 29,
+          "end_line": 32,
+          "heading": "# October4 status review",
+          "sha256": "691b230e44e69dfbcf7d4997800703558b7b8a6201faceebec5f311dc312a282"
+        },
+        {
+          "start_line": 33,
+          "end_line": 42,
+          "heading": "# Latest continuation \u2014 October3 owner-response follow-through",
+          "sha256": "1b28cc6fdc4a1eb4a2c0cb25acc4bbef47b4fefba8cb2f7408ca458a4e370020"
+        },
+        {
+          "start_line": 43,
+          "end_line": 48,
+          "heading": "## Historical continuation below \u2014 superseded on judgment consumption and capacity",
+          "sha256": "342fb253101dc911539f3f9282c529a5a01f98c4ed07b61087c2a03fcf7274ca"
+        },
+        {
+          "start_line": 49,
+          "end_line": 58,
+          "heading": "# Current continuation \u2014 2026-10-03",
+          "sha256": "d61dc0962aa25553ca890042b6373fb2724af1353e98c5b242945612f118000c"
+        },
+        {
+          "start_line": 59,
+          "end_line": 66,
+          "heading": "# DAEDALUS \u2014 HANDOFF",
+          "sha256": "d0963afa753a820caceda5ae259bb53c567029647f2c3d741c4d855a07b120c5"
+        },
+        {
+          "start_line": 67,
+          "end_line": 73,
+          "heading": "## 0. 2026-09-17 \u2014 P4 delivered as a written package; what a cold boot must know (newest entry; \u00a71\u2013\u00a76 below are the 9/14 entry, still true)",
+          "sha256": "a1ff2c052ec681c76bd861dc12319c168ae7bcedda6e3e3ede0a86fab66cd17a"
+        },
+        {
+          "start_line": 74,
+          "end_line": 75,
+          "heading": "## 1. READ THIS FIRST AT YOUR NEXT BOOT \u2014 two findings that outlive their commit messages",
+          "sha256": "cc64b4b1b3689540ca2f280818cbb513ed7c5381898e09976dec7f346e8277da"
+        },
+        {
+          "start_line": 76,
+          "end_line": 96,
+          "heading": "### \u2460 \ud83d\udd34 MY OWN INSTRUMENT PRODUCED A FALSE BREACH, AND IT NEARLY COST A LIVE CONTRACT",
+          "sha256": "5435a86b4960372fde4d1d361cae8a4a5971dcff08660965fbcd792415e52d97"
+        },
+        {
+          "start_line": 97,
+          "end_line": 123,
+          "heading": "### \u2461 \ud83d\udd34 THE CAPACITY-LIMIT CLAIM \u2014 ARGUMENT STANDS, EXEMPLAR WANTED",
+          "sha256": "fc8c6334dfaa390607c09735a0f06fb60ed4bcfae8479b099a2febc166da4103"
+        },
+        {
+          "start_line": 124,
+          "end_line": 135,
+          "heading": "## 2. DATED ROWS THAT LAND NEXT \u2014 and what is ACTUALLY true of them",
+          "sha256": "5919a51ac29dd6111710046e7906621c22411f60def6e139592dc67bc6cec823"
+        },
+        {
+          "start_line": 136,
+          "end_line": 148,
+          "heading": "## 3. \u2192 WILL, one item, unchanged and still owed",
+          "sha256": "95d199b112e4bf460700a01ff58493fe78591eacf8679424706f4e5bfbc70c71"
+        },
+        {
+          "start_line": 149,
+          "end_line": 164,
+          "heading": "## 4. RISKS / BLOCKERS",
+          "sha256": "c089a71ea0dc11ac6a604d5d0200cc82f0ae0ad42da16e02d99f68efffb79d6b"
+        },
+        {
+          "start_line": 165,
+          "end_line": 175,
+          "heading": "## 5. NEXT SUGGESTED WORK (dated board unchanged)",
+          "sha256": "c4b43fdf68afa3d4e27a06e6f577b879adabcf1d905f8612cabb25efe2a34808"
+        },
+        {
+          "start_line": 176,
+          "end_line": 184,
+          "heading": "## 6. PATTERNS MINTED TODAY \u2014 PAT-167 \u2026 PAT-177 (11 rows)",
+          "sha256": "e8b53463153323ecf26e249b6fc9f6dfad1d717b9097546a3aa3f18177b0bdec"
+        }
+      ]
+    },
+    {
+      "source": "AGENTS/DAEDALUS/OPERATIONS.md",
+      "archive": "AGENTS/DAEDALUS/archive/2026-10-20_ORGANIZATION_CLEANUP/OPERATIONS.md.before",
+      "bytes": 17580,
+      "sha256": "ab350b1bf421cef3ce5d3090c12b57e827b4af601f432ab5b74d72e8ed4a57f7",
+      "blocks": [
+        {
+          "start_line": 1,
+          "end_line": 4,
+          "heading": "# DAEDALUS \u2014 Active operating instructions",
+          "sha256": "fe77f1cdaf7ffcf93dbb7441a34a61b373ef955d3f6b5cc77ce888f81ee831d0"
+        },
+        {
+          "start_line": 5,
+          "end_line": 6,
+          "heading": "## THE JOBS",
+          "sha256": "ea28e6bf555073d05638bc3cc5b8455b765d38a2e70922fc62bf4949a619da51"
+        },
+        {
+          "start_line": 7,
+          "end_line": 9,
+          "heading": "### 1. Build (new agents)",
+          "sha256": "8e25d8fc1730e22d3ec75f98cee2a5fdc28834f931c56ed063b52f69fe957e25"
+        },
+        {
+          "start_line": 10,
+          "end_line": 17,
+          "heading": "### 2. Maintain (structure)",
+          "sha256": "9c61bbd6ccc47b2e5f53f8e1b51dfa8e0a5c637833f84f7f941ace0465dfb40c"
+        },
+        {
+          "start_line": 18,
+          "end_line": 20,
+          "heading": "### 3. Maturity map",
+          "sha256": "ed5e1fe26626c1f2309372ac0384403b381b16196821ea745d3d3078ceb1a14b"
+        },
+        {
+          "start_line": 21,
+          "end_line": 23,
+          "heading": "### 3b. Comprehend (prerequisite for build/maintain on heavy agents)",
+          "sha256": "6e35723a28b1c58dcfe74e716dc3b871d7d8eedff4518db458fbb01f23672ee0"
+        },
+        {
+          "start_line": 24,
+          "end_line": 26,
+          "heading": "### 4. Retire (lifecycle inverse)",
+          "sha256": "1d014091a1cd20eb94c16ba5c3c0fbba7b732dd86dab8e6c06647da9333429cf"
+        },
+        {
+          "start_line": 27,
+          "end_line": 38,
+          "heading": "### 5. Review an OFF-FLEET / private-zone agent *(encoded 2026-08-19 after the first one \u2014 VIRGIL; the procedure below was improvised that session and worked, so it is written down rather than re-derived)*",
+          "sha256": "c9d0c31baf8ffee6213257a35e3fc70f93f1c3195ee433243c8aec935c25d5d0"
+        },
+        {
+          "start_line": 39,
+          "end_line": 59,
+          "heading": "## MATURITY LADDER (per-class)",
+          "sha256": "8da69f31e8514c068618a2f1ea750cf3cc8535553ef49f11628d5b2825b9e8b3"
+        },
+        {
+          "start_line": 60,
+          "end_line": 77,
+          "heading": "## MEMORY MODEL (your learning)",
+          "sha256": "201ed303d7564e75b213de396c292cf29d0f4980bf85d6fe721a8bf705e2775a"
+        },
+        {
+          "start_line": 78,
+          "end_line": 102,
+          "heading": "## FILES",
+          "sha256": "b19670376f398c3b00d403126475335c00d647fc15c661279a8e07289d68206e"
+        }
+      ]
+    },
+    {
+      "source": "AGENTS/DAEDALUS/UPGRADE_PROTOCOL.md",
+      "archive": "AGENTS/DAEDALUS/archive/2026-10-20_ORGANIZATION_CLEANUP/UPGRADE_PROTOCOL.md.before",
+      "bytes": 15431,
+      "sha256": "d76c41222784f60a28c44c10ae74c376e8c20494730bdf96fb3425a019823596",
+      "blocks": [
+        {
+          "start_line": 1,
+          "end_line": 12,
+          "heading": "# DAEDALUS Upgrade Protocol \u2014 section-at-a-time",
+          "sha256": "5d8486a3068a3e1848047da83503911af85c680fbde977686237922394e0b759"
+        },
+        {
+          "start_line": 13,
+          "end_line": 20,
+          "heading": "## Why section-at-a-time",
+          "sha256": "9e180b09525b4b35046d9046c8c856e3bb2306cc9b34e46fd731c4eafc5fd8f1"
+        },
+        {
+          "start_line": 21,
+          "end_line": 46,
+          "heading": "## Step 0 \u2014 COMPREHEND first (prerequisite for heavy agents)",
+          "sha256": "aea05ec1106c16b0aed277d7dfd1fe788fc6b8cc89d7a8f9d55e9e83b958f795"
+        },
+        {
+          "start_line": 47,
+          "end_line": 58,
+          "heading": "## The section-task lifecycle (7 steps)",
+          "sha256": "8375b4379b8d89fb2ef4972651f0dee1319dcd9dab37eca26b6105d09bf53a8a"
+        },
+        {
+          "start_line": 59,
+          "end_line": 62,
+          "heading": "## The artifact: an upgrade card",
+          "sha256": "e4bcf13c1cdb9a652fdbe16cfa9aa451bd6778fd688e54026669b8e74c5c7aad"
+        },
+        {
+          "start_line": 63,
+          "end_line": 71,
+          "heading": "## Priority order (which section first)",
+          "sha256": "1eb409fbd27e8907753c11d763b61001249fd5416f93e1f701c2b82ac75c4b74"
+        },
+        {
+          "start_line": 72,
+          "end_line": 80,
+          "heading": "## Review method \u2014 three rules from the six-ideas batch (Will-ruled 2026-08-20, verdicts at `upgrades/SIX_IDEAS_RESPONSE_2026-08-17.md`)",
+          "sha256": "8f8a167b4126f493518afa7d910796aaeed13c392c463d330984210437d0e8b4"
+        }
+      ]
+    },
+    {
+      "source": "AGENTS/DAEDALUS/CHECKS.tsv",
+      "archive": "AGENTS/DAEDALUS/archive/2026-10-20_ORGANIZATION_CLEANUP/CHECKS.tsv.before",
+      "bytes": 68968,
+      "sha256": "046587f576f22d6dd1f449bc6a6a8d1158bcfaa455fb792f7f55ab7eb17ef43a",
+      "blocks": [
+        {
+          "start_line": 1,
+          "end_line": 1,
+          "heading": "# --- SHARED MECHANICAL CHECKS: one row per check in repo-root `scripts/` (DAEDALUS-owned surface, Will-ruled 2026-07-31). Companion to SURFACES.tsv: that register asks 'who owns this surface?', this one asks 'who RUNS this check, and what does its PASS mean?'",
+          "sha256": "47632d8a163f0f56e9d4b0c0595461a845fabedd1b46fb8da20dbec93a3297b5"
+        },
+        {
+          "start_line": 2,
+          "end_line": 2,
+          "heading": "# --- Created 2026-08-03 (Will-approved). Founding measurement: 17 shared scripts; invocation is BIMODAL, not thin \u2014 safe-push cited in 39 protocol docs and ledger_staleness in 16, while TWO load-bearing checks were cited in NO executable step at all. PAT-071 one layer over: A CHECK WITH NO INVOCATION SITE IS UNOWNED IN PRACTICE, whoever wrote it.",
+          "sha256": "56dd510027b8f6c7db38f0ac40bfd7cd8d0fb47bfc08fe91f9bd45774ed8e72b"
+        },
+        {
+          "start_line": 3,
+          "end_line": 3,
+          "heading": "# --- State tokens (local canon; BLUEPRINTS/STATE_VOCABULARY.md has no class for invocation state \u2014 registry extension owed): WIRED = cited as an executable step in >1 protocol \u00b7 WIRED-SINGLE-INVOKER = exactly one protocol invokes it \u00b7 WIRED-HARNESS = fired by .claude/settings.json, not a doc \u00b7 UNWIRED = no executable step anywhere \u00b7 MANUAL-BY-DESIGN = deliberately on-demand \u00b7 SETUP-ONLY = machine provisioning \u00b7 NOT-A-CHECK = tool, registered so the count is honest.",
+          "sha256": "a20c5ff99cc6bff6a97ab3310d381904729130f27c38682c033cc1040eab3f6e"
+        },
+        {
+          "start_line": 4,
+          "end_line": 43,
+          "heading": "# --- SCOPE (widened 2026-08-17, Will-approved W2, self-audit F10): repo-root `scripts/` PLUS any agent-local check whose owner's boot does NOT invoke it \u2014 the original exclusion predicate ('invoked by their own owner's boot') was measured FALSE for DAEDALUS's own scripts (1 of 4 boot-invoked). An agent-local check with a real boot invoker stays OUT; one without is exactly PAT-071's unowned-in-practice class and belongs here. First instance: the 4 DAEDALUS-local rows below.",
+          "sha256": "e97a6b1ed48028d75abcf3fcb3cf436d7e819f355f78ee917d18d4032189b9b5"
+        }
+      ]
+    },
+    {
+      "source": "AGENTS/DAEDALUS/SURFACES.tsv",
+      "archive": "AGENTS/DAEDALUS/archive/2026-10-20_ORGANIZATION_CLEANUP/SURFACES.tsv.before",
+      "bytes": 11262,
+      "sha256": "82f1a981aafade7d1900f71adfd56b5e6497f34c3c4d55d16ab798603734f335",
+      "blocks": [
+        {
+          "start_line": 1,
+          "end_line": 1,
+          "heading": "Surface\tOwner\tOwner_provenance\tEnforcing_mechanism\tState\tGap\tLast_reviewed\tNotes",
+          "sha256": "3bbf9bd8318e28e0b9f10e92487a818999a590f59c7f0cd0599c5a1c79067bf7"
+        },
+        {
+          "start_line": 2,
+          "end_line": 3,
+          "heading": "# --- Shared NON-AGENT surfaces: everything load-bearing that lives outside AGENTS/<NAME>/ and is therefore outside every AGENTS-scoped enforcer. Created 2026-07-30 as the PAT-071 fix-form artifact (Will ruled FORGE ownership same day; PROME endorsed the pattern). ---",
+          "sha256": "b9152890c22b7cb6c681c40089bc8b960ed4b26099b7ac28b05b21d27b922dcb"
+        },
+        {
+          "start_line": 4,
+          "end_line": 17,
+          "heading": "# --- State: ENFORCED = owner-side mechanism demonstrably reaches it | SCHEDULED = fix on a dated batch | UNMECHANIZED = owner exists, rule is prose-only | DEAD-UNBANNERED = surface is dead and says so nowhere on itself | UNASSIGNED = no named owner ---",
+          "sha256": "8056652fc698e22603d35580c887295efc01470d83f77479574e0717bc6f27ab"
+        }
+      ]
+    },
+    {
+      "source": "AGENTS/DAEDALUS/PATTERNS_HOT.md",
+      "archive": "AGENTS/DAEDALUS/archive/2026-10-20_ORGANIZATION_CLEANUP/PATTERNS_HOT.md.before",
+      "bytes": 9368,
+      "sha256": "cb6710ee3a2f0971a537b84783873ada9f9527c7b0f7a713198597bc4f93fe3b",
+      "blocks": [
+        {
+          "start_line": 1,
+          "end_line": 54,
+          "heading": "# PATTERNS \u2014 HOT INDEX (GENERATED \u2014 do not hand-edit; regenerate via scripts/regen_patterns_hot.py)",
+          "sha256": "cb6710ee3a2f0971a537b84783873ada9f9527c7b0f7a713198597bc4f93fe3b"
+        }
+      ]
+    },
+    {
+      "source": "AGENTS/DAEDALUS/PATTERNS_COLD_INDEX.md",
+      "archive": "AGENTS/DAEDALUS/archive/2026-10-20_ORGANIZATION_CLEANUP/PATTERNS_COLD_INDEX.md.before",
+      "bytes": 20344,
+      "sha256": "3e0478f0c5d3a834a85b8e9cbed03ad89079ba986c58e94075dedc34861df567",
+      "blocks": [
+        {
+          "start_line": 1,
+          "end_line": 140,
+          "heading": "# PATTERNS \u2014 COLD INDEX (GENERATED \u2014 do not hand-edit; regenerate via scripts/regen_patterns_hot.py)",
+          "sha256": "3e0478f0c5d3a834a85b8e9cbed03ad89079ba986c58e94075dedc34861df567"
+        }
+      ]
+    },
+    {
+      "source": "AGENTS/DAEDALUS/design/2026-09-17_DAEDALUS_GATE_SPEC.md",
+      "archive": "AGENTS/DAEDALUS/archive/2026-10-20_ORGANIZATION_CLEANUP/design__2026-09-17_DAEDALUS_GATE_SPEC.md.before",
+      "bytes": 16964,
+      "sha256": "6e4cba86484b06021c483b0a6765df6c978225dcf98e76db4a31bacc307fa835",
+      "blocks": [
+        {
+          "start_line": 1,
+          "end_line": 6,
+          "heading": "# `daedalus_gate.py` \u2014 thin runner over the existing boot/closeout checks (spec + acceptance set, written BEFORE the code)",
+          "sha256": "b02d55784a0cfa21053077970ea396065758d01fcbb16f7574afcffd2258cddc"
+        },
+        {
+          "start_line": 7,
+          "end_line": 11,
+          "heading": "## 1. What it is, and is not",
+          "sha256": "043bfb1f02f62e36ab00b5851cc9cdadb132f9abd49fcf5dbf9ef7b7fb1f65d9"
+        },
+        {
+          "start_line": 12,
+          "end_line": 24,
+          "heading": "## 2. Classes (five, kept distinct \u2014 CATO's requirement)",
+          "sha256": "6dbc79f2d36e737090e5dad94b650aed159d8b51873130e543ab6f482f941bbf"
+        },
+        {
+          "start_line": 25,
+          "end_line": 29,
+          "heading": "## 3. Step registry (in the SCRIPT \u2014 the charter names the runner, the runner owns the list)",
+          "sha256": "9d6b1b101d2ed6a3817dc238be9b8f3fd7a0c2c6c45be171920663a0042dbffc"
+        },
+        {
+          "start_line": 30,
+          "end_line": 34,
+          "heading": "## 4. Receipt",
+          "sha256": "d5a46eb9b05e94f2831b183d929ada84d25a6307bed8913a8dd6877ee9447e6f"
+        },
+        {
+          "start_line": 35,
+          "end_line": 52,
+          "heading": "## 5. Acceptance set \u2014 each item names its drill; \u00a73(a)/(b)/(e) real cases named by path",
+          "sha256": "99078b36fdcacfbb04ad30880ac2cef0eb5ada16cd3cee1352f9594eb3c1f82b"
+        },
+        {
+          "start_line": 53,
+          "end_line": 55,
+          "heading": "## 6. Perimeter line (\u00a72) \u2014 printed on every run",
+          "sha256": "d45bd74af89e0595d2d5dadf5b07f8ad72080c2da9da50055e9976524570c383"
+        },
+        {
+          "start_line": 56,
+          "end_line": 74,
+          "heading": "## 7. Candidate v2 contract \u2014 settled before implementation, October 4",
+          "sha256": "c1652da4aad11e60a897606de137811e85d964959aca8e9a3b2ae2a0edb5a4a7"
+        }
+      ]
+    },
+    {
+      "source": "AGENTS/DAEDALUS/EVOLUTION.md",
+      "archive": "AGENTS/DAEDALUS/archive/2026-10-20_ORGANIZATION_CLEANUP/EVOLUTION.md.before",
+      "bytes": 26011,
+      "sha256": "38443385beee73787e8b45f6779be2f84117368ef5999217222ca8f57d128881",
+      "blocks": [
+        {
+          "start_line": 1,
+          "end_line": 6,
+          "heading": "# EVOLUTION \u2014 Architecture Changelog",
+          "sha256": "5e4ad6e8abc8c6bcacbb66c3f13142c4b3a92fba4ae61d6e6063fb8119c13d25"
+        },
+        {
+          "start_line": 7,
+          "end_line": 8,
+          "heading": "## Changelog",
+          "sha256": "9a5e94a3d74e569bf3cc4742cd4f6a6e866d486ecaca1cb214a9d07ed5a3950e"
+        },
+        {
+          "start_line": 9,
+          "end_line": 12,
+          "heading": "### 2026-10-14 (b) \u2014 Late pairing: a DOCUMENTED late entry stops gating (complete_check leg ii); profile clocks read \"WHOLE refresh\"",
+          "sha256": "e1310fb971c8adba4497eac5ae5b33fcc9a00128d98bfc86dbc47bf92193ffad"
+        },
+        {
+          "start_line": 13,
+          "end_line": 16,
+          "heading": "### 2026-10-14 (a) \u2014 STATE_VOCABULARY declared a write-time reference registry with a dated size watch (L658); Prose-Remedy step 1 typed (PAIRING RECORDED LATE)",
+          "sha256": "2f16d1afea7cc383d9c1fe6f13bec151c751bb0fc4cda94058d072c2d136926f"
+        },
+        {
+          "start_line": 17,
+          "end_line": 20,
+          "heading": "### 2026-10-09 (c) \u2014 Active charter split and existing candidate workflow",
+          "sha256": "5cd6069a2ac08e1112817b259fc38c193ab1ca81b1ad604a8f51d5ba902a1f5f"
+        },
+        {
+          "start_line": 21,
+          "end_line": 24,
+          "heading": "### 2026-10-09 (b) \u2014 Closeout presentation, no clearance change",
+          "sha256": "2b5758bc802fcc193972beecdff0fb3950e848e5f8411029df4f769e0ee1eca8"
+        },
+        {
+          "start_line": 25,
+          "end_line": 30,
+          "heading": "### 2026-10-09 (a) \u2014 Bounded boot-reliability repair",
+          "sha256": "c63bdf4483ed302cfe6c3effa7efa87dc9607c2142b35e0dd8753278c2640fec"
+        },
+        {
+          "start_line": 31,
+          "end_line": 35,
+          "heading": "### 2026-10-08 (a) \u2014 STATE_VOCABULARY corrected for an unbuilt scanner render; standards-adjacent changes from the 10/08 sweeps (PAIRING RECORDED LATE)",
+          "sha256": "d7e359c1a6eca57225f966e86f8a60f4caabc9cc11209aa86858f3a3f28b7629"
+        },
+        {
+          "start_line": 36,
+          "end_line": 44,
+          "heading": "### 2026-10-03 (a) \u2014 October 2 SL-6 and ladder readings recorded late; registration consumer reconciled",
+          "sha256": "ebdb67228e48e0482d95427f6755edb707095e8f9c31dd21b22d51c917c900eb"
+        },
+        {
+          "start_line": 45,
+          "end_line": 51,
+          "heading": "### 2026-09-24 (aa) \u2014 YURI wired on the ruled four-slot chain; three Will rulings encoded (WQ-250 gate-citability \u00b7 WQ-254 correction-class C1\u2013C5 + closure ladder \u00b7 WQ-256 (b) reverse-walk); READ_CAP gains rule-16 CLASS rows; gate-basis step 6 (actionable life) \u2014 *(PAIRING, LATE: the standards commit `fcdcf9254` landed before this entry's commit `36e8d638f`; complete_check leg (ii) flagged it at closeout, correctly. The pairing is this line; the standard is unchanged.)*",
+          "sha256": "9a134d2c9a463f51bbbf7d3cfe9c754e0831f35a74099b578f70943bbbc0640e"
+        },
+        {
+          "start_line": 52,
+          "end_line": 55,
+          "heading": "### 2026-09-17 (z) \u2014 complete_check leg (v): archive block labels unique + monotonic, case-insensitive (PAT-180; both EVOLUTION archives renumbered to physical order)",
+          "sha256": "86c0aa8732d6a66cd26cd14aad210de512a2efa4b35db85bfd52255045a05637"
+        },
+        {
+          "start_line": 56,
+          "end_line": 59,
+          "heading": "### 2026-09-17 (y) \u2014 SPAWN PROTOCOL compacted under a plan + independent read; `daedalus_gate.py` runner wired at steps 5 and 9 (Will \"approved go ahead\" on CATO `87776263a` steps 1b + 2)",
+          "sha256": "6100a9641d1a54a8247f909c0f24f5497bea0fcb9cf2a156c10dca5f67871ca9"
+        },
+        {
+          "start_line": 60,
+          "end_line": 63,
+          "heading": "### 2026-09-17 (x) \u2014 Rule 4b: the review-concentration rule gets a DELIVERY FORM (Will \"approved go ahead\" 20:4x ET on CATO `87776263a`; PAIRED \u2014 PAT-101 rule ii)",
+          "sha256": "5cf43b223ed5f15388a14adbb48ec36755505d2dc11f1d40c6ea895b5ba48b33"
+        },
+        {
+          "start_line": 64,
+          "end_line": 73,
+          "heading": "### 2026-09-17 (w) \u2014 OVERDUE BATTERY: three standard changes and one method correction in one session (Will 09:2x \"approved to begin\"; CATO active-work review `ae94401ad` applied same day)",
+          "sha256": "19d52eeb625b378ac5efa1187fa4a374b6073ef662a96b264f1b6a48e393509c"
+        },
+        {
+          "start_line": 74,
+          "end_line": 86,
+          "heading": "### 2026-09-12 (v) \u2014 READ_CAP gains a SUB-AGENT row, and SL-5's own instance text carried a figure that reproduces on neither operator (PAIRING, LATE \u2014 PAT-101 rule ii, n+7, and the entry is late for the same reason as (r))",
+          "sha256": "23a93bd49ed44431d77624496a84b62837f36a2393b03b6594b203f653d75a59"
+        }
+      ]
+    }
+  ]
+}

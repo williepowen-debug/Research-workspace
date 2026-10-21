@@ -508,6 +508,25 @@ def context_value(root, item):
         return {"python": sys.executable, "version": sys.version, "platform": platform.platform(), "cwd": root,
                 "environment_sha256": {k: digest(os.environ.get(k)) for k in
                                        ("PATH", "LANG", "LC_ALL", "LC_TIME", "TZ", "PYTHONPATH", "PYTHONHASHSEED")}}
+    if kind in ("global-status", "global-history"):
+        if set(item) != {"kind", "basis", "reason"}:
+            raise ValueError("global context accepts only kind, basis and reason; no paths/commands")
+        if kind == "global-status":
+            # C1 runs the default porcelain command: preserve config-sensitive output,
+            # and separately bind child membership inside untracked directories.
+            return {"porcelain": image_bytes(raw_git(root, "status", "--porcelain"), "query"),
+                    "all_untracked": image_bytes(raw_git(root, "status", "--porcelain=v1", "--untracked-files=all"), "query")}
+        # Commit IDs bind metadata and trees only without history overrides.
+        if raw_git(root, "replace", "-l").strip():
+            raise ValueError("global history with replacement refs is unsupported")
+        graft = raw_git(root, "rev-parse", "--git-path", "info/grafts").decode().strip()
+        if not os.path.isabs(graft):
+            graft = os.path.join(root, graft)
+        if os.path.exists(graft) and os.path.getsize(graft):
+            raise ValueError("global history with grafts is unsupported")
+        if raw_git(root, "rev-parse", "--is-shallow-repository").strip() != b"false":
+            raise ValueError("global shallow history is unsupported")
+        return image_bytes(raw_git(root, "log", "--format=%H"), "query")
     paths = [exact_path(p) for p in item["paths"]]
     if not paths:
         raise ValueError("history/status context needs exact nonempty paths")

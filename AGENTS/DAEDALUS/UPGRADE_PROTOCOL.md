@@ -58,7 +58,7 @@ For one agent, one blueprint section (operating against the Profile from Step 0)
 
 ## The artifact: an upgrade card
 
-Per agent, an `upgrades/<AGENT>_CARD.md` — the 8 blueprint sections as rows: `current state | applies? | gap type | proposed handle | priority | status`. The card IS the work queue. Sections are picked off one at a time, never batched into a rewrite.
+Per agent, an `upgrades/<AGENT>_CARD.md` — the 8 blueprint sections as rows: `current state | applies? | gap type | proposed handle | priority | status`. A live card is the work queue; a card banner explicitly CLOSED AS A QUEUE makes it assessment/write-back history, with current gaps on FLEET_MAP and current desk actions on STATUS. Do not reopen historical rows without owner-artifact verification. Sections are picked off one at a time, never batched into a rewrite.
 
 ## Priority order (which section first)
 
