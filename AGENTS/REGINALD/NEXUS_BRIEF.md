@@ -2,9 +2,11 @@
 
 **Status:** Concentrated bank risk; October20 releases do not establish tier-wide credit transmission.
 **Domain:** Regional-bank comparison, FHLB advances, hidden CRE and sponsor-bank balance-sheet risk.
-**As of:** 2026-10-20 23:03 ET, owner session closed at Will’s request | STATUS commit: 9fa4a3d0b
+**As of:** 2026-10-21 09:17 ET, startup complete | STATUS commit: 963eca0ae
 
 ## CROSS-DOMAIN
+
+**Startup October21:** two WALTER owner relays (001 funding correction,003 Boston outcome) read and disposed INFO_ONLY; correction receipted. No new research grade or route. Boot limits→`reports/2026-10-21_boot/RECEIPT.md`.
 
 **SENDING — prior routes retain their dates; new packets committed, consumption unverified:**
 
@@ -54,7 +56,7 @@
 - **Failure patterns to mind:** a detector that exists only as a TSV cell has no lag guarantee — the FLG band-1 break sat 8 days, the band-2 break was caught at the first boot (zero lag) once `vx_ladder_check.py` existed (census every other frozen-baseline band into it); a broker chart's last print at the bell is not the vendor close (WAL $75.21 vs $75.76 on 9/29 — grade the settled bar, label the other); a correction to my figure gets the same recompute as the figure (lesson 40).
 
 
-**Calibration vintage:** prior conviction/divergence frame retained; weekly-funding uncertainty updated with the latest outcome. No re-estimated probability, specialist prior or valuation edge. Current levels are dated in STATUS; eligible exit log caught up through October19, state unchanged.
+**Calibration vintage:** prior conviction/divergence frame retained; weekly-funding uncertainty updated with the latest outcome. No re-estimated probability, specialist prior or valuation edge. Current levels are dated in STATUS; eligible exit log caught up through October20, state unchanged. Pre-open stock quotes datedOctober20, settled WAL/KRE independently matched; credit observations stillOctober19. No fresh bank-transmission attribution.
 
 ## NEXT DECISION POINT
 
