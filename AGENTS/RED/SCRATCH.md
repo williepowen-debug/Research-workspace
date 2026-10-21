@@ -101,3 +101,12 @@ Checked out at origin (0 behind at boot; other desks' dirty paths untouched). S5
 
 **S54-c (2026-10-15 16:02 ET, from `date`) — Network Sweep delivered on Will's word 15:52 ET ("Can we do this:" on the three pushback lines).** Report `reports/2026-10-15_S54_NETWORK_SWEEP.md`; OUTBOX -063; NEXUS vS54 (vS53 rotated); CHG-RED-055 opened (FT-11 FLOW branch = shape test; BOND buyback ~30% of DV01); ML-299…301 (the SKIPPED ML row from 15:1x is ML-301, now written); packet to OZK (conviction token vs disconfirmed catalyst); packets to DAEDALUS (checker census) and PROME (10/29 payoff test). PROME applied the READS row (547f06bb3) and flagged the S53-b packet's 21,413 B figure: that was the pre-fold-back measurement; the charter was 24,526 B at the split commit (MAINTENANCE S53-b already carries 24,526) and is 27,827 B now (85%) — **6g de-dup pass is now the next apparatus item, before anything else apparatus.**
 **NEXT SESSION (Fri 10/16) item 1 ADDITIONS:** (a) FT-11 classification writes BOTH readings (branch + BOND buyback magnitude + intraday timing) per CHG-055; (b) an FT-02 fire is applied mechanically with its composition recorded beside it — ask LIQUID for the levered-AI share at the LIQ-069 review; (c) TIC Aug 16:00 = ONE witness for M-10/ZHA-18; (d) read OZK's answer on the conviction token. **Pre-10/22 re-derivation ledger now holds six sweep inputs (report §6).**
+
+---
+
+## S55-b ADDENDUM (2026-10-21 09:40 ET, from `date`) — Will-approved sweep fixes (09:38 ET via PROME)
+
+- **R1 corrections: all 6 receipted** (COR-20261021-01 APPLIED → STATUS re-derivation inputs, the S52 small-bank H.8 bear input WEAKENED. The other five are NO-OP because RED cites none of them). `corrections_boot_check.py RED` → 0 OK.
+- **BASIS re-hashed** after reading both diffs. Root git recipe moved verbatim to `docs/GIT_WORKTREE_PROCEDURES.md`, plus one new spaced-words output rule. The corrections tool change is on WALTER's register side. No RED rule moved. `basis_check --check` → 0 OK.
+- **STATUS:** priorities rewritten to 10/21 state. The CHG-054 note now states position facts per FORGE [10/20 receipt] with no reminder wording (USER.md 10/20).
+- No weight, trigger or grade changed. NEXT SESSION unchanged: bank tree grade Thu 10/22 after 10:00 ET.

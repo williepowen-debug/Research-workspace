@@ -19,7 +19,7 @@
 | **Soft Landing** | **4%** | −1 S52 MECHANICAL (FT-08 offset) | FT-12 HY <260 s=3 (+2; 65bp away) · FT-05 claims >250 (−) · RED-23 (3-mo CES ≥ +50K at the third Aug print, ~Nov) |
 | **Policy Rescue** | **4%** | = | ORACLE Fed-hike odds ~30% [10/15 12:39Z, relayed by PROME] — attribution is ORACLE's, not RED's |
 
-**Net-bear 68 = Stag 35 + Acute 19 + War 14 · Managed + Rescue 28 · Soft 4 · sum 100.** Trail: S41 58 → S51 60 (discretionary) → S52 63 (FT-08) → S52b 65 (FT-10) → S55 68 (FT-02). **Re-derivation inputs logged, NOT applied (next re-derivation after the 10/22 bank prints, not before — two mechanical fires 24h ago):** bear for War (5 ship losses, FALCON 10/14); bull for Stag (real wages −0.42pp Sep on the registered series, KB-107; NY Fed tariff 12-mo contribution turning negative, SIG-W-20261014-036; CPI breadth ~40% of components >3% 6-mo ann, Bloomberg SECONDARY); bull for funding (ICI govt +$61B AND prime +$4B wk to 10/7 — no flight).
+**Net-bear 68 = Stag 35 + Acute 19 + War 14 · Managed + Rescue 28 · Soft 4 · sum 100.** Trail: S41 58 → S51 60 (discretionary) → S52 63 (FT-08) → S52b 65 (FT-10) → S55 68 (FT-02). **Re-derivation inputs logged, NOT applied (next re-derivation after the 10/22 bank prints, not before — two mechanical fires 24h ago):** bear for War (5 ship losses, FALCON 10/14); bull for Stag (real wages −0.42pp Sep on the registered series, KB-107; NY Fed tariff 12-mo contribution turning negative, SIG-W-20261014-036; CPI breadth ~40% of components >3% 6-mo ann, Bloomberg SECONDARY); bull for funding (ICI govt +$61B AND prime +$4B wk to 10/7 — no flight). **Revised input (COR-20261021-01, REGINALD H.8 10/16 release via WALTER SIG-W-20261021-001):** the S52 bear input "small-bank borrowings +$32.9B in 3 weeks to 9/30, deposits flat" is WEAKENED — 9/30 SA borrowing revised to $314.9B, then fell to $307.4B by 10/7 (−2.39%), cash $500.5B→$482.1B, deposits up; partial reversal, not continuing buffer-build. Counterweight carried: H.4.1 primary credit $11.044B [10/14].
 
 **RECESSION NUMBER [published 9/6, DOCKET L272]: P(NBER recession BEGINNING in calendar 2026) = 4–12%, NO point estimate** (anti-anchoring disclosure: the crowd's 7.0% was read before any series was pulled). Derivation and the ORACLE independence disagreement → [`reports/2026-09-14_S45_status_rotation_folded.md`](reports/2026-09-14_S45_status_rotation_folded.md).
 
@@ -81,15 +81,15 @@
 - **CHG-RED-044** — Conceded S28b; E3b validation claim withdrawn S50; BRK-32 final leg 11/30
 - **CHG-RED-045** — Ruled (A) pre-data at CARL's invitation; resolves at Nov HHDC
 - **CHG-RED-049** — CRL-29 graded 10/20 on RED's five clarifications (WQ-437 RULED 10/15 08:31, CARL accepted all five); VX-009 rides along
-- **CHG-RED-054** — OZK 40P: issuer removed the near-term catalyst (RaDD extension); WQ-425 RULED B — TERRY's cards recommend SELL OZK 40P ×4 pre-10/20, lean SELL WAL 65P ×4 pre-10/19. Orders are Will's; RED grades no fill
+- **CHG-RED-054** — OZK 40P: issuer removed the near-term catalyst (RaDD extension, 8-K 10/12); WQ-425 RULED B. Position facts per `FORGE/STATUS.md` [10/20 intraday receipt, MARK ONLY]: OZK Nov-20 $40P ×4 and WAL Dec-18 $65P ×4 shown held. Dispositions are Will's and are read from his captures, never inferred; RED grades the challenge's reasoning only, per the tree §III on 10/22
 ---
 
-## TOP ADVERSARIAL PRIORITIES (live queue = `SCRATCH.md` § NEXT SESSION; this is the dated headline only, 2026-10-15)
+## TOP ADVERSARIAL PRIORITIES (live queue = `SCRATCH.md` § NEXT SESSION; this is the dated headline only, 2026-10-21 09:4x ET)
 
-1. 🔴 **16:30 today: H.4.1 discount-window point** (4th weekly rise above $9.965B?) → **Fri 10/16: LIQ-07 verdict** → Acute +1 only if BOTH (pre-stated, `research/2026-10-16_LIQ07_RED_READING.md` §4). **FT-02 10/15 cell (publishes 10/16): >320 → 2 of 3.** **FT-11 10/15 official close: classify on `base_rate_review.py` legs.**
-2. 🟠 **10/19–10/22 bank prints** (WAL 10/19 · OZK 10/20 · EGBN 10/21): grade 10/22 per the tree — CHG-027, Acute ±1 conjunctions, CHG-054 re-grade. **10/20: CARL's CRL-29 first grade → CHG-049.**
-3. 🟡 **Post-10/22: discretionary weight re-derivation** on the logged inputs (above). **11/10 Oct CPI** per `research/2026-11-10_OCT_CPI_DECISION_TREE.md`. **11/27: VX-006 Zweig grade** (SPY > 683.39 = CORRECT).
-4. 🟡 **Apparatus (from the S53 cold audit, remaining):** charter restructure proposal to Will (43 KB → rules + provenance split) · MEMORY_ARCHIVE offload (W7 unpractised since 6/02) · LAST_COMPLETION.md archive 10/16 · REGINALD CET1 answer → VX-005 · WALTER's SIG-W-20261015-001 date fix.
+1. 🔴 **Thu 10/22, after the EGBN 10:00 ET call:** grade per `research/2026-10-19_BANK_Q3_DECISION_TREE.md` — CHG-027 EGBN branches (E1–E6), Acute ±1 conjunctions with the OZK card, CHG-054 re-grade (§III), market-reaction record (§IV). WAL (10/19) and OZK (10/20) prints are read inside this grade. **CARL's CRL-29 10/20 grade → CHG-049 / VX-009** the same day.
+2. 🟠 **Not before Fri 10/23: discretionary weight re-derivation** on the logged inputs (§ CURRENT ASSESSMENT) — must not re-argue the 10/21 FT-02 +3. Counter-signals table re-pull rides it.
+3. 🟡 **Daily FRED cells:** FT-02 exit watch (<300 s=3; 329 [10/19]) · FT-06 exit clock (2 of 5 [10/19]) · FT-10 outcome watch (VIXCLS ≥20 within 30 obs to ~11/25; 19.99 [10/16] missed by 0.01). **11/10 Oct CPI** per `research/2026-11-10_OCT_CPI_DECISION_TREE.md`. **11/27 VX-006 Zweig grade.** **10/29 DOCKET L739** closeout-gate payoff check (RED's share).
+4. 🟡 **Hygiene, from the 10/21 self-sweep** (`reports/2026-10-21_self-sweep.md`; Will directs each): KB-047/092 past Stale_By · RED-23 Timeframe unparseable · LAST_COMPLETION.md archive · charter 85% of read budget · OUTBOX 9/06 SKEW-backfill promise with no tracking row.
 
 ---
 

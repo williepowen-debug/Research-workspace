@@ -1,6 +1,6 @@
 {
   "boot_step_range": "RED:0-9e",
-  "declared_on": "2026-10-15",
+  "declared_on": "2026-10-21",
   "desk": "RED",
   "hashes": {
     "AGENTS/RED/CLAUDE.md": "5ae1dc5a18107e2c22434b9d745d914624eec6a86cc561c0cd1711c35610b7d8",
@@ -13,9 +13,9 @@
     "AGENTS/RED/scripts/schema_check.py": "1bd7da2a2eee7e7f6ede9bcdcfe86ca13743ded66902cdb4b39098f424bb6a71",
     "AGENTS/RED/scripts/status_mirrors.py": "cb58ccc4f4d87a6aa5159fda2f376e76e1a685d078ef5235e91cfbd82c2f79e8",
     "AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md": "5939cc0949a0266de5325d542808afb9524ae7e23ddf6bb293690cf62c6d1c99",
-    "CLAUDE.md": "609e423d7ea3cee6395854304f2b36a7d2f831061dbf02e29bbd1021aba43e9e",
+    "CLAUDE.md": "b08689789d99bc2ef72a3706866848a58b20fb50fffa71d37128540ea589d577",
     "FORGE/tools/market-data/fetch.py": "afb8838728c74d8584d46ec2aadb948efdffc6deddc275f9eb23dc9d05d76c6b",
-    "scripts/corrections_boot_check.py": "db69634350a304386e77eab0220c1a2efb4ee47aaeba58a2e45435bc21bf8f0e",
+    "scripts/corrections_boot_check.py": "457c956964742dfb3866fc37b39ce703498ba5fc48037265b392abfed96109c0",
     "scripts/ledger_staleness.py": "117789ab8fa4aa00241bf2a92f49550e363891b8d218aa788e109f187b79b93a"
   },
   "history": [
@@ -62,6 +62,14 @@
       "note": "S54: hold_netbear earliest-pair rule (second catch by the gate's own closeout)",
       "moved": [
         "AGENTS/RED/scripts/closeout_check.py"
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "note": "S55 2026-10-21: read diffs. Root CLAUDE.md (c5286bf6d, cdb58ceb4): Before committing / Before pulling recipes moved VERBATIM to docs/GIT_WORKTREE_PROCEDURES.md (read; same steps), plus Output Canon rule: write normal spaced words, never glue words to save bytes. scripts/corrections_boot_check.py (1e997b58b): R1 write-compliance resolver now prefers frontmatter corrects: ids and checks corrected-plus-correcting recipients (WALTER register side) with selftests. Desk receipt path unchanged (6 receipts written OK today). No RED boot step, threshold or rule changes.",
+      "moved": [
+        "CLAUDE.md",
+        "scripts/corrections_boot_check.py"
       ]
     }
   ],

@@ -48,3 +48,9 @@ receipt_date	correction_id	action	note
 2026-10-15T19:03Z	COR-20261015-05	NO-OP	scope=no RED live surface cites a CRWV 2032 YTW figure (grep 14.5 across STATUS/NEXUS/OUTBOX/VX/KB/registry: only KB-RED-009 Media 14.5pct, unrelated) - info-cc only; 
 2026-10-15T19:03Z	COR-20261015-15	NO-OP	scope=no RED live surface carries the private-credit-is-opaque bloc claim (grep opaque outside archive/reports: one unrelated OUTBOX line on Kernel capabilities) - CHG-044/BRK-32 rests on BCRED redemption mechanics, not opacity; 
 2026-10-15T19:03Z	COR-20261015-07	DEFERRED	review=2026-10-20; 
+2026-10-21T13:39Z	COR-20261021-01	APPLIED	artifact=AGENTS/RED/STATUS.md#re-derivation-inputs; validation_ref=NONE; S52 small-bank H.8 bear input WEAKENED and logged as a revised re-derivation input; no weight moved
+2026-10-21T13:39Z	COR-20261016-02	NO-OP	scope=no RED surface cites a 2026 bank-failure count or the Kansas failure claim (grep 20261015-013 and Kansas: none outside the self-sweep report); 
+2026-10-21T13:39Z	COR-20261015-06	NO-OP	scope=no RED surface cites the Redfin FL active or new-listings YoY figures (grep 20261012-035 and 20261014-006: none); 
+2026-10-21T13:39Z	COR-20261019-12	NO-OP	scope=RED carries OTTO Ally and warehouse-exit figures only as a board_log note (2026-10-21) and no RED live surface cites the corrected contract or the 55pct forecast; 
+2026-10-21T13:39Z	COR-20261016-03	NO-OP	scope=RED cites no VIX-rumor timestamp and its 10/16 VIX read is the VIXCLS 19.99 close only with the cause recorded unverified; 
+2026-10-21T13:39Z	COR-20261021-02	NO-OP	scope=Fukoku appears only in dated history (challenges/2026-08-17_SAM_rail_writeback.md and archive) and RED carries no live Fukoku 30Y-avoidance claim or SAM Channel1 input; 
