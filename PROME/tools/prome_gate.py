@@ -312,7 +312,7 @@ def _check_log_path(name):
     return LOG_DIR / f"{len(results):02d}-{re.sub(r'[^a-z0-9]+', '-', name.lower())[:70]}.txt"
 
 
-def run_script(severity, name, cmd, owner, ok_rc=(0,), summarize=None):
+def run_script(severity, name, cmd, owner, ok_rc=(0,), summarize=None, preview=True):
     """Keep complete evidence on disk; summarize without silently dropping flags."""
     log = _check_log_path(name)
     try:
@@ -336,7 +336,7 @@ def run_script(severity, name, cmd, owner, ok_rc=(0,), summarize=None):
                 detail = f"rc={p.returncode} · {state}{summary}"
             except (ValueError, KeyError) as exc:
                 ok, detail = False, f"rc={p.returncode} · UNKNOWN: {exc}"
-        if not ok:  # 8/29: name the flagged artifacts — a bare "1 flag(s)" cannot satisfy BOOT.md's re-read rule
+        if not ok and preview:  # 8/29: name the flagged artifacts (preview=False: the summary already names exactly what is owed) — a bare "1 flag(s)" cannot satisfy BOOT.md's re-read rule
             flagged = [l.strip() for l in tail if l.lstrip().startswith(("❌", "⚠️"))]
             detail += "".join(f"\n       ↳ {l[:120]}{'… [preview]' if len(l) > 120 else ''}" for l in flagged[:3])
             if len(flagged) > 3:
@@ -346,6 +346,33 @@ def run_script(severity, name, cmd, owner, ok_rc=(0,), summarize=None):
     detail += f"\n       full output: {log}"
     record(severity, name, ok, detail, owner)
     return ok
+
+
+def _firetime_delta_summary(body, rc):
+    """WQ-467 C4: owe a disposition only for fire-time flags NEW since the dispositioned baseline
+    (PROME/state/firetime_dispositioned.tsv). No readable baseline ⇒ every flag is NEW (fail closed).
+    A parse miss raises ValueError ⇒ run_script records UNKNOWN, never clean."""
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    import firetime_delta as fd
+    flags, raw = fd.parse(body)
+    last = (body.strip().splitlines() or [""])[-1][:110]
+    if len(flags) != raw:
+        raise ValueError(f"firetime_delta parsed {len(flags)} of {raw} flag lines · {last}")
+    why = fd.validate(body, raw, rc)          # read 1 ❌1: a crash exits 1 and must never read clean
+    if why:
+        raise ValueError(f"{why} · {last}")
+    baseline = fd.load_baseline(ROOT / "PROME/state/firetime_dispositioned.tsv")
+    new, old = fd.split(flags, baseline)
+    dropped = fd.gone(flags, baseline)        # read 1 ❌2: stale rows would let a recurrence read as persisting
+    ptrs = sorted({baseline[f][1] for f in old}) if baseline else []
+    summary = (f"{len(flags)} flag(s): {len(new)} NEW · {len(old)} persisting"
+               + (f" (dispositioned at {', '.join(ptrs)})" if ptrs else "")
+               + (f" · {len(dropped)} dispositioned flag(s) no longer reported — owed: `firetime_delta.py --log <log> --prune`" if dropped else "")
+               + (" · NO readable baseline — every flag counts as NEW" if baseline is None else ""))
+    summary += "".join(f"\n       ↳ NEW {k}: {a} — {c[:100]}" for a, k, c in new[:5])
+    if len(new) > 5:
+        summary += f"\n       ↳ {len(new) - 5} more NEW flag(s); `python3 PROME/tools/firetime_delta.py --log <log> --show {len(new)}`"
+    return (not new and not dropped), summary
 
 
 def coverage_result(body, prefix, rc, counts):
@@ -1843,7 +1870,11 @@ def mode_boot(advance_board=True):
                "never grade on its behalf")
     run_script(ACTION, "firetime (owner-routed flags persist)", [sys.executable,
                "scripts/firetime_check.py", "--window", "7"],  # not --quiet: the flagged lines are the payload
-               "scripts/firetime_allowlist.tsv · DATE flag = full logic re-read, never find-replace")
+               "NEW flags only are owed (WQ-467 C4): full logic re-read per DATE flag, never find-replace. ONLY when "
+               "every NEW flag is done or routed: `python3 PROME/tools/firetime_delta.py --log <this log> --accept "
+               "--pointer <record>`; a deferred flag is never accepted (SKIPPED + PARTIAL). Rows no longer reported: "
+               "`--prune` (always allowed). Commit PROME/state/firetime_dispositioned.tsv. BOOT.md step 8",
+               ok_rc=(0, 1), summarize=_firetime_delta_summary, preview=False)
     # 8/14 Will-directed: agent staleness reads come from ground truth, not narrative.
     # rc=1 = unread from-agent packets sit in PROME/inbox — PROME's model of those
     # agents is stale regardless of what SCRATCH's spawn-queue prose says.
