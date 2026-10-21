@@ -61,4 +61,3 @@ Structured pairing calls the existing canonical reconcile() unchanged, including
 Reader compatibility: the source-count metadata used by append/guarded_view/prome_gate remains unchanged; orch_time's CLOSE time-correction path is explicitly excluded from the closing set. WALTER9b/13 now retains the counterexample running/unknown rows. Canonical orch_closeout code and its27 passing tests are unedited. No native liveness or receipt-authentication claim is made.
 
 Only the four authorized paths belong to the new follow-up commit; no push or amend. PROME owns the next independent read and publication. No additional completion packet, local charter or WALTER session anchor was edited under this exact-path task.
-
