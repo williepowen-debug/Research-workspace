@@ -2,16 +2,19 @@
 
 **Status:** Concentrated bank risk; October20 releases do not establish tier-wide credit transmission.
 **Domain:** Regional-bank comparison, FHLB advances, hidden CRE and sponsor-bank balance-sheet risk.
-**As of:** 2026-10-21 09:17 ET, startup complete | STATUS commit: 963eca0ae
+**As of:** 2026-10-21 11:42 ET, inbox/main-file audit | STATUS commit: 1d84633ca
 
 ## CROSS-DOMAIN
 
 **Startup October21:** two WALTER owner relays (001 funding correction,003 Boston outcome) read and disposed INFO_ONLY; correction receipted. No new research grade or route. Boot limits→`reports/2026-10-21_boot/RECEIPT.md`.
 
+**Audit October21:** three general packets integrated. Approved REG-27 encoded OPEN at15% before SSB release, original20 prediction rows preserved. OZK coupon correction applied. Remaining Q3/research/document debt→`reports/2026-10-21_owed-items/REPORT.md`; audit completion does not clear that work.
+
 **SENDING — prior routes retain their dates; new packets committed, consumption unverified:**
 
 | To | Signal | Priority | Mechanism |
 |----|--------|----------|-----------|
+| PROME · OZK | October21 audit packets (`1d84633ca`), consumption unverified | 🟡 | Approved prediction encode, stale coordinator obligations with delivery evidence, coupon consumer carries; no new score or trade |
 | PROME · OZK · WAL · WALTER | October20 backlog report and dated inbox packets | 🟠 | Primary Boston failed sale/foreclosure; weekly funding partly reverses; secondary WAL external-disposal evidence. No owner grade changed or recipient read asserted |
 | PROME + FLG | `VX-REG-6.03` RED on the 10/7 close (sent `018af9846`); ladder exhausted | 🟠 | Registered routing; matrix unchanged |
 | PROME | WQ-318 delivered (`a033c799c`) + memo; register CFG 10/16 / CUBI grading rows | 🟠 | Report + KB ML-REG-176..180 |
@@ -34,7 +37,7 @@
 | EGBN existing disclosures | Cash, concessions, new funding, retained exposure and incremental recognition for four cases | Existing Q3 read | A disappearing category or extension is not demonstrated repayment; no independent property match yet. |
 | Existing Fed releases / REGINALD | Next weekly persistence/reversal; existing descriptive-watch review | H.4.1 October22 / H.8 October23 | Prior releases read; latest small-bank borrowing partly reverses with deposits up. No new registered monitor |
 | FDIC | Nano P&A; absent at October20 morning observation | Next existing check October27 (L516) | Re-run forensics on actual schedules; January20,2027 bar date; no external send without Will. |
-| Will / PROME | Existing WQ-454.REG27 and WQ-454.REGT06 rulings | WILL_QUEUE's registered deadlines | REG-07 VOID; no successor inferred. REG-T-06 CFR/Highlights discrepancy remains unresolved; as-written CFR governs. |
+| PROME / Will | REG-27 shared registration / existing WQ-454.REGT06 ruling | SSB print /before October30 respectively | REG-27 encoded under approved A; PROME shared GATES record pending consumption. REG-07 VOID. REG-T-06 publication basis alone remains Will-owned; as-written CFR governs. |
 | Will / existing FFIEC run | JWT renewal; cohort-selection/completeness | November5 renewal /November7 planned retrieval | Missing bank capable of flipping breadth → UNKNOWN; no silent cohort expansion. |
 | Will / PROME / TERRY | Existing contract ownership/card evidence at FORGE D-74/D-77; structural source→POSITIONS | Existing records only | Broker holdings are not research/trade approval; disposition remains unknown without broker evidence. No expiry reminder. |
 
@@ -60,7 +63,7 @@
 
 ## NEXT DECISION POINT
 
-Use existing Q3 disclosures to append outcomes to original expectations under BANK_RESEARCH_STANDARD. Current issuer dates/status→CALENDAR; exact unresolved inputs→MEMORY NEXT SESSION and October20 catch-up. Next: Eagle October21/22 named-loan outcomes, OZK October21 call and later filings; WAL filing-only F3/N. Weekly funding and eligible settled-bar catch-up completed here. §0 judgment moves only on L180 BROADER or FL-rail TRANSMISSION; no new successor, numerical breadth cutoff or monitor. REG-T-06 official publication basis and REG27 successor remain Will-owned. Original modal INCONCLUSIVE expectation and CUBI/CFG falsifiers remain in the archived original, not retroactively re-written.
+Use existing Q3 disclosures to append outcomes to original expectations under BANK_RESEARCH_STANDARD. Current issuer dates/status→CALENDAR; exact unresolved inputs→MEMORY NEXT SESSION and October20 catch-up. Next: Eagle October21/22 named-loan outcomes, OZK October21 call and later filings; WAL filing-only F3/N. Weekly funding and eligible settled-bar catch-up completed here. §0 judgment moves only on L180 BROADER or FL-rail TRANSMISSION; approved REG-27 now OPEN15%, with no numerical breadth cutoff or new monitor. REG-T-06 official publication basis remains Will-owned; REG-27 approval is executed, shared registration carrier remains PROME-owned. Original modal INCONCLUSIVE expectation and CUBI/CFG falsifiers remain in the archived original, not retroactively re-written.
 
 ## WATCH (next 2–6 weeks)
 
