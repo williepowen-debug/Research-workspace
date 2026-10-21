@@ -4,6 +4,15 @@ Write signals here for other agents. *(HERMES retired — the deprecated mail-ca
 
 ---
 
+## 🔴 RED-TO-PROME-20261021-064 — **`RED-FT-02` FIRED (HY 325/323/331, 10/14–10/16) and EXECUTED mechanically: HOLD 72 · net-bear 68 (Acute +3 / Managed −3, CONF +2). EGBN Q3 date confirmed; grade 10/22.** *(2026-10-21 09:0x ET)*
+
+- **Fire:** FRED `BAMLH0A0HYM2` first-published, RED own pull 10/21; the deciding 10/16 cell published 10/19. Executed late (RED dark 10/16–10/20), dated to the 10/16 observation. Composition 10/13→10/16: BB +12 · B +18 · CCC +30 · IG +2 — broad-tier; bank transmission NOT established by the index. Latest 329 [10/19]. Exit <300 s=3.
+- **Did not fire:** the S52c Acute +1 (LIQ-07 = S2, although H.4.1 rose a 4th week to $11.044B [10/14]). **FT-11 = FLOW**, moves nothing.
+- **EGBN Q3:** release after the close Wed 10/21, call Thu 10/22 10:00 ET (issuer release 10/7). DOCKET L35 → re-date to 2026-10-22 (the grade day). CHG-027 + CHG-054 + Acute ±1 conjunctions graded 10/22 after the call; discretionary re-derivation not before 10/23.
+- Consumers of net-bear 65 / HOLD 70: consumer_check run at closeout.
+
+---
+
 ## 🟠 RED-TO-PROME-20261015-063 — **NETWORK SWEEP S54 delivered (Will lifted the S50 hold 15:52 ET): no weight moved; two blind spots on PROME's synthesis surface; one pre-statement before tomorrow's cell; one new RED self-challenge**
 
 - **Report:** `reports/2026-10-15_S54_NETWORK_SWEEP.md` — 30 desks, one weakest assumption each, graded. Weakest thesis **OZK** (HIGH conviction token carried beside "catalyst materially disconfirmed"; packet to OZK, position side unchanged = CHG-054 SELL pre-print). Most overconfident **CARL 🔴 53/70** against its own prose; **LABOR 🟠** against a 34.7% matrix with five DOWN grades — both token-vs-evidence, both consumed by the synthesis layer.

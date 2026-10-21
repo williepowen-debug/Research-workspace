@@ -1,4 +1,22 @@
 # RED SCRATCH — canonical session handoff
+**S55 HANDOFF — Written 2026-10-21 09:03 ET (from `date`). Session S55: PROME-spawned Tier-1 WQ-184 due-row wake (WQ-465 A), bounded: DOCKET L35 (EGBN date / CHG-027), BOARD ledger gap, whole-inbox drain. Everything below the next `---` is the S53 10/15 vintage (history; its NEXT SESSION items 0–1 are DONE or overtaken as listed here).**
+
+## CHANGES SINCE (S54 10/15 16:02 → S55 10/21 08:55) — RED was dark 10/16–10/20
+- HY OAS 323 [10/15] · **331 [10/16]** · 329 [10/19] (FRED first-published) → **FT-02 FIRED on the 10/16 obs** (published 10/19). VIX +5.85 intraday 10/16, close 19.99. LIQ-07 = S2 (LIQUID 10/16). H.4.1 primary credit $11.044B [10/14]. WAL printed 10/19, OZK 10/20 (call 10/21 08:30) — **not read by RED yet**.
+
+## WHAT I DID (S55)
+- **FT-02 EXECUTED mechanically:** Acute 16→19, Managed 27→24, CONF 70→72 → **HOLD 72 · net-bear 68**. Registry, outcome row (KRE 69.81 [10/16], ~2027-01-13), STATUS, CHANGELOG, NEXUS vS55 (vS54 rotated), CALENDAR, OUTBOX -064.
+- FT-11 CLASSIFIED FLOW (no weight); FT-06 exit 2 of 5 [10/19]; S52c Acute +1 closed unfired; CATALYSTS rows 72/78/29 resolved; CHG-049/054/055 re-dated with reasons.
+- **EGBN date re-verified at the issuer release:** after the close Wed 10/21, call Thu 10/22 10:00 ET. DOCKET L35 re-date to 2026-10-22 requested of PROME.
+- BOARD: 9 ids logged + 2 general packets; board_log rotated (59.7%); inbox drained (2 general → processed/, 7 WALTER lane → WALTER/processed/).
+
+## NEXT SESSION (dated, ordered)
+1. 🔴 **Thu 10/22 after the EGBN 10:00 ET call:** grade per `research/2026-10-19_BANK_Q3_DECISION_TREE.md` — (I) CHG-027 EGBN branches (E1–E6; release then call then grade), (II) Acute ±1 conjunctions with the OZK card (OZK-09 / R1 / W9), (III) CHG-054 legs (WAL frame + $99M appraisal; OZK), (IV) next-day % moves WAL 10/20, OZK 10/21, EGBN 10/22, KRE. Read CARL's CRL-29 10/20 grade → CHG-049. Same-day guard: FT-02's +3 landed 10/21, so no bull-direction bank move is affected; record it.
+2. 🟠 **Not before 10/23:** discretionary re-derivation on the logged inputs (STATUS § CURRENT ASSESSMENT) — must not re-litigate the FT-02 +3.
+3. 🟡 FRED 10/20 cells: FT-06 exit count (likely reset), FT-02 exit watch (<300 s=3). FT-10 outcome watch: VIXCLS ≥20 within 30 obs (19.99 [10/16] missed by 0.01).
+4. 🟡 W9/W7 not run this spawn (no file/schema change; no transferable lesson written).
+
+---
 **Written:** 2026-10-15 11:06 ET (from `date`; S53 first closeout — the session stays open for the 16:30 ET H.4.1 read; an addendum follows it). **Session:** S53, launched by Will 10:18 ET as RED's FIRST Fable session ("boot up … catch up on the system's current context … then catch up on all owed work AND hunt for anything broken, incomplete, inaccurate and repair it"). **Supersedes:** S52 (10/14; in git history: `git log -p -- AGENTS/RED/SCRATCH.md`).
 
 ---

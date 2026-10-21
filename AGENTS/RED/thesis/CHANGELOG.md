@@ -4,6 +4,15 @@
 
 ---
 
+## S55 — 2026-10-21 08:55 ET boot (from `date`; PROME-spawned Tier-1 due-row wake, WQ-465 A) — **MECHANICAL MOVE: `RED-FT-02` FIRED. HOLD 70 → 72 · net-bear 65 → 68. Nothing discretionary moved.**
+
+- **FT-02 (registered pre-data 8/12):** HY OAS 325 [10/14] · 323 [10/15] · 331 [10/16], FRED first-published, three consecutive ICE sessions strictly >320 → FIRED on the 10/16 observation (published Mon 10/19; WALTER SIG-W-20261019-003). Executed 10/21 at RED's first session after publication (RED dark 10/16–10/20): **Acute 16 → 19, Managed 27 → 24, CONF 70 → 72.** Old view: "credit at its line, one cell over." New view: "credit sustained over the line for three sessions, broad-tier (BB +12 · B +18 · CCC +30 · IG +2, 10/13→10/16); the index does not by itself establish bank transmission (REG-T-03 is REGINALD's)." Exit armed <300 s=3; outcome graded at horizon (KRE TR <0 over 60 obs from 69.81 [10/16]).
+- **FT-11:** CLASSIFIED FLOW (10/06→10/14 per WALTER −12 / −9 / −1 / +3; RED 10/09→10/19 −12 / −4 / +2 / −3). Moves nothing by letter; CHG-055's reading carried (haven bid vs ~30% buyback DV01 undetermined). State ARMED → CLASSIFIED FLOW, re-armed.
+- **S52c Acute +1 pre-statement CLOSED unfired:** H.4.1 primary credit rose a 4th week ($11.044B [10/14]) but LIQ-07 = S2 (LIQUID: "no reserve-channel loop observed"). Both legs were required.
+- **FT-06** exit clock 2 of 5 [10/19] (VIXCLS 19.99, 18.44). **FT-10** outcome test (VIXCLS ≥20 within 30 obs) not yet met — 19.99 [10/16] is 0.01 under.
+- **EGBN Q3 date re-verified at the issuer release:** after the close Wed 10/21, call Thu 10/22 10:00 ET. CHG-027 grades 10/22 on the S52 amended branches, unchanged.
+- **Discipline:** a mechanical fire the day before a bank-print grade — the 10/22 discretionary re-derivation must not re-litigate this +3 (FRAMEWORK: no discretionary re-derivation the day after a mechanical fire → the re-derivation moves to 10/23 at the earliest).
+
 ## S54 — 2026-10-15 14:56 ET boot → 2026-10-15 16:02 ET (from `date`) — **NO WEIGHT MOVED. HOLD 70 · net-bear 65. No registered-trigger STATE changed. Network Sweep delivered; CHG-RED-055 opened (self).**
 
 - **Sweep verdict (reports/2026-10-15_S54_NETWORK_SWEEP.md):** the fleet is split, not unanimous — bear = levels, bull = flows. Six inputs added to the post-10/22 ledger; **pre-stated expectation on today's inputs: Stag −2 to −3 toward Managed, net-bear ~flat.** Not applied (CHANGELOG S53 rule: no discretionary re-derivation before the 10/22 prints).
