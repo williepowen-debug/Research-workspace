@@ -1,0 +1,11 @@
+{
+  "url": "https://securitiesfilings.fdicconnect.fdic.gov/api/instflng/12022/attachment/1",
+  "issuer": "Bank OZK",
+  "cert": 110,
+  "filing": 12022,
+  "attachment": 1,
+  "status": 200,
+  "bytes": 2077994,
+  "sha256": "81ba170dad2095bde8fe9af5243fd8713a5ceec33f15d409b6039b94cffb1293",
+  "retrieved_at": "2026-10-21T02:37:17.337716+00:00"
+}

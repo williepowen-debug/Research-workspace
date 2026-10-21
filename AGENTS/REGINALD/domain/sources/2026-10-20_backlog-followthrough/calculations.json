@@ -1,0 +1,47 @@
+{
+  "H8B3094NSMA": {
+    "from": 314895.8,
+    "to": 307373.3,
+    "change": -7522.5,
+    "pct_change": -2.388885466239943,
+    "units": "USD millions"
+  },
+  "H8B3094NSMD": {
+    "from": 306654.0,
+    "to": 295319.0,
+    "change": -11335.0,
+    "pct_change": -3.6963483274309206,
+    "units": "USD millions"
+  },
+  "CASSCBW027SBOG": {
+    "from": 500.5203,
+    "to": 482.1078,
+    "change": -18.412500000000023,
+    "pct_change": -3.6786719739439144,
+    "units": "USD billions"
+  },
+  "DPSSCBW027SBOG": {
+    "from": 5674.6483,
+    "to": 5688.2881,
+    "change": 13.639799999999923,
+    "pct_change": 0.24036379488046045,
+    "units": "USD billions"
+  },
+  "OZK": {
+    "brokered_pct_change": 19.904648390941592,
+    "fund_lender_Q2": 2070,
+    "fund_lender_Q3": 2550,
+    "fund_lender_pct_change": 23.188405797101442,
+    "PPNR_div_provision": 5.473535446589339,
+    "OREO_pct_change": 43.609433498210024,
+    "equity_reconcile": 6148.397000000001,
+    "ACL_reconcile": 621.116
+  },
+  "HY_2026-10-19": {
+    "BAMLH0A0HYM2": 329.0,
+    "BAMLH0A3HYC": 1310.0,
+    "BAMLH0A2HYB": 336.0,
+    "BAMLH0A1HYBB": 200.0
+  },
+  "CCC_HY_ratio": 3.9817629179331306
+}

@@ -81,3 +81,7 @@ Market-data failure, successful live retrieval, old cached evidence and missing 
 ## October20 outcome append — reported-bank catch-up
 
 Original October13 expectations above are unchanged. WAL carried owner Office<=500 branch: consistent with owner's provisional272.75M reading; final classification remains its10-Q test. NCO30bp invalidates owner's>40bp condition provisionally under its own letter; the original50% prior is not rewritten. No new REGINALD probability or final owner grade. EGBN/OZK/VLY outcomes remain pending their existing releases; no missing disclosure is treated as a successful forecast. Decisive sources, fresh WAL release verification and basis limits: `reports/2026-10-20_reported-bank-earnings-catchup.md` (W1; owner grade consumption).
+
+## October20 late outcome append — OZK and WAL call
+
+OZK disclosed the executed December2029 RaDD extension and new capital; no full payoff/commitment termination was established. Thus the original narrow retention expectation is SUPPORTED by disclosed terms, with limited novelty; no Q3 attributable RaDD charge-off inferred. Boston's open recovery question now has an adverse event: failed sale,37.3M charge-off and132M OREO retained. WAL secondary call transcript supplies unnamed external-disposal/no-seller-financing counterevidence, not the specific99M loan identity or final owner grades. Eagle/VLY remain pending. Primary locators, basis and gaps→`2026-10-20_backlog-followthrough.md`. Original expectations/probabilities unchanged.

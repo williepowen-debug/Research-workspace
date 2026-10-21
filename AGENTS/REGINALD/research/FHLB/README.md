@@ -4,6 +4,8 @@
 
 **Alarm-history caveat (2026-10-11):** the 2026-10-10 reports, copied proposals and row snapshots retain their dated, as-made EARLY-CRISIS discussion. Those sections describe the pre-ruling letter; current operation is REVIEW under `registry/NOTES.md` §REG-T-06. Never use a preserved copy to grade today's consequence.
 
+**Latest weekly comparison, October20:** [funding follow-through](../../reports/2026-10-20_backlog-followthrough.md): week October7 borrowings partly reverse, deposits rise both bases. September30 SA revisions: borrowing314.5→314.9B, cash505.9→500.5B, deposits5673.4→5674.6B. Historical October10 copies and their hash manifest stay byte-identical, not current observations.
+
 **Start here.** Everything the fleet has on the Federal Home Loan Banks (FHLBs) is either IN this folder or listed below with its path. Two kinds of file live here:
 
 - **Canonical (edit here):** `reports/`, `verification/`, `data/KEY_PRIMARY_TABLES.md`, `sources/SOURCES.md`, this README.

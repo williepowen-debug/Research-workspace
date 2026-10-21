@@ -1,0 +1,827 @@
+Operator
+To Miles Pondelik, Head of Investor Relations and Corporate Development.
+Please go ahead.
+Miles Pondelik
+Head of Investor Relations and Corporate Development, Western Alliance Bancorporation
+Thank you.
+Welcome to Western Alliance Bank's third quarter 2026 conference call.
+Our speakers today are Ken Vecchione, Chairman, President, and Chief Executive Officer, and Vishal Idnani, Chief Financial Officer.
+Before I hand the call over to Ken, please note that today's presentation contains forward-looking statements, which are subject to risks, uncertainties, and assumptions.
+Except as required by law, the company does not undertake any obligation to update any forward-looking statements.
+For a more complete discussion of the risks and uncertainties that could cause actual results to differ materially from any forward-looking statements, please refer to the company's SEC filings, including the Form 8-K filed yesterday, which are available on the company's website.
+Now for opening remarks, I'd like to turn the call over to Ken Vecchione.
+Ken Vecchione
+Chairman, President, and CEO, Western Alliance Bancorporation
+Good afternoon, everyone.
+I'll make some brief comments about our third quarter 2026 performance before handing the call over to Vishal to discuss our financial results and drivers in more detail.
+After reviewing our revised 2026 outlook, Dale, Tim, and Lynne will join us for Q&A as usual.
+Western Alliance entered the quarter with three strategic objectives front and center: improve asset quality, lower deposit costs, and accelerate share repurchases.
+We exited the quarter having made significant strides against each of these goals, which I'm pleased to update you on today.
+Asset quality improved meaningfully in the third quarter.
+Non-accrual loans declined 14%, or $77 million from the prior quarter to $485 million, exceeding the expectations outlined in our guidance update last month.
+We successfully resolved two additional credits from the six identified at May's Investor Day, and the remaining two are on a glide path towards resolution before year-end.
+Net charge-offs also improved, declining $9 million from the prior quarter to $46 million.
+Net charge-offs decreased seven basis points to 30 basis points.
+Combined with a four basis point increase in the allowance to funded HFI loans to 93 basis points, the reduction in non-accruals drove ACL coverage of non-accrual loans sharply higher, increasing 22 percentage points to 118%.
+Our second strategic objective was the intentional transition of higher cost deposits off the balance sheet to lower our overall funding costs and improve balance sheet profitability.
+Here too, we made substantial progress.
+During the quarter, we transitioned $3 billion of higher cost ECR-related deposits while keeping total deposits essentially flat compared with the prior quarter.
+This was a Herculean achievement, supported by a strong quarter of commercial banking deposit growth of $1.8 billion.
+These actions reduced deposit costs by $14 million from Q2 and supported a 10 basis point quarterly expansion in adjusted net interest margin.
+Importantly, this decline in deposit costs represents a positive departure from prior third quarters when funding costs have typically peaked.
+We remain well positioned for additional deposit cost reductions in Q4 as we realize the full quarter benefit of these lower balances.
+We exceeded our original deposit optimization goal by $1.5 billion, with $4.5 billion of deposits remixed over the prior two quarters, one quarter earlier than expected.
+With another $500 million expected to transition in Q4, this initiative is nearly complete.
+Finally, our more balanced growth profile has enhanced our flexibility to prioritize share repurchases while maintaining robust capital levels.
+In Q3, we repurchased shares of $92 million against our $150 million target for the second half of 2026, representing approximately 1.15 million shares, or roughly 1% of shares outstanding.
+We have continued to repurchase shares at attractive valuations into Q4 and remain on track to achieve our second half repurchase objectives.
+Taken together, these accomplishments support sustainable risk-adjusted PPNR growth and increasing profitability, keeping us on track to achieve the medium-term goals outlined at Investor Day.
+I will hand the call over to Vishal to review our Q3 financial results.
+Vishal Idnani
+CFO, Western Alliance Bancorporation
+Thanks, Ken.
+Western Alliance delivered another quarter of strong and steady financial performance with continued earnings growth, improving credit trends, and strong reserve coverage alongside increased capital returns.
+PPNR grew 6% year-over-year to $419 million, while EPS increased 7.5% to $2.45.
+Net interest income grew 8%, or $57 million, driven by continued HFI loan growth, while non-interest income increased 10%, or $19 million, reflecting continued momentum in commercial banking fee income, partially offset by rate-driven headwinds in mortgage banking.
+Net revenue increased $76 million over the past year, compared with approximately $51 million of growth in non-interest expense, and supported continued growth in pre-provision net revenue.
+Credit trends also improved.
+Provision expense remained essentially flat year-over-year, while non-accrual loans declined to 79 basis points of funded HFI loans, and reserve coverage increased to 118%.
+This helped drive net income of $277 million, up 6% from a year ago.
+While our strategic actions have moderated balance sheet growth over the past two quarters, profitability has continued to improve.
+ROATCE increased 20 basis points from Q2 to 15.5%.
+Overall, we are encouraged by our financial trajectory.
+The actions we have taken over the past two quarters, many of which we outlined at Investor Day in May, are strengthening the durability of our earnings and positioning us well as we move forward.
+Turning to the income statement on slide five, net interest income of $808 million increased 5.4% from the prior quarter on a linked quarter annualized basis, benefiting from $1.5 billion of growth in average HFI loans.
+This more than offset lower average earning assets as our deposit optimization actions reduced excess liquidity and continued to improve balance sheet profitability.
+Non-interest income increased $8 million quarter-over-quarter, or 4% to $207 million.
+Commercial banking fee momentum continued to build, increasing $6 million sequentially and $26 million year-over-year.
+That growth, along with higher securities gains, more than offset lower mortgage banking revenue.
+Mortgage banking revenue of $80 million declined only $5 million from the prior quarter, despite a challenging rate environment.
+Mortgage production decreased 4%, and rate lock volume decreased 14% year-over-year, while gain on sale margins remained stable at 27 basis points.
+Our use of private label securitizations helped support secondary market revenue, partially offsetting rate-driven pressure on origination volumes and margins.
+Non-interest expense decreased $12 million from Q2 to $595 million.
+As Ken mentioned, we were pleased with the $14 million decrease in deposit costs, reflecting the $4.5 billion of deposit optimization completed to date, with another $500 million expected to transition in Q4.
+This quarterly decline marks a welcome shift from prior third quarters when we have typically experienced an increase in deposit costs as balances rebuild during the first half of the year.
+We expect a further reduction in deposit costs in the fourth quarter.
+Taken together, the quarter reflects continued progress in shifting the balance sheet toward higher returning assets, building our commercial banking fee businesses, and reducing the structural cost of our deposit base.
+Turning to the balance sheet on slide six, securities and cash declined approximately $1 billion from Q2 to $25.6 billion, reflecting deployment into loans and the impact of our deposit optimization strategy.
+Securities and cash represented 26% of assets, while our HFI loan to deposit ratio increased approximately one percentage point to 75%, moving closer to our medium-term target of 77%-80%.
+HFI loans grew $600 million during the quarter, with more than half of the growth coming from C&I and a solid contribution from select CRE businesses.
+Total deposits declined by only $119 million, despite more than $3 billion of deposit optimization during the quarter.
+Commercial banking deposits helped offset those actions, growing $1.8 billion in Q3 and increasing to 34% of total deposits.
+Another benefit of our optimization efforts was a 10% quarterly decline in period and borrowings to $5.6 billion, which further supported quarterly improvements in both the adjusted and reported NIMs.
+Overall, total assets decreased $629 million from Q2 to $98.1 billion, while total equity decreased $188 million, primarily reflecting the change in AOCI from higher interest rates and our share repurchases.
+Tangible book value per share decreased $1.02 sequentially to $62.22, yet remained up more than 6% year-over-year.
+Looking at loan growth on slide seven, HFI loans grew $600 million in Q3 with continued strength across our commercial businesses.
+C&I loans grew nearly $350 million in the quarter and have driven approximately 90% of our $4.9 billion of HFI loan growth over the past year.
+We also saw solid growth in select CRE businesses.
+Commercial loan growth was partially offset by an approximately $350 million decline in mortgage warehouse and MSR balances as softer mortgage demand reduced line utilization.
+We remain focused on moving our HFI loan to deposit ratio toward our 77%-80% medium-term target and continue to expect commercial loan growth to lead us toward that goal.
+Turning to deposits on slide eight, commercial banking deposits grew $1.8 billion in the quarter, increasing to 34% of our deposit base from 31% last quarter.
+This strong commercial banking growth offset most of the purposeful reduction in higher cost deposits, resulting in total deposits of $81.8 billion, essentially flat from Q2.
+Our remixing efforts were concentrated in non-interest-bearing deposits with associated ECRs.
+As a result, non-interest-bearing deposits with no ECRs now represent 39% of total non-interest-bearing deposits, compared to 33% at the end of Q1 before we began our optimization efforts.
+Turning to our net interest drivers on slide nine, securities yields decreased two basis points from Q2 to 4.62%, reflecting a modest portfolio mix shift.
+HFI loan yields increased two basis points to 5.84% due to higher commercial loan yields.
+The FOMC rate hike occurred just two weeks before quarter end, so the benefit was not fully reflected in Q3 earning asset yields.
+The cost of interest-bearing deposits increased two basis points to 2.76%, reflecting the active remix of our deposit base away from ECR-related deposits and into interest-bearing commercial deposits.
+Interest-bearing deposits increased approximately $2 billion during the quarter as part of that remix.
+Overall liability funding costs increased six basis points to 2.02% as borrowing and debt costs increased, partially reflecting the full quarter impact of a subordinated debt rate reset late in Q2.
+Looking at slide 10, net interest income grew $11 million from Q2, or 5% annualized to $808 million, primarily reflecting higher average HFI loan balances.
+Net interest margin expanded four basis points to 3.57% as average earning asset yields increased 10 basis points, partially offset by a six basis point increase in funding costs.
+Average earning assets declined $785 million from Q2, primarily reflecting a $1.7 billion reduction in average cash as our deposit optimization efforts reduced excess liquidity, while average HFI loans increased $1.5 billion.
+Turning to slide 11, the adjusted efficiency ratio increased 110 basis points from Q2 to 50%.
+As mentioned earlier, non-interest expense increased approximately $12 million in Q3 as higher salaries and employee benefits more than offset a $14 million reduction in deposit costs.
+That reduction reflected lower average ECR-related deposit balances of $30.1 billion, down from $31.6 billion in Q2.
+Higher salaries and employee benefits reflected an extra day in the quarter and targeted investments to support future growth and efficiency.
+These investments included additional hiring to support our lower cost specialized deposit channels and new AI initiatives, as well as converting technology consultants to full-time employees, which we expect will reduce contractor expense going forward.
+On a sequential basis, net revenue and non-interest expense each grew approximately 2%, resulting in an essentially flat reported efficiency ratio of 58%.
+On slide 12, we remain slightly asset sensitive on a net interest income basis.
+Of total earning assets, 66% are variable, with 52% repricing to SOFR, while variable liabilities represent 86% of total earning assets.
+Non-maturity deposit rates, including ECRs, are estimated to have a 65% beta over the next 12 months.
+When we incorporate the rate sensitivity of ECR-related deposit costs and mortgage banking revenue, that asset sensitivity largely moderates and our modeling indicates a neutral position on an earnings at risk basis.
+Turning to slide 13, I will echo Ken's comments and highlight the continued improvement in our key asset quality metrics.
+Classified assets declined $37 million to less than $1.1 billion, largely reflecting two additional non-accrual resolutions previously identified, with two more expected to resolve this quarter.
+Non-accrual loans declined $77 million, or 14% from Q2 to $485 million, reducing the ratio to funded HFI loans by 13 basis points to 79 basis points.
+Classified accruing loans were essentially flat at $441 million or 72 basis points of funded loans, while REO increased $39 million to $165 million.
+Special mention loans increased $81 million as we continued to actively migrate loans to special mention in order to facilitate early identification, elevation, and resolution.
+As shown in the appendix, Western Alliance continues to compare favorably with our $50 billion to $350 billion asset peers across special mention, classified, and criticized loan categories both currently and historically.
+The improvement in non-accrual loans, together with stable classified accruing balances, kept overall criticized loans relatively flat at $1.3 billion.
+On slide 14, provision expense was $80 million, replenishing net charge-offs of $46 million and supporting incremental loan growth.
+The resulting allowance for loan losses increased three basis points to 83 of funded HFI loans, while our total loan ACL ratio increased four basis points to 93 basis points.
+Excluding loans covered by credit-linked notes, the total loan ACL to funded loans ratio increased six basis points to 107, compared with 101 last quarter.
+Based on our C&I loan growth trends, we expect the allowance to continue to build in the fourth quarter.
+Continued execution on non-accrual resolutions, together with the increase in reserves, drove total loan ACL coverage of non-accrual loans to 118%, up from 96% in Q2.
+Looking at capital on slide 15, our tangible common equity to tangible assets ratio decreased 10 basis points from Q2 to 6.9%, primarily reflecting the change in AOCI from higher interest rates and accelerated share repurchases, partially offset by earnings growth and the reduction in our balance sheet from the deposit optimization.
+I would also note that the vast majority of our securities are classified as available for sale.
+Our CET1 ratio decreased 10 basis points from Q2 to 10.9%, reflecting loan growth and share repurchases while remaining above well-capitalized levels.
+During Q3, we repurchased $92.1 million or approximately 1.15 million shares at an average price of $79.78.
+This brought cumulative repurchases since the program's inception to $212.5 million or about 2.7 million shares through September 30th.
+Turning to slide 16, tangible book value per share increased 6% year-over-year and has grown at a 16% CAGR since the end of 2015.
+Over that period, our tangible book value growth has been approximately four times the peer median.
+As a reminder, the peer comparison is presented on a one-quarter lag, with Western Alliance reflecting Q3 results and peers reflecting Q2.
+As Q3 results are incorporated across the peer group, we expect the comparison to better reflect the impact of the higher rate environment across the industry.
+I'll now hand the call back to Ken.
+Ken Vecchione
+Chairman, President, and CEO, Western Alliance Bancorporation
+Okay.
+Thanks, Vishal.
+As I discussed in my opening remarks, Western Alliance made significant progress during the quarter against several of the priorities established at our Investor Day in May.
+The non-accrual resolution to continue reserve build helped address a key credit overhang while further strengthening reserve coverage.
+Our deposit optimization efforts have positioned the balance sheet for improved profitability, benefits of which are already evident in our third quarter results.
+We also accelerated share repurchases, reflecting both the trajectory of our business and our confidence in the long-term value of the franchise.
+Given our current valuation, we continue to view share repurchases as an attractive and disciplined use of capital.
+With that context, our updated 2026 outlook is as follows.
+Deposit optimization is now expected to total at least $5 billion by year end, compared to the $3 billion previously identified on our second quarter earnings call.
+As a result, we are revising our deposit growth outlook lower by a comparable amount from $6 billion to a range of $3.5 billion-$4 billion.
+Strong momentum in commercial banking deposits, combined with encouraging growth from our newer deposit verticals, continues to support a lower cost and more durable funding base.
+For the remainder of the year, the outperformance in deposit optimization naturally reduces the overall deposit growth outlook.
+I would also remind everyone that the fourth quarter typically experiences seasonal deposit outflows, which are incorporated into our forecast.
+Loan growth is being revised lower by $1 billion in conjunction with the transition of excess deposits off the balance sheet.
+In addition, warehouse lending activity is expected to be restrained by two factors, typically seasonal softness in Q4 and elevated interest rates, which continue to temper mortgage demand.
+The higher marginal HFI loan-to-deposit growth should place us within our medium-term target range of 77%-80% by year end.
+Net interest income is now expected to grow between 11% and 12%.
+The revised outlook reflects the purposeful actions taken within our deposit base and the corresponding impact on average earning assets compared with our prior expectation of 12%-14% growth.
+Our forecast incorporates a 25-basis-point rate increase in December.
+While we are pleased with the net interest margin expansion delivered in the third quarter, NIM typically experiences a three to four basis point headwind in the fourth quarter due to seasonal deposit outflows and the resulting increase in borrowings.
+Total non-interest income is now projected to grow between 18% and 21%, compared to 13%-17% growth previously.
+This revision reflects strong Q3 performance and continued momentum in commercial banking fees.
+Mortgage banking revenue in Q4 is expected to be approximately $70 million, reflecting the seasonal slowdown in mortgage applications and the recent rise in mortgage rates.
+Turning to non-interest expense, our deposit optimization efforts reversed the typical third quarter increase in deposit costs.
+We expect continued deposit cost reductions in Q4, supported by meaningfully lower ECR-related deposit balance of $26.7 billion at quarter end compared to $29.9 billion at the end of Q2.
+Lower balances should more than offset the impact of the September rate hike.
+As a result, we are lowering the upper end of our deposit cost guidance range to $650 million-$675 million.
+Importantly, we continue to invest in lower cost deposit channels and AI initiatives where we are beginning to realize benefits from earlier investments.
+As a result, the operating expense range of $1.6 billion - $1.65 billion remains unchanged.
+Although based on Q3 results, we currently expect to finish towards the upper end of that range.
+With respect to asset quality, we are reaffirming our core net charge-off guidance of 25 basis points to 35 basis points, consistent with our Q3 results.
+We expect Q4 performance similar to Q3.
+We also expect non-accrual loans to continue to decline.
+Lastly, our 2026 effective tax rate outlook remains at 19%.
+Now, Vishal, Dale, Tim, Lynne, and I will be happy to take your questions.
+Operator
+We will now begin the question and answer session.
+Please limit yourself to one question and one follow-up.
+If you would like to ask a question, please press star one to raise your hand.
+To withdraw your question, press star one again.
+We ask that you pick up your handset when asking a question to allow for optimum sound quality.
+If you are muted locally, please remember to unmute your device.
+Please stand by while we compile the Q&A roster.
+Your first question comes from the line of David Feaster with Raymond James.
+Your line is open.
+Please go ahead.
+David Feaster
+Analyst, Raymond James
+Hi.
+Good morning, everybody.
+Ken Vecchione
+Chairman, President, and CEO, Western Alliance Bancorporation
+Good morning, David.
+David Feaster
+Analyst, Raymond James
+I wanted toâ
+Ken Vecchione
+Chairman, President, and CEO, Western Alliance Bancorporation
+Good morning.
+David Feaster
+Analyst, Raymond James
+âfollow up on the deposit optimization side.
+You talked about you got about $500 million optimization remaining.
+I guess after these deposit optimization efforts, how do you think about your ability to continue to fund accelerating loan growth with these lower cost deposits?
+Given the hiring that you talked about, it sounds like you're prepping to be able to sustain the improved funding costs.
+Just kind of curious on that, and then maybe how the impacts on the mortgage deposits from the You talked about some of the higher rate impacts on the mortgage market, how that could impact the mortgage deposit side, too.
+Ken Vecchione
+Chairman, President, and CEO, Western Alliance Bancorporation
+Okay.
+We have about five or six deposit channels that report underneath Dale.
+We expect going forward that those deposit channels will grow at a higher percentage or higher growth rate than our traditional other channels.
+Those channels, for the most part, are at a much lower cost basis.
+We expect to fund our growth through the business lines of HOA, corporate trust, business escrow services.
+That is four just to reference, that will help propel our growth going forward.
+I will also say that our deposit growth, whereas previous years, go back to 2025, we grew about $10 billion in deposits.
+We do not need to bring in that type of deposit growth because we are also moderating our loan growth somewhat.
+We think we are going to have the opportunity here to pick and choose a little bit on deposit optimization in terms of what deposit channels we want to accentuate and where we want to go out and get our deposits.
+That is that question.
+On the deposits related to the mortgage business, clearly, if the mortgage industry begins to slow down, you would expect to see some of the mortgage deposits also slow down with the volume.
+We are anticipating that for 2027.
+Offsetting that, though, is we have taken some opportunities to launch this year four private label securitization transactions.
+Those are four PLS trades.
+Why do I highlight them?
+Well, first, the MSR related to those PLS trades is about 1/3 of the cost of our normal MSRs.
+We get to hold an MSR balance that is two-thirds less than we used to hold, but we get to keep all those deposits.
+Heretofore, we have a cap of 25%, and as you know, if you cross over 25%, the risk-weighted asset is very punitive in terms of being 2.5 x the value of the MSR.
+We will be able to grow MSRs and keep those deposits with us rather than selling MSRs.
+Sometimes when we sell MSRs, the deposits move away from us.
+I want to say the MSRs that are, sorry, the deposits that are attached to the MSRs come in at roughly 20 basis points.
+The PLS transaction has several benefits.
+One, it provides us extra margin, which is going to be helpful for the mortgage income.
+It also provides us with a smaller MSR balance and also allows us to keep and retain deposit balances that are very low cost.
+Thanks, David.
+David Feaster
+Analyst, Raymond James
+That is super helpful.
+The other key initiative has been credit.
+That has been one of the other things that has weighed on the stock, and you have made a lot of headway on the credit side.
+Non-accruals are the lowest they have been in over a year.
+You made improvement in the criticized CRE, too.
+As you look at credit today, and obviously higher rates could impact that.
+As you stress the book with higher rates, is there anything that you are watching closely, anything within C&I or the CRE buckets, and just maybe how you think about credit and the potential for credit leverage as we look forward?
+Ken Vecchione
+Chairman, President, and CEO, Western Alliance Bancorporation
+Yeah.
+I think we did make great progress on asset quality.
+Taking a second to collectively pat ourselves on the back a little bit.
+We see continued asset quality progress heading into Q4 with NPLs again coming down from the Q3 levels as we complete the two credits that still need to be resolved.
+Again, as I said, we are on a glide path to resolving them, and we have a very high confidence level that those will be resolved.
+We also see charge-offs being no greater than the level they were in Q3, but more likely coming down from that as well.
+That kind of gives you a little bit of a Q3 into Q4 viewpoint of asset quality.
+As it relates to stressing the portfolio and looking at the portfolio, it is our nature that we always stress all credits before they are granted, and we put in different stress mechanisms.
+But generally, for the longest period of time, we stress all the credits up 150 basis points for the impact of rates.
+So when we approve credits, we already are factoring in that rates will be 150 basis points higher than whatever the then prevailing rate is.
+If the deal works at that time with debt service coverage ratio and so forth, then we feel comfortable to approve it.
+Right now, we are not seeing any bubbles in the book.
+We just do our reviews every quarter, and we always do them right before the earnings call.
+Right now, there is not any heightened concern in any one part of the book, other than to say, as my Chief Credit Officer sits to the left of me, she always is nervous and is always cautious.
+But really, there is no big bubble that we see in the book at this time.
+Operator
+Matthew Clark with Piper Sandler.
+Matthew Clark
+Analyst, Piper Sandler
+Yeah, good morning.
+Thank you.
+Just on expenses, I think you mentioned during your prepared remarks that maybe the higher end of the range for the overall expense guide.
+That implies about, I think, $570 million for the fourth quarter.
+I know there's relief coming in deposit costs, but where else should we expect to see some relief in that run rate?
+Ken Vecchione
+Chairman, President, and CEO, Western Alliance Bancorporation
+I don't know that I used the word relief.
+I would say that in Q3 operating expenses rose because of the investments that we are making structurally in the business.
+I think that's pretty important.
+To the first question that we received about where do you think deposit growth is going to come from.
+This quarter, Q3, we added more people count to a number of our deposit channels to begin to staff up for the pipelines that we currently have.
+So we're putting money into the deposit channel businesses.
+That's one place.
+Second place we're putting money in is in AI initiatives, and we're beginning to see some early signs of positive returns on what we're doing.
+Other initiatives will take a little longer to be realized.
+The third thing we're doing in the expenses is beginning to transition out consultants and hiring our own folks.
+That will take probably another quarter or so before we begin to see the benefit.
+That benefit will probably come at us in the early part of 2027.
+Vishal Idnani
+CFO, Western Alliance Bancorporation
+Yeah.
+Matt, it's Vishal here.
+I agree with that.
+I think what you're getting at is you do have the guidance range, so you can back solve into what we have for expenses.
+Obviously you have the range for the deposit cost.
+We did cut the top end of that down, given the continued success we're having in the optimization.
+We do think you'll see a further decline in deposit costs there.
+When you look at the non-interest expense excluding the deposit cost, I do think you will see a reduction in the fourth quarter given some of the things we did in the third quarter.
+There will be a decline in some of those line items going into the fourth quarter in line with the full-year guidance we've given you.
+Ken Vecchione
+Chairman, President, and CEO, Western Alliance Bancorporation
+Yeah.
+I just want to add one other thing.
+Vishal hit on an important point with Q4 deposit costs.
+The fact that we've taken off $4.5 billion or transitioned out $4.5 billion, you can calculate what the implied deposit cost rate is.
+The savings on that $4.5 billion is able to absorb the 25 basis point increase on the ECR related deposits in Q4 and still have a decline in overall deposit costs.
+That is a very important benefit on deposit optimization that we're also able to bring down our overall total deposit cost going into Q4.
+Matthew Clark
+Analyst, Piper Sandler
+Great.
+Then just on fee income, just want to clarify the implied guidance there.
+I know your guidance includes securities gains.
+Just want to level set the fourth quarter.
+Is that $140 million-$160 million the right range to think about for 4Q?
+I got the mortgage revenue, which is helpful.
+I just want to make sure we're on the same page.
+Vishal Idnani
+CFO, Western Alliance Bancorporation
+Yeah.
+No, I appreciate that question.
+I think you've got it there, which is if you take the range we gave, which is up 18%-21%, and you back solve what the year-to-date fee income is.
+We are providing that number on an all-in basis, so that includes the securities gains in there.
+What that would imply when you look at it is there would be a decrease from the third to the fourth quarter.
+It's hard to say exactly what that's going to be.
+Obviously, mortgage we'll have to see where that lands up.
+Our best estimate right now is down $70 million.
+Ken Vecchione
+Chairman, President, and CEO, Western Alliance Bancorporation
+$270 million.
+Vishal Idnani
+CFO, Western Alliance Bancorporation
+Down $270 million, and I think you will be probably on the higher side of that range when you're thinking about fee income based on what we're seeing right now, but it will be dependent on mortgage.
+Operator
+Next question comes from Jared Shaw with Barclays.
+Jared Shaw
+Analyst, Barclays
+Hey, good morning.
+Ken Vecchione
+Chairman, President, and CEO, Western Alliance Bancorporation
+Morning, Jared.
+Jared Shaw
+Analyst, Barclays
+Morning.
+Just looking at that credit, great progress on the NPLs and the two remaining.
+As we look out once those two are resolved, how should we think about normalized net charge-offs for the company?
+Is that still in that 25-35 basis points once we're done with whatever is being resolved in fourth quarter?
+Did I lose you guys?
+Ken Vecchione
+Chairman, President, and CEO, Western Alliance Bancorporation
+Did you not hear?
+I said yes, you're exactly correct.
+Jared Shaw
+Analyst, Barclays
+Okay.
+Sorry, I cut out there for a minute.
+Okay, thanks.
+Then just going back to the expense side, looking at the non-ECR expense going into fourth quarter, what's going to be driving that?
+Is that just more of a normalization on the salary side, or is that a new base that we should be building from?
+Vishal Idnani
+CFO, Western Alliance Bancorporation
+No, I think there will be a normalization there.
+If you back out the deposit fees and you look at the rest of the non-interest expense ex deposit fees, given what we said here, you would see a decline there.
+Anywhere, think about it, given we said the higher end of the range by call it 5%-7%.
+There is going to be that decline that happens there in the fourth quarter.
+There was a little bit on what we were doing in terms of hiring that happened in the third, but there is a churn there as well.
+I would not take the third quarter.
+That is not the new run rate to grow expenses off of.
+The expenses ex deposit fees will be down in the fourth quarter.
+I would back into it based on the full year guidance we have given you of that range and towards the top end of that range.
+Operator
+Next question comes from Ben Gerlinger with Citi.
+Ben Gerlinger
+Analyst, Citi
+Hi, good morning.
+Ken Vecchione
+Chairman, President, and CEO, Western Alliance Bancorporation
+Hey, good morning, Ben.
+Vishal Idnani
+CFO, Western Alliance Bancorporation
+Hey, Ben.
+Ben Gerlinger
+Analyst, Citi
+Can you kind of touch base on the six credits that are now just kind of two remaining?
+Could you kind of just talk through how they got resolved or they're no longer on that little list?
+Was it a sale or was there equity put in?
+I'm just kind of curious how they got resolved.
+Ken Vecchione
+Chairman, President, and CEO, Western Alliance Bancorporation
+Just want to make sure.
+You came in a little choppy, Ben.
+I'm just going to restate your question.
+You're asking how did the two credits get resolved in Q3?
+Is that the question?
+Ben Gerlinger
+Analyst, Citi
+It was the remaining.
+The previous four, but in general, to see how theyâ
+Ken Vecchione
+Chairman, President, and CEO, Western Alliance Bancorporation
+Yeah.
+Ben Gerlinger
+Analyst, Citi
+âgot better.
+Lynne Herndon
+Chief Credit Officer, Western Alliance Bancorporation
+Yes.
+The four that we've been mentioning and tracking were ultimately sale of assets off the books and moved outside of the bank.
+Ben Gerlinger
+Analyst, Citi
+Got it.
+Was there seller financing?
+Lynne Herndon
+Chief Credit Officer, Western Alliance Bancorporation
+We did not provide that.
+Ben Gerlinger
+Analyst, Citi
+Got it.
+Okay.
+Just lastly, it seems like you're alluding to improved credit into the end of the year and into next year.
+Is there anything on the REO perspective that would be on the table here that should also be expected as well?
+Is it just looking at these last two remaining ones into year-end?
+Ken Vecchione
+Chairman, President, and CEO, Western Alliance Bancorporation
+For the year-end, we're just looking at two more that will help reduce the NPLs.
+Rob, w e will always be mindful and try to reduce REO.
+We use REO in a very strategic way.
+We take properties back.
+Generally, our whole REO book, I should say, has revenues greater than operating expenses, so it's a net contributor to earnings.
+Really the importance for us is to take the property back, put in the value add that's needed, and then increase the vacancy.
+I'm sorry, increase the occupancy, decrease the vacancy, and then move it off our books.
+If you go back to, say, Q2 of 2025, you'll see our REO was as high as 218, and then it came down by year-end to $137 million.
+We move things in and out of there, and we find it's better to take these properties back and make the changes that are necessary, increase value, and then sell them back to the market.
+I also want to say when we take the REO or we take the properties back to REO, we do mark to market.
+We do mark them to market.
+They all come in at current valuations.
+If they're there any longer than a year, we also re-mark them again to make sure that the valuations are accurate.
+If not, then we take a charge for them.
+If they go up, we don't take any gain until we sell.
+Operator
+Next question comes from Timur Braziler, UBS.
+Timur Braziler
+Analyst, UBS
+Hi, good morning.
+Vishal Idnani
+CFO, Western Alliance Bancorporation
+Morning, Timur.
+Timur Braziler
+Analyst, UBS
+Wanted to talk quickly on the margin.
+I do not know if there was an outlook or just a reference point, but the comment that margin is typically down three to four basis points from the fourth quarter.
+Just how does that triangulate to this year where it seems like loan growth for the year has already been achieved?
+Your asset sensitive on the balance sheet and the offset from ECRs is somewhat mitigated given the fact that they are exiting here and you are getting the full kind of average effect in 4Q.
+Is the 4Q guide going to be more or less reference to that historical three to four basis point range?
+Or is there going to be more net asset sensitivity here in the near term as ECRs are less of a mitigating factor?
+Ken Vecchione
+Chairman, President, and CEO, Western Alliance Bancorporation
+Yeah.
+The Q4 guide is more directed to what has happened in this company historically.
+We've seen the decrease in net interest margin is because we have a higher proportion of mortgage-related deposits leave the bank, and we have to backfill it with other borrowings.
+The other borrowings obviously cost more than the deposit cost, and it weighs a little bit more on the margin.
+These deposits then come back in in Q4, and then the margin then returns, moves upward.
+But historically, we've seen three to four basis points for the last several years of impact to the margin because of the exit or the temporary exit of these warehouse lending deposits.
+Vishal Idnani
+CFO, Western Alliance Bancorporation
+Yeah, I would just add while we typically have some compression in the fourth quarter, exactly because of what Ken said, you've got the warehouse deposits coming out and you have to take out more borrowings.
+Dollars of NII will be flat to up in the fourth quarter.
+When you're thinking about Q3 to Q4, I think you'll see the dollar NII up slightly anywhere from call it one to two percentage points, which you can look at what the full year guide is and back into it.
+But I think it will be up from a dollar perspective while there is going to be a little bit of compression on the NIM side.
+Timur Braziler
+Analyst, UBS
+Okay.
+Then maybe looking beyond the near term, once the deposit optimization program is complete, what's the next step for Western Alliance?
+Are we going back to $8 billion on deposit growth, $6 billion in loan growth annually?
+Or is there going to be more of a consideration on funding of that loan growth?
+I'm just wondering, ECR related deposits.
+What's the go forward portion of the funding that's going to come from those balances?
+Ken Vecchione
+Chairman, President, and CEO, Western Alliance Bancorporation
+Yeah, we'll give you more specific guidance when we do our Q4 earnings call in January.
+But I think the guidance you can take away from Investor Day is what we're still continuing to follow, which is we're going to have slower or more moderate, I'll say, loan growth to be in the top quartile of our peers rather than to be outside the top quartile.
+By doing that, we're also going to have less of a need for deposit growth.
+That's how we're structuring the business going forward.
+Then the excess capital that we generate, assuming that the share price is where it's at, we will continue to be buyers of our shares.
+Operator
+Next question comes from Chris McGratty with KBW.
+Chris McGratty
+Analyst, KBW
+Oh, great.
+Thanks.
+The 16%-17% ROTCE that you threw out as medium term earlier this year, did about 15% in the quarter.
+I am interested in an update of timing given the shift in the balance sheet.
+That is the first question.
+Thanks.
+Vishal Idnani
+CFO, Western Alliance Bancorporation
+Yeah.
+I would say, when we were at Investor Day in May, we said we were going to target that two and a half to three years out.
+I think just bring that in from there.
+So it is still two to two and a half years is where we think we are going to get there.
+Remember, the whole point of that range was it is where we can sustainably get to an ROE between the 16%-17%, and we landed at 15.5% in the third quarter.
+So we do not think we are that far from the bottom end of the range.
+The way we are going to get there is all the different things we are talking about here.
+One thing I would highlight is we are making a very big push on the treasury management side, trying to bring in more fee income, even trying to get more of those core operating accounts, lower cost deposits.
+So there is a lot of different initiatives that are going on at the bank to get there.
+But I would say, Chris, call it two to two and a half years from now.
+Hopefully, we will get there on the sooner side, given we are at 15.5% today.
+Chris McGratty
+Analyst, KBW
+Okay, great.
+On the buyback, just taking the 150 that you put out earlier would imply some modest deceleration.
+To keep at these levels or perhaps even increase, is it just Basel III finalization?
+Obviously, the TCE ratio matters to some degree, but I am asking about sustainability of current buyback levels.
+Thanks.
+Ken Vecchione
+Chairman, President, and CEO, Western Alliance Bancorporation
+Yeah.
+There are a couple things that we will consider as we go forward and come out of 2026 into 2027.
+First, we do want to see what the final Basel III rules are, and that will help inform us what we are going to do in 2027 regarding buybacks.
+But we also want to continue to target that 11% area for CET1.
+The reason why we are focused on that is that we are looking to get an upgrade on our short-term and long-term ratings, credit ratings.
+Why that is important, go back to the first call about where deposit growth is going to come from.
+We believe a higher credit upgrade will give us a greater ability to attract more deposits in some of our emerging deposit channels.
+That is what we are going to balance that out against the short and the long term.
+Of course, if the price looks as attractive as it is today, we are going to be buyers.
+But we are going to try to balance that against the 11%.
+I do not want to give short shrift to the TCE.
+That we do think is important.
+For us, we are working overtime to bring our TCE, which only went down 10 basis points.
+Just so I can tell you that had we not done the deposit optimization, we probably would have been down another 20 basis points.
+So the deposit optimization added 20 basis points to TCE.
+Our goal is to bring our TCE to TA up towards our peer group, which is in that 7.6%-7.8% range.
+That is one of our goals as well.
+But we are going to look at all those things together, Chris.
+Vishal Idnani
+CFO, Western Alliance Bancorporation
+Yeah, Chris, it is Vishal here.
+The only thing I would add, obviously, is you can see where we bought back the $92 million at $79.78, and the stock right now is trading at $75.
+So you can imagine we think this is a very attractive price to be buying back shares.
+Operator
+Next question comes from David Smith with Truist.
+David Smith
+Analyst, Truist
+Hey, good morning.
+Ken Vecchione
+Chairman, President, and CEO, Western Alliance Bancorporation
+Morning.
+Vishal Idnani
+CFO, Western Alliance Bancorporation
+Good morning.
+David Smith
+Analyst, Truist
+Can you talk a little bit more about where the loan growth is coming from?
+I guess just coming from $58.7 billion in the fourth quarter of last year, it'd imply another $1 billion or so in the fourth quarter to get right to the $4 billion target.
+So just speak a little bit about the types of loans you're expecting that to come from, please.
+Ken Vecchione
+Chairman, President, and CEO, Western Alliance Bancorporation
+Yeah.
+The HFI portfolio grew 4% on a linked quarter annualized basis this quarter, and it was across regional banking, hotel, franchise, finance, tech, and innovation.
+That growth, supported by MSR lending and note finance, offset a mild decline in warehouse lending as mortgage production slowed in response to mortgage rates.
+I would foresee those same areas driving the volume going forward.
+Tim Bruckner is our Chief Banking Officer.
+Tim, you want to add anything to that?
+Tim Bruckner
+Chief Banking Officer, Western Alliance Bancorporation
+Yeah.
+To say I'm very pleased to see the growth in the specialty initiatives that we've identified and spoken about, and that's paired with the corresponding growth in deposit and treasury management fee related business.
+Growth is a function of our strategy now in action.
+David Smith
+Analyst, Truist
+Thank you.
+On the NIM for the fourth quarter, I know you mentioned historically you'll often see a three or four basis point seasonal headwind from mortgage warehouse deposit outflows being backfilled with borrowings.
+Since you're almost done with the deposit optimization, shouldn't that seasonality be less today and going forward than has been historically?
+Ken Vecchione
+Chairman, President, and CEO, Western Alliance Bancorporation
+We still have a fair amount of warehouse lending deposits, and those deposits will roll off temporarily, and they do have to be replaced by other borrowings.
+That trend is still going to continue.
+Vishal Idnani
+CFO, Western Alliance Bancorporation
+Yeah.
+This is the typical seasonal stuff we see with the T&I payments.
+It builds up over the first three quarters of the year.
+You have those outflows in the fourth quarter.
+Then obviously you see that spike back up in the first quarter.
+I think that's very typical for us.
+I think you do have the right point, which is while we do have marginally less warehouse deposits, you might see a little bit less seasonality.
+There is still the remainder of the book that's there.
+Operator
+Next question comes from Jon Arfstrom with RBC Capital Markets.
+Jon Arfstrom
+Analyst, RBC Capital Markets
+Hey, thanks.
+Good morning.
+Ken Vecchione
+Chairman, President, and CEO, Western Alliance Bancorporation
+Morning, Jon.
+Jon Arfstrom
+Analyst, RBC Capital Markets
+Where would you guys like the reserves to go over time?
+Do you expect to continue to build that ratio?
+Ken Vecchione
+Chairman, President, and CEO, Western Alliance Bancorporation
+Yeah.
+The peer group reserves are about 1.18%, and our ACL is 93 basis points.
+Last quarter, I do not know what is going to happen fully this quarter, but last quarter, we went up two basis points and the rest of the peer group came down three, and that narrowed the group.
+To be honest with you, Jon, we do not necessarily target an absolute number, but rather we target through our CECL process the quality of our portfolio book that we stress tested.
+We then make certain decisions, like this quarter when we added overlays into the models for a higher interest rate environment, uncertainty with the macroeconomic environment, and also some uncertainty with the geopolitical environment.
+That kind of moved us up.
+All right?
+In addition, as you have heard us say many times, we are moving away from being a little bit more CRE centric to more C&I centric, and that combination of the portfolio composition change will kind of lead us upward.
+As we kind of look at where we are going for our strategic plan, we have just basically said think of it as about two basis points up per quarter, given where we see the composition of the loan growth moving throughout 2027.
+Jon Arfstrom
+Analyst, RBC Capital Markets
+Okay, good.
+Then I guess maybe a financial psychology question for you, Ken.
+Do you like this strategy?
+You are comfortable with the strategy of the mid to high single digit loan growth and repurchases, or do you feel like it is the more moderate loan growth approach is holding back your businesses at all?
+Ken Vecchione
+Chairman, President, and CEO, Western Alliance Bancorporation
+Oh, boy, Jon, I am going to have to sit down or lay down on my couch for that one and cut you a check for a couple hundred dollars if we want to talk about that.
+Jon Arfstrom
+Analyst, RBC Capital Markets
+It is working so far, but I am just curious.
+Is it holding you back or is it-
+Ken Vecchione
+Chairman, President, and CEO, Western Alliance Bancorporation
+It is.
+Jon Arfstrom
+Analyst, RBC Capital Markets
+Yeah.
+Ken Vecchione
+Chairman, President, and CEO, Western Alliance Bancorporation
+Well, it is by nature to be more of an organic grower.
+We have shown great results as a company growing that way through total shareholder return.
+We are reevaluating.
+We do not have a broken company here.
+We are reevaluating how best to get valuation higher in this company.
+We were not getting rewarded for that excess growth above the peer group.
+We are bringing in the excess growth, as you know.
+We had a blip in Q1's asset quality.
+I think we are showing that that was in fact a blip.
+You go back and look at 15 years of track record here, and we have averaged 10 basis points.
+Go back over the last five years and you see we have averaged 17 basis points of charge-offs.
+Still lower than our peer group.
+You can go back and look at our classified assets, our criticized, and our special mention currently to our peer group.
+You can see that we're in the top quartile of all that.
+So we're bringing in loan growth, we're improving or reaffirming asset quality, and we are lowering the growth of the balance sheet and not taking in deposits like we normally did, where we were making a smaller spread on the income because some of those deposits had some volatility to them in terms of how long we can lend them out for.
+Therefore, we put them into HQLA.
+We're making a small spread, and hence we're trying to get more out of our base and to grow our return on average tangible common equity and return on average assets.
+That's the growth.
+That's the plan.
+Very clear about that on Investor Day, and we're still working towards that.
+What that's going to mean, and actually helpful somewhat, is that Tim Bruckner, sitting to my right, gets to be far more selective about what loans he wants and should, in fact, be able to bring in loans at higher spreads than just having bringing in all this deposit growth where you need to put it back out into lower loan growth.
+Tim, yeah.
+Tim Bruckner
+Chief Banking Officer, Western Alliance Bancorporation
+Yeah.
+Thanks, Ken.
+What's neat about this, the growth that you're seeing is exactly in the segments and sectors that we have indicated as being desirable.
+It's bringing with it exactly the deposit and fee business that we sought out.
+We are prescriptive in how we approach that growth, and we're seeing the results.
+Those results are encouraging.
+Operator
+Next question comes from Casey Haire, Autonomous Research.
+Casey Haire
+Analyst, Autonomous Research
+Great.
+Thanks.
+Good morning, everyone.
+Wanted to touch on deposit beta.
+Most banks just point to the last cycle and say that's a pretty good reference point.
+Obviously, Western Alliance, a lot going on here.
+You've optimized a lot of the ECR deposits.
+Dale's got some new initiatives in the works, which sound like they're lower cost.
+It all adds up to potentially a lower deposit beta.
+When I look at you guys last cycle inclusive of ECR, I've got the deposit beta at around 75%.
+I'm just wondering if you guys have given any thoughts on where that would settle out in the next Fed cycle.
+Vishal Idnani
+CFO, Western Alliance Bancorporation
+Yeah, sure thing, Casey.
+Obviously, these are estimates based on the best information we have right now.
+We're currently expecting our blended cumulative deposit beta to be about 65% over the next year, and that includes both the non-maturity deposits and the ECR-related deposits.
+To your point, though, there is some nuance here between the types of deposits.
+As we think about non-maturity deposits excluding ECRs, we're expecting a beta anywhere from 55%-60%.
+When you think about the ECRs, specifically those deposits, you could see a beta of about 70%-75%, given we do have those warehouse deposits which come closer to a 90%-100% beta.
+Hopefully that gives you some color to get there.
+Casey Haire
+Analyst, Autonomous Research
+Yeah.
+Okay.
+I'm sorry.
+So which one is the all-in beta?
+Vishal Idnani
+CFO, Western Alliance Bancorporation
+So 60-
+Casey Haire
+Analyst, Autonomous Research
+70% - 75%?
+Vishal Idnani
+CFO, Western Alliance Bancorporation
+65% is the all-in beta non-maturity deposits plus ECRs.
+If you were to exclude the ECRs, 55%-60%.
+On the ECRs specifically, call it 70%-75%.
+When you blend those two ranges, you'd get an overall beta of about 65%.
+Casey Haire
+Analyst, Autonomous Research
+Okay.
+Got you.
+Okay.
+Just one more on the NPL resolution front.
+I heard you guys talking about you stressed the portfolio for higher interest rates.
+Do you guys have a line of sight on how much further the NPL resolution can go? 14% redux in the third quarter.
+We've seen others with credit issues talk to the rising rate environment slowing down the resolution.
+Just wondering if there's any way you could quantify what you'd expect in the coming year.
+Ken Vecchione
+Chairman, President, and CEO, Western Alliance Bancorporation
+Well, I'll give you the coming quarter and wait for the full year when we give you our full-year guidance in January.
+The coming quarter, we have a high degree of confidence that the NPLs will continue to drop from the $485 million level that we're at.
+As we've said, we've got two credits.
+One is just figured, say, it's just completed more or less, and the other one is scheduled for completion in the early part of December.
+That gives us the confidence that the NPLs will continue to improve from now through the end of the year.
+Operator
+Next question comes from Janet Lee with TD Cowen.
+Janet Lee
+Analyst, TD Cowen
+Hello.
+Ken Vecchione
+Chairman, President, and CEO, Western Alliance Bancorporation
+Hi, Janet.
+Janet Lee
+Analyst, TD Cowen
+Could you talk to us about the lending side on the competition?
+I get that much of the benefit from the rate hike in the third quarter was not showing up on the loan yields in the third quarter.
+I do see that the CRE loan yields were down a little bit. I wanted to see if there's any meaningful changes in the competition on the lending side.
+Ken Vecchione
+Chairman, President, and CEO, Western Alliance Bancorporation
+Sure.
+It's a competitive environment.
+The acknowledgment of that as foundational in the plan that we've undertaken.
+We don't look at relationships purely on a loan yield basis.
+We look at that on a relationship basis, and we've done a really good job of maximizing our relationship income, including deposits, including the fee business in the segments that we pursue and how we evaluate and pursue those segments.
+So we're pleased with what we're seeing.
+If you approach this as a loan-only business today, it's a tough and competitive environment.
+Janet Lee
+Analyst, TD Cowen
+Got it.
+If we were to get more rate hikes, how do you assess how much deposit optimization opportunity is still available or remaining?
+I understand that you've executed on the accelerated deposit optimization and $500 million more left in the fourth quarter.
+Are we at a good place or is it something that you could revisit?
+Ken Vecchione
+Chairman, President, and CEO, Western Alliance Bancorporation
+Janet, right now, the $5 billion seems like the appropriate number.
+I said all along that this had to be finessed.
+In terms of how pleased we are, we were able to transition the $5 billion, or soon to be $5 billion off the balance sheet.
+We have not lost a single customer.
+We have not lost any loan opportunities as well.
+I think we're going to pause here and see how the rest of the year shakes out.
+Not many banks could have the precision to take out $3 billion in a quarter and still keep deposits flat.
+I said it in my opening remarks, that's Herculean.
+That is precision bombing, okay?
+To be able to do that.
+This was no easy task.
+To also accelerate in the deposit transitioning faster than we expected.
+At this point, we're going to pause.
+$5 billion is significant, and we'll take another look at it after we complete the end of the year if we need to do anything differently.
+Operator
+Next question comes from Bernard von -Gizycki, Deutsche Bank.
+Bernard von-Gizycki
+Analyst, Deutsche Bank
+Good afternoon.
+Just a question on fees.
+Just any updates on the expected settlements within Juris Banking leading to higher service fees?
+Is that not expected in 4Q, still kind of first half 2027?
+Just any updates there?
+Ken Vecchione
+Chairman, President, and CEO, Western Alliance Bancorporation
+Yeah, I believe it's really going to be in 2027.
+There's a couple of big cases out there, Google being the most notable.
+That's still in a process, even though settlement discussions, I think, are well along.
+So that's probably a 2027 event.
+Bernard von-Gizycki
+Analyst, Deutsche Bank
+Okay, and just one more follow-up on the fee income.
+Vishal, I think in 2Q, you highlighted trying to hedge the volatility in the mortgage market.
+You'd sell some covered call options.
+Did you have any income from that during the quarter?
+And if so, do you expect that to continue?
+Vishal Idnani
+CFO, Western Alliance Bancorporation
+We did have a little bit of that in here.
+It was a couple of million bucks, nothing material in the quarter.
+And then I'd say going forward, opportunistically, we'll continue to look at that.
+Operator
+Next question comes from Anthony Elian with JP Morgan.
+Anthony Elian
+Analyst, JPMorgan
+Hi, Vishal.
+Can you help us unpack the outlook for NII for flat to slightly up in 4Q?
+Following up on Casey's question on the beta, could you give us your expectations for deposit costs in 4Q relative to the 2.76% you had for interest bearing in 3Q?
+Vishal Idnani
+CFO, Western Alliance Bancorporation
+Yeah, sure thing.
+In terms of the NII, I'd say a couple of things.
+One, as Ken mentioned, typically in the fourth quarter, we do see a little bit of a contraction in NIM.
+If you go back the last three years, you can take a look at that.
+Again, it's due to the seasonality in the warehouse business as those T&I payments come out, as we kind of refund some of that with borrowings.
+You've got some higher costs there.
+So that's why you see a little bit of NIM compression in the fourth quarter.
+That could be anywhere from, as Ken said, historically it's been three to four basis points.
+That being said, obviously the balance sheet is continuing to grow.
+We do have optimization.
+We have a remixing on the balance sheet.
+So when we think about the dollars of NII, I think we're going to be flat to slightly up Q3 to Q4 from a dollar perspective.
+So hopefully that helps on the first question.
+On the second question about the cost of interest-bearing deposits, they were up two basis points quarter-over-quarter from 2.74% to 2.76%.
+Obviously, we had the rate hike in September in the middle of the month, so we are going to see, and we expect to see cost of interest-bearing deposits up into the fourth quarter.
+When we look at where that sits today, if I look at the month of September, it's up to about 2.81%, up five basis points from where we were for the quarter.
+But that doesn't fairly capture the full projected increase, obviously, given the time of the hike.
+I would say just going forward, based on sort of the beta assumptions we put out there and what we are looking at in terms of 25 basis points, I think you can back into a range there for cost of interest-bearing deposits to go up, call it anywhere from 10 - 15 basis points.
+Operator
+There are no further questions at this time.
+I will now turn the call back to Ken Vecchione for closing remarks.
+Ken Vecchione
+Chairman, President, and CEO, Western Alliance Bancorporation
+Yeah.
+Thank you very much for your time today.
+We were very pleased with the quarter, very pleased against the progress we made against our strategic initiatives, and we look forward to talking to you again in early January.
+Thank you all.
+Operator
+This concludes today's call.
+Thank you for attending.
+You may now disconnect.
+Data Source:
+Quartr
+Last updated:
+Oct 20, 2026
+Earnings call transcripts are provided by
+Quartr
+and are published within hours after each earnings call.
+Update frequency:
+Quarterly
+Data Sources
+Report a data error
+Play Audio
+Download Transcript
+Speakers (18)
+Slides
+Earnings release

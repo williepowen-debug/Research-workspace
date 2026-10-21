@@ -1,0 +1,106 @@
+[
+  {
+    "key": "fed_h8_20261016",
+    "url": "https://www.federalreserve.gov/releases/h8/20261016/",
+    "retrieved_at": "2026-10-21T02:35:48.348420+00:00",
+    "status": 200,
+    "final_url": "https://www.federalreserve.gov/releases/h8/20261016/",
+    "path": "fed_h8_20261016.html",
+    "bytes": 664352,
+    "sha256": "8dbea0326622ed2bf96de0c0628dcf704d2f2158ffbe6d7b78ef1b43211839cd",
+    "usable": true,
+    "text_chars": 61508
+  },
+  {
+    "key": "fed_h41_20261015",
+    "url": "https://www.federalreserve.gov/releases/h41/20261015/",
+    "retrieved_at": "2026-10-21T02:35:48.348934+00:00",
+    "status": 200,
+    "final_url": "https://www.federalreserve.gov/releases/h41/20261015/",
+    "path": "fed_h41_20261015.html",
+    "bytes": 701818,
+    "sha256": "78ffb5ffd6e601e78eccd4f6addd8c29da017426e21aa4c52c32b947b87e8bd4",
+    "usable": true,
+    "text_chars": 28012
+  },
+  {
+    "key": "ozk_mc",
+    "url": "https://ir.ozk.com/3Q26_Management_Comments",
+    "retrieved_at": "2026-10-21T02:35:48.349318+00:00",
+    "status": 403,
+    "final_url": "https://ir.ozk.com/3Q26_Management_Comments",
+    "path": "ozk_mc.html",
+    "bytes": 394,
+    "sha256": "5ac06ecd531999f5d9ae18243417e3dfcc9d9ecc253788ec8493cb74c61ee3f3",
+    "usable": false
+  },
+  {
+    "key": "ozk_supplement",
+    "url": "https://ir.ozk.com/3Q26_Financial_Supplement",
+    "retrieved_at": "2026-10-21T02:35:48.350351+00:00",
+    "status": 403,
+    "final_url": "https://ir.ozk.com/3Q26_Financial_Supplement",
+    "path": "ozk_supplement.html",
+    "bytes": 395,
+    "sha256": "28d83e566f1a9c523d0e25ba7c33c9bd49f2a879b09cbd6aafb6c98544d87b03",
+    "usable": false
+  },
+  {
+    "key": "ozk_release",
+    "url": "https://ir.ozk.com/3Q26_Earnings_Release",
+    "retrieved_at": "2026-10-21T02:35:48.352127+00:00",
+    "status": 403,
+    "final_url": "https://ir.ozk.com/3Q26_Earnings_Release",
+    "path": "ozk_release.html",
+    "bytes": 391,
+    "sha256": "07ec6208cdc4c3933c85d2907dc039cc4f55658944d4ca1c88729dcff71e2a9b",
+    "usable": false
+  },
+  {
+    "key": "wal_transcript_SECONDARY",
+    "url": "https://stockanalysis.com/stocks/wal/transcripts/712742-q3-2026/",
+    "retrieved_at": "2026-10-21T02:35:48.480907+00:00",
+    "status": 200,
+    "final_url": "https://stockanalysis.com/stocks/wal/transcripts/712742-q3-2026/",
+    "path": "wal_transcript_SECONDARY.html",
+    "bytes": 369366,
+    "sha256": "b857a27a7e9067728decab7effed71592af7422bed7bb8dd04ab0edb713acf70",
+    "usable": true,
+    "text_chars": 61054
+  },
+  {
+    "key": "wal_primary_deck",
+    "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/walq32026earningspresent.htm",
+    "retrieved_at": "2026-10-21T02:35:48.522944+00:00",
+    "status": 200,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/walq32026earningspresent.htm",
+    "path": "wal_primary_deck.html",
+    "bytes": 43611,
+    "sha256": "12bd45f2f0c0da5c0c85bea5c72dd2ba7d05f1cb13430cc5b8d8e50f3cd60124",
+    "usable": true,
+    "text_chars": 35078
+  },
+  {
+    "key": "egbn_primary_notice",
+    "url": "https://ir.eaglebankcorp.com/news/news-details/2026/Eagle-Bancorp-Announces-Earnings-Call-on-October-22-2026/default.aspx",
+    "retrieved_at": "2026-10-21T02:35:48.536787+00:00",
+    "status": 403,
+    "final_url": "https://ir.eaglebankcorp.com/news/news-details/2026/Eagle-Bancorp-Announces-Earnings-Call-on-October-22-2026/default.aspx",
+    "path": "egbn_primary_notice.html",
+    "bytes": 5868,
+    "sha256": "d3027bc007050b8966d1f06090519e134ff4f5a863cdcc5bc3cdaa02e4b93833",
+    "usable": false
+  },
+  {
+    "key": "egbn_sec_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001050441.json",
+    "retrieved_at": "2026-10-21T02:35:48.651960+00:00",
+    "status": 200,
+    "final_url": "https://data.sec.gov/submissions/CIK0001050441.json",
+    "path": "egbn_sec_submissions.json",
+    "bytes": 165938,
+    "sha256": "73dcf9cb1cde0f75b9e66368ef1e6889de69d36a056195bbdc011158dbe32573",
+    "usable": true,
+    "text_chars": 165938
+  }
+]

@@ -114,3 +114,7 @@ The §6 expectations and their original PENDING cells above remain the pre-relea
 | New credit expense vs normalization | Consolidated provision80.4→80.0M; NCO55.0→45.8M. Nonaccrual falls but OREO/special mention rise;99M loan remains unidentified. Counterevidence to broad realized-loss acceleration, not a cash-cure finding or absence of new migration. |
 
 Primary release freshly retrieved and decisive tables checked; WAL owner's completed earnings bridge consumed read-only. Sources/locators and funding grade: `reports/2026-10-20_reported-bank-earnings-catchup.md`. Reclassification means the older October14 historical screen is not a current run rate. No new FY27 EPS forecast, contemporary consensus comparison or valuation edge. Noon call remains future at evidence cutoff.
+
+## October20 late call follow-through
+
+StockAnalysis/Quartr SECONDARY transcript read; primary audio not listened. Management reports4.5B cumulative deposit optimization, at least5B targeted by year-end, and expects Q4 expense reductions after Q3 hiring/investments. This supports the proposed mechanism, not quantified net causal earnings conversion or a new FY27 forecast. CCO states four tracked resolved credits sold outside bank with no seller financing; exact credits/proceeds unprinted, so99M life-science outcome remains unknown. Conflicting/gabled fee-guidance transcript fragments not graded. Filing-only F3/N and consensus component basis remain open. Sources/locators→`2026-10-20_backlog-followthrough.md`; October14 expectation and prior outcome append untouched.

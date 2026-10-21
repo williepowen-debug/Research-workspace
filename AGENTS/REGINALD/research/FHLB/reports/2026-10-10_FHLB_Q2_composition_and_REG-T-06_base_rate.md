@@ -141,8 +141,8 @@ FRED, pulled 2026-10-10 ~13:3x ET (last updated 2026-10-09); "small" = domestica
 
 | Series (seasonally adjusted, $B) | 9/09 | 9/16 | 9/23 | **9/30** | 3-wk Δ |
 |---|---:|---:|---:|---:|---:|
-| Small-bank borrowings `H8B3094NSMA` | 281.6 | 286.7 | 298.3 | **314.5** | **+32.9 (+11.7%)** |
-| Small-bank cash `CASSCBW027SBOG` | 484.7 | 476.1 | 490.5 | **505.9** | +21.2 |
+| Small-bank borrowings `H8B3094NSMA` | 281.6 | 286.7 | 298.3 | **314.5 [10/10 vintage; revised 314.9 on10/20]** | **+32.9 (+11.7%)** |
+| Small-bank cash `CASSCBW027SBOG` | 484.7 | 476.1 | 490.5 | **505.9 [10/10 vintage; revised 500.5 on10/20]** | +21.2 |
 | Small-bank deposits `DPSSCBW027SBOG` | 5,674.3 | 5,667.9 | 5,671.2 | **5,673.4** | −0.9 (flat) |
 | Small-bank total assets `TLASCBW027SBOG` | 6,905.1 | 6,909.7 | 6,931.5 | **6,939.0** | +33.9 |
 | Large-bank deposits `DPSLCBW027SBOG` | 12,384 | 12,298 | 12,325 | 12,415 | +31 |
@@ -151,7 +151,7 @@ FRED, pulled 2026-10-10 ~13:3x ET (last updated 2026-10-09); "small" = domestica
 **Base rate (same series, 160 weeks, 9/13/2023 → 9/30/2026):**
 - **+11.7% is the largest 3-week rise in the sample.** The next largest are +5.4% (the 9/23 week, the same episode) and +3.9% (1/28/26).
 - **It is not a quarter-end pattern:** the 12 prior quarter-end weeks ran −4.9% to +1.4%.
-- The LEVEL ($314.5B) is still below 2023–24 (~$350–420B).
+- The LEVEL ($314.5 [10/10 vintage; revised 314.9 on10/20]B) is still below 2023–24 (~$350–420B).
 - The 9/29 descriptive bar ("a step-up ≥ +5% in a month") is crossed: +11.2% from 9/02.
 
 **Read:**
@@ -174,7 +174,7 @@ FRED, pulled 2026-10-10 ~13:3x ET (last updated 2026-10-09); "small" = domestica
 | … domestically chartered `LNFDCBW027SBOG` | 1,531.0 | 1,547.4 | same | 🟢 |
 | Small-bank deposits `DPSSCBW027SBOG` | 5,667.9 | 5,673.4 | multi-week decline while large rise | 🟢 flat |
 | Small-bank large time deposits `LTDSCBW027SBOG` | 734.3 | 734.4 | a RISE | 🟢 flat |
-| **Small-bank borrowings `H8B3094NSMA`** | 286.7 | **314.5** | **≥ +5% in a month** | 🟠 **CROSSED** (+11.2% from 9/02) |
+| **Small-bank borrowings `H8B3094NSMA`** | 286.7 | **314.5 [10/10 vintage; revised 314.9 on10/20]** | **≥ +5% in a month** | 🟠 **CROSSED** (+11.2% from 9/02) |
 | Small-bank C&I `CILSCBW027SBOG` | 737.6 | 739.5 | a draw spike | 🟢 |
 | Small-bank CRE `CRESCBW027SBOG` | 2,104.3 | 2,105.6 | context | 🟢 |
 | **Discount-window primary credit `WLCFLPCL`** | 6.88 | **8.74 · 9.97 [10/7]** | **> p90 of prior 60 weeks for 2+ weeks** (p90 recomputed 10/10 = **$7.83B**) | 🟠 **CROSSED** (2 weeks; 10/7 is above the prior-60-week max $9.87B) |
@@ -182,3 +182,7 @@ FRED, pulled 2026-10-10 ~13:3x ET (last updated 2026-10-09); "small" = domestica
 *(9/16 values are the current vintage; H.8 revisions moved several from the 9/29 table, e.g. NDFI loans 2,047.0 → 2,061.9.)*
 
 **Read:** **2 of 8 bars crossed, both on the FUNDING/LIQUIDITY side; all credit-side bars quiet.** That means no line-draw spike, no non-bank-lending stall, no deposit flight and no expensive-CD replacement. The pattern is banks lining up cash (borrowing plus the discount window), not credit reaching balance sheets. **Not a registered trigger;** base-rate before any registration (the 9/29 rule). Next H.8: Fri 10/16; next H.4.1: Thu 10/15.
+
+## October20 follow-through
+
+The historical observations above retain their retrieval vintage. Current same-vintage weekly comparison: `../../../reports/2026-10-20_backlog-followthrough.md`. September30 revisions are separate from October7 new-week flows. Official REG-T-06 remains2-of-3; current REVIEW rule unchanged. The full pre-annotation report is preserved verbatim in `../../../archive/2026-10-20_before-backlog-followthrough/FHLB_Q2_composition_and_REG-T-06_base_rate.md`.

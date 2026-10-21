@@ -1,0 +1,174 @@
+{
+  "checks": [
+    {
+      "check": "original byte prefix retained: registry/REG_T02_EXIT_LOG.tsv",
+      "result": "PASS"
+    },
+    {
+      "check": "original byte prefix retained: workbook/WORKOUT_OUTCOME_BRIDGE.tsv",
+      "result": "PASS"
+    },
+    {
+      "check": "original byte prefix retained: workbook/KB.tsv",
+      "result": "PASS"
+    },
+    {
+      "check": "original byte prefix retained: reports/2026-10-13_Q3_cash-loss-valuation_next-evidence.md",
+      "result": "PASS"
+    },
+    {
+      "check": "original byte prefix retained: reports/2026-10-13_review-response_forward-judgments.md",
+      "result": "PASS"
+    },
+    {
+      "check": "original byte prefix retained: reports/2026-10-14_WAL_2027_earnings-path-test.md",
+      "result": "PASS"
+    },
+    {
+      "check": "pre-session snapshot exact: STATUS.md",
+      "result": "PASS"
+    },
+    {
+      "check": "pre-session snapshot exact: MEMORY.md",
+      "result": "PASS"
+    },
+    {
+      "check": "pre-session snapshot exact: ROADMAP.md",
+      "result": "PASS"
+    },
+    {
+      "check": "pre-session snapshot exact: CALENDAR.md",
+      "result": "PASS"
+    },
+    {
+      "check": "pre-session snapshot exact: NEXUS_BRIEF.md",
+      "result": "PASS"
+    },
+    {
+      "check": "34 unique settled date rows, latest10/19",
+      "result": "PASS"
+    },
+    {
+      "check": "exit count four added rows0, FIRED",
+      "result": "PASS"
+    },
+    {
+      "check": "schema and unique IDs: workbook/KB.tsv",
+      "result": "PASS"
+    },
+    {
+      "check": "schema and unique IDs: workbook/VX.tsv",
+      "result": "PASS"
+    },
+    {
+      "check": "schema and unique IDs: workbook/WORKOUT_OUTCOME_BRIDGE.tsv",
+      "result": "PASS"
+    },
+    {
+      "check": "retrieval hash: fed_h8_20261016.html",
+      "result": "PASS"
+    },
+    {
+      "check": "retrieval hash: fed_h41_20261015.html",
+      "result": "PASS"
+    },
+    {
+      "check": "retrieval hash: ozk_mc.html",
+      "result": "PASS"
+    },
+    {
+      "check": "retrieval hash: ozk_supplement.html",
+      "result": "PASS"
+    },
+    {
+      "check": "retrieval hash: ozk_release.html",
+      "result": "PASS"
+    },
+    {
+      "check": "retrieval hash: wal_transcript_SECONDARY.html",
+      "result": "PASS"
+    },
+    {
+      "check": "retrieval hash: wal_primary_deck.html",
+      "result": "PASS"
+    },
+    {
+      "check": "retrieval hash: egbn_primary_notice.html",
+      "result": "PASS"
+    },
+    {
+      "check": "retrieval hash: egbn_sec_submissions.json",
+      "result": "PASS"
+    },
+    {
+      "check": "API hash: H8B3094NSMA",
+      "result": "PASS"
+    },
+    {
+      "check": "API hash: H8B3094NSMD",
+      "result": "PASS"
+    },
+    {
+      "check": "API hash: CASSCBW027SBOG",
+      "result": "PASS"
+    },
+    {
+      "check": "API hash: DPSSCBW027SBOG",
+      "result": "PASS"
+    },
+    {
+      "check": "API hash: WLCFLPCL",
+      "result": "PASS"
+    },
+    {
+      "check": "API hash: BAMLH0A0HYM2",
+      "result": "PASS"
+    },
+    {
+      "check": "API hash: BAMLH0A3HYC",
+      "result": "PASS"
+    },
+    {
+      "check": "API hash: BAMLH0A2HYB",
+      "result": "PASS"
+    },
+    {
+      "check": "API hash: BAMLH0A1HYBB",
+      "result": "PASS"
+    },
+    {
+      "check": "FDIC issuer and bundle hash",
+      "result": "PASS"
+    },
+    {
+      "check": "no unprocessed local inbox packets",
+      "result": "PASS"
+    },
+    {
+      "check": "frozen/authority unchanged: workbook/PREDICTIONS.tsv",
+      "result": "PASS"
+    },
+    {
+      "check": "frozen/authority unchanged: registry/THRESHOLDS.tsv",
+      "result": "PASS"
+    },
+    {
+      "check": "frozen/authority unchanged: registry/NOTES.md",
+      "result": "PASS"
+    },
+    {
+      "check": "frozen/authority unchanged: POSITIONS.md",
+      "result": "PASS"
+    },
+    {
+      "check": "frozen/authority unchanged: BANK_EXPOSURE_MATRIX.md",
+      "result": "PASS"
+    }
+  ],
+  "limitations": [
+    "Known read-cap rc1 historical WALTER BOARD file; owner remedy pending",
+    "Historical FHLB copied packet stays byte-identical by hub copy contract; latest values linked at hub",
+    "October19 bank-credit cross-check not repeated; attribution remains prior-date",
+    "No peer read/consumption receipt"
+  ]
+}

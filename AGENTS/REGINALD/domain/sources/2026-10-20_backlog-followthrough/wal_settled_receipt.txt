@@ -1,0 +1,14 @@
+WAL settled closes (yfinance daily bars, NaN + today's bar excluded) vs Nasdaq historical:
+  2026-10-02  76.38   nasdaq    76.38   agree
+  2026-10-05  76.02   nasdaq    76.02   agree
+  2026-10-06  76.09   nasdaq    76.09   agree
+  2026-10-07  74.35   nasdaq    74.35   agree
+  2026-10-08  75.50   nasdaq     75.5   agree
+  2026-10-09  74.27   nasdaq    74.27   agree
+  2026-10-12  74.69   nasdaq    74.69   agree
+  2026-10-13  73.73   nasdaq    73.73   agree
+  2026-10-14  72.22   nasdaq    72.22   agree
+  2026-10-15  74.35   nasdaq    74.35   agree
+  2026-10-16  74.51   nasdaq    74.51   agree
+  2026-10-19  73.63   nasdaq    73.63   agree
+  2026-10-20  NOT GRADED — today's bar (75.30) — not settled

@@ -1,0 +1,172 @@
+[
+  {
+    "series": "H8B3094NSMA",
+    "url": "https://fred.stlouisfed.org/graph/graph.csv?id=H8B3094NSMA&cosd=2022-12-01&coed=2026-10-20",
+    "retrieved_at": "2026-10-21T02:36:08.317442+00:00",
+    "status": 404,
+    "path": "fred_H8B3094NSMA.csv",
+    "bytes": 29507,
+    "sha256": "59290bf7060b5696cf0447e90813de12bb496521518e26517fb150a0a8b19a85",
+    "usable": false
+  },
+  {
+    "series": "H8B3094NSMD",
+    "url": "https://fred.stlouisfed.org/graph/graph.csv?id=H8B3094NSMD&cosd=2022-12-01&coed=2026-10-20",
+    "retrieved_at": "2026-10-21T02:36:08.317854+00:00",
+    "status": 404,
+    "path": "fred_H8B3094NSMD.csv",
+    "bytes": 29507,
+    "sha256": "59290bf7060b5696cf0447e90813de12bb496521518e26517fb150a0a8b19a85",
+    "usable": false
+  },
+  {
+    "series": "H8B3094NLGA",
+    "url": "https://fred.stlouisfed.org/graph/graph.csv?id=H8B3094NLGA&cosd=2022-12-01&coed=2026-10-20",
+    "retrieved_at": "2026-10-21T02:36:08.319825+00:00",
+    "status": 404,
+    "path": "fred_H8B3094NLGA.csv",
+    "bytes": 29507,
+    "sha256": "59290bf7060b5696cf0447e90813de12bb496521518e26517fb150a0a8b19a85",
+    "usable": false
+  },
+  {
+    "series": "H8B3094NLGD",
+    "url": "https://fred.stlouisfed.org/graph/graph.csv?id=H8B3094NLGD&cosd=2022-12-01&coed=2026-10-20",
+    "retrieved_at": "2026-10-21T02:36:08.320553+00:00",
+    "status": 404,
+    "path": "fred_H8B3094NLGD.csv",
+    "bytes": 29507,
+    "sha256": "59290bf7060b5696cf0447e90813de12bb496521518e26517fb150a0a8b19a85",
+    "usable": false
+  },
+  {
+    "series": "CASSCBW027SBOG",
+    "url": "https://fred.stlouisfed.org/graph/graph.csv?id=CASSCBW027SBOG&cosd=2022-12-01&coed=2026-10-20",
+    "retrieved_at": "2026-10-21T02:36:08.321247+00:00",
+    "status": 404,
+    "path": "fred_CASSCBW027SBOG.csv",
+    "bytes": 29507,
+    "sha256": "59290bf7060b5696cf0447e90813de12bb496521518e26517fb150a0a8b19a85",
+    "usable": false
+  },
+  {
+    "series": "CASSCBW027NBOG",
+    "url": "https://fred.stlouisfed.org/graph/graph.csv?id=CASSCBW027NBOG&cosd=2022-12-01&coed=2026-10-20",
+    "retrieved_at": "2026-10-21T02:36:08.627332+00:00",
+    "status": 404,
+    "path": "fred_CASSCBW027NBOG.csv",
+    "bytes": 29507,
+    "sha256": "59290bf7060b5696cf0447e90813de12bb496521518e26517fb150a0a8b19a85",
+    "usable": false
+  },
+  {
+    "series": "DPSSCBW027SBOG",
+    "url": "https://fred.stlouisfed.org/graph/graph.csv?id=DPSSCBW027SBOG&cosd=2022-12-01&coed=2026-10-20",
+    "retrieved_at": "2026-10-21T02:36:08.635229+00:00",
+    "status": 404,
+    "path": "fred_DPSSCBW027SBOG.csv",
+    "bytes": 29507,
+    "sha256": "59290bf7060b5696cf0447e90813de12bb496521518e26517fb150a0a8b19a85",
+    "usable": false
+  },
+  {
+    "series": "DPSSCBW027NBOG",
+    "url": "https://fred.stlouisfed.org/graph/graph.csv?id=DPSSCBW027NBOG&cosd=2022-12-01&coed=2026-10-20",
+    "retrieved_at": "2026-10-21T02:36:08.646529+00:00",
+    "status": 404,
+    "path": "fred_DPSSCBW027NBOG.csv",
+    "bytes": 29507,
+    "sha256": "59290bf7060b5696cf0447e90813de12bb496521518e26517fb150a0a8b19a85",
+    "usable": false
+  },
+  {
+    "series": "DPSLCBW027SBOG",
+    "url": "https://fred.stlouisfed.org/graph/graph.csv?id=DPSLCBW027SBOG&cosd=2022-12-01&coed=2026-10-20",
+    "retrieved_at": "2026-10-21T02:36:08.693921+00:00",
+    "status": 404,
+    "path": "fred_DPSLCBW027SBOG.csv",
+    "bytes": 29507,
+    "sha256": "59290bf7060b5696cf0447e90813de12bb496521518e26517fb150a0a8b19a85",
+    "usable": false
+  },
+  {
+    "series": "LTDSCBW027SBOG",
+    "url": "https://fred.stlouisfed.org/graph/graph.csv?id=LTDSCBW027SBOG&cosd=2022-12-01&coed=2026-10-20",
+    "retrieved_at": "2026-10-21T02:36:08.697997+00:00",
+    "status": 404,
+    "path": "fred_LTDSCBW027SBOG.csv",
+    "bytes": 29507,
+    "sha256": "59290bf7060b5696cf0447e90813de12bb496521518e26517fb150a0a8b19a85",
+    "usable": false
+  },
+  {
+    "series": "CILSCBW027SBOG",
+    "url": "https://fred.stlouisfed.org/graph/graph.csv?id=CILSCBW027SBOG&cosd=2022-12-01&coed=2026-10-20",
+    "retrieved_at": "2026-10-21T02:36:08.879234+00:00",
+    "status": 404,
+    "path": "fred_CILSCBW027SBOG.csv",
+    "bytes": 29507,
+    "sha256": "59290bf7060b5696cf0447e90813de12bb496521518e26517fb150a0a8b19a85",
+    "usable": false
+  },
+  {
+    "series": "LNFACBW027SBOG",
+    "url": "https://fred.stlouisfed.org/graph/graph.csv?id=LNFACBW027SBOG&cosd=2022-12-01&coed=2026-10-20",
+    "retrieved_at": "2026-10-21T02:36:08.886205+00:00",
+    "status": 404,
+    "path": "fred_LNFACBW027SBOG.csv",
+    "bytes": 29507,
+    "sha256": "59290bf7060b5696cf0447e90813de12bb496521518e26517fb150a0a8b19a85",
+    "usable": false
+  },
+  {
+    "series": "WLCFLPCL",
+    "url": "https://fred.stlouisfed.org/graph/graph.csv?id=WLCFLPCL&cosd=2022-12-01&coed=2026-10-20",
+    "retrieved_at": "2026-10-21T02:36:08.935340+00:00",
+    "status": 404,
+    "path": "fred_WLCFLPCL.csv",
+    "bytes": 29507,
+    "sha256": "59290bf7060b5696cf0447e90813de12bb496521518e26517fb150a0a8b19a85",
+    "usable": false
+  },
+  {
+    "series": "BAMLH0A0HYM2",
+    "url": "https://fred.stlouisfed.org/graph/graph.csv?id=BAMLH0A0HYM2&cosd=2022-12-01&coed=2026-10-20",
+    "retrieved_at": "2026-10-21T02:36:08.946322+00:00",
+    "status": 404,
+    "path": "fred_BAMLH0A0HYM2.csv",
+    "bytes": 29507,
+    "sha256": "59290bf7060b5696cf0447e90813de12bb496521518e26517fb150a0a8b19a85",
+    "usable": false
+  },
+  {
+    "series": "BAMLH0A3HYC",
+    "url": "https://fred.stlouisfed.org/graph/graph.csv?id=BAMLH0A3HYC&cosd=2022-12-01&coed=2026-10-20",
+    "retrieved_at": "2026-10-21T02:36:08.969899+00:00",
+    "status": 404,
+    "path": "fred_BAMLH0A3HYC.csv",
+    "bytes": 29507,
+    "sha256": "59290bf7060b5696cf0447e90813de12bb496521518e26517fb150a0a8b19a85",
+    "usable": false
+  },
+  {
+    "series": "BAMLH0A2HYB",
+    "url": "https://fred.stlouisfed.org/graph/graph.csv?id=BAMLH0A2HYB&cosd=2022-12-01&coed=2026-10-20",
+    "retrieved_at": "2026-10-21T02:36:09.091155+00:00",
+    "status": 404,
+    "path": "fred_BAMLH0A2HYB.csv",
+    "bytes": 29507,
+    "sha256": "59290bf7060b5696cf0447e90813de12bb496521518e26517fb150a0a8b19a85",
+    "usable": false
+  },
+  {
+    "series": "BAMLH0A1HYBB",
+    "url": "https://fred.stlouisfed.org/graph/graph.csv?id=BAMLH0A1HYBB&cosd=2022-12-01&coed=2026-10-20",
+    "retrieved_at": "2026-10-21T02:36:09.196624+00:00",
+    "status": 404,
+    "path": "fred_BAMLH0A1HYBB.csv",
+    "bytes": 29507,
+    "sha256": "59290bf7060b5696cf0447e90813de12bb496521518e26517fb150a0a8b19a85",
+    "usable": false
+  }
+]

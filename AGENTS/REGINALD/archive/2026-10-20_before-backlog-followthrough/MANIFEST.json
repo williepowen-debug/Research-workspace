@@ -1,0 +1,41 @@
+{
+  "scope": "Verbatim pre-research snapshots; original organization-cleanup proof retains its dated scope",
+  "files": [
+    {
+      "file": "CALENDAR.md",
+      "bytes": 24210,
+      "sha256": "e0688793761b371dab463c520c87a40554b4d87808a2adde35fb3739293c8f6e",
+      "crc32": "ac51b1ae"
+    },
+    {
+      "file": "FHLB_Q2_composition_and_REG-T-06_base_rate.md",
+      "bytes": 17776,
+      "sha256": "c4dcc916f74b21f6970b4b168224353331bbb04e7d7becfd820ac57300afb877",
+      "crc32": "3540bdf9"
+    },
+    {
+      "file": "MEMORY.md",
+      "bytes": 14510,
+      "sha256": "5d29f20af87dc7cf55619677a758e6d2675a85e0ddb76b53458f3070cccfecbb",
+      "crc32": "0eae92c5"
+    },
+    {
+      "file": "NEXUS_BRIEF.md",
+      "bytes": 11346,
+      "sha256": "0de86ff656cf0732b9cc4a34bacd555dd7923cbf25510f00f520e54334b3e337",
+      "crc32": "801c0eca"
+    },
+    {
+      "file": "ROADMAP.md",
+      "bytes": 22001,
+      "sha256": "020e5a63bf7a76652f4dd8de18e1864417c854e6aa004cccfd6c2e92138717b9",
+      "crc32": "7fa5279b"
+    },
+    {
+      "file": "STATUS.md",
+      "bytes": 20046,
+      "sha256": "86f2bdbcdaa3cb2168c965a50fa7652ee600e682c413c3c7fa47049b4008b033",
+      "crc32": "8c9930a7"
+    }
+  ]
+}
