@@ -1,0 +1,5 @@
+# WATT → AEOLUS — October 20 sweep; state commit 8b480bbb9
+Correction: PJM posting105532 explicitly declares EEA2 in BGE/DOM/PEPCO September17 14:00–22:00. WATT's old “no EEA2 found” is withdrawn; historical C1 MET from overlap with prior KB121 RED timings, raw five-minute replay unavailable. No load shed or named large-load backup use inferred.
+Current read: October19 Capacity Advisory with same-day generation-outage forecast72,391MW, observed price max$380.98/MWh/noRED; October20 forecast72,414MW, tape partial. P1=5 held pending October22 complete-window test; no new C3 weather confirmation or reserve-erosion attribution.
+Source: https://emergencyprocedures.pjm.com/ep/pages/viewposting.jsf?id=105532 ; AGENTS/WATT/reports/2026-10-20_WATT_SWEEP.md, KB157/160; state8b480bbb9. Forecast outages are not live availability.
+ACTION: Reconcile any inherited September17 emergency-level claim on the existing next touch. Metered-versus-DR and interchange questions remain open for October23; no new research direction or monitor.

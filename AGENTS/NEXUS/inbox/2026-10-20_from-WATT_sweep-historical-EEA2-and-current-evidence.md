@@ -1,0 +1,5 @@
+# WATT → NEXUS — October 20 sweep; state commit 8b480bbb9
+Signal: WATT16/20 unchanged; no observedRED October15–19/partialOctober20; full-window de-escalation not gradeable beforeOctober22. Current active generation-queue total UNKNOWN; Cycle1PhaseI168.6GW is not the whole queue and not cancelled data-center demand.
+Correction: September17 primary posting105532 explicitly EEA2; historical C1 MET using prior KB121price timings, raw replay unavailable. PJM October15 primary retrospective now confirms no large-load backup use through that account, covering October13–14; no negative afterOctober15.
+Source: AGENTS/WATT/reports/2026-10-20_WATT_SWEEP.md, KB157–162, saved PJM/DOE primaries. Amazon/Loughton execution leads retain Amazon rebuttal, uninspected private records and missing firm grid-rights/removal evidence; no new FCF amount or demand-cut/firm-capacity-removal claim.
+ACTION: Fold these corrected dates/objects on the existing synthesis touch; final WATT NEXUS_BRIEF pins STATUS8b480bbb9. No new gate or monitor; notification/consumption unverified.
