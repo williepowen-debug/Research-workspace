@@ -1,31 +1,31 @@
-# BRENT SCRATCH — October20 EIA evaluation and cleanup closure
+# BRENT SCRATCH — October 20 consistency repair
 
 ## CHANGES SINCE LAST SESSION
-- PROME's18:5xreview ACCEPTED the cleanup; packet consumed/logged/filed, explicit do-not-renumber warning restored. Cleanup complete, no review decision pending. [Closure](audits/2026-10-20_organisation-cleanup/REVIEW-CLOSED.md).
-- EIAOctober15owner evaluation now complete for weekOctober9, including exact price mapping and matched weekly diesel analysis. Original source-vintage/contamination limits remain explicit.
+- Corrected the charter's retired rig-grading instruction and STATUS's stale COT vintage. BRT-26 remains closed; the rig line is retired. Saved COT vintage #10 is already graded; no repeat grade or live pull.
+- Updated the weekly-log pointer to October 19 and removed one exact duplicate October 16 row. Renamed five rejected download responses without changing their bytes; updated manifests and the artifact index.
+- Archived four completed or superseded NEXUS rows and restored normal spacing in recent summaries. Exact before-images and hashes: [repair archive](archive/2026-10-20_consistency-repair/manifest.json). No thresholds, prediction outcomes or capital authority changed.
 
-## WHAT I DID THIS SESSION
-- Read the entire BRT31note/v2letter/TSVrow and preparation worksheet, recovered exact primary weekly/retail data and publisher-dated archived rows. Eight gasoline inputs match across formats; EIA is one measurement lineage.
-- First BRT31weekNON-QUALIFYING, volume streak0; price condition holds, failurecount0of3. OverallOPEN/40%unchanged. [Report](research/2026-10-20_eia-oct15-evaluation/REPORT.md), reproducible saved-byte evaluation at same home. No final NOT MET, phase change, holding grade or trade.
-- Corrected a four-week/weekly output mix in preparation; matched weekly diesel output fell despite stronger runs. Original baseline retained with correction pointer; no genuine four-week value overwritten.
-- Restored charter warning; updated prediction note/row/changelog, thesis pointers and current summary. Before-images at research evaluation/before; prior source/rule/data paths preserved.
+## COMPLETED OWNER WORK
+- PROME's cleanup review is ACCEPTED; packet consumed, logged and filed. The explicit do-not-renumber warning is restored. [Closure](audits/2026-10-20_organisation-cleanup/REVIEW-CLOSED.md).
+- October 15 EIA / BRT-31 first-week evaluation is complete. Week October 9 is NON-QUALIFYING, volume streak 0; price condition holds, failure count 0 of 3. Overall OPEN / 40% unchanged. [Report and reproducible saved-byte evaluation](research/2026-10-20_eia-oct15-evaluation/REPORT.md). Eight gasoline inputs match across formats; EIA remains one measurement lineage. No terminal NOT MET, phase change, holding grade or trade.
+- Corrected the preparation worksheet's four-week/weekly output mix: matched weekly diesel output fell despite stronger runs. Original baseline and genuine four-week values are preserved. Prior prediction-note/TSV Notes changes left confidence and resolution unchanged.
 
 ## NEXT SESSION (dated, future-verifiable)
-1. October21,10:30ET: next EIAWPSR/weekOctober16, per verified standard schedule. Capture first-published inputs; apply registered BRT31price/date/precedence. A qualifying next volume week starts streak1, cannot complete streak2afterOctober9nonqualification. No promised automatic session or new monitor.
-2. Next owner research: HENRYDecembermeasurementadoption/rejection under the already-approved Decemberbasis. This adopts/rejects evidence, not a discretionary month switch; TERRYowns holding grades and original-share rule.
-3. October23COT/asofOctober20 only after release; October24shadow endpoint, October26BRT30/USOpublication, November1DST and November18–19VLOdates remain at existing owners/docket. No duplicateCOT#10grade or inferred scheduler deployment.
+1. October 21, 10:30 ET: next EIA WPSR / week October 16, under the verified standard schedule. Capture first-published inputs and apply registered BRT-31 price, date and precedence rules. A qualifying next volume week starts streak 1; it cannot complete streak 2 after October 9's nonqualification. No promised automatic session or new monitor.
+2. Next owner research: adopt or reject HENRY's December measurement under the already-approved December basis. This is an evidence judgment; TERRY owns holding grades and the original-share rule.
+3. October 23 COT / as-of October 20 only after release. October 24 shadow endpoint, October 26 BRT-30 / USO publication, November 1 DST and November 18–19 VLO dates remain with existing owners and docket. No duplicate COT #10 grade or inferred scheduler deployment.
 
 ## OPEN THREADS / WATCHES
-- NCgasoline-inclusive suspension effectiveOctober10has3.7523%SEDS2024coverage, below10%alone. IdentifiedIN/GA/OHcuts beganprewindow; no thresholdcontamination established in bounded search. Exhaustive50stateabsence NOT certified; recheck before any final NOT MET. METstillpossible under originalletter.
-- Jet-margin comparison, conflicting DOEreserve totals, OSPREYsource check and USOaggregate/lending/technical/options gaps remain deferred. Earlier WALTERACTION list stays at startup/resume receipts.
-- JWCsourceage, pairedcoverage, agedfacility verification, eightstanding-rowreconciliation, olderlessonsemantic dates and actual live scheduler configuration remain unresolved. New weekly data access does not clear those independent debts.
-- Companycapture/expectations/valuation, current broker/source clocks and delivered additionaldiesel remain unproved. Existing moderateWAIT/v5.13and capital boundaries unchanged.
+- NC's gasoline-inclusive suspension, effective October 10, covers 3.7523% of SEDS 2024 gasoline consumption, below 10% alone. Identified IN/GA/OH cuts began before the window. No threshold contamination established in the bounded search; exhaustive 50-state absence is NOT certified. Recheck before any final NOT MET. MET remains possible under the original letter.
+- Jet-margin comparison, conflicting DOE reserve totals, OSPREY source check and USO aggregate short-interest, lending, technical and options gaps remain deferred. Earlier WALTER ACTION lists remain at startup/resume receipts.
+- JWC source age, paired coverage, aged-facility verification, other standing-row reconciliations, older lesson semantic dates and actual live scheduler configuration remain unresolved. Saved COT reconciliation and weekly data access do not clear those independent debts.
+- Company capture, expectations, valuation, current broker/source clocks and delivered additional diesel remain unproved. Existing moderate WAIT / v5.13 and capital boundaries are unchanged.
 
 ## POSITION DECISIONS PENDING
-- None new for Will. TRADE owns structural receipts/scope; broker truth off-repo, TERRYconstructs/grades. USER.md no expiry reminders remains binding.
+- None new for Will. TRADE owns structural receipts and scope; broker truth is off-repo. TERRY constructs and grades. USER.md's no-expiry-reminders instruction remains binding.
 
 ## MAIL STATE
-- OnePROMEacceptance consumed/logged/Git-filed. HENRY/OSPREYtop-levelpackets remain for their respective owner work. New EIAcompletionpacket saved to PROME/inbox; delivery/publication is not consumption. Older deferredACTIONs remain tracked, no false clear-mail claim.
+- PROME acceptance consumed, logged and Git-filed. HENRY / OSPREY top-level packets remain for their respective owner work. EIA completion packet delivered to PROME/inbox; publication is not consumption. Deferred ACTIONs remain tracked; no clear-mail claim.
 
 ## WORKBOOK HEALTH
-- Only BRT31rowNotes amended; overallOPEN/confidence/resolution fields unchanged and all other prediction rows preserved. Registry, incidents, COT, lessons/index, USOobservations and frozenKB/VX/FLOW unchanged. Generated calendar unchanged; standing/source-age debts retained. Prior handoff preserved at research/2026-10-20_eia-oct15-evaluation/before/SCRATCH.md.
+- This repair changes prose, provenance and rejected-response paths; no registry, incidents, COT ledger, lessons/index, USO observations, frozen KB/VX/FLOW or calendar changes. Existing source-age and maintenance debts remain. Prior handoff is preserved in the repair archive.

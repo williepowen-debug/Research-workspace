@@ -1,0 +1,11 @@
+{
+  "before_images_exact": 9,
+  "renamed_responses_byte_identical": 5,
+  "source_manifests_and_current_index": "all paths, bytes and hashes match",
+  "frozen_cot_parameters_preserved": true,
+  "cot_saved_vintage_10": "saved ledger and October16 grade agree; no live grade",
+  "weekly_duplicate_removed_and_latest_pointer_correct": true,
+  "new_local_links_resolve": true,
+  "charter_numbering_warning_and_below_70pct_rotation_target": true,
+  "offline_eia_reproduction": true
+}

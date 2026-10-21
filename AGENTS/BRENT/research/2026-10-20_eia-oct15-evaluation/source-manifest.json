@@ -20,44 +20,56 @@
     "captured_at": "2026-10-20T19:11:50-04:00"
   },
   {
-    "file": "archive-psw01.xls",
+    "file": "rejected-archive-psw01-http404.html",
     "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2026/2026_10_15/xls/psw01.xls",
     "final_url": "https://www.eia.gov/petroleum/supply/weekly/archive/2026/2026_10_15/xls/psw01.xls",
     "status": 404,
     "content_type": "text/html; charset=UTF-8",
     "bytes": 46767,
     "sha256": "de0acbddfcd0bb398ab19e8bd1b719ec8b47aa8ab9ef6175bc73d02b92b14514",
-    "captured_at": "2026-10-20T19:11:50-04:00"
+    "captured_at": "2026-10-20T19:11:50-04:00",
+    "original_file": "archive-psw01.xls",
+    "accepted_for_analysis": false,
+    "rejection_reason": "HTTP 404 HTML, not an XLS workbook"
   },
   {
-    "file": "archive-wpsrall.pdf",
+    "file": "rejected-wpsrall-discontinuation-notice.pdf",
     "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2026/2026_10_15/pdf/wpsrall.pdf",
     "final_url": "https://www.eia.gov/petroleum/supply/weekly/archive/2026/2026_10_15/pdf/wpsrall.pdf",
     "status": 200,
     "content_type": "application/pdf",
     "bytes": 59600,
     "sha256": "ed02b126ffa90e6178f5b2f5708017da4313c2fcf45a1fece9ada7ac10d69c6d",
-    "captured_at": "2026-10-20T19:11:50-04:00"
+    "captured_at": "2026-10-20T19:11:50-04:00",
+    "original_file": "archive-wpsrall.pdf",
+    "accepted_for_analysis": false,
+    "rejection_reason": "Valid PDF discontinuation notice, not report data"
   },
   {
-    "file": "gasregw.csv",
+    "file": "rejected-gasregw-ui-response.html",
     "url": "https://fred.stlouisfed.org/graph/?g=1&id=GASREGW&cosd=2025-10-01&coed=2026-10-19",
     "final_url": "https://fred.stlouisfed.org/graph/?g=1&id=GASREGW&cosd=2025-10-01&coed=2026-10-19",
     "status": 200,
     "content_type": "text/html; charset=UTF-8",
     "bytes": 75669,
     "sha256": "ab4e498ff11e7196dc767dce610dfed2d2b9ae0c7ac4fd7ec434115cc123b7f3",
-    "captured_at": "2026-10-20T19:11:50-04:00"
+    "captured_at": "2026-10-20T19:11:50-04:00",
+    "original_file": "gasregw.csv",
+    "accepted_for_analysis": false,
+    "rejection_reason": "HTML interface response, not CSV observations"
   },
   {
-    "file": "gasregw-direct.csv",
+    "file": "rejected-gasregw-direct-http404.txt",
     "url": "https://fred.stlouisfed.org/graph/graph-data.php?id=GASREGW&cosd=2025-10-01&coed=2026-10-19",
     "final_url": "https://fred.stlouisfed.org/graph/graph-data.php?id=GASREGW&cosd=2025-10-01&coed=2026-10-19",
     "status": 404,
     "content_type": "text/html; charset=UTF-8",
     "bytes": 16,
     "sha256": "8a482f2271a42c5f54c96e816a84340a6f2357a5b81f927d07d00788f5140a41",
-    "captured_at": "2026-10-20T19:11:50-04:00"
+    "captured_at": "2026-10-20T19:11:50-04:00",
+    "original_file": "gasregw-direct.csv",
+    "accepted_for_analysis": false,
+    "rejection_reason": "HTTP 404 file-not-found text, not CSV observations"
   },
   {
     "file": "eia-retail.xls",

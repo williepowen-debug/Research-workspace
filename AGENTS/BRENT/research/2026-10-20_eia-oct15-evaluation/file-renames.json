@@ -1,0 +1,45 @@
+{
+  "scope": "Byte-preserving names for rejected responses; original capture manifests retained in archive/2026-10-20_consistency-repair/research/2026-10-20_eia-oct15-evaluation (relative to BRENT).",
+  "files": [
+    {
+      "old_file": "archive-psw01.xls",
+      "file": "rejected-archive-psw01-http404.html",
+      "bytes": 46767,
+      "sha256": "de0acbddfcd0bb398ab19e8bd1b719ec8b47aa8ab9ef6175bc73d02b92b14514",
+      "accepted_for_analysis": false,
+      "reason": "HTTP 404 HTML, not an XLS workbook"
+    },
+    {
+      "old_file": "gasregw.csv",
+      "file": "rejected-gasregw-ui-response.html",
+      "bytes": 75669,
+      "sha256": "ab4e498ff11e7196dc767dce610dfed2d2b9ae0c7ac4fd7ec434115cc123b7f3",
+      "accepted_for_analysis": false,
+      "reason": "HTML interface response, not CSV observations"
+    },
+    {
+      "old_file": "gasregw-direct.csv",
+      "file": "rejected-gasregw-direct-http404.txt",
+      "bytes": 16,
+      "sha256": "8a482f2271a42c5f54c96e816a84340a6f2357a5b81f927d07d00788f5140a41",
+      "accepted_for_analysis": false,
+      "reason": "HTTP 404 file-not-found text, not CSV observations"
+    },
+    {
+      "old_file": "archive-wpsrall.pdf",
+      "file": "rejected-wpsrall-discontinuation-notice.pdf",
+      "bytes": 59600,
+      "sha256": "ed02b126ffa90e6178f5b2f5708017da4313c2fcf45a1fece9ada7ac10d69c6d",
+      "accepted_for_analysis": false,
+      "reason": "Valid PDF discontinuation notice, not report data"
+    },
+    {
+      "old_file": "oh-tax.html",
+      "file": "rejected-oh-tax-http403.html",
+      "bytes": 146,
+      "sha256": "32f2fa940d4b4fe19aca1e53a24e5aac29c57b7c5ee78588325b87f1b649c864",
+      "accepted_for_analysis": false,
+      "reason": "HTTP 403 response, not a policy source body"
+    }
+  ]
+}

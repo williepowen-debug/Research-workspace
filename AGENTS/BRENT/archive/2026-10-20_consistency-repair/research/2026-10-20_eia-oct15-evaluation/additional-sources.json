@@ -1,0 +1,90 @@
+[
+  {
+    "file": "archive-table1.csv",
+    "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2026/2026_10_15/csv/table1.csv",
+    "status": 200,
+    "bytes": 6595,
+    "sha256": "2f4403d8e0d1538e6283a9ab3df1521516bea9f5e0a9bd08c60fc18c2a60d7b8",
+    "captured_at": "2026-10-20T19:13:23-04:00"
+  },
+  {
+    "file": "archive-table9.csv",
+    "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2026/2026_10_15/csv/table9.csv",
+    "status": 200,
+    "bytes": 46782,
+    "sha256": "1150f047efb164e2a2d17c23493d3714ff92072d6c7d2813af501c4d1c3369ff",
+    "captured_at": "2026-10-20T19:13:23-04:00"
+  },
+  {
+    "file": "archive-table14.csv",
+    "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2026/2026_10_15/csv/table14.csv",
+    "status": 200,
+    "bytes": 8942,
+    "sha256": "9390329fd058d43f7abb269353c237158bc3a79e44e34ec79d48dbe5433c5eea",
+    "captured_at": "2026-10-20T19:13:23-04:00"
+  },
+  {
+    "file": "errata.xlsx",
+    "url": "https://www.eia.gov/petroleum/supply/weekly/WPSR_ErrataSheet.xlsx",
+    "status": 200,
+    "bytes": 13540,
+    "sha256": "4592e46f7c450f4e481405f01e732c6f07691158262aec0bda825b1bbdb8649f",
+    "captured_at": "2026-10-20T19:13:23-04:00"
+  },
+  {
+    "file": "errata.pdf",
+    "url": "https://www.eia.gov/petroleum/supply/weekly/pdf/appendix_e.pdf",
+    "status": 200,
+    "bytes": 279435,
+    "sha256": "752d1eb10d466f704183cdde6f8813b51f0a8ed38d234f374b5485c9639518c3",
+    "captured_at": "2026-10-20T19:13:23-04:00"
+  },
+  {
+    "file": "nc-tax.html",
+    "url": "https://www.ncdor.gov/taxes-forms/motor-fuels-tax/important-notices-and-frequently-asked-questions-about-motor-fuels-tax/important-notice-temporary-suspension-motor-fuel-excise-tax-and-dyed-diesel-enforcement",
+    "status": 200,
+    "bytes": 107754,
+    "sha256": "99d26db1ba14ce14e80ae2b129b24d4be1a8ca179ffb895605b88cfdaeec19a9",
+    "captured_at": "2026-10-20T19:13:23-04:00"
+  },
+  {
+    "file": "in-tax.pdf",
+    "url": "https://www.in.gov/dor/files/2026-october-tax-bulletin.pdf",
+    "status": 200,
+    "bytes": 156536,
+    "sha256": "3b160d314ce66b893a6987473d4e31ecdf2f287009be7a1006d50205cad7c996",
+    "captured_at": "2026-10-20T19:13:24-04:00"
+  },
+  {
+    "file": "ga-tax.html",
+    "url": "https://dor.georgia.gov/2026-suspension-georgia-motor-fuel-taxes-faqs",
+    "status": 200,
+    "bytes": 120455,
+    "sha256": "8bd489b6639f214539357701639287f17d9119b64b2805ffca34ce1f5ae1f2e1",
+    "captured_at": "2026-10-20T19:13:23-04:00"
+  },
+  {
+    "file": "oh-tax.html",
+    "url": "https://ohiosenate.gov/news/on-the-record/ohio-general-assembly-suspends-state-gas-tax",
+    "status": 403,
+    "bytes": 146,
+    "sha256": "32f2fa940d4b4fe19aca1e53a24e5aac29c57b7c5ee78588325b87f1b649c864",
+    "captured_at": "2026-10-20T19:13:23-04:00"
+  },
+  {
+    "file": "whitehouse-diesel.html",
+    "url": "https://www.whitehouse.gov/presidential-actions/2026/10/emergency-tax-relief-on-diesel-fuel/",
+    "status": 200,
+    "bytes": 308749,
+    "sha256": "aee8d6b8b53d325614c404142c273954d6f48badb69f577ec2c581891e241a07",
+    "captured_at": "2026-10-20T19:13:23-04:00"
+  },
+  {
+    "file": "eia-retail.html",
+    "url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=EMM_EPMR_PTE_NUS_DPG&f=W",
+    "status": 200,
+    "bytes": 197522,
+    "sha256": "2e513eac813c39d89ab2fc2c7d98541742cf9f892d29e6eaf0252b2752f71db7",
+    "captured_at": "2026-10-20T19:13:29-04:00"
+  }
+]

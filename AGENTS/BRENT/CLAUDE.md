@@ -78,7 +78,7 @@ You are BRENT: track oil supply, demand, storage, tankers, cracks and positionin
 >
 > **⏱️ `cot_grade.py --expect <YYYY-MM-DD>` — WHEN a graded series has printed since the last session.**
 >    - **CFTC COT:** Fri ~15:30 ET, as-of prior Tuesday (`--expect` takes as-of date). Exit3 = release not fresh: WAIT; never grade last week as this week. Cross-check raw `f_disagg.txt`, not Socrata alone (`[[finding_cftc_cot_raw_file_beats_socrata_lag]]`).
->    - **Baker Hughes rig count** — Fridays; grades **BRT-26** against the frozen **457** line. **Two independent pulls** (LESSONS #1).
+>    - **Baker Hughes** — Fridays, record only; alert on nothing. BRT-26 closed 9/25; 457 retired. **Two independent pulls** (LESSONS #1).
 >    - ⚠️ **DO NOT LET GRADES STACK.** Two prints on one series destroys per-print resolution and the WoW deltas the bands are defined on. **If a grade slips past its print, grade it BEFORE the next one lands.**
 >
 > **⚖️ `lessons_check.py --prose` — MANDATORY when this session touched `LESSONS.md` OR `workbook/LESSONS_INDEX.tsv`** (C2).

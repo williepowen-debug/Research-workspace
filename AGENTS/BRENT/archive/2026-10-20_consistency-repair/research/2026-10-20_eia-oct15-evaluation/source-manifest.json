@@ -1,0 +1,112 @@
+[
+  {
+    "file": "psw01.xls",
+    "url": "https://ir.eia.gov/wpsr/psw01.xls",
+    "final_url": "https://ir.eia.gov/secure/wpsr/psw01.xls?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9pci5laWEuZ292L3NlY3VyZS93cHNyLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTI1ODg4MDB9LCJEYXRlR3JlYXRlclRoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5MjA4MDAwMH19fV19&Signature=VG4dUTe2~hvNrjY2XIr-AdldEAJadOH6AiF10soW3nakhbV6vMtT~LiBAQHnxrRfCuWnQdnx1u4U2AZaYjoahbP3ci8fFGlTAJG0Wt1CQ45soxR1jZWk4PkdrbJPJq-3yqz8QzanrUb0yaPUlD0a1TweqUmAyQ3Y4NcJxb9TRwV4sTlJ~3aBsfDuYJsNyXUzhX5gldbe4Gwz74uU5CmMcVXCkdhu4C7qj4bcSgB7ZwJc4TlvUBCnVNt2zfu3DqLQM-V86E3g8F99KV7hsGKTyvXbqkR1fUrdQzjF-nkEresGBaicnBFExMMODb7ziJEoaVHcBrdaTaL6OQVqerCe4Q&Key-Pair-Id=K2WPIA8SHYSHCP",
+    "status": 200,
+    "content_type": "application/vnd.ms-excel",
+    "bytes": 1253888,
+    "sha256": "ef9a8082dcde9b6f6032f2ec0657681c193a21da2f441ed1ee024f8e2bfb8da2",
+    "captured_at": "2026-10-20T19:11:50-04:00"
+  },
+  {
+    "file": "psw09.xls",
+    "url": "https://ir.eia.gov/wpsr/psw09.xls",
+    "final_url": "https://ir.eia.gov/secure/wpsr/psw09.xls?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9pci5laWEuZ292L3NlY3VyZS93cHNyLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTI1ODg4MDB9LCJEYXRlR3JlYXRlclRoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5MjA4MDAwMH19fV19&Signature=VG4dUTe2~hvNrjY2XIr-AdldEAJadOH6AiF10soW3nakhbV6vMtT~LiBAQHnxrRfCuWnQdnx1u4U2AZaYjoahbP3ci8fFGlTAJG0Wt1CQ45soxR1jZWk4PkdrbJPJq-3yqz8QzanrUb0yaPUlD0a1TweqUmAyQ3Y4NcJxb9TRwV4sTlJ~3aBsfDuYJsNyXUzhX5gldbe4Gwz74uU5CmMcVXCkdhu4C7qj4bcSgB7ZwJc4TlvUBCnVNt2zfu3DqLQM-V86E3g8F99KV7hsGKTyvXbqkR1fUrdQzjF-nkEresGBaicnBFExMMODb7ziJEoaVHcBrdaTaL6OQVqerCe4Q&Key-Pair-Id=K2WPIA8SHYSHCP",
+    "status": 200,
+    "content_type": "application/vnd.ms-excel",
+    "bytes": 8935936,
+    "sha256": "860204627967c1d434a84f2ca9414932a381e67a51c86ec78d3b120f3c5834d7",
+    "captured_at": "2026-10-20T19:11:50-04:00"
+  },
+  {
+    "file": "archive-psw01.xls",
+    "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2026/2026_10_15/xls/psw01.xls",
+    "final_url": "https://www.eia.gov/petroleum/supply/weekly/archive/2026/2026_10_15/xls/psw01.xls",
+    "status": 404,
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 46767,
+    "sha256": "de0acbddfcd0bb398ab19e8bd1b719ec8b47aa8ab9ef6175bc73d02b92b14514",
+    "captured_at": "2026-10-20T19:11:50-04:00"
+  },
+  {
+    "file": "archive-wpsrall.pdf",
+    "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2026/2026_10_15/pdf/wpsrall.pdf",
+    "final_url": "https://www.eia.gov/petroleum/supply/weekly/archive/2026/2026_10_15/pdf/wpsrall.pdf",
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 59600,
+    "sha256": "ed02b126ffa90e6178f5b2f5708017da4313c2fcf45a1fece9ada7ac10d69c6d",
+    "captured_at": "2026-10-20T19:11:50-04:00"
+  },
+  {
+    "file": "gasregw.csv",
+    "url": "https://fred.stlouisfed.org/graph/?g=1&id=GASREGW&cosd=2025-10-01&coed=2026-10-19",
+    "final_url": "https://fred.stlouisfed.org/graph/?g=1&id=GASREGW&cosd=2025-10-01&coed=2026-10-19",
+    "status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 75669,
+    "sha256": "ab4e498ff11e7196dc767dce610dfed2d2b9ae0c7ac4fd7ec434115cc123b7f3",
+    "captured_at": "2026-10-20T19:11:50-04:00"
+  },
+  {
+    "file": "gasregw-direct.csv",
+    "url": "https://fred.stlouisfed.org/graph/graph-data.php?id=GASREGW&cosd=2025-10-01&coed=2026-10-19",
+    "final_url": "https://fred.stlouisfed.org/graph/graph-data.php?id=GASREGW&cosd=2025-10-01&coed=2026-10-19",
+    "status": 404,
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 16,
+    "sha256": "8a482f2271a42c5f54c96e816a84340a6f2357a5b81f927d07d00788f5140a41",
+    "captured_at": "2026-10-20T19:11:50-04:00"
+  },
+  {
+    "file": "eia-retail.xls",
+    "url": "https://www.eia.gov/petroleum/gasdiesel/xls/pswrgvwall.xls",
+    "final_url": "https://www.eia.gov/petroleum/gasdiesel/xls/pswrgvwall.xls",
+    "status": 200,
+    "content_type": "application/vnd.ms-excel",
+    "bytes": 7513088,
+    "sha256": "730abe0fd612f55a7f14a8684c0c7fca75a39bc62b750430800731c7bf4161ff",
+    "captured_at": "2026-10-20T19:11:51-04:00"
+  },
+  {
+    "file": "current-summary.txt",
+    "url": "https://ir.eia.gov/wpsr/summary.txt",
+    "final_url": "https://ir.eia.gov/secure/wpsr/summary.txt?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9pci5laWEuZ292L3NlY3VyZS93cHNyLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTI1ODg4MDB9LCJEYXRlR3JlYXRlclRoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5MjA4MDAwMH19fV19&Signature=VG4dUTe2~hvNrjY2XIr-AdldEAJadOH6AiF10soW3nakhbV6vMtT~LiBAQHnxrRfCuWnQdnx1u4U2AZaYjoahbP3ci8fFGlTAJG0Wt1CQ45soxR1jZWk4PkdrbJPJq-3yqz8QzanrUb0yaPUlD0a1TweqUmAyQ3Y4NcJxb9TRwV4sTlJ~3aBsfDuYJsNyXUzhX5gldbe4Gwz74uU5CmMcVXCkdhu4C7qj4bcSgB7ZwJc4TlvUBCnVNt2zfu3DqLQM-V86E3g8F99KV7hsGKTyvXbqkR1fUrdQzjF-nkEresGBaicnBFExMMODb7ziJEoaVHcBrdaTaL6OQVqerCe4Q&Key-Pair-Id=K2WPIA8SHYSHCP",
+    "status": 200,
+    "content_type": "text/plain",
+    "bytes": 1399,
+    "sha256": "51a4b70f5b3114f2df5d4194dddc4e42b3eb3389945186b97adeb79457234873",
+    "captured_at": "2026-10-20T19:11:50-04:00"
+  },
+  {
+    "file": "current-table1.csv",
+    "url": "https://ir.eia.gov/wpsr/table1.csv",
+    "final_url": "https://ir.eia.gov/secure/wpsr/table1.csv?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9pci5laWEuZ292L3NlY3VyZS93cHNyLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTI1ODg4MDB9LCJEYXRlR3JlYXRlclRoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5MjA4MDAwMH19fV19&Signature=VG4dUTe2~hvNrjY2XIr-AdldEAJadOH6AiF10soW3nakhbV6vMtT~LiBAQHnxrRfCuWnQdnx1u4U2AZaYjoahbP3ci8fFGlTAJG0Wt1CQ45soxR1jZWk4PkdrbJPJq-3yqz8QzanrUb0yaPUlD0a1TweqUmAyQ3Y4NcJxb9TRwV4sTlJ~3aBsfDuYJsNyXUzhX5gldbe4Gwz74uU5CmMcVXCkdhu4C7qj4bcSgB7ZwJc4TlvUBCnVNt2zfu3DqLQM-V86E3g8F99KV7hsGKTyvXbqkR1fUrdQzjF-nkEresGBaicnBFExMMODb7ziJEoaVHcBrdaTaL6OQVqerCe4Q&Key-Pair-Id=K2WPIA8SHYSHCP",
+    "status": 200,
+    "content_type": "text/plain",
+    "bytes": 6595,
+    "sha256": "2f4403d8e0d1538e6283a9ab3df1521516bea9f5e0a9bd08c60fc18c2a60d7b8",
+    "captured_at": "2026-10-20T19:11:50-04:00"
+  },
+  {
+    "file": "current-table9.csv",
+    "url": "https://ir.eia.gov/wpsr/table9.csv",
+    "final_url": "https://ir.eia.gov/secure/wpsr/table9.csv?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9pci5laWEuZ292L3NlY3VyZS93cHNyLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTI1ODg4MDB9LCJEYXRlR3JlYXRlclRoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5MjA4MDAwMH19fV19&Signature=VG4dUTe2~hvNrjY2XIr-AdldEAJadOH6AiF10soW3nakhbV6vMtT~LiBAQHnxrRfCuWnQdnx1u4U2AZaYjoahbP3ci8fFGlTAJG0Wt1CQ45soxR1jZWk4PkdrbJPJq-3yqz8QzanrUb0yaPUlD0a1TweqUmAyQ3Y4NcJxb9TRwV4sTlJ~3aBsfDuYJsNyXUzhX5gldbe4Gwz74uU5CmMcVXCkdhu4C7qj4bcSgB7ZwJc4TlvUBCnVNt2zfu3DqLQM-V86E3g8F99KV7hsGKTyvXbqkR1fUrdQzjF-nkEresGBaicnBFExMMODb7ziJEoaVHcBrdaTaL6OQVqerCe4Q&Key-Pair-Id=K2WPIA8SHYSHCP",
+    "status": 200,
+    "content_type": "text/plain",
+    "bytes": 46782,
+    "sha256": "1150f047efb164e2a2d17c23493d3714ff92072d6c7d2813af501c4d1c3369ff",
+    "captured_at": "2026-10-20T19:11:51-04:00"
+  },
+  {
+    "file": "schedule.html",
+    "url": "https://www.eia.gov/petroleum/supply/weekly/schedule.php",
+    "final_url": "https://www.eia.gov/petroleum/supply/weekly/schedule.php",
+    "status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 52513,
+    "sha256": "cb3d05f789101c41992f4426360337259797f7d6ddb70e06e3653214d645516a",
+    "captured_at": "2026-10-20T19:11:50-04:00"
+  }
+]

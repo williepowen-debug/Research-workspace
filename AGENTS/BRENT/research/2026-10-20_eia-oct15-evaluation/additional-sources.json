@@ -64,12 +64,15 @@
     "captured_at": "2026-10-20T19:13:23-04:00"
   },
   {
-    "file": "oh-tax.html",
+    "file": "rejected-oh-tax-http403.html",
     "url": "https://ohiosenate.gov/news/on-the-record/ohio-general-assembly-suspends-state-gas-tax",
     "status": 403,
     "bytes": 146,
     "sha256": "32f2fa940d4b4fe19aca1e53a24e5aac29c57b7c5ee78588325b87f1b649c864",
-    "captured_at": "2026-10-20T19:13:23-04:00"
+    "captured_at": "2026-10-20T19:13:23-04:00",
+    "original_file": "oh-tax.html",
+    "accepted_for_analysis": false,
+    "rejection_reason": "HTTP 403 response, not a policy source body"
   },
   {
     "file": "whitehouse-diesel.html",

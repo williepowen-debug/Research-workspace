@@ -1,0 +1,56 @@
+[
+  {
+    "source": "CLAUDE.md",
+    "before": "archive/2026-10-20_consistency-repair/CLAUDE.md",
+    "bytes": 22780,
+    "sha256": "8f73fb509e30fea874f8b3a69650e6be04f0dd57cb0540aa8da1cbd7eb1bcbd0"
+  },
+  {
+    "source": "STATUS.md",
+    "before": "archive/2026-10-20_consistency-repair/STATUS.md",
+    "bytes": 21711,
+    "sha256": "2ae80167e42c006a7a2a7ca0548bd6297a8292a59d52732e44fbae8150c77edf"
+  },
+  {
+    "source": "SCRATCH.md",
+    "before": "archive/2026-10-20_consistency-repair/SCRATCH.md",
+    "bytes": 4060,
+    "sha256": "c8c919aba54510bf421d57e6c6220951bf6e795bd50c16f7e0305b381884c8e7"
+  },
+  {
+    "source": "NEXUS_BRIEF.md",
+    "before": "archive/2026-10-20_consistency-repair/NEXUS_BRIEF.md",
+    "bytes": 16097,
+    "sha256": "0637ba599d903965440ff71131a2b9ae2ebc9eb86f49dc9eb3ceb96c2b1cb939"
+  },
+  {
+    "source": "thesis/THESIS.md",
+    "before": "archive/2026-10-20_consistency-repair/thesis/THESIS.md",
+    "bytes": 23772,
+    "sha256": "f477b38ed4704e7062e4b4d18354825ee0e09f483f9de619026ad5921460137a"
+  },
+  {
+    "source": "demand_destruction/TRACKER.md",
+    "before": "archive/2026-10-20_consistency-repair/demand_destruction/TRACKER.md",
+    "bytes": 30516,
+    "sha256": "b8d19cb2f6f5c90edb7e2b917c7d00ad9fca9d760a724f1633cc901029e9094a"
+  },
+  {
+    "source": "research/2026-10-20_eia-oct15-evaluation/source-manifest.json",
+    "before": "archive/2026-10-20_consistency-repair/research/2026-10-20_eia-oct15-evaluation/source-manifest.json",
+    "bytes": 7498,
+    "sha256": "2603ccd78e32b8756ff96e5ec63cf1a0c4766af831b6e9be0e27217770c96522"
+  },
+  {
+    "source": "research/2026-10-20_eia-oct15-evaluation/additional-sources.json",
+    "before": "archive/2026-10-20_consistency-repair/research/2026-10-20_eia-oct15-evaluation/additional-sources.json",
+    "bytes": 3419,
+    "sha256": "f23eb5b7a8a95bfa0894ba70d993aa55048dc4dceea308606de7d91cea513358"
+  },
+  {
+    "source": "research/2026-10-20_eia-oct15-evaluation/artifact-index.json",
+    "before": "archive/2026-10-20_consistency-repair/research/2026-10-20_eia-oct15-evaluation/artifact-index.json",
+    "bytes": 7733,
+    "sha256": "ba971dbeb2d5ad9101fd4f58e5b4f82a651724e72b68c55f5dccc0fe04c881c2"
+  }
+]

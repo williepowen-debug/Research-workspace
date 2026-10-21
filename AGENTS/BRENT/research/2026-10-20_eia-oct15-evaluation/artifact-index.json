@@ -1,5 +1,5 @@
 {
-  "scope": "saved artifact bytes before final Git persistence; index excludes itself",
+  "scope": "Current saved artifact paths after byte-preserving rejected-response renames; index excludes itself. Original index retained in consistency-repair archive.",
   "files": {
     "errata.pdf": {
       "bytes": 279435,
@@ -14,8 +14,8 @@
       "sha256": "9390329fd058d43f7abb269353c237158bc3a79e44e34ec79d48dbe5433c5eea"
     },
     "additional-sources.json": {
-      "bytes": 3419,
-      "sha256": "f23eb5b7a8a95bfa0894ba70d993aa55048dc4dceea308606de7d91cea513358"
+      "bytes": 3579,
+      "sha256": "3daf079a6089ff2d5a752ead4b78dc898dacbc03b0b7d45ed2b0dd6df3d648a6"
     },
     "landing.html": {
       "bytes": 85057,
@@ -25,7 +25,7 @@
       "bytes": 1082,
       "sha256": "01dd40110f4934812f9c3a660a69591a2aef37f6675c8ee983ec2c9cc9b1ed8b"
     },
-    "archive-wpsrall.pdf": {
+    "rejected-wpsrall-discontinuation-notice.pdf": {
       "bytes": 59600,
       "sha256": "ed02b126ffa90e6178f5b2f5708017da4313c2fcf45a1fece9ada7ac10d69c6d"
     },
@@ -33,7 +33,7 @@
       "bytes": 156536,
       "sha256": "3b160d314ce66b893a6987473d4e31ecdf2f287009be7a1006d50205cad7c996"
     },
-    "archive-psw01.xls": {
+    "rejected-archive-psw01-http404.html": {
       "bytes": 46767,
       "sha256": "de0acbddfcd0bb398ab19e8bd1b719ec8b47aa8ab9ef6175bc73d02b92b14514"
     },
@@ -61,7 +61,7 @@
       "bytes": 6333,
       "sha256": "97765ea19306d488b86a2f11430dd724e317c1e955bc22e6f9f90f928320e1c9"
     },
-    "oh-tax.html": {
+    "rejected-oh-tax-http403.html": {
       "bytes": 146,
       "sha256": "32f2fa940d4b4fe19aca1e53a24e5aac29c57b7c5ee78588325b87f1b649c864"
     },
@@ -93,7 +93,7 @@
       "bytes": 308749,
       "sha256": "aee8d6b8b53d325614c404142c273954d6f48badb69f577ec2c581891e241a07"
     },
-    "gasregw.csv": {
+    "rejected-gasregw-ui-response.html": {
       "bytes": 75669,
       "sha256": "ab4e498ff11e7196dc767dce610dfed2d2b9ae0c7ac4fd7ec434115cc123b7f3"
     },
@@ -129,13 +129,13 @@
       "bytes": 7351,
       "sha256": "289bc6e11d0b4c93fb9431b5b871513b969925f8d3114a1d15ea63b621ab181d"
     },
-    "gasregw-direct.csv": {
+    "rejected-gasregw-direct-http404.txt": {
       "bytes": 16,
       "sha256": "8a482f2271a42c5f54c96e816a84340a6f2357a5b81f927d07d00788f5140a41"
     },
     "source-manifest.json": {
-      "bytes": 7498,
-      "sha256": "2603ccd78e32b8756ff96e5ec63cf1a0c4766af831b6e9be0e27217770c96522"
+      "bytes": 8178,
+      "sha256": "7d30d4ee8153e0462414e770569854ce68b4455322ee564135a7ead7f2dfae06"
     },
     "psw09.xls": {
       "bytes": 8935936,
@@ -216,6 +216,10 @@
     "before/routine-eia-2026-10-15.md": {
       "bytes": 12443,
       "sha256": "78c7193063e36fccd0b0dad7fb80a88e35858ba848219b8be6b726c624ba1f23"
+    },
+    "file-renames.json": {
+      "bytes": 1765,
+      "sha256": "7c6bf86b950e7bda02dd87f0b95e6d7fead53e74109d8bbceb7ecf177f3e9def"
     }
   }
 }
