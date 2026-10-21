@@ -1,5 +1,7 @@
 # MIDAS — NEXUS brief
 
+**Closed out October20,2026 at Will's request:** research and per-metal KB organization saved; session resume point is `SCRATCH.md`. Existing scores remain4/1/1/2=8/20; MIDAS09/10 frozen letters preserved and WQ-421 approval consumed. No new market refresh at closeout. KB172 records a newly received WALTER gold trade-flow signal as owner-asserted/deferred, without adopting its figures or mechanism as MIDAS-verified. Remaining work and access limits are in `OPEN_ITEMS.md`; no trade or new approval request.
+
 **Per-metal KBs October20,2026 (Will-directed):** each metal now has a generated `KB.tsv`; `shared/KB.tsv` holds multi-metal and desk-only rows. Permanent `workbook/KB.tsv` preserves original entries, IDs and sources; `KB_METALS.tsv` records explicit classifications. Add/correct there, then `refresh_metal_kbs.py --refresh`; boot ledger leg checks content freshness and classification coverage. On-demand views, no new market pull or forecast/score change. New tooling uses Python standard library only.
 
 **Organization October20,2026 (Will-directed):** metal folders `gold/`, `silver/`, `platinum/`, `palladium/`, `copper/` and `shared/` now index existing research/data; start at `README.md`. `METALS_CATALOG.tsv` classifies existing artifacts/bundles. New focused work files under its metal; existing paths, raw evidence, boot dependencies and frozen forecasts stay intact. Navigation only; no new market pull, state/score change or research obligation.
