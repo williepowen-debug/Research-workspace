@@ -12,3 +12,5 @@ receipt_date	correction_id	action	note
 2026-10-15T20:58Z	COR-20261015-15	APPLIED	artifact=AGENTS/BROCK/workbook/KB.tsv#KB-BRK-347; validation_ref=NONE; 
 2026-10-15T20:58Z	COR-20261014-33	NO-OP	scope=BROCK never carried the -030 every-securitization headline, board_log disposition info-only; 
 2026-10-16T17:42Z	COR-20261016-02	APPLIED	artifact=AGENTS/BROCK/board_log.tsv#SIG-W-20261016-002; validation_ref=NONE; 
+2026-10-21T13:39Z	COR-20261019-12	NO-OP	scope=BROCK cites no OTTO Ally-contract, warehouse-exit forecast or short-report timing figure. CRMT ladder reads are BROCK's own EDGAR grades, unaffected; 
+2026-10-21T13:39Z	COR-20261021-01	NO-OP	scope=BROCK holds no H.8 small-bank borrowing, deposit or cash figure. SIG-W-20261010-007 fed no BROCK vector, gate or prediction; 
