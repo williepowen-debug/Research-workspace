@@ -27,7 +27,8 @@ CONTRACT (CHECK_STANDARD §9): rc 0 · 2 CANNOT-CERTIFY / refused. Never pads, n
 L262 (PROME-ruled 2026-09-04, DAEDALUS rule-15 input; Will "L262 go ahead" 9/4 ~10:0x). (a) The VIEW is a typed-only
 projection — `date · desk · tier · touch · drained · delivered[:40] · inbox_before · inbox_after` — of (i) every row whose
 `delivered` carries IN-FLIGHT, except rows paired with a later receipt/CLOSE for the exact same desk string
-(structured resolutions use the canonical closeout reader; legacy receipts pair one lower-numbered touch;
+(structured resolutions use the canonical closeout reader; legacy receipts pair one lower-numbered touch
+on the same date without an intervening numbering restart;
 asks and time corrections never close work; the view reports the omitted count), and (ii) each desk's LAST `drained>0` touch inside `--window-days` (the rule-6b/leg-3b window is a
 DECLARED soak parameter, not a canon constant, so the header prints the window used and names the desks with no such touch
 inside it — nothing is hidden by the default). One writer, one lock ⇒ the view cannot drift from the ledger (PAT-113).
@@ -273,8 +274,8 @@ def _split_ledger(path):
     return comments, header, data
 
 
-def _closed_inflight(rows):
-    """Pair view omissions; ambiguous evidence stays visible, never desk-wide closure."""
+def _inflight_closure_pairs(rows):
+    """Map omitted row positions to (method, receipt position); ambiguity stays visible."""
     keys = [orch_closeout.touch_key(r) for r in rows]
     counts = collections.Counter(keys)
     positions = {key: i for i, key in enumerate(keys) if counts[key] == 1}
@@ -291,14 +292,15 @@ def _closed_inflight(rows):
     def closing(r):
         touch = r[3].upper()
         return ((touch.endswith("-RECEIPT") or touch == "CLOSE")
-                and not r[6].lstrip().upper().startswith("TIME-CORRECTION")
+                and not r[6].lstrip().upper().startswith(
+                    ("TIME-CORRECTION", "PENDING", "AWAITING", "NO RECEIPT"))
                 and orch_time.MARKER not in r[8] and not _is_inflight(r))
 
     # Reuse canonical identity, explicit-link, chronology and invalidation checks.
     # Duplicate keys cannot identify a unique original, so omit them from reconciliation.
     reconciled, _issues = orch_closeout.reconcile(
         [(key, r) for key, r in zip(keys, rows) if counts[key] == 1], now)
-    closed = set()
+    closed = {}
     for result in reconciled:
         i = positions[result["key"]]
         if i not in candidates or result["state"] not in terminal or not result["events"]:
@@ -306,7 +308,7 @@ def _closed_inflight(rows):
         j = positions[result["events"][-1]]
         if (j > i and closing(rows[j]) and data[j] is not None
                 and data[j].get("resolves") == [keys[i]]):
-            closed.add(i)
+            closed[i] = ("explicit", j)
 
     for j, receipt in enumerate(rows):
         if not closing(receipt):
@@ -322,7 +324,7 @@ def _closed_inflight(rows):
         eligible = []
         for i in candidates:
             original = rows[i]
-            if i >= j or original[1] != receipt[1]:
+            if i >= j or original[1] != receipt[1] or original[0] != receipt[0]:
                 continue
             if orch_closeout.MARKER in original[8] and data[i] is None:
                 continue
@@ -335,16 +337,28 @@ def _closed_inflight(rows):
             highest = max(n for n, _ in eligible)
             targets = [i for n, i in eligible if n == highest]
             if len(targets) == 1:
+                i = targets[0]
+                if any(r[1] == receipt[1] and event_type(r) == "TOUCH"
+                       and int(re.match(r"^\d+", r[3]).group()) <= highest
+                       for r in rows[i + 1:j]):
+                    continue  # No restart, tie-breaking or lower-candidate fallback guess.
                 # Include already closed candidates: a duplicate receipt cannot eat older work.
-                closed.add(targets[0])
+                closed.setdefault(i, ("legacy", j))
     return closed
+
+
+def _closed_inflight(rows):
+    """Compatibility set of omitted positions; pair methods remain available to the view."""
+    return set(_inflight_closure_pairs(rows))
 
 
 def render_view(rows, window_days=DEFAULT_WINDOW_DAYS, today=None, source=LEDGER):
     """Typed-only projection (L262 (a)). `rows` = validated 13-field rows."""
     today = today or datetime.date.today()
     cutoff = (today - datetime.timedelta(days=window_days)).isoformat()
-    closed = _closed_inflight(rows)
+    closed = _inflight_closure_pairs(rows)
+    explicit = sum(method == "explicit" for method, _ in closed.values())
+    legacy = len(closed) - explicit
     inflight = [r for i, r in enumerate(rows) if event_type(r) == "TOUCH" and _is_inflight(r) and i not in closed]
     last = {}
     for r in rows:
@@ -366,7 +380,7 @@ def render_view(rows, window_days=DEFAULT_WINDOW_DAYS, today=None, source=LEDGER
            "", "| " + " | ".join(VIEW_COLS) + " |", "|" + "---|" * len(VIEW_COLS)]
     for r in sorted(inflight, key=lambda r: (r[0], r[1])):
         out.append("| " + " | ".join(cell(r, COLS.index(c)) for c in VIEW_COLS) + " |")
-    out += ["", f"Omitted {len(closed)} IN-FLIGHT row(s): paired with later same-desk -RECEIPT/CLOSE rows via validated explicit session/resolves links, or one unique lower-numbered legacy touch per receipt; asks and time corrections never close work."]
+    out += ["", f"Omitted {len(closed)} IN-FLIGHT row(s) ({explicit} explicit resolves links · {legacy} legacy: highest lower-numbered same-desk touch, unique at that number, same date, no numbering restart); asks, time corrections and pending receipts never close work."]
     out += ["", f"## Last `drained>0` touch per desk inside the window ({len(last)} desks) — the leg-3b cadence input (a zero-drain touch never resets a desk's clock)",
             "", "| " + " | ".join(VIEW_COLS) + " |", "|" + "---|" * len(VIEW_COLS)]
     for d in sorted(last):

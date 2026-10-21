@@ -52,9 +52,9 @@ class ClosedRows(unittest.TestCase):
         self.assertIn('## IN-FLIGHT rows (1)', text)
         self.assertIn('Omitted 0 IN-FLIGHT row(s)', text)
 
-    def test_file_position_not_date_decides(self):
+    def test_legacy_date_mismatch_never_closes_even_in_later_file_position(self):
         text = self.inflight(self.render([row(), row(touch='2-RECEIPT', delivered='DONE', date='2026-10-20')]))
-        self.assertIn('## IN-FLIGHT rows (0)', text)
+        self.assertIn('## IN-FLIGHT rows (1)', text)
         text = self.inflight(self.render([row(touch='2-RECEIPT', delivered='DONE', date='2026-10-22'), row()]))
         self.assertIn('## IN-FLIGHT rows (1)', text)
 
@@ -223,6 +223,88 @@ class ClosedRows(unittest.TestCase):
         receipt = self.receipt(a, touch='4-RECEIPT',
                                resolves=[orch.orch_closeout.touch_key(a), orch.orch_closeout.touch_key(b)])
         self.assertEqual(orch._closed_inflight([a, b, receipt]), set())
+
+
+    def test_f1_different_dates_and_restart_cannot_hide_session_a(self):
+        rows = [row(touch='2-REPING', date='2026-10-20'), row(),
+                row(touch='3-CLOSEOUT-RECEIPT', delivered='DONE')]
+        rows[0][8], rows[1][8], rows[2][8] = 'session A live', 'session B', 'session B closed'
+        self.assertEqual(orch._closed_inflight(rows), {1})
+        text = self.inflight(self.render(rows))
+        self.assertIn('| 2-REPING |', text)
+        self.assertNotIn('| 1-SPAWN |', text)
+
+    def test_f1_same_day_restart_is_a_boundary_independently_of_date_guard(self):
+        for number in ('1', '2'):
+            for delivered in ('DONE', 'IN-FLIGHT'):
+                with self.subTest(number=number, delivered=delivered):
+                    rows = [row(touch='2-REPING'),
+                            row(touch=number + '-SPAWN', delivered=delivered),
+                            row(touch='3-CLOSEOUT-RECEIPT', delivered='DONE')]
+                    # Equal or lower intervening TOUCH numbers block the older row,
+                    # whether or not that intermediate touch is itself IN-FLIGHT.
+                    self.assertNotIn(0, orch._closed_inflight(rows))
+                    self.assertIn('| 2-REPING |', self.inflight(self.render(rows)))
+
+    def test_f1b_old_terry_ask_survives_future_high_numbered_receipt(self):
+        rows = [row(desk='TERRY', touch='4-CLOSEOUT-ASK', date='2026-10-05',
+                    delivered='IN-FLIGHT; approval-blocked; no closeout receipt'),
+                row(desk='TERRY'), row(desk='TERRY', touch='2-DELIVERED', delivered='DONE'),
+                row(desk='TERRY', touch='3-REPING'),
+                row(desk='TERRY', touch='4-DELIVERED', delivered='DONE'),
+                row(desk='TERRY', touch='5-CLOSEOUT-RECEIPT', delivered='DONE')]
+        self.assertEqual(orch._closed_inflight(rows), {3})
+        self.assertIn('| 4-CLOSEOUT-ASK |', self.inflight(self.render(rows)))
+
+    def test_f12_date_gap_without_restart_keeps_original_visible(self):
+        rows = [row(date='2026-10-01'), row(touch='2-CLOSEOUT-RECEIPT', delivered='DONE')]
+        self.assertEqual(orch._closed_inflight(rows), set())
+        self.assertIn('| 1-SPAWN |', self.inflight(self.render(rows)))
+
+    def test_restart_boundary_uses_all_intermediate_file_positions_not_dates(self):
+        rows = [row(touch='2-REPING'),
+                row(touch='1-DELIVERED', delivered='DONE', date='2026-10-20'),
+                row(touch='3-CLOSEOUT-RECEIPT', delivered='DONE')]
+        self.assertEqual(orch._closed_inflight(rows), set())
+
+    def test_other_desk_and_close_summary_do_not_mark_numbering_restart(self):
+        for middle in (row(desk='RED', touch='1-SPAWN', delivered='DONE'),
+                       row(touch='CLOSE', delivered='DONE'),
+                       row(touch='3-PING', delivered='DONE')):
+            with self.subTest(touch=middle[3], desk=middle[1]):
+                rows = [row(touch='2-REPING'), middle,
+                        row(touch='4-CLOSEOUT-RECEIPT', delivered='DONE')]
+                self.assertEqual(orch._closed_inflight(rows), {0})
+
+    def test_pending_awaiting_and_no_receipt_prefixes_never_close(self):
+        for prefix in ('PENDING', 'AWAITING', 'NO RECEIPT', '  pending', 'awaiting', 'no receipt'):
+            with self.subTest(prefix=prefix):
+                receipt = row(touch='2-CLOSEOUT-RECEIPT', delivered=prefix + ': still working')
+                self.assertEqual(orch._closed_inflight([row(), receipt]), set())
+                original = self.structured(row())
+                explicit = self.receipt(original)
+                explicit[6] = prefix + ': still working'
+                self.assertEqual(orch._closed_inflight([original, explicit]), set())
+
+    def test_explicit_link_still_allows_overnight_completion(self):
+        original = self.structured(row())
+        receipt = self.receipt(original, touch_at='2020-01-02T12:01:00+00:00',
+                               observed_at='2020-01-02T12:01:00+00:00')
+        receipt[0] = '2020-01-02'
+        self.assertEqual(orch._closed_inflight([original, receipt]), {0})
+        self.assertEqual(orch._inflight_closure_pairs([original, receipt]), {0: ('explicit', 1)})
+
+    def test_omission_line_splits_disjoint_explicit_and_legacy_counts(self):
+        original = self.structured(row())
+        rows = [original, self.receipt(original), row(desk='RED'),
+                row(desk='RED', touch='2-CLOSEOUT-RECEIPT', delivered='DONE')]
+        text = self.inflight(self.render(rows))
+        self.assertIn('Omitted 2 IN-FLIGHT row(s) (1 explicit resolves links · 1 legacy:', text)
+        self.assertIn('unique at that number, same date, no numbering restart', text)
+        self.assertEqual(orch._inflight_closure_pairs(rows),
+                         {0: ('explicit', 1), 2: ('legacy', 3)})
+        zero = self.render([row()])
+        self.assertIn('Omitted 0 IN-FLIGHT row(s) (0 explicit resolves links · 0 legacy:', zero)
 
 
 if __name__ == '__main__':
