@@ -1,9 +1,9 @@
 # WALTER STATUS
-**Updated:** 2026-10-21T13:13:24Z — October21 startup PARTIAL; BOARD **1564**, six today dispatches. Sole duty/receipt list LAST_COMPLETION.md.
+**Updated:** 2026-10-21T15:44:27Z — session closed; bounded view repair IMPLEMENTED + TESTED; general startup/research PARTIAL. BOARD **1564**, six today dispatches. Sole duty/receipt list LAST_COMPLETION.md.
 
 ## BOTTOM LINE
 
-October21 startup is PARTIAL. Owner inbox updates are integrated; six qualified signals preserve the funding revision, Japan corrections, Boston retained-property outcome and three new intake findings. Current source/instrument, full context and READS certification gaps remain explicit in LAST_COMPLETION.md. No whole-market or whole-registry clearance, no trade or new monitor. Existing saved bookmark review and financing work retain their approvals and limits.
+Session closed at Will’s request. The bounded orchestration-view repair is IMPLEMENTED + TESTED; acceptance evidence is in PROME/tools/tests/ACCEPTANCE_orch_inflight_closed_rows_2026-10-21.md. October21 startup remains PARTIAL. Owner inbox updates are integrated; six qualified signals preserve the funding revision, Japan corrections, Boston retained-property outcome and three new intake findings. Current source/instrument, full context and READS certification gaps remain explicit in LAST_COMPLETION.md. No whole-market or whole-registry clearance, no trade or new monitor. Existing saved bookmark review and financing work retain their approvals and limits.
 
 ## DATED MARKET OBSERVATIONS
 
@@ -46,7 +46,7 @@ Signal/news routing and receiving-layer readiness. Domain agents own evidence, g
 
 ## NETWORK AWARENESS
 
-REGISTRY refreshed October21 from47rows/42owner lead headers before this summary. Six today signals, zero cluster_mediating, zero helper/domain launches by this WALTER session. Owner headers are routing context, not full source review or liveness. Current complete fleet presence remains UNKNOWN; PROME in-flight includes new owner touches and is not a dark/live verdict. Duties and persistence limits solely LAST_COMPLETION.md.
+Dated startup observation: REGISTRY refreshed October21 from47rows/42owner lead headers at13:06:48Z. It was not refreshed again during closeout; this is not a fresh network assessment. Six today signals, zero cluster_mediating, zero helper/domain launches by this WALTER session. Owner headers are routing context, not full source review or liveness. Current complete fleet presence remains UNKNOWN; PROME in-flight includes new owner touches and is not a dark/live verdict. Duties and persistence limits solely LAST_COMPLETION.md.
 
 ## Active LIAISON channels
 

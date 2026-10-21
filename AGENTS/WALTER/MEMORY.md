@@ -1,7 +1,6 @@
 # WALTER MEMORY
 *Curated cross-session memory. Read at boot, write before finishing. **This file is a TRIGGER INDEX, not an archive** — each rule below is one line that must fire at boot or at dispatch; the full narrative, the instance and the evidence live at the surface named beside it.*
 
-
 > **Size/review trigger:** measure every Tier-2; READ_CAP.md budget, rotation trigger and stop bind. Next calendar check2026-10-22. Promote findings only after their actionable rule has an owning surface; preserve unique narratives verbatim in MEMORY_PROMOTED.md. No mechanical date-only rotation or physical-ceiling-as-pass. Earlier size incidents: MEMORY_PROMOTED.md, October16 instruction-cleanup section.
 
 *Distinct from STATUS.md (operational state) and LAST_COMPLETION.md (latest session's deliverables). This file holds durable learnings that shape how WALTER works, not what WALTER did. Per-session "what happened" lives in SESSION_LOG.md + git history, not here.*
@@ -62,7 +61,6 @@
 
 35. **Before routing an ask at an owner's ROW, read that FILE's header for a FROZEN banner. A grep hit in a frozen ledger reads exactly like a live row.** 9/28: `-010` told BRENT its SPR basis was ~411M and 125M stale, citing KB-BRT-152/VX-BRT-13. Both files are bannered "FROZEN 2026-07-01, do NOT cite rows here as current", and BRENT's live 284.552M was already in TRACKER. BRENT caught it the same hour; the claim reached Will on Telegram and was corrected. Root CLAUDE.md § Data Hygiene already says ledgers can be FROZEN; the trip that was skipped is `head -2` on the file before quoting a row as the owner's current basis. → `[[finding_plausible_stale_value_evades_review]]`
 
-
 38. **ROTATED 2026-10-08 (laptop Tier-2) verbatim → [`MEMORY_PROMOTED.md`](MEMORY_PROMOTED.md)**: owning surfaces are the sizing records `research/2026-10-01_R3/*-sizing.md`.
 
 39. **A lane row's `date` is the date the ITEM was published or re-published, not the date of the EVENT, and a repost aggregator gives an old wire a fresh date.** 10/01: EnergyNow's "Oil Loadings Suspended at Saudi's Red Sea Port of Yanbu" sat in the 10/01 batch stamped 9/30. It was Reuters 9/15, and carrying it would have reversed the live "loadings resumed" state. Same day, a Petroline "restarts" item carried its true 9/22 date. **On any state-reversing item, search the exact headline before routing; the earliest dated copy is the event date.** Same class as #6, one level finer: the lane can supply the wrong date with nothing looking stale. → `[[finding_relayed_level_predates_the_event]]`
@@ -90,6 +88,8 @@
 - **Market data:** `.venv/bin/python3 FORGE/tools/market-data/dashboard.py`.
 - **Bright Data Web Unlocker (WQ-383 pilot, LIVE 2026-10-04):** `bdata scrape <url>` for a 403'd no-screenshot bookmark link; free tier 5k/mo HARD STOP, Web-Unlocker-only, key in gitignored `.env` (per-machine). Full method+limits+ledger: `design/X_BOOKMARKS_ACCEPTANCE.md` §9a.
 ## Session Notes
+
+**October21 session closed:** bounded view repair IMPLEMENTED + TESTED at dbed8968c; acceptance at PROME/tools/tests/ACCEPTANCE_orch_inflight_closed_rows_2026-10-21.md. General startup/research remains PARTIAL; current duties and publication receipts stay in LAST_COMPLETION, closeout evidence research/2026-10-21_session-closeout.
 
 **2026-10-19T16:41:51Z resumed owner:** publishedHY0033/3;004HMI;005newJMICrisk/tug,existinglossconflict;006OTTO;007office-routecorrection,008OTTOpanel44/44+forecast8%OPEN,009HOMERnine-readqualifieddigest,010dealer/ETFcounterevidence,011CRWVvaluations. Interrupted8-itembatchclosed; ownerinbox6integrated. L599notrepeated/noextension. Authrepair onWill’s directrequest:401/refresh400→reauth→200;seenunchanged,0bookmarkfetch/mark. Evidence `research/2026-10-19_resume/`; currentdutiesandpublication/consumptionlimitsinLAST_COMPLETION.
 

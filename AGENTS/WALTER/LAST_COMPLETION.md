@@ -1,22 +1,26 @@
-# WALTER LAST_COMPLETION — October21 startup PARTIAL
+# WALTER LAST_COMPLETION — October21 session closed; research PARTIAL
 
-Updated 2026-10-21T13:13:24Z. Will launched WALTER for explicit instruction loading and startup. Current receipt: research/2026-10-21_boot/BOOT-RECEIPT.md. Prior version preserved verbatim in research/2026-10-21_boot/prior-LAST_COMPLETION.md.
+Updated 2026-10-21T15:44:27Z. Will requested session closeout after the bounded repair. Repair IMPLEMENTED + TESTED at dbed8968c; general research remains PARTIAL. Session handoff: research/2026-10-21_session-closeout/HANDOFF.md. Will launched WALTER for explicit instruction loading and startup. Current receipt: research/2026-10-21_boot/BOOT-RECEIPT.md. Prior version preserved verbatim in research/2026-10-21_boot/prior-LAST_COMPLETION.md.
 
 ## STATUS
 
-Startup PARTIAL; full context, source evaluation and READS attestation remain incomplete. Six source-qualified BOARD signals001–006 and25handoffs written; BOARD1564. First routing commit673931517; publication must be established separately. No new Will decision, trade or helper.
+Session closed at Will’s request. Bounded view repair IMPLEMENTED + TESTED; full closeout procedure remains PARTIAL as recorded below. Startup PARTIAL; full context, source evaluation and READS attestation remain incomplete. Six source-qualified BOARD signals001–006 and25handoffs written; BOARD1564. First routing commit673931517 is fresh-origin-proven at closeout; consumption remains separate. No new Will decision, trade or helper.
 
 ## CHANGED
+
+Bounded repair commit dbed8968c contains only scripts/orch_log.py, scripts/tests/test_orch_log_closed_rows.py, PROME/tools/tests/ACCEPTANCE_orch_inflight_closed_rows_2026-10-21.md and PROME/state/ORCH_INFLIGHT.md. Acceptance preceded implementation; ledger unchanged. Fresh closeout fetch proves this commit and all four startup/checkpoint commits published by another session. Independent PROME verification is not inferred. Closeout records and delivery reconciliation are a separate owned commit.
 
 Integrated all five top-level owner packets; SAM correction and REGINALD funding/Boston updates routed, WATT source-qualified evidence folded without new owner assignments. Three intake routes cover Russian diesel destination signals, DRAM newsroom forecast scope and Dutch national-target/EU-gap distinction. REGISTRY47rows/42leadheaders refreshed; dated FRED/Cboe/Cushing/AGSI evidence saved. Source bodies/owner reports and basis limits live in the signals and boot receipt.
 
 ## RESULT
 
+Repair: 32,299 → 27,579 B, 51 omitted / 32 remaining IN-FLIGHT; all 23 targeted October21 rows omitted. Metadata/cadence unchanged; all required commands exit0 (36/36 selftest, 17 scripts tests, 27 closeout tests, ledger valid). Existing read ResourceWarnings retained. Fresh-origin reconciliation establishes 25/25 October21 handoffs published, not consumed.
+
 Own top-level inbox5→0 after integration; BM-20261021-01 CLOSED6/6. Intake repo04feca7 and healthy latest news feed; BM-20261021-02 OPEN7/22 with15pending, lane unmarked. Phone absent normal, dropzone0. Pending94bookmarkstage preserved,0newfetch/mark. Prior66of96reviewed/30remaining and financing approvals unchanged. Startup/source shortcomings remain explicit; no market all-clear.
 
 ## GAPS / OWED
 
-- **Session-end validation:** receipt/read-cap/archive/weekday/version/local-memory checks PASS; doctor8MED/zeroHIGH. Basis review now names9changed dependencies; READS is UNKNOWN/staleOctober12attestation. Registry/kill-log nudges retained: registry/network regeneration deferred; no new kills to append, so no synthetic log refresh. Full procedural completion is not certified. Checks: research/2026-10-20_session-closeout/checks/.
+- **Session-end validation:** current full runner evidence is research/2026-10-21_session-closeout/checks/. Selected checks do not certify full execution. General registry/network regeneration, source/context, READS/current-basis and older research duties remain explicit; this closeout starts no new investigation. Current results: receipt/read-cap/archive/weekday/version PASS; orphan advisory only names foreign PROME ledger/view. Doctor0HIGH/5MED: taxonomy LABOR_DOWN, two historical amendment-note IDs,20 historical NOTE rows, aged recipient-consumption backlog, and OPEN intake15/22. Ledger nudge names kill_log.tsv; no new kills occurred, so no synthetic event or date refresh. Basis REVIEW names9 changed dependencies; READS UNKNOWN/staleOctober12. Local memory102→100 lines by removing two blank separators only. Full procedure is not certified.
 
 - **Current startup boundary:** SAM/REGINALD/WATT/PROME packets integrated at673931517 and filed; no SAM integration carry remains. Fresh threshold scan executed to the partial source perimeter in THRESHOLDS.md; full official-settlement/event/compound/close sequences, full42owner contexts, broker/catalyst/log context, current whole orchestration view and READS/basis attestation remain owed. Intake22content units:7dispositioned,15pending; complete BM-20261021-02 before marking lane or calling intake done. Existing bookmark stage preserved; no fresh scan. Full general boot is not certified.
 
@@ -33,7 +37,7 @@ Own top-level inbox5→0 after integration; BM-20261021-01 CLOSED6/6. Intake rep
 - General boot PARTIAL: October12 READS attestation stale; eight changed dependencies at this boot; no hash/attestation renewal. Whole ORCH_INFLIGHT read today; full owner context, fresh threshold/Cushing/BOARD/context execution and re-enumeration/attestation remain owed. Byte checks/doctor do not certify execution; see startup receipt. No hashes/attestation renewed without operational review.
 - Currentnews/sourcecoverageisbounded:officialsettlements,fullCREEDproperty/event/cohortandHANSqualitativeeventperimeter/finalclosesequencesincomplete;HANS-T12UNINSTRUMENTED,T15(b)unresolved. NBS/Reuterssubstantivetextrecoveredinsearchresponses,directopensfailed;ownercounterpartyfilingsnotallindependentlyreaudited. No freshIranfullsweep/all-clear;next~10/22.
 - Intake lane now04feca7, last_runOctober20T18:52:01Z; latest news healthy. Scanner16NEWgroups=22content units,7dispositioned/15pending; no mark. Phone absent normal, dropzone0. Boot evidence supersedes older scanner/health observations only.
-- Startup main pull was up to date before foreign dirty work appeared. October19routing96db4685e now proven ancestor of fetched origin/master; pending-publication carry discharged at commit level, consumption separate. Initial foreign TERRY/BRENT work was untouched. Native codex queue now verified for the exact BRENT peer; limited Codex discovery plus native session metadata identified its thread, not a cross-runtime fleet census. Accepted code was carried by BRENT publication. Batches1–7 and reconciliation592e6542a are origin-proven. The earlier LIGHT checkpoint473e48cef and next18source4373f4566 are now fresh-origin-proven; earlier pending-publication carries are discharged. Foreign AGENTS/DAEDALUS/runs/GATE_LOG.tsv remains dirty; no foreign work touched; no foreign pull/stash/rebase. PROME cross-runtime presence/transport remains UNKNOWN, no DARK doorbell. Prior FLASH027/France014 native-alert and recipient-consumption gaps retained; Telegram reply/chat ID unavailable.
+- Startup main pull was up to date before foreign dirty work appeared. October21 commits673931517/5265c3219/2726ed139/60d757a12 and repairdbed8968c are now fresh-origin-proven; 25/25 October21 handoffs published. Earlier pending-publication carries for these commits are discharged; consumption remains separate. October19routing96db4685e now proven ancestor of fetched origin/master; pending-publication carry discharged at commit level, consumption separate. Initial foreign TERRY/BRENT work was untouched. Native codex queue now verified for the exact BRENT peer; limited Codex discovery plus native session metadata identified its thread, not a cross-runtime fleet census. Accepted code was carried by BRENT publication. Batches1–7 and reconciliation592e6542a are origin-proven. The earlier LIGHT checkpoint473e48cef and next18source4373f4566 are now fresh-origin-proven; earlier pending-publication carries are discharged. The earlier DAEDALUS dirty-path observation is historical; current foreign PROME/state/ORCH_LOG.tsv and ORCH_INFLIGHT.md are dirty and untouched; no foreign work touched; no foreign pull/stash/rebase. PROME cross-runtime presence/transport remains UNKNOWN, no DARK doorbell. Prior FLASH027/France014 native-alert and recipient-consumption gaps retained; Telegram reply/chat ID unavailable.
 - FourOTTOqueueitemsaredischargedforWALTERsourcevalidation/routing;actualAlly10/20,CATOindependentOR1closure,THESISv1.610/30andrecipientconsumptionremainownerwork.
 
 ## WILL_NEEDS
@@ -44,7 +48,7 @@ None newlycreated. ExistingWQ458bookmarkcontinuationdecisionremainsregisteredwit
 
 **Prior October19 bounded closure:** specificPROMEeveningpacketconsumed;contributioncompleteandclosed. PROMEcombinesownerfindingsfromcommittedpacket;nativeacceptance/actualconsumptiontrackedseparately. No WALTER helper/ownerlaunch or unattendedjob. NextmarketquestionsreusefrozenOctober19cohortatownerexistingcarriers;no newtasks/monitor. Generalunresolvedduties/approvalsbelowretained.
 
-**Current execution:** October21 startup resumed by Will. SAM integration is complete; finish the partial startup and intake15remaining before saved batch12 via BATCH-PLAN.json; batches9–11 remain CLOSED. This LIGHT routing checkpoint preserves full boot/narrative debt; latest source receipt research/2026-10-20_bookmark-batches/next18/RESULT.md; generalboot limits remain batch8/BOOT-RECEIPT.md. Namedhistoryandboundedfinancialcomparisoncomplete;allhelpersclosed,nounattendedjob. Broaderrepresentativestudyunfinishedunderexistingapproval;nonewpermissionneeded. Next evidencereviewOctober20/existingownerwindows;no monitorinstalled.
+**Current execution:** Session closed at Will’s request; no unattended work. At next authorized continuation, SAM integration is complete; finish the partial startup and intake15remaining before saved batch12 via BATCH-PLAN.json; batches9–11 remain CLOSED. This LIGHT routing checkpoint preserves full boot/narrative debt; latest source receipt research/2026-10-20_bookmark-batches/next18/RESULT.md; generalboot limits remain batch8/BOOT-RECEIPT.md. Namedhistoryandboundedfinancialcomparisoncomplete;allhelpersclosed,nounattendedjob. Broaderrepresentativestudyunfinishedunderexistingapproval;nonewpermissionneeded. Next evidencereviewOctober20/existingownerwindows;no monitorinstalled.
 
 Existing approval remains Will’s “Okay approved go ahead and begin these.” Broader financing attribution is unfinished; initial owner screens and bounded evening integration are complete. Bookmark implementation history is rotated verbatim to SESSION_LOG; the binding repair is implemented; independent acceptance/code publication are complete; production source-consumption and WQ458 limits remain live above.
 
@@ -92,13 +96,13 @@ Other gaps, including HANS T12's missing feed and owner-method decisions, remain
 
 ## CLOSEOUT RECEIPT
 
-October21 startup checkpoint 2026-10-21T13:13:24Z: boot PARTIAL, inbox6/6integrated, intake7/22dispositioned, six signals/25handoffs. Fresh-origin delivery reconciliation proves 13/25 handoffs published; recipient consumption remains separate. Exact source publication states are recorded below. Foreign dirty work prevents WALTER pull/push. No recipient consumption inferred. Current owned evidence boot receipt and THRESHOLDS.md; no READS/basis hashes renewed. Older complete receipt preserved verbatim in prior-LAST_COMPLETION.md.
+Session closed 2026-10-21T15:44:27Z at Will’s request. Repair IMPLEMENTED + TESTED, independent verification pending. All five named commits are fresh-origin-proven; 25/25 October21 handoffs published, not consumed. Full procedure/research PARTIAL; no unattended work. Closeout records await PROME publication.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-21T13:18:27Z",
-  "next_review": "2026-10-21",
+  "as_of": "2026-10-21T15:44:27Z",
+  "next_review": "2026-10-22",
   "publication": [
     {
       "commit": "673931517",
@@ -106,25 +110,37 @@ October21 startup checkpoint 2026-10-21T13:13:24Z: boot PARTIAL, inbox6/6integra
     },
     {
       "commit": "5265c3219",
-      "state": "pending"
+      "state": "published"
+    },
+    {
+      "commit": "2726ed139",
+      "state": "published"
+    },
+    {
+      "commit": "60d757a12",
+      "state": "published"
+    },
+    {
+      "commit": "dbed8968c",
+      "state": "published"
     }
   ],
   "delivery": {
     "signal_date": "20261021",
     "total": 25,
-    "delivered": 13,
-    "note": "Fresh-origin reconciliation after another session published; publication does not establish consumption. WALTER did not push."
+    "delivered": 25,
+    "note": "Fresh fetch and reconciliation; published by another session, not consumption."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
     "evidence": [
       {
-        "path": "AGENTS/WALTER/research/2026-10-21_boot/INBOX.md",
-        "sha256": "9b9e94bdda243b6beede44cd9c8e2eb6405a3501a5a5ac83f09060232c4bfb48"
+        "path": "AGENTS/WALTER/research/2026-10-21_session-closeout/HANDOFF.md",
+        "sha256": "08b5fb53d39a572388a36de1c4c581fcfa84d801c47a501ce06c28ced9d69cc0"
       },
       {
-        "path": "AGENTS/WALTER/research/2026-10-21_boot/THRESHOLDS.md",
-        "sha256": "1bcbf37113df4f9228225d1aec91e139368ae399e4b12ff05a0bd96ba8876359"
+        "path": "PROME/tools/tests/ACCEPTANCE_orch_inflight_closed_rows_2026-10-21.md",
+        "sha256": "d4a5c92f13f246e662835410d6042a2db09e8aebb9708353a2dbd8953994ce96"
       },
       {
         "path": "AGENTS/WALTER/research/2026-10-21_boot/BOOT-RECEIPT.md",
@@ -136,21 +152,19 @@ October21 startup checkpoint 2026-10-21T13:13:24Z: boot PARTIAL, inbox6/6integra
     "tier": "full",
     "boot": "PARTIAL",
     "owner": "WILL",
-    "ask": "Explicit WALTER startup",
-    "closeout": "Partial startup checkpoint; source/context/attestation operations remain owed"
+    "ask": "Close out here",
+    "closeout": "Session ends; research and full procedural duties remain partial."
   },
   "manual_duties": {
-    "0": "Pull deferred: foreign dirty paths",
-    "0.5": "Doctor initial0HIGH/9MED; source collection health subsequently recovered",
-    "6c": "PARTIAL; THRESHOLDS.md source/instrument gaps",
-    "7g": "5packets integrated then filed, declaration appended; no top-level packet pending at that enumeration",
-    "7e": "7/22 dispositions,15pending; lane unmarked; late manifest declaration acknowledged",
-    "7h": "Existing94stage preserved; receipt-only inspection, no new fetch/mark",
-    "8/13": "47rows/42owner lead headers refreshed; no full context/liveness claim",
-    "9b": "Fleet visibility UNKNOWN; in-flight is not liveness; current whole reread incomplete",
-    "14": "ExistingMEMORY triggers read; no new lesson/auto-memory or removal",
-    "root.retirement": "No owned source retired during this startup; no deletion; pending-event evidence retained",
-    "16": "673931517 and5265c3219 exact-path source commits; fresh-origin states above. Another session published part/all; WALTER did not push. Foreign dirty work preserved."
+    "11": "Six signals and25handoffs from startup; no new dispatch; reconciliation proves25/25 published, consumption unknown. Intake batch remains OPEN7/22.",
+    "13": "Not refreshed during closeout; prior47rows/42headers observations dated; full refresh remains owed.",
+    "12(a,b)": "Affected repair/state lead refreshed; no new market/network census, prior dated observations retained.",
+    "12(c)": "BALANCED/scoped bank catalyst posture retained; no new evidence or claim of current catalyst clearance.",
+    "12(d,e)": "Session breadcrumb and BOTTOM LINE updated; older research/full-duty deferrals preserved.",
+    "14": "MEMORY reviewed; session pointer only; no new durable rule, promotion or auto-memory.",
+    "root.retirement": "No source or research object retired; older gaps preserved.",
+    "15": "Prior receipt preserved verbatim; new bounded acceptance and handoff reviewed; no READS/basis hash renewal.",
+    "16": "Fresh fetch proves five named source/checkpoint commits; closeout exact-path commit follows, no push per Will/PROME instruction. Foreign ledger/view preserved."
   }
 }
 END_CLOSEOUT_RECEIPT -->

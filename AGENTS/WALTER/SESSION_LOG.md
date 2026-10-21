@@ -1,3 +1,7 @@
+## 2026-10-21T15:44:27Z — session closed at Will’s request; repair complete, research PARTIAL
+
+ORCH_INFLIGHT view-only repair dbed8968c IMPLEMENTED + TESTED: 51 omissions, 32 remaining, 32,299 → 27,579 B; ledger unchanged, four required checks pass. Fresh origin proves the repair and four startup commits; 12 reconciliation flips establish25/25 today handoffs published, consumption separate. No WALTER push or new research/helper/dispatch. Full procedure attempted with existing READS/basis/source/context/registry and intake/bookmark/financing carries preserved in LAST_COMPLETION. Evidence research/2026-10-21_session-closeout/.
+
 ## 2026-10-21T13:13:24Z — explicit WALTER startup; PARTIAL
 
 Root/local instructions explicitly read; five owner packets integrated, six qualified source signals and25handoffs written. Registry47rows/42headers refreshed; dated threshold/source retrieval performed to stated partial perimeter. Inbox6/6closed; intake7/22with15pending, laneunmarked; late declaration recorded. Existing94bookmarkstage preserved. Full context/READS and official-source gaps remain; no independent fullboot or cleanmarket claim. No Will decision or helper. Publication and native/recipient consumption separate; foreign dirty work untouched. Evidence research/2026-10-21_boot; sole duties LAST_COMPLETION.md.
