@@ -338,6 +338,11 @@ def _inflight_closure_pairs(rows):
             targets = [i for n, i in eligible if n == highest]
             if len(targets) == 1:
                 i = targets[0]
+                # A non-IN-FLIGHT touch before the candidate can belong to another session.
+                if sum(1 for r in rows[:j] if r[1] == receipt[1] and r[0] == receipt[0]
+                       and event_type(r) == "TOUCH"
+                       and int(re.match(r"^\d+", r[3]).group()) == highest) > 1:
+                    continue
                 if any(r[1] == receipt[1] and event_type(r) == "TOUCH"
                        and int(re.match(r"^\d+", r[3]).group()) <= highest
                        for r in rows[i + 1:j]):
@@ -380,7 +385,7 @@ def render_view(rows, window_days=DEFAULT_WINDOW_DAYS, today=None, source=LEDGER
            "", "| " + " | ".join(VIEW_COLS) + " |", "|" + "---|" * len(VIEW_COLS)]
     for r in sorted(inflight, key=lambda r: (r[0], r[1])):
         out.append("| " + " | ".join(cell(r, COLS.index(c)) for c in VIEW_COLS) + " |")
-    out += ["", f"Omitted {len(closed)} IN-FLIGHT row(s) ({explicit} explicit resolves links · {legacy} legacy: highest lower-numbered same-desk touch, unique at that number, same date, no numbering restart); asks, time corrections and pending receipts never close work."]
+    out += ["", f"Omitted {len(closed)} IN-FLIGHT row(s) ({explicit} explicit resolves links · {legacy} legacy: highest lower-numbered same-desk IN-FLIGHT touch, unique among same-desk same-date touches at that number, no numbering restart between them); closers end in -RECEIPT or equal CLOSE; asks, time corrections and pending receipts never close work."]
     out += ["", f"## Last `drained>0` touch per desk inside the window ({len(last)} desks) — the leg-3b cadence input (a zero-drain touch never resets a desk's clock)",
             "", "| " + " | ".join(VIEW_COLS) + " |", "|" + "---|" * len(VIEW_COLS)]
     for d in sorted(last):

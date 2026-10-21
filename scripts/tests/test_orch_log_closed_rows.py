@@ -300,11 +300,41 @@ class ClosedRows(unittest.TestCase):
                 row(desk='RED', touch='2-CLOSEOUT-RECEIPT', delivered='DONE')]
         text = self.inflight(self.render(rows))
         self.assertIn('Omitted 2 IN-FLIGHT row(s) (1 explicit resolves links · 1 legacy:', text)
-        self.assertIn('unique at that number, same date, no numbering restart', text)
+        self.assertIn('unique among same-desk same-date touches at that number, no numbering restart between them', text)
+        self.assertIn('closers end in -RECEIPT or equal CLOSE', text)
         self.assertEqual(orch._inflight_closure_pairs(rows),
                          {0: ('explicit', 1), 2: ('legacy', 3)})
         zero = self.render([row()])
         self.assertIn('Omitted 0 IN-FLIGHT row(s) (0 explicit resolves links · 0 legacy:', zero)
+
+    def test_g1_pending_other_session_touch_before_live_candidate_blocks_pair(self):
+        pending = row(delivered='PENDING')
+        pending[4], pending[8] = 'spawn session B', 'session B'
+        live = row()
+        live[4], live[8] = 'spawn session A', 'session A live'
+        receipt = row(touch='2-CLOSEOUT-RECEIPT', delivered='DONE')
+        receipt[8] = 'session B closed'
+        rows = [pending, live, receipt]
+        self.assertEqual(orch._closed_inflight(rows), set())
+        self.assertIn('| 1-SPAWN |', self.inflight(self.render(rows)))
+
+    def test_g1b_delivered_other_session_touch_before_live_candidate_blocks_pair(self):
+        delivered = row(delivered='DELIVERED: memo')
+        delivered[4], delivered[8] = 'spawn session B', 'session B'
+        live = row()
+        live[4], live[8] = 'spawn session A', 'session A live'
+        receipt = row(touch='2-CLOSEOUT-RECEIPT', delivered='DONE')
+        receipt[8] = 'session B closed'
+        rows = [delivered, live, receipt]
+        self.assertEqual(orch._closed_inflight(rows), set())
+        self.assertIn('| 1-SPAWN |', self.inflight(self.render(rows)))
+
+    def test_all_state_uniqueness_is_scoped_to_exact_desk_and_date(self):
+        for earlier in (row(desk='RED', delivered='PENDING'),
+                        row(date='2026-10-20', delivered='DELIVERED: memo')):
+            with self.subTest(desk=earlier[1], date=earlier[0]):
+                rows = [earlier, row(), row(touch='2-CLOSEOUT-RECEIPT', delivered='DONE')]
+                self.assertEqual(orch._closed_inflight(rows), {1})
 
 
 if __name__ == '__main__':
