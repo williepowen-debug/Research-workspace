@@ -1,6 +1,6 @@
 # DAEDALUS STATUS
 
-**Last Updated: 2026-10-20 — Codex / OpenAI; Will-directed L628/calendar delivery, L748 timestamp repair build and L470 threshold measurement.**
+**Last Updated: 2026-10-20 — Codex / OpenAI; Will-directed organization review after L628/calendar/L748/L470 work; assessment recorded, no restructuring or grade change.**
 
 **October 8 work:** completion and remaining work summarized below; four historical rows conserved at archive block BA. Full prior October 4 state is conserved at `archive/STATUS_ARCHIVE_2026-10.md` block AZ. Sweep completions and VULCAN's refresh are recorded below; no new sweep or profile reset in this October 9 boot pass.
 
@@ -89,7 +89,7 @@ Five of the six overdue sweeps ran today: Gate-Basis, Falsification (complete wi
 
 ## BOTTOM LINE — 2026-10-20
 
-**WORK:** L628 unchanged-patch recheck complete; calendar advisory built and independently reviewed for standalone use. Result `builds/calendar_coverage_2026-10-20/RESULT.md`; scope stays partial, no PROME wiring. L530 installed per canonical DOCKET, superseding apply-ready notes above. Continuation also built/reviewed L748 (isolated patch, not installed) and measured L470 (threshold not met); `builds/l748_time_2026-10-20/RESULT.md`.
+**WORK:** Organization review `runs/2026-10-20_ORGANIZATION_REVIEW.md`: current-state contradictions, maintenance/navigation drift and targeted tooling gaps; recommendations only, actual PROME blind counterpart pending. L628 unchanged-patch recheck complete; calendar advisory built and independently reviewed for standalone use. Result `builds/calendar_coverage_2026-10-20/RESULT.md`; scope stays partial, no PROME wiring. L530 installed per canonical DOCKET, superseding apply-ready notes above. Continuation also built/reviewed L748 (isolated patch, not installed) and measured L470 (threshold not met); `builds/l748_time_2026-10-20/RESULT.md`.
 **CHECKS:** L62816/16; full suite956→972 with identical8 failures/2 errors/3 skips. Calendar24 unit+3 production cases pass; fleet rc2 (331 UNASSESSED). Closeout maintenance DUE: sweeps/profile/scorecard, ledgers, EVOLUTION rotation. No candidate-reuse clearance inferred.
 **DELIVERY:** Packet `PROME/inbox/2026-10-20_from-DAEDALUS_L628-reverified-calendar-coverage-built.md`; persistence/check receipts in build records. PROME notification and consumption unverified.
 **OPEN:** PROME applies L628 against hashes and gets CATO read; triages calendar coverage before wiring. RED census queued (10/27 only proposed). L748 owner apply pending; L470 re-date/denominator reconciliation at PROME, no October22 strict flip; older work unchanged; L736 writer role misclassified as informed by docket_owed (not repaired). Morning tool post-review changes remain unreviewed.

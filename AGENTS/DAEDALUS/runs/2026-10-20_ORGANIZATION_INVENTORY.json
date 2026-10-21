@@ -1,0 +1,83 @@
+{
+  "observed_date_ET": "2026-10-20",
+  "revision": "19163e0e7ddc45574759bbda50d5be4193847dc7",
+  "scope": "Tracked DAEDALUS files before this report; inventory not whole-content audit",
+  "files": 1124,
+  "bytes": 16391740,
+  "groups": {
+    "BLUEPRINTS": {
+      "files": 14,
+      "bytes": 272684
+    },
+    "(root)": {
+      "files": 19,
+      "bytes": 1185233
+    },
+    "archive": {
+      "files": 30,
+      "bytes": 1370922
+    },
+    "builds": {
+      "files": 91,
+      "bytes": 1327843
+    },
+    "design": {
+      "files": 52,
+      "bytes": 508128
+    },
+    "inbox": {
+      "files": 360,
+      "bytes": 1274297
+    },
+    "outbox": {
+      "files": 29,
+      "bytes": 107087
+    },
+    "profiles": {
+      "files": 63,
+      "bytes": 1473361
+    },
+    "reference": {
+      "files": 1,
+      "bytes": 13226
+    },
+    "registry": {
+      "files": 5,
+      "bytes": 23811
+    },
+    "reports": {
+      "files": 7,
+      "bytes": 47017
+    },
+    "runs": {
+      "files": 286,
+      "bytes": 5669209
+    },
+    "scorecards": {
+      "files": 9,
+      "bytes": 310144
+    },
+    "scripts": {
+      "files": 28,
+      "bytes": 447810
+    },
+    "sweeps": {
+      "files": 13,
+      "bytes": 215112
+    },
+    "tests": {
+      "files": 10,
+      "bytes": 12678
+    },
+    "upgrades": {
+      "files": 106,
+      "bytes": 2132976
+    },
+    "workbook": {
+      "files": 1,
+      "bytes": 202
+    }
+  },
+  "startup_eight_file_floor_bytes": 120599,
+  "notes": "Startup floor excludes inbox, runtime refs, memory and tool outputs; not a context-limit breach measurement."
+}
