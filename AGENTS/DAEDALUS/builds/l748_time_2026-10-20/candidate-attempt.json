@@ -1,0 +1,217 @@
+{
+  "schema": 1,
+  "purpose": "L748 isolated repair and L470 presence count; known global-context limitation remains.",
+  "candidates": [
+    {
+      "path": "AGENTS/DAEDALUS/builds/l748_time_2026-10-20/ACCEPTANCE.md",
+      "reason": "Authorized bounded repair/count evidence."
+    },
+    {
+      "path": "AGENTS/DAEDALUS/builds/l748_time_2026-10-20/RESULT.md",
+      "reason": "Authorized bounded repair/count evidence."
+    },
+    {
+      "path": "AGENTS/DAEDALUS/builds/l748_time_2026-10-20/REVIEW.md",
+      "reason": "Authorized bounded repair/count evidence."
+    },
+    {
+      "path": "AGENTS/DAEDALUS/builds/l748_time_2026-10-20/candidate-attempt.json",
+      "reason": "Authorized bounded repair/count evidence."
+    },
+    {
+      "path": "AGENTS/DAEDALUS/builds/l748_time_2026-10-20/candidate-check.txt",
+      "reason": "Authorized bounded repair/count evidence."
+    },
+    {
+      "path": "AGENTS/DAEDALUS/builds/l748_time_2026-10-20/closeout-checks.txt",
+      "reason": "Authorized bounded repair/count evidence."
+    },
+    {
+      "path": "AGENTS/DAEDALUS/builds/l748_time_2026-10-20/closeout_tests.txt",
+      "reason": "Authorized bounded repair/count evidence."
+    },
+    {
+      "path": "AGENTS/DAEDALUS/builds/l748_time_2026-10-20/count_reads.py",
+      "reason": "Authorized bounded repair/count evidence."
+    },
+    {
+      "path": "AGENTS/DAEDALUS/builds/l748_time_2026-10-20/production.txt",
+      "reason": "Authorized bounded repair/count evidence."
+    },
+    {
+      "path": "AGENTS/DAEDALUS/builds/l748_time_2026-10-20/production_check.py",
+      "reason": "Authorized bounded repair/count evidence."
+    },
+    {
+      "path": "AGENTS/DAEDALUS/builds/l748_time_2026-10-20/reads_count.json",
+      "reason": "Authorized bounded repair/count evidence."
+    },
+    {
+      "path": "AGENTS/DAEDALUS/builds/l748_time_2026-10-20/repair.patch",
+      "reason": "Authorized bounded repair/count evidence."
+    },
+    {
+      "path": "AGENTS/DAEDALUS/builds/l748_time_2026-10-20/target_hashes.json",
+      "reason": "Authorized bounded repair/count evidence."
+    },
+    {
+      "path": "AGENTS/DAEDALUS/builds/l748_time_2026-10-20/test_orch_time.py",
+      "reason": "Authorized bounded repair/count evidence."
+    },
+    {
+      "path": "AGENTS/DAEDALUS/builds/l748_time_2026-10-20/tests.txt",
+      "reason": "Authorized bounded repair/count evidence."
+    },
+    {
+      "path": "AGENTS/DAEDALUS/builds/l748_time_2026-10-20/time_audit.json",
+      "reason": "Authorized bounded repair/count evidence."
+    },
+    {
+      "path": "AGENTS/DAEDALUS/builds/l748_time_2026-10-20/writer_selftest.txt",
+      "reason": "Authorized bounded repair/count evidence."
+    },
+    {
+      "path": "AGENTS/DAEDALUS/STATUS.md",
+      "reason": "Finite completion write-back."
+    },
+    {
+      "path": "AGENTS/DAEDALUS/HANDOFF.md",
+      "reason": "Finite completion write-back."
+    },
+    {
+      "path": "PROME/inbox/2026-10-20_from-DAEDALUS_L748-time-repair-L470-count.md",
+      "reason": "Finite completion write-back."
+    }
+  ],
+  "bookkeeping": [
+    {
+      "path": "AGENTS/DAEDALUS/runs/GATE_LOG.tsv",
+      "reason": "Only the existing runner-owned append log exclusion."
+    }
+  ],
+  "separate": [],
+  "review_required": true,
+  "review_policy": "UPGRADE_PROTOCOL rules4/4a/4b: read-boundary consumers require independent remedy and final content review. Candidate acceptance cannot exist when capture refuses.",
+  "dependencies": {
+    "C0": {
+      "paths": [
+        "AGENTS/DAEDALUS/scripts/sweeps_due.py",
+        "AGENTS/DAEDALUS/scripts/profile_clock_check.py",
+        "AGENTS/DAEDALUS/sweeps/REGISTRY.tsv",
+        "AGENTS/DAEDALUS/FLEET_MAP.tsv",
+        "AGENTS/DAEDALUS/FLEET_DIRECTORY.md",
+        "PROME/ROSTER.md"
+      ],
+      "optional_paths": [],
+      "globs": [],
+      "context": [],
+      "completeness": "Provisional named inputs only; no activation completeness attested. Known unsupported global context prevents capture before checks."
+    },
+    "C1": {
+      "paths": [
+        "scripts/orphan_check.sh"
+      ],
+      "optional_paths": [],
+      "globs": [],
+      "context": [],
+      "completeness": "Provisional named inputs only; no activation completeness attested. Known unsupported global context prevents capture before checks.",
+      "limitations": [
+        "orphan_check executes unscoped global git status; existing exact-path context cannot bind all possible top-level untracked paths."
+      ]
+    },
+    "C2": {
+      "paths": [],
+      "optional_paths": [],
+      "globs": [],
+      "context": [],
+      "completeness": "Provisional named inputs only; no activation completeness attested. Known unsupported global context prevents capture before checks."
+    },
+    "C3": {
+      "paths": [
+        "scripts/ledger_staleness.py",
+        "AGENTS/DAEDALUS/workbook/LEDGER_GLOB",
+        "AGENTS/DAEDALUS/STATUS.md"
+      ],
+      "optional_paths": [],
+      "globs": [],
+      "context": [],
+      "completeness": "Provisional named inputs only; no activation completeness attested. Known unsupported global context prevents capture before checks."
+    },
+    "C4": {
+      "paths": [
+        "scripts/check_memory_length.sh"
+      ],
+      "optional_paths": [],
+      "globs": [],
+      "context": [],
+      "completeness": "Provisional named inputs only; no activation completeness attested. Known unsupported global context prevents capture before checks."
+    },
+    "C5": {
+      "paths": [
+        "scripts/claim_check.py",
+        "PROME/DOCKET.tsv",
+        "PROME/GATES.tsv",
+        "PROME/WILL_QUEUE.md",
+        "AGENTS/DAEDALUS/STATUS.md"
+      ],
+      "optional_paths": [],
+      "globs": [],
+      "context": [],
+      "completeness": "Provisional named inputs only; no activation completeness attested. Known unsupported global context prevents capture before checks."
+    },
+    "C6": {
+      "paths": [
+        "AGENTS/DAEDALUS/PATTERNS_HOT.md",
+        "AGENTS/DAEDALUS/PATTERNS.tsv"
+      ],
+      "optional_paths": [],
+      "globs": [],
+      "context": [],
+      "completeness": "Provisional named inputs only; no activation completeness attested. Known unsupported global context prevents capture before checks."
+    },
+    "C7": {
+      "paths": [
+        "scripts/read_cap_check.py",
+        "PROME/registry/READS.tsv",
+        "CLAUDE.md",
+        "AGENTS/DAEDALUS/CLAUDE.md",
+        "AGENTS/DAEDALUS/OPERATIONS.md"
+      ],
+      "optional_paths": [],
+      "globs": [],
+      "context": [],
+      "completeness": "Provisional named inputs only; no activation completeness attested. Known unsupported global context prevents capture before checks."
+    },
+    "C8": {
+      "paths": [
+        "AGENTS/DAEDALUS/scripts/complete_check.py",
+        "AGENTS/DAEDALUS/EVOLUTION.md"
+      ],
+      "optional_paths": [],
+      "globs": [],
+      "context": [],
+      "completeness": "Provisional named inputs only; no activation completeness attested. Known unsupported global context prevents capture before checks.",
+      "limitations": [
+        "complete_check selects DAEDALUS commits from unscoped global git log, including empty/outside-root commits; named-path history is not equivalent."
+      ]
+    },
+    "C9": {
+      "paths": [
+        "AGENTS/DAEDALUS/STATUS.md"
+      ],
+      "optional_paths": [],
+      "globs": [],
+      "context": [],
+      "completeness": "Provisional named inputs only; no activation completeness attested. Known unsupported global context prevents capture before checks."
+    },
+    "C10": {
+      "paths": [
+        "AGENTS/DAEDALUS/CLAUDE.md"
+      ],
+      "optional_paths": [],
+      "globs": [],
+      "context": [],
+      "completeness": "Provisional named inputs only; no activation completeness attested. Known unsupported global context prevents capture before checks."
+    }
+  }
+}

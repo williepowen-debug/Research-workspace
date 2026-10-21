@@ -1,0 +1,63 @@
+  ✓ clean v2 ledger (incl. EMPTY typed cells) ⇒ rc 0
+  ✓ 12-column row ⇒ rc 2 (never padded)
+  ✓ prose in `drained` ⇒ rc 2 (never coerced to 0)
+ORCH-LOG ✓ appended 1 row (2026-09-04 MIDAS touch 2, TOUCH) — ledger validates after the write · first use: no view existed · view regenerated → ../../tmpxc09r2ll/V.md
+  ✓ append: validated row appended, ledger still validates
+ORCH-LOG ✗ rc 2 — new row refused: L0: `drained` = 'two' is neither an integer nor EMPTY
+  ✓ append: non-integer drained REFUSED, nothing written
+ORCH-LOG ✗ rc 2 — refusing to append to a ledger that does not validate (run `check`)
+  ✓ append to a malformed ledger REFUSED
+  ✓ NEGATIVE typed count ⇒ rc 2
+  ✓ CLOSE row accepted and classified CLOSE_SUMMARY; touch row TOUCH
+  ✓ retired '1-RESULT' token ⇒ rc 2 (unknown class, never silently counted)
+  ✓ TOUCH token forms: 1 · 2b · 2-CLOSEOUT-PING all TOUCH
+  ✓ IN-FLIGHT by FORM: leading token (with/without suffix) ⇒ in flight; a prose mention mid-cell in a DELIVERED row ⇒ NOT (PROME 9/4, MIDAS 8/28)
+  ✓ view: IN-FLIGHT row listed; drained>0 row inside 30d listed as cadence row
+  ✓ view: zero-drain touch is NOT a cadence row; desk named in the no-touch line; CLOSE row never listed
+  ✓ view: drained>0 touch OLDER than the window is not a cadence row (SAM 8/23 vs 30d)
+  ✓ view: consuming the IN-FLIGHT row (cell edited) removes it at the next regeneration
+ORCH-LOG ✓ appended 1 row (2026-10-01 ZHAO touch 1, TOUCH) — ledger validates after the write · view regenerated → ../../tmpxc09r2ll/V.md
+  ✓ append regenerates the view as its last step (new IN-FLIGHT row visible without a separate `view` call)
+ORCH-LOG ✗ rc 2 — rotate REFUSED: 1 candidate row(s) still IN-FLIGHT — 2026-09-20 HOMER t1; consume them first; nothing written
+  ✓ rotate REFUSES on an IN-FLIGHT candidate: rc 2, hot byte-identical, no archive created
+ORCH-LOG ✗ rc 2 — rotate REFUSED: --through 2026-10 is not strictly before the run month 2026-10 (the container is named by the month the rotation RUNS and asserts every row predates it)
+  ✓ rotate REFUSES --through == run month (container assert): rc 2, nothing written
+ORCH-LOG ✗ rc 2 — rotate REFUSED: hot ledger does not validate (run `check`); nothing written
+  ✓ rotate REFUSES a hot ledger that fails check: rc 2, nothing written
+ORCH-LOG ✗ rc 2 — rotate REFUSED: row conservation broken (hot 6 → 1 + moved 5; archive 0 → 4); nothing written
+  ✓ rotate REFUSES on broken row conservation (test hook drops one moved row): rc 2, hot byte-identical
+ORCH-LOG ✓ rotated 5 row(s) dated <= 2026-09 → ../../tmpxc09r2ll/archive/ORCH_LOG_2026-10.tsv (crc32 2339510407); hot 6 → 1 rows; conservation 6 == 1 + 5 ✓
+ORCH-LOG ✓ view regenerated → ../../tmpxc09r2ll/V.md (1328 B, 1 table rows, window 30d)
+  ✓ rotate SUCCEEDS: 5 rows (incl. CLOSE) → archive named by RUN month, both files validate, conservation 6 == 1 + 5, rule-7 line in hot, view regenerated
+ORCH-LOG ✓ rotated 1 row(s) dated <= 2026-09 → ../../tmpxc09r2ll/archive/ORCH_LOG_2026-10.tsv (crc32 3405448709); hot 2 → 1 rows; conservation 2 == 1 + 1 ✓
+ORCH-LOG ✓ view regenerated → ../../tmpxc09r2ll/V.md (1328 B, 1 table rows, window 30d)
+  ✓ rotate into an EXISTING archive appends (header once), validates, conservation 5 → 6
+ORCH-LOG ✓ appended 1 row (2026-10-20 SAM touch 1, TOUCH) — ledger validates after the write · first use: no view existed · view regenerated → ../../tmpxc09r2ll/L733.md
+  ✓ L733 first use (no view) ⇒ rc 0, view created
+ORCH-LOG ✓ appended 1 row (2026-10-20 BOND touch 1, TOUCH) — ledger validates after the write · view regenerated → ../../tmpxc09r2ll/L733.md
+  ✓ L733 writer-only sequence ⇒ rc 0 (view count follows)
+ORCH-LOG ✗ rc 2 — append REFUSED: 4 ledger rows vs the view's 3 — 1 row(s) entered without this writer; run `check`, name them, then re-run with --acknowledge-unobserved 1; nothing written
+  ✓ L733 CE1: hand row then append ⇒ rc 2, NOTHING written
+ORCH-LOG ✗ rc 2 — append REFUSED: 4 ledger rows vs the view's 3 — 1 row(s) entered without this writer; run `check`, name them, then re-run with --acknowledge-unobserved 1 (you passed 2); nothing written
+  ✓ L733 wrong --acknowledge-unobserved K ⇒ rc 2, nothing written
+ORCH-LOG ✗ rc 2 — append REFUSED: 4 ledger rows vs the view's 3 — 1 row(s) entered without this writer; run `check`, name them, then re-run with --acknowledge-unobserved 1; nothing written
+ORCH-LOG ✓ appended 1 row (2026-10-20 ACK touch 1, TOUCH) — ledger validates after the write · view regenerated → ../../tmpxc09r2ll/L733.md
+  ✓ L733 correct --acknowledge-unobserved 1 ⇒ rc 0, notes carry ACK-UNOBSERVED 1
+ORCH-LOG ✗ rc 2 — append REFUSED: --acknowledge-unobserved 1 given but the view and ledger agree (0 unobserved); nothing written
+  ✓ L733 ack given when view and ledger agree ⇒ rc 2
+ORCH-LOG ✗ rc 2 — append REFUSED: the view counts 5 rows but the ledger holds 4 — 1 row(s) VANISHED from the ledger (append-only); nothing written
+  ✓ L733 view AHEAD of ledger (row vanished) ⇒ rc 2, nothing written
+ORCH-LOG ✓ appended 1 row (2026-10-20 Z touch 1, TOUCH) — ledger validates after the write · view regenerated → ../../tmpxc09r2ll/L733.md
+  ✓ L733 view header naming another source is NOT compared (count-only, PROME's follow-up) ⇒ rc 0 when counts agree
+ORCH-LOG ✗ rc 2 — append REFUSED: view header carries no `source … (N data rows)`; run `orch_log.py view` only after naming any unobserved rows; nothing written
+  ✓ L733 view header without a count ⇒ rc 2
+ORCH-LOG ✓ appended 1 row (2026-10-20 CR touch 1, TOUCH) — ledger validates after the write · view regenerated → ../../tmpxc09r2ll/L733.md
+  ✓ L733 CE4: \r in --notes is neutralised; ledger still validates
+  ✓ L733 CE4: validate_line rejects a cell containing \r
+ORCH-LOG ✓ appended 1 row (2026-10-20 SWAP touch 1, TOUCH) — ledger validates after the write · view regenerated → ../../tmpxc09r2ll/L733.md
+  ✓ L733 CE3: inode replaced between open and lock ⇒ writer relocks; row lands in the CURRENT file
+ORCH-LOG ✗ rc 2 — new row refused: L0: `date` = '#x' would be read as a comment/header by `check` — the row would be invisible (L733 read R5)
+  ✓ L733 R5: a `#`-leading date is refused (would be invisible to check), nothing written
+ORCH-LOG ✓ appended 1 row (2026-10-20 E touch 1, TOUCH) — ledger validates after the write · view regenerated → ../../tmpxc09r2ll/L733.md
+  ✓ L733 R8: ack with empty notes has no dangling separator
+ORCH-LOG SELFTEST ✓ 36/36

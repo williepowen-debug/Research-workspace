@@ -1,0 +1,65 @@
+ORCH-LOG ✓ appended 1 row (2026-10-20 PROME-reader (bootresult-read) touch CLOSE, CLOSE_SUMMARY) — ledger validates after the write · first use: no view existed · view regenerated → ../../../tmp/tmp0joul36_/view.md
+ORCH-LOG ✓ appended 1 row (2026-10-20 PROME-reader (wq452-plan-read) touch CLOSE, CLOSE_SUMMARY) — ledger validates after the write · view regenerated → ../../../tmp/tmp0joul36_/view.md
+ORCH-LOG ✓ appended 1 row (2026-10-20 PROME-reader (wq452-result-read) touch CLOSE, CLOSE_SUMMARY) — ledger validates after the write · view regenerated → ../../../tmp/tmp0joul36_/view.md
+ORCH-LOG ✓ appended 1 row (2026-10-20 ARGUS touch CLOSE, CLOSE_SUMMARY) — ledger validates after the write · view regenerated → ../../../tmp/tmp0joul36_/view.md
+{
+  "original_bytes_preserved": true,
+  "appended": 4,
+  "original_obligations_invalidated": [
+    {
+      "key": "5ed3b057344b3bd304ea5cb5def7870b8167868af1f0439177338b9db3e2070c",
+      "date": "2026-10-16",
+      "desk": "PROME-reader (bootresult-read)",
+      "touch": "1-SPAWN",
+      "state": "UNKNOWN",
+      "detail": "historical touch time invalidated; [('0e8d96c5c50e30a38034511580b0f2340cdaf1cd54f914dc77a377caae637a05', 'L748 explicit historical invalidation; exact event time unknown')]",
+      "session_id": "agent-tool:bootresult-read",
+      "owner": "PROME",
+      "touch_at": "2026-10-16T16:30:00+00:00",
+      "events": [],
+      "time_status": "INVALIDATED-UNKNOWN"
+    },
+    {
+      "key": "e8d70e57221fc9b28bca05ecc4b16260521a83806148cdc1152e391a09acf795",
+      "date": "2026-10-16",
+      "desk": "PROME-reader (wq452-plan-read)",
+      "touch": "1-SPAWN",
+      "state": "UNKNOWN",
+      "detail": "historical touch time invalidated; [('ac2a89c789e56317549b0509e86aae4e52b984b5f4759e0389b6d1ff87a8a474', 'L748 explicit historical invalidation; exact event time unknown')]",
+      "session_id": "agent-tool:wq452-plan-read",
+      "owner": "PROME",
+      "touch_at": "2026-10-16T16:30:00+00:00",
+      "events": [],
+      "time_status": "INVALIDATED-UNKNOWN"
+    },
+    {
+      "key": "35fefce6df499534fc792cd52110cb9676a2b38c527f88c325455317f3c3fce8",
+      "date": "2026-10-16",
+      "desk": "PROME-reader (wq452-result-read)",
+      "touch": "1-SPAWN",
+      "state": "UNKNOWN",
+      "detail": "historical touch time invalidated; [('a8c43bb6d91527bfc3163173f6a9b52f1e28e08edf7079ef837c711602e4368d', 'L748 explicit historical invalidation; exact event time unknown')]",
+      "session_id": "agent-tool:wq452-result-read",
+      "owner": "PROME",
+      "touch_at": "2026-10-16T16:30:00+00:00",
+      "events": [],
+      "time_status": "INVALIDATED-UNKNOWN"
+    },
+    {
+      "key": "62cd8214d7f3235cc3ac9fe97cadc0df3394d60a4b1d707d156c5a5f15f76a99",
+      "date": "2026-10-19",
+      "desk": "ARGUS",
+      "touch": "1-DELIVERY-B-RESULT",
+      "state": "UNKNOWN",
+      "detail": "historical touch time invalidated; [('ac6099685c0a19a23804ed36b8091a1a6f589974a669620ce21938392d55903d', 'L748 explicit historical invalidation; exact event time unknown')]",
+      "session_id": "/root/delivery_b_result",
+      "owner": "PROME",
+      "touch_at": "2026-10-19T15:35:00-04:00",
+      "events": [],
+      "time_status": "INVALIDATED-UNKNOWN"
+    }
+  ],
+  "before_count": 686,
+  "after_count": 686,
+  "live_ledger_unchanged": true
+}

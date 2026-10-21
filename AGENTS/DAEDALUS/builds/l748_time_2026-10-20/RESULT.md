@@ -1,0 +1,28 @@
+# L748 repair built; L470 threshold not met — October20 Codex
+
+L748 is **apply-ready, not installed**. Source pin b18a5ad49cbe719b4bcf011f78734be6c753bb2a; isolated clone used throughout. `repair.patch` changes scripts/orch_log.py, adds scripts/orch_time.py and changes PROME/tools/orch_closeout.py. Before/after SHA256 and patch hash: `target_hashes.json`. No live code or ledger changed. Apply all three together at PROME's owner-controlled slot after checking hashes; DAEDALUS authorizes the root-script portion of this bounded patch. No bulk repair or fabricated historical timestamps.
+
+The writer appends a CLOSE-summary invalidation keyed to one original touch, through the normal locked append and view path. Correction identity is validated under the lock. The consumer retains the original obligation as UNKNOWN after all lifecycle resolutions, never treats invalidation as a spawn or receipt, and exposes malformed correction events. Rotation refuses removing either linked record; malformed correction evidence also refuses rotation. The new standalone `orch_time.py audit` compares timestamps only to attributed line-changing commit metadata at a pinned, byte-identical revision; shallow/boundary/uncommitted provenance is UNKNOWN. It is not a new automatic boot gate.
+
+Validation: 13 unit tests, 36 writer selftests, 27 existing closeout tests pass; four actual historical rows (1140/1141/1142/1200 at pin) invalidated in a temporary full ledger copy, original bytes preserved, exactly four append-only summaries, no added spawn. `production_check.py` is reproducible author-side evidence; reviewer did not run those four cases. Existing writer ResourceWarnings preserved; no new test failures. The live schema check passes 1,226 rows.
+
+The audit sees535 structured timestamps:506 UPPER-BOUND-CONSISTENT,29 UNKNOWN, rc2. All four known bad timestamps satisfy the upper bound. Therefore an upper-bound pass cannot authenticate a historical event: the L748 evidence must explicitly invalidate these four. Their exact original times remain UNKNOWN. The target keys are in `production.txt` and `time_audit.json`; line numbers are descriptive only.
+
+Owner application:
+1. Verify all before hashes; stop and rebase/re-review if any differs. Apply `git apply --check` then the exact patch in an owner-safe window; run the three test sets and temporary-copy production check.
+2. For each of the four exact keys, owner invokes `python3 scripts/orch_time.py invalidate --target KEY --reason 'L748: named source/clock evidence; original event time UNKNOWN'`. This writes a live row and is PROME's act, not performed here. If view drift causes refusal, inspect/name the delta before an exact `--acknowledge-unobserved K`; never bypass the writer or guess a time.
+3. Run `python3 scripts/orch_log.py check`, the closeout consumer and standalone audit. Expected historical UNKNOWN is debt, not a claim of successful lifecycle closure. File application/consumption receipt at L748. The Git upper-bound audit is a separate command; no automatic gating clearance is implied.
+
+REVIEW: required — evidence interpretation, record classification and rotation boundary; scope acceptance, entire new module, writer append/rotate and closeout read/reconcile diffs plus downstream scorecards/spawn-slate/boot consumers; reader `/root/time_review`; proposal four findings adopted, code APPLIED3 / RESIDUE0. Record `REVIEW.md`. Final runtime-code hashes match the reviewed hashes. POST-REVIEW test-only strengthening: empty-population test now commits all three fixtures before audit (no runtime change); separately delta-reviewed and rerun by the same reader, caveat resolved. No grade/sweep/profile clocks advanced.
+
+## L470 — October22 strict flip must not fire
+
+`count_reads.py` and `reads_count.json` preserve reproducible, pinned presence extraction. October15 end-of-day cutoff was selected by Git `rev-list --before=2026-10-16T00:00:00-04:00`, yielding6e037d45b5c6e5727643a8f5693d69983f47d866. This is a historical commit-metadata approximation, not proof PR#8 occurred. At that revision10 desks have self-signed manifest-complete rows: BOND, BROCK, CREED, DAEDALUS, HANS, NEXUS, PROME, RED, WALTER, YURI. Nine are Active/Tier-2; DAEDALUS is SPECIAL. Current pinned b18a5ad adds REGINALD:11 total,10 eligible.
+
+Both roster snapshots list34 ACTIVE +5 TIER-2 =39, while L470/ruling text says37 and its original five-desks count includes SPECIAL DAEDALUS. Preserve the ratified ≥30 threshold/37 denominator as written and route the population discrepancy; do not silently redefine it. Even the most generous presence upper bound (10 at cutoff,11 now) is below30. Freshness/BASIS/completeness/byte-budget checks cannot increase that upper bound and are NOT certified by this count. No need to chase desks or turn stale declarations into clean attestations to establish non-fulfilment.
+
+PROME owns re-dating/carrier registration with this count and clarifying the population basis. No strict flip implemented, no new deadline invented, no claim that PR#8 has been completed. Count extraction is a register read, not a new fleet checker or a policy change; it was not in the independent code review scope.
+
+Other work remains open: RED census, PR#8/staleness, scorecard, profile whole-refresh debt and prior review/maintenance residue. This bounded package closes the timestamp build and threshold measurement, not those obligations.
+
+Closeout: ordinary gate rc0, five CLEAN and four DUE (maintenance retained). Candidate capture is not a clearance; refusal evidence in candidate-check.txt. Original startup dependencies available; live fleet/PROME transport remains unavailable. Final inbox check: same four top-level packets, no new arrivals.
