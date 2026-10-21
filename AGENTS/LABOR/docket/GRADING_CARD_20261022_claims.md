@@ -132,6 +132,18 @@ Current **1,710,000** [w/e Oct 3]; `1,750,000 − 1,710,000 = 40,000` inside.
 
 ---
 
+## §8a — 📎 AMENDMENT 2026-10-21 09:04 ET (before the print; STATUS pickup 2 decided; nothing above is edited)
+
+Basis: `domain/sources/2026-10-21_C2_BASE_RATES_PREREG.md` (definitions committed `f95654e55` before computing; results + script in the same file set).
+
+| Axis | Rule (a FORMULA, L-27 — the level is an illustration) | Assignment |
+|---|---|---|
+| **§5d v13 return (R13-c)** | `rel = MA_published(w/e Oct 17) / min(published 4-week MA over the 52 weeks before w/e Oct 17)` — recompute the minimum on the vintage at grade time (FRED IC4WSA, or the DOL table where FRED lags). Illustration: min 198,250 (w/e Oct 3) ⇒ bar `1.15 × 198,250 = 227,988` ⇒ needs `X ≥ 315,952` this week (inside band E) | **rel ≥ 1.15 ⇒ v13 1 → 2.** If §2 bands C/D/E also fire, the HIGHER v13 assignment governs; R13-c never lowers a score. rel < 1.15 ⇒ no action |
+| **§5c v7 return** | — | **DECIDED: NO RETURN LETTER** (every candidate failed the calm-regime test, fires 21–25% of weeks since 2022). CC-2 stays record-only, as a decision now rather than a gap |
+
+Routing: R13-c alone ⇒ STATUS score + NEXUS brief, no packet (a watch-level move).
+🧾 Checker after the amendment (`card_partition_check.py`, 2026-10-21 09:04 ET): 7 band tables — 1 verified, 6 unverified, **0 defects** (BD-31 one-declaration limit). Hand proof for §5d: `rel ≥ 1.15` / `rel < 1.15` is a true complement at any precision.
+
 ## §9 — GRADE (write 2026-10-22 off this frozen card — never re-read a band)
 
 *Blank until print. Order: ① regenerate the three §4 quantities on the as-published vintage · ② grade §2 · §5a · §5b · §5c separately · ③ write into `STATUS.md` (KEY THRESHOLDS, matrix v13 if band C+, score, calendar) · ④ `git mv` to `docket/graded/` and build the 10/29 card the same session.*
