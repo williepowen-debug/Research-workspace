@@ -68,6 +68,7 @@
 
 | ID | Prediction | Conf | Due | Status |
 |---|---|---|---|---|
+| LAB-08 | BLS benchmark revision >500K downward | **4%** *(scores as-made 65%)* | Q1 2027 | Preliminary benchmark (8/28) −79,000 [BLS USDL-26-1425] ⇒ band E ⇒ 15% → 4%, mechanical; **resolves on the FINAL benchmark with the Jan-2027 jobs report (Feb 2027)**. Row added 2026-10-21 to match `PREDICTIONS.tsv` |
 | LAB-11 | AI narrative shield breaks | **50%** | Q3–Q4 | Its "AI = #1 Challenger reason" persistence evidence lapsed Aug (#4, 6.5%) **and Sep (#5, 9.15%)**; confidence NOT re-marked — re-assess at a self-directed C2 |
 | LAB-12 | U-3 ≥5.0% Q3–Q4 | **8%** *(scores as-made 60%)* | Q3–Q4 | Needs 0.9pp in ~4 prints; base `11/302 = 3.64%` |
 | LAB-18 | T-03 fires on ≥1 print Sep–Nov | **10%** *(scores as-made 15%)* | Sep–Nov | Draw 1 (Sep 59.2) NO-FIRE ⇒ card §3f value 10%. Left: Oct ≤58.6 · Nov ≤58.8. Defeat: EPOP ≥58.9 through Nov |
