@@ -1,6 +1,6 @@
 # RULED — root Output Canon: write normal spaced words
 
-**Status:** PROPOSAL, approved in principle by Will 2026-10-20 22:41 ET (verbatim *"okay go ahead"*, answering PROME's question whether to add a normal-spacing rule to the root Output Canon). This is a root `CLAUDE.md` canon amendment, so it follows `PROME/CLAUDE.md` § "Canon drafts live in the ruling record":
+**Status:** RULED and INSERTED (2026-10-21); approved by Will 2026-10-20 22:41 ET (verbatim *"okay go ahead"*, answering PROME's question whether to add a normal-spacing rule to the root Output Canon). This is a root `CLAUDE.md` canon amendment, so it follows `PROME/CLAUDE.md` § "Canon drafts live in the ruling record":
 1. Plan read (cold, on this record)
 2. ONE edit to root CLAUDE.md
 3. Result read
@@ -31,7 +31,7 @@ Insert after it:
 - One sentence. It does not restate the dense-surface clause.
 
 ## Reads
-- **Plan read — DONE 2026-10-21 ~08:18 ET** (coldreader, Sonnet, blind; ledger was in session scratchpad, findings recorded here): **0 ❌ · 4 ⚠️ · insertion point ✅** — verdict "insert as written".
+- **Plan read — DONE 2026-10-21 ~08:19–08:20 ET** (corrected after ARGUS: an earlier '~08:18' was written from narrative) (coldreader, Sonnet, blind; ledger was in session scratchpad, findings recorded here): **0 ❌ · 4 ⚠️ · insertion point ✅** — verdict "insert as written".
 - **Result read — DONE 2026-10-21 08:20 ET** (coldreader, Sonnet, blind): **0 ❌ · 3 ⚠️** — inserted bytes `cmp`-identical to the proposed text (227 B, both `$` figures present); one hunk, no CR bytes; no other rule changed meaning. Episode closed at two reads; no further edit.
 
 ## Declared residue (WQ-178 — ⚠️ not fixed; dated 2026-10-21)
