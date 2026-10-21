@@ -1,6 +1,6 @@
 # DAEDALUS STATUS
 
-**Last Updated: 2026-10-20 — Will-approved owed-work maintenance follow-through; Codex/OpenAI.**
+**Last Updated: 2026-10-20 — Will-approved session closed at Will’s request; Codex/OpenAI.**
 
 **Current judgment:** the architecture is coherent; current-state reconciliation and maintenance have lagged new builds. Preserve evidence and rules, reduce recovery ambiguity, and repair specific tooling gaps. Assessment: `runs/2026-10-20_ORGANIZATION_REVIEW.md`. **Recorded grade L4/M unchanged**, last assessed PR#7 October1; this cleanup is not a regrade, full profile refresh or whole sweep. Authority remains own directory/root scripts; other desks require express scope and idle target.
 
@@ -60,4 +60,4 @@ October20 follow-through: scorecard/MARCO check complete; L736 writer repair rev
 
 ## BOTTOM LINE — 2026-10-20
 
-**WORK:** scorecard, MARCO check, L736 writer repair and EVOLUTION rotation completed; maintenance detection partial. **CHECKS:**27 scorecard+43 writer tests pass; independent writer read accepted; sweeps remain DUE. **DELIVERY:** maintenance report and PROME packet; publication recorded separately, consumption unverified. **OPEN:** PR8/full Staleness/registry and tool backlog; YUR-F01 interpretation pending, gradeOctober24; no whole-sweep clock or grade advanced.
+**WORK:** session closed; scorecard, MARCO check, L736 writer repair and EVOLUTION rotation completed; maintenance detection partial. **CHECKS:**27 scorecard+43 writer tests pass; independent writer read accepted; sweeps remain DUE. **DELIVERY:** maintenance report and PROME packet; publication recorded separately, consumption unverified. **OPEN:** PR8/full Staleness/registry and tool backlog; YUR-F01 interpretation pending, gradeOctober24; no whole-sweep clock or grade advanced.
