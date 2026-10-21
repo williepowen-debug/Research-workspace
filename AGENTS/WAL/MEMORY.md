@@ -1,4 +1,15 @@
-## Session Notes — current handoff, October19 2026 after close
+## Session Notes — current handoff, October21 2026 (Stage-2 call grade, PROME L170 spawn)
+
+**⚠️ Open question:** the $99M life-science appraisal — the call (10/20) never mentioned it, so it is PENDING-10-Q; the 10-Q (not filed as of 10/21 13:15 ET EDGAR; statutory 11/9) is now the only scheduled carrier.
+
+**LAST SESSION (10/21, Claude Opus, PROME Tier-1 spawn on DOCKET L170):** Quartr needed re-auth (blocked); call read in two third-party transcripts (Motley Fool + AlphaStreet, hashes in `sources/2026-10-20_Q3_call/README.md`, B2). Graded in `research/2026-10-21_Q3_STAGE2_CALL_GRADE.md`: $99M PENDING-10-Q · migration DISCONFIRM DP2 of 3 FINAL (RETIRE broadening counter 2 of 3) · six credits: 4 sold outside bank, no seller financing; 5/6 open at 9/30 (one ~done, one early Dec) · mgmt $567M-basis NPL NOT-PRINTED ⇒ PENDING-10-Q · coverage 118% MET · non-credit falsifier NOT TRIGGERED (10/20 WAL +2.27%, KRE +1.96%). KB248–251. Inbox drained (CRUISE, HENRY, REGINALD, WALTER SIG-W-20261019-021 → processed). No thesis/score/weight/PREDICTIONS change; no trade.
+
+**NEXT SESSION:**
+1. **Q3 10-Q (L171)** — run `Q3_10Q_GRADING_FRAME_2026-09-24.md` verbatim: subsequent events first; $99M (§4, incl. B′ᵤ/B′₀ split); WAL-01 cross-check; WAL-02 confirm; full NPL; NDFI 25.9% test; OREO roll-forward/valuation on the 7 Q2 additions (WQ-313 ④); Cantor tie-out.
+2. If Quartr is re-authenticated, optionally confirm the two B2 transcripts against Quartr/issuer audio — no grade depends on wording beyond what both transcripts agree on.
+3. `derived_drift_check` reports a passed history-review date (pre-existing, not addressed this session).
+
+## Prior session notes — October19 2026 after close
 
 **Open question:** what happened to the $99M life-science credit, and do the revised guide and actual recurring earnings show a gap beyond known risks? Stage1 credit weakens the bear; appraisal and guide-basis/recurring-earnings assumptions remain unresolved; bounded accounting bridge is now saved. **No demonstrated expectations gap** and no weight/EV/PT/score/trade change.
 
