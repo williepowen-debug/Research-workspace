@@ -88,3 +88,9 @@ Mail is integrated in the records before filing. Exact inbox moves follow this a
 ### Persistence and mail filing
 
 Analytical state/source commit: **8b480bbb9**. Nine inbox files filed with git mv only after their KB/board dispositions were committed in that version. No inbox item left unassessed from the enumerated nine. A later arrival is a new delivery, not evidence of prior consumption. NEXUS will pin STATUS at8b480bbb9. Publication pending fresh safe-push receipt; native notification and consumer reads remain unverified.
+
+### Publication receipt — final
+
+Published analytical commit8b480bbb9, inbox-filing commitf8d951271 and final brief/delivery commit4d539fa3d. Actual safe-push receipt: `Pushed. CONFIRMED: HEAD 4d539fa3d is on origin/master (fresh fetch).` Six self-authored packets persisted (PROME, VULCAN, HENRY, AEOLUS, NEXUS, WALTER). Brief pin8b480bbb9 equals final STATUS path history; no substantive source edits followed the fold. Final read-cap, weekday, whitespace and correction checks passed within recorded scopes; final orphan advisory showed foreign work only. WATT owned tree was clean before this receipt append. All nine enumerated items filed after disposition commit; future arrivals are not implicitly consumed.
+
+Native cross-fleet notification/complete discovery remain unavailable; owner presence UNKNOWN and recipient consumption unverified. No dark-owner branch, replacement launch or claimed acknowledgment. Future October22grade/source gaps remain as stated. No Will decision required. This append records persistence only and does not freshen market observations.
