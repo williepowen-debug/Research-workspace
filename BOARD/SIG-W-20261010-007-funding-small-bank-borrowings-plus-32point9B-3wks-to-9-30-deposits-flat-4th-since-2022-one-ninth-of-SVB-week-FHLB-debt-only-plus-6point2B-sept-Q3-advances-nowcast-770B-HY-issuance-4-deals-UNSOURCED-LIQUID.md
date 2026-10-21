@@ -21,6 +21,9 @@ word_count: 797
 dispatch_note: "FUNDING_LIQUIDITY -> LIQUID action. REGINALD sent it as info; whether it enters LIQUID's structural read is a decision assigned to LIQUID, so it sits on action: (BOARD_CONSUMPTION_SPEC 3.5.4). HENRY backup/info; BROCK info (refinancing access). REGINALD originated (own report; no handoff). PROME and RED via BOARD ID-diff (exempt). Will's X bookmark FOLDed here (same lane, same day). No convergence (0 FHLB/H.8 signals 10/5-10/9). LIQUID is dark (last touch 10/9 PM; not in ListAgents; not IN-FLIGHT); no doorbell: weekly series, no dated referent (next H.8 10/16; WQ-414 is Will's, due 10/24)."
 ---
 
+> PARTIALLY CORRECTED — SIG-W-20261021-001: September30 figures revised and following-week borrowing partly reversed; precautionary cash-buffer inference WEAKENS. Historical source vintage and FHLB distinction survive.
+
+
 # Small banks borrowed +$32.9B (+11.7%) in the three weeks to 9/30 with deposits flat. That is the 4th-largest 3-week rise since 2022, behind only the three SVB weeks, and about one-ninth of SVB's first week. FHLB debt rose only +$6.2B in September, against +$54.5B in banks' H.8 borrowings. Q3 FHLB advances nowcast ~$770B, down ~5%. Plus: an X account says junk-bond issuance slowed to 4 deals this week (UNSOURCED); its "+309bp" is the 10/7 FRED print, not the latest
 
 **$0 · no registered threshold fired.** Origin: REGINALD's 10/10 signal packet plus its same-day AMENDMENT, routed together at REGINALD's request (both read whole; the amendment qualifies the original, so the two travel as one card). REGINALD moved nothing.

@@ -1,0 +1,12 @@
+# Boot inbox integration — October21,2026
+
+All five top-level Markdown packets read whole with complete controlling SAM/REGINALD/WATT reports. Six content units, manifest BM-20261021-01 (initial five-packet count corrected to six before item dispositions; REGINALD packet has two distinct routable findings).
+
+1. PROME read-cap notice: accepted and carried in LAST_COMPLETION. Historical BOARD0619-008 is39,509B, with0627-033/0628-001 in rotation tier. No claim of repaired size. Existing signal-read companion/archival remedy must preserve original record; no cap or attestation changed. This notice is integrated as an owed repair, not repair completion.
+2. REGINALD funding revision/reversal: BOARD20261021-001; backward additive banner on1010-007, index regenerated, R1 row written. Historical record preserved; precautionary cash inference weakens, no named funding attribution.
+3. REGINALD Boston: BOARD20261021-003, CREED case024 INFO. OZK already has a direct owner packet; archival/case-feed route is not a claim of new owner consumption. No loss/provision double count.
+4. SAM: BOARD20261021-002 plus R1 row. Ongoing Fukoku30Y inference withdrawn, January history intact; no40Y/Asahi inference; sector foreign-debt selling not UST/forced/named buyer proof; Bessent correction preserved.
+5. WATT outward sweep: FOLD to this record. Complete source reports read.4,016.9MW cancelled/delayed is forecast-growth subset, not42%of all load.190MW is includedin690MW;890MW new versus2,700MW existing; no current delivery. December2026auction month supersedes mid2027; exactdayunknown. WATT has already sent direct packets toPROME/VULCAN/HENRY/CARL/NEXUS. No duplicate new WALTER assignment or score. Underlyingprivate project/PPA data uninspected.
+6. WATT historical corrections: FOLD. September17EEA2/historicalC1MET, not current emergency; rawprice replay unavailable. Cycle1generation168.6GW is not currenttotalactivequeue or demandcancellation. Backupunused statement coversOctober13–14/toPJMpublicationOctober15, not later. All six originalWALTERIDs were dispositioned in WATT's owner report; source version8b480bbb9. No inference every laterWALTERitem was integrated.
+
+WALTER read both WATT reports and source metadata; original orders/contract data not independently re-audited here. Owner judgment remains owner judgment. Publication, native notification and recipients' actual integration are separate. No new operator decision.

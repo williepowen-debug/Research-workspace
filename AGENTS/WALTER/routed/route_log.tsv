@@ -1568,3 +1568,6 @@ Date	Signal_ID	Origin	Summary	Precedence	To	Info	Confidence
 2026-10-20T20:26:26Z	SIG-W-20261020-032	x-bookmark next18	Konarak claim is contested; destroyer-attack and retaliation chain remain unverified	PRIORITY	FALCON	HAWK,BRENT,SAM,RED,PROME	0.85
 2026-10-20T20:26:26Z	SIG-W-20261020-033	x-bookmark next18	Wilson reportedly favors adding risk after reconciliation; timing remains conditional	PRIORITY	HENRY	LIQUID,RED,PROME	0.8
 2026-10-20T20:26:26Z	SIG-W-20261020-034	x-bookmark next18	Defensive-plus-energy basket outperformed growth; historical rarity remains source-defined	PRIORITY	HENRY	LIQUID,VULCAN,RED,PROME	0.85
+2026-10-21T12:56:27Z	SIG-W-20261021-001	Owner boot packet	Small-bank borrowing partly reverses; revised cash figures weaken the buffer-build interpretation	PRIORITY	LIQUID	HENRY,BROCK,REGINALD,RED,PROME	0.85
+2026-10-21T12:56:27Z	SIG-W-20261021-002	Owner boot packet	Fukoku plans 30-year purchases; firm auction coexists with life-insurer foreign-bond selling	PRIORITY	LIQUID,HENRY,BOND	SAM,RED,PROME	0.85
+2026-10-21T12:56:27Z	SIG-W-20261021-003	Owner boot packet	OZK Boston sale failed: $37.3 million charge-off and $132 million retained property	PRIORITY	OZK	REGINALD,CREED,BROCK,LIQUID,RED,PROME	0.85
