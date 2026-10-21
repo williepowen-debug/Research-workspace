@@ -1,0 +1,13 @@
+{
+  "encoded_at": "2026-10-21T11:38:38-04:00",
+  "authority": "PROME/WILL_QUEUE.md row454; committed artifact verified",
+  "first_draft": "2026-10-16",
+  "registered": "2026-10-21",
+  "confidence": "15%",
+  "old_rows_preserved": 20,
+  "new_total": 21,
+  "frozen_sha256": {
+    "REG-01": "e82fca6ad5cb3c60184b9bf91ed4968144816593b5738d4a07fd4a684c87ea0d",
+    "REG-06": "fc3f65a1b0a0cdc7b6db513960dd867b44445ce954049e1a22810a1e872f8dc3"
+  }
+}

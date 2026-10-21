@@ -1,10 +1,12 @@
 # REGINALD STATUS
 
-**Last Updated:** 2026-10-21T09:14:56-04:00; startup checks→`reports/2026-10-21_boot/RECEIPT.md`. Prior2026-10-20T22:47:15-04:00; authorized backlog follow-through. Sources/limits→`reports/2026-10-20_backlog-followthrough.md`. Cleanup acceptance remains closed; pre-research operating files preserved verbatim in `archive/2026-10-20_before-backlog-followthrough/`.
+**Last Updated:** 2026-10-21T11:41:45-04:00; inbox/main-file audit and WQ-454.REG27 encode→`reports/2026-10-21_owed-items/REPORT.md`. Economic observations retain their own dates; prior research→`reports/2026-10-20_backlog-followthrough.md`.
 
 **Current judgment:** severity remains concentrated, not tier-wide. Latest H.8 small-bank borrowing spike partly reverses with deposits up on both bases; no demonstrated flight. OZK Boston sale failed:37.3M charge-off then132M retained property. WAL call adds management-reported external sales without seller financing (SECONDARY transcript; unnamed loans). Both WQ-318 grades INCONCLUSIVE; no score/threshold/probability change.
 
-**Evidence limits:** Eagle four cash outcomes UNKNOWN; release10/21 after close, call10/22 10ET. WAL F3/exact NDFI filing inputs pending; primary call audio not listened. OZK N met on named Fund+Lender Finance alternative; exact regulatory NDFI/borrowing type and future call remain pending. Reported provisions/earnings do not prove complete economic loss or collectibility; current valuation edge unproved. Prior M&T/EGBN investigations retain their dates.
+**Evidence limits:** Eagle four cash outcomes UNKNOWN; release10/21 after close, call10/22 10ET. WAL F3/exact NDFI filing inputs pending; primary call audio not listened. OZK N met on named Fund+Lender Finance alternative; exact regulatory NDFI/borrowing type and Stage2 call read remain pending. Reported provisions/earnings do not prove complete economic loss or collectibility; current valuation edge unproved. Prior M&T/EGBN investigations retain their dates.
+
+**Audit10/21:** `reports/2026-10-21_owed-items/REPORT.md`; REG-27 approval encoded, coupon correction applied; remaining work and stale carriers explicitly distinguished.
 
 **Next existing work:** Eagle named-loan outcomes, OZK call/filing and WAL filing-only questions. Weekly funding comparison and eligible WAL log catch-up completed here; detailed dated comparisons/remaining inputs→`reports/2026-10-20_backlog-followthrough.md`. Other existing Nano/FFIEC/RED/CARL obligations stay on their carriers; no expanded task universe.
 
@@ -85,7 +87,7 @@
 
 ## PREDICTIONS
 
-**Canonical state: `workbook/PREDICTIONS.tsv`.** REG-07 is VOID under WQ-412 (10/16 ledger refresh); no successor is registered by this cleanup. REG-01/REG-06 remain byte-frozen; original remaining predictions, ownership and outcome rules stay in the ledger. Prior prose (including the superseded REG-07 re-mark instruction) → `archive/2026-10-20_organisation-cleanup_STATUS.md` §B10; exact map → cleanup RECEIPT. REG-03's existing re-spec remains carried, not resolved here.
+**Canonical state: `workbook/PREDICTIONS.tsv`.** REG-07 is VOID under WQ-412 (10/16 ledger refresh); successor REG-27 is OPEN at15%, encoded10/21 under WQ-454.REG27 A (SSB NPL ratio≥0.70%,Q3-2026 throughQ2-2027); original20 rows preserved. REG-01/REG-06 remain byte-frozen; original remaining predictions, ownership and outcome rules stay in the ledger. Prior prose (including the superseded REG-07 re-mark instruction) → `archive/2026-10-20_organisation-cleanup_STATUS.md` §B10; exact map → cleanup RECEIPT. REG-03's existing re-spec remains carried, not resolved here.
 
 ---
 

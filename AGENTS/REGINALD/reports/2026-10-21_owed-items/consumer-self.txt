@@ -1,0 +1,53 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  SELF mode: 479 files under AGENTS/REGINALD/ (processed/ + archive/ still excluded — historical by design). Nothing outside your own dir is scanned.
+
+  ── value · superseded ≈6.19% → current 6.14%
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (20)
+        AGENTS/REGINALD/reports/2026-10-21_owed-items/REPORT.md:10  [≈6.19%]
+           | OZK inbox correction | MC printed p35, FDIC12022/1, independently checked in existing saved primary text lines3646–3659: issuer Q4 yield *
+        AGENTS/REGINALD/reports/2026-10-21_owed-items/consumer-peers.txt:9  [≈6.19%]
+           AGENTS/OZK/TODO.md:21  [≈6.19%]
+        AGENTS/REGINALD/reports/2026-10-21_owed-items/consumer-peers.txt:11  [≈6.19%]
+           AGENTS/OZK/SCENARIOS.md:73  [≈6.19%]
+        AGENTS/REGINALD/reports/2026-10-21_owed-items/consumer-peers.txt:13  [≈6.19%]
+           AGENTS/OZK/CHANGELOG.md:19  [≈6.19%]
+        AGENTS/REGINALD/reports/2026-10-21_owed-items/consumer-peers.txt:15  [≈6.19%]
+           AGENTS/OZK/CALENDAR.md:27  [≈6.19%]
+        AGENTS/REGINALD/reports/2026-10-21_owed-items/consumer-peers.txt:16  [≈6.19%]
+           | **~early Nov** | Q3'26 10-Q (FDIC-filed) | p.37 debt-on-debt balance · **the sub notes' floating rate** (VERIFIES the ≈6.19% reset — OZK i
+        AGENTS/REGINALD/reports/2026-10-21_owed-items/consumer-peers.txt:17  [≈6.19%]
+           AGENTS/OZK/CALENDAR.md:56  [≈6.19%]
+        AGENTS/REGINALD/reports/2026-10-21_owed-items/consumer-peers.txt:19  [≈6.19%]
+           AGENTS/OZK/WEAKNESSES.md:75  [≈6.19%]
+        AGENTS/REGINALD/reports/2026-10-21_owed-items/consumer-peers.txt:21  [≈6.19%]
+           AGENTS/WALTER/research/2026-10-12_resume-2057/headers-4.md:65  [≈6.19%]
+        AGENTS/REGINALD/reports/2026-10-21_owed-items/consumer-peers.txt:23  [≈6.19%]
+           AGENTS/WALTER/research/2026-10-19_resume/status-context-9.txt:32  [≈6.19%]
+        AGENTS/REGINALD/reports/2026-10-21_owed-items/consumer-peers.txt:25  [≈6.19%]
+           AGENTS/WALTER/research/2026-10-21_boot/owner-heads-3.txt:95  [≈6.19%]
+        AGENTS/REGINALD/reports/2026-10-21_owed-items/consumer-peers.txt:27  [≈6.19%]
+           AGENTS/OZK/workbook/Q3_2026_SCORING_CARD.md:73  [≈6.19%]
+        AGENTS/REGINALD/reports/2026-10-21_owed-items/consumer-peers.txt:28  [≈6.19%]
+           | Notes reset and Q3 buyback | 10-Q notes coupon (verification of ≈6.19%), capital ratios; repurchase table/MC | Already-scheduled rate drag
+        AGENTS/REGINALD/reports/2026-10-21_owed-items/consumer-peers.txt:29  [≈6.19%]
+           AGENTS/OZK/workbook/KB.tsv:248  [≈6.19%]
+        AGENTS/REGINALD/reports/2026-10-21_owed-items/consumer-peers.txt:31  [≈6.19%]
+           AGENTS/OZK/workbook/KB_INDEX.md:78  [≈6.19%]
+        AGENTS/REGINALD/reports/2026-10-21_owed-items/consumer-peers.txt:33  [≈6.19%]
+           AGENTS/OZK/research/threads/2026-10-01_SUBNOTES_RESET.md:65  [≈6.19%]
+        AGENTS/REGINALD/reports/2026-10-21_owed-items/consumer-peers.txt:35  [≈6.19%]
+           PROME/HEARTBEAT_COLD.md:860  [≈6.19%]
+        AGENTS/REGINALD/reports/2026-10-21_owed-items/consumer-peers.txt:36  [≈6.19%]
+           - **Consumer / banks / shadow:** CARL DR-3 scored, kill NOT fired; PS-0005 not invalidated. OZK: sub-notes reset 10/1, coupon ≈6.19% (3M Ter
+        AGENTS/REGINALD/reports/2026-10-21_owed-items/consumer-peers.txt:38  [≈6.19%]
+           PROME/DOCKET.tsv:126  [≈6.19%]  (dated TSV row (2026-10-01) — HISTORY-ROW candidate: a time-series capture holds the value AS OF its date; a
+        AGENTS/REGINALD/reports/2026-10-21_owed-items/consumer-peers.txt:40  [≈6.19%]
+           PROME/DOCKET.tsv:463  [≈6.19%]  (dated TSV row (2026-10-02) — HISTORY-ROW candidate: a time-series capture holds the value AS OF its date; a
+     🟢 cleared: marker-adjacent / next to new value / frozen file (2)  [--show-handled to audit]
+
+  🔴 20 stale reference(s) on YOUR OWN surfaces. You are the owner: fix them in place this session — no packet, nobody else to tell. Fix by PATTERN, not by the line list above (a line-targeted sweep left a hit on the highest-blast-radius surface three times in one night).
+==================================================================
+

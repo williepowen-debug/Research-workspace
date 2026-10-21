@@ -1,5 +1,7 @@
 # REGINALD — TRADE SURFACE
 
+> **RECONCILIATION REQUIRED — October21 audit:** lower holdings, marks and trigger cells retain old vintages. Current triggers→STATUS; broker truth→Will/FORGE and dated POSITIONS override. Do not cite this surface as current card evidence until reconciled. Open defects→`reports/2026-10-21_owed-items/REPORT.md`. No fill/disposition or card change inferred.
+
 > **LIVE — rebuilt 2026-09-29 ~19:3x ET (stamp corrected at closeout against `date`; first written as ~20:1x from narrative) on Will's word (*"Do it now"*), replacing the March-2026 document (FROZEN 7/09; archived verbatim → `archive/TRADE_frozen_2026-03-07_archived_2026-09-29.md`, crc32 `ab819e73`).** This file carries the trade THESIS, the triggers by name, the refuters and the anti-trades. It carries **no marks and restates no strike it does not own**: position truth is off-repo (Will/broker); the structured mirror is `FORGE/STATUS.md` (PROME/ANVIL, last reconcile **2026-10-07 intraday Fidelity capture**; Robinhood last 9/29); this desk's structural ledger is `POSITIONS.md`. **Trade construction = TERRY; approval = Will (root rule #5).** Re-check size at any append (READ_CAP budget 32,550 B).
 
 ## 1. What this desk's trades are a bet on (state 2026-09-29; §2–§3 refreshed 2026-10-07; §1 credit-bet line + §3 trigger states refreshed 2026-10-10 from STATUS, 10/8–10/9 settled)

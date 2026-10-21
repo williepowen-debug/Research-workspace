@@ -1,0 +1,675 @@
+[
+  {
+    "path": "AGENTS/REGINALD/BANK_EXPOSURE_MATRIX.md",
+    "terms": [
+      "no successor"
+    ],
+    "classification": "current or conditional reference inspected"
+  },
+  {
+    "path": "AGENTS/REGINALD/NEXUS_BRIEF.md",
+    "terms": [
+      "REG27",
+      "no successor"
+    ],
+    "classification": "current or conditional reference inspected"
+  },
+  {
+    "path": "AGENTS/REGINALD/MEMORY.md",
+    "terms": [
+      "REG-27",
+      "REG27"
+    ],
+    "classification": "current or conditional reference inspected"
+  },
+  {
+    "path": "AGENTS/REGINALD/CALENDAR.md",
+    "terms": [
+      "REG-27",
+      "REG27",
+      "6.19",
+      "6.14"
+    ],
+    "classification": "current or conditional reference inspected"
+  },
+  {
+    "path": "AGENTS/REGINALD/STATUS.md",
+    "terms": [
+      "REG-27",
+      "REG27"
+    ],
+    "classification": "current or conditional reference inspected"
+  },
+  {
+    "path": "AGENTS/REGINALD/STATUS_MATRIX.md",
+    "terms": [
+      "no successor"
+    ],
+    "classification": "current or conditional reference inspected"
+  },
+  {
+    "path": "AGENTS/REGINALD/archive/MEMORY_rotation_2026-10-09.md",
+    "terms": [
+      "12.3M"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/archive/STATUS_pre_prune_2026-02-27.md",
+    "terms": [
+      "6.14"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/archive/WQ414_operating_snapshot_2026-10-11.md",
+    "terms": [
+      "no successor",
+      "6.19",
+      "12.3M"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/archive/2026-10-20_organisation-cleanup_NEXUS_BRIEF.md",
+    "terms": [
+      "REG27"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/archive/ROADMAP_rotation_2026-09-02.md",
+    "terms": [
+      "no successor"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/archive/CALENDAR_rotation_2026-09-24.md",
+    "terms": [
+      "no successor"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/archive/CALENDAR_rotation_2026-10-10.md",
+    "terms": [
+      "12.3M"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/workbook/KB.tsv",
+    "terms": [
+      "6.19"
+    ],
+    "classification": "current or conditional reference inspected"
+  },
+  {
+    "path": "AGENTS/REGINALD/workbook/PREDICTIONS.tsv",
+    "terms": [
+      "REG-27",
+      "REG27",
+      "no successor"
+    ],
+    "classification": "current or conditional reference inspected"
+  },
+  {
+    "path": "AGENTS/REGINALD/workbook/WORKOUT_OUTCOME_BRIDGE.tsv",
+    "terms": [
+      "6.19"
+    ],
+    "classification": "current or conditional reference inspected"
+  },
+  {
+    "path": "AGENTS/REGINALD/outbox/2026-08-13_to-PROME_mi3-screen-hardened-delta-memo.md",
+    "terms": [
+      "no successor"
+    ],
+    "classification": "current or conditional reference inspected"
+  },
+  {
+    "path": "AGENTS/REGINALD/registry/NOTES.md",
+    "terms": [
+      "no successor"
+    ],
+    "classification": "current or conditional reference inspected"
+  },
+  {
+    "path": "AGENTS/REGINALD/registry/REG_T02_EXIT_LOG.tsv",
+    "terms": [
+      "6.14"
+    ],
+    "classification": "current or conditional reference inspected"
+  },
+  {
+    "path": "AGENTS/REGINALD/reports/2026-10-20_Will-directed-Codex-startup.md",
+    "terms": [
+      "REG27",
+      "no successor"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/reports/2026-10-07_WQ318_funding-vs-nonbank-baseline.md",
+    "terms": [
+      "6.19",
+      "12.3M",
+      "6.14"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/reports/2026-08-13_MI3_cohort_rerun.md",
+    "terms": [
+      "no successor"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/reports/2026-10-13_Q3_cash-loss-valuation_next-evidence.md",
+    "terms": [
+      "6.19"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/reports/2026-07-18_EGBN_Q2_grading_frame.md",
+    "terms": [
+      "12.3M"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/reports/2026-10-12_workout-outcome-bridge.md",
+    "terms": [
+      "6.19"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/reports/2026-10-20_EGBN_cash-recovery_investigation.md",
+    "terms": [
+      "6.19"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/reports/2026-10-20_backlog-followthrough.md",
+    "terms": [
+      "6.19"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/inbox/processed/.consumed.tsv",
+    "terms": [
+      "6.19",
+      "12.3M",
+      "6.14"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/inbox/processed/2026-10-21_from-OZK_subnotes-yield-6.14.md",
+    "terms": [
+      "6.19",
+      "12.3M",
+      "6.14"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/inbox/processed/2026-10-01_from-OZK_subnotes-reset-coupon-6.19pct-drag-12.3M.md",
+    "terms": [
+      "6.19",
+      "12.3M"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/archive/2026-10-20_before-backlog-followthrough/NEXUS_BRIEF.md",
+    "terms": [
+      "REG27",
+      "no successor"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/archive/2026-10-20_before-backlog-followthrough/CALENDAR.md",
+    "terms": [
+      "6.19",
+      "12.3M"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/archive/2026-10-20_before-backlog-followthrough/STATUS.md",
+    "terms": [
+      "no successor"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/archive/per-bank/EGBN/workbook/KB.tsv",
+    "terms": [
+      "12.3M"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/archive/research/outputs/RP-REG-3.4/Texas_Border_Municipal_Analysis.md",
+    "terms": [
+      "6.14"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/domain/sources/2026-10-13_bounded-securities-screen/screen.tsv",
+    "terms": [
+      "6.14"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/domain/sources/2026-10-20_EGBN_cash-outcome/calculations.json",
+    "terms": [
+      "6.19"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/domain/sources/2026-10-20_EGBN_cash-outcome/Q2-10Q-tables.json",
+    "terms": [
+      "6.14"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/domain/sources/2026-10-20_EGBN_cash-outcome/Q2-10Q.txt",
+    "terms": [
+      "6.14"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/domain/sources/2026-10-20_EGBN_cash-outcome/Q2-deck.txt",
+    "terms": [
+      "6.19",
+      "6.14"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/domain/sources/2026-10-20_EGBN_cash-outcome/Official-Q2-release.txt",
+    "terms": [
+      "6.14"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/domain/sources/2026-10-20_EGBN_cash-outcome/Q1-deck.txt",
+    "terms": [
+      "6.19"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/domain/sources/2026-10-14_bank-ETF-tape/1255-regional-finance-response.json",
+    "terms": [
+      "6.14"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/domain/sources/2026-10-20_earnings-catchup/KEY-release.txt",
+    "terms": [
+      "6.19"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/domain/sources/2026-10-20_earnings-catchup/WAL-release-tables.json",
+    "terms": [
+      "6.14"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/domain/sources/2026-10-20_earnings-catchup/ZION-release-tables.json",
+    "terms": [
+      "6.14"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/domain/sources/2026-10-20_earnings-catchup/ZION-release.txt",
+    "terms": [
+      "6.14"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/domain/sources/2026-10-20_earnings-catchup/WAL-release.txt",
+    "terms": [
+      "6.14"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/domain/sources/2026-10-20_earnings-catchup/KEY-release-tables.json",
+    "terms": [
+      "6.19"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/domain/sources/2026-10-14_WAL_11EPS_test/Q2_10Q-tables.json",
+    "terms": [
+      "6.19"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/domain/sources/2026-10-14_WAL_11EPS_test/Q2_release-text.txt",
+    "terms": [
+      "6.19"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/domain/sources/2026-10-14_WAL_11EPS_test/Q2_10Q-text.txt",
+    "terms": [
+      "6.19",
+      "6.14"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/domain/sources/2026-10-14_WAL_11EPS_test/Q1_10Q-text.txt",
+    "terms": [
+      "6.14"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/domain/sources/2026-10-20_backlog-followthrough/ozk_fdic_Q3_bundle.txt",
+    "terms": [
+      "6.14"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/domain/sources/2026-10-20_MTB_earnings-capacity/Q2-10Q-tables.json",
+    "terms": [
+      "6.19"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/domain/sources/2026-10-20_MTB_earnings-capacity/slide-retrieval.json",
+    "terms": [
+      "6.19"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/domain/sources/2026-10-20_MTB_earnings-capacity/Q2-10Q.txt",
+    "terms": [
+      "6.19"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/domain/sources/2026-10-12_KRE_basket_study/fetch-receipt.json",
+    "terms": [
+      "6.14"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/domain/sources/2026-10-12_KRE_top10_performance/settled-history.json",
+    "terms": [
+      "6.19"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/domain/sources/2026-10-12_EGBN_cleanup_verification/raw/Q2_2026_10Q.txt",
+    "terms": [
+      "6.14"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/domain/sources/2026-10-12_EGBN_cleanup_verification/raw/FY2025_10K.txt",
+    "terms": [
+      "6.14"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/domain/sources/2026-10-12_EGBN_cleanup_verification/raw/Q2_2026_deck.txt",
+    "terms": [
+      "6.19",
+      "6.14"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/domain/sources/2026-10-12_EGBN_cleanup_verification/raw/Q2_2026_release.txt",
+    "terms": [
+      "6.14"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/domain/sources/2026-10-13_bounded-securities-screen/raw/ZION_Q2.txt",
+    "terms": [
+      "6.14"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/domain/sources/2026-10-13_bounded-securities-screen/raw/WAL_Q2.txt",
+    "terms": [
+      "6.19",
+      "6.14"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/domain/sources/2026-10-13_bounded-securities-screen/raw/MTB_Q2.txt",
+    "terms": [
+      "6.19"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/domain/sources/2026-10-13_bounded-securities-screen/raw/EGBN_Q2.txt",
+    "terms": [
+      "6.14"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/research/EGBN/INVENTORY.json",
+    "terms": [
+      "6.14"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/research/FHLB/copies/REGINALD/2026-10-07_WQ318_funding-vs-nonbank-baseline.md",
+    "terms": [
+      "6.19",
+      "12.3M",
+      "6.14"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/research/EGBN/context/2026-10-13_Q3_cash-loss-valuation_next-evidence.md",
+    "terms": [
+      "6.19"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/research/EGBN/context/2026-10-12_workout-outcome-bridge.md",
+    "terms": [
+      "6.19"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/research/EGBN/reports/2026-07-18_EGBN_Q2_grading_frame.md",
+    "terms": [
+      "12.3M"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/research/EGBN/reports/2026-10-20_EGBN_cash-recovery_investigation.md",
+    "terms": [
+      "6.19"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/research/EGBN/sources/2026-10-20_EGBN_cash-outcome/calculations.json",
+    "terms": [
+      "6.19"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/research/EGBN/sources/2026-10-20_EGBN_cash-outcome/Q2-10Q-tables.json",
+    "terms": [
+      "6.14"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/research/EGBN/sources/2026-10-20_EGBN_cash-outcome/Q2-10Q.txt",
+    "terms": [
+      "6.14"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/research/EGBN/sources/2026-10-20_EGBN_cash-outcome/Q2-deck.txt",
+    "terms": [
+      "6.19",
+      "6.14"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/research/EGBN/sources/2026-10-20_EGBN_cash-outcome/Official-Q2-release.txt",
+    "terms": [
+      "6.14"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/research/EGBN/sources/2026-10-20_EGBN_cash-outcome/Q1-deck.txt",
+    "terms": [
+      "6.19"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/research/EGBN/sources/2026-10-12_EGBN_cleanup_verification/raw/Q2_2026_10Q.txt",
+    "terms": [
+      "6.14"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/research/EGBN/sources/2026-10-12_EGBN_cleanup_verification/raw/FY2025_10K.txt",
+    "terms": [
+      "6.14"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/research/EGBN/sources/2026-10-12_EGBN_cleanup_verification/raw/Q2_2026_deck.txt",
+    "terms": [
+      "6.19",
+      "6.14"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/research/EGBN/sources/2026-10-12_EGBN_cleanup_verification/raw/Q2_2026_release.txt",
+    "terms": [
+      "6.14"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/research/EGBN/historical/per-bank/workbook/KB.tsv",
+    "terms": [
+      "12.3M"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/research/EGBN/data/workbook/KB.tsv",
+    "terms": [
+      "6.19"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/research/EGBN/data/workbook/PREDICTIONS.tsv",
+    "terms": [
+      "no successor"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/research/EGBN/data/workbook/WORKOUT_OUTCOME_BRIDGE.tsv",
+    "terms": [
+      "6.19"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/research/market-technicals/snapshots/2026-10-14/1255-bank-comparison.json",
+    "terms": [
+      "6.14"
+    ],
+    "classification": "current or conditional reference inspected"
+  },
+  {
+    "path": "AGENTS/REGINALD/reports/2026-10-20_key-file-sweep/REPORT.md",
+    "terms": [
+      "REG27"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/reports/2026-10-20_key-file-sweep/boot.txt",
+    "terms": [
+      "6.19"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/reports/2026-10-20_organisation-cleanup/RECEIPT.md",
+    "terms": [
+      "no successor"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  },
+  {
+    "path": "AGENTS/REGINALD/reports/2026-10-20_organisation-cleanup/NEXUS_BRIEF.review-ready.md",
+    "terms": [
+      "REG27",
+      "no successor"
+    ],
+    "classification": "dated evidence/snapshot or prior ruling preserved"
+  }
+]

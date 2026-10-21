@@ -1,0 +1,46 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/REGINALD/   (processed/ + archive/ excluded everywhere — historical by design)
+
+  ── value · superseded ≈6.19% → current 6.14%
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (14)
+        AGENTS/OZK/TODO.md:21  [≈6.19%]
+           | D1 | ✅ **DONE 10/2 08:31 ET** — reset HAPPENED, uncontradicted (FLNG rc0 182 + press empty; thread §5, KB-242) · ~~Sub-notes 10/1 read~~ (
+        AGENTS/OZK/SCENARIOS.md:73  [≈6.19%]
+           6. $350M sub notes reprice Oct 1 2026 as guided; ~$12.3M/yr headwind absorbed *(re-based 2026-10-01 at the actual benchmark, CME 3M Term SOF
+        AGENTS/OZK/CHANGELOG.md:19  [≈6.19%]
+           | **Invalidation §4(a) — retain + reset** | ≈+$11.2M/yr at "SOFR 3.87%" (overnight SOFR as proxy; 30/360 arithmetic); "indenture SOFR conven
+        AGENTS/OZK/CALENDAR.md:27  [≈6.19%]
+           | **~early Nov** | Q3'26 10-Q (FDIC-filed) | p.37 debt-on-debt balance · **the sub notes' floating rate** (VERIFIES the ≈6.19% reset — OZK i
+        AGENTS/OZK/CALENDAR.md:56  [≈6.19%]
+           | **Oct 1 ✅** | $350M sub-notes reset to CME 3M Term SOFR + 209bp, Act/360 (DOCKET L126 RESOLVED 10/1; 10/2 read L463: uncontradicted, not f
+        AGENTS/OZK/WEAKNESSES.md:75  [≈6.19%]
+           > - **Pre-provision revenue (PPNR) $1,082.6M trailing 4Q.** It is falling: Q3-25 $290.6M → Q2-26 $259.4M (−10.7%). Q2 run-rate ≈$1,037M/yr, 
+        AGENTS/WALTER/research/2026-10-12_resume-2057/headers-4.md:65  [≈6.19%]
+           | **10/1** | **Sub-notes reset** — FLNG rc 0 (182, none after 11981, 12:14 ET) ⇒ SCHEDULED-UNCONTRADICTED; indenture read at FDIC FLNG 5869 
+        AGENTS/WALTER/research/2026-10-19_resume/status-context-9.txt:32  [≈6.19%]
+           | **10/1** | **Sub-notes reset** — FLNG rc 0 (182, none after 11981, 12:14 ET) ⇒ SCHEDULED-UNCONTRADICTED; indenture read at FDIC FLNG 5869 
+        AGENTS/WALTER/research/2026-10-21_boot/owner-heads-3.txt:95  [≈6.19%]
+           | **10/1** | **Sub-notes reset** — FLNG rc 0 (182, none after 11981, 12:14 ET) ⇒ SCHEDULED-UNCONTRADICTED; indenture read at FDIC FLNG 5869 
+        AGENTS/OZK/workbook/Q3_2026_SCORING_CARD.md:73  [≈6.19%]
+           | Notes reset and Q3 buyback | 10-Q notes coupon (verification of ≈6.19%), capital ratios; repurchase table/MC | Already-scheduled rate drag
+        AGENTS/OZK/workbook/KB.tsv:248  [≈6.19%]
+           KB-OZK-242	2026-10-02	SUB_NOTES	SubNotes_Reset_Happened_Uncontradicted_FLNG_Omits_PRs	10/2 post-event read (DOCKET L463): FDIC FLNG cert 110
+        AGENTS/OZK/workbook/KB_INDEX.md:78  [≈6.19%]
+           | **SUB_NOTES** | 213, 241–242 | 3 | CALENDAR.md (Oct 1) | $350M 2.75% notes → SOFR+209 on 10/1/26; **Tier-2 → $280M (−20%) confirmed exactl
+        AGENTS/OZK/research/threads/2026-10-01_SUBNOTES_RESET.md:65  [≈6.19%]
+           **Record: the reset HAPPENED — contractual and uncontradicted, not filing-confirmed.** The notes float from 10/1 unless called; a 10/1 call 
+        PROME/HEARTBEAT_COLD.md:860  [≈6.19%]
+           - **Consumer / banks / shadow:** CARL DR-3 scored, kill NOT fired; PS-0005 not invalidated. OZK: sub-notes reset 10/1, coupon ≈6.19% (3M Ter
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (2)
+        PROME/DOCKET.tsv:126  [≈6.19%]  (dated TSV row (2026-10-01) — HISTORY-ROW candidate: a time-series capture holds the value AS OF its date; a refresh would corrupt the series)
+           2026-10-01	OZK $350M sub-notes reprice (2.75% → SOFR+209)	OZK/REGINALD	RESOLVED 2026-10-01 (OZK f48e8062e, owner read on the reprice day: re
+        PROME/DOCKET.tsv:463  [≈6.19%]  (dated TSV row (2026-10-02) — HISTORY-ROW candidate: a time-series capture holds the value AS OF its date; a refresh would corrupt the series)
+           2026-10-02	L126 10/2 READ — OZK $350M sub-notes reprice (2.75% → SOFR+209, effective 10/1) POST-EVENT FILINGS CHECK: run `python3 AGENTS/OZK
+     🟢 cleared: marker-adjacent / next to new value / frozen file (8)  [--show-handled to audit]
+
+  🔴 14 stale consumer reference(s). Send each owner a packet with the refreshed value — do NOT edit their files.
+==================================================================
+
