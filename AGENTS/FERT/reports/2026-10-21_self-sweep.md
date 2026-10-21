@@ -1,6 +1,6 @@
 # FERT self-sweep — 2026-10-21 (REPORT-ONLY; nothing fixed)
 
-**Requested by:** Will 09:16 ET via PROME (session `af287aee`). **Swept:** 2026-10-21 09:17–09:25 ET, everything under `AGENTS/FERT/`. **Instruments run:** `boot.py` (all quiet, 0 triggers due, 0 predictions due) · `scripts/read_cap_check.py --agent FERT` (rc 0) · `scripts/ledger_staleness.py FERT` (+ `--trade`) · `scripts/corrections_boot_check.py FERT` (rc 0) · `scripts/claim_check.py --check weekday` (clean, 3 files) · `PROME/tools/inbox_census.py FERT` · awk schema/Stale_By scans of KB/TRIGGERS/PREDICTIONS · a backtick-path resolver over CLAUDE/STATUS/EXIT_PROTOCOL/INSTRUMENT_GAPS/GATE_GRADES/PROTOCOL/TRADE · DOCKET/GATES/WILL_QUEUE grep for FERT rows.
+**Requested by:** Will 09:16 ET via PROME (session `af287aee`). **Swept:** 2026-10-21 09:17–09:19 ET, everything under `AGENTS/FERT/`. **Instruments run:** `boot.py` (all quiet, 0 triggers due, 0 predictions due) · `scripts/read_cap_check.py --agent FERT` (rc 0) · `scripts/ledger_staleness.py FERT` (+ `--trade`) · `scripts/corrections_boot_check.py FERT` (rc 0) · `scripts/claim_check.py --check weekday` (clean, 3 files) · `PROME/tools/inbox_census.py FERT` · awk schema/Stale_By scans of KB/TRIGGERS/PREDICTIONS · a backtick-path resolver over CLAUDE/STATUS/EXIT_PROTOCOL/INSTRUMENT_GAPS/GATE_GRADES/PROTOCOL/TRADE · DOCKET/GATES/WILL_QUEUE grep for FERT rows.
 
 Severity: 🔴 position- or gate-facing · 🟠 decision-facing · 🟡 hygiene. Confidence: **VERIFIED** = checked at the artifact this sweep · **INFERRED** = supported, not established.
 
