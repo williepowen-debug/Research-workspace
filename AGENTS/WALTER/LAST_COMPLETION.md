@@ -97,11 +97,15 @@ October21 startup checkpoint 2026-10-21T13:13:24Z: boot PARTIAL, inbox6/6integra
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-21T13:13:24Z",
+  "as_of": "2026-10-21T13:17:53Z",
   "next_review": "2026-10-21",
   "publication": [
     {
       "commit": "673931517",
+      "state": "published"
+    },
+    {
+      "commit": "5265c3219",
       "state": "pending"
     }
   ],
@@ -146,7 +150,7 @@ October21 startup checkpoint 2026-10-21T13:13:24Z: boot PARTIAL, inbox6/6integra
     "9b": "Fleet visibility UNKNOWN; in-flight is not liveness; current whole reread incomplete",
     "14": "ExistingMEMORY triggers read; no new lesson/auto-memory or removal",
     "root.retirement": "No owned source retired during this startup; no deletion; pending-event evidence retained",
-    "16": "Exact-path local persistence; foreign dirty paths untouched; no WALTER push"
+    "16": "Source/inbox673931517 and intake/continuity5265c3219 committed exactly; no push; foreign dirty work preserved. Final receipt-only commit separate."
   }
 }
 END_CLOSEOUT_RECEIPT -->

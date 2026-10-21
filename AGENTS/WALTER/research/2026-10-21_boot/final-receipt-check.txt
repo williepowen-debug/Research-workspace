@@ -1,7 +1,6 @@
 {
   "status": "REVIEW",
   "findings": [
-    "673931517: claimed pending, origin proves published",
     "SIG-W-20261021-001/LIQUID: ledger/origin disagree; reconcile or investigate",
     "SIG-W-20261021-001/HENRY: ledger/origin disagree; reconcile or investigate",
     "SIG-W-20261021-001/BROCK: ledger/origin disagree; reconcile or investigate",
@@ -17,7 +16,7 @@
     "SIG-W-20261021-003/LIQUID: ledger/origin disagree; reconcile or investigate",
     "delivery receipt mismatch: actual 13/25"
   ],
-  "as_of": "2026-10-21T13:13:24Z",
+  "as_of": "2026-10-21T13:17:53Z",
   "origin_ref": "3b35c8889937748f99365876d43d90ec88dc7a3c",
   "delivery_scope": "20261021",
   "delivered": 13,
