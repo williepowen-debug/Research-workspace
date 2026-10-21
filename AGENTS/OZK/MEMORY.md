@@ -59,24 +59,19 @@
 
 **Latest machine-switch instruction:** PROME handles final shared safe-push. Ready owned work/authored packets checkpointed; exact commits and two WALTER-authored untracked inbox files → `outbox/2026-10-12_to-PROME_machine-switch-checkpoint.md`. No own push/repeated approval request, peer staging/pull/stash, new pass or window termination. Earlier wrap-up is research/continuity completion; this Will-owned window remains retained under the latest instruction.
 
-⚠️ **Open question:** what bank cash, attributable losses and retained financing will the existing Q3 disclosures establish, and how large is the earnings/capital burden? RaDD execution is complete; its accounting attribution remains unknown.
+⚠️ **Open question:** where did the −$313M of special mention go (upgrade, payoff or migration), and does the call or 10-Q give a RaDD reserve figure or bound that lets OZK-09 resolve?
 
 **CHANGES SINCE:**
 
-### LAST SESSION (2026-10-12 — OZK/Codex, GPT-6 exposed; Will-directed wrap-up)
-- Explicit root/desk boot instructions loaded. **L635 complete/PROME-consumed ba61b01e1:** WQ395 encoded83aad459e before actual extension evidencecf75f1df8/delivery3b91e4487. Thesisv1.6 materially disconfirms imminent RaDD maturity failure; original priors/weights/recognition guard retained.
-- **L690 complete/PROME-consumed1b2a62dc2:** bounded review, existing Q3 card and Horton search961218af6/523fbab35. Current Horton occupancy unresolved. No compelling specific near-term large-loss catalyst established; sponsor support/cures/earnings are contrary evidence.
-- First ordered three-gap pass **ccfa8fff5 /70881aad2:** workout progress, IQHQ marks/funding, Aimco/NEA checks. Later approved funding-durability/Boston/recovery work **26ff20a0e /5c41bce79**, three reports and frozen14-row baseline. **All current-evidence passes complete; actual Q3 outcomes PENDING.** Main reports `research/threads/2026-10-12_THREE_GAP_DELIVERY.md` and `2026-10-12_DURABILITY_DELIVERY.md`.
-- **Will's wrap-up governs:** before earnings reopen only for a specific new source capable of changing assessment. Existing card leads Boston → RaDD accounting/funding → cash recoveries/retained exposure → bank earnings/reserve/capital effect. Explicit contrary evidence, period/credit attribution and UNKNOWN outcomes. No replacement framework or broad retries.
-- **PROME receipt verified** at exact committed246a84f11: full latest packet/report consumed, not an independent audit of linked sources. REGINALD saved state already incorporates RaDD thesis change; TERRY STATUS still has old bridge timing. Existing owner coordination packets ask integration, WALTER retains substantive routing. Queue acceptance and actual owner consumption recorded separately in `outbox/2026-10-12_to-PROME_wrap-up-and-Q3-handoff.md`; no owner launch.
-- Final boot15:11 ET live$45.42/+2.27%, above45, no new band fire; FDIC12019 already L635. T1 still hides WALTER lane: awareness only, no general drain. COR-20261012-23 read/NO-OP receipted since own NEA state already corrected; originalCOR-20261012-10 receipt retained. KB259/37 mirrors synchronized. No broker update, model/numeric grade or trade; THESIS/CHANGELOG/PREDICTIONS/POSITIONS unchanged at wrap-up.
-- Scoped commits only. Other owners' in-flight edits/signals untouched; no pull/rebase/stash. Closeout publication/transport receipt recorded in the dated wrap-up handoff before final report. Earlier no-closeout checkpoints are historical; Will's latest wrap-up now authorizes desk closeout, not closure of future duties.
+### LAST SESSION (2026-10-21 — OZK/Claude Code, Opus 5.5; PROME Tier-1 WQ-184 wake, D:L520)
+- Q3 bundle FDIC FLNG 12022 saved `raw/Q3_2026_8K_bundle.pdf` (sha256 81ba170d…). **Stage-1 graded** against the pre-print card and the 9/27 thread's "next observations": RaDD report-back = against-stress branch; Boston = toward-stress branch ($37.3M c/o, title, OREO $132.0M); OREO sales = "no OREO sale priced in Q3"; SM = mixed; kill-§2 not fired (Q3 0.53%, Q2 0.69%). OZK-09 OPEN/STUCK. → `research/threads/2026-10-21_Q3_PRINT_STAGE1_GRADE.md`; card RESULTS appended.
+- Conviction token stamped Q2-vintage/not re-graded (RED S54 ask); no prediction, weight, threshold or THESIS change. Sub-notes 6.14% (issuer) supersedes ≈6.19%.
+- Inbox drained: 6 peer packets + 9 WALTER signals → processed, board_log rows. Quartr MCP needed re-auth (unavailable); session dropped once at 09:00 ET and resumed.
 
 ### NEXT SESSION — existing obligations
-1. **Original10/14 Horton disposition:** bounded search already complete, current occupancy UNRESOLVED. Record that result, use named dated owner/tenant/city evidence only; no indefinite retries. `research/threads/2026-10-12_HORTON_BOUNDED_CHECK.md`.
-2. **L520 October20 AMC/October21 08:30 ET:** run existing `workbook/Q3_2026_SCORING_CARD.md`, lead priority above, explain earnings/loss capacity and evidence weakening the thesis. Frozen baseline is comparison only. Check-byOctober31; credit-specific gaps stay unknown; no absence-based grade before full release/call reads.
-3. **Early-November:** 10-Q/Call Report LOG-ONLY, post-print insider pull; **FFIEC JWT renewal by November5 is Will's existing action**. November2–December22 sub-note notice window unchanged. Preserve Q4 prediction windows.
-4. **Consumer receipts:** check existing REGINALD/TERRY/WALTER integration artifacts/queue receipts before resending. Follow WALTER's routing lane; no duplicate launch. PROME report is packet consumption, not every source independently re-audited.
-5. Remaining queue → TODO: county/FSX/trustee/budget/rent gaps, deferred reserve rebuild/general subdomain refresh, methodology rulingsP-OZK1/4/5, toolingT1 and archive/delivery maintenance. New investigation requires named new source under Will's wrap-up direction. P-OZK6 done; Boston recorded mortgage already read.
+1. **L520 Stage-2 by Sat 10/31:** read the 10/21 call transcript — SM credit flow, RaDD reserve/readvance/rating words, Boston OREO plan, Sullivan; append to the Q3 card. Then re-grade the conviction token (with THESIS/CHANGELOG if it moves).
+2. **Early-November:** Q3 10-Q (RaDD reserve leg, nonaccrual/collateral-dependent tables, OREO roll-forward, debt-on-debt balance) and Call Report LOG-ONLY (`RIAD5409`, `RIAD5415`); **FFIEC JWT renewal by Nov 5 is Will's action**.
+3. OZK-02 property-type share input not collected at Stage-1 — collect from the 10-Q/MC tables.
+4. Remaining queue → TODO (county/FSX/trustee gaps, P-OZK-1/4/5, tooling T1).
 
 ⛔ D1/OZK-salvage remains RULED-CLOSED. TERRY builds any existing authorized card; Will owns orders. Prediction OPEN is not holding/rolling advice.

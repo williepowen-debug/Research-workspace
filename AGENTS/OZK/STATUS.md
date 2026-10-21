@@ -1,16 +1,16 @@
 # OZK — Dashboard
 
-**Updated:** 2026-10-12 — Will-directed wrap-up → `outbox/2026-10-12_to-PROME_wrap-up-and-Q3-handoff.md`. Current research complete through available evidence; Q3 outcomes PENDING. L635/L690 completed.
-**Price:** **$45.42** [live intraday 2026-10-12 15:11 ET, FORGE fetch.py/yfinance; unfinished session, not a close] · <$45 previously FIRED 10/6, above band now · <$40 **$5.42 / 11.9% below** this quote | **TBV:** $48.41 [Q2'26] | **P/TBV:** ~0.94×
-**Thesis:** RESERVOIR **v1.6** — RaDD maturity-failure catalyst materially disconfirmed by executed multi-year extension/new capital; other RESG and debt-on-debt evidence still tested at Q3. **Conviction:** prior Q2 🔴🔴 HIGH, not re-graded today; bounded L690 review completed: no specific near-term large-loss catalyst established. **OZK-09 OPEN** (45% scoring prior; recognition measurement STUCK); A30/B45/C8/D17 and ~$129M EL are **pre-outcome model records on $555M**, not refreshed forecasts | **KB:** 259 rows / 37 groups
+**Updated:** 2026-10-21 — **Q3 print Stage-1 GRADED** (D:L520; FDIC FLNG 12022) → `research/threads/2026-10-21_Q3_PRINT_STAGE1_GRADE.md`; call Stage-2 PENDING (no transcript at 09:01 ET). Inbox drained (15). Prior: 2026-10-12 wrap-up.
+**Price:** **$46.16** [10/20 close, set before the 4:05 p.m. ET release; fetch.py 2026-10-21 09:01 ET pre-open — no post-print trade observed] · <$45 previously FIRED 10/6, above band now · <$40 **$6.16 / 13.3% below** | **TBV:** $47.50 [Q3'26] | **P/TBV:** ~0.97×
+**Thesis:** RESERVOIR **v1.6** — RaDD maturity-failure catalyst materially disconfirmed by executed multi-year extension/new capital; other RESG and debt-on-debt evidence still tested at Q3. **Conviction:** 🔴🔴 HIGH **[Q2 vintage — NOT re-graded; RaDD catalyst removed 10/9; Q3 Stage-1 evidence net CONTRARY — do not read as current]** (RED S54 ask 10/15; re-grade owed after the Stage-2 call read); bounded L690 review completed: no specific near-term large-loss catalyst established. **OZK-09 OPEN** (45% scoring prior; recognition measurement STUCK); A30/B45/C8/D17 and ~$129M EL are **pre-outcome model records on $555M**, not refreshed forecasts | **KB:** 259 rows / 37 groups
 **Short interest:** **~16.3% of float** (16.51M sh, **9/15/26** FINRA via Nasdaq API; float % derived on the 6/30 basis), **DTC 17.6** — up from 16.21M / 16.0 (8/31) and 14.7% / 11.7 (6/30); 12-mo peak 18.3%. Crowded into Q3 (C8). [refresh at each settlement]
-**Next:** Wed 10/14 Horton disposition checkpoint (bounded search done 10/12; occupancy UNRESOLVED) · Tue 10/20 AMC / Wed 10/21 08:30 ET Q3 L520: run prepared card · October-31 L520 check-by · early-Nov 10-Q/CR (JWT expires 11/5). L635 outcome closed; recognition amount remains unresolved.
+**Next:** Q3 call transcript (Stage-2: SM −$313M credit flow, RaDD reserve/readvance, Boston OREO plan) by L520 CHECK-BY Sat 10/31 · early-Nov 10-Q/CR (JWT expires 11/5). Horton 10/14 checkpoint passed with occupancy UNRESOLVED.
 
 ---
 
 ## Positions — ONE LINE OBSERVED 2026-10-07 · Fidelity OZK Nov-20 $40P ×4
 
-**Observed in the 10/7 Fidelity holdings capture** (PROME packet, consumed 10/8): broker basis **$322.66**, last $0.65 / value $260. **Acquisition date, price and management UNKNOWN** — "new" means new vs the 10/1 mirror. **No card** (TERRY `NOTE-OZK40P-NOV20`; C5 sell-or-roll card owed by **Wed 11/18**, TERRY). Strike $40 = this desk's <$40 band. This desk supplies the evidence, never the management (§10/6 row below; thread §5). Prior book: both Aug-21 puts ($45P ×4, $42.5P ×1) **expired worthless** under Will's 8/4 RIDE ruling; realized **−$1,686.37 / −100%** on $1,686.37 cost. ⚠️ $0 settle is tape-inferred, **not broker-confirmed** (rides the standing FORGE export ask). ⛔ **D1/OZK-salvage RULED-CLOSED** — no re-present, no successor; the 10/7 line is a new identity, not a successor (TERRY builds, Will approves). Detail → `POSITIONS.md`.
+**Observed in the 10/7 Fidelity holdings capture** (PROME packet, consumed 10/8): broker basis **$322.66**, last $0.65 / value $260. **Acquisition date, price and management UNKNOWN** — "new" means new vs the 10/1 mirror. **Card:** TERRY `MGMT-OZK40P-NOV20` (WQ-425, 10/14; the 11/18 C5 date is DISCHARGED, commit 24dbebe78; WQ-428 is Will's). Strike $40 = this desk's <$40 band. This desk supplies the evidence, never the management (§10/6 row below; thread §5). Prior book: both Aug-21 puts ($45P ×4, $42.5P ×1) **expired worthless** under Will's 8/4 RIDE ruling; realized **−$1,686.37 / −100%** on $1,686.37 cost. ⚠️ $0 settle is tape-inferred, **not broker-confirmed** (rides the standing FORGE export ask). ⛔ **D1/OZK-salvage RULED-CLOSED** — no re-present, no successor; the 10/7 line is a new identity, not a successor (TERRY builds, Will approves). Detail → `POSITIONS.md`.
 
 ---
 
@@ -18,6 +18,7 @@
 
 | Date | Event | Read |
 |---|---|---|
+| **10/20 AMC · Q3 print (Stage-1 graded 10/21)** | EPS $1.50; NCO **0.53%** ($44.5M); C&C **$1,282M→$995M**; past-due $88M; NPA $510M; OREO **$420M** (+43%). **Boston 10 Prospect sale FAILED → title, $37.3M c/o, OREO $132.0M** (80% of Sept as-is). Jack → pass; Wauwatosa paid off; new Boston **land** $105.9M SM→substandard. RaDD: $100M sponsor+mezz, LTV 50.3%→68.4%, pass by elimination, no reserve named | **Net CONTRARY to stress accumulation; Boston confirms the foreclosure route at $37.3M. No OREO sale priced. OZK-09 OPEN/STUCK.** → `research/threads/2026-10-21_Q3_PRINT_STAGE1_GRADE.md` [FDIC FLNG 12022] |
 | **10/12 approved durability follow-up** | Funding/recourse map complete; Boston financing/closing UNKNOWN; historical recovery bridge and frozen 14-row snapshot saved | Alewife loan-funded interest is permitted, not observed default. June foreclosures retain $141.2M OREO after $34.5M losses; bank cash/Q3 outcomes still PENDING → `research/threads/2026-10-12_DURABILITY_DELIVERY.md` |
 | **10/12 ordered research** | Wauwatosa property sale supported (price $14.25M is an unread-deed secondary lead); Jack/Muckleshoot partnership reported; Boston first lab lease **10,500 SF** verified at USQ September24 primary | Useful contrary workout evidence; bank cash recovery/retained financing/loss UNKNOWN → `research/threads/2026-10-12_WORKOUT_PUBLIC_OUTCOMES.md` |
 | **10/12 primary refresh · August28 filing** | BPRE June common equity **$317.4M**, subsequently written to **$270.6M** (derived **−14.73%**); Alewife mezz max **$133M→$400M**, IIPR **$111M funded September28** | Sponsor equity stress plus actual new financing; not an October markdown, not OZK recognition or proof of RaDD capital source. → `research/threads/2026-10-12_IQHQ_FUNDING_AND_MARKS.md` |
@@ -96,14 +97,14 @@ Q2 partial charge-offs on 4 RESG loans = **$49.3M** (Seattle $22.3M + $3.7M, Atl
 
 | Signal | Current [date] | Watch Level | Fires |
 |---|---|---|---|
-| OZK price | **$45.42** [live 10/12 15:11 ET; not close] | <$45 / <$40 | <$45 fired historically 10/6, above band now; <$40 not crossed at this observation, $5.42 / 11.9% below quote |
-| Past-due loans | **$298M / 0.92%** [Q2] | >$550M or >2.0% | 🟢 OZK-06 FALSE |
-| NCO (ann.) | **0.69%** [Q2] | >80bps mid-year / **≤55bps kill** | 🔴 OZK-05 TRUE — above kill-line |
-| Classified+criticized | **$1,282M** [Q2] | >$1.5B fires REGINALD/CREED | 🔴 rising while RESG falls = adverse selection |
+| OZK price | **$46.16** [10/20 close, pre-release; 10/21 09:01 ET pre-open] | <$45 / <$40 | above both; <$40 $6.16 / 13.3% below |
+| Past-due loans | **$88M / 0.26%** [Q3] (Q2 $298M) | >$550M or >2.0% | 🟢 |
+| NCO (ann.) | **0.53%** [Q3] · 9M 0.59% (Q2 0.69%) | >80bps mid-year / **≤55bps kill** | 🟡 Q3 under the line; kill-§2 needs "sustained Q2–Q3" → NOT fired |
+| Classified+criticized | **$995M** [Q3] (Q2 $1,282M) | >$1.5B fires REGINALD/CREED | 🟢 fell 22% while RESG fell 1% — Q2 conjunction did not repeat |
 | RaDD leased % | ~3.3% (JCVI 50K SF, May 2025) | Any signing >100K SF | none found through 9/27 (web) |
-| IQHQ specific reserve | **None Q2 — OZK-08 FALSE** | Any positive disclosure | Next read: Q3 call |
+| IQHQ specific reserve | **None named Q3 written** (pass by elimination 9/30) | Any positive disclosure | Next: call transcript, 10-Q |
 | RaDD maturity | **December 2029**, extension **executed 10/9** [OZK 10/12 8-K Item 7.01] | OZK-09: qualifying extension + <$140M attributable recognition | Extension leg MET (fresh $100M); recognition UNKNOWN; row OPEN/STUCK, not FALSE or evidence for holding puts |
-| Sub notes reprice | **Reset 10/1 — SCHEDULED-UNCONTRADICTED** (no filing says otherwise; never "confirmed") · coupon **≈6.19%** = 3M Term SOFR 4.09580% [9/29, global-rates.com — SINGLE-SOURCE republisher of CME] + 2.09%; 9/24–9/30 prints bracket it 6.164–6.186% | Redemption/refi filing | FLNG rc 0 at 10/1 12:14 ET · drag **≈+$12.3M/yr pre-tax (≈$0.09 EPS)**, Actual/360 · Tier 2 −20% · **next call date 2027-01-01** (notice window 11/2–12/22) |
+| Sub notes reprice | **Reset 10/1 CONFIRMED by issuer** (Q3 MC p.35): 3M Term SOFR + 209bp, **6.14% for Q4-26**, Q4 NIM −3bp, Tier 2 −20%, callable at par each quarterly date [FDIC FLNG 12022] | Redemption/refi filing | drag ≈+$12.0M/yr pre-tax (supersedes ≈6.19% / ≈$12.3M estimate) · next call date 2027-01-01 |
 | Insider buying | **Zero** open-market buys 7/6→9/27 | Any buy | CFO + 1 officer sold 8/12-13 |
 
 **Cross-feed (ref only — REGINALD owns):** KRE **$68.89** [10/7 close, own pull 10/8] (was $71.55 on 9/25, $76.69 on 7/20). HY OAS / Brent / claims → read `../REGINALD/STATUS.md`; not refreshed here.
@@ -142,6 +143,10 @@ Q2 partial charge-offs on 4 RESG loans = **$49.3M** (Seattle $22.3M + $3.7M, Atl
 ---
 
 ## BOTTOM LINE
+
+**Q3 (Stage-1, 10/21): mostly contrary evidence, one confirmation.** Classified+criticized fell 22% to $995M, past-due fell to $88M, quarterly NCO 0.53% dropped under the 55bp line, RaDD was extended with $100M fresh capital and is pass-rated by elimination, The Jack and Wauwatosa resolved. Against that: Boston 10 Prospect's sale failed, OZK took title with a **$37.3M** loss and now holds it as $132.0M OREO; a $105.9M Boston land loan moved to substandard; OREO is $420M with **no sale priced**. Credit costs are an earnings drag (PPNR 5.5× provision), not a capital event. The 🔴🔴 conviction token is Q2-vintage and owes a re-grade after the call read. Held Nov-20 $40P ×4: strike 13.3% below the $46.16 close; last $0.20 (≈$80 marked vs $322.66 basis). TERRY owns the card, Will the order. Detail → `research/threads/2026-10-21_Q3_PRINT_STAGE1_GRADE.md`.
+
+*Pre-print bottom line (10/12), retained as record:*
 
 **The RaDD maturity catalyst has materially weakened for Will's Nov-20 puts.** OZK's October 12 8-K confirms a multi-year extension executed October 9 with new sponsor/partner capital. WQ-395's extension requirement is met. **The paydown may be advanced again, the appraisal is as-stabilized, and RaDD-specific recognition is not disclosed** — so OZK-09 stays OPEN/STUCK on its separate attribution condition, not because the maturity outcome remains unknown.
 

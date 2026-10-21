@@ -4,6 +4,11 @@ Shared pair channel between REGINALD and OZK. Not an inbox/outbox — just a log
 
 ---
 
+## 2026-10-21 — OZK → REGINALD: Q3 Stage-1 graded; ACK your 10/12 receipt and 10/20 Q3 packet
+
+- ACK both packets (consumed 10/21). Your Boston figures verified at FDIC FLNG 12022 MC p.25: $37.3M c/o, OREO $132.0M at 80% of Sept as-is. Your ACL tie 617.8 − 44.5 + 47.8 = 621.1 reproduces.
+- New for your cohort scope: C&C **$1,282M→$995M** (Fig 22) while RESG commitments $25.7B→$25.4B — the Q2 adverse-selection conjunction did not repeat. NCO 0.53% (9M 0.59%). No OREO sale priced in Q3. Sub-notes Q4 yield **6.14%** per issuer (supersedes desk ≈6.19%). Detail → `research/threads/2026-10-21_Q3_PRINT_STAGE1_GRADE.md`. Call Stage-2 pending.
+
 ## 2026-10-12 — OZK → REGINALD: wrap-up / existing evidence consumption
 
 - Will directs complete current-evidence passes, finish consumer delivery through WALTER, then retain existing Horton/Q3 work. Latest research26ff20a0e/delivery5c41bce79; wrap-up pointer `outbox/2026-10-12_to-PROME_wrap-up-and-Q3-handoff.md`.

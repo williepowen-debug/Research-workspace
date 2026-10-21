@@ -96,3 +96,23 @@ All numeric cutoffs above come from the existing ledger/thesis/charter; diagnost
 For each row append: **observation date · read date · exact source/page · measurement/unit/basis · credit attribution · status · strengthened/weakened/unresolved interpretation · next resolver**. Do not fill blank observations with 0. Non-terminal rows may legitimately remain unresolved.
 
 Release read first, full call second; no absence-based resolution before both. If early-Nov 10-Q is needed, retain the row and dated reason rather than invent a print-day grade. At L520 CHECK-BY **October 31**, deliver the actually observed result and outstanding 10-Q/CR legs. Original Q4-26 prediction windows remain around mid/late January 2027. Deliver written evidence to PROME/REGINALD and TERRY; WALTER handles market-signal routing. TERRY owns price/structure/sizing/card, Will owns trades.
+
+## RESULTS — Stage-1 (written materials), appended 2026-10-21 · call Stage-2 PENDING
+
+**Observation date** 2026-10-20 (FDIC FLNG 12022/1, release 4:05 p.m. ET) · **read date** 2026-10-21 08:55–09:05 ET · full table, pages and tokens → `research/threads/2026-10-21_Q3_PRINT_STAGE1_GRADE.md`. Pre-print text above unchanged.
+
+| Row | Result | Status |
+|---|---|---|
+| R1 | No RaDD charge-off/reserve named; Q3 NCO $44.5M of which Boston $37.3M; pooled reserve share UNKNOWN | OZK-09 **OPEN/STUCK**, leans FALSE |
+| R2 | Pass-rated at 9/30 by elimination (every classified bucket < balance) | INFERRED-HIGH |
+| R3–R6 | Future-capital agreement disclosed; $100M from sponsor + mezz; LTV 50.3%→68.4%; no lease | budget/legal form/R5 UNKNOWN |
+| W6 | **No OREO sale priced in Q3**; OREO $292.7M→$420.4M; write-downs $4.27M | unresolved |
+| W7 Jack | Recap → new pass loan | weakens |
+| W8 Wauwatosa | Paid off from sale, negligible recovery | weakens |
+| W9 Boston | Failed sale → title; $37.3M c/o; OREO $132.0M (80% of Sept as-is) | **strengthens** |
+| W10 / W11 | Baltimore under contract (Q4-26/Q1-27); LA land contract did not close | unresolved |
+| Portfolio | C&C $1,282M→$995M while RESG $25.7B→$25.4B (both fall = contrary); new Boston land $105.9M SM→substandard accrual | contrary, one migration |
+| Kill §2 | Q3 NCO 0.53% ≤55bps but Q2 0.69% ⇒ "sustained through Q2–Q3" not met | not fired |
+| Notes | 6.14% Q4 yield (issuer) supersedes ≈6.19% | VERIFIED |
+
+Next resolvers: call transcript (Stage-2), Q3 10-Q (~early Nov), Q3 Call Report (~Nov 1–10). L520 CHECK-BY 10/31 retained for the Stage-2 read.

@@ -1,2 +1,11 @@
 timestamp_read	signal_id	disposition	source	notes
 2026-10-08T12:34:00Z	SIG-W-20261008-003	acted	INBOX_WALTER	read between 12:33:51Z and 12:34:52Z (date-bracketed); <$45 band GRADED FIRED on the 10/6 close $44.58 (10/7 $43.56); cause SEARCHED and FOUND at secondary level = Citi 10/6 note on the RaDD Fifth Modification (maturity 10/9; OZK CCO confirms short extensions) - primary recorder 403; evidence: AGENTS/OZK/research/threads/2026-10-08_BAND_FIRE_CAUSE_RADD_STOPGAP.md
+2026-10-21T13:03:41Z	SIG-W-20261008-017	acted	INBOX_WALTER	RaDD stopgap to 10/9 update; superseded by executed 10/9 extension (8-K 12019) and Q3 MC p.28 — integrated in Q3 Stage-1 grade research/threads/2026-10-21_Q3_PRINT_STAGE1_GRADE.md
+2026-10-21T13:03:41Z	SIG-W-20261008-031	noted	INBOX_WALTER	info: malls/IQHQ Alewife/IIPR context; IQHQ Alewife already in 2026-10-12_IQHQ_FUNDING_AND_MARKS.md; no OZK action
+2026-10-21T13:03:41Z	SIG-W-20261008-033	acted	INBOX_WALTER	WQ-399 receipt syntax already encoded in OZK CLAUDE.md step 7a (2026-10-12); corrections_boot_check rc 0 on 2026-10-21
+2026-10-21T13:03:41Z	SIG-W-20261012-005	acted	INBOX_WALTER	executed extension retained; Q3 resolver run — R1 recognition still UNKNOWN, OZK-09 OPEN/STUCK; Q3 Stage-1 grade
+2026-10-21T13:03:41Z	SIG-W-20261012-010	noted	INBOX_WALTER	Horton qualifier is OZK's own; 10/14 checkpoint passed with occupancy UNRESOLVED (STATUS Next line)
+2026-10-21T13:03:41Z	SIG-W-20261012-022	acted	INBOX_WALTER	Q3 MC resolved two of three leads: Wauwatosa paid off from sale (negligible recovery), Jack recapitalized to pass; Boston sale FAILED (title, 37.3M c/o) — Q3 card W7/W8/W9
+2026-10-21T13:03:41Z	SIG-W-20261012-023	acted	INBOX_WALTER	correction applied to INSIDERS/TIMELINE.md and PRIVATE_CREDIT/README.md (stale corporate-maturity wording) 2026-10-21
+2026-10-21T13:03:41Z	SIG-W-20261019-003	noted	INBOX_WALTER	HY 331bp x3 >320 info; REGINALD/RED own consequences; no OZK action
+2026-10-21T13:03:41Z	SIG-W-20261021-003	acted	INBOX_WALTER	Boston failed sale 37.3M c/o + OREO 132.0M verified at FDIC FLNG 12022 MC p.25 by OZK; integrated in Q3 Stage-1 grade W9

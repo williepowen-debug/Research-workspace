@@ -27,7 +27,7 @@ Living tracker of OZK's NDFI counterparties and their health:
 - Cross-reference to BROCK's private credit cascade tracker
 
 **23 counterparties identified so far.** 19 CRE-linked, 4 non-CRE. 6 of 19 CRE partners already under stress:
-- Affinius Capital — $2.7B bond maturity Oct 2026, 7+ OZK deals (⚠️ NOT mentioned on Q1 26 call)
+- Affinius Capital — 7+ OZK deals (⚠️ NOT mentioned on Q1 26 call). *The "$2.7B bond maturity Oct 2026" this line carried is CORRECTED (COR-20261012-23, 2026-10-21): it is the NEA/USRE2021-1 warehouse-lease ABS (original ARD 2026-10-20, legal final 2061), not Affinius corporate debt or an automatic default.*
 - Square Mile Capital — stress signals
 - Starwood — dividend cut 2023
 - Blue Owl — redemption gates (OBDC, OBDCII)

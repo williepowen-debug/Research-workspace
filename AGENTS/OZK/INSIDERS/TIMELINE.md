@@ -81,7 +81,7 @@ Zero insider buying during a drawdown to 52-week lows. Corporate buybacks occurr
 - **Jul 21, 2026:** Q2 2026 earnings (call Jul 22) — pre-earnings insider window + any RaDD specific reserve
 - **Q2-Q3 2026:** NY pipeline (0.41% 30-89 day, highest in country) expected to convert to noncurrent
 - **Aug 2026:** IQHQ RaDD maturity [KB-OZK-055 superseded — "Aug 2028 extension" REFUTED by Q1'26 call primary, 7/4; maturity is Aug 2026]
-- **Oct 2026:** Affinius Capital $2.7B bond maturity — discrete NDFI catalyst, OZK exposure UNVERIFIED [KB-OZK-024]
+- **Oct 2026:** ~~Affinius Capital $2.7B bond maturity~~ **CORRECTED (COR-20261012-23, applied 2026-10-21):** the $2.691B is the NEA/USRE2021-1 warehouse-lease ABS with original expected repayment 2026-10-20, legal final 2061 — not Affinius corporate debt or an automatic default; no direct OZK exposure established [KB-OZK-024; `research/threads/2026-10-12_AIMCO_AFFINIUS_CHECK.md`]
 
 ---
 
