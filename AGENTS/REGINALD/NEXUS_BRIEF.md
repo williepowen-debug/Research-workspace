@@ -2,7 +2,7 @@
 
 **Status:** Concentrated bank risk; October20 releases do not establish tier-wide credit transmission.
 **Domain:** Regional-bank comparison, FHLB advances, hidden CRE and sponsor-bank balance-sheet risk.
-**As of:** 2026-10-21 11:42 ET, inbox/main-file audit | STATUS commit: 1d84633ca
+**As of:** 2026-10-21 11:58 ET, owner session closed at Will’s request | STATUS commit: 1d84633ca
 
 ## CROSS-DOMAIN
 
