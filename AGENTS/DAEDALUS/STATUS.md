@@ -1,6 +1,6 @@
 # DAEDALUS STATUS
 
-**Last Updated: 2026-10-21 — Wednesday maintenance; maintenance pass complete; publication pending; Codex/OpenAI.**
+**Last Updated: 2026-10-21 — Wednesday maintenance; maintenance pass complete and published; Codex/OpenAI.**
 
 **Current judgment:** the architecture is coherent; current-state reconciliation and maintenance have lagged new builds. Preserve evidence and rules, reduce recovery ambiguity, and repair specific tooling gaps. Assessment: `runs/2026-10-20_ORGANIZATION_REVIEW.md`. **Recorded grade L4/M retained**, current bounded PR8 row re-cut October21; no L5 adjudication or whole-profile refresh. Authority remains own directory/root scripts; other desks require express scope and idle target.
 
@@ -62,5 +62,5 @@ October20 follow-through: scorecard/MARCO check complete; L736 writer repair rev
 
 **WORK:** PR8/Staleness6 bounded maintenance and RED duplication census complete; three independently reviewed level changes. Full-profile/build/owner-application debt remains explicit above.
 **CHECKS:** closeout rc0 WITH-DEBT (6CLEAN/4DUE); explicit-runtime read-cap rc0/rotation0. Consumer hits adjudicated as transition/history; rationale in runs/2026-10-21_CLOSEOUT_DISPOSITION.md. Baseline D1 cannot/AEOLUS unattested and C2 candidate increase retained; no full-suite or all-backlog-clean claim.
-**DELIVERY:** consolidated PROME packet saved; Git publication pending final checks. Native notification and recipient consumption unverified.
+**DELIVERY:** package86fd47223 and consolidated PROME packet published;168paths verified identical on origin. Receipt: runs/2026-10-21_DELIVERY.md. Native notification and recipient consumption unverified.
 **OPEN:** scorecardOctober23; YUR-F01October24; backlog/retirement dispositionsOctober25; accepted whole-profile cohort~October29. No library, owner launch or market-data rewrite.

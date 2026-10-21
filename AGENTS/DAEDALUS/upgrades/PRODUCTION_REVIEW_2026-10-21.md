@@ -1,6 +1,6 @@
 # Fleet Production Review #8 — October21, 2026
 
-**COMPLETE — bounded production-review scope; delivery receipt pending closeout.** Due October15; prior whole review October1. User authorized maintenance continuation October21. Runtime Codex/OpenAI; native whole-fleet transport unverified. Thread helpers are readers, not launched desk owners.
+**COMPLETE — bounded production-review scope; main package published as86fd47223; delivery receipt in runs/2026-10-21_DELIVERY.md.** Due October15; prior whole review October1. User authorized maintenance continuation October21. Runtime Codex/OpenAI; native whole-fleet transport unverified. Thread helpers are readers, not launched desk owners.
 
 ## Evidence and coverage
 
@@ -30,6 +30,6 @@ Registry and run logs updated;41live rows re-cut,2retired rows untouched; before
 
 REVIEW: required—three grades, held-L4 A interpretation, reachable promotion conditions and PASS-meaning corrections. Market/transmission readers cross-reviewed proposals against canonical OPERATIONS and actual source artifacts; individual per-leg verdicts, counterexamples and limits are in the companion index. Utility3 amendments and CHECKS2 corrections applied and verified. All other map cells are factual re-cuts; no new guard/rule behavior. Reader approval is limited to the named decisions, not a blanket whole-tree audit. Final editorial mapping/profile banners are subsequent write-back of those accepted decisions.
 
-Mechanical: map43unique rows/9columns with41updated;before-image conservation; generated directory succeeds;CHECKS56unique rows/10columns. Fresh guard results retain named failures and cannot-evaluate states. Final closeout receipt will be linked in STATUS/HANDOFF.
+Mechanical: map43unique rows/9columns with41updated;before-image conservation; generated directory succeeds;CHECKS56unique rows/10columns. Fresh guard results retain named failures and cannot-evaluate states. Closeout/delivery receipts linked in STATUS/HANDOFF.
 
 Production evidence spans3530commits sinceOctober1; counts are activity, not owner availability. Retired HERMES/YEYOU untouched. CATO/special classifications follow ROSTER/rendering; no grade invented for off-fleet/tool/dormant roles.
