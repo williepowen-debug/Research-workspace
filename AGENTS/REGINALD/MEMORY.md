@@ -27,6 +27,8 @@ Original contiguous blocks B01–B08 → `archive/2026-10-20_organisation-cleanu
 ### LAST SESSION — 2026-10-20T22:47:15-04:00, authorized backlog follow-through
 Completed existing weekly H.4.1/H.8 comparison, WAL call secondary-transcript follow-through, OZK primary Q3 read and eligible settled-bar catch-up. Report→`reports/2026-10-20_backlog-followthrough.md`; source identities/hashes/calculations saved. WOB022/KB247–250/VX three rows/exit four rows written. Original Oct13/14 expectations preserved and outcomes appended. Verbatim prior operating files→`archive/2026-10-20_before-backlog-followthrough/`. Cleanup acceptance remains closed; its fixed hash proof is historical. Dirty peer work prevents pull; broker surfaces consciously skipped without broker evidence. Durable packets are not recipient consumption.
 
+**Owner closeout — 2026-10-20T23:02:51-04:00:** Will explicitly requested REGINALD close. Research and packets already pushed as `19163e0e7`; final receipt→`reports/2026-10-20_backlog-owner-closeout.md`. Existing NEXT SESSION items below remain the handoff; no background monitoring promised.
+
 ### CHANGES SINCE LAST SESSION
 
 ### NEXT SESSION
