@@ -1,0 +1,7 @@
+# Dated follow-through — October20
+
+MARCO October21 check COMPLETE: thesis/PREDICTIONS.tsv rows MAR-10,15,25,27 all carry UNRECORDED-AS-MADE and inclusion/exclusion disclosure instructions; MAR-22 marks the inferred70% first call UNRECORDED-AS-MADE. Verified owner artifacts, not packet-only. No new scoring decision and no owner edits. HENRY historical backfill and instrument revision remain. H2 whole-run clock staysSeptember7.
+
+YUR-F01 remains OPEN until October24. YURI ledger and STATUS last count0/3 as ofOctober12, not a current census or early grade. Missing1–2 outcome is a substantive prospective interpretation, not an arithmetic repair. Proposed disposition: below3 fails the >=3 success criterion; only0 invokes the existing retire/re-merge proposal;1–2 leads to an explicit review of marginal value with no automatic retirement. Preserve threshold/window and require owner/PROME interpretation review before applying. No ledger edited and no grade claimed.
+
+REVIEW: not-required for MARCO write-back (verifies existing ruled labels); YUR-F01 remedy independently accepted as a proposal only (yurf01_review); D8 remains unresolved until owner/coordinator accepts a disposition. The registered zero-call trigger requires a retire/re-merge proposal;1–2 does not activate that trigger. This does not prohibit a retirement proposal for other evidence. Raw read: 2026-10-20_YURF01_READER_REPORTS.md.

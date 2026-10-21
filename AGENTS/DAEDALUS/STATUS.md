@@ -1,6 +1,6 @@
 # DAEDALUS STATUS
 
-**Last Updated: 2026-10-20 — Will-approved organization cleanup delivered; Codex/OpenAI.**
+**Last Updated: 2026-10-20 — Will-approved owed-work maintenance follow-through; Codex/OpenAI.**
 
 **Current judgment:** the architecture is coherent; current-state reconciliation and maintenance have lagged new builds. Preserve evidence and rules, reduce recovery ambiguity, and repair specific tooling gaps. Assessment: `runs/2026-10-20_ORGANIZATION_REVIEW.md`. **Recorded grade L4/M unchanged**, last assessed PR#7 October1; this cleanup is not a regrade, full profile refresh or whole sweep. Authority remains own directory/root scripts; other desks require express scope and idle target.
 
@@ -8,9 +8,11 @@ Prior STATUS is preserved byte-for-byte at `archive/2026-10-20_ORGANIZATION_CLEA
 
 ## Current work and next actions
 
+October20 follow-through: scorecard/MARCO check complete; L736 writer repair reviewed; EVOLUTION rotated verbatim below stop threshold. Staleness/PR detection is PARTIAL. Record: `runs/2026-10-20_MAINTENANCE_PASS.md`.
+
 1. **This approved cleanup (delivered):** consume/disposition current PROME commissions; verify L628's unchanged target; reconcile STATUS/HANDOFF, CHECKS scope and selected surface cells; regenerate pattern views; repair docket multi-role recognition and add explicit global candidate contexts. Preserve original bytes and deliver movement/review/test receipt. Implementation/review status lives in `runs/2026-10-20_ORGANIZATION_CLEANUP.md`; do not infer production candidate clearance from context support alone.
 2. **Owner application:** PROME applies L628 and L748 against their current before hashes, gets applicable result reads, and triages calendar coverage before wiring. These are built packages, not installed code. L530 is already installed; no repeat apply. Details below.
-3. **Protected maintenance sitting:** PR#8, Staleness, profile-trigger queue, scorecard and registry-wide checks remain overdue. October25 backlog review is a prioritization point, not a fabricated completion/re-date. Use `sweeps/REGISTRY.tsv` for actual clocks and dates; this cleanup advances none. RED duplication census remains audit-only; October27 was proposed, not registered.
+3. **Protected maintenance sitting:** PR#8, Staleness, profile-trigger queue, registry-wide checks remain overdue; October16 scorecard now delivered. October25 backlog review is a prioritization point, not a fabricated completion/re-date. Use `sweeps/REGISTRY.tsv` for actual clocks and dates; this cleanup advances none. RED duplication census remains audit-only; October27 was proposed, not registered.
 
 ## Delivered work and remaining owner dependencies
 
@@ -33,15 +35,15 @@ Prior STATUS is preserved byte-for-byte at `archive/2026-10-20_ORGANIZATION_CLEA
 |---|---|
 | **PR#8 / profile queue** | VULCAN whole profile doneOctober8; ZHAO doneOctober14. Eight embedded reads still owed: FERT, OSPREY, VIOLET, DEWEY, BOND, CRUISE, FLG, OTTO. Check ladder-A trade leg HAWK/FALCON/VULCAN/ZHAO/MARCO; FERT CF/no-book and YURI accruing rows; L5 adjudications REGINALD/BROCK/MIDAS; reconcile outside-correction leg with rulingE. AEOLUS PR#7 write-back requires artifact verification. Preserve WQ-375's standing A/B readings. |
 | **Deferred whole profiles / L490** | AEOLUS, HAWK, HOMER, WAL, BROCK, CREED, REGINALD, FALCON, MIDAS toward~October29; exact capacity unconfirmed. Separate from twelve existing deltas: PROME,WALTER,NEXUS,RED,TERRY,LIQUID,HENRY,SAM,HANS,WATT,SHADE,OZK. No CREED launch without Will. Whole-body vintage advances only after whole scope. |
-| **Scorecard / L239 / L290** | Latest delivered weekOctober9, renderedOctober14 (five days late). October16 window remains owed. `runs/2026-10-14_SCORECARD_2026-10-09_DELIVERY.md`; partial data/UNMAPPED remain limits, no improvement claim. |
+| **Scorecard / L239 / L290** | October16 window deliveredOctober20 (+4d late); nextOctober23. `runs/2026-10-20_SCORECARD_2026-10-16_DELIVERY.md`; partial data/UNMAPPED remain limits, no improvement claim. |
 | **Staleness/registry maintenance** | Staleness#6, WQ-288 killed-prediction census, validate_all baseline, DEWEY fred_pull key-leak artifact check, check invocation/roster health and document retirement. Confirm prior CARL/LABOR/FALCON/VULCAN/REGINALD dispositions; do not repeat old dark-desk claims. September-container splice and AGENTS/SIGNALS ownership remain questions. BARON approved four-file freeze done; nothing beyond scope inferred. |
-| **YUR-F01 — October24** | Grade the call; define the currently unassigned 1–2-call outcome before grading (only0 and≥3 are defined). |
-| **H2** | October14 DAEDALUS adjudication complete for all11; REGINALD CLOSED-VERIFIED. MARCO labels/check byOctober21 and HENRY backfill remain owner work. `runs/2026-10-14_H2_RESIDUE.md`. `asmade_audit` re-spec still owed; **MISMATCH is a candidate, never a re-score**. |
+| **YUR-F01 — October24** | Grade October24;1–2 outcome proposal independently read, owner/coordinator acceptance still owed. `runs/2026-10-20_DATED_FOLLOWTHROUGH.md`. No grade yet. |
+| **H2** | October14 DAEDALUS adjudication complete for all11; REGINALD CLOSED-VERIFIED. MARCO five labels/notes VERIFIED October20 (owner d76b3a69b); October21 check complete. HENRY backfill remains owner work. `runs/2026-10-14_H2_RESIDUE.md`. `asmade_audit` re-spec still owed; **MISMATCH is a candidate, never a re-score**. |
 | **Wiring / Prose-Remedy** | Gate-Basis#2, Falsification#4, Prose-Remedy#1, PROME sweep#3 and Wiring⑰#3 ranOctober8; no repeat whole-run claim. Prose step1 token repairs doneOctober14. Wiring⑰#4/Prose#2 nextOctober29; owner-reply ordering and shared ordering guard residue remain. WALTER inbox rider/board_log eight-desk leg require confirmation. |
 | **D7 / L263** | D7 `--closure` unbuilt; WQ-399 writer prerequisite delivered/reviewed. Token parser must use only leading key=value run. Legs1/3/6 mechanical,2/4/5 shells; ceiling RECEIPTED-WITH-POINTER. L263 receipt-lifecycle/binary-sidecar draft exists; review/rule18 audit and Will/PROME disposition owed. No authority to retire others' copies. |
 | **L188 / L40 / L380 / L465** | Vocabulary: UNOBSERVABLE, UNRECORDED-AS-MADE, OWNER-DEFERRED/address rule, Kernel pointer, invocation tokens; HENRY§2 separate ruling. L40 Amendment12 watch disposition still owner-open. L380 docket was RESOLVED-REFUTED; remaining rule5 capacity work requires declared-perimeter re-derivation, not the retracted RED exemplar/3,133B figure. L465 quantifier draft belongs to PROME; review when asked. |
 | **Standards and scanners** | SL-5 instance-text rotation/RED three counterfactual-week clauses; SL-6 enumeration, UNVERIFIED grading/test4 lift and contested-premise semantics remain. No automatic NOT-GATE-CITABLE for conflict. READ_CAP rule15 owner-field wording fix owed. falsification_scan LEDGERS/Kill-rail/F-B/C-D/CANNOT-FIRE repairs; ZHAO KB-162 semantic cross-reference check unbuilt. Morning L733 writer/resolver post-review changes remain separately unreviewed; today's two-tool review does not clear them. |
-| **L736 writer packet** | Actual DAEDALUS writer duty exists alongside PROME's “informed” mention. Read L733 residue at owner source and deliver writer packet; L748 timestamp package is not automatic closure of all L736 residue. |
+| **L736 writer packet** | Actual DAEDALUS writer duty exists alongside PROME's “informed” mention. Writer item7 public-view refusal repaired/reviewed October20; prior R1/R2/R5/R8 independently verified;43 tests pass. `runs/2026-10-20_L736_FOLLOWTHROUGH.md`. PROME caller/test/tier legs remain; full L736 not closed. |
 | **Other retained confirm-reads** | HANS appendix; FALCON PAT-054; WATT EEA2; AEOLUS C5; newborn grades; byte-tier BOND/SAM/WALTER/TERRY; WAL charter-window; fence②/REG-15/RAV-QC-002; CREED push wiring; BOND parked sweep/OTTO firetime/REGINALD third-flag; OSPREY second rotation; CARL undated marks; SAM-28/31; RED CH-009/012/ABS vintage; HAWK CORRECTED senses. These are unresolved verification questions, not reasserted live failures. |
 
 ## Conditional seats and other owners
@@ -58,4 +60,4 @@ Prior STATUS is preserved byte-for-byte at `archive/2026-10-20_ORGANIZATION_CLEA
 
 ## BOTTOM LINE — 2026-10-20
 
-**WORK:** approved organization cleanup delivered; L530 installed, L628/L748 built awaiting owner apply; calendar advisory built awaiting triage. **CHECKS/REVIEW:** see cleanup result for exact tests and two independent result reads; no candidate-wide clearance or whole maintenance completion implied. **DELIVERY:** exact commit/push and movement receipt in cleanup result; PROME consumption must be separately evidenced. **OPEN:** protected maintenance, L736 and design residue above remain owed; no grade or sweep clock advanced.
+**WORK:** scorecard, MARCO check, L736 writer repair and EVOLUTION rotation completed; maintenance detection partial. **CHECKS:**27 scorecard+43 writer tests pass; independent writer read accepted; sweeps remain DUE. **DELIVERY:** maintenance report and PROME packet; publication recorded separately, consumption unverified. **OPEN:** PR8/full Staleness/registry and tool backlog; YUR-F01 interpretation pending, gradeOctober24; no whole-sweep clock or grade advanced.

@@ -1,0 +1,31 @@
+{
+  "commit": "c16eba75b74a5bfee76fc91de38b067b27de33c4",
+  "basis": "All input files and Git history fixed by isolated committed clone; selected key hashes below, not an exhaustive dependency manifest.",
+  "files": [
+    {
+      "path": "PROME/DOCKET.tsv",
+      "sha256": "bdaeb4c1d5278b10d5ff709448ea6e0f3b3a73db5a0548088eb7114f147f7f0e"
+    },
+    {
+      "path": "PROME/WILL_QUEUE.md",
+      "sha256": "0259f6e7920e18180244ea7fcee2f74bbb99cb683a9ed01ba64483bec2aeca15"
+    },
+    {
+      "path": "PROME/state/ORCH_LOG.tsv",
+      "sha256": "6267dba3908efafb198e7537dce9054afe97357db908be0ad82ac001bfba3998"
+    },
+    {
+      "path": "PROME/archive/ORCH_LOG_2026-09.tsv",
+      "sha256": "334747daffc18e3a4e1304dcc6e5699b66b68d8c363474bd4852cf9edb3677c6"
+    },
+    {
+      "path": "AGENTS/DAEDALUS/scorecards/LEDGERS.tsv",
+      "sha256": "a049706bb29e324f6a7ff4b4cf949db93e3ba80750d1227483be9e9bfae1bd6a"
+    },
+    {
+      "path": "AGENTS/DAEDALUS/scripts/scorecard.py",
+      "sha256": "6f21ce10ec65a3da8ff884fb8547fd88c6bc28492251ad760347fc37c15a2e93"
+    }
+  ],
+  "generated_body_sha256": "4d611d9ab5d4dc15bedad9420ab329ca6064b017ff26a5d5032190f897dffd18"
+}

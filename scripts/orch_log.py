@@ -315,6 +315,39 @@ def write_view(path=LEDGER, view_path=VIEW, window_days=DEFAULT_WINDOW_DAYS, tod
     return 0
 
 
+def guarded_view(path=LEDGER, view_path=VIEW, window_days=DEFAULT_WINDOW_DAYS, acknowledge_unobserved=None):
+    """L736: public view cannot erase an unexplained count change. Internal writers use write_view."""
+    if acknowledge_unobserved not in (None, 0):
+        print("ORCH-LOG rc 2 — view REFUSED: acknowledgment belongs to append, not view; nothing written")
+        return 2
+    fh = _locked_open(path)
+    if fh is None:
+        return 2
+    with fh:
+        try:
+            rc, rows = check(path, quiet=True)
+            if rc:
+                print("ORCH-LOG rc 2 — view REFUSED: repair the invalid ledger first; view unchanged")
+                return 2
+            state, value = _view_count(view_path, path)
+            if state == "bad":
+                print(f"ORCH-LOG rc 2 — view REFUSED: {value}; restore a verified view baseline; nothing written")
+                return 2
+            if state == "ok" and value != len(rows):
+                delta = len(rows) - value
+                print(f"ORCH-LOG rc 2 — view REFUSED: ledger {len(rows)} rows vs view {value}; delta {delta}; nothing written")
+                if delta > 0:
+                    print(f"Inspect the extra rows. A legitimate next append requires --acknowledge-unobserved {delta}; do not invent an event to reset the view.")
+                else:
+                    print("Investigate missing ledger rows before restoring the verified baseline.")
+                return 2
+            if state == "missing":
+                print("ORCH-LOG first use: no view baseline exists; rendering does not establish writer provenance")
+            return write_view(path, view_path, window_days)
+        finally:
+            fcntl.flock(fh, fcntl.LOCK_UN)
+
+
 def rotate(through, path=LEDGER, archive_dir=ARCHIVE_DIR, today=None, view_path=VIEW, window_days=DEFAULT_WINDOW_DAYS, _drop_one_for_test=False):
     """L262 (c). Move data rows dated <= `through` (YYYY-MM) that are NOT IN-FLIGHT to
     <archive_dir>/ORCH_LOG_<run-month>.tsv, byte-exact, under the writer lock. Every refusal is rc 2 with NOTHING written."""
@@ -540,15 +573,7 @@ def main():
     if a.mode == "append":
         return append(a, a.ledger, a.view_path, a.window_days)
     if a.mode == "view":
-        # L733 read R2 (2026-10-20): `view` takes the writer lock, so `view ∥ append` cannot leave a stale count.
-        fh = _locked_open(a.ledger)
-        if fh is None:
-            return 2
-        with fh:
-            try:
-                return write_view(a.ledger, a.view_path, a.window_days)
-            finally:
-                fcntl.flock(fh, fcntl.LOCK_UN)
+        return guarded_view(a.ledger, a.view_path, a.window_days, a.acknowledge_unobserved)
     if a.mode == "rotate":
         return rotate(a.through, a.ledger, a.archive_dir, None, a.view_path, a.window_days)
     ap.print_help(); return 2

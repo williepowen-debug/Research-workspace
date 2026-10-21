@@ -1,0 +1,13 @@
+{
+  "source": "EVOLUTION.md",
+  "archive": "archive/EVOLUTION_ARCHIVE_2026-10-20.md",
+  "block": 1,
+  "original_start_line": 56,
+  "original_end_line": 77,
+  "bytes": 7961,
+  "sha256": "033583d9144a3a26569e41866889a364e85d1bd88117daae1b8820209fe505f4",
+  "crc32": "c103e1d5",
+  "before_bytes": 27061,
+  "after_bytes": 19275,
+  "terms": "contiguous exact bytes, no late-pairing markers removed"
+}

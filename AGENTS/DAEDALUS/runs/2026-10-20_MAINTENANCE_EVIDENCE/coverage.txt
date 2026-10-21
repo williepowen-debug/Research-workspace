@@ -1,0 +1,36 @@
+Lane coverage — 34 ACTIVE roster agents, 6 synthesis-class excluded (HAWK, NEXUS, PROME, RED, TERRY, WALTER), 24 covered, 7 INFO finding(s).
+
+  ✅ AEOLUS    queries[climate-macro]
+  ✅ BOND      queries[treasury-moves] + feeds[fred, treasury_auctions]
+  ✅ BRENT     queries[aramco-osp, diesel-export-policy, gas-supply, gulf-theater, oil-energy, russia-fuel-export-ban, russia-ukraine-energy, saudi-redsea] + feeds[eia_petroleum]
+  ✅ BROCK     queries[bdc-names, gpu-obsolescence-1, gpu-obsolescence-2, gpu-obsolescence-3, gpu-obsolescence-4, pe-insurance, position-pe, private-credit]
+  ✅ CARL      queries[consumer-stress, housing] + feeds[fred]
+  ✅ CORAL     queries[florida]
+  ✅ CRUISE    queries[cruise-fundamentals, cruise-operators]
+  ✅ FALCON    queries[gulf-theater, saudi-redsea, war-risk-insurance]
+  ✅ FERT      queries[fertilizer]
+  ✅ FLG       queries[flg-rent-freeze-litigation]
+  ✅ HENRY     queries[ai-capex, diesel-export-policy, gas-supply, oil-energy, russia-fuel-export-ban, treasury-moves]
+  ✅ HOMER     queries[florida, homebuilder-earnings, housing] + feeds[fred]
+  ✅ LABOR     queries[labor-layoffs, labor-nfp] + feeds[fred]
+  ✅ LIQUID    queries[ai-dc-force-majeure, bank-stress, credit-spreads, funding-stress] + feeds[fred]
+  ✅ MIDAS     queries[metals, pgm-producers]
+  ✅ OSPREY    queries[russia-fuel-export-ban, russia-ukraine-energy]
+  ✅ REGINALD  queries[bank-stress, cre-stress, nano-banc, position-banks] + feeds[edgar_8k]
+  ✅ SAM       queries[japan-boj]
+  ✅ SHADE     queries[pe-insurance, shade-D1, shade-D2, shade-D3, shade-D4, shade-D5, shade-D6, shade-E1, shade-E2]
+  ✅ VIOLET    queries[vol-regime] + feeds[cftc_cot]
+  ✅ VULCAN    queries[ai-capex, ai-dc-force-majeure, ai-training-pause, gpu-obsolescence-1, gpu-obsolescence-2, gpu-obsolescence-3, gpu-obsolescence-4, memory-cycle, memory-pricing, power-grid] + feeds[edgar_8k]
+  ✅ WAL       queries[nano-banc]
+  ✅ WATT      queries[power-grid]
+  ✅ ZHAO      queries[china-asia]
+
+  ◦ INFO: no autonomous lane collection for MARCO (Florida migration / tourism (FL sub; reconcile w/ CORAL)) — intake reaches this domain via Will's channel + the agent's own pulls only
+  ◦ INFO: no autonomous lane collection for ORACLE (Prediction-market diagnostics ‡‡‡) — intake reaches this domain via Will's channel + the agent's own pulls only
+  ◦ INFO: no autonomous lane collection for OZK (Bank OZK specialist (RESG construction / classified-migration watch)) — intake reaches this domain via Will's channel + the agent's own pulls only
+  ◦ INFO: no autonomous lane collection for YURI (**Russia — ACTOR-KEYED: what the Russian state DECIDES, across all channels, as one actor** (mobilisation, asset seizure, force posture, export instruments). ⛔ **NOT Russia macro** — the name follows the fleet's human-first-name convention for geography desks and reads narrower than the charter; the charter scope is the authority, not the name.) — intake reaches this domain via Will's channel + the agent's own pulls only
+  ◦ INFO: newsweep_config names 'CREED' in an agents list but it is not in the ROSTER ACTIVE table — retired/renamed agent or typo; review the query row
+  ◦ INFO: newsweep_config names 'DEWEY' in an agents list but it is not in the ROSTER ACTIVE table — retired/renamed agent or typo; review the query row
+  ◦ INFO: newsweep_config names 'HANS' in an agents list but it is not in the ROSTER ACTIVE table — retired/renamed agent or typo; review the query row
+
+(INFO severity by design: an un-laned domain is a routing fact, not a failure — some are deliberate, e.g. prediction-market feeds are parked.)
