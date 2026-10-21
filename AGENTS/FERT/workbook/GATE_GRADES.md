@@ -25,6 +25,7 @@
 | **9/30/26** | **Sep 21–25** | **$926** | **$970** | **MAP** | **$30 · +3.09%** | **NOT FIRED** (7 of 7 graded) — PRIMARY, first-party curl at dtnpf.com 2026-10-01 11:06 ET (`KB-FERT-045`) |
 | **10/7/26** | **Sep 28–Oct 2** | **$934** | **$974** | **MAP** | **$26 · +2.67%** | **NOT FIRED** (8 of 8 graded) — PRIMARY, first-party curl at dtnpf.com 2026-10-07 21:44 ET (`KB-FERT-062`); strictly-greater, whole-dollar, US national average as printed |
 | **10/14/26** | **Oct 5–9** | **$934** | **$979** | **MAP** | **$21 · +2.15%** | **NOT FIRED** (9 of 9 graded) — PRIMARY, first-party curl at dtnpf.com 2026-10-14 23:46 ET (`KB-FERT-069`); strictly-greater, whole-dollar, US national average as printed. ⚠️ Same print resolves **FERT-12 MISS** ($979 > $975) |
+| **10/21/26** | **Oct 12–16** | **$937** | **$981** | **MAP** | **$19 · +1.94%** | **NOT FIRED** (10 of 10 graded) — PRIMARY, first-party curl at dtnpf.com 2026-10-21 08:56 ET (`KB-FERT-079`); strictly-greater, whole-dollar, US national average as printed. 11-print pace MAP ~+0.99%/mo → ~1.9 months to the line |
 
 🔑 **The APPROACH RATE is the finding, and it is stated here as a rate — a gate row shows distance, never rate.**
 
