@@ -26,7 +26,8 @@ CONTRACT (CHECK_STANDARD §9): rc 0 · 2 CANNOT-CERTIFY / refused. Never pads, n
 
 L262 (PROME-ruled 2026-09-04, DAEDALUS rule-15 input; Will "L262 go ahead" 9/4 ~10:0x). (a) The VIEW is a typed-only
 projection — `date · desk · tier · touch · drained · delivered[:40] · inbox_before · inbox_after` — of (i) every row whose
-`delivered` carries IN-FLIGHT and (ii) each desk's LAST `drained>0` touch inside `--window-days` (the rule-6b/leg-3b window is a
+`delivered` carries IN-FLIGHT, except rows followed in ledger order by a RECEIPT/CLOSE touch for the exact same desk string
+(the view reports the omitted count), and (ii) each desk's LAST `drained>0` touch inside `--window-days` (the rule-6b/leg-3b window is a
 DECLARED soak parameter, not a canon constant, so the header prints the window used and names the desks with no such touch
 inside it — nothing is hidden by the default). One writer, one lock ⇒ the view cannot drift from the ledger (PAT-113).
 (c) ROTATION writes the archive FIRST, then the hot file; if the second replace fails the archive holds an extra copy, which the
@@ -273,7 +274,16 @@ def render_view(rows, window_days=DEFAULT_WINDOW_DAYS, today=None, source=LEDGER
     """Typed-only projection (L262 (a)). `rows` = validated 13-field rows."""
     today = today or datetime.date.today()
     cutoff = (today - datetime.timedelta(days=window_days)).isoformat()
-    inflight = [r for r in rows if event_type(r) == "TOUCH" and _is_inflight(r)]
+    inflight, omitted, later_closed_desks = [], 0, set()
+    for r in reversed(rows):
+        if event_type(r) == "TOUCH" and _is_inflight(r):
+            if r[1] in later_closed_desks:
+                omitted += 1
+            else:
+                inflight.append(r)
+        if "RECEIPT" in r[3].upper() or "CLOSE" in r[3].upper():
+            later_closed_desks.add(r[1])
+    inflight.reverse()  # Preserve ledger order for equal date/desk sort keys.
     last = {}
     for r in rows:
         if event_type(r) != "TOUCH":
@@ -294,6 +304,7 @@ def render_view(rows, window_days=DEFAULT_WINDOW_DAYS, today=None, source=LEDGER
            "", "| " + " | ".join(VIEW_COLS) + " |", "|" + "---|" * len(VIEW_COLS)]
     for r in sorted(inflight, key=lambda r: (r[0], r[1])):
         out.append("| " + " | ".join(cell(r, COLS.index(c)) for c in VIEW_COLS) + " |")
+    out += ["", f"Omitted {omitted} IN-FLIGHT row(s): a later ledger row for the exact same desk string has a touch containing RECEIPT or CLOSE."]
     out += ["", f"## Last `drained>0` touch per desk inside the window ({len(last)} desks) — the leg-3b cadence input (a zero-drain touch never resets a desk's clock)",
             "", "| " + " | ".join(VIEW_COLS) + " |", "|" + "---|" * len(VIEW_COLS)]
     for d in sorted(last):
