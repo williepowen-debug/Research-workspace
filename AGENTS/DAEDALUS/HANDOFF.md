@@ -1,6 +1,6 @@
 # October 21 profile continuation
 
-Will authorized beginning whole-profile refreshes. AEOLUS whole refresh completed: profiles/AEOLUS.md; evidence and coverage in runs/2026-10-21_AEOLUS_REFRESH.md and canonical reader companion. Prior profile preserved verbatim. L4/M retained. Eight remaining, HAWK next, then HOMER/WAL/BROCK/CREED/REGINALD/FALCON/MIDAS; no CREED owner launch without explicit permission. Do not repeat completed PR8/Staleness6 or AEOLUS comprehension. Source market snapshot remains owner October10, not a new market refresh. Owner contradictions/manifest/ledger/guard repairs routed separately; no owner remediation claimed. Current closeout/publication dimensions live in the run record; no consumption inferred from packet filing.
+Will authorized beginning whole-profile refreshes. AEOLUS whole refresh completed: profiles/AEOLUS.md; evidence and coverage in runs/2026-10-21_AEOLUS_REFRESH.md and canonical reader companion. Prior profile preserved verbatim. L4/M retained. Eight remaining, HAWK next, then HOMER/WAL/BROCK/CREED/REGINALD/FALCON/MIDAS; no CREED owner launch without explicit permission. Do not repeat completed PR8/Staleness6 or AEOLUS comprehension. Source market snapshot remains owner October10, not a new market refresh. Owner contradictions/manifest/ledger/guard repairs routed separately; no owner remediation claimed. Package397e56a3e published; all19 paths verified on origin. Closeout rc0 WITH-DEBT; run record preserves remaining obligations. No consumption inferred from packet filing.
 
 # October21 maintenance continuation
 
