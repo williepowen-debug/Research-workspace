@@ -93,6 +93,17 @@ EMPTY_FORWARD_DAYS = 14     # a registered ledger with NO row inside this horizo
                             # reads as ungraded — the exact BD-02 miss shape)
 
 BLOCK, ADVISE = "BLOCKING", "advisory"
+# ACTION (WQ-467, Will 2026-10-21): a NON-blocking check whose BOOT.md rule REQUIRES an act
+# (fire-time rc=1, exempt-desk BOARD gap, WILL_QUEUE). Printed "[ACTION OWED]" so the label
+# matches the rule; rc treats it exactly like ADVISE. On 10/21 all three printed "[advisory]"
+# under a "judgment calls" footer and were skipped with "Skipped controls: none" reported.
+ACTION = "ACTION OWED"
+GATE_MODE = "boot"   # set by main(); ACTION applies at boot/refresh only — CLOSEOUT has no ACTION OWED rule (read 1, C2)
+
+
+def _owed_sev():
+    """Severity for a check whose BOOT.md rule requires an act: ACTION at boot/refresh, ADVISE at closeout."""
+    return ACTION if GATE_MODE in ("boot", "refresh") else ADVISE
 # ERROR (L294 F-7, reproduced 2026-09-12): a check that DID NOT RUN. Before this,
 # inputs were dereferenced outside any try and main() wrapped nothing, so ONE missing
 # file — PROME/CLOSEOUT.md, say — raised out of the whole gate: stdout completely
@@ -798,7 +809,7 @@ def check_will_queue():
     path = ROOT / "PROME/WILL_QUEUE.md"
     check_will_queue.last_problems = []                  # reset at ENTRY so a stale list never survives an early return (parserfix2cold ⚠️)
     if not path.exists():
-        record(ADVISE, "WILL_QUEUE present", False, "PROME/WILL_QUEUE.md missing",
+        record(_owed_sev(), "WILL_QUEUE present", False, "PROME/WILL_QUEUE.md missing",
                "PROME/WILL_QUEUE.md")
         return
     text = path.read_text(encoding="utf-8")
@@ -948,7 +959,7 @@ def check_will_queue():
         # lines is the silent-cap class the comment below names. The headline count leads.
         problems.insert(0, f"CAP: {actionable} actionable rows (>20) — PROME over-routing")
     check_will_queue.last_problems = list(problems)   # the FULL list, for queue_parser_selftest (the detail below shows five)
-    record(ADVISE, "WILL_QUEUE fresh + nothing due/passed/aging", not problems,
+    record(_owed_sev(), "WILL_QUEUE fresh + nothing due/passed/aging", not problems,
            # ⚠️ 2026-08-08: same silent-cap class as check_docket_overdue above —
            # measured live at this boot, 14 roll-off-eligible rows displayed as 4.
            "; ".join(problems[:5]) +
@@ -1826,11 +1837,11 @@ def mode_boot(advance_board=True):
     # skipped scan was invisible on every surface either side keeps (§3.5.6 at a second desk); this reads BOTH
     # the BOARD and each exempt desk's ledgers, so it needs nothing from the desk. rc=1 = an action-line signal
     # unlogged ≥2d at an exempt desk, or an exempt desk with no ledger at all (UNKNOWN, not PASS).
-    run_script(ADVISE, "exempt-desk BOARD gap (§3.5 pull-complete desks vs their ledgers)",
+    run_script(ACTION, "exempt-desk BOARD gap (§3.5 pull-complete desks vs their ledgers)",
                [sys.executable, "PROME/tools/exempt_gap.py"],
                "the ledger is the DESK's to fill (§3.5.2) — packet/doorbell the desk; no ledger ⇒ the desk owes one; "
                "never grade on its behalf")
-    run_script(ADVISE, "firetime (owner-routed flags persist)", [sys.executable,
+    run_script(ACTION, "firetime (owner-routed flags persist)", [sys.executable,
                "scripts/firetime_check.py", "--window", "7"],  # not --quiet: the flagged lines are the payload
                "scripts/firetime_allowlist.tsv · DATE flag = full logic re-read, never find-replace")
     # 8/14 Will-directed: agent staleness reads come from ground truth, not narrative.
@@ -1978,7 +1989,7 @@ def mode_closeout(tier=None, memory=None, superseded=None):
 
 
 def main():
-    global LOG_DIR, SESSION_JSON, CHARTER_MODE
+    global LOG_DIR, SESSION_JSON, CHARTER_MODE, GATE_MODE
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[1])
     ap.add_argument("mode", choices=["boot", "refresh", "closeout"])
     ap.add_argument("--charter-mode", choices=("explicit", "injected"), default="explicit",
@@ -2013,6 +2024,7 @@ def main():
     memory = args.slug if args.slug else ([] if args.no_memory else None)
     superseded = [tuple(p) for p in args.superseded] if args.superseded else ([] if args.no_superseded else None)
     CHARTER_MODE = args.charter_mode
+    GATE_MODE = args.mode
     results.clear()
     capabilities.clear()
     if args.log_dir:
@@ -2046,6 +2058,7 @@ def main():
                else "🔴 BLOCKED" if blocking_fail else "✅ PASS")
     print(f"\n{'='*70}\n  PROME GATE · {args.mode.upper()} · {verdict} "
           f"({sum(1 for r in results if r[0]==BLOCK)} blocking / "
+          f"{sum(1 for r in results if r[0]==ACTION and not r[2])} action owed / "
           f"{sum(1 for r in results if r[0]==ADVISE)} advisory"
           + (f" / {len(errored)} NOT RUN" if errored else "") + f")\n{'='*70}")
     if errored:
@@ -2054,7 +2067,8 @@ def main():
               "they cover.\n")
     for sev, name, ok, detail, owner in results:
         mark = "✅" if ok else ("⚠️ " if sev == ERROR else "🔴" if sev == BLOCK else "⚠️ ")
-        print(f"  {mark} [{sev:8}] {name}: {detail}")
+        label = "action" if (sev == ACTION and ok) else sev   # a PASSING action-class check owes nothing (read 1, W2)
+        print(f"  {mark} [{label:8}] {name}: {detail}")
         if not ok:
             print(f"       → {owner}")
     if capabilities:
@@ -2070,6 +2084,9 @@ def main():
                     print(f"       ↳ {'🔴 URGENT — WQ-' + tracker + ' is PAST its needed-by; escalate to Will this session' if urgent else 'tracked at WQ-' + tracker}")
                 print(f"       → {owner}")
     print(f"{'='*70}")
+    owed = [r for r in results if r[0] == ACTION and not r[2]]
+    if owed and (errored or rc):
+        print(f"  ⚠️  {len(owed)} ACTION OWED line(s) also need a disposition in this report (BOOT.md step 8).")
     if errored:
         # rc=2 with zero blocking failures would otherwise have printed
         # "0 BLOCKING gate(s) failed", which reads like good news.
@@ -2081,6 +2098,12 @@ def main():
     if rc:
         print(f"  🔴 {len(blocking_fail)} BLOCKING gate(s) failed — disposition before new work.\n")
         return rc
+    if owed:
+        print(f"  ✅ all blocking gates pass — {len(owed)} ACTION OWED line(s) need a disposition in this "
+              "report: only done (cite the artifact) or routed to <owner> (cite the packet) keeps the headline "
+              "clean; deferred, partial or none ⇒ SKIPPED + PARTIAL (BOOT.md step 8). "
+              "Other advisories are judgment calls, read them.\n")
+        return 0
     print("  ✅ all blocking gates pass — advisories above are judgment calls, read them.\n")
     return 0
 

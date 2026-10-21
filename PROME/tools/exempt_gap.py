@@ -31,7 +31,7 @@ owners and is named; an empty exempt set or an unreadable ledger is an instrumen
 Exit codes: 0 clean · 1 a desk owes rows (aged unlogged action signal, or no ledger) ·
 2 instrument problem (skipped files · duplicate ids · empty exempt set · unreadable ledger · crash) —
 prome_gate treats both 1 and 2 as flags, but the receipt says which.
-Advisory in `prome_gate.py boot` (a flag = packet/doorbell the desk; it is that desk's ledger to fill,
+ACTION OWED (non-blocking, WQ-467) in `prome_gate.py boot` (a flag = packet/doorbell the desk; it is that desk's ledger to fill,
 never PROME's to grade on its behalf — §3.5.2, a spawned reader cannot integrate).
 
 Usage:

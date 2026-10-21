@@ -157,7 +157,8 @@ class MissingInput(unittest.TestCase):
 
     # ---- condition 2: independent checks are RETAINED
     def test_independent_checks_still_report(self):
-        printed = MISSING.stdout.count("[BLOCKING]") + MISSING.stdout.count("[advisory]")
+        printed = (MISSING.stdout.count("[BLOCKING]") + MISSING.stdout.count("[advisory]")
+                   + MISSING.stdout.count("[ACTION OWED]") + MISSING.stdout.count("[action  ]"))   # WQ-467 class
         self.assertGreater(printed, 20, f"only {printed} checks printed")
 
     def test_it_retains_the_same_checks_the_clean_run_produced_minus_the_failed_one(self):
@@ -166,7 +167,8 @@ class MissingInput(unittest.TestCase):
         def names(out):
             return {l.split("] ", 1)[1].split(":")[0].strip()
                     for l in out.split("\n")
-                    if ("[BLOCKING]" in l or "[advisory]" in l) and "] " in l}
+                    if ("[BLOCKING]" in l or "[advisory]" in l or "[ACTION OWED]" in l
+                        or "[action  ]" in l) and "] " in l}
         lost = names(CLEAN.stdout) - names(MISSING.stdout)
         self.assertEqual(lost, {"boot↔closeout symmetry"}, f"unexpectedly lost: {lost}")
 
