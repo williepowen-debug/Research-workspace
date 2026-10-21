@@ -85,6 +85,8 @@ class Repo(unittest.TestCase):
         (self.repo / "PROME/tools").mkdir(parents=True)
         (self.repo / "scripts/githooks").mkdir(parents=True)
         shutil.copy2(ROOT / "PROME/tools/docket_row_cap.py", self.repo / "PROME/tools/docket_row_cap.py")
+        # the hook also runs the always-on line check (2026-10-21); the fixture needs it present
+        shutil.copy2(ROOT / "PROME/tools/docket_line_stability.py", self.repo / "PROME/tools/docket_line_stability.py")
         shutil.copy2(ROOT / "scripts/githooks/pre-commit", self.repo / "scripts/githooks/pre-commit")
         (self.repo / "scripts/harness_caps.env").write_text(f"# fixture\nDOCKET_ROW_CAP_BYTES={D}\n")
         self.docket = self.repo / "PROME/DOCKET.tsv"
@@ -93,7 +95,8 @@ class Repo(unittest.TestCase):
         self.git("config", "user.name", "Fixture")
         self.git("config", "user.email", "fixture@example.invalid")
         self.git("config", "commit.gpgsign", "false")
-        self.git("add", "--", "PROME/DOCKET.tsv", "PROME/tools/docket_row_cap.py", "scripts/githooks/pre-commit",
+        self.git("add", "--", "PROME/DOCKET.tsv", "PROME/tools/docket_row_cap.py", "PROME/tools/docket_line_stability.py",
+                 "scripts/githooks/pre-commit",
                  "scripts/harness_caps.env")
         self.git("commit", "-q", "-m", "baseline")
         self.git("config", "core.hooksPath", "scripts/githooks")

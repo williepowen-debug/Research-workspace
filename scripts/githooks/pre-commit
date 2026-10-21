@@ -11,6 +11,18 @@ if command -v python3 >/dev/null && [ -f scripts/account_guard.py ]; then
 fi
 git diff --cached --quiet -- PROME/DOCKET.tsv 2>/dev/null && exit 0   # docket not in this commit
 command -v python3 >/dev/null || { echo 'pre-commit: Python 3 unavailable; docket rows cannot be checked' >&2; exit 1; }
+# Line-number stability (2026-10-21, Will 10/20 "ok check"): ALWAYS ON — rows are cited by L#.
+[ -f PROME/tools/docket_line_stability.py ] || { echo 'pre-commit: PROME/tools/docket_line_stability.py missing; docket line numbers cannot be checked' >&2; exit 1; }
+python3 PROME/tools/docket_line_stability.py --staged --quiet >&2
+lrc=$?
+if [ "$lrc" -ne 0 ]; then
+    if [ "$lrc" -eq 1 ]; then
+        echo 'pre-commit: PROME/DOCKET.tsv rows moved; commit refused (edit in place or append at EOF, never --no-verify)' >&2
+    else
+        echo "pre-commit: docket line check could not run (rc=$lrc); commit refused — fix the check, do not bypass" >&2
+    fi
+    exit 1
+fi
 [ -f PROME/tools/docket_row_cap.py ] || { echo 'pre-commit: PROME/tools/docket_row_cap.py missing; docket rows cannot be checked' >&2; exit 1; }
 python3 PROME/tools/docket_row_cap.py --staged --quiet >&2
 rc=$?
