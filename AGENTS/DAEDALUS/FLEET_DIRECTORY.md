@@ -34,7 +34,7 @@ WF source: `/home/willi/Research-Intake/scripts/newsweep_config.py` · SHA256 `9
 | CORAL | Market | L4 | M | 2026-10-21 | Florida (whole-state, 10 pillars) | Owner should resolve forward-log authority and make thesis clock's mean… | 16 |
 | SHADE | Market | L3 | H | 2026-10-21 | Insurer-lender / PE-insurance-captive | At the already-recorded October 23 owner session: predictions with regi… | 10 |
 | ZHAO | Market | L4 | H | 2026-10-21 | China macro — UST demand / capital flows / Korea | L5 still requires GACC/SAFE dispositions and verified clean/current clo… | 11 |
-| AEOLUS | Market | L4 | M | 2026-10-21 | Climate → economy (macro; insurance/ag/energy-demand channels) | L5 after clean owner closeout reconciles THESIS state/instructions, sup… | 12 |
+| AEOLUS | Market | L4 | M | 2026-10-21 | Climate → economy (macro; insurance/ag/energy-demand channels) | AEOLUS dispositions dated profile packet within existing scope | 12 |
 | WATT | Market | L4 | H | 2026-10-21 | Power/grid — PJM stress → wholesale price → industrial/data-center cost | Two clean WEEKLY cycles remain unverified | 21 |
 | VULCAN | Market | L4 | H | 2026-10-21 | AI-capex / semiconductor / memory cycle → systemic risk (concentration, memory, power-demand, Taiwan chokepoint) | Keep L5 conditional on two verified clean WEEKLY cycles and resumed S2… | 11 |
 | MIDAS | Market | L4 | H | 2026-10-21 | Metals — monetary (gold/silver: debasement, real-rates) + industrial (copper/PGM: growth, China, supply) | L5 on verified clean/current weekly contract-map and crossing review, w… | 11 |

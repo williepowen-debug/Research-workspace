@@ -1,8 +1,8 @@
 # DAEDALUS STATUS
 
-**Last Updated: 2026-10-21 — Wednesday maintenance; maintenance pass complete and published; Codex/OpenAI.**
+**Last Updated: 2026-10-21 — Wednesday profile work; AEOLUS refresh complete, publication pending; Codex/OpenAI.**
 
-**Current judgment:** the architecture is coherent; current-state reconciliation and maintenance have lagged new builds. Preserve evidence and rules, reduce recovery ambiguity, and repair specific tooling gaps. Assessment: `runs/2026-10-20_ORGANIZATION_REVIEW.md`. **Recorded grade L4/M retained**, current bounded PR8 row re-cut October21; no L5 adjudication or whole-profile refresh. Authority remains own directory/root scripts; other desks require express scope and idle target.
+**Current judgment:** the architecture is coherent; current-state reconciliation and maintenance have lagged new builds. Preserve evidence and rules, reduce recovery ambiguity, and repair specific tooling gaps. Assessment: `runs/2026-10-20_ORGANIZATION_REVIEW.md`. **Recorded grade L4/M retained**, current bounded PR8 row re-cut October21; no L5 adjudication; AEOLUS whole profile refreshed October 21. Authority remains own directory/root scripts; other desks require express scope and idle target.
 
 Prior STATUS is preserved byte-for-byte at `archive/2026-10-20_ORGANIZATION_CLEANUP/STATUS.md.before`; original line/block hashes and all moved destinations: `runs/2026-10-20_CLEANUP_MOVEMENT_RECEIPT.json`. Historical next-work dates there do not supersede this page. Current continuation/recovery: `HANDOFF.md`.
 
@@ -34,7 +34,7 @@ October20 follow-through: scorecard/MARCO check complete; L736 writer repair rev
 | Work | Next action and limits |
 |---|---|
 | **PR#8 / profile queue** | COMPLETE bounded production scopeOctober21:41rows; GIBBSL1/M,HOMERL3/M,AEOLUSL4/M independently read; five held-L4 A checks and8embedded-profile delta reads done.37profile annotations/34fired banners, no body-date reset. Full firming/local-form and L5 judgments remain reviewer-owned. `upgrades/PRODUCTION_REVIEW_2026-10-21.md`. |
-| **Deferred whole profiles / L490** | AEOLUS, HAWK, HOMER, WAL, BROCK, CREED, REGINALD, FALCON, MIDAS toward~October29; exact capacity unconfirmed. Separate from twelve existing deltas: PROME,WALTER,NEXUS,RED,TERRY,LIQUID,HENRY,SAM,HANS,WATT,SHADE,OZK. No CREED launch without Will. Whole-body vintage advances only after whole scope. |
+| **Deferred whole profiles / L490** | AEOLUS whole refresh completed October 21; evidence `runs/2026-10-21_AEOLUS_REFRESH.md`. Remaining HAWK, HOMER, WAL, BROCK, CREED, REGINALD, FALCON, MIDAS toward October 29; exact capacity unconfirmed. Separate from twelve existing deltas: PROME,WALTER,NEXUS,RED,TERRY,LIQUID,HENRY,SAM,HANS,WATT,SHADE,OZK. No CREED launch without Will. Whole-body vintage advances only after whole scope. |
 | **Scorecard / L239 / L290** | October16 window deliveredOctober20 (+4d late); nextOctober23. `runs/2026-10-20_SCORECARD_2026-10-16_DELIVERY.md`; partial data/UNMAPPED remain limits, no improvement claim. |
 | **Staleness/registry maintenance** | Staleness6 and CHECKS/invocation/roster/unwired dispositions COMPLETEOctober21. DEWEY redaction source+synthetic failure verified; own archive range corrected. Fresh C2=1750 candidates versus installed1345; D1AEOLUSunattested remain undisposed; no rebaseline. Retirement81reviewed/27migration holdsOct25. WQ288killed-prediction census, SURFACES whole-currency and AGENTS/SIGNALS ownership remain. `runs/2026-10-21_STALENESS.md`, `runs/2026-10-21_CHECK_REGISTRY.md`. |
 | **YUR-F01 — October24** | Grade October24;1–2 outcome proposal independently read, owner/coordinator acceptance still owed. `runs/2026-10-20_DATED_FOLLOWTHROUGH.md`. No grade yet. |
@@ -60,7 +60,7 @@ October20 follow-through: scorecard/MARCO check complete; L736 writer repair rev
 
 ## BOTTOM LINE — 2026-10-21
 
-**WORK:** PR8/Staleness6 bounded maintenance and RED duplication census complete; three independently reviewed level changes. Full-profile/build/owner-application debt remains explicit above.
-**CHECKS:** closeout rc0 WITH-DEBT (6CLEAN/4DUE); explicit-runtime read-cap rc0/rotation0. Consumer hits adjudicated as transition/history; rationale in runs/2026-10-21_CLOSEOUT_DISPOSITION.md. Baseline D1 cannot/AEOLUS unattested and C2 candidate increase retained; no full-suite or all-backlog-clean claim.
-**DELIVERY:** package86fd47223 and consolidated PROME packet published;168paths verified identical on origin. Receipt: runs/2026-10-21_DELIVERY.md. Native notification and recipient consumption unverified.
-**OPEN:** scorecardOctober23; YUR-F01October24; backlog/retirement dispositionsOctober25; accepted whole-profile cohort~October29. No library, owner launch or market-data rewrite.
+**WORK:** AEOLUS whole-profile refresh completed across three reader clusters; L4/M retained. One of nine queued profiles complete; HAWK next. Prior PR8/Staleness6 maintenance remains complete.
+**CHECKS:** Final profile/trigger interpretation review and closeout receipt recorded in runs/2026-10-21_AEOLUS_REFRESH.md. Owner read-cap rc2 assessed0, oversized charter, source-consistency and ledger/guard findings remain; profile completion does not clear them.
+**DELIVERY:** AEOLUS findings packet and PROME delivery memo prepared; publication pending closeout. Earlier maintenance86fd47223 remains published. No recipient consumption claimed.
+**OPEN:** Eight cohort profiles; scorecard October23; YUR-F01 October24; backlog/retirement dispositions October25. Full queue clocks unchanged. Owner repairs are separate from DAEDALUS comprehension.

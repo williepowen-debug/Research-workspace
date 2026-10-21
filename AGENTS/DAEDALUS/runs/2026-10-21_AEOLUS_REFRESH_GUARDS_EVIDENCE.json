@@ -1,0 +1,57 @@
+[
+  {
+    "command": [
+      "python3",
+      "/home/willi/Research-workspace/AGENTS/AEOLUS/scripts/domain_log_check.py"
+    ],
+    "cwd": "/home/willi/Research-workspace/AGENTS/AEOLUS",
+    "rc": 0,
+    "stdout": "\n====================================================================\n  DOMAIN LOG CHECK  \u00b7  did each domain layer record what its domain did?\n====================================================================\n  date: 2026-10-21\n\n    hurricane/   log rows today: 0    KB rows: 0    \n    regime/      log rows today: 0    KB rows: 0    \n    seismic/     log rows today: 0    KB rows: 0    \n    water/       log rows today: 0    KB rows: 0    \n    wildfire/    log rows today: 0    KB rows: 0    \n\n  \u2713 clean \u2014 every touched domain recorded at least one event in its own log.\n====================================================================\n\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "python3",
+      "scripts/read_cap_check.py",
+      "--agent",
+      "AEOLUS",
+      "--charter-mode",
+      "explicit"
+    ],
+    "cwd": "/home/willi/Research-workspace",
+    "rc": 2,
+    "stdout": "READ-CAP 2 CANNOT-EVALUATE [AEOLUS]: perimeter: DECLARED in PROME/registry/READS.tsv \u2014 10 cap-bearing (whole/programmatic) measured, 0 declared-not-counted (scoped/grep/summary), 2 manifest row(s) for this desk; 10 of the measured are MEMBERS of 2 cap-bearing CLASS row(s), each measured per member (rule 16); \u26d4 NOT ATTESTED by this desk \u2014 the perimeter is PARTIAL. An unattested desk is UNKNOWN, never clean \u2014 the desk itself must attest (packet to PROME/inbox/; no desk may commit inside PROME/, and PROME may not attest on a desk's behalf).\nREAD-CAP-RESULT v1 mode=agent rc=2 assessed=0 desk=AEOLUS reads=0 over_budget=0 over_cap=0 manifest_defects=0 advisories=0 generated_flagged=0 rotation_due=0 active_decisions_over_budget=0 charter_mode=explicit charter_reads=0 owner_notices=0 owner_notices_over_budget=0 charter_bytes=48034\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "python3",
+      "scripts/read_cap_check.py",
+      "AGENTS/AEOLUS/CLAUDE.md",
+      "AGENTS/AEOLUS/STATUS.md",
+      "AGENTS/AEOLUS/SCRATCH.md"
+    ],
+    "cwd": "/home/willi/Research-workspace",
+    "rc": 1,
+    "stdout": "  \ud83d\udfe0 AGENTS/AEOLUS/CLAUDE.md                              48,034 B   148% of budget  over budget (readable, no headroom)\n  \u2705 AGENTS/AEOLUS/STATUS.md                              23,768 B    73% of budget  \n  \u2705 AGENTS/AEOLUS/SCRATCH.md                              7,028 B    22% of budget  \n",
+    "stderr": ""
+  },
+  {
+    "command": "imported main() on temporary fixture; touched_today=True",
+    "fixture": "alert: touched four ordinary domains with no log rows; water central KB row",
+    "rc": 0,
+    "stdout": "\n====================================================================\n  DOMAIN LOG CHECK  \u00b7  did each domain layer record what its domain did?\n====================================================================\n  date: 2026-10-21\n\n  \u00b7 hurricane/   log rows today: 0    KB rows: 0    (touched)\n  \u00b7 regime/      log rows today: 0    KB rows: 0    (touched)\n  \u00b7 seismic/     log rows today: 0    KB rows: 0    (touched)\n  \u00b7 water/       log rows today: 0    KB rows: 1    (touched)\n  \u00b7 wildfire/    log rows today: 0    KB rows: 0    (touched)\n\n  \ud83d\udd34 5 DOMAIN LOG GAP(S):\n\n     [A] hurricane/ \u2014 folder changed today but LOG.tsv gained 0 rows\n     [A] regime/ \u2014 folder changed today but LOG.tsv gained 0 rows\n     [A] water/ \u2014 folder changed today but LOG.tsv gained 0 rows\n     [B] water/ \u2014 KB gained 1 row(s) for this domain (X) but LOG.tsv gained 0\n     [A] wildfire/ \u2014 folder changed today but LOG.tsv gained 0 rows\n\n  This is the L-28 shape: work done by the ORCHESTRATOR bypasses the\n  observation layer, because AGENT.md only disciplines spawned WORKERS.\n  The contract binds whoever did the work, not whoever was spawned.\n\n  Fix: append the day's events to the domain log, as a worker would have.\n====================================================================\n\n"
+  },
+  {
+    "command": "imported main() on temporary fixture; touched_today=True",
+    "fixture": "clean: each touched domain has one dated event",
+    "rc": 0,
+    "stdout": "\n====================================================================\n  DOMAIN LOG CHECK  \u00b7  did each domain layer record what its domain did?\n====================================================================\n  date: 2026-10-21\n\n  \u00b7 hurricane/   log rows today: 1    KB rows: 0    (touched)\n  \u00b7 regime/      log rows today: 1    KB rows: 0    (touched)\n  \u00b7 seismic/     log rows today: 1    KB rows: 0    (touched)\n  \u00b7 water/       log rows today: 1    KB rows: 1    (touched)\n  \u00b7 wildfire/    log rows today: 1    KB rows: 0    (touched)\n\n  \u2713 clean \u2014 every touched domain recorded at least one event in its own log.\n====================================================================\n\n"
+  },
+  {
+    "command": "imported main() on temporary fixture; touched_today=True",
+    "fixture": "missing-log counterexample: water LOG absent, other touched domains have rows",
+    "rc": 0,
+    "stdout": "\n====================================================================\n  DOMAIN LOG CHECK  \u00b7  did each domain layer record what its domain did?\n====================================================================\n  date: 2026-10-21\n\n  \u00b7 hurricane/   log rows today: 1    KB rows: 0    (touched)\n  \u00b7 regime/      log rows today: 1    KB rows: 0    (touched)\n  \u00b7 seismic/     log rows today: 1    KB rows: 0    (touched)\n  \u26a0\ufe0f  water/       no LOG.tsv at all\n  \u00b7 wildfire/    log rows today: 1    KB rows: 0    (touched)\n\n  \u2713 clean \u2014 every touched domain recorded at least one event in its own log.\n====================================================================\n\n"
+  }
+]

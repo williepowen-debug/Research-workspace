@@ -1,0 +1,1001 @@
+{
+  "observed_at": "2026-10-21T14:39:25.051591+00:00",
+  "purpose": "Inventory and start hashes, not a read-coverage certificate",
+  "files": [
+    {
+      "path": "AGENTS/AEOLUS/CALENDAR.md",
+      "bytes": 15223,
+      "sha256": "d1cec64080923cbe38b118bdab1f729a0b21c2da36a6ccf7d7d96420d08ac17e"
+    },
+    {
+      "path": "AGENTS/AEOLUS/CLAUDE.md",
+      "bytes": 48034,
+      "sha256": "0defb9cabe4116ae568a6f217182b349ac47688ba4c8a483f6d9317ef1d5e513"
+    },
+    {
+      "path": "AGENTS/AEOLUS/LESSONS.md",
+      "bytes": 70424,
+      "sha256": "30454fc2c59366ef0becaaf58ca6967346fd2e34b1aee880314ae4568f6052c9"
+    },
+    {
+      "path": "AGENTS/AEOLUS/NEXUS_BRIEF.md",
+      "bytes": 7393,
+      "sha256": "b94aab2aa2bdadbad9d23c090eced2e8a5e884bc280e966274da594a0505d601"
+    },
+    {
+      "path": "AGENTS/AEOLUS/SCRATCH.md",
+      "bytes": 7028,
+      "sha256": "98235e18eed6e93718ebf40d72e5e4150b289c8169937968387758fc72ec9ba7"
+    },
+    {
+      "path": "AGENTS/AEOLUS/STATUS.md",
+      "bytes": 23768,
+      "sha256": "3a1987c0372e7690e05ef9cf0aaef02f59efafc052d9dbbb0eda1095272d19e5"
+    },
+    {
+      "path": "AGENTS/AEOLUS/THESIS.md",
+      "bytes": 20855,
+      "sha256": "9d6df467101ac3ab7c9ea6140aabb0a5b00a0839f4cd5dd4232325ffc34cbe2a"
+    },
+    {
+      "path": "AGENTS/AEOLUS/TRADE.md",
+      "bytes": 12126,
+      "sha256": "d668700c05ca3918af96bf9efc159870ed8b3a7993809ed9d1ae0a6fcd4ebf20"
+    },
+    {
+      "path": "AGENTS/AEOLUS/archive/CALENDAR_ARCHIVE_2026-09-28_resolved-rows.md",
+      "bytes": 14123,
+      "sha256": "c10849035a03efcba98d65a99ae9d273ac733b3ac903af580b3157976342183f"
+    },
+    {
+      "path": "AGENTS/AEOLUS/archive/HURRICANE_DOSSIER_ARCHIVE_2026-10-10_sec0-6.md",
+      "bytes": 21175,
+      "sha256": "565181309431e2ea5ba72241464d42c1f317476a14b33cddc63d670c7cdd50de"
+    },
+    {
+      "path": "AGENTS/AEOLUS/archive/NEXUS_BRIEF_ARCHIVE_2026-09-11_fold.md",
+      "bytes": 25804,
+      "sha256": "33588b73ad12fc5edf6c84407c07c56569f72e334732c71a150f27defce88a88"
+    },
+    {
+      "path": "AGENTS/AEOLUS/archive/NEXUS_BRIEF_ARCHIVE_2026-09-28_fold.md",
+      "bytes": 8659,
+      "sha256": "c2b2ccbca700c1c1cc4f8055c96fdabdbc35b50d378b7316851cc358df80de16"
+    },
+    {
+      "path": "AGENTS/AEOLUS/archive/NEXUS_BRIEF_ARCHIVE_2026-10-08_fold.md",
+      "bytes": 6789,
+      "sha256": "9d1992c6b608a1097f546cef5cde49e4df06af9271ab41cfbf357cd7c5d5e505"
+    },
+    {
+      "path": "AGENTS/AEOLUS/archive/NEXUS_BRIEF_ARCHIVE_2026-10-09_fold.md",
+      "bytes": 8070,
+      "sha256": "ebb4cc0913e703958d5b7cff357f68db5e9ed656f1ff624ac2741cc51bf00ea2"
+    },
+    {
+      "path": "AGENTS/AEOLUS/archive/OPEN_THREADS_2026-07-09.md",
+      "bytes": 5045,
+      "sha256": "a71bdf6fc0b756021c01df3b0b3c8fe021fa63d2cafd68691d3195ac986cb319"
+    },
+    {
+      "path": "AGENTS/AEOLUS/archive/SCRATCH_ARCHIVE_2026-08-27_pickup-block.md",
+      "bytes": 20599,
+      "sha256": "3687ed4fffdca67442e81e9b06d94aec62b449195c08a86ba30e36c3727e9045"
+    },
+    {
+      "path": "AGENTS/AEOLUS/archive/SCRATCH_ARCHIVE_2026-08-27_superseded-blocks.md",
+      "bytes": 54234,
+      "sha256": "1ad80e7d04259f04bcb9ff066b65b796c5c69ed13b4a2c61b051118fc163bf81"
+    },
+    {
+      "path": "AGENTS/AEOLUS/archive/SCRATCH_ARCHIVE_2026-09-28_pickup-blocks.md",
+      "bytes": 11748,
+      "sha256": "47413981a69dcbe9f61e2edb1088270668d3f7f42d8f4183f56937c61b561a15"
+    },
+    {
+      "path": "AGENTS/AEOLUS/archive/SCRATCH_ARCHIVE_2026-10-10_10-9-block.md",
+      "bytes": 4955,
+      "sha256": "38ad074d876e5f4edd34cf16828c19bc4fc7fd9f3fd87c84e1132a2622a83a34"
+    },
+    {
+      "path": "AGENTS/AEOLUS/archive/SCRATCH_ARCHIVE_2026-10-10_pickup-blocks.md",
+      "bytes": 8316,
+      "sha256": "f00a02be04e6ebae2d4fa81d92ff6449d1b8723c757bb049a5f4c6974e5368eb"
+    },
+    {
+      "path": "AGENTS/AEOLUS/archive/STATUS_ARCHIVE_2026-08-27_narrative.md",
+      "bytes": 17594,
+      "sha256": "cb601070b38a8188a725b284d336fcfd3265eb5bf9774c350eea8ad4e2287fc2"
+    },
+    {
+      "path": "AGENTS/AEOLUS/archive/STATUS_ARCHIVE_2026-09-11_session-blocks.md",
+      "bytes": 11346,
+      "sha256": "a5ace3dae778c9fe7da80d7ea787a3d0cba1479dbe817fb043463d5d40b63d10"
+    },
+    {
+      "path": "AGENTS/AEOLUS/archive/STATUS_ARCHIVE_2026-09-18_full.md",
+      "bytes": 32323,
+      "sha256": "fbeb1853b5e37b0f8cdec7137a035c1c76fe8f2fb32fb018cf16c752b90b8d37"
+    },
+    {
+      "path": "AGENTS/AEOLUS/archive/STATUS_ARCHIVE_2026-10-10_C1-isaias-grade.md",
+      "bytes": 2681,
+      "sha256": "31350423339908dbfc1ebb2ffe8b2b6599e72d00f237de2bff6cd205895a93eb"
+    },
+    {
+      "path": "AGENTS/AEOLUS/archive/STATUS_ARCHIVE_2026-10-10_pm-lines.md",
+      "bytes": 1664,
+      "sha256": "d75f7f7d26fbe1881d73b4c0f5aa60720123be64ac60d1b8bd446f3d7103372d"
+    },
+    {
+      "path": "AGENTS/AEOLUS/archive/WATER_DOSSIER_ARCHIVE_2026-10-10_9-28-pass-to-sec5.md",
+      "bytes": 80965,
+      "sha256": "d28fe86a24e0e832f49f5b0d98b29f46823a9135809d32953b1f79a8f692a172"
+    },
+    {
+      "path": "AGENTS/AEOLUS/archive/WILDFIRE_DOSSIER_ARCHIVE_2026-10-10_9-28-refresh-and-sec1-6.md",
+      "bytes": 26561,
+      "sha256": "fdd909c217dd2c4bafedd44bfd086a74884cd3de9d6143b551ecd7b787724005"
+    },
+    {
+      "path": "AGENTS/AEOLUS/board_log.tsv",
+      "bytes": 20741,
+      "sha256": "2cdc68c519ff5023748c2a4c08c38424fb67b497697050c56fc3f97dd43c7e91"
+    },
+    {
+      "path": "AGENTS/AEOLUS/design/2026-08-13_subagent-architecture.md",
+      "bytes": 12045,
+      "sha256": "0b7a88add3940935ad8b242e4b0e77d844e4e49c061d13c8e161fa42f8e84216"
+    },
+    {
+      "path": "AGENTS/AEOLUS/hurricane/AGENT.md",
+      "bytes": 11607,
+      "sha256": "54e503c2b145d78e11857a7e781707a1d297919047b656fca8a5638e5bdba5bb"
+    },
+    {
+      "path": "AGENTS/AEOLUS/hurricane/DOSSIER.md",
+      "bytes": 12993,
+      "sha256": "c6d208f20957fe2a385d18a759ff5b1f1fa5ebb0fbcc57fecdfc7ea5c26ca694"
+    },
+    {
+      "path": "AGENTS/AEOLUS/hurricane/README.md",
+      "bytes": 4209,
+      "sha256": "dc93eaa391d7d419e9687dc2ce0f4030b6a910bc2c1be5baa32df3a75f7e54c5"
+    },
+    {
+      "path": "AGENTS/AEOLUS/hurricane/RUN_REPORT.md",
+      "bytes": 11526,
+      "sha256": "45a32de3cc35726232ade4d5a90fe02f22b04bca69e4627fe83c253abf1e7ed8"
+    },
+    {
+      "path": "AGENTS/AEOLUS/hurricane/RUN_REPORT_ADDENDUM.md",
+      "bytes": 11563,
+      "sha256": "37195bfa64297e26bbc30beadfe3f69d920e09be6502e6f09bc0b6805dbd6226"
+    },
+    {
+      "path": "AGENTS/AEOLUS/hurricane/SOURCES.md",
+      "bytes": 15122,
+      "sha256": "f1b035b534a7b720308f2fa53afa61616407358a70f2d6ff2f3b2652e1d089b3"
+    },
+    {
+      "path": "AGENTS/AEOLUS/hurricane/workbook/LOG.tsv",
+      "bytes": 53024,
+      "sha256": "97b50530c955a6f4c72de10b6d64bbcbfd25fe64fe0cf1e5267426fbec84d217"
+    },
+    {
+      "path": "AGENTS/AEOLUS/hurricane/workbook/SERIES.tsv",
+      "bytes": 11880,
+      "sha256": "48c1bbe4bae63063cb79f5d59e694b0c52ce7e784e581494a2bd852947fc436f"
+    },
+    {
+      "path": "AGENTS/AEOLUS/hurricane/workbook/STORMS.tsv",
+      "bytes": 10142,
+      "sha256": "0be627aebb34329a6245f52a89a17d379d77894a7442024578a5c41dff7ed969"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/2026-10-12_from-DEWEY_dr4-storage-rerun-hns07.md",
+      "bytes": 661,
+      "sha256": "b58ddece7bef17f7dda28a053a050e002ffcc4dd3fa14a1dd698479d4ef0f7ed"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/2026-10-15_from-WATT_PJM-10-13-14-emergency-supply-driven-not-weather.md",
+      "bytes": 1213,
+      "sha256": "732502290b3fa5db3e8b269290aa7b202f2dc10b7fc95a1604c73e2a65f4e233"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/2026-10-20_from-WATT_september17-EEA2-and-outage-season-read.md",
+      "bytes": 1043,
+      "sha256": "6adc12d05546ab52b62e5fd78fb42b08344f1e7724762f76707d043ec1bcd30c"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/WALTER/SIG-W-20261012-015.md",
+      "bytes": 2660,
+      "sha256": "781d3f1a3c9a60fb5c3333edccf72717878a3f4e7aa1c278cccf9ad665886dcf"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/WALTER/SIG-W-20261014-026.md",
+      "bytes": 2166,
+      "sha256": "aeb5ffebd65369da8988d0b208e6b8dfb82e805d62bf204de71178e97692c831"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/WALTER/SIG-W-20261015-011-handoff.md",
+      "bytes": 536,
+      "sha256": "a20c58ee804a060ea9c7538ed8f612d8d080a22489601375ecbde7a8c05d7b20"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/WALTER/SIG-W-20261016-011.md",
+      "bytes": 1489,
+      "sha256": "1f002793c50c67c04e66ec89cb45922dcb34ca0455c55377919a5d3e1e985eed"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/WALTER/SIG-W-20261019-003.md",
+      "bytes": 772,
+      "sha256": "2f150c7b15ea9b51124d96788f8ff4ff3122d56e8405777e0364ccc6fb3dda32"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/WALTER/processed/SIG-W-20260710-002.md",
+      "bytes": 683,
+      "sha256": "ae5578553aa666e8379626e3a8e1ea12607ddda6377d9f9e0110562d9eaca37c"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/WALTER/processed/SIG-W-20260710-005.md",
+      "bytes": 729,
+      "sha256": "f3a7b8b28fb5f65ca4f81938a46b7a12f166a4d409ab687b744b2252bbbf3cf5"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/WALTER/processed/SIG-W-20260717-016.md",
+      "bytes": 1905,
+      "sha256": "24435515bd93f94d7d6dd650b4a8ddeb8ef80824fcede9d815775b42305de5eb"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/WALTER/processed/SIG-W-20260723-018.md",
+      "bytes": 1080,
+      "sha256": "47a53e5ee22596e8e7bc995487ba57a7528ea8b438e55dd87a8b4cbc515c893d"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/WALTER/processed/SIG-W-20260723-019.md",
+      "bytes": 1017,
+      "sha256": "615064385e56d8378b40be590cb5ed5fb2ac8be8b4502a5bb4b1d5caca58af17"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/WALTER/processed/SIG-W-20260725-005.md",
+      "bytes": 3425,
+      "sha256": "7a4b614ebc855b8f58447ba6a2bb44a669850c7e55e7eb530a3b297db25c4cec"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/WALTER/processed/SIG-W-20260725-010.md",
+      "bytes": 1669,
+      "sha256": "fdd801b9170a7352efca8c46789bbef0e41e12b0a13d6da384e8e92968eedd87"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/WALTER/processed/SIG-W-20260725-011.md",
+      "bytes": 2347,
+      "sha256": "3a1f62442a08fa32806a61ef22f088434ba2eaec26f807787af3be7eac138e38"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/WALTER/processed/SIG-W-20260725-012.md",
+      "bytes": 2945,
+      "sha256": "21bd9a25e4b3df18aa0b301b9012effa4a9e49f42b414c446e264f27bce39f67"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/WALTER/processed/SIG-W-20260727-010.md",
+      "bytes": 4298,
+      "sha256": "c08faaa567d978895c2049da77993d8bd5c76b2ef429a2e9aeb81a3b6251d4aa"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/WALTER/processed/SIG-W-20260727-026.md",
+      "bytes": 2485,
+      "sha256": "f76ea4cce578ccbc70d60f5053a3b6ca45aaf23fc321b22db31e4d3713af933c"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/WALTER/processed/SIG-W-20260728-003-pjm-3gw-data-center-disconnect-mechanism-correction.md",
+      "bytes": 1745,
+      "sha256": "89b5d4c5cf9165f271f8a395cbbcbf1904a7313146674741446dcd464a902578"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/WALTER/processed/SIG-W-20260728-004-qatar-lng-force-majeure-fourth-month.md",
+      "bytes": 2580,
+      "sha256": "f413ab66bd4031e79e29d84ee9b2ec0d30cafa791be5206774557f722c74b7d1"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/WALTER/processed/SIG-W-20260728-005-rhine-kaub-july-levels-worse-than-2018-2022-seasonally.md",
+      "bytes": 3395,
+      "sha256": "8fd91dd773e3c3628f7e05edd3bb89e149fcbc8f558e25e9af8c0f0f6584b882"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/WALTER/processed/SIG-W-20260730-011-rhine-closing-freight-ath.md",
+      "bytes": 885,
+      "sha256": "fe511f4a32b627432c5ec00afe0df9721009724f028dd948834e0ecfcfb84ab6"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/WALTER/processed/SIG-W-20260802-003-sulfur-acid-war-channel-metals-leg.md",
+      "bytes": 1254,
+      "sha256": "d8f1beb0935006cdf17ffbe93e0b8336d84b30717cae00d6f9e5180961d167cc"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/WALTER/processed/SIG-W-20260802-008-spokane-record-fire-insurance-leg.md",
+      "bytes": 1110,
+      "sha256": "7e363bcece8350c751749be7ded04d2ceaa84de651ae7d1cfd029feee8b27c4e"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/WALTER/processed/SIG-W-20260812-015-the-12bn-farm-aid-is-a-component-of-a-95bn-package-that-passed-216-214-and-is-stalled-in-the-senate.md",
+      "bytes": 6427,
+      "sha256": "eeea2dfb1aadcbb839671b3a3a0dd3ddc1b26cedee5500cec39b653ab86c62a6"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/WALTER/processed/SIG-W-20260812-017-texas-paused-data-center-interconnections-against-474gw-of-requests-and-the-fleet-has-zero-ercot-coverage.md",
+      "bytes": 7851,
+      "sha256": "f01ceb90a40db3f86859c296215f155433eceb2ded7c5a31a3639c64f38e2ddc"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/WALTER/processed/SIG-W-20260828-036-britain-had-its-worst-harvest-in-over-40-years-and-farmers-warn-of-food-shortages-within-months.md",
+      "bytes": 1801,
+      "sha256": "77500daca7702071941f8571b8007d7fdb4ccacd34d0d6a1bc362677c49b5c1f"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/WALTER/processed/SIG-W-20260901-011-tropical-storm-edouard-made-landfall-at-johnson-bayou-at-320-pm-edt-15-miles-from-port-arthur-60-mph-10-to-15-inch-rain-risk-for-the-refinery-hub.md",
+      "bytes": 4217,
+      "sha256": "74c62f06796f6cf0069220a37b02d14692e821cec8e737bfa4f393ba5cb96589"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/WALTER/processed/SIG-W-20260903-003-live-pjm-capacity-emergency-doe-202c-order-through-9-8-watt-p1-fired-2-to-5-and-the-large-load-clause-is-the-ai-capex-power-leg-made-operational.md",
+      "bytes": 4169,
+      "sha256": "bed983996b0a86478c3e32ed943be5e8712e0f57f9bd6987006f8b73995673c9"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/WALTER/processed/SIG-W-20260908-013.md",
+      "bytes": 1636,
+      "sha256": "d37716d50bcca2f5d547fff3abdbf9aa8380a10423b1832ba3a15ab54c64090f"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/WALTER/processed/SIG-W-20260908-015.md",
+      "bytes": 1478,
+      "sha256": "ce2f0783f02f03ac520f7c541ec1edac83326b41fc68bd3994b184c138cfac77"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/WALTER/processed/SIG-W-20260910-008.md",
+      "bytes": 2363,
+      "sha256": "f60c092fbb7bc05048c842bac515908109a14f0c761ab1ffab9b4851c54a414c"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/WALTER/processed/SIG-W-20260910-014.md",
+      "bytes": 925,
+      "sha256": "26caebeafbd4f130122cae71ea49c2501975e47b14e14d1a24bde2cbcb1f0c77"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/WALTER/processed/SIG-W-20260928-011.md",
+      "bytes": 714,
+      "sha256": "ebc3fbd8fa81fff5ca2ebee9364826d0696f7eb9a7e9320ec0374a5b55a7cc0b"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/WALTER/processed/SIG-W-20261001-020.md",
+      "bytes": 797,
+      "sha256": "019cb0d32afed0e0621042fb51f3cd488b75759ea37b8e97c3816419b67dff3f"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/WALTER/processed/SIG-W-20261002-020.md",
+      "bytes": 902,
+      "sha256": "4bfa0b1181f5f89b5cf1ced0ac19ad1e597f309ff856df7ec6b5a602d8d400ca"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/WALTER/processed/SIG-W-20261002-030.md",
+      "bytes": 1256,
+      "sha256": "93a69941c45bf4d3de28c4cd6ac4eed10df5d32e1901de2bb7e3600f3535d7c7"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/WALTER/processed/SIG-W-20261002-033.md",
+      "bytes": 1336,
+      "sha256": "7ec459d35f54e2c332e2eeba8b82125cab28e5598faadab3d96d218142320dad"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/WALTER/processed/SIG-W-20261003-015.md",
+      "bytes": 591,
+      "sha256": "9da62c71e61df9f862ee419bf95f4118c38f9cbf27a2b14a74505dc0bf7f59e4"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/WALTER/processed/SIG-W-20261004-008.md",
+      "bytes": 584,
+      "sha256": "95eec739b162bff9473a419ffcd5f6ca1f58c1de5f436d2fa61bdf26a2dd901a"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/WALTER/processed/SIG-W-20261007-005.md",
+      "bytes": 2166,
+      "sha256": "b79addacc22481fc76ba64fa6a593871e10da6f04b297529fcf2a6f755345ab8"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/WALTER/processed/SIG-W-20261008-001.md",
+      "bytes": 3732,
+      "sha256": "21214ea075ccd71d8355206ab930b9e57e722b4200a5db34630fbe234586c85e"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/WALTER/processed/SIG-W-20261008-019.md",
+      "bytes": 5476,
+      "sha256": "9f8217054fbe8b8eb1eb67b6f156244bdec58123aa105a2eedfe1ac5f3578b22"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/WALTER/processed/SIG-W-20261008-027.md",
+      "bytes": 2546,
+      "sha256": "44e67eb74cbff5023f7478ec689d1a2c993018974775eb2368ebbc2c55e7cf27"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/WALTER/processed/SIG-W-20261008-033.md",
+      "bytes": 4835,
+      "sha256": "fb417d58fa9fef558ab601a31d064d97df883c21bff70b9263458d2072e6d7d2"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/WALTER/processed/SIG-W-20261008-035.md",
+      "bytes": 2000,
+      "sha256": "8f8be3bea8f0966dce71443a36bbfe1b7efc59a0742d5887766ad4caf38edb1f"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/WALTER/processed/SIG-W-20261008-042.md",
+      "bytes": 4901,
+      "sha256": "8def6aeb095ad0cdb7a79ba9b5d568b042bd7ef6b224ef04afa679bcf533aa71"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/WALTER/processed/SIG-W-20261008-046.md",
+      "bytes": 4526,
+      "sha256": "76f83ff6106aa7f64e978221a3f03c540bbfff9bcff5ce3c38082c82060c25a8"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/WALTER/processed/SIG-W-20261009-004.md",
+      "bytes": 4438,
+      "sha256": "39ad6948956ba876e0aa0a155e3009357f532b576169bba1c1d8deb490213f28"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/WALTER/processed/SIG-W-20261009-011.md",
+      "bytes": 3761,
+      "sha256": "05a1c850d8c8679e66ae469cd29c4e745b0731200abd86bf1d2c6301d785642e"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/processed/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/processed/2026-07-10_from-DAEDALUS_c3-power-routing-fixed.md",
+      "bytes": 1767,
+      "sha256": "fae8d9c60d8370fd39a96b0707eb253531a8c90ab0fae60db9a1e6cd79917399"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/processed/2026-07-10_from-DAEDALUS_c3-routes-to-watt.md",
+      "bytes": 1092,
+      "sha256": "2500d9fafaf387b23b02b4440228a60d1b4cdc90dbbdb87ac23f137f9b1edf5a"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/processed/2026-07-11_from-WALTER_install-consume-step.md",
+      "bytes": 1792,
+      "sha256": "9731c621efd4c7fe8be2ce2954f7589c180cc66546c55c04c35a811a5b726ce9"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/processed/2026-07-16_from-PROME_eea2-202c-verified.md",
+      "bytes": 1262,
+      "sha256": "dfb1647eb195a54be68ee58a1b639988d44ff074b3c0dc65af594c3928933f71"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/processed/2026-07-16_from-PROME_ratify-your-lane-query.md",
+      "bytes": 991,
+      "sha256": "c3a8a44303c6c21dd3aba83d29994fad833b13d907c7e35c88fd1aaf5bb20e04"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/processed/2026-07-16_from-WATT_c3-confirmed-mechanism-not-cost.md",
+      "bytes": 3524,
+      "sha256": "ed5d5da68327b6a62fb225544e6fd52e89f43670955678e21703230c23f4a73e"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/processed/2026-07-21_from-CORAL_citizens-scope-resolved_bertha-fyi.md",
+      "bytes": 1755,
+      "sha256": "cfc28c8c6cfbbddd9d0fbab565309bcd068512ba5dfe93e1b4e37ca8ad348cc2"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/processed/2026-07-22_from-WATT_c3-live-flag-NOT-corroborated.md",
+      "bytes": 3332,
+      "sha256": "705688579c1ac982d82576ea01f09861b92c505f11892e7e52219c7319de4302"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/processed/2026-07-25_from-REGINALD_reply-C4-muni-yes-there-is-one-name-ZION-but-it-is-my-weakest.md",
+      "bytes": 4671,
+      "sha256": "e6e4c613bebaf946d65c887b0324dbbcb4e1a554bc57549bc91bb50e19468f58"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/processed/2026-07-28_from-WALTER_water-scarcity-wired-to-you-C6-promotion-is-YOUR-call.md",
+      "bytes": 8957,
+      "sha256": "f9b0a0af9805929700c6a8ec3d236189841529db8fe483130e3b4f18928004cb"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/processed/2026-07-28b_from-WALTER_YOU-OWN-post-2026-colorado-river-put-it-on-the-calendar.md",
+      "bytes": 5919,
+      "sha256": "df0431c5580f5c67c4c12c4324fe54a0647299bd2810276baf57c8ca58f34589"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/processed/2026-07-31_from-MARCO_REPOINT-c5-goods-cpi-lane-is-dead-route-to-CARL.md",
+      "bytes": 4095,
+      "sha256": "6e890d7dfc0a5eae7fc93b0c9a65babbf999f0eb52755ec3f7d634fce4aacd90"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/processed/2026-07-31_from-NEXUS_schema-amendment-9-compact-variant-ratified.md",
+      "bytes": 1575,
+      "sha256": "a8807af0753c8d81f5f64520fc6f6509b06c7017daf0272eccf939a43236fb1b"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/processed/2026-08-04_from-PROME_nexus-amendment-10-brief-fold-ordering.md",
+      "bytes": 1573,
+      "sha256": "688e3f875ef015bc96a6de7da1440122054add94fa78b39abdae135731e0e674"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/processed/2026-08-04_from-TERRY_LIQUIDITY-GATE-FAILED-the-FL-primaries-have-no-options-market-rethink-the-vehicle.md",
+      "bytes": 8680,
+      "sha256": "937a80250a9941b7cb86179b1766044f3766f0eba906e32ff5b2b141ee507a95"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/processed/2026-08-04_from-WATT_colorado-river-hydro-sized-mead-1035-is-the-binding-cliff.md",
+      "bytes": 8378,
+      "sha256": "6b04c5a76f79b3d3745eed2c6e98e80ed666a0c0eb9744091fc5cf34a60f3bca"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/processed/2026-08-04_from-WATT_el-nino-sign-for-PJM-winter-peak-the-naive-read-may-be-inverted.md",
+      "bytes": 3229,
+      "sha256": "d838a2d4f0c8bf4f803cd71945c9aed70fdab8fdcf2d56c5ea7a0e4bf73f2980"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/processed/2026-08-07_from-DAEDALUS_falsification-rail-EXTRACT-AND-STAMP-retrofit-plus-F5-correction-you-were-misread.md",
+      "bytes": 1685,
+      "sha256": "4a0e54f59a330ae0a27c5c5a63b3e0935f04c74ff5979e209f01a201be8bca4a"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/processed/2026-08-11_from-MARCO_the-brent-85-trigger-youre-holding-was-described-to-you-on-a-false-premise.md",
+      "bytes": 3413,
+      "sha256": "a2556406b61161bdabe44bacd1316bda49559515c4768d922ed9fa3c65580218"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/processed/2026-08-12_from-DEWEY_dr4-european-energy-baseline.md",
+      "bytes": 2795,
+      "sha256": "bef5fcc822b8f09d65f9338ceb46179768de438e0edb60f986b10a7c90ef82a0"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/processed/2026-08-12_from-PROME_row-48-RULED-C6-re-key-to-Mead-1035-approved-as-proposed.md",
+      "bytes": 1948,
+      "sha256": "d233166ef41b675fe167aba1c8cd178ba00b515fa089ec05733919d8a5982294"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/processed/2026-08-13_from-BRENT_cc-EU-gas-storage-feed-routed-to-SAM-winter-demand-leg-is-yours.md",
+      "bytes": 2994,
+      "sha256": "89b5e8f4fde30bd9c849bf229de36ee84ad5137efe405a6cd537f49f6f1f7372"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/processed/2026-08-14_from-SAM_kumamoto-not-on-my-radar-no-detected-repricing-which-is-weaker-than-no-impact.md",
+      "bytes": 3342,
+      "sha256": "29eadf7ef7a128a53438790cda2a779d04de34c2cb768aecb45ce00a22f46f4a"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/processed/2026-08-15_from-CARL_3.0-replaced-with-3.6-and-AZ-1.96-on-both-surfaces-retraction-taken-in-full.md",
+      "bytes": 2488,
+      "sha256": "443690119ebfe2feef960d7d49c5d0a4105760d3712655611260a69667024f0e"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/processed/2026-08-17_from-DAEDALUS_pr4-six-items-thesis-flips-before-8-24-sweep.md",
+      "bytes": 2168,
+      "sha256": "15cfc92f7a6541f060930f29da8e60ba7cc4c1aaaa56591f42b6ac88f4eab5b7"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/processed/2026-08-21_from-MARCO_the-DJF-outlook-you-owe-me-PUBLISHED-8-20-and-it-confirms-your-corrected-snowbird-read.md",
+      "bytes": 5700,
+      "sha256": "4cad8e2d7cd521d825cbfd24e3c3865cbeac801e08fdaeab8e54133907a2df8b"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/processed/2026-08-28_from-DAEDALUS_P1-read-cap-RULED-your-boot-reads-measured-2-over-budget-1-over-cap.md",
+      "bytes": 2772,
+      "sha256": "5aa1c4131bbb4d479d8fb5b34f0d9851fc2fe47859091ad7a243d4165051a3a7"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/processed/2026-09-02_from-VULCAN_answering-your-water-instrument-ask-no-and-here-is-the-honest-reason.md",
+      "bytes": 3679,
+      "sha256": "43b6db35fe0bc144861b9ff9faab1d029e07b91743a037e3cc6dd9712ac234dd"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/processed/2026-09-03_from-WATT_answering-Hoover-there-is-NO-rate-repricing-event-and-Mead-has-never-tested-1035.md",
+      "bytes": 11036,
+      "sha256": "ca9ce285bfea4c0da3bc983b03d9eb51d8ea22eafd5910417c0e1166e2340b5d"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/processed/2026-09-08_from-BRENT_owner-market-catchup.md",
+      "bytes": 900,
+      "sha256": "b6b5156dc4f2868e16d67b6f8fa57a78f543df5cd76e27a7270a8110f103a374"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/processed/2026-09-17_from-DAEDALUS_PR6-PR6-profile-6-false-statements-4-because-you-fixed-them-conf-stays-M-AEO-03.md",
+      "bytes": 1461,
+      "sha256": "fe2db181e050f7301289b9518e14597eb5879ad7f81f1156d95986281ad4c08c"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/processed/2026-09-17_from-NEXUS_CORRECTION-I-had-you-dark-you-were-not.md",
+      "bytes": 2137,
+      "sha256": "a5261518799475d3317e00f31f1a68d110f2dec31049b480a7872c772a48688f"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/processed/2026-09-25_from-PROME_declare-cadence-and-watch-terms-WQ-295.md",
+      "bytes": 2824,
+      "sha256": "029dc92aed1a3e3e486f08142d73c23db05a9759d7396cfbcf3bb5ce319cd425"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/processed/2026-09-25_from-WATT_confirm-heat-leg-9-16-17-PJM-emergency-WATT-11-classification.md",
+      "bytes": 1759,
+      "sha256": "0a3dc2853ff30a4a75835a52489620624d3948ed81ca7f899eaa54ad41757630"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/processed/2026-09-28_from-HENRY_rhine-vs-F1-crack-basis.md",
+      "bytes": 1044,
+      "sha256": "9ece0921ba9f9608ac3958a38d9e8af6222fb5bfed3cdf00588dfed834cddd38"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/processed/2026-10-01_from-DAEDALUS_PR7-reinsurance-basis-vs-CORAL-and-L4-legs.md",
+      "bytes": 951,
+      "sha256": "3ac80fe5882427592b141634c2dc31f183d554fbf01eb111886ab81b0392129d"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/processed/2026-10-01_from-WALTER_R3-watch-for-verdicts.md",
+      "bytes": 1259,
+      "sha256": "e55545f70318cfcc34406889a0b8394830145e838505bb3d5058a22a05951958"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/processed/2026-10-08_from-BRENT_isaias-consumed-and-rb-contract-mix.md",
+      "bytes": 1431,
+      "sha256": "f60fa8a08f10f281b3af27301b8f24f5bd3185eda036ba55a16afdcc186826af"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/processed/2026-10-08_from-DAEDALUS_sweeps-gatebasis2-falsif4-prose1.md",
+      "bytes": 1634,
+      "sha256": "3de2cc80ececec8cef268e350e1c383599bc4f37503f651d9a349cdbaf392f67"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/processed/2026-10-08_from-DAEDALUS_wiring-17-run3-threshold-basis.md",
+      "bytes": 1033,
+      "sha256": "d8c9f744d80feca3e6602a9988973918561b73ee4af3e3c6cfbefa1d9f07f934"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/processed/2026-10-09_from-CORAL_isaias-five-asks-answered.md",
+      "bytes": 5355,
+      "sha256": "e3ecf8ffe88838790cc49c6c6fc55e9026cc5ae543d4523eb099343425673c79"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/processed/PROME_ROUTING_2026-07-12.md",
+      "bytes": 518,
+      "sha256": "022adee7c501610aed387b24cb7a8a0c59d8521ea1a8292cc8508042bac68ef1"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/processed/SIG-W-20260628-011.md",
+      "bytes": 800,
+      "sha256": "e4add2c5c289ceebea91eb9c2bff728ff18a26d3ea6090dff8ca40bdea6618d2"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/processed/SIG-W-20260628-012.md",
+      "bytes": 697,
+      "sha256": "9321e769b8822351ef7464fc2172e7154229bc893dd10d5133819b261b3ad616"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/processed/SIG-W-20260702-010.md",
+      "bytes": 921,
+      "sha256": "486d20628a328faafcbab46b5350441ab7484db86e45a732db468797b90a0c58"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/processed/SIG-W-20260704-007.md",
+      "bytes": 755,
+      "sha256": "7ad72097cef13d04bba93ae7668e5fb72093813b1ae9b7e5de4d611ac90c7e22"
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/processed/SIG-W-20260706-010.md",
+      "bytes": 569,
+      "sha256": "3f3aa34092ef910f26727d665e5e6142a47a9af9f60a586969aa9a7373a2d528"
+    },
+    {
+      "path": "AGENTS/AEOLUS/outbox/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "AGENTS/AEOLUS/outbox/2026-07-22_to-BRENT_bertha-gulf-shutins-muted.md",
+      "bytes": 1535,
+      "sha256": "4abc4e9218d2377669f0910b6d4f96933d533db5a6b72ace10423485917e9c7b"
+    },
+    {
+      "path": "AGENTS/AEOLUS/outbox/2026-07-22_to-CORAL_fairplan-citizens-parallel-fyi.md",
+      "bytes": 1205,
+      "sha256": "e64761bf4968c3ebe555ade0c7022731de1f7de0862aaa32fecb771c716da4c6"
+    },
+    {
+      "path": "AGENTS/AEOLUS/outbox/2026-07-22_to-MARCO_c5-mississippi-lowwater.md",
+      "bytes": 1476,
+      "sha256": "46979e2eb2e9ae19f96287f557871646b40ce9e534f4af3564974ebf4df5b84f"
+    },
+    {
+      "path": "AGENTS/AEOLUS/outbox/2026-07-22_to-PROME_ratify-research-intake-query.md",
+      "bytes": 1433,
+      "sha256": "b5109907a687cb5abae2a726c97a24ced8f6412f7bc91bcf88c75ee13f429616"
+    },
+    {
+      "path": "AGENTS/AEOLUS/outbox/2026-07-22_to-PROME_will-endorsed-priorities.md",
+      "bytes": 2220,
+      "sha256": "3ace9d0dbe5700895147a1c4a45b36d88347ff6c04b9eec0a69091219cafaa85"
+    },
+    {
+      "path": "AGENTS/AEOLUS/outbox/2026-07-22_to-REGINALD_c4-downstack-fairplan-muni.md",
+      "bytes": 2354,
+      "sha256": "9146f9a742c9f5b91a113d937a67ae31c29d808dad83acd6adfd88252a4d4ab9"
+    },
+    {
+      "path": "AGENTS/AEOLUS/outbox/2026-07-22_to-WATT_c3-flag-retracted-thankyou.md",
+      "bytes": 1871,
+      "sha256": "e36ea0e3d1cff0c1828b0b4ec0a1801d23acd448bd80b39dbba82b2c2f6c9a22"
+    },
+    {
+      "path": "AGENTS/AEOLUS/outbox/2026-07-22_to-WATT_c3-seam-confirmed-mechanism-adopted.md",
+      "bytes": 2575,
+      "sha256": "7b008e3d1c860b5b5faac07920bb7c2c92228aae3daaebdc260e3aa4c2bab605"
+    },
+    {
+      "path": "AGENTS/AEOLUS/outbox/2026-07-22_to-WATT_live-c3-doe-eea-record-peak-thu.md",
+      "bytes": 2146,
+      "sha256": "c623656cf80e3b6e1d0cb5a2dbb36648f19bb716c853ad9d4510eb5969401f14"
+    },
+    {
+      "path": "AGENTS/AEOLUS/outbox/2026-08-03_to-CARL_c5-goods-cpi-repoint-plus-c6-shortage-tier.md",
+      "bytes": 1791,
+      "sha256": "07214d36b9ad92aa1f34c51bf1360656c05e95e0212a202f16fdfac6ecb146fa"
+    },
+    {
+      "path": "AGENTS/AEOLUS/outbox/2026-08-03_to-PROME_C6-water-promotion-and-colorado-river-DOCKET.md",
+      "bytes": 1721,
+      "sha256": "5616665eb92edff3fbfe376d4bb9f5045f3b7fda44f8a4da5d963e558f2937e1"
+    },
+    {
+      "path": "AGENTS/AEOLUS/outbox/2026-08-03_to-WATT_glen-canyon-hoover-hydro-leg-colorado-river.md",
+      "bytes": 1548,
+      "sha256": "c94b0a82f2148d6e5728c69ceb1a87ff474a60cae078d8c2bebceb7579b7fcc9"
+    },
+    {
+      "path": "AGENTS/AEOLUS/outbox/delivered/2026-06-28_to-MARCO_C5-supply-chain-goods-cpi.md",
+      "bytes": 1275,
+      "sha256": "e17b42ed7406a026118af16f4e117c07f944e4ce8851055e9e46fe4a7f834026"
+    },
+    {
+      "path": "AGENTS/AEOLUS/regime/AGENT.md",
+      "bytes": 8799,
+      "sha256": "8e7dcb4772d51c1444201e8bab7120283d932cc3bf6f5a838240bac21aca202f"
+    },
+    {
+      "path": "AGENTS/AEOLUS/regime/DOSSIER.md",
+      "bytes": 29957,
+      "sha256": "6ec26e4b4492bbde2aa496e161501b56c31278351210b6f2797b1eec13790149"
+    },
+    {
+      "path": "AGENTS/AEOLUS/regime/README.md",
+      "bytes": 5529,
+      "sha256": "47386c8fb298de082e40dc1fae6f942e7fde75f96177ad62439f5d213a6b5fbb"
+    },
+    {
+      "path": "AGENTS/AEOLUS/regime/RUN_REPORT.md",
+      "bytes": 7650,
+      "sha256": "abb545af15c5398b86b9f09aa481eda0926c21c9ae16e9014b5eee23dcd630e6"
+    },
+    {
+      "path": "AGENTS/AEOLUS/regime/SOURCES.md",
+      "bytes": 11204,
+      "sha256": "8c533897948896f0183f46c3720eb0b40e6a35a5378daa3f06ae442932dbe112"
+    },
+    {
+      "path": "AGENTS/AEOLUS/regime/workbook/LOG.tsv",
+      "bytes": 32677,
+      "sha256": "8e594cd085f2a68642e75629fb77bb1c61700a07324da6c24910d42f3e48758a"
+    },
+    {
+      "path": "AGENTS/AEOLUS/regime/workbook/SERIES.tsv",
+      "bytes": 15143,
+      "sha256": "563794705677f0a72a9de10e540c12b49653fb4ec6ebb8924c97c6aca6abc272"
+    },
+    {
+      "path": "AGENTS/AEOLUS/registry/corrections_receipts.tsv",
+      "bytes": 249,
+      "sha256": "7f8406e4efe0f351cfafb4f0c93e183be15fc70220a8d7f7e60dc6e3c104a7a2"
+    },
+    {
+      "path": "AGENTS/AEOLUS/scripts/aus_wheat_oni_baserate.py",
+      "bytes": 6788,
+      "sha256": "1400e9ddfef8ff52249ea0194eaf0725597133c97f4d0dcf157e282403a48f23"
+    },
+    {
+      "path": "AGENTS/AEOLUS/scripts/domain_log_check.py",
+      "bytes": 6227,
+      "sha256": "0aa7f5ce4491958822d6793181dc548028a096c236819aba4d3c3e7a927a64dd"
+    },
+    {
+      "path": "AGENTS/AEOLUS/seismic/AGENT.md",
+      "bytes": 7881,
+      "sha256": "cc72a87bbbc5f15e52498507a6a5fd5b10f4cbf679838a2e9f429e0f5ad30859"
+    },
+    {
+      "path": "AGENTS/AEOLUS/seismic/DOSSIER.md",
+      "bytes": 10106,
+      "sha256": "74773358ac251a44ae909881a1f0bc2fa0b4abb45a2f20fbe9c57b00d89aee95"
+    },
+    {
+      "path": "AGENTS/AEOLUS/seismic/README.md",
+      "bytes": 6078,
+      "sha256": "7980545ba877e0cbdb86b8f82b78b9527a5fbf7e6d2b67c77e6c10073f867386"
+    },
+    {
+      "path": "AGENTS/AEOLUS/seismic/RUN_REPORT.md",
+      "bytes": 6369,
+      "sha256": "83a251fd4fc30a34c013fbb171d3e4f057562b8c18008b1d215b9cb33db3c107"
+    },
+    {
+      "path": "AGENTS/AEOLUS/seismic/SOURCES.md",
+      "bytes": 5446,
+      "sha256": "87e0274731aff8524c932c9970bbbf098ce6a4355d18744f352e06f3e0f1d017"
+    },
+    {
+      "path": "AGENTS/AEOLUS/seismic/workbook/EVENTS.tsv",
+      "bytes": 2862,
+      "sha256": "b57e797ca2452fa66ecc4c56944817b8d6ee4e83c0ca07f60ef33d599a081635"
+    },
+    {
+      "path": "AGENTS/AEOLUS/seismic/workbook/LOG.tsv",
+      "bytes": 351,
+      "sha256": "d4e95967ed40eca6baf6ff40fdda4c03c0aef623c1add0d6ba20c50adc230d0d"
+    },
+    {
+      "path": "AGENTS/AEOLUS/seismic/workbook/SERIES.tsv",
+      "bytes": 1294,
+      "sha256": "ff4935c60a1d3594dbc7125456b2ab1fcdd4fcea9d4687cde6b23a443cdf0277"
+    },
+    {
+      "path": "AGENTS/AEOLUS/sources/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "AGENTS/AEOLUS/sources/2026-08-27_C2-global-scope-check.md",
+      "bytes": 25368,
+      "sha256": "d1236f02fb69ce414b6e5b87a178320307862105f22db1d042af0b33a2186817"
+    },
+    {
+      "path": "AGENTS/AEOLUS/sources/2026-09-28_C3-PJM-heat-signature.md",
+      "bytes": 42464,
+      "sha256": "4fa319a5b61924e40fca010467447ffddfe2aaa8bfaf1081b50fe8ec3ca78998"
+    },
+    {
+      "path": "AGENTS/AEOLUS/sources/2026-10-10_C2-el-nino-regions-instrument.md",
+      "bytes": 22602,
+      "sha256": "f659ac96581641da4cf40463bd302d23fc952dd7154066e6c8ed05294940d8e6"
+    },
+    {
+      "path": "AGENTS/AEOLUS/sources/2026-10-10_C3-winter-HDD-instrument.md",
+      "bytes": 30465,
+      "sha256": "71c3beaaa996c7bf12702694bf6cef11263d4998ae22dff0373f35e7389b6819"
+    },
+    {
+      "path": "AGENTS/AEOLUS/sources/2026-10-10_colorado-LB-agreements-search.md",
+      "bytes": 27566,
+      "sha256": "a8f9d030ceae29d0d7780844b09336ad3f201cabb0297d790714c73c012a6bd9"
+    },
+    {
+      "path": "AGENTS/AEOLUS/water/AGENT.md",
+      "bytes": 12397,
+      "sha256": "ec462bfb2cf2f1f59ce92066911c406658f6288567ec8bd84fb27c2a803ce697"
+    },
+    {
+      "path": "AGENTS/AEOLUS/water/DOSSIER.md",
+      "bytes": 13032,
+      "sha256": "16efb6e47ea33f3a165c56bff5ebd3782a100d9f3b27cd6a5cd1592660808fd8"
+    },
+    {
+      "path": "AGENTS/AEOLUS/water/PANAMA_SERIES.md",
+      "bytes": 40825,
+      "sha256": "f8326aa32d601e61f79319262c734fc3e6b4602660b3ebe8dfa9210575c4c367"
+    },
+    {
+      "path": "AGENTS/AEOLUS/water/README.md",
+      "bytes": 5360,
+      "sha256": "5999a74d8febe7eabc35c34ee962644a00ccad4dbed4da8d3c6630f4ce3996d6"
+    },
+    {
+      "path": "AGENTS/AEOLUS/water/RUN_REPORT.md",
+      "bytes": 7980,
+      "sha256": "7db00082579fd777f5c9756104fbec7f3ca1089161307876adbe07436349e38f"
+    },
+    {
+      "path": "AGENTS/AEOLUS/water/RUN_REPORT_ADDENDUM.md",
+      "bytes": 21114,
+      "sha256": "4d8f50727b8edf9f67421abad76766e5ea2eba6a567e91d755cccf4a0dea739e"
+    },
+    {
+      "path": "AGENTS/AEOLUS/water/SOURCES.md",
+      "bytes": 22414,
+      "sha256": "b7e72d5719b951fe87a5b7f3faa8523208a90077a6c7b3b7302e320b4aab5444"
+    },
+    {
+      "path": "AGENTS/AEOLUS/water/SOURCES_ARCHIVE.md",
+      "bytes": 53241,
+      "sha256": "fe236ab19f71b9ef4f1614d77e6c731b2e92ad9ccde2da1e3015f9c6c39542da"
+    },
+    {
+      "path": "AGENTS/AEOLUS/water/workbook/LOG.tsv",
+      "bytes": 116816,
+      "sha256": "06203912395b621f0fe81ade64fe8a0f7c6288386b48bf4256bbcbb4e3d0bca5"
+    },
+    {
+      "path": "AGENTS/AEOLUS/water/workbook/SERIES.tsv",
+      "bytes": 145591,
+      "sha256": "ddbfc44d18fff45acd525ec77ac0ddb180954696920e0f25d55f9abe94532c6f"
+    },
+    {
+      "path": "AGENTS/AEOLUS/wildfire/AGENT.md",
+      "bytes": 8759,
+      "sha256": "1b300a0e47dc0da065f3ac5b8aa6fee1a7192e704843daacfec3e5489d2d3343"
+    },
+    {
+      "path": "AGENTS/AEOLUS/wildfire/DOSSIER.md",
+      "bytes": 9517,
+      "sha256": "051d510d6dea1b5c332209ce87303d6fba516ca95b52a571eca4e6a20065699d"
+    },
+    {
+      "path": "AGENTS/AEOLUS/wildfire/README.md",
+      "bytes": 4763,
+      "sha256": "da55634fe3e4a356939316103e7210ebe9b3896d3a30f1ba2adbf1c4e8b7e3cb"
+    },
+    {
+      "path": "AGENTS/AEOLUS/wildfire/RUN_REPORT.md",
+      "bytes": 7430,
+      "sha256": "c7ebc952264b827fdd7f41cf86e8ba27f9f7b763e0167e79026f90578823bb93"
+    },
+    {
+      "path": "AGENTS/AEOLUS/wildfire/SOURCES.md",
+      "bytes": 16504,
+      "sha256": "ab1486abb2fce7d892a2c5ce0449c09ff23cfdf66bc74ed20bf8e9ce3a73e71a"
+    },
+    {
+      "path": "AGENTS/AEOLUS/wildfire/workbook/LOG.tsv",
+      "bytes": 40257,
+      "sha256": "45bc13a7f385c606cabc25f35e91e62c15f7925909ae25a414a8b31d5293a5f3"
+    },
+    {
+      "path": "AGENTS/AEOLUS/wildfire/workbook/SERIES.tsv",
+      "bytes": 10444,
+      "sha256": "7f421566e1b7e3c1d07c47a88f45ae35947e283ce340b54106b72b1cdc014993"
+    },
+    {
+      "path": "AGENTS/AEOLUS/workbook/FLOW.tsv",
+      "bytes": 10159,
+      "sha256": "a3882eba9c96a3ace94fb789f3416426190ad51f3a2165ea67e731e5ad331c5f"
+    },
+    {
+      "path": "AGENTS/AEOLUS/workbook/KB.tsv",
+      "bytes": 318885,
+      "sha256": "67a03186440c08f48031925e8fad335f25a6c6ab9330462078669ad70d1cbee4"
+    },
+    {
+      "path": "AGENTS/AEOLUS/workbook/LEDGER_GLOB",
+      "bytes": 566,
+      "sha256": "d51cc7757fb816cd44b5982a343675a471ca5121a271a542be224f316517a18f"
+    },
+    {
+      "path": "AGENTS/AEOLUS/workbook/PREDICTIONS.tsv",
+      "bytes": 45144,
+      "sha256": "16417223aad1d5943edd449bde8f1a7e59ca219ebf3a8f14bf77e37ae2bef96c"
+    },
+    {
+      "path": "AGENTS/AEOLUS/workbook/SCHEMA.tsv",
+      "bytes": 1829,
+      "sha256": "1a1b90897e7839d533e51c8f100287ef06dc440681097c05c275789aea13eb03"
+    },
+    {
+      "path": "AGENTS/AEOLUS/workbook/VX.tsv",
+      "bytes": 24043,
+      "sha256": "8424716f218d611b83848447e7211dcb3c9831da2e8454fcdaecf823f1c84283"
+    }
+  ]
+}

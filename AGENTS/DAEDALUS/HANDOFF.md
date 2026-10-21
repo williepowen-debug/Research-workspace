@@ -1,3 +1,7 @@
+# October 21 profile continuation
+
+Will authorized beginning whole-profile refreshes. AEOLUS whole refresh completed: profiles/AEOLUS.md; evidence and coverage in runs/2026-10-21_AEOLUS_REFRESH.md and canonical reader companion. Prior profile preserved verbatim. L4/M retained. Eight remaining, HAWK next, then HOMER/WAL/BROCK/CREED/REGINALD/FALCON/MIDAS; no CREED owner launch without explicit permission. Do not repeat completed PR8/Staleness6 or AEOLUS comprehension. Source market snapshot remains owner October10, not a new market refresh. Owner contradictions/manifest/ledger/guard repairs routed separately; no owner remediation claimed. Current closeout/publication dimensions live in the run record; no consumption inferred from packet filing.
+
 # October21 maintenance continuation
 
 PR8 and Staleness6 bounded scope completed;41map rows re-cut,37profile delta annotations,56CHECKS rows. GIBBSL1/M,HOMERL3/M,AEOLUSL4/M independently read; no other grade changed. RED duplication census delivered: no shared library, two source-only error-path candidates. Evidence/current residuals in STATUS and named October21 reports. This supersedes earlier “PR8/full Staleness next” instructions below.
