@@ -7,7 +7,7 @@
 A DOCKET citation `L<n>` names a row by its physical line. If a commit moves the content of any existing row to a different line, every citation of that row and of every row after it silently points at a different obligation. No reader can tell, because the row it lands on is a well-formed row.
 
 ## Acceptance conditions (properties, not symptoms)
-- **P1 — identity:** after any commit the guard admits, every line number that existed in the base still addresses the same row, either unchanged or edited in place.
+- **P1 — identity (QUALIFIED 2026-10-21 08:51 ET, after the outside review relayed by Will):** the guard detects a displacement only through moved rows whose bytes are unchanged and occur once in the base. It therefore does **not** guarantee that every line number still addresses its row: a displacement in which every moved row is also edited (e.g. a swap of two edited rows), a whole-file reformat, or a reorder by rebase/merge passes. See § Known limit. What it does guarantee: a commit that leaves any unedited, unique base row at a different line is refused.
 - **P2 — refusal:** a commit that leaves the content of a base row at a different line number than in the base is refused (rc 1) and the refusal names the line. This includes a mid-file insert, an insert before the last line, a swap, delete+append, a mid-file delete and an EOF delete.
 - **P3 — always on:** the guard needs no configuration and has no dormant state. It runs on every commit that includes `PROME/DOCKET.tsv`, independent of the row-cap policy.
 - **P4 — fail closed:** if the base blob or the candidate cannot be read, the result is rc 2 and the hook refuses the commit. rc 2 is never read as clean.
@@ -31,7 +31,7 @@ Any displacement where EVERY moved row is also edited is invisible: an insert fo
 ## Reads
 - **reads: 1.** Independent read 1, 2026-10-21 08:2x ET (general-purpose, Opus, own counterexamples; replayed 300 real DOCKET commits, 0 flagged): **HOLD, 1 ❌ · 7 ⚠️**.
   - ❌-1 (CX1) a CRLF flip in the same commit hid a mid-file insert. **FIXED** after the read: one trailing CR per row is ignored. CX1 is now a refused test; the CRLF flip alone passes. The reader had tested this exact fix on a copy (20/20 suite, 656 findings on CRLF+insert against the live docket).
-  - **State:** IMPLEMENTED · TESTED (23 + 28 pass). The ❌ fix came after the final read, so it is **NOT independently verified**. Read 2 remains available inside the ceiling if Will wants it.
+  - **State:** IMPLEMENTED · TESTED (23 + 28 pass). **Outside review (relayed by Will 2026-10-21 08:47 ET):** independently reproduced the CRLF fix and ran all 51 tests successfully; confirmed the edited-row swap still passes as disclosed; judged P1 too strong (qualified above). Per that review, no further duplicate read and no push-script project now. Episode closed.
 
 ## Declared residue (WQ-178, 2026-10-21 — ⚠️ not fixed)
 - ⚠️-2 a swap with both rows edited is admitted (CX2): now in the known-limit text and kept as a test.
