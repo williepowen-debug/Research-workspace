@@ -1,0 +1,7 @@
+VX-REG-6.03 FLG frozen $14.24 [2026-08-12] bands YELLOW $12.82 / ORANGE $12.1 / RED $11.39
+  last SETTLED close $11.12 [2026-10-20] = -21.9% vs baseline
+  🔴 YELLOW $12.82 BROKEN — first close below: 2026-09-16 $12.58; closes below since: 25
+  🔴 ORANGE $12.1 BROKEN — first close below: 2026-09-28 $12.04; closes below since: 17
+  🔴 RED $11.39 BROKEN — first close below: 2026-10-07 $11.30; closes below since: 10
+  STATE (worst band ever breached, state machine): RED
+  ⚠️ yfinance daily bars can be MISSING for single names (FLG + WAL 9/22/2026) — a gap is not a close.

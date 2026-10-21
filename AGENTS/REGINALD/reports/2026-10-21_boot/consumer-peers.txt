@@ -1,0 +1,12 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/REGINALD/   (processed/ + archive/ excluded everywhere — historical by design)
+
+  ── value · superseded FLG10.96 [10/19 settled] → current FLG11.12 [10/20 settled]
+     ✓ no consumer carries a superseded value.
+
+  ✓ clean — every consumer is current or has it flagged superseded.
+==================================================================
+

@@ -31,10 +31,12 @@ Completed existing weekly H.4.1/H.8 comparison, WAL call secondary-transcript fo
 
 ### CHANGES SINCE LAST SESSION
 
+Boot 2026-10-21T09:14:56-04:00: 8 monitoring components ran; filing monitor ALERT, not all-clear. WAL/KRE settled10/20 verified on Yahoo/Nasdaq; exit log35 rows/run0; FLG10 settled closes below RED. FRED still10/19. Two WALTER relays disposed INFO_ONLY and COR-20261021-01 receipted. One LABOR general packet awareness-only, left open. Receipt→`reports/2026-10-21_boot/RECEIPT.md`. Other-owner dirty paths prevent startup pull; preserve their index. No new bank-research grade or position action.
+
 ### NEXT SESSION
 1. Eagle release10/21 after close/call10/22 10ET: fill existing WOB008/009/013/014 with same-loan cash/new funding/retained exposure/recognition; outcome not disclosed stays UNKNOWN. No independent property match; July expectations SECONDARY. Verify EGBN hub snapshot before copying fresh report into it; current follow-through is linked from STATUS, not a regenerated hub snapshot.
 2. OZK call10/21 08:30ET and FDIC10-Q: borrowing type/NDFI, RaDD attributable recognition and new pass-loan balances/cash. Boston sale failed; do not carry “unclosed pending sale” as current. WAL filing-only F3/N remains pending; call already consumed SECONDARY, primary audio unreviewed. Original grades/priors remain owner-held.
-3. Eligible WAL log through10/19 complete; continue unchanged settled-bar rule, exclude current day. HY through10/19 updated; no new fire; prior BANK-ABSENT attribution10/15–16 is dated, not recomputed10/19. FLG ladder remains exhausted. No new threshold/tooling.
+3. Eligible WAL log through10/20 complete; continue unchanged settled-bar rule, exclude current day. HY through10/19 updated; no new fire; prior BANK-ABSENT attribution10/15–16 is dated, not recomputed10/19. FLG ladder remains exhausted. No new threshold/tooling.
 4. Existing weekly release comparison complete through H.4.1 10/15/H.8 10/16;next existing10/22 descriptive-window review,10/23 H.8. REG-T-06 official2-of-3, breadth and CFR/Highlights discrepancy unresolved. Nano P&A existing10/27 check/DEWEY route;no external send without Will.
 5. Preserve Oct23 RED CET1/AOCI and Oct26 CARL fintech review;WQ419 peer consumption unverified. Nov5 JWT Will-owned;Nov7 matched-basis/cohort/CFGTable9 checks remain. REG-07 VOID;no successor. Broker ownership/dispositions require actual evidence;honor no-expiry-nagging.
 6. Older nonurgent items remain ROADMAP/backlog, not newly approved. No valuation edge/current consensus component basis or fresh position decision established here.
