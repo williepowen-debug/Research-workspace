@@ -84,3 +84,7 @@ Mode standard; scope this sweep. Verification, exact commits, publication and de
 - Source retrieval used two deliberate DM2 API calls, not a loop, plus one later gas quote and primary HTML captures. All source calls in the collection manifest succeeded. No missing Python package/key; raw September five-minute replay and private contracts/settlement documentation remain evidence gaps.
 
 Mail is integrated in the records before filing. Exact inbox moves follow this analytical commit. No consumer notification/consumption claimed before evidence; native fleet transport/discovery unavailable, owner presence UNKNOWN. Publication receipts are recorded after safe-push.
+
+### Persistence and mail filing
+
+Analytical state/source commit: **8b480bbb9**. Nine inbox files filed with git mv only after their KB/board dispositions were committed in that version. No inbox item left unassessed from the enumerated nine. A later arrival is a new delivery, not evidence of prior consumption. NEXUS will pin STATUS at8b480bbb9. Publication pending fresh safe-push receipt; native notification and consumer reads remain unverified.
