@@ -1,0 +1,251 @@
+FILE AGENTS/AEOLUS/STATUS.md
+# AEOLUS STATUS
+
+**Last Updated:** 2026-10-10 12:34 ET (**Will-directed:** news sweep → El Niño winter re-point of C2/C3 → Colorado search; KB-191…204, AEO-13). Prior: 10/9 21:32 ET (L627 owner). Full rebuild 9/28 (`archive/STATUS_ARCHIVE_2026-09-18_full.md`).
+**Status:** 🟡 **C1 — Hurricane Isaias made landfall near Destin, FL at 8:30 PM CDT Fri 10/9 as a Category 2 (90 kt / 105 mph, 971 mb); the major-landfall trigger did NOT FIRE (6 kt under).** 🔴🔴 **C5 — Rhine below its all-time record low at both graded gauges every complete day 9/18→10/9 (22 days); still FIRED; WSV's 10/10 run shows no exit through 10/12.** 🔴 **C6 — Mead 1,037.60 ft [10/9], 2.60 ft above Hoover 1,035.**
+**Class:** Market-agent (climate → economy) · **Self-level:** L2
+**Sessions 10/9–10:** landfall (KB-189) · catch-up KB-177…190 · sweep KB-191…194 · **C2/C3 winter re-point KB-195…200, AEO-13** · Panama KB-201 · Colorado KB-202…204. Yangtze source timed out.
+
+> Data is primary-sourced and dated below. Per Critical Rule #3, verify against the primaries (CPC/NHC/USBR/WSV/ACP/NIFC/NWPS) before any trade use. No naked numbers.
+> **STATUS budget: 32,550 B (`READ_CAP.md`) · <250 lines.** Measure with `PROME/tools/measure.py`. **Rulings that still govern:** `wksst9120.for` is the sole weekly ENSO figure (KB-088) — **CPC discussion prose quotes the RELATIVE monthly index; never label it "weekly" (KB-181)** · §C6 "USBR's path projects a breach" is SATISFIED-AT-WRITE-TIME, never a live leg · **SLOTS ≠ TRANSITS** · grade Rhine on **UNROUNDED** means only · Mississippi stored on **UTC-day** daily means (KB-159) · **NHC intensity is graded in KNOTS as stated (5-kt steps) — never a mph→kt conversion.**
+
+---
+## CONVERGENCE MATRIX
+
+| # | Channel | Score (1–5) | Local state | Independence | Key Signal | Upgrade Trigger |
+|---|---|:--:|---|---|---|---|
+| C1 | Insurance / reinsurance | **2 🟡** (held) | **Isaias LANDFALL near Destin FL 0130Z 10/10 — Cat 2; major trigger NOT FIRED** | El Niño root (suppress) — yet a 105-kt peak over 30 °C water; C4 hinge | **Landfall 90 kt (105 mph) / 971 mb** (NHC TCU 0130Z); peak **105 kt** over water 10/9 12–18Z · ACE **18.02 = 17.46%** of to-date normal · pre-landfall loss estimates **mid-single-digit $bn** (BMS $4–6B) · cat-bond spread 4.57% [9/25] | **Spent for Isaias (NOT FIRED)**; re-arms on the next Gulf/FL system · C4 >$10B leg on post-landfall estimates |
+| C2 | Agriculture / food | **2 🟡** (↓ 10/9) | **re-pointed 10/10 to the forward El Niño crop: SOUTHERN AFRICA MAIZE** (2027 harvest) | drought root shared w/ C4; ENSO reaches C2 via S. Africa / Asia-Pacific | **SA corn ≤−15% in 5/6 strong-El-Niño harvests vs 1/17 neutral** (KB-198); USDA still a 16.50 MMT placeholder · Aus wheat −10.3% vs 5-yr · FAO cereals **+17.2% y/y** (cause not El Niño, KB-199) | **→3:** first SA reading (CEC/USDA) ≤−15% OR Aus ≤−15% (**bands REGISTERED 10/10, Will-ruled**, KB-200) |
+| C3 | Energy demand | **2 🟡 ↓ from 3** | **re-pointed to WINTER heating** (10/10); shoulder season, no weather-driven stress | El Niño root (w/ C1/C6) | PJM 10/7 $2,978/MWh spike was **supply-side** (70.3 GW maintenance, no heat — WATT) · strong-El-Niño DJF HDD **5/5 below normal** (MidAtl median −11.9%) vs official forecasts only −2 to −6% (KB-195/196) | **→3:** a DJF 30-day MidAtl/ENC HDD window ≥0% vs 1991-2020 (**REGISTERED 10/10, Will-ruled**, KB-200) OR EEA2+ with a weather cause |
+| C4 | Property / physical | **2 🟡** | peril leg cool; **loss leg = Isaias, below the >$10B line on every estimate** | partly independent (fire = drought; Isaias = SAME event as C1, count once) | **NIFC PL 2** (since 9/22); acres **9,013,486 = 145%** of 10-yr avg [10/9] (+409k after 9/30, cause unstated) · Isaias pre-landfall **mid-single-digit $bn**; Twelve Securis: >$10B "less likely" | Q3 cat tally **≥110%** OR a **>$10B** insured cat OR PL ≥4 |
+| **C5** | Supply chain / logistics | **5 🔴🔴** | 🔴🔴 **FIRED-ON-LETTER since 9/28 — no exit through 10/9** | **European basin = its own root** (Rhine + Danube counted ONCE); Panama = ENSO root (w/ C6) — not contributing | **Kaub 1.323 / 0.990 / 7.583 cm vs 25 · Duisburg 129.979 / 138.333 / 140.396 vs 153 [10/7–9]** · WSV: Kaub 25 at 10/12 21:00, Duisburg 154 peak (single readings) · Contargo Kaub €1,075 / Ruhrort €675 (from €800) | **Exit:** the same 3-day test failing |
+| C6 | Water scarcity / allocation | **4 🔴** | 🔴 Mead drifting down again (−0.08 ft/day 10/4–8) | El Niño Western-hydrology root; **Powell↔Mead ONE system** | **Mead 1,037.60 [10/9], 2.60 ft above 1,035** · Powell **3,518.97** [10/9], 8.97 above 3,510 · **2027-28 Guidelines: no 10/01 effective date — effective only on executed agreements (§3, KB-185)** · Oct 24MS not out | **→5:** see §C6 (leg 2 re-keyed 10/10) |
+
+**Composite: 17/30 · range 1–5 · moved 10/9–10: 2 (C2 −1, C3 −1; C1 held at its landfall grade) · fired 1/6.** Conservation: 2+2+2+2+5+4 = 17 = published; one verdict cell FIRED (C5). ⚠️ C3 is 9/18 vintage.
+> The scalar stays impeached (disposition 8/21); the four-figure form carries the information. ⚠️ **C5 at 5 is driven by ONE root** (Central-European drought) — a reader must not add the Danube as a second witness. ⚠️ **Isaias is ONE event for C1 and C4** — a loss estimate moves one leg, never both.
+
+---
+## 🔴 UPGRADE TRIGGERS — live rules
+
+### C1 — Isaias graded 2026-10-09: **NOT FIRED** (landfall near Destin 0130Z 10/10 at **90 kt** / 971 mb, Cat 2; letter ≥96 kt at landfall — KB-189, L627). C1 held at 2 by the rule pre-committed at `30d0ab065`. **Exit leg 2 stays LIVE to 11/30.** Operational intensity governs — a post-season TCR revision is logged as history, **never a re-grade**. The trigger **re-arms on the next Gulf/FL system**. Grade table → `archive/STATUS_ARCHIVE_2026-10-10_C1-isaias-grade.md`.
+**VEHICLE trigger (TRADE.md, L-47 — boot-visible here):** long RNR arms on *a Gulf/FL major landfall OR a credible Gulf/FL track* → **same-session packet to TERRY**. Armed by Isaias 10/6–8; packet missed, **late notice 10/10**; domain conviction 1/5 (no hardening). Re-arms on the next Gulf/FL system.
+
+FILE AGENTS/ATHENA/STATUS.md
+# ATHENA — Status
+
+**Created:** 2026-03-14
+**Purpose:** Reading companion, knowledge compounder, cross-pollinator.
+
+## Currently Reading
+
+| Book | Author | Started | Status | Notes |
+|------|--------|---------|--------|-------|
+| Thinking in Systems | Donella Meadows | 2026-03-14 | 📖 Active | First book |
+
+## Reading Queue
+| Book | Author | Why |
+|------|--------|-----|
+| Gödel, Escher, Bach | Hofstadter | Consciousness from non-conscious parts. Strange loops. Emergence of awareness. |
+| The Master and His Emissary | McGilchrist | Brain hemispheres, narrative vs. quantitative cognition. Maps to Will's thinking style. |
+| Emergence | Steven Johnson | Simple agents → complex collective intelligence. Direct parallel to agent network. |
+
+## Library Stats
+- Books: 1 (active)
+- Concepts extracted: 8
+- Cross-connections logged: 7
+- Open questions: 3 (NEXUS as hierarchy flaw, DARWIN as system property, phase transition in distributed LLM systems)
+
+## Recent Activity
+- 2026-03-14: Agent created. Thinking in Systems started. Deep session — hierarchy, intermediate forms, events/behavior/structure, consciousness as subsystem, LLM-as-cell hypothesis. Multiple parked threads for cross-book synthesis.
+
+FILE AGENTS/BOND/STATUS.md
+# BOND — Status
+
+**Agent:** BOND · **Domain:** US bond-market structure. **Last session update:** 2026-10-20 session close (Will-directed, OpenAI Codex); repairs completed and pushed at `2e1117ae4`. **Last real data refresh: 2026-10-20.** Exact deployed model UNKNOWN; session `01a15a02-565d-76c1-9d89-07653c5d3b62`.
+
+Close handoff: one newly arrived WALTER INFO packet (`SIG-W-20261020-020`) triaged, retained for next-session processing; no new evidence incorporated.
+
+Frontiers: Treasury nominal/real **10/19** · ICE credit via FRED **10/19** · NY Fed repo **10/19** · FR2004 as-of **10/7** · ACM **10/16** · Bund fitted **10/20** · vendor intraday **10/20 11:40–11:55 ET**. FRED DGS/DFII mirror ends **10/16**, behind issuer. Evidence: `analysis/2026-10-20_catchup/REPORT.md`, `derived.json`, raw manifest. Prior October15 report is history.
+
+## Current judgment
+
+**Long bonds still clear at expensive yields; the weak credit tail remains the warning.** Monday10/19 Treasury10Y rose6bp, entirely real-led on fitted-par subtraction; 30Y rose5bp, also real-led. That partly reversed last week's relief: October14→19 10Y and30Y remain4bp lower. Official October15 close confirms the prior provisional rally: both long yields fell9bp. ACM October7→16 attributes the fitted10Y fall to premium compression while expected-rate component rose; model accounting does not establish buyback or haven causation.
+
+**Credit is diverging by quality.** ICE/FRED October19 HY329bp (−2 daily), CCC1310 (+13), IG87 (+2). HY remains21bp below350, +66 from263 and9–34bp short of BOND's credit-equity lead band. Wider credit alongside last week's lower real yields defeats a simple rates-only explanation. No broad issuance freeze established: SIFMA through September is lagged aggregate evidence; a current pulled-deal census is missing.
+
+**Dealer evidence is selective.** Latest published as-of10/7 Treasury long-end stock$135.084B (+$2.022B), one build, not two. LIQUID's primary-backed below-IG corporate net stock fell$2.795B in that same lagged week. Net stocks cannot identify gross forced sales, shorts or capacity refusal. SOFR−IORB −3bp [10/19] gives no acute median repo stress; private/offshore channels remain unobserved.
+
+**Treasury's October16 dealer agenda asks about buyback effects and structural demand, not a specific20Y suspension.** The cut story remains speculation; November4 resolves F1/F3. October15 buyback timing bracket now complete: paid yield+10.3bp over same-day close curve, +11.4bp over vendor-adjusted operation curve. No overpaying demonstrated by this sample; F2 five-of-five OFF-THE-RUN. Tomorrow's20Y auction remains ungraded against its frozen bars.
+
+## Regime and capital record
+<!-- bond-state: thesis=v1.2.11; regime=C-36-TWO-PART@2026-09-01; gate_a=MET@2026-09-10; rearm=MET@2026-09-23; add=DECLINED@WQ-280; kill=MET-REC@2026-10-01; posture=APPROVED@WQ-357 -->
+C-36 TWO-PART unchanged; no thesis version, research threshold or score change. **Approval correction:** WQ357 already RULED APPROVE10/15 12:23 ET (SELL remainingTBT5), superseding this desk's stale LATER/HOLD wording. FORGE October20 still displaysTBT5, sale fill not evidenced; approval≠execution. TLT82P sold10/12. WQ280 NO-ADD; WQ360 old put card lapsed unapproved10/14, not a live execution permission. No trade executed or new trade proposed. User's October20 no-expiry-reminders instruction governs communication.
+
+## Current dashboard
+
+| Metric | Dated observation | Source / basis |
+|---|---|---|
+| Official 2Y/5Y/10Y/20Y/30Y | 4.77 /4.94 /5.15 /5.53 /5.48% [10/19]; daily+3/+5/+6/+6/+5bp | [CONF PRIMARY Treasury nominal CSV pulled10/20] |
+| Official real 5Y/10Y/30Y | 2.56 /2.80 /3.21% [10/19] | [CONF PRIMARY Treasury real CSV] |
+| Official10Y/30Y nominal−real | 2.35 /2.27% [10/19], each unchanged daily | [EST fitted-par subtraction; not pure inflation expectations] |
+| 2s10s /5s30s | 38 /54bp [10/19], daily+3 /0 | [EST PRIMARY Treasury subtraction] |
+
+FILE AGENTS/BRENT/STATUS.md
+# BRENT STATUS
+
+**Current judgment:** THESIS v5.13 / WAIT retained from the October 14 assessment; product scarcity may persist alongside crude recovery. October 20 news review established an anonymous proposal and an IEA acceleration announcement, not a signed reopening, measured restored throughput or delivered additional diesel. [Evidence and dated contract clocks](research/2026-10-20_deal-news/REPORT.md). First BRT-31 week now evaluated, NON-QUALIFYING; overall OPEN and no holding grade. [October15 EIA owner evaluation](research/2026-10-20_eia-oct15-evaluation/REPORT.md). Trade authority and structural receipts → [TRADE](TRADE.md).
+
+**Evidence limits / next work:** October 15 EIA/BRT-31 price check is complete; HENRY December measurement adoption/rejection is next. The next EIA release is October 21, 10:30 ET, week October 16. Policy coverage remains bounded; no exhaustive 50-state contamination clearance. USO current aggregate shorts/broad lending, company earnings/valuation edge and additional-share scope remain unproved. Latest full boot returned findings for source age, paired coverage, ledger activity and standing reconciliation; no clean-data claim. [Resume receipt](audits/2026-10-20_startup/resume-receipt.json). The COT row was reconciled against saved vintage #10 during this repair. Other standing rows retain their own vintages; source/current-broker evidence was not refreshed by this organisation pass.
+
+**Last real data refresh (EIA owner evaluation): 2026-10-20T19:18:34-04:00 — SCOPED-PARTIAL:** direct EIA current/dated-archive rows observe week October 9 and required retail October 12 / October 13, 2025; no new current-price, broker, cargo, company or holding grade. Earlier October 14 operational source clocks retain their dates. [Exact former refresh boundary and dated updates](archive/2026-10-20_organisation-cleanup/STATUS.md.before.md); [block conservation map](audits/2026-10-20_organisation-cleanup/manifest.json). Boot diagnostics and organisational maintenance do not refresh market evidence.
+
+**Navigation:** [start here](README.md) · [cleanup accepted; warning restored](audits/2026-10-20_organisation-cleanup/REVIEW-CLOSED.md) · [USO research](USO/README.md) · [handoff](SCRATCH.md). Live routine deployment/normal-run acceptance remains unverified at the [existing CATO handoff](audits/2026-10-04_cato-correction/REPORT.md#live-deployment-follow-up--2026-10-04-2302-et).
+
+---
+
+# ⚡ CURRENT STATE — *read this first. Dated blocks follow newest first; STANDING STATE is the hot half; ARCHIVE INDEX is history.*
+
+
+**Dated October14 OMR detail and October9–13 receipts:** [verbatim before-image](archive/2026-10-14_consistency-sweep/STATUS-before.md), 24195 UTF-8 bytes, crc32 `86cc5000`; payload rule: whole file. [Sweep manifest](archive/2026-10-14_consistency-sweep/manifest.json). OMR/shipping findings remain at their evidence notes.
+
+**Correction sentinels retained hot:** GulfTimes October12 transit figures match Reuters August17; quarantine as October evidence ([check](research/2026-10-12_resume-l633/MAIL_UPDATE.md#cor-20261012-04--transit-vintage)). Dated Brent >$120 was a real breach (EIA RBRTE125.44 on10/6,135.51 on10/2); the10/8 anomaly/not-real-breach label remains withdrawn. These are dated corrections, not fresh observations or proof of barrels lost.
+
+## 📌 STANDING STATE — *current values, live rules and active obligations. Read this; it is the hot half.*
+
+> ⚑ **CREATED 2026-09-07 — first application site of READ_CAP rule 19** (Will-ruled; DAEDALUS P1 ACTIONs 1–4).
+> **Closeout reconciliation October9 (4th session): archive receipts re-hashed (`4bb7aad6`, `d82761d3` reproduce); COT ladder regrade of 9/29 reproduces; THESIS v5.11 / TRADE / three SPECS read whole; BRT-26 row closed; JWC REGISTRY row unchanged; no sentinel revived by today's claims. Per-row notes keep their prior basis; source vintages unchanged.**
+> **The rows below are STANDING, not dated** — extracted verbatim, each carrying `⏱ as-of` (data vintage) and `✓ reconciled` (last checked against its canonical record). 📖 *(how the extraction was scoped, and the stale line-number near-miss: `archive/STATUS_DETAIL_2026-09.md` § repairs)*
+
+| | |
+|---|---|
+| **📦 **DATED HISTORY 2026-08-27 → 2026-08-09 — ROTATED VERBATIM, LOAD-BEARING CONTENT RETAINED BELOW.** ✓ **reconciled `2026-10-09`** (saved archive payload restored/byte-verified; receipt unchanged) | **88,876 UTF-8 payload bytes → [`workbook/STATUS_archive_20260828_dated_history_wave2.md`](workbook/STATUS_archive_20260828_dated_history_wave2.md), `crc32 4bb7aad6`, contiguous, zero edits.** ⛔ **Historical payload checksum confirmed; prior byte count corrected. No live rules moved by this review.** Every ladder figure, band, baseline and ⛔⛔ sentinel from those rows is preserved in the four rows that follow. **Read the archive for the reasoning; these rows carry the constraints.** |
+| **BRT-26 rig ladder / frozen line** · as-of **2026-09-25** · ✓ **reconciled `2026-10-09`** (PREDICTIONS row + complete BRT-26 note: closed; no new rig pull) | **✅ RESOLVED CONFIRMED 2026-09-25: US Oil 455 (+3) at the final in-window print, 457 NOT reached (headroom 2)**. Baker Hughes primary (09-25-2026 workbook, D4 25/09/2026), 3 retrievals, one lineage. Horizontal −1 ⇒ mechanism unchanged; part of the win is lag timing. Brier 0.0225 at 85%. Grade and caveats: [BRT-26 note](thesis/prediction_notes/BRT-26.md) § September 25. The 457 line now governs nothing live. |
+| **COT-FUEL-35B — frozen band** · saved vintage **#10, as-of 2026-10-13** · ✓ **reconciled `2026-10-20`** against saved ledger and Friday grade; no fresh source pull | **Base `122,904.5` (trailing-8wk median 2026-06-16…08-04; an 8-observation median = mean of `122,319` and `123,490`) · Leg-A SPENT ≤`109,164` · NO-VERDICT deadband `109,165–118,325` · NOT-SPENT ≥`118,326` · Leg-B OI-share ≤`4.909%` GATING · `median_unit 9,160` FROZEN · both legs must agree; NO-VERDICT is a real answer (base-case sizing).** ⚠️ **`113,745` is the deadband's CENTRE, never a boundary — THE DEADBAND IS DECISIVE INSIDE ITS RANGE.** **Saved #10 grade: JOINT NOT-SPENT, fourth consecutive.** Current inputs and dated receipt → [ledger](workbook/COT_VINTAGES.tsv) / [Friday grade](demand_destruction/data/friday_2026-10-16.md). Next #11: as-of October 20, release Friday October 23 ~15:30 ET. Historical ladder preserved [verbatim](archive/2026-10-20_consistency-repair/STATUS.md). ✅ **4.909% REPRODUCED 2026-09-18 at the CFTC archive: 104 obs ending 8/4 inclusive = 4.9086% (REGISTRY note; the only window definition that reproduces). RE-REPRODUCED 2026-10-08 16:37 ET from a fresh archive download: 4.908595% (identical; PM note).** ⛔ **Re-basing = a NEW N1 build + a fresh Will ruling, never maintenance.** 📖 *(repair record: `archive/STATUS_DETAIL_2026-09.md` § repairs)* |
+
+FILE AGENTS/BROCK/STATUS.md
+# BROCK — STATUS
+
+**Updated:** 2026-10-16 Fri 13:41 ET — PROME due-row wake (prome-ac): **L653 CABO backstop: no filing; TRO reported (press)** · BRK-31 MTB/CFG no fire · CRMT 10/15 window empty · drain 7/7. Narrative → CURRENT catch-up.
+
+---
+
+## 🎯 STANDING OBLIGATIONS — boot read
+*An owed action leaves this table only by being DONE or by its owner's ruling, never by a rotation. Full dated docket → `docket/CATALYSTS.tsv`. Codes: `L###` = row in `PROME/DOCKET.tsv` · `WQ-###` = row in `PROME/WILL_QUEUE.md` · W1/W2/W3 = FORUM-5 standing tests (below) · X1 = the tape-substance divergence instrument (matrix).*
+
+| When | Item | Read rule / owner |
+|---|---|---|
+| **Thu 10/22** (read ~16:30 ET or 10/23 AM) | **CRMT SEVENTH-bridge STD** — L651 GRADED 10/15, KB-BRK-343 | Full feed `CIK0000799850`, every form type, document text; acceptance time from the INDEX page (JSON clock unreliable). Silence on the day grades nothing |
+| Wed 10/21 · Wed 10/28 | CRMT Item 1.01 **backstop #4 (L652) 10/21** (≤10/15 — bridge-7 agreement HAS filed; live only for some OTHER) · **#5 10/28** (≤10/22). L586 CLOSED SILENT 10/15 (KB-BRK-344) | silence narrows, never grades "no extension" |
+| **Fri 10/23** (weekly; L653 backstop read 10/16) | **Cable One (CABO) MBI close — NOT CLOSED per press:** 10/9 New York federal TRO on lender CoBank's suit (Light Reading 10/12; docket unread). EDGAR 10/16 13:37 ET: newest still the 10/14 Graham 13D/A; no close/extension/financing 8-K. New money: GTCR + existing lenders + 'private lending institutions', no definitive agreement. CABO $7.51 −11.4% [fetch.py 10/16 13:37 ET] (KB-BRK-348) | Full CABO feed + WALTER on the hearing; who writes the new money? |
+| **10/19 → 10/22** | **BRK-31**: 5 of 11 read — JPM/WFC/C (10/14) and **MTB/CFG (10/16, KB-BRK-350/351): no qualifying fire.** CFG total ACL release −$12M, but an **unattributed +$52M unfunded-commitment reserve** = INSUFFICIENT pending call/10-Q; MTB +$3M unattributed, criticized +$245M on an unnamed auto-leasing borrower (not R5). Next WAL 10/19 · OZK 10/20 · EGBN/BKU/SSB 10/21 · AMTB 10/22. Frozen frame unchanged; Q3 cannot resolve FALSE | `research/2026-10-14_wave/bank_Q3_read.md` · `research/2026-10-16_BRK-31_MTB_CFG_read.md` (CFG deck: capital call $10.5B + PC finance $4.5B = $15.0B, no growth inference); REGINALD CFG baseline reconciliation pending. **GIBBS (WQ-426): JPM/WFC/C NDFI = MY frozen frame, ONE figure; other 13 = GIBBS's, sent to me first; primary decides** |
+| **Thu 11/05 BMO; call09:00** | **FSK Q3 cash/PIK + Kellermeyer marks / actual collateral contribution / funded lender shares** (issuer10/8, KB334) | `research/2026-10-14_wave/FSK_cash_collateral_lenders.md` |
+| Mon 10/5 → | HY >320 ×3 (RED-FT-02 / REG-T-03) — LIQUID/RED own the count; HY **315 [FRED 10/8]** (303 10/6 · 309 10/7), 1.6% under 320. **My watch: CCC/BB 6.454 [FRED 10/8]** (6.562 10/6 · 6.503 10/7) — HY WIDENING 303→315 while CCC/BB FELL: CCC +3.1% (12.14→12.52) vs BB +4.9% (1.85→1.94); FORUM W3 "≤5.93 ×2 obs" (grades 11/30) not met | MY signal only if CCC/BB turns UP DURING a widening — 10/6→10/8: widening, ratio DOWN ⇒ not met (X1 test (b) needs both) |
+| Thu 10/22 · ~late Oct · 10/31 · ~11/3–11/5 | BX Q3 (verified) · **OCIC Q3 final** grades R2 **(b) only** ((a) fired 10/2; ~30% > 25) · **North Haven Q3 final ~11/05** grades R2 (b) (prelim 43.8%; (a) fired 9/25) · **GATE-BRK-R2 review 10/31** · APO Q3 (EST.) | R2: (a) on the first issuer-stated figure (any form type — watch 8-K 7.01 letters), (b) on the FINAL |
+| ~mid-Nov | **BCRED Q3 10-Q** — the FINAL DOLLAR value of the Q3 tender (Valuation Date 9/30/26) | no Q3 dollar figure exists before it |
+| OTF Q3 10-Q (date not yet set) | Blue Owl liquidity vector: **OTF Q3 NII < dividend = forced cut**; PIK: test the **"13% TII vs ~25% NII" denominator hypothesis** on a labelled basis | REGIME line 3 |
+| 11/30 · ~12/03 | **BRK-32 STUCK** (March31 weights FROZEN; prior RED disposition recovered, amendment unresolved) · **BCRED Q4 tender letter** (R2 (a) already FIRED ×2; a 3rd ~50% at BCRED would make it a third vehicle) | — |
+| 12/31 | **BRK-25** (count 2) · **BRK-26** (55%) resolve | EXIT §4 |
+| next VX review | **Duration red rung carries no sustain count** — flagged 9/25, not re-spec'd | VX-BRK-020; spec change = Will |
+| Will | ✅ **GATE-BRK-OTIC REGISTERED 10/15 (WQ-403)** — GATES row read vs letter 813f0fe1a: no misread. Leg R >45.0% / Leg S structural; graded from Q4-2026; Q3 FINAL ~10/23 recorded never graded; review 2027-04-30 · WQ-364: opacity bloc claim WITHDRAWN, my named NOT-FOUND leg stays (KB-BRK-347) · R2 population UNCHANGED · **W1 strict-vs-functional** (my leg NOT FOUND, KB-BRK-313) · ~~WQ-363~~ ✅ RULED APPROVE 10/3 (X1 "sustained" = 3 consecutive HY readings >280.0; LIQUID encodes) | PROME registered; not mine to rule |
+| PROME | **L587 X1-R** candidate relative instrument (register or decline) | wrapper half stays NOT ARMED meanwhile |
+| **by Fri 10/30** (before R2 review 10/31) | **DAEDALUS 10/8 asks + Radiant court-source gap:** R2 post-fire rule per vehicle (P9 has RESET only) · refresh BDC median NAV discount (exit §2) · search instrument + dated attempt for BRK-11/18/25/26 · VX BRK-013 two coverage metrics · Medallia canonical → REGINALD. Answered 10/9: P1's named six governs R2 | catch-up 2026-10-09 |
+| on Will's ask | **AI-infra financing leg** — SIG-W-20261002-012 Amazon ~$8B chip SPV · **SIG-W-20261008-006** Anthropic: who holds the junior risk ($42B Broadcom convertible · ~$60B syndicate, $18B junior Blackstone-led · DC CMBS) — credit-structure read vs the off-BS AI-debt map | deferred 10/2 + 10/8, not started. EDGAR 10/8: no public Anthropic S-1 found — figures are relays. VULCAN watch: Firmus private round (line back if PC prices it) · Volta $5.0B GPU loan, Apollo $1.5bn order |
+
+**Carried debts — moved here from SCRATCH 2026-10-02** (SCRATCH was not a boot read, so these were invisible at boot; each row keeps its original vintage — **status unverified since that date unless stated**; full text `archive/SCRATCH_PRESPLIT_2026-10-02.md`):
+
+
+FILE AGENTS/CARL/STATUS.md
+# CARL STATUS
+**Updated:** 2026-10-15 (crash-recovery session, D:L672 ③④ + D:L708): September CPI read, **CRL-10 8%→1%**; **V2 August 0/4 deep, holds 4**; **L708 consumer names H1 MIXED**; KB-506 tariff bases split. **53/70, v2.6.6 unchanged.**
+**Overall:** 🔴 CRITICAL under the registered score; evidence mixed (fuel easing, tighter Fed, CCC widening, SCF delinquency up vs low claims, re-based savings, improving credit at some issuers). **The full-thesis kill is NOT one more card-stock decline:** v2.6.6 needs claims <220K for 8 weeks AND two quarterly declines in Page 14 card flow into 90+ totaling ≥100bp in one vintage. Q2's flow path 7.13→7.10→6.97% fell only 16bp, so the floor is unmet (letter + mandatory shadow grade, divergence → Will: THESIS rider 1). V1 needs stock <12% for two quarters; 12.92% has not started that clock. V16 holds 4; drop-back reset to 0 of 2 on 10/02; next print October NFP 11/06.
+
+**Scope finding (10/12):** concentrated credit/affordability stress remains supported; current broad spending collapse and “both cohorts converging downward” are not established. BofA September realized spending grows across cohorts (selected, nominal sample); Michigan intentions weaken unevenly. The “60% fragile” share is an assumption, not measured here. Score53/70 is a registered-rule tally, not14 independent confirmations or a substitute for this evidence.
+
+**History:** `status_archive/` and `archive/2026-09-16_closeout/STATUS.md`; never cite archived observations as current.
+
+---
+
+## SIGNAL DASHBOARD
+
+### Credit / Delinquency
+| Metric | Value | As Of | Status |
+|--------|-------|-------|--------|
+| CC 90+ DQ | **12.92% Q2 versus13.12% Q1 (−20bp).** Both post-score-model switch; long-run level comparisons also fail because charge-off reporting retention changed. **13.74% GFC bar retired; CRL-05 closed NO-VERDICT-BY-BASIS9/10.** CRL-30 uses flow6.97% versus6.93% YoY (+4bp), not cross-era stock. No inference of broad relief from invalidating the comparator. KB441; NY Fed Page12. | Q2, released8/11; file pulled9/11 | 🔴 |
+| Subprime Auto 60+ DQ | **V2 holds 4. August: deep 0/4 improving (EART YoY +1.87/+1.19/+0.93/+1.20pp, issuer aggregate, verified at SEC), broad 0/3.** No L2 clock; L4 UNASSESSED. SDART 32mo double-match **+0.53pp** (after +0.84/+0.51/+0.21): narrowing REVERSED. ⚠️ INFERRED: part of the deep YoY is seasoning. Card 2026-10-15_V2-August-deep-card.md; KB-534. | Aug collection month | 🔴 |
+| Auto 90+ DQ | **5.49% Q2 versus5.60% Q1**, first decline off high (NY Fed Page12). Philly Fed cautions stocks may overstate distress. **Monthly indices (not V2's instrument):** KBRA August non-prime annualized net loss **+67bp MoM (+34bp YoY)**, early DQ +5bp, late DQ −9bp; prime moved ≤4bp (KBRA 9/16, changes only, levels paywalled). Fitch subprime 60+ July 6.13% (+33bp MoM; secondary blog only). Manheim mid-Sept 206.2, −0.4% YoY (first 2026 YoY decline). Cox credit availability August 105.3 (highest since Nov2015), subprime share 16.6% (+300bp YoY): lenders loosening into the stress. | Q2 NY Fed; Aug–Sep monthly | 🟠 stock eased / losses rising |
+| Student Loan 30+ DQ | **FLOW into30+:7.83% Q2**, down from11.03% Q1 and16.35% Q4 peak. Separate90+ STOCK rose to10.60%. Falling inflow and rising stock do not establish cures. **FSA June30 (GENERAL-26-57, 9/22, primary): ~3.5M borrowers 30+ DQ; 15.7% of dollars in active repayment 31+ days late.** SAVE→RAP first switch deadlines 9/29 (secondary); involuntary collections still paused since 1/16 (secondary, no restart found). STUE August15: active-repayment share53.8→38.5%, forbearance10.0→29.5%. KB451, NY Fed Pages12/13. | Q2 NY Fed; FSA June30 | 🔴 flow eased / stock rose |
+| Student Loan 90+ DQ | **10.60% Q2, +26bp QoQ from10.34%**, second >10% print. All-debt denominator includes protected balances; do not equate with share of active repayers. CRL-04 historical CONFIRMED; V4score4 unchanged. STUE owns repayment-denominator detail. | Q2, NY Fed Page12, file pulled9/11 | 🔴 |
+| Student Loan Defaults | **FSA FY2026-Q3 (June30) posted 9/18: Federally Managed cumulative default $234.1B / 9.3M recipients, versus $220.3B / 9.0M March31.** Net +$13.8B / +0.3M this quarter versus +$39.8B / +1.3M the quarter before: net growth slowed sharply. **This is a STOCK; it cannot separate more cures from fewer new defaults** (that split is STUE ES-04). Forbearance recipients 8.4→8.0M (−4.76%, at STUE's −5% band on one-decimal rounding). File LM 2026-09-18, 134,144 B, copy `domain/sources/2026-09-24_FSA_PortfoliobyLoanStatus_LM-2026-09-18.xls`; STUE packeted 9/24. | June30 data; posted9/18; pulled9/24 | 🔴 stock rising / growth slowed |
+| BNPL Late Rate | **47% in2026**, versus41%2025/34%2024; PHAN red band>45%. **LendingTree, not CFPB**; n2060,fieldworkMarch17–23,publishedAugust19,verifiedSeptember10. Necessities54%,groceries29%,rent13%,3+loans25%. “38% gasoline” source not found; do not carry. KB439. | 2026 survey | 🔴 |
+| Total Household Debt | **$18.7705T Q2, −$13.5B QoQ.** Mortgage13.117T; auto1.713T; cards1.263T; student1.651T. Q4→Q1→Q2 delinquency shares:90-day0.314→0.314→0.240%;120+1.270→1.298→1.086%;severely derogatory1.544→1.754→1.987%. **Composition shifted toward the worst bucket, but aggregate stocks do not identify cohort migration or prove upstream balances became terminal defaults.** Reporting retention can raise the terminal stock. KB452; NY Fed Pages3/11. | Q2, released8/11; file pulled9/11 | 🔴 composition / attribution unresolved |
+| Monthly issuer credit | **August COF card30+3.57% (+9bp MoM), auto4.54% (+15bp); SYF30+4.2% flat, adjusted NCO4.9% flat; Bread30+5.36% vs5.84% YoY and delinquent principal $885M vs$934M.** Mixed; Bread improvement is not denominator-only. Monthly issuer books do not resolve quarterly CRL-20/21 or the bottom60%. [Issuer releases9/14–15; KB-CARL-471/472/475] | Aug2026 | 🟠 mixed |
+| **Fed SCF 2025: behind on loan payments** | **19.6% ALL families vs12.2%2022;60+8.2% vs4.9%.** Base resolved using public weights + debtor-conditional historic Table18. Bottom usual-income groups have markedly more lateness than top10%; historical2025 interviews, not current2026 distress. Income/wealth clocks differ; age35–44 median income+3% despite mean−25%. KB504/507/508. | Released10/9; verified10/12 | 🔴 historical burden |
+| Consumer credit (G.19) | **August revolving −4.2% annualized ($1,357.2B→$1,352.4B); nonrevolving +4.1%; total +1.9%, $5,196.8B.** A borrowing flow, not a default rate. Preliminary. KB-CARL-505. | Aug, rel 10/7; FRED 10/10 | ⚪ |
+
+### Housing — consumer-transmission reads (asset-market domain → HOMER, promoted 2026-07-12)
+| Metric | Value | As Of | Status |
+|--------|-------|-------|--------|
+
+FILE AGENTS/CORAL/STATUS.md
+# CORAL — Florida Real Estate Stress Monitor
+## Comprehensive Florida Agent | 10 pillars (real estate · insurance · banks · migration · tourism · fiscal · labor · climate)
+
+**Last Updated:** 2026-10-15 08:14 ET (Thu, coral-1015, PROME prome-73 WQ-184 spawn — **crash recovery + GATE-CORAL-MSI-01 review_by**): reading #9 (stamp 10/15) **4-of-5 > 6.00, Cape Coral 5.91 in the band ⇒ no rule applies, leg 🟠**; storm rule S2 **NOT met** (EM-3655 is an EM, not a DR, and names no graded county) ⇒ unflagged; Redfin Sep: Miami #1 of 50 on modelled buyers, not corroborated by actual pendings; bank rail untouched; inbox 3/3 → `STATUS_DETAIL.md` § U (U0 = blocks rotated today, verbatim). Prior: 10/9 21:58 ET (coral-1009pm → § T) · 10/8 → § S.
+
+**File map (read-cap split 2026-09-02; rotated 2026-09-28):** **`STATUS.md`** = state, colours, live levels, every owed action (boot-read whole) · **`STATUS_DETAIL.md`** = evidence rows, sources, vintages, basis caveats — **§ "2026-09-28 session evidence"** for today; § "2026-09-13 STATUS hot-surface blocks — ROTATED" holds the 9/13 blocks verbatim (crc `5ff2d9aa`) · **`archive/STATUS_SESSIONS_20260721-20260823.md`** = session narrative 7/17→8/23. **State disagreement ⇒ this file wins; provenance disagreement ⇒ `STATUS_DETAIL.md` wins; either is a defect to fix.** · **`TRADE.md`** = DECLARED FLAT (9/28) · **`tools/bkcy/`** = bankruptcy instrument.
+
+---
+
+## THESIS RAILS — "The Coral Bleaching"
+
+Mechanism, rails, timing gates → `thesis/THESIS.md` v1.1. **Household/condo stress confirmed; bank-loss transmission NOT confirmed.** Falsify grade **2026-11-15**, baseline **1.5 of 6**, pre-registered rule (≥4 ⇒ 🟡 candidate · 2–3 ⇒ hold · ≤1 ⇒ 🟠 unqualified; no rewording at grading). **Directional notes for 11/15 (not grades) → `STATUS_DETAIL.md` § P.**
+
+---
+
+## SIGNAL DASHBOARD — HOT (state + level + vintage). Evidence → `STATUS_DETAIL.md`
+
+| Channel | Level (dated) | Status |
+|---|---|---|
+| **🟠 MSI supply-side leg** | **Reading #9 (stamp 10/15): 4-of-5 > 6.00** — Tampa **7.21** (high on CORAL's readings) · Punta Gorda 6.43 · North Port 6.35 · Lakeland 6.11; **Cape Coral 5.91 in the 5.90–6.00 band** (3rd reading at 5.91) ⇒ re-fire reading fails, clock at zero. Storm-unflagged (S2 not met). Stood down 9/13; letter → OQ §A; evidence § U1 | 🟠 |
+| FL foreclosure — H1 cumulative | #1 of 50, **0.27%** (ATTOM, 7/17) — ⚠️ not refreshed since 7/17 | 🔴 |
+| FL REO completions | FL Q1 **1,014, +108% YoY**; nat'l H1 +33% | 🟠 |
+| Condo/TH median (**mix**) | **$298K, +2.8% YoY (Aug)**; avg +1.8%; sales **−1.8%** | 🟡 |
+| Condo realization / velocity | orig-list **93.3% vs 91.8%**; contract **69d vs 72d** (Aug) — both FIRMER | 🟡 |
+| **FL statewide SF, constant-quality** | **+1.68% YoY SA (Jul, FMHPI FL)** — excludes condo/co-op/PUD, conforming only | 🟡 |
+| SF median (**mix**) | **$415K, +1.2% YoY (Aug)**; 4.3 mo; new pendings **−2.8%** (12-mo run ended) | 🟡 |
+| Condo inventory (statewide) | **7.7 mo (Aug)** — 7th straight decline; ⚠️ trailing-12 sales denominator | 🟡 |
+| Condo inventory (metro) | Miami-Dade **12.1 mo** · Broward **9.9** · Palm Beach **6.7** (Aug, MIAMI REALTORS) — ⚠️ PB's prior 8.2 (Apr) basis unverified, no trend asserted | 🟠 |
+| **Redfin sellers-vs-buyers (Sep, modelled buyers; snapshot 10/07)** | Miami **158.9%, #1 of 50, WIDENING +37.1pp YoY** (Aug was narrowing), condo-led (condo 274% vs SF 83%). ⚠️ Rides **modelled buyers −25.0%** while Redfin's **actual pendings −2.7% / closings −3.6%** ⇒ magnitude NOT corroborated (Orlando +56pp, 2nd month uncorroborated). Miami · Tampa · Orlando widened; FTL · WPB · Jax narrowed; all six buyer's markets → § U4 | 🟠 |
+| SE-FL vintage (30+yr) pending $/sf | **$313, −9%** — ⚠️ STALE since 7/13 | 🟠 |
+
+FILE AGENTS/CREED/STATUS.md
+# CREED STATUS
+
+**Updated:** 2026-10-01 (Thu) early — night session 9/30 ~21:50 ET → 10/01, all Will-directed: CATO RC4/RC5 fixed · **Will's CRE loss-sales workbook adopted whole (v4): cases 55 → 134** · pattern analysis (cold-read; v2 purchase-year claim RETRACTED) · **loss → listed-holder map** (Arbor ≈37% of equity the one material listed lender; OZK 3.4% CET1; FBRT ≤1.4%) + packets to HOMER/LIQUID/OZK · **S8a 9/30 close −9.14 TR recorded** · 5 KB rows marked STALE. ⚠️ CREED's 3000 Post Oak $68.6M is probably wrong (B17 10-D: balance at loss $74.58M); settle on the October 10-Ds. **No score, band, trigger or prediction moved; 27/45.** Record: `catchups/2026-09-30.md` §⑨. PRIOR: 2026-09-30 (Wed) EVENING — crash-lost industrial row redone (`KB-049`) + `KB-050` office opex outgrew revenue 2021–25 + Will-approved refinancing-screen follow-up (WIP page `research/2026-09-30_REFI_SCREENS_FOLLOWUP.md`, F1–F10; research agents lost in the ~19:50 crash) + `scripts/trepptalk_sweep.py` (not wired). **No score, band, trigger or prediction moved; 27/45.** Record: `catchups/2026-09-30.md` §⑧. EARLIER 9/30: boot + CATO review follow-through, all Will-directed: **S8a held at 4 (Will)** · PROME READS.tsv block declared + corrected · CW5 counter validation finished (23/23 tests) · **THESIS split 145% → 64%** with current sections corrected (CATO CK1–CK3, CD5) · July pack now on demand · `KB-CREED-048` (Trepp self-storage, context only). **No score, band, trigger or prediction moved; 27/45.** September Trepp not yet out. Record: `catchups/2026-09-30.md`. Prior: 2026-09-29 (Tue) — boot + **`PRED-CREED-005` graded HIT** (ARI stockholders approved liquidation 9/29; 8-K Item 5.07 PRIMARY-READ; Brier 0.09; mean Brier 0.37375 → 0.317, n=5) + **`cases/` ledger built (Will-directed) and WALTER's seed adopted after a 3-agent verification: 55 cases, 3 held** + `KB-CREED-015` corrected ($8.5M = OZK Atlanta, not Seattle). **No score, band or trigger moved.** ⚠️ That session **crashed before closeout**; the recovery session (9/29 evening) recovered all known committed work (unsaved state cannot be established, CATO CD4) and wrote the record: `catchups/2026-09-29.md`. **Late 9/29: CATO case-ledger corrections (CD1–CD3) and the workbook consistency pass (CW1–CW5) are done**: VX-1.02 and 4.02 recoloured YELLOW (4.02 refreshed to 145.6%, FDIC Q2); Q2 bank and insurer rows refreshed; the n=12 counter implemented; selfcheck check ③ added. No band, trigger, score or prediction term moved. Prior: 2026-09-28 (Mon, second session) — **`registry/THRESHOLDS.tsv` read-cap rotation** (84% → 42%, Will-approved; verbatim history → `registry/THRESHOLDS_NOTES.md`; three stale units repaired) + **WQ-328 hotel CMBS supply packet to WAL** (Will-approved, held rows only). **No score, band, trigger or prediction moved.** Detail: `catchups/2026-09-28.md` §⑥. Earlier 9/28 session: **Will RULED WQ-303 + WQ-304** (verbatim *"Approve WQ-303 at 4 and WQ-304 option B"*, `PROME/WILL_QUEUE.md` @`47623f8b1`): **S8a 2 → 4, convergence 25/45 → 27/45**; **`PRED-004` HIT / `PRED-007` MISS graded on CREED's own ledger**; two owed wording corrections applied (PROME clearing-price narrowing; CATO NB6/NB1 on Nano); `PRED-003` row repaired; **`KB-CREED-046` 3000 Post Oak** (Houston CMBS REO sale, trusts net $11.4M on $80M senior) and Trepp's MF build-year split routed to HOMER via WALTER. Detail: `catchups/2026-09-28.md`. Prior: 2026-09-27 (Sun) — boot + Nano Banc (WQ, `prome-09`) + **6 PROME CRE→bank-transmission legs** (WQ-309 Signature economics, WQ-311 VLY, WQ-312 workout-funding observability, the property-comparable transfer test, and 3 peer corrections adopted — REGINALD ×2, OZK ×1). Detail: **`catchups/2026-09-27.md`**. Prior: 2026-09-26 Will-launched catch-up (dark 9/02 → 9/26), `catchups/2026-09-26.md`.
+**Status:** 🟠 **ELEVATED** — base case *selective CRE recognition accelerating* **HOLDS.** Convergence **27/45 (60.0%)** — S8a 2 → 4, **Will-ruled 2026-09-28** (WQ-303). ⚠️ Caveat travels: rate-led fire (10y 4.38 → 5.18% official [9/24]); ~2.2pp of the −13.06pp [9/25 TR] depth is 3-month window roll — argues against 5, does not lower the 4. ⚠️ **Still PRE-BANK-TRANSMISSION** (`T-03` not fired; next test FDIC Q3 QBP ~late Nov).
+**Tier:** 2 (spawned-as-needed). **Cadence declared EVENT-DRIVEN 2026-09-26** (PROME packet). Do not spawn without explicit Will permission.
+**Owner:** CREED after boot; PROME owns future topology/migration decisions only with Will approval.
+**▶ 🔴 NEW FIRE — `CREED-T-08a` (S8a, VNQ vs SPY 3-mo TOTAL-RETURN `< −10`): 9/24 −10.12pp · 9/25 −13.06pp**, effective 9/24, adjudicated 9/26. XLRE/IYR confirm. **A RATE FIRE FIRST** — 10y 4.38 → 5.18% on the window, **FOMC +25bp 9/16**; property leg also met (Trepp Aug SS 11.42%, highest since Feb 2013). Tenant demand (S7) not deteriorating; ~2.2pp of the depth is window mechanics. ✅ **S8a scored 4 (Will, 9/28).** 🆕 **9/30 close: −9.14pp TR (price-only −9.69; 10-session σ 2.85pp) — still INSIDE the −10 band, 0.86pp from it** (9/29 −7.89, 9/28 −10.48). The 9/29 → 9/30 step (−1.25pp) is inside noise. **T-08a stays FIRED (an event); S8a=4 is Will's ruling. Caveat carried to Will 9/29** (PROME B1). ✅ **2026-09-30: Will, verbatim *"Hold S8a at 4"* — the optional post-fire revisit is CLOSED.** Record: `registry/CREED_T_FIRED_LOG.tsv`.
+**▶ 🔴 PRIOR FIRES:** `CREED-T-02` (S2, effective June, fired 8/20) — **spent**; Aug share 81% is not a re-fire. `CREED-T-06b` (SREIT gate, effective 4/29, fired 8/27) — **S6 HELD at 3, Will-ruled**; count still 1 after a positive-controlled census (never written as corroborated beyond that census).
+**▶ NOT FIRED:** `T-01a` office DQ **12.00 [Aug] — AT the band, 0/2**, September can only start leg 1 (`PREREG_2026-10`) · `T-01b` office SS **16.90 [Aug]**, 110bp away, moved toward · `T-03` level leg suspended; Q2 not fired · `T-08b` cuts 4/11 but erosion concentrated.
+**▶ PREDICTIONS — 🆕 9/29 evening: `PRED-006` RESOLVED-FALSE (30%, Brier 0.09; MBA life +$7,830M < +$10.0B) · `PRED-010` PARTIAL, not scored (Will) → mean Brier 0.279, n=6, 4/6 correct side.** Earlier (9/28, WQ-304 option B): `PRED-CREED-004` **HIT** (60%, GPMT review 9/23, Brier 0.16) · `PRED-CREED-007` **MISS** (15%, S8a fired, Brier 0.7225) — graded on CREED's own ledger; **mean Brier 0.30625 → 0.37375 (n=4, 2/4 correct side)**. 🆕 **9/29: `PRED-CREED-005` HIT** (70%, ARI dissolution approved — For 72,217,727 / Against 799,088 / Abstain 439,400, 8-K Item 5.07 same day; Brier 0.09) → **mean Brier 0.317, n=5, 3/5 correct side.** Not Kernel-pinned — no divergence on this row. First-distribution amount/dates NOT yet declared. ⚠️ **The Kernel ledger still shows both OPEN until a Gate C sitting settles them** (no live window; carve-out ④ inactive) — a stated divergence, not an error.
+**▶ ANALYSES 9/26 (evening):** `research/2026-09-26_CRE_VULNERABILITY_MAP.md` (refinancing ≫ cash flow; AMTB label corrected) · `research/2026-09-26_REGINALD_TOP3_PROPERTY_TEST.md` (3 anchor fixes adopted by REGINALD; 3 CREED claims corrected). Detail → catch-up §⑧.
+**▶ 🆕 NANO BANC (failed 9/25) — DELIVERED 9/27, NO LETTER MOVES:** `analysis/2026-09-27_nano-banc-collateral-read.md`. Retained ≈ $215M (9/22 base), likely ≈ $190M of loans (INFERRED); named credits are litigated, several SECOND liens, Inland Empire/LA County retail + medical office + small MF. Cites REGINALD's ≈ $120M ≈ 17% desk scenario (pool ≈ 51–56% in a **zero-adjustment scenario, not a ceiling**, unallocable — CATO NB1, narrowed 9/28). FDIC sale comp registered as **DOCKET L515** (check-by 2027-06-25); **record lien position**; most likely NOT a T-06 member. `KB-CREED-041` (CMBS severity comps) / `042`.
+**▶ NEXT SESSION:** ~~ARI vote 9/29 (`PRED-005`)~~ (✅ HIT, graded 9/29; first distribution not yet declared) · **Plaza Continental (8:26-bk-10986): 9/29 hearing read, lien ownership UNKNOWN**, re-check free copies of Doc 93 + the minute order ~9/30–10/2; **a caption alone does not establish ownership** (Nano analysis §7 lien test) · ~~MBA Q2 → `PRED-006`+`010`~~ (✅ graded 9/29) · September Trepp DQ ~10/01 on `PREREG_2026-10` · ~~the S8a score~~ (✅ ruled 4, 9/28) · **REGINALD VLY parts 2-4** (place the $101.5M MF 30-89 DPD → refine the WQ-311 grade) · Q3 touchpoints now in `CALENDAR.md` (L514 QBP/T-03, L515 Nano sale, L516 Nano P&A ~10/09).
+---
+
+## Catch-ups → `catchups/INDEX.md` (hot/cold split 2026-09-26)
+
+**Current: see `catchups/INDEX.md` (as of 2026-09-30: `catchups/2026-09-30.md`).** *(This line read "09-26" through 9/27 while the INDEX said 09-27 — re-pointed at the INDEX so it cannot lag again.)* Catch-ups no longer accumulate here (obligation 21, executed 9/26). The 9/02 section and the archive-pointer stubs moved verbatim to `catchups/`.
+
+---
+
+## Standing Obligations — the rotation's obligation audit, and the surface it produced
+
+🔴 **Exists because a byte-driven rotation can silently delete an owed action while every byte check passes clean** (NEXUS, 9/02, n=2 deleted). **Every obligation carried before the 9/02 rotation is listed with its live home.** Nothing was rotated without one.
+
+| # | Obligation | State | Lives at |
+|---|---|---|---|
+| 1 | **`VX-CREED-5.03` POSITIVE CONTROL** — confirm the gate count of `1` is *no more gates found by a search that would have found them*, not *no search was run* | ✅ **DISCHARGED 2026-09-26** — positive-controlled census: method proven to find SREIT (and it exposed a 'suspend'-keyword blind spot, `KB-CREED-040`); no new US gate; Trez + CFIT open adjudications, not counted | `KB-CREED-040` · `VX-CREED-5.03` |
+| 2 | **The gate count of 1 is NEVER written as corroborated** | ⚫ standing refusal | header ▶ `T-06b` |
+| 3 | **Publisher-side registry-ID grep across BOARD after any frozen-field ruling** | 🟠 **LIVE** — not closed by WALTER adopting the receiving half; a two-sided check with one shared blind spot is one check | `SCRATCH.md` deferred 14 |

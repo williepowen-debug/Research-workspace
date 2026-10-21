@@ -1,0 +1,21 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/WALTER/   (processed/ + archive/ excluded everywhere — historical by design)
+
+  ── value · superseded 5673.4 → current 5674.6
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (4)
+        AGENTS/REGINALD/research/FHLB/reports/2026-10-10_FHLB_Q2_composition_and_REG-T-06_base_rate.md:146  [5673.4]
+           | Small-bank deposits `DPSSCBW027SBOG` | 5,674.3 | 5,667.9 | 5,671.2 | **5,673.4** | −0.9 (flat) |
+        AGENTS/REGINALD/research/FHLB/reports/2026-10-10_FHLB_Q2_composition_and_REG-T-06_base_rate.md:175  [5673.4]
+           | Small-bank deposits `DPSSCBW027SBOG` | 5,667.9 | 5,673.4 | multi-week decline while large rise | 🟢 flat |
+        AGENTS/REGINALD/research/FHLB/copies/REGINALD/2026-10-10_from-REGINALD_SIGNAL-small-bank-borrowings-plus-33B-in-3wks-to-9-30.md:11  [5673.4]
+           | Deposits, same banks | 5,674.3 → **5,673.4** (flat, SA); NSA −0.2% | `DPSSCBW027SBOG` / `…NBOG` |
+        BOARD/SIG-W-20261010-007-funding-small-bank-borrowings-plus-32point9B-3wks-to-9-30-deposits-flat-4th-since-2022-one-ninth-of-SVB-week-FHLB-debt-only-plus-6point2B-sept-Q3-advances-nowcast-770B-HY-issuance-4-deals-UNSOURCED-LIQUID.md:36  [5673.4]
+           | Deposits, same banks | 5,674.3 → **5,673.4** (flat, SA); NSA −0.2% | `DPSSCBW027SBOG` / `…NBOG` |
+     🟢 cleared: marker-adjacent / next to new value / frozen file (7)  [--show-handled to audit]
+
+  🔴 4 stale consumer reference(s). Send each owner a packet with the refreshed value — do NOT edit their files.
+==================================================================
+

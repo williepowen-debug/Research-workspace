@@ -1,0 +1,51 @@
+RESEARCH-INTAKE scan — 2026-10-21 12:58Z
+================================================================
+
+[health]
+  OK   last_run 2026-10-20T18:52:01Z (1 missed weekday runs, 0 calendar days)
+  OK   news search items saved: 190 (trailing median 184 over 10 batches)
+
+[NEW breaches to ROUTE — 16]  (onset; push per §3, tag source: RESEARCH-INTAKE)
+  ROUTINE   INFO   -> BRENT cc HAWK  [energy/storage threshold]
+      commercial_crude_mbbl crude WoW draw 8.557M [orange]
+  PRIORITY  ACTION -> WAL,REGINALD  [critical 8-K [regional_bank]]
+      WAL 2026-10-19 ['2.02', '9.01']
+  PRIORITY  ACTION -> REGINALD  [critical 8-K [regional_bank]]
+      ZION 2026-10-19 ['2.02', '9.01']
+  PRIORITY  ACTION -> (per-item agents field)  [1 NEW_ALERT]
+      1 NEW_ALERT item(s) — read data/2026-10-20/news.json
+  ROUTINE   INFO   -> (per-item agents field)  [7 NEW_WATCH]
+      7 NEW_WATCH item(s) — read data/2026-10-20/news.json
+  PRIORITY  ACTION -> CRUISE  [WATCH_HIT [CRUISE:'Royal Caribbean guidance']]
+      William Blair Sees Royal Caribbean (RCL) Surpassing Q3 Earnings Guidance Despite Fuel Cost Headwinds - GuruFocus
+  PRIORITY  ACTION -> BRENT  [WATCH_HIT [BRENT:'Russia diesel export'; BRENT:'Trump diesel export']]
+      Russia Resumes Diesel Exports to Turkey, Brazil Despite Export Ban After Trump Deal - Kyiv Post
+  PRIORITY  ACTION -> BRENT  [WATCH_HIT [BRENT:'Russia diesel export']]
+      Russian Diesel Exports Resume to Turkey, Brazil After Ban Lifted - Egypt Oil & Gas
+  PRIORITY  ACTION -> BRENT  [WATCH_HIT [BRENT:'Russia diesel export'; BRENT:'White House diesel export']]
+      White House Defends Diesel Export Deal With Russia - News Radio 1190 KEX
+  PRIORITY  ACTION -> BRENT,OSPREY  [WATCH_HIT [BRENT:'Russia diesel export'; OSPREY:'Russia lifts diesel export ban']]
+      Russia resumes diesel exports to Türkiye and Brazil after Moscow lifts ban - The New Voice of Ukraine
+  PRIORITY  ACTION -> BRENT  [WATCH_HIT [BRENT:'Russia diesel export'; BRENT:'Trump diesel export']]
+      Russia resumes diesel exports to Brazil and Türkiye after Trump deal, Reuters reports - RBC-Ukraine
+  PRIORITY  ACTION -> SHADE  [WATCH_HIT [SHADE:'Group 1001 Insurance']]
+      Insurance moves: Ironpeak, Title Resources, Group 1001 and others - Insurance Business
+  PRIORITY  ACTION -> SHADE  [WATCH_HIT [SHADE:'Group 1001 Insurance']]
+      Group 1001 Insurance Names George Haj as Chief Communications Officer - Business Wire
+  PRIORITY  ACTION -> SHADE  [WATCH_HIT [SHADE:'Group 1001 Insurance']]
+      Insurance moves: Burns & Wilcox, Ironpeak, Title Resources, Group 1001, Clyde & Co - Insurance Business
+  PRIORITY  ACTION -> TERRY  [WATCH_HIT [TERRY:'Western Alliance third quarter']]
+      Western Alliance Bancorporation Reports Third Quarter 2026 Financial Results - Business Wire
+  PRIORITY  ACTION -> HANS  [WATCH_HIT [HANS:'EU gas storage']]
+      Netherlands meets EU gas storage target after government intervention - NL Times
+
+[suppressed — still-true, already seen — 7]  (do NOT re-push)
+  fred:UMCSENT:orange  (UMCSENT UMich sentiment=51.7 [orange])
+  fred:MORTGAGE30US:red  (MORTGAGE30US 30yr mortgage rate %=7.4 [red])
+  fred:BAMLH0A0HYM2:red  (BAMLH0A0HYM2 HY OAS bps=329.0 [red])
+  fred:BAMLH0A0HYM2:red  (BAMLH0A0HYM2 HY OAS=329bps [red] >=280 X1-trigger breach (LIQUID half )
+  cftc:cftc_cot_VIX_lev_money_net_1105_orange_n:orange  (cftc_cot VIX lev-money net=1105 [orange] (net-long vol / de-risking re)
+  edgar:NCLH_2026_10_15_1_01_1_02_2_03_8_01_9_01_  (NCLH 2026-10-15 ['1.01', '1.02', '2.03', '8.01', '9.01'])
+  edgar:NCLC_2026_10_15_1_01_1_02_2_03_8_01_9_01_  (NCLC 2026-10-15 ['1.01', '1.02', '2.03', '8.01', '9.01'])
+
+After routing the NEW breaches, run:  python3 tools/intake_scan.py --mark

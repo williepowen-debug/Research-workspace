@@ -1,0 +1,15 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/WALTER/   (processed/ + archive/ excluded everywhere — historical by design)
+
+  ── value · superseded 505.9 → current 500.5
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (1)
+        AGENTS/HAWK/domain/sources/2026-09-08_next-steps-1-3/taipower-daily-2026.csv:243  [505.9]  (needle <5 sig digits)
+           20260830,505.9,15.40
+     🟢 cleared: marker-adjacent / next to new value / frozen file (9)  [--show-handled to audit]
+
+  🟠 1 CANDIDATE(s), zero certified-stale. A 🟠 is a prompt to LOOK, never a packet: confirm same series AND unit at the hit, then re-run with --unit/--series for the 🔴 verdict.
+==================================================================
+

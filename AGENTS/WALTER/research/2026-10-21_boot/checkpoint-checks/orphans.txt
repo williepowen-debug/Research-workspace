@@ -1,0 +1,96 @@
+⚠️  uncommitted files outside AGENTS/WALTER/:
+     [likely YOURS] AGENTS/DAEDALUS/upgrades/WALTER_CARD.md
+     [not yours]    AGENTS/BRENT/inbox/WALTER/SIG-W-20261021-004.md
+     [not yours]    AGENTS/BRENT/inbox/WALTER/SIG-W-20261021-006.md
+     [not yours]    AGENTS/DAEDALUS/FLEET_DIRECTORY.md
+     [not yours]    AGENTS/DAEDALUS/FLEET_MAP.tsv
+     [not yours]    AGENTS/DAEDALUS/FLEET_MAP_HISTORY.tsv
+     [not yours]    AGENTS/DAEDALUS/HANDOFF.md
+     [not yours]    AGENTS/DAEDALUS/STATUS.md
+     [not yours]    AGENTS/DAEDALUS/archive/EVOLUTION_ARCHIVE_2026-09.md
+     [not yours]    AGENTS/DAEDALUS/profiles/AEOLUS.md
+     [not yours]    AGENTS/DAEDALUS/profiles/BOND.md
+     [not yours]    AGENTS/DAEDALUS/profiles/BRENT.md
+     [not yours]    AGENTS/DAEDALUS/profiles/BROCK.md
+     [not yours]    AGENTS/DAEDALUS/profiles/CARL.md
+     [not yours]    AGENTS/DAEDALUS/profiles/CORAL.md
+     [not yours]    AGENTS/DAEDALUS/profiles/CREED.md
+     [not yours]    AGENTS/DAEDALUS/profiles/CRUISE.md
+     [not yours]    AGENTS/DAEDALUS/profiles/DEWEY.md
+     [not yours]    AGENTS/DAEDALUS/profiles/FALCON.md
+     [not yours]    AGENTS/DAEDALUS/profiles/FERT.md
+     [not yours]    AGENTS/DAEDALUS/profiles/FLG.md
+     [not yours]    AGENTS/DAEDALUS/profiles/HANS.md
+     [not yours]    AGENTS/DAEDALUS/profiles/HAWK.md
+     [not yours]    AGENTS/DAEDALUS/profiles/HENRY.md
+     [not yours]    AGENTS/DAEDALUS/profiles/HOMER.md
+     [not yours]    AGENTS/DAEDALUS/profiles/LABOR.md
+     [not yours]    AGENTS/DAEDALUS/profiles/LIQUID.md
+     [not yours]    AGENTS/DAEDALUS/profiles/MARCO.md
+     [not yours]    AGENTS/DAEDALUS/profiles/MIDAS.md
+     [not yours]    AGENTS/DAEDALUS/profiles/NEXUS.md
+     [not yours]    AGENTS/DAEDALUS/profiles/ORACLE.md
+     [not yours]    AGENTS/DAEDALUS/profiles/OSPREY.md
+     [not yours]    AGENTS/DAEDALUS/profiles/OTTO.md
+     [not yours]    AGENTS/DAEDALUS/profiles/OZK.md
+     [not yours]    AGENTS/DAEDALUS/profiles/PROME.md
+     [not yours]    AGENTS/DAEDALUS/profiles/RED.md
+     [not yours]    AGENTS/DAEDALUS/profiles/REGINALD.md
+     [not yours]    AGENTS/DAEDALUS/profiles/SAM.md
+     [not yours]    AGENTS/DAEDALUS/profiles/SHADE.md
+     [not yours]    AGENTS/DAEDALUS/profiles/TERRY.md
+     [not yours]    AGENTS/DAEDALUS/profiles/VIOLET.md
+     [not yours]    AGENTS/DAEDALUS/profiles/VULCAN.md
+     [not yours]    AGENTS/DAEDALUS/profiles/WAL.md
+     [not yours]    AGENTS/DAEDALUS/profiles/WALTER.md
+     [not yours]    AGENTS/DAEDALUS/profiles/WATT.md
+     [not yours]    AGENTS/DAEDALUS/profiles/ZHAO.md
+     [not yours]    AGENTS/DAEDALUS/runs/2026-10-21_BOOT.md
+     [not yours]    AGENTS/DAEDALUS/runs/2026-10-21_CHECK_REGISTRY_READER_REPORTS.md
+     [not yours]    AGENTS/DAEDALUS/runs/2026-10-21_CHECK_REGISTRY_SUGGESTED_ROWS.json
+     [not yours]    AGENTS/DAEDALUS/runs/2026-10-21_PR8_EVIDENCE/
+     [not yours]    AGENTS/DAEDALUS/runs/2026-10-21_STALENESS.md
+     [not yours]    AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/
+     [not yours]    AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_READER_REPORTS.md
+     [not yours]    AGENTS/DAEDALUS/runs/GATE_LOG.tsv
+     [not yours]    AGENTS/DAEDALUS/upgrades/BOND_CARD.md
+     [not yours]    AGENTS/DAEDALUS/upgrades/BROCK_CARD.md
+     [not yours]    AGENTS/DAEDALUS/upgrades/HOMER_CARD.md
+     [not yours]    AGENTS/DAEDALUS/upgrades/HOMER_REVIEW_2026-08-22.md
+     [not yours]    AGENTS/DAEDALUS/upgrades/MARCO_CARD.md
+     [not yours]    AGENTS/DAEDALUS/upgrades/PRODUCTION_REVIEW_2026-10-01.md
+     [not yours]    AGENTS/DAEDALUS/upgrades/PRODUCTION_REVIEW_2026-10-21.md
+     [not yours]    AGENTS/DAEDALUS/upgrades/PRODUCTION_REVIEW_2026-10-21_MARKET_READER_REPORTS.md
+     [not yours]    AGENTS/DAEDALUS/upgrades/PRODUCTION_REVIEW_2026-10-21_READER_REPORTS.md
+     [not yours]    AGENTS/DAEDALUS/upgrades/PRODUCTION_REVIEW_2026-10-21_REVIEW_READER_REPORTS.md
+     [not yours]    AGENTS/DAEDALUS/upgrades/PRODUCTION_REVIEW_2026-10-21_TRANSMISSION_READER_REPORTS.md
+     [not yours]    AGENTS/DAEDALUS/upgrades/PRODUCTION_REVIEW_2026-10-21_UTILITY_READER_REPORTS.md
+     [not yours]    AGENTS/DAEDALUS/upgrades/PROFILE_TRIGGER_ORDER_2026-10-02.md
+     [not yours]    AGENTS/DAEDALUS/upgrades/REGINALD_CARD.md
+     [not yours]    AGENTS/DAEDALUS/upgrades/TERRY_CARD.md
+     [not yours]    AGENTS/DAEDALUS/upgrades/evidence/
+     [not yours]    AGENTS/HANS/inbox/WALTER/SIG-W-20261021-006.md
+     [not yours]    AGENTS/HAWK/inbox/WALTER/SIG-W-20261021-004.md
+     [not yours]    AGENTS/HENRY/inbox/WALTER/SIG-W-20261021-004.md
+     [not yours]    AGENTS/HENRY/inbox/WALTER/SIG-W-20261021-005.md
+     [not yours]    AGENTS/HENRY/inbox/WALTER/SIG-W-20261021-006.md
+     [not yours]    AGENTS/LIQUID/inbox/WALTER/SIG-W-20261021-006.md
+     [not yours]    AGENTS/OSPREY/inbox/WALTER/SIG-W-20261021-004.md
+     [not yours]    AGENTS/REGINALD/reports/2026-10-21_boot/
+     [not yours]    AGENTS/VIOLET/inbox/WALTER/SIG-W-20261021-005.md
+     [not yours]    AGENTS/VULCAN/inbox/WALTER/SIG-W-20261021-005.md
+     [not yours]    AGENTS/WATT/inbox/WALTER/SIG-W-20261021-005.md
+     [not yours]    BOARD/INDEX.md
+     [not yours]    BOARD/SIG-W-20261021-004-russian-diesel-two-destination-signals.md
+     [not yours]    BOARD/SIG-W-20261021-005-dram-newsroom-forecast-not-official-research-revision.md
+     [not yours]    BOARD/SIG-W-20261021-006-dutch-storage-lowered-target-not-eu-gap-exit.md
+
+🔴 THE FLAGGED FILES LOOK LIKE PACKETS YOU AUTHORED.
+   If you do not commit them they never reach the recipient, and the recipient
+   is never told anything was sent. Committing files you authored into another
+   agent's inbox is the ONE sanctioned exception to the pathspec rule.
+
+   git add <paths> && git commit <paths> -m "WALTER -> <recipient>: <what>"
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.

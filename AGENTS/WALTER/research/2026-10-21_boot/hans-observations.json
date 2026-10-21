@@ -1,0 +1,77 @@
+{
+  "fetched_utc": "2026-10-21T12:54:24.524289+00:00",
+  "AGSI": {
+    "row": [
+      "2026-10-19",
+      74.62,
+      "0.01"
+    ],
+    "error": null,
+    "norm": [
+      89.236,
+      92.94,
+      5,
+      [
+        [
+          2021,
+          77.18
+        ],
+        [
+          2022,
+          92.94
+        ],
+        [
+          2023,
+          98.02
+        ],
+        [
+          2024,
+          95.2
+        ],
+        [
+          2025,
+          82.84
+        ]
+      ]
+    ]
+  },
+  "ECB_AAA10Y": [],
+  "BOE_10Y_PAR": [
+    "19 Oct 2026",
+    5.374
+  ],
+  "prices": {
+    "TTFX26.NYM": {
+      "price": 87.38,
+      "prev": 85.06,
+      "change_pct": 2.73,
+      "name": "TTFX26.NYM",
+      "volume": 41,
+      "asof": "2026-10-21",
+      "prev_asof": "2026-10-20",
+      "contract_month": null,
+      "contract_basis": "name-cut-inferred-from-width-at-31:'Dutch TTF Natural Gas Calendar '",
+      "instrument_type": "FUTURE",
+      "is_future": true,
+      "contract_symbol": null,
+      "session": "day",
+      "trade_date": "2026-10-21",
+      "session_basis": "day session; last trade 2026-10-21 08:23:56 [America/New_York] vs bar 2026-10-21; day-session close 17:00 ET assumed (CME Globex energy/metals)",
+      "change_basis": "regularMarketPreviousClose (prior bar 2026-10-20)"
+    },
+    "EURUSD=X": {
+      "price": 1.12,
+      "prev": 1.12,
+      "change_pct": 0.04,
+      "name": "EURUSD=X",
+      "volume": 0,
+      "asof": "2026-10-21",
+      "prev_asof": "2026-10-20",
+      "contract_month": null,
+      "contract_basis": "name-carries-no-month:'EUR/USD' (instrumentType='CURRENCY')",
+      "instrument_type": "CURRENCY",
+      "is_future": false,
+      "contract_symbol": null
+    }
+  }
+}

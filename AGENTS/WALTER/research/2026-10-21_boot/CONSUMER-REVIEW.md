@@ -1,0 +1,5 @@
+# Revision consumer review
+
+Separate peer/self scans ran for borrowing314.5→314.9, cash505.9→500.5 and deposits5673.4→5674.6. Cash's only unresolved peer candidate is a Taipower daily series, a different object/unit. Borrowing candidates include historical REGINALD copies, raw thermal readings, warehouse inventory and UWM earnings; no blind number replacement or packet on an unqualified match.
+
+Deposit red results resolve to the original BOARD1010-007, already carrying the additive correction banner and generated inverse linkage, and REGINALD's dated October10 FHLB report/copy. REGINALD originated the new vintage and received the correcting001 handoff, so the affected owner already has the required correction packet. Historical source vintages remain historical; WALTER does not edit those owner files. Self red results are copies printed inside this very diagnostic run, not a new analytical use; no recursive rewrite of evidence logs. Current001 includes all three revised figures and explicitly weakens the old cash-buffer inference. No further distinct certified-stale owner found within these scan results.

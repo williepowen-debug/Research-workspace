@@ -1,3 +1,7 @@
+## 2026-10-21T13:13:24Z — explicit WALTER startup; PARTIAL
+
+Root/local instructions explicitly read; five owner packets integrated, six qualified source signals and25handoffs written. Registry47rows/42headers refreshed; dated threshold/source retrieval performed to stated partial perimeter. Inbox6/6closed; intake7/22with15pending, laneunmarked; late declaration recorded. Existing94bookmarkstage preserved. Full context/READS and official-source gaps remain; no independent fullboot or cleanmarket claim. No Will decision or helper. Publication and native/recipient consumption separate; foreign dirty work untouched. Evidence research/2026-10-21_boot; sole duties LAST_COMPLETION.md.
+
 ## 2026-10-21T00:54:22Z — session closed at Will’s request; full procedure incomplete
 
 66of96bookmarkdispositions saved; nextbatch12 follows SAM/time-sensitive desk checks. CATOworkflow52816a6ce published;106todayhandoffs published, sixpriorVULCAN/BRENTdispositions evidenced. No new research/scan/mark/dispatch, allhelpersclosed. Fullchecks attempted; registry/network/fullnarrative/READS/threshold/intake/SAM/financing duties explicitly retained, not cleared. ResumeHANDOFF research/2026-10-20_session-closeout/HANDOFF.md; sole duties LAST_COMPLETION. ForeignDAEDALUSuntouched; pull/pushdeferred, finalcheckpoint exact-pathlocal.

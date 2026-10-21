@@ -1,0 +1,431 @@
+{
+  "lane_commit": "04feca7",
+  "news_candidates": [
+    [
+      11,
+      {
+        "title": "William Blair Sees Royal Caribbean (RCL) Surpassing Q3 Earnings Guidance Despite Fuel Cost Headwinds - GuruFocus",
+        "source": "GuruFocus",
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQNDhQR01Dd2pXckthdUt2bFlZTnFQQUY0Xy1GUjZUb1VPMlRISG5uOTI2RTJjaXlCRkQxVk9mMzRURjBpZ2NlTW9taldvcV9Fc09mOGJ0SXlaWjVnUlVWOUtaTDdFZmZaek1TQXM4QWZXTVhWYVc0Z3BkMUFyTnh0TUhBdi1aZFFlWV80UnRSVlJ5cW02VnMzSWZIMTdtMnppQUktMjdBWWVvX1BkcjFsc3BlelpmTV8tNFFoVFZhaUx1ZkVUdGNYVzFWNThtTmkyRkpj?oc=5",
+        "date": "Tue, 20 Oct 2026 17:45:38 GMT",
+        "classification": "NEW_WATCH_HIT",
+        "level": "normal",
+        "keyword": null,
+        "entity": "Royal Caribbean",
+        "watch_hits": [
+          [
+            "CRUISE",
+            "Royal Caribbean guidance"
+          ]
+        ],
+        "agents": [
+          "CRUISE"
+        ],
+        "label": "cruise-operators"
+      }
+    ],
+    [
+      17,
+      {
+        "title": "Russia Resumes Diesel Exports to Turkey, Brazil Despite Export Ban After Trump Deal - Kyiv Post",
+        "source": "Kyiv Post",
+        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0zOUs3ZVFxR1M1dm5kTFo5NUR6eXZGcUFjQjdfYjhTeExXV2U2ejhIcEFGVWZXNkcwblIxcDhROENlVDJ4eEFtWUczOA?oc=5",
+        "date": "Tue, 20 Oct 2026 14:17:34 GMT",
+        "classification": "NEW_WATCH_HIT",
+        "level": "normal",
+        "keyword": null,
+        "entity": null,
+        "watch_hits": [
+          [
+            "BRENT",
+            "Russia diesel export"
+          ],
+          [
+            "BRENT",
+            "Trump diesel export"
+          ]
+        ],
+        "agents": [
+          "BRENT",
+          "TERRY",
+          "HENRY"
+        ],
+        "label": "diesel-export-policy"
+      }
+    ],
+    [
+      18,
+      {
+        "title": "Russian Diesel Exports Resume to Turkey, Brazil After Ban Lifted - Egypt Oil & Gas",
+        "source": "Egypt Oil & Gas",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNDU3OUJKOE5EeE9mSXNTcXRwc05QaVRaNXVqM2tXQllOMHZ3V1BmZHNFdG5lTWZqdV9rZm5EVm9tWmMzcVB2b1FrVGhHTXptSk13Q1JFWGpWQ2cwTGFWZlZxUFNBc3E5RV9nRFhJN1JtcEZXQlhyb1UyR0hqdnpGZVdvX21QS0pGS1Z0M29BUURseWZtcjlKeWt3?oc=5",
+        "date": "Tue, 20 Oct 2026 15:17:23 GMT",
+        "classification": "NEW_WATCH_HIT",
+        "level": "normal",
+        "keyword": null,
+        "entity": null,
+        "watch_hits": [
+          [
+            "BRENT",
+            "Russia diesel export"
+          ]
+        ],
+        "agents": [
+          "BRENT",
+          "TERRY",
+          "HENRY"
+        ],
+        "label": "diesel-export-policy"
+      }
+    ],
+    [
+      19,
+      {
+        "title": "White House Defends Diesel Export Deal With Russia - News Radio 1190 KEX",
+        "source": "News Radio 1190 KEX",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLUVEMFhwSlVpYVNWWVI5dEFLVWozYW1pRzRVbWFzQ1hZRkk1dGtEcHI5MTY2YkI0VVJwaEd0OW01dmsyZkVuNjlCNTYyelVxVkRzRFBmdzVjTlJvRTdtZlVEXzFiVU1oY2VhMXBBcG9SY3dOM19mTF9VQzBFbGppN2Z2NHZteFdFa3RPLUtwYXNIblNjLWRnRDh0dGJjZw?oc=5",
+        "date": "Sun, 18 Oct 2026 18:00:00 GMT",
+        "classification": "NEW_WATCH_HIT",
+        "level": "normal",
+        "keyword": null,
+        "entity": null,
+        "watch_hits": [
+          [
+            "BRENT",
+            "Russia diesel export"
+          ],
+          [
+            "BRENT",
+            "White House diesel export"
+          ]
+        ],
+        "agents": [
+          "BRENT",
+          "TERRY",
+          "HENRY"
+        ],
+        "label": "diesel-export-policy"
+      }
+    ],
+    [
+      20,
+      {
+        "title": "Russia resumes diesel exports to T\u00fcrkiye and Brazil after Moscow lifts ban - The New Voice of Ukraine",
+        "source": "The New Voice of Ukraine",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUWdfN3l1QjNIOTNNajVHM24tdDBaWmlKVDVySnFZQ2oyMVZoVDk5WXlfQzRRWEVyMkpvZ3dOWVVNdVZpRkRRSU93eHozVlMxNDNKLTAtN3c4czVUaUZOOHBYcnBvbmpuZHVwNkhqVWZlMWJTbEJDcXJHLWRMZkJtNWlWRmdRLUhfcHJjLWlqdzZva0FzdFJ6ODVfOThTblBmSlJ0SHFsZmF5TGVRSzBEWkRhWkNJUdIBrwFBVV95cUxPdGt4SkVUem45dGtjLUoyWEJjOUxCRWl3bFBteGo3ZkVrdWp2d2FyYy1TU2RENy1YbFRlODZOTnNHcU1UNk41cEtaZS02VlIyNGJGTU0wcHVDLWh4UUdMRFBhMjBoZWVyamtSOHVvT3ZHWnpNSGdDUGZmdXpmcmNCbHVWTmJtOFpxSll5VGNpQ21ScnZXdWFPYjl0eDFaZXc2TTluM2p0SVpHaEw0NnhB?oc=5",
+        "date": "Tue, 20 Oct 2026 15:58:00 GMT",
+        "classification": "NEW_WATCH_HIT",
+        "level": "normal",
+        "keyword": null,
+        "entity": null,
+        "watch_hits": [
+          [
+            "BRENT",
+            "Russia diesel export"
+          ],
+          [
+            "OSPREY",
+            "Russia lifts diesel export ban"
+          ]
+        ],
+        "agents": [
+          "BRENT",
+          "TERRY",
+          "HENRY"
+        ],
+        "label": "diesel-export-policy"
+      }
+    ],
+    [
+      21,
+      {
+        "title": "Russia resumes diesel exports to Brazil and T\u00fcrkiye after Trump deal, Reuters reports - RBC-Ukraine",
+        "source": "RBC-Ukraine",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTVR1TGtReFd5RVMtS1daMko1dWJac3VwT1pUNlZ0RFQ0OE9PUEdqSHRCWlRkRDFjUWxOcThqeFFUbkZPQlB5Vzh0a2w2N0V5VlRMMUZNbkNQUmVQdEJXM0ZITTlkNHFmSmJ4ak9waEJFQnlaNVFoQ0l0cjJSOTloSVJLWjBDQWFDUV9tT3hqR24tMWVaWUE?oc=5",
+        "date": "Tue, 20 Oct 2026 15:27:00 GMT",
+        "classification": "NEW_WATCH_HIT",
+        "level": "normal",
+        "keyword": null,
+        "entity": null,
+        "watch_hits": [
+          [
+            "BRENT",
+            "Russia diesel export"
+          ],
+          [
+            "BRENT",
+            "Trump diesel export"
+          ]
+        ],
+        "agents": [
+          "BRENT",
+          "TERRY",
+          "HENRY"
+        ],
+        "label": "diesel-export-policy"
+      }
+    ],
+    [
+      50,
+      {
+        "title": "Insurance moves: Ironpeak, Title Resources, Group 1001 and others - Insurance Business",
+        "source": "Insurance Business",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSmR4a2YtcktjaDR6REc0R2pNNXBqMTVzY1ZldXRLWklieUtVd3FRb2NHcUtWMEVQRHdOVXE1X1d2UVRPaG9CcTlaeHRzRUVmUU1vckZwNmcyai15d2tPTnBrVmczX3RRYWg1QkZVX1dDd1ZTem80SnY0S1c3WXl1NXhFVlNnTnVRY3FoejQ1RmViZzQyUTZCaW96alQzaFdSVlk2N1h2S25JTkFxXzROc3VsekQ4Z2FJUkNaelNLbEw3cHY4SFNleVdHTURWZw?oc=5",
+        "date": "Tue, 20 Oct 2026 04:38:45 GMT",
+        "classification": "NEW_WATCH_HIT",
+        "level": "normal",
+        "keyword": null,
+        "entity": null,
+        "watch_hits": [
+          [
+            "SHADE",
+            "Group 1001 Insurance"
+          ]
+        ],
+        "agents": [
+          "SHADE"
+        ],
+        "label": "shade-D2"
+      }
+    ],
+    [
+      51,
+      {
+        "title": "Group 1001 Insurance Names George Haj as Chief Communications Officer - Business Wire",
+        "source": "Business Wire",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPU0ExU3h4QXlQV0pwamljcjlpYm9pQlRtZ0I1Y1YwZHhTTE9fczU1MUZxa1VTS296RnZqd1k3bnUta0ZDeDBmdWdYdDdHOF9pNjBxRlBHUzhhUy03ZFFTVVJ6R0pKTnY1bmVrOFJ6ZXZvbWZqSFhyNG5hS1BFUktYenhYYk5SRV9aT2dCNXVLTk1EcV8xZXBBV0tZUFZsQWlDVDQ3Z3IyWnVRU19aR2o4QzQwQmZTU3dZRkQzei1LYThVWndT?oc=5",
+        "date": "Mon, 19 Oct 2026 15:00:00 GMT",
+        "classification": "NEW_WATCH_HIT",
+        "level": "normal",
+        "keyword": null,
+        "entity": null,
+        "watch_hits": [
+          [
+            "SHADE",
+            "Group 1001 Insurance"
+          ]
+        ],
+        "agents": [
+          "SHADE"
+        ],
+        "label": "shade-D2"
+      }
+    ],
+    [
+      52,
+      {
+        "title": "Insurance moves: Burns & Wilcox, Ironpeak, Title Resources, Group 1001, Clyde & Co - Insurance Business",
+        "source": "Insurance Business",
+        "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPM2VQOXBnT21yeWRXM0I1ZTRGZ2dEVFdtMzNkdXRJU0lWZGQyT1BQM2NES3plRGhhcmthT3lYci0yeTFxREExMW5vYnQyWXdjT2phZUlVS1NLc3FwY3c5NEpLbFVzdGJOUTU1ZUE0b1l0ZGxYTW5FYm9OcWt4TmZweEhBMnE5dWNxMnlWSnQwMmJBNmN4Z0R1dzJJc1dVbVNibnZISGc3VWJOYWtiQXZ3U25SVWlfdUZkS2RROHdEX3ItTGI4U2UxTWh4ZUlGT3dHTi1HTkhoSUpPY1B4c0I0djlsUTdPU2s?oc=5",
+        "date": "Tue, 20 Oct 2026 06:03:22 GMT",
+        "classification": "NEW_WATCH_HIT",
+        "level": "normal",
+        "keyword": null,
+        "entity": null,
+        "watch_hits": [
+          [
+            "SHADE",
+            "Group 1001 Insurance"
+          ]
+        ],
+        "agents": [
+          "SHADE"
+        ],
+        "label": "shade-D2"
+      }
+    ],
+    [
+      91,
+      {
+        "title": "Netflix\u2019s Animation Friendly Film Chief Dan Lin Ousted Amid Mass Layoffs - Cartoon Brew",
+        "source": "Cartoon Brew",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSC0wMmhtY3hMSEladVByQkctR1VXMnUyeUdvekZrT2R6a281dTJGTzlZNDVfNEkzdjVPeFNXYzVrWDlhMEN6REJGcFh3SkpzeDdkOG8zV21NRFRSc2M2QWIxZHdPZTluYi15dkxVSHFiSGJId0RQUkt3bF82bFF5Q0VVN3V3UWNZVERJeW13?oc=5",
+        "date": "Tue, 20 Oct 2026 12:31:59 GMT",
+        "classification": "NEW_WATCH",
+        "level": "watch",
+        "keyword": "mass layoff",
+        "entity": null,
+        "watch_hits": [],
+        "agents": [
+          "LABOR"
+        ],
+        "label": "labor-layoffs"
+      }
+    ],
+    [
+      97,
+      {
+        "title": "Credit markets have entered uncharted territory as the riskiest junk bonds send a warning to investors - MarketWatch",
+        "source": "MarketWatch",
+        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPTWVQOVBJQUVEalM1U1Fmc3EwbUt1dFRlT2ZXT19nUjlIdVlMOUo2Y2VoTFZDY1ZtZzNxZHdnSXh5NUYycVduUDQ3ZlNKR0R3VkJGQnVPc1NOUkRjQ1ZhTXVGcjFlM3c0d0NsNS1PUGhFVm5LRmQ3YkNFZ2lMaXpWcFRPUkh2VUk5VG5XSVhTWkZBYXJET2ZXSHNwd0VUVjktNkpnZDdLWHNSZkpzSllndWM0dkVWTGxkWnBNeVlKRy1ZQXBFNEYtOUdGb2NHRlRtSDBVOWJwNkV0MExQZFE?oc=5",
+        "date": "Tue, 20 Oct 2026 12:29:00 GMT",
+        "classification": "NEW_WATCH",
+        "level": "watch",
+        "keyword": "junk bond",
+        "entity": null,
+        "watch_hits": [],
+        "agents": [
+          "LIQUID"
+        ],
+        "label": "credit-spreads"
+      }
+    ],
+    [
+      105,
+      {
+        "title": "Major Banks Move To Block AI Agents From Customer Accounts Amid Fears Of Deposit Flight - CU Today",
+        "source": "CU Today",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSk5ZMmdVbmpDY3pwWHlzZXZ3RVRDem1XcWV6ekw1UlJkRWw2R2Zmc0tESm53a21uQjJSTTZuYXNfY3B0UUxCc3VDc21TQk1WVVpkdEtFTUNWNlZLY1dKMG5KSThkb3g0VVdmMG9Cc1pQQ2dTSk1UYktaUFZxNUFIMHpQaUpOVnNpcWpvYXd3V0tZenJ3UGtpQURDUjQ5RGVoOXRNeDRjVlpadnd6aHp2WE1VdkR2RXNycEZqLW5Ba3NlUQ?oc=5",
+        "date": "Tue, 20 Oct 2026 13:57:44 GMT",
+        "classification": "NEW_ALERT",
+        "level": "alert",
+        "keyword": "deposit flight",
+        "entity": null,
+        "watch_hits": [],
+        "agents": [
+          "REGINALD",
+          "LIQUID"
+        ],
+        "label": "bank-stress"
+      }
+    ],
+    [
+      106,
+      {
+        "title": "Financials Friday: State AGs Could Target Realtors as Fees Remain Unchanged Two Years After Settlement; Kalshi Applies for Margin Trading; New York Files Second Bombshell Prediction Market Suit, This Time Against Polymarket; Subprime Auto Lender A - The Capitol Forum",
+        "source": "The Capitol Forum",
+        "link": "https://news.google.com/rss/articles/CBMixwJBVV95cUxNOS1KTmxpQlVYR2M0NFY5dEFPYnE1RFRvYjZFM19FRzd0WFFfYmJ5SDNPN0REY29QZ2N3Y1BndlV4eVc5ejRLbGw3MEo3aWtYQzJzc0VMdGZCYmctU2xiQUNBdWR5bHZweW1fdnB5VVpTWVlkdE1sZkQzaFgtMVZIa2R6UnJrZi1WaTZCaDEyRTBndmJEVUYyOGdLQnFJczNYTnBsZ19DTmQxVjBGMFdzYV9NVnJoVnhnVlIwZzJTaXgzNm51RjN1dlhsZTE4Yl9SdkpIUjBDN2VwZzBERE9nR1lwbTU5Z3FwS3lQTEZwYm5EOFZfRDRjeVBIVXdSNFZRckdxaExVWFhPWGhmNTExU3pSSGJBYlByZ3NqQ1YtbHY1YU03UXdfR0JfVjA1MHo0VUFTNTJ3Z2FobE5Vdm4tdkJ5VWtvTnM?oc=5",
+        "date": "Fri, 25 Sep 2026 07:00:00 GMT",
+        "classification": "NEW_WATCH",
+        "level": "watch",
+        "keyword": "subprime",
+        "entity": null,
+        "watch_hits": [],
+        "agents": [
+          "CARL"
+        ],
+        "label": "consumer-stress"
+      }
+    ],
+    [
+      108,
+      {
+        "title": "Western Alliance Bancorporation Reports Third Quarter 2026 Financial Results - Business Wire",
+        "source": "Business Wire",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOd0tNc1NpaVVmTWNkckk1c25YQmxRc2Zrd3pwTU1weTNtajZPTmFSZ0FFNXVoWFNFNG9oUlFEc3RwTFRPckJ3M0puTUZtTUkwWHJyckc3aENQdGswZHlQZUlZTWVmQ2p4M0JaaHlEWUJ0ZEJ0VTg2ZWhXQl9GZ3h6SGRPUWtqUFNNNlA1UFBKZXQ1TzUtUzhsMlN3MjA1emdoRm5aQVJ5WFBiS3VUZDhKbjBYWUtHLXU4RVZVdGx0ZVhMVkllVVZQenUwd192Zw?oc=5",
+        "date": "Mon, 19 Oct 2026 20:40:00 GMT",
+        "classification": "NEW_WATCH_HIT",
+        "level": "normal",
+        "keyword": null,
+        "entity": "WAL",
+        "watch_hits": [
+          [
+            "TERRY",
+            "Western Alliance third quarter"
+          ]
+        ],
+        "agents": [
+          "REGINALD",
+          "WAL"
+        ],
+        "label": "position-banks"
+      }
+    ],
+    [
+      112,
+      {
+        "title": "[News] DRAM Prices Seen Rising 20% QoQ in 4Q26 Despite Slower Gains; AI Demand, Tight Supply Support Outlook - TrendForce",
+        "source": "TrendForce",
+        "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPV3lnMFNjd3BkNzVHMXdDUVhoZHA0MmhLSnI0TUkteEJFQ0dEUVdnVjdTSE14R2p4TG03dGZRUEpBMWx6bGYzNklNcjBNRjd1RXotcXM5MkNkNzNuZ3hfOVdpTVp4bTJ3cVJ6QUlsYmpXZElxVXZuenlBamY2T1VGc2dJeVVQZ19NUEFUQXlVbUN5VlBIUkozRGFDVzduQlNDNm9CaHFlektTUTVOSVh0NTczZm5paWx3R3FjQXhqbGFXckdHREVvVXhUSVB0YkhRd1N4bUNVLVhJT293Z3FZeg?oc=5",
+        "date": "Tue, 20 Oct 2026 08:05:33 GMT",
+        "classification": "NEW_WATCH",
+        "level": "watch",
+        "keyword": "TrendForce",
+        "entity": null,
+        "watch_hits": [],
+        "agents": [
+          "VULCAN"
+        ],
+        "label": "memory-cycle"
+      }
+    ],
+    [
+      116,
+      {
+        "title": "[News] Intel Claims Industry\u2019s Only High-Volume 300mm InP Silicon Photonics Capability as CPO Gains Momentum - TrendForce",
+        "source": "TrendForce",
+        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPcUNjX09MUFY0QU8yUVpKa0lYakRTQXNqQ2cwMkxmU2FLVFlJQ2lJTktPTmwxblF2OTBBQ1NMWEx6Q0U3Tm1xYmJFZE9wcmZrSVdTMGlyR3JQQk5YR3BreUhfZV8yQ1dFbGI5TWNxT192WUxoV294OF82S09qbnF1VFNiOGFUUWlvRmRycHBtcVlVQXpxdC00N1phbU41blhNWjY5bjF1TmM4bmpQMFVGeUFWNUhlN05iaFdsa2M0RVVLanFhNU54a3pvYlNPLUVZZThUcjZmaHV4LTk5cFJvR1llcw?oc=5",
+        "date": "Mon, 19 Oct 2026 23:54:22 GMT",
+        "classification": "NEW_WATCH",
+        "level": "watch",
+        "keyword": "TrendForce",
+        "entity": null,
+        "watch_hits": [],
+        "agents": [
+          "VULCAN"
+        ],
+        "label": "memory-cycle"
+      }
+    ],
+    [
+      117,
+      {
+        "title": "[News] CXMT\u2019s Earnings Boom Faces Test as 3Q Profit Growth Slows to 1\u20134% QoQ: What\u2019s Behind the Slowdown? - TrendForce",
+        "source": "TrendForce",
+        "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOZGFRNG11cTFGQTkxbk5kX3UwUWZxcXY5UG5KTW82YXZLWVdFREhpZmZoZFBhbDN1V2U0MkI3cVJPNTkxR2FRX3NDR1RZbFBfVlVfWS1KbHlPWThYNU9mNlctem9qWWdRNTFpWTdRWDlOVXZoN0VUM0k2bDVEcXZqRnpsS0YzQU5yb0lOd3J0dk1BTUJHY1Q3cy0xTVctWFhzb2FYN3gwVEtod2FaWmNwUFgtZ2twM1cxWjIxdXFCX3J4X2pjZzV6cXk1Y0NOWVR4OTlRTlFVWC15Zw?oc=5",
+        "date": "Tue, 20 Oct 2026 05:00:19 GMT",
+        "classification": "NEW_WATCH",
+        "level": "watch",
+        "keyword": "TrendForce",
+        "entity": null,
+        "watch_hits": [],
+        "agents": [
+          "VULCAN"
+        ],
+        "label": "memory-cycle"
+      }
+    ],
+    [
+      167,
+      {
+        "title": "[Insight] TrendForce: AI Expansion and PUE Supervision Propel Global Data Center Lighting Market to USD 2.16 Billion in 2026 - LEDinside",
+        "source": "LEDinside",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA1MHJCMndtX0FpOEEzQ19HeF90Y2hTNXFMMGx1YUdZLS11SGl5b2s2ZmtvV3RHcmROaEF3RXZaOTdrNVVUWE1ERXMxUlNCeXNnZi1ORHBHWEFoR2JhdEwyN2xPdG1FNXZjd3hOWg?oc=5",
+        "date": "Tue, 20 Oct 2026 00:40:46 GMT",
+        "classification": "NEW_WATCH",
+        "level": "watch",
+        "keyword": "TrendForce",
+        "entity": null,
+        "watch_hits": [],
+        "agents": [
+          "VULCAN"
+        ],
+        "label": "memory-pricing"
+      }
+    ],
+    [
+      187,
+      {
+        "title": "Netherlands meets EU gas storage target after government intervention - NL Times",
+        "source": "NL Times",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaHZMQmhSMzdHVlhiUUxvSU1PMHhmRnFjVlk3SEt0U0xNSDNhdEV1NXVNUlFvOTZORmFKQzA4enJDTEpFQ2cxR3poWDVnM0Y4N1lFRXd6eUs4d1dDNEtVMjQ5dWI0VlpNaWFaWmVsaWFna3gyR1FwXzZqaTNXUzZTY0k0WFpESmxVa2JNd01uOVlQQUJnSjcxbA?oc=5",
+        "date": "Tue, 20 Oct 2026 14:10:00 GMT",
+        "classification": "NEW_WATCH_HIT",
+        "level": "normal",
+        "keyword": null,
+        "entity": null,
+        "watch_hits": [
+          [
+            "HANS",
+            "EU gas storage"
+          ]
+        ],
+        "agents": [
+          "HANS"
+        ],
+        "label": "ttf-storage-gilts"
+      }
+    ]
+  ],
+  "note": "Discovery metadata, not source-body certification. Lane remains unmarked. BM-20261021-02 maps22 content items: energy; WAL; ZION; AI bank access; seven NEW_WATCH in lane order; eleven WATCH_HIT in lane order. Seven dispositions recorded;15pending."
+}

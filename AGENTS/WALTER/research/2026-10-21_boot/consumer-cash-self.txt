@@ -1,0 +1,12 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  SELF mode: 1589 files under AGENTS/WALTER/ (processed/ + archive/ still excluded — historical by design). Nothing outside your own dir is scanned.
+
+  ── value · superseded 505.9 → current 500.5
+     🟢 cleared: marker-adjacent / next to new value / frozen file (2)  [--show-handled to audit]
+
+  ✓ clean — no surface under AGENTS/WALTER/ carries the superseded value unqualified. (Scanned the whole dir, not just STATUS/THESIS.)
+==================================================================
+

@@ -1571,3 +1571,6 @@ Date	Signal_ID	Origin	Summary	Precedence	To	Info	Confidence
 2026-10-21T12:56:27Z	SIG-W-20261021-001	Owner boot packet	Small-bank borrowing partly reverses; revised cash figures weaken the buffer-build interpretation	PRIORITY	LIQUID	HENRY,BROCK,REGINALD,RED,PROME	0.85
 2026-10-21T12:56:27Z	SIG-W-20261021-002	Owner boot packet	Fukoku plans 30-year purchases; firm auction coexists with life-insurer foreign-bond selling	PRIORITY	LIQUID,HENRY,BOND	SAM,RED,PROME	0.85
 2026-10-21T12:56:27Z	SIG-W-20261021-003	Owner boot packet	OZK Boston sale failed: $37.3 million charge-off and $132 million retained property	PRIORITY	OZK	REGINALD,CREED,BROCK,LIQUID,RED,PROME	0.85
+2026-10-21T13:05:49Z	SIG-W-20261021-004	RESEARCH-INTAKE	Russian diesel tankers signal Turkey and Brazil; deliveries and restored export scale unproved	PRIORITY	BRENT	OSPREY,HAWK,HENRY,RED,PROME	0.8
+2026-10-21T13:05:49Z	SIG-W-20261021-005	RESEARCH-INTAKE	DRAM newsroom reports roughly 20% Q4 price growth; official forecast comparability unresolved	PRIORITY	VULCAN	HENRY,VIOLET,WATT,RED,PROME	0.8
+2026-10-21T13:05:49Z	SIG-W-20261021-006	RESEARCH-INTAKE	Dutch storage exceeds a reduced national target; this does not clear the EU storage-gap trigger	PRIORITY	HANS	BRENT,HENRY,LIQUID,RED,PROME	0.8

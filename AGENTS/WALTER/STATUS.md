@@ -1,11 +1,9 @@
 # WALTER STATUS
-**Updated:** 2026-10-21T00:54:22Z — session closed; savedbatch12 after desk checks; generalboot PARTIAL. BOARD **1558**;34todaydispatches. Duties/receipts LAST_COMPLETION.md.
+**Updated:** 2026-10-21T13:13:24Z — October21 startup PARTIAL; BOARD **1564**, six today dispatches. Sole duty/receipt list LAST_COMPLETION.md.
 
 ## BOTTOM LINE
 
-CATO’s six bookmark workflow practices are installed, with findings before counts and evidence-based downstream reporting. Session closed; general boot and full procedural regeneration remain incomplete. Resume from LAST_COMPLETION.md. Bookmark reader technical acceptance complete. Batches1–11 CLOSED:66of96bookmarks reviewed,30untriaged;50full/16partial, exact94stage intact/0productionmarks. Next18 adds9qualifiedsignals026–034 acrossindexmechanics,AI,housing,warclaims andmarketinterpretation;7DUP/2FOLD. Sevennewsource-readingfollowups preserved; no confirmedUSnavalinterdiction/FLASH. ThreehelpersCLOSED. Generalboot/READS/threshold/intake/SAM/financing/fullnarrative debt retained; currentduties solelyLAST_COMPLETION.md.
-
-October19 domain context (dated, not refreshed by this repair): Evening owner synthesis weakens a common financing-crunch explanation. MOS is strongest residual equity case with input/output alternatives; ADM worst-only20residual−0.35%;HII worst-onlyreturns turnpositive and Copart60loss reverses afterearnings removal. ACVcompletedOctober16; primaryfour unmatched, no causal coefficient. ActualMOS/ADMissuance,HIIlowerinterest,Copartbankrenewal and cruiseoperatingdifferences constrain financingattribution. WALQ3NCO30bp/stabledeposits/lowerborrowings and VIOLETpartialMondaypublications/easing provide counterevidence, not systemclearance. HENRYafterclosegammaestimateNEGboth horizons,assumeddealerpositions/wallswithheld;refreshbeforeuse. Existing scientific/currentcash/creditpanel and generalboot/READS gaps retained. No owner/helperlaunch,newscreen,monitor,trade,threshold or independentstressvote. Bounded contribution complete; no WALTER unattended work.
+October21 startup is PARTIAL. Owner inbox updates are integrated; six qualified signals preserve the funding revision, Japan corrections, Boston retained-property outcome and three new intake findings. Current source/instrument, full context and READS certification gaps remain explicit in LAST_COMPLETION.md. No whole-market or whole-registry clearance, no trade or new monitor. Existing saved bookmark review and financing work retain their approvals and limits.
 
 ## DATED MARKET OBSERVATIONS
 
@@ -48,7 +46,7 @@ Signal/news routing and receiving-layer readiness. Domain agents own evidence, g
 
 ## NETWORK AWARENESS
 
-REGISTRY refreshed 2026-10-19T23:28:05Z: 47rows/42ownerleadheaders before this summary; no full-desk context or fleet-lifecycle claim. October19routing21signals,0cluster_mediating,5uniqueverificationhelpers. Thispass0launches; existing independentlyactiveowners retain lifecycle. New019HENRY/LIQUID/CRUISE/FERT actions;020HENRY/LIQUID;021WAL withREGINALDhubINFO. Fullnarrative/registry/MEMORYcloseoutclears2priorlightdeferrals; boot remainsPARTIAL. Currentduties,publication/consumption and boundedclosurereceipts solelyLAST_COMPLETION.
+REGISTRY refreshed October21 from47rows/42owner lead headers before this summary. Six today signals, zero cluster_mediating, zero helper/domain launches by this WALTER session. Owner headers are routing context, not full source review or liveness. Current complete fleet presence remains UNKNOWN; PROME in-flight includes new owner touches and is not a dark/live verdict. Duties and persistence limits solely LAST_COMPLETION.md.
 
 ## Active LIAISON channels
 
