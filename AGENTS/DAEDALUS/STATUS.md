@@ -1,6 +1,6 @@
 # DAEDALUS STATUS
 
-**Last Updated: 2026-10-21 — Wednesday profile work; AEOLUS refresh complete and published; Codex/OpenAI.**
+**Last Updated: 2026-10-21 — Session closed at Will’s request; AEOLUS refresh and core sync published; Codex/OpenAI.**
 
 **Current judgment:** the architecture is coherent; current-state reconciliation and maintenance have lagged new builds. Preserve evidence and rules, reduce recovery ambiguity, and repair specific tooling gaps. Assessment: `runs/2026-10-20_ORGANIZATION_REVIEW.md`. **Recorded grade L4/M retained**, current bounded PR8 row re-cut October21; no L5 adjudication; AEOLUS whole profile refreshed October 21. Authority remains own directory/root scripts; other desks require express scope and idle target.
 
@@ -61,7 +61,7 @@ October20 follow-through: scorecard/MARCO check complete; L736 writer repair rev
 
 ## BOTTOM LINE — 2026-10-21
 
-**WORK:** AEOLUS whole-profile refresh completed across three reader clusters; L4/M retained. One of nine queued profiles complete; HAWK next. Prior PR8/Staleness6 maintenance remains complete.
+**WORK:** Session closed at Will’s request. AEOLUS whole-profile refresh completed across three reader clusters; L4/M retained. One of nine queued profiles complete; HAWK next. Prior PR8/Staleness6 maintenance remains complete.
 **CHECKS:** Core continuity reconciliation recorded in runs/2026-10-21_CORE_SYNC.md. Accepted profile review and closeout receipt remain in runs/2026-10-21_AEOLUS_REFRESH.md. Owner read-cap rc2 assessed0, oversized charter, source-consistency and ledger/guard findings remain; profile completion does not clear them.
 **DELIVERY:** AEOLUS package397e56a3e and both packets published; all19 paths verified on origin. Receipt: runs/2026-10-21_AEOLUS_REFRESH.md. No recipient consumption claimed.
 **OPEN:** Eight cohort profiles; scorecard October23; YUR-F01 October24; backlog/retirement dispositions October25. Full queue clocks unchanged. Owner repairs are separate from DAEDALUS comprehension.

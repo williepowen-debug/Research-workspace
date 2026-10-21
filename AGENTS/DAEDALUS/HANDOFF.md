@@ -1,5 +1,7 @@
 # DAEDALUS continuation — October 21, 2026
 
+**Session closed at Will’s request. Resume only when asked; HAWK is the saved next task.**
+
 ## Start here
 
 Continue with **HAWK whole-profile refresh**, then HOMER, WAL, BROCK, CREED, REGINALD, FALCON and MIDAS. Will authorized beginning the existing queue. AEOLUS is complete: one of nine profiles finished; eight remain. No CREED owner launch without Will's explicit permission. Profile readers are not domain-owner sessions. Full backlog and authority limits: `STATUS.md`.
