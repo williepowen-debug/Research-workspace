@@ -1,0 +1,131 @@
+ 
+ nycb-20251017 
+ UNITED STATES 
+ SECURITIES AND EXCHANGE COMMISSION 
+ WASHINGTON, D.C. 20549 
+ FORM 8-K 
+ CURRENT REPORT 
+ Pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934 
+ Date of Report (Date of earliest event reported): October 17, 2025 
+ Flagstar Bank, National Association 
+ (Exact Name of Registrant as Specified in Charter) 
+ United States of America 1-31565 38-2734984 
+ (State or Other Jurisdiction of Incorporation) Commission File Number (IRS Employer Identification No.) 
+ 102 Duffy Avenue, Hicksville, New York 11801 
+ (Address of principal executive offices) 
+ ( 516 ) 683-4100 
+ (Registrant's telephone number, including area code) 
+ Securities registered pursuant to Section 12(b) of the Exchange Act: 
+ Title of each class Trading symbol(s) Name of each exchange on which registered 
+ Common stock, $0.01 par value per share FLG New York Stock Exchange 
+ Bifurcated Option Note Unit Securities SM FLG PRU New York Stock Exchange 
+ Depositary Shares each representing a 1/40th interest in a share of Fixed-to-Floating Rate Series A Noncumulative Perpetual Preferred Stock FLG PRA New York Stock Exchange 
+ Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions: 
+ ☐ Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425) 
+ ☐ Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12) 
+ ☐ Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b)) 
+ ☐ Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c)) 
+ Indicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act (17 CFR 230.405) or Rule 12b-2 of the Exchange Act (17 CFR 240.12b-2). 
+ Emerging growth company ☐ 
+ If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange 
+ Act. ☐ 
+ EXPLANATORY NOTE 
+ As discussed below, effective October 17, 2025, Flagstar Bank, National Association, a banking association organized under the laws of the United States (the “ Bank ”), became the successor issuer to Flagstar Financial, Inc., a Delaware corporation (the “ Predecessor ”). 
+ This Current Report on Form 8-K is being filed for the purpose of establishing the Bank as the successor issuer of the Predecessor pursuant to Rule 12g-3(a) under the Securities Exchange Act of 1934, as amended (the “ Exchange Act ”), and to disclose information required to be disclosed on Form 8-K with respect to the Predecessor prior to the Effective Time (as defined below) and the Bank as of the Effective Time. 
+ ITEM 1.01 ENTRY INTO A MATERIAL DEFINITIVE AGREEMENT 
+ In connection with the Reorganization (as defined below), on October 17, 2025, the Bank entered into an amendment to that certain Registration Rights Agreement, dated March 11, 2024, by and between the Predecessor and the purchasers listed on the signature pages thereto (the “ Amendment ”). Under the Amendment, the Bank succeeded to and was substituted for the Predecessor in the Registration Rights Agreement. The amendment also updated the Registration Rights Agreement to reflect that the Bank’s securities are exempted securities under the Securities Act, but offers and sales of the Bank’s securities are subject to the OCC’s rules in 12 C.F.R. Part 16 relating to the offer and sale of securities of a national bank. The Registration Rights Agreement was disclosed and described in the Predecessor’s Current Report on Form 8-K filed on March 14, 2024 . This description is qualified in its entirety by the full text of the Amendment, a copy of which is included as Exhibit 10.1 to this Form 8-K and incorporated by reference herein. 
+ ITEM 2.01 COMPLETION OF ACQUISITION OR DISPOSITION OF ASSETS 
+ On October 17, 2025, the Predecessor completed its previously announced internal reorganization to streamline its corporate structure (the “ Reorganization ”) pursuant to which the Predecessor merged with and into the Bank, with the Bank continuing as a publicly-traded company. The Reorganization was consummated pursuant to the Agreement and Plan of Merger, dated as of July 24, 2025, by and between the Predecessor and the Bank, as amended and restated on August 22, 2025 and on September 22, 2025 (the “ Merger Agreement ”). The Merger Agreement was approved by the holders of the Predecessor Common Stock (as defined below) at a special meeting held on October 15, 2025. 
+ At the effective time of the Reorganization (the “ Effective Time ”), (i) the outstanding shares of the Predecessor’s common stock, par value $0.01 per share (the “ Predecessor Common Stock ”), and the Predecessor’s Series A preferred stock, par value $0.01 per share, were automatically cancelled and ceased to exist and were converted into an equal number of shares of the Bank’s common stock, par value $0.01 per share (the “ Bank Common Stock ”), and the Bank’s Series A preferred stock, par value $0.01 per share (“ Bank Series A ”), (ii) the outstanding shares of the Predecessor’s Series B preferred stock, par value $0.01 per share (the “ Predecessor Series B ”), and the Predecessor’s Series D preferred stock, par value $0.01 per share (the “ Predecessor Series D ”), were converted into the Bank’s Series B preferred stock or Series D preferred stock (“ Bank Series D ”), as applicable, because the ownership of additional Bank Common Stock by the holder of all of the remaining Predecessor Series B and Predecessor Series D shares was otherwise prohibited by law or required the approval by a government entity, (iii) each of the Predecessor’s outstanding warrants to purchase Predecessor Common Stock forming part of a unit of the outstanding Bifurcated Option Note Unit SecuritiES SM (the “ BONUSES Units ”) was converted automatically into a warrant to purchase Bank Common Stock upon the same terms applicable to the Predecessor’s outstanding warrants immediately prior to the Reorganization, (iv) each of the Predecessor’s outstanding warrants to purchase Predecessor Series D (the “ Predecessor Series D Warrants ”) was converted automatically into a warrant to purchase the number of shares of Bank Common Stock or Bank Series D, as applicable, that a holder of the number of shares of Predecessor Series D to which the particular Predecessor Series D Warrant related immediately prior to the Reorganization would have been entitled to receive in the Reorganization in accordance with the limits on conversion upon a reorganization event included in the terms of the Predecessor Series D. 
+ Upon consummation of the Reorganization, the Bank Common Stock was deemed to be registered under Section 12(b) of the Exchange Act, pursuant to Rule 12g-3(a) promulgated thereunder. For purposes of Rule 12g-3(a), the Bank is the successor issuer to the Predecessor. 
+ As a national bank, the Bank will continue to be subject to regulation and supervision by the Office of the Comptroller of the Currency (“ OCC ”). The Predecessor, prior to the Effective Time, was subject to regulation and supervision by the Board of Governors of the Federal Reserve as a bank holding company. 
+ The Bank Common Stock, as well as depositary shares representing interests in Bank Series A and the BONUSES Units, are registered or deemed registered under the Exchange Act, which vests the OCC with the power to administer and enforce certain sections of the Exchange Act applicable to banks such as the Bank. The Bank will be required to file with the OCC annual, quarterly and current reports on Forms 10-K, 10-Q and 8-K required by Section 13 of the Exchange Act, proxy materials required by certain provisions of Section 14 of the Exchange Act and other business and financial information required by the Exchange Act. Additionally, the Bank’s executive officers and directors will file Section 16 forms in respect of certain acquisitions and dispositions of Bank equity securities and will be subject to the prohibition on short-swing profits of Section 16 of the Exchange Act. At the current time, the Bank intends to make such filings with the SEC as a “voluntary filer” following the Reorganization. 
+ In connection with the Reorganization, as of the Effective Time, the Bank assumed all of the Predecessor’s rights and obligations under each of its equity incentive plans, equity compensation plans, and other compensation plans, including those in which its named executive officers may participate, and any subplans, appendices or addendums thereto (collectively, the “ Plans ”). Outstanding equity-based awards with respect to Predecessor Common Stock under the Plans were converted to equity-based awards with respect to Bank Common Stock and will remain subject to the same terms and conditions that applied to such awards prior to the Effective Time. 
+ The Amended and Restated Articles of Association and the Amended and Restated Bylaws of the Bank as of the Effective Time are attached hereto as Exhibits 3.1 and 3.2, respectively, and incorporated by reference herein. 
+ The foregoing description of the Merger Agreement is qualified in its entirety by reference to the full text of the Merger Agreement, a copy of which is attached hereto as Exhibit 2.1 and incorporated by reference herein. 
+ ITEM 2.03 CREATION OF A DIRECT FINANCIAL OBLIGATION OR AN OBLIGATION UNDER AN OFF-BALANCE SHEET ARRANGEMENT OF A REGISTRANT 
+ The Bank has entered into a second supplemental indenture, dated as of October 17, 2025 (the “ Second Supplemental Indenture ”), with the Predecessor and Wilmington Trust, National Association (“ Wilmington Trust, N.A. ”), as Trustee. By the terms of the Second Supplemental Indenture, the Bank assumed the due and punctual payment of the principal of (and premium, if any) and interest on all of the Predecessor’s 5.90% Fixed-to-Floating Rate Notes due 2028 and the performance or observance of every covenant of the indenture, dated as of November 6, 2018, as supplemented by the first supplemental indenture, dated as of November 6, 2018, on the part of the Predecessor to be performed or observed. 
+ The Bank has also entered into a third supplemental indenture, dated as of October 17, 2025 (the “ Third Supplemental Indenture ”), with the Predecessor and Wilmington Trust, N.A., as Trustee. By the terms of the Third Supplemental Indenture, the Bank assumed the due and punctual payment of the principal of (and premium, if any) and interest on all of the Predecessor’s 4.125% Fixed-to-Floating Rate Notes due 2030 and the performance or observance of every covenant of the indenture, dated as of October 28, 2020, as supplemented by the first supplemental indenture, dated as of October 28, 2020, and the second supplemental indenture, dated as of December 1, 2022, on the part of the Predecessor to be performed or observed. 
+ The Bank has also entered into thirteen supplemental indentures, pursuant to which it has assumed the obligations under the Predecessor’s junior subordinated deferrable interest debentures (“ junior subordinated debentures ”) held by statutory business trusts that issued guaranteed capital securities. The following table presents contractual terms of the junior subordinated debentures outstanding at September 30, 2025: 
+ Issuer Interest Rate of Capital Securities and Debentures Junior Subordinated Debentures Amount Outstanding 
+ Capital Securities Amount Outstanding Date of Original Issue Stated Maturity 
+ ($ in millions) 
+ New York Community Capital Trust V (BONUSES Units) (1) 
+ 6.00 % $ 148 $ 142 November 04, 2002 November 01, 2051 
+ New York Community Capital Trust X (2) 
+ 5.90 % 124 120 December 14, 2006 December 15, 2036 
+ PennFed Capital Trust III (2) 
+ 7.55 % 31 30 June 02, 2003 June 15, 2033 
+ New York Community Capital Trust XI (2) 
+ 5.91 % 59 58 April 16, 2007 June 30, 2037 
+ Flagstar Statutory Trust II (2)(3) 
+ 7.51 % 26 25 December 26, 2002 December 26, 2032 
+ Flagstar Statutory Trust III (2)(3) 
+ 7.83 % 26 25 February 19, 2003 April 7, 2033 
+ Flagstar Statutory Trust IV (2)(3) 
+ 7.51 % 26 25 March 19, 2003 March 19, 2033 
+ Flagstar Statutory Trust V (2)(3) 
+ 6.58 % 26 25 December 29, 2004 January 07, 2035 
+ Flagstar Statutory Trust VI (2)(3) 
+ 6.58 % 26 25 March 30, 2005 April 7, 2035 
+ Flagstar Statutory Trust VII (2)(3) 
+ 6.05 % 51 50 March 29, 2005 June 15, 2035 
+ Flagstar Statutory Trust VIII (2)(3) 
+ 6.08 % 26 25 September 22, 2005 October 7, 2035 
+ Flagstar Statutory Trust IX (2)(3) 
+ 5.75 % 26 25 June 28, 2007 September 15, 2037 
+ Flagstar Statutory Trust X (2)(3) 
+ 6.80 % 15 15 August 31, 2007 September 15, 2037 
+ Total junior subordinated debentures 
+ $ 610 $ 590 
+ (1) Callable subject to certain conditions as described in the prospectus filed with the SEC on November 4, 2002. 
+ (2) Callable at any time. 
+ (3) Excludes acquisition fair value adjustmen ts of $26 million. 
+ The foregoing descriptions set forth in this Item 2.03 are qualified in their entirety by reference to the full text of the Second Supplemental Indenture, Third Supplemental Indenture, and the supplemental indentures related to each of the junior subordinated debentures, which are attached as exhibits hereto. 
+ ITEM 3.01 NOTICE OF DELISTING OR FAILURE TO SATISFY A CONTINUED LISTING RULE OR STANDARD; TRANSFER OF LISTING EXHIBITS 
+ In connection with the Reorganization, effective October 20, 2025, the Bank Common Stock will be deemed a continued listing of the Predecessor Common Stock on the New York Stock Exchange (the “NYSE”). The Predecessor Common Stock traded on the NYSE under the symbol “FLG” and, effective October 20, 2025, the Bank Common Stock will continue to trade on the NYSE under the symbol “FLG”. 
+ ITEM 3.02 UNREGISTERED SALES OF EQUITY SECURITIES 
+ The information set forth in Item 2.01 is incorporated by reference herein. 
+ Pursuant to Section 3(a)(2) of the Securities Act of 1933, as amended (the “ Securities Act ”), securities issued by the Bank, including the Bank Common Stock that was issued in connection with the Reorganization, are exempt from registration under the Securities Act. 
+ ITEM 3.03 MATERIAL MODIFICATION TO RIGHTS OF SECURITY HOLDERS 
+ The information set forth in Items 1.01, 2.01 and 3.01 is incorporated by reference herein. 
+ ITEM 5.01 CHANGES IN CONTROL OF REGISTRANT 
+ The information set forth in Item 2.01 is incorporated by reference herein. 
+ ITEM 5.02 DEPARTURE OF DIRECTORS OR CERTAIN OFFICERS; ELECTION OF DIRECTORS; APPOINTMENT OF CERTAIN OFFICERS; COMPENSATORY ARRANGEMENTS OF CERTAIN OFFICERS 
+ Prior to the Reorganization, the Bank and the Predecessor had the same directors. The directors of the Bank will continue as directors of the Bank, and will continue to be entitled to the same compensation and equity-based and other incentive awards as they held immediately prior to the Reorganization as directors of the Predecessor and/or the Bank. Following consummation of the Reorganization, the executive officers of the Predecessor will continue to hold the same offices with the Bank as they held with the Predecessor prior to the Reorganization, and will continue to be entitled to the same compensation and equity-based and other incentive awards as they held immediately prior to the Reorganization. 
+ The information set forth in Item 2.01 above relating to the Plans is incorporated by reference herein. 
+ ITEM 8.01 OTHER EVENTS 
+ On October 17, 2025, the Bank issued a press release announcing the completion of the Reorganization. A copy of the press release is filed as Exhibit 99.1 hereto and is incorporated by reference herein. 
+ ITEM 9.01 FINANCIAL STATEMENTS AND EXHIBITS 
+ (d) Exhibits 
+ Exhibit Number Description 
+ 2.1 Amended and Restated Agreement and Plan of Merger, dated as of September 22, 2025, by and between Flagstar Financial, Inc. and Flagstar Bank, National Association. 
+ 3.1 Form of Amended and Restated Articles of Association of Flagstar Bank, National Association. 
+ 3.2 Amended and Restated Bylaws of Flagstar Bank, National Association. 
+ 4.1 Second Supplemental Indenture, dated as of October 17, 2025, by and among Wilmington Trust, National Association, as Trustee, Flagstar Bank, National Association and Flagstar Financial, Inc. 
+ 4.2 Third Supplemental Indenture, dated as of October 17, 2025, by and among Wilmington Trust, National Association, as Trustee, Flagstar Bank, National Association and Flagstar Financial, Inc. 
+ 4.3 Second Supplemental Indenture, dated as of October 17, 2025, by and among Wells Fargo Bank, National Association, as Trustee, Flagstar Bank, National Association and Flagstar Financial, Inc., relating to Flagstar Statutory Trust III. 
+ 4.4 Second Supplemental Indenture, dated as of October 17, 2025, by and among Wells Fargo Bank, National Association, as Trustee, Flagstar Bank, National Association and Flagstar Financial, Inc., relating to Flagstar Statutory Trust V . 
+ 4.5 Second Supplemental Indenture, dated as of October 17, 2025, by and among Wells Fargo Bank, National Association, as Trustee, Flagstar Bank, National Association and Flagstar Financial, Inc., related to Flagstar Statutory Trust VI. 
+ 4.6 Second Supplemental Indenture, dated as of October 17, 2025, by and among Wells Fargo Bank, National Association, as Trustee, Flagstar Bank, National Association and Flagstar Financial, Inc., related to Flagstar Statutory Trust VIII. 
+ 4.7 Second Supplemental Indenture, dated as of October 17, 2025, by and among Wells Fargo Bank, National Association, as Trustee, Flagstar Bank, National Association and Flagstar Financial, Inc., related to Flagstar Statutory Trust IX. 
+ 4.8 First Supplemental Indenture, dated as of October 17, 2025, by and among Wilmington Trust Company, as Trustee, Flagstar Bank, National Association and Flagstar Financial, Inc., related to Capital Trust X. 
+ 4.9 Third Supplemental Indenture, dated as of October 17, 2025, by and among Wilmington Trust Company, as Trustee, Flagstar Bank, National Association and Flagstar Financial, Inc., related to Capital Trust III. 
+ 4.10 First Supplemental Indenture, dated as of October 17, 2025, by and among Wilmington Trust Company, as Trustee, Flagstar Bank, National Association and Flagstar Financial, Inc., related to Capital Trust XI. 
+ 4.11 Second Supplemental Indenture, dated as of October 17, 2025, by and among Wilmington Trust Company, as Trustee, Flagstar Bank, National Association and Flagstar Financial, Inc., related to Capital Trust V. 
+ 4.12 Second Supplemental Indenture, dated as of October 17, 2025, by and among Wilmington Trust Company, as Trustee, Flagstar Bank, National Association and Flagstar Financial, Inc., related to Flagstar Statutory Trust VII. 
+ 4.13* Second Supplemental Indenture, dated as of October 17, 2025, by and among U.S. Bank Trust Company, National Association, as Trustee, Flagstar Bank, National Association and Flagstar Financial, Inc., related to Flagstar Statutory Trust II. 
+ 4.14* Second Supplemental Indenture, dated as of October 17, 2025, by and among U.S. Bank Trust Company, National Association, as Trustee, Flagstar Bank, National Association and Flagstar Financial, Inc., related to Flagstar Statutory Trust X. 
+ 4.15* Second Supplemental Indenture, dated as of October 17, 2025, by and among The Bank of New York Mellon, as Trustee, Flagstar Bank, National Association and Flagstar Financial, Inc., related to Flagstar Statutory Trust IV. 
+ 10.1 Amendment to Registration Rights Agreement, dated as of October 17, 2025, by and among Liberty Strategic Capital (CEN) Holdings, LLC as Anchor Investor, Flagstar Bank, National Association and Flagstar Financial, Inc. 
+ 99.1 Press Release, dated October 17, 2025 
+ 104 Cover Page Interactive Data File (embedded within the Inline XBRL document). 
+ * Schedules have been omitted pursuant to Item 601(a)(5) of Regulation S-K. A copy of any omitted schedule will be furnished supplementally to the SEC upon request; provided, however, that the parties may request confidential treatment pursuant to Rule 24b-2 of the Securities Exchange Act of 1934, as amended, for any document so furnished. 
+ SIGNATURE 
+ Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned, hereunto duly authorized. 
+ Date: October 20, 2025 Flagstar Bank, National Association 
+ (as successor to Flagstar Financial, Inc.) 
+ /s/ Bao Nguyen 
+ Bao Nguyen 
+ Senior Executive Vice President, General Counsel, and Chief of Staff 
+

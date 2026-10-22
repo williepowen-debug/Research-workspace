@@ -161,6 +161,27 @@ def quarter_due():
     return 1, lines
 
 
+INBOX = HERE / "inbox"
+
+
+def inbox_due():
+    """Unprocessed mail: any file directly in inbox/ or inbox/WALTER/ other than
+    PROTOCOL.md and dotfiles. PROTOCOL.md: everything present is unprocessed by
+    definition. Added 2026-10-22 (DAEDALUS bank review X4/finding; the boot said
+    'all quiet' while SIG-W-20261022-012 and a DAEDALUS packet sat unread)."""
+    if not INBOX.is_dir():
+        return 2, [f"  🔴 inbox: {INBOX} MISSING — mail cannot be certified as drained"]
+    found = []
+    for d in (INBOX, INBOX / "WALTER"):
+        if d.is_dir():
+            found += [p for p in sorted(d.iterdir())
+                      if p.is_file() and p.name != "PROTOCOL.md" and not p.name.startswith(".")]
+    if not found:
+        return 0, ["  ✓ none due — inbox/ and inbox/WALTER/ hold no unprocessed files"]
+    return 1, [f"  ⚠️ UNPROCESSED: {p.relative_to(HERE)}" for p in found] + \
+              [f"  ({len(found)} file(s); process per inbox/PROTOCOL.md, then git mv to processed/)"]
+
+
 def main():
     print("=" * 74)
     print(f"  ⏰ WALL CLOCK: {datetime.now().strftime('%Y-%m-%d %H:%M %A')} — never hand-write a time; copy this line")
@@ -188,6 +209,11 @@ def main():
 
     print("\n--- 4. quarter-due (Call Report clock, RSSD 694904) ---")
     rc, lines = quarter_due()
+    print("\n".join(lines))
+    rcs.append(rc)
+
+    print("\n--- 5. inbox (unprocessed mail) ---")
+    rc, lines = inbox_due()
     print("\n".join(lines))
     rcs.append(rc)
 

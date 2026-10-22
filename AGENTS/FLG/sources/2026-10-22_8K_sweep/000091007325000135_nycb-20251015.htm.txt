@@ -1,0 +1,52 @@
+ 
+ nycb-20251015 
+ UNITED STATES 
+ SECURITIES AND EXCHANGE COMMISSION 
+ WASHINGTON, D.C. 20549 
+ FORM 8-K 
+ CURRENT REPORT 
+ Pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934 
+ Date of Report (Date of earliest event reported): October 15, 2025 
+ FLAGSTAR FINANCIAL, INC. 
+ (Exact Name of Registrant as Specified in Charter) 
+ Delaware 1-31565 06-1377322 
+ (State or Other Jurisdiction of Incorporation) Commission File Number (IRS Employer Identification No.) 
+ 102 Duffy Avenue, Hicksville, New York 11801 
+ (Address of principal executive offices) 
+ ( 516 ) 683-4100 
+ (Registrant's telephone number, including area code) 
+ Securities registered pursuant to Section 12(b) of the Exchange Act: 
+ Title of each class Trading symbol(s) Name of each exchange on which registered 
+ Common stock, $0.01 par value per share FLG New York Stock Exchange 
+ Bifurcated Option Note Unit Securities SM FLG PRU New York Stock Exchange 
+ Depositary Shares each representing a 1/40th interest in a share of Fixed-to-Floating Rate Series A Noncumulative Perpetual Preferred Stock FLG PRA New York Stock Exchange 
+ Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions: 
+ ☐ Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425) 
+ ☐ Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12) 
+ ☐ Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b)) 
+ ☐ Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c)) 
+ Indicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act (17 CFR 230.405) or Rule 12b-2 of the Exchange Act (17 CFR 240.12b-2). 
+ Emerging growth company ☐ 
+ If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange 
+ Act. ☐ 
+ Item 5.07 Submission of Matters to a Vote of Security Holders 
+ (a) The special meeting of shareholders (the “Meeting”) of Flagstar Financial, Inc. (the "Company") was held on Wednesday, October 15, 2025, virtually via webcast, pursuant to notice duly given. 
+ (b) At the close of business on August 18, 2025, the record date for the determination of shareholders entitled to vote at the Meeting, there were 415,561,180 outstanding shares of the Company’s common stock, each share being entitled to vote, constituting all of the outstanding voting securities of the Company. 
+ (c) At the Meeting, the holders of 324,632,828 (78.11%) shares of the Company’s common stock were represented in person or by proxy, constituting a quorum. 
+ (d) The matters considered and voted on by the Company’s shareholders at the Meeting, and the vote itself, were as follows: 
+ 1) Approval and adoption of the Amended and Restated Agreement and Plan of Merger, dated as of August 22, 2025, by and between the Company and its wholly-owned bank subsidiary, Flagstar Bank, N.A. (the ‘‘Bank’’), as such agreement may be amended from time to time, referred to as the ‘‘plan of merger,’’ effecting an internal corporate reorganization in which the Company will be merged with and into the Bank, with the Bank continuing as the surviving entity (the “Merger Proposal”): 
+ Shares Voted For Shares Voted Against Abstentions 
+ 323,484,538 697,949 450,341 
+ There were 0 broker non-votes on this proposal. 
+ 2) Approval of the conversion of the Company into an interim federal savings association to be called Flagstar Financial, Federal Savings Association, immediately prior to the merger (the “Conversion Proposal”): 
+ Shares Voted For Shares Voted Against Abstentions 
+ 323,457,796 724,931 450,101 
+ There were 0 broker non-votes on this proposal. 
+ (e) The shareholders of the Company also considered and voted on a proposal to authorize the Company’s board of directors or an authorized committee thereof to adjourn or postpone the Meeting to a later date, if necessary or appropriate, including adjournments to permit further solicitation of proxies in favor of the Merger Proposal or the Conversion Proposal, or both proposals, or to vote on other matters properly brought before such Meeting (the “Adjournment Proposal”). Because the Merger Proposal and the Conversion Proposal were both approved, the Adjournment Proposal was rendered moot and the results of the vote on the Adjournment Proposal were not announced at the Meeting. 
+ SIGNATURE 
+ Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned, hereunto duly authorized. 
+ Date: October 16, 2025 FLAGSTAR FINANCIAL, INC. 
+ /s/ Bao Nguyen 
+ Bao Nguyen 
+ Senior Executive Vice President, General Counsel and Chief of Staff 
+

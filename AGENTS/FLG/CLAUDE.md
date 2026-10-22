@@ -10,7 +10,7 @@
 
 ## ⚡ SPAWNED-MODE BOOT CARD (coordinator spawns — your CLAUDE.md did NOT auto-load)
 
-1. **Read:** `AGENTS/FLG/CLAUDE.md` (this file) · `AGENTS/FLG/STATUS.md` · `AGENTS/FLG/workbook/TRIGGERS.tsv` — full repo-root paths.
+1. **Read** root `CLAUDE.md` · `AGENTS.md` · `USER.md` explicitly (`PROME/COMPLETION_SPEC.md`; identify the runtime first — model/provider when exposed, session ID, worktree, UNKNOWN if not exposed, WQ-385 — and report unavailable tools). **Then read:** `AGENTS/FLG/CLAUDE.md` (this file) · `AGENTS/FLG/STATUS.md` · `AGENTS/FLG/workbook/TRIGGERS.tsv` — full repo-root paths.
 2. **Critical semantics:** a CRE-concentration ratio is meaningless without its denominator. "CRE 327.5%" is SR 07-1 numerator over **total risk-based capital** — not over assets, not over equity, not over Tier 1. The predecessor instrument carried EGBN at **497% AND 547% simultaneously, both ~2× wrong**, from exactly this ambiguity. Never write or read a concentration ratio without numerator definition + denominator definition + as-of quarter.
 3. **Git:** cwd-proof ops from repo root · pathspec-only commits (`AGENTS/FLG/…`) · **no push when spawned** — coordinator sweeps.
 4. **Deliver before idle, BOTH halves:** files written + committed AND coordinator notified (SendMessage). Never idle "holding."
@@ -21,13 +21,14 @@
 
 ## BOOT SEQUENCE (full session)
 
+0. Explicit reads + runtime identification as in boot-card item 1 (do not assume this file auto-loaded root or `USER.md`).
 1. Root sync per root `CLAUDE.md` §Git Protocol ("Before pulling").
 2. `python3 "$(git rev-parse --show-toplevel)/AGENTS/FLG/boot.py"` — wall clock · ledger staleness (workbook + TRADE) · **predictions-due scan** (OPEN rows past `Resolve_By`, blueprint §5) · **triggers-due scan** (`workbook/TRIGGERS.tsv` rows past `Next_Check`) · **quarter-due scan** (a Call Report quarter-end +45d past with no `MI3_FLG.tsv` row = a filing you have not ingested). Exit 1 = REVIEW: work the flagged items before new research (root rule 8: mechanical before creative).
 2b. **R1 corrections check (fleet-wide — FORUM-6 ruling ①, Will-approved 2026-08-17):** `python3 "$(git rev-parse --show-toplevel)/scripts/corrections_boot_check.py" FLG` — §9 rc 0/1/2; **rc=1 = a NAMED correction is unreceipted:** read the pointer, then write the receipt **with the fields Will ruled 9/17 (WQ-399, enforced 2026-10-08 — the writer refuses an incomplete receipt, rc 2, nothing written)**: `APPLIED --artifact <path#key> [--artifact …] --validation-ref <path#key|NONE>` · `NO-OP --scope <text>` · `DEFERRED --review YYYY-MM-DD` · `CONTESTED [--scope/--artifact/--note]` (full forms: `scripts/corrections_boot_check.py --help`; WALTER `SIG-W-20261008-033`), and commit `registry/corrections_receipts.tsv`. *(Wired 2026-08-28, DAEDALUS wiring sweep leg ①, batch Will-approved in-session; applied on FLG's "apply when idle" after PROME's repo all-clear.)*
 3. Process `inbox/` per `inbox/PROTOCOL.md` (INTEGRATE / LOG / DISCARD; `git mv` to `inbox/processed/`).
 4. Read `STATUS.md`. **If its FIRST-LIVE-SESSION banner is still present, § FIRST LIVE SESSION below is your session.**
 5. Execute the task. Write results back (STATUS + workbook). Update BOTTOM LINE.
-6. Closeout per root `CLAUDE.md` §Git Protocol (commit own pathspec, orphan check, consumer check, auto-push).
+6. Closeout per root `CLAUDE.md` §Git Protocol session-end steps 1–3 incl. **1b orphan · 1c consumer · 1c-bis ledger nudge · 1d memory-index · 1e claim check**, then auto-push.
 
 ---
 
@@ -77,8 +78,8 @@ Every ratio cell you write carries **numerator definition + denominator definiti
 | Ratio | Numerator | Denominator | Source | Line/field |
 |---|---|---|---|---|
 | **CRE concentration (SR 07-1)** | construction + multifamily + non-owner-occupied NFNR | **total risk-based capital** | FFIEC Call Report | per `MI3_FLG.tsv` MDRM cells |
-| **Nonaccrual rate** | nonaccrual loans | total loans | FFIEC Call Report | `total_loans_k` |
-| **Coverage** | ACL (allowance for credit losses) | **nonaccrual loans** (not total loans) | FFIEC Call Report | — |
+| **Nonaccrual rate** | nonaccrual loans | total loans HFI | **10-Q (graded basis, KB-028)**; Call Report = second basis, labelled | 10-Q MD&A ratio; MI3 `total_loans_k` |
+| **Coverage** | ACL (allowance for credit losses) | **nonaccrual loans** (not total loans) | **10-Q (graded basis: FLG-02, K-4)**; Call Report = second basis, labelled — grading on the wrong one flips FLG-02 | — |
 | **MI3 `v1_pct`** | see `MI3_FLG.tsv` header — the MDRM denominator is declared **per row** | declared per row | REGINALD `mi3_cohort_screen.py` | `denom_v1_mdrm` |
 
 📌 **Provenance, recorded so it is not re-learned the hard way.** REGINALD's convergence matrix v1 carried EGBN's CRE concentration at **497% and 547% at the same time — both approximately 2× wrong** — from an ambiguous denominator, and the error stood until v2.0 rebuilt the instrument on 2026-08-20 (`75f0dd18b`). v2.0 validated its own channel-1 arithmetic before use: computed EGBN **258.2%** against EGBN's disclosed **267.6%** (−9.4pp). **Validate before use is therefore your inherited standard, not an optional step.**
@@ -91,7 +92,7 @@ Rules: **(a)** never compare a ratio across sources without saying whether the d
 
 `workbook/TRIGGERS.tsv` is your wake register — one row per named trigger with `Next_Check` and instrument. boot.py prints due rows. Every session that consumes a trigger **re-dates or retires** its row.
 
-**Standing print clock:** Call Report ≈ quarter-end + 45d · 10-Q ≈ quarter-end + 40d · 10-K ≈ FY-end + 60d. boot.py's quarter-due leg flags an un-ingested quarter; it is a *prompt to look*, not a claim a filing exists.
+**Standing print clock:** Call Report ≈ quarter-end + 45d · 10-Q ≈ quarter-end + 37–40d (observed +37d twice) · 10-K ≈ FY-end + 60d. boot.py's quarter-due leg flags an un-ingested quarter; it is a *prompt to look*, not a claim a filing exists.
 
 ⚠️ **A local register nobody boots to read is not a wake owner.** Any trigger that must wake FLG *while FLG is idle* needs a **`PROME/GATES.tsv` row with an assigned grader** — route the ask to PROME when you register one (`finding_fired_gate_needs_owner_independent_ledger`). FERT's `>$800` line fired in April and sat ungraded ~8 weeks on exactly this gap.
 
@@ -101,7 +102,7 @@ Rules: **(a)** never compare a ratio across sources without saying whether the d
 
 ## GATES & THRESHOLDS
 
-**Nothing is registered today, and that is deliberate.** `workbook/TRIGGERS.tsv` ships with `[EST]`-marked candidate rows. They are **PROPOSALS, not gates.**
+**Zero LIVE gates; one TERMINAL** (`GATE-FLG-T08`, registered 8/28, fired 10/1, archived `PROME/archive/GATES_TERMINAL_ROWS_2026-10-09.tsv`). `workbook/TRIGGERS.tsv` rows are wake **PROMPTS, not gates**; a gate exists only as a `PROME/GATES.tsv` row.
 
 **First live session: base-rate each candidate against the 12-quarter `MI3_FLG.tsv` series before proposing any of them to Will via PROME** (`finding_base_rate_the_threshold_before_building_it` — **"don't build it" is a real answer**). Registration follows FERT's Will-ruled discipline: base-rate first, register second.
 
@@ -124,11 +125,11 @@ Rules: **(a)** never compare a ratio across sources without saying whether the d
 |---|---:|---:|---|
 | CRE numerator (constr + MF + non-OO) | $48.33B | **$32.76B** | **−32.2%** |
 | Total risk-based capital (the denominator) | $10.27B | $10.00B | **−2.6% — FLAT** |
-| **SR 07-1 ratio** | **470.5%** | **327.5%** | **−143pp, fell in ALL 11 quarters** |
+| **SR 07-1 ratio** | **470.5%** | **327.5%** | **−143pp, fell in ALL 11 quarters** (~11pp is merger basis at 2025Q4 — total RBC +$299M when the holdco merged in; KB-FLG-080) |
 
 **The denominator held, so the artifact is arithmetically impossible here.** The composition intuition was right — multifamily *is* the stickiest leg (MF **−28.6%** vs construction **−55.6%**, non-OO **−40.8%**) — it just does not produce the artifact.
 
-🔴 **But the answer changed the read, and this is now your starting instruction.** Channel 1 is **LEVEL-high and TRAJECTORY-de-risking**: 327.5% is genuinely above the 300% line today, and it has fallen monotonically for eleven quarters, crossing below 300% in ~2 quarters at this rate. **Reading "cohort-worst CRE concentration" as *deterioration* is WRONG.** ⚠️ **The load-bearing figure on this desk is the 29% ACL/nonaccrual COVERAGE, not the 4.88% nonaccrual rate and not the composite 6/6** — nonaccruals are past peak and improving (5.49% → 4.88%) while ACL has fallen in **every one of 8 quarters** ($1.27B → $0.87B), a drawdown ~1.7× faster than the problem book resolves, against a still-$3.0B nonaccrual book. **Start from coverage. The headline number and the actionable number are different on this name.**
+🔴 **But the answer changed the read, and this is now your starting instruction.** Channel 1 is **LEVEL-high and TRAJECTORY-de-risking**: 327.5% is genuinely above the 300% line today, and it has fallen monotonically for eleven quarters, crossing below 300% in ~2 quarters at this rate. **Reading "cohort-worst CRE concentration" as *deterioration* is WRONG.** ⚠️ **The headline number and the actionable number are different on this name.** At build (8/20, MIRROR basis) the load-bearing figure was 29% coverage. **Since 8/28 the desk starts from the SPECIFIC RESERVE** ($163M = 5.8% of non-accrual; $1,571M carries no allowance) with total coverage 31.04% on the 10-Q basis as the graded series — `STATUS.md` § START HERE carries the live figures; this charter carries none.
 
 - **Channel-kill vs thesis-kill** (blueprint §4): a dead concentration leg does not kill the credit-quality leg. Say which channel died and name the migration path.
 - **Bidirectional flip:** name the single read that falsifies your stance in BOTH directions, testable at the next print.
@@ -203,7 +204,7 @@ Delivery model: write the packet into the recipient's `inbox/` and **commit it y
 
 ## GIT
 
-Root `CLAUDE.md` §Git Protocol owns the rules — cite, don't restate. Pathspec: `AGENTS/FLG/` (+ carve-out ① self-authored packets into recipients' inboxes, ② self-authored shared-log rows, ③ self-authored `memory/auto/` files). Auto-push at closeout via `scripts/safe-push.sh`; non-ff → `git pull --rebase --autostash`, re-push, **never force**.
+Root `CLAUDE.md` §Git Protocol owns the rules — cite, don't restate. Pathspec: `AGENTS/FLG/` (+ carve-out ① self-authored packets into recipients' inboxes, ② self-authored shared-log rows, ③ self-authored `memory/auto/` files). Auto-push at closeout via `scripts/safe-push.sh`; on a non-ff, follow root § Git Protocol session-end **step 3 exactly** (dirty-path overlap check BEFORE any rebase; overlap ⇒ stop and flag PROME), **never force**.
 
 ## FILES
 
@@ -212,8 +213,16 @@ Root `CLAUDE.md` §Git Protocol owns the rules — cite, don't restate. Pathspec
 | File | Role |
 |---|---|
 | `STATUS.md` | Live state; its own banner is the authority on whether § FIRST LIVE SESSION still applies |
-| `THESIS.md` | Thesis of record; its own version header is the vintage. **v0.1 = a skeleton of open questions, not a thesis** |
-| `boot.py` | Boot instrument: wall clock · ledger staleness · predictions-due · triggers-due · quarter-due. rc 0 quiet / 1 REVIEW / 2 leg failed |
+| `THESIS.md` | Thesis of record; its own version header is the vintage (version rows rotate to `archive/THESIS_VERSION_LOG_*`) |
+| `boot.py` | Boot instrument: wall clock · ledger staleness · predictions-due · triggers-due · quarter-due · inbox (unprocessed mail, added 10/22). rc 0 quiet / 1 REVIEW / 2 leg failed |
+| `CALENDAR.md` | Dated wake calendar; each row names its anchor type |
+| `board_log.tsv` | WALTER signal receipts (one row per signal: disposition + note) |
+| `workbook/NONACCRUAL_FLOW.tsv` | Non-accrual roll-forward, 13 EDGAR filings; header carries the vintage and next_due |
+| `workbook/MATURITY_WALL.tsv` | Multi-family repricing/maturity schedule by vintage (10-K + 10-Q tables) |
+| `workbook/RGB_GUIDELINES.tsv` | NYC Rent Guidelines Board orders (the mechanism's administrative input) |
+| `reports/` | Dated analyses; a frozen pre-print frame carries its sha256 and is never edited |
+| `registry/corrections_receipts.tsv` | Receipts for fleet corrections (writer: `scripts/corrections_boot_check.py`) |
+| `scripts/extract_filings.py` | Contract: argv = local EDGAR 10-Q/10-K HTML paths; stdout = one JSON object per filing with the non-accrual roll-forward lines (new, charge-offs, transfers, payoffs, cures) and coverage, current period = left column; writes nothing. Feeds `NONACCRUAL_FLOW.tsv` |
 | `TRADE.md` | Trade surface; its own banner is the authority on position state |
 | `workbook/MI3_FLG.tsv` | Call Report series, RSSD 694904; its two-clock header is the vintage; `denom_v1_mdrm` declares each row's denominator |
 | `workbook/KB.tsv` | 13-col atomic-claim ledger (schema: `AGENTS/FERT/workbook/SCHEMA.tsv`; enums: `AGENTS/VOCABULARIES.tsv`) |
