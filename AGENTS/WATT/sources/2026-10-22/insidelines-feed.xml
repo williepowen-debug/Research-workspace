@@ -1,0 +1,876 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>PJM Inside Lines</title>
+	<atom:link href="https://insidelines.pjm.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://insidelines.pjm.com</link>
+	<description>Inside Lines informs PJM&#039;s stakeholders of various committee actions, upcoming training and other activities.</description>
+	<lastBuildDate>Mon, 19 Oct 2026 16:33:45 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>First GridAdvance Summit Explores Applying AI to the RTO</title>
+		<link>https://insidelines.pjm.com/first-gridadvance-summit-explores-applying-ai-to-the-rto/</link>
+		
+		<dc:creator><![CDATA[Suzanne Herel]]></dc:creator>
+		<pubDate>Mon, 19 Oct 2026 16:33:44 +0000</pubDate>
+				<category><![CDATA[Innovation]]></category>
+		<category><![CDATA[PJM Views]]></category>
+		<guid isPermaLink="false">https://insidelines.pjm.com/?p=210324</guid>
+
+					<description><![CDATA[<img width="139" height="81" src="https://insidelines.pjm.com/wp-content/uploads/2026/10/20261015-GridAdvance-Summit-Collage_1920x1080-139x81.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" style="float: left; margin-right: 5px;" link_thumbnail="" decoding="async" />Innovation will play a critical role in building the capabilities, processes and solutions we need to meet the demands of the new industrial revolution driven by artificial intelligence. Last Thursday, industry and engineering experts gathered at PJM’s Valley Forge, Pennsylvania, campus for the first annual GridAdvance Summit to exchange ideas about what this innovation could [&#8230;]]]></description>
+										<content:encoded><![CDATA[<img width="139" height="81" src="https://insidelines.pjm.com/wp-content/uploads/2026/10/20261015-GridAdvance-Summit-Collage_1920x1080-139x81.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" style="float: left; margin-right: 5px;" link_thumbnail="" decoding="async" />
+<p class="wp-block-paragraph">Innovation will play a critical role in building the capabilities, processes and solutions we need to meet the demands of the new industrial revolution driven by artificial intelligence.</p>
+
+
+
+<p class="wp-block-paragraph">Last Thursday, industry and engineering experts gathered at PJM’s Valley Forge, Pennsylvania, campus for the first annual <a href="https://insidelines.pjm.com/reminder-pjm-gridadvance-summit-one-month-away/">GridAdvance Summit</a> to exchange ideas about what this innovation could look like. The theme was “Applying AI to the RTO.”</p>
+
+
+
+<p class="wp-block-paragraph">PJM Board Member Le Xie, cofounder of the Power and AI Initiative at Harvard University, set the stage with his keynote. AI is here to stay, he said, encouraging the industry to engage with an attitude of “responsible optimism.”</p>
+
+
+<div class="wp-block-image">
+<figure class="alignleft size-medium is-resized"><img fetchpriority="high" decoding="async" width="225" height="300" src="https://insidelines.pjm.com/wp-content/uploads/2026/10/Aftab_Khan_2026-225x300.jpg" alt="" class="wp-image-210326" style="object-fit:cover;width:151px;height:auto" srcset="https://insidelines.pjm.com/wp-content/uploads/2026/10/Aftab_Khan_2026-225x300.jpg 225w, https://insidelines.pjm.com/wp-content/uploads/2026/10/Aftab_Khan_2026-150x200.jpg 150w, https://insidelines.pjm.com/wp-content/uploads/2026/10/Aftab_Khan_2026-300x401.jpg 300w, https://insidelines.pjm.com/wp-content/uploads/2026/10/Aftab_Khan_2026-696x929.jpg 696w, https://insidelines.pjm.com/wp-content/uploads/2026/10/Aftab_Khan_2026.jpg 758w" sizes="(max-width: 225px) 100vw, 225px" /><figcaption class="wp-element-caption">Aftab Khan, <br>Chief Strategy Officer</figcaption></figure>
+</div>
+
+
+<p class="wp-block-paragraph">The question he posed, which other speakers also weighed, was: In an environment of regulatory compliance, when reliability is not negotiable, how do we strike a balance between risk and value? AI presents both opportunity and responsibility, but caution cannot be paralysis.</p>
+
+
+
+<p class="wp-block-paragraph">Panels and conversations throughout the day delved deeper into these ideas and how the use of AI touches multiple industry facets, from future electricity system planning to real-time operations.</p>
+
+
+
+<p class="wp-block-paragraph">For PJM and our Members, AI tools can optimize outage planning, fine-tune forecasting, evaluate how well resources are following dispatch, improve gas/electric coordination, assess transformer health, anticipate equipment aging and end of life, assist in operator training, and more.</p>
+
+
+
+<p class="wp-block-paragraph">Already, PJM has leveraged AI in its New Service Request process by partnering with Google’s <a href="https://insidelines.pjm.com/pjm-google-tapestry-join-forces-to-apply-ai-to-enhance-regional-planning-generation-interconnection/">Tapestry</a> to deploy a tool called HyperQ, which helps review large volumes of application data. For example, HyperQ assesses proof of Site Control – a key factor in evaluating interconnection requests – and identifies potential deficiencies, freeing time for staff to devote to other tasks in our drive to get new generation connected as quickly as possible.</p>
+
+
+
+<p class="wp-block-paragraph">We’re not talking about autonomous operation of the grid – the discretion of the operator is more important than ever. But we need better tools, and there’s room for AI to play a major role. Better tools will give operators and planners more time and the right data to make the best decisions.</p>
+
+
+
+<p class="wp-block-paragraph">Of course, innovation is more than just AI. And innovation is rarely a straight path. It requires curiosity, creativity and a willingness to learn through experimentation.</p>
+
+
+
+<p class="wp-block-paragraph">Successes will help move us forward, while setbacks will provide valuable lessons that shape better solutions. Both play an important role in helping us determine where to focus our time, energy and resources.</p>
+
+
+
+<p class="wp-block-paragraph">As we continue to innovate and evolve, our commitment to reliability remains unchanged.</p>
+
+
+
+<p class="wp-block-paragraph">I thank all those who helped coordinate this important and timely discussion and appreciate the insights of all those who took part.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Operations Update: PJM Issues Capacity Advisory for Oct. 19</title>
+		<link>https://insidelines.pjm.com/operations-update-pjm-issues-capacity-advisory-for-oct-19/</link>
+		
+		<dc:creator><![CDATA[Jason McGovern]]></dc:creator>
+		<pubDate>Fri, 16 Oct 2026 18:29:16 +0000</pubDate>
+				<category><![CDATA[Operations]]></category>
+		<category><![CDATA[capacity advisory]]></category>
+		<category><![CDATA[system operations]]></category>
+		<guid isPermaLink="false">https://insidelines.pjm.com/?p=210320</guid>
+
+					<description><![CDATA[<img width="139" height="81" src="https://insidelines.pjm.com/wp-content/uploads/2019/07/control-room-1_1024x1024-139x81.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" style="float: left; margin-right: 5px;" link_thumbnail="" decoding="async" loading="lazy" />PJM has issued a Capacity Advisory for Monday, Oct. 19, ahead of expected tight system conditions due to equipment outages needed for maintenance and construction. The PJM load forecast is estimated at about 94,573 MW against expected generation outages of about 72,000 MW as well as planned transmission outages. A Capacity Advisory is a new [&#8230;]]]></description>
+										<content:encoded><![CDATA[<img width="139" height="81" src="https://insidelines.pjm.com/wp-content/uploads/2019/07/control-room-1_1024x1024-139x81.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" style="float: left; margin-right: 5px;" link_thumbnail="" decoding="async" loading="lazy" />
+<p class="wp-block-paragraph">PJM has issued a Capacity Advisory for Monday, Oct. 19, ahead of expected tight system conditions due to equipment outages needed for maintenance and construction.</p>
+
+
+
+<p class="wp-block-paragraph">The PJM load forecast is estimated at about 94,573 MW against expected generation outages of about 72,000 MW as well as planned transmission outages.</p>
+
+
+
+<p class="wp-block-paragraph">A <a href="https://insidelines.pjm.com/pjm-adds-emergency-procedures-to-maintain-reliability/">Capacity Advisory</a> is a new Emergency Procedure endorsed by PJM Members in June. It was created specifically for circumstances when projected grid operating conditions indicate an approaching capacity shortfall.</p>
+
+
+
+<p class="wp-block-paragraph">The advisory was issued to provide advance notice that capacity is tightening and additional actions may be required, such as recalling generation outages, rescheduling generation outages, calling generation out of market, recalling transmission outages to maximize generation deliverability, and/or notifying neighbors to anticipate less reliance on imports from PJM.</p>
+
+
+
+<p class="wp-block-paragraph">The Oct. 19 Capacity Advisory follows a week of unseasonably warm fall conditions, during which PJM proactively implemented procedures to reliably serve increased electricity demand amid planned seasonal equipment outages required for maintenance and construction.</p>
+
+
+
+<h3 class="wp-block-heading">Managing Planned Shoulder Season Outages</h3>
+
+
+
+<p class="wp-block-paragraph">PJM is currently in planned maintenance season. Typically, both transmission and generation facilities are taken out of service to perform maintenance and construction from mid-September through early December, so they are fully available to serve loads during peak winter periods.</p>
+
+
+
+<p class="wp-block-paragraph">Read more about PJM’s&nbsp;<a href="https://pjm.com/-/media/DotCom/about-pjm/newsroom/fact-sheets/pjms-emergency-procedures-and-messages.ashx">emergency procedures and messages</a>&nbsp;(PDF).</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Providing Reliable Electricity in a New Reality</title>
+		<link>https://insidelines.pjm.com/providing-reliable-electricity-in-a-new-reality/</link>
+		
+		<dc:creator><![CDATA[Jeffrey Shields]]></dc:creator>
+		<pubDate>Thu, 15 Oct 2026 18:11:31 +0000</pubDate>
+				<category><![CDATA[Operations]]></category>
+		<category><![CDATA[PJM Views]]></category>
+		<category><![CDATA[capacity]]></category>
+		<category><![CDATA[energy]]></category>
+		<category><![CDATA[Reliability]]></category>
+		<category><![CDATA[system operations]]></category>
+		<guid isPermaLink="false">https://insidelines.pjm.com/?p=210314</guid>
+
+					<description><![CDATA[<img width="139" height="81" src="https://insidelines.pjm.com/wp-content/uploads/2026/10/Dave-Souder-Inside-Lines_Banner-139x81.png" class="webfeedsFeaturedVisual wp-post-image" alt="" style="float: left; margin-right: 5px;" link_thumbnail="" decoding="async" loading="lazy" />The end of summer and the transition into fall usually offers the electric grid a chance to catch its collective breath and prepare for the challenges to come in the winter season ahead. Owners of electricity generators and transmission lines use the milder weather in spring and fall, when electricity demand typically moderates, to shut [&#8230;]]]></description>
+										<content:encoded><![CDATA[<img width="139" height="81" src="https://insidelines.pjm.com/wp-content/uploads/2026/10/Dave-Souder-Inside-Lines_Banner-139x81.png" class="webfeedsFeaturedVisual wp-post-image" alt="" style="float: left; margin-right: 5px;" link_thumbnail="" decoding="async" loading="lazy" />
+<p class="wp-block-paragraph">The end of summer and the transition into fall usually offers the electric grid a chance to catch its collective breath and prepare for the challenges to come in the winter season ahead.</p>
+
+
+
+<p class="wp-block-paragraph">Owners of electricity generators and transmission lines use the milder weather in spring and fall, when electricity demand typically moderates, to shut down temporarily for needed maintenance or upgrades.</p>
+
+
+
+<p class="wp-block-paragraph">PJM has long relied on these “shoulder seasons” to provide a reliable supply of electricity to its 13 states and Washington, D.C., by proactively planning and coordinating equipment outages with its member companies – even with a significant portion of the generation fleet out of service for days or weeks.</p>
+
+
+<div class="wp-block-image">
+<figure class="alignleft size-full"><img loading="lazy" decoding="async" width="267" height="218" src="https://insidelines.pjm.com/wp-content/uploads/2026/10/Dave-Souder_Body-Image.png" alt="" class="wp-image-210317" srcset="https://insidelines.pjm.com/wp-content/uploads/2026/10/Dave-Souder_Body-Image.png 267w, https://insidelines.pjm.com/wp-content/uploads/2026/10/Dave-Souder_Body-Image-150x122.png 150w" sizes="auto, (max-width: 267px) 100vw, 267px" /></figure>
+</div>
+
+
+<p class="wp-block-paragraph">But the once-dependable reprieve is not what it used to be. That’s in part because the profile of our customers is changing. Most of the new, rapidly growing energy demand is from data centers and other energy-intensive Large Load customers, and their consumption does not fluctuate significantly with the weather; it is a 12-month 24/7 phenomenon.</p>
+
+
+
+<p class="wp-block-paragraph">That expanding demand is outpacing new transmission and electricity supply coming onto the system.</p>
+
+
+
+<p class="wp-block-paragraph">In addition, unseasonably hot or cold weather now arrives early for summer and winter and stays late.</p>
+
+
+
+<p class="wp-block-paragraph">The result is that periods the grid once relied on for maintenance and preparation can now become periods of significant system stress and reliability risk. Energy flow on the transmission system is increasing while our generation reserves are dwindling, leaving little room for error.</p>
+
+
+
+<p class="wp-block-paragraph">This week has been a prime example. With about more than 61,000 MW of generation outages, PJM was working with only 66% of our generating fleet’s capacity, and the outages were spread across all kinds of resources, from nuclear, coal and gas to wind, solar and hydro.</p>
+
+
+
+<p class="wp-block-paragraph">More than two-thirds of those outages were for planned maintenance or construction, while about 15,000 MW were unplanned outages, according to preliminary data. PJM was able to work with Member companies to recall, or return to service, about 10,000 MW to get to that 61,000 MW number, but canceling more outages would risk those facilities not being able to properly prepare for winter.</p>
+
+
+
+<p class="wp-block-paragraph">On Tuesday and Wednesday, PJM issued a series of emergency procedures to make sure we had enough generation online to serve unseasonably warm, but not extreme, temperatures. The U.S. Department of Energy, for the ninth time this year, issued an order to allow PJM to direct backup generation at data centers and other Large Load electricity customers to operate to avoid outages to other customers. While PJM did not use that authority and has not done so to date, it remains a valuable tool to help protect regular customers.</p>
+
+
+
+<p class="wp-block-paragraph">PJM was able to operate reliably through these challenging conditions this week, as we have throughout the year:</p>
+
+
+
+<ul class="wp-block-list">
+<li>In April, PJM declared a Hot Weather Alert for its Atlantic coast territory, from New Jersey to North Carolina, when temperatures surged into the 90s.</li>
+
+
+
+<li>In May, a heat wave covered most of the PJM territory for two days and required PJM to summon out-of-service generators and transmission equipment back online.</li>
+
+
+
+<li>And then came September, with two bouts of hot weather just as summer was coming to a close</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">In the midst of all this, PJM set a new preliminary record for peak electricity use on July 2 at approximately 168,000 MW.</p>
+
+
+
+<p class="wp-block-paragraph">In many of these instances, PJM called on Demand Response to help blunt spikes in electricity demand and ensure transmission security during the hottest days, particularly in the late afternoon and early evening, when solar generation is fading but electricity demand isn’t. PJM has also had to restrict electricity exports to neighboring systems during this time.</p>
+
+
+
+<p class="wp-block-paragraph">Demand Response customers are paid in advance to reduce their electricity use during times of system stress; they provide a valuable service to help control demand on peak days. Previously, Demand Response was called infrequently. In 2026 alone, Demand Response customers, who range from individual homeowners to large industrial plants, have been activated on nine different days, including Oct. 13 and 14. That makes 15 days PJM activated Demand Response between 2025 and 2026, compared with eight days between 2015 and 2024.</p>
+
+
+
+<p class="wp-block-paragraph">PJM and its Members, in coordination with state and federal officials, have relied on these emergency procedures and orders from the U.S. Department of Energy to keep the lights on for all or parts of the grid when PJM’s generation reserves were critically low or transmission constraints were high because of work-related outages.</p>
+
+
+
+<p class="wp-block-paragraph">The DOE issued orders that allowed generators to temporarily run outside of their environmental permit limits in times of emergency and directed data centers to run on their backup generation if directed by PJM to lessen electricity demand.</p>
+
+
+
+<p class="wp-block-paragraph">These tools are important, but they alone may not be enough. Equipment outages will continue to be necessary in shoulder seasons to build multiple, critical transmission projects. Much of the new construction involves upgrading or replacing existing lines to reliably bring energy into areas where generators are retiring and to serve the load that is growing throughout our footprint, because Large Loads are not confined to one area.</p>
+
+
+
+<p class="wp-block-paragraph">Those transmission projects are one part of the puzzle, but building new generation is critical. To this end, PJM has:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Reformed and streamlined the engineering process for new generation sources to connect with the grid, and we are now pushing to shorten that process even further</li>
+
+
+
+<li>Opened a process to match new Large Load customers with new supply resources</li>
+
+
+
+<li>Received conditional FERC approval for a “Reliability Backstop Procurement” process to secure more generation to fill the supply shortfall in the short term</li>
+
+
+
+<li>Opened an accelerated process to connect large, state-sponsored projects that can provide reliable supply as soon as possible</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">PJM has also sharpened our forecasting process so that we understand just how much proposed Large Load demand is likely to materialize and when, in addition to the approximately 11,000 MW of data center load already on the system.</p>
+
+
+
+<p class="wp-block-paragraph">While this work is continuing, you may notice the extra activity and emergency procedures happening to balance our system in this new reality, until the necessary generation and transmission can be placed in-service, which is not expected to occur in the immediate future.</p>
+
+
+
+<p class="wp-block-paragraph">As you can see, PJM is taking action on many fronts, in collaboration with our partners in industry and state and federal government, to preserve the reliable electric service that the region has enjoyed for decades.</p>
+
+
+
+<p class="wp-block-paragraph"></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Operations Update: PJM Extends Maximum Generation Alert to Oct. 14, Calls on Demand Response</title>
+		<link>https://insidelines.pjm.com/operations-update-extends-maximum-generation-alert-calls-on-demand-response/</link>
+		
+		<dc:creator><![CDATA[Suzanne Herel]]></dc:creator>
+		<pubDate>Tue, 13 Oct 2026 21:51:25 +0000</pubDate>
+				<category><![CDATA[Operations]]></category>
+		<category><![CDATA[capacity advisory]]></category>
+		<category><![CDATA[maximum generation alert]]></category>
+		<category><![CDATA[system operations]]></category>
+		<guid isPermaLink="false">https://insidelines.pjm.com/?p=210300</guid>
+
+					<description><![CDATA[<img width="139" height="81" src="https://insidelines.pjm.com/wp-content/uploads/2019/07/PJM-Control-room_002-for-release_1024x1024-139x81.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" style="float: left; margin-right: 5px;" link_thumbnail="" decoding="async" loading="lazy" />PJM has extended a Maximum Generation Alert and Load Management Alert, originally issued for Oct. 13, to remain in effect through Oct. 14. This alert does not require any action from customers. PJM continues to proactively implement procedures to reliably serve increased electricity demand caused by unusually warm fall weather amid planned equipment outages required [&#8230;]]]></description>
+										<content:encoded><![CDATA[<img width="139" height="81" src="https://insidelines.pjm.com/wp-content/uploads/2019/07/PJM-Control-room_002-for-release_1024x1024-139x81.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" style="float: left; margin-right: 5px;" link_thumbnail="" decoding="async" loading="lazy" />
+<p class="wp-block-paragraph">PJM has extended a Maximum Generation Alert and Load Management Alert, originally issued for Oct. 13, to remain in effect through Oct. 14.</p>
+
+
+
+<p class="wp-block-paragraph">This alert does not require any action from customers.</p>
+
+
+
+<p class="wp-block-paragraph">PJM continues to proactively implement procedures to reliably serve increased electricity demand caused by unusually warm fall weather amid planned equipment outages required for maintenance and construction.</p>
+
+
+
+<p class="wp-block-paragraph">A PJM Capacity Advisory remains in place for Oct. 13–14, as well as a Maintenance Outage Recall for Oct. 14. An emergency order granted by the U.S. Dept. of Energy allows PJM to call on generators in excess of their operating permits as needed and to direct data centers and other Large Loads onto backup generation if necessary.</p>
+
+
+
+<p class="wp-block-paragraph">A Maximum Generation Alert notifies transmission and generation owners that system conditions will be tight. Those owners then determine if any equipment maintenance or testing may be deferred or canceled. By deferring such actions, units and transmission lines stay operational to serve demand. The alert also notifies neighboring grid operators that exports from PJM may be curtailed, a procedural step that allows them to plan accordingly.</p>
+
+
+
+<p class="wp-block-paragraph">PJM issues a Maximum Generation Alert at the same time as a Load Management Alert, which gives advance notice that such action may be declared, including Pre-Emergency and Emergency Demand Response.</p>
+
+
+
+<p class="wp-block-paragraph">On Oct. 13 and 14, PJM issued a <a href="https://emergencyprocedures.pjm.com/ep/pages/viewposting.jsf?id=105561">Pre-Emergency Load Management Action</a> to allow PJM to reliably serve the afternoon peak and evening net-load peak period when solar resources reduce to zero. Load Management includes Demand Response programs that pay customers in advance to reduce electricity use at PJM’s direction during stressed grid conditions. Additionally, PJM recalled non-firm sales to neighboring systems in coordination with their Balancing Authorities.</p>
+
+
+
+<p class="wp-block-paragraph">Issued up to five days in advance, a Capacity Advisory anticipates PJM actions such as:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Recalling or rescheduling of generation and/or transmission maintenance outages</li>
+
+
+
+<li>Notifying neighboring grids to prepare for decreased imports from PJM</li>
+
+
+
+<li>Alerting PJM Members to update their information about generator availability, fuel supply concerns, environmental constraints and more</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph"><strong>Managing Planned Shoulder Season Outages</strong></p>
+
+
+
+<p class="wp-block-paragraph">PJM is currently in planned maintenance season. Typically, both transmission and generation facilities are taken out of service to perform maintenance and construction from mid-September through early December, so they are fully available to serve loads during peak winter periods.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">PJM has recalled or canceled transmission and generation outages to the extent possible. This includes recall of all active generation maintenance outage tickets in the region PJM serves effective noon on Oct. 14. Generation outages were at approximately 61,000 MW Tuesday, in addition to key transmission outages to allow for both maintenance and major transmission construction projects.</p>
+
+
+
+<p class="wp-block-paragraph">“Unseasonable weather patterns are providing fewer days to perform important maintenance or construction on the generation and transmission equipment serving our footprint,” said Mike Bryson, PJM Sr. Vice President – System Operations. “This is the new reality that grid operators are facing, but PJM is confident that our procedures, along with the DOE orders, gives us additional tools to maintain our reserve margins and allow us to operate reliably.”</p>
+
+
+
+<p class="wp-block-paragraph">The emergency procedures took place as above-normal temperatures are forecast across much of the PJM region through Oct. 14, with hotter conditions continuing South and West.</p>
+
+
+
+<p class="wp-block-paragraph">As of 2 p.m. Tuesday, forecasted electricity demand, or load, for the affected period is:</p>
+
+
+
+<p class="wp-block-paragraph">Tuesday – 112,447 MW</p>
+
+
+
+<p class="wp-block-paragraph">Wednesday – 113,312 MW</p>
+
+
+
+<p class="wp-block-paragraph">These numbers are subject to change and will be updated.</p>
+
+
+
+<p class="wp-block-paragraph">Additional Actions</p>
+
+
+
+<p class="wp-block-paragraph">PJM requested and received a <a href="https://www.energy.gov/ceser/federal-power-act-section-202c-pjm-interconnection-llc-pjm-order-no-202-26-50">combined emergency order</a>, effective from Oct. 13–16, from the U.S. Department of Energy. The 202c order grants PJM operators additional flexibility to respond to changing system conditions by:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Providing temporary relief from environmental permit restrictions for generating units</li>
+
+
+
+<li>Authorizing PJM to direct data centers and other Large Load customers to switch to backup generation resources, if necessary.</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">The DOE has issued similar orders during extreme conditions in 2026. PJM has not had to make use of Large Load backup generation to date.</p>
+
+
+
+<p class="wp-block-paragraph">Additional emergency procedures may be necessary pending system conditions.</p>
+
+
+
+<p class="wp-block-paragraph">Read more about PJM’s&nbsp;<a href="https://pjm.com/-/media/DotCom/about-pjm/newsroom/fact-sheets/pjms-emergency-procedures-and-messages.ashx">emergency procedures and messages</a>&nbsp;(PDF).</p>
+
+
+
+<p class="wp-block-paragraph"></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>PJM Reviews September Hot Weather Operations</title>
+		<link>https://insidelines.pjm.com/pjm-reviews-september-hot-weather-operations/</link>
+		
+		<dc:creator><![CDATA[Jeffrey Shields]]></dc:creator>
+		<pubDate>Mon, 12 Oct 2026 18:24:50 +0000</pubDate>
+				<category><![CDATA[Featured]]></category>
+		<category><![CDATA[Operations]]></category>
+		<category><![CDATA[hot weather]]></category>
+		<category><![CDATA[hot weather operations]]></category>
+		<guid isPermaLink="false">https://insidelines.pjm.com/?p=210293</guid>
+
+					<description><![CDATA[<img width="139" height="81" src="https://insidelines.pjm.com/wp-content/uploads/2022/05/20190930-HOT-WEATHER-ALERT-SUN-NOAA-139x81.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" style="float: left; margin-right: 5px;" link_thumbnail="" decoding="async" loading="lazy" />PJM and the PJM generation and transmission owners coordinated closely during two unseasonably warm September periods to reliably serve demand while managing tightening generation and transmission system constraints, PJM told the Operating Committee Thursday. Challenges common to two hot weather periods, Aug. 31 to Sept. 4 and Sept. 15–18, included the need to balance reliability [&#8230;]]]></description>
+										<content:encoded><![CDATA[<img width="139" height="81" src="https://insidelines.pjm.com/wp-content/uploads/2022/05/20190930-HOT-WEATHER-ALERT-SUN-NOAA-139x81.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" style="float: left; margin-right: 5px;" link_thumbnail="" decoding="async" loading="lazy" />
+<p class="wp-block-paragraph">PJM and the PJM generation and transmission owners coordinated closely during two unseasonably warm September periods to reliably serve demand while managing tightening generation and transmission system constraints, PJM told the Operating Committee Thursday.</p>
+
+
+
+<p class="wp-block-paragraph">Challenges common to two hot weather periods, Aug. 31 to Sept. 4 and Sept. 15–18, included the need to balance reliability against planned transmission and generation limitations, as well as exports to neighboring systems.</p>
+
+
+
+<p class="wp-block-paragraph">Both occasions also required targeted deployment of Demand Response resources. DOE emergency orders were also used to allow resources that were eligible to continue operating beyond normal operating limits.</p>
+
+
+
+<p class="wp-block-paragraph">During both hot weather periods, PJM also closely coordinated operations and utilized emergency procedures to cover “net load” in the hours immediately after sunset, when the output of solar resources falls faster than electricity use. During these times, generation was also bottled in certain areas because of transmission limitations, particularly resources to serve congested zones in Washington, D.C., Maryland and Virginia.</p>
+
+
+
+<h2 class="wp-block-heading">Shoulder Season Start</h2>
+
+
+
+<p class="wp-block-paragraph">Fall shoulder season commences in mid-September when, typically, mild temperatures allow for required, scheduled maintenance and upgrades by generation and transmission owners. As new generation additions continue to be outpaced by rising overall demand, system conditions are tightening.</p>
+
+
+
+<p class="wp-block-paragraph">As a result, PJM operators must coordinate closely with generation and transmission owners and precisely manage those necessary equipment outages during shoulder season in combination with targeted emergency procedures that allow the vital maintenance and construction work to proceed.</p>
+
+
+
+<p class="wp-block-paragraph">&nbsp;“Ultimately, we have to take these transmission and generation outages, and we can’t simply defer them indefinitely,” Paul Dajewski, PJM Sr. Manager – Dispatch, said Thursday. Generation and transmission outages must occur during the shoulder season to ensure equipment can reliably operate during winter and summer months when electricity demand is high.</p>
+
+
+
+<h2 class="wp-block-heading">Early September Heat</h2>
+
+
+
+<p class="wp-block-paragraph">The first hot-spell activity commenced Aug. 31 with a PJM-wide Hot Weather Alert extended through Sept. 4. Peak temperatures in the low to mid 90s affected PJM load areas, even as PJM exports served even hotter conditions in neighboring grids to the south and west.</p>
+
+
+
+<p class="wp-block-paragraph">Effective Sept. 2–8, PJM sought and received a 202c Emergency Order from DOE to allow for the operation of generation subject to operating restrictions. The same order authorized PJM to direct Large Loads to run on emergency backup generation if necessary.</p>
+
+
+
+<p class="wp-block-paragraph">As the event unfolded – just prior to the beginning of the traditional fall maintenance season – generation and transmission outages for this period were at a high of 15,502 MW, or 8.47%, of system capacity on Aug. 31. Peak energy usage during this hot weather event was about 152,800 MW at 5:30 p.m. on Sept. 1.</p>
+
+
+
+<p class="wp-block-paragraph">In addition to the high demand related to hot temperatures,the need for Emergency Procedures was driven by energy exports to neighboring grids (which were also experiencing extreme heat) and transmission and generation constraints.</p>
+
+
+
+<p class="wp-block-paragraph">To handle system stress on Sept. 1, Demand Response resources were called on to reduce electricity demand through the net load peak. This helped to manage transmission constraints that were bottling generation in certain areas.</p>
+
+
+
+<p class="wp-block-paragraph">Demand Response customers are paid in advance to reduce their electricity use during times of system stress.</p>
+
+
+
+<h2 class="wp-block-heading">Late September Hot Weather</h2>
+
+
+
+<p class="wp-block-paragraph">Unlike the prior warm weather in September, the heat event Sept. 15–18 arrived as routine transmission and generation maintenance outages were well underway in the shoulder season.</p>
+
+
+
+<p class="wp-block-paragraph">PJM recorded a system peak on Sept. 17 at 4:50 p.m. just shy of 127,000 MW. “There was a lot of customer demand to serve given system conditions,” Dajewski said. He noted system outages of 20.7% of system capacity, or 37,916 MW, on Sept. 18.</p>
+
+
+
+<p class="wp-block-paragraph">For this period, PJM called on Demand Response resources earlier in the operating day. Again, PJM exports helped neighboring grid operators in the South experiencing warmer conditions.</p>
+
+
+
+<p class="wp-block-paragraph"></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>PJM Issues Maximum Generation Alert for Oct. 13, Extends Capacity Advisory to Oct. 14</title>
+		<link>https://insidelines.pjm.com/pjm-extends-capacity-advisory-to-oct-14/</link>
+		
+		<dc:creator><![CDATA[Jeffrey Shields]]></dc:creator>
+		<pubDate>Mon, 12 Oct 2026 15:30:04 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Operations]]></category>
+		<category><![CDATA[capacity advisory]]></category>
+		<guid isPermaLink="false">https://insidelines.pjm.com/?p=210290</guid>
+
+					<description><![CDATA[<img width="139" height="81" src="https://insidelines.pjm.com/wp-content/uploads/2019/07/controlroom5_1024x1024-139x81.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" style="float: left; margin-right: 5px;" link_thumbnail="" decoding="async" loading="lazy" />PJM has issued a Maximum Generation Alert and Load Management Alert for Oct. 13 ahead of expected tight system conditions caused by unusually warm fall weather and planned equipment outages required for maintenance and construction. This alert does not require any action from customers. PJM also has a Capacity Advisory in place for Oct. 12–14 [&#8230;]]]></description>
+										<content:encoded><![CDATA[<img width="139" height="81" src="https://insidelines.pjm.com/wp-content/uploads/2019/07/controlroom5_1024x1024-139x81.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" style="float: left; margin-right: 5px;" link_thumbnail="" decoding="async" loading="lazy" />
+<p class="wp-block-paragraph">PJM has issued a Maximum Generation Alert and Load Management Alert for Oct. 13 ahead of expected tight system conditions caused by unusually warm fall weather and planned equipment outages required for maintenance and construction.</p>
+
+
+
+<p class="wp-block-paragraph">This alert does not require any action from customers.</p>
+
+
+
+<p class="wp-block-paragraph">PJM also has a Capacity Advisory in place for Oct. 12–14 and issued a Maintenance Outage Recall for Oct. 14, in addition to an emergency order received by the DOE.</p>
+
+
+
+<p class="wp-block-paragraph">A Maximum Generation Alert notifies transmission and generation owners, who then determine if any equipment maintenance or testing may be deferred or canceled. By deferring such actions, units and transmission lines stay operational to serve demand. The alert also notifies neighboring grid operators that exports from PJM may be curtailed, a procedural step that allows them to plan accordingly.</p>
+
+
+
+<p class="wp-block-paragraph">PJM issues a Maximum Generation Alert at the same time as a Load Management Alert, which gives advance notice that such action may be declared, including Pre-Emergency and Emergency Demand Response. Demand Response programs pay customers in advance who sign up to reduce electricity use during stressed grid conditions.</p>
+
+
+
+<h3 class="wp-block-heading">Managing Planned Shoulder Season Outages</h3>
+
+
+
+<p class="wp-block-paragraph">PJM is currently in outage season. Typically, both transmission and generation facilities perform maintenance and construction from mid-September through early December, so they are fully available to serve loads during peak winter periods. &nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">PJM has recalled or canceled transmission and generation outages to the extent possible. This includes an Oct. 11 recall of all active generation maintenance outage tickets in the region PJM serves effective noon on Oct. 14. Generation outages are expected to be approximately 62,000 MW through the affected period, in addition to key transmission outages both for maintenance and to allow for major transmission construction projects.</p>
+
+
+
+<p class="wp-block-paragraph">Issued up to five days in advance, a Capacity Advisory anticipates PJM actions such as:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Recalling or rescheduling of generation and/or transmission maintenance outages</li>
+
+
+
+<li>Notifying neighboring grids to prepare for decreased imports from PJM</li>
+
+
+
+<li>Alerting PJM Members to update their information about generator availability, fuel supply concerns, environmental constraints and more</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">Emergency procedures took place as above-normal temperatures are forecast across much of the PJM region.</p>
+
+
+
+<p class="wp-block-paragraph">As of 4 p.m. Monday, forecasted electricity demand, or load, for the affected period is:</p>
+
+
+
+<p class="wp-block-paragraph">Monday – 103,125 MW</p>
+
+
+
+<p class="wp-block-paragraph">Tuesday – 112,447 MW</p>
+
+
+
+<p class="wp-block-paragraph">Wednesday – 112,282 MW</p>
+
+
+
+<p class="wp-block-paragraph">These numbers are subject to change and will be updated.</p>
+
+
+
+<h2 class="wp-block-heading">Additional Actions</h2>
+
+
+
+<p class="wp-block-paragraph">PJM also requested and received a <a href="https://www.energy.gov/ceser/federal-power-act-section-202c-pjm-interconnection-llc-pjm-order-no-202-26-50">combined emergency order</a>, effective from Oct. 13–16, from the U.S. Department of Energy. The 202c order grants PJM operators additional flexibility to respond to changing system conditions by:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Providing temporary relief from environmental permit restrictions for generating units</li>
+
+
+
+<li>Authorizing PJM to direct data centers and other Large Load customers to switch to backup generation resources, if necessary</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">Additional emergency procedures may be necessary pending system conditions.</p>
+
+
+
+<p class="wp-block-paragraph">A dedicated team of operators uses sophisticated technology to balance supply and demand and direct the power grid 24/7 from PJM’s control rooms. They prepare multiple potential scenarios that could be impacted by weather, emergency conditions or equipment failure. They adjust resource output with changes in demand and ensure that no transmission lines or facilities are overloaded. The team also watches for unusual conditions and reacts to them to protect the electricity supply.</p>
+
+
+
+<p class="wp-block-paragraph">Read more about PJM’s&nbsp;<a href="https://pjm.com/-/media/DotCom/about-pjm/newsroom/fact-sheets/pjms-emergency-procedures-and-messages.ashx">emergency procedures and messages</a>&nbsp;(PDF).<a href="https://pjm.com/-/media/DotCom/about-pjm/newsroom/fact-sheets/pjms-emergency-procedures-and-messages.ashx">es</a> (PDF).</p>
+
+
+
+<p class="wp-block-paragraph">###</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><a id="_msocom_1"></a></p>
+
+
+
+<p class="wp-block-paragraph"></p>
+
+
+
+<p class="wp-block-paragraph"></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>PJM Capacity Advisory Issued for Oct. 12-13</title>
+		<link>https://insidelines.pjm.com/pjm-capacity-advisory-issued-for-oct-12-13/</link>
+		
+		<dc:creator><![CDATA[Suzanne Herel]]></dc:creator>
+		<pubDate>Fri, 09 Oct 2026 16:53:47 +0000</pubDate>
+				<category><![CDATA[Operations]]></category>
+		<category><![CDATA[capacity advisory]]></category>
+		<guid isPermaLink="false">https://insidelines.pjm.com/?p=210286</guid>
+
+					<description><![CDATA[<img width="139" height="81" src="https://insidelines.pjm.com/wp-content/uploads/2019/07/controlroom4_1024x1024-139x81.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" style="float: left; margin-right: 5px;" link_thumbnail="" decoding="async" loading="lazy" />PJM has issued a Capacity Advisory for Monday, Oct. 12, and Tuesday, Oct. 13, ahead of expected tight system conditions caused by relatively warm fall weather and equipment outages needed for maintenance and construction. It is the first use of the Capacity Advisory, a new Emergency Procedure endorsed by PJM Members in June. It was [&#8230;]]]></description>
+										<content:encoded><![CDATA[<img width="139" height="81" src="https://insidelines.pjm.com/wp-content/uploads/2019/07/controlroom4_1024x1024-139x81.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" style="float: left; margin-right: 5px;" link_thumbnail="" decoding="async" loading="lazy" />
+<p class="wp-block-paragraph">PJM has issued a Capacity Advisory for Monday, Oct. 12, and Tuesday, Oct. 13, ahead of expected tight system conditions caused by relatively warm fall weather and equipment outages needed for maintenance and construction.</p>
+
+
+
+<p class="wp-block-paragraph">It is the first use of the <a href="https://insidelines.pjm.com/pjm-adds-emergency-procedures-to-maintain-reliability/">Capacity Advisory</a>, a new Emergency Procedure endorsed by PJM Members in June. It was created specifically for circumstances when projected grid operating conditions indicate an approaching capacity shortfall.</p>
+
+
+
+<p class="wp-block-paragraph">The PJM load forecast is estimated at about 102,000 MW of peak demand Monday and about 104,000 MW Tuesday against previously scheduled generation outages of about 70,000 MW as well as planned transmission outages.</p>
+
+
+
+<p class="wp-block-paragraph">That volume of system outages planned for maintenance or construction is typical for the current peak shoulder season, Paul Dajewski, Sr. Manager – Dispatch, told stakeholders at the PJM Operating Committee Thursday.</p>
+
+
+
+<p class="wp-block-paragraph">Each year during fall and spring, generator and transmission owners schedule required maintenance and upgrades during lighter loads. Most of these scheduled outages are prohibited in summer, when demand on the system is high. The peak period ended in mid-September.</p>
+
+
+
+<p class="wp-block-paragraph">PJM capacity emergencies have taken place historically in periods of systemwide Hot Weather Alerts or Cold Weather Alerts. PJM is now experiencing forecasted or actual capacity issues during milder weather and expects these instances to increase as demand growth outpaces the addition of new power resources. As the number of intermittent resources on the grid increases, the tightest time of the day will shift later and require more storage or dispatchable generation.</p>
+
+
+
+<p class="wp-block-paragraph">The Capacity Advisory provides notice to PJM Members of times when available generation is at or close to the minimum demand requirement, which is the amount of electricity supply required to serve the peak demand for each zone in PJM, the required Day-Ahead Scheduling Reserve, and the scheduled net interchange. This provides advancecommunication about system conditions and notifies generation and transmission owners that PJM may have to recall or reschedule outages in order to maintain reliability for that period.</p>
+
+
+
+<p class="wp-block-paragraph">Like a Cold Weather Alert or Hot Weather Alert and issued up to five days in advance, a Capacity Advisory anticipates PJM actions such as:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Recalling or rescheduling of generation and/or transmission maintenance outages</li>
+
+
+
+<li>Notifying neighboring grids to prepare for decreased imports from PJM</li>
+
+
+
+<li>Alerting PJM Members to update their information about generator availability, fuel supply concerns, environmental constraints and more</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph"></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>PJM Accepts First Expedited Interconnection Track Projects</title>
+		<link>https://insidelines.pjm.com/pjm-accepts-first-expedited-interconnection-track-projects/</link>
+		
+		<dc:creator><![CDATA[Jeffrey Shields]]></dc:creator>
+		<pubDate>Thu, 08 Oct 2026 19:15:43 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Planning]]></category>
+		<category><![CDATA[generation interconnection]]></category>
+		<category><![CDATA[planning]]></category>
+		<category><![CDATA[Reliability]]></category>
+		<category><![CDATA[resource adequacy]]></category>
+		<guid isPermaLink="false">https://insidelines.pjm.com/?p=210281</guid>
+
+					<description><![CDATA[<img width="139" height="81" src="https://insidelines.pjm.com/wp-content/uploads/2019/06/New-Services-Inside-Lines-Banner-139x81.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" style="float: left; margin-right: 5px;" link_thumbnail="" decoding="async" loading="lazy" srcset="https://insidelines.pjm.com/wp-content/uploads/2019/06/New-Services-Inside-Lines-Banner-139x81.jpg 139w, https://insidelines.pjm.com/wp-content/uploads/2019/06/New-Services-Inside-Lines-Banner-370x215.jpg 370w" sizes="auto, (max-width: 139px) 100vw, 139px" />PJM has accepted the first three projects in a new, temporary process designed to get large generation resources online quickly to address the urgent growth in demand for electricity. The projects are two battery storage projects and one natural gas generator upgrade with more than 2,100 MW in combined nameplate capacity. Nameplate capacity refers to [&#8230;]]]></description>
+										<content:encoded><![CDATA[<img width="139" height="81" src="https://insidelines.pjm.com/wp-content/uploads/2019/06/New-Services-Inside-Lines-Banner-139x81.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" style="float: left; margin-right: 5px;" link_thumbnail="" decoding="async" loading="lazy" srcset="https://insidelines.pjm.com/wp-content/uploads/2019/06/New-Services-Inside-Lines-Banner-139x81.jpg 139w, https://insidelines.pjm.com/wp-content/uploads/2019/06/New-Services-Inside-Lines-Banner-370x215.jpg 370w" sizes="auto, (max-width: 139px) 100vw, 139px" />
+<p class="wp-block-paragraph">PJM has accepted the first three projects in a new, temporary process designed to get large generation resources online quickly to address the urgent growth in demand for electricity.</p>
+
+
+
+<p class="wp-block-paragraph">The projects are two battery storage projects and one natural gas generator upgrade with more than 2,100 MW in combined nameplate capacity. Nameplate capacity refers to a generator’s capability at full output.</p>
+
+
+
+<p class="wp-block-paragraph">The application window for the <a href="https://insidelines.pjm.com/pjm-begins-accepting-expedited-interconnection-track-requests/">Expedited Interconnection Track</a> (EIT) opened on July 31 for projects that are backed by a primary siting authority and can begin operation within three years.</p>
+
+
+
+<p class="wp-block-paragraph">On Wednesday, PJM published the accepted proposals on its new <a href="https://www.pjm.com/planning/service-requests/non-cycle-study-request/expedited-interconnection-track">EIT page</a>. The projects, slated to come online in mid-2029, are:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Two battery storage projects from ENGIE IR Holdings LLC with a total of 1,660 MW of nameplate capacity<br><ul><li>Wayne 345 kV is a storage project to be sited in Crawford, Pennsylvania, in the PENELEC zone, with 860 MW of nameplate capacity.</li></ul>
+<ul class="wp-block-list">
+<li>Galion 345 kV is a storage project in Morrow, Ohio, in the ATSI zone, with 800 MW of nameplate capacity.<br></li>
+</ul>
+</li>
+
+
+
+<li>Hunterstown 500 kV is an upgrade to an existing natural gas facility in Adams, Pennsylvania, in the Met-Ed zone, adding 455 MW of nameplate capacity.</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">The projects in the PJM database are referenced by their planned point of interconnection onto the PJM transmission system.</p>
+
+
+
+<p class="wp-block-paragraph">In addition to getting generation online quickly, the EIT enables individual states to accelerate select projects based on their resource adequacy needs.</p>
+
+
+
+<p class="wp-block-paragraph">Through the EIT, PJM will approve up to 10 interconnection requests per calendar year in 2026 and 2027 for large new or uprated capacity resources. To qualify, these resources must have, among other requirements, a commitment from a relevant state authority to help expedite site permitting – one of the hurdles many projects face after receiving PJM’s permission to connect with the grid.</p>
+
+
+
+<p class="wp-block-paragraph">A project must also offer at least 250 MW of unforced capacity, the amount credited for reliability purposes.</p>
+
+
+
+<p class="wp-block-paragraph">PJM expects the projects to execute a Generation Interconnection Agreement within 10 months of submission. Proposals will be accepted on a rolling basis until the limit is reached for that calendar year. The EIT process will sunset at the end of 2027.</p>
+
+
+
+<p class="wp-block-paragraph">The EIT is one element of a multifaceted approach to address supply/demand challenges in the PJM region resulting from significant growth in the demand for electricity, particularly from data centers and other so-called “Large Load” customers.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>PJM Introduces Default Dashboard to Data Viewer Tool</title>
+		<link>https://insidelines.pjm.com/pjm-introduces-default-dashboard-to-data-viewer-tool/</link>
+		
+		<dc:creator><![CDATA[Jason McGovern]]></dc:creator>
+		<pubDate>Fri, 02 Oct 2026 13:55:27 +0000</pubDate>
+				<category><![CDATA[Featured]]></category>
+		<category><![CDATA[Operations]]></category>
+		<category><![CDATA[PJM tools]]></category>
+		<category><![CDATA[PJM website]]></category>
+		<guid isPermaLink="false">https://insidelines.pjm.com/?p=210273</guid>
+
+					<description><![CDATA[<img width="139" height="81" src="https://insidelines.pjm.com/wp-content/uploads/2023/05/Data-Viewer_Inside-Lines-139x81.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" style="float: left; margin-right: 5px;" link_thumbnail="" decoding="async" loading="lazy" />PJM has updated its Data Viewer tool to highlight commonly accessed information through a new default dashboard view. Data Viewer is PJM’s tool that allows users to view public operational and market data graphically. Previously, the My Data Viewer dashboard was only available to users signed in to their PJM.com accounts. However, in order to [&#8230;]]]></description>
+										<content:encoded><![CDATA[<img width="139" height="81" src="https://insidelines.pjm.com/wp-content/uploads/2023/05/Data-Viewer_Inside-Lines-139x81.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" style="float: left; margin-right: 5px;" link_thumbnail="" decoding="async" loading="lazy" />
+<p class="wp-block-paragraph">PJM has updated its Data Viewer tool to highlight commonly accessed information through a new default dashboard view.</p>
+
+
+
+<p class="wp-block-paragraph">Data Viewer is PJM’s tool that allows users to view public operational and market data graphically. Previously, the My Data Viewer dashboard was only available to users signed in to their PJM.com accounts.</p>
+
+
+
+<p class="wp-block-paragraph">However, in order to customize their dashboard, users must continue to be logged in to their PJM.com account. Once logged in, they can customize their My Data Viewer panels via Settings to view the information that is important to them, including the size and position of each panel.</p>
+
+
+
+<p class="wp-block-paragraph">Access Data Viewer through the <a href="https://www.pjm.com/markets-and-operations/etools/dataviewer">PJM website</a> or directly at <a href="https://dataviewer.pjm.com/">dataviewer.pjm.com</a>. A <a href="https://www.pjm.com/-/media/DotCom/etools/data-viewer/data-viewer-user-guide-new-version.pdf">user guide</a> (PDF) is also available.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>FERC Accepts PJM Reliability Backstop Proposal</title>
+		<link>https://insidelines.pjm.com/ferc-accepts-pjm-reliability-backstop-proposal/</link>
+		
+		<dc:creator><![CDATA[Jeffrey Shields]]></dc:creator>
+		<pubDate>Wed, 30 Sep 2026 21:44:15 +0000</pubDate>
+				<category><![CDATA[Featured]]></category>
+		<category><![CDATA[Markets]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Planning]]></category>
+		<category><![CDATA[Market Design]]></category>
+		<category><![CDATA[reliability backstop]]></category>
+		<category><![CDATA[resource adequacy]]></category>
+		<guid isPermaLink="false">https://insidelines.pjm.com/?p=210263</guid>
+
+					<description><![CDATA[<img width="139" height="81" src="https://insidelines.pjm.com/wp-content/uploads/2019/07/FERC-Office-Building-1024x1024-139x81.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" style="float: left; margin-right: 5px;" link_thumbnail="" decoding="async" loading="lazy" />The Federal Energy Regulatory Commission on Sept. 29 issued an Order on PJM’s proposed Reliability Backstop Procurement (RBP) to secure additional power supply to address short-term reliability concerns. The Order (PDF) accepts PJM’s proposal but suspends it for five months with an effective date of Feb. 28, 2027, subject to refund and outcome of additional [&#8230;]]]></description>
+										<content:encoded><![CDATA[<img width="139" height="81" src="https://insidelines.pjm.com/wp-content/uploads/2019/07/FERC-Office-Building-1024x1024-139x81.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" style="float: left; margin-right: 5px;" link_thumbnail="" decoding="async" loading="lazy" />
+<p class="wp-block-paragraph">The Federal Energy Regulatory Commission on Sept. 29 issued an Order on PJM’s proposed Reliability Backstop Procurement (RBP) to secure additional power supply to address short-term reliability concerns.</p>
+
+
+
+<p class="wp-block-paragraph">The <a href="https://www.pjm.com/pjmfiles/directory/etariff/FercOrders/9154/20260929-er26-3380-000.pdf" data-type="link" data-id="https://www.pjm.com/pjmfiles/directory/etariff/FercOrders/9154/20260929-er26-3380-000.pdf">Order</a> (PDF) accepts PJM’s proposal but suspends it for five months with an effective date of Feb. 28, 2027, subject to refund and outcome of additional proceedings.</p>
+
+
+
+<p class="wp-block-paragraph">PJM will not proceed with the Reliability Backstop Procurement on Sept. 30 as originally planned. All timeline milestones previously communicated for the RBP will be reviewed and communicated to stakeholders at a later date.  </p>
+
+
+
+<p class="wp-block-paragraph">PJM will provide a brief administrative update at the upcoming Market Implementation Committee meeting scheduled for Oct. 7.</p>
+
+
+
+<p class="wp-block-paragraph">PJM issued the following statement following FERC’s order:</p>
+
+
+
+<p class="wp-block-paragraph"><em>“PJM welcomes FERC’s acceptance of our Reliability Backstop Procurement proposal and shares the Commission’s recognition of the urgent need to address the capacity shortfall facing the PJM region. While FERC identified three discrete issues requiring further consideration, the Commission also provided a clear path to resolving those issues expeditiously and moving the procurement forward. </em></p>
+
+
+
+<p class="wp-block-paragraph"><em>PJM is reviewing the order and intends to work quickly to address the Commission’s remaining concerns. We remain focused on advancing solutions that maintain reliability, appropriately allocate costs to the customers driving those costs, and protect consumers as the region navigates significant demand growth. As a result, the RBP process will not begin on Sept. 30 based on the requirements of FERC’s order. Actual timing is to be determined.”</em></p>
+
+
+
+<p class="wp-block-paragraph">PJM proposed the <a href="https://www.pjm.com/-/media/DotCom/about-pjm/newsroom/fact-sheets/reliability-backstop-procurement-fact-sheet.pdf">Reliability Backstop Procurement</a> to secure new eligible capacity resources. The RBP is a one-time transitional measure to safeguard resource adequacy, support Interim Resource Adequacy Service (IRAS), and allow time for a broader review of market fundamentals and investment incentives.</p>
+
+
+
+<p class="wp-block-paragraph">The process is proposed to work in tandem with ongoing bilateral contract matchmaking, already underway, to facilitate voluntary arrangements between new supply resources and new Large Load customers. Only new supply resources are eligible to participate in both the RBP and bilateral matchmaking processes. All new resources must commence commercial operation no later than June 1, 2032.</p>
+
+
+
+<p class="wp-block-paragraph">To avoid double procurement, new confirmed bilateral contracts of new supply are eligible to offset the initial procurement target.</p>
+
+
+
+<p class="wp-block-paragraph"></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

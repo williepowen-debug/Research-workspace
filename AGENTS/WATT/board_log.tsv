@@ -66,3 +66,7 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-20T22:39:45-04:00	2026-10-15_from-VULCAN_ports-pike-reconciled-and-IRAS-integrated	acted	INBOX	KB162acknowledgment;4MWpopulationsnevernetted;hedge/IRASintegrationconfirmedatVULCANartifact.
 2026-10-20T22:39:45-04:00	2026-10-20_from-VULCAN_ferc-calendar-date-roles	noted	INBOX	KB162calendaracknowledgment;Nov16responses/Dec16answerswith205proviso;noask.
 2026-10-20T22:39:45-04:00	2026-10-20_from-VULCAN_loughton-amazon-and-power-date-correction	acted	INBOX	KB162existinggridlaneassessment;firmrights/withdrawal/substitutionnotestablished;October14backupnegativeclosedseparatelyKB158.
+2026-10-22T08:31:00-04:00	2026-10-21_from-AEOLUS_L650-C3-reconcile-PJM-7-2-peak	acted	INBOX	KB-WATT-175 L650 graded with DM2 metered leg; one-figure wording adopted; 9/17 EEA2 C3 reconciliation agrees with KB-160; reply packet to AEOLUS.
+2026-10-22T08:31:00-04:00	SIG-W-20261021-005	info-only	INBOX_WALTER	DRAM forecast is VULCAN's leg; no power channel; KB-WATT-176.
+2026-10-22T08:31:00-04:00	SIG-W-20261021-015	noted	INBOX_WALTER	Meta capex guide low end +5B is not the P3 trigger; P3 stays 4; KB-WATT-176.
+2026-10-22T08:31:00-04:00	SIG-W-20261021-023	noted	INBOX_WALTER	NextDC power delay outside PJM, reported; CRWV hedge share still UNKNOWN; no score; KB-WATT-176.

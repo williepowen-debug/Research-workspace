@@ -1,0 +1,22 @@
+# WATT — SCRATCH (next-session pickup)
+
+> **⚠️ STANDING OPERATIONAL CONSTRAINTS — re-homed here 2026-09-02 because they lived only in rotated session notes and a hot/cold split nearly retired them. These are constraints, not history.**
+> **PJM DM2 rate limit:** non-member tier = **6 calls/min**. `power_watch.py` spends **1 per run** (boot spends 2 — LMP + on-peak window). **Never loop the instrument.** *2026-09-06 spend: 10 over ~30 min — 3 boot runs × 2, plus 4 deliberate pulls (9/3–9/5 tape, clean + stress spark windows, the 8/10–8/23 retention probe). Spaced, never bursted.*
+> **DM2 verified hourly (`rt_hrl_lmps`) is BATCH-published with a VARIABLE ~1–4 day lag** — weekend days queue and land together. ***Measure the frontier at use time; never assume a fixed lag in either direction*** (L-34). The 5-min feed fails **LOUD** (0 rows); **`solar_gen`/`wind_gen` fail SILENT** (a full 24 rows of `0.0`) — **never infer absence semantics from a sibling feed** (L-37).
+> **An unfiltered `rt_hrl_lmps` query + a row cap = silent truncation, not an error.** Always pass `pnode_id`.
+> **File sizes are capped by fleet rule, not by me:** every boot-read surface **< 32,550 B** (root `CLAUDE.md` §Data Hygiene). This file and `STATUS.md` are both boot-read. **Check before writing, not after.**
+
+
+---
+
+## CURRENT PICKUP — October 20, 2026, 23:09 EDT; key-file reconciliation
+
+**Current state:** P1/P2/P3/P4 = 5/5/4/2, composite 16/20 unchanged. Last PJM observation remains October 20 through 22:45 EPT: n273, latest $30.82/MWh, max $315.14/MWh, zero observed RED; 21:15 missing, day unfinished. P1's complete October 15–21 window is graded first boot on/after October 22; no early de-escalation or automatic monitor.
+
+**Completed:** News evidence KB165–172 is now reflected in headline channel summaries, THESIS and TRADE as well as the detailed news section. IMM's 4,016.9 MW delayed/cancelled projects weaken forward realization confidence; the scenario is not PJM's adopted forecast. July 31 funding discriminator and P3=4 remain unchanged. Nuclear uprates are planned from 2028–32; no delivered capacity inferred. Historical queue ratios are quarantined: current active total/remainder UNKNOWN; 168.6 GW is Cycle 1 only. Next 2029/30 BRA is December 2026, exact day unverified. VX/FLOW and open predictions reviewed; no new facts, grades or rules from this records-only pass.
+
+**Next owner checks:** October 22 complete-window tape/board/DOE grade and public RBP consultation material at the existing touch. October 23 L650 metered/DR, L546 float and AEOLUS interchange; weekly coverage by October 27; wake-list October 31. IRAS compliance ~November 8 unadjusted (verify legal calendar); EL26-67 November 16 responses / December 16 answers with qualifying section 205 proviso; WATT-09 outer November 30 unchanged. B1 closed/unscored, November 10–11 Beijing boundary. NERC December 31; winter gate HELD [KB076]. October 21 conference is an agenda, not a ruling; October 29 RBP refile / October 21 motion-answer dates remain secondary leads.
+
+**Retained limits:** Hedge shares, private firm grid rights, active queue total, Appalachian gas basis and settlement roll unknown. Amazon rebuttal retained. September 17 EEA2/C1 is historical: primary posting plus prior KB121 price overlap, no raw replay. October 15 PJM statement closes the October 13–14 backup-use unknown for that authority, with no later negative. KILL_MEMO's obsolete historical premise is flagged; its thresholds/procedure remain unchanged. Other open work stays in STATUS, including the 6.5 GW gap, ERCOT paired strips and August spark cause.
+
+**Persistence / handoff:** News source commit fba78f82d, brief/packets 992b8831e and receipt 107bda0ce were confirmed published before this reconciliation. Current checks/commits/publication are recorded in `reports/2026-10-20_NEWS_SWEEP.md`; final brief must pin the new exact STATUS commit. Previous pickup and key prose preserved byte-for-byte in `archive/2026-10-20_key-file-reconciliation/` with SHA256 manifest. Earlier inbox work remains in `reports/2026-10-20_WATT_SWEEP.md`. No new recipient evidence; publication does not prove notification or consumption. Native fleet presence/notification/consumption UNKNOWN. Codex/OpenAI, exact runtime model UNKNOWN; same Will-launched thread 01a15b41-3b2c-71f1-b0b1-7fcaba915bd9. Foreign dirty work excluded from commits; no pull. No trade, threshold change, spend, new monitoring commitment or Will decision.
