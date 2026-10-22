@@ -1,0 +1,181 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/WALTER/   (processed/ + archive/ excluded everywhere — historical by design)
+
+  ── value · superseded October22 → current November1
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (80)
+        AGENTS/LIQUID/USER.md:19  [October22]
+           `workbook/CATALYSTS.tsv` and its human twin `CALENDAR.md` carry events. `STATUS.md` §3 owns the owed list. LIQ-07 resolved October16. Next e
+        AGENTS/LIQUID/NEXUS_BRIEF.md:23  [October22]
+           HYG/JNK both created shares Friday (+3.4M/+0.2M) despite credit losses; earlier redemption windows remain dated. Share changes need not be s
+        AGENTS/LIQUID/NEXUS_BRIEF.md:29  [October22]
+           October21 $13B20Y and October22 $26B5Y TIPS auctions (13:00ET); Car-Mart continuation and expected dealer publicationOctober22; 069/076 revi
+        AGENTS/LIQUID/IDENTITY.md:24  [October22]
+           5. Next existing tests: October21 20Y; October22 TIPS, Car-Mart continuation and expected dealer publication; October30 reviews and October3
+        AGENTS/LIQUID/CALENDAR.md:62  [October22]
+           | 2026-10-22 | Car-Mart temporary relief throughOctober22 — continuation read | CONFIRMED: exact source/basis in machine row |
+        AGENTS/WATT/STATUS.md:23  [October22]
+           **Policy and clocks:** September29RBPorder accepts for filing but suspends to **February28,2027**, subject torefund/furtherproceedings. No S
+        AGENTS/WATT/STATUS.md:82  [October22]
+           The forward power-scarcity case now carries material counterevidence: the Market Monitor identifies 4.0 GW of delayed or cancelled data-cent
+        AGENTS/BOND/SCRATCH.md:27  [October22]
+           2. October22:5YTIPS91282CRR4(OLDindirect<51.43 ANDdealer>25.42;BTC<2.10;noI'),PMMS,nextFR2004as-of10/14afterpublication. Freeze2Y/5Y/7Ybarsa
+        AGENTS/BOND/SCRATCH.md:69  [October22]
+           Next entry: October21 20Y-R actual grade using existing frozen-bars JSON; October22 TIPS/FR2004/PMMS and month-end nominal-bar freeze. No ou
+        AGENTS/BOND/TRADE.md:89  [October22]
+           - October22 5Y TIPS (no I'), PMMS and expected next FR2004 publication; freeze month-end nominal bars at announcement.
+        AGENTS/DAEDALUS/STATUS.md:26  [October22]
+           | **L470 READS strict flip** | October15 cutoff upper bound10 signed desks (9 Active/Tier-2), current pinned count11 (10 eligible), below30 
+        AGENTS/REGINALD/NEXUS_BRIEF.md:38  [October22]
+           | Existing Fed releases / REGINALD | Next weekly persistence/reversal; existing descriptive-watch review | H.4.1 October22 / H.8 October23 |
+        AGENTS/TERRY/POSTMORTEMS.md:500  [October22]
+           Separately bought October22 QQQ715P1/net432.66 and added USOOctober30 165C1/net315.66: two open purchases, not closed P/L. ChangedQQQstrike 
+        AGENTS/LIQUID/thesis/TIMELINE.md:11  [October22]
+           | October21–22 | $13B20Y October21; $26B5Y TIPS October22, both13:00ET; Car-Mart relief throughOctober22; expected dealer publicationOctober
+        AGENTS/LIQUID/reports/2026-10-19_Will-closeout.md:15  [October22]
+           **Awaiting Will / dated clocks / unrouted needs:** no new Will decision or unregistered proposal. Existing Volta WQ441 A/B remains unresolve
+        AGENTS/LIQUID/research/2026-10-19_equity-financing/boot-quick.txt:22  [October22]
+           🟠  2026-10-22 Thu    3d cal /  3d trd  Car-Mart temporary relief throughOctober22 — conti  ⏰ IMMINENT
+        AGENTS/LIQUID/research/2026-10-19_sweep/REPORT.md:43  [October22]
+           - **Next actual demand tests, TreasuryDirect PRIMARY:**20Y reopeningCUSIP912810UX4,**$13B October21 13:00ET**,settlesOctober23;5Y TIPS CUSIP
+        AGENTS/HENRY/research/2026-10-19_catchup/DATA.md:40  [October22]
+           |LUV|WednesdayOctober21 AFTER MARKET CLOSE; exact minute not stated|ThursdayOctober22 10:00ET|https://investors.southwest.com/news-events/pr
+        AGENTS/HENRY/research/2026-10-19_catchup/DATA.md:41  [October22]
+           |AAL|October22 report expected with quarterly results; exact release minute NOT stated by call announcement|ThursdayOctober22 08:30ET =07:30
+        AGENTS/HENRY/research/2026-10-19_catchup/DATA.md:43  [October22]
+           Search summary mislabeled AAL timezone; full issuer body controls. HEN-46 resolution date becomesOctober22 (both result events), replacingOc
+        AGENTS/OTTO/research/2026-10-19_closeout-finish/RECEIPT.md:37  [October22]
+           **Separate scheduled work, not closeout omissions:** actual Ally/VRM/D&O October20; standing October21 checks; BROCK CRMT October22; Carvana
+        AGENTS/WATT/reports/2026-10-20_WATT_SWEEP.md:31  [October22]
+           TotalRows=items=1706; no row-cap truncation. Missing intervals isolated with observed non-RED neighbors; observed maximum is not a maximum c
+        AGENTS/WATT/reports/2026-10-20_WATT_SWEEP.md:96  [October22]
+           Native cross-fleet notification/complete discovery remain unavailable; owner presence UNKNOWN and recipient consumption unverified. No dark-
+        AGENTS/WATT/reports/2026-10-20_NEWS_SWEEP.md:14  [October22]
+           | **PJM backstop remains delayed and subject to redesign** | A possible supply/cost-allocation solution, not an operating auction or final b
+        AGENTS/WATT/reports/2026-10-20_NEWS_SWEEP.md:18  [October22]
+           | **Fresh operating snapshot stays below crisis prices** | No newP1fire seen;score5helduntilregisteredOctober22test | October20through22:45:
+        AGENTS/WATT/reports/2026-10-20_NEWS_SWEEP.md:26  [October22]
+           The backstop (ER26-3380/EL26-108), rejected IRAS (ER26-3515), general large-load show cause (EL26-67) and generator-interconnection complian
+        AGENTS/WATT/reports/2026-10-20_NEWS_SWEEP.md:31  [October22]
+           - **October22,09:00–12:00EPT:** PJMSpecialMC consultation onRBPtariffrevisions; primaryagenda saved. ExistingWATTde-escalationgrade alsoOcto
+        AGENTS/WATT/reports/2026-10-20_NEWS_SWEEP.md:39  [October22]
+           Primary source captures under `sources/2026-10-20-news/`: GoogleissuerHTML, FERCgeneratororderPDF/text, September29RBPorderPDF/text, October
+        AGENTS/WATT/reports/2026-10-20_NEWS_SWEEP.md:59  [October22]
+           Source/state fba78f82d and brief/packet992b8831e published. Actual safe-push receipt: Pushed. CONFIRMED: HEAD992b8831e is on origin/master (
+        AGENTS/WATT/workbook/KB.tsv:158  [October22]
+           KB-WATT-157	2026-10-20	P1	POST-EMERGENCY TAPE: October15-19 observed maxima268.62/471.98/387.92/295.18/380.98 dollars/MWh, zero observed pri
+        AGENTS/WATT/workbook/KB.tsv:169  [October22]
+           KB-WATT-168	2026-10-20	P2	RBP separate from rejected IRAS: September29 order196FERC61,245 accepts for filing and suspends five months, effec
+        AGENTS/WATT/sources/2026-10-20-news/web-evidence.md:17  [October22]
+           Secondarymotion/refileleads were not promoted to confirmeddate: October29refileplan, October21answers17:00ET await primarymotion/notice. Pri
+        AGENTS/CATO/runs/2026-09-20_1123_sam-correction-followup.md:20  [October22]
+           The chart's December63% column refers to that meeting's incremental25bp equivalent under the publisher's policy-only model. It is not automa
+        AGENTS/VIOLET/research/2026-10-19_official-followthrough/sources/owner-LIQUID-REPORT.md:43  [October22]
+           - **Next actual demand tests, TreasuryDirect PRIMARY:**20Y reopeningCUSIP912810UX4,**$13B October21 13:00ET**,settlesOctober23;5Y TIPS CUSIP
+        AGENTS/NEXUS/research/2026-10-19_full_synthesis/WILL_SYNTHESIS.md:28  [October22]
+           The next published VIX and B/CCC observations can complete existing two-close tests. WAL/OZK and the following regional-bank results must co
+        AGENTS/BOND/monitors/DEALER_CAPACITY.md:68  [October22]
+           WQ291's September23 operational letter remains MET on its first-published window; later inventory does not regrade it. Funding window remain
+        AGENTS/BOND/reports/2026-10-20_startup-recovery.md:16  [October22]
+           - docket_check rc=0: NOTHING ACTIONABLE, reference coupon set empty; VERIFIED THROUGH nothing. Entire October20–November10 span UNVERIFIED b
+        AGENTS/BOND/reports/2026-10-20_startup-recovery.md:26  [October22]
+           - Resume existing work: October7 FR2004 stock update; October15 official-close/buyback timing bracket; October16 Treasury dealer questionnai
+        AGENTS/BOND/analysis/2026-10-20_catchup/REPORT.md:70  [October22]
+           Issuer schedule PDF visually checked by column: nominal20Y reopening **October21**, 5Y TIPS **October22**, 2Y **October26**, 5Y **October27*
+        AGENTS/BROCK/research/2026-10-14_wave/bank_Q3_read.md:17  [October22]
+           **Next dated tests:** October16 MTB/CFG, then WAL October19 (call October20), OZK October20 (call October21), EGBN/BKU/SSB October21, AMTB O
+        AGENTS/BRENT/research/2026-10-20_eia-oct15-evaluation/REPORT.md:29  [October22]
+           Next WPSR is **WednesdayOctober21,10:30ET**, weekOctober16, under EIA's standard schedule; October22language in the Monday routine is not ad
+        AGENTS/BRENT/research/2026-10-12_L689-energy-opportunities/MEMO.md:19  [October22]
+           | **1 — MPC refiner-margin resilience; PSX comparison, existing VLO as the book comparator. CONDITIONAL, not an add instruction.** | [HYPOTH
+        AGENTS/BRENT/research/2026-10-12_L689-energy-opportunities/MEMO.md:21  [October22]
+           **Issuer-confirmed earnings clocks:** [VLO](https://investorvalero.com/news/news-details/2026/Valero-Energy-Corporation-to-Announce-Third-Qu
+        AGENTS/DAEDALUS/upgrades/PRODUCTION_REVIEW_2026-10-21.md:23  [October22]
+           Baseline: installed September24 C2=1345/D1=2, recheck_byOctober15. Fresh C2=1750 candidates (+405), not1750 adjudicated defects. D1 rc2 beca
+        AGENTS/DAEDALUS/upgrades/PRODUCTION_REVIEW_2026-10-21_TRANSMISSION_READER_REPORTS.md:158  [October22]
+           **AEOLUS read-cap independently run** after source mutation inspection: `check_agent` read-only production path; write operations found in s
+        AGENTS/DAEDALUS/runs/2026-10-20_CALENDAR_COVERAGE_REVIEW.md:24  [October22]
+           - Important known candidate limitation: BOND/docket/CATALYSTS.tsv:4 October22 US5Y TIPS matches DOCKET:406 through `tips`, but docket is a n
+        AGENTS/DAEDALUS/runs/2026-10-20_INBOX_OWED_REVIEW.md:12  [October22]
+           | 4 | L470, October22 | Measure attested manifests before any STRICT flip. Ratified condition ≥30/37; roster denominator mismatch must be su
+        AGENTS/DAEDALUS/builds/l748_time_2026-10-20/RESULT.md:18  [October22]
+           ## L470 — October22 strict flip must not fire
+        AGENTS/REGINALD/reports/2026-10-14_compound-bank-risk-synthesis.md:38  [October22]
+           | **Amerant (AMTB)** | June all-loan nonaccrual is17.1% of bank equity; ACL covers50.6%. Longer securities duration4.7 years can put book-va
+        AGENTS/REGINALD/reports/2026-10-14_compound-bank-risk-synthesis.md:45  [October22]
+           | **Valley (VLY)** | Existing multifamily early-past-due/modification concerns; potential small-business **deposit** transfer through the Bl
+        AGENTS/REGINALD/research/EGBN/context/2026-10-14_compound-bank-risk-synthesis.md:38  [October22]
+           | **Amerant (AMTB)** | June all-loan nonaccrual is17.1% of bank equity; ACL covers50.6%. Longer securities duration4.7 years can put book-va
+        AGENTS/REGINALD/research/EGBN/context/2026-10-14_compound-bank-risk-synthesis.md:45  [October22]
+           | **Valley (VLY)** | Existing multifamily early-past-due/modification concerns; potential small-business **deposit** transfer through the Bl
+        AGENTS/REGINALD/research/EGBN/peer-research/TERRY/2026-10-12_L694-EGBN-feasibility/NOTE.md:13  [October22]
+           [Issuer October7 notice](https://ir.eaglebankcorp.com/news/news-details/2026/Eagle-Bancorp-Announces-Earnings-Call-on-October-22-2026/defaul
+        AGENTS/REGINALD/reports/2026-10-21_owed-items/REPORT.md:24  [October22]
+           | **October22–27, REGINALD** | VLY/HBAN October22; AMTB/CUBI October22 after close; FLG October23; SBCF October27 | Existing confirmed CALEN
+        AGENTS/REGINALD/reports/2026-10-21_owed-items/REPORT.md:28  [October22]
+           | **October22/23, REGINALD** | Next H.4.1/H.8 comparison and existing descriptive-window review | October15/16 releases already compared10/2
+        AGENTS/TERRY/research/2026-10-12_desktop-owner-closeout.md:11  [October22]
+           BRENT and REGINALD each deliver zero or one candidate question from existing evidence. Check inbox **and processed**, plus committed owner r
+        AGENTS/TERRY/daytrading/JOURNAL.md:9  [October22]
+           Observed 2026-10-20T10:48:04.905951-04:00; direct Will Capture1/2; exact clocks/fullhistory UNKNOWN. Source `../research/2026-10-20_broker-r
+        AGENTS/TERRY/setups/QQQ720P_20261020-sell-or-roll_2026-10-19.md:7  [October22]
+           Will supplied Capture1.JPG (positions) and Capture2.JPG (Activity), independently visually read by TERRY. October20 Filled SELL TO CLOSE QQQ
+        AGENTS/TERRY/setups/QQQ715P_20261020-sell-or-roll_2026-10-19.md:7  [October22]
+           October20 Capture1/2 directly viewed; capture/quote/fill clocks UNKNOWN. Captured1; last0.37/value37.00/basis200.66/open loss163.66. No sale
+        AGENTS/TERRY/setups/QQQ715P_20261022-sell-or-roll_2026-10-20.md:5  [October22]
+           **Prepared:** 2026-10-20T10:48:04.905951-04:00. Thesis ownerWill-direct; TERRY owns prospective management under standing C5. Two sessions b
+        AGENTS/TERRY/setups/QQQ719P_20261020-sell-or-roll_2026-10-19.md:7  [October22]
+           October20 Capture1/2 directly viewed; capture/quote/fill clocks UNKNOWN. Captured1; last0.98/value98.00/open loss179.66; displayed basis277.
+        AGENTS/TERRY/research/2026-10-20_broker-receipt/REPORT.md:10  [October22]
+           | Capture2row3 | Filled BTO QQQOctober22 715P1 at4.32/net432.66 | Newheldline, currentvalue299/basis432.66/openloss133.66. Separate715strike
+        AGENTS/TERRY/research/2026-10-20_broker-receipt/REPORT.md:24  [October22]
+           | October20 715P |1/$37, basis200.66/openloss163.66 | Still expiresTODAY; newOctober22put doesnotclose/rollthisline |
+        AGENTS/TERRY/research/2026-10-20_broker-receipt/REPORT.md:25  [October22]
+           | October22 715P |1/$299, basis432.66/openloss133.66 | Newprospectivemanagementcard MGMT-QQQ715P-OCT22 preparedtoday; proposedOctober21 15:0
+        AGENTS/TERRY/research/2026-10-20_broker-receipt/REPORT.md:27  [October22]
+           Twoexpiringtoday total**135**; threeheldQQQputs includingOctober22 total**434**remainingcapturedvalue, oneequitydownsideview (N_eff1judgment
+        AGENTS/TERRY/research/2026-10-20_broker-receipt/REPORT.md:41  [October22]
+           Original720Pcard CLOSED; SETUPS/INDEX/TRADE_BOOKagree. OtherexpiringQQQcards carrylatestcapture. OriginalUSOOctober30card now2contracts; ori
+        AGENTS/TERRY/research/2026-10-20_broker-receipt/REPORT.md:43  [October22]
+           PROME ownsFORGE/queues: verifythisexactsource; WQ462narrowto719P/715Peach1remaining,720Pclosurefulfilled. RecordnewOctober22C5dateandUSO2hol
+        AGENTS/TERRY/research/2026-10-20_trade-idea-slate-data/prior-memory-pickup.md:3  [October22]
+           WilldirectCapture1/2ingested; read `research/2026-10-20_broker-receipt/REPORT.md` FIRST, source/ACTIVITYkeysbeforeanynewbooking. QQQ720P1CLO
+        AGENTS/TERRY/research/2026-10-20_trade-idea-slate-data/prior-memory-pickup.md:5  [October22]
+           TodayQQQ719P1/value98and715P1/value37remain,Willhandles/WQ462mustnarrow,14:30proposedbackstop;newOctober22putvalue299/cardprepared/proposedO
+        AGENTS/TERRY/research/2026-10-20_trade-idea-slate-data/prior-status-current-block.md:2  [October22]
+           > - **October20receipt:** directCapture1/2visuallyread; source `research/2026-10-20_broker-receipt/REPORT.md`. QQQ720P SOLD1at6.66/net665.32
+        AGENTS/TERRY/research/2026-10-20_trade-idea-slate-data/prior-status-current-block.md:3  [October22]
+           > - **ImmediateQQQ:** October20 719P1/value98 and715P1/value37stillheld, **135combined**, existingproposed14:30ETbackstop;WillhandlingunderW
+        AGENTS/TERRY/research/2026-10-12_L694-EGBN-feasibility/NOTE.md:13  [October22]
+           [Issuer October7 notice](https://ir.eaglebankcorp.com/news/news-details/2026/Eagle-Bancorp-Announces-Earnings-Call-on-October-22-2026/defaul
+        AGENTS/TERRY/research/2026-10-19_broker-reconcile/REPORT.md:20  [October22]
+           The October23 CRWV56P and USO163C cards are prepared ahead of their October21 due date. Prefer selling at the first reasonable verified bid;
+        PROME/reports/2026-10-13_research-and-next-trades.md:24  [October22]
+           Timing verified October13 at issuer sources: [OZK release October20 after close/call October21 08:30ET](https://ir.ozk.com/node/17536/pdf); 
+        BOARD/SIG-W-20261021-008-car-mart-sale-talks-bloomberg-chapter-11-or-shareholder-vote-lender-reprieve-through-10-22-explains-10-20-drop-BROCK-OTTO.md:26  [October22]
+           # Bloomberg October20: America's Car-Mart and lenders negotiating a sale via Chapter 11 or a shareholder vote; reprieve runs through October
+        BOARD/SIG-W-20261021-008-car-mart-sale-talks-bloomberg-chapter-11-or-shareholder-vote-lender-reprieve-through-10-22-explains-10-20-drop-BROCK-OTTO.md:28  [October22]
+           Bloomberg reported on October20 (Yahoo syndication stamped 15:53 ET; byline Luke Juricic) that America's Car-Mart (CRMT) and its lenders are
+        BOARD/SIG-W-20261021-008-car-mart-sale-talks-bloomberg-chapter-11-or-shareholder-vote-lender-reprieve-through-10-22-explains-10-20-drop-BROCK-OTTO.md:32  [October22]
+           BROCK ACTION: fold the sale-talk report into the October22 CRMT read. Keep reported talks separate from any filing; a Chapter 11 path is rep
+        BOARD/SIG-W-20261021-010-CORRECTION-to-20261021-008-car-mart-reprieve-now-runs-to-11-01-per-10-21-8k-plus-5m-incremental-loan-and-abs-redeemed-sale-talk-report-holds.md:28  [October22]
+           008 said the lender reprieve runs "through October22" and pointed to tomorrow's read as the deadline. That was the October20 Bloomberg figur
+        BOARD/SIG-W-20261021-013-eagle-bancorp-q3-npa-166m-from-113m-one-loan-is-76pct-of-inflows-provision-2point8m-nco-0point25pct-RED-REGINALD.md:32  [October22]
+           RED ACTION: grade CHG-027 after the October22 10:00 ET call, as PROME registered (L35). REGINALD ACTION: integrate into the Q3 cohort (EGBN 
+        BOARD/SIG-W-20261021-014-southwest-q3-adj-eps-0point66-unit-revenue-plus21point6pct-fuel-3point92-q4-fuel-assumed-4point55-HENRY.md:30  [October22]
+           HENRY ACTION: resolve the terminal claim at this print (STATUS: claim resolves at LUV October21 after close; call October22 10:00 ET), per y
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (3)
+        AGENTS/LIQUID/workbook/CATALYSTS.tsv:55  [October22]  (dated TSV row (2026-10-22) — HISTORY-ROW candidate: a time-series capture holds the value AS OF its date; a refresh would corrupt the series)
+           2026-10-22	Car-Mart temporary relief throughOctober22 — continuation read	SEC10/15 8-K,event10/14,Item1.01extends from10/15through10/22	Exis
+        AGENTS/BRENT/docket/CATALYSTS.tsv:24  [October22]  (dated TSV row (2026-10-22) — HISTORY-ROW candidate: a time-series capture holds the value AS OF its date; a refresh would corrupt the series)
+           2026-10-22	VALERO Q3 2026 RESULTS — L689 margin/operations comparison	Company release before10:00ETcall; realized refining margin, runs/yiel
+        AGENTS/BRENT/audits/2026-10-12_desk-health/CATALYSTS-before.tsv:26  [October22]  (dated TSV row (2026-10-22) — HISTORY-ROW candidate: a time-series capture holds the value AS OF its date; a refresh would corrupt the series)
+           2026-10-22	VALERO Q3 2026 RESULTS — L689 margin/operations comparison	Company release before10:00ETcall; realized refining margin, runs/yiel
+     🟡 in MAIL, point-in-time — usually no action (22: AEOLUS, BRENT, BROCK, CREED, HENRY, LIQUID, NEXUS, OTTO, RED, REGINALD)
+     🟢 cleared: marker-adjacent / next to new value / frozen file (12)  [--show-handled to audit]
+
+  🔴 80 stale consumer reference(s). Send each owner a packet with the refreshed value — do NOT edit their files.
+==================================================================
+

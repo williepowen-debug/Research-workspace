@@ -76,6 +76,7 @@
 
 48. **One delivery_log row per (signal, recipient).** A second 'corrective' row for the same pair makes `closeout_check.py` return UNKNOWN; correct the original row's path in place and put the history in its notes. (10/14, -034 PROME path fix.)
 
+49. **Before routing a REPORTED deadline for an SEC filer, check EDGAR for a same-day filing.** 10/21: `-008` carried Bloomberg's "lender reprieve through October22" for Car-Mart; the 8-K extending it to November1 had been accepted that afternoon, and PROME had already packeted BROCK on it. Corrected in `-010` within minutes. A press report of a covenant date is superseded the moment the filer's 8-K lands; `data.sec.gov/submissions` is one call. → `[[finding_directive_overtaken_between_authorship_and_delivery]]`
 
 **✅ RETIRED 2026-09-01 — the two-branch-test-sharing-a-premise finding (2026-08-03) is PLACED:** PROME landed it as the n=5 extension of `[[finding_enumerated_mechanism_test_hides_a_completeness_claim]]` (8/31 night, packet filed to WALTER 9/1) and the test now sits in bold in `FORGE/PREDICTION_DISCIPLINE.md` § Registration. *(Was: "owed, not placed — WALTER cannot file to a PROME-owned surface." The obligation discharged the way it was supposed to: a packet, then the owner's write.)*
 
@@ -89,9 +90,7 @@
 - **Bright Data Web Unlocker (WQ-383 pilot, LIVE 2026-10-04):** `bdata scrape <url>` for a 403'd no-screenshot bookmark link; free tier 5k/mo HARD STOP, Web-Unlocker-only, key in gitignored `.env` (per-machine). Full method+limits+ledger: `design/X_BOOKMARKS_ACCEPTANCE.md` §9a.
 ## Session Notes
 
-**October21 session closed:** bounded view repair IMPLEMENTED + TESTED at dbed8968c; acceptance at PROME/tools/tests/ACCEPTANCE_orch_inflight_closed_rows_2026-10-21.md. General startup/research remains PARTIAL; current duties and publication receipts stay in LAST_COMPLETION, closeout evidence research/2026-10-21_session-closeout.
-
-**2026-10-19T16:41:51Z resumed owner:** publishedHY0033/3;004HMI;005newJMICrisk/tug,existinglossconflict;006OTTO;007office-routecorrection,008OTTOpanel44/44+forecast8%OPEN,009HOMERnine-readqualifieddigest,010dealer/ETFcounterevidence,011CRWVvaluations. Interrupted8-itembatchclosed; ownerinbox6integrated. L599notrepeated/noextension. Authrepair onWill’s directrequest:401/refresh400→reauth→200;seenunchanged,0bookmarkfetch/mark. Evidence `research/2026-10-19_resume/`; currentdutiesandpublication/consumptionlimitsinLAST_COMPLETION.
+**October21 evening FULL closeout (2026-10-22T00:55:17Z):** dispatches 007–015 incl. corrections 010/011; live HAWK/FALCON/OSPREY catch-up via SendMessage; UKMTO map 012 caught a FALCON double count. Duties/receipts LAST_COMPLETION; evidence research/2026-10-21_evening/.
 
 **10/20 bookmark acceptance:** Will authorized independent review/publication/one supervised live test. Final23d8dbeadaccepted after67tests/sixprobes,includingmetadata-losslegacydowngrade;codeoriginproven. Live94pending+copiedresume2tail=96;Willauthorizedbatchreview:16x6,batches1–11CLOSED66bookmarks,30untriaged,16partialsourcefollowups;batch6–7fivequalifiedroutes,3DUP/4NO-ACTION;newSPR/Farrfullbodygaps;production0marks,seen870unchanged. Partialreview/BATCH-PLAN in research/2026-10-20_bookmark-batches. Isolated review MUST NOT mark production. WQ458separate. Evidence research/2026-10-20_bookmark-live-acceptance; duties LAST_COMPLETION.
 

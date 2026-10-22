@@ -1,11 +1,9 @@
 # WALTER STATUS
-**Updated:** 2026-10-22T00:26:19Z — LIGHT evening catch-up (Will-launched); intake batches CLOSED 22/22 + 31/31, lane marked; four dispatches 007–010; full closeout deferred. BOARD **1568**, ten today dispatches. Sole duty/receipt list LAST_COMPLETION.md.
+**Updated:** 2026-10-22T00:54:52Z — FULL closeout (PROME prome-56 direction on Will's word 20:51 ET). Today 15 dispatches 001–015 (evening 007–015 incl. two corrections 010/011), BOARD **1573**. Sole duty/receipt list LAST_COMPLETION.md.
 
 ## BOTTOM LINE
 
-**Evening (October21 ET):** Saudi MoE says a drone aimed at a Shaybah field facility was INTERCEPTED; debris killed two contractors outside the perimeter, operations unaffected (007 → FALCON/BRENT grade; not a WALTER fire call). Car-Mart sale talks reported (008), lender relief now runs to November1 per the October21 8-K (010 corrects 008). Zions Q3 credit clean (009). Live vendor reads October21: VIX 16.68, KRE 70.62, WAL 75.55, Cushing 27.594M (w/e 10/16); HY OAS UNKNOWN (FRED maintenance). No threshold fire observed on the pulled legs; this is not a full-registry clearance.
-
-Earlier: session closed at Will’s request. The bounded orchestration-view repair is IMPLEMENTED + TESTED; acceptance evidence is in PROME/tools/tests/ACCEPTANCE_orch_inflight_closed_rows_2026-10-21.md. October21 startup remains PARTIAL. Owner inbox updates are integrated; six qualified signals preserve the funding revision, Japan corrections, Boston retained-property outcome and three new intake findings. Current source/instrument, full context and READS certification gaps remain explicit in LAST_COMPLETION.md. No whole-market or whole-registry clearance, no trade or new monitor. Existing saved bookmark review and financing work retain their approvals and limits.
+**Evening October21 ET, closed FULL.** One item is near the Iran ladder: a Saudi MoE-reported Shaybah drone INTERCEPT, debris killed two outside the perimeter, operations unaffected. FALCON graded it: production rung NOT FIRED, marks held 1/14/85 (ab9b1cea0). Losses are now 4 confirmed + 1 CONTESTED (CAPE DAO). FALCON's reconciliation (e3999d8b6) puts 5 distinct hulls struck 10/16–10/20 after WALTER's UKMTO map (012) removed a double count. Credit/bank prints: Zions clean (009); Eagle Bancorp NPAs up on one loan, provision down (013). Car-Mart sale talks plus the 8-K extending relief to November1 (008/010). Southwest beat its guide with Q4 fuel assumed ~$4.55/gal (014). Meta capex $34.91B, 2026 guide $135–145B, FCF negative (015). Live vendor reads October21: VIX 16.68, KRE 70.62, WAL 75.55. **HY OAS UNKNOWN (FRED maintenance).** No threshold fire observed on pulled legs; not a full-registry clearance. HAWK/FALCON/OSPREY were briefed live; FALCON and OSPREY are caught up, HAWK is mid-catch-up.
 
 ## DATED MARKET OBSERVATIONS
 
@@ -48,7 +46,7 @@ Signal/news routing and receiving-layer readiness. Domain agents own evidence, g
 
 ## NETWORK AWARENESS
 
-Dated startup observation: REGISTRY refreshed October21 from47rows/42owner lead headers at13:06:48Z. It was not refreshed again during closeout; this is not a fresh network assessment. Six today signals, zero cluster_mediating, zero helper/domain launches by this WALTER session. Owner headers are routing context, not full source review or liveness. Current complete fleet presence remains UNKNOWN; PROME in-flight includes new owner touches and is not a dark/live verdict. Duties and persistence limits solely LAST_COMPLETION.md.
+REGISTRY Updated/Focus refreshed 2026-10-22T00:54:52Z from owner STATUS lead headers: 48 rows, 9 dates moved (PROME, REGINALD, WAL, HAWK, WALTER, HANS, OSPREY, FALCON at 10/21–22). 13 rows had no parseable header or no STATUS and kept their prior dated cells (HENRY, VIOLET, RAV, ORACLE, ATHENA, DARWIN, BARON, HERMES, DEWEY, TERRY, WATT, MIDAS, HOMER). A SENTRY mis-parse was reverted. Live peers by ListAgents at about 00:28Z: prome-56, falcon-e9, hawk-3a, osprey-85. That is a local session list, not a fleet census; other desks' presence is UNKNOWN. PROME reports HANS 26 / YURI 11 unprocessed WALTER signals and is directing drains. The doctor backlog showed 123 unconsumed >2d (39 ACTION) before tonight's drains. Header-derived dates are routing context, not liveness or source review.
 
 ## Active LIAISON channels
 
