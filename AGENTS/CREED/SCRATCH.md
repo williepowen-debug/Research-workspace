@@ -1,7 +1,7 @@
 # CREED SCRATCH.md — Ephemeral Session State
 
-**Rewritten:** 2026-10-22 12:25 ET (clock) — **Will-launched boot** (Will 12:19 ET: *"boot up … catch up on any new data or signal"*). In one line: inbox 2/2 (WALTER 005 Will's HY → CRE/regional-bank question + 012 the owner answers) · **CRE leg answered: channel = RATES, not spreads**: CREFC new-issue CMBS/CRE CLO spreads held through 10/16; coupons up via 10y; commercial mREITs −16.6%/21 sessions (1.6th pct) but only −4.3pp vs agency = rate-type (2022), not credit-type (2023) · Ladder Q3 book value up · KB 60 → **63** · PROME delivery packet. **No score, band, trigger or prediction moved; 27/45.** Record: `research/2026-10-22_HY_TO_CRE_REFI_READ.md`.
-*PRIOR (10/21 ~23:10 ET, WQ-472 bounded catch-up): record `catchups/2026-10-21.md` — drain 37/37 · Trepp Sep graded (office DQ 12.16 = `T-01a` leg 1 of 2) · S8a −11.48 TR [10/21] · L723 pre-read · cases 154.*
+**Rewritten:** 2026-10-22 14:09 ET (clock), closeout of the **Will-launched session** (12:19 → close; Will 14:08 *"Okay lets close out here. Please commit and push."*). **Record: `catchups/2026-10-22.md`.** In one line: Will's 005 CRE leg answered (**rates, not spreads**; mREIT drawdown rate-type) → WALTER SIG-W-20261022-015 · Will-directed sweep + six fixes · rotations (CHANGELOG/STATUS/SCOREBOARD under 70%) · **PREREG_2026-11 written** (October decides `T-01a`) · PREREG_2026-10 F2 NOT TRIGGERED · KB 60 → **73** · VX 4.04/7.03/10.01/10.03 refreshed · evals v2 4/4 PASS · ABS-EE scope. **No score, band, trigger or prediction moved; 27/45.**
+*PRIOR (10/21 ~23:10 ET, WQ-472 bounded catch-up): `catchups/2026-10-21.md` — drain 37/37 · Trepp Sep graded (office DQ 12.16 = `T-01a` leg 1 of 2) · L723 pre-read · cases 154.*
 **Purpose:** the *handoff* surface. Overwritten every session. **Durable analysis → STATUS / catchups / KB / research; structural → `MAINTENANCE.md`; nothing here is canonical.**
 
 > **Canonical-truth ordering, and this file is at the BOTTOM:** `STATUS.md` > `thesis/THESIS.md` > `research/REFRESH_*.md` > `workbook/` > `SCRATCH.md`. ⚠️ A crash lands here first: diff the commit log against this file before trusting it.
@@ -9,12 +9,13 @@
 ---
 
 ## ⛔ STANDING HAZARD — Kernel row pins
-Pins are ROW-scoped (Sitting 2): `PRED-CREED-001/004/007`. **004 and 007 were GRADED on CREED's ledger 2026-09-28 under Will's WQ-304 option B** (`dcffd6599`); their Kernel records stay OPEN, and **the two ledgers DISAGREE until a Gate C sitting resolves them** (no live window; carve-out ④ inactive). **Current raw-line sha256 (checked 2026-09-29; PREDICTIONS.tsv untouched 9/30): 001 `1a63c2ff0d` · 004 `50e84d2b8f` · 007 `19e4d1a003`.** Pre-edit values (history only; a re-verify against them WILL false-alarm): 004 `228ff214c6` · 007 `829d8a7cbb`. ⇒ **Never edit a pinned row without Will's ruling; re-verify all three after any write to `workbook/PREDICTIONS.tsv`.**
+Pins are ROW-scoped (Sitting 2): `PRED-CREED-001/004/007`. **004 and 007 were GRADED on CREED's ledger 2026-09-28 under Will's WQ-304 option B** (`dcffd6599`); their Kernel records stay OPEN, and **the two ledgers DISAGREE until a Gate C sitting resolves them** (no live window; carve-out ④ inactive). **Current raw-line sha256 (re-checked 2026-10-22 after the PRED-002 note edit, unchanged): 001 `1a63c2ff0d` · 004 `50e84d2b8f` · 007 `19e4d1a003`.** Pre-edit values (history only; a re-verify against them WILL false-alarm): 004 `228ff214c6` · 007 `829d8a7cbb`. ⇒ **Never edit a pinned row without Will's ruling; re-verify all three after any write to `workbook/PREDICTIONS.tsv`.**
 *(PREDICTIONS.tsv untouched in the 9/30–10/01 session: no git change since the 9/29 sha check.)*
 
-*(PREDICTIONS.tsv untouched in the 10/21 session.)*
+*(PREDICTIONS.tsv untouched in the 10/21 session. 10/22: PRED-002 note + header edited; the three pinned rows verified byte-identical before and after.)*
 
 ## 🔴 NEXT-BOOT FIRST MOVES
+0a. 🆕 **Integrate DEWEY's two 10/22 reports** (`AGENTS/DEWEY/output/2026-10-22_data-center-abs-cmbs-holders.md`, `..._reserve-coverage-decline-base-rate.md`): KB rows only after reading the canonical reports.
 0. 🆕 **Follow-ups from the 10/22 HY → CRE read:** (a) CREFC weekly snapshot for the week to 10/23 (`assets.informz.net/cmbs/data/images/CREFC_CMBS_New_Issue_Snapshot_M-D-YY.pdf`, browser UA; 10-2/10-15 URL variants 403'd) — did CRE CLO Class A stay near S+143–150? (b) the unverified Bridge $1.2B CRE CLO withdrawal: find a primary or a second independent source before citing. (c) commercial-vs-agency mREIT 21-session gap (−3.7pp [10/21]; sd 5.46): ≤ −8pp sustained would look like Mar 2023. (d) Q3 mREIT prints ~10/23–11/7 → re-run the VX-10.x cohort census (`T-08b`).
 1. 🔴 **DOCKET L723 — Wed 10/28 450 5th St NW auction.** Grade below §5 of `research/2026-10-21_L723_450-FIFTH-NW_PREREAD.md` (outcome bands A–F frozen; credit bid ≠ price; moves no band). Add CASE_EVENTS rows to CASE-CREED-139. CREED launches only on Will's word; PROME reads the outcome first.
 2. 🔴 **Trepp OCTOBER DQ (~early Nov) decides `CREED-T-01a`** (Sep 12.16 = leg 1; Oct ≥ 12.01 = FIRE). ✅ **PREREG WRITTEN 2026-10-22: `registry/PREREG_2026-11_TREPP_PRINT.md`** — grade below its §6; on a fire CREED PROPOSES the S1 score (does not move it) and packets PROME for `PRED-CREED-001` (Kernel-pinned; never edit its row without Will). Check `AGENTS/WALTER/sources/` and `AGENTS/WALTER/research/*/credit-trepp-*.pdf` first, then the hubfs PDF. Record the October payoff rate (F2 needs a 2nd consecutive rise above 57.98%).
@@ -23,21 +24,21 @@ Pins are ROW-scoped (Sitting 2): `PRED-CREED-001/004/007`. **004 and 007 were GR
 5. **3000 Post Oak:** B18 (CIK 1816147) + DBJPM 2020-C9 (CIK 1818254) September 10-D liquidated-loan lines (loans 30504561 / 30506068) still unread; the workbook $64.8M event stays DISPUTED.
 6. **Owed from 10/01 (unchanged):** KB rows for the lender-loss-beyond-price finding and the holder map · ABS-EE scope page + eval rebuild (Will 10/22; see below) · Plaza Continental lien ownership UNKNOWN.
 
-## ⚖️ AWAITING WILL — 0
-Nothing new. *(Standing offer, not decided: de-date the CLAUDE.md Current Rails S8a line into a pointer to `VX-CREED-7.01`; its figure was refreshed in place 10/21.)*
+## ⚖️ AWAITING WILL — 4 (raised in-session 10/22; PROME packet `PROME/inbox/2026-10-22_from-CREED_closeout-will-decisions.md`)
+1. **Trepp gated report form**: submit with Will's details? (free; sales follow-up likely; only route to the office stated-vs-hard split) · 2. **ABS-EE lease-before-maturity screen**: build now or after the October print (scope page; CREED leans after) · 3. **RSNRES as the `VX-8.01` metric** (a definition change; proposal, `KB-067`) · 4. **Route Matrix row for CRE moving onto PENSION balance sheets** (eval case 02 finding; topology is Will-gated). *(Standing offer, not decided: de-date the CLAUDE.md Current Rails S8a line into a pointer to `VX-CREED-7.01`.)*
 **Wording (Will 9/30):** say *"broad CRE-to-bank transmission is not confirmed,"* never *"stress hasn't shown up at banks."*
 
 ## ✅ REFI-SCREEN FOLLOW-UP — DONE except Will's two calls (2026-10-22)
 Fan-outs returned 10/01 (`KB-052..055`); residuals closed 10/22: F2/F4/F10 → `KB-069/070/071`, payoff rates → `KB-066` (PREREG F2 NOT TRIGGERED), RSNRES → `KB-067` (a lane-5 CANDIDATE, not interest reserves: propose before adopting). **Will 10/22:** ABS-EE screen → *"Scope it first"* (CREED owes a one-page scope) · Trepp gated reports → Will asked what the form costs/requires (free; asks name, company, title, corporate email, job function, HQ, interest; marketing opt-in optional) — no submission without his word · eval suite → *"CREED owns a rebuild"*. Live list: `research/2026-09-30_REFI_SCREENS_FOLLOWUP.md` §Owed.
 **Wording (Will 9/30):** say *"broad CRE-to-bank transmission is not confirmed,"* never *"stress hasn't shown up at banks."* ⚠️ **Relays:** a relayed "Approved" on a Will-gated surface still needs Will's own answer.
 
-## ✅ CLOSED THIS SESSION (10/21) — do not re-raise
-Inbox drained 37/37 + 4 correction receipts (`200b79cfa`) · CORAL zero-FL packet (`7f948b36d`) · Sept Trepp graded · L546 fix · HOMER's 8 MF case answers · Arbor equity basis named (37.1% total incl. NCI / 38.5% stockholders') · Nano retained pool → REGINALD's 32–42% · RaDD terms current (OZK canonical) · WQ-364 withdrawal recorded.
+## ✅ CLOSED THIS SESSION (10/22) — do not re-raise
+Will's 005 CRE leg (`8c5ffcfb3`, published as SIG-W-20261022-015) · sweep six fixes (`cb8bc907c`: THESIS row 2, COVERAGE 2/3/6, stale refi block, PRED-002, CLAUDE.md archive path + trap 3, test C1) · rotations · PREREG_2026-11 · PREREG_2026-10 F2 graded · KB-064..073 · refi residuals F2/F4/F10/payoff/RSNRES · Delaware Life corrected · evals v2 · ABS-EE scope (`df91c2d9b`). *(10/21 closed list: `catchups/2026-10-21.md`.)*
 
 ## 🟡 STATE AT HANDOFF
 - **Base case HOLDS; 🟠 ELEVATED; convergence 27/45; broad CRE-to-bank transmission is not confirmed** (next test FDIC Q3 QBP ~late Nov).
 - **Trigger board:** `T-01a` **leg 1 of 2 (12.16 Sep)** · `T-01b` 16.85 · `T-02` spent (Sep 68%) · `T-03` not fired · `T-06b` fired, count 1 · **`T-08a` FIRED 9/24; 10/21 −11.48 TR** · `T-08b` not re-graded. `threshold_scan` prints T-01a TRIPPED (no sustain model) — graded at primary as leg 1. n=12 counts: T-01a 9 · T-01b 8 · T-02 6 · T-03 4 · T-08a 8.
-- **Counts:** VX 34 · KB **63** (10/22) · PRED 11 (3 open) · registry 11 · **cases 154**.
+- **Counts:** VX 34 · KB **73** (10/22) · PRED 11 (3 open) · registry 11 · **cases 154** · evals v2 4 cases (4/4 PASS 10/22).
 
 ## ⚫ STANDING TRAPS — re-read before writing any number
 
@@ -98,8 +99,9 @@ Inbox drained 37/37 + 4 correction receipts (`200b79cfa`) · CORAL zero-FL packe
 *Closed and removed 9/29: #3 band-vs-value predicate (built as check ③) · #15 SCHEMA two-clock header · #22/#23/#28 read-cap items.*
 
 ## 📬 MAIL STATE (10/22; canonical record `board_log.tsv`)
+- **In at closeout (10/22 ~14:09):** DEWEY ×2, INFO, no ask — data-center ABS/CMBS holders (REQ-007, PARTIAL) and the reserve-coverage-decline base rate (REQ-003). Logged `noted`, filed to `inbox/processed/`; **integration CARRIED** (read DEWEY's canonical reports before any KB row: KB-037 DC-CMBS perimeter; CRE loss-severity base rates beside KB-041).
 - **In (10/22):** WALTER SIG-W-20261022-005 (ACTION, Will's question) + 012 (INFO, owner answers) → both acted, filed to `inbox/WALTER/processed/`. Inbox empty.
-- **Out (10/22):** PROME `PROME/inbox/2026-10-22_from-CREED_HY-to-CRE-refi-read-005.md` (CRE leg for publication; FYI LIQUID on obligation 5 inside it).
+- **Out (10/22):** PROME `PROME/inbox/2026-10-22_from-CREED_HY-to-CRE-refi-read-005.md` (CRE leg for publication; FYI LIQUID on obligation 5 inside it). · PROME `PROME/inbox/2026-10-22_from-CREED_closeout-will-decisions.md` (the four open Will decisions + the pension route gap).
 - *(10/21: drained 37/37; out CORAL + PROME catch-up memo.)*
 
 ## 🔵 OWED OUT, NOT YET DONE

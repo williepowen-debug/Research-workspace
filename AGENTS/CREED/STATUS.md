@@ -39,7 +39,7 @@
 
 ## Catch-ups → `catchups/INDEX.md` (hot/cold split 2026-09-26)
 
-**Current: see `catchups/INDEX.md` (as of 2026-10-21: `catchups/2026-10-21.md`).** *(This line read "09-26" through 9/27 while the INDEX said 09-27 — re-pointed at the INDEX so it cannot lag again.)* Catch-ups no longer accumulate here (obligation 21, executed 9/26). The 9/02 section and the archive-pointer stubs moved verbatim to `catchups/`.
+**Current: see `catchups/INDEX.md` (as of 2026-10-22: `catchups/2026-10-22.md`).** *(This line read "09-26" through 9/27 while the INDEX said 09-27 — re-pointed at the INDEX so it cannot lag again.)* Catch-ups no longer accumulate here (obligation 21, executed 9/26). The 9/02 section and the archive-pointer stubs moved verbatim to `catchups/`.
 
 ---
 

@@ -1,6 +1,10 @@
 # CREED — LAST_COMPLETION
 
-**STATUS:** DONE — **2026-10-01 (Thu) morning window, closed 2026-10-01 11:49 ET (Will: "Lets close out here"):** workbook (5) = v4 (no change) · sweep stays manual (Will) · news scan · R3 WATCH_FOR answered and landed (36 phrases) · BCB → REGINALD. No score moved. Record §⑩.
+**STATUS:** DONE — **2026-10-22 (Thu), Will-launched session 12:19 → 14:10 ET (Will: "Okay lets close out here. Please commit and push."):** Will's 005 CRE leg (rates, not spreads) · sweep + six fixes · rotations under 70% · PREREG_2026-11 · KB 60 → 73 · evals v2 4/4 · ABS-EE scope · 4 Will decisions packeted to PROME. No score moved; 27/45. Record `catchups/2026-10-22.md`.
+
+**PRIOR:** DONE — **2026-10-21 (Wed), WQ-472 bounded catch-up** (PROME prome-56): drain 37/37 · Trepp Sep graded (`T-01a` leg 1) · L723 pre-read. Record `catchups/2026-10-21.md`. *(This file was not updated by that session; noted 10/22.)*
+
+**PRIOR:** DONE — **2026-10-01 (Thu) morning window, closed 2026-10-01 11:49 ET (Will: "Lets close out here"):** workbook (5) = v4 (no change) · sweep stays manual (Will) · news scan · R3 WATCH_FOR answered and landed (36 phrases) · BCB → REGINALD. No score moved. Record §⑩.
 
 **PRIOR:** DONE — **2026-10-01 (Thu) early: the 9/30 ~21:50 ET night session, closed cleanly (Will: "let's close out").** CATO RC4/RC5 fixed · Will's workbook adopted (cases 134) · patterns (cold-read, one retraction) · loss → holder map + 3 packets · S8a 9/30 recorded · 5 KB rows STALE. No score moved; 27/45. Record `catchups/2026-09-30.md` §⑨.
 
