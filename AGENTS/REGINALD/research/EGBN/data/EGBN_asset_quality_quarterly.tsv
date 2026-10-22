@@ -1,0 +1,35 @@
+# EGBN asset quality, reserves, funding and capital by quarter. Source: Q3 2026 8-K acc 0001050441-26-000110 release pages (R-p#) and deck slides (D-s#), which print Q3-25 and Q2-26 comparatives. Read as images 2026-10-22 (reader extract domain/sources/2026-10-22_catchup/egbn_q3_extract.md; R-p2/D-s13/D-s14/D-s19/D-s20 re-read by REGINALD). NOT DISCLOSED cells left blank with a note.
+metric	unit	2025-09-30	2026-06-30	2026-09-30	locator	note
+nonperforming_loans	USD_K	118647	111124	166021	R-p8	
+nonperforming_assets	USD_K	133331	113090	166021	R-p8	Q3 OREO nil
+npa_to_assets	PCT	1.23	1.17	1.75	R-p11	
+oreo	USD_K	14684	1966	0	R-p8	
+net_chargeoffs_quarter	USD_K	140814	47909	4156	R-p8	
+nco_annualized	PCT	7.36	2.78	0.25	R-p11	
+provision_quarter	USD_K	113215	21448	2809	R-p6	
+acl	USD_K	156228	121141	120781	R-p7	
+acl_to_loans_hfi	PCT	2.14	1.83	1.84	R-p11	
+acl_to_npl	PCT	131.67	109.01	72.75	R-p11	
+performing_office_coverage	PCT		7.22	4.86	R-p2	office overlay released in Q3; amount not disclosed
+special_mention_hfi	USD_K	423685	274187	195087	R-p8	
+substandard_hfi	USD_K	534789	459773	439761	R-p8	D-s20 prints 439,760
+criticized_classified_incl_hfs	USD_K		759588	648381	R-p2 D-s13	
+criticized_hfs	USD_K		25600	13500	R-p2	
+criticized_downgrades_quarter	USD_K		216100	55741	D-s13	Q2 figure is inflows per text
+criticized_payoffs_quarter	USD_K			107797	D-s13	
+pct_criticized_performing	PCT	88.0	83.4	73.9	D-s14	
+criticized_to_tier1	PCT	89.8	64.0	53.5	D-s14	
+past_due_30_89	USD_K		44100	357	R-p4	
+loans_hfs	USD_K	136506	49663	13534	R-p7	Q3 HFS inflows 0; sales 34,629; valuation allowance 1,500 (D-s13)
+income_producing_multifamily	USD_M	837.3	691.9	574.8	D-s16	43.1% criticized at Q3; 11% nonaccrual
+mf_maturities_2026q4	USD_M			265.7	D-s16	
+income_producing_office	USD_M			523.5	D-s18	2026 maturities 69.2
+cre_concentration	PCT		267.6	245.8	R-p2	
+total_deposits	USD_K	9463559	8185097	8034007	R-p7	
+brokered_share_of_deposits	PCT	35	32	28	D-s10	
+uninsured_deposits	USD_M			2415	D-s24	liquidity 4,713 = 195% coverage
+nim	PCT		2.52	2.60	R-p9	
+cet1	PCT		14.58	14.99	R-p11	
+tbv_per_share	USD		37.73	38.00	R-p12	
+shares_outstanding	SHARES		30490409	30480480	R-p12	
+aoci	USD_K		-93479	-112796	R-p7	

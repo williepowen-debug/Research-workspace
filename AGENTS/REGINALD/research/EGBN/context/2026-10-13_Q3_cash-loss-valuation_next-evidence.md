@@ -94,3 +94,7 @@ Use September 30 for Q3 balance-sheet outcomes and label later developments sepa
 - No current four-bank consensus, loan-level Q3 cash outcomes, new broker data or verified peer consumption obtained. Existing deferred inbox work remains under the October 12 owner-closeout dispositions; OZK handoff already integrated. No background polling promised.
 
 **Next useful action:** fill the existing outcome fields at the scheduled releases, then attach the sourced earnings/book/expectation comparison above. The most valuable new datum remains **Prince George's actual bank cash and attributable incremental expense**, with OZK's residual financing and property-sale cash next.
+
+## October20 late outcome append
+
+Boston pending sale FAILED in issuer Q3 comments p25:37.3M charge-off,132M retained OREO. New WOB022 reconciles the noncash event; the original H1 bridge is not rewritten. OZK Q3 PPNR261.427M/provision47.762M=5.47x is reported capacity only; book loss also reflects OCI/payouts. RaDD still has retained contractual risk; recognized-loss bound remains unknown. Eagle four named cash outcomes unavailable before10/21 disclosure. WAL call says four tracked credits sold outside bank without seller financing (SECONDARY/unnamed). Sources and explicit valuation limits→`2026-10-20_backlog-followthrough.md`. No changed multiple, loss forecast or trade proposal.
