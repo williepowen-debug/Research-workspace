@@ -365,7 +365,7 @@ As of this ruling, the recorded official run remains 2 of 3 through 2026Q2. Q3 h
 
 ## Prediction resolve-by sidecar (added 2026-10-22, DAEDALUS D:L793 item 5)
 
-`registry/PREDICTION_RESOLVE_BY.tsv` carries one dated `Resolve_By` per OPEN row in `workbook/PREDICTIONS.tsv`, with its anchor type (CALENDAR_DATE or EXPECTED_EVENT). The ledger itself is not edited because REG-01 and REG-06 are byte-frozen. `scripts/boot.py` reads the sidecar at every boot:
+`registry/PREDICTION_RESOLVE_BY.tsv` carries one dated `Resolve_By` per OPEN row in `workbook/PREDICTIONS.tsv`, with its anchor type: IMMOVABLE (statutory or contract deadline) or CHOSEN (an explicit decision date), per FORGE/PREDICTION_DISCIPLINE.md `finding_resolver_anchored_to_expected_event_inherits_slip_risk`. EXPECTED_EVENT anchors are not allowed; the 12:3x ET first version used them and was corrected 13:2x ET 10/22. The ledger itself is not edited because REG-01 and REG-06 are byte-frozen. `scripts/boot.py` reads the sidecar at every boot:
 - an OPEN row past its date → ALERT
 - an OPEN row with no sidecar row → INCOMPLETE
 
