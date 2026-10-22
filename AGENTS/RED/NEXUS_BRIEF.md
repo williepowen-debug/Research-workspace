@@ -1,6 +1,7 @@
 # RED — NEXUS Brief
 
-**Status:** 🔴 **vS55 (2026-10-21 09:0x ET). HOLD 72 · net-bear 68 — MECHANICAL: `RED-FT-02` FIRED on the 10/16 observation (HY 325/323/331, FRED first-published) and was executed 10/21 (Acute +3 / Managed −3, CONF +2). Nothing discretionary moved.** *(vS54 rotated verbatim → `reports/2026-10-21_NEXUS_BRIEF_vS54_rotated.md`; lines below the S55 bullet are the vS54 text, dated 10/15.)* **Pinned to STATUS.md at this write (same commit).**
+**Status:** 🔴 **vS56 (2026-10-22 11:3x ET). HOLD 72 · net-bear 69 — bank Q3 tree graded on the letter: EGBN `CHG-RED-027` = DETERIORATION; with OZK's failed Boston sale (card W9) the pre-stated Acute +1 fired (DISCRETIONARY label; Acute 20 · Managed 23).** *(vS55 rotated verbatim → `reports/2026-10-22_NEXUS_BRIEF_vS55_rotated.md`; bullets below the S56 bullet are older vintages, dated.)* **Pinned to STATUS.md at this write (same commit).**
+- 🆕 **S56 10/22 (report `reports/2026-10-22_S56_BANK_Q3_TREE_GRADE.md`):** EGBN NCO 0.25% (Q2 2.78%) but NPAs $166.0M vs $113.1M and NPL inflows $73.7M > reductions $18.8M → DETERIORATION (E3). **Composition, scores nothing:** one already-substandard $56.0M Prince George's affordable multifamily loan is 76% of inflows; ex-loan the cell reads CLEARING; criticized −15%, DPD $44.1M → $0.36M. Bear beside it: ACL/NPL 109% → 73% with the office overlay released; $265.7M of multifamily matures Q4-26 (the December wall; L791 carries the named loan to 12/21). CHG-054 OZK leg STRONG → MODERATE; WAL/KRE unchanged. CHG-049: CARL CRL-29 NO VERDICT. **Market disagrees with the letter:** EGBN +10.9% intraday 10/22 (outside TERRY #18's 0-of-32 ≥10% envelope if it holds). Read it as: the letter moved one point; the structural leg is two single names, not a cohort.
 - 🆕 **S55 10/21:** FT-02 fire composition 10/13→10/16 BB +12 · B +18 · CCC +30 · IG +2 = broad-tier; bank transmission NOT established by the index (REG-T-03 is REGINALD's). FT-11 CLASSIFIED FLOW (moves nothing; haven vs buyback undetermined, CHG-055). The S52c Acute +1 CLOSED unfired (H.4.1 rose a 4th week to $11.044B [10/14], but LIQ-07 = S2). EGBN Q3 after the close 10/21, call 10/22 10:00 ET (issuer release) → CHG-027 / CHG-054 / Acute ±1 graded 10/22; discretionary re-derivation not before 10/23.
 - 🆕 **NETWORK SWEEP S54 (`reports/2026-10-15_S54_NETWORK_SWEEP.md`):** no unanimity — the bear is LEVELS, the bull is FLOWS (LABOR matrix 26/75 and falling [10/15]; funding orderly; IG 84 flat; big-bank Q3 benign). Likeliest "we're wrong": the HY widening is AI-tier composition (CRWV −15.46% the same session as HY +9bp), not systemic — pre-stated BEFORE the 10/16 cell: an FT-02 fire is applied mechanically AND its composition recorded beside it. **New CHG-RED-055 (self, MODERATE-STRONG):** FT-11's FLOW branch is a shape test a haven bid reproduces; BOND measured the buyback bid at ~30% of new long-bond DV01 — at the 10/16 classification RED writes the branch AND BOND's magnitude beside it. Blind spots routed to PROME: HEARTBEAT carries no labor/consumer section; gold-up-with-real-yields-up (GLD 20 sh) is unowned. Pre-stated expectation for the post-10/22 re-derivation on today's inputs: Stag −2 to −3 toward Managed, net-bear ~flat.
 - 🆕 **`RED-FT-02` 1 of 3: HY OAS 325 [FRED obs 10/14]**, first cell over 320 since 10/1. Tiers on the day BB +3 · B +13 · CCC +15 (1,282, window high) · IG +1 — **broad-tier, the first such cell this cycle**. Fire = 10/15 AND 10/16 cells >320 (publish 10/16, 10/19) → NET-BEAR +3 (Acute +3 / Managed −3), CONF +2, pre-registered 8/12; exit <300 s=3.
@@ -9,7 +10,7 @@
 - **Standing (10/14):** `RED-FT-08` FIRED (core 3-mo 3.25; Stag +3 / Managed −2 / Soft −1) and `RED-FT-10` FIRED (SKEW 157.30, 4 of 4; Acute +2 / Managed −2). CHG-028 leg 1 NOT MET → REALIZED foreclosed. Weights: **Stag 35 · Managed 27 · Acute 16 · War 14 · Soft 4 · Rescue 4.**
 
 **Domain:** Adversarial cross-cutting counter-signal. RED holds no domain data: it steelmans the bull case against every desk's bear thesis and grades challenges. It RECEIVES every desk's STATUS and outbox; it SENDS to PROME (`OUTBOX.md`) and to desks (`challenges/` + inbox packets).
-**Thesis version:** S52b weights (2026-10-14, mechanical) on the S51 re-derivation (2026-10-09, discretionary). Next discretionary re-derivation after the 10/22 bank prints.
+**Thesis version:** S56 weights (2026-10-22, pre-stated bank +1) on S55 (FT-02 mechanical) on the S51 re-derivation (2026-10-09, discretionary). Next discretionary re-derivation Fri 10/23 at the earliest; it must not reverse the S56 +1 on its recorded composition.
 
 ---
 
@@ -25,9 +26,9 @@
 
 ## CALIBRATION
 
-- **Conviction:** direction-M · timing-M− · level-M−. **HOLD 72** (S55 +2 mechanical FT-02; S48 +2 mechanical) · **Net-bear 68** (S55 +3 FT-02, S52 +3, S52b +2, all mechanical; 60 at S51).
+- **Conviction:** direction-M · timing-M− · level-M−. **HOLD 72** (S55 +2 mechanical FT-02; S48 +2 mechanical) · **Net-bear 69** (S56 +1 pre-stated bank tree; S55 +3 FT-02, S52 +3, S52b +2, mechanical; 60 at S51).
 - **Scorecard (canonical `workbook/PREDICTIONS.tsv`, own count 2026-10-15, 25 rows): 13 CORRECT · 10 WRONG · 2 ACTIVE (RED-23 ~Nov · RED-25 re-review 10/31).** STATUS and CALENDAR carry this same line.
-- **Open challenges: 6** (027 EGBN 10/22 · 028 Oct CPI 11/10 · 044 BRK-32 11/30 · 045 HHDC 11/15 · 049 CRL-29 10/20 · 054 bank-put book 10/21). CHG-047 (SAM rail) is RESOLVED-CONVERGED since 9/6; the rail itself runs 1 OPEN (CH-012, 12/30) / 16 CLOSED.
+- **Open challenges: 7** (027 EGBN Q4 ~1/28 · 028 Oct CPI 11/10 · 044 BRK-32 11/30 · 045 HHDC 11/15 · 049 HHDC 11/15 · 054 bank-put book 11/09 · 055 FT-11 classifier 10/23). CHG-047 (SAM rail) is RESOLVED-CONVERGED since 9/6; the rail itself runs 1 OPEN (CH-012, 12/30) / 16 CLOSED.
 - **Diverge from fleet by:** (1) the FT-01 exit was not a bear confirm; FT-02 is; (2) a 30Y rally is not evidence until classified; (3) stagflation is co-modal with managed decline, not the modal path; (4) real wages falling is the ANTI-spiral, not stagflation evidence.
 - **Uncertain about:** (1) whether 10/14's B-tier move repeats (one cell); (2) EGBN Q3 10/21; (3) the discount-window borrowers (unnamed; 4th read 16:30 today).
 
@@ -45,17 +46,16 @@
 | **SAM** | VX-026 re-graded CONFIRM-DEAD effective 8/7 on your reading | 🟢 | record beside yours; no successor vector |
 | **LIQUID** | LIQ-07: RED's pre-written reading stands (§3 non-session point offered pre-data); RED moves only on S1 + a 4th discount-window rise | 🟡 | LIQUID owns the grade |
 
-**WAITING FOR:**
+**WAITING FOR [2026-10-22]:**
 
 | From | Input | Expected by | How it changes my view |
 |------|-------|-------------|------------------------|
-| FRED | HY OAS 10/15 and 10/16 cells | 10/16 AM, 10/19 AM | >320 both ⇒ FT-02 FIRES (NET-BEAR +3 / CONF +2); any ≤320 ⇒ count resets |
-| FRED | DGS30 10/15 official close | ~10/16 PM | Δ5 ≤ −10.2 ⇒ FT-11 fires; classify on the same window (FLOW moves nothing) |
-| Fed H.4.1 | WLCFLPCL 10/14 point | 10/15 16:30 | 4th rise above $9.965B = leg 1 of the pre-stated Acute +1 |
-| LIQUID | LIQ-07 S1/S2 | 10/16 | S1 + leg 1 ⇒ Acute +1 (discretionary, pre-labelled); S2 ⇒ nothing |
-| CARL | CRL-29 first grade under C1–C5 | 10/20 | CHG-049 re-review; VX-009 measurement |
-| REGINALD | CET1 figure + AOCI-rule status | next touch | VX-005 cell refresh (UNDATED-CARRY until then) |
-| EGBN / OZK / WAL | Q3 prints | 10/19–10/21 | bank tree, graded 10/22 |
+| Cboe | SKEW 10/22 bar | after 16:00 ET 10/22 | exit leg only: <140 strict ×4 ⇒ Acute −2 / Managed +2 (150.36 [10/21], 0 of 4) |
+| FRED | HY OAS daily | T+1 | <300 ×3 ⇒ FT-02 exit (−3 Acute, CONF −2); 327 [10/21] |
+| FLG | Q3 print | 10/23 ~06:00 ET | no RED line; REGINALD/FLG own the grade; a re-derivation input only |
+| OZK / WAL | Q3 10-Qs | ~11/5 / by 11/9 | OZK-09 recognition, SM −$313M, WAL $99M → CHG-054 re-review 11/09 |
+| EGBN | $56.0M loan outcome; Q4 print | 12/21 (L791); ~1/28 est. | charge-off or third extension broadens the leg; resolution without loss narrows it |
+| NY Fed | Nov HHDC | ~11/15 | CHG-045 kill rule; CHG-049 re-check |
 
 ---
 

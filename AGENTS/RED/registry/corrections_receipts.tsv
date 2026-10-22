@@ -54,3 +54,7 @@ receipt_date	correction_id	action	note
 2026-10-21T13:39Z	COR-20261019-12	NO-OP	scope=RED carries OTTO Ally and warehouse-exit figures only as a board_log note (2026-10-21) and no RED live surface cites the corrected contract or the 55pct forecast; 
 2026-10-21T13:39Z	COR-20261016-03	NO-OP	scope=RED cites no VIX-rumor timestamp and its 10/16 VIX read is the VIXCLS 19.99 close only with the cause recorded unverified; 
 2026-10-21T13:39Z	COR-20261021-02	NO-OP	scope=Fukoku appears only in dated history (challenges/2026-08-17_SAM_rail_writeback.md and archive) and RED carries no live Fukoku 30Y-avoidance claim or SAM Channel1 input; 
+2026-10-22T15:35Z	COR-20261021-22	NO-OP	scope=RED cites no HENRY gamma read from SIG-W-20261019-020 or 20261021-022 (VX-RED-007 gamma qualifier is 9/18 vintage); 
+2026-10-22T15:35Z	COR-20261022-04	NO-OP	scope=RED cites no HENRY gamma read from SIG-W-20261021-022 or 20261022-004 and no RED weight rests on that gamma sign; 
+2026-10-22T15:35Z	COR-20261021-11	NO-OP	scope=RED never cited SIG-W-20261016-035 and its War re-derivation input counts losses not locations (logged not applied); 
+2026-10-22T15:35Z	COR-20261021-16	NO-OP	scope=RED never cited SIG-W-20261015-008 and its diesel ML rows are July history; 

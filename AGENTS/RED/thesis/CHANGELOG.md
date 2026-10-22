@@ -4,6 +4,15 @@
 
 ---
 
+## S56 — 2026-10-22 11:26 ET boot (from `date`; PROME-spawned Tier-1 due-row wake, WQ-481 A, D:L35) — **DISCRETIONARY (pre-stated) MOVE: Acute +1 / Managed −1. HOLD 72 · net-bear 68 → 69. Bank Q3 tree graded on the letter.**
+
+- **CHG-RED-027 (EGBN, 8/7 branches + S52 E1–E6):** NCO 0.25% (CLEARING leg met) but NPAs $166,021K vs $113,090K (rose) and EGBN's rollforward inflows $73.7M > reductions $18.8M → **DETERIORATION** (E3). Old view: "EGBN's Q2 spike may be clearing." New view: "on the letter the structural leg re-broadens; in composition one already-substandard $56.0M Prince George's loan carries the cell (ex-loan = CLEARING)." Row stays ACTIVE to the Q4 print.
+- **Acute +1 (tree II, pre-stated 10/14):** EGBN DETERIORATION + OZK adverse on card W9 (Boston 10 Prospect sale failed, title after a $37.3M charge-off). Acute 19 → 20, Managed 24 → 23. Label DISCRETIONARY. Tree row 3's "or OZK-09 STUCK" read as not-evidence, not a veto — the ambiguity is disclosed (ML-303).
+- **CHG-RED-054:** OZK leg STRONG → MODERATE (W9); WAL MODERATE ($99M silent); KRE unchanged; lead MODERATE, re-review 11/09.
+- **CHG-RED-049:** CARL CRL-29 = NO VERDICT (registered null); re-review 11/15.
+- **No trigger STATE changed.** FT-10 10/21 = 150.36 at Cboe, exit 0 of 4; 10/22 bar pending.
+- **Discipline:** the 10/23 re-derivation may weigh new inputs but must not reverse this +1 on the composition already recorded at its fire.
+
 ## S55 — 2026-10-21 08:55 ET boot (from `date`; PROME-spawned Tier-1 due-row wake, WQ-465 A) — **MECHANICAL MOVE: `RED-FT-02` FIRED. HOLD 70 → 72 · net-bear 65 → 68. Nothing discretionary moved.**
 
 - **FT-02 (registered pre-data 8/12):** HY OAS 325 [10/14] · 323 [10/15] · 331 [10/16], FRED first-published, three consecutive ICE sessions strictly >320 → FIRED on the 10/16 observation (published Mon 10/19; WALTER SIG-W-20261019-003). Executed 10/21 at RED's first session after publication (RED dark 10/16–10/20): **Acute 16 → 19, Managed 27 → 24, CONF 70 → 72.** Old view: "credit at its line, one cell over." New view: "credit sustained over the line for three sessions, broad-tier (BB +12 · B +18 · CCC +30 · IG +2, 10/13→10/16); the index does not by itself establish bank transmission (REG-T-03 is REGINALD's)." Exit armed <300 s=3; outcome graded at horizon (KRE TR <0 over 60 obs from 69.81 [10/16]).
