@@ -25,7 +25,7 @@ WF source: `/home/willi/Research-Intake/scripts/newsweep_config.py` · SHA256 `4
 | CARL | Market | L4 | H | 2026-10-21 | Consumer & credit-transmission macro | L5 after CARL dispositions its17 stale child ledgers and6 attention war… | 4 |
 | LABOR | Market | L5 | H | 2026-10-21 | Labor market (claims / JOLTS / NFP) | SUSTAIN at next claims-grade closeout (after its source release) with o… | 12 |
 | BROCK | Market | L4 | H | 2026-10-21 | Private credit / BDC / non-traded credit | DAEDALUS conducts L5 per-leg confirmation at this PR: old three owner r… | 8 |
-| HAWK | Market | L4 | H | 2026-10-21 | Geopolitical synthesis (cross-war reconciliation, oil-decoupling thesis, war-risk/shipping) + dormant book (Taiwan/Venezuela/trade/chokepoints/defense/sanctions) — theaters split out 7/12††† ‡ | L5 requires a current substantive owner pass that performs the October… | 8 |
+| HAWK | Market | L4 | H | 2026-10-22 | Geopolitical synthesis (cross-war reconciliation, oil-decoupling thesis, war-risk/shipping) + dormant book (Taiwan/Venezuela/trade/chokepoints/defense/sanctions) — theaters split out 7/12††† ‡ | L5 requires closing registered due work (HAW-20 grade on its letter 10/… | 8 |
 | TERRY | Utility | L5 | H | 2026-10-21 | Trade construction / risk scoring ‡‡ | L5 retained at prior grade | 7 |
 | REGINALD | Market | L4 | H | 2026-10-22 | Regional banks | Adjudicate the L3 dated-falsification leg at the queued whole-profile r… | 6 |
 | MARCO | Market | L4 | M | 2026-10-21 | Florida migration / tourism (FL sub; reconcile w/ CORAL) | DAEDALUS confirm-read may restore Conf H after remaining matrix/figure/… | 5 |
