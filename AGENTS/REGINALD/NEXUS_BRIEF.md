@@ -1,8 +1,8 @@
 # REGINALD — NEXUS Brief
 
-**Status:** Concentrated bank risk. HY widening 266→333bp is BANK-ABSENT on bank instruments (~0.6); Q3 problem loans up at 6/6 names read while reserve coverage fell at 5/5 (descriptive).
+**Status:** Concentrated bank risk. HY widening 266→333bp is BANK-ABSENT on bank instruments (~0.6). Q3 problem loans up at 6/6 names read; the reserve-coverage-decline leg is **re-weighted** on DEWEY's base rate (2/10 hits within 4Q vs 25%).
 **Domain:** Regional-bank comparison, FHLB advances, hidden CRE and sponsor-bank balance-sheet risk.
-**As of:** 2026-10-22 13:37 ET, REG-28/29/30 registered (Will); owner closeout | STATUS commit: 1649186e3
+**As of:** 2026-10-22 13:38 ET, coverage leg re-weighted (DEWEY); owner closeout | STATUS commit: 26ddd45bd
 
 ## CROSS-DOMAIN
 
