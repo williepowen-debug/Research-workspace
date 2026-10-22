@@ -163,7 +163,8 @@ Edge devices are the fastest-growing class (11.3% of all entries, 15.2% of 2023+
 - **banking:** fiserv|jack henry|\bfis\b|fidelity national|finastra|temenos|q2 |alkami|ncino|\bncr\b|diebold|evertec|corelation|hyland|bottomline|aci worldwide|oracle flexcube|finacle|symitar|backbase
 - **file transfer:** moveit|goanywhere|accellion|kiteworks|crushftp|serv-u|cleo|wing ftp|sftp|filezilla
 - **edge:** fortinet|forti|ivanti|pulse|citrix|netscaler|sonicwall|palo alto|pan-os|cisco asa|firepower|adaptive security|f5|big-ip|barracuda|zyxel|check point|juniper|sophos|watchguard|array networks|sangfor|draytek
-- **PHP/CMS:** \bphp\b|wordpress|drupal|joomla|magento|vbulletin|phpmyadmin|thinkphp|laravel|craft cms|roundcube|zimbra|horde|cacti|glpi|elfinder
+- **PHP/CMS:** \bphp\b|wordpress|drupal|joomla|magento|vbulletin|phpmyadmin|thinkphp|laravel|craft cms|roundcube|zimbra|horde|cacti|glpi|elfinder|wp (the trailing "wp " catches WordPress plugin entries; without it the class reads 68, not 70)
+- **Tool:** `scripts/kev_classes.py` (promoted 2026-10-22) reproduces this table.
 - **open-source:** apache|log4j|struts|spring|jenkins|openssl|redis|elasticsearch|confluence|jira|atlassian|gitlab|nginx|tomcat|rails|node|python|linux kernel|sudo|polkit|bash|exim|samba
 - **Microsoft:** microsoft|windows|exchange|sharepoint|office|internet explorer|\.net
 - **Apple/Google/mobile/browser:** apple|ios|macos|safari|google|chrome|android|webkit|mozilla|firefox|samsung|qualcomm
