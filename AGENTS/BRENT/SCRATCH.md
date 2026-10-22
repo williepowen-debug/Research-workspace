@@ -17,6 +17,7 @@
 - HENRY December crack observations ADOPTED on the WQ-420 native-tick basis, extended to 10/20 and 10/21 (95.0479, near-line); packets to HENRY and TERRY, plus a direct message to HENRY. [Adoption](research/2026-10-21_henry-december-adoption/REPORT.md).
 - Kpler October check: Kpler primary 10/1 has crude ~100% and clean products ~50% below pre-war; the October weekly is relay-only; 24.6 regional not adopted. [§8](research/2026-10-21_eia-oct21/REPORT.md). Six dated next-step rows added to the docket; calendar regenerated.
 - Key-file pass (22:08 ET, from `date`): THESIS dated October 21 paragraph (v5.13 kept); TRADE pointer to the published leg-A observations; REGISTRY KILL-LEG2-JWC-LISTING re-stamped 10/21 (instrument check no longer blocking); STATUS JWC row reconciled 10/21; TRACKER weekly retail cell; workbook README pointer; WALTER -022 filed (already executed). Ledgers left unchanged on purpose: LESSONS_INDEX (no lesson), INCIDENTS (no confirmed facility damage), COT_VINTAGES (next release 10/23), USO observations (no new positioning data).
+- Final fold (Will 22:29): incident findings carried into THESIS point (5), TRADE company context, NEXUS (SENDING row, VIEW bullet, two open tensions, issuer WAITING-FOR row), workbook README and CHANGELOG.
 - Auto-memory: extended `finding_a_stamp_written_from_narrative_drifts_from_the_wall_clock` (two typed '21:5x' stamps fixed pre-commit).
 
 ## NEXT SESSION (dated, future-verifiable)
