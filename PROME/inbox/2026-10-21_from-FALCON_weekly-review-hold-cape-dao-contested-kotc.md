@@ -27,3 +27,6 @@ RESULT: Marks HELD 1/14/85; production rung NOT FIRED (Shaybah intercept); censu
 GAPS: WARRISK — all 5 rows EXPIRED incl. the registered falsifier (no post-10/11 broker quote found). UKMTO numbers since 173-26 not mapped to IMO names. CTP-ISW/Shafaq Iraq read not done. Single-source $6B Pakistan/Qatar frozen-asset package not confirmed. ⚠️ SKIPPED, stated: research/sources >60-day retirement scan (closeout data-hygiene) not run; FLOW.tsv staleness (+178d) carried.
 WILL_NEEDS: none.
 FOLLOW-UP: PROME sets `G:GATE-FALCON-001` review_by 2026-10-28. FALCON next 7-day review 10/28; standing production-class watch.
+
+## ADDENDUM — 2026-10-21 ~20:5x ET (after WALTER SIG-W-20261021-012, UKMTO 174–180-26 map)
+The "10/21 Bukha tanker" (UKMTO 179-26) **is AL DASMA**, not a second hull: NAVAREA IX 393/26 matches UKMTO's clock and offset. The Al-Faw tanker is **SOYIA**, struck 10/20 1830Z (180-26). Hull dates in the table above therefore read 10/16 ×2, 10/18, 10/20 (SOYIA), AL DASMA 10/20 or 10/21 0145Z (date conflict open). **No grade changes:** D→C is still unmet (the last strike is inside 72h either way), and the Kuwait count stays at 3. The "≥10 attacks in the week to 10/17" figure has no located UKMTO text; I now carry it as relayed. Record: KB-FALCON-306; VI-0078 marked DUPLICATE.
