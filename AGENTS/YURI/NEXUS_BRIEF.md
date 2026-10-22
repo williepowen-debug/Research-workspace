@@ -28,41 +28,39 @@
 **WAITING FOR:**
 | From | Input | Expected by | Why it matters | How it changes my view |
 |------|-------|-------------|----------------|------------------------|
-| Russian publication sources | Signed partial-lift act/annex and №686 goods-code implementation | Existing diesel request due 14 October | Announcement lacks act number, eligible firms and full conditions | Resolves scope and old-exemption overlap; never establishes physical delivery by itself |
-| Declaration sources | Excluded saved story bodies and later eligible publications for YUR-004 | Next registered review 16 October | Title-level negatives cannot exclude an operative declaration under a generic title | A qualifying declaration can HIT; unread relevant text cannot become MISS |
+| Russian Government (pravo government block) | Amendment to №954 ¶4/¶2(г), or none | Signed ≤31.10, published ≤02.11 | Decides whether n=0 producer diesel exports open on 01.11 | YUR-005 HIT (postponed/replaced with prohibition) or MISS (lapse); consequences go to BRENT/DEWEY/OSPREY |
+| President (pravo presidential block) | Further Decree-302 list amendment after №738 | Published ≤15.11 | Tests whether custody keeps widening during the US talks track | YUR-006 HIT/MISS; any disposal clause is logged for the L434 successor |
+| Declaration sources | Eligible mobilisation declaration, title or operative text | Reads 10/23, 10/30; final 10/31 (backfills to 11/02) | YUR-004 | A qualifying declaration HITs; a NOT-DECIDED read on the final perimeter MISSes |
+| DAEDALUS | YUR-F01 grade | 10/24 | Desk premise test, 0/3 | The zero-call branch ⇒ retire/re-merge proposal, Will rules |
 
 ---
 
 ## VIEW
 
-- Follow-up keeps legal permission, issuer statements, observed outcomes and inference distinct (`research/2026-10-12_energy-control-investigation.md` §7). Current diesel daily records for a 10–12 versus 3–5 October comparison are unavailable; the older provider reference is gross loadings with indicated destinations, not confirmed discharge or a policy-caused increment. DEWEY/BRENT retain the 14 October delivery/economic work.
-- №686 annex §4 describes specified producer/group planned sales and concluded main-session transactions for each trading day; it does not identify every public publisher/form or establish exchange-wide aggregate withholding. SPIMEX failures remain own-access observations, S&P's 29 September article covers pre-decree data, and Bloomberg's reported weekly crude print remains B3/UNCONFIRMED at its owner. No new blackout, cessation, VOID or grade; OSPREY retains 15 October.
-- METRO №689 takes effect on 28 September publication and covers five interests in three entities under UK Torg RUS. Original №302 delegates owner powers except disposal and finances management from property income; current cash/dividend access and accounting effects are not established. Aptar remains separate: SEC index has no later listed filing than its 21 September event disclosure; 29 October Q3 results is the issuer's announced schedule, not a fleet reassignment or loss estimate. No additional registry-history read was needed.
-- METRO's 28 September issuer statement reports loss of operating control while ownership remains; FNS extracts generated 13 October 02:45 Moscow during this 12 October ET session retain the foreign stakes in Aptar Vladimir and METRO Cash & Carry. Register fields do not establish cash access, valuation or undisclosed transfers. Aptar's 21 September 8-K authenticates the US-listed parent and bounds its unit's historical 2025 exposure; no current loss estimate or pricing-owner assignment. Exact fields and limits: `research/2026-10-12_energy-control-investigation.md` §3.
-- №1272 of 30 September was previously misclassified as an asset-management companion. Complete 2-page text amends space-activity licensing; dated correction notice added to the as-made 2 October memo, grade unchanged. Public Minenergo JSON search now works; bounded diesel/code negatives do not close the legal perimeter. The familiar diesel/refinery linkage already exists at HAWK, so this research earns no F01 credit.
-- Selective petroleum-export and bank-transaction permissions coexist with special-measures controls. The 12 October №727 amendment concerns Sakhalin funds management; it is not the diesel-lift instrument.
-- YUR-004 remains OPEN through 31 October. The 12 October review read 19 in-window act titles, finding 0 mobilisation-declaration titles; complete military/FSB scans were also read. Catch-up completes №723 pages 4–33: all 19 saved act PDF bodies now read in full, plus 6 selected Kremlin published bodies. No declaration in inspected text; 23 excluded saved story URLs, referenced documents and future publications retain partial perimeter. Exact coverage is in `research/2026-10-12_targeted-coverage-catchup.md`.
-- The signed extension is no longer wire-only. The current lift is primary-confirmed as an announcement; its signed implementation and realized extra supply remain unresolved. Original №954 contains three non-public exemptions, and is not a consolidated October text. The bounded PROME follow-up read signed №1097 of 28 August and reconstructed the three identified public date acts; the October signed lift/annex remains SEARCH-NOT-FOUND on a partial perimeter. No new operative permission or delivery finding.
-- Newly read №686 permits company self-disclosure about its own activities; its information-category annex is not the separate goods-code list. №661/674/689 add 35 interests across 20 Russian entities under three managers; original №302 excludes disposal. FNS ownership fields now corroborate foreign interests in two named entities, while a full framework consolidation and executed share transfers remain unauthenticated.
-- Minerva Zen is not positive diesel-delivery evidence: DEWEY's current provider source identifies UAN and preserves customs/quantity limits. No zero-other-deliveries inference.
+- **Two tracks at once (Kremlin 21.10; pravo 15.10):** rapprochement with Washington (diesel tankers readied, first 40,000 t "in two to three days" with financing open; pardon of a US citizen; "in principle ready" for RU–US–UA talks mid-November) alongside widening custody of Western assets (№738 = 4th Decree-302 list amendment in 4 weeks, 9 interests, new manager УК "ЦЕНТР КАПИТАЛ", no disposal clause). Record: `research/2026-10-21_L432-read-and-actor-update.md`.
+- **No title movement at the registry:** ЕГРЮЛ 22.10 04:24 Moscow shows Nestlé Russia (SPN 84.082% / Nestlé Deutschland 15.918%) and Auchan (Sogepar 99.99858%) unchanged. LEV entered as management organisation 23.09 (Nestlé) and 21.10 (Auchan): custody registered, not disposal.
+- **Diesel regime (precise form, §9):** the whole ban runs to 31.01.2027. №1252 moved the ¶2(г) n=0 producer diesel exemption start to 01.11 and ends the ¶2(в) EAEU exemption 31.10. The 500 kt permission (10.10) is announced; its signed act/annex is still unlocated. "Lifted" is wrong (WALTER correction COR-20261021-16).
+- **Information/compliance control:** №686 (TEK information restriction; goods-code list still unlocated) and №750 (prior-consent gate on strategic JSCs and subsidiaries answering foreign regulators; change vs prior wording not compared).
+- **Mobilisation:** no declaration through 21.10 in any reachable act or Kremlin body; residual gaps are structurally unreadable (mil.ru UNREACHABLE 10/22 01:28Z; unpublished numbers).
+- **№738 listed exposure:** Sonoco (SON) VERIFIED at its 10-K Ex.21 (26.02.2026); Smurfit Westrock UNVERIFIED with contrary evidence; Tarkett/Ontex/Menshen UNVERIFIED. Ownership routing is PROME's; not priced.
 
 ---
 
 ## CALIBRATION
 
-- **Conviction:** direction-L · timing-L · level-n/a (a decision/no-decision question with no band).
+- **Conviction:** direction-L · timing-L · level-n/a. YUR-005 p=0.60 (postponement), YUR-006 p=0.70 (fifth amendment).
 - **Diverge from market by:** n/a. Russia has no investable surface.
-- **Cross-agent tensions known to me:** the broad exercise-absence counter-indicator conflicts with the Kremlin's dated Tsentr report. Diesel permission and refining recovery are distinct measurements.
-- **Uncertain about:** signed diesel act/annex and goods-code list; 23 excluded saved story bodies and later publications; delivered increment and its overlap with prior exemptions. MoD implementation is outside YUR-004's declaration perimeter.
-- **Failure patterns to mind:** a press-cycle "imminent" claim recorded as DECIDED; belligerent or anonymous headcounts (300k) adopted as figures.
+- **Cross-agent tensions known to me:** none open. The 008 "lifted" framing is corrected at WALTER (BOARD -016).
+- **Uncertain about:** the signed 500 kt act/annex; the №686 goods-code list; unpublished decree numbers; the closed parts of Kremlin meetings.
+- **Failure patterns to mind:** a press-cycle "imminent" or "lifted" claim recorded as DECIDED; a registry lag (LEV entry) read as a new decision; a holder name read as a listed parent.
 
 ---
 
 ## NEXT DECISION POINT
 
-- **What:** YUR-004 public-declaration checkpoint; existing diesel signed-instrument answer remains PARTIAL.
-- **When:** 2026-10-16 (next registered mobilisation read); diesel commission due 2026-10-14.
-- **What would change my view:** a date-eligible declaration in title or operative text; the signed diesel exception/annex clarifying scope. Delivery remains a channel-owner observation.
+- **What:** YUR-004 weekly read (Fri 10/23), then the YUR-F01 grade (Sat 10/24, DAEDALUS).
+- **When:** 2026-10-23 / 2026-10-24; Government diesel decision by 2026-10-31.
+- **What would change my view:** a date-eligible declaration; a №954 amendment; a №302 list act carrying disposal or a buyer.
 
 ---
 
@@ -70,9 +68,11 @@
 
 | Date | Event | Threshold / Signal |
 |------|-------|---------------------|
-| 2026-10-14 | Existing DEWEY diesel delivery deadline | Signed instrument/annex and physical-increment gaps remain separate |
-| 2026-10-16 / 23 / 30 | YUR-004 registered weekly reads | Eligible public declaration in title or operative text |
-| 2026-10-24 | YUR-F01 desk self-falsifier | Current 0 of 3 qualifying calls; DAEDALUS grades, Will rules any retirement proposal |
-| 2026-10-31 | YUR-004 final grade | Full eligible-date/text coverage; backfill only in-window acts through 11/02 |
+| 2026-10-23 / 30 | YUR-004 registered weekly reads | Eligible public declaration in title or operative text |
+| 2026-10-24 | YUR-F01 desk self-falsifier | 0 of 3; DAEDALUS grades, Will rules any retirement |
+| 2026-10-31 | YUR-004 final grade · №954 ¶2(в) EAEU exemption ends | Full eligible coverage; backfills to 11/02 |
+| 2026-11-02 | YUR-005 grade | №954 ¶2(г) postponed/replaced vs lapsed |
+| mid-Nov | RU–US–UA talks (Ushakov 21.10, "in principle") | HAWK reaction leg; calendar only |
+| 2026-11-15 | YUR-006 grade | Further Decree-302 list amendment published |
 
-Evidence: `research/2026-10-12_energy-control-investigation.md`, `research/2026-10-12_actor-review-and-diesel-instruments.md`, `research/2026-10-12_prome-directed-diesel-followup.md`, `research/2026-10-12_round2-unread-body-coverage.md` and `research/2026-10-12_targeted-coverage-catchup.md`; canonical row state: `workbook/INTENT_LEDGER.tsv`. NEXUS mapping is present; consumption of this new brief is not asserted.
+Evidence: `research/2026-10-21_L432-read-and-actor-update.md` (current), `research/2026-10-12_*` (prior vintage).
