@@ -1,6 +1,8 @@
 # DEEP-RESEARCH CANDIDATE FLAG — Proposal
 
 **Status:** ✅ **RATIFIED & SHIPPED (2026-06-19)** — landed as CHECKLIST v0.18 (Phase 2.8), extended v0.20 (DEWEY-executor) → now v0.22; live ledger `registry/DEEP_RESEARCH_FLAGGED_LOG.tsv` + `walter_doctor` `deep_research_pending_overdue` check both operational. This doc is retained as the historical design spec — **do NOT re-land.** *(§9 ratification checklist below is satisfied; was: "PROPOSAL, endorsed PROME+WALTER 6/19, ready to ratify".)*
+> ⚠️ **SUPERSEDED IN PART 2026-10-22 (CHECKLIST v0.53, Will-approved):** the "Will decides every time", "~1-2/week" cadence and "embed the packet verbatim" rules below are no longer live. WALTER now holds standing commission authority (told after; cap 3 per sitting, 5 queued) and publishes returns as summary plus pointer. **Live canon: `SIGNAL_PROCESSING_CHECKLIST.md` Phase 2.8/2.8b.** This document is history.
+
 **Date:** 2026-06-19
 **Origin:** Will idea ("give me a heads-up when a signal would benefit from a deeper / surrounding research task") → WALTER first-pass design (Telegram, 6/19) → design review + drafting (Claude Code helper session, branch `claude/brave-gates-jl3699`) → **PROME review 6/19** → **WALTER ratification-review 6/19**
 **Reviewed:**
