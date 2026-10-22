@@ -1,4 +1,4 @@
-# HENRY — 2026-10-21 after-close boot and catch-up — DONE
+# HENRY — 2026-10-21 after-close boot, catch-up, desk sweep and fixes — DONE
 
 **RESULT:** Market fragility eased over two sessions: SPX is back above its estimated gamma flip, so dealers now damp moves rather than amplify them, though only by 8–13 points. Credit has not confirmed the recovery (HY 329bp on 10/19, still above the 320 line). Southwest's Q3 landed in a gap in my HEN-46 letter. The row resolves after American reports Thursday morning, under a disposition I wrote down tonight before American prints.
 
@@ -26,7 +26,13 @@
 - `2e59e4d8a` HENRY: 10/21 boot - gamma POSITIVE both, HEN-46 LUV leg, calendar rebuilt
 - `1ce61b98c` HENRY -> WALTER: gamma POSITIVE both horizons, F1 near-line notice
 - `d31e7cd77` HENRY -> PROME: econ calendar refreshed, five wake-row requests
-- Closeout commit carrying this file and the NEXUS_BRIEF fold (hash in the push receipt / message to PROME).
+- `1bfc034e1` HENRY: closeout 10/21 - LAST_COMPLETION and NEXUS_BRIEF fold
+- `4d63d9677` HENRY: correct narrative-typed time stamps to commit clock
+- `870a4bbd9` HENRY: desk sweep report 10/21
+- `f4c107744` HENRY: sweep fixes - dashboard, evals, charter counts, STATUS headers
+- `f641453cc` HENRY: sweep second pass - gamma cross-horizon guard, archive, outbox, carry-ins
+- `c0973a861` HENRY: receipt COR-20261021-22 APPLIED
+- Final closeout commit carrying this list (hash in the push receipt).
 
 ## NEXT SESSION FOLLOW-UP (dates Will cares about)
 - **Thu 10/22:** American Q3 before the open (call 08:30 ET), Southwest call 10:00 ET → HEN-46 resolves.
@@ -37,7 +43,7 @@
 Cyclical: inflation pressure persists, 10Y above 5%. AI-capex: HEN-36 mechanism confirmed; Meta raised the low end of 2026 capex to $135B with a negative-FCF quarter (VULCAN grades). Structural credit: tail stress persists, no funding spiral established. Gamma positive but thin.
 
 ## WILL_NEEDS
-None. No trade, no Telegram send.
+None to decide. **One operational need:** someone must start a HENRY session Thursday 10/22 before 08:30 ET. DOCKET L769 is a calendar row, not an automatic wake, and HEN-46 resolves on American's pre-open results. No trade, no Telegram send.
 
 ## HONEST SCOPE
 Claude Code, Opus 5.5 (`claude-opus-5-5`); native session ID not exposed. Root and desk instructions read explicitly. Subagents: three Opus eval runners only (no rubric in their context); no other delegation. PROME (prome-56) live concurrently; no pull this boot because other desks have uncommitted work in the tree. Packets delivered as files; recipient consumption UNKNOWN. Gamma is a free-tier proxy; all tape values are vendor quotes, not exchange-certified closes.
