@@ -133,13 +133,21 @@ FULL closeout 2026-10-22T00:56:28Z. Nine evening dispatches; seven WALTER commit
     {
       "commit": "fa6e75433",
       "state": "published"
+    },
+    {
+      "commit": "a21050a1b",
+      "state": "published"
+    },
+    {
+      "commit": "76ff01336",
+      "state": "published"
     }
   ],
   "delivery": {
     "signal_date": "20261021",
-    "total": 54,
-    "delivered": 54,
-    "note": "All 54 October21 handoffs (001-015) published on origin/master after reconciliation; 013-015 were carried by another session push. Publication, not consumption."
+    "total": 65,
+    "delivered": 65,
+    "note": "All 65 October21 handoffs (001-017) published on origin/master after reconciliation; publication, not consumption."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
