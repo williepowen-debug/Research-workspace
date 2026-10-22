@@ -40,4 +40,4 @@ FAL-06 OPEN (70%, 2026-11-05). No Will decision pending. PROME to set `G:GATE-FA
 In: 0 (16 consumed). Out: PROME memo `2026-10-21_from-FALCON_weekly-review-hold-cape-dao-contested-kotc.md`; HAWK inbox `2026-10-21_from-FALCON_kotc-third-kuwait-hull.md`; SendMessage reply to walter-14.
 
 ## PENDING PUSH / GIT
-See the closeout commit. ⚠️ SKIPPED this session, stated: research/sources >60-day retirement scan; FLOW.tsv freeze-or-refresh. Foreign dirty paths (WALTER registry/routed logs, BOARD/INDEX.md, other desks' inbox files) are not mine — untouched.
+All FALCON paths committed + pushed (safe-push receipts each round; last before this commit: HEAD d4720ac9b on origin). Packets: PROME memo 10/21 (+ addendum), PROME prome-56 four-item packet, HAWK KOTC note — all committed under carve-out ①. Two stamp corrections made (narrative "21:0x" vs wall clock 20:5x). ⚠️ SKIPPED this session, stated: research/sources >60-day retirement scan; FLOW.tsv freeze-or-refresh. Foreign dirty paths (WALTER registry/routed logs, BOARD/INDEX.md, other desks' inbox files) are not mine — untouched.
