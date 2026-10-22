@@ -1,36 +1,38 @@
-# OSPREY SCRATCH — 2026-10-20 (Tue) · 09:19 ET (from `date`) · osprey-1020 · PROME Tier-1 due-row spawn (WQ-184: DOCKET L666 Azov C2 lead + L0 inbox drain)
+# OSPREY SCRATCH — 2026-10-21 (Wed) · 20:26 ET (from `date`) · osprey-1021 · owner boot with Will (news catch-up 10/18→10/21)
 
-*Rewritten in full (template). The 10/18 SCRATCH is in git history (`git log -1 --format=%h -- AGENTS/OSPREY/SCRATCH.md` before this commit).*
+*Rewritten in full (template). The 10/20 SCRATCH is in git history.*
 
 ## CURRENT MARKS (one line)
-- Refineries/products **5** · crude-export terminals **5 RE-ARMED 10/18** (killed ⚪1 10/9→10/18) · shadow-fleet tankers **3** · band ~30% [EST] · Brent → BRENT.
+- Refineries/products **5** · crude-export terminals **5** (re-armed 10/18) · shadow-fleet tankers **3** · band ~30% [EST] · Brent → BRENT.
 
-## CHANGES SINCE LAST SESSION (10/18 17:55 ET → 10/20)
-- St Petersburg Oil Terminal (PNT) + Ruchyi depot hit overnight 10/17–18 (governor-confirmed fires). PNT = Gulf of Finland products-export sea terminal ⇒ C2 re-arm.
-- Palaemon 12–18 Oct still NOT posted (10/20 ~09:1x ET). No 10/19 strike found in one name-free query.
+## CHANGES SINCE LAST SESSION (10/20 09:19 ET → 10/21)
+- Tambov: Transneft Nikolskoye LPDS (Druzhba) burned 10/20 — inland, companion watch.
+- Ryazan 10/15: CDU-6 shut, 3 CDUs running (Reuters 10/16).
+- Found a ledger gap: Sulina tankers Yara J 10/14 + Wine Trader 10/15 (attacker unnamed, not C3-qualifying).
+- Kommersant: southern ports near-halted for dry cargo (no oil figure). Novak: first US diesel cargo 10/22.
+- Palaemon 12–18 Oct STILL not posted (10/21 ~20:2x ET).
 
 ## WHAT I DID THIS SESSION
-- **L666 Azov:** re-checked (Palaemon index, DefenseMagazine, Seawanderer, EN/RU searches) — still OPEN-UNRESOLVED, not graded on absence (KB-208). Azov row updated in place.
-- **C2 RE-ARMED at 5 as of 10/18** on `RU-20261018-STPETERSBURG-PNT` (KB-207); Ruchyi depot rowed (no clock). STRIKES mark NOT advanced (stays 10/11).
-- Inbox 4/4 dispositioned (board_log): 3 WALTER moved to processed; PROME L661 read-2 packet DEFERRED, left at inbox top level for 10/23.
-- Outbox signal to BRENT/HAWK; STATUS / NEXUS_BRIEF / memo to PROME.
+- Boot: pull (clean tree), STATUS/SCRATCH/LESSONS, staleness checks (all rc 0), corrections check PASS, strike_feed.py attended run (21 rows; 17 NONE all dispositioned; 1 false MATCH Crimea→PNT).
+- Date-by-date EN/RU sweep 10/18→10/21 + article reads. STRIKES +3 rows, Ryazan updated; mark NOT advanced (stays 10/11; Palaemon unposted).
+- KB-209…214. board_log +3; 3 WALTER signals → processed. STATUS rotated 10/16 block → `archive/STATUS_ROTATED_2026-10-21.md`.
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **~10/20+:** Palaemon 12–18 Oct — C3 10/12–10/18, Azov 10/10 (L666), PNT 10/18; certifies the ledger past 10/11.
-2. **~10/20–21:** +5d re-reads Ryazan 10/15, Surgut ZSK 10/16. **~10/23:** PNT damage/halt re-read.
-3. **10/23:** L718 graded on its date (leg A cannot be met before 10/29) + **L661 read-2 fix** (acceptance first; guard; CX2-1/2/3/11/14 tests; CX2-13 declared; 4 ⚠️). PROME then commissions read 3 (last).
-4. **Before 10/27:** C3 limb-2 canvass (10 outlets + TD6), carrying KB-206. **10/27** earliest C3 limb-1 kill.
-5. **11/2:** C1 aggregate blackout UNREACHABLE flag if nothing prints. **11/8:** §5 EXIT RULES re-read. **11/17:** C2 earliest re-kill. **11/18:** GATE-OSPREY-001.
+1. **10/23:** L718 (leg A cannot be met before 10/29) + **L661 read-2 fix** (packet still in `inbox/` top level). PNT +5d re-read.
+2. **~10/23+:** Palaemon 12–18 Oct — C3 10/12–10/18, Azov 10/10 (L666), PNT; certifies the ledger past 10/11.
+3. **~10/26:** Tambov/Druzhba flow notice check (KB-209). Surgut ZSK +5d still owed.
+4. **Before 10/27:** C3 limb-2 canvass (10 outlets + TD6) for HAWK; carry KB-206 + KB-211. **10/27** earliest C3 kill — run a time-indexed maritime sweep first (LESSONS 8).
+5. **11/2** C1 blackout flag · **11/8** §5 re-read · **11/17** C2 earliest re-kill · **11/18** GATE-OSPREY-001.
 
 ## OPEN THREADS / WATCHES
-- 🔴 Refinery tempo (each refinery row resets the C1 14-day leg). 🟠 C2 live again — next in-geography row and PNT halt. 🟠 Azov 10/10 (backdate only).
+- 🔴 Refinery tempo (quiet 10/16→10/21 is a search result, not a pause claim). 🟠 C2 next in-geography row; PNT halt. 🟠 C3 near its clock — distrust quiet.
 - 🟡 Carried, unchanged: OWED-30 · 42/50 · 43 · 44 · 45 · 46 · 48 · 51.
 
 ## PREDICTIONS DUE / DECISIONS PENDING
-- Book empty. No Will-gated decision opened (the re-arm is the letter's own restore, not an upgrade).
+- Book empty. No Will-gated decision open.
 
 ## MAIL STATE (one line per surface)
-- Inbox: 1 top-level (PROME L661 read-2, deferred to 10/23). WALTER lane: clear (0). Outbox: 1 (BRENT/HAWK C2 re-arm).
+- Inbox: 1 top-level (PROME L661 read-2, due 10/23). WALTER lane: clear. Outbox: nothing new.
 
 ## PENDING PUSH / GIT
-- Path-scoped commits; push via `scripts/safe-push.sh`. Tree also carries WALTER untracked caches; not touched.
+- Path-scoped commit of `AGENTS/OSPREY/`; push via `scripts/safe-push.sh`.
