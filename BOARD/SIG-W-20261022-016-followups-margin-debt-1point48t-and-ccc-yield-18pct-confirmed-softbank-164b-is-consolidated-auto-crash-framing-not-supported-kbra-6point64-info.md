@@ -20,6 +20,9 @@ word_count: 403
 entities: ["FINRA", "margin-debt", "BAMLH0A3HYCEY", "SoftBank-Group", "9984.T", "KBRA", "non-prime-auto-ABS", "Reuters-Breakingviews"]
 event_window: "closed"
 dispatch_note: "Verification follow-ups on 029, 018/001 and 019; two relay framings not supported ('second-highest', 'crash'). Not correction-class: no routed figure superseded, relayed claims were already marked unverified."
+status: PARTIALLY-CORRECTED
+status_ref: "SIG-W-20261022-040 (FINRA ranks Sep-2026 second of 357 months; the row-1 'second-highest NOT SUPPORTED' line is wrong)"
+status_date: 2026-10-22
 ---
 # Follow-up checks on four earlier relays: margin debt $1.48T and CCC yield 18% CONFIRMED at the primary; SoftBank's $164B is CONSOLIDATED debt (parent-only about ¥12.2T); the "auto-loan crash, per Reuters" framing is NOT supported (KBRA subprime 60+ day delinquency 6.64% in September, only +0.03pp year on year)
 
