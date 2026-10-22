@@ -1,6 +1,6 @@
 # OZK — Research TODO / Backlog
 
-**Last updated:** 2026-10-22 — Q3 graded (Stage-1 10/21, Stage-2 10/22); **P-OZK-7 applied: THESIS v1.7, conviction 🟡 LOW (WQ-483)**; housekeeping sweep done (`reports/2026-10-22_self-sweep.md`): G3 and T1 closed. Next: Q3 10-Q ~11/5 (D7). · Prior 2026-10-12 — L690 review/card/Horton bounded leg complete.
+**Last updated:** 2026-10-22 13:3x ET — **DAEDALUS D:L793 fix batch worked with Will in session:** THESIS invalidation 6–8 added (347d0722e) · Q3 folded into SCENARIOS/WEAKNESSES/PRIVATE_CREDIT (314e84f09) · **P-OZK-8 re-weight applied, Will 12:42 ET** · OZK-10/11/12 registered + boot past-due check · flng_watch baseline → 12022, CALENDAR dup removed, KB_INDEX 210/218/219. **Owed:** re-base SCENARIOS price ranges on Q3 EPS/TBV. Earlier 10/22 — Q3 graded (Stage-1 10/21, Stage-2 10/22); **P-OZK-7 applied: THESIS v1.7, conviction 🟡 LOW (WQ-483)**; housekeeping sweep done (`reports/2026-10-22_self-sweep.md`): G3 and T1 closed. Next: Q3 10-Q ~11/5 (D7). · Prior 2026-10-12 — L690 review/card/Horton bounded leg complete.
 **Dated items also live in `CALENDAR.md`; this file is the research queue.**
 **▶ WORK ORDER (L690, Will-approved 10/12):** run the ready Q3 card at L520; review Horton unresolved disposition at original 10/14 checkpoint. Broader reserve-model rebuild **DEFERRED** pending decision-relevant Q3 inputs; no general subdomain refresh.
 
@@ -22,7 +22,7 @@
 | D2 | ✅ **DONE 10/2** — Q3 release Tue 10/20 after close, call Wed 10/21 8:30 ET (OZK release 9/30); CALENDAR + boot.py set · ~~Q3 date~~ | (the 10/1 'not announced' was wrong — FLNG omits press releases) | Aggregators guess ~10/15 |
 | D3 | ✅ **DONE — Stage-1 graded 10/21, Stage-2 (call) read 10/22** → `research/threads/2026-10-22_Q3_CALL_STAGE2_READ.md`; conviction re-grade proposed (P-OZK-7, Will-gated) · ~~Q3 scoring card READY~~ — prepared 10/12 under L690 | **Run** 10/20 AMC / 10/21 08:30 ET; check-by 10/31 | `workbook/Q3_2026_SCORING_CARD.md`; original priors/definitions unchanged, no Q3 observation graded. Boston/OREO/SM/earnings + remaining RaDD accounting/budget/rating questions |
 | ~~D4~~ | ✅ **DONE 9/24 — Q2'26 10-Q full read** → `research/threads/Q2_2026_10Q_READ.md` (+ Q2 MC credit pages). Roster turned over; Dec 18 misattribution found; RIAD5409 attribution inferred; RaDD pass-rated by elimination | — | ⭐ The Q1 read produced the debt-on-debt pillar and the $250.4M-at-$0-ALL deferral finding; the Q2 one is unread (keyword pass only). Q2'25 + Q3'25 10-Qs are local too |
-| D3b | **L520 W1–W14 collection pre-staged** | Q3 publication sequence | All existing workout rows in `workbook/Q3_2026_SCORING_CARD.md`. No priced OREO sale ⇒ exact unresolved phrase in card; retain early-Nov 10-Q needed legs |
+| ~~D3b~~ | ✅ **DONE — used in the 10/21 Stage-1 grade** (W1–W14 rows → `research/threads/2026-10-21_Q3_PRINT_STAGE1_GRADE.md`) · ~~L520 W1–W14 collection pre-staged~~ | Q3 publication sequence | All existing workout rows in `workbook/Q3_2026_SCORING_CARD.md`. No priced OREO sale ⇒ exact unresolved phrase in card; retain early-Nov 10-Q needed legs |
 | D5 | **Insider pull after the Q3 print** (FDIC EFR cert 110) | re-pull ~11/5 with the 10-Q | Pulled 10/22: **no filing after 8/14** (blackout). Zero open-market buys since 7/6 |
 | D7 | **Q3 10-Q read** (D:L763) | **~Thu 11/5** (Q3 10-Qs filed 11/5/2024, 11/5/2025) | SM −$313M flow · RaDD reserve/readvance (OZK-09) · Sullivan · OREO roll-forward · OZK-02 property-type inputs · debt-on-debt balance |
 | D6 | **Q3 Call Report pull** (LOG-ONLY) | ~Nov 1-10 | ⏰ **FFIEC JWT expires 11/5 — Will action.** `RIAD5409` continuation · `RCON2746` vs Q3 10-Q debt-on-debt · Memo-10 PV05-09 |
@@ -67,7 +67,7 @@
 
 ## 5. Standing
 
-- **Short interest** — refresh at each FINRA settlement (Nasdaq API) [KB-214]. Last: 16.51M / ~16.3% float, DTC 17.6 @ 9/15 (checked 10/8; the 9/30 settlement is not yet published).
+- **Short interest** — refresh at each FINRA settlement (Nasdaq API) [KB-214]. Last: **17.60M / ~17.4% float, DTC 13.5 @ 9/30** (pulled 10/22; STATUS carries the token). Next: the 10/15 settlement publishes ~10/27.
 - **NDFI-contagion regime** — consume REGINALD/BROCK reads; OZK trades as a beta name (C8).
 - **FDIC filings** — `scripts/flng_watch.py` runs in every boot.
 

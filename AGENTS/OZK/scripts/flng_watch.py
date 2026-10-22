@@ -21,8 +21,10 @@ import urllib.request
 
 API = "https://securitiesfilings.fdicconnect.fdic.gov/api/instflng/cert/110"
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124.0 Safari/537.36"
-# Baseline = newest filing as of the 2026-09-24 sweep: FLNG 11981, the Q2'26 10-Q filed 2026-08-05 (182 filings).
-BASELINE_ID = 11981
+# Baseline = newest filing already READ by the desk. Advanced 2026-10-22 (D:L793 item 4) from 11981 (Q2'26 10-Q,
+# 2026-08-05) to 12022 (Q3'26 8-K bundle, 2026-10-20) — 12019 (10/12 RaDD 8-K) and 12022 were both read, and
+# leaving the baseline behind printed them as NEW at every boot. Advance it again after each filing is read.
+BASELINE_ID = 12022
 # Coverage floor: the list held 182 filings on 2026-09-24 and only grows. A response far below it is truncated.
 MIN_ROWS = 170
 
@@ -56,7 +58,7 @@ def selftest():
     base = [row(i) for i in range(11800, 11800 + 181)] + [row(BASELINE_ID)]
     cases = [
         ("normal: baseline present, nothing newer", base, 0),
-        ("normal: one new filing", base + [row(12001, "8-K.pdf")], 1),
+        ("normal: one new filing", base + [row(BASELINE_ID + 1, "8-K.pdf")], 1),  # relative: a literal id went stale when the baseline advanced (10/22)
         ("missing: empty list", [], 2),
         ("missing: empty object", {}, 2),
         ("missing: error body", {"Message": "error"}, 2),

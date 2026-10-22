@@ -12,7 +12,7 @@ Navigate the KB by investigation cluster. Each group maps to a folder or researc
 |-------|------|-------|---------------|----------------|
 | **CRE_CONCENTRATION** | 007–015, 048–050 | 12 | THESIS.md (core) | 455% CRE/tangible equity, C&D at 197%, RESG 54.4% of loans, $500M hold cap |
 | **SHADOW_CRE** | 021–027 | 7 | research/D3_SHADOW_CRE_LEVER.md | ~~MI3 at 37.6% ($1.289B hidden CRE in C&I)~~ ⚠️ **37.6% DEAD 2026-08-23 — see KB-OZK-226; live 9.35% [Q2-26], rank 5th/14. `research/D3_SHADOW_CRE_LEVER.md` is built on the dead ratio and carries a do-not-cite banner.** NDFI $2.74B debt-on-debt (unaffected) |
-| **MEMO_ITEM_3** | 018–020, 087 | 4 | research/D3_SHADOW_CRE_LEVER.md | ~~MI3/C&I ratio worst in peer set~~ ⚠️ **RETRACTED 2026-08-23 — both halves. Live 9.35% [Q2-26], rank 5th/14; "worst" formally retracted by the screen's owner (REGINALD). See KB-OZK-226.** Reclassification rebuttal stands |
+| **MEMO_ITEM_3** | 018–020, 087, 218, 219 | 6 | research/D3_SHADOW_CRE_LEVER.md | ~~MI3/C&I ratio worst in peer set~~ ⚠️ **RETRACTED 2026-08-23 — both halves. Live 9.35% [Q2-26], rank 5th/14; "worst" formally retracted by the screen's owner (REGINALD). See KB-OZK-226.** Reclassification rebuttal stands |
 | **CAPITAL_LIQUIDITY** | 042–047, 234, 237 | 8 | research/D2_PLEDGED_LOANS_LIQUIDITY.md | 74% loans pledged, $11.9B uninsured deposits, FHLB capacity |
 
 ## Thesis Layer 2: Mechanism (Extend-and-Pretend)
@@ -65,7 +65,7 @@ Navigate the KB by investigation cluster. Each group maps to a folder or researc
 | **METHOD** | 225, 249 | 2 | `MI3_2025Q3_ADJUDICATION.md` / `workbook/Q3_2026_SCORING_CARD.md` | Endpoint-window discipline; **PRE-PRINT Q3 card** with existing letters/attribution/source basis, no new score or gate |
 | **SCREEN** *(new 8/23)* | 226 | 1 | `THESIS.md` §MEMO ITEM 3 banner | 37.6% MI3 dead on 4 independent paths; "worst in screen" formally RETRACTED by its owner (OZK 5th of 14, both bases). Supersedes 018 + 020. |
 | **POSITIONS** *(new 8/23)* | 227 | 1 | `POSITIONS.md` | Aug-21-2026 OPEX: both legs expired worthless at OZK $49.42; realized −$1,686.37; book closed to zero contracts under Will's 8/4 RIDE ruling. |
-| **NDFI** *(extended 8/23, 9/24)* | 220, 221, **223, 224, 230, 232** | 6 | `MI3_2025Q3_ADJUDICATION.md` · `CALL_REPORT_2026Q2_LOG.md` | Debt-on-debt book: RIAD5409 first nonzero in 18 qtrs ($42,437K, 2026Q2); RCON2746 ties the 10-Q "Other" book at the dollar; 2025Q3 container asymmetry; write-down branch refuted. |
+| **NDFI** *(extended 8/23, 9/24; 210 added to the index 10/22)* | 210, 220, 221, **223, 224, 230, 232** | 7 | `MI3_2025Q3_ADJUDICATION.md` · `CALL_REPORT_2026Q2_LOG.md` | Debt-on-debt book: RIAD5409 first nonzero in 18 qtrs ($42,437K, 2026Q2); RCON2746 ties the 10-Q "Other" book at the dollar; 2025Q3 container asymmetry; write-down branch refuted. |
 | **Singleton groups** | 160 (SHORT_INTEREST → now +214, see below), 177 (DISTRESSED_COMPS), 179 (SEVEN_CREDIT), 180 (CIB), 181 (NIM), 183 (TRANSCRIPT), 228 + 235 (SOURCES) | 8 | respective owner docs | SI ~14-15% (Mar 25 — **refreshed by 214, un-stale**), 2025-26 severity bands (29-40%), Boynton Yards sponsor confirm, CIB 3/6 vertical compression, Q1 26 NIM decomp 4.20%, Hamblen "MF heaviest payoff" quote |
 
 ### 7/18 Additions — 5 new groups + 2 joins (KB-210–216)
