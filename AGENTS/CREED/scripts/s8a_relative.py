@@ -91,7 +91,10 @@ def _rel_series(c, tgt, base, lb):
     for i in range(lb, len(c)):
         t = (float(c[tgt].iloc[i]) / float(c[tgt].iloc[i - lb]) - 1) * 100
         b = (float(c[base].iloc[i]) / float(c[base].iloc[i - lb]) - 1) * 100
-        out.append((c.index[i].date(), t - b))
+        # L546 (DAEDALUS float-tie, 2026-10-08): round to 2dp, the precision every reading is
+        # quoted at, BEFORE any band comparison -- a raw float difference can land a value that
+        # is exactly ON a band edge on either side of it. Fixed 2026-10-21 (CREED).
+        out.append((c.index[i].date(), round(t - b, 2)))
     return out
 
 

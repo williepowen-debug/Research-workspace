@@ -1712,3 +1712,10 @@ Source of the owed list: `research/2026-10-01_LOSS_HOLDER_MAP.md` §"What change
   - CASE-CREED-115 special_servicer: UNKNOWN
   - CASE-CREED-115 implied_loss_pct: 83% = reported realized loss / loan balance, per workbook (Realized; reported blended severity 83.35%)
   - CASE-CREED-115 source_quality: PRIMARY-CITED
+
+## Catch-up intake 2026-10-21 (WQ-472, Will-authorized bounded session) — CASE-CREED-138..154 + updates
+Source per row is in `CASES.tsv` `sources` / `source_quality`; nothing here was verified beyond what those cells say. Origin signals: SIG-W-20261002-006 (138–143, 016), -20261008-031 (144, 145), -20261008-040 (146), -20261008-050 (147, 148), -20261016-019 + Trepp SS Sep (149, 144 transfer), -20261015-020 / -20261019-007 (150), -20261018-006 (151, 152, 052), -20261020-008 (153), -20261008-017 / -20261012-005 + OZK packet 10/12 (154), -20261021-003 (024). CORAL packet 10/01 (005). HOMER packets 10/15 (033 + seven MF cases).
+- **Canonical cells held elsewhere (rule 10):** 005 Columbus Center → CORAL · 146 Pembroke Lakes, 147 Wymore 360 → CORAL (FL) / HOMER (MF, 147) · 024 10 Prospect, 154 RaDD → OZK desk. These rows cite; they never fork.
+- **016 band question (WALTER's ask):** no CREED band is keyed to severity; the ~91% is a ledger datum, not a band input (`KB-CREED-041` is the severity home).
+- **Vocab gaps used, declared:** receivership (151 → FORECLOSURE + note) and equity-pledge enforcement (152 → UNKNOWN + note; 052 event OTHER). Not extending the vocabulary this session (scope).
+- **Not logged:** Picklr (corporate tenant Ch.11, no named property — SIG-W-20261013-023 asked for no ledger row) · Eagle Bancorp one-loan NPA migration (no named asset) · Starwood Regional Mall Portfolio and the other Trepp SS named transfers (not asked; available in the Trepp SS Sep text).

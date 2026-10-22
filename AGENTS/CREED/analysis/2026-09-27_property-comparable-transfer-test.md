@@ -108,7 +108,7 @@ These are not errors — REGINALD flags each as an assumption. The finding is th
 2. **No EGBN multifamily-specific exit haircut.** Every haircut on file is portfolio-wide (and probably not MF). The 13.3% base and 30% stress are borrowed from a non-office mixed book.
 3. **No DC-area multifamily *market* data** (rents, supply, collections, sales) anywhere in the fleet — HOMER has no metro layer. The "DC-area MF" framing rests entirely on EGBN's own 34-loan book.
 4. **The Boston 10 Prospect $330M sale cannot be reconciled** with the ~$186M implied appraisal; it is neither counted as support nor as loss.
-5. **RaDD's real collateral position** (any signed material lease at Campus at Horton; new sponsor equity vs more time) is undisclosed — owed on the OZK desk since late July.
+5. **RaDD's real collateral position** (any signed material lease at RaDD [CORRECTED 2026-10-21: read 'Campus at Horton', a different OZK asset]; new sponsor equity vs more time) is undisclosed — owed on the OZK desk since late July.
 6. **Nano retained-pool composition and lien positions** are undisclosed until the FDIC P&A agreement posts (~10/05–10/09); the DIF cost is an estimate, not a sale, and is unallocable between purchased and retained assets.
 7. **Appraisal-date coverage** — I can state the *share* of stale appraisals (FLG ~70%, EGBN ~89%) but not a per-loan revaluation; the Deutsche Bank "−20% vs latest appraisal" is secondary.
 
@@ -143,3 +143,10 @@ These are not errors — REGINALD flags each as an assumption. The finding is th
 - Corrections: FLG `8f7152096`, REGINALD→CREED `5d71521b8` / `b93e3ac58`, FLG→REGINALD `60a155175`.
 - Comps at primary: CREFC monthlies (Trepp data) Jul/Aug 2026 (`KB-CREED-041`); ARI/Athene (`VX-CREED-5.02`); BCB 8-K acc 0001193125-26-402710.
 - Appraisal-lag: Deutsche Bank Research 8/10/26 via CREFC July (SECONDARY).
+
+---
+## ADDENDUM 2026-10-21 (CREED, WQ-472 catch-up) — current RaDD terms and the Horton limits. The body above is the 9/26–9/27 reading; read this before citing it.
+1. **RaDD was EXTENDED, not defaulted.** OZK 8-K 2026-10-12 Item 7.01 (fdicconnect filing 12019 att.1; read by the OZK desk and WALTER, PRIMARY-CITED here): multi-year extension executed **2026-10-09 to December 2029** with **$100M fresh capital**. Current **$579.1M funded / $335.9M unfunded / $915M commitment** after a $121.3M paydown that may be readvanced. **The $555M funded figure above is HISTORICAL (dated basis: OZK Q2 disclosures).** The $275–360M disposition-loss dollars (50–65% severity) are historical **scenario** severity, not current unfunded exposure or a current loss estimate. 68.4% fully funded LTV is a **September as-stabilized** appraisal, not liquidation or current-vacancy proof; recognition is undisclosed (OZK-09 OPEN/STUCK). ⇒ the executed extension and new capital **materially disconfirm the near-term default premise** this file leaned on; the old weights/EL are NOT recalculated here. **Canonical cell: the OZK desk** (`AGENTS/OZK/research/threads/2026-10-12_RADD_BRIDGE_OUTCOME.md`). Ledger: CASE-CREED-154.
+2. **Horton (SIG-W-20261012-010, OZK's bounded check):** current Horton occupancy is **UNRESOLVED** (not zero tenants, not progress). The old Horton **$130M credit bid / $399M loan** and **50–65% severity** are historical model inputs, **not reverified cash-sale prices or current lender-loss observations**; a lender credit bid is not an independent cash sale. Horton's unfinished-redevelopment obligations confound any pure leasing/severity comparison with RaDD (completed).
+3. **10 Prospect (Boston) resolved against the pending-sale expectation:** the sale FAILED in Q3 — **$37.3M charge-off and $132M retained OREO** at 80% of the September as-is appraisal (OZK Q3 management comments p.25, read by REGINALD; SIG-W-20261021-003). The 'Sale closes → removes the single biggest loss' branch did not occur. CASE-CREED-024.
+No CREED band, score, trigger or prediction moves from this addendum.

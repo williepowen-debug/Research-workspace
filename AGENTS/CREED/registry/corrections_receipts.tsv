@@ -3,3 +3,7 @@ receipt_date	correction_id	action	note
 2026-09-27T16:44Z	COR-20260927-05	APPLIED	
 2026-09-27T17:08Z	COR-20260927-06	APPLIED	
 2026-10-01T00:57Z	COR-20260925-13	NO-OP	CREED holds no HY-280 / x1-arbiter figure (grep of AGENTS/CREED *.md *.tsv at 2026-09-30 closeout returned nothing); credit-spread arbiter is not a CREED lane
+2026-10-22T03:01Z	COR-20261009-02	APPLIED	artifact=AGENTS/CREED/registry/PREREG_2026-10_TREPP_PRINT.md#GRADING RECORD 2026-10-21; artifact=AGENTS/CREED/workbook/VX.tsv#VX-CREED-1.01; validation_ref=AGENTS/CREED/workbook/KB.tsv#KB-CREED-057; relay 12.2 upgraded to Trepp 12.16 at the PDF Table 2; leg 1 of 2 graded
+2026-10-22T03:01Z	COR-20261012-10	APPLIED	artifact=AGENTS/CREED/research/2026-09-26_REGINALD_TOP3_PROPERTY_TEST.md#ADDENDUM 2026-10-21; artifact=AGENTS/CREED/analysis/2026-09-27_property-comparable-transfer-test.md#ADDENDUM 2026-10-21; validation_ref=NONE; Horton occupancy UNRESOLVED and credit-bid/model basis retained; CREED also corrected its own RaDD/Campus-at-Horton asset conflation
+2026-10-22T03:01Z	COR-20261019-07	APPLIED	artifact=AGENTS/CREED/cases/CASES.tsv#CASE-CREED-150; validation_ref=NONE; 1099 N Meridian logged as a LEAD pointer, all fields unverified
+2026-10-22T03:01Z	COR-20260921-15	NO-OP	scope=CREED holds no MF 7.1 pct stale verdict. MF CMBS DQ is HOMER-owned for scoring and VX-CREED-1.03 cites only. Grep of CREED workbook, notes, STATUS and THESIS found no 7.1 pct, 59bp or Morgan Stanley MF claim; 

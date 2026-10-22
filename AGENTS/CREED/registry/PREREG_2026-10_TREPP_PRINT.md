@@ -47,3 +47,29 @@ No band, operator, sustain or confidence edit. No S-score move from a leg-1 prin
 
 ### Clarification appended 2026-09-29 (CATO workbook review, low-impact residue). NOT an edit to the frozen terms above.
 §2's "a sub-1σ move is not a direction" uses the office-DQ **mean absolute monthly move** (13bp, n=5) as its noise yardstick. That is a **named heuristic, not a standard deviation.** The refusal rule applies exactly as written when grading. Only the label is clarified: do not quote "1σ" from this document as a statistical claim.
+
+### GRADING RECORD — 2026-10-21 (Wed) ~23:00 ET, CREED (WQ-472 catch-up session, Will-authorized 2026-10-21 22:46 ET). Terms above unchanged.
+
+**Source:** Trepp *CMBS Delinquency Report, September 2026* (excerpt published 2026-10-02) and *CMBS Special Servicing Report, September 2026* (excerpt published 2026-10-13), the full public hubfs PDFs archived by WALTER at `AGENTS/WALTER/research/2026-10-16_finish/credit-trepp-dq.pdf` (sha256 `b39845196613ef9885a2f4ca9456277d13b59c072d70b7fded29675593ccad5a`) and `credit-trepp-ss.pdf` (sha256 `f8ec5c43b63543597a13b66847b2bb5a917215d868c40d043936f00aec62bb97`). **PRIMARY-READ by CREED** from WALTER's rendered table pages (`credit-dq-table.png` p.3, `credit-ss-table.png` p.2) and the extracted text. Late: the DQ print was 19 days old when graded (CREED dark 10/01 → 10/21); the delay changes no term.
+
+| Trigger | September print | Verdict on the letter |
+|---|---|---|
+| `CREED-T-01a` office DQ `> 12`, sustain 2 | **12.16** (Table 2, all vintages, 2dp; Aug 12.00) | **T-01a leg 1 of 2 — the clock has started; October decides.** Not a fire. (The October print, ~early November, fires it only at ≥ 12.01.) |
+| `CREED-T-01b` office SS `> 18`, sustain 2 | **16.85** (Table 1, all vintages; Aug 16.90) | **Not fired, not leg 1**; 115bp from the band; moved AWAY by 5bp |
+| `CREED-T-02` | NPMB share 68% | spent; not a re-fire, not fresh confirmation |
+| `CREED-T-08a` | not graded here | (tape: 10/21 close −11.48pp TR, `VX-CREED-7.01`; fire of 9/24 stands) |
+
+**§2 refusals honoured:** no "tripped / breached / fired" for a leg-1 print. Distribution context: a **return** toward the Jan-26 12.34 high, not new territory; the circulating "highest in history" (Barchart X, 10/8) is false on Trepp's own series. The +16bp move is 1.2× the 13bp mean-|MoM| heuristic (a named heuristic, not σ).
+
+**§3 — what would inform the thesis:**
+1. **Newly-delinquent $ total: NOT in the text read.** Trepp names five loans ($1.10B LA studio/office portfolio · $470.0M Houston office · $280.0M Santa Monica hotel · $230.1M Denver office · $208.9M Silicon Valley office; named sum $2,289.0M, CREED arithmetic, NOT a total). Charts unrendered (the one unchecked shape). ⇒ `VX-3.05` not extended; the share moved 81 → 68 with **no denominator ⇒ no shape word** (trap #6).
+2. **Mechanism readings:** maturity-adjusted DQ **9.81 → 9.66 (−15bp)**; performing matured balloon **1.96 → 1.64% of balance (−32bp)**; seriously delinquent 7.69 → 7.87 (+18bp).
+3. **Gross flows beside the net (+17bp):** in — five maturity-failed loans (four had missed maturity earlier while performing and turned non-performing or into foreclosure in September); out — largest cure a $384.3M LA office tower moved to PERFORMING MATURED BALLOON (resumed interest-only payments: a reclassification, still past maturity); malls $260.1M (Lakewood CA) and $210.0M (near Rochester NY) also to PMB; $232.9M Providence RI mall paid off in full (DQ report; the SS report says the $249.9M Providence Place piece exited after **liquidation** in late August — unreconciled, two-column layout). SS: in $2.65B / 42 loans (office 57%) vs out $1.95B / 48 (18 loans $1.00B to master servicer; 30 loans $953.5M no balance — paid off OR liquidated, not split).
+4. **Florida: ZERO named FL assets** in either September narrative (the five DQ loans: CA ×3, TX, CO; SS named transfers/exits: NY, MA, TN, CA, NJ, OR, OK, DC, RI; ⚠️ the $436.9M Starwood Regional Mall Portfolio's five malls are NOT located in the text, so a FL mall inside it is not excluded). CORAL cycle-4 zero sent with that caveat.
+
+**§4 falsifiers:**
+- **F1 (maturity wall clearing): NOT TRIGGERED — and the near-miss is the finding.** Legs 1 and 2 MOVED IN F1's DIRECTION (mat-adj −15bp, PMB −32bp). Leg 3 failed: Trepp attributes the PMB decline to maturity-failed performing loans **converting into** non-performing / foreclosure, not to payoffs or refinancings. ⚠️ A reader who sees only the two levels would call it clearing — the opposite of the attribution.
+- **F2 (conduit payoff rate rising 2nd month + falling SS transfers): UNTESTED.** SS transfers did fall (−13%, $3.04B → $2.65B on this report's comparison column), but the CRE Direct conduit payoff rate was not fetched this session. An untestable falsifier is not a passed one.
+- **F3 (S8a unwinds AND 10y < ~4.75%): NOT MET.** S8a 10/21 close −11.48pp TR (past the band); 10y 5.15% (^TNX 10/21 close, fetch.py proxy).
+
+**§5:** no band, operator, sustain, confidence or S-score moved. Convergence stays **27/45**.
