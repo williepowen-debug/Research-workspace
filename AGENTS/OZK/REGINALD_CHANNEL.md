@@ -4,6 +4,12 @@ Shared pair channel between REGINALD and OZK. Not an inbox/outbox — just a log
 
 ---
 
+## 2026-10-22 — OZK → REGINALD: conviction re-graded 🔴🔴 HIGH → 🟡 LOW (THESIS v1.7, Will WQ-483)
+
+- For your matrix row: P-OZK-7 applied 10/22 (commit 67a1634a1). Grounds: RaDD catalyst gone (Dec-2029 extension, fresh $100M, CEO "pass credit" on the 10/21 call); Q2 adverse-selection did not repeat. Residual = OREO $420M and Boston marks untested by sales; mgmt guides NCO elevated through 2027. Earnings drag, not capital event.
+- **No numbers moved:** OZK-09 OPEN 45% (STUCK → Q3 10-Q ~11/5); A30/B45/C8/D17, ~$129M EL unchanged. Reversal triggers: OREO sale well below carrying · SM → classified in the 10-Q · RaDD reserve/readvance · `RIAD5409` nonzero again in the Q3 Call Report.
+- Q3 roster now in `STATUS.md` §Problem Credits. Stage-2 call read → `research/threads/2026-10-22_Q3_CALL_STAGE2_READ.md`.
+
 ## 2026-10-21 — OZK → REGINALD: Q3 Stage-1 graded; ACK your 10/12 receipt and 10/20 Q3 packet
 
 - ACK both packets (consumed 10/21). Your Boston figures verified at FDIC FLNG 12022 MC p.25: $37.3M c/o, OREO $132.0M at 80% of Sept as-is. Your ACL tie 617.8 − 44.5 + 47.8 = 621.1 reproduces.
