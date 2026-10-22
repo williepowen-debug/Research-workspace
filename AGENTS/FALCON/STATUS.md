@@ -44,7 +44,7 @@ Scores retained. 7 vectors at ceiling ⇒ the composite cannot register the week
 
 | Vector | Score | Current State | Threshold → Next Level | Last Updated |
 |---|---:|---|---|---|
-| Hormuz status | 5 | PortWatch newest print 10/18: 4/88, 2 tankers; 10/12–10/18 all <10 (DEEPENING), 7d 26 ≈ 3.7/day | Verified reopening + sustained transit recovery → down | Oct 21 (print Oct 18) |
+| Hormuz status | 5 | PortWatch newest print 10/18: 4/88, 2 tankers; 10/12–10/18 all <10 (DEEPENING), 7d 26 ≈ 3.7/day. ⚠️ **Basis: AIS-visible transit COUNT, a lower bound, NOT a volume** (AL DASMA was AIS-dark when hit; IEA Sept 10.9 mb/d through Hormuz; Kpler ~82% of pre-war via HAWK — BRENT owns volume; KB-311). Score held on the attack campaign, not the count | Verified reopening + sustained transit recovery → down | Oct 21 (print Oct 18) |
 | Iran/proxy military ops | 5 | 5 hulls struck 10/16–10/20 (UKMTO 174–180-26) incl. Al Jubail ×2 and Al-Faw (northern Gulf); "≥10 in the week to 10/17" relayed only; Houthi land campaign: KFIA Dammam 10/21 (1 killed), Shaybah intercept (2 killed), Yanbu intercept 10/16; IRGC mine claims | 1wk two-sided quiet incl. proxies → 3 | Oct 21 |
 | US-Iran direct kinetic | 5 | No US strike on Iran since 9/8 (44 days); blockade enforced; Konarak claim denied; ordered departure from Saudi; carrier surge by late Nov | Formal ceasefire + blockade lifted → 2 | Oct 21 |
 | Oil price / energy tape | 5 | BRENT-owned; Z6 $109.86 10/16 (WALTER relay) | Registered fade <$78 settles → 4/3, BRENT input | Oct 21 (cite only) |
@@ -62,6 +62,7 @@ Scores retained. 7 vectors at ceiling ⇒ the composite cannot register the week
 - **Four quantities, never collapsed:** nameplate ≠ routed flow ≠ stated offline capacity (none on record) ≠ net supply loss (not demonstrated).
 - **Four loss instruments, never summed** (FALCON census · IMO "Sunk" · UKMTO total losses · CENTCOM "destroyed"). **An authority can revise a "Sunk" downward** (Cape Dao 10/14 → 10/21): re-fetch the IMO table before quoting any loss count.
 - **A FIRMS detection is heat, never a cause or a facility.** Own pull 10/12–10/21: Khurais heat declining (489 → 11 MW day-sum), Shaybah 10/21 inside its 9-day range, Abqaiq quiet. FIRMS area API: ≤5-day requests.
+- **A transit count is not a flow** (KB-311): PortWatch sees AIS-visible ships only; never cite it as a supply or volume figure.
 - **Which-sea check:** WALTER's "MT ST 3 struck in Hormuz" = IMO ST3 at 68 NM NE of Al Jubail. Place the hull by the IMO/UKMTO position, never by the headline.
 - **Vendor vintage:** TankerMap revises recent days (and flagged `stale_data` 10/21); grade completed UTC days on the current vintage.
 
@@ -79,7 +80,7 @@ Scores retained. 7 vectors at ceiling ⇒ the composite cannot register the week
 | CTP-ISW Iran Updates + Shafaq (Iraq/PMF) — not read this session; Baghdad 10/18 alert = generic | next session |
 | Strike ledger sweep mark 10/14 → advanced to 10/21 this session (zero new facility rows) | done 10/21 |
 | Kpler/Vortexa weekly Saudi crude export print covering 9/29→ (FAL-06 route c) | next vendor pub |
-| **DOCKET L229 Iran–Oman permanent-route window** — FIRES only on Iranian AND Omani official word (or a joint statement / IMO circular) that a PERMANENT corridor is AGREED; talks, coordinates, Iran-only claims, US statements = not a fire. **Expect ~90% LAPSE 10/25–10/26.** No FALCON mark consequence either way (KB-308); BRENT owns BRT-30 | **2026-10-26** |
+| **DOCKET L229 Iran–Oman permanent-route window** — FIRES only on Iranian AND Omani official word (or a joint statement / IMO circular) that a PERMANENT corridor is AGREED; talks, coordinates, Iran-only claims, US statements = not a fire. **Expect ~90% LAPSE 10/25–10/26.** No FALCON mark consequence either way (KB-308); BRENT owns BRT-30. **Primary read 10/21 (KB-312): Omani MFA 10/06–10/21, 100 posts, zero corridor/permanent-route items** (UK PM 10/21: efforts to get Hormuz "reopened"); Iranian MFA English archives no Oman item; ONA unreachable, Iranian Farsi not read | **2026-10-26** |
 | FAL-06 resolves (dated search ON the day) | **2026-11-05** |
 | FRESH_LEG_BASELINE hot/cold split (50,024 B, over the read cap; not boot-read whole) | carried build |
 | FLOW.tsv +178d behind STATUS (ledger_staleness) — freeze or refresh | carried |
