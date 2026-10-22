@@ -17,7 +17,7 @@ FULL closeout. Boot: sync 0/0 (the afternoon's 347e3500d, 0d0a91709 and 900c4572
 
 ## RESULT (10/22 evening)
 
-Commits this sitting d393b0275 … 784725770 plus this closeout. Everything through 599b1ca23 verified on origin/master by fresh fetch (0/0 at about 22:50Z, carried by DAEDALUS's push). 784725770 (036) and this closeout commit ride the push below or the next fleet push. Delivery rows: 104 for 10/22, 102 delivered after reconcile; the 2 pending are 036's REGINALD/VULCAN backfills in 784725770 (the reconcile tool lists them as orphans until pushed). This sitting's 15 new rows were first written with a non-canonical `pending` token, which the reconcile tool skips; corrected to `written_not_delivered_pending_push` at closeout, then reconciled. Publication is not consumption.
+Commits this sitting d393b0275 … 784725770 plus this closeout. Everything through 599b1ca23 verified on origin/master by fresh fetch (0/0 at about 22:50Z, carried by DAEDALUS's push). 784725770 (036) and the closeout commit 11b22480a pushed by safe-push (CONFIRMED on origin, fresh fetch); 036 rows reconciled in 0050c1426, also pushed. Delivery rows: 104 for 10/22, all 104 delivered after the post-push reconcile. This sitting's 15 new rows were first written with a non-canonical `pending` token, which the reconcile tool skips; corrected to `written_not_delivered_pending_push` at closeout, then reconciled. Publication is not consumption.
 
 ## GAPS (carried)
 
@@ -64,7 +64,7 @@ Unchanged; full table in `research/2026-10-22_afternoon/prior-LAST_COMPLETION.md
 
 ## CLOSEOUT RECEIPT
 
-FULL closeout at Will's word 18:54 ET. 7 dispatches this sitting (030–036); 1 new desk routed; 4 DEWEY deliverables routed. Publication: through 599b1ca23 on origin (fresh fetch); 784725770 and this commit pending push. Consumption is separate from publication.
+FULL closeout at Will's word 18:54 ET. 7 dispatches this sitting (030–036); 1 new desk routed; 4 DEWEY deliverables routed. Publication: all sitting commits on origin (safe-push CONFIRMED 11b22480a, then 0050c1426). Consumption is separate from publication.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
@@ -82,13 +82,13 @@ FULL closeout at Will's word 18:54 ET. 7 dispatches this sitting (030–036); 1 
     },
     {
       "commit": "784725770",
-      "state": "pending"
+      "state": "published"
     }
   ],
   "delivery": {
     "signal_date": "20261022",
     "total": 104,
-    "delivered": 102,
+    "delivered": 104,
     "note": "030-035 BOARD and handoffs published and reconciled delivered; 036 BOARD and 2 backfill handoffs in 784725770 pending push; DEWEY stubs delivered by DEWEY. Publication, not consumption."
   },
   "owner_review": {
