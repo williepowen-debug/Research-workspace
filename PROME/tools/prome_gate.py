@@ -84,6 +84,7 @@ SUMMONS_LEDGERS = {
     "LABOR": "AGENTS/LABOR/docket/CATALYSTS.tsv",
     "VULCAN": "AGENTS/VULCAN/docket/CATALYSTS.tsv",   # 2026-09-29 (prome-82): 5-of-5 Friday slots missed since 8/28 — same schema as LABOR; ACCEPTANCE_summons_ledger_VULCAN_2026-09-29.md
     "VIOLET": "AGENTS/VIOLET/workbook/CATALYSTS.tsv",  # 2026-10-10 (prome-ce, Will 13:45 ET): its forward calendar ran EMPTY after 9/30 and five cheap-tail OPEN days went unrouted while dark — a 7-col schema (date/event/type/agent_domain/expected_vol_impact/source/notes; impact stands in for priority); ACCEPTANCE_summons_ledger_VIOLET_empty-forward_2026-10-10.md
+    "GIBBS": "AGENTS/GIBBS/docket/CATALYSTS.tsv",    # 2026-10-21 (prome-56): GIBBS first-session precondition (DOCKET L704 note 10/14 "SUMMONS_LEDGERS registration = PROME process slot"), owner asked again at its L704 return ac8c67b8d — LABOR schema (date/event/what_to_check/threshold_signal/priority/who_cares/notes + date_class); checked by calling the summons function on the live file at registration
 }
 SUMMONS_WINDOW_DAYS = 2     # due within N days flags; past-due always flags
 EMPTY_FORWARD_DAYS = 14     # a registered ledger with NO row inside this horizon flags EMPTY-FORWARD
