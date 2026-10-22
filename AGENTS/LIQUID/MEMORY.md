@@ -2,7 +2,16 @@
 
 ## Session Notes
 
-### CURRENT SESSION — LOCAL CLOSEOUT 2026-10-19T18:10:08-04:00 (Will-launched after close, Codex/OpenAI, exact model UNKNOWN)
+### CURRENT SESSION — 2026-10-21T22:17:07-04:00 (PROME prome-56 catch-up wave 1, Tier 1; Claude Code / Opus 5.5)
+
+- **Whole inbox drained:** 7 top-level packets + 35 WALTER signals (32 at spawn + 023/025/029 arriving mid-session), each logged in `board_log.tsv` and `git mv`'d (consume:LIQUID). Four corrections receipted APPLIED (COR-20261021-01/-02/-10/-22).
+- **>320 run count dated 10/21:** VERIFIED 3 consecutive first-published 325/323/331 [10/14–10/16] (graded 10/19, 50b710323); 329 [10/19] peer latest-revised = INFERRED 4th; 332 [10/20] secondary = UNGRADED. State MET, non-latching, no reset known. HEARTBEAT #1 "LIQUID read still owed" is stale. Own SIGNALS.md row added (late log, carve-out ②).
+- **Gates graded 10/21:** HY-REKILL NOT FIRED 0-of-2 · 076 NOT MET 1-of-3 (W3 only) · 079 NOT ARMED (+5/+6bp) · 069 2-of-2 FIRED unchanged, L4 NOT FIRED 10/19–10/21 · 072 QUIET.
+- **Live data:** FRED/ALFRED in site maintenance all evening (no own FRED cell). NY Fed primary API used for SOFR percentiles / SRF / RRP; TreasuryDirect for the 20Y reopening (5.469%, 2.73×, indirect 58.16%, no failure).
+- **L568:** no LIQUID commit on usd_swapline.py, its letter or fix record after 744e646bc (10/9 10:10 ET; script last 23977aec5); the 10/15 WQ-404 read was NOT RELEASED; WITHHELD unchanged; 10/19 synthesis commits on origin, no uncommitted LIQUID path.
+- STATUS rotated under cap (full pre-edit copy `archive/status_snapshots/STATUS_before-2026-10-21-catchup.md`).
+
+### PRIOR SESSION — LOCAL CLOSEOUT 2026-10-19T18:10:08-04:00 (Will-launched after close, Codex/OpenAI, exact model UNKNOWN)
 
 **Financing execution resumed at Will’s direction, 2026-10-19T18:48:41-04:00:** final HENRY4261b747e conditional cohort consumed with exact blob/hash receipt;9issuer/control checks in `research/2026-10-19_equity-financing/conditional/RESULT.md`. MOS/ADM actual issuance, HII lower interest/lowcash, CPRT completedACV10/16, WYNN costly access and PCAR lower rates challenge a common financing-refusal story. Assignment-ACK below is earlier history; shortlist no longer missing. Resume unresolved bridges/certificates/issuer-credit evidence from RESULT/STATUS§3, not selection or morning work.
 
@@ -51,6 +60,8 @@ No `git pull` (dirty HOMER/PROME/BOND/RED trees); pathspec commits only.
 - ⚠️ Self-caught: my C4 catalyst row copied CLAUDE.md's 9/12 "OCIC at 2 consecutive" text; SIGNALS.md shows BROCK R2 (a) FIRED #2 on OCIC 10/2. Corrected the row; the CLAUDE.md line ~84 is stale (charter edit not made).
 
 ### NEXT SESSION
+
+**First boot with FRED back:** grade 10/19–10/21 first-published HY/IG/BB/CCC — confirm or reset the >320 run, re-grade 069 L4 credit leg, 072, HY-REKILL. 10/22: 5Y TIPS result; NY Fed dealer as-of 10/14 (076 W2) only on publication; CFTC 10/23 (W1). Car-Mart now 11/01 (BROCK). DAEDALUS 10/16 deferral row in STATUS §3 is overdue.
 
 Resume STATUS§3 and `research/2026-10-19_equity-financing/RESULT.md`. Check HENRY’s exact cohort/matching reply and recipient acknowledgment before repeating any research. Use existing funding notes to fill only missing formation-date maturity/liquidity/credit fields. Joint attribution is saved PARTIAL, not an unattended job. Closeout receipt separates desk write-back, push, notification and recipient consumption.
 

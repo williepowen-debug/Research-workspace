@@ -512,3 +512,45 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-19T17:58:38-04:00	SIG-W-20261019-016	acted	INBOX_WALTER	Consumed historical proxy and quality-screen limits in research/2026-10-19_equity-financing/RESULT.md. Joint financing attribution remains PARTIAL.
 2026-10-19T17:58:38-04:00	SIG-W-20261019-017	acted	INBOX_WALTER	Consumed vendor close and company-exclusion evidence in research/2026-10-19_equity-financing/RESULT.md. Close is separate from earlier intraday snapshot.
 2026-10-19T17:58:38-04:00	SIG-W-20261019-018	acted	INBOX_WALTER	Consumed cruise relative-lag evidence and intervening transactions. New primary contract reconciliation in research/2026-10-19_equity-financing/FINANCING.md. Both cruise stocks rose.
+2026-10-22T02:16:16Z	SIG-W-20261019-012	info-only	INBOX_WALTER	LIQUID catch-up wave1 (PROME prome-56). OTTO Ally contract correction and forecast 55->25%; no LIQUID claim to correct (COR-20261019-12 NO-OP on file). OTTO owns.
+2026-10-22T02:16:16Z	SIG-W-20261019-013	info-only	INBOX_WALTER	LIQUID catch-up wave1 (PROME prome-56). China Q3 GDP 4.5%; ZHAO lane; no LIQUID state.
+2026-10-22T02:16:16Z	SIG-W-20261019-014	noted	INBOX_WALTER	LIQUID catch-up wave1 (PROME prome-56). France 10/19 OAT move; integrated with HANS 10/21 re-ask: US funding side unmoved (NY Fed SOFR99-IORB +5/+6bp, SRF ~0, STATUS Funding).
+2026-10-22T02:16:16Z	SIG-W-20261019-019	acted	INBOX_WALTER	LIQUID catch-up wave1 (PROME prome-56). Repeat-loser diagnostic already integrated 10/19 (research/2026-10-19_equity-financing/conditional/RESULT.md); STATUS Equity/financing line re-cut 10/21.
+2026-10-22T02:16:16Z	SIG-W-20261019-020	noted	INBOX_WALTER	LIQUID catch-up wave1 (PROME prome-56). HENRY gamma NEGATIVE 10/19 superseded by SIG-W-20261021-022 (POSITIVE 10/21); integrated via 022.
+2026-10-22T02:16:16Z	SIG-W-20261019-021	noted	INBOX_WALTER	LIQUID catch-up wave1 (PROME prome-56). WAL Q3 counters a common funding shock; competing explanation kept in STATUS counterevidence; REGINALD/WAL own.
+2026-10-22T02:16:16Z	SIG-W-20261020-007	acted	INBOX_WALTER	LIQUID catch-up wave1 (PROME prome-56). CoreWeave contract-economics models: no credit conclusion drawn; parent-vs-project financing UNASSESSED (no project debt terms in hand) - STATUS AI-infra line.
+2026-10-22T02:16:16Z	SIG-W-20261020-010	acted	INBOX_WALTER	LIQUID catch-up wave1 (PROME prome-56). DC bond cohort TRACE G-spreads recorded as relayed, not OAS; basis not validated; not a gate observation (STATUS AI-infra line).
+2026-10-22T02:16:16Z	SIG-W-20261020-011	acted	INBOX_WALTER	LIQUID catch-up wave1 (PROME prome-56). Lambda-linked CMBS: execution INDETERMINATE; not used as AI-funding evidence until dated execution/class verified (STATUS AI-infra line).
+2026-10-22T02:16:16Z	SIG-W-20261020-012	info-only	INBOX_WALTER	LIQUID catch-up wave1 (PROME prome-56). Amazon rack-receipt cash timing; VULCAN/WATT own; no LIQUID credit structure.
+2026-10-22T02:16:16Z	SIG-W-20261020-015	info-only	INBOX_WALTER	LIQUID catch-up wave1 (PROME prome-56). London cloud outage; operational, not a funding run.
+2026-10-22T02:16:16Z	SIG-W-20261020-016	info-only	INBOX_WALTER	LIQUID catch-up wave1 (PROME prome-56). Korea/Japan equity declines 10/20; no observed carry-unwind in funding cells.
+2026-10-22T02:16:16Z	SIG-W-20261020-017	acted	INBOX_WALTER	LIQUID catch-up wave1 (PROME prome-56). Grant Thornton 1.75B secured talk ~10.5% preliminary recorded; HY-rated, so no GATE-LIQ-072 leg-1/4 instance (STATUS gate table).
+2026-10-22T02:16:16Z	SIG-W-20261020-020	info-only	INBOX_WALTER	LIQUID catch-up wave1 (PROME prome-56). Gold net exports; August TIC flows already in STATUS; no foreign-UST-exit conclusion.
+2026-10-22T02:16:16Z	SIG-W-20261020-021	info-only	INBOX_WALTER	LIQUID catch-up wave1 (PROME prome-56). MSCI Indonesia consultation; HENRY index mechanics.
+2026-10-22T02:16:16Z	SIG-W-20261020-022	acted	INBOX_WALTER	LIQUID catch-up wave1 (PROME prome-56). Farr CDS chart: CRWV label 1,089.9 [10/19] unauthenticated; recorded in 069 L2 cell as not a certified re-mark; no leg re-count.
+2026-10-22T02:16:16Z	SIG-W-20261020-023	acted	INBOX_WALTER	LIQUID catch-up wave1 (PROME prome-56). DC listing leads (Vitro/Elice/Nscale/Anthropic talks) recorded as access-at-higher-price evidence; no failed-financing count (STATUS AI-infra line).
+2026-10-22T02:16:16Z	SIG-W-20261020-026	info-only	INBOX_WALTER	LIQUID catch-up wave1 (PROME prome-56). MSCI Turkey limited freeze; HENRY lane.
+2026-10-22T02:16:16Z	SIG-W-20261020-033	info-only	INBOX_WALTER	LIQUID catch-up wave1 (PROME prome-56). Wilson conditional risk-add view; HENRY lane.
+2026-10-22T02:16:16Z	SIG-W-20261020-034	info-only	INBOX_WALTER	LIQUID catch-up wave1 (PROME prome-56). Defensive-vs-growth rotation; HENRY lane.
+2026-10-22T02:16:16Z	SIG-W-20261021-001	acted	INBOX_WALTER	LIQUID catch-up wave1 (PROME prome-56). H.8 small-bank revision + reversal integrated; COR-20261021-01 APPLIED (STATUS Fed balance sheet).
+2026-10-22T02:16:16Z	SIG-W-20261021-002	acted	INBOX_WALTER	LIQUID catch-up wave1 (PROME prome-56). Japan corrected inputs (20Y JGB firm, life-insurer selling) recorded; COR-20261021-02 APPLIED; Channel 1 stays retired.
+2026-10-22T02:16:16Z	SIG-W-20261021-003	info-only	INBOX_WALTER	LIQUID catch-up wave1 (PROME prome-56). OZK Boston failed sale; OZK/REGINALD own.
+2026-10-22T02:16:16Z	SIG-W-20261021-006	info-only	INBOX_WALTER	LIQUID catch-up wave1 (PROME prome-56). Dutch storage vs EU gap; HANS lane.
+2026-10-22T02:16:16Z	SIG-W-20261021-008	acted	INBOX_WALTER	LIQUID catch-up wave1 (PROME prome-56). Car-Mart sale-talk report integrated; date superseded by -010.
+2026-10-22T02:16:16Z	SIG-W-20261021-009	info-only	INBOX_WALTER	LIQUID catch-up wave1 (PROME prome-56). Zions Q3 clean credit; REGINALD cohort.
+2026-10-22T02:16:16Z	SIG-W-20261021-010	acted	INBOX_WALTER	LIQUID catch-up wave1 (PROME prome-56). Car-Mart relief to 11/01 per 10/21 8-K: STATUS, CATALYSTS, CALENDAR updated; COR-20261021-10 APPLIED; BROCK grades.
+2026-10-22T02:16:16Z	SIG-W-20261021-013	info-only	INBOX_WALTER	LIQUID catch-up wave1 (PROME prome-56). Eagle Bancorp Q3; RED/REGINALD grade after 10/22 call.
+2026-10-22T02:16:16Z	SIG-W-20261021-015	info-only	INBOX_WALTER	LIQUID catch-up wave1 (PROME prome-56). Meta Q3 capex/FCF; VULCAN S5/S1.
+2026-10-22T02:16:16Z	SIG-W-20261021-018	info-only	INBOX_WALTER	LIQUID catch-up wave1 (PROME prome-56). SoftBank -25% vendor closes; VULCAN/SAM; no funding-cell move.
+2026-10-22T02:16:16Z	SIG-W-20261021-019	info-only	INBOX_WALTER	LIQUID catch-up wave1 (PROME prome-56). Edmunds Q3 auto payments; OTTO/CARL.
+2026-10-22T02:16:16Z	SIG-W-20261021-022	acted	INBOX_WALTER	LIQUID catch-up wave1 (PROME prome-56). Gamma POSITIVE both horizons 10/21 supersedes 020; COR-20261021-22 APPLIED (STATUS counterevidence).
+2026-10-22T02:16:16Z	SIG-W-20261021-023	acted	INBOX_WALTER	LIQUID catch-up wave1 (PROME prome-56). CRWV 2031s 79.46c / 2030s 83.10c [10/20 relay] recorded in STATUS AI-infra line; Anthropic figures conflict left to VULCAN.
+2026-10-22T02:16:16Z	SIG-W-20261021-025	info-only	INBOX_WALTER	LIQUID catch-up wave1 (PROME prome-56). OCC GENIUS final rule; REGINALD deposit-competition leg; T-bill reserve demand context only.
+2026-10-22T02:16:16Z	SIG-W-20261021-029	noted	INBOX_WALTER	LIQUID catch-up wave1 (PROME prome-56). Positioning tape: CCC yield ~18% unchecked (FRED maintenance), not RED-FT-07 OAS; margin debt HENRY's; nothing graded.
+2026-10-22T02:16:31Z	2026-10-19_from-CRUISE_conditional-financing-review-consumed	info-only	INBOX	LIQUID catch-up wave1 (PROME prome-56). CRUISE consumption receipt of 5de5eeb1c; no new work requested.
+2026-10-22T02:16:31Z	2026-10-19_from-HENRY_event-audit-and-cprt-correction	noted	INBOX	LIQUID catch-up wave1 (PROME prome-56). HENRY receipt + CPRT correction verified; already integrated in conditional/RESULT.md 10/19; no rerun.
+2026-10-22T02:16:31Z	2026-10-19_from-HENRY_financing-findings-consumed	info-only	INBOX	LIQUID catch-up wave1 (PROME prome-56). HENRY consumption receipt of conditional/RESULT.md (sha64b6aacb...); recipient consumption now established.
+2026-10-22T02:16:31Z	2026-10-20_from-PROME_relay-lost-GIBBS-custody-brokerage-deposits	acted	INBOX	LIQUID catch-up wave1 (PROME prome-56). GIBBS Q3 deposit figures already in STATUS Named deposits (10/19 sweep); relay matches; instrument distinction kept.
+2026-10-22T02:16:31Z	2026-10-20_from-VULCAN_volta-B-and-source-basis	noted	INBOX	LIQUID catch-up wave1 (PROME prome-56). WQ-441 B scoped to VULCAN S5; not imported into GATE-LIQ-069 L3 (stays NO_INSTRUMENT/UNGRADED); STATUS 069 cell.
+2026-10-22T02:16:31Z	2026-10-21_from-HANS_T10-157bp-reask-us-funding	acted	INBOX	LIQUID catch-up wave1 (PROME prome-56). Answered on file: US funding unmoved 10/19-10/21 (SOFR99-IORB +5/+6bp, SRF $0/$0.067B/$0); silence to HANS per its protocol; STATUS Funding.
+2026-10-22T02:16:31Z	2026-10-21_from-HANS_euro-bank-equities-selloff	noted	INBOX	LIQUID catch-up wave1 (PROME prome-56). SX7E -8.0% broad selloff recorded beside the HANS answer; cause not established; no US-funding transmission observed.

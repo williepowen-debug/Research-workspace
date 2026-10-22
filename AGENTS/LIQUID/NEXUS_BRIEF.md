@@ -6,6 +6,8 @@
 
 **Final conditional cohort consumed:** HENRY4261b747e;9issuer/control financing checks → `research/2026-10-19_equity-financing/conditional/RESULT.md`. Public access/cost evidence is heterogeneous; no common funding-refusal cause established. Four primary names remain unmatched; exact cash/event bridges and current credit evidence are incomplete. Recent equal-weight recovery remains counterevidence.
 
+**Catch-up 2026-10-21 (2026-10-21T22:17:31-04:00, PROME prome-56):** judgment unchanged. >320 sustained state MET, non-latching, no reset known (VERIFIED 325/323/331 [10/14–10/16]; 329 [10/19] peer cell INFERRED; FRED in maintenance 10/21 evening, so 10/19–10/20 first-published UNAVAILABLE). Funding still quiet at the NY Fed primary source: SOFR99−IORB +5 / +6bp [10/19 / 10/20], SRF $0–$0.067B [10/19–10/21]. 20Y reopening 10/21 5.469%, cover 2.73×, indirect 58.16%: no failure. 069 L4 NOT FIRED 10/19–10/21; 076 NOT MET 1-of-3; 079 NOT ARMED. Car-Mart relief now to 11/01 (BROCK). Gate cells: `STATUS.md` §2.
+
 ## Current judgment
 
 Credit stress is transmitting through repricing; a broad funding seizure is unproven. HY331bp[October16] completes LIQUID’s approved WQ444 three-session >320 sustained count (325→323→331, first-published). No automatic sizing follows. X1 remains CLOSED / DON’T-SIZE because BROCK owns the relative wrapper half; the historical absolute BDC mark card cannot satisfy it.

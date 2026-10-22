@@ -57,7 +57,7 @@ Swap-line tool/letter WITHHELD; ETF issuer histories recoveredOctober14. Prior f
 | 2026-11-06 | ✅ RESOLVED S2 2026-10-16 — LIQ-07 window closes | Resolved early; exact outcome/source in machine row |
 | 2026-11-10 | ✅ RESOLVED S2 2026-10-16 — LIQ-07 Resolve_By | Added 2026-10-15 (owed/gap audit): exact criteria/source in machine row |
 | 2026-11-13 | Q3 BDC 10-Q window (FSK/OBDC/broader marks) — Q3 card + Q2 M3/M4/M5 owed | Added 2026-10-15 (owed/gap audit): exact criteria/source in machine row |
-| 2026-10-21 | Treasury20Y reopening — $13B,CUSIP912810UX4,13:00ET | CONFIRMED: exact source/basis in machine row |
+| 2026-10-21 | ✅ GRADED 2026-10-21 — Treasury20Y reopening — $13B,CUSIP912810UX4: 5.469%, cover 2.73x, indirect 58.16%; no failure, tail UNGRADED | CONFIRMED: exact source/basis in machine row |
 | 2026-10-22 | Treasury5Y TIPS — $26B,CUSIP91282CRR4,13:00ET | CONFIRMED: exact source/basis in machine row |
-| 2026-10-22 | Car-Mart temporary relief throughOctober22 — continuation read | CONFIRMED: exact source/basis in machine row |
+| 2026-11-01 | Car-Mart temporary relief through November1 — continuation read (extended 10/20 per 10/21 8-K; was 10/22) | CONFIRMED: exact source/basis in machine row |
 | 2026-10-22 | NY Fed dealer data — next as-ofOctober14 print,publication check | ESTIMATED: exact source/basis in machine row |
