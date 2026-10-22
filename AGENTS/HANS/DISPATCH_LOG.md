@@ -115,3 +115,4 @@
 | **PROME** 🟡 | `PROME/inbox/processed/2026-10-21_from-HANS_state-vocabulary-scoped-read.md` | STATE_VOCABULARY boot read → SCOPED (≤27% of budget); READS.tsv edit is PROME's; RULE #1c wording → Will |
 | **REGINALD** 🟠 | `AGENTS/REGINALD/inbox/2026-10-21_from-HANS_euro-bank-equities-selloff.md` | EU bank equities −6 to −15% vs SX5E −1.8% (9/18→10/20), not French-only; T-14 NOT fired; KB-121 |
 | **LIQUID** 🟠 | `AGENTS/LIQUID/inbox/processed/2026-10-21_from-HANS_euro-bank-equities-selloff.md` | same packet; pairs with the 10/21 T-10 US-funding re-ask |
+| **DAEDALUS** 🟡 | `AGENTS/DAEDALUS/inbox/2026-10-21_from-HANS_falsification4-and-hns09-done.md` | falsification #4 KILL_TREE re-grade + HNS-09 definitions/tests discharged (FLEET_MAP gaps); 1c consumer 🔴 on its 10/08 record answered here, no edit asked |

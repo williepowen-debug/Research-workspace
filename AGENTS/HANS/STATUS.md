@@ -1,5 +1,5 @@
 # HANS STATUS.md
-**Updated:** 2026-10-21 (Wed, ~20:40 ET) — **hans-1021, Will-spawned boot + Europe news catch-up after a 12-day gap (no HANS session 10/10–10/20).** Re-graded 9 registry rows on fresh pulls · **`HNS-07` checkpoint 2 (due 10/15) evaluated LATE → 65% → 30%** under the pre-committed rule · France is the live stress. *Prior STATUS verbatim → `workbook/STATUS_ROTATED_2026-10-21.md`.*
+**Updated:** 2026-10-21 (Wed, closeout 22:53 ET) — **hans-1021, one long Will-spawned session after a 12-day gap.** Boot + Europe news catch-up · full registry re-grade · inbox drained (37 + 4) · `HNS-07` 65% → 30% · KILL_TREE re-graded · 20 expired KB rows cleared · test suite 149/149 · **France TPI read + `HNS-10`/`HNS-11` registered before Moody's** · France sovereign memo · **`HNS-09` rules frozen and mechanised before 10/28** · UK Budget groundwork · RULE #1c reworded (WQ-469, Will in-session). *Prior STATUS verbatim → `workbook/STATUS_ROTATED_2026-10-21.md`.*
 **Boot:** rc1 (attention) · R1 corrections rc=1 → 2 receipted this session · git current with origin (0/0) · **inbox DRAINED 21:1x ET on PROME prome-56's relay of Will's word** — 37 of 37 (11 top-level + 26 WALTER), one file at a time, each logged in `board_log.tsv`; KB-HANS-111–117 added. I own **`EUROPE_MACRO`** (BOND = time-critical backup). **UK leg: MINE.**
 
 ---
