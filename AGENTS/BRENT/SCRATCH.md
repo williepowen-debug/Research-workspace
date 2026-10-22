@@ -43,4 +43,4 @@
 - Outbox: HAWK, PROME, HENRY and TERRY packets written 10/21; publication is not consumption.
 
 ## WORKBOOK HEALTH
-- LESSONS_INDEX ledger is flagged STALE +11d by ledger_staleness; no lesson touched this session. INCIDENTS: 25 rows past re-verify budgets (flags only). FRED-keyed thresholds were ungradeable tonight because of FRED maintenance, not a key fault.
+- LESSONS_INDEX ledger is flagged STALE +11d by ledger_staleness; no lesson touched this session. INCIDENTS: 25 aged rows re-verified 10/21 ([report](research/2026-10-21_incidents-reverify/REPORT.md)): 13 refreshed (SATORP, CPC RESOLVED), 14 remain aged (5 ACTIVE: Ufa, Mina Al-Ahmadi, Tuapse, VTTI, Jazan). Next primaries: Valero Q3 10/22, TotalEnergies Q3 10/29 (SATORP written confirmation), Aramco Q3 ~11/3, ADNOC Gas Q3, MRPL exchange filing. STATUS standing rows all reconciled 10/21 (Derived Views green). FRED-keyed thresholds were ungradeable tonight because of FRED maintenance, not a key fault.
