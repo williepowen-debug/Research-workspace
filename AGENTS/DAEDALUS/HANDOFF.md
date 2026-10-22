@@ -1,10 +1,15 @@
-# DAEDALUS continuation — October 21, 2026
+# DAEDALUS continuation — October 22, 2026 (evening)
 
-**Session closed at Will’s request. Resume only when asked; HAWK is the saved next task.**
+**STATUS.md is canonical; this page points.** HAWK profile done 10/22; CYPHER desk built 10/22 (`builds/CYPHER_BUILD_2026-10-22.md`, scaffold `18770981e`).
 
 ## Start here
 
-Continue with **HAWK whole-profile refresh**, then HOMER, WAL, BROCK, CREED, REGINALD, FALCON and MIDAS. Will authorized beginning the existing queue. AEOLUS is complete: one of nine profiles finished; eight remain. No CREED owner launch without Will's explicit permission. Profile readers are not domain-owner sessions. Full backlog and authority limits: `STATUS.md`.
+1. **CYPHER registration tail:** when PROME's ROSTER row lands, add the CYPHER FLEET_MAP row (L0/M, class Market) and regenerate the directory (PAT-047 order), then re-run `corrections_boot_check CYPHER`.
+2. Continue the profile queue with **HOMER**, then WAL, BROCK, CREED, REGINALD, FALCON and MIDAS. Will authorized the existing queue. AEOLUS (10/21) and HAWK (10/22) are complete; seven of nine remain.
+
+*(Prior 10/21 text below kept for its recovery pointers; its "HAWK next" instruction is superseded.)*
+
+Will authorized beginning the existing queue. AEOLUS is complete: one of nine profiles finished; eight remain. No CREED owner launch without Will's explicit permission. Profile readers are not domain-owner sessions. Full backlog and authority limits: `STATUS.md`.
 
 ## Completed and published
 
