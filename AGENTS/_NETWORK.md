@@ -83,8 +83,8 @@ flowchart LR
     CREED -->|maturity wall / refi pressure| LIQUID
     CREED -->|Trepp CMBS-MF row, one-owner handoff 7/12| HOMER
     CREED -->|Florida overlap only| CORAL
-    OZK -. peer bank surface .- REGINALD
-    WAL -. peer bank surface .- REGINALD
+    OZK -->|single-name print / credit reads| REGINALD
+    WAL -->|single-name print / credit reads| REGINALD
 
     BROCK -->|private-credit vehicle stress| SHADE
     SHADE -->|insurer/funding wrapper stress| LIQUID
