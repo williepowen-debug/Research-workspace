@@ -1,15 +1,15 @@
 # FALCON — NEXUS Brief
 
-**Status:** 🔴 **B 1 / C 14 / D 85, HELD at the 10/21 7-day review.** Busiest week of the ship war (5 hulls struck 10/16–10/20, UKMTO 174–180-26; "≥10 in the week to 10/17" is relayed only) but no registered line crossed: no 72h halt (hulls hit 10/16, 10/18, 10/20; AL DASMA 10/20 or 10/21 0145Z), no dated framework, **Shaybah 10/21 = drone INTERCEPTED, debris killed 2 outside the perimeter, operations unaffected (MoE) ⇒ production rung D 85→92 NOT FIRED.** ① **Loss census 5 → 4 confirmed + 1 CONTESTED** — IMO now reads CAPE DAO "Partially sunk" (was "Sunk" 10/14); JMIC disputes. ② **KOTC pattern-watch tripped:** AL DASMA (Kuwait) 10/20 = 3rd Kuwait hull since 9/28. ③ Casualty ratchet RED (30d killed 24 vs 6). GATE-FALCON-001 leg 2 NOT FIRED; next review **10/28**.
+**Status:** 🔴 **B 1 / C 14 / D 85, HELD at the 10/21 7-day review.** Busiest week of the ship war (5 hulls struck 10/16–10/20, UKMTO 174–180-26; "≥10 in the week to 10/17" is relayed only) but no registered line crossed: no 72h halt (hulls hit 10/16, 10/18, 10/20 — AL DASMA dated 10/20 at NAVAREA IX 396/26 — and Houthi strikes on Saudi 10/21; earliest halt completion 10/24 ~23:48Z), no dated framework, **Shaybah 10/21 = drone INTERCEPTED, debris killed 2 outside the perimeter, operations unaffected (MoE) ⇒ production rung D 85→92 NOT FIRED.** ① **Loss census 5 → 4 confirmed + 1 CONTESTED** — IMO now reads CAPE DAO "Partially sunk" (was "Sunk" 10/14); JMIC disputes. ② **KOTC pattern-watch tripped:** AL DASMA (Kuwait) 10/20 = 3rd Kuwait hull since 9/28. ③ Casualty ratchet RED (30d killed 24 vs 6). GATE-FALCON-001 leg 2 NOT FIRED; next review **10/28**.
 **Domain:** Iran/Gulf, Hormuz, Houthi/Red Sea, Iraq/PMF theater inputs.
-**As of:** 2026-10-21 20:47 EDT | **STATUS commit:** `e3999d8b6` *(prior brief: 2026-10-21 ~20:34 EDT, STATUS `ab9b1cea0`)*
+**As of:** 2026-10-21 20:55 EDT | **STATUS commit:** `55e8d1c7b` *(prior brief: 2026-10-21 ~20:47 EDT, STATUS `e3999d8b6`)*
 
 ## CROSS-DOMAIN
 
 | To | Signal | Priority | Mechanism |
 |---|---|---|---|
 | BRENT / HAWK / PROME | **Saudi energy targeting reaches the fields:** Shaybah 10/21 intercept (2 killed by debris outside the fence, ops unaffected, no attacker named); Yanbu BM intercepted 10/16, no damage (Rapidan/Reuters); IRIB pipeline + Saree Yanbu/Shaybah claims = claim-only; Reuters 10/15 "three processing hubs damaged since the war began" = historical, no asset/date (KB-299/300) | P0 watch | A counting source confirming a hostile strike on a production-class site FIRES D 85→92, C 14→7 (same hour). Intercept debris outside the fence = OUT |
-| HAWK / BRENT / HENRY / WALTER | **Hull war widens beyond Hormuz:** IMO (as at 21 Oct: 119 incidents, 24 deaths) adds ST3 + LOYALTY 68–78 NM NE of **Al Jubail** 10/16, JIF BARRACUDA (tug) 10/18, AL DASMA off Bukha (179-26, 10/20 or 10/21 0145Z — the "Bukha tanker" is AL DASMA, not a second hull); SOYIA **SE of Al-Faw (Iraq)** 10/20 1830Z (180-26); AL KHARSAAH (LNG) skiff shots, Gulf of Aden 10/17 (176-26). JMIC 106: Arabian Gulf SUBSTANTIAL. No new sinking; IRGC mine claims unnamed (JMIC "no substantiation"); CENTCOM attributes GFS PRIDE to an Iranian projectile (KB-296/301/306; KB-298 CORRECTED) | P0 | Which-sea: "MT ST 3 in Hormuz" = Al Jubail. Four loss instruments never summed |
+| HAWK / BRENT / HENRY / WALTER | **Hull war widens beyond Hormuz:** IMO (as at 21 Oct: 119 incidents, 24 deaths) adds ST3 + LOYALTY 68–78 NM NE of **Al Jubail** 10/16, JIF BARRACUDA (tug) 10/18, AL DASMA off Bukha (179-26, 10/20 — the "Bukha tanker" is AL DASMA, not a second hull); SOYIA **SE of Al-Faw (Iraq)** 10/20 1830Z (180-26); AL KHARSAAH (LNG) skiff shots, Gulf of Aden 10/17 (176-26). JMIC 106: Arabian Gulf SUBSTANTIAL. No new sinking; IRGC mine claims unnamed (JMIC "no substantiation"); CENTCOM attributes GFS PRIDE to an Iranian projectile (KB-296/301/306; KB-298 CORRECTED) | P0 | Which-sea: "MT ST 3 in Hormuz" = Al Jubail. Four loss instruments never summed |
 | HAWK / PROME | **KOTC concentration:** AL FUNTAS 9/28 · KAZIMAH III 10/1 · AL DASMA 10/20 (2nd hit) — inbox note sent (KB-297) | P1 | Pattern-watch, no mark consequence; a 4th ⇒ proposed registered watch |
 | HAWK / HENRY | **US posture:** ordered departure of non-emergency staff from Saudi 10/21; "quiet" regional footprint reduction (CBS); third carrier + ~10k personnel due by late Nov (Fox relay); no US strike on Iran in 44 days; Kharg options = anonymous consideration; Konarak = claim + US denial (KB-303/304) | P1 | Prelude-to-strike vs exposure-reduction: both readings open |
 | HAWK | **Diplomacy:** Munir in Tehran 10/20, Qatar/Russia visits; Rezaei "not a single gram of enriched uranium will be removed"; Araghchi "table remains in place"; no date. ORACLE 10/15: blockade-end-by-12/31 37.9% (KB-302) | P2 | C→B needs a DATED framework ⇒ no |
@@ -30,7 +30,7 @@
 
 ## NEXT DECISION POINT
 
-**10/28:** gate + 7-day review. **11/05:** FAL-06 resolves. No trade or approval request; PROME sets `G:GATE-FALCON-001` review_by → 10/28.
+**10/26:** DOCKET L229 Iran–Oman permanent-route window closes (expect lapse; no mark consequence). **10/28:** gate + 7-day review. **11/05:** FAL-06 resolves. No trade or approval request; PROME sets `G:GATE-FALCON-001` review_by → 10/28.
 
 ## WATCH
 
