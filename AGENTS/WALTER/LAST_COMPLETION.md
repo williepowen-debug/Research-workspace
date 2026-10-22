@@ -145,9 +145,9 @@ FULL closeout 2026-10-22T00:56:28Z. Nine evening dispatches; seven WALTER commit
   ],
   "delivery": {
     "signal_date": "20261021",
-    "total": 65,
-    "delivered": 65,
-    "note": "All 65 October21 handoffs (001-017) published on origin/master after reconciliation; publication, not consumption."
+    "total": 66,
+    "delivered": 66,
+    "note": "All 66 October21 handoffs (001-017, incl. late YURI 016 relay) published on origin/master; publication, not consumption."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",

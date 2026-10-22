@@ -4992,4 +4992,4 @@ timestamp_routed	signal_id	recipient	role	recipient_platform	precedence	handoff_
 2026-10-22T01:04:21Z	SIG-W-20261021-017	DEWEY	INFO	CLAUDE_CODE	PRIORITY	AGENTS/DEWEY/inbox/WALTER/SIG-W-20261021-017.md	delivered	Create-only intake relay; push deferred (foreign dirty PROME state)
 2026-10-22T01:04:21Z	SIG-W-20261021-017	OSPREY	INFO	CLAUDE_CODE	PRIORITY	AGENTS/OSPREY/inbox/WALTER/SIG-W-20261021-017.md	delivered	Create-only intake relay; push deferred (foreign dirty PROME state)
 2026-10-22T01:04:21Z	SIG-W-20261021-017	FERT	INFO	CLAUDE_CODE	PRIORITY	AGENTS/FERT/inbox/WALTER/SIG-W-20261021-017.md	delivered	Create-only intake relay; push deferred (foreign dirty PROME state)
-2026-10-22T01:05:56Z	SIG-W-20261021-016	YURI	INFO	CLAUDE_CODE	PRIORITY	AGENTS/YURI/inbox/WALTER/SIG-W-20261021-016.md	written_not_delivered_pending_push	Correction relay to corrected-signal recipient, added after R1 target check
+2026-10-22T01:05:56Z	SIG-W-20261021-016	YURI	INFO	CLAUDE_CODE	PRIORITY	AGENTS/YURI/inbox/WALTER/SIG-W-20261021-016.md	delivered	Correction relay to corrected-signal recipient, added after R1 target check
