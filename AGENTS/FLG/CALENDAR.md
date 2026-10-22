@@ -1,6 +1,6 @@
 # FLG — CALENDAR
 
-**Created 2026-08-28** (FLG first live session). Dated events this desk is exposed to. **This file carries DATES, never live values** — the read lives in `STATUS.md`.
+**Created 2026-08-28** (FLG first live session) · **Last updated 2026-10-21** (Q3 date HARD; ~10/24 production row). Dated events this desk is exposed to. **This file carries DATES, never live values** — the read lives in `STATUS.md`.
 
 > ⚠️ **Anchor types, and why the column exists.** `HARD` = a published, fixed date. `RULE` = derived from a published rule or an observed filing lag. `EVENT` = an expected occurrence that can slip.
 >
@@ -12,7 +12,8 @@
 |---|---|---|---|
 | **2026-10-01** | **HARD** *(date)* · ✅ **FIRED** | 🔴 **NYC rent freeze TOOK EFFECT** — `T-08` FIRED 10/1, graded by FLG: Order #58 (0% one- and two-year, leases commencing 10/1/26–9/30/27) in force at the RGB primary; no stay, appeal or emergency application reported (4 secondary dated 9/30–10/1); court docket unreachable, 403 (KB-FLG-071). Merits ruling still pending, "before the end of the year" | `TRIGGERS.tsv` T-08 (post-fire book read 10/23) · `PROME/GATES.tsv` GATE-FLG-T08 |
 | ~~2026-09-30~~ → **2026-10-23** | EVENT *(next FLG wake = PROME DOCKET L522)* | ⚠️ **T-12 — rent-freeze litigation** (Kenilworth Holdings v. NYC RGB; Justice Lantry): 9/30 check consumed 10/1 at the T-08 grade, nothing found. Next dated items ~10/24 full production · merits by year-end (EVENT) · T-07 price backup rides the same wake | Between wakes: intake term only (DOCKET L467, best-effort). Court primaries 403 from this box |
-| ~2026-10-23 | EVENT | Q3-2026 earnings release + call *(4th-Friday pattern; not announced as of 9/27)* | T-03, check 10/16. ⚠️ slips; confirm at IR, then re-date and set HARD. Read the 8-K exhibit list (KB-FLG-064) |
+| **2026-10-23 (Fri) 06:00 ET release · 08:00 ET call** | **HARD** *(issuer PR 2026-10-09; confirmed by PROME 10/16, re-verified by FLG 10/21)* | **Q3-2026 earnings release + call** — replay to 10/27, archive to 11/20. **Pre-print frame written 10/21: `reports/2026-10-21_Q3-2026_PREPRINT_FRAME.md`** | T-03 (HARD) + T-07/T-08/T-12 = the DOCKET L522 wake. Read the 8-K exhibit index first (KB-FLG-064). A release figure does NOT grade FLG-02/03 (10-Q instruments) |
+| ~2026-10-24 | RULE *(30 days from the 9/24 order, doc 239)* | Rent-freeze litigation: City's complete discovery response due (NY County Index 453580/2026). Petitioners reserved emergency relief after reviewing it | T-12 · watch via the WALTER intake term (KB-FLG-073) |
 | ~2026-11-06 | RULE | Q3-2026 10-Q | T-02. Lag = quarter-end +37d, observed twice (2026-05-07, 2026-08-06). **Grades FLG-02 and FLG-03** |
 | **CHECK-BY 2026-11-13** | RULE | Q3 FDM + payoff read, WQ-313 ① (PROME DOCKET L522) | T-13. Will's $29M/$286M question; if insufficient, record as reported, "unreconciled / not cohort-identifiable" |
 | ~2026-11-14 | RULE | Q3-2026 Call Report (FFIEC, RSSD 694904) | T-01. Quarter-end +45d |

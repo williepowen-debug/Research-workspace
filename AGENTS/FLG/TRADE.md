@@ -1,11 +1,11 @@
 # FLG — TRADE SURFACE
 
-> **LIVE — state as of 2026-08-20 (build). Position state: NO POSITION.**
+> **LIVE — state as of 2026-10-21 (re-stated against the mirror by FLG, catch-up wave 2). Position state: NO POSITION in the mirror.**
 > This is a live surface, not a frozen one: it carries a current-state claim and must be re-stated whenever the position state changes or a session reads it against the mirror. Position truth is **off-repo** (Will / broker direct); `FORGE/STATUS.md` is the fleet's structured mirror. **Never cite a price from this file** (root Critical Rule 4) — pull live via `FORGE/tools/market-data/fetch.py price FLG`.
 
 ## Current position
 
-**NONE.** Verified 2026-08-20 against `FORGE/STATUS.md` (reconciled 2026-08-14, Will screenshot pair): no FLG row in either the Fidelity or Robinhood block.
+**NONE in the mirror.** Re-checked 2026-10-21 against `FORGE/STATUS.md` (ANVIL reconcile 2026-10-20, Fidelity Traditional IRA only): no FLG row. ⚠️ The Robinhood block is 9/29 vintage and was NOT provided on 10/20, so absence there is unverified for 22 days. *(Prior: verified 2026-08-20 against the 8/14 reconcile, both accounts — no FLG row.)*
 
 ## History — this desk's name has been traded before
 
@@ -27,6 +27,6 @@ The book's bank exposure sits in **WAL, OZK, KRE, HBAN, VLY** (`FORGE/STATUS.md`
 - **Trade construction is TERRY's lane.** FLG produces the evidence and the trigger; it does not size, strike or structure.
 - **Trade proposals go to Will and require [Approve]** (root Critical Rule 5). No execution without it.
 - Root rule 6 (puts on green days, calls on red days) and rule 7 (roll duration, don't trim size) are **TERRY-owned trade-construction rules** — cited here, applied there.
-- ⚠️ **No position may be proposed on this name before the FIRST LIVE SESSION protocol is spent** — specifically before the seed is re-verified at a primary and the open construct-validity question is answered. The desk's founding score is MIRROR-grade evidence, and `EXIT_PROTOCOL.md` leg **K-1 is one quarter from firing.**
+- ✅ The build-time bar on proposals (FIRST LIVE SESSION protocol) was spent 2026-08-28. ⚠️ *(Corrected 2026-10-21: this line said K-1 was "one quarter from firing"; that was the retired total-loans instrument — on multi-family HFI, 0 of 2 quarters are satisfied, `EXIT_PROTOCOL.md` log 2026-10-21.)* Any trade on this name is TERRY's construction and Will's [Approve]; this desk proposes none at the Q3 print.
 
 *Re-state this surface whenever position state changes. A trade surface anchored to an old date with no banner reads as current when it is not (PAT-023).*
