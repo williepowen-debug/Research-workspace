@@ -1,6 +1,6 @@
 # WAL — NEXUS Brief
 
-**As of:** October 22 2026 12:20 ET. **STATUS commit `390d54113dea73b635186547f31e35f6125737c5`**. Will-interactive session (Claude Opus 5.5): catch-up, L171 10-Q frame frozen, desk sweep, court checks, text cleanup, Q3 thesis fold. *Prior pin:* October 22 11:31 ET, STATUS `e7b5155ac`. *Rewritten 10/22 as a current synthesis; the previous text (10/19–10/21 detail) is in git history and in the research files it pointed to.*
+**As of:** October 22 2026 12:31 ET. **STATUS commit `1d4d4210adbcdfbea6a3d3c363d80e0fa36415dc`**. Will-interactive session (Claude Opus 5.5): catch-up, L171 10-Q frame frozen, desk sweep, court checks, text cleanup, Q3 thesis fold, **post-10-Q re-score rule pre-registered** (`Q3_10Q_RESCORE_RULE_2026-10-22.md`), DAEDALUS D:L793 fixes. *Prior pin:* October 22 12:2x ET, STATUS `390d54113`. *Rewritten 10/22 as a current synthesis; the previous text (10/19–10/21 detail) is in git history and in the research files it pointed to.*
 **Status:** Q3 print (10/19) and call (10/20) are graded on the frozen frames; the Q3 10-Q is not filed yet (EDGAR ≥ Mon 10/26, statutory Mon 11/9) and is the single carrier for what remains open. Live price → `STATUS.md`.
 **Thesis:** v2.4 (dated 2026-08-20); Bear-fast 2% / Bear-medium 16% / Base 45% / Bull 30% / Tail 7%; **EV $75.96 / PT $52–76**; composite 13/25 (V1a 1, V1b-broadening 2, V1b-magnitude 4, V3 3, V4 3; V2 5/5 historical, excluded). **Unchanged.** Q3 evidence is folded into THESIS/WEAKNESSES as a dated no-re-mark entry (CHANGELOG 2026-10-22); the re-score is owed right after the 10-Q grade.
 **Domain:** issuer evidence and frozen grading. Funding/cohort/severity and the price guards are REGINALD's; structure and position management are TERRY's and Will's.
@@ -19,7 +19,7 @@
 | Capital | AOCI −$786M; TBV $62.22 (from $63.24); parent CET1 10.9% preliminary; buyback $92.1M | Mixed |
 | Tape | 10/20 WAL +2.27% vs KRE +1.96% ⇒ non-credit falsifier NOT TRIGGERED | Neutral |
 
-**Judgment:** Q3 runs against the credit bear and slightly against the bull's NII engine. What remains of the bear rests on the $99M appraisal and the OREO/special-mention build. No re-mark until the 10-Q, because the Bear-medium kill needs both of its legs and only one is in.
+**Judgment:** Q3 runs against the credit bear and slightly against the bull's NII engine. What remains of the bear rests on the $99M appraisal and the OREO/special-mention build. No re-mark until the 10-Q, because the Bear-medium kill needs both of its legs and only one is in. **Pre-registered 10/22:** a cure moves Bear-medium 16 → 8 (kill fires); still non-paying or unmentioned 16 → 12; a partial write-down holds 16; a majority loss 16 → 20.
 
 ## Since the print (10/22)
 
