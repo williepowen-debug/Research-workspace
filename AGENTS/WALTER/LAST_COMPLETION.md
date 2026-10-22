@@ -20,7 +20,7 @@ FULL closeout. Boot PARTIAL (unchanged by the closeout): doctor 0 HIGH / 14 MED;
 
 ## RESULT (10/22 morning)
 
-Publication: fc0e297a8, ef1d1bda3 and 2cc46ac81 fresh-origin-proven by safe-push (the REGISTRY/delivery commit rode ef1d1bda3). The LIGHT checkpoint 2c868040d and this FULL closeout commit are LOCAL, pending: PROME's state files are dirty, so the push is deferred and handed to PROME's closeout push before Will's machine switch. Delivered means published, not consumed; consumption evidenced only for HENRY (001/002 processed, two answering packets).
+Publication: fc0e297a8, ef1d1bda3 and 2cc46ac81 fresh-origin-proven by safe-push (the REGISTRY/delivery commit rode ef1d1bda3). The LIGHT checkpoint 2c868040d and the FULL closeout f94c17d62 were deferred (PROME dirty) and published inside PROME's closeout push (PROME receipt: HEAD 175c4c2b1 then b6bfee359 on origin/master); WALTER verified both as ancestors of fetched origin/master at 10:25 ET. This receipt-only update is verified by its own safe-push. Delivered means published, not consumed; consumption evidenced only for HENRY (001/002 processed, two answering packets).
 
 ## GAPS (10/22 morning, carried)
 
@@ -160,7 +160,11 @@ FULL closeout 2026-10-22T14:16:33Z before Will's machine switch. Five morning di
     },
     {
       "commit": "2c868040d",
-      "state": "pending"
+      "state": "published"
+    },
+    {
+      "commit": "f94c17d62",
+      "state": "published"
     }
   ],
   "delivery": {
