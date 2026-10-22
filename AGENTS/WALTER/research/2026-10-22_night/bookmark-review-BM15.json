@@ -1,0 +1,35 @@
+{
+  "schema": 2,
+  "staged_at": 1792712065.1179457,
+  "items": [
+    {
+      "id": "2113399415268372778",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": "BOARD/SIG-W-20261022-037-railway-cloud-platform-breach-customer-secrets-decrypted-deploys-paused-says-series-targets-ai-inference-keys-barchart-hardens-axios-agents-claim-CYPHER.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113325263157395456",
+      "disposition": "FOLD",
+      "read_state": "partly_read",
+      "follow_up": "BOARD/SIG-W-20261022-037-railway-cloud-platform-breach-customer-secrets-decrypted-deploys-paused-says-series-targets-ai-inference-keys-barchart-hardens-axios-agents-claim-CYPHER.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113025284148715845",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": "BOARD/SIG-W-20261022-037-railway-cloud-platform-breach-customer-secrets-decrypted-deploys-paused-says-series-targets-ai-inference-keys-barchart-hardens-axios-agents-claim-CYPHER.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113027929009467704",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": "BOARD/SIG-W-20261022-038-iran-security-official-via-fars-us-political-targets-legitimate-IF-new-war-phase-conditional-dropped-in-relay-preemptive-strike-line-unsourced-FALCON.md",
+      "ask_user": null
+    }
+  ],
+  "stage_id": "62141010a803479599e077a9974664a9"
+}

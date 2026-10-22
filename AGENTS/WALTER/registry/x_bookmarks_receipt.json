@@ -1,43 +1,39 @@
 {
   "kind": "marked",
-  "checked_at": "2026-10-22T20:27:58Z",
-  "items": 5,
+  "checked_at": "2026-10-22T23:37:48Z",
+  "items": 4,
   "scan": {
-    "checked_at": "2026-10-22T20:20:45Z",
-    "head_checked_at": "2026-10-22T20:20:44Z",
+    "checked_at": "2026-10-22T23:34:25Z",
+    "head_checked_at": "2026-10-22T23:34:24Z",
     "head_checked_this_run": true,
     "incomplete": false,
-    "attempts": 3
+    "attempts": 2
   },
   "review_recorded": true,
   "read_counts": {
-    "fully_read": 2,
-    "partly_read": 3
+    "fully_read": 3,
+    "partly_read": 1
   },
   "dispositions": {
-    "DISPATCH": 3,
-    "KILL": 2
+    "FOLD": 2,
+    "DISPATCH": 2
   },
   "follow_ups": [
     {
-      "id": "2113346318953545907",
-      "ref": "BOARD/SIG-W-20261022-032-arista-velocloud-orchestrator-zero-day-cve-2026-114625-cvss-9point9-exploited-third-since-july-not-in-kev-no-named-victims-edge-layer-context.md"
+      "id": "2113399415268372778",
+      "ref": "BOARD/SIG-W-20261022-037-railway-cloud-platform-breach-customer-secrets-decrypted-deploys-paused-says-series-targets-ai-inference-keys-barchart-hardens-axios-agents-claim-CYPHER.md"
     },
     {
-      "id": "2113274357682454865",
-      "ref": "AGENTS/WALTER/filtered/kill_log.tsv"
+      "id": "2113325263157395456",
+      "ref": "BOARD/SIG-W-20261022-037-railway-cloud-platform-breach-customer-secrets-decrypted-deploys-paused-says-series-targets-ai-inference-keys-barchart-hardens-axios-agents-claim-CYPHER.md"
     },
     {
-      "id": "2113268044877209941",
-      "ref": "AGENTS/WALTER/filtered/kill_log.tsv"
+      "id": "2113025284148715845",
+      "ref": "BOARD/SIG-W-20261022-037-railway-cloud-platform-breach-customer-secrets-decrypted-deploys-paused-says-series-targets-ai-inference-keys-barchart-hardens-axios-agents-claim-CYPHER.md"
     },
     {
-      "id": "2113253036013318277",
-      "ref": "BOARD/SIG-W-20261022-031-france-10y-oat-5point06-touched-5point14-highest-since-2002-above-us-10y-first-since-2013-as-us-10y-falls-to-4point95-on-ai-selloff-hans-red-tier-moodys-friday-HANS.md"
-    },
-    {
-      "id": "2113109837382901905",
-      "ref": "BOARD/SIG-W-20261022-033-anecdote-unnamed-national-property-manager-150k-units-says-multifamily-worst-in-40-years-class-b-oversupply-renters-on-credit-cards-lender-forbearance-UNVERIFIED-HOMER.md"
+      "id": "2113027929009467704",
+      "ref": "BOARD/SIG-W-20261022-038-iran-security-official-via-fars-us-political-targets-legitimate-IF-new-war-phase-conditional-dropped-in-relay-preemptive-strike-line-unsourced-FALCON.md"
     }
   ],
   "requests": []
