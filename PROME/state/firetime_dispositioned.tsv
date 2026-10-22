@@ -2,7 +2,6 @@ artifact	kind	core	first_dispositioned	pointer
 AGENTS/WAL/STATUS.md	DATE DRIFT	artifact says 2027-01-05 ('1/5')	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
 AGENTS/WAL/Q2_10Q_READ_2026-08-07.md	DATE DRIFT	artifact says 2027-01-05 ('1/5')	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
 AGENTS/CORAL/STATUS.md	DATE DRIFT	artifact says 2027-01-04 ('2027-01-04')	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
-PROME/WILL_QUEUE.md	DEAD POINTER	`tools/phone_scan.py`	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
 PROME/proposals/2026-09-05_spawn-driver-RULED.md	DEAD POINTER	`BLUEPRINTS/meta-agent.md`	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
 PROME/proposals/2026-09-05_spawn-driver-RULED.md	DEAD POINTER	`profiles/FERT.md`	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
 AGENTS/REGINALD/reports/2026-09-27_nano-banc-failure-forensics.md	DATE DRIFT	artifact says 2026-12-24 ('12/24')	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
