@@ -171,3 +171,8 @@ CATO reviewed the day's work and produced counterexamples against several of thi
   - Executed the zero-judgment refreshes: 17 VX surfaces, including **TIC AUGUST** (out, primary; Germany below the Table 5 cutoff, so owed #16 is confirmed, not an error). 5 PUBLISHED rows.
   - Tested the 9/18 TTF-backwardation observation and found it unsupportable on this vendor (`KB-125`).
   - Bigger build-outs listed for Will rather than started.
+- **22:00 ET — Will: "start with the France prediction and TPI".**
+  - Researched first, so the confidence had a basis. Read the ECB TPI press release at primary twice; its EXIT clause ("persistent tensions are due to country fundamentals") is the decisive line.
+  - The Commission EDP page (primary) does not show the June "effective action" verdict; carried as secondary.
+  - OMFIF's single-source Lagarde-departure claim not carried.
+  - Registered HNS-10/11 at 22:00 ET by the clock, before Moody's. Caught and fixed my own typed "~22:1x" stamp and a 2025/2026 date typo before commit.

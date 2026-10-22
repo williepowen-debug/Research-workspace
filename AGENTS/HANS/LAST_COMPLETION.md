@@ -13,6 +13,8 @@
 - Packet `PROME/inbox/processed/2026-10-21_from-HANS_state-vocabulary-scoped-read.md` (carve-out ①).
 - **Owed sweep (PROME relay of Will, 21:22):** #32 fixed (`doc_audit.METRIC_ALIASES` + 2 injection tests, 138/138) · #27 `thesis/KILL_TREE.md` re-graded (prior verbatim → `thesis/KILL_TREE_ROTATED_2026-10-21.md`) · #29 20 expired KB rows cleared + KB-118–124 · T-15 graded both legs (#25 closed) · #21 closed (`KB-123`) · #13 answered in KILL_TREE C-1 · #5b partial (`KB-124`, gate named) · VX 2.01/2.02/5.01 + registry T-11/T-15 · packets to REGINALD + LIQUID on the bank selloff.
 
+- **22:00 ET (Will): France prediction + TPI.** `research/2026-10-21_FRANCE_TPI_BACKSTOP.md`; KB-126/127; **HNS-10** (spread ≥175bp on an i-i row by 11/30, 55%) and **HNS-11** (no >200bp before 12/31, 75%), registered BEFORE Moody's 10/23. PROME may want DOCKET rows for 11/30 and 12/31 (PROME's file, not edited).
+
 **RESULT:** France is the live European stress: OAT 4.99 / spread 157.5bp [i-i 10/21], +20bp in 3 sessions, Italy flat — France-specific; Moody's 10/23. TTF 87.50 (>90 intraday 10/20); EU storage 74.58% with the first net withdrawal on gas day 10/20; HNS-07 → 30%. EA Sept final 3.8% / core 2.5 (T-16 1 of 2); UK Sept CPI 3.5% / core 2.8 / services 3.7. ECB 10/29 hold consensus, Dec ~87% priced; BoE 11/5 hike priced. UK 30Y 5.797 (20bp under T-13) into the 10/28 Budget.
 
 **GAPS:**
