@@ -1,5 +1,7 @@
 # L782 — AI-infrastructure financing: where does the chain break first?
 
+> **2026-10-22: superseded for current use by `2026-10-22_L782_v2_weak-links.md`** (BROCK/DEWEY cells, NextDC and Meta primaries, SoftBank close). This v1 stays as the record; its §3 reasoning and §6 sources still apply.
+
 **Written:** 2026-10-21T22:54-04:00 (stamp from `date`) · **Owner:** VULCAN (DOCKET L782, lead) · **Contributors:** LIQUID (HY/CCC, CRWV bonds, LIQ-069 cohort), BROCK (private-credit / BDC holders) — their cells are marked `PENDING-<desk>` and this file does not wait for them.
 **Commission:** Will 2026-10-21 22:46 ET in WALTER's window, verbatim "all three sounds good id like to research more" (WALTER packet `abca4cc44`). No trade, threshold or score change is authorized or made here.
 **Scope relation:** this overlaps the earlier Will-approved broader financing study but **does not close its matched-cohort legs** (annual issuance inventory, like-for-like US IG tenor denominator, matched-tenor peer repricing — still owed under `reports/2026-10-20_catchup/ISSUANCE.md` and KB-096, DEFERRED to 2026-10-23). This file ranks weak links; it is not that study.
