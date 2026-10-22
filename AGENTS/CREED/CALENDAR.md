@@ -5,7 +5,7 @@
 ## Q3-2026 investigation touchpoints (PROME, WQ-313)
 | Date / check-by | Event | DOCKET | CREED role |
 |---|---|---|---|
-| **2026-10-09** (check-by) | **Nano Banc P&A agreement posts** — settles the retained-pool composition (supersedes the INFERRED §1 read in the Nano collateral file) | **L516** | Re-check `analysis/2026-09-27_nano-banc-collateral-read.md` §1 composition when it posts |
+| ~~**2026-10-09** (check-by)~~ ✅ **CLOSED 2026-10-22:** superseded by REGINALD's 10/09 report (retained pool ≈ $70–90M ≈ 32–42%, canonical); the P&A may never give loan-level detail (DEWEY 10/14); the sale comp continues as L515 | **Nano Banc P&A agreement posts** — settles the retained-pool composition (supersedes the INFERRED §1 read in the Nano collateral file) | **L516** | Re-check `analysis/2026-09-27_nano-banc-collateral-read.md` §1 composition when it posts |
 | **~late Nov 2026** | **FDIC Q3-2026 QBP** — `CREED-T-03` (bank >$250B nonfarm-nonres CRE PDNA); regional CRE OREO trend | **L514** | The bank-transmission trigger; grade T-03 legs (b)+(c) by hand |
 | **+3–9 mo (check-by 2027-06-25)** | **FDIC sells the Nano Banc retained pool** — direct price on a failed bank's retained SoCal CRE pool (narrowed 2026-09-28; the few bank-held sales on file are self-selected, priced vs written-down carrying) | **L515** | S6 comp; record price vs UPB **by lien position** (2nd-lien prices excluded from property reads); most likely NOT a T-06 member |
 

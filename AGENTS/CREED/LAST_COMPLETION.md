@@ -1,6 +1,8 @@
 # CREED — LAST_COMPLETION
 
-**STATUS:** DONE — **2026-10-22 (Thu), Will-launched session 12:19 → 14:10 ET (Will: "Okay lets close out here. Please commit and push."):** Will's 005 CRE leg (rates, not spreads) · sweep + six fixes · rotations under 70% · PREREG_2026-11 · KB 60 → 73 · evals v2 4/4 · ABS-EE scope · 4 Will decisions packeted to PROME. No score moved; 27/45. Record `catchups/2026-10-22.md`.
+**STATUS:** DONE — **2026-10-22 (Thu) evening addendum, 17:22 → 17:53 ET:** Trepp form PARKED (premise corrected) · RSNRES adopted as `VX-8.01` (KB-074; two artifacts found) · ABS-EE scheduled after the October print · pension route added · key-file currency pass (THRESHOLDS state cells, FLOW refreshed, scoreboard, COVERAGE, STATUS ④, CALENDAR). No score moved; 27/45.
+
+**EARLIER:** DONE — **2026-10-22 (Thu), Will-launched session 12:19 → 14:10 ET (Will: "Okay lets close out here. Please commit and push."):** Will's 005 CRE leg (rates, not spreads) · sweep + six fixes · rotations under 70% · PREREG_2026-11 · KB 60 → 73 · evals v2 4/4 · ABS-EE scope · 4 Will decisions packeted to PROME. No score moved; 27/45. Record `catchups/2026-10-22.md`.
 
 **PRIOR:** DONE — **2026-10-21 (Wed), WQ-472 bounded catch-up** (PROME prome-56): drain 37/37 · Trepp Sep graded (`T-01a` leg 1) · L723 pre-read. Record `catchups/2026-10-21.md`. *(This file was not updated by that session; noted 10/22.)*
 

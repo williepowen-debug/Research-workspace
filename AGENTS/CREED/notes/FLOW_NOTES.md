@@ -14,6 +14,10 @@
 
 Vacancy -> value decline -> LTV breach -> modification -> re-default -> recognition -> provisions. STILL SELECTIVE, PRE-CASCADE: the CMBS legs are elevated and the bank leg has not turned. The chain is loaded at the front and blocked at the back.
 
+*** Superseded 2026-10-22: the Current cell as it stood (crc32 `5018226f`, 412 B), verbatim:*
+
+TRIGGER IDs: CREED-T-03 (bank leg) + CREED-T-01a (CMBS leg). CMBS leg ELEVATED: office DQ 12.00% [Trepp Aug] sits AT the >12 band, 0 of 2 legs (T-01a NOT fired; the Sept print can only start leg 1). Bank leg NOT FIRED: FDIC Q2 QBP [pub 2026-08-25] >$250B nonfarm-nonres PDNA 2.48% (-25bp); industry PDNA 1.44%; reserve coverage 172.7% industry / 145.6% community banks. Selective, pre-cascade. [as of 2026-09-29]
+
 ## FLOW-CREED-02 — Maturity Wall Cascade
 *moved verbatim 2026-09-29, crc32 `629f56f2` (col 7 + newline + col 8)*
 
@@ -24,6 +28,10 @@ Vacancy -> value decline -> LTV breach -> modification -> re-default -> recognit
 **Key_Insight (col 8) as of the rotation:**
 
 Maturities force refinance at repriced values; failed refi forces appraisals and NAV marks. THE CLEANEST 2026 FORCING FUNCTION — calendar-driven, borrowers cannot defer it. Q4 back-loading is the timing rail. NEW 7/27: lender capital withdrawal (FLOW-07) removes refi capacity on the other side of this wall. *** FIRED 8/20: the forcing function is no longer prospective -- refi failure at maturity is now the MAJORITY of new CMBS delinquency, three prints running. ⚠️ FOUND BY THE CLOSEOUT SELF consumer_check, NOT by the fire adjudication: this row carried CREED-T-02's condition verbatim in its own trigger field while sitting ARMED. THIRD surface holding one condition (registry row + VX vector + this chain) -- the SAME class of defect K5 exposed, caught the same session by a different instrument.
+
+*** Superseded 2026-10-22: the Current cell as it stood (crc32 `0a29bc9f`, 351 B), verbatim:*
+
+TRIGGER ID: CREED-T-02 -- FIRED 2026-08-20 (effective at the June print), SPENT: later majorities are not re-fires. Matured-balloon share of new delinquencies 81% [Trepp Aug], 4th consecutive print >50%, NO denominator printed (no shape word, trap #6). Maturity-adjusted DQ 9.81% [Trepp Aug]. 2026 hard maturities $76.6B, 39% in Q4. [as of 2026-09-29]
 
 ## FLOW-CREED-05 — Extend-and-Pretend Collapse
 *moved verbatim 2026-09-29, crc32 `38a0c4d8` (col 7 + newline + col 8)*
@@ -36,6 +44,10 @@ STILL ABSORBING at the aggregate (June headline decline was lodging cures + mods
 
 1st mod -> expire -> 2nd mod -> exhaust -> forced recognition -> charge-off. *** THE SS-minus-DQ SPREAD (VX 2.03, 5.54pp) IS THE GAUGE: wide = extensions still working; collapsing = either genuine cures or delinquency catching up. *** Sangertown is the cleanest specimen of this chain ENDING ON SCHEDULE for one credit.
 
+*** Superseded 2026-10-22: the Current cell as it stood (crc32 `ab2bc982`, 377 B), verbatim:*
+
+STILL ABSORBING in aggregate. Read the GROSS FLOWS: CMBS special-servicing transfers in $3.16B vs out ~$0.50B [Trepp Aug SS report]. Office SS 16.90%; overall SS 11.42%, highest since Feb 2013 [Trepp Aug]. The office SS-minus-DQ spread (VX-2.03, 4.90pp) is context only: both of its directions read as stress, so its sign is not an instrument (KB-CREED-034). [as of 2026-09-29]
+
 ## FLOW-CREED-06 — Lease Expiration / Vacancy Ratchet
 *moved verbatim 2026-09-29, crc32 `b95a4911` (col 7 + newline + col 8)*
 
@@ -47,6 +59,10 @@ US office vacancy ~21.0% [Moody's Q1-26, record] — BUT provider spread is ~2.4
 
 Leases expire -> tenants downsize -> vacancy ratchets -> rent decline -> NOI -> DSCR breach -> feeds the maturity wall. *** NEW 7/27 CONSTRAINT: the office->residential CONVERSION EXIT, which puts an unexamined floor under obsolete office, is being attacked at the pro-forma level (Seattle: "not worth even looking at"). PHYSICAL constraints travel; FEE constraints are metro-specific — several metros SUBSIDISE conversion. ***
 
+*** Superseded 2026-10-22: the Current cell as it stood (crc32 `29e96b78`, 349 B), verbatim:*
+
+CANONICAL CBRE Q2-2026: US office vacancy 18.3% (-30bp QoQ), net absorption +12.6M sf (9th consecutive positive quarter). Context, never blended: C&W 20.1% / -360K sf; Moody's unreachable (last 21.0%, Q1). Trigger (>20% sustained with leasing deterioration) NOT met on the canonical basis; VX-9.03 bands are uncalibrated for CBRE. [as of 2026-09-29]
+
 ## FLOW-CREED-07 — CRE Lender Capital Withdrawal
 *moved verbatim 2026-09-29, crc32 `87fa9ce9` (col 7 + newline + col 8)*
 
@@ -57,6 +73,10 @@ Leases expire -> tenants downsize -> vacancy ratchets -> rent decline -> NOI -> 
 **Key_Insight (col 8) as of the rotation:**
 
 *** NEW CHAIN 7/27. *** Public CRE lenders conclude the business no longer earns its cost of capital -> return capital / shrink books -> refi capacity contracts -> the maturity wall (FLOW-02) has fewer lenders on the other side. *** CRITICAL: separate lender-ECONOMICS exits (ARI, book cleared at par) from CREDIT-LOSS shrinkage (KREF, risk-5 write-offs). Fusing them produces "CRE lenders are blowing up," which is wrong about both. *** Currently a CHANNEL-COMPOSITION story much more than a funding-closure story.
+
+*** Superseded 2026-10-22: the Current cell as it stood (crc32 `c2ac8876`, 400 B), verbatim:*
+
+11-name CRE mREIT cohort: 4 cut or liquidating (ARI wind-down, KREF -60%, RC -92%, GPMT $0.05->$0.01), 7 held Q3 [VX-10.01, 9/26]. Named exits: 1 (ARI; stockholders approved dissolution 2026-09-29, 8-K Item 5.07). GPMT formal strategic review 9/23. Q2 book-value erosion concentrated in GPMT/KREF/RC/BXMT [VX-10.04]. Trigger (2+ additional named exits OR cohort-wide cuts) NOT met. [as of 2026-09-29]
 
 ## FLOW-CREED-08 — Fast-to-Slow Holder Migration
 *moved verbatim 2026-09-29, crc32 `ee8f27be` (col 7 + newline + col 8)*

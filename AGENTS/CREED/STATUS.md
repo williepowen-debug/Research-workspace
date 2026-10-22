@@ -115,7 +115,7 @@ Current thesis:
 
 **③ THE EQUITY TAPE STAYS PAST THE BAND, AND IT IS STILL RATES.** S8a **−11.48pp TR [10/21 close]**; 11 of 14 sessions in October below −10. 10y 5.15% (proxy). T-08a fire stands; S8a = 4.
 
-**④ LENDERS: SELECTIVE, NOT A CASCADE — but the evidence is three weeks old.** Last census 9/26 (cuts 4/11; erosion in four names) is UNAVAILABLE as current (not re-run; Q3 prints due). New: RaDD (OZK's largest credit) **extended to Dec-2029 with $100M fresh capital** — the near-term default premise is materially weakened; 10 Prospect (Boston) **failed to sell: $37.3M charge-off, $132M OREO**. Gates: still 1 (9/26 census); Two Sigma's real-estate exit is not a gate.
+**④ LENDERS: SELECTIVE, NOT A CASCADE.** 🆕 Re-checked 10/22: dividend cuts still **4 of 11** (GPMT now primary); book erosion awaits Q3 prints (Ladder only: book value up); cohort stocks −16.6% / 21 sessions but a rate-type move, not credit-type (`KB-062`). New: RaDD (OZK's largest credit) **extended to Dec-2029 with $100M fresh capital** — the near-term default premise is materially weakened; 10 Prospect (Boston) **failed to sell: $37.3M charge-off, $132M OREO**. Gates: still 1 (9/26 census); Two Sigma's real-estate exit is not a gate.
 
 **⑤ TRIGGER BOARD:** `T-01a` **leg 1 of 2** (12.16) · `T-01b` 16.85, not fired · `T-02` FIRED/spent (Sep share 68%, no $ base) · `T-03` not fired · `T-04` qualitative · `T-06` by hand · `T-06b` FIRED, count 1 · **`T-08a` FIRED 9/24, −11.48 [10/21]** · `T-08b` not re-graded.
 
