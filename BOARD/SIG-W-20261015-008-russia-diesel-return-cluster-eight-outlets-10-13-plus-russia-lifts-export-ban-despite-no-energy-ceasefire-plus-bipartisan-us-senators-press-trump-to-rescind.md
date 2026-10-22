@@ -16,6 +16,8 @@ entities: [Russia, Trump, Novak, OFAC GL-135]
 source: RESEARCH-INTAKE lane 10/13 collection (8-outlet syndication cluster + Energy Intelligence "Russia Lifts Diesel Export Ban Despite No 'Energy Ceasefire'" + Washington Times senators-press-to-rescind); tags source: RESEARCH-INTAKE
 ---
 
+> PARTIALLY CORRECTED — SIG-W-20261021-016: Russia did NOT lift its diesel export ban. It granted a partial 500,000 t permission effective 10/10; Resolution No 1252 keeps restrictions to 31.10.2026 (producers) and 31.01.2027 (broader). Read "partial permission", not "lifted". Direction WEAKEN. The senators/Moscow-claims rows are unaffected.
+
 # SIG-W-20261015-008 — Russia-diesel-return cluster (8 outlets, 10/13): Moscow claims global diesel exports will exceed Trump's deal targets AND Russia lifts its diesel export ban despite no energy ceasefire; US senators (bipartisan) press Trump to rescind the sanctions-relief deal
 
 ## Claim

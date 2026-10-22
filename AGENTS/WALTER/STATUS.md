@@ -1,5 +1,5 @@
 # WALTER STATUS
-**Updated:** 2026-10-22T00:54:52Z — FULL closeout (PROME prome-56 direction on Will's word 20:51 ET). Today 15 dispatches 001–015 (evening 007–015 incl. two corrections 010/011), BOARD **1573**. Sole duty/receipt list LAST_COMPLETION.md.
+**Updated:** 2026-10-22T00:54:52Z — FULL closeout (PROME prome-56 direction on Will's word 20:51 ET). Today 17 dispatches 001–017 (evening 007–017 incl. corrections 010/011/016), BOARD **1575**. Sole duty/receipt list LAST_COMPLETION.md.
 
 ## BOTTOM LINE
 
