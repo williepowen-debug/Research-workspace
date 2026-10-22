@@ -86,3 +86,19 @@ IUA JWC risk-list index read 21:16 ET (`jwc-iua.html`, HTTP 200): **newest circu
 | OSPREY 10/15 OSP-06 / L544 / pause lifted | **deferred** | The ask (confirm Bloomberg Russia 4-week exports to 10/11 at text) was not attempted; the article was a 403 for OSPREY |
 
 **Not re-verified this session:** COT (next release Friday 10/23), Baker Hughes, JWLA-035 area text, the Kpler October primary, the WSJ article, TRADE positions or broker truth, the 25 aged INCIDENTS rows, and the HENRY December basis.
+
+## 7. Addendum 21:2x ET — October-week volume read (PROME ask 4, prome-56 message)
+
+**No primary gives an October-week Hormuz volume.** The Kpler October primary is not reachable; Bloomberg (10/21) is paywalled. All of these are secondary relays of Kpler, so they are one vendor lineage, not independent confirmations:
+
+| Window | Figure | Basis as relayed | Relay |
+|---|---|---|---|
+| Day 10/8 | ~20.8 M bbl | "oil passed through the strait"; source attribution implied | Al Jazeera 10/14 |
+| Day 10/11 | ~2.9 M bbl | same; pre-war average **17.1 mb/d** | Al Jazeera 10/14 (Kpler) |
+| Week to 10/7 | ~8.5 mb/d (~40% below normal) | Kpler weekly crude | search summary only; not read |
+| Week to 10/13 | ~11.6 mb/d (~68% of pre-war) | Kpler | global-energy-flow.com tracker; not read |
+| Week to 10/18 | **~14 mb/d (82%)** | through the strait incl. Gulf of Oman offshore transfers, preliminary | WSJ via IBTimes / Seeking Alpha |
+| Week to 10/18 | Gulf crude + condensate exports **24.6 mb/d** (a high); October-to-date still below pre-war | all routes | Bloomberg 10/21 headline/summary; body not read |
+| Recent | 9–10 mb/d | Windward, a different vendor | relayed, not read |
+
+**Cross-check:** 14 / 17.1 = 81.9%, so the WSJ 82% sits on Al Jazeera's 17.1 mb/d Kpler Hormuz pre-war baseline. The level and baseline are internally consistent. **Reading:** the 10/12–10/18 week did not deepen on volume. Relayed Kpler shows a recovery from a 10/11 trough (~8.5 → ~11.6 → ~14 mb/d), while PortWatch's AIS-visible count deepened in the same week. That divergence is what an AIS-dark shuttle trade predicts. Windward's 9–10 mb/d is a lower vendor estimate, and the vendor spread is wide. Treat ~14 mb/d as the upper end of a relayed range, not a measurement. The recorded figure in §3 stands with its [EST secondary] tag.
