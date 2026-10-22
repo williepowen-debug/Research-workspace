@@ -1,0 +1,35 @@
+{
+  "schema": 2,
+  "staged_at": 1792669341.4339633,
+  "items": [
+    {
+      "id": "2113215401983152439",
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-22_boot/FOLLOW-UPS.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113041137627799888",
+      "disposition": "NO-ACTION",
+      "read_state": "partly_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2113026278504755415",
+      "disposition": "NO-ACTION",
+      "read_state": "partly_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2113035941896147408",
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-22_boot/FOLLOW-UPS.md",
+      "ask_user": null
+    }
+  ],
+  "stage_id": "bf6f5bbbe699419799bb693bb272a2b5"
+}
