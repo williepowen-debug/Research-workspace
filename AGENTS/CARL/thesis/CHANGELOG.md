@@ -8,6 +8,24 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-10-21 — CRL-29 first grade NO VERDICT; Q3 prints cut CRL-31 50→1%, CRL-20 35→1%, CRL-12 20→1% (no version bump, no score change)
+
+**Session:** CARL catch-up (PROME-spawned prome-56, wave 3; Will 21:56 ET authorization). Card `domain/sources/2026-10-21_catchup/CATCHUP_READ.md`.
+
+**CRL-29 (`CARL-AUTO-OUTFLOW-01`), due 10/20:** graded under WQ-437 (C1–C5) from nine SEC certificates re-fetched 10/21, exact decimal (`crl29_grade.py`). AMCAR 2023-2, AMCAR 2024-1 and EART 2024-1 all NO VERDICT; the 61+ stock rose in 5 of 6 monthly changes (only AMCAR 2024-1 ages 26→27 fell, −0.0335pp, in a NV cell). **Panel NO VERDICT = registered null, scored neither way.** Old → new: OPEN ungraded → OPEN, first grade null; 30% unchanged; November HHDC re-check retained (KB-536).
+
+**CRL-31: 50% → 1%.** Q3 (8-Ks filed 10/20): SYF NCO −64bp QoQ, COF domestic card −73bp, ALLY retail auto +32bp. Only Q3 and Q4-2026 can count, so at most ALLY can finish a 2-quarter run: ≥2 names unreachable. Move-from-50 draft 3%, cold ~0–1% → 1%. Not resolved (FAIL vs VOID at window end). Paper rows PS-0001..0005 antecedent now ~1%.
+
+**CRL-20: 35% → 1%.** COF card leg dead; ≥3 of 4 needs ALLY Q4 ≥+30bp again AND SYF >5.5% AND RITM. Draft 5%, cold ≈1% → disagreement >2×, cold governs.
+
+**CRL-12: 20% → 1%.** SYF nine-month NCO 5.21%; FY >6.0% needs Q4 ≈8.4%. Draft 3%, cold ~0–1%.
+
+**CRL-21:** NCO leg stays failed; vintage-loss OR-leg UNREVIEWED (ALLY charts are images), docket 10/26; 25% unchanged.
+
+All four cuts are forced by the registered checkpoint (the Q3 prints), not by a rule change; no threshold, band, instrument or score rule moved. KB-536–540.
+
+---
+
 ## 2026-10-15 (2) — CRL-29 letter RULED (WQ-437); September retail T1 3/3 against (no score change)
 
 **CRL-29 (`CARL-AUTO-OUTFLOW-01`):** Will, 2026-10-15 08:31 ET, verbatim *"okay approved both"* (WQ-436 + WQ-437; record `PROME/proposals/2026-10-15_wq436-437-RULED.md`, 021e2e792). The 10/20 grade runs under RED's five clarifications C1–C5 (`AGENTS/RED/research/2026-10-14_CHG-049_CRL29_minimum_clarifications.md` §2), accepted by CARL 10/14 23:53 ET before the panel values were opened. **Old → new:** instrument stock leg `{119}-{122}` buckets (denominator open) → issuer 61+ day delinquent principal ÷ end-of-period pool (C1); band-period, overlap (D beats A), B loss leg (Δloss < +0.77pp), NO VERDICT residual and panel aggregation (≥2 of 3 trusts, ≥2 vintages, none opposite) now stated (C2–C4); exact decimal, ties count (C5). **Unchanged:** floors 0.77/0.47, trusts, 10/20 date, 30% confidence. The both-letters fallback is void. Encoded in PREDICTIONS.tsv (Instrument + Notes), the 8/27 registration §4, the disposition record and the docket.

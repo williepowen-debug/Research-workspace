@@ -1,0 +1,14 @@
+{
+ "step": "CARL CLAUDE.md closeout 13c (root Data Hygiene: >60 days AND not boot-read AND not referenced by a live doc; pending-event exemption)",
+ "run_at": "2026-10-21T22:48-0400",
+ "scope": "git-tracked files under AGENTS/CARL/research/ and AGENTS/CARL/domain/sources/",
+ "age_basis": "first-add commit date (git log --diff-filter=A), cutoff 2026-08-22 (60 days before 2026-10-21). Not mtime.",
+ "candidates": [
+  {"path": "AGENTS/CARL/domain/sources/ally/RECLASSIFICATION_AUDIT_FY2025.md", "added": "2026-04-17", "disposition": "RETAINED", "reason": "live ref unchanged since the 10/15 sweep: workbook/KB.tsv KB-CARL-223 (ACTIVE) cites it"},
+  {"path": "AGENTS/CARL/domain/sources/SYF_COF_Q1_2026.md", "added": "2026-04-29", "disposition": "RETAINED", "reason": "pending-event exemption: thesis/PREDICTIONS.tsv CRL-12 still OPEN (re-graded 20->1% on 10/21, resolves FY2026 in Jan 2027)"},
+  {"path": "AGENTS/CARL/domain/sources/2026-05_NYFed_HHDC_2026Q1_condensed_brief.md", "added": "2026-07-12", "disposition": "RETAINED", "reason": "live ref unchanged since 10/15: thesis/HHDC_Q2_2026_GRADING_CARD.md section 1 Q1 baseline; Q3 HHDC row 11/30 pending"}
+ ],
+ "retired": [],
+ "unresolved": [],
+ "prior_sweep": "domain/sources/2026-10-15_retirement-sweep.json (same three, all retained)"
+}

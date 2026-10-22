@@ -1,5 +1,5 @@
 # CARL ROADMAP — "Where are we"
-**Updated:** 2026-10-12: Will-approved catch-up/scope finding delivered; newspending evidence challengesbroadconvergence. EARTcardSOURCE-INCOMPLETE;10/14retry. Scores/registeredrules unchanged.
+**Updated:** 2026-10-21 (PROME catch-up wave 3): CRL-29 first grade NO VERDICT; Q3 issuer legs read, CRL-31/20/12 cut to 1%; CRL-21 vintage leg owed 10/26. Score 53/70 unchanged.
 
 ⛔ **STRUCTURE CHANGED 2026-09-05 (Will-directed structural read-cap fix).** This file was **51,744 B = 1.57× the 32,550 B budget**, and **61% of it was the OPEN THREADS table** — **28 genuinely-open threads at ~865 B each.** ⚠️ **Rotation could not fix that: the content was LIVE, not residue** (measured — closed-rows-mis-filed were only **6%**), which is the same finding STUE produced on its own surface the same day.
 **THE FIX — read-mode, not byte-trim:** the per-thread **Status narrative** now lives in **`ROADMAP_THREADS.md`** (**grep it, NEVER read it whole**); this file carries a **GENERATED index**. **Edit threads in `ROADMAP_THREADS.md`, then `python3 AGENTS/CARL/scripts/roadmap_index.py --rebuild`.** `--check` fails closed on drift and is a closeout gate.
@@ -24,7 +24,7 @@ Persistent state-of-CARL tracker across sessions. SCRATCH = "what to do next ses
 | # | Thread | Next Step | Last Touched |
 |---|--------|-----------|--------------|
 | 1 | **🟠 Brent series-identifier defect — a LABEL is owed on every published Brent level** | **Stamp series+venue on every Brent level CARL publishes** (13 sites carry the unlabelled figure; the 4 load-bearing ones are annotated, the rest a… | 2026-08-20 |
-| 2 | **🟡 TERRY TRY-FIRE-002 — premise ANSWERED 10/10 (KEEP DORMANT); CRL-21 vintage-leg grade owed at the Q3 pri… | **Grade the CRL-21 vintage-projection leg at the Q3 issuer prints (docket ~10/20, not IR-confirmed) and packet TERRY with the result either way**;… | 2026-10-10 |
+| 2 | **🟡 TERRY TRY-FIRE-002 — premise ANSWERED 10/10 (KEEP DORMANT); CRL-21 vintage-leg grade owed at the Q3 pri… | **Grade the CRL-21 vintage-projection leg at the Q3 issuer prints (docket ~10/20, not IR-confirmed) and packet TERRY with the result either way**;… | 2026-10-21 |
 | 3 | **Three DEWEY deep-research commissions (Will-approved 7/31) — ALL 3 DELIVERED; DR-3 SCORED 10/01 (kill NOT… | **DR-3 delivered 10/01 (DEWEY e648c590e) and SCORED by CARL the same session (KB-CARL-502):** kill NOT fired. The trade-down half of the cohort axi… | 2026-10-01 |
 | 4 | **DAEDALUS STATUS two-state PILOT (WATT/HENRY/CARL)** | **Execute rotation in the post-HHDC session** (deliberate: tomorrow's print supersedes many dashboard rows — rotating after integration avoids doub… | 2026-08-10 |
 | 5 | **GIG-P03/P06 re-instrumentation (structural data gap)** | Decide: re-spec onto a published series (platform-disclosed driver earnings/ride — Lyft publishes +8% YoY), re-date to the annual Gridwise cadence,… | 2026-08-10 |
@@ -44,7 +44,7 @@ Persistent state-of-CARL tracker across sessions. SCRATCH = "what to do next ses
 | 19 | **CRL-14 retire+replace + Doc 54 — TWO OPEN WILL DECISIONS** | Surface both at next Will touchpoint. | 2026-07-31 |
 | 20 | **Consumer-credit downgrade candidate — INSTRUMENT CORRECTED; HHDC card FROZEN** | (a) **Grading card FROZEN 22d early — `thesis/HHDC_Q2_2026_GRADING_CARD.md`** (Will-insisted): CRL-05 cells + a 4-cell survivor-pool-vs-healing dis… | 2026-07-24 |
 | 21 | **🟠 STATUS two-state rotation — #1 DONE, joint cap NOT met, blocker is the BRIEF** | **Falsifier report due ~9/10** (not hit; zero days elapsed = a null, not a result) — send unprompted either way. Brief compression awaits the cap r… | 2026-08-27 |
-| 22 | **🟠 `CARL-AUTO-OUTFLOW-01` — inputs PREPARED; grading-letter clarity pending** | **Before10/20:RED/PROME review grading clarifications; do not change floors or invent vote/mean. October20firstgrade and NovemberHHDC recheck retai… | 2026-10-12 |
+| 22 | **🟡 `CARL-AUTO-OUTFLOW-01` — FIRST GRADE 10/21: PANEL NO VERDICT; November HHDC re-check retained** | **Re-check at the Q3 HHDC row (11/30); a scoring verdict needs the stock to FALL in two consecutive seasoning-matched months. Next-panel ages and t… | 2026-10-21 |
 | 23 | **V2 monthly collection grade** | **~2026-10-29: EART September collection month + SDART/BLAST September under WQ-151; can at most be qualifying month 1.** | 2026-10-15 |
 | 24 | **🟡 V16 drop-back-to-3 branch — RESET to 0 of 2 on 10/02 (print 2 FAILED); count restarts 11/06** | **October NFP, Fri 2026-11-06 08:30 ET = earliest new print 1 of 2** (S>0 AND R>0 ⇒ 1 of 2; anything else stays 0). The earliest possible 4→3 candi… | 2026-10-02 |
 | 25 | **🔴 Read-cap: rotation is a hygiene tool being asked to do a structural job** | **Apply the READ-MODE fix to CARL's own `STATUS.md` — do NOT attempt rotation #11 as a byte-trim.** Order (STUE's diagnosis, not mine): **(c) audit… | 2026-09-11 |
