@@ -49,3 +49,28 @@ Dispositioned at `PROME/reports/2026-10-21_firetime-boot-flags-disposition.md` a
 ## Accept
 
 `python3 PROME/tools/firetime_delta.py --log /tmp/prome-boot-a5be8f8c/checks/04-firetime-owner-routed-flags-persist-.txt --accept --pointer PROME/reports/2026-10-22_firetime-boot-flags-disposition.md` after `--prune`; result in the desktop boot report and the commit of `PROME/state/firetime_dispositioned.tsv`.
+
+---
+
+# Third boot of the day — desktop, Thu 2026-10-22 (PROME session prome-25 / b54fbbac, Claude Code / Fable 5.1)
+
+**Gate log:** `/tmp/prome-boot-b54fbbac/checks/04-firetime-owner-routed-flags-persist-.txt` (one-shot gate 12:41 ET). Baseline before this boot: `PROME/state/firetime_dispositioned.tsv` as accepted by session a5be8f8c (pointer = the second section of this file). The gate reported 41 flags: 2 NEW · 39 persisting · 1 no longer reported. Each NEW flag was re-read at its artifact.
+
+## NEW flags (2) — both DONE at the artifact
+
+| # | Artifact | Flag | Re-read at the artifact | Disposition |
+|---|---|---|---|---|
+| 1 | `AGENTS/RED/SCRATCH.md` line 26 | DATE DRIFT: "artifact says 2026-12-30 ('12/30')" | The line quotes REGINALD's EGBN Q4 maturity-wall report (5f59d0720): *"~$525M matures 10/27–12/30"* — the end of a loan-maturity range reported by the bank, not a scheduled fleet date and not a docket row's anchor. RED's own note says it bears on the Q4 re-review, which REGINALD owns (L180, 11/07). | **done — VERIFIED no drift; a quoted maturity range.** |
+| 2 | `PROME/DOCKET.tsv` L793 artifact cell | UNREADABLE `AGENTS/DAEDALUS/runs/2026-10-22_BANK_DESK_REVIEW/{REPORT,REGINALD,OZK,WAL,FLG}.md` | PROME's own cell used a shell brace-glob as a path; the five files exist (`ls` 12:4x ET: FLG.md OZK.md REGINALD.md REPORT.md WAL.md) but no reader expands braces. | **done — cell repointed to `REPORT.md`; the four per-desk files are named in the row's notes (this boot's DOCKET commit).** |
+
+## Pruned (1) — the row the gate no longer reports (`firetime_delta.py --prune`)
+
+Named in the gate log; disposition "done: pruned".
+
+## Persisting (39)
+
+Dispositioned at `PROME/reports/2026-10-21_firetime-boot-flags-disposition.md` and the first two sections of this file; not re-read at this boot per WQ-467 C4.
+
+## Accept
+
+`python3 PROME/tools/firetime_delta.py --log /tmp/prome-boot-b54fbbac/checks/04-firetime-owner-routed-flags-persist-.txt --prune` then `--accept --pointer PROME/reports/2026-10-22_firetime-boot-flags-disposition.md`; result in the boot report and the commit of `PROME/state/firetime_dispositioned.tsv`.
