@@ -4,6 +4,13 @@ Structural-change log for SHADE architecture: docs/scripts/protocol/schema chang
 
 ---
 
+### 2026-10-21T22:16:44-04:00 — catch-up wave 1 (PROME spawn prome-56): STATUS rotation + two definition proposals
+
+- Rotated STATUS §0r, §0o, §0n and two prior BOTTOM LINE paragraphs verbatim to `archive/STATUS_ROTATED_SECTIONS_2026-10-21.md` (one added heading line; payload from line 4; crc32 `11d53b30` recomputed from the archive and matched). STATUS 26,298 → 22,642 B (under the 22,785 B rule-5 stop).
+- New research files (proposals, no adopted rule): `research/L726_ILLIQUIDITY_BASIS_2026-10-21.md`, `research/L727_TSR_METHOD_2026-10-21.md`. Charter Key Ratio #2/#4 wording changes are proposed there and wait for Will's ruling; charter not edited.
+- SCRATCH rewritten shorter (16,806 → ~7.9 KB); the 10/12–10/15 narrative is reachable by `git show` at the pointer in SCRATCH.
+- Retirement scan NOT re-run (10/12 closeout determination reused: the nine old dated files remain live-thesis/canary dependencies). MEMORY rotation (98% of budget) still owed by 10/23.
+
 
 
 ### 2026-10-12T22:10:12-04:00 — Will-requested closeout and restart handoff

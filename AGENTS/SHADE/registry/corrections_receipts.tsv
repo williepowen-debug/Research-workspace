@@ -2,3 +2,5 @@ receipt_date	correction_id	action	note
 2026-08-28T22:29Z	COR-20260828-03	NO-OP	
 2026-10-10T16:54Z	COR-20260921-17	NO-OP	scope=SHADE logged SIG-W-20260921-011 on 10/1 as a Y2tn project-finance target to FY2035 only - no SHADE surface carries the three-axis claim, a dollar figure, or the stock-flow ask; artifact=AGENTS/SHADE/board_log.tsv#SIG-W-20260921-011; shade-1010 L0 drain 2026-10-10
 2026-10-10T16:54Z	COR-20261007-12	NO-OP	scope=SHADE was INFO-only on SIG-W-20261007-008 and cites neither it nor its confidence metadata on any surface; artifact=AGENTS/SHADE/board_log.tsv#SIG-W-20261007-012; shade-1010 L0 drain 2026-10-10
+2026-10-22T02:15Z	COR-20261015-15	APPLIED	artifact=AGENTS/SHADE/STATUS.md#0m; validation_ref=AGENTS/SHADE/board_log.tsv#SIG-W-20261015-015; WQ-364 ruling recorded on STATUS 0m item 1 and W1 calendar row; Note 14 gap retained as named; exit pricing is BROCK lane
+2026-10-22T02:16Z	COR-20261015-05	NO-OP	scope=SHADE used the ~14.5% CoreWeave figure only as a relay quote in info-only intake notes - no SHADE grade, ratio, threshold or claim depends on it; 

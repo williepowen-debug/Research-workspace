@@ -1,49 +1,24 @@
 # SHADE SCRATCH — restart handoff
 
-## L673 grade + L0 drain — 2026-10-15T10:29:59-04:00 (PROME spawn, prome-81)
+## Catch-up wave 1 — 2026-10-21T22:16:31-04:00 (PROME spawn prome-56, Claude Code, Opus 5.5)
 
-**Who/what:** Claude Code Agent-tool spawn (Opus 5.5) under WQ-184 L0 on DOCKET L673 (desk dark since 10/13 closeout). Tier 1, $0. Full record → `research/L673_GRADE_2026-10-15.md`.
+**Authority:** Will 2026-10-21 21:56 ET catch-up instruction via PROME (`PROME/plans/2026-10-21_agent-catchup-PLAN.md`), Tier 1 inside the approved L726/L727 workstream. $0, no trade, no threshold or score moved.
 
-**Result:** first prospective `T-SHADE-01` grade on the 10/12 letter = **❌ NOT MET**, endpoint = latest completed close **10/14**. Level MET (LIQUID 280 [9/24] anchor, 13 >280 through 316 [10/13]; 325 [10/14] read, not counted). Sign 9/24→10/14 RAW wrappers −5.44% / managers −6.20% ⇒ managers led ⇒ NOT MET (ADJ −3.93/−6.20). **No dig.** The 10/13 endpoint (eligible, never assessed) would have read RAW MET −5.19/−3.70 (ADJ tie). Disclosed, not graded. 10/10 fire stays PROVISIONAL, unconfirmed.
+**What I did:**
+- **Inbox drained 5 → 0** (PROME WQ-364/WQ-422 packet acted; SIG-W-20261015-005 noted; -015 acted; -20261019-003 info-only; -20261021-028 arrived mid-session, info-only). board_log +5. Corrections COR-20261015-15 APPLIED, COR-20261015-05 NO-OP; check rc 0.
+- **L726 delivered** → `research/L726_ILLIQUIDITY_BASIS_2026-10-21.md`: Transfer (D-1-2 code `R` or documented restriction) / Redemption (>7 days) / Executable-market (SEC 22e-4 seven-day) tests; encumbrance codes separate; C/L/P/U buckets; RED only if FLOOR >30%, NOT RED only if CEILING ≤30%, else INDETERMINATE. DLIC FY25 illustration: 9.75%–32.50% INDETERMINATE; break-evens $9,295M / $1,146M.
+- **L727 delivered** → `research/L727_TSR_METHOD_2026-10-21.md`: TSR UNAVAILABLE (proprietary, not reproducible); SHADE-R v1 / SHADE-T v1 proposed with exact NAIC 2026 lines; never summed.
+- STATUS: §0t added, WQ-364 recorded in §0m ①, stale HY/T-SHADE-01 cells refreshed, §0r/§0o/§0n + old bottom lines rotated verbatim → `archive/STATUS_ROTATED_SECTIONS_2026-10-21.md` (crc32 `11d53b30`, `tail -n +4`, verified). STATUS 22,642 B.
 
-**Inbox:** 8 → 0 (LIQUID anchor acted; PROME compound-stress evidence deferred to 10/23; EIOPA + Moody's RNF assessed, no rescore; 4 info-only). board_log +8.
+**NEXT SESSION:**
+1. Wait for PROME's WQ rows on L726/L727. On a YES: run the C/L/P/U classification on DLIC FY25 (agency subtotal first — likely clears the $1,146M break-even, not established) and compute SHADE-R/T v1 on DLIC and AAIA. Charter wording edits only after the ruling.
+2. `T-SHADE-01` was **not** re-assessed this spawn; last grade 10/15 NOT MET is a dated reading. The unassessed-eligible-endpoint design question is still open (prospective only).
+3. Remaining 10/23 slot items NOT worked this spawn: PREDICTIONS.tsv + declared-flat TRADE + thesis falsifier · MEMORY rotation (31,944 B, 98%; stop <22,785 B) · ARI DEFM14A annex · SVO override count · PROME NB5–NB7/AI01 integration.
+4. WQ-422 Clear Spring documents are Will's hands — never chase. On arrival: Clear Spring 83607 statutory bridge (marker 5) and the same L726 classification on its filing.
 
-**Next session:** ① any T-SHADE-01 re-assessment reads both legs fresh at the latest completed close (10/15 onward). Never reuse these figures. ② 10/23 slot, in §10 order: design question (an eligible endpoint that passes unassessed; prospective only) · PREDICTIONS.tsv/declared-flat TRADE/thesis falsifier · MEMORY rotation to <22,785 B · ARI DEFM14A · illiquidity ABS spec (WQ423) · TSR spec (WQ424) · SVO count · PROME NB5–NB7/AI01 integration. Not worked this spawn.
+**Raw sources this session** (NAIC 2026 instructions, eCFR 22e-4, Gober essay/book, ARC deck) were kept in session scratch only; URLs + SHA256 are in the two research files for reacquisition.
 
-## (prior) machine-switch restart handoff
-
-## Machine-switch closeout — 2026-10-13T10:09:23-04:00
-
-**Authority:** Will: "actually SHADE false alarm I am going to switch comps. Can you check that everything SHADE related has been saved/committed/pushed properly?" Current thread `01a13335-0ca0-7ee2-b281-97c6affe060e` closes its work after the final persistence report; UI/process termination is user-controlled. No research or new assessment performed. Existing October13 after-close L673 and October23 obligations remain pending; resume using the steps below and reconcile intervening commits before repeating work.
-
-**Saved-work check:** SHADE tracked tree and authored-packet orphan scan were clean before closeout writes; only ignored Python bytecode is present in the desk. Top-level inbox0 / WALTER0; corrections rc0. The October12 boot commit `3195ffaf68cbdd6ed710e42122b38585dbc95e8f` is already in cached origin history, with fresh publication verification still required at final push. Update STATUS metadata, commit this handoff, fold NEXUS last, and run the approved safe-push script. Earlier boot's push deferral was too restrictive: other desks' dirty files block pulling; safe-push leaves their working files untouched. No pull, stash, rebase or foreign staging is needed on a fast-forward push.
-
-**Source-storage verification:** all84 raw/source-scratch files totaling25,601,491B rechecked against RAW_MANIFEST at10:09:23ET; zero missing/mismatched, manifest hash also matches CLOSEOUT_STORAGE. Check receipt→`outbox/2026-10-13_machine-switch-source-verification.json`. These raw files remain at `/home/willi/research-artifacts/SHADE/gap-investigation-2026-10-12/` on this computer, outside Git. Git does not transfer them to the next computer. Public URLs/hashes and analysis/reconstructions are committed; on the next computer copy the existing local store or reacquire the exact sources when needed. No raw statutory PDFs added to Git.
-
-**Coordination and limits:** durable self-authored closeout packet→`PROME/inbox/2026-10-13_from-SHADE_machine-switch-closeout.md`; recipient consumption/native notification UNKNOWN because no verified cross-session tool is exposed here. TERRY's pre-existing untracked `AGENTS/TERRY/research/2026-10-11_WQ418-WQ420-integration-receipt.md` remains outside SHADE authority and must not be swept into a SHADE commit. No auto-memory, ledger, threshold, score, grade, source conclusion or capital permission changed. MEMORY rotation remains October23. Actual final push receipt is supplied to Will; publication is not inferred from a clean tree.
-
-## Boot receipt — 2026-10-12T23:04:26-04:00
-
-Will directly requests: "Hi SHADE please boot up". Current SHADE session is Codex/OpenAI (GPT-6 family; exact model variant UNKNOWN), thread `01a13335-0ca0-7ee2-b281-97c6affe060e`, host `WilliePOwen`, repository `/home/willi/Research-workspace`, desk cwd `/home/willi/Research-workspace/AGENTS/SHADE`, branch `master`. This is a boot and handoff recovery, not a new source pass or lifecycle closeout. The previous closeout below belongs to its named prior thread.
-
-**Explicit instruction loading:** root `CLAUDE.md`, `AGENTS.md`, `USER.md`; desk `CLAUDE.md`; `PROME/COMPLETION_SPEC.md` and `PROME/ORCHESTRATION_PLAYBOOK.md` runtime mechanics. Read desk STATUS, SCRATCH and MEMORY in full; checked NEXUS_BRIEF and REFERENCE §2 for carried-figure handling, roster membership/cadence, and the previous recorded owner closeout. Resumed the existing October13/23 obligations; no repeat of accepted October12 source work.
-
-**Capabilities:** exposed shell/Python, filesystem reads/patches and Git; web tool exposed but connectivity not exercised during boot. Thread-local collaboration tools do not certify fleet discovery or PROME transport. No supported native cross-session list/read/send tool is exposed here; prior PROME transport receipts are historical evidence, not a capability grant for this thread. Fleet-wide current writer presence and peer consumption UNKNOWN. No owner/helper launched, no external message or alternate transport attempted.
-
-**Checks:** canonical `inbox_census.py SHADE`: top-level0 / WALTER0; `corrections_boot_check.py SHADE`: rc0, zero unreceipted NAMED rows; `read_cap_check.py --agent SHADE`: rc0 within its declared heuristic perimeter. MEMORY31,944B/98% of budget remains rotation-due October23; no lesson appended. Own desk clean before receipt. Startup pull and push deferred under root Git Protocol: pre-existing untracked `AGENTS/TERRY/research/2026-10-11_WQ418-WQ420-integration-receipt.md` is outside SHADE ownership. Cached tracking showed master ahead1 before this boot; no fresh remote verification. Persist this receipt in a SHADE-only local commit; remote publication remains pending.
-
-**Next:** October13 after regular equity close, renew LIQUID-owned HY level/count/anchor and six common closes before L673 assessment; prior inputs are predecessors only. Historical October10 fire remains PROVISIONAL; October12 endpoint ineligible. Conditional statutory dig only on an eligible qualifying grade. October23 backlog retained; no source, threshold, score, grade or capital permission changed by this boot. No new Will decision required.
-
-## Preserved previous closeout
-
-**Will-requested closeout, October 12, 2026.** Will asks to save progress and continue at the next spawn. Runtime Codex/OpenAI; exact model label UNKNOWN; current thread `01a131e1-41b2-7f91-aa98-d383b9a2060e`; repo `/home/willi/Research-workspace`, desk `AGENTS/SHADE`, branch master. No subagents or background research. Closeout is persistence/release, not completion of every standing task.
-
-## Resume first
-
-1. Resolve the repo root and explicitly read root CLAUDE.md, AGENTS.md, USER.md, desk CLAUDE.md and PROME/COMPLETION_SPEC.md. Follow desk boot; use STATUS as live state, this handoff as resume point, REFERENCE on demand. Reconcile any work committed since this closeout before repeating a task. Preserve owner boundaries and actual runtime capabilities.
-2. **L673 is the next dated assessment: October 13 after regular equity close.** Before that close, preparation only. At a later spawn, reconcile any already recorded assessment and obtain fresh LIQUID-owned dated HY level/count/last-≤280 anchor and all six exact common RAW equity closes, with ADJ diagnostic. Use the charter's deterministic window; since-last-read never chooses the grade. The prior count10 through315[10/8], anchor280[9/24] and Oct12 returns are predecessors only. Missing owner inputs/common dates or unresolved wrappers-down/managers-up branch withholds. October12 ineligible; historical October10 owner fire remains PROVISIONAL/post-hoc. No retrospective certification.
-3. **Only if eligible MET:** AAIA FY2025 BA→ADS equity holding, ADS facility counterparties, F&G→Brighthouse→Corebridge BA, then BROCK cross-check. No qualifying grade/dig was performed in this source pass. X1 CLOSED/DON'T-SIZE is a separate instrument. Existing LIQUID request160c0c08d and BROCK qualification55a734460 remain; their actual recipient consumption is unverified here.
-4. Continue the existing October23 owner work behind the conditional dig. Do not reopen a broad source pass. Reassess evidence-dependent conclusions only when new primary evidence arrives or a separately authorized acquisition advances them.
+**Prior handoff** (10/15 L673 grade, 10/13 machine-switch, 10/12 boot and closeout narrative) → `git show 5f0abbbbc:AGENTS/SHADE/SCRATCH.md`. Raw 10/12 gap-investigation store remains machine-local at `/home/willi/research-artifacts/SHADE/gap-investigation-2026-10-12/` (present on this machine 10/21).
 
 ## Saved research and accepted qualifications
 
@@ -72,16 +47,3 @@ The bounded consequential-gap research pass is **COMPLETE; underlying evidence P
 
 W1/L182 is covered by WQ364; no SHADE October16 enumeration owed. Guggenheim full source remains a named evidence dependency, not a new survey. All eight foundational March notes remain stale-marked; watch-query deployment does not certify recall. Do not change governing definitions, thresholds, grades, prediction confidences or trade permissions without their required authority.
 
-## Saved artifacts and source storage
-
-`research/gap_reconciliation_2026-10-12.py` reproduces the committed numeric inputs/output without network or new libraries. Inputs/source index/access/download receipts/RAW_MANIFEST at `sources/2026-10-12_gap-investigation/`.55plan/result entries include4 unused and1 disclosed after-use Fed route; not55 unique searches or exhaustive public coverage. Original annual header matcher also hit DB pages; actual ABS sectionPDF278–313/SI1PDF143, no full holding-liquidity join.
-
-**Closeout preserved all84 raw/source-scratch files,25,601,491B, with matching hashes outside Git at `/home/willi/research-artifacts/SHADE/gap-investigation-2026-10-12/`.** Resolve each original manifest file by `store_dir / files[].file`; see committed `CLOSEOUT_STORAGE.json`. This is persistent machine-local storage, not origin publication or cross-machine replication. Exact public URLs/hashes and focused reconstructions are committed for reacquisition if the store is absent. Prior temporary copies remain historical evidence. Do not commit raw statutory PDFs without explicit approval. Older June15 AAIA artifact-store manifest remains a separate vintage; that old store was absent on this machine, not proof public statutory data unavailable.
-
-Previous STATUS22701B snapshot preserved at `archive/STATUS_BEFORE_GAP_INVESTIGATION_2026-10-12.md`, payloadline5/crc32 32d98c70. No auto-memory written; MEMORY rotation remains October23,98% advisory. No new lesson appended. Retirement scan keeps the nine old dated files as live-thesis/canary reproduction dependencies; no tmp directories or eligible retired files.
-
-## Delivery and lifecycle
-
-PROME consumed exact e586102948b250edb59c5a1ad217951d50eda533 packet /4e6ebbb83 result at `309b2f16513ee51b6d529e590f07dd8d60fb827d:PROME/reports/2026-10-12_SHADE-freshness-check.md` §Consequential-gap investigation consumed, reproducing arithmetic, not independently auditing primary interpretation. WQ422/423/424 registered; all material limits retained. Earlier queue notification01a132b1-4c60-7153-874f-03dc8d21acf2 is separate evidence. Acceptance checkpoint committed ff98c26cd/4a34a8922.
-
-**Will now explicitly requests closeout:** “Okay lets close out here so we can save out progress and I will want to continue where we can next spawn.” This supersedes earlier keep-window-open/no-lifecycle instructions for this final leg only. Save canonical state/owned closeout packet, final NEXUS fold, run checks, safe-push, and notify PROME exact thread01a131cf-1c7d-7900-9dcf-d98af587e290 with committed closeout receipt. Actual push/queue evidence belongs in dated receipts, not inferred here. No more active work after the final reply. Runtime window/process termination is user-controlled and not established by a clean Git tree or an idle task. Next spawn must perform canonical preflight and recover this handoff, not replace/duplicate an active owner by inference.
