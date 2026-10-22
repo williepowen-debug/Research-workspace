@@ -53,3 +53,15 @@
 
 ## 6. Improvement idea (for discussion; not approved; asked PROME to log it in `PROME/ideas/list.tsv`)
 At the 11/07 matrix re-score, carry a **descriptive "run-speed exposure" column** beside each bank: share of uninsured deposits, share of brokered/indirect, share of non-interest-bearing retail (all Call Report). It would not be scored, and it would not be a threshold. **Benefit:** it names which cohort banks a faster deposit run would hit first, which our credit-only instruments cannot see. **Cost:** one more Call Report pull on the run that already happens.
+
+---
+## Addendum 2026-10-22 ~13:15 ET: DEWEY research consumed (two packets, Will-directed requests REQ-DEWEY-20261022-001/002). Prior text above unedited.
+
+| Point in this analysis | DEWEY evidence | Effect |
+|---|---|---|
+| Run speed is the mechanism that matters (§1.2) | **No documented cyber/IT deposit run** (IMF 2024). Patelco's 17-day outage cost −2.7% of deposits for one quarter, recovered by Mar 2025. No AI-agent loss reported anywhere as of 10/22 (`../DEWEY/output/2026-10-22_bank-tech-vendor-concentration-ai-agent-risk.md`) | Caveat stands as a **structural possibility with no observed case**. Base rate = zero runs, so nothing here changes a score or a threshold |
+| 1033 / core-vendor trap (§3 ④) | Core vendor named in 2024–26 primary documents for only **4 of 22** banks; WAL, OZK, SSB, EGBN, HBAN and VLY are UNKNOWN. Vendor breaches correlate across banks (MOVEit 2023: FLG via Fiserv, VLY, Cadence/HBAN) but none cut off customer access | Readiness still cannot be ranked bank by bank. Correlation is real at the data-breach level only |
+| Deposit competition / stablecoins | Bank deposits **+$1,505.6B** vs stablecoin supply **+$46.1B** since GENIUS signing; supply −0.7% YoY. The OCC rule matches REGINALD's primary read (`../DEWEY/output/2026-10-22_genius-act-stablecoin-rewards-deposit-flight.md`) | No drain observed. "Stablecoins are draining regional deposits" stays a do-not-relay |
+| §6 idea: run-speed exposure column at 11/07 | DEWEY Table 3 = NIB share, uninsured share (two bases, never ranked across), brokered and deposit cost for 22 banks, dated per row | **This is the input the idea needs.** Use it at 11/07 if Will approves the idea; it is an exposure INPUT, not a measure (no study links NIB share to outflows) |
+
+DEWEY's "do-not-relay-as" lines are adopted: not "regional banks are the AI-agent target", and not "stablecoins are draining regional deposits".

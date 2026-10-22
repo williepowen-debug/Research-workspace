@@ -32,3 +32,4 @@ receipt_date	correction_id	action	note
 2026-10-20T13:17Z	COR-20261019-07	NO-OP	scope=routing correction HOMER to CREED for 1099 Meridian office case - REGINALD carries no live claim on it; 
 2026-10-20T13:17Z	COR-20261019-12	NO-OP	scope=OTTO Ally-Carvana contract and warehouse-exit forecast 55 to 25 pct - no REGINALD claim cites either - VX-OTTO-2.02 is an ALLY price ladder unaffected; 
 2026-10-21T13:13Z	COR-20261021-01	APPLIED	artifact=AGENTS/REGINALD/STATUS.md#Small-bank-borrowings; validation_ref=AGENTS/REGINALD/reports/2026-10-20_backlog-followthrough.md#Weekly-funding;
+2026-10-22T17:14Z	COR-20261022-14	NO-OP	scope=REGINALD artifacts already carried the primary-read version (reports/2026-10-22_catchup/REPORT.md section 5 and BOARD_LOG row SIG-W-20261021-025 say issuer yield ban retained and affiliate presumption eliminated) so nothing changes; 

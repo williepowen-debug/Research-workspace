@@ -6,6 +6,8 @@ Compares against last known value to detect AP redemption activity.
 
 Usage:
   .venv/bin/python3 AGENTS/REGINALD/scripts/kre_float.py
+  .venv/bin/python3 AGENTS/REGINALD/scripts/kre_float.py --no-state   # compare only; never write .kre_float_state.json
+                                                                     # (2026-10-22: lets another desk verify a boot without dirtying the tracked tree)
 """
 
 import json
@@ -62,8 +64,14 @@ def load_state():
     return None
 
 
+NO_STATE = "--no-state" in sys.argv
+
+
 def save_state(data):
-    """Save current state to file."""
+    """Save current state to file (skipped under --no-state)."""
+    if NO_STATE:
+        print("  (--no-state: state file NOT updated; next normal run still compares against the committed baseline)")
+        return
     try:
         with open(STATE_FILE, "w") as f:
             json.dump(data, f, indent=2)

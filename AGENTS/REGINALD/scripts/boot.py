@@ -7,6 +7,8 @@ Single command replaces the multi-step manual boot.
 Usage:
   .venv/bin/python3 AGENTS/REGINALD/scripts/boot.py
   .venv/bin/python3 AGENTS/REGINALD/scripts/boot.py --skip-slow   # skip EDGAR queries (insider, 8k)
+  .venv/bin/python3 AGENTS/REGINALD/scripts/boot.py --check-only  # verification run: no script writes any tracked file
+                                                                  # (only kre_float.py writes state; it gets --no-state)
 
 Exit code (2026-10-22, D:L793): 0 = every leg read cleanly · 1 = at least one ALERT · 2 = any FAIL or INCOMPLETE.
 Built-in legs (no subprocess) added 2026-10-22: inbox lanes (general + WALTER, BOARD_LOG-aware) ·
@@ -40,11 +42,11 @@ DESK = SCRIPTS_DIR.parent  # AGENTS/REGINALD
 # Boot sequence: (name, script_path, category, slow)
 BOOT_SEQUENCE = [
     ("Market Prices",      MARKET_PY,                          "PRICES",    False),
-    ("Dark Pool + Short Vol", SCRIPTS_DIR / "darkpool.py",     "MICRO",     False),
+    # Dark Pool + Short Vol and Short Interest removed 2026-10-22: their ledgers are FROZEN (2026-06-27, 0 consumers)
+    # and PROME marked the READS rows RETIRED-2026-10-22 (ed5e51ea6). Scripts kept in place, not deleted.
     ("Thresholds",         SCRIPTS_DIR / "thresholds.py",      "ALERTS",    False),
     ("KRE Float",          SCRIPTS_DIR / "kre_float.py",       "STRUCTURE", False),
     ("Earnings Countdown", SCRIPTS_DIR / "earnings_countdown.py", "CALENDAR", False),
-    ("Short Interest",     SCRIPTS_DIR / "si_refresh.py",      "SI",        False),
     ("Insider Activity",   SCRIPTS_DIR / "insider.py",         "EDGAR",     True),
     ("8-K Monitor",        SCRIPTS_DIR / "8k_monitor.py",      "EDGAR",     True),
     # 2026-10-22: charter checks that were manual-only. (name, path, category, slow, args)
@@ -157,6 +159,9 @@ BUILTINS = [("Inbox Lanes", check_inbox), ("Peer Channels (WQ-484)", check_chann
 
 def main():
     skip_slow = "--skip-slow" in sys.argv
+    check_only = "--check-only" in sys.argv
+    if check_only:
+        print("  CHECK-ONLY run: kre_float.py gets --no-state; no tracked file is written by this boot.")
     start_time = time.time()
     now = datetime.now()
 
@@ -172,7 +177,9 @@ def main():
 
     for item in BOOT_SEQUENCE:
         name, script_path, category, is_slow = item[:4]
-        args = item[4] if len(item) > 4 else []
+        args = list(item[4]) if len(item) > 4 else []
+        if check_only and script_path.name == "kre_float.py":
+            args.append("--no-state")
         if is_slow and skip_slow:
             print(f"\n  ⏩ Skipping {name} (--skip-slow)")
             results.append((name, "SKIP", 0))
