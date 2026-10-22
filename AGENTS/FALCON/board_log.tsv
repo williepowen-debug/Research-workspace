@@ -249,3 +249,4 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-21T20:30-04:00	SIG-W-20261020-031	acted	WALTER	IRGC cable threat renewed (Mohebi 10/19, Javani 10/21) — threat not incident; cyber vector 2 (KB-304).
 2026-10-21T20:30-04:00	SIG-W-20261020-032	acted	WALTER	Konarak claim + US denial travel together; destroyer chain unauthenticated; no state change (KB-304).
 2026-10-21T20:30-04:00	SIG-W-20261021-007	acted	WALTER	Shaybah 10/21 INTERCEPTED, debris outside perimeter ⇒ production rung NOT FIRED; ratchet +2 killed (CAS-033), KFIA Dammam 1/8 (CAS-034) ⇒ 30d 24 vs 6 RED holds (KB-299).
+2026-10-21T20:37-04:00	SIG-W-20261021-011	info-only	WALTER	Correction to -035 links FALCON's own which-sea placement (ST3 = 68 NM NE Al Jubail, VI-0074; Al Jubail pair = ST3 + LOYALTY, not additional). Already encoded at ab9b1cea0. COR-20261021-11 APPLIED.
