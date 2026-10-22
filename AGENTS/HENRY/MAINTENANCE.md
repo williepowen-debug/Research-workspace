@@ -247,3 +247,11 @@ Will asked for the easy fixes from `reports/2026-10-21_desk-sweep.md`.
 - **PUBLISHED.tsv duplicate key cleared:** the later `gamma_flip_35d_STALE` marker row now carries asof `2026-09-04T23:59` as a labelled synthetic tie-break. The consumer check's duplicate warning reads 0 after the change.
 - **Evals re-run (3/3 PASS)**, first run since 7/10. Results in `evals/results.tsv`, key passages in `evals/baseline_artifacts/2026-10-21_postfix_responses.md`. Runners were Opus subagents, not fresh terminal sessions (same proxy caveat as 7/10). **Case 01 needs date-neutralizing:** its frozen June dates now collide with the live clock.
 - **Operating Dashboard refreshed** at the same URL (version 2) after 89 days. Source moved into the repo at `dashboard/`.
+
+## 2026-10-21 (second pass) — cross-horizon wall guard built; scripts retired; archive recreated
+
+- **`gamma_flip.py --both` (audit E2, gap open since 7/29).** Runs 14d and 35d, prints both, publishes both, then compares per wall: same #1 strike = PUBLISH (band where either horizon is a near-tie), different = WITHHOLD, regime-sign split = flagged. Tested on the live 10/21 chain (both walls publish; call carries the 35d band 7,800–8,000, matching tonight's manual call) and on a replay of the 7/29 case (both walls withheld). `boot.py` stays 14d and read-only and now points to `--both`. Charter step 3c, CORE METHODOLOGY and the FILES row updated.
+- **`credit_monitor.py`:** a FRED HTML/maintenance response is now reported as "source DOWN", not "no data".
+- **Retired to `archive/scripts/`:** `status_figure_manifest.py` (one-off, hardcoded 8/28 figures) and `update_data.py` (writes MARKET_DATA rows with no per-cell basis and a Brent futures bar the capture-basis guard says to leave blank).
+- **`archive/` recreated** with `README.md`; 20 files moved by `git mv` under the root 60-day rule.
+- **Eval case 01 → v1.1:** scenario date pinned so the runner judges staleness against 2026-06-15, not the real clock.

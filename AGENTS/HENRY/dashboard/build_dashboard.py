@@ -11,9 +11,9 @@ def pct(v, lo, hi):
 RAILS = [
     ("VIX", "vendor 10/21 close · ↑ risk", 16.68, "16.68", "VIX3M 18.72", "up", 10, 35, (23, 28, 30), "6.3 below", "the &gt;23 vol-control line", (22.31, "22.31 hi 10/16")),
     ("S&amp;P 500", "vendor 10/21 close · ↓ risk", 7757.17, "7,757", "+0.58% day", "down", 6300, 8000, (7200, 7100, 6494), "557 above", "the &lt;7,200 yellow line", (7818.93, "7,819 peak 10/6")),
-    ("10-yr Treasury", "Cboe TNX via vendor 10/21 · ↑ risk", 5.146, "5.15", "%", "up", 4.0, 5.4, (4.5, 4.8, 5.0), "15bp through red", "red line &gt;5.00%", None),
-    ("2-yr Treasury", "PROME dashboard 10/21 · ↑ risk", 4.81, "4.81", "%", "up", 3.8, 5.0, (4.25, 4.40, 4.60), "21bp through red", "red line &gt;4.60%", None),
-    ("30-yr Treasury", "FRED 10/16 · ↑ risk · stale cell", 5.43, "5.43", "%", "up", 4.6, 5.8, (5.0, 5.25, 5.5), "7bp below red", "orange; FRED down 10/21", None),
+    ("10-yr Treasury", "Treasury par 10/21 · ↑ risk", 5.13, "5.13", "%", "up", 4.0, 5.4, (4.5, 4.8, 5.0), "13bp through red", "red line &gt;5.00%", None),
+    ("2-yr Treasury", "Treasury par 10/21 · ↑ risk", 4.81, "4.81", "%", "up", 3.8, 5.0, (4.25, 4.40, 4.60), "21bp through red", "red line &gt;4.60%", None),
+    ("30-yr Treasury", "Treasury par 10/21 · ↑ risk", 5.42, "5.42", "%", "up", 4.6, 5.8, (5.0, 5.25, 5.5), "8bp below red", "orange", None),
     ("High-yield spread", "FRED 10/19 · ↑ risk", 329, "329", "bp", "up", 220, 560, (320, 400, 500), "9bp through yellow", "4 readings above 320", None),
     ("CCC spread", "FRED 10/16 · ↑ risk · stale cell", 1297, "1,297", "bp", "up", 700, 1400, (900, 1000, 1100), "197bp through red", "the distressed tail", None),
     ("SKEW", "vendor 10/21 · ↑ risk", 150.36, "150.4", "was 161.9 on 10/19", "up", 125, 175, (145, 150, 160), "just into orange", "RED-FT-10 grade is the owner's", None),

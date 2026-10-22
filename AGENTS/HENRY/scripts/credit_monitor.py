@@ -57,6 +57,9 @@ VOL_SURGE = 1.3              # x — latest volume vs 20d avg above this = flow/
 HYG_LQD_5D_DROP = -0.75      # % — HY underperforming IG by this over 5d = credit-quality risk-off
 
 
+FRED_LAST_STATUS = None
+
+
 def fetch_fred_series(series_id, days):
     """Pull a FRED series as [(date, value_float)] via the public CSV endpoint (no API key).
 
@@ -67,6 +70,17 @@ def fetch_fred_series(series_id, days):
     proc = subprocess.run(["curl", "-s", "--max-time", "30", url],
                           capture_output=True, text=True)
     text = proc.stdout
+    global FRED_LAST_STATUS
+    # 2026-10-21: during site maintenance FRED serves an HTML page with HTTP 200, which
+    # parsed as zero rows and read as "no data". Name the real cause instead.
+    head = text.lstrip()[:400].lower()
+    if proc.returncode != 0:
+        FRED_LAST_STATUS = f"FRED unreachable (curl exit {proc.returncode})"
+    elif head.startswith("<") or "<html" in head:
+        FRED_LAST_STATUS = ("FRED source DOWN — served an HTML page, not CSV"
+                            + (" (site maintenance)" if "maintenance" in text.lower() else ""))
+    else:
+        FRED_LAST_STATUS = None
     rows = []
     for line in text.strip().splitlines()[1:]:  # skip header
         parts = line.split(",")
@@ -99,7 +113,7 @@ def build_dispersion(days):
     bb = fetch_fred_series(FRED_SERIES["BB"], days)
     ccc = fetch_fred_series(FRED_SERIES["CCC"], days)
     if not hy or not bb or not ccc:
-        return {"error": "FRED returned no data"}
+        return {"error": FRED_LAST_STATUS or "FRED returned no data"}
 
     def bps(rows, n=0):
         v = n_ago(rows, n)

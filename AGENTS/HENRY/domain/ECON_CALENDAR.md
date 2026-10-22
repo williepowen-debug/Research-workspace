@@ -4,7 +4,7 @@
 
 **Action on release days:** log actual vs consensus vs prior in `STATUS.md` (Data Release Protocol, `CLAUDE.md`). Cross-agent threshold fires route as SIGNALS via WALTER.
 
-**Window verified:** 2026-10-22 → 2026-11-25, rebuilt 2026-10-21 ~21:10 ET at the agency calendars (BLS October and November 2026 schedule lists, BEA news schedule, Census 2026 economic indicator calendar, Federal Reserve FOMC calendar). None of those pages carried a lapse-in-appropriations notice on 2026-10-21. **ISM dates are the standard pattern, NOT verified** (ismworld.org returned HTTP 503). Weekly claims are the standing Thursday pattern, not re-verified at DOL. **Rebuild this window before 2026-11-20**, or it is stale again. The Mar–Jul 2026 dated tables were removed in this rebuild; recover them with `git show c9cb177c9:AGENTS/HENRY/domain/ECON_CALENDAR.md` if you need history (that is the last commit before this rebuild).
+**Window verified:** 2026-10-22 → 2026-11-25, rebuilt 2026-10-21 ~21:10 ET at the agency calendars (BLS October and November 2026 schedule lists, BEA news schedule, Census 2026 economic indicator calendar, Federal Reserve FOMC calendar). None of those pages carried a lapse-in-appropriations notice on 2026-10-21. **ISM:** ismworld.org returned HTTP 503 on three tries 10/21. Manufacturing **Nov 2** is corroborated by a search-indexed copy of ISM's own release calendar; services Nov 4 is the 3rd-business-day pattern only. Re-check at the ISM page before 11/2. Weekly claims are the standing Thursday pattern, not re-verified at DOL. **Rebuild this window before 2026-11-20**, or it is stale again. The Mar–Jul 2026 dated tables were removed in this rebuild; recover them with `git show c9cb177c9:AGENTS/HENRY/domain/ECON_CALENDAR.md` if you need history (that is the last commit before this rebuild).
 
 **Standing context lives in `STATUS.md`, not here.** This file is the schedule only, so it cannot carry a stale regime read.
 
@@ -21,10 +21,10 @@
 | **Tue–Wed Oct 27–28** | 14:00 Wed | **FOMC** (no SEP) | — | Fed | Rate decision; 10Y above 5% red line |
 | **Thu Oct 29** | 8:30 | **GDP advance + Personal Income and Outlays (PCE)** | Q3 / Sep | BEA | Core PCE vs >0.3% hot line |
 | **Fri Oct 30** | 8:30 | **Employment Cost Index** | Q3 | BLS | LABOR owns; last print on the current weighting basis |
-| Mon Nov 2 | 10:00 | ISM Manufacturing | Oct | ISM (UNVERIFIED) | PMI <50/<48/<47; prices >75 red |
+| Mon Nov 2 | 10:00 | ISM Manufacturing | Oct | ISM calendar via search index (page 503) | PMI <50/<48/<47; prices >75 red |
 | Tue Nov 3 | 10:00 | JOLTS | Sep | BLS | LABOR owns |
 | Wed Nov 4 | 8:30 | Trade balance | Sep | BEA | — |
-| Wed Nov 4 | 10:00 | ISM Services | Oct | ISM (UNVERIFIED) | — |
+| Wed Nov 4 | 10:00 | ISM Services | Oct | ISM pattern only (UNVERIFIED) | — |
 | Thu Nov 5 | 8:30 | Productivity and Costs (prelim) | Q3 | BLS | Unit labor cost |
 | **Fri Nov 6** | 8:30 | **Employment Situation (NFP)** | Oct | BLS | LABOR owns; HENRY logs market reaction |
 | **Tue Nov 10** | 8:30 | **CPI** + Real Earnings | Oct | BLS | Headline vs core, energy share |

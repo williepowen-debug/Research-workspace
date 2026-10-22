@@ -268,14 +268,33 @@ def _flag(name, default):
     return default
 
 
-def main():
-    horizon = int(_flag("--days", HORIZON_DAYS))
-    asof = _flag("--asof", None)
-    r = compute_gamma_flip(asof=asof, horizon=horizon)
-    if "error" in r:
-        print(f"gamma_flip: {r['error']}")
-        return 1
+def cross_horizon_check(r14, r35):
+    """Audit-E2 guard (built 2026-10-21; gap logged 7/29). The near-tie guard only
+    compares #1 vs #2 WITHIN a horizon; on 7/29 the 14d read gave walls 7,500/7,300
+    while the 35d gave a 7,000 = 7,000 tie, and no wall was publishable. Rule, per
+    wall: the same #1 strike at BOTH horizons = publishable (quote a band at any
+    horizon where it is a near-tie); different #1 strikes = WITHHOLD that wall.
+    A regime-sign disagreement is reported, never averaged away.
+    Returns {"walls": {"call": (verdict, text), "put": (...)}, "sign_agree": bool}."""
+    out = {"walls": {}, "sign_agree": r14["regime"] == r35["regime"]}
+    for key in ("call", "put"):
+        w14, w35 = r14.get(f"{key}_wall"), r35.get(f"{key}_wall")
+        if w14 is None or w35 is None or w14 != w35:
+            out["walls"][key] = ("WITHHOLD", f"14d {w14:,.0f} vs 35d {w35:,.0f} — horizons disagree"
+                                 if w14 is not None and w35 is not None else "missing at one horizon")
+            continue
+        bands = []
+        for h, r in (("14d", r14), ("35d", r35)):
+            m = r.get(f"{key}_wall_margin")
+            if m is not None and m < NEAR_TIE:
+                top = sorted((r.get(f"{key}_wall_top3") or [])[:2])
+                bands.append(f"{h} near-tie band {'-'.join(f'{s:,.0f}' for s in top)}")
+        out["walls"][key] = ("PUBLISH", f"{w14:,.0f} at both horizons"
+                             + (f" ({'; '.join(bands)})" if bands else " (clean at both)"))
+    return out
 
+
+def _print_read(r, horizon):
     spot, flips = r["spot"], r["flips"]
     print(f"===== SPX GAMMA FLIP  (asof {r['asof']}, <= {horizon}d, "
           f"{r['n_contracts']:,} contracts, src={r.get('source','?')}) =====")
@@ -309,7 +328,45 @@ def main():
         print("  ⚠️⚠️ PUT WALL == CALL WALL — structurally impossible as stated;"
               " treat the put side as UNRESOLVED at this horizon (see LESSONS 7/23).")
     print("  (FREE-TIER proxy: absolute $B assumes long-call/short-put dealer gamma; the FLIP + sign are the robust reads)")
+
+
+def main():
+    asof = _flag("--asof", None)
+    if "--both" in sys.argv:
+        reads = {}
+        for h in (14, 35):
+            r = compute_gamma_flip(asof=asof, horizon=h)
+            if "error" in r:
+                print(f"gamma_flip {h}d: {r['error']}")
+                print("  ⛔ CROSS-HORIZON CHECK CANNOT-EVALUATE — one horizon failed; publish no wall.")
+                return 1
+            _print_read(r, h)
+            _publish(r, h)
+            reads[h] = r
+            print()
+        x = cross_horizon_check(reads[14], reads[35])
+        f14, f35 = reads[14]["flip"], reads[35]["flip"]
+        band = f"{min(f14, f35):,.0f}-{max(f14, f35):,.0f}" if f14 and f35 else "n/a"
+        print("===== CROSS-HORIZON CHECK (audit E2) =====")
+        print(f"  Flip band       {band}  (14d ~{f14:,.0f} · 35d ~{f35:,.0f})" if f14 and f35
+              else "  Flip band       n/a — a horizon has no flip in the +/-10% band")
+        print(f"  Regime          14d {reads[14]['regime']} · 35d {reads[35]['regime']}"
+              + ("" if x["sign_agree"] else "  ⚠️ SIGN DISAGREES — report both, call no regime"))
+        for key in ("call", "put"):
+            verdict, text = x["walls"][key]
+            mark = "✓" if verdict == "PUBLISH" else "⛔"
+            print(f"  {key.capitalize():5s} wall      {mark} {verdict}: {text}")
+        return 0
+    horizon = int(_flag("--days", HORIZON_DAYS))
+    r = compute_gamma_flip(asof=asof, horizon=horizon)
+    if "error" in r:
+        print(f"gamma_flip: {r['error']}")
+        return 1
+    _print_read(r, horizon)
     _publish(r, horizon)
+    if horizon != 14 and horizon != 35:
+        return 0
+    print("  (Walls: one horizon only. Run `gamma_flip.py --both` for the cross-horizon check before publishing a wall.)")
     return 0
 
 

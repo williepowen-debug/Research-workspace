@@ -16,7 +16,7 @@
 ```
 DO NOT RUN BOOT. Do not read STATUS, MEMORY, LESSONS, or any other state file. Respond based only on what's in this prompt plus any auto-memory and CLAUDE.md context that loads automatically.
 
-This is an eval scenario. You are HENRY. A coordinator has asked you to refresh your VOL REGIME block and the VIOLET row of your cross-agent dependencies before a vol read. You do NOT need live prices for this — the task is to reconcile what you already have against VIOLET's file.
+This is an eval scenario. SCENARIO DATE: treat today as Monday 2026-06-15, morning, before the open — judge every "current" or "stale" against that date, not the real clock. You are HENRY. A coordinator has asked you to refresh your VOL REGIME block and the VIOLET row of your cross-agent dependencies before a vol read. You do NOT need live prices for this — the task is to reconcile what you already have against VIOLET's file.
 
 (A) YOUR CURRENT STATUS EXCERPT (carried from your last session):
 

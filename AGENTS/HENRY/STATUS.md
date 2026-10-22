@@ -21,7 +21,7 @@
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 7,757.17 (+0.58%) | 16.68 | 15.49 | 18.72 | 94.55 | 150.36 | 5.15% | $70.60 (−0.03%) | 158.17 |
 
-SPX 10/20 close 7,712.57 (+0.28%). Cash-vol term structure in contango (9d < 1m < 3m). Vendor observations, **not Cboe-published closing certification**. VIX > 23 vol-control line NOT FIRED. VIOLET owns the vol broadcast. PROME's 20:15 ET dashboard (HEARTBEAT amendment #2) reads 10Y 5.13% / 2Y 4.81%; my 5.15% is the Cboe TNX index via vendor, a different basis.
+SPX 10/20 close 7,712.57 (+0.28%). Cash-vol term structure in contango (9d < 1m < 3m). Vendor observations, **not Cboe-published closing certification**. VIX > 23 vol-control line NOT FIRED. VIOLET owns the vol broadcast. **Official Treasury par yields 10/21** (home.treasury.gov daily curve, pulled 21:5x ET; `research/2026-10-21_boot/src/treasury-par-yields-2026.csv`): 2Y 4.81% · 10Y 5.13% · 30Y 5.42% (10/20: 4.79 / 5.12 / 5.42). The 5.15% in the tape table is the Cboe TNX index via vendor, a different basis; the par yields govern the thresholds.
 
 ## CREDIT EARLY-WARNING MONITOR — FRED IN SITE MAINTENANCE TONIGHT
 
@@ -90,8 +90,8 @@ September CPI (10/14) headline +0.6% m/m / +3.7% y/y, core +0.3% / +2.6%; Septem
 | VIX | 16.68 [vendor 10/21 close] | >23 / >28 / >30 sustained | NOT FIRED |
 | SPX | 7,757.17 [vendor 10/21] | <7,200 / <7,100 / <6,494 | NOT FIRED; gamma POSITIVE both horizons (thin) |
 | KRE | $70.60 [vendor 10/21] | <$65 / <$62 / <$60 | NOT FIRED |
-| 10Y | 5.15% [vendor index 10/21] | >4.5 / >4.8 / >5.0 | RED |
-| 2Y / 30Y | 4.81% [PROME dashboard 10/21] / 5.43% [FRED 10/16] | >4.25 / >4.40 / >4.60 · >5.0 / >5.25 / >5.50 | 2Y RED; 30Y ORANGE on 10/16, current UNKNOWN (FRED down) |
+| 10Y | **5.13% [Treasury par 10/21]** (vendor TNX index 5.15%) | >4.5 / >4.8 / >5.0 | RED |
+| 2Y / 30Y | **4.81% / 5.42% [Treasury par 10/21]** | >4.25 / >4.40 / >4.60 · >5.0 / >5.25 / >5.50 | 2Y RED; 30Y ORANGE (8bp below red) |
 | HY OAS | 329bp [FRED 10/19] | >320 / >400 / >500 | YELLOW; four observations >320 |
 | CCC OAS | 1,297bp [FRED 10/16] | >900 / >1000 / >1100 | RED (10/16 cell) |
 | USD/JPY | 158.17 [vendor 10/21, ~0.0%] | absolute daily change ≥2%, SAM's call | NOT FIRED |
@@ -106,5 +106,6 @@ September CPI (10/14) headline +0.6% m/m / +3.7% y/y, core +0.3% / +2.6%; Septem
 - **War state:** consumed PROME HEARTBEAT amendment #2 (10/21 21:0x ET). FALCON marks held; Shaybah drone intercepted; Hormuz transits 4 of 88 on 10/18. No HENRY mark depends on it beyond the VIX/SKEW inputs above.
 - **WATT:** PJM prices eased after 10/13, no ≥$1,000 prints 10/15–10/20; no measured FCF cost. HEN-36 input only.
 - **Inbox:** 30 WALTER signals and 3 general packets read, logged in `board_log.tsv` and filed to `processed/`. Corrections COR-20261021-01/-02 receipted NO-OP (no HENRY citation). PROME's stale-calendar packet answered by rebuilding `domain/ECON_CALENDAR.md`.
-- **Carried unresolved (not cleared by this boot):** primary credit refresh (FRED down); BB/CCC current values; Asia exchange-halt verification and tanker-cyberattack attribution (10/15 items); KRE Muse and TLT-flow source work; historical DGS30 scope; ISM late-evaluator ambiguity; real-yield letter unregistered; ISM release dates unverified (ismworld.org 503).
+- **Still open:** primary credit refresh and current BB/CCC (FRED down at 21:5x ET); ISM services date (ismworld.org 503 three times; manufacturing Nov 2 corroborated via a search-indexed ISM calendar) — recheck before 11/2.
+- **Carry-ins dispositioned 2026-10-21 (Will-directed sweep):** ① *Direct Treasury availability* — RESOLVED, home.treasury.gov daily curve works (yields above). ② *Asia 10/15 halt (WALTER 1015-002)* — CORROBORATED at a second Korean source: Etoday via StockHub reports KOSPI closed −8.06% at 5,524.53 on 10/15 with a 20-minute Level 1 circuit breaker; Korea Exchange primary not read; no HENRY grade depends on it. ③ *Tanker cyberattack (1015-010)* — CLOSED as unverifiable: the Bloomberg article could not be found; no thesis inference, energy security stays BRENT/FALCON's. ④ *KRE "Muse" deposit-flight* — REGINALD's lane, removed from HENRY's list. ⑤ *TLT-flow check* — deferred to the next positioning work, no date. ⑥ *DGS30 coverage conflict* — a standing rule, not a task: no 30Y superlative beyond the Treasury par window. ⑦ *ISM late-evaluator interpretation* — PROME's (10/19 record). ⑧ *Real-yield letter* — never registered; closed, and any future version is a fresh registration.
 - **Runtime:** Claude Code with terminal, web search/fetch and cross-session messaging verified. PROME (prome-56) live in a concurrent session; no pull this boot (other desks' uncommitted work in the tree). No Will decision requested.

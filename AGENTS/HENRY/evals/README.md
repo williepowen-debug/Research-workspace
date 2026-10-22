@@ -30,7 +30,7 @@ Each case below notes **which loaded surface carries its principle** — a FAIL 
 
 **Promotion rule:** promote a change when **the TARGET improves AND every GUARDRAIL holds** — not a uniform "no regression." Do NOT be alarmed if a TARGET fails at baseline; that's the point of it.
 
-## Current cases (v1)
+## Current cases (v1; case 01 is v1.1 since 2026-10-21 — scenario date pinned to 2026-06-15 after the real clock started reading its June data as stale)
 
 | ID | INPUT (pasteable) | RUBRIC (scorer only) | Role | Principle source (loaded?) | Tests |
 |---|---|---|---|---|---|

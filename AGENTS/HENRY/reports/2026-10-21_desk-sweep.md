@@ -63,3 +63,22 @@ Working tree clean; inbox and WALTER lane empty · PREDICTIONS 51 rows, all 7 co
 | B2 PUBLISHED duplicate key | **FIXED** — warning count 0. |
 | New: STATUS headers | **FIXED** — charter § pointers (VOL REGIME, CREDIT EARLY-WARNING MONITOR, INVALIDATION TRIAD, CATALYST STACK) resolve again. |
 | Everything else in A–D | Open as listed. |
+
+## Second fix pass 2026-10-21 ~22:00 ET (Will: "fix the rest of the sweep items too")
+
+| Item | Status |
+|---|---|
+| A1 HEN-46 at American Q3 | **Cannot be done tonight** — waits for the 10/22 pre-open print; disposition is pre-stated in PREDICTIONS |
+| A2 F1 near-line 10/21 | **Advanced, still waits** — BRENT published and concurs UNKNOWN at $95.0479; needs a settlement-grade print |
+| A3 Credit re-pull | **Cannot be done tonight** — FRED still in maintenance at 21:5x ET (now reported as "source DOWN", item B5) |
+| A4 Breadth research (L616) | **PROME's to schedule** — undated backlog row; no HENRY action without a date |
+| A5 Calendar rebuild by 11/20 | Dated; nothing to do yet |
+| B1 Cross-horizon wall guard | **FIXED** — `gamma_flip.py --both`; live run and 7/29 replay tested; charter updated in three places |
+| B3/B4 Dead scripts | **FIXED** — `status_figure_manifest.py` and `update_data.py` moved to `archive/scripts/` |
+| B5 FRED outage message | **FIXED** — reports "FRED source DOWN — served an HTML page, not CSV (site maintenance)" |
+| C4 Outbox | **FIXED** — 8 packets filed to `outbox/delivered/` with `FILING_2026-10-21.md`; 7 consumed by topic evidence, 1 (7/31 closeout-doc audit) UNVERIFIED and stated as such |
+| C5 Carry-ins | **FIXED** — Treasury direct works (official par yields now in STATUS and the dashboard); Asia 10/15 halt corroborated; tanker cyberattack closed as unverifiable; Muse → REGINALD; ISM evaluator → PROME; TLT flow deferred to positioning work; DGS30 is a standing rule; real-yield letter closed. ISM services date still unverified (site 503) |
+| C6/C7 Retirement + rung-4 draft | **FIXED** — 20 files `git mv`-ed into a recreated `archive/` with `archive/README.md`; the rung-4 draft is superseded (WQ-106 ruled 9/1); no live doc points at any moved path |
+| D1 Glued text | **FIXED in live ledgers** — KB ML-HEN-178–186, 4 board_log rows, the HEN-46 10/19 note. **Not done, deliberately:** `research/2026-10-19_*` files, because LIQUID and CRUISE recorded consumption receipts against their exact file hashes; rewriting them would break those receipts |
+| D2 Status vocabulary | **No change, by rule** — legacy tokens are grandfathered (root Output Canon); new rows use canonical tokens |
+| New: eval case 01 aging | **FIXED** — scenario date pinned to 2026-06-15 (v1.1); rubric notes the change |

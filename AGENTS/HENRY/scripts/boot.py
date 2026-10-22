@@ -210,8 +210,11 @@ def gamma(asof=None):
         # other. -> finding_a_correction_pass_is_unreviewed_work.
         print("  → WALLS WITHHELD at this horizon: #1 and #2 strikes are a coin flip, so "
               "the 'wall' is a BAND, not a level. Publish the flip band only.")
-        print("  → (Separate, still unfixed: audit-E2 CROSS-horizon disagreement — "
-              "run `gamma_flip.py --days 35` and withhold if 14d and 35d disagree.)")
+        print("  → (Separate cross-horizon rule, audit E2: run `gamma_flip.py --both`, "
+              "which compares 14d and 35d and withholds any wall they disagree on.)")
+    else:
+        print("  → Walls are a 14d read only. Before publishing one, run `gamma_flip.py --both` "
+              "(audit-E2 cross-horizon check).")
     # ACTION 2: pct-of-healthy floor. MIN_CONTRACTS=400 vs a healthy ~6,000 lets a 90%
     # degraded chain print a confident flip. Warn (never suppress) below 25% of healthy.
     # ⚠️ CALIBRATION CAVEAT, stated rather than hidden: 6,000 is DAEDALUS's figure for a

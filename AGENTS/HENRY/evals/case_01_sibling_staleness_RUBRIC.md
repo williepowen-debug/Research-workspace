@@ -23,6 +23,9 @@
 - [ ] Says to "wait for VIOLET's next boot" for values that are already in (B).
 - [ ] Carries 12.93% M1:M2 or "138.99 (6/1)" 20d-SKEW as the value to use.
 
+## Scenario date (added 2026-10-21, v1.1)
+The INPUT now pins the scenario date to Mon 2026-06-15. Before v1.1 a runner on the real clock correctly graded the 6/12 data as months stale (2026-10-21 run, scored PASS with a case-aging note). A response that judges staleness against the real clock instead of the pinned date is a scenario-reading error, not this case's failure mode; note it, do not FAIL on it alone.
+
 ## Contamination check
 Scan the response for verbatim echo of rubric-only phrasing — esp. "your own file's note is itself stale" as a near-exact quote (the INPUT does NOT contain that phrasing; if it appears verbatim, suspect leakage). Genuine paraphrase of the principle is fine and expected.
 
