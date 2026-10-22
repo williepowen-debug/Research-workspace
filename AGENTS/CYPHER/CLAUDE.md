@@ -100,7 +100,7 @@ DEWEY's REQ-008 recommended **a mechanical watch run by WALTER, not a standing d
 
 - **Each row names a positively-measured instrument and its healthy reading** (blueprint §4) — "KEV catalog vX read, CVE absent" is a reading; "no news" is not.
 - **Machine legs:** row 2 (CISA KEV) and row 4 (SEC 8-K Item 1.05) are checked by `boot.py` every boot. The machine **flags; you set the State.** Every other row is OWNER-adjudicated.
-- **While a wave is open, every non-terminal row is re-checked within 7 days** — boot.py flags any row whose `State_As_Of` is older.
+- **While a wave is open, every `ARMED` or `NOT-FIRED` row is re-checked within 7 days** — boot.py flags any such row whose `State_As_Of` is older. `UNOBSERVABLE` / `CANNOT-FIRE` rows carry no clock (nothing to re-check until the instrument changes); `FIRED` / `STOOD-DOWN` are terminal.
 - **A FIRED row goes to its consequence owner by packet, P1, the same session.** The owner decides the consequence. You record the hand-off in the row's Notes.
 - **Closing a wave** = every row `STOOD-DOWN` with a dated reason (e.g. "no named victim by disclosure +60d; KEV-listed, patched"). Never close a wave by letting its rows go stale.
 
