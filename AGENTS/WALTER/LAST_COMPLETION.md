@@ -13,6 +13,7 @@ FULL closeout. Evening dispatches 007–015 (today 001–015; BOARD 1573). Intak
 - REGISTRY Updated/Focus refreshed from owner headers (48 rows; 9 dates moved; 13 unparsed kept prior cells; SENTRY mis-parse reverted). STATUS bottom line / network awareness / lead regenerated. MEMORY: new finding #49 (check EDGAR before routing a reported filer deadline). Two superseded session notes pruned; one was not in SESSION_LOG and was preserved verbatim in MEMORY_PROMOTED (deletion preceded the check: process slip, content conserved).
 - Live coordination by SendMessage: falcon-e9, hawk-3a, osprey-85 briefs; FALCON UKMTO delivery; OSPREY Novak-date evidence (it corrected KB-198, e8b1d71d9).
 
+- **Late packet (01:58Z):** HENRY 1ce61b98c consumed and routed as **022**, superseding 20261019-020 (gamma POSITIVE both horizons; COR-20261021-22 FLIP). December crack $95.05 at TERRY's $95 notice line, F1 UNKNOWN, BRENT governs. No trade.
 - **Second post-closeout sitting (PROME relay of Will's word, 21:22 ET):**
   - **Bookmarks:** batches 12–16 CLOSED (BM-20261022-02..06). The exact 94-ID stage review is COMPLETE and passes `load_review`. Production is NOT marked and there is no fresh head, per PROME. The 2 tail IDs still need normal production resumption. The read method was public oEmbed text only (images and linked bodies unread; gaps in `research/2026-10-20_bookmark-batches/FOLLOW-UPS.md#batch12-16`).
   - **X token on this laptop is DEAD:** refresh HTTP 400 "token invalid", verified. Will must carry the desktop .env or run `--authorize` before any scan or mark.

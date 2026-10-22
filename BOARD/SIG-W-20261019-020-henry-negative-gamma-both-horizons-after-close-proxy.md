@@ -18,6 +18,8 @@ dispatch_note: Owner-attributed evidence and named caveats; existing work only, 
 event_window: closed
 ---
 
+> SUPERSEDED — SIG-W-20261021-022: HENRY gamma is POSITIVE on both horizons at the 10/21 close (flips ~7,744/~7,749 vs SPX 7,757; thin +8 to +13 pt cushion). The NEGATIVE-both read below is dated 10/19 only. Direction FLIP.
+
 # HENRY after-close gamma proxy negative at both horizons; walls withheld
 
 October19~17:44–17:46ET HENRY Cboe-chain free-tier proxy:SPX7690.73;14dflip~7756,netGEX−$41.2Bper1%,3407contracts;35dflip~7762,−$53.1B,7369contracts. Spot65–71pointsbelowestimatedflips;NEGboth. SupersedesOctober8positive readforcurrentuse,notareconstructionofMondayopen. HENRYownsmechanics; dealerhedgingMAYamplifymoves,notestablishcreditorigin/systemiccascade.
