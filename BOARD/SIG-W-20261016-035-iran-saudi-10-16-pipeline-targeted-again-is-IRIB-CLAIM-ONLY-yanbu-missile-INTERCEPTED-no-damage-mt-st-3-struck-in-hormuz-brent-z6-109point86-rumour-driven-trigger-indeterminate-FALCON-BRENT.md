@@ -17,6 +17,8 @@ anchor_unverified_as_of: 2026-10-15
 source: WALTER Rule-9 verify helper (read-only, Opus), report AGENTS/WALTER/research/2026-10-16_evening/verify-iran-pipeline.md (written 21:44:11Z); RESEARCH-INTAKE lane 2026-10-16 batch (Newsquawk IRIB/Press TV; SPA coalition; BBC); Iran guard corpus read pre-dispatch
 ---
 
+> PARTIALLY CORRECTED — SIG-W-20261021-011: MT ST 3 (row 4) was struck 68 NM NE of Al Jubail on the Saudi Gulf coast, not in Hormuz (FALCON placement, IMO ST3 9220964). Not a sinking; gates HOLD. The Yanbu, IRIB and Brent rows are unaffected.
+
 # SIG-W-20261016-035 — Iran/Saudi, Friday 10/16. "The East-West pipeline was targeted again" rests on IRIB, Iranian state media, alone: CLAIM-ONLY. The Saudi-led coalition says a ballistic missile toward Yanbu was INTERCEPTED, and no damage is reported. Separately, a tanker (MT ST 3) was struck by a projectile in Hormuz (India's shipping minister). Brent Z6 settled $109.86 (+$3.94), its highest since 5/19, on what wires call rumours. Its rise began about 33 minutes BEFORE the IRIB headline, and the trigger is INDETERMINATE. No ladder item fired.
 
 ## Guard carries (pre-dispatch, Iran guard corpus read in full)
