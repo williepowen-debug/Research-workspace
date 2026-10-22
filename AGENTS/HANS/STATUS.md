@@ -1,6 +1,6 @@
 # HANS STATUS.md
 **Updated:** 2026-10-21 (Wed, ~20:40 ET) — **hans-1021, Will-spawned boot + Europe news catch-up after a 12-day gap (no HANS session 10/10–10/20).** Re-graded 9 registry rows on fresh pulls · **`HNS-07` checkpoint 2 (due 10/15) evaluated LATE → 65% → 30%** under the pre-committed rule · France is the live stress. *Prior STATUS verbatim → `workbook/STATUS_ROTATED_2026-10-21.md`.*
-**Boot:** rc1 (attention) · R1 corrections rc=1 → 2 receipted this session · git current with origin (0/0) · **inbox NOT drained** (11 top-level + 26 WALTER, read for news only; processing is a separate spawn). I own **`EUROPE_MACRO`** (BOND = time-critical backup). **UK leg: MINE.**
+**Boot:** rc1 (attention) · R1 corrections rc=1 → 2 receipted this session · git current with origin (0/0) · **inbox DRAINED 21:1x ET on PROME prome-56's relay of Will's word** — 37 of 37 (11 top-level + 26 WALTER), one file at a time, each logged in `board_log.tsv`; KB-HANS-111–117 added. I own **`EUROPE_MACRO`** (BOND = time-critical backup). **UK leg: MINE.**
 
 ---
 
@@ -89,7 +89,7 @@
 | **~2026-10-23** 🟠 | **Oct flash PMIs** (EA/DE/FR/UK) — date unconfirmed at S&P; **FINAL rule: a flash carries a scheduled successor** | 🟠 |
 | **Sun 2026-10-25** 🟠 | **`HNS-07` checkpoint 3 of 3** — rules (a)/(b)/(c); (c) count 1/5 | 🟠 |
 | **by 2026-10-26** | **Owed #26: re-verify `TTF_CALENDAR` X26/Z26 expiries** before the 10/29 roll | 🟠 |
-| **Wed 2026-10-28** 🔴 | **UK Budget** — the LDI date; `T-13` 20bp / `T-06` 11bp under · **BNP Q3 results** (`HNS-09` window opens) | 🔴 |
+| **Wed 2026-10-28** 🔴 | **UK Budget** — the LDI date; `T-13` 20bp / `T-06` 11bp under · **BNP Q3 results** (`HNS-09` window opens) · **France's first reserve-diesel sales** (AFP, reported; `KB-111`) | 🔴 |
 | **Thu 2026-10-29** 🔴 | **ECB GovC** (HOLD consensus) · **NL election** · **TTF X26 expiry** | 🔴 |
 | **2026-11-01** | `HNS-07` resolver gas day (grade 11/02–03 per `KB-HANS-096`) | 🟠 |
 | **2026-11-04 · 11-05** 🔴 | **EA Oct flash HICP** · **BoE decision (hike priced)** | 🔴 |
@@ -100,21 +100,19 @@
 
 ---
 
-## 📬 INBOX / CROSS-AGENT FLAGS — **NOT drained 10/21.** 11 top-level (DEWEY ×6 diesel/DR-4, YURI ×4 asset-control, PROME ×1 read-cap) + 26 WALTER (10/09–10/21). Read for news this session, **none moved.** 🔴 **The LIVE flag table is `DISPATCH_LOG.md`, not this line.**
-🔴 **PROME 10/20 (owed #30): `STATE_VOCABULARY.md` is a boot read at 117% of budget** — choose scoped read or ask DAEDALUS for a split; reply to `PROME/inbox/` with the commit.
+## 📬 INBOX / CROSS-AGENT FLAGS — **inbox lanes CLEAR 2026-10-21** (37 of 37; dispositions in `board_log.tsv`). Notable: DEWEY diesel FINAL — delivered net addition UNKNOWN; **France releases 10M bbl reserve diesel, first sales 10/28, pump-price cut from 11/1** (`KB-111`) · **UniCredit got Russian permission to exit (Order 368-rp, 10/5) — permission, not a sale** (`KB-112`) · METRO Russia under temporary management (`KB-113`) · EIOPA PE-reinsurer checks, `T-14` NOT fired (`KB-115`) · VW pay-freeze proposal, contested (`KB-116`). 🔴 **The LIVE flag table is `DISPATCH_LOG.md`, not this line.**
+🟠 **PROME 10/20 read-cap → ANSWERED 10/21:** scoped read declared (preamble + the one Class section, ≤27% of budget) → `PROME/inbox/processed/2026-10-21_from-HANS_state-vocabulary-scoped-read.md`. ✅ **PROME flipped the READS row to `scoped` (a361046c9); verified here: `read_cap_check --agent HANS --require-manifest` rc 0, 0 over budget.** The RULE #1c charter wording waits for Will.
 
 ## NEXT SESSION — WHAT IS OWED
 
 🔴 **FIRST: `python3 scripts/doc_audit.py`** (RULE #1b).
-🔴 **SECOND: France into Moody's (10/23).** Grade `T-10` on i-i each session; OAT through 5.00 is the RED tier on `VX-HANS-3.07`. Re-ask LIQUID whether the wider spread now shows on the US-funding side.
+🔴 **SECOND: France into Moody's (10/23).** Grade `T-10` on i-i each session; OAT through 5.00 is the RED tier on `VX-HANS-3.07`. LIQUID re-asked 10/21 (packet in their inbox) whether the wider spread shows on the US-funding side — silence = no transmission.
 ⚠️ **Closeout 1c has TWO forms; `--self` is the only one seeing figures I superseded.** ⛔ **Residual 13 NOT to be cleared** → `ML-HANS-456`.
 
 | # | Owed | Due |
 |---|---|---|
-| 31 | 🔴 **Inbox drain** — 37 packets, one file at a time; the DEWEY diesel return and YURI asset-control series are unread at body | next spawn |
-| 28 | 🔴 **`HNS-09` definitions** (aggregate, CoR series, "material") — **PAST DUE (10/16), results start 10/28** | **2026-10-27** |
+| 28 | 🔴 **`HNS-09` definitions** (aggregate, CoR series, "material", **and how a one-off such as a UniCredit Russia exit loss is treated** — `KB-112`) — **PAST DUE (10/16), results start 10/28** | **2026-10-27** |
 | 32 | 🟠 **`test_hans.py` 1 of 136 FAILS — FAILS AT HEAD TOO** (verified in a detached worktree, so it predates this session): `test_C2_is_SERIES_QUALIFIED` — `OAT_BUND_SPREAD_BP` and `FRANCE_GERMANY_10Y_SPREAD_BP` both declare `VX-HANS-3.02` in `workbook/PUBLISHED.tsv` and both retire 96.8, so C2 cannot tell them apart. Fix the ledger (one metric per surface), not the test | next session |
-| 30 | 🟠 **PROME read-cap: `STATE_VOCABULARY.md` at 117%** — scoped read or DAEDALUS split | next session |
 | 26 | **Re-verify `TTF_CALENDAR` X26/Z26 expiries** before 10/29 | **2026-10-26** |
 | 29 | **23 KB facts past `Stale_By`** (boot §[7]) incl. `KB-HANS-073` Petroline — now overtaken by the 10/15 Yanbu restart; re-grade `T-15` | 🟠 |
 | 27 | **DAEDALUS falsification #4 (10/8): re-grade `thesis/KILL_TREE.md`** — C-1 vs `T-10`, owed #13, C-2 HNS-06 HIT, C-3 norm basis | **PAST DUE (10/16)** |

@@ -54,3 +54,40 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-09T14:08Z	SIG-W-20261008-039	noted	INBOX_WALTER	Kyiv dark + Miami talks - OSPREY/YURI; EU gas angle nil
 2026-10-09T14:08Z	SIG-W-20261008-048	noted	INBOX_WALTER	update to -039; same
 2026-10-09T14:08Z	SIG-W-20261008-051	acted	INBOX_WALTER	CNBC prior close 5.9972 = the cross-check; both bases under, NOT-FIRED
+2026-10-22T00:55Z	DEWEY-20261012-dr4	acted	INBOX_TOP	HNS-07 checkpoint 2 rule (b): DR-4 rerun MISS side + own MISS => 65%->30% (PREDICTIONS HNS-07); COR-20261012-15 APPLIED
+2026-10-22T00:55Z	DEWEY-20261012-diesel-1	acted	INBOX_TOP	consumed via FINAL into KB-HANS-111 (US licence does not amend EU bans; net increment UNKNOWN)
+2026-10-22T00:55Z	DEWEY-20261012-diesel-2	noted	INBOX_TOP	CME crack inputs = BRENT/TERRY; superseded by FINAL (KB-HANS-111)
+2026-10-22T00:55Z	DEWEY-20261012-diesel-3	noted	INBOX_TOP	Minerva Zen = UAN, not diesel; US import baseline = BRENT; superseded by FINAL
+2026-10-22T00:55Z	DEWEY-20261013-diesel-4	acted	INBOX_TOP	French Nov-Jan domestic scope + IEA March basis -> KB-HANS-111; report hash now 9050803f != packet 5be08366 (changed after delivery) - FINAL governs
+2026-10-22T00:55Z	DEWEY-20261013-diesel-final	acted	INBOX_TOP	FINAL read whole, sha256 0775a979 matches packet -> KB-HANS-111 (France 10M bbl SAGESS, first sales 10/28; IEA 100M = March pledge)
+2026-10-22T00:55Z	YURI-20261012-unicredit	acted	INBOX_TOP	verified at YURI artifact line 61 -> KB-HANS-112 (permission not sale; HNS-09 one-off treatment owed #28)
+2026-10-22T00:55Z	YURI-20261012-entities	acted	INBOX_TOP	-> KB-HANS-113 (35 interests / 20 entities, no disposal clause)
+2026-10-22T00:55Z	YURI-20261012-register	acted	INBOX_TOP	verified at YURI artifact lines 39-50 -> KB-HANS-113 (METRO control lost, title kept)
+2026-10-22T00:55Z	YURI-20261012-mechanism	acted	INBOX_TOP	-> KB-HANS-113 (no cash/impairment quantified; Aptar Q3 10/29)
+2026-10-22T00:55Z	PROME-20261020-readcap	acted	INBOX_PROME	scoped-read declaration sent: PROME/inbox/2026-10-21_from-HANS_state-vocabulary-scoped-read.md; READS.tsv edit is PROME's; charter RULE #1c wording left for Will
+2026-10-22T00:55Z	SIG-W-20261009-013	noted	INBOX_WALTER	storage -14.99 [gas day 10/8] + gilts 10/9 CNBC superseded by own 10/21 pulls (T-08/T-06/T-13 registry); SKEW = VIOLET
+2026-10-22T00:55Z	SIG-W-20261010-002	acted	INBOX_WALTER	T-15 leg (a): Aramco full Nov crude to Europe = unnamed sources, NOT primary; carried in STATUS SAUDI block; re-grade owed #29
+2026-10-22T00:55Z	SIG-W-20261010-003	noted	INBOX_WALTER	GL135 instrument -> KB-HANS-111 via DEWEY FINAL; freight/cracks = BRENT
+2026-10-22T00:55Z	SIG-W-20261011-005	noted	INBOX_WALTER	Poland threat to Tusk -> KB-HANS-114 item 5; rest not HANS
+2026-10-22T00:55Z	SIG-W-20261012-001	info-only	INBOX_WALTER	global fund flows = LIQUID/BOND
+2026-10-22T00:55Z	SIG-W-20261012-011	acted	INBOX_WALTER	French refrigeration cyberattack -> KB-HANS-114 item 1, bounded, no macro grade
+2026-10-22T00:55Z	SIG-W-20261012-015	acted	INBOX_WALTER	COR-20261012-15 receipted APPLIED; checkpoint 2 graded (HNS-07 30%)
+2026-10-22T00:55Z	SIG-W-20261012-016	acted	INBOX_WALTER	COR-20261012-16 receipted NO-OP (HANS carries no diesel net-supply figure)
+2026-10-22T00:55Z	SIG-W-20261012-030	info-only	INBOX_WALTER	Minerva Zen UAN - DEWEY FINAL covers
+2026-10-22T00:55Z	SIG-W-20261012-032	info-only	INBOX_WALTER	DF Peak boarding = HAWK sanctions enforcement; no EU macro channel
+2026-10-22T00:55Z	SIG-W-20261012-039	acted	INBOX_WALTER	Dobrindt BfV warning -> KB-HANS-114 item 4 (Russia NOT named); Japan leg = SAM
+2026-10-22T00:55Z	SIG-W-20261012-041	info-only	INBOX_WALTER	Ukraine energy facilities = OSPREY
+2026-10-22T00:55Z	SIG-W-20261012-043	info-only	INBOX_WALTER	CPC blending allegation = HAWK/BRENT; body unread by WALTER
+2026-10-22T00:55Z	SIG-W-20261013-002	acted	INBOX_WALTER	EIOPA PE-reinsurer statement -> KB-HANS-115; T-14 stays NOT fired (checks written, no institution named)
+2026-10-22T00:55Z	SIG-W-20261013-004	noted	INBOX_WALTER	senators' rescission letter -> KB-HANS-111 note; a request, not a revocation
+2026-10-22T00:55Z	SIG-W-20261013-012	acted	INBOX_WALTER	NESO 1,200MW French assistance request -> KB-HANS-114 item 2; supply secure
+2026-10-22T00:55Z	SIG-W-20261014-003	noted	INBOX_WALTER	IEA OMR diesel exports -700kb/d y/y -> KB-HANS-111; BRENT owns
+2026-10-22T00:55Z	SIG-W-20261014-024	noted	INBOX_WALTER	first post-deal cargo 40kt Primorsk->Morocco -> KB-HANS-111 note
+2026-10-22T00:55Z	SIG-W-20261015-012	noted	INBOX_WALTER	'record seasonal low' lane framing, basis unstated; own AGSI basis governs (KB-HANS-108)
+2026-10-22T00:55Z	SIG-W-20261016-006	acted	INBOX_WALTER	UK bank-tax reports (Lloyds -2.3%, NatWest -2.1%) -> KB-HANS-117 + STATUS
+2026-10-22T00:55Z	SIG-W-20261016-021	acted	INBOX_WALTER	EA Sept FINAL core 2.5 -> HANS-T-16 1 of 2 (registry), KB-HANS-110; Oct FINAL 11/18 on docket
+2026-10-22T00:55Z	SIG-W-20261018-004	acted	INBOX_WALTER	France riots -> T-10 drivers (registry) + KB-HANS-109; the budget path, not the march, is the mechanism
+2026-10-22T00:55Z	SIG-W-20261019-014	acted	INBOX_WALTER	Monday OAT move: graded on i-i daily rows (142.3 10/19 -> 157.5 10/21), intraday 146 not merged; T-10 MET-OPEN, exit 0/5
+2026-10-22T00:55Z	SIG-W-20261020-013	acted	INBOX_WALTER	VW global pay-budget proposal -> KB-HANS-116 (contested, not implemented; falsifier-side for T-16)
+2026-10-22T00:55Z	SIG-W-20261020-015	acted	INBOX_WALTER	London cloud outage -> KB-HANS-114 item 3; operational, not funding
+2026-10-22T00:55Z	SIG-W-20261021-006	acted	INBOX_WALTER	Dutch target cut 74->64%, met at 65.5% -> KB-HANS-108 note; EU gap -14.75 [gas day 10/20], T-08 exit 0/5 - national target NOT substituted
