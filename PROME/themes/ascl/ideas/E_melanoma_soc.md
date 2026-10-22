@@ -1,0 +1,26 @@
+# E. Adjuvant / high-risk melanoma SoC: who loses if intismeran (mRNA-4157) + Keytruda becomes SoC
+Date 2026-10-22. Confidence: INFERRED unless cited. No company discloses adjuvant-melanoma revenue; every melanoma figure below is a rough estimate from total-product revenue and is NOT from a filing line item.
+
+**Premise check:** the Aug 2026 topline ([ASCO Post](https://ascopost.com/news/august-2026/interpath-001-trial-of-mrna-based-individualized-neoantigen-therapy-meets-primary-and-key-secondary-endpoints-in-patients-with-high-risk-resected-melanoma/), [AmPharmReview](https://www.americanpharmaceuticalreview.com/1315-News/627546-Merck-Moderna-Phase-3-Melanoma-Trial-Meets-Key-Endpoints/)) says INTerpath-001 (n=1,137, resected high-risk, no prior systemic therapy) met RFS and DMFS at interim. No hazard ratio was disclosed in what I found. I could not verify the 42% figure; the Ph2b figure was ~44-49% RFS. OS immature. Full data and filing plans pending.
+
+| Rank | Therapy | Sponsor | Est. melanoma rev (rough) | Threat | Notes |
+|---|---|---|---|---|---|
+| 1 | Opdivo adjuvant (CheckMate-238 stage III/IV; -76K stage IIB/C) | BMY | Opdivo total ~$9B/yr (BMY 10-K); melanoma ~25-30% (est.); adjuvant maybe $0.7-1.2B global (Leerink 2017 est. ~$1B potential, [Fierce](https://www.fiercepharma.com/pharma/opdivo-tops-yervoy-a-melanoma-win-could-pad-bristol-s-i-o-sales-by-1b-analyst)) | HIGH | Same PD-1 class as the Keytruda arm; mRNA arm adds on top of a PD-1, so nivo adjuvant is displaced by Keytruda-based regimen. Biggest dollar loser. |
+| 2 | Opdivo+Yervoy (adjuvant use limited; mostly metastatic) | BMY | Small in adjuvant (CheckMate-915 failed to beat nivo alone; Yervoy adjuvant rarely used, Yervoy total <$1.5B) | LOW-MED | Adjuvant exposure minimal; metastatic franchise unaffected near term. |
+| 3 | Tafinlar+Mekinist adjuvant (COMBI-AD, BRAF V600) | Novartis | Combo total ~$2B/yr (Novartis AR); adjuvant slice est. <$0.4B, declining (BRAF ~40-50% of pts, PD-1 preferred) | MED | Already losing share to PD-1; mRNA regimen is BRAF-agnostic, so it accelerates the decline. Still holds relapsed/BRAF niche. |
+| 4 | Keytruda adjuvant (KEYNOTE-054 stage III; -716 IIB/C) | Merck | Keytruda ~$30B+ total; melanoma ~10-15% (est.), adjuvant maybe $1-2B | NEUTRAL/UP | Partner. Adds ~$-per-dose pricing from vaccine, and pulls Keytruda share from Opdivo. Risk: Keytruda LOE 2028 and subQ shift make the franchise the mRNA add-on partly a patent-cliff hedge. |
+| 5 | Amtagvi (lifileucel) 2L+ advanced melanoma | Iovance (IOVA) | Q2 2026 $91M; FY26 guide $410-420M total incl. Proleukin ([Quartr](https://quartr.com/events/iovance-biotherapeutics-inc-iova-q2-2026_oC77dthe)) | LOW | Post-PD-1 unresectable/metastatic. Not adjuvant. Fewer relapses could shrink the eventual pool years out (2030+). |
+| 6 | RP1 (vusolimogene) + nivo | Replimune (REPL) | $0; two CRLs (Jul 2025, Apr 2026, [Epocrates](https://www.epocrates.com/online/article/fda-issues-second-complete-response-letter-for-rp1-in-advanced-melanoma)). One search hinted a resubmission with Aug 2 2026 goal date; outcome UNKNOWN, check FDA/REPL | LOW | Anti-PD-1-failed advanced disease. Zero revenue to lose; sentiment read-across only. |
+| 7 | Other: Opdualag (nivo+relatlimab, BMY; approved metastatic, adjuvant trial RELATIVITY-098 failed); high-dose IFN/Sylatron (obsolete); T-VEC (Amgen, tiny); Hepzato (Delcath, uveal liver) | various | Opdualag ~$1B+ run-rate, metastatic | LOW | Not adjuvant. Opdualag is BMY's melanoma growth leg and is unthreatened short term. |
+
+## Transmission read
+BMY is hurt most: Opdivo adjuvant (and its stage IIB/C 76K label) is the direct PD-1 substitute, so a Keytruda+mRNA regimen takes share inside the same patient. Novartis is second but small (BRAF adjuvant is already a shrinking niche). Timing: 2026 topline -> full data (likely early 2027 meeting) -> filing -> approval ~2027 at earliest -> launch -> SoC shift 2-4 yrs (individualized manufacturing, 6-week turnaround, price, and guidelines slow uptake). Revenue damage to BMY visible in 2028-2030; earnings-estimate and multiple pressure could come sooner on the full-data and NCCN-listing dates. Magnitude is modest: adjuvant melanoma is perhaps 1-2% of BMY revenue. BMY's larger problem is the same drug class, since Keytruda+vaccine wins mind-share in neoadjuvant/adjuvant IO broadly.
+
+## Bull cases for competitors
+- Stage III/IV (CheckMate-238 population) vs INTerpath-001's high-risk resected cohort: label scope may not cover all; nivo remains for patients with no tumor sample, no time for a 6-week bespoke manufacture, or who decline a vaccine.
+- Neoadjuvant (NADINA nivo+ipi, SWOG S1801 pembro) is shifting practice earlier; a vaccine in the post-op setting may fit only residual-disease patients, protecting BMY's nivo+ipi neoadjuvant.
+- OS not yet shown; if only RFS holds, payers and guidelines may hold back.
+- Fewer relapses shrinks Amtagvi/RP1 pools, but only after 2030 and the effect is partial.
+- Amtagvi has independent momentum (guide raised); REPL is binary on FDA, not on this news.
+
+Sources limits: revenue splits are my estimates; verify in BMY/MRK/NVS 10-K/20-F product tables before any use. Per root rule #3 verify before trading; per root rule #4 pull live prices.
