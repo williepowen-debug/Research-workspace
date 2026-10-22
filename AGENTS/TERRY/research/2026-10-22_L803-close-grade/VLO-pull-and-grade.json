@@ -1,0 +1,98 @@
+{
+  "pulled_at": "2026-10-22T19:31:02.000478-04:00",
+  "data": {
+    "HOZ26.NYM": {
+      "info": {
+        "symbol": "HOZ26.NYM",
+        "shortName": "Heating Oil Dec 26",
+        "exchange": "NYM",
+        "exchangeTimezoneName": "America/New_York",
+        "expireDate": 1795996800,
+        "priceHint": 4,
+        "quoteType": "FUTURE"
+      },
+      "rows": 940,
+      "timezone": "America/New_York",
+      "first": "2026-10-22 00:02:00-04:00",
+      "last": "2026-10-22 19:20:00-04:00"
+    },
+    "CLZ26.NYM": {
+      "info": {
+        "symbol": "CLZ26.NYM",
+        "shortName": "Crude Oil Dec 26",
+        "exchange": "NYM",
+        "exchangeTimezoneName": "America/New_York",
+        "expireDate": 1795132800,
+        "priceHint": 2,
+        "quoteType": "FUTURE"
+      },
+      "rows": 1100,
+      "timezone": "America/New_York",
+      "first": "2026-10-22 00:00:00-04:00",
+      "last": "2026-10-22 19:20:00-04:00"
+    },
+    "SPY": {
+      "info": {
+        "symbol": "SPY",
+        "shortName": "State Street SPDR S&P 500 ETF T",
+        "exchange": "PCX",
+        "exchangeTimezoneName": "America/New_York",
+        "expireDate": null,
+        "priceHint": 2,
+        "quoteType": "ETF"
+      },
+      "rows": 890,
+      "timezone": "America/New_York",
+      "first": "2026-10-22 04:00:00-04:00",
+      "last": "2026-10-22 19:30:40-04:00"
+    }
+  },
+  "spy_regular_bars": 390,
+  "grade": {
+    "session": "2026-10-22",
+    "basis": "HOZ26x42-CLZ26,USD/bbl",
+    "source": "3 ESTIMATE",
+    "legs": {
+      "HOZ26.NYM": {
+        "bars": [
+          {
+            "time": "2026-10-22 14:28:00-04:00",
+            "raw_close": "4.740699768066406",
+            "verified_tick_close": "4.7407",
+            "volume": "1062"
+          },
+          {
+            "time": "2026-10-22 14:29:00-04:00",
+            "raw_close": "4.740200042724609",
+            "verified_tick_close": "4.7402",
+            "volume": "678"
+          }
+        ],
+        "sum_volume": "1740",
+        "vwap": "4.740505172413793103448275862068965517241"
+      },
+      "CLZ26.NYM": {
+        "bars": [
+          {
+            "time": "2026-10-22 14:28:00-04:00",
+            "raw_close": "99.52999877929688",
+            "verified_tick_close": "99.53",
+            "volume": "3697"
+          },
+          {
+            "time": "2026-10-22 14:29:00-04:00",
+            "raw_close": "99.44999694824219",
+            "verified_tick_close": "99.45",
+            "volume": "4788"
+          }
+        ],
+        "sum_volume": "8485",
+        "vwap": "99.48485680612846199175014731879787860931"
+      }
+    },
+    "C3_unrounded": "99.61636043525084835307743888809867311479",
+    "notice": "NOT FIRED",
+    "exit": "NOT FIRED",
+    "unknown_band_90.16": false
+  }
+}

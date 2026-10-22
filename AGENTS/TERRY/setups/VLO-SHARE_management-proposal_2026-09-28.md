@@ -1,6 +1,14 @@
 # MANAGEMENT PROPOSAL — VLO ×1 held share — a price rule vs a policy/event rule
 
-**Current state [MGMT-VLO-SHARE]:** CONDITIONAL — original 1 share only; October 20 and 21 leg A NOT FIRED / no notice on BRENT-published source-3 ESTIMATE (October 16/19 on TERRY's own verified pull, below). Added 2 scope UNKNOWN, prospective proposal unapproved; SCALE TERMINAL.
+**Current state [MGMT-VLO-SHARE]:** CONDITIONAL — original 1 share only; October 22 leg A NOT FIRED / no notice on TERRY's own source-3 ESTIMATE pull (below); October 20 and 21 NOT FIRED / no notice on BRENT-published source-3 ESTIMATE (October 16/19 on TERRY's own verified pull). Added 2 scope UNKNOWN, prospective proposal unapproved; SCALE TERMINAL.
+
+## Leg-A observation — session 2026-10-22 (TERRY, Claude Opus 5.5, PROME spawn prome-e7; written 19:3x ET from `date`)
+
+| Session | Governing pair / source | HOZ26 two-bar VWAP (USD/gal) | CLZ26 two-bar VWAP (USD/bbl) | C3 USD/bbl | Notice < 95 | Exit < 90.16 |
+|---|---|---:|---:|---:|---|---|
+| **October 22** | HOZ26×42−CLZ26, source 3 ESTIMATE, TERRY pull 19:31 ET | 4.740505 (14:28 4.7407 × 1,062 · 14:29 4.7402 × 678) | 99.484857 (14:28 99.53 × 3,697 · 14:29 99.45 × 4,788) | **99.6164** | **NOT FIRED** (4.616 above) | **NOT FIRED** (9.456 above; outside the ±$0.15 UNKNOWN band) |
+
+**Controls:** named-contract identity verified on the pull (`expireDate` HOZ26.NYM 2026-11-30, CLZ26.NYM 2026-11-20); exactly one 14:28 and one 14:29 bar per leg, positive volume on every bar; closes rounded to native ticks (HO 0.0001, CL 0.01); same-feed SPY 390 bars 09:30→15:59 (opening-time labels). Source 1 (CME settlement) not reachable by desk tools. Source 2 (vendor daily row) **not accepted**: the pull is after 18:00 ET, so a same-day-labelled futures daily bar is refused (`RISK_RULES.md` 6c). Decimal arithmetic and raw bars: `../research/2026-10-22_L803-close-grade/VLO-pull-and-grade.json`, `HOZ26-1m.csv`, `CLZ26-1m.csv`, `SPY-1m.csv`. ⚠️ October 21 read 95.048 (BRENT), 0.048 above the notice line; October 22 is 4.57 higher. This is the original 1 share only: no SELL, notice, order, new threshold, scope extension or SCALE revival. VLO stock closed $426.28 (−2.40% vs the $436.75 10/21 daily bar); the stock price is not the crack and is not a stop.
 
 ## Leg-A assessment — 2026-10-22 13:3x ET (TERRY, Claude Opus 5.5; PROME spawn WQ-487 A)
 

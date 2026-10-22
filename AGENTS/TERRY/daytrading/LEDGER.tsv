@@ -1,4 +1,5 @@
 # TERRY daytrading/LEDGER.tsv — LIVE full-review metrics. Standing subordinate loop; no duplicate realized-booking ledger.
+# Cadence: EVENT-DRIVEN — refreshed at each full broker-activity intake (full-review metrics). Last re-pull ATTEMPTED: 2026-10-22 — inbox/WILL 0 new files; no broker intake this session.
 # Last real data refresh: 2026-08-03 | Last staleness check: 2026-10-19T18:02:50-04:00 — full-window metrics unchanged. October19 partial broker intake is in JOURNAL.md and ../research/2026-10-19_broker-reconcile/ACTIVITY.tsv, not missing evidence or a new full review.
 # Partial coverage: exact clocks, earlier Activity, unseen bases and expired outcomes remain UNKNOWN. No whole-day P/L, frequency/behavior score or synthetic metrics row.
 # Raw inbox/WILL has0new evidence files; supplied broker receipt arrived through PROME and IS included in partial intake. No raw-drop-path requirement excludes legitimate broker evidence.

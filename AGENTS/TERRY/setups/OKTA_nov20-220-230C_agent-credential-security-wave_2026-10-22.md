@@ -5,6 +5,8 @@
 **Thesis owner:** **Will** (premise, 10/22 13:26–13:28 ET in PROME's window: the internet-security concerns *"will get worse before better"*; *"I do understand different not the banks. I am exploring other avenues and trades."*). ⚠️ **No fleet desk owns the security names**; evidence is WALTER SIG-W-20261022-008 and DEWEY REQ-DEWEY-20261022-001. This card TESTS Will's premise; it does not adopt it.
 **Data freshness:** OKTA spot $202.46–202.62 (−2.96%) and chain at 13:31–13:32 ET 10/22, `--no-cache`. Vendor option quotes are SCREENING marks; price the order on the broker chain (durable finding 5b).
 
+> **CLOSE READ 2026-10-22 (TERRY, PROME spawn prome-e7; 19:3x ET from `date`): no close-keyed cell fired.** OKTA completed close **$201.33** (−3.50% vs $208.64 on 10/21, RED, so the call-entry colour was right today). The trigger is an 8-K Item 1.05 or a Huntress/Microsoft count above 173, not a price; neither is graded here (no new filing or count reached this desk; WALTER routes). $201.33 is under the $212 no-chase line (order-time) and $16.33 above the $185 kill (binds only if held; nothing is held). No Will ruling on WQ-492 as of 19:3x ET. State unchanged: NOT-FIRED.
+
 ## 1. One-line setup
 If AI-assisted intrusions keep spreading, the problem is stolen and delegated credentials, which is Okta's product (identity and access). A capped call spread pays if the market starts pricing that before Okta's next print.
 

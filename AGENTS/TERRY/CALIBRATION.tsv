@@ -1,4 +1,5 @@
 # TERRY CALIBRATION.tsv — LIVE (not frozen). Pre-registered probability calls and their grades.
+# Cadence: EVENT-DRIVEN — a row exists only when a probability was stated before an outcome (RISK_SCORING § 5). Last re-pull ATTEMPTED: 2026-10-22 — no new pre-outcome TERRY probability (10/22 QQQ/USO/OKTA/MRNA cards state none; the MRNA 55/25/20 tree is PROME's, not a TERRY forecast).
 # Last real data refresh: 2026-09-05
 # Last staleness check: 2026-10-19T17:35:54-04:00 — no new pre-outcome probability or forecast grade in this commission. Existing2rows retained, no synthetic forecast.
 # Prior staleness check: 2026-10-12 (TERRY file sweep): 2 existing registered rows retained; L694/BNO/new booking notes contain no new pre-outcome desk probability forecast to register. Owner CRU-10 result is not a TERRY forecast; chain model odds/payoff hurdles and guard fixtures are not forecasts. Last real forecast/grade refresh unchanged; no manufactured row.

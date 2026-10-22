@@ -5,6 +5,8 @@
 **Thesis owners (evidence, not a TERRY thesis):** BRENT (oil thesis); FALCON (US–Iran direct-kinetic row 5; SIG-W-20261022-003, -007). FALCON's packet `2026-10-22_from-FALCON_oil-leg-catalyst-window-NOT-FIRED.md` (~13:4x ET) landed after the first draft and is folded into § 2; FALCON's figures govern the trigger-state cell.
 **Data freshness:** USO spot $162.30–162.43 and BZZ26 $112.48 (+3.36%; vendor contract label truncated, identity rests on the requested symbol, not a settle) at 13:26–13:29 ET; chain 13:29 ET `--no-cache`. Vendor option quotes are **SCREENING marks**; the order is priced on the broker chain (durable finding 5b).
 
+> **CLOSE READ 2026-10-22 (TERRY, PROME spawn prome-e7; 19:3x ET from `date`): no cell on this card keys on the 10/22 close.** USO completed close **$162.51** (+1.70% vs $159.80 on 10/21, GREEN). The entry window opens Fri 10/23 on a RED USO session; $162.51 is $5.49 under the $168.00 no-chase line (an order-time test) and $12.51 above the $150.00 kill (binds only if held; nothing is held). Trigger (FALCON row 5, US strike on Iran) not re-graded here: FALCON owns it. No Will ruling on WQ-491 as of 19:3x ET. State unchanged: NOT-FIRED.
+
 ## 1. One-line setup
 The reporting puts any renewed US strike on Iran **after the 11/3 election**, while every USO call line the book holds expires **10/23–10/30**. This card buys the same view with tenor that reaches the window, as a capped call spread entered on a red day.
 
