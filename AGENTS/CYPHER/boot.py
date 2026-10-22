@@ -15,14 +15,18 @@ Legs:
      non-terminal row re-checked within WATCH_STALE_DAYS.
   5. incidents        — workbook/INCIDENTS.tsv: enums valid; REPORTED / ATTEMPTS-ONLY rows
      re-checked within INCIDENT_RECHECK_DAYS.
-  6. CISA KEV         — every KEV:<CVE> key on a live row, checked against the KEV catalog.
+  6. matrix + map     — workbook/VX.tsv scores are 1-5 or UNKNOWN (UNKNOWN = scoring owed, REVIEW);
+     Kind MECHANISM/THERMOMETER; composite = MECHANISM rows only. workbook/FLOW.tsv states valid
+     and every row keyed to an existing VX vector.
+  7. CISA KEV         — every KEV:<CVE> key on a live row, checked against the KEV catalog.
      A listing is a FIRED CANDIDATE: the machine flags, the OWNER sets State.
-  7. SEC 8-K Item 1.05 — EDGAR full-text search over CONTROL_DAYS; the population is its own
+  8. SEC 8-K Item 1.05 — EDGAR full-text search over CONTROL_DAYS; the population is its own
      positive control (0 hits = the query is broken, never "quiet"); filings dated inside
      LOOKBACK_DAYS are listed for the owner to read.
 
 Combined exit (CHECK_STANDARD §9): 0 quiet · 1 REVIEW · 2 a leg FAILED / cannot certify.
-Flags: --offline skips legs 6-7 and says so (rc 1 — a skipped control is reported, never a pass).
+Flags: --offline skips legs 7-8 and says so (rc 1 — a skipped control is reported, never a pass).
+Tests: AGENTS/CYPHER/scripts/test_boot.py (throwaway copies; real files md5-checked unchanged).
 Drill hooks (never set in a real boot; the header says when they are set):
   CYPHER_BOOT_TODAY=YYYY-MM-DD  evaluate date legs as of that day
   CYPHER_KEV_FILE=<json>        read the KEV catalog from a file instead of cisa.gov
@@ -47,6 +51,8 @@ PREDICTIONS = HERE / "workbook" / "PREDICTIONS.tsv"
 CATALYSTS = HERE / "docket" / "CATALYSTS.tsv"
 WATCH = HERE / "workbook" / "ESCALATION_WATCH.tsv"
 INCIDENTS = HERE / "workbook" / "INCIDENTS.tsv"
+VX = HERE / "workbook" / "VX.tsv"
+FLOW = HERE / "workbook" / "FLOW.tsv"
 
 WINDOW_DAYS = 2              # same horizon as PROME's summons check
 WATCH_STALE_DAYS = 7         # charter § ESCALATION WATCH: every open row re-checked within 7 days
@@ -68,6 +74,8 @@ EVENT_STATES = {"CONFIRMED", "ATTEMPTS-ONLY", "DISCLOSED", "REPORTED", "FALSE", 
 EVENT_DEAD = {"FALSE", "SUPERSEDED"}
 RECHECK_STATES = {"REPORTED", "ATTEMPTS-ONLY"}
 BASES = {"PRIMARY-VERIFIED", "ARTIFACT-VERIFIED", "SECONDARY-SOURCE", "OWNER-ASSERTED", "UNANCHORED"}
+VX_KINDS = {"MECHANISM", "THERMOMETER"}
+FLOW_STATES = {"CONFIRMED", "NOT-OBSERVED", "MODELED", "UNTESTED"}
 CVE_RE = re.compile(r"^CVE-\d{4}-\d{4,}$")
 
 _DRILL = os.environ.get("CYPHER_BOOT_TODAY")
@@ -249,6 +257,46 @@ def incidents():
     return 0, [f"  ✓ enums valid; no REPORTED/ATTEMPTS-ONLY row older than {INCIDENT_RECHECK_DAYS}d — {len(rows)} row(s)"]
 
 
+def matrix_and_flow():
+    vx, fail = _load("matrix", VX)
+    if fail:
+        return fail
+    fl, fail = _load("flow", FLOW)
+    if fail:
+        return fail
+    if not vx:
+        return 1, ["  ⚠️ 0 matrix rows — no vector can be scored or stacked (PAT-155)"]
+    out, ids, unscored, mech = [], set(), [], []
+    for r in vx:
+        vid = (r.get("ID") or "?").strip()
+        ids.add(vid)
+        kind, score = _token(r.get("Kind")), _token(r.get("Score"))
+        if kind not in VX_KINDS:
+            out.append(f"  ⚠️ {vid}: Kind '{(r.get('Kind') or '').strip()[:20]}' is not MECHANISM/THERMOMETER")
+        if score == "UNKNOWN":
+            unscored.append(vid)
+        elif score not in {"1", "2", "3", "4", "5"}:
+            out.append(f"  ⚠️ {vid}: Score '{(r.get('Score') or '').strip()[:20]}' is not 1-5 or UNKNOWN")
+        elif kind == "MECHANISM":
+            mech.append(int(score))
+    n_mech = sum(1 for r in vx if _token(r.get("Kind")) == "MECHANISM")
+    if unscored:
+        out.append(f"  ⚠️ UNSCORED: {len(unscored)} of {len(vx)} vector(s) ({' '.join(unscored[:9])}{' …' if len(unscored) > 9 else ''}) — "
+                   f"scoring is the desk's judgment and is owed; the composite cannot be stated")
+    for r in fl:
+        fid = (r.get("ID") or "?").strip()
+        if _token(r.get("State")) not in FLOW_STATES:
+            out.append(f"  ⚠️ {fid}: State '{(r.get('State') or '').strip()[:20]}' is not in the declared FLOW enum")
+        if (r.get("Vector") or "").strip() not in ids:
+            out.append(f"  ⚠️ {fid}: Vector '{(r.get('Vector') or '').strip()[:20]}' has no VX row — an orphan mechanism")
+    comp = (f"Total {sum(mech)}/{5 * n_mech} (raw; report the shared-root-adjusted total beside it)"
+            if len(mech) == n_mech and n_mech else "composite UNKNOWN until every MECHANISM row is scored")
+    tail = f"  ({len(vx)} vector(s), {n_mech} MECHANISM; {len(fl)} flow row(s); {comp})"
+    if out:
+        return 1, out + [tail]
+    return 0, [f"  ✓ every vector scored and every flow row valid — {comp}", tail]
+
+
 def _kev_keys():
     """{CVE: [row labels]} from live rows of both ledgers, plus malformed-key lines."""
     keys, bad = {}, []
@@ -361,7 +409,7 @@ def main():
     for v in ("CYPHER_KEV_FILE", "CYPHER_EDGAR_FILE"):
         if os.environ.get(v):
             print(f"  🧪 DRILL FILE: {v}={os.environ[v]} — NOT a real boot")
-    print("  CYPHER BOOT — staleness · predictions · catalysts · escalation watch · incidents · KEV · 8-K 1.05")
+    print("  CYPHER BOOT — staleness · predictions · catalysts · watch · incidents · matrix/map · KEV · 8-K 1.05")
     print("=" * 74)
     rcs = []
     print("\n--- 1. ledger staleness (workbook + TRADE.md) ---")
@@ -374,8 +422,9 @@ def main():
                       ("3. catalysts-due (docket/CATALYSTS.tsv: today · ≤2d · past)", catalysts_due),
                       ("4. escalation watch (Class 2 tokens · 7-day re-check)", escalation_watch),
                       ("5. incidents (enums · 14-day re-check of unconfirmed rows)", incidents),
-                      ("6. CISA KEV (watched CVEs on live rows)", kev),
-                      ("7. SEC 8-K Item 1.05 (material cyber incidents)", edgar_105)):
+                      ("6. convergence matrix + transmission map (scores · tokens · orphans)", matrix_and_flow),
+                      ("7. CISA KEV (watched CVEs on live rows)", kev),
+                      ("8. SEC 8-K Item 1.05 (material cyber incidents)", edgar_105)):
         print(f"\n--- {title} ---")
         rc, lines = fn()
         print("\n".join(lines))

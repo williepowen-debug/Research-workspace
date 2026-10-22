@@ -38,7 +38,7 @@
 | 1 | `PROME/ROSTER.md` | ⏳ PROME — Tier-2 row; text proposed in `PROME/inbox/2026-10-22_from-DAEDALUS_CYPHER-built-registration-changelist.md` |
 | 2 | Root `CLAUDE.md` | NO-OP expected (carries no roster list or chain) — PROME verifies by grep |
 | 3–6 | `AGENTS.md` · `_INDEX.md` · `_NETWORK.md` · group pages | ⏳ PROME applies; exact text in the packet. `_NETWORK.md` edges are routes = ownership → Will via PROME. Group page: `_SYNTHESIS_OPS.md` proposed; the other four NO-OP |
-| 7 | WALTER routing | ⏳ WALTER drafts FORMAT_SPEC code + ROUTING_TABLE row for Will's sign-off (its stated follow-on); boundaries packet in WALTER inbox |
+| 7 | WALTER routing | ✅ **LIVE per WALTER, 57dfdc4da (local at report time)** — Will approved the draft in WALTER's terminal; FORMAT_SPEC v0.26 `CYBER` → CYPHER; ROUTING_TABLE v0.45 row: CYPHER action (Tier 2, spawn), REGINALD backup, info REGINALD · SHADE · VULCAN · RED + channel owners per the charter table; PRIORITY default, IMMEDIATE on a FIRED watch row or a named bank / core-vendor / payment victim; REGISTRY mirror row. WALTER's claim — DAEDALUS has NOT yet verified at WALTER's files. ⚠️ Until CYPHER's first session drains `inbox/WALTER/`, REGINALD is backup |
 | 8–9 | `FLEET_MAP.tsv` + directory | ⏳ DAEDALUS, AFTER ROSTER (PAT-047) |
 | 10–11 | Peer seams + consumer handoffs | **DEFERRED to CYPHER's first session by charter** (FIRST LIVE SESSION item 3: one boundary packet per consequence owner, incl. GIBBS's NO-OWNER cyber/custody row). Reason: WALTER's packet says the owners settle the boundaries; the desk negotiating its own seams is the durable form. Named deferral, owner CYPHER |
 | 12 | DAEDALUS script registries | ✅ no edit — Market default, not SKIP (`maturity_scan` picks it up) |
@@ -50,3 +50,17 @@
 ## 4. Honest ceiling
 
 **L0 at birth.** `maturity_scan` reads **L2** on structure; the L1 leg needs a current judgment (reading B) and CYPHER's says *NONE YET*. Every seeded row is a copy of WALTER's or DEWEY's read, marked so; Basis cells say whose check it was. Recorded rather than resolved by picking the flattering number (GIBBS/FLG precedent).
+
+## 5. Addendum, same evening — architecture parity pass (Will 18:4x ET: "yes plase go ahead")
+
+Will asked whether CYPHER lacked architecture other desks have. Measured against all 32 Market desks' file trees, three real gaps were found and filled; the rest were create-on-use or deliberately deferred.
+
+| Gap (fleet share) | Filled with | Notes |
+|---|---|---|
+| Convergence matrix `workbook/VX.tsv` (23/32) | 9 vectors, one per financial channel; universal 1–5 Score, Kind MECHANISM/THERMOMETER, Independence, PROVISIONAL GREEN/YELLOW/ORANGE/RED bands keyed to INCIDENTS/WATCH states | **Every Score `UNKNOWN`** — a seeded score would be the architect's judgment in the desk's name. Composite = MECHANISM rows only (equity reaction is a THERMOMETER); exploitation tempo is the shared antecedent, counted once |
+| Transmission map `workbook/FLOW.tsv` (24/32) | 19 mechanisms keyed to vectors, seeded from DEWEY REQ-008 via KB-CYP rows: 5 CONFIRMED · 7 NOT-OBSERVED · 2 MODELED · 5 UNTESTED (counted from the file) | Three UNTESTED rows carry builder-knowledge precedents (ICBC FS 2023, NotPetya exclusions, 2013 AP hack) flagged verify-before-cite |
+| Shipped tests (24/32 have `scripts/`) | `scripts/test_boot.py` — 25 unittest drills (the 22 scratchpad drills + matrix/map), throwaway copies, md5 teardown | **Mutation check:** counting the THERMOMETER in the composite failed 2 tests (composite + clean-all); restored byte-identical (cmp) |
+| `boot.py` | New leg 6 matrix + map (score/kind/state tokens, orphan flows, UNSCORED = REVIEW, composite printed when complete); KEV → leg 7, 8-K → leg 8 | Real boot rc 1: CYB-INC-001 re-check + 9 vectors UNSCORED — both true |
+| Charter byte budget | Charter reached 25,291 B (78% of 32,550 B — past the 75% trigger DAEDALUS flagged on four bank charters today). `FIRST_SESSION.md` and `DATA_ROUTES.md` moved out verbatim (pointers left; leg numbers in the moved routes table corrected and noted) → **22,775 B (70%)** | read_cap rc 0; FIRST_SESSION.md picked up as a boot read (7%) |
+
+**Deliberately deferred:** `NEXUS_BRIEF.md` (26/32) — written at the first session, GIBBS precedent; NEXUS cannot see CYPHER until then. **Create-on-use, not gaps:** `registry/`, `archive/`, `research/`, `reports/`, `LAST_COMPLETION.md`. **Local habit, not required:** LESSONS / MEMORY / SCRATCH; `thesis/` (event desk, no thesis). **Outside the desk:** no `PROME/registry/READS.tsv` declaration yet — read_cap reports "clean within what the scan found", not a clean bill.

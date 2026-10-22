@@ -2,7 +2,7 @@
 
 **Last Updated: 2026-10-22 — built by DAEDALUS (Claude Code, claude-opus-5-5); CYPHER has not yet run a session.**
 
-> 🆕 **FIRST-LIVE-SESSION BANNER — UNSPENT.** Your first session is `CLAUDE.md` § FIRST LIVE SESSION (PROME spawn; date is PROME's — requested within 1–2 days because WAVE-2026-10 is open). Strike this banner when that list is done.
+> 🆕 **FIRST-LIVE-SESSION BANNER — UNSPENT.** Your first session is `FIRST_SESSION.md` (pointer at `CLAUDE.md` § FIRST LIVE SESSION) (PROME spawn; date is PROME's — requested within 1–2 days because WAVE-2026-10 is open). Strike this banner when that list is done.
 
 ## Current judgment
 
@@ -21,6 +21,10 @@
 | 7 | Government state attribution | NOT-FIRED |
 | 8 | Bank / payment outages outside Japan | NOT-FIRED |
 | 9 | Sustained equity move | NOT-FIRED — day 1–2 only; test date 2026-11-18 |
+
+## Convergence matrix (canonical: `workbook/VX.tsv`)
+
+**UNSCORED — by design.** Nine vectors framed with provisional bands; every Score is `UNKNOWN` until your first session scores them (boot.py leg 6 reports REVIEW until then). Transmission map `workbook/FLOW.tsv`: 19 mechanisms seeded from DEWEY — 5 CONFIRMED, 7 NOT-OBSERVED (incl. deposit run and bank failure, 0 of 5 waves), 2 MODELED, 5 UNTESTED (counted from the file at build).
 
 ## Standing conditions
 

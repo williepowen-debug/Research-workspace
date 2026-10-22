@@ -14,7 +14,7 @@
 2. **Critical semantics:** "no compromise confirmed" is **weak evidence**, not an all-clear. A low-footprint exploit (CrowdStrike lab finding on PHP2Shell) and pre-disclosure exploitation are the MOVEit/SolarWinds shape, where the victim list surfaced weeks later. `ATTEMPTS-ONLY` never becomes "no damage" in your text.
 3. **Git:** cwd-proof ops from repo root · pathspec-only commits (`AGENTS/CYPHER/…`) · **no push when spawned** — coordinator sweeps.
 4. **Deliver before idle, BOTH halves:** files written + committed AND coordinator notified (SendMessage). Never idle "holding."
-5. **Freshness gate:** `python3 "$(git rev-parse --show-toplevel)/AGENTS/CYPHER/boot.py"` — wall clock · ledger staleness · predictions-due · catalysts-due · escalation watch · incident re-checks · CISA KEV · SEC 8-K Item 1.05, one verdict.
+5. **Freshness gate:** `python3 "$(git rev-parse --show-toplevel)/AGENTS/CYPHER/boot.py"` — wall clock · ledger staleness · predictions-due · catalysts-due · escalation watch · incident re-checks · matrix/map · CISA KEV · SEC 8-K Item 1.05, one verdict.
 6. **⏰ WALL CLOCK:** boot.py prints it first. Never hand-write a time or weekday — copy that line.
 
 ---
@@ -25,7 +25,7 @@
 2. `python3 "$(git rev-parse --show-toplevel)/AGENTS/CYPHER/boot.py"` — rc 1 = REVIEW: work flagged items before new research (root rule #8). rc 2 = a leg could not certify; check it by hand, never read it as quiet.
 2b. **R1 corrections check:** `python3 "$(git rev-parse --show-toplevel)/scripts/corrections_boot_check.py" CYPHER` — §9 rc 0/1/2; rc 1 = a NAMED correction is unreceipted: read the pointer, then `--receipt <id> --action <APPLIED|NO-OP|DEFERRED>` with the fields the writer requires, and commit `registry/corrections_receipts.tsv`.
 3. Process `inbox/` (and `inbox/WALTER/` if present) per `inbox/PROTOCOL.md`. WALTER intake follows `AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md` §8.1: search each signal_id with `grep -F` in `board_log.tsv`, read/disposition every unrecorded delivered signal, append timestamp_read/signal_id/disposition/source/notes, integrate and commit before `git mv` to `inbox/WALTER/processed/`.
-4. Read `STATUS.md`. **If its FIRST-LIVE-SESSION banner is present, § FIRST LIVE SESSION below is your session.**
+4. Read `STATUS.md`. **If its FIRST-LIVE-SESSION banner is present, `FIRST_SESSION.md` is your session — read it whole.**
 5. Execute the task. Write back: `workbook/INCIDENTS.tsv`, `workbook/ESCALATION_WATCH.tsv`, STATUS + BOTTOM LINE, `NEXUS_BRIEF.md` (last write-back, after the final STATUS commit; schema `AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md`; STATUS hash in the header — `python3 "$(git rev-parse --show-toplevel)/scripts/brief_pin_check.py"` must print OK for CYPHER).
 6. Closeout per root `CLAUDE.md` §Git Protocol (1b orphan · 1c consumer · 1c-bis ledger · 1d memory · 1e claim), then auto-push unless spawned.
 
@@ -106,17 +106,18 @@ DEWEY's REQ-008 recommended **a mechanical watch run by WALTER, not a standing d
 
 ---
 
-## DATA ROUTES (reachability recorded at build, 2026-10-22)
+## CONVERGENCE MATRIX + TRANSMISSION MAP
 
-| Route | State at build | Use |
-|---|---|---|
-| **CISA KEV catalog JSON** (`cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json`) | **REACHABLE** — v2026.10.21, 1,754 entries, read 22:3x UTC | Row 2 (confirmed in-the-wild exploitation). `boot.py` leg 6 |
-| **SEC EDGAR full-text search** (`efts.sec.gov/LATEST/search-index`, `"Item 1.05"`, form 8-K) | **REACHABLE** (needs a contact User-Agent) — 0 hits 10/15–10/22; positive control 41 in 2024, 18 in 7/01–10/22/2026 | Row 4 (material cybersecurity incident, legally required). `boot.py` leg 7 |
-| NVD API 2.0 | REACHABLE (DEWEY pulled Q3 counts) | Disclosure volume. ⚠️ NVD's 2026 severity counts are unusable (scoring backlog): never cite a 2026 "critical CVE" count |
-| Vendor advisories · CERT/NCSC pages · Mozilla Bugzilla | Mixed per host | Event confirmation |
-| Verisk PCS cyber catastrophe designations | ⛔ subscription — expect `MIRROR-WALLED` | Row 6 (SHADE's consequence) |
-| NYDFS industry alerts | 403 to DEWEY on 10/22 | Row 5 — **data an LLM may not reach; tell Will before spending a session on it** |
-| X / social posts | Leads only | Never confirmation (guardrail 3) |
+- **`workbook/VX.tsv` — the fleet-comparable handle (blueprint §2).** Nine vectors, one per financial channel (bank / core vendor · payment and market infrastructure · insured-loss aggregation · energy-maritime-grid OT · software supply chain and trust · exploitation tempo · equity reaction · state-actor campaign · information integrity). Each carries the universal **1–5 score** (or `UNKNOWN`, Class 5), an **Independence** cell and GREEN/YELLOW/ORANGE/RED bands keyed to INCIDENTS / ESCALATION_WATCH states.
+- **Scores are your judgment** — the build shipped every row `UNKNOWN`, and `boot.py` leg 6 reports REVIEW until each is scored. The bands are the builder's PROVISIONAL proposal: confirm or re-cut them at your first session; no gate is registered on them.
+- **Composite = MECHANISM rows only**, transparent arithmetic (`Total 14/40`). `VX-CYP-07` equity reaction is a **THERMOMETER** — scored for display, never added (mechanism-vs-thermometer, blueprint §7). **Exploitation tempo (`VX-CYP-06`) is the common antecedent of the bank, payment and insurance rows inside one wave** — never count it and its downstream rows as independent confirmations; report the shared-root-adjusted total beside the raw one.
+- **`workbook/FLOW.tsv` — which mechanisms have actually transmitted.** One row per mechanism, keyed to a vector, state `CONFIRMED` · `NOT-OBSERVED` (0 instances in a named sample — a base rate, not a proof) · `MODELED` · `UNTESTED`. Seeded from DEWEY REQ-008. A `NOT-OBSERVED` row flips to `CONFIRMED` on one documented instance — record it in the same edit; that flip is the most important thing this desk can report.
+
+---
+
+## DATA ROUTES
+
+Reachability per route (CISA KEV and SEC full-text search REACHABLE at build; PCS subscription; NYDFS 403) and its use: **`DATA_ROUTES.md`** — read it before any pull. **Data an LLM cannot reach is named there; tell Will before spending a session on it.**
 
 ---
 
@@ -166,16 +167,9 @@ Delivery: write the packet into the recipient's `inbox/` and **commit it yoursel
 
 ---
 
-## FIRST LIVE SESSION (PROME spawn — date is PROME's; requested within 1–2 days because WAVE-2026-10 is open)
+## FIRST LIVE SESSION
 
-1. **Re-verify every seeded row** in `INCIDENTS.tsv` and `ESCALATION_WATCH.tsv` at its primary; correct the `Basis` cells to what YOU checked; re-date `Last_Checked` / `State_As_Of`. Seeds are copied from WALTER signals and DEWEY's report, not checked by you.
-2. **Log the nine seed signals in `board_log.tsv`** (source `SEED-AT-BUILD`, disposition per signal); read each at `BOARD/<signal_id>-*.md`.
-3. **Boundary confirmation** with each consequence owner (REGINALD · GIBBS · SHADE · VULCAN · FALCON · BRENT · WATT · HENRY · LIQUID · BOND · OTTO): one packet each, stating the rows and classes you will hand them. GIBBS's exclusions register lists "operational / cyber / custody outage" as NO OWNER — tell it the event now has an owner; the consequence routing (LIQUID first) stays as GIBBS wrote it.
-4. **Bidirectional flip** for WAVE-2026-10 into `EXIT_PROTOCOL.md` R1; re-stamp it.
-5. **Read the leads the builder did not:** River Financial Corp 8-K Item 1.05 filings of 2026-07-06 and 2026-07-17 (a US bank holding company; found by the build's EDGAR control query, unread) · NYDFS PHP2Shell alert · Dutch NCSC "first signs of successful misuse" primary.
-6. **Ask PROME** to register `docket/CATALYSTS.tsv` in `SUMMONS_LEDGERS`, and to carry a DOCKET row for the open wave.
-7. **Create `NEXUS_BRIEF.md`** (schema above), pinned to your STATUS hash.
-8. **Write back:** STATUS (strike the banner) + BOTTOM LINE · consequence-owner packets · PROME COMPLETION memo.
+While the STATUS banner is present, your session is the list in **`FIRST_SESSION.md`** (read it whole). PROME sets the date; requested within 1–2 days because WAVE-2026-10 is open.
 
 ---
 
@@ -183,7 +177,7 @@ Delivery: write the packet into the recipient's `inbox/` and **commit it yoursel
 
 - **Output canon → root `CLAUDE.md` §Output Canon** (tables > prose, numbers > narrative, source + date every claim, file > verbal).
 - **STATUS.md ≤250 lines and under the 32,550 B read budget**, REWRITTEN not prepended. At ≥75% (24,412 B) rotate oldest history blocks **verbatim, crc-at-rotation, contiguous-only** into `archive/STATUS_ARCHIVE_<date>.md` until <70% — rotation, never deletion. Check: `python3 "$(git rev-parse --show-toplevel)/scripts/read_cap_check.py" --agent CYPHER`. Ends with **BOTTOM LINE**.
-- Convergence state, once you have one, carries the universal **5-pt score + Independence column** beside any richer local state (blueprint §2). ⚠️ Incidents in one wave share a root (one flaw, one actor) — count them once.
+- Convergence state lives in `workbook/VX.tsv` (universal 5-pt score + Independence column, § CONVERGENCE MATRIX). ⚠️ Incidents in one wave share a root (one flaw, one actor) — count them once.
 - State-bearing cells use `AGENTS/DAEDALUS/BLUEPRINTS/STATE_VOCABULARY.md` tokens; desk-local enums are declared in each ledger's header; cost-bearing text follows `BLUEPRINTS/STRICT_TEXT.md`.
 - Ledgers carry **two-clock freshness headers** (`Last real data refresh:` / `Staleness sweep:`); `docket/CATALYSTS.tsv` carries NONE (PROME's reader takes the first line as the header). TSV appends go through `scripts/tsv_append.py` or Python — never bare shell `printf`/`echo`.
 - Any check or tool you ship follows `BLUEPRINTS/CHECK_STANDARD.md` — watch the alert line on a capable case AND the clean line on a clean case.
@@ -198,8 +192,13 @@ Root `CLAUDE.md` §Git Protocol owns the rules — cite, don't restate. Pathspec
 
 | File | Role |
 |---|---|
-| `STATUS.md` | Live state; its banner is the authority on whether § FIRST LIVE SESSION still applies |
-| `boot.py` | Boot instrument: wall clock · staleness · predictions-due · catalysts-due · escalation watch · incident re-checks · KEV · 8-K Item 1.05. rc 0 quiet / 1 REVIEW / 2 leg failed |
+| `STATUS.md` | Live state; its banner is the authority on whether `FIRST_SESSION.md` still applies |
+| `FIRST_SESSION.md` | One-time first-session list; spent when the STATUS banner is struck |
+| `DATA_ROUTES.md` | Reachability and use of each data route; re-record when a route changes |
+| `boot.py` | Boot instrument: wall clock · staleness · predictions-due · catalysts-due · escalation watch · incident re-checks · matrix/map · KEV · 8-K Item 1.05. rc 0 quiet / 1 REVIEW / 2 leg failed |
+| `scripts/test_boot.py` | Drill suite for `boot.py` (alert, clean and failure path per leg, on throwaway copies; real files md5-checked). **Run it after any `boot.py` edit**, before commit |
+| `workbook/VX.tsv` | Convergence matrix; Score / Kind / band enums and the composite rule in its header; `As_Of` is each row's vintage |
+| `workbook/FLOW.tsv` | Transmission map; State enum in its header; every row keyed to a VX vector |
 | `TRADE.md` | Declared no-book surface; its banner states the re-arm condition |
 | `workbook/INCIDENTS.tsv` | The incident ledger; enums in its header; `Last_Checked` is each row's vintage |
 | `workbook/ESCALATION_WATCH.tsv` | Nine rows per wave; `State_As_Of` is each row's vintage |
