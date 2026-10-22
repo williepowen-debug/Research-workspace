@@ -238,6 +238,22 @@ def verify(sc, manifest, paths=None, ref=None, snapshot=None):
         # Always discover full working/history inventory, even for an explicit path list.
         # Historical dependencies pin their named commit, not the live pathname.
         auto = attributed_by_commit(sc, c['baseline'], seen, delivered) if 'attributed_by_commit' in manifest else {}
+        # Will 2026-10-22 12:34 ET ("we need to change these rules"): on a WORKING-TREE verify, a PENDING path that is
+        # neither OWNED nor PROME-evidenced is another owner's live work — advisory, never blocking. The delivery
+        # commit (--ref) is still verified by its actual paths. Acceptance: ACCEPTANCE_closeout_gate_foreign_pending_2026-10-22.md
+        advisories = []
+        try:
+            rules = sc.load_perimeter()
+            subjects = sc.commit_subjects(c['baseline'])
+        except SystemExit:
+            rules = subjects = None
+        def foreign_pending(path, state):
+            if rules is None or not state['pending'] or path in delivered:
+                return False
+            if sc.classify(path, rules)[0] == 'OWNED':
+                return False
+            entry = {'path': path, 'committed': [x[:9] for x in state['commits']], 'pending': list(state['pending'])}
+            return not sc.authorship_evidence(entry, subjects)
         for path, state in seen.items():
             if path in delivered | current_deps or ((path, state['working_sha256']) in historical_deps
                                                    and (path, state['commit_sha256']) in historical_deps):
@@ -254,7 +270,10 @@ def verify(sc, manifest, paths=None, ref=None, snapshot=None):
                 require(checked['basis'] == entry['basis'], f'{path}: attribution basis changed')
                 matched = True
             if not matched:
-                errors.append(f'UNCLASSIFIED: {path} (new or changed observed version)')
+                if target is None and foreign_pending(path, state):
+                    advisories.append(f'FOREIGN-PENDING (advisory): {path} — another owner\'s live file, not in PROME\'s delivery')
+                else:
+                    errors.append(f'UNCLASSIFIED: {path} (new or changed observed version)')
         if paths is not None:
             for path in set(paths) - delivered - sc.RECEIPT_PATHS:
                 errors.append(f'UNREVIEWED DELIVERY PATH: {path}')
@@ -276,8 +295,8 @@ def verify(sc, manifest, paths=None, ref=None, snapshot=None):
                 if not any(r['snapshot']['commit_sha256'] == content for r in records):
                     errors.append(f'UNCLASSIFIED SNAPSHOT PATH: {path}')
         if errors:
-            return 1, errors
-        return 0, [f'contract {digest(c)} unchanged; verdict {manifest.get("verdict")}; '
+            return 1, errors + advisories
+        return 0, advisories + [f'contract {digest(c)} unchanged; verdict {manifest.get("verdict")}; '
                    f'delivery {delivery or "working tree"}; snapshot {target or "working tree"}; '
                    f'{len(seen)} inventory paths retained, unrelated content not certified']
     except (ValueError, KeyError, TypeError, AttributeError, OSError, subprocess.CalledProcessError) as exc:
