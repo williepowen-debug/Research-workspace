@@ -11,6 +11,9 @@
 **SENDING:**
 | To | Signal | Priority | Mechanism |
 |---|---|---|---|
+| OSPREY / BRENT / LIQUID | **Black Sea war risk REPRICED at broker grade** in the RIO window: BPG 0.2–0.5% → 0.6–1.0% of vessel value (10/09), Marelis 0.1% → 0.5%. **C3 limb 2 NOT SATISFIED; no C3 kill 10/27** (KB-449). General transit, not Russian-port tankers | P1 | Insurer primaries unmeasured; TD6/TD19 tripwire fired (freight) |
+| BRENT / CARL / MARCO | **Canada S338 auto duties now stack on 232 from 9/15** (P.11065), plus import bans from 9/29. The 8/22 "0% autos" read is stale (KB-447) | P2 | Federal Register primary; annex lines unread (TIFF) |
+| BRENT / FALCON / PROME | **N6:** October STEO reads EXTENSION (OPEC Apr–Jun 2027 1.78 vs 2.38; ME 1.75 vs 2.35). The no-spare-capacity window runs through March 2027 (KB-448) | P2 | EIA forecast, not a measured balance |
 | BRENT / HENRY / LIQUID | **Combined oil-risk read:** flows near or above prewar while the premium rises. The conversion path to physical loss = a counting-source hit on a Saudi crude-processing unit (FALCON D 85→92) or a US strike on Kharg (reported options, no decision) (KB-HAWK-440) | P1 | FLOW-HAWK-19. The flow figure is single-source; BRENT owns price and balances |
 | ALL (via NEXUS) | **The sanctions split widened:** the US eases Russia (Graham Act waiver 10/16, with s.4(b) keeping the old EO measures; GL 135 diesel cargoes moving) and tightens Iran (26 targets 10/15–16, Karnakis network 10/21). France boarded DF Peak south of Réunion 10/12, the first boarding outside European waters on this record (KB-436/437) | P2 | Legal relief is not supply. A boarding is not a seized quantified cargo |
 | OSPREY / HANS | **EURMIL ORANGE holds:** Russia-attributed hits on merchant ships in the Romanian/Bulgarian EEZs (10/5, 10/6, 10/13). Bulgaria *considered* Article 4; Radev said no grounds, and none was requested (KB-439) | P2 | An Article 4 REQUEST fires RED (a) |
@@ -20,7 +23,7 @@
 **WAITING FOR:**
 | From | Input | Expected by | Why it matters | Change condition |
 |---|---|---|---|---|
-| OSPREY | Dated in-window Black Sea war-risk canvass (10 outlets, an outlet-free query and TD6) | **Mon 10/26** (osprey-85 commitment, 10/21) | C3 limb 2; no C3 kill on 10/27 without HAWK's grade | Any insurer/P&I act or print dated ≥10/06 |
+| OSPREY + HAWK | C3 limb-2 qualifier draft (SCOPE vs CAUSE), per WQ-470 RULED A | after 10/27 | The canvass was graded 10/21: NOT SATISFIED, so C3 holds at 3 (KB-449) | The adopted text goes to Will via PROME |
 | YURI | YUR-004 grade (DOCKET L432) | 10/31 (backfills to 11/02) | HAWK's posture leg is written (KB-445) | A public mobilisation act in window |
 | FALCON | Post-10/11 Gulf war-risk quote | next FALCON session | Hormuz 6–10% (~10/06) pre-dates the worst week | Any dated quote after 10/11 |
 
@@ -38,7 +41,7 @@
 ## CALIBRATION
 
 - **Conviction:**
-  - "Premium, not barrels" is medium: it rests on one secondary flow relay plus ORACLE's gauge.
+  - "Premium, not barrels" is medium: on the VOLUME basis BRENT reconciled (Kpler ~14 mb/d, week to 10/18; PortWatch is an AIS lower bound, KB-450). The October-week volume is relayed only.
   - The escalation-risk direction is medium-high: several independent posture moves on one day.
   - The scope of the departure order is unresolved.
 - **Counter-signal to my own read:** a ~18% Hormuz shortfall offset by higher bypass and non-Hormuz flows can still hide a tight crude grade or a tight product market. "Flows at prewar" is not "no shortage".
@@ -49,7 +52,7 @@
 
 ## NEXT DECISION POINT
 
-**10/23:** VEN/TWN/TWNMIL/CODIF re-sweeps due. TRADE-02 is overdue (60 days). **Before 10/27:** grade OSPREY's C3 canvass. **10/31:** HAW-20 resolves and the HAW-22 window closes. **11/3:** midterms; Trump's no-strike pledge ends. **11/9–10:** trade measures lapse. No Will decision open from this desk.
+**Done 10/21:** dormant re-sweeps (TRADE-02/VEN/TWN/TWNMIL/CODIF), N6, and the C3 canvass grade. **10/25:** TRADE-01 cadence. **After 10/27:** C3 qualifier draft with OSPREY (WQ-470). **10/31:** HAW-20 resolves and the HAW-22 window closes. **11/3:** midterms; Trump's no-strike pledge ends. **11/9–10:** trade measures lapse. No Will decision open from this desk.
 
 ## WATCH
 

@@ -43,16 +43,15 @@
    - Both aggregates regenerated after FALCON's 10/21 commits; `derived_freshness` PASS.
 7. ⚠️ **SKIPPED:**
    - 13b (FALSIFICATION refresh): not re-read.
-   - LESSONS rotation (`rotation_due=1`): deferred again.
-   - Dormant re-sweeps: bounded checks only.
+   - (LESSONS rotation and dormant re-sweeps were deferred in pass 1, then DONE in the third pass.)
 
 ## NEXT SESSION (dated, future-verifiable)
-1. 🔴 **Mon 10/26 → 10/27: grade OSPREY's C3 limb-2 canvass** the session it lands. If it hasn't landed by 10/26 evening, message OSPREY; silence is never a pass. An unreachable outlet is UNMEASURED, not negative.
+1. 🔴 **After 10/27: draft the C3 limb-2 qualifier WITH OSPREY** (WQ-470 RULED A, Will 21:30 ET). HAWK brings SCOPE (Russian-port tanker calls); OSPREY brings CAUSE; decide in the draft, then PROME presents it to Will. The canvass itself was graded 10/21: NOT SATISFIED (KB-449).
 2. 🔴 **By 10/31: grade HAW-20** (all four legs at primaries: Section 301, Section 338, the Majlis toll bill, the Mecca pact). Then close out the HAW-22 event window (10/31).
-3. 🟠 **By 10/23: re-sweep VEN/TWN/TWNMIL/CODIF** (45-day cadence), and **TRADE-02 now** (60 days). Test both adjacent band boundaries (LESSONS 2026-09-28).
+3. 🟠 **Done 10/21 (third pass):** TRADE-02, VEN, TWN, TWNMIL and CODIF re-swept (KB-447/451); N6 Sep + Oct run (KB-448); LESSONS rotated. Next dormant cadence: **TRADE-01 due 10/25**. Gates still open: SOUTHCOM/DoD (VEN military), MOEA/CPC (TWN fuel days), mnd.gov.tw (TWNMIL), Majlis Persian primaries (toll bill), Canada Gazette.
 4. 🟠 **10/31: give YURI's L432/YUR-004 grade HAWK's posture leg** (written 10/21, KB-445). Re-read it if YURI's state moves.
 5. 🟠 **TRADE-01, 11/9–10:** three US measures lapse with nothing on record extending them. Check the Federal Register before 11/9.
-6. 🟡 N6 October STEO observation (owed since 10/06). EURMIL full checkpoint (backstop 11/02). LESSONS rotation.
+6. 🟡 EURMIL full checkpoint (backstop 11/02). N6 repeats at the November STEO (EXTENSION branch fired 10/21). **HAW-20 10/31: rule explicitly on the S338 Part B scope cut vs the letter** (KB-451).
 
 ## OPEN THREADS / WATCHES
 - 🔴 The post-11/3 window: Kharg options, the third carrier arriving by end-November, the embassy drawdown. Verify the departure order's scope at State Dept primary (Reuters vs AFP conflict).
