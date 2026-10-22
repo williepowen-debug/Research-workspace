@@ -79,6 +79,8 @@
 
 50. **Run the foreign-dirty check in the SAME command as every push, not once per session.** 10/22: `2cc46ac81` (PRIORITY 005) went out via safe-push while PROME's ORCH files were dirty; the clean-tree check from the earlier IMMEDIATE push had expired, and a concurrent desk's closeout can start minutes later. `git status --porcelain | grep -v '^.. AGENTS/WALTER/'` empty, then push; otherwise defer and hand the commit to that desk's push. → CLAUDE.md step 16 · BOARD_CONSUMPTION_SPEC §7
 
+51. **Every commit names its paths: `git commit -F msg -- <exact paths>`, never `git add …` then a bare `git commit`.** 10/22 midday: with PROME's catch-up desks live, `5854ecb98` and `6de88b6bc` swept OZK/REGINALD/PROME staged `processed/` moves and an OZK research thread into WALTER commits. A clean `git add` list does not make the index yours; other sessions stage into it continuously. Not rewritten (procedure 4b); PROME told. → `docs/GIT_WORKTREE_PROCEDURES.md` 4c
+
 **✅ RETIRED 2026-09-01 — the two-branch-test-sharing-a-premise finding (2026-08-03) is PLACED:** PROME landed it as the n=5 extension of `[[finding_enumerated_mechanism_test_hides_a_completeness_claim]]` (8/31 night, packet filed to WALTER 9/1) and the test now sits in bold in `FORGE/PREDICTION_DISCIPLINE.md` § Registration. *(Was: "owed, not placed — WALTER cannot file to a PROME-owned surface." The obligation discharged the way it was supposed to: a packet, then the owner's write.)*
 
 ## References
