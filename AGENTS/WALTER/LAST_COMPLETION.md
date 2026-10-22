@@ -1,10 +1,10 @@
-# WALTER LAST_COMPLETION — October22 morning LIGHT checkpoint (full deferred)
+# WALTER LAST_COMPLETION — October22 morning FULL closeout
 
-Updated 2026-10-22T14:06:47Z. Will-launched morning boot ("please boot up", 07:37 ET), then Will's credit/CRE questions; Will held desk wakes at 10:05 ET because he is switching machines and asked for routing to inboxes plus WALTER file updates. Prior version preserved verbatim: research/2026-10-22_boot/prior-LAST_COMPLETION.md (sha256 c92da2cf…). Evidence: research/2026-10-22_boot/.
+Updated 2026-10-22T14:16:21Z (FULL, Will's word 10:11 ET "yes run full close out"; LIGHT checkpoint 14:06:47Z preceded it). Will-launched morning boot ("please boot up", 07:37 ET), then Will's credit/CRE questions; Will held desk wakes at 10:05 ET because he is switching machines and asked for routing to inboxes plus WALTER file updates. Prior version preserved verbatim: research/2026-10-22_boot/prior-LAST_COMPLETION.md (sha256 c92da2cf…). Evidence: research/2026-10-22_boot/.
 
 ## STATUS (10/22 morning)
 
-LIGHT checkpoint, full deferred. Boot PARTIAL: doctor 0 HIGH / 14 MED; READS attestation stale since 10/12 (reads_check RC 2); boot_basis_check REVIEW on 10 changed dependencies, not reviewed; owner STATUS context read as lead lines only (FILTER_SPEC asks 30–50 lines); Iran guard corpus read by relevant blocks, not whole. Executed: sync, doctor, STATUS/anchor/MEMORY/LAST_COMPLETION/REGISTRY/ROUTING whole, four threshold families + scan on pulled legs (no fire), BOARD diff (0 new before dispatch), event window CLOSED, DEWEY 0, inbox 7g (VULCAN + 2 HENRY consumed), intake 0 NEW, dropzone 0, X bookmarks 6 marked, REGISTRY 13 rows refreshed, LIAISON/REQ, corrections PASS, ORCH_INFLIGHT whole + ListAgents.
+FULL closeout. Boot PARTIAL (unchanged by the closeout): doctor 0 HIGH / 14 MED; READS attestation stale since 10/12 (reads_check RC 2); boot_basis_check REVIEW on 10 changed dependencies, not reviewed; owner STATUS context read as lead lines only (FILTER_SPEC asks 30–50 lines); Iran guard corpus read by relevant blocks, not whole. Executed: sync, doctor, STATUS/anchor/MEMORY/LAST_COMPLETION/REGISTRY/ROUTING whole, four threshold families + scan on pulled legs (no fire), BOARD diff (0 new before dispatch), event window CLOSED, DEWEY 0, inbox 7g (VULCAN + 2 HENRY consumed), intake 0 NEW, dropzone 0, X bookmarks 6 marked, REGISTRY 13 rows refreshed, LIAISON/REQ, corrections PASS, ORCH_INFLIGHT whole + ListAgents.
 
 ## CHANGED (10/22 morning)
 
@@ -13,19 +13,23 @@ LIGHT checkpoint, full deferred. Boot PARTIAL: doctor 0 HIGH / 14 MED; READS att
 - X bookmarks: older-continuation 2 NO-ACTION (one X Article unreadable via oEmbed and unlocker); head scan 4 (2 DISPATCH → 002/003, 2 NO-ACTION); BM-20261022-07 CLOSED 4/4; follow-ups research/2026-10-22_boot/FOLLOW-UPS.md. Head check 2026-10-22T11:42:21Z.
 - REGISTRY Updated/Focus: 13 rows moved to 10/21 from owner headers (11:47:30Z); 7 unparsed kept prior cells.
 - STATUS bottom line / credit / volatility / network lines refreshed; SESSION_LOG light breadcrumb prepended.
-- Messages: PROME (boot summary + HENRY wake recommendation; then the HENRY put-wall condition). PROME woke HENRY; HENRY consumed 001/002.
+- Messages: PROME (boot summary + HENRY wake recommendation; then the HENRY put-wall condition; then the deferred-push handoff). PROME woke HENRY; HENRY consumed 001/002.
+- FULL-tier duties: REGISTRY re-read 14:14:28Z (HENRY, LABOR, WALTER) before NETWORK AWARENESS regeneration; STATUS bottom line re-cut, evening paragraph and old network block rotated VERBATIM to SESSION_LOG; FULL SESSION_LOG entry; filter posture unchanged (BALANCED, bank-Q3 LOOSE scope kept for FLG 10/23); Iran anchor 21,584 B under the 24,412 B re-rotate line (dated 10/22 check done).
+- MEMORY: calendar size check done (next 10/29); trigger #50 (foreign-dirty check in the same command as every push); session note replaced; 100 lines. Auto-memory `finding_a_daily_bar_read_after_the_evening_open_belongs_to_the_next_session` instance 5 (foreign equity bar dated today before its exchange closes is intraday); index hook n=4→5 (memory/auto/MEMORY.md 70% of byte cap).
+- Root retirement: three Trepp PDFs (2026-06 DQ, 2026-07 DQ, 2026-07 SS; last change 8/19, not boot-read, no live reference, no pending dated event) git-mv to archive/sources/; the 2026-04 PDF is kept because PROME/reports/2026-10-03_system-improvement-candidates-primary-source-read.md cites it; the 08 PDFs and the 09-08 SKEW CSV are under 60 days.
 
 ## RESULT (10/22 morning)
 
-Publication: fc0e297a8 and ef1d1bda3 fresh-origin-proven by safe-push; the REGISTRY/delivery commit rode ef1d1bda3. 005 and this checkpoint publish at the closing push. Delivered means published, not consumed; consumption evidenced only for HENRY (001/002 processed, two answering packets).
+Publication: fc0e297a8, ef1d1bda3 and 2cc46ac81 fresh-origin-proven by safe-push (the REGISTRY/delivery commit rode ef1d1bda3). The LIGHT checkpoint 2c868040d and this FULL closeout commit are LOCAL, pending: PROME's state files are dirty, so the push is deferred and handed to PROME's closeout push before Will's machine switch. Delivered means published, not consumed; consumption evidenced only for HENRY (001/002 processed, two answering packets).
 
 ## GAPS (10/22 morning, carried)
 
 - **Iran full sweep due 10/22 — NOT run** (last full 10/15). Anchor CURRENT STATE still reads the 10/14 "3 → 5" losses under the 10/21 line.
 - Pending owner reads: REGINALD/CREED on 005; LIQUID on 004; FALCON on 003; VULCAN on 001. Will held wakes (10:05 ET).
 - Watch tonight: H.4.1 discount window 16:30 ET (10/14 point $11.044B); HY 10/21 and 10/22 FRED prints vs REG-T-04; FLG Q3 Fri ~06:00 ET; claims 10/22 print not read by WALTER.
-- MEMORY calendar size check (10/22) and READS/basis review deferred to the next FULL closeout.
-- SKIPPED this checkpoint: root research/source retirement assessment (closeout_run lists it UNVERIFIED); orphan check ADVISORY only (research/2026-10-22_light-closeout/orphans.txt). Both owed at the next FULL.
+- READS attestation (stale since 10/12) and boot_basis REVIEW on 10 changed dependencies remain owed (not done at this FULL).
+- Orphan check ADVISORY only: foreign PROME/state ORCH files dirty, not WALTER's; flagged to PROME by message.
+- FULL check bundle research/2026-10-22_full-closeout/ (rc 2 = UNKNOWN on `reads`): receipt, read-cap, archives, weekdays, versions, memory-index, memory-length, consumer (peer+self, 4505→4305) PASS. doctor 0 HIGH / 6 MED: taxonomy LABOR_DOWN, two historical AMENDMENT-NOTE ids, 20 historical NOTE rows, lane `fred` feed degraded (collector last ran during FRED maintenance; the FRED API itself answered at 12:30Z), ORACLE header unparsed (commit 10/21), aged consumption backlog 4 (2 ACTION: CRUISE, CATO, oldest 3d). Ledger nudge: event-driven ledgers by declaration; CORRECTIONS/BATCH_MANIFEST written today. basis REVIEW and reads UNKNOWN carried above.
 - 20261021-016 (evening correction) carries no `kill_strings:` field, which FORMAT_SPEC v0.22 makes mandatory on corrections; not repaired (post-dispatch immutability; next FULL decides an erratum).
 
 ## STATUS (prior: October21 evening)
@@ -134,12 +138,12 @@ Other gaps, including HANS T12's missing feed and owner-method decisions, remain
 
 ## CLOSEOUT RECEIPT
 
-LIGHT checkpoint 2026-10-22T14:07:38Z before Will's machine switch. Five morning dispatches; 25/25 handoffs published; consumption separate. Boot PARTIAL as carried.
+FULL closeout 2026-10-22T14:16:33Z before Will's machine switch. Five morning dispatches; 25/25 handoffs published; consumption separate. Boot PARTIAL as carried.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-22T14:07:38Z",
+  "as_of": "2026-10-22T14:16:33Z",
   "next_review": "2026-10-23",
   "publication": [
     {
@@ -153,6 +157,10 @@ LIGHT checkpoint 2026-10-22T14:07:38Z before Will's machine switch. Five morning
     {
       "commit": "2cc46ac81",
       "state": "published"
+    },
+    {
+      "commit": "2c868040d",
+      "state": "pending"
     }
   ],
   "delivery": {
@@ -179,22 +187,24 @@ LIGHT checkpoint 2026-10-22T14:07:38Z before Will's machine switch. Five morning
     ]
   },
   "procedure": {
-    "tier": "light",
+    "tier": "full",
     "boot": "PARTIAL",
     "owner": "WILL",
-    "ask": "Will 10:05 ET: hold off waking (machine switch); route the data to agents' inboxes and update WALTER files",
-    "closeout": "LIGHT checkpoint; full deferred (Iran full sweep, NETWORK/registry narrative, MEMORY size check, READS/basis review)."
+    "ask": "Will 10:05 ET: hold off waking (machine switch), route to inboxes, update WALTER files; Will 10:11 ET: 'yes run full close out'",
+    "closeout": "FULL closeout; boot remains PARTIAL (READS/basis owed); Iran full sweep owed."
   },
   "manual_duties": {
     "11": "Five dispatches 001-005 incl. corrections 001 (COR-20261022-01) and 004 (COR-20261022-04) with R1 rows; INDEX regenerated.",
-    "13": "REGISTRY 13 rows refreshed from owner headers 11:47:30Z; 7 unparsed kept prior cells.",
-    "12(a,b)": "BOARD 1594; network line refreshed (LIGHT), full regeneration deferred; 0 cluster_mediating.",
+    "13": "REGISTRY refreshed 11:47:30Z (13 rows) and 14:14:28Z (HENRY, LABOR, WALTER) before 12(b); 7 unparsed kept prior cells.",
+    "12(a,b)": "BOARD 1594; today 5 dispatches, 4 bookmark NO-ACTION kills, 0 cluster_mediating, 0 helpers; NETWORK AWARENESS regenerated from refreshed REGISTRY.",
     "12(c)": "BALANCED baseline retained; no change warranted.",
-    "12(d,e)": "SESSION_LOG light breadcrumb prepended; BOTTOM LINE re-cut.",
-    "14": "DEFERRED to next FULL (MEMORY calendar size check 10/22).",
+    "12(d,e)": "FULL SESSION_LOG entry prepended; BOTTOM LINE re-cut; demoted evening paragraph and old network block rotated verbatim to SESSION_LOG.",
+    "14": "MEMORY calendar size check done (next 10/29); trigger #50 added; session note replaced; 100 lines. Auto-memory finding_a_daily_bar... instance 5, index hook n=5.",
     "15": "Prior LAST_COMPLETION preserved verbatim; carries retained.",
-    "16": "Exact-path commits. fc0e297a8 and ef1d1bda3 pushed under the IMMEDIATE self-exception on a clean tree. 2cc46ac81 (PRIORITY 005) was pushed while PROME/state ORCH files were dirty: outside the standing exception, done for Will's machine switch; commits only, no foreign file touched.",
-    "bookmarks": "6 marked: 2 older NO-ACTION, 4 head (2 DISPATCH, 2 NO-ACTION); head check 11:42:21Z."
+    "16": "Exact-path commits. fc0e297a8 and ef1d1bda3 pushed under the IMMEDIATE self-exception on a clean tree. 2cc46ac81 (PRIORITY 005) was pushed while PROME/state ORCH files were dirty: outside the standing exception, done for Will's machine switch; commits only, no foreign file touched. 2c868040d and the FULL commit deferred (PROME dirty) and handed to PROME's push.",
+    "bookmarks": "6 marked: 2 older NO-ACTION, 4 head (2 DISPATCH, 2 NO-ACTION); head check 11:42:21Z.",
+    "12(f)": "read_cap rc=0; STATUS 46% / MEMORY 61% of budget; rotation_due names PROME's generated ORCH_INFLIGHT only.",
+    "root.retirement": "3 Trepp PDFs (06/07 DQ, 07 SS) git-mv to archive/sources; 04 PDF kept (live PROME report cites it); others under 60 days."
   }
 }
 END_CLOSEOUT_RECEIPT -->

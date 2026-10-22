@@ -1,0 +1,23 @@
+memory_index_check v2 — forward (index → committed file) + coverage (file → index)
+==============================================================================
+  585 slug(s) across both indexes · 75 in MEMORY.md · 510 across 2 cold index file(s): INDEX_COLD.md, INDEX_COLD_EMBEDDED.md
+  585 resolve to committed files · 585 committed memory file(s) on record
+
+  ✓ every index pointer resolves to a committed file, and every committed
+    file appears in exactly one index.
+
+  [HOT-INDEX SIZE]
+    ✓ MEMORY.md 17,964 bytes = 70% of the 25,600-byte cap (warn at 75%).
+
+  [EMBED-PENDING STALE — 2 of 2]  promised >14d ago, not landed.
+    A cold row saying `embed-pending → X` is a promise to X's owner. The row
+    existing is not the embed happening — check the TARGET artifact, not this file.
+      - 83d  ## Tool gotchas — embed-pending → tool headers
+      - 83d  ## Agent-specific pointers — embed-pending → each agent's own CLAUDE.md/boot card (packets 2026-07-3
+
+  [HOOK LENGTH — 1]  advisory (canon ≤80 chars)
+    Long hooks are the measured driver of MEMORY.md's byte growth (~535 B/day).
+    This is the one moment the author is looking — trim now, or leave it and move on.
+      - finding_a_daily_bar_read_after_the_evening_open_belongs_to_the_next_session  (296 chars):  futures daily bar after 14:30 ET is last-trade/next-session, not settle; prev_close too; the vendor may REPLACE the date…
+
+  [SCOPED] gate limited to 1 named slug(s): 0 blocking.

@@ -1,0 +1,31 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/WALTER/   (processed/ + archive/ excluded everywhere — historical by design)
+
+  ── value · superseded 4505 → current 4305
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (18)
+        AGENTS/VULCAN/board_log.tsv:139  [4505]  (needle <5 sig digits)
+           2026-10-21T22:56:38-04:00	SIG-W-20261021-018	acted	INBOX_WALTER	SoftBank -26.2% 10/08->10/22 intraday (own fetch Y4,456); WALTER's 'Y4,505 1
+        AGENTS/VULCAN/LESSONS.md:48  [4505]  (needle <5 sig digits)
+           | L-62 | 2026-10-21 | **A "close" pulled during the session is an intraday print.** WALTER's SIG-018 labelled SoftBank ¥4,505 a 10/22 close 
+        AGENTS/WATT/sources/2026-10-20-news/steo-oct26.txt:21737  [4505]  (needle <5 sig digits)
+           4,505
+        AGENTS/CARL/research/2026-08-27_auto_outflow_split_registration_CHG-RED-049.md:51  [4505]  (needle <5 sig digits)
+           ⚠️ **THE NORMALIZATION IS NOT COSMETIC AND IT REVERSES THE READ.** Raw **dollar** net losses run **5,586K → 4,505K = FALLING**. The pool is 
+        AGENTS/CARL/workbook/KB.tsv:392  [4505]  (needle <5 sig digits)
+           KB-CARL-395	2026-08-27	CREDIT	AMCAR_ABS_extension_rate_instrument	THE SUBPRIME AUTO EXTENSION RATE IS A FREE, PRIMARY, MONTHLY SEC-FILED LIN
+        AGENTS/BRENT/research/2026-10-07_news-catchup/sep26.pdf.txt:22989  [4505]  (needle <5 sig digits)
+           4,505
+        AGENTS/BRENT/research/2026-10-07_news-catchup/oct26.pdf.txt:21737  [4505]  (needle <5 sig digits)
+           4,505
+        AGENTS/BRENT/research/2026-09-09_steo-comparison/sep26.txt:4039  [4505]  (needle <5 sig digits)
+           Pacific .........................  4,461  4,505    4,552    4,558   4,602     4,606      4,629       4,645      4,671     4,704    4,738  4,
+        … +10 more 🟠 hit(s) on [4505] across 17 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+     🟡 in MAIL, point-in-time — usually no action (5: LIQUID, SAM, VULCAN)
+     🟢 cleared: marker-adjacent / next to new value / frozen file (20)  [--show-handled to audit]
+
+  🟠 18 CANDIDATE(s), zero certified-stale. A 🟠 is a prompt to LOOK, never a packet: confirm same series AND unit at the hit, then re-run with --unit/--series for the 🔴 verdict.
+==================================================================
+

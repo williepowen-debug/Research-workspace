@@ -1,0 +1,30 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  SELF mode: 1541 files under AGENTS/WALTER/ (processed/ + archive/ still excluded — historical by design). Nothing outside your own dir is scanned.
+
+  ── value · superseded 4505 → current 4305
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (16)
+        AGENTS/WALTER/research/2026-10-22_full-closeout/consumer-1-peer.txt:10  [4505]  (needle <5 sig digits)
+           2026-10-21T22:56:38-04:00	SIG-W-20261021-018	acted	INBOX_WALTER	SoftBank -26.2% 10/08->10/22 intraday (own fetch Y4,456); WALTER's 'Y4,505 1
+        AGENTS/WALTER/research/2026-10-22_full-closeout/consumer-1-peer.txt:11  [4505]  (needle <5 sig digits)
+           AGENTS/VULCAN/LESSONS.md:48  [4505]  (needle <5 sig digits)
+        AGENTS/WALTER/research/2026-10-22_full-closeout/consumer-1-peer.txt:12  [4505]  (needle <5 sig digits)
+           | L-62 | 2026-10-21 | **A "close" pulled during the session is an intraday print.** WALTER's SIG-018 labelled SoftBank ¥4,505 a 10/22 close
+        AGENTS/WALTER/research/2026-10-22_full-closeout/consumer-1-peer.txt:13  [4505]  (needle <5 sig digits)
+           AGENTS/WATT/sources/2026-10-20-news/steo-oct26.txt:21737  [4505]  (needle <5 sig digits)
+        AGENTS/WALTER/research/2026-10-22_full-closeout/consumer-1-peer.txt:14  [4505]  (needle <5 sig digits)
+           4,505
+        AGENTS/WALTER/research/2026-10-22_full-closeout/consumer-1-peer.txt:15  [4505]  (needle <5 sig digits)
+           AGENTS/CARL/research/2026-08-27_auto_outflow_split_registration_CHG-RED-049.md:51  [4505]  (needle <5 sig digits)
+        AGENTS/WALTER/research/2026-10-22_full-closeout/consumer-1-peer.txt:16  [4505]  (needle <5 sig digits)
+           ⚠️ **THE NORMALIZATION IS NOT COSMETIC AND IT REVERSES THE READ.** Raw **dollar** net losses run **5,586K → 4,505K = FALLING**. The pool is
+        AGENTS/WALTER/research/2026-10-22_full-closeout/consumer-1-peer.txt:17  [4505]  (needle <5 sig digits)
+           AGENTS/CARL/workbook/KB.tsv:392  [4505]  (needle <5 sig digits)
+        … +8 more 🟠 hit(s) on [4505] across 2 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+     🟢 cleared: marker-adjacent / next to new value / frozen file (5)  [--show-handled to audit]
+
+  🟠 16 CANDIDATE(s), zero certified-stale. A 🟠 is a prompt to LOOK, never a packet: confirm same series AND unit at the hit, then re-run with --unit/--series for the 🔴 verdict.
+==================================================================
+
