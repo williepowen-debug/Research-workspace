@@ -147,3 +147,38 @@ Routing: R13-c alone ⇒ STATUS score + NEXUS brief, no packet (a watch-level mo
 ## §9 — GRADE (write 2026-10-22 off this frozen card — never re-read a band)
 
 *Blank until print. Order: ① regenerate the three §4 quantities on the as-published vintage · ② grade §2 · §5a · §5b · §5c separately · ③ write into `STATUS.md` (KEY THRESHOLDS, matrix v13 if band C+, score, calendar) · ④ `git mv` to `docket/graded/` and build the 10/29 card the same session.*
+
+### §9 GRADE — written 2026-10-22 08:36 ET (PROME-spawned session 84affa50, WQ-479 A / WQ-184 Tier-1 due-row wake DOCKET L719) off the frozen card + §8a amendment
+
+**Primary:** DOL/ETA news release 2026-10-22 08:30 ET, `dol.gov/ui/data.pdf?release=20261022a` fetched ~08:32 ET via the fetch tool (bare `curl` got the 384 B Akamai 403 stub this morning — L-24, the wall flipped again); the tool's summary was NOT used (it returned none); the saved binary (548,860 B, sha256 `6bc739a9…74f8`) was text-extracted with pdfminer; embargo line *"8:30 A.M. (Eastern) Thursday, October 22, 2026"* checked; every figure below grepped in the extracted text (saved: `domain/sources/2026-10-22_DOL_UI_claims_release_text.txt`); the 53-week SA table read by row reconstruction (pdfminer layout). **FRED cross-check (fredgraph.csv, 08:34 ET):** ICSA obs 2026-10-17 194,000 and obs 2026-10-10 200,000; IC4WSA obs 2026-10-17 197,750 — agree with DOL. **CCSA had NOT updated** (newest obs 2026-10-03 1,710,000, the pre-revision vintage) — CC graded on DOL only. KB-LAB-221.
+
+**① Three quantities regenerated on the as-published vintage BEFORE reading the level (the window DID revise — w/e Oct 10 199,000 → 200,000):**
+
+| Quantity | Card (10/15 vintage) | As-published 10/22 | Moved? |
+|---|---|---|---|
+| `R` (w/e Sep 19) | 198,000 | 198,000 (53-week SA table) | no ⇒ **`ΔMA = (X − 198,000)/4` exact** |
+| Retained trio `W2+W3+W4` | 596,000 | `199,000 + 198,000 + 200,000 = 597,000` | **+1,000** |
+| `MA_next(194,000)` | `(596,000 + 194,000)/4 = 790,000/4 = 197,500` | `(597,000 + 194,000)/4 = 791,000/4 = 197,750` = **published 197,750 exactly** | **+250 — the vintage-dependent column rotted a fifth week running (L-31)** |
+| `ΔMA(194,000)` | `(194,000 − 198,000)/4 = −1,000` | published 197,750 − revised prior 198,750 = **−1,000** | exact ✅ |
+| T-01 MA bound | `X > 404,000` | `X > 1,000,000 − 597,000 = 403,000` | −1,000 |
+
+**② Six axes, graded separately (X = 194,000 w/e Oct 17; CC = 1,728,000 w/e Oct 10):**
+
+| Axis | Read | Band | Assignment |
+|---|---|---|---|
+| §2 single print | 194,000 | **B** (186,000–229,000) | **NO ACTION** |
+| §5a T-01 MA basis | 194,000 ≤ 403,000 (re-solved) — also ≤ the frozen 404,000 | **T01-a** | T-01 does not fire; MA 197,750 is `250,000 − 197,750 = 52,250` below |
+| §5b v13 `<200,000` | 194,000 ≤ 199,000 | **V13-a** | **record only; no score change** (v13 at floor 1). ⚠️ **The cell's "streak 5 → 6" does NOT hold on the revised trailing run the cell itself names:** w/e Oct 10 revised 199,000 → **200,000**, which is not `<200,000`, so the 5-week run Sep 12–Oct 10 is cut at 4 (Sep 12 198,000 · Sep 19 198,000 · Sep 26 199,000 · Oct 3 198,000) and **the live run is 1 (Oct 17)**. The qualifier governs the number; the count is written as **1**, not 6. Moves nothing either way |
+| §5c v7 CC `<1,750,000` | run Sep 5 1,717,000 · Sep 12 1,712,000 · Sep 19 1,699,000 · Sep 26 1,714,000 · **Oct 3 1,703,000 (rev −7,000)** · **Oct 10 1,728,000** (+25,000); `1,750,000 − 1,728,000 = 22,000` inside; w/e Aug 29 1,765,000 bounds the run | **CC-1** | **streak 5 → 6 — record only; no score change** (v7 at 2) |
+| §5d R13-c (§8a) | `rel = 197,750 / 198,250 = 0.9975` — min of the published 4-wk MA over the 52 weeks before w/e Oct 17 = **198,250 (w/e Oct 3)**, read in this release's 53-week table (w/e Oct 11 2025 – Oct 10 2026); FRED IC4WSA same | **rel < 1.15** | **no action** |
+| Kill B | 194,000 > 185,000 (`9,000` above) | — | 0 of 5 |
+
+**Score 26/75 unchanged** (`26/75 = 34.7%`). **Nothing fired. No cell forced a consequence.**
+
+🔴 **Reading rule applied (§3):** the as-published MA fell **−1,000 to 197,750** — entirely arithmetic: the new week (194,000) is 4,000 under the 198,000 week rolling off, `−4,000/4 = −1,000`. The headline "−6,000" is against a prior week revised UP to 200,000. ⚠️ **Context, graded by nothing:** 197,750 is the lowest 4-wk MA on FRED IC4WSA's current vintage since w/e 2022-10-01 (197,500) — a level fact, not a band; a single benign print is not hawkish fuel, it is nothing (§4).
+
+**Routing (§7):** band B + T01-a + R13-c no action ⇒ **STATUS only**; §5b/§5c are records, not signals. No WALTER signal, no packet.
+
+**Colour, graded by nothing:** NSA initial **172,390** (−19,321, **−10.1%** vs seasonal **−7.4%** expected); yr-ago 205,653 · SA yr-ago 231,000 · CC 4-wk MA 1,711,000 · IUR 1.1% · NSA insured 1,481,260 (+18,771 vs seasonal −3,405 expected) — the CC rise is the one quantity that moved against the seasonal expectation this week; CC is a cost/duration gauge, not early warning (§5c), and no band reads it. UCFE initial 544 (w/e Oct 10, +81). **Florida (NSA, record-only, no card cell):** advance w/e Oct 17 **4,844** (prior week 6,014; DOL notes advance and prior-week state figures are on different bases — not directly comparable); ETA 539 (oui.doleta.gov ar539.csv pulled 08:35 ET, newest state week w/e Oct 10): FL w/e Oct 10 **6,014** vs yr-ago 6,340 (`6,014/6,340 − 1 = −5.1%`); 4-wk `21,737/4 = 5,434` vs yr-ago `23,764/4 = 5,941` ⇒ `21,737/23,764 − 1 = −8.5%` — below year-ago in 13 of 13 weeks w/e Jul 18 – Oct 10 (checked week by week in the CSV). FL insured unemployment w/e Oct 10 26,454 (prior 29,827).
+
+**§8 defect log at grade:** ① L-31 two-clocks split held a fifth week — `ΔMA` exact, `MA_next` off by +250, caught because it was regenerated. ② **NEW, card-design class:** §5b's V13-a cell pre-wrote a streak COUNT ("5 → 6") that a retained-week revision falsified; the band assignment (record-only) was unaffected. Next card writes the count as "regenerated at the print on the revised run", never as a pre-computed number. ③ Instrument, not card: `tools/state_claims_breadth.py` hardcodes `latest='2026-09-05'` and printed the 9/17 numbers verbatim on today's 10/10-vintage file — a reader that looks current and is not; FL figures above computed directly from the CSV. Logged BD-39.
