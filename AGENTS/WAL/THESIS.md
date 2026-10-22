@@ -1,10 +1,30 @@
 # WAL — Compounder with Concentrated CRE Tail Risk
 
-**Last Updated:** **2026-08-20** | **Version:** **v2.4** | **EV $75.96 · PT $52-76** · spot vs EV → `STATUS.md` (live; at the Mon 9/28 close $76.55: **+0.78% vs EV** — +2.17% at 9/25, −0.47% at 9/23; the 5.4% @ $80.05 was the 8/20 mark) | **Prior:** v2.3 (Jul 25) | v2.2.1 (Jun 8) | v2.2 (May 21) | v2.1 (May 11) | v2.0 (May 1) | v1.0 (Mar 25)
+**Last Updated:** **2026-10-22** (Q3 evidence fold, no numerical re-mark) | **Version:** **v2.4** (dated 2026-08-20) | **EV $75.96 · PT $52-76** · spot vs EV → `STATUS.md` only (a spot figure in this file goes stale at the next close; the 5.4% @ $80.05 was the 8/20 mark) | **Prior:** v2.3 (Jul 25) | v2.2.1 (Jun 8) | v2.2 (May 21) | v2.1 (May 11) | v2.0 (May 1) | v1.0 (Mar 25)
 
 ---
 
-**Dated evidence addition — October14 2026 (no numerical re-mark):** fresh FFIEC bank reports now measure seven NDFI nonaccrual observations from December2024 throughJune2026, including99.524M→99.133M→71.304M→122.456M over the latest four quarters. The old single-observation limitation is superseded by KB230; losses/borrower attribution and persistent acceleration are not established. Mortgage bank income fell QoQ despite greater sales, but rose YoY; modification populations are mixed and bank capital ratios remain measured on the bank basis. See `research/2026-10-14_FFIEC-deep-read.md`. This updates evidence only: V3=3/5, composite13/25, weights/EV/PT/frozen grades unchanged. Any score interpretation is separate; no retrospective grading or new criterion is imposed. The dated August rationale below remains its original record.
+## Q3 2026 EVIDENCE FOLD — 2026-10-22 (no numerical re-mark) ★ READ FIRST
+
+**Sources:** 8-K acc 0001628280-26-066286 (release + 24-slide deck, 10/19, A1); 10/20 call (two third-party transcripts, B2); graded against the frozen frames → `research/2026-10-19_Q3_STAGE1_GRADE.md`, `research/2026-10-21_Q3_STAGE2_CALL_GRADE.md`; bridge → `research/2026-10-19_Q3-recurring-earnings-bridge.md`. Dollar figures in $M unless marked.
+
+| Thesis part (v2.4 weight) | Q3 evidence | Direction |
+|---|---|---|
+| **Bear-medium (16%)** — office migration + the $99M appraisal | 0 explicitly identified new office migrations ⇒ **DP2 of 3 DISCONFIRM, FINAL** (RETIRE broadening counter **2 of 3**). Office classified **272.75** (provisional: 25% × 1,091, slide 13) vs ~316 at Q2. **$99M: not mentioned in release, deck or call ⇒ PENDING-10-Q**, never benign | Against the bear. Kill leg (a) MET; leg (b), the appraisal, open |
+| **Bear-fast (2%)** — MI3 | Q3 FFIEC not retrieved | No new evidence |
+| Loss path (WAL-02 >40bps) | NCO **45.8 = 30bps** (gross 48.0 − recoveries 2.2) ⇒ **WAL-02 INVALIDATED** (10-Q confirm pending). Peaked-NCO guide held (45.8 < 55.0; 30 < 37bps) | Against the bear |
+| Reserves and problem loans | Nonaccrual 562 → **485**; ACL 574.4 (funded 512.8 + unfunded 61.6) = **118% of nonaccrual** (Q2 96%) ⇒ RETIRE coverage leg MET. **But** OREO 126 → 165 and special mention 316 → 397: nonaccrual + OREO fell only 38 (688 → 650). Four of the six named problem credits resolved, sold outside the bank with no seller financing (call, B2) | Against the bear on balance; the OREO/special-mention build is the live residual |
+| **Base (45%) / Bull (30%)** — the compounder engine | EPS 2.45 vs 2.36; PPNR 419.1 vs 412.4; NIM 3.57% (+4bp). **NII guide cut 12–14% → 11–12%**, deposit growth $6B → $3.5–4B; fees 13–17% → 18–21%, expense 7–11% → 7–10%. Consistent-basis profit roughly flat. Stephens PT $94 → $88 on the NII guide (B2) | Mixed; a slight drag on the Bull's NII leg |
+| Capital | AOCI −451 → −786; TBV $63.24 → $62.22; parent CET1 11.0% → 10.9% (preliminary); buyback $92.1M at an average $79.78 | Mixed: return on plan, book down on rates |
+| V2 fraud (excluded) | No Q3 fraud charge-off identified. Cantor court path advanced 8/24 (remand + stay relief) and 9/15 (WAL §523 suit; hearing 12/9); no recovery recognized. Jefferies FQ3 10-Q silent on WAL | Procedural only |
+| V3 NDFI | Deck slide 23 uses a different basis and does not grade the 10-Q 25.9%-of-HFI test; call: warehouse & MSR down ~$350M (B2) | 10-Q decides |
+| Tape | Reaction 10/20: WAL +2.27% vs KRE +1.96% ⇒ non-credit falsifier NOT TRIGGERED | Neutral |
+
+**Judgment (dated 10/22):** Q3 evidence runs against the credit bear and slightly against the bull's NII engine. What remains of the bear (Bear-medium 16%, Tail 7%) now rests mainly on **the $99M appraisal** and on the **OREO and special-mention build**. **Why no re-mark today:** the Bear-medium kill is a two-leg condition and only leg (a) is met; leg (b) has one designed carrier, the Q3 10-Q (EDGAR ≥ Mon 10/26, statutory Mon 11/9). Re-marking now would move a weight on half of its own kill rule. **The post-Q3 re-score is owed immediately after the 10-Q grade**, as a separate dated, versioned edit (CHANGELOG). Weights 2/16/45/30/7, EV $75.96, PT $52–76 and composite 13/25 are unchanged by this fold.
+
+---
+
+**Dated evidence addition — October 14 2026 (no numerical re-mark):** fresh FFIEC bank reports now measure seven NDFI nonaccrual observations from December 2024 through June 2026, including 99.524M → 99.133M → 71.304M → 122.456M over the latest four quarters. The old single-observation limitation is superseded by KB230; losses/borrower attribution and persistent acceleration are not established. Mortgage bank income fell QoQ despite greater sales, but rose YoY; modification populations are mixed and bank capital ratios remain measured on the bank basis. See `research/2026-10-14_FFIEC-deep-read.md`. This updates evidence only: V3=3/5, composite 13/25, weights/EV/PT/frozen grades unchanged. Any score interpretation is separate; no retrospective grading or new criterion is imposed. The dated August rationale below remains its original record.
 
 ## CORE THESIS (v2.4 — post-MI3-disconfirmation re-mark) ★ CURRENT
 
@@ -25,6 +45,8 @@
 **What keeps bear-fast at 2% rather than 0%:** `RCON2746` is step-prone (11.0% of cohort transitions; ~5.8%/quarter for an up-step) and **WAL owns the cohort's two largest up-steps** (+64.8%, +27.2%). **From 21.20%, any qualifying up-step crosses the 25% trigger.** The path is live and base-rateable; zeroing it would claim more than the evidence supports. Full arithmetic → `SCENARIOS.md` §v2.4.
 
 **What still keeps the wider bear alive (why 18%, not lower):** the **$99M appraisal is still not in**; ACL/NPL coverage is **<100%** on the honest denominator; the office maturity wall is unchanged; and a **new** V3 datum landed 8/20 — **NDFI $15.81B carrying $122.5M nonaccrual**, second only to WFC in absolute dollars across a 26-bank sample. That last one is **logged, deliberately not weight-moved** (one quarter, no peer baseline, tape does not sort on it) and is the highest-value next pull.
+
+> *Rider 2026-10-22 (Q3), the paragraph above is the 8/20 record:* **appraisal** — still not in; silent in the release, deck and call. **Coverage** — on the pinned nonaccrual basis 96% → **118%** (above 100%). On the fuller NPL basis the release supports only a partial figure: 574.4 ÷ 543 = 105.8% before the accruing-restructured line, which is 10-Q-only (Q2 $164M); at a Q2-sized line it would be ~81% (illustration, not a measurement), up from Q2's 69.1% either way. **Office maturity wall** — not re-measured at Q3. **NDFI** — seven observations now pulled (10/14); the 10-Q table decides the 25.9% test. See the Q3 fold at the top of this file.
 
 **Canonical numbers → `SCENARIOS.md` §EV SUMMARY (v2.4). Version history → `CHANGELOG.md`.**
 
@@ -227,7 +249,7 @@ Three life-science distress events across cohorts in 6 months were captured in t
 - (a) Another BANK loan with previously-pass-graded sponsor walking strategically, OR
 - (b) Same-mechanic event at OZK (IQHQ RaDD — sponsor-support test; **execution now disclosed October12, accounting still pending**) or EGBN (Office concentration shares profile). ⛔ **Sponsor-behaviour signal ONLY — OZK's loss band does NOT transfer** (their construction campus at a maturity test (balance/terms → OZK owner report, October12; older$555M anchor is historical) vs WAL's completed building already on nonaccrual with the borrower current; same mechanic, different stage)
 
-**Dated evidence integration — October14, housekeeping only:** OZK's saved October12 issuer8-K (FDIC FLNG12019, Item7.01 p2; PDF hash verified) discloses an **October9 executed extension to December2029 with fresh sponsor/capital-partner capital**. This is affirmative sponsor support, not a sponsor walk, and supersedes the preceding Q3-call-only carrier expectation. **Capital is the issuer's term; legal equity/debt form is not disclosed.** Paydown may be readvanced; LTV uses September as-stabilized appraisal, not current/forced-sale value; credit-specific accounting recognition is not disclosed. Identification as RaDD uses multiple project/commitment/history anchors, not a literal borrower name in the8-K. **WAL's pass-grade-bank-walk remains N=1; no WAL grade, score, weight, target, gate or trade changes.** Different stage/sponsor and loss bands do not transfer. Source/terms and retained OZK prediction prior stay owned at `../OZK/research/threads/2026-10-12_RADD_BRIDGE_OUTCOME.md`, last inspectedOctober14. Original August-window carrier history remains in Git and the September28 audit record.
+**Dated evidence integration — October 14, housekeeping only:** OZK's saved October 12 issuer 8-K (FDIC FLNG12019, Item 7.01 p2; PDF hash verified) discloses an **October 9 executed extension to December 2029 with fresh sponsor/capital-partner capital**. This is affirmative sponsor support, not a sponsor walk, and supersedes the preceding Q3-call-only carrier expectation. **Capital is the issuer's term; legal equity/debt form is not disclosed.** Paydown may be readvanced; LTV uses September as-stabilized appraisal, not current/forced-sale value; credit-specific accounting recognition is not disclosed. Identification as RaDD uses multiple project/commitment/history anchors, not a literal borrower name in the 8-K. **WAL's pass-grade-bank-walk remains N=1; no WAL grade, score, weight, target, gate or trade changes.** Different stage/sponsor and loss bands do not transfer. Source/terms and retained OZK prediction prior stay owned at `../OZK/research/threads/2026-10-12_RADD_BRIDGE_OUTCOME.md`, last inspected October 14. Original August-window carrier history remains in Git and the September 28 audit record.
 
 
 ### 🟠 V2.2 SECOND EVIDENCE — Curley Resignation
@@ -302,13 +324,14 @@ Pattern flag, tracked — not promoted to standalone bear-trigger without a seco
 🟡 **Still open:**
 - Other Jefferies/Leucadia-era credits in WAL's book? Transcript and 8-K didn't enumerate. **DEF 14A pass + Q&A** still pending.
 - Cantor residual **$72.4M gross, $3.5M specific allowance left** (Q1 10-Q, KB-143; NOT restated in the Q2 10-Q) *(corrected 2026-09-24: the ~$46M entered at v2.0 on 5/1 with no traceable source; see CHANGELOG)* — plus senior liens bought to protect it ($13M in Q1; the $64M figure is a candidate tie, see the Q3 10-Q frame §3). Recovery posture aggressive (mgmt acquired the liens).
+- *10/22 rider:* court path → `FRAUD/STUPIN_CRE.md` §FOLD 2026-10-22 (remand + stay relief granted 8/24; WAL §523 nondischargeability suit, hearing 12/9) and `FRAUD/FIRST_BRANDS.md` §FOLD 2026-10-22 (Jefferies FQ3 10-Q silent on WAL; NY index numbers unknown).
 - $50.5M Q1 securities-sales gain absorbed the LAM charge. **Q2 has no buffer left.** *(Q1 forecast; Q2 printed $2.36 GAAP = adjusted — KB-149.)*
 
 ---
 
 ## VECTOR 3 — SSFA / NDFI / WAREHOUSE
 
-**Current evidence fold — October14 2026:** live V3 remains **3/5**, as ruled September28 underWQ324. Seven primary NDFI nonaccrual observations now show an episodic late2025 jump, decline and June rebound to122.456M/0.774% (KB230). The old access/history gap is closed; borrower identities, loss attribution and persistent current deterioration remain unknown. Unused NDFI4884.273M supplies contingent capacity, not observed stressed draws. Bank mortgage income fellQoQ but roseYoY; bank capital dollars grew while RWA grew slightly faster (KB231–234). Neither exposure growth nor a regulatory risk weight supplies an earnings-loss estimate. The causal question is incremental credit/income/funding damage to recurring parent earnings versus expectations; no demonstrated gap yet. No score condition, weight, target or frozen grade is changed. **The dated Q1 analysis and September audit/proposal history below remain records, not current pending rulings; WQ324 resolved the old P1 score decision.** Full evidence → `research/2026-10-14_FFIEC-deep-read.md`; application → Q3 read/worksheet and FY2027 bridge.
+**Current evidence fold — October 14 2026:** live V3 remains **3/5**, as ruled September 28 under WQ324. Seven primary NDFI nonaccrual observations now show an episodic late 2025 jump, decline and June rebound to 122.456M/0.774% (KB230). The old access/history gap is closed; borrower identities, loss attribution and persistent current deterioration remain unknown. Unused NDFI 4884.273M supplies contingent capacity, not observed stressed draws. Bank mortgage income fell QoQ but rose YoY; bank capital dollars grew while RWA grew slightly faster (KB231–234). Neither exposure growth nor a regulatory risk weight supplies an earnings-loss estimate. The causal question is incremental credit/income/funding damage to recurring parent earnings versus expectations; no demonstrated gap yet. No score condition, weight, target or frozen grade is changed. **The dated Q1 analysis and September audit/proposal history below remain records, not current pending rulings; WQ324 resolved the old P1 score decision.** Full evidence → `research/2026-10-14_FFIEC-deep-read.md`; application → Q3 read/worksheet and FY2027 bridge.
 
 > ⚠️ **9/28 audit: KB-121 ("the NDFI/warehouse book is SHRINKING"), the row V3's 1/5 was held on, is SUPERSEDED by the A1 rows KB-146/-168. The score was deliberately NOT moved (no silent score change): the evidence/score inconsistency is reported for a decision (STATUS RAISE block; proposal P1).**
 >
@@ -369,7 +392,7 @@ V3 is now a **quality-of-names question on the 2,000 underlying lender-finance o
 | Thesis type | Reservoir (gradual past-due build) | **Compounder with concentrated tail risk** |
 | Pipeline signal | Past-due $207M → $465M QoQ (firing) | Leading buckets +24% to +45% QoQ; classified -9bps QoQ |
 | Loss pattern | Through delinquency funnel | **Episodic (V2) + concentrated tail (V1 Office)** |
-| Catalyst | IQHQ executedOctober9extension, disclosedOctober12; accounting remainsOZK Q3question (ownerreportinspectedOctober14); earlierOctober1reprice isdatedhistory | **Office maturity wall $946M during 2026** (Q1 cut; $686M remaining at Q2, KB-163) |
+| Catalyst | IQHQ executed October 9 extension, disclosed October 12; accounting remains OZK Q3 question (owner report inspected October 14); earlier October 1 reprice is dated history | **Office maturity wall $946M during 2026** (Q1 cut; $686M remaining at Q2, KB-163) |
 | Q1 print | EPS miss + reservoir thesis fires | **GAAP miss + V2 fraud labeled in 8-K** |
 | PT vs current | $42.5-45 strikes / $48 spot | **$55-70 range / $80-82 spot** *(May vintage; live: PT $52-76 (v2.4), spot → STATUS.md)* |
 
@@ -379,7 +402,7 @@ V3 is now a **quality-of-names question on the 2,000 underlying lender-finance o
 
 ## PREDICTIONS
 
-> 🧊 **v2.2-era table (pre-7/22) — not the live ledger.** LIVE: **WAL-01 (ex-REG-24) 25% · WAL-02 (ex-REG-25) 50%**, both OPEN to Q3 (re-spec'd 8/20, P2/P3) → `workbook/PREDICTIONS.tsv` (canonical); REG-15 RESOLVED-FAILED 8/20. Q3 grades → `Q3_PRINT_GRADING_FRAME_2026-09-24.md` / `Q3_10Q_GRADING_FRAME_2026-09-24.md`.
+> 🧊 **v2.2-era table (pre-7/22) — not the live ledger.** LIVE (10/22): **WAL-02 (ex-REG-25, 50%) RESOLVED-INVALIDATED 10/19** at 30bps, 10-Q confirm pending; **WAL-01 (ex-REG-24, 25%) OPEN** with a provisional INVALIDATED outcome (Office classified $272.75M), final on the 10-Q cross-check → `workbook/PREDICTIONS.tsv` (canonical); REG-15 RESOLVED-FAILED 8/20. Q3 grades → `Q3_PRINT_GRADING_FRAME_2026-09-24.md` / `Q3_10Q_GRADING_FRAME_2026-09-24.md`.
 
 | # | Prediction | Timeframe | Confidence | Status |
 |---|---|---|---|---|
@@ -397,7 +420,7 @@ CFO swap remains the tell. Vishal Idnani (JPM FIG, 20yr MD, advised 50+ regional
 
 ## WATCH DATES
 
-> 🧊 **May-2026 record.** Forward catalysts live at `STATUS.md` §CATALYSTS (Q3 print ~Oct, date not announced · Q3 10-Q, EDGAR ≥10/26 · $99M appraisal · Q3 Call Report · Dec-18 $70P time stop 12/04). *MI3 ran 8/7 (the "STILL PENDING" row below is history).*
+> 🧊 **May-2026 record.** Forward catalysts live at `STATUS.md` §NEXT CARRIERS (as of 10/22: Q3 10-Q, EDGAR ≥ 10/26, statutory 11/9 · $99M appraisal · Q3 Call Report / MI3 · WAL §523 hearing 12/9 · Makhijani status conference 11/30, unverified). The Q3 print (10/19) and call (10/20) are graded. *MI3 ran 8/7 (the "STILL PENDING" row below is history).*
 
 | Date | Event | What resolves |
 |---|---|---|
@@ -414,7 +437,7 @@ CFO swap remains the tell. Vishal Idnani (JPM FIG, 20yr MD, advised 50+ regional
 
 ## POSITIONS
 
-Current positions: **grep `POSITIONS.md` (canonical) — do not trust any strike list in this file.** *(**As of 9/24: 1 leg, Dec-18 $70P; the Sep-18 pair finished OTM 9/18.**) (The "$85P/$77.5P/$70P/$65P Jun/Sep" list formerly here was May-vintage; Jun-18 + Jul-17 tenors have since cleared — ~~live Sep core is $67.5P+$70P per POSITIONS 6/19~~ (finished OTM 9/18, broker-booked 9/27).)* Strike-by-strike thesis → `SCENARIOS.md` (see its 7/17 position-truth banner).
+Current positions: **grep `POSITIONS.md` (canonical) — do not trust any strike list in this file.** *(10/22: the "As of 9/24: 1 leg" note formerly here is stale — legs and accounts changed since; POSITIONS.md alone carries them. The Sep-18 pair finished OTM 9/18.) (The "$85P/$77.5P/$70P/$65P Jun/Sep" list formerly here was May-vintage; Jun-18 + Jul-17 tenors have since cleared — ~~live Sep core is $67.5P+$70P per POSITIONS 6/19~~ (finished OTM 9/18, broker-booked 9/27).)* Strike-by-strike thesis → `SCENARIOS.md` (see its 7/17 position-truth banner).
 
 **Note:** ~~SCENARIOS.md still reflects pre-Q1 probability weights — needs refresh in Wave 1 chunk 2~~ *(9/24: SCENARIOS §EV SUMMARY is v2.4 (8/20); only its strike-by-strike sections are May-vintage — rebuild owed, one leg.)* Original note: (V2 resolved → reduces "raise/regulatory" branch; V3 disconfirmed → reduces "NDFI shock" branch; V1 sharpened to Office → tightens path-1 narrative).
 
