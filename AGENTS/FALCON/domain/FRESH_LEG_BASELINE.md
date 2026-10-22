@@ -126,3 +126,9 @@ The override names *"any Bab-theater **ENFORCEMENT** event."* **Mokha 9/10 · Pe
 - 🔴 **EVENT OVERRIDE — GRADED, NOT TRIGGERED (10/15 → 10/21).** No Houthi maritime attack, boarding, seizure, toll or executed restriction found. The one Gulf-of-Aden event: a skiff fired two shots at an LNG tanker off Al Mukalla 10/17 (UKMTO; security team returned warning shots; no damage; unattributed; government-held coast, piracy-class). Houthi fire went at Saudi land targets (airports, Shaybah, Yanbu intercept) and Aden (10/21 Badr Camp claim). `KB-FALCON-305`.
 - **GATE STATE: LIVE** (2 of 3 legs fired). PROME owns the registry cell (`G:GATE-FALCON-001`).
 - 🗓️ **NEXT `review_by`: 2026-10-28 — OWNER-SET 2026-10-21.** Event override: review IMMEDIATELY on any Bab-theater enforcement event.
+
+**Leg state as of 2026-10-22 ~13:3x ET (PROME `prome-25` spawn, WQ-487 A — a TOUCH, not the review; `review_by 2026-10-28` unchanged):**
+- **Leg 1 — FIRED 2026-07-23. STANDS.** · **Leg 3 — FIRED 2026-08-15. STANDS.**
+- **Leg 2 — NOT FIRED, current vintage.** Own TankerMap JSON read 2026-10-22T17:26:56Z (HTTP 200, 94,008 B; meta.lastUpdated 10/22, warnings []; saved `domain/tankermap/2026-10-22_bab_daily_bars.csv`). The read-back revises 10/21 from 7 to 9 tankers (the vendor's upward revision, as R1 anticipates). Completed UTC day 10/21: `100 × 82 = 8,200` vs `65 × 72 = 4,680` ⇒ **NOT MET**; 10/15–10/20 unchanged in kind; 10/22 partial (4 at read) ⇒ not a print-day. No run open. `KB-FALCON-318`.
+- **Event override — NOT TRIGGERED (10/21 → 10/22).** No Houthi act on a hull found; the Houthi claim that Saudi forces targeted an Indian yacht near Zuqar is an accusation against Saudi Arabia, uncorroborated, not enforcement.
+- **GATE STATE: LIVE.** PROME owns the registry cell (`G:GATE-FALCON-001`).
