@@ -91,3 +91,7 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-22T00:55Z	SIG-W-20261020-013	acted	INBOX_WALTER	VW global pay-budget proposal -> KB-HANS-116 (contested, not implemented; falsifier-side for T-16)
 2026-10-22T00:55Z	SIG-W-20261020-015	acted	INBOX_WALTER	London cloud outage -> KB-HANS-114 item 3; operational, not funding
 2026-10-22T00:55Z	SIG-W-20261021-006	acted	INBOX_WALTER	Dutch target cut 74->64%, met at 65.5% -> KB-HANS-108 note; EU gap -14.75 [gas day 10/20], T-08 exit 0/5 - national target NOT substituted
+2026-10-22T02:34Z	SIG-W-20261021-017	acted	INBOX_WALTER	Decree 738 nine interests + Decree 750 -> KB-HANS-134; diesel 40kt = intent, BRENT/OSPREY
+2026-10-22T02:34Z	SIG-W-20261021-021	acted	INBOX_WALTER	Sonoco parent verified, Auchan LEV -> KB-HANS-134
+2026-10-22T02:34Z	SIG-W-20261021-024	noted	INBOX_WALTER	PHP CVSS 9.2, state sites offline (FR/FI/NL) -> KB-HANS-114 item 6; no financial-infrastructure outage
+2026-10-22T02:34Z	SIG-W-20261021-030	acted	INBOX_WALTER	Ontex ~5% revenue verified, Decree 750 precise -> KB-HANS-134; 1252 precision = BRENT

@@ -15,6 +15,7 @@
 
 - **22:00 ET (Will): France prediction + TPI.** `research/2026-10-21_FRANCE_TPI_BACKSTOP.md`; KB-126/127; **HNS-10** (spread ≥175bp on an i-i row by 11/30, 55%) and **HNS-11** (no >200bp before 12/31, 75%), registered BEFORE Moody's 10/23. PROME may want DOCKET rows for 11/30 and 12/31 (PROME's file, not edited).
 
+- **22:33 ET (Will): HNS-09 rules FROZEN (owed #28)** — `scripts/hns09_grade.py` + `workbook/HNS09_Q3_RESULTS.tsv` + 11 tests (149/149). Fill the TSV from each bank's own release: BNP + Deutsche 10/28, UniCredit 11/09. KB-133 (UniCredit delay) and KB-134 (Russia temporary-management programme); 4 late WALTER signals drained. ⚠️ `CLAUDE.md` FILES table does not yet list `hns09_grade.py` (charter at 75% of budget — add when rotating).
 **RESULT:** France is the live European stress: OAT 4.99 / spread 157.5bp [i-i 10/21], +20bp in 3 sessions, Italy flat — France-specific; Moody's 10/23. TTF 87.50 (>90 intraday 10/20); EU storage 74.58% with the first net withdrawal on gas day 10/20; HNS-07 → 30%. EA Sept final 3.8% / core 2.5 (T-16 1 of 2); UK Sept CPI 3.5% / core 2.8 / services 3.7. ECB 10/29 hold consensus, Dec ~87% priced; BoE 11/5 hike priced. UK 30Y 5.797 (20bp under T-13) into the 10/28 Budget.
 
 **GAPS:**

@@ -181,3 +181,9 @@ CATO reviewed the day's work and produced counterexamples against several of thi
   - The holder table came from Apollo's PDF deck, extracted locally (pdfminer, isolated dir) after WebFetch could not read it.
   - Two holder bases (57.5% negotiable at market value vs the BdF's 55.9% general government) named, not averaged.
   - The Barclays bank-exposure figure turned out to be a year old (2025-10-17), and is dated so.
+- **22:3x ET — Will: "go ahead with the bank-call scoring rules" (owed #28).**
+  - Frozen BEFORE the first result (BNP + Deutsche, 10/28). Mechanised as `scripts/hns09_grade.py` + `workbook/HNS09_Q3_RESULTS.tsv` + 11 tests, per DAEDALUS's 10/21 "definition AND tests".
+  - The one rule chosen to bind against me: reported cost of risk is never adjusted for one-offs, and the ledger has no column to put an adjustment in.
+  - Caught in my own grader before commit: a REPORTED row with no date would have counted and defeated the 11/30 window.
+  - Caught in my own stamp, for the SECOND time tonight: a typed "22:4x" when the clock said 22:33. The hot memory on this did not fire; only reading `date` caught it.
+  - Also: LIQUID consumed both 10/21 packets (b20fb4fa9) with no France reply = no transmission at its side. 4 new WALTER signals drained (KB-134 Russia temporary-management programme).

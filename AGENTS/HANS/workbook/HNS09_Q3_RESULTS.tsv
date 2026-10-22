@@ -1,0 +1,14 @@
+# HANS HNS09_Q3_RESULTS.tsv — inputs for scripts/hns09_grade.py (prediction HNS-09). LIVE until HNS-09 resolves; then FROZEN.
+# Rules FROZEN 2026-10-21 (hans-1021) BEFORE any Q3 result in the set was published — they live in the grader's docstring, not here.
+# One row per bank, fixed set of 9. Fill from each bank's OWN Q3 release. Reported numbers only; one-offs go in notes, never subtracted.
+# Units: NII in EUR mn (quarter); CoR in bp annualised on the bank's own basis, or EUR mn only if no bp is given. results_date = publication date.
+bank	results_date	status	nii_q3_26_eur_mn	nii_q3_25_eur_mn	cor_bp_q3_26	cor_bp_q3_25	cor_eur_mn_q3_26	cor_eur_mn_q3_25	fy_cor_guidance_raised	source	notes
+BNP Paribas	2026-10-28	PENDING									date: BNP IR calendar via search
+Deutsche Bank	2026-10-28	PENDING									date: DB IR via search
+Societe Generale		PENDING									likely 10/29 (SG information note calendar, unlabelled)
+Credit Agricole SA		PENDING									date not found 10/21
+Banco Santander		PENDING									date not found 10/21
+BBVA		PENDING									group date unconfirmed (BBVA Mexico lists 10/29)
+UniCredit	2026-11-09	PENDING									MOVED from 10/22 (notice 10/09); press ties it to Commerzbank (EU decision deadline 11/16); Russia exit permission Order 368-rp (KB-HANS-112) may land in the numbers
+Intesa Sanpaolo		PENDING									date not found 10/21
+ING Groep		PENDING									date not found 10/21

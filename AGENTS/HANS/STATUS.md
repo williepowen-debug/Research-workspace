@@ -82,7 +82,7 @@
 | 🆕 **HNS-10** | France–Germany 10Y prints **≥175.0bp** on an i-i daily row, 10/22–11/30 | **55%** | 2026-11-30 | 🟢 **OPEN — made 22:00 ET 10/21, BEFORE Moody's.** Start 157.5bp. Needs the stress to keep BUILDING, so this is the call that can embarrass me |
 | 🆕 **HNS-11** | France–Germany 10Y does **NOT** print >200.0bp before 12/31 | **75%** | 2026-12-31 | 🟢 **OPEN.** 200 > the 2011-12 peak, and is commentary's level for ECB 'monitoring'. Paired with HNS-10 to make a BAND |
 | **HNS-08** | Bund does **NOT** close ≥4.00% before Dec 31 | **70%** | 2026-12-31 | 🟢 **OPEN.** Buffer ~57bp — the Bund is the safe-haven leg of the French move |
-| **HNS-09** | **At Q3-2026 European bank results: sector NII/earnings holding, NO material rise in cost-of-risk** | **70%** | 2026-11-30 | 🟢 **OPEN — window opens with BNP 10/28.** ⚠️ owed #28 (aggregate, CoR series, "material") was due 10/16 and is **NOT done** |
+| **HNS-09** | **At Q3-2026 European bank results: sector NII/earnings holding, NO material rise in cost-of-risk** | **70%** | 2026-11-30 | 🟢 **OPEN — rules FROZEN 10/21, before any result** (`scripts/hns09_grade.py`, 11 tests). 9 fixed banks; NII ≥95% y/y; reported CoR +10bp = material, no one-off adjustment; MISS at ≥⅓ of banks. **Fill `workbook/HNS09_Q3_RESULTS.tsv` as each reports:** BNP + Deutsche 10/28 → UniCredit 11/09 |
 
 **7/16 book: 2 HIT, 1 MISS** · `HNS-05` ✅ HIT 9/10 (rationale FAIL) · `HNS-06` ✅ HIT 9/25 (momentum).
 🔴 **CALIBRATION:** my HITs are momentum continuations; my one MISS needed a TURN. **`HNS-07` was the live test of re-marking a straddling call that drifted against me — the pre-committed rule did it, not judgement on the day.**
@@ -119,7 +119,6 @@
 
 | # | Owed | Due |
 |---|---|---|
-| 28 | 🔴 **`HNS-09` definitions** (aggregate, CoR series, "material", **and how a one-off such as a UniCredit Russia exit loss is treated** — `KB-112`) — **PAST DUE (10/16), results start 10/28** | **2026-10-27** |
 | 26 | **Re-verify `TTF_CALENDAR` X26/Z26 expiries** before 10/29 | **2026-10-26** |
 | 5 | 🟡 **(b) UK 10Y basis — PARTIAL 10/21 (`KB-124`):** 3 same-date pairs; the one verified TE close (10/08) agrees with BoE par within 0.5bp, and the others run +3.4/+4.5bp (likely snap time). **Gate: ≥5 verified-close pairs.** One accrues per session; next is 10/21 vs BoE 10/21 (~10/23) | accrues |
 | 14 | **Split `VX-HANS-11.03`** into German annual outlay + a real EU issuance series | 🟠 |

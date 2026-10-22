@@ -1555,5 +1555,71 @@ class TestTTFNamedContract(unittest.TestCase):
         self.assertEqual(exps, sorted(exps))
         self.assertTrue(all(s.endswith(".NYM") and "=F" not in s for s, _ in boot.TTF_CALENDAR))
 
+class TestHNS09Grader(unittest.TestCase):
+    """owed #28, 2026-10-21: HNS-09's rules frozen BEFORE the first Q3 result (10/28).
+    Each test injects one way a post-hoc grade could drift, and asserts the frozen rule holds."""
+
+    def setUp(self):
+        import importlib, hns09_grade
+        self.g = importlib.reload(hns09_grade)
+
+    def _row(self, bank="B", nii=(1000, 1000), bp=(30, 30), eur=(None, None), guide="",
+             source="bank Q3 release", date_="2026-10-28", status="REPORTED"):
+        f = lambda x: "" if x is None else str(x)
+        return {"bank": bank, "results_date": date_, "status": status,
+                "nii_q3_26_eur_mn": f(nii[0]), "nii_q3_25_eur_mn": f(nii[1]),
+                "cor_bp_q3_26": f(bp[0]), "cor_bp_q3_25": f(bp[1]),
+                "cor_eur_mn_q3_26": f(eur[0]), "cor_eur_mn_q3_25": f(eur[1]),
+                "fy_cor_guidance_raised": guide, "source": source, "notes": ""}
+
+    def test_fewer_than_three_graded_banks_cannot_grade(self):
+        self.assertEqual(self.g.grade([self._row(), self._row()])[0], "CANNOT-GRADE")
+
+    def test_three_clean_banks_is_a_HIT(self):
+        self.assertEqual(self.g.grade([self._row(bank=b) for b in "ABC"])[0], "HIT")
+
+    def test_cor_threshold_is_10bp_inclusive(self):
+        self.assertTrue(self.g.grade_bank(self._row(bp=(40, 30)))[2])
+        self.assertFalse(self.g.grade_bank(self._row(bp=(39.9, 30)))[2])
+
+    def test_one_third_is_a_MISS_ties_fall_against_the_prediction(self):
+        rows = [self._row(bank="A", bp=(40, 30)), self._row(bank="B"), self._row(bank="C")]
+        self.assertEqual(self.g.grade(rows)[0], "MISS")
+        rows = [self._row(bank="A", bp=(40, 30))] + [self._row(bank=b) for b in "BCD"]
+        self.assertEqual(self.g.grade(rows)[0], "HIT", "1 of 4 is under one-third")
+
+    def test_nii_hold_is_95pct_inclusive(self):
+        self.assertTrue(self.g.grade_bank(self._row(nii=(950, 1000)))[1])
+        self.assertFalse(self.g.grade_bank(self._row(nii=(949, 1000)))[1])
+
+    def test_raised_guidance_counts_as_material(self):
+        self.assertTrue(self.g.grade_bank(self._row(guide="Y"))[2])
+
+    def test_eur_fallback_uses_30pct_or_50mn(self):
+        self.assertTrue(self.g.grade_bank(self._row(bp=(None, None), eur=(130, 100)))[2] is False,
+                        "a +30mn rise is under the 50mn floor")
+        self.assertTrue(self.g.grade_bank(self._row(bp=(None, None), eur=(400, 300)))[2])
+        self.assertFalse(self.g.grade_bank(self._row(bp=(None, None), eur=(380, 300)))[2])
+
+    def test_unsourced_undated_late_and_pending_rows_never_count(self):
+        for r in (self._row(source=""), self._row(date_=""), self._row(date_="2026-12-01"),
+                  self._row(status="PENDING")):
+            self.assertNotEqual(self.g.grade_bank(r)[0], "GRADED", r)
+
+    def test_a_typo_in_a_number_raises_instead_of_reading_as_blank(self):
+        with self.assertRaises(ValueError):
+            self.g.grade_bank(self._row(nii=("1,000", 1000)))
+
+    def test_there_is_no_adjustment_column(self):
+        """The no-one-off-adjustment rule is structural: the ledger has nowhere to put one."""
+        hdr = [l for l in self.g.TSV.read_text().split("\n") if l.startswith("bank\t")][0]
+        self.assertFalse(any("adj" in c.lower() or "underlying" in c.lower() for c in hdr.split("\t")))
+
+    def test_the_live_ledger_parses_and_holds_the_fixed_set_of_nine(self):
+        rows = self.g.read()
+        self.assertEqual(len(rows), 9)
+        self.assertEqual(self.g.grade(rows)[0] in ("CANNOT-GRADE", "HIT", "MISS"), True)
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)
