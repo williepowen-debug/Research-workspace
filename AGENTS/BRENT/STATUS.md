@@ -83,6 +83,7 @@
 | **Sun Nov 1** | ROUTINE CRONS — DST RE-SET (EST begins): move all four BRENT routines +1h UTC | 🟠 |
 | **Sun Nov 1** | 🟠 OPEC+ SEVEN-COUNTRY MONTHLY MEETING — the December 2026 production decision (successor to the 10/4 row) | 🟠 |
 | **Tue Nov 3** | MPC Q3 2026 RESULTS — L689 conditional refiner candidate | 🟠 |
+| **Fri Nov 13** | NORTHEAST HOME HEATING OIL RESERVE — up to 315,000 bbl exchange deliveries due complete | 🟠 |
 | **Wed Nov 18** | WQ-386 HELD VLO — review next crack basis | 🟠 |
 | **Thu Nov 19** | WQ-386 HELD VLO — last authorized December leg-A observation | 🟠 |
 | **~Fri Nov 20** ⌁*modeled* | CHINA GAC OCTOBER PRODUCT EXPORTS — physical sizing of the October quota (successor to the 10/08 halt row) | 🟡 |
@@ -90,9 +91,9 @@
 | **Sun Jan 31 2027** | RUSSIA FUEL EXPORT BAN — full expiry (gasoline all-participants + non-producer diesel) | 🟡 |
 | **Wed Apr 7 2027** | OFAC GENERAL LICENSE 135 EXPIRES — Russian-origin diesel (sale, delivery, offloading, importation incl. into the US) authorized through 12:01 a.m. EDT 4/7/2027 | 🟡 |
 
-*`~` + ⌁*modeled* = `date_class=modeled` in the record: a PROJECTED date, not a published one — do not grade a row against a modeled date as though it were confirmed. 5 of 32 rows are modeled.*
+*`~` + ⌁*modeled* = `date_class=modeled` in the record: a PROJECTED date, not a published one — do not grade a row against a modeled date as though it were confirmed. 5 of 33 rows are modeled.*
 
-*32 event(s), generated from `docket/CATALYSTS.tsv` — the canonical forward-state record. Full graded text lives there and is deliberately not restated. Regenerate with `scripts/render_calendar.py --write`; verify with `--check` at closeout.*
+*33 event(s), generated from `docket/CATALYSTS.tsv` — the canonical forward-state record. Full graded text lives there and is deliberately not restated. Regenerate with `scripts/render_calendar.py --write`; verify with `--check` at closeout.*
 
 <!-- CALENDAR:END -->
 **✅ FIRED & GRADED history:** canonical text remains in `docket/CATALYSTS.tsv`; it is not duplicated here.
