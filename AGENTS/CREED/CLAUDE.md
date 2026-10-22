@@ -47,6 +47,7 @@ Do **not** own:
 | Property-level stress with **household/consumer** spillover (non-MF) | CARL | 🟠 | rent/occupancy/property-level stress with household spillover potential |
 | **CRE lender-capital withdrawal (S8b)**: mREIT dividend cuts, book-value erosion, a lender exiting/liquidating/selling its loan book, cohort-wide provisioning | **LIQUID** | 🟠 | lender-appetite / credit-availability evidence; refi-capacity read into the maturity wall. **Separate lender-ECONOMICS from CREDIT-LOSS; check corporate actions before citing any price move** |
 | **CRE assets migrating onto insurance balance sheets** (fast→slow recognition holder) | **SHADE** | 🟠 | named transactions + the CRE leg of the MBA life-insurer absorption series. SHADE owns the combined-sink question; CREED supplies the CRE leg only |
+| **CRE assets migrating onto PENSION balance sheets** (fast→slow recognition holder; added 2026-10-22, Will-approved *"okay go ahead now"*; found by eval case 02) | **SHADE** (info) + PROME (info) | 🟡 | named transactions, size and holding vehicle; SHADE owns the combined-sink question. Info-only until a live case shows an ACTION route is needed. Canonical topology: `AGENTS/_NETWORK.md` (PROME to reflect) |
 | Florida-specific CMBS / hotel / multifamily / condo stress | CORAL | 🟠 | FL-specific stress only (reconcile to one number; CORAL owns whole-FL) |
 | Forced-sale LGD comp (e.g. Galveston) | REGINALD | 🟡 | recovery-rate / LGD input for office-workout modeling |
 

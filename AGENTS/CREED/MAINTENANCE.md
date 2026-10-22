@@ -11,6 +11,12 @@ Reverse-chronological log of **structural** changes to CREED's docs, folders, sc
 
 ---
 
+## 2026-10-22 (evening) — `VX-8.01` gets an aggregate metric; a pension route; ABS-EE scheduled (Will: *"okay go ahead now"*, 17:30 ET)
+
+- **`VX-CREED-8.01` metric definition:** now the FDIC bank CRE modifications series (RSNRES + P3/P9/NARSNRES, nonfarm-nonres), June/December prints only, post-ASU-2022-02 basis. Data file `research/data/2026-10-22_fdic_restructured_nfnr_series.tsv` (62 quarters). History rows added (7, half-yearly, CANONICAL). No band (Will-gated; n=12 at Dec-2028).
+- **Route Matrix (`CLAUDE.md`):** new info-only row, CRE migrating onto PENSION balance sheets → SHADE + PROME. Canon `_NETWORK.md` is PROME's to reflect (packet sent).
+- **Lesson kept:** an FDIC field adopted from a definition read alone carried two artifacts (semiannual reporters; a 2023 definition break) that only the full history and a reporter count exposed; the morning's KB row had already published one of them as a +7.8% QoQ move. **Pull the whole history and count reporters before quoting any Call Report aggregate's change.**
+
 ## 2026-10-22 (afternoon) — read-cap rotations, eval suite v2, October PREREG, ABS-EE scope (Will: *"Lets do this next/now"*, 13:19 ET)
 
 - **Rotations (rule 5: rotate to under 70% of the 32,550 B budget, not just under 75%):** `thesis/CHANGELOG.md` 29,057 → 12,769 B (June–July entries → `thesis/CHANGELOG_HISTORY_2026-10-22.md`); `workbook/PREDICTIONS_SCOREBOARD.md` 24,542 → 20,137 B (the resolved PRED-006 re-spec log → `archive/PREDICTIONS_SCOREBOARD_HISTORY_2026-10-22.md`); `STATUS.md` 25,417 → ~21.9 KB (11 Standing Obligations closed with NO residual → `archive/STATUS_OBLIGATIONS_CLOSED_2026-10-22.md`). All verbatim, crc-stamped, do-not-cite banners. **STATUS was audited by obligation, not bytes:** rows with a live residual (8, 19, 22, 24, 25, 27) stayed; moved rows keep their numbers (a pointer row names them).

@@ -53,6 +53,6 @@ SEC Regulation AB II requires **registered** CMBS trusts to file a monthly asset
 - **Output:** a dated table by maturity year: balance and count with the anchor lease ending first, split by anchor share and by DSCR/occupancy stress, plus coverage disclosures. One KB row per run; a VX vector only if Will approves one (a new instrument is a definition, so it is proposed, not added).
 - **Risks:** pari-passu double counting (the main error source); stale tenant fields; a false sense of coverage (point 3 above).
 
-## 6. Decision for Will
+## 6. Decision for Will — ✅ DECIDED 2026-10-22 17:30 ET: build AFTER the October Trepp print (Will, *"okay go ahead now"*, on CREED's lean)
 
 Build it (≈3–5 h, free data, public-conduit perimeter only), or park it until after the October Trepp print. **CREED's lean: build it after the October print**, so the first run can be read against the fresh `T-01a` outcome, and only if Will wants a forward-looking office instrument rather than waiting on the monthly prints.
