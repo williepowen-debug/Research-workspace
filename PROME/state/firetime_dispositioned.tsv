@@ -40,5 +40,4 @@ AGENTS/BROCK/catchups/2026-10-09.md	DATE DRIFT	artifact says 2026-12-24 ('12/24'
 PROME/inbox/processed/2026-10-15_from-LABOR_crash-recovery-claims-graded.md	DEAD POINTER	`AGENTS/LABOR/docket/GRADING_CARD_20261015_claims.md`	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
 PROME/inbox/processed/2026-10-15_from-LABOR_crash-recovery-claims-graded.md	DEAD POINTER	`AGENTS/REGINALD/inbox/2026-10-14_from-LABOR_jolts-openings-band-decision.md`	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
 PROME/inbox/processed/2026-10-15_from-LABOR_crash-recovery-claims-graded.md	DATE DRIFT	artifact says 2026-12-24 ('12/24')	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
-PROME/reports/2026-10-12_SHADE-freshness-check.md	DEAD POINTER	`sources/2026-10-12_freshness/ACCESS_RESULT.json`	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
 AGENTS/HENRY/domain/ECON_CALENDAR.md	DATE DRIFT	artifact says 2026-12-23 ('Dec 23')	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
