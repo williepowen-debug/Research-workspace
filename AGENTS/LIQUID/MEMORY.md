@@ -2,7 +2,16 @@
 
 ## Session Notes
 
-### CURRENT SESSION — 2026-10-21T22:17:07-04:00 (PROME prome-56 catch-up wave 1, Tier 1; Claude Code / Opus 5.5)
+### CURRENT SESSION — 2026-10-22T19:25-04:00 start (PROME prome-e7 after-close spawn, WQ-481 A Tier 1; Claude Code / Opus 5.5)
+
+- **Whole inbox drained:** 8 top-level packets (PROME's census said 9; `inbox_census.py` counted 8) + 15 WALTER signals, each logged in `board_log.tsv` and `git mv`'d. Corrections: COR-20261022-04 / -27 APPLIED, -01 / -14 NO-OP.
+- **>320 run, FRED back, first-published (two methods agree):** VERIFIED 6 consecutive 325/323/331/329/333/327 [10/14–10/21]; last reset 316 [10/13]; MET unchanged. X1 HY leg 19 consecutive >280 since 9/25.
+- **Gates graded 10/22:** HY-REKILL NOT FIRED 0-of-2 · **076 MET 2-of-3: W2 FIRST FIRE (G5L10 −1,462 [10/7] → −1,717 [10/14])** + W3; no second write-up (no re-arm since the 9/29 MET; W3 met every gradeable session since 9/23); INFO note to WALTER · 079 NOT ARMED (+6bp) · 069 2-of-2 unchanged, L4 NOT FIRED (worst CRWV −10.06% 10/22) · 072 QUIET.
+- **Funding tape:** SRF ~$0; ⚠️ self-correction: 10/20 $0.067B was an NY Fed Small Value Exercise, not demand — always read the operation note. H.4.1 10/21: reserves avg $2,962.607B (−$59.5B, TGA +$68.6B), primary credit $9.169B Wed. 5Y TIPS 2.41×, indirect 62.04%.
+- **L782 to VULCAN:** CRWV bond levels (HYG vendor evaluations, CUSIP not established), ORCL 5Y CDS 315–320bp disseminated [10/21] (DTCC, `dtcc_cds_probe.py ORACLE` works for IG names), DC CMBS AAA clearing level UNREACHABLE (anchors S+225 unsold / S+175 generic). Meta CDS 105–111bp DTCC [10/19–10/21].
+- Evidence: `research/2026-10-22_after-close/REPORT.md`. ICI week 10/21 blocked (Access Denied).
+
+### PRIOR SESSION — 2026-10-21T22:17:07-04:00 (PROME prome-56 catch-up wave 1, Tier 1; Claude Code / Opus 5.5)
 
 - **Whole inbox drained:** 7 top-level packets + 35 WALTER signals (32 at spawn + 023/025/029 arriving mid-session), each logged in `board_log.tsv` and `git mv`'d (consume:LIQUID). Four corrections receipted APPLIED (COR-20261021-01/-02/-10/-22).
 - **>320 run count dated 10/21:** VERIFIED 3 consecutive first-published 325/323/331 [10/14–10/16] (graded 10/19, 50b710323); 329 [10/19] peer latest-revised = INFERRED 4th; 332 [10/20] secondary = UNGRADED. State MET, non-latching, no reset known. HEARTBEAT #1 "LIQUID read still owed" is stale. Own SIGNALS.md row added (late log, carve-out ②).
@@ -61,7 +70,7 @@ No `git pull` (dirty HOMER/PROME/BOND/RED trees); pathspec commits only.
 
 ### NEXT SESSION
 
-**First boot with FRED back:** grade 10/19–10/21 first-published HY/IG/BB/CCC — confirm or reset the >320 run, re-grade 069 L4 credit leg, 072, HY-REKILL. 10/22: 5Y TIPS result; NY Fed dealer as-of 10/14 (076 W2) only on publication; CFTC 10/23 (W1). Car-Mart now 11/01 (BROCK). DAEDALUS 10/16 deferral row in STATUS §3 is overdue.
+**Next boot (10/23+):** grade the 10/22 first-published HY (the >320 run continues or resets; a 10/22 print ≤320 resets), 10/22 SOFR percentiles (079), CFTC as-of 10/20 (076 W1; a W1 hit would be inside the same un-re-armed episode), H.8 10/23 (DEWEY GENIUS Table 6 legs), the 10/22 DTCC CDS file (META/ORCL). 076 re-arm needs 10 consecutive business days with no leg met. Car-Mart 11/01 (BROCK). DAEDALUS 10/16 deferral row in STATUS §3 is overdue.
 
 Resume STATUS§3 and `research/2026-10-19_equity-financing/RESULT.md`. Check HENRY’s exact cohort/matching reply and recipient acknowledgment before repeating any research. Use existing funding notes to fill only missing formation-date maturity/liquidity/credit fields. Joint attribution is saved PARTIAL, not an unattended job. Closeout receipt separates desk write-back, push, notification and recipient consumption.
 

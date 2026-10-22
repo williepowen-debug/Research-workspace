@@ -33,3 +33,8 @@ receipt_date	correction_id	action	note
 2026-10-22T02:15Z	COR-20261021-02	APPLIED	artifact=AGENTS/LIQUID/STATUS.md#Japan (SAM, COR-20261021-02); validation_ref=BOARD/SIG-W-20261021-002-CORRECTION-fukoku-30y-avoidance-withdrawn-japan-auction-and-flows.md#Kernel; No prior LIQUID Fukoku claim; corrected Japan auction/flow inputs recorded dated; Channel 1 stays retired
 2026-10-22T02:15Z	COR-20261021-10	APPLIED	artifact=AGENTS/LIQUID/STATUS.md#Car-Mart 8-K 10/21; validation_ref=AGENTS/LIQUID/workbook/CATALYSTS.tsv#Car-Mart temporary relief through November1; Relief date 10/22 superseded by 11/01 in STATUS, CATALYSTS and CALENDAR; sale-talk report retained as secondary
 2026-10-22T02:15Z	COR-20261021-22	APPLIED	artifact=AGENTS/LIQUID/STATUS.md#Counterevidence / peer context; validation_ref=BOARD/SIG-W-20261021-022-SUPERSEDES-20261019-020-henry-gamma-positive-both-horizons-10-21-close-thin-cushion-december-crack-95point05-near-line-F1-UNKNOWN.md#Kernel; Gamma POSITIVE both horizons 10/21 supersedes 10/19 NEGATIVE; HENRY owns mechanics
+2026-10-22T23:39Z	COR-20261022-04	APPLIED	artifact=AGENTS/LIQUID/STATUS.md#counterevidence-peer-context-10-22; validation_ref=NONE; 
+2026-10-22T23:39Z	COR-20261022-27	APPLIED	artifact=AGENTS/LIQUID/STATUS.md#ai-infra-financing-10-22; validation_ref=AGENTS/LIQUID/research/2026-10-22_after-close/REPORT.md#4; 
+2026-10-22T23:39Z	COR-20261022-01	NO-OP	scope=SoftBank close label is not cited in any LIQUID STATUS or KB line, VULCAN owns the S5 note; 
+2026-10-22T23:39Z	COR-20261022-14	NO-OP	scope=SIG-W-20261021-025 was consumed info-only on 10/21 and no LIQUID STATUS or KB claim rests on it; 
+2026-10-22T23:41Z	COR-20261022-40	NO-OP	scope=LIQUID carries no margin-debt rank claim and the level is unchanged; 

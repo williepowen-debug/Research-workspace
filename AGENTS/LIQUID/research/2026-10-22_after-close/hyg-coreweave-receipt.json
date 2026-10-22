@@ -1,0 +1,49 @@
+{
+ "source": "BlackRock iShares HYG fund holdings download (portfolioId=239565)",
+ "fund_holdings_as_of": "Oct 21, 2026",
+ "retrieved": "2026-10-22T23:31:56Z",
+ "sha256": "aa2ee970e5f3aa653da09317025418a1c998673d0df0ebcb7fcd68b7e30be0e2",
+ "caveat": "vendor evaluated price, not a TRACE trade; file says the vendor price 'is as of the most recent practicable date and may not necessarily be as of the date shown'; no CUSIP column",
+ "coreweave_rows": [
+  {
+   "Name": "COREWEAVE INC 144A",
+   "Par Value": "37237000",
+   "Price": "81.74",
+   "Coupon (%)": "9.75",
+   "Maturity": "Oct 01, 2031",
+   "Yield to Worst (%)": "15.12",
+   "YTM (%)": "15.12",
+   "Accrual Date": "Apr 14, 2026"
+  },
+  {
+   "Name": "COREWEAVE INC 144A",
+   "Par Value": "27087000",
+   "Price": "85.76",
+   "Coupon (%)": "9.25",
+   "Maturity": "Jun 01, 2030",
+   "Yield to Worst (%)": "14.44",
+   "YTM (%)": "14.44",
+   "Accrual Date": "May 27, 2025"
+  },
+  {
+   "Name": "COREWEAVE INC 144A",
+   "Par Value": "23321000",
+   "Price": "81.75",
+   "Coupon (%)": "9",
+   "Maturity": "Feb 01, 2031",
+   "Yield to Worst (%)": "14.91",
+   "YTM (%)": "14.91",
+   "Accrual Date": "Jul 25, 2025"
+  },
+  {
+   "Name": "COREWEAVE INC 144A",
+   "Par Value": "19065000",
+   "Price": "80.04",
+   "Coupon (%)": "9.63",
+   "Maturity": "Jul 15, 2032",
+   "Yield to Worst (%)": "14.91",
+   "YTM (%)": "14.91",
+   "Accrual Date": "Jun 18, 2026"
+  }
+ ]
+}

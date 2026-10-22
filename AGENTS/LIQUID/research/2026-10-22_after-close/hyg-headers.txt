@@ -1,0 +1,18 @@
+HTTP/2 200 
+content-disposition: attachment; filename=iShares-iBoxx--High-Yield-Corporate-Bond-ETF_fund.xls
+etag: W/"b4fedfc2"
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+content-type: application/vnd.ms-excel
+content-length: 4695406
+x-varnish: 44988859
+strict-transport-security: max-age=31536000;preload
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+referrer-policy: strict-origin-when-cross-origin
+permissions-policy: camera=(), microphone=(), geolocation=()
+accept-ranges: bytes
+x-envoy-upstream-service-time: 1024
+x-region-ref: muse2
+date: Thu, 22 Oct 2026 23:31:56 GMT
+alt-svc: h3=":443"; ma=93600
+
