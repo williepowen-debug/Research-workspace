@@ -1,0 +1,71 @@
+WATCH_FOR harness — desk YURI · 10 phrase(s) · 14561 unique headlines over 91 lane days 2026-06-29 → 2026-10-21 · real matcher, in memory
+
+[   0] declares mobilization   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] declares mobilisation   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] orders mobilization   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] orders mobilisation   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] announces mobilization   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] announces mobilisation   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] mobilisation decree   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] general mobilization   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] under temporary management Russian   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] under temporary administration Russian   ← 0 hits (zero noise; recall UNPROVEN)
+
+=== LIVE sample: 354 unique Google-News headlines, 7 query(ies), last 90d ===
+[   2] declares mobilization
+        | Estonia Ready to Close Russia Border if Moscow Declares General Mobilization. Here’s Why - UNITED24 Media
+        | Estonia is prepared to restrict entry by Russians if Russia declares a general mobilization - LIGA.net
+[   0] declares mobilisation   ← 0 live hits
+[   2] orders mobilization
+        | Mobilization orders and travel bans: Russia tightens control over reservists - Головне в Україні
+        | Hidden mobilization in Russia: Hundreds of thousands receive orders at military enlistment offices - RBC-Ukraine
+[   0] orders mobilisation   ← 0 live hits
+[   1] announces mobilization
+        | Estonia Ready To Immediately Close Border If Russia Announces Mobilization - uatv.ua
+[   0] announces mobilisation   ← 0 live hits
+[   0] mobilisation decree   ← 0 live hits
+[   3] general mobilization
+        | Estonia Ready to Close Russia Border if Moscow Declares General Mobilization. Here’s Why - UNITED24 Media
+        | Russian General Staff prepared plan for mobilization of 600,000 people with tuition in Belarus - intelligence - Ukrainian news
+        | Estonia is prepared to restrict entry by Russians if Russia declares a general mobilization - LIGA.net
+[   8] under temporary management Russian
+        | Putin asked to place Nestlé's Russian units under 'temporary management' - IntelliNews
+        | Putin puts U.S.-based packaging company AptarGroup’s Russian factory under temporary management by Danone’s former Russian arm - Meduza
+        | Putin put Russian assets of French supermarket chain Auchan and Swiss food giant Nestlé under temporary management. Neither company had left
+        | Le Monde: German retailer Metro asks Kremlin to place its Russian assets under temporary management - Meduza
+        | ‘Nestlé is committed to taking all necessary steps to protect its rights’: Nestlé and Auchan respond to Putin’s decree placing their Russian
+        | Putin Places AptarGroup’s Russian Factory Under Temporary Management - Dairynews.today
+        | Russia Places Metro AG's Russian Business Under Temporary Management Amid Rising Tensions - www.nationpathindia.com
+        | Under temporary management: assets of the German Metro network transferred to a Russian company - EADaily
+[  10] under temporary administration Russian
+        | Putin puts Nestle, Auchan Russian assets under temporary administration - TVP World
+        | Russian company asks Putin to place Nestle assets under temporary administration, Kommersant reports - Yahoo Finance UK
+        | Metro Russia Placed Under Temporary Forced Administration By Russian Government - ESM Magazine
+        | Putin Places Nestle and Auchan's Russian Assets Under Temporary Administration - Devdiscourse
+        | Weekly Recap: Russian unit under temporary administration and Indian shares drop ~3% - TradingView
+        | Russian firm petitions Putin to put Nestlé assets under ‘temporary administration’ - Food Manufacture
+        | Putin placed the Russian operations of Nestlé, Auchan, and Leroy Merlin under temporary administration - UA.NEWS
+        | Russian company asks Putin to place Nestle assets under temporary administration, Kommersant reports - Reuters
+        | Russian company asks Putin to place Nestle assets under temporary administration, Kommersant reports - TradingView
+        | Russian Company Reportedly Asked Putin to Place Nestlé Assets Under Temporary Administration - marketscreener.com
+
+SYNTHETIC control: Putin declares mobilization of reservists - Reuters -> ['declares mobilization']
+
+SYNTHETIC control: Putin orders new partial mobilisation - BBC -> ['orders mobilisation']
+
+SYNTHETIC control: Russia announces second wave of mobilization - AP News -> ['announces mobilization']
+
+SYNTHETIC control: Putin places Danone, Carlsberg Russian units under temporary management - Reuters -> ['under temporary management Russian']
+
+SYNTHETIC control: Russia puts Raiffeisen Russian unit under temporary administration - Bloomberg -> ['under temporary administration Russian']
+
+Verdict rule (WQ-295 R3): reject by name any phrase with >0 FALSE hits; the reader classifies, not this tool.

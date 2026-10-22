@@ -1,0 +1,57 @@
+WATCH_FOR harness — desk YURI · 5 phrase(s) · 14561 unique headlines over 91 lane days 2026-06-29 → 2026-10-21 · real matcher, in memory
+
+[   0] declares mobilisation   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] orders mobilisation   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] announces mobilisation   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] mobilisation decree   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] temporary administration Russia   ← 0 hits (zero noise; recall UNPROVEN)
+
+=== LIVE sample: 498 unique Google-News headlines, 9 query(ies), last 90d ===
+[   0] declares mobilisation   ← 0 live hits
+[   1] orders mobilisation
+        | DW: Russia has issued hundreds of thousands of mobilisation orders - UkrMedia News
+[   1] announces mobilisation
+        | Estonia ready to close border immediately if Russia announces mobilisation - Українська правда
+[   2] mobilisation decree
+        | New Russian mobilisation: Putin signs decree adding 15,500 troops to army - Inbox.eu
+        | New Russian mobilisation: Putin signs decree adding 15,500 troops to army - Inbox.lv
+[  23] temporary administration Russia
+        | Putin puts Nestle, Auchan Russian assets under temporary administration - TVP World
+        | Putin places Nestle and Auchan Russia units under temporary administration - India Today
+        | Russia puts German retailer Metro's assets under temporary administration amid Ukraine tensions - Reuters
+        | France urges Russia to reverse temporary administration of French, European subsidiaries - Anadolu Ajansı
+        | Russia puts Metro’s local business under temporary administration - Retail Insight Network
+        | Russian company asks Putin to place Nestle assets under temporary administration, Kommersant reports - Reuters
+        | AptarGroup says Russian subsidiary placed under temporary external administration - TradingView
+        | Russia Places Nestlé Russia Under Temporary Administration - Dairynews.today
+        | Metro Russia Placed Under Temporary Forced Administration By Russian Government - ESM Magazine
+        | Russia puts German retailer Metro's assets under temporary administration amid Ukraine tensions - Euronext Markets: Real-time Stock Market D
+        | Russia puts Aptar Europe Holding under temporary administration - TradingView
+        | Russia places Nestle business under temporary administration - Dairy Business Middle East & Africa
+        | France urges Russia to reverse temporary administration — Anadolu Agency - UA.NEWS
+        | Russia Places Nestlé Business Under Temporary External Administration - https://en.edairynews.com/
+        | Nestle responds to its Russian operations being placed under temporary administration - marketscreener.com
+        | AptarGroup Russian subsidiary placed under temporary external administration - Investing.com
+        | Nestlé's Russia Unit Continues Operations After Assets Placed Under Temporary Administration - marketscreener.com
+        | Weekly Recap: Russian unit under temporary administration and Indian shares drop ~3% - TradingView
+        | Putin Places Nestle and Auchan's Russian Assets Under Temporary Administration - Devdiscourse
+        | Putin placed the Russian operations of Nestlé, Auchan, and Leroy Merlin under temporary administration - UA.NEWS
+        | Russia places assets of French, German, Swedish and Belgian companies under temporary administration - vijesti.me
+        | Metro stock after-hours as Russia unit placed under temporary forced administration - ad-hoc-news.de
+        | Putin was urged to impose temporary administration over Nestlé's operations in Russia - UA.NEWS
+
+SYNTHETIC control: Putin declares mobilisation as war widens - The Guardian -> ['declares mobilisation']
+
+SYNTHETIC control: Russia announces mobilisation of 300,000 reservists - BBC -> ['announces mobilisation']
+
+SYNTHETIC control: Putin orders mobilisation - Financial Times -> ['orders mobilisation']
+
+SYNTHETIC control: Putin signs mobilisation decree - Reuters -> ['mobilisation decree']
+
+SYNTHETIC control: Russia places Danone unit under temporary administration - Reuters -> ['temporary administration Russia']
+
+Verdict rule (WQ-295 R3): reject by name any phrase with >0 FALSE hits; the reader classifies, not this tool.
