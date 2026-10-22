@@ -1,21 +1,43 @@
-# HENRY — first shortlist and event audit — DONE
+# HENRY — 2026-10-21 after-close boot and catch-up — DONE
 
-RESULT: Mosaic is the strongest residual candidate; ADM retains conditional weakness with fragile short-window magnitude. HII/Copart need qualification: worst-day/earnings exclusions change return signs and both outperform their broad sector over60sessions. No financing cause established.
+**RESULT:** Market fragility eased over two sessions: SPX is back above its estimated gamma flip, so dealers now damp moves rather than amplify them, though only by 8–13 points. Credit has not confirmed the recovery (HY 329bp on 10/19, still above the 320 line). Southwest's Q3 landed in a gap in my HEN-46 letter. The row resolves after American reports Thursday morning, under a disposition I wrote down tonight before American prints.
 
-CHANGED: event-audit/SHORTLIST.md and full RESULT,49event/adminentries,216scenario-conditionrows,222sourcefiles,peerextension,source receipts and validation; STATUS/MEMORY/NEXUS_BRIEF/KB185/board_log/consumed inbox moves; LIQUID/WALTER/PROME packets.
+**CHANGED:** `STATUS.md` (rewritten, prior copy preserved), `MEMORY.md`, `LAST_COMPLETION.md`, `NEXUS_BRIEF.md`, `domain/ECON_CALENDAR.md` (rebuilt), `workbook/PREDICTIONS.tsv` (HEN-46 note), `workbook/PUBLISHED.tsv`, `workbook/MARKET_DATA.tsv`, `scripts/credit_monitor.py` + `scripts/boot.py` (false all-clear fixed), `MAINTENANCE.md`, `board_log.tsv` (33 rows), `registry/corrections_receipts.tsv`, 33 inbox packets filed, `research/2026-10-21_boot/`.
 
-SESSION WORK:21SECfilings and8tenderforms, announcement-versus-filing clocks, earnings/events/worst/union/halo exclusions on paired benchmark dates. ICL is a stronger price comparison but size unverified; zero newlyacceptedcontrols. SecondaryMGM/WYNN,MCD/SBUX preserved. ExplicitCPRTACVclosedOct16/new2031facilityerratum; earlierreportversionpreserved. LIQUIDexactfirstshortlistread18:40:55 andCRUISEexactversionreadverified;newartifactconsumptionunverified.
+## Session work
 
-VALIDATION: counts/signs/independentlogproducts,sectorrelativewealth,222archivehashes andisolatedreproductionwithoutlocalrawcapturesPASS. PriorCOHORTsha278210be…/screenRESULTsha7667de05…unchanged. Readcap/corrections/weekday/schema checks performed atcloseout;no forecast/thresholdchange.
+| Item | Outcome |
+|---|---|
+| Gamma | POSITIVE at both horizons, flip band 7,744–7,749, SPX 7,757.17. Reverses the 10/19 negative read. Put wall 7,750, call wall 7,800 (35d band 7,800–8,000). |
+| Southwest (HEN-46) | Fuel $3.92/gal ($3.87 unhedged) vs $3.70–3.75 assumed; adj EPS $0.66, inside guide. Neither CONFIRM (≥$4.10) nor DENY (≤$3.85) — unnamed region. Overrun ~$93–121M pre-tax, absorbed by record unit revenue. |
+| American (HEN-46) | Disposition pre-stated: EPS < −$0.70 → CONFIRM; otherwise NO-VERDICT-AS-WRITTEN, not DENY. |
+| December crack (F1) | 10/21 settlement-window estimate $95.05, inside the ±$0.15 band around $95 → UNKNOWN. Held-Valero: <$95 is notice only; SELL recommendation is <$90.16. |
+| Credit | FRED down all evening. Fixed my monitor, which had printed "credit calm" on a dead feed. HY/IG ETF lag flagged to 10/20 (−0.98%), faded to −0.35% by the 10/21 close. |
+| Calendar | Rebuilt 10/22–11/25 at agency pages; five wake rows requested from PROME. |
+| Inbox / corrections | 30 WALTER signals + 3 general packets logged and filed; two corrections receipted NO-OP. |
 
-COMMITS:730ed937d event-auditresearch;4261b747e originalrepeat-loserresearch. This live closeout andrecipientpackets persist in separatelyexplicitpathcommits;fullhashesavailablefromtheirfilehistory.
+## GAPS / still pending
+- No fresh primary credit (FRED maintenance). BB and CCC cells are from 10/16.
+- F1 near-line UNKNOWN needs a settlement-grade print (finalized vendor row or BRENT's published figure).
+- ISM release dates unverified (ismworld.org 503).
+- Carried: Asia exchange-halt and tanker-cyberattack attribution, KRE Muse / TLT-flow sources, DGS30 scope, ISM late-evaluator ambiguity, real-yield letter.
 
-GAPS / STILL PENDING:primary4lackverifiedstrongerindustry/sizecontrols;publicationclocks/newscapture/WARNPDF403/foreignendpoint404andnullprices; broadhalosamplesbelowfloor. LIQUIDinitial9-name/22eventinvestigationnowconsumedexact5de5eeb1c;remainingcurrentfundingbridges/causalattributionandcombinedassessment/new-artifactconsumptionpending. WALexactfd3f986aecontextalsointegrated;recordinLATE-INTAKE.md/late-owner-consumption.json. Existingfuel/calendar/source/evaluatorcarry-ins inSTATUSnotcleared.
+## COMMITS
+- `2e59e4d8a` HENRY: 10/21 boot - gamma POSITIVE both, HEN-46 LUV leg, calendar rebuilt
+- `1ce61b98c` HENRY -> WALTER: gamma POSITIVE both horizons, F1 near-line notice
+- `d31e7cd77` HENRY -> PROME: econ calendar refreshed, five wake-row requests
+- Closeout commit carrying this file and the NEXUS_BRIEF fold (hash in the push receipt / message to PROME).
 
-NEXT SESSION FOLLOW-UP: nextcompletedsessioncancompareconditionalweaknesswithfrozenOct19;noautomaticmonitoringpromised. ExistingLUV10/21afterclose/AAL10/22resultsandBRENTF1publication/wakeconfirmationremain. PreserveVIOLETcurrentofficial/volchecks(noextrabreadth),WALearnings,TERRYexistingreconciliation/expiries/approvedmanagement,CRUISEreconciliation;PROMEcoordinatescombinedassessment.
+## NEXT SESSION FOLLOW-UP (dates Will cares about)
+- **Thu 10/22:** American Q3 before the open (call 08:30 ET), Southwest call 10:00 ET → HEN-46 resolves.
+- **Tue–Wed 10/27–28:** FOMC (no projections). **Thu 10/29:** GDP + September PCE. **Fri 10/30:** ECI, BOJ. **Sat 10/31:** Russian producer export restriction expires.
+- **Fri 11/6** jobs · **Tue 11/10** CPI · **Fri 11/13** PPI.
 
-THESIS SNAPSHOT:frozenatclose,baselinegamma/creditviewunchanged;equitydiagnosticstrongestMOS,qualifiedADM,mixedHII/CPRT. RSPpositive5/20/60andthreeprimaryfive-dayrecoveriespreventuniformdeteriorationclaim. No crashodds/rallyendingcall or newtrade/sizing/monitor.
+## THESIS SNAPSHOT (frozen at close)
+Cyclical: inflation pressure persists, 10Y above 5%. AI-capex: HEN-36 mechanism confirmed; Meta raised the low end of 2026 capex to $135B with a negative-FCF quarter (VULCAN grades). Structural credit: tail stress persists, no funding spiral established. Gamma positive but thin.
 
-WILL_NEEDS:None.
+## WILL_NEEDS
+None. No trade, no Telegram send.
 
-HONEST SCOPE:Codex/OpenAI,sameHENRYsession;exactmodel/nativeIDUNKNOWN,root/localinstructionloadingexplicit,nohelpers. Sharedforeignworkpreserved,nopull/stash. Filepackets/exactreadreceiptsareseparatefromnativefleetnotification/closeouthandshake,whichremainunavailable. Ownexplicitpathcommits andsafe-pushreceiptseparatelyreported.
+## HONEST SCOPE
+Claude Code, Opus 5.5 (`claude-opus-5-5`); native session ID not exposed. Root and desk instructions read explicitly. No subagents. PROME (prome-56) live concurrently; no pull this boot because other desks have uncommitted work in the tree. Packets delivered as files; recipient consumption UNKNOWN. Gamma is a free-tier proxy; all tape values are vendor quotes, not exchange-certified closes.
