@@ -56,3 +56,4 @@ Court-procedure developments (remand, stay relief, the §523 suit, motions) **ne
 ## 6. Amendments (dated; permitted only until the 10-Q appears on EDGAR)
 
 - *2026-10-22: registered. Will informed in-session the same day; no amendment yet.*
+- *2026-10-22 12:37 ET: **Will approved the table as written** (in-session, verbatim "yes approved"). No cell amended. The amendment window stays open only until the 10-Q appears on EDGAR.*

@@ -23,7 +23,7 @@
 8. **Coverage gaps** (sweep G3–G11): credit ratings (none on file), WAL debt/preferred spreads, implied vol/short interest (FINRA 10/15 settlement), Q3 13F (~11/16), Form 144, uninsured-deposit mix (check the REGINALD boundary), LEADERSHIP.md refresh (3/31 vintage).
 9. Optional: if Quartr is re-authenticated, check the two B2 call transcripts against issuer audio; no grade depends on it.
 10. Never built: `boot.py` (charter step 5).
-11. **Charter edits owed, waiting on Will's own word** (DAEDALUS 10/22 items 6 and 8b; not made on a peer request): cite root session-end steps 1b–1e; drop the restated rebase recovery in favour of root; refresh the identity block for post-print; add a NOT-FIRED trade-idea route to TERRY; add the re-score rule and the inbox-lane check to the FILES/boot tables.
+11. ~~Charter edits~~ **DONE 10/22 12:4x ET on Will's own word** ("you can make claude.md edits now with my permission"): identity block post-print, USER.md read at boot step 0, inbox lanes via 4c, root 1b–1e cited, non-ff recovery → root step 3, NOT-FIRED idea route to TERRY, re-score rule + maintenance check in the tables, POSITIONS declared the only trade surface. Will also approved the re-score table (12:37 ET).
 
 **Earnings caveat that must travel (from 10/19):** the Q3 release reclassifies customer derivatives/FX from FV into commercial fees, with no income effect. Q2 FV is now 8.3 vs 12.8 in the old October 14 screen. The new Q3 comparative PPNR less security sale/FV (401.8 vs 401.1) is a diagnostic, not issuer-adjusted EPS nor the old 8.98 annual screen; hedge/persistence unknown. The old consensus (KB-223) is stale with an unmatched basis. REGINALD retains funding/cohort/severity.
 
