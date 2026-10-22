@@ -362,3 +362,11 @@ When aggregate growth is zero or negative, the growth-contribution percentage is
 Revision policy is GRADE-AT-PUBLICATION, preserving the legacy default. Grade dated official observations when published; annotate later revisions without silently adding a quarter, retro-firing or un-firing. Preserve a historical fire with annotation. Missing or incomparable quarterly observations cannot prove an uninterrupted entry or exit run: state UNKNOWN for the affected run until comparable official observations are available. A revision is not another quarterly print. No historical grade is reconstructed from today's latest-vintage series.
 
 As of this ruling, the recorded official run remains 2 of 3 through 2026Q2. Q3 has not been officially graded. The 2026-10-10 Q3 debt nowcast does not increment that count. Read composition evidence at `research/FHLB/README.md`; historical research retains its dated as-made alarm description.
+
+## Prediction resolve-by sidecar (added 2026-10-22, DAEDALUS D:L793 item 5)
+
+`registry/PREDICTION_RESOLVE_BY.tsv` carries one dated `Resolve_By` per OPEN row in `workbook/PREDICTIONS.tsv`, with its anchor type (CALENDAR_DATE or EXPECTED_EVENT). The ledger itself is not edited because REG-01 and REG-06 are byte-frozen. `scripts/boot.py` reads the sidecar at every boot:
+- an OPEN row past its date → ALERT
+- an OPEN row with no sidecar row → INCOMPLETE
+
+**New predictions get a sidecar row in the same commit that registers them.** A slipped expected event is recorded in the sidecar Notes; the date is never moved silently.

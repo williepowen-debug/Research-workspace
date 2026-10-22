@@ -31,6 +31,8 @@ Prior handoff (10/21) preserved in git history of this file and `archive/MEMORY_
 
 Later 10/22: EGBN Q4-wall dive (`reports/2026-10-22_EGBN_Q4_maturity_wall.md`) and the appraisal-discount cohort test (`reports/2026-10-22_appraisal-discount_cohort_test.md`, Will-approved). FLG SR 07-1 basis note added to matrix §3b (FLG packet verified at FDIC API). Quartr needs a Pro subscription (unavailable). EGBN call transcript not public; replay on the IR site through 11/5.
 
+Afternoon 10/22 (Will-approved): DAEDALUS D:L793 fixes done. Charter step 9 now obliges ACKs on the OZK/WAL pair channels (WQ-484), with ACKs written. Exit rail re-derived (CBRE leg retired; CRE anchor re-keyed to WAL-01/02, NOT FIRED). TRADE/POSITIONS reconciled to the FORGE 10/22 capture (HBAN Oct-16 terminal, outcome UNKNOWN). boot.py: inbox/channel/resolve-by checks, non-zero exit. Resolve-by sidecar registry/PREDICTION_RESOLVE_BY.tsv. CALENDAR rotated to 22,977 B. CREED launched 12:19 and answered the CRE leg (rate shock, not credit).
+
 ### CHANGES SINCE LAST SESSION
 
 ### NEXT SESSION
@@ -38,7 +40,8 @@ Later 10/22: EGBN Q4-wall dive (`reports/2026-10-22_EGBN_Q4_maturity_wall.md`) a
 2. H.4.1 10/22 16:30 primary credit vs descriptive lines (>12.9B / >15.7B, catchup §1e); H.8 Fri 10/23 small-bank deposits/borrowings. Not a registered threshold; registration needs base-rate pass + Will.
 3. EGBN call 10/22 transcript (not heard): Prince George's reserve, 4Q MF maturities, 009/014 destination. VLY 10-Q (~11/10): mods/re-defaults, MF buckets. SSB 10-Q: classified accrual-share cell + REG-27 confirm.
 4. WAL settled log complete through 10/21 (36 rows, run 0). REG-T-06 leg 3 grades 11/13 CFR (RULED B). JWT renewal before 11/5 Will-owned; 11/07 run.
-5. Nano P&A/DEWEY checkpoint 10/27. CCB/CASH/GDOT Q3 dates still unchecked.
+5. Nano P&A/DEWEY checkpoint 10/27. CCB/CASH/GDOT Q3 dates still unchecked (add to the earnings table when verified at issuer).
+6. Run boot.py at next boot: first live run of the new built-in legs + exit codes (tested in isolation 10/22, guard falsified on a synthetic channel). Deferred D:L793 findings: frozen feeds still in BOOT_SEQUENCE (READS change needs PROME), glued-word re-spacing on next touch of each surface, MTB/ banner + root-file retirement at the 11/20 re-check.
 
 **CARRIED LESSONS — behaviour, not record.** *Newest first. Aging rule (9/02): full entry → one-line rule AND the full text goes to `archive/` verbatim + crc in the same pass. ⛔ Never age a lesson by deletion (the 12-21 compressions archived nothing; git history only). Preamble → BLOCK M7, crc32 `8028ecb4`.*
 47. **[10/10 eve] In a SendMessage to PROME I typed a commit reference ("ab9b-REGINALD") that no command had printed; I sent the real hash (`8d31de2aa`) one message later.** The same session I keyed two FHLBank CIKs from memory (1325878 = Topeka, 1316220 = CAPE Holding); the filer-name check caught both before use.

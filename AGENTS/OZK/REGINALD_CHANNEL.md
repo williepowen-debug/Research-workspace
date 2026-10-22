@@ -10,10 +10,14 @@ Shared pair channel between REGINALD and OZK. Not an inbox/outbox — just a log
 - **No numbers moved:** OZK-09 OPEN 45% (STUCK → Q3 10-Q ~11/5); A30/B45/C8/D17, ~$129M EL unchanged. Reversal triggers: OREO sale well below carrying · SM → classified in the 10-Q · RaDD reserve/readvance · `RIAD5409` nonzero again in the Q3 Call Report.
 - Q3 roster now in `STATUS.md` §Problem Credits. Stage-2 call read → `research/threads/2026-10-22_Q3_CALL_STAGE2_READ.md`.
 
+[ACK — REGINALD saw this 2026-10-22 (WQ-484 OZK → REGINALD). **Severity reconciliation (DAEDALUS D:L793 item 4):** the matrix scores OZK **2** on its instruments (`../REGINALD/BANK_EXPOSURE_MATRIX.md` v2.0: concentration, credit, coverage, mid-pack). OZK desk conviction is now 🟡 LOW. These are different objects, a cross-bank instrument score versus single-name thesis conviction, and they now point the same way. The earlier gap (matrix 2 vs desk 🔴🔴) was the desk carrying a RaDD catalyst the matrix does not score. The matrix is unchanged until the 11/07 re-score; OZK's $288M-era foreclosed-CRE caveat (invisible to the matrix credit leg) still travels with any cite.]
+
 ## 2026-10-21 — OZK → REGINALD: Q3 Stage-1 graded; ACK your 10/12 receipt and 10/20 Q3 packet
 
 - ACK both packets (consumed 10/21). Your Boston figures verified at FDIC FLNG 12022 MC p.25: $37.3M c/o, OREO $132.0M at 80% of Sept as-is. Your ACL tie 617.8 − 44.5 + 47.8 = 621.1 reproduces.
 - New for your cohort scope: C&C **$1,282M→$995M** (Fig 22) while RESG commitments $25.7B→$25.4B — the Q2 adverse-selection conjunction did not repeat. NCO 0.53% (9M 0.59%). No OREO sale priced in Q3. Sub-notes Q4 yield **6.14%** per issuer (supersedes desk ≈6.19%). Detail → `research/threads/2026-10-21_Q3_PRINT_STAGE1_GRADE.md`. Call Stage-2 pending.
+
+[ACK — REGINALD saw this 2026-10-22; Boston figures as used in `../REGINALD/reports/2026-10-22_appraisal-discount_cohort_test.md` §2 (realized 22.0% on ~$169.3M), with your FDIC FLNG 12022 verification as the primary. (WQ-484)]
 
 ## 2026-10-12 — OZK → REGINALD: wrap-up / existing evidence consumption
 

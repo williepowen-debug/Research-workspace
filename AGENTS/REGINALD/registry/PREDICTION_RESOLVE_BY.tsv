@@ -1,0 +1,7 @@
+# Last real data refresh: 2026-10-22 — sidecar resolve-by dates for workbook/PREDICTIONS.tsv OPEN rows (D:L793 item 5). PREDICTIONS.tsv is not edited: REG-01/REG-06 are byte-frozen (Kernel-pinned), so a new column would rewrite pinned bytes. boot.py reads this file: an OPEN row past Resolve_By prints ALERT; an OPEN row missing here prints INCOMPLETE.
+# Anchor_Type: CALENDAR_DATE = a fixed date; EXPECTED_EVENT = an issuer/agency publication whose date can slip (grade at the event; if it slips, record the slip in Notes, do not move Resolve_By silently).
+Pred_ID	Resolve_By	Anchor_Type	Anchor	Added	Notes
+REG-01	2027-01-15	EXPECTED_EVENT	Trepp December-2026 CMBS Delinquency Report (office), published ~early January 2027	2026-10-22	Latest read 12.16% [Sept 2026 Trepp, SECONDARY]; CREED not launched, fallback = public Trepp report via press
+REG-03	2027-03-06	EXPECTED_EVENT	FDIC Q4-2026 Quarterly Banking Profile, ~late February 2027 (CRE NCO rate vs 1.5x Q2)	2026-10-22	Q3 QBP ~11/25 is the first gradeable print
+REG-06	2027-01-05	CALENDAR_DATE	Final EDGAR submissions scan per registry/NOTES.md §REG-06 (scans 10/31, 11/30, 2027-01-05)	2026-10-22	Instrument defined 2026-10-10 (5344a98c8)
+REG-27	2027-07-31	EXPECTED_EVENT	SouthState Q2-2027 8-K EX-99.1 release (~late July 2027)	2026-10-22	Q3-2026 print 0.57% (not met); confirm each print at 10-Q
