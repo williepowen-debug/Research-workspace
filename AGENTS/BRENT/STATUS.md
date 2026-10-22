@@ -2,7 +2,7 @@
 
 **Current judgment:** THESIS v5.13 / WAIT retained from the October 14 assessment; product scarcity may persist alongside crude recovery. **October 21:** Hormuz volume is back to ~14 mb/d, 82% of pre-war (Kpler, preliminary, via WSJ, week to 10/18) [EST secondary], while Brent December holds near $109. The price is carrying freight, insurance and inventory scarcity rather than measured lost crossing barrels; net loss after the latest attacks is still unmeasured. PortWatch's ~4 ships a day is an AIS-visible lower bound, not a volume. US gasoline demand is not weakening (four-week +1.46% YoY); BRT-31 week two NON-QUALIFYING, OPEN at 40%. [October 21 report](research/2026-10-21_eia-oct21/REPORT.md). Trade authority and structural receipts → [TRADE](TRADE.md).
 
-**Evidence limits / next work:** HENRY's December crack observations were ADOPTED 10/21 on the WQ-420 native-tick basis and extended to 10/20 and 10/21 (source-(3) ESTIMATES; CME settlement not obtained). **10/21 = $95.0479, $0.048 above the $95 notice line**: not below on the leg-A letter, F1 UNKNOWN on HENRY's band; TERRY grades and owns the open band question. [Adoption](research/2026-10-21_henry-december-adoption/REPORT.md). The Kpler October primary and the WSJ article were not read; the 14 mb/d figure is a relayed preliminary. COT #11 (as-of 10/20) releases Friday 10/23; BRT-30 resolves 10/26 (no JWC circular after JWLA-035 at 10/21 21:16 ET). FRED was down for scheduled maintenance at the 10/21 boot, so Dated Brent spot and HY OAS lines were not re-read. Policy coverage for BRT-31 remains bounded; no exhaustive 50-state contamination clearance. USO short-interest and lending, company valuation edge and broker truth remain unproved. The 10/21 boot returned FINDINGS (FRED dead, JWC and tanker-liveness stale, 25 aged INCIDENTS rows, LESSONS_INDEX ledger stale); no clean-data claim.
+**Evidence limits / next work:** HENRY's December crack observations were ADOPTED 10/21 on the WQ-420 native-tick basis and extended to 10/20 and 10/21 (source-(3) ESTIMATES; CME settlement not obtained). **10/21 = $95.0479, $0.048 above the $95 notice line**: not below on the leg-A letter, F1 UNKNOWN on HENRY's band; TERRY grades and owns the open band question. [Adoption](research/2026-10-21_henry-december-adoption/REPORT.md). Kpler's newest reachable primary (10/1) puts Gulf crude exits plus bypass at ~100% of pre-war (18.5 mb/d) but **clean products ~50% below pre-war**; that is primary support for the product-scarcity line. The October-week 14 mb/d remains relayed and preliminary, partly corroborated by a partial-fleet tracker (Lvision 14.7); Kpler's 24.6 mb/d regional figure is disputed and not adopted ([§8](research/2026-10-21_eia-oct21/REPORT.md)). COT #11 (as-of 10/20) releases Friday 10/23; BRT-30 resolves 10/26 (no JWC circular after JWLA-035 at 10/21 21:16 ET). FRED was down for scheduled maintenance at the 10/21 boot, so Dated Brent spot and HY OAS lines were not re-read. Policy coverage for BRT-31 remains bounded; no exhaustive 50-state contamination clearance. USO short-interest and lending, company valuation edge and broker truth remain unproved. The 10/21 boot returned FINDINGS (FRED dead, JWC and tanker-liveness stale, 25 aged INCIDENTS rows, LESSONS_INDEX ledger stale); no clean-data claim.
 
 **Last real data refresh: 2026-10-21T21:16:08-04:00 — SCOPED-PARTIAL:** re-verified EIA WPSR week 10/16 (release-day primary capture), EIA retail gasoline 10/19, Brent/WTI December settles 10/21 (secondary, arithmetic-checked against vendor bars), evening named-contract quotes, PortWatch Hormuz 10/5–10/18 and the JWC circular index. Not re-verified: COT, rigs, Dated Brent spot, broker positions, cargo, company or holding grades. Earlier source clocks retain their dates. [Former refresh boundary](archive/2026-10-20_organisation-cleanup/STATUS.md.before.md).
 
@@ -68,9 +68,15 @@
 | **Thu Oct 15** | ✅ IEA GOVERNING BOARD — GRADED October20: October15 statement/acceleration verified; delivery sizing remains open | 🟠 |
 | **~Thu Oct 22** ⌁*modeled* | G7 STOCK IMPLEMENTATION — modeled end of first20-day frontloaded-diesel window (October2 commitment,100M oil over4months; incremental overlap not assumed) | 🟠 |
 | **Thu Oct 22** | VALERO Q3 2026 RESULTS — L689 margin/operations comparison | 🟠 |
+| **Thu Oct 22** | HELD VLO LEG-A — first December observation after the 10/21 near-line read ($95.0479) | 🟠 |
+| **Thu Oct 22** | AAL Q3 RESULTS (call 08:30 ET) and LUV Q3 CALL (10:00 ET) — HEN-46 resolution; realized jet-fuel cost read | 🟡 |
+| **Fri Oct 23** | CFTC COT #11 — as-of October 20, release ~15:30 ET (COT-FUEL-35B) | 🟠 |
 | **Sat Oct 24** | TEXAS DIESEL WAIVER — existing 20-day window ends | 🟠 |
+| **Sat Oct 24** | WQ-264 YANBU BERTH SHADOW RUN ENDS — Saudi restart resolver becomes registrable | 🟠 |
 | **Mon Oct 26** | USO SHORT INTEREST — October15 settlement snapshot publication | 🟡 |
+| **Mon Oct 26** | BRT-30 RESOLVES — JWC Listed Areas still include the Persian/Arabian Gulf AND the Gulf of Oman? | 🟠 |
 | **Wed Oct 28** | PHILLIPS66 Q3 2026 RESULTS — L689 refiner comparison | 🟡 |
+| **Wed Oct 28** | EIA WPSR — week ending 10/23, BRT-31 third window week (standard Wednesday 10:30 ET) | 🟠 |
 | **Fri Oct 30** | BZZ26 LAST TRADING DAY — boundary #8 (Brent 3:2:1) month switch: Dec legs BZZ26/RBZ26/HOZ26 → Jan BZF27/RBF27/HOF27 from the FIRST SESSION AFTER (Mon 11/2) | 🟡 |
 | **Sat Oct 31** | RUSSIA PRODUCER DIESEL EXPORT BAN — extended expiry (successor to the 9/30 row) | 🟠 |
 | **~Sun Nov 1** ⌁*modeled* | 🟠 EU GAS STORAGE — RESOLVED 2026-08-13: the target, the DATE and the pace are now all verified | 🟠 |
@@ -84,9 +90,9 @@
 | **Sun Jan 31 2027** | RUSSIA FUEL EXPORT BAN — full expiry (gasoline all-participants + non-producer diesel) | 🟡 |
 | **Wed Apr 7 2027** | OFAC GENERAL LICENSE 135 EXPIRES — Russian-origin diesel (sale, delivery, offloading, importation incl. into the US) authorized through 12:01 a.m. EDT 4/7/2027 | 🟡 |
 
-*`~` + ⌁*modeled* = `date_class=modeled` in the record: a PROJECTED date, not a published one — do not grade a row against a modeled date as though it were confirmed. 5 of 26 rows are modeled.*
+*`~` + ⌁*modeled* = `date_class=modeled` in the record: a PROJECTED date, not a published one — do not grade a row against a modeled date as though it were confirmed. 5 of 32 rows are modeled.*
 
-*26 event(s), generated from `docket/CATALYSTS.tsv` — the canonical forward-state record. Full graded text lives there and is deliberately not restated. Regenerate with `scripts/render_calendar.py --write`; verify with `--check` at closeout.*
+*32 event(s), generated from `docket/CATALYSTS.tsv` — the canonical forward-state record. Full graded text lives there and is deliberately not restated. Regenerate with `scripts/render_calendar.py --write`; verify with `--check` at closeout.*
 
 <!-- CALENDAR:END -->
 **✅ FIRED & GRADED history:** canonical text remains in `docket/CATALYSTS.tsv`; it is not duplicated here.

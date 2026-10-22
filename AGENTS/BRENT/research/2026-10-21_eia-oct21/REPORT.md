@@ -102,3 +102,20 @@ IUA JWC risk-list index read 21:16 ET (`jwc-iua.html`, HTTP 200): **newest circu
 | Recent | 9–10 mb/d | Windward, a different vendor | relayed, not read |
 
 **Cross-check:** 14 / 17.1 = 81.9%, so the WSJ 82% sits on Al Jazeera's 17.1 mb/d Kpler Hormuz pre-war baseline. The level and baseline are internally consistent. **Reading:** the 10/12–10/18 week did not deepen on volume. Relayed Kpler shows a recovery from a 10/11 trough (~8.5 → ~11.6 → ~14 mb/d), while PortWatch's AIS-visible count deepened in the same week. That divergence is what an AIS-dark shuttle trade predicts. Windward's 9–10 mb/d is a lower vendor estimate, and the vendor spread is wide. Treat ~14 mb/d as the upper end of a relayed range, not a measurement. The recorded figure in §3 stands with its [EST secondary] tag.
+
+## 8. Kpler October check (Will 21:59 ET) — what the primaries say
+
+**Kpler primary, newest reachable: "Hormuz: Normalisation no longer needs to wait for a deal", Matt Wright, 2026-10-01 (read at kpler.com).** No weekly or October-dated flow figure is in the text; chart values are images.
+
+| Kpler primary statement (10/1) | Basis as written |
+|---|---|
+| Crude exiting the Gulf (excl. Iran) plus West Coast Saudi and East Coast UAE "around pre-conflict levels of 18.5 Mbd" ("now around 100%") | Crude; Gulf exits plus bypass routes; Iran excluded; period unstated |
+| **Clean products: 3 Mbd "earlier in September", 2.5 Mbd "in recent days", "around 50% below pre-war levels"**; "the key pressure point"; Gulf refinery runs and exports "have not normalised alongside crude" | Clean products, Mideast Gulf plus diverted routes |
+| "Since early September, Qatar has re-commenced shipping cargoes through Hormuz on a dark basis, alongside sustained dark transits from the UAE" | Qualitative; confirms dark transits at primary |
+| Base case: "slower, uneven normalisation under continued conflict"; full reopening "should not be expected in the next six months"; freight "elevated" and embedded in delivered crude | Outlook |
+
+**The October-week Kpler figures remain secondary-only** (WSJ via IBTimes 10/21 13:31 ET; Bloomberg 10/21 summary): Hormuz ~14 mb/d (82%, preliminary, incl. Gulf of Oman offshore transfers); Persian Gulf crude + condensate 24.6 mb/d in the week to 10/18 (a high, vs 23.3 pre-war), October-to-date still below pre-war. VLCC Gulf→China freight ~$37.37/bbl (Kpler); war-risk insurance up to 10% of hull value vs <3% (Windward).
+
+**Independent cross-check (non-Kpler, unverified tracker):** Lvision (pgcrudeflows.lvision.ae, an X trader account; read 10/21). It shows a 7-day average to 10/18 of **11.2 mb/d via Hormuz plus 3.5 mb/d from Fujairah/Omani ports = 14.7 mb/d** (relayed by D. Jensen, Substack 10/21; Lvision's own page is AIS + satellite). By its own methodology "some Suezmaxes / all Aframaxes and Panamaxes are not tracked", so it is a partial-fleet lower bound. **It roughly corroborates Kpler's ~14 mb/d on the Hormuz-plus-Gulf-of-Oman basis.** Jensen disputes the **24.6 regional** figure, citing very low Yanbu loadings on satellite to 10/17 (MerruX on X; no number). That dispute is unresolved and BRENT does not adopt either side. Ship counts disagree by an order of magnitude across counters: PortWatch 26 per week (AIS-visible); Kpler ~20 known completions over ten days; CENTCOM ~400 merchant ships in the prior week (relayed; not read at primary).
+
+**Effect on BRENT's recorded figure:** unchanged. ~14 mb/d Hormuz basis (Kpler preliminary) [EST secondary], now with partial independent corroboration (Lvision 14.7, partial fleet). The regional 24.6 is **not** adopted. **New and material for the thesis:** Kpler's own primary puts clean products ~50% below pre-war while crude is ~100%. That is direct support at primary for v5.13's product-scarcity line (crude recovers, products lag), and it is the strongest reason Brent and the diesel margin stay high with crude back. It is not a version change. The figure is dated early October; current product volume is unmeasured.

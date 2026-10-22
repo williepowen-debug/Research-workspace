@@ -1,4 +1,4 @@
-# BRENT SCRATCH — October 21 catch-up (21:11–21:4x ET)
+# BRENT SCRATCH — October 21 catch-up (21:11–22:0x ET)
 
 ## CHANGES SINCE LAST SESSION
 - EIA week 10/16 (released 10/21): commercial crude −3.061 M to 412.517 M; gasoline −2.952 M; distillate +1.674 M; production 13,269 kb/d (−410 w/w). Gasoline demand four-week +1.46% YoY.
@@ -20,13 +20,15 @@
 2. **Friday 10/23 ~15:30 ET:** COT #11 (as-of 10/20). Run `cot_grade.py --expect 2026-10-20` after release only. Record the Baker Hughes print only.
 3. **Monday 10/26:** grade BRT-30 on the JWC circular number (10/21 index: newest JWLA-035 Black Sea). Read the complete note `thesis/prediction_notes/BRT-30.md` first. The USO short-interest publication is the same day.
 4. **Wednesday 10/28 10:30 ET:** EIA week 10/23, the third BRT-31 window week; it can only start a streak. Price leg: retail on 10/26 vs 2025-10-27.
-5. OSPREY ask: confirm Bloomberg Russia four-week seaborne exports to 10/11 (~3.7 M bpd) at text if access allows.
+5. **Docket now carries the dated next steps** (added 22:0x ET at Will's request): 10/22 leg-A observation and AAL/LUV; 10/23 COT #11; 10/24 WQ-264 shadow end; 10/26 BRT-30; 10/28 EIA week 10/23. Existing rows cover Valero 10/22, Texas waiver 10/24, USO SI 10/26, BZZ26 roll 10/30, Russia 10/31, OPEC+ and DST 11/1.
+6. OSPREY ask: confirm Bloomberg Russia four-week seaborne exports to 10/11 (~3.7 M bpd) at text if access allows.
 
 ## OPEN THREADS / WATCHES
-- 🔴 Hormuz: the Kpler October primary is unread; the ~14 mb/d is relayed and preliminary. Watch for revision and for any Kpler daily collapse like 10/11 (~2.9 M bbl relayed).
+- 🔴 Hormuz: **Kpler check done 22:0x ET** ([§8](research/2026-10-21_eia-oct21/REPORT.md)). The newest Kpler primary (10/1) has no October weekly figure; the 14 mb/d is still relayed. Kpler's 24.6 regional figure is disputed (Yanbu low on satellite per Jensen/MerruX) and not adopted. Watch for the Kpler weekly note and the Yanbu loading level. Clean products ~50% below pre-war (Kpler 10/1) is the thesis-relevant fact.
 - 🟠 Saudi/Houthi strikes: the 10/19 Houthi claims (Yanbu, Shaybah) have no Saudi confirmation. The 10/21 Shaybah event was an intercept. FALCON grades; there is no BRENT INCIDENTS row without confirmed facility damage.
 - 🟠 Russia diesel: producer restriction expires 10/31 (docket). The 40 kt first loading is intent; departures (Leruo, Dolunay) are not deliveries.
 - 🟠 KILL-LEG2-JWC-LISTING REGISTRY stamp is still 10/05 (instrument check STALE). Tonight's index read was not written into REGISTRY; re-stamp at the BRT-30 grade.
+- 🟡 Undated housekeeping: re-verify the 25 aged INCIDENTS rows; Will-owned (no deadline): added-VLO-share scope (TERRY rec A ready) and any new energy capital (BRENT WAIT).
 - 🟡 NC gasoline-tax and 50-state contamination caveat carries forward for any final BRT-31 NOT MET. Jet-margin basis, DOE reserve conflict and USO short-interest gaps remain deferred.
 
 ## POSITION DECISIONS PENDING
