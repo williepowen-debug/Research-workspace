@@ -162,13 +162,17 @@ FULL closeout 2026-10-22T00:56:28Z. Nine evening dispatches; seven WALTER commit
     {
       "commit": "06d5fa947",
       "state": "published"
+    },
+    {
+      "commit": "3dec22dab",
+      "state": "published"
     }
   ],
   "delivery": {
     "signal_date": "20261021",
-    "total": 81,
-    "delivered": 81,
-    "note": "All 81 October21 handoffs (001-022) published on origin/master after reconciliation; publication, not consumption."
+    "total": 109,
+    "delivered": 109,
+    "note": "All 109 October21 handoffs (001-030) published on origin/master after reconciliation; publication, not consumption."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
@@ -200,7 +204,7 @@ FULL closeout 2026-10-22T00:56:28Z. Nine evening dispatches; seven WALTER commit
     "14": "Finding #49 added; MEMORY 100 lines; pruned note preserved verbatim in MEMORY_PROMOTED.",
     "15": "Prior LAST_COMPLETION preserved verbatim; carries retained.",
     "16": "Exact-path commits; push per PROME/Will direction via safe-push; reconcile after.",
-    "bookmarks": "Batches 12-16 closed; 94-ID stage review complete and validated; production NOT marked (PROME direction); laptop X token dead.",
+    "bookmarks": "X re-authorized 02:04Z; fresh scan staged 169; review validated; 169 marked 02:10Z; older coverage INCOMPLETE (500-row cap).",
     "WQ-204": "Phone sweep retired at ec13c391a (published)."
   }
 }
