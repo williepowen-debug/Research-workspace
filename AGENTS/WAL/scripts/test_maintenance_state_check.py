@@ -18,7 +18,8 @@ class MaintenanceRegressions(unittest.TestCase):
         p=self.root/'CLAUDE.md';p.write_text(p.read_text()+'\nLive book = one Dec-18 $70P.\n')
         self.assertIn('position-mirror',[x[0] for x in current_fields(self.root)])
     def test_accepted_activity_date_cannot_stay_unknown(self):
-        self.mutate('POSITIONS.md','**Bought October7**','Acquisition date / fill price / card: UNKNOWN')
+        # Fixture keyed on the current accepted-activity wording (the old '**Bought October7**' token rotted 10/19).
+        self.mutate('POSITIONS.md','acquisition October 7 from earlier Activity','Acquisition date / fill price / card: UNKNOWN')
         self.assertIn('position-acquisition',[x[0] for x in current_fields(self.root)])
     def test_old_unannounced_row_is_detected(self):
         p=self.root/'workbook/KB.tsv';s=p.read_text().splitlines()
@@ -27,11 +28,22 @@ class MaintenanceRegressions(unittest.TestCase):
         p.write_text('\n'.join(s)+'\n')
         self.assertIn('obsolete-earnings-date',[x[0] for x in current_fields(self.root)])
     def test_wrong_nav_group_count_is_detected(self):
-        self.mutate('workbook/KB_INDEX.md','| HIDDEN_CRE | 39 |','| HIDDEN_CRE | 37 |')
+        # Read the live count instead of a hard-coded one (the fixed 39 rotted as rows were added).
+        import re
+        p=self.root/'workbook/KB_INDEX.md';s=p.read_text();n=int(re.search(r'\| HIDDEN_CRE \| (\d+) \|',s)[1])
+        p.write_text(s.replace(f'| HIDDEN_CRE | {n} |',f'| HIDDEN_CRE | {n-2} |',1))
         self.assertIn('KB-group',[x[0] for x in current_fields(self.root)])
     def test_old_index_auto_loading_is_detected(self):
         p=self.root/'INDEX.md';p.write_text(p.read_text()+'\nCLAUDE.md auto-loads when launched from this dir.\n')
         self.assertIn('runtime-loading',[x[0] for x in current_fields(self.root)])
+    def test_unrowed_walter_signal_is_detected(self):
+        p=self.root/'inbox'/'WALTER'/'SIG-W-20991231-001.md';p.parent.mkdir(parents=True,exist_ok=True);p.write_text('x')
+        self.assertIn('inbox-WALTER',[x[0] for x in current_fields(self.root)])
+        (self.root/'board_log.tsv').write_text('timestamp_read\tsignal_id\n2099\tSIG-W-20991231-001\n')
+        self.assertNotIn('inbox-WALTER',[x[0] for x in current_fields(self.root)])
+    def test_loose_inbox_packet_is_detected(self):
+        p=self.root/'inbox'/'2099-12-31_from-X_test.md';p.parent.mkdir(parents=True,exist_ok=True);p.write_text('x')
+        self.assertIn('inbox-unprocessed',[x[0] for x in current_fields(self.root)])
     def test_cleared_history_does_not_offset_new_hit(self):
         old=[{'identity':'accepted-history-a'},{'identity':'accepted-history-b'}]
         now=[{'identity':'accepted-history-b'},{'identity':'new-live-error'}]

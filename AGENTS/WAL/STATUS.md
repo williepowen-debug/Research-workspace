@@ -1,8 +1,12 @@
 # WAL STATUS
 
-**Last Updated: 2026-10-22 12:19 ET — catch-up, L171 frame freeze, desk sweep, court checks, text cleanup and Q3 thesis fold (Will, interactive).** Thesis **v2.4** / EV **$75.96** / PT **$52–76** / weights / composite **13/25** unchanged. The Q3 evidence is now folded into THESIS and WEAKNESSES as a dated, no-re-mark entry (CHANGELOG 2026-10-22). The re-score is deliberately held until the Q3 10-Q, because the $99M appraisal gates Bear-medium. KB **257 rows / 20 groups**.
+**Last Updated: 2026-10-22 12:30 ET — catch-up, L171 frame freeze, desk sweep, court checks, text cleanup, Q3 thesis fold, re-score rule pre-registered, DAEDALUS D:L793 fixes (Will, interactive).** Thesis **v2.4** / EV **$75.96** / PT **$52–76** / weights / composite **13/25** unchanged. The Q3 evidence is now folded into THESIS and WEAKNESSES as a dated, no-re-mark entry (CHANGELOG 2026-10-22). The re-score is deliberately held until the Q3 10-Q, because the $99M appraisal gates Bear-medium. KB **257 rows / 20 groups**.
 
 *Text cleanup 10/22: this file was rewritten with normal spacing and the superseded history paragraphs (10/19–10/21 headers, prior price lines, coordination and closeout receipts) were moved out. The exact prior text is at `archive/STATUS_before-cleanup_2026-10-22.md` (sha256 028d625a…6eff); earlier history at `archive/STATUS_before-Q3-stage1_2026-10-19.md`.*
+
+## BOTTOM LINE (2026-10-22)
+
+Q3 went against the credit bear: no new office problem loans, losses 30bps, reserves 118% of non-paying loans. What is left of the bear rests on **the $99M appraisal**, which the release, deck and call never mentioned, and on the foreclosed-property / early-warning build (OREO +$39M, special mention +$81M). **The Q3 10-Q (EDGAR ≥ Mon 10/26, statutory Mon 11/9) is the one carrier that decides it.** How each 10-Q outcome moves the weights is now **pre-registered** in `Q3_10Q_RESCORE_RULE_2026-10-22.md`: a cure fires the Bear-medium kill (16 → 8); still non-paying or unmentioned trims it 16 → 12; a partial write-down holds 16; a majority loss raises it 16 → 20. Until then v2.4 stands unchanged.
 
 ## TODAY (10/22)
 
@@ -76,6 +80,8 @@ Composite 13/25; weights 2/16/45/30/7 unchanged (THESIS owns them). No independe
 
 ## EXIT RULES
 
+*Kill rail re-derived: 2026-10-22 (against the Q3 print/call grades; the post-10-Q weight mapping is pre-registered in `Q3_10Q_RESCORE_RULE_2026-10-22.md`).*
+
 | Rule | Condition / carrier | State |
 |---|---|---|
 | Bear-medium KILL | 0 new Office migrations AND benign $99M appraisal; deck/call/10-Q | **NOT FIRED**: leg (a) 0 migrations met at Q3; leg (b) appraisal PENDING-10-Q |
@@ -89,7 +95,7 @@ Composite 13/25; weights 2/16/45/30/7 unchanged (THESIS owns them). No independe
 
 | When | Required work |
 |---|---|
-| Q3 10-Q (EDGAR ≥ Mon 10/26; statutory Mon 11/9; ledger Resolve_By 11/15) | Run the frozen L171 frame verbatim: subsequent events first; $99M (§4); WAL-01 cross-check; WAL-02 confirm/correct; full NPL; OREO count/valuation; NDFI 25.9% test; Cantor tie-out and legal paragraphs; hotel O1–O8. Carried from the call: Office funded/criticized bridge, NDFI borrowers, total deposit cost, AOCI/CET1 RWA bridge. **Then the post-Q3 re-score** |
+| Q3 10-Q (EDGAR ≥ Mon 10/26; statutory Mon 11/9; ledger Resolve_By 11/15) | Run the frozen L171 frame verbatim: subsequent events first; $99M (§4); WAL-01 cross-check; WAL-02 confirm/correct; full NPL; OREO count/valuation; NDFI 25.9% test; Cantor tie-out and legal paragraphs; hotel O1–O8. Carried from the call: Office funded/criticized bridge, NDFI borrowers, total deposit cost, AOCI/CET1 RWA bridge. **Then the post-Q3 re-score, applying `Q3_10Q_RESCORE_RULE_2026-10-22.md` verbatim**, and register forward Q4 predictions |
 | Q3 FFIEC, when retrieved (call reports due ~10/30; REGINALD cohort screen due 11/7, D:L180) | MI3 and same-quarter bank NDFI/commitment/modification/mortgage/capital; June/December semiannual fields not expected at Q3. `workbook/MI3_SERIES.tsv` is FROZEN at Q2 — un-freeze or add a successor row |
 | **Wed 12/9/2026 11:00 AM** | WAL v. Stupin §523 (8:26-ap-01096): motion-to-dismiss hearing + status conference |
 | Mon 11/30/2026 · Tue 1/12/2027 | Makhijani status conference / trial (KB-203) — **not re-verified** 10/22 (RECAP Docs 93–98 have no text) |

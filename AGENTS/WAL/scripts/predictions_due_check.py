@@ -38,6 +38,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 LEDGER = os.path.normpath(os.path.join(HERE, '..', 'workbook', 'PREDICTIONS.tsv'))
 # A row in one of these statuses is closed; Resolve_By is history, not a deadline.
 CLOSED = {'RESOLVED', 'RESOLVED-FAILED', 'RESOLVED-CONFIRMED', 'INVALIDATED',
+          'RESOLVED-INVALIDATED',  # WAL-02's status since 10/19 (DAEDALUS 10/22 finding 3)
           'RETIRED', 'VOID', 'SUPERSEDED'}
 
 

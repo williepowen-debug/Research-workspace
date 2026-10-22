@@ -14,7 +14,7 @@
 
 **NEXT SESSION (numbered, checkable):**
 1. **Q3 10-Q (D:L171)** — run `Q3_10Q_GRADING_FRAME_2026-09-24.md` verbatim: subsequent events first; $99M (§4, incl. the B′ᵤ/B′₀ split); WAL-01 cross-check vs classified loans + OREO (expected ~$926M + $165M); WAL-02 confirm; full NPL; OREO roll-forward/valuation on the 7 Q2 additions (WQ-313 ④); NDFI 25.9% test; Cantor tie-out and legal paragraphs; hotel O1–O8. Write PREDICTIONS.tsv explicitly (PAT-053).
-2. **Post-Q3 re-score** right after the 10-Q grade: weights, V1b-magnitude, V3, V4, composite. Separate dated edit, with a CHANGELOG version entry if anything moves.
+2. **Post-Q3 re-score** right after the 10-Q grade: apply `Q3_10Q_RESCORE_RULE_2026-10-22.md` verbatim (pre-registered 10/22; Will may amend only before the 10-Q hits EDGAR), then re-judge V1b-magnitude, V3, V4 and composite on evidence. Versioned THESIS/SCENARIOS/CHANGELOG edit. Then register forward Q4 predictions with dated Resolve_By (DAEDALUS finding 6).
 3. **Q3 FFIEC / MI3** when call reports are public (~10/30 filing; REGINALD cohort screen due 11/7). `workbook/MI3_SERIES.tsv` is FROZEN at Q2: un-freeze or add a successor row. The June NDFI $122.456M is not a September actual; don't expect the semiannual June/December fields at Q3, and never read missing as zero. JWT expires 11/5 (WQ-31 renewal is Will-side).
 4. **NYSCEF index numbers** for WAL v. Jefferies and Point Bonita v. WAL — Will-side browser search offered 10/22; if he pastes them, read the case pages.
 5. **Makhijani dates** (11/30 status conference, 1/12/2027 trial): re-verify; RECAP Docs 93–98 had no text on 10/22.
@@ -23,6 +23,7 @@
 8. **Coverage gaps** (sweep G3–G11): credit ratings (none on file), WAL debt/preferred spreads, implied vol/short interest (FINRA 10/15 settlement), Q3 13F (~11/16), Form 144, uninsured-deposit mix (check the REGINALD boundary), LEADERSHIP.md refresh (3/31 vintage).
 9. Optional: if Quartr is re-authenticated, check the two B2 call transcripts against issuer audio; no grade depends on it.
 10. Never built: `boot.py` (charter step 5).
+11. **Charter edits owed, waiting on Will's own word** (DAEDALUS 10/22 items 6 and 8b; not made on a peer request): cite root session-end steps 1b–1e; drop the restated rebase recovery in favour of root; refresh the identity block for post-print; add a NOT-FIRED trade-idea route to TERRY; add the re-score rule and the inbox-lane check to the FILES/boot tables.
 
 **Earnings caveat that must travel (from 10/19):** the Q3 release reclassifies customer derivatives/FX from FV into commercial fees, with no income effect. Q2 FV is now 8.3 vs 12.8 in the old October 14 screen. The new Q3 comparative PPNR less security sale/FV (401.8 vs 401.1) is a diagnostic, not issuer-adjusted EPS nor the old 8.98 annual screen; hedge/persistence unknown. The old consensus (KB-223) is stale with an unmatched basis. REGINALD retains funding/cohort/severity.
 

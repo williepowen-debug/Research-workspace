@@ -1,4 +1,4 @@
-# WAL MI3 series — Schedule RC-C Part I Memo item 3 (RCON2746) over item 4 C&I (RCON1766), the FROZEN v2.1 spec basis.
+# WAL MI3 series — Schedule RC-C Part I Memo item 3 (RCON2746) over item 4 C&I (RCON1766), the v2.1 frozen-spec basis. LIVE ledger: the next quarterly FFIEC pull appends a row.
 # Last real data refresh: 2026-08-07 (FIRST-EVER RUN — 12 quarters, FFIEC CDR PWS REST/JWT, RSSD 3138146) | Staleness sweep (no data): 2026-08-07 | Next real data: Q3-2026 Call Report ~Oct-Nov 2026
 # Grade band per THESIS.md v2.1 calibration table (frozen): >=27 hard-confirm / 25.0-26.9 acceleration / 24.0-24.9 partial / <24 PLATEAUED. Bear-fast KILL exit rule = MI3 <25%.
 Quarter_End	MI3_RCON2746_K	CandI_item4_RCON1766_K	MI3_pct_of_item4	QoQ_delta_pp	Band_v21_calibration	NDFI_item9a_RCONJ454_K	Total_loans_RCON2122_K	NDFI_pct_of_total_loans	Total_assets_RCON2170_K	Source

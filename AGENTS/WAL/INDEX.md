@@ -22,6 +22,7 @@ Follow CLAUDE.md §Boot: STATUS and current MEMORY in full; THESIS header/calibr
 | POSITIONS.md | Canonical WAL identity/qty/source vintage; accepted October 19 Fidelity holdings; new 70P separate from September 29 Robinhood carry; TERRY/Will manage trades |
 | workbook/KB.tsv / KB_INDEX.md | Evidence/status/expiry versus generated group navigation; 230–234 FFIEC primary history; 175 SUPERSEDED |
 | workbook/PREDICTIONS.tsv | Registered prediction states/probabilities/deadlines; WAL02 resolved INVALIDATED 10-Q confirm pending; WAL01 OPEN with provisional Outcome |
+| Q3_10Q_RESCORE_RULE_2026-10-22.md | Pre-registered mapping from each Q3 10-Q outcome to the Bear-medium/Tail weights; applied verbatim after the 10-Q grade; amendable only before the filing |
 | Four grading/calibration frames | Frozen pre-registration; old-looking inputs remain correct history |
 | FRAUD/ | Legal/recovery evidence; Ontario B1 docket-evidenced, other three U; no recovery value inferred |
 | research/2026-10-13_securities-hedges-rate-model-reconciliation.md | Completed issuer securities/hedges/model read; REGINALD funding integration31c02fd74 |

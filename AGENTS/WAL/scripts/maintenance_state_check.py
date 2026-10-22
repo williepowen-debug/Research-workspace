@@ -60,6 +60,14 @@ def current_fields(root):
         count={'one':1,'two':2}.get(m[1].lower(),int(m[1]) if m[1].isdigit() else 0)
         if count!=leg_count:issues.append(('position-mirror','charter leg count differs from positions'))
     if 'auto-loads when launched from this dir' in index:issues.append(('runtime-loading','index assumes CLAUDE auto-load'))
+    # Inbox lanes are listed here, at run time, so no session can assert "empty" from an older listing
+    # (10/22: a sweep restated an 11:12 listing while SIG-W-20261022-011 sat in the lane from 11:13).
+    log=root/'board_log.tsv'
+    rowed={l.split('\t')[1] for l in log.read_text().splitlines()[1:] if l.count('\t')>=1} if log.is_file() else set()
+    walter=sorted(f.stem for f in (root/'inbox'/'WALTER').glob('*.md') if f.stem not in rowed)
+    if walter:issues.append(('inbox-WALTER',f"{len(walter)} unrowed: "+', '.join(walter)))
+    loose=sorted(f.name for f in (root/'inbox').glob('*.md'))
+    if loose:issues.append(('inbox-unprocessed',f"{len(loose)} packet(s): "+', '.join(loose)))
     return issues
 
 def main():
