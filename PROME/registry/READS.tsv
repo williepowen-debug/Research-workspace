@@ -527,3 +527,33 @@ READ	AEOLUS	AGENTS/AEOLUS/workbook/KB.tsv	grep	AEOLUS:CLOSEOUT-2	AEOLUS	2026-10-
 READ	AEOLUS	AGENTS/AEOLUS/scripts/domain_log_check.py	summary	AEOLUS:CLOSEOUT-2b	AEOLUS	2026-10-21	Bounded advisory output.
 READ	AEOLUS	AGENTS/AEOLUS/NEXUS_BRIEF.md	whole	AEOLUS:CLOSEOUT-3	AEOLUS	2026-10-21	Rewritten each closeout.
 ATTESTATION	AEOLUS	AGENTS/AEOLUS/CLAUDE.md	manifest-complete	AEOLUS:BOOT-1-7+WALTER-intake+CLOSEOUT-1-5+workers	AEOLUS	2026-10-21	First filing. METHOD: every BOOT/WALTER-intake/CLOSEOUT step and the worker READ-FIRST lists enumerated at HEAD 2026-10-21; modes = what the 10/21 PROME-spawned session did; rows 449/450 confirmed. Packet PROME/inbox/2026-10-21_from-AEOLUS_READS-manifest-attestation.md. Declaration only, NOT a cap PASS.
+# WAL rows — FILED by PROME (registrar) 2026-10-22 13:1x ET (prome-25) from WAL's desk-attested declaration `AGENTS/WAL/reports/2026-10-22_READS.proposed.tsv` (ef00d404b; packet PROME/inbox/processed/2026-10-22_from-WAL_READS-proposed.md; D:L793 item 9). Transcribed verbatim: 1 ATTESTATION · 3 BASIS · 25 READ.
+ATTESTATION	WAL	AGENTS/WAL/CLAUDE.md	manifest-complete	WAL:CLAUDE.md-Boot	WAL	2026-10-22	Desk-attested by WAL (Claude Opus 5.5, Will-interactive session) after walking the full charter as edited 2026-10-22 (a5c98e8d3): RUNTIME AND DELIVERY reads, Boot 0-7b, the Execute and Write-back checklists. Includes conditional reads as such; modes describe actual context entry (checker-mediated inputs are 'summary'). Local proposal only; PROME registers. First filing (WAL had 0 rows).
+BASIS	WAL	AGENTS/WAL/CLAUDE.md	boot-defining	WAL:RUNTIME-AND-DELIVERY	WAL	2026-10-22	Re-attest after any boot-defining charter change.
+BASIS	WAL	PROME/COMPLETION_SPEC.md	boot-defining	WAL:RUNTIME-AND-DELIVERY	WAL	2026-10-22	Canonical runtime contract named by the charter; re-attest on change.
+BASIS	WAL	PROME/ORCHESTRATION_PLAYBOOK.md	boot-defining	WAL:RUNTIME-AND-DELIVERY	WAL	2026-10-22	Only § Runtime mechanics is read; re-attest on change.
+READ	WAL	CLAUDE.md	whole	WAL:RUNTIME-AND-DELIVERY	WAL	2026-10-22	Root charter; explicit whole read required by the WAL charter; auto-injection not inferred.
+READ	WAL	AGENTS.md	whole	WAL:RUNTIME-AND-DELIVERY	WAL	2026-10-22	Explicit whole instruction read.
+READ	WAL	USER.md	whole	WAL:CLAUDE.md-Boot-0	WAL	2026-10-22	Explicit whole read; charter boot step 0 (10/22) requires it every boot for Will's standing operator rules.
+READ	WAL	AGENTS/WAL/AGENTS.md	whole	WAL:RUNTIME-AND-DELIVERY	WAL	2026-10-22	Codex instruction shim; points to CLAUDE.md (small).
+READ	WAL	AGENTS/WAL/CLAUDE.md	whole	WAL:RUNTIME-AND-DELIVERY	WAL	2026-10-22	Own charter, explicit whole read (28,994 B at a5c98e8d3).
+READ	WAL	PROME/COMPLETION_SPEC.md	whole	WAL:RUNTIME-AND-DELIVERY	WAL	2026-10-22	Charter-mandated runtime contract read; delivery/closeout rules.
+READ	WAL	PROME/ORCHESTRATION_PLAYBOOK.md	scoped	WAL:RUNTIME-AND-DELIVERY	WAL	2026-10-22	§ Runtime mechanics only.
+READ	WAL	docs/GIT_WORKTREE_PROCEDURES.md	scoped	WAL:CLAUDE.md-Boot-0	WAL	2026-10-22	§ Before pulling at boot; § Before committing immediately before each commit.
+READ	WAL	AGENTS/WAL/STATUS.md	whole	WAL:CLAUDE.md-Boot-1	WAL	2026-10-22	Mandatory whole continuity read (13.9 KB at 10/22).
+READ	WAL	AGENTS/WAL/THESIS.md	scoped	WAL:CLAUDE.md-Boot-2	WAL	2026-10-22	Header + Q3 evidence fold + CORE THESIS v2.4 block + calibration tables; superseded version sections not read at boot.
+READ	WAL	AGENTS/WAL/CHANGELOG.md	scoped	WAL:CLAUDE.md-Boot-2	WAL	2026-10-22	Top entry only.
+READ	WAL	AGENTS/WAL/MEMORY.md	whole	WAL:CLAUDE.md-Boot-3	WAL	2026-10-22	Mandatory whole continuity read (current handoff + next session).
+READ	WAL	AGENTS/WAL/workbook/KB.tsv	summary	WAL:CLAUDE.md-Boot-4b	WAL	2026-10-22	Via scripts/kb_expiry_check.py output (expired rows); also an input to 4c. File itself not read at boot (over cap).
+READ	WAL	AGENTS/WAL/workbook/PREDICTIONS.tsv	summary	WAL:CLAUDE.md-Boot-4d	WAL	2026-10-22	Via scripts/predictions_due_check.py output.
+READ	WAL	AGENTS/WAL/workbook/RETIRED_CLAIMS.tsv	summary	WAL:CLAUDE.md-Boot-4c	WAL	2026-10-22	Via scripts/derived_drift_check.py output; the drift scan reads desk surfaces by scanning, not from a list.
+READ	WAL	AGENTS/WAL/workbook/DRIFT_HISTORY_2026-10-14.json	summary	WAL:CLAUDE.md-Boot-4c	WAL	2026-10-22	Reviewed-identity baseline compared by 4c.
+READ	WAL	AGENTS/WAL/INDEX.md	summary	WAL:CLAUDE.md-Boot-4c	WAL	2026-10-22	Count/mirror fields checked by maintenance_state_check (inside 4c); read whole only on cold spawn per INDEX's own role.
+READ	WAL	AGENTS/WAL/workbook/KB_INDEX.md	summary	WAL:CLAUDE.md-Boot-4c	WAL	2026-10-22	Group counts/IDs checked by maintenance_state_check.
+READ	WAL	AGENTS/WAL/POSITIONS.md	summary	WAL:CLAUDE.md-Boot-4c	WAL	2026-10-22	Position-mirror fields checked by maintenance_state_check; read whole only when the task touches positions.
+READ	WAL	AGENTS/WAL/board_log.tsv	summary	WAL:CLAUDE.md-Boot-4c	WAL	2026-10-22	Signal IDs compared against inbox/WALTER by maintenance_state_check (run-time lane listing, 10/22); appended in 7b.
+READ	WAL	AGENTS/WAL/workbook/*.tsv	summary	WAL:CLAUDE.md-Boot-4	WAL	2026-10-22	scripts/ledger_staleness.py WAL (+ --trade) header/vintage scan of the desk ledgers.
+READ	WAL	AGENTS/WAL/REGINALD_CHANNEL.md	scoped	WAL:CLAUDE.md-Boot-7	WAL	2026-10-22	Top entries since last boot only.
+READ	WAL	AGENTS/WALTER/registry/CORRECTIONS.tsv	summary	WAL:CLAUDE.md-Boot-7a	WAL	2026-10-22	Via scripts/corrections_boot_check.py WAL; with AGENTS/WAL/registry/corrections_receipts.tsv.
+READ	WAL	AGENTS/WAL/inbox/WALTER/*.md	whole	WAL:CLAUDE.md-Boot-7b	WAL	2026-10-22	Conditional: each unrowed WALTER signal read whole, then rowed and git-mv'd to processed/.
+READ	WAL	AGENTS/WAL/inbox/*.md	summary	WAL:CLAUDE.md-Boot-6	WAL	2026-10-22	Conditional: count + senders at boot (from 4c's listing); packets read whole only when the session processes them.
