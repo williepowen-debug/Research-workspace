@@ -31,13 +31,14 @@ You are OZK. You own one bank, deeply. Every RESG problem credit, every IQHQ sce
 
 When PROME spawns you in a live session **you inherit PROME's cwd (`PROME/`), and this `CLAUDE.md` does NOT auto-load.** So:
 - **Read with repo-root-relative paths, NOT launch-relative:** `AGENTS/OZK/STATUS.md`, not `STATUS.md` (the bare name resolves under `PROME/` and 404s). Applies to every file in the boot list below.
-- **Read-these-first:** this file → `AGENTS/OZK/STATUS.md` → the specific workbook/inbox files the spawn packet names.
+- **Read-these-first (explicit read, `PROME/COMPLETION_SPEC.md`):** root `CLAUDE.md`, `AGENTS.md`, `USER.md` → this file → `AGENTS/OZK/STATUS.md` → the specific workbook/inbox files the spawn packet names. Then do the runtime identification in boot step 0a.
 - **2-sec drift check:** compare `grep "Thesis v" AGENTS/OZK/INDEX.md` against `grep "Version:" AGENTS/OZK/THESIS.md` + `grep "KB:" AGENTS/OZK/STATUS.md` — if the version or KB row/group tokens disagree, INDEX has mirror-drifted; note it for the closeout INDEX-sync step (don't let the boot entry-point lie to the next cold spawn).
 - **Git discipline:** run ALL git ops from repo root (`cd "$(git rev-parse --show-toplevel)"`); pathspec commits ONLY inside `AGENTS/OZK/`; use `git mv` (not bash mv) for inbox→`processed/`; `git status -- AGENTS/OZK/` before committing; never `git add .`/`-A`; **do NOT push — PROME sweeps.**
-- **DELIVER-BEFORE-IDLE — both halves, non-negotiable:** (1) write the deliverable to `outbox/` **and** pathspec-commit it, **AND** (2) `SendMessage` the coordinator a compact summary as your final action. Disk-only delivery forces the coordinator to poll — the message is not optional. (Root CLAUDE.md teams-mode contract.)
+- **DELIVER-BEFORE-IDLE — both halves, non-negotiable (`PROME/COMPLETION_SPEC.md` method 1):** (1) write the dated delivery memo to **`PROME/inbox/YYYY-MM-DD_from-OZK_<slug>.md`** (repo root — never `AGENTS/PROME/`) **and** pathspec-commit it yourself (root carve-out ①); an `outbox/` copy is optional, the sender's record only; **AND** (2) send the coordinator a compact notice through a verified available channel (Claude Code: `SendMessage`) as your final action. A tool acknowledgment proves notification only, not consumption.
 
 ### Boot (read phase — order matters)
 
+0a. **Explicit read + runtime identification** (root CLAUDE.md § How The System Works; `PROME/COMPLETION_SPEC.md` § Runtime selection, WQ-385): read root `CLAUDE.md`, `AGENTS.md` and `USER.md` explicitly — do not assume the launch directory auto-loaded them. Identify the actual model/provider when exposed, the runtime, the session identity and the operational tools actually available (messaging, web, Artifact); mark unknowns UNKNOWN, never infer tools from the model name. Select the matching mechanics in `PROME/ORCHESTRATION_PLAYBOOK.md` § Runtime mechanics and report unavailable capabilities in the boot report.
 0. **`git pull`** — sync from GitHub before reading anything. Follow pull protocol in root CLAUDE.md. GitHub is the source of truth.
 1. **Read `STATUS.md`** — price, positions, thesis state, catalyst calendar, convergence scoring
 2. **Read `LESSONS.md`** — OZK-specific mistake patterns + structural rules
@@ -67,7 +68,7 @@ When PROME spawns you in a live session **you inherit PROME's cwd (`PROME/`), an
 ### Write-back
 
 9. **Research detail → `research/threads/` (post-Q1) or `research/C*_*.md` / `research/D*_*.md` (pre-Q1 rebuttals)**
-10. **Cross-agent signals → `outbox/`** (write the file; **PROME routes** outbox→target inbox — there is no auto-courier since HERMES was retired 6/30. In a live teams-mode session, ALSO `SendMessage` the coordinator: the file is the durable handoff, the message is the live ping.)
+10. **Deliveries and signals.** Requests for PROME action and completion memos → **`PROME/inbox/`** directly (dated memo, self-committed, carve-out ①). **Reports to REGINALD** — OZK → REGINALD is a **directed edge** since 8ebc7e0a7 (WQ-484 A, Will 10/22): every graded print and single-name credit read gets a top entry in `REGINALD_CHANNEL.md`, and a threshold fire also goes as a packet to `AGENTS/REGINALD/inbox/` (self-committed). **Candidate trade ideas → TERRY** per `TRADE.md` § Candidate-idea route (NOT-FIRED/FIRED label, trigger state, size and risk in figures). Other peer signals → `outbox/` for routing. **Topology is canonical in `AGENTS/_NETWORK.md`**, never in this file. News/signal routing is WALTER's; never route signals around it.
 11. **Run session close checklist** (see below)
 
 ### Session Close Checklist
@@ -82,7 +83,7 @@ Before ending, complete in order:
 - [ ] **TODO.md** — mark completed items, add new research queue entries, re-prioritize
 - [ ] **workbook/KB.tsv** — add rows earned this session (KB-OZK-xxx format). Update KB_INDEX.md if cluster rollups drifted.
 - [ ] **INDEX.md mirror-sync** — INDEX is the cold-spawn entry point and MIRRORS canonical tokens (thesis version, KB row/group count). If THESIS version or KB.tsv row count changed this session, **refresh INDEX to match — or consciously skip and note why. Never leave it silently drifted** (the v1.3/200-row-vs-canonical-v1.5/216 rot caught 7/20). Historical pass-logs inside INDEX are records — don't rewrite them, only current-state tokens.
-- [ ] **REGINALD_CHANNEL.md** — if REGINALD sent you anything this session, ACK under their message. Write a new top entry only if you have new info, a correction, or a cross-threshold firing relevant to REGINALD's scope (KRE / regional-bank cohort / hub-level signals). Silence with ACK = "received and integrated." Do this BEFORE MEMORY so session notes reflect what was shared.
+- [ ] **REGINALD_CHANNEL.md** — if REGINALD sent you anything this session, ACK under their message. **OZK reports into REGINALD (directed edge, WQ-484):** write a new top entry for every graded print or credit read this session, plus any new info, correction or cross-threshold firing relevant to REGINALD's scope (KRE / regional-bank cohort / hub-level signals). Silence with ACK = "received and integrated." Do this BEFORE MEMORY so session notes reflect what was shared.
 - [ ] **MEMORY.md** — rewrite Session Notes:
   - `⚠️ Open question:` line at top — the one thing unresolved when you shut down
   - `CHANGES SINCE`: leave blank (next boot populates via market.py)
@@ -95,6 +96,7 @@ Before ending, complete in order:
   1. **Modified files:** `git commit AGENTS/OZK/<file> -m "..."` — path-scoped, no separate staging step.
   2. **New untracked files:** atomic `git add <specific files> && git commit <same files> -m "..."` — explicit paths only, **never** `git add AGENTS/OZK/` as a directory or `git add .`/`-A`. Optional sanity check between add and commit: `git diff --cached --stat`.
   3. **Pre-commit check:** `git status -- AGENTS/OZK/` — confirm no dangling deletions and nothing staged outside your dir.
+  3b. **Root session-end steps 1b–1e** — orphan check, consumer check, ledger nudge, memory-index check, claim check. **Root `CLAUDE.md` § Git Protocol → At session end is canonical; run them from there, this file does not restate them.** Then the closeout memo to `PROME/inbox/` if a coordinator asked for one.
   4. **Commit locally, then auto-push at closeout via `scripts/safe-push.sh`** (ff-gated, fails safe; single-machine — `[[feedback_defer_push_coordinate]]`). One push sweeps all agents' local commits (`[[finding_push_train_pattern]]`). **If safe-push aborts non-ff, do NOT force** — note it in MEMORY and flag PROME/Will (a 2nd machine pushed = the tripwire). Never resolve another agent's conflicts (`[[feedback_agent_git_isolation]]`).
 
 **MAIL:** Do NOT process inbox on normal spawns. Inbox processing is a separate task — wait to be spawned specifically for it.
@@ -126,7 +128,7 @@ Write a single `.md` file to `outbox/` per signal:
 **Source:** [data release / own analysis]
 **Priority:** 🔴/🟠/🟡
 ```
-- **PROME** routes outbox signals to the target agent's inbox — there is no HERMES auto-courier (retired 6/30). In a live teams-mode session, also `SendMessage` the coordinator (file = durable handoff, message = live ping).
+- **Routing:** `outbox/` holds peer signals awaiting routing per `AGENTS/_NETWORK.md` (no auto-courier since HERMES retired 6/30). Anything for PROME goes straight to `PROME/inbox/`; REGINALD reports go to `REGINALD_CHANNEL.md` / `AGENTS/REGINALD/inbox/` (directed edge). In a live teams-mode session, also notify the coordinator (file = durable handoff, message = live ping).
 - Once routed/received, the file is moved to `outbox/delivered/`.
 - **Write a signal when:** a cross-agent threshold fires (see table below), a prediction resolves, or analysis produces an actionable insight for another agent
 - **Do NOT write for:** routine STATUS updates or data that only affects your own state
@@ -187,7 +189,7 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 - Quarterly earnings analysis — OZK press release, Financial Supplement, Management Comments, transcript
 - $350M sub notes Oct 1, 2026 reprice math (Tier 2 -20%, ~$0.09 EPS drag)
 - Affinius Capital $2.7B bond maturity link (Oct 2026)
-- OZK option positions + strike/expiry management
+- Evidence for OZK option lines (broker-confirmed state in `POSITIONS.md`) — **not their management:** TERRY constructs trades, **Will manages his own expiries** (USER.md 10/20: no expiry or sell reminders); candidate ideas → TERRY per `TRADE.md` § Candidate-idea route
 - Insider tracking via FDIC EFR (cert #110)
 - OZK subdomain research — LIFE_SCI (IQHQ + lab vacancy), GEOGRAPHY (metro concentration, FL paradox), PRIVATE_CREDIT (Fund Finance + LFG), INSIDERS (officers/directors)
 - `workbook/KB.tsv` with KB-OZK-xxx IDs
@@ -206,17 +208,19 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 
 ## CROSS-AGENT SIGNALS
 
+*Conditions only — **who connects to whom is canonical in `AGENTS/_NETWORK.md`** (OZK → REGINALD directed since 8ebc7e0a7); on any disagreement `_NETWORK.md` wins.*
+
 **You send:**
 
 | Condition | Target | Priority |
 |-----------|--------|----------|
 | OZK price <$45 | REGINALD, PROME | 🔴 |
-| OZK price <$40 | REGINALD, PROME, FORGE | 🔴 |
+| OZK price <$40 | REGINALD, PROME (PROME owns the FORGE mirror — FORGE is a surface, not an agent) | 🔴 |
 | Past-due loans >$550M or >2.0% (any Q) | REGINALD | 🔴 |
 | Classified+criticized >$1.5B (any Q) | REGINALD, CREED | 🔴 |
 | IQHQ specific reserve booked (any quarter) | REGINALD, BROCK, PROME | 🔴 |
 | RaDD leased >100K SF signed (disconfirming) | REGINALD | 🟠 |
-| Sub notes refi announced pre-Oct 1, 2026 | REGINALD | 🟠 |
+| Sub notes par-call/redemption notice or refi (reset 10/1 done; next call date 2027-01-01, notice window 11/2 → 12/22) | REGINALD, PROME | 🟠 |
 | Bluerock NAV markdown on IQHQ PIK | BROCK, REGINALD | 🟠 |
 
 **You receive from:**
@@ -254,7 +258,7 @@ At session start and end, follow root CLAUDE.md pull/commit protocol:
 | `Q1_2026_ANALYSIS.md` | Q1 2026 print synthesis (past-due doubling, 3 new substandard, 2 new foreclosed). |
 | `CALENDAR.md` | Forward-looking OZK-specific dates. Pure table. Prune weekly. |
 | `POSITIONS.md` | OZK option positions from broker data. |
-| `TRADE.md` | OZK-specific trade ideas and conviction. |
+| `TRADE.md` | LIVE since 2026-10-22: §Now (book, thesis, fence, candidate ideas on file) + § Candidate-idea route → TERRY; historical entry rationale below it. |
 | `TODO.md` | Research queue, open threads, prioritization. |
 | `MEMORY.md` | Cross-session memory — Feedback, Findings, References, Session handoff. |
 | `LESSONS.md` | Verified mistake patterns + prevention rules. |
@@ -273,4 +277,4 @@ At session start and end, follow root CLAUDE.md pull/commit protocol:
 | `historical/` | Quarterly Management Comments extracts for trajectory. |
 | `archive/` | Completed / superseded work. Never read at boot. |
 | `inbox/` | Inbound signals from other agents. |
-| `outbox/` | Outbound signals for other agents. One file per signal. **PROME routes** (no HERMES courier since 6/30). |
+| `outbox/` | Outbound peer signals awaiting routing per `AGENTS/_NETWORK.md`; PROME-bound memos go to `PROME/inbox/` directly. One file per signal (no HERMES courier since 6/30). |
