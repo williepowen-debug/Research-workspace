@@ -167,3 +167,7 @@ CATO reviewed the day's work and produced counterexamples against several of thi
   - T-15 graded on both legs. Leg (b) turned out to be measurable monthly (owed #25 closed).
   - The SX7E re-pull, done to clear `KB-093`, surfaced the broad European bank selloff (`KB-121`), now routed to REGINALD and LIQUID. **A housekeeping task found the session's most decision-relevant new fact.**
   - #5b: partial, gate named.
+- **21:5x–22:1x ET — Will: "sweep HANS files for opportunities to update or build out knowledge".**
+  - Executed the zero-judgment refreshes: 17 VX surfaces, including **TIC AUGUST** (out, primary; Germany below the Table 5 cutoff, so owed #16 is confirmed, not an error). 5 PUBLISHED rows.
+  - Tested the 9/18 TTF-backwardation observation and found it unsupportable on this vendor (`KB-125`).
+  - Bigger build-outs listed for Will rather than started.

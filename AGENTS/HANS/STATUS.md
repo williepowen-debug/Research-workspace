@@ -33,7 +33,7 @@
 | Refill pace | trailing-14d **0.116 pp/d** (10/06→10/20); **gas day 10/20 net WITHDRAWAL +435.8 GWh/d** — the first of the season | 🔴 **`HNS-07` → 30%** | **AGSI+ primary** ✓ |
 
 **Structural:** Hormuz disrupted since March · **Qatar LNG force majeure into Nov/early Dec** · **LNG cannot be STS-transferred through Hormuz the way crude can.** ⚠️ **EU gas and US crude share Hormuz — ONE WITNESS, TWO READOUTS** (`FLOW-HANS-8`). **NL** cut its national target 74% → 64% and met it at 65.5% (NL Times 10/20) — a lowered target, **not** an EU-gap exit. **EU Russian-LNG long-term ban bites 2027-01-01.**
-🆕 **Against my own alarm (untested, `KB-HANS-080`, expired):** in Sept the TTF curve was BACKWARDATED into winter. Not re-checked at 87.50.
+⚠️ **The 9/18 "curve is backwardated into winter" read is now UNSUPPORTED (`KB-125`):** the vendor's named winter months print identical values (Nov = Dec 87.50 [10/21]), which means fill, not settlements. **This desk cannot see the TTF curve** without ICE data. The graded front month is unaffected.
 
 ### SAUDI CRUDE TO EUROPE — `HANS-T-15` · full block → `workbook/2026-09-18_SAUDI_EUROPE_BLOCK.md` · `KB-HANS-073`–`083` (all past `Stale_By`)
 9/18 premise: Aramco zero October term crude to Europe + Petroline drone-struck 9/10. **10/10–10/15 (WALTER, secondary): Yanbu loadings resumed after the pipeline restart; full November crude to Europe reportedly restored.** ⛔ Principal-unconfirmed both ways. **Re-grade owed (#29).**
