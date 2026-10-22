@@ -1,3 +1,5 @@
+> 🧊 **FROZEN 2026-10-22 — historical per-bank dashboard (April 2026). Not maintained; prices, scores and thesis text below are April vintages and must not be cited as current. Current M&T work → `reports/2026-10-20_MTB_earnings-capacity_and_capital-test.md`; current levels → `STATUS.md`. Move to `archive/` is deferred to the 11/20 cleanup re-check (no moves before it).**
+
 # MTB (M&T Bank) — Read-Through Dashboard
 **Last Updated:** 2026-04-15 (post-earnings) | **Role:** Sector tone-setter (NOT a position name)
 **Price:** **$217.10** (Apr 15 close, **-1.55%** on 1.5x volume after Q1 print) | Apr 14: $220.51
