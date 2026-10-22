@@ -35,3 +35,7 @@ The checker reads short `M/D` and `MM/YY` tokens as dates in the next 45 days, t
 ## Outcome
 
 Of 47 flags, 1 needs owner action (the lost LABOR → REGINALD packet). 12 are low-consequence unqualified cross-desk citations. The rest are checker false positives in three classes (fraction/period-label dates, prose/template pointers, `commit:path` references), recorded for the check's owner. No date was wrong.
+
+## Evening boot addendum — 2026-10-21 20:2x ET (session prome-56 / a77d2266)
+
+One NEW flag against the morning baseline: `PROME/ROSTER.md` DEAD POINTER `WILL/private`. Disposition: **done — benign by design on this box.** ROSTER line 168 names VIRGIL's home `WILL/private/fellowship/` and line 174 states it is DESKTOP-ONLY and gitignored (`.gitignore` line 76 `WILL/private/`); this boot ran on the laptop (`hostname` = `WilliePOwen`, `PROME/MACHINE_LOCAL.md` laptop column), where the directory does not exist and is not expected to. Not a lost directory: re-verify on the desktop at the next switch (`ls WILL/private`); if absent THERE, that is a real loss and a Will item. Same class as the three ROSTER cross-desk dead pointers in § B. Baseline accepted with this record as pointer.
