@@ -1,10 +1,10 @@
 # YURI — NEXUS Brief
 
-**Status:** 🟡 Score 2/5 unchanged. Official partial diesel-export permission recovered; delivered increment and signed lift annex remain unknown. Saved declaration-act PDF coverage is now 19/19; YUR-004 remains OPEN/PARTIAL beyond that snapshot.
+**Status:** 🟡 Score 2/5 unchanged (2026-10-21). No mobilisation declaration through 21.10 (YUR-004 OPEN/PARTIAL; 10/16 checkpoint backfilled 10/21). Fourth custodial Decree-302 list amendment (№738, 15.10) alongside a US rapprochement track (Kremlin 21.10: diesel tankers readied, pardon, mid-November talks readiness).
 **Operational-effects follow-up:** bounded pass completed, underlying evidence PARTIAL. No authenticated extra diesel or series interruption established; №686 producer/group transaction scope is narrower than an automatic exchange-wide blackout. METRO mechanism/date are qualified without a cash-loss estimate; Aptar's announced Q3 release is 29 October. PROME consumed the operational result and YURI receipt reconciliation (`71accb333` owner report); WALTER's three-packet source consumption/№1272 adoption is verified at `635bbb010`, report §7.4. OSPREY consumption remains separately UNKNOWN. No new F01 credit.
 **12 October research delta:** METRO issuer confirms operating-control loss despite retained title; two FNS ownership-field checks corroborate foreign registered stakes (extracts dated 13 October Moscow). Aptar's Russian unit was below 0.6% of 2025 group sales/operating income. Minenergo public search is now readable; signed links remain missing. №1272 source attribution corrected to space licensing.
 **Domain:** Russian STATE ACTION and INTENT, whatever the target: decrees, seizures, mobilisation and force posture, the Kremlin political calendar. Feeder desk; never trades.
-**As of:** 2026-10-12 23:07 EDT (Will-requested session closeout; no new evidence vintage) | STATUS commit: this brief and STATUS are committed together; verify with `python3 scripts/brief_pin_check.py YURI`.
+**As of:** 2026-10-21 ET (primary fetches 2026-10-22T00:53–00:55Z) | STATUS commit: this brief and STATUS are committed together; verify with `python3 scripts/brief_pin_check.py YURI`.
 
 ---
 
@@ -13,6 +13,9 @@
 **SENDING:**
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |----|--------|----------|---------------------------------------------|
+| HANS / HAWK / PROME | Указ №738 (15.10), 4/4 read: 9 more custodial interests (Tarkett, Ontex, Menshen, Kappa Rus, Sonoco-named holder) under УК "ЦЕНТР КАПИТАЛ"; no disposal clause. | 🟡 | Custody widening continues during the US rapprochement; listed-parent links unverified, European single names unowned — PROME flag, no pricing route. |
+| BRENT / DEWEY / OSPREY | Kremlin 21.10: Putin says the first 40,000 t tanker leaves in "two to three days", then serial loadings, financing open. №1252 producer restriction expires 31.10. WALTER's "LIFTED ban" framing corrected. | 🟡 | Announced intent, not flow; the expiry date is the next state decision on export policy. |
+| HAWK / PROME | Ushakov 21.10: "in principle ready" for RU–US–UA talks in mid-November; US citizen pardoned; YUR-004 0 declarations through 21.10. | 🟡 | Calendar input for HAWK's reaction leg; no mobilisation input. |
 | BRENT / OSPREY / DEWEY | Government's 10 October partial diesel decision primary-confirmed: 500,000 tonnes at this stage, effective 10 October, contracting coordinated with government. Signed №1252 of 29 September now read. | 🟡 | Permission opens an easing channel, but period, supplier annex, overlap with old exemptions and extra delivered volume remain unknown. A deal-driven lift cannot measure refining recovery. |
 | HAWK / OSPREY | YUR-004 NOT-DECIDED · PERIMETER PARTIAL on 12 October; missed 9 October review backfilled. | 🟡 | No verified declaration input; military/FSB scanned amendments concern honours/awards. Saved 19-act PDF bodies now complete; 23 excluded published-story bodies, referenced documents and future dates retain a partial perimeter. |
 | HAWK / PROME | Kremlin's 2 October Tsentr-2026 report names the scheduled exercise, 28 September–3 October. | 🟡 | Correct the broad “no scheduled large exercise” counter-indicator. This is not a mobilisation decision or NATO-border deployment. Participant count is an official claim. |
