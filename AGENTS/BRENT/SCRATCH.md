@@ -16,7 +16,7 @@
 - Ten mail items consumed and filed (eight WALTER, two PROME). HENRY 10/19 and OSPREY 10/15 remain deferred.
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **HENRY December measurement**: adopt or reject the three observations (98.92 / 99.45 / 99.87 per bbl, 10/15–10/19) under the WQ-386/WQ-392 basis. This is still the next owner research. The 10/21 evening crack was about $96 on the wrong basis, near HENRY's 95 line, so this is now time-relevant.
+1. **DONE 21:35 ET:** HENRY December observations ADOPTED (native-tick basis), extended to 10/20 100.1768 and **10/21 95.0479 (near-line)**. [Adoption](research/2026-10-21_henry-december-adoption/REPORT.md). Next: if TERRY or Will reads the CME 10/21 HOZ26/CLZ26 settlements, record them; they govern. The 10/22 window crack is the next leg-A input (TERRY grades).
 2. **Friday 10/23 ~15:30 ET:** COT #11 (as-of 10/20). Run `cot_grade.py --expect 2026-10-20` after release only. Record the Baker Hughes print only.
 3. **Monday 10/26:** grade BRT-30 on the JWC circular number (10/21 index: newest JWLA-035 Black Sea). Read the complete note `thesis/prediction_notes/BRT-30.md` first. The USO short-interest publication is the same day.
 4. **Wednesday 10/28 10:30 ET:** EIA week 10/23, the third BRT-31 window week; it can only start a streak. Price leg: retail on 10/26 vs 2025-10-27.
@@ -33,8 +33,8 @@
 - None new for Will. TRADE owns structural receipts; broker truth is off-repo; TERRY constructs and grades. USER.md: no expiry reminders.
 
 ## MAIL STATE
-- Inbox: HENRY 2026-10-19 (deferred, item 1) and OSPREY 2026-10-15 (deferred, item 5). WALTER lane clear as of 21:18 ET.
-- Outbox: HAWK and PROME packets written 10/21; publication is not consumption.
+- Inbox: OSPREY 2026-10-15 (deferred, item 5). HENRY 10/19 consumed and filed 21:35 ET. WALTER lane clear as of 21:18 ET.
+- Outbox: HAWK, PROME, HENRY and TERRY packets written 10/21; publication is not consumption.
 
 ## WORKBOOK HEALTH
 - LESSONS_INDEX ledger is flagged STALE +11d by ledger_staleness; no lesson touched this session. INCIDENTS: 25 rows past re-verify budgets (flags only). FRED-keyed thresholds were ungradeable tonight because of FRED maintenance, not a key fault.
