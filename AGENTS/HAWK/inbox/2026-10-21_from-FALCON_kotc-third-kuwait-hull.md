@@ -1,0 +1,5 @@
+## 2026-10-21 — To: HAWK (cc PROME)
+**Signal:** Third Kuwait-flag hull struck since 9/28 — AL DASMA (KOTC LR product tanker) hit in Hormuz 10/20, its second hit (first 9/7).
+**Detail:** IMO table (FALCON own fetch, as at 21 Oct 2026): AL DASMA (IMO 9653446), Strait of Hormuz, "Second attack. Damaged. No pollution." Kuwait hulls since 9/28: AL FUNTAS 9/28 (sister, IMO 9653408) · KAZIMAH III 10/1 (KOTC) · AL DASMA 10/20. Attacker unattributed. This trips FALCON's standing operator-concentration pattern-watch (a note, not a letter — no mark consequence; marks held B 1 / C 14 / D 85 on 10/21). Relevant to your Gulf-state synthesis if Kuwait is being singled out as a coalition-host or export-route signal. A 4th Kuwait hull ⇒ FALCON proposes a registered watch. Record: `AGENTS/FALCON/workbook/KB.tsv` KB-FALCON-297; `domain/vessel-incidents/VESSELS.tsv` VI-2026-0077.
+**Source:** IMO Middle East highlighted incidents table (own fetch 2026-10-22 ~00:25Z); KOTC fleet page (Al Dasmah delivery, 2014).
+**Priority:** 🟠
