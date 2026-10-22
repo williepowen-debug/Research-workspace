@@ -107,6 +107,10 @@ def main():
         rows = log_rows_today(folder, logname, date)
         if rows is None:
             print(f"  ⚠️  {folder+'/':<12} no {logname} at all")
+            # 2026-10-21 (DAEDALUS refresh item 7): a missing log is a GAP, so it must
+            # reach the footer -- before this, the footer printed "clean" beneath the
+            # warning. Advisory rc stays 0; only the footer wording/flag list changed.
+            flags.append((folder, "NO-LOG", f"{logname} does not exist -- the domain layer cannot record anything"))
             continue
         touched = touched_today(folder, date)
         kb = kb_rows_today(date, channels)

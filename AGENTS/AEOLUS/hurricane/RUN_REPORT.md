@@ -1,74 +1,49 @@
-# AEOLUS · HURRICANE — worker run report
+# AEOLUS · HURRICANE — RUN REPORT (most recent run only)
 
-```
-run_date:            2026-09-28 (Monday) · pulls 2026-09-28 19:59–20:05 EDT (23:59–00:05 UTC)
-prior run:           2026-09-18 (AEOLUS dark 9/18 → 9/28)
-data as-of:          b-deck fix 2026092818 · NHC TWO 200 PM EDT Mon 9/28 · NHC advisories 2100Z 9/28
-```
+run_date: 2026-10-21 22:25 EDT (worker spawn; AEOLUS dark 2026-10-10 → 2026-10-21; data cutoff b-deck fix 2026102200 = 8 PM EDT 10/21)
 
-## dark_window_scan
+observations_added:  3 rows to SERIES.tsv (nhc_atlantic_active, ace, ace_todate_normal_inclusive) · 12 to LOG.tsv · 3 to STORMS.tsv (AL09 Isaias final; AL10 genesis row; AL10 Josephine SS). All stamped 2026-10-21 22:24 ET from `date`.
 
-**Window 2026-09-18 0000Z → 2026-09-28 1800Z. All 45 archived TWOAT issuances read** (IEM AFOS `list.json` + `nwstext`, 4/day plus a 1430Z Special on 9/18).
-**No system or disturbance was placed in the Gulf, Caribbean, Bahamas or near Florida in any issuance.** The words Gulf/Caribbean appear only in the fixed header line of all 45. **The Gulf/FL escalation line was not met at any point in the window, so there is no historical fire to register.**
+threshold_state:
+- Gulf/FL system in basin (C1 escalation needs a peak-season Gulf/FL MAJOR landfall): NONE at any of 49 TWOAT issuances 10/9 8 PM → 10/21, none now. Only active Atlantic system = AL10 Josephine (SS 55 kt, 37.4N 69.5W, moving NE away from US) → gulf_fl = no. NOT-FIRED. (Isaias letter already graded by AEOLUS 10/9: landfall 90 kt, not fired. Not re-graded here.)
+- Season ACE 18.6250 (through 2026102200) vs Yellow ≥134.8: 116.2 below · Orange ≥159.4: 140.8 below · Red ≥183.9 + landfall: 165.3 below. NOT-FIRED (all three).
+- AEO-01 criterion ACE <110.3257: 2026 at 18.6250. 91.7007 units would have to accrue after 10/22 00Z to break the line; largest post-10/22 accrual in 1966-2024 = 51.72 (2020). That happened in 0 of 59 years. Not resolvable before the season ends, and the worker gives no grade.
+- To-date normal (recomputed TODAY, 1991-2020, through 10/22 00Z inclusive) 110.1119 → 2026 = 16.91% of to-date normal (alt cutoff 10/21 18Z: 18.3225 / 109.9893 = 16.66%). Rank 3rd-lowest of 60 (behind 1994 12.76, 1983 17.40).
+- Hurricanes: 1 (Isaias) vs AEO-01 leg-2 line ≤7: margin 6. Majors 1 (Isaias best-track 105 kt over water; landfall 90 kt). Named storms 10.
+- CSU seasonal 9/4/1 · ACE 50 (vs 122.58 mean) unchanged (final seasonal issue was 8/5). NOAA CPC 8/6: 75% below-normal, page unchanged (still prints "2 named storms thus far"). ⚠️ NOAA quotes ACE against the MEDIAN, not the 122.58 mean.
+- Loss leg (reported SEPARATELY, PERIL ≠ LOSS): first post-landfall Isaias modeler estimates $1-4.5bn (below). All of them fall short of the C4 >$10B line by more than $5.5bn on the top of every range. Gallagher Re 9M global insured nat-cat $92bn, 29% below the 10-yr avg of $128bn. Cat-bond spread 4.57% [2026-09-25]: no fresh print. AEOLUS grades.
 
-| System | Genesis (first DB fix) | Status over time | Peak (b-deck) | Landfall | Gulf/FL |
-|---|---|---|---|---|---|
-| AL98 | (pre-window) | TWO 20% → 10% → near 0%, removed by Special TWO 9/18 | 25 kt | none | no |
-| **AL06 Fay** (ex-AL99; TWO peak 90%) | 9/17 12Z, 32.1N **34.0W** | TD SIX 9/19 12Z → TS 9/20 06Z → remnant low 9/22 21Z → **regenerated** TD 9/23 21Z → TS 9/24 00Z–9/26 00Z → TD since 9/26 06Z | **60 kt / 995 mb** 9/21 00Z, 34.2N 32.1W. Discussion 7: *"just shy of hurricane intensity"* | none | no. Now 26.6N 45.3W, ~2,160 mi from Miami |
-| **AL07 Gonzalo** (ex-AL90; TWO peak 80%) | 9/22 18Z, 8.0N **13.5W** | TS 9/25 00Z → post-tropical 9/26 21Z (**final advisory**) | **45 kt** 9/25 12–18Z near Cabo Verde | none. NHC warned of gusty winds, heavy rain and flash flooding for the Cabo Verde Islands | no |
-| **AL08 Hanna** (ex-AL91; TWO 10/20 → 50/60 → 70/80) | 9/26 18Z, 27.5N **58.3W** | TS 9/28 12Z at 36.7N 51.3W | 40 kt (still active) | none. Moving ESE away from the US | no |
-| Former-Fay remnant area | — | TWO 20% → 70% on 9/23, then became the regenerated Fay | — | — | no |
+changes:
+- NEW SYSTEM: AL10 JOSEPHINE, the 10th named storm. The genesis (first b-deck fix, a non-tropical EX low) was at 2026101818, 31.0N 71.4W, which is WEST OF 60W (open Q2; out of population for the 60W tell). It was Invest AL93 from about 10/19, and the TWO 7-day odds ran 20-30% (10/17-18) → 40% → 50% → 70% (special 3:40 PM 10/21). It became a subtropical storm at 2100Z 10/21 with 55 kt and 990 mb on scatterometer. TCD #1, verbatim: "will likely intensify during the next day or so through a favorable trough interaction while it remains near the north wall of the Gulf Stream." NHC forecasts 60 kt SS at 22/06Z, then post-tropical with hurricane-force winds from 22/18Z and absorption in about 4 days. Track: NE, staying south of Nova Scotia and Newfoundland. No coastal watches or warnings. The US hazards (gale gusts on the NE coast, minor-to-locally-moderate Mid-Atlantic coastal flooding, East Coast surf and rip currents) came from the pre-genesis low under NWS non-tropical products.
+- Other dark-window activity: a Cabo Verde low 10/11-10/13 peaked at 20%/20% and died. TWO 10/13, verbatim: "no longer expected… within an area of strong upper-level winds". Its genesis was east of 60W, so it is IN POPULATION for the tell. From 10/13 PM to 10/17 AM the TWO said formation was not expected for 7 days.
+- Current TWO (8 PM EDT 10/21, Reinhart): Josephine is active. A subtropical trough ESE of Bermuda is at 10%/10%, verbatim: "Upper-level winds are forecast to become too strong for further development by the weekend."
+- ACE 18.0200 → 18.6250 (+0.6050, Josephine, provisional). ISAIAS FINAL-OPERATIONAL 7.2250, unchanged from the 10/9 provisional value; the deck closed at 2026101112, and the 10/10 06Z fix is LO, so it is not counted. % of to-date normal: 17.46% (10/10 00Z) → 16.91% (10/22 00Z). The ratio FELL because a normal season accrues ~6.9 units over these 12 days, while 2026 accrued 0.605. Rank unchanged at 3rd-lowest of 60.
+- CSU 2026-10-14 two-week forecast for Oct 14-27, the FINAL two-week forecast of 2026 (verbatim "This is the final two-week forecast of the 2026 Atlantic hurricane season"): below-normal 60% (<1 ACE), near-normal 38%, above-normal 2% (>8 ACE). The table prints a middle tercile of 1-8 ACE while the text says 1-7, so the PDF contradicts itself; recorded as printed. Verbatim: "the base state across the Atlantic is quite TC-unfavorable, given the strong El Niño and associated high levels of vertical wind shear." Observed ACE for Oct 14-27 so far is 0.6050 (Josephine), window OPEN; Josephine's forecast subtropical points could carry it past the 1-ACE boundary. Not graded. CSU's own verification of the Sep 30-Oct 13 window: "Normal TC activity occurred… with Isaias generating 7 ACE" (b-deck computes 7.5925 = Isaias 7.2250 + Hanna 0.3675). CSU's season-end verification is scheduled for Nov.
+- ISAIAS LOSS LEG: first post-landfall industry insured-loss estimates. All are SECONDARY (Artemis / Reinsurance News, the admissible secondaries per SOURCES.md), all dated Oct 2026, and each article confirmed to describe the 2026 storm (Destin landfall, Cat 2, 105 mph):
+  | Firm | Estimate | Scope | Secondary + date |
+  |---|---|---|---|
+  | Cotality | $2bn-$3bn | wind + storm surge; bulk FL Panhandle + S Alabama | Reinsurance News 2026-10-13 |
+  | Verisk | $1bn-$2bn | insured ONSHORE property, wind + privately insured surge | Artemis 2026-10-13 |
+  | KCC | $3bn | private US, wind + surge; excl NFIP, boats, offshore | Reinsurance News 2026-10-15 |
+  | Moody's RMS | $2.5bn-$4.5bn, best $3.5bn | private market, wind + surge + rain flood, incl BI/PLA; surge+flood+NFIP ≈ $250m | Reinsurance News 2026-10-16 |
+  Pre-landfall reads (10/9, already logged): BMS $4-6bn; Gallagher Re, Marsh Re and Twelve Securis all mid-single-digit. Every post-landfall estimate sits at or below the pre-landfall band. Gallagher Re's 9M report (Reinsurance News 2026-10-21) gives global insured nat-cat of $92bn for Jan-Sep 2026, 29% below the 10-yr avg of $128bn and the lowest first nine months since 2019; Isaias is excluded because it landed in Q4, and the firm expects it to be "low to mid-single-digit" $bn. DATE TRAP check: KCC's own newsroom lists ONLY the 2020 Isaias (~$4bn US / $4.2bn incl Caribbean, Aug 2020). The 2026 KCC release is SEARCH-NOT-FOUND on the issuer page.
+- FEMA (OpenFEMA DisasterDeclarationsSummaries; dataset refreshed 2026-10-21 11:09Z; latest declarationDate in the set 10/17): NO major-disaster (DR) declaration for Isaias in any state. EM-3655-FL (27 areas), EM-3656-AL (4) and EM-3657-GA (76 areas; NEW to this folder) are all PA-only and all dated 10/9. Unverified search snippet (Florida Phoenix 10/19; fetch returned 403; not an admissible source): "state seeks $237M from FEMA", alongside an FL OIR figure of 46,509 claims / $582M insured as of 10/15. Neither figure is entered in SERIES; FL OIR belongs to CORAL's domain.
+- MMA Gulf shut-ins wound down. isaias4 (Sat 10/10): oil 68.76% / gas 57.44% / 113 platforms. isaias5 (10/11): 57.54 / 49.11. isaias6 (10/12): 29.63 / 24.81. isaias7 (10/13): 16.13 / 16.59. isaias8 (Wed 10/14): oil 202,371 BOPD = 9.92%, gas 237 MMCFD = 11.07%, 4 platforms. Verbatim: "this will likely be the Marine Minerals Administration's final daily hurricane activity update for this storm." For BRENT.
+- Cat-bond insurance risk spread (Artemis): NO fresh print. The page still holds 831 points, latest 2026-09-25 (4.57%, the same as the 10/8 read). No point yet covers Isaias. NOT rate-on-line.
 
-No other outlook area reached 40%. **What NHC wrote** (quoted, per the 8/13 discipline): Gonzalo before it formed, TWO 9/23: *"strong upper-level winds should end the opportunity for development by the weekend"*. Gonzalo's final discussion, 9/26: *"strong southwesterly vertical wind shear, diagnosed at nearly 50 kt… very dry air infiltrating the low-level circulation"*. Fay's remnant, 9/22: *"dry air mass with strong upper-level convergence"*. Fay now, discussion 35: *"Fay continues to defy model guidance"*, forecast post-tropical around 9/30 and dissipated by 10/01 06Z near 52W. Hanna, discussion 2: *"20-25 kt of westerly vertical wind shear… importing very dry tropospheric air"*, forecast post-tropical around 10/01.
+proposed_findings (PROPOSALS only; AEOLUS adjudicates):
+- P1 · Isaias post-landfall loss consensus is $1-4.5bn (central ≈ $3bn: KCC $3bn, Moody's RMS best $3.5bn, Cotality $2-3bn, Verisk $1-2bn onshore). That is at or below every pre-landfall estimate and below C4's >$10B leg by more than $5.5bn even at the top of the widest range. Source: the four secondaries above, 10/13-10/16. ⚠️ The four scopes differ (NFIP, offshore, rain flood, onshore-only); do not average them into one figure without naming the scope.
+- P2 · Western-basin genesis count, a correction candidate. The dossier carries "Edouard (87.3W) remains the only 2026 western genesis" (9/28) and "Isaias — the second western genesis after Edouard" (10/8). By first b-deck fix, though, Arthur (23.5N 100.3W, 6/15), Bertha (25.6N 83.5W, 7/17) and Cristobal (36.4N 63.5W, 8/10) also had genesis west of 60W, and Josephine (31.0N 71.4W, 10/18) is now the latest. On the b-deck definition, 6 of 10 2026 systems formed west of 60W; from 8/1 the figure is 4 (Cristobal, Edouard, Isaias, Josephine). Source: ATCF bal01-bal10 2026, first BEST row. HYPOTHESIS (not evidenced): the earlier count used a different genesis definition or a peak-season-only window. The definition needs pinning before anyone counts again.
+- P3 · The CSU 10/14 PDF contradicts itself on the middle tercile (Table 1 says 1-8 ACE, the text says 1-7). Grade the Oct 14-27 window against the TABLE boundaries and record the discrepancy. Source: tropical.colostate.edu/Forecast/2026-1014.pdf p.2.
+- P4 · No FEMA DR for Isaias 12 days after landfall (OpenFEMA, refresh 10/21 11:09Z). A third EM exists: EM-3657-GA, 76 areas. Source: OpenFEMA v2.
+- P5 · The CSU two-week cadence ended 10/14, by the issuer's own words, and the next CSU product is the Nov verification. A SOURCES.md "next issue" line can retire with that scope (CSU two-week series ended 10/14), per the 8/21 declared-dead lesson.
 
-## observations_added
-
-**9 rows → `workbook/SERIES.tsv`** · **11 rows → `workbook/LOG.tsv`** · **5 rows → `workbook/STORMS.tsv`** · `DOSSIER.md`: new §00 block, two-clock header moved 2026-09-18 → **2026-09-28**. Older sections are marked as 9/18 vintage and superseded wherever §00 gives a newer figure. No new instrument names.
-
-## threshold_state
-
-*Values and margins only. Nothing below is a score, a fire, or a resolution.*
-
-| Instrument | Value (date, basis) | Line | Margin | State |
-|---|---|---|---|---|
-| ACE vs normal (peril) | **9.5800** through b-deck 2026092818, computed from numbered decks AL01–08 | Yellow ≥134.8 / Orange ≥159.4 / Red ≥183.9 + landfall | 125.2 below Yellow | NOT-FIRED |
-| ACE vs to-date normal | **10.61%** of 90.3012 (Sep 28, exclusive convention) · 10.44% of 91.7490 (inclusive) | Yellow ≥110% | — | NOT-FIRED |
-| AEO-01 ACE leg | 9.5800 | season-end <110.3257 | **100.7457** units would still have to accrue to cross the line | open until 11/30 (AEOLUS grades) |
-| AEO-01 hurricane leg | **0** hurricanes | ≤7 | 7 of 7 remaining | open |
-| Majors | 0 | — | — | — |
-| C1 escalation: a Gulf/FL system | none at any point 9/18–9/28, and none now (Fay 45.3W, Hanna 48.7W) | needs a Gulf/FL system | — | NOT-FIRED (not met at any time in the window) |
-| Reinsurance rate-on-line | no transacted print | +5 / +15 / +25% YoY | — | NOT OBSERVABLE before the Jan-2027 renewal |
-| Cat-loss tally | Gallagher Re H1'26 $46bn = 72% of the $64bn 10-yr avg (Aug vintage, unchanged) | ≥110% | 38 pts below Yellow | NOT-FIRED |
-
-## changes
-
-1. **Three new named storms (Fay, Gonzalo, Hanna). Season to date: 8 named storms, 0 hurricanes, 0 majors.** The season's peak intensity is now **60 kt** (Fay, 9/21 00Z), up from 50 kt.
-2. **ACE: 4.3950 (9/18) → 9.5800 (9/28), +5.1850** (Fay 3.5750, Gonzalo 1.2900, Hanna 0.3200). **3.8950 of the total is provisional** because Fay and Hanna are still active. Gonzalo's figure comes from the operational b-deck after its final advisory.
-3. **To-date normal recomputed fresh for Sep 28: 90.3012** (exclusive) / 91.7490 (inclusive); 73.66% of the seasonal mean has normally accrued by this date. Parse re-validated: 14.40 named storms / 7.20 hurricanes, and the 9/18 figures (73.7248, 4.3950) reproduce exactly. **The ratio ROSE for the first time: 5.96% → 10.61%.** Over 9/18–9/28, 2026 accrued 5.185 units against 16.576 in a normal season, i.e. 31% of normal pace. **Rank: lowest of 30 (1991-2020) under both conventions**; 1994 is next at 12.7625. **Lowest of 59 for 1966-2024.**
-4. **ACE still needed to cross the AEO-01 line: 105.931 (9/18) → 100.7457 (9/28).** ACE accrued after Sep 28, 1991-2020: mean 30.835, median 31.021, max **84.625 (2016)**, min 0.000 (1993). **0 of 30 years accrued 100.7457 after this date** (on 9/18 it was 1 of 30: 1998). For 1966-2024 the max is 86.925 (2024), **0 of 59**. The lowest Sep-28 to-date ACE of any 1966-2024 season that still finished ≥110.3257 is **2016 at 57.9025**. Lowest-to-date cohorts that finished <110.3257: bottom-6 6/6, bottom-8 8/8, **bottom-10 9/10** (it was 10/10 on 9/18). The one exception is 2016, which joins the cohort at Sep 28 and finished at 142.53.
-5. **Outlooks.** CSU seasonal re-verified **unchanged**: 9/4/1, ACE 50. NOAA re-verified **unchanged**: issued 6 Aug, 75% below-normal. NOAA's page still says *"2 named storms recorded thus far"*; the actual count is 8. **There has been no CSU two-week issue after 9/16.** Re-read of the 9/16 PDF: Sep 16–29 below-normal (<11 ACE) 78%, near-normal 20%, above-normal 2%. **Observed ACE in that window through 9/28 18Z is 5.1850.** The window stays open through 9/29, so it is not graded. The next issue is due 9/30, and the final one 10/14.
-6. **Current NHC 7-day outlook** (200 PM EDT Mon 9/28, forecaster Papin): *"Tropical cyclone formation is not expected over the next 7 days."* Active storms are TD Fay and TS Hanna only.
-7. **ACE west of 60W (the CSU forecast is 25; normal is 73): 2026 = 3.4625** (Arthur, Bertha, Edouard). All three new storms contributed 0 here.
-
-## proposed_findings
-
-*These are proposals only. AEOLUS decides on each.*
-
-- **P1. 2026 remains the lowest ACE year at Sep 28 in both 1991-2020 (30 years) and 1966-2024 (59 years), even though the ratio to normal rose for the first time.** Sources: 9.5800 against 90.3012 = 10.61%, computed from NHC ATCF b-decks and HURDAT2, with the parse validated. *Read the mechanism, not the sign:* the ratio rose because three weak storms in the eastern Atlantic produced 5.185 units while normal accrual slowed.
-- **P2. After Sep 28, no year in either record accrued the 100.7457 units AEO-01 would still need.** The maximum is 84.625 (2016, 1991-2020) and 86.925 (2024, 1966-2024). The single counter-example available on 9/18 (1998) has dropped out. This is a measurement, not a probability.
-- **P3. There was no Gulf/FL involvement at any point in the dark window.** All 45 TWOs were checked, so this negative comes from the primary archive and is not an inference.
-- **P4. Peak-season tell: three new systems in its population, reported as facts only.** All three formed east of 60W. **Gonzalo:** NHC flagged the shear before it formed, and it died at about 23W. **Fay:** NHC flagged the shear; it formed, peaked at 60 kt, and has not reached 60W; it is forecast to dissipate near 52W. **Hanna:** it formed at 51.3W from a genesis at 58.3W and is moving ESE. ⚠️ **Ambiguity:** Fay and Hanna are systems at 30–37N that never tracked west across the basin. Whether they test a "fails before 60W" tell at all is AEOLUS's call. **None of the three became a hurricane.**
-- **P5. Method fix for `SOURCES.md` (a proposal; the file was not edited).** The instruction that invest decks "contribute 0 — keep them in the loop" was **false this run**. `bal902026` has a 40-kt TS row at 2026092500 and `bal912026` has one at 2026092812, and each duplicates the named storm's first TS fix. Summing every deck gives **9.9000 instead of 9.5800, a 0.32 over-count.** Proposed rule: sum AL01–AL49 only, or dedupe by genesis-num. Also, `bal98`/`bal99` have **disappeared** from the btk/ listing (AL99 was renumbered to AL06), so the listing is not append-only.
-- **P6. Loss leg: a third H1 read and a threshold for context.** The Aon H1'26 global insured cat-loss figure is **$47bn** (vs $100bn H1'25), dated 2026-07-22 and reached via Artemis (secondary). It is new to this folder. Keep it alongside Gallagher Re $46bn and Swiss Re $42bn; the three have different perimeters and should not be reconciled. For context (Apr-21 vintage, via Reinsurance News): Gallagher Re estimated that an insured loss of **$115–125bn above the expected annual average** is needed to meaningfully shift property re/insurance pricing.
-
-## gaps
-
-1. **Swiss Re H1 primary:** `curl -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" -L https://www.swissre.com/institute/research/topics-and-risk-dialogues/climate-and-natural-catastrophe-risk/first-half-2026-insured-catastrophe-losses.html` → **HTTP 403, 5,984 B, "Just a moment... Enable JavaScript and cookies to continue"**. The $42bn figure is still secondary-only.
-2. **Gallagher Re H1 report URL** `https://www.ajg.com/gallagherre/news-and-insights/natural-catastrophe-and-climate-report-h1-2026/` → **HTTP 200, 212 B JS shell, no content.** No verified Gallagher Re command exists.
-3. **Edouard insured loss: nothing found.** WebSearch on 9/28 found no estimate from Verisk, KCC, Moody's RMS or CoreLogic. **This negative comes from search, not from a verified command.** No publisher in `SOURCES.md` has a command for event-level loss.
-4. **Artemis cat-bond series** (verified command): HTTP 200, 827 points, but the **latest point is still 2026-08-28** (spread 5.05%, expected loss 2.50%, collateral 3.81%). There is no September point, so the series now runs **31 days** behind. The page did not fail; it has simply not refreshed.
-5. **CSU two-week 9/30:** `https://tropical.colostate.edu/Forecast/2026-0930.pdf` → **HTTP 404 (6,493 B)**. It is not yet issued (scheduled 9/30), so this is expected and not a failure. 0923 and 0928 also return 404; neither is a scheduled date.
-6. **8 PM EDT 9/28 TWO:** not yet posted at 00:04Z pull time. The current read is the 200 PM EDT issuance.
-7. **Q3 cat-loss tallies (Gallagher Re, Aon)** are not yet published; they are expected in October.
-8. **No ENSO values were pulled.** That is correct under the SHARED-INPUT RULE: ENSO belongs to `regime/`.
-9. **Correction to the spawn prompt:** the prompt warned that `AGENT.md`'s "WHAT TO REPORT" block is 8/13 vintage. **As read today it is not.** It was re-cut on 2026-09-18 to hold questions only, with no values ("Do not re-add values here"). This run's reference state came from the spawn prompt and `DOSSIER.md`. Nothing was edited.
+gaps:
+- IEM AFOS TWOAT archive (mesonet.agron.iastate.edu/cgi-bin/afos/retrieve.py?pil=TWOAT…) was used for the 10/10-10/21 dark-window scan. It is NOT a SOURCES.md command; the 9/28 worker used it too. The text is NHC's verbatim product, archived by a third party. Disclosed so AEOLUS can rule on adding it to SOURCES.md.
+- NHC Josephine Adv #2 (11 PM AST = 03Z 10/22) had not been issued at the read (~02:20Z). The numbers come from Adv/TCD #1 (2046-2047Z).
+- Invest decks bal90-bal92 have been purged from the ATCF btk index (only bal93 is listed), and the Cabo Verde low's invest number does not appear in the TWO text. Any pre-10/18 invest in the window is therefore covered only through the TWO prose, not through a deck.
+- None of the loss-leg figures comes from its issuer. Swiss Re, Gallagher Re, Verisk, Cotality and Moody's RMS issuer pages were not read; the KCC issuer newsroom was read and showed only 2020 items. Every estimate is SECONDARY and labelled so. SOURCES.md still has no verified primary command for any loss-leg tally.
+- floridaphoenix.com 2026-10-19 (FL FEMA request / OIR claims): WebFetch returned "HTTP 403 Forbidden". The FL OIR primary (floir.gov) was not attempted because it is out of scope (CORAL's domain) and not a SOURCES.md source.
+- EP Simon / IBRD CAR Mexico 2024 parametric (an open item in DOSSIER §00000, "read the landfall pressure vs the box"): NOT pulled. It was outside this brief and is not a SOURCES.md instrument.
+- NOAA CPC page: re-read, unchanged (issued 6 Aug 2026), so no row was added. CSU seasonal: unchanged, no row added. Cat-bond: no new point, so no SERIES row was added and the no-print result went to LOG only.
+- No grades were made, nothing was fired or resolved, no packets were sent, and nothing was committed. Files touched: DOSSIER.md, RUN_REPORT.md, workbook/SERIES.tsv, workbook/LOG.tsv, workbook/STORMS.tsv (all inside AGENTS/AEOLUS/hurricane/).

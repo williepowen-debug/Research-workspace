@@ -45,8 +45,8 @@
 | Trade | Strengthened By | Weakened By |
 |---|---|---|
 | #1 Insurer convex (C1) | CORAL FL stress, REGINALD bank-exposure, a Gulf/SE landfall | benign season (El Niño suppression) |
-| #2 Climate freight (C5) | MARCO goods-CPI, HENRY macro pass-through, Panama drought | chokepoints at normal capacity, demand-pull fading |
-| #4 Colorado hydro/water (C6) | **WATT** (Hoover/Glen Canyon derate + whether it reprices a contract or a ticker — **asked 8/27, unanswered**), CARL/MARCO (SW municipal + ag), VULCAN (data-center siting), REGINALD/CREED (muni + ag credit) | Mead recovering above 1,035 on the Most Probable path; a wet Upper-Basin winter (⚠️ **CPC's DJF signal does NOT reach the Upper Basin** — coastal CA + southern AZ wet, Northern Rockies dry, Powell's inflow originates between them) |
+| #2 Climate freight (C5) | CARL goods-CPI (repointed from MARCO 2026-07-31 — MARCO holds no CPI instrument), HENRY macro pass-through, Panama drought | chokepoints at normal capacity, demand-pull fading |
+| #4 Colorado hydro/water (C6) | **WATT** (Hoover/Glen Canyon derate + whether it reprices a contract or a ticker — **ANSWERED 9/3, consumed 9/11 (KB-107): no WAPA/BCP contract mechanism reprices before the physical derate** — *dependency closed 2026-10-21, DAEDALUS refresh item 2*), CARL/MARCO (SW municipal + ag), VULCAN (data-center siting), REGINALD/CREED (muni + ag credit) | Mead recovering above 1,035 on the Most Probable path; a wet Upper-Basin winter (⚠️ **CPC's DJF signal does NOT reach the Upper Basin** — coastal CA + southern AZ wet, Northern Rockies dry, Powell's inflow originates between them) |
 | #3 El Niño winter demand (C3, watch — MILD read) | a mild Dec–Feb as the composite implies; BRENT storage build | a 2009-10-style cold winter; HAWK supply shock overriding demand |
 | #5 Southern Africa maize (C2, watch) | CARL (regional food CPI / white-maize import demand), FERT (input demand), a dry Dec–Feb in the SA maize belt | normal Dec–Feb rains (2010-style counterexample); planting response or irrigation weakening the teleconnection |
 

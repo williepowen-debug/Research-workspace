@@ -1,9 +1,41 @@
 # AEOLUS · WATER — live dossier
 
-**As-of: 2026-10-10 (10/10 block, AEOLUS directly) · 2026-10-09 worker pass below** *(worker pass 10/9, tasked subset: Rhine C5 legs + WSV forecast · Contargo · Mead/Powell/Lees Ferry · Colorado policy clock + Oct 24-MS · Panama (A-37/A-38, Gatún) · Danube LKV · Memphis + USDA barge. NOT re-pulled this pass: USDM, Yangtze, Paraná, St. Louis, Vicksburg/Cairo, CBS, heating oil, Maxau/Worms/Mainz/Emmerich. The 10/9 block below SUPERSEDES the 9/28 block for the instruments it covers.)* *(Prior as-of line, kept: As-of 2026-09-28 — DARK-WINDOW worker pass 9/28 — every instrument re-pulled at its primary except snowpack (seasonally empty); Mississippi Vicksburg (VCKM6) / Cairo (CIRI2) NWPS IDs RESOLVED from the NWPS listing, not yet registered. The 9/28 block below SUPERSEDES the 9/18 block where they overlap; older blocks are history — read the section dates.)* *(Prior as-of line, kept: As-of 2026-09-18 *(FULL worker pass 9/18 — every instrument in this folder re-pulled at its primary except snowpack (seasonally empty) and the Yangtze (not tasked). Section blocks below dated 8/27 or 9/11 are SUPERSEDED by the 9/18 block unless they say otherwise — read the section dates).* All figures primary (USBR 24-Month Study / USBR hydrodata / USGS NWIS / WSV-PEGELONLINE / NOAA-NWPS / ACP / OVF / UNL-FICH / USDM API).)*
+**As-of: 2026-10-21 (10/21 worker dark-window pass, block below; tasked subset: Rhine 6c scan + NNW + WSV forecast + Contargo · Mead/Powell/Lees Ferry + October 24MS · Memphis · USDA barge · USDM · Gatún + ACP advisories. NOT re-pulled: Yangtze, Danube, Paraná, St. Louis, Vicksburg/Cairo, CBS, heating oil, Maxau/Worms/Mainz/Emmerich, Q series) · 2026-10-10 (10/10 block, AEOLUS directly) · 2026-10-09 worker pass below** *(worker pass 10/9, tasked subset: Rhine C5 legs + WSV forecast · Contargo · Mead/Powell/Lees Ferry · Colorado policy clock + Oct 24-MS · Panama (A-37/A-38, Gatún) · Danube LKV · Memphis + USDA barge. NOT re-pulled this pass: USDM, Yangtze, Paraná, St. Louis, Vicksburg/Cairo, CBS, heating oil, Maxau/Worms/Mainz/Emmerich. The 10/9 block below SUPERSEDES the 9/28 block for the instruments it covers.)* *(Prior as-of line, kept: As-of 2026-09-28 — DARK-WINDOW worker pass 9/28 — every instrument re-pulled at its primary except snowpack (seasonally empty); Mississippi Vicksburg (VCKM6) / Cairo (CIRI2) NWPS IDs RESOLVED from the NWPS listing, not yet registered. The 9/28 block below SUPERSEDES the 9/18 block where they overlap; older blocks are history — read the section dates.)* *(Prior as-of line, kept: As-of 2026-09-18 *(FULL worker pass 9/18 — every instrument in this folder re-pulled at its primary except snowpack (seasonally empty) and the Yangtze (not tasked). Section blocks below dated 8/27 or 9/11 are SUPERSEDED by the 9/18 block unless they say otherwise — read the section dates).* All figures primary (USBR 24-Month Study / USBR hydrodata / USGS NWIS / WSV-PEGELONLINE / NOAA-NWPS / ACP / OVF / UNL-FICH / USDM API).)*
 
-> **Last real data refresh: 2026-10-10**  ·  **Dossier written: 2026-10-10**
+> **Last real data refresh: 2026-10-21**  ·  **Dossier written: 2026-10-21**
 > *Two-clock header (PAT-044) — `scripts/ledger_staleness.py` reads the first line. **The data date, not the edit date**: a hygiene edit must NOT bump it.*
+
+### 🔴 10/21 WORKER PASS (dark window 10/10 → 10/21) — Rhine below both NNW lines on every complete day; October 24-Month Study is out; Powell back above 3,520
+
+> **Worker run, PROPOSAL-ONLY. Nothing is scored, fired or resolved here.** Detail: `RUN_REPORT.md` (10/21). Observations: `workbook/SERIES.tsv` +96 rows, `workbook/LOG.tsv` +7 rows. Pulls 22:19–22:24 ET 10/21.
+
+**① RHINE C5 legs** — unrounded daily means, **local CEST calendar day** (all readings carry +02:00; CET switch is 10/25), complete = n ≥ 90/96; frozen NNW Kaub **25** / Duisburg **153** (live API re-read 10/21: 25.0 occ 2018-10-22 / 153.0 occ 2018-10-23, `validFrom` null — **not republished**).
+
+| Date | Kaub mean (n) | Duisburg mean (n) | both ≤? |
+|---|---|---|---|
+| 10/10 | 7.823 (96) | 145.156 (96) | yes |
+| 10/11 | 15.042 (96) | 147.573 (96) | yes |
+| 10/12 | 18.906 (96) | 141.812 (96) | yes |
+| 10/13 | **19.719** (96) | 143.260 (96) | yes |
+| 10/14 | 15.042 (96) | 146.573 (96) | yes |
+| 10/15 | 12.677 (96) | 146.958 (96) | yes |
+| 10/16 | 9.052 (96) | 142.698 (96) | yes |
+| 10/17 | 10.053 (95) | 145.427 (96) | yes |
+| 10/18 | 8.781 (96) | 144.260 (96) | yes |
+| 10/19 | 12.885 (96) | 137.323 (96) | yes |
+| 10/20 | 19.240 (96) | 138.385 (96) | yes |
+| 10/21 | 15.146 (96) | 138.844 (96) | yes |
+| *10/22* | *18.611 (18) INCOMPLETE* | *144.333 (18) INCOMPLETE* | *skipped* |
+
+10/8 and 10/9 recomputed in the same pull reproduce the stored rows to 3 dp. **No complete day with either leg above its line; all 12 three-day windows 10/8–10/10 … 10/19–10/21 have both legs at/below on all 3 days** — a COUNT, not a grade. Closest approach: Kaub 19.719 (10/13, −5.281 to 25); Duisburg 147.573 (10/11, −5.427 to 153); one instantaneous Duisburg reading of 155 on 10/17 (daily mean 145.427). **WSV forecast (init 10/21 07:00 CEST):** forecast to 10/23 07:00 — Kaub 17 → 20 → 18, Duisburg 136 → 144; *estimate* to 10/25 05:00 — Kaub 25 at 10/24 15:00 → 30; Duisburg 153 at 10/24 15:00 → 160. ⚠️ Instantaneous points, estimate class past 10/23 07:00 — not a daily mean. **Contargo** (table dated 21.10): Kaub 21 / 18 → row 'ab 40 cm' **€1,075/20′**; Ruhrort 138 / 136 → row 140–131 cm **€675/20′** — both unchanged since 10/8.
+
+**② Colorado** — Mead **1,037.18 ft [10/20]** (+2.18 vs 1,035); window high 1,037.71 (10/11), falling 10/12–10/19, flat 10/19–10/20. Powell **3,520.77 [10/20]** (+10.77 vs 3,510); window low 3,518.88 (10/11); **at/above 3,520 on 10/16–10/20 (5 consecutive days)** — state only. Lees Ferry flat 6,540–6,650 cfs 10/9–10/20 (10/10–10/11 missing in NWIS), so **release is not the driver of Powell's rise**; inflow driver NOT verified (hypothesis: Flaming Gorge DROA water and/or October inflow). **October 2026 24-Month Study PUBLISHED** (dated 10/15; run processed 10/8): official = **6 maf** run (`24Month_10_6.pdf`). EOM columns match all 12 USBR actuals Oct-25 → Sep-26 to 0.00 ft. **Mead:** Oct-26 1,035.29 · Nov 1,033.97 · Dec **1,034.52** · 12-month min **1,007.73 (Jul-2027)**. **Powell:** 12-month min **3,516.28 (Feb-2027)**; no end-of-month value below 3,510 in the 24 months. 7 maf alternative: Mead 12-mo min 1,015.68 (May-2027); Powell 24-mo min 3,510.69 (Mar-2028). vs September 6 maf: Mead Dec-26 1,034.18 → 1,034.52; Powell Feb-27 3,511.43 → 3,516.28. ⚠️ End-of-month values only — AEO-10's "at any point" basis is not settled by an EOM table. ⚠️ `lc/region/g4000/24mo.pdf` still serves the JULY study.
+
+**③ Mississippi** — Memphis daily means (UTC day, n ≥ 22): 8.848 [10/10] → peak **9.551 [10/11]** → **3.532 [10/21]** (lowest complete day in the window; falling ~1 ft/day 10/19–10/21). Margin vs `lowThreshold` −8: +11.532. Trough of record in this folder still −4.678 [9/14]. **USDA St. Louis 673.44% = $26.87/t [10/13]**, third weekly decline (834.69 → 758.93 → 723.21 → 673.44); 78.3rd pct of same calendar week (n=23), 93.8th all weeks.
+
+**④ Drought** — USDM CONUS D1–D4 **53.73% [valid 10/13]** (10/6 55.21, −1.48 pp); D4 1.15 → **1.30**. Valid-10/20 map not released at pull (Thursday release).
+
+**⑤ Panama** — Gatún **86.20 ft [10/20]**, +0.94 vs 85.26 [10/9]; same date 2023 79.62 / 2024 87.35 / 2025 87.08. **A-39-2026 (10/21):** Last-Minute Reservation service reinstated at the Panamax Locks; no DRAFT or SLOT-cap change stated; ACP says the watershed deficit persists. October transits not published yet (Monthly Ops due November); September = 32.63/day (A-38, 10/9 block).
 
 ### 🔴 10/10 — AEOLUS directly (no worker): Rhine forecast cut, Colorado agreement unsigned + litigation, Panama dry-season base rate
 
@@ -47,6 +79,10 @@
 ## ROTATED 2026-10-10 — older passes and the standing sections
 Verbatim → `../archive/WATER_DOSSIER_ARCHIVE_2026-10-10_9-28-pass-to-sec5.md` (crc in its banner). **Grep it; never re-derive from memory.** It holds: the 9/28 dark-window pass · 9/11 drain refresh · 9/18 full pass (September 24MS, Rhine window) · §1 drought (USDM split geography, "same dataset, opposite verdicts") · §2 Colorado system (Powell↔Mead coupling **measured**, the base-rate contamination note, the hydropower leg, the **Final-EIS shortage matrix**, the unmodelled inflow term, "**El Niño does NOT refill the Colorado**") · §3 river navigation (8/13 six-station Rhine read, the WSV forecast instrument, the 8/13 trigger re-spec, **other watched rivers** with their reference levels) · §4 snowpack/groundwater · §5 water as an AI-siting constraint.
 **Standing facts a worker needs without opening it:** Powell↔Mead are ONE coupled system — never two witnesses · El Niño gives no reliable Upper-Colorado snowpack lift · Rhine graded on unrounded means only · Danube LKVs reset in 2026 (OVF) · Paraná reference = Rosario trailing-year percentile (no published plane) · St. Louis has no reference plane (no adjective).
+
+## STANDING RULES (hot pointer — added 2026-10-21, DAEDALUS refresh item 6; text unchanged, source in archive)
+
+⛔ **NO MISSISSIPPI THRESHOLD MAY BE GRADED** (AEOLUS, 2026-09-18) until the measurement basis is a structural column rather than a `notes` string. Three surfaces report on three silently different bases (Memphis instantaneous latest · Memphis `stageflow/observed` daily mean · St. Louis 08:00 spot). Carry the band as an **OBSERVED LEVEL ONLY**. Full text, verbatim: `archive/WATER_DOSSIER_ARCHIVE_2026-10-10_9-28-pass-to-sec5.md` lines 121–132 + the 9/18 addendum.
 
 ## OPEN QUESTIONS / GAPS
 

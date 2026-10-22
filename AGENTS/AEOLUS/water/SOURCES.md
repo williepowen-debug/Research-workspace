@@ -250,7 +250,7 @@ for r in d['flood']['lowWaters']['historic'][:6]: print(' ', r['occurredTime'][:
 ```
 ⚠️ **PIPE IT** — the raw JSON is enormous. 8/27: **12.47 ft; `lowThreshold` −8 ft.**
 🔑 **−8 ft is NOT the record low** — grade crises vs `lowWaters.historic`: **2023 −12.06 · 2022 −10.81** ft (C5 analogues; −8 = watch). Never quote the 1988 "LOWEST STAGE ON RECORD" label.
-⚠️ **Only Memphis is referenced.** St. Louis (USGS `07010000`): **no reference plane — no adjective.** Vicksburg/Cairo IDs unresolved (VICM6/VKBM6/VIKM6, CAIA2/CACT1 404). **Sep–Nov is the window.**
+⚠️ **Only Memphis is referenced.** St. Louis (USGS `07010000`): **no reference plane — no adjective.** Vicksburg/Cairo IDs **RESOLVED 2026-09-28: `VCKM6` / `CIRI2`** (KB-AEO-159; approved instruments `vicksburg_stage` / `cairo_stage` in AGENT.md) — the dead candidates VICM6/VKBM6/VIKM6, CAIA2/CACT1 404 are kept as known-bad. *(Reconciled 2026-10-21, DAEDALUS refresh item 5.)* **Sep–Nov is the window.**
 
 ### ✅ MISSISSIPPI GRAIN BARGE FREIGHT — USDA AMS, registered 2026-09-28
 **$/ton = rate × benchmark / 100** (1976 Tariff No. 7).

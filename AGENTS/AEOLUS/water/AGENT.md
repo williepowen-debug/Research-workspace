@@ -119,5 +119,5 @@ gaps:                <instruments not pulled + the exact error text>
 
 1. **Mead vs 1,035 through 12/31 (AEO-10, 55%)** — the realised track and the October/November 24-Month Studies are what resolve it. Report every daily value; no extrapolation without the driver (Powell releases).
 2. **C5 →5 re-scope (deadline 9/30)** — confirm the WSV/BfG `GlW` definition (Kaub 77 / Duisburg 227) and whether any multi-year daily series is reachable; the ~31-day PEGELONLINE retention is the wall.
-3. **Mississippi autumn low-water window (Sep–Nov)** — daily-mean basis only; resolve Vicksburg/Cairo NWPS IDs and any St. Louis reference plane.
+3. **Mississippi autumn low-water window (Sep–Nov)** — daily-mean basis only (UTC day, KB-159); Vicksburg/Cairo IDs **resolved 9/28 (`VCKM6` / `CIRI2`)** — pull them; St. Louis reference plane still open. ⛔ **No Mississippi threshold is graded** until the basis is a structural column (standing rule 2026-09-18, water DOSSIER § STANDING RULES) — report levels only. *(Reconciled 2026-10-21, DAEDALUS refresh items 5–6.)*
 4. **Yangtze** — still no read under the standing Will river directive.

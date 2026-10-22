@@ -1,14 +1,43 @@
 # AEOLUS · HURRICANE — live dossier
 
-**As-of: 2026-10-10 for §00000; 2026-10-09 for §0000; 2026-10-08 for §000; 2026-09-28 for §00; §0–§6 (9/18 vintage) ROTATED to archive 10/10.** **C1 score: 2 as set by AEOLUS 2026-10-08 (VX-AEO-39), HELD at the 10/9 landfall grade (VX-AEO-41) — a worker does not score; nothing below re-grades it.**
+**As-of: 2026-10-21 for §000000 (worker run 10/21, AEOLUS dark 10/10 → 10/21); 2026-10-10 for §00000; 2026-10-09 for §0000; 2026-10-08 for §000; 2026-09-28 for §00; §0–§6 (9/18 vintage) ROTATED to archive 10/10.** **C1 score: 2 as set by AEOLUS 2026-10-08 (VX-AEO-39), HELD at the 10/9 landfall grade (VX-AEO-41) — a worker does not score; nothing below re-grades it.**
 
-> **Last real data refresh: 2026-10-10**  ·  **Dossier written: 2026-10-10**
+> **Last real data refresh: 2026-10-21**  ·  **Dossier written: 2026-10-21**
 > *Two-clock header (PAT-044) — `scripts/ledger_staleness.py` reads the first line. **The data date, not the edit date**: a hygiene edit must NOT bump it.*
 > **Observations → `hurricane/workbook/SERIES.tsv`** · findings → central `workbook/KB.tsv` · synthesis → `STATUS.md`. **Flow is one-way.**
 > **Feeds:** C1
 **The climatological peak (~Sep 10) has PASSED.** *(CSU's own 9/16 words: "This period immediately follows the climatological peak of the season.")* Peak season runs to mid-Oct.
 
 ---
+
+## 000000. 2026-10-21 — DARK-WINDOW CATCH-UP (worker run; AEOLUS dark 10/10 → 10/21) — state only, no grades
+
+**Basin:** one new system. **AL10 Josephine — subtropical storm, formed 21Z 10/21, 55 kt / 990 mb at 37.4N 69.5W, 265 mi S of Nantucket, moving NE away from the US** (NHC Adv/TCD #1). Genesis (first b-deck fix) **2026101818 at 31.0N 71.4W — WEST of 60W (open Q2), out of population for the 60W tell.** Not Gulf/FL. US hazards came from the pre-genesis storm-force non-tropical low (gale gusts NE coast, Mid-Atlantic coastal flooding, East Coast surf; NWS products, no NHC watches/warnings). NHC: post-tropical with hurricane-force winds by ~22/18Z, absorbed ~4 days.
+- **Dark-window TWO scan (49 archived TWOAT issuances 10/9 8 PM → 10/21; IEM AFOS archive — not a `SOURCES.md` command):** **no disturbance in the Gulf, Caribbean, Bahamas or near Florida at any issuance.** One other disturbance: Cabo Verde low 10/11–10/13, peak 20%/20%, killed by *"strong upper-level winds"* east of 60W (in-population tell evidence). 10/13 PM → 10/17 AM: *"formation not expected over the next 7 days."*
+- **Current TWO (8 PM EDT 10/21):** Josephine active; subtropical trough ESE of Bermuda **10%/10%** — *"Upper-level winds are forecast to become too strong for further development by the weekend."* No Gulf/FL area.
+
+**ACE through b-deck 2026102200 = 18.6250** (AL01–AL10, invest bal93 excluded — it repeats a 55-kt row at the naming hour). **Isaias FINAL-operational 7.2250** (unchanged from provisional; the 10/10 06Z fix is LO). Josephine 0.6050 **ONGOING – provisional**.
+| | value |
+|---|---:|
+| To-date normal through 10/22 00Z, inclusive (like-for-like) | **110.1119** (89.83% of 122.5842) → 2026 = **16.91%** |
+| Alt cutoff through 10/21 18Z | 109.9893 vs 18.3225 → 16.66% |
+| Rank | **3rd-lowest of 60** (1994 12.76, 1983 17.40); 2nd-lowest of 31 (1991-2020 + 2026) |
+| Counts NS / HU / MH | **10 / 1 / 1** (Isaias best-track peak 105 kt over water; landfall 90 kt) — AEO-01 leg 2 line ≤7 HU: margin 6 |
+| AEO-01 line <110.3257 | **91.7007** units would have to accrue after 10/22 00Z; max post-cutoff accrual 1966-2024 = 51.72 (2020) → 0 of 59 |
+
+**Outlooks:** **CSU 10/14 two-week (Oct 14–27) — the FINAL two-week forecast of 2026:** below 60% (<1 ACE) · near 38% · above 2% (>8). Table prints the middle tercile 1–8, the text says 1–7 (recorded as printed). CSU's own verification of Sep 30–Oct 13: *"Normal TC activity occurred… Isaias generating 7 ACE"* (b-deck 7.5925). Observed Oct 14–27 so far **0.6050**, window open. CSU seasonal 9/4/1, ACE 50 and NOAA 8/6 (75% below) unchanged; NOAA page still says "2 named storms thus far".
+
+**Loss leg (PERIL ≠ LOSS) — first post-landfall modeler estimates, all SECONDARY (Artemis / Reinsurance News), all dated Oct 2026 and confirmed to be the 2026 storm:**
+| Firm | Estimate | Scope | Published (secondary) |
+|---|---|---|---|
+| Cotality | $2–3bn | wind + surge | RN 2026-10-13 |
+| Verisk | $1–2bn | onshore property, wind + private surge | Artemis 2026-10-13 |
+| KCC | $3bn | private US wind + surge; excl NFIP, boats, offshore | RN 2026-10-15 |
+| Moody's RMS | $2.5–4.5bn, best $3.5bn | private market, wind + surge + rain flood; surge/flood/NFIP ~$250m | RN 2026-10-16 |
+Gallagher Re 9M (RN 10/21): global insured nat-cat **$92bn**, 29% below 10-yr avg $128bn; Isaias excluded; expects low-to-mid single-digit $bn. ⚠️ **DATE TRAP held:** KCC's own newsroom shows only the 2020 Isaias (~$4bn, Aug 2020); the 2026 KCC release is SEARCH-NOT-FOUND there.
+- **FEMA (OpenFEMA, refresh 10/21 11:09Z): NO major-disaster (DR) declaration for Isaias.** EM-3655 FL (27), EM-3656 AL (4) and **EM-3657 GA (76 areas, new to this folder)**, all PA-only, all 10/9.
+- **Cat-bond spread: NO fresh print** — still 831 points, latest 2026-09-25 (4.57%). No point covers Isaias. Not ROL.
+- **MMA shut-ins wound down:** 10/14 (isaias8) oil 9.92% / gas 11.07%, *"likely… final daily hurricane activity update for this storm."*
 
 ## 00000. 2026-10-10 — DAY 1 AFTER LANDFALL (AEOLUS directly; no worker)
 

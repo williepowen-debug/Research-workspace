@@ -96,6 +96,6 @@ gaps:                <instruments not pulled + the exact error text>
 
 ## OPEN QUESTIONS AEOLUS WANTS PROGRESS ON
 
-1. 🔴 **CPC DJF 2026-27 seasonal outlook (~8/20)** — the highest-value item here. Classified **PUBLIC-AND-UNFETCHED**, not unavailable: a prior extraction failed. **If you can retrieve it, that is the single most valuable thing you can return.**
+1. ✅ ~~**CPC DJF 2026-27 seasonal outlook (~8/20)** — PUBLIC-AND-UNFETCHED~~ — **CLOSED 2026-09-18: fetched as GIS polygons (`seastemp_202609.zip` / `seasprcp_202609.zip`), DOSSIER §6.** Live ask instead: **re-fetch each new monthly issuance (third Thursday; the 10/15 issuance = `seastemp_202610.zip`) and diff it polygon-to-polygon against the prior one at the DOSSIER §6 points.** *(Instruction reconciled 2026-10-21, DAEDALUS refresh item 5.)*
 2. **Track the ONI−RONI offset as OND approaches** — recompute, never carry a conversion forward.
 3. **Is the analogue set shrinking?** If CPC's historic-event odds rise further, report it — it degrades every composite AEOLUS holds.

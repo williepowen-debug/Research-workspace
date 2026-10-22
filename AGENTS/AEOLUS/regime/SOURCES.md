@@ -69,7 +69,7 @@ curl -sL "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso
 Monthly + seasonal (temp / precip) probabilistic outlooks, issued **~the third Thursday**.
 
 🔴 **CPC DJF 2026-27 outlook (~8/20) is the single highest-value dated item I hold.** It is **season-specific for this winter** and therefore **supersedes any composite** — with a 69% historic-event probability there is no analogue set left to average (L-14/L-17). **Owed to WATT and MARCO.**
-⚠️ **Status: PUBLIC-AND-UNFETCHED.** My 8/12 extraction failed. That is **not** the same as unavailable and must not be recorded as a blocked item (`finding_unfetched_is_not_unavailable`).
+✅ **Status: FETCHED 2026-09-18 as GIS shapefiles** (`ftp.cpc.ncep.noaa.gov/GIS/us_tempprcpfcst/seastemp_<YYYYMM>.zip` / `seasprcp_<YYYYMM>.zip`; layer `lead<N>_DJF_temp` / `_prcp`; `Fcst_Date` and `Valid_Seas` are in the .dbf) — DOSSIER §6. *(Superseded 2026-10-21, DAEDALUS refresh item 5: "PUBLIC-AND-UNFETCHED — my 8/12 extraction failed". The lesson stands: unfetched is not unavailable.)*
 
 ---
 
