@@ -16,6 +16,7 @@
 - Boot: pull (clean tree), STATUS/SCRATCH/LESSONS, staleness checks (all rc 0), corrections check PASS, strike_feed.py attended run (21 rows; 17 NONE all dispositioned; 1 false MATCH Crimea→PNT).
 - Date-by-date EN/RU sweep 10/18→10/21 + article reads. STRIKES +3 rows, Ryazan updated; mark NOT advanced (stays 10/11; Palaemon unposted).
 - KB-209…214. board_log +3; 3 WALTER signals → processed. STATUS rotated 10/16 block → `archive/STATUS_ROTATED_2026-10-21.md`.
+- Peer (21:32, prome-56): WQ-470 ruled A; read-3 residue consumed; stay closed. HAWK packet committed a896ab9d8, filed to processed.
 - Peer (21:22, prome-56): Surgut +5d done; C3 canvass run tonight; strike_feed.py read 3 RELEASE; residue dispositioned (text/tests).
 - Peer: WALTER staging check (renames were already in 481b5a917) + KB-198 Novak date corrected (`e8b1d71d9`). PROME prome-56 (20:51): L661 read-2 fix (`b31056c91` + `6fa90a6fd`), L718 pre-stage, L623/L447/L396 shown already RESOLVED in DOCKET's own cells, HAWK given C3 canvass date 10/26.
 
@@ -23,7 +24,7 @@
 1. **10/23:** grade L718 from `domain/energy-strikes/L718_PRESTAGE_2026-10-21.md` (expected NOT MET). PNT +5d re-read. L661 RESOLVED 10/21 (read 3 RELEASE).
 2. **~10/23+:** Palaemon 12–18 Oct — C3 10/12–10/18, Azov 10/10 (L666), PNT; certifies the ledger past 10/11.
 3. **~10/26:** Tambov/Druzhba flow notice check (KB-209). (Surgut +5d DONE 10/21, KB-215.)
-4. **C3 limb-2 canvass RUN 10/21** (`C3_LIMB2_CANVASS_2026-10-21.md`, KB-216); HAWK GRADED NOT SATISFIED (KB-217): no C3 kill 10/27; holds 3. Watch: Will's ruling (via PROME) on HAWK's prospective SCOPE qualifier. **10/27**: limb 1 hits 21/21 but NO kill (limb 2 not satisfied).
+4. **C3 limb-2 canvass RUN 10/21** (`C3_LIMB2_CANVASS_2026-10-21.md`, KB-216); HAWK GRADED NOT SATISFIED (KB-217): no C3 kill 10/27; holds 3. **WQ-470 RULED A (Will 21:30 via PROME):** after the 10/27 grade, draft the forward-only limb-2 qualifier WITH HAWK (scope vs cause settled in the draft); text to Will before PROME registers. **10/27**: limb 1 hits 21/21 but NO kill (limb 2 not satisfied).
 5. **11/2** C1 blackout flag · **11/8** §5 re-read · **11/17** C2 earliest re-kill · **11/18** GATE-OSPREY-001.
 
 ## OPEN THREADS / WATCHES
