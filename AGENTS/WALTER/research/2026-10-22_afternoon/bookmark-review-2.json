@@ -1,0 +1,42 @@
+{
+  "schema": 2,
+  "staged_at": 1792690185.3152645,
+  "items": [
+    {
+      "id": "2113151811133522221",
+      "disposition": "FOLD",
+      "read_state": "partly_read",
+      "follow_up": "BOARD/SIG-W-20261022-019-php2shell-reaches-banks-mufg-halts-some-online-transactions-mizuho-daiwa-maintenance-no-damage-cisa-patch-or-offline-php81-no-fix-cobol-claim-unsourced-REGINALD.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113170005022101763",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": "BOARD/SIG-W-20261022-019-php2shell-reaches-banks-mufg-halts-some-online-transactions-mizuho-daiwa-maintenance-no-damage-cisa-patch-or-offline-php81-no-fix-cobol-claim-unsourced-REGINALD.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113313003248464278",
+      "disposition": "DUP",
+      "read_state": "fully_read",
+      "follow_up": "BOARD/SIG-W-20261022-008-axios-big-banks-restrict-third-party-ai-agents-in-customer-accounts-rogue-claims-anonymous-ms-disputes-plus-microsoft-storm-0940-ai-automated-intrusions-GIBBS.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113291786743583022",
+      "disposition": "DUP",
+      "read_state": "partly_read",
+      "follow_up": "BOARD/SIG-W-20261022-015-answer-to-will-005-cre-leg-creed-channel-is-10y-rate-not-hy-spreads-cmbs-spreads-flat-coupons-up-35bp-mreits-minus-16point6-rate-shock-not-credit-info.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113307993894756574",
+      "disposition": "DUP",
+      "read_state": "partly_read",
+      "follow_up": "BOARD/SIG-W-20261022-008-axios-big-banks-restrict-third-party-ai-agents-in-customer-accounts-rogue-claims-anonymous-ms-disputes-plus-microsoft-storm-0940-ai-automated-intrusions-GIBBS.md",
+      "ask_user": null
+    }
+  ],
+  "stage_id": "4e14f548bc58463db1cc53e78bdae3f0"
+}

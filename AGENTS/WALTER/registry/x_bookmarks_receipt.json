@@ -1,31 +1,43 @@
 {
   "kind": "marked",
-  "checked_at": "2026-10-22T16:11:56Z",
-  "items": 2,
+  "checked_at": "2026-10-22T17:31:18Z",
+  "items": 5,
   "scan": {
-    "checked_at": "2026-10-22T16:05:23Z",
-    "head_checked_at": "2026-10-22T16:05:22Z",
+    "checked_at": "2026-10-22T17:29:45Z",
+    "head_checked_at": "2026-10-22T17:29:44Z",
     "head_checked_this_run": true,
     "incomplete": false,
-    "attempts": 2
+    "attempts": 3
   },
   "review_recorded": true,
   "read_counts": {
-    "fully_read": 1,
-    "partly_read": 1
+    "partly_read": 3,
+    "fully_read": 2
   },
   "dispositions": {
-    "DUP": 1,
-    "FOLD": 1
+    "FOLD": 2,
+    "DUP": 3
   },
   "follow_ups": [
     {
-      "id": "2113283484336918706",
+      "id": "2113151811133522221",
+      "ref": "BOARD/SIG-W-20261022-019-php2shell-reaches-banks-mufg-halts-some-online-transactions-mizuho-daiwa-maintenance-no-damage-cisa-patch-or-offline-php81-no-fix-cobol-claim-unsourced-REGINALD.md"
+    },
+    {
+      "id": "2113170005022101763",
+      "ref": "BOARD/SIG-W-20261022-019-php2shell-reaches-banks-mufg-halts-some-online-transactions-mizuho-daiwa-maintenance-no-damage-cisa-patch-or-offline-php81-no-fix-cobol-claim-unsourced-REGINALD.md"
+    },
+    {
+      "id": "2113313003248464278",
       "ref": "BOARD/SIG-W-20261022-008-axios-big-banks-restrict-third-party-ai-agents-in-customer-accounts-rogue-claims-anonymous-ms-disputes-plus-microsoft-storm-0940-ai-automated-intrusions-GIBBS.md"
     },
     {
-      "id": "2113141875368468508",
-      "ref": "AGENTS/DEWEY/inbox/WALTER/REQ-DEWEY-20261022-001-ADDENDUM-1-ai-cyber-supply-chain-leads.md"
+      "id": "2113291786743583022",
+      "ref": "BOARD/SIG-W-20261022-015-answer-to-will-005-cre-leg-creed-channel-is-10y-rate-not-hy-spreads-cmbs-spreads-flat-coupons-up-35bp-mreits-minus-16point6-rate-shock-not-credit-info.md"
+    },
+    {
+      "id": "2113307993894756574",
+      "ref": "BOARD/SIG-W-20261022-008-axios-big-banks-restrict-third-party-ai-agents-in-customer-accounts-rogue-claims-anonymous-ms-disputes-plus-microsoft-storm-0940-ai-automated-intrusions-GIBBS.md"
     }
   ],
   "requests": []
