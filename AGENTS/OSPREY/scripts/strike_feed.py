@@ -127,18 +127,44 @@ def gap_days(w1, w2):
     """Days between two (start, end) windows; 0 if they overlap or touch."""
     return max(0, (max(w1[0], w2[0]) - min(w1[1], w2[1])).days)
 
+def governing_window_match(t):
+    """(match, form) of the window that governs lower-cased text t: form 2 = two-year, 1 = one-year, (None, 0) = none.
+    L661 AC22 (read 1 ❌1): the window whose match STARTS FIRST governs. A two-year pair later in the text (e.g. a
+    "next report, covering ..." clause after the title's own window) must never override the leftmost one-year window:
+    that made a STALE bulletin read fresh. One home for the precedence: bulletin_window and AC27 both read it here."""
+    m2 = re.search(WIN2_RE, t)
+    m1 = re.search(WIN_RE, t)
+    if m2 and (m1 is None or m2.start() <= m1.start()):
+        return m2, 2
+    return (m1, 1) if m1 else (None, 0)
+
+# L661 AC27 (read 2 ❌1): word-bounded month tokens, full name or 3-letter abbreviation ("sept" included).
+MONTH_TOKEN_RE = (r"\b(?:jan(?:uary)?|feb(?:ruary)?|mar(?:ch)?|apr(?:il)?|may|june?|july?|aug(?:ust)?|sep(?:t(?:ember)?)?"
+                  r"|oct(?:ober)?|nov(?:ember)?|dec(?:ember)?)\b")
+
+def date_text_outside_window(title):
+    """L661 AC27: True when the anchor title carries a month token outside its governing window match (or carries a
+    month token and has no governing match). Fail-closed doubt, not a parse: a yearless, abbreviated or late-placed own
+    window is invisible to the window regexes, so a later window in the same text could otherwise govern unnoticed."""
+    t = (title or "").lower()
+    toks = [m.span() for m in re.finditer(MONTH_TOKEN_RE, t)]
+    if not toks:
+        return False
+    g, _ = governing_window_match(t)
+    if g is None:
+        return True
+    return any(e <= g.start() or s >= g.end() for s, e in toks)
+
 def bulletin_window(text):
     """(start, end) of a dated-window bulletin ("21st - 27th September 2026", "28th-september-4th-october-2026",
     "22-29-june-2026"), or (None, None). L624: staleness and newest-selection key on the window END -- the
     legacy slug date is the FIRST day of a within-month window and the LAST day of a cross-month one."""
     t = (text or "").lower()
-    m2 = re.search(WIN2_RE, t)
-    m1 = re.search(WIN_RE, t)
-    # L661 AC22 (read 1 ❌1): the window whose match STARTS FIRST governs. A two-year pair later in the text (e.g. a
-    # "next report, covering ..." clause after the title's own window) must never override the leftmost one-year window:
-    # that made a STALE bulletin read fresh. When the two-year form governs, it is final: an implausible one stays
+    g, form = governing_window_match(t)
+    # When the two-year form governs (AC22, governing_window_match), it is final: an implausible one stays
     # unparsed (fails closed).
-    if m2 and (m1 is None or m2.start() <= m1.start()):
+    if form == 2:
+        m2 = g
         try:
             start = dt.datetime.strptime(f"{m2[1]} {m2[2]} {m2[3]}", "%d %B %Y").date()
             end = dt.datetime.strptime(f"{m2[4]} {m2[5]} {m2[6]}", "%d %B %Y").date()
@@ -147,7 +173,7 @@ def bulletin_window(text):
         if not (0 <= (end - start).days <= 14):   # also forces the second year to be the first or the first + 1
             return (None, None)
         return (start, end)
-    m = m1
+    m = g
     if not m:
         return (None, None)
     d1, m1, d2, m2, y = int(m[1]), m[2], int(m[3]), m[4], int(m[5])
@@ -230,6 +256,8 @@ def pick_newest(items, today):
                 why[i].append(txt + " -- the followed link's own date is in doubt")
             elif sr[1] > fe:
                 why[i].append(txt + f" -- the slug reading is later than the followed END {fe.isoformat()}")
+    if date_text_outside_window(followed["title"]):   # AC27 (read 2 ❌1): eligible or not, only ever adds a doubt
+        why[followed["pos"]].append("anchor text carries date text outside its window -- the followed link's own date is in doubt")
     doubts = [(it, why[i]) for i, it in enumerate(items) if why[i]]
     return followed, eligible, doubts, len(dated)
 

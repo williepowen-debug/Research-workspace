@@ -278,7 +278,10 @@ class AC22_LeftmostWindowWins(unittest.TestCase):
         released code parsed no two-year form), so it is a regression test, labelled here per AC20."""
         rows, nr, _ = run("2026-10-08", {BASE: index(CXA), CXA[0]: BODY_OK})
         r = one(rows)
-        self.assertTrue(r["ledger_match"].startswith("BULLETIN_STALE"), r["ledger_match"])
+        # Changed 2026-10-21 (AC27, louder): CX-A's title also carries month text outside its window, so the row is
+        # NEWEST_UNSURE and still names the STALE cause. The AC22 discrimination is kept by the STALE clause + pub date.
+        self.assertTrue(r["ledger_match"].startswith(("BULLETIN_STALE", "BULLETIN_NEWEST_UNSURE")), r["ledger_match"])
+        self.assertIn("BULLETIN_STALE", r["ledger_match"])
         self.assertEqual(r["pub_date"], "2026-09-27")
         self.assertEqual(nr, 1)
 
@@ -329,6 +332,86 @@ class AC24_DeclaredLimitFirstListingOrder(unittest.TestCase):
         OCT, SEP, TYPO25, SEP -- AC13 compares FIRST listings only, and the only later-ending link below TYPO25 is a
         repeat listing of SEP. If this test ever fails, the limit moved: update the residue and README, do not delete it."""
         rows, nr, _ = run("2026-10-13", {BASE: index(OCT, SEP, TYPO25, SEP), OCT[0]: BODY_OK})
+        r = one(rows)
+        self.assertTrue(r["ledger_match"].startswith("BULLETIN — read manually"), r["ledger_match"])
+        self.assertEqual(nr, 0)
+
+
+# ---------------------------------------------------------------------------------------------------------------
+# READ-2 FIX (AC27; ACCEPTANCE_L661 "READ-2 FIX", committed alone in b31056c91 before this code edit).
+# Ledger: PROME/reports/2026-10-18_L661_strike-feed_read_2.md (❌1 CX2-1/2/3/11/14; CX2-13 declared; ⚠️3 CX2-4/5/6).
+# Every row case: slug carries the true window 21st-27th September 2026, run 2026-10-08, cutoff 09-28 (stale).
+SLUG_SEP = post("21st-27th-september-2026")
+NEXT2 = "28th September 2026 - 4th October 2026"
+CX2_1 = (SLUG_SEP, f"Maritime Security Report: 21st - 27th September. Our next report, covering {NEXT2}, will follow.")
+CX2_2 = (SLUG_SEP, f"Maritime Security Report: 21st - 27th Sept 2026. Our next report, covering {NEXT2}")
+CX2_3 = (SLUG_SEP, f"Coming next: {NEXT2} | Maritime Security Report: 21st - 27th September 2026")
+CX2_4 = (SLUG_SEP, "Coming next: 28th September - 4th October 2026 | Maritime Security Report: 21st - 27th September 2026")
+CX2_13 = (SLUG_SEP, f"Maritime Security Report. Next report covering {NEXT2}")
+OLDER = (post("14th-20th-september-2026"), "Maritime Security Report: 14th - 20th September 2026")
+AC27_REASON = "anchor text carries date text outside its window"
+
+
+class AC27_DateTextOutsideTheGoverningWindow(unittest.TestCase):
+    def _unsure(self, *links):
+        rows, nr, _ = run("2026-10-08", {BASE: index(*links), links[0][0]: BODY_OK})
+        r = one(rows)
+        self.assertEqual(r["url"], SLUG_SEP)
+        self.assertTrue(r["ledger_match"].startswith("BULLETIN_NEWEST_UNSURE"), r["ledger_match"])
+        self.assertIn(AC27_REASON, r["note"])
+        self.assertEqual(nr, 1)
+
+    def test_CX2_1_yearless_own_window(self):
+        """❌1 CX2-1. DISCRIMINATING against 7299a2e39 (BULLETIN, NOT_READ 0, pub 10-04); 4ea2b4539 read STALE (slug)."""
+        self._unsure(CX2_1)
+
+    def test_CX2_2_abbreviated_month(self):
+        """❌1 CX2-2 ('Sept'). DISCRIMINATING against 7299a2e39."""
+        self._unsure(CX2_2)
+
+    def test_CX2_3_later_two_year_range_before_the_title(self):
+        """❌1 CX2-3 (kicker/teaser text first). DISCRIMINATING against 7299a2e39."""
+        self._unsure(CX2_3)
+
+    def test_CX2_11_teaser_on_top_honest_older_link_below(self):
+        """❌1 CX2-11. DISCRIMINATING against 7299a2e39."""
+        self._unsure(CX2_1, OLDER)
+
+    def test_CX2_14_featured_teaser_listing_first_same_href(self):
+        """❌1 CX2-14: dedup keeps the FIRST listing's text (the teaser). DISCRIMINATING against 7299a2e39."""
+        self._unsure(CX2_1, (SLUG_SEP, "Maritime Security Report: 21st - 27th September 2026"))
+
+    def test_CX2_4_one_year_later_clause_before_title_also_caught(self):
+        """⚠️3 CX2-4 (pre-existing: 4ea2b4539 also fresh). DISCRIMINATING against 7299a2e39 and 4ea2b4539."""
+        self._unsure(CX2_4)
+
+    def test_predicate_must_not_fire_on_real_fixture_anchors(self):
+        """NON-DISCRIMINATING by design (must-not-fire): every matching anchor title on the 10/9 and 10/16 live
+        fixtures carries no month text outside its governing window."""
+        m = module()
+        n = 0
+        for path in (REAL_INDEX, REAL_INDEX_1016):
+            with open(path, encoding="utf-8") as f: html_ = f.read()
+            for it in m.parse_html_index(html_, "maritime-security-report", "https://www.palaemonmaritime.com/blog"):
+                n += 1
+                self.assertFalse(m.date_text_outside_window(it["title"]), it["title"])
+        self.assertGreaterEqual(n, 28)
+
+    def test_predicate_shapes(self):
+        """Direct predicate pins: plain titles silent; yearless/abbreviated/late-placed own window and an undated
+        title carrying a month word fire (CX2-6 class: no governing window, a month token present)."""
+        m = module()
+        for t in ("Maritime Security Report: 21st - 27th September 2026", "Maritime Security Report: 28th September - 4th October 2026",
+                  R3I2[1], "Maritime Security Report", ""):
+            self.assertFalse(m.date_text_outside_window(t), t)
+        for t in (CX2_1[1], CX2_2[1], CX2_3[1], CX2_4[1], "Maritime Security Report Week 39 - next issue 4th October 2026"):
+            self.assertTrue(m.date_text_outside_window(t), t)
+
+    def test_declared_limit_CX2_13_later_window_only_is_still_silent(self):
+        """DECLARED LIMIT (ACCEPTANCE_L661 READ-2 FIX AC27), pinned so no surface can claim it closed: a title holding
+        ONLY a later window -- every month token lies inside it; indistinguishable by dates from the live benign
+        mis-slug. If this test ever fails, the limit moved: update the residue and README, do not delete it."""
+        rows, nr, _ = run("2026-10-08", {BASE: index(CX2_13), SLUG_SEP: BODY_OK})
         r = one(rows)
         self.assertTrue(r["ledger_match"].startswith("BULLETIN — read manually"), r["ledger_match"])
         self.assertEqual(nr, 0)
