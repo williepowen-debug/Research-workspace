@@ -21,7 +21,7 @@
 
 **At INTAKE (CHECKLIST v0.39 PHASE 1 — travelled at every triage):**
 1. **A sibling mechanism landing the SAME DAY is a commission trigger** — stronger than either item's own quality. → rule 1a
-2. **"Is this ALREADY OURS?" runs BEFORE "is it true?"** on any curated batch — a grep disposes of a quarter of it in seconds; n=15 owner-already-has-it in one day. → rule 1b
+2. **"Is this ALREADY OURS?" runs BEFORE "is it true?"** on any curated batch — a grep disposes of a quarter of it in seconds; n=15 owner-already-has-it in one day. **The dup grep is `grep -i` on the proper noun, always** (10/22 night: `grep -E 'railway'` missed "Railway" in 025; 037 shipped as new, CYPHER caught it). → rule 1b
 3. **An all-dup batch IS a filter-health result — do not manufacture a dispatch to justify the time.** → rule 1c
 4. **The RESEARCH-INTAKE lane counts OUTLETS, not SOURCES** — syndication inflation is structural to Google-News RSS, not occasional. → rule 1d
 5. **The batch manifest is declared on CONTENT ITEMS, never images** — a clean close on the wrong denominator reads as coverage. → rule 1e
