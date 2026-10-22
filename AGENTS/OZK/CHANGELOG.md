@@ -2,13 +2,26 @@
 
 Tracks changes to `OZK/THESIS.md` and structural shifts in the OZK bear case. Mirrors `AGENTS/REGINALD/thesis/CHANGELOG.md` format. Sub-docs (IQHQ_PLAYBOOK, SEVEN_CREDIT_DEEP_DIVE, RESG_MIX_DETERIORATION, IQHQ_SECONDARY_EXPOSURE, CIB_MARGIN_COMPRESSION) carry the deep math; this log tracks thesis-level deltas only.
 
+## 2026-10-22 (later) — v1.7: conviction re-graded 🔴🔴 HIGH → 🟡 LOW (P-OZK-7, Will-approved)
+
+**Authority:** WQ-483, Will verbatim 2026-10-22 11:24 ET in PROME: *"483 approve(as long as you recommend this)"* — the desk does recommend it (proposal packet c8d75b161; `research/threads/2026-10-22_Q3_CALL_STAGE2_READ.md` §5).
+
+| Area | Old view (v1.6) | New view (v1.7) |
+|---|---|---|
+| Conviction | 🔴🔴 HIGH, Q2 vintage, stamped "not re-graded" | **🟡 LOW** |
+| Grounds | (a) RaDD maturity forces recognition; (b) Q2 adverse-selection conjunction | (a) gone — executed extension to Dec-2029, fresh $100M, CEO "pass credit"; (b) did not repeat — C&C −22% while RESG −1% |
+| Residual thesis | Reservoir of unrecognized losses with a dated cliff | OREO ($420M) and Boston marks untested by sales; NCO elevated through 2027 per management (MC p.21); earnings drag, not capital event |
+| Reversal triggers | — | OREO sale priced well below carrying · SM → classified in the Q3 10-Q · RaDD reserve/readvance · `RIAD5409` nonzero again in the Q3 Call Report |
+
+**Unchanged:** every prediction confidence, threshold, window and scenario number (OZK-09 OPEN 45% scoring prior; A30/B45/C8/D17 and ~$129M EL stay pre-outcome model records). No trade follows from this entry (TERRY owns the card, Will the order).
+
 ## 2026-10-22 — Sub-notes coupon at the issuer (NO VERSION BUMP — v1.6 stands; zero weights, thresholds, probabilities or conviction moved)
 
 | Area | Old view | New view |
 |---|---|---|
 | **Invalidation §4(a) — retain + reset** | Reset SCHEDULED-UNCONTRADICTED; desk estimate ≈6.19%, ≈+$12.3M/yr | **Issuer-confirmed** (Q3 MC p.35, FDIC FLNG 12022): **6.14% for Q4-26**, Q4 NIM −3bp, Tier 2 −20% → ≈+$12.0M/yr Act/360. Branches (b)/(c) unchanged |
 
-Pending separately with Will: **P-OZK-7** (conviction 🔴🔴 → 🟡 LOW), recommended after the Q3 call read (`research/threads/2026-10-22_Q3_CALL_STAGE2_READ.md` §5). **Not applied here.**
+P-OZK-7 (conviction 🔴🔴 → 🟡 LOW) was pending at this entry; **approved and applied as v1.7 above** (WQ-483).
 
 ## 2026-10-12 — v1.6: RaDD takes the capital-supported extension path
 

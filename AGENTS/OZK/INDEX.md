@@ -1,15 +1,15 @@
 # OZK — Agent Index
 **Start here on cold boot.**
 
-**Last updated:** 2026-10-12 — wrap-up/consumer handoff saved; existing Q3 card leads Boston/RaDD/cash recoveries and bank capacity; thesis **v1.6**, KB **259 / 37**. *(Current tokens 2026-10-22: KB **263 / 37**; Q3 Stage-2 call read → `research/threads/2026-10-22_Q3_CALL_STAGE2_READ.md`.)*
+**Last updated:** 2026-10-22 — thesis **v1.7** (conviction 🟡 LOW, WQ-483), KB **263 / 37**; Q3 print graded (Stage-1 10/21, Stage-2 10/22); housekeeping sweep → `reports/2026-10-22_self-sweep.md`.
 
 **State snapshot** *(numbers live in `STATUS.md` — this is orientation only)*:
-- **Thesis v1.6 RESERVOIR — RaDD near-maturity catalyst materially disconfirmed**, other portfolio stress still tested at Q3. Prior Q2 HIGH conviction is not re-graded; new adverse evidence must travel with it. → `THESIS.md`, `CHANGELOG.md`
+- **Thesis v1.7 RESERVOIR — conviction 🟡 LOW** (re-graded from 🔴🔴 HIGH 10/22, Will-approved WQ-483): RaDD catalyst removed (Dec-2029 extension, fresh $100M); Q2 adverse-selection did not repeat in Q3; residual = OREO/Boston marks untested by sales, an earnings drag not a capital event. → `THESIS.md`, `CHANGELOG.md`
 - **RaDD outcome established:** multi-year extension/new capital executed 10/9, disclosed 10/12. Current terms → `IQHQ_PLAYBOOK.md`; **OZK-09 OPEN/STUCK** only on recognition attribution. 45% scoring prior and old model are not refreshed forecasts. → `research/threads/2026-10-12_RADD_BRIDGE_OUTCOME.md`
 - **Second pillar = the RESG debt-on-debt book** (Will-ruled 8/23, as SUBJECT): $1.20B → $0.43B in 12 months (6/25 → 6/26), then **$42.4M charge-offs H1-26** (first in 18 qtrs). L181 verdict 9/24: reported decline OBSERVED, runoff INFERRED, reclassification NOT EXCLUDED. → `MI3_2025Q3_ADJUDICATION.md` §6
 - **⚠️ Two facts cold spawns get wrong:** (1) **OZK files Form 10-Q with the FDIC (cert #110), not the SEC** — there is no *SEC* 10-Q, and the FDIC 10-Qs (`raw/Q*_10Q.pdf`) are this desk's best primary. (2) **The 37.6% MI3 "worst in screen" figure is dead** (live 9.35%, rank 5th/14) — never cite it.
-- **Positions: one line observed** — Fidelity OZK Nov-20 $40P ×4 in the 10/7 capture (acquisition unknown; no card — TERRY). The Aug-21 puts expired worthless 8/21. ⛔ D1/OZK-salvage ruled closed. → `POSITIONS.md`
-- **Next dates:** original Horton 10/14 checkpoint (bounded work done, occupancy unresolved); Q3 10/20 AMC / 10/21 08:30 ET, L520 check-by 10/31. **Card READY** → `workbook/Q3_2026_SCORING_CARD.md`; review → `research/threads/2026-10-12_POST_EXTENSION_REVIEW.md`.
+- **Positions: one line** — Fidelity OZK Nov-20 $40P ×4, still held at 10/22 11:01 ET although Will approved selling 10/14 (WQ-428; order status UNKNOWN). TERRY owns the card, Will the order. The Aug-21 puts expired worthless 8/21. ⛔ D1/OZK-salvage ruled closed. → `STATUS.md` §Positions, `POSITIONS.md`
+- **Next dates:** sub-notes call-notice window opens Mon 11/2; **Q3 10-Q ~Thu 11/5** (D:L763 — SM −$313M flow, RaDD reserve, OREO roll-forward); Q3 Call Report ~Nov 1–10 (FFIEC JWT expires 11/5, Will action); Q4 print ~Jan 16–20 2027. Q3 grade → `research/threads/2026-10-21_Q3_PRINT_STAGE1_GRADE.md`, `research/threads/2026-10-22_Q3_CALL_STAGE2_READ.md`.
 - **KB.tsv: 263 rows / 37 groups** (10/22).
 
 ---
@@ -58,7 +58,7 @@ For deeper cold-boot orientation after that:
 | `CALENDAR.md` | Forward dates + thresholds (boot read) |
 | `MEMORY.md` | Session handoff + Feedback/Findings (boot read) |
 | `THESIS.md` | Master bear case (synthesis + pointers pattern) |
-| `CHANGELOG.md` | Thesis audit trail — v1.6 current, v1.0 pinned |
+| `CHANGELOG.md` | Thesis audit trail — v1.7 current, v1.0 pinned |
 | `MAINTENANCE.md` | Structural-change log (docs/folders/scripts) — read when investigating structure |
 | `Q1_2026_ANALYSIS.md` | Q1'26 earnings synthesis (Apr 21). Q2'26 grade → `workbook/Q2_2026_SCORING_CARD.md` |
 | `TODO.md` | Research queue + prioritization |
