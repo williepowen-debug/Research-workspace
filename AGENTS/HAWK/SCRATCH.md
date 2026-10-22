@@ -1,73 +1,69 @@
-# HAWK SCRATCH — 2026-10-10 (Sat)
+# HAWK SCRATCH — 2026-10-21 (Wed)
 
-**Written:** 2026-10-10 12:54 ET (`date` 12:52:16 read before the STATUS write; the typed "~13:0x" was ahead of the clock, corrected). **Session:** `hawk-1010`, PROME `prome-ce` Tier-1 **L0 DRAIN-ONLY** spawn (PROME/CLAUDE.md § Aged ACTION, WQ-206; DOCKET L669). Runtime: Claude Code, model Opus 5.5. **The desk was dark 9/28 17:16 → 10/10 (12 days).** **$0. No mark, band, threshold, score or prediction letter moved.** Prior SCRATCH (9/28): `git show 92bef4bd6:AGENTS/HAWK/SCRATCH.md`.
+**Written:** 2026-10-21 ~20:3x ET (the hook clock read 20:29 at turn start, and `date` read 20:32 at the board_log write). **Session:** `hawk-1021`, Will-launched boot ("catch up on recent events/news"). WALTER `walter-14` sent a catch-up brief mid-session. Runtime: Claude Code, model Opus 5.5. **The desk was dark 10/10 → 10/21 (11 days).** **$0. No mark, band, threshold, score or prediction letter moved.** Prior SCRATCH: `git show HEAD~1:AGENTS/HAWK/SCRATCH.md` (10/10).
 
 ## CURRENT MARKS (one line)
-- No trade book. Dormant: VEN G · TWN Y · TWNMIL Y · IRAQ Y · TRADE-01 O · TRADE-02 O (**re-sweep DUE, 49 days**) · CODIF O · SULPHUR R (mine-gate basis) · FININFRA Y · EURMIL O · CEASEFIRE superseded. Open predictions: **HAW-20** (10/31) and **HAW-22** (event window 10/01–10/31, resolves 12/22). HAW-19 = DEFECTIVE-INSTRUMENT, closed.
+- No trade book.
+- Dormant marks: VEN G · TWN Y · TWNMIL Y · IRAQ Y · TRADE-01 O · TRADE-02 O (**re-sweep overdue, 60 days**) · CODIF O · SULPHUR R · FININFRA Y · EURMIL O · CEASEFIRE superseded.
+- Open predictions: **HAW-20** (resolves 10/31) and **HAW-22** (event window to 10/31, resolves 12/22).
 
-## CHANGES SINCE LAST SESSION (9/28 → 10/10; owners named)
-- **Gulf [FALCON/BRENT]:**
-  - Petroline REPORTED back, with three unaveraged flow estimates (3.5 / 5.5 / "5.8").
-  - **Yanbu port struck 10/01** (temporary terminal-wide suspension).
-  - Saree's 10/08 threat to all Saudi oil facilities; KKIA airport hit 10/08 (3 killed) and 10/10.
-  - **Shedgum gas plant burning since the 10/09 night passes; north-Ghawar upstream heat 10/10** (cause unverified).
-  - Hull war west of the Strait (off Qatar 10/07, off RAK 10/09); IRGC threat to ships outside the Strait. FALCON B1/C14/D85, losses 3.
-- **Iran diplomacy:** the US reply was delivered in Doha 9/29; Iran is amending via mediators. Trump 10/08: no attack before 11/3 (tape).
-- **Russia [OSPREY]:** Volgograd fully halted 10/02; Omsk/Salavat 10/08, Ukhta 10/09, Rostov products terminal 10/09–10. C2 KILLED 10/09; C3 reset to AFRAMAX RIO 10/06 (earliest kill 10/27).
-- **Sanctions regime:** US OFAC GL 135 (Russian diesel, to 2027-04-07). UK designated 8 ships 10/01 and 38 targets incl. Zarubezhneft 10/08; EU 22nd package agreed 10/07 (formal ~10/12); US Treasury sanctioned 17 Iran shadow-fleet vessels 10/08.
-- **NATO:** Russia's Kaliningrad nuclear non-paper 9/30; Lithuania ~100 troops to the Kaliningrad border.
-- **Will (via PROME):** WQ-362 RULED 10/01: the vendor inquiry LAPSED.
+## CHANGES SINCE LAST SESSION (10/10 → 10/21; owners named)
+- **Gulf [FALCON 10/14, plus my 10/21 sweep]:**
+  - Losses 3 → 5 (GFS PRIDE sank 10/13; CAPE DAO "Sunk" per IMO, disputed by JMIC). Casualty ratchet RED. Production rung NOT FIRED.
+  - Dhahran HQ (office) 10/13; Shaybah intercepted 10/21 (2 debris deaths).
+  - Tankers hit off Al Jubail 10/18, Al Faw 10/20 and Bukha 10/21. JMIC Arabian Gulf at SUBSTANTIAL.
+- **US posture 10/21:**
+  - Ordered departure from Saudi Arabia; Reuters (Saudi only) and AFP (wider) CONFLICT.
+  - Third carrier TR (Fox) and the Makin Island ARG.
+  - Netanyahu's regime-change directive.
+  - Kharg options reported (anonymous).
+- **Diplomacy:** Iran rejected the Pakistani proposals 10/20–21. ORACLE odds on the US ending the blockade by 12/31: 59 → 38.
+- **Russia [OSPREY 10/21]:** the "energy ceasefire" was never in force. Ryazan 10/15, Surgut 10/16, St Petersburg Oil Terminal 10/17–18. C2 RE-ARMED; scores 5/5/3.
+- **Sanctions:**
+  - Graham Act waiver 10/16 (old EO measures preserved). Twelve senators asked for GL 135 rescission (a request).
+  - France boarded DF Peak 10/12.
+  - US Iran designations 10/15–16 and 10/21.
 
 ## WHAT I DID THIS SESSION
-1. **Boot:**
-   - Every instruction file read explicitly (spawned from PROME's cwd).
-   - Pull NOT run: the tree carries other desks' uncommitted work; origin = HEAD at fetch.
-   - `ledger_staleness` rc 0; corrections rc 1 → **6 receipts in the WQ-399 form** → rc 0.
-   - `derived_freshness` rc 1 → both aggregates reconciled → recorded → PASS.
-2. **Top-level inbox 7/7 → `inbox/processed/`:**
-   - PROME WQ-362 encoded (KB-426; banners on the two option-C files).
-   - FALCON qualifier + HAW-19 residual appended to HAW-19's Outcome cell (KB-427).
-   - OSPREY ×3 answered by packet (C3 limb 2 UNDETERMINED KB-428; GL 135 PARTLY SUPPORTED KB-429).
-   - DAEDALUS L546: `thresholds.py` rounds before the edge compare; edge test 56.54/51.4 → WITHIN.
-   - DAEDALUS Prose-Remedy #1: closeout 10 now calls `read_cap_check.py`.
-3. **WALTER lane 66/66 → `inbox/WALTER/processed/`** (12 acted / 38 noted / 16 info-only), plus **3 BOARD info-lane IDs** found by ID-diff and logged. ACTION items decided:
-   - -1001-022 Kaliningrad (no EURMIL rung, KB-430).
-   - -1005-001 FE1 Suez 10/17 (CATALYSTS, KB-433).
-   - -1005-004 UK 8 ships / Sakhalin licence (KB-433).
-   - -1008-018 correction (NO-OP).
-   - -1008-033 WQ-399 (charter receipt line).
-   - -1004-014: **lapsed while dark, answered late** (KB-434).
-4. **Write-back:**
-   - KB-HAWK-426..434 and CATALYSTS +5.
-   - Both aggregates refreshed: war-risk table re-based to 10/10, all legs >10 days old; strike summary §October10.
-   - FALSIFICATION stamp and HAW-19/HAW-22 rows.
-   - STATUS rewritten, with the prior version archived verbatim (`archive/2026-10-10_STATUS_before-L0-drain.md`); NEXUS_BRIEF; this SCRATCH.
-   - Two C4 own-charter edits; FILES.md inventory line.
+1. **Boot.** Pull NOT needed: origin == HEAD at fetch, and the tree carries other desks' uncommitted work. Check results:
+   - `ledger_staleness`: rc 0.
+   - Corrections: rc 1 → 6 receipts → rc 0.
+   - `derived_freshness`: rc 1, **left rc 1** (see the SKIPPED item below).
+2. **Catch-up brief to Will** (chat), from the WALTER lane plus a web sweep (Gulf News live, ZeroHedge relay of Reuters/SPA/Kpler-WSJ, CNBC, ABC, NPR, Kyiv Post).
+3. **Inbox drained whole:**
+   - 10 top-level packets → processed (KB-443).
+   - 57 WALTER-lane signals → processed: 20 acted, 30 noted, 7 info-only.
+   - BOARD info-lane ID-diff: 59 IDs, 0 unmatched.
+4. **L432 card s.4 qualified** (Tsentr-2026; COR-20261012-31).
+5. **KB-HAWK-435..443.** STATUS was rewritten, with the prior version archived (`archive/2026-10-21_STATUS_before-catchup.md`). NEXUS_BRIEF and this SCRATCH were also rewritten.
+6. ⚠️ **SKIPPED:**
+   - Closeout 13/13a (both aggregates) and 13a-2 (fingerprints): FALCON is live mid-catch-up with uncommitted ledgers.
+   - 13b (FALSIFICATION refresh): not re-read.
+   - LESSONS rotation (`rotation_due=1`): deferred again.
+   - Dormant re-sweeps: bounded checks only.
 
 ## NEXT SESSION (dated, future-verifiable)
-1. 🔴 **By 10/14 (FALCON gate review): Ghawar.** If Aramco/MoE/SPA/CENTCOM names a hit on an Ain Dar or Shedgum crude unit (GOSP/CPF), FALCON's D 85→92 fires: re-read the cross-war summary the same session. Gas plants alone = OUT. **HAW-22:** a terminal is only a candidate on operator/sovereign confirmation (or two Tier-1 outlets each with a named source); carry the warning verbatim.
-2. 🟠 **TRADE-02 re-sweep (DUE now; 49 days > 45).** Test BOTH adjacent band boundaries against primaries (LESSONS 2026-09-28).
-3. 🟠 **N6 / WQ-211: October STEO (pub 10/06, cutoff 10/01) observation owed** under the AGREEMENT rule (anchors 2.38/2.35 mb/d).
-4. 🟠 **OSPREY C3 limb 2: grade any in-window canvass OSPREY sends before 10/27** (KB-428). Absent one, limb 2 stays UNDETERMINED and no kill is writable.
-5. 🟡 **EURMIL-01:** the first checkpoint (10/03) was missed while dark; run it and fold in the Kaliningrad non-paper read. 45-day backstop 11/02.
-6. 🟡 **HAW-20 resolves 10/31:** grade all four legs at primaries. Leg (c), the Majlis toll bill, had no signal 9/28–10/10; leg (d), the Mecca pact, stepped UP 10/05.
-7. 🟡 **LESSONS.md rotation** (86% of read budget, `rotation_due=1`): rotate the oldest sibling-inherited items (1, 2, 4) to an archive with one-line rule stubs until <70%. Deferred 10/10 with this date.
-8. 🟡 **GL 135 grade upgrade/falsifier** (KB-429): a UK/EU mirror licence, an OFAC FAQ on the cap, or an observed IG-entered fixture. EU 22nd package formal approval ~10/12.
+1. 🔴 **At FALCON's 10/21 catch-up commit:**
+   - Regenerate `CROSS_WAR_SUMMARY.md` and `CROSS_THEATER_WAR_RISK.md` (Hormuz 6–10%; Black Sea $2.5M/vessel lead).
+   - Run `derived_freshness --capture/--record` to PASS.
+   - Re-print HAW-22 against FALCON's grades.
+2. 🔴 **By 10/31: grade HAW-20** (all four legs at primaries: Section 301, Section 338, the Majlis toll bill, the Mecca pact). Then close out the HAW-22 event window (10/31).
+3. 🟠 **By 10/23: re-sweep VEN/TWN/TWNMIL/CODIF** (45-day cadence), and **TRADE-02 now** (60 days). Test both adjacent band boundaries (LESSONS 2026-09-28).
+4. 🟠 **Before 10/27: grade OSPREY's C3 limb-2 canvass** on arrival.
+5. 🟠 **TRADE-01, 11/9–10:** three US measures lapse with nothing on record extending them. Check the Federal Register before 11/9.
+6. 🟡 N6 October STEO observation (owed since 10/06). EURMIL full checkpoint (backstop 11/02). LESSONS rotation.
 
 ## OPEN THREADS / WATCHES
-- 🔴 **Every war-risk premium on the book is >10 days old (9/25 quotes)** while strike tempo rose and moved west of the Strait. The re-pull is FALCON's (its brief says so); HAWK refreshes the aggregate on arrival.
-- 🟠 Iran's formal reply via Qatar ("within a few days", Araghchi 10/08). Hormuz-reopening copy: verify ORIGINAL publication and EVENT dates (KB-424).
-- 🟠 Azov port two-vessel lead (OSPREY, before 10/15): a crude-terminal hit would be a HAW-22 print candidate.
-- 🟡 FALCON facility ledger: 41 rows, unchanged since 9/11. The 10/01–10/10 Saudi events sit in FALCON's reports and KB (dated observation, re-check next pass).
-- 🟡 KB `Status` enum `CORRECTED` ambiguity: declared, unfixed. CENTCOM's own tally still not pulled as a primary.
+- 🔴 The post-11/3 window: Kharg options, the third carrier arriving by end-November, the embassy drawdown. Verify the departure order's scope at State Dept primary (Reuters vs AFP conflict).
+- 🔴 A counting source on Abqaiq / Ain Dar / Shedgum crude units would fire FALCON D 85→92.
+- 🟠 The Kpler >24 mb/d / Hormuz ~82% figure is a single secondary relay; seek the WSJ text or a Kpler primary before leaning on it in FLOW-HAWK-19.
+- 🟠 CAPE DAO IMO vs JMIC status conflict (FALCON).
 
 ## PREDICTIONS DUE / DECISIONS PENDING
-- HAW-20 10/31. HAW-22 12/22. **No Will decision open from this desk.** WQ-362 is encoded; vendor data re-opens only on Will's word.
+- HAW-20 10/31. HAW-22 window closes 10/31, resolves 12/22. **No Will decision open from this desk.**
 
 ## MAIL STATE (one line per surface)
-- Inbox: **clear** (7/7 processed 10/10).
-- WALTER lane: **clear** (66/66 processed; BOARD info-lane 9/28–10/10 ID-diff: 3 logged).
-- Outbox: packet to OSPREY delivered direct (carve-out ①, committed); PROME memo `PROME/inbox/2026-10-10_from-HAWK_l0-drain-12d-dark.md`.
+- Inbox: **clear** (10/10 processed). WALTER lane: **clear** (57/57). Outbox: none written this session.
 
 ## PENDING PUSH / GIT
-- See the memo's commit shas and the `safe-push` receipt. Nothing of HAWK's is left uncommitted at close.
+- Commit pathspec `AGENTS/HAWK/` plus `safe-push`; receipt line in the closeout message.

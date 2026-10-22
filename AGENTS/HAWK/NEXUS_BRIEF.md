@@ -1,8 +1,8 @@
 # HAWK — NEXUS Brief
 
-**Status:** 🟠 — **2026-10-10: L0 drain after 12 dark days; no HAWK mark, band or letter moved.** The two wars still hit oil through different pipes, and both pipes moved. **Gulf:** Saudi crude transport is REPORTED recovered, but the threat moved upstream (Shedgum gas plant burning since 10/09; Ghawar upstream heat 10/10; cause unverified) and onto hulls inside the Gulf. **Russia:** refinery strikes continue through the US–Russia diesel deal (OFAC GL 135). **Iran diplomacy:** HAWK's "rejection stands" read is RETIRED (mediated exchange, no framework). **Every war-risk premium on the book is >10 days old.**
+**Status:** 🟠 — **2026-10-21: catch-up after 11 dark days; no HAWK mark, band or letter moved.** **The decoupling holds on flow while the escalation drivers stack.** Kpler via WSJ (10/21, single secondary relay) has Middle East flows at >24 mb/d vs 23.3 prewar in the week to 10/18, and Hormuz at ~82% of prewar, against Brent ~$110 (10/21 evening session). That is premium, not lost barrels. **US posture changed 10/21:** ordered departure from Saudi Arabia (Reuters and AFP disagree on scope), a third carrier, Kharg oil infrastructure on the reported options list (anonymous), Iran rejecting the Pakistani proposals, and Netanyahu's regime-change directive. **The post-11/3 window is the dated known-unknown.**
 **Domain:** cross-war synthesis (OSPREY ⊕ FALCON reconciliation) + the dormant geopolitical book (11 rows).
-**As of:** 2026-10-10 12:56 ET (from `date`; session hawk-1010, PROME `prome-ce` Tier 1, DOCKET L669). **STATUS commit:** `329a63b97`. Detail: STATUS header + KB-HAWK-426..434. Prior brief (9/28): `git show 92bef4bd6:AGENTS/HAWK/NEXUS_BRIEF.md`.
+**As of:** 2026-10-21 20:3x ET (from `date`; session hawk-1021, Will-launched). **STATUS commit:** see `git log -1 -- AGENTS/HAWK/STATUS.md`. Detail: STATUS header + KB-HAWK-435..443. Prior brief (10/10): `git show HEAD~1:AGENTS/HAWK/NEXUS_BRIEF.md`.
 
 ---
 
@@ -11,62 +11,57 @@
 **SENDING:**
 | To | Signal | Priority | Mechanism |
 |---|---|---|---|
-| OSPREY | **C3 limb 2 = UNDETERMINED for the reset window (10/06–10/27).** No in-window insurer/P&I repricing held; the 9/21 REPRICED grade is pre-window; Platts USD 2.9/bbl is F6 and pre-window (KB-HAWK-428) | P1 | Packet `7ae195425`. A C3 kill on 10/27 needs OSPREY's dated in-window canvass; never satisfied on HAWK's silence |
-| OSPREY / BRENT / HANS / YURI | **GL 135 → mainstream tonnage = PARTLY SUPPORTED, US-person leg only** (INFERRED). EU/UK price caps and product bans still bind non-shadow tonnage and most IG P&I cover (KB-HAWK-429) | P1 | Upgrade: a UK/EU mirror licence, an OFAC FAQ on the cap, or an observed IG-entered fixture |
-| BRENT / HENRY / LIQUID | **New cross-war link:** GL 135's largest tranche (3 Mt) is conditional on *"the condition of their Diesel Refineries"*, the capacity Ukraine keeps striking. ⛔ A refinery-strike loss and an undelivered GL 135 tranche are ONE barrel: count it once, at the refinery | P1 | No-double-count rule extended 10/10 (CROSS_WAR_SUMMARY §October10) |
-| ALL (via NEXUS) | **The sanctions coalition is diverging by jurisdiction AND product:** US loosens Russian diesel (10/09); UK designates 8 ships (10/01) and 38 targets incl. Zarubezhneft (10/08); EU 22nd package agreed 10/07; US tightens Iran (17 vessels, 10/08) | P2 | Regime pattern = HAWK's cross-cutting lane (KB-HAWK-429/433) |
-| FALCON / BRENT / LIQUID | **War-risk aggregate re-based 10/10:** FALCON adopted the 9/25 quotes on 9/28 (adoption gap closed), but **all five legs exceed the 10-day bar**. They pre-date the 10/01 Yanbu port strike and the hull war's move west of the Strait. No newer comparable quote exists | P1 | Re-pull is FALCON's (its brief says so); HAWK refreshes on arrival |
-| FALCON | **Iran diplomacy:** the US reply was handed over in Doha 9/29; Iran amends via mediators; Trump 10/08 no attack before 11/3 (tape). HAWK's 9/28 "rejection of THIS text stands" read RETIRED (KB-HAWK-431) | P2 | Matches FALCON vector 3 |
-| OSPREY / HANS | **Kaliningrad nuclear non-paper (9/30) moves no EURMIL rung; ORANGE holds** (threat statements are explicit NOT-RED) (KB-HAWK-430) | P2 | Raises the stakes of any Baltic transit incident; moves nothing |
+| BRENT / HENRY / LIQUID | **Combined oil-risk read:** flows near or above prewar while the premium rises. The conversion path to physical loss = a counting-source hit on a Saudi crude-processing unit (FALCON D 85→92) or a US strike on Kharg (reported options, no decision) (KB-HAWK-440) | P1 | FLOW-HAWK-19. The flow figure is single-source; BRENT owns price and balances |
+| ALL (via NEXUS) | **The sanctions split widened:** the US eases Russia (Graham Act waiver 10/16, with s.4(b) keeping the old EO measures; GL 135 diesel cargoes moving) and tightens Iran (26 targets 10/15–16, Karnakis network 10/21). France boarded DF Peak south of Réunion 10/12, the first boarding outside European waters on this record (KB-436/437) | P2 | Legal relief is not supply. A boarding is not a seized quantified cargo |
+| OSPREY / HANS | **EURMIL ORANGE holds:** Russia-attributed hits on merchant ships in the Romanian/Bulgarian EEZs (10/5, 10/6, 10/13). Bulgaria *considered* Article 4; Radev said no grounds, and none was requested (KB-439) | P2 | An Article 4 REQUEST fires RED (a) |
+| YURI / PROME | **L432 card qualified:** the "no scheduled large exercise" premise is withdrawn (Tsentr-2026, kremlin.ru 10/02). The grade is unchanged (KB-435) | P3 | Additive; historical text kept |
+| BRENT / OSPREY | CPC blending allegation (OilPrice 10/12) is logged as an **unverified lead, E5**, with no sanctions-breach grade (KB-438) | P3 | Re-open on a primary only |
 
 **WAITING FOR:**
 | From | Input | Expected by | Why it matters | Change condition |
 |---|---|---|---|---|
-| OSPREY | Dated in-window Black Sea war-risk canvass (10-outlet + TD6) | before 10/27 | Decides whether C3 limb 2 can ever be satisfied | Any insurer/P&I act or print dated ≥10/06 → HAWK grades the same session |
-| FALCON | Counting source on Ghawar crude units (GOSP/CPF) | gate review 10/14 | FALCON's D 85→92 production rung | A named-source hostile hit on an Ain Dar/Shedgum crude unit |
-| FALCON | Re-pull of Gulf war-risk quotes | next FALCON session | All Gulf cells 15 days old in a rising-tempo window | Any dated quote after 9/25 |
+| FALCON | 10/21 catch-up commit (marks, losses, production rung, war-risk) | tonight / next session | Both HAWK aggregates are deferred until it lands | Commit to `AGENTS/FALCON/STATUS.md` |
+| OSPREY | Dated in-window Black Sea war-risk canvass (10 outlets + TD6) | before 10/27 | C3 limb 2 | Any insurer/P&I act or print dated ≥10/06 |
+| FALCON | Post-10/11 Gulf war-risk quote | next FALCON session | Hormuz 6–10% (~10/06) pre-dates the worst week | Any dated quote after 10/11 |
 
 ## VIEW
 
-- **Gulf:**
-  - The transport chain is REPORTED back, with three unaveraged Petroline flow estimates (~3.5 Bloomberg 9/28 · ~5.5 Argus 10/01 · minister's "5.8", 10/06, no daily unit).
-  - **Yanbu port was struck 10/01** (temporary terminal-wide suspension, Vanguard).
-  - The threat moved: Saree (10/08) told staff at ALL Saudi oil facilities to leave target areas; Shedgum gas plant burning since the 10/09 night passes; four north-Ghawar upstream heat spots 10/10.
-  - **FIRMS never counts, gas plants are OUT of FALCON's rung, and no Aramco/MoE/SPA word exists.**
-- **Russia:** Volgograd fully halted 10/02; Omsk, Salavat, Ukhta and the Rostov products terminal hit since. Capacity, not barrels. Crude exports hold (Bloomberg 3.76 to 10/04, B3/UNCONFIRMED). OSPREY C2 killed 10/09; C3 reset to 10/06.
-- **No pooling:** Russia = refining/products, Saudi = crude transport → now upstream. Different molecules; no pooled lost-barrel figure.
-- **HAW-22 print 10/01–10/10: no candidate** (KB-HAWK-432). Yanbu 10/01 fails confirmation on the letter; the products terminal, gas plants and hulls are explicit non-fires.
+- **Gulf [FALCON 10/14 + HAWK sweep 10/21]:**
+  - Losses 5 (GFS PRIDE sank 10/13; CAPE DAO "Sunk" per IMO, disputed by JMIC). Casualty ratchet RED.
+  - Production rung NOT FIRED: Dhahran is an office, Abqaiq shows flare-stack heat with no counting source, Shaybah was intercepted.
+  - Hull strikes now run the length of the Gulf (Al Jubail, Al Faw, Bukha). IRGC mine claims are unverified.
+- **Russia [OSPREY 10/21]:** the "energy ceasefire" was never in force. Ryazan 10/15, Surgut 10/16, St Petersburg Oil Terminal 10/17–18 (C2 RE-ARMED). Capacity, not barrels. Scores 5/5/3.
+- **Cross-war link:** GL 135 diesel cargoes are moving (Primorsk 10/13; Leruo and Dolunay destinations signalled) while Ukraine strikes the refineries that make it. Count a lost licensed tranche once, at the refinery.
+- **HAW-22 print 10/11–10/21: no candidate** (KB-441). St Petersburg is products; the Gulf events were intercepts or hulls.
+- **Trade cliff:** three US measures lapse 11/9–10 with nothing on record extending them. The US–China truce extension is still announced-only (KB-442).
 
 ## CALIBRATION
 
 - **Conviction:**
-  - The direction "threat moved upstream" is medium: three heat episodes at or near production-area sites (Ain Dar area 9/29–30; the Khurais spot 10/03–07, whose facility class is contested; Ghawar 10/09–10) plus a named threat, but no counting source on any crude unit.
-  - Transport recovery is medium-low: every flow figure is single-source.
-  - The GL 135 tonnage grade is low-medium (inferred from regime structure, not from fixtures).
-- **Counter-signal to my own read:** heat at GOSPs may be flaring because the gas plant cannot take associated gas (FALCON's INFERRED branch). That would mean crude is still being produced, the opposite of an upstream loss.
+  - "Premium, not barrels" is medium: it rests on one secondary flow relay plus ORACLE's gauge.
+  - The escalation-risk direction is medium-high: several independent posture moves on one day.
+  - The scope of the departure order is unresolved.
+- **Counter-signal to my own read:** a ~18% Hormuz shortfall offset by higher bypass and non-Hormuz flows can still hide a tight crude grade or a tight product market. "Flows at prewar" is not "no shortage".
 - **Predictions:**
-  - HAW-20 OPEN 65%, resolves 10/31. Nothing softened on its four legs; the Mecca pact stepped UP.
+  - HAW-20 OPEN 65%, resolves 10/31. No softening found on a bounded check.
   - HAW-22 OPEN 65% UNCALIBRATED, resolves 12/22. ⚠️ *Undisclosed damage can produce a misleading CONFIRM — a CONFIRM on this letter is a claim about what was DISCLOSED, never about capacity.*
-  - HAW-19 is closed as a DEFECTIVE INSTRUMENT: the 9/29–30 residual showed no fire, and FALCON's "zero" is qualified as barrels-to-market, not capacity.
-- **Vendor data:** terminal-level data LAPSED (WQ-362) and is a named unavailable input.
-- **Failure pattern recorded:** an ACTION addressed to a dark desk (SIG-W-20261004-014, "before Monday's open") lapsed unanswered. A dark window is not neutral for a synthesis surface.
+- **Failure pattern, again:** the desk went dark 11 days during the worst Gulf week. The WALTER lane carried the record, and nothing lapsed this time.
 
 ## NEXT DECISION POINT
 
-**10/14:** FALCON gate review (Ghawar counting source). **Before 10/27:** OSPREY C3 canvass → HAWK limb-2 grade. **10/31:** HAW-20 resolves. **Owed by HAWK, not done 10/10:** TRADE-02 re-sweep (49 days, due), EURMIL 10/03 checkpoint, N6 October STEO observation, LESSONS rotation. No Will decision open from this desk.
+**10/23:** VEN/TWN/TWNMIL/CODIF re-sweeps due. TRADE-02 is overdue (60 days). **Before 10/27:** grade OSPREY's C3 canvass. **10/31:** HAW-20 resolves and the HAW-22 window closes. **11/3:** midterms; Trump's no-strike pledge ends. **11/9–10:** trade measures lapse. No Will decision open from this desk.
 
 ## WATCH
 
 | Date | Event | Signal |
 |---|---|---|
-| 10/12 | EU 22nd package formal approval | Regime divergence widens; GL 135 not mirrored |
-| 10/14 | FALCON gate review | A Ghawar crude-unit counting source fires D 85→92 |
-| 10/17 | FE1 Suez first sailing (planned) | A departure, not a passage. Read changes only on a verified transit |
-| ~10/18–19 | H.R. 5334 action deadlines | Cross-regime secondary-tariff posture |
+| any time | Counting source on an Abqaiq/Ain Dar/Shedgum crude unit | Fires FALCON D 85→92; premium converts to barrels |
+| post-11/3 | US action on Kharg / Iran oil infrastructure | First oil-infrastructure target set; changes the decoupling read |
+| any time | State Dept primary on the Saudi departure order | Settles the Reuters vs AFP scope conflict |
 | 10/27 | OSPREY C3 earliest kill | Needs an in-window limb-2 canvass |
-| any time | Iran's formal reply via Qatar; any Hormuz-reopening copy | Verify ORIGINAL publication and EVENT dates (KB-424) |
+| 11/9–10 | US measures lapse (Section 301 exclusions etc.) | TRADE-01 clocks; check the Federal Register before |
 | any time | Article 4 request by any ally | Fires EURMIL ORANGE→RED |
 
-**Coverage (2026-10-10):**
-- **Read:** sibling briefs at boot (FALCON 10/10 12:18, OSPREY 10/10 12:13), owner ledgers at their heads, and 66 WALTER signals + 3 BOARD info-lane signals.
-- **No independent web sweep (L0 drain-only).** Not re-verified: every dormant mark, the EURMIL ladder and the Article 4 negative after 06-17.
+**Coverage (2026-10-21):**
+- **Read:** sibling briefs at boot (FALCON 10/14, OSPREY 10/20, with its 10/21 commit noted); 57 WALTER signals + 10 packets; BOARD info-lane ID-diff (0 unmatched); bounded web sweep (Gulf, Russia, Taiwan, Venezuela, Section 338, US–China).
+- **Not done:** derived aggregates (FALCON mid-catch-up), full dormant re-sweeps, FALSIFICATION refresh.
