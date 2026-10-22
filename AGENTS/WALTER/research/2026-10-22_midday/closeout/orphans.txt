@@ -1,0 +1,23 @@
+⚠️  uncommitted files outside AGENTS/WALTER/:
+     [not yours]    AGENTS/DAEDALUS/runs/GATE_LOG.tsv
+     [not yours]    AGENTS/OZK/CLAUDE.md
+     [not yours]    AGENTS/OZK/LIFE_SCI/STATUS.md
+     [not yours]    AGENTS/OZK/POSITIONS.md
+     [not yours]    AGENTS/OZK/SCENARIOS.md
+     [not yours]    AGENTS/OZK/TRADE.md
+     [not yours]    AGENTS/OZK/WEAKNESSES.md
+     [not yours]    AGENTS/OZK/inbox/processed/2026-10-22_from-PROME_WQ483-RULED-A-conviction-LOW.md
+     [not yours]    AGENTS/OZK/research/README.md
+     [not yours]    AGENTS/REGINALD/CALENDAR.md
+     [not yours]    AGENTS/REGINALD/STATUS.md
+     [not yours]    AGENTS/REGINALD/domain/sources/2026-10-22_catchup/deck_013.jpg
+     [not yours]    AGENTS/REGINALD/domain/sources/2026-10-22_catchup/deck_016.jpg
+     [not yours]    AGENTS/REGINALD/domain/sources/2026-10-22_catchup/deck_018.jpg
+     [not yours]    AGENTS/REGINALD/domain/sources/2026-10-22_catchup/deck_021.jpg
+     [not yours]    AGENTS/REGINALD/reports/2026-10-13_review-response_forward-judgments.md
+     [not yours]    AGENTS/REGINALD/reports/2026-10-22_EGBN_Q4_maturity_wall.md
+     [not yours]    PROME/state/ORCH_INFLIGHT.md
+     [not yours]    PROME/state/ORCH_LOG.tsv
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.
