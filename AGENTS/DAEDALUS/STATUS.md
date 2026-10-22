@@ -1,6 +1,6 @@
 # DAEDALUS STATUS
 
-**Last Updated: 2026-10-21 — Session closed at Will’s request; AEOLUS refresh and core sync published; Codex/OpenAI.**
+**Last Updated: 2026-10-22 — Bank-cluster desk review (REGINALD/OZK/WAL/FLG) for Will; Claude Code, Opus 5.5.**
 
 **Current judgment:** the architecture is coherent; current-state reconciliation and maintenance have lagged new builds. Preserve evidence and rules, reduce recovery ambiguity, and repair specific tooling gaps. Assessment: `runs/2026-10-20_ORGANIZATION_REVIEW.md`. **Recorded grade L4/M retained**, current bounded PR8 row re-cut October21; no L5 adjudication; AEOLUS whole profile refreshed October 21. Authority remains own directory/root scripts; other desks require express scope and idle target.
 
@@ -10,6 +10,7 @@ Prior STATUS is preserved byte-for-byte at `archive/2026-10-20_ORGANIZATION_CLEA
 
 October20 follow-through: scorecard/MARCO check complete; L736 writer repair reviewed; EVOLUTION rotated verbatim below stop threshold. That partial detection is superseded by October21 PR8/Staleness6 disposition records; the October20 record remains historical.
 
+0. **Done 2026-10-22: bank-cluster desk review** (Will-commissioned 11:16 ET) — four Opus readers, 82 findings, 10 cross-cutting (X1 no dated falsification after Q3 at 3 of 4 desks; X4 boots blind to `inbox/WALTER/`). `runs/2026-10-22_BANK_DESK_REVIEW/REPORT.md`; packet `PROME/inbox/2026-10-22_from-DAEDALUS_bank-cluster-desk-review.md`. Two time-sensitive items (FLG surprise threshold, WAL unprocessed signal) consumed by PROME 11:27 ET. FLEET_MAP rows re-cut, levels unchanged. **Owed from it:** charter-currency packet to the four desks after the catch-up ends; fleet-tool fixes (`ledger_staleness.py` FROZEN-in-prose, trade-surface git-time staleness, `read_cap_check` WAL MEMORY miss) under the normal Will-visible batch.
 1. **Next: HAWK whole-profile refresh**, followed by HOMER, WAL, BROCK, CREED, REGINALD, FALCON and MIDAS. AEOLUS is complete and published; eight of the accepted nine remain. Preserve full read/review scope and the CREED launch restriction. Evidence: `runs/2026-10-21_AEOLUS_REFRESH.md`.
 2. **Completed work:** October 20 organization cleanup, October 21 PR8/Staleness6 bounded maintenance, check-register review and RED duplication census. Do not repeat these as unfinished work. Delivery: `runs/2026-10-21_DELIVERY.md`; cleanup: `runs/2026-10-20_ORGANIZATION_CLEANUP.md`.
 3. **Owner follow-through:** L530, L628 and L748 are installed; CATO's L628 applied-result read remains pending. AEOLUS owner repairs are separately packeted, not completed by its profile refresh. Calendar tooling remains on-demand.
@@ -49,6 +50,9 @@ October20 follow-through: scorecard/MARCO check complete; L736 writer repair rev
 
 ## Conditional seats and other owners
 
+- **L757 (next production review):** firetime false-positive classes — carried to the next Production Review, not started 10/22. **L768 (2026-10-25):** firetime NEW-vs-PERSISTING split disposition — carried to the 10/25 backlog/retirement sitting.
+- **Inbox pending (read 10/22, not started):** PROME WQ-480 NEXUS charter over-cap → PR#8 packet line citing WQ-480 + D:L470; HANS 10/21 falsification#4 + HNS-09 delivery → re-cut HANS row at next review. Older packets already dispositioned in this page; not yet moved to processed/.
+
 - **L440 October25:** shared dead-prefix constant/control role; PROME owns its repair sitting. **L734 October21:** optional parser-contract reader. **L661 October23:** optional N3 token registration, no automatic new work.
 - **L655/L664:** L655/L664 remain open. PROME disclosed exposure to findings; organization counterpart must be a fresh reader at its scheduled slot; two helpers and Will-relayed feedback do not establish an uncontaminated PROME blind read.
 - **L676/L710:** JANUS scope script only if commissioned, agent-definition reader when called; PROME builds/executes its maintenance slot.
@@ -59,9 +63,9 @@ October20 follow-through: scorecard/MARCO check complete; L736 writer repair rev
 - Informed-only or contextual: **L473/L504/L557/L561/L562/L581/L646/L735/L737**. L737 suite failures remain PROME's; conservative parser may require acknowledgment but creates no writer duty. NEXUS blind commission#2 scheduling remains PROME's; sealed material stays sealed. CREED WQ-100, OSPREY Channel3, NEXUS rotation, HANS rotation condition remain owner watches. WALTER six doorbells closedSeptember25; no resend.
 - WQ-374 helper/registrar proposal DEFERRED pending charter consolidation; no implementation owed. L285 ladder N/A encoded, SL-6/A/B encoded; L593 repair done; L658 resolved; no obsolete encode/apply instruction reopened. Detailed history and original approval text remain in archived STATUS and linked records.
 
-## BOTTOM LINE — 2026-10-21
+## BOTTOM LINE — 2026-10-22
 
-**WORK:** Session closed at Will’s request. AEOLUS whole-profile refresh completed across three reader clusters; L4/M retained. One of nine queued profiles complete; HAWK next. Prior PR8/Staleness6 maintenance remains complete.
-**CHECKS:** Core continuity reconciliation recorded in runs/2026-10-21_CORE_SYNC.md. Accepted profile review and closeout receipt remain in runs/2026-10-21_AEOLUS_REFRESH.md. Owner read-cap rc2 assessed0, oversized charter, source-consistency and ledger/guard findings remain; profile completion does not clear them.
-**DELIVERY:** AEOLUS package397e56a3e and both packets published; all19 paths verified on origin. Receipt: runs/2026-10-21_AEOLUS_REFRESH.md. No recipient consumption claimed.
-**OPEN:** Eight cohort profiles; scorecard October23; YUR-F01 October24; backlog/retirement dispositions October25. Full queue clocks unchanged. Owner repairs are separate from DAEDALUS comprehension.
+**WORK:** Bank-cluster desk review complete for Will (REGINALD, OZK, WAL, FLG), read-only against live desks; report runs/2026-10-22_BANK_DESK_REVIEW/REPORT.md. Session active until closeout. HAWK whole profile remains next in the cohort queue.
+**CHECKS:** Boot gate rc0 with DUE sweeps (profile-refresh, H2, harness, surfaces, doc-retirement, shared-guard) unchanged by this session. Closeout battery result recorded in the commit receipt.
+**DELIVERY:** Report + packet written locally; publication and PROME consumption of the full packet not yet verified at time of writing. Two urgent items consumed by PROME 11:27 ET (its reply).
+**OPEN:** Charter-currency packet to the four desks; three fleet-tool defects; scorecard October23; YUR-F01 October24; backlog/retirement dispositions October25.

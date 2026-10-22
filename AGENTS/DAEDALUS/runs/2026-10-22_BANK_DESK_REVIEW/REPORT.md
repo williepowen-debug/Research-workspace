@@ -1,0 +1,51 @@
+# Bank-cluster desk review — REGINALD · OZK · WAL · FLG
+
+**Date:** 2026-10-22 11:16–11:3x ET · **By:** DAEDALUS (Claude Code, Opus 5.5, session daedalus-e7) · **Commissioned by:** Will, in-session 11:16 ET ("review and see what you find… generate a report on what is lacking or needs some improvement").
+**Method:** four independent Opus readers, one per desk, read-only, graded against `BLUEPRINTS/market-agent.md` §1–9 and the OPERATIONS maturity ladder. DAEDALUS ran the cross-desk checks itself and re-verified each load-bearing claim at the artifact before it entered this report (verification column below). All four desks were LIVE in PROME's catch-up session during the review; nothing outside `AGENTS/DAEDALUS/` was edited. Per-desk evidence (82 findings, path:line cited, coverage declared): `REGINALD.md` (19) · `OZK.md` (24) · `WAL.md` (21) · `FLG.md` (18) in this folder.
+**Time-sensitive items already handed off:** FLG pre-print surprise threshold and WAL's unprocessed WALTER signal → PROME by SendMessage 11:2x ET; PROME accepted both and routed them to the live desk windows (PROME reply 11:27 ET). PROME corrected one detail: GATE-FLG-T08 is archived (terminal, 10/09), so FLG's "zero gates" line is imprecise, not false — the fix is "zero LIVE, one terminal".
+
+## The short version
+
+The four desks are good at the thing they were built for — grading a quarterly print against a frame frozen in advance. OZK, WAL and FLG all had pre-registered Q3 frames, and the grading discipline is real. What they lack is the maintenance between prints: once a print is graded, the thesis kill-tests, predictions, scenario weights and trade files are not rolled forward, so three of the four desks now have no dated way to be proven wrong before January. Their charters and boot scripts also lag the fleet's newer rules, and the specialist-to-REGINALD channel is mostly one-way. None of this is a crisis; it is what a desk looks like when it only runs at earnings time.
+
+## Cross-cutting findings (the pattern across all four)
+
+| # | Sev | Finding | REG | OZK | WAL | FLG | Fix owner |
+|---|---|---|---|---|---|---|---|
+| X1 | 🔴 | **No forward falsification after Q3.** Kill rails/exit rules were not re-derived at the print. OZK: NCO kill window passed unfired, RaDD cure test substantively MET, next dated test ~Jan 16–20 print. WAL: weights still at 8/20 marks "pending separate dated judgment", no rule for how the 10-Q (earliest 10/26) moves them. REGINALD: EXIT RULES undated since 3/05, "CBRE" defined nowhere, CRE anchor cites REG-24/25 which moved to WAL and were invalidated 10/19. FLG: "falsifies the stance" row UNSET since 8/20 (one-directional rail). | ✅ | ✅ | ✅ | ✅ (milder) | desks; Will rules thesis moves |
+| X2 | 🟠 | **Prediction pipelines thin or stalled, with no due-date checks.** OZK 0 new since 7/04 (110 d). WAL 3 rows ever; none OPEN after the 10-Q. REGINALD 1 new since July; no Resolve_By column. FLG-01 shows "75%→50%" in STATUS but the machine Confidence cell still reads `75% PROVISIONAL` (WQ-112: narrative re-marks don't count). WAL's `predictions_due_check.py` CLOSED set lacks `RESOLVED-INVALIDATED` → resolved WAL-02 will read OVERDUE after 11/15. | ✅ | ✅ | ✅ | ✅ | desks |
+| X3 | 🟠 | **Secondary surfaces rot under fresh headers.** OZK SCENARIOS still Bear 55% / EV $38.97 (April), though its own bull trigger fired 10/9; WEAKNESSES never mentions the RaDD extension or Q3; PRIVATE_CREDIT still calls The Jack a nonaccrual. REGINALD TRADE.md/POSITIONS still list HBAN Oct-16 puts (expired 10/16). FLG THESIS keeps superseded lines (63, 224, 226). WAL STATUS stacks "Prior" blocks, three KB counts. | ✅ | ✅ | ✅ | ✅ | desks |
+| X4 | 🟠 | **Boot scripts don't watch the WALTER signal lane.** WALTER delivers to `inbox/WALTER/`; none of the four desks' boot scripts mention it (7 of 26 fleet boot scripts do — CARL, CORAL, CREED, HENRY, LIQUID, RED, TERRY). Today WAL's STATUS said "no target changes" two minutes before a WALTER signal reported Stephens $94→$88, and its desk sweep reported the lane empty. OZK `boot.py:289` globs `inbox/*.md` only. | ✅ | ✅ | ✅ | ✅ | desks |
+| X5 | 🟠 | **Charters lag fleet canon.** OZK and FLG lack the 10/05 explicit-read boot (root/AGENTS/USER + runtime identification). WAL, OZK, FLG closeout lists omit root steps 1b–1e. FLG `CLAUDE.md:206` and WAL restate the rebase recovery without root's dirty-path overlap check — the one step that stops a desk stashing another agent's live work. REGINALD's charter is current. | — | ✅ | ✅ | ✅ | desks (idle edit) |
+| X6 | 🟠 | **Will's 10/20 "trade ideas loosened" ruling has not landed anywhere.** No NOT-FIRED idea section or TERRY route at any desk; no REGINALD idea to TERRY since 10/12. TERRY's 10/12 shortlist holds an "FLG downside, WATCH" candidate no FLG file mentions. "No expiry nagging" is mostly honoured; residue: WAL "sell-or-roll rail" wording, OZK charter still claims it manages option expiries. | ✅ | ✅ | ✅ | ✅ | desks; TERRY |
+| X7 | 🟡 | **Specialist→hub flow is one-way and the topology doesn't say it exists.** `_NETWORK.md` has OZK and WAL only as undirected "peer bank surface" edges with REGINALD (FLG has directed edges); `AGENTS.md` says all three feed REGINALD. WAL's REGINALD_CHANNEL has 17 WAL entries, 0 from REGINALD. REGINALD's exposure matrix scores OZK 2 ("mid-pack") while OZK carried 🔴🔴 HIGH — never reconciled. FLG→LIQUID and FLG→TERRY routes have never carried a packet. REGINALD: 32 outbox packets with no delivered state; three 10/13 packets have no counterpart in `PROME/inbox`. | ✅ | ✅ | ✅ | ✅ | PROME→Will (route edit); desks |
+| X8 | 🟡 | **Boot-read manifest blind spot.** OZK, WAL, FLG have zero rows in `PROME/registry/READS.tsv`, so the read-cap guard cannot evaluate them (shared with most of the fleet: 12 desks attested). WAL's whole-file reads include KB.tsv 262,548 B (807% of budget) and THESIS 57,166 B (176%). REGINALD's BOARD class row is over-broad (pulls a 39.5 KB June signal → rc 1). | ✅ | ✅ | ✅ | ✅ | desks declare; PROME registers |
+| X9 | 🟡 | **Shared credential dependency.** The FFIEC Call Report token expires 11/05, ahead of REGINALD's 11/07 MI3 re-score, WAL's Q3 MI3 pull, FLG's T-01 (~11/14) and OZK's Call Report series; credentials are desktop-only. Already registered (DOCKET November credential sitting 11/01, WQ-31) — the risk is only that the sitting slips. | ✅ | ✅ | ✅ | ✅ | Will (11/01 sitting) |
+| X10 | 🟡 | **Glued words** (root Output Canon forbids): REGINALD ~60, WAL across six surfaces — concentrated in the 10/14–10/19 Codex sessions. | ✅ | — | ✅ | — | desks; PROME (runtime launch note) |
+
+## Per-desk headline (full tables in the per-desk files)
+
+| Desk | Grade now | Verdict | Top three |
+|---|---|---|---|
+| **REGINALD** | L4/H — holds | Routine process strong (inbox clean, corrections/claim checks pass, Q3 frames frozen, REG-27 registered pre-print); weak where the record only matters when something breaks. | X1 exit rules; REG-T-07 office-CMBS threshold has no live reading (REG-01 at 90% last tracked 8/27; its source CREED is unlaunched); TRADE.md "RECONCILIATION REQUIRED" yet graded fresh because a banner edit restamped git time. |
+| **OZK** | L4/H — holds | Best print-grading of the four (Q3 card pre-registered 10/12, append-only since). Will ruled WQ-483 at 11:24 ET today (conviction → 🟡 LOW); desk encodes at next session. | X1 (🔴); stale SCENARIOS/WEAKNESSES/PRIVATE_CREDIT; `flng_watch.py` baseline 9/24 → false "NEW" filings at every boot, and it is the only scripted watch for the 11/2–12/22 sub-notes call notice. |
+| **WAL** | L4/M — holds | Grading discipline strong; 10-Q frame frozen today with pinned anchors. Everything around the core is accreted. | X1 (🔴); fleet `ledger_staleness.py` reads live MI3_SERIES.tsv as FROZEN (the word sits in line-1 prose); STATUS has no BOTTOM LINE and stacks prior blocks. |
+| **FLG** | L3/M — holds | Analytically better than its grade; nothing must be built before tomorrow's 06:00 ET print except the surprise-threshold note (handed off). L4 is blocked on the letter by TRADE.md lacking a re-arm condition. | FLG-01 confidence cell; FLG charter git recovery line; THESIS stale text at 99.6% of budget. |
+
+## DAEDALUS's own record (fixed this session)
+
+All four FLEET_MAP rows were stale against the desks (REGINALD gap named REG-06 as lacking an instrument — it has had one since 10/10, `5344a98c8`; OZK "latest owner state October 12"; WAL "Stage 2 pending"; FLG "no update after October 1"). Re-cut this session to what is true now; levels unchanged. The REGINALD and WAL L3 dated-falsification legs (X1) are flagged for adjudication at their already-queued whole-profile refreshes, not re-graded here.
+
+Fleet-tool defects that are DAEDALUS's: `ledger_staleness.py` FROZEN-substring match inside prose (same class as auto-memory `finding_marker_word_in_prose_disables_the_scanner_that_reads_for_it`); trade-surface staleness keyed on git time defeated by a banner edit (REGINALD); `read_cap_check` heuristic missing WAL's MEMORY.md whole read. Logged as owed, not fixed today.
+
+## Recommendations, in order
+
+1. **(desks, next session each)** Re-derive the kill rail / exit rules with a dated stamp and at least one dated test before the next print — X1. This is the single change that most improves these desks.
+2. **(desks)** Point boot at `inbox/WALTER/` — X4. One line per boot script; the mature desks already do it.
+3. **(DAEDALUS → desks, one batched packet after the catch-up ends)** Charter currency pack: explicit-read boot, root 1b–1e by citation, drop restated git recovery, encode 10/20 rulings (NOT-FIRED idea route to TERRY; strip expiry-management claims) — X5/X6. Desk-owned edits, idle target.
+4. **(PROME → Will)** Decide whether OZK→REGINALD and WAL→REGINALD become directed edges in `_NETWORK.md` (a route is ownership) — X7.
+5. **(desks + PROME)** Declare READS rows for OZK/WAL/FLG — X8.
+6. **(Will)** Keep the 11/01 credential sitting — X9.
+7. **(DAEDALUS)** Fix the three fleet-tool defects above under the normal Will-visible batch.
+
+Not recommended: any level change today, or a shared bank-desk template — the four desks' local forms differ legitimately (FLG's lack of MEMORY/INDEX/WEAKNESSES files is local form, not a blueprint gap).
