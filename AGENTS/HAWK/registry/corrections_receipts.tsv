@@ -13,3 +13,5 @@ receipt_date	correction_id	action	note
 2026-10-22T00:30Z	COR-20261012-09	NO-OP	scope=HAWK holds no UKMTO event mapping for ON PEACE/158-26/CHRYSTAL SKY. Vessel incidents are FALCON-owned and HAWK cites FALCON's census only.; 
 2026-10-22T00:34Z	COR-20261014-31	APPLIED	artifact=AGENTS/HAWK/STATUS.md#hull-war; validation_ref=NONE; 
 2026-10-22T00:34Z	COR-20261014-35	APPLIED	artifact=AGENTS/HAWK/STATUS.md#hull-war; validation_ref=NONE; 
+2026-10-22T01:38Z	COR-20261021-11	APPLIED	artifact=AGENTS/HAWK/domain/energy-strikes/CROSS_WAR_SUMMARY.md#October21; validation_ref=NONE; 
+2026-10-22T01:38Z	COR-20261021-16	NO-OP	scope=No HAWK surface asserts the Russian diesel export ban was lifted. KB-HAWK-436 cites GL 135 cargoes and destination signals only, and STATUS carries the No 1252 producer restriction to 10/31.; 

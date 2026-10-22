@@ -7,7 +7,7 @@
 | Owner ledger | Head commit | Rows on 10/21 | Rows on 10/10 |
 |---|---|---|---|
 | OSPREY `STRIKES.tsv` | `481b5a917`, 10/21; mark NOT advanced past 10/11 (Palaemon 12–18 Oct unposted) | **160** mixed strike/maritime | 150 |
-| FALCON hull `VESSELS.tsv` | `d4720ac9b`, 10/21 (UKMTO 174–180-26 reconciled; AL DASMA dated 10/20) | **82** | 59 |
+| FALCON hull `VESSELS.tsv` | `48d1f5f70`, 10/21 (UKMTO 174–180-26 reconciled; AL DASMA date conflict open) | **82** | 59 |
 | FALCON facility `STRIKES.tsv` | `ab9b1cea0`, 10/21 | **42** | 41 |
 
 Row counts are heterogeneous ledger entries, not a census and not additive capacity.
@@ -21,7 +21,7 @@ Row counts are heterogeneous ledger entries, not a census and not additive capac
 **Gulf [FALCON 10/21 `ab9b1cea0`/`e3999d8b6`]: marks HELD B 1 / C 14 / D 85; production rung NOT FIRED.**
 - **Saudi sites:** Dhahran HQ 10/13 is an office (OUT). Abqaiq 10/08 shows flare-stack heat with no counting source. Shaybah 10/21 was an intercept, with debris outside the perimeter (MoE: operations unaffected; 2 killed). Yanbu missile intercepted 10/16.
 - **Losses: 4 confirmed + 1 contested** (CAPE DAO now IMO "Partially sunk", disputed by JMIC; WQ-431 held at 5).
-- **Hull war across the whole Gulf.** ST3 and LOYALTY were hit 68–78 nm NE of Al Jubail on 10/16 (UKMTO 174/175-26). That is the Saudi Gulf coast, **not Hormuz**, as first relayed (WALTER -1021-011). Also JIF BARRACUDA tug off Khor Fakkan 10/18; AL DASMA ~11 nm W of Bukha (179-26; **one event, not two**; dated 10/20 at the NAVAREA IX 396/26 primary per FALCON `55e8d1c7b`, KB-307); SOYIA ~30 nm SE of Al Faw 10/20 (180-26).
+- **Hull war across the whole Gulf.** ST3 and LOYALTY were hit 68–78 nm NE of Al Jubail on 10/16 (UKMTO 174/175-26). That is the Saudi Gulf coast, **not Hormuz**, as first relayed (WALTER -1021-011). Also JIF BARRACUDA tug off Khor Fakkan 10/18; AL DASMA ~11 nm W of Bukha (179-26; **one event, not two**; date CONFLICT re-opened by FALCON `48d1f5f70`: UKMTO 21 Oct 0145Z vs NAVAREA 396/26 and IMO 20 Oct; carry both); SOYIA ~30 nm SE of Al Faw 10/20 (180-26).
 - **KOTC pattern-watch tripped:** AL DASMA is the third Kuwait hull since 9/28, after AL FUNTAS 9/28 and KAZIMAH III 10/01 (FALCON KB-297). A note, not a letter.
 
 **Cross-war read, 10/21 [EST]:**

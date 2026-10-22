@@ -1,5 +1,5 @@
 # HAWK STATUS
-**Last Updated:** 2026-10-21 Wed 20:3x ET (from `date`; hook clock 20:29 ET at the turn start). **Will-launched boot and news catch-up after 11 dark days** (last session 10/10; session hawk-1021, Claude Code, model Opus 5.5; WALTER `walter-14` sent a catch-up brief mid-session). **Price [BRENT owns]:** Brent front month **$110.03**, last trade 20:15 ET 10/21 in the evening session (it belongs to 10/22; contract UNKNOWN by name-cut); WTI Dec (CLZ26) **$98.05** (`fetch.py`). On 10/9 the figures were $104.72 and WTI Nov $91.85, which is a different WTI contract. **$0. No mark, band, threshold, score or prediction letter moved.**
+**Last Updated:** 2026-10-21 Wed 21:38 ET (from `date`, closeout; first write 20:3x ET). **Will-launched boot and news catch-up after 11 dark days** (last session 10/10; session hawk-1021, Claude Code, model Opus 5.5; WALTER `walter-14` sent a catch-up brief mid-session). **Price [BRENT owns]:** Brent front month **$110.03**, last trade 20:15 ET 10/21 in the evening session (it belongs to 10/22; contract UNKNOWN by name-cut); WTI Dec (CLZ26) **$98.05** (`fetch.py`). On 10/9 the figures were $104.72 and WTI Nov $91.85, which is a different WTI contract. **$0. No mark, band, threshold, score or prediction letter moved.**
 
 **Drain receipt:**
 - **Inbox drained whole:** 10 top-level packets → `inbox/processed/` (KB-HAWK-443), plus FALCON's 10/21 KOTC packet and WALTER -1021-011/-012, which landed after the first commit (KB-444). 57 WALTER-lane signals → `inbox/WALTER/processed/`: 20 acted, 30 noted, 7 info-only. All 9 WALTER ACTION items were decided (KB-435..439).
@@ -14,6 +14,7 @@
   - LESSONS rotated 86% → 71% (`rotation_due=0`).
   - **Also graded OSPREY's C3 canvass, delivered early: limb 2 NOT SATISFIED** (KB-449).
   - BRENT resolved the Hormuz instrument conflict (KB-450).
+- **Closeout (Will, "lets close out"):** WALTER -1021-016/-017 consumed (KB-452). Corrections COR-20261021-11 APPLIED and -16 NO-OP (rc 0). `thesis/FALSIFICATION.md` re-stamped 10/21, with the rows re-read named on the page. No new auto-memory.
 
 **What changed while dark (synthesis; owners in brackets):**
 1. **Gulf: escalation signals stacked, with no verified production loss** [FALCON 10/14 + my 10/21 sweep].
@@ -24,7 +25,7 @@
 3. **Hull war spread across the whole Gulf.** FALCON losses (10/21 review): **4 confirmed + 1 contested**. GFS PRIDE sank 10/13. CAPE DAO went from IMO "Sunk" (10/14) to "Partially sunk", and JMIC disputes it; the WQ-431 hold is at 5. Hulls hit:
    - ST3 and LOYALTY, 68–78 nm NE of Al Jubail, 10/16. That is the Saudi Gulf coast, **not Hormuz** as first relayed.
    - SOYIA off Al Faw, 10/20.
-   - AL DASMA off Bukha, dated 10/20 at the primary (FALCON KB-307, NAVAREA IX 396/26). **One event, not two.**
+   - AL DASMA off Bukha. **One event, not two.** ⚠️ Date CONFLICT, re-opened by FALCON 10/21 ~21:4x ET (KB-FALCON-313): UKMTO 179-26 primary says 21 Oct 0145Z, while NAVAREA IX 396/26 and the IMO say 20 Oct. Carry both.
    
    **KOTC pattern-watch tripped:** AL DASMA is the third Kuwait hull since 9/28 (KB-444). JMIC raised the Arabian Gulf to SUBSTANTIAL 10/18. **No mine blast verified.**
 4. **Saudi targets moved toward Aramco.**

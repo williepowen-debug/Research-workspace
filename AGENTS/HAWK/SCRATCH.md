@@ -63,7 +63,7 @@
 - HAW-20 10/31. HAW-22 window closes 10/31, resolves 12/22. **No Will decision open from this desk.**
 
 ## MAIL STATE (one line per surface)
-- Inbox: **clear** (10/10 processed). WALTER lane: **clear** (57/57). Outbox: none written this session.
+- Inbox: **clear at 21:38 ET** (all top-level packets processed, incl. FALCON KOTC and BRENT Hormuz). WALTER lane: **clear** (61/61 incl. -1021-011/-012/-016/-017). Outbox: packets committed via carve-out ① to OSPREY (a896ab9d8, C3 grade) and MARCO (020920ef9, S338 autos).
 
 ## PENDING PUSH / GIT
-- Commit pathspec `AGENTS/HAWK/` plus `safe-push`; receipt line in the closeout message.
+- All HAWK work committed and pushed (4a82c1168 → 386402e22 → 5a159c8fc → 7943b8bdb → closeout commit). Nothing of HAWK's left uncommitted.

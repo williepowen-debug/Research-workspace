@@ -2,7 +2,7 @@
 
 **Status:** 🟠 — **2026-10-21: catch-up after 11 dark days; no HAWK mark, band or letter moved.** **The decoupling holds on flow while the escalation drivers stack.** Kpler via WSJ (10/21, single secondary relay) has Middle East flows at >24 mb/d vs 23.3 prewar in the week to 10/18, and Hormuz at ~82% of prewar, against Brent ~$110 (10/21 evening session). That is premium, not lost barrels. **US posture changed 10/21:** ordered departure from Saudi Arabia (Reuters and AFP disagree on scope), a third carrier, Kharg oil infrastructure on the reported options list (anonymous), Iran rejecting the Pakistani proposals, and Netanyahu's regime-change directive. **The post-11/3 window is the dated known-unknown.**
 **Domain:** cross-war synthesis (OSPREY ⊕ FALCON reconciliation) + the dormant geopolitical book (11 rows).
-**As of:** 2026-10-21 20:3x ET (from `date`; session hawk-1021, Will-launched). **STATUS commit:** see `git log -1 -- AGENTS/HAWK/STATUS.md`. Detail: STATUS header + KB-HAWK-435..443. Prior brief (10/10): `git show HEAD~1:AGENTS/HAWK/NEXUS_BRIEF.md`.
+**As of:** 2026-10-21 21:38 ET (from `date`, closeout; session hawk-1021, Will-launched). **STATUS commit:** see `git log -1 -- AGENTS/HAWK/STATUS.md`. Detail: STATUS header + KB-HAWK-435..443. Prior brief (10/10): `git show HEAD~1:AGENTS/HAWK/NEXUS_BRIEF.md`.
 
 ---
 
@@ -32,7 +32,7 @@
 - **Gulf [FALCON 10/14 + HAWK sweep 10/21]:**
   - FALCON 10/21: marks HELD 1/14/85. Losses 4 confirmed + 1 contested (CAPE DAO IMO "Partially sunk", JMIC disputes). Casualty ratchet RED. KOTC pattern-watch tripped: 3 Kuwait hulls since 9/28 (KB-444).
   - Production rung NOT FIRED: Dhahran is an office, Abqaiq shows flare-stack heat with no counting source, Shaybah was intercepted.
-  - Hull strikes now run the length of the Gulf: ST3 and LOYALTY off Al Jubail 10/16 (not Hormuz), SOYIA off Al Faw 10/20, AL DASMA off Bukha (one event). IRGC mine claims are unverified.
+  - Hull strikes now run the length of the Gulf: ST3 and LOYALTY off Al Jubail 10/16 (not Hormuz), SOYIA off Al Faw 10/20, AL DASMA off Bukha (one event; date 10/20 vs 10/21 0145Z in conflict). IRGC mine claims are unverified.
 - **Russia [OSPREY 10/21]:** the "energy ceasefire" was never in force. Ryazan 10/15, Surgut 10/16, St Petersburg Oil Terminal 10/17–18 (C2 RE-ARMED). Capacity, not barrels. Scores 5/5/3.
 - **Cross-war link:** GL 135 diesel cargoes are moving (Primorsk 10/13; Leruo and Dolunay destinations signalled) while Ukraine strikes the refineries that make it. Count a lost licensed tranche once, at the refinery.
 - **HAW-22 print 10/11–10/21: no candidate** (KB-441). St Petersburg is products; the Gulf events were intercepts or hulls.
