@@ -2,7 +2,7 @@
 
 **Status:** Concentrated bank risk. HY widening 266→333bp is BANK-ABSENT on bank instruments (~0.6); Q3 problem loans up at 6/6 names read while reserve coverage fell at 5/5 (descriptive).
 **Domain:** Regional-bank comparison, FHLB advances, hidden CRE and sponsor-bank balance-sheet risk.
-**As of:** 2026-10-22 12:16 ET, Will-directed appraisal-discount cohort test; owner closeout | STATUS commit: 04c4a7a14
+**As of:** 2026-10-22 12:37 ET, D:L793 fixes + EGBN folder; owner closeout | STATUS commit: f8405c6f2
 
 ## CROSS-DOMAIN
 
@@ -16,6 +16,8 @@
   - BKU CRE criticized −$53.9M. HBAN NCO 0.31%. ZION NCO 0.02%, rank 1 unchanged.
 - **FL frame:** SSB HOLDS provisional, BKU HOLDS-PENDING-P; aggregate UNKNOWN.
 - **H.4.1 descriptive lines:** >~12.9B / >~15.7B. Not registered.
+
+**Communication fixes (Will-approved, D:L793, 10/22):** REGINALD is now the obliged consumer of the OZK and WAL pair channels (WQ-484), with an ACK at each boot and boot.py listing unACKed entries. NOT-FIRED trade ideas route to TERRY. Exit rail re-derived. **CREED (launched 12:19)** answered Will's CRE leg: a rate shock, not credit; CMBS spreads flat through 10/16. Bank side stays BANK-ABSENT.
 
 **Appraisal-discount cohort test (Will, 10/22):** `reports/2026-10-22_appraisal-discount_cohort_test.md`. 12/14 banks publish no discount-to-appraisal; realized resolution haircuts run ~13–22%. Extensions still trigger re-appraisal, so Q4–Q1 appraisal-driven write-downs are likely. FLG ties H1 MF/CRE charge-offs of $193M to 'appraisals received'. EGBN: no trade from this desk.
 
