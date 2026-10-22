@@ -4,7 +4,7 @@
 **B 1 / C 14 / D 85** HELD at the 7-day review (next **10/28**). Convergence 43/50. **Losses 4 confirmed + 1 CONTESTED** (Cape Dao: IMO "Sunk" → "Partially sunk"). **Casualty ratchet 🔴 RED** (24 vs 6 killed) ⇒ EXIT §3 **7 of 8**. Production rung D 85→92 **ARMED, NOT FIRED** (Shaybah 10/21 intercepted). **GATE-FALCON-001 LIVE:** leg 2 NOT FIRED (10/21 review), override not triggered, next review_by **10/28**. FAL-06 OPEN 70% (to 11/05). WARRISK: all 5 rows EXPIRED. No settle-count clock (12b no-op). Model: Opus (`claude-opus-5-5`), Claude Code, desktop.
 
 ## CHANGES SINCE LAST SESSION (10/14 ~22:2x ET → 10/21 ~20:4x ET)
-- Record hull week: ≥10 attacks to 10/17 (UKMTO); IMO 119 incidents / 24 deaths at 10/21. New IMO rows: ST3 + LOYALTY off Al Jubail 10/16, JIF BARRACUDA 10/18 (1 injured), **AL DASMA (KOTC) 10/20 — 3rd Kuwait hull since 9/28**. UKMTO 10/21: tankers hit off Bukha and SE of Al-Faw. No new sinking. IRGC mine claims 10/17, 10/20 unnamed (JMIC: no substantiation). CENTCOM: GFS PRIDE = Iranian projectile.
+- Record hull week: ≥10 attacks to 10/17 (UKMTO); IMO 119 incidents / 24 deaths at 10/21. New IMO rows: ST3 + LOYALTY off Al Jubail 10/16, JIF BARRACUDA 10/18 (1 injured), **AL DASMA (KOTC) 10/20 — 3rd Kuwait hull since 9/28**. UKMTO 179-26 (off Bukha) = AL DASMA itself (date 10/20 vs 10/21 open); 180-26 = SOYIA SE of Al-Faw, 10/20 1830Z — corrected 10/21 late from WALTER -012 (KB-306), VI-0078 marked DUPLICATE. No new sinking. IRGC mine claims 10/17, 10/20 unnamed (JMIC: no substantiation). CENTCOM: GFS PRIDE = Iranian projectile.
 - **Cape Dao: IMO now "Partially sunk"**; NAVAREA 380/26 "sinking and drifting"; JMIC disputes ⇒ CONTESTED.
 - Saudi: **Shaybah drone intercepted 10/21, debris killed 2 outside the perimeter, ops unaffected (MoE)**; **KFIA Dammam 10/21 1 killed / 8 injured**; Yanbu BM intercepted 10/16.
 - US: **ordered departure from Saudi 10/21**; "quiet" footprint reduction (CBS); third carrier + ~10k by late Nov (Fox relay). UK Typhoons to Saudi; Egypt seeks authority to defend Saudi. Netanyahu directs regime toppling; Israeli sortie toward Iran border 10/19 (exercise); Israeli election next week.
@@ -20,7 +20,7 @@
 1. **2026-10-28:** GATE-FALCON-001 review + 7-day scenario review.
 2. **STANDING:** counting source naming a Saudi production-class site (Abqaiq, Ain Dar/Shedgum crude units, Khurais, Shaybah field/GOSP, Yanbu crude terminal / Petroline pump station) with a hostile strike ⇒ FIRE D 85→92, C 14→7, PROME same hour. Intercept debris outside the fence ⇒ OUT.
 3. Cape Dao: re-fetch IMO; re-adjudicate when IMO/JMIC settle.
-4. UKMTO numbers since 173-26 ↔ IMO names (WALTER offered the pull). WARRISK re-pull. CTP-ISW + Shafaq.
+4. ✅ UKMTO 174–180-26 mapped (WALTER -012, KB-306); open: AL DASMA date, AL KHARSAAH bearing, 178-26 hull, 181-26 onward. WARRISK re-pull. CTP-ISW + Shafaq.
 5. **2026-11-05:** FAL-06 dated search ON the day.
 
 ## OPEN THREADS / WATCHES
