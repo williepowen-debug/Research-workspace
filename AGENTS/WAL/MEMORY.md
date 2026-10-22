@@ -1,4 +1,12 @@
-## Session Notes — current handoff, October21 2026 (Stage-2 call grade, PROME L170 spawn)
+## Session Notes — current handoff, October22 2026 (catch-up boot, Will interactive)
+
+**⚠️ Open question:** unchanged — the $99M life-science appraisal is PENDING-10-Q; no Q3 10-Q on EDGAR as of 2026-10-22 11:10 ET (statutory 11/9).
+
+**LAST SESSION (10/22, Claude Opus 5.5, interactive):** boot checks run (staleness, KB expiry 9→7 after 217 extended with reason / 242 SUPERSEDED, drift check still flags the passed history-review date, predictions due clean, corrections rc 0). Inbox empty; no new REGINALD entries. EDGAR: no 10-Q, no new 8-K; ten 10/19 Form 4s = routine 10/15 RSU cash-settlement vestings + one director DSU grant (KB252, no V4 signal). News sweep: nothing new beyond the graded Q3 print/call; no Jefferies/Cantor development found. Price $75.82 at ~11:06 ET (EV −0.18%); 10/21 settled 75.55. 10/22 broker capture shows Fidelity WAL Dec-18 65P ×4 still held despite WQ-429 RULED A — PROME/TERRY own it. No thesis/score/weight/PREDICTIONS change; no trade.
+
+**NEXT SESSION:** items 1–3 of the October21 list below stand. Add: (4) remaining 7 KB expiry rows (223–226, 228, 246, 247) need individual judgment — 246/247 are partly answered by the 10/20 call (KB250).
+
+## Prior session notes — October21 2026 (Stage-2 call grade, PROME L170 spawn)
 
 **⚠️ Open question:** the $99M life-science appraisal — the call (10/20) never mentioned it, so it is PENDING-10-Q; the 10-Q (not filed as of 10/21 13:15 ET EDGAR; statutory 11/9) is now the only scheduled carrier.
 
