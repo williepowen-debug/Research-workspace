@@ -1,3 +1,4 @@
 receipt_date	correction_id	action	note
 2026-10-15T12:17Z	COR-20261012-16	APPLIED	artifact=AGENTS/OSPREY/workbook/KB.tsv#KB-OSPREY-198; validation_ref=AGENTS/YURI/research/2026-10-12_actor-review-and-diesel-instruments.md#§1; OSPREY never held the unchanged-restriction premise. Its own KB-190 overstated the other way (lift). Primary via YURI: partial 500 kt permission, producer ban signed to 10/31, KB-190 qualified, companion tell not met.
 2026-10-15T12:17Z	COR-20261012-31	NO-OP	scope=OSPREY holds no exercise-absence premise. KB-OSPREY-168 (L432 consumer read) asserts only no mobilisation declaration and +15500 authorised personnel. No OSPREY surface cites HAWK L432 card section 4 (grep exercise/Tsentr/Zapad 2026-10-15).; 
+2026-10-22T01:37Z	COR-20261021-16	APPLIED	artifact=AGENTS/OSPREY/workbook/KB.tsv#KB-OSPREY-198; validation_ref=AGENTS/OSPREY/NEXUS_BRIEF.md#2026-10-16 item 2; 

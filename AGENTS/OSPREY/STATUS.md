@@ -1,6 +1,6 @@
 # OSPREY STATUS
-**Last Updated:** 2026-10-21 (Wed) 20:26 ET (from `date`): osprey-1021, owner boot with Will (news catch-up 10/18→10/21). **Scores 5 / 5 / 3 — NO mark moved. Band ~30% [EST] UNCHANGED.**
-**Evidence:** KB-OSPREY-209…214 · `STRIKES.tsv` +3 rows, Ryazan updated in place (mark stays 10/11, NOT advanced) · board_log +3 · feed 10/21 17/17 NONE dispositioned · prior: KB-207…208 (10/20).
+**Last Updated:** 2026-10-21 (Wed) 21:37 ET (from `date`): osprey-1021, owner session with Will — news catch-up 10/18→10/21 + PROME prome-56 orchestration (L661 RESOLVED; L718 pre-staged; C3 canvass run, HAWK graded limb 2 NOT SATISFIED; WQ-470 ruled A). **Scores 5 / 5 / 3 — NO mark moved. Band ~30% [EST] UNCHANGED.**
+**Evidence:** KB-OSPREY-209…217 · `STRIKES.tsv` +3 rows, Ryazan updated in place (mark stays 10/11, NOT advanced) · board_log +3 · feed 10/21 17/17 NONE dispositioned · prior: KB-207…208 (10/20).
 
 ## ACTIVE — 2026-10-21 (owner boot · no mark, band or threshold moved · 3 rows, one a ledger gap)
 1. **No new refinery strike found 10/16→10/21; Ryazan 10/15 stays the newest C1 row (6/30).** Ryazan +5d re-read DONE: **CDU-6 shut, CDU-1/3/4 running** (Reuters, two industry sources, 10/16) — a partial outage, unit size not given (KB-210). L718 (10/23): leg A still cannot be met before 10/29.

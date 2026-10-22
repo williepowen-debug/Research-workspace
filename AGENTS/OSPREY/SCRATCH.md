@@ -1,4 +1,4 @@
-# OSPREY SCRATCH — 2026-10-21 (Wed) · 20:26 ET (from `date`) · osprey-1021 · owner boot with Will (news catch-up 10/18→10/21)
+# OSPREY SCRATCH — 2026-10-21 (Wed) 21:37 ET (from `date`, closeout) · osprey-1021 · owner boot with Will (news catch-up 10/18→10/21)
 
 *Rewritten in full (template). The 10/20 SCRATCH is in git history.*
 
