@@ -4,7 +4,7 @@
 
 **Scope:** this letter defines how the levels are read and when the count resets. It does **not** move a level. Alert ≥40% and Critical ≥60% (or YES) are the 9/28 proposal unchanged, and nothing is encoded until Will rules. $0, no trade.
 
-**RULED 2026-10-15 12:23 ET — Will APPROVED (b) as written** (Deck tap; record `PROME/proposals/2026-10-15_deck-batch-16-RULED.md`); cadence = one ORACLE pull-session per US business day until 11/1 (DOCKET L729). **Owner clarifications dated 2026-10-16 (§7)** answer the commissioned second read (`PROME/reports/2026-10-15_wq314-settlement-second-read/READ1.md`): the settlement text is quoted verbatim in §7.1, and the edits in O2, O8, R1, R2, R4 and §5.1–5.2 below were made that day. No level, operator or instrument moved (§7.3 states the C1 claim per item).
+**RULED 2026-10-15 12:23 ET — Will APPROVED (b) as written** (Deck tap; record `PROME/proposals/2026-10-15_deck-batch-16-RULED.md`); cadence = one ORACLE pull-session per US business day until 11/1 (DOCKET L729). **Owner clarifications dated 2026-10-16 (§7)** answer the commissioned second read (`PROME/reports/2026-10-15_wq314-settlement-second-read/READ1.md`): the settlement text is quoted verbatim in §7.1, and the edits in O2, O8, R1, R2, R4 and §5.1–5.2 below were made that day. No level, operator or instrument moved (§7.3 states the C1 claim per item). **WQ-453 RULED 2026-10-20 (Will, *"WQ 453 approved"*): the Critical→Alert step-down, the touch-before-close rule and the November carry are encoded in §8 (2026-10-21).**
 
 ---
 
@@ -127,10 +127,43 @@ The resolution source for this market is Pyth — specifically, the ICE Futures 
 | READ1 item | Status | Can it bite before 11/1? |
 |---|---|---|
 | ⚠️36② mixed re-grade (2 below, 1 above) | Covered by 7.3: a read at/above the level restarts the clearing count | — |
-| ⚠️36③ Critical→Alert downgrade (3 reads <60 but ≥40) | **OPEN.** Proposed: that clears Critical and leaves Alert held. Moves a consequence ⇒ **for Will via PROME**, not encoded | Only if Critical fires first (today 20.5%) |
-| ⚠️21 touch seen before the Gamma close | **OPEN.** Today: Critical on YES records at Gamma close (§4). A Pyth ≥$110 candle seen earlier is reported to PROME/BRENT as an UNRESOLVED touch, no state. Changing when Critical fires = a consequence ⇒ Will | Yes, if WTI reaches $110 (CME CLZ26 proxy $98.64 at 2026-10-16T17:37Z via `fetch.py` = +11.5% below; the leg resolves on ICE) |
+| ⚠️36③ Critical→Alert downgrade (3 reads <60 but ≥40) | **RULED 2026-10-20 (WQ-453 DEF = A), encoded 2026-10-21 — see §8.** *(10/16 text: OPEN. Proposed: that clears Critical and leaves Alert held. Moves a consequence ⇒ for Will via PROME, not encoded.)* | Only if Critical fires first (today 20.5%) |
+| ⚠️21 touch seen before the Gamma close | **RULED 2026-10-20 (WQ-453 DEF = A), encoded 2026-10-21 — see §8.** *(10/16 text follows.)* OPEN. Today: Critical on YES records at Gamma close (§4). A Pyth ≥$110 candle seen earlier is reported to PROME/BRENT as an UNRESOLVED touch, no state. Changing when Critical fires = a consequence ⇒ Will | Yes, if WTI reaches $110 (CME CLZ26 proxy $98.64 at 2026-10-16T17:37Z via `fetch.py` = +11.5% below; the leg resolves on ICE) |
 | ⚠️22 which read is the NO record | Clarified: the NO record = the last **counting** read (on or before the pin) plus the close | No |
 | ⚠️31 holiday calendar | **OPEN** (US business day = ? calendar). Moot through 10/30: no NYSE or federal holiday 10/16–10/30 | No |
 | ⚠️34 half-tie rounding | Moot at the venue's precision: Polymarket prints this leg at 0.001 (0.1pp), so no x.x5 half-tie can reach O6's 0.1pp rounding (INFERRED from the printed prices) | No |
-| ⚠️39 gap counting | **OPEN** (strictly-between vs difference). Moot while reads land on consecutive business days | Only if a pull is missed |
+| ⚠️39 gap counting | **OPEN** (strictly-between vs difference). Moot while reads land on consecutive business days. **2026-10-21: it now bites on the label only — see §8.3** | Only if a pull is missed |
 | ⚠️25 switch lowers odds "mechanically" | True only while Dec26 < Nov26. The fail-closed rule stands either way | No |
+
+---
+
+## 8. Will's rulings of 2026-10-20 (WQ-453), encoded 2026-10-21
+
+**ORACLE · 2026-10-21 22:2x ET (from `date`) · PROME spawn by prome-56, catch-up wave 2.** Will, verbatim 2026-10-20 12:01 ET: *"WQ 453 approved"*, recorded by PROME as its recommendation on all three units (`PROME/WILL_QUEUE.md` row 453; packet `inbox/processed/2026-10-20_from-PROME_wq453-ruled.md`). Encoded here and on `workbook/VX.tsv` (VX-ORC-04 Alert cell; new VX-ORC-11). Nothing below moves a level, operator or instrument; the two DEF items and ROLLCARRY are the consequence definitions Will ruled.
+
+### 8.1 453.DEF = A — both definitions as drafted in §7.4
+
+| Item | Rule now in force |
+|---|---|
+| **Critical steps down to Alert** (⚠️36③) | When a band Critical (≥60.0 on an armed run of 3) is held, **3 consecutive qualified reads below 60.0 clear Critical and leave Alert HELD**; it does not drop to none. Alert then clears only by O8: 3 consecutive qualified reads below 40.0. The O8 restart rules (thin read, gap, switch, roll, or a read at/above the level) apply to each clearing count. A Critical fired by a **YES resolution** is a recorded fact and does not step down. |
+| **Touch seen before the formal close** (⚠️21) | A Pyth CLL 1-minute candle High ≥ $110.00 seen **before** Gamma shows the leg resolved **does not fire Critical**. ORACLE reports it to PROME and BRENT as an **UNRESOLVED touch** (time, contract, high, source), with no state change. **Critical fires when Gamma shows the leg resolved YES** (§4: `closed` with YES = 1 or `umaResolutionStatus` resolved). Reads taken between the touch and the close remain ordinary reads under O3–O7. |
+
+⚠️ **Reading of "as drafted", for PROME to check:** the touch item had no separate draft beyond §7.4's description of the current rule (*"Critical on YES records at Gamma close (§4). A Pyth ≥$110 candle seen earlier is reported to PROME/BRENT as an UNRESOLVED touch, no state"*); ORACLE encodes that text as the ruled definition. If Will meant the opposite direction (fire on the candle), that is a new ruling.
+
+**Declared residue (not defined by the draft; cannot bite unless Critical fires first; today 13.5%):** whether qualified reads below 40.0 that fall inside the run clearing Critical also count toward Alert's own clearing count. Until ruled, the fail-closed reading applies: Alert's clearing count starts at the first read after Critical clears. Listed for Will via PROME.
+
+### 8.2 453.ROLLCARRY = A
+
+A fired October Alert or Critical is **HELD and carried onto VX-ORC-04 into November** at the pin, and re-graded on the November leg's first 3 qualified reads (R4, §5.2 as rewritten 2026-10-16). It is now Will-ruled; the 10/16 C1 claim is superseded. Today no state is fired, so nothing will carry unless one fires before the pin (~10/25).
+
+### 8.3 The 10/19–10/20 gap and ⚠️39 (gap counting)
+
+Business-day reads: 10/16 (Fri) 20.5 → **no read 10/19 (Mon) or 10/20 (Tue)** → 10/21 (Wed) 13.5 at 2026-10-22T02:22Z = 22:22 EDT, the first pull of ET 10/21 (O3 has no time-of-day limit; precedent: the 10/14 read at 23:56 EDT). R2 says *"more than 2 business days between two consecutive reads"*:
+
+| Reading of R2 | Count 10/16 → 10/21 | Effect |
+|---|---|---|
+| Business days strictly between (10/19, 10/20) | 2, not more than 2 | No restart: run 4, ARMED |
+| Difference in business days | 3, more than 2 | Restart: run 1, disarmed |
+
+Under both readings the state is **none**: 13.5 < 40.0. No future fire differs either, because an Alert needs its own last 3 reads each ≥ 40.0 and today's read cannot be one of them. Only the ARMED label differs, so the ledger records both. ⚠️39 stays **OPEN for Will**. ORACLE's recommendation is the strictly-between reading, because it is the letter's own word ("between"). The choice would change a consequence only if a state were fired and a clearing count straddled a gap.
+
