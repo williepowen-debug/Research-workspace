@@ -22,7 +22,7 @@ Source: `reports/2026-10-22_DESK_SWEEP.md` + D:L793. **Frozen frame untouched** 
 | Charter: explicit-read boot; closeout 1b–1e; non-ff → root step 3; 10-Q graded basis; zero LIVE gates; start from specific reserve; −143pp basis; FILES +9 | CLAUDE.md |
 | boot.py leg 5 **inbox** — verified on a capable case (it caught 3 unread items) and the clean case | boot.py |
 | KB-019 runway leg → KB-025; KB-059 → SUPERSEDED by KB-073; KB-079 event vs filed dates; header re-worded (46 of 81 rows A-grade); **KB-082** CREED refi-cost context (SIG-015); **KB-083** DEWEY core-system migration 2027/2028 | KB |
-| Inbox drained (SIG-012, SIG-015, DEWEY, DAEDALUS) | inbox |
+| Inbox drained (SIG-012, SIG-015, DEWEY ×4, DAEDALUS; last two at 18:0x ET → KB-085 Fiserv strain) | inbox |
 | MATURITY_WALL → 10-Q cadence; sweep primaries archived | `sources/2026-10-22_8K_sweep/` |
 | STATUS: phrases LANDED 10/21 · REGINALD encoded `04c4a7a14` · VX RED · 3 dismissed · $8.9B wording · L3 · T-13 dates | STATUS |
 
