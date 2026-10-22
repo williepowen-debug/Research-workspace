@@ -13,11 +13,6 @@ AGENTS/DEWEY/output/2026-09-27_nano-banc-primary-documents.md	DEAD POINTER	`rese
 AGENTS/DEWEY/output/2026-09-27_nano-banc-primary-documents.md	DATE DRIFT	artifact says 2027-01-18 ('1/18')	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
 AGENTS/DEWEY/output/2026-09-27_nano-banc-primary-documents.md	DATE DRIFT	artifact says 2027-01-01 ('01/01')	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
 AGENTS/DEWEY/output/2026-09-27_nano-banc-primary-documents.md	DATE DRIFT	artifact says 2027-01-13 ('1/13')	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
-AGENTS/OZK/research/threads/2026-09-27_CRE_LOSS_TRANSMISSION_OZK_LEG.md	DEAD POINTER	`reports/2026-09-26_CRE_top3_dossiers/q2_OZK.md`	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
-AGENTS/OZK/research/threads/2026-09-27_CRE_LOSS_TRANSMISSION_OZK_LEG.md	DEAD POINTER	`reports/2026-09-26_CRE_top3_loss_bridge.md`	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
-AGENTS/OZK/research/threads/2026-09-27_CRE_LOSS_TRANSMISSION_OZK_LEG.md	DATE DRIFT	artifact says 2026-12-25 ('Dec-25')	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
-AGENTS/OZK/research/threads/2026-09-27_Q2_WORKOUT_CHECK_OZK.md	DEAD POINTER	`reports/2026-09-26_CRE_top3_dossiers/q2_OZK.md`	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
-AGENTS/OZK/research/threads/2026-09-27_Q2_WORKOUT_CHECK_OZK.md	DATE DRIFT	artifact says 2026-12-25 ('Dec-25')	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
 AGENTS/REGINALD/reports/2026-09-27_VLY_CRE_transmission.md	DATE DRIFT	artifact says 2026-12-25 ('12/25')	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
 AGENTS/REGINALD/reports/2026-09-27_VLY_CRE_transmission.md	DATE DRIFT	artifact says 2027-01-06 ('1/6')	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
 AGENTS/REGINALD/reports/2026-09-27_VLY_CRE_transmission.md	DATE DRIFT	artifact says 2026-12-23 ('12/23')	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
@@ -34,10 +29,10 @@ AGENTS/NEXUS/brief_health.md	DATE DRIFT	artifact says 2027-01-17 ('1/17')	2026-1
 PROME/CLAUDE.md	DEAD POINTER	`docs/handoffs`	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
 PROME/CLAUDE.md	DEAD POINTER	`memory/YYYY-MM-DD.md`	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
 PROME/proposals/2026-09-25_wq299-prome-self-correction-reform-RULED.md	DEAD POINTER	`scratchpad/wq299result.md`	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
-AGENTS/BROCK/catchups/2026-10-09.md	DATE DRIFT	artifact says 2026-12-24 ('12/24')	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
 778ef6a38:PROME/inbox/2026-10-12_from-MIDAS_news-sweep.md	UNREADABLE	[Errno 2] No such file or directory: '/home/willi/Research-workspace/778ef6a38:PROME/inbox/2026-10-12_from-MIDAS_news-sweep.md'	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
 55ee66731:AGENTS/MIDAS/analysis/2026-10-12_MIDAS-news-sweep.md	UNREADABLE	[Errno 2] No such file or directory: '/home/willi/Research-workspace/55ee66731:AGENTS/MIDAS/analysis/2026-10-12_MIDAS-news-sweep.md'	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
 PROME/inbox/processed/2026-10-15_from-LABOR_crash-recovery-claims-graded.md	DEAD POINTER	`AGENTS/LABOR/docket/GRADING_CARD_20261015_claims.md`	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
 PROME/inbox/processed/2026-10-15_from-LABOR_crash-recovery-claims-graded.md	DEAD POINTER	`AGENTS/REGINALD/inbox/2026-10-14_from-LABOR_jolts-openings-band-decision.md`	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
 PROME/inbox/processed/2026-10-15_from-LABOR_crash-recovery-claims-graded.md	DATE DRIFT	artifact says 2026-12-24 ('12/24')	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
+AGENTS/RED/reports/2026-10-15_S54_NETWORK_SWEEP.md	DATE DRIFT	artifact says 2027-01-10 ('1/10')	2026-10-22	PROME/reports/2026-10-22_firetime-boot-flags-disposition.md
 AGENTS/HENRY/domain/ECON_CALENDAR.md	DATE DRIFT	artifact says 2026-12-23 ('Dec 23')	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md

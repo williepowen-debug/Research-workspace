@@ -1523,7 +1523,7 @@ SIG-W-20261019-016-breadth-history-weaker-gains-not-reliable-crash-signal	I	acb5
 SIG-W-20261019-017-narrow-sp500-rebound-persists-at-vendor-close	I	d4eba9e8b2c668b8046874b9be0c3b8b701406f6
 SIG-W-20261019-018-historical-breadth-contrasts-and-cruise-funding-cushion	I	058aae66550c0cf87438dd3dde06d9f85b841d79
 SIG-W-20261019-019-repeat-losers-company-events-and-financing-access-counterevidence	I	b9caecc71c8f4f4942714987509f468983fd181f
-SIG-W-20261019-020-henry-negative-gamma-both-horizons-after-close-proxy	I	0bc80ff8aa828aba85f18a68d5780ca25936f762
+SIG-W-20261019-020-henry-negative-gamma-both-horizons-after-close-proxy	I	46a57527b1a09c0cb2f8d67c8444563376282bfd
 SIG-W-20261019-021-wal-q3-credit-and-funding-counterevidence-with-early-warnings	I	bfc329c5e62f687784cb72fbd86e8010068987c3
 SIG-W-20261020-001-nar-september-pending-contracts-decline-record-framing-unverified	I	eec318d0c21a461f4e5e94c1747830e7db050a56
 SIG-W-20261020-002-epoch-september-fixed-performance-inference-price-research	I	2db1afc5afffb111d40191698e6a360020b557cd
@@ -1580,3 +1580,13 @@ SIG-W-20261021-018-softbank-9984-down-25pct-oct8-to-oct22-vendor-closes-ai-finan
 SIG-W-20261021-019-edmunds-q3-record-21point2pct-new-car-payments-over-1000-avg-787-84-month-loans-25point5pct-OTTO-CARL	I	5f17e3c820c3e3fa33d71aabb02ad56527c6b739
 SIG-W-20261021-020-jefferies-iphone-18-pro-demand-weakening-delivery-times-resale-second-sign-after-parts-cut-VULCAN	I	7fd25f0212425472394066aea9e2d2863ee242f7
 SIG-W-20261021-021-yuri-addendum-decree-738-sonoco-parent-verified-smurfit-westrock-link-unverified-contrary-auchan-lev-manager-PROME	I	3ac760b161163bea2815088b95ce26f5821e22af
+SIG-W-20261021-022-SUPERSEDES-20261019-020-henry-gamma-positive-both-horizons-10-21-close-thin-cushion-december-crack-95point05-near-line-F1-UNKNOWN	I	5ed29fcbd758f084f6161690b2e4ed1ea578eb8b
+SIG-W-20261021-023-ai-infra-tape-oct20-21-anthropic-wsj-draft-ipo-figures-conflict-reuters-smci-preannounce-beat-nextdc-power-delay-crwv-bonds-VULCAN	I	8f0a84126d7b44f33700eec0b61aaf0f93b4eca7
+SIG-W-20261021-024-php-critical-vulnerabilities-cvss-9point2-release-oct21-national-cyber-agencies-take-sites-offline-openai-found	I	98281f3cf6b847786711464ed0e6914be17a0074
+SIG-W-20261021-025-occ-final-genius-act-stablecoin-rule-oct21-rewards-restriction-dropped-bank-deposit-competition-REGINALD	I	42d388eda5d445caca1bd783dd2de6ed9da94aee
+SIG-W-20261021-026-diesel-policy-oct20-21-reported-nehhor-315kbbl-release-and-8b-farmer-aid-UNVERIFIED-aaa-6point32-BRENT	I	180dde70ec347a9ceab5b90e84b80a3733772f64
+SIG-W-20261021-027-iran-oct21-nyt-reported-post-election-us-israel-strike-planning-irgc-rhetoric-iralco-arak-cause-unknown-FALCON	I	969d444b3eb53dcae328238f274b1947a694f650
+SIG-W-20261021-028-fema-tells-states-to-build-reserves-and-handle-most-disasters-politico-oct20-florida-CORAL-AEOLUS	I	6a1ae4e894caab3e58b2e7d20be8b7563242284f
+SIG-W-20261021-029-positioning-credit-tape-oct19-21-margin-debt-1point48t-record-gdp-share-long-bond-call-record-ccc-yield-18pct-paramount-cds-record-HENRY	I	fb393f4cefb88a1f56ae3fbfc2aed02a923ae2e0
+SIG-W-20261021-030-yuri-addenda-ontex-verified-738-exposure-5pct-revenue-sonoco-q3-silent-decree-750-foreign-law-trigger-1252-precision-on-016	I	1763c04e64f5ed67c435b2486b4d53e55c7facf6
+SIG-W-20261021-031-yuri-long-search-no-public-500kt-diesel-act-686-code-list-overdue-no-ship-decree-bycatch-potash-auction-2783-FERT-triage	I	cc0c0b7eaa2c75bf0bdb787d37ed000d65e93dac
