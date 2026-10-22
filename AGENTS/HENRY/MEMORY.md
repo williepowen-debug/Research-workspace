@@ -50,17 +50,18 @@
 
 ## Session Notes
 
-### CHANGES SINCE — 2026-10-22 pre-open wake, DOCKET L769 (Claude Code, Opus 5.5, PROME-spawned)
+### CHANGES SINCE — 2026-10-22 evening wake, DOCKET L787 (Claude Code, Opus 5.5, PROME-spawned)
 
-- **HEN-46 RESOLVED-NO-VERDICT-AS-WRITTEN, claim not supported.** AAL 8-K (0000006201-26-000064): adj EPS −$0.28 inside −$0.70/−$0.10 guide; fuel $3.85 vs $3.75 (~$120M); revenue above guide; FY guide CUT (F4 not fired). Outcomes 0/0/0 vs 0.35/0.30/0.20. Squeeze lands in AAL Q4 guide (~$4.70/gal) — outside the letter; a Q4 claim would be a fresh registration. LUV call not waited for (cannot move the verdict).
-- **Gamma flipped NEGATIVE at the open:** 08:32 pre-open POSITIVE both (10/21-close spot), ES −0.94% implied SPX ~7,684. 09:53 cash: SPX 7,680.71, NEGATIVE both (−$29.0B/−$39.3B), flip band 7,745–7,750, cushion −64/−69. Put wall 7,750 TESTED (near-tie bands 7,650–7,750 / 7,700–7,750), not broken; break = cash close < ~7,650. Two packets → WALTER (a9048ade5 pre-open, 2bc07ba9c put-wall signal).
-- **FRED back:** HY 333 [10/20] (five obs >320), BB 202, CCC 1,327, CCC−BB 1,125 (+31bp since 10/16).
-- FINRA margin debt verified at FINRA's xlsx (Sep $1.480T, 2nd highest). Inbox: 6 WALTER signals filed. COR-20261022-01 NO-OP. Info packet → TERRY.
-- EDGAR needs a plain "Name email" User-Agent; a browser-style UA gets 403. Do not put Will's identity in it.
+- **L787 graded: put wall TESTED, NOT BROKEN.** SPX close 7,663.43 (Cboe `_SPX` close field = vendor bar), 13.43 above the ~7,650 break line; intraday low 7,637.36 at 15:02 ET. State unchanged from 09:53 ⇒ no new WALTER signal. TERRY L803 (close < 7,650) not met on the same figure; matched PROME's 7,663.43, so no TERRY packet.
+- **Gamma from the close:** NEGATIVE both, flips ~7,742/~7,748, −$40.5B/−$54.2B; put wall migrated 7,750 → 7,650 (35d band 7,650–7,700); call wall WITHHELD. `PUBLISHED.tsv` overwrites same-date flip/GEX rows, so 09:53 values live only in `research/2026-10-22_L769/gamma_both_postopen.txt`.
+- **Narrow selloff:** QQQ −2.86%, SOXX −6.79%, RSP +0.73%, KRE +2.53%; 10Y par 4.96% (−17bp) ⇒ 10Y threshold RED → ORANGE. SPX under its 50-day (7,703) = cascade layer-2 proxy met.
+- **WALTER 1022-016 was wrong on FINRA ranking** (FINRA xlsx: Jun-2026 $1,502,072M > Sep $1,480,054M); correction packet sent to WALTER.
+- Inbox drained: 6 WALTER + 4 general (DEWEY ×3, WATT). COR-20261022-04 NO-OP. Dashboard refreshed (version 4, same URL).
+- Cboe `_SPX` JSON (`cdn.cboe.com/api/global/delayed_quotes/options/_SPX.json`) carries close/open/high/low/prev_day_close: a second-source close in one call. `curl` gets an empty body; use urllib with the gamma_flip User-Agent.
 
 ### NEXT SESSION
 
-1. **Gamma:** re-run `gamma_flip.py --both` at/after the 10/22 close. Did SPX close under ~7,650 (put-wall break at both horizons) or recover the 7,745–7,750 flip band? Send WALTER an update either way.
-2. **Refresh the Operating Dashboard** (`dashboard/build_dashboard.py` + template, same URL): HEN-46 resolved, FRED cells fresh. Not done 10/22 pre-open (values would be stale within the hour).
+1. **Registered wakes, do not run early:** DOCKET **L773** FOMC Wed 10/28 14:00 ET; DOCKET **L774** GDP advance + September PCE Thu 10/29 08:30 ET (log actual / consensus / prior / reaction; core PCE vs the 0.3% hot line).
+2. At any wake: `gamma_flip.py --both` first; a close under 7,650 is now a close under the wall itself. Pull FRED 10/22+ cells (credit's answer to the 10/22 selloff is UNKNOWN).
 3. ISM services date still unverified (site 503 on 10/21); recheck before 11/2.
-4. Catalysts: FOMC 10/27–28, GDP + PCE 10/29, ECI + BOJ 10/30, Russian №1252 expiry 10/31.
+4. Catalysts: ECI + BOJ 10/30, Russian №1252 expiry 10/31, NFP 11/6, CPI 11/10, PPI 11/13.

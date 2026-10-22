@@ -1,4 +1,4 @@
-"""Build the HENRY Operating Dashboard from tonight's STATUS figures (2026-10-21).
+"""Build the HENRY Operating Dashboard from tonight's STATUS figures (2026-10-22 close, DOCKET L787).
 Every rail marker, zone and gamma mark is placed by one linear scale per rail."""
 import html, sys
 
@@ -9,15 +9,15 @@ def pct(v, lo, hi):
 
 # name, src, value, display, sub, direction ('up' = higher is risk), lo, hi, (y, o, r), dist_bold, dist_text, ghost
 RAILS = [
-    ("VIX", "vendor 10/21 close · ↑ risk", 16.68, "16.68", "VIX3M 18.72", "up", 10, 35, (23, 28, 30), "6.3 below", "the &gt;23 vol-control line", (22.31, "22.31 hi 10/16")),
-    ("S&amp;P 500", "vendor 10/21 close · ↓ risk", 7757.17, "7,757", "+0.58% day", "down", 6300, 8000, (7200, 7100, 6494), "557 above", "the &lt;7,200 yellow line", (7818.93, "7,819 peak 10/6")),
-    ("10-yr Treasury", "Treasury par 10/21 · ↑ risk", 5.13, "5.13", "%", "up", 4.0, 5.4, (4.5, 4.8, 5.0), "13bp through red", "red line &gt;5.00%", None),
-    ("2-yr Treasury", "Treasury par 10/21 · ↑ risk", 4.81, "4.81", "%", "up", 3.8, 5.0, (4.25, 4.40, 4.60), "21bp through red", "red line &gt;4.60%", None),
-    ("30-yr Treasury", "Treasury par 10/21 · ↑ risk", 5.42, "5.42", "%", "up", 4.6, 5.8, (5.0, 5.25, 5.5), "8bp below red", "orange", None),
-    ("High-yield spread", "FRED 10/19 · ↑ risk", 329, "329", "bp", "up", 220, 560, (320, 400, 500), "9bp through yellow", "4 readings above 320", None),
-    ("CCC spread", "FRED 10/16 · ↑ risk · stale cell", 1297, "1,297", "bp", "up", 700, 1400, (900, 1000, 1100), "197bp through red", "the distressed tail", None),
-    ("SKEW", "vendor 10/21 · ↑ risk", 150.36, "150.4", "was 161.9 on 10/19", "up", 125, 175, (145, 150, 160), "just into orange", "RED-FT-10 grade is the owner's", None),
-    ("Regional banks", "KRE vendor 10/21 · ↓ risk", 70.60, "70.60", "KRE $", "down", 55, 80, (65, 62, 60), "$5.60 above", "the &lt;$65 yellow line", None),
+    ("VIX", "vendor 10/22 close · ↑ risk", 19.03, "19.03", "VIX3M 20.12", "up", 10, 35, (23, 28, 30), "3.97 below", "the &gt;23 vol-control line", (22.31, "22.31 hi 10/16")),
+    ("S&amp;P 500", "Cboe + vendor 10/22 close · ↓ risk", 7663.43, "7,663", "−1.21% day", "down", 6300, 8000, (7200, 7100, 6494), "463 above", "the &lt;7,200 yellow line", (7818.93, "7,819 peak 10/6")),
+    ("10-yr Treasury", "Treasury par 10/22 · ↑ risk", 4.96, "4.96", "% · was 5.13", "up", 4.0, 5.4, (4.5, 4.8, 5.0), "4bp under red", "orange; red line &gt;5.00%", None),
+    ("2-yr Treasury", "Treasury par 10/22 · ↑ risk", 4.65, "4.65", "% · was 4.81", "up", 3.8, 5.0, (4.25, 4.40, 4.60), "5bp through red", "red line &gt;4.60%", None),
+    ("30-yr Treasury", "Treasury par 10/22 · ↑ risk", 5.29, "5.29", "% · was 5.42", "up", 4.6, 5.8, (5.0, 5.25, 5.5), "21bp below red", "orange", None),
+    ("High-yield spread", "FRED 10/21 · ↑ risk", 327, "327", "bp", "up", 220, 560, (320, 400, 500), "7bp through yellow", "6 readings above 320", None),
+    ("CCC spread", "FRED 10/21 · ↑ risk", 1307, "1,307", "bp", "up", 700, 1400, (900, 1000, 1100), "207bp through red", "the distressed tail", None),
+    ("SKEW", "vendor 10/22 · ↑ risk", 152.39, "152.4", "150.4 on 10/21", "up", 125, 175, (145, 150, 160), "in orange", "RED-FT-10 grade is the owner's", None),
+    ("Regional banks", "KRE vendor 10/22 · ↓ risk", 72.41, "72.41", "KRE $ · +2.53% day", "down", 55, 80, (65, 62, 60), "$7.41 above", "the &lt;$65 yellow line", None),
 ]
 
 def zones(direction, lo, hi, y, o, r):
@@ -53,29 +53,29 @@ jlo, jhi = 0.0, 3.0
 rails_html.append(f"""
         <div class="rail">
           <div class="rail-name"><span class="rail-label">USD / JPY speed</span><span class="rail-src">|daily change| · SAM's call</span></div>
-          <div class="rail-val">0.0%<span class="rail-sub">158.17</span></div>
+          <div class="rail-val">1.0%<span class="rail-sub">156.64 vs 158.17</span></div>
           <div class="track">
             <div class="track-bar"><div class="zone z-max" style="left:{pct(2.0,jlo,jhi):.1f}%;right:0%"></div></div>
-            <div class="marker" style="left:{pct(0.01,jlo,jhi):.1f}%"></div>
+            <div class="marker" style="left:{pct(0.97,jlo,jhi):.1f}%"></div>
           </div>
-          <div class="rail-dist"><b>2.0% away</b>escalate at ±2% in a day</div>
+          <div class="rail-dist"><b>1.0% away</b>escalate at ±2% in a day</div>
         </div>""")
 
-# Gamma line, scale 7,700–7,850
-GLO, GHI = 7700, 7850
+# Gamma line, scale 7,600–7,850 (10/22 close)
+GLO, GHI = 7600, 7850
 gp = lambda x: pct(x, GLO, GHI)
 gamma_html = f"""
       <div class="gamma-line">
-        <div class="gl-bar"><div class="gl-neg" style="left:0;right:{100-gp(7746.5):.1f}%"></div></div>
-        <div class="gl-band" style="left:{gp(7744):.1f}%;width:{gp(7749)-gp(7744):.1f}%"></div>
-        <div class="gl-lab gl-bot al-r" style="left:{gp(7744):.1f}%">flip band<b>7,744–7,749</b></div>
-        <div class="gl-mark soft" style="left:{gp(7750):.1f}%"></div>
-        <div class="gl-lab gl-bot al-l" style="left:{gp(7750):.1f}%">put wall<b>7,750</b></div>
-        <div class="gl-mark" style="left:{gp(7757.17):.1f}%"></div>
-        <div class="gl-lab gl-top" style="left:{gp(7757.17):.1f}%"><b>7,757</b>spot</div>
+        <div class="gl-bar"><div class="gl-neg" style="left:0;right:{100-gp(7745):.1f}%"></div></div>
+        <div class="gl-band" style="left:{gp(7742):.1f}%;width:{gp(7748)-gp(7742):.1f}%"></div>
+        <div class="gl-lab gl-bot al-r" style="left:{gp(7742):.1f}%">flip band<b>7,742–7,748</b></div>
+        <div class="gl-mark soft" style="left:{gp(7650):.1f}%"></div>
+        <div class="gl-lab gl-bot al-l" style="left:{gp(7650):.1f}%">put wall<b>7,650</b></div>
+        <div class="gl-mark" style="left:{gp(7663.43):.1f}%"></div>
+        <div class="gl-lab gl-top" style="left:{gp(7663.43):.1f}%"><b>7,663</b>close</div>
         <div class="gl-mark soft" style="left:{gp(7800):.1f}%"></div>
-        <div class="gl-lab gl-top" style="left:{gp(7800):.1f}%"><b>7,800</b>call wall</div>
-        <div class="gl-lab gl-bot al-r" style="left:100%">35d band to<b>8,000 →</b></div>
+        <div class="gl-lab gl-top" style="left:{gp(7800):.1f}%"><b>7,800</b>14d call wall</div>
+        <div class="gl-lab gl-bot al-r" style="left:100%">35d call wall<b>8,000 →</b></div>
       </div>"""
 
 tpl = open(sys.argv[2], encoding="utf-8").read()

@@ -1,0 +1,22 @@
+ ---------------------------------------------------------------------------------------
+ SPY        SPY                       $763.96     -1.18%         2026-10-22    54,034,474
+ RSP        RSP                       $218.22     +0.73%         2026-10-22    13,400,786
+ QQQ        QQQ                       $704.47     -2.86%         2026-10-22    64,223,209
+ QQEW       QQEW                      $155.02     -2.12%         2026-10-22        35,990
+ IWM        Russell 2000 ETF          $276.67     +0.07%         2026-10-22    25,711,985
+ XLK        XLK                       $182.34     -3.29%         2026-10-22    12,099,831
+ XLF        XLF                        $56.65     +1.09%         2026-10-22    32,567,843
+ XLE        XLE                        $67.57     -0.87%         2026-10-22    41,617,461
+ XLP        XLP                        $89.99     +3.31%         2026-10-22    22,888,564
+ XLV        XLV                       $181.30     +1.32%         2026-10-22    10,108,996
+ XLU        XLU                        $42.87     +2.07%         2026-10-22    29,955,848
+ SOXX       SOXX                      $475.69     -6.79%         2026-10-22    14,977,322
+ HYG        HY Bond ETF                $77.10     +0.16%         2026-10-22    47,048,939
+ LQD        LQD                       $104.28     +1.04%         2026-10-22    44,324,830
+ TLT        20Y+ Treasury ETF          $81.74     +1.87%         2026-10-22    65,594,889
+ ^VVIX      ^VVIX                     $107.94    +14.16%         2026-10-22             0
+ ^VIX9D     ^VIX9D                     $18.86    +21.76%         2026-10-22             0
+ ^TNX       10Y Treasury Yield          $4.95     -3.75%         2026-10-22             0
+ ES=F       ES=F                     7,706.00        N/A    10-22⚠eve→10-23        14,441
+            └─ ⚠ evening-next-session: withheld: evening bar spans two sessions — regularMarketPreviousClose is the settle BEFORE the overwritten session · last trade at/after the day-session close on the bar date; last trade 2026-10-22 19:21:16 [America/New_York] vs bar 2026-10-22; day-session close 17:00 ET assumed (CME Globex energy/metals)
+            └─ contract: Dec 2026 (ESZ26)

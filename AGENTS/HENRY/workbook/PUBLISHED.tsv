@@ -108,7 +108,9 @@ gamma_flip_14d	7744	2026-10-21	cboe 3420 contracts
 net_gex_14d_Bn	9.2	2026-10-21	$B per 1%
 gamma_flip_35d	7749	2026-10-21	cboe 7289 contracts
 net_gex_35d_Bn	6.3	2026-10-21	$B per 1%
-gamma_flip_14d	7745	2026-10-22	cboe 3421 contracts
-net_gex_14d_Bn	-29.0	2026-10-22	$B per 1%
-gamma_flip_35d	7750	2026-10-22	cboe 7232 contracts
-net_gex_35d_Bn	-39.3	2026-10-22	$B per 1%
+gamma_flip_14d	7742	2026-10-22	cboe 3410 contracts
+net_gex_14d_Bn	-40.5	2026-10-22	$B per 1%
+gamma_flip_35d	7748	2026-10-22	cboe 7219 contracts
+net_gex_35d_Bn	-54.2	2026-10-22	$B per 1%
+put_wall_14d	7650	2026-10-22	clean #1 (+19% over #2); 14d cboe 3410 contracts, gamma --both 19:27 ET from the 16:00 close; spot 7663.43 NEG; 35d put wall also 7650 but near-tie (7%) -> band 7650-7700; cross-horizon AGREE, published. Supersedes the 09:53 ET 10/22 read (7750 near-tie bands 7650-7750 / 7700-7750, research/2026-10-22_L769/gamma_both_postopen.txt). DOCKET L787: close above 7650 = TESTED, not broken.
+put_wall_35d_BAND	7650-7700	2026-10-22	35d cboe 7219 contracts, 7650 near-tie (7% over #2), carry the band. Call wall WITHHELD (14d 7800 vs 35d 8000).
