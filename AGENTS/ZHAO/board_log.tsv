@@ -38,3 +38,6 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-16T20:20:56Z	SIG-W-20261016-022	info-only	INBOX_WALTER	KOSPI 10/16 foreign net buying ₩341B (unconfirmed by KRX). SAM's.
 2026-10-20T13:20:00Z	SIG-W-20261019-003	info-only	INBOX_WALTER	HY 331bp third close >320 (LIQUID/RED/REGINALD own). No ZHAO vector.
 2026-10-20T13:20:00Z	SIG-W-20261019-013	acted	INBOX_WALTER	China Q3 GDP +4.5% y/y, FAI -7.2% YTD: integrated KB-ZHAO-204; headline VERIFIED at NBS; V5/V5b held.
+2026-10-22T17:33:32Z	SIG-W-20261020-020	info-only	INBOX_WALTER	Gold net exports Jan-Aug $71.204B (MIDAS's). Aug TIC official +$18.1B / private +$90.9B LT agrees with ZHAO's own 10/16 pull (KB-197); no foreign-UST-exit inference drawn. KB-ZHAO-209.
+2026-10-22T17:33:32Z	SIG-W-20261020-027	info-only	INBOX_WALTER	DeepSeek-Huawei future chip design (single anonymous-source origin; VULCAN action). No export-control instrument changed: FR BIS documents since 10/20 = 0 (KB-ZHAO-208). KB-ZHAO-209.
+2026-10-22T17:33:32Z	SIG-W-20261022-002	acted	INBOX_WALTER	Asia selloff 10/22: China-side read in KB-ZHAO-207 - CSI 300 4,036.30 -1.91%, about -19.4% from the 6/22 close peak (intraday '>20%'); no PBOC/MoF statement 10/22; broad-index ETF volume 3-13x 20d avg (state buying INFERRED, unconfirmed); USD/CNY 6.66 unmoved.
