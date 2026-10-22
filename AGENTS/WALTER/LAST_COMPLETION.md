@@ -109,7 +109,7 @@ FULL closeout 2026-10-22T00:56:28Z. Nine evening dispatches; seven WALTER commit
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-22T00:56:28Z",
+  "as_of": "2026-10-22T01:40:32Z",
   "next_review": "2026-10-22",
   "publication": [
     {
@@ -147,13 +147,21 @@ FULL closeout 2026-10-22T00:56:28Z. Nine evening dispatches; seven WALTER commit
     {
       "commit": "76ff01336",
       "state": "published"
+    },
+    {
+      "commit": "ec13c391a",
+      "state": "published"
+    },
+    {
+      "commit": "5d278b7c1",
+      "state": "published"
     }
   ],
   "delivery": {
     "signal_date": "20261021",
-    "total": 66,
-    "delivered": 66,
-    "note": "All 66 October21 handoffs (001-017, incl. late YURI 016 relay) published on origin/master; publication, not consumption."
+    "total": 76,
+    "delivered": 76,
+    "note": "All 76 October21 handoffs (001-021) published on origin/master after reconciliation; publication, not consumption."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
@@ -184,7 +192,9 @@ FULL closeout 2026-10-22T00:56:28Z. Nine evening dispatches; seven WALTER commit
     "12(f)": "read_cap rc=0; rotation_due names PROME's generated ORCH_INFLIGHT only.",
     "14": "Finding #49 added; MEMORY 100 lines; pruned note preserved verbatim in MEMORY_PROMOTED.",
     "15": "Prior LAST_COMPLETION preserved verbatim; carries retained.",
-    "16": "Exact-path commits; push per PROME/Will direction via safe-push; reconcile after."
+    "16": "Exact-path commits; push per PROME/Will direction via safe-push; reconcile after.",
+    "bookmarks": "Batches 12-16 closed; 94-ID stage review complete and validated; production NOT marked (PROME direction); laptop X token dead.",
+    "WQ-204": "Phone sweep retired at ec13c391a (published)."
   }
 }
 END_CLOSEOUT_RECEIPT -->
