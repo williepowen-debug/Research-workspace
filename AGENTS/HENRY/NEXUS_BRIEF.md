@@ -1,6 +1,6 @@
 # HENRY — NEXUS Brief
 
-**Owner fold:** 2026-10-21 ~21:25 ET, after the final STATUS write (Claude Code, Opus 5.5). Tape 20:58 ET, gamma 20:59 / 21:07 ET, all 10/21 after-close retrievals. Prior brief preserved at `research/2026-10-21_boot/NEXUS_BRIEF-before.md`.
+**Owner fold:** 2026-10-21 21:11 ET (1bfc034e1), after the final STATUS write (Claude Code, Opus 5.5). Tape 20:58 ET, gamma 20:59 / 21:07 ET, all 10/21 after-close retrievals. Prior brief preserved at `research/2026-10-21_boot/NEXUS_BRIEF-before.md`.
 
 **View:** equity fragility eased 10/20–10/21 (SPX +0.86% to 7,757.17, back above both gamma flips, VIX 16.68), but credit has not confirmed it: HY 329bp [FRED 10/19] is still above 320 and the positive-gamma cushion is ~0.1–0.2%. No systemic-cascade, rally-ending or crash-timing conclusion.
 
