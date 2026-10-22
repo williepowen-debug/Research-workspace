@@ -1,39 +1,40 @@
 # CORAL — SCRATCH (ephemeral session handoff)
 
-**Session:** 2026-10-15 ~08:03 → ~08:3x ET (Thu) — **coral-1015**, PROME (`prome-73`) WQ-184 Tier-1 crash-recovery spawn on GATES `GATE-CORAL-MSI-01` review_by 10/15, desktop. Model Opus 5.5 in Claude Code (Agent-tool `desk` spawn; root CLAUDE.md, AGENTS.md, USER.md and the CORAL charter read explicitly). No researchers. Other desks' uncommitted work in the tree (CARL, FERT, HOMER, LABOR, …) untouched; no pull/stash/reset.
-**Previous:** coral-a5 (Will's own window, 10/14 evening; doorbelled by PROME 23:56 ET) — **died ~03:08 ET 10/15 with the machine**, no closeout. Before that: 2026-10-09 coral-1009pm (Isaias post-landfall).
+**Session:** 2026-10-21 ~22:05 → ~22:3x ET (Wed) — **coral-1021**, PROME `prome-56` Tier-1 catch-up wave 1 (Will 21:56 ET authorization; plan `PROME/plans/2026-10-21_agent-catchup-PLAN.md`), Agent-tool `desk` spawn, Opus 5.5 in Claude Code; root CLAUDE.md, AGENTS.md, USER.md and the CORAL charter read explicitly. No researchers. Tree carried other desks' uncommitted work (HANS, YURI, PROME ORCH_LOG/plan) — untouched; **no pull/stash** (dirty tree), committed own paths only.
+**Previous:** 2026-10-15 coral-1015 (crash recovery + MSI reading #9).
 
 ---
 
-## CHANGES SINCE 10/9 (what the world did)
+## CHANGES SINCE 10/15 (what the world did)
 
-- Isaias went post-tropical 10/10; NHC dropped all FL warnings at Adv 15 (10/10 4 AM CDT); last advisory #20 (10/11).
-- FEMA: **EM-3655-FL** (emergency, not a major disaster; PA only; 27 Panhandle/Big Bend counties) declared 10/9; also EM-3656 AL, EM-3657 GA. **No Isaias DR anywhere** (OpenFEMA 10/15 12:05Z).
-- Parcl stamp 10/15: Tampa 7.21 (high on CORAL's readings), Cape Coral 5.91 again.
-- Redfin Sep (snapshot 10/07): Miami 158.9% #1 of 50, widening — on modelled buyers.
+- **Parcl retired the metro pages** (`/research/markets/fl/<slug>/metro` → 307 → `/research/motivated-sellers/map`) between 10/15 and 10/21; its current daily MSI series matches none of CORAL's recorded readings.
+- FL Realtors September (10/16); MIAMI REALTORS September (10/16).
+- BKU Q3 8-K 10/21 BMO; SSB Q3 8-K 10/21 AMC.
+- OpenFEMA still EM-3655 only for Isaias (no DR); S2 window closed.
 
 ## WHAT I DID
 
-1. **Crash residue:** `sources/redfin/redfin_buyers_sellers_FL_metros_snap2026-10-07.csv` VERIFIED against the re-downloaded primary (924/924 rows, 0 diffs) → committed unchanged. **Found coral-a5's committed board_log rows (`0e31ff152`) claiming three write-backs that never reached disk** (STATUS OQ §A EM-3655, RECONCILE line, NEXUS wait) → all three done today.
-2. **GATE-CORAL-MSI-01 reading #9 (stamp 10/15, pull 2 08:05:33 ET):** 4-of-5 > 6.00, Cape Coral 5.91 in band ⇒ no rule applies, leg 🟠. Pull 1 mixed-stamp (Tampa 10/14, STALE cache) = not a reading (§ U1, KB -110).
-3. **Storm rule S2 NOT met** — NHC adv 14–20 read; OpenFEMA EM-3655 only (EM ≠ DR, no graded county) ⇒ unflagged (§ U2, KB -112). Panhandle S4 context pull (descriptive only, § U3).
-4. **Inbox 3/3:** WALTER -035 + -006 (Redfin Sep, § U4, KB -111; correction packet → WALTER on the FL listings columns), PROME brief. `consume:CORAL`.
-5. STATUS rows + OQ §A + RECONCILE + BOTTOM LINE updated; old blocks rotated verbatim → `STATUS_DETAIL.md` § U0. CALENDAR (10/15 ✅, 10/22 added). NEXUS_BRIEF (10/15 block; 10/01 block rotated out, git `66746cd28`).
+1. **MSI-01 reading #10** (data date 10/20, tile build 10/21 09:11Z): Tampa 7.22 · PG 6.31 · NP 6.35 · **CC 5.88** · Lak 6.16 ⇒ 4-of-5, re-fire fails, leg 🟠. Pulled via the public data route (`api-app-service.parcllabs.com/v1/msi/metrics/session` → signed tile URLs). Extract → `sources/parcl/parcl_msi_daily_5metros_build20261021T091433Z.csv`. § V1, KB -113.
+2. **Instrument discontinuity → STATUS OQ §A2 + OWED AA (Will-gated via PROME memo):** page stamp gone (map page "Updated" = viewer clock); current series has all five > 6.00 on 75 straight days 8/1–10/14, incl. 9/3 and 9/13 (the stand-down readings). Recommended: 9/13 stands as graded; identity = data date of one build. Not self-applied.
+3. **S2:** not met (OpenFEMA 10/22 02:09Z); window CLOSED; storm-rule block S1–S4 rotated verbatim → § V0.
+4. **FL Realtors Sept** four legs + financed split (§ V3, KB -114); **Miami** refuter checked: condo sales +1% vs Redfin modelled −25% (§ V4, KB -115).
+5. **DOCKET L227** paragraph → § V5: leg (a) instrument = condo FINANCED closings (closed − cash) YoY vs SF, units not share; Sep partial −5.3% vs −3.7%; first full month Oct data 11/16. Leg (b): REGINALD frame covers it, no packet needed.
+6. **Inbox 7/7** (HOMER packet + 4 WALTER at boot + SIG-W-20261021-028 arrived mid-session) → processed, `consume:CORAL`, board_log rows. COR-20261015-06 receipted NO-OP.
+7. MARCO packet (Sept months supply; Cat-2 note). STATUS/DETAIL/CALENDAR/NEXUS_BRIEF/KB written.
 
 ## NEXT SESSION / OWED
 
-- **10/22 MSI-01 reading #10** — single-stamp pull (re-pull if mixed; a STALE Vercel serve regenerates on the next hit); **check OpenFEMA for an Isaias DR naming a graded county (last S2 reading; window to 10/23).** All five > 6.00 = first qualifying re-fire reading (Cape Coral is the swing).
-- **Miami discriminator:** MIAMI REALTORS September (Miami-Dade, own basis) — do actual sales fall near the modelled −25%? Until then Miami #1 = model swing.
-- **10/16 FL Realtors Sept** (four legs) · Citizens 9/30 month-end + county file (re-run the Panhandle cut; reconcile the Sept round 10,250 vs 10,210 at the primary) · OIR Isaias data call · **10/21 BKU Q3** (rail) · SFBS 10/19 / HWC 10/20 storm commentary (descriptive) · 11/15 falsify grade.
-- Carried: SIG-W-20261008-040 Pembroke Lakes Mall (Broward clerk / trust 10-D) · OQ L Wayback residual · Orange County records · PACER spend not authorized · Avidia 10-Q ~mid-Nov · **MEMORY rotation owed before the next append** (none added today).
+- **Check PROME/Will's ruling on OQ §A2 before reading #11 (10/29).** If none: grade on the substituted basis again, labelled.
+- **10/23 REGINALD rail grade** (BKU/SSB/AMTB) — read at its artifact; ≥2-of-4 TRANSMITS ⇒ packet arrives. SBCF ~10/27. Grep the four 10-Qs for condo/association when filed (~early Nov).
+- **11/16 FL Realtors Oct** — L227 (a) first full month (financed units condo vs SF).
+- Carried: Citizens 9/30 month-end (still unread; reconcile Sept round 10,250 vs 10,210) · OIR Isaias data call · Galleon at CBS Miami/Broward records · Pembroke Lakes Mall (SIG-040) · OQ L Wayback residual (now also: a Wayback metro page could settle revision-vs-different-computation) · Avidia 10-Q ~mid-Nov · 11/15 falsify grade · **MEMORY rotation still owed before the next append** (none added today).
 
 ## OPEN THREADS
 
-- Gate-Basis #2 (MSI-01 page URLs + reading cadence) — Will's letter via PROME; not self-applied.
-- INFERRED: Parcl page stamp = UTC build date (§ U1) — a mixed-stamp pull is usually cache, cured by a re-pull.
-- Citizens tower figures ($0.842B retention) still a researcher read of a chart image — re-read before citing as CORAL's own.
-- MARCO's STATUS Florida line still says "Cat 3 landfall forecast" (landfall was Cat 2) — flagged to PROME, MARCO's file.
+- Gate-Basis #2 (10/9 proposal, page URLs + cadence) is now concrete via OQ §A2 — one ruling can settle both.
+- Weekly Parcl series (Cape Coral 5.43 wk 10/12) ≠ daily/summary series — never mix.
+- MARCO's Florida line still "Cat 3 landfall forecast" — re-noted in the 10/21 packet (MARCO's file).
 
 ## MAIL STATE
 
-`inbox/WALTER/` empty · legacy inbox empty · outbound: CORAL → WALTER correction packet (`AGENTS/WALTER/inbox/2026-10-15_from-CORAL_sig-035-fl-listings-columns-correction.md`, carve-out ①) · PROME memo `PROME/inbox/2026-10-15_from-CORAL_msi01-reading9-s2-crash-recovery.md`.
+`inbox/` empty (`.gitkeep` only) · `inbox/WALTER/` empty · outbound: `AGENTS/MARCO/inbox/2026-10-21_from-CORAL_fl-realtors-sept-refresh.md` (carve-out ①) · PROME memo `PROME/inbox/2026-10-21_from-CORAL_catchup-wave1-MSI10-L227.md`.

@@ -1,0 +1,2 @@
+receipt_date	correction_id	action	note
+2026-10-22T02:12Z	COR-20261015-06	NO-OP	scope=CORAL record was the primary basis - STATUS_DETAIL U4 item 7 + KB ML-CORAL-111 already carry active-listings YoY -14.6/-13.8/-13.3 (FTL/Jax/WPB) since 10/15, nothing to change; artifact=AGENTS/CORAL/STATUS_DETAIL.md#U4; 

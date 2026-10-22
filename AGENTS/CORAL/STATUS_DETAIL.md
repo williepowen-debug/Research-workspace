@@ -1087,3 +1087,118 @@ Context: Jacksonville 6.51 (stamp 10/14) · Orlando 6.25 (10/14, STALE serve) ·
 **What would change the read:** a FEMA declaration naming a Tampa Bay / SW-FL county (flags the next MSI reading) · OIR's Isaias data call · a Citizens loss nearing its ~$0.84B retention.
 
 **Next (dates → `CALENDAR.md`):** Citizens 9/30 month-end ~mid-Oct · **10/15 MSI-01 review_by** · **10/16 FL Realtors Sept** · **10/21 BKU Q3** · late-Oct Q3 prints · **Nov 3** Amendment 3 · **Nov 15** falsify grade · **Dec 11** NFIP. *Earlier bottom lines (10/1, 9/28) rotated verbatim → § T0.*
+
+## V. 2026-10-21 (Wed) — GATE-CORAL-MSI-01 reading #10 + instrument discontinuity + S2 close + FL Realtors September + DOCKET L227 + inbox 6/6 (coral-1021, PROME prome-56 Tier-1 catch-up wave 1) — evidence
+
+### V1. Parcl MSI reading #10 (data date 2026-10-20) — evidence, and the instrument discontinuity
+**Route change (VERIFIED 22:06 ET 10/21, curl + browser UA):** `https://www.parcllabs.com/research/markets/fl/{tampa,punta-gorda,north-port,cape-coral,lakeland}/metro` → **HTTP 307** to `/research/motivated-sellers/map?market=<parcl_id>&market_type=metro&…` (Tampa 2900417 · Punta Gorda 2900279 · North Port 2900192 · Cape Coral 2899822 · Lakeland 2900041). `/_next/data/<buildId>/research/markets/fl/tampa/metro.json` returns `__N_REDIRECT` 307 (server-side redirect, not a client quirk). On 10/15 the same URLs returned HTTP 200 with `Updated: M/D/YYYY` (§ U1) ⇒ the change happened between 10/15 08:05 ET and 10/21 22:06 ET.
+**The map page has no data stamp.** Its SSR payload carries only national/top/bottom lists; market values load client-side. Its "Updated" label is rendered from `new Date().toLocaleDateString(...)` (JS chunk `912-794e67a4d540c0da.js`) — the VIEWER's clock date, not a data date. ⛔ A pull of five map pages would always show five identical "Updated <today>" labels; using it as the letter's stamp would certify any vintage.
+**Data route used:** `GET https://api-app-service.parcllabs.com/v1/msi/metrics/session` (public, unauthenticated; HTTP 200) → signed CloudFront URLs. Metrics tile `…/tiles/msi-metrics/20261021T091132Z/free/all/msa.json` (`built_at` 2026-10-21T09:11:32Z; S3 Last-Modified 2026-10-21 09:14:28 GMT; 927 metros, one file) and per-metro bundles `…/tiles/msi-bundles/20261021T091433Z/free/<parcl_id>.json`. Summary MSI in the tile == the bundle's daily series (`motivated-sellers/series`, cadence daily) point dated **2026-10-20** for all five ⇒ data date 10/20. Tile rows also carry `as_of_week` 2026-10-12 and `context_as_of` 2026-10-20. ⚠️ A separate WEEKLY series exists with different values (Cape Coral 5.43 for week 10/12) — a different instrument; never mixed with the daily/summary value.
+
+| Metro | **Reading #10 MSI (data 10/20)** | Listings | % cutting | Reading #9 (page stamp 10/15) | Current series at 10/14 · 10/15 |
+|---|---:|---:|---:|---:|---|
+| Tampa | **7.22** | 26,518 | 51.6% | 7.21 | 7.27 · 7.23 |
+| Punta Gorda | **6.31** | 4,182 | 43.9% | 6.43 | 6.47 · 6.40 |
+| North Port | **6.35** | 11,832 | 45.3% | 6.35 | 6.40 · 6.34 |
+| Cape Coral | **5.88** | 13,382 | 43.1% | 5.91 | 6.02 · 5.96 |
+| Lakeland | **6.16** | 8,210 | 46.9% | 6.11 | 6.19 · 6.16 |
+- **Grade (amended letter, WQ-241), on the substituted identity (one build, data date 10/20): 4-of-5 > 6.00; Cape Coral 5.88 < 6.00 ⇒ re-fire reading FAILS ⇒ clock stays at zero; stand-down N/A (leg 🟠). No rule applies; leg 🟠.** Consequence-invariant: Cape Coral is below 6.00 on 10/15 → 10/20 in the current series, so any data date in that range fails the re-fire too.
+- **Discontinuity — the current series reproduces none of CORAL's recorded readings** (recorded page value → current-series value on the same date): 9/28 Tampa 7.18 → 7.24 · PG 6.51 → 6.52 · NP 6.34 → 6.41 · CC **5.96 → 6.10** · Lak 6.13 → 6.22; 10/8 Tampa 7.17 → 7.25 · PG 6.42 → 6.48 · NP 6.32 → 6.40 · CC **5.91 → 6.03** · Lak 6.12 → 6.18. Listing counts differ too (Cape Coral 10/8 13,086 / 44.1% cutting recorded vs 13,147 / 44.7% now). On the current series **all five > 6.00 on all 75 days 8/1 → 10/14**; the first day any metro is ≤ 6.00 is 10/15 (Cape Coral 5.96); Cape Coral < 5.90 on 10/19 (5.87) and 10/20 (5.88). Readings that stood the leg down — stamp 9/3 (3-of-5) and 9/13 (4-of-5) — read 5-of-5 on the current series (9/3: 7.24/6.69/6.49/6.28/6.15; 9/13: 7.25/6.64/6.43/6.14/6.14).
+- **Inference audit (CLAUDE.md 13a):** rival A = Parcl revised history (method re-run / backfill); rival B = the retired page displayed a different computation than the series now published. Both predict exactly this mismatch ⇒ **UNKNOWN which; the claim made is only that the old readings and the current series are not one instrument.** Refuter for "re-run": a Wayback copy of a metro page whose value equals the current series on its date (not checked tonight).
+- **Not self-applied:** the letter grades readings as published (9/13 graded on the 8/23 letter, on the values then published). Whether a later vintage reopens it, which series governs, and what the reading identity is now are Will's (STATUS OQ §A2, OWED AA).
+- Extract (all five, daily 8/1 → 10/20, + tile summary rows): `sources/parcl/parcl_msi_daily_5metros_build20261021T091433Z.csv`.
+
+### V2. Storm rule S2 — applied to reading #10 (last reading in the window)
+- **FEMA leg — NOT MET (VERIFIED):** OpenFEMA v2 `DisasterDeclarationsSummaries`, rundate **2026-10-22T02:09:14Z**, dataset refresh 2026-10-22T02:05:20Z. FL declarations dated ≥ 10/1: 27 rows, all `EM-3655-FL` (EM, HURRICANE ISAIAS, declared 10/9); graded-county hits **0**. Isaias-titled, all states: EM-3655-FL · EM-3656-AL · EM-3657-GA — **no DR**. (Other October DRs: OH, WV, HI ×2, OK, UT, NH, WI, GU, NM — none Isaias, none FL.)
+- **NHC leg — NOT MET:** unchanged since § U2 (all warnings discontinued Adv 15, 10/10; last advisory #20, 10/11; no graded county at any advisory).
+- ⇒ **reading #10 unflagged. S2's window (readings stamped ≤ 10/23) closes with this reading; no Isaias-flagged reading exists.**
+
+### V3. FL Realtors September 2026 (PRIMARY: monthly summaries `September-2026-Fla-condo-summary.pdf` / `-single-family-summary.pdf`, released Fri 10/16; next release Mon 11/16)
+**Condo/TH, Sep-26 vs Sep-25:** closed **7,179 vs 7,187 (−0.1%)** · cash **3,765 vs 3,583 (+5.1%)**, share **52.4% vs 49.9%** · median **$293,500 vs $299,000 (−1.8%)** · average **$470,475 vs $433,247 (+8.6%)** · $ vol $3.4B vs $3.1B (+8.5%) · **pct of orig. list 93.3% vs 92.1%** · **time to contract 65d vs 77d** · to sale 104d vs 115d · new pendings 7,073 (−3.5%) · new listings 12,170 (+3.6%) · pending inventory 10,146 (+2.3%) · active 60,367 (−9.0%) · **months supply 7.7 (9.1)**. Distressed: REO closed 41 vs 66 · short sales 19 vs 12.
+**SF, Sep-26 vs Sep-25:** closed **20,537 vs 21,271 (−3.5%)** · cash 5,743 vs 5,903 (−2.7%), share 28.0% vs 27.8% · median **$415,000 (+1.2%)** · avg $644,682 (+10.8%) · orig-list 95.7% vs 94.7% · TTC 47d vs 53d · new pendings 19,809 (−7.6%) · active 95,799 (−9.8%) · **months supply 4.4 (5.1)**. REO 252 vs 167 · short sales 103 vs 36.
+**3Q (press release, PR Newswire 10/16):** SF sales 65,904 (+0.2%), median $420,000 (+2.4%); condo sales 22,664 (+3.1%), median $295,000 (0.0%); supply 4.4 / 7.7 mo. (Release text prints the condo median as "$293,5000" — typo; the PDF reads $293,500.)
+**Four legs (CLAUDE.md 13a.4), condo:** level −1.8% (median) but average +8.6% ⇒ composition (right tail), not a price cut · volume −0.1% · realization FIRMER (93.3 vs 92.1) · velocity FASTER (65 vs 77d) ⇒ **no "clearing by cutting" reading; the market is absorbing at held prices.** Mix-statistic caveat stands (OQ K: no constant-quality FL condo index).
+**Financed split (DOCKET L227 leg (a), instrument named § V5):** condo financed = 7,179 − 3,765 = **3,414 vs 3,604 (−5.3%)**; SF financed = 20,537 − 5,743 = **14,794 vs 15,368 (−3.7%)**. Aug (same basis, § Q-era rows): condo cash share 51.0% vs 49.8%, SF 26.9% vs 27.1%.
+
+### V4. Inbox drain 6/6 + 1 late arrival (1 top-level packet + `.gitkeep`; 4 WALTER at boot, SIG-W-20261021-028 arrived mid-session) + corrections receipt
+- **HOMER 10/19 Miami-Dade Sept refresh (acted):** figures re-read at the MIAMI REALTORS primary 10/21 via WebFetch (curl 403): condo 12.3 mo; median $417,090 vs $420,000 (−0.69%); inventory 11,706 vs 12,620 (−7.24%); sales 909 vs 904 (+1%); contract 67d vs 75d (issuer's "up from 75" wording is wrong; 67 < 75 = faster); cash 49.4% condo / 26.2% SF. All match HOMER. Statewide Sept refreshed at the FL Realtors PDF (§ V3), not the press release alone. Aug 12.1 kept as published; no MoM inference.
+- **SIG-W-20261015-006 (acted, no change):** the correction cites CORAL's own 10/15 record (§ U4 item 7, KB ML-CORAL-111); nothing to change. COR-20261015-06 receipted NO-OP (`registry/corrections_receipts.tsv`).
+- **SIG-W-20261018-007 The Galleon (noted, PRESS-TIER):** one search 10/21 found only the secondary (The Cool Down, citing CBS News Miami: repair $1.6M → ~$36M, assessments $135K–$320K per owner, 5 years in); CBS original not located; condoblackbook lists 18 stories / 1967 / 214 units. Inside the dashboard's existing $25K–$400K range ⇒ no STATUS figure changes; KB row at press tier.
+- **SIG-W-20261019-003 HY 331 (info-only):** LIQUID's rung; no FL figure.
+- **SIG-W-20261019-009 HOMER nine-read (acted):** CORAL's action = integrate HOMER's Miami refresh at its own denominator/vintage — done (above); Trepp/Zillow/HUD/MND/loanDepot items are HOMER's, no CORAL figure.
+- **SIG-W-20261021-028 FEMA reserves posture (acted, PRESS-TIER; arrived mid-session, drained same pass):** Politico 10/20 exclusive relayed via Will bookmark; article and policy letter NOT located on one search (only earlier-2026 coverage: Disaster Relief Fund $4.6B late Feb). Isaias's EM-only outcome (EM-3655, PA-only, no DR anywhere) is consistent with the posture but non-discriminating — the rival (damage below DR thresholds) predicts the same. If written policy appears: pillar 9 (state budget) + pillar 5 (Citizens/FHCF claims-paying) + muni credit. No shared AEOLUS figure; KB ML-CORAL-117.
+- **Q3 FL-bank releases (descriptive; rail is REGINALD's):** BKU 8-K acc 0001504008-26-000088 (accepted 2026-10-21T10:46Z), SSB 8-K acc 0001193125-26-427824 (20:07Z). Text grep of both EX-99.1: condo 0 · association 0 · homeowner 0 · hurricane 0 · Isaias 0 ⇒ consistent with "the association wire is structurally unobservable in releases".
+
+### V5. DOCKET L227 — CORAL's dated paragraph (2026-10-21 22:1x ET)
+**(a) GSE financing channel — instrument:** statewide **condo financed closed sales (closed − cash) YoY vs single-family financed YoY**, FL Realtors monthly summaries — UNITS, never share (a high-end cash surge raises condo cash SHARE with no financed unit lost; Sept's avg +8.6% vs median −1.8% says that rival is live). Rationale: Full Review applies to applications dated ≥ 8/3; closings run 30–90+ days ⇒ **September (released 10/16) is the first PARTIAL month; October (release Mon 11/16) is the first FULL month; November (~mid-Dec) the first confirming month.** First partial read: condo financed −5.3% vs SF −3.7% (1.6pp gap) — suggestive, ungraded; rates hit both. Refuter: condo financed units falling no faster than SF financed in Oct and Nov. Corroborators beyond FL Realtors: MIAMI REALTORS condo cash share (Sept 49.4%) on its own basis; the REGINALD frame's FL-resi sub-read. **No threshold is set here** — a pre-registered rule for this leg would be a new gate letter (Will-gated; offered in the PROME memo).
+**(b) Bank-rail Q3 re-test — prints to tag:** REGINALD's frozen frame already covers the four names and already produces the FL-resi sub-read handoff (SBCF resi nonaccrual, BKU/AMTB resi) ⇒ **no packet needed.** Prints: BKU ✅ 10/21 BMO · SSB ✅ 10/21 AMC (also REG-27's first observation) · AMTB ~10/22 AMC · SBCF ~10/27 AMC; the BKU/SBCF primaries arrive in the 10-Qs (~early Nov). CORAL itself greps the four 10-Qs for condominium/association disclosure when filed (CORAL's pillar 6). ⚠️ The spawn brief's "EGBN 10/21 · VLY ~10/22 · FLG 10/23" list is not this frame: EGBN (Eagle Bancorp, Bethesda MD) and FLG (Flagstar, NY) are not FL-exposed names on any CORAL or REGINALD FL surface; VLY is on CORAL's watchlist (FL franchise) but outside the frozen frame — read descriptively when it prints.
+**Shared FL figure reconciled with MARCO:** months supply Sept condo 7.7 / SF 4.4 (MARCO carries the Aug pair 7.7 / 4.3, correctly dated) ⇒ no divergence; refresh packet sent.
+
+## V0. STATUS hot-surface blocks — ROTATED 2026-10-21 (coral-1021; replaced in STATUS by reading #10, FL Realtors Sept, Q3 prints). Verbatim, unedited. State disagreement ⇒ STATUS wins.
+
+### V0 · Header `Last Updated` line (as of 10/15 08:14 ET)
+**Last Updated:** 2026-10-15 08:14 ET (Thu, coral-1015, PROME prome-73 WQ-184 spawn — **crash recovery + GATE-CORAL-MSI-01 review_by**): reading #9 (stamp 10/15) **4-of-5 > 6.00, Cape Coral 5.91 in the band ⇒ no rule applies, leg 🟠**; storm rule S2 **NOT met** (EM-3655 is an EM, not a DR, and names no graded county) ⇒ unflagged; Redfin Sep: Miami #1 of 50 on modelled buyers, not corroborated by actual pendings; bank rail untouched; inbox 3/3 → `STATUS_DETAIL.md` § U (U0 = blocks rotated today, verbatim). Prior: 10/9 21:58 ET (coral-1009pm → § T) · 10/8 → § S.
+
+### V0 · Dashboard row "MSI supply-side leg" (as of 10/15)
+| **🟠 MSI supply-side leg** | **Reading #9 (stamp 10/15): 4-of-5 > 6.00** — Tampa **7.21** (high on CORAL's readings) · Punta Gorda 6.43 · North Port 6.35 · Lakeland 6.11; **Cape Coral 5.91 in the 5.90–6.00 band** (3rd reading at 5.91) ⇒ re-fire reading fails, clock at zero. Storm-unflagged (S2 not met). Stood down 9/13; letter → OQ §A; evidence § U1 | 🟠 |
+
+### V0 · Dashboard row "Condo/TH median" (as of Aug)
+| Condo/TH median (**mix**) | **$298K, +2.8% YoY (Aug)**; avg +1.8%; sales **−1.8%** | 🟡 |
+
+### V0 · Dashboard row "Condo realization / velocity" (as of Aug)
+| Condo realization / velocity | orig-list **93.3% vs 91.8%**; contract **69d vs 72d** (Aug) — both FIRMER | 🟡 |
+
+### V0 · Dashboard row "SF median" (as of Aug)
+| SF median (**mix**) | **$415K, +1.2% YoY (Aug)**; 4.3 mo; new pendings **−2.8%** (12-mo run ended) | 🟡 |
+
+### V0 · Dashboard row "Condo inventory (statewide)" (as of Aug)
+| Condo inventory (statewide) | **7.7 mo (Aug)** — 7th straight decline; ⚠️ trailing-12 sales denominator | 🟡 |
+
+### V0 · Dashboard row "Condo inventory (metro)" (as of Aug)
+| Condo inventory (metro) | Miami-Dade **12.1 mo** · Broward **9.9** · Palm Beach **6.7** (Aug, MIAMI REALTORS) — ⚠️ PB's prior 8.2 (Apr) basis unverified, no trend asserted | 🟠 |
+
+### V0 · Dashboard row "Redfin sellers-vs-buyers" (as of 10/15)
+| **Redfin sellers-vs-buyers (Sep, modelled buyers; snapshot 10/07)** | Miami **158.9%, #1 of 50, WIDENING +37.1pp YoY** (Aug was narrowing), condo-led (condo 274% vs SF 83%). ⚠️ Rides **modelled buyers −25.0%** while Redfin's **actual pendings −2.7% / closings −3.6%** ⇒ magnitude NOT corroborated (Orlando +56pp, 2nd month uncorroborated). Miami · Tampa · Orlando widened; FTL · WPB · Jax narrowed; all six buyer's markets → § U4 | 🟠 |
+
+### V0 · Pillar row "FL banks (6)" (as of 10/1 prices)
+| **FL banks (6)** | Rail **NOT met, NOT armed**; Q2 7-of-7 benign. Live 10/1 13:34: SSB $100.06 · SBCF $31.95 · BKU $42.23 · VLY $12.56 · USCB $21.94 · KRE $69.44 (⛔ re-pull before citing). VLY 8-K 9/28: buying Bluevine $340M (M&A, not credit). **BKU Q3 10/21 BMO** | 🟡 |
+
+### V0 · OQ §A "State:" paragraph (as of 10/15)
+**State:** leg **🟠 since 2026-09-13** (stood down on a COUNT, not because Florida improved). **Reading #9 (stamp 10/15, pull 08:05:33 ET): Tampa 7.21 · Punta Gorda 6.43 · North Port 6.35 · Cape Coral 5.91 · Lakeland 6.11 ⇒ 4-of-5 > 6.00, Cape Coral in the band ⇒ re-fire reading fails (clock at zero); stand-down N/A — no rule applies.** Same shape as #7 (9/28) and #8 (10/8). Pull 1 (08:05:00) mixed-stamp (Tampa 10/14) = not a reading. **Next reading by 2026-10-22 (review_by).** Earlier paragraphs rotated verbatim → `STATUS_DETAIL.md` § U0 / § T0; pull evidence § U1.
+
+### V0 · OQ §A storm-rule S2 paragraph (applied to reading #9, 10/15)
+**🌀 Storm rule S2 — applied to reading #9 (10/15): NOT MET ⇒ graded normal, unflagged.** NHC: no graded county under any warning or watch at any advisory; all NHC warnings discontinued at Adv 15 (10/10), last advisory #20 (10/11). **FEMA (OpenFEMA rundate 2026-10-15T12:05Z): Florida = `EM-3655` only — an EMERGENCY declaration (EM), NOT a major-disaster declaration (DR); public assistance only; 27 Panhandle/Big Bend counties, none of the nine graded.** S2 keys on a DR ⇒ EM-3655 cannot meet it even had it named one. No Isaias DR in any state (EM-3656 AL, EM-3657 GA). **Window open to readings stamped ≤ 10/23 ⇒ re-check OpenFEMA for a DR at the 10/22 reading.** → § U2 (landfall application 10/9 → § T2; prior paragraph → § U0).
+
+### V0 · OWED row B (as of 10/15)
+| B | Miami discriminator — needs a **submarket concession cut**; coordinate HOMER. ⭐ A **sales-count series belongs beside it** as the unit-volume leg — **MIAMI REALTORS basis only**, never mixed across compilers (Aug: 1,769 −1.1%) | open | QUESTION, not a finding |
+
+### V0 · OWED row D (as of 10/15)
+| D | Warrantability spread — earliest honest read; + count FL associations with >$50K/unit master deductible | **~Oct–Nov** | not yet measurable |
+
+### V0 · OWED row N (as of 10/15)
+| N | Bank rail re-test | **Q3, ~late Oct** | NOT met, NOT armed |
+
+### V0 · OWED row Q (as of 10/15)
+| Q | FL Realtors **September** — four legs; watch whether condo sales stay negative YoY | **2026-10-16** | dated |
+
+### V0 · OWED row Z (as of 10/15)
+| Z | 🌀 **Isaias observables:** OIR claims data call · **FEMA: EM-3655 only, no DR (OpenFEMA 10/15 12:05Z); DR check at the 10/22 reading (S2 to 10/23)** · Citizens claims/PIF · modeler estimates (AEOLUS C4) · NFIP claims across **12/11** · SFBS 10/19 / HWC 10/20 storm commentary (descriptive, not rail) | 10/10 → ~late Nov | NOT-YET-PUBLISHED |
+
+### V0 · RECONCILE WITH MARCO line (as of 10/15)
+**All ✅ ONE number** — both 9/28 exceptions closed 10/10 by MARCO adopting CORAL's readings (Citizens Aug takeout-driven; months supply 7.7 / 4.3, Aug), VERIFIED 10/15 at `AGENTS/MARCO/STATUS.md` (Florida Triple Exposure line). MARCO's FL–Canada air seats (winter 25-26 −17.67%, BTS T-100) are MARCO's; CORAL carries no seat figure.
+
+### V0 · BOTTOM LINE paragraph (10/15)
+**10/15: the weekly Florida seller-distress reading kept its shape — four of the five Gulf-coast metros above the line, Cape Coral stuck just under it at 5.91 for the third time — so nothing re-fires and the leg stays 🟠.** Isaias produced only an emergency declaration (EM-3655: Panhandle and Big Bend, public assistance only), not a major-disaster declaration and not in any graded county, so the reading carries no storm flag. Redfin's September buyer/seller gap put Miami #1 of 50 US metros, but the jump rides Redfin's modelled buyer count (−25% YoY) while its actual pending sales fell only 2.7% — read as a model swing, not yet a demand break. **Bank rail untouched; Isaias's insurance channel is still unmeasured (OIR data call, Citizens claims).** The 10/9 landfall paragraph is rotated verbatim → § U0.
+
+### V0 · BOTTOM LINE "What would change the read" (10/15)
+**What would change the read:** an Isaias major-disaster declaration naming a Tampa Bay / SW-FL county before 10/23 (flags the next MSI reading) · Cape Coral above 6.00 with the other four held (starts a re-fire clock) · MIAMI REALTORS September sales falling anywhere near the modelled −25% (would corroborate Miami) · OIR's Isaias data call · a Citizens loss nearing its ~$0.84B retention.
+
+### V0 · BOTTOM LINE "Next" (10/15)
+**Next (dates → `CALENDAR.md`):** Citizens 9/30 month-end ~mid-Oct · **10/22 MSI-01 review_by** · **10/16 FL Realtors Sept** · **10/21 BKU Q3** · late-Oct Q3 prints · **Nov 3** Amendment 3 · **Nov 15** falsify grade · **Dec 11** NFIP. *Earlier bottom lines (10/1, 9/28) rotated verbatim → § T0.*
+
+### V0 · OQ §A Isaias storm-rule block S1–S4 (pre-registered 10/8; rotated 10/21 when the S2 window closed)
+> ### 🌀 GATE-CORAL-MSI-01 — ISAIAS STORM RULE (CORAL, pre-registered 2026-10-08 11:56 ET, BEFORE any post-landfall reading exists; changes no level, operator, instrument or consequence of the amended letter)
+> **S1.** A reading stamped **≤ 2026-10-09** is graded as normal — landfall is forecast late Fri 10/9–early Sat 10/10 (NHC Adv #8, 10/8 15Z), so the storm cannot be in its data. *(Reading #8, stamp 10/8, is graded under S1.)*
+> **S2.** A reading stamped **2026-10-10 → 2026-10-23** is **STORM-AFFECTED only if** a county of the five graded metros — **Hillsborough · Pinellas · Pasco · Hernando** (Tampa) · **Charlotte** (Punta Gorda) · **Sarasota · Manatee** (North Port) · **Lee** (Cape Coral) · **Polk** (Lakeland) — was under an NHC **Hurricane or Storm Surge Warning** for Isaias, or is named in a **FEMA major-disaster declaration** for Isaias, between the prior reading's stamp and this one. Otherwise it is graded as normal, no flag. *(Expected on NHC #8: surge warning ends at the Suwannee River, surge watch at Yankeetown; none of the five appears in the NHC wind-probability table.)*
+> **S3.** A storm-affected reading is **graded exactly as the letter says** and **FLAGGED** "storm-affected" here and in the PROME packet. **No deferral** — deferring would change a Will-ruled letter. Any re-fire clock started or confirmed on a flagged reading is reported as flagged; a storm clause, if wanted, is Will's prospective ruling, never self-applied.
+> **S4.** The Panhandle metros are **not graded instruments**. Their pre-landfall Parcl values (stamp 10/8) are the post-landfall baseline only: **Pensacola 6.02** (4,011 listings, 45.0% cutting) · **Panama City 6.14** (3,748, 48.6%) · **Tallahassee 5.42** (1,710, 41.7%). Crestview–FWB–Destin slug 404 (not found ≠ no page).
