@@ -1,0 +1,168 @@
+ticker	name	cik	kre_weight_pct_2026-10-21	deep_row	core_vendor	core_status	core_evidence	digital_vendor	digital_status	digital_evidence	conversion_or_change	notes
+ABCB	AMERIS BANCORP	0000351569	1.103731		FIS	STALE	S-4/A 2016-02-03 0001144204-16-078582 "FIS will continue to be able to provide ... data processing"		UNKNOWN			
+ACNB	ACNB CORP	0000715579	0.13196			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+AMAL	AMALGAMATED FINANCIAL CORP	0001823608	0.26243			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+AMTB	AMERANT BANCORP INC	0001734342	0.320036	Y	FIS	CONFIRMED	10-K 2026-02-27 0001734342-26-000017 "The transition to FIS was completed in 2023"; "We work closely with FIS and our other key vendors"		UNKNOWN			
+AROW	ARROW FINANCIAL CORP	0000717538	0.117631			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+ASB	ASSOCIATED BANC CORP	0000007789	1.11064		Fiserv (processing functions; "core" not stated)	CONFIRMED-ROLE	10-K 2024-02-08 0000007789-24-000009 "We outsource certain information system and data management and processing functions to third-party providers, including, among others, Fiserv"		UNKNOWN			
+AUB	ATLANTIC UNION BANKSHARES CO	0000883948	1.12567	Y	FIS	CONFIRMED	8-K 2024-05-07 0000883948-24-000050 "Renegotiated core agreement with less dependencies on FIS"	Q2	CONFIRMED	8-K 2025-12-10 0000883948-25-000114 (prior report)	Sandy Spring converted late 2025	
+AX	AXOS FINANCIAL INC	0001299709	1.113697			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+BANC	BANC OF CALIFORNIA INC	0001169770	1.086286			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+BANF	BANCFIRST CORP	0000760498	0.566719			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+BANR	BANNER CORPORATION	0000946673	0.696529			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN		core conversion planned November 2026 (8-K 2026-10-21)	
+BBT	BEACON FINANCIAL CORP	0001108134	0.763771		FIS IBS (Berkshire, 2012); Feb 2026 core conversion vendor unnamed	STALE	10-Q 2012-11-09 0001104659-12-076586 "Berkshire converted to the FIS IBS service bureau platform"; 8-K 2026-08-13 0001104659-26-095466 "Feb. 2026 Core Conversion Completed"		UNKNOWN		core conversion completed Feb 2026	
+BCAL	CALIFORNIA BANCORP	0001795815	0.13703			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+BFC	BANK FIRST CORP	0001746109	0.442497			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+BFST	BUSINESS FIRST BANCSHARES	0001624322	0.258758		FIS	CONFIRMED	8-K 2025-07-28 0001624322-25-000031 "converted its core processing for loans, deposits, and the general ledger to Fidelity Information Systems (\"FIS\")"		UNKNOWN		-> FIS completed (by 2Q25)	
+BHB	BAR HARBOR BANKSHARES	0000743367	0.134231			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+BHRB	BURKE + HERBERT FINANCIAL SE	0001964333	0.36539			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+BKU	BANKUNITED INC	0001504008	1.071182	Y	Fiserv	STALE	8-K 2011-06-27 0001104659-11-036622 "Converted core deposit system to latest Fiserv product"; 10-K 2026 generic third-party core risk factor only		UNKNOWN			
+BMRC	BANK OF MARIN BANCORP/CA	0001403475	0.139175		FIS	CONFIRMED	10-K 2026-03-13 0001403475-26-000018 "we outsource core processing to Fidelity Information Services (\"FIS\") and wire processing to Finastra"		UNKNOWN			
+BOH	BANK OF HAWAII CORP	0000046195	0.934844			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+BOKF	BOK FINANCIAL CORPORATION	0000875357	1.081174			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+BPOP	POPULAR INC	0000763901	1.131808	Y	Evertec	CONFIRMED	10-Q 2026-08-07 0000763901-26-000019 "Evertec, Inc., our provider of core financial transaction processing"	In-house (bought from Evertec)	STALE	8-K 2022-07-01 (prior report)	Evertec exit by 2028-09-30	
+BUSE	FIRST BUSEY CORP	0000314489	0.849946			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+BY	BYLINE BANCORP INC	0001702750	0.383945		FIS IBS	STALE	10-K 2020-03-12 0001564590-20-010516 "converted our core bank processing platform to FIS's Integrated Banking Services ... February of 2019"		UNKNOWN			
+CAC	CAMDEN NATIONAL CORP	0000750686	0.18004		Jack Henry	CONFIRMED	425 2024-09-10 0001193125-24-216713 "we have both share the same Jack Henry core operating system"		UNKNOWN			
+CARE	CARTER BANKSHARES INC	0001829576	0.390034			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+CASH	PATHWARD FINANCIAL INC	0000907471	0.620106			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+CATY	CATHAY GENERAL BANCORP	0000861842	0.989523			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+CBAN	COLONY BANKCORP	0000711669	0.148889			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+CBC	CENTRAL BANCOMPANY	0002065601	0.827067			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN		Core Modernization initiative in progress (10-Q 2026-08-14)	
+CBSH	COMMERCE BANCSHARES INC	0000022356	1.092374		Temenos (core deposits)	STALE	8-K 2017-01-18 0000022356-17-000002 "agreement to purchase a new core deposit system from Temenos Group AG ... implemented in 2019"		UNKNOWN			
+CBU	COMMUNITY FINANCIAL SYSTEM I	0000723188	0.554541			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+CCB	COASTAL FINANCIAL CORP/WA	0001437958	0.284402			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+CCBG	CAPITAL CITY BANK GROUP INC	0000726601	0.148401	Y		UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN		in-house -> outsourced core mid-2024 (vendor unnamed)	
+CCNE	CNB FINANCIAL CORP/PA	0000736772	0.188138			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+CFFN	CAPITOL FEDERAL FINANCIAL IN	0001490906	0.21998			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+CFG	CITIZENS FINANCIAL GROUP	0000759944	1.076258		FIS (core deposits)	STALE	10-K 2021-02-23 0000759944-21-000034 "Fidelity National Information Services, Inc. maintains our core deposits system"		UNKNOWN			
+CFR	CULLEN/FROST BANKERS INC	0000039263	1.105933			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+CHCO	CITY HOLDING CO	0000726854	0.563171			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+CIVB	CIVISTA BANCSHARES INC	0000944745	0.127935		Jack Henry	STALE	425 2018-05-01 0001193125-18-146619 Jack Henry systems conversion		UNKNOWN		leasing division core conversion (2025)	
+CLBK	COLUMBIA FINANCIAL INC	0002115119	0.841485			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+CNOB	CONNECTONE BANCORP INC	0000712771	0.507312			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+COFS	CHOICEONE FINANCIAL SVCS INC	0000803164	0.10323		Jack Henry	CONFIRMED	425 2024-07-25 0001140361-24-034124 "their employees will come on to Jack Henry and our other internal systems"		UNKNOWN			
+COLB	COLUMBIA BANKING SYSTEM INC	0000887343	1.125963	Y		UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)	Q2 mobile + FIS D1B business	STALE	10-Q 2023-05-09 0000887343-23-000220 "Q2 mobile banking, FIS D1B business online banking"	Pacific Premier converted 1Q26	
+CPF	CENTRAL PACIFIC FINANCIAL CO	0000701347	0.209272		Fiserv	STALE	10-K 2016-02-25 0000701347-16-000034 "Fiserv, Inc., which is our existing core software application provider"		UNKNOWN			
+CTBI	COMMUNITY TRUST BANCORP INC	0000350852	0.251034			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+CUBI	CUSTOMERS BANCORP INC	0001488813	0.799766			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+CVBF	CVB FINANCIAL CORP	0000354647	1.095804		Fiserv	STALE	8-K 2018-10-31 0001193125-18-314051 "Fiserv Systems Conversion"		UNKNOWN			
+CWBC	COMMUNITY WEST BANCSHARES	0001127371	0.292124		Fiserv Premier	CONFIRMED	425 2025-12-18 0001628280-25-057782 "the core systems for both CWB and USB are the same platform, Fiserv Premier"		UNKNOWN			
+DCOM	DIME COMMERCIAL BANCSHARES I	0000846617	0.432552			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+EBC	EASTERN BANKSHARES INC	0001810546	1.140057	Y		UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)	Backbase	STALE	Backbase PR 2022-11-07 (prior report)	HarborOne converted Feb 2026	
+EFSC	ENTERPRISE FINANCIAL SERVICE	0001025835	0.466176		FIS	CONFIRMED	8-K 2025-01-28 0001025835-25-000011 "Successful Conversion to FIS Leading Core Solution"; 10-K 2026-02-27 "conversion of its legacy core system into a new core banking platform" (4Q24)		UNKNOWN		-> FIS completed 4Q24	
+EGBN	EAGLE BANCORP INC	0001050441	0.273935	Y	FIS	STALE	10-Q 2011-08-09 0001104659-11-045320 "new suite of software applications from our vendor, FIS ... daily core processing"		UNKNOWN			
+EQBK	EQUITY BANCSHARES INC   CL A	0001227500	0.183812			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN		core conversion completed 1Q26	
+ESQ	ESQUIRE FINANCIAL HOLDINGS I	0001531031	0.54515		Fiserv Signature	CONFIRMED	425 2026-03-13 0001104659-26-027529 "We are on Fiserv ... Fiserv Signature"; target on Jack Henry, conversion "realistically first quarter of '27"		UNKNOWN		acquired bank Jack Henry -> Fiserv Signature, late 2026 / 1Q27	
+EWBC	EAST WEST BANCORP INC	0001069157	1.178689	Y	FIS IBS	STALE	Celent/FIS reprint 2023-05-12 (prior report); not in EWBC filings		UNKNOWN			
+FBIZ	FIRST BUSINESS FINANCIAL SER	0001521951	0.12412			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+FBK	FB FINANCIAL CORP	0001649749	0.658272		Jack Henry SilverLake	STALE	10-K 2019-03-12 0001628280-19-002811 "conversion of our core system to Jack Henry Silverlake"; 8-K 2021-02-10		UNKNOWN			
+FBNC	FIRST BANCORP/NC	0000811589	0.452682			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+FBP	FIRST BANCORP PUERTO RICO	0001057706	1.132453	Y	FIS (IT outsourcing 2013-16)	STALE	10-K 2016-03-14 0001057706-16-000020 "multi-year technology outsourcing agreement" with FIS		UNKNOWN			
+FCF	FIRST COMMONWEALTH FINL CORP	0000712537	0.527165		Jack Henry SilverLake	STALE	10-K 2017-03-14 0000712537-17-000017 "system conversion to the Jack Henry and Associates Silverlake core processing system"		UNKNOWN			
+FFBC	FIRST FINANCIAL BANCORP	0000708955	1.051496			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+FFIN	FIRST FINL BANKSHARES INC	0000036029	0.909501			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+FHB	FIRST HAWAIIAN INC	0000036377	1.138121	Y	FIS IBS	STALE	DEF 14A 2023-03-16 (prior report); 10-K 2026-02-27 says "third-party core banking services", vendor unnamed	FIS Digital One / MX Helios	STALE	2019/2021 (prior report)	TriCo (Fiserv) platform decision pending	
+FHN	FIRST HORIZON CORP	0000036966	1.086007			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+FIBK	FIRST INTERSTATE BANCSYS A	0000860413	1.114764		Fiserv Premier	STALE	425 2021-09-21 0000950103-21-014349 "First Interstate's existing technology investments, including Fiserv Premier Core Banking"		UNKNOWN			
+FISI	FINANCIAL INSTITUTIONS INC	0000862831	0.225876			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+FLG	FLAGSTAR BANK NA	0000910073	0.96066	Y	Fiserv DNA + FIS today; Fiserv Finxact selected	REPORTED	Banking Dive 2026-08-21 (prior report); Fiserv release 2026-08-17 seen only via BriefGlance relay (original 403); last primary naming: 425 2021-07-28 0001193125-21-227558 "the Fiserv conversion from the previous year"		UNKNOWN		-> Finxact, 2027/2028 (REPORTED)	
+FMBH	FIRST MID BANCSHARES INC	0000700565	0.238846		Fiserv (2018); core conversion completed 4Q25, vendor unnamed	STALE	425 2018-01-12 0000700565-18-000003 "First Mid's core banking system provider (Fiserv)"; 8-K 2026-01-29 0001171843-26-000505 "completed core conversion"		UNKNOWN		core conversion completed 4Q25	
+FMNB	FARMERS NATL BANC CORP	0000709337	0.23046		Jack Henry (converting, Aug 2026)	CONFIRMED	10-Q 2026-08-06 0001437749-26-026085 "conversion of our core system to Jack Henry"; "new core platform contract will save ... $2.0 million per year ... once the conversion is complete in August of 2026"		UNKNOWN		Fiserv -> Jack Henry, Aug 2026	
+FNB	FNB CORP	0000037808	1.125994	Y	Fiserv Premier	STALE	425 2013-02-28 0001193125-13-084636 "Fiserv Premier (ITI) - core processing"	In-house (eStore)	CONFIRMED	bank releases 2025-26 (prior report)		
+FRME	FIRST MERCHANTS CORP	0000712534	0.564894			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+FSBC	FIVE STAR BANCORP	0001275168	0.239912			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+FSUN	FIRSTSUN CAPITAL BANCORP	0001709442	0.307933			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+FULT	FULTON FINANCIAL CORP	0000700564	1.107438		Fiserv	CONFIRMED	10-K 2025-02-28 0000700564-25-000014 exhibit list (Fiserv agreement 2016, amended 2021); 8-K 2016-07-14 0001193125-16-648300 "Fiserv will provide ... a substantial majority of the deposit and loan account processing services ... electronic banking services"; term extended to 2027-03-31 (8-K 2021-12-22 0001193125-21-365108)	Fiserv	CONFIRMED	Fiserv master agreement covers "electronic banking services" (8-K 2016-07-14); agreement listed in 10-K 2025-02-28		
+GBCI	GLACIER BANCORP INC	0000868671	1.123758	Y	Jack Henry	STALE	8-K 2021-05-19 0000868671-21-000057 "both companies utilizing Jack Henry as core processor"		UNKNOWN		Guaranty converted 1Q26	
+GSBC	GREAT SOUTHERN BANCORP INC	0000854560	0.249704			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN		proposed new core abandoned after vendor dispute; write-off	
+HAFC	HANMI FINANCIAL CORPORATION	0001109242	0.241319			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+HBAN	HUNTINGTON BANCSHARES INC	0000049196	1.087734	Y		UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN		Cadence converted mid-June 2026	
+HBCP	HOME BANCORP INC	0001436425	0.181814			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+HBNC	HORIZON BANCORP INC/IN	0000706129	0.422578			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+HBT	HBT FINANCIAL INC/DE	0000775215	0.170776			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+HFWA	HERITAGE FINANCIAL CORP	0001046025	0.300367		Fiserv DNA	CONFIRMED	425 2025-12-15 0001628280-25-056929 "converted to Heritage Bank's core banking system (Fiserv DNA)"		UNKNOWN		Kitsap onto Fiserv DNA completed 3Q26	
+HIFS	HINGHAM INSTITUTION FOR SVGS		0.317628			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			SEC filer not in EDGAR ticker map (likely FDIC/bank-level filer); not scanned
+HOMB	HOME BANCSHARES INC	0001331520	1.137524	Y		UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+HOPE	HOPE BANCORP INC	0001128361	0.485928			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+HTB	HOMETRUST BANCSHARES INC	0001538263	0.249729			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+HTH	HILLTOP HOLDINGS INC	0001265131	0.331812			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+HWC	HANCOCK WHITNEY CORP	0000750577	1.117772			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+IBCP	INDEPENDENT BANK CORP   MICH	0000039311	0.242241		FIS	STALE	425 2017-12-07 0001140361-17-045350 "Independent Bank utilizes an outsourced core data processing system (FIS)"		UNKNOWN			
+IBOC	INTERNATIONAL BANCSHARES CRP	0000315709	0.841708			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+INDB	INDEPENDENT BANK CORP/MA	0000776901	0.990168		FIS (2018); core conversion pending 2026, vendor unnamed	STALE	425 2018-09-20 0000776901-18-000221 "Rockland Trust operates on the FIS system as their core system"; 10-K 2023-02-28 exhibit 10.27 ITSA with Fidelity Information Services; 8-K 2026-10-15 0000776901-26-000152 "$2.2 million in one-time expenses associated with its upcoming core conversion"	Q2	STALE	10-K 2023-02-28 0000776901-23-000064 exhibit 10.25 "Master Data Processing Services Agreement dated ... May 15, 2012 between Rockland Trust Company and Q2 Software"	upcoming core conversion (8-K 2026-10-15), vendor unnamed	
+KRNY	KEARNY FINANCIAL CORP/MD	0001617242	0.173795		Fiserv	STALE	10-K 2016-08-29 0001564590-16-024782 "master service agreement with Fiserv"; "conversion to Fiserv systems during fiscal 2014"	Fiserv (mobile via MSA)	STALE	10-K 2016-08-29 0001564590-16-024782		
+LKFN	LAKELAND FINANCIAL CORP	0000721994	0.390744			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)	Q2	CONFIRMED	8-K 2026-07-27 0000721994-26-000064 "Lake City Bank Digital, a Q2 product implemented in 2021"		
+LOB	LIVE OAK BANCSHARES INC	0001462120	0.30791			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+MBWM	MERCANTILE BANK CORP	0001042729	0.25883		Jack Henry (converting from Fiserv)	CONFIRMED	10-K 2026-02-27 0001437749-26-005997 "We have initiated the transfer of our core processing system to Jack Henry & Associates"		UNKNOWN		Fiserv -> Jack Henry, 2026-2027 (bonus plan 8-K 2026-09-25)	
+MCB	METROPOLITAN BANK HOLDING CO	0001476034	0.423328		Fiserv Finxact	CONFIRMED	8-K 2024-07-18 0001558370-24-009892 "the Bank is modernizing its core banking system with Finxact"; 8-K 2026-03-02 0001104659-26-022243 "April 2026 Final Phase Go-Live Core systems"		UNKNOWN		Finxact final phase go-live April 2026	
+MCHB	MECHANICS BANCORP A	0001518715	0.257358		Fiserv	CONFIRMED	425 2025-06-30 0001518715-25-000095 "the future core operating system will be powered by Fiserv"		UNKNOWN		HomeStreet onto Fiserv (completed)	
+MPB	MID PENN BANCORP INC	0000879635	0.183363			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+MSBI	MIDLAND STATES BANCORP INC	0001466026	0.181006			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+MTB	M + T BANK CORP	0000036270	1.061315			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+NBBK	NB BANCORP INC	0001979330	0.21238			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+NBHC	NATIONAL BANK HOLD CL A	0001475841	0.559105			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+NBN	NORTHEAST BANK		0.524322			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			SEC filer not in EDGAR ticker map (likely FDIC/bank-level filer); not scanned
+NBTB	N B T BANCORP INC	0000790359	0.622347			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)	Fiserv Architect	STALE	8-K 2020-02-13 0001140361-20-003031 "launch a single platform for digital banking called Architect from Fiserv in 2020"		
+NIC	NICOLET BANKSHARES INC	0001174850	1.117593		Fiserv	CONFIRMED	10-K 2026-02-27 0001174850-26-000077 "working with Fiserv (our core processor)"		UNKNOWN		MidWestOne onto Fiserv, late summer 2026	
+NRIM	NORTHRIM BANCORP INC	0001163370	0.122126			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+NWBI	NORTHWEST BANCSHARES INC	0001471265	0.542617		Fiserv Signature	STALE	425 2020-01-21 0001471265-20-000008 "converted to Northwest Fiserv Signature Core Banking platform"		UNKNOWN			
+OBK	ORIGIN BANCORP INC	0001516912	0.284926			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+OCFC	OCEANFIRST FINANCIAL CORP	0001004702	0.599377			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+OFG	OFG BANCORP	0001030469	0.515142		FIS (technology outsourcing)	CONFIRMED	10-K 2025-02-27 0001030469-25-000007 exhibit 10.11 "Amendment, dated as of November 30, 2020, to Technology Outsourcing Agreement between OFG and FIS"		UNKNOWN			
+ONB	OLD NATIONAL BANCORP	0000707179	1.113487			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+ORRF	ORRSTOWN FINL SERVICES INC	0000826154	0.1844		Jack Henry	STALE	8-K 2018-10-24 0001193125-18-305978 "convert the core banking platform from Fiserv to Jack Henry"; core conversion (Codorus) completed Nov 2024, vendor not restated		UNKNOWN			
+OSBC	OLD SECOND BANCORP INC	0000357173	0.335356			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+OZK	BANK OZK	0001569650	1.136537	Y		UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			files with FDIC; EDGAR CIK exists but no 10-K on EDGAR
+PB	PROSPERITY BANCSHARES INC	0001068851	1.098016			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+PEBO	PEOPLES BANCORP INC	0000318300	0.316106			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+PFBC	PREFERRED BANK/LOS ANGELES	0001492165	0.390626			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+PFIS	PEOPLES FINANCIAL SERVICES	0001056943	0.126559			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+PFS	PROVIDENT FINANCIAL SERVICES	0001178970	0.783721		FIS IBS (converting 2026; current platform unnamed)	CONFIRMED	10-K 2026-02-27 0001628280-26-012814 "In 2026 we expect to execute a core conversion from our existing platform to FIS's IBS"		UNKNOWN		-> FIS IBS, 2026	
+PGC	PEAPACK GLADSTONE FINL CORP	0001050743	0.277323			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+PNFP	PINNACLE FINANCIAL PARTNERS	0002082866	1.139889	Y	FIS (Synovus platform); legacy Pinnacle Jack Henry until 1Q27	CONFIRMED	425 2025-07-25 0001140361-25-027277 "move over to the Synovus FIS core platform"; 425 2025-09-10 0001140361-25-034559 "We're the largest single user on Jack Henry"	Q2 (Synovus side)	STALE	Q2 PR 2021 (prior report)	Jack Henry -> FIS, 1Q 2027	
+PRK	PARK NATIONAL CORP	0000805676	0.59772			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+QCRH	QCR HOLDINGS INC	0000906465	0.417645			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN		core conversion completed 2Q26; $43.5M over 3 years	
+RBCAA	REPUBLIC BANCORP INC CLASS A	0000921557	0.306662			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN		new core provider live mid-Oct 2025	
+RF	REGIONS FINANCIAL CORP	0001281761	1.079875			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN		Core modernization; client migrations in 2027 (8-K 2026-08-07)	
+RNST	RENASANT CORP	0000715072	1.006363			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+RRBI	RED RIVER BANCSHARES INC	0001071236	0.286107		FIS (role not stated)	STALE	8-K 2022-09-16 0001071236-22-000064 "FIS is upgrading" (deck fragment)	Q2	CONFIRMED	8-K 2025-04-30 0001071236-25-000041 "In 1Q25, RRB upgraded online and mobile banking platforms using Q2 Software's market leading products"; Q2 PR 2024-10-30 [PRIMARY-vendor]		
+SBCF	SEACOAST BANKING CORP/FL	0000730708	1.073854	Y		UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)	Q2	STALE	Q2 case study "CS_Seacoast Bank_23-1" (2023) [PRIMARY-vendor]: "Q2 Customer Since: 2022"; "Converted to Q2's digital banking platform in less than a year with more than 100,000 customers converted"	VBI conversion completed July 2026; Heartland Aug 2025	
+SBSI	SOUTHSIDE BANCSHARES INC	0000705432	0.143672			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+SFBS	SERVISFIRST BANCSHARES INC	0001430723	0.771183		Jack Henry	STALE	10-K 2015-03-03 0001144204-15-013678 "Jack Henry & Associates, Inc. provides our entire core banking system through a service bureau arrangement"		UNKNOWN			
+SFNC	SIMMONS FIRST NATL CORP CL A	0000090498	1.037546		Jack Henry	STALE	8-K 2021-11-19 0001171843-21-008092 "Same IT vendor utilized for core operating systems (Jack Henry)"		UNKNOWN			
+SFST	SOUTHERN FIRST BANCSHARES	0001090009	0.26264			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+SHBI	SHORE BANCSHARES INC	0001035092	0.174182			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+SMBC	SOUTHERN MISSOURI BANCORP	0000916907	0.264484			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+SMBK	SMARTFINANCIAL INC	0001038773	0.176966			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+SPFI	SOUTH PLAINS FINANCIAL INC	0001163668	0.184774			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+SRCE	1ST SOURCE CORP	0000034782	0.400665			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+SSB	SOUTHSTATE BANK CORP	0000764038	1.121523	Y	Fiserv Premier	STALE	425 2021-07-23 0001558370-21-009147 "Both SouthState and Atlantic Capital leverage Fiserv Premier for the core systems"		UNKNOWN			
+STBA	S + T BANCORP INC	0000719220	0.435116			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+SYBT	STOCK YARDS BANCORP INC	0000835324	0.45908			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+TBBK	BANCORP INC/THE	0001295401	0.842917		FIS	STALE	10-K 2013-03-18 0000950159-13-000177 "core and internet banking systems ... under non-exclusive licenses ... Fidelity National Information Services"		UNKNOWN			
+TCBI	TEXAS CAPITAL BANCSHARES INC	0001077428	1.102801			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+TCBK	TRICO BANCSHARES	0000356171	0.441808		Fiserv	CONFIRMED	425 2026-08-14 0001104659-26-097140 (FHB/TCBK) "Tri Counties Bank currently uses Fiserv as its core banking system"	Q2	CONFIRMED	Q2 PR 2024-01-18 [PRIMARY-vendor] https://www.q2.com/company/news/pr/q2-helps-tri-counties-bank-increase-online-account-openings-by-75-percent		
+TCBX	THIRD COAST BANCSHARES INC	0001781730	0.145409			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+TFC	TRUIST FINANCIAL CORP	0000092230	1.095047			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+TFIN	TRIUMPH FINANCIAL INC	0001539638	0.535225			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+TFSL	TFS FINANCIAL CORP	0001381668	0.493925			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+THFF	FIRST FINANCIAL CORP	0000714562	0.266298			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+TMP	TOMPKINS FINANCIAL CORP	0001005817	0.343904			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+TOWN	TOWNE BANK		0.734518			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			SEC filer not in EDGAR ticker map (likely FDIC/bank-level filer); not scanned
+TRMK	TRUSTMARK CORP	0000036146	0.596215			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+TRST	TRUSTCO BANK CORP NY	0000357301	0.257545		Fiserv (back-office support; "core" not stated)	CONFIRMED-ROLE	10-K 2025-03-14 0001140361-25-008827 "We also renewed our contract with Fiserv for back-office support"		UNKNOWN			
+UBSI	UNITED BANKSHARES INC	0000729986	1.157441	Y	FIS	STALE	8-K 2011-07-07 0001193125-11-183622 ITSA with FIS		UNKNOWN			
+UCB	UNITED COMMUNITY BANKS/GA	0000857855	1.177328	Y	Fiserv Premier	STALE	American Banker 2013 (prior report)	Q2	REPORTED	undated (prior report); conflicts with uux.aspx fingerprint		
+UMBF	UMB FINANCIAL CORP	0000101382	1.083168			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+UNTY	UNITY BANCORP INC	0000920427	0.120156			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+UVSP	UNIVEST FINANCIAL CORP	0000102212	0.320425			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+VLY	VALLEY NATIONAL BANCORP	0000714310	1.088767	Y		UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+WABC	WESTAMERICA BANCORPORATION	0000311094	0.336935			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+WAFD	WAFD INC	0000936528	0.599992			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+WAL	WESTERN ALLIANCE BANCORP	0001212545	1.091295	Y		UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+WASH	WASHINGTON TRUST BANCORP	0000737468	0.206025			UNKNOWN	no vendor named in EDGAR FTS 2010-2026 sweep (see recipe)		UNKNOWN			
+WSBC	WESBANCO INC	0000203596	1.081134		FIS Bankway	STALE	425 2014-10-30 0001193125-14-387481 "WesBanco's core processing is FIS Bankway"		UNKNOWN			
+WSFS	WSFS FINANCIAL CORP	0000828944	1.11679		FIS	STALE	425 2018-08-09 0001552781-18-000318 "We both run off of an FIS platform"		UNKNOWN			
+WTFC	WINTRUST FINANCIAL CORP	0001015328	1.126253	Y	FIS IBS	STALE	Celent/FIS reprint 2023-05-12 (prior report)	NCR Digital First (now Candescent, inferred)	STALE	BusinessWire 2020-12-02 (prior report)		
+ZION	ZIONS BANCORP NA	0000109380	1.110234	Y	TCS BaNCS	CONFIRMED	8-K 2024-07-22 0000109380-24-000119 "converted our deposit accounts ... to our new core processing system, TCS's BaNCS platform"; 10-K 2026-02-24 0000109380-26-000046		UNKNOWN			

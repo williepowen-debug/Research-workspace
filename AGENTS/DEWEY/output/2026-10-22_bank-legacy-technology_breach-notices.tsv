@@ -1,0 +1,89 @@
+source_id	state	reported	institution	type	route	via_vendor	vendor_named	product	internet_facing_product	outdated_or_unpatched_cited	duplicate_notices	note	url
+sb24-563714	CA	2023-02-28	Hatch Bank	bank	FILE_TRANSFER	Y	Fortra	GoAnywhere (Fortra-hosted)	Y	N	WA BreachA20071	zero-day; files on Fortra GoAnywhere site	https://oag.ca.gov/ecrime/databreach/reports/sb24-563714
+sb24-563812	CA	2023-03-02	Vocality Community CU	cu	EMAIL	N			N	N		1 email account	https://oag.ca.gov/ecrime/databreach/reports/sb24-563812
+sb24-563870	CA	2023-03-03	Sterling Bank and Trust	bank	NONCYBER	Y	FedEx		N	N		1099 forms lost by courier	https://oag.ca.gov/ecrime/databreach/reports/sb24-563870
+sb24-565250	CA	2023-04-07	HawaiiUSA FCU	cu	EMAIL	N			N	N		employee email	https://oag.ca.gov/ecrime/databreach/reports/sb24-565250
+sb24-565471	CA	2023-04-12	Patelco CU (ATM Dublin)	cu	NONCYBER	N		ATM skimmer	N	N		skimmer	https://oag.ca.gov/ecrime/databreach/reports/sb24-565471
+sb24-566299	CA	2023-05-03	Veridian CU	cu	WEBAPP	N		online membership application	Y	N		abuse of online application to pull credit reports	https://oag.ca.gov/ecrime/databreach/reports/sb24-566299
+sb24-566920	CA	2023-05-18	CU of Southern California (CalBear)	cu	EMAIL	N			N	N	sb24-567478	acquired CU employee email	https://oag.ca.gov/ecrime/databreach/reports/sb24-566920
+sb24-567784	CA	2023-06-09	Patelco CU (ATM Milpitas)	cu	NONCYBER	N		ATM compromise	N	N		ATM	https://oag.ca.gov/ecrime/databreach/reports/sb24-567784
+sb24-568712	CA	2023-06-30	Union Bank and Trust Co	bank	FILE_TRANSFER	N	Progress	MOVEit (own)	Y	N		zero-day; own MOVEit	https://oag.ca.gov/ecrime/databreach/reports/sb24-568712
+sb24-569315	CA	2023-07-06	Ventura County CU (2022 email)	cu	EMAIL	N			N	N	sb24-579832	multiple email accounts	https://oag.ca.gov/ecrime/databreach/reports/sb24-569315
+sb24-570311	CA	2023-07-14	PlainsCapital Bank	bank	FILE_TRANSFER	Y	unnamed fintech service provider	MOVEit (vendor)	Y	N		zero-day at vendor	https://oag.ca.gov/ecrime/databreach/reports/sb24-570311
+sb24-570427	CA	2023-07-17	Westamerica Bank	bank	FILE_TRANSFER	Y	unnamed processing vendor	transfer software (MOVEit inferred from 5/27-5/31 window)	Y	N		bank does not use the software	https://oag.ca.gov/ecrime/databreach/reports/sb24-570427
+sb24-570418	CA	2023-07-17	Quorum FCU	cu	FILE_TRANSFER	N	Progress	MOVEit (own)	Y	N	WA BreachA25864		https://oag.ca.gov/ecrime/databreach/reports/sb24-570418
+sb24-570547	CA	2023-07-19	1st Source Bank	bank	FILE_TRANSFER	N	Progress	MOVEit (own)	Y	N	sb24-570878;sb24-577160;WA BreachA25897		https://oag.ca.gov/ecrime/databreach/reports/sb24-570547
+sb24-570599	CA	2023-07-20	CoastHills CU	cu	FILE_TRANSFER	Y	unnamed vendor	MOVEit (vendor)	Y	N			https://oag.ca.gov/ecrime/databreach/reports/sb24-570599
+sb24-570959	CA	2023-07-27	Franklin Mint FCU	cu	FILE_TRANSFER	N	Progress	MOVEit (own)	Y	N			https://oag.ca.gov/ecrime/databreach/reports/sb24-570959
+sb24-571902	CA	2023-08-15	Sunflower Bank	bank	FILE_TRANSFER	N	Progress	MOVEit (own, on-prem, segmented)	Y	N	sb24-574636		https://oag.ca.gov/ecrime/databreach/reports/sb24-571902
+sb24-572155	CA	2023-08-21	MidFirst Bank	bank	FILE_TRANSFER	Y	unnamed service provider	MOVEit (vendor)	Y	N	WA BreachA26105		https://oag.ca.gov/ecrime/databreach/reports/sb24-572155
+sb24-572364	CA	2023-08-24	Chevron FCU	cu	FILE_TRANSFER	N	Progress	MOVEit (own)	Y	N	WA BreachA26335	initial check missed compromise	https://oag.ca.gov/ecrime/databreach/reports/sb24-572364
+sb24-573352	CA	2023-09-15	Cadence Bank	bank	FILE_TRANSFER	N	Progress	MOVEit (own)	Y	N	sb24-576943;sb24-579992	zero-day	https://oag.ca.gov/ecrime/databreach/reports/sb24-573352
+sb24-574719	CA	2023-10-05	Flagstar Bank (via Fiserv)	bank	FILE_TRANSFER	Y	Fiserv	MOVEit (vendor)	Y	N	WA BreachA26704		https://oag.ca.gov/ecrime/databreach/reports/sb24-574719
+sb24-578019	CA	2023-12-15	Flagstar Bank (via FIS)	bank	FILE_TRANSFER	Y	FIS	MOVEit (vendor)	Y	N			https://oag.ca.gov/ecrime/databreach/reports/sb24-578019
+sb24-574827	CA	2023-10-09	University FCU	cu	FILE_TRANSFER	Y	MOVEit called a vendor	MOVEit	Y	N		own-vs-hosted unclear	https://oag.ca.gov/ecrime/databreach/reports/sb24-574827
+sb24-575067	CA	2023-10-12	Tri Counties Bank	bank	OWN_NETWORK	N		malware prevented file access	N	N	sb24-576968	entry route not stated	https://oag.ca.gov/ecrime/databreach/reports/sb24-575067
+sb24-575506	CA	2023-10-21	Wescom Central CU	cu	EDGE	N	Barracuda	Barracuda ESG appliance	Y	N	sb24-584611;WA BreachA28922	zero-day in email gateway; Wescom also hosts core for Direct FCU	https://oag.ca.gov/ecrime/databreach/reports/sb24-575506
+sb24-578344	CA	2023-12-21	Middlefield Banking Co	bank	OWN_NETWORK	N			N	N		entry route not stated	https://oag.ca.gov/ecrime/databreach/reports/sb24-578344
+sb24-578522	CA	2023-12-28	Merrick Bank	bank	FILE_TRANSFER	Y	unnamed service provider	MOVEit (vendor)	Y	N			https://oag.ca.gov/ecrime/databreach/reports/sb24-578522
+sb24-579424	CA	2024-01-16	Hanmi Bank	bank	FILE_TRANSFER	Y	Fiserv	MOVEit (vendor)	Y	N			https://oag.ca.gov/ecrime/databreach/reports/sb24-579424
+sb24-581347	CA	2024-02-22	SAFE CU (ATM 2024)	cu	NONCYBER	N		ATM skimmer	N	N			https://oag.ca.gov/ecrime/databreach/reports/sb24-581347
+sb24-583064	CA	2024-03-26	Orange Countys CU	cu	OWN_NETWORK	N		file repository	N	N		entry route not stated	https://oag.ca.gov/ecrime/databreach/reports/sb24-583064
+sb24-583180	CA	2024-03-28	Summit State Bank	bank	EMAIL	N			N	N			https://oag.ca.gov/ecrime/databreach/reports/sb24-583180
+sb24-583294	CA	2024-03-29	SouthState Bank	bank	OWN_NETWORK	N			N	N		entry route not stated; Item 1.05 8-K	https://oag.ca.gov/ecrime/databreach/reports/sb24-583294
+sb24-584615	CA	2024-04-29	JPMorgan Chase Bank	bank	NONCYBER	N		software authorization flaw	N	N	WA BreachA29152	authorized users saw extra data	https://oag.ca.gov/ecrime/databreach/reports/sb24-584615
+sb24-584667	CA	2024-04-30	OE FCU	cu	OWN_NETWORK	N			N	N	WA BreachA28961	WA codes Ransomware; entry route not stated	https://oag.ca.gov/ecrime/databreach/reports/sb24-584667
+sb24-584828	CA	2024-05-03	Community First CU	cu	EMAIL	N			N	N		BEC attempt	https://oag.ca.gov/ecrime/databreach/reports/sb24-584828
+sb24-584955	CA	2024-05-07	Varo Bank	bank	WEBAPP	N		customer portal credential use	Y	N		credential stuffing	https://oag.ca.gov/ecrime/databreach/reports/sb24-584955
+sb24-587224	CA	2024-06-20	Ventura County CU (2024 email)	cu	EMAIL	N			N	N			https://oag.ca.gov/ecrime/databreach/reports/sb24-587224
+sb24-588210	CA	2024-07-08	Evolve Bank & Trust	bank	OWN_NETWORK	N			N	N	WA BreachA29757	ransomware; notice does not state entry route; company FAQ: employee clicked a malicious internet link (getevolved.com FAQ, fetched 2026-10-22)	https://oag.ca.gov/ecrime/databreach/reports/sb24-588210
+sb24-589175	CA	2024-07-23	Pinnacle Bank	bank	EMAIL	N			N	N			https://oag.ca.gov/ecrime/databreach/reports/sb24-589175
+sb24-590495	CA	2024-08-20	Patelco CU (2024 ransomware)	cu	OWN_NETWORK	N			N	N	WA BreachA30277;BreachA30709	ransomware; entry route not stated	https://oag.ca.gov/ecrime/databreach/reports/sb24-590495
+sb24-590654	CA	2024-08-23	Texas Dow Employees CU	cu	FILE_TRANSFER	Y	MOVEit called a vendor	MOVEit	Y	N		own-vs-hosted unclear	https://oag.ca.gov/ecrime/databreach/reports/sb24-590654
+sb24-591649	CA	2024-09-13	LA Financial FCU (June 2024)	cu	EMAIL	N			N	N	sb24-595600;sb24-596779		https://oag.ca.gov/ecrime/databreach/reports/sb24-591649
+sb24-592704	CA	2024-10-01	Truist Bank (via FBCS)	bank	VENDOR	Y	FBCS (debt collector)		N	N		vendor network	https://oag.ca.gov/ecrime/databreach/reports/sb24-592704
+sb24-593597	CA	2024-10-18	1stUnited CU	cu	NONCYBER	Y	mail courier		N	N		mail stolen	https://oag.ca.gov/ecrime/databreach/reports/sb24-593597
+sb24-593556	CA	2024-10-18	Abbott Labs Employees CU	cu	EMAIL	N			N	N			https://oag.ca.gov/ecrime/databreach/reports/sb24-593556
+sb24-596766	CA	2024-12-30	LA Financial FCU (July 2024)	cu	EMAIL	N			N	N	sb24-600344	second email incident	https://oag.ca.gov/ecrime/databreach/reports/sb24-596766
+sb24-597028	CA	2025-01-07	Mission Bancorp	bank	OWN_NETWORK	N			N	N		entry route not stated; core not affected	https://oag.ca.gov/ecrime/databreach/reports/sb24-597028
+sb24-599939	CA	2025-03-14	Western Alliance Bank	bank	FILE_TRANSFER	N	unnamed	third-party secure file transfer software	Y	N	WA BreachA33767	zero-day	https://oag.ca.gov/ecrime/databreach/reports/sb24-599939
+sb24-600147	CA	2025-03-20	Lafayette FCU	cu	EMAIL	N			N	N	sb24-605396		https://oag.ca.gov/ecrime/databreach/reports/sb24-600147
+sb24-600664	CA	2025-03-31	First City CU	cu	EMAIL	N			N	N			https://oag.ca.gov/ecrime/databreach/reports/sb24-600664
+sb24-602658	CA	2025-05-13	South Bay CU	cu	EMAIL	N			N	N			https://oag.ca.gov/ecrime/databreach/reports/sb24-602658
+sb24-603161	CA	2025-05-23	American National Bank & Trust	bank	OWN_NETWORK	N			N	N		entry route not stated	https://oag.ca.gov/ecrime/databreach/reports/sb24-603161
+sb24-606373	CA	2025-07-31	SAFE CU (ATM 2025)	cu	NONCYBER	N		ATM skimmer	N	N			https://oag.ca.gov/ecrime/databreach/reports/sb24-606373
+sb24-606757	CA	2025-08-07	Connex CU	cu	OWN_NETWORK	N			N	N		entry route not stated	https://oag.ca.gov/ecrime/databreach/reports/sb24-606757
+sb24-607062	CA	2025-08-13	Commonwealth Business Bank	bank	OWN_NETWORK	N			N	N	sb24-615471	entry route not stated	https://oag.ca.gov/ecrime/databreach/reports/sb24-607062
+sb24-607903	CA	2025-08-29	Carter FCU	cu	OWN_NETWORK	N			N	N		entry route not stated	https://oag.ca.gov/ecrime/databreach/reports/sb24-607903
+sb24-608075	CA	2025-09-03	Zions Bancorporation	bank	NONCYBER	N		misdirected employee email	N	N			https://oag.ca.gov/ecrime/databreach/reports/sb24-608075
+sb24-608460	CA	2025-09-11	Fairmont FCU	cu	OWN_NETWORK	N			N	N		entry route not stated	https://oag.ca.gov/ecrime/databreach/reports/sb24-608460
+sb24-610269	CA	2025-09-19	California International Bank	bank	EMAIL	N			N	N			https://oag.ca.gov/ecrime/databreach/reports/sb24-610269
+sb24-616579	CA	2026-01-05	First Federal S&L of Pascagoula Moss Point	bank	OWN_NETWORK	N			N	N		entry route not stated	https://oag.ca.gov/ecrime/databreach/reports/sb24-616579
+sb24-616985	CA	2026-01-13	SAFE CU (Dec 2025 disclosure)	cu	NONCYBER	N		unintended disclosure	N	N		cause not stated	https://oag.ca.gov/ecrime/databreach/reports/sb24-616985
+sb24-618188	CA	2026-02-04	Gain FCU	cu	EMAIL	N			N	N			https://oag.ca.gov/ecrime/databreach/reports/sb24-618188
+sb24-621950	CA	2026-04-17	Columbia Bank	bank	UNKNOWN	N		certain bank applications	N	N	WA BreachA37811	WA codes Theft or Mistake	https://oag.ca.gov/ecrime/databreach/reports/sb24-621950
+sb24-621928	CA	2026-04-17	Alaska Air Group FCU	cu	VENDOR	Y	unnamed IT service provider (MSP)		N	N	WA BreachA37803	attacker used MSP access into CU systems	https://oag.ca.gov/ecrime/databreach/reports/sb24-621928
+sb24-622220	CA	2026-04-23	Heritage Bank	bank	OWN_NETWORK	N			N	N	WA BreachA37893	entry route not stated	https://oag.ca.gov/ecrime/databreach/reports/sb24-622220
+sb24-622466	CA	2026-04-28	Frontwave CU	cu	NONCYBER	Y	unnamed service provider	misdirected disclosure	N	N		vendor error	https://oag.ca.gov/ecrime/databreach/reports/sb24-622466
+sb24-623105	CA	2026-05-08	MemberSource CU	cu	OWN_NETWORK	N		branch networks	N	N		entry route not stated; core hosted outside branch network	https://oag.ca.gov/ecrime/databreach/reports/sb24-623105
+sb24-623688	CA	2026-05-20	Frost Bank (via Sefas)	bank	FILE_TRANSFER	Y	Sefas Innovation	SFTP server (vendor)	Y	N			https://oag.ca.gov/ecrime/databreach/reports/sb24-623688
+sb24-624147	CA	2026-05-29	Educational Employees CU	cu	EMAIL	N			N	N			https://oag.ca.gov/ecrime/databreach/reports/sb24-624147
+sb24-626685	CA	2026-07-17	Quontic Bank	bank	NONCYBER	N		former employees kept records	N	N		insider	https://oag.ca.gov/ecrime/databreach/reports/sb24-626685
+sb24-628736	CA	2026-08-21	POLAM FCU	cu	NONCYBER	N		former employee	N	N		insider	https://oag.ca.gov/ecrime/databreach/reports/sb24-628736
+sb24-629581	CA	2026-09-11	Suffolk FCU (via Mercadien)	cu	VENDOR	Y	Mercadien (CPA firm)	unspecified vulnerability	N	N		Mercadien: exploitation of a security vulnerability	https://oag.ca.gov/ecrime/databreach/reports/sb24-629581
+sb24-630165	CA	2026-09-23	Fairwinds CU (via Mercadien)	cu	VENDOR	Y	Mercadien (CPA firm)	unspecified vulnerability	N	N			https://oag.ca.gov/ecrime/databreach/reports/sb24-630165
+sb24-631520	CA	2026-10-19	Citizens Bank	bank	UNKNOWN	N		"""an issue"""	N	N			https://oag.ca.gov/ecrime/databreach/reports/sb24-631520
+BreachA20418	WA	2023-03-24	Bank of America (via NCB Management Services)	bank	VENDOR	Y	NCB Management Services		N	N			https://agportal-s3bucket.s3.amazonaws.com/databreach/BreachA20418.pdf
+BreachA23069	WA	2023-05-12	Fibre FCU	cu	NONCYBER	N		ITM skimmers	N	N			https://agportal-s3bucket.s3.amazonaws.com/databreach/BreachA23069.pdf
+BreachA24664	WA	2023-06-30	Clearwater CU	cu	FILE_TRANSFER	Y	unnamed vendor	MOVEit (vendor)	Y	N			https://agportal-s3bucket.s3.amazonaws.com/databreach/BreachA24664.pdf
+BreachM15357	WA	2023-07-17	Sound Community Bank (via FIS)	bank	FILE_TRANSFER	Y	FIS (filer)	MOVEit (vendor)	Y	N			https://agportal-s3bucket.s3.amazonaws.com/databreach/BreachM15357.pdf
+BreachA26067	WA	2023-08-02	Red Canoe CU	cu	NONCYBER	N		card compromise, cause not stated	N	N			https://agportal-s3bucket.s3.amazonaws.com/databreach/BreachA26067.pdf
+BreachM15493	WA	2023-08-11	Umpqua Bank (via FIS)	bank	FILE_TRANSFER	Y	FIS (filer)	MOVEit (vendor)	Y	N			https://agportal-s3bucket.s3.amazonaws.com/databreach/BreachM15493.pdf
+BreachM15678	WA	2023-08-22	Huntington Bank (via Alogent)	bank	FILE_TRANSFER	Y	Alogent	MOVEit (vendor)	Y	N			https://agportal-s3bucket.s3.amazonaws.com/databreach/BreachM15678.pdf
+BreachA27154	WA	2023-12-01	WSECU	cu	NONCYBER	N		ATM skimmers	N	N			https://agportal-s3bucket.s3.amazonaws.com/databreach/BreachA27154.pdf
+BreachA28750	WA	2024-04-19	Centennial Bank	bank	OWN_NETWORK	N			N	N		WA codes Ransomware; entry route not stated	https://agportal-s3bucket.s3.amazonaws.com/databreach/BreachA28750.pdf
+BreachA34650	WA	2025-09-12	FinWise Bank	bank	NONCYBER	N		former employee	N	N		insider	https://agportal-s3bucket.s3.amazonaws.com/databreach/BreachA34650.pdf
+BreachA35487	WA	2025-11-12	Lead Bank (via EarnIn)	bank	NONCYBER	Y	EarnIn (fintech partner)	misdirected data feed	N	N		vendor error	https://agportal-s3bucket.s3.amazonaws.com/databreach/BreachA35487.pdf
+BreachA35593	WA	2025-11-19	Sound Community Bank (2025)	bank	VENDOR	Y	unnamed advertising and mailing vendor (8/14/2025 date matches Marquis)		N	N			https://agportal-s3bucket.s3.amazonaws.com/databreach/BreachA35593.pdf
+BreachA35680	WA	2025-11-26	Industrial CU of Whatcom County (via Marquis)	cu	VENDOR	Y	Marquis Software Solutions	SonicWall firewall (per Marquis AG letter)	Y	N		Marquis AG letter 2025-11-26: network accessed through its SonicWall firewall; Marquis later (BleepingComputer 2026-01-29) said NOT an unpatched firewall but firewall config backups stolen from SonicWall MySonicWall portal	https://agportal-s3bucket.s3.amazonaws.com/databreach/BreachA35680.pdf
+BreachA35982	WA	2025-12-30	Abri CU	cu	OWN_NETWORK	N			N	N		WA codes Ransomware; entry route not stated	https://agportal-s3bucket.s3.amazonaws.com/databreach/BreachA35982.pdf
