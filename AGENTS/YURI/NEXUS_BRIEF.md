@@ -4,7 +4,7 @@
 **Operational-effects follow-up:** bounded pass completed, underlying evidence PARTIAL. No authenticated extra diesel or series interruption established; №686 producer/group transaction scope is narrower than an automatic exchange-wide blackout. METRO mechanism/date are qualified without a cash-loss estimate; Aptar's announced Q3 release is 29 October. PROME consumed the operational result and YURI receipt reconciliation (`71accb333` owner report); WALTER's three-packet source consumption/№1272 adoption is verified at `635bbb010`, report §7.4. OSPREY consumption remains separately UNKNOWN. No new F01 credit.
 **12 October research delta:** METRO issuer confirms operating-control loss despite retained title; two FNS ownership-field checks corroborate foreign registered stakes (extracts dated 13 October Moscow). Aptar's Russian unit was below 0.6% of 2025 group sales/operating income. Minenergo public search is now readable; signed links remain missing. №1272 source attribution corrected to space licensing.
 **Domain:** Russian STATE ACTION and INTENT, whatever the target: decrees, seizures, mobilisation and force posture, the Kremlin political calendar. Feeder desk; never trades.
-**As of:** 2026-10-21 ET (primary fetches 2026-10-22T00:53Z–02:15Z: pravo, Kremlin, government.ru, ЕГРЮЛ, SEC, issuer sites) | STATUS commit: this brief and STATUS are committed together; verify with `python3 scripts/brief_pin_check.py YURI`.
+**As of:** 2026-10-21 ET, session closed out 22:5x ET (primary fetches 2026-10-22T00:53Z–03:05Z: pravo, Kremlin, government.ru, ЕГРЮЛ, SEC, issuer sites, Mintrans) | STATUS commit: this brief and STATUS are committed together; verify with `python3 scripts/brief_pin_check.py YURI`.
 
 ---
 
