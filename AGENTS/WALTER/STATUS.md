@@ -1,9 +1,11 @@
 # WALTER STATUS
-**Updated:** 2026-10-21T15:44:27Z — session closed; bounded view repair IMPLEMENTED + TESTED; general startup/research PARTIAL. BOARD **1564**, six today dispatches. Sole duty/receipt list LAST_COMPLETION.md.
+**Updated:** 2026-10-22T00:26:19Z — LIGHT evening catch-up (Will-launched); intake batches CLOSED 22/22 + 31/31, lane marked; four dispatches 007–010; full closeout deferred. BOARD **1568**, ten today dispatches. Sole duty/receipt list LAST_COMPLETION.md.
 
 ## BOTTOM LINE
 
-Session closed at Will’s request. The bounded orchestration-view repair is IMPLEMENTED + TESTED; acceptance evidence is in PROME/tools/tests/ACCEPTANCE_orch_inflight_closed_rows_2026-10-21.md. October21 startup remains PARTIAL. Owner inbox updates are integrated; six qualified signals preserve the funding revision, Japan corrections, Boston retained-property outcome and three new intake findings. Current source/instrument, full context and READS certification gaps remain explicit in LAST_COMPLETION.md. No whole-market or whole-registry clearance, no trade or new monitor. Existing saved bookmark review and financing work retain their approvals and limits.
+**Evening (October21 ET):** Saudi MoE says a drone aimed at a Shaybah field facility was INTERCEPTED; debris killed two contractors outside the perimeter, operations unaffected (007 → FALCON/BRENT grade; not a WALTER fire call). Car-Mart sale talks reported (008), lender relief now runs to November1 per the October21 8-K (010 corrects 008). Zions Q3 credit clean (009). Live vendor reads October21: VIX 16.68, KRE 70.62, WAL 75.55, Cushing 27.594M (w/e 10/16); HY OAS UNKNOWN (FRED maintenance). No threshold fire observed on the pulled legs; this is not a full-registry clearance.
+
+Earlier: session closed at Will’s request. The bounded orchestration-view repair is IMPLEMENTED + TESTED; acceptance evidence is in PROME/tools/tests/ACCEPTANCE_orch_inflight_closed_rows_2026-10-21.md. October21 startup remains PARTIAL. Owner inbox updates are integrated; six qualified signals preserve the funding revision, Japan corrections, Boston retained-property outcome and three new intake findings. Current source/instrument, full context and READS certification gaps remain explicit in LAST_COMPLETION.md. No whole-market or whole-registry clearance, no trade or new monitor. Existing saved bookmark review and financing work retain their approvals and limits.
 
 ## DATED MARKET OBSERVATIONS
 

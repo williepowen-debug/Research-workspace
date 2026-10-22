@@ -1,5 +1,13 @@
 # WALTER LAST_COMPLETION — October21 session closed; research PARTIAL
 
+## EVENING LIGHT CHECKPOINT — 2026-10-22T00:26:19Z (Will: "boot up… catch up on any new signals")
+
+- **Done:** origin sync 0/0 at start (no pull needed); doctor 0 HIGH; intake lane 4e5ec36 pulled; **BM-20261021-02 CLOSED 22/22** (the 15 morning carries dispositioned: 1 DISPATCH 009, 2 DUP, 2 FOLD, 10 NO-ACTION); **BM-20261022-01 CLOSED 31/31**; `intake_scan.py --mark` run (+18/−9). Phone none, dropzone 0, corrections check PASS. Dispatches **007** (Saudi MoE Shaybah intercept; `anchor_unverified_as_of: 2026-10-15`), **008** (Car-Mart sale talks), **009** (Zions Q3), **010** CORRECTION of 008 + R1 row COR-20261021-10 + banner + INDEX marker. 8+3 create-only handoffs written, `written_not_delivered_pending_push`.
+- **Push:** NOT pushed. None of these are FLASH/IMMEDIATE (§7 self-exception does not apply), and foreign dirty FALCON/OSPREY files are present. Publication pending a Will/PROME-coordinated push; consumption is a separate question.
+- **Gaps carried:** FRED in site maintenance, so HY/CCC OAS and the RED/REG FRED legs were UNKNOWN on this pass. Lane `fred` feed degraded for the same cause; not a collector death. Threshold scan covered only vendor VIX/KRE/WAL/ZION/OZK/HYG, Brent last trade (not settlement) and Cushing. No full four-family row read. No REGISTRY/owner-context refresh; no READS. **Iran full sweep still due ~10/22**; 007 is a scoped check. FALCON STATUS last updated 10/14, and its 10/21 seven-day review is not evidenced. That is an observation, not a DARK verdict. X bookmarks: 7h not run; the pending 94-stage is preserved (no scan, no mark).
+- **Superseded figure I published:** the Car-Mart "through October22" date in 008. PROME had already packeted BROCK. consumer_check was not run this pass.
+
+
 Updated 2026-10-21T15:44:27Z. Will requested session closeout after the bounded repair. Repair IMPLEMENTED + TESTED at dbed8968c; general research remains PARTIAL. Session handoff: research/2026-10-21_session-closeout/HANDOFF.md. Will launched WALTER for explicit instruction loading and startup. Current receipt: research/2026-10-21_boot/BOOT-RECEIPT.md. Prior version preserved verbatim in research/2026-10-21_boot/prior-LAST_COMPLETION.md.
 
 ## STATUS
