@@ -1,85 +1,31 @@
 {
   "kind": "marked",
-  "checked_at": "2026-10-22T15:14:30Z",
-  "items": 22,
+  "checked_at": "2026-10-22T16:11:56Z",
+  "items": 2,
   "scan": {
-    "checked_at": "2026-10-22T15:06:50Z",
-    "head_checked_at": "2026-10-22T15:06:49Z",
+    "checked_at": "2026-10-22T16:05:23Z",
+    "head_checked_at": "2026-10-22T16:05:22Z",
     "head_checked_this_run": true,
     "incomplete": false,
     "attempts": 2
   },
   "review_recorded": true,
   "read_counts": {
-    "fully_read": 15,
-    "partly_read": 7
+    "fully_read": 1,
+    "partly_read": 1
   },
   "dispositions": {
-    "FOLD": 11,
-    "DISPATCH": 4,
-    "NO-ACTION": 5,
-    "DUP": 2
+    "DUP": 1,
+    "FOLD": 1
   },
   "follow_ups": [
     {
-      "id": "2112936889959203248",
-      "ref": "BOARD/SIG-W-20261022-007-iran-full-sweep-oct22-irgc-claims-4-sts-tankers-northern-gulf-plus-3-mine-hits-CLAIM-ONLY-no-ukmto-dammam-toll-2-killed-israeli-sortie-was-oct19-FALCON.md"
-    },
-    {
-      "id": "2113249922980147275",
-      "ref": "AGENTS/WALTER/research/2026-10-22_iran-full-sweep/SWEEP.md"
-    },
-    {
-      "id": "2112985744688267619",
+      "id": "2113283484336918706",
       "ref": "BOARD/SIG-W-20261022-008-axios-big-banks-restrict-third-party-ai-agents-in-customer-accounts-rogue-claims-anonymous-ms-disputes-plus-microsoft-storm-0940-ai-automated-intrusions-GIBBS.md"
     },
     {
-      "id": "2113263019337953546",
-      "ref": "BOARD/SIG-W-20261022-009-great-lakes-spot-gasoline-up-another-45-50c-gal-oct22-kloza-parabolic-cause-unnamed-single-source-BRENT.md"
-    },
-    {
-      "id": "2113269151750033889",
-      "ref": "BOARD/SIG-W-20261022-007-iran-full-sweep-oct22-irgc-claims-4-sts-tankers-northern-gulf-plus-3-mine-hits-CLAIM-ONLY-no-ukmto-dammam-toll-2-killed-israeli-sortie-was-oct19-FALCON.md"
-    },
-    {
-      "id": "2113156227022848211",
-      "ref": "BOARD/SIG-W-20261022-007-iran-full-sweep-oct22-irgc-claims-4-sts-tankers-northern-gulf-plus-3-mine-hits-CLAIM-ONLY-no-ukmto-dammam-toll-2-killed-israeli-sortie-was-oct19-FALCON.md"
-    },
-    {
-      "id": "2113269841717244321",
-      "ref": "BOARD/SIG-W-20261022-008-axios-big-banks-restrict-third-party-ai-agents-in-customer-accounts-rogue-claims-anonymous-ms-disputes-plus-microsoft-storm-0940-ai-automated-intrusions-GIBBS.md"
-    },
-    {
-      "id": "2113265239680770429",
-      "ref": "BOARD/SIG-W-20261022-007-iran-full-sweep-oct22-irgc-claims-4-sts-tankers-northern-gulf-plus-3-mine-hits-CLAIM-ONLY-no-ukmto-dammam-toll-2-killed-israeli-sortie-was-oct19-FALCON.md"
-    },
-    {
-      "id": "2113268796618068421",
-      "ref": "BOARD/SIG-W-20261022-008-axios-big-banks-restrict-third-party-ai-agents-in-customer-accounts-rogue-claims-anonymous-ms-disputes-plus-microsoft-storm-0940-ai-automated-intrusions-GIBBS.md"
-    },
-    {
-      "id": "2113011697476657657",
-      "ref": "AGENTS/WALTER/research/2026-10-22_iran-full-sweep/SWEEP.md"
-    },
-    {
-      "id": "2113259741719806053",
-      "ref": "BOARD/SIG-W-20261022-008-axios-big-banks-restrict-third-party-ai-agents-in-customer-accounts-rogue-claims-anonymous-ms-disputes-plus-microsoft-storm-0940-ai-automated-intrusions-GIBBS.md"
-    },
-    {
-      "id": "2113257735089430640",
-      "ref": "BOARD/SIG-W-20261022-008-axios-big-banks-restrict-third-party-ai-agents-in-customer-accounts-rogue-claims-anonymous-ms-disputes-plus-microsoft-storm-0940-ai-automated-intrusions-GIBBS.md"
-    },
-    {
-      "id": "2113251043173683683",
-      "ref": "BOARD/SIG-W-20261022-008-axios-big-banks-restrict-third-party-ai-agents-in-customer-accounts-rogue-claims-anonymous-ms-disputes-plus-microsoft-storm-0940-ai-automated-intrusions-GIBBS.md"
-    },
-    {
-      "id": "2113252028449206613",
-      "ref": "BOARD/SIG-W-20261022-010-usda-confirms-first-new-world-screwworm-in-us-wildlife-texas-elk-pecos-county-oct21-new-mexico-beef-cow-case-CARL-info.md"
-    },
-    {
-      "id": "2112975078266716390",
-      "ref": "BOARD/SIG-W-20261022-008-axios-big-banks-restrict-third-party-ai-agents-in-customer-accounts-rogue-claims-anonymous-ms-disputes-plus-microsoft-storm-0940-ai-automated-intrusions-GIBBS.md"
+      "id": "2113141875368468508",
+      "ref": "AGENTS/DEWEY/inbox/WALTER/REQ-DEWEY-20261022-001-ADDENDUM-1-ai-cyber-supply-chain-leads.md"
     }
   ],
   "requests": []

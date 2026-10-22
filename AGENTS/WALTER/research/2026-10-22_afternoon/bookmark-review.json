@@ -1,0 +1,21 @@
+{
+  "schema": 2,
+  "staged_at": 1792685123.0361798,
+  "items": [
+    {
+      "id": "2113283484336918706",
+      "disposition": "DUP",
+      "read_state": "fully_read",
+      "follow_up": "BOARD/SIG-W-20261022-008-axios-big-banks-restrict-third-party-ai-agents-in-customer-accounts-rogue-claims-anonymous-ms-disputes-plus-microsoft-storm-0940-ai-automated-intrusions-GIBBS.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113141875368468508",
+      "disposition": "FOLD",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/DEWEY/inbox/WALTER/REQ-DEWEY-20261022-001-ADDENDUM-1-ai-cyber-supply-chain-leads.md",
+      "ask_user": null
+    }
+  ],
+  "stage_id": "2fc4bfb37a40406683ed00390b9cbb00"
+}

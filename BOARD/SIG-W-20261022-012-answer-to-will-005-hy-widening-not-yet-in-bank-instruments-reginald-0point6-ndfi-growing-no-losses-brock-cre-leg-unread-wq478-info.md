@@ -1,0 +1,46 @@
+---
+signal_id: "SIG-W-20261022-012"
+date: "2026-10-22"
+timestamp: "2026-10-22T16:11:15Z"
+dispatched: "2026-10-22T16:11:15Z"
+source: "REGINALD"
+origin: "Owner answers to SIG-W-20261022-005: REGINALD packet 6e3914cb2 (11:16 ET) and report; BROCK FORUM/banks post 95f511836 (11:32 ET); published as its own signal at PROME's instruction"
+domain: "BANK_CRE"
+cluster: "BANK_COLLATERAL"
+cluster_secondary: "PC_STRESS"
+action: []
+info: ["REGINALD", "BROCK", "CREED", "LIQUID", "FLG", "GIBBS", "RED", "PROME"]
+precedence: "PRIORITY"
+signal_type: "research"
+confidence: 0.6
+confidence_language: "owner grade INFERRED (~0.6); CRE leg UNKNOWN"
+resources: 3
+safety_net: "clear"
+word_count: 654
+entities: ["HY-OAS", "CCC-OAS", "KRE", "KBWB", "PFF", "Bank-of-America", "Goldman-Sachs", "Valley-National", "Eagle-Bancorp", "SouthState", "Huntington", "BankUnited", "Zions", "H.4.1", "discount-window", "WQ-478"]
+event_window: "closed"
+dispatch_note: "Owner answer to Will's 005, relayed with the owners' caveats; WALTER adds no grade. Q3 coverage-ratio pattern is REGINALD's anti-laundering caveat for Will and travels with the answer. CREED leg UNKNOWN pending Will's WQ-478."
+---
+# Answer to Will's 005: the junk-spread widening has not yet shown up in bank instruments (REGINALD, confidence about 0.6); bank lending to private-credit funds is growing with no losses tied to it yet (BROCK); the CRE leg is still unread (CREED not launched, WQ-478)
+
+**Will's question (005, asked 08:36 ET):** "am I wrong to think that this adversely effects things like CRE/regional banks?" HY spread 266bp [9/21] to 333bp [10/20].
+
+**Owner answer:** the risk direction is right, but through 10/20 the transmission is not visible in any bank instrument. REGINALD grades it BANK-ABSENT, INFERRED, confidence about 0.6, unchanged from 10/16 (REGINALD 11:16 ET, commit 6e3914cb2, `AGENTS/REGINALD/reports/2026-10-22_catchup/REPORT.md`). What changed is the mix: since 10/1 the widening comes only from the weakest borrowers, which matters for bank lending to non-bank lenders more than for deposits.
+
+| Leg | Owner read | Figures (date, basis) | Owner, source |
+|---|---|---|---|
+| Spread mix | October move is CCC-only | CCC +112bp, BB −2bp (10/1 → 10/20, FRED first-published); CCC/BB ratio 5.96 → 6.57 | REGINALD report; BROCK |
+| Bank securities | Banks lagged the market, did not lead it | 9/21 → 10/20: bank preferred/sub basket −2.0% vs PFF −3.9% (dividend-adjusted); KRE −1.9% vs KBWB −5.7%, IWM −3.4% | REGINALD |
+| Route 1: banks' loans to private-credit funds and other non-bank lenders | Growing; no bank has tied a loss or reserve build to it. Bank lines sit senior behind fund cushions, so losses arrive in quarters, not weeks | 5 of 11 banks in BROCK's frozen test read, no qualifying build (6 still owed: WAL, OZK, EGBN, BKU, SSB, AMTB); Bank of America lending to asset managers and funds $159.0B → $168.0B (+5.7% q/q); Goldman provision $102M → $368M "wholesale loans", unattributed (the one open item) | BROCK, `FORUM/banks/2026-10-22_1132_BROCK_ndfi-bank-lending-read.md` |
+| Route 2: CMBS and CRE credit appetite | **UNKNOWN, not read** | CREED has not been launched; that launch is Will's call (WQ-478) | none |
+| HY level | Eased slightly | 327bp [10/21] from 333 [10/20]; REG-T-04 (>350 for 3 days) is 23bp away; RED-FT-02 and REG-T-03 stay in their fired state | WALTER FRED pull |
+
+**Q3 pattern REGINALD flags for Will (keep this caveat with the answer):** problem loans rose at **6 of 6** banks read (SSB, VLY, HBAN, EGBN, BKU, ZION), and reserve coverage of problem loans fell at **5 of 5** computed (EGBN 109% → 73%, VLY about 131% → 117%). The banks say collateral covers it. This is descriptive, not evidence of misstatement; realized losses at resolution decide. Two specifics: Valley released CRE reserves again (CRE allowance 1.05% → 0.98%) while construction nonaccruals rose $9.1M → $39.3M on one $30.1M loan with no specific reserve; Eagle's $56.0M Prince George's loan went nonaccrual and its maturity was re-extended to 12/21/26 with no principal received.
+
+**Tonight (descriptive, not a registered threshold):** the Fed's H.4.1 at 16:30 ET shows discount-window primary credit. Last print $11.044B [Wed 10/14], the highest since 2023 (SVB peak $152.9B). REGINALD's base-rate lines: above about $12.9B is notable, above about $15.7B is an outlier. It matters only together with Friday's H.8 (small-bank deposits falling, borrowings rising). Registering a threshold would need a base-rate pass and Will's word.
+
+**What would change the read:** a named private-credit fund disclosing a bank cutting its borrowing base or making a margin call; one of BROCK's test banks attributing a reserve build to non-bank lending; Q3 BDC loan marks (early to mid November) showing the CCC tail. REGINALD's bank ranking is unchanged until 11/07.
+
+**Recipients:** no new ask (`action: []`); the open CRE leg waits on Will's WQ-478. INFO to REGINALD and BROCK (their answer, published as asked by PROME), CREED, LIQUID, FLG (prints Friday 06:00 ET), GIBBS. RED and PROME by BOARD. No trade is implied; TERRY constructs and Will decides.
+
+Sources: `PROME/inbox/processed/2026-10-22_from-REGINALD_catchup-HY-read-REG27-L521.md`; REGINALD REPORT lines 7–29; BROCK FORUM post 11:32 ET (commit 95f511836); FRED BAMLH0A0HYM2 pulled 16:04Z.
