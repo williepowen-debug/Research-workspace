@@ -101,7 +101,7 @@
 
 ## SUMMARY FOR WILL
 
-*(October21)* **WAIT on new energy capital, unchanged. The Strait is moving barrels again: about 14 mb/d last week, 82% of pre-war, mostly on tankers that the public ship trackers cannot see. Brent near $109 is pricing danger and scarcity rather than missing oil. US drivers are not cutting back yet. No new Will decision.**
+*(October21)* **The diesel margin that governs the original VLO share fell to $95.05, five cents above the $95 notice line (an estimate; the CME settlement was not read). Notice only, no action; the sell line is $4.89 lower. Kpler's own data: refined products are still ~50% below pre-war while crude is back. WAIT on new energy capital, unchanged. The Strait is moving barrels again: about 14 mb/d last week, 82% of pre-war, mostly on tankers that the public ship trackers cannot see. Brent near $109 is pricing danger and scarcity rather than missing oil. US drivers are not cutting back yet. No new Will decision.**
 
 *(Prior October14:)* **WAIT on new energy capital. Product scarcity can outlast crude recovery; current net oil loss after the latest attacks is unmeasured. December USO162/175 is a researched continuation candidate with material friction, not an approved replacement. Will handles today's calls. October15 policy/inventory work is prepared; outcomes and owner VLO grade remain open. No new Will decision.**
 

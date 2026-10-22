@@ -3,7 +3,7 @@
 **Status:** Energy WAIT retained; Hormuz flow basis settled (volume ~14 mb/d, 82% of pre-war; PortWatch is an AIS lower bound); BRT-31 week two NON-QUALIFYING, overall OPEN.
 **Domain:** Oil/energy supply, demand, structure and transmission.
 **Thesis version:** v5.13; no calibration or capital-authority change.
-**As of:** October 21, 2026 21:4x ET — live catch-up session — SCOPED-PARTIAL. Re-verified: EIA WPSR week 10/16 (release-day primary), EIA retail 10/19, Brent/WTI December settles 10/21 (secondary, arithmetic-checked), PortWatch Hormuz 10/5–10/18, Kpler September explainer (primary), JWC circular index. Positions were not re-verified against TRADE in this pass; no position or spec claim in this brief changed. Not re-verified: COT, rigs, Dated Brent spot (FRED maintenance), broker, cargo, company or holding grades. Rows below dated before 10/21 keep their own vintages. USER.md: Will manages expiries; no reminders.
+**As of:** October 21, 2026 22:04 ET (closeout, from `date`) — live catch-up session — SCOPED-PARTIAL. Also re-verified after 21:30: own one-minute HOZ26/CLZ26 bars 10/15–10/21 (December crack adoption) and the Kpler 10/1 primary. Re-verified: EIA WPSR week 10/16 (release-day primary), EIA retail 10/19, Brent/WTI December settles 10/21 (secondary, arithmetic-checked), PortWatch Hormuz 10/5–10/18, Kpler September explainer (primary), JWC circular index. Positions were not re-verified against TRADE in this pass; no position or spec claim in this brief changed. Not re-verified: COT, rigs, Dated Brent spot (FRED maintenance), broker, cargo, company or holding grades. Rows below dated before 10/21 keep their own vintages. USER.md: Will manages expiries; no reminders.
 
 ## CROSS-DOMAIN
 

@@ -1,4 +1,4 @@
-# BRENT SCRATCH — October 21 catch-up (21:11–22:0x ET)
+# BRENT SCRATCH — October 21 catch-up (21:11–22:04 ET, closeout stamp from `date`)
 
 ## CHANGES SINCE LAST SESSION
 - EIA week 10/16 (released 10/21): commercial crude −3.061 M to 412.517 M; gasoline −2.952 M; distillate +1.674 M; production 13,269 kb/d (−410 w/w). Gasoline demand four-week +1.46% YoY.
@@ -13,7 +13,10 @@
 - BRT-31 week two evaluated from a release-day primary capture: +1.461596692482385%, NON-QUALIFYING, streak 0, price +41.90%, counter 0 of 3; OPEN at 40%. Recorded in the PREDICTIONS row, prediction note and CHANGELOG.
 - Hormuz basis settled for PROME/HAWK: PortWatch is an AIS lower bound; one volume figure recorded with its basis. Packets to HAWK inbox and PROME/inbox. [Report](research/2026-10-21_eia-oct21/REPORT.md).
 - TRACKER: lines 4, 6, 10 and 11 refreshed, plus a SCOPED-PARTIAL stamp. STATUS judgment, limits and summary updated; NEXUS_BRIEF refreshed.
-- Ten mail items consumed and filed (eight WALTER, two PROME). HENRY 10/19 and OSPREY 10/15 remain deferred.
+- Ten mail items consumed and filed (eight WALTER, two PROME), plus HENRY 10/19 later: 11 board_log rows = 11 moves. OSPREY 10/15 remains deferred.
+- HENRY December crack observations ADOPTED on the WQ-420 native-tick basis, extended to 10/20 and 10/21 (95.0479, near-line); packets to HENRY and TERRY, plus a direct message to HENRY. [Adoption](research/2026-10-21_henry-december-adoption/REPORT.md).
+- Kpler October check: Kpler primary 10/1 has crude ~100% and clean products ~50% below pre-war; the October weekly is relay-only; 24.6 regional not adopted. [§8](research/2026-10-21_eia-oct21/REPORT.md). Six dated next-step rows added to the docket; calendar regenerated.
+- Auto-memory: extended `finding_a_stamp_written_from_narrative_drifts_from_the_wall_clock` (two typed '21:5x' stamps fixed pre-commit).
 
 ## NEXT SESSION (dated, future-verifiable)
 1. **DONE 21:35 ET:** HENRY December observations ADOPTED (native-tick basis), extended to 10/20 100.1768 and **10/21 95.0479 (near-line)**. [Adoption](research/2026-10-21_henry-december-adoption/REPORT.md). Next: if TERRY or Will reads the CME 10/21 HOZ26/CLZ26 settlements, record them; they govern. The 10/22 window crack is the next leg-A input (TERRY grades).
