@@ -1,3 +1,4 @@
 receipt_date	correction_id	action	note
 2026-10-10T16:54Z	COR-20260924-17	NO-OP	scope=MARCO never carried the grocery nominal-sales claim - STATUS NEXUS_BRIEF KB VX THESIS grep grocery = 0 at 2026-09-24 and SIG-W-20260813-019 was logged info-only; artifact=AGENTS/MARCO/board_log.tsv#SIG-W-20260924-017; receipted 2026-10-10 L0 drain marco-1010 in the WQ-399 form
 2026-10-15T00:24Z	COR-20261012-15	NO-OP	scope=MARCO carries no EU gas-storage, DR-4 or HNS-07 figure or dependency. Grep of AGENTS/MARCO md+tsv+py for DR-4, HNS-07, AGSI, gas storage, TTF returned 0 hits on 2026-10-14. MARCO energy leg is ENR-02 airfares and Brent is cited from BRENT.; 
+2026-10-22T02:44Z	COR-20261015-06	NO-OP	scope=MARCO carries none of the FL metro active-listings YoY figures from SIG-W-20261012-035 or -20261014-006 (grep 10/21 of STATUS, NEXUS_BRIEF, FIGURES, VX, KB found none, and neither original signal is in board_log). Read at BOARD. CORAL owns the cells.; 

@@ -30,6 +30,7 @@ This file is the evidence backing the corrected cells on `STATUS.md`, `NEXUS_BRI
 
 | Heading | Rate | Enumeration |
 |---|---|---|
+| ⚠️ *Table = the 8/21 list as read 9/02. From 9/15 the list changed (122 lines added, 10 removed) and 9903.03.15 is claimable by 9903.03.13 goods only — see the Autos section and `KB-MARCO-CAN-50`.* | | |
 | 9903.03.12 | **50%** | 11 lines — Ch.22 beverages, Ch.44/48 wood & paper |
 | 9903.03.13 | **50%** | 9 lines — Ch.04 dairy, Ch.17 sugars, Ch.35 caseins/albumins |
 | **9903.03.14** | **50%** | **~1,054 lines — the wide annex, Ch.04→97** |
@@ -45,7 +46,7 @@ This file is the evidence backing the corrected cells on `STATUS.md`, `NEXUS_BRI
 ### Autos — the decisive line-level read
 - **Chapter 87 contains exactly ONE line in the 50% list: `8711.50.00`** (motorcycles, reciprocating piston engine > 800 cc).
 - **`8703` (passenger cars), `8704` (goods vehicles), `8708` (parts) : ZERO lines.**
-⇒ **MARCO's 8/22 mechanism formulation is confirmed with witness lines, not asserted:** §232-subject vehicle lines are out (0%, heading 9903.03.15); the residual vehicle exposure at 50% is **motorcycles and nothing else**.
+⚠️ **SUPERSEDED FROM 2026-09-15 — corrected 2026-10-21 on HAWK's 10/21 packet, re-read at the primaries (`KB-MARCO-CAN-50`).** Proclamation 11065 (signed 9/8, 91 FR 58339, FR Doc 2026-18839, published 9/14), clause (1), verbatim: *"The duties imposed pursuant to Proclamation 11048, as modified in this proclamation, shall apply in addition to duties imposed pursuant to section 232"*, effective 12:01 a.m. ET 9/15. CBP CSMS #69851916 (9/11), verbatim: *"As of September 15, 2026, only goods subject to HTSUS 9903.03.13 are eligible to claim HTSUS 9903.03.15."* ⇒ the 0% §232-class exemption **no longer covers the 9903.03.14 motor-vehicle annex**: a §232-class article on that list now pays 50% on top of §232 (e.g. the steel/aluminium derivative lines; 122 lines added 9/15 include 9 Ch.76 and 3 Ch.73). **But passenger cars `8703.22`+, goods vehicles `8704` and parts `8708` are still ABSENT from the list** (CBP 'Section 338 Canada Modified HTS LIST eff 091526', read 10/21) ⇒ their §338 rate is still zero — now because they are not listed, not because of 9903.03.15. Ch.87 lines at 50% are now **three**: `8711.50.00` (motorcycles >800 cc) plus `8703.10.50` and `8703.21.01`, added 9/15 (snow vehicles / golf-cart class; spark-ignition ≤1,000 cc — the product mapping is INFERRED from the tariff headings, not verified). *The 9/02 wording, true for entries 8/22–9/14 only: "§232-subject vehicle lines are out (0%, heading 9903.03.15); the residual vehicle exposure at 50% is motorcycles and nothing else."*
 ⚠️ **Steel is the proof the carve-out is LINE-specific, not chapter-wide: 46 Ch.73 + 1 Ch.72 lines sit in the 50% list even though 9903.03.15 carves out "articles of steel."** A chapter-level read of this action is wrong in both directions.
 
 ### Composition — the framing correction

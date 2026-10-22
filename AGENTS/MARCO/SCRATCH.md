@@ -1,52 +1,47 @@
 # MARCO SCRATCH.md — Ephemeral Session State
-**Last Updated:** session 32 — opened **2026-10-14 20:20 ET** (Wed), Will-launched full session ("boot up … catch up data missed while we may have been dark"), then "continue to work on the owed" (s32b), "fix the Arizona rule now" (s32c), closed out ~22:10 ET. Model: claude-opus-5-5 (Claude Code). Two background forks pulled travel + FL data to scratchpad only; all repo writes are this session's.
+**Last Updated:** session 33 — opened **2026-10-21 ~22:34 ET** (Wed), PROME-spawned (prome-56, wave 3 of the agent catch-up plan `PROME/plans/2026-10-21_agent-catchup-PLAN.md`; Will authorized 21:56 ET "you may spawn agents as you see fit"). Tier-1 full owner session: whole-inbox drain + lapsed prints + closeout. Model: claude-opus-5-5 (Claude Code, Agent-tool spawn from PROME's cwd — charter read explicitly). Other desks working concurrently (AEOLUS, GIBBS, CARL, HANS, YURI, BRENT, WALTER): tree dirty with their paths — not pulled, not stashed, not touched.
 
-## CHANGES SINCE (session 31 → 32, 10/10 → 10/14)
-- **Prints that landed or lapsed:** Banxico Aug CE81 (10/1) · LVCVA Aug (~9/30) · BLS Sep CPS · BLS Sep CPI (10/14) · StatCan Sep dailies · NTTO Sep Advance · BTS July T-100. All read this session.
-- **Inbox:** WALTER's WQ-295 live-test verdicts (10/10) · DEWEY DR-4 storage correction (10/12) · WALTER SIG-W-20261012-015 (same correction, `COR-20261012-15` — blocked the corrections check until receipted).
+## CHANGES SINCE (session 32 → 33, 10/14 → 10/21)
+- **Inbox (7):** LABOR 10/15 (population-control answer) · PROME 10/15 (Isaias landed Cat 2, stale line) · CORAL 10/21 (FL Realtors Sep 7.7 / 4.4) · HAWK 10/21 (S338 stacks on 232 from 9/15) · WALTER -1015-006 (FL active-listings correction, COR-20261015-06), -1019-003 (HY 331bp), -1019-004 (NAHB HMI 29).
+- **Prints:** BLS state September (10/20) landed. MIA Sep PDF still 404 · LVCVA Sep not out · OFLC Q4 not out · Banxico Sep 11/2 · CPS Oct 11/6 (ungradable).
 
-## WHAT I DID (session 32)
+## WHAT I DID (session 33)
 | Item | Result |
 |---|---|
-| Banxico Aug | count **−6.39% YoY**, 2-yr **−11.99%** ⇒ **SDL-01 remittance re-spec CONFIRMED** (2 of 2). Apr–Aug = 5-month sub-−5% run, second only to 2009–10. Caveat: Aug-24 +8.93% base (3-yr −4.13%). `VX-2.08`, `KB-REM-09` |
-| BLS Sep CPS | foreign-born LF **+206K YoY** ⇒ `SDL-01` **ELEVATED → NORMAL** (first increase). Noise test: +585K one-month swing = 1.77 sd, 12/182 months. **Conviction HELD**; Nov CPS rule **pre-registered** in VX SDL-01. <HS LFPR 44.3% vs 47.6%. `KB-WFD-17`; LABOR asked about the Jan-2026 population-control effect |
-| BLS Sep CPI | airfares 2-yr **+26.36%** ⇒ `ENR-02` **leg 1 PASSED** (Oct needs +1.01% MoM; 12/12 Sep→Oct rose ≥1.30% 2013–24 — context). F&V +3.85% ⇒ **MAR-14 12% → 6%** (Oct-25 missing: Nov+Dec only). `KB-ENR-37`, `KB-PRD-39` |
-| StatCan Sep | 2-yr **−28.72%** BREACHED 11th month (weekday-adj −25.63 — raw deepening is calendar); **`ID-01` leg 1 MET** (gap −12.41pp, move −7.69pp). `VX-1.01`, `KB-CAN-49`; charter threshold row updated byte-neutral |
-| NTTO Sep | **−22.40% vs 2019**, YTD −20.92% — CRITICAL, widening run broke. Advance = no Table C; Table A equivalence verified. `VX-1.02`, `KB-IVF-43` |
-| LVCVA Aug | visitors −4.3%, RevPAR −11.5%, air −9.2% — room-$ letter fires, **CONFOUNDED by Labor Day** (LVCVA-named). **Pre-registered:** Aug+Sep combined RevPAR negative ⇒ survives the holiday. `VX-NV-01`, `KB-NV-04` |
-| BTS July | all three FL airports negative raw (2nd month); ex-Spirit MCO +7.01 / FLL +31.42 ⇒ CONFOUNDED; index −7.13%; no revisions. MAR-24 July leg met on first print (MIA inside revision range), held 80%. MIA Sep PDF not up. `VX-1.04`, `KB-APT-46` |
-| FL voter-reg Sep | +65.7% YoY / vs Sep-22 +0.2% — midterm cycle, not a tell. Appended via tool + hand caveat (MAINTENANCE T2-G re-observed). `KB-MIG-09` |
-| Ledgers | VX ×7 rows · KB +9 · PREDICTIONS (MAR-14, MAR-24) · CATALYSTS (5 pruned → TIMELINE, 5 added, state map re-dated to 11/2 "run or retire", ENR-02 full letter moved into the leg-2 row) · CALENDAR · TIMELINE · FIGURES (10/14 block) · THESIS (evidence note, no version move) · STATUS |
-| Inbox | WATCH_FOR: adopted 4 PASS + `Canadian trips United States`, declined `Canadian trips` → `PROME/inbox/2026-10-14_from-MARCO_watch-for-adopt-decline-WQ-295.md`. `COR-20261012-15` receipted NO-OP. 3 items → processed |
-| Consumer check | 5 superseded figures scanned; every 🔴 hit was a different series (KB IDs, mortgage 6.76, skew) or a dated snapshot — no packets owed |
-| **s32b owed-work pass (Will: "continue to work on the owed")** | **State map RUN → retired** as a spatial test (modeled US-state map sd 0.40pp vs measured 5.72pp; 2025 figures restated AZ −5.30 / TX −5.02 / MI −4.95). **TOUR-03 instrument ADOPTED** (BTS FJE seats, hole-checked; winter 25-26 −11.03%, FL −17.67%; summer ~at 2025) — ⚖️ letter basis put to Will → **RULED: calendar year vs 2025** (conf 90→75%). **VX AZ-01** NORMAL (+6.72%; YoY-base defect T2-J) · **TAX-01** NORMAL (8/21 self-correction REVERSED: July first print revised +5.03%) · **ENF-01** NORMAL (8/21 'fee-funded' mechanism WRONG; retirement withdrawn). **T2-E DONE** (slaughter merge + selftest A–G; boot content gates — CE100 Q2 found never pulled). Caught + undone: tsvutil re-quoting the TOURISM ledger (T2-L). **s32c (Will: 'fix the Arizona rule now'):** AZ-01 re-spec'd to a LEVEL basis (inventory excess vs 2017–19 norm minus US), declared before reveal, blind-validated; a 2-yr growth rule was tested and rejected; Sep in-sample +31.7pp CRITICAL band; T2-J DONE. Correction of my own s32 docket note ('Q2 already mapped 8/11' — false). |
+| BLS state Sep | `VX-2.06` **ELEVATED → NORMAL**: Sep prelim gap **+1.91pp** (FL 7.60 / TX 3.80 / CA 7.42 / AZ 5.62 vs US 4.20); revised Aug **+2.38pp** held — one-month crossing. Docket letter named neither outcome; graded on the band letter. `KB-WFD-20` |
+| CORAL FL Realtors | Verified at both PDFs: condo/TH **7.7** (flat — decline run ended), SF **4.4**; ONE number, **CORAL carries the canonical cell**. VX-FL-02, STATUS, charter threshold cell (byte-neutral). `KB-FLI-04` |
+| HAWK S338 | Re-read FR 2026-18839 (Proc. 11065 cl. 1 verbatim) + **CBP CSMS #69851916** + its HTS list docx: stacks on §232 for **listed** lines; 9903.03.15 dairy-only from 9/15; **8703.22+/8704/8708 still unlisted**; Ch.87 at 50% = 3 lines. 9/02 file corrected in place; `KB-CAN-50`; CAN-41 annotated; packet → HAWK |
+| LABOR pop-control | BLS tech doc (WebFetch binary + pdfminer): nativity **not** a control dimension (verbatim); Hispanic LF +165K, Asian +938K; foreign-born Dec→Jan **+632K** (z 2.12 ex-2025) ⇒ INFERRED upward level break; SDL-01 NORMAL holds on the letter with caveat. `KB-WFD-19`; packet → LABOR |
+| PROME Isaias | STATUS line now: Category 2 landfall near Destin 10/9 (105 mph), EM-3655 only |
+| WALTER ×3 | board_log rows; COR-20261015-06 receipted NO-OP (MARCO carries none of the six metro figures) |
+| H-2A | live: OFLC still `FY2026_Q3` newest (no Q4) — VX H2A-01 re-verified receipt |
+| Docket | 10/20 row graded + pruned → TIMELINE; ENR-02 leg 2 **11/12 → 11/10** and SDL-01 **12/4** VERIFIED on BLS schedules; added 11/6 Oct CPS (context), 11/16 FL Realtors Oct, 11/20 BLS state Oct. CALENDAR NEXT WINDOW rebuilt |
+| STATUS | re-stamped; rotated 26 verbatim lines → `domain/sources/_archive/STATUS_rotated_s33_20261021.md` (21,690 B, under 70%) |
 
 ## NEXT SESSION — in this order
-1. ✅ TOUR-03 ruled by Will 10/14 (calendar year vs 2025; bar 36,069,253; conf 75%) — applied to the TOURISM ledger, KB-IVF-45, docket resolvers 2027-03-15 / 2028-03-15. Nothing owed.
-2. 🟡 **~10/20 (est.):** BLS state September — confirm `VX-2.06` on revised August.
-3. 🟠 **~10/28:** **MIA September Traffic Report** (direct URL, double space) — the MIA-2-consecutive trigger (Aug −5.69%). **LVCVA September** — grade the pre-registered Aug+Sep combined RevPAR letter.
-4. 🟡 **~11/5 (est.):** Realtor.com October — `AZ-01` first SCORED print on the level basis re-spec'd 10/14 (Sep in-sample +31.7pp = CRITICAL band). Grade on the new letter; keep 'any-cause, not snowbird attribution' on the mark.
-5. 🟠 **~11/2:** Banxico September CE81 (boot fetches; CE100 Q3 auto-fetches as context).
-6. 🔴 **~11/12:** `ENR-02` leg 2. 🟠 **~11/13:** StatCan October — `ID-01` leg 2. 🟡 ~11/15 OFLC Q4 (`MAR-11`), NTTO Oct, BTS Aug.
-7. 🔴 **~12/4 (est.):** November CPS — `SDL-01` next gradable print; apply the THESIS pre-reg as written.
-8. One process change: T2-L (normalize + guard the TOURISM ledger) or T2-G (voter-reg cycle column). T2-K (T-100 DOMESTIC seats → size Spirit's capacity hole) is the highest-value research build.
-9. **Do NOT hunt a fifth Channel-1 transmission instrument**, and do not read `SDL-01` NORMAL as a thesis change before November.
+1. 🟠 **~10/28:** **MIA September Traffic Report** (direct URL, double space; 404 on 10/21) — the MIA-2-consecutive trigger (Aug −5.69%). **LVCVA September** — grade the pre-registered Aug+Sep combined RevPAR letter.
+2. 🟠 **11/2:** Banxico September CE81 (boot fetches). 🟠 **11/3:** FL Amendment 3 result (CORAL's cell).
+3. 🟡 **~11/5:** Realtor.com October — `AZ-01` first SCORED print (level basis). 🟡 **11/6:** October CPS — context only (level + 2-yr; no YoY grade).
+4. 🔴 **11/10:** `ENR-02` leg 2 (October airfares, needs +1.01% MoM). 🟠 **~11/13:** StatCan October — `ID-01` leg 2. 🟡 ~11/15 OFLC Q4 (`MAR-11`), NTTO Oct, BTS Aug. 🟡 11/16 FL Realtors Oct. 🟡 11/20 BLS state Oct (`VX-2.06`).
+5. 🔴 **12/4:** November CPS — `SDL-01` next gradable print; apply the THESIS pre-reg as written, with the `KB-WFD-19` caveat.
+6. **MEMORY rotation owed before any addition** (24,345 B, 67 B under the 75% trigger). Route notes to add after rotating: CBP CSMS bulletins + docx attachments read by browser-UA curl (`content.govdelivery.com/accounts/USDHSCBP/bulletins/<id>`, attachment href in page; bold = additions); BLS tech-doc PDFs 403 to curl but WebFetch saves the binary → pdfminer works.
+7. Process options (pick one at most): T2-L (TOURISM ledger guard) · T2-G (voter-reg cycle column) · T2-K (T-100 domestic seats → size Spirit's hole, highest-value research build).
+8. **Do NOT hunt a fifth Channel-1 transmission instrument**; do not read `SDL-01` NORMAL as a thesis change before 12/4.
 
 ## OPEN THREADS
 | Item | Status |
 |------|--------|
-| 🔴 Channel-1 quantity SPLIT | remittances down (Aug), CPS up (Sep) — Nov CPS ~12/4 |
+| 🔴 Channel-1 quantity SPLIT | remittances down (Aug), CPS up (Sep, now with the population-control caveat) — Nov CPS 12/4 |
 | 🔴 FL-$ hole | DEWEY `MARCO-DR-1` = PROME L466, needed-by 11/16; nothing by then ⇒ MARCO retracts |
 | 🟠 MIA trigger | Aug 1 of 2; Sep report ~10/28 |
 | 🟠 `ID-01` | leg 1 MET; Oct ~11/13 |
-| 🟡 LABOR ask | Jan-2026 population-control size on foreign-born LF (answer optional) |
-| 🟡 WATCH_FOR | adopt/decline sent; PROME lands the set |
-| ⚠️ Read budgets | STATUS **74.5%** · MEMORY **74.8%** (next addition to EITHER must rotate first) · NEXUS_BRIEF ~60% · charter 32,539 B (11 B headroom — any charter addition must trim first) |
+| 🟡 LABOR | nativity split of the Jan-2026 control (supplemental XLSX / experimental series 403 here) — optional ask sent |
+| 🟡 HAWK | S338 scope reply sent (cars/light trucks/parts unlisted); Proc. 11061–11063 import exclusions unread by MARCO |
+| ⚠️ Read budgets | STATUS 21,690 B (<70%) · MEMORY 75% (rotate before adding) · charter 32,539 B (0 B net change; 11 B headroom) |
 
 ## Mail state
-**Inbox: 0 unprocessed** (4 top-level, incl. DAEDALUS 10/14 H2 as-made dispositions — APPLIED: MAR-10/15/25/27 labelled `UNRECORDED-AS-MADE`, MAR-22 AS-MADE AUDIT note added; label read as sufficient, no Brier-exclusion contest; DAEDALUS checks by 10/21 — and the 3 earlier → `inbox/processed/`, incl. DAEDALUS 10/14 brief-pin wiring — applied: charter closeout-11 now names `scripts/brief_pin_check.py MARCO` in place of the A10 timestamp test; 1 WALTER → `inbox/WALTER/processed/`, board_log row 2026-10-15T00:24Z).
-**Sent:** PROME (WATCH_FOR adopt/decline; closeout memo ①–⑦ per PROME's 10/14 ask) · LABOR (SDL-01 flip + population-control ask).
+**Inbox: 0 unprocessed** — 4 top-level → `inbox/processed/` with `.consumed.tsv` declarations; 3 WALTER → `inbox/WALTER/processed/` with board_log rows (2026-10-22T02:44Z).
+**Sent:** HAWK (S338 scope) · LABOR (population-control nativity) · PROME memo `PROME/inbox/2026-10-21_from-MARCO_catchup-wave3.md`.
 
 ## PUSH STATE
-Session 32 closeout: final `safe-push.sh` receipt is in the closeout message. Every earlier s32 push printed `Pushed. CONFIRMED` (heads 0002774f0, 2873dd07c, e05f4074b, 352f1fa15).
-**SKIPPED this closeout (stated, not hidden):** the >60-day research-retirement sweep (root Data Hygiene) — not run; consumer_check for the AZ-01/TAX-01/ENF-01/TOUR-03 figures — not run (no peer cites them per the 10/14 grep of SDL-01-class surfaces; AZ/NV/E-Verify have no registered consumers).
+Session 33 closeout: receipts in the PROME memo / SendMessage.

@@ -1,6 +1,6 @@
 # MARCO — LOAD-BEARING FIGURE REGISTER
 
-**Created:** 2026-07-31 (session 19) · **Last verification pass:** 2026-09-24 (session 30 — stale-row sweep: remittances, IRS, StatCan Q2 BOP, state AHE, voter-reg cycle; see §1 9/24 s30). PRIOR: 2026-09-24 (session 29 — airfares, TX border receipts, border-muni credit; see §1 9/24 s29). PRIOR: 2026-09-17 (session 26 — enrollment + Canadian perimeter rows; the 7/31 pass rows stand as dated)
+**Created:** 2026-07-31 (session 19) · **Last verification pass:** 2026-10-21 (session 33 — PROME wave-3 catch-up: state AHE, FL months of supply, CPS population controls, Section 338 scope; see §1 10/21 s33). PRIOR: 2026-09-24 (session 30 — stale-row sweep: remittances, IRS, StatCan Q2 BOP, state AHE, voter-reg cycle; see §1 9/24 s30). PRIOR: 2026-09-24 (session 29 — airfares, TX border receipts, border-muni credit; see §1 9/24 s29). PRIOR: 2026-09-17 (session 26 — enrollment + Canadian perimeter rows; the 7/31 pass rows stand as dated)
 
 > ## ⚠️ THIS IS A VERIFICATION LOG, NOT A SOURCE OF TRUTH
 > Every figure below has a named **canonical owner**. **If this file and the owner disagree, the OWNER WINS and the row here is stale — re-run it.** This file exists to answer one question the owner files cannot: **"when was this number last checked against a primary source, and by what method?"**
@@ -173,6 +173,17 @@ Every new print below was taken only after the SAME pull reproduced the figure M
 | **Mexico remittances by Mexican state** | H1-26 $30,778.9M +3.14% (= CE81 Jan–Jun sum); 30 prior quarters unchanged | Q2 2026 | Banxico CE100 | `KB-REM-10` |
 | **Implied US-state 2025 remittances** | **RESTATED** AZ −5.30 / TX −5.02 / MI −4.95 / CA −2.91 (4/21 vintage −6.1 / −5.8 / −5.6 / −3.5) — modeled, fixed weights | CY2025 vs 2024 | `banxico_reverse.py` | `BANXICO_STATE_REVERSE.md` addendum |
 | **US–Canada air seats** | winter 25-26 **13.40M vs 15.06M (−11.03%)**; FL 2.96M vs 3.59M (−17.67%); holes filled Jun/Jul-26 | Nov-25–Mar-26; thru Jul 2026 | BTS T-100 Intl Segment FJE | `TOUR-03` · `KB-IVF-44` |
+
+### 10/21 — VERIFIED THIS PASS (session 33, PROME wave-3 catch-up) — pulled from the issuing primary 2026-10-21
+
+| Figure | Verified value | Data period | Series / method | Canonical owner |
+|---|---|---|---|---|
+| **Construction AHE class gap (FL/TX/CA/AZ − US)** | **+1.91pp** (class +6.11% vs US +4.20%, both prelim); revised Aug **+2.38pp** (prelim 9/24 +2.43 — revision −0.05pp) | Sep 2026 | BLS API v2 SMU{12,48,06,04}00000200000003 / CES2000000003 | `VX-MARCO-2.06` · `KB-WFD-20` |
+| **FL months of supply** | condo/TH **7.7** (Sep-25 9.1) · SF **4.4** (5.1); Aug 7.7 / 4.3 carried by CORAL's prior packet | Sep 2026 | FL Realtors summary PDFs (pdfminer) | **CORAL** (canonical) · `VX-MARCO-FL-02` · `KB-FLI-04` |
+| **Foreign-born labor force, Dec→Jan** | Dec-25 32,426k → Jan-26 33,058k (**+632k**); native −1,743k; Sep-26 32,279k reproduces | Dec 2025–Jan 2026 | BLS API LNU01073395/413/01000000 | `VX-MARCO-SDL-01` · `KB-WFD-19` |
+| **Jan-2026 CPS population-control effect** | Hispanic labor force **+165k**, Asian **+938k**, total **−1.4M**; nativity NOT a control dimension (verbatim) | Dec 2025 basis | BLS CPS tech doc (March 2026 PDF) | LABOR `KB-LAB-086` · `KB-WFD-19` |
+| **Section 338 (Canada) scope from 9/15** | stacks on §232 (verbatim, Proc. 11065 cl. 1); 9903.03.15 = dairy goods only; Ch.87 at 50% = 8711.50.00, 8703.10.50, 8703.21.01; 8703.22+/8704/8708 absent | eff. 2026-09-15 | Federal Register 2026-18839 + CBP CSMS #69851916 + HTS list docx | HAWK (Canada trade) · `KB-CAN-50` |
+| **H-2A newest disclosure** | still `FY2026_Q3` (no Q4) — value 349,867 unchanged | FY26 thru Q3 | OFLC performance page, live | `VX-MARCO-H2A-01` |
 
 ## 4. RETRACTED — and what the accurate number is instead
 
