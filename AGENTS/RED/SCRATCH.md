@@ -23,6 +23,8 @@
 - The letter moved a point the composition does not support strongly; the market paid EGBN +10.9% intraday. This is a drafting lesson (ML-303), not grounds to un-apply the tree.
 - Tree (II) row 3 ambiguity: read as "STUCK = not evidence". If PROME/Will read it as a veto, the +1 reverses to net-bear 68 — say so, never silently.
 
+- **REGINALD EGBN Q4 maturity-wall report (5f59d0720, received via PROME 11:36 ET):** ~$525M matures 10/27–12/30; the $20.5M DC apartment loan's appraisal printed $24.5M (Q2) vs $13.5M (Q3) under the same 6/13/2026 date, still accruing. Bears on the Q4 re-review, not the Q3 grade; receipt on the CATALYSTS 2027-01-28 row.
+
 ## PENDING WILL-DECISIONS
 - None from RED. Dispositions on held lines are Will's; RED states none.
 
