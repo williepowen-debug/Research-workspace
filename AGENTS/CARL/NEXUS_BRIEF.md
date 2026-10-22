@@ -1,67 +1,66 @@
 # CARL — NEXUS Brief
 
-**Status:** 🔴 Registered 53/70 unchanged; L708 consumer names did not lead the CCC widening; September CPI cut CRL-10 to 1%.
+**Status:** 🔴 Registered 53/70 unchanged; CRL-29 first grade NO VERDICT; Q3 issuer prints cut CRL-31/20/12 to 1%; scope finding re-tested and held.
 **Domain:** U.S. consumer financial stress and downstream household transmission; bank-level credit belongs to REGINALD.
 **Thesis version:** v2.6.6
-**As of:** 2026-10-15 08:34 ET | **STATUS commit:** b5ff7fd87
+**As of:** 2026-10-21 22:51 ET | **STATUS commit:** 975ea7d6e
 **Position:** No capital authority. Paper references only; no marks or broker position claims.
 
 ## CROSS-DOMAIN
 
-**SENDING (10/15, all committed; recovery of the session lost in the ~03:08 ET crash):**
+**SENDING (10/21 catch-up, PROME wave 3; all committed):**
 
 | To | Evidence / analysis | Mechanism / limitation |
 |---|---|---|
-| NEXUS (L708, Will-commissioned) | **H1 on consumer-facing non-lending B/CCC names = MIXED (rule 4), substantively no consumer-led signal.** KSS/NWL/NCLH/AMC/JBLU: rule 2 0/5, rule 3 1/5; 4 of 35 name-sessions z≤−1 vs 5.6 noise; the two in-window consumer credit events were upgrades (Michaels 9/28, AMC 10/5). Owner file `research/2026-10-15_L708/VERDICT.md`. | ⚠️ Your ladder returns MIXED ~99.8% under pure noise (SUPPORTED 0.003%, NOT SUPPORTED 0.18%), so MIXED = no support, absence not certifiable. Equities proxy bonds; same-day; n=5; ICE membership unchecked; most CCC consumer debt is private. Lenders/subprime auto are OTTO's leg. |
-| OTTO | Seasoning repair verified at SEC (16 EART cells + SDART pair to the cent); BLAST ruled (a) KEEP with a COMPUTED-basis note | No BLAST label in a CARL grade until the note exists. |
-| RED (50cd5f112) | CRL-29: C1–C5 accepted in writing before the panel values were opened | **RULED by Will 10/15 08:31 ET (WQ-437, "okay approved both")**: 10/20 grade under C1–C5; floors/trusts/date/30% unchanged. VX-RED-009 count deferred to 10/20. |
-| PROME | Delivery memo with the CRL-29 ruling wording | WILL_NEEDS registered by PROME, not by CARL. |
+| RED (10a858cf6) | **CRL-29 first grade = PANEL NO VERDICT** under WQ-437 C1–C5: all three trusts NV; the 61+ ABS stock ROSE in 5 of 6 monthly changes | Registered null, scored neither way; the loss-vs-extension question did not arise. Re-check at Q3 HHDC (11/30). |
+| NEXUS / REGINALD (by this brief) | **Q3 issuer prints (8-Ks 10/20):** SYF NCO 4.79% (−64bp QoQ, −37bp YoY); COF domestic card 3.98% (−73bp, −65bp YoY); COF auto 1.59% (+16bp QoQ); ALLY retail auto 1.89% (+32bp QoQ, +1bp YoY) | Prime/near-prime books: cards improving YoY, auto flat. Survivorship-limited; not a bottom-60 read. Bank attribution is REGINALD's. |
+| PROME | Delivery memo `PROME/inbox/2026-10-21_from-CARL_catchup-wave3.md` | CRL-21 position-action clause stays Will's; not triggered by a partial read. |
 
 **WAITING FOR:**
 
 | From | Input | Expected by | Consequence |
 |---|---|---|---|
-| Census | October advance retail | Tue 11/17 08:30 ET | Second read on the pump crowd-out |
-| SYF / ALLY / COF | Q3 prints | 10/20 | CRL-21 vintage leg, CRL-20 count, CRL-31; TERRY packet either way |
-| OTTO / SEC | EART September collection month; BLAST basis note | ~10/29 | V2 can at most log qualifying month 1 |
-| PROME / STUE | STUE assignment; ES-01/04/06 grades | overdue since 10/02 | Child grades unowned in practice |
-| REGINALD | WQ228 feed join agreement | 10/26 review | Bank/product/entity risk incomplete |
-| LABOR / BLS | October NFP | 11/06 | V16 earliest new print 1; drop-back 0/2 |
+| ALLY deck / ABS curves | FY2025/26 vs FY2023 vintage loss at comparable seasoning | 10/26 review | CRL-21 formal Q3 resolution (vintage OR-leg) |
+| Fed | FOMC Oct 27–28 statement | Wed 10/28 | V12 un-fire count (0 of 2) |
+| BEA | Q3 GDP + **September personal income and outlays** | Thu 10/29 08:30 | The next real test of broad spending |
+| OTTO / SEC | EART September collection month | ~10/29 | V2 deep tier (holds 4) |
+| PROME / STUE | STUE assignment; ES-01/04/06 | overdue since 10/02 (docket 10/28) | Child grades unowned in practice |
+| LABOR / BLS | October NFP | 11/06 | V16 earliest new print 1 |
 
 ## VIEW
 
-- **CCC−B gap (L708):** 826 → 950bp over 12 sessions (FRED 10/13) is not being led by consumer-facing non-lending issuers on the equity proxy. The one repeated mover (JetBlue) is an airline fuel-cost story. Consumer-credit transmission into the CCC tier is not evidenced by CARL's names.
-- **September CPI (BLS 10/14):** headline +0.649% m/m, 3.738% y/y; core +0.335%, 2.564%; gasoline +9.094% m/m; food flat (2.482% y/y; food-at-home −0.070% m/m). Pass-through to HEADLINE, not core (RED CHG-028 oil-to-core NOT MET). Real hourly earnings −0.707% y/y (same deflator: one datum). The squeeze is energy at the pump.
-- **CRL-10 8% → 1%:** food needs +0.637%/mo for 2 months vs a trailing +0.112%; cold conditional base rate 2/182 = 1.1% beat the move-from-8% draft (3%) under the two-number rule. Mechanism tails (El Niño, diesel freight) act on later prints.
-- **Tariffs (KB-506, corrected):** NY Fed model — 12-month goods-inflation contribution NEGATIVE ~Aug-2026 → mid-2027; price LEVEL ~2% higher and edging up. Two bases, never merged.
-- **Subprime auto (V2):** August deep 0/4, broad 0/3 improving; holds 4. SDART 32mo double-match +0.53pp: the narrowing toward a turn reversed. ⚠️ Part of the deep YoY is seasoning (INFERRED, one pair).
-- **Spending/scope (10/12, unchanged):** concentrated credit/affordability strain supported; broad downward spending convergence NOT established (BofA September grows across cohorts; Carnival Jun–Aug firm on volume, NA ticket prices −$40M).
-- **September retail (Census CB26-165, 10/15):** headline +0.77% m/m, gasoline stations +6.4%, control group +0.14% (≈ −0.1% real) after August +1.19%: the nominal gain is the pump; core goods stalled. T1 trade-down tripwire 3/3 AGAINST (grocery −0.85% real vs restaurants +3.41%). One month; no cohort split.
-- **Costs:** AAA $4.334, diesel $6.317, FL $4.226 (10/15; FL +16c in 3 days, national flat, cause not established); NFIB September short-term loan rate 8.2% (+0.7pp).
+- **Subprime auto:** OTTO's September panel (5 of 9 deals) all worse YoY and MoM; 44/44 matched deal-months worse since April. Exeter's extensions fell while DQ rose (less masking, share unknown); Carvana's jump is real. Funding access stayed open (CPS warehouse $390M→$518M, Enova to 2028, Ally–Carvana $8B to July 2027, no cancellation). Concentrated stress, no credit-supply shock yet.
+- **CRL-29:** the AMCAR/EART 61+ stock rose, not fell — so the test of where a falling stock goes did not run.
+- **Prime issuers:** card NCOs down QoQ and YoY at SYF/COF; that made CRL-31 (≥2 names, 2-quarter acceleration) unreachable on the letter (50→1%), CRL-20 35→1%, CRL-12 (SYF FY >6.0%; nine-month 5.21%) 20→1%. Two-number rule, cold base governs.
+- **September PPI (BLS API):** final demand +1.343% m/m, +6.338% y/y; core ex-FET +5.042% y/y; gasoline +20.28% m/m. Pipeline pressure keeps the Fed locked (V12 at 5); producer prices are not household outlays.
+- **Canada §338 (MARCO, 10/21):** stacks on §232 for listed lines from 9/15, but passenger cars, light trucks and parts are not listed — no §338 duty on them. Do not carry "Canadian cars pay 50%".
+- **Costs:** AAA 10/21 regular $4.264, FL $4.020 (spike reversed); diesel $6.317 unconfirmed (identical to 10/15). PJM backstop cost allocation unresolved (no bill change). USDA $8B fuel relief announced, not paid.
+- **Scope (re-tested 10/21):** concentrated credit/affordability stress supported; broad spending collapse NOT established — no new item measures household outlays; national restaurant sales +3.41% real (Sept) sit beside NY establishment closures (−3.8% YoY Q1).
 
 ## CALIBRATION
 
-- **Conviction:** concentrated consumer credit/affordability strain MEDIUM-HIGH; populationwide spending collapse UNESTABLISHED; consumer-led CCC widening NOT SUPPORTED on CARL's names (instrument cannot certify absence). Registered score is a threshold tally with shared roots.
-- **Diverge from market by:** lower-quality consumer credit and affordability can stay strained while aggregate spending grows; CARL does not claim the CCC move as consumer stress.
-- **Cross-agent tensions:** None active this cycle beyond the standing BofA-vs-convergence item (carried, not resolved by masking). L708's MIXED token vs its substance is flagged to NEXUS as a property of the fixed ladder, not a dispute.
-- **Uncertain about:** bond-level (vs equity) moves of consumer CCC names; private CCC consumer issuers; whether September's fuel crowd-out of core goods persists (one month); STUE assignment.
-- **Failure patterns:** a corrective inherits its anchor (CRL-10 written twice); source identity and collection-period discipline; stock/flow; survey vs realized; a crashed session's typed sha (21fef828) named no object — caught by `git cat-file` before commit.
+- **Conviction:** concentrated subprime/affordability strain MEDIUM-HIGH; populationwide spending collapse UNESTABLISHED; issuer-level masking-then-break letters (CRL-20/31) now near-dead on the clock, mechanism not killed.
+- **Diverge from market by:** subprime auto ABS can keep worsening while prime card books improve; CARL does not read prime issuer health as bottom-cohort health, nor deep-subprime ABS as broad collapse.
+- **Cross-agent tensions:** None active this cycle beyond the standing BofA-vs-convergence item (carried). The CRL-31/20 cuts strip the antecedent from CARL's own paper sleeve (no capital); disposition next session.
+- **Uncertain about:** ALLY vintage curves (images, ungraded); RITM Q3; whether September PCE shows real spending holding; diesel AAA cell.
+- **Failure patterns:** season-crossing QoQ letters (checked YoY too); stored hashes that do not reproduce on re-fetch (values cross-checked instead); relayed scope (Canada autos) narrowed at the owner's file before use.
 
 ## NEXT DECISION POINT
 
-- **What / when:** 10/20 — CRL-29 first grade (RULED letter, C1–C5), SYF/ALLY/COF Q3 (CRL-20/21/31). 11/17 October retail.
-- **What changes the view:** a qualifying two-tier auto reversal; CRL-21 vintage-loss comparisons; a bond-level consumer CCC read differing from the equity proxy; food m/m ≥ +0.6% for two months.
+- **What / when:** 10/26 CRL-21 vintage leg; 10/28 FOMC; **10/29 September PCE + Q3 GDP** and EART September.
+- **What changes the view:** real PCE falling with the saving rate up across cohorts (broad leg); a V2 two-tier reversal; CRL-21 vintage losses ≥+50bp over FY2023.
 
 ## WATCH
 
 | Date | Event | Registered question |
 |---|---|---|
-|10/20| SYF/ALLY/COF; CRL-29; AFT v. ED read | Credit conversion; auto outflow split under the ruled letter |
+|10/22| Claims (LABOR) | Kill leg 1 stays met |
 |10/23| Michigan final | Persistence of the preliminary turn |
-|10/26| Fintech feed review | REGINALD agreement |
-|~10/29| EART September | V2 qualifying month 1 at most |
+|10/26| CRL-21 vintage leg; fintech feed | Q3 formal resolution; REGINALD agreement |
+|10/28| FOMC | V12 un-fire count |
+|10/29| Q3 GDP + September PCE; EART September | Broad spending; V2 deep tier |
 |11/06| NFP | V16 earliest new print 1 |
-|11/12| October CPI (date INFERRED) | CRL-10 level vs path |
+|11/12| October CPI | CRL-10 level vs path |
 |11/17| October retail | Control + T1 at one vintage |
 
-**Delivery / checks (10/15):** recovery commits 11af237cc (L708 verdict) · c98cedc4f (→NEXUS) · ad9947c50 (V2 card) · b9f29901d (→OTTO) · 9800d0fdb (CPI/CRL-10/KB-506) · 9ac41ecd4 (inbox drain) · 41a17dee3 (STATUS), plus the crashed session's 2bb208ad9 · 50cd5f112 · 37d43e57c; consistency 0 hard / 6 soft; corrections 0 unreceipted (COR-36 APPLIED, COR-23/33 NO-OP); board_gap 0 new; read-cap STATUS 22,768 B. Inbox 0 live. Addendum: 219c1d09d (retail/ABS/13c) · b5ff7fd87 (CRL-29 ruling + STATUS).
+**Delivery / checks (10/21):** commits 7f963655e (drain, CRL-29, Q3, docket, STATUS) · 975ea7d6e (Canada §338 relay) · 10a858cf6 (→RED); consistency 0 hard / 6 soft; corrections 0 unreceipted (6 receipted); board_gap 0 owed; read-cap STATUS 22,781 B; inbox 0 live. FRED unavailable all session.
