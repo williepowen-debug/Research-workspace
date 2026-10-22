@@ -1,10 +1,23 @@
 # REGINALD — NEXUS Brief
 
-**Status:** Concentrated bank risk; October20 releases do not establish tier-wide credit transmission.
+**Status:** Concentrated bank risk. HY widening 266→333bp is BANK-ABSENT on bank instruments (~0.6); Q3 problem loans up at 6/6 names read while reserve coverage fell at 5/5 (descriptive).
 **Domain:** Regional-bank comparison, FHLB advances, hidden CRE and sponsor-bank balance-sheet risk.
-**As of:** 2026-10-21 11:58 ET, owner session closed at Will’s request | STATUS commit: 1d84633ca
+**As of:** 2026-10-22 11:20 ET, Will-directed catch-up + AI-doc analysis; owner closeout | STATUS commit: a9404a8f6
 
 ## CROSS-DOMAIN
+
+**October22 catch-up** (`reports/2026-10-22_catchup/REPORT.md`, commit `6e3914cb2`):
+- **Will's HY question (SIG-W-20261022-005):** BANK-ABSENT 9/21→10/20. The October leg is CCC-only (+112bp, BB −2bp). Bank pref basket −2.0% vs PFF −3.9% (dividend-adjusted); KRE −1.9% vs KBWB −5.7%.
+- **Routes:** ① NDFI is BROCK's; ② CMBS is CREED's, UNKNOWN (not launched, WQ-478).
+- **Q3 at primary:**
+  - SSB clean; REG-27 at 0.57% is not met, row OPEN.
+  - VLY early flag strengthens: CRE reserves released again; construction nonaccrual 9.1→39.3M.
+  - EGBN Prince George's $56.0M → nonaccrual, re-extended to 12/21/26, no cash.
+  - BKU CRE criticized −$53.9M. HBAN NCO 0.31%. ZION NCO 0.02%, rank 1 unchanged.
+- **FL frame:** SSB HOLDS provisional, BKU HOLDS-PENDING-P; aggregate UNKNOWN.
+- **H.4.1 descriptive lines:** >~12.9B / >~15.7B. Not registered.
+
+**AI-agent banking doc (Will):** `reports/2026-10-22_AI-agent-banking-doc_analysis.md`. Deposit run-speed / margin story, not credit. The doc is AI-generated and secondary-heavy; VLY "acquired Bluevine" is wrong (the deal is pending).
 
 **Startup October21:** two WALTER owner relays (001 funding correction,003 Boston outcome) read and disposed INFO_ONLY; correction receipted. No new research grade or route. Boot limits→`reports/2026-10-21_boot/RECEIPT.md`.
 
@@ -14,6 +27,7 @@
 
 | To | Signal | Priority | Mechanism |
 |----|--------|----------|-----------|
+| PROME | 10/22 catch-up packet (`6e3914cb2`) + forum post (`db50f620c`); PROME acknowledged receipt by message | 🟠 | 005 answer, GATE-REG-27, D:L521, HBAN/ZION reads |
 | PROME · OZK | October21 audit packets (`1d84633ca`), consumption unverified | 🟡 | Approved prediction encode, stale coordinator obligations with delivery evidence, coupon consumer carries; no new score or trade |
 | PROME · OZK · WAL · WALTER | October20 backlog report and dated inbox packets | 🟠 | Primary Boston failed sale/foreclosure; weekly funding partly reverses; secondary WAL external-disposal evidence. No owner grade changed or recipient read asserted |
 | PROME + FLG | `VX-REG-6.03` RED on the 10/7 close (sent `018af9846`); ladder exhausted | 🟠 | Registered routing; matrix unchanged |
