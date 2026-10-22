@@ -138,9 +138,19 @@ KNOWN_ABSENT = {'archive/STATUS_PRE_REVIVAL_2026-06-22.md'}
 def tsv(p):
     return list(csv.DictReader(open(HANS / p), delimiter='\t'))
 
+# PUBLISHED.tsv is append-only, so a series published under a SECOND name cannot be renamed
+# in place. An alias folds the stray name into the established one BEFORE current/retired is
+# computed. Added 2026-10-21 (hans-1021, owed #32): on 9/18 the France-Germany spread was
+# published as OAT_BUND_SPREAD_BP, and the 9/24 and 10/01 rows kept the stray name. Unfolded,
+# that series' "current" read 130.3 [10/01] while the real series stood at 157.5, and both
+# names retired 96.8 on VX-HANS-3.02, so C2 could not tell them apart (test_C2 red from 10/09).
+# An alias is for ONE series under two names. It is never a way to merge two series.
+METRIC_ALIASES = {'OAT_BUND_SPREAD_BP': 'FRANCE_GERMANY_10Y_SPREAD_BP'}
+
 def published():
     """PUBLISHED.tsv -> {metric: (current, [superseded])}, '#' lines skipped.
-    Tie-break within a date is APPEND ORDER (matches scripts/consumer_check.read_ledger)."""
+    Tie-break within a date is APPEND ORDER (matches scripts/consumer_check.read_ledger).
+    Aliased names are folded into their canonical metric first (METRIC_ALIASES)."""
     raw = [l for l in (HANS / 'workbook/PUBLISHED.tsv').read_text().strip().split('\n')
            if l.strip() and not l.lstrip().startswith('#')]
     hdr = [h.strip().lower() for h in raw[0].split('\t')]
@@ -151,9 +161,10 @@ def published():
         r = l.split('\t')
         if len(r) <= max(im, iv, ia):
             continue
-        by.setdefault(r[im], []).append((r[ia], idx, r[iv]))
+        m = METRIC_ALIASES.get(r[im], r[im])
+        by.setdefault(m, []).append((r[ia], idx, r[iv]))
         if ivec is not None and len(r) > ivec and r[ivec].strip():
-            vecs.setdefault(r[im], set()).update(
+            vecs.setdefault(m, set()).update(
                 x.strip() for x in r[ivec].split(',') if x.strip())
     # ⚠️ A RECURRING VALUE IS NOT A STALE VALUE (fixed 2026-10-09, hans-1009b).
     # FRANCE_10Y_OAT_PCT printed 4.90 on 10/01, 4.866 on 10/02, and 4.90 AGAIN on 10/08.

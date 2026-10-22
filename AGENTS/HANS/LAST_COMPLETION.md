@@ -11,13 +11,14 @@
 - `DISPATCH_LOG.md` — 4 consumed-packet paths → `processed/` (C7, recipient trees verified). `SESSION_LOG.md` — 10/21 entry.
 - **Inbox drain: 37 of 37** → `inbox/processed/` + `inbox/WALTER/processed/`, one `board_log.tsv` row each. KB-HANS-111–117 (France reserve diesel · UniCredit permission · METRO control · operational events · EIOPA · VW · UK pre-Budget).
 - Packet `PROME/inbox/processed/2026-10-21_from-HANS_state-vocabulary-scoped-read.md` (carve-out ①).
+- **Owed sweep (PROME relay of Will, 21:22):** #32 fixed (`doc_audit.METRIC_ALIASES` + 2 injection tests, 138/138) · #27 `thesis/KILL_TREE.md` re-graded (prior verbatim → `thesis/KILL_TREE_ROTATED_2026-10-21.md`) · #29 20 expired KB rows cleared + KB-118–124 · T-15 graded both legs (#25 closed) · #21 closed (`KB-123`) · #13 answered in KILL_TREE C-1 · #5b partial (`KB-124`, gate named) · VX 2.01/2.02/5.01 + registry T-11/T-15 · packets to REGINALD + LIQUID on the bank selloff.
 
 **RESULT:** France is the live European stress: OAT 4.99 / spread 157.5bp [i-i 10/21], +20bp in 3 sessions, Italy flat — France-specific; Moody's 10/23. TTF 87.50 (>90 intraday 10/20); EU storage 74.58% with the first net withdrawal on gas day 10/20; HNS-07 → 30%. EA Sept final 3.8% / core 2.5 (T-16 1 of 2); UK Sept CPI 3.5% / core 2.8 / services 3.7. ECB 10/29 hold consensus, Dec ~87% priced; BoE 11/5 hike priced. UK 30Y 5.797 (20bp under T-13) into the 10/28 Budget.
 
 **GAPS:**
-- `test_hans.py` 1/136 RED — the same `test_C2_is_SERIES_QUALIFIED` 3.02-alias defect named on 10/09; confirmed red at HEAD in a detached worktree. Not fixed (owed #32).
-- HNS-09 definitions and KILL_TREE re-grade past due. T-15 not re-graded at primary. UK CPI and ECB pricing are SECONDARY. SX7E, EUR/USD to 4dp not pulled. Read-cap: CLOSED — PROME flipped the READS row (a361046c9), verified rc 0 here. LIQUID re-asked on US funding 10/21 (`AGENTS/LIQUID/inbox/2026-10-21_from-HANS_T10-157bp-reask-us-funding.md`), no answer yet.
+- `test_hans.py` 138/138 (owed #32 fixed).
+- HNS-09 definitions still owed (10/27). T-15 leg (a) principal still silent - graded on secondaries, labelled so. UK CPI and ECB pricing are SECONDARY. SX7E and EUR/USD re-pulled (bank selloff found, KB-121). Read-cap: CLOSED — PROME flipped the READS row (a361046c9), verified rc 0 here. LIQUID re-asked on US funding 10/21 (`AGENTS/LIQUID/inbox/2026-10-21_from-HANS_T10-157bp-reask-us-funding.md`), no answer yet.
 
-**WILL_NEEDS:** (1) Charter wording: RULE #1c says READ `STATE_VOCABULARY.md`; the desk now reads it SCOPED (preamble + one Class section). Rewording the charter needs his OK — not urgent. (2) Standing: the T-12 joint letter (WQ-398).
+**WILL_NEEDS:** (1) Charter wording: RULE #1c says READ `STATE_VOCABULARY.md`; the desk now reads it SCOPED (preamble + one Class section). PROME recorded WQ-469 RULED APPROVE under Will's 21:30 blanket word (fd527ed57). HANS did NOT edit its own charter on a peer's relay and asked Will directly in-session; owed #33. Not urgent. (2) Standing: the T-12 joint letter (WQ-398).
 
 **FOLLOW-UP:** 10/23 Moody's France + flash PMIs · 10/25 HNS-07 checkpoint 3 · 10/26 owed #26 TTF expiries · 10/27 owed #28 · 10/28 UK Budget + BNP Q3 · 10/29 ECB + NL election + TTF X26 expiry · 11/01 HNS-07 · 11/04–05 EA flash HICP + BoE · 11/18 EA Oct final (T-16 2/2?).

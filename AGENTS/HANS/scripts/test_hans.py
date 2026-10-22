@@ -480,6 +480,41 @@ class TestDocAudit(unittest.TestCase):
                                      f"{m} and {prev} both declare {v} and both retire "
                                      f"{o!r} — C2 cannot tell them apart")
 
+    def test_metric_alias_folds_one_series_under_two_names(self):
+        """owed #32, 2026-10-21: the France-Germany spread was published under a second
+        name (OAT_BUND_SPREAD_BP) on 9/18, 9/24 and 10/01. INJECT the defect by removing
+        the alias: the two names must collide again on VX-HANS-3.02, which proves the fold
+        is what clears test_C2, not a change to the ledger. Then, with the alias in place:
+        the stray name is gone and the canonical series' current value is the newest row
+        across BOTH names, never the stray name's stale tail."""
+        saved = dict(self.da.METRIC_ALIASES)
+        try:
+            self.da.METRIC_ALIASES.clear()
+            raw = self.da.published()
+            self.assertIn("OAT_BUND_SPREAD_BP", raw, "injection did not restore the stray name")
+            shared = set(raw["OAT_BUND_SPREAD_BP"][1]) & set(raw["FRANCE_GERMANY_10Y_SPREAD_BP"][1])
+            self.assertTrue(shared, "without the alias the two names must share a retired value")
+        finally:
+            self.da.METRIC_ALIASES.clear()
+            self.da.METRIC_ALIASES.update(saved)
+        pub = self.da.published()
+        self.assertNotIn("OAT_BUND_SPREAD_BP", pub)
+        cur, olds, vecs = pub["FRANCE_GERMANY_10Y_SPREAD_BP"]
+        self.assertNotIn(cur, olds)
+        self.assertIn("VX-HANS-3.02", vecs)
+
+    def test_metric_alias_targets_exist(self):
+        """An alias pointing at a misspelt target would silently CREATE a new series and
+        orphan the real one. Every target must be a metric the ledger already carries
+        under its own name."""
+        raw_names = set()
+        for l in (self.da.HANS / "workbook/PUBLISHED.tsv").read_text().split("\n"):
+            if l.strip() and not l.startswith("#") and not l.startswith("metric\t"):
+                raw_names.add(l.split("\t")[0])
+        for stray, canon in self.da.METRIC_ALIASES.items():
+            self.assertIn(canon, raw_names, f"alias target {canon} is not a ledger metric")
+            self.assertNotEqual(stray, canon)
+
     def test_C2_still_catches_a_genuine_supersession(self):
         """Series-qualifying must not have disarmed the check."""
         pub = self.da.published()

@@ -3,6 +3,7 @@
 # CREATED 2026-09-05. Until today this desk had NO published-figure ledger, so every consumer_check run needed the superseded value passed by hand — which means a figure I retired and forgot was structurally un-checkable. Append-only; NEVER edit or delete a prior row (the superseded values ARE the instrument).
 # `vectors` (added 2026-09-05) declares which VX row is the METRIC SURFACE for each metric. It exists because doc_audit.py C2 matched on the BARE VALUE and flagged VX-HANS-4.08 (UK CPI 2.9%) against EA_FLASH_HICP_YOY_PCT 2.9% — two different series, same digits. An unqualified identifier is a defect waiting for a reader [[finding_unqualified_identifier_is_a_defect_waiting_for_a_reader]]. An EMPTY vectors cell means 'no VX surface declared' and C2 skips the row rather than guessing.
 # Tie-break within a date is APPEND ORDER, so a same-day supersession must be appended below its predecessor.
+# ALIAS (2026-10-21, hans-1021, owed #32): OAT_BUND_SPREAD_BP is the SAME series as FRANCE_GERMANY_10Y_SPREAD_BP (published under a stray name 9/18, 9/24, 10/01). Rows are not renamed (append-only); doc_audit.METRIC_ALIASES folds them. New rows use FRANCE_GERMANY_10Y_SPREAD_BP only.
 metric	value	asof	note	vectors
 GERMAN_MFG_PMI	50.3	2026-07-16	June final; carried until the 8/28 revival	VX-HANS-8.06
 GERMAN_MFG_PMI	54.1	2026-08-21	August FLASH — ⚠️ SHIPPED TO HENRY AS IF SETTLED; superseded by the final	VX-HANS-8.06

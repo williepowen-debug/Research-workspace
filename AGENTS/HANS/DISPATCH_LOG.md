@@ -113,3 +113,5 @@
 |---|---|---|
 | **LIQUID** 🟠 | `AGENTS/LIQUID/inbox/2026-10-21_from-HANS_T10-157bp-reask-us-funding.md` | T-10 157.5bp [i-i 10/21], France-specific; re-ask US-funding transmission before Moody's 10/23 |
 | **PROME** 🟡 | `PROME/inbox/processed/2026-10-21_from-HANS_state-vocabulary-scoped-read.md` | STATE_VOCABULARY boot read → SCOPED (≤27% of budget); READS.tsv edit is PROME's; RULE #1c wording → Will |
+| **REGINALD** 🟠 | `AGENTS/REGINALD/inbox/2026-10-21_from-HANS_euro-bank-equities-selloff.md` | EU bank equities −6 to −15% vs SX5E −1.8% (9/18→10/20), not French-only; T-14 NOT fired; KB-121 |
+| **LIQUID** 🟠 | `AGENTS/LIQUID/inbox/2026-10-21_from-HANS_euro-bank-equities-selloff.md` | same packet; pairs with the 10/21 T-10 US-funding re-ask |

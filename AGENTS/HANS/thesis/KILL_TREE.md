@@ -1,5 +1,15 @@
 # HANS — FALSIFICATION SURFACE / KILL TREE
-**Created:** 2026-08-28 (revival session). **Owner:** HANS. **Cadence:** re-grade every session; a claim that survives three sessions un-challenged gets a fresh challenger written for it.
+**Created:** 2026-08-28 (revival session). **Owner:** HANS. **Last re-graded:** 2026-10-21 (hans-1021, on the registry state refreshed that day; prior text verbatim → `thesis/KILL_TREE_ROTATED_2026-10-21.md`). Before that: 2026-09-10.
+**Cadence (the one this desk actually keeps):** re-grade at any closeout where a registry row named in a kill column CHANGED STATE, and at every `PREDICTIONS` checkpoint. ⚠️ The old cadence, *"re-grade every session"*, was not kept: 9/10 → 10/21 with no re-grade, found from outside (DAEDALUS falsification #4, 10/8). A cadence nothing checks is a wish, not a cadence.
+
+## 🔴 RE-GRADE 2026-10-21 — SUMMARY
+
+| Claim | Verdict | Why, in one line |
+|---|---|---|
+| **C-1** long-end term premium | 🟠 **WEAKENED — no longer load-bearing** | Two of its three exclusion legs no longer hold: France's spread is **157.5bp**, not tight, and the euro **weakened** 1.16 → **1.1227**. No kill row fired, but only because every row was conditioned on a RISING Bund, and the Bund is falling (safe haven). The live European channel is now **France sovereign credit (`T-10`)**. |
+| **C-2** PMI → ISM | ✅ **SURVIVED its test** | `HNS-06` HIT (Sept flash 53.8); US ISM Sept **54.5** (HENRY). The regime caveat is retracted (self-challenge #14). Next: Oct flash ~10/23. |
+| **C-3** storage clears 80% | 🔴 **HEADED FOR ITS KILL** | `HNS-07` re-marked **65% → 30%**; fill **74.58%** [gas day 10/20], first net withdrawal. The premise's 82.0 norm was a defect (AGSI-native **89.33** on 10/20). Grades 11/01. |
+| **C-4** bank channel quiet | 🟡 **HOLDS, perimeter weak** | `T-14` NOT fired. New untested path: **the French sovereign–bank loop.** `HNS-09` window opens 10/28. |
 
 **Why this file exists:** DAEDALUS's 2026-08-28 revival brief named it as the L3→L4 handle this desk lacked — *"no kill tree / falsification surface anywhere but STATUS."* A claim living only inside a narrative surface has no place to die. Each claim below names **what would kill it**, and where possible the **registered prediction** that does the killing.
 
@@ -15,11 +25,12 @@
 
 | What kills it | Instrument | Status |
 |---|---|---|
-| **Periphery spreads widen sharply while the Bund rises** → it was a fragmentation event, not term premium | Italy-Germany >200bp, France-Germany >100bp | Not firing (**~86.6 / ~87.4–90.1bp [9/10]**). ✅ **Also survived its pre-committed EVENT test:** pre-reg §3c set ">25bp widening **on the decision**" off ~85 / ~85.5bp anchors; observed **+1.6bp / +2 to +4.6bp** — ~20bp of margin on both legs |
-| **The euro weakens hard as the Bund rises** → capital flight, leg (b) dies | EUR/USD <1.10 while Bund >3.30 | Not firing (1.16) |
-| **The Bund reverses below 3.00% while the US 30Y stays ≥5.20%** → the move was US-sourced and Europe was the passenger | Bund daily close vs `^TYX` | Not firing |
+| **Periphery spreads widen sharply while the Bund rises** → it was a fragmentation event, not term premium | Italy-Germany >200bp **OR** France-Germany >100bp (either leg; the old comma left AND/OR undefined) | ⚠️ **2026-10-21: the France leg FIRED (`T-10`, 9/24; 157.5bp [i-i 10/21]); Italy ~116bp did not. The "while the Bund rises" clause did NOT hold: Bund 3.57 [9/24] → 3.43 [TE 10/21].** So the row did not fire as written. ⚠️ But read why: a fragmentation event usually comes WITH a safe-haven Bund rally, so this clause made the row blind to the very event it was meant to catch. Superseded by the row below. *(9/10 event test, survived: +1.6 / +2 to +4.6bp vs a >25bp line.)* |
+| 🆕 **2026-10-21: France–Germany >100bp while the Bund FALLS or holds** → the stress is French credit, not European term premium | `T-10` + Bund level | 🔴 **FIRING since ~10/16: spread +20bp in 3 sessions while the Bund held ~3.41–3.43.** ⇒ **C-1 loses its load-bearing status.** Europe still transmits through a long end, but the French one, as CREDIT, not as Bund term premium. |
+| **The euro weakens hard as the Bund rises** → capital flight, leg (b) dies | EUR/USD <1.10 while Bund >3.30 | Not firing: **1.1227 [10/21] with the Bund at 3.43**, 2.3 big figures above the line. ⚠️ **But leg (b)'s PREMISE is gone: the euro is no longer strengthening (1.16 [9/10] → 1.1227).** A weakening euro is consistent with BOTH Fed divergence (the Fed hiked, owed #13) AND capital flight, so FX alone can no longer rule out flight. **Owed #13 is answered here: the exclusion leg is not re-argued, it is withdrawn until a flow measure exists (TIC / ECB BoP).** |
+| **The Bund reverses below 3.00% while the US 30Y stays ≥5.20%** → the move was US-sourced and Europe was the passenger | Bund daily close vs `^TYX` | Not firing: Bund 3.4265 [TE 10/21], `^TYX` 5.439 [10/21]. 43bp of Bund margin |
 | ~~**ECB does NOT hike Sept 10 and the Bund still rises** → the driver is not the ECB path~~ | **Prediction HNS-05** | ⬜ **CLOSED 2026-09-10 — antecedent FALSE: the ECB HIKED** (25bp to 2.50%, eff. 9/16). This row could not run. ⚠️ **Its mirror in §3c — "hike AND the Bund FALLS materially" — ALSO did not fire: the Bund ROSE ~+11–14bp off the ~3.35 anchor to a 15-year high.** So neither direction of the ECB-path test discriminated, and C-1 ends the day **neither confirmed nor refuted** — §3b withheld confirmation (framing graded **TACTICAL 3–1**), §3c withheld refutation. **Non-refutation is not support** |
-| **The repricing runs far past what the ECB path justifies** → I under-called the size, mechanism may still hold | **Prediction HNS-08** (Bund does not close ≥4.00% before 12/31) | Open |
+| **The repricing runs far past what the ECB path justifies** → I under-called the size, mechanism may still hold | **Prediction HNS-08** (Bund does not close ≥4.00% before 12/31) | Open — ~57bp buffer [10/21]. The Bund is moving AWAY from the line |
 
 ⚠️ **Honest limit already stated:** I have not decomposed the Bund move into expectations vs term premium with a term-structure model. The three-part argument is an **exclusion argument** — it rules out the two rival explanations I can test — not a direct measurement of term premium. Anyone with a model should check it `[[finding_hypothesis_needs_an_instrument_for_its_defining_mechanism]]`.
 
@@ -31,25 +42,26 @@
 
 | What kills it | Instrument | Status |
 |---|---|---|
-| **German Mfg PMI rolls back under 50** | **Prediction HNS-06** (≥50 on the Sept flash) | Open, ~2026-09-23 |
-| **US ISM prints <49 anyway in Sept/Oct** → the lead relationship itself is broken in this regime, not just the level | ISM Mfg headline (HENRY owns) | Watch |
-| **The Composite/services split widens further** (services <47) → "German recovery" was never the right unit | German Services / Composite PMI | 🟡 **Partially live already: services 48.5 and FALLING** |
+| **German Mfg PMI rolls back under 50** | **Prediction HNS-06** (≥50 on the Sept flash) | ✅ **HIT 9/25 — flash 53.8.** A momentum continuation: weak evidence of calibration (self-challenge #1). Next print: Oct flash ~10/23 |
+| **US ISM prints <49 anyway in Sept/Oct** → the lead relationship itself is broken in this regime, not just the level | ISM Mfg headline (HENRY owns) | Not firing: **ISM Sept 54.5** (HENRY STATUS). Oct ISM early Nov |
+| **The Composite/services split widens further** (services <47) → "German recovery" was never the right unit | German Services / Composite PMI | 🟡 **Composite Sept FINAL 53.8** (WALTER -1016-021, licensed TE display). The services leg was **not re-pulled** on 10/21, so whether it is still <50 is UNKNOWN. ZEW Oct fell to 28.1 (34.7) |
 
-⚠️ **The caveat is half the claim, not a footnote.** This is a **manufacturing-only** expansion driven by defence spending, data-centre capex and inventory rebuild — *fiscal and AI-capex, not organic demand*. A fiscal/capex-driven manufacturing print is a **weaker** ISM lead than a demand-driven one, because the US ISM is not receiving the same German fiscal impulse. **⚠️ I have not tested whether the ~2-month lead holds for capex-driven vs demand-driven PMI moves — that is an untested assumption inside my highest-value signal.** Registered as an open method gap.
+⚠️ **The caveat is half the claim, not a footnote.** This is a **manufacturing-only** expansion driven by defence spending, data-centre capex and inventory rebuild — *fiscal and AI-capex, not organic demand*. A fiscal/capex-driven manufacturing print is a **weaker** ISM lead than a demand-driven one, because the US ISM is not receiving the same German fiscal impulse. ⚠️ **2026-10-21: my 8/28 attempt to test the capex-vs-demand split was INVALID and is retracted (self-challenge #14). The method gap is still OPEN — untested, not tested-and-passed.**
 
 ---
 
 ## C-3 — 🟠 "The EU energy shock is structural, and storage clears 80% but misses 90%"
 
-**Claim:** Hormuz shut ~6 months with the Jun-17 MOU collapsed and Qatar force majeure extended (exports −96%); EU storage 63.8% vs an 82.0% norm is the lowest fill for the date in the AGSI record, and lands ~80-83% by Nov 1.
+**Claim (as registered 8/28):** Hormuz shut ~6 months with the Jun-17 MOU collapsed and Qatar force majeure extended (exports −96%); EU storage 63.8% vs an 82.0% norm is the lowest fill for the date in the AGSI record, and lands ~80-83% by Nov 1.
+⚠️ **2026-10-21: the premise's 82.0 norm was the frozen `fetch_eu` defect.** On the AGSI-native basis the norm was 85.05 [gas day 9/17] and is **89.33 [gas day 10/20]**. The storage gap is **−14.75pp** (median −18.51). **"Lands ~80-83%" is now the side the evidence is against.**
 
 | What kills it | Instrument | Status |
 |---|---|---|
-| **Storage misses 80%** → the shock is worse than modelled and curtailment becomes live | **Prediction HNS-07** | Open, resolves 2026-11-01 |
-| **Hormuz reopens / Qatar lifts force majeure** → structural reverts to episodic; TTF round-trips toward €42 | Qatar FM status, TTF | **Watch — next FM decision ~EARLY NOVEMBER.** ⚠️ **Corrected 2026-09-05 from "~end-Sept": the FM was extended INTO NOVEMBER on 8/31.** A falsifier checked on the wrong date is a falsifier that does not run |
-| **TTF breaks L3 (€100)** → I under-called it; genuine ECB stagflation trap | TTF ladder | Not firing (€66.19) |
+| **Storage misses 80%** → the shock is worse than modelled and curtailment becomes live | **Prediction HNS-07** | 🔴 **Open, 30% (re-marked from 65% at checkpoint 2).** 74.58% [gas day 10/20], first net withdrawal; needs 0.452 pp/d for 12 days. Resolves on the 11/01 gas day — **no early call** |
+| **Hormuz reopens / Qatar lifts force majeure** → structural reverts to episodic; TTF round-trips toward €42 | Qatar FM status, TTF | Not firing. **FM extended 9/28 through November; Edison told early December** (Bloomberg); Shell: full Ras Laffan repair ~Q1-2027. Next check: early Dec. *(9/05 date correction kept: a falsifier checked on the wrong date does not run.)* |
+| **TTF breaks L3 (€100)** → I under-called it; genuine ECB stagflation trap | TTF ladder | Not firing: **€87.50 on named TTFX26 [10/21]**, ~14% away; >€90 intraday 10/20 (secondary). ⚠️ Roll to Z26 at 10/29 |
 
-⚠️ **My two storage instruments disagree** and I am not hiding it: my 5-day-pace extrapolation says ~83%, DEWEY DR-4's peak-pace model says 77-80%. They **straddle the 80% line.** That disagreement is priced into HNS-07 at 65% rather than 80%.
+⚠️ **The straddle is gone (2026-10-21).** My pace instrument (~77.4% on gas-day-10/14 data) and DEWEY's DR-4 rerun (76.5–77.9%) now **both** sit on the MISS side. That is why `HNS-07` went 65% → 30% under its pre-committed rule (b). ⚠️ Both models use GIE data, so their agreement is not independent evidence (DEWEY's own caveat).
 
 ---
 
@@ -59,8 +71,9 @@
 
 | What kills it | Instrument | Status |
 |---|---|---|
-| European bank CDS widen materially, or a named funding event | LIQUID/REGINALD own; I hold the European nexus | Not firing |
-| **Higher-for-longer turns:** the same rate level that is currently *supporting* bank earnings begins impairing asset quality | NPL / cost-of-risk in Q3 prints | 🟡 **This is the asymmetry to watch — the bull case and the bear case run through the SAME variable** |
+| European bank CDS widen materially, or a named funding event | LIQUID/REGINALD own; I hold the European nexus | Not firing on any measured instrument. `T-14` NOT fired (EIOPA's 10/6 statement writes checks, names no institution; `KB-115`). ⚠️ **SX7E not re-pulled since 9/18.** LIQUID re-asked 10/21 on US funding |
+| 🆕 **2026-10-21: the French sovereign–bank loop.** French bank equities/CDS fall WITH the OAT → sovereign stress is becoming bank stress | BNP / SocGen / Crédit Agricole equities or CDS vs OAT–Bund | ⚪ **UNMEASURED.** Secondary reports say French bank stocks sold off with OATs 10/19–21. No instrument on this desk, so this row cannot fire until one exists. Named so the gap can be counted |
+| **Higher-for-longer turns:** the same rate level that is currently *supporting* bank earnings begins impairing asset quality | NPL / cost-of-risk in Q3 prints | 🟡 **This is the asymmetry to watch: the bull case and the bear case run through the SAME variable.** Instrument = `HNS-09`, window opens with BNP 10/28. ⚠️ Owed #28 must fix the definitions first, including one-offs such as a UniCredit Russia exit (`KB-112`) |
 
 ---
 
@@ -98,3 +111,7 @@
 15. **I wrote two rules and applied neither to the artifacts already on disk.** Review found: my charter claimed boot **"enforces"** expiry while `boot.py` always exited **0**; `CLAUDE.md:27` still said Bund/storage/EGB spreads **"cannot be reached"** hours after `fetch_eu.py` began retrieving all three — **in the position a booting reader hits FIRST**, while the correct FILES table sat 150 lines below; and charter **Rule #2** required research scripts to call `gate()` while `pmi_ism_lead_test.py` — **the very script whose finding was retracted** — did not. ⇒ **All three are one class: a new rule or capability governs the next write and touches nothing already written** `[[finding_a_ruling_governs_the_next_write_not_the_existing_state]]`. **That memory is in my HOT index and says verbatim "Pair every ruling with a retroactive sweep." It did not fire — the third hot-tier memory to fail to trigger today.** ⚠️ **And note where the stale text sat: the FILES table was right and the boot instruction was wrong, so the surface read FIRST was the one left behind. Sweep in reading order, not authoring order.**
 
 16. **My exit codes advertised a perimeter wider than they checked — and the test I wrote to close that found a worse case of the same bug.** Review found `fetch_eu.main()` only *printed*, so ECB/AGSI failures and breaches never reached the exit code or the registry-integrity check: **a run with working Yahoo and dead European primaries would exit `0 CLEAN` while the screen said `PULL FAILED`** `[[finding_instrument_reports_clean_against_the_wrong_reference]]`. Repaired via a structured return; the integrity perimeter went from **1 threshold (Yahoo-only) to 3 (Yahoo + ECB + AGSI)**. ⚠️ **Then the new test failed:** the reviewer flagged TTF **L1** as missing its threshold id — but **L3 (>100) and L4 (>200), the two most severe tiers, were missing it too**, as was the EUR/USD **crisis** tier. ⇒ **The states that matter MOST were the ones silently skipping the check, while the milder tiers were instrumented.** **General form: when a tag is attached by hand per branch, the severe branches are the least exercised and so the likeliest to lack it — the bug hides exactly where it costs most.** The regression test now asserts *every* non-green tier of *every* banded function carries its id.
+
+17. **My kill rows were conditioned on the direction the thesis expected, so the event that killed the thesis's premise could not trip them.** Every C-1 kill row said *"while the Bund rises"*. France's spread then widened +20bp in three sessions while the Bund FELL, which is the normal shape of a fragmentation event (safe-haven buying). **No kill row fired, and the premise was dead anyway.** This is the mirror image of #2. There, a spread was blind to a common-mode level move. Here, a level-conditioned kill row was blind to a relative move. ⇒ **Write the kill row on the mechanism, never on the direction I expect the other legs to take.** Found while re-grading, after DAEDALUS's falsification #4 (10/8) asked whether the France leg was AND or OR. **Consistent with the standing prior: found from outside, not by re-reading.**
+
+18. **A cadence written into the header was never checked by anything, and it lapsed for six weeks.** *"Re-grade every session"*: the last re-grade was 9/10, and the next one is this, on 10/21. No script reads this file's age. ⇒ Replaced with a cadence tied to events a closeout already handles (a registry state change, a prediction checkpoint), plus a dated **Last re-graded** line a reader can see. ⚠️ **Still unmechanised: no boot or closeout check reads that line.** Named here so the gap is countable, not fixed.

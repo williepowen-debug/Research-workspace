@@ -12,7 +12,9 @@
 - 🟠 **ECB 10/29: HOLD is consensus; DECEMBER hike ~87% priced** (secondary, ~10/20). `T-04` (≥2.75) stays NOT-MET into 10/29 on that pricing. **BoE 11/5: 25bp hike priced** (press). **NL election 10/29**, same day as the ECB.
 - 🟠 **UK long end retreated before the 10/28 Budget:** 30Y **5.797** (−6.3bp, TE 10/21) = **20bp under `T-13`**; 10Y **5.388** = 11bp under `T-06`. Both fell on a CPI beat. Bank-tax reports hit Lloyds −2.3% / NatWest −2.1% (10/15–16). **The Budget is the LDI date.**
 - 🟠 **TTF 87.50 on named `TTFX26` [10/21]; traded >€90 intraday 10/20, highest since Dec 2022 (secondary).** `T-07` L1+L2 OPEN, L3 (€100) ~14% away. Drivers (secondary): Norway **Kårstø unplanned outage 10/13**, Qatar force majeure into Nov/early Dec (Edison: early Dec; Shell: full Ras Laffan repair ~Q1-27). 🔴 **X26 expires 10/29 — roll inside 8 days; never grade a rung across the roll** (owed #26 by 10/26). Citi still Q4 base €56 (demand destruction) — **a named dissent.**
-- 🟡 **`T-15` Saudi-crude-to-Europe premise WEAKENED:** Yanbu loadings **resumed 10/15** after the East-West pipeline restart, and Aramco is reportedly restoring full November crude to Europe (unnamed sources, WALTER `-1010-002`, `-1015-009`). **Not re-graded at primary** — the KB rows (`073`–`083`) are past `Stale_By`.
+- 🔴 **EUROPEAN BANK SHARES HAVE SOLD OFF, AND NOT JUST IN FRANCE** (Yahoo closes 9/18 → 10/20): SX7E **−8.0%** (288.26 [10/21]) · Deutsche **−14.5%** · Intesa −10.2% · UniCredit −8.6% · Santander −6.3% · French banks 9/21 → 10/20: BNP −11.1%, SocGen **−15.0%**, Crédit Agricole −13.3% — **vs Euro Stoxx 50 −1.8%.** Cause NOT established. `T-14` NOT fired (no named warning). `VX-5.01` stays GREEN only because its bands need a further ~17% fall. **BNP Q3 on 10/28 is the first test** → `KB-121`; routed to REGINALD + LIQUID 10/21.
+- 🟡 **`T-15` NOT-MET on both legs (graded 10/21):** (a) the principal is silent, and the REPORTED direction has reversed to restoration (Yanbu loadings resumed, full November volumes, both secondary; `KB-122`). (b) **Now measured monthly:** Sept HICP energy +4.0% m/m vs Brent +16.1% m/m. Energy rose LESS than crude, the opposite of the decoupling the leg tests. Next: Oct flash HICP 11/04.
+- 🟠 **`thesis/KILL_TREE.md` RE-GRADED 10/21:** C-1 (Bund term premium) **WEAKENED, no longer load-bearing.** France's spread isn't tight, the euro weakened, and the kill rows were blind because each was conditioned on a RISING Bund. C-2 survived (`HNS-06` HIT, ISM 54.5). C-3 is heading for its kill (`HNS-07` 30%). C-4 holds, plus a new sovereign–bank row.
 - 🟡 **Germany: ZEW fell to 28.1 in Oct from 34.7** (lowest in 3 months; Wambach: energy prices cutting real incomes). Aug industrial production +2.0% m/m, orders −10.6% m/m (Destatis via TE). Flash PMIs due ~10/23 (date not confirmed at S&P). **`T-02` (>52) stays the live state** — the growth leg is dead; this is the first soft print against that.
 - 🔴 **`T-14`'s SILENCE MEANS LESS THAN IT LOOKS.** ESRB `report202602` (primary 9/19): identified bank exposure to PE/private credit **€4bn**, *"far below the figures implied by supervisory intelligence"*; leverage *"cannot be computed from existing data"*. **`T-14` NOT fired**; leg (b) waits for a supervisor to NAME institutions, downstream of being able to SEE the exposure. **Q3 bank results start: BNP 10/28** → `HNS-09` window; owed #28 definitions are now **past due**. → `KB-HANS-090`–`092`
 - 🔑 **`HNS-09` 70% basis:** euro-area banks are **NET DEBTORS** to NBFI ⇒ FUNDING is the dominant route; ⛔ it does **NOT** bound the credit channel (gross NBFI exposure ~10% of SI assets). FSR **€62.5bn drawn** ≠ ESRB **€4bn identified** — two perimeters, never merged.
@@ -91,7 +93,7 @@
 | **by 2026-10-26** | **Owed #26: re-verify `TTF_CALENDAR` X26/Z26 expiries** before the 10/29 roll | 🟠 |
 | **Wed 2026-10-28** 🔴 | **UK Budget** — the LDI date; `T-13` 20bp / `T-06` 11bp under · **BNP Q3 results** (`HNS-09` window opens) · **France's first reserve-diesel sales** (AFP, reported; `KB-111`) | 🔴 |
 | **Thu 2026-10-29** 🔴 | **ECB GovC** (HOLD consensus) · **NL election** · **TTF X26 expiry** | 🔴 |
-| **2026-11-01** | `HNS-07` resolver gas day (grade 11/02–03 per `KB-HANS-096`) | 🟠 |
+| **2026-11-01** | `HNS-07` resolver gas day — **grade the EVENING of 11/02 ET** (AGSI publishes gas day D between ~18:20 CET D+1 and ~02:30 CET D+2; `KB-123`) | 🟠 |
 | **2026-11-04 · 11-05** 🔴 | **EA Oct flash HICP** · **BoE decision (hike priced)** | 🔴 |
 | **2026-11-17/18** 🔴 | **France full-budget Assembly vote (date reported 11/17–18, secondary)** · **EA Oct FINAL HICP → `T-16` 2 of 2?** | 🔴 |
 | **2026-11-27** | **S&P France review** | 🟠 |
@@ -112,18 +114,13 @@
 | # | Owed | Due |
 |---|---|---|
 | 28 | 🔴 **`HNS-09` definitions** (aggregate, CoR series, "material", **and how a one-off such as a UniCredit Russia exit loss is treated** — `KB-112`) — **PAST DUE (10/16), results start 10/28** | **2026-10-27** |
-| 32 | 🟠 **`test_hans.py` 1 of 136 FAILS — FAILS AT HEAD TOO** (verified in a detached worktree, so it predates this session): `test_C2_is_SERIES_QUALIFIED` — `OAT_BUND_SPREAD_BP` and `FRANCE_GERMANY_10Y_SPREAD_BP` both declare `VX-HANS-3.02` in `workbook/PUBLISHED.tsv` and both retire 96.8, so C2 cannot tell them apart. Fix the ledger (one metric per surface), not the test | next session |
 | 26 | **Re-verify `TTF_CALENDAR` X26/Z26 expiries** before 10/29 | **2026-10-26** |
-| 29 | **23 KB facts past `Stale_By`** (boot §[7]) incl. `KB-HANS-073` Petroline — now overtaken by the 10/15 Yanbu restart; re-grade `T-15` | 🟠 |
-| 27 | **DAEDALUS falsification #4 (10/8): re-grade `thesis/KILL_TREE.md`** — C-1 vs `T-10`, owed #13, C-2 HNS-06 HIT, C-3 norm basis | **PAST DUE (10/16)** |
-| 5 | 🟠 **(b) UK 10Y basis gap still UNDECOMPOSED** — BoE `IUDMNPY` par vs TE; needs SAME-DATE pairs (10/19: 5.374 par vs TE ~5.42 prev-close) | 🔴 |
-| 25 | **`T-15` leg (b) label vs basis** (UNINSTRUMENTED vs a monthly-instrumentable test) | **PAST DUE (10/01)** |
-| 13 | **Re-argue exclusion leg (2)** — the Fed hike killed the euro-strength mechanism | open |
+| 33 | 🟡 **RULE #1c charter reword to the scoped read.** WQ-469 is recorded RULED APPROVE under Will's 21:30 ET blanket "go with your recs" (PROME fd527ed57). HANS asked Will directly 10/21 instead of editing its charter on a peer's relay. **Make the edit on his word; until then the READS row (scoped) governs** | on Will's word |
+| 5 | 🟡 **(b) UK 10Y basis — PARTIAL 10/21 (`KB-124`):** 3 same-date pairs; the one verified TE close (10/08) agrees with BoE par within 0.5bp, and the others run +3.4/+4.5bp (likely snap time). **Gate: ≥5 verified-close pairs.** One accrues per session; next is 10/21 vs BoE 10/21 (~10/23) | accrues |
 | 14 | **Split `VX-HANS-11.03`** into German annual outlay + a real EU issuance series | 🟠 |
 | 23 | `ML.tsv` legacy key collision — `C12` guards new ones; not renumbered → `ML-HANS-473` | 🟠 |
 | 22 | Empty-key discriminator is vendor-quirk-dependent — re-verify | **2026-12-19** |
 | 16 | `VX-HANS-1.07` Germany UST — find it or retire the aggregate | 🟠 |
-| 21 | AGSI lag D+1 vs D+2 (`KB-HANS-096`) — touches `HNS-07`'s grading date only | **PAST DUE** |
 
 ## TWO-SENTENCE SUMMARY
 
