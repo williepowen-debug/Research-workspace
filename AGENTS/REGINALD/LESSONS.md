@@ -70,4 +70,4 @@ All three can coexist at the same bank. WAL uses all three.
 
 ---
 
-*Last reviewed: **2026-08-20** — NDFI [Data] entry figures refreshed at the FFIEC primary (rule VINDICATED, scale had quadrupled unflagged: WAL $6.5B→$15.81B; 68%→68.9% held) + the rule/figure-half distinction added. Phantom-class sweep run the same session found ONE live hit (CALENDAR calling a 8/18-confirmed-SOLD, WAL-owned leg a "live print-catcher") — fixed; `TRADE.md` and `MAY15_DECISIONS.md` verified already FROZEN/HISTORICAL-bannered. Prior: 2026-06-19 (POSITIONS-ground-truth repeat-lesson + anchor-drift, both ORC-caught).*
+*Last reviewed: **2026-08-20** — NDFI [Data] entry figures refreshed at the FFIEC primary (rule VINDICATED, scale had quadrupled unflagged: WAL $6.5B→$15.81B; 68%→68.9% held) + the rule/figure-half distinction added. Phantom-class sweep run the same session found ONE live hit (CALENDAR calling a 8/18-confirmed-SOLD, WAL-owned leg a "live print-catcher") — fixed; `TRADE.md` and `archive/root_retired_2026-10-22/MAY15_DECISIONS.md` verified already FROZEN/HISTORICAL-bannered. Prior: 2026-06-19 (POSITIONS-ground-truth repeat-lesson + anchor-drift, both ORC-caught).*

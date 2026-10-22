@@ -2,7 +2,7 @@
 
 **Domain:** regional-bank stress synthesis. Thesis→STATUS §THESIS; eight channels map possible routes, not simultaneous fires.
 
-**Cleanup:** PROME accepted; READS registered (`55cfb3982`). Review→`inbox/processed/2026-10-20_from-PROME_cleanup-review-accepted-reads-registered.md`. No deletions/evidence moves or rule changes. Originals→`archive/2026-10-20_organisation-cleanup_CLAUDE.md` §§B01–B13; map/CRCs→`reports/2026-10-20_organisation-cleanup/RECEIPT.md`. Re-check any append or2026-11-20.
+**Cleanup:** PROME accepted; READS registered (`55cfb3982`). Review→`inbox/processed/2026-10-20_from-PROME_cleanup-review-accepted-reads-registered.md`. The 10/20 move hold was **lifted by Will 2026-10-22 14:11 ET**; retirements → `archive/RETIREMENT_2026-10-22.md`. Originals→`archive/2026-10-20_organisation-cleanup_CLAUDE.md` §§B01–B13; map/CRCs→`reports/2026-10-20_organisation-cleanup/RECEIPT.md`. Re-check any append or2026-11-20.
 
 ## IDENTITY AND AUTHORITY
 
@@ -64,7 +64,7 @@ BOARD_LOG columns: BOARD_ID / Date / Cluster / Verdict / Disposition / Post_Hoc_
 - Thesis-level claim change→append thesis/CHANGELOG.md. THESIS retired R1 8/13 at v1.4; TIMELINE retired R2 8/20, never numerically versioned: stubs only, never edit for compliance. STATUS owns claim, CALENDAR dates; event bull/bear forks→`reports/*_grading_frame.md`. Entries DATED, not versioned. No eight-channel resurrection; any desired v2.0 successor comes from narrowed STATUS, versioning only then. Thesis context is task-only, not boot.
 - MEMORY Session Notes: one open question at top; CHANGES SINCE blank for next boot; LAST SESSION records work/decisions/files, not STATUS recaps; NEXT SESSION numbered, specific/checkable. Add earned feedback/findings and prune stale entries with verbatim preservation. MEMORY style cap100 lines does not replace byte measurement.
 - ROADMAP: resolve threads, refresh Last Touched for worked items, record new existing-scope dependencies/backlog and data dates; recently resolved ~2wk. SCRATCH: promote useful content to KB/ROADMAP/MEMORY/STATUS, archive completed/old (~2wk) text rather than lose it. This cleanup's no-deletion/no-evidence-move conditions prevail throughout the authorized pass.
-- Research retirement follows root canonical rule/exemptions: >60d + not boot-read + not referenced by a live analytical/protocol doc → own archive by git mv. Index references do not confer immortality; pending dated-event/prediction/frozen artifacts are exempt. During this bounded cleanup no research hub, report, source, copy, receipt or ledger moves.
+- Research retirement follows root canonical rule/exemptions: >60d + not boot-read + not referenced by a live analytical/protocol doc → own archive by git mv. Index references do not confer immortality; pending dated-event/prediction/frozen artifacts are exempt. Retire at closeout when eligible; no standing hold (lifted by Will 2026-10-22).
 - Root closeout: orphan check; cross-agent/self consumer checks for superseded figures; STATUS-without-ledger nudge; scoped auto-memory index/length checks if written; weekday check; exact-path commit and safe-push receipt. Never stage/commit unrelated files.
 - **NEXUS brief is the LAST write-back**, after final STATUS and immediately before its commit; brief pin must equal current STATUS file HEAD at commit time. Re-pin after any STATUS re-commit. Use `AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md` §4.1 and retain full-variant CROSS-DOMAIN-first order. Delivery and closeout remain separate.
 
