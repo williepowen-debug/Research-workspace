@@ -85,3 +85,7 @@ Original October13 expectations above are unchanged. WAL carried owner Office<=5
 ## October20 late outcome append — OZK and WAL call
 
 OZK disclosed the executed December2029 RaDD extension and new capital; no full payoff/commitment termination was established. Thus the original narrow retention expectation is SUPPORTED by disclosed terms, with limited novelty; no Q3 attributable RaDD charge-off inferred. Boston's open recovery question now has an adverse event: failed sale,37.3M charge-off and132M OREO retained. WAL secondary call transcript supplies unnamed external-disposal/no-seller-financing counterevidence, not the specific99M loan identity or final owner grades. Eagle/VLY remain pending. Primary locators, basis and gaps→`2026-10-20_backlog-followthrough.md`. Original expectations/probabilities unchanged.
+
+
+---
+**Outcome appended 2026-10-22 (prior text above unedited):** EGBN row — **TRUE.** At 9/30, Prince George's apartments ($56.0M) was extended 8/21 → 12/21/26 and moved to nonaccrual; Montgomery storage ($56.06M) was extended 8/10/26 → 2/10/27. Fairfax office and Anne Arundel storage dropped off the over-$10M list with no disclosed destination. Source: Q3 deck s19/s20 (acc 0001050441-26-000110) → `reports/2026-10-22_EGBN_Q4_maturity_wall.md` §6.
