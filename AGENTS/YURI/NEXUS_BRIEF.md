@@ -1,10 +1,10 @@
 # YURI — NEXUS Brief
 
-**Status:** 🟡 Score 2/5 unchanged (2026-10-21). No mobilisation declaration through 21.10 (YUR-004 OPEN/PARTIAL; 10/16 checkpoint backfilled 10/21). Fourth custodial Decree-302 list amendment (№738, 15.10) alongside a US rapprochement track (Kremlin 21.10: diesel tankers readied, pardon, mid-November talks readiness).
+**Status:** 🟡 Score 2/5 unchanged (2026-10-21). No mobilisation declaration through 21.10 (YUR-004 OPEN/PARTIAL, structurally unreadable gaps only). Fourth custodial Decree-302 list amendment (№738, 15.10); listed parents Ontex and Sonoco verified; ЕГРЮЛ shows no title move. US rapprochement track (Kremlin 21.10). New rows YUR-005 (11/02) and YUR-006 (11/15).
 **Operational-effects follow-up:** bounded pass completed, underlying evidence PARTIAL. No authenticated extra diesel or series interruption established; №686 producer/group transaction scope is narrower than an automatic exchange-wide blackout. METRO mechanism/date are qualified without a cash-loss estimate; Aptar's announced Q3 release is 29 October. PROME consumed the operational result and YURI receipt reconciliation (`71accb333` owner report); WALTER's three-packet source consumption/№1272 adoption is verified at `635bbb010`, report §7.4. OSPREY consumption remains separately UNKNOWN. No new F01 credit.
 **12 October research delta:** METRO issuer confirms operating-control loss despite retained title; two FNS ownership-field checks corroborate foreign registered stakes (extracts dated 13 October Moscow). Aptar's Russian unit was below 0.6% of 2025 group sales/operating income. Minenergo public search is now readable; signed links remain missing. №1272 source attribution corrected to space licensing.
 **Domain:** Russian STATE ACTION and INTENT, whatever the target: decrees, seizures, mobilisation and force posture, the Kremlin political calendar. Feeder desk; never trades.
-**As of:** 2026-10-21 ET (primary fetches 2026-10-22T00:53–00:55Z) | STATUS commit: this brief and STATUS are committed together; verify with `python3 scripts/brief_pin_check.py YURI`.
+**As of:** 2026-10-21 ET (primary fetches 2026-10-22T00:53Z–02:15Z: pravo, Kremlin, government.ru, ЕГРЮЛ, SEC, issuer sites) | STATUS commit: this brief and STATUS are committed together; verify with `python3 scripts/brief_pin_check.py YURI`.
 
 ---
 
@@ -42,6 +42,7 @@
 - **No title movement at the registry:** ЕГРЮЛ 22.10 04:24 Moscow shows Nestlé Russia (SPN 84.082% / Nestlé Deutschland 15.918%) and Auchan (Sogepar 99.99858%) unchanged. LEV entered as management organisation 23.09 (Nestlé) and 21.10 (Auchan): custody registered, not disposal.
 - **Diesel regime (precise form, §9):** the whole ban runs to 31.01.2027. №1252 moved the ¶2(г) n=0 producer diesel exemption start to 01.11 and ends the ¶2(в) EAEU exemption 31.10. The 500 kt permission (10.10) is announced; its signed act/annex is still unlocated. "Lifted" is wrong (WALTER correction COR-20261021-16).
 - **Information/compliance control:** №686 (TEK information restriction; goods-code list still unlocated) and №750 (prior-consent gate on strategic JSCs and subsidiaries answering foreign regulators; change vs prior wording not compared).
+- **Kremlin 16.10 / 21.10 extras:** Putin says the border security zone is not negotiable (16.10, command post; published transcript stops before the autumn-winter tasks). He offers fertilizer "in large quantity" to the US (21.10). A possible RU–CN–US meeting at APEC Shenzhen is "not rejected" (Ushakov).
 - **Mobilisation:** no declaration through 21.10 in any reachable act or Kremlin body; residual gaps are structurally unreadable (mil.ru UNREACHABLE 10/22 01:28Z; unpublished numbers).
 - **№738 listed exposure:** **Ontex (Euronext Brussels) VERIFIED**: issuer Inside Information 16.10, Russia about 5% of revenue and 7–8% of adj. EBITDA, an interim administrator has operational control. **Sonoco (SON) VERIFIED**: no divestiture disclosed through the 21.10 Q3 release, which is silent on the seizure. Smurfit Westrock UNVERIFIED with contrary evidence; Tarkett listing unresolved; Menshen UNVERIFIED. Ownership routing is PROME's; not priced.
 - **№750 made precise:** the only change is a new trigger, so foreign-LAW obligations now also require prior state consent.
@@ -72,6 +73,7 @@
 |------|-------|---------------------|
 | 2026-10-23 / 30 | YUR-004 registered weekly reads | Eligible public declaration in title or operative text |
 | 2026-10-24 | YUR-F01 desk self-falsifier | 0 of 3; DAEDALUS grades, Will rules any retirement |
+| 2026-10-29 | Aptar Q3 results (issuer schedule) | First issuer read after №689 custody; no loss estimate yet |
 | 2026-10-31 | YUR-004 final grade · №954 ¶2(в) EAEU exemption ends | Full eligible coverage; backfills to 11/02 |
 | 2026-11-02 | YUR-005 grade | №954 ¶2(г) postponed/replaced vs lapsed |
 | mid-Nov | RU–US–UA talks (Ushakov 21.10, "in principle") | HAWK reaction leg; calendar only |
