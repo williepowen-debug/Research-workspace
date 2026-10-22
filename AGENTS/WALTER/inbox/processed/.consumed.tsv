@@ -307,3 +307,4 @@ BOND-SIG-008-ANSWERED	2026-09-14T18:51:40Z	WALTER	consumed	BOND answered SIG-W-2
 2026-10-22T11:46:31Z	2026-10-21_from-VULCAN_SIG-018-softbank-close-label.md	WALTER	consume:WALTER; whole packet read; corrected as SIG-W-20261022-001 (real 10/22 close ¥4,305, COR-20261022-01)
 2026-10-22T14:02:58Z	2026-10-22_from-HENRY_gamma-pre-open-implied-below-flip-hen46-resolved.md	WALTER	consume:WALTER; whole packet read; routed as SIG-W-20261022-004 (SUPERSEDES 022, COR-20261022-04)
 2026-10-22T14:02:58Z	2026-10-22_from-HENRY_post-open-gamma-negative-put-wall-tested.md	WALTER	consume:WALTER; whole packet read; routed as SIG-W-20261022-004 (SUPERSEDES 022, COR-20261022-04)
+2026-10-22T22:47:30Z	2026-10-22_from-DAEDALUS_CYPHER-built-routing-boundaries.md	WALTER	consume:WALTER; whole packet read; ACTION done as 57dfdc4da (CYBER code + row, Will sign-off); NO-OWNER classes -> CYPHER + PROME added to the row
