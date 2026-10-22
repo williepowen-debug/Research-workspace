@@ -22,27 +22,33 @@
 
 Original contiguous blocks B01–B08 → `archive/2026-10-20_organisation-cleanup_MEMORY.md`; exact source-line/section map and verified CRCs → `reports/2026-10-20_organisation-cleanup/RECEIPT.md`. Re-check size at any append or on 2026-11-20, whichever first.
 
-⚠️ **Open question at close:** when the Q4 CRE maturities resolve (EGBN $265.7M MF in 4Q26; VLY deferrals to ~Q1-27), do the "well-secured, no specific reserve" loans resolve near carrying value — or does realized loss show the falling reserve coverage (5/5 Q3 names) was under-reserving?
+⚠️ **Open question at close:** when EGBN's and the cohort's 4Q26 maturities hit appraisal refreshes, do banks take write-downs (REG-29 says ≥4 of 6 NCO rises, 45%), or extend at old marks (REG-28, 65%)? DEWEY's base rate says falling coverage alone is no near-term predictor (2/10 within 4Q); the problem-loan rise is the leg with history.
 
-### LAST SESSION — 2026-10-22 ~11:0x–11:2x ET, Will-directed catch-up + PROME assignment
-Boot (root/AGENTS/USER/COMPLETION_SPEC/Runtime mechanics + desk boot 1–9c); no pull needed (origin 0 ahead). Read at primary: SSB/BKU/EGBN/VLY/HBAN/ZION Q3 8-Ks (3 readers: EGBN Opus, VLY/BKU Sonnet; decisive figures self-verified), OCC GENIUS final rule PDF. Graded: REG-27 Q3 0.57% not met (OPEN); FL frame SSB HOLDS provisional, BKU HOLDS-PENDING-P; VLY L521 early flag strengthens; EGBN 008 → nonaccrual, re-extended 12/21/26, no cash. Answered Will's HY question (SIG-W-20261022-005): BANK-ABSENT 9/21→10/20 conf ~0.6, leg2 CCC-only. Drained 5 WALTER + 3 general inbox. Files: `reports/2026-10-22_catchup/REPORT.md`, `domain/sources/2026-10-22_catchup/`, `reports/2026-10-22_boot/`. Then Will's docx (AI-agent banking security) analysed → `reports/2026-10-22_AI-agent-banking-doc_analysis.md`. AI-generated synthesis, secondary-heavy; VLY 'acquired Bluevine' wrong (pending); HBAN '4 hrs/week' not in release. Read for us: run-speed caveat on weekly funding gauges, not credit. Run-speed column idea → PROME ideas list (not approved).
-
-Prior handoff (10/21) preserved in git history of this file and `archive/MEMORY_session-handoff_2026-10-21.md`.
-
-Later 10/22: EGBN Q4-wall dive (`reports/2026-10-22_EGBN_Q4_maturity_wall.md`) and the appraisal-discount cohort test (`reports/2026-10-22_appraisal-discount_cohort_test.md`, Will-approved). FLG SR 07-1 basis note added to matrix §3b (FLG packet verified at FDIC API). Quartr needs a Pro subscription (unavailable). EGBN call transcript not public; replay on the IR site through 11/5.
-
-Afternoon 10/22 (Will-approved): DAEDALUS D:L793 fixes done. Charter step 9 now obliges ACKs on the OZK/WAL pair channels (WQ-484), with ACKs written. Exit rail re-derived (CBRE leg retired; CRE anchor re-keyed to WAL-01/02, NOT FIRED). TRADE/POSITIONS reconciled to the FORGE 10/22 capture (HBAN Oct-16 terminal, outcome UNKNOWN). boot.py: inbox/channel/resolve-by checks, non-zero exit. Resolve-by sidecar registry/PREDICTION_RESOLVE_BY.tsv. CALENDAR rotated to 22,977 B. CREED launched 12:19 and answered the CRE leg (rate shock, not credit).
+### LAST SESSION — 2026-10-22 11:02 → 15:15 ET, Will-directed (catch-up, research, fleet fixes), closed at Will's request
+- **Q3 catch-up at primary:** SSB / BKU / EGBN / VLY / HBAN / ZION + OCC GENIUS rule → `reports/2026-10-22_catchup/REPORT.md`. Will's HY question answered BANK-ABSENT ~0.6. REG-27 0.57% (not met, OPEN). FL frame SSB HOLDS provisional, BKU HOLDS-PENDING-P. VLY flag strengthens. EGBN Prince George's → nonaccrual, no cash.
+- **Research:**
+  - EGBN Q4 wall → `reports/2026-10-22_EGBN_Q4_maturity_wall.md`
+  - appraisal-discount cohort test → `reports/2026-10-22_appraisal-discount_cohort_test.md` (12/14 publish no discount; realized haircuts 13–22%)
+  - AI-agent doc analysis + DEWEY addendum → `reports/2026-10-22_AI-agent-banking-doc_analysis.md`
+  - EGBN folder brought current → `research/EGBN/` (verify PASS, 193 files)
+- **Predictions:** REG-28 / 29 / 30 registered on Will's word 13:36 ET (65 / 45 / 60%); resolve-by sidecar `registry/PREDICTION_RESOLVE_BY.tsv` (IMMOVABLE/CHOSEN anchors).
+- **Fleet fixes (Will-approved):**
+  - DAEDALUS D:L793 8/8: exit rail re-derived, TRADE/POSITIONS reconciled, boot.py checks + `--check-only`, WQ-484 ACK duty in charter
+  - STATUS trimmed; clutter retired (`archive/RETIREMENT_2026-10-22.md`)
+  - FLG SR 07-1 basis note verified
+  - coverage leg re-weighted on DEWEY
+- **Not done:** EGBN/VLY calls unheard (no transcript; Quartr needs Pro). Charter at 76% (trim awaits Will's OK).
+- Prior handoff → `archive/MEMORY_session-handoff_2026-10-22.md` BLOCK M12, crc32 `36ef7c41`.
 
 ### CHANGES SINCE LAST SESSION
 
 ### NEXT SESSION
-1. Grade AMTB (10/22 AMC) FL cells and CUBI WQ-318 row; FLG 10/23 ~06:00 'weakens if' lines (MF SM ≤$2,757M; mods <$556M); SBCF 10/27. FL aggregate stays UNKNOWN until AMTB/SBCF + 10-Q cells.
-2. H.4.1 10/22 16:30 primary credit vs descriptive lines (>12.9B / >15.7B, catchup §1e); H.8 Fri 10/23 small-bank deposits/borrowings. Not a registered threshold; registration needs base-rate pass + Will.
-3. EGBN call 10/22 transcript (not heard): Prince George's reserve, 4Q MF maturities, 009/014 destination. VLY 10-Q (~11/10): mods/re-defaults, MF buckets. SSB 10-Q: classified accrual-share cell + REG-27 confirm.
-4. WAL settled log complete through 10/21 (36 rows, run 0). REG-T-06 leg 3 grades 11/13 CFR (RULED B). JWT renewal before 11/5 Will-owned; 11/07 run.
-5. Nano P&A/DEWEY checkpoint 10/27. CCB/CASH/GDOT Q3 dates still unchecked (add to the earnings table when verified at issuer).
-7. DOCKET L801 (~10/30, Q3 call reports): re-read the Q3 cohort pattern against DEWEY's base rate. Keep the problem-loan leg; the coverage-decline leg is already re-weighted in STATUS (2/10 hits within 4Q vs 25% base). Check whether REG-29's 45% mark (appraisal-refresh rationale, not coverage) still holds once DEWEY reruns; any re-mark goes in the ledger field with its date.
-6. Run boot.py at next boot: first live run of the new built-in legs + exit codes (tested in isolation 10/22, guard falsified on a synthetic channel). DONE 13:1x ET 10/22: `boot.py --check-only` (kre_float gets `--no-state`); full check-only boot verified to leave the tree unchanged. Retired feeds removed from BOOT_SEQUENCE. STATUS trimmed to 22,694 B (channel table → archive T34). ACK format now requires 'changed: … | no change, because …'. Deferred D:L793 findings: frozen feeds still in BOOT_SEQUENCE (READS change needs PROME), glued-word re-spacing on next touch of each surface. Clutter retirement DONE 10/22 14:1x ET on Will's word (7 root files, MTB/, 19 outbox packets → `archive/RETIREMENT_2026-10-22.md`; 13 newer outbox packets retire as they pass 60 days).
+1. **Boot with `boot.py`** (normal run, not `--check-only`), then process what it lists. FLG prints Fri 10/23 ~06:00 ET: grade the CRE top-3 'weakens if' lines (MF special mention ≤$2,757M; mods <$556M). AMTB (10/22 after close) FL cells + CUBI WQ-318 row. SBCF Tue 10/27.
+2. **Funding:** H.4.1 primary credit (10/22 release) vs the descriptive lines >12.9B / >15.7B (catchup §1e); H.8 Fri 10/23. Descriptive only, not registered.
+3. **REG-28 first checkpoint Tue 10/27:** EGBN DC apartments $42.7M + Montgomery mixed-use $27.7M mature. Outcome visible at the Q4 release unless disclosed earlier.
+4. **DOCKET L801 ~10/30 (Q3 call reports):** re-read the Q3 cohort pattern against DEWEY's rerun. Check REG-29's 45% (any re-mark goes in the ledger field with its date).
+5. **Pending Will:** charter trim (move the HIDDEN CRE METHODOLOGY section to a reference file with a pointer; charter 24,887 B = 76%). JWT renewal at the ~11/1 credential sitting (WQ-31) before the 11/05 expiry and the 11/07 run.
+6. **Carried:** Nano P&A / DEWEY 10/27 · REG-T-06 leg 3 grades 11/13 from the CFR · CCB/CASH/GDOT Q3 dates unchecked · 10-Q cells (VLY mods ~11/10, SSB classified share, BKU CRE 30-89) · glued-word re-spacing on next touch · 13 outbox packets retire as they pass 60 days.
 
 **CARRIED LESSONS — behaviour, not record.** *Newest first. Aging rule (9/02): full entry → one-line rule AND the full text goes to `archive/` verbatim + crc in the same pass. ⛔ Never age a lesson by deletion (the 12-21 compressions archived nothing; git history only). Preamble → BLOCK M7, crc32 `8028ecb4`.*
 48. **[10/22] I committed 32 `git mv` renames with a pathspec built from `git diff --cached --name-only`, which lists only the NEW name of each rename. The commit added the archive copies and left the old-path deletions staged, so both copies sat on origin for about a minute (f984ce53c, fixed dbfbfc2bd).**

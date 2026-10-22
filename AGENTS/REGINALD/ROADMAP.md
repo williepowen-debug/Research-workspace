@@ -79,6 +79,8 @@ October20 key-file audit: `reports/2026-10-20_key-file-sweep/REPORT.md` inventor
 
 ## RECENTLY RESOLVED — October20
 
+**10/22 afternoon (Will-directed):** EGBN Q4 wall (`reports/2026-10-22_EGBN_Q4_maturity_wall.md`) and the appraisal-discount cohort test (12/14 banks publish no discount; realized haircuts 13–22%). REG-28/29/30 registered. DAEDALUS D:L793 8/8 (exit rail, boot checks, WQ-484 ACK duty). Clutter retired (`archive/RETIREMENT_2026-10-22.md`). Coverage leg re-weighted on DEWEY's base rate (DOCKET L801 ~10/30). **Discount-window open question:** still descriptive, not registered. Last touched 2026-10-22.
+
 **10/22 Q3 catch-up (Will-directed):** `reports/2026-10-22_catchup/REPORT.md`. SSB/BKU/EGBN/VLY/HBAN/ZION read at primary; REG-27 OPEN (0.57%); FL frame provisional (SSB HOLDS, BKU HOLDS-PENDING-P); VLY L521 early flag strengthens; EGBN Prince George's answered (no cash, nonaccrual, re-extended). Discount-window open question: base rate computed (catchup §1e), still NOT registered — decide with Will. Last touched 2026-10-22.
 
 Will-directed reported-bank earnings catch-up → `reports/2026-10-20_reported-bank-earnings-catchup.md`; four cohort/three contextual primary releases, plus existing partial FITB owner evidence. WAL release funding grade completed; original expectation outcomes appended. Remaining call/filing questions and upcoming prints retain their existing carriers; no new monitor or research universe.
