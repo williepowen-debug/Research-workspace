@@ -11,7 +11,7 @@ Primary-source extracts only. This is the evidence locker for data pulled direct
 - 10-K / 10-Q section extracts (e.g. `10K_Q4_2025_EXTRACT.md`)
 - FDIC API pulls (`FDIC_API_CALL_REPORT_DATA.md`)
 - FDIC Quarterly Banking Profile extracts (`FDIC_QBP_Q4_2025.md`, `FDIC_QBP_Q4_GEOGRAPHIC_ANALYSIS.md`)
-- FFIEC Call Report raw CSVs (`FFIEC_CALL_REPORT_Q4_2025_RAW.csv`, `FFIEC_RC-R_Q4_2025.csv`)
+- FFIEC Call Report raw CSVs (`FFIEC_RC-R_Q4_2025.csv`; the Q4-2025 full raw CSV retired to `../archive/` 2026-10-22 — the fields this desk uses are carried in `workbook/CALL_REPORT_SERIES.tsv`; the full report is re-pullable from FFIEC CDR)
 - Broker / position snapshots (`FORGE_TRADE_STATUS.md`)
 - Insider filing scans (`INSIDER_SCAN_OZK.md`)
 

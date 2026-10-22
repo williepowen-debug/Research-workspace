@@ -59,3 +59,33 @@
 2. **FFIEC CDR login renewal by Thu 11/5** (#8).
 3. **N1 is a fact for Will and TERRY, not a recommendation from this desk:** the sell he approved 10/14 is not evidenced in the broker view at 10/22 11:01 ET.
 4. **N8/N9:** is the repo public or private, and should third-party PDFs stay in tree?
+
+---
+
+## Part C — outcomes (Will 11:25 ET: "go ahead and fix the housekeeping items"; worked 11:25–11:4x ET)
+
+**Also landed mid-pass:** WQ-483 ruled (Will 11:24 ET via PROME) → **P-OZK-7 encoded as THESIS v1.7, conviction 🟡 LOW**, commit **67a1634a1**; ruling packet filed to `inbox/processed/`.
+
+| # | Outcome |
+|---|---|
+| N1 | **FIXED** — STATUS §Positions, Bottom Line, INDEX and `POSITIONS.md` header restated from FORGE 10/22 + WQ-428 (sell approved, not evidenced, order status UNKNOWN). Evidence only; no management |
+| N2/N3 | **FIXED** — STATUS carries a Q3 snapshot + Q3 roster from MC Fig 22–23 pp.23–25 (FLNG 12022); Q2 tables moved verbatim → `archive/STATUS_HISTORY_2026-10-22.md`; charter + `SEVEN_CREDIT_DEEP_DIVE.md` now point to STATUS for the current roster. SM still un-itemized → 10-Q |
+| N4 | **FIXED** — price $48.96 (11:26 ET), insider row →10/22, KRE $71.79 (11:26 ET), RaDD leasing row notes Q3 silence |
+| N5 | **FIXED** — Open Items rewritten to live items; Bluerock refresh removed as done |
+| N6 | **FIXED** — headers bumped with what actually changed (TODO, SCENARIOS, WEAKNESSES, LIFE_SCI/STATUS, THESIS, INDEX). WEAKNESSES header now says Q3 + v1.7 are **not yet folded in** (owed, MEMORY NEXT 5) |
+| N7 | **FIXED** — 13 October rows added to `research/README.md` |
+| N8 | **PARTLY** — MEMORY now records the gh PRIVATE reading beside the ruling; the ruling stands. **Will's answer still needed** |
+| N9 | **NO CHANGE — reasoned:** the 0-byte file and the .txt duplicate are both named in their pass's `MANIFEST.json` (fetch provenance). Trashing them breaks the manifest. Copyright question → Will |
+| N10 | **PARTLY** — repo-wide reference check run on 20 April-era files: most are still travelled by live OZK docs or by other desks (REGINALD FHLB copy manifest, CREED `CASE_EVENTS.tsv`, REGINALD RP-REG-7, WAL audit), so they stay. Retired: `research/D5_DIVIDEND_SUSTAINABILITY.md` and `sources/FFIEC_CALL_REPORT_Q4_2025_RAW.csv` → `archive/` (pointers updated in KB_INDEX, research README, sources README). `SWEEP_2026-08-28.md` not yet 60 days |
+| N11 + #21 | **FIXED** — OZK-09 notes carry a dated Q3 entry; "Last reviewed" → 10/22. "Last real data refresh" left at 7/23 (no confidence or weight moved) |
+| #3 | **DONE** — v1.7 (above) |
+| #23r | **FIXED** — `TRADE.md:7` → `archive/THREAD3_ROLL_MATH.md` |
+| #24 | **FIXED** — both REGINALD paths repo-root-qualified (targets verified to exist) |
+| #25 | **FIXED** — bare names qualified in TODO, CALENDAR (×3), IQHQ_PLAYBOOK, INDEX. INDEX archive-table rows already carried `archive/` |
+| #30 G3 | **CLOSED — already delivered:** DAEDALUS `runs/2026-08-28_WIRING_SWEEP/RUN_RECORD.md:58` records both items |
+| #32 T1 | **FIXED** — `scripts/boot.py` INBOX scans sender lanes; tested with a temporary `inbox/WALTER/` file (listed), then removed (empty) |
+| #33 | **FIXED** — 11 packets → `outbox/delivered/` with `outbox/delivered/2026-10-22_DELIVERY_LOG.md`; 10 have receipt evidence in `PROME/`, the 7/20 one does **not** (moved as stale, logged) |
+| #36 | **FIXED** — charter core-thesis, roster and catalyst lines rewritten as pointers carrying no version or figures (they had gone stale three times) |
+| Not done (not housekeeping) | #11 / #12 OZK-02/04 inputs · #27 subdomain STATUS refresh · #28 severity comps · #31 G4 archive seed · #26 lanes · #29 access gaps · #20 (waits for the Q3 Call Report) · #2 / #8 / #14 dated |
+
+**Checks after the pass:** read-cap rc 0 (STATUS 58% of budget) · claim-check weekday clean on CALENDAR + STATUS.

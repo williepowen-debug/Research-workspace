@@ -124,7 +124,7 @@ For deeper cold-boot orientation after that:
 | `LIFE_SCI/` | Lab market findings — RaDD, Campus at Horton, downtown SD vacancy, SD/Boston/Chicago $3.2B book |
 | `GEOGRAPHY/` | CRE exposure by metro (58 MSAs), FL paradox stress-test, regulatory district mismatch |
 | `INSIDERS/` | Insider trading analysis, FDIC EFR pulls (cert #110 — NOT SEC EDGAR), departures tracker |
-| `PRIVATE_CREDIT/` | Affinius/NDFI counterparty risk + `COUNTERPARTY_WATCH.md` (Bluerock TI+ node — TI+ NAV mark leads OZK RaDD credit) |
+| `PRIVATE_CREDIT/` | Affinius/NDFI counterparty risk + `PRIVATE_CREDIT/COUNTERPARTY_WATCH.md` (Bluerock TI+ node — TI+ NAV mark leads OZK RaDD credit) |
 
 ### Raw sources (don't read at boot)
 | Path | Content |

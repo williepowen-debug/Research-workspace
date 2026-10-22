@@ -4,7 +4,7 @@
 
 **Purpose:** Durable "why-we-entered" conviction record + anti-trade caution. Operational state lives elsewhere.
 
-**Operational docs:** `STATUS.md` (positions + thresholds) · `POSITIONS.md` (broker-confirmed lines) · `THREAD3_ROLL_MATH.md` (May 8 roll decision) · `IQHQ_PLAYBOOK.md` (Aug scenarios) · `Q1_2026_ANALYSIS.md` (Apr 21 print synthesis)
+**Operational docs:** `STATUS.md` (positions + thresholds) · `POSITIONS.md` (broker-confirmed lines) · `archive/THREAD3_ROLL_MATH.md` (May 8 roll decision — retired 2026-07-06) · `IQHQ_PLAYBOOK.md` (Aug scenarios) · `Q1_2026_ANALYSIS.md` (Apr 21 print synthesis)
 
 ---
 

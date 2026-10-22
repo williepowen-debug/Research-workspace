@@ -1,6 +1,6 @@
 # OZK — Research TODO / Backlog
 
-**Last updated:** 2026-10-12 — L690 review/card/Horton bounded leg complete; Q3 results not graded. L635 closed/consumed. C1 occupancy UNRESOLVED with next evidence path; original dates preserved.
+**Last updated:** 2026-10-22 — Q3 graded (Stage-1 10/21, Stage-2 10/22); **P-OZK-7 applied: THESIS v1.7, conviction 🟡 LOW (WQ-483)**; housekeeping sweep done (`reports/2026-10-22_self-sweep.md`): G3 and T1 closed. Next: Q3 10-Q ~11/5 (D7). · Prior 2026-10-12 — L690 review/card/Horton bounded leg complete.
 **Dated items also live in `CALENDAR.md`; this file is the research queue.**
 **▶ WORK ORDER (L690, Will-approved 10/12):** run the ready Q3 card at L520; review Horton unresolved disposition at original 10/14 checkpoint. Broader reserve-model rebuild **DEFERRED** pending decision-relevant Q3 inputs; no general subdomain refresh.
 
@@ -41,7 +41,7 @@
 
 | # | Item | Priority | Note |
 |---|---|---|---|
-| R1 | **Re-derive SEVEN_CREDIT's $150-300M reserve-build estimate** on the **Q2 roster** (`Q2_2026_10Q_READ.md` §2) + SM concentration (5 credits $529M) | **DEFERRED by L690** | Rebuild only if Q3 supplies decision-relevant new classifications/cash prices/retained balances; not commissioned now. Single-supported since the 37.6% input died; the Q1 roster it used has turned over (Sullivan cured; Chapter I/II + Atlanta foreclosed) |
+| R1 | **Re-derive SEVEN_CREDIT's $150-300M reserve-build estimate** on the **Q2 roster** (`research/threads/Q2_2026_10Q_READ.md` §2) + SM concentration (5 credits $529M) | **DEFERRED by L690** | Rebuild only if Q3 supplies decision-relevant new classifications/cash prices/retained balances; not commissioned now. Single-supported since the 37.6% input died; the Q1 roster it used has turned over (Sullivan cured; Chapter I/II + Atlanta foreclosed) |
 | R2 | **Refresh the 4 subdomain STATUS files** — LIFE_SCI · GEOGRAPHY · INSIDERS · PRIVATE_CREDIT (was S2) | 🟠 | All pre-Q2-print; INSIDERS/SELLING got the 9/24 pull only. Largest body of work |
 | R4 | **Does OZK populate MI3 from the debt-on-debt book only?** | 🟡 | MI3 ≡ PV09 every quarter ⇒ zero CRE-purpose ever reported from item 4 |
 | R5 | **Primary BPRE marks/Alewife funding refresh DONE10/12** | Video Q&A access gap remains | June common mark $317.4M, subsequent $270.6M (−14.73%, disclosedAugust28); September30 equity weights5.3%+2.6%. Alewife fundedSeptember28 terms verified. Written replay summary consumed; no video transcript. Source artifact preserves instrument/date/denominator limits. Trade construction remains TERRY/BROCK/Will |
@@ -56,20 +56,20 @@
 |---|---|---|---|
 | G1 | **P-OZK-1** (MI3 basis) · **P-OZK-4** (kill-§1 re-spec) · **P-OZK-5** (RESG-vs-bank-wide NCO scope) | Will / PROME / REGINALD | Not applied. P-OZK-6 **DONE** under WQ-395 at 83aad459e; no further stopgap ruling owed |
 | ~~G2~~ | ✅ **DISCHARGED 10/8** — both Aug-21 legs are ABSENT from the 10/7 Fidelity positions table (the only OZK line is the Nov-20 $40P ×4; `PROME/data/2026-10-07_broker-capture-TRANSCRIPTION.md` l.25); account continuity with *****1326 is INFERRED there | — | Closure is broker-consistent; the $0 settle stays tape-inferred (both strikes were OTM at the 8/21 close $49.42) |
-| G3 | Two boot.py items owed to DAEDALUS (STANDING_WATCH instance; ⑯ doc-age ≠ ledger-age) (was S6) | OZK → DAEDALUS | Delivery unverified — check DAEDALUS's tree before re-sending |
+| ~~G3~~ | ✅ **DELIVERED — verified 10/22:** DAEDALUS recorded both items as OZK owner corrections (`AGENTS/DAEDALUS/runs/2026-08-28_WIRING_SWEEP/RUN_RECORD.md:58`; ⑪ refinement `AGENTS/DAEDALUS/sweeps/WIRING_SWEEP.md:69`) | — | Nothing to re-send |
 | G4 | `workbook/PREDICTIONS_ARCHIVE` seed (5 resolved rows) — last PAT-044 leg | OZK | Not seeded; headers + ledger_staleness wiring are done |
 
 ## 4b. Tooling
 
 | # | Item | Priority | Note |
 |---|---|---|---|
-| T1 | **`scripts/boot.py` INBOX section lists `inbox/*.md` only — it does NOT see `inbox/WALTER/`** | 🟠 | 10/8 boot showed "1 unprocessed" while an ACTION signal (SIG-W-20261008-003) sat in the WALTER lane. Add the lane (and keep `.gitkeep` out of the count). Note: `PROME/tools/inbox_census.py` counts `.gitkeep` as a top-level file (10/8: "top-level 2" = 1 packet + `.gitkeep`) — PROME's tool, flagged in the 10/8 memo |
+| ~~T1~~ | ✅ **FIXED 10/22** — `scripts/boot.py` INBOX now lists top level + every sender lane (`inbox/WALTER/` etc.), excludes `processed/` and dotfiles; tested with a lane file both ways | — | `PROME/tools/inbox_census.py` still counts `.gitkeep` (PROME's tool, flagged 10/8) |
 
 ## 5. Standing
 
 - **Short interest** — refresh at each FINRA settlement (Nasdaq API) [KB-214]. Last: 16.51M / ~16.3% float, DTC 17.6 @ 9/15 (checked 10/8; the 9/30 settlement is not yet published).
 - **NDFI-contagion regime** — consume REGINALD/BROCK reads; OZK trades as a beta name (C8).
-- **FDIC filings** — `flng_watch.py` runs in every boot.
+- **FDIC filings** — `scripts/flng_watch.py` runs in every boot.
 
 ---
 

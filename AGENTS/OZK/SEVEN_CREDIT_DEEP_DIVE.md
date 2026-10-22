@@ -1,6 +1,8 @@
 # OZK Problem Book — 11-Credit Deep Dive (Q1 2026 roster; Q2 update below)
 
-> ## ⚠️ Q2 2026 UPDATE (2026-09-24) — the roster below is the **Q1** list; the **current** roster is `research/threads/Q2_2026_10Q_READ.md` §2
+> ## ⚠️ CURRENT ROSTER → `STATUS.md` §Problem Credits (Q3, 9/30/26; pointer updated 2026-10-22). The roster below is the **Q1** list; Q2 → `research/threads/Q2_2026_10Q_READ.md` §2
+>
+> ### Q2 2026 UPDATE (2026-09-24)
 > Source: Q2'26 10-Q (FDIC FLNG 11981) + Q2 Management Comments Fig. 23 and p.24. **Changes:** **#1 Sullivan Courthouse RECAPITALIZED → new pass-rated loan (off roster).** **#5 Boston life sci → substandard NONACCRUAL** (138 DPD; $330M sale pending, financing uncertain; forbearance expired). **#6/#7 Chapter I + II FORECLOSED June 2026** after the buyer withdrew (c/o $22.3M + $3.7M; OREO $56.1M + $48.5M). **NEW: Atlanta office** (SM at Q1) foreclosed June, c/o $8.5M, OREO $36.6M. **San Carlos life sci** (SM, debt-on-debt) paid off with a $14.8M c/o. #3 The Jack: recap LOI, close expected Q3. #4 Wauwatosa: sale contract, earnest money hard, close Q3. #2 Baltimore: 212 DPD, multi-buyer talks, else title. #9-#11: OREO (8150 Sunset LOI; Concord −$2.5M; Santa Monica with broker).
 > ⚠️ **Two Q1-era errors corrected here:** (a) **#5 Boston matured Feb 13, 2026, not Dec 18, 2025** — Dec 18 is **#2 Baltimore**'s maturity (pdfminer row-adjacency error since Apr; verified with layout extraction of both Q1 and Q2 MC). (b) #2's "OZK took deed-in-lieu Dec 2025" is **contradicted** by both MCs: the loan is still outstanding and OZK "will proceed to acquire title" only if no sale.
 > The EL table (§3) and the $150-300M reserve build are **Q1-roster math** and are **not re-derived** here (TODO R1).

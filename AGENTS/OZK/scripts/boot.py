@@ -286,13 +286,19 @@ def main():
 
     # ---- INBOX ----
     section("INBOX  (unprocessed)")
-    inbox = sorted(p for p in (OZK_DIR / "inbox").glob("*.md"))
+    # Top level AND each sender lane (e.g. inbox/WALTER/) — the lane was invisible until 2026-10-22
+    # (TODO T1: an ACTION signal sat in inbox/WALTER/ on 10/8 while this said "1 unprocessed").
+    # processed/ dirs and dotfiles (.gitkeep) are never counted.
+    inbox_dir = OZK_DIR / "inbox"
+    inbox = sorted(p for p in inbox_dir.rglob("*")
+                   if p.is_file() and not p.name.startswith(".")
+                   and "processed" not in p.relative_to(inbox_dir).parts)
     if not inbox:
-        print("  (empty — nothing to process)")
+        print("  (empty — nothing to process; top level + sender lanes checked)")
     else:
         print(f"  {len(inbox)} unprocessed:")
         for p in inbox:
-            print(f"    - {p.name}")
+            print(f"    - {p.relative_to(inbox_dir)}")
 
     # ---- STALENESS ----
     section("STALENESS")

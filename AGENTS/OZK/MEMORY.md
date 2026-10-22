@@ -47,7 +47,7 @@
 - [2026-10-08] **RaDD maturity history (superseded as current maturity by October-9 execution → December 2029):** original 4-year term from Aug-2022 → stated maturity **2026-08-26**; "Fifth Modification" (effective 8/26, signed 9/30–10/1, filed 10/2) → **2026-10-09** [Citi 10/6 via SA/Bisnow — single-source terms; OZK CCO confirms short extensions "routinely occur"]. Citi's own words: "OZK has done this before (short duration extensions) with other sponsors." [KB-243]
 - [2026-07-06] **Square Mile Capital = Affinius Capital** (2023 rebrand); OZK holds $95M of the Affinius-originated 777 Industrial note. [KB-203]
 - [2026-07-06] **LLM-sourced KB rows can garble primary figures** (KB-117 vs Atrium primary) — treat Conf one notch worse when Source is an LLM output. **Date a third-party report by its citations, not its label** (Atrium said "2026"; citations stop Sep-2025).
-- [2026-10-22] **Transcripts:** Quartr MCP needs a **Pro subscription** on this account (not a re-auth). TradingKey `tradingkey.com/news/transcripts/<id>` returns full HTML to curl; Investing.com blocks curl (3-byte reply). **The repo is public: never store a full third-party transcript in the tree** — URL + sha256 + short quotes (Will option A, 10/21). OZK Q3 10-Qs land **~Nov 5** (11/5/2024, 11/5/2025 per FDIC `instflng` index).
+- [2026-10-22] **Transcripts:** Quartr MCP needs a **Pro subscription** on this account (not a re-auth). TradingKey `tradingkey.com/news/transcripts/<id>` returns full HTML to curl; Investing.com blocks curl (3-byte reply). **Never store a full third-party transcript in the tree** — URL + sha256 + short quotes (Will option A, 10/21). ⚠️ That ruling was made on the belief "the repo is public"; `gh repo view` reported **PRIVATE** on 10/22 — the ruling stands until Will says otherwise; visibility question raised to Will 10/22. OZK Q3 10-Qs land **~Nov 5** (11/5/2024, 11/5/2025 per FDIC `instflng` index).
 - [2026-07-18] **OZK is a beta/range name** — the Nov'25 low was beta to the Oct'25 NDFI-contagion selloff, and the Sep'26 −6.1% was mostly sector (Fed hike, financials selloff). Check the cohort's move before attributing a price move to own-credit. [KB-215]
 
 **Method (the rules themselves live in `LESSONS.md` — pointers only)**
@@ -58,23 +58,20 @@
 
 ## Session Notes
 
-**Latest machine-switch instruction:** PROME handles final shared safe-push. Ready owned work/authored packets checkpointed; exact commits and two WALTER-authored untracked inbox files → `outbox/2026-10-12_to-PROME_machine-switch-checkpoint.md`. No own push/repeated approval request, peer staging/pull/stash, new pass or window termination. Earlier wrap-up is research/continuity completion; this Will-owned window remains retained under the latest instruction.
-
-⚠️ **Open question:** does the ~11/5 Q3 10-Q show where the −$313M of special mention went, and does it give a RaDD reserve figure or bound that lets OZK-09 resolve? (Will also owes a word on P-OZK-7, the conviction re-grade.)
+⚠️ **Open question:** does the ~11/5 Q3 10-Q show where the −$313M of special mention went, and does it give a RaDD reserve figure or bound that lets OZK-09 resolve? (Conviction is now 🟡 LOW, v1.7 — the 10-Q tests the reversal triggers in `THESIS.md`.)
 
 **CHANGES SINCE:**
 
-### LAST SESSION (2026-10-22 — OZK/Claude Code, Opus 5.5; direct Will session + PROME catch-up assignment 11:1x ET)
-- **L520 Stage-2 call read DONE** from a secondary transcript (TradingKey; Quartr unavailable) → `research/threads/2026-10-22_Q3_CALL_STAGE2_READ.md`; card RESULTS appended. Call added nothing toward stress, closed no leg: RaDD pass stated by CEO, no reserve/readvance, future capital "if needed", lab demand weak; OREO buyers on 6 of 7, no price; SM flow not itemized; MC p.21 guides NCO elevated through 2027.
-- **P-OZK-7 proposed (🔴🔴 → 🟡 LOW), NOT applied** — needs Will's word, then THESIS v1.7 + CHANGELOG.
-- Tape: 10/21 $48.09 (+4.18%, KRE flat, 1.84× vol); 10/22 $48.87. Short interest 9/30 17.60M ≈17.4%. EFR: nothing after 8/14. flng_watch: nothing after 12022 (L463 post-event check clean). 10-Q re-dated ~11/5 at the FDIC index.
-- REGINALD 6.14% consumer packet APPLIED (CALENDAR/SCENARIOS/WEAKNESSES/KB_INDEX) → processed. KB-260–263 added (263 rows). boot.py catalysts updated. Full transcript was briefly saved to `raw/` then trashed before any commit (public repo).
+### LAST SESSION (2026-10-22 11:21–11:4x ET — OZK/Claude Code, Opus 5.5; direct Will session)
+- **Self-sweep** → `reports/2026-10-22_self-sweep.md` (11 new findings + 10/21 items re-checked); Will then said "fix the housekeeping items" — outcomes appended to that report.
+- **P-OZK-7 APPLIED as THESIS v1.7 (conviction 🟡 LOW)** under WQ-483 (Will 11:24 ET via PROME) — commit 67a1634a1; ruling packet filed to `inbox/processed/`. No prediction number moved.
+- STATUS: Q3 snapshot + Q3 roster replace the Q2 tables (Q2 → `archive/STATUS_HISTORY_2026-10-22.md`); position line synced to FORGE 10/22 (×4 held, $0.05; WQ-428 sell not evidenced). Charter thesis/roster/catalyst lines de-figured to pointers. boot.py INBOX now sees sender lanes (T1). 11 outbox packets → `outbox/delivered/` with a receipt log. D5 + Q4-2025 raw Call Report CSV retired to `archive/`.
 
 ### NEXT SESSION — existing obligations
-1. **~Thu 11/5 Q3 10-Q** (D:L763): SM flow, RaDD reserve/readvance, Sullivan, OREO roll-forward, OZK-02 property-type inputs, debt-on-debt balance. Re-pull EFR cert 110 the same day.
-2. **P-OZK-7:** if Will approves, write THESIS v1.7 + CHANGELOG and swap the STATUS token; if not, record his reason.
-3. Q3 Call Report LOG-ONLY ~Nov 1–10 (`RIAD5409`, `RIAD5415`); **FFIEC JWT renewal by 11/5 is Will's action**.
-4. Sub-notes call-notice window 11/2→12/22: flng_watch + one press search near 11/2.
-5. Short interest 10/15 settlement publishes ~10/27 — refresh STATUS token.
+1. **~Thu 11/5 Q3 10-Q** (D:L763): SM flow, RaDD reserve/readvance, Sullivan, OREO roll-forward, OZK-02 property-type inputs, debt-on-debt balance — grade against the v1.7 reversal triggers. Re-pull EFR cert 110 the same day.
+2. Q3 Call Report LOG-ONLY ~Nov 1–10 (`RIAD5409`, `RIAD5415`); **FFIEC JWT renewal by 11/5 is Will's action**.
+3. Sub-notes call-notice window 11/2→12/22: flng_watch + one press search near 11/2.
+4. Short interest 10/15 settlement publishes ~10/27 — refresh STATUS token.
+5. Fold Q3 + v1.7 into `WEAKNESSES.md` (header says not yet folded); OZK-02 / OZK-04 inputs before the Q4 print.
 
 ⛔ D1/OZK-salvage remains RULED-CLOSED. TERRY builds any existing authorized card; Will owns orders. No expiry nagging (Will 10/20). Prediction OPEN is not holding/rolling advice.

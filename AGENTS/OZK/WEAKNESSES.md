@@ -1,5 +1,5 @@
 # OZK Thesis — Weaknesses & Rebuttals
-**Created:** 2026-03-24 | **Last updated:** 2026-09-27 (C3 capital inputs refreshed to Q2'26; C7 updated with the Q2 resolution record; **added C9 — the Q2 case against, stated at full strength**) · prior 2026-07-18 (added C8 — beta/range behavior + NDFI-contagion regime risk) | **Status:** All thesis-breakers addressed; C5 retracted/corrected; C7 is the live 2026 bull case (meter quarterly); C8 is a timing/regime caution surfaced from the price/SI/regime pull
+**Created:** 2026-03-24 | **Last updated:** 2026-10-22 (C3 sub-notes drag re-based to the issuer 6.14% / ≈$12.0M only; the Q3 print + call and the v1.7 LOW re-grade are NOT yet folded in — Q3 counter-evidence lives in `research/threads/2026-10-21_Q3_PRINT_STAGE1_GRADE.md` and `research/threads/2026-10-22_Q3_CALL_STAGE2_READ.md`) · Prior 2026-09-27 (C3 capital inputs refreshed to Q2'26; C7 updated with the Q2 resolution record; **added C9 — the Q2 case against, stated at full strength**) · prior 2026-07-18 (added C8 — beta/range behavior + NDFI-contagion regime risk) | **Status:** All thesis-breakers addressed; C5 retracted/corrected; C7 is the live 2026 bull case (meter quarterly); C8 is a timing/regime caution surfaced from the price/SI/regime pull
 
 ---
 

@@ -3,7 +3,7 @@
 **Asked by:** PROME `prome-9b` (WQ-312, Will-approved 20:25 ET). REGINALD integrates. **Sources (existing filings only):**
 - **MC** = Q2'26 Management Comments inside the 8-K bundle (FDIC FLNG 11969, 7/21/26), printed pages cited;
 - **10-Q** = Q2'26 Form 10-Q (FDIC FLNG 11981, filed 8/5/26), PDF pages cited;
-- **CR** = Q2'26 Call Report via REGINALD dossier `reports/2026-09-26_CRE_top3_dossiers/q2_OZK.md`.
+- **CR** = Q2'26 Call Report via REGINALD dossier `AGENTS/REGINALD/reports/2026-09-26_CRE_top3_dossiers/q2_OZK.md`.
 
 **Rules kept:**
 - Four fields kept separate.

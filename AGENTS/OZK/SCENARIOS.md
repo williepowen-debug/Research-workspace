@@ -1,5 +1,5 @@
 # OZK — Scenario Analysis & Target Prices
-**Created:** 2026-03-23 | **Last Updated:** 2026-07-06 (figure re-base to Call Report primary; **weights unchanged since 4/23 reweight**)
+**Created:** 2026-03-23 | **Last Updated:** 2026-10-22 (sub-notes line re-based to the issuer 6.14% / ≈$12.0M; nothing else touched — the body below is otherwise 2026-07-06 vintage, figure re-base to Call Report primary; **weights unchanged since 4/23 reweight**; thesis conviction now 🟡 LOW, v1.7 → `THESIS.md`)
 **Price:** live → `STATUS.md` / boot.py (was $47.52 at the 4/23 reweight; $49.65 at 7/6 sweep) | **TBV:** $47.15 (Q1 26)
 **Short Interest:** ~14-15% float, 12-18 days to cover (KB-OZK-160 last refresh Mar 25 — needs next FINRA pull)
 

@@ -1,6 +1,6 @@
 # CRE → bank loss transmission — OZK leg (2026-09-27, Sun evening)
 
-**Asked by:** PROME `prome-9b`, for Will's 17:24 ET objective. Brief: `PROME/plans/2026-09-27_cre-to-bank-loss-transmission-PLAN.md` (e614dee5e). **Reconciles to:** REGINALD `reports/2026-09-26_CRE_top3_loss_bridge.md` @ b93e3ac58 plus its dossier `reports/2026-09-26_CRE_top3_dossiers/q2_OZK.md`. ⚠️ The bridge file had one uncommitted working-copy line at read time, in a non-OZK line. I read it as-is.
+**Asked by:** PROME `prome-9b`, for Will's 17:24 ET objective. Brief: `PROME/plans/2026-09-27_cre-to-bank-loss-transmission-PLAN.md` (e614dee5e). **Reconciles to:** REGINALD `AGENTS/REGINALD/reports/2026-09-26_CRE_top3_loss_bridge.md` @ b93e3ac58 plus its dossier `AGENTS/REGINALD/reports/2026-09-26_CRE_top3_dossiers/q2_OZK.md`. ⚠️ The bridge file had one uncommitted working-copy line at read time, in a non-OZK line. I read it as-is.
 **Scope rule:** research only. **Zero** scores, thresholds, weights (OZK-09 45% · A30/B45/C8/D17), conviction, tools or trades moved. The only new pull was the Q2'26 8-K bundle's PPNR table, to verify a cited figure.
 
 ## Bottom line

@@ -88,7 +88,7 @@ These research files exist in `research/` but span multiple KB groups or predate
 | C3_CAPITAL_ABSORPTION_ANALYSIS.md | Thin EV edge counter-argument | BULL_COUNTER |
 | D1_LTV_EXTRAPOLATION.md | LTV stress on reappraised loans | CRE_CONCENTRATION, DISTRESSED_LOANS |
 | D4_PROBLEM_BANK_COMPARISON.md | OZK vs problem bank thresholds | ACL_THINNING, CRE_CONCENTRATION |
-| D5_DIVIDEND_SUSTAINABILITY.md | Dividend cut probability model | CAPITAL_LIQUIDITY |
+| archive/D5_DIVIDEND_SUSTAINABILITY.md (retired 2026-10-22) | Dividend cut probability model | CAPITAL_LIQUIDITY |
 | 8K_FORCED_DISCLOSURE_FRAMEWORK.md | Pre-announcement triggers & timeline | MGMT_CREDIBILITY |
 | INSIDER_ACTIVITY_COMPILED.md | Form 4 compilation | MGMT_CREDIBILITY |
 | NDFI_SHADOW_CRE_ANALYSIS.md | $2.74B shadow CRE deep dive | SHADOW_CRE |
