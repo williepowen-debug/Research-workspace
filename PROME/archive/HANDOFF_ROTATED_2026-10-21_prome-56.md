@@ -1,0 +1,4 @@
+# HANDOFF entries rotated 2026-10-21 21:4x ET (prome-56) — verbatim
+
+## October16 evening — root README installed for the fellowship; two desks woken; L661 read 1 held
+Session prome-7b (boot 16:58 ET; Standard closeout 21:11 ET 10/16). Account: `memory/2026-10-16.md` § prome-7b. Records: `proposals/2026-10-16_root-readme-revision-PROPOSAL.md` (rev 5, Will-approved 20:4x ET, installed — the full chain of two cold reads and fixes) · `reports/2026-10-16_root-readme-proposal_read_1.md` · `reports/2026-10-16_root-readme-installed_result_read.md` · `reports/2026-10-16_L661_strike-feed_read_1.md`. Desks: VULCAN (Volta graded under both WQ-441 readings; decisive tonight; rec A) · OSPREY (L661 dispositioned; Ryazan 10/15 resets L718 leg A; read 1 STILL UNRESOLVED → encode Sun 10/18). HEARTBEAT am.#1 (10/16 closes: CRWV −11.9%, QQQ −2.5%, HY 323 2-of-3). Open for Will → SCRATCH ★ NEXT.

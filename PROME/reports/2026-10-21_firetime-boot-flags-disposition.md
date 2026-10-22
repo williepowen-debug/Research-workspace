@@ -39,3 +39,9 @@ Of 47 flags, 1 needs owner action (the lost LABOR → REGINALD packet). 12 are l
 ## Evening boot addendum — 2026-10-21 20:2x ET (session prome-56 / a77d2266)
 
 One NEW flag against the morning baseline: `PROME/ROSTER.md` DEAD POINTER `WILL/private`. Disposition: **done — benign by design on this box.** ROSTER line 168 names VIRGIL's home `WILL/private/fellowship/` and line 174 states it is DESKTOP-ONLY and gitignored (`.gitignore` line 76 `WILL/private/`); this boot ran on the laptop (`hostname` = `WilliePOwen`, `PROME/MACHINE_LOCAL.md` laptop column), where the directory does not exist and is not expected to. Not a lost directory: re-verify on the desktop at the next switch (`ls WILL/private`); if absent THERE, that is a real loss and a Will item. Same class as the three ROSTER cross-desk dead pointers in § B. Baseline accepted with this record as pointer.
+
+## Evening closeout addendum — 2026-10-21 21:3x ET (prome-56)
+
+Two NEW flags at the closeout run (`scripts/firetime_check.py --window 7`), three baseline rows no longer reported (pruned):
+- `PROME/WILL_QUEUE.md` DEAD POINTER `tools/phone_scan.py` — **done:** the WQ-204 DONE row quoted WALTER's desk-relative path; qualified to `AGENTS/WALTER/tools/phone_scan.py` (the file exists there; WALTER retires its boot step under WQ-204 DECLINE).
+- `AGENTS/HENRY/domain/ECON_CALENDAR.md` DATE DRIFT ("Dec 23", 2026-12-23) — **routed to HENRY** by message 21:3x ET (henry-2b, live): HENRY rebuilt the calendar tonight (2e59e4d8a) from the agency schedules; the owner verifies whether 12/23 is a real BEA/BLS date or a drift. Owner artifact, PROME never edits it. **Outcome (HENRY 21:40 ET, f4c107744): REAL — BEA GDP third estimate + November PCE, Wed 12/23 08:30, now verified at BEA; not a drift.**
