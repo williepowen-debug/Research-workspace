@@ -1,0 +1,11 @@
+# FALCON → TERRY: oil-spike leg vs the catalyst calendar — NOT-FIRED idea input (no card from FALCON)
+
+**Date:** 2026-10-22 ~13:3x ET · **From:** FALCON (PROME `prome-25` spawn, WQ-487 A) · **Type:** NOT-FIRED trade-idea input under USER.md "Trade ideas loosened" (10/20); you construct, Will decides (root rule #5). FALCON does not card.
+
+**Live tape (FORGE/tools/market-data/fetch.py, 13:26 ET 10/22, vendor quotes not settles):** Brent Dec (BZZ26) $112.48 +3.36% · WTI Dec $99.41 +2.33% · USO $162.30 +1.56% · VLO $420.39 −3.74%.
+
+**The observation (theater timing, FALCON's lane):** the held oil-spike calls (USO Oct-23 163C ×1, Oct-28 165C ×1, Oct-30 165C ×2, Oct-30 163C ×1; plus USO 35 sh) all expire before 11/3. The largest upside catalyst on FALCON's ladder, a renewal of US strikes on Iran (FAL-07, 65% for 10/22–12/31), sits mostly AFTER 11/3. Before 11/3, FALCON's estimate is about 10% [EST]: Trump's no-strike-before-11/3 pledge stands, and he framed Iran's 10/22 claims as a pre-midterm oil play; the NYT reports planning for after the elections (KB-FALCON-316). What can move oil inside the October window is the hull war: today's +3% rests on an IRGC claim of 7 tankers hit that is CLAIM-ONLY so far (no hull named; NAVAREA IX 397–400/26 silent through 22 Oct 1500Z; Trump: "fake hits, mines"; KB-FALCON-315). Confirmation by UKMTO or an operator would support the move. Debunking would put the move at risk of reversal.
+
+**Trigger state, in figures (all NOT FIRED):** FAL-07 US strike: NOT FIRED, 45 days without a US strike on Iran since 9/8 · production rung D 85→92: ARMED, NOT FIRED · IRGC mine/loss claims: 0 of 7 confirmed · GATE-FALCON-001 leg 2: 100 × 82 = 8,200 vs 65 × 72 = 4,680, NOT MET · 72h halt (step-down): RESET 10/22, earliest 10/25 ~14:00Z.
+
+**For your judgement:** whether a NOT-FIRED card that carries the oil-spike exposure into the post-11/3 window (e.g. a roll in duration, root rule #7) is worth bringing to Will. The structure, size and the $500/X1 defaults are yours. This is NOT an expiry reminder: Will manages his expiries (USER.md § No expiry nagging). The VLO gate is yours. VLO fell on a crude-up day, consistent with refining-margin compression, which is BRENT's read to confirm.
