@@ -20,16 +20,16 @@
 **WAITING FOR:**
 | From | Input | Expected by | Why it matters | Change condition |
 |---|---|---|---|---|
-| FALCON | 10/21 catch-up commit (marks, losses, production rung, war-risk) | tonight / next session | Both HAWK aggregates are deferred until it lands | Commit to `AGENTS/FALCON/STATUS.md` |
-| OSPREY | Dated in-window Black Sea war-risk canvass (10 outlets + TD6) | before 10/27 | C3 limb 2 | Any insurer/P&I act or print dated ≥10/06 |
+| OSPREY | Dated in-window Black Sea war-risk canvass (10 outlets, an outlet-free query and TD6) | **Mon 10/26** (osprey-85 commitment, 10/21) | C3 limb 2; no C3 kill on 10/27 without HAWK's grade | Any insurer/P&I act or print dated ≥10/06 |
+| YURI | YUR-004 grade (DOCKET L432) | 10/31 (backfills to 11/02) | HAWK's posture leg is written (KB-445) | A public mobilisation act in window |
 | FALCON | Post-10/11 Gulf war-risk quote | next FALCON session | Hormuz 6–10% (~10/06) pre-dates the worst week | Any dated quote after 10/11 |
 
 ## VIEW
 
 - **Gulf [FALCON 10/14 + HAWK sweep 10/21]:**
-  - Losses 5 (GFS PRIDE sank 10/13; CAPE DAO "Sunk" per IMO, disputed by JMIC). Casualty ratchet RED.
+  - FALCON 10/21: marks HELD 1/14/85. Losses 4 confirmed + 1 contested (CAPE DAO IMO "Partially sunk", JMIC disputes). Casualty ratchet RED. KOTC pattern-watch tripped: 3 Kuwait hulls since 9/28 (KB-444).
   - Production rung NOT FIRED: Dhahran is an office, Abqaiq shows flare-stack heat with no counting source, Shaybah was intercepted.
-  - Hull strikes now run the length of the Gulf (Al Jubail, Al Faw, Bukha). IRGC mine claims are unverified.
+  - Hull strikes now run the length of the Gulf: ST3 and LOYALTY off Al Jubail 10/16 (not Hormuz), SOYIA off Al Faw 10/20, AL DASMA off Bukha (one event). IRGC mine claims are unverified.
 - **Russia [OSPREY 10/21]:** the "energy ceasefire" was never in force. Ryazan 10/15, Surgut 10/16, St Petersburg Oil Terminal 10/17–18 (C2 RE-ARMED). Capacity, not barrels. Scores 5/5/3.
 - **Cross-war link:** GL 135 diesel cargoes are moving (Primorsk 10/13; Leruo and Dolunay destinations signalled) while Ukraine strikes the refineries that make it. Count a lost licensed tranche once, at the refinery.
 - **HAW-22 print 10/11–10/21: no candidate** (KB-441). St Petersburg is products; the Gulf events were intercepts or hulls.
@@ -64,4 +64,5 @@
 
 **Coverage (2026-10-21):**
 - **Read:** sibling briefs at boot (FALCON 10/14, OSPREY 10/20, with its 10/21 commit noted); 57 WALTER signals + 10 packets; BOARD info-lane ID-diff (0 unmatched); bounded web sweep (Gulf, Russia, Taiwan, Venezuela, Section 338, US–China).
-- **Not done:** derived aggregates (FALCON mid-catch-up), full dormant re-sweeps, FALSIFICATION refresh.
+- **Done in pass 2:** both aggregates regenerated after FALCON's 10/21 commits (`derived_freshness` PASS); PROME asks L433/L439/L432 answered (KB-445).
+- **Not done:** full dormant re-sweeps, FALSIFICATION refresh.

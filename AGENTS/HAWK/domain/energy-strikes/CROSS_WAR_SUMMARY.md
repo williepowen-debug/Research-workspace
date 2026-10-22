@@ -1,6 +1,37 @@
 # Cross-war energy-strike aggregate — HAWK, derived
 
-**Regenerated: 2026-10-10** (§October10 below; prior passes: 9/28, 9/18, 9/16). *9/28 basis, kept as history:* Built from the owners' ledgers at their committed heads (**OSPREY `STRIKES.tsv` 5752e2cb4, 9/24, swept-complete through 9/20; FALCON `VESSELS.tsv` 2ad138c80, 9/22; FALCON facility `STRIKES.tsv` c4b8c83b9, 9/11**), plus a HAWK news sweep of 9/22–9/28 (§September28 below). The sweep items are **owner-pending, not adopted into counts**. HAWK does not maintain either theater's events. Exact committed report pins, event/publication/retrieval dates and access limits for the 9/16 base: `research/2026-09-16_cross-war-oil-review.md`.
+**Regenerated: 2026-10-21** (§October21 below; prior passes: 10/10, 9/28, 9/18, 9/16).
+
+## October21 refresh: owner ledgers at their heads, plus the WALTER lane 10/10 → 10/21 (59 signals) and a HAWK web sweep
+
+| Owner ledger | Head commit | Rows on 10/21 | Rows on 10/10 |
+|---|---|---|---|
+| OSPREY `STRIKES.tsv` | `481b5a917`, 10/21; mark NOT advanced past 10/11 (Palaemon 12–18 Oct unposted) | **160** mixed strike/maritime | 150 |
+| FALCON hull `VESSELS.tsv` | `e3999d8b6`, 10/21 (UKMTO 174–180-26 reconciled) | **82** | 59 |
+| FALCON facility `STRIKES.tsv` | `ab9b1cea0`, 10/21 | **42** | 41 |
+
+Row counts are heterogeneous ledger entries, not a census and not additive capacity.
+
+**Russia [OSPREY 10/21]: the 10/11 "energy ceasefire" was never in force.** All of the following is CAPACITY, not barrels:
+- Ukraine paused about 3 days, then hit Ryazan 10/14–15 (CDU-6 shut, Reuters 10/16), the Surgut condensate plant 10/16 (not refinery-class, OWED-46 open), and the **St Petersburg Oil Terminal** 10/17–18 (products, 12.5 Mt/yr capacity; governor-confirmed fire, no damage figure). That re-armed **C2 at 5 as of 10/18**; earliest re-kill 11/17.
+- Tambov Nikolskoye LPDS 10/20 (Druzhba, inland): companion watch.
+- Black Sea: YARA J 10/14 and WINE TRADER 10/15 burned at Sulina (attacker unnamed, C3-excluded). Russia-attributed hull strikes off Romania/Bulgaria 10/05, 10/06 and 10/13.
+- Scores 5/5/3; band ~30%. Clocks at the ledger 10/21: C1 6/30, C2 3/30, C3 15/21.
+
+**Gulf [FALCON 10/21 `ab9b1cea0`/`e3999d8b6`]: marks HELD B 1 / C 14 / D 85; production rung NOT FIRED.**
+- **Saudi sites:** Dhahran HQ 10/13 is an office (OUT). Abqaiq 10/08 shows flare-stack heat with no counting source. Shaybah 10/21 was an intercept, with debris outside the perimeter (MoE: operations unaffected; 2 killed). Yanbu missile intercepted 10/16.
+- **Losses: 4 confirmed + 1 contested** (CAPE DAO now IMO "Partially sunk", disputed by JMIC; WQ-431 held at 5).
+- **Hull war across the whole Gulf.** ST3 and LOYALTY were hit 68–78 nm NE of Al Jubail on 10/16 (UKMTO 174/175-26). That is the Saudi Gulf coast, **not Hormuz**, as first relayed (WALTER -1021-011). Also JIF BARRACUDA tug off Khor Fakkan 10/18; AL DASMA ~11 nm W of Bukha (179-26, date 10/20 vs 10/21 0145Z unresolved, **one event, not two**); SOYIA ~30 nm SE of Al Faw 10/20 (180-26).
+- **KOTC pattern-watch tripped:** AL DASMA is the third Kuwait hull since 9/28, after AL FUNTAS 9/28 and KAZIMAH III 10/01 (FALCON KB-297). A note, not a letter.
+
+**Cross-war read, 10/21 [EST]:**
+- **The asymmetry holds; no pooled lost-barrel figure.** Russia's damage is refining/products, now with an export products terminal added. The Gulf's is hull losses plus a threat to processing that has not been counted.
+- **Flow vs price:** Kpler via WSJ (10/21; secondary relay, single source) has Middle East flows >24 mb/d vs 23.3 prewar in the week to 10/18, and Hormuz at ~82% of prewar. Against Brent ~$110 that is premium, not barrels (FLOW-HAWK-19, KB-440).
+- **Diesel cross-link:** GL 135 cargoes are moving (Primorsk ~40 kt 10/13; Leruo and Dolunay destinations signalled). ⛔ A refinery-strike loss and an undelivered licensed tranche are ONE barrel.
+- **HAW-22 (window from 10/01): no print candidate 10/11–10/21** (KB-HAWK-441). St Petersburg is a products terminal; the Gulf events were intercepts or hulls.
+- **Owner-state observation (dated 10/21, re-check next pass):** OSPREY's swept-complete mark is 10/11 and FALCON's ledgers are at 10/21. The Russian side is the less-swept one on this pass.
+
+--- *9/28 basis, kept as history:* Built from the owners' ledgers at their committed heads (**OSPREY `STRIKES.tsv` 5752e2cb4, 9/24, swept-complete through 9/20; FALCON `VESSELS.tsv` 2ad138c80, 9/22; FALCON facility `STRIKES.tsv` c4b8c83b9, 9/11**), plus a HAWK news sweep of 9/22–9/28 (§September28 below). The sweep items are **owner-pending, not adopted into counts**. HAWK does not maintain either theater's events. Exact committed report pins, event/publication/retrieval dates and access limits for the 9/16 base: `research/2026-09-16_cross-war-oil-review.md`.
 
 ## October10 refresh: owner ledgers at their heads, plus the WALTER lane 9/28 → 10/10 (66 signals)
 

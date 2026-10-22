@@ -9,9 +9,9 @@
 
 ## CHANGES SINCE LAST SESSION (10/10 → 10/21; owners named)
 - **Gulf [FALCON 10/14, plus my 10/21 sweep]:**
-  - Losses 3 → 5 (GFS PRIDE sank 10/13; CAPE DAO "Sunk" per IMO, disputed by JMIC). Casualty ratchet RED. Production rung NOT FIRED.
+  - FALCON 10/21 review: marks HELD 1/14/85. Losses 4 confirmed + 1 contested (CAPE DAO now IMO "Partially sunk", JMIC disputes). Casualty ratchet RED (24 vs 6). Production rung NOT FIRED. KOTC pattern-watch tripped (3 Kuwait hulls).
   - Dhahran HQ (office) 10/13; Shaybah intercepted 10/21 (2 debris deaths).
-  - Tankers hit off Al Jubail 10/18, Al Faw 10/20 and Bukha 10/21. JMIC Arabian Gulf at SUBSTANTIAL.
+  - ST3 and LOYALTY hit off Al Jubail 10/16 (not Hormuz). SOYIA off Al Faw 10/20. AL DASMA off Bukha 10/20 or 10/21 (one event). JMIC Arabian Gulf at SUBSTANTIAL.
 - **US posture 10/21:**
   - Ordered departure from Saudi Arabia; Reuters (Saudi only) and AFP (wider) CONFLICT.
   - Third carrier TR (Fox) and the Makin Island ARG.
@@ -36,20 +36,21 @@
    - BOARD info-lane ID-diff: 59 IDs, 0 unmatched.
 4. **L432 card s.4 qualified** (Tsentr-2026; COR-20261012-31).
 5. **KB-HAWK-435..443.** STATUS was rewritten, with the prior version archived (`archive/2026-10-21_STATUS_before-catchup.md`). NEXUS_BRIEF and this SCRATCH were also rewritten.
-6. ⚠️ **SKIPPED:**
-   - Closeout 13/13a (both aggregates) and 13a-2 (fingerprints): FALCON is live mid-catch-up with uncommitted ledgers.
+6. **Second pass on PROME's orchestration (prome-56, 20:51 ET):**
+   - Consumed FALCON's KOTC packet and WALTER -1021-011/-012 (KB-444).
+   - Answered DOCKET L433, L439 and L432 in `research/2026-10-21_PROME-asks_L433-L439-L432.md` (KB-445). ⚠️ L433 and L439 were already RESOLVED at the letter.
+   - OSPREY (osprey-85) confirmed the C3 canvass is not run and committed to running it **Mon 10/26**.
+   - Both aggregates regenerated after FALCON's 10/21 commits; `derived_freshness` PASS.
+7. ⚠️ **SKIPPED:**
    - 13b (FALSIFICATION refresh): not re-read.
    - LESSONS rotation (`rotation_due=1`): deferred again.
    - Dormant re-sweeps: bounded checks only.
 
 ## NEXT SESSION (dated, future-verifiable)
-1. 🔴 **At FALCON's 10/21 catch-up commit:**
-   - Regenerate `CROSS_WAR_SUMMARY.md` and `CROSS_THEATER_WAR_RISK.md` (Hormuz 6–10%; Black Sea $2.5M/vessel lead).
-   - Run `derived_freshness --capture/--record` to PASS.
-   - Re-print HAW-22 against FALCON's grades.
+1. 🔴 **Mon 10/26 → 10/27: grade OSPREY's C3 limb-2 canvass** the session it lands. If it hasn't landed by 10/26 evening, message OSPREY; silence is never a pass. An unreachable outlet is UNMEASURED, not negative.
 2. 🔴 **By 10/31: grade HAW-20** (all four legs at primaries: Section 301, Section 338, the Majlis toll bill, the Mecca pact). Then close out the HAW-22 event window (10/31).
 3. 🟠 **By 10/23: re-sweep VEN/TWN/TWNMIL/CODIF** (45-day cadence), and **TRADE-02 now** (60 days). Test both adjacent band boundaries (LESSONS 2026-09-28).
-4. 🟠 **Before 10/27: grade OSPREY's C3 limb-2 canvass** on arrival.
+4. 🟠 **10/31: give YURI's L432/YUR-004 grade HAWK's posture leg** (written 10/21, KB-445). Re-read it if YURI's state moves.
 5. 🟠 **TRADE-01, 11/9–10:** three US measures lapse with nothing on record extending them. Check the Federal Register before 11/9.
 6. 🟡 N6 October STEO observation (owed since 10/06). EURMIL full checkpoint (backstop 11/02). LESSONS rotation.
 

@@ -1,6 +1,20 @@
 # Cross-theater war-risk aggregate — HAWK
 
-**Refreshed: 2026-10-10** (HAWK L0 drain after a 12-day dark window; PROME `prome-ce`, DOCKET L669). **A real refresh of owner state, with no new quote:**
+**Refreshed: 2026-10-21** (HAWK catch-up, 11 dark days; owner ledgers FALCON WARRISK `ede013415` 10/14, OSPREY WARRISK `3e87063b9` 10/18). **The matched cross-theater premium ratio is still UNKNOWN.**
+
+| Leg / owner | Owner-recorded level | Age at 2026-10-21 | Newer item HAWK holds (none is a premium quote) | Current interpretation |
+|---|---|---|---|---|
+| Hormuz / FALCON | **6–10% of hull** (FT brokers ~10/06 via Marine Insight/TradeWinds/Insurance Business; FALCON re-pull 10/14). Supersedes 6–9% (Reuters **9/24**) | **15 days** ⚠️ | Quoted **before** the 10/11–13 run (GFS PRIDE sank 10/13). Since then: JMIC raised the Arabian Gulf to SUBSTANTIAL 10/18; hulls hit off Al Jubail 10/16, Khor Fakkan 10/18, Bukha and Al Faw 10/20–21 | STALE as a number in a rising-tempo window. Gulf-internal loading risk is not priced by a Hormuz-transit quote. |
+| Southern Red Sea / FALCON | up to 7% Saudi-linked, 0.2–0.3% non-Saudi (9/24) | **27 days** ⚠️ | Sourcing Journal 10/14: "roughly 3% since early September, according to Reuters". Unit not stated; FALCON did NOT adopt it (almost certainly the Saudi-linked population) | STALE. Attacker-split read is FALCON's. |
+| Bab / FALCON | ~0.5% AWRP, July 23 | **90 days** ⚠️ | same unadopted Sourcing Journal line | STALE (row EXPIRED at owner) |
+| West Saudi / Yanbu / FALCON | ~3% Saudi-linked at Yanbu, **As_Of corrected 9/25 → 9/24** by FALCON | **27 days** ⚠️ | Yanbu missile intercepted 10/16; Yanbu loadings reported resumed (WALTER -1015-009) | STALE. FALCON's WC-vs-Hormuz derived spread is NOT recomputed (mixing a 10/06 Hormuz leg with a 9/24 WC leg would mix vintages); it stays at its 9/24 single-basis pair. |
+| Black Sea / OSPREY | **no numeric % print.** LEAD, not adopted: Lukoil-Bulgaria executive ~$0.2M → ~$2.5M **per vessel** (BNT ~10/13; single interested source; USD per vessel, never comparable with % of hull or USD/bbl) | n/a | Sulina tanker fires 10/14–15; Russia-attributed hull strikes off Romania/Bulgaria; NATO Black Sea surveillance build-up 10/21 (per OSPREY) | **C3 limb 2 for the RIO 10/06 window = UNDETERMINED** (KB-428). OSPREY's dated canvass is committed for **Mon 10/26** (osprey-85, 10/21). |
+
+**10-day bar:** all five legs exceed it. No newer comparable quote exists in either owner ledger or the WALTER lane through 10/21.
+
+---
+
+**Prior refresh (10/10), kept as history:** (HAWK L0 drain after a 12-day dark window; PROME `prome-ce`, DOCKET L669). **A real refresh of owner state, with no new quote:**
 - **Owner adoption is closed.** FALCON adopted the 9/25 Gulf quotes into its WARRISK ledger on 9/28 (`0cab6ab47`), which closes the 9/28 "owner adoption pending" gap. Those rows passed their own Stale_By (10/06) and are now **15 days old**.
 - **No newer comparable Gulf premium quote** exists in either owner ledger or in the WALTER lane. WALTER SIG-W-20261009-015 says "no newer comparable quote", and an aggregator's "1.5% per voyage" was not adopted.
 - **Black Sea:** still no numeric print. The structural acts of 9/16 and 9/18 are pre-window for OSPREY's reset C3 clock.

@@ -87,3 +87,7 @@ Actual additions reconciled against the tree: `research/2026-09-18_european-rear
 ## October10 L0-drain inventory
 
 Actual addition reconciled against the tree: `archive/2026-10-10_STATUS_before-L0-drain.md` preserves the 9/28 STATUS verbatim (dated snapshot, never cite as current). Edited in place, no new class: `scripts/thresholds.py` (FROZEN legacy suite; one-line DAEDALUS L546 float-tie rounding at `check_proximity`, edge-tested; the suite stays frozen and unwired), `design/HAW19_MEASUREMENT_DRAFT.md` and `research/2026-09-25_L321_HAW19-successor_NOT-REGISTERED.md` (WQ-362 lapse banners). Processed mail moved under the existing `inbox/processed/` and `inbox/WALTER/processed/` class rule.
+
+## October21 catch-up inventory
+
+Actual additions reconciled against the tree: `archive/2026-10-21_STATUS_before-catchup.md` preserves the 10/10 STATUS verbatim (a dated snapshot; never cite as current). `research/2026-10-21_PROME-asks_L433-L439-L432.md` is a dated answer artifact (dated-evidence class, not a live surface) for PROME DOCKET L433/L439/L432 (KB-HAWK-445). Edited in place, no new class: `research/2026-09-19_L432_resolution_card.md` (additive COR-20261012-31 qualification under section 4); both derived aggregates (§October21 / 10/21 re-base).
