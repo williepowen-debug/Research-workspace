@@ -2,7 +2,7 @@
 
 **Status:** Concentrated bank risk. HY widening 266→333bp is BANK-ABSENT on bank instruments (~0.6); Q3 problem loans up at 6/6 names read while reserve coverage fell at 5/5 (descriptive).
 **Domain:** Regional-bank comparison, FHLB advances, hidden CRE and sponsor-bank balance-sheet risk.
-**As of:** 2026-10-22 11:29 ET, Will-directed EGBN Q4-wall deep dive; owner closeout | STATUS commit: 5f59d0720
+**As of:** 2026-10-22 12:16 ET, Will-directed appraisal-discount cohort test; owner closeout | STATUS commit: 04c4a7a14
 
 ## CROSS-DOMAIN
 
@@ -16,6 +16,8 @@
   - BKU CRE criticized −$53.9M. HBAN NCO 0.31%. ZION NCO 0.02%, rank 1 unchanged.
 - **FL frame:** SSB HOLDS provisional, BKU HOLDS-PENDING-P; aggregate UNKNOWN.
 - **H.4.1 descriptive lines:** >~12.9B / >~15.7B. Not registered.
+
+**Appraisal-discount cohort test (Will, 10/22):** `reports/2026-10-22_appraisal-discount_cohort_test.md`. 12/14 banks publish no discount-to-appraisal; realized resolution haircuts run ~13–22%. Extensions still trigger re-appraisal, so Q4–Q1 appraisal-driven write-downs are likely. FLG ties H1 MF/CRE charge-offs of $193M to 'appraisals received'. EGBN: no trade from this desk.
 
 **EGBN Q4 wall (Will, 10/22):** `reports/2026-10-22_EGBN_Q4_maturity_wall.md`. ~$525M matures 10/27–12/30 ($146.9M criticized + $378.6M pass). The criticized-four gross loss is ~$8–31M (≤$1.02 of the $38.00 TBV/share). Q3 behaviour was extend-not-exit. ⚠️ The DC $20.5M appraisal was printed at $24.5M (Q2) and $13.5M (Q3) with the same date.
 
