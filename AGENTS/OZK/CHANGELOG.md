@@ -2,6 +2,14 @@
 
 Tracks changes to `OZK/THESIS.md` and structural shifts in the OZK bear case. Mirrors `AGENTS/REGINALD/thesis/CHANGELOG.md` format. Sub-docs (IQHQ_PLAYBOOK, SEVEN_CREDIT_DEEP_DIVE, RESG_MIX_DETERIORATION, IQHQ_SECONDARY_EXPOSURE, CIB_MARGIN_COMPRESSION) carry the deep math; this log tracks thesis-level deltas only.
 
+## 2026-10-22 — Sub-notes coupon at the issuer (NO VERSION BUMP — v1.6 stands; zero weights, thresholds, probabilities or conviction moved)
+
+| Area | Old view | New view |
+|---|---|---|
+| **Invalidation §4(a) — retain + reset** | Reset SCHEDULED-UNCONTRADICTED; desk estimate ≈6.19%, ≈+$12.3M/yr | **Issuer-confirmed** (Q3 MC p.35, FDIC FLNG 12022): **6.14% for Q4-26**, Q4 NIM −3bp, Tier 2 −20% → ≈+$12.0M/yr Act/360. Branches (b)/(c) unchanged |
+
+Pending separately with Will: **P-OZK-7** (conviction 🔴🔴 → 🟡 LOW), recommended after the Q3 call read (`research/threads/2026-10-22_Q3_CALL_STAGE2_READ.md` §5). **Not applied here.**
+
 ## 2026-10-12 — v1.6: RaDD takes the capital-supported extension path
 
 | Area | Old view | New view |
