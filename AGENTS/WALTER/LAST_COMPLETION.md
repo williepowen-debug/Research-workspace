@@ -13,6 +13,12 @@ FULL closeout. Evening dispatches 007–015 (today 001–015; BOARD 1573). Intak
 - REGISTRY Updated/Focus refreshed from owner headers (48 rows; 9 dates moved; 13 unparsed kept prior cells; SENTRY mis-parse reverted). STATUS bottom line / network awareness / lead regenerated. MEMORY: new finding #49 (check EDGAR before routing a reported filer deadline). Two superseded session notes pruned; one was not in SESSION_LOG and was preserved verbatim in MEMORY_PROMOTED (deletion preceded the check: process slip, content conserved).
 - Live coordination by SendMessage: falcon-e9, hawk-3a, osprey-85 briefs; FALCON UKMTO delivery; OSPREY Novak-date evidence (it corrected KB-198, e8b1d71d9).
 
+- **Second post-closeout sitting (PROME relay of Will's word, 21:22 ET):**
+  - **Bookmarks:** batches 12–16 CLOSED (BM-20261022-02..06). The exact 94-ID stage review is COMPLETE and passes `load_review`. Production is NOT marked and there is no fresh head, per PROME. The 2 tail IDs still need normal production resumption. The read method was public oEmbed text only (images and linked bodies unread; gaps in `research/2026-10-20_bookmark-batches/FOLLOW-UPS.md#batch12-16`).
+  - **X token on this laptop is DEAD:** refresh HTTP 400 "token invalid", verified. Will must carry the desktop .env or run `--authorize` before any scan or mark.
+  - **Dispatches:** 018–021.
+  - **UKMTO:** 179-26 primary text was handed to FALCON (sha256 5a1fa0c3…b346; scratchpad only). FALCON carries a date CONFLICT (KB-313); the anchor was updated. 180-26 was not found and is no longer needed.
+  - **WQ-204:** phone sweep retired at ec13c391a. PROME closes the row on that commit.
 - **Post-closeout reopen (01:04Z):** YURI packet c8f14c38e consumed (filed to processed/ with a .consumed.tsv row). **016** CORRECTION to 20261015-008: Russia did NOT lift its diesel ban; partial 500,000 t permission, No 1252 restrictions to 31.10.2026 / 31.01.2027; COR-20261021-16, WEAKEN; YURI primary read relayed, government.ru fetch failed for WALTER. **017** routes YURI's Decree 738/750 + Kremlin 10/21 items (HAWK ACTION on EU reaction; diesel 40 kt is announced intent). BOARD 1575. X bookmark access on this laptop: the .env is dated 10/18; the 10/19–10/20 rotations ran elsewhere, so the token is likely dead here (inference, not live-tested). Will is offered carry-.env or re-authorize.
 
 ## RESULT
@@ -47,7 +53,7 @@ Publication: commits 86a04d085, 121807962, da2430627, 9fad2bb95, da73ad380, c2c1
 
 ## WILL_NEEDS
 
-None new. No decision is gated on Will tonight. Existing WQ458 bookmark continuation stays registered with PROME. Push of this closeout was directed by PROME on Will's word; if Will did not intend a WALTER push, that is a correction for PROME.
+One action, not a decision: **the X bookmark token on this laptop is dead** (verified). Before the reviewed 94-stage can be marked, or any new scan run, Will either carries the desktop `AGENTS/WALTER/.env` over or runs `! python3 AGENTS/WALTER/tools/x_bookmarks_scan.py --authorize`. The production mark itself still awaits PROME/Will's go (held tonight per PROME). Existing WQ458 bookmark continuation stays registered with PROME. Push of this closeout was directed by PROME on Will's word; if Will did not intend a WALTER push, that is a correction for PROME.
 
 ## FOLLOW-UP
 

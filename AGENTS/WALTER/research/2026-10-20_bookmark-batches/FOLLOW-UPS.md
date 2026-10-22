@@ -8,3 +8,13 @@ Published October 18 CBS transcript was read; the original teaser/video was not 
 
 ## housing-record
 HOMER owns any monthly-table/history validation needed for absolute-record wording. The primary release verifies the decline, not that superlative. This does not prevent integrating the September print.
+
+## batch12-16
+
+Added 2026-10-22 (walter-14, laptop). Batches 12–16 (30 IDs) were read via X's public oEmbed endpoint (publish.twitter.com) because the laptop's X token is dead (refresh HTTP 400, 2026-10-22T01:1xZ). oEmbed returns post text only. Attached images, charts and t.co-linked article bodies were NOT read, so posts carrying them are `partly_read`. Concrete gaps:
+- 2112031408600621159 (SoftBank, -> SIG-W-20261021-018): chart image unread; the $164B June debt figure is unverified.
+- 2112186254729384413 (Jefferies iPhone, -> SIG-W-20261021-020): post truncated; the Jefferies note is unread.
+- 2112068981758837140 (auto-loan "crash, per Reuters"): the Reuters piece is not located; framing unverified (folded into SIG-W-20261021-019 as unverified).
+- 2112188453324517884 (NY Post Rubio): the linked article is unread; date unverified. Same remarks found dated 9/22 (OSPREY/HAWK hold Rubio 9/22–23). Treated as a probable recirculation.
+- 2111765853611909389 (Albania): the Supreme Court fire 10/17 is confirmed by AFP relays. "Parliament stormed / PM in hiding" has only one weak source and is UNSUPPORTED.
+- 2111440118686884237 (100k Mexican farmworker caravan): unverified, partisan account; no corroboration was searched.

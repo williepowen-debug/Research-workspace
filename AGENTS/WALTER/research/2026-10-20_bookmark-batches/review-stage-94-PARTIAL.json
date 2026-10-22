@@ -466,197 +466,197 @@
     },
     {
       "id": "2112216522789646500",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "DUP",
+      "read_state": "fully_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2112232116314321244",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "DUP",
+      "read_state": "partly_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2112216024057884781",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "NO-ACTION",
+      "read_state": "fully_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2112209971584934273",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "DUP",
+      "read_state": "fully_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2112231970415542589",
-      "disposition": null,
-      "read_state": null,
-      "follow_up": null,
+      "disposition": "FOLD",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/FOLLOW-UPS.md#batch12-16",
       "ask_user": null
     },
     {
       "id": "2112061185717653554",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "NO-ACTION",
+      "read_state": "partly_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2112186254729384413",
-      "disposition": null,
-      "read_state": null,
-      "follow_up": null,
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/FOLLOW-UPS.md#batch12-16",
       "ask_user": null
     },
     {
       "id": "2112188453324517884",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "DUP",
+      "read_state": "partly_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2111940636261884210",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2112122242595459258",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "DUP",
+      "read_state": "partly_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2111501503915814981",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "NO-ACTION",
+      "read_state": "partly_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2112125101407944868",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "NO-ACTION",
+      "read_state": "partly_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2112068981758837140",
-      "disposition": null,
-      "read_state": null,
-      "follow_up": null,
+      "disposition": "FOLD",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/FOLLOW-UPS.md#batch12-16",
       "ask_user": null
     },
     {
       "id": "2112133756513640791",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "DUP",
+      "read_state": "fully_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2095570267624067073",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "NO-ACTION",
+      "read_state": "partly_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2112031408600621159",
-      "disposition": null,
-      "read_state": null,
-      "follow_up": null,
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/FOLLOW-UPS.md#batch12-16",
       "ask_user": null
     },
     {
       "id": "2112135419705860264",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "DUP",
+      "read_state": "partly_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2112036497792672196",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "NO-ACTION",
+      "read_state": "partly_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2112087264012664951",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "DUP",
+      "read_state": "partly_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2112050287464632745",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "DUP",
+      "read_state": "fully_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2111440118686884237",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "NO-ACTION",
+      "read_state": "partly_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2111962019238724031",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "NO-ACTION",
+      "read_state": "partly_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2111925536893042755",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "DUP",
+      "read_state": "fully_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2111765853611909389",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "NO-ACTION",
+      "read_state": "partly_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2111679803560796451",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "NO-ACTION",
+      "read_state": "partly_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2111891272998797518",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "NO-ACTION",
+      "read_state": "partly_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2111949694557401219",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "NO-ACTION",
+      "read_state": "partly_read",
       "follow_up": null,
       "ask_user": null
     },
     {
       "id": "2111935951991873717",
-      "disposition": null,
-      "read_state": null,
+      "disposition": "DUP",
+      "read_state": "partly_read",
       "follow_up": null,
       "ask_user": null
     }

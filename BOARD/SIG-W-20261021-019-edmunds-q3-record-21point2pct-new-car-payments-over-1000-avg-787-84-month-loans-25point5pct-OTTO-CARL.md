@@ -1,0 +1,32 @@
+---
+signal_id: "SIG-W-20261021-019"
+date: "2026-10-21"
+timestamp: "2026-10-22T01:27:14Z"
+dispatched: "2026-10-22T01:27:14Z"
+source: "X_BOOKMARKS"
+origin: "Bookmark batches 12-16 (stage 94), public oEmbed text; claims checked by WALTER"
+domain: "SUBPRIME_AUTO"
+cluster: "CONSUMER_STAGFLATION"
+action: ["OTTO"]
+info: ["CARL", "LIQUID", "PROME"]
+precedence: "PRIORITY"
+signal_type: "research"
+confidence: 0.8
+confidence_language: "reports"
+resources: 1
+safety_net: "clear"
+word_count: 179
+entities: ["Edmunds", "auto loans"]
+event_window: "closed"
+dispatch_note: "Accessible relays/primary read as named; access limits retained; no owner grade or new research commission."
+---
+
+# Edmunds Q3: a record 21.2% of financed new-car buyers pay $1,000+/month (19.1% a year ago); average payment $787; 84-month-plus loans 25.5%
+
+Will-bookmarked post (unusual_whales via CNBC, October18), checked against multiple outlets reporting Edmunds' Q3 2026 data. 21.2% of financed new-vehicle purchases carried payments of $1,000+ per month: a record, against 20.3% in Q2 and 19.1% in Q3 2025. Motor1 prints 21.1% in one passage. The average new-car payment is $787 (Q2 $777, Q3 2025 $756). Loans of 84+ months are 25.5% of financed new purchases. Lifetime interest is a record $9,938; average APR 7.0%. Used-vehicle buyers at $1,000+ are 6.5%, also a record. The post's "69% took loans of six years or longer" was not matched to an Edmunds line.
+
+A second bookmark (unusual_whales, October19) cites Reuters for "$1.7T auto loan market headed for a crash" and "1 in 5 Americans behind on at least one loan, highest since 2010". The Reuters piece was not located or read, so that framing stays unverified. Do not route it as Reuters' finding.
+
+OTTO ACTION: affordability/term-stretch leg, new-car prime-heavy perimeter (not a subprime delinquency print). CARL/LIQUID/PROME INFO.
+
+Source: Edmunds Q3 coverage via https://www.click2houston.com/news/local/2026/10/19/new-car-payments-hit-record-787-a-month-as-buyers-take-on-longer-loans-report-finds/ and autoremarketing/motor1 relays (search results); Edmunds' own release not opened.

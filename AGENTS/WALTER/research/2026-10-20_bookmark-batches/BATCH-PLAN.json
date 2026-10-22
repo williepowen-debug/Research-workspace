@@ -289,7 +289,18 @@
         "2112231970415542589",
         "2112061185717653554"
       ],
-      "state": "UNREVIEWED"
+      "state": "CLOSED",
+      "manifest": "BM-20261022-02",
+      "dispositions": {
+        "DUP": 3,
+        "NO-ACTION": 2,
+        "FOLD": 1
+      },
+      "read_counts": {
+        "fully_read": 3,
+        "partly_read": 3
+      },
+      "read_method": "public oEmbed text only (laptop X token dead); images/linked bodies unread"
     },
     {
       "batch": 13,
@@ -301,7 +312,18 @@
         "2111501503915814981",
         "2112125101407944868"
       ],
-      "state": "UNREVIEWED"
+      "state": "CLOSED",
+      "manifest": "BM-20261022-03",
+      "dispositions": {
+        "DISPATCH": 2,
+        "DUP": 2,
+        "NO-ACTION": 2
+      },
+      "read_counts": {
+        "partly_read": 5,
+        "fully_read": 1
+      },
+      "read_method": "public oEmbed text only (laptop X token dead); images/linked bodies unread"
     },
     {
       "batch": 14,
@@ -313,7 +335,19 @@
         "2112135419705860264",
         "2112036497792672196"
       ],
-      "state": "UNREVIEWED"
+      "state": "CLOSED",
+      "manifest": "BM-20261022-04",
+      "dispositions": {
+        "FOLD": 1,
+        "DUP": 2,
+        "NO-ACTION": 2,
+        "DISPATCH": 1
+      },
+      "read_counts": {
+        "partly_read": 5,
+        "fully_read": 1
+      },
+      "read_method": "public oEmbed text only (laptop X token dead); images/linked bodies unread"
     },
     {
       "batch": 15,
@@ -325,7 +359,17 @@
         "2111925536893042755",
         "2111765853611909389"
       ],
-      "state": "UNREVIEWED"
+      "state": "CLOSED",
+      "manifest": "BM-20261022-05",
+      "dispositions": {
+        "DUP": 3,
+        "NO-ACTION": 3
+      },
+      "read_counts": {
+        "partly_read": 4,
+        "fully_read": 2
+      },
+      "read_method": "public oEmbed text only (laptop X token dead); images/linked bodies unread"
     },
     {
       "batch": 16,
@@ -337,8 +381,17 @@
         "2098425574377107724",
         "2068355013886222500"
       ],
-      "state": "UNREVIEWED"
+      "state": "CLOSED",
+      "manifest": "BM-20261022-06",
+      "dispositions": {
+        "NO-ACTION": 5,
+        "DUP": 1
+      },
+      "read_counts": {
+        "partly_read": 6
+      },
+      "read_method": "public oEmbed text only (laptop X token dead); images/linked bodies unread"
     }
   ],
-  "remaining_not_triaged": 30
+  "remaining_not_triaged": 0
 }
