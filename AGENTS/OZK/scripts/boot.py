@@ -284,6 +284,38 @@ def main():
             print(f"  • {text}")
             print(f"      [as of {as_of} \u00b7 resolves {nxt}, {(d - today).days}d]")
 
+    # ---- OPEN PREDICTIONS (added 2026-10-22, DAEDALUS D:L793 item 3) ----
+    # Reads workbook/PREDICTIONS.tsv directly (no hand-synced copy). A row is due when its Timeframe
+    # cell's `RESOLVE_BY YYYY-MM-DD` token has passed while Status still reads OPEN. Rows registered
+    # before 10/22 carry prose windows only — listed as "no RESOLVE_BY", never assumed current.
+    section("OPEN PREDICTIONS  (workbook/PREDICTIONS.tsv)")
+    try:
+        import re
+        lines = (OZK_DIR / "workbook" / "PREDICTIONS.tsv").read_text(encoding="utf-8").splitlines()
+        body = [ln for ln in lines if ln.strip() and not ln.startswith("#")]
+        hdr = body[0].split("\t")
+        i_id, i_tf, i_st = hdr.index("Pred_ID"), hdr.index("Timeframe"), hdr.index("Status")
+        n_open = 0
+        for ln in body[1:]:
+            c = ln.split("\t")
+            if not c[i_st].strip().upper().startswith("OPEN"):
+                continue
+            n_open += 1
+            m = re.search(r"RESOLVE_BY (\d{4}-\d{2}-\d{2})", c[i_tf])
+            if not m:
+                print(f"  • {c[i_id]}  no RESOLVE_BY token — window is prose: {c[i_tf][:70]}…")
+                continue
+            d = datetime.strptime(m.group(1), "%Y-%m-%d").date()
+            if d < today:
+                print(f"  ⚠️ PAST DUE  {c[i_id]}  RESOLVE_BY {d} passed {(today - d).days}d ago "
+                      f"and Status is still OPEN — grade it (or NO-VERDICT with a one-line why)")
+            else:
+                print(f"  • {c[i_id]}  RESOLVE_BY {d}  ({(d - today).days}d)")
+        if n_open == 0:
+            print("  (no OPEN rows)")
+    except Exception as e:
+        print(f"  ⚠️ check FAILED ({type(e).__name__}: {e}) — read workbook/PREDICTIONS.tsv by hand")
+
     # ---- INBOX ----
     section("INBOX  (unprocessed)")
     # Top level AND each sender lane (e.g. inbox/WALTER/) — the lane was invisible until 2026-10-22
