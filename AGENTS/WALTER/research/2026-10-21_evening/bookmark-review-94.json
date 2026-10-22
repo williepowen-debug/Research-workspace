@@ -1,0 +1,665 @@
+{
+  "schema": 2,
+  "staged_at": 1792509038.1090615,
+  "items": [
+    {
+      "id": "2112556619326468597",
+      "disposition": "DUP",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112549327847461073",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112476479053566421",
+      "disposition": "DUP",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112553197554253854",
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/FOLLOW-UPS.md#ai-source",
+      "ask_user": null
+    },
+    {
+      "id": "2111149021150548071",
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/FOLLOW-UPS.md#helium-media",
+      "ask_user": null
+    },
+    {
+      "id": "2107219073922748798",
+      "disposition": "NO-ACTION",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112548894135689316",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112515388583940598",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112409180606992703",
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch2/SOURCE-READS.md#layoffs",
+      "ask_user": null
+    },
+    {
+      "id": "2112417814518616387",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112385534039331199",
+      "disposition": "NO-ACTION",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112529225890591163",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112342633519489260",
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch3/SOURCE-READS.md#illinois-primary-gap",
+      "ask_user": null
+    },
+    {
+      "id": "2112362966737936583",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2111126517233095052",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112375916961951890",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112358803186372732",
+      "disposition": "NO-ACTION",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112225915757580375",
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch3/SOURCE-READS.md#lambda-primary-gap",
+      "ask_user": null
+    },
+    {
+      "id": "2112336168784134484",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112534461074059410",
+      "disposition": "DUP",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112504350652154327",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112469274514309179",
+      "disposition": "DUP",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112524018221732177",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112475167171715382",
+      "disposition": "DUP",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112483656816328769",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112416267600867621",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112381696897335438",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112389254932205862",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112239727147397566",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112232824614879543",
+      "disposition": "DUP",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112197963661627748",
+      "disposition": "DUP",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112219351235661968",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112368231071567981",
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch6/SOURCE-READS.md#spr-article",
+      "ask_user": null
+    },
+    {
+      "id": "2112359988815622537",
+      "disposition": "NO-ACTION",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112231261112787232",
+      "disposition": "NO-ACTION",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112245226140242236",
+      "disposition": "DUP",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112236334505164965",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112153287705214999",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112209804890636390",
+      "disposition": "NO-ACTION",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112213913999921635",
+      "disposition": "NO-ACTION",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112365186933785012",
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch7/SOURCE-READS.md#farr-article",
+      "ask_user": null
+    },
+    {
+      "id": "2112287830059982867",
+      "disposition": "DUP",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112279496590233791",
+      "disposition": "NO-ACTION",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112354422336483485",
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch8/SOURCE-READS.md#datacenters",
+      "ask_user": null
+    },
+    {
+      "id": "2112214910751093000",
+      "disposition": "NO-ACTION",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112216201824805290",
+      "disposition": "NO-ACTION",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112352634481029274",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112287681665196400",
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch8/SOURCE-READS.md#student",
+      "ask_user": null
+    },
+    {
+      "id": "2112292761810378979",
+      "disposition": "DUP",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112167450552721750",
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/next18/SOURCE-READS.md#kharg",
+      "ask_user": null
+    },
+    {
+      "id": "2112225907402305845",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112287169381294235",
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/next18/SOURCE-READS.md#chips",
+      "ask_user": null
+    },
+    {
+      "id": "2112244896669344152",
+      "disposition": "DUP",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112256700149285130",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112208649334726828",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112199930026582382",
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/next18/SOURCE-READS.md#ukraine",
+      "ask_user": null
+    },
+    {
+      "id": "2112254011294564555",
+      "disposition": "DUP",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112167647043547252",
+      "disposition": "DUP",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112257259590094996",
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/next18/SOURCE-READS.md#cables",
+      "ask_user": null
+    },
+    {
+      "id": "2112225209059279168",
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/next18/SOURCE-READS.md#konarak",
+      "ask_user": null
+    },
+    {
+      "id": "2112256753752785127",
+      "disposition": "FOLD",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/next18/SOURCE-READS.md#konarak",
+      "ask_user": null
+    },
+    {
+      "id": "2112254543018999877",
+      "disposition": "DUP",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112201605814657492",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2111994498754445614",
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/next18/SOURCE-READS.md#rotation",
+      "ask_user": null
+    },
+    {
+      "id": "2112168145083420694",
+      "disposition": "DUP",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112231804786618413",
+      "disposition": "DUP",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112216522789646500",
+      "disposition": "DUP",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112232116314321244",
+      "disposition": "DUP",
+      "read_state": "partly_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112216024057884781",
+      "disposition": "NO-ACTION",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112209971584934273",
+      "disposition": "DUP",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112231970415542589",
+      "disposition": "FOLD",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/FOLLOW-UPS.md#batch12-16",
+      "ask_user": null
+    },
+    {
+      "id": "2112061185717653554",
+      "disposition": "NO-ACTION",
+      "read_state": "partly_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112186254729384413",
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/FOLLOW-UPS.md#batch12-16",
+      "ask_user": null
+    },
+    {
+      "id": "2112188453324517884",
+      "disposition": "DUP",
+      "read_state": "partly_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2111940636261884210",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112122242595459258",
+      "disposition": "DUP",
+      "read_state": "partly_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2111501503915814981",
+      "disposition": "NO-ACTION",
+      "read_state": "partly_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112125101407944868",
+      "disposition": "NO-ACTION",
+      "read_state": "partly_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112068981758837140",
+      "disposition": "FOLD",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/FOLLOW-UPS.md#batch12-16",
+      "ask_user": null
+    },
+    {
+      "id": "2112133756513640791",
+      "disposition": "DUP",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2095570267624067073",
+      "disposition": "NO-ACTION",
+      "read_state": "partly_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112031408600621159",
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-20_bookmark-batches/FOLLOW-UPS.md#batch12-16",
+      "ask_user": null
+    },
+    {
+      "id": "2112135419705860264",
+      "disposition": "DUP",
+      "read_state": "partly_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112036497792672196",
+      "disposition": "NO-ACTION",
+      "read_state": "partly_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112087264012664951",
+      "disposition": "DUP",
+      "read_state": "partly_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2112050287464632745",
+      "disposition": "DUP",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2111440118686884237",
+      "disposition": "NO-ACTION",
+      "read_state": "partly_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2111962019238724031",
+      "disposition": "NO-ACTION",
+      "read_state": "partly_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2111925536893042755",
+      "disposition": "DUP",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2111765853611909389",
+      "disposition": "NO-ACTION",
+      "read_state": "partly_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2111679803560796451",
+      "disposition": "NO-ACTION",
+      "read_state": "partly_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2111891272998797518",
+      "disposition": "NO-ACTION",
+      "read_state": "partly_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2111949694557401219",
+      "disposition": "NO-ACTION",
+      "read_state": "partly_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2111935951991873717",
+      "disposition": "DUP",
+      "read_state": "partly_read",
+      "follow_up": null,
+      "ask_user": null
+    }
+  ],
+  "stage_id": "c66c87c66f914269b7447661bca2abb0"
+}

@@ -18,3 +18,14 @@ Added 2026-10-22 (walter-14, laptop). Batches 12–16 (30 IDs) were read via X's
 - 2112188453324517884 (NY Post Rubio): the linked article is unread; date unverified. Same remarks found dated 9/22 (OSPREY/HAWK hold Rubio 9/22–23). Treated as a probable recirculation.
 - 2111765853611909389 (Albania): the Supreme Court fire 10/17 is confirmed by AFP relays. "Parliament stormed / PM in hiding" has only one weak source and is UNSUPPORTED.
 - 2111440118686884237 (100k Mexican farmworker caravan): unverified, partisan account; no corroboration was searched.
+
+## fresh-1022
+
+Added 2026-10-22 (walter-14). Fresh head scan 02:06Z staged 169: the 94 already-reviewed IDs plus 75 new ones. The new items were read from the scanner's printed post text. Linked articles and media were NOT read unless named. Gaps that could change a conclusion (owner, trigger):
+- Anthropic WSJ draft-IPO figures (2112642510774215014): the WSJ article is unread and conflicts with the earlier Reuters prospectus read. VULCAN; revisit when the S-1 is public or the WSJ text is read. (SIG-W-20261021-023)
+- NextDC (2112694287272153598) and the FT hyperscaler CDS item (2112587146012053796): Bloomberg/FT bodies unread; the ASX announcement is unread. VULCAN; revisit at the ASX release. (023)
+- PHP (2112848265074847828): the NCSC advisory page is unread. No owner. (024)
+- GENIUS final rule (2112913417023434867, 2112871300079161630): the OCC release text is unread, so the rewards/reserve sections are unverified. REGINALD; revisit at the OCC/Federal Register text. (025)
+- IRALCO Arak (2112926707510308873): video unread; cause unknown. FALCON. (027)
+- FEMA (2112656418243539238) and weather satellites (2112306566384726473): Politico/CNN bodies unread. CORAL; revisit at the FEMA guidance letter. (028)
+- Margin debt (2112308429633032284), long-bond calls (2112859996631261247), CCC 18% (2112943369567789122), Paramount CDS (2112744023152525407): charts unread. HENRY/LIQUID; revisit at FINRA/ICE primaries. (029)
