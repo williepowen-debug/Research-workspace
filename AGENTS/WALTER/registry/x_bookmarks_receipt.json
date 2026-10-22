@@ -1,43 +1,47 @@
 {
   "kind": "marked",
-  "checked_at": "2026-10-22T17:31:18Z",
-  "items": 5,
+  "checked_at": "2026-10-22T17:58:53Z",
+  "items": 7,
   "scan": {
-    "checked_at": "2026-10-22T17:29:45Z",
-    "head_checked_at": "2026-10-22T17:29:44Z",
+    "checked_at": "2026-10-22T17:54:06Z",
+    "head_checked_at": "2026-10-22T17:54:05Z",
     "head_checked_this_run": true,
     "incomplete": false,
-    "attempts": 3
+    "attempts": 2
   },
   "review_recorded": true,
   "read_counts": {
-    "partly_read": 3,
-    "fully_read": 2
+    "partly_read": 2,
+    "fully_read": 5
   },
   "dispositions": {
-    "FOLD": 2,
-    "DUP": 3
+    "FOLD": 6,
+    "NO-ACTION": 1
   },
   "follow_ups": [
     {
-      "id": "2113151811133522221",
-      "ref": "BOARD/SIG-W-20261022-019-php2shell-reaches-banks-mufg-halts-some-online-transactions-mizuho-daiwa-maintenance-no-damage-cisa-patch-or-offline-php81-no-fix-cobol-claim-unsourced-REGINALD.md"
+      "id": "2113131512250167719",
+      "ref": "BOARD/SIG-W-20261022-025-black-october-cyber-wave-verified-ledger-no-confirmed-php2shell-breach-japan-only-bank-shutdowns-no-insurer-statement-60m-certs-and-pip-compromised-FALSE-SHADE-REGINALD.md"
     },
     {
-      "id": "2113170005022101763",
-      "ref": "BOARD/SIG-W-20261022-019-php2shell-reaches-banks-mufg-halts-some-online-transactions-mizuho-daiwa-maintenance-no-damage-cisa-patch-or-offline-php81-no-fix-cobol-claim-unsourced-REGINALD.md"
+      "id": "2113210651371819361",
+      "ref": "BOARD/SIG-W-20261022-025-black-october-cyber-wave-verified-ledger-no-confirmed-php2shell-breach-japan-only-bank-shutdowns-no-insurer-statement-60m-certs-and-pip-compromised-FALSE-SHADE-REGINALD.md"
     },
     {
-      "id": "2113313003248464278",
-      "ref": "BOARD/SIG-W-20261022-008-axios-big-banks-restrict-third-party-ai-agents-in-customer-accounts-rogue-claims-anonymous-ms-disputes-plus-microsoft-storm-0940-ai-automated-intrusions-GIBBS.md"
+      "id": "2113254176759353801",
+      "ref": "BOARD/SIG-W-20261022-025-black-october-cyber-wave-verified-ledger-no-confirmed-php2shell-breach-japan-only-bank-shutdowns-no-insurer-statement-60m-certs-and-pip-compromised-FALSE-SHADE-REGINALD.md"
     },
     {
-      "id": "2113291786743583022",
-      "ref": "BOARD/SIG-W-20261022-015-answer-to-will-005-cre-leg-creed-channel-is-10y-rate-not-hy-spreads-cmbs-spreads-flat-coupons-up-35bp-mreits-minus-16point6-rate-shock-not-credit-info.md"
+      "id": "2113315655512731872",
+      "ref": "BOARD/SIG-W-20261022-025-black-october-cyber-wave-verified-ledger-no-confirmed-php2shell-breach-japan-only-bank-shutdowns-no-insurer-statement-60m-certs-and-pip-compromised-FALSE-SHADE-REGINALD.md"
     },
     {
-      "id": "2113307993894756574",
-      "ref": "BOARD/SIG-W-20261022-008-axios-big-banks-restrict-third-party-ai-agents-in-customer-accounts-rogue-claims-anonymous-ms-disputes-plus-microsoft-storm-0940-ai-automated-intrusions-GIBBS.md"
+      "id": "2113041641481138358",
+      "ref": "BOARD/SIG-W-20261022-025-black-october-cyber-wave-verified-ledger-no-confirmed-php2shell-breach-japan-only-bank-shutdowns-no-insurer-statement-60m-certs-and-pip-compromised-FALSE-SHADE-REGINALD.md"
+    },
+    {
+      "id": "2113291274664976774",
+      "ref": "BOARD/SIG-W-20261022-025-black-october-cyber-wave-verified-ledger-no-confirmed-php2shell-breach-japan-only-bank-shutdowns-no-insurer-statement-60m-certs-and-pip-compromised-FALSE-SHADE-REGINALD.md"
     }
   ],
   "requests": []

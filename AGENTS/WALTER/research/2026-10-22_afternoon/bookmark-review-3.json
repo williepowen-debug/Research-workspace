@@ -1,0 +1,56 @@
+{
+  "schema": 2,
+  "staged_at": 1792691646.0175447,
+  "items": [
+    {
+      "id": "2113131512250167719",
+      "disposition": "FOLD",
+      "read_state": "partly_read",
+      "follow_up": "BOARD/SIG-W-20261022-025-black-october-cyber-wave-verified-ledger-no-confirmed-php2shell-breach-japan-only-bank-shutdowns-no-insurer-statement-60m-certs-and-pip-compromised-FALSE-SHADE-REGINALD.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113210651371819361",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": "BOARD/SIG-W-20261022-025-black-october-cyber-wave-verified-ledger-no-confirmed-php2shell-breach-japan-only-bank-shutdowns-no-insurer-statement-60m-certs-and-pip-compromised-FALSE-SHADE-REGINALD.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113254176759353801",
+      "disposition": "FOLD",
+      "read_state": "partly_read",
+      "follow_up": "BOARD/SIG-W-20261022-025-black-october-cyber-wave-verified-ledger-no-confirmed-php2shell-breach-japan-only-bank-shutdowns-no-insurer-statement-60m-certs-and-pip-compromised-FALSE-SHADE-REGINALD.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113315655512731872",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": "BOARD/SIG-W-20261022-025-black-october-cyber-wave-verified-ledger-no-confirmed-php2shell-breach-japan-only-bank-shutdowns-no-insurer-statement-60m-certs-and-pip-compromised-FALSE-SHADE-REGINALD.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113274279336800737",
+      "disposition": "NO-ACTION",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2113041641481138358",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": "BOARD/SIG-W-20261022-025-black-october-cyber-wave-verified-ledger-no-confirmed-php2shell-breach-japan-only-bank-shutdowns-no-insurer-statement-60m-certs-and-pip-compromised-FALSE-SHADE-REGINALD.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113291274664976774",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": "BOARD/SIG-W-20261022-025-black-october-cyber-wave-verified-ledger-no-confirmed-php2shell-breach-japan-only-bank-shutdowns-no-insurer-statement-60m-certs-and-pip-compromised-FALSE-SHADE-REGINALD.md",
+      "ask_user": null
+    }
+  ],
+  "stage_id": "cab3804cc81f4ad4a9b394018f0c365c"
+}
