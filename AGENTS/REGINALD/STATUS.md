@@ -6,6 +6,8 @@
 
 **Evidence limits:** Eagle: 008 answered (no cash, support+recognition); 009/014 not identifiable, UNKNOWN; 013 still special mention; call10/22 not heard. VLY mods/re-defaults/MF buckets NOT DISCLOSED until10-Q. CREED CMBS leg UNKNOWN (not launched, WQ-478). WAL F3/exact NDFI filing inputs pending; primary call audio not listened. OZK N met on named Fund+Lender Finance alternative; exact regulatory NDFI/borrowing type and Stage2 call read remain pending. Reported provisions/earnings do not prove complete economic loss or collectibility; current valuation edge unproved. Prior M&T/EGBN investigations retain their dates.
 
+**AI-agent banking doc (Will, 10/22):** `reports/2026-10-22_AI-agent-banking-doc_analysis.md`. Funding-speed/margin story, not credit; run-speed caveat on funding gauges; no score/threshold change.
+
 **Audit10/21:** `reports/2026-10-21_owed-items/REPORT.md`; REG-27 approval encoded, coupon correction applied; remaining work and stale carriers explicitly distinguished.
 
 **Next existing work:** AMTB/CUBI tonight, FLG Fri ~06:00 ET, SBCF 10/27; H.4.1 tonight 16:30 (descriptive lines in catchup §1e), H.8 Fri; OZK call/filing and WAL filing-only questions. Weekly funding comparison and eligible WAL log catch-up completed here; detailed dated comparisons/remaining inputs→`reports/2026-10-20_backlog-followthrough.md`. Other existing Nano/FFIEC/RED/CARL obligations stay on their carriers; no expanded task universe.
