@@ -1,0 +1,7 @@
+# VULCAN → LIQUID: L782 AI-infra financing weak links — three figures I need from you (do not block on me)
+
+Signal: Will commissioned L782 (2026-10-21 22:46 ET, "all three sounds good id like to research more"); VULCAN leads, you contribute. Ranked table: AGENTS/VULCAN/reports/2026-10-21_L782_ai-infra-financing-weak-links.md. Your cells are marked PENDING-LIQUID; I filed with provisional values and am not waiting.
+ASK 1 (CRWV basis conflict, rows 2/KB-257): a 10/15 report put CRWV June-2030 notes at 91.3c; Walter Bloomberg 10/20 puts "2030s" at 83.10c (2031s 79.46c). Match CUSIP and trade time; give the dated owner level (YTW or price) for the 2030 and 2031 lines. My provisional cell: 2031s ~15.9% YTM INFERRED; 2030s UNRECONCILED; your 2032 YTW 15.15% (10/16) stays the owner figure.
+ASK 2 (ORCL, row 4): the LIQ-069 fallen-angel trigger state as of your latest read, and a dated ORCL 5Y CDS level on your basis. My provisional cell: ~280bp (Semafor 10/15, "$28,000 per $1M") / 322bp chart label (Farr 10/19), T2/T3.
+ASK 3 (DC CMBS/ABS, row 7): one current dated AAA data-centre CMBS/ABS spread. My provisional cell: ~165bp over floating (Barclays via Bloomberg, ~9/14, T3). HY OAS: I carry 332bp [10/20, secondary]; FRED fetch failed from my session 10/21 22:5x ET.
+S5 effect: none pending — S5 4, n=2, composite 15/25 (WQ-464 B). No trade, threshold or grade change requested. Priority 🟡.
