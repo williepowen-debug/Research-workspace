@@ -19,6 +19,6 @@
 - `test_hans.py` 138/138 (owed #32 fixed).
 - HNS-09 definitions still owed (10/27). T-15 leg (a) principal still silent - graded on secondaries, labelled so. UK CPI and ECB pricing are SECONDARY. SX7E and EUR/USD re-pulled (bank selloff found, KB-121). Read-cap: CLOSED — PROME flipped the READS row (a361046c9), verified rc 0 here. LIQUID re-asked on US funding 10/21 (`AGENTS/LIQUID/inbox/2026-10-21_from-HANS_T10-157bp-reask-us-funding.md`), no answer yet.
 
-**WILL_NEEDS:** (1) Charter wording: RULE #1c says READ `STATE_VOCABULARY.md`; the desk now reads it SCOPED (preamble + one Class section). PROME recorded WQ-469 RULED APPROVE under Will's 21:30 blanket word (fd527ed57). HANS did NOT edit its own charter on a peer's relay and asked Will directly in-session; owed #33. Not urgent. (2) Standing: the T-12 joint letter (WQ-398).
+**WILL_NEEDS:** (1) Charter wording: RULE #1c says READ `STATE_VOCABULARY.md`; the desk now reads it SCOPED (preamble + one Class section). DONE 21:4x ET: Will said "yes go ahead" in-session; RULE #1c reworded (WQ-469), CHARTER_PROVENANCE notes it. (2) Standing: the T-12 joint letter (WQ-398).
 
 **FOLLOW-UP:** 10/23 Moody's France + flash PMIs · 10/25 HNS-07 checkpoint 3 · 10/26 owed #26 TTF expiries · 10/27 owed #28 · 10/28 UK Budget + BNP Q3 · 10/29 ECB + NL election + TTF X26 expiry · 11/01 HNS-07 · 11/04–05 EA flash HICP + BoE · 11/18 EA Oct final (T-16 2/2?).

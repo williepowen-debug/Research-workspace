@@ -18,7 +18,7 @@ Primary value: German/EU PMI as ISM leading indicator, ECB/Fed policy divergence
 
 **⚠️ RULE #1b — WRITING IT IS NOT DOCUMENTING IT. RUN `python3 scripts/doc_audit.py` BEFORE YOU COMMIT.** *A surface you just wrote reads as correct; only a mechanism disagrees with you.* Story → `CHARTER_PROVENANCE.md`.
 
-**⚠️ RULE #1c — READ `AGENTS/DAEDALUS/BLUEPRINTS/STATE_VOCABULARY.md` BEFORE MINTING A STATUS TOKEN, AND MATCH STATUS CELLS BY PREFIX, NEVER BY EXACT MEMBERSHIP.** 🔴 **Loud-and-wrong is survivable; quiet-and-unsupervised is not — an unrecognised token must resolve to LIVE.** Story → `CHARTER_PROVENANCE.md`.
+**⚠️ RULE #1c — BEFORE MINTING A STATUS TOKEN, READ THE PREAMBLE OF `AGENTS/DAEDALUS/BLUEPRINTS/STATE_VOCABULARY.md` AND THE `## Class` SECTION FOR THAT TOKEN'S FAMILY, AND MATCH STATUS CELLS BY PREFIX, NEVER BY EXACT MEMBERSHIP.** *(Scoped read, method = `PROME/registry/READS.tsv` HANS row 2026-10-21: the whole file is 117% of the read budget, the scoped read ≤27%. WQ-469, Will 2026-10-21.)* 🔴 **Loud-and-wrong is survivable; quiet-and-unsupervised is not — an unrecognised token must resolve to LIVE.** Story → `CHARTER_PROVENANCE.md`.
 
 **⚠️ RULE #1d, added 2026-09-18 — A CHECK DECLARES ITS OWN PERIMETER; IT NEVER BORROWS ANOTHER CHECK'S.** *C11 iterated `REG_VX`, inheriting a C3-only exclusion of `HANS-T-04` — the exact row the directional defect was on. Also: an exemption may name a property of the SCHEMA, never a row whose CONTENT is wrong.* → `ML-HANS-463`
 

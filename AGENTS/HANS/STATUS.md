@@ -103,7 +103,7 @@
 ---
 
 ## 📬 INBOX / CROSS-AGENT FLAGS — **inbox lanes CLEAR 2026-10-21** (37 of 37; dispositions in `board_log.tsv`). Notable: DEWEY diesel FINAL — delivered net addition UNKNOWN; **France releases 10M bbl reserve diesel, first sales 10/28, pump-price cut from 11/1** (`KB-111`) · **UniCredit got Russian permission to exit (Order 368-rp, 10/5) — permission, not a sale** (`KB-112`) · METRO Russia under temporary management (`KB-113`) · EIOPA PE-reinsurer checks, `T-14` NOT fired (`KB-115`) · VW pay-freeze proposal, contested (`KB-116`). 🔴 **The LIVE flag table is `DISPATCH_LOG.md`, not this line.**
-🟠 **PROME 10/20 read-cap → ANSWERED 10/21:** scoped read declared (preamble + the one Class section, ≤27% of budget) → `PROME/inbox/processed/2026-10-21_from-HANS_state-vocabulary-scoped-read.md`. ✅ **PROME flipped the READS row to `scoped` (a361046c9); verified here: `read_cap_check --agent HANS --require-manifest` rc 0, 0 over budget.** The RULE #1c charter wording waits for Will.
+🟠 **PROME 10/20 read-cap → ANSWERED 10/21:** scoped read declared (preamble + the one Class section, ≤27% of budget) → `PROME/inbox/processed/2026-10-21_from-HANS_state-vocabulary-scoped-read.md`. ✅ **PROME flipped the READS row to `scoped` (a361046c9); verified here: `read_cap_check --agent HANS --require-manifest` rc 0, 0 over budget.** ✅ **RULE #1c charter reworded 10/21 on Will's in-session word (WQ-469).**
 
 ## NEXT SESSION — WHAT IS OWED
 
@@ -115,7 +115,6 @@
 |---|---|---|
 | 28 | 🔴 **`HNS-09` definitions** (aggregate, CoR series, "material", **and how a one-off such as a UniCredit Russia exit loss is treated** — `KB-112`) — **PAST DUE (10/16), results start 10/28** | **2026-10-27** |
 | 26 | **Re-verify `TTF_CALENDAR` X26/Z26 expiries** before 10/29 | **2026-10-26** |
-| 33 | 🟡 **RULE #1c charter reword to the scoped read.** WQ-469 is recorded RULED APPROVE under Will's 21:30 ET blanket "go with your recs" (PROME fd527ed57). HANS asked Will directly 10/21 instead of editing its charter on a peer's relay. **Make the edit on his word; until then the READS row (scoped) governs** | on Will's word |
 | 5 | 🟡 **(b) UK 10Y basis — PARTIAL 10/21 (`KB-124`):** 3 same-date pairs; the one verified TE close (10/08) agrees with BoE par within 0.5bp, and the others run +3.4/+4.5bp (likely snap time). **Gate: ≥5 verified-close pairs.** One accrues per session; next is 10/21 vs BoE 10/21 (~10/23) | accrues |
 | 14 | **Split `VX-HANS-11.03`** into German annual outlay + a real EU issuance series | 🟠 |
 | 23 | `ML.tsv` legacy key collision — `C12` guards new ones; not renumbered → `ML-HANS-473` | 🟠 |
