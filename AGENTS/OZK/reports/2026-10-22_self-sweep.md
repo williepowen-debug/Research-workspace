@@ -89,3 +89,5 @@
 | Not done (not housekeeping) | #11 / #12 OZK-02/04 inputs · #27 subdomain STATUS refresh · #28 severity comps · #31 G4 archive seed · #26 lanes · #29 access gaps · #20 (waits for the Q3 Call Report) · #2 / #8 / #14 dated |
 
 **Checks after the pass:** read-cap rc 0 (STATUS 58% of budget) · claim-check weekday clean on CALENDAR + STATUS.
+
+**Closeout 2026-10-22 12:1x ET:** orphan check clean for OZK · claim-check clean (5 files) · ledger nudge: `CALL_REPORT_SERIES.tsv` held until the Q3 Call Report (~Nov 1–10, FFIEC login renewal by 11/5), `KB.tsv` no row earned this pass (housekeeping + a Will-ruled re-grade, no new evidence) · REGINALD channel note ed81872b4.
