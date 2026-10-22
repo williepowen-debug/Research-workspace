@@ -188,3 +188,17 @@ Point Bonita investors sued Jefferies + Point Bonita alleging misrepresentation 
 > **Collateral-perfection screen (BROCK, KB-WAL-186; applied 2026-09-24).** Both WAL fraud losses failed at the *claim on the collateral*, not at credit selection: LAM defaulted after "servicing failures, including lapses in UCC filings" (Q1 10-Q, KB-WAL-144, A1), and Cantor's pledged loans carried forged title policies concealing prior liens (LA Superior 25STCV24263, KB-WAL-137). The auditor-gatekeeper framing in `AUDITOR_NEXUS.md` / KB-WAL-080 does not describe either filed mechanism. The forward question is therefore not "is there more NDFI exposure?" but "where else does WAL lend against collateral whose perfection or priority is maintained by someone else — a servicer, sponsor or agent?" Candidates by structure, **none tested**: mortgage warehouse + MSR lending ($7.155B, 12% of loans; perfection runs through custodial/agency acknowledgement arrangements), Note Finance (the book Cantor sat in; KB-WAL-022), and agented SPV private-credit facilities where WAL is a participating lender — e.g. the Deutsche Bank-agented Crestline SPV facility WAL joined 2026-09-18 (KB-WAL-195; WAL commitment undisclosed). Management's 9/16 "no other instance" (T2) is scoped to double-pledged *titles* and does not answer the perfection question; no WAL disclosure of a perfection/servicing review beyond Cantor has been found (UNVERIFIED). Who held the UCC-filing duty in the LAM structure — SPV, servicer or WAL's collateral agent — is not public (loan documents unfiled): UNVERIFIED.
 
 *Fold + screen applied 2026-09-24 (WAL session #7) from `../research/FRAUD_CORPUS_REVIEW_2026-09-24.md` §1.6/§2, drafted there verbatim and verified at the artifact before applying. Content above the fold is unchanged. The perfection question was first posed 3/26 in the now-archived `../archive/FRAUD/INVESTIGATION_ROADMAP.md` Track 2.*
+
+---
+
+## FOLD 2026-10-22 — Jefferies-side check (updates the 9/24 fold's "Open gaps" and "Docket/news" rows)
+
+→ `../research/2026-10-22_court-checks.md`, KB-WAL-256/257.
+
+| Item | State (dated) | Source | Tier |
+|---|---|---|---|
+| Jefferies FQ3 10-Q (q/e 8/31, filed 10/9) | **0 mentions of Western Alliance** or either suit. Legal Proceedings = blanket "not material". First Brands exposure "valued at zero"; recovery "months to years … highly uncertain". **New:** LAM Trade Finance Group II sued Radiant/Sapphire in the English High Court (document fraud on commodity receivables, defaults since Jan 2026; worldwide freezing order) — a **second fraud in the Point Bonita platform**, not WAL exposure | acc 0000096223-26-000033 | A1 |
+| Jefferies investor meeting 10/19 | Point Bonita called a "drag"; WAL, First Brands and litigation not mentioned | 8-K acc 0001140361-26-040269 EX-99.1 | A1 |
+| Countersuit caption | **Point Bonita Capital Master Fund A L.L.C. v. Western Alliance Bank**, NY Sup. Ct., New York County (~$25M frozen deposit, filed ~7/1/2026) | briefs.co; Bloomberg 7/2 headline | B2 |
+| Index numbers | **Still unknown for both NY cases.** NYSCEF returned HTTP 403 to automated access 10/22; needs a browser party-name search (Will-side) | — | OPEN |
+| Developments | No ruling, settlement or dispositive motion found in news through 10/22 | web search 10/22 | search-negative |

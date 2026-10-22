@@ -39,8 +39,8 @@
 
 | # | Gap | Evidence of the gap | Why it matters | Suggested action |
 |---|---|---|---|---|
-| G1 | **WAL v. Jefferies (NY Supreme Court) docket never read** | `FRAUD/FIRST_BRANDS.md:183` "No NY index number is held … NYSCEF never read"; last news check 9/24 | The $126.4M LAM claim is the largest forward two-way P&L item; a motion to dismiss or settlement would arrive here first | Find the index number, read NYSCEF once, log the schedule |
-| G2 | **Stupin / Cantor dockets not read since 9/27** | Remand motion filed 7/27 (adversary 8:26-ap-01076-SC) — outcome not recorded; Stupin Ch.11 8:26-bk-11202-SC; LA Superior 25STCV24263 | Recovery path for the $72.4M Cantor residual; the 10-Q will speak to it but not to rulings | CourtListener re-read before the 10-Q |
+| G1 | **WAL v. Jefferies (NY Supreme Court) docket never read** *(10/22 follow-up: `2026-10-22_court-checks.md` — index numbers still unknown, NYSCEF blocks automation)* | `FRAUD/FIRST_BRANDS.md:183` "No NY index number is held … NYSCEF never read"; last news check 9/24 | The $126.4M LAM claim is the largest forward two-way P&L item; a motion to dismiss or settlement would arrive here first | Find the index number, read NYSCEF once, log the schedule |
+| G2 | **Stupin / Cantor dockets not read since 9/27** *(CLOSED 10/22: remand + stay relief granted 8/24; WAL §523 suit, hearing 12/9 — `2026-10-22_court-checks.md`)* | Remand motion filed 7/27 (adversary 8:26-ap-01076-SC) — outcome not recorded; Stupin Ch.11 8:26-bk-11202-SC; LA Superior 25STCV24263 | Recovery path for the $72.4M Cantor residual; the 10-Q will speak to it but not to rulings | CourtListener re-read before the 10-Q |
 | G3 | **Credit ratings** (Moody's / S&P / Fitch / KBRA on WAL and the bank) | 0 KB rows | A downgrade or outlook change is a direct funding-cost and sentiment event | One-time baseline pull |
 | G4 | **WAL debt / preferred market signal** (sub-debt, senior notes, preferred spreads) | 1 sub-debt row (7/25), 4 preferred rows (≤9/27) | Bond market can price idiosyncratic stress before equity | Baseline, or confirm REGINALD/LIQUID owns it |
 | G5 | **Options-implied volatility / skew** | 2 rows, latest 9/24 | Context for the held puts' value; TERRY may own it | Confirm owner |
@@ -53,4 +53,4 @@
 
 ## 5. Clean (checked, no action)
 
-Predictions due: WAL-01/02 Resolve_By 11/15, none overdue. Corrections check rc 0. Read-cap: STATUS 44% of budget, NEXUS_BRIEF 33%. STATUS 98 lines (cap 250). Inbox and inbox/WALTER empty. REGINALD channel 198 lines (archive rule ~300). Frozen frames intact; the L171 frame was frozen 10/22.
+Predictions due: WAL-01/02 Resolve_By 11/15, none overdue. Corrections check rc 0. Read-cap: STATUS 44% of budget, NEXUS_BRIEF 33%. STATUS 98 lines (cap 250). ~~Inbox and inbox/WALTER empty.~~ **Corrected 10/22 ~11:3x ET:** WALTER SIG-W-20261022-011 landed 11:13:52 ET; this sweep restated an ~11:12 listing instead of listing again. Processed same day (board_log, KB253). REGINALD channel 198 lines (archive rule ~300). Frozen frames intact; the L171 frame was frozen 10/22.

@@ -148,3 +148,19 @@ Three layers of hidden CRE (ML-REG-115):
 **Scope of the "no other instance" assurance:** it covers the Cantor failure mode (forged title / lien priority). It says nothing about collateral-perfection lapses — the LAM failure mode. See `FIRST_BRANDS.md` §FOLD and the perfection screen.
 
 *Fold applied 2026-09-24 (WAL session #7) from `../research/FRAUD_CORPUS_REVIEW_2026-09-24.md` §1.11. Content above unchanged. This file is now the LIVE Cantor home.*
+
+---
+
+## FOLD 2026-10-22 — docket check (supersedes the Docket row's "WAL moved to remand 7/27" open state)
+
+Read at CourtListener RECAP (docket text, plus one VERIFIED PDF) on 2026-10-22 via DEWEY's `recap_pull.py`. → `../research/2026-10-22_court-checks.md`, KB-WAL-254/255.
+
+| Item | State (dated) | Source | Tier |
+|---|---|---|---|
+| Remand | **GRANTED 8/24/2026** (equitable remand, 28 U.S.C. §1452(b)): the removed guaranty/declaratory claims go back to LA Superior 25STCV24263; adversary 8:26-ap-01076 to close. The order does **not** modify the automatic stay or decide Claim No. 5-1 | 8:26-ap-01076 Doc 31 (docket text) | A2 |
+| Stay relief | **GRANTED 8/24/2026** under §362(d)(1): WAL may proceed in 25STCV24263, "subject to the limitations below" (limitations unread) | 8:26-bk-11202 Doc 306 (docket text) | A2 |
+| ★ New WAL suit | **8:26-ap-01096-SC filed 9/15/2026**: nondischargeability of the Stupins' debt, §523(a)(2) fraud + §523(a)(6) willful and malicious injury. Stupins moved to dismiss 10/16. **Hearing + status conference Wed 12/9/2026 11:00 AM** | 8:26-ap-01096 Docs 1, 2, 5, 8 | A2 |
+| Debtor's account | Stupin's sworn declaration in the 10/7 cash-collateral motion blames Makhijani, who "maintained all relationships with lenders", citing ~$98M from WAL and ~$60M from Zions. The cash collateral is Secured Income Fund's (Huntington Beach rentals), **not WAL's**; hearing 10/28 | 8:26-bk-11202 Doc 388, **VERIFIED** (sha256 9dca8dcf…ec7a), p.5-6, p.11 | A1 (what the filing says) |
+| Stupin Ch.11 posture | Active: unsecured creditors' committee (FTI as adviser), broker-retention applications for property sales under court-ordered supplemental disclosure (9/29 orders, 10/14 filings). No plan or disclosure statement located in the entries read | 8:26-bk-11202 Docs 376-400 | A2 |
+| Makhijani criminal | RECAP shows entries through Doc 98 (10/21) on docket 73522967 but **no text for Docs 93-98** (8/26-10/21). The 11/30 status conference / 1/12/2027 trial dates (KB-203) are **not re-verified** | CourtListener search 10/22 | UNVERIFIED |
+| LA Superior 25STCV24263 | Not read (LA court online access is paid) | — | GAP |
