@@ -2,7 +2,7 @@
 
 **Status:** Concentrated bank risk. HY widening 266→333bp is BANK-ABSENT on bank instruments (~0.6); Q3 problem loans up at 6/6 names read while reserve coverage fell at 5/5 (descriptive).
 **Domain:** Regional-bank comparison, FHLB advances, hidden CRE and sponsor-bank balance-sheet risk.
-**As of:** 2026-10-22 11:20 ET, Will-directed catch-up + AI-doc analysis; owner closeout | STATUS commit: a9404a8f6
+**As of:** 2026-10-22 11:29 ET, Will-directed EGBN Q4-wall deep dive; owner closeout | STATUS commit: 5f59d0720
 
 ## CROSS-DOMAIN
 
@@ -16,6 +16,8 @@
   - BKU CRE criticized −$53.9M. HBAN NCO 0.31%. ZION NCO 0.02%, rank 1 unchanged.
 - **FL frame:** SSB HOLDS provisional, BKU HOLDS-PENDING-P; aggregate UNKNOWN.
 - **H.4.1 descriptive lines:** >~12.9B / >~15.7B. Not registered.
+
+**EGBN Q4 wall (Will, 10/22):** `reports/2026-10-22_EGBN_Q4_maturity_wall.md`. ~$525M matures 10/27–12/30 ($146.9M criticized + $378.6M pass). The criticized-four gross loss is ~$8–31M (≤$1.02 of the $38.00 TBV/share). Q3 behaviour was extend-not-exit. ⚠️ The DC $20.5M appraisal was printed at $24.5M (Q2) and $13.5M (Q3) with the same date.
 
 **AI-agent banking doc (Will):** `reports/2026-10-22_AI-agent-banking-doc_analysis.md`. Deposit run-speed / margin story, not credit. The doc is AI-generated and secondary-heavy; VLY "acquired Bluevine" is wrong (the deal is pending).
 
