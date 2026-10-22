@@ -1,0 +1,510 @@
+<title>HENRY — Operating Dashboard</title>
+<style>
+  /* Layout: one 1100px column of instrument panels — summary first (call, board), then mechanism (gamma, cascade), then the dated work (prediction, calendar, record).
+     Type roles: mono = measured, serif = argued, sans = navigational. Accent is instrument teal; red/amber are reserved for state. */
+  :root {
+    --ground:#f6f7f9; --surface:#ffffff; --surface-2:#eef1f4; --line:#dbe1e8; --line-soft:#e8ecf1;
+    --ink:#10151c; --ink-2:#3d4653; --mid:#5a6472; --faint:#8b94a1;
+    --accent:#16707d; --accent-2:#1d7f8c; --ok:#2f7d4f; --warn:#b8791f; --crit:#b8362f;
+    --ok-bg:#e6f1ea; --warn-bg:#f8efdd; --crit-bg:#f8e5e3; --track:#e3e8ee;
+    --mono: ui-monospace, "SF Mono", SFMono-Regular, "Cascadia Mono", Menlo, Consolas, "Liberation Mono", monospace;
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground:#0c1015; --surface:#141a21; --surface-2:#1b222b; --line:#28313c; --line-soft:#212932;
+      --ink:#e5eaf0; --ink-2:#c2cad4; --mid:#98a3b1; --faint:#6d7886;
+      --accent:#4fb3c0; --accent-2:#3d9fac; --ok:#5cb37d; --warn:#d9a34b; --crit:#e0685e;
+      --ok-bg:#16281d; --warn-bg:#2c2413; --crit-bg:#2e1a18; --track:#242d38; color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground:#0c1015; --surface:#141a21; --surface-2:#1b222b; --line:#28313c; --line-soft:#212932;
+    --ink:#e5eaf0; --ink-2:#c2cad4; --mid:#98a3b1; --faint:#6d7886;
+    --accent:#4fb3c0; --accent-2:#3d9fac; --ok:#5cb37d; --warn:#d9a34b; --crit:#e0685e;
+    --ok-bg:#16281d; --warn-bg:#2c2413; --crit-bg:#2e1a18; --track:#242d38; color-scheme: dark;
+  }
+
+  body { background: var(--ground); color: var(--ink); font-family: var(--sans); font-size: 15px; line-height: 1.55; -webkit-font-smoothing: antialiased; }
+  .wrap { max-width: 1100px; margin: 0 auto; padding: 40px 24px 80px; display: flex; flex-direction: column; gap: 34px; }
+
+  .eyebrow { font-family: var(--mono); font-size: 10.5px; letter-spacing: .13em; text-transform: uppercase; color: var(--faint); font-weight: 600; }
+  h1 { font-size: 30px; font-weight: 650; letter-spacing: -.02em; line-height: 1.15; text-wrap: balance; margin: 0; }
+  h2 { font-size: 15.5px; font-weight: 650; letter-spacing: -.005em; text-wrap: balance; margin: 0; }
+  h3 { font-size: 13px; font-weight: 650; margin: 0; }
+  p { margin: 0; }
+  .num { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+  .argued { font-family: var(--serif); font-size: 16.5px; line-height: 1.6; color: var(--ink-2); max-width: 72ch; }
+  .argued strong { color: var(--ink); font-weight: 600; }
+  a { color: var(--accent); }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
+
+  .panel { background: var(--surface); border: 1px solid var(--line); border-radius: 3px; min-width: 0; }
+  .panel-hd { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; padding: 13px 18px; border-bottom: 1px solid var(--line-soft); }
+  .panel-bd { padding: 18px; display: flex; flex-direction: column; gap: 16px; }
+  .panel-bd.tight { gap: 10px; }
+
+  .mast { display: flex; flex-direction: column; gap: 16px; border-bottom: 2px solid var(--ink); padding-bottom: 20px; }
+  .mast-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 24px; flex-wrap: wrap; }
+  .mast-id { display: flex; flex-direction: column; gap: 5px; min-width: 0; }
+  .mast-meta { font-family: var(--mono); font-size: 11px; color: var(--mid); text-align: right; line-height: 1.7; }
+  .mast-meta b { color: var(--ink); font-weight: 600; }
+  .role { color: var(--mid); font-size: 14px; max-width: 62ch; }
+  .pills { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+
+  .pill { display: inline-flex; align-items: center; gap: 6px; padding: 3px 9px; border-radius: 2px; font-family: var(--mono); font-size: 10.5px; font-weight: 600; letter-spacing: .07em; text-transform: uppercase; border: 1px solid transparent; white-space: nowrap; }
+  .pill::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: currentColor; flex: none; }
+  .p-crit { color: var(--crit); background: var(--crit-bg); border-color: color-mix(in srgb, var(--crit) 26%, transparent); }
+  .p-warn { color: var(--warn); background: var(--warn-bg); border-color: color-mix(in srgb, var(--warn) 26%, transparent); }
+  .p-ok   { color: var(--ok);   background: var(--ok-bg);   border-color: color-mix(in srgb, var(--ok) 26%, transparent); }
+  .p-mute { color: var(--mid);  background: var(--surface-2); border-color: var(--line); }
+  .pill.nodot::before { display: none; }
+
+  .thesis { border-left: 3px solid var(--accent); padding-left: 18px; }
+  .axes { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--line-soft); border: 1px solid var(--line-soft); }
+  .axis { background: var(--surface); padding: 15px 16px; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+  .axis-hd { display: flex; align-items: center; justify-content: space-between; gap: 8px; flex-wrap: wrap; }
+  .axis-name { font-family: var(--mono); font-size: 10.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--faint); font-weight: 600; }
+  .axis-verdict { font-size: 14px; font-weight: 600; line-height: 1.3; }
+  .axis-note { font-size: 12.5px; color: var(--mid); line-height: 1.5; }
+
+  .rails { display: flex; flex-direction: column; }
+  .rail { display: grid; grid-template-columns: 140px 92px 1fr 150px; gap: 14px; align-items: center; padding: 11px 0; border-bottom: 1px solid var(--line-soft); }
+  .rail:last-child { border-bottom: 0; }
+  .rail-name { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+  .rail-label { font-size: 13px; font-weight: 600; }
+  .rail-src { font-family: var(--mono); font-size: 9.5px; color: var(--faint); letter-spacing: .04em; }
+  .rail-val { font-family: var(--mono); font-variant-numeric: tabular-nums; font-size: 16px; font-weight: 600; text-align: right; }
+  .rail-sub { font-family: var(--mono); font-size: 9.5px; color: var(--faint); text-align: right; display: block; font-weight: 400; }
+  .track { position: relative; height: 22px; }
+  .track-bar { position: absolute; inset: 8px 0 auto 0; height: 6px; background: var(--track); border-radius: 1px; overflow: hidden; }
+  .zone { position: absolute; top: 0; bottom: 0; }
+  .z-warn { background: color-mix(in srgb, var(--warn) 42%, transparent); }
+  .z-crit { background: color-mix(in srgb, var(--crit) 48%, transparent); }
+  .z-max  { background: color-mix(in srgb, var(--crit) 82%, transparent); }
+  .marker { position: absolute; top: 2px; width: 2px; height: 18px; margin-left: -1px; background: var(--ink); border-radius: 1px; }
+  .ghost { position: absolute; top: 5px; width: 1px; height: 12px; background: var(--faint); opacity: .8; }
+  .ghost::after { content: attr(data-tick); position: absolute; top: -11px; left: 50%; transform: translateX(-50%); font-family: var(--mono); font-size: 8.5px; color: var(--faint); white-space: nowrap; }
+  .rail-dist { font-family: var(--mono); font-size: 11px; text-align: right; color: var(--mid); line-height: 1.35; }
+  .rail-dist b { display: block; color: var(--ink); font-size: 11.5px; font-weight: 600; }
+  .legend { display: flex; gap: 16px; flex-wrap: wrap; align-items: center; font-family: var(--mono); font-size: 10px; color: var(--faint); }
+  .swatch { display: inline-flex; align-items: center; gap: 5px; }
+  .swatch i { width: 16px; height: 6px; border-radius: 1px; display: inline-block; }
+
+  .gamma-line { position: relative; height: 66px; margin: 6px 0 2px; }
+  .gl-bar { position: absolute; top: 26px; left: 0; right: 0; height: 4px; background: color-mix(in srgb, var(--ok) 30%, var(--track)); }
+  .gl-neg { position: absolute; top: 0; bottom: 0; background: color-mix(in srgb, var(--crit) 34%, transparent); }
+  .gl-band { position: absolute; top: 22px; height: 12px; background: color-mix(in srgb, var(--warn) 45%, transparent); }
+  .gl-mark { position: absolute; top: 18px; width: 2px; height: 20px; margin-left: -1px; background: var(--ink); }
+  .gl-mark.soft { background: var(--faint); width: 1px; height: 14px; top: 21px; margin-left: 0; }
+  .gl-lab { position: absolute; font-family: var(--mono); font-size: 10px; white-space: nowrap; transform: translateX(-50%); color: var(--mid); text-align: center; line-height: 1.35; }
+  .gl-lab.al-r { transform: translateX(-100%); text-align: right; padding-right: 4px; }
+  .gl-lab.al-l { transform: none; text-align: left; padding-left: 4px; }
+  .gl-lab b { display: block; color: var(--ink); font-size: 11.5px; font-weight: 600; }
+  .gl-top { top: -4px; } .gl-bot { top: 40px; }
+
+  .preds { display: flex; flex-direction: column; gap: 1px; background: var(--line-soft); }
+  .pred { background: var(--surface); padding: 15px 16px; display: flex; flex-direction: column; gap: 11px; min-width: 0; }
+  .pred-hd { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+  .pred-id { font-family: var(--mono); font-size: 12px; font-weight: 700; color: var(--accent); letter-spacing: .04em; }
+  .pred-claim { font-size: 13.5px; font-weight: 600; line-height: 1.45; max-width: 80ch; }
+  .pred-body { font-size: 12.5px; color: var(--mid); line-height: 1.55; max-width: 80ch; }
+  .pred-body b { color: var(--ink-2); font-weight: 600; }
+  .probs { display: flex; gap: 18px; flex-wrap: wrap; }
+  .prob { display: flex; align-items: center; gap: 8px; font-size: 11.5px; color: var(--mid); }
+  .prob-track { width: 78px; height: 5px; background: var(--track); border-radius: 1px; overflow: hidden; }
+  .prob-fill { height: 100%; background: var(--accent); }
+  .prob-num { font-family: var(--mono); font-size: 12px; font-weight: 700; color: var(--ink); }
+  .falsify { font-family: var(--mono); font-size: 11px; color: var(--mid); background: var(--surface-2); border-left: 2px solid var(--warn); padding: 8px 11px; line-height: 1.55; }
+  .falsify b { color: var(--ink); }
+
+  .cats { display: flex; flex-direction: column; }
+  .cat { display: grid; grid-template-columns: 92px 18px 1fr; gap: 12px; align-items: start; padding: 12px 0; border-bottom: 1px solid var(--line-soft); }
+  .cat:last-child { border-bottom: 0; }
+  .cat-date { font-family: var(--mono); font-size: 11.5px; font-weight: 600; color: var(--ink); padding-top: 1px; }
+  .cat-date span { display: block; font-weight: 400; color: var(--faint); font-size: 9.5px; letter-spacing: .05em; }
+  .cat-rail { position: relative; height: 100%; display: flex; justify-content: center; padding-top: 4px; }
+  .cat-rail::before { content: ""; position: absolute; top: 0; bottom: -12px; width: 1px; background: var(--line); }
+  .cat:last-child .cat-rail::before { bottom: auto; height: 8px; }
+  .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--surface); border: 2px solid var(--faint); position: relative; z-index: 1; }
+  .dot.hot { border-color: var(--crit); background: var(--crit); }
+  .dot.warm { border-color: var(--warn); background: var(--warn); }
+  .cat-what { display: flex; flex-direction: column; gap: 3px; min-width: 0; }
+  .cat-title { font-size: 13.5px; font-weight: 600; }
+  .cat-why { font-size: 12.5px; color: var(--mid); line-height: 1.5; }
+
+  .casc { display: flex; flex-direction: column; gap: 1px; background: var(--line-soft); }
+  .step { background: var(--surface); padding: 11px 14px; display: grid; grid-template-columns: 26px 1fr auto; gap: 12px; align-items: center; }
+  .step-n { font-family: var(--mono); font-size: 11px; color: var(--faint); font-weight: 600; }
+  .step-b { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+  .step-t { font-size: 13px; font-weight: 600; }
+  .step-d { font-size: 11.5px; color: var(--mid); font-family: var(--mono); }
+
+  .scroll { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; font-size: 12.5px; min-width: 520px; }
+  th { text-align: left; font-family: var(--mono); font-size: 9.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--faint); font-weight: 600; padding: 0 12px 7px 0; border-bottom: 1px solid var(--line); }
+  td { padding: 9px 12px 9px 0; border-bottom: 1px solid var(--line-soft); vertical-align: top; color: var(--mid); line-height: 1.5; }
+  td:first-child { color: var(--ink); font-weight: 600; white-space: nowrap; }
+  tr:last-child td { border-bottom: 0; }
+  td.num, th.num { text-align: right; }
+
+  .tally { display: grid; grid-template-columns: repeat(5, 1fr); gap: 1px; background: var(--line-soft); border: 1px solid var(--line-soft); }
+  .tally div { background: var(--surface); padding: 12px 14px; display: flex; flex-direction: column; gap: 3px; }
+  .tally .n { font-family: var(--mono); font-size: 22px; font-weight: 650; font-variant-numeric: tabular-nums; }
+  .tally .l { font-family: var(--mono); font-size: 9.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--faint); }
+  .marks { display: flex; flex-direction: column; gap: 1px; background: var(--line-soft); }
+  .mark { background: var(--surface); padding: 13px 15px; display: grid; grid-template-columns: 86px 1fr; gap: 14px; align-items: start; }
+  .mark-v { font-family: var(--mono); font-size: 10px; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; padding-top: 2px; }
+  .v-hit { color: var(--ok); } .v-miss { color: var(--crit); } .v-part { color: var(--warn); }
+  .mark-b { font-size: 12.5px; color: var(--mid); line-height: 1.55; min-width: 0; }
+  .mark-b b { color: var(--ink); font-weight: 600; }
+
+  .cols2 { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--line-soft); }
+  .col { background: var(--surface); padding: 15px 16px; display: flex; flex-direction: column; gap: 9px; min-width: 0; }
+  .lst { display: flex; flex-direction: column; gap: 6px; font-size: 12.5px; color: var(--mid); line-height: 1.5; }
+  .lst div { padding-left: 14px; position: relative; }
+  .lst div::before { content: ""; position: absolute; left: 0; top: 8px; width: 5px; height: 1px; background: var(--faint); }
+  .lst b { color: var(--ink); font-weight: 600; }
+
+  footer { border-top: 1px solid var(--line); padding-top: 16px; font-family: var(--mono); font-size: 10.5px; color: var(--faint); line-height: 1.8; }
+
+  @media (max-width: 800px) {
+    .wrap { padding: 28px 16px 64px; }
+    .axes, .cols2 { grid-template-columns: 1fr; }
+    .tally { grid-template-columns: repeat(3, 1fr); }
+    .rail { grid-template-columns: 1fr 80px; grid-template-areas: "name val" "track track" "dist dist"; gap: 7px; }
+    .rail-name { grid-area: name; } .rail-val { grid-area: val; } .track { grid-area: track; } .rail-dist { grid-area: dist; text-align: left; }
+    .rail-dist b { display: inline; margin-right: 6px; }
+    .mast-meta { text-align: left; }
+  }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+</style>
+
+<div class="wrap">
+
+  <header class="mast">
+    <div class="mast-top">
+      <div class="mast-id">
+        <div class="eyebrow">Agent dashboard · Market structure &amp; macro velocity</div>
+        <h1>HENRY</h1>
+        <p class="role">Translates macro data and market moves into positioning signals. Owns the <em>velocity</em> layer: when stress starts elsewhere in the fleet, HENRY tracks how it moves through stocks, rates and volatility.</p>
+      </div>
+      <div class="mast-meta">
+        <div>as of <b>2026-10-21</b> after the close</div>
+        <div>tape <b>20:58 ET</b> · gamma <b>20:59–21:07 ET</b></div>
+        <div>credit <b>FRED 10/19</b> (site down 10/21)</div>
+        <div>previous refresh <b>2026-07-24</b></div>
+      </div>
+    </div>
+    <div class="pills">
+      <span class="pill p-warn">Signal status: elevated, easing</span>
+      <span class="pill p-ok">Dealer gamma positive (thin)</span>
+      <span class="pill p-crit">Credit not confirming</span>
+      <span class="pill p-mute nodot">HEN-46 resolves Thu 10/22</span>
+    </div>
+  </header>
+
+  <section class="panel">
+    <div class="panel-hd"><h2>The call</h2><span class="eyebrow">what HENRY currently believes</span></div>
+    <div class="panel-bd">
+      <div class="thesis argued">
+        Stocks calmed over 10/20–10/21: the S&amp;P is back above the level where dealer hedging stops amplifying moves, and VIX closed at 16.68. <strong>Credit has not followed.</strong> High-yield spreads have printed above 320bp four times running and the distressed tail is wide. HENRY's standing rule is that equity cannot settle until credit spreads peak, so <strong>this is a calmer tape on an unconfirmed footing, not an all-clear.</strong> The gamma cushion is only 8–13 points.
+      </div>
+      <div class="axes">
+        <div class="axis">
+          <div class="axis-hd"><span class="axis-name">Axis 1 · Rates &amp; inflation</span><span class="pill p-crit">Red line held</span></div>
+          <div class="axis-verdict">Inflation pressure persists</div>
+          <div class="axis-note">September CPI <span class="num">+0.6%</span> m/m (energy over half of it), PPI final demand <span class="num">+1.3%</span>. The 10-year sits at <span class="num">5.15%</span>, above the 5.0% red line; the 2-year at <span class="num">4.81%</span>.</div>
+        </div>
+        <div class="axis">
+          <div class="axis-hd"><span class="axis-name">Axis 2 · AI capex</span><span class="pill p-mute nodot">Mechanism confirmed</span></div>
+          <div class="axis-verdict">Spending keeps rising; the broad de-rating call failed</div>
+          <div class="axis-note">HEN-36's cash-flow mechanism resolved confirmed; the class-wide equity de-rating expression was falsified. Meta (10/21) raised the low end of 2026 capex to <span class="num">$135B</span> with a <span class="num">−$2.12B</span> free-cash-flow quarter. VULCAN grades it.</div>
+        </div>
+        <div class="axis">
+          <div class="axis-hd"><span class="axis-name">Axis 3 · Credit</span><span class="pill p-warn">Tail stress</span></div>
+          <div class="axis-verdict">Spreads wide, no funding spiral seen</div>
+          <div class="axis-note">HY <span class="num">329bp</span> (FRED 10/19), CCC <span class="num">1,297bp</span> (10/16). LIQUID observed no reserve-funding loop in its windows, and Western Alliance's Q3 argues against a common funding shock. Bank losses are not established.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-hd"><h2>Live board: distance to trigger</h2><span class="eyebrow">each metric on its own number line, standing lines unchanged</span></div>
+    <div class="panel-bd tight">
+      <div class="legend">
+        <span class="swatch"><i style="background:var(--track)"></i> below yellow</span>
+        <span class="swatch"><i style="background:color-mix(in srgb,var(--warn) 42%,transparent)"></i> yellow</span>
+        <span class="swatch"><i style="background:color-mix(in srgb,var(--crit) 48%,transparent)"></i> orange</span>
+        <span class="swatch"><i style="background:color-mix(in srgb,var(--crit) 82%,transparent)"></i> red</span>
+        <span>▌ current · ╵ reference</span>
+      </div>
+      <div class="rails">
+        <div class="rail">
+          <div class="rail-name"><span class="rail-label">VIX</span><span class="rail-src">vendor 10/21 close · ↑ risk</span></div>
+          <div class="rail-val">16.68<span class="rail-sub">VIX3M 18.72</span></div>
+          <div class="track">
+            <div class="track-bar"><div class="zone z-warn" style="left:52.0%;right:28.0%"></div><div class="zone z-crit" style="left:72.0%;right:20.0%"></div><div class="zone z-max" style="left:80.0%;right:0.0%"></div></div>
+            <div class="ghost" style="left:49.2%" data-tick="22.31 hi 10/16"></div>
+            <div class="marker" style="left:26.7%"></div>
+          </div>
+          <div class="rail-dist"><b>6.3 below</b>the &gt;23 vol-control line</div>
+        </div>
+        <div class="rail">
+          <div class="rail-name"><span class="rail-label">S&amp;P 500</span><span class="rail-src">vendor 10/21 close · ↓ risk</span></div>
+          <div class="rail-val">7,757<span class="rail-sub">+0.58% day</span></div>
+          <div class="track">
+            <div class="track-bar"><div class="zone z-max" style="left:0.0%;right:88.6%"></div><div class="zone z-crit" style="left:11.4%;right:52.9%"></div><div class="zone z-warn" style="left:47.1%;right:47.1%"></div></div>
+            <div class="ghost" style="left:89.3%" data-tick="7,819 peak 10/6"></div>
+            <div class="marker" style="left:85.7%"></div>
+          </div>
+          <div class="rail-dist"><b>557 above</b>the &lt;7,200 yellow line</div>
+        </div>
+        <div class="rail">
+          <div class="rail-name"><span class="rail-label">10-yr Treasury</span><span class="rail-src">Cboe TNX via vendor 10/21 · ↑ risk</span></div>
+          <div class="rail-val">5.15<span class="rail-sub">%</span></div>
+          <div class="track">
+            <div class="track-bar"><div class="zone z-warn" style="left:35.7%;right:42.9%"></div><div class="zone z-crit" style="left:57.1%;right:28.6%"></div><div class="zone z-max" style="left:71.4%;right:0.0%"></div></div>
+            
+            <div class="marker" style="left:81.9%"></div>
+          </div>
+          <div class="rail-dist"><b>15bp through red</b>red line &gt;5.00%</div>
+        </div>
+        <div class="rail">
+          <div class="rail-name"><span class="rail-label">2-yr Treasury</span><span class="rail-src">PROME dashboard 10/21 · ↑ risk</span></div>
+          <div class="rail-val">4.81<span class="rail-sub">%</span></div>
+          <div class="track">
+            <div class="track-bar"><div class="zone z-warn" style="left:37.5%;right:50.0%"></div><div class="zone z-crit" style="left:50.0%;right:33.3%"></div><div class="zone z-max" style="left:66.7%;right:0.0%"></div></div>
+            
+            <div class="marker" style="left:84.2%"></div>
+          </div>
+          <div class="rail-dist"><b>21bp through red</b>red line &gt;4.60%</div>
+        </div>
+        <div class="rail">
+          <div class="rail-name"><span class="rail-label">30-yr Treasury</span><span class="rail-src">FRED 10/16 · ↑ risk · stale cell</span></div>
+          <div class="rail-val">5.43<span class="rail-sub">%</span></div>
+          <div class="track">
+            <div class="track-bar"><div class="zone z-warn" style="left:33.3%;right:45.8%"></div><div class="zone z-crit" style="left:54.2%;right:25.0%"></div><div class="zone z-max" style="left:75.0%;right:0.0%"></div></div>
+            
+            <div class="marker" style="left:69.2%"></div>
+          </div>
+          <div class="rail-dist"><b>7bp below red</b>orange; FRED down 10/21</div>
+        </div>
+        <div class="rail">
+          <div class="rail-name"><span class="rail-label">High-yield spread</span><span class="rail-src">FRED 10/19 · ↑ risk</span></div>
+          <div class="rail-val">329<span class="rail-sub">bp</span></div>
+          <div class="track">
+            <div class="track-bar"><div class="zone z-warn" style="left:29.4%;right:47.1%"></div><div class="zone z-crit" style="left:52.9%;right:17.6%"></div><div class="zone z-max" style="left:82.4%;right:0.0%"></div></div>
+            
+            <div class="marker" style="left:32.1%"></div>
+          </div>
+          <div class="rail-dist"><b>9bp through yellow</b>4 readings above 320</div>
+        </div>
+        <div class="rail">
+          <div class="rail-name"><span class="rail-label">CCC spread</span><span class="rail-src">FRED 10/16 · ↑ risk · stale cell</span></div>
+          <div class="rail-val">1,297<span class="rail-sub">bp</span></div>
+          <div class="track">
+            <div class="track-bar"><div class="zone z-warn" style="left:28.6%;right:57.1%"></div><div class="zone z-crit" style="left:42.9%;right:42.9%"></div><div class="zone z-max" style="left:57.1%;right:0.0%"></div></div>
+            
+            <div class="marker" style="left:85.3%"></div>
+          </div>
+          <div class="rail-dist"><b>197bp through red</b>the distressed tail</div>
+        </div>
+        <div class="rail">
+          <div class="rail-name"><span class="rail-label">SKEW</span><span class="rail-src">vendor 10/21 · ↑ risk</span></div>
+          <div class="rail-val">150.4<span class="rail-sub">was 161.9 on 10/19</span></div>
+          <div class="track">
+            <div class="track-bar"><div class="zone z-warn" style="left:40.0%;right:50.0%"></div><div class="zone z-crit" style="left:50.0%;right:30.0%"></div><div class="zone z-max" style="left:70.0%;right:0.0%"></div></div>
+            
+            <div class="marker" style="left:50.7%"></div>
+          </div>
+          <div class="rail-dist"><b>just into orange</b>RED-FT-10 grade is the owner's</div>
+        </div>
+        <div class="rail">
+          <div class="rail-name"><span class="rail-label">Regional banks</span><span class="rail-src">KRE vendor 10/21 · ↓ risk</span></div>
+          <div class="rail-val">70.60<span class="rail-sub">KRE $</span></div>
+          <div class="track">
+            <div class="track-bar"><div class="zone z-max" style="left:0.0%;right:80.0%"></div><div class="zone z-crit" style="left:20.0%;right:72.0%"></div><div class="zone z-warn" style="left:28.0%;right:60.0%"></div></div>
+            
+            <div class="marker" style="left:62.4%"></div>
+          </div>
+          <div class="rail-dist"><b>$5.60 above</b>the &lt;$65 yellow line</div>
+        </div>
+        <div class="rail">
+          <div class="rail-name"><span class="rail-label">USD / JPY speed</span><span class="rail-src">|daily change| · SAM's call</span></div>
+          <div class="rail-val">0.0%<span class="rail-sub">158.17</span></div>
+          <div class="track">
+            <div class="track-bar"><div class="zone z-max" style="left:66.7%;right:0%"></div></div>
+            <div class="marker" style="left:0.3%"></div>
+          </div>
+          <div class="rail-dist"><b>2.0% away</b>escalate at ±2% in a day</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-hd"><h2>Dealer gamma: the amplifier</h2><span class="eyebrow">HENRY-owned · free-tier estimate from the Cboe chain</span></div>
+    <div class="panel-bd">
+      <div class="argued" style="font-size:15px;">
+        Above the <strong>flip</strong>, market makers' hedging leans against moves; below it, their hedging adds to them. On 10/19 the S&amp;P was 65–71 points below the flip. Tonight it is <strong>8–13 points above</strong>, so a down day of about 0.2% would put it back underneath.
+      </div>
+      
+      <div class="gamma-line">
+        <div class="gl-bar"><div class="gl-neg" style="left:0;right:69.0%"></div></div>
+        <div class="gl-band" style="left:29.3%;width:3.3%"></div>
+        <div class="gl-lab gl-bot al-r" style="left:29.3%">flip band<b>7,744–7,749</b></div>
+        <div class="gl-mark soft" style="left:33.3%"></div>
+        <div class="gl-lab gl-bot al-l" style="left:33.3%">put wall<b>7,750</b></div>
+        <div class="gl-mark" style="left:38.1%"></div>
+        <div class="gl-lab gl-top" style="left:38.1%"><b>7,757</b>spot</div>
+        <div class="gl-mark soft" style="left:66.7%"></div>
+        <div class="gl-lab gl-top" style="left:66.7%"><b>7,800</b>call wall</div>
+        <div class="gl-lab gl-bot al-r" style="left:100%">35d band to<b>8,000 →</b></div>
+      </div>
+      <div class="scroll">
+        <table>
+          <thead><tr><th>Reading</th><th>14-day</th><th>35-day</th><th>What it means</th></tr></thead>
+          <tbody>
+            <tr><td>Regime</td><td class="num">POSITIVE</td><td class="num">POSITIVE</td><td>Dealers damp moves. Reverses the 10/19 negative read at both horizons.</td></tr>
+            <tr><td>Flip</td><td class="num">~7,744</td><td class="num">~7,749</td><td>Spot 7,757.17. The cushion is the thinnest part of the read.</td></tr>
+            <tr><td>Net GEX per 1%</td><td class="num">+$9.2B</td><td class="num">+$6.3B</td><td>Sign is robust; dollar size depends on an assumed dealer book.</td></tr>
+            <tr><td>Put wall</td><td class="num">7,750</td><td class="num">7,750</td><td>Clean at both horizons, sitting between spot and the flip.</td></tr>
+            <tr><td>Call wall</td><td class="num">7,800</td><td class="num">7,800–8,000</td><td>35-day top two strikes are within 3%, so it is quoted as a band.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="falsify"><b>Read it precisely:</b> gamma sets how fast a move runs once it starts; it does not start one, and rallies get amplified too. Open-interest vintage is not separately certified, and nothing here is validated against a proprietary dealer book. Refresh before any market use.</div>
+    </div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-hd"><h2>The cascade: HENRY's core framework</h2><span class="eyebrow">mechanical selling layers, in the order they fire</span></div>
+    <div class="panel-bd tight">
+      <div class="casc">
+        <div class="step"><span class="step-n">1</span><div class="step-b"><span class="step-t">Vol-control funds</span><span class="step-d">trigger VIX &gt;23–24 · hours · VIX 16.68 tonight, 10/16 high 22.31</span></div><span class="pill p-ok">Dormant</span></div>
+        <div class="step"><span class="step-n">2</span><div class="step-b"><span class="step-t">Short-term CTAs</span><span class="step-d">trigger S&amp;P below its 50-day · days · 7,757 vs 50-day 7,705 (own calc)</span></div><span class="pill p-ok">Not triggered</span></div>
+        <div class="step"><span class="step-n">3</span><div class="step-b"><span class="step-t">Medium-term CTAs</span><span class="step-d">medium trigger sustained · weeks</span></div><span class="pill p-mute">Not measured</span></div>
+        <div class="step"><span class="step-n">4</span><div class="step-b"><span class="step-t">Long-term CTAs</span><span class="step-d">long trigger · months · S&amp;P 7,757 vs 200-day 7,284</span></div><span class="pill p-mute">Not measured</span></div>
+        <div class="step"><span class="step-n">5</span><div class="step-b"><span class="step-t">Risk parity</span><span class="step-d">cross-asset correlation spike · months</span></div><span class="pill p-mute">Not measured</span></div>
+      </div>
+      <div class="falsify"><b>Order, not size:</b> the dollar sizes HENRY used to quote for each layer are unsourced (Will ruled 7/31) and are no longer shown. CTA trigger levels are dynamic and not published; the 50-day and 200-day lines above are HENRY's own proxy, not a fund's actual trigger.</div>
+    </div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-hd"><h2>Open prediction</h2><span class="eyebrow">one live row · every other row is graded</span></div>
+    <div class="preds">
+      <div class="pred">
+        <div class="pred-hd">
+          <span class="pred-id">HEN-46</span>
+          <span class="pill p-warn">Resolves Thu 10/22</span>
+          <span class="eyebrow">registered 9/11</span>
+        </div>
+        <div class="pred-claim">Airlines still using a pre-squeeze fuel assumption miss their Q3 fuel cost line by an amount comparable to their whole guided result.</div>
+        <div class="probs">
+          <span class="prob">American misses<span class="prob-track"><span class="prob-fill" style="width:35%"></span></span><span class="prob-num">0.35</span></span>
+          <span class="prob">Southwest leg<span class="prob-track"><span class="prob-fill" style="width:30%"></span></span><span class="prob-num">0.30</span></span>
+          <span class="prob">A card is ever opened<span class="prob-track"><span class="prob-fill" style="width:20%"></span></span><span class="prob-num">0.20</span></span>
+        </div>
+        <div class="scroll">
+          <table>
+            <thead><tr><th>Southwest Q3 (SEC 8-K, 10/21)</th><th class="num">Actual</th><th class="num">Line</th><th>Result</th></tr></thead>
+            <tbody>
+              <tr><td>Fuel per gallon, with tax and hedge premium</td><td class="num">$3.92</td><td class="num">assumed $3.70–3.75</td><td>Over, by $93–121M pre-tax on 548M gallons</td></tr>
+              <tr><td>CONFIRM test</td><td class="num">$3.92</td><td class="num">≥ $4.10</td><td>Not met</td></tr>
+              <tr><td>DENY test</td><td class="num">$3.92</td><td class="num">≤ $3.85</td><td>Not met (also not met unhedged, $3.87)</td></tr>
+              <tr><td>Adjusted EPS</td><td class="num">$0.66</td><td class="num">guide $0.50–0.75</td><td>Inside guide; record unit revenue +21.6%</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="pred-body"><b>Southwest landed in a range the letter never named.</b> That is HENRY's drafting error, recorded rather than re-specced. In substance the fuel overrun was about half of what the registration projected, and record fares absorbed it, which is the pass-through the claim bet against. <b>Grading rule for American, written before it reports:</b> adjusted EPS below −$0.70 confirms the row; anything else is recorded as "no verdict, claim not supported."</div>
+        <div class="falsify"><b>Diesel-margin falsifier (F1):</b> the December crack's settlement-window estimate on 10/21 was <b>$95.05</b>, inside the ±$0.15 band around the $95 stand-down line, so it reads UNKNOWN until a settlement-grade print. BRENT published the same series tonight ($95.0479 for 10/21) and concurs; 10/15–10/20 all sit above $95 ($98.92–$100.18). For TERRY's held Valero shares the same estimate means notice only below $95; the sell recommendation is below $90.16. <b>F5</b> not fired (American $12.23 vs $11.31). <b>F3</b> spent.</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-hd"><h2>What's coming</h2><span class="eyebrow">dated tests, verified at the agency calendars 10/21</span></div>
+    <div class="panel-bd tight">
+      <div class="cats">
+        <div class="cat"><div class="cat-date">Thu 10/22<span>tomorrow</span></div><div class="cat-rail"><span class="dot hot"></span></div><div class="cat-what"><span class="cat-title">American Q3 before the open · Southwest call 10:00 ET</span><span class="cat-why">HEN-46 resolves under the rule written tonight.</span></div></div>
+        <div class="cat"><div class="cat-date">Wed 10/28<span>+7 days</span></div><div class="cat-rail"><span class="dot warm"></span></div><div class="cat-what"><span class="cat-title">FOMC decision, 14:00 ET (no projections)</span><span class="cat-why">10-year and 2-year are already through their red lines; the reaction is the read.</span></div></div>
+        <div class="cat"><div class="cat-date">Thu 10/29<span>+8 days</span></div><div class="cat-rail"><span class="dot warm"></span></div><div class="cat-what"><span class="cat-title">Q3 GDP (advance) and September PCE</span><span class="cat-why">Core PCE against the 0.3% hot line.</span></div></div>
+        <div class="cat"><div class="cat-date">Fri 10/30<span>+9 days</span></div><div class="cat-rail"><span class="dot"></span></div><div class="cat-what"><span class="cat-title">Employment Cost Index · Bank of Japan</span><span class="cat-why">LABOR owns ECI; the last print on the current weighting basis.</span></div></div>
+        <div class="cat"><div class="cat-date">Sat 10/31<span>+10 days</span></div><div class="cat-rail"><span class="dot"></span></div><div class="cat-what"><span class="cat-title">Russian producer diesel-export restriction expires</span><span class="cat-why">Extended, lapsed or replaced; YURI and BRENT read it. The ban was partly permitted, not lifted.</span></div></div>
+        <div class="cat"><div class="cat-date">Fri 11/6<span>+16 days</span></div><div class="cat-rail"><span class="dot warm"></span></div><div class="cat-what"><span class="cat-title">October jobs report</span><span class="cat-why">LABOR grades the data; HENRY logs the market reaction.</span></div></div>
+        <div class="cat"><div class="cat-date">Tue 11/10<span>+20 days</span></div><div class="cat-rail"><span class="dot warm"></span></div><div class="cat-what"><span class="cat-title">October CPI</span><span class="cat-why">Headline vs core, and how much of it is energy.</span></div></div>
+        <div class="cat"><div class="cat-date">Fri 11/13<span>+23 days</span></div><div class="cat-rail"><span class="dot"></span></div><div class="cat-what"><span class="cat-title">October PPI</span><span class="cat-why">Final demand against the 0.4 / 0.5 / 0.6 lines; September printed 1.3.</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-hd"><h2>Calibration record</h2><span class="eyebrow">how much to trust the above · 51 ledger rows</span></div>
+    <div class="panel-bd">
+      <div class="tally">
+        <div><span class="n">28</span><span class="l">Hit / confirmed</span></div>
+        <div><span class="n">6</span><span class="l">Miss</span></div>
+        <div><span class="n">5</span><span class="l">Partial / mixed</span></div>
+        <div><span class="n">11</span><span class="l">No verdict</span></div>
+        <div><span class="n">1</span><span class="l">Open</span></div>
+      </div>
+      <p class="pred-body">The ledger uses 22 distinct status labels; the grouping into five is HENRY's own. "No verdict" covers expired, deferred and rule-based rows that resolved without a right-or-wrong call.</p>
+    </div>
+    <div class="marks">
+      <div class="mark"><span class="mark-v v-hit">7 of 9</span><span class="mark-b"><b>HEN-48–56 · September ISM services (10/5)</b>: seven ranges and thresholds hit; business activity (HEN-51) and the headline-above-55.4 call (HEN-54) missed.</span></div>
+      <div class="mark"><span class="mark-v v-hit">Confirm</span><span class="mark-b"><b>HEN-45 · September FOMC reaction</b> and <b>HEN-44 · August CPI oil pass-through</b> both resolved on the confirm branch.</span></div>
+      <div class="mark"><span class="mark-v v-miss">Miss</span><span class="mark-b"><b>HEN-42 · rates driver</b>: called the July rise policy-path led. Term premium turned out to carry about 44% of it, measured on a series HENRY could have pulled on day one. BOND found it.</span></div>
+      <div class="mark"><span class="mark-v v-part">Self-flag</span><span class="mark-b"><b>HEN-46 letter, 10/21</b>: the Southwest result fell in a gap between the confirm and deny lines. Recorded as HENRY's error before American reports, so the grade cannot be bent toward the flattering reading.</span></div>
+    </div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-hd"><h2>Scope and the fleet</h2><span class="eyebrow">what HENRY answers for, and what it doesn't</span></div>
+    <div class="cols2">
+      <div class="col">
+        <h3>Owns</h3>
+        <div class="lst">
+          <div><b>Macro releases</b>: CPI, PPI, PCE, ISM, logged actual vs consensus vs prior on release day.</div>
+          <div><b>Dealer gamma and put walls</b>: the mechanical amplification layer.</div>
+          <div><b>Index structure and breadth</b>: S&amp;P, Nasdaq, Russell, regional banks.</div>
+          <div><b>Cascade mechanics</b>: the five selling layers and what fires each.</div>
+        </div>
+      </div>
+      <div class="col">
+        <h3>Explicitly not</h3>
+        <div class="lst">
+          <div><b>Vol broadcasting</b> → VIOLET. VIX is an input here; HENRY doesn't alert the fleet on vol regime.</div>
+          <div><b>Employment</b> → LABOR · <b>Credit and funding</b> → LIQUID · <b>Banks</b> → REGINALD</div>
+          <div><b>Oil and energy</b> → BRENT · <b>War theaters</b> → OSPREY, FALCON, then HAWK</div>
+          <div><b>Trade construction</b> → TERRY. HENRY produces the read, not the position.</div>
+        </div>
+      </div>
+    </div>
+    <div class="panel-bd" style="padding-top:0;">
+      <div class="scroll">
+        <table>
+          <thead><tr><th>Counterpart</th><th>Live thread</th></tr></thead>
+          <tbody>
+            <tr><td>BRENT</td><td>Publishes the December diesel-margin estimate that grades HEN-46's F1 and TERRY's Valero rule. Judgment: wait on new energy capital; product scarcity may outlast a crude recovery.</td></tr>
+            <tr><td>TERRY</td><td>Owns the held Valero card. Tonight's $95.05 is a notice-level reading on its rule, not a sell signal.</td></tr>
+            <tr><td>LIQUID</td><td>Owns credit and funding. Found no common funding cause behind the repeat-loser stocks HENRY screened on 10/19.</td></tr>
+            <tr><td>WALTER</td><td>Routes signals. Received tonight's gamma reversal and the diesel near-line notice.</td></tr>
+            <tr><td>VIOLET</td><td>Owns the vol broadcast; HENRY uses VIX, SKEW and term structure as inputs only.</td></tr>
+            <tr><td>WATT</td><td>Power-cost input to the AI-capex axis. PJM prices eased after 10/13; no measured cash-flow hit.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    HENRY · market structure &amp; macro velocity · every level carries its source date; FRED series run a day behind and the site was down on 10/21<br>
+    Canonical state: <span class="num">AGENTS/HENRY/STATUS.md</span> · predictions: <span class="num">workbook/PREDICTIONS.tsv</span> · this page is a reading surface, not the source of truth<br>
+    Market levels are vendor quotes, not exchange-certified closes · gamma is a free-tier estimate: the sign and flip are robust, the dollar size is assumption-dependent
+  </footer>
+
+</div>

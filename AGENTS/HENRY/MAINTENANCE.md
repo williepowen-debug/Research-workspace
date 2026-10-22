@@ -238,3 +238,12 @@ DAEDALUS wired 28 of 37 charters in the Will-approved R1 batch; **HENRY was skip
 **What the fix surfaced:** with NaN rows dropped, the proxy flagged HYG/LQD −0.98% over 5 sessions to the 10/20 close (line −0.75%). Recomputed on the 10/21 regular close it is −0.35%, not firing. The broken version would not have shown either number.
 
 **Not fixed:** FRED's maintenance page is still read as "no data", not as "source down". The message is accurate enough and the new branch fails closed, so I left it.
+
+## 2026-10-21 (later) — sweep fixes: charter counts, STATUS headers, PUBLISHED key, evals, dashboard
+
+Will asked for the easy fixes from `reports/2026-10-21_desk-sweep.md`.
+- **Charter (`CLAUDE.md`), four stale claims replaced, not annotated:** the ECON_CALENDAR row (was "DOCKET EXPIRED … Mar-Jul only"); the KB count (132 / ML-HEN-160 → 158 / ML-HEN-186, with the re-derive command named); "REGINALD 14-col schema" → 15-column; the LESSONS counts ("All 37" → 44 headings = 35 settled + 9 full; "25 SETTLED" in the archive → 35 sections). Both counts now say to re-count instead of trusting the number.
+- **STATUS section headers restored to the names the charter and other desks cite:** § GEX / GAMMA REGIME, § VOL REGIME, § CREDIT EARLY-WARNING MONITOR, § INVALIDATION TRIAD, § CATALYST STACK. Several had drifted before tonight; I renamed the credit one myself in tonight's rewrite. Content unchanged.
+- **PUBLISHED.tsv duplicate key cleared:** the later `gamma_flip_35d_STALE` marker row now carries asof `2026-09-04T23:59` as a labelled synthetic tie-break. The consumer check's duplicate warning reads 0 after the change.
+- **Evals re-run (3/3 PASS)**, first run since 7/10. Results in `evals/results.tsv`, key passages in `evals/baseline_artifacts/2026-10-21_postfix_responses.md`. Runners were Opus subagents, not fresh terminal sessions (same proxy caveat as 7/10). **Case 01 needs date-neutralizing:** its frozen June dates now collide with the live clock.
+- **Operating Dashboard refreshed** at the same URL (version 2) after 89 days. Source moved into the repo at `dashboard/`.

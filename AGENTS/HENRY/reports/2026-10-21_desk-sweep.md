@@ -52,3 +52,14 @@ Working tree clean; inbox and WALTER lane empty · PREDICTIONS 51 rows, all 7 co
 - Outbox citation scan: the one packet PROME did cite (`2026-07-27_to-PROME_gamma-refresh`, 3 refs) proves the scan runs.
 - Retirement scan: an old file that IS cited (the VECTOR-4 screen, via HEN-46) was correctly excluded.
 - DOCKET rows naming HENRY read at their state cells (L477, 478, 487, 489, 490, 531, 543, 565, 612, 616, 700, 769, 773–776); only L616 is open on HENRY.
+
+## Fixes applied 2026-10-21 (Will: "yes go ahead and fix those")
+
+| Item | Status |
+|---|---|
+| C1 Operating Dashboard | **FIXED** — republished at the same URL (version 2); both URL forms confirmed to be artifact ebb53cd8. Source now in `dashboard/`. |
+| C2 Evals | **FIXED** — 3/3 PASS. Case 01 needs date-neutralizing (new item). |
+| C3 Charter stale claims | **FIXED** — all four; the LESSONS figures were worse than reported (the archive holds 35 sections, not 25). |
+| B2 PUBLISHED duplicate key | **FIXED** — warning count 0. |
+| New: STATUS headers | **FIXED** — charter § pointers (VOL REGIME, CREDIT EARLY-WARNING MONITOR, INVALIDATION TRIAD, CATALYST STACK) resolve again. |
+| Everything else in A–D | Open as listed. |

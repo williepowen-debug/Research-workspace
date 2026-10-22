@@ -37,7 +37,9 @@
 | Wed Nov 25 | 8:30 / 10:00 | Durable goods; new home sales | Oct | Census | — |
 | Thu Nov 26 | — | Thanksgiving, no releases | — | — | — |
 
-**Beyond the window (verified):** FOMC **Dec 8–9 with SEP** (Fed). November CPI **Thu Dec 10** 8:30 (BLS December list). GDP third estimate **Dec 23** (BEA).
+**Beyond the window:** FOMC **Tue–Wed Dec 8–9 with SEP** (Fed calendar, read 10/21). November jobs **Fri Dec 4** 8:30, November CPI **Thu Dec 10** 8:30, November PPI **Tue Dec 15** 8:30 (BLS December 2026 schedule list, read 10/21 ~21:40 ET). GDP third estimate Q3 + November PCE **Wed Dec 23** 8:30 (BEA news schedule, read 10/21 ~21:40 ET).
+
+*Disposition 2026-10-21, PROME closeout flag on "Dec 23": the date is a real release date outside the 30-day window, now verified at the BEA page. It was first written from a search summary and labelled "(verified)" before the BEA page had been read for December; the label was premature, the date was right. The BLS December dates were the same case and are now read at the BLS page too.*
 
 ---
 

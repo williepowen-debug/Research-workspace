@@ -65,4 +65,5 @@
 2. **F1:** read the finalized 10/21 dated vendor rows for HOZ26/CLZ26 (check volumes differ from 10/20 = not copy-forward) or BRENT's published figure; the near-line UNKNOWN must be closed, not carried.
 3. Pull FRED credit (HY/BB/CCC since 10/19) once the site is back; re-derive the HY >320 count.
 4. Refresh gamma before any market use; the POS cushion is ~0.1–0.2%.
-5. Carry-ins unchanged: Asia halt/cyberattack attribution, Muse/TLT-flow sources, DGS30 scope, ISM late-evaluator ambiguity, ISM date verification.
+5. **Refresh the Operating Dashboard** (`dashboard/`, same URL) after HEN-46 resolves. Date-neutralize eval case 01 (its June dates now read as 131 days stale). Remaining sweep items: `reports/2026-10-21_desk-sweep.md` (gamma cross-horizon guard, two dead scripts, 8 unfiled outbox packets, 16 retirement-eligible files).
+6. Carry-ins unchanged: Asia halt/cyberattack attribution, Muse/TLT-flow sources, DGS30 scope, ISM late-evaluator ambiguity, ISM date verification.

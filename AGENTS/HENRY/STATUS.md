@@ -6,7 +6,7 @@
 
 **Fragility eased over 10/20–10/21, but credit has not confirmed it.** SPX rose +0.86% over two sessions to 7,757.17 and is back **above** both estimated dealer-gamma flips (positive gamma, dealers damp moves), VIX closed 16.68 with the term structure in contango, and SKEW fell from 161.86 to 150.36. Against that: broad high-yield spreads are still above 320bp (329bp, FRED 10/19), the CCC tail is wide, and the positive-gamma cushion is only 8–13 SPX points (about 0.1–0.2%). By H4 (credit leads equity), the equity recovery is unconfirmed until spreads turn. No probability, threshold or trade changed.
 
-## GEX / GAMMA — AFTER-CLOSE RETRIEVAL OCTOBER 21
+## GEX / GAMMA REGIME — AFTER-CLOSE RETRIEVAL OCTOBER 21
 
 | Horizon / Cboe chain | Spot | Flip | Cushion | Net GEX per 1% | Put wall | Call wall |
 |---|---:|---:|---:|---:|---:|---:|
@@ -15,7 +15,7 @@
 
 **POSITIVE at both horizons; flip band 7,744–7,749. This REVERSES the 10/19 read** (NEGATIVE both, flips 7,756/7,762, −$41.2B/−$53.1B), which is superseded for current use. **Walls published this session:** both horizons agree on the #1 strikes and the put wall is clean at both; the 35d call wall is a near-tie, so it is quoted as a band. ⚠️ **The put wall (7,750) sits between spot and the flip band, so a ~0.2% down session puts SPX back below the flip.** Free-tier estimates on assumed dealer positioning; dollar magnitudes are assumption-dependent; OI vintage not separately certified; no proprietary-book validation. Sources: `research/2026-10-21_boot/{boot.txt,gamma14.txt,gamma35.txt}`, `workbook/PUBLISHED.tsv`.
 
-## TAPE / VOL INPUTS — OCTOBER 21 CLOSE (vendor, pulled 20:58 ET)
+## VOL REGIME / TAPE INPUTS — OCTOBER 21 CLOSE (vendor, pulled 20:58 ET)
 
 | SPX | VIX | VIX9D | VIX3M | VVIX | SKEW | 10Y index | KRE | USD/JPY |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -23,7 +23,7 @@
 
 SPX 10/20 close 7,712.57 (+0.28%). Cash-vol term structure in contango (9d < 1m < 3m). Vendor observations, **not Cboe-published closing certification**. VIX > 23 vol-control line NOT FIRED. VIOLET owns the vol broadcast. PROME's 20:15 ET dashboard (HEARTBEAT amendment #2) reads 10Y 5.13% / 2Y 4.81%; my 5.15% is the Cboe TNX index via vendor, a different basis.
 
-## CREDIT — FRED IN SITE MAINTENANCE TONIGHT
+## CREDIT EARLY-WARNING MONITOR — FRED IN SITE MAINTENANCE TONIGHT
 
 **FRED returned a maintenance page (HTTP 200, no data) for every series at 20:59 ET**, so this session has **no fresh primary credit pull**. Latest available cells, each with its date and source:
 
@@ -63,13 +63,13 @@ Vendor regular-session closes (10/21 last bar 15:59 ET), `research/2026-10-21_bo
 
 **What the calls must add:** AAL 08:30 ET — fuel per gallon vs its $3.75 assumption and any FY guide change citing fares (F4). LUV 10:00 ET — whether the July $3.70–3.75 assumption carried the same tax and hedge-premium basis as the $3.92 actual.
 
-**F1 (December matched HOZ26×42 − CLZ26, WQ-392):** 10/21 settlement-window tier-3 ESTIMATE **$95.05** (14:28–14:30 ET VWAP: HO 4.5757, CL 97.1306); minute closes 14:20–14:35 ranged $94.82–$95.09. **Inside ±$0.15 of $95 ⇒ F1 UNKNOWN** until a tier-1/2 settlement lands. 10/20 tier-3 $100.18 (the 10/20 daily row repeats 10/19's exact volumes on both legs, a copy-forward signature, so not tier-2). The vendor's "10/21" daily row is the evening session (621 / 5,880 lots) and is not gradeable. **BRENT's published estimate governs the shared F1.** For TERRY's held-VLO rule (same estimate): < $95 is notice only, < $90.16 is the SELL recommendation, $4.89 below tonight's estimate. **F5** NOT FIRED (AAL close $12.23, low $12.02 > $11.308). **F2** untouched (Shaybah drone intercepted, not a Jazan restart). **F3** SPENT. WALTER 016's correction (Russian diesel ban partially permitted, not lifted; №1252 producer restriction expires 10/31) changes no HEN-46 leg.
+**F1 (December matched HOZ26×42 − CLZ26, WQ-392):** 10/21 settlement-window tier-3 ESTIMATE **$95.05** (14:28–14:30 ET VWAP: HO 4.5757, CL 97.1306); minute closes 14:20–14:35 ranged $94.82–$95.09. **Inside ±$0.15 of $95 ⇒ F1 UNKNOWN** until a tier-1/2 settlement lands. 10/20 tier-3 $100.18 (the 10/20 daily row repeats 10/19's exact volumes on both legs, a copy-forward signature, so not tier-2). The vendor's "10/21" daily row is the evening session (621 / 5,880 lots) and is not gradeable. **BRENT PUBLISHED the shared series 2026-10-21 ~21:35 ET** (`AGENTS/BRENT/research/2026-10-21_henry-december-adoption/REPORT.md`, pushed d1445f5d4), adopting HENRY's bars on the WQ-420 native-tick basis: 10/15 $98.92 · 10/16 $99.45 · 10/19 $99.87 · 10/20 $100.18 — all NOT FIRED — and 10/21 **$95.0479**, inside the band, **UNKNOWN, BRENT concurs.** Tick normalization moved values by ≤ $0.0000016. BRENT's robustness note: with CL at its reported $97.15 settle, an HO settle ≥ $0.0007/gal below the window VWAP would put the CME value under $95. For TERRY's held-VLO rule (same estimate): < $95 is notice only, < $90.16 is the SELL recommendation, $4.89 below tonight's estimate. **F5** NOT FIRED (AAL close $12.23, low $12.02 > $11.308). **F2** untouched (Shaybah drone intercepted, not a Jazan restart). **F3** SPENT. WALTER 016's correction (Russian diesel ban partially permitted, not lifted; №1252 producer restriction expires 10/31) changes no HEN-46 leg.
 
 ## MACRO — CARRIED, NO NEW US RELEASE 10/20–10/21
 
 September CPI (10/14) headline +0.6% m/m / +3.7% y/y, core +0.3% / +2.6%; September PPI (10/15) final demand +1.3% m/m / +6.3% y/y. Energy drove over half the CPI headline. Full table and limits in `research/2026-10-21_boot/STATUS-before.md` § MACRO and KB ML-HEN-178/179. **No current Fed probability stated** (venue odds are ORACLE's). Next releases: `domain/ECON_CALENDAR.md`, rebuilt and agency-verified tonight.
 
-## THESIS / INVALIDATION
+## THESIS / INVALIDATION TRIAD
 
 | Axis | Current judgment |
 |---|---|
@@ -99,7 +99,7 @@ September CPI (10/14) headline +0.6% m/m / +3.7% y/y, core +0.3% / +2.6%; Septem
 | VIX kill leg | 16.68 [vendor 10/21] | <17 / <16 / <15 one session | **YELLOW band met, one session (10/21)**; not <15 |
 | HY kill observable | 329bp [FRED 10/19] | <290 / <270 / <260 ×5 | NOT FIRED |
 
-## CROSS-DESK / CATALYSTS / GAPS
+## CROSS-DESK / CATALYST STACK / GAPS
 
 - **Catalysts:** AAL Q3 before the open Thu 10/22 (call 08:30 ET) and LUV call 10:00 ET → HEN-46 resolves (DOCKET L769). FOMC 10/27–28 (no SEP). GDP advance + September PCE 10/29. ECI 10/30 (LABOR). BOJ 10/30. Russian №1252 producer restriction expires 10/31 (DOCKET L771). NFP 11/6, CPI 11/10, PPI 11/13.
 - **Held-VLO (TERRY's card):** BRENT's dated judgment (10/14, retained 10/20) is WAIT on new energy capital; product scarcity may outlast crude recovery. HENRY does not re-derive the crude read. Brent December ~$108.8 settle 10/21 per PROME HEARTBEAT (BRENT owns).

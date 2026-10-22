@@ -40,4 +40,10 @@ Cyclical: inflation pressure persists, 10Y above 5%. AI-capex: HEN-36 mechanism 
 None. No trade, no Telegram send.
 
 ## HONEST SCOPE
-Claude Code, Opus 5.5 (`claude-opus-5-5`); native session ID not exposed. Root and desk instructions read explicitly. No subagents. PROME (prome-56) live concurrently; no pull this boot because other desks have uncommitted work in the tree. Packets delivered as files; recipient consumption UNKNOWN. Gamma is a free-tier proxy; all tape values are vendor quotes, not exchange-certified closes.
+Claude Code, Opus 5.5 (`claude-opus-5-5`); native session ID not exposed. Root and desk instructions read explicitly. Subagents: three Opus eval runners only (no rubric in their context); no other delegation. PROME (prome-56) live concurrently; no pull this boot because other desks have uncommitted work in the tree. Packets delivered as files; recipient consumption UNKNOWN. Gamma is a free-tier proxy; all tape values are vendor quotes, not exchange-certified closes.
+
+## Later in the session (Will: sweep, then "yes go ahead and fix those")
+- **Desk sweep** → `reports/2026-10-21_desk-sweep.md` (6 owed, 5 broken, 7 stale, 2 format; controls listed).
+- **Fixed:** Operating Dashboard republished at the same URL after 89 days (source now in `dashboard/`) · evals re-run 3/3 PASS (first since 7/10; case 01 needs date-neutralizing) · four stale charter claims replaced · STATUS section headers restored to the names the charter cites · PUBLISHED.tsv duplicate key cleared.
+- **Also:** BRENT adopted and published the December F1 series (10/21 $95.0479 stays UNKNOWN, BRENT concurs) · correction COR-20261021-16 receipted NO-OP · PROME's "Dec 23" calendar flag checked: real BEA date, but my "(verified)" label had been premature; now verified at BEA and BLS.
+- **Still open:** gamma cross-horizon guard, two dead scripts, eight unfiled outbox packets, 16 retirement-eligible files, WALTER signals 018/020 logged but not filed (sender hasn't committed them).
