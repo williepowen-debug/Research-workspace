@@ -33,7 +33,7 @@ NEXUS flagged to DAEDALUS PR#8 by packet `AGENTS/DAEDALUS/inbox/2026-10-22_from-
 
 ## Reads
 - Plan read: DONE 2026-10-22 10:00 ET (coldreader, Sonnet): SCORE 11 ✅ · 6 ⚠️ · 2 ❌; verdict "edit with the named ❌ fixed". ❌ A (acceptance asked for a page count the sentence never required) → sentence v2 requires it. ❌ B (DAEDALUS packet named as sent but absent) → written and committed. Ledger: session scratchpad `wq480_plan_read.md`.
-- Result read: PENDING (coldreader, Sonnet, on the edited `.claude/agents/desk.md`).
+- Result read: DONE 2026-10-22 10:01 ET (coldreader, Sonnet, on the edited `.claude/agents/desk.md`): SCORE 8 ✅ · 4 ⚠️ · 0 ❌; verdict RELEASE. Installed text = AFTER v2 verbatim; only the one hunk per file; both copies byte-identical (3,869 B); the command ran verbatim from `PROME/` and the rc 2 restart clause was confirmed live. Ledger: session scratchpad `wq480_result_read.md`. Episode: two reads, early stop at ❌ = 0 (no third read).
 
 ## Declared residue (plan read ⚠️, WQ-178 — not fixed unless named)
 1. ⚠️ cwd ambiguity (verbatim command failed from `PROME/`) — FOLDED into v2 (`cd "$(git rev-parse --show-toplevel)" &&`), on the reader's plan-stage recommendation.
@@ -43,3 +43,9 @@ NEXUS flagged to DAEDALUS PR#8 by packet `AGENTS/DAEDALUS/inbox/2026-10-22_from-
 5. ⚠️ cost (≈20 calls for a spawned NEXUS; page size 6,000 chars) undisclosed — disclosed in Acceptance above and in the DAEDALUS packet; not in the prompt sentence by design (the desk does not need the figure).
 6. ⚠️ "2%" / "under one page" bases — stated in Acceptance (2.3%; one page = 6,000 chars).
 Counterexamples the reader devised (path error read as truncation · concurrent edit mid-read · acting on a half-read charter) are each answered by a v2 clause (cd prefix · restart at offset 0 · "do not act on an instruction you have not read").
+
+## Declared residue (result read ⚠️ — none fixed; the file is byte-stable after the read)
+7. ⚠️ Missing-reader fallback unspecified: if `boot_read.py` is absent, "report missing dependencies and continue independent authorized work" meets "do not act on an instruction you have not read" with no stated path (paged Read vs stop). Carried to the COMPLETION_SPEC alignment row (DOCKET, next-PROME-process-pass) as a clause to settle in both carriers.
+8. ⚠️ "those four files" vs "that desk's boot instructions": whether a separate boot file (where one exists) gets the bounded reader is unstated. Same row.
+9. ⚠️ "WQ-480 B, Will 2026-10-22" is opaque to a desk; `eof: true` is JSON `"eof": true`. Cosmetic; not fixed.
+10. ⚠️ `desk.md` frontmatter description still says the file carries the COMPLETION_SPEC preamble (now a superset). Same row as residue 3.
