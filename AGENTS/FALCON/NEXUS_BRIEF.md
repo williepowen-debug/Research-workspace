@@ -1,37 +1,37 @@
 # FALCON — NEXUS Brief
 
-**Status:** 🔴 **B 1 / C 14 / D 85, HELD at the 10/14 7-day review — but two things lit.** ① **Ship losses 3 → 5:** GFS PRIDE (container ship) **sank 10/13** in Hormuz (Singapore MPA; IMO "Sunk") and **CAPE DAO** (bulker, struck 9/23) is "Sunk" on the IMO table as at 10/14 — both verified by own fetch of the IMO primary; both non-tankers, attacker unattributed ⇒ **class (ii)** ⇒ **RULED HOLD by Will 10/14 22:01 ET (WQ-431)**. ② **Casualty ratchet RED:** Riyadh airport 10/10 **12 killed / 309 injured (GACA)** ⇒ rolling 30d killed 21 vs 6 ⇒ EXIT §3 **7 of 8** (indicator, no mark move). **Production rung D 85→92 NOT FIRED** (Dhahran HQ 10/13 = office; Abqaiq 10/08 = satellite heat only; Haradh intercepted). GATE-FALCON-001 leg 2 NOT FIRED; next review **10/21**.
+**Status:** 🔴 **B 1 / C 14 / D 85, HELD at the 10/21 7-day review.** Busiest week of the ship war (≥10 attacks to 10/17, UKMTO) but no registered line crossed: no 72h halt (hulls hit 10/16, 10/18, 10/20, 10/21), no dated framework, **Shaybah 10/21 = drone INTERCEPTED, debris killed 2 outside the perimeter, operations unaffected (MoE) ⇒ production rung D 85→92 NOT FIRED.** ① **Loss census 5 → 4 confirmed + 1 CONTESTED** — IMO now reads CAPE DAO "Partially sunk" (was "Sunk" 10/14); JMIC disputes. ② **KOTC pattern-watch tripped:** AL DASMA (Kuwait) 10/20 = 3rd Kuwait hull since 9/28. ③ Casualty ratchet RED (30d killed 24 vs 6). GATE-FALCON-001 leg 2 NOT FIRED; next review **10/28**.
 **Domain:** Iran/Gulf, Hormuz, Houthi/Red Sea, Iraq/PMF theater inputs.
-**As of:** 2026-10-14 22:1x EDT | **STATUS commit:** `51fbac4d3` *(prior brief: 2026-10-14 22:2x EDT, STATUS `c5b62c5f4`)*
+**As of:** 2026-10-21 20:34 EDT | **STATUS commit:** `ab9b1cea0` *(prior brief: 2026-10-14 22:1x EDT, STATUS `51fbac4d3`)*
 
 ## CROSS-DOMAIN
 
 | To | Signal | Priority | Mechanism |
 |---|---|---|---|
-| BRENT / HAWK / PROME | **Abqaiq 10/08 (IN-class site):** own FIRMS — 24 detections / 4 sensors at the flare point 09:05–12:10Z, max 62 MW, day-sum 626 MW vs 40-day median 6.3 (largest day by ~6×), out by 22:08Z; same date: Soar Atlas imagery, Tasnim "massive fire", YPA "two fires… fuel storage tank". No Saudi/Aramco/coalition/named-wire word (KB-280). ➕ **Geometry (KB-293): both clusters sit on the processing facility's two mapped FLARE stacks (one inside the OSM fence), not the tank farm or GOSP-6 ⇒ emergency-flaring signature after a plant upset; cause unknown** | P0 watch | A counting source naming an Abqaiq processing unit with hostile cause FIRES D 85→92, C 14→7 (same hour). A storage tank would be OUT. Heat ≠ cause ≠ barrels |
-| BRENT / HAWK | **Ghawar follow-up:** Shedgum gas-plant fire subsided (max 139 → 12 MW, 10/10→10/14); the Ain Dar-area upstream heat faded to dark with it — the 10/10 GOSP-flaring inference (crude still flowing) held its test, still not proof. Hawiyah spike 10/11 (196 MW). Tanajib = gas plant (KB-282) | P1 | Gas plants OUT; nothing measured on output |
-| HAWK / BRENT / PROME | **Houthi target set moving to Aramco:** Dhahran admin/HQ tower hit 10/13 (MoE "limited fire", 0 casualties; Reuters sources "extensive damage"; "operations continuing" NOT verified at an Aramco primary); Haradh BM intercepted; Saba "sell Aramco shares" threat 10/14; Riyadh refinery claimed 10/14 (unconfirmed) | P0 watch | Offices/refineries OUT of the rung; the threat names "oil facilities" |
-| HAWK / BRENT / HENRY / WALTER | **Hull war, worst week:** IMO table (as at 10/14: 113 incidents, 24 seafarer deaths) names 22 October hulls — six on 10/11 (incl. EVER VICT, DP WORLD KAVERI, ANGOLA PROSPERITY), three on 10/13 (GFS PRIDE sunk, GFS GISELLE, AL SAADIYAT); container ships now targeted; PETRO DOLPHIN drone-hit **inside Sohar anchorage** 10/11 (2 missing). IRGC mine claims name no hull; no mine detonation established | P0 | Class (ii) ×2 ⇒ RULED HOLD (WQ-431). Four loss instruments never summed (FALCON 5 · IMO 3 · UKMTO 5 · CENTCOM "10 destroyed") |
-| HAWK / HENRY | **Casualty ratchet RED rate-step + ORANGE (i):** killed 21 (9/15–10/14) vs 6; injured 376 vs 151; class step unfired (no US/GCC-military death) ⚠️ [10/14 self-catch] the "no US death since 6/27" baseline is FALSE — 2 US service members KILLED in Jordan 7/17 (CENTCOM; CAS-2026-032, KB-294); the MILITARY_US class-step is RULED B by Will 2026-10-14 22:18 ET (WQ-434, verbatim "Approve 434", PROME/proposals/2026-10-14_wq434-RULED.md): the class-step is anchored to 9/8 — a US death on/after 9/8 = RED. | P1 | Indicator only; EXIT §3 7 of 8 |
-| HAWK / BRENT | **War-risk:** Hormuz **6–10%** of hull value (FT brokers ~10/06, second-hand) — quoted before the 10/11–10/13 run; WC Saudi ~3% is **9/24** (not 9/25), no newer quote; JWC unchanged | P2 | Registered falsifier still expired; data clock not advanced |
-| HAWK / DAEDALUS / PROME | **Bab:** TankerMap completed UTC days 10/08–10/14, none qualified (10/14: 71 vs ref 76); no Houthi act on shipping; **Perim reportedly retaken by Yemeni government forces 10/09** (CTP-ISW, claim-only). L619 RULED (WQ-432): KEPT PROVISIONAL + R1 vintage rule + clarifications, encoded in the letter | P1 | Watch-only gate; next review_by 10/21 |
-| HAWK | Diplomacy: Rezaei 10/11 US reply "insufficient", Iran "no longer… responding"; Oman–Pakistan 10/14 (unconfirmed by helper); Netanyahu + Trump both disclaim a pre-election strike; no US strike on Iran since 9/8 | P2 | C→B needs a DATED framework ⇒ no |
+| BRENT / HAWK / PROME | **Saudi energy targeting reaches the fields:** Shaybah 10/21 intercept (2 killed by debris outside the fence, ops unaffected, no attacker named); Yanbu BM intercepted 10/16, no damage (Rapidan/Reuters); IRIB pipeline + Saree Yanbu/Shaybah claims = claim-only; Reuters 10/15 "three processing hubs damaged since the war began" = historical, no asset/date (KB-299/300) | P0 watch | A counting source confirming a hostile strike on a production-class site FIRES D 85→92, C 14→7 (same hour). Intercept debris outside the fence = OUT |
+| HAWK / BRENT / HENRY / WALTER | **Hull war widens beyond Hormuz:** IMO (as at 21 Oct: 119 incidents, 24 deaths) adds ST3 + LOYALTY 68–78 NM NE of **Al Jubail** 10/16, JIF BARRACUDA (tug) 10/18, AL DASMA 10/20; UKMTO 10/21: tankers hit off Bukha and **SE of Al-Faw (Iraq)**. JMIC 106: Arabian Gulf SUBSTANTIAL. No new sinking; IRGC mine claims unnamed (JMIC "no substantiation"); CENTCOM attributes GFS PRIDE to an Iranian projectile (KB-296/298/301) | P0 | Which-sea: "MT ST 3 in Hormuz" = Al Jubail. Four loss instruments never summed |
+| HAWK / PROME | **KOTC concentration:** AL FUNTAS 9/28 · KAZIMAH III 10/1 · AL DASMA 10/20 (2nd hit) — inbox note sent (KB-297) | P1 | Pattern-watch, no mark consequence; a 4th ⇒ proposed registered watch |
+| HAWK / HENRY | **US posture:** ordered departure of non-emergency staff from Saudi 10/21; "quiet" regional footprint reduction (CBS); third carrier + ~10k personnel due by late Nov (Fox relay); no US strike on Iran in 44 days; Kharg options = anonymous consideration; Konarak = claim + US denial (KB-303/304) | P1 | Prelude-to-strike vs exposure-reduction: both readings open |
+| HAWK | **Diplomacy:** Munir in Tehran 10/20, Qatar/Russia visits; Rezaei "not a single gram of enriched uranium will be removed"; Araghchi "table remains in place"; no date. ORACLE 10/15: blockade-end-by-12/31 37.9% (KB-302) | P2 | C→B needs a DATED framework ⇒ no |
+| HAWK / HENRY | **Casualty ratchet RED:** 24 killed 9/22–10/21 vs 6 (adds Shaybah 2, KFIA Dammam 1 on 10/21); class-step unfired | P1 | Indicator only; EXIT §3 7 of 8 |
+| HAWK / BRENT | **War-risk:** all 5 WARRISK rows EXPIRED (Hormuz 6–10% ~10/06; WC Saudi ~3% 9/24); no post-10/11 quote found | P2 | Registered falsifier expired; data clock not advanced |
+| HAWK / PROME | **Bab:** TankerMap 10/21 `100×80 = 8,000` vs `65×72 = 4,680`, none of 10/15–10/21 qualified; 7dma ~11.4; no Houthi act on shipping (KB-305) | P1 | Watch-only gate; next review_by 10/28 |
 
 ## VIEW
 
-- **Rail cap, disclosed:** the worst week at sea and on Saudi soil moved no mark, because D sits below only the production rung and 7 of 10 matrix vectors are at ceiling. The HOLD is the letter working, not a judgment that nothing changed.
-- **Class (ii) is the regime now:** two non-tanker total losses in 21 days, both UAE-linked, both unattributed. A rung on it would fire repeatedly; the step signals remain a counting-source production hit (→92) or a (iii-A) tanker loss.
-- **Production:** every confirmed Saudi energy-company hit this week is OUT by class; the one IN-class candidate (Abqaiq) has heat and claims, nothing that counts.
-- **Composition (carried):** Yanbu 9/11–9/28 was a route loss, not a barrel loss; IEA's September Gulf crude exports (+4.4 mb/d m/m) are a recovery print.
+- **Rail cap, disclosed (carried):** the marks hold because D sits below only the production rung; 7 of 10 matrix vectors are at ceiling.
+- **The hull war is no longer a Hormuz story:** Al Jubail ×2 and Al-Faw put attacks in the northern and Saudi-coast Gulf; Kuwait and GFS hulls are hit repeatedly.
+- **Production:** two intercepts aimed at Saudi oil sites in a week (Yanbu, Shaybah) and no confirmed facility damage; the rung needs a counting source, not a claim or debris.
+- **Composition (carried):** route loss, not a demonstrated barrel loss; IEA September Gulf crude exports 13.9 mb/d.
 
 ## CALIBRATION
 
-**1C / 3F / 1P / 0V / 1 OPEN** — FAL-06 @70%, resolves 2026-11-05, no route fired (no force majeure, no stated offline production, no vendor aggregate print ≥20% down). Dated-search precondition ADOPTED 10/14 (WQ-433): the resolving search runs ON 11/05. Convergence 43/50 saturated.
+**1C / 3F / 1P / 0V / 1 OPEN** — FAL-06 @70%, resolves 2026-11-05 (dated search on the day), no route fired. Convergence 43/50 saturated.
 
 ## NEXT DECISION POINT
 
-**RULED 10/14 (WQ-431/432/433, Will "Approve 431, 432 and 433").** **10/21:** gate + 7-day review. **11/05:** FAL-06 resolves. No trade or new approval request from this desk; PROME updates `G:GATE-FALCON-001` review_by → 10/21.
+**10/28:** gate + 7-day review. **11/05:** FAL-06 resolves. No trade or approval request; PROME sets `G:GATE-FALCON-001` review_by → 10/28.
 
 ## WATCH
 
-A counting source on Abqaiq / Ain Dar / Shedgum crude units / Khurais (fires the rung) · a post-10/11 war-risk quote (WC Saudi falsifier) · Kpler/Vortexa Saudi weekly export print · UKMTO ↔ IMO hull mapping for 10/11 and 10/13 · PETRO DOLPHIN missing crew · any Houthi act on a hull in the Bab window.
+A counting source on Abqaiq / Ain Dar / Shedgum crude units / Khurais / Shaybah / Yanbu crude terminal (fires the rung) · Cape Dao status at IMO/JMIC · a 4th Kuwait hull · US strike decision vs the 11/3 pledge · a post-10/11 war-risk quote · UKMTO ↔ IMO hull mapping since 173-26 · any Houthi act on a hull in the Bab window.
