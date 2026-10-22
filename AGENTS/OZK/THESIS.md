@@ -167,6 +167,8 @@ Under-provisioned ~35-40% vs peers while running charge-offs at 3x the norm. The
 
 ## WHAT WOULD INVALIDATE THIS THESIS
 
+**Section stamped 2026-10-22 (Q3 print + call read; FDIC FLNG 12022).** Items 1–5 were written against the pre-Q3 thesis and are now spent or near-spent (state table below). **Items 6–8 (added 2026-10-22, D:L793) test the v1.7 residual thesis and each resolves before the Q4'26 print.**
+
 Concentrated kill criteria. If any of these fire, the short's foundation is damaged. Items 1 and 3 are most load-bearing; items 4-5 are directional signals that shift probability weights without killing the thesis outright.
 
 **1. Past-due regime reverses.** If Q2 26 past-due stabilizes or declines (<$400M vs Q1 26's **$487.5M / 1.48%** [Call Report; threshold set 4/23 on the $465M supplement basis, kept unchanged]), the migration-velocity pipeline is not flowing as predicted. The ">10× in 6 months" pattern ($46M → $207M → $487.5M across Q3 25 → Q4 25 → Q1 26) needs continuation, not just the two observed steps. Adjudicated at Q2 (see state table). Cross-ref: OZK-06 in `workbook/PREDICTIONS.tsv` (upside trigger >$550M, 40%).
@@ -179,15 +181,29 @@ Concentrated kill criteria. If any of these fire, the short's foundation is dama
 
 **5. Office / life sci structural turn.** Office cap rates compress to <8.00% (vs current 9.10%) OR Sorrento Mesa vacancy declines materially (vs current 35%). The vacancy-bottleneck argument (see WEAKNESSES.md C2) breaks if demand returns structurally. Not a near-term risk given the data, but worth monitoring JLL / CBRE quarterlies.
 
-**Current state (RaDD refreshed 2026-10-12; other rows retain their stated vintages):**
+**Forward tests of the v1.7 residual thesis (added 2026-10-22; the residual claim is "OREO and problem-credit marks are untested by sales and losses stay elevated through 2027"):**
+
+**6. Special-mention exit was benign — Q3 10-Q, expected ~Thu 2026-11-05, check-by Mon 2026-11-16.** Fires if the 10-Q (credit-quality tables, narrative or subsequent events) shows that **≥$200M** of the Q3 special-mention decline (**$616M → $303M, −$313M**, MC Fig 22) left by **upgrade to pass or payoff**, rather than to substandard, nonaccrual, charge-off or OREO. Only Boston land ($105.9M → substandard) is itemized so far. ⚠️ Net quarter-end balances cannot grade this (a transfer can be offset by runoff — `LESSONS.md`); if the 10-Q does not itemize the flow, record **UNKNOWN**, not fired.
+
+**7. OREO marks hold on sale — window now → Q4'26 print (~2027-01-19).** Fires if OZK sells, at **≥95% of its 9/30/26 carrying value**, RESG OREO properties with combined 9/30 carrying value **≥$100M** (of the $416.0M RESG OREO in the Q3 roster), evidenced by a filing, the Q4 print/call, or a recorded deed with a price. Sales at ≥95% of carrying refute "marks untested and too high" directly. A sale well below carrying is the opposite case and stays a v1.7 reversal trigger.
+
+**8. Debt-on-debt charge-offs were a one-off — Q3 Call Report, ~Nov 1–10, check-by Mon 2026-11-16 (needs the FFIEC login renewed by 11/5).** Fires if `RIAD5409` (YTD) at 9/30/26 still reads **$42,437K** — i.e. **zero** Q3 charge-offs on the debt-on-debt book after the H1 first-ever print. This tests the successor pillar, not RESG. ⚠️ The Call Report scope stays LOG-ONLY for **predictions** (Z6 never re-grades off it); this item moves only this section's state table.
+
+**Consequence if they fire:** 6 + 7 together = the desk proposes retiring RESERVOIR to Will (Will-gated; nothing auto-retires). Any one alone = record it here and in `WEAKNESSES.md`; conviction stays LOW. No item here moves a prediction, weight or position.
+
+**Current state (stamped 2026-10-22 — Q3 print + call; rows 1–5 re-read at Q3, rows 6–8 open):**
 
 | # | State | Evidence |
 |---|---|---|
 | **1** | ⚖️ **FIRED-LITERAL · mechanism UNDETERMINED** *(narrowed 9/24, CATO OZ2 — was "adjudicated non-disconfirming")* | Q2 past-due **$298M** [supplement, 7/21] and **$323.7M / 0.99%** [Call Report, `RCON1406`+`1407`+`1403`, REPDTE 20260630] — both **<$400M**, so the literal condition fired on **every** basis. But the decline is **entirely the 30-89 transit bucket** (`RCON1406` $190,947K → $23,273K, −88%) while **nonaccrual ROSE** (`RCON1403` $296,575K → $300,416K) and **OREO nearly doubled** (`RCON2150` $149,570K → $288,135K); **NPA +31.9% QoQ** ($446.1M → $588.6M). The endpoints are **consistent with** migration-through but **equally fit** cures/payoffs plus inflow from other loans (CATO counterexample reproduces every figure with zero transfer from the Q1 30-89 bucket) — **so this fired warning is not shown to be harmless, only ambiguous.** The ambiguity OZK-06's note pre-registered is unresolved. Full decomposition + implied roll-forward → `CALL_REPORT_2026Q2_LOG.md` §6. ⚠️ **The criterion grades a transit bucket and is therefore mis-specified; a bucket-invariant re-spec is PROPOSAL P-OZK-4, Will-gated, NOT applied — the criterion's text above is unchanged.** |
 | **2** | 🔴 **NOT fired — moved AGAINST the kill** | Q2 NCO **0.69% ann.** (Call Report `RIAD4635−4605` YTD-differenced = **$56,254K**; 0.69% on both period-end and RC-K average loans) — above the ≤55bps line, not below it. ⚠️ Q1's recorded "0.56% — 1bp above" is **average-loans basis**; period-end gives **0.55%**, exactly AT the line. Basis now stated; figure unchanged. |
 | **3** | **Capital-support mechanism MET; exact equity-form leg UNKNOWN** | Actual fresh capital + executed extension evidenced by 10/12 issuer 8-K. This is substantive disconfirmation of Wave 3, not negotiation color. The original letter says fresh **equity**, while the issuer says **capital**; financing/legal form is not disclosed, so no unsupported literal equity grade. No material new lease established in this read. Evidence → `research/threads/2026-10-12_RADD_BRIDGE_OUTCOME.md` |
-| **4** | 🟢 **NOT fired (as of 9/24)** | No redemption/refi notice at FDIC FLNG through 9/24 (`scripts/flng_watch.py`); read Fri 10/2 after the reset. |
-| **5** | 🟢 **NOT fired** | Cap rates stable-to-widening; Sorrento Mesa vacancy not materially improved (last checked pre-Aug; S. SF lab vacancy >30% per TRD 9/17). |
+| **4** | 🟢 **NOT fired (as of 10/22)** | Branch (a) retain + reset: issuer-confirmed 6.14% for Q4-26 (Q3 MC p.35). No redemption/refi notice at FDIC FLNG through 10/22 (only 12019, 12022 after 11981). Next: the 2027-01-01 par-call notice window 11/2 → 12/22. |
+| **5** | 🟢 **NOT fired — not re-checked since pre-Aug** | Cap rates stable-to-widening; Sorrento Mesa vacancy not materially improved (last checked pre-Aug; S. SF lab vacancy >30% per TRD 9/17). CEO 10/21: "lab demand is not what it was". |
+| **Q3 re-read of 1–3 (2026-10-22)** | 1: still FIRED-LITERAL — Q3 past-due fell further to **$88M / 0.26%** (MC Fig 22). 2: **window closed unfired** — Q3 NCO **0.53%** is under 55bps but Q2 was 0.69%, so "sustained sub-50bps through Q2–Q3" never held. 3: unchanged; CEO calls RaDD "[a] pass credit" (10/21 call). | Q3 sources: FDIC FLNG 12022; `research/threads/2026-10-21_Q3_PRINT_STAGE1_GRADE.md`, `research/threads/2026-10-22_Q3_CALL_STAGE2_READ.md` |
+| **6** | ⏳ **OPEN** — resolves at the Q3 10-Q (~11/5, check-by 11/16) | ≈$207M of the −$313M SM flow not itemized in writing |
+| **7** | ⏳ **OPEN** — window to the Q4'26 print (~1/19/27) | No RESG OREO sale priced in Q3; OREO $420M bank-wide |
+| **8** | ⏳ **OPEN** — resolves at the Q3 Call Report (~Nov 1–10, check-by 11/16) | H1-26 YTD `RIAD5409` $42,437K, first nonzero in 18 quarters (`workbook/CALL_REPORT_SERIES.tsv`) |
 
 *Call Report figures logged under the pre-registered LOG-ONLY scope (CALENDAR "~Aug 1-10"; **Z6 never re-grades off this source**). No prediction was re-graded, no threshold moved, no weight changed by this pass.*
 

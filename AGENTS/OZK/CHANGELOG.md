@@ -2,6 +2,15 @@
 
 Tracks changes to `OZK/THESIS.md` and structural shifts in the OZK bear case. Mirrors `AGENTS/REGINALD/thesis/CHANGELOG.md` format. Sub-docs (IQHQ_PLAYBOOK, SEVEN_CREDIT_DEEP_DIVE, RESG_MIX_DETERIORATION, IQHQ_SECONDARY_EXPOSURE, CIB_MARGIN_COMPRESSION) carry the deep math; this log tracks thesis-level deltas only.
 
+## 2026-10-22 (12:3x ET) — Forward falsification tests added (NO VERSION BUMP — v1.7 stands; zero weights, thresholds, probabilities or conviction moved)
+
+**Trigger:** DAEDALUS bank-desk review finding 1 (🔴), packet `inbox/2026-10-22_from-DAEDALUS_bank-review-fixes.md` (D:L793); Will approved the work order in this session 12:28 ET.
+
+| Area | Old view | New view |
+|---|---|---|
+| WHAT WOULD INVALIDATE | Items 1–5 written pre-Q3; nothing could falsify the v1.7 residual thesis before the ~Jan print | Section stamped 2026-10-22. **Added 6** (SM exit ≥$200M to pass/payoff, Q3 10-Q, check-by 11/16) · **7** (RESG OREO ≥$100M carrying sold at ≥95% of carrying, by the Q4 print) · **8** (`RIAD5409` YTD flat at $42,437K, Q3 Call Report, check-by 11/16). 6 + 7 together = desk proposes retirement to Will |
+| State table | Rows 4–5 as of 9/24 / pre-Aug | Rows re-read at Q3: item 2 window closed unfired; item 4 not fired through 10/22; item 5 flagged not re-checked since pre-Aug; rows 6–8 OPEN |
+
 ## 2026-10-22 (later) — v1.7: conviction re-graded 🔴🔴 HIGH → 🟡 LOW (P-OZK-7, Will-approved)
 
 **Authority:** WQ-483, Will verbatim 2026-10-22 11:24 ET in PROME: *"483 approve(as long as you recommend this)"* — the desk does recommend it (proposal packet c8d75b161; `research/threads/2026-10-22_Q3_CALL_STAGE2_READ.md` §5).
