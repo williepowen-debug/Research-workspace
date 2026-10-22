@@ -246,6 +246,7 @@ def credit(verbose=False):
         for line in out.splitlines():
             if any(m in line for m in ("BB", "HY", "CCC", "GAP", "HYG", "flag", "✓",
                                        "\u26a0", "\u26a0\ufe0f", "ERROR", "FLAGS",
+                                       "\u26d4", "CANNOT-EVALUATE",
                                        "🔴", "🟠", "🟡")):
                 print(f"  {line.strip()}")
 

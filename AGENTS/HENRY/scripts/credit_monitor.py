@@ -151,6 +151,10 @@ def build_flows():
         hist = yf.Ticker(ticker).history(period="30d")
         if hist.empty:
             return {"error": "no data"}
+        # after the bell the vendor's in-progress daily row can carry a NaN close
+        hist = hist[hist["Close"].notna()]
+        if hist.empty:
+            return {"error": "no non-NaN closes"}
         closes = hist["Close"]
         vols = hist["Volume"]
         last = float(closes.iloc[-1])
@@ -198,12 +202,24 @@ def run(days=140):  # ≈95 trading obs — enough for the 63-obs (~3mo) bifurca
     disp = build_dispersion(days)
     flows = build_flows()
     all_flags = disp.get("flags", []) + flows.get("flags", [])
+    # A failed instrument is not a calm market (2026-10-21: FRED maintenance page
+    # returned no data and HYG came back NaN, yet the readout said "credit calm").
+    failures = []
+    if "error" in disp:
+        failures.append(f"dispersion: {disp['error']}")
+    for t, s in flows.get("etfs", {}).items():
+        p = s.get("price")
+        if "error" in s:
+            failures.append(f"{t}: {s['error']}")
+        elif p is None or p != p:  # NaN check
+            failures.append(f"{t}: price missing/NaN")
     return {
         "as_of": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
         "dispersion": disp,
         "flows": flows,
         "alert": bool(all_flags),
         "flags": all_flags,
+        "cannot_evaluate": failures,
     }
 
 
@@ -244,7 +260,11 @@ def fmt(report):
         L.append("  ⚠ FLAGS:")
         for fl in report["flags"]:
             L.append(f"    → {fl}")
-    else:
+    if report.get("cannot_evaluate"):
+        L.append("  ⛔ CANNOT-EVALUATE — instrument failed; absence of flags is NOT an all-clear:")
+        for fl in report["cannot_evaluate"]:
+            L.append(f"    → {fl}")
+    elif not report["flags"]:
         L.append("  ✓ No flags — credit calm, dispersion stable, income bid intact.")
     L.append("=" * 60)
     return "\n".join(L)

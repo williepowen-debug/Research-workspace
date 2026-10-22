@@ -50,24 +50,19 @@
 
 ## Session Notes
 
-### CHANGES SINCE — 2026-10-19 first shortlist and event audit
+### CHANGES SINCE — 2026-10-21 after-close boot (Claude Code, Opus 5.5)
 
-- First501-nameconditionalstudy preserved at research/2026-10-19_repeat-losers/RESULT.md sha7667de05…; baselineprimaryMOS/HII/ADM/CPRT,secondaryMGM/MCD/PCAR. StrongerpairssecondaryMGM/WYNN,MCD/SBUX;primary4unmatched. OriginaleightcaseCOHORTsha278210be…unchanged; nofinancingcause/trade/sizing/monitor/helper.
-- LatestWilltonighttarget:credibleshortlist+initialexplanation+sectorrelative+exclusions+gaps. Deliveredreadable research/2026-10-19_event-audit/SHORTLIST.md and technicalRESULT,21SECfilings/49event-adminentries/216scenario-conditionrows/222sourcefiles. AllchecksPASSincludingraw-absentisolatedreproduction. No movingendpoint/reselection; frozenOct19close.
-- MOSmain-events+worst20/60retainedreturns−20.67/−19.77%,BOTH4/5and8/15;ADM−0.35/−9.22%,3/5and11/16;ADMworst-only−0.35/−2.42%. Persistentwithinmainretainedsample,notrobustcausalclaim;broadhalo60BOTH13/14respectivelybeloworiginal15floor.
-- HIIworst-only20/60+0.31/+0.75%althoughup-daylossmajoritiespersist;July29lossbefore17:45ETaward. CPRT60earnings-excluded+1.09%,worst-only+2.62%;20eventBOTHonly3. HII/CPRT60sector-relativewealth+2.95/+7.61%;MOS−18.84/ADM−9.63%. Do not confuseconditionalrepetitionwithsectorunderperformance.
-- ExplicitCPRTerratumtofrozenscreenline72:ACVcompletedOct16;annualJuly31filedSep29showsnewJan2031unsecured$1.25BfacilityreplacedoldDec2026. July31unused$1.2275B/complianceisnotpostdealcash/drawability;LIQUIDownsbridge. LIQUIDflagindependentlyverified;earlierproposed-onlytextversionpreserved,erratumcurrent.
-- MOSsulfur/production/FloridaWARN199layoffsoperatingalternatives;notificationOct14notsecondaryletterOct5. CompletedMOS$2B/ADM$1Bnotes counterblanketdenial;raisedHII/ADMguidancecounterevidence. Unknownreleaseclockunions/source403/foreign404/limitednewscaptureexplicit. Removinggoodnewsdayscanmechanicallyworsenretainedreturn,notcausalestimate.
-- BoundednewpeersICLstrengthpasses(20/60−8.61/−6.64%,20MOSBOTH3/7),periodendshares/sizeunverified;FCTendpointnull,Wilmar20USDweaker,ACVAacquired/notindependent. No newacceptedcontrol. Keepoldrejections/economicclasses/sharelag,notEPSaverages/currentcaps/laterfilings.
-- LIQUIDactualexactscreenread18:40:55sha7667de05…andCRUISEexactversionreadconsumed/logged/filed;notjustworkflowack. New-eventauditconsumptionUNKNOWN. PacketsLIQUID/WALTER/PROME;PROMEconfirmsexistingassignments/combinedassessment,WALTERcompanynews,VIOLETexistingofficialchecks/vol(noextrabreadth),WALearnings,TERRYapprovedmanagement,CRUISEoriginalwindowpreserved.
-- RSP5/20/60+0.10/+0.34/+0.30%;HII/ADM/CPRT5dpositive;DELL/SMCI60positive/lowconditionalfailuresremaincounterevidence,notproofordinaryrotation. No crashodds/rallyendingthesis.
-- Bootcarry-insunchanged:gammaNEG14/35flip7756–7762at17:44–46ET,wallswithheld;FRED10/16HY331/BB203/CCC1297. CPI/PPI/rates/ACMrepairsinpriorSTATUS/research. HEN46DecemberWQ39295/90.16,F3spent,commonF1pendingBRENT,F5NOTFIRED;LUV10/21afterclose/AALcall10/22 08:30ET/LUV10:00ET,wakerequestnotcertified.
-- Sharedforeignchangesdirty,nopull/stash/cross-owneredit. Codex/OpenAI,exactmodel/nativeIDUNKNOWN,root/localreadsexplicit,nohelpers;nativefleetnotification/closeouttransportunavailable. Ownexplicitpaths/recipientnamedpackets/safepushreceiptrequired. KB185new;KB178–184/predictionspreserved.
-
-- Latebeforeclose:LIQUIDexactconditionalRESULT5de5eeb1cconsumed(9names/22events/37ownerchecks),no commonunavailablefundingoruniformcostcause;WALexactfd3f986aecontextconsumed,NCO30bp/stabledeposits/lowerborrowingscountercase,cautionsretained. Exactblob/hashesinlate-owner-consumption.json;LATE-INTAKE.mdlinksownerresults. Fullcurrentcash/covenants/obligations/creditpanelstillunresolved;WALcontextreadnowverified,TERRYnotverified.
+- **Gamma REVERSED to POSITIVE both horizons:** flip band 7,744 (14d) – 7,749 (35d), SPX 7,757.17, cushion only +8/+13 pts. Walls published: put 7,750 clean both; call 7,800 (14d clean, 35d near-tie → band 7,800–8,000). 10/19 NEG read is struck in STATUS. Signal packet → WALTER inbox.
+- **HEN-46 LUV leg graded at SEC primary:** fuel $3.92 ($3.87 unhedged), 548M gal, adj EPS $0.66 inside guide. Landed in the letter's UNNAMED region (3.85–4.10). DENY now unreachable. Pre-stated AAL disposition in PREDICTIONS: AAL < −$0.70 → CONFIRM; otherwise NO-VERDICT-AS-WRITTEN, not DENY.
+- **F1 December crack 10/21 tier-3 $95.05 = near-line UNKNOWN** (±$0.15 band). Held-VLO: <$95 notice only, <$90.16 SELL rec. BRENT publication governs.
+- **FRED down (maintenance page, HTTP 200) all evening.** HY 329 [FRED 10/19] via REGINALD. `credit_monitor.py` fixed: no more "credit calm" on a failed instrument (CANNOT-EVALUATE); NaN evening rows dropped. Surfaced HYG/LQD −0.98% to 10/20, faded to −0.35% on 10/21 close.
+- **ECON_CALENDAR rebuilt** for 10/22–11/25, verified at BLS/BEA/Census/Fed; ISM dates unverified (503). Reply packet to PROME with wake-row requests.
+- Inbox drained: 30 WALTER + 3 general logged/filed. COR-20261021-01/-02 receipted NO-OP.
 
 ### NEXT SESSION
 
-1. FollowonlyLIQUIDremainingcurrent-exposure/causalfields;initial9-nameinvestigationconsumed,notpendingselection. Exactnew-eventartifactackwhenavailable;WALTER/PROMEcombinedassessment separatesfindings/competingexplanations/gaps. Highercostdiffersfrominabilitytofinance; do notrerunscreenorlaunchanotherowner.
-2. Nextcompletedsessioncancompareconditionalfailures/sectorrelativewithfrozenOct19;noautomaticmonitoringpromised. Peerclosureprimaryperiodendshares/dataonlyifneeded,notforcedcontrols.
-3. Refreshgammabeforemarketuse;BRENTcommonF1publication/HEN46Oct21–22resultsandwakeconfirmation. Consensus,Asiahlt/cyberattack,Muse/TLTflow,historicalDGS30,ISMlate-evaluatorambiguityremaincarry-ins. WATT>=10/22retestbelongsWATT.
+1. **HEN-46 resolves at AAL Q3 (Thu 10/22 pre-open, call 08:30 ET).** Read the AAL 8-K primary, apply the pre-stated disposition exactly as written, record fuel/gal vs $3.75 and any FY guide citing fares (F4). LUV call 10:00 ET: did the July $3.70–3.75 assumption include tax + hedge premium? Then set Status to RESOLVED with the outcome.
+2. **F1:** read the finalized 10/21 dated vendor rows for HOZ26/CLZ26 (check volumes differ from 10/20 = not copy-forward) or BRENT's published figure; the near-line UNKNOWN must be closed, not carried.
+3. Pull FRED credit (HY/BB/CCC since 10/19) once the site is back; re-derive the HY >320 count.
+4. Refresh gamma before any market use; the POS cushion is ~0.1–0.2%.
+5. Carry-ins unchanged: Asia halt/cyberattack attribution, Muse/TLT-flow sources, DGS30 scope, ISM late-evaluator ambiguity, ISM date verification.

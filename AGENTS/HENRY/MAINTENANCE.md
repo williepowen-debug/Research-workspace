@@ -222,3 +222,19 @@ DAEDALUS wired 28 of 37 charters in the Will-approved R1 batch; **HENRY was skip
 **CAUSE, so it does not recur:** carve-out ① requires the subject to carry `<YOU> -> <RECIPIENT>: <what>`, which spends ~16 characters before the description starts, and I wrote each subject to carry the *finding* rather than the *change*. **4d's own instruction is the fix: the subject NAMES THE CHANGE; the ledger goes in the body.** ⇒ **Standing correction for this desk: on a packet commit, write `HENRY -> X: <one short noun phrase>` and put the finding in the body.** A compliant version of the CARL subject would have been `HENRY -> CARL: HEN-44 grade, your rounding flag, and an adverse HEN-46 datum` (74).
 
 **No length check runs before commit.** I am not adding a bespoke one — `claim_check.py` / `orphan_check.sh` are the fleet pattern and a subject-length gate belongs with them, not in an agent directory. **Flagged to PROME as a candidate for the shared closeout checks rather than built here.**
+
+## 2026-10-21 — `credit_monitor.py` printed "credit calm" on a failed instrument; fixed
+
+**What happened:** at the 20:58 ET boot, FRED served a site-maintenance page (HTTP 200, no CSV) for every series and the vendor's in-progress daily rows for HYG/JNK/LQD carried NaN closes. The readout said `DISPERSION: ERROR — FRED returned no data`, then `HYG $nan`, and then **`✓ No flags — credit calm, dispersion stable, income bid intact.`** The all-clear fired because "no flags" was the only condition checked. That is the LESSONS rule "a verdict set that classifies only the data cannot report a broken instrument," in my own tool.
+
+**Fix (two changes, both in `scripts/credit_monitor.py`):**
+1. `run()` now returns `cannot_evaluate`, which lists any dispersion error and any ETF with an error or a missing/NaN price. `fmt()` prints `⛔ CANNOT-EVALUATE — instrument failed; absence of flags is NOT an all-clear` whenever that list is non-empty, and prints the calm line only when there are no flags AND no failures.
+2. `etf_stats()` drops NaN-close rows before computing, so an evening run reads the last completed session instead of failing.
+
+`scripts/boot.py` (c) filter now passes `⛔` / `CANNOT-EVALUATE` lines explicitly.
+
+**Tests run 2026-10-21:** live run during the FRED outage → CANNOT-EVALUATE listing the dispersion failure (positive control). Synthetic clean report → calm line; synthetic failed report → CANNOT-EVALUATE (both branches). `boot.py --quick` rc 0.
+
+**What the fix surfaced:** with NaN rows dropped, the proxy flagged HYG/LQD −0.98% over 5 sessions to the 10/20 close (line −0.75%). Recomputed on the 10/21 regular close it is −0.35%, not firing. The broken version would not have shown either number.
+
+**Not fixed:** FRED's maintenance page is still read as "no data", not as "source down". The message is accurate enough and the new branch fails closed, so I left it.

@@ -646,3 +646,36 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-19T18:55:33-04:00	2026-10-19_from-CRUISE_conditional-shortlist-consumed	integrated	INBOX_ROOT	ExactcommittedRESULT4261b747e/sha7667de05readconfirmed;CRU11study/windowpreserved,noregrade.
 2026-10-19T18:57:38-04:00	2026-10-19_from-LIQUID_conditional-financing-findings	integrated	INBOX_ROOT	ExactconditionalRESULT5de5eeb1cblob/hashverified;9issuer/control/22events;no commonfundingdenial,initialinvestigationdelivered,remainingcurrentexposure/causalgapsexplicit.
 2026-10-19T18:57:38-04:00	2026-10-19_from-WAL_repeat-loser-context-consumed	integrated	INBOX_ROOT	Exactcontextfd3f986aeblob/hashverified;WALreadfocusedHENRYcontext,Q3NCO30bp/stabledeposits/lowerborrowingscountercase;specialmention/OREO/markscautions,no broadstudy/newpriority.
+2026-10-21T21:04:24-04:00	SIG-W-20261019-019	noted	INBOX_WALTER	Repeat losers have heterogeneous company explanations, common financing cause unproved. Consistent with HENRY 10/19 event audit, no new study.
+2026-10-21T21:04:24-04:00	SIG-W-20261019-020	info-only	INBOX_WALTER	Relay of HENRY's own 10/19 negative-gamma read. SUPERSEDED 10/21 by POSITIVE gamma both horizons (flip band 7,744-7,749).
+2026-10-21T21:04:24-04:00	SIG-W-20261019-021	noted	INBOX_WALTER	WAL Q3 counters a common funding-shock claim (NCO 30bp, deposits stable). Special mention and OREO cautions retained. WAL not added to repeat losers.
+2026-10-21T21:04:24-04:00	SIG-W-20261020-002	info-only	INBOX_WALTER	Epoch fixed-benchmark inference cost study (Sept 22). VULCAN owns.
+2026-10-21T21:04:24-04:00	SIG-W-20261020-005	acted	INBOX_WALTER	Korea conditional stabilization tools, not an enacted short ban. HENRY keeps it as a source-qualified contingency only. No trading restriction established.
+2026-10-21T21:04:24-04:00	SIG-W-20261020-006	info-only	INBOX_WALTER	Pepsi Knoxville WARN and Qualcomm memo. LABOR owns.
+2026-10-21T21:04:24-04:00	SIG-W-20261020-007	info-only	INBOX_WALTER	CoreWeave contract-economics model and HSBC page. VULCAN and LIQUID own.
+2026-10-21T21:04:24-04:00	SIG-W-20261020-009	info-only	INBOX_WALTER	CoreWeave Forms 4 are mostly tax and plan sales. No positioning inference by HENRY.
+2026-10-21T21:04:24-04:00	SIG-W-20261020-010	info-only	INBOX_WALTER	Data-center TRACE G-spreads 10/16 to 10/19, mixed direction. LIQUID owns.
+2026-10-21T21:04:24-04:00	SIG-W-20261020-012	info-only	INBOX_WALTER	Amazon rack-receipt cash timing. Demand versus execution distinction noted for HEN-36 context.
+2026-10-21T21:04:24-04:00	SIG-W-20261020-016	acted	INBOX_WALTER	KOSPI 10/20 -3.73% (-20.01% from 10/6), Nikkei -1.30%. US transmission not observed: SPX +0.28% 10/20 and +0.58% 10/21. Cause unproved.
+2026-10-21T21:04:24-04:00	SIG-W-20261020-017	info-only	INBOX_WALTER	Grant Thornton CBIZ secured notes talk 10.5% area, preliminary. LIQUID and BROCK own.
+2026-10-21T21:04:24-04:00	SIG-W-20261020-018	info-only	INBOX_WALTER	September USGC jet minus Brent $70.136/bbl monthly high on EIA basis. Context for HEN-46, not its instrument.
+2026-10-21T21:04:24-04:00	SIG-W-20261020-019	info-only	INBOX_WALTER	SPR 282.7M vs 282.2M bbl DOE conflict. BRENT owns.
+2026-10-21T21:04:24-04:00	SIG-W-20261020-021	acted	INBOX_WALTER	MSCI Indonesia Standalone consultation, decision by 2027-06-30. Conditional index-flow channel only. No realized forced sale. No HENRY monitor.
+2026-10-21T21:04:24-04:00	SIG-W-20261020-022	info-only	INBOX_WALTER	Farr AI CDS cohort chart, source-limited. LIQUID owns.
+2026-10-21T21:04:24-04:00	SIG-W-20261020-023	info-only	INBOX_WALTER	Data-center financing list mixes delays, withdrawals and funded IPOs. LIQUID owns.
+2026-10-21T21:04:24-04:00	SIG-W-20261020-026	acted	INBOX_WALTER	MSCI Turkey limited freeze implemented, reclassification conditional to June 2027. No forced-flow amount. No HENRY monitor.
+2026-10-21T21:04:24-04:00	SIG-W-20261020-027	info-only	INBOX_WALTER	DeepSeek and Huawei chip design report, one gated origin. VULCAN owns.
+2026-10-21T21:04:24-04:00	SIG-W-20261020-033	acted	INBOX_WALTER	Wilson conditional add-risk-after-reconciliation view held as an alternative interpretation alongside breadth. Not an owner forecast.
+2026-10-21T21:04:24-04:00	SIG-W-20261020-034	acted	INBOX_WALTER	Defensive plus energy over growth +7.84pp through 10/16. Reversed on 10/21: XLK +1.66% vs XLP -0.72% and XLV -0.51%. Both interpretations kept.
+2026-10-21T21:04:24-04:00	SIG-W-20261021-001	noted	INBOX_WALTER	CORRECTION small-bank borrowing reversal. COR-20261021-01 receipted NO-OP, no HENRY citation.
+2026-10-21T21:04:24-04:00	SIG-W-20261021-002	noted	INBOX_WALTER	CORRECTION Fukoku 30Y withdrawn, 20Y auction firm. COR-20261021-02 receipted NO-OP, no HENRY citation.
+2026-10-21T21:04:24-04:00	SIG-W-20261021-004	info-only	INBOX_WALTER	Russian diesel tankers to Turkey and Brazil, departures not deliveries. BRENT owns.
+2026-10-21T21:04:24-04:00	SIG-W-20261021-005	info-only	INBOX_WALTER	DRAM Q4 ~20% newsroom forecast. VULCAN owns.
+2026-10-21T21:04:24-04:00	SIG-W-20261021-006	info-only	INBOX_WALTER	Dutch storage above a lowered target, EU gap -14.6pp. HANS owns.
+2026-10-21T21:04:24-04:00	SIG-W-20261021-007	info-only	INBOX_WALTER	Saudi MoE Shaybah drone INTERCEPTED, operations unaffected. FALCON grades. F2 (Jazan restart) not touched.
+2026-10-21T21:04:24-04:00	SIG-W-20261021-014	acted	INBOX_WALTER	LUV Q3 verified at SEC primary: fuel $3.92/gal ($3.87 unhedged), 548M gal, adj EPS $0.66 inside $0.50-0.75 guide. HEN-46 LUV leg in the letter's unnamed region (3.85 < x < 4.10). Row grades after AAL 10/22.
+2026-10-21T21:04:24-04:00	SIG-W-20261021-015	noted	INBOX_WALTER	Meta Q3 capex $34.91B, 2026 guide $135-145B (low end +$5B), FCF -$2.12B. HEN-36 context. VULCAN owns S5/S1.
+2026-10-21T21:04:24-04:00	2026-10-20_from-PROME_econ-calendar-stale	acted	INBOX_ROOT	ECON_CALENDAR refreshed (option a): 30-day US releases verified at BLS, BEA and Fed pages 2026-10-21. Reply packet to PROME/inbox.
+2026-10-21T21:04:24-04:00	2026-10-20_from-WATT_news-forward-power-shortage-less-certain	noted	INBOX_ROOT	Forward power-shortage realization weaker, no measured demand collapse. HEN-36 input only.
+2026-10-21T21:04:24-04:00	2026-10-20_from-WATT_power-sweep-cost-and-utilization-limits	noted	INBOX_ROOT	PJM prices eased after 10/13, no >=$1,000 prints 10/15-10/20. No measured FCF cost. HEN-36 input only.
+2026-10-21T21:08:53-04:00	SIG-W-20261021-016	noted	INBOX_WALTER	CORRECTION Russia diesel ban partially permitted (500kt), not lifted; No 1252 producer restriction to 10/31. HEN-46 F3 already SPENT, no HENRY leg changes. PROME prome-56 asked for consumption.

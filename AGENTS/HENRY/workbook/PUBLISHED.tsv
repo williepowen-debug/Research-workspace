@@ -101,3 +101,10 @@ gamma_flip_35d	7762	2026-10-19	cboe 7369 contracts; AFTER-CLOSE retrieval 10/19 
 net_gex_35d_Bn	-53.1	2026-10-19	$B per 1%; AFTER-CLOSE retrieval 10/19 ~17:46 ET; spot7690.73; 14d7756/35d7762 NEG both. Walls WITHHELD:14d near-ties and cross-horizon call disagreement. OI vintage not separately certified. Free-tier proxy, not validated against proprietary dealer books.
 gamma_flip_14d	7756	2026-10-19	cboe3407contracts;boot14d after-close17:44ET;spot7690.73 NEG;35d7762 NEG;walls WITHHELD;OI vintage not certified
 net_gex_14d_Bn	-41.2	2026-10-19	$B per1%; assumption-dependent;boot14d17:44ET;walls WITHHELD
+gamma_flip_35d	7749	2026-10-21	cboe 7289 contracts
+net_gex_35d_Bn	6.3	2026-10-21	$B per 1%
+gamma_flip_14d	7744	2026-10-21	cboe 3420 contracts
+net_gex_14d_Bn	9.2	2026-10-21	$B per 1%
+put_wall_14d	7750	2026-10-21	clean #1 (+26% over #2); 14d cboe 3420 contracts 21:07 ET; spot 7757.17 POS; 35d put wall also 7750 clean (+13%) - cross-horizon AGREE, published
+call_wall_14d	7800	2026-10-21	clean #1 (+36% over #2); 35d #1 also 7800 but NEAR-TIE (3% over #2) => 35d quoted as band 7800-8000
+gamma_regime	POS_both	2026-10-21	flip band 7744-7749 (14d/35d), cushion +13/+8 pts; REVERSES 10/19 NEG both (7756/7762). After-close retrieval; OI vintage not certified; free-tier proxy

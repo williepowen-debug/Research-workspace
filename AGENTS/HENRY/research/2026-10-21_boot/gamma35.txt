@@ -1,0 +1,8 @@
+===== SPX GAMMA FLIP  (asof 2026-10-21, <= 35d, 7,289 contracts, src=cboe) =====
+  SPX spot        7,757.17
+  Net GEX @ spot  +6.3 $B/1%   -> POSITIVE (dealers dampen)
+  Zero-gamma FLIP ~7,749
+                  spot is +8 pts ABOVE (pos-gamma) the flip
+  Call wall       7,800  ⚠️ NEAR-TIE (3% over #2) — report the BAND 7,800-8,000, not this strike
+  Put wall       7,750  (clean #1, +13% over #2)
+  (FREE-TIER proxy: absolute $B assumes long-call/short-put dealer gamma; the FLIP + sign are the robust reads)
