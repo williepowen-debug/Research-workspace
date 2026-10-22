@@ -269,3 +269,46 @@ By-catches:
 ### 10.6 Item 19: OSPREY consumption
 
 **Verified.** `AGENTS/OSPREY/STATUS.md` line 76 cites "YURI 10/12" on the №686 goods list.
+
+---
+
+## 11. Long searches: items 9, 10, 16 (Will 22:29 ET: "lets do the long searches now"; fetches 2026-10-22T02:30–03:05Z)
+
+**Method control.** The pravo title search matches **whole words only**. Tested: "регистрации" → 2 vs "регистрац" → 0, and "топлива"/"вывоз" → 2 each vs "топлив" → 0 in the №954 window, 01.07–31.08. A first batch of stem queries is therefore **void as negatives** and is not counted (`longsearch/pravo-queries.json`). All counted queries use whole words with positive controls ("954" and "1252" each return №1252). Files: `sources/2026-10-21/longsearch/`, `govorders/`, `govorders2/`.
+
+### 11.1 Item 9: signed act for the 500 kt diesel permission. Result: SEARCH-NOT-FOUND on the complete public government-act perimeter, 28.09→21.10
+
+| Route | Result |
+|---|---|
+| Government block, **every act** dated 28.09→21.10 (no title filter, pageSize 200, 2 pages: 268 acts) | **110 resolutions, all titled**; the only fuel title is №1252. **146 orders untitled**. |
+| All 146 untitled orders, page 1 (operative clause) | 28 read 10/21 (§10.5) + **111 read tonight** + 7 read 10/12 = **146/146**. None grants a fuel/diesel export permission or cites №954. Five orders that amend older orders were resolved by number (2444-р Crimea transfer; 3710-р 2021 ship leasing; 2128-р 2018 RU–CN humanitarian commission; 3523-р 2025 business model; 4164-р): none fuel. |
+| Whole-word title queries, government + ministry blocks, 28.09→21.10: топлива · топливо · нефтепродуктов · дизельного · дизельное · вывоз · вывоза · экспорта · товаров · кодов · информации · энергетического · 686 · 954 · 1252 | 0 fuel hits beyond №1252 (`pravo-queries-wholeword.json`). |
+
+**Reading:** no public Government act for the 500 kt permission exists on the official portal for acts dated 28.09→21.10.
+- *Inference, labelled:* the permission is being administered through a non-public channel. Candidates are №954's three for-official-use subparagraphs (н/о/п), a protocol decision, or ministry coordination ("government-coordinated contracting", news/60156). It is not established which.
+- **Residual:** the annex of 2808-р (generic "changes to Government acts") and the annexes of three long orders; acts outside the portal.
+
+### 11.2 Item 10: №686 ¶4(a) goods-code list. Result: NOT-FOUND, and overdue on the public record
+
+The decree gave the Government ten days from 28.09 (about 08.10). The same complete government perimeter (all resolutions titled; all 146 orders opened at the operative clause) has **no act citing №686**. Ministry-block whole-word title queries also return 0, though the ministry block's unfiltered listing returned only 15 items, so it is **not** certified complete.
+
+**Reading:** 13 days past the deadline with no public act. It may be issued as a restricted (ДСП) document, which would itself fit №686's purpose. OSPREY holds the observability consequence.
+
+### 11.3 Item 16: signed successor to Mintrans's 11 June draft presidential decree on ship registration. Result: NOT-FOUND
+
+| Route | Result |
+|---|---|
+| Presidential block, whole-word titles 11.06→21.10: судов · судна · суда · реестре · реестр · флагом · флаг · морских · судоходства · мореплавания · регистрации · Российский | No ship-registration decree. "судов" hits are court acts; №573 is Cossack-register uniforms. |
+| **Federal Law №302-ФЗ of 04.08.2026** (amends the Merchant Shipping Code): **30/30 pages read** | Not the decree. Relevant content: Art.42 lets foreign classification societies empowered by the Government verify a vessel's identity for initial Russian registration, and covers bareboat-chartered vessels registered abroad; sanitary certificates; seaman's book; radio permits. **Articles 1–3 take effect 01.09.2027.** |
+| Mintrans news 13032 (9 Oct, reachable tonight; timed out 10/12) + news pages 1–4 | Draft changes to ship-document issuance, effective 01.09.2027. It lists 4 registers including the "Российский открытый реестр судов". **That register is not new: Federal Law №296-ФЗ of 03.08.2018 (verified on pravo)**. A false lead avoided. |
+| Mintrans 12747 (11 June) → regulation.gov.ru project **168556** | Project page is client-rendered; stage UNREADABLE by plain request (https 200 shell; http timeout). |
+
+**Reading:** no signed decree on the official presidential record through 21.10. The draft's status is unknown. The Lloyd's List "86 reflagged ships" remains an effect without a located instrument (no row).
+
+### 11.4 By-catches from the 111 orders (page 1 only)
+
+- **2818-р (08.10):** the Government introduces a bill amending **Articles 49 and 53 of the Law on Military Duty and Military Service**, with the Deputy Defence Minister as its representative. The bill text was not read, so its content is UNVERIFIED. Context for YUR-004 (a bill, not a declaration) and for OSPREY/HAWK manpower.
+- **2783-р (06.10):** special requirements for the subsoil auction of the **South-Vishersky section of the Verkhnekamskoye potash deposit** (Perm). Potash is triage-only at FERT, so: log + flag.
+- **2727-р (30.09):** closes the temporary Lesozavodsk border checkpoint opened for building the **gas-pipeline crossing under the Ussuri** (a construction milestone; gas route to China).
+- **2709-р (30.09):** windfall-tax ("налог на сверхдоходы") bill introduced.
+- **2728-р (30.09):** MChS to train DPRK emergency-service specialists 2027–2031.

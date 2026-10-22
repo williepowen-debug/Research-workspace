@@ -33,14 +33,14 @@ It does **not** grade evidence, re-read primaries, or check other desks' surface
 
 | # | Item | state |
 |---|---|---|
-| 9 | Signed 500 kt diesel partial-lift act/annex | OPEN (unlocated since 10/12) |
-| 10 | №686 implementing goods-code list (OSPREY carries it too) | OPEN (SEARCH-NOT-FOUND) |
+| 9 | Signed 500 kt diesel partial-lift act/annex | **CLOSED: SEARCH-NOT-FOUND** on the complete public government perimeter 28.09→21.10 (110 resolutions titled; 146/146 orders opened). Non-public channel inferred, not established (report §11.1) |
+| 10 | №686 implementing goods-code list (OSPREY carries it too) | **CLOSED: NOT-FOUND**, overdue since about 08.10 on the public record; ministry block not certified complete (§11.2) |
 | 11 | ЕГРЮЛ for Lemana Pro and FM Logistic entities (№661) | **CLOSED** (report §10.1): Le Monlid owners unchanged, LEV entered 21.10; FM Logistic Vostok still under its own director, no LEV entry 35 days on |
 | 12 | №738 parents: Tarkett, Ontex, Menshen | **CLOSED** (§10.2): **Ontex VERIFIED** (Euronext Brussels, about 5% revenue / 7–8% adj. EBITDA, Inside Information 16.10); Tarkett holder direct but issuer statement and listing UNRESOLVED; Menshen UNVERIFIED |
 | 13 | №750 vs prior №1285 wording: what changed | **CLOSED** (§10.3): the only change is a new foreign-law-obligation trigger; subsidiaries and unions of states were already in the 2017 text |
 | 14 | Hubbard pardon decree | **CLOSED: NOT-FOUND** (§10.4, 02:09Z); the Ushakov readout stays the instrument; recheck at the 10/23 read |
 | 15 | About 30 untitled government распоряжения (10.10→17.10); the YUR-005 baseline is partial on them | **CLOSED** (§10.5): 28/28 page 1 read, none fuel/export; orders cannot amend №954; annexes of 3 long orders unread |
-| 16 | Shadow-fleet registration decree (signed successor to Mintrans 11 June draft) | OPEN |
+| 16 | Shadow-fleet registration decree (signed successor to Mintrans 11 June draft) | **CLOSED: NOT-FOUND** signed; №302-ФЗ read 30/30 (not it, effective 2027); "open register" is 2018 law №296-ФЗ; draft 168556 stage UNREADABLE (§11.3) |
 | 17 | Sonoco divestiture of Eviosys Kuban after 26.02.2026 | **CLOSED** (§10.2): no divestiture in SEC filings to the 21.10 Q3 release; release silent on 15.10 temporary management |
 
 ## 🔵 Dated obligations

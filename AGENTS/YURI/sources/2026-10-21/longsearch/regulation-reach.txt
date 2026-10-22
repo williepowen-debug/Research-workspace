@@ -1,0 +1,2 @@
+https://regulation.gov.ru/ http=200 exit=0
+http://regulation.gov.ru/ http=000 exit=28

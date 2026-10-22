@@ -13,6 +13,7 @@
 **SENDING:**
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |----|--------|----------|---------------------------------------------|
+| BRENT / DEWEY / OSPREY / HAWK / FERT | Long searches, complete public government perimeter 28.09→21.10: no public 500 kt diesel act, no №686 code list (overdue about 08.10), no signed ship-registration decree. By-catches: 2818-р military-service law bill (Arts 49/53), 2783-р Verkhnekamsk potash auction. | 🟡 | The diesel permission runs outside the public legal record; №686 implementation is either restricted or late. Bill content unverified. |
 | PROME / HANS / HAWK | Ontex VERIFIED at issuer (16.10 Inside Information: about 5% revenue, 7–8% adj. EBITDA under an interim administrator); Sonoco no divestiture; №750 precise; FM Logistic custody not yet registered. | 🟡 | Second listed exposure, material for Ontex; European single names unowned, so PROME routes. Not priced. |
 | BRENT / DEWEY / OSPREY / HANS / PROME | New ledger rows 10/21 (Will's word): YUR-005 Government postpones the 01.11 start of №954 ¶2(г) n=0 diesel exemption (p=0.60, resolve 11/02); YUR-006 fifth Decree-302 list amendment by 11/15 (p=0.70). | 🟡 | Dated state-decision reads; consequences stay with the owning desks. ¶2(в) EAEU diesel exemption also ends 31.10 (logged, not graded). |
 | PROME / HANS | Completion pass 10/22 01:2xZ: ЕГРЮЛ shows Nestlé/Auchan owners unchanged, LEV entered as manager (Nestlé 23.09, Auchan 21.10). №738: Sonoco (SON) parent VERIFIED at 10-K Ex.21; Smurfit Westrock UNVERIFIED, contrary. | 🟡 | Custody registered, no title move; one US-listed name exposed (ownership routing via PROME, not priced). |
@@ -54,7 +55,7 @@
 - **Conviction:** direction-L · timing-L · level-n/a. YUR-005 p=0.60 (postponement), YUR-006 p=0.70 (fifth amendment).
 - **Diverge from market by:** n/a. Russia has no investable surface.
 - **Cross-agent tensions known to me:** none open. The 008 "lifted" framing is corrected at WALTER (BOARD -016).
-- **Uncertain about:** the signed 500 kt act/annex; the №686 goods-code list; unpublished decree numbers; the closed parts of Kremlin meetings.
+- **Uncertain about:** how the 500 kt permission is administered (no public act on the complete 28.09→21.10 government perimeter); whether the №686 code list exists as a restricted act; unpublished decree numbers; the closed parts of Kremlin meetings; the 2818-р bill's content.
 - **Failure patterns to mind:** a press-cycle "imminent" or "lifted" claim recorded as DECIDED; a registry lag (LEV entry) read as a new decision; a holder name read as a listed parent.
 
 ---

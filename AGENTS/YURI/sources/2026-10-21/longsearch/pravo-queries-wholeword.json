@@ -1,0 +1,1604 @@
+[
+ {
+  "block": "government",
+  "term": "топлива",
+  "from": "28.09.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/government?Name=%D1%82%D0%BE%D0%BF%D0%BB%D0%B8%D0%B2%D0%B0&DocumentDateSearchType=0&DocumentDateFrom=28.09.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w000-government.html",
+  "sha256": "c8f12e7bd206a418bef1581a59229d21c783594772b4df071031b371d09fd044",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:31:19.708777+00:00"
+ },
+ {
+  "block": "government",
+  "term": "топливо",
+  "from": "28.09.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/government?Name=%D1%82%D0%BE%D0%BF%D0%BB%D0%B8%D0%B2%D0%BE&DocumentDateSearchType=0&DocumentDateFrom=28.09.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w001-government.html",
+  "sha256": "85c53fb42f83a6697e3545be919f23cad258ac6cbd94947de18c21276072808d",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:31:20.422369+00:00"
+ },
+ {
+  "block": "government",
+  "term": "нефтепродуктов",
+  "from": "28.09.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/government?Name=%D0%BD%D0%B5%D1%84%D1%82%D0%B5%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D0%BE%D0%B2&DocumentDateSearchType=0&DocumentDateFrom=28.09.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w002-government.html",
+  "sha256": "52541aa85582a7bf5a4b2fab686debf81873abc0c33429aa35db4e56d491af02",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:31:21.239174+00:00"
+ },
+ {
+  "block": "government",
+  "term": "дизельного",
+  "from": "28.09.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/government?Name=%D0%B4%D0%B8%D0%B7%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE&DocumentDateSearchType=0&DocumentDateFrom=28.09.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w003-government.html",
+  "sha256": "0381f67245a1fe635c937ae64eeea2a0cd1091a3219cac39b2383cba4ac158e6",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:31:22.045176+00:00"
+ },
+ {
+  "block": "government",
+  "term": "дизельное",
+  "from": "28.09.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/government?Name=%D0%B4%D0%B8%D0%B7%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5&DocumentDateSearchType=0&DocumentDateFrom=28.09.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w004-government.html",
+  "sha256": "8d44d4b55a5d4167b4e08a1c81d73b623295d330d22000ae8c956d17251db28d",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:31:22.730977+00:00"
+ },
+ {
+  "block": "government",
+  "term": "вывоз",
+  "from": "28.09.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/government?Name=%D0%B2%D1%8B%D0%B2%D0%BE%D0%B7&DocumentDateSearchType=0&DocumentDateFrom=28.09.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w005-government.html",
+  "sha256": "1c81496b1b72f6455236a791075e68b954068f761397d4632215ece417b6b5e4",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:31:23.437705+00:00"
+ },
+ {
+  "block": "government",
+  "term": "вывоза",
+  "from": "28.09.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/government?Name=%D0%B2%D1%8B%D0%B2%D0%BE%D0%B7%D0%B0&DocumentDateSearchType=0&DocumentDateFrom=28.09.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w006-government.html",
+  "sha256": "d031ec86b295843d6e6006910eca6e518afb2e09e6bdd104915c995301edbb38",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:31:24.124251+00:00"
+ },
+ {
+  "block": "government",
+  "term": "экспорта",
+  "from": "28.09.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/government?Name=%D1%8D%D0%BA%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%B0&DocumentDateSearchType=0&DocumentDateFrom=28.09.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w007-government.html",
+  "sha256": "f1030d81f5e4a07647f754a828c35a2c5241f9bce3af0e5e2421a7f502c1359b",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:31:24.878739+00:00"
+ },
+ {
+  "block": "government",
+  "term": "товаров",
+  "from": "28.09.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/government?Name=%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%BE%D0%B2&DocumentDateSearchType=0&DocumentDateFrom=28.09.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w008-government.html",
+  "sha256": "474aea49aa52631cff592ba2883ee1691fedd4ffa6d537781e52b67810c33525",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:31:26.083609+00:00"
+ },
+ {
+  "block": "government",
+  "term": "кодов",
+  "from": "28.09.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/government?Name=%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2&DocumentDateSearchType=0&DocumentDateFrom=28.09.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w009-government.html",
+  "sha256": "674ff5078b476a61ffaf99268f98ce9b9a392f848a295afb378a7bc4cadcd955",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:31:26.817254+00:00"
+ },
+ {
+  "block": "government",
+  "term": "перечня",
+  "from": "28.09.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/government?Name=%D0%BF%D0%B5%D1%80%D0%B5%D1%87%D0%BD%D1%8F&DocumentDateSearchType=0&DocumentDateFrom=28.09.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w010-government.html",
+  "sha256": "b3fc9f6d9f135dcf39cb6f3a001cc0f125750027a209a9032eaa3c39c816cda9",
+  "n": 1,
+  "items": [
+   {
+    "act": "Постановление Правительства Российской Федерации от 02.10.2026 № 1296",
+    "title": "Об утверждении Правил формирования и изменения перечня государственных учреждений, которым разрешается заготовка древесины в соответствии с частью 6 статьи 29-1 Лесного кодекса Российской Федерации",
+    "eo": "0001202610030023"
+   }
+  ],
+  "observed_at": "2026-10-22T02:31:28.449291+00:00"
+ },
+ {
+  "block": "government",
+  "term": "информации",
+  "from": "28.09.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/government?Name=%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%B8&DocumentDateSearchType=0&DocumentDateFrom=28.09.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w011-government.html",
+  "sha256": "93394c8c86632a9bd67ae67c5963d36969f3c42512aeee3dcf72222e797590e9",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:31:29.563671+00:00"
+ },
+ {
+  "block": "government",
+  "term": "энергетического",
+  "from": "28.09.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/government?Name=%D1%8D%D0%BD%D0%B5%D1%80%D0%B3%D0%B5%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B3%D0%BE&DocumentDateSearchType=0&DocumentDateFrom=28.09.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w012-government.html",
+  "sha256": "55e15bc86bba2e1e20d99f6efd4ffe256be6f99d318ce847db410e0425993310",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:31:30.745023+00:00"
+ },
+ {
+  "block": "government",
+  "term": "954",
+  "from": "28.09.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/government?Name=954&DocumentDateSearchType=0&DocumentDateFrom=28.09.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w013-government.html",
+  "sha256": "07aea6960b165a9554f553435382275151b32057854519e8f69a2cfb09772716",
+  "n": 1,
+  "items": [
+   {
+    "act": "Постановление Правительства Российской Федерации от 29.09.2026 № 1252",
+    "title": "О внесении изменений в постановление Правительства Российской Федерации от 30 июля 2026 г. № 954",
+    "eo": "0001202609300002"
+   }
+  ],
+  "observed_at": "2026-10-22T02:31:31.918571+00:00"
+ },
+ {
+  "block": "government",
+  "term": "686",
+  "from": "28.09.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/government?Name=686&DocumentDateSearchType=0&DocumentDateFrom=28.09.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w014-government.html",
+  "sha256": "ad69ff9f5965ba5c2158ba9521eada3a5a5ab3dea78569304c0008b35386b390",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:31:32.648609+00:00"
+ },
+ {
+  "block": "government",
+  "term": "1252",
+  "from": "28.09.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/government?Name=1252&DocumentDateSearchType=0&DocumentDateFrom=28.09.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w015-government.html",
+  "sha256": "13ae8876f6a9a55364e7fd533e1f5711dde3c018bcdda7539f23efc7ebdc4f98",
+  "n": 1,
+  "items": [
+   {
+    "act": "Постановление Правительства Российской Федерации от 29.09.2026 № 1252",
+    "title": "О внесении изменений в постановление Правительства Российской Федерации от 30 июля 2026 г. № 954",
+    "eo": "0001202609300002"
+   }
+  ],
+  "observed_at": "2026-10-22T02:31:33.800562+00:00"
+ },
+ {
+  "block": "federal_authorities",
+  "term": "топлива",
+  "from": "28.09.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/federal_authorities?Name=%D1%82%D0%BE%D0%BF%D0%BB%D0%B8%D0%B2%D0%B0&DocumentDateSearchType=0&DocumentDateFrom=28.09.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w016-federal_authorities.html",
+  "sha256": "2bfee3fe1d0f1d1fef06b548c3307f4319ffe2afebe3c009b9c166c9789d046b",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:31:35.250375+00:00"
+ },
+ {
+  "block": "federal_authorities",
+  "term": "топливо",
+  "from": "28.09.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/federal_authorities?Name=%D1%82%D0%BE%D0%BF%D0%BB%D0%B8%D0%B2%D0%BE&DocumentDateSearchType=0&DocumentDateFrom=28.09.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w017-federal_authorities.html",
+  "sha256": "36f61d1d90f9e6f93bdca136c14f7ef1d97698a9aec70d9215b50c9cf3bfe5d9",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:31:36.456305+00:00"
+ },
+ {
+  "block": "federal_authorities",
+  "term": "нефтепродуктов",
+  "from": "28.09.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/federal_authorities?Name=%D0%BD%D0%B5%D1%84%D1%82%D0%B5%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D0%BE%D0%B2&DocumentDateSearchType=0&DocumentDateFrom=28.09.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w018-federal_authorities.html",
+  "sha256": "655742bb95250ff781426cef568cf63bd567ea0172c89e8b78ffb0f250880762",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:31:37.876073+00:00"
+ },
+ {
+  "block": "federal_authorities",
+  "term": "дизельного",
+  "from": "28.09.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/federal_authorities?Name=%D0%B4%D0%B8%D0%B7%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE&DocumentDateSearchType=0&DocumentDateFrom=28.09.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w019-federal_authorities.html",
+  "sha256": "0b23b5000a2cdfe0e346ebcf792f4d8c9dc6a57dfddec3cc2623e8199e491ba1",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:31:39.202744+00:00"
+ },
+ {
+  "block": "federal_authorities",
+  "term": "дизельное",
+  "from": "28.09.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/federal_authorities?Name=%D0%B4%D0%B8%D0%B7%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5&DocumentDateSearchType=0&DocumentDateFrom=28.09.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w020-federal_authorities.html",
+  "sha256": "eb6fcb99364df0f972b0db5facd0c50d105415be2975ae298549a289eb751b21",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:31:40.748858+00:00"
+ },
+ {
+  "block": "federal_authorities",
+  "term": "вывоз",
+  "from": "28.09.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/federal_authorities?Name=%D0%B2%D1%8B%D0%B2%D0%BE%D0%B7&DocumentDateSearchType=0&DocumentDateFrom=28.09.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w021-federal_authorities.html",
+  "sha256": "e3dcbdaf535beee67d6e6181ef3c2cb6c8beca8236baa6d33b79eeee255a3da7",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:31:42.140026+00:00"
+ },
+ {
+  "block": "federal_authorities",
+  "term": "вывоза",
+  "from": "28.09.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/federal_authorities?Name=%D0%B2%D1%8B%D0%B2%D0%BE%D0%B7%D0%B0&DocumentDateSearchType=0&DocumentDateFrom=28.09.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w022-federal_authorities.html",
+  "sha256": "4339b7f758b93b7b8cfdc2b0de4df932d71c33192fedc5d791cc1af7c86d9a49",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:31:43.366152+00:00"
+ },
+ {
+  "block": "federal_authorities",
+  "term": "экспорта",
+  "from": "28.09.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/federal_authorities?Name=%D1%8D%D0%BA%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%B0&DocumentDateSearchType=0&DocumentDateFrom=28.09.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w023-federal_authorities.html",
+  "sha256": "b1fdedb74bc30157ef3169ebe9ef7b6807d2901ece6e3ad6e82c0967ca996416",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:31:44.526203+00:00"
+ },
+ {
+  "block": "federal_authorities",
+  "term": "товаров",
+  "from": "28.09.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/federal_authorities?Name=%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%BE%D0%B2&DocumentDateSearchType=0&DocumentDateFrom=28.09.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w024-federal_authorities.html",
+  "sha256": "efd6f3e1963ed25f9d861ab79534c5251bbc4f4d84be815a214fe108618538cd",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:31:51.068819+00:00"
+ },
+ {
+  "block": "federal_authorities",
+  "term": "кодов",
+  "from": "28.09.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/federal_authorities?Name=%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2&DocumentDateSearchType=0&DocumentDateFrom=28.09.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w025-federal_authorities.html",
+  "sha256": "7079534f473f2be07417541e59b1fe074990963730c7701427c70cb087e4f56a",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:31:52.316599+00:00"
+ },
+ {
+  "block": "federal_authorities",
+  "term": "перечня",
+  "from": "28.09.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/federal_authorities?Name=%D0%BF%D0%B5%D1%80%D0%B5%D1%87%D0%BD%D1%8F&DocumentDateSearchType=0&DocumentDateFrom=28.09.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w026-federal_authorities.html",
+  "sha256": "26af94aaf9413400e3630cf5ec80c0f1ee571c7a6dc396df1f5ea1b3d17e2539",
+  "n": 3,
+  "items": [
+   {
+    "act": "Приказ Министерства юстиции Российской Федерации от 14.10.2026 № 288",
+    "title": "О внесении изменений в приложения № 1 и № 2 к приказу Министерства юстиции Российской Федерации от 20.04.2023 № 72 ",
+    "eo": "0001202610210005"
+   },
+   {
+    "act": "Приказ Министерства промышленности и торговли Российской Федерации от 13.10.2026 № 5366",
+    "title": "Об утверждении перечня электронной компонентной базы (электронных модулей) и (или) промышленной продукции, содержащей электронную компонентную базу (электронные модули), в отношении которых уплачивается технологический сбор, размеров такого сбора и методики определения размеров технологического сбора",
+    "eo": "0001202610150037"
+   },
+   {
+    "act": "Приказ Министерства труда и социальной защиты Российской Федерации от 01.10.2026 № 456н",
+    "title": "Об утверждении перечня работ, на которых запрещается применение труда работников в возрасте до восемнадцати лет",
+    "eo": "0001202610080001"
+   }
+  ],
+  "observed_at": "2026-10-22T02:31:55.106435+00:00"
+ },
+ {
+  "block": "federal_authorities",
+  "term": "информации",
+  "from": "28.09.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/federal_authorities?Name=%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%B8&DocumentDateSearchType=0&DocumentDateFrom=28.09.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w027-federal_authorities.html",
+  "sha256": "58303fdfd616efd5a1f71dce341fe9450cd6669c815cac4a0f23ba29d809bb98",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:31:56.455141+00:00"
+ },
+ {
+  "block": "federal_authorities",
+  "term": "энергетического",
+  "from": "28.09.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/federal_authorities?Name=%D1%8D%D0%BD%D0%B5%D1%80%D0%B3%D0%B5%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B3%D0%BE&DocumentDateSearchType=0&DocumentDateFrom=28.09.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w028-federal_authorities.html",
+  "sha256": "aa87790e8f8f1655141316808f2ead2e78e5632b8b25c1a983c78b20300830a1",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:31:57.894741+00:00"
+ },
+ {
+  "block": "federal_authorities",
+  "term": "954",
+  "from": "28.09.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/federal_authorities?Name=954&DocumentDateSearchType=0&DocumentDateFrom=28.09.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w029-federal_authorities.html",
+  "sha256": "e79b4c7ad7b273150cfae5f3a767048c073365c33bd2b7f5475503af9d4dd051",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:31:59.078897+00:00"
+ },
+ {
+  "block": "federal_authorities",
+  "term": "686",
+  "from": "28.09.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/federal_authorities?Name=686&DocumentDateSearchType=0&DocumentDateFrom=28.09.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w030-federal_authorities.html",
+  "sha256": "428b2d9466dfc6057ed8736aed699fbb4a466e3970bed45f2423109147d29e2f",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:32:00.503907+00:00"
+ },
+ {
+  "block": "federal_authorities",
+  "term": "1252",
+  "from": "28.09.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/federal_authorities?Name=1252&DocumentDateSearchType=0&DocumentDateFrom=28.09.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w031-federal_authorities.html",
+  "sha256": "59a9c8018c2bd522e4c4c1ac434ba670bf945bd86ad39f11386d3657b3479d5c",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:32:01.674552+00:00"
+ },
+ {
+  "block": "president",
+  "term": "судов",
+  "from": "11.06.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/president?Name=%D1%81%D1%83%D0%B4%D0%BE%D0%B2&DocumentDateSearchType=0&DocumentDateFrom=11.06.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w032-president.html",
+  "sha256": "a4634c5e7e83c098367ac8aec04d5d01b36f52b515f1ddfff7d501578a44df12",
+  "n": 7,
+  "items": [
+   {
+    "act": "Указ Президента Российской Федерации от 12.10.2026 № 723",
+    "title": "О назначении судей федеральных судов и о представителях Президента Российской Федерации в квалификационных коллегиях судей субъектов Российской Федерации",
+    "eo": "0001202610120009"
+   },
+   {
+    "act": "Указ Президента Российской Федерации от 27.07.2026 № 514",
+    "title": "О назначении судей федеральных судов и о представителях Президента Российской Федерации в квалификационных коллегиях судей субъектов Российской Федерации",
+    "eo": "0001202607270017"
+   },
+   {
+    "act": "Федеральный закон от 26.07.2026 № 256-ФЗ",
+    "title": "О внесении изменений в Федеральный закон ",
+    "eo": "0001202607260015"
+   },
+   {
+    "act": "Федеральный закон от 04.07.2026 № 222-ФЗ",
+    "title": "О внесении изменений в статью 1 Федерального закона ",
+    "eo": "0001202607040014"
+   },
+   {
+    "act": "Федеральный закон от 04.07.2026 № 219-ФЗ",
+    "title": "О внесении изменений в статью 1 Федерального закона ",
+    "eo": "0001202607040008"
+   },
+   {
+    "act": "Федеральный закон от 26.06.2026 № 204-ФЗ",
+    "title": "О создании суда Путинского района города Грозного Чеченской Республики и внесении изменений в статью 1 Федерального закона ",
+    "eo": "0001202606260064"
+   },
+   {
+    "act": "Федеральный закон от 26.06.2026 № 203-ФЗ",
+    "title": "О создании Белгородского гарнизонного военного суда и о внесении изменений в статью 1 Федерального закона ",
+    "eo": "0001202606260062"
+   }
+  ],
+  "observed_at": "2026-10-22T02:32:03.184487+00:00"
+ },
+ {
+  "block": "president",
+  "term": "судна",
+  "from": "11.06.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/president?Name=%D1%81%D1%83%D0%B4%D0%BD%D0%B0&DocumentDateSearchType=0&DocumentDateFrom=11.06.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w033-president.html",
+  "sha256": "655400da7f996834e9769274af2e50f2add35f59b5da4f41a8f45dc8c41b5089",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:32:04.258013+00:00"
+ },
+ {
+  "block": "president",
+  "term": "суда",
+  "from": "11.06.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/president?Name=%D1%81%D1%83%D0%B4%D0%B0&DocumentDateSearchType=0&DocumentDateFrom=11.06.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w034-president.html",
+  "sha256": "c50c39c0279bb72ce7e3da61ce64038e0c8292368eb80857ba2a6145325b174a",
+  "n": 3,
+  "items": [
+   {
+    "act": "Федеральный закон от 26.06.2026 № 204-ФЗ",
+    "title": "О создании суда Путинского района города Грозного Чеченской Республики и внесении изменений в статью 1 Федерального закона ",
+    "eo": "0001202606260064"
+   },
+   {
+    "act": "Федеральный закон от 26.06.2026 № 203-ФЗ",
+    "title": "О создании Белгородского гарнизонного военного суда и о внесении изменений в статью 1 Федерального закона ",
+    "eo": "0001202606260062"
+   },
+   {
+    "act": "Федеральный закон от 26.06.2026 № 202-ФЗ",
+    "title": "О создании Внуковского районного суда города Москвы и внесении изменений в отдельные законодательные акты Российской Федерации",
+    "eo": "0001202606260058"
+   }
+  ],
+  "observed_at": "2026-10-22T02:32:05.448387+00:00"
+ },
+ {
+  "block": "president",
+  "term": "реестре",
+  "from": "11.06.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/president?Name=%D1%80%D0%B5%D0%B5%D1%81%D1%82%D1%80%D0%B5&DocumentDateSearchType=0&DocumentDateFrom=11.06.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w035-president.html",
+  "sha256": "036b40bad0076453e8eeb9fa7208d76c8f5d35229e9fd168ffe31c379f9edd11",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:32:06.842870+00:00"
+ },
+ {
+  "block": "president",
+  "term": "реестр",
+  "from": "11.06.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/president?Name=%D1%80%D0%B5%D0%B5%D1%81%D1%82%D1%80&DocumentDateSearchType=0&DocumentDateFrom=11.06.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w036-president.html",
+  "sha256": "ccc8044b2fec7b0f93464e48eddefc1487425fedc76963041c59beef23951990",
+  "n": 1,
+  "items": [
+   {
+    "act": "Указ Президента Российской Федерации от 06.08.2026 № 573",
+    "title": "О внесении изменений в форму одежды членов казачьих обществ, внесенных в государственный реестр казачьих обществ в Российской Федерации, и в знаки различия по чинам членов казачьих обществ, внесенных в государственный реестр казачьих обществ в Российской Федерации, утвержденные Указом Президента Российской Федерации от 9 февраля 2010 г. № 171",
+    "eo": "0001202608060020"
+   }
+  ],
+  "observed_at": "2026-10-22T02:32:08.247406+00:00"
+ },
+ {
+  "block": "president",
+  "term": "флагом",
+  "from": "11.06.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/president?Name=%D1%84%D0%BB%D0%B0%D0%B3%D0%BE%D0%BC&DocumentDateSearchType=0&DocumentDateFrom=11.06.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w037-president.html",
+  "sha256": "932f53141ccc80d3cede4baef7ff46ec0672601d8cc086a86294a9695416650b",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:32:09.135688+00:00"
+ },
+ {
+  "block": "president",
+  "term": "флаг",
+  "from": "11.06.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/president?Name=%D1%84%D0%BB%D0%B0%D0%B3&DocumentDateSearchType=0&DocumentDateFrom=11.06.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w038-president.html",
+  "sha256": "e7e66ce1c23602ec0cefe0905c53b01abfc7d2cc48c3b5004347bce1645bb94d",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:32:10.163604+00:00"
+ },
+ {
+  "block": "president",
+  "term": "морских",
+  "from": "11.06.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/president?Name=%D0%BC%D0%BE%D1%80%D1%81%D0%BA%D0%B8%D1%85&DocumentDateSearchType=0&DocumentDateFrom=11.06.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w039-president.html",
+  "sha256": "4ffffe7af8dbc1061c1299e3dbf589de642e1cf74758ef291d384c93bab698a9",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:32:11.277517+00:00"
+ },
+ {
+  "block": "president",
+  "term": "судоходства",
+  "from": "11.06.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/president?Name=%D1%81%D1%83%D0%B4%D0%BE%D1%85%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%B0&DocumentDateSearchType=0&DocumentDateFrom=11.06.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w040-president.html",
+  "sha256": "fc67edbc583b30b2b9e56eab5f9fb38e6cbd0bc59497739cbcd066ce5051aefb",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:32:12.424555+00:00"
+ },
+ {
+  "block": "president",
+  "term": "мореплавания",
+  "from": "11.06.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/president?Name=%D0%BC%D0%BE%D1%80%D0%B5%D0%BF%D0%BB%D0%B0%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F&DocumentDateSearchType=0&DocumentDateFrom=11.06.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w041-president.html",
+  "sha256": "50a594c10c599a03451bf2e192d3bc85d8942cf96ac1de88a949a46cc25ab1ab",
+  "n": 1,
+  "items": [
+   {
+    "act": "Федеральный закон от 04.08.2026 № 302-ФЗ",
+    "title": "О внесении изменений в Кодекс торгового мореплавания Российской Федерации и отдельные законодательные акты Российской Федерации",
+    "eo": "0001202608040040"
+   }
+  ],
+  "observed_at": "2026-10-22T02:32:13.476169+00:00"
+ },
+ {
+  "block": "president",
+  "term": "регистрации",
+  "from": "11.06.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/president?Name=%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D0%B8&DocumentDateSearchType=0&DocumentDateFrom=11.06.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w042-president.html",
+  "sha256": "86ff9252f26f2f760987d4e930e7a378ad44bce70fab23c98528c1447d18a3c1",
+  "n": 2,
+  "items": [
+   {
+    "act": "Федеральный закон от 26.07.2026 № 263-ФЗ",
+    "title": "О внесении изменений в статью 12 Федерального закона ",
+    "eo": "0001202607260022"
+   },
+   {
+    "act": "Федеральный закон от 26.07.2026 № 262-ФЗ",
+    "title": "О внесении изменений в Федеральный закон ",
+    "eo": "0001202607260021"
+   }
+  ],
+  "observed_at": "2026-10-22T02:32:14.506854+00:00"
+ },
+ {
+  "block": "president",
+  "term": "Российский",
+  "from": "11.06.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/president?Name=%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9&DocumentDateSearchType=0&DocumentDateFrom=11.06.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w043-president.html",
+  "sha256": "0e4aa5baf1fd0c1ce013fc3310c55c571a01f58f7f81d14c65c593efa6171d0e",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:32:15.482282+00:00"
+ },
+ {
+  "block": "government",
+  "term": "судов",
+  "from": "11.06.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/government?Name=%D1%81%D1%83%D0%B4%D0%BE%D0%B2&DocumentDateSearchType=0&DocumentDateFrom=11.06.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w044-government.html",
+  "sha256": "dabaa0f10faae8038aa21b9c9b9b0b28416bdec97bb1b1cecb74992c233a06d2",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:32:16.204290+00:00"
+ },
+ {
+  "block": "government",
+  "term": "судна",
+  "from": "11.06.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/government?Name=%D1%81%D1%83%D0%B4%D0%BD%D0%B0&DocumentDateSearchType=0&DocumentDateFrom=11.06.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w045-government.html",
+  "sha256": "2a00fc97ed98542e5dde7592acd018f8959344f4697f1f3f0f18c506e7b3f3d2",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:32:16.924645+00:00"
+ },
+ {
+  "block": "government",
+  "term": "суда",
+  "from": "11.06.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/government?Name=%D1%81%D1%83%D0%B4%D0%B0&DocumentDateSearchType=0&DocumentDateFrom=11.06.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w046-government.html",
+  "sha256": "788554d5d9ac131733606362fbfa7704884d43c8545c600342e42902240fc6dc",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:32:17.768319+00:00"
+ },
+ {
+  "block": "government",
+  "term": "реестре",
+  "from": "11.06.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/government?Name=%D1%80%D0%B5%D0%B5%D1%81%D1%82%D1%80%D0%B5&DocumentDateSearchType=0&DocumentDateFrom=11.06.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w047-government.html",
+  "sha256": "28f3f569a97fe8c24e699b7d155813a640d1c9aa72251f3d24e06dceb81124b3",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:32:18.531829+00:00"
+ },
+ {
+  "block": "government",
+  "term": "реестр",
+  "from": "11.06.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/government?Name=%D1%80%D0%B5%D0%B5%D1%81%D1%82%D1%80&DocumentDateSearchType=0&DocumentDateFrom=11.06.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w048-government.html",
+  "sha256": "92340581ca023e63ca833797972954d9a1e8651c1bef948bcc0c7c49496527e1",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:32:19.869975+00:00"
+ },
+ {
+  "block": "government",
+  "term": "флагом",
+  "from": "11.06.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/government?Name=%D1%84%D0%BB%D0%B0%D0%B3%D0%BE%D0%BC&DocumentDateSearchType=0&DocumentDateFrom=11.06.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w049-government.html",
+  "sha256": "6d5a7eb1290af74d803ae83d842d8c7eba18f1b29885e2e969b8e1774b517c4e",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:32:20.668965+00:00"
+ },
+ {
+  "block": "government",
+  "term": "флаг",
+  "from": "11.06.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/government?Name=%D1%84%D0%BB%D0%B0%D0%B3&DocumentDateSearchType=0&DocumentDateFrom=11.06.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w050-government.html",
+  "sha256": "0fa70e38f61230efa19a40745a023ae121ef174fcf8a6d544eee443fc259ed48",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:32:21.434390+00:00"
+ },
+ {
+  "block": "government",
+  "term": "морских",
+  "from": "11.06.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/government?Name=%D0%BC%D0%BE%D1%80%D1%81%D0%BA%D0%B8%D1%85&DocumentDateSearchType=0&DocumentDateFrom=11.06.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w051-government.html",
+  "sha256": "f2024f75862fa27f395bddd0dae4044e0f8c55cb844458a5f50b5640ebaf591f",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:32:22.224695+00:00"
+ },
+ {
+  "block": "government",
+  "term": "судоходства",
+  "from": "11.06.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/government?Name=%D1%81%D1%83%D0%B4%D0%BE%D1%85%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%B0&DocumentDateSearchType=0&DocumentDateFrom=11.06.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w052-government.html",
+  "sha256": "543cdafd18466f5ffe77d79003182b73dfc62d0fbcd39a3638412afdbd871717",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:32:22.954333+00:00"
+ },
+ {
+  "block": "government",
+  "term": "мореплавания",
+  "from": "11.06.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/government?Name=%D0%BC%D0%BE%D1%80%D0%B5%D0%BF%D0%BB%D0%B0%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F&DocumentDateSearchType=0&DocumentDateFrom=11.06.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w053-government.html",
+  "sha256": "34f780c4030aee9306fd7f6171d916e6aec78136cc53ea177274828c99e4c17f",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:32:24.153867+00:00"
+ },
+ {
+  "block": "government",
+  "term": "регистрации",
+  "from": "11.06.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/government?Name=%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D0%B8&DocumentDateSearchType=0&DocumentDateFrom=11.06.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w054-government.html",
+  "sha256": "9dcf0c1c7444df0d3c4341cc31cd3159682c143f3fae0f4cf8a2404555fc589c",
+  "n": 3,
+  "items": [
+   {
+    "act": "Постановление Правительства Российской Федерации от 24.09.2026 № 1231",
+    "title": "Об утверждении особенностей ввоза в Российскую Федерацию и обращения в Российской Федерации зарегистрированных оригинальных орфанных лекарственных препаратов и (или) высокотехнологичных лекарственных препаратов для медицинского применения в течение 12 месяцев после даты их регистрации в Российской Федерации в упаковках, предназначенных для обращения в иностранных государствах",
+    "eo": "0001202609300050"
+   },
+   {
+    "act": "Постановление Правительства Российской Федерации от 31.08.2026 № 1119",
+    "title": "Об утверждении Правил регистрации доменных имен",
+    "eo": "0001202609010015"
+   },
+   {
+    "act": "Постановление Правительства Российской Федерации от 16.06.2026 № 752",
+    "title": "О проведении эксперимента по реализации возможности регистрации граждан Российской Федерации в системе индивидуального (персонифицированного) учета, получения квалифицированных сертификатов ключей проверки электронных подписей гражданами Российской Федерации за пределами Российской Федерации и предоставления им государственных и иных услуг",
+    "eo": "0001202606190026"
+   }
+  ],
+  "observed_at": "2026-10-22T02:32:25.071632+00:00"
+ },
+ {
+  "block": "government",
+  "term": "Российский",
+  "from": "11.06.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/government?Name=%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9&DocumentDateSearchType=0&DocumentDateFrom=11.06.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w055-government.html",
+  "sha256": "d165252fde5a0de8abacfd6a8281b255935f8ed611b0a237287bc83a35a98a15",
+  "n": 1,
+  "items": [
+   {
+    "act": "Распоряжение Правительства Российской Федерации от 14.08.2026 № 2146-р",
+    "title": "О генеральном директоре публично-правовой компании по формированию комплексной системы обращения с твердыми коммунальными отходами ",
+    "eo": "0001202608170014"
+   }
+  ],
+  "observed_at": "2026-10-22T02:32:25.958811+00:00"
+ },
+ {
+  "block": "federal_authorities",
+  "term": "судов",
+  "from": "11.06.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/federal_authorities?Name=%D1%81%D1%83%D0%B4%D0%BE%D0%B2&DocumentDateSearchType=0&DocumentDateFrom=11.06.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w056-federal_authorities.html",
+  "sha256": "6e729e78b397518d8ea02c1b5d08f5f4591dc965223b0faf6b2ec9e2f4462651",
+  "n": 21,
+  "items": [
+   {
+    "act": "Приказ Министерства транспорта Российской Федерации от 27.08.2026 № 383",
+    "title": "Об утверждении перечня индикаторов риска нарушения обязательных требований при осуществлении федерального государственного контроля (надзора) в области торгового мореплавания и внутреннего водного транспорта (за исключением обеспечения безопасности плавания судов рыбопромыслового флота в районах промысла при осуществлении рыболовства)",
+    "eo": "0001202610190003"
+   },
+   {
+    "act": "Приказ Министерства юстиции Российской Федерации от 02.10.2026 № 276",
+    "title": "Об установлении Порядка направления федеральным органом исполнительной власти, уполномоченным на осуществление функций по обеспечению установленного порядка деятельности судов и исполнению судебных актов и актов других органов, запроса в бюро кредитных историй по делу, находящемуся в его производстве, и состава такого запроса",
+    "eo": "0001202610090006"
+   },
+   {
+    "act": "Приказ Министерства Российской Федерации по делам гражданской обороны, чрезвычайным ситуациям и ликвидации последствий стихийных бедствий от 04.08.2026 № 591",
+    "title": "О признании утратившим силу приказа МЧС России от 27 июля 2023 г. № 777 ",
+    "eo": "0001202610060033"
+   },
+   {
+    "act": "Приказ Министерства Российской Федерации по делам гражданской обороны, чрезвычайным ситуациям и ликвидации последствий стихийных бедствий от 03.08.2026 № 588",
+    "title": "Об утверждении Порядка государственной регистрации маломерных судов, а также формы, описания и порядка выдачи судового билета",
+    "eo": "0001202610060017"
+   },
+   {
+    "act": "Приказ Министерства цифрового развития, связи и массовых коммуникаций Российской Федерации от 03.08.2026 № 723",
+    "title": "Об утверждении порядка принятия решения о пресечении функционирования беспилотных воздушных, подводных и надводных судов и аппаратов, беспилотных транспортных средств и иных автоматизированных беспилотных комплексов в целях отражения нападения либо угрозы нападения на охраняемые объекты, работников организации специальной почтовой связи или лиц, находящихся на этих объектах, а также перечня должностных лиц организации специальной почтовой связи, уполномоченных на принятие такого решения",
+    "eo": "0001202609210007"
+   },
+   {
+    "act": "Приказ Федеральной таможенной службы от 20.07.2026 № 647",
+    "title": "",
+    "eo": "0001202609010008"
+   },
+   {
+    "act": "Приказ Федеральной антимонопольной службы от 31.07.2026 № 608/26",
+    "title": "",
+    "eo": "0001202608310018"
+   },
+   {
+    "act": "Приказ Министерства Российской Федерации по делам гражданской обороны, чрезвычайным ситуациям и ликвидации последствий стихийных бедствий от 13.08.2026 № 606",
+    "title": "Об утверждении Административного регламента Министерства Российской Федерации по делам гражданской обороны, чрезвычайным ситуациям и ликвидации последствий стихийных бедствий по предоставлению государственной услуги ",
+    "eo": "0001202608200018"
+   },
+   {
+    "act": "Приказ Федеральной антимонопольной службы от 20.07.2026 № 547/26",
+    "title": "",
+    "eo": "0001202608180003"
+   },
+   {
+    "act": "Приказ Федеральной антимонопольной службы от 01.07.2026 № 502/26",
+    "title": "",
+    "eo": "0001202608040057"
+   },
+   {
+    "act": "Приказ Федеральной антимонопольной службы от 01.07.2026 № 494/26",
+    "title": "",
+    "eo": "0001202608040051"
+   },
+   {
+    "act": "Приказ Федеральной антимонопольной службы от 01.07.2026 № 493/26",
+    "title": "",
+    "eo": "0001202608040046"
+   },
+   {
+    "act": "Приказ Федеральной антимонопольной службы от 01.07.2026 № 498/26",
+    "title": "",
+    "eo": "0001202608030020"
+   },
+   {
+    "act": "Приказ Федеральной антимонопольной службы от 01.07.2026 № 497/26",
+    "title": "",
+    "eo": "0001202608030006"
+   },
+   {
+    "act": "Приказ Федеральной антимонопольной службы от 01.07.2026 № 495/26",
+    "title": "",
+    "eo": "0001202608030008"
+   },
+   {
+    "act": "Приказ Федеральной антимонопольной службы от 29.06.2026 № 482/26",
+    "title": "",
+    "eo": "0001202607300008"
+   },
+   {
+    "act": "Приказ Федеральной службы безопасности Российской Федерации от 11.07.2026 № 262",
+    "title": "Об утверждении Порядка охраны подозреваемых и обвиняемых, находящихся в расположенных в зданиях судов общей юрисдикции помещениях для временного пребывания конвоируемых подозреваемых и обвиняемых под охраной органов федеральной службы безопасности, в том числе порядка приема пищи такими подозреваемыми и обвиняемыми и порядка организации оказания им медицинской помощи",
+    "eo": "0001202607160009"
+   },
+   {
+    "act": "Приказ Федеральной антимонопольной службы от 01.07.2026 № 501/26",
+    "title": "",
+    "eo": "0001202607140001"
+   },
+   {
+    "act": "Приказ Федеральной антимонопольной службы от 01.07.2026 № 500/26",
+    "title": "",
+    "eo": "0001202607140002"
+   },
+   {
+    "act": "Приказ Федеральной антимонопольной службы от 01.07.2026 № 499/26",
+    "title": "",
+    "eo": "0001202607140005"
+   },
+   {
+    "act": "Приказ Федеральной антимонопольной службы от 23.06.2026 № 473/26",
+    "title": "",
+    "eo": "0001202607010024"
+   }
+  ],
+  "observed_at": "2026-10-22T02:32:28.489537+00:00"
+ },
+ {
+  "block": "federal_authorities",
+  "term": "судна",
+  "from": "11.06.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/federal_authorities?Name=%D1%81%D1%83%D0%B4%D0%BD%D0%B0&DocumentDateSearchType=0&DocumentDateFrom=11.06.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w057-federal_authorities.html",
+  "sha256": "2ea888e2e2d1751bc6416d802a38101d4f1403dd3df4b4ac3ade621e66fca739",
+  "n": 1,
+  "items": [
+   {
+    "act": "Приказ Министерства транспорта Российской Федерации от 24.07.2026 № 337",
+    "title": "О внесении изменений в Федеральные авиационные правила ",
+    "eo": "0001202608210003"
+   }
+  ],
+  "observed_at": "2026-10-22T02:32:32.267910+00:00"
+ },
+ {
+  "block": "federal_authorities",
+  "term": "суда",
+  "from": "11.06.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/federal_authorities?Name=%D1%81%D1%83%D0%B4%D0%B0&DocumentDateSearchType=0&DocumentDateFrom=11.06.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w058-federal_authorities.html",
+  "sha256": "7dad4f00118aa4ae6024890b0e42d84b091185aa936efb9430c441e0fb95fc50",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:32:33.473476+00:00"
+ },
+ {
+  "block": "federal_authorities",
+  "term": "реестре",
+  "from": "11.06.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/federal_authorities?Name=%D1%80%D0%B5%D0%B5%D1%81%D1%82%D1%80%D0%B5&DocumentDateSearchType=0&DocumentDateFrom=11.06.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w059-federal_authorities.html",
+  "sha256": "4afc4a0f5b9759832b8fbf80db5556a6372c0d624dd207d2d33d73a1d1c8f91d",
+  "n": 3,
+  "items": [
+   {
+    "act": "Приказ Министерства сельского хозяйства Российской Федерации от 29.07.2026 № 514",
+    "title": "",
+    "eo": "0001202609090009"
+   },
+   {
+    "act": "Приказ Министерства юстиции Российской Федерации от 18.08.2026 № 216",
+    "title": "О признании утратившими силу приказа Минюста России от 02.10.2020 № 241 ",
+    "eo": "0001202608210020"
+   },
+   {
+    "act": "Приказ Министерства финансов Российской Федерации от 24.06.2026 № 77н",
+    "title": "О внесении изменений в пункт 6 Структуры номера записи акта гражданского состояния в Едином государственном реестре записей актов гражданского состояния, утвержденной приказом Министерства финансов Российской Федерации от 27 сентября 2018 г. № 202н",
+    "eo": "0001202607220008"
+   }
+  ],
+  "observed_at": "2026-10-22T02:32:34.793911+00:00"
+ },
+ {
+  "block": "federal_authorities",
+  "term": "реестр",
+  "from": "11.06.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/federal_authorities?Name=%D1%80%D0%B5%D0%B5%D1%81%D1%82%D1%80&DocumentDateSearchType=0&DocumentDateFrom=11.06.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w060-federal_authorities.html",
+  "sha256": "28e74371459270de5635740cc3b3a72a007de3cb921898f19af57732be058bc5",
+  "n": 34,
+  "items": [
+   {
+    "act": "Приказ Министерства культуры Российской Федерации от 14.09.2026 № 1745",
+    "title": "О включении выявленного объекта культурного наследия (памятника истории и культуры) народов Российской Федерации ",
+    "eo": "0001202610210010"
+   },
+   {
+    "act": "Приказ Министерства культуры Российской Федерации от 21.07.2026 № 1351",
+    "title": "",
+    "eo": "0001202610210002"
+   },
+   {
+    "act": "Приказ Министерства культуры Российской Федерации от 08.07.2026 № 1281",
+    "title": "О включении выявленного объекта культурного наследия (памятника истории и культуры) народов Российской Федерации ",
+    "eo": "0001202610210009"
+   },
+   {
+    "act": "Приказ Министерства культуры Российской Федерации от 03.09.2026 № 1688",
+    "title": "О включении выявленного объекта культурного наследия (памятника истории и культуры) народов Российской Федерации ",
+    "eo": "0001202610120017"
+   },
+   {
+    "act": "Приказ Министерства культуры Российской Федерации от 01.09.2026 № 1675",
+    "title": "",
+    "eo": "0001202610120020"
+   },
+   {
+    "act": "Приказ Федеральной службы по экологическому, технологическому и атомному надзору от 07.09.2026 № 316",
+    "title": "Об утверждении Административного регламента Федеральной службы по экологическому, технологическому и атомному надзору по предоставлению государственной услуги ",
+    "eo": "0001202610090020"
+   },
+   {
+    "act": "Приказ Федеральной службы по экологическому, технологическому и атомному надзору от 07.09.2026 № 314",
+    "title": "Об утверждении Административного регламента Федеральной службы по экологическому, технологическому и атомному надзору по предоставлению государственной услуги ",
+    "eo": "0001202610090015"
+   },
+   {
+    "act": "Приказ Министерства экономического развития Российской Федерации от 07.09.2026 № 629",
+    "title": "О признании утратившим силу приказа Минэкономразвития России от 30 октября 2017 г. № 575 ",
+    "eo": "0001202610070008"
+   },
+   {
+    "act": "Приказ Министерства культуры Российской Федерации от 24.08.2026 № 1609",
+    "title": "О включении выявленного объекта культурного наследия (памятника истории и культуры) народов Российской Федерации ",
+    "eo": "0001202610070014"
+   },
+   {
+    "act": "Приказ Министерства культуры Российской Федерации от 13.08.2026 № 1516",
+    "title": "О внесении изменений в приложение № 3 к приказу Министерства культуры Российской Федерации от 1 июня 2015 г. № 1693 ",
+    "eo": "0001202610060031"
+   },
+   {
+    "act": "Приказ Министерства спорта Российской Федерации от 13.08.2026 № 720",
+    "title": "О признании и включении во Всероссийский реестр видов спорта спортивных дисциплин, видов спорта и внесении изменений во Всероссийский реестр видов спорта",
+    "eo": "0001202609220018"
+   },
+   {
+    "act": "Приказ Министерства культуры Российской Федерации от 12.08.2026 № 1510",
+    "title": "О включении выявленного объекта культурного наследия (памятника истории и культуры) народов Российской Федерации ",
+    "eo": "0001202609220011"
+   },
+   {
+    "act": "Приказ Министерства культуры Российской Федерации от 12.08.2026 № 1509",
+    "title": "",
+    "eo": "0001202609220021"
+   },
+   {
+    "act": "Приказ Министерства культуры Российской Федерации от 12.08.2026 № 1508",
+    "title": "О включении выявленного объекта культурного наследия (памятника истории и культуры) народов Российской Федерации ",
+    "eo": "0001202609220012"
+   },
+   {
+    "act": "Приказ Министерства культуры Российской Федерации от 12.08.2026 № 1511",
+    "title": "О включении выявленного объекта культурного наследия (памятника истории и культуры) народов Российской Федерации ",
+    "eo": "0001202609210012"
+   },
+   {
+    "act": "Приказ Федеральной службы по экологическому, технологическому и атомному надзору от 09.09.2026 № 326",
+    "title": "Об утверждении Административного регламента по предоставлению государственной услуги ",
+    "eo": "0001202609170004"
+   },
+   {
+    "act": "Приказ Министерства юстиции Российской Федерации от 10.09.2026 № 252",
+    "title": "",
+    "eo": "0001202609160012"
+   },
+   {
+    "act": "Приказ Министерства природных ресурсов и экологии Российской Федерации от 31.07.2026 № 419",
+    "title": "О признании утратившим силу приказа Министерства природных ресурсов и экологии Российской Федерации от 26 сентября 2013 г. № 410 ",
+    "eo": "0001202609080008"
+   },
+   {
+    "act": "Приказ Министерства культуры Российской Федерации от 04.08.2026 № 1446",
+    "title": "",
+    "eo": "0001202609080016"
+   },
+   {
+    "act": "Приказ Министерства финансов Российской Федерации от 27.07.2026 № 101н",
+    "title": "Об утверждении Порядка включения юридических лиц в реестр таможенных представителей, исключения их из реестра таможенных представителей по основанию, установленному подпунктом 3 пункта 1 статьи 403 Таможенного кодекса Евразийского экономического союза, и внесения изменений в реестр таможенных представителей",
+    "eo": "0001202609080023"
+   },
+   {
+    "act": "Приказ Министерства культуры Российской Федерации от 22.07.2026 № 1367",
+    "title": "",
+    "eo": "0001202608310028"
+   },
+   {
+    "act": "Приказ Министерства культуры Российской Федерации от 02.07.2026 № 1235",
+    "title": "О внесении изменений в приложение № 2 к приказу Министерства культуры Российской Федерации от 7 сентября 2017 г. № 1497 ",
+    "eo": "0001202608110013"
+   },
+   {
+    "act": "Приказ Министерства культуры Российской Федерации от 29.06.2026 № 1199",
+    "title": "О включении выявленного объекта культурного наследия (памятника истории и культуры) народов Российской Федерации ",
+    "eo": "0001202608100015"
+   },
+   {
+    "act": "Приказ Министерства культуры Российской Федерации от 29.06.2026 № 1198",
+    "title": "О включении выявленного объекта культурного наследия (памятника истории и культуры) народов Российской Федерации ",
+    "eo": "0001202608100017"
+   },
+   {
+    "act": "Приказ Министерства культуры Российской Федерации от 29.06.2026 № 1197",
+    "title": "О включении выявленного объекта культурного наследия (памятника истории и культуры) народов Российской Федерации ",
+    "eo": "0001202608100016"
+   },
+   {
+    "act": "Приказ Министерства культуры Российской Федерации от 29.06.2026 № 1196",
+    "title": "О включении выявленного объекта культурного наследия (памятника истории и культуры) народов Российской Федерации ",
+    "eo": "0001202608100018"
+   },
+   {
+    "act": "Приказ Министерства культуры Российской Федерации от 29.06.2026 № 1195",
+    "title": "О включении выявленного объекта культурного наследия (памятника истории и культуры) народов Российской Федерации ",
+    "eo": "0001202608100019"
+   },
+   {
+    "act": "Приказ Министерства Российской Федерации по делам гражданской обороны, чрезвычайным ситуациям и ликвидации последствий стихийных бедствий от 29.06.2026 № 476",
+    "title": "О внесении изменения в приказ МЧС России от 17 января 2022 г. № 20 ",
+    "eo": "0001202608040047"
+   },
+   {
+    "act": "Приказ Министерства культуры Российской Федерации от 21.07.2026 № 1358",
+    "title": "",
+    "eo": "0001202608030015"
+   },
+   {
+    "act": "Приказ Министерства культуры Российской Федерации от 29.06.2026 № 1209",
+    "title": "О включении выявленного объекта культурного наследия (памятника истории и культуры) народов Российской Федерации ",
+    "eo": "0001202608030010"
+   },
+   {
+    "act": "Приказ Министерства культуры Российской Федерации от 29.06.2026 № 1194",
+    "title": "О включении выявленных объектов культурного наследия (памятников истории и культуры) народов Российской Федерации (объектов археологического наследия), расположенных на территории Ульяновской области, в единый государственный реестр объектов культурного наследия (памятников истории и культуры) народов Российской Федерации в качестве объектов культурного наследия (памятников истории и культуры) народов Российской Федерации федерального значения и утверждении границ их территорий",
+    "eo": "0001202608030012"
+   },
+   {
+    "act": "Приказ Министерства культуры Российской Федерации от 22.06.2026 № 1152",
+    "title": "О включении выявленных объектов культурного наследия (памятников истории и культуры) народов Российской Федерации (объектов археологического наследия), расположенных на территории городского округа ",
+    "eo": "0001202607270005"
+   },
+   {
+    "act": "Приказ Министерства культуры Российской Федерации от 22.06.2026 № 1151",
+    "title": "",
+    "eo": "0001202607240004"
+   },
+   {
+    "act": "Приказ Министерства спорта Российской Федерации от 11.06.2026 № 508",
+    "title": "О признании и включении во Всероссийский реестр видов спорта спортивных дисциплин, видов спорта и внесении изменений во Всероссийский реестр видов спорта",
+    "eo": "0001202607220014"
+   }
+  ],
+  "observed_at": "2026-10-22T02:32:37.874139+00:00"
+ },
+ {
+  "block": "federal_authorities",
+  "term": "флагом",
+  "from": "11.06.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/federal_authorities?Name=%D1%84%D0%BB%D0%B0%D0%B3%D0%BE%D0%BC&DocumentDateSearchType=0&DocumentDateFrom=11.06.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w061-federal_authorities.html",
+  "sha256": "e5f91d9029a1b9f02358cfdf5dd1870ca9f25e11796f69652ab459f85726b1c4",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:32:39.035309+00:00"
+ },
+ {
+  "block": "federal_authorities",
+  "term": "флаг",
+  "from": "11.06.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/federal_authorities?Name=%D1%84%D0%BB%D0%B0%D0%B3&DocumentDateSearchType=0&DocumentDateFrom=11.06.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w062-federal_authorities.html",
+  "sha256": "ce7ff50b0b8427b0841b24c88c18b1c30efe815a76980bc30b4d7de170f26e5b",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:32:40.190837+00:00"
+ },
+ {
+  "block": "federal_authorities",
+  "term": "морских",
+  "from": "11.06.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/federal_authorities?Name=%D0%BC%D0%BE%D1%80%D1%81%D0%BA%D0%B8%D1%85&DocumentDateSearchType=0&DocumentDateFrom=11.06.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w063-federal_authorities.html",
+  "sha256": "ffd53a401eaa7bc7895d546aad084371746f3f0b0fad28fa31d89b2e02160488",
+  "n": 4,
+  "items": [
+   {
+    "act": "Приказ Министерства сельского хозяйства Российской Федерации от 14.09.2026 № 609",
+    "title": "О признании утратившими силу приказа Министерства сельского хозяйства Российской Федерации от 13 мая 2021 г. № 291 ",
+    "eo": "0001202610160010"
+   },
+   {
+    "act": "Приказ Федеральной службы по надзору в сфере природопользования от 19.06.2026 № 363",
+    "title": "Об утверждении порядка ведения реестра разрешений на захоронение донного грунта во внутренних морских водах и в территориальном море Российской Федерации и предоставления выписок из указанного реестра",
+    "eo": "0001202609170001"
+   },
+   {
+    "act": "Приказ Федеральной службы по надзору в сфере транспорта от 03.07.2026 № ВГ-236фс",
+    "title": "О внесении изменений в приложения № 1, № 2, № 3, № 4 к приказу Федеральной службы по надзору в сфере транспорта от 26 января 2022 г. № ВБ-44фс ",
+    "eo": "0001202608240022"
+   },
+   {
+    "act": "Приказ Федеральной антимонопольной службы от 23.06.2026 № 474/26",
+    "title": "Об утверждении ставок портовых сборов за услуги, оказываемые ФГУП ",
+    "eo": "0001202607230007"
+   }
+  ],
+  "observed_at": "2026-10-22T02:32:41.529195+00:00"
+ },
+ {
+  "block": "federal_authorities",
+  "term": "судоходства",
+  "from": "11.06.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/federal_authorities?Name=%D1%81%D1%83%D0%B4%D0%BE%D1%85%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%B0&DocumentDateSearchType=0&DocumentDateFrom=11.06.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w064-federal_authorities.html",
+  "sha256": "ed4e9a3fdefdc05a7547321ea1b2a187f77e98383c15c70f4a23e8f8a3718447",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:32:42.728468+00:00"
+ },
+ {
+  "block": "federal_authorities",
+  "term": "мореплавания",
+  "from": "11.06.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/federal_authorities?Name=%D0%BC%D0%BE%D1%80%D0%B5%D0%BF%D0%BB%D0%B0%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F&DocumentDateSearchType=0&DocumentDateFrom=11.06.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w065-federal_authorities.html",
+  "sha256": "666e6dad1bdb94e235876597cb0c1aa7d8fe0c1d8867cc6c4029a8591083d708",
+  "n": 2,
+  "items": [
+   {
+    "act": "Приказ Министерства транспорта Российской Федерации от 27.08.2026 № 383",
+    "title": "Об утверждении перечня индикаторов риска нарушения обязательных требований при осуществлении федерального государственного контроля (надзора) в области торгового мореплавания и внутреннего водного транспорта (за исключением обеспечения безопасности плавания судов рыбопромыслового флота в районах промысла при осуществлении рыболовства)",
+    "eo": "0001202610190003"
+   },
+   {
+    "act": "Приказ Федеральной службы по надзору в сфере транспорта от 15.06.2026 № ВГ-214фс",
+    "title": "Об утверждении форм проверочных листов (списков контрольных вопросов, ответы на которые свидетельствуют о соблюдении или несоблюдении контролируемым лицом обязательных требований), применяемых Федеральной службой по надзору в сфере транспорта и ее территориальными органами при осуществлении федерального государственного контроля (надзора) в области торгового мореплавания и внутреннего водного транспорта",
+    "eo": "0001202608120017"
+   }
+  ],
+  "observed_at": "2026-10-22T02:32:44.247930+00:00"
+ },
+ {
+  "block": "federal_authorities",
+  "term": "регистрации",
+  "from": "11.06.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/federal_authorities?Name=%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D0%B8&DocumentDateSearchType=0&DocumentDateFrom=11.06.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w066-federal_authorities.html",
+  "sha256": "d4ef0e18ea5165edb84fe8b2d04d353522082c938a7a1f7d9b1449138710e1ac",
+  "n": 33,
+  "items": [
+   {
+    "act": "Приказ Федеральной службы государственной регистрации, кадастра и картографии от 11.09.2026 № П/0425/26",
+    "title": "О внесении изменений в Порядок принятия решения об осуществлении контроля за расходами федеральных государственных гражданских служащих Федеральной службы государственной регистрации, кадастра и картографии и ее территориальных органов, а также за расходами их супруг (супругов) и несовершеннолетних детей, утвержденный приказом Федеральной службы государственной регистрации‚ кадастра и картографии от 1 декабря 2022 г. № П/0467",
+    "eo": "0001202610210011"
+   },
+   {
+    "act": "Приказ Федеральной службы по контролю за алкогольным и табачным рынками от 21.09.2026 № 346н",
+    "title": "",
+    "eo": "0001202610200006"
+   },
+   {
+    "act": "Приказ Федеральной службы государственной регистрации, кадастра и картографии от 09.09.2026 № П/0418/26",
+    "title": "О внесении изменений в порядок ведения, порядок и сроки хранения реестровых дел, книг учета документов, а также документов, подлежащих выдаче заявителям после осуществления государственного кадастрового учета и (или) государственной регистрации прав на недвижимость, но не полученных ими, утвержденные приказом Федеральной службы государственной регистрации‚ кадастра и картографии от 28 июня 2022 г. № П/0254",
+    "eo": "0001202610140025"
+   },
+   {
+    "act": "Приказ Федеральной службы государственной регистрации, кадастра и картографии от 07.09.2026 № П/0411/26",
+    "title": "",
+    "eo": "0001202610140018"
+   },
+   {
+    "act": "Приказ Федеральной службы государственной регистрации, кадастра и картографии от 07.09.2026 № П/0410/26",
+    "title": "Об утверждении Порядка представления сведений о доходах, расходах, об имуществе и обязательствах имущественного характера в Федеральной службе государственной регистрации‚ кадастра и картографии и ее территориальных органах",
+    "eo": "0001202610140009"
+   },
+   {
+    "act": "Приказ Федеральной антимонопольной службы от 14.09.2026 № 719/26",
+    "title": "Об утверждении Порядка уведомления федеральными государственными гражданскими служащими ФАС России и ее территориальных органов, работниками, замещающими отдельные должности на основании трудового договора в организациях, создаваемых для выполнения задач, поставленных перед ФАС России, о фактах обращения в целях склонения к совершению коррупционных правонарушений, регистрации таких уведомлений и организации проверки содержащихся в них сведений",
+    "eo": "0001202610140022"
+   },
+   {
+    "act": "Приказ Федерального казначейства от 08.09.2026 № 25н",
+    "title": "Об утверждении Порядка уведомления федеральными государственными гражданскими служащими центрального аппарата Федерального казначейства, территориальных органов Федерального казначейства, работниками федерального казенного учреждения ",
+    "eo": "0001202610140020"
+   },
+   {
+    "act": "Приказ Федерального медико-биологического агентства от 11.09.2026 № 174",
+    "title": "",
+    "eo": "0001202610140024"
+   },
+   {
+    "act": "Приказ Федеральной службы государственной регистрации, кадастра и картографии от 17.08.2026 № П/0372/26",
+    "title": "О внесении изменений в порядок ведения Единого государственного реестра недвижимости, установленный приказом Федеральной службы государственной регистрации‚ кадастра и картографии от 7 декабря 2023 г. № П/0514",
+    "eo": "0001202610090009"
+   },
+   {
+    "act": "Приказ Федеральной службы государственной регистрации, кадастра и картографии от 08.07.2026 № П/0327/26",
+    "title": "О признании утратившими силу приказов Федеральной службы государственной регистрации, кадастра и картографии от 27 июля 2022 г. № П/0298 и от 28 мая 2024 г. № П/0158/24",
+    "eo": "0001202610090007"
+   },
+   {
+    "act": "Приказ Министерства экономического развития Российской Федерации от 07.09.2026 № 629",
+    "title": "О признании утратившим силу приказа Минэкономразвития России от 30 октября 2017 г. № 575 ",
+    "eo": "0001202610070008"
+   },
+   {
+    "act": "Приказ Федеральной службы государственной статистики от 03.09.2026 № 529",
+    "title": "Об утверждении Порядка уведомления федеральными государственными гражданскими служащими Федеральной службы государственной статистики и ее территориальных органов, работниками, замещающими отдельные должности в организациях, создаваемых для выполнения задач, поставленных перед Федеральной службой государственной статистики, о фактах обращения в целях склонения к совершению коррупционных правонарушений, регистрации таких уведомлений и организации проверки содержащихся в них сведений",
+    "eo": "0001202610070011"
+   },
+   {
+    "act": "Приказ Министерства Российской Федерации по делам гражданской обороны, чрезвычайным ситуациям и ликвидации последствий стихийных бедствий от 04.08.2026 № 591",
+    "title": "О признании утратившим силу приказа МЧС России от 27 июля 2023 г. № 777 ",
+    "eo": "0001202610060033"
+   },
+   {
+    "act": "Приказ Министерства Российской Федерации по делам гражданской обороны, чрезвычайным ситуациям и ликвидации последствий стихийных бедствий от 03.08.2026 № 588",
+    "title": "Об утверждении Порядка государственной регистрации маломерных судов, а также формы, описания и порядка выдачи судового билета",
+    "eo": "0001202610060017"
+   },
+   {
+    "act": "Приказ Министерства экономического развития Российской Федерации от 28.08.2026 № 619",
+    "title": "Об утверждении Порядка уведомления работодателя работниками, замещающими отдельные должности на основании трудового договора в организациях, создаваемых для выполнения задач, поставленных перед Минэкономразвития России, о фактах обращения в целях склонения к совершению коррупционных правонарушений, регистрации таких уведомлений и организации проверки содержащихся в них сведений",
+    "eo": "0001202610010003"
+   },
+   {
+    "act": "Приказ Федеральной службы государственной регистрации, кадастра и картографии от 25.08.2026 № П/0386/26",
+    "title": "О внесении изменений в пункт 6 Порядка ведения фонда данных государственной кадастровой оценки и предоставления сведений, включенных в этот фонд, утвержденного приказом Федеральной службы государственной регистрации‚ кадастра и картографии от 6 августа 2020 г. № П/0278",
+    "eo": "0001202609300009"
+   },
+   {
+    "act": "Приказ Федеральной налоговой службы от 27.08.2026 № ЕД-1-4/614@",
+    "title": "Об утверждении Порядка уведомления работниками, замещающими отдельные должности на основании трудового договора в организациях, создаваемых для выполнения задач, поставленных перед Федеральной налоговой службой, о фактах обращения в целях склонения их к совершению коррупционных правонарушений, регистрации таких уведомлений и организации проверки содержащихся в них сведений",
+    "eo": "0001202609290039"
+   },
+   {
+    "act": "Приказ Федерального агентства по делам молодежи от 26.08.2026 № 371",
+    "title": "",
+    "eo": "0001202609280026"
+   },
+   {
+    "act": "Приказ Министерства Российской Федерации по развитию Дальнего Востока и Арктики от 26.08.2026 № 126",
+    "title": "Об утверждении Порядка уведомления работниками, замещающими отдельные должности на основании трудового договора в организациях, создаваемых для выполнения задач, поставленных перед Минвостокразвития России, о фактах обращения в целях склонения их к совершению коррупционных правонарушений, регистрации таких уведомлений и организации проверки содержащихся в них сведений",
+    "eo": "0001202609280025"
+   },
+   {
+    "act": "Приказ Министерства Российской Федерации по делам гражданской обороны, чрезвычайным ситуациям и ликвидации последствий стихийных бедствий от 25.08.2026 № 654",
+    "title": "",
+    "eo": "0001202609250035"
+   },
+   {
+    "act": "Приказ Федеральной службы государственной регистрации, кадастра и картографии от 18.08.2026 № П/0376/26",
+    "title": "Об утверждении Порядка уведомления федеральными государственными гражданскими служащими Федеральной службы государственной регистрации‚ кадастра и картографии, ее территориальных органов представителя нанимателя о фактах обращения в целях склонения к совершению коррупционных правонарушений, регистрации таких уведомлений и организации проверки содержащихся в них сведений",
+    "eo": "0001202609240041"
+   },
+   {
+    "act": "Приказ Федеральной службы государственной регистрации, кадастра и картографии от 17.08.2026 № П/0375/26",
+    "title": "Об утверждении формы проверочного листа (списка контрольных вопросов, ответы на которые свидетельствуют о соблюдении или несоблюдении контролируемым лицом обязательных требований), применяемого должностными лицами Федеральной службы государственной регистрации‚ кадастра и картографии (ее территориальными органами) при осуществлении федерального государственного надзора за деятельностью саморегулируемых организаций кадастровых инженеров",
+    "eo": "0001202609230013"
+   },
+   {
+    "act": "Приказ Министерства финансов Российской Федерации от 21.08.2026 № 122н",
+    "title": "Об утверждении Порядка уведомления работниками, замещающими отдельные должности на основании трудового договора в организациях, создаваемых для выполнения задач, поставленных перед Министерством финансов Российской Федерации, о фактах обращения в целях склонения к совершению коррупционных правонарушений, регистрации таких уведомлений и организации проверки содержащихся в них сведений",
+    "eo": "0001202609180027"
+   },
+   {
+    "act": "Приказ Федеральной службы государственной регистрации, кадастра и картографии от 04.08.2026 № П/0360/26",
+    "title": "О внесении изменения в пункт 94 порядка ведения Единого государственного реестра недвижимости, установленного приказом Федеральной службы государственной регистрации, кадастра и картографии от 7 декабря 2023 г. № П/0514",
+    "eo": "0001202609090008"
+   },
+   {
+    "act": "Приказ Федеральной службы государственной регистрации, кадастра и картографии от 16.07.2026 № П/0335/26",
+    "title": "Об упорядочении обращения со служебной информацией ограниченного распространения в Федеральной службе государственной регистрации, кадастра и картографии и ее территориальных органах",
+    "eo": "0001202609020004"
+   },
+   {
+    "act": "Приказ Федеральной службы государственной регистрации, кадастра и картографии от 18.06.2026 № П/0297/26",
+    "title": "О внесении изменений в приказы Федеральной службы государственной регистрации‚ кадастра и картографии от 1 октября 2024 г. № П/0302/24 и от 23 октября 2024 г. № П/0329/24",
+    "eo": "0001202609010009"
+   },
+   {
+    "act": "Приказ Министерства юстиции Российской Федерации от 20.08.2026 № 227",
+    "title": "О признании утратившими силу приказа Минюста России от 11 июля 2006 г. № 250 ",
+    "eo": "0001202608260016"
+   },
+   {
+    "act": "Приказ Федеральной пробирной палаты от 15.07.2026 № 157н",
+    "title": "Об утверждении форм уведомлений о принятии решения о регистрации (отказе в регистрации) именника, о необходимости представления оттиска именника",
+    "eo": "0001202608170010"
+   },
+   {
+    "act": "Приказ Министерства сельского хозяйства Российской Федерации от 18.06.2026 № 414",
+    "title": "О признании утратившими силу приказа Минсельхоза России от 24 октября 2011 г. № 377 ",
+    "eo": "0001202607270007"
+   },
+   {
+    "act": "Приказ Федеральной службы государственной регистрации, кадастра и картографии от 24.06.2026 № П/0304/26",
+    "title": "Об утверждении Административного регламента Федеральной службы государственной регистрации‚ кадастра и картографии по предоставлению государственной услуги ",
+    "eo": "0001202607230024"
+   },
+   {
+    "act": "Приказ Федеральной службы государственной регистрации, кадастра и картографии от 23.06.2026 № П/0302/26",
+    "title": "Об утверждении Административного регламента Федеральной службы государственной регистрации‚ кадастра и картографии по предоставлению государственной услуги ",
+    "eo": "0001202607230010"
+   },
+   {
+    "act": "Приказ Федеральной службы исполнения наказаний от 01.07.2026 № 418",
+    "title": "Об утверждении Порядка организации приема, регистрации и проверки в учреждениях и органах уголовно-исполнительной системы Российской Федерации сообщений о преступлениях",
+    "eo": "0001202607150009"
+   },
+   {
+    "act": "Приказ Министерства юстиции Российской Федерации от 29.06.2026 № 188",
+    "title": "",
+    "eo": "0001202607030003"
+   }
+  ],
+  "observed_at": "2026-10-22T02:32:46.691323+00:00"
+ },
+ {
+  "block": "federal_authorities",
+  "term": "Российский",
+  "from": "11.06.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/federal_authorities?Name=%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9&DocumentDateSearchType=0&DocumentDateFrom=11.06.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w067-federal_authorities.html",
+  "sha256": "0dfecf8d1332f2ed6771a8b590588ec09f96df7ed0ddb9c95e48b78e6e389b8a",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:32:47.912600+00:00"
+ },
+ {
+  "block": "president",
+  "term": "топлива",
+  "from": "28.09.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/president?Name=%D1%82%D0%BE%D0%BF%D0%BB%D0%B8%D0%B2%D0%B0&DocumentDateSearchType=0&DocumentDateFrom=28.09.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w068-president.html",
+  "sha256": "c7e7f4d26730495732ad77560a7787889eb9f319f965c5165d2d043756d3541a",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:32:48.753746+00:00"
+ },
+ {
+  "block": "president",
+  "term": "нефтепродуктов",
+  "from": "28.09.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/president?Name=%D0%BD%D0%B5%D1%84%D1%82%D0%B5%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D0%BE%D0%B2&DocumentDateSearchType=0&DocumentDateFrom=28.09.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w069-president.html",
+  "sha256": "9a7aa82693fe223629317f7563a9ad8dbc1ab493593846f70324d694682be6e0",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:32:49.614859+00:00"
+ },
+ {
+  "block": "president",
+  "term": "информации",
+  "from": "28.09.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/president?Name=%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%B8&DocumentDateSearchType=0&DocumentDateFrom=28.09.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w070-president.html",
+  "sha256": "f4f9800e6cf39891ff8c497da9c6afb68257d0a850d2b0104aa2bc27d6404165",
+  "n": 1,
+  "items": [
+   {
+    "act": "Указ Президента Российской Федерации от 28.09.2026 № 686",
+    "title": "Об утверждении перечня информации в сфере топливно-энергетического комплекса, доступ к которой ограничен, и порядке ее использования",
+    "eo": "0001202609280007"
+   }
+  ],
+  "observed_at": "2026-10-22T02:32:50.612076+00:00"
+ },
+ {
+  "block": "president",
+  "term": "энергетического",
+  "from": "28.09.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/president?Name=%D1%8D%D0%BD%D0%B5%D1%80%D0%B3%D0%B5%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B3%D0%BE&DocumentDateSearchType=0&DocumentDateFrom=28.09.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w071-president.html",
+  "sha256": "7ee187307710f0bed9b51cc26c62df325fb1c71286b6e74fc25b4bf8daa87ee9",
+  "n": 1,
+  "items": [
+   {
+    "act": "Указ Президента Российской Федерации от 28.09.2026 № 686",
+    "title": "Об утверждении перечня информации в сфере топливно-энергетического комплекса, доступ к которой ограничен, и порядке ее использования",
+    "eo": "0001202609280007"
+   }
+  ],
+  "observed_at": "2026-10-22T02:32:51.470697+00:00"
+ },
+ {
+  "block": "president",
+  "term": "вывоз",
+  "from": "28.09.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/president?Name=%D0%B2%D1%8B%D0%B2%D0%BE%D0%B7&DocumentDateSearchType=0&DocumentDateFrom=28.09.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w072-president.html",
+  "sha256": "4b79772fec906740f3408e215da32771f7f245a1c46836669989f88712fba730",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:32:52.382632+00:00"
+ },
+ {
+  "block": "president",
+  "term": "экспорта",
+  "from": "28.09.2026",
+  "to": "21.10.2026",
+  "url": "http://publication.pravo.gov.ru/search/president?Name=%D1%8D%D0%BA%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%B0&DocumentDateSearchType=0&DocumentDateFrom=28.09.2026&DocumentDateTo=21.10.2026&pageSize=200",
+  "http": 200,
+  "file": "w073-president.html",
+  "sha256": "e724c24cbacdb12f200c6aada9208943f810f7c6b5d10ceb7060e9ec94d50179",
+  "n": 0,
+  "items": [],
+  "observed_at": "2026-10-22T02:32:53.526338+00:00"
+ }
+]

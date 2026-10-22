@@ -1,0 +1,4 @@
+https://mintrans.gov.ru/press-center/news/13032 http=200 exit=0 t=1.249074
+http://mintrans.gov.ru/press-center/news/13032 http=301 exit=0 t=0.324926
+https://mintrans.gov.ru/eye/press-center/news/13032 http=200 exit=0 t=1.013240
+https://mintrans.gov.ru/press-center/news http=200 exit=0 t=1.920131
