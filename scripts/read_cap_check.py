@@ -107,6 +107,13 @@ SCOPE_MARKERS = ("header", "the top", "top entry", "top of", "top block", "head 
 # read as SCOPED and dropping it from the perimeter — a false NEGATIVE, the direction this tool
 # must not fail in. A scoping qualifier is "first/last N" or "first/last <unit>"; "last session",
 # "last week", "first boot" are not. Found on the VIOLET profile refresh (DAEDALUS).
+# LOCATIVE "at the top" is not a scope (2026-10-22, DAEDALUS bank-cluster review, WAL): WAL's
+# "**Read `MEMORY.md`** — the current handoff and next steps are at the top; …" scored a 10 KB WHOLE
+# read as SCOPED via the bare "the top" marker in the qualifier tail and dropped it (a false
+# negative, the direction this tool must not fail in). "the TOP 2–3 entries" (RED) still scopes;
+# only the locative "at the top" is excluded. Fleet diff: WAL MEMORY.md is the only change.
+LOCATIVE_TOP_RE = re.compile(r"\bat the top\b")
+SENTENCE_END_RE = re.compile(r"[.!?](?:\*\*|\*|`|\))*\s+[A-Z*]")
 SCOPE_ORDINAL_RE = re.compile(r"\b(?:first|last)\s+(?:\d+|n\b|few\b|entry|entries|row|rows|line|lines|block|blocks|section|sections|item|items|paragraph|paragraphs|page|pages)")
 # Sub-headings nested under a boot heading that are protocols, not boot steps (WAL: a KB.tsv
 # mention inside "Inbox Processing Protocol" under the boot section was scored as a boot read).
@@ -237,6 +244,7 @@ def boot_reads(name):
             scanned += 1
             if inherited:
                 inherited_n += 1
+            chain_end = None   # end of the last token this line's read verb already governs
             for m in FILE_TOKEN_RE.finditer(l):
                 tok = m.group(1)
                 if tok.startswith(("http", "$")):
@@ -247,10 +255,28 @@ def boot_reads(name):
                 # because "read" was a SUBSTRING of "readable" and the verb-object link was never tested.
                 before = low[:m.start()]
                 rp = max((r for r in reads if r < m.start()), default=None)
-                if rp is None or (not inherited and m.start() - rp > OBJECT_WINDOW):
+                # ENUMERATION CHAIN (2026-10-22, FLG report): the window is measured from the read
+                # verb OR from the previous token that verb already governs on this line, so a long
+                # read list ("Read root `CLAUDE.md` · `AGENTS.md` · `USER.md` (…) → … → `TRIGGERS.tsv`")
+                # does not silently drop its tail once the verb is >160 chars back. The write-verb
+                # test below still runs from the verb, so a write clause breaks the chain.
+                # The chain continues only inside one sentence: a sentence end between the governed
+                # token and this one ("…at boot — not at closeout.** An overdue … Grade against `X`")
+                # breaks it (CREED fleet-diff catch, 2026-10-22).
+                if chain_end is not None and SENTENCE_END_RE.search(l[chain_end:m.start()]):
+                    chain_end = None
+                anchor = max(rp, chain_end) if (rp is not None and chain_end is not None) else rp
+                # LEADING-VERB STEP: a numbered/bulleted step whose first verb is the read verb
+                # ("1. **Read** … → `TRIGGERS.tsv`") governs its whole first sentence, however long.
+                step_m = STEP_RE.match(l)
+                leading = (step_m is not None and rp is not None and rp == reads[0]
+                           and rp - step_m.end() <= 6
+                           and not SENTENCE_END_RE.search(l[rp:m.start()]))
+                if rp is None or (not inherited and not leading and m.start() - anchor > OBJECT_WINDOW):
                     continue
                 if WRITE_VERB_RE.search(before[rp:]):
                     continue
+                chain_end = m.end()
                 # An ON-DEMAND / grep marker between the read verb and the token means this token is
                 # not a whole read ("read FLEET_MAP.tsv per-agent on demand: grep …"). Judged per
                 # TOKEN, not per line — a line-level skip (third live run) dropped FLEET_DIRECTORY.md
@@ -261,7 +287,9 @@ def boot_reads(name):
                 if any(k in context or k in after for k in ON_DEMAND_MARKERS):
                     skipped_on_demand += 1
                     continue
-                if (any(k in context or k in after for k in SCOPE_MARKERS)
+                after_s = LOCATIVE_TOP_RE.sub(" ", after)
+                context_s = LOCATIVE_TOP_RE.sub(" ", context)
+                if (any(k in context_s or k in after_s for k in SCOPE_MARKERS)
                         or SCOPE_ORDINAL_RE.search(context) or SCOPE_ORDINAL_RE.search(after)):
                     skipped_scoped += 1
                     # READ_CAP rule 8 (WALTER): a scoped read of an over-cap file is a PARTIAL fix —
@@ -1191,7 +1219,7 @@ def _fixture(tmp, rows, sizes=None):
 # So: EXPECTED is a CONSTANT compared against the count derived from the SAME if/else that sets
 # the verdict, and the mismatch is appended to the SAME failure list that drives rc. One number,
 # one verdict, no second accumulator to drift. Falsify it by deleting a check, never by trusting it.
-EXPECTED_LEGS = 127   # +6 at L538 (C12, 2026-10-02) · +13 at L530 owner notice (N1–N8, 2026-10-08) · +2 W1/W2 (N9–N10, 2026-10-08)
+EXPECTED_LEGS = 131   # +4 H1–H4 charter heuristic (2026-10-22, bank-cluster review) · +6 at L538 (C12, 2026-10-02) · +13 at L530 owner notice (N1–N8, 2026-10-08) · +2 W1/W2 (N9–N10, 2026-10-08)
 
 
 def selftest():
@@ -1802,6 +1830,29 @@ def selftest():
                 (nrc, "requires --agent" in nout), (2, True))
         finally:
             READS_TSV, ROOT = sav_r, sav_root
+
+    # H1–H4 — the charter HEURISTIC (2026-10-22, bank-cluster review): both directions per rule.
+    global desk_home
+    sav_home = desk_home
+    try:
+        with tempfile.TemporaryDirectory() as t:
+            for f in ("STATUS.md", "MEMORY.md", "CHANGELOG.md", "TRIGGERS.tsv", "LOG.tsv", "OTHER.md"):
+                open(os.path.join(t, f), "w").write("x")
+            desk_home = lambda _n: t
+
+            def _heur(body):
+                open(os.path.join(t, "CLAUDE.md"), "w").write("# D\n## BOOT\n" + body + "\n")
+                return sorted(os.path.basename(k) for k in boot_reads("D")[0])
+            chk("H1 locative 'at the top' after the token keeps a WHOLE read (WAL MEMORY.md)",
+                "MEMORY.md" in _heur("3. **Read `MEMORY.md`** — the handoff and next steps are at the top; history is archived."), True)
+            chk("H2 'the TOP 2–3 entries' after the token still SCOPES the read (RED CHANGELOG)",
+                "CHANGELOG.md" in _heur("4. **Read `CHANGELOG.md`** — the TOP 2–3 entries (newest-first)."), False)
+            chk("H3 a long read list keeps its tail past 160 chars of the verb (FLG TRIGGERS.tsv)",
+                "TRIGGERS.tsv" in _heur("1. **Read** `STATUS.md` (" + "identify the runtime, model and tools, and record them; " * 3 + ") → `TRIGGERS.tsv`"), True)
+            chk("H4 the chain stops at a sentence end (CREED 'Grade against' shape)",
+                "OTHER.md" in _heur("4b. **Scan `STATUS.md` now, at boot — not at closeout.** " + "An overdue row is information this session needs before it works; " * 2 + "Grade against `OTHER.md`."), False)
+    finally:
+        desk_home = sav_home
 
     total = ok + len(fail)
     if total != EXPECTED_LEGS:

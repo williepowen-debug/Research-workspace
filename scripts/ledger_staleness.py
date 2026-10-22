@@ -704,11 +704,22 @@ def _line_has_marker(line):
     q = LINE_INITIAL_QUALIFIED_RE.match(scan.upper())
     if q and re.search(r"(?:FROZEN|RETIRED|SUPERSEDED|ARCHIVED)-[A-Z]$", scan[:q.end()]):
         return True                      # line-initial, and uppercase in the RAW text
-    for rx in MARKER_RES:
+    for k, rx in zip(STATIC_BANNER_MARKERS, MARKER_RES):
         m = rx.search(scan)
-        if m and m.start() < MARKER_COL_CAP:
+        cap = SINGLE_WORD_COL_CAP if k in _SINGLE_WORD else MARKER_COL_CAP
+        if m and m.start() < cap:
             return True
     return False
+
+
+# Rule 11 (2026-10-22, DAEDALUS bank-cluster review, WAL MI3_SERIES.tsv): rule 9 made case the
+# form, but an UPPERCASE single word can still be prose — WAL's live line 1 ended "…the FROZEN
+# v2.1 spec basis." at col 95, inside the 100-col cap, with no live declaration, so the primary
+# falsifier series went silent ahead of the Q3 Call Report (the documented RESIDUAL case below).
+# The 7/22 survey's genuine single-word banners all start at col ≤31; the col-63+ band is prose.
+# Single words therefore get a tighter cap; PHRASE markers keep MARKER_COL_CAP because the
+# CARL/POP canonical phrase banner sits at col ~76 and a phrase does not collide with prose.
+SINGLE_WORD_COL_CAP = 48
 
 
 # Rule 10's live DECLARATION form is symmetric with the marker form (2026-09-03, same hour —
@@ -809,9 +820,17 @@ _SELFTEST = [
      "# History: FROZEN spec 7/1; RETIRED row policy; NOT CURRENT figures moved; DO NOT CITE the old NAV; NOT MAINTAINED since 8/1; ARCHIVED copy at x; SUPERSEDED by y\n"
      "a\tb\n1\t2\n", False),
     ("WALTER June sweep RECORD — mid-sentence prose 'framework live' is NOT a declaration; uppercase SUPERSEDED tag-name prose keeps it FROZEN (rule 10 symmetry; classification unchanged vs rule 9)",
-     "# BOARD staleness sweep record 2026-06-10\n# Overrules: Lake Powell EVENT-PASSED -> NO-TAG (framework live); Brent SUPERSEDED -> NO-TAG\na\tb\n1\t2\n", True),
+     "# BOARD staleness sweep record 2026-06-10\n# Overrules: Lake Powell EVENT-PASSED -> NO-TAG (framework live); Brent SUPERSEDED -> NO-TAG\n"
+     "# Net: 12 tags (8 SUPERSEDED / 2 FALSIFIED / 2 EVENT-PASSED), 83 candidates NO-TAG.\na\tb\n1\t2\n", True),
+    ("rule 11 — the same WALTER record cut to its col-66 'SUPERSEDED' prose alone reads live (the real file stays FROZEN via its line-4 col-17 token)",
+     "# BOARD staleness sweep record 2026-06-10\n# Overrules: Lake Powell EVENT-PASSED -> NO-TAG (framework live); Brent SUPERSEDED -> NO-TAG\na\tb\n1\t2\n", False),
     ("documented RESIDUAL — uppercase RETIRED prose with NO live declaration anywhere still reads FROZEN (mitigation = ask (d): carry 'LIVE ledger' / 'Status: LIVE' in the header)",
      "# predecessor line RETIRED 2026-09-03, SUPERSEDED by GATE-BRK-R2\n# Last real data refresh: 2026-09-03\na\tb\n1\t2\n", True),
+    ("WAL 10/22 — UPPERCASE single-word 'FROZEN' as prose at col ~95 of line 1, no live declaration (rule 11)",
+     "# Q3 classified-migration series (RCON1766 / RCON2122) per the MI3 spec; v2.1 ratio basis is the FROZEN v2.1 spec basis.\n"
+     "# Last real data refresh: 2026-08-07\na\tb\n1\t2\n", False),
+    ("genuine — single-word marker inside the rule-11 cap (col ~20, after a date-led tag)",
+     "# 2026-07-01 status: FROZEN — not refreshed after the split\na\tb\n1\t2\n", True),
     ("genuine — '# FROZEN <date> — not maintained'",
      "# FROZEN 2026-07-01 — not maintained; STATUS is canonical, do not cite rows as current\na\tb\n1\t2\n", True),
     ("genuine — PHAN 8/11 line-initial qualified '# FROZEN-VINTAGE'",
@@ -865,6 +884,14 @@ def selftest():
             ("G2 same date twice -> ONE clock, no warning", len(_clocks("# Last real data refresh: 2026-09-14 (Last real data refresh: 2026-09-14)")), 1),
             ("G2 a qualified clock `(HAWK rows):` is read (the FALCON blind shape)", _clocks("# Last real data refresh: 2026-09-14 | Last real data refresh (HAWK rows): 2026-04-20"), ["2026-04-20", "2026-09-14"]),
             ("G2 no clock -> []", _clocks("# LIVE ledger, no header clock"), []),
+            ("SF REGINALD 10/21 shape — line-initial '> **RECONCILIATION REQUIRED' self-flags",
+             (lambda fp: (open(fp, "w", encoding="utf-8").write("# TRADE\n\n> **RECONCILIATION REQUIRED — October21 audit:** do not cite this surface as current\n"), self_flag(fp))[1])(os.path.join(td, "sf1.md")), "RECONCILIATION REQUIRED"),
+            ("SF REGINALD 10/22 shape — 'RECONCILED … the October 21 RECONCILIATION REQUIRED banner is resolved' is a mention",
+             (lambda fp: (open(fp, "w", encoding="utf-8").write("# TRADE\n> **RECONCILED 2026-10-22.** The October 21 'RECONCILIATION REQUIRED' banner is resolved\n"), self_flag(fp))[1])(os.path.join(td, "sf2.md")), None),
+            ("SF OZK shape — struck banner preserving 'UNRECONCILED' mid-line is a mention",
+             (lambda fp: (open(fp, "w", encoding="utf-8").write("> **🧊 ~~FROZEN 2026-07-04~~ — FREEZE LIFTED.** (Original: \"position book UNRECONCILED\")\n"), self_flag(fp))[1])(os.path.join(td, "sf3.md")), None),
+            ("SF data row below the boundary is a cell, not a banner",
+             (lambda fp: (open(fp, "w", encoding="utf-8").write("ID\tnote\nR1\tUNRECONCILED figure\n"), self_flag(fp))[1])(os.path.join(td, "sf4.tsv")), None),
             ("G2 content_time ITSELF returns the oldest (not the first match)",
              (lambda fp: (open(fp, "w", encoding="utf-8").write("# Last real data refresh: 2026-09-14 | Last real data refresh: 2026-04-20\nA\tB\n"),
                           datetime.date.fromtimestamp(content_time(fp)).isoformat())[1])(os.path.join(td, "ct.tsv")), "2026-04-20"),
@@ -886,6 +913,34 @@ def resolve_agent_dir(arg):
         return os.path.abspath(arg)
     cand = os.path.join(REPO, "AGENTS", arg)
     return cand if os.path.isdir(cand) else None
+
+
+# Self-flag (2026-10-22, DAEDALUS bank-cluster review, REGINALD TRADE.md): a surface can
+# DECLARE itself not current ("RECONCILIATION REQUIRED — … do not cite") while the edit that
+# wrote the declaration refreshes its git clock, so the age test read `ok +1d` on a file
+# telling its reader not to trust it. A self-flag is a FORM, like a dead banner: it must be
+# the FIRST token of a header line (after #, >, *, emoji, whitespace), above the data boundary.
+# Mentions do not count — the 10/22 fleet survey's three keyword hits were all mentions
+# (a resolved banner quoting the old one, a preserved original inside a struck banner,
+# a data row), and every one would have false-fired under a keyword match.
+SELF_FLAG_RE = re.compile(
+    r"^[^A-Za-z0-9]{0,12}(RECONCILIATION REQUIRED|NEEDS RECONCILIATION|UNRECONCILED)\b")
+
+
+def self_flag(path):
+    """The self-declared not-current banner text, or None. Scans the header region only."""
+    try:
+        with open(path, "r", encoding="utf-8", errors="replace") as f:
+            lines = [f.readline() for _ in range(12)]
+    except OSError:
+        return None
+    for line in lines:
+        if "\t" in line and not line.lstrip().startswith("#"):
+            break                         # data boundary (TSV); .md surfaces have no tabs
+        m = SELF_FLAG_RE.match(line)
+        if m:
+            return m.group(1)
+    return None
 
 
 def scan_agent(agent_dir, days, glob_pats, strict=False, writes=False, writes_bar=12,
@@ -910,9 +965,11 @@ def scan_agent(agent_dir, days, glob_pats, strict=False, writes=False, writes_ba
         # (c) absolute floor: content vintage beats the relative delta (PAT-092 counter).
         abs_age = (now - t) / 86400.0 if (abs_floor and live and t) else None
         stale_a = abs_floor and live and abs_age is not None and abs_age > abs_days
-        any_stale = stale or stale_w or stale_a
+        sf = self_flag(led) if live else None
+        any_stale = stale or stale_w or stale_a or bool(sf)
         # M1 (WQ-147): a correctly-declared quiet ledger is not counted stale in --all/--days.
-        dq = declared_quiet(led, now) if (live and any_stale) else None
+        # A self-flag is never quieted: the surface itself says it is not current.
+        dq = declared_quiet(led, now) if (live and any_stale and not sf) else None
         # M2 (WQ-148): attention clock annotates a behind ledger; absent line = unchanged output.
         att = attention_info(led, now) if (live and any_stale and not dq) else None
         clocks = content_clocks(led) if live else []
@@ -930,6 +987,7 @@ def scan_agent(agent_dir, days, glob_pats, strict=False, writes=False, writes_ba
             "stale_writes": stale_w,
             "abs_age_d": abs_age,
             "stale_abs": stale_a,
+            "self_flag": sf,
         })
     return name, status_t, rows
 
@@ -1068,6 +1126,8 @@ def report(name, status_t, rows, quiet):
         # One-line boot alert.
         def _why(r):
             bits = [f"{fmt_age(r['age_d']).strip()} behind"]
+            if r.get("self_flag"):
+                bits.append(f"SELF-FLAGGED '{r['self_flag']}'")
             if r.get("stale_writes"):
                 bits.append(f"{r['writes_behind']}w")
             if r.get("stale_abs"):
@@ -1096,6 +1156,8 @@ def report(name, status_t, rows, quiet):
             tag = "FROZEN"
         elif r["exempt"]:
             tag = "ref"
+        elif r.get("self_flag"):
+            tag = "⚠️ SELF"
         elif r.get("declared_quiet"):
             tag = "quiet"
         elif r["stale"] and r.get("attention"):
@@ -1115,6 +1177,8 @@ def report(name, status_t, rows, quiet):
             extra += f"  abs {r['abs_age_d']:>4.0f}d"
         if r.get("clocks"):
             extra += f"  ⚠️ {len(r['clocks'])} data clocks ({' / '.join(r['clocks'])}), oldest governs"
+        if r.get("self_flag"):
+            extra += f"  [surface declares '{r['self_flag']}' — its own banner says not current; age is not evidence]"
         print(f"  {tag:<8} {fmt_age(r['age_d'])}{extra}  {os.path.relpath(r['file'])}")
     if stale:
         print(f"  → {len(stale)} stale: freeze (add 'FROZEN <date> — ...' banner) or refresh at closeout.")
