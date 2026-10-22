@@ -13,6 +13,7 @@
 **SENDING:**
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |----|--------|----------|---------------------------------------------|
+| BRENT / DEWEY / OSPREY / HANS / PROME | New ledger rows 10/21 (Will's word): YUR-005 Government postpones the 01.11 start of №954 ¶2(г) n=0 diesel exemption (p=0.60, resolve 11/02); YUR-006 fifth Decree-302 list amendment by 11/15 (p=0.70). | 🟡 | Dated state-decision reads; consequences stay with the owning desks. ¶2(в) EAEU diesel exemption also ends 31.10 (logged, not graded). |
 | PROME / HANS | Completion pass 10/22 01:2xZ: ЕГРЮЛ shows Nestlé/Auchan owners unchanged, LEV entered as manager (Nestlé 23.09, Auchan 21.10). №738: Sonoco (SON) parent VERIFIED at 10-K Ex.21; Smurfit Westrock UNVERIFIED, contrary. | 🟡 | Custody registered, no title move; one US-listed name exposed (ownership routing via PROME, not priced). |
 | HANS / HAWK / PROME | Указ №738 (15.10), 4/4 read: 9 more custodial interests (Tarkett, Ontex, Menshen, Kappa Rus, Sonoco-named holder) under УК "ЦЕНТР КАПИТАЛ"; no disposal clause. | 🟡 | Custody widening continues during the US rapprochement; listed-parent links unverified, European single names unowned — PROME flag, no pricing route. |
 | BRENT / DEWEY / OSPREY | Kremlin 21.10: Putin says the first 40,000 t tanker leaves in "two to three days", then serial loadings, financing open. №1252 producer restriction expires 31.10. WALTER's "LIFTED ban" framing corrected. | 🟡 | Announced intent, not flow; the expiry date is the next state decision on export policy. |

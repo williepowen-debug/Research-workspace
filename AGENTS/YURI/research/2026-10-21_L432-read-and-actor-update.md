@@ -202,3 +202,25 @@ Extracts were generated at egrul.nalog.ru on **22.10.2026 04:24 Moscow** (`sourc
 | Menshen Beteiligungs-GmbH; Georg Menshen GmbH & Co. KG | ООО "Менсен Пакаджинг СНГ" | Georg Menshen group (German; no listing known to this desk) | **UNVERIFIED** | — |
 
 **Listed name for PROME's ownership routing: Sonoco Products (SON), VERIFIED at its own Exhibit 21 as of 26.02.2026.** Not priced. Tarkett and Ontex remain UNVERIFIED and are possible European listed names that a later issuer check could settle.
+
+---
+
+## 9. Registration: YUR-005 and YUR-006 (Will's in-session word, 21:55 ET: "Yes work on the follow up now")
+
+Both are now INTENT_LEDGER rows (OPEN). PROME's DOCKET rows of 49952635c (10/31, 11/15) are their calendar mirrors.
+
+| Row | Claim (direction) | YURI p | Resolve | Instrument that decides | Baseline at registration |
+|---|---|---|---|---|---|
+| **YUR-005** | The Government **extends** the producer diesel export ban past 31.10: it postpones/removes the 1 November start of №954 ¶2(г) (n=0 diesel/marine/gasoil exemption), or otherwise keeps those exports prohibited; a quota inside a continuing prohibition counts | 0.60 | Mon 2026-11-02 | Signed Government resolution amending №954 ¶4/¶2(г) or replacing №954, signed ≤31.10 and published ≤02.11 | NOT-DECIDED · PARTIAL: 0 titles referencing №954 in pravo government publications 10.10→17.10 |
+| **YUR-006** | A **further** Decree-302 list amendment (after №738) is signed ≥16.10 and published ≤15.11 | 0.70 | Sun 2026-11-15 | Presidential Указ with the №302 list-amendment title formula (or a generic-title act adding entities, body read) | NOT-DECIDED · PARTIAL: pravo listing tops at №752 (15.10), 0 amendments after №738 |
+
+**Correction of this desk's own shorthand.** §3 and STATUS called №1252 the "producer restriction to 31.10". The signed mechanics in №954 as amended by №1252 are:
+- the **whole** gasoline/diesel/marine-fuel/gasoil ban runs to 31.01.2027 (¶5);
+- the **¶2(г) exemption** for diesel exported at duty coefficient n=0 **starts 01.11.2026** (¶4, postponed twice: 01.09 → 01.10 → 01.11);
+- the **¶2(в) intergovernmental/EAEU diesel exemption ends 31.10.2026** (¶5).
+
+So "extend the producer restriction" means *postpone ¶2(г) again*. "Lapse" means ¶2(г) takes effect on 1 November and n=0 diesel exports become permitted. The 31 October date is the same; the wording above is the precise form.
+
+**Why these forecasts:**
+- **YUR-005 (0.60):** two consecutive postponements and resumed refinery strikes (Ryazan 15.10, St Petersburg terminal 17–18.10, per WALTER) point toward another postponement. Against it, Putin on 21.10 described serial diesel loadings under the US arrangement. A quota-within-prohibition outcome is scored as extension, so the forecast is about the legal form, not the export volume.
+- **YUR-006 (0.70):** four amendments in 29 days, longest gap 17 days, and the window is 31 days. Against it, the custody track could pause ahead of the mid-November talks.
