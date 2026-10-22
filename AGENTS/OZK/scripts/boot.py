@@ -40,8 +40,8 @@ CATALYSTS = [
     ("2026-10-06", False, "🟡", "Bluerock BPRE roadmap webinar — IQHQ mark/exit talk (context, not a grade)"),
     ("2026-10-21", False, "🔴", "Q3 2026 earnings (Tue 10/20 after close) + call Wed 10/21 8:30 ET [OZK release 9/30] — mgmt's self-set \"~92 day\" RaDD report-back"),
     ("2026-10-20", False, "🟡", "NEA/USRE2021-1 original expected repayment (ARD); legal final 2061; amendments/payoff UNKNOWN, trustee sign-in; not automatic Affinius corporate default (C5 read 10/12)"),
-    ("2026-10-31", False, "🔴", "L520 CHECK-BY — Q3 Stage-2 call read (Stage-1 written graded 10/21, FLNG 12022)"),
     ("2026-11-05", False, "🟠", "FFIEC JWT EXPIRES — renewal is a Will action (PWS login); blocks the Q3 pull"),
+    ("2026-11-05", True,  "🔴", "Q3 10-Q (FDIC; Q3 10-Qs filed 11/5/2024 + 11/5/2025) — SM −$313M flow, RaDD reserve/readvance, Sullivan, OREO roll-forward (D:L763)"),
     ("2026-11-07", True,  "🟠", "Q3 2026 Call Report (REPDTE 20260930) — LOG-ONLY, Z6 never re-grades"),
     ("2027-01-19", True,  "🔴", "Q4'26 print — resolves OZK-02/03/04; closes OZK-09 Option-2 window (Q4 prints Jan 16-20, 2023-26)"),
 ]
@@ -61,8 +61,8 @@ STANDING_WATCH = [
      "Q3 2026", "2027-01-19"),
     ("Past-due >$550M or >2.0% — Q3'26 $88M/0.26% (Q2 $298M/0.92%) [FLNG 12022 MC Fig 22]",
      "Q3 2026", "2027-01-19"),
-    ("IQHQ specific reserve — none named in Q3 written materials (pass-rated by elimination 9/30); Stage-2 call read + Q3 10-Q pending → OZK-09 OPEN/STUCK",
-     "Q3 2026", "2026-10-31"),
+    ("IQHQ specific reserve — none named in Q3 written or call (CEO: \"[a] pass credit\", 10/21); Q3 10-Q reserve leg pending → OZK-09 OPEN/STUCK",
+     "Q3 2026", "2026-11-05"),
 ]
 
 # OZK price bands (STATUS Signal Dashboard).

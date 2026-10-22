@@ -116,3 +116,21 @@ Release read first, full call second; no absence-based resolution before both. I
 | Notes | 6.14% Q4 yield (issuer) supersedes ≈6.19% | VERIFIED |
 
 Next resolvers: call transcript (Stage-2), Q3 10-Q (~early Nov), Q3 Call Report (~Nov 1–10). L520 CHECK-BY 10/31 retained for the Stage-2 read.
+
+## RESULTS — Stage-2 (call, spoken record), appended 2026-10-22
+
+**Observation date** 2026-10-21 08:30 ET call · **read date** 2026-10-22 11:05 ET · secondary transcript (TradingKey `tradingkey.com/news/transcripts/262229860-tradingkey`, text sha256 4fae2fec…; not stored — public repo) · detail → `research/threads/2026-10-22_Q3_CALL_STAGE2_READ.md`. Pre-print text and Stage-1 rows above unchanged.
+
+| Row | Stage-2 result | Status |
+|---|---|---|
+| R1 | No RaDD reserve, charge-off or loss mentioned; nobody asked | OZK-09 **OPEN/STUCK** (10-Q reserve leg) |
+| R2 | CEO: "[a] pass credit on our books" | pass — **SPOKEN** (was INFERRED-HIGH by elimination) |
+| R3 | Readvance of the $121.3M paydown not addressed; future capital contributions anticipated "if needed" | UNKNOWN |
+| R6 | No lease; "lab demand is not what it was"; marketing widened to office and non-lab users | no lease evidence |
+| W1 Sullivan | Not mentioned | PENDING 10-Q |
+| W6 OREO | Buyers on all 7 main properties except Atlanta (leasing); "appropriately valued"; "several quarters"; no price | **no OREO sale priced** — unresolved |
+| W9 Boston | Not named; inside the buyer-pursuit group (INFERRED) | unresolved |
+| SM −$313M flow | Not itemized ("a clear positive") | UNKNOWN → 10-Q (L763) |
+| Loss outlook | MC p.21: NCO may remain "elevated" in 2026–27, "improving trend in 2027"; CEO: cycle "largely behind us" by YE-2027 | earnings drag, not capital event |
+
+**Stage-2 net:** adds nothing toward stress; closes no open leg. Conviction re-grade proposed to Will as **P-OZK-7 (🔴🔴 → 🟡 LOW), not applied**. Remaining resolvers: Q3 10-Q (~early Nov; RaDD reserve, SM flow, Sullivan, OREO roll-forward) and the Q3 Call Report (`RIAD5409`; FFIEC JWT expires 11/5, Will action).
