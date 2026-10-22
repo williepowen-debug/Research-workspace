@@ -1,3 +1,12 @@
+## 2026-10-22T19:49:19Z — FULL closeout — Will-launched afternoon sitting on the desktop (boot 12:01 ET)
+
+Boot: sync 0/0, doctor 0 HIGH / 6 MED, all boot reads; basis REVIEW cleared later in session (re-attested, BOOT BASIS MATCH 29); READS attestation sent to PROME for transcription. Dispatches 012–029 (18). DEWEY lane: REQ-001..008 delivered/routed (017, 018, 020–024, 026, 027 correction); REQ-003R/005R/008R dated reruns queued; CHECKLIST v0.53 codifies standing commission authority (Will). Corrections: 014 (to 025), 027 (to 024). Backlog cleared: bookmarks 96/96, follow-up reading gaps (016), ORACLE registry, NOTE re-key, STATUS spaced-words rotation, 6/19 companion renewed. Batches BM-20261022-10..13 closed. Process note: one fabricated commit hash ("4b2a…") in a Will-facing message, corrected in the next reply to 6b25c0730.
+
+### Rotated verbatim from STATUS at this closeout
+
+**Midday October22 ET, LIGHT checkpoint.** Today's selloff is AI spending, not credit: Nasdaq −2.25% and S&P 500 7,655.77 (−1.31%) at 10:55 ET, Meta −6.7% with its 5-year CDS at a record on two vendors (ICE ~119.3 intraday vs Markit 114.5), Lam −10% as supply constraints cap its December guide, SOXX −5.8% (006). Credit eased slightly: HY OAS **327 [10/21]** from 333 [10/20], 23bp under REG-T-04 (>350 ×3), so it is off near-trigger watch; RED-FT-02/REG-T-03 stay fired. 10-year 5.01% (about −13bp), KRE +1.5% against the tape, VIX 19.28 (no safety net). Regional-bank prints (011): Huntington NCOs 0.31% (from 0.25%) and NPAs +$110M; Valley NCOs $37.1M and nonaccruals 0.96%; SouthState 0.09%; reserve ratios fell at HBAN and VLY as bad loans rose (WALTER's reading, two banks). FLG prints Fri 06:00 ET. Iran full sweep (007): no ladder item fired; the IRGC claims 4 STS tankers hit in the northern Gulf plus 3 mine strikes, CLAIM-ONLY with no UKMTO number; Dammam toll now 2 killed. Brent about $111–112 (vendor, not a settle). PROME is running a live bank catch-up (REGINALD, OZK, WAL, FLG); Will's 005 answer from REGINALD is pending.
+
+
 ## 2026-10-22T16:47:25Z — STATUS rotation (backlog, Will 12:44 ET) — DATED MARKET OBSERVATIONS older rows moved verbatim
 
 Reason: root CLAUDE.md Output Canon (10/2x) requires normal spaced words; these rows were glued. Moved, not reworded. sha256 of the block below (rows + old Evidence line) 5dc720815e73.

@@ -301,3 +301,11 @@ Historical text below preserves the size incident and findings28/29/41/43. Curre
 ## Rotated 2026-10-22 from MEMORY.md Session Notes (verbatim; superseded session pointer, pruned at the 100-line trigger)
 
 **2026-10-19T16:41:51Z resumed owner:** publishedHY0033/3;004HMI;005newJMICrisk/tug,existinglossconflict;006OTTO;007office-routecorrection,008OTTOpanel44/44+forecast8%OPEN,009HOMERnine-readqualifieddigest,010dealer/ETFcounterevidence,011CRWVvaluations. Interrupted8-itembatchclosed; ownerinbox6integrated. L599notrepeated/noextension. Authrepair onWill’s directrequest:401/refresh400→reauth→200;seenunchanged,0bookmarkfetch/mark. Evidence `research/2026-10-19_resume/`; currentdutiesandpublication/consumptionlimitsinLAST_COMPLETION.
+
+## Rotation 2026-10-22 (FULL closeout, line cap) — Session Notes moved verbatim
+
+**10/20 bookmark acceptance:** Will authorized independent review/publication/one supervised live test. Final23d8dbeadaccepted after67tests/sixprobes,includingmetadata-losslegacydowngrade;codeoriginproven. Live94pending+copiedresume2tail=96;Willauthorizedbatchreview:16x6,batches1–11CLOSED66bookmarks,30untriaged,16partialsourcefollowups;batch6–7fivequalifiedroutes,3DUP/4NO-ACTION;newSPR/Farrfullbodygaps;production0marks,seen870unchanged. Partialreview/BATCH-PLAN in research/2026-10-20_bookmark-batches. Isolated review MUST NOT mark production. WQ458separate. Evidence research/2026-10-20_bookmark-live-acceptance; duties LAST_COMPLETION.
+
+**Bookmark completion:** new stages require --review-template + --mark --review; --receipt is local-only. Fully/partly/unread labels are attestations; material reading gaps need follow-up/request. Repairevidence research/2026-10-19_bookmark-repair/.
+
+**10/19 breadth:** HENRY/LIQUID final conditional study and event audit consumed; MOSstrongestresidual/ADMqualified,HII/CPRTevent-sensitive,primaryfourunmatched. No commonfinancingcause;ACVcompleted10/16. Eveningcontribution research/2026-10-19_evening-combined; duties/closure/publication LAST_COMPLETION.

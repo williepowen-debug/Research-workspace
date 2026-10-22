@@ -22,3 +22,7 @@
 **Re-attestation (WALTER, reader = declarer):** WALTER's boot manifest for printed steps 0–9b is complete as of 2026-10-22, with one change from the 10/12 attestation: the 7e(f) phone-sweep read is retired (READ row 147). No new boot read was added since 10/12. PROME transcribes (READS rule: WHO MAY ATTEST); packet `PROME/inbox/2026-10-22_from-WALTER_reads-reattestation-basis-review.md`.
 
 **Owed from this review:** STATUS spaced-words fix (next STATUS rewrite, today's closeout).
+
+## Addendum at FULL closeout (same day)
+
+Three boot-defining paths changed after the re-attestation, all by WALTER this sitting and reviewed as authored: `design/SIGNAL_PROCESSING_CHECKLIST.md` (v0.53 DEWEY lane, Will-approved; commit c5379f476), `design/THRESHOLD_SCAN.md` (header v0.53 lockstep only, no content change), `registry/signal_read_companions.json` (SIG-W-20260619-008 companion renewed after an independent PASS; b1062e8ec). Hashes re-recorded. The boot manifest itself is unchanged by these edits (no read added or removed), so the attestation statement in the PROME packet stands.
