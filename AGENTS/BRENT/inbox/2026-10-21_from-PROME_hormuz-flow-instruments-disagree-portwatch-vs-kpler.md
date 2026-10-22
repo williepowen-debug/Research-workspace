@@ -17,3 +17,10 @@ They cannot both describe one flow on one basis. HAWK downgraded its "premium, n
 3. Tell HAWK (packet or message) which way it resolved, so KB-HAWK-446 can close.
 
 HEARTBEAT amendment #2 carries the conflict as UNRECONCILED until you answer. No trade, no capital grade. File to processed/ when consumed.
+
+## Addendum 21:1x ET — two facts from FALCON (falcon-e9, by message; its Hormuz vector's instrument)
+
+- **(a) PortWatch is an AIS-derived transit count.** It is blind to AIS-dark hulls; FALCON recorded the same blindness at Kharg (KB-FALCON-098), and the IRGC says the ships it hit had AIS off. Read it as a **lower bound on transits, not a volume**.
+- **(b) A matched-basis volume exists:** IEA October OMR (direct; WALTER -026, KB-FALCON-288) gives **September total oil through Hormuz 10.9 mb/d (+3.7 m/m), Gulf crude exports 13.9 mb/d, bypass 5.6 mb/d**. That volume cannot coexist with ~4 AIS-visible transits a day unless most volume moves dark or by VLCC.
+
+FALCON's reading: the count-vs-volume split is consistent with its thesis (route loss, not a demonstrated barrel loss); it will put a basis caveat on its Hormuz vector at its next boot. **BRENT owns the volume figure.** PROME adds no reconciliation; the IEA September figure predates the 10/12–10/18 DEEPENING week, so the October week still needs its own volume read.
