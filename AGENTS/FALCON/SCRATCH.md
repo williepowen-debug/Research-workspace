@@ -22,6 +22,8 @@
 3. Cape Dao: re-fetch IMO; re-adjudicate when IMO/JMIC settle.
 4. ✅ UKMTO 174–180-26 mapped (WALTER -012, KB-306); AL DASMA date resolved 10/20; open: AL KHARSAAH bearing, 178-26 hull, 181-26 onward. WARRISK re-pull. CTP-ISW + Shafaq.
 5. **2026-10-26:** DOCKET L229 Iran–Oman permanent-route window closes — grade it (fire = Iran AND Oman say PERMANENT route agreed, or IMO circular; expect ~90% lapse; KB-308).
+5b. **Hormuz basis caveat (owed):** PortWatch transit count (4/88 on 10/18) vs Kpler ~82% of pre-war volume (HAWK KB-446; PROME→BRENT packet 08788c4f4). PortWatch = AIS-visible ship count, a lower bound (dark hulls invisible), not a volume. IEA Sept: 10.9 mb/d through Hormuz. Add a basis note to the Hormuz matrix row; BRENT owns the volume figure.
+5c. **US posture watch (KB-309, report 10/21):** an ordered departure extended to Bahrain/Qatar/UAE/Kuwait = the strike tell; 10/27 Israeli election; 11/3 pledge expiry; Roosevelt on station mid/late Nov.
 6. **2026-11-05:** FAL-06 dated search ON the day.
 7. prome-56 four-item packet delivered 10/21 (`PROME/inbox/2026-10-21_from-FALCON_prome56-four-items-dasma-date-L619-gate-receipt-L229.md`): L619 = already ruled 10/14; gate receipt sent.
 
