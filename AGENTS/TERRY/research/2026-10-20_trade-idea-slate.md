@@ -1,5 +1,7 @@
 # TERRY — five trade ideas, October 20
 
+> **DISPOSITION — Will 2026-10-20 17:29 ET, verbatim (PROME packet, consumed 10/22):** *"I want to keep these trades as ideas we can come back to."* All five stay CONDITIONAL · NOT-FIRED · NOT APPROVED; no order, no rejection, no monitor, no reminders. Re-quote before any discussion; the 10/20 quotes do not carry. Card end dates stand and lapse on their own terms.
+
 Updated 2026-10-20T12:09:40.940371-04:00. Commission: PROME ff9531ffc, plus Will's CoreWeave card approval at 12:01 ET (WQ-442, 472f587a6).
 
 **First look: Vistra common shares. Next: a limited-risk Treasury rebound.** Broader equity participation and yen strength need more confirmation. CoreWeave remains a separate, conditional bearish idea and increases the credit exposure already in the book.

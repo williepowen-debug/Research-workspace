@@ -16,3 +16,5 @@ receipt_date	correction_id	action	note
 2026-10-19T21:31Z	COR-20261015-05	NO-OP	scope=October19 held CRWV56P management and saved January concept use no14.5pct2032 yield. Correction read:15.83pct at HYG fund evaluation is not a trade price. No dependent grade or figure changed.;
 2026-10-19T21:31Z	COR-20261015-22	NO-OP	scope=October19 management does not claim first-ever HY crossing. WAL/OZK dated FT02 counts are owner grades. Current flip cannot complete because LIQ07 resolved S2 not S1. No count inferred from headline.;
 2026-10-19T21:31Z	COR-20261019-12	NO-OP	scope=October19 eight held-contract cards and follow-through use no Ally contract, warehouse-exit probability, OTTO score or earnings/Tminus7 short-report timing inference. All corrected scopes read. No dependent trade or gate.;
+2026-10-22T17:35Z	COR-20261021-22	APPLIED	artifact=AGENTS/TERRY/setups/VLO-SHARE_management-proposal_2026-09-28.md#Leg-A assessment 2026-10-22; validation_ref=NONE; 
+2026-10-22T17:35Z	COR-20261022-04	APPLIED	artifact=AGENTS/TERRY/setups/QQQ_nov20-690-670P_gamma-negative-putwall_2026-10-22.md#2. Trigger state; validation_ref=NONE; 

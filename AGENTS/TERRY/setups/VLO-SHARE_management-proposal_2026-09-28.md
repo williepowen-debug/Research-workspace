@@ -1,8 +1,19 @@
 # MANAGEMENT PROPOSAL — VLO ×1 held share — a price rule vs a policy/event rule
 
-**Current state [MGMT-VLO-SHARE]:** CONDITIONAL — original1share only; October16/19 legA NOT FIRED/no notice on verified two-bar source3 ESTIMATE. Added2scope UNKNOWN, prospective proposal unapproved; SCALE TERMINAL.
+**Current state [MGMT-VLO-SHARE]:** CONDITIONAL — original 1 share only; October 20 and 21 leg A NOT FIRED / no notice on BRENT-published source-3 ESTIMATE (October 16/19 on TERRY's own verified pull, below). Added 2 scope UNKNOWN, prospective proposal unapproved; SCALE TERMINAL.
 
-## Current leg-A assessment — 2026-10-19T17:59:45-04:00
+## Leg-A assessment — 2026-10-22 13:3x ET (TERRY, Claude Opus 5.5; PROME spawn WQ-487 A)
+
+| Session | Governing pair / source | C3 USD/bbl (BRENT native-tick value) | Notice < 95 | Exit < 90.16 |
+|---|---|---:|---|---|
+| October 20 | HOZ26×42−CLZ26, source 3 ESTIMATE, BRENT-published | 100.17681945020 | NOT FIRED | NOT FIRED |
+| October 21 | HOZ26×42−CLZ26, source 3 ESTIMATE, BRENT-published | 95.04790847983 | NOT FIRED (0.0479 above; strict less-than not met) | NOT FIRED (4.888 above) |
+
+**Basis:** BRENT `AGENTS/BRENT/research/2026-10-21_henry-december-adoption/REPORT.md` (packet 2026-10-21). TERRY did NOT re-pull these two sessions; BRENT's values for October 15, 16 and 19 reproduce TERRY's own graded values exactly, which is the method check. Source 1 blocked (CME 403); source 2 rejected by BRENT (duplicated CLZ26 volume 10/19–10/20).
+
+**Ruling on BRENT's question (does the leg-A NOTICE inherit the ±$0.15 UNKNOWN band at $95?): NO, as written.** The Will-approved letter (§ 2-bis, WQ-386 / WQ-420) attaches the UNKNOWN band to $90.16 only: "If only (3) is available within ±$0.15 of $90.16 … the observation is UNKNOWN". The parenthetical in the missing-data table below ("same band the gate letter uses at $95") describes the staged-share SCALE gate's letter (now TERMINAL), not HELD-01's notice line. Extending the band to $95 would change the letter, which is Will's call, and TERRY does not propose it: the notice carries no action, so the band would buy nothing. HENRY's F1 = UNKNOWN for 10/21 is HENRY's instrument and does not grade this rule (HENRY's own scope fence, 10/22). BRENT's diesel commission (L783) odds of a sub-$90.16 observation by 11/19 (26% on the April–October record, biased low; 67–79% on a driftless random walk) are card input, not a grade.
+
+## Leg-A assessment — 2026-10-19T17:59:45-04:00
 
 | Session | Governing pair / source | C3 USD/bbl, shown rounded after exact comparison | Notice <95 | Exit <90.16 |
 |---|---|---:|---|---|

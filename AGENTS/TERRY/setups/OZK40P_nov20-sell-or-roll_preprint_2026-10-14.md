@@ -1,5 +1,11 @@
 # SELL-OR-ROLL CARD — OZK Nov-20-2026 $40P ×4 (Fidelity) — pulled forward to before the Q3 print
 
+> **EVIDENCE ADDED 2026-10-22 13:3x ET (TERRY, PROME spawn WQ-487 A) — thesis cell only; not a sell, roll or expiry prompt (USER.md § No expiry nagging; C5 paused).**
+> - **OZK Q3 Stage-1 grade** (OZK desk `0ee59c523`, via PROME packet 10/21): mostly CONTRARY to stress accumulation. Classified + criticized $1,282M → $995M; Q3 NCO 0.53% ($44.5M, Boston $37.3M of it); OREO $420M (+43%), no OREO sale priced; CET1 11.44%; TBV $47.50. Credit is an earnings drag, not a capital event.
+> - **WQ-483 RULED (Will 10/22 11:24 ET):** OZK thesis conviction 🔴🔴 HIGH → 🟡 LOW (OZK P-OZK-7; call Stage-2 adds nothing toward stress; the −$313M special-mention drop is explained by the 10-Q ~11/05). PROME packet 10/22, OZK `c8d75b161`.
+> - **Live screen 13:28 ET 10/22 (vendor, SCREENING):** OZK $49.76 (+3.47%), so the $40 strike is 19.6% below spot; Nov-20 40P bid 0.05 / ask 0.10 (OI 2,441). Mirror mark $0.05 at Will's 11:01 ET capture (FORGE `ec5a7058b`). Basis $322.65.
+> - Construction rule #18 (a): a strike > 10% OTM cannot cite a single print; the line now rests on a LOW-conviction thesis. Will manages the line; no recommendation is added here.
+
 > **CURRENT FOLLOW-THROUGH — 2026-10-19T17:32:27-04:00**
 > **October19 follow-through:** captured ×4, exact basis $322.65, displayed value $100. No closing fill supplied; full working orders UNKNOWN. WQ-428 SELL×4 retains the existing October20 15:30 ET backstop before the after-close print; no new approval or extension inferred. Will verifies held quantity, any working order and live Fidelity bid before acting. October19 17:29 screening OZK45.19,40P0.25/0.35,OI2457,width33.33%,DIRINC advisory; not executable. Do not reuse October14 limits or promise a fill. LIQUID's final LIQ-07=S2 (October16 L721 report), so RED's FT-02 AND S1 flip is NOT MET. No roll or replacement capital proposed. Book only an actual filled ticket.
 
