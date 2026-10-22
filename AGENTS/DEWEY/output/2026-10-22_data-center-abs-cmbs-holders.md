@@ -1,5 +1,5 @@
 # Data-center ABS and CMBS: size, tenants and holders
-**Date:** 2026-10-22 (v2 COMPLETE, ~14:30 ET; supersedes the v1 PARTIAL filed ~13:00 ET, which is in git history) | **Mode:** Thesis | **Confidence:** Size: Medium-High · Issuance 2026 YTD: Medium (mixed perimeters) · Tenant concentration: Medium (agency characterizations; no tenant named) · Holders: High for Athene and registered funds, UNKNOWN for every other insurer · Stress record: High for KBRA/DBRS-rated deals, bounded for S&P/Moody's-only deals | **Request:** REQ-DEWEY-20261022-007 (WALTER) | **Recipients:** SHADE (action); BROCK, VULCAN, CREED, LIQUID, RED, PROME (info)
+**Date:** 2026-10-22 (v2 COMPLETE, committed 14:13 ET; supersedes the v1 PARTIAL committed 13:19 ET, which is in git history) | **Mode:** Thesis | **Confidence:** Size: Medium-High · Issuance 2026 YTD: Medium (mixed perimeters) · Tenant concentration: Medium (agency characterizations; no tenant named) · Holders: High for Athene and registered funds, UNKNOWN for every other insurer · Stress record: High for KBRA/DBRS-rated deals, bounded for S&P/Moody's-only deals | **Request:** REQ-DEWEY-20261022-007 (WALTER) | **Recipients:** SHADE (action); BROCK, VULCAN, CREED, LIQUID, RED, PROME (info)
 
 ## Key Finding
 

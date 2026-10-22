@@ -1,5 +1,5 @@
 # Is a cyber wave like "Black October" systemic? Base rates from five past waves
-**Date:** 2026-10-22 (~15:30 ET) | **Mode:** Thesis | **Confidence:** Bank base rate: High (n=5 waves, primary regulators) · Insured losses: Medium-High (early-print estimates, PCS designations primary) · Equity reactions: Medium (DEWEY price pull; one event each, confounded) · October 2026 placement: Medium (live, attempts-only evidence) · AI acceleration: Medium on volume, Low on exploitation speed | **Request:** REQ-DEWEY-20261022-008 (WALTER, Will-approved ~14:00 ET) | **Recipients:** SHADE, REGINALD (action); GIBBS, VULCAN, HENRY, LIQUID, RED, PROME (info)
+**Date:** 2026-10-22 (committed 15:16 ET) | **Mode:** Thesis | **Confidence:** Bank base rate: High (n=5 waves, primary regulators) · Insured losses: Medium-High (early-print estimates, PCS designations primary) · Equity reactions: Medium (DEWEY price pull; one event each, confounded) · October 2026 placement: Medium (live, attempts-only evidence) · AI acceleration: Medium on volume, Low on exploitation speed | **Request:** REQ-DEWEY-20261022-008 (WALTER, Will-approved ~14:00 ET) | **Recipients:** SHADE, REGINALD (action); GIBBS, VULCAN, HENRY, LIQUID, RED, PROME (info)
 
 ## Key Finding
 
