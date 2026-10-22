@@ -54,7 +54,7 @@ Publication: commits 86a04d085, 121807962, da2430627, 9fad2bb95, da73ad380, c2c1
 
 ## WILL_NEEDS
 
-One action, not a decision: **the X bookmark token on this laptop is dead** (verified). Before the reviewed 94-stage can be marked, or any new scan run, Will either carries the desktop `AGENTS/WALTER/.env` over or runs `! python3 AGENTS/WALTER/tools/x_bookmarks_scan.py --authorize`. The production mark itself still awaits PROME/Will's go (held tonight per PROME). Existing WQ458 bookmark continuation stays registered with PROME. Push of this closeout was directed by PROME on Will's word; if Will did not intend a WALTER push, that is a correction for PROME.
+**RESOLVED 2026-10-22 02:04Z: Will re-authorized X on this laptop** (`--authorize`; seen-set and the 94-stage untouched; no scan). **The desktop `.env` copy is now dead; carry the laptop `.env` at the next machine switch.** Earlier: the X bookmark token on this laptop was dead (verified). Before the reviewed 94-stage can be marked, or any new scan run, Will either carries the desktop `AGENTS/WALTER/.env` over or runs `! python3 AGENTS/WALTER/tools/x_bookmarks_scan.py --authorize`. The production mark itself still awaits PROME/Will's go (held tonight per PROME). Existing WQ458 bookmark continuation stays registered with PROME. Push of this closeout was directed by PROME on Will's word; if Will did not intend a WALTER push, that is a correction for PROME.
 
 ## FOLLOW-UP
 
