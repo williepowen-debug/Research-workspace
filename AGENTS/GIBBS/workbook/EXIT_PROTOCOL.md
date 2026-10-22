@@ -1,6 +1,6 @@
 # GIBBS — EXIT PROTOCOL (dated kill rail)
 
-**Kill rail re-derived: 2026-10-19** — first owner read; R0 unchanged. No gate, magnitude threshold or prediction introduced.
+**Kill rail re-derived: 2026-10-21** — Q3 print cluster read (15 of 16 printed); R0 unchanged. No gate, magnitude threshold or prediction introduced. Prior: 2026-10-19 first owner read.
 
 Two rails. **R0** asks whether the desk should exist. **R1/R2** ask whether its two questions have answers. At build there is no thesis to kill, only questions. This file says so rather than inventing a thesis.
 
@@ -19,8 +19,8 @@ Two rails. **R0** asks whether the desk should exist. **R1/R2** ask whether its 
 
 | Field | Content |
 |---|---|
-| State at build | **OPEN QUESTION — partial first-owner evidence.** No cohort-wide conclusion. |
-| Bidirectional flip | At the next NTRS Q3 release (10/21, schedule not reverified), one HC quarterly-average deposit-cost/NIB comparison against REGINALD CFG on the same Q3 basis: rising cost with stable/rising NIB moves the item toward INDUSTRY-WIDE; stable/falling cost with stable/rising NIB against CFG rising cost moves it toward REGIONAL-ONLY. A mixed cost/NIB result stays NOT-YET-DETERMINABLE. This is direction classification, not a new numerical gate. |
+| State at build | **OPEN QUESTION — 2026-10-21: deposit-cost leg INDUSTRY-WIDE (10 large firms vs CFG/MTB/WAL/ZION, all rising); CRE-NCO leg mixed (4 up / 3 flat, scoped vs CFG); stress-type signals (reserve build + rising NPL) at one large bank (PNC CRE).** Not a cohort-wide verdict. |
+| Bidirectional flip | At the Q3 10-Qs (~11/06) and the Q4 prints (mid-January): a CRE allowance BUILD with rising CRE nonperformers at a second large bank beyond PNC moves the CRE leg toward INDUSTRY-WIDE stress (not just recognition); PNC's CRE reserves and nonperformers both falling (the BAC/WFC pattern) moves it back toward recognition-only. Regional IB-deposit costs rising faster than the large-bank +2 to +11bp range moves the funding leg toward REGIONAL-ONLY; the ranges continuing to overlap keeps it INDUSTRY-WIDE. NTRS (10/21) supplied balances but no parseable IB rate, so the 10/19 NTRS flip resolved NOT-YET-DETERMINABLE. Direction classification, not a numerical gate. |
 | Instrument | `READS.tsv` `Scope_Tag` per item per quarter; counts carry N-prints, never "sustained" bare |
 | Kill (channel) | A channel kill on Q1 does NOT kill Q2 — say which channel died and the migration path |
 
@@ -28,7 +28,7 @@ Two rails. **R0** asks whether the desk should exist. **R1/R2** ask whether its 
 
 | Field | Content |
 |---|---|
-| State at build | **OPEN QUESTION — BROCK attribution INSUFFICIENT in JPM/WFC/C Q3 releases.** Historical seed evidence: JPMorgan's FSK revolver tightened (BROCK KB-BRK-314, MIRROR) |
+| State at build | **OPEN QUESTION — 2026-10-21: no NDFI transmission measured where disclosed (USB criticized <1%, FITB criticized 44bp −10bp); GS $368M provision on unattributed wholesale impairments is the open item; BROCK attribution INSUFFICIENT in JPM/WFC/C Q3 releases.** Historical seed evidence: JPMorgan's FSK revolver tightened (BROCK KB-BRK-314, MIRROR) |
 | One figure | JPM · WFC · C = BROCK's BRK-31 figure. The other 13 = GIBBS's, sent to BROCK before cross-desk use (WQ-426) |
 | Bidirectional flip | At the next available Q3 issuer exhibit/10-Q, an explicit PC/NDFI-attributable allowance build or named fund/manager migration moves Q2 toward transmission; a positively disclosed same-category allowance flat/down with performing exposure measured on the same basis moves Q2 away. One print moves the stance, never resolves BROCK BRK-31 FALSE; missing category disclosure leaves the channel open. |
 | Instrument (positive) | Disclosed NDFI exposure / reserve lines in 10-Q or earnings exhibits — a healthy reading is a disclosed figure with no reserve build and no named stressed counterparty, which is distinguishable from "not disclosed" (PAT-060: absence of a disclosure is not a clean reading) |
