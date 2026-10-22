@@ -11,6 +11,14 @@ Reverse-chronological log of **structural** changes to CREED's docs, folders, sc
 
 ---
 
+## 2026-10-22 — sweep fixes: legacy-archive path, trap-3 archive scope, a live-pinned test, COVERAGE history file (Will: *"alright lets work on these now"*)
+
+- **Why:** Will-directed sweep of CREED files (2026-10-22 12:46 ET) found six wrong/contradictory items; Will directed fixing all six at 13:13 ET, including the `CLAUDE.md` edits.
+- **What (structural):** ① `CLAUDE.md` boot step 5, §Source Archive (8 paths), §Guardrails and `README.md` now point to `AGENTS/REGINALD/archive/sub-agents/CREED/`. REGINALD moved the tree there on 2026-08-13 (`a7bae0d06`, Will-directed) and CREED's references stayed dead for ten weeks. ② `CLAUDE.md` trap 3 (mirrored in SCRATCH trap 3): the September Trepp PDFs are archived at `AGENTS/WALTER/research/2026-10-16_finish/credit-trepp-*.pdf`, not `AGENTS/WALTER/sources/`, so the check now names both shapes. ③ `scripts/test_history_validation.py` C1 derives its expected count from the live file at run time (it pinned `n=8/12` and failed when September made it 9). Falsified: a deliberately wrong expected count fails C1. ④ New `archive/COVERAGE_HISTORY_2026-10-22.md` holds the replaced COVERAGE header and lanes 2/3/6 verbatim (crc-stamped).
+- **Analytical refreshes the same session (not structural; listed so the commit is legible):** THESIS row 2 + matrix as-of line + row 8b; COVERAGE lanes 2/3/6/10 + header; PRED-002 note; SCRATCH refi block and the research page's owed list.
+- **Lesson kept:** a move by ANOTHER desk breaks CREED's pointers silently; nothing in CREED's checks resolves charter paths. The dead-pointer scan used in the sweep is ad hoc, and making it a check is deferred, not done.
+
+
 ## 2026-10-01 — case ledger takes external datasets: `cases/sources/`, the `LEAD` tier, and two scripts (Will: "adopt all the rows")
 
 - **Why:** Will supplied his own CRE loss-sales research (101 event rows, then three analytical sheets) and directed adopting all of it. The ledger had no home for an external dataset and no honest tier for rows with no source link.

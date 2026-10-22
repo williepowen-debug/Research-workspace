@@ -80,9 +80,19 @@
 **Still owed (not done this session):** verify the agent's CMBS payoff rates (BofA/CREFC, KBRA) before any KB row · confirm FDIC `RSNRES` definition at FFIEC before proposing it as a lane-5 vector · decide whether to build the ABS-EE lease-before-maturity screen (engineering; Will's call) · the form-gated Trepp reports stay unsubmitted (Will's email; his call) · Florida/MF items routed to WALTER this session.
 
 
-## Next session (owed, in order)
-1. Re-fetch F1/F2/F4/F10 and decide KB rows (F1 is the strongest: an aggregate series for lane 5).
-2. Route F7/F8 + student housing (9/21, 9/22) to WALTER for HOMER/CORAL.
-3. Re-run directions 1–6 beyond Trepp (the agent prompts are in this session's transcript; re-spawn on Opus). **Already approved (line 3). The crash lost the outputs, not the approval, so this is not a Will question** (corrected 2026-09-30 21:59 ET, CATO RC5). Unfinished: the four fan-outs (1, 2+3, 4, 5+6) returned nothing; directions 4 (payoff rates) and 6 (coupon gap) have no result at all. ⚠️ That transcript is not on the laptop; rebuild the prompts from this page if needed. Sequencing: do items 1 (F1) and 4 (F5 / Glancy) first.
-4. Read Glancy (2026) at source before any THESIS wording on extend-and-pretend (F5).
-5. ~~Ask Will before wiring the sweep into `CLAUDE.md` boot order.~~ **Ruled 2026-10-01: not wired; it stays a manual tool (Will).** *(The sweep was repaired first, 2026-09-30 evening, CATO RC4: incomplete coverage now exits 2, dates bind per card, `--all` shows every row; saved cases `scripts/test_trepptalk_sweep.py`.)*
+## Owed — corrected 2026-10-22 (Will-directed sweep, item 3)
+
+⚠️ **Until 2026-10-22 this list still read as written on 9/30**: it said the four fan-outs "returned nothing", below the 10/01 results table that records all four returning. The 9/30 list text is preserved in git history of this file. Current state:
+
+| # | Item | State |
+|---|---|---|
+| 1 | Re-fetch F1/F2/F4/F10 and decide KB rows | **F1 DONE 10/01** (re-fetched, `KB-CREED-052`). **F2, F4, F10: KB decision still OWED** (F4 partly carried in the dir-3 row above; F10 is CREED's own lodging lane, `VX-1.05`) |
+| 2 | Route F7/F8 + student housing to WALTER for HOMER/CORAL | **DONE 10/01** (line 80 above) |
+| 3 | Re-run directions 1–6 beyond Trepp | **DONE 10/01**: all four Opus agents returned (`research/2026-10-01_refi_agents/`); load-bearing figures re-read at source (results table above; `KB-CREED-053/054/055`) |
+| 4 | Read Glancy (2026) at source (F5) | **DONE 10/01** (`KB-CREED-053`; THESIS hypothesis 1 reworded, WQ-356, Will 10/01) |
+| 5 | ~~Ask Will before wiring the sweep into `CLAUDE.md` boot order.~~ | **Ruled 2026-10-01: not wired; it stays a manual tool (Will).** |
+| 6 | Verify the agent's CMBS payoff rates (BofA via CREFC, KBRA) before any KB row | **OWED** (also PREREG_2026-10 falsifier F2, untested) |
+| 7 | Confirm the FDIC `RSNRES` definition at FFIEC before proposing it as a lane-5 vector | **OWED** |
+| 8 | ABS-EE lease-before-maturity screen; form-gated Trepp reports | **Will's call** (engineering; vendor gets his email) |
+
+*(Item 5's original note:)* *(The sweep was repaired first, 2026-09-30 evening, CATO RC4: incomplete coverage now exits 2, dates bind per card, `--all` shows every row; saved cases `scripts/test_trepptalk_sweep.py`.)*

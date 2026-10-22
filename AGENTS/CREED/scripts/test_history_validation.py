@@ -45,7 +45,10 @@ BASE = rows()
 # expect: substring the counter line for `vid` must contain; sc = True if selfcheck must emit a [history] finding
 CASES = [
     # ---- CATO's saved counterexamples (C1-C13) ----
-    ("C1 live snapshot", None, "VX-CREED-1.01: n=8/12", False, V),
+    # C1's expectation is DERIVED from the live file at run time (live_expect below). It hard-coded "n=8/12"
+    # until 2026-10-22 and failed as soon as the September print legitimately made it n=9: a live-data test
+    # must not pin a live value.
+    ("C1 live snapshot", None, None, False, V),
     ("C2 11 months", encode(BASE), "n=11/12", False, V),
     ("C3 11 + excluded duplicate", encode(BASE + [row(per="2025-01", role="DUPLICATE")]), "n=11/12", False, V),
     ("C4 12 months", encode(BASE + [row()]), "DUE", False, V),
@@ -75,6 +78,21 @@ CASES = [
 ]
 
 
+def live_expect(live, vid):
+    """Independent, deliberately naive count of the live series: distinct periods of CANONICAL rows with a
+    numeric Value. It does not re-implement the validator; if the live history is valid, the counter must agree."""
+    periods = set()
+    body = "".join(l for l in live.decode("utf-8").splitlines(keepends=True) if not l.startswith("#"))
+    for r in csv.DictReader(io.StringIO(body), delimiter="\t"):
+        if r.get("Vector_ID") == vid and r.get("Role") == "CANONICAL":
+            try:
+                float(r.get("Value", ""))
+            except ValueError:
+                continue
+            periods.add(r.get("Date"))
+    return "DUE" if len(periods) >= 12 else f"{vid}: n={len(periods)}/12"
+
+
 def main():
     fails = 0
     with tempfile.TemporaryDirectory(prefix="creed-hist-test-") as tmp:
@@ -83,6 +101,8 @@ def main():
         hist = home / "workbook/VX_HISTORY.tsv"
         live = hist.read_bytes()
         for name, data, expect, sc_expected, vid in CASES:
+            if expect is None:
+                expect = live_expect(live, vid)
             hist.write_bytes(live if data is None else data)
             env = {"PATH": "/usr/bin:/bin", "PYTHONDONTWRITEBYTECODE": "1"}
             scan = subprocess.run([sys.executable, str(home / "scripts/threshold_scan.py")],

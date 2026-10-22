@@ -92,7 +92,7 @@ One dated file per PROME-commissioned read, at the path the commissioning packet
 Do **not** treat these as current analytical truth:
 
 - ~~`AGENTS/CREED/inbox/2026-02-24_signals.md`~~ — removed 6/28 (triaged → `research/INBOX_TRIAGE_2026-06-21.md`; content in THESIS). Live inbox is `inbox/WALTER/`.
-- `AGENTS/REGINALD/sub-agents/CREED/` — legacy REGINALD sub-agent tree / source archive
+- `AGENTS/REGINALD/archive/sub-agents/CREED/` — legacy REGINALD sub-agent tree / source archive (moved from `sub-agents/CREED/` by REGINALD 2026-08-13, `a7bae0d06`; path corrected here 2026-10-22)
 - `AGENTS/REITS/` — dormant public-REIT source archive; live REIT tape now belongs to CREED
 
 The legacy tree is useful for mechanism libraries, old source trails, and tracker design. It is not a live dashboard.
