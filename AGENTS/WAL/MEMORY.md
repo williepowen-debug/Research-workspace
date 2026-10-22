@@ -25,6 +25,8 @@
 10. Never built: `boot.py` (charter step 5).
 11. ~~Charter edits~~ **DONE 10/22 12:4x ET on Will's own word** ("you can make claude.md edits now with my permission"): identity block post-print, USER.md read at boot step 0, inbox lanes via 4c, root 1b–1e cited, non-ff recovery → root step 3, NOT-FIRED idea route to TERRY, re-score rule + maintenance check in the tables, POSITIONS declared the only trade surface. Will also approved the re-score table (12:37 ET).
 
+**Late 10/22 intake (INFO, filed to inbox/processed/, no ask):** DEWEY `REQ-DEWEY-20261022-001` bank tech-vendor concentration — WAL core vendor UNKNOWN; Oct-2024 third-party file-transfer zero-day (10-K); Fiserv merchant alliance (8-K 5/12, non-core). DEWEY `REQ-DEWEY-20261022-003` — "NPL up, coverage down" has little predictive value within a year (2 of 10 episodes vs 25% base); the problem-loan rise itself is the signal; WAL can be placed from Q3 call reports after ~10/30 — fold into NEXT #3 (FFIEC). No WAL cell changed.
+
 **Earnings caveat that must travel (from 10/19):** the Q3 release reclassifies customer derivatives/FX from FV into commercial fees, with no income effect. Q2 FV is now 8.3 vs 12.8 in the old October 14 screen. The new Q3 comparative PPNR less security sale/FV (401.8 vs 401.1) is a diagnostic, not issuer-adjusted EPS nor the old 8.98 annual screen; hedge/persistence unknown. The old consensus (KB-223) is stale with an unmatched basis. REGINALD retains funding/cohort/severity.
 
 **Carried proposals, unstarted (Will's go needed):** `research/2026-10-19_next-understanding-options.md` #2 credit-cleanup bridge + $99M, #3 capital retention after marks/buybacks, #4 price vs earnings expectations (#1 earnings bridge is done).
