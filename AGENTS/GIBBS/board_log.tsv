@@ -1,3 +1,7 @@
 timestamp_read	signal_id	disposition	source	notes
 2026-10-19T13:32:12.896557+00:00	SIG-W-20261016-038	noted	INBOX_WALTER	Large-bank-led vendor weekly pattern is context, not same-item Q3 fundamental comparator; near-zero weekly leg/source caveat retained in dated report.
 2026-10-19T13:32:12.896557+00:00	SIG-W-20261019-001	acted	INBOX_WALTER	Issuer schedule and SEC publication integrated; DOCKET AMC correction sent to PROME; no NDFI grade.
+2026-10-22T02:33:37.186977+00:00	2026-10-16_from-REGINALD_cohort-Q3-read-locations	acted	INBOX_TOPLEVEL	Pointer integrated 10/19 (KB-GIB-009); used 10/21 to locate REGINALD 2026-10-20 catch-up report as the same-item comparator for READS items 1-2.
+2026-10-22T02:33:37.186977+00:00	2026-10-20_from-REGINALD_seams-confirmed	acted	INBOX_TOPLEVEL	AOCI stays REGINALD; HBAN stays REGINALD; FITB tag accepted as scoped vs CFG; same-line rule applied in READS (WFC total-deposit cost left NOT-YET-DETERMINABLE). KB-GIB-013.
+2026-10-22T02:33:37.186977+00:00	2026-10-21_from-BROCK_cfg-12852-source-named	noted	INBOX_TOPLEVEL	CFG baseline gap $1,875M is BROCK/REGINALD's reconciliation (CFG not in GIBBS perimeter); no GIBBS surface holds a CFG figure. KB-GIB-011.
+2026-10-22T02:33:37.186977+00:00	2026-10-21_from-BROCK_ndfi-handoff-confirmed	acted	INBOX_TOPLEVEL	JPM/WFC/C item-3 rows re-cite BROCK bank_Q3_read.md as the ONE figure (attribution INSUFFICIENT); KB-GIB-012; STATUS one-figure line.

@@ -1,0 +1,494 @@
+{
+ "retrieved_utc_window": "2026-10-22T02:24Z..02:31Z (two fetch runs, GIBBS session 2026-10-21 ~22:24-22:31 ET; second run is the hashed one)",
+ "route": "SEC EDGAR data.sec.gov submissions JSON -> 8-K with Item 2.02 filed >= 2026-10-10 -> filing index.json -> every .htm exhibit",
+ "user_agent": "fleet SEC contact UA (GIBBS-Research)",
+ "full_text_kept": "no (scratch only); URLs + sha256 + bytes only",
+ "issuers": {
+  "JPM": {
+   "cik": "0000019617",
+   "issuer": "JPMORGAN CHASE & CO",
+   "8k_item_2_02": [
+    [
+     "0001628280-26-065582",
+     "2026-10-13",
+     "2.02,9.01",
+     "jpm-20261013.htm"
+    ]
+   ],
+   "docs": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026065582/a3q26erfex992supplement.htm",
+     "bytes": 3388166,
+     "sha256": "7809eb12255ffd7212a61bd5862a8990ec30419fdc4a8b79aa97651e3115b7a4"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026065582/a3q26erfexhibit991narrative.htm",
+     "bytes": 206169,
+     "sha256": "03fe08901652f10da12886ba8e9c7cf6ee89b94f9399f57556f91ea90300e6e4"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026065582/jpm-20261013.htm",
+     "bytes": 45375,
+     "sha256": "e7374001e622bf58a570cd574c0646cabde65c44462a4490d89485c3edfd9f2a"
+    }
+   ]
+  },
+  "BAC": {
+   "cik": "0000070858",
+   "issuer": "BANK OF AMERICA CORP /DE/",
+   "8k_item_2_02": [
+    [
+     "0000070858-26-000481",
+     "2026-10-14",
+     "2.02,7.01,9.01",
+     "bac-20261014.htm"
+    ]
+   ],
+   "docs": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000481/bac-09302026ex993.htm",
+     "bytes": 3280083,
+     "sha256": "d27d26adbbb4f4dba742c9ef600252987f58348945680ff44154267c45cfa4ad"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000481/bac-20261014.htm",
+     "bytes": 71427,
+     "sha256": "019840961c5af3dfdd0f988021c552f79972c1b0dac319ef65e6dd53cf536238"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000481/bac09302026ex991.htm",
+     "bytes": 76242,
+     "sha256": "034ccb726c259c9a5ab52a44c094d67fb63d3d830c061d9849b380dc4e83867d"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000481/bac09302026ex992.htm",
+     "bytes": 74465,
+     "sha256": "03235d8f29e96876671158830b03fe6d2979d0ce67d68dfd2312a7cc61a8d0c4"
+    }
+   ]
+  },
+  "C": {
+   "cik": "0000831001",
+   "issuer": "CITIGROUP INC",
+   "8k_item_2_02": [
+    [
+     "0001104659-26-115323",
+     "2026-10-13",
+     "2.02,9.01",
+     "c-20261013x8k.htm"
+    ]
+   ],
+   "docs": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/831001/000110465926115323/c-20261013x8k.htm",
+     "bytes": 40860,
+     "sha256": "4e81f8c2b41a84d71af051a86c1461c68eed0a62b614636f0558f152ee47428b"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/831001/000110465926115323/c-20261013xex99d3.htm",
+     "bytes": 36692,
+     "sha256": "877f715e30bbbd626f3f620779600b6c5a179c36a2e2e5a6a90a702e8f45865c"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/831001/000110465926115323/c-ex99d1.htm",
+     "bytes": 703340,
+     "sha256": "44b1c01d2918d41ddd558b32ce6a8087b112f2ae7b8d4dadded81d0be6025f34"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/831001/000110465926115323/c-ex99d2.htm",
+     "bytes": 10312548,
+     "sha256": "55a380ba76d7525d66373f47de1fc0e73dee9d34057975af315d111a6eade17c"
+    }
+   ]
+  },
+  "WFC": {
+   "cik": "0000072971",
+   "issuer": "WELLS FARGO & COMPANY/MN",
+   "8k_item_2_02": [
+    [
+     "0000072971-26-000318",
+     "2026-10-13",
+     "2.02,7.01,9.01",
+     "wfc-20261013.htm"
+    ]
+   ],
+   "docs": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297126000318/ex993-wellsfargo3q26pres.htm",
+     "bytes": 44297,
+     "sha256": "ac33bee608891ef3dfd37f33c84efd8a524066f11dd87d0d40c572de266f558d"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297126000318/wfc-20261013.htm",
+     "bytes": 43758,
+     "sha256": "a5a5fef34fd0a86056b3bf1c411f4705fc075514b114c31195f382f60c5983b3"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297126000318/wfc3qer10-13x26ex991xrelea.htm",
+     "bytes": 410377,
+     "sha256": "e5f7284a977e706f3ebd59ff6458a6f27b51998ee9fedcaada2e64714f0916f8"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297126000318/wfc3qer10-13x26ex992xsuppl.htm",
+     "bytes": 3067671,
+     "sha256": "2282d8c5d64be1b61c075606aa08d8c52c88d4dd40e633989d03bbfebb59bfb8"
+    }
+   ]
+  },
+  "GS": {
+   "cik": "0000886982",
+   "issuer": "GOLDMAN SACHS GROUP INC",
+   "8k_item_2_02": [
+    [
+     "0000886982-26-000529",
+     "2026-10-13",
+     "2.02,7.01,9.01",
+     "gs-20261013.htm"
+    ]
+   ],
+   "docs": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000529/a3q26gsearningsresults.htm",
+     "bytes": 831239,
+     "sha256": "3a0fa1d2b186d785b0671866ec91a4986add552bc5802dc23e7c3230c0b04c5f"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000529/a3q26gsearningsresultspr.htm",
+     "bytes": 42883,
+     "sha256": "2822b62b33145af485ee4e67be7aca3a5b82d79fb2d4b9390c0aa360c5f2496e"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000529/gs-20261013.htm",
+     "bytes": 44866,
+     "sha256": "a1b1c0cab737de00fecbf913e0cc2b821e09a6df5b43a2b7c4a734fa0c3e5593"
+    }
+   ]
+  },
+  "MS": {
+   "cik": "0000895421",
+   "issuer": "MORGAN STANLEY",
+   "8k_item_2_02": [
+    [
+     "0000895421-26-000288",
+     "2026-10-14",
+     "2.02,9.01",
+     "ms-20261014.htm"
+    ]
+   ],
+   "docs": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/895421/000089542126000288/a3q26msearningsrelease.htm",
+     "bytes": 346293,
+     "sha256": "6fad40731cb5341dc2d5effb6c2757b901dda51fcdb305eec19b4ec4e5304275"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/895421/000089542126000288/a3q26msfinancialsupplement.htm",
+     "bytes": 1107430,
+     "sha256": "445b8359b4ac367aff51760453380fa8077596261031b35f10431107679b32ef"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/895421/000089542126000288/ms-20261014.htm",
+     "bytes": 52162,
+     "sha256": "38bf0497fb3f5cd16f66eb82eb0a34520ae5a205ca00c6796bfff61497d59c2b"
+    }
+   ]
+  },
+  "BK": {
+   "cik": "0001390777",
+   "issuer": "Bank of New York Mellon Corp",
+   "8k_item_2_02": [
+    [
+     "0001390777-26-000104",
+     "2026-10-15",
+     "2.02,7.01,9.01",
+     "bk-20261015.htm"
+    ]
+   ],
+   "docs": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1390777/000139077726000104/bk-20261015.htm",
+     "bytes": 34615,
+     "sha256": "227208d58771153fba0e7805b863ee6a446ea6187009e47cbde869cd35190228"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1390777/000139077726000104/ex991_earningsreleasex3q26.htm",
+     "bytes": 627289,
+     "sha256": "15a0ecb51c3b2ad1f82622c63ee2ee0fbce8f67bac31fc8e79eebd2e5083c4e2"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1390777/000139077726000104/ex992_financialsupplementx.htm",
+     "bytes": 1591279,
+     "sha256": "ef57ec0cefef484915afbc69f61a5caebd88c30218c6cc5cb1e1aa89dde4fbb7"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1390777/000139077726000104/ex993_quarterlyupdatepre.htm",
+     "bytes": 32913,
+     "sha256": "8b3194d3bcc04b297cfe638ece77448549b0f607622961bb171d264d61320733"
+    }
+   ]
+  },
+  "STT": {
+   "cik": "0000093751",
+   "issuer": "STATE STREET CORP",
+   "8k_item_2_02": [
+    [
+     "0000093751-26-000592",
+     "2026-10-14",
+     "2.02,5.02,7.01,9.01",
+     "stt-20261009.htm"
+    ]
+   ],
+   "docs": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/93751/000009375126000592/a3q26earningspressrelease.htm",
+     "bytes": 390847,
+     "sha256": "ab9cd90db35270312c873d01d91d83dafd085d0673f5a328cb00851949dd8a45"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/93751/000009375126000592/exhibit992-3q26earningsrel.htm",
+     "bytes": 3562932,
+     "sha256": "c0248d8c86300344d2c199d3b4aabe569f75255a53a7facc0dbb7436a5a1a383"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/93751/000009375126000592/stt-20261009.htm",
+     "bytes": 41203,
+     "sha256": "f5d59ea25ca08d4e2a964aaaa9b5eaea70299abb8afffdc9b5a5a66938ae9225"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/93751/000009375126000592/stt3q26earningspresentat.htm",
+     "bytes": 59557,
+     "sha256": "674d71878ae85f91b72956b00198f658096d9ae2544cda0a14f71dc7311f90e5"
+    }
+   ]
+  },
+  "AXP": {
+   "cik": "0000004962",
+   "issuer": "AMERICAN EXPRESS CO",
+   "8k_item_2_02": [],
+   "docs": []
+  },
+  "NTRS": {
+   "cik": "0000073124",
+   "issuer": "NORTHERN TRUST CORP",
+   "8k_item_2_02": [
+    [
+     "0000073124-26-000063",
+     "2026-10-21",
+     "2.02,7.01,9.01",
+     "ntrs-20261021.htm"
+    ]
+   ],
+   "docs": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/73124/000007312426000063/ntrs-20261021.htm",
+     "bytes": 35042,
+     "sha256": "d76a1899e30fd83fc06fee692bc644096412da41f8e4ac5b47329c11727f3c9a"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/73124/000007312426000063/q32026earningsreleaseex991.htm",
+     "bytes": 829424,
+     "sha256": "6321a14f09993720f64e4d274b6ea1115b84a52cfcbb54e0ecc2b6bc694fc234"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/73124/000007312426000063/q32026presentationmateri.htm",
+     "bytes": 19168,
+     "sha256": "0df3657620ad021407fe366f22fc1031660be44db5dd2bdc93749babac9ea5cd"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/73124/000007312426000063/q32026trendreport_ex993.htm",
+     "bytes": 54774,
+     "sha256": "e9c9fdf619665ff43c9073b78a1265df01a14bcd897bf6a07331e7187948dac5"
+    }
+   ]
+  },
+  "USB": {
+   "cik": "0000036104",
+   "issuer": "US BANCORP \\DE\\",
+   "8k_item_2_02": [
+    [
+     "0000036104-26-000054",
+     "2026-10-15",
+     "2.02,7.01,9.01",
+     "usb-20261015.htm"
+    ]
+   ],
+   "docs": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/36104/000003610426000054/a3q26earningspresentatio.htm",
+     "bytes": 56390,
+     "sha256": "ef86f2bce3d93d63a6d23ca57147441e043d88e8cde3949f93f7dbd4d4f1ffe2"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/36104/000003610426000054/a3q26earningsrelease.htm",
+     "bytes": 1349514,
+     "sha256": "b8c6dd80c8c816e6cf7a1dff8f9bca2ce846bfd086809d80092de8f4043bd372"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/36104/000003610426000054/a3q26earningssupplement.htm",
+     "bytes": 1737823,
+     "sha256": "2fe71980252183d76770535136668e20a0bc2a4c98329e6f4a31cdbff965c59c"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/36104/000003610426000054/usb-20261015.htm",
+     "bytes": 38213,
+     "sha256": "239f18fe5148411adec9cc5b8fb7826c955f5baf161e2ed6a1885322d8d1900b"
+    }
+   ]
+  },
+  "COF": {
+   "cik": "0000927628",
+   "issuer": "CAPITAL ONE FINANCIAL CORP",
+   "8k_item_2_02": [
+    [
+     "0000927628-26-000142",
+     "2026-10-20",
+     "2.02,9.01",
+     "cof-20261020.htm"
+    ]
+   ],
+   "docs": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000142/cof-20261020.htm",
+     "bytes": 43795,
+     "sha256": "da6864de72c6e19dc9d3625c91d7bcbae758d6d348a05b8f9bcb0193d1acd0c9"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000142/ex991q32026earningsrelease.htm",
+     "bytes": 39944,
+     "sha256": "04ab31383b5fb5cdc05af25092f748d1e1dcb4b0cb01cc85c8222798921f86bf"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000142/ex992q32026earningsrelease.htm",
+     "bytes": 2562021,
+     "sha256": "31219cb81c7591f667a7c95b887ba92f279a816c35ea7d904de46c06bc815513"
+    }
+   ]
+  },
+  "PNC": {
+   "cik": "0000713676",
+   "issuer": "PNC FINANCIAL SERVICES GROUP, INC.",
+   "8k_item_2_02": [
+    [
+     "0001628280-26-065936",
+     "2026-10-15",
+     "2.02,9.01",
+     "pnc-20261015.htm"
+    ]
+   ],
+   "docs": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/713676/000162828026065936/pnc-20261015.htm",
+     "bytes": 26062,
+     "sha256": "4c10a4f5d1bffacdf6ffb6b3f6ebcdfb7515c7deee4fbdb85f855d69e58ab7ee"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/713676/000162828026065936/q32026financialhighlightsa.htm",
+     "bytes": 922504,
+     "sha256": "b72aa72ace952fbfe82f5ccb6e998c0923ad7e4786a82c37b060b206dc3c6b44"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/713676/000162828026065936/q32026financialsupplement.htm",
+     "bytes": 1846426,
+     "sha256": "382362fa61eb7c2d9d373d9e3112c06e83e3f7b51d2bc82663590f5614653816"
+    }
+   ]
+  },
+  "TFC": {
+   "cik": "0000092230",
+   "issuer": "TRUIST FINANCIAL CORP",
+   "8k_item_2_02": [
+    [
+     "0000092230-26-000108",
+     "2026-10-16",
+     "2.02,9.01",
+     "tfc-20261016.htm"
+    ]
+   ],
+   "docs": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/92230/000009223026000108/ex991-3q26.htm",
+     "bytes": 419662,
+     "sha256": "8b48aac2a3afa12e70e0989231ba0c16b85b99b21a6eee376cfbe15620afb7f1"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/92230/000009223026000108/ex992-qpsx3q26.htm",
+     "bytes": 1773379,
+     "sha256": "0742a9719df75a128c08fe96d62b3d5006bcd7add00bc5f3fc0587d6ffb0fd76"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/92230/000009223026000108/ex993-earningsdeck3q26.htm",
+     "bytes": 50869,
+     "sha256": "7ed260a8ff9533ee284e7d220c22ef7672c094a9a13f16e56997d52e193c2477"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/92230/000009223026000108/tfc-20261016.htm",
+     "bytes": 36304,
+     "sha256": "64d9282ed939954522bbb6fc3ad28e55cfc2e33fc372e4b24eeca0b7341bb348"
+    }
+   ]
+  },
+  "SCHW": {
+   "cik": "0000316709",
+   "issuer": "SCHWAB CHARLES CORP",
+   "8k_item_2_02": [
+    [
+     "0000316709-26-000035",
+     "2026-10-15",
+     "2.02,9.01",
+     "schw-20261015.htm"
+    ]
+   ],
+   "docs": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000035/a3q26exhibit991.htm",
+     "bytes": 1039021,
+     "sha256": "a0be1f6a7e89c502b28f978448146543167c5bae4df7fa6b484756b0444f71f0"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000035/schw-20261015.htm",
+     "bytes": 30474,
+     "sha256": "357c94da6ebd0f7ffe756f9e6eb0ba8d00dd7efb19c4f31d8b8ce8185afd93cd"
+    }
+   ]
+  },
+  "FITB": {
+   "cik": "0000035527",
+   "issuer": "FIFTH THIRD BANCORP",
+   "8k_item_2_02": [
+    [
+     "0000035527-26-000229",
+     "2026-10-19",
+     "2.02,7.01,9.01",
+     "fitb-20261019.htm"
+    ]
+   ],
+   "docs": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/35527/000003552726000229/fifththirdbancorppresent.htm",
+     "bytes": 72537,
+     "sha256": "d224afe9eaaf8a23fe9b85f06caa155ad83334c1a057a8911fce89f25a203e28"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/35527/000003552726000229/fitb-20261019.htm",
+     "bytes": 40169,
+     "sha256": "80e7c235c100c523e5f1c579ff21b9c55b4c39b88bf1a9b306ebe70ab0b25340"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/35527/000003552726000229/q32026earningsrelease.htm",
+     "bytes": 1970181,
+     "sha256": "767ac7cc9f3dce8c87e90ede0518c5a9fe16b7888fd95133a71a94112c5748d1"
+    }
+   ]
+  }
+ },
+ "citi_companyfacts": {
+  "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000831001.json",
+  "sha256": "6c2f2b7462e31fa6acc42dec989e8f4d1a077822a425bac622c9b08238356425",
+  "bytes": 8945116,
+  "finding": "us-gaap:Assets and LiabilitiesAndStockholdersEquity latest end = 2025-12-31 (10-K 0000831001-26-000011); no 2026 instant facts > $2.5T at all, so the 2026 10-Q XBRL route is absent for Citi, not a mis-tag. 6/30/2026 total assets $2,894.7B and 9/30/2026 $2,941.3B read from 8-K 0001104659-26-115323 EX-99.2 (c-ex99d2.htm) Total assets row."
+ },
+ "quartr": {
+  "status": "subscription_required",
+  "note": "call transcripts not reachable without a paid Quartr Pro plan; not pursued (paid data is Will-gated)"
+ }
+}
