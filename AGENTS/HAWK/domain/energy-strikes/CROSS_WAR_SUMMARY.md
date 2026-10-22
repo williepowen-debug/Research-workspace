@@ -7,7 +7,7 @@
 | Owner ledger | Head commit | Rows on 10/21 | Rows on 10/10 |
 |---|---|---|---|
 | OSPREY `STRIKES.tsv` | `481b5a917`, 10/21; mark NOT advanced past 10/11 (Palaemon 12–18 Oct unposted) | **160** mixed strike/maritime | 150 |
-| FALCON hull `VESSELS.tsv` | `e3999d8b6`, 10/21 (UKMTO 174–180-26 reconciled) | **82** | 59 |
+| FALCON hull `VESSELS.tsv` | `d4720ac9b`, 10/21 (UKMTO 174–180-26 reconciled; AL DASMA dated 10/20) | **82** | 59 |
 | FALCON facility `STRIKES.tsv` | `ab9b1cea0`, 10/21 | **42** | 41 |
 
 Row counts are heterogeneous ledger entries, not a census and not additive capacity.
@@ -21,12 +21,12 @@ Row counts are heterogeneous ledger entries, not a census and not additive capac
 **Gulf [FALCON 10/21 `ab9b1cea0`/`e3999d8b6`]: marks HELD B 1 / C 14 / D 85; production rung NOT FIRED.**
 - **Saudi sites:** Dhahran HQ 10/13 is an office (OUT). Abqaiq 10/08 shows flare-stack heat with no counting source. Shaybah 10/21 was an intercept, with debris outside the perimeter (MoE: operations unaffected; 2 killed). Yanbu missile intercepted 10/16.
 - **Losses: 4 confirmed + 1 contested** (CAPE DAO now IMO "Partially sunk", disputed by JMIC; WQ-431 held at 5).
-- **Hull war across the whole Gulf.** ST3 and LOYALTY were hit 68–78 nm NE of Al Jubail on 10/16 (UKMTO 174/175-26). That is the Saudi Gulf coast, **not Hormuz**, as first relayed (WALTER -1021-011). Also JIF BARRACUDA tug off Khor Fakkan 10/18; AL DASMA ~11 nm W of Bukha (179-26, date 10/20 vs 10/21 0145Z unresolved, **one event, not two**); SOYIA ~30 nm SE of Al Faw 10/20 (180-26).
+- **Hull war across the whole Gulf.** ST3 and LOYALTY were hit 68–78 nm NE of Al Jubail on 10/16 (UKMTO 174/175-26). That is the Saudi Gulf coast, **not Hormuz**, as first relayed (WALTER -1021-011). Also JIF BARRACUDA tug off Khor Fakkan 10/18; AL DASMA ~11 nm W of Bukha (179-26; **one event, not two**; dated 10/20 at the NAVAREA IX 396/26 primary per FALCON `55e8d1c7b`, KB-307); SOYIA ~30 nm SE of Al Faw 10/20 (180-26).
 - **KOTC pattern-watch tripped:** AL DASMA is the third Kuwait hull since 9/28, after AL FUNTAS 9/28 and KAZIMAH III 10/01 (FALCON KB-297). A note, not a letter.
 
 **Cross-war read, 10/21 [EST]:**
 - **The asymmetry holds; no pooled lost-barrel figure.** Russia's damage is refining/products, now with an export products terminal added. The Gulf's is hull losses plus a threat to processing that has not been counted.
-- **Flow vs price:** Kpler via WSJ (10/21; secondary relay, single source) has Middle East flows >24 mb/d vs 23.3 prewar in the week to 10/18, and Hormuz at ~82% of prewar. Against Brent ~$110 that is premium, not barrels (FLOW-HAWK-19, KB-440).
+- **Flow vs price:** Kpler via WSJ (10/21; secondary relay, single source) has Middle East flows >24 mb/d vs 23.3 prewar in the week to 10/18, and Hormuz at ~82% of prewar. Against Brent ~$110 that is premium, not barrels (FLOW-HAWK-19, KB-440). ⚠️ FALCON's PortWatch Hormuz print is 4/88 on 10/18 and does not reconcile with ~82% on a matched basis, so the read is medium-low (KB-446).
 - **Diesel cross-link:** GL 135 cargoes are moving (Primorsk ~40 kt 10/13; Leruo and Dolunay destinations signalled). ⛔ A refinery-strike loss and an undelivered licensed tranche are ONE barrel.
 - **HAW-22 (window from 10/01): no print candidate 10/11–10/21** (KB-HAWK-441). St Petersburg is a products terminal; the Gulf events were intercepts or hulls.
 - **Owner-state observation (dated 10/21, re-check next pass):** OSPREY's swept-complete mark is 10/11 and FALCON's ledgers are at 10/21. The Russian side is the less-swept one on this pass.

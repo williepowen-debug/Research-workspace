@@ -17,7 +17,7 @@
 3. **Hull war spread across the whole Gulf.** FALCON losses (10/21 review): **4 confirmed + 1 contested**. GFS PRIDE sank 10/13. CAPE DAO went from IMO "Sunk" (10/14) to "Partially sunk", and JMIC disputes it; the WQ-431 hold is at 5. Hulls hit:
    - ST3 and LOYALTY, 68–78 nm NE of Al Jubail, 10/16. That is the Saudi Gulf coast, **not Hormuz** as first relayed.
    - SOYIA off Al Faw, 10/20.
-   - AL DASMA off Bukha, 10/20 or 10/21. **One event, not two.**
+   - AL DASMA off Bukha, dated 10/20 at the primary (FALCON KB-307, NAVAREA IX 396/26). **One event, not two.**
    
    **KOTC pattern-watch tripped:** AL DASMA is the third Kuwait hull since 9/28 (KB-444). JMIC raised the Arabian Gulf to SUBSTANTIAL 10/18. **No mine blast verified.**
 4. **Saudi targets moved toward Aramco.**
@@ -34,7 +34,7 @@
 
 ## Cross-war decision summary
 
-**The decoupling holds on flow, and the escalation drivers are stacking.** Kpler via WSJ (10/21; secondary relay, single source) reports Middle East oil flows averaged **>24 mb/d vs 23.3 prewar** in the week to 10/18, with Hormuz at **~82% of prewar**. So Brent at ~$110 is mostly **risk premium, not lost barrels** (FLOW-HAWK-19; ORACLE's 10/15 gauge reads the same). The two wars still hit different molecules:
+**The decoupling holds on flow, and the escalation drivers are stacking.** Kpler via WSJ (10/21; secondary relay, single source) reports Middle East oil flows averaged **>24 mb/d vs 23.3 prewar** in the week to 10/18, with Hormuz at **~82% of prewar**. So Brent at ~$110 is mostly **risk premium, not lost barrels** (FLOW-HAWK-19; ORACLE's 10/15 gauge reads the same). ⚠️ **Confidence medium-low:** FALCON's PortWatch Hormuz print is 4/88 on 10/18, deepening, and it cannot be squared with Kpler's ~82% on a matched basis (KB-446). The two wars still hit different molecules:
 - **Russia:** refining and products capacity.
 - **Gulf:** hull losses and the threat to processing.
 
