@@ -1,0 +1,42 @@
+{
+  "schema": 2,
+  "staged_at": 1792700445.293815,
+  "items": [
+    {
+      "id": "2113346318953545907",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": "BOARD/SIG-W-20261022-032-arista-velocloud-orchestrator-zero-day-cve-2026-114625-cvss-9point9-exploited-third-since-july-not-in-kev-no-named-victims-edge-layer-context.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113274357682454865",
+      "disposition": "KILL",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/filtered/kill_log.tsv",
+      "ask_user": null
+    },
+    {
+      "id": "2113268044877209941",
+      "disposition": "KILL",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/filtered/kill_log.tsv",
+      "ask_user": null
+    },
+    {
+      "id": "2113253036013318277",
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "BOARD/SIG-W-20261022-031-france-10y-oat-5point06-touched-5point14-highest-since-2002-above-us-10y-first-since-2013-as-us-10y-falls-to-4point95-on-ai-selloff-hans-red-tier-moodys-friday-HANS.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113109837382901905",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": "BOARD/SIG-W-20261022-033-anecdote-unnamed-national-property-manager-150k-units-says-multifamily-worst-in-40-years-class-b-oversupply-renters-on-credit-cards-lender-forbearance-UNVERIFIED-HOMER.md",
+      "ask_user": null
+    }
+  ],
+  "stage_id": "938d305ae6bd43f4971d97e13647ee6f"
+}

@@ -1,47 +1,43 @@
 {
   "kind": "marked",
-  "checked_at": "2026-10-22T17:58:53Z",
-  "items": 7,
+  "checked_at": "2026-10-22T20:27:58Z",
+  "items": 5,
   "scan": {
-    "checked_at": "2026-10-22T17:54:06Z",
-    "head_checked_at": "2026-10-22T17:54:05Z",
+    "checked_at": "2026-10-22T20:20:45Z",
+    "head_checked_at": "2026-10-22T20:20:44Z",
     "head_checked_this_run": true,
     "incomplete": false,
-    "attempts": 2
+    "attempts": 3
   },
   "review_recorded": true,
   "read_counts": {
-    "partly_read": 2,
-    "fully_read": 5
+    "fully_read": 2,
+    "partly_read": 3
   },
   "dispositions": {
-    "FOLD": 6,
-    "NO-ACTION": 1
+    "DISPATCH": 3,
+    "KILL": 2
   },
   "follow_ups": [
     {
-      "id": "2113131512250167719",
-      "ref": "BOARD/SIG-W-20261022-025-black-october-cyber-wave-verified-ledger-no-confirmed-php2shell-breach-japan-only-bank-shutdowns-no-insurer-statement-60m-certs-and-pip-compromised-FALSE-SHADE-REGINALD.md"
+      "id": "2113346318953545907",
+      "ref": "BOARD/SIG-W-20261022-032-arista-velocloud-orchestrator-zero-day-cve-2026-114625-cvss-9point9-exploited-third-since-july-not-in-kev-no-named-victims-edge-layer-context.md"
     },
     {
-      "id": "2113210651371819361",
-      "ref": "BOARD/SIG-W-20261022-025-black-october-cyber-wave-verified-ledger-no-confirmed-php2shell-breach-japan-only-bank-shutdowns-no-insurer-statement-60m-certs-and-pip-compromised-FALSE-SHADE-REGINALD.md"
+      "id": "2113274357682454865",
+      "ref": "AGENTS/WALTER/filtered/kill_log.tsv"
     },
     {
-      "id": "2113254176759353801",
-      "ref": "BOARD/SIG-W-20261022-025-black-october-cyber-wave-verified-ledger-no-confirmed-php2shell-breach-japan-only-bank-shutdowns-no-insurer-statement-60m-certs-and-pip-compromised-FALSE-SHADE-REGINALD.md"
+      "id": "2113268044877209941",
+      "ref": "AGENTS/WALTER/filtered/kill_log.tsv"
     },
     {
-      "id": "2113315655512731872",
-      "ref": "BOARD/SIG-W-20261022-025-black-october-cyber-wave-verified-ledger-no-confirmed-php2shell-breach-japan-only-bank-shutdowns-no-insurer-statement-60m-certs-and-pip-compromised-FALSE-SHADE-REGINALD.md"
+      "id": "2113253036013318277",
+      "ref": "BOARD/SIG-W-20261022-031-france-10y-oat-5point06-touched-5point14-highest-since-2002-above-us-10y-first-since-2013-as-us-10y-falls-to-4point95-on-ai-selloff-hans-red-tier-moodys-friday-HANS.md"
     },
     {
-      "id": "2113041641481138358",
-      "ref": "BOARD/SIG-W-20261022-025-black-october-cyber-wave-verified-ledger-no-confirmed-php2shell-breach-japan-only-bank-shutdowns-no-insurer-statement-60m-certs-and-pip-compromised-FALSE-SHADE-REGINALD.md"
-    },
-    {
-      "id": "2113291274664976774",
-      "ref": "BOARD/SIG-W-20261022-025-black-october-cyber-wave-verified-ledger-no-confirmed-php2shell-breach-japan-only-bank-shutdowns-no-insurer-statement-60m-certs-and-pip-compromised-FALSE-SHADE-REGINALD.md"
+      "id": "2113109837382901905",
+      "ref": "BOARD/SIG-W-20261022-033-anecdote-unnamed-national-property-manager-150k-units-says-multifamily-worst-in-40-years-class-b-oversupply-renters-on-credit-cards-lender-forbearance-UNVERIFIED-HOMER.md"
     }
   ],
   "requests": []
