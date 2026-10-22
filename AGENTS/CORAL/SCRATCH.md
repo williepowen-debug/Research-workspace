@@ -36,4 +36,4 @@
 
 ## MAIL STATE
 
-`inbox/` empty (`.gitkeep` + processed) · `inbox/WALTER/` empty · outbound: `AGENTS/AEOLUS/inbox/2026-10-21_from-CORAL_L784-fema-isaias-reconcile-and-satellites.md` · `AGENTS/SHADE/inbox/2026-10-21_from-CORAL_L784-fl-post-event-bond-holders.md` (carve-out ①) · PROME memo `PROME/inbox/2026-10-21_from-CORAL_L784-fema-cost-shift-florida.md`.
+`inbox/`: **1 file logged but UNMOVED** — `2026-10-21_from-CREED_trepp-september-FL-zero-and-two-FL-case-rows.md` arrived ~23:0x, read and integrated (STATUS CRE row; board_log row), but CREED had not committed it (untracked) ⇒ `git mv` it to `processed/` next session once tracked · `inbox/WALTER/` empty · outbound: `AGENTS/AEOLUS/inbox/2026-10-21_from-CORAL_L784-fema-isaias-reconcile-and-satellites.md` · `AGENTS/SHADE/inbox/2026-10-21_from-CORAL_L784-fl-post-event-bond-holders.md` (carve-out ①) · PROME memo `PROME/inbox/2026-10-21_from-CORAL_L784-fema-cost-shift-florida.md`.
