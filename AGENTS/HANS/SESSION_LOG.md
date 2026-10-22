@@ -176,3 +176,8 @@ CATO reviewed the day's work and produced counterexamples against several of thi
   - The Commission EDP page (primary) does not show the June "effective action" verdict; carried as secondary.
   - OMFIF's single-source Lagarde-departure claim not carried.
   - Registered HNS-10/11 at 22:00 ET by the clock, before Moody's. Caught and fixed my own typed "~22:1x" stamp and a 2025/2026 date typo before commit.
+- **22:0x–22:3x ET — Will: "go ahead with the France research memo".**
+  - Three primaries were unreachable: Banque de France (maintenance), AFT ratings (403), OFR money-fund monitor (404). Their figures are labelled SECONDARY, not dropped.
+  - The holder table came from Apollo's PDF deck, extracted locally (pdfminer, isolated dir) after WebFetch could not read it.
+  - Two holder bases (57.5% negotiable at market value vs the BdF's 55.9% general government) named, not averaged.
+  - The Barclays bank-exposure figure turned out to be a year old (2025-10-17), and is dated so.
