@@ -1,7 +1,7 @@
-# FALCON SCRATCH — 2026-10-21 (Will-launched boot 20:23 ET, "catch up on events/news"; WALTER `walter-14` catch-up brief mid-session)
+# FALCON SCRATCH — 2026-10-21 (Will-launched boot 20:23 ET, "catch up on events/news"; WALTER `walter-14` + PROME `prome-56` asks mid-session; closed out 21:49 ET on Will's "okay lets close out")
 
 ## CURRENT MARKS
-**B 1 / C 14 / D 85** HELD at the 7-day review (next **10/28**). Convergence 43/50. **Losses 4 confirmed + 1 CONTESTED** (Cape Dao: IMO "Sunk" → "Partially sunk"). **Casualty ratchet 🔴 RED** (24 vs 6 killed) ⇒ EXIT §3 **7 of 8**. Production rung D 85→92 **ARMED, NOT FIRED** (Shaybah 10/21 intercepted). **GATE-FALCON-001 LIVE:** leg 2 NOT FIRED (10/21 review), override not triggered, next review_by **10/28**. FAL-06 OPEN 70% (to 11/05). WARRISK: all 5 rows EXPIRED. No settle-count clock (12b no-op). Model: Opus (`claude-opus-5-5`), Claude Code, desktop.
+**B 1 / C 14 / D 85** HELD at the 7-day review (next **10/28**). Convergence 43/50. **Losses 4 confirmed + 1 CONTESTED** (Cape Dao: IMO "Sunk" → "Partially sunk"). **Casualty ratchet 🔴 RED** (24 vs 6 killed) ⇒ EXIT §3 **7 of 8**. Production rung D 85→92 **ARMED, NOT FIRED** (Shaybah 10/21 intercepted). **GATE-FALCON-001 LIVE:** leg 2 NOT FIRED (10/21 review), override not triggered, next review_by **10/28**. FAL-06 OPEN 70% (to 11/05). **FAL-07 OPEN 65%** (US offensive strike on Iran 10/22–12/31; dated search 2027-01-02). WARRISK: all 5 rows EXPIRED. No settle-count clock (12b no-op). Model: Opus (`claude-opus-5-5`), Claude Code, desktop.
 
 ## CHANGES SINCE LAST SESSION (10/14 ~22:2x ET → 10/21 ~20:4x ET)
 - Record hull week: ≥10 attacks to 10/17 (UKMTO); IMO 119 incidents / 24 deaths at 10/21. New IMO rows: ST3 + LOYALTY off Al Jubail 10/16, JIF BARRACUDA 10/18 (1 injured), **AL DASMA (KOTC) 10/20 — 3rd Kuwait hull since 9/28**. UKMTO 179-26 (off Bukha) = AL DASMA itself (date CONFLICT: UKMTO 21 Oct 0145Z vs NAVAREA 396/IMO 20 Oct, KB-313); 180-26 = SOYIA SE of Al-Faw, 10/20 1830Z — corrected 10/21 late from WALTER -012 (KB-306), VI-0078 marked DUPLICATE. No new sinking. IRGC mine claims 10/17, 10/20 unnamed (JMIC: no substantiation). CENTCOM: GFS PRIDE = Iranian projectile.
@@ -41,6 +41,9 @@ FAL-06 OPEN (70%, 2026-11-05). **FAL-07 OPEN (65%, registered 10/21 on Will's wo
 
 ## MAIL STATE
 In: 0 (16 consumed). Out: PROME memo `2026-10-21_from-FALCON_weekly-review-hold-cape-dao-contested-kotc.md`; HAWK inbox `2026-10-21_from-FALCON_kotc-third-kuwait-hull.md`; SendMessage reply to walter-14.
+
+## CLOSEOUT CHECKS (final, 21:49 ET)
+Inbox 0 · corrections PASS · orphan check: nothing of mine · read-cap PASS · brief pin OK · claim check clean. Not run, stated: consumer_check for losses 5 → 4+1 (a bare 1-digit figure; consumers told directly — PROME, WALTER, HAWK via brief); >60-day research retirement scan; FLOW.tsv freeze-or-refresh (+185d, carried).
 
 ## PENDING PUSH / GIT
 All FALCON paths committed + pushed (safe-push receipts each round; last before this commit: HEAD d4720ac9b on origin). Packets: PROME memo 10/21 (+ addendum), PROME prome-56 four-item packet, HAWK KOTC note — all committed under carve-out ①. Two stamp corrections made (narrative "21:0x" vs wall clock 20:5x). ⚠️ SKIPPED this session, stated: research/sources >60-day retirement scan; FLOW.tsv freeze-or-refresh. Foreign dirty paths (WALTER registry/routed logs, BOARD/INDEX.md, other desks' inbox files) are not mine — untouched.
