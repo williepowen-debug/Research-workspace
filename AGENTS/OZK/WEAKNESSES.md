@@ -1,5 +1,5 @@
 # OZK Thesis — Weaknesses & Rebuttals
-**Created:** 2026-03-24 | **Last updated:** 2026-10-22 (C3 sub-notes drag re-based to the issuer 6.14% / ≈$12.0M only; the Q3 print + call and the v1.7 LOW re-grade are NOT yet folded in — Q3 counter-evidence lives in `research/threads/2026-10-21_Q3_PRINT_STAGE1_GRADE.md` and `research/threads/2026-10-22_Q3_CALL_STAGE2_READ.md`) · Prior 2026-09-27 (C3 capital inputs refreshed to Q2'26; C7 updated with the Q2 resolution record; **added C9 — the Q2 case against, stated at full strength**) · prior 2026-07-18 (added C8 — beta/range behavior + NDFI-contagion regime risk) | **Status:** All thesis-breakers addressed; C5 retracted/corrected; C7 is the live 2026 bull case (meter quarterly); C8 is a timing/regime caution surfaced from the price/SI/regime pull
+**Created:** 2026-03-24 | **Last updated:** 2026-10-22 12:4x ET (**Q3 print + call and the v1.7 LOW re-grade folded in:** new **C10** (the Q3 case against at full strength — and the result), Q3 meters on **C5 / C7 / C9**, C5's stale pre-7/23 scenario-tree line corrected; D:L793 item 2) · earlier 10/22: C3 sub-notes drag re-based to the issuer 6.14% / ≈$12.0M · Prior 2026-09-27 (C3 capital inputs refreshed to Q2'26; C7 updated with the Q2 resolution record; **added C9 — the Q2 case against, stated at full strength**) · prior 2026-07-18 (added C8 — beta/range behavior + NDFI-contagion regime risk) | **Status:** All thesis-breakers addressed; C5 retracted/corrected; C7 is the live 2026 bull case (meter quarterly); C8 is a timing/regime caution surfaced from the price/SI/regime pull
 
 ---
 
@@ -147,12 +147,14 @@ Four independent research models confirm OZK's GFC performance was exceptional: 
 
 **Correction:** IQHQ RaDD maturity is **August 2026**, not 2028. The 2028 reference was an error in an earlier STATUS.md, corrected Apr 22 after Q1 26 transcript review. Primary source: Q1 26 earnings call, Gleason *"August is an eternity"*; IQHQ_PLAYBOOK.md §2 carries the full documentation.
 
-**Current status:** IQHQ is our **primary Wave 3 catalyst**, not a deferred risk. Context:
+> **Q3 meter (2026-10-22): this catalyst is REMOVED.** RaDD was extended to **December 2029** on 10/9 with **fresh $100M** sponsor + mezz capital (FDIC FLNG 12019); no reserve named in Q3; CEO calls it "[a] pass credit" (10/21 call). The status text below is the pre-extension record. Only open leg: recognition attribution (OZK-09 OPEN/STUCK → Q3 10-Q ~11/5).
+
+**Status before the 10/9 extension:** IQHQ was our **primary Wave 3 catalyst**, not a deferred risk. Context:
 - **3.3% leased** (JCVI 50K SF only). Tracy Murphy's Jan 2025 guidance of "two tenants by March 2025" did NOT materialize.
 - **Aimco $50M fraud/breach complaint filed April 2026** — chills any 4th rescue round.
 - **Rossow (OZK CCO) on-record 3/19/26:** RaDD is OZK's sole IQHQ exposure.
 - **Weighted EL ~$129M = ~21% of OZK ACL** on one credit. *(Was $140M/22%; re-weighted 7/23 Will-approved. `IQHQ_PLAYBOOK.md` §4 canonical.)*
-- **Scenario tree:** 50% substandard migration / 18% foreclosure / 20% extend / 12% takeout.
+- **Scenario tree:** A-extend 30% / B-substandard 45% / C-takeout 8% / D-foreclosure 17% — a **pre-outcome model record**, not a forecast (`IQHQ_PLAYBOOK.md` §4). *(This line carried the pre-7/23 tree 50/18/20/12 until 2026-10-22.)*
 
 Detail → `IQHQ_PLAYBOOK.md`. Invalidation triggers for this channel listed in THESIS.md "What Would Invalidate" §3.
 
@@ -178,7 +180,9 @@ Detail → `IQHQ_PLAYBOOK.md`. Invalidation triggers for this channel listed in 
   - ~44% became foreclosed property after 7–28% charge-offs (Seattle ×2, Atlanta).
 - **Both sides are live. The mechanism stands; the "rare cure" framing is weakened.**
 
-**Confidence: MEDIUM on the transaction anecdote (post-correction), MEDIUM-HIGH on the mechanism — this is the live bull case; meter it quarterly.**
+**Q3'26 meter (2026-10-22, FDIC FLNG 12022):** **both fell together** — classified + criticized **$1,282M → $995M (−22%)** while RESG commitments **$25.7B → $25.4B (−1%)**. By this section's own discriminator, *"the bull case gains real ground and conviction should step down"* — it did (v1.7 🟡 LOW, WQ-483). Q3 resolutions: The Jack recapitalized → pass; Wauwatosa paid off from a sale; Boston 10 Prospect failed sale → title after a **$37.3M** charge-off. Oct 1–19 RESG payoffs ≈$690M (10/21 call). Part of the improvement is cohort-wide (ZION classified −$204M; WALTER SIG-W-20261021-009).
+
+**Confidence: MEDIUM-HIGH that this bull case is winning on the aggregate (updated 10/22, was "MEDIUM-HIGH on the mechanism"); the adverse-selection mechanism survives only in the OREO pile — meter it quarterly.**
 
 ---
 
@@ -221,6 +225,33 @@ Detail → `IQHQ_PLAYBOOK.md`. Invalidation triggers for this channel listed in 
 
 **Confidence: HIGH that capital is not at risk. MEDIUM that marks are overstated** (the direction is supported; the level rests on ~$16M of OZK's own exit evidence). **The Q3 print (PROME DOCKET L520, check-by 10/31) is the first test:** foreclosed-property sale prices vs carrying, and the Boston outcome.
 
+**Q3 result (2026-10-22):** the Boston outcome was a failed sale → title, **$37.3M** charge-off, OREO $132.0M at 80% of the Sept-26 as-is appraisal — supports "marks overstated" on one asset. But **no foreclosed-property sale was priced in Q3**, so the main test did not run. It carries forward as THESIS invalidation 7.
+
 ---
 
-*All weakness rebuttals are data-backed and primary-sourced. The thesis survives its own stress test.*
+## C10: The Q3'26 Case Against — and It Mostly Won (added 2026-10-22)
+
+*Sources: FDIC FLNG 12022 (Q3 8-K bundle, MC Fig 22–23), FLNG 12019 (10/12 8-K), 10/21 call. Detail → `research/threads/2026-10-21_Q3_PRINT_STAGE1_GRADE.md`, `research/threads/2026-10-22_Q3_CALL_STAGE2_READ.md`.*
+
+| # | Argument | Evidence (dated) |
+|---|---|---|
+| 1 | **The catalyst is gone.** RaDD extended to Dec-2029 with fresh $100M; post-paydown $579.1M funded; CEO "[a] pass credit" | FLNG 12019 (10/12); 10/21 call |
+| 2 | **The adverse-selection tell reversed.** Classified + criticized −22% to $995M while RESG −1% | MC Fig 22, 9/30/26 |
+| 3 | **Leading indicators kept improving.** Past-due $298M → **$88M / 0.26%**; nonaccrual $89M | MC Fig 22 |
+| 4 | **Losses are an earnings drag, not a capital event.** NCO **0.53%** ($44.5M); PPNR $261.4M = **5.5×** provision; EPS $1.50 | Q3 release |
+| 5 | **Problem credits resolve without disclosed loss.** The Jack → pass; Wauwatosa paid off; Q2's Sullivan cure held | MC Fig 23 |
+| 6 | **Refinance liquidity is back.** Oct 1–19 RESG payoffs ≈$690M; Q4 "perhaps record" | 10/21 call |
+
+**What still stands against it:**
+- OREO is **$420M** (+43%), with **zero priced sales** in Q3. Management says sales take "several quarters" and gave no prices. Marks set by appraisal, untested by a sale, are exactly what v1.5 says lags.
+- Boston 10 Prospect is the one Q3 mark that was tested, and it broke: $37.3M lost and title taken.
+- A new $105.9M Boston land loan moved to substandard. Management guides NCO **elevated through 2027** (MC p.21). Future RaDD capital calls are anticipated "if needed" (10/21 call).
+- ≈$207M of the −$313M special-mention flow is not itemized. It could still have moved to substandard, nonaccrual or OREO, and the 10-Q (~11/5) settles it.
+
+**Verdict: the case against won on the aggregate and on the catalyst; the thesis survives only as an OREO-marks question.** That is what v1.7 🟡 LOW encodes. The forward tests that could retire it are THESIS invalidation 6–8 (check-by 11/16 and the Q4 print).
+
+**Confidence: HIGH that capital is not at risk. LOW-MEDIUM that OREO marks are overstated** (direction supported by one tested asset, Boston; no sale prices yet).
+
+---
+
+*All weakness rebuttals are data-backed and primary-sourced. **As of Q3 (2026-10-22) the thesis does NOT fully survive its own stress test:** C7 and C10 won on the aggregate; what survives is the narrower OREO-marks claim (v1.7 🟡 LOW).*

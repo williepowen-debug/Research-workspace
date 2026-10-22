@@ -1,5 +1,5 @@
 # OZK — Scenario Analysis & Target Prices
-**Created:** 2026-03-23 | **Last Updated:** 2026-10-22 (sub-notes line re-based to the issuer 6.14% / ≈$12.0M; nothing else touched — the body below is otherwise 2026-07-06 vintage, figure re-base to Call Report primary; **weights unchanged since 4/23 reweight**; thesis conviction now 🟡 LOW, v1.7 → `THESIS.md`)
+**Created:** 2026-03-23 | **Last Updated:** 2026-10-22 12:4x ET (**Q3 scorecard added; the 4/23 weights marked NOT CURRENT; re-weight P-OZK-8 PROPOSED, Will-gated, NOT applied** — D:L793 item 2). Earlier 10/22: sub-notes line re-based to the issuer 6.14% / ≈$12.0M. Scenario bodies below are 2026-07-06 vintage; thesis conviction 🟡 LOW, v1.7 → `THESIS.md`
 **Price:** live → `STATUS.md` / boot.py (was $47.52 at the 4/23 reweight; $49.65 at 7/6 sweep) | **TBV:** $47.15 (Q1 26)
 **Short Interest:** ~14-15% float, 12-18 days to cover (KB-OZK-160 last refresh Mar 25 — needs next FINRA pull)
 
@@ -7,7 +7,34 @@
 
 ---
 
-## EXPECTED VALUE SUMMARY (reweighted 2026-04-23)
+## Q3 2026 SCORECARD — each scenario's own mechanics vs the Q3 print (added 2026-10-22)
+
+*Q3 sources: FDIC FLNG 12022 (MC Fig 22–23), 10/12 8-K FLNG 12019, 10/21 call. Grade detail → `research/threads/2026-10-21_Q3_PRINT_STAGE1_GRADE.md`.*
+
+| Scenario | Its own Q3-dated mechanics | Q3 actual | Read |
+|---|---|---|---|
+| **Bear** | Noncurrent $600–800M by Q3 · NCO $80–120M/qtr · ACL eroded to $300–350M · EPS $3–4 | Nonaccrual **$89M**, NPA $510M · NCO **$44.5M** · ACL **$621.1M** (+$3.3M) · EPS $1.50/qtr (≈$6.00 annualized, DERIVED) | **Every dated mechanic missed.** Only live route left: OREO ($420M, no sale priced) marked down on sale — THESIS invalidation 7 |
+| **Base** | NCO $60–100M/qtr · EPS $4.75–5.75 · IQHQ extends with $100–200M fresh equity · TBV $44–47 by Q4 · sub-notes reprice absorbed | NCO $44.5M (below) · EPS ≈$6.00 ann. (above) · **RaDD extended to Dec-2029 with fresh $100M (10/9)** · TBV **$47.50** · reset 6.14% | IQHQ leg **met**; credit cost lighter and earnings stronger than Base assumed |
+| **Bull** | (1) IQHQ tenant >250K SF or $200M+ fresh sponsor capital · (2) Fed −100bp by YE26 · (3) past-due <$400M · (4) NCO $30–50M/qtr · (5) EPS $5.75–6.25 | (1) **partial** — $100M fresh capital, no tenant · (2) **not met** (the Sep'26 Fed move was a hike — THESIS §Short interest) · (3) **met** — $298M Q2, $88M Q3 · (4) **met** — $44.5M · (5) **met** — ≈$6.00 ann. | **3 of 5 met, 1 partial** |
+| **Tail** | Multiple large nonaccruals at once · ACL breached · downgrade · deposit flight | CET1 11.44% (prelim) · PPNR $261.4M = 5.5× provision · classified+criticized −22% | Further away than at 4/23 |
+
+⚠️ **The 4/23 weights below are NOT CURRENT.** They were set when Q1 had "confirmed the bear at the leading-indicator layer"; Q3 missed every Bear mechanic, met the Base IQHQ leg, and met 3 of 5 Bull mechanics. **The table is kept verbatim as the 4/23 record — do not cite its weights or the $38.97 EV as the desk's view.**
+
+**P-OZK-8 — PROPOSED re-weight (Will-gated, NOT applied; 2026-10-22):**
+
+| Scenario | 4/23 | Proposed | Why |
+|---|---|---|---|
+| Bear | 55% | **20%** | Its dated mechanics all missed; kept at 20%, not lower, because the appraisal-gated route (OREO $420M untested by sales, NCO "elevated through 2027" per MC p.21) is still open |
+| Base | 30% | **50%** | Management's own guided path — elevated losses as an earnings drag, no capital event — is now the modal outcome |
+| Bull | 12% | **28%** | 3 of 5 own mechanics met, 1 partial |
+| Tail | 3% | **2%** | Capital and PPNR coverage stronger than at 4/23 |
+| **EV** | $38.97 | **$44.41** on the **unchanged** 4/23 price midpoints ($34 / $43 / $56 / $21.50) | ⚠️ The price ranges themselves are **not re-based** (Base was built on EPS $4.75–5.75 and TBV $47.15); re-basing them is a separate step. Live $49.46 (12:24 ET 10/22) sits ≈11% above this EV |
+
+Moves no prediction (OZK-09 45%, A30/B45/C8/D17, ~$129M EL unchanged) and no position; trades stay TERRY → Will.
+
+---
+
+## EXPECTED VALUE SUMMARY (reweighted 2026-04-23 — ⚠️ NOT CURRENT since the Q3 print; see scorecard above)
 
 | Scenario | Prob | Price Range | Midpoint | Weighted |
 |----------|------|-------------|----------|----------|
@@ -139,7 +166,7 @@ Bear case needs EPS ~$5.00 at 6x → **$30** (-33% from $44.70).
 
 ## PUT EXPECTED VALUE (pre-Q1 premium basis — ⚠️ POSITION STATE STALE)
 
-⏹️ **DEAD SURFACE — the per-position EV tables below price legs that NO LONGER EXIST (dated-tag 2026-08-23).** The May-15 lines expired 2026-05-15; the **Aug-21 lines expired WORTHLESS at the 2026-08-21 OPEX** (Will's 8/4 RIDE ruling; realized −$1,686.37 / −100%). **The book is empty — there is nothing here to act on, at any price.** ⚠️ **The scenario logic is NOT dead and is NOT retired by this tag:** Bear 55% / Base 30% / Bull 12% / Tail 3% remain current, and the underlying price/severity branches are still the desk's live framework. What is dead is the option-payoff layer bolted onto them. Any future OZK expression is a **new** trade — TERRY-built, Will-gated — never a revival of the tables below. *(Superseded: the prior banner's "STALE / NOT MANAGED … Aug 21 lines are unverified against broker" — they are no longer unverified, they are gone. Intrinsic-value math still uses Mar-24 anchors: $44.70 baseline, $4.05 entry.)*
+⏹️ **DEAD SURFACE — the per-position EV tables below price legs that NO LONGER EXIST (dated-tag 2026-08-23).** The May-15 lines expired 2026-05-15; the **Aug-21 lines expired WORTHLESS at the 2026-08-21 OPEX** (Will's 8/4 RIDE ruling; realized −$1,686.37 / −100%). **The book is empty — there is nothing here to act on, at any price.** ⚠️ **The scenario logic is NOT dead and is NOT retired by this tag:** the four branches remain the desk's framework *(the 4/23 weights Bear 55% / Base 30% / Bull 12% / Tail 3% are NOT CURRENT since 2026-10-22 — Q3 scorecard + P-OZK-8 at the top of this file)*, and the underlying price/severity branches are still the desk's live framework. What is dead is the option-payoff layer bolted onto them. Any future OZK expression is a **new** trade — TERRY-built, Will-gated — never a revival of the tables below. *(Superseded: the prior banner's "STALE / NOT MANAGED … Aug 21 lines are unverified against broker" — they are no longer unverified, they are gone. Intrinsic-value math still uses Mar-24 anchors: $44.70 baseline, $4.05 entry.)*
 
 ---
 

@@ -1,8 +1,10 @@
 # PRIVATE CREDIT STATUS
+
+> **Q3-2026 fold (2026-10-22, D:L793 item 2; FDIC FLNG 12022 MC Fig 23):** **The Jack** — the debt-on-debt book's only named casualty ($25.9M nonaccrual at 6/30) — was **recapitalized by the sponsor + a new capital partner into a new pass-rated loan in Q3**; any Q3 loss sits inside a ≤$7.2M residual (`../research/threads/2026-10-21_Q3_PRINT_STAGE1_GRADE.md` W7). So the book has **no named nonaccrual credit at 9/30**. Whether its charge-offs continued is **untested until the Q3 Call Report** (~Nov 1–10): `RIAD5409` YTD still $42,437K at 9/30 = THESIS invalidation 8 fires. The Q3 10-Q (~11/5) p.37 gives the next debt-on-debt balance. RaDD extended to Dec-2029 with fresh $100M (10/9). Conviction 🟡 LOW (v1.7). Assessment re-graded below.
 > **October 12 approved funding map:** Alewife interest-financing allocation, reserve substitution, conditional draws and IIP/non-IIP carry-guaranty distinction now mapped → `../research/threads/2026-10-12_IQHQ_FUNDING_DURABILITY.md`. Actual budget/cash rent/draws and sponsor liquidity unavailable; no runway/default or RaDD-provider attribution. BROCK retains private-credit integration; no vector/score change.
 
 > **October12 bounded update (Will's three-gap pass):** BPRE June/subsequent IQHQ common equity **$317.4M→$270.6M** (−14.73%, disclosedAugust28), actual Alewife September28 IIPR advance **~$111M**, and NEA/USRE2021-1 **original ARD October20,2026 / legal final2061** now sourced. Neither corporate maturity/default nor OZK senior loss follows. Exact instrument/date/access limits → `../research/threads/2026-10-12_IQHQ_FUNDING_AND_MARKS.md` and `../research/threads/2026-10-12_AIMCO_AFFINIUS_CHECK.md`. Remaining general subdomain narrative is historical; no broad refresh or vector/score move.
-**Updated:** 2026-08-28 (**★ THIS BOOK IS NOW THE THESIS'S NAMED SECOND PILLAR** — Will-ruled 8/23, verbatim "approved" — replacing the retracted 37.6% MI3 ratio in "what makes OZK special." Plus the Q2-26 Call Report data this file was missing for 21 days: `RIAD5409` **$42,437K — the first nonzero in 18 quarters.**) Prior: 2026-07-18 (Q1'26 10-Q READ — debt-on-debt ~$490M primary-confirmed [KB-210]; The Jack = first debt-on-debt casualty; NDFI-contagion regime channel flagged to REGINALD+BROCK [C8/KB-215])
+**Updated:** 2026-10-22 (Q3 fold above; assessment 🟠→🔴 → 🟡) · Prior 2026-08-28 (**★ THIS BOOK IS NOW THE THESIS'S NAMED SECOND PILLAR** — Will-ruled 8/23, verbatim "approved" — replacing the retracted 37.6% MI3 ratio in "what makes OZK special." Plus the Q2-26 Call Report data this file was missing for 21 days: `RIAD5409` **$42,437K — the first nonzero in 18 quarters.**) Prior: 2026-07-18 (Q1'26 10-Q READ — debt-on-debt ~$490M primary-confirmed [KB-210]; The Jack = first debt-on-debt casualty; NDFI-contagion regime channel flagged to REGINALD+BROCK [C8/KB-215])
 
 > ### ★ PILLAR STATUS (Will-ruled 2026-08-23, encoded here 2026-08-28)
 > The **~$430–490M debt-on-debt / note-assignment book** owned by this subdomain is the **adopted successor to `P-OZK-2`** — the "what makes OZK special" slot vacated when the 37.6% Memo-Item-3 ratio was retracted on four independent paths.
@@ -19,7 +21,7 @@
 > ⚠️ **A −64% YoY decline must not be quoted as a smooth economic trend:** MI3 sat in a $980M–$1,480M band for eleven quarters and then fell **−36% in ONE quarter at 2025Q3**. The step-quarter adjudication is **UNRESOLVED with three live branches** → `../MI3_2025Q3_ADJUDICATION.md`.
 > ⛔ **Scope fence:** this book is CRE **NOT secured** by real estate. It is a **different object** from RESG / IQHQ / the 11 tracked credits. Its collapse is **not** evidence about the secured book in either direction.
 
-## Assessment: 🟠→🔴 PRE-STRESS — Components assembled, reflexive channel activating + Q1 competitive-displacement layer
+## Assessment: 🟡 WATCH (re-graded 2026-10-22 from "🟠→🔴 PRE-STRESS") — the one printed casualty (The Jack) cured to pass in Q3; the H1 `RIAD5409` charge-off remains UNATTRIBUTED and its continuation is untested until the Q3 Call Report. Earlier label: components assembled, reflexive channel activating + Q1 competitive-displacement layer
 
 ## Current State
 - **$2.74B NDFI book is 50-75% CRE-correlated.** CEO (Gleason Q3 2025) admitted NDFI contains RESG loans to CRE debt funds. Structural exposure unchanged post-Q1.
@@ -38,8 +40,8 @@
 - 9 funds gated in ~7 weeks (BROCK tracking). Each removes takeout capacity.
 
 ## Four Transmission Channels
-1. **Direct** (construction defaults) — LIVE. Q1 26 confirms: past-due more than doubled $207M → $487.5M/1.48% QoQ [Call Report]; classified+criticized $984M → $1,215M.
-2. **Indirect/NDFI** (fund defaults on OZK lines) — PRE-STRESS → **FIRST CASUALTY PRINTED.** The Jack (debt-on-debt "Other", ex-Claros) went nonaccrual w/ $27.7M Q1 charge-off — the ~$490M acquired-paper book is no longer at $2.7M noncurrent in the aggregate. Binary risk confirmed live on at least one node. Plus **NDFI-contagion regime beta** (Oct'25 Zions/WAL) = a faster, market-wide transmission path [C8/KB-215].
+1. **Direct** (construction defaults) — LIVE but easing: Q3 26 past-due **$88M / 0.26%**, classified+criticized **$995M** (−22% QoQ) [MC Fig 22]. Q1 26 had shown: past-due more than doubled $207M → $487.5M/1.48% QoQ [Call Report]; classified+criticized $984M → $1,215M.
+2. **Indirect/NDFI** (fund defaults on OZK lines) — PRE-STRESS → **FIRST CASUALTY PRINTED (Q1) → CURED TO PASS (Q3, recap with new capital).** The Jack (debt-on-debt "Other", ex-Claros) went nonaccrual w/ $27.7M Q1 charge-off — the ~$490M acquired-paper book is no longer at $2.7M noncurrent in the aggregate. Binary risk confirmed live on at least one node. Plus **NDFI-contagion regime beta** (Oct'25 Zions/WAL) = a faster, market-wide transmission path [C8/KB-215].
 3. **Reflexive** (takeout disappears → construction can't refi) — EARLY WARNING + 🆕 **COMPETITIVE DISPLACEMENT amplifier** post-Q1. Same non-bank/insurance cohort displacing OZK on Fund Finance origination today is the takeout ecosystem tomorrow. Stress hits both sides of OZK's position.
 4. **Collateral cascade** (JPM markdowns → margin calls → forced selling) — LATENT. Components present but hasn't fired.
 
