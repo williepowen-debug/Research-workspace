@@ -1,0 +1,84 @@
+# L782 — AI-infrastructure financing: where does the chain break first?
+
+**Written:** 2026-10-21T22:54-04:00 (stamp from `date`) · **Owner:** VULCAN (DOCKET L782, lead) · **Contributors:** LIQUID (HY/CCC, CRWV bonds, LIQ-069 cohort), BROCK (private-credit / BDC holders) — their cells are marked `PENDING-<desk>` and this file does not wait for them.
+**Commission:** Will 2026-10-21 22:46 ET in WALTER's window, verbatim "all three sounds good id like to research more" (WALTER packet `abca4cc44`). No trade, threshold or score change is authorized or made here.
+**Scope relation:** this overlaps the earlier Will-approved broader financing study but **does not close its matched-cohort legs** (annual issuance inventory, like-for-like US IG tenor denominator, matched-tenor peer repricing — still owed under `reports/2026-10-20_catchup/ISSUANCE.md` and KB-096, DEFERRED to 2026-10-23). This file ranks weak links; it is not that study.
+
+## Bottom line
+
+The chain is breaking **from the bottom up, at the borrowers without an investment-grade tenant, and it has not reached the hyperscalers.** The two S5 events on record (Firmus IPO withdrawn 10/09; Volta +150bp versus its sounding, 10/15) and tonight's NextDC guidance cut on a power delay all sit in the **merchant developer / neocloud tier**. The **largest single weak node is CoreWeave's unsecured parent debt**: its bonds trade at roughly 79–83 cents (about 16–17% yield, INFERRED), and $10.6B of scheduled principal falls due from July 2026 through 2027 against $5.5B of cash on June 30 (10-Q, primary). **Oracle is the largest systemic node** — $125.0B of notes at 84.6% of face on 8/31 and a five-year CDS near a record — because a fall below investment grade would force selling by insurers and IG funds. The **hyperscalers that pay** (Meta tonight: free cash flow −$2.12B but $82.45B of cash and no Q3 debt issuance) are **not** where it breaks first. The root risk sits with the **labs**: commitments of roughly 16–28× current revenue (secondary and PROVISIONAL figures), which become a credit event only through the counterparties above.
+
+**S5 implication: no new qualifying event.** S5 stays **4**, event count **n=2**, composite **15/25** (WQ-464 B, ruled 10/21). NextDC is an equity guidance cut, not a pulled or flexed issue; CoreWeave's bond moves are secondary trading, not a new issue. The nearest candidates for a third event are named in §4.
+
+## 1. The chain, as money flows
+
+`labs (OpenAI, Anthropic) → compute sellers (Oracle, CoreWeave, Microsoft/Amazon/Google, neoclouds) → project vehicles & landlords (Blue Owl/STACK, Related, Vantage, Beignet/Hyperion) → holders (IG bond funds, insurers, pensions, HY funds, banks, private-credit funds/BDCs, Japanese retail via SoftBank)`
+
+The labs pay with equity-raised cash and revenue. The sellers fund the build before that cash arrives, so each link's fragility = **funding cost × how soon principal is due × how far its collateral sits from an investment-grade payer**.
+
+## 2. Ranked weak-link table
+
+Source tiers: **T1** = primary filing or own live fetch · **T2** = owner-desk evaluated figure or a named outlet read directly · **T3** = relay, chart label, or an outlet not read in full. Evidence grade: EMPIRICAL / PROVISIONAL / ASSUMPTION (desk convention).
+
+| # | Entity | Instrument | Price / spread (date · tier) | Maturity / wall | Holder class | Collateral | Demand evidence | Grade |
+|---|---|---|---|---|---|---|---|---|
+| 1 | **Merchant developers & neoclouds without an IG tenant** (Firmus, Volta, NextDC, Lambda, Applied Digital) | New-issue HY / project loans / IPO equity | Volta sold **S+650 / OID 95**, ~12.4% YTM INFERRED (10/15 · T3 Bloomberg unnamed) · Firmus ~US$4.9B ASX IPO **withdrawn** (10/09 · T2) · **NextDC A$9.18 → A$5.35 (−41.7%)** on reopening 10/21 after a 10/19–20 halt; A$5.64 at 22:49 ET 10/21 (Tokyo/Sydney session 10/22) (T1 own fetch) · Lambda $917M leveraged loan (July · T3) · APLD $20.98 (+8.5%, 10/21 · T1) | Project-by-project; NextDC upsized A$2.3B senior debt 7/10/2026 (T3 ASX index entry, PDF not read) | Banks, HY funds, private credit; AU senior lenders | Single-site real estate + contracts; **power delivery is the binding risk** (NextDC M3 ~225 MW, Jemena line work paused per Citi) | Contracted demand exists, but **delivery to power fails first**: NextDC FY27 EBITDA guide reportedly **A$245–265M from A$385–410M** (T3 Bloomberg via post; ASX release not read) | EMPIRICAL for the S5 events; PROVISIONAL for NextDC guidance figures |
+| 2 | **CoreWeave (CRWV) parent** | Unsecured notes 9.25% Jun-2030 · 9.75% Oct-2031 · 9.625% Jul-2032; 5Y CDS | 2031s **79.46c**, 2030s **83.10c** (10/20 · T3 Walter Bloomberg) ⇒ ~15.9% / ~17.1% YTM INFERRED (maturity day assumed) · 2032 YTW **15.15%** (10/16 · T2 LIQUID HYG eval) · G-spread 2031 **1,008bp** (10/19 · T3 TRACE chart) · CDS **~1,090bp** chart label (10/19 · T3 Farr) / record 1,194.5bp (10/14 · T3) · equity **$61.82** close, $59.70 after hours (10/21 · T1) | **$4.413B** scheduled principal rest-of-2026 + **$6.184B** in 2027 = **$10.6B ≈ 1.9× June-30 cash of $5.524B** (10-Q 6/30 · T1); $10.0B facility availability is conditional | HY funds (HYG holds the 2032s), convert holders, DDTL lenders (banks/private credit) | **$31.4B of $35.1B net debt is recourse** (T1); unsecured notes sit behind secured DDTL GPU/contract pools | RPO $103.7B, top-3 customers 72% of Q2 revenue (T1) — demand is contracted, the gap is **cash timing** | EMPIRICAL (balance sheet) · PROVISIONAL (bond levels) · ⚠️ basis conflict below |
+| 3 | **Oracle-tenanted project debt** (Jupiter NM, Michigan Stargate, Vantage WI/TX) | Bank construction loans; 144A project bonds | Jupiter ~$18B bank loan **~84c** (10/02 · T3 commentator, unverified) vs 89–91c pre-force-majeure (9/18 · T3) · Michigan $14B bonds, PIMCO took $10B (April · T3 Bloomberg headline) · Vantage $38B term loans, JPM-led (T3 Octus) | Construction-period loans; Jupiter online target 2028, force majeure extends the lower development-stage rent ~1 year (T3) | Banks (syndicating out), PIMCO/insurers, private credit | Leases to ORCL (BBB-edge) whose revenue on these sites is OpenAI's $300B contract — **two hops from cash** | Oracle's force majeure (9/24) and gas-trucking at ~4× hub show delivery stress, not demand loss | ASSUMPTION–PROVISIONAL |
+| 4 | **Oracle (ORCL) parent** | Senior notes; 5Y CDS | Notes **$105.7B fair value on $125.0B face = 84.6%** (8/31 · T1 10-Q) · CDS **~280bp** ("$28,000 per $1M", 10/15 · T2 Semafor) / **322bp** chart label (10/19 · T3 Farr) — records · equity **$129.13**, −1.5% (10/21 · T1) | Off-balance-sheet DC leases **$288B**, commencing FY27–FY29, 15–19-year terms (8/31 · T1); Q1 FY27 FCF **≈ −$5B** (T1) | **IG bond funds and insurers — fallen-angel forced sellers**; banks | Unsecured; Wisconsin tariff already demands guarantees from sub-A- developers (1 jurisdiction) | OpenAI $300B contract concentration; customer prepayments $11.4B financed one quarter's capex (T1) | EMPIRICAL (filings) · PROVISIONAL (CDS) · fallen-angel trigger = **PENDING-LIQUID** (LIQ-069) |
+| 5 | **SoftBank (9984.T)** — OpenAI's leveraged funder | USD/EUR HY bonds, ¥ retail bonds, margin loans on Arm and OpenAI stakes | Equity **¥6,040 (10/08) → ¥4,456 (10/22 intraday, 22:49 ET fetch) = −26.2%** (T1 own fetch) · 8.5% USD bond ~98c after the ~$11B deal (date unclear · T3) · newest ¥ retail coupon 5.12% (July · T3) · Moody's **Ba2**, S&P outlook negative (T3) | OpenAI pledge >$60B in $10B tranches, **third tranche due October 2026** (T3 July report); bridge facilities refinanced into bonds | Japanese retail bondholders, HY funds, margin-loan banks | Listed-stake collateral (Arm margin loan raised to $25B, T3) — **equity drawdown tightens loan-to-value directly**; LTV target <25% (T3) | No new demand fact; transmits via equity and credit (SAM KB, June) | PROVISIONAL; $164B debt figure UNVERIFIED |
+| 6 | **Labs — OpenAI, Anthropic** (root payers) | Private equity rounds; no traded debt | OpenAI raising ~$30B at ~$1.4T pre-money (10/09 · T3 Bloomberg) · Anthropic: none public | OpenAI ~**$1.4T** commitments over ~8 years (T3, ±30–50%) vs ~**$50B** annualized revenue on own-share basis (10/09 · T3) ⇒ **~28×** · Anthropic **≥$518B** over a decade, ~80% reportedly non-cancellable, vs 2025 revenue **$4.59B**, net loss $41.97B, cash $20.28B end-2025 (Reuters review of draft S-1 · T3) — WSJ draft figures (H1 2026 revenue $16.3B, net loss $80.7B, ~$450B cloud commitments) **conflict and are a different period and basis; not merged** | (equity holders, strategic investors) | None — the commitments are the collateral for everyone above | Revenue growth is real (OpenAI Q3 run-rate +77%, T3); the ratio, not the growth, is the risk | **PROVISIONAL — Anthropic figures stay PROVISIONAL until the S-1 is public** |
+| 7 | **Data-centre CMBS / ABS** | AAA–BBB securitizations | AAA DC CMBS avg **~165bp** over floating vs office 93 / industrial 125 (Barclays via Bloomberg, ~9/14 · T3); Elk Grove $356M priced wide of guidance, third such case (T3) | Long-dated, lease-matched | Insurers, pensions, money managers | Stabilized buildings with hyperscaler leases (strongest real-estate collateral) | Issuance $17B since 2025 (T3) | PROVISIONAL · current spread **PENDING-LIQUID** |
+| 8 | **Private-credit funds / BDCs** (holders) | Fund shares; DC construction loans | OWL **$9.17**, OBDC **$9.88**, BDCZ **$13.60** (10/21 · T1) · Blue Owl: redemption pressure eased in Q3, driven by software loans, not data centres (10/16 · T3) | Redemption gates (Q1: 5% caps, ~half of $14B requests met industry-wide, T3) | Retail/HNW via non-traded BDCs; institutions | Loan marks unknown | Blue Owl still committed to Jupiter (T3) | **PENDING-BROCK** (DC-loan marks, BDC NAV vs price) |
+| 9 | **Meta / Hyperion SPV** | Beignet Investor $27.3B 144A bonds (2049), A+; Meta 5Y CDS | CDS **108bp** chart label (10/19 · T3 Farr) · equity $697.52, **$712.31 after hours (+2.1%)** on the Q3 print (10/21 · T1) | Meta LTD **$80.92B** (vs $58.74B 12/31/25); **$0 debt issued in Q3**, $24.91B YTD (T1) | Insurers and pensions (PIMCO lead buyer at launch, T3) | Meta lease + **residual value guarantee** | Q3 capex **$34.91B**, FCF **−$2.12B**, cash **$82.45B**; 2026 guide **$135–145B, low end raised $5B** (T1 8-K Ex 99.1) | EMPIRICAL |
+| 10 | **MSFT · GOOGL · AMZN** | IG bonds; 5Y CDS | CDS chart labels MSFT **55bp**, GOOGL **77bp**, AMZN ~78–96bp (10/19 · T3); records in level, small in absolute | Long IG ladders; Amazon ~$8B GPU SPV sale-leaseback in talks (T3) | IG funds, insurers | AA balance sheets | Capex raised all year | EMPIRICAL (ratings) · PROVISIONAL (CDS) |
+
+⚠️ **CRWV basis conflict (owner: LIQUID).** A 10/15 report put the June-2030 notes at **91.3c**; the 10/20 relay puts "the 2030s" at **83.10c** — an 8.2-point fall in three sessions while the 2031s moved 3.3 points. Either a different 2030 line or a stale/mis-attributed print. **Do not use the 83.10c / ~17.1% figure until LIQUID matches CUSIP and trade time.** The ranking does not depend on it: the 2032 YTW of 15.15% (LIQUID, T2) alone keeps CRWV at #2.
+
+## 3. Why this order
+
+- **Funding cost:** the developer tier and CoreWeave pay roughly 12–17% (Volta ~12.4%, CRWV 15–16%) against an HY index near **332bp** (10/20, secondary; FRED was unreachable from this session at 22:5x ET 10/21 — fetch error, not a level). Oracle pays IG-plus (CDS ~280–322bp); Meta and the others pay IG.
+- **Maturity wall:** CoreWeave is the only node with a **dated, primary-sourced principal schedule larger than its cash** (1.9×). Oracle's wall is a lease wall ($288B commencing FY27–FY29), not a bond wall in this window.
+- **Collateral:** the further the asset is from an investment-grade payer, the worse. Developer tier = one site and a power connection; CRWV unsecured = behind the secured GPU pools; Oracle project debt = two hops (Oracle → OpenAI); Meta's SPV = a AA- lease with a residual value guarantee.
+- **Against the demand evidence:** demand is **not** what is failing. Super Micro pre-announced Q1 FY27 sales of **$18.5–19.5B vs a $14.5–15.5B guide (+27% at midpoints)** (8-K 10/20, T2 via WALTER); Meta raised the low end of its 2026 capex range and was rewarded after hours. What fails first is **delivery (power, sites) and the cost of bridging cash until delivery** — NextDC, Oracle's Jupiter force majeure, CoreWeave's principal schedule. That matches the CoreWeave analysis of 10/20: growth can raise the funding requirement before it lowers it.
+
+## 4. S5 implications, in figures
+
+| Test (registered S5 rule) | Status 10/21 | Nearest candidate for a third event |
+|---|---|---|
+| New issue prices **+150bp** over talk, or is **PULLED** (incl. a withdrawn IPO, Will 10/09) | No new qualifying deal found this pass. Count stays **n=2** (Firmus, Volta) | **NextDC**: if it withdraws or defers a debt or equity raise, or formally declares force majeure (today it is "considering", reported) · **any CoreWeave new issue** would price off a ~15% secondary curve, so a flex test is live the day one launches · Oracle chip-lease SPV with Apollo/Goldman (talks, aiming to close this year) |
+| A **second jurisdiction** writes an IG threshold into a utility tariff | Still **1** (Wisconsin PSC); Xcel/SPS filed, not approved | Xcel/SPS approval |
+| A developer **fails to post** mandated collateral | None | — |
+
+**S5 = 4 (unchanged) · events n=2 · composite 15/25 (unchanged).** No item in this file is a new qualifying event; the WQ-464 B ruling holds. S5's ROI leg still shares S1's root — the labs' commitment ratio (row 6) is that root, counted once.
+
+## 5. What would move the ranking
+
+| Evidence | Moves |
+|---|---|
+| NextDC's ASX release (10/21) read at the primary | Row 1 grade PROVISIONAL → EMPIRICAL; force-majeure wording confirmed or dropped |
+| CoreWeave Q3 10-Q (~11/09, modeled) | Updated principal schedule and cash: the 1.9× ratio is a June figure |
+| Oracle Q2 FY27 10-Q (~12/15, estimated) | Lease commencements vs FCF; $3.3B lessor guarantee status (outcome UNKNOWN) |
+| Anthropic public S-1 | Row 6 Anthropic cells leave PROVISIONAL |
+| LIQUID's matched CUSIP read; BROCK's DC-loan marks | Rows 2, 4, 7, 8 lose their PENDING cells |
+| Any IG hyperscaler cutting capex YoY | S1 fires; the whole chain re-prices from the top, not the bottom |
+
+## 6. Sources (URLs; third-party text not reproduced)
+
+- Meta Q3 2026 8-K Ex 99.1, acc 0001628280-26-066700: https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm — **sha256 039cac3b8ede1cdd87e1d682ec6abd6755e32ff8997a4e44195e19b656c529ec** (fetched 2026-10-21 22:52 ET, 287,684 bytes)
+- CoreWeave 10-Q 6/30/2026, acc 0001769628-26-000366 (KB-246/247; read 10/20)
+- Oracle 10-Q 8/31/2026 (KB-168); Oracle Q1 FY27 8-K (KB-156)
+- Semafor 2026-10-15: https://www.semafor.com/article/10/15/2026/the-cost-of-insuring-against-ai-company-defaults-spikes
+- Bloomberg Law 2026-10-06 (paywalled excerpt): https://news.bgov.com/bankruptcy-law/distress-watch-data-center-debt-selloff-snags-ai-buildouts
+- AI Weekly (FT/LSEG relay, July–Aug): https://aiweekly.co/alerts/oracle-nvidia-alphabet-spacex-cds-hit-records-on-ai-debt
+- CoreWeave bonds 10/15: https://www.roic.ai/news/coreweave-bonds-rebound-sharply-after-recent-selloff-10-15-2026
+- DC CMBS (Bloomberg via Webull, ~9/14): https://www.webull.com/news/15576606745560064
+- SoftBank financing (TNW, 7/17): https://thenextweb.com/news/softbank-60-billion-bond
+- Anthropic draft prospectus (Reuters relays): https://investmentnews.com/equities/anthropics-landmark-ipo-filing-shows-12-fold-revenue-jump-518b-compute-bill/268391
+- Oracle-tenanted project finance: https://www.datacenterdynamics.com/en/news/oracle-to-raise-up-to-50bn-in-debt-and-equity-in-2026 · https://octus.com/resources/articles/banks-prep-series-of-multibillion-dollar-debt-offerings-for-oracle/
+- Blue Owl redemptions: https://letsdatascience.com/news/blue-owl-faces-private-credit-liquidity-pressure-ff4f153f
+- BOARD SIG-W-20261021-015 / -018 / -023 / -20261020-010 / -022 (WALTER)
+- Live prices: `FORGE/tools/market-data/fetch.py price …` and yfinance history, 2026-10-21 22:49–22:52 ET. FRED: fetch error at 22:5x ET (UNAVAILABLE).
+- Hashes for the web pages above were not taken: they were read through a summarizing fetch tool, not saved. Their figures carry T2/T3 grades accordingly.
+
+**UNREACHABLE:** the AFR "speculative data-centre debt sold to pensions" bookmark — afr.com is blocked to this session's fetch and search tools (HTTP 400, crawler-blocked) and paywalled. Not read; nothing in this file is attributed to it. Closest reachable evidence on the same theme: PIMCO taking $10B of the Michigan Stargate bonds; Beignet/Hyperion bonds placed with insurers and pensions; two US public pensions (Florida, Arizona) pausing new data-centre fund commitments (10/08, T3).
