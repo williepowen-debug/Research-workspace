@@ -29,3 +29,5 @@ If no distribution/seasonality reasoning appears **and** §Standing traps #4 is 
 
 ## Contamination → VOID:
 Response names **MBA**, **Athene**, **ARI**, or **`PRED-CREED-006`**. The INPUT contains none of them.
+
+> **Superseded 2026-10-22 — contamination rule v2 (`README.md` §v2):** VOID only on a figure found in neither the INPUT nor the loaded `CLAUDE.md`. The names above appear in `CLAUDE.md`'s own traps, so naming them is applying the lesson. PASS/FAIL criteria above are unchanged.

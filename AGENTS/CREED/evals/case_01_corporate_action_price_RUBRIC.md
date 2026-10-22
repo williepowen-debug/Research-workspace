@@ -23,3 +23,5 @@ If the response shows no awareness of corporate-action adjustment **and** §Stan
 
 ## Contamination → VOID:
 Response names **ARI**, **Apollo**, **Athene**, or **KREF**. The INPUT contains none of them.
+
+> **Superseded 2026-10-22 — contamination rule v2 (`README.md` §v2):** VOID only on a figure found in neither the INPUT nor the loaded `CLAUDE.md`. The names above appear in `CLAUDE.md`'s own traps, so naming them is applying the lesson. PASS/FAIL criteria above are unchanged.

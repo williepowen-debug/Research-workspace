@@ -11,6 +11,14 @@ Reverse-chronological log of **structural** changes to CREED's docs, folders, sc
 
 ---
 
+## 2026-10-22 (afternoon) — read-cap rotations, eval suite v2, October PREREG, ABS-EE scope (Will: *"Lets do this next/now"*, 13:19 ET)
+
+- **Rotations (rule 5: rotate to under 70% of the 32,550 B budget, not just under 75%):** `thesis/CHANGELOG.md` 29,057 → 12,769 B (June–July entries → `thesis/CHANGELOG_HISTORY_2026-10-22.md`); `workbook/PREDICTIONS_SCOREBOARD.md` 24,542 → 20,137 B (the resolved PRED-006 re-spec log → `archive/PREDICTIONS_SCOREBOARD_HISTORY_2026-10-22.md`); `STATUS.md` 25,417 → ~21.9 KB (11 Standing Obligations closed with NO residual → `archive/STATUS_OBLIGATIONS_CLOSED_2026-10-22.md`). All verbatim, crc-stamped, do-not-cite banners. **STATUS was audited by obligation, not bytes:** rows with a live residual (8, 19, 22, 24, 25, 27) stayed; moved rows keep their numbers (a pointer row names them).
+- **Eval suite v2 (Will: *"CREED owns a rebuild"*):** the v1 contamination rule voided any answer naming ARI/MBA/`PRED-006`, which are the worked examples INSIDE `CLAUDE.md`'s traps, so the suite could not pass by construction. Rule v2: VOID only on a figure found in neither the INPUT nor the loaded `CLAUDE.md`. Two new cases (03 trap #6, 04 trap #7), `results_v2.tsv` (v1 `results.tsv` stays FROZEN). Baseline run 10/22 on surface `35c1f0dfcbae`.
+- **New registry file:** `registry/PREREG_2026-11_TREPP_PRINT.md` (the October print; frozen on commit). On a `T-01a` fire CREED PROPOSES the S1 score rather than moving it (the S8a/WQ-303 precedent, stricter than the 8/20 S2 self-score).
+- **New research page:** `research/2026-10-22_ABS-EE_LEASE_SCREEN_SCOPE.md` (scope only; build gated on Will).
+- **Lesson kept:** the stale-SCRATCH defect fixed at 13:17 nearly recurred at 13:5x (the refi page and SCRATCH still listed residuals CREED had just closed). Closing an item and updating every surface that lists it are two acts; do both in the same pass (trap #8).
+
 ## 2026-10-22 — sweep fixes: legacy-archive path, trap-3 archive scope, a live-pinned test, COVERAGE history file (Will: *"alright lets work on these now"*)
 
 - **Why:** Will-directed sweep of CREED files (2026-10-22 12:46 ET) found six wrong/contradictory items; Will directed fixing all six at 13:13 ET, including the `CLAUDE.md` edits.

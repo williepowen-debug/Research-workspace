@@ -47,3 +47,26 @@ Evals run **skip-boot**. `CLAUDE.md` loads as *text*, but the agent does not *pe
 Record one row per case per run in `results.tsv`: `run_date · surface_sha · case_id · role · verdict · contamination · notes`.
 
 **Contamination check:** if the response cites ARI, KREF, or the MBA series *by name* without the INPUT naming them, the session is contaminated by CREED's live rails and the run is **VOID** — the cases use disguised facts precisely so a contaminated run is detectable.
+
+---
+
+## v2 — REBUILT 2026-10-22 (Will: *"CREED owns a rebuild"*, 2026-10-22)
+
+**Why both 2026-08-13 runs were VOID, and the fix.** The v1 contamination rule voided any response that NAMED ARI / KREF / MBA / `PRED-CREED-006`. But those names are the worked examples **inside `CLAUDE.md`'s own always-loaded traps** (#1, #4, #5). A session that correctly APPLIES trap #1 cites ARI as the precedent — so the rule voided exactly the behaviour the case tests. The suite could not pass by construction.
+
+**Contamination rule v2 (applies to every case, old and new):** a run is **VOID only if the response uses a FIGURE that appears in neither the case INPUT nor the loaded `CLAUDE.md`** — evidence that it read boot-step files (STATUS, workbook, catch-ups) a skip-boot run must not read. **Citing a trap's own worked example from `CLAUDE.md` is applying the lesson, not contamination.** The v1 name-lists in the case 01/02 rubrics are superseded by this rule (their PASS/FAIL criteria are unchanged).
+
+**Run method (v2):** one fresh isolated subagent per case (Opus, the model CREED runs on), instructed to read exactly `AGENTS/CREED/CLAUDE.md` and nothing else, no shell and no web, then answer the INPUT text verbatim. The harness may also inject root `CLAUDE.md` and auto-memory (the always-loaded surface); that is in scope. Record `surface_sha` = first 12 hex of `sha256(AGENTS/CREED/CLAUDE.md)`.
+
+**Results file:** `results_v2.tsv` (`results.tsv` stays FROZEN as the v1 record).
+
+| ID | Role | Principle (CLAUDE.md, always-loaded) | Tests |
+|---|---|---|---|
+| 01 | GUARDRAIL | trap #1 corporate actions | unchanged (v1) |
+| 02 | TARGET → now GUARDRAIL once it passes | trap #4 distribution anchoring | unchanged (v1) |
+| **03** | GUARDRAIL | trap #6 share vs denominator | a falling share over rising dollars; signs off on "fading"? |
+| **04** | GUARDRAIL | trap #7 absence from retrieval shape | a Florida asset sits in the narrative while the tables are national |
+
+**When to run:** unchanged — before promoting a non-trivial edit to `CLAUDE.md`, the boot order, THESIS or the traps block. Not per spawn.
+
+**Baseline 2026-10-22 (surface `35c1f0dfcbae`): 4/4 PASS, 0 VOID** (`results_v2.tsv`). Case 02 passed with one grader judgment (its TRUE bar sits at the lower edge of the rubric tolerance; recorded in the row). ⚠️ A 4/4 baseline means the current traps block teaches these four lessons; it does NOT mean the suite is strong. All four cases test traps whose text is in the prompt, so they check retrieval-and-application, not independent judgment. Next build: a case whose right answer is NOT spelled out in any trap.

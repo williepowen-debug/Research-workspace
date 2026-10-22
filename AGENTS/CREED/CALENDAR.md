@@ -18,7 +18,7 @@
 | ~~**~2026-10-01**~~ | Trepp September DQ | ✅ **GRADED 2026-10-21** (PREREG_2026-10 §6): office 12.16 = `T-01a` leg 1 of 2 |
 | ~~**~mid-Oct 2026**~~ | Trepp September SS | ✅ **GRADED 2026-10-21**: office SS 16.85, `T-01b` not fired |
 | **2026-10-28** (Wed) 11:00 am | **450 5th St NW (Washington DC) substitute trustee's auction** — DOCKET **L723** | Grade below `research/2026-10-21_L723_450-FIFTH-NW_PREREAD.md` §5 (CASE-CREED-139); moves no band |
-| **~early Nov 2026** | **Trepp October DQ — decides `CREED-T-01a`** (leg 2 needs ≥ 12.01) + `PRED-CREED-001` (Kernel-pinned) | Write a PREREG before the print if possible; grade at Table 2, 2dp |
+| **~early Nov 2026** | **Trepp October DQ — decides `CREED-T-01a`** (leg 2 needs ≥ 12.01) + `PRED-CREED-001` (Kernel-pinned) | ✅ PREREG written 2026-10-22: `registry/PREREG_2026-11_TREPP_PRINT.md`; grade below its §6; grade at Table 2, 2dp |
 | **2026-11-12** (Thu) | Illinois Center (Chicago) sheriff foreclosure sale (CASE-CREED-153) | Calendar lead; verify continuance before treating as a clearing event |
 | **~mid/late Oct 2026** | Q3 bank earnings (FLG, EGBN, OZK, VLY) | Property/metro read into REGINALD's bank cohort; the VLY MF-DPD location/type (WQ-311 open unknown) |
 | **~early Nov 2026** | mREIT Q3 results / Q4 dividends | `CREED-T-08b` needs cohort-wide erosion |

@@ -73,3 +73,9 @@ No band, operator, sustain or confidence edit. No S-score move from a leg-1 prin
 - **F3 (S8a unwinds AND 10y < ~4.75%): NOT MET.** S8a 10/21 close −11.48pp TR (past the band); 10y 5.15% (^TNX 10/21 close, fetch.py proxy).
 
 **§5:** no band, operator, sustain, confidence or S-score moved. Convergence stays **27/45**.
+
+### F2 ADDENDUM — 2026-10-22 (Thu) 13:44 ET, CREED (Will-directed sweep follow-up). Terms above unchanged; this grades a falsifier that was UNTESTED on 10/21.
+
+**F2 (conduit payoff rate rising for a second month alongside falling SS transfers): NOT TRIGGERED.** Trepp's monthly on-time payoff rate, by balance, as published by Commercial Real Estate Direct: **Jul 72.05% → Aug 51.45% → Sep 57.98%** (of $1.41B maturing in September; trailing-12m 59.84%). August FELL 20.6pp, so September's +6.5pp is the **first** rise, not a second. SS transfers did fall (−13%), but F2 is conjunctive and its first leg fails.
+**Sources:** crenews.com 2026-08-07 (Jul, "conduit loans", PRIMARY-CITED Trepp) and 2026-10-21 (Sep 57.98%, re-read by CREED at the article; Aug 51.45% from the same publisher's API excerpt via a research agent, PRIMARY-CITED). ⚠️ The 10/21 article says **"CMBS loans"**, not "conduit": almost certainly the same Trepp series, but conduit-only is **not confirmed** for Aug and Sep. Record: `workbook/KB.tsv` `KB-CREED-066`.
+**No band, score, trigger or prediction moved.**

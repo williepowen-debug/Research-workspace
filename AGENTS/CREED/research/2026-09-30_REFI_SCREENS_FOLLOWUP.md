@@ -86,13 +86,13 @@
 
 | # | Item | State |
 |---|---|---|
-| 1 | Re-fetch F1/F2/F4/F10 and decide KB rows | **F1 DONE 10/01** (re-fetched, `KB-CREED-052`). **F2, F4, F10: KB decision still OWED** (F4 partly carried in the dir-3 row above; F10 is CREED's own lodging lane, `VX-1.05`) |
+| 1 | Re-fetch F1/F2/F4/F10 and decide KB rows | **DONE.** F1 10/01 (`KB-CREED-052`); **F2, F4, F10 re-fetched at source 10/22 and written: `KB-CREED-069` / `070` / `071`** |
 | 2 | Route F7/F8 + student housing to WALTER for HOMER/CORAL | **DONE 10/01** (line 80 above) |
 | 3 | Re-run directions 1–6 beyond Trepp | **DONE 10/01**: all four Opus agents returned (`research/2026-10-01_refi_agents/`); load-bearing figures re-read at source (results table above; `KB-CREED-053/054/055`) |
 | 4 | Read Glancy (2026) at source (F5) | **DONE 10/01** (`KB-CREED-053`; THESIS hypothesis 1 reworded, WQ-356, Will 10/01) |
 | 5 | ~~Ask Will before wiring the sweep into `CLAUDE.md` boot order.~~ | **Ruled 2026-10-01: not wired; it stays a manual tool (Will).** |
-| 6 | Verify the agent's CMBS payoff rates (BofA via CREFC, KBRA) before any KB row | **OWED** (also PREREG_2026-10 falsifier F2, untested) |
-| 7 | Confirm the FDIC `RSNRES` definition at FFIEC before proposing it as a lane-5 vector | **OWED** |
-| 8 | ABS-EE lease-before-maturity screen; form-gated Trepp reports | **Will's call** (engineering; vendor gets his email) |
+| 6 | Verify the agent's CMBS payoff rates (BofA via CREFC, KBRA) before any KB row | **DONE 10/22** (`KB-CREED-066`): the 39% SASB figure is BofA's (via CREFC), not KBRA's; three definitions, never one range. PREREG_2026-10 F2 graded NOT TRIGGERED |
+| 7 | Confirm the FDIC `RSNRES` definition at FFIEC before proposing it as a lane-5 vector | **DONE 10/22** (`KB-CREED-067`): RSNRES = restructured nonfarm-nonres loans in compliance with modified terms, **not** interest reserves; Q2-26 $10.66B. A lane-5 CANDIDATE: adopting it is a definition change (proposal to Will) |
+| 8 | ABS-EE lease-before-maturity screen; form-gated Trepp reports | **Will 10/22:** ABS-EE → *"Scope it first"* (scope page owed by CREED) · Trepp form → Will asked how it works and what it costs (answered in session 10/22; no submission) |
 
 *(Item 5's original note:)* *(The sweep was repaired first, 2026-09-30 evening, CATO RC4: incomplete coverage now exits 2, dates bind per card, `--all` shows every row; saved cases `scripts/test_trepptalk_sweep.py`.)*
