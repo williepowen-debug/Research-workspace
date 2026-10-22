@@ -1,0 +1,161 @@
+{
+ "schema": 2,
+ "staged_at": 1792681610.2710369,
+ "items": [
+  {
+   "id": "2112936889959203248",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": "BOARD/SIG-W-20261022-007-iran-full-sweep-oct22-irgc-claims-4-sts-tankers-northern-gulf-plus-3-mine-hits-CLAIM-ONLY-no-ukmto-dammam-toll-2-killed-israeli-sortie-was-oct19-FALCON.md",
+   "ask_user": null
+  },
+  {
+   "id": "2113249922980147275",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-10-22_iran-full-sweep/SWEEP.md",
+   "ask_user": null
+  },
+  {
+   "id": "2112985744688267619",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": "BOARD/SIG-W-20261022-008-axios-big-banks-restrict-third-party-ai-agents-in-customer-accounts-rogue-claims-anonymous-ms-disputes-plus-microsoft-storm-0940-ai-automated-intrusions-GIBBS.md",
+   "ask_user": null
+  },
+  {
+   "id": "2113263019337953546",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "BOARD/SIG-W-20261022-009-great-lakes-spot-gasoline-up-another-45-50c-gal-oct22-kloza-parabolic-cause-unnamed-single-source-BRENT.md",
+   "ask_user": null
+  },
+  {
+   "id": "2113269151750033889",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "BOARD/SIG-W-20261022-007-iran-full-sweep-oct22-irgc-claims-4-sts-tankers-northern-gulf-plus-3-mine-hits-CLAIM-ONLY-no-ukmto-dammam-toll-2-killed-israeli-sortie-was-oct19-FALCON.md",
+   "ask_user": null
+  },
+  {
+   "id": "2113267348669120820",
+   "disposition": "NO-ACTION",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2113156227022848211",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": "BOARD/SIG-W-20261022-007-iran-full-sweep-oct22-irgc-claims-4-sts-tankers-northern-gulf-plus-3-mine-hits-CLAIM-ONLY-no-ukmto-dammam-toll-2-killed-israeli-sortie-was-oct19-FALCON.md",
+   "ask_user": null
+  },
+  {
+   "id": "2113269841717244321",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": "BOARD/SIG-W-20261022-008-axios-big-banks-restrict-third-party-ai-agents-in-customer-accounts-rogue-claims-anonymous-ms-disputes-plus-microsoft-storm-0940-ai-automated-intrusions-GIBBS.md",
+   "ask_user": null
+  },
+  {
+   "id": "2113265239680770429",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": "BOARD/SIG-W-20261022-007-iran-full-sweep-oct22-irgc-claims-4-sts-tankers-northern-gulf-plus-3-mine-hits-CLAIM-ONLY-no-ukmto-dammam-toll-2-killed-israeli-sortie-was-oct19-FALCON.md",
+   "ask_user": null
+  },
+  {
+   "id": "2113265933263528342",
+   "disposition": "DUP",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2113268796618068421",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": "BOARD/SIG-W-20261022-008-axios-big-banks-restrict-third-party-ai-agents-in-customer-accounts-rogue-claims-anonymous-ms-disputes-plus-microsoft-storm-0940-ai-automated-intrusions-GIBBS.md",
+   "ask_user": null
+  },
+  {
+   "id": "2113011697476657657",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-10-22_iran-full-sweep/SWEEP.md",
+   "ask_user": null
+  },
+  {
+   "id": "2113215536863576503",
+   "disposition": "NO-ACTION",
+   "read_state": "partly_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2113105581934309664",
+   "disposition": "NO-ACTION",
+   "read_state": "partly_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2113259741719806053",
+   "disposition": "FOLD",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261022-008-axios-big-banks-restrict-third-party-ai-agents-in-customer-accounts-rogue-claims-anonymous-ms-disputes-plus-microsoft-storm-0940-ai-automated-intrusions-GIBBS.md",
+   "ask_user": null
+  },
+  {
+   "id": "2113257735089430640",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": "BOARD/SIG-W-20261022-008-axios-big-banks-restrict-third-party-ai-agents-in-customer-accounts-rogue-claims-anonymous-ms-disputes-plus-microsoft-storm-0940-ai-automated-intrusions-GIBBS.md",
+   "ask_user": null
+  },
+  {
+   "id": "2113251043173683683",
+   "disposition": "DISPATCH",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261022-008-axios-big-banks-restrict-third-party-ai-agents-in-customer-accounts-rogue-claims-anonymous-ms-disputes-plus-microsoft-storm-0940-ai-automated-intrusions-GIBBS.md",
+   "ask_user": null
+  },
+  {
+   "id": "2113252028449206613",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "BOARD/SIG-W-20261022-010-usda-confirms-first-new-world-screwworm-in-us-wildlife-texas-elk-pecos-county-oct21-new-mexico-beef-cow-case-CARL-info.md",
+   "ask_user": null
+  },
+  {
+   "id": "2113256318156861702",
+   "disposition": "NO-ACTION",
+   "read_state": "partly_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2113247804692832485",
+   "disposition": "DUP",
+   "read_state": "partly_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2113227875805798692",
+   "disposition": "NO-ACTION",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2112975078266716390",
+   "disposition": "FOLD",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261022-008-axios-big-banks-restrict-third-party-ai-agents-in-customer-accounts-rogue-claims-anonymous-ms-disputes-plus-microsoft-storm-0940-ai-automated-intrusions-GIBBS.md",
+   "ask_user": null
+  }
+ ],
+ "stage_id": "a4bdcb91f0e94b7a812386b72e9aa02c"
+}
