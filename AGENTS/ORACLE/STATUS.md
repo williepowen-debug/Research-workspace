@@ -1,11 +1,30 @@
 # ORACLE STATUS
 
 **Live dashboard: prediction-market probabilities, divergences, alerts.**
-**10/16 DAILY PULL (Fri, PROME-spawned `prome-ac`, DOCKET L729 pull 1 of 11, WQ-314 (b) cadence).** Polymarket `pull --log` **2026-10-16T17:36Z** 53 rows rc=0 · Kalshi `pull --log` 17:39Z 11/11 (unsigned). **Supersedes the 10/15 figures below for the rows named here; everything else below is 10/15 or older.**
-- 🟡 **OIL v5 — OCT $110 LEG 20.5% (9.0 on 10/15), QUALIFIED (liq $34.8K, vol $125.6K). Band run = 3 (10/14 9.5 · 10/15 9.0 · 10/16 20.5) ⇒ ARMED, no Alert (needs 3 qualified reads ≥40.0).** WQ-314 (b) APPROVED 10/15 and now encoded on VX-ORC-04 (state 🟡: Watch Δ7d +10.5). Spot proxy CME CLZ26 $98.64 (`fetch.py` 17:37Z, +2.22%) ⇒ $110 is +11.5%. Kalshi Brent @Oct-30 `>$100.99` 73.0 (Δ +9). Ledger `workbook/V5_OCT110_READS.tsv`. Settlement text now verbatim in the letter §7.1. **Next read Mon 10/19.** Spread tool not run.
-- 🔴 **VX-ORC-07 (48h pairs, WQ-439 A encoded): Fed NO-change-at-Oct 66.0 → 86.5 (+20.5, 29h, liq $549.6K) = Critical.** Fed HIKE-at-Oct (PM, meeting-specific) **31.5 → 12.5** (liq $352.8K); Kalshi `KXFED-26OCT >4.00` **16.0** (Δprev −8). Dec-meeting hike PM 77.5. The 10/15 Alert 2 below is SUPERSEDED. → LIQUID packet sent · KB-ORC-105. VX-ORC-08 RETIRED as SPENT (WQ-440); successor proposal with PROME.
-- **Iran (PM, 17:36Z):** next senior meeting by 12/31 35.5 (liq $47.6K) · blockade-end by 3/31/27 58.5 ($96.6K) · ceasefire-through top leg (ends 10/17) 99.4 · invade <2027 15.5 ($74.4M vol).
-- ⚠️ **Bank failure any-by-Dec-31 84.5% (42.0 on 10/15) on a THIN $3.0K book — not marked.** WALTER's -013 "fourth failure" item was FALSE (-002 correction, COR-20261016-02 receipted NO-OP); the jump may be the same false item. ≥3-day re-check.
+**10/21 CATCH-UP READ (Wed 22:22 ET, PROME-spawned by prome-56, wave 2; DOCKET L729 read for ET 10/21; laptop, Kalshi UNSIGNED).** Polymarket `pull --log` **2026-10-22T02:22Z** 53 rows rc=0 · Kalshi `pull --log` 02:22Z 11/11 · spread row +75.0pp. **Supersedes every older figure below for the rows named here; everything else below is 10/16 or older.**
+
+| Market (venue) | 02:22Z read | Prior ORACLE read | Depth | Note |
+|---|---|---|---|---|
+| **Oct $110 WTI leg (PM)** | **13.5%** | 20.5 (10/16) | liq $32.6K QUALIFIED · vol $199.8K | WQ-314 (b) state **none**; 10/19 + 10/20 NOT READ; run 4 or 1 (letter §8.3, item 39 OPEN) |
+| Oct $100 WTI leg (PM) | **RESOLVED YES** | — | vol $478.7K | Gamma closedTime 2026-10-20T10:55Z |
+| Oct $105 (PM) | 36.0 | — | liq $32.8K | ladder |
+| **Fed HIKE at Oct mtg (PM)** | **12.5%** | 12.5 (10/16) | liq $648.5K | **VX-ORC-11 read 1** (Alert ≥50.0 ×2) |
+| Fed Oct `>4.00` (Kalshi) | 12.0 | 16.0 | OI 72.1K | corroboration only |
+| Fed NO change at Oct (PM) | 87.5 | 86.5 | liq $863.3K | |
+| Fed HIKE at Dec mtg (PM) | 78.5 | 77.5 | liq $244.2K | Kalshi ≥1 more by Dec 80.0 · `>4.25` 14.0 |
+| Iran ceasefire through 10/31 (PM) | **74.5** | 79.5 (10/15) | vol $5.3M · liq $108.7K | 11/30 39.0 · 12/31 30.0 |
+| Iran blockade-end by 12/31 (PM) | **33.6** | 37.9 (10/15) | liq $125.9K | by 3/31/27 55.0 (58.5 on 10/16) |
+| US–Iran next senior meeting by 12/31 (PM) | 38.0 | 35.5 (10/16) | liq $58.7K | by 11/30 25.5 |
+| US invade Iran <2027 (PM) | 16.5 | 15.5 | vol $74.9M | regime fall 5.5 |
+| Any US bank fails by 12/31 (PM) | 58.5 | 84.5 (10/16) | ⚠️ liq $2.1K THIN | not marked; three thin prints 42.0 → 84.5 → 58.5 |
+| Recession (PM / Kalshi) | 7.5 / 4.0 | 7.5 / 4.0 | $88.0K liq / OI 935.7K | definitions differ (KB-ORC-099) |
+
+- 🟠 **VX-ORC-07 (48h pairs) re-graded 🔴 → 🟠 Alert:** no ORACLE log pair ≤48h (prior pull 10/16 = 104.8h), so graded on the CLOB series (WQ-439 A): WTI $110 Oct **24.0 → 8.5 in 3h** (10/20 12:00Z → 15:00Z, liq $32.6K), back to 15.0 by 18:00Z. No other non-thin CLOB-checked market swung >10pp inside the window (widest ranges: Houthi-vs-Israel by 10/31 3.3–12.3, Russia–Ukraine ceasefire 14.0–22.5). ⚠️ By-date event legs were not CLOB-checked.
+- 🟢 **VX-ORC-11 (NEW, WQ-453 ORC09 = A):** Fed HIKE at the 10/28 FOMC. Read 1 = 12.5%; 0 reads ≥50.0. Retires at the decision. (ID VX-ORC-09 is the best-asset row, so the ruled row took VX-ORC-11; label only.)
+- **WQ-453 DEF + ROLLCARRY encoded** at the letter §8 and the VX-ORC-04 Alert cell: Critical steps down to Alert held; a pre-close $110 touch is reported as UNRESOLVED and Critical fires at Gamma's YES; a fired state carries into November.
+- Spot proxy CME CLZ26 **$98.33** (`fetch.py`, evening session, last trade 10/21 22:13 ET) ⇒ $110 is +11.9%. November $110 leg not listed yet (expected ~10/25 04:0xZ).
+
+**10/16 (prior, PROME `prome-ac`, L729 read 1):** Oct $110 20.5% QUALIFIED, run 3 ARMED, no Alert · Fed NO-change-at-Oct 66.0 → 86.5 in 29h (VX-ORC-07 🔴 then) · WQ-314 (b)/439/440 encoded · bank any 84.5 thin.
 
 **10/15 RECOVERY UPDATE (Thu, PROME-spawned WQ-436, `prome-73`, Opus, laptop `WilliePOwen`, Kalshi lane UNSIGNED: no creds on this box).** Pulls **2026-10-15T12:39Z** (pre-market): Polymarket `pull --log` 53 rows rc=0 · Kalshi `pull --log` 11/11 rc=0 (**unsigned public read**) · spread row +78.5pp. Event drill-ins 12:42Z (Iran ×3, 10Y, Oct CPI, best-asset, named banks) and spot via `fetch.py` 12:42Z. **Alerts 0–6 below were re-read and rewritten this session. The Signal Dashboard tables are still the 9/27 read: ⚠️ 18 days stale, do not cite.**
 **What the crashed session left (and what this one did with it).** Will launched session `0ce3f089` at 23:56 ET 10/14 on this laptop. Its last tool call was 00:03 ET and the machine died at 03:08 ET with nothing committed. On disk it left: (1) a `scripts/kalshi.py` change that reads UNSIGNED when no creds are present instead of dying at import; (2) both watchlists rolled from September to October pins; (3) appended log rows: ODDS_LOG +62 (50 @ 03:56Z + 12 @ 04:02Z), KALSHI_ODDS_LOG +25 (14 @ 03:57Z + 11 @ 04:02Z), spread +1 (+77.0pp @ 03:56Z). It did **not** touch this file. This session checked every residue file whole. Every appended row has its pull stamp and market id, and no row was deleted. September pins were retired with resolution records, not deleted, and each resolution was re-verified at Gamma (`closed=true`) or the Kalshi API. Code: `scripts/test_cred_modes.py` passes 13/13 offline in both modes and kills 4/4 mutants. Live unsigned runs of `status` (rc=3), `market`, `pull` and candlesticks all work. **Signed round-trip UNVERIFIED (desktop-only creds): run `kalshi.py status` → rc=0 at the next desktop boot.** One false residue claim was corrected: `watchlist.tsv` said the `bank failure` watch term had gone to WALTER, but no packet existed. It was sent this session. ⚠️ The 03:57Z Kalshi rows for FINALIZED markets (Sept CPI ×3, Sept U3 ×2, Brent Sep-30 ×2, Iran crude) log last-trade prints, not probabilities. This is the pull's standing behaviour.
