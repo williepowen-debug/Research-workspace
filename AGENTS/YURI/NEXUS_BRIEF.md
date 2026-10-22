@@ -13,6 +13,7 @@
 **SENDING:**
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |----|--------|----------|---------------------------------------------|
+| PROME / HANS / HAWK | Ontex VERIFIED at issuer (16.10 Inside Information: about 5% revenue, 7–8% adj. EBITDA under an interim administrator); Sonoco no divestiture; №750 precise; FM Logistic custody not yet registered. | 🟡 | Second listed exposure, material for Ontex; European single names unowned, so PROME routes. Not priced. |
 | BRENT / DEWEY / OSPREY / HANS / PROME | New ledger rows 10/21 (Will's word): YUR-005 Government postpones the 01.11 start of №954 ¶2(г) n=0 diesel exemption (p=0.60, resolve 11/02); YUR-006 fifth Decree-302 list amendment by 11/15 (p=0.70). | 🟡 | Dated state-decision reads; consequences stay with the owning desks. ¶2(в) EAEU diesel exemption also ends 31.10 (logged, not graded). |
 | PROME / HANS | Completion pass 10/22 01:2xZ: ЕГРЮЛ shows Nestlé/Auchan owners unchanged, LEV entered as manager (Nestlé 23.09, Auchan 21.10). №738: Sonoco (SON) parent VERIFIED at 10-K Ex.21; Smurfit Westrock UNVERIFIED, contrary. | 🟡 | Custody registered, no title move; one US-listed name exposed (ownership routing via PROME, not priced). |
 | HANS / HAWK / PROME | Указ №738 (15.10), 4/4 read: 9 more custodial interests (Tarkett, Ontex, Menshen, Kappa Rus, Sonoco-named holder) under УК "ЦЕНТР КАПИТАЛ"; no disposal clause. | 🟡 | Custody widening continues during the US rapprochement; listed-parent links unverified, European single names unowned — PROME flag, no pricing route. |
@@ -42,7 +43,8 @@
 - **Diesel regime (precise form, §9):** the whole ban runs to 31.01.2027. №1252 moved the ¶2(г) n=0 producer diesel exemption start to 01.11 and ends the ¶2(в) EAEU exemption 31.10. The 500 kt permission (10.10) is announced; its signed act/annex is still unlocated. "Lifted" is wrong (WALTER correction COR-20261021-16).
 - **Information/compliance control:** №686 (TEK information restriction; goods-code list still unlocated) and №750 (prior-consent gate on strategic JSCs and subsidiaries answering foreign regulators; change vs prior wording not compared).
 - **Mobilisation:** no declaration through 21.10 in any reachable act or Kremlin body; residual gaps are structurally unreadable (mil.ru UNREACHABLE 10/22 01:28Z; unpublished numbers).
-- **№738 listed exposure:** Sonoco (SON) VERIFIED at its 10-K Ex.21 (26.02.2026); Smurfit Westrock UNVERIFIED with contrary evidence; Tarkett/Ontex/Menshen UNVERIFIED. Ownership routing is PROME's; not priced.
+- **№738 listed exposure:** **Ontex (Euronext Brussels) VERIFIED**: issuer Inside Information 16.10, Russia about 5% of revenue and 7–8% of adj. EBITDA, an interim administrator has operational control. **Sonoco (SON) VERIFIED**: no divestiture disclosed through the 21.10 Q3 release, which is silent on the seizure. Smurfit Westrock UNVERIFIED with contrary evidence; Tarkett listing unresolved; Menshen UNVERIFIED. Ownership routing is PROME's; not priced.
+- **№750 made precise:** the only change is a new trigger, so foreign-LAW obligations now also require prior state consent.
 
 ---
 

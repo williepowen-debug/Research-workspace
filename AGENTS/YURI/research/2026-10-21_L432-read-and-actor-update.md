@@ -224,3 +224,48 @@ So "extend the producer restriction" means *postpone ¶2(г) again*. "Lapse" mea
 **Why these forecasts:**
 - **YUR-005 (0.60):** two consecutive postponements and resumed refinery strikes (Ryazan 15.10, St Petersburg terminal 17–18.10, per WALTER) point toward another postponement. Against it, Putin on 21.10 described serial diesel loadings under the US arrangement. A quota-within-prohibition outcome is scored as extension, so the forecast is about the legal form, not the export volume.
 - **YUR-006 (0.70):** four amendments in 29 days, longest gap 17 days, and the window is 31 days. Against it, the custody track could pause ahead of the mid-November talks.
+
+---
+
+## 10. Sweep follow-ups (Will 22:03 ET: "start working through it"; fetches 2026-10-22T02:05–02:15Z)
+
+### 10.1 Item 11: ЕГРЮЛ for the other №661 entities (extracts 22.10.2026 05:07 Moscow)
+
+| Entity | INN | Owners | Acting person | Reading |
+|---|---|---|---|---|
+| ООО "ЛЕ МОНЛИД" (Lemana Pro, ex-Leroy Merlin Russia) | 5029069967 | Groupe Adeo SA **0.007%** (record 10.07.2019) + 99.993% holder (№661 names Scenari Holding LP), unchanged | **LEV**, entered ГРН 2265002100955 on **21.10.2026** | Custody registered 34 days after the decree, same day as Auchan. No title move. |
+| АО "ФМ ЛОЖИСТИК ВОСТОК" | 5047027173 | АО: shareholder register is not in ЕГРЮЛ | **Its own director, Nenashev E.V.**, re-entered **22.09.2026**. **No LEV entry 35 days after №661.** | Registry has not recorded custody yet. ФМ Ложистик Рус and Кастомс are managed by Vostok. |
+
+### 10.2 Item 12: №738 parents at the issuer
+
+| Holder | Verdict | Issuer source |
+|---|---|---|
+| ONTEX (Ontex RU) | **VERIFIED: Ontex Group NV, Euronext Brussels (ONTEX)** | ontex.com "Update on Ontex Russia", **Inside Information**, Aalst, 16.10.2026 (saved `issuers/ontex-update-russia-20261016.html`). Quote: "a government-appointed interim administrator has assumed operational control of Ontex Russia … about 5% of the total revenue of Ontex Group, 7 to 8% of adj. EBITDA under IFRS consolidation rules and provides limited cash contribution"; about 350 employees, Noginsk plant. VRT (secondary) reports a brief trading suspension that day. |
+| TARKETT / Tarkett d.o.o. | **Holder = Tarkett (named directly); issuer statement NOT retrieved; listing status UNRESOLVED** | Press (Batiweb, Presse-Citron) relays a 16.10 Tarkett statement of "loss of effective control". The tarkett-group.com investor page shows no October 2026 release and only a "public buy-out offer by Tarkett Participation" menu item. Not certified as listed. |
+| Menshen | **UNVERIFIED** (German family group; no listing known) | Reuters (secondary, via Euronext feed) calls it a "German packaging maker". |
+| Sverige International Holdings AB | **UNVERIFIED, contrary to a Smurfit link** (see §8.3) | Reuters (secondary) calls it a "Swedish packaging maker". |
+| Sonoco (item 17) | **VERIFIED, and no divestiture disclosed** | SEC filings 26.02→21.10: 10-Qs, 8-Ks and the Q3 release of **21.10.2026** (acc. 0000091767-26-000047). The release mentions Russia only in generic risk language and is silent on the 15.10 temporary management (after the 27.09 quarter end). Its $(829)M Q3 goodwill impairment on Consumer EMEA/APAC and Industrial APAC is **not attributed to Russia** by the issuer, and YURI does not attribute it. |
+
+### 10.3 Item 13: №750 versus the prior wording
+
+Prior ¶1 (in the №433 of 21.09.2017 edition; Kremlin act bank 36031, saved `prior1285/`) already covered **strategic JSCs and their subsidiaries** and demands from foreign states, international organisations, **unions of foreign states** and their regulatory/control bodies.
+
+**№750's only change: a second trigger**, "или законодательством иностранных государств предусмотрена обязанность … осуществлять определенные действия". The prior-consent gate now also bites wherever **foreign law itself** obliges the company or subsidiary to act, not only on a foreign body's demand. The gated acts in the unchanged sub-paragraphs are: providing information; amending foreign contracts/pricing; disposing of foreign stakes. §4's "change UNVERIFIED" is now resolved.
+
+### 10.4 Item 14: pardon decree
+
+NOT-FOUND as of 2026-10-22T02:09Z on the Kremlin act bank (search "помиловани", 15–22.10), kremlin.ru/acts/news, and the pravo presidential listing (still tops at №752). Pardon decrees are usually unpublished, so the Ushakov readout remains the citable instrument.
+
+### 10.5 Item 15: the 28 untitled government распоряжения (published 15–17.10)
+
+All 28 PDFs were fetched (`govorders/`) and **page 1 read for each** (operative clause). Annex pages of the long ones (2887-р 34 pp, 2923-р 52 pp, 2928-р 40 pp) were not read. **None concerns fuel or diesel export.** An order also cannot amend Resolution №954, so YUR-005's class is untouched.
+
+By-catches:
+- **2875-р (12.10):** adds the FSB economic-security chief to the VPK working group on defence-order companies "в период действия военного положения" (a 2023 group). Martial-law wording in an existing body's name; not a declaration.
+- **2911-р (14.10):** ₽371.5M for the increased establishment of the Investigative Committee's military investigative bodies.
+- **2899-р (14.10):** Volgoneft-212 (Kerch Strait sunken tanker) works cut from ₽5.84bn to ₽331.1M, to one cofferdam.
+- **2924-р (15.10, titled):** signing of a RU–BY agreement on rear and medical support of military contingents (HAWK's dyad).
+
+### 10.6 Item 19: OSPREY consumption
+
+**Verified.** `AGENTS/OSPREY/STATUS.md` line 76 cites "YURI 10/12" on the №686 goods list.

@@ -35,13 +35,13 @@ It does **not** grade evidence, re-read primaries, or check other desks' surface
 |---|---|---|
 | 9 | Signed 500 kt diesel partial-lift act/annex | OPEN (unlocated since 10/12) |
 | 10 | №686 implementing goods-code list (OSPREY carries it too) | OPEN (SEARCH-NOT-FOUND) |
-| 11 | ЕГРЮЛ for Lemana Pro and FM Logistic entities (№661) | OPEN |
-| 12 | №738 parents: Tarkett, Ontex, Menshen | OPEN (UNVERIFIED) |
-| 13 | №750 vs prior №1285 wording: what changed | OPEN |
-| 14 | Hubbard pardon decree | OPEN (typically unpublished) |
-| 15 | About 30 untitled government распоряжения (10.10→17.10); the YUR-005 baseline is partial on them | OPEN |
+| 11 | ЕГРЮЛ for Lemana Pro and FM Logistic entities (№661) | **CLOSED** (report §10.1): Le Monlid owners unchanged, LEV entered 21.10; FM Logistic Vostok still under its own director, no LEV entry 35 days on |
+| 12 | №738 parents: Tarkett, Ontex, Menshen | **CLOSED** (§10.2): **Ontex VERIFIED** (Euronext Brussels, about 5% revenue / 7–8% adj. EBITDA, Inside Information 16.10); Tarkett holder direct but issuer statement and listing UNRESOLVED; Menshen UNVERIFIED |
+| 13 | №750 vs prior №1285 wording: what changed | **CLOSED** (§10.3): the only change is a new foreign-law-obligation trigger; subsidiaries and unions of states were already in the 2017 text |
+| 14 | Hubbard pardon decree | **CLOSED: NOT-FOUND** (§10.4, 02:09Z); the Ushakov readout stays the instrument; recheck at the 10/23 read |
+| 15 | About 30 untitled government распоряжения (10.10→17.10); the YUR-005 baseline is partial on them | **CLOSED** (§10.5): 28/28 page 1 read, none fuel/export; orders cannot amend №954; annexes of 3 long orders unread |
 | 16 | Shadow-fleet registration decree (signed successor to Mintrans 11 June draft) | OPEN |
-| 17 | Sonoco divestiture of Eviosys Kuban after 26.02.2026 | OPEN |
+| 17 | Sonoco divestiture of Eviosys Kuban after 26.02.2026 | **CLOSED** (§10.2): no divestiture in SEC filings to the 21.10 Q3 release; release silent on 15.10 temporary management |
 
 ## 🔵 Dated obligations
 
@@ -59,8 +59,8 @@ It does **not** grade evidence, re-read primaries, or check other desks' surface
 | # | Item | state |
 |---|---|---|
 | 18 | 9/26 WATCH_FOR candidate phrases: no adoption visible (WALTER REGISTRY L47 watch column "—") | OPEN (WALTER/PROME) |
-| 19 | OSPREY consumption of 10/12 deliveries | UNKNOWN |
+| 19 | OSPREY consumption of 10/12 deliveries | **CLOSED**: verified at OSPREY STATUS L76 ("YURI 10/12") |
 | 20 | WALTER consumed both 10/21 SIG-YURI packets (BOARD -017, -021); filing the packet files is WALTER's job | CLOSED (consumption verified at BOARD) |
-| 21 | PROME read of the completion-pass and YUR-005/006 packets | UNKNOWN |
+| 21 | PROME read of the completion-pass and YUR-005/006 packets | **CLOSED**: prome-56 confirmed 22:0x ET; SCRATCH pointer + DAEDALUS relay verified at 9d3392758 (PROME local, pushes at its closeout) |
 
 **Clean at sweep time:** no uncommitted files · `boot.py` PASS on 6 rows · STATUS 20.9 KB (<75% cap) · ledger LIVE in DAEDALUS LEDGERS.tsv · READS.tsv rows present · all charter-referenced files exist · no file eligible for retirement (desk is 27 days old).
