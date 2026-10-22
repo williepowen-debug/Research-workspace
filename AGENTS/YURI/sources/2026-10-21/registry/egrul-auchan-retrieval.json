@@ -1,0 +1,16 @@
+[
+ {
+  "url": "https://egrul.nalog.ru/",
+  "method": "POST",
+  "bytes": 160,
+  "sha256": "c89c5bcee22b0222b727f0ab3a886ddcd4eb53276d3f74a967d9718d2b893800",
+  "observed_at": "2026-10-22T01:24:08.245761+00:00"
+ },
+ {
+  "url": "https://egrul.nalog.ru/search-result/DD1001B7C2CBD13DEBA3E2C12D2F837D1983B4CCA2CCBD61867F62CA61C31CCEAA7219FCB5A74F629D9F6CA158553667E82A0EC3DD9E9C797FB9705C0EA1284E?r=1792632249746",
+  "method": "GET",
+  "bytes": 10700,
+  "sha256": "643a7890b754e3919e181539c983e8b0905cd5db4325aef4bbbe40bd48fc81ba",
+  "observed_at": "2026-10-22T01:24:10.387523+00:00"
+ }
+]

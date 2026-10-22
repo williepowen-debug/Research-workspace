@@ -152,3 +152,53 @@ Effective on official publication (§2 of the decree). **No disposal clause**, c
 ## 7. Limits
 
 No OCR; visual reads only. No imagery, SIGINT or paid OSINT. mil.ru not remeasured. FNS not re-pulled. Untitled government распоряжения not opened. Kremlin closed continuations are unreadable by construction. A negative here is a claim about these requests on 2026-10-21, not a certified absence.
+
+---
+
+## 8. Completion pass (Will's word 21:22 ET relayed by prome-56; fetches 2026-10-22T01:24Z–01:30Z)
+
+### 8.1 YUR-004 unread paths from §1.3: disposition of each
+
+| Path | Disposition | Evidence |
+|---|---|---|
+| №751 page 2 | **READ** | Implementation clause (within headcount/budget) + entry into force on signing. No declaration. |
+| №749 pages 2–3 | **READ** | Presidium substitutions (Konovalchik, Silvestrov), removal of Maruev and Novikov, entry into force. No declaration. |
+| 23 excluded 10/12 Kremlin story URLs (`sources/2026-10-12-catchup/story-selection.json`) | **READ (full-body text extraction + term scan)** | 23/23 HTTP 200. Article bodies 188–34,733 chars (`sources/2026-10-21/stories1012/*.txt`, `scan.json`). 0 hits on мобилиз · призыв · резервист · военные сборы · военное положение. The two long bodies (80927, 80929) were scanned, not read line by line. |
+| Closed continuation of the 16.10 command-post meeting | **NOT-FOUND** | kremlin.ru news for 16.10→21.10 lists no further part (81008 and 81009 only on 16.10). The published text ends at "Теперь поговорим о наших задачах на ближайшую перспективу". A non-public continuation is unreadable by construction. |
+| Listing gaps №728/729/731/735/737/739 | **NOT-FOUND** at both public primaries | pravo presidential listing (rechecked 01:29Z) and the Kremlin act bank search 12.10–21.10 (`reach/kremlin-bank.html`, 14 acts, no pagination; it lists only through №734 for 15.10, so it lags pravo). Dates and content are unknown. Non-publication is not evidence either way. |
+| Acts signed 16–21.10 not yet published | **NOT-FOUND** as of 2026-10-22T01:29Z | pravo recheck still tops at №752 of 15.10. |
+| mil.ru | **UNREACHABLE** | 2026-10-22T01:28Z, browser UA (`reach/mil-reach.txt`): http://mil.ru, https://mil.ru, http://www.mil.ru and the Cyrillic-domain mirror all timed out at 25 s (curl exit 28); function.mil.ru failed DNS (exit 6). Host and scheme were varied, so this is a fresh 10/21 observation, but still a claim about this box's requests. |
+
+**Checkpoint reading after the pass: NOT-DECIDED · PERIMETER PARTIAL.**
+- Every reachable named path is now READ. The perimeter cannot honestly be called COMPLETE for two reasons: mil.ru is UNREACHABLE, and six decree numbers plus any unpublished acts cannot be read on a public primary.
+- That is the charter's own rule: NOT-DECIDED on a PARTIAL perimeter stays OPEN with the unread paths named. Declaring it COMPLETE would manufacture an early MISS that registered-letter §4 forbids.
+- The residual gaps are now only the **structurally unreadable** ones; no gap remains from a path this desk skipped.
+
+### 8.2 L434: FNS (ЕГРЮЛ) fields for Nestlé and Auchan
+
+Extracts were generated at egrul.nalog.ru on **22.10.2026 04:24 Moscow** (`sources/2026-10-21/registry/egrul-*-extract.pdf` + `-text.txt` + `-retrieval.json`).
+
+| Entity | INN / ОГРН | Participants (as registered) | Person acting without power of attorney | Latest records |
+|---|---|---|---|---|
+| ООО "НЕСТЛЕ РОССИЯ" | 7705739450 / 1067746759662 | Société des Produits Nestlé S.A. **84.082%** (record 24.12.2020) · Nestlé Deutschland AG **15.918%** (record 12.11.2015) | Management organisation **АО "Л.Е.В. МЕНЕДЖМЕНТ"** (INN 9710138962), entered ГРН 2267708059419 on **23.09.2026** (form Р13014) | 23.09.2026 (the LEV entry) |
+| ООО "АШАН" | 7703270067 / 1027739329408 | SAS SOGEPAR **99.99858%** (record 07.09.2021) · Meelacker B.V. **0.00142%** (record 27.12.2019) | Management organisation **АО "Л.Е.В. МЕНЕДЖМЕНТ"**, entered ГРН 2265002100603 on **21.10.2026** (form Р13014) | 19.10.2026 (licence update) · 21.10.2026 (the LEV entry) |
+| ООО "НЕСТЛЕ КУБАНЬ" (also in №661) | 2353018969 / 1022304845078 | SPN S.A. 67.44% · Nestlé Deutschland AG 32.56% | LEV, entered 24.09.2026 | 24.09.2026 |
+
+**Reading:**
+- **Title has not moved.** Participant records and percentages match №661's list exactly, and no participant record is dated after 2021.
+- The only governance change is the **entry of LEV as management organisation**: 6 days after the decree for Nestlé, and **34 days after it for Auchan (21.10.2026, i.e. today Moscow)**. That entry is the custody under №661 being registered, not a disposal: Decree 302 ¶5 excludes disposal.
+- A disposal signal would be a change in the participant block or a new owner record. **None is present as of 22.10 04:24 Moscow.**
+- L434's MISS of 10/02 is unaffected. The 11/15 DOCKET row (PROME 49952635c) is the forward watch.
+- Lemana Pro and FM Logistic entities were not pulled. They are outside PROME's two-entity ask.
+
+### 8.3 №738 holder → parent attribution
+
+| Holder in №738 | Russian entity | Parent claim tested | Verdict | Source |
+|---|---|---|---|---|
+| Sonoco Metal Packaging Netherlands Investments B.V. | ООО "Эвиосис Пэкэджинг Кубань" | Sonoco Products Co (**NYSE: SON**, CIK 91767) | **VERIFIED** as of the filing | Sonoco FY2025 10-K Exhibit 21, filed **2026-02-26** (acc. 0000091767-26-000008): "Eviosys Packaging Kuban, a 100%-owned foreign subsidiary, incorporated in Russia" (item 34) and "Sonoco Metal Packaging Netherlands Investments BV, a 100%-owned foreign subsidiary" (item 37). Saved `issuers/son-ex21-2025.htm`. Any divestiture after 26.02.2026 was not checked. |
+| Sverige International Holdings AB | АО "Каппа Рус" (INN 7724190750, Moscow; affiliate ООО "Каппа Рус Окуловка", Novgorod oblast) | Smurfit Westrock plc (NYSE/LSE: SW) | **UNVERIFIED, and contrary evidence** | SW FY2025 10-K Exhibit 21 (filed 2026-02-27, acc. 0001628280-26-012555) lists Swedish subsidiaries "Smurfit Westrock Sverige Holding AB" / "Smurfit Westrock Sverige AB" but **no "Sverige International Holdings AB" and no Russian entity**. SEC full-text search across 10-Ks: 0 hits for "Sverige International Holdings" and 0 for "Kappa Rus". The Smurfit link PROME posed is **not supported at the issuer**. Do not route an SW read. |
+| TARKETT; Tarkett d.o.o. Backa Palanka (Serbia) | АО "ТАРКЕТТ", АО "ТАРКЕТТ РУС", ООО "ТАРКЕТТ СОММЕР" | Tarkett S.A. (France) | **UNVERIFIED** (holder named directly; listing status and parent not checked at issuer this session) | — |
+| ONTEX | ООО "Онтэкс РУ" | Ontex Group NV (Euronext Brussels) | **UNVERIFIED** (not checked at issuer) | — |
+| Menshen Beteiligungs-GmbH; Georg Menshen GmbH & Co. KG | ООО "Менсен Пакаджинг СНГ" | Georg Menshen group (German; no listing known to this desk) | **UNVERIFIED** | — |
+
+**Listed name for PROME's ownership routing: Sonoco Products (SON), VERIFIED at its own Exhibit 21 as of 26.02.2026.** Not priced. Tarkett and Ontex remain UNVERIFIED and are possible European listed names that a later issuer check could settle.

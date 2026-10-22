@@ -1,0 +1,6 @@
+http://mil.ru/ http=000 exit=28 err=Connection timed out after 25001 milliseconds t=25.001492
+https://mil.ru/ http=000 exit=28 err=Connection timed out after 25001 milliseconds t=25.001480
+http://www.mil.ru/ http=000 exit=28 err=Connection timed out after 25001 milliseconds t=25.001334
+https://function.mil.ru/news_page/country.htm http=000 exit=6 err=Could not resolve host: function.mil.ru t=0.128441
+http://function.mil.ru/news_page/country.htm http=000 exit=6 err=Could not resolve host: function.mil.ru t=0.258004
+https://xn--90anlfbebar6i.xn--p1ai/ http=000 exit=28 err=Connection timed out after 25001 milliseconds t=25.001225
