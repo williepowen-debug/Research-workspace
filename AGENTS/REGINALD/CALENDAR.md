@@ -1,6 +1,6 @@
 # REGINALD CALENDAR
 
-**Last Updated:** **2026-10-20 late:** WAL call SECONDARY read;OZK primary Q3 read;weekly funding/eligible settled log caught up. Filing-only inputs and Eagle release remain pending. Prior: **2026-10-20:** CUBI/FLG estimates promoted to issuer-CONFIRMED in the canonical table; dates unchanged. Prior **2026-10-13:** VLY issuer October7 notice rechecked: Q3 call08:30 ET confirmed; existing date/time unchanged. Prior **2026-10-12 (Mon boot):** corrected the old Affinius corporate-bond row to the sourced New Economy Assets–Phase 1 warehouse-ABS anticipated-repayment date and kept current repayment/exposure UNKNOWN (`SIG-W-20261012-023`). Prior: **2026-10-11 (Sun, WQ-414 option B):** REG-T-06 consequence REVIEW; entry/exit and official-quarter unit unchanged. Prior affected header/row → `archive/WQ414_operating_snapshot_2026-10-11.md`.
+**Last Updated:** **2026-10-22 11:1x ET:** EGBN/BKU/SSB/VLY marked PRINTED in canonical table (dates unchanged); HBAN printed 10/22 (not a table row) → `reports/2026-10-22_catchup/REPORT.md`. Prior **2026-10-20 late:** WAL call SECONDARY read;OZK primary Q3 read;weekly funding/eligible settled log caught up. Filing-only inputs and Eagle release remain pending. Prior: **2026-10-20:** CUBI/FLG estimates promoted to issuer-CONFIRMED in the canonical table; dates unchanged. Prior **2026-10-13:** VLY issuer October7 notice rechecked: Q3 call08:30 ET confirmed; existing date/time unchanged. Prior **2026-10-12 (Mon boot):** corrected the old Affinius corporate-bond row to the sourced New Economy Assets–Phase 1 warehouse-ABS anticipated-repayment date and kept current repayment/exposure UNKNOWN (`SIG-W-20261012-023`). Prior: **2026-10-11 (Sun, WQ-414 option B):** REG-T-06 consequence REVIEW; entry/exit and official-quarter unit unchanged. Prior affected header/row → `archive/WQ414_operating_snapshot_2026-10-11.md`.
 *Stamp chain 9/11 and earlier → `archive/CALENDAR_rotation_2026-09-24.md` (verbatim, crc-stamped).*
 
 ---
@@ -34,10 +34,10 @@
 | MTB | 2026-10-16 | Fri | pre-open | CONFIRMED | ctx | BROCK at issuer 10/9 (SIG-W-20261009-010) · ✅ RELEASE READ10/20 → `reports/2026-10-20_reported-bank-earnings-catchup.md` |
 | WAL | 2026-10-19 | Mon | after close; call Tue 10/20 12:00 ET | CONFIRMED | Q1 Q2 | Business Wire 10/6 (issuer text) · ✅ RELEASE READ10/20; WQ-318 INCONCLUSIVE; call SECONDARY read10/20;filing F3/N pending → reports/2026-10-20_backlog-followthrough.md |
 | OZK | 2026-10-20 | Tue | after close; call Wed 10/21 08:30 ET | CONFIRMED | Q1 Q2 | PRIMARY Q3 READ10/20; Boston failed sale/foreclosure;WQ318 INCONCLUSIVE;call/10-Q pending → reports/2026-10-20_backlog-followthrough.md |
-| EGBN | 2026-10-21 | Wed | after close; call Thu 10/22 10:00 ET | CONFIRMED | Q1 Q2 | EagleBank IR 10/7 |
-| BKU | 2026-10-21 | Wed | before open; call 09:00 ET | CONFIRMED | FL | Business Wire 9/22 (repost) |
-| SSB | 2026-10-21 | Wed | after close; call Thu 10/22 09:00 ET | CONFIRMED | FL | 8-K 7.01 acc 0001193125-26-411326 |
-| VLY | 2026-10-22 | Thu | before open; call 08:30 ET | CONFIRMED | ctx | GlobeNewswire issuer notice10/7, rechecked10/13 |
+| EGBN | 2026-10-21 | Wed | after close; call Thu 10/22 10:00 ET | CONFIRMED | Q1 Q2 | EagleBank IR 10/7 · ✅ PRINTED (8-K acc 0001050441-26-000110); deck read10/22, Prince George's→nonaccrual → reports/2026-10-22_catchup/REPORT.md §4 |
+| BKU | 2026-10-21 | Wed | before open; call 09:00 ET | CONFIRMED | FL | Business Wire 9/22 (repost) · ✅ PRINTED (acc 0001504008-26-000088); FL 8-K cell HOLDS, HOLDS-PENDING-P → catchup §2b |
+| SSB | 2026-10-21 | Wed | after close; call Thu 10/22 09:00 ET | CONFIRMED | FL | 8-K 7.01 acc 0001193125-26-411326 · ✅ PRINTED (acc 0001193125-26-427824); REG-27 0.57% not met, OPEN; FL HOLDS provisional → catchup §2 |
+| VLY | 2026-10-22 | Thu | before open; call 08:30 ET | CONFIRMED | ctx | GlobeNewswire issuer notice10/7, rechecked10/13 · ✅ PRINTED (acc 0000714310-26-000045); L521 checkpoint: early flag strengthens → catchup §3 |
 | AMTB | 2026-10-22 | Thu | after close; call Fri 10/23 09:00 ET | CONFIRMED | Q3 FL | AMTB IR 9/30 |
 | CUBI | 2026-10-22 | Thu | after close; call Fri10/23 09:00 ET | CONFIRMED | Q1 | Customers issuer10/13 notice, freshly read10/20; source/locator in reports/2026-10-20_reported-bank-earnings-catchup.md |
 | FLG | 2026-10-23 | Fri | approximately06:00 ET; call08:00 ET | CONFIRMED | Q2 | Flagstar issuer10/9 notice, web-indexed primary read10/20 (direct403); source/locator in reports/2026-10-20_reported-bank-earnings-catchup.md |

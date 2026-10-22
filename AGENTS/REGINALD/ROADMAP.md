@@ -79,6 +79,8 @@ October20 key-file audit: `reports/2026-10-20_key-file-sweep/REPORT.md` inventor
 
 ## RECENTLY RESOLVED — October20
 
+**10/22 Q3 catch-up (Will-directed):** `reports/2026-10-22_catchup/REPORT.md`. SSB/BKU/EGBN/VLY/HBAN/ZION read at primary; REG-27 OPEN (0.57%); FL frame provisional (SSB HOLDS, BKU HOLDS-PENDING-P); VLY L521 early flag strengthens; EGBN Prince George's answered (no cash, nonaccrual, re-extended). Discount-window open question: base rate computed (catchup §1e), still NOT registered — decide with Will. Last touched 2026-10-22.
+
 Will-directed reported-bank earnings catch-up → `reports/2026-10-20_reported-bank-earnings-catchup.md`; four cohort/three contextual primary releases, plus existing partial FITB owner evidence. WAL release funding grade completed; original expectation outcomes appended. Remaining call/filing questions and upcoming prints retain their existing carriers; no new monitor or research universe.
 
 **10/20 M&T capacity question ANSWERED within reported evidence:** `reports/2026-10-20_MTB_earnings-capacity_and_capital-test.md`. Earnings cover observed credit cleanup; distributions/OCI constrain retention earlier. Existing filing/release read can test the conditional expectation; borrower-level recovery and vendor EPS basis remain unknown. No new monitor/cohort or formal thesis change. Last touched2026-10-20.

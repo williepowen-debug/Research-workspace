@@ -22,22 +22,21 @@
 
 Original contiguous blocks B01–B08 → `archive/2026-10-20_organisation-cleanup_MEMORY.md`; exact source-line/section map and verified CRCs → `reports/2026-10-20_organisation-cleanup/RECEIPT.md`. Re-check size at any append or on 2026-11-20, whichever first.
 
-⚠️ **Open question at close:** did Eagle's troubled loans receive genuine outside cash/recovery or continued bank support? Four existing outcomes remain UNKNOWN; no independent property match. The M&T capacity result covers recognized provisions/reported earnings, not complete economic losses.
+⚠️ **Open question at close:** when the Q4 CRE maturities resolve (EGBN $265.7M MF in 4Q26; VLY deferrals to ~Q1-27), do the "well-secured, no specific reserve" loans resolve near carrying value — or does realized loss show the falling reserve coverage (5/5 Q3 names) was under-reserving?
 
-### LAST SESSION — 2026-10-21T11:57:41-04:00, closed at Will's request
-Boot and inbox/main-file audit completed. Eight monitoring components ran; five packets disposed across WALTER/general intake. Approved REG-27 encoded OPEN at15% before SSB release; original20 prediction rows preserved. OZK issuer coupon correction applied; holiday/R3 prior delivery evidence sent for coordinator reconciliation. Reports→`reports/2026-10-21_boot/RECEIPT.md` and `reports/2026-10-21_owed-items/REPORT.md`; audit/brief push confirmed at `e222f2f0b`. This is audit completion, not completion of the open research below. No new market/broker data or trade action at closeout; no background monitoring. Final owner receipt→`reports/2026-10-21_owner-closeout.md`.
+### LAST SESSION — 2026-10-22 ~11:0x–11:2x ET, Will-directed catch-up + PROME assignment
+Boot (root/AGENTS/USER/COMPLETION_SPEC/Runtime mechanics + desk boot 1–9c); no pull needed (origin 0 ahead). Read at primary: SSB/BKU/EGBN/VLY/HBAN/ZION Q3 8-Ks (3 readers: EGBN Opus, VLY/BKU Sonnet; decisive figures self-verified), OCC GENIUS final rule PDF. Graded: REG-27 Q3 0.57% not met (OPEN); FL frame SSB HOLDS provisional, BKU HOLDS-PENDING-P; VLY L521 early flag strengthens; EGBN 008 → nonaccrual, re-extended 12/21/26, no cash. Answered Will's HY question (SIG-W-20261022-005): BANK-ABSENT 9/21→10/20 conf ~0.6, leg2 CCC-only. Drained 5 WALTER + 3 general inbox. Files: `reports/2026-10-22_catchup/REPORT.md`, `domain/sources/2026-10-22_catchup/`, `reports/2026-10-22_boot/`. Then Will asked for analysis of a docx on AI-agent banking security risks.
 
-Prior contiguous handoff preserved→`archive/MEMORY_session-handoff_2026-10-21.md`, crc32 `0f4fdc47`.
+Prior handoff (10/21) preserved in git history of this file and `archive/MEMORY_session-handoff_2026-10-21.md`.
 
 ### CHANGES SINCE LAST SESSION
 
 ### NEXT SESSION
-1. Resume existing Q3 grades: BKU release/FL frame not graded in this audit; EGBN/SSB10/21 after-close releases, Eagle call10/22 10ET. REG-27 OPEN15% (SSB NPL ratio≥0.70%,Q3-2026 throughQ2-2027) is registered locally; PROME shared record/consumption unverified. REG-07 stays VOID. Eagle WOB008/009/013/014: same-loan cash/new funding/retained exposure/recognition; nondisclosure stays UNKNOWN. Check EGBN snapshot before refreshing copied evidence.
-2. Consume OZK Stage2 call evidence without repeating Stage1; exact NDFI/borrowing type,RaDD recognition/readvance and replacement exposure remain. WAL call already consumed SECONDARY; primary audio/identified-credit and filing F3/N gaps persist. CFG12.852/14.727B are same-date differing document bases, not growth; scope cause UNKNOWN; match Q3 Table9.
-3. Existing calendar: VLY/HBAN10/22,AMTB/CUBI10/22 after close,FLG10/23,SBCF10/27. RED CET1/AOCI review10/23;CARL fintech joins10/26. CCB/CASH/GDOT dates and CCB Bluevine retained exposure remain unchecked. TRADE/current lower POSITIONS need reconciliation before card use; no inferred fills or expiry reminders.
-4. WAL settled log complete through10/20,35 rows/run0; grade only eligible bars at next boot. FRED last checked through10/19,prior bank attribution10/15–16 dated. Next existing funding releases10/22 H.4.1,10/23 H.8. No new monitor or threshold.
-5. Nano P&A/DEWEY checkpoint10/27;last actual check10/20 no link,bar date2027-01-20. External inquiry requires existing Will authorization. WQ-454.REGT06 remains OPEN before10/30; as-written CFR11/13 governs. Official FHLB run2-of-3,breadth incomplete. JWT renewal before11/5 Will-owned;11/7 matched-basis/cohort/completeness run remains.
-6. Holiday non-session rule and R3 answer already DONE10/16 and10/7; do not redo from stale PROME carriers. Coordinator/coupon consumer packets are committed,receipt/consumption UNKNOWN. Older roadmap/backlog/document debt remains as classified in audit; no wider program approved.
+1. Grade AMTB (10/22 AMC) FL cells and CUBI WQ-318 row; FLG 10/23 ~06:00 'weakens if' lines (MF SM ≤$2,757M; mods <$556M); SBCF 10/27. FL aggregate stays UNKNOWN until AMTB/SBCF + 10-Q cells.
+2. H.4.1 10/22 16:30 primary credit vs descriptive lines (>12.9B / >15.7B, catchup §1e); H.8 Fri 10/23 small-bank deposits/borrowings. Not a registered threshold; registration needs base-rate pass + Will.
+3. EGBN call 10/22 transcript (not heard): Prince George's reserve, 4Q MF maturities, 009/014 destination. VLY 10-Q (~11/10): mods/re-defaults, MF buckets. SSB 10-Q: classified accrual-share cell + REG-27 confirm.
+4. WAL settled log complete through 10/21 (36 rows, run 0). REG-T-06 leg 3 grades 11/13 CFR (RULED B). JWT renewal before 11/5 Will-owned; 11/07 run.
+5. Nano P&A/DEWEY checkpoint 10/27. CCB/CASH/GDOT Q3 dates still unchecked.
 
 **CARRIED LESSONS — behaviour, not record.** *Newest first. Aging rule (9/02): full entry → one-line rule AND the full text goes to `archive/` verbatim + crc in the same pass. ⛔ Never age a lesson by deletion (the 12-21 compressions archived nothing; git history only). Preamble → BLOCK M7, crc32 `8028ecb4`.*
 47. **[10/10 eve] In a SendMessage to PROME I typed a commit reference ("ab9b-REGINALD") that no command had printed; I sent the real hash (`8d31de2aa`) one message later.** The same session I keyed two FHLBank CIKs from memory (1325878 = Topeka, 1316220 = CAPE Holding); the filer-name check caught both before use.
