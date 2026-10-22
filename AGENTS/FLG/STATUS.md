@@ -1,12 +1,24 @@
 # FLG STATUS
 
-**Last Updated:** 2026-10-22 11:12 ET Thursday (commit time; re-touched 11:2x for the closeout fixes below) — **Will-directed catch-up (day before the print): no new FLG filing; 1 WALTER signal logged; Valley's Q3 peer print read at the primary; consensus and sell-side context recorded; pre-print frame addendum (context only).** Prior: 2026-10-21 wave 2 (inbox drained, pre-print frame); 2026-10-01 T-08 fire grade; 2026-08-28 first live session.
+**Last Updated:** 2026-10-22 11:23 ET Thursday — **2nd 10/22 session: three uncited 2026 governance 8-Ks logged (KB-FLG-079), governance class QUIET; no new filing.** Earlier 10/22 (11:12 ET): **Will-directed catch-up (day before the print): no new FLG filing; 1 WALTER signal logged; Valley's Q3 peer print read at the primary; consensus and sell-side context recorded; pre-print frame addendum (context only).** Prior: 2026-10-21 wave 2 (inbox drained, pre-print frame); 2026-10-01 T-08 fire grade; 2026-08-28 first live session.
 
 ✅ **FIRST-LIVE-SESSION BANNER STRUCK.** The build banner said every figure here was MIRROR-grade — extracted from REGINALD, never pulled by FLG. **That is no longer true.** FLG pulled its own EDGAR primary this session (10-Q Q2-2026, Flagstar Bank N.A., acc `0000910073-26-000068`, filed 2026-08-06) and re-verified the load-bearing figures first-hand. `CLAUDE.md § FIRST LIVE SESSION` is **SPENT 2026-08-28**. ⚠️ **One residual, named not hidden:** the MDRM-level MI3 cells were **not** re-pulled at FFIEC CDR and stay MIRROR-grade — `MI3_FLG.tsv` marks this per row.
 
 **Class:** Market domain — print-driven single-name specialist · **Level:** L1 · **Thesis:** `THESIS.md` **v1.0 — THESIS OF RECORD** (promoted from v0.1 skeleton this session)
 
 ---
+
+## 🟡 SESSION 2026-10-22 (2nd, from 11:20 ET) — governance 8-Ks found uncited (Will-directed, interactive)
+
+**Boot clean** (boot.py rc 0, corrections rc 0, inbox empty, HEAD = origin). EDGAR 10/22 11:2x ET: still nothing since the 10/16 Form 4s. News search: only an earnings preview (StockStory 10/22, consensus revenue +9.4% YoY) — already covered by KB-077.
+
+| What | Fact | So what | KB |
+|---|---|---|---|
+| **Three 2026 board/officer 8-Ks this desk never logged** | 3/25 Liberty's Eli Miller joins the board (Risk Assessment Committee) under the 2024 Mnuchin-raise agreement · **5/18 Otting contracted as CEO to 3/6/2028; Raffetto named Chief Banking Officer, running all commercial lending including CRE**; Smith (CFO) adds mortgage banking · 6/9 annual meeting: Otting 99.1%, Mnuchin 96.0%, say-on-pay 81.2%, +12M plan shares (2.88% of shares) | The governance shock class (NO OWNER in the exclusions register) is **quiet, not unknown**: management continuity through March 2028, no material dissent. Nothing moves the CRE mechanism. Raffetto is the executive who owns the workout book; he is on tomorrow's call | 079 |
+| **Coverage gap behind it** | Of 8 FLG 8-Ks in 2026, only the 7/24 one is cited anywhere on this desk | A full 8-K enumeration was never run; the Q1 earnings 8-K (4/24) is also uncited. Owed item ⑤ below | 079 |
+| **Price** | $11.27 [10/22 11:22 ET, fetch.py] +1.81% | Information only | — |
+
+No threshold, band, prediction, kill or score moved; the frozen pre-print frame is untouched. Forum post `FORUM/banks/` + PROME packet sent.
 
 ## 🟡 SESSION 2026-10-22 — CATCH-UP the day before the print (Will-directed, interactive)
 
@@ -25,33 +37,6 @@
 **Pre-print frame: 🧊 FROZEN 2026-10-22 11:11 ET** (sha256 `cb686b26218499fba813470b1aad8fcb99eec3754418a8911008f7372b413b2f`), with a dated context addendum; items A–F and the 11 rules unchanged. Print date re-confirmed at the issuer PR (10/9): **Fri 10/23 ~06:00 ET, call 08:00 ET**. **No threshold, band, prediction letter, kill or score moved.** THESIS stays v1.0.2.
 
 **Closeout fixes (Will asked 11:17 ET whether closeout was proper):** ⚠️ hand-typed clocks corrected — this header said 11:3x and KB-FLG-076 said ~11:20 ET; actual commits were 11:09 and 11:12 ET. The **frozen frame's addendum line says "~11:30 ET"; the true time was ~11:08 ET** — not edited (it would break the recorded sha256), corrected here instead. Late signal SIG-W-20261022-011 (11:13 ET) filed: its figures match KB-076/078; two docket discrepancies logged in `board_log.tsv` (venue, an 'interim relief denied' claim not seen at the docket). Ledger nudge + full claim_check (DOCKET, GATES, WILL_QUEUE, STATUS) run: clean.
-
-## 🟡 SESSION 2026-10-21 — CATCH-UP WAVE 2: inbox drained; Q3 PRE-PRINT FRAME written before Friday's print (PROME spawn, DOCKET L522)
-
-**No new filing.** EDGAR CIK 0000910073 (10/21): no 8-K since 7/24; only two Form 4s on 10/16 (PAO 2,701 sh, CRO 6,643 sh, both code F = tax withholding, not sales). Every credit figure is still the Q2-2026 10-Q.
-
-| What | Fact | So what | KB |
-|---|---|---|---|
-| **Q3 print date** | **HARD: Fri 10/23, release ~06:00 ET, call 08:00 ET** (issuer PR 10/9; PROME 10/16; FLG re-verified 10/21) | T-03 → HARD; the 10/23 wake stands | 072 |
-| **Pre-print frame** | `reports/2026-10-21_Q3-2026_PREPRINT_FRAME.md` — items A–F with figures and direction written BEFORE the print; 11 "not from silence" rules | Reading rules, not gates; FLG-01/02/03 grade only on their own instruments (10-K/10-Q) | 072 |
-| **Docket read** | NY County 453580/2026: **no TRO/PI/stay** as of 9/25 (petitioners "forbear, for the time being"); none through 10/1 doc 253. 9/16 = interim order (limited discovery), rest RESERVED; full City production ~10/24 | **T-08 leg 2 → VERIFIED** (was INFERRED-high). Three case-note corrections (8/21 = OSC return date, not a transfer). Two open risks carried on T-12: emergency relief after production · merits annulment reaching renewals to 9/30/27 | 073 |
-| **Price** | RED ($11.39) broke 10/7 ($11.30, REGINALD). **10/21 close $11.07 = −22.3% vs FROZEN $14.24**; 9/30→10/21 FLG −5.1% vs KRE +1.7%, VLY +3.2% | ~−7pp FLG-specific since the freeze took effect; **cause UNKNOWN**; not a thesis input | 074 |
-| **Kill-rail hygiene** | DAEDALUS F#4: K-1 "one quarter from firing" (retired instrument) corrected — **0 of 2 quarters**; flip re-pointed to the Q3 10-Q; stale "cure-rate with REGINALD" replaced; T-04/T-05 re-keyed to the 10-Q | No level, operator, count or instrument of any kill changed | — |
-
-**Inbox:** 5 top-level (PROME 10/1 docket → INTEGRATED T-08/T-12/KB-073 · WALTER 10/1 R3 → adopt/decline packet to PROME, 17 phrases · REGINALD 10/7 RED → INTEGRATED T-07/KB-074 · DAEDALUS 10/8 sweeps → 4 fixes + T-04/T-05 · PROME 10/16 T-03 → INTEGRATED) + 2 WALTER signals (`board_log.tsv` created: 1 acted — charter receipt line fixed to WQ-399 forms; 1 info-only). **No threshold, band, prediction letter or score moved.** THESIS stays v1.0.2.
-
-## ✅ SESSION 2026-10-01 — T-08 FIRED: the rent freeze is in force, graded on the letter (PROME Tier-1 spawn)
-
-| Leg | Grade | Basis |
-|---|---|---|
-| 1 · 10/1 arrived | ✅ VERIFIED | wall clock |
-| 2 · Order #58 in force, no stay/annulment | ✅ **INFERRED (high)** | **PRIMARY:** RGB Order #58 page, fetched 10/1 ~11:07 ET — 0% one- and two-year, leases commencing 10/1/26–9/30/27, no stay notice. **SECONDARY ×4** dated 9/30 16:22 → 10/1 10:11 ET (Hell Gate, Brick Underground, Patch, Crain's headline): no stay, appeal or emergency application reported. ⚠️ **Court docket NOT read** — NYSCEF, AD1, WebCivil all 403 (WQ-279) |
-
-**State:** `FIRED 10/1 @ Order #58 0%/0% in force` · Response `EXECUTED` (KB-FLG-071; REGINALD + HOMER packeted). **Book leg:** exposure at fire = the 6/30 primary — **$8.9B** on ≥50%-rent-regulated collateral, inside **$13.4B** NYC multi-family, inside **$26.9B** multi-family; the 2027 vintage (**$8.5B**) reprices into it. **Nothing moved:** the pre-registered expectation stands — Q3/Q4 brings provision commentary, not new nonaccruals; the DSCR bite is Q2-2028 (T-11). One addition from the order text: a two-year lease signed inside the window stays at 0% until as late as **9/29/2029**. No threshold, prediction, score or THESIS change.
-
-**Price (information only — REGINALD grades the ladder):** closes 9/28 **$12.04** · 9/29 **$11.84** · 9/30 **$11.67**, three at or below ORANGE $12.10, one bar with REGINALD. **10/1 11:06 ET $11.39 (−2.44%) = AT the RED line, unsettled.** 9/25→9/30 FLG −5.7% vs VLY −3.5%, KRE −3.0%; no filing since 8/14 (EDGAR, 10/1); cause UNKNOWN.
-
-**Also:** inbox drained (1 item, REGINALD 9/29 → INTEGRATED to T-07); correction `COR-20260927-07` receipted APPLIED. T-07/T-08/T-12 re-dated to **10/23** (the DOCKET L522 wake): "weekly" checks on an idle desk were hand clocks, not wakes. Intake term (DOCKET L467): owner view = drop to routine 10/07, keep through the merits ruling.
 
 ## 🔴 START HERE — the thesis moved, and the headline number is still not the actionable one
 
@@ -130,7 +115,7 @@ The 87.5%-payoff / 1.6%-cure split was a single observation at v1.0. It is the e
 
 ⚠️ **FLG-01's confidence is amended on the record, pre-print, threshold untouched.** I registered it on a Q2-seasonality rationale and then base-rated that rationale hours later — the wrong order, and my charter says so. The mechanism is real and issuer-disclosed but does not produce a dependable Q2 spike (KB-FLG-045). H2<H1 held 2 of 2 years, but at ratios 1.00× and 0.50×, and <$600M from an H1 of $780M needs <0.77× — so 1 of 2. **The $600M threshold is NOT moved and both confidences grade.** Voiding a live prediction because I improved my own prior is how a bad call gets laundered.
 
-**Price:** see § SESSION 2026-10-01 at the top (closes 9/28–9/30 + the 10/1 intraday read). `VX-REG-6.03` is dual-action; REGINALD owns the row and its detector (`vx_ladder_check.py`); FLG's T-07 is the backup.
+**Price:** latest read in the top session block ($11.27 [10/22 11:22 ET]); the 9/28–10/1 closes are in `archive/STATUS_ARCHIVE_2026-10-22.md`. `VX-REG-6.03` is dual-action; REGINALD owns the row and its detector (`vx_ladder_check.py`); FLG's T-07 is the backup.
 
 ---
 
@@ -147,7 +132,7 @@ The 87.5%-payoff / 1.6%-cure split was a single observation at v1.0. It is the e
 | 2027-08-06 | T-09 — Q2-2027 DSCR review *(early watch only)* | Near-zero freeze content expected; a quiet read is NOT disconfirmation |
 | **2028-08-04** | **T-11 — Q2-2028 DSCR review** | **Where the freeze's fuse actually burns** (first financials carrying most of a freeze year, KB-FLG-052) |
 
-**Owed by me:** ① FFIEC CDR pull to close the MI3 MDRM residual · ② a numeric comparator for K-4's "materially above" leg (DAEDALUS 8/23 §3, carried) · ③ ~~primary for the freeze litigation~~ ✅ docket read by Will 10/1 (PROME artifact; KB-073) — NYSCEF still 403 from this box, so later entries need Will's browser · ④ **split the charge-off gap** (KB-FLG-061) if the Q3 10-Q or a call answer discloses loss-at-exit. *(Stage 2 maturity schedule — DONE 8/28, `MATURITY_WALL.tsv`; line removed 9/24.)*
+**Owed by me:** ① FFIEC CDR pull to close the MI3 MDRM residual · ② a numeric comparator for K-4's "materially above" leg (DAEDALUS 8/23 §3, carried) · ③ ~~primary for the freeze litigation~~ ✅ docket read by Will 10/1 (PROME artifact; KB-073) — NYSCEF still 403 from this box, so later entries need Will's browser · ④ **split the charge-off gap** (KB-FLG-061) if the Q3 10-Q or a call answer discloses loss-at-exit · ⑤ **enumerate every FLG 8-K since the 10/2025 merger** and log or dismiss each (KB-FLG-079: 7 of 8 in 2026 uncited) — after the print, not before. *(Stage 2 maturity schedule — DONE 8/28, `MATURITY_WALL.tsv`; line removed 9/24.)*
 
 **Owed to me:** ① ~~WALTER harness verdict on watch phrases 9–11~~ ✅ 10/1 (all PASS); FLG's adopt/decline sent to PROME 10/21 — **landing in `newsweep_config.py` owed by PROME** (17 phrases) · ② ~~PROME/intake: add FLG to `fetch_edgar_8k.py`~~ ✅ LANDED 9/27 (Research-Intake `3129030`, verified at artifact: TARGETS row CIK 910073, regional_bank, routed FLG+REGINALD; live from the next scheduled collect). *Prior:* ✅ REGINALD closed all three 9/24 (`cdc52d872`, verified at artifact): VX-REG-6.03 **YELLOW dated 9/16**; matrix score unchanged at 6; detector `AGENTS/REGINALD/scripts/vx_ladder_check.py` wired into its boot. **At or below $12.10 (ORANGE), REGINALD packets PROME + FLG the same session.** One exit-code defect flagged back (an import failure exits 1, which reads as a breach). *(Cure-share cohort base rate — CLOSED 8/28, NOT PARSEABLE, `180ca0157`.)*
 
@@ -161,8 +146,10 @@ The 87.5%-payoff / 1.6%-cure split was a single observation at v1.0. It is the e
 
 ## SESSIONS 2026-09-27 (catch-up + evening research) → rotated verbatim to `archive/STATUS_ARCHIVE_2026-10-21.md` (crc32 `a4522f18`)
 
+## SESSIONS 2026-10-21 (catch-up wave 2, pre-print frame) + 2026-10-01 (T-08 FIRED) → rotated verbatim to `archive/STATUS_ARCHIVE_2026-10-22.md` (crc32 `a1b17932`)
+
 ---
 
 ## BOTTOM LINE
 
-**Nothing new from the bank itself: no filing since July except two routine tax-withholding forms, so every credit figure is still June's.** Today's context, written down before the print: junk-bond spreads have widened about 0.67 points in a month, but FLG's problem loans exit through NYC apartment refinancing and note sales, not the junk-bond market, and the link between the two is unmeasured. Valley National's clean quarter this morning says little about FLG, because Valley holds about one-seventeenth as much rent-regulated lending; Zions, Eagle Bancorp and Huntington show non-paying loans edging up while reserves fall, the same shape as FLG but from far thicker reserves, so nothing moves FLG's reserve read before the print. The reading plan is frozen. The stock's extra drop since October 1 coincides with three analyst target cuts and rising short interest, which is association, not a proven cause. **Next wake: Fri 10/23, results ~06:00 ET, call 08:00 ET, read against the pre-print frame; then the 10-Q ~11/6–11/9, which actually grades the predictions.**
+**Nothing new from the bank itself: no filing since July except two routine tax-withholding forms, so every credit figure is still June's.** A second pass found three spring filings on board and management changes this desk had never logged: the CEO is contracted through March 2028, the executive who runs commercial real estate lending (Raffetto) was promoted to co-president in May, and shareholders backed management at the June meeting — so the "management or activist shock" blind spot is quiet, not unknown. Today's context, written down before the print: junk-bond spreads have widened about 0.67 points in a month, but FLG's problem loans exit through NYC apartment refinancing and note sales, not the junk-bond market, and the link between the two is unmeasured. Valley National's clean quarter this morning says little about FLG, because Valley holds about one-seventeenth as much rent-regulated lending; Zions, Eagle Bancorp and Huntington show non-paying loans edging up while reserves fall, the same shape as FLG but from far thicker reserves, so nothing moves FLG's reserve read before the print. The reading plan is frozen. The stock's extra drop since October 1 coincides with three analyst target cuts and rising short interest, which is association, not a proven cause. **Next wake: Fri 10/23, results ~06:00 ET, call 08:00 ET, read against the pre-print frame; then the 10-Q ~11/6–11/9, which actually grades the predictions.**
