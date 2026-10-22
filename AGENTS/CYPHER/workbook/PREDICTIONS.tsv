@@ -1,0 +1,4 @@
+# LIVE — Last real data refresh: 2026-10-22 (empty at build by design) | Staleness sweep: 2026-10-22 | Next: first registration at a live session
+# Status enum (STATE_VOCABULARY Class 3): OPEN | HIT | MISS | VOID | STUCK — nuance in parentheticals, narrative in Outcome/Notes. IDs CYP-NN.
+# Resolve_By = hard YYYY-MM-DD; boot.py flags OPEN rows past it. PAT-115: never a bare expected-event date. Re-marks per WQ-112 (FORGE/PREDICTION_DISCIPLINE.md): dated entry in Confidence, e.g. 35% [2026-11-01] (was 50% [2026-10-23]).
+ID	Date	Prediction	Confidence	Timeframe	Resolve_By	Status	Date_Resolved	Outcome	If_Falsified_Action	Notes
