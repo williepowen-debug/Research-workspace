@@ -50,20 +50,17 @@
 
 ## Session Notes
 
-### CHANGES SINCE — 2026-10-21 after-close boot (Claude Code, Opus 5.5)
+### CHANGES SINCE — 2026-10-22 pre-open wake, DOCKET L769 (Claude Code, Opus 5.5, PROME-spawned)
 
-- **Gamma REVERSED to POSITIVE both horizons:** flip band 7,744 (14d) – 7,749 (35d), SPX 7,757.17, cushion only +8/+13 pts. Walls published: put 7,750 clean both; call 7,800 (14d clean, 35d near-tie → band 7,800–8,000). 10/19 NEG read is struck in STATUS. Signal packet → WALTER inbox.
-- **HEN-46 LUV leg graded at SEC primary:** fuel $3.92 ($3.87 unhedged), 548M gal, adj EPS $0.66 inside guide. Landed in the letter's UNNAMED region (3.85–4.10). DENY now unreachable. Pre-stated AAL disposition in PREDICTIONS: AAL < −$0.70 → CONFIRM; otherwise NO-VERDICT-AS-WRITTEN, not DENY.
-- **F1 December crack 10/21 tier-3 $95.05 = near-line UNKNOWN** (±$0.15 band). Held-VLO: <$95 notice only, <$90.16 SELL rec. BRENT publication governs.
-- **FRED down (maintenance page, HTTP 200) all evening.** HY 329 [FRED 10/19] via REGINALD. `credit_monitor.py` fixed: no more "credit calm" on a failed instrument (CANNOT-EVALUATE); NaN evening rows dropped. Surfaced HYG/LQD −0.98% to 10/20, faded to −0.35% on 10/21 close.
-- **ECON_CALENDAR rebuilt** for 10/22–11/25, verified at BLS/BEA/Census/Fed; ISM dates unverified (503). Reply packet to PROME with wake-row requests.
-- Inbox drained: 30 WALTER + 3 general logged/filed. COR-20261021-01/-02 receipted NO-OP.
+- **HEN-46 RESOLVED-NO-VERDICT-AS-WRITTEN, claim not supported.** AAL 8-K (0000006201-26-000064): adj EPS −$0.28 inside −$0.70/−$0.10 guide; fuel $3.85 vs $3.75 (~$120M); revenue above guide; FY guide CUT (F4 not fired). Outcomes 0/0/0 vs 0.35/0.30/0.20. Squeeze lands in AAL Q4 guide (~$4.70/gal) — outside the letter; a Q4 claim would be a fresh registration. LUV call not waited for (cannot move the verdict).
+- **Gamma flipped NEGATIVE at the open:** 08:32 pre-open POSITIVE both (10/21-close spot), ES −0.94% implied SPX ~7,684. 09:53 cash: SPX 7,680.71, NEGATIVE both (−$29.0B/−$39.3B), flip band 7,745–7,750, cushion −64/−69. Put wall 7,750 TESTED (near-tie bands 7,650–7,750 / 7,700–7,750), not broken; break = cash close < ~7,650. Two packets → WALTER (a9048ade5 pre-open, 2bc07ba9c put-wall signal).
+- **FRED back:** HY 333 [10/20] (five obs >320), BB 202, CCC 1,327, CCC−BB 1,125 (+31bp since 10/16).
+- FINRA margin debt verified at FINRA's xlsx (Sep $1.480T, 2nd highest). Inbox: 6 WALTER signals filed. COR-20261022-01 NO-OP. Info packet → TERRY.
+- EDGAR needs a plain "Name email" User-Agent; a browser-style UA gets 403. Do not put Will's identity in it.
 
 ### NEXT SESSION
 
-1. **HEN-46 resolves at AAL Q3 (Thu 10/22 pre-open, call 08:30 ET).** Read the AAL 8-K primary, apply the pre-stated disposition exactly as written, record fuel/gal vs $3.75 and any FY guide citing fares (F4). LUV call 10:00 ET: did the July $3.70–3.75 assumption include tax + hedge premium? Then set Status to RESOLVED with the outcome.
-2. **F1:** read the finalized 10/21 dated vendor rows for HOZ26/CLZ26 (check volumes differ from 10/20 = not copy-forward) or BRENT's published figure; the near-line UNKNOWN must be closed, not carried.
-3. Pull FRED credit (HY/BB/CCC since 10/19) once the site is back; re-derive the HY >320 count.
-4. Refresh gamma before any market use; the POS cushion is ~0.1–0.2%.
-5. **Refresh the Operating Dashboard** (`dashboard/build_dashboard.py` + `dashboard_tpl.html`, same URL) after HEN-46 resolves. Before publishing any gamma wall, run `gamma_flip.py --both` (new tonight).
-6. Carry-ins were dispositioned 10/21 (STATUS § CATALYST STACK). Only open: ISM services date (site 503) and the FRED credit re-pull.
+1. **Gamma:** re-run `gamma_flip.py --both` at/after the 10/22 close. Did SPX close under ~7,650 (put-wall break at both horizons) or recover the 7,745–7,750 flip band? Send WALTER an update either way.
+2. **Refresh the Operating Dashboard** (`dashboard/build_dashboard.py` + template, same URL): HEN-46 resolved, FRED cells fresh. Not done 10/22 pre-open (values would be stale within the hour).
+3. ISM services date still unverified (site 503 on 10/21); recheck before 11/2.
+4. Catalysts: FOMC 10/27–28, GDP + PCE 10/29, ECI + BOJ 10/30, Russian №1252 expiry 10/31.

@@ -108,3 +108,7 @@ gamma_flip_14d	7744	2026-10-21	cboe 3420 contracts
 net_gex_14d_Bn	9.2	2026-10-21	$B per 1%
 gamma_flip_35d	7749	2026-10-21	cboe 7289 contracts
 net_gex_35d_Bn	6.3	2026-10-21	$B per 1%
+gamma_flip_14d	7745	2026-10-22	cboe 3421 contracts
+net_gex_14d_Bn	-29.0	2026-10-22	$B per 1%
+gamma_flip_35d	7750	2026-10-22	cboe 7232 contracts
+net_gex_35d_Bn	-39.3	2026-10-22	$B per 1%

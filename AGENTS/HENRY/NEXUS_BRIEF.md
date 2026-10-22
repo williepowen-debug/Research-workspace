@@ -1,17 +1,15 @@
 # HENRY — NEXUS Brief
 
-**Owner fold:** 2026-10-21 21:11 ET (1bfc034e1), re-folded 22:02 ET after the sweep-fix STATUS writes (Claude Code, Opus 5.5). Tape 20:58 ET, gamma 20:59 / 21:07 ET, all 10/21 after-close retrievals. Prior brief preserved at `research/2026-10-21_boot/NEXUS_BRIEF-before.md`.
+**Owner fold:** 2026-10-22 09:5x ET (Claude Code, Opus 5.5, PROME-spawned for DOCKET L769). This is the last write-back after the STATUS writes. Gamma 08:32 ET (pre-open) and 09:53 ET (post-open); tape 09:52 ET. Prior brief preserved at `research/2026-10-22_L769/NEXUS_BRIEF-before.md`.
 
-**View:** equity fragility eased 10/20–10/21 (SPX +0.86% to 7,757.17, back above both gamma flips, VIX 16.68), but credit has not confirmed it: HY 329bp [FRED 10/19] is still above 320 and the positive-gamma cushion is ~0.1–0.2%. No systemic-cascade, rally-ending or crash-timing conclusion.
+**View:** the 10/20–10/21 equity recovery failed at the open. After the Asia selloff (Nikkei −2.65%, Hang Seng −3.03%), SPX traded at 7,680.71 (−0.99%, 09:52 ET), below the gamma flip, so dealers are back in amplify mode. Credit never confirmed the recovery. No systemic-cascade or crash-timing conclusion.
 
-- **Gamma — CURRENT (10/21 after close):** POSITIVE both horizons. 14d flip ~7,744, +$9.2B per 1%; 35d flip ~7,749, +$6.3B. Put wall 7,750 (clean both), call wall 7,800 (35d near-tie, band 7,800–8,000). **Supersedes the 10/19 NEGATIVE-both read.** A ~0.2% down day returns SPX below the flip. Free-tier proxy; dollar magnitudes assumption-dependent; refresh before market use.
-- **Vol inputs:** VIX 16.68 / 9D 15.49 / 3M 18.72 (contango), VVIX 94.55, SKEW 150.36 (down from 161.86). VIOLET owns the vol broadcast.
-- **Credit:** HY 329bp [FRED 10/19 via REGINALD; FRED in maintenance 10/21 evening], four observations above 320. BB 203 / CCC 1,297 / gap 1,094 are 10/16 cells. HYG/LQD 5-day −0.98% to 10/20, −0.35% on 10/21 close — transient, not firing.
-- **Breadth:** 10/20 broad (RSP +1.15%, IWM +1.66%); 10/21 tech-led (QQQ +1.06%, XLK +1.66%, XLP −0.72%). The defensive-over-growth rotation through 10/16 reversed on 10/21. Asia selloff (KOSPI −20.01% 10/6→10/20) shows no US transmission in the two sessions since.
-- **HEN-46:** Southwest fuel $3.92/gal ($3.87 unhedged), adj EPS $0.66 inside guide — lands between DENY ($3.85) and CONFIRM ($4.10), a region the letter never named. Resolves at American 10/22 under a pre-stated disposition (EPS < −$0.70 → CONFIRM; else NO-VERDICT-AS-WRITTEN). F1 December crack: BRENT published the shared series tonight — 10/15–10/20 $98.92–$100.18 NOT FIRED, 10/21 **$95.0479 = near-line UNKNOWN, BRENT concurs**; held-VLO <$95 = notice only, <$90.16 = SELL rec (TERRY).
-- **Repeat losers (10/19, delivered):** MOS strongest residual, ADM qualified, HII/CPRT mixed; no common financing cause (LIQUID). Detail: `research/2026-10-19_event-audit/SHORTLIST.md`.
-- **Rates:** official Treasury par 10/21 — 2Y 4.81% · 10Y 5.13% · 30Y 5.42% (home.treasury.gov, direct access working again).
-- **Gamma walls:** `gamma_flip.py --both` now runs the cross-horizon check; tonight both walls pass it.
-- **Macro:** no US release 10/20–10/21. Next: FOMC 10/28, GDP + PCE 10/29, ECI 10/30, NFP 11/6, CPI 11/10 (`domain/ECON_CALENDAR.md`, agency-verified 10/21).
+- **Gamma — CURRENT (09:53 ET 10/22):** NEGATIVE at both horizons. 14d flip ~7,745 (−$29.0B per 1%); 35d flip ~7,750 (−$39.3B). The cushion is −64 to −69 pts. Put wall 7,750 published as near-tie bands (7,650–7,750 at 14d, 7,700–7,750 at 35d): **tested, not broken**. A break at both horizons would be a cash close under ~7,650. Call wall WITHHELD (7,800 vs 8,000). **This supersedes the 10/21 POSITIVE read.** Signal sent via WALTER (2bc07ba9c). Free-tier proxy: the sign and the flip are the robust reads.
+- **Vol inputs:** VIX 17.80 (+6.71%, 09:52 ET); 10/21 close 16.68. VIOLET owns the vol broadcast.
+- **Credit (FRED back, obs 10/20):** HY 333bp, five readings above 320 and 17bp under REGINALD's REG-T-04 (>350). BB 202 / CCC 1,327 / CCC−BB 1,125, +31bp since 10/16: the distressed tail is widening while BB is flat.
+- **HEN-46 RESOLVED 10/22: NO-VERDICT-AS-WRITTEN, claim not supported.** American adjusted EPS −$0.28, inside guide; fuel $3.85 vs $3.75; revenue above guide; FY guide cut (F4 not fired). Southwest (10/21) landed in the letter's unnamed region. The squeeze shows up in American's Q4 guide (~$4.70/gal), outside the letter. TERRY's held-Valero card is a different object; F1 stays BRENT's.
+- **Positioning:** FINRA margin debt for September is $1.480T (+$26.2B), second highest after June 2026's $1.502T (verified at FINRA's table).
+- **Rates:** official Treasury par yields 10/21: 2Y 4.81% · 10Y 5.13% · 30Y 5.42%.
+- **Macro:** next are FOMC 10/28, GDP + PCE 10/29, ECI 10/30, NFP 11/6, CPI 11/10 (`domain/ECON_CALENDAR.md`).
 
 No new prediction, threshold, trade, sizing or monitor. No Will decision needed.

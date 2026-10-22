@@ -1,19 +1,19 @@
 # HENRY STATUS
 
-**Last owner update:** 2026-10-21 21:10 ET (committed 2e59e4d8a at 21:10:31), after-close boot and catch-up (Claude Code, Opus 5.5, model ID `claude-opus-5-5`; native session ID not exposed). Tape pulled 20:58 ET; gamma 14d 21:07 ET, 35d 20:59 ET. Prior owner record (10/19) preserved verbatim at `research/2026-10-21_boot/STATUS-before.md` (sha256 prefix `c00c8fd683a985e9`); the 10/19 repeat-loser, event-audit and September CPI/PPI detail lives there and in its research folders.
+**Last owner update:** 2026-10-22 09:5x ET, PROME-spawned wake for DOCKET L769 (Claude Code, Opus 5.5, model ID `claude-opus-5-5`; native session ID not exposed). Gamma `--both` 08:32 ET (pre-open) and 09:53 ET (post-open); tape 08:32, 08:36 and 09:52 ET. Prior owner record (10/21 21:10 ET) preserved verbatim at `research/2026-10-22_L769/STATUS-before.md`; it in turn points to the 10/19 record.
 
 ## VIEW
 
-**Fragility eased over 10/20–10/21, but credit has not confirmed it.** SPX rose +0.86% over two sessions to 7,757.17 and is back **above** both estimated dealer-gamma flips (positive gamma, dealers damp moves), VIX closed 16.68 with the term structure in contango, and SKEW fell from 161.86 to 150.36. Against that: broad high-yield spreads are still above 320bp (329bp, FRED 10/19), the CCC tail is wide, and the positive-gamma cushion is only 8–13 SPX points (about 0.1–0.2%). By H4 (credit leads equity), the equity recovery is unconfirmed until spreads turn. No probability, threshold or trade changed.
+**The 10/20–10/21 recovery failed at the open: dealer gamma is NEGATIVE again.** Asia sold off overnight (Nikkei −2.65%, Hang Seng −3.03%). At 09:53 ET SPX was 7,680.71 (−0.99%), **64–69 points below** the estimated gamma flip band (7,745–7,750). That puts dealers in the regime where they amplify moves rather than damp them. The 7,750 put wall is **tested, not broken**: SPX is inside the 14d band (7,650–7,750), and a cash close under ~7,650 would be a break at both horizons. VIX 17.80 (+6.7%). Credit has not confirmed any recovery (HY 333bp, FRED 10/20, five readings above 320; CCC−BB +31bp since 10/16). **HEN-46 resolved: NO-VERDICT-AS-WRITTEN, claim not supported.** No probability, threshold or trade changed. The put-wall signal was sent via WALTER (2bc07ba9c).
 
-## GEX / GAMMA REGIME — AFTER-CLOSE RETRIEVAL OCTOBER 21
+## GEX / GAMMA REGIME — POST-OPEN OCTOBER 22 (09:53 ET)
 
-| Horizon / Cboe chain | Spot | Flip | Cushion | Net GEX per 1% | Put wall | Call wall |
-|---|---:|---:|---:|---:|---:|---:|
-| 14d / 3,420 contracts (21:07 ET) | 7,757.17 | ~7,744 | +13 pts | +$9.2B | 7,750 (clean, +26% over #2) | 7,800 (clean, +36% over #2) |
-| 35d / 7,289 contracts (20:59 ET) | 7,757.17 | ~7,749 | +8 pts | +$6.3B | 7,750 (clean, +13% over #2) | 7,800 NEAR-TIE (3% over #2) → band 7,800–8,000 |
+| Horizon / Cboe chain | Spot input | Flip | Net GEX per 1% | Put wall | Call wall |
+|---|---:|---:|---:|---:|---:|
+| 14d / 3,421 contracts | 7,696.94 (delayed Cboe quote; fetch.py 7,680.71 at 09:52:58) | ~7,745 | −$29.0B | 7,750 near-tie → band 7,650–7,750 | 7,800 clean |
+| 35d / 7,232 contracts | same | ~7,750 | −$39.3B | 7,750 near-tie → band 7,700–7,750 | 8,000 clean |
 
-**POSITIVE at both horizons; flip band 7,744–7,749. This REVERSES the 10/19 read** (NEGATIVE both, flips 7,756/7,762, −$41.2B/−$53.1B), which is superseded for current use. **Walls published this session:** both horizons agree on the #1 strikes and the put wall is clean at both; the 35d call wall is a near-tie, so it is quoted as a band. ⚠️ **The put wall (7,750) sits between spot and the flip band, so a ~0.2% down session puts SPX back below the flip.** Free-tier estimates on assumed dealer positioning; dollar magnitudes are assumption-dependent; OI vintage not separately certified; no proprietary-book validation. Sources: `research/2026-10-21_boot/{boot.txt,gamma14.txt,gamma35.txt}`, `workbook/PUBLISHED.tsv`.
+**Cross-horizon check:** NEGATIVE both; put wall 7,750 PUBLISHED as bands; call wall WITHHELD (7,800 vs 8,000). **Pre-open read (08:32 ET, superseded):** POSITIVE both at the 10/21 close, flip 7,742/7,748, +$10.2B/+$7.2B, put wall 7,750 clean. ES −0.94% implied an SPX open near 7,684, which the cash tape matched to within ~4 points. Free-tier estimates on assumed dealer positioning; dollar magnitudes are assumption-dependent; the sign and the flip are the robust reads. Sources: `research/2026-10-22_L769/DATA.md` §3–3b, `gamma_both_postopen.txt`, `workbook/PUBLISHED.tsv`.
 
 ## VOL REGIME / TAPE INPUTS — OCTOBER 21 CLOSE (vendor, pulled 20:58 ET)
 
@@ -23,17 +23,18 @@
 
 SPX 10/20 close 7,712.57 (+0.28%). Cash-vol term structure in contango (9d < 1m < 3m). Vendor observations, **not Cboe-published closing certification**. VIX > 23 vol-control line NOT FIRED. VIOLET owns the vol broadcast. **Official Treasury par yields 10/21** (home.treasury.gov daily curve, pulled 21:5x ET; `research/2026-10-21_boot/src/treasury-par-yields-2026.csv`): 2Y 4.81% · 10Y 5.13% · 30Y 5.42% (10/20: 4.79 / 5.12 / 5.42). The 5.15% in the tape table is the Cboe TNX index via vendor, a different basis; the par yields govern the thresholds.
 
-## CREDIT EARLY-WARNING MONITOR — FRED IN SITE MAINTENANCE TONIGHT
+## CREDIT EARLY-WARNING MONITOR — FRED BACK, OBS 10/20 (pulled 08:37 ET 10/22)
 
-**FRED returned a maintenance page (HTTP 200, no data) for every series at 20:59 ET**, so this session has **no fresh primary credit pull**. Latest available cells, each with its date and source:
+FRED is serving data again (it was in maintenance 10/21 evening). Fresh primary pull, `fetch.py fred --first-published`:
 
-| Series | Value | Date / source |
-|---|---:|---|
-| HY OAS | **329bp** | FRED obs 10/19, REGINALD re-pull 10/21 pre-open (REGINALD STATUS) |
-| HY OAS (secondary) | 332bp | 10/20, OCBC via PROME HEARTBEAT amendment #2 — secondary, not FRED |
-| BB / CCC / CCC−BB | 203 / 1,297 / 1,094bp | FRED obs 10/16 (my last own pull) |
+| Series | 10/16 | 10/19 | 10/20 |
+|---|---:|---:|---:|
+| HY OAS | 331bp | 329bp | **333bp** |
+| BB OAS | 203bp | 200bp | 202bp |
+| CCC OAS | 1,297bp | 1,310bp | **1,327bp** |
+| CCC−BB | 1,094bp | 1,110bp | **1,125bp** |
 
-HY path 325 [10/14] → 323 [10/15] → 331 [10/16] → 329 [10/19]: four consecutive observations above 320 (REGINALD counts the same). RED-FT-02/REG-T-03 condition remains met; owners hold their grades.
+HY path 325 [10/14] → 323 [10/15] → 331 [10/16] → 329 [10/19] → 333 [10/20]: five consecutive observations above 320, 17bp under REGINALD's REG-T-04 (>350, 3 closes; REGINALD owns). The CCC tail widened 30bp over 10/16–10/20 while BB was flat: bifurcation widening. RED-FT-02/REG-T-03 condition remains met; owners hold their grades.
 
 **HY fund-flow proxy (own `credit_monitor.py`, repaired tonight):** HYG/LQD −0.98% over the 5 sessions to the **10/20** close, through the −0.75% "income bid stepping back" line. **On the 10/21 regular close the same 5-day relative is −0.35%, NOT through the line** (HYG +0.18%, LQD 0.00% on the day). Read: a transient HY-vs-IG lag that the 10/21 session mostly repaired, not a firing flag tonight. ⚠️ **Defect fixed:** the monitor printed "credit calm" while FRED was down and the ETF closes were NaN; it now reports CANNOT-EVALUATE on any instrument failure (MAINTENANCE.md, 2026-10-21).
 
@@ -48,22 +49,17 @@ HY path 325 [10/14] → 323 [10/15] → 331 [10/16] → 329 [10/19]: four consec
 
 Vendor regular-session closes (10/21 last bar 15:59 ET), `research/2026-10-21_boot/closes.txt`. **The defensive-plus-energy over growth rotation WALTER routed (034, +7.84pp through 10/16) reversed on 10/21**; both of the source's interpretations (boom ending vs benign broadening) stay open. Wilson's conditional "add risk after reconciliation" view (WALTER 033) is held as an alternative timing read, not an owner forecast. Asia: KOSPI −3.73% on 10/20 (−20.01% from 10/6), Nikkei −1.30%; **no US transmission observed** in the two US sessions since. MSCI Indonesia (consultation, decision by 2027-06-30) and Turkey (limited freeze implemented) are conditional index-flow channels with no quantified forced sale. Korea's tools are conditional, not an enacted short ban.
 
-## HEN-46 — SOUTHWEST LEG GRADED, ROW RESOLVES AFTER AMERICAN 10/22
+## HEN-46 — RESOLVED 2026-10-22: NO-VERDICT-AS-WRITTEN, CLAIM NOT SUPPORTED
 
-**Southwest Q3, verified at the SEC primary** (8-K Ex 99.1, accepted 10/21 20:16Z, `research/2026-10-21_boot/src/luv-q3-ex99.htm`): fuel **$3.92/gal** including tax and hedge premium (**$3.87** unhedged) on **548M gallons**, vs the $3.70–3.75 July assumption; adjusted EPS **$0.66, inside** the $0.50–0.75 guide; unit revenue +21.6%, an all-time record.
+Graded under the disposition written 10/21 21:10 ET (2e59e4d8a) before American printed. **American Q3, at the SEC primary** (8-K 0000006201-26-000064, accepted 10/22 11:00Z, `research/2026-10-22_L769/src/aal-q3-ex99.htm`): adjusted EPS **−$0.28**, inside the −$0.70 to −$0.10 guide; fuel **$3.85/gal** incl. taxes on 1,204M gal vs the $3.75 assumption (≈ $120M pre-tax overrun, ~$0.19/share on ~650M implied shares, INFERRED); revenue $16.3B (+19.3%) above the high end of its guide.
 
-| Letter test | Threshold | Southwest | Result |
+| Letter test | Threshold | Observed | Result |
 |---|---|---|---|
-| CONFIRM (LUV leg) | fuel ≥ $4.10/gal | $3.92 ($3.87 unhedged) | NOT MET |
-| DENY (LUV leg) | fuel ≤ $3.85/gal | $3.92 ($3.87 unhedged) | NOT MET |
+| CONFIRM, AAL leg | adj EPS < −$0.70 | −$0.28 | NOT MET |
+| CONFIRM, LUV leg (10/21) | fuel ≥ $4.10/gal | $3.92 ($3.87 unhedged) | NOT MET |
+| DENY | AAL in guide AND LUV ≤ $3.85 | LUV $3.92 / $3.87 | NOT MET |
 
-⚠️ **Southwest landed in the region my letter never named ($3.85 < x < $4.10) on both fuel bases** — the failure LESSONS records (enumerate the outcome space). Substance: the overrun vs assumption is $0.17–0.22/gal × 548M gal ≈ **$93–121M pre-tax**, about $0.19–0.24 per share pre-tax on ~497M implied shares (INFERRED from $328M / $0.66). The registration had projected ~$0.40/gal ≈ $0.43/share. Southwest absorbed it with record unit revenue, i.e. **fare recapture, the mechanism the claim bet against.** F4 (FY guidance raised citing fare recapture) NOT established: Q4 guide $0.55–0.80, no FY EPS update located, 2026 capacity cut to ~1.2%.
-
-**Disposition for American, written BEFORE it prints:** DENY is now unreachable (its LUV leg failed). If AAL adjusted EPS < −$0.70 (low end of its −$0.10 to −$0.70 guide) → **CONFIRM** via the letter's AND/OR. If AAL ≥ −$0.70 → **NO-VERDICT-AS-WRITTEN** (unnamed region), recorded with the substantive read that the claim was not supported; not relabelled DENY. Confidences (0.35 AAL / 0.30 LUV) are scored as made.
-
-**What the calls must add:** AAL 08:30 ET — fuel per gallon vs its $3.75 assumption and any FY guide change citing fares (F4). LUV 10:00 ET — whether the July $3.70–3.75 assumption carried the same tax and hedge-premium basis as the $3.92 actual.
-
-**F1 (December matched HOZ26×42 − CLZ26, WQ-392):** 10/21 settlement-window tier-3 ESTIMATE **$95.05** (14:28–14:30 ET VWAP: HO 4.5757, CL 97.1306); minute closes 14:20–14:35 ranged $94.82–$95.09. **Inside ±$0.15 of $95 ⇒ F1 UNKNOWN** until a tier-1/2 settlement lands. 10/20 tier-3 $100.18 (the 10/20 daily row repeats 10/19's exact volumes on both legs, a copy-forward signature, so not tier-2). The vendor's "10/21" daily row is the evening session (621 / 5,880 lots) and is not gradeable. **BRENT PUBLISHED the shared series 2026-10-21 ~21:35 ET** (`AGENTS/BRENT/research/2026-10-21_henry-december-adoption/REPORT.md`, pushed d1445f5d4), adopting HENRY's bars on the WQ-420 native-tick basis: 10/15 $98.92 · 10/16 $99.45 · 10/19 $99.87 · 10/20 $100.18 — all NOT FIRED — and 10/21 **$95.0479**, inside the band, **UNKNOWN, BRENT concurs.** Tick normalization moved values by ≤ $0.0000016. BRENT's robustness note: with CL at its reported $97.15 settle, an HO settle ≥ $0.0007/gal below the window VWAP would put the CME value under $95. For TERRY's held-VLO rule (same estimate): < $95 is notice only, < $90.16 is the SELL recommendation, $4.89 below tonight's estimate. **F5** NOT FIRED (AAL close $12.23, low $12.02 > $11.308). **F2** untouched (Shaybah drone intercepted, not a Jazan restart). **F3** SPENT. WALTER 016's correction (Russian diesel ban partially permitted, not lifted; №1252 producer restriction expires 10/31) changes no HEN-46 leg.
+**Verdict: NO-VERDICT-AS-WRITTEN** (Southwest landed in the region the letter never named), **substantive read: claim not supported.** Both carriers overran fuel by $0.10–0.22/gal against the ~$0.40/gal the registration projected, and absorbed it with record revenue (fare recapture, the mechanism the claim bet against). Outcomes vs as-made confidences: 0.35 → 0, 0.30 → 0, 0.20 → 0 (no card). **F4 not fired for AAL:** FY guide was CUT to −$1.60 to −$1.00 (from −$0.65 to +$0.65), not raised. **Outside the letter, not a grade:** the squeeze lands in American's Q4 guide (fuel ~$4.70/gal, +$2.8B YoY fuel expense, Q4 adj EPS −$1.10 to −$0.50); any Q4 claim would be a fresh registration. Southwest's 10:00 ET call was not waited for: it cannot move the verdict. The 10/21 Southwest detail and the F1 December record are in `research/2026-10-22_L769/STATUS-before.md` and the PREDICTIONS row. **Held-VLO (TERRY's card) is a different object:** HEN-46's scope fence (9/14) says it is not a view on the crack level; F1 on the shared December series stays BRENT-published (10/21 $95.0479 UNKNOWN).
 
 ## MACRO — CARRIED, NO NEW US RELEASE 10/20–10/21
 
@@ -77,7 +73,7 @@ September CPI (10/14) headline +0.6% m/m / +3.7% y/y, core +0.3% / +2.6%; Septem
 | AI-capex | HEN-36 mechanism RESOLVED-CONFIRMED; old class-wide de-rate expression FALSIFIED. Meta Q3 (10/21): 2026 capex guide $135–145B (low end +$5B), FCF −$2.12B — VULCAN grades. WATT: forward power-shortage realization less certain, no measured FCF cost. |
 | Structural credit | Tail stress persists, four broad-HY observations above 320. Bank-credit attribution and a forced funding spiral are not established. |
 
-**Standing Will rule (8/10):** VIX < 15 AND HY < 260 on the SAME session, five consecutive; non-latching. **Joint count 0** (HY 329 [10/19] > 260; VIX 16.68 > 15).
+**Standing Will rule (8/10):** VIX < 15 AND HY < 260 on the SAME session, five consecutive; non-latching. **Joint count 0** (HY 333 [10/20] > 260; VIX 16.68 [10/21 close] > 15).
 
 ## ACTIVE THRESHOLDS — ALL STANDING LEVELS UNCHANGED
 
@@ -92,20 +88,20 @@ September CPI (10/14) headline +0.6% m/m / +3.7% y/y, core +0.3% / +2.6%; Septem
 | KRE | $70.60 [vendor 10/21] | <$65 / <$62 / <$60 | NOT FIRED |
 | 10Y | **5.13% [Treasury par 10/21]** (vendor TNX index 5.15%) | >4.5 / >4.8 / >5.0 | RED |
 | 2Y / 30Y | **4.81% / 5.42% [Treasury par 10/21]** | >4.25 / >4.40 / >4.60 · >5.0 / >5.25 / >5.50 | 2Y RED; 30Y ORANGE (8bp below red) |
-| HY OAS | 329bp [FRED 10/19] | >320 / >400 / >500 | YELLOW; four observations >320 |
+| HY OAS | 333bp [FRED 10/20] | >320 / >400 / >500 | YELLOW; five observations >320 |
 | CCC OAS | 1,297bp [FRED 10/16] | >900 / >1000 / >1100 | RED (10/16 cell) |
 | USD/JPY | 158.17 [vendor 10/21, ~0.0%] | absolute daily change ≥2%, SAM's call | NOT FIRED |
 | SKEW | 150.36 [vendor 10/21] | >145 / >150 / >160 | ORANGE (down from RED 161.86 on 10/19); RED-FT-10 owner grade separate |
 | VIX kill leg | 16.68 [vendor 10/21] | <17 / <16 / <15 one session | **YELLOW band met, one session (10/21)**; not <15 |
-| HY kill observable | 329bp [FRED 10/19] | <290 / <270 / <260 ×5 | NOT FIRED |
+| HY kill observable | 333bp [FRED 10/20] | <290 / <270 / <260 ×5 | NOT FIRED |
 
 ## CROSS-DESK / CATALYST STACK / GAPS
 
-- **Catalysts:** AAL Q3 before the open Thu 10/22 (call 08:30 ET) and LUV call 10:00 ET → HEN-46 resolves (DOCKET L769). FOMC 10/27–28 (no SEP). GDP advance + September PCE 10/29. ECI 10/30 (LABOR). BOJ 10/30. Russian №1252 producer restriction expires 10/31 (DOCKET L771). NFP 11/6, CPI 11/10, PPI 11/13.
+- **Catalysts:** HEN-46 RESOLVED 10/22 (DOCKET L769). FOMC 10/27–28 (no SEP). GDP advance + September PCE 10/29. ECI 10/30 (LABOR). BOJ 10/30. Russian №1252 producer restriction expires 10/31 (DOCKET L771). NFP 11/6, CPI 11/10, PPI 11/13.
 - **Held-VLO (TERRY's card):** BRENT's dated judgment (10/14, retained 10/20) is WAIT on new energy capital; product scarcity may outlast crude recovery. HENRY does not re-derive the crude read. Brent December ~$108.8 settle 10/21 per PROME HEARTBEAT (BRENT owns).
 - **War state:** consumed PROME HEARTBEAT amendment #2 (10/21 21:0x ET). FALCON marks held; Shaybah drone intercepted; Hormuz transits 4 of 88 on 10/18. No HENRY mark depends on it beyond the VIX/SKEW inputs above.
 - **WATT:** PJM prices eased after 10/13, no ≥$1,000 prints 10/15–10/20; no measured FCF cost. HEN-36 input only.
-- **Inbox:** 30 WALTER signals and 3 general packets read, logged in `board_log.tsv` and filed to `processed/`. Corrections COR-20261021-01/-02 receipted NO-OP (no HENRY citation). PROME's stale-calendar packet answered by rebuilding `domain/ECON_CALENDAR.md`.
+- **Inbox:** 10/22 drain: 6 WALTER signals (10/21-023/024/026/029, 10/22-001/002) logged in `board_log.tsv` and filed to `processed/`; general inbox empty. FINRA margin debt verified at FINRA's table (Sep $1.480T, +$26.2B, 2nd highest after Jun-2026 $1.502T; `research/2026-10-22_L769/DATA.md` §4). Correction COR-20261022-01 (SoftBank close) receipted NO-OP. Prior (10/21): 30 WALTER + 3 general packets.
 - **Still open:** primary credit refresh and current BB/CCC (FRED down at 21:5x ET); ISM services date (ismworld.org 503 three times; manufacturing Nov 2 corroborated via a search-indexed ISM calendar) — recheck before 11/2.
 - **Carry-ins dispositioned 2026-10-21 (Will-directed sweep):** ① *Direct Treasury availability* — RESOLVED, home.treasury.gov daily curve works (yields above). ② *Asia 10/15 halt (WALTER 1015-002)* — CORROBORATED at a second Korean source: Etoday via StockHub reports KOSPI closed −8.06% at 5,524.53 on 10/15 with a 20-minute Level 1 circuit breaker; Korea Exchange primary not read; no HENRY grade depends on it. ③ *Tanker cyberattack (1015-010)* — CLOSED as unverifiable: the Bloomberg article could not be found; no thesis inference, energy security stays BRENT/FALCON's. ④ *KRE "Muse" deposit-flight* — REGINALD's lane, removed from HENRY's list. ⑤ *TLT-flow check* — deferred to the next positioning work, no date. ⑥ *DGS30 coverage conflict* — a standing rule, not a task: no 30Y superlative beyond the Treasury par window. ⑦ *ISM late-evaluator interpretation* — PROME's (10/19 record). ⑧ *Real-yield letter* — never registered; closed, and any future version is a fresh registration.
 - **Runtime:** Claude Code with terminal, web search/fetch and cross-session messaging verified. PROME (prome-56) live in a concurrent session; no pull this boot (other desks' uncommitted work in the tree). No Will decision requested.

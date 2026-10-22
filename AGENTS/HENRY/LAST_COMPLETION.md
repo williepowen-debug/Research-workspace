@@ -1,56 +1,40 @@
-# HENRY — 2026-10-21 after-close boot, catch-up, desk sweep and fixes — DONE
+# HENRY — 2026-10-22 pre-open wake, DOCKET L769 (HEN-46 grade, gamma into the open, inbox) — DONE
 
-**RESULT:** Market fragility eased over two sessions: SPX is back above its estimated gamma flip, so dealers now damp moves rather than amplify them, though only by 8–13 points. Credit has not confirmed the recovery (HY 329bp on 10/19, still above the 320 line). Southwest's Q3 landed in a gap in my HEN-46 letter. The row resolves after American reports Thursday morning, under a disposition I wrote down tonight before American prints.
+**RESULT:** The airline-fuel bet (HEN-46) resolved with no verdict as written. Read on substance, the claim was not supported: American's Q3 loss of −$0.28 a share came in inside its guide, and both airlines absorbed modest fuel overruns with record revenue. The market's cushion is gone. SPX opened about 1% lower after the Asia selloff, dealer gamma is negative again (dealers amplify moves), and the 7,750 put wall is being tested but is not broken.
 
-**CHANGED:** `STATUS.md` (rewritten, prior copy preserved), `MEMORY.md`, `LAST_COMPLETION.md`, `NEXUS_BRIEF.md`, `domain/ECON_CALENDAR.md` (rebuilt), `workbook/PREDICTIONS.tsv` (HEN-46 note), `workbook/PUBLISHED.tsv`, `workbook/MARKET_DATA.tsv`, `scripts/credit_monitor.py` + `scripts/boot.py` (false all-clear fixed), `MAINTENANCE.md`, `board_log.tsv` (33 rows), `registry/corrections_receipts.tsv`, 33 inbox packets filed, `research/2026-10-21_boot/`.
+**CHANGED:** `STATUS.md` (prior copy preserved), `MEMORY.md`, `LAST_COMPLETION.md`, `NEXUS_BRIEF.md`, `workbook/PREDICTIONS.tsv` (HEN-46 resolved), `workbook/KB.tsv` (ML-HEN-187), `workbook/PUBLISHED.tsv`, `board_log.tsv` (6 rows), `registry/corrections_receipts.tsv`, 6 WALTER packets filed, `research/2026-10-22_L769/`.
 
 ## Session work
 
 | Item | Outcome |
 |---|---|
-| Gamma | POSITIVE at both horizons, flip band 7,744–7,749, SPX 7,757.17. Reverses the 10/19 negative read. Put wall 7,750, call wall 7,800 (35d band 7,800–8,000). |
-| Southwest (HEN-46) | Fuel $3.92/gal ($3.87 unhedged) vs $3.70–3.75 assumed; adj EPS $0.66, inside guide. Neither CONFIRM (≥$4.10) nor DENY (≤$3.85) — unnamed region. Overrun ~$93–121M pre-tax, absorbed by record unit revenue. |
-| American (HEN-46) | Disposition pre-stated: EPS < −$0.70 → CONFIRM; otherwise NO-VERDICT-AS-WRITTEN, not DENY. |
-| December crack (F1) | 10/21 settlement-window estimate $95.05, inside the ±$0.15 band around $95 → UNKNOWN. Held-Valero: <$95 is notice only; SELL recommendation is <$90.16. |
-| Credit | FRED down all evening. Fixed my monitor, which had printed "credit calm" on a dead feed. HY/IG ETF lag flagged to 10/20 (−0.98%), faded to −0.35% by the 10/21 close. |
-| Calendar | Rebuilt 10/22–11/25 at agency pages; five wake rows requested from PROME. |
-| Inbox / corrections | 30 WALTER signals + 3 general packets logged and filed; two corrections receipted NO-OP. |
+| HEN-46 | American 8-K at sec.gov: adjusted EPS −$0.28 vs −$0.70/−$0.10 guide (inside); fuel $3.85/gal vs $3.75 (~$120M pre-tax); revenue above guide; FY guide cut (F4 not fired). Graded under the disposition written 10/21 before American printed: **NO-VERDICT-AS-WRITTEN, claim not supported.** Outcomes 0/0/0 against 0.35/0.30/0.20. Southwest's 10:00 call was not waited for, because it cannot move the verdict. |
+| Gamma pre-open (08:32) | POSITIVE both horizons at the 10/21 close, flip 7,742/7,748; futures implied SPX ~7,684, i.e. below the flip. |
+| Gamma post-open (09:53) | SPX 7,680.71 (−0.99%). **NEGATIVE both**, flip band 7,745–7,750, cushion −64/−69 pts. Put wall 7,750 tested; a break at both horizons would be a cash close under ~7,650. Call wall withheld. |
+| Credit | FRED back: HY 333 [10/20], five readings above 320; CCC−BB 1,125 (+31bp since 10/16). |
+| Margin debt | FINRA's own table: September $1.480T, second highest (June 2026 $1.502T is the record). |
+| Inbox | 6 WALTER signals logged and filed; COR-20261022-01 receipted NO-OP. |
 
 ## GAPS / still pending
-- No fresh primary credit (FRED maintenance). BB and CCC cells are from 10/16.
-- F1 near-line UNKNOWN needs a settlement-grade print (finalized vendor row or BRENT's published figure).
-- ISM release dates unverified (ismworld.org 503).
-- Carried: Asia exchange-halt and tanker-cyberattack attribution, KRE Muse / TLT-flow sources, DGS30 scope, ISM late-evaluator ambiguity, real-yield letter.
+- Operating Dashboard not refreshed: intraday values would be stale within the hour. Refresh after the close.
+- The post-open gamma read uses a delayed Cboe spot input (7,696.94) against a live 7,680.71; the sign is the same on both.
+- Carried: ISM services date unverified.
 
 ## COMMITS
-- `2e59e4d8a` HENRY: 10/21 boot - gamma POSITIVE both, HEN-46 LUV leg, calendar rebuilt
-- `1ce61b98c` HENRY -> WALTER: gamma POSITIVE both horizons, F1 near-line notice
-- `d31e7cd77` HENRY -> PROME: econ calendar refreshed, five wake-row requests
-- `1bfc034e1` HENRY: closeout 10/21 - LAST_COMPLETION and NEXUS_BRIEF fold
-- `4d63d9677` HENRY: correct narrative-typed time stamps to commit clock
-- `870a4bbd9` HENRY: desk sweep report 10/21
-- `f4c107744` HENRY: sweep fixes - dashboard, evals, charter counts, STATUS headers
-- `f641453cc` HENRY: sweep second pass - gamma cross-horizon guard, archive, outbox, carry-ins
-- `c0973a861` HENRY: receipt COR-20261021-22 APPLIED
-- Final closeout commit carrying this list (hash in the push receipt).
+- `a9048ade5` HENRY -> WALTER: pre-open SPX implied ~7,684, below gamma flip 7,742-7,748
+- `0c320cbfa` HENRY -> TERRY: HEN-46 resolved NO-VERDICT-AS-WRITTEN, held-VLO inputs unchanged
+- `2bc07ba9c` HENRY -> WALTER: post-open gamma NEGATIVE both, put wall 7,750 tested (signal)
+- The closeout commit carrying this file (its hash is in the push receipt) and the PROME delivery memo.
 
 ## NEXT SESSION FOLLOW-UP (dates Will cares about)
-- **Thu 10/22:** American Q3 before the open (call 08:30 ET), Southwest call 10:00 ET → HEN-46 resolves.
-- **Tue–Wed 10/27–28:** FOMC (no projections). **Thu 10/29:** GDP + September PCE. **Fri 10/30:** ECI, BOJ. **Sat 10/31:** Russian producer export restriction expires.
-- **Fri 11/6** jobs · **Tue 11/10** CPI · **Fri 11/13** PPI.
+- **Today's close:** did SPX hold the 7,650–7,750 put-wall band?
+- **Tue–Wed 10/27–28:** FOMC. **Thu 10/29:** GDP + September PCE. **Fri 10/30:** ECI, BOJ. **Sat 10/31:** the Russian producer export restriction expires.
 
 ## THESIS SNAPSHOT (frozen at close)
-Cyclical: inflation pressure persists, 10Y above 5%. AI-capex: HEN-36 mechanism confirmed; Meta raised the low end of 2026 capex to $135B with a negative-FCF quarter (VULCAN grades). Structural credit: tail stress persists, no funding spiral established. Gamma positive but thin.
+Cyclical: inflation pressure persists, 10Y above 5%. AI-capex: HEN-36 mechanism confirmed (VULCAN grades). Structural credit: tail stress is widening (CCC), with no funding spiral established. Gamma has turned negative and the put wall is under test.
 
 ## WILL_NEEDS
-None to decide. **One operational need:** someone must start a HENRY session Thursday 10/22 before 08:30 ET. DOCKET L769 is a calendar row, not an automatic wake, and HEN-46 resolves on American's pre-open results. No trade, no Telegram send.
+None. No trade, no Telegram send, $0 moved.
 
 ## HONEST SCOPE
-Claude Code, Opus 5.5 (`claude-opus-5-5`); native session ID not exposed. Root and desk instructions read explicitly. Subagents: three Opus eval runners only (no rubric in their context); no other delegation. PROME (prome-56) live concurrently; no pull this boot because other desks have uncommitted work in the tree. Packets delivered as files; recipient consumption UNKNOWN. Gamma is a free-tier proxy; all tape values are vendor quotes, not exchange-certified closes.
-
-## Later in the session (Will: sweep, then "yes go ahead and fix those")
-- **Desk sweep** → `reports/2026-10-21_desk-sweep.md` (6 owed, 5 broken, 7 stale, 2 format; controls listed).
-- **Fixed:** Operating Dashboard republished at the same URL after 89 days (source now in `dashboard/`) · evals re-run 3/3 PASS (first since 7/10; case 01 needs date-neutralizing) · four stale charter claims replaced · STATUS section headers restored to the names the charter cites · PUBLISHED.tsv duplicate key cleared.
-- **Also:** BRENT adopted and published the December F1 series (10/21 $95.0479 stays UNKNOWN, BRENT concurs) · correction COR-20261021-16 receipted NO-OP · PROME's "Dec 23" calendar flag checked: real BEA date, but my "(verified)" label had been premature; now verified at BEA and BLS.
-- **Second pass (Will: "fix the rest of the sweep items too"):** built the gamma cross-horizon wall guard (`gamma_flip.py --both`, tested live and on the 7/29 case) · retired two dead scripts · recreated `archive/` and moved 20 eligible files · filed the 8 outbox packets with an evidence table (1 unverified, stated) · dispositioned every carry-in; direct Treasury data works again, so STATUS and the dashboard now carry official par yields (10Y 5.13%, 2Y 4.81%, 30Y 5.42%) · re-spaced the run-together ledger text · pinned eval case 01's scenario date.
-- **Still open, and why:** HEN-46 (waits for American 10/22) · F1 10/21 (waits for a settlement-grade print) · FRED credit (site down) · breadth research L616 (PROME schedules) · ISM services date (ISM site down) · 10/19 research files keep their run-together text because peers hold hash receipts on them · WALTER signals 018/020 logged but not filed (sender hasn't committed them).
+Claude Code, Opus 5.5 (`claude-opus-5-5`), spawned by PROME (prome-56). Root, desk, AGENTS.md and USER.md instructions were read explicitly. AGENTS.md and USER.md were read mid-session, before any Will-facing text; nothing in them changed the work. No subagents. No pull, because PROME's uncommitted state files are in the tree. Packets were delivered as files; whether recipients consumed them is UNKNOWN. Gamma is a free-tier proxy, and tape values are vendor quotes.
