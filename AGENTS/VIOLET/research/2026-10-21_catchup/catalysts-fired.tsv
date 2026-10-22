@@ -1,0 +1,2 @@
+date	event	type	agent_domain	expected_vol_impact	source	notes	fired
+2026-10-21	VIX October expiration (monthly; AM SOQ)	OPEX	VIOLET/HENRY	MEDIUM	Cboe VIX option chain expiry 2026-10-21 in vix_options.py pull 2026-10-10 (Call OI 4.11M / Put OI 1.48M)	ADDED 2026-10-10. Roll-adjusted M1:M2 switches pair inside DTE<5 - compare symbols and settle dates before differencing.	FIRED 2026-10-21: VX/V6 final settlement 16.82 (Cboe settlement CSV dt=2026-10-21, own fetch 2026-10-21 22:1x ET); read in CALENDAR.md RESOLVED (Oct 21 entry) and KB-VIO-352

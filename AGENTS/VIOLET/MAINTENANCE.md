@@ -9,6 +9,16 @@ Reverse-chronological log of **structural** changes to VIOLET's docs, folders, s
 Log material structural changes only — not routine content edits. Template adopted from OTTO (2026-06-10), incl. the cap: **archive to `archive/` if this grows past ~300 lines** (SAM cautionary tale: 636).
 
 
+## October 21, 2026 — L667 tooling rider: forward-calendar coverage check
+
+**Trigger:** DOCKET L667 ride-along (PROME packet 2026-10-10: Will 10/10 13:45 ET, a warning only this desk can see is not enough; output must be a PROME/inbox packet). PROME catch-up spawn prome-56.
+**What changed:** new `scripts/forward_calendar_check.py` — at least one HIGH/MEDIUM row in (today, today+14] of CATALYSTS.tsv, else rc 1 plus an idempotent `PROME/inbox/{date}_from-VIOLET_EMPTY-FORWARD-calendar.md`; unreadable calendar or unparseable date is rc 2 UNKNOWN. Wired as a boot stage (warns) and closeout_guard BLOCKING contract 11. CLAUDE.md step 10 gains the 14-day closeout clause (C4 own-charter edit). New suite `scripts/tests/test_forward_calendar_check.py` (4 cases). The cheap-tail past-row guard of 10/14 is unchanged and re-verified.
+**Files touched:** scripts/forward_calendar_check.py; scripts/tests/test_forward_calendar_check.py; scripts/boot.py; scripts/closeout_guard.py; CLAUDE.md; workbook/CATALYSTS.tsv and CALENDAR.md (four forward rows).
+**Boot-impact:** one extra offline stage (<0.1 s); a red stage writes one file into PROME/inbox, which the closeout must commit (carve-out 1).
+**Lessons:** PROME's gate is an any-row check that one LOW row silences; the desk-side check counts only HIGH/MEDIUM. Run against the pre-session calendar as-of 10/28 it already read EMPTY-FORWARD — the same gap was one week from recurring.
+
+---
+
 ## October19,2026 — WQ410 first-tell retirement
 
 **Trigger:** Will's committed October15 WQ410 APPROVE, read October19.

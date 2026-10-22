@@ -109,6 +109,10 @@ BLOCKING = [
     # supplying dated bars while RED is dark -- it lived in SCRATCH, the one file
     # defined to be overwritten (PROME flagged it 9/11).
     ("^SKEW bar continuity (cell half)", "skew_bar_continuity.py", ["--quiet"]),
+    # 11th contract, added 2026-10-21 (DOCKET L667 tooling rider, KB-VIO-324). The
+    # calendar must carry >=1 HIGH/MED row within 14 calendar days at closeout; an
+    # empty window writes the PROME/inbox packet (idempotent) and blocks.
+    ("Forward calendar coverage (14d HIGH/MED)", "forward_calendar_check.py", ["--quiet"]),
 ]
 ADVISORY = [
     ("Thesis currency", "thesis_bump_check.py", []),

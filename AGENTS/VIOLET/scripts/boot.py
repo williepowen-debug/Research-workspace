@@ -48,6 +48,10 @@ BOOT_SEQUENCE = [
     ("Cheap-tail window alert (operator decision surface; built 7/23)", "cheap_tail.py", ["--boot"], True),
     ("Implied correlation (KB-VIO-126 mechanism; built 7/30)", "implied_corr.py", ["--boot"], False),
     ("Catalyst countdown",          "catalyst_countdown.py", [], False),
+    # L667 tooling rider (built 2026-10-21, KB-VIO-324): >=1 HIGH/MED row within 14
+    # calendar days, else rc=1 AND a packet to PROME/inbox (Will 10/10: a warning only
+    # this desk sees is not enough). Boot warns; closeout_guard blocks on the same check.
+    ("Forward calendar coverage (L667; built 10/21)", "forward_calendar_check.py", [], False),
     # Runs LAST, after every canary has written its row this session — so it audits
     # the state boot just produced, not the state it inherited. Enforces the
     # CANARY_MAP staleness contract that went unenforced from v1.0 to 2026-07-28
@@ -101,6 +105,7 @@ KEY_MARKERS = (
     "event-boxed", "OPERATOR DECISION", "Vehicle discipline", "SPREADS", "Rates-vol", "EVENT-BOXED", "Route: PROME",
     "⚠️",
     "✓ appended", "already has a row",
+    "FORWARD CALENDAR", "EMPTY-FORWARD",  # forward_calendar_check (L667)
 )
 
 

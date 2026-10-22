@@ -1,94 +1,91 @@
 # VIOLET STATUS
 
-**As of:** October19,2026 18:55ET. Same owner `01a15611-0101-79e0-b103-685fe4eb21cf`, Codex/OpenAI gpt-6.1-sol/high. Latest [evening official check](research/2026-10-19_evening-official-check/REPORT.md):30live endpoints HTTP200 plus dated futures recheck,12source checksPASS. Exact source clocks/hashes accompany it. Savedboot17:53ET; targeted source retrieval18:53:49–54ET. Earlier [20-session live sweep](research/2026-10-19_live-sweep/REPORT.md) retains its original scope/clock. Thesis **v4.1.4**; no new numerical line or regime phase. Prior [official follow-through](research/2026-10-19_official-followthrough/REPORT.md) and coordinator receipt remain dated history.
+**As of:** October 21, 2026 22:13 ET. PROME-spawned catch-up (prome-56), Claude Code, Opus 5.5. Live boot 22:05 ET (boot.py); Cboe daily histories, Cboe futures settlement files 10/20 and 10/21, investing.com MOVE and fetch.py prices pulled 22:05–22:13 ET. Thesis **v4.1.4**; no new numerical line or regime phase. Prior session (10/19 18:55 ET, Codex owner `01a15611…`) is dated history: [evening official check](research/2026-10-19_evening-official-check/REPORT.md).
 
 ## BOTTOM LINE
 
-**Recent published data are reconciled within the declared September22→October19 window; four October19daily index rows remain absent from the retrieved histories (VIX/SKEW/DSPX/VIXEQ).** The sweep filled14dated futures entries and added2oil-volatility/2yen realized-volatility rows:18missing feed observations repaired. All118available spot cells and60native correlation cells match Cboe. All20recent futures pairs are filled and source-verified; no source/pair mismatch.
+**Friday's front-end stress has fully unwound by the official October 21 close.** VIX 16.68 (from 19.99 on 10/16), VVIX 94.55, VIX9D/VIX 0.9287, VIX3M/VIX 1.1223 and an adjusted futures slope of +1.686% are an ordinary contango surface. All October 19 and 20 Cboe finals are now published; the 10/19 finals equal the quotes carried as provisional (VIX 18.44, SKEW 161.86), and the missing 10/20 ledger row is filled.
 
-**Current quotes show Monday easing after Friday's stress, but a complete Monday official cash complex is unavailable.** VIX/SKEW daily histories still endOctober16 at the18:53:49–54ETcheck; their October19quotes18.44/161.86 are separately timestamped. The other four core volatility indices and all three correlation indices have October19finals. No official same-date VIX ratio or seventh official SKEW observation is inferred from quotes. RED retains its October14FT10grade.
+**Two things are still elevated and both deserve attention.** SKEW printed its 9th consecutive official close at or above 150 (10/09–10/21), but the 10/21 close is **150.36 — 0.36 above the line**; RED owns FT-10 and grades any exit. Oil volatility is now **leading** equity volatility: OVX 53.28 rose while VIX fell, and the registered OVX/VIX canary moved CALM → **WATCH** (ratio 3.19, p94.4). BRENT owns oil substance.
 
-**Credit's current publication frontier is October16, not a new Monday observation.** Live officialFREDAPI agrees with LIQUID's existing HY331bp observation and grade. NYFedSOFR also endsOctober16; hidden collateral/offshore conditions remain unmeasured. LIQ07S2 is owner-resolved within its frozen window, not a clearance of later events. OriginalOctober13→November17credit-volWATCH remains; sequence is not credit-origin causation.
+**Convergence 30/50 (was 31/50): VVIX 3→2 and front curve 3→2 on the unwind, oil vol 2→3 on the canary.** Each move is forced by a named October 21 official reading (KB-VIO-354). The score is not a probability.
 
-**No Will decision, trade or publishing task.** WQ410first-tell retirement enacted; WQ418pre-CPI opportunity closed/PASSED. Deck PAUSED WQ460; Helm RETIRED WQ461. Tooling gaps stay separate from this data repair.
+**October VIX expiration was orderly:** VX/V6 final settlement 16.82 against a 16.68 spot close (KB-VIO-352). No live VIOLET letter touched. **DOCKET L667 tooling rider BUILT** (forward-calendar check with PROME-packet output; KB-VIO-353). No Will decision, trade or publishing task; $0 moved.
 
 ## SIGNAL DASHBOARD
 
-| Metric | Latest captured value | Basis / interpretation |
+| Metric | Latest value | Basis / interpretation |
 |---|---:|---|
-|VIX official daily|**19.99**, high**22.31**|[CONF] CboeOctober16; noOctober19daily row in final targeted retrieval. Friday+21.45%close-to-close; high+5.85points versusOctober15close16.46.|
-|VIX quote|**18.44**|[CONF] CboeOctober19last_trade_time16:15:01ET; refetched18:53ET, trade time unchanged. Quote, not final daily bar.|
-|VIX9D /VIX3M /VIX6M|**17.93 /19.60 /21.12**|[CONF] Individually officialOctober19 Cboe daily rows. With VIXquote denominator,9D/VIX0.9723and3M/VIX1.0629remain PROVISIONAL.|
-|VVIX latest final|**106.93**|[CONF] CboeOctober19daily;120line NOT FIRED. Friday109.91daily and WALTER121.17intraday remain distinct.|
-|SKEW official /mean20|**168.59 /148.5125**|[CONF] CboeOctober16. Six qualifying official>=150observations; first4completedOctober14. RED owns FT10grade/exit/outcome.|
-|SKEW quote|**161.86**|[CONF] CboeOctober19last_trade_time17:00:20ET. NoOctober19daily row retrieved at18:53:49–54ET; not added to official count.|
-|Adjusted VX futures|**+0.734%**,VX/X6→VX/Z6|[CONF] CboeOctober19settlement18.5996→18.7362. October/November strict+2.431%,18.1582→18.5996. Preserve symbols/settlementdate across<5calendarDTEroll.|
-|Friday futures /cash distinction|**−3.362%**Oct/Nov; cash3M/VIX**1.0255**|[CONF] October16settlements/cash finals. Futures and9D/VIXinverted; registered3Mcashline did not. Not an automatic entry signal.|
-|MOVE primary|**101.10**|[CONF] Investing.comOctober16. All18available recent rows match ledger;October14primary99.06. NoOctober12or19bar in retrieved primary table.|
-|OVX official|**50.22**October19|[CONF] Cboe. No matched October19VIXfinal: ratio50.22/18.44=2.72is PROVISIONAL. Latest complete pairOctober16OVX50.74/VIX19.99=2.54,CALMratio state; elevated oil-vol level is not cleared.|
-|JPY RV10 /RV20|**2.57% /4.38%**,p4.4,CALM|[CONF] YahooJPY=X pull17:53ET; current-day vendor FX bar is intraday-so-far. October15/16RV-only gaps reconstructed; no future data in historical quantiles. SAM owns substance.|
-|FXY option context|IV**13.4%**,IV/RV**5.22**|[CONF] Vendor snapshot, December18near-ATM calls. Off-hours STALE; historical option IV/OI unfilled. No usable current execution/confirmation claim.|
-|Correlation native finals|COR1M**9.68**,COR3M**13.66**,COR30D**10.37**|[CONF] All CboeOctober19daily rows. Composite ledger staysTICK without VIXfinal; constituent-vol estimate59.3is provisional/direction-only. WQ410first-tellRETIRED.|
-|DSPX /VIXEQ|Final**36.61 /41.71**; quote**36.50 /40.92**|[CONF] FinalsOctober16; quotesOctober19last_trade_time16:02:02ET. NoOctober19daily rows in final retrieval.|
-|Credit /rates /funding|**Owner references**|[CONF LIQUID October19; own live source check] HY331bp observationOctober16, unchanged. FREDAPI all12seriesHTTP200; NYFedSOFRlatestOctober16. AdministrativeIORBOctober19does not date today's repo transactions. Full dated bridge in sweep report.|
-|CFTC VIX futures|Report**October13**,net**+1,105**,p**91.0**|[CONF] Weekly and annual primary files agree; all4recent reports present. Original release-time vintage not certified. Net−4,389w/w; rank remains extreme.|
-|VIX options|October21C/P OI**2.864**|[CONF] Refreshed17:53ETvendor snapshot,4,268,922calls/1,490,729puts;7forward expiries. GrossOI vintage not independently dated; no initiated net-flow or old-chain reconstruction.|
-
-**At-use SKEW integrity:** `[SKEW-INTEGRITY 2026-10-19 18:53 EDT] Cboe and yfinance agree on23sessions2026-09-16..2026-10-16 within0.005.` Bounds that read only. Publisher grades; shared calculation lineage is not independent confirmation.
+| VIX | **16.68** (−3.64% d/d) | [CONF] Cboe daily 10/21; fetch.py ^VIX 16.68. Path 19.99 [10/16] → 18.44 [10/19] → 17.31 [10/20]. LOW_VOL. |
+| VIX9D / VIX3M / VIX6M | **15.49 / 18.72 / 20.62** | [CONF] Cboe daily 10/21. 9D/VIX **0.9287**; 3M/VIX **1.1223** (registered 1.000 line far away). |
+| VVIX | **94.55** (p60.5) | [CONF] Cboe daily 10/21. 120 line NOT FIRED; 109.91 [10/16] → 106.93 [10/19] → 97.15 [10/20]. |
+| SKEW / 20d mean | **150.36 / 150.49** | [CONF] Cboe daily 10/21; p93.7. 161.86 [10/19] → 160.40 [10/20] → 150.36. 20-session mean 9/24–10/21. Daily cushion over 150 is 0.36. |
+| Adjusted VX M1:M2 | **+1.686%** VX/X6→VX/Z6 (BELOW_AVG) | [CONF] Cboe settlement 10/21: X6 18.2382, Z6 18.5457. 10/20 adjusted +1.127% (X6 18.4881 / Z6 18.6965). |
+| VIX October expiry | **SOQ 16.82** | [CONF] Cboe settlement CSV 10/21, VX/V6 final; prior settle 17.2209 (−2.33%). |
+| MOVE | **95.94** | [CONF] investing.com primary 10/21; 101.30 [10/19], 101.70 [10/20]. 23.53 above F1 72.41. |
+| OVX / OVX:VIX | **53.28 / 3.19** — WATCH | [CONF] ovx.py 10/21: OVX p88.6 (floor p75 met), ratio p94.4 ≥ p90 2.94. Last complete pair 10/16 50.74 / 2.54 CALM. OVX.tsv lacks 10/19–10/20 rows. |
+| JPY RV10 / RV20 | **3.47% / 4.71%**, p7.4, CALM | [CONF] jpy_vol.py 10/21; USDJPY 158.27. FXY IV 13.1% off-hours STALE; IV/RV 3.78 not broadcast as live. SAM owns substance. |
+| Implied correlation | COR1M **8.40**, COR3M 12.83, COR30D 9.96 — DISPERSED | [CONF] Cboe 10/21, row basis SETTLE. WQ-410 first-tell RETIRED; context only. Constituent-vol estimate 57.6 is direction-only. |
+| Credit / rates / funding | **Owner references** | HY OAS 329bp is FRED 10/19 [CONF HENRY via WALTER SIG-W-20261021-022]. Own FRED pull FAILED 10/21 22:05 ET (FRED maintenance; CCC CSV parse error) — no own credit observation tonight. LIQUID owns spreads. |
+| SPX / QQQ | **7,757.17 / $725.20** | [CONF] fetch.py as-of 10/21 (+0.58% / +1.05%). HENRY owns equity. |
+| CFTC VIX futures | Report **10/13**, lev-money net **+1,105**, p91.0 EXTREME_LONG | [CONF] cftc_cot.py; next report not yet in the file. |
+| VIX options | OI unusable after hours | vix_options.py 10/21 read OI 0 on every forward expiry (known after-hours artifact; 6 comparisons skipped). Volume only — no OI conclusion. |
 
 ## GATE STATUS
 
 | Instrument | State | Existing letter / limit |
 |---|---|---|
-|RED-FT-10|**RED-owned FIRING October14**|Official154.34→155.06→154.74→157.30; extends to6throughOctober16. No second fire, exit/outcome or new scenario weights from VIOLET.|
-|VVIX120 daily|**NOT FIRED October19**|Official106.93. Fridayintraday121.17isWATCH, not a daily fire.|
-|VIX3M/VIX cash inversion|**NOT FIRED on last completeOctober16pair**|1.0255>1.000. Current mixed quote/final ratio is not a new official grade.|
-|Path-A VIX<20filter|**MET onOctober16official close only**|19.99qualifies; intraday22.31does not. Filter alone is not fullPath-A/LIQUID076conjunction; no rounded threshold substitution.|
-|LIQ07 /HY sustained rung|**LIQUID-owned**|S2resolved; HY325/323/331bp sustained grade already recorded. Live retrieval of331does not add a session/count.|
-|COR1M first-tell|**RETIRED WQ410**|No successor threshold; series remains context.|
-|Pre-CPIcheap-tail|**CLOSED /PASSED WQ418**|HistoricalOctober16DORMANT2/4; incomplete current cash publication cannot reopen the event.|
-|BIN-A /BIN-B|**STUCK /block active**|Dated credit frontierOctober16. BIN-A's old level tree still supplies no verdict.|
-|MOVE pause/resume|**ARMED**|PrimaryOctober16; no assumedOctober19grade.|
-|Q2L477 /VIO-FOMC-0916 /F-B /RV1|**CLOSED NOT FIRED /FAILED /HELD /RETIRED**|Terminal outcomes unchanged.|
+| RED-FT-10 | **RED-owned FIRING since 10/14** | Official run ≥150 now 9 closes (10/09–10/21). 10/21 = 150.36, cushion 0.36. VIOLET supplies bars only; no exit, outcome or weights from this desk. |
+| VVIX 120 daily | **NOT FIRED 10/21** | 94.55. |
+| VIX3M/VIX cash inversion | **NOT FIRED 10/21** | 1.1223. Last near-miss 1.0255 on 10/16. |
+| Path-A VIX<20 filter | **MET on 10/21 close** | 16.68. Filter alone is not the full Path-A / LIQUID-076 conjunction. |
+| LIQ07 / HY sustained rung | **LIQUID-owned** | S2 resolved; no new count from VIOLET. |
+| OVX/VIX canary | **WATCH 10/21** (context canary, not an action gate) | Route: NEXUS_BRIEF cross-domain (done). One session. |
+| COR1M first-tell | **RETIRED WQ-410** | No successor. |
+| Pre-CPI cheap-tail | **CLOSED / PASSED WQ-418** | Live alert 10/21 DORMANT 2/4 (L1 VVIX cheap no, L2 VIX complacency no, L3 SKEW yes, L4 event-boxed yes). |
+| BIN-A / BIN-B | **STUCK / block state unread tonight** | FRED pull failed; no new verdict. |
+| MOVE pause/resume | **ARMED** | 95.94 far above the 66.00 retire line. |
+| Q2 L477 / VIO-FOMC-0916 / F-B / RV1 | **CLOSED NOT FIRED / FAILED / HELD / RETIRED** | Terminal outcomes unchanged. |
 
 ## CONVERGENCE MATRIX
 
-**Convergence Score: 31/50** (10vectors×5), unchanged. Filling source holes does not create independent stress votes, a calibrated probability or a new live fire. Friday stress and Monday easing retain their dated bases.
+**Convergence Score: 30/50** (10 vectors × 5). Prior 31/50 (10/19). Three moves, each forced by a named 10/21 official reading (KB-VIO-354); the others keep their basis.
 
 | Vector | Score | Dated basis |
 |---|---|---|
-|Rates vol|🔴🔴 **5**|MOVEprimaryOctober16above standing lines; current table still ends there.|
-|Credit|🔴 **4**|LIQUIDsustainedrung met; causal size/origin/funding limitations remain.|
-|SKEW /tail pricing|🔴🔴 **5**|REDgrade and6official observations throughOctober16.|
-|Oil vol|🟡 **2**|Last matched daily ratioCALM; new OVXfinal has no same-dateVIXfinal yet.|
-|Positioning|🟠 **3**|October13net+1,105,p91.0; source agreement is not a second economic observation.|
-|Implied correlation|🟠 **3**|NativeOctober19finals verified; composite VIX denominator provisional.|
-|Equity concentration|🟡 **2**|WALTERdated S&Pnarrowness plus Nasdaq/recentbroadening counterevidence; no causal cascade proven.|
-|VVIX|🟠 **3**|Friday109.91→Monday106.93; daily120line not fired.|
-|Front curve|🟠 **3**|Friday9D/futures inversion; Mondayfuturescontango andprovisionalcash easing.|
-|JPYcarry|⚪ **1**|Current realizedCALM; option leg stale.|
+| Rates vol | 🔴🔴 **5** | MOVE 95.94 [10/21] above standing lines; down from 101.70. |
+| Credit | 🔴 **4** | LIQUID sustained rung met; HY 329bp [FRED 10/19 via HENRY]; own pull failed tonight. |
+| SKEW / tail pricing | 🔴🔴 **5** | RED grade; run 9 closes ≥150 through 10/21, but cushion only 0.36. |
+| Oil vol | 🟠 **3** | (was 2) ovx.py CALM → WATCH: OVX 53.28 up while VIX fell; ratio 3.19 p94.4. One session. |
+| Positioning | 🟠 **3** | CFTC 10/13 net +1,105, p91.0. |
+| Implied correlation | 🟠 **3** | COR1M 8.40 dispersed; index vol suppressed relative to constituents. |
+| Equity concentration | 🟡 **2** | WALTER dated narrowness plus breadth-recovery counterevidence; no cascade proven. |
+| VVIX | 🟡 **2** | (was 3) 94.55, p60.5 [10/21]; the 3 rested on Friday's 109.91. |
+| Front curve | 🟡 **2** | (was 3) 9D/VIX 0.9287, 3M/VIX 1.1223, adjusted M1:M2 +1.686% — Friday inversion unwound. |
+| JPY carry | ⚪ **1** | RV10 3.47% p7.4 CALM; option leg stale. |
 
 ## REGIME STATUS AND DRIFT
 
-**Tonight's assessment (18:53 source check):** no additional broad volatility confirmation of spreading stress. Monday official VVIX below120 and dated futures contango favor easing after Friday's front-end episode; incomplete Monday cash publication prevents a complete final comparison. Credit/funding still Friday-dated; hidden channels remain unmeasured. Existing WATCH/31-of-50 score unchanged. No additional breadth study, new trade construction, independent-signal vote or calibrated crash odds.
+**LOW_VOL, easing.** Official 10/21 close 16.68; the Friday 10/16 intraday RISING_VOL excursion (high 22.31) did not hold. Term structure and vol-of-vol both normalised over three sessions. No systemic phase change; credit-origin transmission remains unconfirmed (HY +63bp since 9/22 on LIQUID's basis, below the central 100bp size). The original October 13 → November 17 credit-vol WATCH stands; it is a watch, not a letter.
 
-LOW_VOL at last officialOctober16VIX19.99, with FridayintradayRISING_VOL excursion. Monday18.44quote suggests easing; no officialMondayVIXbucket upgrade. Systemic phase change and full credit-origin transmission remain unconfirmed. HY+63bp sinceSeptember22is below the central100bp size. Creditprecedingvolatility does not establish causation.
+**Dealer gamma (HENRY-owned, context only):** HENRY's 10/21 after-close proxy is **POSITIVE on both horizons** — SPX 7,757.17 vs flips ~7,744 (14d) and ~7,749 (35d), cushion only **+8 to +13 points (~0.1–0.2%)**, put wall 7,750 between spot and the flips (SIG-W-20261021-022, superseding the 10/19 NEGATIVE read). A ~0.2% down session flips it back. One proxy family; dealer positioning assumed; OI vintage uncertified.
 
-**Strongest counterevidence/limits:** non-inverted lastcomplete3Mcashcurve, dailyVVIXbelow120, Mondayfutures/quotes easing, LIQUIDdated reserve-channel nonconfirmation and FridayETFcreations. Hidden collateral/private redemptions/offshore dollars are unmeasured. No verified named fund or forced seller from Friday's rumor; corrected earliest public mention13:36:33ETfollows13:20peak by16minutes, causal direction unresolved. HENRYOctober8gamma board is stale for current sign/flip claims.
+**What would change the read:** a close below 150 on SKEW (RED grades); OVX WATCH persisting while VIX stays flat (oil-vol leading); FOMC 10/28 or BOJ 10/30 repricing; a VVIX return above ~105 without a VIX move.
+
+**Strongest counterevidence to the stress case:** the full surface unwind, MOVE down 5.76 points in a session, COR1M at 8.40 (dispersed, not a correlated selloff), and equal-weight recovery (HENRY). Hidden collateral, private redemptions and offshore dollar funding remain unmeasured.
 
 ## POSITIONS
 
-Current truth remains Will/broker off-repo, with the separately dated FORGE mirror and TERRY construction/expiry ownership. No older quantities copied. VIOLET eventbox closed; **$0 moved**. No new trade, size, order or construction request.
+Position truth is off-repo (Will/broker), with the separately dated FORGE mirror and TERRY construction ownership. No quantities copied. **$0 moved.** No new trade, size or construction request.
 
 ## RESEARCH QUEUE AND OPERATING LIMITS
 
-**Owner evidence consumed October 19, 18:39 ET; no new market pull:** [repeat-loser context and consumption receipt](research/2026-10-19_repeat-loser-volatility-context.md). HENRY's committed conditional screen delivers primary MOS/HII/ADM/CPRT, with negative 20/60-session performance and majority losses on separate index-up/sector-up days. Only MOS confirms five-session repetition, on just two eligible BOTH-up days; HII/ADM/CPRT have positive five-session returns. All four lack a verified stronger industry/size peer in the bounded pool. HENRY and LIQUID specific workflow acknowledgments are now verified; the remaining dependency is LIQUID/company-owner financing reconciliation against this delivered screen, not delivery of the shortlist. Recent equal-weight recovery is counterevidence; single-vendor/current-membership/nested-window/outcome-selection limits remain. No score, crash odds or independent breadth/credit/volatility vote added. Shared question: “What would distinguish financing-driven weakness from ordinary rotation or company-specific disappointment?” WAL/TERRY consumption unverified here; preserve existing priorities and grades.
+1. **FOMC 10/28 (HIGH)**, GDP + PCE 10/29, BOJ 10/30, Election Day 11/03, payrolls 11/06 (date SECONDARY — verify at bls.gov), VIX November expiry 11/18, L441 recheck 12/16. Calendar forward check passes (4 HIGH/MED rows in the next 14 days).
+2. **SKEW at 150.36:** supply the 10/22 official bar; RED grades any exit. No VIOLET weights.
+3. **Oil-vol WATCH:** backfill OVX 10/19–10/20 matched rows and re-read 10/22; BRENT owns substance.
+4. **Credit:** re-pull FRED when maintenance ends; LIQUID owns the grade.
+5. **Correlation helper clock-only SETTLE label** remains a tooling defect (10/21 row is SETTLE legitimately — VIX final exists). Bounded repair still owed; not commissioned tonight.
+6. **L667:** observation leg COMPLETE (53329c6cd); tooling rider BUILT 10/21 (forward_calendar_check.py, closeout contract 11; cheap-tail regrade guard of 10/14 re-verified). PROME may close the row.
+7. Historical FXY IV/OI and old VIX option-chain snapshots stay unfilled by design; Deck PAUSED WQ-460, Helm RETIRED WQ-461.
 
-1. Actual remainingOctober19VIX/SKEW/DSPX/VIXEQdaily publication and MOVEprimary; next LIQUIDcredit/funding publication. Keep actual row dates, delayed quotes and first-publication limits distinct; no guaranteed hour.
-2. October21AMVIXsettlement/expiry;October28FOMC;November17existing lag endpoint;November18VIXexpiry;December16L441recheck. No re-anchoring or new letter.
-3. **L667:** observation legCOMPLETE; separate tooling rider not fully closed. Earlier emptiness/date/past-row guards built; durable empty-calendar packet output/14-daycharter clause remain uncertified. Current calendar populated.
-4. Existing correlation helper's clock-onlySETTLElabel remains a tooling defect. Current composite row manuallyTICK; native CORfinals individually verified. No new tool build commissioned by this sweep.
-5. **Repaired recent gaps:**14VXfutures entries,2OVXrows,2JPYRVrows. Remaining historical FXYIV/OI, old VIXchain snapshots, original release vintages and inherited-study replication are explicit limitations; do not fill from today's chain. Audit coverage is the named feeds/window, not all historical data.
-6. Deck PAUSED WQ460; Helm RETIRED WQ461. No generation, upkeep or publishing resumes. Standalone historical hosted copies remain outside this data-sweep task.
-
-**Persistence/coordination:** foreign dirty PROME/other-desk work prevents initialpull; only owned files and self-authored recipient packets are committed. No additional agents or background research launched. Source/client failures resolved through verified normal methods; no permission bypass. Native independent-thread notification unavailable; durable PROME/WALTER delivery and acknowledgment remain distinct. Latest evening-check owner receipt accompanies the report; native independent-thread notification and recipient acknowledgment remain distinct.
+**Persistence / coordination:** no git pull this session — the tree carried other desks' uncommitted work (BRENT, YURI, HENRY, PROME); none touched. Inbox drained whole: 4 top-level + 7 WALTER items, all logged in board_log.tsv and filed with a `consume:VIOLET` commit.
