@@ -501,3 +501,27 @@ READ	REGINALD	AGENTS/REGINALD/registry/REG_T02_EXIT_LOG.tsv	scoped	REGINALD:clos
 READ	REGINALD	AGENTS/REGINALD/registry/THRESHOLDS.tsv	whole	REGINALD:closeout-or-existing-fire	REGINALD	2026-10-20	Conditional fire/grade; paired basis in NOTES required.
 READ	REGINALD	AGENTS/REGINALD/registry/NOTES.md	scoped	REGINALD:closeout-or-existing-fire	REGINALD	2026-10-20	Addressable named REG-T section at existing grade; no silent letter change.
 READ	REGINALD	PROME/registry/READS.tsv	summary	REGINALD:closeout-or-existing-fire	REGINALD	2026-10-20	read_cap_check consumes declarations; bounded verdict only; registrar remains PROME.
+READ	AEOLUS	CLAUDE.md	whole	AEOLUS:spawn-boot (COMPLETION_SPEC explicit read)	AEOLUS	2026-10-21	Root charter, explicit Read in PROME-spawned sessions; harness-injected when launched from AGENTS/AEOLUS.
+READ	AEOLUS	AGENTS.md	whole	AEOLUS:spawn-boot (COMPLETION_SPEC explicit read)	AEOLUS	2026-10-21	
+READ	AEOLUS	USER.md	whole	AEOLUS:spawn-boot (COMPLETION_SPEC explicit read)	AEOLUS	2026-10-21	
+READ	AEOLUS	AGENTS/AEOLUS/CLAUDE.md	whole	AEOLUS:spawn-boot (COMPLETION_SPEC explicit read)	AEOLUS	2026-10-21	Own charter via Read in spawn mode; 48,034 B over budget, under single-read cap; READ_CAP rule 20 context-cost surface — PROME to rule on spawn-mode applicability (L470).
+READ	AEOLUS	PROME/COMPLETION_SPEC.md	whole	AEOLUS:spawn-delivery	AEOLUS	2026-10-21	Read for the COMPLETION block when PROME-spawned.
+READ	AEOLUS	docs/GIT_WORKTREE_PROCEDURES.md	whole	AEOLUS:BOOT-1 + CLOSEOUT-5 (root Git Protocol pointer)	AEOLUS	2026-10-21	
+READ	AEOLUS	AGENTS/AEOLUS/SCRATCH.md	whole	AEOLUS:BOOT-2	AEOLUS	2026-10-21	
+READ	AEOLUS	AGENTS/AEOLUS/STATUS.md	whole	AEOLUS:BOOT-3	AEOLUS	2026-10-21	
+READ	AEOLUS	AGENTS/AEOLUS/workbook/PREDICTIONS.tsv	scoped	AEOLUS:BOOT-4	AEOLUS	2026-10-21	Column-scoped awk (ID / Timeframe / Status); step-4 verb names the operation since 2026-10-21. Move UP to whole if rule 16 says predicate-shaped (then over budget, split owed).
+READ	AEOLUS	AGENTS/AEOLUS/inbox/*.md	whole	AEOLUS:BOOT-5	AEOLUS	2026-10-21	Class row: each direct packet read whole before integration.
+READ	AEOLUS	AGENTS/AEOLUS/inbox/WALTER/*.md	whole	AEOLUS:BOOT-5 WALTER intake	AEOLUS	2026-10-21	Class row: each WALTER handoff read whole.
+READ	AEOLUS	AGENTS/AEOLUS/board_log.tsv	grep	AEOLUS:BOOT-5 WALTER intake step 1	AEOLUS	2026-10-21	Membership test is grep -F per signal id (BOARD_CONSUMPTION_SPEC 5.2).
+READ	AEOLUS	AGENTS/AEOLUS/CALENDAR.md	whole	AEOLUS:BOOT-6	AEOLUS	2026-10-21	
+READ	AEOLUS	scripts/corrections_boot_check.py	summary	AEOLUS:BOOT-6b	AEOLUS	2026-10-21	Script reads WALTER CORRECTIONS register + AEOLUS receipts; bounded verdict only.
+READ	AEOLUS	AGENTS/AEOLUS/*/AGENT.md	whole	AEOLUS:workers spawn brief	AEOLUS	2026-10-21	Class row: worker reads its brief whole; AEOLUS reads it whole when briefing a spawn.
+READ	AEOLUS	AGENTS/AEOLUS/*/README.md	whole	AEOLUS:workers/AGENT.md READ-FIRST	AEOLUS	2026-10-21	Class row.
+READ	AEOLUS	AGENTS/AEOLUS/*/RUN_REPORT.md	whole	AEOLUS:workers return (charter SUB-AGENT contract)	AEOLUS	2026-10-21	Class row: AEOLUS reads each returned worker report whole to adjudicate.
+READ	AEOLUS	AGENTS/AEOLUS/*/workbook/SERIES.tsv	grep	AEOLUS:workers/AGENT.md READ-FIRST	AEOLUS	2026-10-21	Duplicate (date,instrument) test by grep; never whole.
+READ	AEOLUS	AGENTS/AEOLUS/water/SOURCES_ARCHIVE.md	grep	AEOLUS:water/AGENT.md READ-FIRST 1	AEOLUS	2026-10-21	Brief says grep it, never whole (~53 KB).
+READ	AEOLUS	AGENTS/AEOLUS/workbook/SCHEMA.tsv	whole	AEOLUS:CLOSEOUT-2 (KB 'read before writing')	AEOLUS	2026-10-21	
+READ	AEOLUS	AGENTS/AEOLUS/workbook/KB.tsv	grep	AEOLUS:CLOSEOUT-2	AEOLUS	2026-10-21	Append + grep for IDs/refs; never whole.
+READ	AEOLUS	AGENTS/AEOLUS/scripts/domain_log_check.py	summary	AEOLUS:CLOSEOUT-2b	AEOLUS	2026-10-21	Bounded advisory output.
+READ	AEOLUS	AGENTS/AEOLUS/NEXUS_BRIEF.md	whole	AEOLUS:CLOSEOUT-3	AEOLUS	2026-10-21	Rewritten each closeout.
+ATTESTATION	AEOLUS	AGENTS/AEOLUS/CLAUDE.md	manifest-complete	AEOLUS:BOOT-1-7+WALTER-intake+CLOSEOUT-1-5+workers	AEOLUS	2026-10-21	First filing. METHOD: every BOOT/WALTER-intake/CLOSEOUT step and the worker READ-FIRST lists enumerated at HEAD 2026-10-21; modes = what the 10/21 PROME-spawned session did; rows 449/450 confirmed. Packet PROME/inbox/2026-10-21_from-AEOLUS_READS-manifest-attestation.md. Declaration only, NOT a cap PASS.
