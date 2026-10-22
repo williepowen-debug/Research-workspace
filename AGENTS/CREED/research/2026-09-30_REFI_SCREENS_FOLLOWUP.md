@@ -93,6 +93,6 @@
 | 5 | ~~Ask Will before wiring the sweep into `CLAUDE.md` boot order.~~ | **Ruled 2026-10-01: not wired; it stays a manual tool (Will).** |
 | 6 | Verify the agent's CMBS payoff rates (BofA via CREFC, KBRA) before any KB row | **DONE 10/22** (`KB-CREED-066`): the 39% SASB figure is BofA's (via CREFC), not KBRA's; three definitions, never one range. PREREG_2026-10 F2 graded NOT TRIGGERED |
 | 7 | Confirm the FDIC `RSNRES` definition at FFIEC before proposing it as a lane-5 vector | **DONE 10/22** (`KB-CREED-067`): RSNRES = restructured nonfarm-nonres loans in compliance with modified terms, **not** interest reserves; Q2-26 $10.66B. A lane-5 CANDIDATE: adopting it is a definition change (proposal to Will) |
-| 8 | ABS-EE lease-before-maturity screen; form-gated Trepp reports | **Will 10/22:** ABS-EE → *"Scope it first"* (scope page owed by CREED) · Trepp form → Will asked how it works and what it costs (answered in session 10/22; no submission) |
+| 8 | ABS-EE lease-before-maturity screen; form-gated Trepp reports | **Will 10/22:** ABS-EE → *"Scope it first"* (scope page owed by CREED) · Trepp form → **PARKED by Will 17:22 ET** (premise corrected: the Playbook is not confirmed to contain a 2026–28 office stated-vs-hard split) · earlier, Will asked how it works and what it costs (answered in session 10/22; no submission) |
 
 *(Item 5's original note:)* *(The sweep was repaired first, 2026-09-30 evening, CATO RC4: incomplete coverage now exits 2, dates bind per card, `--all` shows every row; saved cases `scripts/test_trepptalk_sweep.py`.)*
