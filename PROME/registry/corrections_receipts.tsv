@@ -57,3 +57,5 @@ receipt_date	correction_id	action	note
 2026-10-22T02:02Z	COR-20261021-11	APPLIED	artifact=HEARTBEAT.md#amendment-2; validation_ref=NONE; 
 2026-10-22T02:02Z	COR-20261021-16	APPLIED	artifact=HEARTBEAT.md#amendment-2; validation_ref=NONE; 
 2026-10-22T02:02Z	COR-20261021-22	APPLIED	artifact=HEARTBEAT.md#amendment-2; validation_ref=NONE; 
+2026-10-22T14:43Z	COR-20261022-04	APPLIED	artifact=PROME/DOCKET.tsv#L787; validation_ref=NONE; 
+2026-10-22T14:44Z	COR-20261022-01	NO-OP	scope=INFO-only to PROME (action VULCAN). Read BOARD/SIG-W-20261022-001 whole. Scoped search of HEARTBEAT.md, PROME/HEARTBEAT_COLD.md, SCRATCH.md, STATUS.md, GATES.tsv and DOCKET.tsv for 4,505 and 4505 finds no PROME cite of the mislabelled close or the -25% figure. VULCAN owns the S5 note replacement and the 164B debt figure stays UNVERIFIED. No PROME grade or figure changed.; 
