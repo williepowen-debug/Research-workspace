@@ -10,6 +10,8 @@
 
 ### WQ-386 — approved amendment applied to original held VLO ×1
 
+**BRENT-published December leg-A observations (October 21, source-(3) ESTIMATES, WQ-420 native-tick basis):** 10/15 98.9213 · 10/16 99.4509 · 10/19 99.8657 · 10/20 100.1768 · **10/21 95.0479**. None is below $95 or $90.16; 10/21 is $0.048 above the notice line. CME settlement not obtained (desk scripts blocked); vendor daily rows rejected. TERRY grades. The question of whether the notice inherits the gate's ±$0.15 band at $95 was routed to TERRY. No holding grade, notice, SELL or order here. [Adoption record](research/2026-10-21_henry-december-adoption/REPORT.md).
+
 Canonical ruling: [PROME § Approved amendment](../../PROME/proposals/2026-10-07_VLO-december-management-RULED.md#approved-amendment). TERRY owns canonical card integration and grades; Will executes. Exact approved operational letter reproduced for this reader path; rationale at [RULINGS](RULINGS.md#r-2026-10-07-wq-386--held-share-month-extension).
 
 > For GATE-TERRY-VLO-HELD-01 leg A only, November matched HOX26×42−CLX26 governs through the October 14, 2026 settlement. December matched HOZ26×42−CLZ26 governs the settlement observations dated October 15 through November 19, 2026, inclusive. Verify named-contract identity on each pull; a continuous ticker or wrong delivery month is rejected. No automatic January roll is authorized.
