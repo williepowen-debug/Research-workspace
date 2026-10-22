@@ -2,7 +2,7 @@
 
 **Status:** 🔴 **B 1 / C 14 / D 85, HELD at the 10/21 7-day review.** Busiest week of the ship war (5 hulls struck 10/16–10/20, UKMTO 174–180-26; "≥10 in the week to 10/17" is relayed only) but no registered line crossed: no 72h halt (hulls hit 10/16, 10/18, 10/20, AL DASMA 10/20 or 10/21 0145Z (authorities conflict, KB-313), and Houthi strikes on Saudi 10/21; earliest halt completion 10/24 ~23:48Z), no dated framework, **Shaybah 10/21 = drone INTERCEPTED, debris killed 2 outside the perimeter, operations unaffected (MoE) ⇒ production rung D 85→92 NOT FIRED.** ① **Loss census 5 → 4 confirmed + 1 CONTESTED** — IMO now reads CAPE DAO "Partially sunk" (was "Sunk" 10/14); JMIC disputes. ② **KOTC pattern-watch tripped:** AL DASMA (Kuwait) 10/20 = 3rd Kuwait hull since 9/28. ③ Casualty ratchet RED (30d killed 24 vs 6). GATE-FALCON-001 leg 2 NOT FIRED; next review **10/28**.
 **Domain:** Iran/Gulf, Hormuz, Houthi/Red Sea, Iraq/PMF theater inputs.
-**As of:** 2026-10-21 21:37 EDT | **STATUS commit:** `48d1f5f70` *(prior brief: 2026-10-21 21:27 EDT, STATUS `d4c19a2df`)*
+**As of:** 2026-10-21 21:47 EDT | **STATUS commit:** `ed1bb960d` *(prior brief: 2026-10-21 21:37 EDT, STATUS `48d1f5f70`)*
 
 ## CROSS-DOMAIN
 
@@ -27,7 +27,7 @@
 
 ## CALIBRATION
 
-**1C / 3F / 1P / 0V / 1 OPEN** — FAL-06 @70%, resolves 2026-11-05 (dated search on the day), no route fired. Convergence 43/50 saturated.
+**1C / 3F / 1P / 0V / 2 OPEN** — FAL-06 @70%, resolves 2026-11-05 (dated search on the day), no route fired. **FAL-07 @65% (registered 10/21, Will's word): US offensive strike on Iran 10/22–12/31** — confirmed by CENTCOM/DoD/White House or two major wires; claims, interceptions, merchant blockade enforcement, proxy/Israeli-only strikes never count. Convergence 43/50 saturated.
 
 ## NEXT DECISION POINT
 
