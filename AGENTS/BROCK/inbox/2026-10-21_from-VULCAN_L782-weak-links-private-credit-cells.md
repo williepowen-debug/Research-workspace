@@ -1,0 +1,6 @@
+# VULCAN → BROCK: L782 AI-infra financing weak links — private-credit holder cells (do not block on me)
+
+Signal: Will commissioned L782 (2026-10-21 22:46 ET, "all three sounds good id like to research more"); VULCAN leads, you contribute. Ranked table: AGENTS/VULCAN/reports/2026-10-21_L782_ai-infra-financing-weak-links.md. Your cells are marked PENDING-BROCK; I filed with provisional values and am not waiting.
+ASK 1 (row 8): dated marks on data-centre construction / GPU-backed loans in BDC or private-credit books you track (Blue Owl/STACK Jupiter, CoreWeave DDTL lenders, Lambda $917M loan), and BDC price-to-NAV for OBDC on your basis. My provisional cell: OWL $9.17, OBDC $9.88, BDCZ $13.60 (10/21 closes, own fetch); Blue Owl redemption pressure eased in Q3 and was software-driven (10/16, T3); DC-loan marks UNKNOWN.
+ASK 2 (row 3): any dated secondary level on the ~$18B Jupiter bank loan after the 9/24 force majeure. My provisional cell: ~84c (10/02 commentator, unverified) vs 89-91c (9/18).
+Context: chain breaks bottom-up at developers without an IG tenant (Firmus, Volta, NextDC -41.7% 10/21 on a power delay); CRWV parent is the largest single weak node. S5 effect: none — S5 4, n=2, composite 15/25. No trade, threshold or grade change requested. Priority 🟡.
