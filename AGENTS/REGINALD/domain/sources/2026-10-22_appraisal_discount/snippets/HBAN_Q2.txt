@@ -1,0 +1,242 @@
+
+----- [line 9484] -----
+ - 
+ - 
+ 216 
+ Liabilities 
+ Short-term borrowings 
+ 131 
+ 7 
+ - 
+ - 
+ 138 
+ Long-term debt 
+ - 
+ 1,161 
+ - 
+ - 
+ 1,161 
+ Derivative liabilities 
+ - 
+ 514 
+ 5 
+ ( 169 ) 
+ 350 
+ (1) Amounts represent the impact of legally enforceable master netting agreements that allow the Company to settle positive and negative positions and cash 
+ collateral held or placed with the same counterparties. 
+ The following table presents a rollforward of the balance sheet amounts measured at fair value on a recurring 
+ basis and classified as Level 3. The classification of an item as Level 3 is based on the significance of the unobservable 
+ inputs to the overall fair value measurement. However, Level 3 measurements may also include observable 
+ components of value that can be validated externally. Accordingly, the gains and losses in the table below include 
+ changes in fair value due in part to observable factors that are part of the valuation methodology. 
+ 2026 2Q Form 10-Q 78 
+ Table of Contents 
+ Level 3 Fair Value Measurements 
+ Available-for-sale securities 
+ Loans held 
+ for 
+ investment 
+ (dollar amounts in millions) 
+ MSRs 
+ Derivative 
+ instruments 
+ Municipal 
+ securities 
+ Private- 
+ label CMO 
+ Asset-backed 
+ securities 
+ Three months ended June 30, 2026 
+ Opening balance 
+ $ 735 
+ $ 6 
+ $ 4,251 
+ $ 20 
+ $ 19 
+ $ 61 
+ Transfers into Level 3 
+ - 
+ - 
+ - 
+ - 
+ - 
+ 3 
+ Transfers out of Level 3 (1) 
+ - 
+ ( 15 ) 
+ - 
+ - 
+ - 
+ - 
+ Total gains (losses) for the period: 
+ Included in earnings: 
+
+----- [line 9984] -----
+ Six Months Ended 
+ (dollar amounts in millions) 
+ Classification 
+ June 30, 2026 
+ June 30, 2025 
+ June 30, 2026 
+ June 30, 2025 
+ Loans held for sale 
+ Mortgage banking income 
+ $ 12 
+ $ 9 
+ $ 4 
+ $ 15 
+ Loans held for investment 
+ Mortgage banking income 
+ ( 1 ) 
+ - 
+ - 
+ ( 1 ) 
+ Long-term debt 
+ Other noninterest income 
+ ( 7 ) 
+ ( 4 ) 
+ 18 
+ ( 5 ) 
+ Assets and Liabilities measured at fair value on a nonrecurring basis 
+ Certain assets and liabilities may be required to be measured at fair value on a nonrecurring basis in periods 
+ subsequent to their initial recognition. These assets and liabilities are not measured at fair value on an ongoing 
+ basis; however, they are subject to fair value adjustments in certain circumstances, for example, when there is 
+ evidence of impairment. The gains (losses) represent the amounts recorded during the period regardless of whether 
+ the asset is still held at period end. 
+ The amounts measured at fair value on a nonrecurring basis were as follows. 
+ Fair Value Measurements Using Significant 
+ Unobservable Inputs (Level 3) 
+ Total Losses 
+ Three Months Ended 
+ Six Months Ended 
+ (dollar amounts in millions) 
+ At June 30, 2026 
+ At December 31, 2025 
+ June 30, 2026 
+ June 30, 2025 
+ June 30, 2026 
+ June 30, 2025 
+ Collateral-dependent loans 
+ $ 143 
+ $ 74 
+ $ ( 51 ) 
+ $ ( 20 ) 
+ $ ( 88 ) 
+ $ ( 43 ) 
+ Huntington records nonrecurring adjustments of collateral-dependent loans held for investment. Such amounts 
+ are generally based on the fair value of the underlying collateral supporting the loan. Appraisals are generally 
+ obtained to support the fair value of the collateral and incorporate measures such as recent sales prices for 
+ comparable properties and cost of construction. Periodically, in cases where the carrying value exceeds the fair 
+ value of the collateral less cost to sell, an impairment charge is recognized in the form of a charge-off. 
+ 2026 2Q Form 10-Q 81 
+ Table of Contents 
+ Significant unobservable inputs for assets and liabilities measured at fair value 
+ The following table presents quantitative information about the significant unobservable inputs for assets and 
+ liabilities measured at fair value. 
+ Quantitative Information about Level 3 Fair Value Measurements (1) 
+ At June 30, 2026 
+ At December 31, 2025 
+ (dollar amounts in millions) 
+ Valuation Technique 
+ Significant Unobservable Input 
+ Range 
+ Weighted 
+ Average 
+ Range 
+ Weighted 
+ Average 
+ Measured at fair value on a recurring basis: 
+ MSRs 
+ Discounted cash flow 
+ Constant prepayment rate 
+ 7 % 
+ - 
+ 64 % 
+ 8 % 
+ 6 % 
+ - 
+ 61 % 
+ 8 % 
+ Spread over forward interest 
+ rate swap rates 
+ 5 % 
+ - 
+ 11 % 
+ 5 % 
+ 5 % 
+ - 
+ 11 % 
+ 5 % 
+ Municipal securities and asset- 
+ backed securities 
+ Discounted cash flow 
+ Discount rate 
+ 4 % 
+ - 
+ 5 % 
+ 4 % 
+ 4 % 
+ - 
+ 4 % 
+ 4 % 
+ Cumulative default 
+ - % 
+ - 
+ 64 % 
+ 3 % 
+ - % 
+ - 
+ 64 % 
+ 3 % 
+ Loss given default (2) 
+ 20 % 
+ 20 % 
+ (1) Certain disclosures related to quantitative level 3 fair value measurements do not include those deemed to be immaterial. 
+ (2) The range is not meaningful for this unobservable input. 
+ The following provides a general description of the impact of a change in an unobservable input on the fair value 
+ measurement and the interrelationship between unobservable inputs, where relevant/significant. Interrelationships 
+ may also exist between observable and unobservable inputs. 
+ Components of credit loss estimates including probability of default, constant default, cumulative default, loss 
+ given default, cure given deferral, and loss severity, are driven by the ability of the borrowers to pay their loans and 
+ the value of the underlying collateral and are impacted by changes in macroeconomic conditions, typically increasing 
+ when economic conditions worsen and decreasing when conditions improve. An increase in the estimated 
+ prepayment rate typically results in a decrease in estimated credit losses and vice versa. Higher credit loss estimates 
+ generally result in lower fair values. Credit spreads generally increase when liquidity risks and market volatility 
+ increase and decrease when liquidity conditions and market volatility improve. 
+ Discount rates and spread over forward interest rate swap rates typically increase when market interest rates 
+ increase and/or credit and liquidity risks increase and decrease when market interest rates decline and/or credit and 
+ liquidity conditions improve. Higher discount rates and credit spreads generally result in lower fair market values. 
+ Fair values of financial instruments 
+ Many of the assets and liabilities subject to the disclosure requirements are not actively traded, requiring fair 
+ values to be estimated by management. These estimations necessarily involve the use of judgment about a wide 
+ variety of factors, including, but not limited to, relevancy of market prices of comparable instruments, expected 
+ future cash flows, and appropriate discount rates. 
+ The short-term nature of certain assets and liabilities result in their carrying value approximating fair value. 
+ These include trading account assets, customers' acceptance liabilities, short-term borrowings, bank acceptances 
+ outstanding, and cash and short-term assets, which include cash and due from banks and interest-earning deposits 
+ with banks. Loan commitments and letters-of-credit generally have short-term, variable-rate features and contain 
+ clauses that limit Huntington's exposure to changes in customer credit quality. Accordingly, their carrying values, 
+ which are immaterial at the respective balance sheet dates, are reasonable estimates of fair value. 
+ Certain assets, the most significant being operating lease assets, bank-owned life insurance, and premises and 
+ equipment, do not meet the definition of a financial instrument and are excluded from this disclosure. Similarly, 
+ mortgage servicing rights and relationship intangibles are not considered financial instruments and are not included 
+ in the following tables. Accordingly, this fair value information is not intended to, and does not, represent 
+ Huntington's underlying value. 
+ 2026 2Q Form 10-Q 82 
+ Table of Contents 
+ The following table provides the carrying amounts and estimated fair values of Huntington's financial 
+ instruments. 
+ (dollar amounts in millions) 
+ Amortized Cost 
+ Lower of Cost or 
+ Market 
+ Fair Value or 
+ Fair Value Option 
+ Total Carrying 
+ Amount 
+ Estimated Fair 
+ Value 
+ At June 30, 2026 
+ Financial Assets 
+ Cash and short-term assets 
+ $ 16,044 

@@ -1,0 +1,148 @@
+
+----- [line 4270] -----
+ $ 
+ 274,387 
+ $ 
+ 9,074,420 
+ $ 
+ 9,348,807 
+ Derivative liabilities 
+ $ 
+ - 
+ $ 
+ ( 79,816 ) 
+ $ 
+ ( 79,816 ) 
+ Total liabilities at fair value 
+ $ 
+ - 
+ $ 
+ ( 79,816 ) 
+ $ 
+ ( 79,816 ) 
+ 31 
+ Table of Contents 
+ BANKUNITED, INC. AND SUBSIDIARIES 
+ NOTES TO CONSOLIDATED FINANCIAL STATEMENTS 
+ June 30, 2026 
+ Assets and liabilities measured at fair value on a non-recurring basis 
+ The following is a description of the methodologies used to estimate the fair values of assets and liabilities that may be measured at fair value on a non-recurring basis, and the level within the fair value hierarchy in which those measurements are typically classified: 
+ Collateral dependent loans and OREO -The carrying amount of collateral dependent loans is typically based on the fair value of the underlying collateral, which may be real estate, enterprise value or other business assets, less estimated costs to sell when repayment is expected to come from the sale of the collateral. The carrying value of OREO is initially measured based on the fair value of the real estate acquired in foreclosure and subsequently adjusted to the lower of cost or estimated fair value, less estimated cost to sell. Fair values of real estate collateral and OREO are typically based on third-party real estate appraisals which utilize market and income approaches to valuation incorporating both observable and unobservable inputs. 
+ Fair value measurements related to collateral dependent loans and OREO are generally classified within level 3 of the fair value hierarchy. 
+ The following table presents the net carrying value of assets classified within level 3 of the fair value hierarchy at the dates indicated, for which non-recurring changes in fair value were recorded during the period then ended (in thousands): 
+ June 30, 2026 
+ December 31, 2025 
+ Collateral dependent loans 
+ $ 
+ 74,984 
+ $ 
+ 183,259 
+ OREO 
+ 963 
+ 512 
+ $ 
+ 75,947 
+ $ 
+ 183,771 
+ The following table presents the carrying value and fair value of financial instruments and the level within the fair value hierarchy in which those measurements are classified at the dates indicated (dollars in thousands): 
+ June 30, 2026 
+ December 31, 2025 
+ Level 
+ Carrying Value 
+ Fair Value 
+ Carrying Value 
+ Fair Value 
+ Assets: 
+ Cash and cash equivalents 
+ 1 
+ $ 
+ 367,873 
+ $ 
+ 367,873 
+ $ 
+ 217,784 
+ $ 
+ 217,784 
+ Investment securities 
+ 1/2 
+ $ 
+ 9,317,614 
+ $ 
+ 9,317,614 
+ $ 
+ 9,263,651 
+ $ 
+ 9,263,651 
+ Non-marketable equity securities 
+
+----- [line 5762] -----
+ 145,204 
+ 2 
+ % 
+ 49 
+ % 
+ 2 
+ % 
+ 49 
+ % 
+ 2.96 
+ 47.0 
+ % 
+ $ 
+ 6,810,871 
+ 100 
+ % 
+ 48 
+ % 
+ 22 
+ % 
+ 30 
+ % 
+ 1.82 
+ 55.3 
+ % 
+ Geographic distribution in the table above is based on location of the underlying collateral property. LTVs and DSCRs are based on the most recent available information; if current appraisals are not available, LTVs are adjusted by our models based on current and forecasted sub-market dynamics. DSCRs are calculated based on current contractually required payments, which in some cases may be interest only and on current levels of operating cash flows. DSCR calculations do not include secondary forms of repayment or pro-forma rental payments on in-place leases that are currently in initial rent abatement periods. 
+ Included in New York tri-state multifamily loans in the tables above is approximately $99 million of rent regulated exposure as of June 30, 2026. 
+ 44 
+ The following table presents information about CRE loans maturing in the next 12 months by property type at June 30, 2026 (dollars in thousands). 13% of the total CRE portfolio, with a weighted average coupon rate of 4.29%, is fixed rate to the borrower and maturing in the next 12 months. 
+ Maturing in the Next 12 Months 
+ % Maturing in the Next 12 Months 
+ Fixed Rate or Swapped Maturing Next 12 Months 
+ Fixed Rate to Borrower Maturing in Next 12 Months as a % of Total Portfolio 
+ Office 
+ $ 
+ 482,426 
+ 35 
+ % 
+ $ 
+ 282,030 
+ 20 
+ % 
+ Warehouse/Industrial 
+ 408,291 
+ 24 
+ % 
+ 179,580 
+ 11 
+ % 
+ Multifamily 
+ 300,515 
+ 25 
+ % 
+ 134,093 
+ 11 
+ % 
+ Retail 
+ 254,935 
+ 17 
+ % 
+ 177,893 
+ 12 
+ % 
+ Hotel 
+ 214,397 
+ 49 
+ % 
+ 143,346 
+ 33 
+ % 

@@ -83,6 +83,13 @@
 | **SR 07-1 ratio** | **470.5%** | **327.5%** | **−143pp, and it FELL IN ALL 11 QUARTERS** |
 
 **⇒ HYPOTHESIS REFUTED, and not narrowly: the ratio is not rising — it has fallen 143pp — and the denominator is not shrinking (capital is flat), so a shrinkage artifact is arithmetically impossible here.** The fall is driven **entirely** by a numerator down a third.
+⚠️ **Basis note (added 2026-10-22; FLG packet `5148e16b9`, re-verified by REGINALD at FDIC `api.fdic.gov` cert 32541, 12:1x ET).** The span crosses the 10/17/2025 holding-company merger into the bank (8-K acc 0000910073-25-000149). The bank assumed the holdco's sub-debt, so Tier 2 went 789.7 → 1,572.4M and Tier 1 went 8,832 → 8,348M: **total RBC +$298.8M (+3.1%) in 2025Q4 alone.**
+- **2025Q4 split:** of that quarter's −38.1pp (399.5 → 361.4%), **−26.8pp is numerator run-off and −11.3pp is basis** (Q4 numerator ÷ Q3 denominator = 372.7%).
+- **On the headline −143pp:** ≈132pp is organic and ≈11pp is basis.
+- **"Essentially FLAT" is true end to end** but hides a +3.1% step. Any pace-to-300% estimate that includes 2025Q4 is flattered by it.
+- **The refutation above stands.** The ratio fell every quarter and the numerator did the work.
+- **Cohort caution:** post-merger FLG releases relabel pre-merger holdco capital as "the Bank". Read FLG capital history from the Call Report, not from releases.
+
 ✅ **But DAEDALUS's composition intuition was RIGHT:** multifamily *is* the stickiest leg — construction **−55.6%**, non-OO CRE **−40.8%**, multifamily only **−28.6%**. It just does not produce the artifact, because capital held.
 
 ### 🔴 What this DOES change — the level score stands, the story around it does not

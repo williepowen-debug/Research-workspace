@@ -1,0 +1,216 @@
+
+----- [line 5259] -----
+are	eligible	to	participate	in	the	Omnibus	Plan.	The	Bank	has	granted	restricted	stock	and	PSUs	as	its	primary	stock-based	incentive	
+awards.
+
+Stock-based	compensation	expense	for	restricted	stock	awards	and	PSUs	included	in	non-interest	expense	was	$4.6	million	and	
+$6.2	million	for	the	three	months	ended	June	30,	2026	and	2025,	respectively,	and	$10.5	million	and	$12.2	million	for	the	six	months	
+ended	June	30,	2026	and	2025,	respectively.	Unrecognized	compensation	expense	for	non-vested	restricted	stock	awards	and	PSUs	
+was	$37.7	million	at	June	30,	2026	and	is	expected	to	be	recognized	over	a	weighted-average	period	of	approximately	2.0	years.
+
+11.	 Fair	Value	Measurements
+
+The	Bank	measures	certain	of	its	assets	and	liabilities	on	a	fair	value	basis	using	various	valuation	techniques	and	assumptions,	
+
+depending	on	the	nature	of	the	asset	or	liability.	Fair	value	is	defined	as	the	price	that	would	be	received	to	sell	an	asset	or	paid	to	
+transfer	a	liability	in	an	orderly	transaction	between	market	participants	at	the	measurement	date.	Additionally,	fair	value	is	used	
+either	on	a	periodic	basis,	typically	at	least	quarterly,	or	on	a	non-recurring	basis	to	evaluate	certain	assets	and	liabilities	for	
+impairment	or	for	disclosure	purposes.	At	June	30,	2026	and	December	31,	2025,	the	Bank	had	no	material	liabilities	that	were	
+accounted	for	at	fair	value.
+
+The	Bank	applies	the	following	fair	value	hierarchy.
+
+Level	1	–	Quoted	prices	for	identical	instruments	in	active	markets.
+
+Level	2	–	Quoted	prices	for	similar	instruments	in	active	markets;	quoted	prices	for	identical	or	similar	instruments	in	
+markets	that	are	not	active;	and	model	derived	valuations	whose	inputs	are	observable.
+
+Level	3	–	Instruments	whose	inputs	are	unobservable.
+
+24
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+The	following	table	sets	forth	the	Bank’s	assets	that	are	accounted	for	at	fair	value	as	of	the	dates	indicated.
+
+June	30,	2026:
+Investment	securities:
+
+U.S.	Government	agency	mortgage-backed	securities
+Obligations	of	state	and	political	subdivisions
+Corporate	obligations
+
+Total	investment	securities
+
+Nonaccrual	loans(1)
+Foreclosed	assets
+Total
+
+December	31,	2025:
+Investment	securities:
+
+----- [line 5425] -----
+
+(1)	At	June	30,	2026	and	December	31,	2025,	the	Bank	had	reduced	the	carrying	value	of	its	nonaccrual	loans	to	the	estimated	fair	value	of	$286.7	
+
+million	and	$327.2	million,	respectively.	The	adjustment	to	reduce	the	carrying	value	of	such	nonaccrual	loans	to	the	estimated	fair	value	
+included	$13.7	million	and	$14.0	million	of	ALL	allocations	at	June	30,	2026	and	December	31,	2025,	respectively.
+
+The	following	table	presents	information	on	Level	3	non-recurring	fair	value	measurements	as	of	the	date	indicated.
+
+Description
+
+Nonaccrual	Loans
+
+Foreclosed	Assets
+
+$	
+
+$	
+
+Fair	Value	at	
+June	30,	2026
+
+Technique
+
+(Dollars	in	thousands)
+
+Unobservable	Inputs
+
+286,664	 Third-party	appraisal	(1)	
+or	discounted	cash	flows
+
+Management	discount	based	on	underlying	
+collateral	characteristics	and	market	conditions
+
+292,744	 Third-party	appraisal,	(1)	
+
+broker	price	opinions	
+and/or	discounted	cash	
+flows
+
+1.		Management	discount	based	on	underlying	
+collateral	characteristics	and	market	conditions
+2.		Discount	rate
+3.		Holding	period
+
+(1) The	Bank	utilizes	valuation	techniques	consistent	with	the	market,	cost,	and	income	approaches,	or	a	combination	thereof	in	determining	fair	
+
+value.
+
+25
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+----- [line 5585] -----
+	 18,283,584	
+537	
+349,389	
+113,652	
+
+	 18,470,160	
+734	
+340,811	
+114,290	
+
+The	following	methods	and	assumptions	were	used	to	estimate	the	fair	value	of	the	Bank’s	assets,	liabilities	and	financial	
+
+instruments.
+
+Cash	and	cash	equivalents	–	For	these	short-term	instruments,	the	carrying	amount	of	cash	and	cash	equivalents,	including	
+
+interest	earning	deposits	and	due	from	banks,	is	a	reasonable	estimate	of	fair	value.
+
+Investment	securities	–	The	Bank	utilizes	independent	third	parties	as	its	principal	pricing	sources	for	determining	fair	value	
+
+of	investment	securities	which	are	measured	on	a	recurring	basis.	As	a	result,	the	Bank	receives	estimates	of	fair	value	from	at	
+least	two	independent	pricing	sources	for	the	majority	of	its	individual	securities	within	its	investment	portfolio.	For	investment	
+securities	traded	in	an	active	market,	fair	values	are	based	on	quoted	market	prices	if	available.	If	quoted	market	prices	are	not	
+available,	fair	values	are	based	on	quoted	market	prices	of	comparable	securities,	broker	quotes,	comprehensive	interest	rate	
+tables,	pricing	matrices	or	a	combination	thereof.	For	investment	securities	traded	in	a	market	that	is	not	active,	fair	value	is	
+determined	using	unobservable	inputs.	All	fair	value	estimates	of	the	Bank’s	investment	securities	are	reviewed	on	a	quarterly	
+basis.	
+
+Loans	–	The	fair	value	of	loans	is	estimated	by	discounting	the	expected	future	cash	flows	using	the	current	rate	at	which	
+
+similar	loans	would	be	made	to	borrowers	with	similar	credit	ratings	and	for	the	same	remaining	maturities.
+
+Deposit	liabilities	–	The	fair	value	of	demand	deposits,	savings	accounts,	money	market	deposits	and	other	transaction	
+accounts	is	the	amount	payable	on	demand	at	the	reporting	date.	The	fair	value	of	fixed	maturity	time	deposits	is	estimated	
+discounting	the	expected	future	cash	flows	using	the	current	rates	available	for	deposits	of	similar	remaining	maturities.
+
+Other	borrowed	funds	–	For	these	short-term	instruments,	the	carrying	amount	is	a	reasonable	estimate	of	fair	value.	
+
+Subordinated	notes	–	The	fair	values	of	these	instruments	are	based	upon	observable	market	inputs.
+
+Subordinated	debentures	–	The	fair	values	of	these	instruments	are	based	primarily	upon	discounted	cash	flows	using	rates	
+
+for	securities	with	similar	terms	and	remaining	maturities.
+
+Off-balance	sheet	instruments	–	The	fair	values	of	letters	of	credit	are	based	on	fees	currently	charged	to	enter	into	similar	
+agreements,	taking	into	account	the	remaining	terms	of	the	agreements.	The	fair	values	of	outstanding	letters	of	credit	were	not	
+material	at	June	30,	2026	or	December	31,	2025.	
+
+The	fair	values	of	certain	of	these	instruments	were	calculated	by	discounting	expected	cash	flows,	which	contain	numerous	
+
+uncertainties	and	involve	significant	judgments	by	management.	Fair	value	is	the	estimated	amount	at	which	financial	assets	or	
+liabilities	could	be	exchanged	in	a	current	transaction	between	willing	parties	other	than	in	a	forced	or	liquidation	sale.	Because	no	
+market	exists	for	certain	of	these	financial	instruments,	the	Bank	does	not	know	whether	these	fair	values	represent	values	at	which	
+the	respective	financial	instruments	could	be	sold	individually	or	in	the	aggregate.
+
+26
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

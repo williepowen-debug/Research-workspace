@@ -1,0 +1,228 @@
+
+----- [line 4171] -----
+ $ 
+ 1,043,345 
+ $ 
+ ( 620 ) 
+ $ 
+ 559 
+ 1 These amounts represent the amortized cost basis of closed portfolios used to designate hedging relationships in which the hedged item is the stated amount of assets in the closed portfolios anticipated to be outstanding for the designated hedge period. At June 30, 2026, the portfolio layer method was $ 250 million, of which $ 250 million was designated as hedged. At December 31, 2025, the portfolio layer method was $ 400 million, of which $ 400 million was designated as hedged. 
+ Note 7 - Securities Sold Under Agreements to Repurchase 
+ Securities sold under agreements to repurchase are accounted for as secured borrowings. For securities sold under agreements to repurchase, the Company is required to pledge collateral with value sufficient to fully collateralize borrowings. Company securities pledged were as follows by collateral type and maturity, as of: 
+ (In thousands) 
+ June 30, 2026 
+ December 31, 2025 
+ Fair value of pledged securities - overnight and continuous: 
+ Mortgage-backed securities and collateralized mortgage obligations of U.S. government-sponsored entities 
+ $ 
+ 538,879 
+ $ 
+ 512,066 
+ Note 8 - Regulatory Capital 
+ The Company is well-capitalized and at June 30, 2026, the Company and the Company's principal banking subsidiary, Seacoast Bank, exceeded the CET1 capital ratio regulatory threshold of 6.5 % for well-capitalized institutions under the Basel III standardized transition approach, as well as risk-based and leverage ratio requirements for well-capitalized banks under the regulatory framework for prompt corrective action. 
+ Note 9 - Contingent Liabilities 
+ The Company and its subsidiaries, because of the nature of their business, are at all times subject to numerous legal actions, threatened or filed. Management presently believes that none of the legal proceedings to which it is a party are likely to have a materially adverse effect on the Company's consolidated financial condition, operating results or cash flows. 
+ 30 
+ Table of Contents 
+ Note 10 - Fair Value 
+ Under ASC Topic 820, fair value measurements for items measured at fair value on a recurring and nonrecurring basis at June 30, 2026 and December 31, 2025 included: 
+ (In thousands) 
+ Fair Value Measurements 
+ Quoted Prices in Active Markets for Identical Assets (Level 1) 
+ Significant Other Observable Inputs (Level 2) 
+ Significant Unobservable Inputs (Level 3) 
+ At June 30, 2026 
+ Financial Assets 
+ Debt securities AFS 1 
+ $ 
+ 5,174,602 
+ $ 
+ 100 
+ $ 
+ 5,174,502 
+ $ 
+ - 
+ Derivative financial instruments 2 
+ 26,161 
+ - 
+ 25,838 
+ 323 
+ Loans held for sale 2 
+ 18,565 
+ - 
+ 18,565 
+ - 
+ OREO 3 
+ 3,473 
+ - 
+ - 
+ 3,473 
+ Equity securities 4 
+ 13,785 
+ 13,785 
+ - 
+ - 
+ MSR 5 
+ 26,784 
+ - 
+ - 
+ 26,784 
+ Financial Liabilities 
+ Derivative financial instruments 2 
+ $ 
+ 21,022 
+ $ 
+ - 
+ $ 
+ 21,022 
+
+----- [line 4271] -----
+ - 
+ - 
+ 4,250 
+ Equity securities 4 
+ 13,923 
+ 13,923 
+ - 
+ - 
+ MSR 5 
+ 28,061 
+ - 
+ - 
+ 28,061 
+ Financial Liabilities 
+ Derivative financial instruments 2 
+ $ 
+ 25,483 
+ $ 
+ - 
+ $ 
+ 25,389 
+ $ 
+ 94 
+ 1 See &#8220;Note 3 - Securities&#8221; for further detail of fair value of individual investment categories. 
+ 2 Recurring fair value basis determined using observable market data for level 2 inputs. Level 3 inputs utilize a market approach that incorporates a pull-through rate assumption. 
+ 3 Fair value is measured on a nonrecurring basis. 
+ 4 Investment in shares of mutual funds that invest primarily in CRA-qualified debt securities, reported at fair value in Other assets. Recurring fair value basis is determined using market quotations with fair value adjustments recognized in earnings. 
+ 5 Recurring fair value basis determined using unobservable market data. Refer to &#8220;Note 8 - Goodwill and Acquired Intangible Assets&#8221; in the Company's Annual Report on Form 10-K for the year ended December 31, 2025 for additional details on assumptions utilized. 
+ 31 
+ Table of Contents 
+ Derivative financial instruments : The fair value of these derivatives is based on a discounted cash flow approach. Due to the observable nature of the inputs used in deriving the fair value of these derivative contracts, the valuation of interest rate swaps and forward TBA mortgage-backed securities is classified as Level 2. The fair values of these instruments are based upon the estimated amount the Company would receive or pay to terminate the instruments, taking into account current interest rates and, when appropriate, the current credit worthiness of the counterparties. IRLCs and forward loan sale commitment fair values are estimated based on quoted prices for similar loans in active markets. However, the value is adjusted by a factor which considers the likelihood of a loan in a lock position will ultimately close. This closing ratio is derived from internal data and is adjusted using significant accounting judgment. As such, these derivatives are classified as Level 3 measurements and the Company values these derivatives primarily using a market approach that incorporates flow mandatory market pricing, adjusted for expected pull&#8209;through based on historical experience. For IRLCs, the weighted-average pull-through rate was 93 % and 94 % at June 30, 2026 and December 31, 2025, respectively, while the weighted-average current reference price was 101.33 % and 101.26 %, respectively. For forward loan sale commitments, the weighted-average pull-through rate was 100 % at both June 30, 2026 and December 31, 2025, while the weighted-average current reference price was 101.45 % and 101.12 %, respectively. 
+ Loans and OREO: Fair values of collateral-dependent real estate loans and OREO are based on recent real estate appraisals less estimated costs of sale. Evaluations may use either a single valuation approach or a combination of approaches, such as comparative sales, cost, and/or income approach. Adjustments to comparable sales may be made by an appraiser to reflect local market conditions or other economic factors and may result in changes in the fair value of an asset over time, but none were made by management. The fair values of these loans and properties are considered Level 3 in the fair value hierarchy. There were no collateral-dependent loans measured at fair value at both June 30, 2026 and December 31, 2025. 
+ MSRs : The fair value of these servicing rights is based on an income approach. Various unobservable inputs to assumptions including expected cash flows, market discount rates, prepayment rates, servicing costs, and other factors are utilized, therefore the valuation of MSRs is classified as Level 3. 
+ The following table presents changes in the Company's MSRs measured at fair value for the three and six months ended June 30, 2026. There was no MSR balance during the three and six months ended June 30, 2025: 
+ Three Months Ended 
+ Six Months Ended 
+ (In thousands) 
+ June 30, 2026 
+ Carrying value at beginning of period 
+ $ 
+ 27,374 
+ $ 
+ 28,061 
+ Acquired 
+ - 
+ - 
+ Originated servicing rights capitalized upon sale of loan 
+ 600 
+ 931 
+ Change in fair value: 
+ Due to payoffs/paydowns 
+ ( 835 ) 
+ ( 1,483 ) 
+ Due to change in valuation inputs or assumptions 
+ ( 355 ) 
+ ( 725 ) 
+ Carrying value at end of period 
+ $ 
+ 26,784 
+ $ 
+ 26,784 
+ 32 
+ Table of Contents 
+ The following table presents data and key economic assumptions, as well as the valuation's sensitivity to interest rate fluctuations, related to the Company's MSRs as of: 
+ (In thousands) 
+ June 30, 2026 
+ December 31, 2025 
+ Unpaid principal balance 
+ $ 
+ 2,412,887 
+ $ 
+ 2,540,798 
+ Prepayment rate assumptions: 
+ Weighted-average 
+ 12.07 
+ % 
+ 12.74 
+
+----- [line 4367] -----
+ ( 1,163 ) 
+ Estimated impact on fair value of a 200 basis point increase 
+ ( 2,074 ) 
+ ( 2,232 ) 
+ Weighted-average coupon interest rate 
+ 4.77 
+ % 
+ 4.78 
+ % 
+ Weighted-average servicing fee 
+ 0.25 
+ 0.25 
+ Weighted-average remaining maturity (in months) 
+ 348 
+ 348 
+ The sensitivity calculations above are hypothetical changes and should not be considered to be predictive of future performance. Changes in fair value based on variations in assumptions generally cannot be extrapolated because the relationship of the change in assumption to the change in fair value may not be linear. Also, the effect of a variation in a particular assumption on the fair value is calculated without changing any other assumption, while in reality changes in one factor may result in changes in another, which may either magnify or counteract the effect of the change. 
+ For recurring fair value measurements, transfers between levels of the fair value hierarchy are recognized on the actual date of the event or circumstances that caused the transfer, which generally coincides with the Company's monthly and/or quarterly valuation process. During the six months ended June 30, 2026, there were no such transfers. 
+ For additional information on the valuation techniques and significant inputs for Level 2 and Level 3 assets and liabilities that are measured at fair value on a recurring basis, see &#8220;Note 16 - Fair Value&#8221; of the Annual Report on Form 10-K for the year ended December 31, 2025. 
+ 33 
+ Table of Contents 
+ The carrying amount and fair value of the Company's other financial instruments that were not disclosed previously in the balance sheet and for which carrying amount is not fair value as of June 30, 2026 and December 31, 2025 is as follows: 
+ (In thousands) 
+ Carrying Amount 
+ Quoted Prices in Active Markets for Identical Assets (Level 1) 
+ Significant Other Observable Inputs (Level 2) 
+ Significant Unobservable Inputs (Level 3) 
+ June 30, 2026 
+ Financial Assets 
+ HTM debt securities 1 
+ $ 
+ 564,067 
+ $ 
+ - 
+ $ 
+ 465,718 
+ $ 
+ - 
+ Loans, net 
+ 12,963,389 
+ - 
+ 155,803 
+ 12,572,349 
+ Financial Liabilities 
+ Deposits 
+ 16,792,295 
+ - 
+ - 
+ 16,791,947 
+ FHLB borrowings 
+ 835,000 
+ - 
+ 835,044 
+ - 
+ Subordinated debt 
+ 95,515 
+ - 
+ 92,149 
+ - 
+ December 31, 2025 
+ Financial Assets 
+ HTM debt securities 1 
+ $ 
+ 586,178 
+ $ 
+ - 
+ $ 
+ 489,560 
+ $ 
+ - 
+ Time deposits with other banks 

@@ -1,0 +1,74 @@
+
+----- [line 4481] -----
+ Purchases 
+ 2 
+ - 
+ 1 
+ - 
+ Cost of investments sold 
+ - 
+ - 
+ ( 1 ) 
+ - 
+ Transfers out 
+ - 
+ - 
+ - 
+ - 
+ Balance at end of period 
+ $ 
+ 159 
+ $ 
+ 20 
+ $ 
+ 109 
+ $ 
+ 19 
+ There were no realized gains or losses related to Level 3 instruments recognized in &#8220;Securities gains (losses), net&#8221; on the consolidated statement of income for the periods presented. 
+ Nonrecurring Fair Value Measurements 
+ Certain assets and liabilities are measured at fair value on a nonrecurring basis. These include impaired loans measured at the fair value of the underlying collateral, other real estate owned (&#8220;OREO&#8221;), and equity investments without readily determinable fair values. Nonrecurring fair value adjustments generally arise from observable price changes for such equity investments, write-downs of individual assets, or the application of lower of cost or fair value accounting. 
+ At March 31, 2026, we had no collateral-dependent loans measured at fair value. During the first quarter of 2026, we recognized no losses related to changes in fair value for these loans. For more information on assets and liabilities measured at fair value on a nonrecurring basis, see Note 3 of our 2025 Form 10-K. 
+ Fair Value of Certain Financial Instruments 
+ The following schedule presents the carrying values and estimated fair values of certain financial instruments: 
+ March 31, 2026 
+ December 31, 2025 
+ (In millions) 
+ Carrying value 
+ Fair value 
+ Level 
+ Carrying value 
+ Fair value 
+ Level 
+ Financial assets: 
+ Held-to-maturity investment securities 
+ $ 
+ 8,688 
+ $ 
+ 8,696 
+ 2 
+ $ 
+ 8,867 
+ $ 
+ 8,940 
+ 2 
+ Loans and leases (including loans held for sale), net of allowance 
+ 60,785 
+ 59,775 
+ 3 
+ 60,423 
+ 59,383 
+ 3 
+ Financial liabilities: 
+ Time deposits 
+ 9,661 
+ 9,571 
+ 2 
+ 9,907 
+ 9,839 
+ 2 
+ Long-term debt 
+ 1,963 
+ 1,974 
+ 2 
+ 1,472 
+ 1,506 

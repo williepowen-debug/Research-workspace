@@ -1,0 +1,408 @@
+
+----- [line 13332] -----
+ &#8203; 
+ &#8203; 
+ 1,484 
+ &#8203; 
+ &#8203; 
+ 2,250 
+ 152 %
+ &#8203; 
+ Total collateral dependent loans 
+ &#8203; 
+ $ 
+ 92,584 
+ &#8203; 
+ $ 
+ 119,046 
+ &#8203; 
+ &#8203; 
+ $
+ 128,753 
+ &#8203; 
+ $
+ 152,355 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ The Bank designates individually evaluated loans on non-accrual with a net book balance exceeding the designated threshold as collateral dependent loans. Collateral dependent loans are loans for which the repayment is expected to be provided substantially through the operation or sale of the collateral and the borrower is experiencing financial difficulty. These loans do not share common risk characteristics and are not included within the collectively evaluated loans for determining the ACL. The Bank has adopted the collateral maintenance practical expedient to measure the ACL based on the fair value of collateral. The ACL is calculated on an individual loan basis based on the shortfall between the fair value of the loan's collateral, which is adjusted for selling costs, and amortized cost. If the fair value of the collateral exceeds the amortized cost, no allowance is required . The Bank's threshold for individually evaluated loans is $ 1.0 million. The changes above in collateral percentage are generally due to appraisal value updates or changes in the number of loans within the asset class and collateral type. Overall collateral dependent loans decreased $ 36.2 million during the six months ended June 30, 2026. 
+ &#8203; 
+ Loans on nonaccrual status at the date of modification are initially classified as nonaccrual. Loans on accruing status at the date of modification are initially classified as accruing if the note is reasonably assured of repayment and performance is expected in accordance with its modified terms. Such loans may be designated as nonaccrual loans subsequent to the modification date if reasonable doubt exists as to the collection of interest or principal under the modification agreement. Nonaccrual loans are returned to accruing status when there is economic substance to the modification, there is documented credit evaluation of the borrower's financial condition, the remaining balance is reasonably assured of repayment in accordance with its modified terms, and the borrower has demonstrated sustained repayment performance in accordance with the modified terms for a reasonable period of time (generally a minimum of six months ). See Note 1 - Summary of Significant Accounting Policies of the 2025 Form 10-K for how such modifications are factored into the determination of the ACL for the periods presented above . 
+ &#8203; 
+ The following tables present loans designated as modifications made to borrowers experiencing financial difficulty during the three and six months ended June 30, 2026, and 2025, respectively. The loans are segregated by type of modification and asset class, indicating the financial effect of the modifications. There were no combination interest rate reduction and payment delay modifications for the three and six months ended June 30, 2026. There were no combination interest rate reduction and payment delay modifications for the three months ended June 30, 2025.
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ Three Months Ended June 30, 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ 2026 
+ &#8203; 
+ 2025 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ Reduction in Weighted 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ Reduction in Weighted 
+
+----- [line 18770] -----
+ In Active 
+ &#8203; 
+ Significant 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ Markets 
+ &#8203; 
+ Other 
+ &#8203; 
+ Significant 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ for Identical 
+ &#8203; 
+ Observable 
+ &#8203; 
+ Unobservable 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ Assets 
+ &#8203; 
+ Inputs 
+ &#8203; 
+ Inputs 
+ (Dollars in thousands) 
+ &#8203; 
+ Fair Value 
+ &#8203; 
+ (Level 1) 
+ &#8203; 
+ (Level 2) 
+ &#8203; 
+ (Level 3) 
+ June 30, 2026: 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ Assets 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+
+----- [line 19423] -----
+ 5,512 
+ &#8203; 
+ Servicing assets that resulted from transfers of financial assets
+ &#8203; 
+ &#8203; 
+ 231 
+ &#8203; 
+ Changes in fair value due to decay
+ &#8203; 
+ &#8203; 
+ ( 858 ) 
+ &#8203; 
+ Changes in fair value due to valuation inputs or assumptions 
+ &#8203; 
+ &#8203; 
+ 69 
+ &#8203; 
+ Fair value, June 30, 2026
+ &#8203; 
+ $ 
+ 4,954 
+ &#8203; 
+ &#8203; 
+ There were no unrealized losses included in accumulated other comprehensive income related to Level 3 financial assets and liabilities at June 30, 2026.
+ See Note 17 - Mortgage Loan Servicing, Obligation, and Loans Held for Sale for information about recurring Level 3 fair value measurements of mortgage servicing rights.
+ Assets and Liabilities Recorded at Fair Value on a Nonrecurring Basis 
+ &#8203; 
+ The tables below present the recorded amount of assets and liabilities measured at fair value on a nonrecurring basis:
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; &#8203; &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; &#8203; &#8203; 
+ Quoted Prices 
+ &#8203; &#8203; &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; &#8203; &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ In Active 
+ &#8203; 
+ Significant 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ Markets 
+ &#8203; 
+ Other 
+ &#8203; 
+ Significant 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ for Identical 
+ &#8203; 
+ Observable 
+ &#8203; 
+ Unobservable 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ Assets 
+ &#8203; 
+ Inputs 
+ &#8203; 
+ Inputs 
+ (Dollars in thousands) 
+ &#8203; 
+ Fair Value 
+ &#8203; 
+ (Level 1) 
+ &#8203; 
+ (Level 2) 
+ &#8203; 
+ (Level 3) 
+ June 30, 2026: 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ OREO
+ &#8203; 
+ $ 
+ 12,396 
+ &#8203; 
+ $ 
+ - 
+ &#8203; 
+ $ 
+ - 
+ &#8203; 
+
+----- [line 19584] -----
+ 8,771 
+ &#8203; 
+ $
+ -
+ &#8203; 
+ $
+ -
+ &#8203; 
+ $
+ 8,771 
+ &#8203; 
+ Individually evaluated loans
+ &#8203; 
+ 328,452 
+ &#8203; 
+ -
+ &#8203; 
+ -
+ &#8203; 
+ 328,452 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ 31
+ Table of Contents 
+ For an individually evaluated loan, the fair value of collateral is measured based on appraisal or third-party valuation when the loan is placed on nonaccrual. For OREO and bank properties held for sale, the fair value is initially recorded based on external appraisals at the time of transfer. These assets recorded at fair value on a nonrecurring basis are updated on at least an annual basis. 
+ Quantitative Information about Level 3 Fair Value Measurement 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ Weighted Average Discount 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ June 30, 
+ &#8203; 
+ December 31, 
+ &#8203; 
+ &#8203; &#8203; &#8203; 
+ Valuation Technique 
+ &#8203; &#8203; &#8203; 
+ Unobservable Input 
+ &#8203; &#8203; &#8203; 
+ 2026 
+ &#8203; &#8203; &#8203; 
+ 2025 
+ Nonrecurring measurements: 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ Individually evaluated loans 
+ Discounted appraisals and discounted cash flows 
+ Collateral discounts 
+ &#8203; 
+ 20 
+ % 
+ &#8203; 
+ 19 
+ %
+ OREO and Bank properties held for sale 
+ Discounted appraisals 
+ Collateral discounts and estimated costs to sell 
+ &#8203; 
+ 6 
+ % 
+ &#8203; 
+ 2 
+ %
+ &#8203; 
+ Fair Value of Financial Instruments 
+ &#8203; 
+ The estimated fair value, and related carrying amount, of our financial instruments are as follows:
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; &#8203; &#8203; 
+ Carrying 
+ &#8203; &#8203; &#8203; 
+ Fair 
+ &#8203; &#8203; &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; &#8203; &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; &#8203; &#8203; 
+ &#8203; 
+ &#8203; 
+ (Dollars in thousands) 

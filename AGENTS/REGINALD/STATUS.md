@@ -6,6 +6,8 @@
 
 **Evidence limits:** Eagle Q4 wall ~$525M (10/27–12/30) → `reports/2026-10-22_EGBN_Q4_maturity_wall.md`; criticized-four loss ~$8–31M gross (≤$1.02/TBV share); DC $20.5M appraisal printed $24.5M (Q2) vs $13.5M (Q3), same date — ask. 008 answered (no cash, support+recognition); 009/014 not identifiable, UNKNOWN; 013 still special mention; call10/22 not heard. VLY mods/re-defaults/MF buckets NOT DISCLOSED until10-Q. CREED CMBS leg UNKNOWN (not launched, WQ-478). WAL F3/exact NDFI filing inputs pending; primary call audio not listened. OZK N met on named Fund+Lender Finance alternative; exact regulatory NDFI/borrowing type and Stage2 call read remain pending. Reported provisions/earnings do not prove complete economic loss or collectibility; current valuation edge unproved. Prior M&T/EGBN investigations retain their dates.
 
+**Appraisal-discount cohort test (Will, 10/22):** `reports/2026-10-22_appraisal-discount_cohort_test.md`. 12/14 banks publish no discount-to-appraisal (SSB 19→20%; AMTB boilerplate). Realized resolution haircuts ~13–22% (OZK Boston 22%). Extensions still trigger re-appraisal, so Q4–Q1 appraisal-driven write-downs are likely; not simply deferred. EGBN: no trade from this desk (options untradeable); a long would be a TERRY card.
+
 **AI-agent banking doc (Will, 10/22):** `reports/2026-10-22_AI-agent-banking-doc_analysis.md`. Funding-speed/margin story, not credit; run-speed caveat on funding gauges; no score/threshold change.
 
 **Audit10/21:** `reports/2026-10-21_owed-items/REPORT.md`; REG-27 approval encoded, coupon correction applied; remaining work and stale carriers explicitly distinguished.

@@ -29,6 +29,8 @@ Boot (root/AGENTS/USER/COMPLETION_SPEC/Runtime mechanics + desk boot 1–9c); no
 
 Prior handoff (10/21) preserved in git history of this file and `archive/MEMORY_session-handoff_2026-10-21.md`.
 
+Later 10/22: EGBN Q4-wall dive (`reports/2026-10-22_EGBN_Q4_maturity_wall.md`) and the appraisal-discount cohort test (`reports/2026-10-22_appraisal-discount_cohort_test.md`, Will-approved). FLG SR 07-1 basis note added to matrix §3b (FLG packet verified at FDIC API). Quartr needs a Pro subscription (unavailable). EGBN call transcript not public; replay on the IR site through 11/5.
+
 ### CHANGES SINCE LAST SESSION
 
 ### NEXT SESSION

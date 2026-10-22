@@ -1,0 +1,184 @@
+
+----- [line 8495] -----
+ 85 
+ Risk participation agreements 
+ 18 
+ 37 
+ Other commitments 
+ 7 
+ 11 
+ Total 
+ $ 112,636 
+ $ 107,915 
+ Citizens Financial Group, Inc. | 74 
+ Commitments to Extend Credit 
+ Commitments to extend credit are agreements to lend to customers in accordance with conditions contractually agreed upon in advance. These commitments generally have fixed expiration dates or termination clauses and may require payment of a fee. Since many of these commitments are expected to expire without being drawn upon, the contract amounts are not necessarily indicative of future cash requirements. 
+ Letters of Credit 
+ Letters of credit in the table above reflect commercial, standby financial, and standby performance letters of credit. Financial and performance standby letters of credit are issued by the Company for the benefit of its customers. They are used as conditional guarantees of payment to a third party in the event the customer either fails to make specific payments (financial) or fails to complete a specific project or activity (performance). The Company's exposure to credit loss in the event of counterparty nonperformance in connection with the above instruments is represented by the contractual amount of those instruments. Letters of credit are generally secured according to the creditworthiness of the counterparty, with collateral including, but not limited to, cash, accounts receivable, inventory, or investment securities. Credit risk associated with letters of credit is considered in determining the appropriate amount of the allowance for unfunded commitments. Standby and commercial letters of credit are issued for terms of no more than two years and one year , respectively. 
+ Loans Sold with Recourse 
+ The Company is an originator and servicer of residential mortgages and routinely sells such mortgage loans in the secondary market and to GSEs. In the context of such sales, the Company makes certain representations and warranties regarding the characteristics of the underlying loans and, as a result, may be contractually required to repurchase such loans or indemnify certain parties against losses for certain breaches of those representations and warranties. The Company also sells the government guaranteed portion of certain SBA loans to outside investors, for which it retains the servicing rights. 
+ Risk Participation Agreements 
+ RPAs are guarantees issued by the Company to other parties for a fee, whereby the Company agrees to participate in the credit risk of a derivative customer of the other party. The current amount of credit exposure is spread out over multiple counterparties. At June 30, 2026, the remaining terms on these RPAs ranged from less than one year to nine years . 
+ Contingencies 
+ The Company operates in a legal and regulatory environment that exposes it to potentially significant risks. A certain amount of litigation ordinarily results from the nature of the Company's banking and other businesses. The Company is a party to legal proceedings, including class actions. The Company is also the subject of investigations, reviews, subpoenas, and regulatory matters arising out of its normal business operations which, in some instances, relate to concerns about fair lending, unfair and/or deceptive practices, and mortgage-related issues. In addition, the Company engages in discussions with relevant governmental and regulatory authorities on a regular and ongoing basis regarding various issues, and any issues discussed or identified may result in investigatory or other action being taken. Litigation and regulatory matters may result in settlements, damages, fines, penalties, public or private censure, increased costs, required remediation, restrictions on business activities, or other impacts on the Company. 
+ In these disputes and proceedings, the Company contests liability and the amount of damages as appropriate. Given their complex nature, and based on the Company's experience, it may be years before some of these matters are resolved. Moreover, before liability can be reasonably estimated for a claim, numerous legal and factual issues may need to be examined, including through potentially lengthy discovery and determination of important factual matters, and by addressing novel or unsettled legal issues relevant to the proceedings in question. The Company cannot predict with certainty if, how, or when such claims will be resolved or what the eventual settlement, fine, penalty, or other relief, if any, may be, particularly for claims that are at an early stage in their development or where claimants seek substantial or indeterminate damages. The Company recognizes a provision for a claim when, in the opinion of management after seeking legal advice, it is probable that a liability exists and the amount of loss can be reasonably estimated. In many proceedings, however, it is not possible to determine whether any loss is probable or to estimate the amount of any loss. 
+ Citizens Financial Group, Inc. | 75 
+ Based on information currently available, the advice of legal counsel and other advisers, and established reserves, management believes that the aggregate liabilities, if any, potentially arising from these proceedings will not have a materially adverse effect on the Company's unaudited interim Consolidated Financial Statements. 
+ NOTE 12 - FAIR VALUE MEASUREMENTS 
+ The Company measures or monitors many of its assets and liabilities on a fair value basis. Fair value is used on a recurring basis for assets and liabilities for which fair value is the required or elected measurement basis of accounting. Fair value is also used on a nonrecurring basis to evaluate assets for impairment or for disclosure purposes. Nonrecurring fair value adjustments typically involve the application of lower of cost or market accounting or write-downs of individual assets. Fair value measurement guidance is also applied to disclosures in this Note related to assets and liabilities that are not required to be reported at fair value in the financial statements. 
+ For more information on the measurement of fair value for the Company's assets and liabilities, including the election of the fair value option and valuation techniques utilized to measure fair value on a recurring and nonrecurring basis, see Note 18 in the Company's 2025 Form 10-K. 
+ Fair Value Option 
+ The Company has elected to account for residential mortgage LHFS and certain commercial LHFS under the fair value option. Under the fair value option, residential mortgage LHFS and certain commercial LHFS are initially measured at fair value with subsequent changes in fair value recognized in Mortgage banking fees and Capital markets fees, respectively, in the Consolidated Statements of Operations. The following table presents the difference between the aggregate fair value and the aggregate unpaid principal balance of LHFS measured at fair value: 
+ June 30, 2026 
+ December 31, 2025 
+ (dollars in millions) 
+ Aggregate Fair Value 
+ Aggregate Unpaid Principal 
+ Aggregate Fair Value Greater (Less) Than Aggregate Unpaid Principal 
+ Aggregate Fair Value 
+ Aggregate Unpaid Principal 
+ Aggregate Fair Value Greater (Less) Than Aggregate Unpaid Principal 
+ Residential mortgage loans held for sale 
+ $ 920 
+ $ 901 
+ $ 19 
+ $ 895 
+ $ 872 
+ $ 23 
+ Commercial loans held for sale 
+ 149 
+ 156 
+ ( 7 ) 
+ 170 
+ 185 
+ ( 15 ) 
+ Citizens Financial Group, Inc. | 76 
+ Recurring Fair Value Measurements 
+ The Company utilizes a variety of valuation techniques to measure its assets and liabilities at fair value on a recurring basis. The following table presents assets and liabilities measured at fair value, including gross derivative assets and liabilities, on a recurring basis at June 30, 2026: 
+ (dollars in millions) 
+ Total 
+ Level 1 
+ Level 2 
+ Level 3 
+ Debt securities available for sale: 
+ Mortgage-backed securities 
+ $ 32,976 
+ $ - 
+ $ 32,976 
+ $ - 
+ Collateralized loan obligations 
+ 40 
+ - 
+ 40 
+ - 
+
+----- [line 8891] -----
+ 75 
+ 34 
+ Sales (1) 
+ - 
+ - 
+ ( 72 ) 
+ - 
+ Settlements (2) 
+ ( 40 ) 
+ ( 11 ) 
+ ( 79 ) 
+ ( 27 ) 
+ Changes in fair value recognized in earnings (3) 
+ 21 
+ 3 
+ 11 
+ 7 
+ Ending balance 
+ $ 1,426 
+ $ 15 
+ $ 1,426 
+ $ 15 
+ (1) For MSRs, represents the sale of the excess servicing yield on MSRs. 
+ (2) For MSRs, represents changes in value of the MSRs due to i) the passage of time including the impact from both regularly scheduled loan principal payments and partial paydowns, and ii) loans that paid off during the period. For other derivative contracts, represents the closeout of interest rate lock commitments and other cash payments. 
+ (3) Represents changes in fair value primarily driven by market conditions. These changes are recorded in Mortgage banking fees and Other income in the Consolidated Statements of Operations. 
+ The following table presents quantitative information about significant unobservable inputs utilized to measure the fair value of Level 3 assets and liabilities: 
+ June 30, 2026 
+ December 31, 2025 
+ Financial Instrument (1) 
+ Valuation Technique 
+ Unobservable Input 
+ Range (Weighted Average) 
+ Range (Weighted Average) 
+ Mortgage servicing rights 
+ Discounted Cash Flow 
+ Constant prepayment rate 
+ 6 - 16 % CPR ( 7 % CPR) 
+ 6 - 15 % CPR ( 7 % CPR) 
+ Option adjusted spread 
+ 398 - 1,001 bps ( 553 bps) 
+ 398 - 1,038 bps ( 588 bps) 
+ Other derivative contracts 
+ Internal Model 
+ Pull through rate 
+ 24 - 100 % ( 85 %) 
+ 8 - 100 % ( 85 %) 
+ MSR value 
+ 26 - 181 bps ( 131 bps) 
+ 25 - 177 bps ( 134 bps) 
+ (1) Disclosures related to the fair value measurement of financial instruments deemed immaterial are not included. 
+ Nonrecurring Fair Value Measurements 
+ Fair value is also used on a nonrecurring basis to evaluate certain assets for impairment or for disclosure purposes. The following table presents losses recorded in earnings on assets measured at fair value on a nonrecurring basis, regardless of whether the asset is still held at period end: 
+ Three Months Ended June 30, 
+ Six Months Ended June 30, 
+ (dollars in millions) 
+ 2026 
+ 2025 
+ 2026 
+ 2025 
+ Collateral-dependent loans 
+ ($ 24 ) 
+ ($ 26 ) 
+ ($ 50 ) 
+ ($ 85 ) 
+ The following table presents the carrying amount and fair value hierarchy of assets that were held as of the period end indicated and for which a nonrecurring fair value adjustment was recorded in earnings during the year. Carrying amount represents the fair value of the asset as of its measurement date, or date on which a nonrecurring fair value adjustment was recorded. 
+ June 30, 2026 
+ December 31, 2025 
+ (dollars in millions) 
+ Total 
+ Level 1 
+ Level 2 
+ Level 3 
+ Total 
+ Level 1 
+ Level 2 
+ Level 3 
+ Collateral-dependent loans 
+ $ 123 
+ $ - 
+ $ 32 
+ $ 91 
+ $ 135 
+ $ - 
+ $ 24 
+ $ 111 
+ Citizens Financial Group, Inc. | 79 
+ Fair Value of Financial Instruments 
+ The following tables present the estimated fair value for financial instruments not recorded at fair value in the Consolidated Financial Statements. The carrying amounts are recorded in the Consolidated Balance Sheets under the indicated captions. 
+ June 30, 2026 
+ Total 
+ Level 1 
+ Level 2 
+ Level 3 
+ (dollars in millions) 
+ Carrying Value 
+ Estimated Fair Value 
+ Carrying Value 
+ Estimated Fair Value 
+ Carrying Value 
+ Estimated Fair Value 
+ Carrying Value 
+ Estimated Fair Value 
+ Financial assets (1) : 
+ Debt securities held to maturity 
+ $ 7,638 
+ $ 6,784 
+ $ - 
+ $ - 
+ $ 7,343 

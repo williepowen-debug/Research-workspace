@@ -1,0 +1,443 @@
+
+----- [line 1899] -----
+ 7,685 
+ $ 
+ 8,184 
+ $ 
+ (499) 
+ (6) 
+ % 
+ Total borrowed funds 
+ $ 
+ 11,186 
+ $ 
+ 12,184 
+ $ 
+ (998) 
+ (8) 
+ % 
+ (1) Borrowings with original maturities of one year or less are classified as short-term borrowings. 
+ At March 31, 2026 total borrowed funds decreased $998 million compared to December 31, 2025 primarily due to our continued strategy of reducing higher-cost wholesale borrowings. 
+ FHLB advances are secured by eligible collateral in the form of loans and securities, under blanket collateral agreements with the FHLB. As of March 31, 2026 and December 31, 2025 our wholesale borrowings had $250 million and $250 million of callable features, respectively. 
+ Risk Governance Framework 
+ The Risk Management Division is responsible for formalizing our Risk Appetite Statement, which reflects the Board's and Management's tolerance for risks and is set in alignment with the Bank's budget, strategic and capital plans. Internal controls and ongoing monitoring processes capture and address heightened risks that threaten our ability to achieve our goals and objectives, including the recognition of safety and soundness concerns and consumer protection. Additionally, key risk indicators are monitored against established risk warning levels and limits, as well as elevated risks escalated to the Chief Risk Officer. 
+ To comprehensively manage our risk exposure, we focus on several critical areas outlined below, Credit Risk, Liquidity Risk, Interest Rate Risk and Regulatory Capital. 
+ 13 
+ Table of Contents 
+ Credit Risk 
+ It is our practice to continually review the risk in our loan portfolio. For our multi-family and CRE loan portfolios, we receive financial information from borrowers annually and in some cases more frequently. Generally, updated annual borrower financial information is received during the second calendar quarter. Upon receipt of the borrower financial information, we perform an analysis to determine whether the cash flow from the underlying collateral is sufficient to meet the contractual loan payments, commonly referred to as the DSCR. We consider the ability to cover debt service based upon the current contractual rate or, when a borrower's initial fixed rate period expires in the near future, the lowest contractual rate reset option available under the loan terms using the current level for referenced indices. Loans that do not have a DSCR of 1.0 or greater are evaluated for a potential downgrade to substandard or non-accrual risk rating. All substandard loans, including non-accrual loans, are appraised at the time of downgrade and are re-appraised annually. Based upon this appraisal the loan is evaluated to determine if an adjustment to the carrying amount is required. 
+ For our C&I loan portfolio, we receive financial information from borrowers quarterly and in some cases less frequently. Quarterly borrower financial information is typically received within 45 to 60 days of quarter end. Upon receipt of the borrower financial information, we perform analyses to (i) determine whether borrower cash flow is sufficient to meet the contractual loan payments, commonly using a FCCR which is often a financial covenant of our borrowers (ii) test all borrower financial covenants, (iii) review and update collateral values, and (iv) update our internal borrower risk ratings. Loans that do not have a FCCR of 1.0 or greater are evaluated for a potential downgrade to substandard or non-accrual risk rating. 
+ The largest substandard and non-accrual loans within our portfolio are reported and reviewed with the RAC at least quarterly. 
+ As of March 31, 2026, $595 million of multifamily loans have reached their repricing date. Approximately, 88 percent of the loans that repriced during 2026 are current on their contractual payments or paid off during the year. 
+ Substandard and Non-Accrual loans ("Classified Loans") reflect the potential that a loss may occur if deficiencies in the primary source of repayment are unable to be corrected and borrowers are unwilling or unable to otherwise support the loans. Classified Loans at March 31, 2026 and December 31, 2025 were $8.7 billion and $9.7 billion, respectively. The decrease in Classified Loans is primarily attributable to the par payoffs of multi-family and CRE substandard loans and the resolution of a single borrower relationship undergoing bankruptcy proceedings. 
+ The procedures we follow with respect to delinquent loans are generally consistent across all categories, with late charges assessed, and notices mailed to the borrower, at specified dates. We attempt to reach the borrower by telephone to ascertain the reasons for delinquency and the prospects for repayment. When contact is made with a borrower at any time prior to foreclosure or recovery against collateral property, we attempt to obtain full payment and will consider a repayment schedule to avoid taking such action. Generally, we make every effort to collect rather than initiate foreclosure or other recovery proceedings. 
+ In accordance with our charge-off policy, collateral-dependent loans are written down to their current appraised values less costs to sell. We actively pursue borrowers who are delinquent in repaying their loans in an effort to collect payment. In addition, outside counsel with experience in foreclosure proceedings are retained to support these efforts. Gross charge-offs of $99 million were recorded on multi-family and CRE loans during the three months ended March 31, 2026, primarily driven by appraisals received on those loans and the resolution of a single borrower relationship undergoing bankruptcy proceedings. 
+ It is our policy to order updated appraisals for all substandard and non-accrual loans that are collateralized by multi-family buildings, commercial real estate properties, or land, if the most recent appraisal on file for the property is more than one year old. Appraisals are ordered at least annually until such time as the loan becomes pass rated. It is not our policy to obtain updated appraisals for performing loans that are not showing signs of credit weakness. However, appraisals may be ordered for performing loans when a borrower requests an increase in the loan amount, a modification in loan terms, or an extension of a maturing loan, or when we determine an updated appraisal is needed as a result of our ongoing credit analysis. We evaluate loans that were previously placed on non-accrual at least quarterly to determine if additional charge-offs may be needed. 
+ Properties and other assets that are acquired through foreclosure are classified as repossessed assets and are recorded at fair value at the date of acquisition, less the estimated cost of selling the property. Subsequent declines in the fair value of the assets are charged to earnings and are included in non-interest expense. It is our policy to require an appraisal, and an environmental assessment of properties classified as other real estate owned before foreclosure and to re-appraise the properties at least annually until they are sold. We dispose of such properties as quickly and prudently as possible, given current market conditions and the property's condition. 
+ 14 
+ Table of Contents 
+ Liquidity Risk 
+ We have established a liquidity risk management framework designed to ensure that we can meet our funding obligations in daily, business-as-usual and liquidity stress periods. We maintain a Liquidity Risk Policy that has been approved by the Board and is subject to review at least annually or if there are significant changes to our business activity. The Liquidity Risk Policy outlines our Risk Appetite and provides guidance for the roles and responsibilities of management and various oversight committees to oversee the liquidity risk management framework. We also maintain a CFP which has been approved by the Board. The CFP provides guidance to plan for potential periods of stress and to navigate actual periods of stress. The CFP specifies a series of EWI which we use to monitor funding or market conditions that may indicate a trend toward a period of stress and to provide guiding principles for us during a period of stress including identifying the operational steps needed to access available and contingent sources of liquidity. 
+ Our funding primarily stems from a diverse combination of business activities. The primary source of funding is our retail and institutional deposit base. Customer deposits provide us with a relatively stable, low-cost source of funding. The majority of our customer deposits are covered by FDIC deposit insurance with $13.6 billion of deposits that are uninsured or not collateralized by securities or letters of credit as of March 31, 2026, representing 20 percent of our overall deposit base as of that date. We also obtain funding through various wholesale funding channels, including $10.2 billion of secured borrowings from the FHLB and an active brokered CDs issuance program with $2.1 billion outstanding as of March 31, 2026. 
+ Our Liquidity Policy defines a limit framework which ensures we maintain liquidity and funding within our risk appetite. The limits require, among other elements, that we maintain a diverse funding profile while limiting concentration of funding by source, counterparty and maturity tenor. The policy also requires us to maintain sufficient on-balance sheet liquidity to support funding obligations under a severe, but plausible 30-day liquidity stress scenario. We monitor and report our overall funding and liquidity risk appetite metrics on a daily basis and our cash position on an intraday basis. 
+ We maintain a liquidity buffer of on-balance sheet cash reserves and HQLAs. We also maintain access to secured borrowings from the FHLB and FRB-NY Discount Window. The investment securities we consider HQLAs are all unencumbered, held as available-for-sale, and are either issued by government sponsored entities or are explicitly guaranteed by the U.S. government. We pledge eligible loan and securities collateral with the FRB-NY Discount Window and FHLB New York to support borrowing capacity. The available borrowing capacity with the FRB-NY Discount Window and the FHLB, net of credit utilization primarily in the form of advances and letters of credit, is included in our Total Liquidity. 
+ (in billions) 
+ March 31, 2026 
+ December 31, 2025 
+ Cash at Federal Reserve 
+ $ 
+ 6.6 
+ $ 
+ 5.3 
+ High-Quality Liquid Assets 
+ 12.2 
+ 13.5 
+ Total On-Balance Sheet Liquidity 
+ $ 
+ 18.8 
+ $ 
+ 18.8 
+ FHLB Available Capacity 
+ 6.9 
+ 6.5 
+ Discount Window Available Capacity 
+ 1.6 
+ 1.8 
+ Total Liquidity 
+ $ 
+ 27.3 
+ $ 
+ 27.1 
+ Credit Ratings 
+ We maintain credit ratings from three rating agencies: Moody's, Fitch and DBRS. As of April 30, 2026, our credit ratings were as follows: 
+
+----- [line 5292] -----
+ 721 
+ $ 
+ ( 365 ) 
+ $ 
+ 356 
+ $ 
+ 721 
+ $ 
+ ( 340 ) 
+ $ 
+ 381 
+ The following table presents our amortization expense for the periods indicated: 
+ Three Months Ended March 31, 
+ 2026 
+ 2025 
+ Amortization expense 
+ $ 
+ 25 
+ $ 
+ 28 
+ Note 15 - Fair Value Measurement 
+ The following tables present assets and liabilities that were measured at fair value on a recurring basis as of March 31, 2026 and December 31, 2025, and that were included in the Condensed Consolidated Statements of Condition at those dates: 
+ March 31, 2026 
+ Quoted Prices in Active Markets for Identical Assets (Level 1) 
+ Significant Other Observable Inputs (Level 2) 
+ Significant Unobservable Inputs 
+ (Level 3) (1) 
+ Total Fair Value 
+ Assets: 
+ Mortgage-related debt securities available-for-sale: 
+ GSE CMOs 
+ $ 
+ - 
+ $ 
+ 10,684 
+ $ 
+ - 
+ $ 
+ 10,684 
+ GSE certificates 
+ - 
+ 976 
+ - 
+ 976 
+ Private label CMOs 
+ - 
+ 133 
+ 23 
+ 156 
+ Total mortgage-related debt securities 
+ $ 
+ - 
+ $ 
+ 11,793 
+ $ 
+ 23 
+ $ 
+ 11,816 
+ Other debt securities available-for-sale: 
+ GSE debentures 
+ $ 
+ - 
+ $ 
+ 1,289 
+ $ 
+ - 
+ $ 
+ 1,289 
+ U. S. treasury obligations 
+ 1,007 
+
+----- [line 5460] -----
+ $ 
+ 13,749 
+ $ 
+ 26 
+ $ 
+ 14,824 
+ Derivative liabilities: 
+ Interest rate swaps 
+ $ 
+ - 
+ $ 
+ 19 
+ $ 
+ - 
+ $ 
+ 19 
+ Total liabilities at fair value 
+ $ 
+ - 
+ $ 
+ 19 
+ $ 
+ - 
+ $ 
+ 19 
+ (1) The change in the fair value due to significant unobservable inputs was immaterial. 
+ December 31, 2025 
+ Quoted Prices in Active Markets for Identical Assets (Level 1) 
+ Significant Other Observable Inputs (Level 2) 
+ Significant Unobservable Inputs 
+ (Level 3) (1) 
+ Total Fair Value 
+ Assets: 
+ Mortgage-related debt securities available-for-sale: 
+ GSE CMOs 
+ $ 
+ - 
+ $ 
+ 11,824 
+ $ 
+ - 
+ $ 
+ 11,824 
+ GSE certificates 
+ - 
+ 999 
+ - 
+ 999 
+ Private label CMOs 
+ - 
+ 136 
+ 23 
+ 159 
+ Total mortgage-related debt securities 
+ $ 
+ - 
+ $ 
+ 12,959 
+ $ 
+ 23 
+ $ 
+ 12,982 
+ Other debt securities available-for-sale: 
+ GSE debentures 
+ $ 
+ - 
+ $ 
+ 1,296 
+ $ 
+ - 
+ $ 
+ 1,296 
+ U. S. Treasury obligations 
+ 1,017 
+
+----- [line 5642] -----
+ $ 
+ 21 
+ $ 
+ - 
+ $ 
+ 21 
+ Rate lock commitments 
+ - 
+ - 
+ 1 
+ 1 
+ Mortgage-backed securities forwards 
+ - 
+ 1 
+ - 
+ 1 
+ Total liabilities at fair value 
+ $ 
+ - 
+ $ 
+ 22 
+ $ 
+ 1 
+ $ 
+ 23 
+ (1) The change in the fair value due to significant unobservable inputs was immaterial. 
+ Assets Measured at Fair Value on a Non-Recurring Basis 
+ The following tables present assets that were measured at fair value on a non-recurring basis: 
+ Fair Value Measurements at March 31, 2026 Using 
+ Quoted Prices in Active Markets for Identical Assets (Level 1) 
+ Significant Other Observable Inputs (Level 2) 
+ Significant Unobservable Inputs (Level 3) 
+ Total Fair Value 
+ Loans held for investment (1) 
+ $ 
+ - 
+ $ 
+ - 
+ $ 
+ 2,489 
+ $ 
+ 2,489 
+ Other assets (2) 
+ - 
+ - 
+ 27 
+ 27 
+ Total 
+ $ 
+ - 
+ $ 
+ - 
+ $ 
+ 2,516 
+ $ 
+ 2,516 
+ (1) Represents the fair value of impaired loans, based primarily on the value of the collateral less costs to sell. 
+ (2) Primarily comprised of equity securities without readily determinable fair values. 
+ Fair Value Measurements at December 31, 2025 Using 
+ Quoted Prices in Active Markets for Identical Assets (Level 1) 
+ Significant Other Observable Inputs (Level 2) 
+ Significant Unobservable Inputs (Level 3) 
+ Total Fair Value 
+ Loans held for investment (1) 
+ $ 
+ - 
+ $ 
+ - 
+ $ 
+ 2,784 
+ $ 
+ 2,784 
+ Loans held for sale 
+ - 
+ 24 
+ - 
+ 24 
+ Other assets (2) 
+ - 
+ - 
+ 31 
+ 31 
+ Total 
+ $ 
+ - 
+ $ 
+ 24 
+ $ 
+ 2,815 
+ $ 
+ 2,839 
+ (1) Represents the fair value of impaired loans, based primarily on the value of the collateral less costs to sell. 
+ (2) Primarily comprised of equity securities without readily determinable fair values. 
+ The fair values of collateral-dependent loans are determined using various valuation techniques, including appraisal values less costs to sell or other observable market data. 
+ Other Fair Value Disclosures 
+ For the disclosure of fair value information about our on- and off-balance sheet financial instruments, when available, quoted market prices are used as the measure of fair value. In cases where quoted market prices are not available, fair values are based on present-value estimates or other valuation techniques. Such fair values are significantly affected by the assumptions used, the timing of future cash flows, and the discount rate. 
+ Because assumptions are inherently subjective in nature, estimated fair values cannot be substantiated by comparison to independent market quotes. Furthermore, in many cases, the estimated fair values provided would not necessarily be realized in an immediate sale or settlement of such instruments. 
+ The following tables summarize the carrying values, estimated fair values, and fair value measurement levels of financial instruments that were not carried at fair value on the Bank's Condensed Consolidated Statements of Condition: 
+ March 31, 2026 
+ Fair Value Measurement Using 
+ Carrying Value 
+ Estimated Fair Value 
+ Quoted Prices in Active Markets for Identical Assets (Level 1) 
+ Significant Other Observable Inputs (Level 2) 
+ Significant Unobservable Inputs (Level 3) 
+ Financial Assets: 
+ Cash and due from banks 
+ $ 
+ 401 
+ $ 
+ 401 
+ $ 
+ 401 
+ $ 
+ - 
+ $ 
+ - 
+ Interest-earning deposits and other securities with financial institutions 
+ 6,605 
+ 6,605 
+ 6,605 
+ - 
+ - 
+ Cash and cash equivalents 
+ $ 
+ 7,006 
+ $ 
+ 7,006 
+ $ 
+ 7,006 
+ $ 
+ - 
+ $ 
+ - 
+ FHLB and FRB-NY stock (1) 
+ 958 
+ 958 
+ - 
+ 958 
+ - 
+ Loans and leases held for investment, net (2) 
+ 59,471 
+ 58,273 
+ - 
+ - 
+ 58,273 
+ Financial Liabilities: 
+ Deposits 
+ $ 
+
+----- [line 5793] -----
+ 66,850 
+ $ 
+ 46,113 
+ (3) 
+ $ 
+ 20,737 
+ (4) 
+ $ 
+ - 
+ Borrowed funds 
+ 11,186 
+ 11,039 
+ - 
+ 11,039 
+ - 
+ (1) Carrying value and estimated fair value are at cost. 
+ (2) Carrying value and estimated fair value include impaired loans held for investment. 
+ (3) Includes interest-bearing checking and money market accounts, savings accounts, and non-interest-bearing accounts. 
+ (4) Includes CDs. 
+ December 31, 2025 
+ Fair Value Measurement Using 
+ Carrying Value 
+ Estimated Fair Value 
+ Quoted Prices in Active Markets for Identical Assets (Level 1) 
+ Significant Other Observable Inputs (Level 2) 
+ Significant Unobservable Inputs (Level 3) 
+ Financial Assets: 
+ Cash and due from banks 
+ $ 
+ 553 
+ $ 
+ 553 
+ $ 
+ 553 
+ $ 
+ - 
+ $ 
+ - 
+ Interest-earning deposits and other securities with financial institutions 
+ 5,341 
+ 5,341 
+ 5,341 
+ - 
+ - 
+ Cash and cash equivalents 
+ $ 
+ 5,894 
+ $ 
+ 5,894 
+ $ 
+ 5,894 
+ $ 
+ - 
+ $ 
+ - 
+ FHLB and FRB-NY stock (1) 
+ 973 
+ 973 
+ - 
+ 973 
+ - 
+ Loans and leases held for investment, net (2) 
+ 59,702 
+ 56,605 
+ - 
+ - 
+ 56,605 
+ Financial Liabilities: 
+ Deposits 
+ $ 

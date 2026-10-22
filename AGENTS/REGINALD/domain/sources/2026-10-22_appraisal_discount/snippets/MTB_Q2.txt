@@ -1,0 +1,338 @@
+
+----- [line 3557] -----
+ Net charge-offs 
+ ( 67 ) 
+ ( 42 ) 
+ - 
+ ( 113 ) 
+ ( 222 ) 
+ - 
+ Ending balance 
+ $ 
+ 793 
+ $ 
+ 544 
+ $ 
+ 110 
+ $ 
+ 750 
+ $ 
+ 2,197 
+ $ 
+ 80 
+ __________________________________________________________________________________ 
+ (a) Further information about unfunded credit commitments is included in note 14. 
+ - 20 - 
+ 4. Loans and allowance for loan losses , continued 
+ Despite the allocation in the preceding tables, the allowance for loan losses is general in nature and is available to absorb losses from any loan or lease type. In determining the allowance for loan losses, accruing loans with similar risk characteristics are evaluated collectively, generally through the use of statistically developed credit models or other quantitative methodologies. The statistically developed models project principal balances over the remaining contractual lives of the loan portfolios and determine estimated credit losses through a reasonable and supportable forecast period. Individual loan credit quality indicators, including loan grade and borrower repayment performance, can inform the models, which have been statistically developed based on historical correlations of credit losses with prevailing economic metrics, including unemployment, GDP and real estate prices. Model forecasts may be adjusted for inherent limitations or biases that have been identified through independent validation and back-testing of model performance to actual realized results. At each of June 30, 2026 and December 31, 2025, the Company utilized a reasonable and supportable forecast period of two years. Subsequent to this forecast period the Company reverted, ratably over a one-year period, to historical loss experience to inform its estimate of losses for the remaining contractual life of each portfolio. In determining the allowance for loan losses, the Company may adjust forecasted loss estimates for inherent limitations or biases in the models as well as for other factors that may not be adequately considered in its quantitative methodologies including the impact of portfolio concentrations, imprecision in its economic forecasts, geopolitical conditions and other risk factors that might influence its loss estimation process. 
+ The Company also estimates losses attributable to specific troubled credits identified through both normal and targeted credit review processes. The amounts of specific loss components in the Company's loan portfolios are determined through a loan-by-loan analysis of larger balance commercial and industrial loans and commercial real estate loans that are in nonaccrual status. Such loss estimates are typically based on expected future cash flows, collateral values and other factors that may impact the borrower's ability to pay. To the extent that those loans are collateral-dependent, they are evaluated based on the fair value of the loan's collateral as estimated at or near the financial statement date. As the quality of a loan deteriorates to the point of designating the loan as &#8220;criticized nonaccrual,&#8221; the process of obtaining updated collateral valuation information is usually initiated, unless it is not considered warranted given factors such as the relative size of the loan, the characteristics of the collateral or the age of the last valuation. In those cases where current appraisals may not yet be available, prior appraisals are utilized with adjustments, as deemed necessary, for estimates of subsequent declines in values as determined by line of business and/or loan workout personnel. Those adjustments are reviewed and assessed for reasonableness by the Company's credit risk personnel. Accordingly, for real estate collateral securing larger nonaccrual commercial and industrial loans and commercial real estate loans, estimated collateral values are generally based on current appraisals and estimates of value. For non-real estate loans, collateral is assigned a discounted estimated liquidation value and, depending on the nature of the collateral, is verified through field exams or other procedures. In assessing collateral, real estate and non-real estate values are reduced by an estimate of selling costs. 
+ Changes in the amount of the allowance for loan losses reflect the outcome of the procedures described herein, including the impact of changes in macroeconomic forecasts as compared with previous forecasts, as well as the impact of portfolio concentrations, imprecision in economic forecasts, geopolitical conditions and other risk factors that might influence the loss estimation process. 
+ - 21 - 
+ 4. Loans and allowance for loan losses , continued 
+ Information with respect to loans that were considered nonaccrual at the beginning and end of the reporting period and the interest income recognized on such loans for the three-month and six-month periods ended June 30, 2026 and 2025 follows. 
+ Amortized Cost with Allowance 
+ Amortized Cost without Allowance 
+ Total 
+ Amortized Cost 
+ Interest Income Recognized 
+ (Dollars in millions) 
+ June 30, 2026 
+ April 1, 2026 
+ January 1, 2026 
+ Three Months Ended June 30, 2026 
+ Six Months Ended June 30, 2026 
+ Commercial and industrial 
+ $ 
+ 520 
+ $ 
+ 50 
+ $ 
+ 570 
+ $ 
+ 535 
+ $ 
+ 527 
+ $ 
+ 8 
+ $ 
+ 15 
+ Real estate: 
+ Commercial 
+ 162 
+ 54 
+ 216 
+ 294 
+ 320 
+ 8 
+ 9 
+ Residential builder and developer 
+ - 
+ - 
+ - 
+ - 
+
+----- [line 5839] -----
+ Carrying amount (a) 
+ 96 
+ 67 
+ Amount of future funding commitments included in carrying amount (b) 
+ 35 
+ 66 
+ Other: 
+ Carrying amount (a) 
+ 45 
+ 33 
+ Amount of future funding commitments included in carrying amount 
+ - 
+ - 
+ __________________________________________________________________________________ 
+ (a) Included in Accrued interest and other assets in the Company's Consolidated Balance Sheet. 
+ (b) Included in Accrued interest and other liabilities in the Company's Consolidated Balance Sheet. 
+ - 37 - 
+ 12. Variable interest entities and asset securitizations , continued 
+ The reduction to income tax expense recognized from the Company's investments in partnerships accounted for using the proportional amortization method was $ 16 million (net of $ 50 million of investment amortization) and $ 10 million (net of $ 45 million of investment amortization) for the three months ended June 30, 2026 and 2025, respectively, and $ 32 million (net of $ 99 million of investment amortization) and $ 20 million (net of $ 89 million of investment amortization) for the six months ended June 30, 2026 and 2025, respectively. The net reduction to income tax expense has been reported in Net change in other accrued income and expense in the Consolidated Statement of Cash Flows. While the Company has elected to apply the proportional amortization method for renewable energy credit investments, at June 30, 2026 no such investments met the eligibility criteria for application of that method. The reduction to income tax expense recognized from renewable energy credit investments was $ 5 million and $ 11 million for the three-month and six-month periods ended June 30, 2026, respectively, and $ 6 million and $ 12 million for the three-month and six-month periods ended June 30, 2025, respectively. As a limited partner, there is no recourse to the Company by creditors of the partnerships. However, the tax credits that result from the Company's investments in such partnerships are generally subject to recapture should a partnership fail to comply with the respective government regulations. The Company has not provided financial or other support to the partnerships that was not contractually required. Although the Company currently estimates that no material losses are probable, its maximum exposure to loss from its investments in such partnerships as of June 30, 2026 was $ 2.3 billion, including possible recapture of certain tax credits. 
+ The Company serves as investment advisor for certain registered money-market funds. The Company has no explicit arrangement to provide support to those funds, but may waive portions of its allowable management fees as a result of market conditions. 
+ 13. Fair value measurements 
+ GAAP permits an entity to choose to measure eligible financial instruments and other items at fair value. Effective January 1, 2026 the Company has elected to account for its residential mortgage loan servicing right assets at fair value. Further information about this election is included in note 1. The Company has not made any other fair value elections at June 30, 2026. 
+ Pursuant to GAAP, fair value is defined as the price that would be received to sell an asset or paid to transfer a liability in an orderly transaction between market participants at the measurement date. A three-level hierarchy exists in GAAP for fair value measurements based upon the inputs to the valuation of an asset or liability. 
+ &#8226; Level 1 - Valuation is based on quoted prices in active markets for identical assets and liabilities. 
+ &#8226; Level 2 - Valuation is determined from quoted prices for similar assets or liabilities in active markets, quoted prices for identical or similar instruments in markets that are not active or by model-based techniques in which all significant inputs are observable in the market. 
+ &#8226; Level 3 - Valuation is derived from model-based and other techniques in which at least one significant input is unobservable and which may be based on the Company's own estimates about the assumptions that market participants would use to value the asset or liability. 
+ When available, the Company attempts to use quoted market prices in active markets to determine fair value and classifies such items as Level 1 or Level 2. If quoted market prices in active markets are not available, fair value is often determined using model-based techniques incorporating various assumptions including interest rates, prepayment speeds and credit losses. Assets and liabilities valued using model-based techniques are classified as either Level 2 or Level 3, depending on the lowest level classification of an input that is considered significant to the overall valuation. A description of the valuation methodologies used for the Company's assets and liabilities that are measured at fair value on a recurring basis and on a nonrecurring basis is included in notes 1 and 19 of Notes to Financial Statements in M&T's 2025 Annual Report. 
+ - 38 - 
+ 13. Fair value measurements , continued 
+ Recurring fair value measurements 
+ The following tables present assets and liabilities at June 30, 2026 and December 31, 2025 measured at fair value on a recurring basis. 
+ (Dollars in millions) 
+ Fair Value Measurements 
+ Level 1 
+ Level 2 
+ Level 3 
+ June 30, 2026 
+ Investment securities available for sale: 
+ U.S. Treasury 
+ $ 
+ 3,227 
+ $ 
+ - 
+ $ 
+ 3,227 
+ $ 
+ - 
+ Mortgage-backed securities: 
+ Government issued or guaranteed: 
+ Commercial 
+ 4,755 
+ - 
+ 4,755 
+ - 
+ Residential 
+ 17,387 
+ - 
+ 17,387 
+ - 
+ Other 
+ 1 
+ - 
+ 1 
+ - 
+ Total investment securities available for sale 
+ 25,370 
+ - 
+ 25,370 
+ - 
+ Equity securities 
+ 245 
+
+----- [line 6036] -----
+ Balance at March 31, 2026 - at fair value 
+ $ 
+ 542 
+ Additions 
+ 7 
+ Changes in fair value included in Mortgage banking revenues (a) 
+ ( 9 ) 
+ Balance at June 30, 2026 - at fair value 
+ $ 
+ 540 
+ Six Months Ended June 30, 2026 
+ Balance at December 31, 2025 - at amortized cost 
+ $ 
+ 287 
+ January 1, 2026 - fair value accounting election 
+ 263 
+ Additions 
+ 15 
+ Changes in fair value included in Mortgage banking revenues (a) 
+ ( 25 ) 
+ Balance at June 30, 2026 - at fair value 
+ $ 
+ 540 
+ __________________________________________________________________________________ 
+ (a) Includes a $ 16 million and a $ 33 million reduction in fair value attributable to the realization of expected net servicing cash flows over time for the three-month and six-month periods ended June 30, 2026, respectively. 
+ Significant unobservable inputs used in the fair value measurement of residential mortgage loan servicing right assets vary by loan type and included prepayment assumptions and an OAS over market implied forward SOFR to determine an appropriate discount rate. An increase (decrease) in the prepayment speed and OAS each would generally result in a lower (higher) fair value measurement of residential mortgage loan servicing rights. The key economic assumptions used to determine the fair value of residential capitalized servicing rights at June 30, 2026 and the sensitivity of such value to changes in those assumptions are summarized in the table that follows. Those calculated sensitivities are hypothetical and actual changes in the fair value of capitalized servicing rights may differ significantly from the amounts presented herein. The effect of a variation in a particular assumption on the fair value of the servicing rights is calculated without changing any other assumption. In reality, changes in one factor may result in changes in another which may magnify or counteract the sensitivities. The changes in assumptions are presumed to be instantaneous. 
+ (Dollars in millions) 
+ Weighted-average prepayment speeds (range 5 % - 18 %) 
+ 8.00 
+ % 
+ Impact on fair value of 10% adverse change 
+ $ 
+ ( 15 ) 
+ Impact on fair value of 20% adverse change 
+ ( 30 ) 
+ Weighted-average OAS (range 5 % - 20 %) 
+ 7.20 
+ % 
+ Impact on fair value of 10% adverse change 
+ $ 
+ ( 15 ) 
+ Impact on fair value of 20% adverse change 
+ ( 29 ) 
+ - 40 - 
+ 13. Fair value measurements , continued 
+ Nonrecurring fair value measurements 
+ The Company is required, on a nonrecurring basis, to adjust the carrying value of certain assets or provide valuation allowances related to certain assets using fair value measurements. The more significant of those assets follow. 
+ Loans 
+ Loans are generally not recorded at fair value on a recurring basis. Periodically, the Company records nonrecurring adjustments to the carrying value of certain loans based on fair value measurements for partial charge-offs of the uncollectable portions of those loans. The following table summarizes loans subject to such nonrecurring fair value measurements at June 30, 2026 and 2025. 
+ June 30, 
+ (Dollars in millions) 
+ 2026 
+ 2025 
+ Level 2 
+ $ 
+ 100 
+ $ 
+ 166 
+ Level 3 
+ 272 
+ 478 
+ $ 
+ 372 
+ $ 
+ 644 
+ Changes in fair value recognized for the three months ended 
+ $ 
+ ( 51 ) 
+ $ 
+ ( 115 ) 
+ Changes in fair value recognized for the six months ended 
+ ( 77 ) 
+ ( 157 ) 
+ Capitalized servicing rights 
+ Prior to January 1, 2026, the Company utilized the amortization method to subsequently measure its residential mortgage loan servicing right assets, subject to impairment charges on a non-recurring basis when the carrying value of certain strata exceeded their fair value. Capitalized servicing rights related to residential mortgage loans required no valuation allowance at each of December 31, 2025 and June 30, 2025. The Company has not made a fair value accounting election for its commercial mortgage loan servicing right assets. Such assets required no valuation allowance at each of June 30, 2026, December 31, 2025 and June 30, 2025. 
+ Disclosures of fair value of financial instruments 
+ The carrying amounts and estimated fair value for certain financial instruments that are not recorded at fair value in the Company's Consolidated Balance Sheet are presented in the following table. 
+ (Dollars in millions) 
+ Carrying 
+ Amount 
+ Estimated 
+ Fair Value 
+ Level 1 
+ Level 2 
+ Level 3 
+ June 30, 2026 
+ Financial assets: 
+ Cash and due from banks 
+ $ 
+ 1,939 
+ $ 
+ 1,939 
+ $ 
+ 1,746 
+ $ 
+ 193 
+ $ 
+ - 
+ Interest-bearing deposits at banks 
+ 15,499 
+ 15,499 
+ - 
+ 15,499 
+ - 
+ Investment securities held to maturity 
+ 11,908 
+ 11,123 
+ - 
+ 11,084 
+ 39 
+ Loans, net 
+ 141,017 
+ 140,793 
+ - 
+ 4,316 
+ 136,477 
+ Financial liabilities: 
+ Time deposits (a) 
+ 14,988 
+
+----- [line 8306] -----
+ .90 
+ % 
+ 1.16 
+ % 
+ Nonperforming assets as a percent of total loans and real estate and other foreclosed assets 
+ .86 
+ .91 
+ .93 
+ 1.18 
+ Accruing loans past due 90 days or more as a percent of total loans 
+ .42 
+ .46 
+ .40 
+ .36 
+ Loans 30-89 days past due as a percent of total loans 
+ 1.01 
+ .95 
+ 1.26 
+ 1.00 
+ __________________________________________________________________________________ 
+ (a) Primarily government-guaranteed residential real estate loans. 
+ Nonaccrual loans at June 30, 2026 decreased modestly from March 31, 2026 and $365 million from June 30, 2025, primarily driven by a $217 million reduction in commercial and industrial nonaccrual loans and a $148 million reduction in commercial real estate nonaccrual loans. Approximately 56% of nonaccrual commercial and industrial and commercial real estate loans were considered current with respect to their payment status at June 30, 2026. 
+ Government-guaranteed loans designated as accruing loans past due 90 days or more included one-to-four family residential mortgage loans serviced by the Company that were repurchased to reduce associated servicing costs, including a requirement to advance principal and interest payments that had not been received from individual mortgagors. Despite the loans being purchased by the Company, the insurance or guarantee by the applicable government-related entity remains in force. The outstanding principal balances of the repurchased loans that are guaranteed by government-related entities included in accruing loans past due 90 days or more totaled $489 million at June 30, 2026, $537 million at March 31, 2026, $459 million at December 31, 2025 and $377 million at June 30, 2025. Accruing loans past due 90 days or more not guaranteed by government-related entities were loans considered to be with creditworthy borrowers that were in the process of collection or renewal. Additional information about past due and nonaccrual loans is included in note 4 of Notes to Financial Statements. 
+ The Company utilizes a loan grading system to differentiate risk amongst its commercial and industrial loans and commercial real estate loans. Loans with a lower expectation of default are assigned one of ten possible "pass" loan grades while specific loans determined to have an elevated level of credit risk are designated as "criticized." A criticized loan may be designated as "nonaccrual" if the Company no longer expects to collect all amounts owed under the terms of the loan agreement or the loan is delinquent 90 days or more. Targeted reviews are periodically performed over segments of loan portfolios that may be experiencing heightened credit risk due to current or anticipated economic conditions. The intention of such reviews is to identify trends across such portfolios and inform portfolio risk limits and loss mitigation strategies. In the recent quarter, the Company continued to monitor commercial borrowers in certain industry sectors that may be affected by higher energy and transportation costs, international trade policy changes, such as tariffs, including retail and wholesale trade, manufacturing, packaging and engineering companies. The Company has considered the information gathered in such reviews in the assignment of loan grades. 
+ - 59 - 
+ The Company continues to monitor its commercial real estate loan portfolio. The primary source of repayment of these loans is typically tenant lease payments to the investor/borrower. Elevated vacancies impacting some property types have contributed to lower current and anticipated future debt service coverage ratios, which have and may continue to influence the ability of borrowers to make existing loan payments. Lower debt service coverage ratios and reduced commercial real estate values also impact the ability of borrowers to refinance their obligations at loan maturity. Despite these challenges, the ability of borrowers to service loans secured by investor-owned real estate has generally improved in recent quarters. The LTV ratio is one of many factors considered in assessing overall portfolio risks and loss mitigation strategies for the investor-owned commercial real estate portfolio. In determining the LTV ratio, the Company considers cross-collateralization of all exposures secured by the supporting collateral and the estimated value of such collateral. Subsequent to the origination of commercial real estate loans, updated appraisals are obtained in the normal course of business for renewals, extensions and modifications to commitment levels. As the quality of a loan deteriorates to the point of designating the loan as "criticized nonaccrual," the process of obtaining updated collateral valuation information is usually initiated, unless it is not considered warranted given factors such as the relative size of the loan or the age of the last valuation. In those cases where current appraisals may not yet be available, prior appraisals are utilized with adjustments, as deemed necessary, for estimates of subsequent declines in values as determined by line of business and/or loan workout personnel. Those adjustments are reviewed and assessed for reasonableness by the Company's credit risk personnel. Accordingly, for real estate collateral securing larger nonaccrual commercial and industrial loans and commercial real estate loans, estimated collateral values are generally based on current estimates of value. 
+ The Company monitors its concentration of commercial real estate lending as a percent of its Tier 1 capital plus its allowable allowance for credit losses, consistent with a metric utilized to differentiate such concentrations amongst regulated financial institutions. This metric, as prescribed in supervisory guidance, excludes loans secured by commercial real estate considered to be owner-occupied, but includes certain other loans, such as loans to real estate investment trusts, that are classified as commercial and industrial loans. The Company's commercial real estate loan concentration approximated 134% of Tier 1 capital plus its allowable allowance for credit losses at June 30, 2026, compared with 124% at December 31, 2025 and 129% at June 30, 2025. The Company executed various strategies to reduce the amount of criticized loans in this category throughout 2025. 
+ The accompanying tables summarize the outstanding balances, and associated criticized balances, of commercial and industrial loans by industry and commercial real estate loans by property type, respectively, at June 30, 2026 and December 31, 2025. 
+ - 60 - 
+ CRITICIZED COMMERCIAL AND INDUSTRIAL LOANS 
+ June 30, 2026 
+ December 31, 2025 
+ (Dollars in millions) 
+ Outstanding 
+ Criticized Accrual 
+ Criticized Nonaccrual 
+ Total Criticized 
+ Outstanding 
+ Criticized Accrual 
+ Criticized Nonaccrual 
+ Total Criticized 
+ Commercial and industrial excluding owner-occupied real estate by industry: 
+ Financial and insurance 
+ $ 
+ 13,852 
+ $ 
+ 87 
+ $ 
+ 7 
+ $ 
+ 94 
+ $ 
+ 12,794 
+ $ 
+ 200 
+ $ 
+ 4 
+ $ 
+ 204 
+ Services 
+ 8,559 
+ 264 
+ 60 
+ 324 
+ 7,910 
+ 271 
+ 74 
+ 345 
+ Motor vehicle and recreational finance dealers 
+ 6,972 

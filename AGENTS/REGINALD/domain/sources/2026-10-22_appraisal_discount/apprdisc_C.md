@@ -1,0 +1,70 @@
+# Nonrecurring Level 3 collateral-dependent loan / OREO disclosure: MTB, CUBI, CFG, HBAN (Q1-2026 vs Q2-2026)
+
+Prepared 2026-10-22 by read-only extraction reader (REGINALD desk). Sources: SEC 10-Qs, accessions in tenq/list.txt. Locators are `file:line` in the full stripped text under `.../scratchpad/tenq/` (MTB_Q1.txt etc). No estimates; "NOT DISCLOSED" = absent in the 10-Q text searched.
+
+**Headline finding:** none of the four banks publishes a quantitative "discount to appraised value" / "appraisal adjustment" input range with a weighted average for collateral-dependent loans in its 10-Q. The loan-level discount cannot be compared across Q1 vs Q2 from these filings. CUBI gives an OREO-only input (liquidation expenses). What IS comparable: fair-value balances and period losses (MTB, CFG, HBAN) and CUBI's balances.
+
+## MTB (M&T) — 10-Q Q1 0000036270-26-000034, Q2 0000036270-26-000050
+
+| item | Q1-2026 | Q2-2026 | verbatim | locator |
+|---|---|---|---|---|
+| 1. FV of loans at FV nonrecurring, total | $314M (L2 $74M + L3 $240M; L1 nil) | $372M (L2 $100M + L3 $272M) | Q1: "Level 2 74 128 / Level 3 240 396 / $ 314 $ 524" (3/31/26, 3/31/25). Q2: "Level 2 $ 100 $ 166 / Level 3 272 478 / $ 372 $ 644" | MTB_Q1.txt:4967-4986; MTB_Q2.txt:6084-6100 |
+| 1b. By loan category | NOT DISCLOSED | NOT DISCLOSED | single aggregate table by level only | same |
+| 2. Valuation technique | NOT DISCLOSED (no quantitative Level 3 input table for nonrecurring loans) | NOT DISCLOSED | "Periodically, the Company records nonrecurring adjustments to the carrying value of certain loans based on fair value measurements for partial charge-offs of the uncollectable portions of those loans." | MTB_Q1.txt:4967; MTB_Q2.txt:6084 |
+| 3. Unobservable input name | NOT DISCLOSED | NOT DISCLOSED | qualitative only (see item 7) | -- |
+| 4. Range / weighted avg | NOT DISCLOSED | NOT DISCLOSED | -- | -- |
+| 5. OREO / foreclosed at FV nonrecurring | NOT DISCLOSED (only "Loans" and "Capitalized servicing rights" listed as "more significant" nonrecurring assets; OREO appears only as a balance-sheet line) | NOT DISCLOSED | "The more significant of those assets follow." | MTB_Q1.txt:4965, 695; MTB_Q2.txt:6082, 811 |
+| 6. Losses / FV changes recognized | $(38)M for the quarter (3/31/25: $(35)M) | $(51)M for three months (6/30/25: $(115)M); $(77)M for six months (6M-25: $(157)M) | "Changes in fair value recognized for the quarter ended $ ( 38 ) $ ( 35 )"; Q2 "...three months ended $ ( 51 ) $ ( 115 )" and "...six months ended ( 77 ) ( 157 )" | MTB_Q1.txt:4986-4990; MTB_Q2.txt:6101-6108 |
+| 7. Appraisal age / updating (same text both quarters) | Qualitative | Qualitative (identical) | "To the extent that those loans are collateral-dependent, they are evaluated based on the fair value of the loan's collateral as estimated at or near the financial statement date. As the quality of a loan deteriorates to the point of designating the loan as 'criticized nonaccrual,' the process of obtaining updated collateral valuation information is usually initiated, unless it is not considered warranted given factors such as the relative size of the loan, the characteristics of the collateral or the age of the last valuation. In those cases where current appraisals may not yet be available, prior appraisals are utilized with adjustments, as deemed necessary, for estimates of subsequent declines in values ... for real estate collateral securing larger nonaccrual commercial and industrial loans and commercial real estate loans, estimated collateral values are generally based on current appraisals and estimates of value. For non-real estate loans, collateral is assigned a discounted estimated liquidation value ... real estate and non-real estate values are reduced by an estimate of selling costs." | MTB_Q1.txt:3165-3168; MTB_Q2.txt:3582 (same paragraph) |
+
+Weighting note: n/a (no weighted average). Derived (not disclosed): Q1 L3 loans $240M -> Q2 $272M (+13%); loss/FV ratio Q1 38/314 = 12.1%, Q2 51/372 = 13.7% (derived by reader; basis mixes period loss with period-end balance, indicative only).
+
+## CUBI (Customers Bancorp) — 10-Q Q1 0001488813-26-000068, Q2 0001488813-26-000095 (all $ in thousands)
+
+| item | Q1-2026 | Q2-2026 | verbatim | locator |
+|---|---|---|---|---|
+| 1. FV of collateral-dependent loans at FV nonrecurring (all Level 3) | $27,494K | $37,611K (12/31/25 comparative: $20,668K) | "Collateral-dependent loans $ - $ - $ 27,494 $ 27,494" (Q1); "... $ - $ - $ 37,611 $ 37,611" (Q2); Dec-25 "... 20,668 20,668" | CUBI_Q1.txt:5320-5336 (Dec-25 at 5430-5446); CUBI_Q2.txt:6404-6420 (Dec-25 at 6514-6530) |
+| 1b. By loan category | NOT DISCLOSED | NOT DISCLOSED | one line only | -- |
+| 2. Valuation technique (loans) | Fair value of collateral or DCF; NO quantitative technique row for loans | same | "Collateral-dependent loans are those loans that are accounted for under ASC 326, in which the Bank has measured impairment generally based on the fair value of the loan's collateral or DCF analysis. Fair value is generally determined based upon independent third-party appraisals of the properties that collateralize the loans, DCF based upon the expected proceeds, sales agreements or letters of intent with third parties." | CUBI_Q1.txt:5038-5039; CUBI_Q2.txt:6128-6129 (identical) |
+| 3-4. Unobservable input, range, weighted avg (loans) | NOT DISCLOSED (the Level 3 quantitative table lists ABS and OREO only) | NOT DISCLOSED | table "Quantitative Information about Level 3 Fair Value Measurements" has rows for Asset-backed securities and Other real estate owned only | CUBI_Q1.txt:5518-5539; CUBI_Q2.txt:6661-6682 |
+| 5. OREO: FV | $12,506K | $12,568K (12/31/25: $12,432K) | "Other real estate owned 12,506 Collateral appraisal (1) Liquidation expenses (2) 6 % - 7 % ( 6 %)"; Q2 "12,568 ... 6 % - 7 % ( 6 %)" | CUBI_Q1.txt:5536-5541; CUBI_Q2.txt:6679-6684 |
+| 5b. OREO technique / input / range (w-avg) | Collateral appraisal; liquidation expenses; 6%-7% (6%) | Collateral appraisal; liquidation expenses; 6%-7% (6%) | "(2) Appraisals are adjusted by management for liquidation expenses. The range and weighted average of liquidation expense adjustments are presented as a percentage of the appraisal." Weighting basis (FV vs unweighted) not stated. | CUBI_Q1.txt:5567; CUBI_Q2.txt:6710 |
+| 6. Losses recognized on nonrecurring assets | NOT DISCLOSED (no period-loss column in the FV table) | NOT DISCLOSED | CUBI states "Shortfalls in the underlying collateral value for loans or leases determined to be collateral dependent are charged off immediately." (policy, not an amount) | CUBI_Q1.txt:7326; CUBI_Q2.txt:9405 |
+| 7. Appraisal age / updating | Footnote: appraisals "current"; not generally discounted. Credit policy: "less than two years aged". | Footnote same; Q2 repeats the same "typically less than two years aged" sentence (verified) | "(1) Obtained from approved independent appraisers. Appraisals are current and in compliance with credit policy. Customers does not generally discount appraisals. Fair value is also estimated based on sale agreements or letters of intent with third parties." Also: "Current appraisals providing current value estimates of the property are received when Customers' credit group determines that the facts and circumstances have significantly changed since the date of the last appraisal ... Appraisals used in this evaluation process are typically less than two years aged." (Q1). OREO: "All appraisals must be performed in accordance with USPAP." | CUBI_Q1.txt:5566, 7325; CUBI_Q2.txt:6709, 9404 |
+
+Note: because CUBI "does not generally discount appraisals", the loan discount input is effectively nil/not reported; the only appraisal haircut disclosed is OREO liquidation expense 6%-7% (6% w-avg), flat Q1 to Q2 and unchanged vs 12/31/25.
+
+## CFG (Citizens Financial Group) — 10-Q Q1 0000759944-26-000101, Q2 0000759944-26-000148 ($ millions)
+
+| item | Q1-2026 | Q2-2026 | verbatim | locator |
+|---|---|---|---|---|
+| 1. FV (carrying amount at measurement) of collateral-dependent loans w/ nonrecurring FV adjustment, total | $87M (L1 -, L2 $17M, L3 $70M); 12/31/25: $135M (L2 $24M, L3 $111M) | $123M (L1 -, L2 $32M, L3 $91M); 12/31/25: $135M | "Collateral-dependent loans | $ 87 | $ - | $ 17 | $ 70 | $ 135 | $ - | $ 24 | $ 111" (Q1); "$ 123 | $ - | $ 32 | $ 91 | $ 135 | $ - | $ 24 | $ 111" (Q2) | CFG_Q1.txt:7153-7170; CFG_Q2.txt:8955-8975 |
+| 1b. Total collateral-dependent loans on book (not FV-measured; context) | Resi + home equity $458M; commercial $244M | Resi + home equity $471M; commercial $245M | "At March 31, 2026 and December 31, 2025, the Company had collateral-dependent residential mortgage and home equity loans totaling $ 458 million and $ 437 million, respectively, and collateral-dependent commercial loans totaling $ 244 million and $ 251 million, respectively." Q2: "$ 471 million and $ 437 million ... $ 245 million and $ 251 million" | CFG_Q1.txt:5380; CFG_Q2.txt:6394 |
+| 2. Valuation technique | NOT DISCLOSED | NOT DISCLOSED | Level 3 quantitative table covers only MSRs and other derivative contracts (DCF / internal model); collateral-dependent loans not in it. Footnote: "Disclosures related to the fair value measurement of financial instruments deemed immaterial are not included." | CFG_Q1.txt:7119-7143; CFG_Q2.txt:8916-8940 |
+| 3-4. Unobservable input, range, weighted avg (loans) | NOT DISCLOSED | NOT DISCLOSED | -- | -- |
+| 5. OREO | Carrying only: $17M (12/31/25 $19M); no FV-nonrecurring table | $17M (12/31/25 $19M); same | "Other real estate owned represents property acquired through foreclosure or other proceedings and totaled $17 million and $19 million, respectively, as of March 31, 2026 and December 31, 2025." | CFG_Q1.txt:1512; CFG_Q2.txt:1970 |
+| 6. Losses recorded in earnings, collateral-dependent loans | $(26)M three months (Q1-25: $(59)M) | $(24)M three months (Q2-25: $(26)M); $(50)M six months (6M-25: $(85)M) | "Collateral-dependent loans ($ 26 ) ($ 59 )" (Q1); "($ 24 ) ($ 26 ) ($ 50 ) ($ 85 )" (Q2) | CFG_Q1.txt:7145-7152; CFG_Q2.txt:8942-8952 |
+| 7. Appraisal age / updating | NOT DISCLOSED (no "apprais" hit in text; only LTV note: "LTV information ... is updated quarterly based on relevant home price indices" - residential/home equity, not collateral-dependent valuation) | NOT DISCLOSED (same) | -- | CFG_Q1.txt:1079; CFG_Q2.txt:1537 |
+
+Observation (reader-derived): CFG's L3 share of FV-measured collateral-dependent loans fell from 111/135 (82%, Dec-25) to 70/87 (80%, Q1) to 91/123 (74%, Q2); L2 share rose. Weighted-average basis n/a.
+
+## HBAN (Huntington) — 10-Q Q1 0000049196-26-000043, Q2 0000049196-26-000066 ($ millions)
+
+| item | Q1-2026 | Q2-2026 | verbatim | locator |
+|---|---|---|---|---|
+| 1. FV of collateral-dependent loans, nonrecurring (all Level 3 column) | $168M (12/31/25: $74M) | $143M (12/31/25: $74M) | "Collateral-dependent loans | $ 168 | $ 74 | $ ( 37 ) | $ ( 23 )" (Q1); "$ 143 | $ 74 | $ ( 51 ) | $ ( 20 ) | $ ( 88 ) | $ ( 43 )" (Q2) | HBAN_Q1.txt:7975-7989; HBAN_Q2.txt:10015-10034 |
+| 1b. By loan category | NOT DISCLOSED | NOT DISCLOSED | single line | -- |
+| 2. Valuation technique | NOT DISCLOSED (no row in quantitative Level 3 table) | NOT DISCLOSED | Quantitative table rows: MSRs, municipal securities and ABS (DCF) only; footnote (1) "Certain disclosures related to quantitative level 3 fair value measurements do not include those deemed to be immaterial." Text: "Huntington records nonrecurring adjustments of collateral-dependent loans held for investment. Such amounts are generally based on the fair value of the underlying collateral supporting the loan." | HBAN_Q1.txt:7990-7991, 8010-8040; HBAN_Q2.txt:10035-10036, 10050-10075 |
+| 3-4. Unobservable input, range, weighted avg (loans) | NOT DISCLOSED | NOT DISCLOSED | -- | -- |
+| 5. OREO | NOT DISCLOSED at FV nonrecurring (balance-sheet "Other real estate, net" $22M / $13M comparative in NPA table, Q1: 22 vs 13) | NOT DISCLOSED (Q2: 23 vs 13) | "Other real estate, net | 22 | 13" (Q1); "| 23 | 13" (Q2). Column order not confirmed from text; treat as NPA-table context only. | HBAN_Q1.txt:1678; HBAN_Q2.txt:2309 |
+| 6. Total losses (period) | $(37)M three months (Q1-25: $(23)M) | $(51)M three months (Q2-25: $(20)M); $(88)M six months (6M-25: $(43)M) | as in item 1 | as item 1 |
+| 7. Appraisal age / updating | Qualitative only | Qualitative only (identical) | "Appraisals are generally obtained to support the fair value of the collateral and incorporate measures such as recent sales prices for comparable properties and cost of construction. Periodically, in cases where the carrying value exceeds the fair value of the collateral less cost to sell, an impairment charge is recognized in the form of a charge-off." | HBAN_Q1.txt:7991-7994; HBAN_Q2.txt:10036-10039 |
+
+Note: HBAN FV balance is a period-end balance of loans carrying a nonrecurring FV adjustment ("regardless of whether the asset is still held at period end" applies to the losses). Q2 six-month loss $88M = Q1 $37M + Q2 $51M, consistent.
+
+## One-line summary per bank
+
+- MTB: loans FV $314M (L3 $240M) Q1 -> $372M (L3 $272M) Q2; discount input NOT DISCLOSED (no unobservable-input table; "reduced by an estimate of selling costs", unquantified); period FV losses $(38)M -> $(51)M; direction NOT COMPARABLE (balances/losses up).
+- CUBI: collateral-dependent loans FV $27.5M -> $37.6M; loan discount input NOT DISCLOSED ("does not generally discount appraisals"); only OREO liquidation expense 6%-7% (w-avg 6%) -> 6%-7% (6%), OREO FV $12.5M -> $12.6M; direction flat (OREO) / NOT COMPARABLE (loans).
+- CFG: collateral-dependent loans FV $87M (L3 $70M) -> $123M (L3 $91M); discount input NOT DISCLOSED; period losses $(26)M -> $(24)M (six months $(50)M); direction NOT COMPARABLE (balances up, quarterly loss slightly lower).
+- HBAN: collateral-dependent loans FV $168M -> $143M (12/31/25 $74M); discount input NOT DISCLOSED ("Appraisals are generally obtained"); losses $(37)M -> $(51)M (six months $(88)M); direction NOT COMPARABLE (balance down, loss up).

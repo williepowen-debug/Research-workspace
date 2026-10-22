@@ -1,0 +1,695 @@
+
+----- [line 2572] -----
+ The information contained in the consolidated financial statements and accompanying notes included in our Annual Report on Form 10-K for the year ended December 31, 2025, as filed with the Securities and Exchange Commission (the &#8220;SEC&#8221;) on February 20, 2026, should be referenced when reading these unaudited consolidated financial statements. Unless otherwise mentioned or unless the context requires otherwise, references herein to &#8220;SouthState,&#8221; the &#8220;Company,&#8221; &#8220;we,&#8221; &#8220;us,&#8221; &#8220;our&#8221; or similar references mean SouthState Bank Corporation and its consolidated subsidiaries. References to the &#8220;Bank&#8221; or &#8220;SouthState Bank&#8221; means SouthState Bank Corporation's wholly owned subsidiary, South State Bank, National Association. 
+ Loans 
+ Loans that management has originated and has the intent and ability to hold for the foreseeable future or until maturity or pay off generally are reported at their unpaid principal balances, less unearned income and net of any deferred loan fees and costs, including unamortized fair value discount or premium. Unearned income on installment loans is recognized as income over the terms of the loans by methods that generally approximate the interest method. Interest on other loans is calculated by using the simple interest method on daily balances of the principal amount outstanding. If the loan is prepaid, the remaining unamortized fees and costs are charged or credited to interest income. Amortization ceases for non-accrual loans. 
+ &#8203; 
+ We place loans on nonaccrual once reasonable doubt exists about the collectability of all principal and interest due. Generally, this occurs when principal or interest is 90 days or more past due, unless the loan is well secured and in the process of collection and excludes factored receivables. For factored receivables, which are commercial trade credits rather than promissory notes, the Company's practice, in most cases, is to charge-off unpaid recourse receivables when they become 240 days past due from the invoice due date and the non-recourse receivables when they become 240 days past due from the statement due date. Past due status is based on the contractual terms of the loan. In all cases, loans are placed on non-accrual or charged-off at an earlier date if collection of principal or interest is considered doubtful. 
+ &#8203; 
+ 9
+ Table of Contents 
+ Allowance for Credit Losses (&#8220;ACL&#8221;) - Investment Securities 
+ Management monitors the held to maturity securities portfolio to determine whether a valuation account should be recorded. Management evaluates impairment where there has been a decline in fair value below the amortized cost basis of a security to determine whether there is a credit loss associated with the decline in fair value at least quarterly, and more frequently when economic or market concerns warrant such evaluation. The Company's methodology on how the ACL is calculated is disclosed in Note 1 - Summary of Significant Accounting Policies, under the &#8220;ACL - Investment Securities&#8221; section, of our Annual Report for the year ended December 31, 2025. As of March 31, 2026 and December 31, 2025, the Company had $ 2.0 billion of held to maturity securities and no related valuation account. 
+ The Company follows its nonaccrual policy by reversing interest income in the income statement when the Company determines the interest for held to maturity securities is uncollectible. Therefore, management excludes the accrued interest receivable balance from the amortized cost basis in measuring expected credit losses on the investment securities and does not record an allowance for credit losses on accrued interest receivable. As of March 31, 2026 and December 31, 2025, the accrued interest receivables for all investment securities recorded in Other Assets were $ 42.0 million and $ 38.9 million, respectively.
+ ACL - Loans and Certain Off-Balance-Sheet Credit Exposures 
+ The ACL for loans held for investment reflects management's estimate of credit losses that will result from the inability of our borrowers to make required loan payments. The Company makes adjustments to the ACL by recording a provision for or recovery of credit losses through earnings. Loans charged off are recorded as reductions to the ACL on the balance sheet and subsequent recoveries of loan charge-offs are recorded as increases to the ACL when they are received. 
+ &#8203; 
+ Management estimates the allowance balance using relevant available information, from internal and external sources, relating to past events, current conditions, and reasonable and supportable forecasts. Historical credit loss experience provides the basis for the estimation of expected credit losses. Adjustments to historical loss information are made for differences in current loan-specific risk characteristics such as differences in underwriting standards, portfolio mix, credit quality, or term, as well as for changes in macroeconomic conditions, such as changes in unemployment rates, gross domestic product, property values, or other relevant factors. Acquired portfolios may be supported by separate credit models using loss histories relevant to those portfolios. The Company's estimate of its ACL involves a high degree of judgment; therefore, management's process for determining expected losses may result in a range of expected losses. The Company's ACL recorded in the balance sheet reflects management's best estimate within the range of expected losses. The Company recognizes in net income the amount needed to adjust the ACL for management's current estimate of expected losses. 
+ &#8203; 
+ The Company generally uses an eight-quarter forecast period, based on a single forecast scenario or a blend of multiple forecast scenarios, using variables management believes are most relevant to each portfolio segment. For periods beyond which management is able to develop reasonable and supportable forecasts, the Company reverts to the average historical loss rate, reflecting historical default probabilities and loss severities, using a reversion speed that approximates four quarters. The forecast period and scenarios used are reviewed on a quarterly basis and may be adjusted based on management's view of the current economic conditions and level of predictability the forecast can provide. 
+ &#8203; 
+ While quantitative allowance methodologies strive to reflect all risk factors, any estimate involves assumptions and uncertainties resulting in some level of imprecision. Imprecision exists in the estimation process due to the inherent time lag between obtaining information, performing the calculation, as well as variations between estimates and actual outcomes. As a result, amounts determined under the methodologies described above are adjusted by management to consider the potential impact of other qualitative factors not captured in the quantitative model adjustments which include, but are not limited to, the following: imprecision or conditions not captured in economic scenario assumptions, emerging risks related to either changes in the internal or external environment that are affecting specific portfolios, trends in loan or portfolio level credit metrics not captured in quantitative modeling, or model imprecision adjustments. The consideration of these items results in adjustments to allowance amounts included in the Company's allowance for credit losses for each loan portfolio. 
+ &#8203; 
+ 10
+ Table of Contents 
+ The Company's ACL is calculated using collectively evaluated and individually evaluated loans. Even though portions of the allowance may be allocated to specific loans or pools of loans, the entire allowance is available for any credit that, in management's judgment, should be charged off. 
+ &#8203; 
+ When a loan no longer shares similar risk characteristics with its segment, the asset is assessed to determine
+ whether it should be included in another pool or should be individually evaluated. The Company's threshold for individually evaluated loans includes all non-accrual loans with a net book balance in excess of $ 1.0 million. During an acquisition, the Company may identify accruing loans that do not share similar risk characteristics as pooled loans and therefore be individually evaluated. These loans are identified during the credit review process, have unique characteristics or circumstances, and identified as purchased credit-deteriorated (&#8220; PCD&#8221;) loans, though the loans may remain on accrual status. Management will monitor the credit environment and make adjustments to this threshold in the future if warranted. Based on the threshold above, consumer financial assets will generally remain in pools unless they meet the dollar threshold. The expected credit losses on individually evaluated loans will be estimated based on discounted cash flow analysis unless the loan meets the criteria for use of the fair value of collateral, either by virtue of an expected foreclosure or through meeting the definition of collateral-dependent. Accruing individually evaluated loans will remain in this status until 1) the loan is upgraded to pass, or 2) the loan is downgraded to non - accrual and follow the non - accrual individually evaluated process. Financial assets that have been individually evaluated can be returned to a pool for purposes of estimating the expected credit loss insofar as their credit profile improves and that the repayment terms were not considered to be unique to the asset.
+ &#8203; 
+ Management measures expected credit losses over the contractual term of a loan. When determining the contractual term, the Company considers expected prepayments but is precluded from considering expected extensions, renewals, or modifications. Loans modified to a borrower experiencing financial difficulty are reviewed by the Bank to determine if an interest rate reduction, a term extension, an other-than-insignificant payment delay, a principal forgiveness, or any combination of these has occurred. 
+ &#8203; 
+ The ACL includes expected losses from modifications of receivables to borrowers experiencing financial difficulty. Losses on modifications of non-accrual loans over $ 1 million to borrowers experiencing financial difficulty are estimated on an individual basis. Because the effect of the remainder of modifications made to borrowers experiencing financial difficulty is already incorporated into the measurement methodologies used to estimate the allowance, they are accounted for as pooled loans. 
+ &#8203; 
+ PCD assets are defined as acquired individual financial assets (or acquired groups of financial assets with similar risk characteristics) that, as of the date of acquisition, have experienced a more-than-insignificant deterioration in credit quality since origination, as determined by the Company's assessment. The Company records acquired PCD loans by adding the expected credit losses (i.e., allowance for credit losses) to the purchase price of the financial assets rather than recording through the provision for credit losses in the income statement. The expected credit loss, as of the acquisition day, of a PCD loan is added to the allowance for credit losses. The non-credit discount or premium is the difference between the unpaid principal balance and the amortized cost basis as of the acquisition date. Subsequent to the acquisition date, the change in the ACL on PCD loans is recognized through the Provision for Credit Losses in the Consolidated Statements of Income. The non-credit discount or premium is accreted or amortized, respectively, into interest income over the remaining life of the PCD loan on a level-yield basis. 
+ &#8203; 
+ The Company follows its nonaccrual policy by reversing contractual interest income in the income statement when the Company places a loan on nonaccrual status. Therefore, management excludes the accrued interest receivable balance from the amortized cost basis in measuring expected credit losses on the portfolio and does not record an allowance for credit losses on accrued interest receivable. As of March 31, 2026 and December 31, 2025, the accrued interest receivables for loans recorded in Other Assets were $ 189.2 million and $ 186.5 million, respectively. 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ 11
+ Table of Contents 
+ The Company has a variety of assets that have a component that qualifies as an off-balance sheet exposure. These primarily include undrawn portions of revolving lines of credit and standby letters of credit. The expected losses associated with these exposures within the unfunded portion of the expected credit loss are recorded as a liability on the balance sheet. Management has determined that a majority of the Company's off-balance sheet credit exposures are not unconditionally cancellable. Management completes funding studies based on internal historical data to estimate the percentage of unfunded loan commitments that will ultimately be funded to calculate the reserve for unfunded commitments. Management applies this funding rate, along with the loss factor rate determined for each pooled loan segment, to unfunded loan commitments, excluding unconditionally cancellable exposures and letters of credit, to arrive at the reserve for unfunded loan commitments. As of March 31, 2026 and December 31, 2025, the liabilities recorded for expected credit losses on unfunded commitments were $ 69.2 million and $ 69.6 million, respectively. The current adjustment to the reserve for unfunded commitments is recognized through the Provision for Credit Losses in the Consolidated Statements of Income. 
+ &#8203; 
+ The methodology used in the estimation of the allowance, which is performed at least quarterly, is designed to be dynamic and responsive to changes in portfolio credit quality and forecasted economic conditions. Changes are reflected in the pool-basis allowance and in reserves assigned on an individual basis as the collectability of classified loans is evaluated with new information. As the Company's portfolio has matured, historical loss ratios have been closely monitored. The review of the appropriateness of the allowance is performed by executive management and presented to the Audit and Risk Committees of the Board of Directors for their review. The committees report to the board as part of the board's quarterly review of the Company's consolidated financial statements.
+ Reclassification and Correction 
+ Certain amounts previously reported have been reclassified to conform to the current quarter's presentation. Such reclassifications had no effect on net income and shareholders' equity. 
+ &#8203; 
+ Note 3 - Recent Accounting and Regulatory Pronouncements 
+ Accounting Standards Adopted 
+ In November 2023, the FASB issued ASU No. 2023-07, Segment Reporting (Topic 280): Improvements to Reportable Segment Disclosures , to improve disclosures about a public entity's reportable segments and address requests from investors and other allocators of capital for additional, more detailed information about a reportable segment's expenses. Segment information gives investors an understanding of overall performance and is key to assessing potential future cash flows. In addition, although information about a segment's revenue and measure of profit or loss is disclosed in an entity's financial statements, there is limited information disclosed about a segment's expenses. The key amendments include annual and interim disclosures of significant expenses and other segment items that are regularly provided to the chief operating decision maker and included within each reported measure of profit or loss, as well as any other key measure of performance used for segment management decisions. This ASU also requires disclosure of key profitability measures used in assessing performance and how to allocate resources. The amendments in this ASU are effective for fiscal years beginning after December 15, 2023, and for interim periods within fiscal years beginning after December 15, 2024, with early adoption permitted. The Company adopted ASU 2023-07 using the retrospective approach. Aside from the new disclosures required by ASU No. 2023-07, the ASU did not have a material impact on our consolidated financial statements. See Note 22 - Segment Reporting for further disclosure. 
+ &#8203; 
+ In December 2023, the FASB issued ASU No. 2023-09, Income Taxes (Topic 740): Improvements to Income Tax Disclosures , which aims to address requests for improved income tax disclosures from investors, lenders, creditors and other allocators of capital (collectively, &#8220;investors&#8221;) that use the financial statements to make capital allocation decisions. The amendments in this ASU address investor requests for more transparency about income tax information, including jurisdictional information, by requiring consistent categories and greater disaggregation of information in both the rate reconciliation and income taxes paid disaggregated by jurisdiction. The amendments are effective for annual periods beginning after December 15, 2024. The adoption of this ASU did not have a material impact on its financial statements beyond the additional required disclosures.
+ 12
+ Table of Contents 
+ Issued But Not Yet Adopted Accounting Standards 
+ In December 2026, the FASB issued Accounting Standards Update (ASU) No. 2025-08, Financial Instruments-Credit Losses (Topic 326): Purchased Loans , which expands the population of acquired financial assets subject to the gross-up approach for accounting for credit losses. This ASU introduces the concept of purchased seasoned loans and requires certain acquired loans (excluding credit cards) that have not experienced significant credit deterioration since origination to be accounted for using the gross-up approach, addressing longstanding stakeholder concerns regarding the complexity and reduced comparability under previous guidance that distinguished between PCD and non-PCD assets. The amendments clarify initial and subsequent measurement, including recognition of an allowance for credit losses at acquisition with an offsetting gross-up to the purchase price, and require purchased seasoned loans to follow the same interest income recognition model as originated financial assets. The ASU also updates disclosure requirements to include separate presentation of the initial allowance recognized for purchased seasoned loans. The amendments are effective for annual reporting periods beginning after December 15, 2026, and for interim reporting periods within those annual periods, with early adoption permitted. The amendments must be applied prospectively to loans acquired on or after the adoption date. In the event of future acquisitions, this ASU will likely have a material impact on the Company's financial statements.
+ &#8203; 
+ In September 2025, the FASB issued Accounting Standards Update (ASU) No. 2025-06, Intangibles-Goodwill and Other-Internal-Use Software (Subtopic 350-40): Targeted Improvements to the Accounting for Internal-Use Software , seeking to update the guidance on accounting for software. This ASU addresses stakeholder and investor concerns on the challenges of applying current internal-use software accounting requirements that do not specifically address software developed using modern incremental and iterative methods, which has led to diversity in practice in determining when to begin capitalizing software costs. The ASU removes all references to a prescriptive and sequential software development method. The amendments require an entity to start capitalizing software costs when management has authorized and committed to funding the software project, and it is probable that the project will be completed and the software will be used to perform the function intended. The amendments in the ASU are effective for annual reporting periods beginning after December 15, 2027, and for interim reporting periods beginning after December 15, 2027. The Company does not anticipate this ASU will have a material impact on its financial statements.
+ &#8203; 
+ In November 2024, the FASB has issued Accounting Standards Update ASU No. 2024-03, Income Statement-Reporting Comprehensive Income-Expense Disaggregation Disclosures (Subtopic 220-40): Disaggregation of Income Statement Expenses , to provide investors with more decision-useful information about a public business entity's expense by improving disclosures on income statement expenses. The amendments in the ASU are effective for public business entities only for annual reporting periods beginning after December 15, 2026, and for interim reporting periods beginning after December 15, 2027. The Company does not anticipate this ASU will have a material impact on its financial statements.
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ 13
+ Table of Contents 
+ Note 4 - Securities 
+ Investment Securities 
+
+----- [line 12825] -----
+ &#8203; 
+ &#8203; 
+ 1,484 
+ &#8203; 
+ &#8203; 
+ 2,250 
+ 152 %
+ &#8203; 
+ Total collateral dependent loans 
+ &#8203; 
+ $ 
+ 109,929 
+ &#8203; 
+ $ 
+ 133,158 
+ &#8203; 
+ &#8203; 
+ $
+ 128,753 
+ &#8203; 
+ $
+ 152,355 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ The Bank designates individually evaluated loans on non-accrual with a net book balance exceeding the designated threshold as collateral dependent loans. Collateral dependent loans are loans for which the repayment is expected to be provided substantially through the operation or sale of the collateral and the borrower is experiencing financial difficulty. These loans do not share common risk characteristics and are not included within the collectively evaluated loans for determining the ACL. The Bank has adopted the collateral maintenance practical expedient to measure the ACL based on the fair value of collateral. The ACL is calculated on an individual loan basis based on the shortfall between the fair value of the loan's collateral, which is adjusted for selling costs, and amortized cost. If the fair value of the collateral exceeds the amortized cost, no allowance is required. The Bank's threshold for individually evaluated loans is $ 1.0 million. The changes above in collateral percentage are generally due to appraisal value updates or changes in the number of loans within the asset class and collateral type. Overall collateral dependent loans decreased $ 18.8 million during the three months ended March 31, 2026. 
+ &#8203; 
+ Loans on nonaccrual status at the date of modification are initially classified as nonaccrual. Loans on accruing status at the date of modification are initially classified as accruing if the note is reasonably assured of repayment and performance is expected in accordance with its modified terms. Such loans may be designated as nonaccrual loans subsequent to the modification date if reasonable doubt exists as to the collection of interest or principal under the modification agreement. Nonaccrual loans are returned to accruing status when there is economic substance to the modification, there is documented credit evaluation of the borrower's financial condition, the remaining balance is reasonably assured of repayment in accordance with its modified terms, and the borrower has demonstrated sustained repayment performance in accordance with the modified terms for a reasonable period of time (generally a minimum of six months ). See Note 2 - Summary of Significant Accounting Policies for how such modifications are factored into the determination of the ACL for the periods presented above. 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ 24
+ Table of Contents 
+ The following tables present loans designated as modifications made to borrowers experiencing financial difficulty during the three months ended March 31, 2026 and 2025, respectively. The loans are segregated by type of modification and asset class, indicating the financial effect of the modifications. 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ Three Months Ended March 31, 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ 2026 
+ &#8203; 
+ 2025 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ Reduction in Weighted 
+ &#8203; 
+ &#8203; 
+
+----- [line 16170] -----
+ &#8203; 
+ 81.11 
+ &#8203; 
+ Outstanding at March 31, 2026
+ 867,162 
+ &#8203; 
+ $ 
+ 92.17 
+ &#8203; 
+ &#8203; 
+ If maximum performance is achieved pursuant to the 2024, 2025 and 2026 Long Term Incentive performance-based RSU grants, an additional 133,447 shares in total may be issued by the Company at the end of the three-year performance periods. 
+ &#8203; 
+ As of March 31, 2026, there was $ 56.1 million of total unrecognized compensation cost at target related to nonvested RSUs granted under the plan. This cost is expected to be recognized over a weighted-average period of 1.66 years as of March 31, 2026. The total fair value of RSUs vested and released during the three months ended March 31, 2026 was $ 37.6 million . 
+ 32
+ Table of Contents 
+ Note 12 - Commitments and Contingent Liabilities 
+ In the normal course of business, we make various commitments and incur certain contingent liabilities, which are not reflected in the accompanying financial statements. The commitments and contingent liabilities include guarantees, commitments to extend credit, and standby letters of credit. At March 31, 2026, commitments to extend credit and standby letters of credit totaled $ 14.0 billion. As of March 31, 2026, the liability recorded for expected credit losses on unfunded commitments, excluding unconditionally cancellable exposures and letters of credit, was $ 69.2 million and recorded on the Balance Sheet. See Note 2 - Summary of Significant Accounting Policies for discussion of liability recorded for expected credit losses on unfunded commitments.
+ We have been named as defendant in various legal actions, arising from its normal business activities, in which damages in various amounts are claimed. We are also exposed to litigation risk related to the prior business activities of banks acquired through whole bank acquisitions. Although the amount of any ultimate liability with respect to such matters cannot be determined, in the opinion of management, as of March 31, 2026, any such liability is not expected to have a material effect on our consolidated financial statements. 
+ &#8203; 
+ Cyber Incident Litigation . On April 3, 2024, a putative class action lawsuit was filed against the Bank in the U.S. District Court for the Middle District of Florida, Tam pa Division (the &#8220;Original Suit&#8221;). The plaintiff, who purports to represent the class of individuals harmed by alleged actions and/or omissions by the Bank in connection with the cybersecurity incident that was detected on February 6, 2024 (the &#8220;Cyber Incident&#8221;, as previously reported in the Form 8-K filed with the SEC on February 9, 2024), asserts a variety of common law and statutory claims seeking monetary damages, injunctive relief and other related relief related to the potential unauthorized access by third parties to personal identifiable information. While the Original Suit has been voluntarily dismissed, the same plaintiffs as well as additional plaintiffs initiated litigation that names the Bank as a defendant. These cases have been consolidated into one putative class action, which as of March 31, 2026, remains pending against the Bank in the Circuit Court for Polk County, Florida (the &#8220;Cyber Incident Suit&#8221;). 
+ &#8203; 
+ During the first quarter of 2026, the parties agreed to a settlement of the Cyber Incident Suit, subject to court approval, under which the Company has agreed to fund documented losses, pay attorney's fees, and administration costs and credit monitoring fees. The settlement is expected to be paid from the Company's cyber insurance coverage. 
+ Note 13 - Fair Value 
+ GAAP defines fair value and establishes a framework for measuring and disclosing fair value. Fair value should be based on the assumptions market participants would use when pricing an asset or liability and establishes a fair value hierarchy that prioritizes the information used to develop those assumptions. 
+ &#8203; 
+ The Company uses fair value measurements to record fair value adjustments to certain assets and liabilities and to determine fair value disclosures. Available for sale and trading securities, derivative contracts, mortgage loans held for sale, SBA servicing rights, and mortgage servicing rights (&#8220;MSRs&#8221;) are recorded at fair value on a recurring basis. Additionally, from time to time, we may be required to record at fair value other assets on a nonrecurring basis, such as impaired loans, OREO, bank properties held for sale, and certain other assets. These nonrecurring fair value adjustments typically involve application of lower of cost or market accounting or write-downs of individual assets. 
+ &#8203; 
+ FASB ASC Topic 820 establishes a three-tier fair value hierarchy which prioritizes the inputs used in measuring fair value as follows:
+ &#8203; 
+ Level 1
+ Observable inputs such as quoted prices in active markets;
+ Level 2
+ Inputs, other than the quoted prices in active markets, that are observable either directly or indirectly; and
+ Level 3
+ Unobservable inputs in which there is little or no market data, which require the reporting entity to develop its own assumptions.
+ &#8203; 
+ A description of valuation methodologies used for assets recorded at fair value is disclosed in Note 23 - Fair Value of our Annual Report on Form 10-K for the year ended December 31, 2025.
+ &#8203; 
+ 33
+ Table of Contents 
+ Assets and Liabilities Recorded at Fair Value on a Recurring Basis 
+ The table below presents the recorded amount of assets and liabilities measured at fair value on a recurring basis:
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; &#8203; &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; &#8203; &#8203; 
+ Quoted Prices 
+ &#8203; &#8203; &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; &#8203; &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ In Active 
+ &#8203; 
+ Significant 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ Markets 
+ &#8203; 
+ Other 
+ &#8203; 
+ Significant 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ for Identical 
+ &#8203; 
+ Observable 
+ &#8203; 
+ Unobservable 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ Assets 
+ &#8203; 
+ Inputs 
+ &#8203; 
+ Inputs 
+ (Dollars in thousands) 
+ &#8203; 
+ Fair Value 
+ &#8203; 
+ (Level 1) 
+ &#8203; 
+ (Level 2) 
+ &#8203; 
+ (Level 3) 
+ March 31, 2026: 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ Assets 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+
+----- [line 16822] -----
+ &#8203; 
+ $ 
+ 48,094 
+ &#8203; 
+ $
+ 61,400 
+ &#8203; 
+ Unpaid principal balance
+ &#8203; 
+ &#8203; 
+ 47,102 
+ &#8203; 
+ &#8203; 
+ 59,371 
+ &#8203; 
+ Fair value less aggregated unpaid principal balance
+ &#8203; 
+ $ 
+ 992 
+ &#8203; 
+ $
+ 2,029 
+ &#8203; 
+ &#8203; 
+ Changes in Level 1, 2 and 3 Fair Value Measurements 
+ When a determination is made to classify a financial instrument within Level 3 of the valuation hierarchy, the determination is based upon the significance of the unobservable factors to the overall fair value measurement. However, since Level 3 financial instruments typically include, in addition to the unobservable or Level 3 components, observable components (that is, components that are actively quoted and can be validated to external sources), the gains and losses below include changes in fair value due in part to observable factors that are part of the valuation methodology. 
+ There were no changes in hierarchy classifications of Level 3 assets or liabilities for the three months ended March 31, 2026. A reconciliation of the beginning and ending balances of the MSRs recorded at fair value on a recurring basis for the three months ended March 31, 2026 is as follows. The changes in fair value of the MSRs are recorded in Mortgage Banking Income on the Consolidated Statements of Income. 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ (Dollars in thousands) 
+ &#8203; &#8203; &#8203; 
+ MSRs 
+ Fair value, January 1, 2026
+ &#8203; 
+ $ 
+ 84,032 
+ &#8203; 
+ Servicing assets that resulted from transfers of financial assets
+ &#8203; 
+ 1,627 
+ &#8203; 
+ Changes in fair value due to valuation inputs or assumptions 
+ &#8203; 
+ 6,564 
+ &#8203; 
+ Changes in fair value due to decay
+ &#8203; 
+ ( 2,205 ) 
+ &#8203; 
+ Fair value, March 31, 2026
+ &#8203; 
+ $ 
+ 90,018 
+ &#8203; 
+ &#8203; 
+ A reconciliation of the beginning and ending balances of the SBA servicing asset, a Level 3 asset recorded at fair value on a recurring basis for the three months ended March 31, 2026 is as follows. The changes in fair value of the SBA servicing asset are recorded in in SBA Income on the Consolidated Statements of Income. 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ (Dollars in thousands) 
+ &#8203; &#8203; &#8203; 
+ SBA Servicing Asset 
+ Fair value, January 1, 2026
+
+----- [line 16897] -----
+ &#8203; 
+ &#8203; 
+ 156 
+ &#8203; 
+ Changes in fair value due to decay
+ &#8203; 
+ &#8203; 
+ ( 502 ) 
+ &#8203; 
+ Changes in fair value due to valuation inputs or assumptions 
+ &#8203; 
+ &#8203; 
+ 10 
+ &#8203; 
+ Fair value, March 31, 2026
+ &#8203; 
+ $ 
+ 5,176 
+ &#8203; 
+ &#8203; 
+ There were no unrealized losses included in accumulated other comprehensive income related to Level 3 financial assets and liabilities at March 31, 2026.
+ See Note 18 - Mortgage Loan Servicing, Obligation, and Loans Held for Sale for information about recurring Level 3 fair value measurements of mortgage servicing rights.
+ &#8203; 
+ 35
+ Table of Contents 
+ Assets and Liabilities Recorded at Fair Value on a Nonrecurring Basis 
+ The tables below present the recorded amount of assets and liabilities measured at fair value on a nonrecurring basis:
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; &#8203; &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; &#8203; &#8203; 
+ Quoted Prices 
+ &#8203; &#8203; &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; &#8203; &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ In Active 
+ &#8203; 
+ Significant 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ Markets 
+ &#8203; 
+ Other 
+ &#8203; 
+ Significant 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ for Identical 
+ &#8203; 
+ Observable 
+ &#8203; 
+ Unobservable 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ Assets 
+ &#8203; 
+ Inputs 
+ &#8203; 
+ Inputs 
+ (Dollars in thousands) 
+ &#8203; 
+ Fair Value 
+ &#8203; 
+ (Level 1) 
+ &#8203; 
+ (Level 2) 
+ &#8203; 
+ (Level 3) 
+ March 31, 2026: 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ OREO 
+ &#8203; 
+ $ 
+ 26,061 
+ &#8203; 
+ $ 
+ - 
+ &#8203; 
+ $ 
+ - 
+ &#8203; 
+
+----- [line 17054] -----
+ OREO 
+ &#8203; 
+ $ 
+ 8,771 
+ &#8203; 
+ $ 
+ - 
+ &#8203; 
+ $ 
+ - 
+ &#8203; 
+ $ 
+ 8,771 
+ &#8203; 
+ Individually evaluated loans 
+ &#8203; 
+ 328,452 
+ &#8203; 
+ - 
+ &#8203; 
+ - 
+ &#8203; 
+ 328,452 
+ &#8203; 
+ &#8203; 
+ For an individually evaluated loan, the fair value of collateral is measured based on appraisal or third-party valuation when the loan is placed on nonaccrual. For OREO and bank properties held for sale, the fair value is initially recorded based on external appraisals at the time of transfer. These assets recorded at fair value on a nonrecurring basis are updated on at least an annual basis. 
+ Quantitative Information about Level 3 Fair Value Measurement 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ Weighted Average Discount 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ March 31, 
+ &#8203; 
+ December 31, 
+ &#8203; 
+ &#8203; &#8203; &#8203; 
+ Valuation Technique 
+ &#8203; &#8203; &#8203; 
+ Unobservable Input 
+ &#8203; &#8203; &#8203; 
+ 2026 
+ &#8203; &#8203; &#8203; 
+ 2025 
+ Nonrecurring measurements: 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ Individually evaluated loans
+ Discounted appraisals and discounted cash flows 
+ Collateral discounts 
+ &#8203; 
+ 19 
+ % 
+ &#8203; 
+ 19 
+ %
+ OREO and Bank properties held for sale
+ Discounted appraisals 
+ Collateral discounts and estimated costs to sell 
+ &#8203; 
+ 9 
+ % 
+ &#8203; 
+ 2 
+ %
+ &#8203; 
+ Fair Value of Financial Instruments 
+ We used the following methods and assumptions in estimating our fair value disclosures for financial instruments. In cases where quoted market prices are not available, fair values are based on estimates using present value or other valuation techniques. Those models are significantly affected by the assumptions used, including the discount rates and estimates of future cash flows. In that regard, the derived fair value estimates cannot be substantiated by comparison to independent markets and, in many cases, could not be realized in immediate settlement of the instrument. The use of different methodologies may have a material effect on the estimated fair value amounts. The fair value estimates presented in the table below are based on pertinent information available to management as of March 31, 2026, and December 31, 2025. Such amounts have not been revalued for purposes of these consolidated financial statements since those dates and, therefore, current estimates of fair value may differ significantly from the amounts presented herein. 
+ &#8203; 
+ Methods and assumptions used to estimate the fair value of each class of financial instruments are disclosed in Note 23 - Fair Value of our Annual Report on Form 10-K for the year ended December 31, 2025.
+ &#8203; 
+ &#8203; 
+ 36
+ Table of Contents 
+ The estimated fair value, and related carrying amount, of our financial instruments are as follows:
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; &#8203; &#8203; 
+ Carrying 
+ &#8203; &#8203; &#8203; 
+ Fair 
+ &#8203; &#8203; &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; &#8203; &#8203; 
+
+----- [line 19485] -----
+ ( 2,599 )
+ &#8203; 
+ &#8203; 
+ 50 basis point decrease
+ &#8203; 
+ &#8203; 
+ ( 6,312 ) 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ ( 5,128 )
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ The sensitivity calculations above are hypothetical and should not be considered to be predictive of future performance. Changes in fair value based on changes in assumptions generally cannot be extrapolated because the relationship of the change in assumption to the change in fair value may not be linear. Also, the effect of a variation in a particular assumption on the fair value of the residential MSRs is calculated without changing any other assumption, while in reality changes in one factor may result in changes in another, which may either magnify or counteract the effect of the change. The derivative instruments utilized by the Company would serve to reduce the estimated impacts to fair value included in the table above.
+ &#8203; 
+ Whole loan sales were $ 196.5 million for the three months ended March 31, 2026, compared to $ 281.4 million for the three months ended March 31, 2025. For the three months ended March 31, 2026, $ 126.5 million, or 64.4 %, were sold with the servicing rights retained by the Company, compared to $ 164.9 million, or 58.6 % for the three months ended March 31, 2025.
+ &#8203; 
+ &#8203; 
+ 43
+ Table of Contents 
+ The Company retains no beneficial interests in these sales but may retain the servicing rights for the loans sold. The risks related to the sold loans with the retained servicing rights due to a representation or warranty violation such as noncompliance with eligibility or servicing requirements, or customer fraud, that should have been identified in a loan file review are disclosed in Note 1 - Summary of Significant Accounting Policies, under the &#8220;Loans Held for Sale&#8221; section, of the Company's Annual Report on Form 10-K for the year ended December 31, 2025. The Company is obligated to subsequently repurchase a loan if such representation or warranty violation is identified by the purchaser. The aggregated principal balances of loans repurchased for the three months ended March 31, 2026 and March 31, 2025 were approximately $ 627,000 and $ 1.1 million, respectively. 
+ &#8203; 
+ Mortgage loans held for sale have historically been comprised of residential mortgage loans awaiting sale in the secondary market, which generally settle in 15 to 45 days . Mortgage loans held for sale were $ 48.1 million and $ 61.4 million at March 31, 2026, and December 31, 2025, respectively. Please see Note 13 - Fair Value, under the &#8220;Fair Value Option&#8221;, section in this Quarterly Report on Form 10-Q for summary of the fair value and the unpaid principal balance of loans held for sale and the changes in fair value of these loans. 
+ Note 19 - Small Business Administration (&#8220;SBA&#8221;) Loans Held for Sale 
+ The Company purchases the guaranteed portions of SBA loans from third-party originators. The guaranteed portions of SBA loans purchased by the Company are aggregated into pools with similar characteristics to create a security representing an interest in those pools through the SBA's fiscal transfer agent (&#8220;FTA&#8221;). The individual guaranteed portions of the SBA loans may also be sold prior to pooling into a security. The guaranteed portion of the SBA loans are pooled and securities representing interests in that pool are issued, the Company sells the pooled securities into the secondary market. These securities are carried at fair value and classified as trading instruments. Gains or losses on the sale of the securities and individual guaranteed portions of loans are both recorded in Correspondent Banking and Capital Markets Income in Noninterest Income on the Consolidated Statements of Income. The Company does not retain any interest in the securities once sold. The guaranteed portion of the SBA loans that have not been pooled or sold, are reported as Loans Held for Sale on the Consolidated Balance Sheet and recorded at the lower of cost or estimated fair value. The fair value of the purchased guaranteed portion of the SBA loans is determined based upon their committed sales price, and actual observable market color provided to secondary market participants from the originating banks who are selling their guaranteed portions of loans. These nonrecurring fair value measurements for purchased guaranteed portion of SBA loans are classified within Level 2 of the fair value hierarchy. 
+ &#8203; 
+ During the first quarter of 2026, the Company purchased approximately $ 346.7 million in guaranteed portions of SBA loans. During the first quarter of 2026, the Company pooled approximately $ 285.8 million of the guaranteed portions of SBA loans into securities selling approximately $ 294.2 million into the secondary market. The Company also sold approximately $ 34.6 million in individual loans during the three months ended March 31, 2026. During the first quarter of 2025, the Company purchased approximately $ 450.9 million in guaranteed portions of SBA loans. The Company pooled approximately $ 312.9 million of the guaranteed portions of SBA loans into securities selling approximately $ 321.0 million into the secondary market during the first quarter of 2025. The Company also sold approximately $ 15.4 million in individual loans during the three months ended March 31, 2025. The Company held approximately $ 279.8 million and $ 283.9 million, respectively, in the guaranteed portion of SBA loans held for sale at March 31, 2026 and December 31, 2025.
+ &#8203; 
+ The Company also separately originates SBA loans and sells the guaranteed portions of these loans into the secondary market. During the three months ended March 31, 2026 and 2025, the Company sold approximately $ 8.3 million and $ 22.6 million, respectively, in guaranteed portions of SBA loans originated at the Bank and recognized net gains of $ 748,000 and $ 2.0 million, respectively.
+ &#8203; 
+ &#8203; 
+ 44
+ Table of Contents 
+ Note 20 - Short-Term Borrowings 
+ Securities Sold Under Agreements to Repurchase (&#8220;Repurchase agreements&#8221;) 
+ Repurchase agreements represent funds received from customers, generally on an overnight or continuous basis, which are collateralized by investment securities owned or, at times, borrowed and re-hypothecated by the Company. Repurchase agreements are subject to terms and conditions of the master repurchase agreements between the Company and the client and are accounted for as secured borrowings. Repurchase agreements are included in Securities Sold Under Agreements to Repurchase on the Consolidated Balance Sheets. At March 31, 2026, and December 31, 2025, our repurchase agreements totaled $ 299.6 million and $ 311.4 million, respectively. All of our repurchase agreements were overnight or continuous (until-further-notice) agreements at March 31, 2026, and December 31, 2025. These borrowings were collateralized with government, government-sponsored enterprise, or state and political subdivision-issued securities with a carrying value of $ 351.2 million and $ 331.5 million at March 31, 2026, and December 31, 2025, respectively. Declines in the value of the collateral would require us to increase the amounts of securities pledged. 
+ Federal Funds Purchased 
+ Federal funds purchased are generally overnight daily borrowings with no defined maturity date. At March 31, 2026, and December 31, 2025, our federal funds purchased totaled $ 343.8 million and $ 306.8 million, respectively. 
+ Federal Home Loan Bank (&#8220;FHLB&#8221;) and Federal Reserve Bank (&#8220;FRB&#8221;) Borrowings 
+ The Company has, from time to time, entered into borrowing agreements with the FHLB and FRB. Borrowings under these agreements are collateralized by stock in the FHLB, qualifying first and second mortgage residential loans, investment securities, and commercial real estate loans under a blanket-floating lien. 
+ &#8203; 
+ As of March 31, 2026, and December 31, 2025, the Company had no outstanding FHLB borrowings. Net eligible loans of the Company pledged via a blanket lien to the FHLB for advances and letters of credit at March 31, 2026, were approximately $ 9.0 billion (collateral value of $ 5.7 billion) and investment securities and cash pledged were approximately $ 30.1 million (collateral value of $ 22.2 million). This allows the Company a total borrowing capacity at the FHLB of approximately $ 5.7 billion. After accounting for the secured collateral required totaling $ 17.8 million, the Company had unused net credit available with the FHLB in the amount of approximately $ 5.7 billion at March 31, 2026. The Company also has a total borrowing capacity at the FRB of $ 11.4 billion at March 31, 2026 secured by a blanket lien on $ 15.0 billion (collateral value of $ 11.4 billion) in net eligible loans of the Company. The Company had no outstanding borrowings with the FRB at March 31, 2026 or December 31, 2025. 
+ Note 21 - Stock Repurchase Program 
+ On January 21, 2026, the Board of Directors of the Company approved a stock repurchase plan for the repurchase of up to 5,560,000 shares of the Company's common stock (the &#8220;2026 Repurchase Plan&#8221;). The 2026 Repurchase Plan replaces the Company's 2025 Repurchase Plan, under which 560,000 shares remained available for repurchase. The 2025 Repurchase Plan was cancelled in connection with the Board's approval of the 2026 Repurchase Plan. During the first quarter of 2026, t he Company repurchased a total of 1,500,000 shares at a weighted average price of $ 100.87 per share (including commission paid) pursuant to the 2026 Stock Repurchase Plan . Based on the shares repurchased through the 2026 Repurchase Plan in the first quarter of 2026, the Company accrued an estimated excise tax of approximately $ 1.8 million during the quarter to be paid in 2027. This excise tax of 1 % on the fair market value of corporate stock repurchased was enacted under the Inflation Reduction Act of 2022 for stock repurchases and is recorded against Surplus in shareholders' equity when accrued. During the first quarter of 2025, the Company did not repurchase any shares pursuant to the 2025 Repurchase Plan. 
+ &#8203; 
+ The Company repurchased 89,446 and 109,712 shares at a cost of $ 9.1 million and $ 11.2 million, respectively, during the three months ended March 31, 2026 and 2025 under other arrangements whereby directors or officers surrender shares to the Company to cover the option cost for stock option exercises or tax liabilities resulting from the vesting of restricted stock awards or restricted stock units. 
+ 45
+ Table of Contents 
+ Note 22 - Segment Reporting 
+ The Company, through the Bank, provides a broad range of financial services to individuals and companies primarily in South Carolina, North Carolina, Florida, Alabama, Georgia, Virginia, Texas and Colorado. These services include, but not limited to, demand, time and savings deposits; lending and credit card servicing; ATM processing; mortgage banking services; correspondent banking services and wealth management and trust services. The Company's operations are managed and financial performance is evaluated on an organization-wide basis. Accordingly, the Company's banking and finance operations are not considered by management to constitute more than one reportable operating segment. This single segment is the General Banking Unit.
+ &#8203; 
+ The Company's chief operating decision maker (&#8220;CODM&#8221;) is the Executive Committee. The CODM generally meets monthly and membership includes the senior executive management team including the Chief Executive Officer, Chief Strategy Officer, President, Chief Financial Officer, Chief Operating Officer, Chief Risk Officer, among other executives.
+ &#8203; 
+ The CODM assesses performance of the General Banking Unit using a variety of figures, metrics and key performance indicators. However, the CODM primarily utilizes net income and Net Interest Margin (&#8220;NIM&#8221;) to make business decisions. The CODM monitors these profitability measures at each meeting, and is regularly featured in various investor presentations, earnings releases, and other internal management reports. These performance and profitability measures influence business decisions and allocation of resources within the General Banking Unit.
+ &#8203; 
+ The table below provides net income and NIM information about the General Banking Unit. The most significant expenses to the General Banking Unit are deposit and other borrowing interest expense as well as employee compensation . 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ &#8203; 
+ Three Months Ended 
+ &#8203; 
+ &#8203; 

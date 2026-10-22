@@ -1,0 +1,370 @@
+
+----- [line 1076] -----
+ 123 
+ 218 
+ Defined benefit pension and postretirement benefit plans: 
+ Amortization of actuarial net loss 
+ ( 15 ) 
+ ( 121 ) 
+ Other non-interest expense 
+ Tax effect 
+ 4 
+ 33 
+ Total net of tax 
+ ( 11 ) 
+ ( 88 ) 
+ Total reclassifications, net of tax 
+ $ 
+ 119 
+ $ 
+ 130 
+ 10 
+ Note 4. New Authoritative Accounting Guidance 
+ ASU No. 2025-09, &#8220;Derivatives and Hedging (Topic 815): Hedge Accounting Improvements,&#8221; amends the existing requirement that cash flow hedges of groups of individual forecasted transactions that use a single derivative as the hedging instrument share the same risk exposure. Instead, the new guidance requires such groups to have a similar risk exposure. Additionally, ASU No. 2025-09 clarifies that the quantitative threshold for determining similar risk exposure aligns with the highly effective threshold used in assessing hedge effectiveness. ASU No. 2025-09 is effective for interim and annual reporting periods beginning after December 15, 2026 with early adoption permitted. The amendments should be applied prospectively to all hedging relationships beginning on or after the date of adoption. ASU No. 2025-09 is currently not expected to have a significant impact on Valley's consolidated financial statements. 
+ ASU No. 2025-08, &#8220;Financial Instruments - Credit Losses (Topic 326): Purchased Loans,&#8221; amends the guidance in ASC 326 on the accounting for certain purchased loans. Under ASU No. 2025-8, entities must account for acquired loans that meet certain criteria of &#8220;purchased seasoned loans&#8221; at acquisition by recognizing them at their purchase price plus an allowance for expected credit losses (gross-up approach). The intent of amendments is to align the accounting for purchased seasoned loans with the current accounting guidance under ASC 326 for purchased financial assets with credit deterioration (PCD assets). ASU No. 2025-08 is effective for interim and annual reporting periods beginning after December 15, 2026 with early adoption permitted. The amendments must be applied prospectively. ASU No. 2025-08 is currently not expected to have a significant impact on Valley's consolidated financial statements. 
+ ASU No. 2025-06, &#8220;Intangibles - Goodwill and Other - Internal-Use Software (Subtopic 350-40): Targeted Improvements to the Accounting for Internal-Use Software&#8221; clarifies and modernizes the accounting for costs related to internal-use software. The new guidance clarifies the threshold entities apply to begin capitalizing costs and removes all references to project stages in ASC Subtopic 350-40. ASU No. 2025-06 is effective for all entities for fiscal years beginning after December 15, 2027, and interim periods within those fiscal years. The new guidance may be applied using a prospective, retrospective or modified transition approach with early adoption permitted. ASU No. 2025-06 is currently not expected to have a significant impact on Valley's consolidated financial statements. 
+ ASU No. 2024-03, &#8220;Income Statement - Reporting Comprehensive Income - Expense Disaggregation Disclosures (Subtopic 220-40): Disaggregation of Income Statement Expenses,&#8221; requires disaggregation of certain expense captions into specified categories in disclosures within the footnotes to the financial statements. ASU No. 2024-03 does not change the expense captions an entity presents on the face of the income statement. Subsequently issued ASU No. 2025-01 amended the effective date of ASU No. 2024-03 to require all public business entities to adopt the new guidance for annual reporting periods beginning after December 15, 2026, and interim periods within fiscal years beginning after December 15, 2027. Early adoption and retrospective application are permitted. The adoption of ASU No. 2024-03 is currently not expected to have a significant impact on Valley's consolidated financial statements and disclosures. 
+ Note 5. Fair Value Measurement of Assets and Liabilities 
+ ASC Topic 820, &#8220;Fair Value Measurement,&#8221; establishes a fair value hierarchy that prioritizes the inputs to valuation techniques used to measure fair value. The hierarchy gives the highest priority to unadjusted quoted prices in active markets for identical assets or liabilities (Level 1 measurements) and the lowest priority to unobservable inputs (Level 3 measurements). The three levels of the fair value hierarchy are described below: 
+ &#8226; Level 1 - Unadjusted exchange quoted prices in active markets for identical assets or liabilities, or identical liabilities traded as assets that the reporting entity has the ability to access at the measurement date. 
+ &#8226; Level 2 - Quoted prices in markets that are not active, or inputs that are observable either directly or indirectly (i.e., quoted prices on similar assets) for substantially the full term of the asset or liability. 
+ 11 
+ &#8226; Level 3 - Prices or valuation techniques that require inputs that are both significant to the fair value measurement and unobservable (i.e., supported by little or no market activity). 
+ Assets and Liabilities Measured at Fair Value on a Recurring and Non-Recurring Basis 
+ The following tables present the assets and liabilities that are measured at fair value on a recurring and non-recurring basis by level within the fair value hierarchy as reported on the consolidated statements of financial condition at March 31, 2026 and December 31, 2025. The assets presented under &#8220;non-recurring fair value measurements&#8221; in the tables below are not measured at fair value on an ongoing basis but are subject to fair value adjustments under certain circumstances (e.g., when an impairment loss is recognized). 
+ Fair Value Measurements at Reporting Date Using: 
+ March 31, 2026 
+ Quoted Prices in Active Markets for Identical Assets (Level 1) 
+ Significant Other Observable Inputs (Level 2) 
+ Significant Unobservable Inputs (Level 3) 
+ (in thousands) 
+ Recurring fair value measurements: 
+ Assets 
+ Investment securities: 
+ Equity securities 
+ $ 
+ 23,240 
+ $ 
+ 23,240 
+ $ 
+ - 
+ $ 
+ - 
+ Equity securities at net asset value (NAV) 
+ 9,371 
+ - 
+ - 
+ - 
+ Available for sale debt securities: 
+ U.S. Treasury securities 
+ 227,333 
+ 227,333 
+ - 
+ - 
+ U.S. government agency securities 
+ 38,862 
+ - 
+ 38,862 
+ - 
+ Obligations of states and political subdivisions 
+ 189,851 
+ - 
+ 189,851 
+ - 
+ Residential mortgage-backed securities 
+ 3,471,873 
+ - 
+ 3,471,873 
+ - 
+ Corporate and other debt securities 
+ 229,115 
+ - 
+ 229,115 
+ - 
+
+----- [line 1175] -----
+ $ 
+ 250,573 
+ $ 
+ 4,142,952 
+ $ 
+ - 
+ Liabilities 
+ Other liabilities (2) 
+ $ 
+ 211,748 
+ $ 
+ - 
+ $ 
+ 211,748 
+ $ 
+ - 
+ Total liabilities 
+ $ 
+ 211,748 
+ $ 
+ - 
+ $ 
+ 211,748 
+ $ 
+ - 
+ Non-recurring fair value measurements: 
+ Collateral dependent loans (3) 
+ $ 
+ 105,559 
+ $ 
+ - 
+ $ 
+ - 
+ $ 
+ 105,559 
+ Foreclosed assets 
+ 3,356 
+ - 
+ - 
+ 3,356 
+ Total 
+ $ 
+ 108,915 
+ $ 
+ - 
+ $ 
+ - 
+ $ 
+ 108,915 
+ 12 
+ Fair Value Measurements at Reporting Date Using: 
+ December 31, 2025 
+ Quoted Prices in Active Markets for Identical Assets (Level 1) 
+ Significant Other Observable Inputs (Level 2) 
+ Significant Unobservable Inputs (Level 3) 
+ (in thousands) 
+ Recurring fair value measurements: 
+ Assets 
+ Investment securities: 
+ Equity securities 
+ $ 
+ 23,293 
+ $ 
+ 23,293 
+ $ 
+ - 
+ $ 
+ - 
+ Equity securities at net asset value (NAV) 
+ 10,110 
+ - 
+ - 
+ - 
+ Available for sale debt securities: 
+ U.S. Treasury securities 
+ 228,487 
+ 228,487 
+ - 
+ - 
+ U.S. government agency securities 
+ 39,944 
+ - 
+ 39,944 
+ - 
+ Obligations of states and political subdivisions 
+ 193,380 
+ - 
+ 193,380 
+ - 
+ Residential mortgage-backed securities 
+ 3,514,078 
+ - 
+ 3,514,078 
+ - 
+ Corporate and other debt securities 
+ 226,329 
+ - 
+ 226,329 
+ - 
+
+----- [line 1292] -----
+ $ 
+ 251,780 
+ $ 
+ 4,164,616 
+ $ 
+ - 
+ Liabilities 
+ Other liabilities (2) 
+ $ 
+ 184,162 
+ $ 
+ - 
+ $ 
+ 184,162 
+ $ 
+ - 
+ Total liabilities 
+ $ 
+ 184,162 
+ $ 
+ - 
+ $ 
+ 184,162 
+ $ 
+ - 
+ Non-recurring fair value measurements: 
+ Collateral dependent loans (3) 
+ $ 
+ 105,107 
+ $ 
+ - 
+ $ 
+ - 
+ $ 
+ 105,107 
+ Foreclosed assets 
+ 5,680 
+ - 
+ - 
+ 5,680 
+ Total 
+ $ 
+ 110,787 
+ $ 
+ - 
+ $ 
+ - 
+ $ 
+ 110,787 
+ (1) Represents residential mortgage loans originated for sale that are carried at fair value and had contractual unpaid principal balances totaling $ 2.5 million and $ 8.1 million at March 31, 2026 and December 31, 2025, respectively. 
+ (2) Derivative financial instruments are included in this category. 
+ (3) Net of specific reserve allocations reported within the allowance for loan losses totaling $ 78.5 million and $ 82.0 million at March 31, 2026 and December 31, 2025, respectively. 
+ Assets and Liabilities Measured at Fair Value on a Recurring Basis 
+ The following valuation techniques were used for financial instruments measured at fair value on a recurring basis. All of the valuation techniques described below apply to the unpaid principal balance, excluding any accrued interest or dividends at the measurement date. Interest income and expense are recorded within the consolidated statements of income depending on the nature of the instrument using the effective interest method based on acquired discount or premium. 
+ Equity securities . The equity securities consisted of two publicly traded mutual funds and CRA inves tments. These investments are reported at fair value utilizing Level 1 inputs. 
+ Equity securities at NAV . Valley also has privately held CRA funds and investments in entities that develop new financial technologies, including limited liability companies and partnerships. These investments are at fair value measured at NAV using the most recently available financial information from the investee. Certain equity investments without readily determinable fair values are measured at NAV per share (or its equivalent) as a practical expedient and are excluded from fair value hierarchy levels in the tables above. 
+ 13 
+ Available for sale debt securities. U.S. Treasury securities are reported at fair value utilizing Level 1 inputs. The majority of other investment securities are reported at fair value utilizing Level 2 inputs. The prices for these instruments are obtained through an independent pricing service or dealer market participants with whom Valley has historically transacted both purchases and sales of investment securities. Prices obtained from these sources include prices derived from market quotations and matrix pricing. The fair value measurements consider observable data that may include dealer quotes, market spreads, cash flows, the U.S. Treasury yield curve, live trading levels, trade execution data, market consensus prepayment speeds, credit information and the bond's terms and conditions, among other things. Management reviews the data and assumptions used in pricing the securities by its third party provider to ensure the highest level of significant inputs are derived from market observable data. In addition, Valley reviews the volume and level of activity for a ll AFS debt s ecurities and attempts to identify transactions which may not be orderly or reflective of a significant level of activity and volume. 
+ Loans held for sale. Residential mortgage loans originated for sale are reported at fair value using Level 2 inputs. The fair values were calculated utilizing quoted prices for similar assets in active markets. The market prices represent a delivery price, which reflects the underlying price each institution would pay Valley for an immediate sale of an aggregate pool of mortgages. Non-performance risk did not materially impact the fair value of mortgage loans held for sale at March 31, 2026 and December 31, 2025 based on the short duration these assets were held and their credit quality. 
+ Derivatives. Derivatives are reported at fair value utilizing Level 2 inputs. The fair values of Valley's derivatives are determined using third party prices that are based on discounted cash flow analysis using observed market inputs, such as the SOFR curve at March 31, 2026 and December 31, 2025. The fair value of mortgage banking derivatives, consisting of interest rate lock commitments to fund residential mortgage loans and forward commitments for the future delivery of such loans (including certain loans held for sale at March 31, 2026 and December 31, 2025), is determined based on the current market prices for similar instruments. The fair value of a credit default swap related to a portion of Valley's automobile loan portfolio is based on estimated discounted cash flows that incorporate market data for auto credit loss forecasts and anticipated cash outflows for the instrument's premium payments. The fair value of most of the derivatives incorporate credit valuation adjustments, which consider the impact of any credit enhancements to the contracts, to account for potential nonperformance risk of Valley and its counterparties. The credit valuation adjustments were not significant to the overall valuation of Valley's derivatives at March 31, 2026 and December 31, 2025. See Note 1 2 for additional details on Valley's derivatives. 
+ Assets and Liabilities Measured at Fair Value on a Non-recurring Basis 
+ The following valuation techniques were used for certain non-financial assets measured at fair value on a non-recurring basis, including collateral dependent loans reported at the fair value of the underlying collateral and foreclosed assets, which are reported at fair value upon initial recognition or subsequent impairment as described below. 
+ Collateral dependent loans . Collateral dependent loans are loans where foreclosure of the collateral is probable, or where the borrower is experiencing financial difficulty and substantially all the repayment is expected from the sale of collateral. Collateral dependent loans are reported at the fair value of the underlying collateral when the fair value is lower than the recorded investment in the loan. Collateral values are estimated using Level 3 inputs, consisting of individual third party appraisals that may be adjusted based on certain discounting criteria. Certain real estate appraisals may be discounted based on specific market data by location and property type. At March 31, 2026, collateral dependent loans were individually re-measured and reported at fair value (net carrying amount) through direct loan charge-offs to the allowance for loan losses based on the fair value of the underlying collateral. Collateral dependent loans with a total amortized cost of $ 184.0 million (including taxi medallion loans totaling $ 46.6 million), were reduced by specific allowance for loan loss allocations totaling $ 78.5 million to a reported total net carrying amount of $ 105.6 million at March 31, 2026. 
+ Foreclosed assets . Certain foreclosed assets (consisting of other real estate owned and other repossessed assets included in other assets), upon initial recognition and transfer from loans, are re-measured and reported at fair value 
+ 14 
+ using Level 3 inputs, consisting of a third party appraisal less estimated cost to sell. When an asset is acquired, the excess of the loan balance over fair value, less estimated selling costs, is charged to the allowance for loan losses. If further declines in the estimated fair value of an asset occur, the a sset is re-measured and reported at fair value through a write-down recorded in non-interest expense. There were no write-downs of foreclosed assets during the three months ended March 31, 2026 and 2025. The re were no adjustments to the appraisals of foreclosed assets at March 31, 2026 and December 31, 2025. 
+ Other Fair Value Disclosures 
+ ASC Topic 825, &#8220;Financial Instruments,&#8221; requires disclosure of the fair value of financial assets and financial liabilities, including those financial assets and financial liabilities that are not measured and reported at fair value on a recurring basis or non-recurring basis. 
+ The fair value estimates presented in the following table were based on pertinent market data and relevant information on the financial instruments available as of the valuation date. These estimates do not reflect any premium or discount that could result from offering for sale at one time the entire portfolio of financial instruments. Because no market exists for a portion of the financial instruments, fair value estimates may be based on judgments regarding future expected loss experience, current economic conditions, risk characteristics of various financial instruments and other factors. These estimates are subjective in nature and involve uncertainties and matters of significant judgment and therefore cannot be determined with precision. Changes in assumptions could significantly affect the estimates. 
+ Fair value estimates are based on existing balance sheet financial instruments without attempting to estimate the value of anticipated future business and the value of assets and liabilities that are not considered financial instruments. For instance, Valley has certain fee-generating business lines (e.g., its mortgage servicing operations or Wealth Management reporting unit) that were not considered in these estimates since these activities are not financial instruments. In addition, the tax implications related to the realization of the unrealized gains and losses can have a significant effect on fair value estimates and have not been considered in any of the estimates. 
+ 15 
+ The carrying amounts and estimated fair values of financial instruments not measured and not reported at fair value on the consolidated statements of financial condition at March 31, 2026 and December 31, 2025 were as follows: 
+ Fair Value Hierarchy 
+ March 31, 2026 
+ December 31, 2025 
+ Carrying Amount 
+ Fair Value 
+ Carrying Amount 
+ Fair Value 
+ (in thousands) 
+ Financial assets 
+ Cash and due from banks 
+ Level 1 
+ $ 
+ 362,073 
+ $ 
+ 362,073 
+ $ 
+ 315,166 
+ $ 
+ 315,166 
+ Interest bearing deposits with banks 
+ Level 1 
+ 797,357 
+ 797,357 
+ 1,268,399 
+ 1,268,399 
+ Equity securities (1) 
+ Level 3 
+ 51,255 
+ 51,255 
+ 49,371 
+ 49,371 
+ Held to maturity debt securities: 
+ U.S. government agency securities 
+ Level 2 
+ 291,085 
+ 249,519 
+ 292,269 
+ 253,062 
+ Obligations of states and political subdivisions 
+ Level 2 
+
+----- [line 3646] -----
+ - 
+ $ 
+ 141 
+ $ 
+ 359,554 
+ * Includes non-accrual loans. 
+ T he following table provides the amortized cost basis of loans to borrowers experiencing financial difficulty that had a payment default during the three months ended March 31, 2025 and were modified in the 12 months before the default. There were no payment defaults of such loans during the three months ended March 31, 2026. 
+ Term Extension 
+ Other than Insignificant Payment Delay 
+ Three Months Ended March 31, 2025 
+ (in thousands) 
+ Commercial real estate 
+ $ 
+ 46 
+ $ 
+ - 
+ Residential mortgage 
+ - 
+ 95 
+ Total 
+ $ 
+ 46 
+ $ 
+ 95 
+ Loans in process of foreclosure. OREO balance totaled $ 5.2 million and $ 4.5 million at March 31, 2026 and December 31, 2025, respectively. Residential mortgage and consumer loans secured by residential real estate properties for which formal foreclosure proceedings are in process totaled $ 3.7 million and $ 3.4 million at March 31, 2026 and December 31, 2025, respectively. 
+ Collateral dependent loans. Loans are collateral dependent when the debtor is experiencing financial difficulty and repayment is expected to be provided substantially through the sale or operation of the collateral. When Valley determines that repayment or satisfaction of the loan depends on the sale of the collateral, the collateral dependent loan balances are written down to the estimated current fair value (less estimated selling costs) resulting in an immediate charge-off to the allowance, excluding any consideration for personal guarantees that may be pursued in the Bank's collection process. 
+ 31 
+ The following table presents collateral dependent loans by class as of March 31, 2026 and December 31, 2025: 
+ March 31, 2026 
+ December 31, 2025 
+ (in thousands) 
+ Collateral dependent loans: 
+ Commercial and industrial * 
+ $ 
+ 168,934 
+ $ 
+ 159,594 
+ Commercial real estate 
+ 225,189 
+ 225,982 
+ Residential mortgage 
+ 33,820 
+ 28,569 
+ Home equity 
+ 2,293 
+ 2,008 
+ Total 
+ $ 
+ 430,236 
+ $ 
+ 416,153 
+ * Includes non-accrual loans collateralized by taxi medallions totaling $ 46.6 million and $ 47.1 million at March 31, 2026 and December 31, 2025, respectively. 
+ Allowance for Credit Losses for Loans 
+ The allowance for credit losses for loans consists of the allowance for loan losses and the allowance for unfunded credit commitments. 
+ The following table summarizes the ACL for loans at March 31, 2026 and December 31, 2025: 
+ March 31, 2026 
+ December 31, 2025 
+ (in thousands) 
+ Components of allowance for credit losses for loans: 
+ Allowance for loan losses 
+ $ 
+ 584,500 
+ $ 
+ 583,400 
+ Allowance for unfunded credit commitments 
+ 15,300 
+ 12,700 
+ Total allowance for credit losses for loans 
+ $ 
+ 599,800 

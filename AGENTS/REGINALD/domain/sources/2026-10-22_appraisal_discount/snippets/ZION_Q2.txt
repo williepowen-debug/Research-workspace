@@ -1,0 +1,77 @@
+
+----- [line 5374] -----
+ $ 
+ 210 
+ $ 
+ 18 
+ $ 
+ 116 
+ $ 
+ 20 
+ The roll-forward of Level 3 instruments includes the following realized gains and losses recognized in &#8220;Securities gains (losses), net&#8221; on the consolidated statement of income for the periods presented: 
+ (In millions) 
+ Three Months Ended 
+ Six Months Ended 
+ June 30, 2026 
+ June 30, 2025 
+ June 30, 2026 
+ June 30, 2025 
+ Securities gains (losses), net 
+ $ 
+ 4 
+ $ 
+ ( 5 ) 
+ $ 
+ 4 
+ $ 
+ ( 5 ) 
+ Nonrecurring Fair Value Measurements 
+ Certain assets and liabilities are measured at fair value on a nonrecurring basis. These include impaired loans measured at the fair value of the underlying collateral, other real estate owned (&#8220;OREO&#8221;), and equity investments without readily determinable fair values. Nonrecurring fair value adjustments generally arise from observable price changes for such equity investments, write-downs of individual assets, or the application of lower of cost or fair value accounting. 
+ 49 
+ Table of Contents 
+ ZIONS BANCORPORATION, NATIONAL ASSOCIATION AND SUBSIDIARIES 
+ At June 30, 2026, we had $ 11 million in collateral-dependent loans measured at fair value. During the second quarter of 2026, we recognized $ 3 million losses related to changes in fair value for these loans. For more information regarding assets and liabilities measured at fair value on a nonrecurring basis, see Note 3 of our 2025 Form 10-K. 
+ Fair Value of Certain Financial Instruments 
+ The following schedule presents the carrying values and estimated fair values of certain financial instruments: 
+ June 30, 2026 
+ December 31, 2025 
+ (In millions) 
+ Carrying value 
+ Fair value 
+ Level 
+ Carrying value 
+ Fair value 
+ Level 
+ Financial assets: 
+ Held-to-maturity investment securities 
+ $ 
+ 8,477 
+ $ 
+ 8,440 
+ 2 
+ $ 
+ 8,867 
+ $ 
+ 8,940 
+ 2 
+ Loans and leases (including loans held for sale), net of allowance 
+ 61,896 
+ 61,180 
+ 3 
+ 60,423 
+ 59,383 
+ 3 
+ Financial liabilities: 
+ Time deposits 
+ 9,718 
+ 9,617 
+ 2 
+ 9,907 
+ 9,839 
+ 2 
+ Long-term debt 
+ 1,956 
+ 1,990 
+ 2 
+ 1,472 
+ 1,506 
