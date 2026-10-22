@@ -1,6 +1,6 @@
 # FLG STATUS
 
-**Last Updated:** 2026-10-22 11:3x ET Thursday — **Will-directed catch-up (day before the print): no new FLG filing; 1 WALTER signal logged; Valley's Q3 peer print read at the primary; consensus and sell-side context recorded; pre-print frame addendum (context only).** Prior: 2026-10-21 wave 2 (inbox drained, pre-print frame); 2026-10-01 T-08 fire grade; 2026-08-28 first live session.
+**Last Updated:** 2026-10-22 11:12 ET Thursday (commit time; re-touched 11:2x for the closeout fixes below) — **Will-directed catch-up (day before the print): no new FLG filing; 1 WALTER signal logged; Valley's Q3 peer print read at the primary; consensus and sell-side context recorded; pre-print frame addendum (context only).** Prior: 2026-10-21 wave 2 (inbox drained, pre-print frame); 2026-10-01 T-08 fire grade; 2026-08-28 first live session.
 
 ✅ **FIRST-LIVE-SESSION BANNER STRUCK.** The build banner said every figure here was MIRROR-grade — extracted from REGINALD, never pulled by FLG. **That is no longer true.** FLG pulled its own EDGAR primary this session (10-Q Q2-2026, Flagstar Bank N.A., acc `0000910073-26-000068`, filed 2026-08-06) and re-verified the load-bearing figures first-hand. `CLAUDE.md § FIRST LIVE SESSION` is **SPENT 2026-08-28**. ⚠️ **One residual, named not hidden:** the MDRM-level MI3 cells were **not** re-pulled at FFIEC CDR and stay MIRROR-grade — `MI3_FLG.tsv` marks this per row.
 
@@ -23,6 +23,8 @@
 | **Price** | $11.25 intraday 10/22 11:06 ET (+1.63%; KRE +1.58%, VLY +4.38%) | Information only | — |
 
 **Pre-print frame: 🧊 FROZEN 2026-10-22 11:11 ET** (sha256 `cb686b26218499fba813470b1aad8fcb99eec3754418a8911008f7372b413b2f`), with a dated context addendum; items A–F and the 11 rules unchanged. Print date re-confirmed at the issuer PR (10/9): **Fri 10/23 ~06:00 ET, call 08:00 ET**. **No threshold, band, prediction letter, kill or score moved.** THESIS stays v1.0.2.
+
+**Closeout fixes (Will asked 11:17 ET whether closeout was proper):** ⚠️ hand-typed clocks corrected — this header said 11:3x and KB-FLG-076 said ~11:20 ET; actual commits were 11:09 and 11:12 ET. The **frozen frame's addendum line says "~11:30 ET"; the true time was ~11:08 ET** — not edited (it would break the recorded sha256), corrected here instead. Late signal SIG-W-20261022-011 (11:13 ET) filed: its figures match KB-076/078; two docket discrepancies logged in `board_log.tsv` (venue, an 'interim relief denied' claim not seen at the docket). Ledger nudge + full claim_check (DOCKET, GATES, WILL_QUEUE, STATUS) run: clean.
 
 ## 🟡 SESSION 2026-10-21 — CATCH-UP WAVE 2: inbox drained; Q3 PRE-PRINT FRAME written before Friday's print (PROME spawn, DOCKET L522)
 
