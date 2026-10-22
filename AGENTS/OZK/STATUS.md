@@ -100,7 +100,7 @@
 3. **Horton occupancy UNRESOLVED** — bounded check 10/12 done, 10/14 checkpoint passed with no dated occupancy evidence; event-driven only → `research/threads/2026-10-12_HORTON_BOUNDED_CHECK.md`.
 4. **NEA/USRE2021-1 original ARD 10/20 passed** — repayment/extension outcome UNKNOWN (trustee report needs sign-in); not an automatic Affinius default → `research/threads/2026-10-12_AIMCO_AFFINIUS_CHECK.md`.
 5. 🟡 **Does OZK populate MI3 from the debt-on-debt book only?** MI3 ≡ PV09 every quarter ⇒ zero CRE-purpose balance ever reported from item 4.
-6. Will-gated, not applied: **P-OZK-1 / P-OZK-4 / P-OZK-5**. Applied: **P-OZK-6** (83aad459e, WQ-395) · **P-OZK-7** (v1.7, WQ-483, 10/22).
+6. Will-gated, not applied: **P-OZK-1 / P-OZK-4 / P-OZK-5**. Applied: **P-OZK-6** (83aad459e, WQ-395) · **P-OZK-7** (v1.7, WQ-483, 10/22) · **P-OZK-8** (SCENARIOS re-weight Bear 20 / Base 50 / Bull 28 / Tail 2, EV $44.41; Will in-session 10/22 12:42 ET).
 
 *Done and removed 10/22: Bluerock/IQHQ primary refresh (10/12; limits → `research/threads/2026-10-12_THREE_GAP_DELIVERY.md`).* *Resolved July items (RESG "88%" phantom, Bluerock entity, 7/2 selloff, Boston sponsor, WAL-not-an-IQHQ-lender) → git history of this file + KB-195/196/197/198.*
 

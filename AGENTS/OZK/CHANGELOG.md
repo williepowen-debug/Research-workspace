@@ -2,6 +2,17 @@
 
 Tracks changes to `OZK/THESIS.md` and structural shifts in the OZK bear case. Mirrors `AGENTS/REGINALD/thesis/CHANGELOG.md` format. Sub-docs (IQHQ_PLAYBOOK, SEVEN_CREDIT_DEEP_DIVE, RESG_MIX_DETERIORATION, IQHQ_SECONDARY_EXPOSURE, CIB_MARGIN_COMPRESSION) carry the deep math; this log tracks thesis-level deltas only.
 
+## 2026-10-22 (12:4x ET) — SCENARIOS re-weighted, P-OZK-8 (NO THESIS VERSION BUMP — v1.7 stands; weights live in `SCENARIOS.md`, not THESIS)
+
+**Authority:** Will verbatim 2026-10-22 12:42 ET in the OZK session: *"yes lets please update the weights?"* — on the desk's P-OZK-8 proposal (commit 314e84f09).
+
+| Area | Old (4/23) | New (10/22) |
+|---|---|---|
+| Weights | Bear 55 / Base 30 / Bull 12 / Tail 3 → EV **$38.97** | **Bear 20 / Base 50 / Bull 28 / Tail 2 → EV $44.41** (unchanged 4/23 price midpoints) |
+| Why | Q1 confirmed the bear at the leading-indicator layer | Q3 missed every dated Bear mechanic (nonaccrual $89M vs $600–800M; NCO $44.5M/qtr vs $80–120M; ACL $621.1M vs $300–350M); Base IQHQ leg met (10/9 extension, fresh $100M); 3 of 5 Bull mechanics met, 1 partial. Bear held at 20% for the untested OREO ($420M) |
+
+**Unchanged:** conviction 🟡 LOW; every prediction (OZK-09 45%), the IQHQ tree A30/B45/C8/D17 and ~$129M EL; positions. **Owed:** re-base the four price ranges on Q3 EPS/TBV.
+
 ## 2026-10-22 (12:3x ET) — Forward falsification tests added (NO VERSION BUMP — v1.7 stands; zero weights, thresholds, probabilities or conviction moved)
 
 **Trigger:** DAEDALUS bank-desk review finding 1 (🔴), packet `inbox/2026-10-22_from-DAEDALUS_bank-review-fixes.md` (D:L793); Will approved the work order in this session 12:28 ET.
