@@ -83,6 +83,8 @@ flowchart LR
     CREED -->|maturity wall / refi pressure| LIQUID
     CREED -->|Trepp CMBS-MF row, one-owner handoff 7/12| HOMER
     CREED -->|Florida overlap only| CORAL
+    CREED -->|CRE migrating onto pension balance sheets, info-only| SHADE
+    CREED -->|CRE migrating onto pension balance sheets, info-only| PROME
     OZK -->|single-name print / credit reads| REGINALD
     WAL -->|single-name print / credit reads| REGINALD
 
