@@ -2,7 +2,7 @@
 
 **Status:** Concentrated bank risk. HY widening 266→333bp is BANK-ABSENT on bank instruments (~0.6); Q3 problem loans up at 6/6 names read while reserve coverage fell at 5/5 (descriptive).
 **Domain:** Regional-bank comparison, FHLB advances, hidden CRE and sponsor-bank balance-sheet risk.
-**As of:** 2026-10-22 12:37 ET, D:L793 fixes + EGBN folder; owner closeout | STATUS commit: f8405c6f2
+**As of:** 2026-10-22 13:15 ET, quick fixes (STATUS trim, check-only boot); owner closeout | STATUS commit: 137aedf69
 
 ## CROSS-DOMAIN
 
