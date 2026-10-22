@@ -234,3 +234,18 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-14T21:44-04:00	SIG-W-20261014-026	info-only	WALTER	UN Hormuz fertilizer mechanism: conditional warning, no deal failed; folded into diplomacy read (KB-284).
 2026-10-14T21:44-04:00	SIG-W-20261014-031	acted	WALTER	Correction COR-20261014-31 APPLIED: Cape Dao IMO "Sunk" ⇒ VI-0036 total loss, class-(ii); GFS PRIDE = IMO third sinking; census vs IMO = different sets (KB-277).
 2026-10-14T21:44-04:00	SIG-W-20261014-032	acted	WALTER	Used as input to the 7-day review (HELD 1/14/85): casualty ratchet RED rate-step + ORANGE (i) LIT from the ledger (21 vs 6; 373 vs 151) ⇒ EXIT §3 7 of 8; Abqaiq 10/08 graded with own FIRMS (anomaly, no counting source ⇒ NOT FIRED); Haradh intercepted; report reports/2026-10-14_catchup-weekly-review-gate001-losses-ratchet.md.
+2026-10-21T20:30-04:00	SIG-W-20261014-035	info-only	WALTER	Correction to -032 carrying FALCON 10/14 grades; AL SAADIYAT already VI-0072, Perim in KB-292. COR-20261014-35 receipted NO-OP.
+2026-10-21T20:30-04:00	SIG-W-20261015-009	noted	WALTER	Yanbu loadings resumed after E-W restart (relay, not operator) — KB-300; FAL-06 unaffected; France Yanbu deployment = relay.
+2026-10-21T20:30-04:00	SIG-W-20261015-010	info-only	WALTER	Cyberattacked-tanker buyer = Saudi-owned refinery; attribution unknown; no named asset; cyber vector stays 2.
+2026-10-21T20:30-04:00	SIG-W-20261016-003	acted	WALTER	Overnight 10/16 no ladder fire; 172/173-26 clock question resolved by -018 (UTC vs SGT) — no double count; MOAB plans = prepared not ordered.
+2026-10-21T20:30-04:00	SIG-W-20261016-018	acted	WALTER	JMIC 105 Cape Dao dispute + clocks: Cape Dao adjudicated CONTESTED 10/21 (KB-295, VI-0036); census 4 confirmed + 1 contested.
+2026-10-21T20:30-04:00	SIG-W-20261016-024	info-only	WALTER	Tanker rates vintage-separated; BRENT lane.
+2026-10-21T20:30-04:00	SIG-W-20261016-026	acted	WALTER	NAVAREA IX 380/26 + IMO now "Partially sunk" ⇒ Cape Dao CONTESTED (KB-295); Reuters 3-hubs = historical, no asset/date, production rung not fired (KB-300).
+2026-10-21T20:30-04:00	SIG-W-20261016-035	acted	WALTER	MT ST 3 = IMO ST3 68 NM NE Al Jubail (not Hormuz) VI-0074; Yanbu intercepted; IRIB pipeline claim-only; CENTCOM GFS PRIDE attribution noted KB-301; FIRMS Khurais declining 10/13→10/21 (own pull), heat never counts.
+2026-10-21T20:30-04:00	SIG-W-20261018-002	acted	WALTER	Al Jubail pair rowed VI-0074/0075 (IMO); record week ≥10 attacks KB-296; IRGC mine claim CLAIM-ONLY, mine limb NOT FIRED KB-301.
+2026-10-21T20:30-04:00	SIG-W-20261019-003	info-only	WALTER	HY 331bp 3/3 — LIQUID/RED lane; global macro vector context only.
+2026-10-21T20:30-04:00	SIG-W-20261019-005	acted	WALTER	JMIC 106: Arabian Gulf SUBSTANTIAL; tug 177 ↔ JIF BARRACUDA (INFERRED) VI-0076, CAS-035; Cape Dao conflict adjudicated CONTESTED.
+2026-10-21T20:30-04:00	SIG-W-20261020-030	acted	WALTER	Kharg options report = consideration not execution (KB-304); no state change.
+2026-10-21T20:30-04:00	SIG-W-20261020-031	acted	WALTER	IRGC cable threat renewed (Mohebi 10/19, Javani 10/21) — threat not incident; cyber vector 2 (KB-304).
+2026-10-21T20:30-04:00	SIG-W-20261020-032	acted	WALTER	Konarak claim + US denial travel together; destroyer chain unauthenticated; no state change (KB-304).
+2026-10-21T20:30-04:00	SIG-W-20261021-007	acted	WALTER	Shaybah 10/21 INTERCEPTED, debris outside perimeter ⇒ production rung NOT FIRED; ratchet +2 killed (CAS-033), KFIA Dammam 1/8 (CAS-034) ⇒ 30d 24 vs 6 RED holds (KB-299).
