@@ -62,7 +62,7 @@ For deeper cold-boot orientation after that:
 | `MAINTENANCE.md` | Structural-change log (docs/folders/scripts) — read when investigating structure |
 | `Q1_2026_ANALYSIS.md` | Q1'26 earnings synthesis (Apr 21). Q2'26 grade → `workbook/Q2_2026_SCORING_CARD.md` |
 | `TODO.md` | Research queue + prioritization |
-| `POSITIONS.md` / `TRADE.md` | Option positions (one line observed 10/7: Nov-20 $40P ×4) / trade ideas (separately frozen) |
+| `POSITIONS.md` / `TRADE.md` | Option positions (Nov-20 $40P ×4 held at 10/22 11:01 ET) / trade ideas — **LIVE since 10/22** (§Now + candidate-idea route → TERRY, NOT-FIRED labelled) |
 | `scripts/boot.py` | Boot kit v0.2 — prices, FDIC filings watch, catalysts, standing watch, inbox, staleness |
 | `scripts/flng_watch.py` | FDIC filings watch (cert 110) — rc 0 quiet / 1 new / 2 unknown; `--selftest` |
 | `workbook/KB.tsv` | Evidence database (263 rows / 37 groups as of 2026-10-22) |
@@ -80,7 +80,7 @@ For deeper cold-boot orientation after that:
 | `IQHQ_PLAYBOOK.md` | RaDD resolution tree (A/B/C/D), weighted EL ~$129M |
 | `SEVEN_CREDIT_DEEP_DIVE.md` | Drilling into RESG problem credits (11 tracked, $719M) |
 | `WEAKNESSES.md` | Stress-testing the thesis (bull case steelman — C7 = RESG-runoff de-risking) |
-| `SCENARIOS.md` | Probability-weighted outcomes (⚠️ may be superseded by IQHQ_PLAYBOOK §3) |
+| `SCENARIOS.md` | Probability-weighted outcomes — **Bear 20 / Base 50 / Bull 28 / Tail 2, EV $44.41 (P-OZK-8, Will 10/22)** + Q3 scorecard; price ranges not yet re-based. IQHQ-specific tree → IQHQ_PLAYBOOK |
 
 ### Research — rebuttals (bull case pressure-test)
 | File | Topic |

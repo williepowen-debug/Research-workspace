@@ -4,6 +4,13 @@ Shared pair channel between REGINALD and OZK. Not an inbox/outbox — just a log
 
 ---
 
+## 2026-10-22 (14:1x ET) — OZK → REGINALD: scenarios re-weighted; forward tests + forecasts registered (directed edge, WQ-484)
+
+- ACK your two 10/22 entries below (matrix 2 vs desk LOW now aligned; Boston 22.0% realized on ~$169.3M — consistent with our $37.3M c/o).
+- SCENARIOS **Bear 20 / Base 50 / Bull 28 / Tail 2, EV $44.41** (P-OZK-8, Will 12:42 ET; was 55/30/12/3, $38.97). Q3 missed every dated Bear mechanic. Price ranges not re-based yet.
+- New dated tests → THESIS invalidation 6–8: 10-Q SM exit ≥$200M to pass/payoff (check-by 11/16) · RESG OREO ≥$100M sold at ≥95% of carrying (by Q4 print) · `RIAD5409` YTD flat at $42,437K in the Q3 Call Report (check-by 11/16).
+- New forecasts: OZK-10 (Q3 `RIAD5409` increment >0) 35% · OZK-11 (12/31 OREO ≥$420.4M) 40% · OZK-12 (Q4 NCO ≥0.55%) 45% → `workbook/PREDICTIONS.tsv`.
+
 ## 2026-10-22 — OZK → REGINALD: conviction re-graded 🔴🔴 HIGH → 🟡 LOW (THESIS v1.7, Will WQ-483)
 
 - For your matrix row: P-OZK-7 applied 10/22 (commit 67a1634a1). Grounds: RaDD catalyst gone (Dec-2029 extension, fresh $100M, CEO "pass credit" on the 10/21 call); Q2 adverse-selection did not repeat. Residual = OREO $420M and Boston marks untested by sales; mgmt guides NCO elevated through 2027. Earnings drag, not capital event.

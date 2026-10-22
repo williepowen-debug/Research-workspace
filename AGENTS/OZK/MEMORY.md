@@ -58,20 +58,20 @@
 
 ## Session Notes
 
-⚠️ **Open question:** does the ~11/5 Q3 10-Q show where the −$313M of special mention went, and does it give a RaDD reserve figure or bound that lets OZK-09 resolve? (Conviction is now 🟡 LOW, v1.7 — the 10-Q tests the reversal triggers in `THESIS.md`.)
+⚠️ **Open question:** does the ~11/5 Q3 10-Q itemize where the −$313M of special mention went (THESIS invalidation 6: ≥$200M to pass/payoff fires it), and does it give a RaDD reserve figure that lets OZK-09 resolve?
 
 **CHANGES SINCE:**
 
-### LAST SESSION (2026-10-22 11:21–11:4x ET — OZK/Claude Code, Opus 5.5; direct Will session)
-- **Self-sweep** → `reports/2026-10-22_self-sweep.md` (11 new findings + 10/21 items re-checked); Will then said "fix the housekeeping items" — outcomes appended to that report.
-- **P-OZK-7 APPLIED as THESIS v1.7 (conviction 🟡 LOW)** under WQ-483 (Will 11:24 ET via PROME) — commit 67a1634a1; ruling packet filed to `inbox/processed/`. No prediction number moved.
-- STATUS: Q3 snapshot + Q3 roster replace the Q2 tables (Q2 → `archive/STATUS_HISTORY_2026-10-22.md`); position line synced to FORGE 10/22 (×4 held, $0.05; WQ-428 sell not evidenced). Charter thesis/roster/catalyst lines de-figured to pointers. boot.py INBOX now sees sender lanes (T1). 11 outbox packets → `outbox/delivered/` with a receipt log. D5 + Q4-2025 raw Call Report CSV retired to `archive/`.
+### LAST SESSION (2026-10-22 12:23–14:1x ET — OZK/Claude Code, Opus 5.5; direct Will session; DAEDALUS D:L793 fix batch)
+- Worked DAEDALUS's packet (`inbox/2026-10-22_from-DAEDALUS_bank-review-fixes.md`, 888fe9a50) item by item with a Will checkpoint between each. Will approved the charter edits and the order (12:28 ET).
+- THESIS invalidation **6–8** added + section stamped Q3 (347d0722e) · Q3 folded into SCENARIOS/WEAKNESSES (C10)/PRIVATE_CREDIT (314e84f09) · **P-OZK-8 applied — Will 12:42 ET: Bear 20 / Base 50 / Bull 28 / Tail 2, EV $44.41** (was 55/30/12/3, $38.97) · OZK-10/11/12 registered + boot.py OPEN-prediction past-due check · flng_watch baseline 11981→12022 (selftest fixture made relative) · CALENDAR dup, KB_INDEX 210/218/219 · TRADE.md unfrozen with a TERRY candidate-idea route · charter: explicit-read boot 0a, PROME/inbox delivery, root 1b–1e pointer, _NETWORK topology, OZK→REGINALD directed edge, no expiry management.
+- Closeout memo → `PROME/inbox/2026-10-22_from-OZK_L793-fix-batch-closeout.md` (per-item report; READS.tsv rows declared there for PROME to add — PROME's file).
 
 ### NEXT SESSION — existing obligations
-1. **~Thu 11/5 Q3 10-Q** (D:L763): SM flow, RaDD reserve/readvance, Sullivan, OREO roll-forward, OZK-02 property-type inputs, debt-on-debt balance — grade against the v1.7 reversal triggers. Re-pull EFR cert 110 the same day.
-2. Q3 Call Report LOG-ONLY ~Nov 1–10 (`RIAD5409`, `RIAD5415`); **FFIEC JWT renewal by 11/5 is Will's action**.
+1. **~Thu 11/5 Q3 10-Q** (D:L763): grade THESIS invalidation 6 (SM exit) — check-by **Mon 11/16**; plus RaDD reserve/readvance, Sullivan, OREO roll-forward, debt-on-debt balance. Re-pull EFR cert 110 the same day; advance `flng_watch.py` BASELINE_ID after reading the 10-Q.
+2. Q3 Call Report ~Nov 1–10: grade **OZK-10** + invalidation 8 (`RIAD5409`) by **11/16**; **FFIEC JWT renewal by 11/5 is Will's action**.
 3. Sub-notes call-notice window 11/2→12/22: flng_watch + one press search near 11/2.
-4. Short interest 10/15 settlement publishes ~10/27 — refresh STATUS token.
-5. Fold Q3 + v1.7 into `WEAKNESSES.md` (header says not yet folded); OZK-02 / OZK-04 inputs before the Q4 print.
+4. Short interest 10/15 settlement ~10/27 — refresh STATUS token.
+5. Owed: re-base SCENARIOS price ranges on Q3 EPS/TBV · OZK-02/04 inputs before the Q4 print · C4 severity comps · R2 subdomain refresh.
 
 ⛔ D1/OZK-salvage remains RULED-CLOSED. TERRY builds any existing authorized card; Will owns orders. No expiry nagging (Will 10/20). Prediction OPEN is not holding/rolling advice.
