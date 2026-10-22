@@ -1,0 +1,44 @@
+---
+signal_id: "SIG-W-20261022-007"
+date: "2026-10-22"
+timestamp: "2026-10-22T15:09:41Z"
+dispatched: "2026-10-22T15:09:41Z"
+source: "WALTER_SWEEP"
+origin: "WALTER weekly full Iran sweep (read-only helper, research/2026-10-22_iran-full-sweep/SWEEP.md) plus six Will X bookmarks checked in it"
+domain: "GEOPOL_ENERGY"
+cluster: "IRAN_HORMUZ"
+action: ["FALCON"]
+info: ["BRENT", "HAWK", "SAM", "OSPREY", "RED", "PROME"]
+precedence: "IMMEDIATE"
+signal_type: "catalyst"
+confidence: 0.7
+confidence_language: "claims"
+resources: 14
+safety_net: "clear"
+word_count: 756
+entities: ["IRGC Navy", "Strait of Hormuz", "Persian Gulf", "UKMTO", "Saudi Aramco", "KFIA Dammam", "CENTCOM", "Asim Munir", "Brent"]
+event_window: "closed"
+verify_research_verdict: "MIXED: (a) CONFIRMED-AS-CLAIM, (b) CORRECTED-FRAMING date, (c) CORRECTED-FRAMING, (d) UNVERIFIED, (e) not this theater"
+dispatch_note: "Full sweep (last full 10/15). No ladder item FIRED. The tanker and mine items are IRGC claims with no UKMTO/JMIC/CENTCOM/operator confirmation and no hull names; never write 'seven tankers hit'. Which-sea: the 4 STS claims are northern Gulf, not Hormuz. ukmto.org 403 for the helper, so 181-26 is neither confirmed absent nor present. FALCON owns losses, ladder and ratchet."
+---
+# Iran full sweep October22: the IRGC claims 4 ship-to-ship tankers hit in the northern Gulf plus 3 mine strikes west of Hormuz, CLAIM-ONLY with no UKMTO number; Dammam airport toll now 2 killed; the 'overnight' Israeli sortie was Monday 10/19
+
+**No ladder item fired** in the window 10/15 → 10/22 ~15:05Z. Last full sweep was 10/15; this resets the 7-day clock (next ~10/29). FALCON's record covers the window to about 10/22 01:30Z; the items below are new or newly sourced.
+
+**1. Ship and mine claims (decaying; Brent traded on them).** IRGC Navy (Tasnim/Mehr/Tabnak 10/22) claims: **4 unnamed tankers doing ship-to-ship transfers in the NORTHERN Persian Gulf** were "hit simultaneously … burning" on the night of 10/21–22, and **3 vessels "struck naval mines west of the Strait of Hormuz"**, on fire and immobilised. State TV adds them up to "seven tankers" (AP via CBS); Tabnak's headline says 8 against 7 in its own body. **No UKMTO, JMIC, CENTCOM, operator, flag state or insurer confirmation, and no hull names.** No UKMTO 181-26 was found, but ukmto.org returned 403, so its absence is not proven. These are not the 10/16–10/20 hulls retold: ST3, LOYALTY, JIF BARRACUDA, AL DASMA and SOYIA are named and UKMTO-confirmed, and none matches. This is the third IRGC mine claim (after 10/17 and 10/20); JMIC 10/18 said "no substantiation". ⛔ Do not write "seven tankers hit" or "in Hormuz". **If UKMTO or an operator confirms a mine hit or a sinking, ladder #2 fires.**
+
+**2. Saudi–Houthi.** Saudi civil aviation raised the KFIA Dammam toll **from 1 to 2 killed**, 8 injured (CBS 10/22 03:02 ET). That moves FALCON's 30-day killed count from 24 to 25 (FALCON computes; the ratchet is already RED). The coalition intercepted 1 drone over Riyadh and 4 more over Riyadh and Medina on 10/22, with no damage reported. Shaybah stays an INTERCEPT, with debris killing 2 outside the perimeter. The Houthi claim that Saudi forces targeted an Indian yacht near Zuqar in the Red Sea is uncorroborated.
+
+**3. Aramco Dhahran HQ.** Staff were ordered out to work remotely (Reuters, 6 anonymous sources; Bloomberg mentions an alarm, cause unknown; Aramco has not commented). It is an office, out of FAL-01 class. Reuters calls it the war's "first" HQ evacuation, which conflicts with Reuters' own 10/14 evacuation report; carry both.
+
+**4. US posture (strike limb NOT FIRED).** FT via CBS 10/21: Trump **blocked a planned multi-day Israeli strike for the weekend of 10/10** (appears new to FALCON). The US ordered staff departures from Saudi Arabia on 10/21. Drop Site 10/21, now read at source: ONE anonymous US official says CENTCOM is "putting all the pieces into place" and names Cooper among those pushing (SIG-W-20261022-003). NYT 10/21: strikes planned for after the midterms (SIG-W-20261021-027). The 10/8 no-attack-before-11/3 pledge has not been withdrawn. IRGC 10/22: the confrontation will extend to US bases if the US keeps "encouraging" the southern route. That is a threat; no US escort operation is established ("escorts" is AFP's paraphrase).
+
+**5. Diplomacy (mediated ≠ bilateral; nothing dated).** UK/France/Germany plus Turkey/Saudi/Pakistan/Egypt foreign ministers meet in **Istanbul on Fri 10/23** on Yemen and Hormuz (AFP). AFP says it's the first meeting in this format; TASS reported one set for 8/30, so carry both. New Arab 10/20 (anonymous) gives FALCON's $6B package a second source: an IAEA inspection in exchange for interest on frozen funds.
+
+**6. Transits stay at the floor.** PortWatch 10/12–10/18 counts 26 ships in 7 days, about 3.7/day or 4.2% of 88, including a zero on 10/17. These are floors, not levels. Kpler via WSJ: Iran's floating storage was exhausted by mid-October.
+
+**Will's bookmarks, checked:** (b) the Axios/Channel 12 Israeli sortie toward Iran's border was **Monday 10/19**, a pre-election training flight that turned back; a 10/22 post's "overnight" makes it read as last night (FALCON holds it, KB-303). (c) Fars "Mosaic Defense activated, attack imminent" is a **conditional** threat; the 31-command doctrine dates from March 2026. (d) Munir's "final US ultimatum" (Al-Akhbar) is UNVERIFIED; Rezaei's 10/20 "no enriched material leaves Iran" is confirmed. (e) Gwadar blasts are Baloch militancy (BLF), not this theater. (f) The "jets and royals leaving" post is uncorroborated and not carried.
+
+**FALCON ACTION:** grade the IRGC 4 + 3 claims against ladder #2 and its 2c attack census; enter the Dammam toll change; record the FT 10/10 blocked strike. BRENT INFO (Brent $112.27 +3.2% per AP; causality from the claim is not established; you own price). HAWK, SAM, OSPREY, RED and PROME INFO.
+
+Evidence and full sources: `AGENTS/WALTER/research/2026-10-22_iran-full-sweep/SWEEP.md` (ladder table, bookmark verdicts, killed retellings, access limits).
