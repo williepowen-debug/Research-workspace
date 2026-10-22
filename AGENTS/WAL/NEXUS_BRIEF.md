@@ -1,52 +1,40 @@
 # WAL — NEXUS Brief
 
-**As of:** October22 2026 11:31 ET. **STATUS commit `e7b5155ac91f00e0eb556eed31490cbf04e6ced2`**. Will-interactive session: catch-up, L171 10-Q frame frozen (dated §8 note, no cell changed), desk sweep (`research/2026-10-22_desk-sweep.md`), court checks (`research/2026-10-22_court-checks.md`). Delta vs 10/21: no 10-Q on EDGAR yet (statutory 11/9) — $99M stays PENDING-10-Q; Cantor recovery path advanced procedurally (remand of guaranty claims to LA Superior + stay relief both GRANTED 8/24; WAL §523 nondischargeability suit vs the Stupins filed 9/15, motion-to-dismiss hearing Wed 12/9); Jefferies FQ3 10-Q silent on WAL, NY index numbers still unknown; Stephens PT $94→$88 (B2, single source); 10/19 Form 4s routine. v2.4 / EV $75.96 / PT $52–76 / composite 13/25 unchanged; V2 stays historical. *Prior pin:* October21 13:17 ET, STATUS `42fe5c022`.
-**Status:** Q3 Stage-2 (10/20 call) GRADED → `research/2026-10-21_Q3_STAGE2_CALL_GRADE.md` (two B2 third-party transcripts; Quartr needed re-auth). $99M not mentioned ⇒ PENDING-10-Q (never benign); migration DISCONFIRM DP2 of 3 FINAL (RETIRE counter 2 of 3); four of six credits sold outside the bank, no seller financing; credits 5/6 open at 9/30; coverage 118% MET; mgmt $567M-basis NPL NOT-PRINTED ⇒ PENDING-10-Q; non-credit falsifier NOT TRIGGERED (10/20 WAL +2.27%, KRE +1.96%). Live WAL $75.23 intraday 10/21 (−0.96% vs EV). Next carrier: Q3 10-Q (L171; not filed as of 10/21 13:15 ET; statutory 11/9). Prior status (10/19): Stage1 + full read + earnings bridge complete; credit actuals weaken the near-term bear.
-**Thesis:** v2.4; Bear-fast2%/Bear-medium16%/Base45%/Bull30%/Tail7%; **EV$75.96 / PT$52–76**, V3=3/5, composite13/25 unchanged. Frozen frames, THESIS/SCENARIOS/PREDICTIONS/POSITIONS bytes unchanged by this follow-up. No grade/probability/score/valuation/rule/order change.
-**Domain:** issuer evidence and frozen grading. Funding/cohort/severity/price guard remain REGINALD-owned; structure and position management TERRY/Will. No helpers, duplicate owners, wider investigations or background jobs.
+**As of:** October 22 2026 12:20 ET. **STATUS commit `390d54113dea73b635186547f31e35f6125737c5`**. Will-interactive session (Claude Opus 5.5): catch-up, L171 10-Q frame frozen, desk sweep, court checks, text cleanup, Q3 thesis fold. *Prior pin:* October 22 11:31 ET, STATUS `e7b5155ac`. *Rewritten 10/22 as a current synthesis; the previous text (10/19–10/21 detail) is in git history and in the research files it pointed to.*
+**Status:** Q3 print (10/19) and call (10/20) are graded on the frozen frames; the Q3 10-Q is not filed yet (EDGAR ≥ Mon 10/26, statutory Mon 11/9) and is the single carrier for what remains open. Live price → `STATUS.md`.
+**Thesis:** v2.4 (dated 2026-08-20); Bear-fast 2% / Bear-medium 16% / Base 45% / Bull 30% / Tail 7%; **EV $75.96 / PT $52–76**; composite 13/25 (V1a 1, V1b-broadening 2, V1b-magnitude 4, V3 3, V4 3; V2 5/5 historical, excluded). **Unchanged.** Q3 evidence is folded into THESIS/WEAKNESSES as a dated no-re-mark entry (CHANGELOG 2026-10-22); the re-score is owed right after the 10-Q grade.
+**Domain:** issuer evidence and frozen grading. Funding/cohort/severity and the price guards are REGINALD's; structure and position management are TERRY's and Will's.
 
-## Coordinated weakness-study contribution
+## What Q3 showed (8-K acc 0001628280-26-066286; call B2)
 
-Will’s new table assigned WAL its existing earnings/funding/credit lane. Completed `research/2026-10-19_broader-bank-stress-context.md`: lower NCO, improved reserve coverage, stable quarter-end deposits and lower borrowings do not confirm a common funding shock or spreading credit losses. Special mention+81M, OREO+39M, securities marks and deposit-mix costs remain cautions. Optimization/mix, loan cleanup and rates/capital-distribution explanations are retained. Quarter-end stocks cannot establish current/daily liquidity; missing99 appraisal, net funding economics and peer/common borrower linkage remain unknown. No fresh WAL equity shortlist test or financing causation asserted.
+| Item | Q3 result | Read |
+|---|---|---|
+| WAL-02 (ex-fraud NCO > 40bps) | NCO $45.8M = **30bps** ⇒ **INVALIDATED** (10-Q confirm pending) | Against the bear |
+| WAL-01 (Office classified > $500M) | **$272.75M** (25% × $1,091M, slide 13) ⇒ **INVALIDATED, provisional** (10-Q cross-check: classified loans ~$926M + OREO $165M expected) | Against the bear |
+| Office migrations | 0 identified ⇒ **DP2 of 3 DISCONFIRM, final**; RETIRE broadening counter 2 of 3 | Against the bear |
+| $99M life-science appraisal | Not mentioned in the release, deck or call ⇒ **PENDING-10-Q**, never benign | Gates the Bear-medium kill (leg b) |
+| Reserves | ACL $574.4M = **118% of nonaccrual** (Q2 96%); RETIRE coverage leg MET | Against the bear |
+| Problem-loan mix | Nonaccrual $562M → $485M, but OREO $126M → $165M and special mention $316M → $397M | The live residual |
+| Earnings | EPS $2.45 vs $2.36; NIM 3.57% (+4bp); NII guide cut 12–14% → 11–12%; fees guide up; consistent-basis profit ~flat | Mixed; slight drag on the bull's NII leg |
+| Capital | AOCI −$786M; TBV $62.22 (from $63.24); parent CET1 10.9% preliminary; buyback $92.1M | Mixed |
+| Tape | 10/20 WAL +2.27% vs KRE +1.96% ⇒ non-credit falsifier NOT TRIGGERED | Neutral |
 
-HENRY and CRUISE exact focused-context packets read/applied; explicit WAL consumption/disposition receipts saved to their inboxes. Narrow REGINALD and WALTER packets preserve ownership and deduplicate the already-delivered SEC event. Root PROME packet `PROME/inbox/2026-10-19_from-WAL_coordinated-bank-stress-contribution.md` and research receipt are committed at `fd3f986aea6eb363f4a26f5707dfc3f129101373`. Nine protected files/source hash/caps and five packet pins checked. No new source-data refresh or KB row;247/20groups unchanged. WAL confirms assignment complete and pass closed, no helpers/background work. PROME owns combined assessment/other assignment confirmations. Native recipient consumption/closeout UNKNOWN; local commits, foreign-dirty push deferral. No new Will decision, trade construction, order, study, monitor or authority change.
+**Judgment:** Q3 runs against the credit bear and slightly against the bull's NII engine. What remains of the bear rests on the $99M appraisal and the OREO/special-mention build. No re-mark until the 10-Q, because the Bear-medium kill needs both of its legs and only one is in.
 
-## New evidence and judgment
+## Since the print (10/22)
 
-Will selected option1 of the saved understanding-followup proposal. `research/2026-10-19_Q3-recurring-earnings-bridge.md` owns the Q2→Q3 accounting, conditional Q4 residuals and five exact earnings questions. Reused saved SEC release/deck and REGINALD public FY2027 test; retrieved FY2025 primary release for exact annual bases. Calculator/output `scripts/earnings_bridge_20261019.py` and `research/2026-10-19_earnings-bridge.json`; validation records26 accounting ties and34 integrity checks, reproducible output and nine protected files. KB245–247 added, **247 rows /20groups**. Old consensus223 and historical conditional screen225 retain dates; no expiry extension or fresh analyst-model claim.
+- **Cantor courts:** remand of WAL's guaranty claims to LA Superior and stay relief both GRANTED 8/24; WAL filed a §523 nondischargeability suit against the Stupins 9/15 (8:26-ap-01096); the Stupins moved to dismiss; **hearing Wed 12/9**. Procedural progress, no recovery → `research/2026-10-22_court-checks.md`.
+- **Jefferies:** FQ3 10-Q never mentions WAL; a second, unrelated Point Bonita fraud (Radiant/Sapphire) disclosed; NY index numbers still unknown (NYSCEF blocks automation).
+- **Sell-side:** Stephens PT $94 → $88 on the NII guide (B2, single source, KB-253).
+- **Insiders:** ten 10/19 Form 4s are routine RSU vestings; no open-market trades (KB-252).
+- **L171:** 10-Q frame frozen 10/22 with pre-filing anchors.
 
-| Channel | Finding / boundary |
-|---|---|
-| Actual profit | Pretax332.0→339.1M, +7.1; net/common income+8.4 includes1.3 lower tax expense. Printed EPS2.36→2.45; shares108.0→107.8. No annualized EPS forecast. |
-| Consistent gain screen | Current-presentation PPNR excluding securities-sale/FV lines401.1→401.8; pretax320.7→321.8. Of7.1 pretax increase,6.0 is change in those visible gain lines. Diagnostic, not normalizedEPS/proof gains nonrecurring; embedded MSR mark/hedges still unknown. |
-| Reclassification | Customer derivatives/FX shifted into commercial fees without income/equity effect. Q2 FV8.3 versus12.8 old October14 screen; old8.98 annual screen is not a comparable current estimate. |
-| Fees / mortgage | Mortgage84.7→79.5 as servicing falls7.5 despite origination gains+2.3. Q3 MSR cash/runoff/valuation/hedges/cost split missing; no Q2 mark carried into Q3. Commercial fee aggregate includes reclassified derivative/FX results. |
-| Costs / ECR | Ex-deposit expense404.1→429.7, salary+21.8. Three embedded ECR/referral lines234.2→223.7;10.5 benefit already in profit, not an extra add-back. All-in funding attribution remains REGINALD. |
-| Q4 cost question | If comparable, annual1600–1650 ex-deposit expense less9M1244.9 impliesQ4355.1–405.1 versus429.7; even upper end needs24.6 decline. Temporary cost reversals/basis not established, so no guide miss declared. |
-| Guide mix | Mechanical annual midpoint revisions: NII−42.972, fees+30.519, expense profit benefit+10.5585 =>net−1.8945M. Dollar component cost method net+0.047M. Roughly flat conditional net effect; no management midpoint/consensus assertion. |
-| Fee / tax forks | Literal fee residual142.276–162.622; illustrative Q1gain-only exclusion gives192.776–213.122, neither selected absent guide basis. Exact full-year19% tax would require Q4tax=.19×pretax+4.256; ~19% is not an exact promise. NCO guidance is not provision guidance. |
-| Capital full-read correction | ParentCET1capital7389M IS disclosed; preliminary10.9% ratio. Remaining exactRWA/adjustments/hedge bridge unknown. Provision80.8 loan less0.8HTM release=80.0; loan reserve build35.0. Original Stage1 report travels with full-read correction. |
+## Next carriers
 
-## Preserved frozen grades and credit boundary
+1. **Q3 10-Q** — frozen frame verbatim ($99M §4 first after subsequent events; WAL-01/02; full NPL; OREO; NDFI 25.9%; Cantor; hotel), then the post-Q3 re-score.
+2. **Q3 FFIEC / MI3** — call reports ~10/30; REGINALD cohort screen due 11/7; FFIEC JWT expires 11/5 (Will-side renewal).
+3. **12/9** WAL §523 hearing; **11/30** Makhijani status conference (unverified).
 
-WAL02 prior50% **INVALIDATED**, NCO30bps≤40, ledger resolvedOctober19 with10-Q-confirm pending. WAL01 prior25% remains ledgerOPEN, **provisionalINVALIDATED**: Office25%×classified1091=272.75M±5.455, later classified-loans+OREO cross-check. W4 plus grossCRE-NOOloss25.7=298.45<~316Q2; fundedOfficebook unprinted, commitments not interchangeable. No final both-falling claim.
+## Delivery
 
-Zero explicitly identified new Office credits with topic addressed ⇒DP2 provisional/PENDING-CALL; final RETIRE counter held1of3 overnight. $99M appraisal/status/carry/reserve not identified; general reappraisal commentary is not loan-specific. Coverage118% legMET; four of six resolved explicit but already claimedSeptember16. Nonaccrual562→485 with OREO126→165 means combined688→650, not77M cash cures. Specialmention316→397; no unnamed migration inferred from stocks. Guided567 NPL basis and fullNPL/restructured line need clarification.
-
-Price-reaction carrier remains **October20 regular close**, WAL≤−3% AND WAL−KRE≤−2pp on matched closes. October19 pre-release close/afterhours do not grade it. NIMN1 no breach; totaldepositcostN2 unprinted; TBVN3 and lowerNII/depositguideN4 breach. Missing C/N legs remain unknown. Terminal GATE-REG-T02 never refires; REGINALD owns current account-scoped exit-guard log.
-
-## Call and later carriers
-
-1. **October20 noonET call:** keep $99M appraisal/status/reserve and explicit new Office migrations first; original credit/resolution/NPL/Office questions remain. The new five earnings questions refine existing6/7: exact cost basis and≥24.6M step-down; fee-guide denominators/exclusions; MSR cash/mark/hedge/cost bridge; net optimization economics; provision/tax/shares. No external questions sent. Silence remains unknown; forward assumptions are not promised10-Q facts.
-2. **October20 regular close:** frozen reaction test, no early afterhours substitute. Current market observations must be refreshed before reuse; this earnings pass adds no new quote.
-3. **LaterQ3 10-Q:** WAL01 final cross-check; WAL02 confirm/correct only under frozen precedence; appraisal/subsequent events/Cantor/fullNPL/NDFI/hotel/hedges/equity/CET1. Statutory11/9; ledgerResolve_By11/15 preserved. Q3 FFIEC not retrieved; no attempt this pass. June bank NDFI and semiannual fields are not September actuals.
-
-## Accounts, dependencies and delivery proof
-
-POSITIONS/FORGE own per-account truth: October19Fidelity versus September29Robinhood carry. Fidelity70P opening/card/approval unknown;65P accepted capture still shows held, preprint approved-sale window elapsed, sale not evidenced/no renewal. Existing TERRY card discharges oldDecember16 duty. Neither Fidelity contract inherits Robinhood81.90×3/December4 rule. All options retain sell-or-roll rail. No order or fresh bid inferred.
-
-Will-only recorder/APN and broker dependencies remain in STATUS/PROME; prior responses retained, no repeated ask. FFIEC historical access workedOctober14; recorded11/5 expiry/WQ31~11/1 renewal remains, no immediate credential ask. Wider borrower/mortgage/recorder/litigation investigations remain unstarted; only this bounded earnings bridge was authorized.
-
-**Evidence/delivery commit `5b285249a069d33d2f8f2812bfa843f5dcaae5c9`:** owned research/source/state and dated `PROME/inbox/2026-10-19_from-WAL_recurring-earnings-bridge-complete.md`, narrow REGINALD/TERRY inbox packets, report SHA256 pins. Owner receipt `research/2026-10-19_earnings-bridge-closeout.json`: public-source pass complete and closed, no background work. Prior Stage1/full-read delivery and historical release-night closeout remain intact.
-
-Codex/OpenAI runtime, existing model/permissions retained; exact model variant/native session identityUNKNOWN. Supplied PROME/TERRY IDs are not tool-verified identity. No exposed verified native pair send/read; notification/consumption and native closeout acknowledgment remainUNKNOWN. A committed packet proves persistence, not receipt. Final conversation carries notice; no fresh Will decision needed. Root pull/push deferred because foreign dirty work remains. This brief must be committed after its STATUS pin; no later desk writes in this pass.
+Desk files: STATUS, MEMORY, THESIS, WEAKNESSES, CHANGELOG, POSITIONS, INDEX, KB (257 rows / 20 groups), PREDICTIONS (cells de-glued only). PROME packet for L171: `PROME/inbox/2026-10-22_from-WAL_L171-frame-frozen-catchup.md`. Exact-path commits, pushed through `scripts/safe-push.sh`. This brief is the session's last write, committed after its STATUS pin.
