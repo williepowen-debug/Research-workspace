@@ -1,3 +1,4 @@
+SUPERSEDED 2026-10-22 — dated boot record (10/21 afternoon, desktop); its book and market figures are that boot's; the current book is FORGE ec5a7058b ($39,876.06, 10/22 11:01 ET capture).
 # October21 afternoon boot — PARTIAL
 
 Boot opened 14:20 ET, October21, in `/home/willi/Research-workspace/PROME`. Runtime Codex / OpenAI GPT-6 family, exact model UNKNOWN. Actual thread/session `01a15fae-fa34-72f0-9fad-058d5db019f9`. An inherited Anthropic environment setting is not this model's identity. Assignment: Will, “Hi PROME please boot up.”

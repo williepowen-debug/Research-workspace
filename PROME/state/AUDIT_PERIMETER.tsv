@@ -36,6 +36,8 @@ KERNEL/**	EXCLUDED	Gate C custody has its own additions-only checks and its own 
 MESSAGING/**	EXCLUDED	ratified messaging canon — shared/root doc, Will-gated, not PROME closeout output
 scripts/read_cap_check.py	SHARED	shared read-budget instrument; Will authorized PROME runtime-charter coverage maintenance 2026-10-04; label shared and review the authorized change, never infer future authorship
 scripts/docket_view.py	SHARED	shared generator of SCRATCH's docket view; Will authorized backlog #7 (far-row form) in his 2026-10-15 23:55 ET session exception and the 2026-10-16 00:44 ET close-out word (verbatim: PROME/plans/2026-10-15_simplification-wave2-PLAN.md § Will's word); label shared and review the authorized change (Sonnet read, ACCEPTANCE_docket_view_far_rows.md), never infer future authorship
+scripts/firetime_allowlist.tsv	SHARED	fire-time allowlist — its header grants PROME the rows (born 2026-07-11, Will-approved); PROME adds/renews/deletes rows at boot dispositions (ARGUS ⚠️ 2026-10-22: the scripts/** exclusion hid PROME's own row deletion 14954ff3e)
+FORUM/**	SHARED	standing-bucket forum posts (WQ-482 A, 2026-10-22) — one file per post, EACH DESK commits its own; a PROME post or the README/tools are PROME's (sub-lane evidence: the desk name in the file name `_<DESK>_`, or a commit subject starting PROME); never grade a desk's post as PROME's (ARGUS ⚠️ 2026-10-22: ten FORUM paths matched no rule)
 scripts/**	EXCLUDED	fleet-wide scripts — shared, not PROME's closeout output
 docs/**	EXCLUDED	shared root docs — Will-gated per root CLAUDE.md Ask-First
 reviews/**	EXCLUDED	external audit reports — written BY the auditor, read by PROME; auditing them would be auditing the auditor

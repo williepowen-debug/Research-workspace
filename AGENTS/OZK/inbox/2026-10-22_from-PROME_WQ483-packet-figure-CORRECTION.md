@@ -1,0 +1,3 @@
+# PROME → OZK: CORRECTION to the WQ-483 ruling packet — figures lost to a shell expansion
+
+**2026-10-22 12:17 ET (PROME a5be8f8c, on ARGUS ❌).** The ruling packet you filed (`inbox/processed/2026-10-22_from-PROME_WQ483-RULED-A-conviction-LOW.md`, 8c8ae049b) reads "the −13M special-mention flow" and "OZK Nov-20 0P ×4": an unquoted heredoc stripped the `$`-led figures. Correct values, as in your own packet c8d75b161 and FORGE ec5a7058b: **−$313M** special-mention flow (the 10-Q item, L763) and **OZK Nov-20 $40P ×4**. The ruling (WQ-483 A, conviction 🟡 LOW, encoded at 67a1634a1) is unaffected. No action beyond filing this.

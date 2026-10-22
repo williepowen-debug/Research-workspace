@@ -100,6 +100,33 @@ def observation(sc, path, item, snapshot):
             'recorded_at': dt.datetime.now(dt.timezone.utc).isoformat()}
 
 
+def attributed_by_commit(sc, baseline, seen, delivered_paths):
+    """WQ-485 A (Will 2026-10-22 12:10 ET): a path changed since the baseline that is COMMITTED-ONLY (no pending
+    state, working bytes == committed bytes) and outside PROME's OWNED lane is attributed by its own commits and
+    needs no observed classification. Still requiring delivered/observed: PENDING paths (any state), OWNED paths,
+    and any path with PROME authorship evidence (a `PROME` commit subject in the window or a from-PROME /
+    via-PROME / MSG-PROME filename) — evidence only ever REQUIRES a classification, never grants one
+    (counterexample read 2026-10-22 ❌1/⚠️3/⚠️4). No readable perimeter ⇒ no exemption (strict behaviour)."""
+    try:
+        rules = sc.load_perimeter()
+    except SystemExit:
+        return {}
+    subjects = sc.commit_subjects(baseline)
+    out = {}
+    for p, s in seen.items():
+        if not s['commits'] or s['pending'] or p in delivered_paths:
+            continue
+        if s['working_sha256'] != s['commit_sha256']:
+            continue
+        if sc.classify(p, rules)[0] == 'OWNED':
+            continue
+        entry = {'path': p, 'committed': [c[:9] for c in s['commits']], 'pending': []}
+        if sc.authorship_evidence(entry, subjects):
+            continue
+        out[p] = s['commits']
+    return out
+
+
 def freeze(sc, plan):
     base, why = sc.load_baseline()
     require(base is not None, f'baseline unusable: {why}')
@@ -132,11 +159,14 @@ def freeze(sc, plan):
     required |= {d['path'] for d in deps if d['mode'] == 'historical' and
                  d['path'] in seen and seen[d['path']]['working_sha256'] == d['sha256'] and
                  seen[d['path']]['commit_sha256'] == d['sha256']}
-    require(set(seen) <= required, 'unclassified inventory: ' + ', '.join(sorted(set(seen) - required)))
+    auto = attributed_by_commit(sc, baseline, seen, set(delivered))
+    required |= set(auto)
+    require(set(seen) <= required, 'unclassified inventory (PENDING, OWNED, PROME-evidenced or differing from its commit): ' + ', '.join(sorted(set(seen) - required)))
     contract = {'baseline': baseline, 'anchor': head, 'delivered': delivered, 'evidence': deps}
     manifest = {'schema': 2, 'verdict': sc.FROZEN, 'baseline': base['sha'], 'head': head,
                 'recorded_at': dt.datetime.now(dt.timezone.utc).isoformat(), 'contract': contract,
                 'contract_sha256': digest(contract), 'observed': observed, 'inventory': seen,
+                'attributed_by_commit': auto,
                 'paths': {p: d['sha256'] for p, d in delivered.items()}}
     rc, lines = verify(sc, manifest)
     require(rc == 0, '; '.join(lines))
@@ -207,9 +237,12 @@ def verify(sc, manifest, paths=None, ref=None, snapshot=None):
                     errors.append(f'CHANGED-SINCE-REVIEW: current evidence {dep["path"]}')
         # Always discover full working/history inventory, even for an explicit path list.
         # Historical dependencies pin their named commit, not the live pathname.
+        auto = attributed_by_commit(sc, c['baseline'], seen, delivered) if 'attributed_by_commit' in manifest else {}
         for path, state in seen.items():
             if path in delivered | current_deps or ((path, state['working_sha256']) in historical_deps
                                                    and (path, state['commit_sha256']) in historical_deps):
+                continue
+            if path in auto:  # WQ-485 A: committed-only, outside OWNED — attributed by its commits
                 continue
             records = manifest['observed'].get(path, [])
             matched = False
@@ -237,6 +270,8 @@ def verify(sc, manifest, paths=None, ref=None, snapshot=None):
                 content = sc._committed_content_id(path, target)
                 if (path, content) in historical_deps:
                     continue
+                if 'attributed_by_commit' in manifest and path in auto:
+                    continue  # WQ-485 A
                 records = manifest['observed'].get(path, [])
                 if not any(r['snapshot']['commit_sha256'] == content for r in records):
                     errors.append(f'UNCLASSIFIED SNAPSHOT PATH: {path}')

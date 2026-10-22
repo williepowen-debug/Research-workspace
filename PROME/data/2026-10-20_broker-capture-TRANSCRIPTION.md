@@ -1,3 +1,4 @@
+SUPERSEDED 2026-10-22 — history, not the current book — the 10/22 11:01 ET capture (PROME/data/2026-10-22_broker-capture-TRANSCRIPTION.md, FORGE ec5a7058b, $39,876.06) is the latest accepted broker evidence; every figure below is the 10/20 record.
 # 2026-10-20 broker capture — TRANSCRIPTION (Fidelity Traditional IRA)
 
 **Received:** 2026-10-20 ~10:43 ET (image files Capture1.JPG / Capture2.JPG on Will's Desktop; file times are NOT capture/quote/fill clocks — those are UNKNOWN). Will to TERRY: "getting crushed currently but sold one of the QQQ puts this morning". **Intraday session marks [10/20], not closes, not executable quotes.**

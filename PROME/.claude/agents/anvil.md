@@ -32,7 +32,7 @@ Your spawn prompt supplies the per-run variables: **(a)** the broker-export tran
 
 ### Prior run — October20 (history)
 
-- 2026-10-20 run: Claude Code subagent `anvil` (Opus), spawned by PROME b94e8a3e at Will's 11:10 ET word. October20 10:43 ET intraday capture (clocks UNKNOWN). 23 rows tie $37,840.91; 1 new (QQQ Oct22 715P) / 1 qty (USO Oct30 165C 1→2) / 1 gone (QQQ Oct20 720P sold) / 21 mark-only. New D-87 (today-G/L vs mirror-delta gaps on 11 option rows). Committed by PROME e4511a622; closeout ask answered (ORCH_LOG 2-CLOSEOUT-RECEIPT). Open: D-70 mapping re-review (PROME).
+- SUPERSEDED by the 2026-10-22 run above (history): 2026-10-20 run: Claude Code subagent `anvil` (Opus), spawned by PROME b94e8a3e at Will's 11:10 ET word. October20 10:43 ET intraday capture (clocks UNKNOWN). 23 rows tie $37,840.91 (SUPERSEDED 2026-10-22 by $39,876.06, the run above); 1 new (QQQ Oct22 715P) / 1 qty (USO Oct30 165C 1→2) / 1 gone (QQQ Oct20 720P sold) / 21 mark-only. New D-87 (today-G/L vs mirror-delta gaps on 11 option rows). Committed by PROME e4511a622; closeout ask answered (ORCH_LOG 2-CLOSEOUT-RECEIPT). Open: D-70 mapping re-review (PROME).
 
 ### Prior run — October19 (history)
 
