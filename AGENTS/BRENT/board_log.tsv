@@ -631,3 +631,13 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-20T17:56:00-04:00	SIG-W-20261020-032	info-only	INBOX_WALTER	Konarak claim and US denial travel together; separate destroyer chain unverified. No new kinetic/loss grade.
 2026-10-20T17:56:00-04:00	2026-10-20_from-PROME_organisation-cleanup-go-ahead.md	acted	INBOX	Accepted bounded no-deletion cleanup. Non-charter work completed; live charter unchanged, draft and exact before/after request at audits/2026-10-20_organisation-cleanup. PROME review pending.
 2026-10-20T19:16:59-04:00	2026-10-20_from-PROME_charter-cleanup-review-accepted.md	acted	INBOX	PROME acceptance consumed; restored explicit do-not-renumber warning at CLAUDE EXECUTE. Cleanup review closed. Research evaluation at research/2026-10-20_eia-oct15-evaluation/REPORT.md.
+2026-10-21T21:18:21-04:00	SIG-W-20261021-004	acted	INBOX_WALTER	Russian diesel departures integrated as departures not deliveries; read with -016. research/2026-10-21_eia-oct21/REPORT.md §6.
+2026-10-21T21:18:21-04:00	SIG-W-20261021-006	info-only	INBOX_WALTER	Dutch lowered-target outcome; EU gap -14.6pp per WALTER AGSI. HANS domain; no BRENT grade.
+2026-10-21T21:18:21-04:00	SIG-W-20261021-007	acted	INBOX_WALTER	Shaybah drone INTERCEPTED, operations unaffected: no measured supply loss, no INCIDENTS row; risk-premium context only. FALCON grades rung. research/2026-10-21_eia-oct21/REPORT.md §6.
+2026-10-21T21:18:21-04:00	SIG-W-20261021-011	noted	INBOX_WALTER	ST 3 re-placed to Al Jubail; grep found no BRENT route/flow note counting it as Hormuz. Nothing to re-place.
+2026-10-21T21:18:21-04:00	SIG-W-20261021-012	info-only	INBOX_WALTER	UKMTO 174-180 hull mapping; counts are FALCON's.
+2026-10-21T21:18:21-04:00	SIG-W-20261021-014	info-only	INBOX_WALTER	LUV Q4 fuel assumption ~4.55/gal is issuer assumption; HENRY resolves.
+2026-10-21T21:18:21-04:00	SIG-W-20261021-016	acted	INBOX_WALTER	Partial 500kt permission not a lift; BRENT live files carry no lifted-ban wording (grep). Producer restriction 10/31 docket row stands.
+2026-10-21T21:18:21-04:00	SIG-W-20261021-017	noted	INBOX_WALTER	Kremlin 40kt diesel intent; announced intent not flow.
+2026-10-21T21:18:21-04:00	2026-10-21_from-PROME_hormuz-flow-instruments-disagree-portwatch-vs-kpler.md	acted	INBOX	Basis settled at research/2026-10-21_eia-oct21/REPORT.md §3: PortWatch AIS lower bound, Kpler/IEA volume; one figure recorded; packets to HAWK and PROME.
+2026-10-21T21:18:21-04:00	2026-10-20_from-PROME_consistency-pass-go-ahead.md	acted	INBOX	Executed 10/20 (SCRATCH consistency repair, archive/2026-10-20_consistency-repair); filed 10/21.
