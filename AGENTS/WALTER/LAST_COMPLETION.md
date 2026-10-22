@@ -1,8 +1,34 @@
-# WALTER LAST_COMPLETION — October21 evening FULL closeout
+# WALTER LAST_COMPLETION — October22 morning LIGHT checkpoint (full deferred)
 
-Updated 2026-10-22T00:56:28Z. Will-launched evening catch-up ("boot up… catch up on any new signals"), then Will spawned HAWK/FALCON/OSPREY for catch-up; PROME prome-56 directed the after-close routes and this FULL closeout on Will's word (20:51 ET). Prior version preserved verbatim: research/2026-10-21_evening/prior-LAST_COMPLETION.md. Evidence: research/2026-10-21_evening/.
+Updated 2026-10-22T14:06:47Z. Will-launched morning boot ("please boot up", 07:37 ET), then Will's credit/CRE questions; Will held desk wakes at 10:05 ET because he is switching machines and asked for routing to inboxes plus WALTER file updates. Prior version preserved verbatim: research/2026-10-22_boot/prior-LAST_COMPLETION.md (sha256 c92da2cf…). Evidence: research/2026-10-22_boot/.
 
-## STATUS
+## STATUS (10/22 morning)
+
+LIGHT checkpoint, full deferred. Boot PARTIAL: doctor 0 HIGH / 14 MED; READS attestation stale since 10/12 (reads_check RC 2); boot_basis_check REVIEW on 10 changed dependencies, not reviewed; owner STATUS context read as lead lines only (FILTER_SPEC asks 30–50 lines); Iran guard corpus read by relevant blocks, not whole. Executed: sync, doctor, STATUS/anchor/MEMORY/LAST_COMPLETION/REGISTRY/ROUTING whole, four threshold families + scan on pulled legs (no fire), BOARD diff (0 new before dispatch), event window CLOSED, DEWEY 0, inbox 7g (VULCAN + 2 HENRY consumed), intake 0 NEW, dropzone 0, X bookmarks 6 marked, REGISTRY 13 rows refreshed, LIAISON/REQ, corrections PASS, ORCH_INFLIGHT whole + ListAgents.
+
+## CHANGED (10/22 morning)
+
+- BOARD 1589 → 1594: **001** CORRECTION of 20261021-018 (SoftBank close ¥4,305 [10/22], not ¥4,505 intraday; COR-20261022-01, HOLDS; VULCAN action) · **002** Asia selloff IMMEDIATE (HENRY action; REG-T-04 near-trigger to REGINALD/LIQUID info) · **003** Drop Site/CENTCOM readiness report (FALCON action; posture, US-strike limb NOT FIRED; Shaybah intercept-to-strike retelling killed) · **004** SUPERSEDES 022: gamma NEGATIVE both horizons 09:53 ET, put wall 7,750 TESTED not broken (COR-20261022-04, FLIPS; LIQUID action; PROME told directly as HENRY's named acting desk) · **005** Will's question HY → CRE/regional banks (REGINALD + CREED ACTION; BROCK/LIQUID/FLG/GIBBS info), routed instead of a wake on Will's word.
+- Packets consumed (.consumed.tsv): VULCAN SIG-018 close label; HENRY pre-open and post-open gamma.
+- X bookmarks: older-continuation 2 NO-ACTION (one X Article unreadable via oEmbed and unlocker); head scan 4 (2 DISPATCH → 002/003, 2 NO-ACTION); BM-20261022-07 CLOSED 4/4; follow-ups research/2026-10-22_boot/FOLLOW-UPS.md. Head check 2026-10-22T11:42:21Z.
+- REGISTRY Updated/Focus: 13 rows moved to 10/21 from owner headers (11:47:30Z); 7 unparsed kept prior cells.
+- STATUS bottom line / credit / volatility / network lines refreshed; SESSION_LOG light breadcrumb prepended.
+- Messages: PROME (boot summary + HENRY wake recommendation; then the HENRY put-wall condition). PROME woke HENRY; HENRY consumed 001/002.
+
+## RESULT (10/22 morning)
+
+Publication: fc0e297a8 and ef1d1bda3 fresh-origin-proven by safe-push; the REGISTRY/delivery commit rode ef1d1bda3. 005 and this checkpoint publish at the closing push. Delivered means published, not consumed; consumption evidenced only for HENRY (001/002 processed, two answering packets).
+
+## GAPS (10/22 morning, carried)
+
+- **Iran full sweep due 10/22 — NOT run** (last full 10/15). Anchor CURRENT STATE still reads the 10/14 "3 → 5" losses under the 10/21 line.
+- Pending owner reads: REGINALD/CREED on 005; LIQUID on 004; FALCON on 003; VULCAN on 001. Will held wakes (10:05 ET).
+- Watch tonight: H.4.1 discount window 16:30 ET (10/14 point $11.044B); HY 10/21 and 10/22 FRED prints vs REG-T-04; FLG Q3 Fri ~06:00 ET; claims 10/22 print not read by WALTER.
+- MEMORY calendar size check (10/22) and READS/basis review deferred to the next FULL closeout.
+- SKIPPED this checkpoint: root research/source retirement assessment (closeout_run lists it UNVERIFIED); orphan check ADVISORY only (research/2026-10-22_light-closeout/orphans.txt). Both owed at the next FULL.
+- 20261021-016 (evening correction) carries no `kill_strings:` field, which FORMAT_SPEC v0.22 makes mandatory on corrections; not repaired (post-dispatch immutability; next FULL decides an erratum).
+
+## STATUS (prior: October21 evening)
 
 FULL closeout. Evening dispatches 007–015 (today 001–015; BOARD 1573). Intake batches BM-20261021-02 (22/22) and BM-20261022-01 (31/31) CLOSED; lane 4e5ec36 marked. Live desk catch-up: FALCON consumed 15/15 + 012 and graded; OSPREY was already current; HAWK briefed with 57 pending, mid-catch-up (STATUS updated 20:3x ET, uncommitted at this closeout). No trade, no Telegram send, no new monitor. General startup duties not re-executed tonight (READS, full four-family threshold rows, owner contexts) remain PARTIAL as carried below.
 
@@ -108,109 +134,67 @@ Other gaps, including HANS T12's missing feed and owner-method decisions, remain
 
 ## CLOSEOUT RECEIPT
 
-FULL closeout 2026-10-22T00:56:28Z. Nine evening dispatches; seven WALTER commits fresh-origin-proven before the closeout commit; consumption separate. General startup/research duties remain PARTIAL as carried.
+LIGHT checkpoint 2026-10-22T14:07:38Z before Will's machine switch. Five morning dispatches; 25/25 handoffs published; consumption separate. Boot PARTIAL as carried.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-22T01:40:32Z",
-  "next_review": "2026-10-22",
+  "as_of": "2026-10-22T14:07:38Z",
+  "next_review": "2026-10-23",
   "publication": [
     {
-      "commit": "86a04d085",
+      "commit": "fc0e297a8",
       "state": "published"
     },
     {
-      "commit": "121807962",
+      "commit": "ef1d1bda3",
       "state": "published"
     },
     {
-      "commit": "da2430627",
-      "state": "published"
-    },
-    {
-      "commit": "9fad2bb95",
-      "state": "published"
-    },
-    {
-      "commit": "da73ad380",
-      "state": "published"
-    },
-    {
-      "commit": "c2c158ef3",
-      "state": "published"
-    },
-    {
-      "commit": "fa6e75433",
-      "state": "published"
-    },
-    {
-      "commit": "a21050a1b",
-      "state": "published"
-    },
-    {
-      "commit": "76ff01336",
-      "state": "published"
-    },
-    {
-      "commit": "ec13c391a",
-      "state": "published"
-    },
-    {
-      "commit": "5d278b7c1",
-      "state": "published"
-    },
-    {
-      "commit": "06d5fa947",
-      "state": "published"
-    },
-    {
-      "commit": "3dec22dab",
-      "state": "published"
-    },
-    {
-      "commit": "abca4cc44",
+      "commit": "2cc46ac81",
       "state": "published"
     }
   ],
   "delivery": {
-    "signal_date": "20261021",
-    "total": 114,
-    "delivered": 114,
-    "note": "All 114 October21 handoffs (001-031) published on origin/master after reconciliation; publication, not consumption."
+    "signal_date": "20261022",
+    "total": 25,
+    "delivered": 25,
+    "note": "All 25 October22 handoffs (001-005) published on origin/master after reconciliation; publication, not consumption (HENRY consumed 001/002)."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
     "evidence": [
       {
-        "path": "AGENTS/WALTER/research/2026-10-21_evening/ukmto-174-onward.md",
-        "sha256": "a60a487cfcae56829459cadec65034be1426e47d6e2dd1f5d2d11f7983c1a8bd"
+        "path": "AGENTS/WALTER/research/2026-10-22_boot/THRESHOLD-SCAN.md",
+        "sha256": "1716dfcf58a9e38cdc8fcf47ec3e26c57c764243f11ae5783d7bf23e6c134369"
       },
       {
-        "path": "AGENTS/WALTER/research/2026-10-21_evening/prior-LAST_COMPLETION.md",
-        "sha256": "f7c429b86a6fd097afa846e1f207b2f27bcb2183f00a3380f7ff23e57f19bb8f"
+        "path": "AGENTS/WALTER/research/2026-10-22_boot/prior-LAST_COMPLETION.md",
+        "sha256": "c92da2cf8c544e678d3e590f60830af074b58f504681dd49c0f79fb2a043e40f"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-22_boot/FOLLOW-UPS.md",
+        "sha256": "3d23b687cd14f17df88086b76ca66adaf718d42dbc919e63a97c7380c593f357"
       }
     ]
   },
   "procedure": {
-    "tier": "full",
+    "tier": "light",
     "boot": "PARTIAL",
     "owner": "WILL",
-    "ask": "PROME prome-56 on Will's word 20:51 ET: route after-close items then FULL closeout and push",
-    "closeout": "Evening routing complete; general startup duties remain partial as carried."
+    "ask": "Will 10:05 ET: hold off waking (machine switch); route the data to agents' inboxes and update WALTER files",
+    "closeout": "LIGHT checkpoint; full deferred (Iran full sweep, NETWORK/registry narrative, MEMORY size check, READS/basis review)."
   },
   "manual_duties": {
-    "11": "Nine evening dispatches 007-015 incl. corrections 010/011 with R1 rows, banners, INDEX markers.",
-    "13": "REGISTRY refreshed from owner headers before 12(b); 13 rows unparsed kept prior dated cells.",
-    "12(a,b)": "Counts 15 today; NETWORK AWARENESS regenerated from refreshed REGISTRY; 0 cluster_mediating.",
-    "12(c)": "BALANCED baseline, scoped bank-Q3 LOOSE retained; no change warranted.",
-    "12(d,e)": "SESSION_LOG FULL entry prepended; BOTTOM LINE re-cut.",
-    "12(f)": "read_cap rc=0; rotation_due names PROME's generated ORCH_INFLIGHT only.",
-    "14": "Finding #49 added; MEMORY 100 lines; pruned note preserved verbatim in MEMORY_PROMOTED.",
+    "11": "Five dispatches 001-005 incl. corrections 001 (COR-20261022-01) and 004 (COR-20261022-04) with R1 rows; INDEX regenerated.",
+    "13": "REGISTRY 13 rows refreshed from owner headers 11:47:30Z; 7 unparsed kept prior cells.",
+    "12(a,b)": "BOARD 1594; network line refreshed (LIGHT), full regeneration deferred; 0 cluster_mediating.",
+    "12(c)": "BALANCED baseline retained; no change warranted.",
+    "12(d,e)": "SESSION_LOG light breadcrumb prepended; BOTTOM LINE re-cut.",
+    "14": "DEFERRED to next FULL (MEMORY calendar size check 10/22).",
     "15": "Prior LAST_COMPLETION preserved verbatim; carries retained.",
-    "16": "Exact-path commits; push per PROME/Will direction via safe-push; reconcile after.",
-    "bookmarks": "X re-authorized 02:04Z; fresh scan staged 169; review validated; 169 marked 02:10Z; older coverage INCOMPLETE (500-row cap).",
-    "WQ-204": "Phone sweep retired at ec13c391a (published)."
+    "16": "Exact-path commits. fc0e297a8 and ef1d1bda3 pushed under the IMMEDIATE self-exception on a clean tree. 2cc46ac81 (PRIORITY 005) was pushed while PROME/state ORCH files were dirty: outside the standing exception, done for Will's machine switch; commits only, no foreign file touched.",
+    "bookmarks": "6 marked: 2 older NO-ACTION, 4 head (2 DISPATCH, 2 NO-ACTION); head check 11:42:21Z."
   }
 }
 END_CLOSEOUT_RECEIPT -->
