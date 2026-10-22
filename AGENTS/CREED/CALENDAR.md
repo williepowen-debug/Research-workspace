@@ -15,8 +15,11 @@
 | **2026-09-29** (Tue) 1:30 pm | Plaza Continental Ch.11 hearing (C.D. Cal. Bankr. 8:26-bk-10986) | ✅ Read 9/29: **UNKNOWN.** A party's caption alone does not establish ownership; RETAINED/SOLD only on a document explicitly tying that party to this lien (Will 9/29). Re-check free copies ~9/30–10/2 |
 | **2026-09-29** (Tue) | ARI liquidation vote (8-K Item 5.07) | ✅ **DONE 9/29 — APPROVED; `PRED-CREED-005` graded HIT** (8-K acc 0001193125-26-407837). Distribution not yet declared. First distribution ~$3.70–4.00 = ~60% ex-date drop = return of capital, NOT a market move — separate the mechanical adjustment when grading |
 | ~~**~wk of 2026-09-28**~~ | MBA Q2-26 CM/MF debt outstanding | ✅ **GRADED 2026-09-29:** `006` RESOLVED-FALSE (life +$7,830M < +$10.0B; Brier 0.09) · `010` RESOLVED-PARTIAL, not scored (Will) |
-| **~2026-10-01** | Trepp September DQ | Grade on `registry/PREREG_2026-10_TREPP_PRINT.md` §6. September **cannot fire T-01a** (leg 1 of 2 only) |
-| **~mid-Oct 2026** | Trepp September SS | Same PREREG |
+| ~~**~2026-10-01**~~ | Trepp September DQ | ✅ **GRADED 2026-10-21** (PREREG_2026-10 §6): office 12.16 = `T-01a` leg 1 of 2 |
+| ~~**~mid-Oct 2026**~~ | Trepp September SS | ✅ **GRADED 2026-10-21**: office SS 16.85, `T-01b` not fired |
+| **2026-10-28** (Wed) 11:00 am | **450 5th St NW (Washington DC) substitute trustee's auction** — DOCKET **L723** | Grade below `research/2026-10-21_L723_450-FIFTH-NW_PREREAD.md` §5 (CASE-CREED-139); moves no band |
+| **~early Nov 2026** | **Trepp October DQ — decides `CREED-T-01a`** (leg 2 needs ≥ 12.01) + `PRED-CREED-001` (Kernel-pinned) | Write a PREREG before the print if possible; grade at Table 2, 2dp |
+| **2026-11-12** (Thu) | Illinois Center (Chicago) sheriff foreclosure sale (CASE-CREED-153) | Calendar lead; verify continuance before treating as a clearing event |
 | **~mid/late Oct 2026** | Q3 bank earnings (FLG, EGBN, OZK, VLY) | Property/metro read into REGINALD's bank cohort; the VLY MF-DPD location/type (WQ-311 open unknown) |
 | **~early Nov 2026** | mREIT Q3 results / Q4 dividends | `CREED-T-08b` needs cohort-wide erosion |
 
