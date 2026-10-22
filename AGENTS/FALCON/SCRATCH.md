@@ -37,7 +37,7 @@
 - 🟡 FRESH_LEG_BASELINE hot/cold split (50,024 B); FLOW.tsv +178d stale; carried builds.
 
 ## PREDICTIONS DUE / DECISIONS PENDING
-FAL-06 OPEN (70%, 2026-11-05). No Will decision pending. PROME to set `G:GATE-FALCON-001` review_by 2026-10-28.
+FAL-06 OPEN (70%, 2026-11-05). **FAL-07 OPEN (65%, registered 10/21 on Will's word): US offensive strike on Iran 10/22–12/31; grade CONFIRMED in-session on a qualifying strike, else dated search 2027-01-02.** No Will decision pending. PROME to set `G:GATE-FALCON-001` review_by 2026-10-28.
 
 ## MAIL STATE
 In: 0 (16 consumed). Out: PROME memo `2026-10-21_from-FALCON_weekly-review-hold-cape-dao-contested-kotc.md`; HAWK inbox `2026-10-21_from-FALCON_kotc-third-kuwait-hull.md`; SendMessage reply to walter-14.
