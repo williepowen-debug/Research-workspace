@@ -1,6 +1,6 @@
 # C3 LIMB-2 CANVASS — Black Sea war-risk repricing, window 2026-10-06 → 2026-10-21
 
-**Run:** 2026-10-21 (Wed) ~21:25–21:40 ET (from `date`), osprey-1021, brought forward from Mon 10/26 on Will's word via PROME prome-56 (21:22 ET). **For HAWK to grade** (DOCKET L439; KB-HAWK-428/445). **OSPREY does not grade limb 2.**
+**Run:** 2026-10-21 (Wed) 21:23–21:27 ET (ask received 21:23 per the hook clock; commit 9449f14cb at 21:27:28 EDT per git) — STAMP CORRECTED 21:28 from `date`/git: the first version read "~21:25–21:40 ET (from `date`)", typed from narrative, not from `date`; osprey-1021, brought forward from Mon 10/26 on Will's word via PROME prome-56 (21:22 ET). **For HAWK to grade** (DOCKET L439; KB-HAWK-428/445). **OSPREY does not grade limb 2.**
 **Window:** RIO anchor `RU-20261006-AFRAMAX-RIO-SOCHI` (10/06) → run date. **Letter (EXIT RULES §1, Channel 3, limb 2):** *"no war-risk-premium repricing (insurer/P&I reporting, via HAWK's cross-war enforcement read) in the same window."*
 **Source set:** the WARRISK.tsv header enumeration (a STARTING set, never the scope), plus outlet-name-free queries and the TD6 proxy.
 

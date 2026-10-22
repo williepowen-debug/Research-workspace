@@ -18,7 +18,7 @@
 
 ---
 
-*Second rotation 2026-10-21 ~21:4x ET (osprey-1021, STATUS at 96% of the read cap): the 10/18 block below, byte-identical; crc32 = 3199308906.*
+*Second rotation 2026-10-21 21:2x ET (committed 21:27:28 per git; stamp corrected from a narrative "~21:4x") (osprey-1021, STATUS at 96% of the read cap): the 10/18 block below, byte-identical; crc32 = 3199308906.*
 
 ## ACTIVE — 2026-10-18 (GATE-OSPREY-001 graded · L661 read-1 fix · inbox 2/2 · no mark, band or threshold moved)
 1. **GATE-OSPREY-001 GRADED at its review_by: LIVE, no leg newly fired, NO Channel-2 upgrade, no BRENT route.** (KB-204/205)

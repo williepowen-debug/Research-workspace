@@ -280,7 +280,8 @@ class AC22_LeftmostWindowWins(unittest.TestCase):
         r = one(rows)
         # Changed 2026-10-21 (AC27, louder): CX-A's title also carries month text outside its window, so the row is
         # NEWEST_UNSURE and still names the STALE cause. The AC22 discrimination is kept by the STALE clause + pub date.
-        self.assertTrue(r["ledger_match"].startswith(("BULLETIN_STALE", "BULLETIN_NEWEST_UNSURE")), r["ledger_match"])
+        # Tightened 2026-10-21 (read 3 ⚠️2): the behaviour is deterministic, so pin the louder token exactly.
+        self.assertTrue(r["ledger_match"].startswith("BULLETIN_NEWEST_UNSURE"), r["ledger_match"])
         self.assertIn("BULLETIN_STALE", r["ledger_match"])
         self.assertEqual(r["pub_date"], "2026-09-27")
         self.assertEqual(nr, 1)
@@ -415,6 +416,41 @@ class AC27_DateTextOutsideTheGoverningWindow(unittest.TestCase):
         r = one(rows)
         self.assertTrue(r["ledger_match"].startswith("BULLETIN — read manually"), r["ledger_match"])
         self.assertEqual(nr, 0)
+
+
+# ---------------------------------------------------------------------------------------------------------------
+# READ-3 RESIDUE (PROME/reports/2026-10-21_L661_strike-feed_read_3.md: RELEASE, 0 ❌ · 3 ⚠️). Text/test only; no code change.
+CX3_A = (SLUG_SEP, f"Maritime Security Report: 21st - 27th Septmber. Next report covering {NEXT2}")
+
+
+class Read3_Residue(unittest.TestCase):
+    def test_declared_limit_own_window_without_a_recognisable_month_word_is_still_silent(self):
+        """DECLARED LIMIT (read 3 ⚠️1, case A; widened README case (vi)), pinned so no surface can claim it closed: the
+        own window's month is misspelled ('Septmber'), so AC27 sees no month word outside the later window, which governs.
+        Same property as CX2-13. The released 4ea2b4539 read STALE here (fail-open vs released, compound trigger).
+        If this test ever fails, the limit moved: update the residue and README, do not delete it."""
+        rows, nr, _ = run("2026-10-08", {BASE: index(CX3_A), SLUG_SEP: BODY_OK})
+        r = one(rows)
+        self.assertTrue(r["ledger_match"].startswith("BULLETIN — read manually"), r["ledger_match"])
+        self.assertEqual(nr, 0)
+
+    def test_declared_cost_month_word_beside_a_correct_window_fires(self):
+        """DECLARED COST (read 3 ⚠️3), pinned: a fresh, correctly dated bulletin whose title also carries a month word in a
+        non-date phrase reads UNSURE (louder, the safe direction). If a publisher adopts this habit every run goes UNSURE."""
+        fresh = (post("28th-september-4th-october-2026"), "September update | Maritime Security Report: 28th September - 4th October 2026")
+        rows, nr, _ = run("2026-10-09", {BASE: index(fresh), fresh[0]: BODY_OK})
+        r = one(rows)
+        self.assertTrue(r["ledger_match"].startswith("BULLETIN_NEWEST_UNSURE"), r["ledger_match"])
+        self.assertIn(AC27_REASON, r["note"]); self.assertEqual(nr, 1)
+
+    def test_branch_b_month_word_no_window_row_level(self):
+        """Read 3 ⚠️3: AC27 branch (b) at row level -- a title with a month word and no parseable window (CX2-6 class);
+        the slug carries the window. DISCRIMINATING against 7299a2e39 (no AC27)."""
+        lnk = (SLUG_SEP, "Maritime Security Report Week 39 - next issue 4th October 2026")
+        rows, nr, _ = run("2026-10-08", {BASE: index(lnk), SLUG_SEP: BODY_OK})
+        r = one(rows)
+        self.assertTrue(r["ledger_match"].startswith("BULLETIN_NEWEST_UNSURE"), r["ledger_match"])
+        self.assertIn(AC27_REASON, r["note"]); self.assertEqual(nr, 1)
 
 
 if __name__ == "__main__":

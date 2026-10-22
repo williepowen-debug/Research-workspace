@@ -160,3 +160,12 @@ Terms. **Matching link:** an index anchor whose href contains `link_pattern`. **
   - **Must-not-fire on real data:** both fixtures 0 hits (test); the **live index 2026-10-21 ~20:55 EDT, index only (AC21 contact)**: 14 links, followed `5th - 11th October 2026`, 0 doubts, 0 AC27 hits. The full live feed was NOT run with this code.
 - **INDEPENDENTLY VERIFIED: NO.** reads: 2 of 3 spent; this fix is after read 2 and unreviewed. PROME commissions **read 3, the last**.
 - **STILL UNRESOLVED / declared residue:** known silent cases (i)–(vi) (non-exhaustive; (vi) = CX2-13, pinned); ⚠️7 and AC14's declared cost (loud); AC28's numeric-prefix fragment (loud); N2, N3, L624 residues 1, 4, 5; the candidate "followed END after run date ⇒ doubt" tell (later episode). **Operational:** UNATTENDED feed run UNAVAILABLE on either version until a passing read; attended runs and the index-only AC21 contact are fine.
+
+## READ-3 — RELEASE; residue dispositioned (never merged) — filled 2026-10-21 21:29 EDT (from `date`)
+
+**Read 3:** `PROME/reports/2026-10-21_L661_strike-feed_read_3.md` — independent Sonnet reader, own counterexamples: **RELEASE, 0 ❌ · 3 ⚠️ · 7 ✅**. DOCKET L661 RESOLVED (PROME, 10/21). The read-2 fix is **INDEPENDENTLY VERIFIED for the claim it makes**. The three ⚠️ are declared residue (no code change owed or made):
+- **⚠️1 (fails open, compound trigger) — DECLARED + PINNED.** README case (vi) widened: a later window governs when the title's own date has no recognisable month word (absent, misspelled, numeric, glued, non-English, week number). New pin `Read3_Residue.test_declared_limit_own_window_without_a_recognisable_month_word_is_still_silent` (case A, "Septmber"), beside the CX2-13 pin. Not chased with a smarter parse (reader's advice).
+- **⚠️2 — TIGHTENED.** The CX-A assertion now pins `startswith("BULLETIN_NEWEST_UNSURE")` + `assertIn("BULLETIN_STALE")` (deterministic behaviour). The AC27 acceptance's internal inconsistency stays recorded, not edited out.
+- **⚠️3 — DISCLOSED + PINNED.** README (e) states the louder cost in general (any month word in a non-date phrase). New pins: `test_declared_cost_month_word_beside_a_correct_window_fires` and the row-level branch-(b) test `test_branch_b_month_word_no_window_row_level`.
+- **TESTED:** Ran 76, OK (32 L624 + 44 L661). The two AC27-dependent new tests fail on `7299a2e39` (2 F); the declared-limit pin passes there by design.
+- **Operational:** the UNATTENDED feed run stays UNAVAILABLE until PROME rules on it as a separate ask; attended runs are fine.
