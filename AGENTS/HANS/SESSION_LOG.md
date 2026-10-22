@@ -187,7 +187,7 @@ CATO reviewed the day's work and produced counterexamples against several of thi
   - Caught in my own grader before commit: a REPORTED row with no date would have counted and defeated the 11/30 window.
   - Caught in my own stamp, for the SECOND time tonight: a typed "22:4x" when the clock said 22:33. The hot memory on this did not fire; only reading `date` caught it.
   - Also: LIQUID consumed both 10/21 packets (b20fb4fa9) with no France reply = no transmission at its side. 4 new WALTER signals drained (KB-134 Russia temporary-management programme).
-- **22:4x–23:0x ET — Will: "go ahead with the UK Budget groundwork".**
+- **22:45–22:49 ET — Will: "go ahead with the UK Budget groundwork".**
   - Read at primary: ONS public finances (10/21), the BoE APF notice (9/17), the DMO remit PDF (extracted locally), the EY pre-Budget PDF (extracted locally), part of the July FSR. The OBR itself was not read.
   - Caught: a search summary misread the DMO table (long auctions are £7.4bn, not £15.0bn).
   - The Chancellor is **Healey**, not Reeves. My own search prompts carried the wrong name; my files did not.
