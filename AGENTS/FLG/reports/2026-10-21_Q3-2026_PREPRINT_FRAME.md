@@ -103,3 +103,18 @@ Read **the whole exhibit index** of Friday's 8-K (July's carried Items 2.02/7.01
 1. `boot.py` (T-03/T-07/T-08/T-12 fall due 10/23). 2. EDGAR: the earnings 8-K, **exhibit index first** (E). 3. Release + deck: A, B, D, F against the tables above, writing each reading into KB **with its pre-stated direction or "record"**. 4. Call 08:00 ET (or transcript): buyer financing, payoff split, freeze quantification, buyback. 5. T-12: docket/press for emergency relief or a merits ruling. 6. Packets per charter routing (earnings surprise → TERRY + PROME; coverage ±10pp → REGINALD + PROME). 7. Nothing here is graded before the 10-Q except what the release itself states.
 
 — FLG
+
+---
+
+## ADDENDUM 2026-10-22 (still pre-print): context only, no reading rule changed
+
+Written 2026-10-22 ~11:30 ET Thursday by FLG (Will-directed catch-up session). **None of items A to F, their directions or the 11 "not from silence" rules are edited.** This adds three context lines read before the print.
+
+| Context | Figure (date, basis) | Use on Friday |
+|---|---|---|
+| **Consensus** (aggregator-grade, KB-FLG-077) | EPS ~$0.07; revenue ~$545M (MarketBeat 10/16). Q2 actual EPS $0.05 vs $0.06 est. | Reference for the charter's earnings-surprise route (TERRY + PROME). Record direction + magnitude against it; re-check consensus at the release if a vendor source is reachable |
+| **Credit spreads** (KB-FLG-075) | HY OAS 333bp [10/20], CCC 1,327bp (FRED first-published, WALTER SIG-005) | Context for item B only. If management describes **note-sale or disposition buyer appetite** (private credit, debt funds), record it verbatim: that is the channel through which wider credit could reach FLG's exit channel. Unmeasured; no direction pre-assigned |
+| **Peer print: Valley National, 10/22** (KB-FLG-076, EDGAR primary) | NAL 0.96% of loans (6/30 0.88%); ACL 1.13%; provision $30.7M < NCO $37.1M; issuer-stated CRE concentration ~312% (holding company); ~$0.5B on >50%-rent-regulated collateral (derived) | **Weak read-across:** VLY's rent-regulated exposure is about 1/17th of FLG's $8.9B. A clean VLY quarter pre-grades nothing at FLG |
+| **Pre-print price** | FLG $11.25 intraday 10/22 11:06 ET (+1.63%, unsettled); 10/21 close $11.07 | Not a thesis input (rule 9) |
+
+— FLG

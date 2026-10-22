@@ -1,12 +1,26 @@
 # FLG STATUS
 
-**Last Updated:** 2026-10-21 22:3x ET Wednesday — **catch-up wave 2 (PROME spawn prome-56): whole inbox drained (5 packets + 2 signals), Q3 PRE-PRINT FRAME written before Friday's print.** Prior: 2026-10-01 T-08 fire grade; 2026-09-27 catch-up; 2026-08-28 first live session.
+**Last Updated:** 2026-10-22 11:3x ET Thursday — **Will-directed catch-up (day before the print): no new FLG filing; 1 WALTER signal logged; Valley's Q3 peer print read at the primary; consensus and sell-side context recorded; pre-print frame addendum (context only).** Prior: 2026-10-21 wave 2 (inbox drained, pre-print frame); 2026-10-01 T-08 fire grade; 2026-08-28 first live session.
 
 ✅ **FIRST-LIVE-SESSION BANNER STRUCK.** The build banner said every figure here was MIRROR-grade — extracted from REGINALD, never pulled by FLG. **That is no longer true.** FLG pulled its own EDGAR primary this session (10-Q Q2-2026, Flagstar Bank N.A., acc `0000910073-26-000068`, filed 2026-08-06) and re-verified the load-bearing figures first-hand. `CLAUDE.md § FIRST LIVE SESSION` is **SPENT 2026-08-28**. ⚠️ **One residual, named not hidden:** the MDRM-level MI3 cells were **not** re-pulled at FFIEC CDR and stay MIRROR-grade — `MI3_FLG.tsv` marks this per row.
 
 **Class:** Market domain — print-driven single-name specialist · **Level:** L1 · **Thesis:** `THESIS.md` **v1.0 — THESIS OF RECORD** (promoted from v0.1 skeleton this session)
 
 ---
+
+## 🟡 SESSION 2026-10-22 — CATCH-UP the day before the print (Will-directed, interactive)
+
+**No new FLG filing.** EDGAR CIK 0000910073 (10/22 11:06 ET): nothing since the two 10/16 Form 4s. Every credit figure is still the Q2-2026 10-Q. No docket development found in press (search 10/22); T-12 stays due ~10/24.
+
+| What | Fact | So what | KB |
+|---|---|---|---|
+| **Will's credit-spread question** (WALTER SIG-005) | HY 333bp [10/20] (+67bp since 9/21), CCC 1,327bp | FLG's exit channel is NYC rent-regulated multifamily refinance and note sales, not the HY market. Wider credit could reach FLG through private-credit appetite for distressed note sales, which is **unmeasured**. REGINALD/CREED own the cohort answer | 075 |
+| **Peer print: Valley National, 10/22** | NAL 0.96% (up from 0.88%); provision $30.7M < charge-offs $37.1M; CRE concentration ~312% (issuer, holding company); ~$0.5B on >50% rent-regulated collateral | **Weak read-across:** about 1/17th of FLG's $8.9B; pre-grades nothing | 076 |
+| **Sell-side and positioning** | Target cuts 10/9–10/16 (RBC $15→$13 verified at aggregator; Truist, Cantor lower); short interest 14.44% of float, +18% m/m (MarketBeat) | Associated with the ~−7pp FLG-specific drop since 9/30; **cause still UNESTABLISHED** | 077 |
+| **Consensus** | EPS ~$0.07, revenue ~$545M (aggregator) | Reference for the earnings-surprise route at Friday's print | 077 |
+| **Price** | $11.25 intraday 10/22 11:06 ET (+1.63%; KRE +1.58%, VLY +4.38%) | Information only | — |
+
+**Pre-print frame:** dated addendum appended (context only; items A–F and the 11 rules unchanged). **No threshold, band, prediction letter, kill or score moved.** THESIS stays v1.0.2.
 
 ## 🟡 SESSION 2026-10-21 — CATCH-UP WAVE 2: inbox drained; Q3 PRE-PRINT FRAME written before Friday's print (PROME spawn, DOCKET L522)
 
@@ -147,4 +161,4 @@ The 87.5%-payoff / 1.6%-cure split was a single observation at v1.0. It is the e
 
 ## BOTTOM LINE
 
-**The bank has filed no report or 8-K since July (only two routine insider tax-withholding forms), and the Q3 results land Friday 10/23 at about 6:00 ET (call 8:00 ET).** Tonight FLG wrote down, before the print, exactly what it will read and which figures would move its thesis each way: a reserve rebuild (provision at or above charge-offs, or ACL up $50M+) cuts against the "thin reserve" leg; another ACL fall, net non-accrual growth, buyer financing of dispositions, or a still-47%-past-due modified book supports it; buyback execution of $125M+ slows the concentration ratio's fall below 300% by about 4 points (an estimate). The court docket now confirms no stay of the rent freeze through 10/1, but the landlords kept emergency relief open after the City's ~10/24 document production, and a merits ruling is due by year-end. The stock closed $11.07 on 10/21, 22% below REGINALD's frozen baseline and down about 7 points more than regional peers since 10/1, with no filing to explain it. **Next wake: Fri 10/23 (DOCKET L522); then the 10-Q ~11/6–11/9, which actually grades the predictions.**
+**Nothing new from the bank itself: no filing since July except two routine tax-withholding forms, so every credit figure is still June's.** Today's context, written down before the print: junk-bond spreads have widened about 0.67 points in a month, but FLG's problem loans exit through NYC apartment refinancing and note sales, not the junk-bond market, and the link between the two is unmeasured. Valley National's clean quarter this morning says little about FLG, because Valley holds about one-seventeenth as much rent-regulated lending. The stock's extra drop since October 1 coincides with three analyst target cuts and rising short interest, which is association, not a proven cause. **Next wake: Fri 10/23, results ~06:00 ET, call 08:00 ET, read against the pre-print frame; then the 10-Q ~11/6–11/9, which actually grades the predictions.**
