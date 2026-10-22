@@ -63,7 +63,7 @@
 - HAW-20 10/31. HAW-22 window closes 10/31, resolves 12/22. **No Will decision open from this desk.**
 
 ## MAIL STATE (one line per surface)
-- Inbox: **clear at 21:38 ET** (all top-level packets processed, incl. FALCON KOTC and BRENT Hormuz). WALTER lane: **clear** (61/61 incl. -1021-011/-012/-016/-017). Outbox: packets committed via carve-out ① to OSPREY (a896ab9d8, C3 grade) and MARCO (020920ef9, S338 autos).
+- Inbox: **clear at 21:38 ET** (all top-level packets processed, incl. FALCON KOTC and BRENT Hormuz). WALTER lane: **clear** (61/61 incl. -1021-011/-012/-016/-017), **except SIG-W-20261021-021** (INFO, YURI addendum to 017: Sonoco/NYSE:SON verified as the Eviosys Kuban parent; Smurfit Westrock link unverified). It arrived after closeout and is still uncommitted by WALTER: consume it next session (refines KB-452). Outbox: packets committed via carve-out ① to OSPREY (a896ab9d8, C3 grade) and MARCO (020920ef9, S338 autos).
 
 ## PENDING PUSH / GIT
 - All HAWK work committed and pushed (4a82c1168 → 386402e22 → 5a159c8fc → 7943b8bdb → closeout commit). Nothing of HAWK's left uncommitted.
