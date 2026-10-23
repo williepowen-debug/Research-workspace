@@ -500,3 +500,16 @@ Observed 2026-10-20T10:48:04.905951-04:00; Will supplied Capture1/2 directly; TE
 Separately bought October22 QQQ715P1/net432.66 and added USOOctober30 165C1/net315.66: two open purchases, not closed P/L. ChangedQQQstrike means not same-strike720Proll; no closingfill of October20 715P. Netthreefills665.32−432.66−315.66=−83.00, matching pendingcash; do not add pending twice. Two canceledrows are not fills.
 
 QQQ719P remains1; displayedbasis277.66 supersedes yesterday's276.66 currentbasis only. Earlier conditional−53.32 is a dated unresolved allocation, not certified or silently replaced; equalhalf277.16 still differs0.50. Need final cohort/taxlot evidence. Older closures/cohorttotals unchanged. Tags: POSITION_TRUTH_MISSING narrowed by actualfilledtickets. Lesson: captured gain and renewed exposure are separate facts; this receipt cannot establish the full intraday decision path.
+
+## October23 — USO Oct-23 163C closed, USO Oct-30 165C 1 of 2 sold; broker bookkeeping only
+
+Booked 2026-10-23 13:2x ET from PROME's transcription of Will's Fidelity Pending view (`PROME/data/2026-10-23_broker-activity-TRANSCRIPTION.md`; TERRY did not view the image; fill clocks not displayed). Arithmetic: `research/2026-10-23_broker-booking/NOTE.md`.
+
+| Line | Fill | Net | Basis removed | Realized (DERIVED) |
+|---|---:|---:|---:|---:|
+| USO Oct-23 163C ×1 STC (limit $4.27) → `MGMT-USO163C-OCT23` CLOSED | $4.36 | +$435.34 | $289.66 (bought 10/19 @ $2.89) | **+$145.68** |
+| USO Oct-30 165C 1 of 2 STC (limit $7.15) | $7.15 | +$714.32 | $270.66 or $315.66 (lot unknown) | **+$398.66 to +$443.66** |
+| USO 5 shares, market | $168.595 | +$842.96 | $609.49 (avg cost) | **+$233.47** |
+| AAPL 1 share, market | $346.635 | +$346.64 | $23.645 (avg cost) | **+$323.00** |
+
+Not broker-reported realized P/L; mirror bases (FORGE 10/22 capture). Entry rationale for the USO calls is UNRECOVERABLE (construction rule #20); management-only record, no scoring/sample credit, no execution grade (no same-timestamp quotes). A second 163C STC at $4.50 was Verified Canceled. Tags: POSITION_TRUTH_MISSING narrowed. Lesson: the sale captured a gain on a line whose original card never existed — the result says nothing about the entry process.
