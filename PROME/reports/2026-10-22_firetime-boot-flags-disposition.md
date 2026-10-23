@@ -74,3 +74,33 @@ Dispositioned at `PROME/reports/2026-10-21_firetime-boot-flags-disposition.md` a
 ## Accept
 
 `python3 PROME/tools/firetime_delta.py --log /tmp/prome-boot-b54fbbac/checks/04-firetime-owner-routed-flags-persist-.txt --prune` then `--accept --pointer PROME/reports/2026-10-22_firetime-boot-flags-disposition.md`; result in the boot report and the commit of `PROME/state/firetime_dispositioned.tsv`.
+
+---
+
+# Fourth boot of the day — laptop, Thu 2026-10-22 evening (PROME session prome-e7 / 40ef6293, Claude Code / Fable 5.1)
+
+**Gate log:** `/tmp/prome-boot-40ef6293/checks/04-firetime-owner-routed-flags-persist-.txt` (one-shot gate 19:12 ET). Baseline before this boot: `PROME/state/firetime_dispositioned.tsv` as accepted by prome-25 (third section). The gate reported 47 flags: 7 NEW · 40 persisting · 1 no longer reported. The 6 NEW flags prome-df carried undispositioned (SCRATCH ★ NEXT, 18:4x ET) are among these 7. Each NEW flag was re-read at its artifact (19:22 ET).
+
+## NEW flags (7) — six DONE at the artifact, one ROUTED
+
+| # | Artifact | Flag | Re-read at the artifact | Disposition |
+|---|---|---|---|---|
+| 1 | `PROME/WILL_QUEUE.md` WQ-489 row | DEAD POINTER `workbook/PREDICTIONS.tsv` | PROME's own cell: a desk-relative path with no desk named. The file is `AGENTS/REGINALD/workbook/PREDICTIONS.tsv` (exists; REGINALD 55bcf6317). | **done — pointer qualified in this boot's WILL_QUEUE commit.** |
+| 2 | `PROME/ROSTER.md` § VIRGIL | DEAD POINTER `WILL/private` | VIRGIL's home `WILL/private/fellowship/` is gitignored and desktop-only by design (ROSTER ⑤ DESKTOP-ONLY; `PROME/MACHINE_LOCAL.md` WILL/private row). Absent from the repo on purpose. | **done — allowlisted to 2027-01-20 (`scripts/firetime_allowlist.tsv`, reason cites both rows).** |
+| 3 | `AGENTS/DAEDALUS/runs/2026-10-22_BANK_DESK_REVIEW/REPORT.md` X1 row | DATE DRIFT 2027-01-16 ('Jan 16') | "next dated test ~Jan 16–20 print" = OZK's Q4-2026 earnings window, a forward estimate in a review of OZK's falsification rails, not a mis-year. | **done — VERIFIED no drift (a forward estimate).** |
+| 4 | `AGENTS/DEWEY/output/2026-10-22_hyperscaler-ai-funding-gap-ig-capacity.md` line 324 | DEAD POINTER `scripts/funding_gap.py` | "Promote the scratch funding-gap calculator to a script, `scripts/funding_gap.py` (build gate, Will-greenlit)" — a proposed future file named as a build target. | **done — VERIFIED: a proposal, not a reference.** |
+| 5 | same file, line 161 | DATE DRIFT 2027-01-03 ('1/3') | "Debt covers ~1/3 of 2026 capex" — a fraction. | **done — VERIFIED false positive.** |
+| 6 | same file, line 257 | DATE DRIFT 2026-12-23 ('12/23') | A URL path `articles/2025/12/23/…` — a 2025 publication date inside a link. | **done — VERIFIED false positive.** |
+| 7 | `AGENTS/VULCAN/STATUS.md` | DATE DRIFT 2027-01-10 ('1/10') | No bare `1/10` in the file (`grep -nP "(?<![\d/])1/10(?!\d)"` = 0 hits). The file carries glued word+date tokens (`both11/10`, `ZHAO10/20`, `MOFCOM45/47`, line 93's `11/10BIS/MOFCOM/TSMC`) that break the Output Canon and mis-tokenize for the scanner. VULCAN's artifact. | **routed to VULCAN — packet `AGENTS/VULCAN/inbox/2026-10-22_from-PROME_status-glued-tokens-firetime-flag.md`; fix at its 10/23 post-close wake (L804).** |
+
+## Pruned (1) — the row the gate no longer reports (`firetime_delta.py --prune`)
+
+Named in the gate log; disposition "done: pruned".
+
+## Persisting (40)
+
+Dispositioned at `PROME/reports/2026-10-21_firetime-boot-flags-disposition.md` and the first three sections of this file; not re-read at this boot per WQ-467 C4.
+
+## Accept
+
+`python3 PROME/tools/firetime_delta.py --log /tmp/prome-boot-40ef6293/checks/04-firetime-owner-routed-flags-persist-.txt --prune` then `--accept --pointer PROME/reports/2026-10-22_firetime-boot-flags-disposition.md`; result in the boot report and the commit of `PROME/state/firetime_dispositioned.tsv`.
