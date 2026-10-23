@@ -17,7 +17,7 @@
   "AGENTS/WALTER/tools/phone_scan.py": "5249386c7ca093d2c222ecf691b6b10049d83967423fd358f7f91ac8059262e6",
   "AGENTS/WALTER/tools/signal_read_check.py": "91717b708d94b2e8e452fa108a9c7781515d84131ea6388efbacc33df85b7039",
   "AGENTS/WALTER/tools/version_drift_check.py": "9252e5290bcaf2da5d3cb9561fc0e5ab9e0e77375b50ce841feb5f53538b841b",
-  "AGENTS/WALTER/tools/walter_doctor.py": "5c44fc0be777843f56a884407a70265be245b670bcf796385e4e5ee1729f36f7",
+  "AGENTS/WALTER/tools/walter_doctor.py": "d2da50c551553072bd6ed8208deb159c18048a485e571772c259d956675867dc",
   "AGENTS/WALTER/tools/x_bookmarks_scan.py": "83dbcf7c0ffb28b8b396f5dff8c6d33264006ea3959685ba773d967445f28f26",
   "CLAUDE.md": "b08689789d99bc2ef72a3706866848a58b20fb50fffa71d37128540ea589d577",
   "FORGE/tools/market-data/dashboard.py": "b8271cb66df872c9b36c6a478e529ffa0c58dc09ddeaa4e6c50fb219638a561d",

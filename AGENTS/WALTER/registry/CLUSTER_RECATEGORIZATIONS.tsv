@@ -1,0 +1,3 @@
+# CLUSTER_TAXONOMY § Re-categorization ledger — INDEX placement only; signal files are never edited. Read by tools/gen_board_index.py (fail-closed: from_cluster must equal the signal's cluster: header; to_cluster must be a taxonomy cluster). Will 2026-10-23 chose this mechanism ('Override file').
+signal_id	from_cluster	to_cluster	date	authority	reason
+SIG-W-20261007-013	LABOR_DOWN	CONSUMER_STAGFLATION	2026-10-23	WALTER under CLUSTER_TAXONOMY Re-categorization (existing cluster, no new-cluster sign-off needed); mechanism Will 2026-10-23	LABOR_DOWN is a REGISTRY chain name, not a cluster; Workday 2.5% workforce cut = labor weakness, which CONSUMER_STAGFLATION covers

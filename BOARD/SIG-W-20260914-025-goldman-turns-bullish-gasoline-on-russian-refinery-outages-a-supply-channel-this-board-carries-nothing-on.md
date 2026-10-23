@@ -19,6 +19,9 @@ resources: 1
 safety_net: watch
 word_count: 200
 verdict: "Quantum Commodity Intelligence (2026-09-14): Goldman has turned bullish on gasoline on the back of RUSSIAN REFINERY OUTAGES. A BOARD-COVERAGE GAP, not a price call: a grep of all 969 signals returns ZERO on Russian refinery outages, while the board is simultaneously carrying a live and very granular US products story (Joliet down, diesel retail at a record, the ULSD crack round-tripping 9.1% in a session). The products complex is being read through US supply alone while a second, foreign supply channel is apparently moving it. SECONDHAND: a trade outlet reporting a bank note; WALTER opened neither."
+status: PARTIALLY-CORRECTED
+status_ref: "SELF — in-file CORRECTION block 2026-09-14 ~22:5xZ: the 'ULSD crack collapse' contrast is withdrawn (~93% of the move was the HO=F roll; matched-Oct −$0.79); the do-not-net instruction stands. Delivered then as NOTE-2026-09-14-sig025-ulsd-term-superseded; marker retro-applied 2026-10-23"
+status_date: 2026-10-23
 ---
 
 > ## ✅ UPDATE — 2026-09-14 ~23:1xZ: the 12-cent discrepancy is RESOLVED, and a THIRD roll form was found that the correction below does not cover

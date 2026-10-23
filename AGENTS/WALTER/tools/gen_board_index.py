@@ -128,7 +128,56 @@ def load_signals() -> OrderedDict:
         if s["erratum"] and s["status"] == "PARTIALLY-CORRECTED":
             errors.append(f"{s['file']}: carries BOTH `erratum:` (additive) and `status: PARTIALLY-CORRECTED` "
                           f"(corrective) — FORMAT_SPEC v0.21 permits exactly one; decide which it is")
+    apply_recategorizations(sigs, errors)
     return sigs, errors
+
+# CLUSTER_TAXONOMY § Re-categorization: re-filing "touches INDEX placement only, not signal-file
+# content". Once the INDEX became a projection of the cluster: header (WQ-174) that path no longer
+# existed, so this ledger supplies it (Will, 2026-10-23, "Override file"). Fail-closed: a row whose
+# from_cluster no longer matches the signal's header, or whose to_cluster is not a taxonomy cluster,
+# is a HARD error — a stale re-filing must never silently move or strand a signal.
+RECAT = os.path.join(ROOT, "AGENTS", "WALTER", "registry", "CLUSTER_RECATEGORIZATIONS.tsv")
+RECAT_COLS = ["signal_id", "from_cluster", "to_cluster", "date", "authority", "reason"]
+
+def taxonomy_clusters(path: str = TAXONOMY) -> set[str]:
+    """The canonical numbered table (`| N | **NAME** |`) — the same parse walter_doctor uses."""
+    try:
+        tax = open(path, encoding="utf-8").read()
+    except OSError:
+        return set()
+    return set(re.findall(r"^\|\s*\d+\s*\|\s*\*\*([A-Z][A-Z_]+)\*\*", tax, re.M))
+
+def apply_recategorizations(sigs, errors, path: str = RECAT, clusters: set[str] | None = None) -> None:
+    if not os.path.exists(path):
+        return
+    clusters = taxonomy_clusters() if clusters is None else clusters
+    seen = set()
+    for n, line in enumerate(open(path, encoding="utf-8"), 1):
+        if line.startswith("#") or not line.strip():
+            continue
+        f = [x.strip() for x in line.rstrip("\n").split("\t")]
+        if f == RECAT_COLS:
+            continue
+        where = f"{os.path.basename(path)}:{n}"
+        if len(f) != len(RECAT_COLS) or not all(f):
+            errors.append(f"{where}: needs {len(RECAT_COLS)} non-empty tab-separated fields {RECAT_COLS}"); continue
+        sid, frm, to, date, _authority, _reason = f
+        s = sigs.get(sid)
+        if sid in seen:
+            errors.append(f"{where}: {sid} re-filed twice — one row per signal"); continue
+        seen.add(sid)
+        if s is None:
+            errors.append(f"{where}: {sid} has no BOARD file")
+        elif s["cluster"] != frm:
+            errors.append(f"{where}: {sid} header says cluster `{s['cluster']}`, row says from `{frm}` — stale or wrong row")
+        elif not clusters:
+            errors.append(f"{where}: CLUSTER_TAXONOMY table did not parse — cannot validate `{to}`")
+        elif to not in clusters:
+            errors.append(f"{where}: to_cluster `{to}` is not a CLUSTER_TAXONOMY cluster")
+        elif not re.match(r"^\d{4}-\d{2}-\d{2}$", date):
+            errors.append(f"{where}: date `{date}` is not YYYY-MM-DD")
+        else:
+            s["cluster"], s["refiled"] = to, (date, frm)
 
 def derive_markers(sigs: OrderedDict) -> dict[str, list[str]]:
     """Back-markers: inverted corrects: (from the correcting signal) + the signal's own status."""
@@ -190,6 +239,8 @@ def render_row(s, marks) -> str:
     if len(title) > TITLE_CAP:
         title = title[:TITLE_CAP - 1].rstrip() + "…"
     mk = (" " + " ".join(marks.get(s["id"], []))) if marks.get(s["id"]) else ""
+    if s.get("refiled"):
+        mk += f" 📂 **RE-FILED {s['refiled'][0]}** from `{s['refiled'][1]}` (INDEX placement only; header unchanged)"
     return f"| {s['id']} | {s['date']} | {s['domain']} | {s['precedence']} | {who} | **{title}** {s['confidence']}{mk} | [{s['file']}]({s['file']}) |"
 
 def render(sigs, live_text: str) -> str:

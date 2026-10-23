@@ -1415,7 +1415,7 @@ def check_log_reconcile():
                         ids.add(m.group(1))
                     elif relpath == "routed/delivery_log.tsv" and re.fullmatch(
                             r"NOTE-\d{4}-\d{2}-\d{2}-[a-z0-9]+(?:-[a-z0-9]+)*", sig):
-                        note_rows.append(f"L{n}:{sig}")
+                        note_rows.append((n, sig, (row.get("recipient") or "").strip()))
                     else:
                         malformed.append(f"L{n}:{sig or '<blank>'}")
         except (OSError, csv.Error) as e:
@@ -1458,10 +1458,31 @@ def check_log_reconcile():
             out.append((INFO, f"delivery_log: all {len(deliv)} delivered SIG-ids have a "
                             f"BOARD file (post-6/17 coverage)"))
     if note_rows:
-        out.append((MED, f"delivery_log: {len(note_rows)} non-dispatch NOTE row(s) outside "
-                         "the signal schema, preserved for audit; NOT BOARD-reconciled. "
-                         "Review note-versus-actionability classification; no new note telemetry "
-                         "authorized by this check. These are not malformed SIG ids."))
+        # A one-time classification is recorded per (note_id, recipient) in NOTE_ROWS_REVIEWED.tsv
+        # (2026-10-23). Fail-closed: a missing/unreadable ledger, or ANY NOTE row not in it, keeps
+        # the MED — only the exact reviewed history drops to INFO.
+        reviewed = None
+        rp = WALTER / "registry/NOTE_ROWS_REVIEWED.tsv"
+        try:
+            with rp.open(errors="replace") as f:
+                reviewed = {(r.get("note_id", "").strip(), r.get("recipient", "").strip())
+                            for r in csv.DictReader((l for l in f if not l.startswith("#")),
+                                                    delimiter="\t", quoting=csv.QUOTE_NONE)
+                            if (r.get("classification") or "").strip()}
+        except (OSError, csv.Error):
+            reviewed = None
+        open_rows = [r for r in note_rows if reviewed is None or (r[1], r[2]) not in reviewed]
+        if open_rows:
+            out.append((MED, f"delivery_log: {len(open_rows)} non-dispatch NOTE row(s) outside "
+                             "the signal schema with no classification in registry/NOTE_ROWS_REVIEWED.tsv"
+                             f"{' (ledger missing or unreadable)' if reviewed is None else ''} — "
+                             + ", ".join(f"L{n}:{s}→{r or '?'}" for n, s, r in open_rows[:4])
+                             + ("…" if len(open_rows) > 4 else "")
+                             + ". Review note-versus-actionability; no new note telemetry authorized "
+                             "by this check. These are not malformed SIG ids."))
+        else:
+            out.append((INFO, f"delivery_log: {len(note_rows)} non-dispatch NOTE row(s), all classified "
+                              "in registry/NOTE_ROWS_REVIEWED.tsv; preserved as history, NOT BOARD-reconciled"))
     return out
 
 
