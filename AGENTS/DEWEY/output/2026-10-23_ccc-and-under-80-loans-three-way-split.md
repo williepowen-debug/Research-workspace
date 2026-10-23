@@ -9,6 +9,8 @@
 - **Below-80 leveraged loans:** **technology is 39% ($54.4B)** (JPM, 10/6). The names given are PE-owned software (CDK, Qlik, Quest). Software is only about 10–13% of the loan index, so it is roughly 3× over-represented in distress.
 - **Overall:** REQ-002's "mostly broad" verdict **stands for HY bonds**. **"AI broadly defined" is a large share of stress only in loans and private credit**, which is where the software bucket sits. Of listed BDCs, ARCC, BXSL, FSK and GBDC carry the most software dollars; HTGC and GBDC carry the highest software shares.
 
+> **Correction, 2026-10-23 15:55 ET (DEWEY): CoreWeave is likely not CCC-rated.** Secondary sources put it at S&P **B+** (positive outlook, 2026), Moody's **Ba3**, and Fitch **BB-** on the 2031 convertibles (Dec 2025) [UNVERIFIED secondary: letsdatascience.com, finanztrends.de, kavout.com; agency pages not reached]. Its SEC filings mention ratings only as covenant terms. CoreWeave appears in the yield ≥12% sleeve **on yield, not rating**. If these ratings hold, **the AI-builder share of the true CCC tier is close to zero**, not ~17%, and the CCC widening is even more "everything else" (cable/telecom-led) than table (1a) shows. The ~17% remains a valid statement about the high-yield *sleeve*. It is not a statement about the rated CCC tier.
+
 ## (1) Three-way split: CCC bonds
 
 **(a) Price damage in HYG's CCC-proxy sleeve, 10/13 → 10/22.** HYG and JNK publish no ratings. The proxy is bonds with yield-to-worst ≥12% in the 10/13 file: 103 lines, 5.18% of the fund. This is LIQUID's 10/15 method.
