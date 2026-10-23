@@ -75,6 +75,13 @@
 
 **Pattern across the five:** a report changes a judgment most cleanly when the recipient converts it into a **numbered artifact**: a re-weight line, a KB row with the base rate, a registered prediction (R74, R55). **The losses happen at the conversion step:** the caveat that bounded the finding is the part that drops (R53; and DEWEY's own 10/23 synthesis of R55 and R53). That is the fleet's anti-laundering rule failing *between* desks, not inside one report.
 
+## 5. Addendum 2026-10-23 19:24 ET: full-text validation check NOT DONE (session ended)
+The outside reviewer's third ask was a random sample checked against the **full reports** by a reader who did not write the rubric. It was started and **not completed**: the reader was stopped for a machine switch before it wrote any result. **Until it runs, quote the 49–57% only as a headline-level, two-rater figure.**
+- **Sample** (fixed seed 20261023, 10 of R07–R93): R09, R32, R37, R39, R40, R52, R53, R59, R75, R80. R53 is a case discussed in this report; the seed drew it, it was not chosen.
+- **Rubric v2** splits *hypothesis supported?* from *risk higher/lower?* (fixes ambiguity 1) and adds a headline-fidelity code.
+- **Saved for the rerun:** `AGENTS/DEWEY/research/2026-10-23_meta-review/` (RUBRIC.md, RUBRIC_v2.md, sample10.tsv, both raters' codes).
+- **To run:** a fresh reader reads only the 10 report files plus RUBRIC_v2, writes one table, and the result is added here as a second addendum.
+
 ## Counter-Evidence
 - **Against the observability gap mattering:** every B-case is either contingent (B1), a share not a probability (B2), contested inference (B3), absorbed by a federal backstop (B4), or unobserved (B5). On the current evidence the gap could be harmless, with public prices catching what matters in time. The fleet has no test of lead/lag.
 - **Against the deflation share meaning much:** commissions are selected for alarm, so a high deflation rate is expected even from neutral research. The rate also mixes questions of very different cost.

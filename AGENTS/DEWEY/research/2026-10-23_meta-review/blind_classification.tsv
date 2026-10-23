@@ -1,0 +1,94 @@
+id	outcome	premise_number_wrong	confidence	reason
+R01	DESCRIPTIVE	N	low	Market snapshot base case; no premise tested in headline
+R02	DESCRIPTIVE	N	low	Margin/revenue mechanics; headline does not address contagion question
+R03	DESCRIPTIVE	N	high	Event and analyst-reaction summary
+R04	DESCRIPTIVE	N	high	Quantification table of Hormuz volumes
+R05	DESCRIPTIVE	N	low	Historical pattern list; no specific claim tested
+R06	DESCRIPTIVE	N	low	Narrative of fraud incident; no verdict on concern
+R07	CONFIRMED	N	high	Timing defensible; leading edge earlier, already flickering
+R08	CONFIRMED	N	high	Vendor financing pervasive, confirmed by primary deal terms
+R09	DEFLATED	Y	high	Contraction claim not reproducible; superseded GDP vintage; ex-AI positive
+R10	MIXED	Y	low	Inflecting on rate-of-change, normalizing on level; surge is vintage artifact
+R11	DEFLATED	Y	high	Concentrated not systemic; $1.03T burden mis-framed as debt
+R12	CONFIRMED	Y	low	Widening genuine, not DISH artifact; DISH-left claim false
+R13	CONFIRMED	N	low	Reopening stalled/reversed; fleet figures unverified rather than wrong
+R14	DEFLATED	Y	high	Energy OAS 164bps, no threshold crossed; cited 285bps contradicted
+R15	DEFLATED	N	low	Slide reads idiosyncratic; tripwire is contract cancellation
+R16	CONFIRMED	N	high	Yes, trigger needs funding pre-emption gate
+R17	MIXED	N	high	Net demand-positive under ESR, but forced-seller survives on J-GAAP
+R18	MIXED	N	low	Inputs disinflationary, but two live upside tails prevent stand-down
+R19	DEFLATED	N	high	Creep real but concentration-driven, not broad
+R20	DEFLATED	Y	low	Bank leg quantitatively small; counter-evidence to Stage-3 premise
+R21	CONFIRMED	N	low	Calm-repo hypothesis survived active disconfirmation attempt
+R22	DESCRIPTIVE	N	low	Daily spread history recovered; lead/lag timing described
+R23	DEFLATED	N	high	Gate does not generalize; fails both tested episodes
+R24	DESCRIPTIVE	N	high	Header-only document/legislative research
+R25	DESCRIPTIVE	Y	high	Primary-source verification corrects $42B and 80% figures
+R26	DEFLATED	Y	high	BRK-25 does not fire; 0.85 was price/NAV misread as bid
+R27	DEFLATED	N	low	Deal confirmed but systemic risk still pre-mortem, not event
+R28	NULL	N	high	Map cannot be populated from public data
+R29	NULL	N	high	Mechanical cushion cannot be quantified from public data
+R30	MIXED	N	high	Explicit split: credit loss absorbed, liquidity drain real
+R31	DEFLATED	Y	high	Founding SDI-bankruptcy metaphor largely a myth
+R32	DEFLATED	N	high	Sovereign transmission chain fails at transmission step
+R33	CONFIRMED	N	high	Numbers support direction-flip premise
+R34	DEFLATED	Y	low	Both headline framings wrong, though each hides real signal
+R35	DEFLATED	Y	low	Breach plausible but not from SL cascade; denominator shrink drives rise
+R36	DESCRIPTIVE	N	high	Vendor/metrics catalog (tooling)
+R37	MIXED	N	high	Squeeze real; distinct STR channel only partially supported
+R38	DEFLATED	N	low	Oversupply real but concentrated, bifurcating; catalog-like
+R39	MIXED	Y	low	Kill survives/hardened but parent evidence falsified; one bank stays on
+R40	DESCRIPTIVE	N	low	Headline shows only setup/kill-check; no verdict visible
+R41	MIXED	Y	high	Deferral real and growing, framing corrected, but kill survives on magnitude
+R42	DEFLATED	Y	high	No MIP-cut threat; historical premise wrong
+R43	DEFLATED	Y	high	Credit-only phantom debt order of magnitude smaller; 20-30% unsupported
+R44	MIXED	Y	low	Headline $250B guarantee unfiled; but rating threshold already crossed
+R45	CONFIRMED	N	high	Formulation correct; magazine weeks vs replenishment years
+R46	CONFIRMED	N	high	Reversion no longer hypothetical; Amazon shortened lives
+R47	DEFLATED	Y	high	Masking signature mostly mechanical; unmaskable flow flat
+R48	CONFIRMED	Y	low	Falling-TTF puzzle is window artifact; picture worse
+R49	CONFIRMED	N	low	Non-transmitting hypothesis confirmed on both benchmarks
+R50	MIXED	N	high	Wedge below kill and not widening; deeper concessions, worse outcomes
+R51	CONFIRMED	Y	high	Checkpoint sharper and earlier; fleet date wrong
+R52	CONFIRMED	N	low	Process change: reported delinquency rose as exits slowed
+R53	CONFIRMED	N	high	Charged-off cohort stopped paying voluntarily
+R54	DESCRIPTIVE	N	low	Headline is header/erratum only; no verdict visible
+R55	CONFIRMED	N	low	Support ballooned, protection degraded; revenue share not computable
+R56	DEFLATED	Y	high	Measurement/substitution artifact; panel figure not matched by BEA
+R57	DESCRIPTIVE	N	high	Primary document pull
+R58	DEFLATED	N	high	Style effect plus AZO stall, not consumer-cohort effect
+R59	CONFIRMED	N	low	Refreshed storage instrument on MISS side of 80% line
+R60	NULL	N	low	Instrument real; net supply not yet answered
+R61	MIXED	Y	low	Real channel opened, overturns reshuffle premise; delivery unproven
+R62	NULL	N	low	Balances disclosed; counterfactual needed to score kill unavailable
+R63	NULL	N	high	No additional delivery authenticated; evidence limit
+R64	NULL	N	high	Delivered net addition unresolved
+R65	NULL	N	low	Only study agreement found; project agreements unknown
+R66	NULL	N	low	P&A not published; absence not proof
+R67	DESCRIPTIVE	N	high	Design research brief
+R68	DESCRIPTIVE	N	low	Rule mechanics described; deposit-flight question unresolved in headline
+R69	MIXED	N	low	Concentration real; no compromise, loss, or run observed
+R70	DEFLATED	N	high	Screwworm not in beef prices; small CPI effect
+R71	DEFLATED	N	low	Clean credit record; stress narrower, market access only
+R72	CONFIRMED	N	low	All five run funding gaps filled by bonds
+R73	DESCRIPTIVE	N	high	Historical base-rate table
+R74	DEFLATED	N	high	Pattern shows no lift at asked horizon
+R75	DEFLATED	N	high	No past wave caused run, failure, or payment outage
+R76	DEFLATED	N	high	Legacy tech widespread but not the breach vector
+R77	MIXED	N	low	Clean major record, but steady smaller incidents
+R78	DEFLATED	N	high	Bank products share no traits of failing classes
+R79	DEFLATED	N	low	None in KEV, no bank compromise; coverage thin
+R80	DEFLATED	N	high	Row stays NOT-FIRED, attempts only
+R81	NULL	N	high	Three of four questions unanswered at primary
+R82	DEFLATED	N	low	Precaution, no compromise reported; not ruled out
+R83	MIXED	N	high	Volume surging, exploitation speed flat
+R84	DEFLATED	N	high	Chrome-only event; other trust stores already acted
+R85	DEFLATED	N	high	Attribution alone would not allow most denials
+R86	MIXED	N	high	Confirmed at participant level, contained at market level
+R87	MIXED	N	low	Wide reach but little observed traffic, poorly observed
+R88	DEFLATED	N	low	Mostly broad; AI hot spot too small to drive index
+R89	MIXED	N	high	CCC damage non-AI; loans tech heavily over-represented
+R90	DEFLATED	N	high	Window narrowed and expensive, not shut
+R91	NULL	N	low	No document for replacement mechanism found
+R92	CONFIRMED	N	high	Concentrated in cable/telecom/media, no AI
+R93	DEFLATED	N	high	AI role vendor-attributed, unconfirmed; no speed effect
