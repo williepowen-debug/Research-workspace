@@ -1,0 +1,14 @@
+{
+  "schema": 2,
+  "staged_at": 1792714840.3373923,
+  "items": [
+    {
+      "id": "2113389627629502972",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": "BOARD/SIG-W-20261022-042-florida-home-prices-below-peak-zillow-cape-coral-minus-19-metro-minus-22-city-north-port-minus-16-naples-minus-12-tampa-minus-8-miami-minus-4-gulf-coast-deepest-CORAL.md",
+      "ask_user": null
+    }
+  ],
+  "stage_id": "49a5d41388be4623b4b47daeca3894d6"
+}

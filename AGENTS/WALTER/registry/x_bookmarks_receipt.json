@@ -1,39 +1,25 @@
 {
   "kind": "marked",
-  "checked_at": "2026-10-22T23:37:48Z",
-  "items": 4,
+  "checked_at": "2026-10-23T00:21:24Z",
+  "items": 1,
   "scan": {
-    "checked_at": "2026-10-22T23:34:25Z",
-    "head_checked_at": "2026-10-22T23:34:24Z",
+    "checked_at": "2026-10-23T00:20:40Z",
+    "head_checked_at": "2026-10-23T00:20:39Z",
     "head_checked_this_run": true,
     "incomplete": false,
     "attempts": 2
   },
   "review_recorded": true,
   "read_counts": {
-    "fully_read": 3,
-    "partly_read": 1
+    "fully_read": 1
   },
   "dispositions": {
-    "FOLD": 2,
-    "DISPATCH": 2
+    "DISPATCH": 1
   },
   "follow_ups": [
     {
-      "id": "2113399415268372778",
-      "ref": "BOARD/SIG-W-20261022-037-railway-cloud-platform-breach-customer-secrets-decrypted-deploys-paused-says-series-targets-ai-inference-keys-barchart-hardens-axios-agents-claim-CYPHER.md"
-    },
-    {
-      "id": "2113325263157395456",
-      "ref": "BOARD/SIG-W-20261022-037-railway-cloud-platform-breach-customer-secrets-decrypted-deploys-paused-says-series-targets-ai-inference-keys-barchart-hardens-axios-agents-claim-CYPHER.md"
-    },
-    {
-      "id": "2113025284148715845",
-      "ref": "BOARD/SIG-W-20261022-037-railway-cloud-platform-breach-customer-secrets-decrypted-deploys-paused-says-series-targets-ai-inference-keys-barchart-hardens-axios-agents-claim-CYPHER.md"
-    },
-    {
-      "id": "2113027929009467704",
-      "ref": "BOARD/SIG-W-20261022-038-iran-security-official-via-fars-us-political-targets-legitimate-IF-new-war-phase-conditional-dropped-in-relay-preemptive-strike-line-unsourced-FALCON.md"
+      "id": "2113389627629502972",
+      "ref": "BOARD/SIG-W-20261022-042-florida-home-prices-below-peak-zillow-cape-coral-minus-19-metro-minus-22-city-north-port-minus-16-naples-minus-12-tampa-minus-8-miami-minus-4-gulf-coast-deepest-CORAL.md"
     }
   ],
   "requests": []
