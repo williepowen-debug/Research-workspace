@@ -1,6 +1,6 @@
 # DAEDALUS STATUS
 
-**Last Updated: 2026-10-22 — Bank-cluster desk review (REGINALD/OZK/WAL/FLG) for Will; Claude Code, Opus 5.5.**
+**Last Updated: 2026-10-23 — ISHM (industrials desk) reviewed, built and registered; CYPHER registration closed; own-file sweep. Claude Code, Opus 5.5.** Pre-sweep STATUS preserved verbatim at `archive/STATUS_2026-10-23_before_sweep.md` (crc32 300895856).
 
 **Current judgment:** the architecture is coherent; current-state reconciliation and maintenance have lagged new builds. Preserve evidence and rules, reduce recovery ambiguity, and repair specific tooling gaps. Assessment: `runs/2026-10-20_ORGANIZATION_REVIEW.md`. **Recorded grade L4/M retained**, current bounded PR8 row re-cut October21; no L5 adjudication; AEOLUS whole profile refreshed October 21. Authority remains own directory/root scripts; other desks require express scope and idle target.
 
@@ -10,8 +10,16 @@ Prior STATUS is preserved byte-for-byte at `archive/2026-10-20_ORGANIZATION_CLEA
 
 October20 follow-through: scorecard/MARCO check complete; L736 writer repair reviewed; EVOLUTION rotated verbatim below stop threshold. That partial detection is superseded by October21 PR8/Staleness6 disposition records; the October20 record remains historical.
 
+00. **Done 2026-10-23: ISHM built** (US industrial / manufacturing-cycle desk, Tier-2, print-driven).
+    - **Path to the build:** WALTER's proposal → DAEDALUS review, four fixes, v2 cleared 09:31 ET (`design/2026-10-23_INDUSTRIALS_DESK_PROPOSAL_REVIEW.md`) → WQ-506 RULED APPROVE A (Will 09:35 ET, "yes approved go ahead") → named ISHM (Will 09:36–09:37 ET).
+    - **Commits:** scaffold `080fbc7d6` (18 files; 37/37 drills; 3/3 mutations caught; real boot rc 1, all true positives) and catalysts + DATA_ROUTES `b7ea7e120` (32 rows, 20 PRIMARY; ISM and S&P Global calendars blocked, so SECONDARY).
+    - **Registration:** ROSTER Tier-2 by PROME `10d1de252`; SUMMONS_LEDGERS registered by PROME; FLEET_MAP L0/M + directory committed; `corrections_boot_check ISHM` rc 0.
+    - **Packets:** WATT ASK (grid-equipment figure — WATT's charter does not claim it, its KB reads it; PAT-189) and CARL INFO (four seams), both committed.
+    - **Build record:** `builds/ISHM_BUILD_2026-10-23.md`.
+    - **Still open:** bellwether earnings rows (helper verifying IR dates); WATT reply; WALTER domain code + routing row (Will's sign-off); **WQ-507** (Will: shared surfaces + HENRY's `<47` trigger); first live session (PROME spawns).
+0a. **Done 2026-10-23: CYPHER registration closed.** FLEET_MAP L2/M (`57d0ffca1`); `corrections_boot_check CYPHER` now evaluates — rc 1 on COR-20261022-48, which is CYPHER's to receipt.
 0. **Done 2026-10-22: bank-cluster desk review** (Will-commissioned 11:16 ET) — four Opus readers, 82 findings, 10 cross-cutting (X1 no dated falsification after Q3 at 3 of 4 desks; X4 boots blind to `inbox/WALTER/`). `runs/2026-10-22_BANK_DESK_REVIEW/REPORT.md`; packet `PROME/inbox/2026-10-22_from-DAEDALUS_bank-cluster-desk-review.md`. Two time-sensitive items (FLG surprise threshold, WAL unprocessed signal) consumed by PROME 11:27 ET. Full packet CONSUMED by PROME 11:3x ET (verified at artifacts): X1+X4+X8 → DOCKET L793 (2026-10-29, PROME verifies at each desk's first wake after my X5/X6 batch); X7 → WQ-484 to Will, rec A — **RULED A by Will 12:11 ET in this session ("yes make OZK and WAL report into REGINALD"), PROME recorded it and applied `_NETWORK.md` L86–87 as directed edges (8ebc7e0a7, verified on origin); my batch adds a REGINALD consume/ACK step for OZK/WAL output**; REGINALD 10/13 outbox gap confirmed, late-consume record `PROME/inbox/processed/2026-10-22_PROME_late-consume_REGINALD-2026-10-13-outbox-packets.md`. FLEET_MAP rows re-cut, levels unchanged. **X5/X6 batch DELIVERED 12:2x ET by Will's direction (12:26 ET, "direct the agents directly"):** four inbox packets 888fe9a50 + doorbells to reginald-c1/ozk-0b/wal-b5/flg-45 + PROME informed; desks report to PROME citing L793; consumption not yet observed. **Still owed from it:** carry the lesson that a completion record goes to `PROME/inbox/`, not only the outbox; also carry WQ-485 A (Will 12:10 ET: ARGUS once per day at the last Standard closeout; contract classifies only PENDING foreign paths) where it touches desk text; fleet-tool fixes DONE 2026-10-22 (8b1012baf: ledger_staleness rule 11 + self-flag, selftest 40/40, 877-surface diff 0 flips; read_cap_check locative-top + enumeration chain + leading-verb step, selftest 131/131, heuristic fleet diff only WAL MEMORY.md added); NEW owed: `scripts/claim_check.py` counts an unsupported-suffix path as a clean file (HAWK reader C repro). Own doc-retirement checkpoint DONE early (41d249ce5: 11 moved, 16 kept, README). Scorecard (window ends Fri 10/23) and YUR-F01 (YURI can still make calls through 10/24) NOT run early — grading before the window closes would grade an incomplete window. **Desk L793 results verified at artifacts:** WAL 1d4d4210a, REGINALD f8405c6f2/55bcf6317 (+3 prediction drafts; DAEDALUS advised approve D1/D3, revise D2; Will approved all three 13:36 ET → REG-28/29/30, WQ-489 RECORD, verified at boot 18:1x ET), FLG b0987a2a5; OZK L793 CLOSED 4e31e34d3 (all four desks done; ⚠️ side effect of my batch: all four charters now past the 75% rotation trigger — OZK 31,456 B (97%), WAL 28,994, FLG 28,795, REGINALD 24,887 — hot/cold charter split owed at each desk's next round, packeted to PROME; recommended to Will that desk predictions need no per-row approval unless a trade or gate depends on them — awaiting his word; open residue: FLG post-Q3 kill-rail re-derivation, WAL charter items awaiting Will in-window, OZK SCENARIOS price ranges, READS rows with PROME) under the normal Will-visible batch.
-0b. **Done 2026-10-22 evening: CYPHER built** (cyber → markets desk; Will 17:04 ET to WALTER, name 18:19/18:2x ET, Tier-2 18:2x ET to DAEDALUS). Scaffold `18770981e` (14 files); build record `builds/CYPHER_BUILD_2026-10-22.md`; 22/22 boot.py drills, real boot rc 1 (one true positive). Registration changelist → `PROME/inbox/2026-10-22_from-DAEDALUS_CYPHER-built-registration-changelist.md`; routing boundaries → WALTER inbox; both doorbelled. **Owed by DAEDALUS:** FLEET_MAP row + directory regen AFTER PROME's ROSTER row (PAT-047), then re-run `corrections_boot_check CYPHER` (CANNOT-EVALUATE until then). Owner boundary packets deferred to CYPHER's first session by charter (named deferral). **Parity pass (Will 18:4x ET):** VX.tsv (9 vectors, UNSCORED by design) + FLOW.tsv (19 mechanisms from DEWEY) + shipped `scripts/test_boot.py` (25 tests, mutation-checked) + charter split to 22,775 B (70%); build record §5. WALTER's CYPHER routing LIVE — 57dfdc4da verified on origin (ROUTING_TABLE v0.45 `CYBER` row, FORMAT_SPEC v0.26).
+0b. **Done 2026-10-22 evening: CYPHER built** (cyber → markets desk; Will 17:04 ET to WALTER, name 18:19/18:2x ET, Tier-2 18:2x ET to DAEDALUS). Scaffold `18770981e` (14 files); build record `builds/CYPHER_BUILD_2026-10-22.md`; 22/22 boot.py drills, real boot rc 1 (one true positive). Registration changelist → `PROME/inbox/2026-10-22_from-DAEDALUS_CYPHER-built-registration-changelist.md`; routing boundaries → WALTER inbox; both doorbelled. **DONE 2026-10-23 (item 0a):** FLEET_MAP row + directory regen after PROME's ROSTER row; `corrections_boot_check CYPHER` now evaluates. Owner boundary packets deferred to CYPHER's first session by charter (named deferral). **Parity pass (Will 18:4x ET):** VX.tsv (9 vectors, UNSCORED by design) + FLOW.tsv (19 mechanisms from DEWEY) + shipped `scripts/test_boot.py` (25 tests, mutation-checked) + charter split to 22,775 B (70%); build record §5. WALTER's CYPHER routing LIVE — 57dfdc4da verified on origin (ROUTING_TABLE v0.45 `CYBER` row, FORMAT_SPEC v0.26).
 1. **Next: HOMER whole-profile refresh**, followed by WAL, BROCK, CREED, REGINALD, FALCON and MIDAS. AEOLUS (10/21) and HAWK (10/22, `runs/2026-10-22_HAWK_REFRESH.md`, owner packet in HAWK inbox; no independent final reader yet) are complete; seven of the accepted nine remain. Preserve full read/review scope and the CREED launch restriction.
 2. **Completed work:** October 20 organization cleanup, October 21 PR8/Staleness6 bounded maintenance, check-register review and RED duplication census. Do not repeat these as unfinished work. Delivery: `runs/2026-10-21_DELIVERY.md`; cleanup: `runs/2026-10-20_ORGANIZATION_CLEANUP.md`.
 3. **Owner follow-through:** L530, L628 and L748 are installed; CATO's L628 applied-result read remains pending. AEOLUS owner repairs are separately packeted, not completed by its profile refresh. Calendar tooling remains on-demand.
@@ -52,7 +60,12 @@ October20 follow-through: scorecard/MARCO check complete; L736 writer repair rev
 ## Conditional seats and other owners
 
 - **L757 (next production review):** firetime false-positive classes — carried to the next Production Review, not started 10/22. **L768 (2026-10-25):** firetime NEW-vs-PERSISTING split disposition — carried to the 10/25 backlog/retirement sitting.
-- **Inbox pending (read 10/22, not started):** PROME WQ-480 NEXUS charter over-cap → PR#8 packet line citing WQ-480 + D:L470; HANS 10/21 falsification#4 + HNS-09 delivery → re-cut HANS row at next review. Older packets already dispositioned in this page; not yet moved to processed/.
+- **Inbox: EMPTY after the 2026-10-23 sweep** (13 packets filed to `processed/`). Dispositions:
+  - HANS FLEET_MAP row re-cut (L5/H retained; HNS-09 grade 10/28 is the SUSTAIN test).
+  - L499 Class 2 pointer added to STATE_VOCABULARY. The two residue answers went to PROME (`PROME/inbox/2026-10-23_from-DAEDALUS_L499-class2-pointer-and-two-residue-answers.md`).
+  - CYBER group: PROVISIONAL → canonical, noted in the CYPHER build record §6.
+  - YUR-F01: PROME accepted the interpretation; grade on 10/24.
+  - **WQ-480 NEXUS charter over-cap is CARRIED to the next Production Review** (PR#8 had closed 10/21 before it arrived). That review's packet cites WQ-480 + D:L470 and recommends hot/cold split vs a rule-20 spawn-mode clause.
 
 - **L440 October25:** shared dead-prefix constant/control role; PROME owns its repair sitting. **L734 October21:** optional parser-contract reader. **L661 October23:** optional N3 token registration, no automatic new work.
 - **L655/L664:** L655/L664 remain open. PROME disclosed exposure to findings; organization counterpart must be a fresh reader at its scheduled slot; two helpers and Will-relayed feedback do not establish an uncontaminated PROME blind read.
@@ -64,9 +77,33 @@ October20 follow-through: scorecard/MARCO check complete; L736 writer repair rev
 - Informed-only or contextual: **L473/L504/L557/L561/L562/L581/L646/L735/L737**. L737 suite failures remain PROME's; conservative parser may require acknowledgment but creates no writer duty. NEXUS blind commission#2 scheduling remains PROME's; sealed material stays sealed. CREED WQ-100, OSPREY Channel3, NEXUS rotation, HANS rotation condition remain owner watches. WALTER six doorbells closedSeptember25; no resend.
 - WQ-374 helper/registrar proposal DEFERRED pending charter consolidation; no implementation owed. L285 ladder N/A encoded, SL-6/A/B encoded; L593 repair done; L658 resolved; no obsolete encode/apply instruction reopened. Detailed history and original approval text remain in archived STATUS and linked records.
 
-## BOTTOM LINE — 2026-10-22
+## BOTTOM LINE — 2026-10-23
 
-**WORK:** Bank-cluster review and its L793 batch complete (all four desks verified). Evening, on Will's word 17:41 ET: four fleet-tool defects fixed (8b1012baf), own doc-retirement checkpoint run (41d249ce5), HAWK whole profile refreshed with owner packet. Late evening, on Will's word via WALTER and in this terminal: **CYPHER desk built** (`18770981e`), then a parity pass on Will's word (`191ec1408`: convergence matrix unscored by design, transmission map, shipped tests, charter split to 70%). Scorecard and YUR-F01 deliberately held to their dated windows (10/23, 10/24).
-**CHECKS:** Tool fixes watched failing then passing on their own repros; selftests 40/40 and 131/131; fleet diffs: 0 is_frozen flips over 877 surfaces. CYPHER: 25/25 shipped boot tests (mutation-checked), live KEV and EDGAR legs with positive controls, read_cap rc 0; corrections_boot_check CANNOT-EVALUATE until registered. HAWK profile has no independent final reader yet. Closeout gate result in the commit receipt.
-**DELIVERY:** Commits pushed with safe-push CONFIRMED receipts. HAWK packet committed to its inbox; CYPHER registration packet (PROME) and routing packet (WALTER) committed and doorbelled; WALTER's routing row VERIFIED on origin (57dfdc4da); PROME's ROSTER row not yet observed.
-**OPEN:** CYPHER FLEET_MAP row after PROME's ROSTER row, and CYPHER's first session (PROME schedules; routed cyber items queue in its inbox until then); claim_check.py unsupported-suffix false-clean; FLG/OZK READS attestation rows (desks/PROME); desk charter hot/cold splits; Will's word on WAL charter items and the prediction-approval rule; HOMER profile next; scorecard October23; YUR-F01 October24.
+**WORK:** Done on Will's word in this terminal:
+- Industrials proposal reviewed with WALTER in one round, then cleared.
+- **ISHM desk built** (`080fbc7d6` + `b7ea7e120`) and registered in CYPHER order, with PROME and WALTER coordinated directly.
+- CYPHER registration closed (`57d0ffca1`).
+
+Own-file sweep: inbox emptied (13 filed), HANS row re-cut, L499 pointer + answers, PAT-189 logged, FLEET_MAP_HISTORY repaired (8 tab-split 8/28 rows rejoined, content kept). Session active.
+
+**CHECKS:**
+- ISHM: 37/37 drills; 3/3 mutations caught; real boot rc 1, all true positives; read_cap rc 0 (charter 68% of budget); claim_check clean; corrections rc 0.
+- The scanner says "no conv-matrix" despite VX.tsv. That is a form limit, not a missing matrix.
+- **DUE and not run this session:** coordination scorecard (window closes today), Harness Audit (+18d), profile-refresh queue (+15d, RESOLVE_BY passed 10/15), surfaces-currency (+8d), shared-guard-standard (+4d), H2 as-made audit (RESOLVE_BY passed 10/21).
+- Closeout gate not yet run.
+
+**DELIVERY:** All commits local on master; **not pushed**. Push happens at closeout via safe-push. Consumption:
+- PROME consumed the ISHM registration (ROSTER `10d1de252`, SUMMONS, WQ-507 raised).
+- WALTER received both messages; its v2 shows the review applied.
+- WATT and CARL packets: delivered, not yet consumed.
+
+**OPEN:**
+- Bellwether earnings rows for ISHM (helper running).
+- WATT ASK reply.
+- WQ-507 (Will).
+- WALTER routing row (Will's sign-off).
+- ISHM and CYPHER first-session follow-through.
+- Scorecard today; YUR-F01 10/24; backlog/retirement dispositions 10/25.
+- HOMER profile next.
+- `claim_check.py` unsupported-suffix false-clean.
+- Desk charter hot/cold splits (DOCKET L810).

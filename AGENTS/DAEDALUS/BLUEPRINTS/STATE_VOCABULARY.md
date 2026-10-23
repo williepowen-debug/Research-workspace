@@ -49,7 +49,7 @@ Role labels declaring what a surface IS, joining the banner family that declares
 | `FIRED` | Condition met (carry the date + level: `FIRED 7/28 @ 281bp`) |
 | `NOT-FIRED` | Evaluated, condition not met. **Hyphenated — one spelling.** (Chosen because the blueprint's donor triad, market-agent §4/HENRY, already writes `FIRED / NOT-FIRED`) |
 | `STOOD-DOWN` | Deliberately disarmed (carry the ruling). Distinct from NOT-FIRED |
-| `CANNOT-FIRE` | **Evaluated and found UNGRADEABLE: at least one leg has no metric surface / no producer** — distinct from `NOT-FIRED` (tested, condition not met). A conjunctive gate renders `CANNOT-FIRE` if its WEAKEST leg does; per-leg, never per-gate (Falsification #2 L-31; AEOLUS exemplar) |
+| `CANNOT-FIRE` | **Evaluated and found UNGRADEABLE: at least one leg has no metric surface / no producer** — distinct from `NOT-FIRED` (tested, condition not met). A conjunctive gate renders `CANNOT-FIRE` if its WEAKEST leg does; per-leg, never per-gate (Falsification #2 L-31; AEOLUS exemplar). Unreachable instrument: `FORGE/PREDICTION_DISCIPLINE.md` § Grading & re-marking, WQ-298 ③ bullet (L499, d3ce34548) |
 | `UNOBSERVABLE` | Spec sound, instrument exists, **the world may never emit the observable** (a disclosure a filer need not make, a print a source stopped publishing) — FORUM-5 deferral, BRK-25 class, DOCKET row 188. Distinct from `CANNOT-FIRE` (we cannot measure) |
 | `CONTESTED` | A leg ANOTHER desk owns is under dispute — not down, not fired; carry the adjudicator + review date (LIQUID X1 / BROCK, DOCKET 8/27 review 2026-09-15). The honest state of a disputed leg is never `CANNOT-FIRE` (PROME 8/27 correction, verified at LIQUID's retraction) |
 

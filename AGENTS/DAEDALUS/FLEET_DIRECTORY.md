@@ -57,7 +57,7 @@ WF source: `/home/willi/Research-Intake/scripts/newsweep_config.py` · SHA256 `4
 | ISHM | Market | L0 | M | 2026-10-23 | US industrial / manufacturing-cycle desk — is the factory upturn real end-demand or borrowed (tariff front-running, AI/defence capex, inventory rebuild), and when does it roll over; surveys (ISM, S&P Global PMI, five regional Feds), hard data (IP/CU, durables and core capex, factory orders), freight volumes ex-tankers, eight frozen bellwethers (CAT · DE · HON · GE Aerospace · PH · MMM · EMR · UNP); standing jobs J1 core capex vs VULCAN, J2 freight vs LIQUID/RED | L1 at first owner session that states a current judgment from read prin… | — |
 | CREED | Market | L4 | H | 2026-10-21 | National CRE / CMBS | Preserve current-judgment/date consistency and full-manifest read-cap g… | 36 |
 | DEWEY | Utility | L4 | M | 2026-10-21 | Deep on-demand research | Conf-H requires a full reviewer read of substantive PRODUCES/CONSUMED B… | n/a |
-| HANS | Market | L5 | H | 2026-10-21 | Europe macro (PMI→ISM lead, ECB/Fed divergence, EU UST custody) — US-market lens | SUSTAIN L5 review at actual named Q3 event, requiring the ex-ante HNS-0… | 10 |
+| HANS | Market | L5 | H | 2026-10-23 | Europe macro (PMI→ISM lead, ECB/Fed divergence, EU UST custody) — US-market lens | SUSTAIN L5 review at the HNS-09 Q3 grade (first results 2026-10-28): gr… | 10 |
 | OTTO | Market | L5 | M | 2026-10-21 | Auto-industry fraud & stress | Retain L5/M bounded pending full source-cell transition verification | 9 |
 
 ## ⚪ DORMANT — revive only on explicit need
@@ -71,7 +71,7 @@ WF source: `/home/willi/Research-Intake/scripts/newsweep_config.py` · SHA256 `4
 
 | Agent | Class | Lvl | Cf | Scored | What it does | Missing / next | WF |
 |---|---|---|---|---|---|---|---|
-| DAEDALUS | Meta | L4 | M | 2026-10-21 | Fleet architect — design / structure / maturity / lifecycle | HAWK whole profile next, then remaining accepted cohort | n/a |
+| DAEDALUS | Meta | L4 | M | 2026-10-23 | Fleet architect — design / structure / maturity / lifecycle | Run the overdue own sweeps before the next build | n/a |
 | RAV | Meta | L2 | M | 2026-10-21 | Deep factual/analytical reviewer + bounded repair (Codex, Will-driven) | L3 on first charter §5 run report when Will commissions it | — |
 | CATO | — | — | — | — | Will's manual Codex/Astra adviser + independent reviewer | UNGRADED BY RULING (WQ-255, 2026-09-26): manual-only — no launch, no routing, no ladder row | — |
 
