@@ -1,5 +1,5 @@
 # TruStage cyberattack (identified 11 Jul 2026): what was taken, ransomware, credit unions affected, cost
-**Date:** 2026-10-22 (research 20:34–20:55 ET; stamps from the system clock) | **Mode:** Thesis | **Confidence:** High on what TruStage, Mandiant, AM Best and the court record say; the four questions themselves remain mostly **UNKNOWN by the company's own account**
+**Date:** 2026-10-22 (research 20:34–20:38 ET; committed 20:38:09 ET (2b1b71a14). Stamp corrected 20:39 ET, as the original "20:55" was typed, not clocked) | **Mode:** Thesis | **Confidence:** High on what TruStage, Mandiant, AM Best and the court record say; the four questions themselves remain mostly **UNKNOWN by the company's own account**
 **Commission:** Will-directed in the DEWEY session, 2026-10-22 20:34 ET. Will handed DEWEY WALTER's 043 sweep recommending "a short DEWEY pull" on TruStage. WALTER confirmed no REQ and no slot used. The four open questions are WALTER's (SIG-W-20261022-043): what was taken, whether ransomware was involved, how many credit unions are affected, and what it has cost.
 
 ## Key Finding
@@ -72,7 +72,7 @@
 - Weak: anything about cost (nothing disclosed) and the 93%/42M reach figures (company marketing, relayed).
 
 ## References
-(accessed 2026-10-22, 20:34–20:55 ET)
+(accessed 2026-10-22, 20:34–20:38 ET)
 - TruStage outage page: https://www.trustage.com/outage
 - TruStage incident update: https://www.trustage.com/newsroom/2026-press-releases/cybersecurity-incident-update
 - TruStage recovery update (31 Jul): https://www.trustage.com/newsroom/2026-press-releases/recovery-restoration-progress-cybersecurity-attack

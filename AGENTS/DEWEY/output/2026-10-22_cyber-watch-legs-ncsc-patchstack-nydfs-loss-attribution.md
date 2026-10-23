@@ -1,5 +1,5 @@
 # CYPHER escalation-watch legs: Dutch NCSC and Patchstack primaries, victim sweep, NYDFS alert, loss estimates, attribution (WAVE-2026-10 rows 1, 5, 6, 7)
-**Date:** 2026-10-22 (research 19:31–19:40 ET, stamps from the system clock) | **Mode:** Thesis | **Confidence:** High on what the primaries say; Low on the world (no victim found means attempts only, not "no damage")
+**Date:** 2026-10-22 (research 19:31–19:37 ET; committed 19:37:40 ET (9762a984f). Stamp corrected 20:39 ET, as the original "19:40" was typed, not clocked) | **Mode:** Thesis | **Confidence:** High on what the primaries say; Low on the world (no victim found means attempts only, not "no damage")
 **Commission:** CYPHER request by live-session message, 2026-10-22 ~19:31 ET (legs 1, 2, 3 in that order; leg 4 skipped), inside Will's in-session direction to DEWEY to "continue working on the cyber threat with WALTER and CYPHER". No REQ file. WALTER acknowledged the split from the routing side.
 
 ## Key Finding
@@ -104,7 +104,7 @@ Source: [PRIMARY: Patchstack, "Major security alert: PHP vulnerable to critical 
 - The NOS absolute date is inferred from its relative "gisteren" stamp.
 
 ## References
-(accessed 2026-10-22, 19:31–19:40 ET)
+(accessed 2026-10-22, 19:31–19:37 ET)
 - NCSC alert: https://www.ncsc.nl/alerts/update-php-kwetsbaarheden-nog-steeds-reden-om-direct-te-patchen
 - NCSC alert (banner URL): https://www.ncsc.nl/alerts/kwetsbaarheden-php-patches-beschikbaar-update-nu
 - NCSC-NL GitHub: https://github.com/NCSC-NL/php2shell
