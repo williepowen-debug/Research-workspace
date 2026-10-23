@@ -1,5 +1,7 @@
 # MIDAS — STATUS
 
+**COT as-of 10/20 (released 10/23 15:30 ET, consumed):** gold net long 49.68% of OI, −2.77pp, **fifth straight weekly decline**, first below 50% since 7/28 (92nd pct); longs −8,158 contracts while shorts were flat, so this is long liquidation. Silver 17.37% (−3.51pp), Pt 18.67%, Pd −36.66%. The week ends before 10/22. MIDAS-16 was registered before this release.
+
 **News sweep 2026-10-23 (Will-directed):** `shared/research/2026-10-23_gold-silver-news-sweep.md`. New: Russia's central bank selling gold for a 10th straight month (−6.2t Sept, ~−62t since Dec 2025) as a named offset to official buying; Goldman ESTIMATES 79t Aug central-bank buying vs WGC REPORTED 39t; Chinese banks ending retail leveraged metals trading; no October CME margin hike found; India ~6,500t silver import permits (premium $2.50 → $0.45/oz); China a net silver exporter; a 13.75% Shanghai silver 'premium' is mostly VAT. Today (14:57 ET) yields +3.5bp, dollar +0.2%, gold −1.25%: an ordinary rates-and-dollar day, unlike Thursday. WALTER SIG-021 noted (board_log). No score/prediction change.
 
 **Predictions registered 2026-10-23 (Will-directed, rows committed before 15:30 ET):** MIDAS-13 GLD any issuer close ≥ $378.95 by 11/20 (P 0.50) · MIDAS-14 SLV d200 ≤ −20% at 11/2 close (P 0.70) · MIDAS-15 PALL d200 ≤ −25% at 11/2 (P 0.35) · MIDAS-16 gold COT as-of 10/27 < 52.4490% (P 0.70) · MIDAS-17 GLD beats rate-implied path 10/22 → 11/20 (P 0.55). Letters and base rates in `workbook/PREDICTIONS.tsv`; WQ-451 letter tests are DOCKET L819–L822 (PROME-registered).
