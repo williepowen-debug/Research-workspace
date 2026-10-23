@@ -2,7 +2,7 @@
 
 **Status:** 🟡 WAVE-2026-10 open, 9 of 9 escalation rows NOT-FIRED (rows 1, 2, 4 re-checked 10/23); PHP2Shell ATTEMPTS-ONLY (weak evidence, not an all-clear)
 **Domain:** Cyber events that can move money — owns the EVENT (confirmed?, class, dates, escalation state); consequence owners keep the consequence
-**As of:** 2026-10-23 15:5x ET (Will session: chokepoint map, Kiteworks affected, CYP-03/04; workbook current, watch rows 1-8 re-checked) | STATUS commit: 78869096f
+**As of:** 2026-10-23 16:2x ET (Will session: chokepoint map, Kiteworks affected, CYP-03/04; workbook current, watch rows 1-8 re-checked; closeout: KEV v2026.10.23 lists Arista, PHP2Shell still absent; NetScaler impacted) | STATUS commit: 6f4e2b1a1
 
 ---
 
