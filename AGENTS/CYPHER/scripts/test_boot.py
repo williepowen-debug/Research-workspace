@@ -40,6 +40,13 @@ ED_OK = {"hits": {"total": {"value": 1}, "hits": [_OLD]}}
 ED_ZERO = {"hits": {"total": {"value": 0}, "hits": []}}
 ED_RECENT = {"hits": {"total": {"value": 3}, "hits": [_NEW, _NEW, _OLD]}}
 ED_TRUNC = {"hits": {"total": {"value": 150}, "hits": [_OLD]}}
+_801_NEW = {"_source": {"file_date": "2026-10-22", "items": ["8.01"], "display_names": ["Quest Diagnostics (DGX)"]}}
+_801_EARN = {"_source": {"file_date": "2026-10-22", "items": ["2.02", "9.01"], "display_names": ["Earnings Corp (ERN)"]}}
+_801_ABS = {"_source": {"file_date": "2026-10-21", "items": ["1.01", "8.01", "9.01"], "display_names": ["Auto Lease Trust"]}}
+_801_OLD = {"_source": {"file_date": "2026-09-10", "items": ["8.01"], "display_names": ["Old Co"]}}
+E801_OK = {"hits": {"total": {"value": 2}, "hits": [_801_EARN, _801_OLD]}}
+E801_HIT = {"hits": {"total": {"value": 4}, "hits": [_801_NEW, _801_NEW, _801_EARN, _801_ABS]}}
+E801_ZERO = {"hits": {"total": {"value": 0}, "hits": []}}
 TODAY = "2026-10-22"   # the build date: seeded State_As_Of / Last_Checked cells are fresh on it
 
 
@@ -57,7 +64,8 @@ class BootDrills(unittest.TestCase):
         cls.fx.mkdir()
         for name, obj in (("kev_ok", KEV_OK), ("kev_listed", KEV_LISTED), ("kev_empty", KEV_EMPTY),
                           ("kev_stale", KEV_STALE), ("ed_ok", ED_OK), ("ed_zero", ED_ZERO),
-                          ("ed_recent", ED_RECENT), ("ed_trunc", ED_TRUNC)):
+                          ("ed_recent", ED_RECENT), ("ed_trunc", ED_TRUNC), ("e801_ok", E801_OK),
+                          ("e801_hit", E801_HIT), ("e801_zero", E801_ZERO)):
             (cls.fx / f"{name}.json").write_text(json.dumps(obj), encoding="utf-8")
 
     @classmethod
@@ -88,9 +96,10 @@ class BootDrills(unittest.TestCase):
 
     def run_boot(self, d, env=None, args=(), today=TODAY):
         e = {k: v for k, v in os.environ.items()
-             if k not in ("CYPHER_BOOT_TODAY", "CYPHER_KEV_FILE", "CYPHER_EDGAR_FILE")}
+             if k not in ("CYPHER_BOOT_TODAY", "CYPHER_KEV_FILE", "CYPHER_EDGAR_FILE", "CYPHER_EDGAR801_FILE")}
         e.update({"CYPHER_KEV_FILE": str(self.fx / "kev_ok.json"),
-                  "CYPHER_EDGAR_FILE": str(self.fx / "ed_ok.json")})
+                  "CYPHER_EDGAR_FILE": str(self.fx / "ed_ok.json"),
+                  "CYPHER_EDGAR801_FILE": str(self.fx / "e801_ok.json")})
         if today:
             e["CYPHER_BOOT_TODAY"] = today
         e.update(env or {})
@@ -106,22 +115,38 @@ class BootDrills(unittest.TestCase):
             self.assertIn(n, out, out)
         return out
 
+    def stamp(self, d, rel, col, value=TODAY):
+        """Set every data row's <col> to <value> in the COPY (the clean fixture must not depend on
+        which live cells happen to be fresh — a single-row anchor broke all drills on 2026-10-23)."""
+        p = d / rel
+        lines = p.read_text(encoding="utf-8").split("\n")
+        hi = next(i for i, l in enumerate(lines) if l.split("\t")[0] in ("ID", "Wave_ID", "Row"))
+        hdr = lines[hi].split("\t")
+        c = hdr.index(col)
+        for i in range(hi + 1, len(lines)):
+            r = lines[i].split("\t")
+            if len(r) == len(hdr):
+                r[c] = value
+                lines[i] = "\t".join(r)
+        p.write_text("\n".join(lines), encoding="utf-8")
+
     def clean_copy(self):
         d = self.fresh()
-        self.edit(d, "workbook/INCIDENTS.tsv", "\t2026-10-02\tNo attribution.", "\t2026-10-22\tNo attribution.")
+        self.stamp(d, "workbook/INCIDENTS.tsv", "Last_Checked")
+        self.stamp(d, "workbook/ESCALATION_WATCH.tsv", "State_As_Of")
         self.score_all(d)
         return d
 
     # ---- clean path ----------------------------------------------------------------------
     def test_clean_all_quiet(self):
         self.assertBoot(self.clean_copy(), 0, "CYPHER boot: all quiet", "✓ enums valid",
-                        "✓ every vector scored", "Total 16/40", "✓ 3 watched CVE(s) absent",
+                        "✓ every vector scored", "/40 (raw", "watched CVE(s) absent",
                         "✓ no Item 1.05", "✓ every open row checked")
 
     # ---- incidents -----------------------------------------------------------------------
     def test_incident_recheck_alert_on_seed(self):
-        d = self.fresh(); self.score_all(d)
-        self.assertBoot(d, 1, "RE-CHECK DUE: 1 REPORTED/ATTEMPTS-ONLY", "CYB-INC-001")
+        d = self.clean_copy()   # every row stamped TODAY; 15 days later the ATTEMPTS-ONLY rows are due
+        self.assertBoot(d, 1, "REPORTED/ATTEMPTS-ONLY row(s) last checked >14d ago", "CYB-INC-007", today="2026-11-06")
 
     def test_incident_bad_enum(self):
         d = self.clean_copy(); self.edit(d, "workbook/INCIDENTS.tsv", "\tOT-PHYSICAL\t", "\tOT\t")
@@ -129,12 +154,13 @@ class BootDrills(unittest.TestCase):
 
     # ---- matrix + map --------------------------------------------------------------------
     def test_unscored_matrix_is_review(self):
-        d = self.fresh()
-        self.edit(d, "workbook/INCIDENTS.tsv", "\t2026-10-02\tNo attribution.", "\t2026-10-22\tNo attribution.")
+        d = self.clean_copy(); self.stamp(d, "workbook/VX.tsv", "Score", "UNKNOWN")
         self.assertBoot(d, 1, "UNSCORED: 9 of 9 vector(s)", "composite UNKNOWN")
 
     def test_thermometer_excluded_from_composite(self):
         d = self.clean_copy()
+        self.stamp(d, "workbook/VX.tsv", "Score", "2")            # 8 MECHANISM x 2 = 16; the thermometer must not add
+        self.assertBoot(d, 0, "Total 16/40")
         self.edit(d, "workbook/VX.tsv", "\tTHERMOMETER\t2\t", "\tTHERMOMETER\t5\t")
         self.assertBoot(d, 0, "Total 16/40")
 
@@ -178,9 +204,9 @@ class BootDrills(unittest.TestCase):
         self.edit(d, "workbook/ESCALATION_WATCH.tsv",
                   "\tNOT-FIRED\t2026-10-22\tSCHEDULED\tMACHINE\tWALTER (routing); REGINALD, SHADE, VULCAN",
                   "\tFIRED 2026-10-22\t2026-10-22\tSCHEDULED\tMACHINE\tWALTER (routing); REGINALD, SHADE, VULCAN")
-        self.assertBoot(d, 0, "FIRED 1", "1 FIRED row(s)", "✓ 3 watched CVE(s)")   # incident 007 still carries them
+        self.assertBoot(d, 0, "FIRED 1", "1 FIRED row(s)", "✓ 4 watched CVE(s)")   # incident 007 still carries them
         self.edit(d, "workbook/INCIDENTS.tsv", "\tATTEMPTS-ONLY\tPRIMARY-VERIFIED", "\tFALSE\tPRIMARY-VERIFIED")
-        self.assertBoot(d, 0, "✓ 1 watched CVE(s) absent from KEV: CVE-2026-114625")
+        self.assertBoot(d, 0, "✓ 2 watched CVE(s) absent from KEV: CVE-2026-114625, CVE-2026-91403")
 
     # ---- EDGAR ---------------------------------------------------------------------------
     def test_edgar_zero_control_is_fail(self):
@@ -200,15 +226,35 @@ class BootDrills(unittest.TestCase):
         self.assertBoot(self.clean_copy(), 2, "8-K Item 1.05: fetch/parse FAILED", env={"CYPHER_EDGAR_FILE": "/nonexistent.json"})
 
     def test_offline_reports_skipped_legs(self):
-        self.assertBoot(self.clean_copy(), 1, "NOT RUN (--offline): 3 KEV key(s)", "NOT RUN (--offline): 8-K", args=("--offline",))
+        self.assertBoot(self.clean_copy(), 1, "NOT RUN (--offline): 4 KEV key(s)", "NOT RUN (--offline): 8-K Item 1.05",
+                        "NOT RUN (--offline): 8-K Item 8.01", args=("--offline",))
+
+    # ---- EDGAR 8.01 cyber (leg 9) ---------------------------------------------------------
+    def test_801_clean(self):
+        self.assertBoot(self.clean_copy(), 0, "✓ no 8.01 cyber-term 8-K since", "control population 2")
+
+    def test_801_hit_filtered_and_deduplicated(self):
+        out = self.assertBoot(self.clean_copy(), 1, "8-K 8.01 cyber-term 2026-10-22: Quest Diagnostics",
+                              env={"CYPHER_EDGAR801_FILE": str(self.fx / "e801_hit.json")})
+        self.assertEqual(out.count("Quest Diagnostics"), 1, out)
+        self.assertNotIn("Earnings Corp", out, out)
+        self.assertNotIn("Auto Lease Trust", out, out)
+
+    def test_801_zero_control_is_fail(self):
+        self.assertBoot(self.clean_copy(), 2, "8-K 8.01 cyber: 0 term hits",
+                        env={"CYPHER_EDGAR801_FILE": str(self.fx / "e801_zero.json")})
+
+    def test_801_fetch_fail(self):
+        self.assertBoot(self.clean_copy(), 2, "8-K 8.01 cyber: fetch/parse FAILED",
+                        env={"CYPHER_EDGAR801_FILE": "/nonexistent.json"})
 
     # ---- escalation watch ----------------------------------------------------------------
     def test_watch_stale(self):
         self.assertBoot(self.clean_copy(), 1, "RE-CHECK DUE: WAVE-2026-10 row 1", "RE-CHECK DUE: WAVE-2026-10 row 9",
-                        "row 5 (ARMED", today="2026-11-01")
+                        "RE-CHECK DUE: WAVE-2026-10 row 5", today="2026-11-01")
 
     def test_watch_bad_token(self):
-        d = self.clean_copy(); self.edit(d, "workbook/ESCALATION_WATCH.tsv", "\tARMED\t", "\tTRIGGERED\t")
+        d = self.clean_copy(); self.edit(d, "workbook/ESCALATION_WATCH.tsv", "\tNOT-FIRED\t", "\tTRIGGERED\t")
         self.assertBoot(d, 1, "State 'TRIGGERED' is not a Class 2 token")
 
     def test_watch_empty_and_missing(self):
@@ -225,7 +271,7 @@ class BootDrills(unittest.TestCase):
         self.assertBoot(self.clean_copy(), 1, "in 1d: 2026-10-27", today="2026-10-26")
 
     def test_catalyst_empty_forward(self):
-        self.assertBoot(self.clean_copy(), 1, "EMPTY-FORWARD", "5 past-dated row(s)", today="2027-01-01")
+        self.assertBoot(self.clean_copy(), 1, "EMPTY-FORWARD", "past-dated row(s)", today="2028-01-01")
 
     def test_prediction_due(self):
         d = self.clean_copy()

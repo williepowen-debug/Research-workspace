@@ -23,6 +23,10 @@ Legs:
   8. SEC 8-K Item 1.05 — EDGAR full-text search over CONTROL_DAYS; the population is its own
      positive control (0 hits = the query is broken, never "quiet"); filings dated inside
      LOOKBACK_DAYS are listed for the owner to read.
+  9. SEC 8-K Item 8.01 cyber — the NON-material disclosures leg 8 cannot see (Quest Diagnostics
+     10/22/2026 filed its cyber 8-K under 8.01). EDGAR full-text search on cyber terms; a hit is
+     kept only if its items are a subset of {8.01, 7.01, 9.01} and include 8.01 (drops earnings,
+     deal and ABS-prospectus boilerplate). Same positive control and lookback as leg 8.
 
 Combined exit (CHECK_STANDARD §9): 0 quiet · 1 REVIEW · 2 a leg FAILED / cannot certify.
 Flags: --offline skips legs 7-8 and says so (rc 1 — a skipped control is reported, never a pass).
@@ -31,6 +35,7 @@ Drill hooks (never set in a real boot; the header says when they are set):
   CYPHER_BOOT_TODAY=YYYY-MM-DD  evaluate date legs as of that day
   CYPHER_KEV_FILE=<json>        read the KEV catalog from a file instead of cisa.gov
   CYPHER_EDGAR_FILE=<json>      read the EDGAR search response from a file instead of efts.sec.gov
+  CYPHER_EDGAR801_FILE=<json>   same, for leg 9 (one response serves both the control and the recent pull)
 """
 
 import csv
@@ -62,6 +67,9 @@ LOOKBACK_DAYS = 7
 CONTROL_DAYS = 120           # build check: 18 Item 1.05 8-Ks in 2026-07-01..10-22
 KEV_URL = "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
 EDGAR_URL = "https://efts.sec.gov/LATEST/search-index"
+CYBER_801_Q = '"cybersecurity incident" OR ransomware OR "unauthorized third party" OR "threat actor"'
+CYBER_801_ITEMS = {"8.01", "7.01", "9.01"}   # build check 2026-10-23: 468 term hits / 120d -> ~45 kept, Quest 10/22 among them
+EDGAR_PAGE, EDGAR_MAX_PAGES = 100, 5
 USER_AGENT = "CYPHER-Research williepowen@gmail.com"   # SEC requires a contact; fleet form (REGINALD)
 TIMEOUT = 25
 
@@ -401,15 +409,63 @@ def edgar_105():
     return 0, [f"  ✓ no Item 1.05 8-K filed since {recent_from}; control population {total} in {CONTROL_DAYS}d", tail]
 
 
+def edgar_801():
+    if OFFLINE:
+        return 1, ["  ⚠️ NOT RUN (--offline): 8-K Item 8.01 cyber sweep unchecked — a skipped control is not a pass"]
+    start = TODAY - timedelta(days=CONTROL_DAYS)
+    recent_from = TODAY - timedelta(days=LOOKBACK_DAYS)
+    base = {"q": CYBER_801_Q, "forms": "8-K", "dateRange": "custom", "enddt": TODAY.isoformat()}
+    try:
+        d, src = _fetch_json(EDGAR_URL, "CYPHER_EDGAR801_FILE", dict(base, startdt=start.isoformat()))
+        total = int(d["hits"]["total"]["value"])
+        if os.environ.get("CYPHER_EDGAR801_FILE"):
+            rtotal, hits = total, d["hits"]["hits"]
+        else:
+            r, _ = _fetch_json(EDGAR_URL, "CYPHER_EDGAR801_FILE", dict(base, startdt=recent_from.isoformat()))
+            rtotal, hits = int(r["hits"]["total"]["value"]), r["hits"]["hits"]
+            page = 1
+            while len(hits) < rtotal and page < EDGAR_MAX_PAGES:
+                more, _ = _fetch_json(EDGAR_URL, "CYPHER_EDGAR801_FILE",
+                                      dict(base, startdt=recent_from.isoformat(), **{"from": page * EDGAR_PAGE}))
+                if not more["hits"]["hits"]:
+                    break
+                hits += more["hits"]["hits"]
+                page += 1
+    except Exception as e:  # noqa: BLE001
+        return 2, [f"  🔴 8-K 8.01 cyber: fetch/parse FAILED ({type(e).__name__}: {e}) — cannot certify; "
+                   f"do NOT read as 'no filings'"]
+    if total == 0:
+        return 2, [f"  🔴 8-K 8.01 cyber: 0 term hits in {CONTROL_DAYS}d — the positive-control population is empty, so "
+                   f"the QUERY is likely broken (build check found 468 in 120d to 2026-10-23). Do NOT read as quiet"]
+    recent, seen = [], set()
+    for h in hits:
+        s = h.get("_source") or {}
+        items = set(s.get("items") or [])
+        when = _date(s.get("file_date"))
+        name = ((s.get("display_names") or ["?"])[0] or "?")[:70]
+        key = (s.get("file_date"), name)
+        if when and when >= recent_from and "8.01" in items and items <= CYBER_801_ITEMS and key not in seen:
+            seen.add(key)
+            recent.append(f"  ⚠️ 8-K 8.01 cyber-term {s.get('file_date')}: {name} — read it: real incident or boilerplate? bank/vendor?")
+    out = sorted(recent, reverse=True)
+    if rtotal > len(hits):
+        out.append(f"  ⚠️ {rtotal} recent term hits but only {len(hits)} read — the recent list may be incomplete")
+    tail = (f"  ({total} cyber-term 8-K(s) in {start}..{TODAY}; items filter {{8.01, 7.01, 9.01}}; listing since "
+            f"{recent_from}; source {src}. A quiet leg = no NON-material cyber 8-K matched, not 'no incident')")
+    if out:
+        return 1, out + [tail]
+    return 0, [f"  ✓ no 8.01 cyber-term 8-K since {recent_from}; control population {total} in {CONTROL_DAYS}d", tail]
+
+
 def main():
     print("=" * 74)
     print(f"  ⏰ WALL CLOCK: {datetime.now().strftime('%Y-%m-%d %H:%M %A')} — never hand-write a time; copy this line")
     if _DRILL:
         print(f"  🧪 DRILL CLOCK: date legs evaluate as of {TODAY} (CYPHER_BOOT_TODAY) — NOT a real boot")
-    for v in ("CYPHER_KEV_FILE", "CYPHER_EDGAR_FILE"):
+    for v in ("CYPHER_KEV_FILE", "CYPHER_EDGAR_FILE", "CYPHER_EDGAR801_FILE"):
         if os.environ.get(v):
             print(f"  🧪 DRILL FILE: {v}={os.environ[v]} — NOT a real boot")
-    print("  CYPHER BOOT — staleness · predictions · catalysts · watch · incidents · matrix/map · KEV · 8-K 1.05")
+    print("  CYPHER BOOT — staleness · predictions · catalysts · watch · incidents · matrix/map · KEV · 8-K 1.05 · 8-K 8.01")
     print("=" * 74)
     rcs = []
     print("\n--- 1. ledger staleness (workbook + TRADE.md) ---")
@@ -424,7 +480,8 @@ def main():
                       ("5. incidents (enums · 14-day re-check of unconfirmed rows)", incidents),
                       ("6. convergence matrix + transmission map (scores · tokens · orphans)", matrix_and_flow),
                       ("7. CISA KEV (watched CVEs on live rows)", kev),
-                      ("8. SEC 8-K Item 1.05 (material cyber incidents)", edgar_105)):
+                      ("8. SEC 8-K Item 1.05 (material cyber incidents)", edgar_105),
+                      ("9. SEC 8-K Item 8.01 cyber terms (NON-material disclosures)", edgar_801)):
         print(f"\n--- {title} ---")
         rc, lines = fn()
         print("\n".join(lines))
