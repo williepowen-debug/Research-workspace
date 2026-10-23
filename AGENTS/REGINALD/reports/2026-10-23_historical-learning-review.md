@@ -211,3 +211,33 @@ Representative outputs compared: early — `265a4e133` (2/23 hidden-CRE discover
 The improvements are real but procedural and epistemic. The financial-judgment payoff is untested so far, and on the few outcomes available it is not yet visible.
 
 *Evidence receipts: commits cited inline; `workbook/PREDICTIONS.tsv` (REG-01–30); `../WAL/workbook/PREDICTIONS.tsv` (WAL-01/02); prices via yfinance (adjusted for the 8/20 → 10/22 returns, unadjusted for the Feb → Oct levels), retrieved 2026-10-23 15:5x ET; commit classifier and size measurements run in this session (Bash output, not saved).*
+
+---
+
+## ADDENDUM — 2026-10-23 16:1x ET: two forecasts were graded wrongly, and this review accepted both
+
+**Prompt:** an outside review Will passed on at 16:07 ET flagged REG-08. I re-checked it, then re-checked the other seven graded rows against their original wording. **The body of this report above is left as written; this addendum supersedes its Brier figure and the REG-08 line in Case 2.** No ledger row has been changed (Will's decision, below).
+
+| Row | Original wording (first registered `1c0b3d0cb`, 2026-02-16) | Ledger grade | What the record shows | Correct grade on the wording |
+|---|---|---|---|---|
+| **REG-08** | "KRE breaks below $65", H1 2026, 45% | FROZEN-FAILED (6/26–6/30, `2da627b87`): "KRE never broke $65"; "invalidation met (held >$70 through Q2)" | **17 closes below $65, 3/6 → 3/30**, low close **$62.62 [3/18]** (Yahoo daily). My own STATUS recorded it at the time: **$63.98** (commit `f0f13fb39`, 3/13) and **$63.67 [3/27]** (`b4db1e78e`). The stated invalidation was false too: **Q2 low close $65.85 [4/1]**, not "held >$70". Nasdaq's history API returned no rows for March, so the second source is my contemporaneous STATUS plus the outside reviewer's financecharts.com | **CONFIRMED** |
+| **REG-10** | "PSEC cuts dividend in 2026", 65% | FAILED, graded 2026-02-10 on PSEC maintaining in February | **PSEC cut its monthly distribution from $0.045 to $0.0350, starting May 2026** (8-K acc 0001287032-26-000165, filed 5/7/2026, EX-99 release; prior $0.045 per Yahoo dividend history). The February grade closed a full-year window after one month | **CONFIRMED** (the row was registered after the February decision; that defect stays noted) |
+| REG-09 | Tier-2 bank misses Q1 | FAILED | Not re-verified this session (needs consensus EPS) | unverified |
+| REG-11 | A major BDC cuts in H1 | CONFIRMED | FSK $0.70 → $0.48 (ex 3/18); TCPC $0.25 → $0.17 (ex 3/17), Yahoo | CONFIRMED (re-verified) |
+| REG-13 | ≥2 channels fire simultaneously | CONFIRMED | Judgment-graded; no objective instrument | not objectively gradeable |
+| REG-18 | A >20% MI3 bank fails in H1 | FROZEN-FAILED | **Not checked against the H1 failures**: Community Bank & Trust – West Georgia failed 5/1; my own failures list says "not worked by this desk" | unverified |
+| REG-20 | WAL stress event (miss, raise or regulatory action) | CONFIRMED | Q1 EPS $1.65 vs $1.73 consensus = one OR-leg met | CONFIRMED |
+| REG-26 | WAL Q2 surprise leg | DISCONFIRMED | 37bp, loan to nonaccrual; clear | DISCONFIRMED |
+
+**Rebuilt Brier score** (lower is better; coin flip 0.25):
+- All 8 rows, with REG-08 and REG-10 regraded: **0.162** (was reported above as ≈ 0.19).
+- The 5 rows that are objectively graded and re-verified (REG-08, 10, 11, 20, 26): **0.154**.
+- **Still n ≤ 8. Calibration stays UNPROVEN.** The corrected number looks better, and that is exactly why it should not be trusted as evidence of skill.
+
+**What this changes in the review's conclusions:**
+- **The bigger finding is the grading failure, not the score.** Both errors went the same way: a TRUE forecast graded FAILED by checking at a convenient moment (the end of the period; the first dividend decision) instead of against the wording. Both survived the 7/10 staleness sweep, the 8/13 expiry sweep, a CATO census and this review.
+- **This review repeated the error.** Case 2 printed the $62.62 March low beside "REG-08 FAILED" and did not notice the contradiction. That is a direct counterexample to §1's "willingness to be wrong — DEMONSTRATED": it was demonstrated for theses, not for grades.
+- **Revised grade: "Forecast grading integrity" — CONTRADICTED** (2 of 8 graded rows wrong; 2 more unverified). Add to §7 as weakness 7.
+- **Recommendation 1 stands, with one addition:** a grade is written only from the forecast's own wording, quoted beside the evidence, by a reader other than the forecaster.
+
+**Owed to Will (not done):** correcting REG-08 and REG-10 in `workbook/PREDICTIONS.tsv`. This review's scope forbids changing original forecast records, and ledger corrections go through PROME. The original FAILED grades would be preserved; a correction would be appended.
