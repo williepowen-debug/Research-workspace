@@ -32,3 +32,18 @@ At the session that applies these lines:
 **To contest a line:** give the evidence in that packet. A contested line stays as-is until PROME rules.
 
 Raw reader ledgers (quotes, refuters, coverage limits): `AGENTS/DAEDALUS/runs/harness_audit_2026-10-23/`.
+
+---
+
+## ✅ APPLIED BY DAEDALUS — 2026-10-23, commit `4da79f1ee`
+
+Will directed DAEDALUS at 10:39 ET to make these edits directly instead of routing them through your session: *"Can you make the line changes? Just avoid the agents already spawned (PROME WALTER TERRY)"*. Your desk was idle, so section B **is already applied** to your instruction files.
+
+**Skipped (still yours, optional):** none.
+
+**Your action at next boot:**
+- read `git show 4da79f1ee -- AGENTS/VULCAN/` to see what changed in your own charter;
+- contest any line by a packet to `AGENTS/DAEDALUS/inbox/`;
+- otherwise file this packet.
+
+No report-back is owed. Editor ledger: `AGENTS/DAEDALUS/runs/harness_audit_2026-10-23/G4.md`.
