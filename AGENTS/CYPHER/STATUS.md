@@ -1,27 +1,27 @@
 # CYPHER STATUS
 
-**Last Updated: 2026-10-23 00:01 ET — Quest Diagnostics incident added; first live session and documentation pass 10/22 (Will-launched, Claude Code, claude-opus-5-5).** Evidence record: `research/2026-10-22_first-session-verification-record.md`.
+**Last Updated: 2026-10-23 07:30 ET — live news sweep (Will-launched, Claude Code, claude-opus-5-5): 3 non-US bank-sector incidents ledgered, Palo Alto reach added to PHP2Shell, do-not-relay list re-cut, KB-CYP-019.** Evidence records: `research/2026-10-23_news-sweep-and-relay-pattern.md` (this session) · `research/2026-10-22_first-session-verification-record.md` (first session).
 
 > ~~FIRST-LIVE-SESSION BANNER~~ — **SPENT 2026-10-22.** `FIRST_SESSION.md` items 1–8 done or carried as listed under § First-session record. Normal boot from here.
 
 ## Current judgment
 
-**WAVE-2026-10 is open and reads MECHANICAL so far (Log4Shell-shaped). Not one of the nine escalation rows has fired.** PHP2Shell (CVE-2026-109618 / -109619) is **ATTEMPTS-ONLY**. Exploitation attempts are confirmed: AWS MadPot from 10/17, before the 10/21 disclosure, and watchTowr honeypots since 10/21. No named organisation has a confirmed successful compromise. The Dutch NCSC is "investigating first signals of successful misuse" (primary, 10/22 16:01 CEST) and names no victim. **That is weak evidence, not an all-clear.** Pre-disclosure exploitation plus a low-footprint exploit (KB-CYP-012) is the MOVEit shape, where victims surfaced at +14 days. The prior from five past waves is mechanical for banks (KB-CYP-001: 0 of 5 caused a run, a failure or a central payment outage).
+**WAVE-2026-10 is open and reads MECHANICAL so far (Log4Shell-shaped). Not one of the nine escalation rows has fired (rows 1, 2, 4 re-checked 2026-10-23).** PHP2Shell (CVE-2026-109618 / -109619) is **ATTEMPTS-ONLY**. Exploitation attempts are confirmed: AWS MadPot from 10/17, before the 10/21 disclosure, and watchTowr honeypots since 10/21; Bitdefender and Huntress telemetry see none, and Sansec says public exploits fail on a default PHP install (vendor claims). No named organisation has a confirmed successful compromise. The Dutch NCSC is "investigating first signals of successful misuse" (primary, page unchanged since 10/22 16:01 CEST at the 10/23 07:3x ET re-read) and names no victim. **New reach (primary, 10/23):** Palo Alto says PAN-OS, Panorama and WildFire WF-500 are affected; hotfixes due 10/26–10/30, Panorama / WF-500 "ETA: TBD"; no exploitation known against its products. **That is weak evidence, not an all-clear.** Pre-disclosure exploitation plus a low-footprint exploit (KB-CYP-012) is the MOVEit shape, where victims surfaced at +14 days. The prior from five past waves is mechanical for banks (KB-CYP-001: 0 of 5 caused a run, a failure or a central payment outage).
 
-| Gauge | Reading (2026-10-22) | Canonical |
+| Gauge | Reading (2026-10-22; re-checked 2026-10-23) | Canonical |
 |---|---|---|
 | Escalation rows, WAVE-2026-10 | **9 of 9 NOT-FIRED** (row 5 adjudicated NOT-FIRED on the NYDFS 10/22 letter, routine patch guidance) | `workbook/ESCALATION_WATCH.tsv` |
 | Convergence composite | **21/40 raw · 15/40 shared-root-adjusted** (PHP2Shell root counted once across VX-CYP-02/03/06); broad YELLOW, no vector above 3 | `workbook/VX.tsv` |
 | Transmission map | 19 mechanisms: **7 CONFIRMED** (FL-CYP-06 ICBC FS and FL-CYP-18 NotPetya exclusions flipped tonight), 7 NOT-OBSERVED, 2 MODELED, 3 UNTESTED | `workbook/FLOW.tsv` |
-| Incident ledger | 19 rows, every seed re-verified at a named source | `workbook/INCIDENTS.tsv` |
+| Incident ledger | 23 rows: every seed re-verified at a named source; 021–023 added 10/23 (SBI PRIMARY-VERIFIED; Korea and CARLIY0S SECONDARY) | `workbook/INCIDENTS.tsv` |
 | Predictions | **CYP-01** incidents escalate (8-K Item 1.05 ≥ 6 in Nov–Dec 2026) **30%**; **CYP-02** a named US bank / CU / core vendor compromised via a wave vector by 2027-01-31 **15%** — both Will's view, desk odds | `workbook/PREDICTIONS.tsv` |
 | R1 two-way flip | Toward MOVEit: row 1 or 3 FIRES on or before 2026-11-20. Toward Log4Shell: rows 1, 3, 4 all NOT-FIRED at 11/20 with dated re-checks 11/13–11/20 | `workbook/EXIT_PROTOCOL.md` |
 
 ## Open wave — WAVE-2026-10 (canonical: `workbook/ESCALATION_WATCH.tsv`)
 
-| Row | Sign | State 2026-10-22 | Basis of the read |
+| Row | Sign | State (rows 1, 2, 4 re-checked 2026-10-23; others 2026-10-22) | Basis of the read |
 |---|---|---|---|
-| 1 | Confirmed successful PHP2Shell compromise | NOT-FIRED (ATTEMPTS-ONLY) | Dutch NCSC alert, CYPHER read; Patchstack timeline and victim sweep to ~23:35Z, DEWEY |
+| 1 | Confirmed successful PHP2Shell compromise | NOT-FIRED (ATTEMPTS-ONLY) | Dutch NCSC alert, CYPHER read 10/22 and re-read 10/23 (unchanged); 10/23 news sweep, no named victim; Patchstack timeline and victim sweep to ~23:35Z, DEWEY |
 | 2 | KEV listing of the two CVEs | NOT-FIRED | boot.py leg 7 live (re-run 23:53 ET): KEV still v2026.10.21, both absent; leg 8 still no Item 1.05 8-K since 10/15. A listing looks likely (AWS: "broadly exploited") |
 | 3 | Named US bank / CU / core-vendor victim | NOT-FIRED | Two OFF-WAVE US financial victims ledgered, neither tied to a wave vector: River Financial (CYB-INC-015), TruStage (CYB-INC-017) |
 | 4 | Bank or vendor 8-K Item 1.05 | NOT-FIRED | boot.py leg 8 live: none since 10/15 |
@@ -43,7 +43,16 @@
 | CYB-INC-001 | Tanker networks compromised (FBI/USCG); propulsion access REPORTED only | CONFIRMED (network) · SECONDARY | OT channel; FALCON / BRENT |
 | CYB-INC-020 | **Quest Diagnostics (DGX)**: unauthorized access to its Quanum LSM ordering and results system, learned 10/21; "accessed certain patient records"; not material per Quest (8-K **Item 8.01**, 10/22); not PHP2Shell per Quest (AP) | CONFIRMED · PRIMARY-VERIFIED | Healthcare = NO-OWNER class, flagged to PROME and HENRY 10/23. **It exposed a blind spot:** boot.py leg 8 watches Item 1.05 only (DATA_ROUTES) |
 
-**FALSE / do-not-relay kept:** "60M certificates can't be trusted" · "pip is compromised" · "Japan declared a cyber emergency" · "rogue AI agents broke into bank accounts" (CYB-INC-019) · "Railway lost $371K" (unanchored).
+| CYB-INC-021 | **State Bank of India:** exchange filing 10/21, 3,897 customer records with personal data among ~375,000 found on the dark web; no material impact claimed; source and vector unknown | CONFIRMED · PRIMARY-VERIFIED (NSE filing) | Non-US bank; NO OWNER for Indian banks (PROME flagged) |
+| CYB-INC-022 | **South Korea, 16 financial firms** incl. Shinhan, KB Kookmin, Busan, Hana: ~100,000 records incl. national ID numbers (FSC 10/14); AI-agent use suspected, not shown | REPORTED · SECONDARY | Largest confirmed bank-sector hit this month; began 9/30, not wave-rooted; NO OWNER for Korean banks |
+| CYB-INC-023 | **CARLIY0S / "CyberCartel":** Straiker says AI agents (Claude, Grok, Kimi) were used against 400+ LatAm financial *targets*; no confirmed breach count, no names | REPORTED · SECONDARY | With 022, the AI-run-attack theme; route VULCAN |
+
+**Do-not-relay, 13 claims in three groups** (canonical: `research/2026-10-23_news-sweep-and-relay-pattern.md` §4):
+- **Contradicted at the source (10):** "60M certificates" · "pip is compromised" · "Japan declared a cyber emergency" · "Google confirmed no certificates were issued" · "CISA saw millions of attacks" · "US attributes ConnectWise hack to China" · "NCSC confirms PHP2Shell breaches" (now carried by Archyde) · "NYDFS warns banks are being hacked" · "TruStage breach exposed 42 million" · "rogue AI agents broke into bank accounts" (only Barchart's rewording is refuted; Axios's report stays unverified, CYB-INC-019 REPORTED).
+- **Unanchored, NOT refuted (2):** "Railway lost $371K" · "TruStage ransomware attack" (could prove true).
+- **Joke (1):** "a key equal to 4".
+
+**Relay direction (KB-CYP-019):** 12 of the 13 overstate toward alarm, 1 toward reassurance. Selection-biased sample (only odd-looking claims were checked), so it shows a direction, not a rate. Operating rule: a news outlet reporting an agency is a lead, never row-1 evidence.
 
 ## Standing conditions
 
@@ -82,4 +91,4 @@ Verisk PCS: subscription (MIRROR-WALLED). NYDFS industry letters are **reachable
 
 ## BOTTOM LINE
 
-One wave is open (PHP2Shell plus October's supply-chain and certificate failures), and none of its nine escalation rows has fired as of 2026-10-22. The composite is 21/40 raw and 15/40 after counting the shared PHP2Shell root once, which fits a Log4Shell-shaped wave so far. The most important unconfirmed lead is the Dutch NCSC's "first signals of successful misuse": if it turns into a named victim on or before 11/20, the wave flips toward the MOVEit shape. Next wakes are Chrome's eMudhra root removal on 10/27, DEWEY's base-rate rerun on 10/29 (also the 7-day re-check deadline for every open row) and the MOVEit-analogue victim check on 11/04.
+One wave is open (PHP2Shell plus October's supply-chain and certificate failures), and none of its nine escalation rows has fired as of the 2026-10-23 re-check. The composite is unchanged at 21/40 raw and 15/40 after counting the shared PHP2Shell root once, which fits a Log4Shell-shaped wave so far; three non-US bank-sector incidents (India, Korea, Latin America) were ledgered 10/23 but are not wave-rooted and move no US-keyed band. The most important unconfirmed lead is still the Dutch NCSC's "first signals of successful misuse": a named victim on or before 11/20 flips the wave toward the MOVEit shape. Next wakes are Chrome's eMudhra root removal on 10/27, DEWEY's rerun on 10/29 (the 7-day re-check deadline), Palo Alto's last PAN-OS hotfix ETA on 10/30 and the MOVEit-analogue victim check on 11/04.

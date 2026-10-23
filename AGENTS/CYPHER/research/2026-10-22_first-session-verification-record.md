@@ -78,18 +78,6 @@ Materiality was still undetermined at the last amendment. No amendment has been 
 
 BOARD corrections went to WALTER (packet 2ce5419e0), and WALTER published them as SIG-W-20261022-048. Checked: 048 does not carry the retracted ICBC claim.
 
-## 6. Kept as FALSE / do-not-relay
+## 6. Kept as do-not-relay (re-cut 2026-10-23)
 
-- "60M certificates can't be trusted"
-- "pip is compromised"
-- "Japan declared a cyber emergency"
-- "rogue AI agents broke into bank accounts"
-- "Railway lost $371K"
-- "a key equal to 4"
-- "Google confirmed no certificates were issued"
-- "CISA saw millions of attacks"
-- "US attributes ConnectWise hack to China"
-- "NCSC confirms PHP2Shell breaches"
-- "NYDFS warns banks are being hacked"
-- "TruStage ransomware attack"
-- "TruStage breach exposed 42 million"
+This list was first headed "FALSE / do-not-relay" and merged three kinds of claim. The canonical list, split into contradicted at the source (10), unanchored with no source found (2) and a joke read literally (1), is now `research/2026-10-23_news-sweep-and-relay-pattern.md` §4. Two entries are not refuted: "TruStage ransomware attack" is unanchored and could prove true; for "rogue AI agents broke into bank accounts", only Barchart's rewording is refuted, and Axios's report stays unverified (CYB-INC-019 REPORTED).
