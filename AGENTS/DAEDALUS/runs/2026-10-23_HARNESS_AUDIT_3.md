@@ -32,7 +32,7 @@ The 10/08 changelist (119 lines, `runs/2026-10-08_HARNESS_CHANGELIST.md`) was **
 - DAEDALUS `OPERATIONS.md`;
 - FLG except 76–95.
 
-Every other file got its full delta plus targeted spans. **Not read whole:** `PROME/ORCHESTRATION_PLAYBOOK.md` (50 KB), NEXUS `CLAUDE.md` (72 KB) and WALTER `design/BOOT_PROTOCOL.md` (71 KB); their unchanged text is unaudited. A few very long OZK/WAL lines were cut off in the reader's view (READER_C §9). CREED was read as source only; it was not launched.
+Every other file got its full delta plus targeted spans. **Not read whole:** `PROME/ORCHESTRATION_PLAYBOOK.md` (50 KB), NEXUS `CLAUDE.md` (72 KB) and WALTER `AGENTS/WALTER/design/BOOT_PROTOCOL.md` (71 KB); their unchanged text is unaudited. A few very long OZK/WAL lines were cut off in the reader's view (READER_C §9). CREED was read as source only; it was not launched.
 
 ## 2. The changelist — one decision for Will
 
