@@ -13,11 +13,11 @@
 | Gauge | Reading | Canonical |
 |---|---|---|
 | Print ledger | **0 rows** — no print read yet | `workbook/PRINTS.tsv` |
-| Convergence | **8 of 8 vectors UNKNOWN** | `workbook/VX.tsv` |
+| Convergence matrix | **8 of 8 vectors UNKNOWN** | `workbook/VX.tsv` |
 | R1 (real or borrowed) | OPEN QUESTION, no stance; both flips owed | `workbook/EXIT_PROTOCOL.md` |
 | J1 (AI capex → VULCAN) | NOT REGISTERED; paired test owed (GPU-import caveat) | `workbook/EXIT_PROTOCOL.md` |
 | J2 (freight → LIQUID / RED) | NOT REGISTERED; base rate owed | `workbook/EXIT_PROTOCOL.md` |
-| Perimeter | 8 frozen names; the HON separation status is UNVERIFIED | `PERIMETER.tsv` |
+| Perimeter | 8 frozen names; HON = Honeywell Technologies (automation) since the 2026-06-29 aerospace spin (VERIFIED 10/23) | `PERIMETER.tsv` |
 | Predictions | 0 (empty by design) | `workbook/PREDICTIONS.tsv` |
 | `ISM Mfg <47` trigger | **OWNED** since WQ-507 A (Will 10:38 ET). DAEDALUS encoded it before launch: charter § BOUNDARIES + THRESHOLDS + EXIT_PROTOCOL. PROME's inbox packet asks ①–③ are already done; read the packet, then file it | charter § THRESHOLDS |
 

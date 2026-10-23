@@ -159,8 +159,10 @@ def newest(text, year_hint=None):
 # max() over them launders a stale surface as fresh. Found live on HENRY's THESIS_VALIDATION:
 # self-stamped "as of 2026-06-23" (41d) but graded CURRENT/17d off a 7/14 CPI reference
 # sitting in a confirm-criterion. Same class as PAT-044, one layer down.
+# 2026-10-23: `re-derived` added — blueprint §4 mandates the stamp `Kill rail re-derived: YYYY-MM-DD`,
+# and this regex could not read it (FERT/GIBBS/CYPHER/ISHM fell back to INFERRED; PAT-162 class).
 STAMP_LABEL = re.compile(
-    r"(last\s+updated|updated|as\s+of|reframed|rewritten|rewrite|revised|revision|built|created"
+    r"(last\s+updated|updated|as\s+of|reframed|rewritten|rewrite|revised|revision|built|created|re-?derived"
     r"|current\s+state|refreshed|refresh|stamp(?:ed)?|version|vintage|run)\b[^\n]{0,40}?"
     r"(20\d{2}-\d{2}-\d{2}|\b\d{1,2}/\d{1,2}(?:/\d{2,4})?\b)", re.I)
 
