@@ -41,5 +41,5 @@ Insertion point: `FORGE/PREDICTION_DISCIPLINE.md`, section `## Grading & re-mark
 ## 5. Consequents after the insertion lands
 
 - DOCKET L499 → RESOLVED pointing here; L807 ③ (FALCON) keeps its pointer to the registry; SCRATCH ★ NEXT "L499 canon + UNREACHABLE_MEASUREMENTS.tsv (10/25)" cleared.
-- Packet to DAEDALUS: insertion landed at commit `<sha>`; its Class 2 pointer is owed (its own file, its own commit). Packet to FALCON: the registry row exists for Bab AWRP; confirm or correct the attempts list at the L807 wake. DEWEY/SHADE: informed by the registry row (no act owed).
+- Packet to DAEDALUS: insertion landed at commit `d3ce34548`; its Class 2 pointer is owed (its own file, its own commit). Packet to FALCON: the registry row exists for Bab AWRP; confirm or correct the attempts list at the L807 wake. DEWEY/SHADE: informed by the registry row (no act owed).
 - `consumer_check.py` not run: no figure, threshold, level or band is superseded by a procedural bullet (justified N/A).
