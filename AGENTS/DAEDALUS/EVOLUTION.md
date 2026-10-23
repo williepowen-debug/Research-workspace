@@ -6,6 +6,14 @@
 
 ## Changelog
 
+### 2026-10-23 (a) — L499 CANNOT-FIRE pointer; the scanner now reads the blueprint's own kill-rail stamp (PAIRING RECORDED LATE)
+
+PAIRING RECORDED LATE bf7c97405052 — `BLUEPRINTS/STATE_VOCABULARY.md` Class 2 `CANNOT-FIRE` row gained a pointer to the WQ-298 ③ canon bullet at `FORGE/PREDICTION_DISCIPLINE.md` § Grading & re-marking (L499, d3ce34548). This is a pointer only; the token's meaning is unchanged. It was committed in the 10/23 own-file sweep without this entry; the miss stays in history.
+
+**Standards-adjacent, same day:**
+- `scripts/falsification_scan.py` STAMP_LABEL gained `re-?derived`. Blueprint §4 mandates `Kill rail re-derived: YYYY-MM-DD`, and the scanner could not read it, so FERT, GIBBS, CYPHER and ISHM were dated by inference (PAT-162 n+1). The blueprint text is unchanged.
+- WQ-508 (Will 10:27 ET) ruled R0 A: a signal is an external item that WALTER routes; a desk's own output is a packet, delivered direct. The root sentence is PROME's to insert. Until then the per-desk packets and `runs/2026-10-23_HARNESS_AUDIT_3.md` are the record.
+
 ### 2026-10-20 (a) — Current queue navigation and bounded global contexts
 
 Will: “Okay proceed”, following PROME’s organization plan and preservation terms. UPGRADE_PROTOCOL now distinguishes live upgrade cards from cards explicitly CLOSED AS A QUEUE; current gaps remain in FLEET_MAP and actions in STATUS. No obligation or rule is retired, and historical cards are not silently reopened. OPERATIONS/CHECKS scope is reconciled to the existing August17 W2 ruling. Candidate contexts gain explicit global-status/global-history representations with fixed commands and refusal of unsupported history mechanisms; complete caller dependencies and independent review remain required. Applies prospectively; historical receipts are not recertified. Originals and block hashes: `runs/2026-10-20_CLEANUP_MOVEMENT_RECEIPT.json`; implementation/review limits: `runs/2026-10-20_ORGANIZATION_CLEANUP.md`. User approval is recorded in this session; this entry is paired in the implementation commit, whose ID is recorded by Git rather than invented here.
