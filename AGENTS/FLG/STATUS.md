@@ -1,6 +1,6 @@
 # FLG STATUS
 
-**Last Updated:** 2026-10-22 13:30 ET Thursday — **FIX PASS: desk-sweep findings applied (see § FIX PASS).** Before that today: 11:3x ET 8-K sweep (KB-079..081, merger basis ~11pp, provision budget halved 4/24/26) and 11:12 ET pre-print catch-up (KB-075..078). Earlier sessions: 10/21 wave 2 · 10/01 T-08 fire grade · 08/28 first live session.
+**Last Updated:** 2026-10-23 08:4x ET Friday — **Q3-2026 PRINT GRADED (DOCKET L522 print leg, PROME prome-03 spawn).** Prior: 10/22 13:30 ET fix pass + 11:3x ET 8-K sweep (both rotated verbatim to `archive/STATUS_ARCHIVE_2026-10-23.md`, crc32 `a54fa420`) · 10/21 wave 2 · 10/01 T-08 fire grade · 08/28 first live session.
 
 ✅ **FIRST-LIVE-SESSION BANNER STRUCK.** The build banner said every figure here was MIRROR-grade — extracted from REGINALD, never pulled by FLG. **That is no longer true.** FLG pulled its own EDGAR primary this session (10-Q Q2-2026, Flagstar Bank N.A., acc `0000910073-26-000068`, filed 2026-08-06) and re-verified the load-bearing figures first-hand. `CLAUDE.md § FIRST LIVE SESSION` is **SPENT 2026-08-28**. ⚠️ **One residual, named not hidden:** the MDRM-level MI3 cells were **not** re-pulled at FFIEC CDR and stay MIRROR-grade — `MI3_FLG.tsv` marks this per row.
 
@@ -8,40 +8,24 @@
 
 ---
 
-## 🔧 FIX PASS 2026-10-22 (from 13:25 ET) — desk sweep findings applied (Will: "can we just run a fix pass now?"; charter edits on Will's "yes")
+## 🔴 SESSION 2026-10-23 — Q3-2026 PRINT READ AGAINST THE FROZEN FRAME (PROME prome-03 spawn, DOCKET L522)
 
-Source: `reports/2026-10-22_DESK_SWEEP.md` + D:L793. **Frozen frame untouched** (sha `cb686b26…` re-hashed at commit). **No threshold, band, prediction letter, kill level or score moved.**
+**Primary:** 8-K acc `0000910073-26-000080` (Items 2.02/7.01/9.01; exhibits EX-99.1 release, EX-99.2 deck, 104 only — **no exclusions-register event**). Frame sha `cb686b26…` re-hashed: **unchanged**. Full grade: `reports/2026-10-23_Q3-2026_PRINT_GRADE.md`. **Call (08:00 ET) UNREAD** — no transcript reachable; replay to 10/27. Inbox: PROTOCOL.md only, 0 packets, 0 WALTER signals.
 
-| Done | Where |
-|---|---|
-| FLG-01 Confidence cell → WQ-112 machine form `50% [2026-08-28] (was 75% …)`; as-made audit reads it clean | PREDICTIONS |
-| Refuted "Q2-seasonal" reason removed (KB-045); fuse Q2-2027 → Q2-2028 (KB-052); T-02/T-04 text re-keyed; T-08 anchor note; T-01 CDR token expiry 11/05 + proven FDIC fallback | TRIGGERS, EXIT |
-| THESIS v1.0.3: stale Stage-2 / cure-kill / 29% lines struck to their answers; ~11pp merger basis; provision basis caveat; runway arithmetic; version rows rotated (crc `53455222`), now 31,846 B | THESIS |
-| EXIT: K-1 healthy cell on its real instrument; basis notes; **re-derivation in both directions DUE after the Q3 read** (stamp not moved) | EXIT_PROTOCOL |
-| TRADE re-stated 10/22: explicit re-arm condition A–D, NOT-FIRED → TERRY route, TERRY's 10/12 candidate cited, dead RED pointer re-pinned to `09476a9cd` | TRADE |
-| Charter: explicit-read boot; closeout 1b–1e; non-ff → root step 3; 10-Q graded basis; zero LIVE gates; start from specific reserve; −143pp basis; FILES +9 | CLAUDE.md |
-| boot.py leg 5 **inbox** — verified on a capable case (it caught 3 unread items) and the clean case | boot.py |
-| KB-019 runway leg → KB-025; KB-059 → SUPERSEDED by KB-073; KB-079 event vs filed dates; header re-worded (46 of 81 rows A-grade); **KB-082** CREED refi-cost context (SIG-015); **KB-083** DEWEY core-system migration 2027/2028 | KB |
-| Inbox drained (SIG-012, SIG-015, DEWEY ×4, DAEDALUS; last two at 18:0x ET → KB-085 Fiserv strain) | inbox |
-| MATURITY_WALL → 10-Q cadence; sweep primaries archived | `sources/2026-10-22_8K_sweep/` |
-| STATUS: phrases LANDED 10/21 · REGINALD encoded `04c4a7a14` · VX RED · 3 dismissed · $8.9B wording · L3 · T-13 dates | STATUS |
-
-**Deferred, dated:** EXIT_PROTOCOL re-derivation both directions + THESIS fold-in of KB-071/073/081/082 → after the 10/23 read, by the 10-Q (~11/9). READS.tsv boot-read declaration → asked of PROME (its file). Provision basis reconciliation (release $0 vs RI-B positive) → read Friday on the release basis, labelled.
-
-## 🟡 SESSION 2026-10-22 (2nd, from 11:20 ET) — governance 8-Ks found uncited (Will-directed, interactive)
-
-**Boot clean** (boot.py rc 0, corrections rc 0, inbox empty, HEAD = origin). EDGAR 10/22 11:2x ET: still nothing since the 10/16 Form 4s. News search: only an earnings preview (StockStory 10/22, consensus revenue +9.4% YoY) — already covered by KB-077.
-
-| What | Fact | So what | KB |
+| Frame item | Print (release/deck, PRIMARY unless *derived*) | Grade on the frame's letter | KB |
 |---|---|---|---|
-| **Three 2026 board/officer 8-Ks this desk never logged** | 3/25 Liberty's Eli Miller joins the board (Risk Assessment Committee) under the 2024 Mnuchin-raise agreement · **5/18 Otting contracted as CEO to 3/6/2028; Raffetto named Chief Banking Officer, running all commercial lending including CRE**; Smith (CFO) adds mortgage banking · 6/9 annual meeting: Otting 99.1%, Mnuchin 96.0%, say-on-pay 81.2%, +12M plan shares (2.88% of shares) | The governance shock class (NO OWNER in the exclusions register) is **quiet, not unknown**: management continuity through March 2028, no material dissent. Nothing moves the CRE mechanism. Raffetto is the executive who owns the workout book; he is on tomorrow's call | 079 |
-| **Full 8-K sweep since the merger (Will: "do the full 8-K sweep now")** | 14 filings 10/3/25 → 7/24/26, each logged or dismissed: `reports/2026-10-22_8K_SWEEP.md` | Two findings below; 3 dismissed as mechanics/calendar | 079–081 |
-| 🔴 **Merger moved the CRE ratio's denominator** | At the 10/17/25 merger the bank took on the holding company's sub-debt: total risk-based capital **+$299M (+3.1%)** at 2025Q4 (Tier 2 +$783M, Tier 1 −$484M; FDIC-published Call Report, cert 32541, ties to 327.5% and $10,003M at 6/30/26) | Of the 2025Q4 drop in SR 07-1 (399.5% → 361.4%, −38.1pp), **−11.3pp is the merger, −26.8pp real run-off**. Direction unchanged, but the −143pp headline carries ~11pp of basis. The issuer's later releases label old holding-company capital figures as "the Bank" | 080 |
-| 🔴 **The reserve drawdown was budgeted** | FY2026 provision guidance **$200–250M → $100–150M (4/24/26) → $90–140M**; adjusted-EPS guide cut every print since first given ($0.75–0.80 → $0.40–0.50). Provisions Q4-25 $3M, Q1-26 **$0**, Q2-26 $18M | The falling reserve this desk watches was a management choice. Guide implies ~$0.15–0.20 EPS a quarter in H2; consensus Q3 ~$0.07, so the Street already prices another cut | 081 |
-| **Surprise routing lines for Friday** (PROME/DAEDALUS ask 11:27 ET) | `reports/2026-10-22_preprint-surprise-threshold-NOTE.md`: EPS ≤$0.04 or ≥$0.10 · revenue outside $529–561M · EPS guide midpoint moves ≥$0.05 · **any provision-guide change** · NII guide moves ≥$50M → route to TERRY + PROME | Routing lines, **not base-rated, not gates**. Frame (sha `cb686b26…`) untouched | 081 |
-| **Price** | $11.27 [10/22 11:22 ET, fetch.py] +1.81% | Information only | — |
+| **A** provision / ACL | Provision **$76M** (Q2 $18M); gross CO **$84M**, NCO $74M; ACL **$869M flat**; FY2026 provision guide **$90–140M → $160–170M** | ">$62M or guide >$140M" **FIRES → for the mechanism** (attribution leads with *rates*, CEO names rent regulation). "Provision ≥ gross CO" does **not** fire (1.11×). ACL up/down rows do not fire (flat). No freeze quantification | 086, 090 |
+| **A** coverage | $869M / $2,817M = **30.85%** *(derived, release basis)* vs 31.04% | New series low via the NAL denominator. **FLG-02 PREVIEW → HIT; graded at the 10-Q** | 086 |
+| **B** non-accrual | NAL HFI **$2,817M** (+$17M); par payoffs **$1.2B, 35% substandard** (MF $837M, 39%) | "NAL ≥ $2,800M" **FIRES → for the stance** (smallest size). Formation, buyer financing, payoff split: **not disclosed** (rules 4, 6, 7) | 086, 088 |
+| **C** FDM | Not in release or deck | Rule 1 — wait for the 10-Q | — |
+| **D** buyback | **~$216M in Q3** *(derived, treasury stock)*, $250M completed early Oct; CET1 13.16% → **12.38%** | "≥ $125M" **FIRES → against the path below 300%, for "capital returned while reserve drawn down"**. SR 07-1 ESTIMATE 334.7% (numerator held) / ~320–322% (numerator proxy) — Call Report grades | 089 |
+| **E** exhibits | EX-99.1/99.2/104 | Clean | 091 |
+| **F** context | MF HFI **$25,948M** (−$983M); NYC RR C&C $4,402M, deck now splits it (SM+SS DSCR 1.14×, NAL 0.74×; weighted 0.99× *derived*); criticized+classified **+$670M** | FLG-03 PREVIEW → HIT. DSCR rule **not graded** (combined row no longer printed) | 087 |
+| **Routing NOTE** | adj EPS **$0.01** vs ~$0.07 (incl. $22M one-time tax benefit; pre-tax −$10M) · revenue $530M · EPS guide $0.40–0.50 → **$0.10–0.15** · NII guide midpoint −$87.5M | **R1, R3, R4, R5 FIRE; R2 does not (by $1M).** TERRY + PROME route owed — this spawn may write only the PROME packet, so the TERRY context rides in the PROME memo | 090, 091 |
 
-No threshold, band, prediction, kill or score moved; the frozen pre-print frame is untouched. Forum post `FORUM/banks/` + PROME packet sent.
+**No threshold, band, prediction letter, kill cell or score moved.** FLG owns zero live gates; nothing the print touched is a gate. **Price:** $11.44 [fetch.py 08:37 ET, as-of 10/22 close, stale pre-market] — not a thesis input.
+
+**Owed (carried from the rotated 10/22 blocks, still open):** EXIT_PROTOCOL re-derivation in both directions + THESIS fold-in of KB-071/073/081/082 **and now KB-086..091** → by the 10-Q (~11/9) · READS.tsv boot-read declaration → PROME's file, asked 10/22 · provision basis (release vs Call Report RI-B) → Call Report 11/14 · **routes owed from today:** TERRY (surprise, NOT-FIRED context), LIQUID + REGINALD (capital ratios moved: CET1 −78bp) — pending PROME's word on sending.
 
 ## 🔴 START HERE — the thesis moved, and the headline number is still not the actionable one
 
@@ -50,11 +34,11 @@ No threshold, band, prediction, kill or score moved; the frozen pre-print frame 
 | Channel | Level | Trajectory | Read |
 |---|---|---|---|
 | CRE concentration (SR 07-1) | 327.5% vs the 300% line | −143pp over 11 quarters (~11pp merger basis, KB-080) | ⬇️ **DE-RISKING — not deterioration** |
-| Nonaccrual **level** | 4.59% *(10-Q basis)* | 4.90% → 4.59% over H1 | ⬇️ improving |
+| Nonaccrual **level** | 4.59% *(10-Q basis, 6/30)* · **4.55% [Q3 release]** | 4.90% → 4.59% over H1; $2,800M → **$2,817M** in Q3 | ➡️ flat (rate down only because loans grew) |
 | Nonaccrual **flow** | **$780M gross formation in H1** | replaced **81.7%** of outflow | 🔴 **churning, not draining** |
-| ACL / nonaccrual coverage | **31.04%** *(10-Q basis)* | 34.62% → 31.04%, −3.58pp | 🔴 deteriorating |
+| ACL / nonaccrual coverage | **31.04%** *(10-Q basis, 6/30)* · **30.85% [Q3 release, derived]** | 34.62% → 31.04% → 30.85% | 🔴 deteriorating — FLG-02 grades at the 10-Q |
 | **Specific reserve vs nonaccrual** | 🔴 **$163M = 5.8%** *(REMAINING reserve — ~20.5% loss already recognised on the rent-regulated NAL subset, KB-FLG-062)* | $1,571M carries **no allowance at all** | 🔴 **THE LIVE SIGNAL** |
-| Capital | $10,003M / **16.58%** | up from 16.23%, on falling RWA | ⬆️ strengthening |
+| Capital | $10,003M / **16.58%** (6/30) · **15.74% / CET1 12.38% [Q3 release]** | ~$216M buyback in Q3 + C&I RWA growth | ⬇️ returned to shareholders while the reserve stayed flat |
 
 **Start from the specific reserve, not from coverage and not from the composite 6/6.** The 31.04% coverage ratio is *total* ACL over nonaccrual; $706M of that reserve sits against the **performing** book. Management's position is that **$1,571M of nonaccrual needs no reserve because collateral covers it** — an appraisal claim, re-run annually at downgrade.
 
@@ -128,9 +112,9 @@ The 87.5%-payoff / 1.6%-cure split was a single observation at v1.0. It is the e
 
 | When | What | Why |
 |---|---|---|
-| **2026-10-23 Fri — release ~06:00 ET, call 08:00 ET (HARD)** | **DOCKET L522 wake** — T-03 Q3 print · T-08 post-fire book read · T-12 litigation · T-07 price backup | Read against `reports/2026-10-21_Q3-2026_PREPRINT_FRAME.md` (written pre-print): A provision/ACL · B NAL flow + $190M payoff leg · C FDM · D buyback vs $250M · E 8-K exhibit index · F context. Release figures do not grade FLG-02/03 |
+| ~~2026-10-23~~ | ✅ **CONSUMED 10/23** — T-03 Q3 print graded (`reports/2026-10-23_Q3-2026_PRINT_GRADE.md`); T-07/T-08/T-12 re-dated to 11/09; T-03 → Q4 release [EST] 2027-01-29 | Call replay to 10/27 if PROME wants the four call questions (buyer financing, payoff split, freeze sizing, buyback) |
 | ~~2026-10-01~~ | ✅ **T-08 FIRED 10/1** — graded this session (KB-FLG-071) | Between wakes the only litigation read is the intake term (DOCKET L467, best-effort) |
-| ~2026-11-06 → check 11-09 | T-02 — Q3-2026 10-Q (+ T-04/T-05, re-keyed 10/21) | **Grades FLG-02 and FLG-03.** Carries the NAL roll-forward, FDM tables, K-1 legs. Observed lag: quarter-end +37d, twice |
+| ~2026-11-06 → check 11-09 | T-02 — Q3-2026 10-Q (+ T-04/T-05, re-keyed 10/21; + T-07/T-08/T-12 re-dated 10/23) — **the L522 10-Q leg** | **Grades FLG-02 and FLG-03.** Carries the NAL roll-forward, FDM tables, K-1 legs. Observed lag: quarter-end +37d, twice |
 | **Check 2026-11-10 (T-13 Next_Check) → deadline 2026-11-13** | **T-13 — Q3 FDM + payoff read (WQ-313 ①, PROME DOCKET L522)** | Will's $29M/$286M reconciliation question; if the data is insufficient, record the figures as reported, "unreconciled / not cohort-identifiable", with no interpretive round |
 | ~2026-11-14 | T-01 — Q3-2026 Call Report | Ingest to `MI3_FLG.tsv`; recompute SR 07-1 |
 | ~2026-10-24 | T-12 — City's complete discovery response due (doc 239) | Petitioners reserved emergency relief after reviewing it; merits "before the end of the year". Docs FLG needs read: 244 + all after 253 (Will's hands, via PROME) |
@@ -153,8 +137,10 @@ The 87.5%-payoff / 1.6%-cure split was a single observation at v1.0. It is the e
 
 ## SESSIONS 2026-10-21 (catch-up wave 2, pre-print frame) + 2026-10-01 (T-08 FIRED) → rotated verbatim to `archive/STATUS_ARCHIVE_2026-10-22.md` (crc32 `a1b17932`) · first 10/22 session (pre-print catch-up, KB-075..078) → same file, second rotation (crc32 `959fd71e`)
 
+## FIX PASS 2026-10-22 + SESSION 2026-10-22 (2nd, 8-K sweep) → rotated verbatim to `archive/STATUS_ARCHIVE_2026-10-23.md` (crc32 `a54fa420`)
+
 ---
 
 ## BOTTOM LINE
 
-**Nothing new from the bank itself: no filing since July except two routine tax-withholding forms, so every credit figure is still June's.** A second pass found three spring filings on board and management changes this desk had never logged: the CEO is contracted through March 2028, the executive who runs commercial real estate lending (Raffetto) was promoted to co-president in May, and shareholders backed management at the June meeting — so the "management or activist shock" blind spot is quiet, not unknown. The full filing sweep found two things that matter more: about 11 points of the commercial-real-estate concentration ratio's fall came from the October 2025 merger moving holding-company debt into the bank's capital, not from shedding loans; and management halved its 2026 loan-loss budget in April, so the shrinking reserve this desk watches was planned. Routing lines for a Friday earnings surprise are now written down, separately from the frozen reading plan. Today's context, written down before the print: junk-bond spreads have widened about 0.67 points in a month, but FLG's problem loans exit through NYC apartment refinancing and note sales, not the junk-bond market, and the link between the two is unmeasured. Valley National's clean quarter this morning says little about FLG, because Valley holds about one-seventeenth as much rent-regulated lending; Zions, Eagle Bancorp and Huntington show non-paying loans edging up while reserves fall, the same shape as FLG but from far thicker reserves, so nothing moves FLG's reserve read before the print. The reading plan is frozen. The stock's extra drop since October 1 coincides with three analyst target cuts and rising short interest, which is association, not a proven cause. This afternoon's fix pass brought the desk's files back in line with each other; the exit conditions get re-derived after Friday's results. **Next wake: Fri 10/23, results ~06:00 ET, call 08:00 ET, read against the pre-print frame; then the 10-Q ~11/6–11/9, which actually grades the predictions.**
+**Flagstar's third quarter, out this morning, missed and management cut its outlook hard: earnings of 1 cent a share (helped by a one-time tax refund; before tax the bank lost $10M), the 2026 loan-loss budget raised from $90–140M to $160–170M, and the 2026 and 2027 profit targets roughly halved, with the 2027 goals pushed to 2028.** On this desk's thesis, the reserve held flat at $869M while problem loans ticked up to $2,817M, so the reserve now covers 30.85% of non-paying loans, a new low; in the same quarter the bank spent about $216M buying back its own stock and loans graded "criticized" rose $670M. Management blames higher interest rates first and names New York rent regulation as one of the pressures; it gave no estimate of what the rent freeze will cost. **What it did not show (how problem loans left the books, who financed the buyers, the modified-loan tables) comes in the 10-Q around 11/6–11/9, which is the next wake and the one that actually grades the predictions.**
