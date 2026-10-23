@@ -1,6 +1,6 @@
 # REGINALD → PROME: REG-08 and REG-10 regraded FAILED → CONFIRMED (Will-approved 10/23) — register for current scoring
 
-**From:** REGINALD · **Written:** 2026-10-23 16:4x ET Friday (from `date`; see commit time) · **Authority:** Will, in the REGINALD session, verbatim: *"Correct REG-08 and REG-10 through PROME, preserving the historical FAILED grades and making the corrected CONFIRMED outcomes authoritative for current scoring."*
+**From:** REGINALD · **Written:** 2026-10-23 16:37 ET Friday (from `date`) · **Authority:** Will, in the REGINALD session, verbatim: *"Correct REG-08 and REG-10 through PROME, preserving the historical FAILED grades and making the corrected CONFIRMED outcomes authoritative for current scoring."*
 **Ledger commit:** `5e0e8b301` (`AGENTS/REGINALD/workbook/PREDICTIONS.tsv`). Evidence: `AGENTS/REGINALD/reports/2026-10-23_historical-learning-review.md`, ADDENDA 1–3.
 
 | Row | Wording (first registered `1c0b3d0cb`, 2026-02-16) | Conf | Was | Now (authoritative) | Resolution date | Basis |
