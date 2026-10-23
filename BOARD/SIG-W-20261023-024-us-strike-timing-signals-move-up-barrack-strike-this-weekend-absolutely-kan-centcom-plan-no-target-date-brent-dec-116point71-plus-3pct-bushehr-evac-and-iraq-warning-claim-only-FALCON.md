@@ -1,0 +1,45 @@
+---
+signal_id: "SIG-W-20261023-024"
+date: "2026-10-23"
+timestamp: "2026-10-23T18:41:38Z"
+dispatched: "2026-10-23T18:41:38Z"
+source: "x-bookmark"
+origin: "Will's X bookmarks batch BM-20261023-05 items 35, 38 (Kan via FirstSquawk/Faytuks), 45, 47 (Kurdish Channel 8 via Faytuks/HormuzLetter), 40, 52, 55 (Bushehr, HormuzLetter/WarMonitor3), 36, 42 (Reuters via HormuzLetter/Faytuks), 13 (WSJ), 3 (zerohedge prices), 23 (commentary). Checked by WALTER 10/23 18:35-18:41Z (wall clock at the tape pull 18:35:31Z and the card 18:41:38Z): CBS live page read at source; Times of Israel, Arab News, NewsBytes via search (Barrack); Biztoc relay of Kan via search; Kurdistan24 AFP story read at source (10/21 12:10); Oman Observer/Iran International via search (Javani 10/21); Rosatom history via Moscow Times/AA/Times of Israel/AOL-Reuters/AP via search; vendor tape fetch.py 18:39Z. Reuters cable story and WSJ not read at source."
+domain: "GEOPOL_ENERGY"
+cluster: "IRAN_HORMUZ"
+action: ["FALCON"]
+info: ["BRENT", "HAWK", "SAM", "CYPHER", "RED", "PROME"]
+precedence: "IMMEDIATE"
+signal_type: "catalyst"
+confidence: 0.7
+confidence_language: "Barrack quote, Kan report, AFP border closures and price levels confirmed at two or more outlets or at source; Bushehr evacuation and the US-warned-Iraq item are single-family secondary CLAIM-ONLY; Barrack has no Iran policy role (CBS, Times of Israel)"
+resources: 6
+safety_net: "clear (no US naval vessel interdiction; VIX 19.89 +4.5% intraday 18:35Z, under +5 points)"
+word_count: 643
+entities: ["Tom-Barrack", "CENTCOM", "Kan", "Trump", "Iraq", "Ali-al-Zaidi", "Rosatom", "Bushehr", "IRGC", "Yadollah-Javani", "undersea-cables", "Brent", "BZZ26", "CLZ26", "Aramco"]
+event_window: "closed"
+anchor_unverified_as_of: "2026-10-22"
+dispatch_note: "Will bookmarks, 13 Iran items folded into one card. Iran guards consulted: POTUS/envoy channel = tape, declaratory-control, ADD#24 capacity-vs-loss, date traps. Anchor line 'the 10/8 no-attack-before-11/3 pledge stands' is freshly contradicted by envoy tape, and the anchor lists any Iran-cluster dispatch as an immediate re-verify trigger: routed first (decay), full sweep commissioned as follow-up. Boundary #1 (Brent >=120 x3 settles) is 2.8% away on an intraday December read: near-trigger watch, not a fire."
+---
+# US strike-timing signals moved forward on Friday 10/23: a US envoy said a strike on Iran 'this weekend' is 'absolutely' possible and Israel's Kan says Trump ordered CENTCOM to prepare a plan with no target date; Brent December rose 3.1% to about $116.71 intraday. The Bushehr evacuation and the 'US warned Iraq's prime minister' reports are unconfirmed
+
+**What moved (10/23):**
+
+| Item | Source state | Read |
+|---|---|---|
+| **Tom Barrack** (US ambassador to Turkey): "Could there be a strike this weekend? Absolutely," paired with "we want a deal" and "not regime change" | CBS live page (read at source), Times of Israel, Arab News, NewsBytes; Israeli army radio / Mario Nawfal interview | ⚠️ **Envoy tape, not a decision.** CBS and Times of Israel: Barrack has no direct Iran role and it is often unclear whether he speaks for the administration |
+| **Kan (Gili Cohen):** Trump directed CENTCOM to draft an Iran strike plan **without a target date**; Israel on security alert; unlike before, preparations did **not** lead to approval of an immediate strike | Kan via Biztoc (search) and FirstSquawk/Faytuks relays; Kan original not read | Consistent with the 10/7 Pentagon directive (no date, no final decision) already in circulation |
+| **Trump 10/23 11:33 ET:** "Do we want to finish it off or do we just want to let it wither?"; "We could take the whole country" | CBS page | POTUS channel = tape |
+| **Iraq** closing most land crossings with Iran **under US pressure**: Shaib shut 06:00 Wed 10/21; Mehran and one northern crossing stay open | AFP via Kurdistan24, 10/21 12:10 (read at source) | Real, dated 10/21, not 10/23 |
+| "US warned PM al-Zaidi of **planned airstrikes in the coming days**"; al-Zaidi told armed groups not to interfere | Kurdish **Channel 8** only, via Faytuks/HormuzLetter | ⛔ **CLAIM-ONLY**, single source family |
+| **Russian evacuation flights from Bushehr** (Il-76s, a Tu-134 transponder off; "finished evacuating") | HormuzLetter, WarMonitor3, "local sources"; no Rosatom, Reuters or AP found | ⛔ **CLAIM-ONLY.** ⛔ The tweets' "last time was Feb 28, 94 people" is **false**: Rosatom evacuated in waves in March (163, Reuters 3/25) and April (AP 4/13: about 20 caretakers left). At most a caretaker group remained to leave |
+| **Iran retaliation threats:** plans to cut the **7 major Gulf undersea cables** and block repairs if attacked (Reuters, two senior Iranian security officials, via relays; IRGC's Javani said the same on 10/21, Oman Observer); strikes on **Gulf airports, pipelines and civilian targets**, not only US bases (WSJ 10/23) | Reuters and WSJ pages not read | Threat, not act. Analysts: Hormuz cable segments carry under 1% of world bandwidth; Gulf states more exposed than Iran |
+| Iranian state TV: "non-compliant" vessel movement through Hormuz **halted** (10/23 08:30 ET, CBS) | state TV | ⛔ Declaratory-control claim: move on behavior, not the declaration |
+
+**Tape (vendor, intraday 18:39Z, not settles):** Brent December BZZ26 **$116.71 (+3.13%)** (contract name truncated by the probe; CBS: Brent "over $117", under $97 at the start of October); WTI CLZ26 **$103.26 (+3.81%)**. **Boundary #1** (Brent close >= $120 for 3 sessions) is **2.8% away** on an intraday December read: near-trigger WATCH, not a fire; BZZ26 last trades Fri 10/30. RED-FT-03 (>130) not near.
+
+**Against the anchor (10/22 sweep):** ladder #3 (US strike) **not fired**. The anchor's "the 10/8 no-attack-before-11/3 pledge stands" is now contradicted by envoy tape and by CBS's own 05:38 line (Trump and Netanyahu threatening strikes after the midterms): two directions, carry both. **FALCON owns the grade.** A full re-verify sweep is owed (anchor trigger: any Iran-cluster dispatch) and follows this card.
+
+⚠️ **Aramco 7 mb/d:** CBS (10/23 05:38) attributes to Aramco's CEO that East-West **capacity** rose from 2 to 7 mb/d. That is a capacity statement (anchor: 7 mb/d CAPACITY); ⛔ never "7 mb/d flowing" or "offline" (ADD#24). WALTER's 13:11Z kill of an oilprice round-up line stays a kill of the throughput reading; BRENT/FALCON own the basis.
+
+**FALCON ACTION:** grade the posture change; say whether the pledge line in your record and the anchor's is superseded. **INFO:** BRENT (tape, boundary #1 watch), HAWK, SAM (oil-yen), CYPHER (cable threat), RED, PROME. No trade is implied.
