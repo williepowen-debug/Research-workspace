@@ -241,3 +241,55 @@ The improvements are real but procedural and epistemic. The financial-judgment p
 - **Recommendation 1 stands, with one addition:** a grade is written only from the forecast's own wording, quoted beside the evidence, by a reader other than the forecaster.
 
 **Owed to Will (not done):** correcting REG-08 and REG-10 in `workbook/PREDICTIONS.tsv`. This review's scope forbids changing original forecast records, and ledger corrections go through PROME. The original FAILED grades would be preserved; a correction would be appended.
+
+---
+
+## ADDENDUM 2 — 2026-10-23 16:2x ET: outside review points 2–3 adjudicated (no live method or ledger changed)
+
+### Point 2 — the matrix's reserve-coverage point. **The reviewer is right; my stated justification is wrong.**
+`BANK_EXPOSURE_MATRIX.md:37–38` adds 1 point when ACL/nonaccrual < 100%, "not a judgment call… <100% means the reserve is arithmetically insufficient for loans already on nonaccrual". **That is false.**
+- An allowance estimates *expected loss*, net of collateral and recoveries. It is not meant to equal the balance of the problem loans.
+- Nonaccrual balances are often already written down by partial charge-offs (FLG: $348M taken on the rent-regulated nonaccrual book since Jan 2024).
+- My own evidence contradicts the claim. The 10/22 appraisal-discount test found realized resolution haircuts of ~13–22%. FLG's recognised loss is 20.7% of original balance. Reserving 100% of nonaccruals would mean expecting a total loss.
+- **Graded: CONTRADICTED as "arithmetic"; UNPROVEN as a warning signal.** The 100% line is a hypothesis with no base rate.
+
+What the point changes (scores at 8/20):
+
+| | FLG | EGBN | AMTB | VLY | WAL | BKU | others |
+|---|---|---|---|---|---|---|---|
+| v2.0 | 6 | 5 | 5 | 3 | 2 | 2 | unchanged |
+| without the coverage point | 5 | 4 | 4 | 3 | **1** | **1** | unchanged |
+
+- **The top three survive without it** (it adds to names already high on the nonaccrual band, which partly double-counts: high nonaccrual mechanically lowers coverage).
+- It moves only WAL and BKU.
+- The matrix's sentence "that is the single most decision-relevant column" (§2) is **overstated**.
+
+Crude outside check (8/20 → 10/22 total return, 14 banks; Spearman, where negative = riskier score went with worse returns, the direction a vulnerability rank should show):
+
+| Ranking | Spearman |
+|---|---|
+| v2.0 | +0.39 |
+| v2.0 without the coverage point | +0.48 |
+| Simple baseline: Q2 nonaccrual rate only | −0.05 |
+
+**None works on price, and price is not the matrix's target.** This is not the test; it only shows that the coverage point does not rescue the ranking on the one outside check available.
+
+### Point 3 — Brier recalculation. **The reviewer's arithmetic is right; one premise needs updating.**
+- 0.187 / 0.154 / 0.168 all reproduce exactly.
+- The reviewer is right that flipping REG-08 to success *worsens* its contribution (a 45% call on an event that happened: 0.2025 → 0.3025). **My first addendum's 0.162 improved only because of REG-10, not REG-08**, and that addendum did not say so.
+- **Updated premise:** REG-10 should not be excluded as "registered after its outcome". It was registered on 2/16, after PSEC's *February* hold. But its wording covers all of 2026, and the resolving event (the May cut, 8-K acc 0001287032-26-000165) came three months *after* registration. It was a real forecast; what was wrong was the February FAILED grade.
+
+| Variant | n | Brier |
+|---|---|---|
+| Ledger as written | 8 | 0.187 |
+| REG-08 corrected only | 8 | 0.200 |
+| REG-08 and REG-10 corrected | 8 | 0.162 |
+| Reviewer: REG-10 excluded, REG-08 corrected | 7 | 0.168 |
+| Only objectively graded and re-verified rows (REG-08, 10, 11, 20, 26), corrected | 5 | 0.154 |
+
+**Honest statement: somewhere between 0.15 and 0.20 depending on defensible choices, on 5–8 forecasts. That is not evidence of skill.** Agreed with the reviewer.
+
+### On the recommendations (reviewer amendments accepted in substance)
+- **More predictions:** one or two consequential, pre-registered expectations per bank print, each with a baseline. Keep credit, earnings and price forecasts separate. Do not manufacture volume.
+- **Ranking test (highest value):** keep the 8/20 scores frozen. At the 11/07 Call Report run, test v2.0, v2.0 without the coverage point, and simple baselines (prior nonaccrual rate; prior quarter's nonaccrual change) against the Q2 → Q3 change in nonaccrual (`RCON1403`) and Q3 NCO. ⚠️ **Contamination:** I have already read Q3 *releases* for 13 of the 14 names (all but SBCF). The test is mechanical, so freezing its exact computation *before* 11/07 is what keeps it honest. Not frozen here; it needs Will's go-ahead.
+- **Overhead:** for each control, record its cost, what it catches, whether another control catches the same thing, and how bad a miss would be, then remove redundancy. That replaces my "retire if it caught nothing in a month", which would remove rare-but-severe guards.
