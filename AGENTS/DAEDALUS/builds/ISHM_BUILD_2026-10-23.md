@@ -82,4 +82,11 @@
 
 **`DATA_ROUTES.md`:** 14 routes, each with its reach.
 
-**Bellwether earnings rows:** owed. A second helper is verifying the dates at each company's IR page; until then FIRST_SESSION item 2 covers them.
+**Bellwether earnings and J1 rows (added the same morning):** 7 rows, from a second helper that checked the company IR pages, 8-Ks and the BEA/Census schedules.
+- Already out before build: GE Aerospace 10/20, 3M 10/20, Honeywell 10/22, Union Pacific 10/22 — one P1 row, dated 10/22.
+- CAT 10/29 (SECONDARY; site blocked).
+- EMR 11/04 and PH 11/05 (PRIMARY).
+- A Deere date-check row on 11/12 (TBD; not yet announced).
+- BEA Q3 GDP advance 10/29 (J1 leg 3) and FT-900 trade 11/04 (J1 leg 2), both PRIMARY.
+
+The catalyst file now has **39 rows**. Boot shows two true positives: the 10/22 earnings row is past and unread (MISSED PRINT), and today's flash PMI row is due.

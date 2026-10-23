@@ -5,7 +5,7 @@
 ## Start here
 
 1. **ISHM tail** (`builds/ISHM_BUILD_2026-10-23.md`):
-   - add the bellwether earnings rows to `AGENTS/ISHM/docket/CATALYSTS.tsv` once the IR-date helper's file is in, or leave them to ISHM's FIRST_SESSION item 2 — checked at the company IR pages either way;
+   - bellwether earnings and J1 rows are in (39 catalyst rows); the Deere date is still unannounced (11/12 check row);
    - read WATT's reply to the grid-equipment ASK;
    - watch WQ-507 (Will) and WALTER's domain code / routing row.
    ISHM's first session is PROME's to spawn.
