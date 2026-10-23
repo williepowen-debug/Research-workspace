@@ -140,7 +140,7 @@ write-only outputs with no boot read (CHANGELOG/MAINTENANCE are reference-only �
 reconstructing how a view, or the architecture, evolved; NEXUS_BRIEF is read by NEXUS, not OTTO).
 
 1. **Update `STATUS.md`** *(mirror of boot 1)* — signal dashboard, status changes, watchlist,
-   and any thesis-level movement (STATUS owns the thesis block until Phase 3). Keep the
+   and any thesis-level movement (STATUS carries the live thesis-state mirror; canonical narrative = `thesis/THESIS.md`, per Doc Ownership). Keep the
    boot-pointer at top current — it's the first thing next boot orients on.
    **Re-score the CONVERGENCE MATRIX** for every vector whose local state moved this session
    (score = the local colour's mapping, never a fresh judgment), and rewrite the composite as
@@ -573,4 +573,4 @@ AGENTS/OTTO/
 
 ---
 
-*OTTO CLAUDE.md **v3.0** | 2026-10-19 — s031: LESSONS rebuilt from OTTO mistakes and added as boot3a; no threshold or routing authority changed. Prior **v2.9** 2026-10-14 — s029: closeout step 1 re-scores the §2 CONVERGENCE MATRIX; STATUS ownership row names it; WINTERKORN cadence re-written (each session ≥7d since last run, + T-3) and docket/memory archive files added. v2.8 (same day) — s028 file-review bundle (Will-approved): recovery trigger marked FIRED 9/2; recovery perimeter named in thresholds + invalidation; brief-pin check per NEXUS Amendment 11; byte-cap closeout; frozen-ledger and OUTBOX pointers retired; file tree + ownership rows for the 10-D panel. v2.7 (2026-06-09) introduced WINTERKORN. **Full version/structural history → `MAINTENANCE.md`.***
+*OTTO CLAUDE.md **v3.0** | 2026-10-19 — s031: LESSONS rebuilt from OTTO mistakes and added as boot3a; no threshold or routing authority changed. **Full version/structural history → `MAINTENANCE.md`.***

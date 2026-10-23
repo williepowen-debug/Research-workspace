@@ -17,7 +17,8 @@ You are part of a multi-agent research network tracking systemic financial risk.
 
 - **PRODUCES** — prediction-market probability reads + divergence signals; canonical artifact = `NEXUS_BRIEF.md` (cross-agent surface, refreshed every closeout) + the live `STATUS.md` dashboard + `KB.tsv` divergence rows.
 - **CONSUMED BY** — NEXUS (via `NEXUS_BRIEF.md`), TERRY (dislocation / thin-liquidity handoff), LIQUID, and all agents via market-implied probabilities routed on divergence.
-- **PROOF OF CONSUMPTION** — `NEXUS_BRIEF.md` `As of:` / `STATUS commit:` stamp read by NEXUS each cycle; TERRY handoff on dislocations; `ODDS_LOG.tsv` / `HISTORY.tsv` accruing. *(Some downstream use is informal/qualitative — a consumer citing the crowd read — which counts as proof; PAT-028.)*
+- **PROOF OF CONSUMPTION** — `NEXUS_BRIEF.md` `As of:` / `STATUS commit:` stamp read by NEXUS each cycle; TERRY handoff on dislocations. *(Some downstream use is informal/qualitative — a consumer citing the crowd read — which counts as proof; PAT-028.)*
+- **Production evidence** (not consumption) — `ODDS_LOG.tsv` / `HISTORY.tsv` accruing.
 
 ---
 
@@ -46,7 +47,7 @@ Mirror of boot — write back what you read:
 8. **`STATUS.md`** — rewrite the live dashboard (alerts to top, <250 lines). *[mirror of boot 4]*
 9. **Workbook** — log derived claims/divergences to `KB.tsv` (validate vs `SCHEMA.tsv`/`VOCABULARIES.tsv`); `pull --log` already appends `ODDS_LOG.tsv`; refresh `history --write` if trajectory moved; log threshold state-changes to `VX.tsv`. **Mark superseded rows STALE — don't delete.** *[mirror of boot 5]*
 10. **`SCRATCH.md`** — full rewrite (canonical handoff): CHANGES SINCE / WHAT I DID (w/ commit hashes) / NEXT SESSION (dated, priority-flagged) / CARRY-FORWARD (incl. **Push state:** unpushed hashes) / OPEN HYPOTHESES. *[mirror of boot 3]*
-11. **`NEXUS_BRIEF.md`** — **MANDATORY every session, even no-change** (floor: bump `As of:` stamp + `STATUS commit:` hash so staleness self-corrects). The cross-agent surface NEXUS/peers read; required cross-agent-tensions line ("None active" if empty). No marks/P&L.
+11. **`NEXUS_BRIEF.md`** — **MANDATORY every session, even no-change** (floor: bump `As of:` stamp + `STATUS commit:` hash so staleness self-corrects). The cross-agent surface NEXUS/peers read; required cross-agent-tensions line ("None active" if empty). No marks/P&L. **Fold it LAST:** after step 12 and any final STATUS edit, immediately before commit (NEXUS schema §4.1).
 12. **Roll-watch / forward docket** — near-dated resolutions (⏳/⛔ from `pull`) → re-search + re-pin in `watchlist.tsv`; carry the roll-watch in STATUS flags + NEXUS_BRIEF FORWARD CATALYSTS. *(ORACLE's analog of a predictions-due scan.)* **Weekly: run `polymarket.py coverage`** (theme-coverage sweep) if >7d since the last run — nominate un-tracked deep markets, confirm relevance, pin. Guards against the "deep-but-slow market on an un-tracked theme" blind spot (CLARITY Act, 2026-07-22).
 13. **Promotion scan** — transferable cross-agent lesson → auto-memory (+ one-line `MEMORY.md` index, then REMOVE from local to avoid drift); ORACLE-specific durable learning → `MEMORY.md`; structural change (doc/script/protocol) → `MAINTENANCE.md` entry (Trigger / What / Files / Boot-impact).
 14. **Git** — commit own files per root CLAUDE.md §Git Protocol (pathspec `AGENTS/ORACLE/`) + auto-push via `scripts/safe-push.sh` (ff-gated; non-ff → `git pull --rebase` + re-push, never force — note it in SCRATCH and flag PROME/Will if it recurs).

@@ -34,7 +34,7 @@ Skip for casual one-off exchanges with no artifacts. **Live-event override:** if
 | Tier | When | Touches | Commit? |
 |---|---|---|---|
 | **Bounce** | Mid-session restart; coming back within the hour | MEMORY.md CURRENT block addendum (3-5 lines) | No |
-| **Light** | Short session paused for hours; 1-2 artifacts; audit can wait for end-of-day | STATUS surgical + MEMORY surgical | Optional |
+| **Light** | Short session paused for hours; 1-2 artifacts; audit can wait for end-of-day | STATUS surgical + MEMORY surgical | Commit (root session-end; WQ-508 D12) |
 | **Standard** *(default)* | End-of-thread or end-of-day; multi-artifact session | Chunk 1 + Chunk 2 (if triggered) + Chunk 5 | Yes |
 | **Heavy** | Pattern-discovery session; durable findings; structural shift | Standard + Chunk 3 + Chunk 4 (auto-memory) | Yes |
 
@@ -78,10 +78,10 @@ Touch only the rows below that this session actually changed.
 |---|---|---|
 | `workbook/KB.tsv` | Session produced a durable finding (structural, not episode) | Append KB-LIQ-NNN row with date/category/tag/fact/source/conf/status/stale_by/notes. Cross-link to source file if applicable. |
 | `workbook/PREDICTIONS.tsv` | A prediction resolved (achieved, falsified, expired) | Update Status / Date_Resolved / Outcome / Notes |
-| `workbook/CATALYSTS.tsv` | A dated catalyst was added, resolved, or its date shifted | Add/update/retire the row; keep `CALENDAR.md` (human twin) in sync — no event-set divergence; validate via `(cd "$(git rev-parse --show-toplevel)" && .venv/bin/python3 AGENTS/LIQUID/scripts/boot.py --selftest)` (cwd-proof — bare `scripts/boot.py` fails from the launch dir) |
+| `workbook/CATALYSTS.tsv` | A dated catalyst was added, resolved, or its date shifted | Add/update/retire the row; keep `CALENDAR.md` (human twin) in sync by hand — compare event sets; validate CATALYSTS via `(cd "$(git rev-parse --show-toplevel)" && .venv/bin/python3 AGENTS/LIQUID/scripts/boot.py --selftest)` (cwd-proof; it never reads `CALENDAR.md`) |
 | `workbook/KILL_MEMO_HY_OAS_260.md` | Trigger ladder thresholds changed or a trigger fired | Update tier rows; mark fired triggers |
 | `workbook/BDC_MARK_CONVERGENCE_MONITOR.md` | Q1 BDC marks landed or new mark divergence | Update OBDC/ARCC/BXSL/MAIN rows |
-| `workbook/FLOW.tsv` / `workbook/VX.tsv` | A registry entry was touched (status change, new vector) | Surgical row update |
+| `workbook/FLOW.tsv` / `workbook/VX.tsv` | FROZEN 2026-07-11 | No update; record the change in STATUS/KB |
 | `workbook/AUCTION_FRAMEWORK.md` / `TIC_FRAMEWORK.md` | Methodology changed (rare) | Surgical edit |
 
 **Don't auto-touch** at closeout: `domain/sources/`, `archive/`, `thesis/`. Those are reference layers.
@@ -93,7 +93,7 @@ Touch only the rows below that this session actually changed.
 If a 🔴 or 🟠 cross-agent threshold breached this session (per CLAUDE.md CROSS-AGENT SIGNALS table):
 
 1. **Write the packet** using the standard format (headline / detail / source / priority), filename `YYYY-MM-DD_to-[target]_[short_description].md`.
-2. **Route it via WALTER** — write the packet to `AGENTS/WALTER/inbox/YYYY-MM-DD_from-LIQUID_ROUTE-<slug>.md` and self-commit it (carve-out ①); WALTER publishes the BOARD row and delivers the per-recipient handoff. ⛔ **CORRECTED 2026-09-03 (DAEDALUS route-around census; the 9/2 `CLAUDE.md` fix had not reached this file):** this step read *"Deliver it to the target agent's `inbox/` directly"* — itself a 7/23 correction of a dead-HERMES line, so the 7/23 fix replaced a dead router with a bypass of the live one. **Root canon: never route signals around WALTER.** Direct inbox delivery stays correct for ANALYSIS packets (an adjudication, a correction, a reply to a named peer's ask) — never for a signal. **`outbox/` is reserved for PROME-action requests.**
+2. **Route it via WALTER** — write the packet to `AGENTS/WALTER/inbox/YYYY-MM-DD_from-LIQUID_ROUTE-<slug>.md` and self-commit it (carve-out ①); WALTER publishes the BOARD row and delivers the per-recipient handoff. ⛔ **CORRECTED 2026-09-03 (DAEDALUS route-around census; the 9/2 `CLAUDE.md` fix had not reached this file):** this step read *"Deliver it to the target agent's `inbox/` directly"* — itself a 7/23 correction of a dead-HERMES line, so the 7/23 fix replaced a dead router with a bypass of the live one. **Root canon: never route signals around WALTER.** Direct inbox delivery stays correct for ANALYSIS packets (an adjudication, a correction, a reply to a named peer's ask) — never for a signal. **PROME requests → `PROME/inbox/`; `outbox/` = optional sender copy.**
 3. **Commit self-authored recipient inbox packets explicitly under root Git carve-out①.** Shared/root files outside the named carve-outs remain PROME-owned; never sweep another desk’s changes.
 4. **Append to `AGENTS/SIGNALS.md`:** `| DATE | LIQUID | TARGET | 🔴/🟠 | Description |` row.
 
@@ -121,7 +121,7 @@ If no surprising lessons: skip.
 
 ---
 
-## Chunk 5 — Git + report (Standard / Heavy; Light optional; Bounce skips)
+## Chunk 5 — Git + report (Standard / Heavy / Light; Bounce skips)
 
 ### Git (fleet standard — root CLAUDE.md §Git Protocol owns the rules; cite, don't restate)
 
@@ -140,10 +140,10 @@ One short message:
 
 ## Skip rules
 
-- **`AGENTS/<other>/` files** — never edit. A SIGNAL routes via WALTER (Chunk 3); `outbox/` is for PROME-action requests only.
+- **`AGENTS/<other>/` files** — never edit. A SIGNAL routes via WALTER (Chunk 3); PROME requests → root `PROME/inbox/`; `outbox/` = optional sender copy.
 - **Analysis packets** (an adjudication, a correction, a reply to a named peer's ask) are written into that peer's own mail folder under carve-out ① and self-committed — that lane is for analysis, not for threshold fires or market data.
 - **Inbox processing** — only on inbox-spawn task (per CLAUDE.md MAIL rule). Don't sweep `inbox/` at closeout.
-- **`HEARTBEAT.md`** — flag to Prome via outbox; never commit yourself (per root CLAUDE.md scope rule).
+- **`HEARTBEAT.md`** — flag to PROME by packet in `PROME/inbox/`; never commit yourself (per root CLAUDE.md scope rule).
 - **Root `CLAUDE.md`, `AGENTS/SIGNALS.md` structure changes, `FORGE/`** — flag to Will/Prome; don't auto-edit.
 - **`thesis/`, `domain/sources/`, `archive/`** — don't auto-touch at closeout. These are reference layers; touch only when explicitly working on them.
 
@@ -170,14 +170,14 @@ One short message:
 | `thesis/THESIS.md` / `thesis/CHANGELOG.md` / `thesis/TIMELINE.md` | Don't auto-touch; thesis-rewrite sessions only |
 | `workbook/KB.tsv` | Append only if durable finding (most sessions: skip) |
 | `workbook/PREDICTIONS.tsv` | Only if a prediction resolved |
-| `workbook/CATALYSTS.tsv` | Sync with `CALENDAR.md` on any dated-catalyst add/resolve (boot countdown reads it); validate via `(cd "$(git rev-parse --show-toplevel)" && .venv/bin/python3 AGENTS/LIQUID/scripts/boot.py --selftest)` (cwd-proof) |
+| `workbook/CATALYSTS.tsv` | Sync `CALENDAR.md` by hand on any dated-catalyst add/resolve (boot countdown reads CATALYSTS); `--selftest` (Chunk 2) never reads CALENDAR |
 | `workbook/KILL_MEMO_HY_OAS_260.md` | Only if trigger ladder changed |
 | `workbook/BDC_MARK_CONVERGENCE_MONITOR.md` | Only if Q1 marks landed |
-| `workbook/FLOW.tsv` / `workbook/VX.tsv` | Only if registry entry updated |
+| `workbook/FLOW.tsv` / `workbook/VX.tsv` | FROZEN 2026-07-11 — no update; record changes in STATUS/KB |
 | `workbook/AUCTION_FRAMEWORK.md` / `TIC_FRAMEWORK.md` | Only if methodology changed (rare) |
-| `outbox/` | Trigger-gated — only if cross-agent threshold fired |
+| `outbox/` | Optional sender copy only; PROME requests → `PROME/inbox/`; other delivery per Chunk 3 / Skip rules |
 | `AGENTS/SIGNALS.md` (root) | Append only on cross-agent threshold breach |
-| `~/.claude/.../memory/` (auto-memory) | Selective; Heavy tier only |
+| Root `memory/auto/` (auto-memory) | Selective; Heavy tier only |
 | `domain/sources/`, `archive/` | Don't auto-touch |
 | `AGENTS/<other>/` | Never |
 | Root `CLAUDE.md`, `HEARTBEAT.md`, `FORGE/` | Flag to Will/Prome; don't auto-edit |

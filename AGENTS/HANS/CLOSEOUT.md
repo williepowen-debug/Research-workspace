@@ -21,7 +21,7 @@ Before `/clear` or `/new` · before stepping away from a long session · after a
 | Tier | When | Touches | Commit? |
 |---|---|---|---|
 | **Bounce** | Mid-session restart, back within the hour | STATUS header line only | No |
-| **Light** | Short session, 1–2 artifacts, no level moved | STATUS surgical + the ledger you touched | Optional |
+| **Light** | Short session, 1–2 artifacts, no level moved | STATUS surgical + the ledger you touched | Commit (root session-end; WQ-508 D12) |
 | **Standard** *(default)* | End of thread/day; levels refreshed, mail drained, packets sent | Steps 1–12 | Yes |
 | **Heavy** | Tooling built, a durable lesson earned, or a structural change | Standard + `ML.tsv` + auto-memory candidate + `CLAUDE.md` rule | Yes |
 
@@ -52,7 +52,7 @@ Before `/clear` or `/new` · before stepping away from a long session · after a
 
 ## The runner
 
-`python3 scripts/closeout_check.py` executes every mechanical step above and prints **RAN / FAILED** per step, then **lists the judgement steps it cannot verify**. ⛔ **It does not certify those — a runner that claimed to would be the same defect one level up.** Its whole purpose is that **a step which did not execute appears as a gap**, which is the one thing no individual check can report.
+`python3 scripts/closeout_check.py` executes every mechanical step above **except root 1d** (conditional, step 11 — run it by hand) and prints **RAN / FAILED** per step, then **lists the judgement steps it cannot verify**, 1d among them. ⛔ **It does not certify those — a runner that claimed to would be the same defect one level up.** Its whole purpose is that **a step which did not execute appears as a gap**, which is the one thing no individual check can report.
 
 ## Surfaces boot reads — closeout must write back to each, or say no-op
 

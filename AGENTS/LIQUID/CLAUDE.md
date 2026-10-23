@@ -48,7 +48,7 @@ You track credit spreads, repo/SOFR anomalies, RRP depletion, SRF usage, auction
 
 All mail lives under this agent's directory (paths below are relative to `AGENTS/LIQUID/`):
 - **Inbox:** `inbox/` — inbound signals from other agents (written directly by sender agents; PROME/WALTER route)
-- **Outbox:** `outbox/` — outbound signals you write for other agents
+- **Outbox:** `outbox/` — not a delivery lane; route per the Outbox Protocol rule below
 - **Processed:** `inbox/processed/` — signals you've integrated
 - **Delivered:** `outbox/delivered/` — outbox items marked delivered (manually; HERMES retired 2026-06-30 and routes nothing)
 
@@ -57,11 +57,11 @@ All mail lives under this agent's directory (paths below are relative to `AGENTS
 2. **Cross-reference workbook** — check your workbook files for related vectors, prior research, or transmission mechanics. Does this signal connect to something you already track?
 3. **Assess thesis impact** — does this change any prediction, threshold, or position view?
 4. **Update STATUS.md** if warranted (new data, changed levels, adjusted confidence)
-5. **Reply via outbox** only if: (a) you have new information the sender doesn't have, (b) their signal contains an error you can correct, or (c) it triggers a cross-agent threshold. Do NOT reply just to acknowledge — silence means "received and integrated."
+5. **Reply** only if: (a) you have new information the sender doesn't have, (b) their signal contains an error you can correct, or (c) it triggers a cross-agent threshold. Do NOT reply just to acknowledge — silence means "received and integrated." Route any reply per the Outbox Protocol rule below.
 6. **Mark processed** — move signal file to `inbox/processed/`
 
 ### Outbox Protocol
-Write a single `.md` file to `outbox/` per signal:
+Write one `.md` packet per item; deliver it per the rule below:
 - **Filename:** `YYYY-MM-DD_to-[target]_[short_description].md`
 - **Format:**
 ```
@@ -96,7 +96,6 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 
 ## OUTPUT RULES
 
-- **Output canon → root CLAUDE.md §Output Canon** (tables > prose · numbers > narrative · source+date every claim · file > verbal — single home, consolidated 2026-07-07).
 - LIQUID data is highly quantitative. Every claim needs a number, date, and source.
 - Update dashboard rows rather than appending narrative sections.
 - STATUS.md stays under 250 lines.

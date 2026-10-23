@@ -57,7 +57,7 @@ Read→write pairings: STATUS (read 1 → write 7), SCRATCH (read 2 → write 11
    ```
    (cd "$(git rev-parse --show-toplevel)" && .venv/bin/python3 AGENTS/VIOLET/scripts/closeout_guard.py)
    ```
-   **rc=1 means a staleness contract is RED and this closeout is not finished.** Aggregates `canary_staleness` · `grading_note_check` · `validate_workbook` (blocking) and `thesis_bump_check` (advisory, never blocks).
+   **rc=1 means a staleness contract is RED and this closeout is not finished.** Aggregates the `BLOCKING` list in `closeout_guard.py` (:78); `thesis_bump_check` is advisory, never blocks.
    ⚠️ **BOOT WARNS; CLOSEOUT BLOCKS — the asymmetry is deliberate.** At boot a red contract is information you need to work; at closeout it is work you did not do. **This exists because on 2026-08-04 boot printed `🔴 CANARY_MAP STALE — 2` and the session read it and did nothing** — the fourth such incident on that one file, with every stale cell already carrying a note confessing a *prior* incident. **Detection was never the gap; acting on it is.** Either fix the red state, or write on the surface why it is correct and intended — but do not close out silently past it.
 
 14. **Git:** commit own files per root CLAUDE.md §Git Protocol (pathspec `AGENTS/VIOLET/`) + auto-push via `scripts/safe-push.sh` (ff-gated; non-ff → `git pull --rebase`, never force).

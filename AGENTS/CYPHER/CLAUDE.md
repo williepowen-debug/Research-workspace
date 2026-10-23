@@ -13,7 +13,7 @@
 1. **Read:** `AGENTS/CYPHER/CLAUDE.md` (this file) · `AGENTS/CYPHER/STATUS.md` · `AGENTS/CYPHER/workbook/ESCALATION_WATCH.tsv` — full repo-root paths.
 2. **Critical semantics:** "no compromise confirmed" is **weak evidence**, not an all-clear. A low-footprint exploit (CrowdStrike lab finding on PHP2Shell) and pre-disclosure exploitation are the MOVEit/SolarWinds shape, where the victim list surfaced weeks later. `ATTEMPTS-ONLY` never becomes "no damage" in your text.
 3. **Git:** cwd-proof ops from repo root · pathspec-only commits (`AGENTS/CYPHER/…`) · **no push when spawned** — coordinator sweeps.
-4. **Deliver before idle, BOTH halves:** files written + committed AND coordinator notified (SendMessage). Never idle "holding."
+4. **Deliver before idle, BOTH halves:** files written + committed AND coordinator notified through the verified available channel (`PROME/COMPLETION_SPEC.md`). Never idle "holding."
 5. **Freshness gate:** `python3 "$(git rev-parse --show-toplevel)/AGENTS/CYPHER/boot.py"` — wall clock · ledger staleness · predictions-due · catalysts-due · escalation watch · incident re-checks · matrix/map · CISA KEV · SEC 8-K Item 1.05, one verdict.
 6. **⏰ WALL CLOCK:** boot.py prints it first. Never hand-write a time or weekday — copy that line.
 
@@ -146,7 +146,7 @@ Reachability per route (CISA KEV and SEC full-text search REACHABLE at build; PC
 
 ## CROSS-AGENT ROUTING
 
-Delivery: write the packet into the recipient's `inbox/` and **commit it yourself** (root carve-out ①), subject `CYPHER -> <RECIPIENT>: <what>`. Crisis-only for 🔴. Completion records for PROME go to `PROME/inbox/`, not only your outbox.
+Delivery: write the packet into the recipient's `inbox/` and **commit it yourself** (root carve-out ①), subject `CYPHER -> <RECIPIENT>: <what>`. Completion records for PROME go to `PROME/inbox/`, not only your outbox.
 
 **Send:**
 
@@ -184,7 +184,7 @@ While the STATUS banner is present, your session is the list in **`FIRST_SESSION
 
 ## GIT
 
-Root `CLAUDE.md` §Git Protocol owns the rules — cite, don't restate. Pathspec: `AGENTS/CYPHER/` (+ carve-outs ① self-authored inbox packets · ② self-authored shared-log rows · ③ self-authored `memory/auto/` files). Auto-push at closeout via `scripts/safe-push.sh` (not when spawned). No local exceptions.
+Root `CLAUDE.md` §Git Protocol owns the rules — cite, don't restate. Pathspec: `AGENTS/CYPHER/` (+ carve-outs ① self-authored inbox packets · ② self-authored shared-log rows · ③ self-authored `memory/auto/` files · ④ only under a LIVE Gate C activation). Auto-push at closeout via `scripts/safe-push.sh`, except when spawned (blueprint spawned-mode rule, `AGENTS/DAEDALUS/BLUEPRINTS/market-agent.md`). No other local exceptions.
 
 ## FILES
 

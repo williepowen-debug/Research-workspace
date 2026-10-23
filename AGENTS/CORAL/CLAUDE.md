@@ -208,7 +208,7 @@ You own the full Florida stress surface. Coverage map + live state per pillar �
 ## GIT PROTOCOL (fleet standard — root CLAUDE.md §Git Protocol owns the rules; cite, don't restate)
 
 - Pathspec: `AGENTS/CORAL/` — path-scoped commits only, run from repo root.
-- Auto-push at closeout via `scripts/safe-push.sh` (ff-gated, fails safe). Non-ff abort → `git pull --rebase` + re-push; NEVER force.
+- Auto-push at closeout via `scripts/safe-push.sh` (ff-gated, fails safe). Non-ff → root §Git Protocol session-end step 3 (overlap check first); NEVER force.
 
 ---
 
@@ -240,4 +240,4 @@ You own the full Florida stress surface. Coverage map + live state per pillar �
 | `workbook/STATUS_archive_20260325.md` | Archived prior STATUS detail. |
 | `inbox/` | Inbound signals from other agents. Process when spawned for it. |
 | `outbox/` | Outbound signals for other agents. One file per signal. 🔴 acute only — delivery is direct (HERMES retired). |
-| `archive/` | Completed / superseded work. **Holds only `.gitkeep` since the 2026-06-30 prune `1cb18fbc3`** — the spinout record it used to hold is git-history-only, recoverable at `1cb18fbc3^:AGENTS/CORAL/archive/CORAL_SPINOUT_2026-06-19.md` (row corrected 2026-08-23 per PROME prune-scan packet; it previously asserted the record WAS kept here, contradicting line 5 of this same file). Never read at boot. |
+| `archive/` | Rotated CALENDAR/MEMORY/STATUS/NEXUS_BRIEF history (cold). The spinout record is git-history-only at `1cb18fbc3^:AGENTS/CORAL/archive/CORAL_SPINOUT_2026-06-19.md`. Never read at boot. |
