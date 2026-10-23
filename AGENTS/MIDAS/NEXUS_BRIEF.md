@@ -1,5 +1,11 @@
 # MIDAS — NEXUS brief
 
+**October 23, 2026 catch-up — for BOND, LIQUID, ZHAO, HENRY, HAWK, TERRY, SAM:** `shared/research/2026-10-23_catch-up.md`.
+- **LIQUID/BOND/TERRY:** 10/22 metals sold off *with* equities while PRIMARY Treasury 10Y real −12bp (2.64%), 2Y −16bp, DXY flat — a liquidation day, not a rate repricing; media "hike bets" story contradicted by the curve. GLD bullion −11.98t that day (PRIMARY issuer). Gold is not acting as a haven on de-risking days right now. GLD is the book's largest line (24 sh per PROME 10/21); M1 flip rule (gold < $4,050 with DFII10 ≥ 2.40 → M1 2) pending the 10/23 settle — 10/22 vendor close $4,060.40.
+- **ZHAO/HENRY:** LME copper +47,525t in four sessions to 272,950t (10/22), mostly US warehouses on a COMEX-premium / tariff unwind (MEDIA Reuters) — not a China-demand read; +16.9% vs median, benign. Teck Highland Valley strike possible from 10/24.
+- **HAWK/HENRY:** palladium trend leg first below −25% (red) on 10/22, silver below −20% since 10/14 — one de-risking root, not two signals. Actual composite 8/20 unchanged until the 11/1 floor; counterfactual 13/20. Nornickel 9M 10/26.
+- **ZHAO/SAM:** WQ-451 gold haven vs de-dollarisation decomposition letter commissioned to MIDAS; not yet delivered — you will receive a packet when it is.
+
 **Closed out October20,2026 at Will's request:** research and per-metal KB organization saved; session resume point is `SCRATCH.md`. Existing scores remain4/1/1/2=8/20; MIDAS09/10 frozen letters preserved and WQ-421 approval consumed. No new market refresh at closeout. KB172 records a newly received WALTER gold trade-flow signal as owner-asserted/deferred, without adopting its figures or mechanism as MIDAS-verified. Remaining work and access limits are in `OPEN_ITEMS.md`; no trade or new approval request.
 
 **Per-metal KBs October20,2026 (Will-directed):** each metal now has a generated `KB.tsv`; `shared/KB.tsv` holds multi-metal and desk-only rows. Permanent `workbook/KB.tsv` preserves original entries, IDs and sources; `KB_METALS.tsv` records explicit classifications. Add/correct there, then `refresh_metal_kbs.py --refresh`; boot ledger leg checks content freshness and classification coverage. On-demand views, no new market pull or forecast/score change. New tooling uses Python standard library only.

@@ -24,10 +24,12 @@ Examples: gold/silver ratios; platinum/palladium vehicle-demand and supply studi
 - [MIDAS-09/10 — metal-per-share basis review](../analysis/2026-10-12_forecast-basis-review.md) — silver,platinum,palladium.
 - [MIDAS — bounded metals thesis test, October 12, 2026](../analysis/2026-10-12_metals-thesis-test.md) — silver,platinum,palladium.
 - [Precious metals news and implications as of October 20 2026](../analysis/2026-10-20_PRECIOUS-METALS-NEWS.md) — gold,silver,platinum,palladium,copper.
+- [MIDAS catch-up October 23 2026: liquidation day, band reds, LME build](research/2026-10-23_catch-up.md) — gold,silver,platinum,palladium,copper.
 - [MIDAS — Domain Sweep (4-lens), 2026-07-12](../reports/2026-07-12_domain-sweep.md) — gold,silver,platinum,palladium,copper.
 - [MIDAS — I2: THE TWO "UNEXPLAINED PLATINUM SURGES," ATTRIBUTED](../reports/2026-08-27_pgm-surge-attribution.md) — platinum,palladium.
 - [2026-10-12_maintenance](../sources/2026-10-12_maintenance) — gold,silver,platinum,palladium,copper.
 - [2026-10-12_news-sweep](../sources/2026-10-12_news-sweep) — gold,silver,platinum,palladium,copper.
+- [2026-10-23_catch-up](sources/2026-10-23_catch-up) — gold,silver,platinum,palladium,copper.
 - [2026-10-12_pgm-followup](../sources/2026-10-12_pgm-followup) — platinum,palladium.
 - [2026-10-12_review](../sources/2026-10-12_review) — gold,silver,platinum,palladium,copper.
 - [2026-10-12_thesis-test](../sources/2026-10-12_thesis-test) — silver,platinum,palladium.

@@ -1,5 +1,7 @@
 # MIDAS — STATUS
 
+**Catch-up October 23, 2026 (Will-directed, Fri 13:37–14:00 ET):** `shared/research/2026-10-23_catch-up.md`, captures `shared/sources/2026-10-23_catch-up/`. **October 22 was a liquidation day:** every metal fell with equities (S&P −1.21%, Nasdaq −2.60%) while PRIMARY Treasury 10Y real fell 2.76 → 2.64, 10Y nominal 5.13 → 4.96, 2Y 4.81 → 4.65, DXY flat. Media "rate-hike bets" attribution is contradicted by those moves and not adopted. PRIMARY GLD bullion −11.98t on 10/22 (1,045.64t), ~−10t since 9/30, reversing the 10/20 accumulation read. **M1 flip rule (gold < $4,050 AND DFII10 ≥ 2.40 → M1 2): NOT fired on the 10/22 vendor close $4,060.40 (+0.26%); 10/23 trading ~1% below the line — PENDING certified settle (CME blocks automated access).** Band counterfactual on post-approval data: SLV d200 first < −20% on 10/14 (now −24.16%) and PALL first < −25% on 10/22 (−26.76%) → would-be M2 4 / I2 4, counterfactual 13/20, one shared root; **actual 8/20 unchanged until the 11/1 21:40 ET floor**. LME copper +47,525t in four sessions to 272,950t (+16.9% vs median, benign), mostly US warehouses on tariff-arb unwind, not China demand. CFTC 10/13 vintages consumed (CFTC reachable again; 403 cleared). Inbox: DAEDALUS WQ-508 packet filed (lines already applied in `f4149bf51`, none contested); **PROME WQ-451 commission (gold haven vs de-dollarisation decomposition letter) received, NOT yet executed — kept in inbox.** Tree had foreign uncommitted WALTER work at boot → no pull.
+
 **Closed out October20,2026 at Will's request:** research and per-metal KB organization saved; session resume point is `SCRATCH.md`. Existing scores remain4/1/1/2=8/20; MIDAS09/10 frozen letters preserved and WQ-421 approval consumed. No new market refresh at closeout. KB172 records a newly received WALTER gold trade-flow signal as owner-asserted/deferred, without adopting its figures or mechanism as MIDAS-verified. Remaining work and access limits are in `OPEN_ITEMS.md`; no trade or new approval request.
 
 **Per-metal KBs October20,2026 (Will-directed):** each metal now has a generated `KB.tsv`; `shared/KB.tsv` holds multi-metal and desk-only rows. Permanent `workbook/KB.tsv` preserves original entries, IDs and sources; `KB_METALS.tsv` records explicit classifications. Add/correct there, then `refresh_metal_kbs.py --refresh`; boot ledger leg checks content freshness and classification coverage. On-demand views, no new market pull or forecast/score change. New tooling uses Python standard library only.
@@ -19,13 +21,15 @@
 
 ## Dated evidence
 
-| Metal | Named contract | October9 vendor Close | September30→October9 | October12 ETF Close |
+| Metal | Named contract | Oct 22 vendor Close | Oct 19 → Oct 22 | Oct 22 ETF Close |
 |---|---|---:|---:|---:|
-| Gold | GCZ26.CMX, Dec2026 | $4216.30 | +0.71% | GLD $382.15 |
-| Silver | SIZ26.CMX, Dec2026 | $61.048 | +0.80% | SLV $54.35 |
-| Platinum | PLF27.NYM, Jan2027 | $1693.30 | −1.49% | PPLT $15.27 |
-| Palladium | PAZ26.NYM, Dec2026 | $1150.40 | −5.11% | PALL $20.61 |
-| Copper | HGZ26.CMX, Dec2026 | $6.692/lb | +1.06% | CPER $40.63 |
+| Gold | GCZ26.CMX, Dec 2026 | $4,060.40 | −2.40% | GLD $369.00 |
+| Silver | SIZ26.CMX, Dec 2026 | $55.007 | −3.96% | SLV $49.34 |
+| Platinum | PLF27.NYM, Jan 2027 | $1,576.90 | −4.33% | PPLT $14.20 |
+| Palladium | PAZ26.NYM, Dec 2026 | $1,056.60 | −5.89% | PALL $19.12 |
+| Copper | HGZ26.CMX, Dec 2026 | $6.398/lb | −2.71% | CPER $38.47 |
+
+*October 23 refresh; the October 9 table it replaces is in git history and the 10/12 news-sweep bundle.* GSR 73.82 (10/22, same-date same-month). DFII10 2.64% 10/22 PRIMARY Treasury (FRED 10/21 2.76). LME 272,950t 10/22 MIRROR. COT 10/13 consumed: gold 52.4490% (p95.97, fourth decline), silver 20.8710%, Pt 19.1156%, Pd −34.8595%. Older paragraph below retains its October 9–12 dates.
 
 Yahoo MIRROR daily bars, **uncertified exchange settlements**. Newest futures row excluded; native price precision retained. Primary GSR69.07 uses same-date/same-month named gold/silver; Pt/Pd1.472, Pt/Au0.402. Four continuous pointers are DYING and excluded. The map's weekly review is dueOctober19; calendar/price freshness guards do not certify actual liquidity leadership or exchange expiry.
 
@@ -45,17 +49,18 @@ LME latest **231275t October12**, versus234275t trailing2yr median (n505), **−
 **CROSSING recommendation approved October12** in response to the sit-rep; approval evidence `analysis/2026-10-12_WQ-368-CROSSING-APPROVAL.md`. PROME completed shared WQ-368 writeback; no further approval owed. The floor remains **November1 21:40ET**, all numerical bands unchanged. Reviewed counterfactual11/20 is diagnostic. PPLT−15% crossedOctober7 after approval and recovered; PALL−20% crossedOctober1 before21:40 approval, no qualifying recross throughOctober9. Trend state does not latch an old cross. October12 SLV/PPLT/PALL d200=−17.30/−13.22/−22.37%; crash legs decayed1 and upside legs1. No new T/C/S crossing onOctober12. Earlier crossing history throughOctober9 remains unchanged.
 
 
-| ETF | d200 / T level | C dd252 / decayed level | S d200 upside / level | Would-be max |
+| ETF (Oct 22 close) | d200 / T level | C dd252 / decayed level | S upside / level | Would-be max |
 |---|---|---|---|---:|
-| SLV | -17.30% /3 | -48.53% /1 | -17.30% /1 | 3 |
-| PPLT | -13.22% /2 | -39.46% /1 | -13.22% /1 | 2 |
-| PALL | -22.37% /3 | -44.57% /1 | -22.37% /1 | 3 |
+| SLV | −24.16% / **4** (first < −20% 10/14, re-cross 10/22) | −53.28% / 1 | 1 | **4** |
+| PPLT | −18.27% / 3 (re-cross −15% 10/14) | −43.71% / 1 | 1 | 3 |
+| PALL | −26.76% / **4** (first < −25% 10/22) | −48.58% / 1 | 1 | **4** |
 
+Oct 22 crossings are post-approval data; method reproduces the 10/12 values exactly. Would-be M2 4, I2 4 → counterfactual 13/20 with shared-root flag (Ag 10/14 and Pd 10/22 within 15 sessions). Actual stays 8/20 before the 11/1 floor; state legs score at their level after the floor, no latch. The October 12 note below is history.
 All legs measured throughOctober12 on explicit unadjusted vendor Close; no new T/C/S crossing onOctober12. S uses the adopted d200 upside basis; r63 remains diagnostic only. Crash decay and actual8/20 remain unchanged.
 
 ## Held GLD and standing rails
 
-The October11-received FORGE mirror carries **17 GLD shares**, broker capture time UNKNOWN. At October9 $384.58: $6537.86,19.64% of mirrored Fidelity$33284.88. Existing rolling120 beta−0.16322189%/bp, SE.03378,t−4.83,R².165,n120 April20→October8 implies−$106.71/+10bp for17shares at that mark. **Association, not causal attribution or net coverage; no beta refresh in this maintenance.** Old16-share/Sep30put arithmetic retired. TERRY owns mirrored10TBT and TLT82P October16, managementOctober14; live Greeks/coverage and broker timing remain unverified.
+**Position update 10/23:** PROME's WQ-451 packet (10/21) cites **GLD 24 sh, $9,134.40 at the 10/20 capture (intraday mark)** — the book's largest line; broker/Will truth controls. The 17-share figure and beta arithmetic below are the superseded October 11 vintage. The October11-received FORGE mirror carries **17 GLD shares**, broker capture time UNKNOWN. At October9 $384.58: $6537.86,19.64% of mirrored Fidelity$33284.88. Existing rolling120 beta−0.16322189%/bp, SE.03378,t−4.83,R².165,n120 April20→October8 implies−$106.71/+10bp for17shares at that mark. **Association, not causal attribution or net coverage; no beta refresh in this maintenance.** Old16-share/Sep30put arithmetic retired. TERRY owns mirrored10TBT and TLT82P October16, managementOctober14; live Greeks/coverage and broker timing remain unverified.
 
 Gold's structural diversification relevance does not establish positive real-rate hedging. September PRIMARY WGC global ETFs+67t/+US$10bn, holdings4256t; not GLD-specific flow. Rechecked Q2 CB demand288.9t above100t floor; old Q1~244t revised57t. Monthly August reported39t is a different incomplete object. Historical VECTOR3 two-win falsifier stands.
 
@@ -77,6 +82,7 @@ PRIMARY HammackOct12 12:50EDT favorsrestrictivestance/smallerpromptadjustments, 
 
 ## Open on MIDAS — top3
 
+0. **(10/23, live)** M1 flip rule: certify the 10/23 GCZ26 settle against $4,050 (fires M1 4 → 2 if below with DFII10 ≥ 2.40). **WQ-451 commission** (PROME, ruled A 10/21): one dated decomposition letter, haven vs de-dollarisation, ZHAO/SAM informed — not yet executed; 10/22 is a fresh counterexample day for it. CFTC 10/20 vintage releases 15:30 ET today.
 1. **October19 M1 review:** expanded4186-pair reference preserves grid phase:9 eligible disjoint-input episodes,2 flips, all pre2022. Longer raw-history gap partly closed; regime comparability and historical resolving-vintage snapshots remain inadequate. Draft unpriced/unregistered; no forward probability from22.22%.
 2. **October30 forecast interpretation:** MIDAS-09/10 frozen rows/probabilities unchanged. Fee-depletion versus structural-basis meaning reviewed; concrete prospective wording prepared. PROME registered WQ-421, dueOctober29 before grading, under WQ-161; no automatic STUCK or retroactive narrowing. Next-business-day first retrieval, November6 backstop. WQ-368 approval is shared-encoded; no second choice.
 3. **Mechanism evidence:** China auto categories/revisedbases and directionalPGMbridge nowtested; Septembermetalgramloadings/CKDfitment, PGM matchedquantities/leases andcopperimports/lag remainabsent. Silver totalstocksweaken depletion-only; Londonavailablefloat/leases/Indiaimports unresolved. ExistingOctober26Nornickel/November18WPICchecks retained. BISboundednamed-term screen0hitsnotindirect-controlabsence. Plattsdatedquoteunavailable; retryonaccesschange. SharedFORGEseamrouted.
@@ -85,11 +91,11 @@ Full obligations `OPEN_ITEMS.md`; current derivation `THESIS.md`; sources/regist
 
 ## Bottom line
 
-GLD has verified bullion accumulation, but price fell despite recent rate/dollar relief. One-month timing remains neutral/slightly negative; the three-month positive lean is low-confidence and assumes buying persists without renewed rate/dollar pressure. Silver's available supply remains unresolved; platinum has broader demand offsets than palladium, and one producer's rising output challenges a blanket PGM-contraction claim. No new trade or score change; current news findings and source limits are in the October20 investigation.
+As of October 22–23, 2026, all metals are in a broad de-risking selloff that is not explained by rates: gold, silver and the platinum-group metals fell with stocks while Treasury real yields dropped 12bp and the dollar held flat, and GLD shed 12 tonnes of bullion in one day. The single most important reading is gold against the $4,050 flip line — it closed 0.26% above on 10/22 and trades ~1% below today; a settle below it drops M1 from 4 to 2. Silver and palladium have both crossed their red trend lines on post-approval data, which would lift the composite from 8 to 13 once the November 1 floor passes if they stay there. Copper's LME stock jump is a US tariff-arbitrage unwind, not a China demand signal; next catalysts are the Teck strike (10/24), Nornickel (10/26) and the FOMC (10/27–28).
 
-Gold: GCZ26 December2026 **$4160.10/oz [October19 MIRROR vendor Close]**, -1.33% versusOctober9; official/ETF demand supports gold against rate/dollar pressure.
-Silver: SIZ26 December2026 **$57.273/oz [October19 MIRROR vendor Close]**, -6.18% versusOctober9; PV substitution and replenished total stocks compete with unmeasured available supply.
-Platinum: PLF27 January2027 **$1648.20/oz [October19 MIRROR vendor Close]**, -2.66% versusOctober9; steady China imports include exchange stockbuilding, while producer output rises.
-Palladium: PAZ26 December2026 **$1122.70/oz [October19 MIRROR vendor Close]**, -2.41% versusOctober9; weak vehicle demand and mixed mine supply constrain a tightening-only story.
+Gold: GCZ26 Dec 2026 **$4,060.40/oz [Oct 22 MIRROR vendor Close]**, −2.40% vs Oct 19; ~$4,008 intraday Oct 23; liquidation and GLD outflow (−11.98t) against falling real yields.
+Silver: SIZ26 Dec 2026 **$55.007/oz [Oct 22]**, −3.96% vs Oct 19; ~$54 intraday; fell ~2.2× gold on 10/22; SLV trend leg red (−24.16%).
+Platinum: PLF27 Jan 2027 **$1,576.90/oz [Oct 22]**, −4.33% vs Oct 19; ~$1,560 intraday; PPLT trend −18.27% (orange); BMI forecast cut on weak car sales (MEDIA).
+Palladium: PAZ26 Dec 2026 **$1,056.60/oz [Oct 22]**, −5.89% vs Oct 19; ~$1,047 intraday; PALL first below −25% red line 10/22; Nornickel 9M due 10/26.
 
-Named contracts freshly retrieved October20; uncertified settlements. News mechanisms are hypotheses about pressures, not attribution of these price changes. Weekly contract-map review remains outstanding.
+All futures prices are uncertified vendor closes; October 23 values are intraday. News mechanisms are hypotheses, not attributions.

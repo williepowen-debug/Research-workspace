@@ -1,5 +1,16 @@
 # MIDAS — SCRATCH
 
+**Session 2026-10-23 (Fri, Claude Code, Opus 5.5) — Will-directed boot + catch-up.** Boot: rc REVIEW (metals, gold COT, Ag/Pt/Pd COT); CFTC reachable again (403 cleared); corrections 0 named; no predictions due. Tree had foreign uncommitted WALTER work → **no pull**. Work: `shared/research/2026-10-23_catch-up.md` + bundle `shared/sources/2026-10-23_catch-up/`; KB-MIDAS-173..179; COT 10/13 consumed rows (gold + Ag/Pt/Pd); VX five rows prefixed CURRENT2026-10-23; STATUS/OPEN_ITEMS/NEXUS refreshed. DAEDALUS WQ-508 packet filed (lines already applied by DAEDALUS `f4149bf51`; reviewed, none contested, no report owed).
+
+**Pick up here:**
+1. **M1 flip rule:** get the certified GCZ26 10/23 settle (CME blocked to scripts — ask Will or use a broker/exchange source). Below $4,050 with DFII10 ≥ 2.40 ⇒ M1 4 → 2, composite 8 → 6; record grade in STATUS/VX/KB. At/above ⇒ NOT fired, carry.
+2. **WQ-451 commission** (PROME packet in `inbox/`, ruled A 10/21, not executed): one dated falsifiable letter — haven vs de-dollarisation decomposition (gold vs DFII10 vs DXY / foreign-official flows, TIC leg), instrument + basis + first grading date; packets to ZHAO and SAM; PROME registers in GATES. 10/22 adds a third regime (liquidation: gold down, real yields down, equities down, GLD outflow) the instrument must classify. File the packet to processed only when consumed.
+3. CFTC 10/20 vintage (released 15:30 ET 10/23) — first positioning read inside the selloff week; append consumed rows after reading.
+4. Band reds: SLV first < −20% 10/14, PALL first < −25% 10/22 (post-approval). After 11/1 21:40 ET they score at their then-current level; would-be composite 13/20 with shared-root flag.
+5. Still outstanding: weekly contract-map review (crossing history now refreshed through 10/22). Teck strike 10/24, Nornickel 10/26, FOMC 10/27–28, MIDAS-09/10 resolve 10/30.
+
+---
+
 **Closeout 2026-10-20T21:11:45-04:00 — Will explicitly requested “okay lets close out here”.** MIDAS Codex session `01a15a08-9446-7f91-a787-6efed9cfd2b4`; no helpers spawned. Work saved through KB change `b9217378a`; this closeout writes continuity and defers a new inbox signal. No application/process termination or fleet-presence claim. Final checks: KB views current; no overdue predictions or unreceipted named corrections; PREDICTIONS/VX/FLOW unchanged; read-cap and weekday checks pass. Previously completed code tests19/19 remain the latest test run; no code changed at closeout.
 
 **Resume:** start at `README.md` for metal research/KBs and `OPEN_ITEMS.md` for remaining duties. News and GLD outlook are saved in `analysis/2026-10-20_PRECIOUS-METALS-NEWS.md` and `analysis/2026-10-20_GLD-OUTLOOK.md`. Beta/flow/dollar work is complete; contract-map/crossing-history review remains outstanding. WQ-421 APPROVED, October30 frozen resolutions and November1 21:40ET floor unchanged. Preferred M1 successor remains unregistered; missed October19 capture cannot be reanchored. MIDAS11/12 are separate low-confidence directional calls, not calibrated probabilities or orders.

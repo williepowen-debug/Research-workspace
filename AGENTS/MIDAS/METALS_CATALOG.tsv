@@ -89,3 +89,5 @@ shared		derived-kb	shared/KB.tsv	Shared knowledge base	Generated from workbook/K
 operations		metadata	KB_METALS.tsv	Reviewed KB metal classifications	Derived-view maintenance; workbook/KB.tsv remains authoritative.
 operations		code	refresh_metal_kbs.py	Refresh/check focused metal KB views	Derived-view maintenance; workbook/KB.tsv remains authoritative.
 operations		code	test_metal_kbs.py	KB filtering and boot freshness verification	Derived-view maintenance; workbook/KB.tsv remains authoritative.
+shared	gold,silver,platinum,palladium,copper	research	shared/research/2026-10-23_catch-up.md	MIDAS catch-up October 23 2026: liquidation day, band reds, LME build	Dated material; inspect its source dates and approval status.
+shared	gold,silver,platinum,palladium,copper	sources	shared/sources/2026-10-23_catch-up/	October 23 2026 catch-up captures (Treasury curves, GLD issuer archive, Yahoo bars, band legs)	Dated material; inspect its source dates and approval status.

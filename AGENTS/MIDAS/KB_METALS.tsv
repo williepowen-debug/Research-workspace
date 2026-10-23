@@ -170,3 +170,11 @@ KB-MIDAS-169	gold	Reviewed M1 subject: gold.
 KB-MIDAS-170	shared	Reviewed cross subject: desk operations or general context.
 KB-MIDAS-171	shared	Reviewed cross subject: desk operations or general context.
 KB-MIDAS-172	gold	Gold trade-flow handoff; owner-asserted context deferred for definition/vintage assessment.
+KB-MIDAS-173	gold,silver,platinum,palladium	COT positioning across gold, silver, platinum and palladium.
+KB-MIDAS-174	gold	Gold liquidation day against falling yields.
+KB-MIDAS-175	gold	GLD issuer bullion outflow.
+KB-MIDAS-176	gold	M1 flip rule boundary check.
+KB-MIDAS-177	silver,platinum,palladium	Silver/platinum/palladium band counterfactual.
+KB-MIDAS-178	copper	LME copper stock build and location.
+KB-MIDAS-179	copper	Copper mine strike notice.
+KB-MIDAS-180	shared	Reviewed cross subject: desk operations or general context.
