@@ -1,0 +1,49 @@
+{
+  "schema": 2,
+  "staged_at": 1792730299.7840302,
+  "items": [
+    {
+      "id": "2113426917915508765",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": "BOARD/SIG-W-20261023-004-amazon-drops-four-data-centers-on-former-gwu-ashburn-campus-county-deal-oct20-siting-settlement-not-a-capex-cut-VULCAN.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113337712749301958",
+      "disposition": "FOLD",
+      "read_state": "partly_read",
+      "follow_up": "BOARD/SIG-W-20261023-002-us-chip-rout-oct22-sox-minus-6-72-lam-supply-constraints-2027-qqq-minus-2-86-coreweave-minus-10-1-to-55-60-asia-mixed-oct23-VULCAN.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113438053469712602",
+      "disposition": "DUP",
+      "read_state": "fully_read",
+      "follow_up": "BOARD/SIG-W-20261023-004-amazon-drops-four-data-centers-on-former-gwu-ashburn-campus-county-deal-oct20-siting-settlement-not-a-capex-cut-VULCAN.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113414387541102972",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": "BOARD/SIG-W-20261023-002-us-chip-rout-oct22-sox-minus-6-72-lam-supply-constraints-2027-qqq-minus-2-86-coreweave-minus-10-1-to-55-60-asia-mixed-oct23-VULCAN.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113431765926793562",
+      "disposition": "FOLD",
+      "read_state": "partly_read",
+      "follow_up": "BOARD/SIG-W-20261023-002-us-chip-rout-oct22-sox-minus-6-72-lam-supply-constraints-2027-qqq-minus-2-86-coreweave-minus-10-1-to-55-60-asia-mixed-oct23-VULCAN.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113427367599493530",
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "BOARD/SIG-W-20261023-003-japan-september-core-cpi-2-1-first-above-boj-target-in-nine-months-in-line-yen-156-89-nikkei-down-on-chip-rout-not-cpi-SAM.md",
+      "ask_user": null
+    }
+  ],
+  "stage_id": "d8e233f1e8f44a129e39439d49b5171e"
+}

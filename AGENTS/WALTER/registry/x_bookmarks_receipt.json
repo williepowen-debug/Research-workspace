@@ -1,25 +1,48 @@
 {
   "kind": "marked",
-  "checked_at": "2026-10-23T00:21:24Z",
-  "items": 1,
+  "checked_at": "2026-10-23T04:43:51Z",
+  "items": 6,
   "scan": {
-    "checked_at": "2026-10-23T00:20:40Z",
-    "head_checked_at": "2026-10-23T00:20:39Z",
+    "checked_at": "2026-10-23T04:38:19Z",
+    "head_checked_at": "2026-10-23T04:38:19Z",
     "head_checked_this_run": true,
     "incomplete": false,
-    "attempts": 2
+    "attempts": 3
   },
   "review_recorded": true,
   "read_counts": {
-    "fully_read": 1
+    "fully_read": 3,
+    "partly_read": 3
   },
   "dispositions": {
-    "DISPATCH": 1
+    "DISPATCH": 2,
+    "FOLD": 3,
+    "DUP": 1
   },
   "follow_ups": [
     {
-      "id": "2113389627629502972",
-      "ref": "BOARD/SIG-W-20261022-042-florida-home-prices-below-peak-zillow-cape-coral-minus-19-metro-minus-22-city-north-port-minus-16-naples-minus-12-tampa-minus-8-miami-minus-4-gulf-coast-deepest-CORAL.md"
+      "id": "2113426917915508765",
+      "ref": "BOARD/SIG-W-20261023-004-amazon-drops-four-data-centers-on-former-gwu-ashburn-campus-county-deal-oct20-siting-settlement-not-a-capex-cut-VULCAN.md"
+    },
+    {
+      "id": "2113337712749301958",
+      "ref": "BOARD/SIG-W-20261023-002-us-chip-rout-oct22-sox-minus-6-72-lam-supply-constraints-2027-qqq-minus-2-86-coreweave-minus-10-1-to-55-60-asia-mixed-oct23-VULCAN.md"
+    },
+    {
+      "id": "2113438053469712602",
+      "ref": "BOARD/SIG-W-20261023-004-amazon-drops-four-data-centers-on-former-gwu-ashburn-campus-county-deal-oct20-siting-settlement-not-a-capex-cut-VULCAN.md"
+    },
+    {
+      "id": "2113414387541102972",
+      "ref": "BOARD/SIG-W-20261023-002-us-chip-rout-oct22-sox-minus-6-72-lam-supply-constraints-2027-qqq-minus-2-86-coreweave-minus-10-1-to-55-60-asia-mixed-oct23-VULCAN.md"
+    },
+    {
+      "id": "2113431765926793562",
+      "ref": "BOARD/SIG-W-20261023-002-us-chip-rout-oct22-sox-minus-6-72-lam-supply-constraints-2027-qqq-minus-2-86-coreweave-minus-10-1-to-55-60-asia-mixed-oct23-VULCAN.md"
+    },
+    {
+      "id": "2113427367599493530",
+      "ref": "BOARD/SIG-W-20261023-003-japan-september-core-cpi-2-1-first-above-boj-target-in-nine-months-in-line-yen-156-89-nikkei-down-on-chip-rout-not-cpi-SAM.md"
     }
   ],
   "requests": []
