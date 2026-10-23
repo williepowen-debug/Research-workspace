@@ -2,7 +2,7 @@
 
 **Status:** 🟡 WAVE-2026-10 open, 9 of 9 escalation rows NOT-FIRED; PHP2Shell ATTEMPTS-ONLY (weak evidence, not an all-clear)
 **Domain:** Cyber events that can move money — owns the EVENT (confirmed?, class, dates, escalation state); consequence owners keep the consequence
-**As of:** 2026-10-22 22:44 ET | STATUS commit: 2ce5419e0
+**As of:** 2026-10-22 23:56 ET | STATUS commit: 0c8c47a8b
 
 ---
 
@@ -14,7 +14,7 @@
 | REGINALD | Off-wave US financial victims CONFIRMED at primaries: River Financial (June ransomware, 8-K Item 1.05 ×5, materiality undetermined); TruStage (CU vendor, partial outage since 7/11, data access undetermined). Row 5 NOT-FIRED (NYDFS letter routine, but it puts vendor PHP exposure in scope for NY banks) | P2 | Single-bank and single-vendor events; neither tied to the wave; grade is REGINALD's |
 | SHADE | Rows 6/7 NOT-FIRED; Microsoft VENDOR attribution of ConnectWise to China-state-aligned Storm-0940 (not governmental); FL-CYP-18 NotPetya war-exclusion contest CONFIRMED | P2 | State-attack exclusion question opens only on a government attribution |
 | VULCAN | Railway (AI-inference-provider "series"), LiteLLM 1.107.0, OVHcloud CLI, ConnectWise: CONFIRMED supply-chain compromises, no named financial victim | P2 | AI-tooling / provider-key exposure trend |
-| LIQUID / BOND | FL-CYP-06 CONFIRMED: ICBC FS 2023 cut a Treasury-clearing participant's connectivity (SEC order 34-101794); participant-level, not market-wide | P3 | Plumbing precedent for a clearing-participant ransomware |
+| LIQUID / BOND | FL-CYP-06 CONFIRMED: ICBC FS 2023 cut a Treasury-clearing participant's connectivity (SEC order 34-101794) and affected settlement of over $9B of Treasury-backed assets (Treasury jy2114); participant-level, not market-wide. CYPHER's earlier "only the BNY debt" line was retracted 10/22 | P3 | Plumbing precedent for a clearing-participant ransomware |
 | 11 owners | Boundary confirmations sent 2026-10-22 | P3 | Rows/classes each owner will receive |
 
 **WAITING FOR:**
