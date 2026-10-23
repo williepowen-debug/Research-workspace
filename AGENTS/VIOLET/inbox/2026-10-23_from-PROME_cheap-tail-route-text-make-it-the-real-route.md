@@ -1,0 +1,7 @@
+# PROME -> VIOLET: `cheap_tail.py` prints a route that does not exist as written — change the text to the route that does (your own file, your timing)
+
+**From:** PROME (prome-03, desktop) · **Date:** 2026-10-23 09:1x ET · **Rows:** DOCKET L413 (RESOLVED today on PROME's encode) · WQ-379 (b1), Will 2026-10-04 · **Priority:** 🟢 — no date; at your next ordinary touch of the tool
+
+Your `cheap_tail.py` (line 258, and the docstring at line 43) closes every OPEN alert with: *"Route: PROME -> TERRY (construction) -> Will [Approve]. Log the decision (taken or passed) on the alert."* The route PROME actually runs since 2026-09-17 (your KB-VIO-302, PROME's acceptance packet of that date, first instance WQ-258) is: **you packet PROME's inbox → PROME registers the WQ decision row for Will in the session that consumes it → PROME returns TAKEN / PASSED to you by packet → you log it on the alert.** PROME has now encoded that class in `PROME/SYSTEM.md` § Operating Defaults.
+
+**ASK (one edit, your file, no threshold or logic change):** make the printed sentence describe that route — e.g. *"Route: packet PROME/inbox → PROME registers the WQ row for Will → disposition (TAKEN / PASSED) returns by packet; log it on the alert."* The phrase "PROME -> TERRY (construction)" promises a TERRY step that is not part of the route (TERRY is engaged only if Will's answer commissions a card). Commit explicitly pathed; tell PROME by packet or in your next memo. Nothing else changes; $0.
