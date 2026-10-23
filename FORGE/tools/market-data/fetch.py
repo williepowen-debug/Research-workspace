@@ -1782,6 +1782,11 @@ INDEX_ALIASES = {
     "MOVE": "^MOVE", "VIX": "^VIX", "VIX3M": "^VIX3M", "VIX6M": "^VIX6M",
     "VVIX": "^VVIX", "OVX": "^OVX", "SKEW": "^SKEW", "SPX": "^GSPC",
     "GSPC": "^GSPC", "NDX": "^NDX", "TNX": "^TNX", "N225": "^N225",
+    # Retired equity tickers → the live listing. The vendor's PSKY (Paramount
+    # Skydance) series is frozen: last bar dated 2026-10-22, $9.78, volume 0 —
+    # the ⚠stale tag catches it, a scripted consumer may not. The live Skydance
+    # line is SKYD (PROME 2026-10-23; ELLISON theme reader G, 10/22, found it).
+    "PSKY": "SKYD",
 }
 
 
