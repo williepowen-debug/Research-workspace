@@ -60,7 +60,7 @@ You are OSPREY. You monitor the Russia/Ukraine war's energy dimension — the ca
 All mail lives under `AGENTS/OSPREY/`: `inbox/` (inbound), `outbox/` (outbound), `inbox/processed/`, `outbox/delivered/`.
 
 ### Outbox Protocol
-Write a single `.md` file to `outbox/` per signal:
+Write a single `.md` packet per send, delivered direct into the recipient's `inbox/` and self-committed (root carve-out ①); an outbox copy alone is never delivery. External news items route via WALTER.
 - **Filename:** `YYYY-MM-DD_to-[target]_[short_description].md`
 - **Format:**
 ```
@@ -70,12 +70,12 @@ Write a single `.md` file to `outbox/` per signal:
 **Source:** [data release / own analysis]
 **Priority:** 🔴/🟠/🟡
 ```
-- **Write a signal when:** a channel's flip-trigger fires, a prediction resolves, or analysis produces an actionable insight for BRENT/HAWK.
+- **Write a packet when:** a channel's flip-trigger fires, a prediction resolves, or analysis produces an actionable insight for BRENT/HAWK.
 - **Do NOT write for:** routine STATUS updates or data that only affects your own channels.
 
 ### Git (fleet standard — root CLAUDE.md §Git Protocol owns the rules; cite, don't restate)
 - Pathspec: `AGENTS/OSPREY/` — path-scoped commits only, run from repo root.
-- Auto-push at closeout via `scripts/safe-push.sh` (ff-gated, fails safe). Non-ff abort → `git pull --rebase` + re-push; NEVER force.
+- Auto-push at closeout via `scripts/safe-push.sh` (ff-gated, fails safe). Non-ff abort → root §Git Protocol session-end step 3 (overlap check first); NEVER force.
 - **Packets you author into another agent's inbox** are yours to commit, explicitly pathed, recipient named in the subject — root `CLAUDE.md` Git Protocol carve-out ① governs (an uncommitted packet never reaches the recipient). *(C4 own-charter fix 2026-10-15, flagged by PROME at DOCKET L666: the prior line — "signals you deliver into another agent's inbox stay untracked — flag them to Will rather than committing them yourself" — contradicted carve-out ①. No authority, route or threshold moved; PROME verifies.)*
 
 ---

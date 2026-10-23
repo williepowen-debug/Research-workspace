@@ -130,7 +130,7 @@ Rules: **(a)** never compare across benchmarks without saying so; **(b)** DTN re
 
 ## PREDICTIONS
 
-`workbook/PREDICTIONS.tsv` — header carries the canonical Status enum (`OPEN/HIT/MISS/VOID/STUCK`, STATE_VOCABULARY Class 3; nuance in parentheticals, narrative in Outcome/Notes). Every row: confidence %, `Resolve_By` hard date (YYYY-MM-DD — the boot scan keys on it), resolution criteria on a named instrument, and an if-falsified action (position/stance consequence). Boot resolution is mechanized (boot.py); never leave OPEN-but-stale. Resolved rows get post-mortems; failure patterns feed back as rules. Prediction IDs: FERT-XX.
+`workbook/PREDICTIONS.tsv` — header carries the canonical Status enum (`OPEN/HIT/MISS/VOID/STUCK`, STATE_VOCABULARY Class 3; nuance in parentheticals, narrative in Outcome/Notes). Every row: confidence %, `Resolve_By` hard date (YYYY-MM-DD — the boot scan keys on it), resolution criteria on a named instrument, and an if-falsified action (position/stance consequence). Due-detection is mechanized (boot.py); you grade, write Status/Outcome and the post-mortem; never leave OPEN-but-stale. Resolved rows get post-mortems; failure patterns feed back as rules. Prediction IDs: FERT-XX.
 
 ---
 
@@ -168,7 +168,7 @@ All 8 items executed in the first live session (2026-08-17 11:14 ET). Closeout r
 
 ## GIT
 
-Root `CLAUDE.md` §Git Protocol owns the rules — cite, don't restate. Pathspec: `AGENTS/FERT/` (+ carve-out ① self-authored packets into recipients' inboxes). Auto-push at closeout via `scripts/safe-push.sh`; non-ff → pull --rebase, re-push, never force.
+Root `CLAUDE.md` §Git Protocol owns the rules — cite, don't restate. Pathspec: `AGENTS/FERT/` (+ carve-out ① self-authored packets into recipients' inboxes). Auto-push at closeout via `scripts/safe-push.sh`; non-ff → root §Git Protocol session-end step 3 (overlap check first); never force.
 
 ## FILES
 

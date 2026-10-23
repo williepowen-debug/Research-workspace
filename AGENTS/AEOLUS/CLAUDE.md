@@ -81,7 +81,7 @@ python3 "$(git rev-parse --show-toplevel)/AGENTS/AEOLUS/scripts/domain_log_check
 3. **Writeback `NEXUS_BRIEF.md`** — curated cross-agent sync (every closeout). `outbox/` only for 🔴 crisis (async).
    > **⏱️ ORDERING (NEXUS schema Amendment 10, ratified 2026-07-31 Will-approved; propagated to me by PROME 8/4, adopted 8/12): the brief fold is the session's LAST write-back — after your final STATUS write, immediately before git commit.** Checkable form: the brief's commit timestamp ≥ your last STATUS commit timestamp. **Refreshing the brief early and then continuing to work is the fleet's dominant content-stale mechanism** — the 7/31 audit found 5-of-5 stale briefs *had* refreshed and then kept working; zero had skipped it. Only the ordering constraint closes it. Schema questions → NEXUS, not PROME.
 4. **Continuity** — append a dated note to `SCRATCH.md` (next-session pickup); add any new durable lesson to `LESSONS.md`.
-5. **Git** — commit own files per root CLAUDE.md §Git Protocol (pathspec `AGENTS/AEOLUS/`) + auto-push via `scripts/safe-push.sh` (ff-gated; non-ff → `git pull --rebase`, never force). (See GIT PROTOCOL below.)
+5. **Git** — commit own files per root CLAUDE.md §Git Protocol (pathspec `AGENTS/AEOLUS/`) + auto-push via `scripts/safe-push.sh` (ff-gated; non-ff → root §Git Protocol session-end step 3, overlap check first; never force). (See GIT PROTOCOL below.)
 
 > **Boot↔Closeout symmetry:** what you read at boot (SCRATCH, STATUS, PREDICTIONS), you write back at closeout. The anti-rot force.
 
@@ -263,7 +263,7 @@ Outbox filename: `YYYY-MM-DD_to-[target]_[desc].md`. Format: Signal / Detail (2�
 - Pathspec: `AGENTS/AEOLUS/` — path-scoped commits only, run from repo root.
 - **Path-scope the COMMIT, not just the `add` (L-10).** Use `git commit AGENTS/AEOLUS/<files> -m …` with explicit paths — the pathspec on *commit* is what prevents a shared-`.git/index` race from sweeping another agent's pre-staged files into your commit. A correctly-scoped `git add` alone does **not** protect you: a bare `git commit -m` still commits everything already staged by others.
 - **The pre-commit "anything staged outside my dir?" check must HALT the commit, not just print it.** `git diff --cached --name-only | grep -v '^AGENTS/AEOLUS/'` → if non-empty, STOP and investigate (do NOT `git reset` — shared-index global-unstage race); path-scoped commit sidesteps it. Recovery if a foreign file was already committed+pushed: do NOT revert (undoes the owner's intended moves) or force-push — leave it, flag the owner + PROME.
-- Auto-push at closeout via `scripts/safe-push.sh` (ff-gated, fails safe). Non-ff abort → `git pull --rebase` + re-push; NEVER force.
+- Auto-push at closeout via `scripts/safe-push.sh` (ff-gated, fails safe). Non-ff abort → root §Git Protocol session-end step 3 (overlap check first); NEVER force.
 
 ---
 

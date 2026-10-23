@@ -26,7 +26,7 @@ Modes size the work; no mode waives an existing mandatory root or desk duty. For
 
 **C4 — Current continuity.** Maintain **one current pickup block** in SCRATCH: state at writing, completed work, remaining work, next dated checks, source/approval walls and mail/delivery status. Archive superseded session narrative verbatim when replacing it; name the archive and verify preservation. Keep standing operational constraints readable. Do not append a competing current pickup. Archive links provide history, not instructions to revive resolved work.
 
-**C5 — Mail and delivery.** For each consumed inbox item, reconcile integration/deferred disposition, its board row where applicable and archive move. Follow the existing integrate-and-commit-before-filing requirement. Preserve self-authored consumer packets and their commit pointers. A file write/commit is not notification; queue acceptance is not consumption. Confirm acknowledgment at the exact artifact version. PROME's receipt covers PROME, not every other consumer.
+**C5 — Mail and delivery.** For each consumed inbox item, reconcile integration/deferred disposition, its board row where applicable and archive move. Integrate, log a KB row and commit before filing (`CLAUDE.md` boot step 6; WALTER signals also per `AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md` §8.1). Preserve self-authored consumer packets and their commit pointers. A file write/commit is not notification; queue acceptance is not consumption. Confirm acknowledgment at the exact artifact version. PROME's receipt covers PROME, not every other consumer.
 
 **C6 — Check and account.** Run applicable checks from the repository root; save results and their perimeter in the dated receipt. Required mechanics remain those in root `CLAUDE.md`; this is the WATT invocation list:
 
@@ -34,7 +34,7 @@ Modes size the work; no mode waives an existing mandatory root or desk duty. For
 |---|---|---|
 | Owned changes | `git diff --check -- AGENTS/WATT`; inspect exact paths and TSV column shape for edited ledgers | Paths checked; any findings resolved |
 | Orphan advisory | `bash scripts/orphan_check.sh WATT` | Own packets persisted; foreign work excluded |
-| Weekday claims | `python3 scripts/claim_check.py --check weekday AGENTS/WATT/STATUS.md` plus any other affected owned calendar | Findings looked at, corrected or explained; not a blind substitution |
+| Weekday claims | Root 1e: `python3 scripts/claim_check.py --check weekday PROME/DOCKET.tsv PROME/GATES.tsv PROME/WILL_QUEUE.md AGENTS/WATT/STATUS.md` | Findings looked at, corrected or explained; not a blind substitution |
 | Read cap | `python3 scripts/read_cap_check.py --agent WATT`; WATT `boot.py` byte-budget leg covers STATUS, SCRATCH, CLOSEOUT and predictions | Detected perimeter, sizes and any unreadable/over-budget surface; heuristic PASS is not fleet-wide coverage |
 | Ledger/trade agreement and age | `python3 scripts/ledger_staleness.py WATT --days 7 --quiet` and `--trade --days 7 --quiet`; root ledger nudge when triggered | Actual agreement reviewed; a fresh timestamp alone cannot prove content agrees |
 | Superseded number | Root consumer check, cross-agent and `--self`, only when a published figure changed | Series/unit adjudication, relevant packets and own repairs; preserve dated historical captures |
@@ -43,7 +43,7 @@ Modes size the work; no mode waives an existing mandatory root or desk duty. For
 
 For each check record **ran/result, findings/disposition, failed/UNKNOWN, or not applicable/reason**. A failed or skipped required check is incomplete, never “all checks passed.” Do not rewrite a historical capture solely to clear a lexical consumer hit. Findings require resolution or an explicit bounded disposition under the governing check's contract.
 
-**C7 — Freeze final content and fold the brief.** Stop substantive source edits after C1–C6. Commit final STATUS/affected state with exact paths, then fold NEXUS_BRIEF against that state and **pin its actual STATUS source commit**. The brief is the **last substantive write-back**, immediately before its commit; no source changes afterward without re-folding and repeating affected verification. Confirm the pin equals current STATUS HEAD. A newer brief stamp does not freshen its underlying data.
+**C7 — Freeze final content and fold the brief.** Stop substantive source edits after C1–C6. Commit final STATUS/affected state with exact paths, then fold NEXUS_BRIEF against that state and **pin its actual STATUS source commit**. The brief is the **last substantive write-back**, immediately before its commit; no source changes afterward without re-folding and repeating affected verification. Confirm with `python3 scripts/brief_pin_check.py WATT` that the pin equals current STATUS HEAD. A newer brief stamp does not freshen its underlying data.
 
 Use compact/full form under NEXUS canon. WATT's compact variant has routing first, no VIEW/CALIBRATION headers, and retains as-of and WAITING-FOR. **Use the full schema when WATT has ≥3 persistent live cross-agent edges or carries a thesis version.** Full form puts CROSS-DOMAIN first. Outbox remains crisis-only; normal owned analysis/coordination delivery follows the canonical file-packet contract.
 
