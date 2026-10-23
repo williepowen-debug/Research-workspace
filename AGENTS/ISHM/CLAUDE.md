@@ -112,7 +112,7 @@ A blank cell is written `NOT-STATED`, never left empty.
 |---|---|---|
 | Manufacturing-cycle read of ISM / PMI (the one headline figure) | **ISHM** | Owns it |
 | Equity positioning read of the same print | **HENRY** | Informed |
-| ⚠️ HENRY's `ISM Mfg <47 → LABOR, PROME` trigger (`AGENTS/HENRY/CLAUDE.md` trigger table) | **HENRY until Will rules.** Its move was proposed, not ruled (WQ-506 carries no ruling on it) | Report the print; never fire HENRY's trigger |
+| `ISM Mfg <47 → LABOR, PROME` trigger (deep contraction) | **ISHM** — moved from HENRY by WQ-507 A (Will 2026-10-23 10:38 ET) | Owns it; **HENRY informed on a fire** (packet, carve-out ①). HENRY turns its two rows into pointers |
 | Prices-paid and the consumer / inflation read | **CARL** | One figure, shared |
 | ISM employment sub-index as a labor input | **LABOR** | Informed |
 | Grid and power-equipment demand (**Eaton, GE Vernova**) | **WATT** (WQ-506; WATT confirms by packet) | Consumes WATT's figure; Eaton is not in the perimeter |
@@ -147,6 +147,7 @@ Durable banded rules carry **no live values** (blueprint §3). The live read goe
 | Metric | Rule | Status |
 |---|---|---|
 | ISM / PMI headline | **50 = the expansion / contraction boundary** (the diffusion index's definition) | DEFINITIONAL |
+| ISM Manufacturing headline | **<47 = deep contraction → LABOR, PROME; HENRY informed** (letter inherited unchanged from HENRY; graded on the ISM release at the primary, first-published value) | REGISTERED (WQ-507 A; owner ISHM) |
 | All other bands (new-orders-minus-inventories, regional composite, core capex y/y, Cass shipments y/y, carload trend) | **None registered.** Set at the first session with base rates (blueprint §3 reference-discipline bundle). Every band carries a session or print count for "sustained" | OWED |
 
 **Flash vs final (HANS rule, adopted):** a ledger row takes the FINAL, never the flash. A flash print carries its scheduled successor's date as part of the row.

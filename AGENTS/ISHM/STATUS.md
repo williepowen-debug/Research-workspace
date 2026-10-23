@@ -19,6 +19,7 @@
 | J2 (freight → LIQUID / RED) | NOT REGISTERED; base rate owed | `workbook/EXIT_PROTOCOL.md` |
 | Perimeter | 8 frozen names; the HON separation status is UNVERIFIED | `PERIMETER.tsv` |
 | Predictions | 0 (empty by design) | `workbook/PREDICTIONS.tsv` |
+| `ISM Mfg <47` trigger | **OWNED** since WQ-507 A (Will 10:38 ET). DAEDALUS encoded it before launch: charter § BOUNDARIES + THRESHOLDS + EXIT_PROTOCOL. PROME's inbox packet asks ①–③ are already done; read the packet, then file it | charter § THRESHOLDS |
 
 ## Routing
 

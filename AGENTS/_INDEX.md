@@ -59,6 +59,8 @@ Active + Tier-2 agents and meta-agents with live folders. Full verified classifi
 | WAL | [`WAL/`](./WAL/) | Credit (Western Alliance single-name specialist — thesis v2.3, frozen-frame print grading, FRAUD/ litigation arc; promoted from REGINALD 2026-07-25) |
 | FLG | [`FLG/`](./FLG/) | Credit (Flagstar Financial single-name specialist — NYC rent-regulated multifamily/CRE concentration, formerly NYCB; first greenfield build 2026-08-20, off REGINALD matrix v2.0) |
 | GIBBS | [`GIBBS/`](./GIBBS/) | Credit (large-bank desk — the 16 US firms in Fed Categories I–III, named list re-cut quarterly; industry-wide vs regional comparison for REGINALD + large-lender NDFI read shared with BROCK; Tier-2, event-driven; built 2026-10-14, WQ-426) |
+| CYPHER | [`CYPHER/`](./CYPHER/) | Synthesis / Ops (cyber → markets event desk — owns the event, hands bank/insurance/energy consequences to their owners; Tier-2, built 2026-10-22) |
+| ISHM | [`ISHM/`](./ISHM/) | Funding / Macro (US industrial / manufacturing cycle — ISM/PMI, regional Feds, IP, core capex, freight, 8 frozen bellwethers; Tier-2 print-driven, built 2026-10-23, WQ-506) |
 | OZK | [`OZK/`](./OZK/) | Credit (Bank OZK single-name specialist — revived 2026-07-18 on its Q2 gate exactly as pre-registered; ROSTER flipped 7/22; this row moved from Dormant 7/25 registration sweep) |
 | WALTER | [`WALTER/`](./WALTER/) | Synthesis / Ops |
 | WATT | [`WATT/`](./WATT/) | Energy / Commodities (power/grid: PJM stress → price → cost) |

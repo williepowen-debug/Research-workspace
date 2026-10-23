@@ -29,6 +29,10 @@ At build there is no ISHM stance, and this file says so rather than inventing on
 | Flip toward "borrowed" | **OWED AT FIRST SESSION.** Example shape: new orders fall while inventories rise for a stated count of prints, or a tariff payback month shows in orders and imports |
 | ⚠️ Shared-root warning | Surveys and IP for one month are one observation, not two. Never let a conjunction of "ISM and IP both up" count as independent confirmation |
 
+## Registered trigger beside R1
+
+`ISM Mfg <47 → LABOR, PROME` (deep contraction; HENRY informed), owned by ISHM since WQ-507 A (2026-10-23). A fire is evidence toward the "rolling over" leg of R1, not an R1 flip by itself. It is graded on the ISM release at the primary, first-published value.
+
 ## J1 — is the AI-capex boom equipment actually being bought? (feeds VULCAN)
 
 | Field | Content |
