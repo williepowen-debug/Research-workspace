@@ -1,0 +1,17 @@
+leg,account,ticker,type,strike,expiry,qty,basis_usd,source,verified
+bank,Fidelity,KRE,P,66,2026-11-20,3,133.99,FORGE 10/22 11:01 ET mirror,mirror
+bank,Fidelity,KRE,P,70,2026-11-27,2,281.33,FORGE 10/22 11:01 ET mirror,mirror
+bank,Fidelity,KRE,P,67,2026-11-27,4,510.65,FORGE 10/22 11:01 ET mirror,mirror
+bank,Fidelity,KRE,P,60,2026-12-18,5,1391.36,FORGE 10/22 11:01 ET mirror (2 lots: 513.34 + 878.02),mirror
+bank,Fidelity,KRE,P,65,2026-12-31,2,337.33,FORGE 10/22 11:01 ET mirror,mirror
+bank,Fidelity,APO,P,95,2026-12-18,1,1184.67,FORGE 10/22 11:01 ET mirror,mirror
+bank,Fidelity,OZK,P,40,2026-11-20,4,322.65,FORGE 10/22 11:01 ET mirror (WQ-428 SELL approved; still held at capture),mirror
+bank,Fidelity,WAL,P,70,2026-12-18,2,551.33,FORGE 10/22 11:01 ET mirror,mirror
+bank,Fidelity,WAL,P,65,2026-12-18,4,682.65,FORGE 10/22 11:01 ET mirror (WQ-429 SELL approved; still held at capture),mirror
+bank,Fidelity,ZION,P,62.5,2026-11-20,2,435.33,FORGE 10/22 11:01 ET mirror,mirror
+bank,Robinhood,WAL,P,70,2026-12-18,1,220.00,FORGE 9/29 card (unverified 24 days),unverified
+bank,Robinhood,KRE,P,25,2027-01-15,1,53.00,FORGE 9/29 card (unverified 24 days),unverified
+nasdaq,Fidelity,QQQ,P,710,2026-10-26,1,457.66,FORGE 10/22 11:01 ET mirror (no disposition in 10/23 activity view),mirror
+nasdaq,Fidelity,QQQ,P,705,2026-10-26,2,861.33,10/23 activity (PROME transcription),activity
+nasdaq,Fidelity,QQQ,P,690,2026-11-20,2,2679.33,10/23 activity (PROME transcription),activity
+nasdaq,Fidelity,QQQ,P,670,2026-11-20,-2,-1742.63,10/23 activity (PROME transcription),activity
