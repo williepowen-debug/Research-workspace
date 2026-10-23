@@ -1,10 +1,17 @@
 # REGINALD — NEXUS Brief
 
-**Status:** Concentrated bank risk. HY widening 266→333bp is BANK-ABSENT on bank instruments (~0.6). Q3 problem loans up at 6/6 names read; the reserve-coverage-decline leg is **re-weighted** on DEWEY's base rate (2/10 hits within 4Q vs 25%).
+**Status:** Concentrated bank risk. HY 340bp [10/22] is 10bp from REG-T-04 and mostly a BROAD repricing; still BANK-ABSENT on bank instruments (~0.7). On a 57-day fit the 10-year, not HY, moves KRE. Q3: problem loans up at 7 of 10 names read, coverage down at 6 of 8 — holds at CRE-concentrated names, breaks at cleaner ones.
 **Domain:** Regional-bank comparison, FHLB advances, hidden CRE and sponsor-bank balance-sheet risk.
-**As of:** 2026-10-22 15:16 ET, owner session CLOSED at Will's request (10/22) | STATUS commit: 471f678ae
+**As of:** 2026-10-23 15:33 ET, owner session (Will-launched boot + catch-up) | STATUS commit: c6bb09ab0
 
 ## CROSS-DOMAIN
+
+**October23 catch-up** (`reports/2026-10-23_boot/REPORT.md`, commit `c6bb09ab0`):
+- **HY / REG-T-04 (PROME ask, packet `012e5c08c`, consumed by PROME at `c3600e8ed`):** 340bp [10/22], run 0 of 3; earliest fire 10/27 close. Broad repricing ⇒ the bank lane shows as **drawn balances** (C&I, NDFI lender/fund finance), not regional credit losses. Issuance freeze already under way on volume (≈$7B Oct vs ≈$51B Sep, secondary).
+- **10-year falsifier:** KRE −0.72% per +10bp 10-year vs +0.02% per +10bp HY (corr −0.36 / +0.07; R² 0.13, weak). A falling 10-year falsifies a regional-bank put; a wide HY print does not confirm one. In `TRADE.md` §4 for TERRY's cards.
+- **FLG Q3:** missed; 0 of 4 readable CRE 'weakens if' lines met (NAL $2,817M, RR criticized $4,402M, loss ratio 20.7%), criticized +$670M; FLG stays #1. FLG desk owns the print grade.
+- **AMTB:** FL frame HOLDS final. **CUBI:** WQ-318 INCONCLUSIVE; fund finance +$456M, its top grower (NDFI lane, BROCK).
+- **FL aggregate:** AMTB HOLDS final, SSB HOLDS provisional, BKU HOLDS-PENDING-P, SBCF prints 10/27 — still PROVISIONAL (CORAL consumes).
 
 **October22 catch-up** (`reports/2026-10-22_catchup/REPORT.md`, commit `6e3914cb2`):
 - **Will's HY question (SIG-W-20261022-005):** BANK-ABSENT 9/21→10/20. The October leg is CCC-only (+112bp, BB −2bp). Bank pref basket −2.0% vs PFF −3.9% (dividend-adjusted); KRE −1.9% vs KBWB −5.7%.
@@ -35,6 +42,7 @@
 
 | To | Signal | Priority | Mechanism |
 |----|--------|----------|-----------|
+| PROME | 10/23 REG-T-04 bank-lane reading + 10-year falsifier (`012e5c08c`); PROME filed it as consumed on L818 (`c3600e8ed`) | 🟠 | Asks (1)–(2); no trade, no gate move |
 | PROME | 10/22 catch-up packet (`6e3914cb2`) + forum post (`db50f620c`); PROME acknowledged receipt by message | 🟠 | 005 answer, GATE-REG-27, D:L521, HBAN/ZION reads |
 | PROME · OZK | October21 audit packets (`1d84633ca`), consumption unverified | 🟡 | Approved prediction encode, stale coordinator obligations with delivery evidence, coupon consumer carries; no new score or trade |
 | PROME · OZK · WAL · WALTER | October20 backlog report and dated inbox packets | 🟠 | Primary Boston failed sale/foreclosure; weekly funding partly reverses; secondary WAL external-disposal evidence. No owner grade changed or recipient read asserted |
