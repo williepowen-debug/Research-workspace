@@ -8,11 +8,11 @@
 - **Bank and vendor software** mostly runs on Java, Windows Schannel or Linux system stores:
   - **Oracle Java and standalone OpenJDK** block only the **eight compromised intermediates** (Oracle: "distrusts the set of impacted intermediate CA certificates related to eMudhra").
   - **Windows** blocks the intermediates "without modifying Trusted Root Certification Authorities".
-  - eMudhra says those intermediates issued no end-entity certificates (NEWS), so blocking them should break nothing legitimate.
+  - eMudhra says those intermediates issued no end-entity certificates, so blocking them should break nothing legitimate. **This claim is CONTESTED (added 22:46 ET on CYPHER's flag, DEWEY-verified at [Mozilla bug 2083449](https://bugzilla.mozilla.org/show_bug.cgi?id=2083449)):** comment 2 (reporter's timeline) has eMudhra saying "'EM DV TLS CA - G3C' was live, disabled now", and comment 30 (Chrome root program) refers to "precertificates logged after October 17, 2026 under the compromised `EM DV TLS CA - G3B`". So some issuance under the blocked intermediates did occur, and blocking them may break a small number of live certificates.
 - **The real breakage channel is Linux and open-source bundles that *removed roots* on 19–20 Oct:** Mozilla NSS 3.131.1, Python certifi, curl's bundle, Debian, Ubuntu, Alpine. Linux-packaged Java inherits those removals. **Debian, and Ubuntu before 22.04, also removed the old Sectigo "AAA Certificate Services" root**, which is unrelated to eMudhra and so is a wider knock-on (DEWEY reading of the chains).
 - **No breakage in finance has been reported**, and RBI, SEBI, NPCI, NSE and BSE have issued no statement. India's regulated digital-signature (DSC/eSign) system is on separate infrastructure and "not impacted" (CERT-In).
 - **So what for 27 Oct:** expect little financial-system effect from Chrome's step itself. Watch for Linux-hosted API clients failing against servers still using eMudhra or legacy-AAA chains. That started on 19–20 Oct, not on 27 Oct.
-- **Premise correction:** this was a **key compromise** (weak randomness at a 30 Apr 2025 key ceremony, per eMudhra), credited to a community reporter on 17 Oct. **No Cisco Talos report was found.** DEWEY's earlier watch-legs report relayed a search summary attributing it to Talos; that line is corrected in the same commit as this report.
+- **Premise correction:** this was a **key compromise** (weak randomness at a 30 Apr 2025 key ceremony), reported by a researcher ("Wayne") on 17 Oct. **The 30 Apr 2025 date was first tied to the keys by Mozilla's Dennis Jackson** (bug 2083449 comment 5, 18 Oct: "The 8 impacted keys originate on the 30th April 2025 as part of a batch of 24 intermediates"), **and eMudhra confirmed it** (comments 10–11, 19 Oct; corrected 22:46 ET on CYPHER's flag). **No Cisco Talos report was found.** DEWEY's earlier watch-legs report relayed a search summary attributing it to Talos; that line is corrected in the same commit as this report.
 
 ## Evidence
 
@@ -30,7 +30,7 @@
 | Python certifi / curl / Perl Mozilla::CA | G3 dropped (certifi 2026.10.19) | 19–20 Oct | requests, pip, curl | community tracker; Rescana | SECONDARY-SOURCE |
 | Debian (DSA-6572-1) / Ubuntu (USN-8944) | Remove **emSign ECC G3 and Comodo/Sectigo AAA Certificate Services** (Ubuntu: AAA only before 22.04) | 20 Oct | System store, including OS-packaged OpenJDK | [NEWS: The Hacker News](https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html) | SECONDARY-SOURCE |
 | RHEL (RHSB-2026-012) | Affected; packages pending 21 Oct | — | RHEL 6–10 | same | SECONDARY-SOURCE |
-| Apple | Intermediates blocked (date conflict: 19 vs 22 Oct); macOS `/etc/ssl/cert.pem` not updated | — | — | community tracker | SECONDARY-SOURCE |
+| Apple | Intermediates blocked (date conflict: 19 vs 22 Oct; CYPHER's checkers read 22 Oct, not verified by DEWEY); macOS `/etc/ssl/cert.pem` not updated | — | — | community tracker | SECONDARY-SOURCE |
 | Go / Node.js | Go 1.27.3 / 1.26.10 block the keys (rebuild needed); Node 22/24/26 updates adopt NSS 3.131.1 | 19–21 Oct | — | Rescana | SECONDARY-SOURCE |
 
 ### 2. What was compromised
