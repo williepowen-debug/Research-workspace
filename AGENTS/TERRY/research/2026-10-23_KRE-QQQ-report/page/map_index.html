@@ -62,7 +62,7 @@
     <div class="dv-tile" id="w-corr"><span class="lbl">Correlation back above 0?</span><span class="big dash-skeleton" data-source="watch" data-field="corr20">—</span><span class="state" data-k="corr_on"></span><span class="sub">Session <span data-source="watch" data-field="sessions_since_signal">—</span> since the signal; since 2006, episodes this deep ended after a median of <span data-source="watch" data-field="median_runway">—</span></span></div>
     <div class="dv-tile" id="w-ratio"><span class="lbl">KRE ÷ QQQ, off its peak since Oct 6</span><span class="big dash-skeleton" data-source="watch" data-field="ratio_off_peak_pct">—</span><span class="state" data-k="ratio_on"></span><span class="sub">Turns on at <span data-source="watch" data-field="ratio_rollover_pct">—</span>% below the peak</span></div>
     <div class="dv-tile" id="w-joint"><span class="lbl">First day both fell 1% or more</span><span class="big dash-skeleton" data-source="watch" data-field="first_joint_day">—</span><span class="state" data-k="joint_on"></span><span class="sub">Counted from the signal session</span></div>
-    <div class="dv-tile" id="w-ten"><span class="lbl">10-year yield, 5-session change</span><span class="big dash-skeleton" data-source="watch" data-field="ten_chg5_bp">—</span><span class="state" data-k="ten_on"></span><span class="sub">Turns on at +<span data-source="watch" data-field="ten_up_bp">—</span> bp; now <span data-source="watch" data-field="ten_last">—</span>%</span></div>
+    <div class="dv-tile" id="w-ten"><span class="lbl">10-year yield, 5-session change</span><span class="big dash-skeleton" data-source="watch" data-field="ten_chg5_bp">—</span><span class="state" data-k="ten_on"></span><span class="sub">Turns on at +<span data-source="watch" data-field="ten_up_bp">—</span> bp; now <span data-source="watch" data-field="ten_last">—</span>%. Series: Cboe 10-year yield index (^TNX) via Yahoo; Treasury's official daily rate can differ by a few hundredths</span></div>
     <div class="dv-tile" id="w-beta"><span class="lbl">KRE move per +0.10 pt in the 10-year</span><span class="big dash-skeleton" data-source="watch" data-field="kre_per_10bp_60">—</span><span class="state" data-k="beta_note"></span><span class="sub">Last 60 sessions. Carried figure <span data-source="watch" data-field="reginald_beta">—</span>% (REGINALD, R² <span data-source="watch" data-field="reginald_r2">—</span>, weak). Banks normally rise with yields</span></div>
     <div class="dv-tile" id="w-alarm"><span class="lbl">Alarm: KRE on the last yields-down day</span><span class="big dash-skeleton" data-source="watch" data-field="last_down_kre_ret">—</span><span class="state" data-k="alarm_on"></span><span class="sub"><span data-source="watch" data-field="last_down_date">—</span>, 10-year <span data-source="watch" data-field="last_down_ten_bp">—</span> bp. Not a crash signal: since 2024 KRE fell on <span data-source="watch" data-field="down_kre_fell">—</span> of <span data-source="watch" data-field="down_days">—</span> such days (this year <span data-source="watch" data-field="down_kre_fell_ytd">—</span> of <span data-source="watch" data-field="down_days_ytd">—</span>). It marks the falling-yield support ending</span></div>
   </div>
@@ -72,10 +72,10 @@
   <div class="dv-grid">
     <section class="dv-card" id="base-rate">
       <h2>Next 20 sessions after a negative-correlation day, since 2024</h2>
-      <p class="dv-note">Every session since Jan 2024 with the 20-day correlation below 0, and where KRE and QQQ each stood 20 sessions later (any size: a small dip counts as down, unlike the 5% bar beside it).<span data-source="base_rate" data-field="windows" data-row="0">—</span> overlapping windows from about <span data-source="base_rate" data-field="runs" data-row="0">—</span> separate stretches, so far fewer independent cases than windows.</p>
+      <p class="dv-note"><span data-source="base_rate" data-field="runs" data-row="0">—</span> separate stretches of negative correlation since Jan 2024, which is the real number of independent cases. Each of their <span data-source="base_rate" data-field="windows" data-row="0">—</span> sessions is followed 20 sessions forward; the last column counts each stretch once, so one long stretch cannot dominate. Any size counts: a small dip is "down", unlike the 5% bar beside it.</p>
       <div class="dv-table-wrap">
         <table class="dv-table" id="base-table" data-source="base_rate" data-row-key="outcome">
-          <thead><tr><th data-field="outcome">20 sessions later</th><th data-field="count">Windows</th><th data-field="share_pct">Share</th></tr></thead>
+          <thead><tr><th data-field="outcome">20 sessions later</th><th data-field="count">Windows</th><th data-field="share_pct">Share of windows</th><th data-field="stretch_share_pct">Each stretch counted once</th></tr></thead>
           <tbody></tbody>
         </table>
       </div>
@@ -534,19 +534,22 @@ dash.calc('watch', {
 dash.calc('base_rate', {
   inputs: ['kre_qqq_daily'],
   title: 'Outcomes after negative correlation',
-  description: 'Every session since Jan 2024 whose 20-day correlation was below 0 and that has 20 later sessions: where KRE and QQQ each stood 20 sessions later (up or down), as counts and shares; runs = separate stretches of such sessions.',
+  description: 'Every session since Jan 2024 whose 20-day correlation was below 0 and that has 20 later sessions: where KRE and QQQ each stood 20 sessions later (up or down), as counts and shares of windows, and as shares with each separate stretch of such sessions weighted equally (runs = number of stretches).',
   fn: (kre_qqq_daily) => {
     const rows = kre_qqq_daily.map(r => ({ kre: +r.kre, qqq: +r.qqq, c: +r.corr20 }));
     const names = ['QQQ down, KRE up', 'Both down', 'QQQ up, KRE down', 'Both up'];
-    const cnt = [0, 0, 0, 0]; let runs = 0, prev = -2;
+    const cnt = [0, 0, 0, 0], per = []; let runs = 0, prev = -2;
     for (let i = 0; i + 20 < rows.length; i++) {
       if (!(rows[i].c < 0)) continue;
-      if (i !== prev + 1) runs++; prev = i;
+      if (i !== prev + 1) { runs++; per.push([0, 0, 0, 0]); } prev = i;
       const k = rows[i + 20].kre >= rows[i].kre, q = rows[i + 20].qqq >= rows[i].qqq;
-      cnt[!q && k ? 0 : !q && !k ? 1 : q && !k ? 2 : 3]++;
+      const j = !q && k ? 0 : !q && !k ? 1 : q && !k ? 2 : 3;
+      cnt[j]++; per[per.length - 1][j]++;
     }
     const tot = cnt.reduce((a, b) => a + b, 0);
-    return names.map((nm, j) => ({ outcome: nm, count: cnt[j], share_pct: tot ? Math.round(cnt[j] / tot * 1000) / 10 : null, windows: tot, runs }));
+    const eq = [0, 1, 2, 3].map(j => per.length ? per.reduce((s, r) => s + r[j] / r.reduce((a, b) => a + b, 0), 0) / per.length : null);
+    return names.map((nm, j) => ({ outcome: nm, count: cnt[j], share_pct: tot ? Math.round(cnt[j] / tot * 1000) / 10 : null,
+      stretch_share_pct: eq[j] === null ? null : Math.round(eq[j] * 1000) / 10, windows: tot, runs }));
   }
 });
 
@@ -625,19 +628,21 @@ dash.calc('long_history', {
       });
       const be = tiles.querySelector('[data-k="beta_note"]');
       be.textContent = h.kre_per_10bp_60 < 0 ? 'Inverted: KRE rises when yields fall' : 'Normal: KRE rises with yields';
-      statusEl.textContent = `${h.signs_on} of 5 warning signs on at the ${fmtShort(day(h.last_date))} close. ` +
-        (h.signs_on === 0 ? 'The see-saw is intact: no sign yet that it is turning into a joint fall or a joint rally.' :
-          'Read the lit tiles below: a sign on is a reason to look, not a forecast.');
+      statusEl.textContent = `${h.signs_on} of 5 monitoring thresholds triggered at the ${fmtShort(day(h.last_date))} close. ` +
+        'The divergence persists; where it goes next is unresolved. These thresholds were set on Oct 23, 2026 and detect a change once it starts: ' +
+        'replayed on November 2021, they lit on the day the shock hit, not before. A sign on is a reason to look, not a forecast.';
       statusEl.classList.remove('dash-skeleton');
       fomcEl.textContent = '';
       const b = document.createElement('b'); b.textContent = 'Checkpoint: '; fomcEl.appendChild(b);
       fomcEl.appendChild(document.createTextNode(`Fed decision ${fmtLong(day(h.fomc_date))}, 2:00 pm ET, ${h.sessions_to_fomc} sessions away. ` +
-        'If the 10-year rises after it, regional banks lose the falling-yield support behind their rally while tech also feels higher rates: the November 2021 pattern. If it keeps falling, the see-saw can run.'));
+        'Watch the 10-year after it, but its direction alone does not say why it moved. Rising yields would remove the support behind the regional-bank rally and press on tech. ' +
+        'Falling yields are not automatically good news: yields can fall on hopes of easier policy, or on fear of a weaker economy while credit worsens, and those mean different things for banks. ' +
+        'Which one it is belongs to REGINALD and LIQUID, not to this tile.'));
     }
     const br = dash.data('base_rate'), bt = document.querySelector('#base-table tbody');
     const brNote = document.querySelectorAll('#base-rate span[data-source="base_rate"]');
     if (br.status === 'ok' && br.data.length) {
-      rowsInto(bt, br.data, [r => r.outcome, r => String(r.count), r => r.share_pct === null ? '—' : r.share_pct.toFixed(1) + '%']);
+      rowsInto(bt, br.data, [r => r.outcome, r => String(r.count), r => r.share_pct === null ? '—' : r.share_pct.toFixed(1) + '%', r => r.stretch_share_pct === null ? '—' : r.stretch_share_pct.toFixed(1) + '%']);
       brNote.forEach(e => setText(e, String(br.data[0][e.dataset.field])));
     } else bt.textContent = '';
     const lh = dash.data('long_history'), ht = document.querySelector('#hist-table tbody');
