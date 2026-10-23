@@ -1,6 +1,6 @@
 # CYPHER STATUS
 
-**Last Updated: 2026-10-23 11:3x ET — boot (Will-launched): inbox 6 packets cleared, COR-20261022-48 receipted, WQ-508 lines accepted, READS declaration to PROME, ConnectWise check 10/26. Prior: 07:30 ET live news sweep (Will-launched, Claude Code, claude-opus-5-5): 3 non-US bank-sector incidents ledgered, Palo Alto reach added to PHP2Shell, do-not-relay list re-cut, KB-CYP-019.** Evidence records: `research/2026-10-23_news-sweep-and-relay-pattern.md` (this session) · `research/2026-10-22_first-session-verification-record.md` (first session).
+**Last Updated: 2026-10-23 14:2x ET — Will-launched session: CHOKEPOINT MAP built (32 rows, Will option A), boot.py leg 9 (8-K 8.01 cyber) + drill suite repaired 29/29, Comodo/Java question answered (FL-CYP-20), Oracle CVE-2026-91403 folded into CYB-INC-009, CYB-INC-024 (Anthropic/AISI Mythos 5 test incident).** Evidence records: `research/2026-10-23_chokepoint-map.md` · `research/2026-10-23_news-sweep-and-relay-pattern.md` · `research/2026-10-22_first-session-verification-record.md`.
 
 > ~~FIRST-LIVE-SESSION BANNER~~ — **SPENT 2026-10-22.** `FIRST_SESSION.md` items 1–8 done or carried as listed under § First-session record. Normal boot from here.
 
@@ -16,6 +16,17 @@
 | Incident ledger | 23 rows: every seed re-verified at a named source; 021–023 added 10/23 (SBI PRIMARY-VERIFIED; Korea and CARLIY0S SECONDARY) | `workbook/INCIDENTS.tsv` |
 | Predictions | **CYP-01** incidents escalate (8-K Item 1.05 ≥ 6 in Nov–Dec 2026) **30%**; **CYP-02** a named US bank / CU / core vendor compromised via a wave vector by 2027-01-31 **15%** — both Will's view, desk odds | `workbook/PREDICTIONS.tsv` |
 | R1 two-way flip | Toward MOVEit: row 1 or 3 FIRES on or before 2026-11-20. Toward Log4Shell: rows 1, 3, 4 all NOT-FIRED at 11/20 with dated re-checks 11/13–11/20 | `workbook/EXIT_PROTOCOL.md` |
+
+## Chokepoint map (new 2026-10-23; canonical `workbook/CHOKEPOINTS.tsv`, method `research/2026-10-23_chokepoint-map.md`)
+
+| Reading | Value |
+|---|---|
+| Rows | 32: cores 6, digital banking 3, CU/data vendors 2, file transfer 4, MSP tools 2, identity / endpoint / cloud 3, FMUs and networks 7, ring-one finance-ops vendors 4, perimeter appliances 1 |
+| Wave_Touch | CONFIRMED 1 (ConnectWise / Storm-0940, CHK-16; Axcient PHP2Shell portal fix on the same page) · CONFIRMED-OFF-WAVE 1 (TruStage) · POSSIBLE 4 (PAN-OS PHP2Shell; Kiteworks if PHP; GoAnywhere and Cleo Java tails) · NONE-KNOWN 11 · UNKNOWN-STACK 15 |
+| First match | Today's wave touches the map at its EDGES (perimeter appliances, MSP layer, file-transfer Java tails), not at a core or a market utility: fits MECHANICAL, except that the MSP channel is a confirmed live compromise with a late-surfacing victim shape |
+| Strongest deductions | File-transfer products are the repeat door (~1 mass exploitation a year, several pre-advisory); market-plumbing cyber hits land one ring OUT (ICBC FS, ION), and ring one's biggest node is Broadridge (21 of 25 primary dealers, VIA-SEARCH) |
+| Candidates for Will | CYP-03 MSP-route bank disclosure by 12/31 (15%); CYP-04 new KEV CVE in MOVEit / GoAnywhere / Cleo / Kiteworks by 2027-04-30 (35%) — NOT registered |
+| Highest-value open cell | Does Kiteworks run on PHP? (federal tip-off Sept 2026 + PHP lineage + PHP2Shell = the MOVEit-shaped combination). 200 Kiteworks advisories mention PHP 0 times — an absence, not a no |
 
 ## Open wave — WAVE-2026-10 (canonical: `workbook/ESCALATION_WATCH.tsv`)
 
@@ -89,8 +100,9 @@ Verisk PCS: subscription (MIRROR-WALLED). NYDFS industry letters are **reachable
 **Known gaps carried:**
 - boot.py leg 5 checks Last_Checked only on REPORTED / ATTEMPTS-ONLY rows, so a blank cell on a CONFIRMED row passes silently. Caught by hand tonight; fix and drill at the next boot.py edit.
 - `corrections_boot_check.py CYPHER` returns rc 2 until DAEDALUS lists CYPHER in FLEET_DIRECTORY.
-- boot.py leg 8 sees only Item 1.05. A non-material cyber 8-K under Item 8.01 is invisible to it (Quest, 10/22). Add an 8.01 cyber-term search, with a drill, at the next boot.py edit; until then a quiet leg 8 means "no MATERIAL incident filed".
+- ~~boot.py leg 8 sees only Item 1.05~~ **FIXED 2026-10-23: leg 9** searches 8-K cyber terms, kept when items are within {8.01, 7.01, 9.01}. ~3 hits a week, mostly forward-looking boilerplate in press-release exhibits (ODFL, FB Financial, Hanmi all read 10/23: boilerplate). A text-level boilerplate filter is the next refinement.
+- test_boot.py had silently gone 0/29 (fixture anchored on a live cell); repaired 10/23, 29/29.
 
 ## BOTTOM LINE
 
-One wave is open (PHP2Shell plus October's supply-chain and certificate failures), and none of its nine escalation rows has fired as of the 2026-10-23 re-check. The composite is unchanged at 21/40 raw and 15/40 after counting the shared PHP2Shell root once, which fits a Log4Shell-shaped wave so far; three non-US bank-sector incidents (India, Korea, Latin America) were ledgered 10/23 but are not wave-rooted and move no US-keyed band. The most important unconfirmed lead is still the Dutch NCSC's "first signals of successful misuse": a named victim on or before 11/20 flips the wave toward the MOVEit shape. Next wakes are the ConnectWise restoration check on 10/26, Chrome's eMudhra root removal on 10/27, DEWEY's rerun on 10/29 (the 7-day re-check deadline), Palo Alto's last PAN-OS hotfix ETA on 10/30 and the MOVEit-analogue victim check on 11/04.
+One wave is open (PHP2Shell plus October's supply-chain and certificate failures), and none of its nine escalation rows has fired as of the 2026-10-23 re-check. The composite is unchanged at 21/40 raw and 15/40 after counting the shared PHP2Shell root once, which fits a Log4Shell-shaped wave so far; three non-US bank-sector incidents (India, Korea, Latin America) were ledgered 10/23 but are not wave-rooted and move no US-keyed band. The most important unconfirmed lead is still the Dutch NCSC's "first signals of successful misuse": a named victim on or before 11/20 flips the wave toward the MOVEit shape. The new chokepoint map says today's threats touch only the edges of US finance's shared suppliers (firewalls, IT-provider tools, Java file-transfer tails), not a core processor or a market utility; the IT-provider channel (ConnectWise) is the one confirmed live compromise. Next wakes are the ConnectWise restoration check on 10/26, Chrome's eMudhra root removal on 10/27, DEWEY's rerun on 10/29 (the 7-day re-check deadline), Palo Alto's last PAN-OS hotfix ETA on 10/30 and the MOVEit-analogue victim check on 11/04.

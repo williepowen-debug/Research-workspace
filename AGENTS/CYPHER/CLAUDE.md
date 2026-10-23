@@ -14,7 +14,7 @@
 2. **Critical semantics:** "no compromise confirmed" is **weak evidence**, not an all-clear. A low-footprint exploit (CrowdStrike lab finding on PHP2Shell) and pre-disclosure exploitation are the MOVEit/SolarWinds shape, where the victim list surfaced weeks later. `ATTEMPTS-ONLY` never becomes "no damage" in your text.
 3. **Git:** cwd-proof ops from repo root · pathspec-only commits (`AGENTS/CYPHER/…`) · **no push when spawned** — coordinator sweeps.
 4. **Deliver before idle, BOTH halves:** files written + committed AND coordinator notified through the verified available channel (`PROME/COMPLETION_SPEC.md`). Never idle "holding."
-5. **Freshness gate:** `python3 "$(git rev-parse --show-toplevel)/AGENTS/CYPHER/boot.py"` — wall clock · ledger staleness · predictions-due · catalysts-due · escalation watch · incident re-checks · matrix/map · CISA KEV · SEC 8-K Item 1.05, one verdict.
+5. **Freshness gate:** `python3 "$(git rev-parse --show-toplevel)/AGENTS/CYPHER/boot.py"` — wall clock · ledger staleness · predictions-due · catalysts-due · escalation watch · incident re-checks · matrix/map · CISA KEV · SEC 8-K Item 1.05 · SEC 8-K Item 8.01 cyber terms (non-material disclosures), one verdict.
 6. **⏰ WALL CLOCK:** boot.py prints it first. Never hand-write a time or weekday — copy that line.
 
 ---
@@ -39,7 +39,8 @@ You track **any cyber event that can move money**: bank and core-vendor incident
 
 | You own | Surface |
 |---|---|
-| **The incident ledger** — one row per event, classed and dated, with confirmation state and basis | `workbook/INCIDENTS.tsv` |
+| **The incident ledger** — one row per event, classed and dated, with confirmation state and basis | `workbook/CHOKEPOINTS.tsv` | The chokepoint map; Type / Wave_Touch enums in its header; `Last_Checked` is each row's vintage |
+| `workbook/INCIDENTS.tsv` |
 | **The escalation watch** — DEWEY's 9-row checklist (REQ-008 §5), instantiated per wave, each row with a positively-measured instrument | `workbook/ESCALATION_WATCH.tsv` |
 | **Viral-claim triage** — a checked-and-refuted claim keeps its row as `FALSE`, so it is not re-ingested next week | `INCIDENTS.tsv` (`Event_State` = `FALSE`) |
 | **The cyber base rates** — past waves, insured-loss range, time-to-scope, exploitation speed | `workbook/KB.tsv` |
@@ -99,7 +100,7 @@ DEWEY's REQ-008 recommended **a mechanical watch run by WALTER, not a standing d
 `workbook/ESCALATION_WATCH.tsv` holds one block of nine rows per **wave** (`Wave_ID`), copied from DEWEY's checklist and adapted to the wave's own CVEs and names. States are STATE_VOCABULARY Class 2: `ARMED` (registered, not yet evaluated at its instrument) · `NOT-FIRED` (evaluated, not met — carry the date) · `FIRED` (carry the date and the evidence) · `STOOD-DOWN` (wave closed — carry the reason) · `UNOBSERVABLE` / `CANNOT-FIRE` where the instrument cannot see.
 
 - **Each row names a positively-measured instrument and its healthy reading** (blueprint §4) — "KEV catalog vX read, CVE absent" is a reading; "no news" is not.
-- **Machine legs:** row 2 (CISA KEV) and row 4 (SEC 8-K Item 1.05) are checked by `boot.py` every boot. The machine **flags; you set the State.** Every other row is OWNER-adjudicated.
+- **Machine legs:** row 2 (CISA KEV) and row 4 (SEC 8-K Item 1.05, plus Item 8.01 cyber terms for non-material disclosures) are checked by `boot.py` every boot. The machine **flags; you set the State.** Every other row is OWNER-adjudicated.
 - **While a wave is open, every `ARMED` or `NOT-FIRED` row is re-checked within 7 days** — boot.py flags any such row whose `State_As_Of` is older. `UNOBSERVABLE` / `CANNOT-FIRE` rows carry no clock (nothing to re-check until the instrument changes); `FIRED` / `STOOD-DOWN` are terminal.
 - **A FIRED row goes to its consequence owner by packet, P1, the same session.** The owner decides the consequence. You record the hand-off in the row's Notes.
 - **Closing a wave** = every row `STOOD-DOWN` with a dated reason (e.g. "no named victim by disclosure +60d; KEV-listed, patched"). Never close a wave by letting its rows go stale.
@@ -114,6 +115,14 @@ DEWEY's REQ-008 recommended **a mechanical watch run by WALTER, not a standing d
 - **`workbook/FLOW.tsv` — which mechanisms have actually transmitted.** One row per mechanism, keyed to a vector, state `CONFIRMED` · `NOT-OBSERVED` (0 instances in a named sample — a base rate, not a proof) · `MODELED` · `UNTESTED`. Seeded from DEWEY REQ-008. A `NOT-OBSERVED` row flips to `CONFIRMED` on one documented instance — record it in the same edit; that flip is the most important thing this desk can report.
 
 ---
+
+## CHOKEPOINT MAP — where to look before anything is reported
+
+Will, 2026-10-23 (option A): *deduce where problems will come from instead of chasing reports.* `workbook/CHOKEPOINTS.tsv` maps the shared suppliers and utilities US finance depends on (cores, digital banking, CU vendors, file transfer, MSP tools, identity, cloud, FMUs, ring-one finance-ops vendors, perimeter appliances), each with reliance + basis, public stack, precedent, first-signal surface and `Wave_Touch`. Method and deductions: `research/2026-10-23_chokepoint-map.md`.
+
+- **Intake order:** every new threat is matched against the map FIRST ("which chokepoint's public stack does it reach?"), and its `Wave_Touch` cells are updated in the same session. A threat that reaches no row is logged and stays low.
+- **`UNKNOWN-STACK` is not an all-clear** — it is most of the map, because suppliers do not publish their stacks.
+- **Each deduction worth acting on becomes a prediction** (PREDICTIONS.tsv, Will's word). That keeps the map honest against the base rate.
 
 ## DATA ROUTES
 
@@ -195,7 +204,7 @@ Root `CLAUDE.md` §Git Protocol owns the rules — cite, don't restate. Pathspec
 | `STATUS.md` | Live state; its banner is the authority on whether `FIRST_SESSION.md` still applies |
 | `FIRST_SESSION.md` | One-time first-session list; spent when the STATUS banner is struck |
 | `DATA_ROUTES.md` | Reachability and use of each data route; re-record when a route changes |
-| `boot.py` | Boot instrument: wall clock · staleness · predictions-due · catalysts-due · escalation watch · incident re-checks · matrix/map · KEV · 8-K Item 1.05. rc 0 quiet / 1 REVIEW / 2 leg failed |
+| `boot.py` | Boot instrument: wall clock · staleness · predictions-due · catalysts-due · escalation watch · incident re-checks · matrix/map · KEV · 8-K Item 1.05 · 8-K Item 8.01 cyber terms (leg 9, added 2026-10-23; expect forward-looking boilerplate hits). rc 0 quiet / 1 REVIEW / 2 leg failed |
 | `scripts/test_boot.py` | Drill suite for `boot.py` (alert, clean and failure path per leg, on throwaway copies; real files md5-checked). **Run it after any `boot.py` edit**, before commit |
 | `workbook/VX.tsv` | Convergence matrix; Score / Kind / band enums and the composite rule in its header; `As_Of` is each row's vintage |
 | `workbook/FLOW.tsv` | Transmission map; State enum in its header; every row keyed to a VX vector |
