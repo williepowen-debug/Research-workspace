@@ -1,5 +1,5 @@
-# LIVE — Last real data refresh: 2026-10-22 | Staleness sweep: 2026-10-22 | Next: DEWEY REQ-008 rerun 2026-10-29
-# Cadence: EVENT-DRIVEN | Last re-pull ATTEMPTED: 2026-10-22
+# LIVE — Last real data refresh: 2026-10-23 | Staleness sweep: 2026-10-23 | Next: DEWEY REQ-008 rerun 2026-10-29
+# Cadence: EVENT-DRIVEN | Last re-pull ATTEMPTED: 2026-10-23
 # Transmission map: one row per mechanism, keyed to a VX vector. State (desk-local enum): CONFIRMED (>=1 documented past instance at a primary) | NOT-OBSERVED (tested by history, 0 instances in the named sample — a base rate, NOT a proof) | MODELED (only a model says it) | UNTESTED (no instance either way, or the precedent is not yet verified at a fleet artifact).
 # Rows 01-19 seeded at build by DAEDALUS from DEWEY REQ-008 via KB-CYP rows. Rows 06, 14, 17, 18, 19 RE-VERIFIED by CYPHER 2026-10-22 (Notes say what was read); the other 14 rows remain DEWEY-inherited evidence — re-verify before citing. A NOT-OBSERVED row flips to CONFIRMED on ONE documented instance; record it in the same edit.
 ID	Vector	From	Mechanism	To	State	Evidence	Routes_To	As_Of	Notes
