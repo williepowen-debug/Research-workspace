@@ -48,3 +48,32 @@ Distinct prior episodes in the 3-year window where HY widened ≥60bp in 21 sess
 1. Is the 10/22 +13bp broad or AI-concentrated? No instrument on the fleet answers it (LIQUID NO_INSTRUMENT). An ICE sector sub-index or a few-name basket would.
 2. The volume side of "issuance freeze" (Oct ~$7B vs Sep ~$51B) is ahead of the price trigger. Does REGINALD/LIQUID read the freeze as already under way?
 3. Leveraged loans (BROCK): AVI-SPL's pulled $690M loan is one data point; is the loan market shutting with bonds?
+
+## 7. Long-run comparison (added 10:4x ET at Will's ask)
+
+**Data:** `AGENTS/VIOLET/workbook/hy_oas_fred.csv` (FRED BAMLH0A0HYM2 daily, 1996-12-31 → 2026-04-09; file FROZEN for currency, used here for history only) spliced with the 10/23 FRED API pull (2023-10-24 → 2026-10-22). **Overlap check: 645 shared days, zero mismatches.** 7,785 observations. FRED's API and chart download no longer serve pre-2023 ICE history, and no long-run CCC/BB history is on hand: the tier comparison below is HY only.
+
+| Measure | Value |
+|---|---|
+| Full-history median / mean (1997–2026) | 448 / 515 |
+| 340 as a percentile of full history | 24th |
+| … of 1997–2007 | 32nd |
+| … of 2010–2019 (median 474) | 3rd |
+| … of 2021–now (median 327) | 58th |
+| Cycle tights | 241 (6/1/2007) · 301 (12/28/2021) · 259 (1/22/2025) |
+
+Episode peaks: 1998 LTCM 678 [10/16/1998] · 2002 1,120 [10/10/2002] · GFC 2,182 [12/15/2008] · 2011 910 [10/4/2011] · 2016 887 [2/11/2016] · Q4-2018 544 [1/3/2019] · COVID 1,087 [3/23/2020] · 2022 599 [7/5/2022] · SVB 522 [3/24/2023] · tariffs 461 [4/7/2025] · Iran war 346 [3/30/2026].
+
+**Fast widenings from tight levels** (≥75bp within 40 sessions off a 40-session low ≤320; episodes ≥120 sessions apart):
+
+| Trough | Trigger date / level | 6-month peak | Level 6 months after trigger |
+|---|---|---|---|
+| 271 [3/9/2005] | 3/31/2005 · 352 | 457 [5/17/2005] | 375 |
+| 241 [6/1/2007] | 7/11/2007 · 316 | 636 [1/4/2008] → GFC | 636 |
+| 316 [10/3/2018] | 11/14/2018 · 399 | 544 [1/3/2019] | 420 |
+| 301 [12/28/2021] | 2/18/2022 · 378 | 599 [7/5/2022] | 425 |
+| 302 [7/23/2024] | 8/5/2024 · 393 | 393 (the trigger day) | 266 |
+| 259 [1/22/2025] | 3/13/2025 · 340 | 461 [4/7/2025] | 284 |
+| **260 [8/28/2026]** | **10/22/2026 · 340** | — | — |
+
+n = 6. 5 of 6 widened further after the trigger (median about +133bp to the peak); 4 of 6 were still wider six months later; 1 of 6 (2007) became a recession-class blowout; 2 of 6 (2024, 2025) fully reversed within six months. Trigger levels differ, so this is a pattern, not a probability. Index composition has shifted toward higher quality since the 1990s–2000s (more BB), which lowers structural spread levels; cross-era level comparisons overstate today's tightness to an unknown degree.
