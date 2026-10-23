@@ -104,3 +104,29 @@ Dispositioned at `PROME/reports/2026-10-21_firetime-boot-flags-disposition.md` a
 ## Accept
 
 `python3 PROME/tools/firetime_delta.py --log /tmp/prome-boot-40ef6293/checks/04-firetime-owner-routed-flags-persist-.txt --prune` then `--accept --pointer PROME/reports/2026-10-22_firetime-boot-flags-disposition.md`; result in the boot report and the commit of `PROME/state/firetime_dispositioned.tsv`.
+
+---
+
+# Fourth boot — laptop, Fri 2026-10-23 00:3x ET (PROME session prome-e7 re-booted in a fresh context, Claude Code / Fable 5.1, `WilliePOwen`)
+
+**Gate log:** `/tmp/prome-boot-beedb6bf/checks/04-firetime-owner-routed-flags-persist-.txt` (one-shot gate run 00:30 ET). Baseline before this boot: `PROME/state/firetime_dispositioned.tsv` as accepted at the 10/22 night boot (prome-e7, pointer = the third section of this file). The gate reported 49 flags: 5 NEW · 44 persisting · 3 no longer reported.
+
+## NEW flags (5) — 4 DONE at the artifact, 1 ROUTED
+
+| Artifact | Flag | Re-read | Disposition |
+|---|---|---|---|
+| `AGENTS/DEWEY/output/2026-10-22_reserve-coverage-decline-base-rate.md` lines 94–103 | DATE DRIFT 2027-01-02 ('1/2'), 2027-01-10 ('1/10'), 2027-01-08 ('1/8') | The cells are hit-rate FRACTIONS in the base-rate tables (`1/2 vs 6/22`, `1/10 (10%)`, `1/8 (12%)`), not dates. | DONE — false positive; no drift. DEWEY told by message (dewey-5b live), no edit asked. |
+| same file, line 415 | DATE DRIFT 2027-01-03 ('Jan 3') | `GAO-13-71 (Jan 3, 2013)` — a citation's publication date, year stated. | DONE — false positive; no drift. |
+| `AGENTS/NEXUS/PREDICTIONS_MONITOR.md` line 19 | DEAD POINTER `reports/2026-10-16_AUGUST_TIC_SESSION.md` | No file of that name under `AGENTS/NEXUS/` (find, 00:3x ET). PRED-30 was graded NO-VERDICT FINAL by PROME's 10/22 packet (f9cc9bb1b); the pointer is NEXUS's own record. | ROUTED to NEXUS — named in the L751 wake packet `AGENTS/NEXUS/inbox/2026-10-23_from-PROME_L751-wake-and-firetime-pointer.md`; NEXUS repairs or re-points at its wake. |
+
+## Pruned (3) — rows the gate no longer reports (`firetime_delta.py --prune`, 00:3x ET)
+
+Disposition "done: pruned"; the rows are named in the prune command's output in the boot report.
+
+## Persisting (44)
+
+Dispositioned at the three earlier sections of this file and `PROME/reports/2026-10-21_firetime-boot-flags-disposition.md`; not re-read at this boot per WQ-467 C4.
+
+## Accept
+
+`python3 PROME/tools/firetime_delta.py --log /tmp/prome-boot-beedb6bf/checks/04-firetime-owner-routed-flags-persist-.txt --accept --pointer PROME/reports/2026-10-22_firetime-boot-flags-disposition.md` run after this section was written; result in the boot report and the commit of `PROME/state/firetime_dispositioned.tsv`.
