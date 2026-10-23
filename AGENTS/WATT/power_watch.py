@@ -175,7 +175,11 @@ def read_pjm_demand():
     latest_mw = float(latest["value"])
     peak_row = max(window, key=lambda r: float(r["value"]))
     peak_mw = float(peak_row["value"])
-    pct = latest_mw / peak_mw * 100.0 if peak_mw else 0.0
+    # DOCKET L546 float-tie class (DAEDALUS packet 2026-10-08; graded 2026-10-23):
+    # round to the PUBLISHED precision (1 dp, the figure this tool prints) BEFORE any
+    # compare, so the printed % and the compared % are one number. Effective hint
+    # edge = 94.95 raw (prints as 95.0); no threshold or letter moved.
+    pct = round(latest_mw / peak_mw * 100.0, 1) if peak_mw else 0.0
     return latest_mw, latest["date"], peak_mw, peak_row["date"], pct
 
 

@@ -70,3 +70,6 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-22T08:31:00-04:00	SIG-W-20261021-005	info-only	INBOX_WALTER	DRAM forecast is VULCAN's leg; no power channel; KB-WATT-176.
 2026-10-22T08:31:00-04:00	SIG-W-20261021-015	noted	INBOX_WALTER	Meta capex guide low end +5B is not the P3 trigger; P3 stays 4; KB-WATT-176.
 2026-10-22T08:31:00-04:00	SIG-W-20261021-023	noted	INBOX_WALTER	NextDC power delay outside PJM, reported; CRWV hedge share still UNKNOWN; no score; KB-WATT-176.
+2026-10-23T01:04:58-04:00	2026-10-22_from-CYPHER_boundary-confirmation	acted	INBOX	Boundary confirmed as written (CYPHER event, WATT consequence; FIRED grid-operator row = P1 packet); reply packet 7f94e64f4; KB-WATT-180.
+2026-10-23T01:04:58-04:00	SIG-W-20261022-006	info-only	INBOX_WALTER	AI tape 10/22 (Meta CDS, Lam supply cap, Tesla capex ~20B): VULCAN/LIQUID legs, no power channel, P3 stays 4; KB-WATT-180.
+2026-10-23T01:04:58-04:00	SIG-W-20261023-004	noted	INBOX_WALTER	Amazon Ashburn 4-building site plan dropped (Loudoun deal 10/20): siting settlement, MW not stated; not P3 trigger, P3 stays 4; KB-WATT-180.
