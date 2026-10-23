@@ -17,12 +17,12 @@
 - A read-only helper (Opus) did the web lookups. Its tiers are kept in the report.
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **After Fri 10/23 16:15 ET:** read `demand_destruction/data/friday_2026-10-23.md` (the Friday routine). It should say NO NEW OBSERVATION for COT. Record its Baker Hughes print only, and check it did not re-append a COT row.
+1. **DONE 16:28 ET:** the Friday routine (16:17 ET) reported COT NO NEW OBSERVATION, with no re-append (ledger ends at 10/20, written once). Rigs: oil 460 (+1), total 603, secondary ×2, record only. **Open:** the routine read AAL's FY2026 adjusted EPS guide as −$0.65 to +$0.65; HENRY (via WALTER -004) had −$1.60 to −$1.00. Flagged to HENRY by packet; HENRY owns HEN-46. Do not adopt either.
 2. **Mon 10/26:** grade BRT-30 using the pre-staged procedure in `thesis/prediction_notes/BRT-30.md`. Read the whole note and every TSV field first. The USO short-interest publication is the same day.
 3. **Boundary #1 watch through 10/30:** count BZZ26 settles ≥ $120 (0 of 3 at 10/23). Read the boundary's own letter on spanning the BZF27 switch before any count crosses 10/30.
 4. **Wed 10/28 10:30 ET:** EIA week 10/23, the third BRT-31 window week.
 5. **Fri 10/30:** COT #12 (`cot_grade.py --expect 2026-10-27`) and the BZZ26 last trade.
-6. **Before Sun 11/01:** find a second agency's spare-capacity figure (IEA OMR or OPEC MOMR secondary sources) for the OPEC+ deliverability gate.
+6. **Before Sun 11/01:** second-agency spare figure for the OPEC+ deliverability gate. The 10/23 16:10 attempt was SEARCH-NOT-FOUND (IEA OMR page 403). Try the IEA OMR PDF or a press summary, then OPEC MOMR (~11/11, after the meeting); otherwise grade single-agency, caveat stated.
 7. HOZ26 10/23 settle not obtained (CME 403). If TERRY or Will reads it, record it; TERRY grades leg A.
 8. Carried from 10/21: verify the Senate's "DOE 50 M bbl diesel" claim at a DOE primary (still open; today's DOE pages were exchanges only).
 
