@@ -35,3 +35,14 @@ By Monday 10/26 close (whole book, the Oct-26 puts expire): flat −$1,355 (−$
 
 ## So what
 The book is now a **joint-fall** position: it pays large only if KRE and QQQ fall together, and it loses in every other scenario by 11/13 (−$415 to −$3,032). From this starting state, history shows **0 of 13** joint ≥5% falls within 40 sessions and 5 of 13 joint ≥5% rallies. That does not refute the theses behind the lines (credit for the bank puts — REGINALD/LIQUID/DEWEY; dealer gamma for the spread — HENRY); it says **the KRE/QQQ divergence itself is not evidence for the joint fall the book needs.** No sell, hold or expiry prompt is implied (C5 paused; Will manages his own expiries).
+
+## Deep push to 1985 (14:5x ET) — `deep_1985/RESULTS.md`
+Stand-ins validated on 2006-06 → 2026-08 first: KBW Bank Index ^BKX vs ^NDX recovered 10 of KRE/QQQ's 13 signals; Ken French equal-weighted Banks vs ^NDX 9 of 13 (daily-return corr with KRE 0.90 / 0.92). Same rule (threshold −0.2357, re-arm > 0).
+
+| Pair | Span | Episodes (complete) | Both ≥5% down in 40d | Both ≥10% down | Both ≥5% up | Joint ≥10% declines with a see-saw signal in the prior 60 sessions |
+|---|---|---:|---:|---:|---:|---|
+| ^BKX vs ^NDX | 1993 → 2026-08 | 17 | 1 (2021-11-23 → the 2022 bear market; runway 2 sessions) | 1 | 10 | 4 of 40 (base rate 11%) |
+| FF EW Banks vs ^NDX | 1985 → 2026-08 | 15 | 0 | 0 | 7 | 0 of 19 (base rate 8%) |
+
+**Finding: negative daily bank/tech correlation is a CALM-MARKET phenomenon.** Neither stand-in found a single episode in 1985–1992, 1998–2016 (incl. the 2000–02 dot-com bust and 2007–09), or any crisis. Joint declines started from a median 20d corr of **+0.68** (lockstep). The 2000 banks-up / tech-down rotation was a LEVEL divergence with POSITIVE daily correlation — a correlation rule cannot see it. The deep push added only 4–5 episodes (all 1993–97 bull years), and one counterexample: 2021-11-23, a −0.25 signal that turned into a joint ≥10% decline within 2 sessions.
+Raw French file not committed (21 MB): `deep_1985/raw_french/` is re-created with `curl -o ff49_daily.zip https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/49_Industry_Portfolios_daily_CSV.zip && unzip ff49_daily.zip` inside `deep_1985/raw_french/` (Ken French data library, CRSP 202608 vintage; a later vintage may revise history).
