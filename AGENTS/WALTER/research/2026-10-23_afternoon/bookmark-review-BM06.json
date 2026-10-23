@@ -1,0 +1,63 @@
+{
+  "schema": 2,
+  "staged_at": 1792783363.1691096,
+  "items": [
+    {
+      "id": "2113650987349242159",
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "BOARD/SIG-W-20261023-032-china-crude-imports-set-for-highest-level-since-the-iran-war-cut-them-commodity-context-rory-johnston-oct23-chart-unseen-ahead-of-us-midterms-BRENT.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113344669295710332",
+      "disposition": "DUP",
+      "read_state": "fully_read",
+      "follow_up": "AGENTS/WALTER/anchors/IRAN_WAR.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113337765052236022",
+      "disposition": "KILL",
+      "read_state": "fully_read",
+      "follow_up": "AGENTS/WALTER/filtered/kill_log.tsv",
+      "ask_user": null
+    },
+    {
+      "id": "2113665275413291451",
+      "disposition": "KILL",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/filtered/kill_log.tsv",
+      "ask_user": null
+    },
+    {
+      "id": "2113649235929563642",
+      "disposition": "NO-ACTION",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2113509484706316385",
+      "disposition": "NO-ACTION",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2113406303443808728",
+      "disposition": "NO-ACTION",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2113612653809532983",
+      "disposition": "KILL",
+      "read_state": "fully_read",
+      "follow_up": "AGENTS/WALTER/filtered/kill_log.tsv",
+      "ask_user": null
+    }
+  ],
+  "stage_id": "df9f1a31d34b4504b135704110aae8d6"
+}

@@ -1,0 +1,42 @@
+X-BOOKMARK scan — Will's new bookmarks
+================================================================
+
+Fetched 8 new bookmark ID(s) in this scan segment; see the review/coverage receipt below.
+
+[NEW bookmarks to ROUTE — 8]  source: x-bookmark  (Will-originated — do not kill on Novelty without reading the body)
+
+  1. 2113650987349242159  @Rory_Johnston  2026-10-23T15:17:19.000Z  [DIG: media]
+     │ Chinese crude oil imports are set to hit their higher level since pulling back through the Iran War right in time for the US Midterm elections.  Funny, that. https://t.co/JkXtj64FGg
+     🖼  photo: https://pbs.twimg.com/media/HVUyCEyWwAA63yY.jpg
+
+  2. 2113344669295710332  @zerohedge  2026-10-22T19:00:07.000Z  [DIG: link, pointer]
+     │ Saudi Aramco Evacuates HQ, All Staff Put On Remote Work https://t.co/a81upiqo6O
+     🔗 https://www.zerohedge.com/geopolitical/saudi-aramco-evacuates-hq-all-staff-put-remote-work
+
+  3. 2113337765052236022  @GoldTelegraph  2026-10-22T18:32:41.000Z
+     │ While everyone is panicking over today's market volatility...   One of Japan's major life insurance companies said today that it has begun investing in GOLD to diversify beyond stocks and bonds.  Japanese insurers are now joining Chinese insurers in turning to gold.
+
+  4. 2113665275413291451  @InTheAssembly  2026-10-23T16:14:06.000Z  [DIG: media]
+     │ BREAKING: Turkish stock market is collapsing https://t.co/a8EeWLbwpH
+     🖼  photo: https://pbs.twimg.com/media/HVU_XA7XcAAbIrg.jpg
+
+  5. 2113649235929563642  @WatcherGuru  2026-10-23T15:10:22.000Z
+     │ JUST IN: 🇺🇸 Wells Fargo, Intuit, and 20 other companies oppose tokenized trading of their stocks on OKX.
+
+  6. 2113509484706316385  @business  2026-10-23T05:55:02.000Z  [DIG: link]
+     │ Copper headed for a third weekly loss in four as a selloff in technology stocks deepened, sapping risk appetite across markets including for the metal that’s used in data centers and power infrastructure. https://t.co/dnjXZUAiBb
+     🔗 https://www.bloomberg.com/news/articles/2026-10-23/copper-heads-for-weekly-loss-as-ai-selloff-hurts-risk-appetite?taid=6adaf6b6e63e5000013bf17e&utm_campaign=trueanthem&utm_content=business&utm_medium=social&utm_source=twitter
+
+  7. 2113406303443808728  @business  2026-10-22T23:05:02.000Z  [DIG: link]
+     │ SpaceX aims to secure a minimum of 80,000 cell sites across the US, and it’s in talks with at least one major cellular infrastructure company to reach that goal https://t.co/BrJFsopZYe
+     🔗 https://www.bloomberg.com/news/articles/2026-10-22/spacex-in-talks-to-access-80-000-cell-sites-for-wireless-network?taid=6ada969ee63e5000013bee1e&utm_campaign=trueanthem&utm_content=business&utm_medium=social&utm_source=twitter
+
+  8. 2113612653809532983  @Kalshi  2026-10-23T12:45:00.000Z
+     │ JUST IN: Wall Street urges Anthropic and OpenAI to go public by the year's end
+
+
+Bookmark receipt — 2026-10-23T19:22:43Z
+Fetched 8 item(s); review is not yet recorded.
+Returned traversal complete through its recorded head check; this is not owner consumption or a remote snapshot guarantee.
+Latest head check: 2026-10-23T19:22:42Z
+After routing: create --review-template <new-file.json>, fill read states/dispositions, then --mark --review <file.json>.

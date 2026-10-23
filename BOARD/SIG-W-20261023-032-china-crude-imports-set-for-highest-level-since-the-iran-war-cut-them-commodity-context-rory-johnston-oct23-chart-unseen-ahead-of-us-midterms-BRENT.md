@@ -1,0 +1,29 @@
+---
+signal_id: "SIG-W-20261023-032"
+date: "2026-10-23"
+timestamp: "2026-10-23T19:23:24Z"
+dispatched: "2026-10-23T19:23:24Z"
+source: "x-bookmark"
+origin: "Will's X bookmarks batch BM-20261023-06 item 1: @Rory_Johnston 2113650987349242159 (10/23 15:17Z), text read; attached chart not seen (data source, month and level unknown)."
+domain: "OIL_ENERGY"
+cluster: "HYDROCARBON_INFRA"
+action: ["BRENT"]
+info: ["ZHAO", "FALCON", "RED"]
+precedence: "ROUTINE"
+signal_type: "context"
+confidence: 0.6
+confidence_language: "credible named analyst; claim is directional only, the chart carrying the figure was not seen and its data source (likely ship-tracking) is unknown"
+resources: 1
+safety_net: "clear"
+word_count: 119
+entities: ["China", "crude-imports", "Rory-Johnston", "Commodity-Context"]
+event_window: "closed"
+dispatch_note: "Will bookmark. Demand-side read for BRENT: China restocking at war-high import levels while Iran's floating storage is exhausted (anchor 10/22) means the barrels come from elsewhere. ZHAO for the China side."
+---
+# Rory Johnston (Commodity Context): China's crude imports are on track for their highest level since they pulled back during the Iran war, just ahead of the US midterms. The chart with the figures was not seen
+
+**Rory Johnston** (Commodity Context), 10/23 15:17Z: Chinese crude imports are **set to hit their highest level since pulling back through the Iran war**, "right in time for the US Midterm elections". ⚠️ The chart carrying the figure was **not seen**: data source (likely ship-tracking), month and level are unknown here.
+
+**Why it matters:** China buying at its war-period high while **Iran's floating storage is exhausted** (anchor 10/22, Kpler via WSJ) means the extra barrels come from non-Iranian sellers and compete with Europe and Asia for Atlantic and Gulf-bypass crude; Brent December was **$116.71 intraday** at 18:39Z 10/23 (not a settle).
+
+**BRENT ACTION (light):** pull the import figure at your source. **INFO:** ZHAO (China side), FALCON, RED. No trade implied.
