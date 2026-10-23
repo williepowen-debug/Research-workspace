@@ -1,8 +1,8 @@
 # CYPHER — NEXUS Brief
 
-**Status:** 🟡 WAVE-2026-10 open, 9 of 9 escalation rows NOT-FIRED (rows 1, 2, 4 re-checked 10/23); PHP2Shell ATTEMPTS-ONLY (weak evidence, not an all-clear)
+**Status:** 🟡 WAVE-2026-10 open, 9 of 9 escalation rows NOT-FIRED (rows 1, 2, 4 re-checked 10/23 17:1x ET); PHP2Shell ATTEMPTS-ONLY (weak evidence, not an all-clear)
 **Domain:** Cyber events that can move money — owns the EVENT (confirmed?, class, dates, escalation state); consequence owners keep the consequence
-**As of:** 2026-10-23 16:2x ET (Will session: chokepoint map, Kiteworks affected, CYP-03/04; workbook current, watch rows 1-8 re-checked; closeout: KEV v2026.10.23 lists Arista, PHP2Shell still absent; NetScaler impacted) | STATUS commit: 6f4e2b1a1
+**As of:** 2026-10-23 17:1x ET (WALTER 041/044/045: GitLab CVE-2026-110264 and Node.js CVE-2026-111497 DISCLOSED, off-root, KEV-watched; Korea CONFIRMED at the FSC primary; 4 leak claims triaged; no row fired) | STATUS commit: 44fa81df3
 
 ---
 
@@ -16,8 +16,9 @@
 | VULCAN | Railway (AI-inference-provider "series"), LiteLLM 1.107.0, OVHcloud CLI, ConnectWise: CONFIRMED supply-chain compromises, no named financial victim | P2 | AI-tooling / provider-key exposure trend |
 | LIQUID / BOND | FL-CYP-06 CONFIRMED: ICBC FS 2023 cut a Treasury-clearing participant's connectivity (SEC order 34-101794) and affected settlement of over $9B of Treasury-backed assets (Treasury jy2114); participant-level, not market-wide. CYPHER's earlier "only the BNY debt" line was retracted 10/22 | P3 | Plumbing precedent for a clearing-participant ransomware |
 | PROME / HENRY | Quest Diagnostics (DGX) 8-K Item 8.01 (10/22): unauthorized access to its Quanum LSM ordering and results system, "certain patient records" accessed, not material; not PHP2Shell per Quest. Healthcare is a NO-OWNER class | P2 | Owner decision (PROME); equity grade, confounded with Q3 results the same morning (HENRY) |
-| 11 owners | Boundary confirmations sent 2026-10-22 | P3 | Rows/classes each owner will receive |
-| VULCAN (packet pending Will) | Two October bank-sector campaigns with alleged AI-agent use: Korea 16 financial firms, ~100,000 records (FSC 10/14, SECONDARY; AI suspected, not shown; CYB-INC-022); CARLIY0S 400+ LatAm financial TARGETS via Claude / Grok / Kimi (Straiker via secondaries; CYB-INC-023). Palo Alto: PHP2Shell reaches PAN-OS, Panorama, WF-500 (PRIMARY 10/23; no exploitation known) | P2 | AI-run exploitation trend; PANW / cyber-vendor read is VULCAN's |
+| 11 owners | Boundary confirmations sent 2026-10-22; 5 confirmed as written (GIBBS, WATT, VULCAN, FALCON, BRENT) | P3 | Rows/classes each owner will receive |
+| VULCAN / REGINALD (info via WALTER 041, 045) | Two off-root code-execution flaws the PHP2Shell week: GitLab CVE-2026-110264 (CVSS 10.0, no login, self-managed only, patched 10/21) and Node.js CVE-2026-111497 (high, needs the app to decompress attacker Brotli data, found by OpenAI Codex Security); neither reported exploited, neither in KEV v2026.10.23 | P3 | Developer supply-chain path (VULCAN); no bank named |
+| VULCAN (packet pending Will) | Two October bank-sector campaigns with alleged AI-agent use: Korea 16 financial firms, ~100,000 records (FSC 10/14, PRIMARY-VERIFIED by CYPHER 10/23; same actor and AI role "under investigation"; CrowdStrike ties 2 breaches to the ARTEX AI pentest tool, moderate confidence; CYB-INC-022); CARLIY0S 400+ LatAm financial TARGETS via Claude / Grok / Kimi (Straiker via secondaries; CYB-INC-023). Palo Alto: PHP2Shell reaches PAN-OS and Panorama (PRIMARY 10/23; WF-500 corrected to NOT affected the same day; no exploitation known) | P2 | AI-run exploitation trend; PANW / cyber-vendor read is VULCAN's |
 | REGINALD / GIBBS | **Kiteworks (secure file transfer) confirmed AFFECTED by PHP2Shell** (own advisory upd 10/22: unauthenticated RCE, Critical Update 9.5.3; no exploitation statement). MOVEit-shaped node; victim check 11/06 | P2 (sent 10/23) | A named US bank/CU/core-vendor victim fires row 3 -> P1 |
 | REGINALD / GIBBS / BOND / LIQUID | Chokepoint map (`workbook/CHOKEPOINTS.tsv`, 32 shared suppliers/utilities): deductions — file transfer is the repeat door; market-plumbing cyber hits land one ring out (ICBC FS, ION); Broadridge 21 of 25 primary dealers (search excerpt, unverified) | P2/P3 (sent 10/23) | Their supplier lists; consequence grades stay theirs |
 | PROME (packet pending Will) | NO consequence owner for non-US banks outside Japan / Europe: State Bank of India data loss (Reg. 30 filing 10/21, 3,897 PII records; CYB-INC-021), Korea (CYB-INC-022) | P3 | Owner decision |
@@ -29,14 +30,15 @@
 | Dutch NCSC | Outcome of "first signals of successful misuse" | Unknown ("could take months", NOS) | Row 1 | A named victim on or before 11/20 = MOVEit flip |
 | DEWEY | REQ-008 rerun (008R) | 2026-10-29 | Base rates and watch states | Any row state change |
 | HENRY / VULCAN | Equity persistence read | 2026-11-18 | Row 9 | A cyber-sector gain past 20 trading days or a vector collapse |
-| 11 owners | Boundary confirmation | Their next session | Routing | Amendments to the hand-off table |
+| 6 owners (REGINALD, SHADE, HENRY, LIQUID, BOND, OTTO) | Boundary confirmation | Their next session | Routing | Amendments to the hand-off table |
 
 ## VIEW
 - WAVE-2026-10 reads MECHANICAL so far (Log4Shell-shaped): attempts in the millions (Cloudflare), no named successful compromise, CISA had not observed exploitation at its 10/21 alert.
 - The one MOVEit feature it shares is pre-disclosure exploitation (AWS 10/17 vs disclosure 10/21), with a low-footprint exploit, so victims could surface weeks later.
 - Composite 21/40 raw, 15/40 shared-root-adjusted; broad YELLOW, no vector above 3. Unchanged 10/23: three non-US bank-sector incidents are not wave-rooted and the bank bands key on US victims.
 - **Chokepoint map (10/23):** today's threats touch the EDGES of finance's shared suppliers (perimeter appliances, the MSP layer, file-transfer products), not a core processor or market utility. Exception that matters: **Kiteworks is confirmed vulnerable** (file transfer + pre-disclosure PHP attempts = MOVEit shape as reach, not yet as compromise), and the ConnectWise MSP campaign is a confirmed live compromise with a late-surfacing victim shape.
-- Palo Alto (10/23, primary): PAN-OS, Panorama and WF-500 are affected, a reach into security appliances via the management interface; hotfix ETAs 10/26–10/30; no exploitation known against its products.
+- Palo Alto (10/23, primary): PAN-OS and Panorama are affected (WF-500 corrected to not affected), a reach into security appliances via the management interface; hotfix ETAs 10/26–10/30; no exploitation known against its products.
+- Same week, off-root: GitLab (CVSS 10, no-login code execution on self-managed servers) and Node.js (Brotli decoder) flaws, both patched 10/21, neither reported exploited; KEV-watched. Google (Hultquist, secondary): PHP2Shell exploitation "not validated" but "may have already begun in a limited fashion".
 
 ## CALIBRATION
 - Conviction: M on "mechanical so far"; L on what +14 to +66 days shows.
@@ -59,6 +61,7 @@
 | 2026-10-26 | ConnectWise Cloud Backup restoration | FI naming ConnectWise/MSP as entry route |
 | 2026-11-04 | PHP2Shell +14 days | Named victims; Item 1.05 / 8.01 8-Ks |
 | 2026-11-06 | Kiteworks victim check (P1) | Any organisation naming Kiteworks as breach route |
+| 2026-11-06 | Capcom 11.7M claim re-check (CYB-INC-030) | FALSE if no source beyond the 2020 Ragnar Locker attack |
 | 2026-11-15 | TruStage data-access check | PII finding, AG notice, cost line |
 | 2026-11-18 | Row 9 persistence test | Cyber gain past 20 trading days |
 | 2026-11-20 | R1 flip test | See NEXT DECISION POINT |
