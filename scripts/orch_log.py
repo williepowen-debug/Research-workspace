@@ -390,7 +390,15 @@ def render_view(rows, window_days=DEFAULT_WINDOW_DAYS, today=None, source=LEDGER
             "", "| " + " | ".join(VIEW_COLS) + " |", "|" + "---|" * len(VIEW_COLS)]
     for d in sorted(last):
         r = last[d]; out.append("| " + " | ".join(cell(r, COLS.index(c)) for c in VIEW_COLS) + " |")
-    out += ["", f"**Desks with a TOUCH row but NO `drained>0` touch inside {window_days}d ({len(none_in_window)}):** " + (", ".join(none_in_window) if none_in_window else "(none)") + " — absence here proves nothing about liveness (ABSENT-ROW clause); it says the ledger holds no recent drained touch.", ""]
+    # 2026-10-23 (WALTER read-cap finding, ACCEPTANCE_orch_inflight_grouped_absence_2026-10-23.md): helper/reader
+    # identities `DESK (label)` are grouped under their base name with a count — the view was 36 KB, this
+    # section 13 KB of 517 identities that "prove nothing about liveness"; every base desk still appears once.
+    groups = {}
+    for d in none_in_window:
+        b = d.split(" (", 1)[0].strip() or d
+        groups[b] = groups.get(b, 0) + 1
+    grouped = ", ".join(b if n == 1 else f"{b} ×{n}" for b, n in sorted(groups.items()))
+    out += ["", f"**Desks with a TOUCH row but NO `drained>0` touch inside {window_days}d ({len(none_in_window)} identities, {len(groups)} base names; helper/reader identities `DESK (label)` grouped under DESK with ×n):** " + (grouped if none_in_window else "(none)") + " — absence here proves nothing about liveness (ABSENT-ROW clause); it says the ledger holds no recent drained touch.", ""]
     return "\n".join(out)
 
 
