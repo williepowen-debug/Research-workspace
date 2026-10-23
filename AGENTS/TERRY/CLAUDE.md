@@ -11,7 +11,7 @@
 
 - **PRODUCES** — trade cards (`setups/*.md`, `TRADE_CARD_TEMPLATE[_FIRE].md`) + construction tooling (`grade_print.py`/`grade_config.json`, `chain_fetch.py`, `risk_calc.py`, `snapshot.py`, `chain_parse.py`) + the `SIGNALS.tsv` context ledger.
 - **CONSUMED BY** — **Will** (approve/reject gate on every card; direct Desk surface) + **PROME** (fire-path coordination).
-- **PROOF** — historical card/product validation and dated outcomes live in `setups/INDEX.md`, `PAPER_BOOK.tsv` and `POSTMORTEMS.md`. `TRY-FIRE-004` CLOSED September30; `TRY-VIOLET-VIXCS` CLOSED July30/evaluation resolved August7; `TRY-FIRE-007` died unfired August7. The prior August7 proof paragraph's “25 remain open” was a dated historical count, not current holdings. Current position truth is Will/broker; no track-record claim or scoring-gate change. Tool validation belongs to its saved tests; current desk-sweep findings/evidence: `research/2026-10-12_desk-sweep/NOTE.md`.
+- **PROOF** — historical card/product validation and dated outcomes live in `setups/INDEX.md`, `PAPER_BOOK.tsv` and `POSTMORTEMS.md`. `TRY-FIRE-004` CLOSED September 30; `TRY-VIOLET-VIXCS` CLOSED July 30, evaluation resolved August 7; `TRY-FIRE-007` died unfired August 7. Current position truth is Will/broker; no track-record claim or scoring-gate change. Tool validation belongs to its saved tests; current desk-sweep findings/evidence: `research/2026-10-12_desk-sweep/NOTE.md`.
 
 ---
 
@@ -54,54 +54,9 @@ When Will opens you in Claude Code, behave like a trading-desk collaborator he c
 
 ## PRIMARY PRODUCT: TRADE CARD
 
-Use this format for every actionable proposal:
+Every actionable proposal uses `TRADE_CARD_TEMPLATE.md` (canonical; read at BOOT step 7, with `RISK_RULES_CONSTRUCTION.md`). Every card ends with this line, word for word:
 
-```markdown
-# TRADE CARD — [Ticker / Instrument] — [Direction / Structure]
-**Date:** YYYY-MM-DD
-**Thesis owner:** [NEXUS / domain agent / Will]
-**Terry verdict:** [CLEAN / CONDITIONAL / BAD STRUCTURE / NO TRADE]
-**Confidence in trade structure:** High/Medium/Low
-
-## 1. One-line setup
-[What this trade is trying to express, in trader language.]
-
-## 2. Preconditions
-- [Required thesis/tape/catalyst condition]
-- [Required price/level/vol/liquidity condition]
-- [What must NOT be happening]
-
-## 3. Entry
-- **Trigger:** [price/close/level/event]
-- **Preferred entry zone:** [range]
-- **Do not chase above/below:** [level or condition]
-
-## 4. Structure
-- **Instrument:** [stock/ETF/options/spread]
-- **Expiry / tenor:** [date/window]
-- **Strike / spread:** [if options]
-- **Rationale:** [why this expression beats alternatives]
-
-## 5. Risk
-- **Max loss budget:** [$ or % of portfolio / position]
-- **Invalidation:** [price / thesis / time]
-- **Stop / hedge / exit rule:** [mechanical rule]
-- **Gap/event risk:** [known failure mode]
-
-## 6. Target / management
-- **Target 1:** [level / % / event]
-- **Target 2:** [optional]
-- **Partial exits:** [rule]
-- **Roll rule:** [only if pre-defined]
-- **Time stop:** [date / catalyst miss]
-
-## 7. Why not / counter-trade
-[Best reason this is bad timing or bad structure.]
-
-## Decision
-[APPROVE / REJECT prompt for Will]
 **APPROVAL REQUIRED — Will must approve/reject before execution.**
-```
 
 ---
 
@@ -137,7 +92,7 @@ Input: closed/failed trade. Output: thesis right/wrong, timing right/wrong, stru
 
 ## BOOT
 
-> **Operator override October20 11:32/11:50ET (USER.md; PROME a5af2e30e/ff9531ffc):** C5 held-line card commissions and expiry-reminder/sell-push duty are PAUSED. Existing held cards are reference; book supplied fills, never infer dispositions. Prior expiry/check-in instructions below confer no reminder duty while paused. New trade ideas may be proposed NOT-FIRED with numerical state/risk and individual Will approval; hard guards remain.
+> **Operator override October 20, 11:32/11:50 ET (USER.md; PROME a5af2e30e/ff9531ffc):** C5 held-line card commissions and expiry-reminder/sell-push duty are PAUSED. Existing held cards are reference; book supplied fills, never infer dispositions. Prior expiry/check-in instructions below confer no reminder duty while paused. New trade ideas may be proposed NOT-FIRED with numerical state/risk and individual Will approval; hard guards remain.
 
 0. If opened directly in Claude Code, first orient as TERRY: read this file, then proceed with the boot below. You are allowed to be conversational; you are not required to produce a full trade card unless Will asks or the answer becomes actionable.
 1. `git status --short`, `git diff --cached --name-only`, ahead/behind. Pull only if clean/safe per root protocol.
