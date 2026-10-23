@@ -1,0 +1,66 @@
+X-BOOKMARK scan — Will's new bookmarks
+================================================================
+
+Fetched 13 new bookmark ID(s) in this scan segment; see the review/coverage receipt below.
+
+[NEW bookmarks to ROUTE — 13]  source: x-bookmark  (Will-originated — do not kill on Novelty without reading the body)
+
+  1. 2113602587404714160  @IntCyberDigest  2026-10-23T12:05:00.000Z  [DIG: media]
+     │ ‼️ Palo Alto firewall VMs and Citrix NetScaler run without ASLR, a basic memory defence, Kevin Beaumont says.  He warns that makes the PHP2Shell flaws trivial to exploit through internet-facing management interfaces.  Neither has a patch out. Citrix promises one on 27 October. https://t.co/qTktyfVNd1
+     🖼  photo: https://pbs.twimg.com/media/HVRUB8GWoAAipzM.jpg
+     🖼  photo: https://pbs.twimg.com/media/HVRUIkEXsAEWEdp.jpg
+
+  2. 2113385914751963535  @GunjanJS  2026-10-22T21:44:01.000Z  [DIG: media]
+     │ Share of BBB- bonds trading with prices below $90 has sharply jumped https://t.co/g5cAJ7FMAH
+     🖼  photo: https://pbs.twimg.com/media/HVRBSXPWoAE6ybp.png
+
+  3. 2113482294145212519  @IntCyberDigest  2026-10-23T04:07:00.000Z  [DIG: media]
+     │ ‼️ Anthropic's Claude flagged 493 security issues in 25 open-source projects.  In OpenSSH, it found 4,500 lines of experimental post-quantum code that anyone could reach without logging in, even when admins had switched the feature off.  OpenSSH fixed it in version 10.6. https://t.co/NQUqPKFqo2
+     🖼  photo: https://pbs.twimg.com/media/HVRKuecWwAA-SaJ.jpg
+     🖼  photo: https://pbs.twimg.com/media/HVRKvaWWoAAkg7A.jpg
+
+  4. 2113689832761471041  @TheHackersNews  2026-10-23T17:51:41.000Z  [DIG: link]
+     │ 🚨 Exposed infrastructure reveals how ransomware affiliates used AI to hack networks and steal data.  8,257 messages. 133 AI sessions. 62 organizations targeted.  Operators exploited Fortinet, SimpleHelp, and cPanel flaws.  Inside the operation ↓ https://t.co/TPa9bR3kfg
+     🔗 https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html
+
+  5. 2113387429113499895  @citrini  2026-10-22T21:50:02.000Z
+     │ Bull market tech utopia optimism giving way to bear market dystopian pessimism is perhaps the final ingredient necessary for a durable rebound in alcohol consumption.  Long $DEO $STZ $BF.B etc
+
+  6. 2113465500755800235  @business  2026-10-23T03:00:16.000Z  [DIG: link]
+     │ South Korean stocks retreated as heavyweight chipmakers declined, tracking an overnight selloff in US technology shares amid rising oil prices https://t.co/J4xKFwPXCa
+     🔗 https://www.bloomberg.com/news/articles/2026-10-23/korean-stocks-drop-on-chip-losses-after-us-selloff-oil-gains?taid=6adacdc06d036100015c3b61&utm_campaign=trueanthem&utm_content=business&utm_medium=social&utm_source=twitter
+
+  7. 2113712529646203369  @TheHackersNews  2026-10-23T19:21:52.000Z  [DIG: media, link]
+     │ 🚨 UPDATE: Railway says hackers targeted AI API keys to carry out model distillation attacks.  Up to 100,000 workspaces may have been exposed.  Attackers allegedly used uncensored AI models and massive compute resources to breach its infrastructure.  What we know: https://t.co/om4EQe9Q3q
+     🖼  photo: https://pbs.twimg.com/media/HVVqOrvbYAAqz-W.jpg
+     🔗 https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html
+
+  8. 2113390744454971566  @FT  2026-10-22T22:03:13.000Z  [DIG: link, pointer]
+     │ OpenAI trims valuation target to $1.25tn after pitching higher price https://t.co/qBCCEM9jBp
+     🔗 https://ft.trib.al/jPYrZWg
+
+  9. 2113617699469201539  @business  2026-10-23T13:05:03.000Z  [DIG: link, pointer]
+     │ A long-standing Chipotle bull has moved to the sidelines https://t.co/kGQCrX3NXX
+     🔗 https://www.bloomberg.com/news/articles/2026-10-23/chipotle-s-softening-sales-force-analyst-to-throw-in-the-towel?taid=6adb5b7fd183e200019f35f6&utm_campaign=trueanthem&utm_content=business&utm_medium=social&utm_source=twitter
+
+  10. 2113408079358201861  @Barchart  2026-10-22T23:12:05.000Z  [DIG: media]
+     │ Berkshire Hathaway is now sitting on a staggering $365 Billion in cash, enough to buy 472 companies in the S&amp;P 500 🚨 🤑 https://t.co/Ttqyd5PxEd
+     🖼  photo: https://pbs.twimg.com/media/HVRVcveWMAAad3z.png
+
+  11. 2113610863060091120  @gamesblazer06  2026-10-23T12:37:53.000Z
+     │ All Bank CEOs are raving about the US Consumer - but almost All Big Banks and Card Cos have reported Zero Sequential Spending Growth in 3Q26…   It’s been a while since we have seen that broadly across all names.
+
+  12. 2113703286050042298  @Reuters  2026-10-23T18:45:08.000Z  [DIG: link, pointer]
+     │ PwC confirms cybersecurity incident involving employee learning records https://t.co/QhYPmdiIY6 https://t.co/QhYPmdiIY6
+     🔗 https://reut.rs/4jDNSV4
+
+  13. 2113513261161161061  @business  2026-10-23T06:10:03.000Z  [DIG: link]
+     │ For much of this year, Treasuries offered investors little of their traditional protection when technology stocks stumbled. This week, that role has bounced back sharply. https://t.co/km40F3j8Es
+     🔗 https://www.bloomberg.com/news/articles/2026-10-23/treasuries-link-to-ai-shows-sharp-shift-as-haven-trade-returns?taid=6adafa3b6d036100015c3c43&utm_campaign=trueanthem&utm_content=business&utm_medium=social&utm_source=twitter
+
+
+Bookmark receipt — 2026-10-23T19:50:07Z
+Fetched 13 item(s); review is not yet recorded.
+Returned traversal complete through its recorded head check; this is not owner consumption or a remote snapshot guarantee.
+Latest head check: 2026-10-23T19:50:06Z
+After routing: create --review-template <new-file.json>, fill read states/dispositions, then --mark --review <file.json>.
