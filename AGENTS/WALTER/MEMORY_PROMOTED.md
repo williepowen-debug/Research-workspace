@@ -318,3 +318,7 @@ Historical text below preserves the size incident and findings28/29/41/43. Curre
 ## Rotated 2026-10-23 (early closeout) — session note, verbatim
 
 **October22 evening FULL closeout:** dispatches 030–036; CYPHER built (DAEDALUS) and `CYBER` lane added (Will sign-off); evidence research/2026-10-22_evening/.
+
+## Rotated 2026-10-23 (desktop FULL closeout) — session note, verbatim
+
+**October22 night FULL closeout (laptop):** dispatches 037–048 + 1023-001; cyber session with live CYPHER/DEWEY; X token re-authorized on the laptop (a desktop scan rotates it: re-authorize at every machine switch or carry .env); evidence research/2026-10-22_night/.

@@ -1,5 +1,5 @@
 # Cadence: EVENT-DRIVEN
-# Last re-pull ATTEMPTED: 2026-10-15 (walter-dc: COR-20261014-23/-31/-33/-35/-36 written with their correcting signals)
+# Last re-pull ATTEMPTED: 2026-10-23 (walter-32 desktop: boot 9a 0 owed; no correction-class dispatch in SIG-W-20261023-005..016; ROUTING_TABLE v0.47 supersedes its own v0.46 note, a spec version record, not a BOARD correction)
 # Review evidence: research/2026-10-12_closeout-improvements/cadence-review.json (content/receipt check; no invented event).
 # AGENTS/WALTER/registry/CORRECTIONS.tsv — fleet correction register (FORUM-6 R1; WALTER owns schema + prune; DAEDALUS boot leg parses BY HEADER NAME).
 # Interface ratified 2026-08-26 (DAEDALUS §A draft + WALTER amendments A1-A3, packet pair on origin). Parser-load-bearing fields:

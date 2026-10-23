@@ -1,0 +1,195 @@
+{
+  "as_of": "2026-10-23T15:30:09Z",
+  "tier": "full",
+  "selected_check_state": "REVIEW",
+  "procedure_completion": "UNVERIFIED \u2014 owner must account for manual duties",
+  "checks": [
+    {
+      "check": "receipt",
+      "state": "PASS",
+      "rc": 0,
+      "command": [
+        "/home/willi/Research-workspace/.venv/bin/python3",
+        "AGENTS/WALTER/tools/closeout_check.py"
+      ],
+      "output": "AGENTS/WALTER/research/2026-10-23_morning/closeout/receipt.txt"
+    },
+    {
+      "check": "read-cap",
+      "state": "PASS",
+      "rc": 0,
+      "command": [
+        "/home/willi/Research-workspace/.venv/bin/python3",
+        "scripts/read_cap_check.py",
+        "--agent",
+        "WALTER"
+      ],
+      "output": "AGENTS/WALTER/research/2026-10-23_morning/closeout/read-cap.txt"
+    },
+    {
+      "check": "archives",
+      "state": "PASS",
+      "rc": 0,
+      "command": [
+        "/home/willi/Research-workspace/.venv/bin/python3",
+        "AGENTS/WALTER/tools/archive_pair_check.py"
+      ],
+      "output": "AGENTS/WALTER/research/2026-10-23_morning/closeout/archives.txt"
+    },
+    {
+      "check": "orphans",
+      "state": "ADVISORY",
+      "rc": 0,
+      "command": [
+        "bash",
+        "scripts/orphan_check.sh",
+        "WALTER"
+      ],
+      "output": "AGENTS/WALTER/research/2026-10-23_morning/closeout/orphans.txt"
+    },
+    {
+      "check": "weekdays",
+      "state": "PASS",
+      "rc": 0,
+      "command": [
+        "/home/willi/Research-workspace/.venv/bin/python3",
+        "scripts/claim_check.py",
+        "--check",
+        "weekday",
+        "PROME/DOCKET.tsv",
+        "PROME/GATES.tsv",
+        "PROME/WILL_QUEUE.md",
+        "AGENTS/WALTER/STATUS.md"
+      ],
+      "output": "AGENTS/WALTER/research/2026-10-23_morning/closeout/weekdays.txt"
+    },
+    {
+      "check": "ledger-nudge",
+      "state": "REVIEW",
+      "rc": 1,
+      "command": [
+        "/home/willi/Research-workspace/.venv/bin/python3",
+        "scripts/ledger_staleness.py",
+        "--nudge",
+        "WALTER"
+      ],
+      "output": "AGENTS/WALTER/research/2026-10-23_morning/closeout/ledger-nudge.txt"
+    },
+    {
+      "check": "basis",
+      "state": "PASS",
+      "rc": 0,
+      "command": [
+        "/home/willi/Research-workspace/.venv/bin/python3",
+        "AGENTS/WALTER/tools/boot_basis_check.py"
+      ],
+      "output": "AGENTS/WALTER/research/2026-10-23_morning/closeout/basis.txt"
+    },
+    {
+      "check": "reads",
+      "state": "PASS",
+      "rc": 0,
+      "command": [
+        "/home/willi/Research-workspace/.venv/bin/python3",
+        "PROME/tools/reads_check.py",
+        "--agent",
+        "WALTER"
+      ],
+      "output": "AGENTS/WALTER/research/2026-10-23_morning/closeout/reads.txt"
+    },
+    {
+      "check": "doctor",
+      "state": "REVIEW",
+      "rc": 1,
+      "command": [
+        "/home/willi/Research-workspace/.venv/bin/python3",
+        "AGENTS/WALTER/tools/walter_doctor.py"
+      ],
+      "output": "AGENTS/WALTER/research/2026-10-23_morning/closeout/doctor.txt"
+    },
+    {
+      "check": "versions",
+      "state": "PASS",
+      "rc": 0,
+      "command": [
+        "/home/willi/Research-workspace/.venv/bin/python3",
+        "AGENTS/WALTER/tools/version_drift_check.py"
+      ],
+      "output": "AGENTS/WALTER/research/2026-10-23_morning/closeout/versions.txt"
+    },
+    {
+      "check": "local-memory-lines",
+      "state": "PASS",
+      "lines": 99,
+      "limit": 100
+    }
+  ],
+  "manual_duties": [
+    {
+      "step": "11",
+      "state": "UNVERIFIED",
+      "duty": "Account for authored signals, handoffs and batches; preserve delivery/consumption limits."
+    },
+    {
+      "step": "Tier1",
+      "state": "UNVERIFIED",
+      "duty": "Refresh affected/stale live state or record unavailable evidence; preserve dated observations."
+    },
+    {
+      "step": "15",
+      "state": "UNVERIFIED",
+      "duty": "Review carried duties and owner evidence; retain unresolved work in LAST_COMPLETION."
+    },
+    {
+      "step": "root.retirement",
+      "state": "UNVERIFIED",
+      "duty": "Assess research/source retirement under root Data Hygiene; record scope and disposition."
+    },
+    {
+      "step": "16",
+      "state": "UNVERIFIED",
+      "duty": "Exact-path commit and authorized publication or explicit deferral; reconcile after publication."
+    },
+    {
+      "step": "13",
+      "state": "UNVERIFIED",
+      "duty": "Refresh REGISTRY before regenerating NETWORK AWARENESS."
+    },
+    {
+      "step": "12(a,b)",
+      "state": "UNVERIFIED",
+      "duty": "Refresh STATUS facts and derived network summary from canonical sources."
+    },
+    {
+      "step": "12(c)",
+      "state": "UNVERIFIED",
+      "duty": "Review FILTER POSTURE and standing flags; change only when warranted."
+    },
+    {
+      "step": "12(d,e)",
+      "state": "UNVERIFIED",
+      "duty": "Write session entry and current BOTTOM LINE; account for earlier full-deferred breadcrumbs."
+    },
+    {
+      "step": "14",
+      "state": "UNVERIFIED",
+      "duty": "Refresh/prune MEMORY and assess promotion without losing unresolved duties."
+    }
+  ],
+  "conditional_selection": {
+    "status_changed": true,
+    "spec_changed": true,
+    "memory_slugs": [],
+    "superseded": []
+  },
+  "limits": "No fetch or source writes. Local origin can be stale. Advisory findings and manual judgments require review. Conditional flags must match actual work; unselected checks are not passes.",
+  "receipt_observation": {
+    "as_of": "2026-10-23T15:28:36Z",
+    "origin_ref": "a842412b976b9914c0d4090e9a05f53ebc43d895",
+    "delivery_scope": "20261023",
+    "delivered": 49,
+    "total": 49,
+    "limits": "Local origin ref only; fetch separately. Owner semantics and unstructured prose require human review.",
+    "note": "Existing receipt observation; this runner did not fetch. Not consumption or fresh publication proof."
+  }
+}
