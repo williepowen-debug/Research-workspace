@@ -1,0 +1,5 @@
+# STATUS spine-audit prior stamps — #16 (displaced 2026-10-23 by audit #17; verbatim, per /spineaudit step 5)
+
+Entry crc32 (over the stamp line including its newline): see `python3 PROME/tools/measure.py` on this file, or recompute from the line below.
+
+**Last spine audit:** 2026-10-15 (16th run — 9 readers/17 files: 6 blocking [WQ-348 'Done without asking' guard had no report step (BOOT step 8 + CLOSEOUT § Delivery + runners, FIXED) · CLOSEOUT step 11 still pre-WQ-382 (b) (FIXED, L665/L594 RESOLVED) · SCRATCH hand lines vs the four 12:00 Deck rulings (FIXED) · SCRATCH DOCKET-VIEW stale (regenerated) · ACTIVE_DECISIONS WQ-365 revival clause (FIXED) · DOCKET L723 CREED named as a WQ-184 driver on an explicit-permission desk (FIXED)] + ~35 minors [header-stamp ride-under · pointer rot into inbox/processed · 'Chunk 4' section labels (FIXED in GIT_COORDINATION/SYSTEM) · ≥280 vs >280 operator carry · row-size debt in ACTIVE_DECISIONS · runner depth]; record `PROME/reports/2026-10-15_spine-audit-16/`. Re-run when >7d.) Prior: #15 2026-10-02 — full stamp verbatim in `PROME/archive/STATUS_SPINE_AUDIT_PRIORS_2026-10-02.md`.

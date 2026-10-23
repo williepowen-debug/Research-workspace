@@ -48,7 +48,7 @@ Source: `python3 PROME/tools/will_brief.py --book-line`; positions and unresolve
 ## Thresholds
 `PROME/GATES.tsv` is the action-gate ledger: condition, consequence, owner grade and review date remain there. Boot gate 10/19 passed the recorded-state checks and found no FIRED-UNEXECUTED rows; this does not mean every source/owner was refreshed.
 
-- Credit: HY-REKILL NOT FIRED0/2; LIQ069 2-of-2, consequence executed; LIQ072 QUIET; LIQ0761/3 NOT MET; LIQ079 NOT ARMED (dated owner grades in GATES).
+- Credit: HY-REKILL NOT FIRED0/2; LIQ069 2-of-2, consequence executed; LIQ072 QUIET; LIQ076 1/3 NOT MET at the base [10/16] — **superseded by am.#3 above: MET 2-of-3, W2 first fire [LIQUID 10/22]**; LIQ079 NOT ARMED (dated owner grades in GATES).
 - Energy/theaters: BRENT-COT-35B #10 JOINT NOT-SPENT; FALCON001 leg2 not fired at10/14 read; OSPREY001 no new fire at10/18 read; TERRY VLO-HELD first December estimate not fired; VLO-SCALE terminal stand-down, its source① override caveat remains in the row.
 - Other live rails: FERTG5/G3 not fired; CORALMSI01 supply-side stood down, bank rail untouched; BRKR2 two vehicle fires with consequence run; BRKOTIC first graded quarter Q4 only; HOMER kill0/5 at10/15; TERRYROLL70 owner count0/3 through10/9. OP-SCALE01 unchanged. NEXUS-T12S formal grade remains publication-dependent at its owner; the approved WQ459 credit successor and its anchor state live in GATES and the owner letter. NEXUS-SEAT01 is terminal, NEXUS stays.
 - Desk counts and historical dates are not a fresh grading pass. NEXUS duration/volatility, LIQUID Friday cells, and HOMER HMI remain their owners' work. Calendar and exact next triggers → DOCKET; operating resume → SCRATCH ★ NEXT.
