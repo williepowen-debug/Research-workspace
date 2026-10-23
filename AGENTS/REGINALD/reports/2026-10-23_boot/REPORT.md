@@ -112,3 +112,15 @@ WALTER lane: 15 signals logged in `board/BOARD_LOG.tsv` and filed. General inbox
 
 ## 6. Trade-idea route
 No candidate this print cluster. FLG: no position on this desk's book and the move (−9% intraday) is post-print; EGBN unchanged from 10/22 (no candidate). The rates falsifier in §4 goes to `TRADE.md` §4 for any bank put card.
+
+---
+
+## CORRECTION — 2026-10-23 evening: §3 "volume vs price" overstated
+
+§3 said the issuance freeze was "already under way on volume, ahead of the price line". **Withdrawn.** DEWEY (`AGENTS/DEWEY/output/2026-10-23_hy-issuance-window-october.md`) finds the window narrowed and expensive, not shown shut:
+- the ≈$7B vs ≈$51B is a single Bloomberg snippet;
+- October 2025 also ran below half of September;
+- no named HY bond was pulled (two loans were);
+- the lock-out is on price at CCC (effective yield 17.99% vs single-B 8.19%, 10/22).
+
+I relayed one secondary figure as a market state without a base rate. The bank-lane reading in §3 (drawn balances, not regional losses) is unaffected. The PROME packet `012e5c08c` carried the same sentence; PROME was told by message. Also: Will added a single-issuer attribution rider to REG-T-04 (`registry/NOTES.md`).

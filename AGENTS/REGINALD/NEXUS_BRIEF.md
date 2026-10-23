@@ -7,7 +7,7 @@
 ## CROSS-DOMAIN
 
 **October23 catch-up** (`reports/2026-10-23_boot/REPORT.md`, commit `c6bb09ab0`):
-- **HY / REG-T-04 (PROME ask, packet `012e5c08c`, consumed by PROME at `c3600e8ed`):** 340bp [10/22], run 0 of 3; earliest fire 10/27 close. Broad repricing ⇒ the bank lane shows as **drawn balances** (C&I, NDFI lender/fund finance), not regional credit losses. Issuance freeze already under way on volume (≈$7B Oct vs ≈$51B Sep, secondary).
+- **HY / REG-T-04 (PROME ask, packet `012e5c08c`, consumed by PROME at `c3600e8ed`):** 340bp [10/22], run 0 of 3; earliest fire 10/27 close. Broad repricing ⇒ the bank lane shows as **drawn balances** (C&I, NDFI lender/fund finance), not regional credit losses. ⚠️ Issuance: earlier 'freeze under way on volume' WITHDRAWN (corrected 10/23 eve on DEWEY `AGENTS/DEWEY/output/2026-10-23_hy-issuance-window-october.md`): narrowed and expensive, not shown shut; the lock-out is on price at CCC. Will added a single-issuer attribution rider to REG-T-04 (CSC/Optimum).
 - **10-year falsifier:** KRE −0.72% per +10bp 10-year vs +0.02% per +10bp HY (corr −0.36 / +0.07; R² 0.13, weak). A falling 10-year falsifies a regional-bank put; a wide HY print does not confirm one. In `TRADE.md` §4 for TERRY's cards.
 - **FLG Q3:** missed; 0 of 4 readable CRE 'weakens if' lines met (NAL $2,817M, RR criticized $4,402M, loss ratio 20.7%), criticized +$670M; FLG stays #1. FLG desk owns the print grade.
 - **AMTB:** FL frame HOLDS final. **CUBI:** WQ-318 INCONCLUSIVE; fund finance +$456M, its top grower (NDFI lane, BROCK).
