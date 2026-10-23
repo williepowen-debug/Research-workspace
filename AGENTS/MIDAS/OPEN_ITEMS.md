@@ -14,7 +14,7 @@
 
 ## Closeout reconciliation
 
-PROME consumed all delivered MIDAS results; latest exact thesis receipt943667b4d. WQ-368 is RULED/shared-encoded; WQ-421 remains OPEN, dueOctober29. Preserve frozen MIDAS-09/10, next-US-business-day retrieval andNovember6 backstop; no automatic STUCK or retrofit. Next weekly reviewOctober19; NornickelOctober26/WPICNovember18 and ordinaryChina/LBMA releases retain existing scope. Inbox unprocessed0/namedcorrections0. Remaining source gaps are not unfinished commissioned research passes.
+PROME consumed all delivered MIDAS results; latest exact thesis receipt943667b4d. WQ-368 is RULED/shared-encoded; WQ-421 was APPROVED 10/15 and consumed 10/20 (no open decision). Preserve frozen MIDAS-09/10, next-US-business-day retrieval andNovember6 backstop; no automatic STUCK or retrofit. Weekly map review done 10/23 (next 10/30); NornickelOctober26/WPICNovember18 and ordinaryChina/LBMA releases retain existing scope. Inbox unprocessed0/namedcorrections0. Remaining source gaps are not unfinished commissioned research passes.
 
 ## 28. October12 bounded thesis test — complete at the evidence limit
 
@@ -28,7 +28,7 @@ PRIMARY CADA September production/wholesale decline addsPGMdemand pressure; item
 
 ## 26. Approved domain maintenance — repairs complete, evidence limits named
 
-Primary futures/GSR now bind to dated named contracts at native vendor precision. Date/month mismatches, stale prices, wrong-metal maps, null/nonpositive prices and expired delivery months fail visibly. Continuous pointers are diagnostics. Weekly map review dueOctober19; exact exchange expiry/liquidity selection still needs owner review. Vendor Close is explicitly uncertified settlement. Copper no longer claims an uncomputed price direction; its full price/inventory conjunction is UNMEASURED here, RED inventory requires review. GLD is required for the standing weekly rail; Friday endpoint sampling, joint-up signs and declined weekly-continuous comparison are printed. Historical fires stay intact. Existing tests34/34 pass; final network validation is in the maintenance sources.
+Primary futures/GSR now bind to dated named contracts at native vendor precision. Date/month mismatches, stale prices, wrong-metal maps, null/nonpositive prices and expired delivery months fail visibly. Continuous pointers are diagnostics. Weekly map review done 10/23 on 10/22 volumes (all five mapped months dominant), next 10/30; exact exchange expiry/liquidity selection still needs owner review. Vendor Close is explicitly uncertified settlement. Copper no longer claims an uncomputed price direction; its full price/inventory conjunction is UNMEASURED here, RED inventory requires review. GLD is required for the standing weekly rail; Friday endpoint sampling, joint-up signs and declined weekly-continuous comparison are printed. Historical fires stay intact. Existing tests34/34 pass; final network validation is in the maintenance sources.
 
 Current THESIS/FLOW/VX source and contract statements are reconciled, displaced history archived exactly. The adapted no-book TRADE state was reviewed, not cosmetically declared fresh. Remaining forecast interpretation is a separate review finding: `analysis/2026-10-12_forecast-basis-review.md`. No prediction, probability, market threshold or actual score changed. Source/data limits below are not failed software repairs.
 
@@ -38,17 +38,17 @@ Will's October12 “Okay approved go ahead” accepts the sit-rep's CROSSING rec
 
 ## 24. Futures/source reliability — binding source repaired, settlement seam remains
 
-Four continuous pointers were wrong against the mapped contracts in the October12 capture; corrected primary calculations exclude their prices. Named GCZ26/SIZ26/HGZ26/PLF27/PAZ26 bars are MIRROR Yahoo, not exchange settlements. Shared FORGE history leaves adjustmentpolicy implicit and rounds Close to2dp, so the local snapshot retains native ticks; the shared additive raw_close repair belongs to PROME/FORGE. Near a legacy dollar boundary, verify named/anchor contracts and certified settlement. Map review is weekly with content dates, not filesystem mtime. Missing point/expiry data is not a clean bill.
+Four continuous pointers were wrong against the mapped contracts in the October12 capture; corrected primary calculations exclude their prices. Named GCZ26/SIZ26/HGZ26/PLF27/PAZ26 bars are MIRROR Yahoo, not exchange settlements. Shared FORGE history leaves adjustmentpolicy implicit and rounds Close to2dp, so the local snapshot retains native ticks; the shared additive raw_close repair belongs to PROME/FORGE. Near a legacy dollar boundary, verify named/anchor contracts and certified settlement — as of 10/23 CME blocks this box's IP, so no certified settle source is held (Will decision, audit #20). Map review is weekly with content dates, not filesystem mtime. Missing point/expiry data is not a clean bill.
 
 ## 21. M1 successor — expanded reference complete, draft still unpriced
 
 MIDAS-08 remains terminal(b) INDETERMINATE; M1=4 and the historical if-falsified(c) correction remains not owed. Ratio/absolute-positioning denominator lesson stands. WQ-161/162 are encoded; non-resolution is STATUS with no probability mass, not an outstanding canon blocker.
 
-Preferred120-pair beta/20-new-pair endpoint/existing−0.08 flip DRAFT: `analysis/2026-10-12_M1-successor-DRAFT.md`. Approved expanded2010–2026 reference:4186 pairs,244/1578 overlapping flips15.46%, fixed nested grid28 disjoint-input episodes/9 eligible/2 flips22.22%. All9 eligible cases precede2022; this is a frequency, not a forward probability. ALFRED first print is nonnumeric on2020-08-19; first-per-observation vintages are not historic resolving snapshots, and GLD is a later vendor capture. ReviewOctober19; no registration or score action. Do not shift the grid or reanchor an ineligible future start. The November20 proposed date remains unarmed.
+Preferred120-pair beta/20-new-pair endpoint/existing−0.08 flip DRAFT: `analysis/2026-10-12_M1-successor-DRAFT.md`. Approved expanded2010–2026 reference:4186 pairs,244/1578 overlapping flips15.46%, fixed nested grid28 disjoint-input episodes/9 eligible/2 flips22.22%. All9 eligible cases precede2022; this is a frequency, not a forward probability. ALFRED first print is nonnumeric on2020-08-19; first-per-observation vintages are not historic resolving snapshots, and GLD is a later vendor capture. Review due 10/19 is OVERDUE (audit 10/23): retire-or-register decision outstanding; no registration or score action. Do not shift the grid or reanchor an ineligible future start. The November20 proposed date remains unarmed.
 
 ## 20. PGM mechanism — latest access solved; matched quantities unresolved
 
-Latest PRIMARY NYMEX reportOctober12/activityOctober9 Pt310939.722oz/Pd249946.262oz, measured-zero movement; issuerNAV/assets datedOctober9 recovered. Matched September30→October9 stock history, reported fund share/physical-ounce changes and leases remain unresolved. Public CME directory offers no matched stock series in the inspected listing; do not repeat the completed latest-point search or infer flow from AUM/NAV. HAWK's September2 no-access response is already delivered; no sixth asking. ReviewOctober19; causal verdictUNRESOLVED.
+Latest PRIMARY NYMEX reportOctober12/activityOctober9 Pt310939.722oz/Pd249946.262oz, measured-zero movement; issuerNAV/assets datedOctober9 recovered. Matched September30→October9 stock history, reported fund share/physical-ounce changes and leases remain unresolved. Public CME directory offers no matched stock series in the inspected listing; do not repeat the completed latest-point search or infer flow from AUM/NAV. HAWK's September2 no-access response is already delivered; no sixth asking. Next look at the Nornickel 10/26 / WPIC 11/18 releases; causal verdictUNRESOLVED.
 
 BIS clause is now probed: enumerate8 primary August1–28 documents, retrieve all8 bodies and screen named PGM commodity/supplier terms;0 hits. This is a retrospective bounded text search, not a full legal/indirect-equipment absence finding or a retroactive forecast grade. Original OFAC/news perimeter and country-shape caveats remain. English/US reach and RU/AF omissions survive; no cause is not claimed.
 
@@ -64,8 +64,8 @@ PRIMARY World Silver Survey2026 printedp9 confirms2026F PV151.0Moz/−19%, indus
 
 ## Calendars, carried clauses and preserved records
 
-- TERRY's duration sleeve: mirrored TLT82P expiresOctober16, managementOctober14; owner sensitivities/capture time unverified, off-repo broker truth controls. MIDAS proposes no order.
-- MIDAS-09/10: October30 close, next-US-business-day first retrieval, November6 source backstop. No early grade. Their frozen metal-per-share clause has interpretation review registered as WQ-421, dueOctober29, under WQ-161; prospective replacement wording is concrete, live rows untouched.
+- GLD position context: 25 sh (FORGE `ec5a7058b`, 10/22 capture); TERRY owns construction and any card, Will approves. (TERRY's mirrored TLT82P expired 10/16; reference retired 10/23.)
+- MIDAS-09/10: October30 close, next-US-business-day first retrieval, November6 source backstop. No early grade. Their frozen metal-per-share clause interpretation (WQ-421) was APPROVED 10/15 and consumed 10/20; frozen rows untouched, ordinary fees do not automatically cause STUCK.
 - Quarterly CB gate: WGC PRIMARY Q2 table288.9t recheckedOctober12; Q1 old244t now57t is a labelled revision, not current support. Monthly reported buying never replaces the quarter. Next quarterly publication/vintage review remains owned by MIDAS; no invented release date or regrade.
 - Platts sulfur/acid spot: public product/methodology read identifies weekly FSAJA04 but no dated numeric quote. UNMEASURED; retry when approved access changes rather than carrying a weekly “owed” search indefinitely.
 - Miner equities: out of scope (8/14 ruling); trigger to reconsider is>20% divergence from the metal over a quarter.

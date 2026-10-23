@@ -45,7 +45,7 @@ This folder is the topic entry point. [STATUS](../STATUS.md) owns current state;
 - [MIDAS — news sweep, October12,2026](../analysis/2026-10-12_MIDAS-news-sweep.md) — shared with silver, platinum, palladium, copper.
 - [MIDAS — due metals review and held GLD — 2026-10-12](../analysis/2026-10-12_due-metals-review-held-GLD.md) — shared with silver, platinum, palladium, copper.
 - [Precious metals news and implications as of October 20 2026](../analysis/2026-10-20_PRECIOUS-METALS-NEWS.md) — shared with silver, platinum, palladium, copper.
-- [MIDAS — Domain Sweep (4-lens), 2026-07-12](../reports/2026-07-12_domain-sweep.md) — shared with silver, platinum, palladium, copper.
+- [MIDAS — Domain Sweep (4-lens), 2026-07-12](../archive/reports/2026-07-12_domain-sweep.md) — shared with silver, platinum, palladium, copper.
 - [2026-10-12_maintenance](../sources/2026-10-12_maintenance) — shared with silver, platinum, palladium, copper.
 - [2026-10-12_news-sweep](../sources/2026-10-12_news-sweep) — shared with silver, platinum, palladium, copper.
 - [2026-10-12_review](../sources/2026-10-12_review) — shared with silver, platinum, palladium, copper.

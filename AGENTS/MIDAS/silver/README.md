@@ -32,7 +32,7 @@ Existing observations are held in the shared source bundles below.
 - [MIDAS-09/10 — metal-per-share basis review](../analysis/2026-10-12_forecast-basis-review.md) — shared with platinum, palladium.
 - [MIDAS — bounded metals thesis test, October 12, 2026](../analysis/2026-10-12_metals-thesis-test.md) — shared with platinum, palladium.
 - [Precious metals news and implications as of October 20 2026](../analysis/2026-10-20_PRECIOUS-METALS-NEWS.md) — shared with gold, platinum, palladium, copper.
-- [MIDAS — Domain Sweep (4-lens), 2026-07-12](../reports/2026-07-12_domain-sweep.md) — shared with gold, platinum, palladium, copper.
+- [MIDAS — Domain Sweep (4-lens), 2026-07-12](../archive/reports/2026-07-12_domain-sweep.md) — shared with gold, platinum, palladium, copper.
 - [2026-10-12_maintenance](../sources/2026-10-12_maintenance) — shared with gold, platinum, palladium, copper.
 - [2026-10-12_news-sweep](../sources/2026-10-12_news-sweep) — shared with gold, platinum, palladium, copper.
 - [2026-10-12_review](../sources/2026-10-12_review) — shared with gold, platinum, palladium, copper.

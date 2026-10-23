@@ -22,3 +22,15 @@ Historical prediction design evidence, off the boot path. The terminal grade, cu
 ---
 
 End of preserved registration record.
+
+
+## OPEN_ITEMS.md lines replaced on 2026-10-23 (verbatim originals; Will-approved audit fix)
+
+- WQ-368 is RULED/shared-encoded; WQ-421 remains OPEN, dueOctober29.
+- Next weekly reviewOctober19;
+- Weekly map review dueOctober19; exact exchange expiry/liquidity selection still needs owner review.
+- Near a legacy dollar boundary, verify named/anchor contracts and certified settlement.
+- ReviewOctober19; no registration or score action.
+- HAWK's September2 no-access response is already delivered; no sixth asking. ReviewOctober19; causal verdictUNRESOLVED.
+- - TERRY's duration sleeve: mirrored TLT82P expiresOctober16, managementOctober14; owner sensitivities/capture time unverified, off-repo broker truth controls. MIDAS proposes no order.
+- Their frozen metal-per-share clause has interpretation review registered as WQ-421, dueOctober29, under WQ-161; prospective replacement wording is concrete, live rows untouched.

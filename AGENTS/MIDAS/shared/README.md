@@ -26,7 +26,7 @@ Examples: gold/silver ratios; platinum/palladium vehicle-demand and supply studi
 - [Precious metals news and implications as of October 20 2026](../analysis/2026-10-20_PRECIOUS-METALS-NEWS.md) — gold,silver,platinum,palladium,copper.
 - [MIDAS catch-up October 23 2026: liquidation day, band reds, LME build](research/2026-10-23_catch-up.md) — gold,silver,platinum,palladium,copper.
 - [Gold and silver news sweep October 23 2026](research/2026-10-23_gold-silver-news-sweep.md) — gold,silver.
-- [MIDAS — Domain Sweep (4-lens), 2026-07-12](../reports/2026-07-12_domain-sweep.md) — gold,silver,platinum,palladium,copper.
+- [MIDAS — Domain Sweep (4-lens), 2026-07-12](../archive/reports/2026-07-12_domain-sweep.md) — gold,silver,platinum,palladium,copper.
 - [MIDAS — I2: THE TWO "UNEXPLAINED PLATINUM SURGES," ATTRIBUTED](../reports/2026-08-27_pgm-surge-attribution.md) — platinum,palladium.
 - [2026-10-12_maintenance](../sources/2026-10-12_maintenance) — gold,silver,platinum,palladium,copper.
 - [2026-10-12_news-sweep](../sources/2026-10-12_news-sweep) — gold,silver,platinum,palladium,copper.

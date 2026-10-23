@@ -70,7 +70,7 @@ shared	gold,silver,platinum,palladium,copper	research	analysis/2026-10-12_due-me
 shared	silver,platinum,palladium	research	analysis/2026-10-12_forecast-basis-review.md	MIDAS-09/10 — metal-per-share basis review	Dated material; inspect its source dates and approval status.
 shared	silver,platinum,palladium	research	analysis/2026-10-12_metals-thesis-test.md	MIDAS — bounded metals thesis test, October 12, 2026	Dated material; inspect its source dates and approval status.
 shared	gold,silver,platinum,palladium,copper	research	analysis/2026-10-20_PRECIOUS-METALS-NEWS.md	Precious metals news and implications as of October 20 2026	Dated material; inspect its source dates and approval status.
-shared	gold,silver,platinum,palladium,copper	research	reports/2026-07-12_domain-sweep.md	MIDAS — Domain Sweep (4-lens), 2026-07-12	Dated material; inspect its source dates and approval status.
+shared	gold,silver,platinum,palladium,copper	research	archive/reports/2026-07-12_domain-sweep.md	MIDAS — Domain Sweep (4-lens), 2026-07-12	Dated material; inspect its source dates and approval status.
 shared	platinum,palladium	research	reports/2026-08-27_pgm-surge-attribution.md	"MIDAS — I2: THE TWO ""UNEXPLAINED PLATINUM SURGES,"" ATTRIBUTED"	Dated material; inspect its source dates and approval status.
 shared	gold,silver,platinum,palladium,copper	sources	sources/2026-10-12_maintenance	2026-10-12_maintenance	Mixed primary inventory/source captures; retain the whole batch and its reconciliation records.
 shared	gold,silver,platinum,palladium,copper	sources	sources/2026-10-12_news-sweep	2026-10-12_news-sweep	Dated material; inspect its source dates and approval status.

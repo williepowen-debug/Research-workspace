@@ -1,6 +1,8 @@
 # MIDAS desk audit — stale, broken, owed, incomplete, missing (2026-10-23)
 
-Will-directed sweep, started 16:00 ET (`date`). Read-only: nothing in this list was fixed by the sweep itself. Priority: **H** = blocks a grade or contradicts itself on a boot-read file · **M** = misleads a reader · **L** = housekeeping.
+Will-directed sweep, started 16:00 ET (`date`). Read-only: nothing in this list was fixed by the sweep itself.
+
+**Fix pass (Will: "Yes approved go ahead", 16:03 ET):** FIXED #11 (WQ-421 lines rewritten in STATUS/OPEN_ITEMS; NEXUS/SCRATCH copies archived), #12 (SCRATCH now one forward list), #13 (STATUS stale blocks rotated, scoring rows and top-3 rewritten), #14 (NEXUS_BRIEF older sections rotated, current state block added), #16 (SOURCES.md CFTC row and an access-facts table), #17 partially (OPEN_ITEMS stale lines replaced; sections otherwise kept), #19 (TLT82P removed from live surfaces), #26 (CLAUDE.md file table lists the tests), #27 (8 outbox files and the July report moved to `archive/`, index links fixed). Everything moved is verbatim in the `analysis/*_ARCHIVE_2026-10.md` files. **Still open:** #1–#10 (dated work and decisions), #15, #18, #20–#25. **Needs Will:** #20 (certified settlement source) and #6 (retire or register the M1 successor draft). Priority: **H** = blocks a grade or contradicts itself on a boot-read file · **M** = misleads a reader · **L** = housekeeping.
 
 ## Clean (checked, no finding)
 
