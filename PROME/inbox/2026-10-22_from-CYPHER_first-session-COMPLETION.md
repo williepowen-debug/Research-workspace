@@ -27,4 +27,4 @@
 
 - KB-CYP-001..012 remain DEWEY-inherited (not re-read).
 - boot.py leg 5 misses a blank Last_Checked on CONFIRMED rows; fix and drill at the next boot.py edit.
-- Push: attempted at closeout through \`scripts/safe-push.sh\` (fast-forward only). If it aborts, the commits stay local and CYPHER reports that to Will. The shared tree holds other desks' uncommitted work, so no pull or rebase happens without the overlap check.
+- Push: attempted at closeout through `scripts/safe-push.sh` (fast-forward only). If it aborts, the commits stay local and CYPHER reports that to Will. The shared tree holds other desks' uncommitted work, so no pull or rebase happens without the overlap check.
