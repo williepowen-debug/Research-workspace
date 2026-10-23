@@ -2,7 +2,7 @@
 
 **Status:** 🟡 WAVE-2026-10 open, 9 of 9 escalation rows NOT-FIRED (rows 1, 2, 4 re-checked 10/23 17:1x ET); PHP2Shell ATTEMPTS-ONLY (weak evidence, not an all-clear)
 **Domain:** Cyber events that can move money — owns the EVENT (confirmed?, class, dates, escalation state); consequence owners keep the consequence
-**As of:** 2026-10-23 17:1x ET (WALTER 041/044/045: GitLab CVE-2026-110264 and Node.js CVE-2026-111497 DISCLOSED, off-root, KEV-watched; Korea CONFIRMED at the FSC primary; 4 leak claims triaged; no row fired) | STATUS commit: 44fa81df3
+**As of:** 2026-10-23 17:1x ET (WALTER 041/044/045: GitLab CVE-2026-110264 and Node.js CVE-2026-111497 DISCLOSED, off-root, KEV-watched; Korea CONFIRMED at the FSC primary; 4 leak claims triaged; no row fired) | STATUS commit: 62c2fff5d
 
 ---
 
