@@ -1,7 +1,9 @@
 # MIDAS — TRADE
 
 # LIVE ledger.
-Last real data refresh: 2026-10-12 — adapted no-book state reviewed during Will-approved maintenance. MIDAS issued no new trade-shaped proposal in this pass. Will's mirrored GLD holding belongs to the operator's book; TERRY owns construction and management. Historical candidate/caveat blocks below keep their stated dates.
+Last real data refresh: 2026-10-23 — gold position facts and invalidation lines refreshed (Will-directed); no new trade-shaped proposal. Prior: 2026-10-12 adapted no-book state reviewed during Will-approved maintenance.
+
+**2026-10-23 refresh (gold, for TERRY if Will asks; not a recommendation):** GLD **25 sh** (FORGE `ec5a7058b`, basis $9,390.78) is the book's largest line. **Measured: GLD is not a stress hedge in 2026** — it rose on 2 of 12 equity-stress days in the last 120 sessions (mean −1.82% vs S&P −1.34%), so a card should not count it as protection for the QQQ/KRE put book. **Invalidation lines for the 10/20 outlook** (`gold/research/2026-10-23_WQ451-decomposition-letter.md` §5): one-month downside GLD close < $360.71, upside > $391.08; three-month: trust < 1,035.70t, DFII10 ≥ 3.00% for 5 prints, DXY ≥ 105 for 5 closes, or a second liquidation day by 11/05 with cumulative −20t. Tracking calls MIDAS-11/12/13/17 are not orders. MIDAS issued no new trade-shaped proposal in this pass. Will's mirrored GLD holding belongs to the operator's book; TERRY owns construction and management. Historical candidate/caveat blocks below keep their stated dates.
 
 > ## 🟢 SURFACE STATUS: **DECLARED FLAT — ADAPTED-PASS.** Written 2026-09-05 by MIDAS.
 > **NO OPEN POSITIONS. NO PROPOSED POSITIONS. ZERO CAPITAL, AND ZERO IS THE DESIGN, NOT A GAP.**

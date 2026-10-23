@@ -20,7 +20,11 @@ This folder is the topic entry point. [STATUS](../STATUS.md) owns current state;
 - [MIDAS — expanded M1 conditional reference](../analysis/2026-10-12_M1-expanded-reference.md)
 - [M1 successor — preferred prospective DRAFT](../analysis/2026-10-12_M1-successor-DRAFT.md)
 - [GLD outlook after the rate and bullion flow review](../analysis/2026-10-20_GLD-OUTLOOK.md)
-- [WQ-451 — gold decomposition letter: haven vs de-dollarisation vs liquidation (2026-10-23)](research/2026-10-23_WQ451-decomposition-letter.md) — instrument in `sources/2026-10-23_wq451/`.
+- [WQ-451 — gold decomposition letter: haven vs de-dollarisation vs liquidation (2026-10-23)](research/2026-10-23_WQ451-decomposition-letter.md) — instrument in `sources/2026-10-23_wq451/`; includes the GLD outlook invalidation lines (§5).
+- [MIDAS catch-up, 2026-10-23: the 10/22 liquidation day, flip-rule status, COT](../shared/research/2026-10-23_catch-up.md) — shared with all metals.
+- [Gold and silver news sweep, 2026-10-23: Russia CB selling, estimated vs reported CB buying, China deleveraging](../shared/research/2026-10-23_gold-silver-news-sweep.md) — shared with silver.
+
+**Open gold forecasts (registered; letters live in [PREDICTIONS](../workbook/PREDICTIONS.tsv)):** MIDAS-11 (11/20) · MIDAS-12 (2027-01-20) · MIDAS-13 rebound touch $378.95 (11/20) · MIDAS-16 COT as-of 10/27 (~10/30) · MIDAS-17 rate catch-up (11/20) · WQ-451 tests DOCKET L819–L822 (11/06 → early December). Grade status is in PREDICTIONS, not here.
 - [MIDAS — THE 8/19 GOLD SESSION: RATES ATTRIBUTION WRITE-UP](../reports/2026-08-23_gld-rates-attribution.md)
 
 ## Data and sources
@@ -28,6 +32,9 @@ This folder is the topic entry point. [STATUS](../STATUS.md) owns current state;
 - [sources/2026-10-12_m1-draft](../sources/2026-10-12_m1-draft) — Dated material; inspect its source dates and approval status.
 - [sources/2026-10-12_m1-expanded](../sources/2026-10-12_m1-expanded) — Dated material; inspect its source dates and approval status.
 - [sources/2026-10-20_GLD-review](../sources/2026-10-20_GLD-review) — Dated material; inspect its source dates and approval status.
+- [sources/2026-10-23_wq451](sources/2026-10-23_wq451) — WQ-451 instrument code, panel and outputs; frozen 2026-10-23 before forward grades.
+- [shared/sources/2026-10-23_catch-up](../shared/sources/2026-10-23_catch-up) — Treasury curves, GLD issuer archive, vendor bars (10/23 capture).
+- [shared/sources/2026-10-23_predictions](../shared/sources/2026-10-23_predictions) — base rates for MIDAS-13..17.
 - [sources/cot_gold_history_2010_2026.tsv](../sources/cot_gold_history_2010_2026.tsv) — Frozen positioning reference; preserve bytes and grading basis.
 - [sources/cot_vintages_consumed.tsv](../sources/cot_vintages_consumed.tsv) — Append-only consumption record used by boot; do not move or duplicate.
 

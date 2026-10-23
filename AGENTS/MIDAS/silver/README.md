@@ -12,6 +12,11 @@ This folder is the topic entry point. [STATUS](../STATUS.md) owns current state;
 
 Existing focused evidence is part of the shared studies below. Add new single-metal reports under `research/` in this folder.
 
+- [MIDAS catch-up, 2026-10-23: SLV red trend crossing (first 10/14, post-approval), COT](../shared/research/2026-10-23_catch-up.md) — shared with all metals.
+- [Gold and silver news sweep, 2026-10-23: India import permits, China net exporter, PSLV discount, VAT trap, Section 232 gap](../shared/research/2026-10-23_gold-silver-news-sweep.md) — shared with gold.
+
+**Open silver forecasts (letters in [PREDICTIONS](../workbook/PREDICTIONS.tsv)):** MIDAS-09 (resolves 10/30, frozen) · MIDAS-14 SLV d200 ≤ −20% at the 11/2 close. Grade status is in PREDICTIONS, not here.
+
 ## Data and sources
 
 Existing observations are held in the shared source bundles below.
@@ -35,6 +40,8 @@ Existing observations are held in the shared source bundles below.
 - [2026-10-20_news](../sources/2026-10-20_news) — shared with gold, platinum, palladium, copper.
 - [cot_metals_history_2010_2026.tsv](../sources/cot_metals_history_2010_2026.tsv) — shared with platinum, palladium.
 - [cot_metals_vintages_consumed.tsv](../sources/cot_metals_vintages_consumed.tsv) — shared with platinum, palladium.
+- [shared/sources/2026-10-23_catch-up](../shared/sources/2026-10-23_catch-up) — band legs and vendor bars (10/23 capture), shared with all metals.
+- [shared/sources/2026-10-23_predictions](../shared/sources/2026-10-23_predictions) — base rates incl. MIDAS-14.
 
 ## Filing new work
 
