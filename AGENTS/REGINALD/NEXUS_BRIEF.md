@@ -2,9 +2,16 @@
 
 **Status:** Concentrated bank risk. HY 340bp [10/22] is 10bp from REG-T-04 and mostly a BROAD repricing; still BANK-ABSENT on bank instruments (~0.7). On a 57-day fit the 10-year, not HY, moves KRE. Q3: problem loans up at 7 of 10 names read, coverage down at 6 of 8 — holds at CRE-concentrated names, breaks at cleaner ones.
 **Domain:** Regional-bank comparison, FHLB advances, hidden CRE and sponsor-bank balance-sheet risk.
-**As of:** 2026-10-23 17:02 ET, owner session (Will-launched boot, catch-up, learning review, WQ-512 rider) | STATUS commit: 8452f2af7
+**As of:** 2026-10-23 17:12 ET, owner session CLOSED at Will's request (10/23) | STATUS commit: 8452f2af7
 
 ## CROSS-DOMAIN
+
+**October23 afternoon (Will):**
+- **Learning review** (`reports/2026-10-23_historical-learning-review.md`): method improved, judgment unproven.
+- **REG-08 and REG-10 regraded FAILED → CONFIRMED**, originals kept (`5e0e8b301`; PROME DOCKET L824). REGINALD Brier 0.162 (n = 8): too few to show skill.
+- **11/07 ranking test frozen** (retrospective, not blind). The matrix coverage point is now labelled an untested indicator; scores unchanged.
+- **REG-T-04 single-issuer disclosure rider** (WQ-512, `8452f2af7`): CSC/Optimum is 0.47% of HYG.
+- **TERRY:** the rate prop on KRE is the last 4 weeks only; the proposed alarms show no forward edge since 2006 (`9938ffae5`).
 
 **October23 catch-up** (`reports/2026-10-23_boot/REPORT.md`, commit `c6bb09ab0`):
 - **HY / REG-T-04 (PROME ask, packet `012e5c08c`, consumed by PROME at `c3600e8ed`):** 340bp [10/22], run 0 of 3; earliest fire 10/27 close. Broad repricing ⇒ the bank lane shows as **drawn balances** (C&I, NDFI lender/fund finance), not regional credit losses. ⚠️ Issuance: earlier 'freeze under way on volume' WITHDRAWN (corrected 10/23 eve on DEWEY `AGENTS/DEWEY/output/2026-10-23_hy-issuance-window-october.md`): narrowed and expensive, not shown shut; the lock-out is on price at CCC. Will added a single-issuer attribution rider to REG-T-04 (CSC/Optimum).
