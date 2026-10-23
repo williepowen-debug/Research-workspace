@@ -27,6 +27,12 @@ Two rails. **R0** asks whether the desk should exist, and is unusual here becaus
 | Kill (wave) | A wave closes when every row is `STOOD-DOWN` with a dated reason. Closing a wave does not touch R0 |
 | ⚠️ Conjunction warning | "Rows 1, 3, 4 all NOT-FIRED for N days" is a multi-channel quiet-period conjunction — the highest-risk kill shape (blueprint §4). It must state the state it fires FROM and name one historical window that would have satisfied it (Log4Shell's) before it is used to close a wave |
 
+## R1 context note — 2026-10-23 (not a re-derivation; the flips above are unchanged)
+
+- **Chokepoint map built** (`workbook/CHOKEPOINTS.tsv`): today's threats touch the EDGES of US finance's shared suppliers (perimeter appliances, the MSP layer, file-transfer products), not a core processor or market utility.
+- **The MOVEit-shaped node now has a name: Kiteworks** (file transfer), confirmed AFFECTED by PHP2Shell (own advisory 10/22), no exploitation statement. A Kiteworks victim confirmed by the victim, an IR report or a CERT would satisfy the toward-MOVEit flip through row 1 (any named PHP2Shell compromise). Check 2026-11-06.
+- **Not a flip input:** CYP-03/04 (registered 10/23) grade the map's deductions, not this wave.
+
 ## Rules (blueprint §4 — cite, don't restate)
 
 Every `AND` in a kill states the state it fires FROM. No threshold already breached at write time. A falsification leg names a positively-measured instrument. A retraction is a claim and gets graded like one.

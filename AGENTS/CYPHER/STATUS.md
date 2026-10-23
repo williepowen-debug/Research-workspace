@@ -6,7 +6,7 @@
 
 ## Current judgment
 
-**WAVE-2026-10 is open and reads MECHANICAL so far (Log4Shell-shaped). Not one of the nine escalation rows has fired (rows 1, 2, 4 re-checked 2026-10-23).** PHP2Shell (CVE-2026-109618 / -109619) is **ATTEMPTS-ONLY**. Exploitation attempts are confirmed: AWS MadPot from 10/17, before the 10/21 disclosure, and watchTowr honeypots since 10/21; Bitdefender and Huntress telemetry see none, and Sansec says public exploits fail on a default PHP install (vendor claims). No named organisation has a confirmed successful compromise. The Dutch NCSC is "investigating first signals of successful misuse" (primary, page unchanged since 10/22 16:01 CEST at the 10/23 07:3x ET re-read) and names no victim. **New reach (primary, 10/23):** Palo Alto says PAN-OS, Panorama and WildFire WF-500 are affected; hotfixes due 10/26–10/30, Panorama / WF-500 "ETA: TBD"; no exploitation known against its products. **That is weak evidence, not an all-clear.** Pre-disclosure exploitation plus a low-footprint exploit (KB-CYP-012) is the MOVEit shape, where victims surfaced at +14 days. The prior from five past waves is mechanical for banks (KB-CYP-001: 0 of 5 caused a run, a failure or a central payment outage).
+**WAVE-2026-10 is open and reads MECHANICAL so far (Log4Shell-shaped). Not one of the nine escalation rows has fired (rows 1-8 re-checked 2026-10-23; workbook brought current 15:5x ET: KB-CYP-022..031, CYB-INC-025, VX evidence, EXIT_PROTOCOL context note).** PHP2Shell (CVE-2026-109618 / -109619) is **ATTEMPTS-ONLY**. Exploitation attempts are confirmed: AWS MadPot from 10/17, before the 10/21 disclosure, and watchTowr honeypots since 10/21; Bitdefender and Huntress telemetry see none, and Sansec says public exploits fail on a default PHP install (vendor claims). No named organisation has a confirmed successful compromise. The Dutch NCSC is "investigating first signals of successful misuse" (primary, page unchanged since 10/22 16:01 CEST at the 10/23 07:3x ET re-read) and names no victim. **New reach (primary, 10/23):** Palo Alto says PAN-OS, Panorama and WildFire WF-500 are affected; hotfixes due 10/26–10/30, Panorama / WF-500 "ETA: TBD"; no exploitation known against its products. **That is weak evidence, not an all-clear.** Pre-disclosure exploitation plus a low-footprint exploit (KB-CYP-012) is the MOVEit shape, where victims surfaced at +14 days. The prior from five past waves is mechanical for banks (KB-CYP-001: 0 of 5 caused a run, a failure or a central payment outage).
 
 | Gauge | Reading (2026-10-22; re-checked 2026-10-23) | Canonical |
 |---|---|---|
@@ -30,7 +30,7 @@
 
 ## Open wave — WAVE-2026-10 (canonical: `workbook/ESCALATION_WATCH.tsv`)
 
-| Row | Sign | State (rows 1, 2, 4 re-checked 2026-10-23; others 2026-10-22) | Basis of the read |
+| Row | Sign | State (rows 1-8 re-checked 2026-10-23; row 9 2026-10-22, owner read not consumed) | Basis of the read |
 |---|---|---|---|
 | 1 | Confirmed successful PHP2Shell compromise | NOT-FIRED (ATTEMPTS-ONLY) | Dutch NCSC alert, CYPHER read 10/22 and re-read 10/23 (unchanged); 10/23 news sweep, no named victim; Patchstack timeline and victim sweep to ~23:35Z, DEWEY |
 | 2 | KEV listing of the two CVEs | NOT-FIRED | boot.py leg 7 live (re-run 23:53 ET): KEV still v2026.10.21, both absent; leg 8 still no Item 1.05 8-K since 10/15. A listing looks likely (AWS: "broadly exploited") |
