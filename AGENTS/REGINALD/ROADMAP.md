@@ -79,6 +79,8 @@ October20 key-file audit: `reports/2026-10-20_key-file-sweep/REPORT.md` inventor
 
 ## RECENTLY RESOLVED — October20
 
+**10/23 afternoon (Will):** learning review `reports/2026-10-23_historical-learning-review.md` (method improved, judgment unproven). REG-08/REG-10 regraded CONFIRMED (`5e0e8b301`). 11/07 ranking-test protocol frozen (`reports/2026-10-23_ranking-test_FROZEN_protocol.md`). Matrix coverage wording corrected. WQ-512 REG-T-04 rider (`8452f2af7`). TERRY's rates-vs-KRE question answered (`9938ffae5`). Last touched 2026-10-23.
+
 **10/23 boot + catch-up (Will-launched):** `reports/2026-10-23_boot/REPORT.md`. FLG Q3 graded on the CRE top-3 lines (0 of 4 readable met; 2 at 10-Q). AMTB FL frame HOLDS final; CUBI WQ-318 INCONCLUSIVE. Cohort descriptive 7/10 problem loans up, 6/8 coverage down. PROME asks (1)–(2): REG-T-04 bank-lane reading + 10-year falsifier (KRE −0.72% per +10bp 10Y vs +0.02% per +10bp HY, R² 0.13). Discount window back to $9.17B [10/21]: open question stays descriptive. Last touched 2026-10-23.
 
 **10/22 afternoon (Will-directed):** EGBN Q4 wall (`reports/2026-10-22_EGBN_Q4_maturity_wall.md`) and the appraisal-discount cohort test (12/14 banks publish no discount; realized haircuts 13–22%). REG-28/29/30 registered. DAEDALUS D:L793 8/8 (exit rail, boot checks, WQ-484 ACK duty). Clutter retired (`archive/RETIREMENT_2026-10-22.md`). Coverage leg re-weighted on DEWEY's base rate (DOCKET L801 ~10/30). **Discount-window open question:** still descriptive, not registered. Last touched 2026-10-22.

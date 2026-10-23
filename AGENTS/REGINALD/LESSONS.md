@@ -68,6 +68,14 @@ All three can coexist at the same bank. WAL uses all three.
 **Mistake (6/19, ORC-caught):** The standing "Exit 100% on HY OAS <260bps" rule was written for the original **broad-systemic** thesis. The thesis has since narrowed to **idiosyncratic-WAL + CRE-specific** (Office / B1 walk-away / maturity wall / NCO migration) — none of which prints in broad HY bond spreads. HY drifting to 263 (3bps from trigger) on a risk-on rally would have mechanically stopped out a thesis whose actual confirmation channel had moved to CMBS-DQ flows / bank CRE-DQ tier-creep / WAL Q2 NCO. The trigger's anchor silently de-coupled from the thesis it was meant to protect.
 **Rule:** When the thesis narrows or shifts channel, re-audit every standing trigger/threshold/exit-rule: does its *anchor metric* still print the thing the thesis now depends on? If not, re-anchor (or downgrade auto-action to a review trigger). Same family as the boot drift-grep — but for trigger *semantics*, not just stale values.
 
+### [Prediction] — Grade the Wording, Not a Convenient Checkpoint (2026-10-23, outside reviewer caught it)
+**Mistake:** REG-08 ("KRE breaks below $65", H1) was graded FAILED because KRE ended June above $65, after 17 March closes below it. REG-10 ("PSEC cuts dividend in 2026") was graded FAILED in February, a month into a 12-month window, and PSEC then cut in May. Both survived a staleness sweep, an expiry sweep, a CATO census and my own learning review. The review printed the $62.62 low right beside "FAILED".
+**Rule:** write a grade only from the forecast's own wording, quoted beside the evidence; check the WHOLE window (any time inside it, not its last day or its first event); a window that has not closed cannot fail unless its invalidation is met inside it. Corrected rows keep the original grade verbatim.
+
+### [Data] — One Secondary Snippet Is Not a Market State (2026-10-23)
+**Mistake:** I relayed "issuance freeze already under way on volume" ($7B Oct vs $51B Sep) to PROME, STATUS and NEXUS from one Bloomberg snippet. DEWEY found October 2025 also ran below half of September and no named bond was pulled.
+**Rule:** before a single secondary figure becomes a stated condition, compare it with the same period a year earlier and look for a second source. Otherwise label it "single secondary, unbased".
+
 ---
 
 *Last reviewed: **2026-08-20** — NDFI [Data] entry figures refreshed at the FFIEC primary (rule VINDICATED, scale had quadrupled unflagged: WAL $6.5B→$15.81B; 68%→68.9% held) + the rule/figure-half distinction added. Phantom-class sweep run the same session found ONE live hit (CALENDAR calling a 8/18-confirmed-SOLD, WAL-owned leg a "live print-catcher") — fixed; `TRADE.md` and `archive/root_retired_2026-10-22/MAY15_DECISIONS.md` verified already FROZEN/HISTORICAL-bannered. Prior: 2026-06-19 (POSITIONS-ground-truth repeat-lesson + anchor-drift, both ORC-caught).*
