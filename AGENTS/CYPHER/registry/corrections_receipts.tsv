@@ -1,0 +1,2 @@
+receipt_date	correction_id	action	note
+2026-10-23T15:35Z	COR-20261022-48	APPLIED	artifact=AGENTS/CYPHER/workbook/INCIDENTS.tsv#CYB-INC-009; validation_ref=AGENTS/CYPHER/research/2026-10-23_news-sweep-and-relay-pattern.md#4; CYPHER authored the correction; ledger rows already carry the corrected attributions and the do-not-relay set (STATUS 10/23)

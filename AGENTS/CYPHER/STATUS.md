@@ -1,6 +1,6 @@
 # CYPHER STATUS
 
-**Last Updated: 2026-10-23 07:30 ET — live news sweep (Will-launched, Claude Code, claude-opus-5-5): 3 non-US bank-sector incidents ledgered, Palo Alto reach added to PHP2Shell, do-not-relay list re-cut, KB-CYP-019.** Evidence records: `research/2026-10-23_news-sweep-and-relay-pattern.md` (this session) · `research/2026-10-22_first-session-verification-record.md` (first session).
+**Last Updated: 2026-10-23 11:3x ET — boot (Will-launched): inbox 6 packets cleared, COR-20261022-48 receipted, WQ-508 lines accepted, READS declaration to PROME, ConnectWise check 10/26. Prior: 07:30 ET live news sweep (Will-launched, Claude Code, claude-opus-5-5): 3 non-US bank-sector incidents ledgered, Palo Alto reach added to PHP2Shell, do-not-relay list re-cut, KB-CYP-019.** Evidence records: `research/2026-10-23_news-sweep-and-relay-pattern.md` (this session) · `research/2026-10-22_first-session-verification-record.md` (first session).
 
 > ~~FIRST-LIVE-SESSION BANNER~~ — **SPENT 2026-10-22.** `FIRST_SESSION.md` items 1–8 done or carried as listed under § First-session record. Normal boot from here.
 
@@ -56,7 +56,9 @@
 
 ## Standing conditions
 
-- **Event, not consequence.** Boundary packets went to 11 consequence owners 2026-10-22. Each desk is UNCONFIRMED until it replies, and is re-raised next session.
+- **Event, not consequence.** Boundary packets went to 11 consequence owners 2026-10-22. **Confirmed as written: GIBBS (10/23 08:44, KB-GIB-023) and WATT (10/23 01:04, KB-WATT-180; a cyber cause does not lower WATT's P1 grid bar).** The other 9 stay UNCONFIRMED until they reply, re-raised next session.
+- **WQ-508 (Will 10/23):** DAEDALUS applied U-CI1..3 to this charter (4da79f1ee), read and accepted, none contested; U-CI4 (where the prediction-approval rule lives) still open, optional.
+- **MSP channel (DEWEY 10/23, KB-CYP-020):** wide reach (91.2% of community banks outsource monitoring), little traffic (1 of 88 CA/WA notices names an IT-provider route). A 10th watch row is NOT adopted; ConnectWise restoration check on 10/26 decides whether it is worth one.
 - **Recorded disagreement:** DEWEY recommended a WALTER-run watch, not a desk. Will chose a desk (17:04 ET 10/22). R0 tests that choice on 2026-12-17.
 - **No scanning or probing of named institutions. No exposed-bank lists on the BOARD.**
 - **No book** (`TRADE.md`).
@@ -91,4 +93,4 @@ Verisk PCS: subscription (MIRROR-WALLED). NYDFS industry letters are **reachable
 
 ## BOTTOM LINE
 
-One wave is open (PHP2Shell plus October's supply-chain and certificate failures), and none of its nine escalation rows has fired as of the 2026-10-23 re-check. The composite is unchanged at 21/40 raw and 15/40 after counting the shared PHP2Shell root once, which fits a Log4Shell-shaped wave so far; three non-US bank-sector incidents (India, Korea, Latin America) were ledgered 10/23 but are not wave-rooted and move no US-keyed band. The most important unconfirmed lead is still the Dutch NCSC's "first signals of successful misuse": a named victim on or before 11/20 flips the wave toward the MOVEit shape. Next wakes are Chrome's eMudhra root removal on 10/27, DEWEY's rerun on 10/29 (the 7-day re-check deadline), Palo Alto's last PAN-OS hotfix ETA on 10/30 and the MOVEit-analogue victim check on 11/04.
+One wave is open (PHP2Shell plus October's supply-chain and certificate failures), and none of its nine escalation rows has fired as of the 2026-10-23 re-check. The composite is unchanged at 21/40 raw and 15/40 after counting the shared PHP2Shell root once, which fits a Log4Shell-shaped wave so far; three non-US bank-sector incidents (India, Korea, Latin America) were ledgered 10/23 but are not wave-rooted and move no US-keyed band. The most important unconfirmed lead is still the Dutch NCSC's "first signals of successful misuse": a named victim on or before 11/20 flips the wave toward the MOVEit shape. Next wakes are the ConnectWise restoration check on 10/26, Chrome's eMudhra root removal on 10/27, DEWEY's rerun on 10/29 (the 7-day re-check deadline), Palo Alto's last PAN-OS hotfix ETA on 10/30 and the MOVEit-analogue victim check on 11/04.
