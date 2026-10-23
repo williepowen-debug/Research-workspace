@@ -1,0 +1,25 @@
+COLDREADER · PROME/CLAUDE.md lines 45 + 53 only · (bytes n/a — two lines) · 14 claims
+SCORE: 9/14 ✅ · 5 ⚠️ · 0 ❌
+
+(No ❌ found. Every internal cross-reference and every tested pointer resolved.)
+
+⚠️ 3 "Eight kinds of step no longer stop for Will's word" (L53) — while L53 itself says C5 is "PAUSED" and L45 says "no sell-or-roll card is commissioned under it". A stranger must infer that seven are active and one dormant. (AUTONOMY.md l.110 says "eight kinds, seven active" — that is outside these lines.) Needed: "eight kinds, seven active, C5 paused."
+⚠️ 10 "NOT an unattended-run grant (WQ-388 is separate and unruled)" (L53) — no pointer; a stranger cannot find what WQ-388 is or confirm "unruled". grep found WQ-388 in DOCKET.tsv, AUTONOMY.md, CLAUDE.md but not WILL_QUEUE.md. Needed: path to WQ-388's row.
+⚠️ 13 "Nothing else moved — ask-first exactly as before: … a new-direction commission …" (L53) vs C8 "an ordinary-cap / Tier-2 exception" (L53) and "**Tier 2, PROPOSE:** a new-direction domain spawn" (L44). Not a contradiction: "Nothing else" follows C1–C8, and C8 limits itself to the owner's registered theater, so it is not a new direction. But a stranger sees C8 waive Tier 2 and the list keep "new-direction commission" ask-first, and has to work out that the two are different things. The ambiguity is the paragraph's, not an outside rule's.
+⚠️ 14 Can a stranger tell from L53 alone what C8 lets PROME do? Mostly, but several terms are undefined in the line: "dispatch class … IMMEDIATE" (grep of AUTONOMY.md finds IMMEDIATE only in the C8 row, so no definition is nearby), "ACTION owner", "dark", "registered theater". "ordinary-cap" does not say which cap (L49: four per boot, eight under C6), or whether a C8 session counts toward it. "ONE bounded session" does not say per event, per day or per boot. "the same one-undo-in-60-days guard" plus "returns the whole class to ask-first" does not say whether undoing a C8 act demotes only C8 or all eight kinds. What C8 does not allow (unattended runs, spend, trades) is clear.
+⚠️ 8 "Rulings: `PROME/proposals/2026-10-01_wq348-approval-inventory-RULED.md` and its WQ-361 repair." — resolves, but the repair is a section ("## WQ-361", l.124) inside the same file, not a separate file. A stranger may look for a second file. Also the WQ-508 ruling record that L53 says encoded C8 (`PROME/proposals/2026-10-23_wq508-prome-charter-encodes-RULED.md`) is not cited on L53 (only "encoded 2026-10-23 under WQ-508"), and per git status the file is untracked (git log shows 0 commits for it).
+
+✅ 1 L45: C5 "PAUSED by Will (2026-10-20)" — L53 agrees ("PAUSED by Will 2026-10-20 11:32 ET"); USER.md l.45 "No expiry nagging (2026-10-20 11:32 ET, verbatim)" carries the quote "I just dont need to be told multiples times a day that I have puts expiring today. Im thoroughly aware" word for word.
+✅ 2 L45: while paused, no card is commissioned; when lifted, one held-option card, "never executing its recommendation" — consistent with L53 ("commission covers preparing that card and nothing else … nothing is approved, ordered or filled by it").
+✅ 4 L53 enumerates C1…C8 in order, no gaps or duplicates (eight labels).
+✅ 5 "Guard, all eight" agrees with the eight kinds named.
+✅ 6 C8 terms vs AUTONOMY.md l.103 (2026-10-04 row): one bounded session · IMMEDIATE · ACTION owner dark · registered theater · ordinary-cap/Tier-2 exception · same-day report · one-undo-in-60d guard · NOT unattended-run (WQ-388 separate and unruled) — all eight present and agree. Quote "WQ-369 yes", ~20:00 ET 2026-10-04 and commit 8a2dbfa65 match too.
+✅ 7 Commit `8a2dbfa65` exists (`git cat-file -t` = commit; subject "WALTER -> PROME: relay Will's WQ-369 ruling (APPROVED…)").
+✅ 9 "First applications 2026-10-08 (AEOLUS · CORAL · BRENT; ORCH_LOG.tsv)" — ORCH_LOG rows 825 (aeolus-1008), 831 (coral-1008), 832 (aeolus-1008b), 837 (brent-1008pm) are tagged "WQ-369 narrow C8".
+✅ 11 `USER.md` § "No expiry nagging" exists. Also resolve: AUTONOMY.md (l.103, l.110 "2026-10-23 C8 ENCODED"), WQ-348 RULED file, `PROME/state/ORCH_LOG.tsv`, `inbox/processed/2026-10-05_from-WALTER_WQ-369-RULED-…md` (the AUTONOMY row's source).
+✅ 12 "AUTONOMY change log 2026-10-04 row" and "logged in PROME/AUTONOMY.md as a demotion" — the log exists; the 10/4 row exists.
+
+Claim 5 from the spawner (the "Nothing else moved" sentence vs C8): consistent — the list begins "Nothing else" after C1–C8 and does not name C8's content; only the Tier-2 wording noted at ⚠️ 13.
+
+POINTERS: 11/12 tested resolve (WQ-348 RULED, ORCH_LOG, AUTONOMY.md, USER.md §, commit 8a2dbfa65, 10/4 AUTONOMY row, WQ-361 section, processed WALTER packet, WQ-508 RULED file on disk, C8 first-apps rows, WQ-369 DOCKET L644). Not locatable: WQ-388 row (⚠️ 10). Dead: none. Out-of-scope pointers (line 47/49/51) not tested.
+ONE-LINE VERDICT: Yes for the stated facts (C5 paused, eight classes, C8 matches its source row, nothing dead); a cold reader would act correctly on the pause and the eight-class count, but would have to guess what "dispatch class IMMEDIATE", "ordinary-cap", "dark", the C8 undo's reach, and the WQ-388 pointer mean before invoking C8 without asking.
