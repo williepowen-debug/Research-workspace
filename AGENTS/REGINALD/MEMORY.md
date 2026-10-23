@@ -22,33 +22,27 @@
 
 Original contiguous blocks B01–B08 → `archive/2026-10-20_organisation-cleanup_MEMORY.md`; exact source-line/section map and verified CRCs → `reports/2026-10-20_organisation-cleanup/RECEIPT.md`. Re-check size at any append or on 2026-11-20, whichever first.
 
-⚠️ **Open question at close:** when EGBN's and the cohort's 4Q26 maturities hit appraisal refreshes, do banks take write-downs (REG-29 says ≥4 of 6 NCO rises, 45%), or extend at old marks (REG-28, 65%)? DEWEY's base rate says falling coverage alone is no near-term predictor (2/10 within 4Q); the problem-loan rise is the leg with history.
+⚠️ **Open question at close:** if HY closes the bond window (REG-T-04), does it show up at my banks as drawn NDFI/fund-finance balances first (CUBI +$456M already), and does a falling 10-year keep lifting KRE regardless of credit?
 
-### LAST SESSION — 2026-10-22 11:02 → 15:15 ET, Will-directed (catch-up, research, fleet fixes), closed at Will's request
-- **Q3 catch-up at primary:** SSB / BKU / EGBN / VLY / HBAN / ZION + OCC GENIUS rule → `reports/2026-10-22_catchup/REPORT.md`. Will's HY question answered BANK-ABSENT ~0.6. REG-27 0.57% (not met, OPEN). FL frame SSB HOLDS provisional, BKU HOLDS-PENDING-P. VLY flag strengthens. EGBN Prince George's → nonaccrual, no cash.
-- **Research:**
-  - EGBN Q4 wall → `reports/2026-10-22_EGBN_Q4_maturity_wall.md`
-  - appraisal-discount cohort test → `reports/2026-10-22_appraisal-discount_cohort_test.md` (12/14 publish no discount; realized haircuts 13–22%)
-  - AI-agent doc analysis + DEWEY addendum → `reports/2026-10-22_AI-agent-banking-doc_analysis.md`
-  - EGBN folder brought current → `research/EGBN/` (verify PASS, 193 files)
-- **Predictions:** REG-28 / 29 / 30 registered on Will's word 13:36 ET (65 / 45 / 60%); resolve-by sidecar `registry/PREDICTION_RESOLVE_BY.tsv` (IMMOVABLE/CHOSEN anchors).
-- **Fleet fixes (Will-approved):**
-  - DAEDALUS D:L793 8/8: exit rail re-derived, TRADE/POSITIONS reconciled, boot.py checks + `--check-only`, WQ-484 ACK duty in charter
-  - STATUS trimmed; clutter retired (`archive/RETIREMENT_2026-10-22.md`)
-  - FLG SR 07-1 basis note verified
-  - coverage leg re-weighted on DEWEY
-- **Not done:** EGBN/VLY calls unheard (no transcript; Quartr needs Pro). Charter at 76% (trim awaits Will's OK).
-- Prior handoff → `archive/MEMORY_session-handoff_2026-10-22.md` BLOCK M12, crc32 `36ef7c41`.
+### LAST SESSION — 2026-10-23 15:18 → 15:32+ ET, Will-launched boot + "catch up with live data/news"
+- **Boot:** boot.py rc1 (8-K, FLG ladder, correction, inbox). Fresh FRED needed `FORGE_CACHE_DIR` override: the shared cache served 10/21 values at 15:2x ET.
+- **Prints graded** → `reports/2026-10-23_boot/REPORT.md`: FLG (0 of 4 readable weakens-if lines met, 2 at 10-Q) · AMTB FL **HOLDS final** · CUBI WQ-318 **INCONCLUSIVE** · cohort problem loans up 7/10, coverage down 6/8.
+- **PROME asks (1)–(2) answered** (packet `012e5c08c` + SendMessage): REG-T-04 broad-vs-AI reading; 10-year (not HY) moves KRE on a 57-day fit (R² 0.13); falsifier added to `TRADE.md` §4.
+- **Filed:** 15 WALTER signals + 15 packets (`8d0d008f5`); COR-20261022-48 NO-OP. DAEDALUS applied WQ-508 lines to my charter (`d3488e641`), not contested.
+- **Slip caught before commit:** I first wrote "12 settled closes below RED" for FLG; the 10/22 close $11.44 is above $11.39, count stays 11.
+- **Second slip:** the PROME packet says 'written 15:4x ET'; `date` read 15:31. Typed from narrative, not the clock (fleet finding on narrative stamps). PROME filed it at `c3600e8ed` before I could fix it; the true time is here.
+- Prior handoff (10/22) → git history of this file.
 
 ### CHANGES SINCE LAST SESSION
 
 ### NEXT SESSION
-1. **Boot with `boot.py`** (normal run, not `--check-only`), then process what it lists. FLG prints Fri 10/23 ~06:00 ET: grade the CRE top-3 'weakens if' lines (MF special mention ≤$2,757M; mods <$556M). AMTB (10/22 after close) FL cells + CUBI WQ-318 row. SBCF Tue 10/27.
-2. **Funding:** H.4.1 primary credit (10/22 release) vs the descriptive lines >12.9B / >15.7B (catchup §1e); H.8 Fri 10/23. Descriptive only, not registered.
-3. **REG-28 first checkpoint Tue 10/27:** EGBN DC apartments $42.7M + Montgomery mixed-use $27.7M mature. Outcome visible at the Q4 release unless disclosed earlier.
-4. **DOCKET L801 ~10/30 (Q3 call reports):** re-read the Q3 cohort pattern against DEWEY's rerun. Check REG-29's 45% (any re-mark goes in the ledger field with its date).
-5. **Pending Will:** charter trim (move the HIDDEN CRE METHODOLOGY section to a reference file with a pointer; charter 24,887 B = 76%). JWT renewal at the ~11/1 credential sitting (WQ-31) before the 11/05 expiry and the 11/07 run.
-6. **Carried:** Nano P&A / DEWEY 10/27 · REG-T-06 leg 3 grades 11/13 from the CFR · CCB/CASH/GDOT Q3 dates unchecked · 10-Q cells (VLY mods ~11/10, SSB classified share, BKU CRE 30-89) · glued-word re-spacing on next touch · 13 outbox packets retire as they pass 60 days.
+1. **HY / REG-T-04:** grade 10/23, 10/26, 10/27 closes from FRED (fresh cache). A fire → same-session bank cross-check + H.8 C&I/NDFI draw lines; packet LIQUID + Will chain. DOCKET L818 consumes 10/28.
+2. **DEWEY REQ-003** (CCC + under-80 loan composition) due Mon 10/26 → ACTION to me; it decides WQ-509's instrument (TERRY's broad-credit card).
+3. **H.8 Fri 10/23** (released after this session's write-back unless noted in STATUS): small-bank borrowings, C&I and NDFI loan lines (draw check).
+4. **SBCF Tue 10/27** after close: last FL frame name (aggregate goes final on ≥3 HOLDS). **REG-28 checkpoint 10/27:** EGBN $42.7M + $27.7M maturities. Nano P&A / DEWEY records route 10/27.
+5. **DOCKET L801 ~10/30:** Q3 cohort re-read vs DEWEY base rate (now 7/10 and 6/8). REG-T-06 Q3 OF Highlights 10/30; grades 11/13 from the CFR.
+6. **Pending Will:** charter trim; JWT renewal before 11/05 (11/07 run).
+7. **Carried:** 10-Q cells (FLG MF special mention + mods, VLY mods ~11/10, SSB classified share, BKU CRE 30-89) · CCB/CASH/GDOT Q3 dates unchecked · CUBI N at 11/07.
 
 **CARRIED LESSONS — behaviour, not record.** *Newest first. Aging rule (9/02): full entry → one-line rule AND the full text goes to `archive/` verbatim + crc in the same pass. ⛔ Never age a lesson by deletion (the 12-21 compressions archived nothing; git history only). Preamble → BLOCK M7, crc32 `8028ecb4`.*
 48. **[10/22] I committed 32 `git mv` renames with a pathspec built from `git diff --cached --name-only`, which lists only the NEW name of each rename. The commit added the archive copies and left the old-path deletions staged, so both copies sat on origin for about a minute (f984ce53c, fixed dbfbfc2bd).**

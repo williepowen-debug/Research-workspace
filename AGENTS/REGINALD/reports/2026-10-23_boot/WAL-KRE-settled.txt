@@ -1,0 +1,5 @@
+WAL/KRE settled closes (yfinance daily, today 10/23 excluded) vs Nasdaq historical, retrieved 2026-10-23T15:24:43-04:00
+  WAL 2026-10-22  76.67  nasdaq 76.67  agree
+  KRE 2026-10-22  72.41  nasdaq 72.41  agree
+  KRE 2026-10-21  70.62  nasdaq 70.62  agree (10/20 also 70.62 at both vendors)
+  2026-10-23 NOT GRADED - today's bar not settled

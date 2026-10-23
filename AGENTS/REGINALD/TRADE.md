@@ -40,22 +40,25 @@ At each print-cluster grade, this desk sends TERRY any candidate expression as a
 | Date | Idea | State | Disposition |
 |---|---|---|---|
 | 2026-10-22 | EGBN (Eagle) Q4 maturity wall | **No candidate.** Put side: options untradeable (put OI ~2 contracts) and realistic loss only ~$0.3–0.6/share. Long side: plausible but not this desk's edge | `reports/2026-10-22_appraisal-discount_cohort_test.md` §5. A long would be a TERRY card if Will asks |
+| 2026-10-23 | FLG / AMTB / CUBI Q3 print cluster | **No candidate.** FLG: none of the desk's CRE 'weakens if' lines met, but the move (−9% intraday 10/23) is post-print and FLG is not on this book; AMTB and CUBI printed cleaner | `reports/2026-10-23_boot/REPORT.md` §2, §6 |
 
 ## 3. Triggers this desk grades (levels live in `STATUS.md` §THRESHOLD STATUS — never here)
 
 | Trigger | Letter | State (vintage in each cell; live levels → `STATUS.md` §THRESHOLD STATUS) | Consequence |
 |---|---|---|---|
-| `REG-T-01` | KRE < $60 | UN-FIRED, 15.0% away (KRE $70.62 [10/21 settled]) | 🔴 to ALL; the KRE puts' thesis level |
-| `REG-T-02` | WAL < $78 | **FIRED since 9/1 (cycle 2)**; exit ≥ $81.90 ×3, run 0-of-3 (36 rows through 10/21, $75.55) | Guards ROLL70; 2-of-3 → packet TERRY |
-| `REG-T-03` / `-04` | HY OAS > 320 ×3 / > 350 | **REG-T-03 CREDIT-CANARY-FIRED (10/16 close)**; 6 consecutive >320 through 327 [10/21]; cross-check BANK-ABSENT ~0.6 (catchup §1); REG-T-04 23bp away | Credit transmission — **run the bank-credit cross-check first** (`reports/2026-07-30_bank-side-HY-attribution.md`) |
-| `VX-REG-18.04` / `18.05` | CCC/HY > 3.6× ×3 · B-tier > 300 / 330 / 380 | HARD-FIRE continues (4.00× [10/21]; CCC 1,307; no new CCC-led re-cross) · B 332 [10/21] = ORANGE (>330) | Escalation SENT 9/26; watch, not re-escalate (Will 9/26) |
-| `VX-REG-6.03` | FLG ladder −10 / −15 / −20% vs $14.24 | **🔴 RED since the 10/7 close $11.30**; 11 settled closes below, latest $11.07 [10/21] | Packets PROME + FLG sent 10/7 (`018af9846`); no band beyond RED |
+| `REG-T-01` | KRE < $60 | UN-FIRED, 17.1% away (KRE $72.41 [10/22 settled]) | 🔴 to ALL; the KRE puts' thesis level |
+| `REG-T-02` | WAL < $78 | **FIRED since 9/1 (cycle 2)**; exit ≥ $81.90 ×3, run 0-of-3 (37 rows through 10/22, $76.67) | Guards ROLL70; 2-of-3 → packet TERRY |
+| `REG-T-03` / `-04` | HY OAS > 320 ×3 / > 350 | **REG-T-03 CREDIT-CANARY-FIRED (10/16 close)**; 7 consecutive >320 through 340 [10/22]; cross-check BANK-ABSENT ~0.7 (`reports/2026-10-23_boot/REPORT.md` §4); **REG-T-04 10bp away, run 0 of 3** | Credit transmission — **run the bank-credit cross-check first** (`reports/2026-07-30_bank-side-HY-attribution.md`) |
+| `VX-REG-18.04` / `18.05` | CCC/HY > 3.6× ×3 · B-tier > 300 / 330 / 380 | HARD-FIRE continues (3.94× [10/22]; CCC 1,340; no new CCC-led re-cross) · B 346 [10/22] = ORANGE (>330) | Escalation SENT 9/26; watch, not re-escalate (Will 9/26) |
+| `VX-REG-6.03` | FLG ladder −10 / −15 / −20% vs $14.24 | **🔴 RED since the 10/7 close $11.30**; 11 settled closes below RED (10/7–10/21); 10/22 settled $11.44 sat just above $11.39 (state stays RED, state machine); $10.38 intraday 10/23 after the Q3 miss (not settled) | Packets PROME + FLG sent 10/7 (`018af9846`); no band beyond RED |
 | `REG-T-06` | OF system advances >$700B ×3 official qtrs; exit <=$650B ×2 | Official run 2 of 3 through Q2; dated nowcast excluded, level/evidence → STATUS / FHLB hub | **REVIEW (WQ-414, Will 10/11).** Before escalation: top-four growth contribution + qualified SEC-filer borrower median. Missing/incomparable breadth explicit; nonpositive growth share NOT-APPLICABLE. No breadth cutoff, automatic crisis, trade or capital action; procedure `registry/NOTES.md` §REG-T-06 |
 | Claims (LABOR) | > 300K | → `STATUS.md` (LABOR owns) | all ORANGE banks → RED |
 
 **Exit rules:** re-derived 2026-10-22 → `STATUS.md` §EXIT RULES (kill rail stamp there; CRE anchor re-keyed off REG-24/25). Pointer only; the rail lives in STATUS.
 
 ## 4. Refuters for any bank put on this desk (write them on the card)
+
+**Rate falsifier, 2026-10-23 (PROME ask):** over 57 trading days (8/4 → 10/22) KRE moved about **−0.72% per +10bp on the 10-year** and **+0.02% per +10bp of HY spread** (correlations −0.36 and +0.07; R² 0.13, weak). **A falling 10-year is the falsifier to write on a regional-bank put card; a wide HY print alone is not confirmation.** Receipt → `reports/2026-10-23_boot/kre_vs_hy_vs_10y.txt`.
 
 **OZK existing-position evidence,10/12 consumption:** executed RaDD extension/fresh capital materially weaken near-term maturity failure. Real Alewife funding and Boston lease progress are contrary evidence; Boston closing/payoff, project runway and retained workout exposure remain unknown. Bank cash, recognized losses and retained/new loans/OREO are separate. Existing Q3 card reads Boston → RaDD → cash/retained exposure → earnings/capital; no new card, order or loss forecast. Limits/receipt → `reports/2026-10-12_OZK_durability-consumption.md`.
 
