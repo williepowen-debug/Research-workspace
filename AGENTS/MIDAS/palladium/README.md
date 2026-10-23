@@ -12,6 +12,8 @@ This folder is the topic entry point. [STATUS](../STATUS.md) owns current state;
 
 Existing focused evidence is part of the shared studies below. Add new single-metal reports under `research/` in this folder.
 
+- [Nornickel 9M 2026 production — read set up before the 10/26 release](research/2026-10-23_nornickel-9M-read-setup.md)
+
 ## Data and sources
 
 Existing observations are held in the shared source bundles below.

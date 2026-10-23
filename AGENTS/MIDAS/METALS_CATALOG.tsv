@@ -91,3 +91,6 @@ operations		code	refresh_metal_kbs.py	Refresh/check focused metal KB views	Deriv
 operations		code	test_metal_kbs.py	KB filtering and boot freshness verification	Derived-view maintenance; workbook/KB.tsv remains authoritative.
 shared	gold,silver,platinum,palladium,copper	research	shared/research/2026-10-23_catch-up.md	MIDAS catch-up October 23 2026: liquidation day, band reds, LME build	Dated material; inspect its source dates and approval status.
 shared	gold,silver,platinum,palladium,copper	sources	shared/sources/2026-10-23_catch-up/	October 23 2026 catch-up captures (Treasury curves, GLD issuer archive, Yahoo bars, band legs)	Dated material; inspect its source dates and approval status.
+gold	gold	research	gold/research/2026-10-23_WQ451-decomposition-letter.md	WQ-451 gold decomposition letter: haven vs de-dollarisation vs liquidation	Dated letter; tests graded 11/05 onward.
+gold	gold	sources	gold/sources/2026-10-23_wq451/	WQ-451 instrument code, panel and outputs (frozen 2026-10-23)	Frozen before forward grades.
+palladium	palladium,platinum	research	palladium/research/2026-10-23_nornickel-9M-read-setup.md	Nornickel 9M 2026 read setup (pre-registered before 10/26)	Grade Monday 2026-10-26 on issuer release.

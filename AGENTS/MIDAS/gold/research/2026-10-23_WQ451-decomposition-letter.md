@@ -77,3 +77,4 @@ If any 3-month line is crossed, MIDAS withdraws the positive lean to neutral and
 - **No score change:** M1 stays 4 pending the $4,050 flip settle, which is UNRESOLVED (see `shared/research/2026-10-23_catch-up.md`). **No position change. No new threshold enters the composite.**
 - **For TERRY (if Will asks):** the hedge question has a measured answer: GLD has not offset equity-stress days in 2026. Any card that counts GLD as protection for the QQQ/KRE put book should not count it.
 - ZHAO and SAM receive a packet (de-dollarisation leg, TIC sign). BOND owns the DFII10 level.
+- Prior desk work on the same question: `analysis/2026-09-11_VECTOR-3-gld-under-an-oil-shock-real-yield-regime.md` (DOCKET L327, Vector 3). This letter adds the liquidation class and the stress-day count; it does not re-grade Vector 3's historical falsifier.

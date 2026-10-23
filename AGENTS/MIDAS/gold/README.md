@@ -20,6 +20,7 @@ This folder is the topic entry point. [STATUS](../STATUS.md) owns current state;
 - [MIDAS — expanded M1 conditional reference](../analysis/2026-10-12_M1-expanded-reference.md)
 - [M1 successor — preferred prospective DRAFT](../analysis/2026-10-12_M1-successor-DRAFT.md)
 - [GLD outlook after the rate and bullion flow review](../analysis/2026-10-20_GLD-OUTLOOK.md)
+- [WQ-451 — gold decomposition letter: haven vs de-dollarisation vs liquidation (2026-10-23)](research/2026-10-23_WQ451-decomposition-letter.md) — instrument in `sources/2026-10-23_wq451/`.
 - [MIDAS — THE 8/19 GOLD SESSION: RATES ATTRIBUTION WRITE-UP](../reports/2026-08-23_gld-rates-attribution.md)
 
 ## Data and sources

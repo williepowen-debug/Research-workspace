@@ -1,6 +1,6 @@
 """Exercise input failures and actual watch output; do not mirror band formulas."""
 from contextlib import redirect_stdout, redirect_stderr
-from datetime import date, datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 import io
 import unittest
 from unittest.mock import patch
@@ -143,8 +143,9 @@ class InputTests(unittest.TestCase):
         self.assertIn("expected metal", primary["GC=F"]["error"])
 
     def test_weekly_map_review_is_visible(self):
-        self.assertEqual(watch.contract_map_review(date(2026, 10, 12)), [])
-        self.assertTrue(watch.contract_map_review(date(2026, 10, 19)))
+        due = date.fromisoformat(watch.FRONT_MONTHS_REVIEW_ON)
+        self.assertEqual(watch.contract_map_review(due - timedelta(days=1)), [])
+        self.assertTrue(watch.contract_map_review(due))
 
     def test_inventory_crossing_does_not_invent_a_price_leg(self):
         _, out, _ = self.run_watch(inventory=420000)

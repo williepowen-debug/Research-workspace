@@ -106,9 +106,13 @@ ETF_PROXIES = {"GLD": "Gold ETF", "SLV": "Silver ETF", "CPER": "Copper ETF",
 #      ROLL LOG: PL PLV26 -> PLF27 on 2026-10-01 (volume crossed 9/25: PLF27 20,612 vs
 #      PLV26 16,740; by 9/29 PLV26 1,005 vs PLF27 21,847, and PL=F had followed PLV26,
 #      so the stale map graded a DYING contract "OK" at 100% share — the failure above).
+#      REVIEW 2026-10-23 (prior row 10/22, mapped vs next month volume): GCZ26 149,523 vs
+#      GCG27 9,773 · SIZ26 33,192 vs SIH27 3,108 · HGZ26 37,443 vs HGH27 8,700 · PLF27
+#      17,237 vs PLJ27 1,283 · PAZ26 6,880 vs PAH27 377 -> map unchanged. Dec contracts
+#      roll before late-November first notice; watch HG (lead only 4.3x).
 FRONT_MONTHS = {"GC=F": "GCZ26.CMX", "SI=F": "SIZ26.CMX", "HG=F": "HGZ26.CMX",
                 "PL=F": "PLF27.NYM", "PA=F": "PAZ26.NYM"}
-FRONT_MONTHS_REVIEW_ON = "2026-10-19"  # chosen weekly maintenance date, not an expiry
+FRONT_MONTHS_REVIEW_ON = "2026-10-30"  # chosen weekly maintenance date, not an expiry
 MAX_PRIOR_BAR_AGE_DAYS = 7  # source freshness bound, not a market alarm level
 # A pointer carrying under this share of the explicit month's volume is DYING.
 DYING_VOL_SHARE = 0.05
