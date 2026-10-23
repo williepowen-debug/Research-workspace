@@ -1,0 +1,8 @@
+⚠️  uncommitted files outside AGENTS/WALTER/:
+     [not yours]    AGENTS/TERRY/research/2026-10-23_KRE-QQQ-report/map_update/watch_refs.csv
+     [not yours]    AGENTS/TERRY/research/2026-10-23_KRE-QQQ-report/page/map_index.html
+     [not yours]    AGENTS/TERRY/research/2026-10-23_WQ509-WQ499-cards/
+     [not yours]    AGENTS/TERRY/setups/CREDIT_hyg-jan15-77-74P_or_htgc-16P_REG-T-04_2026-10-23.md
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.

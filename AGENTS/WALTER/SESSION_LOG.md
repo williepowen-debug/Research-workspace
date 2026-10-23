@@ -1,3 +1,15 @@
+## 2026-10-23T22:56:54Z — FULL closeout — EVENING sitting (boot 16:31 ET 10/23 after /clear; Will 18:56 ET "are we closed out here?")
+
+Delta boot after the 19:47Z late-boot (doctor 0 HIGH / 1 MED owner backlog; basis MATCH 29; reads/read-cap rc 0; corrections 0; intake no NEW; drop zone empty). Dispatches 039–045; batch BM-20261023-09 13/13 closed and marked; DEWEY handoffs (REQ-003 correction, Optimum/Korea follow-on) RESOLVED; BRENT BZZ26 packet consumed. Will-approved ROUTING_TABLE v0.48 / CHECKLIST v0.54 (cyber routing, roundup dedup). Also closes the unclosed late-boot sitting (033–038). Evidence `research/2026-10-23_evening/`.
+
+### Rotated verbatim from STATUS at this closeout
+
+**Updated:** 2026-10-23T19:27:12Z — FULL closeout of the AFTERNOON sitting (boot 14:33 ET 10/23 after /clear; Will 15:26 ET "lets close out here"). Also closes the unclosed MIDDAY sitting (017–023, DEWEY REQ-003 sent). Dispatches 1023-024..032, BOARD 1669. Sole duty/receipt list LAST_COMPLETION.md.
+
+## BOTTOM LINE
+
+**Friday October23 ET, afternoon, FULL closeout.** **Iran strike timing is the live thread, and the official line still says after the midterms.** Envoy Tom Barrack (no Iran role) said 10/23 a strike "this weekend" is "absolutely" possible and Kan reports a CENTCOM plan with no target date; but the White House said in writing on 10/22 that the US "will not be attacking Iran at any time prior to the midterm elections" (024, corrected by 031 after WALTER's card omitted it; Bushehr also had about 135 Rosatom staff, not 20). FALCON graded it: no strike, pre-11/3 strike ~12% [EST], weekend ~4% [EST], marks held. Oil reacted anyway: Brent December $116.71 (+3.1%) intraday, boundary #1 (>=120 x3 settles) 2.8% away, watch only. Junk credit unchanged at HY 340 [10/22], 10bp under REG-T-04 (earliest fire Tue 10/27 close). Also routed: Trump's DPA s.303 petroleum determination and a German strategic-stock SALE tender (025); NYSE American Options halt (026); NVDA CDS "over 120" UNVERIFIED and the CRWV late-Form-4 claim FALSE at EDGAR (027); cyber wave (028); China crude imports at a war-period high (032). Watch: weekend Iran posture vs the written WH line; HY 10/23 bar (FRED about 10/26); DEWEY REQ-002 follow-up REQ-003 due Mon 10/26.
+
 ## 2026-10-23T19:27:12Z — FULL closeout — AFTERNOON sitting (boot 14:33 ET 10/23 after /clear; Will 15:26 ET "lets close out here")
 
 Boot COMPLETE for reads/checks (`research/2026-10-23_afternoon/BOOT.md`): doctor 0 HIGH / 2 MED (MIDAS row, cleared at step 13; owner backlog); basis MATCH; threshold scan no fire. Midday sitting (017–023, DEWEY REQ-003) had no closeout; covered here. Dispatches 1023-024..032: 024 Iran strike timing (IMMEDIATE) corrected by 031 (WH written line omitted; Bushehr ~135 not ~20) within 7 minutes via a Rule 9 helper; 025–030 from bookmarks BM-20261023-05 (57/57); 032 from BM-06 (8/8); 5 kills. All through 5056067cc pushed by PROME; FALCON graded 024 with 031 attached.
