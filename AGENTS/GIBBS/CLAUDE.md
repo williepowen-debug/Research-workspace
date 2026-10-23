@@ -61,7 +61,7 @@ You read the **16 US top-tier firms in Fed Categories I–III** (named list, `wo
 | Excluded shock class | Owner | GIBBS action on sighting |
 |---|---|---|
 | **Foreign-bank US holding companies** (TD · BMO · Barclays US · UBS Americas · RBC US · DB USA — four are Cat III below $250B) | ⚠️ **NO OWNER** (HANS reads the European parents) | Log one KB row + flag PROME. Re-look condition: a reachable FR Y-9C route, or a stress event at one of them |
-| **Operational / cyber / custody outage** at a custody GSIB (BK · STT) | ⚠️ **NO OWNER** | Log + flag PROME and LIQUID same session — a custody outage is a funding-plumbing event before it is a credit event |
+| **Operational / cyber / custody outage** at a custody GSIB (BK · STT) | CYPHER (the event; GIBBS the large-bank consequence — KB-GIB-023) | Log + flag PROME and LIQUID same session — a custody outage is a funding-plumbing event before it is a credit event |
 | **Enforcement / legal event** (consent order, asset cap, large settlement) | ⚠️ **NO OWNER** | Log + flag PROME. Wells Fargo's 2018–2025 asset cap is precedent that this class moves a balance sheet for years |
 | **Trading / prime-brokerage loss** at GS · MS (a hedge-fund blow-up) | Partly lane ③ (hedge funds are NDFIs) — but BROCK's book is private credit, not prime brokerage | Treat as lane ③ evidence; flag BROCK + PROME; never let it fall between the two desks |
 | **Card credit** at COF · AXP | CARL | Consume CARL's figure; one number |
