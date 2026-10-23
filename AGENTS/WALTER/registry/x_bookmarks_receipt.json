@@ -1,30 +1,61 @@
 {
   "kind": "marked",
-  "checked_at": "2026-10-23T13:11:15Z",
-  "items": 2,
+  "checked_at": "2026-10-23T17:42:44Z",
+  "items": 13,
   "scan": {
-    "checked_at": "2026-10-23T13:06:38Z",
-    "head_checked_at": "2026-10-23T13:06:38Z",
+    "checked_at": "2026-10-23T15:40:39Z",
+    "head_checked_at": "2026-10-23T15:40:38Z",
     "head_checked_this_run": true,
     "incomplete": false,
     "attempts": 2
   },
   "review_recorded": true,
   "read_counts": {
-    "partly_read": 1,
-    "fully_read": 1
+    "fully_read": 9,
+    "partly_read": 4
   },
   "dispositions": {
-    "DISPATCH": 2
+    "FOLD": 3,
+    "DISPATCH": 5,
+    "NO-ACTION": 4,
+    "KILL": 1
   },
   "follow_ups": [
     {
-      "id": "2113564807244792185",
-      "ref": "BOARD/SIG-W-20261023-007-hurricane-vance-cat1-85mph-440mi-ssw-of-acapulco-major-by-tonight-peak-115mph-cat3-not-cat4-forecast-offshore-through-oct28-no-us-gulf-channel-AEOLUS.md"
+      "id": "2111509481024786778",
+      "ref": "BOARD/SIG-W-20261023-020-white-collar-layoffs-in-record-quarters-amex-336m-restructuring-charge-confirmed-at-8k-3500-jobs-secondary-visa-2600-barclays-5000-unverified-2023-date-trap-LABOR.md"
     },
     {
-      "id": "2113265593092628551",
-      "ref": "BOARD/SIG-W-20261023-008-apollo-slok-ramp-ai-index-80point4pct-of-top-1pct-ai-spenders-are-vc-backed-vs-13point1pct-of-median-demand-concentration-depends-on-vc-funding-VULCAN.md"
+      "id": "2113644017141645788",
+      "ref": "BOARD/SIG-W-20261023-020-white-collar-layoffs-in-record-quarters-amex-336m-restructuring-charge-confirmed-at-8k-3500-jobs-secondary-visa-2600-barclays-5000-unverified-2023-date-trap-LABOR.md"
+    },
+    {
+      "id": "2113635805994594364",
+      "ref": "BOARD/SIG-W-20261023-021-central-banks-buying-gold-about-4x-pre-2022-pace-79t-in-august-goldman-estimate-via-fortune-oct22-ny-fed-custody-minus-40t-boe-plus-46t-not-a-sell-signal-MIDAS.md"
+    },
+    {
+      "id": "2113648377846251642",
+      "ref": "BOARD/SIG-W-20261023-018-ukmto-time-late-report-tanker-struck-by-unknown-projectile-7nm-ne-of-limah-oman-oct22-1715z-outbound-continued-unnamed-not-a-sinking-not-the-irgc-mine-claim-FALCON.md"
+    },
+    {
+      "id": "2113649143986163934",
+      "ref": "BOARD/SIG-W-20261023-023-sp500-minus-1point21-but-equal-weight-rsp-plus-0point73-on-oct22-megacap-ai-selloff-not-broad-equity-selling-sentimentrader-3-of-601-days-since-2008-HENRY.md"
+    },
+    {
+      "id": "2113650541892952119",
+      "ref": "BOARD/SIG-W-20261023-022-doe-emergency-spr-exchange-up-to-400k-barrels-to-phillips-66-lake-charles-refinery-supply-disruption-a-refinery-loan-not-a-policy-release-BRENT.md"
+    },
+    {
+      "id": "2113651913350639989",
+      "ref": "BOARD/SIG-W-20261023-020-white-collar-layoffs-in-record-quarters-amex-336m-restructuring-charge-confirmed-at-8k-3500-jobs-secondary-visa-2600-barclays-5000-unverified-2023-date-trap-LABOR.md"
+    },
+    {
+      "id": "2113614555276251298",
+      "ref": "BOARD/SIG-W-20261023-020-white-collar-layoffs-in-record-quarters-amex-336m-restructuring-charge-confirmed-at-8k-3500-jobs-secondary-visa-2600-barclays-5000-unverified-2023-date-trap-LABOR.md"
+    },
+    {
+      "id": "2113604097127350654",
+      "ref": "AGENTS/WALTER/filtered/kill_log.tsv"
     }
   ],
   "requests": []

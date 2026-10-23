@@ -1,0 +1,98 @@
+{
+  "schema": 2,
+  "staged_at": 1792770039.2986422,
+  "items": [
+    {
+      "id": "2111509481024786778",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": "BOARD/SIG-W-20261023-020-white-collar-layoffs-in-record-quarters-amex-336m-restructuring-charge-confirmed-at-8k-3500-jobs-secondary-visa-2600-barclays-5000-unverified-2023-date-trap-LABOR.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113644017141645788",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": "BOARD/SIG-W-20261023-020-white-collar-layoffs-in-record-quarters-amex-336m-restructuring-charge-confirmed-at-8k-3500-jobs-secondary-visa-2600-barclays-5000-unverified-2023-date-trap-LABOR.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113635805994594364",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": "BOARD/SIG-W-20261023-021-central-banks-buying-gold-about-4x-pre-2022-pace-79t-in-august-goldman-estimate-via-fortune-oct22-ny-fed-custody-minus-40t-boe-plus-46t-not-a-sell-signal-MIDAS.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113646641135673829",
+      "disposition": "NO-ACTION",
+      "read_state": "partly_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2113647895484289042",
+      "disposition": "NO-ACTION",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2113648377846251642",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": "BOARD/SIG-W-20261023-018-ukmto-time-late-report-tanker-struck-by-unknown-projectile-7nm-ne-of-limah-oman-oct22-1715z-outbound-continued-unnamed-not-a-sinking-not-the-irgc-mine-claim-FALCON.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113648389103763514",
+      "disposition": "NO-ACTION",
+      "read_state": "partly_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2113649143986163934",
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "BOARD/SIG-W-20261023-023-sp500-minus-1point21-but-equal-weight-rsp-plus-0point73-on-oct22-megacap-ai-selloff-not-broad-equity-selling-sentimentrader-3-of-601-days-since-2008-HENRY.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113650541892952119",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": "BOARD/SIG-W-20261023-022-doe-emergency-spr-exchange-up-to-400k-barrels-to-phillips-66-lake-charles-refinery-supply-disruption-a-refinery-loan-not-a-policy-release-BRENT.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113651690591113334",
+      "disposition": "NO-ACTION",
+      "read_state": "partly_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2113651913350639989",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": "BOARD/SIG-W-20261023-020-white-collar-layoffs-in-record-quarters-amex-336m-restructuring-charge-confirmed-at-8k-3500-jobs-secondary-visa-2600-barclays-5000-unverified-2023-date-trap-LABOR.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113614555276251298",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": "BOARD/SIG-W-20261023-020-white-collar-layoffs-in-record-quarters-amex-336m-restructuring-charge-confirmed-at-8k-3500-jobs-secondary-visa-2600-barclays-5000-unverified-2023-date-trap-LABOR.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113604097127350654",
+      "disposition": "KILL",
+      "read_state": "fully_read",
+      "follow_up": "AGENTS/WALTER/filtered/kill_log.tsv",
+      "ask_user": null
+    }
+  ],
+  "stage_id": "0a2ff9f9b81043f590bfeda428997983"
+}
