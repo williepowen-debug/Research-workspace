@@ -54,6 +54,7 @@ WF source: `/home/willi/Research-Intake/scripts/newsweep_config.py` · SHA256 `4
 |---|---|---|---|---|---|---|---|
 | GIBBS | Market | L1 | M | 2026-10-21 | Large-bank desk — the 16 US firms in Fed Categories I–III (named list, re-cut quarterly): is regional-bank stress industry-wide, and is large-bank lending to non-bank finance transmitting it | L2 after tagged READS accrual across a second owner session under exist… | — |
 | CYPHER | Market | L2 | M | 2026-10-23 | Cyber → markets desk — tracks cyber events that can move money (bank/core-vendor incidents, exploited flaws in widely used products, supply-chain compromises, insurer aggregation, attacks on energy/shipping/grid, state-actor campaigns); owns the event (what happened, confirmed?, class, dates, escalation state); hands bank/insurance/energy consequences to existing owners (REGINALD/GIBBS, SHADE, BRENT/FALCON, WATT, HENRY/VULCAN) | L3 when a CYP prediction resolves on its letter and the R1 two-way flip… | — |
+| ISHM | Market | L0 | M | 2026-10-23 | US industrial / manufacturing-cycle desk — is the factory upturn real end-demand or borrowed (tariff front-running, AI/defence capex, inventory rebuild), and when does it roll over; surveys (ISM, S&P Global PMI, five regional Feds), hard data (IP/CU, durables and core capex, factory orders), freight volumes ex-tankers, eight frozen bellwethers (CAT · DE · HON · GE Aerospace · PH · MMM · EMR · UNP); standing jobs J1 core capex vs VULCAN, J2 freight vs LIQUID/RED | L1 at first owner session that states a current judgment from read prin… | — |
 | CREED | Market | L4 | H | 2026-10-21 | National CRE / CMBS | Preserve current-judgment/date consistency and full-manifest read-cap g… | 36 |
 | DEWEY | Utility | L4 | M | 2026-10-21 | Deep on-demand research | Conf-H requires a full reviewer read of substantive PRODUCES/CONSUMED B… | n/a |
 | HANS | Market | L5 | H | 2026-10-21 | Europe macro (PMI→ISM lead, ECB/Fed divergence, EU UST custody) — US-market lens | SUSTAIN L5 review at actual named Q3 event, requiring the ex-ante HNS-0… | 10 |
@@ -75,6 +76,6 @@ WF source: `/home/willi/Research-Intake/scripts/newsweep_config.py` · SHA256 `4
 | CATO | — | — | — | — | Will's manual Codex/Astra adviser + independent reviewer | UNGRADED BY RULING (WQ-255, 2026-09-26): manual-only — no launch, no routing, no ladder row | — |
 
 ---
-*34 active · 6 tier-2 · 2 dormant · 3 special. Dropped (retired): HERMES, YEYOU. Regenerated each Production Review — `sweeps/PRODUCTION_REVIEW.md`.*
+*34 active · 7 tier-2 · 2 dormant · 3 special. Dropped (retired): HERMES, YEYOU. Regenerated each Production Review — `sweeps/PRODUCTION_REVIEW.md`.*
 
 *⏸ **CLASSIFICATION PENDING (ROSTER, Will's hold):** entries under that heading are NOT graded and carry no FLEET_MAP row by ruling — read the section in `PROME/ROSTER.md` for the names and the restriction. Absence from the tables above is the hold, not an omission.*
