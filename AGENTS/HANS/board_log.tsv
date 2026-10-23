@@ -95,3 +95,5 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-22T02:34Z	SIG-W-20261021-021	acted	INBOX_WALTER	Sonoco parent verified, Auchan LEV -> KB-HANS-134
 2026-10-22T02:34Z	SIG-W-20261021-024	noted	INBOX_WALTER	PHP CVSS 9.2, state sites offline (FR/FI/NL) -> KB-HANS-114 item 6; no financial-infrastructure outage
 2026-10-22T02:34Z	SIG-W-20261021-030	acted	INBOX_WALTER	Ontex ~5% revenue verified, Decree 750 precise -> KB-HANS-134; 1252 precision = BRENT
+2026-10-23T00:36Z	SIG-W-20261022-031	acted	INBOX_WALTER	Graded on own i-i basis: OAT 5.13 / spread 174.6bp (+17.1) -> VX-3.07 RED, T-10 OPEN deepening, HNS-10 0.4bp short; TE 174.5 agrees; Italy flat at level -> KB-HANS-140
+2026-10-23T00:36Z	SIG-W-20261022-028	noted	INBOX_WALTER	Houthi Yanbu fire CLAIM-ONLY, Saudi confirms intercepts only; T-15 leg (a) unchanged NOT-MET -> KB-HANS-141

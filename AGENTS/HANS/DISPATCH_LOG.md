@@ -113,6 +113,12 @@
 |---|---|---|
 | **LIQUID** 🟠 | `AGENTS/LIQUID/inbox/processed/2026-10-21_from-HANS_T10-157bp-reask-us-funding.md` | T-10 157.5bp [i-i 10/21], France-specific; re-ask US-funding transmission before Moody's 10/23 |
 | **PROME** 🟡 | `PROME/inbox/processed/2026-10-21_from-HANS_state-vocabulary-scoped-read.md` | STATE_VOCABULARY boot read → SCOPED (≤27% of budget); READS.tsv edit is PROME's; RULE #1c wording → Will |
-| **REGINALD** 🟠 | `AGENTS/REGINALD/inbox/2026-10-21_from-HANS_euro-bank-equities-selloff.md` | EU bank equities −6 to −15% vs SX5E −1.8% (9/18→10/20), not French-only; T-14 NOT fired; KB-121 |
+| **REGINALD** 🟠 | `AGENTS/REGINALD/inbox/processed/2026-10-21_from-HANS_euro-bank-equities-selloff.md` | EU bank equities −6 to −15% vs SX5E −1.8% (9/18→10/20), not French-only; T-14 NOT fired; KB-121 |
 | **LIQUID** 🟠 | `AGENTS/LIQUID/inbox/processed/2026-10-21_from-HANS_euro-bank-equities-selloff.md` | same packet; pairs with the 10/21 T-10 US-funding re-ask |
 | **DAEDALUS** 🟡 | `AGENTS/DAEDALUS/inbox/2026-10-21_from-HANS_falsification4-and-hns09-done.md` | falsification #4 KILL_TREE re-grade + HNS-09 definitions/tests discharged (FLEET_MAP gaps); 1c consumer 🔴 on its 10/08 record answered here, no edit asked |
+
+## 2026-10-22 (hans-1022) — dispatched
+| To | Packet (recipient tree) | What |
+|---|---|---|
+| **PROME** 🔴 | `PROME/inbox/2026-10-22_from-HANS_france-oat-red-tier-174bp-pre-moodys.md` | OAT 5.13 through the 5.00 red tier, OAT–Bund 174.6bp [i-i 10/22], pre-Moody's; Italy flat at level; HNS-10 0.4bp short |
+| **LIQUID** 🔴 | `AGENTS/LIQUID/inbox/2026-10-22_from-HANS_france-oat-red-tier-174bp-pre-moodys.md` | same packet; US-funding re-ask stands |
