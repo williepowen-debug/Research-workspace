@@ -1,13 +1,13 @@
-# DAEDALUS continuation — October 23, 2026 (morning)
+# DAEDALUS continuation — October 23, 2026 (closed 11:3x ET)
 
 **STATUS.md is canonical; this page points.** The prior HANDOFF is preserved verbatim at `archive/HANDOFF_2026-10-23_before_sweep.md` (crc32 4275898673). Its own recovery pointers (10/21 core sync, 10/20 cleanup receipt) remain valid there.
 
 ## Start here
 
-1. **ISHM tail** (`builds/ISHM_BUILD_2026-10-23.md`):
+1. **ISHM tail** (`builds/ISHM_BUILD_2026-10-23.md`; architecture check done 10/23, HON = Honeywell Technologies since the 6/29 spin):
    - bellwether earnings and J1 rows are in (39 catalyst rows); the Deere date is still unannounced (11/12 check row);
    - read WATT's reply to the grid-equipment ASK;
-   - watch WQ-507 (Will) and WALTER's domain code / routing row.
+   - WQ-507 RULED and encoded; WALTER routing LIVE (v0.46/v0.47).
    ISHM's first session is PROME's to spawn.
 2. **Dated:** coordination scorecard (window closes 10/23); YUR-F01 grade 10/24 (PROME accepted the 1–2-call reading as the basis); backlog + 27 document-migration dispositions 10/25.
 3. **WQ-508 follow-through:** read each desk's report-back packet as it lands; do the counterexample read of PROME's A-B01 ruling record when PROME sends it; move the Harness clock only when the batch is applied.

@@ -80,30 +80,32 @@ October20 follow-through: scorecard/MARCO check complete; L736 writer repair rev
 
 ## BOTTOM LINE — 2026-10-23
 
-**WORK:** Done on Will's word in this terminal:
-- Industrials proposal reviewed with WALTER in one round, then cleared.
-- **ISHM desk built** (`080fbc7d6` + `b7ea7e120`) and registered in CYPHER order, with PROME and WALTER coordinated directly.
-- CYPHER registration closed (`57d0ffca1`).
-
-Own-file sweep: inbox emptied (13 filed), HANS row re-cut, L499 pointer + answers, PAT-189 logged, FLEET_MAP_HISTORY repaired (8 tab-split 8/28 rows rejoined, content kept). Session active.
+**WORK:** Done on Will's word in this terminal; session closing.
+- Industrials proposal reviewed in one round with WALTER.
+- **ISHM built, registered and architecture-checked** (`080fbc7d6` … ISHM check commit). WQ-506 and WQ-507 encoded. HON re-described after the 6/29 Honeywell Aerospace spin.
+- CYPHER registration closed.
+- **Harness Audit #3** (`cf0569f2a`) → **WQ-508 RULED** → applied directly at 35 idle desks (`f4149bf51` · `4da79f1ee` · `d3488e641`), packets marked APPLIED. WALTER applied its 5/5 (f2161b7dd).
+- falsification_scan now reads the `Kill rail re-derived:` stamp.
+- Own-file sweep done; inbox empty.
 
 **CHECKS:**
-- ISHM: 37/37 drills; 3/3 mutations caught; real boot rc 1, all true positives; read_cap rc 0 (charter 68% of budget); claim_check clean; corrections rc 0.
-- The scanner says "no conv-matrix" despite VX.tsv. That is a form limit, not a missing matrix.
-- **DUE and not run this session:** coordination scorecard (window closes today), Harness Audit (+18d), profile-refresh queue (+15d, RESOLVE_BY passed 10/15), surfaces-currency (+8d), shared-guard-standard (+4d), H2 as-made audit (RESOLVE_BY passed 10/21).
-- Closeout gate not yet run.
+- ISHM: 37/37 drills; 3/3 mutations caught; read_cap rc 0; corrections rc 0.
+- Editor drafts were reviewed line by line, and 2 weakenings were reverted before commit (WATT commit-before-filing; ZHAO charter cap + spawned commit).
+- **Scanner fix watched both ways:** FERT now honestly 65d with its own 11/15 re-derivation — next sweep, no packet.
+- **DUE and not run:** coordination scorecard (window closes today), profile-refresh queue, surfaces-currency, shared-guard-standard, H2 re-spec.
+- Harness clock stays July 7 until PROME's lines land.
+- Closeout gate result is in the closeout commit's receipt.
 
-**DELIVERY:** All commits local on master; **not pushed**. Push happens at closeout via safe-push. Consumption:
-- PROME consumed the ISHM registration (ROSTER `10d1de252`, SUMMONS, WQ-507 raised).
-- WALTER received both messages; its v2 shows the review applied.
-- WATT and CARL packets: delivered, not yet consumed.
+**DELIVERY:**
+- Commits pushed at this closeout via safe-push (receipt in the session record).
+- PROME consumed ISHM registration, WQ-507/508 and the READS ask (ISHM rows builder-declared).
+- WALTER consumed and applied its lines.
+- TERRY packet delivered, not yet applied.
 
 **OPEN:**
-- WATT ASK reply.
-- WQ-507 (Will).
-- WALTER routing row (Will's sign-off).
-- ISHM and CYPHER first-session follow-through.
-- Scorecard today; YUR-F01 10/24; backlog/retirement dispositions 10/25.
-- HOMER profile next.
-- `claim_check.py` unsupported-suffix false-clean.
-- Desk charter hot/cold splits (DOCKET L810).
+- TERRY's 9 lines.
+- PROME L817 on Sun 10/25: 23 lines + root R0 / A-B01 / A-B03 + CYPHER's `_SYNTHESIS_OPS` row; DAEDALUS counterexample read of the A-B01 record when sent.
+- WATT ASK reply (if declined, re-cut via PROME).
+- HENRY pointer edits.
+- ISHM first session (Will launches).
+- Scorecard tonight or tomorrow; YUR-F01 10/24; backlog/retirement 10/25; HOMER profile next.
