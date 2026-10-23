@@ -13,6 +13,7 @@ Canonical paths remain `AGENTS/<NAME>/`. This file is an index only.
 | ZHAO | [`ZHAO/`](./ZHAO/) | China, TIC, foreign UST demand, capital flows, HK peg. |
 | HANS | [`HANS/`](./HANS/) | Europe through US-risk lens: ECB, sovereign spreads, UST demand. |
 | VULCAN | [`VULCAN/`](./VULCAN/) | AI-capex / semis / memory / concentration risk — systemic market-structure surface (DAEDALUS-built 2026-07-10/11); feeds VIOLET (concentration), HENRY (capex/FCF), WATT (power demand); ZHAO (export controls) + HAWK (Taiwan chokepoint) feed in. |
+| ISHM | [`ISHM/`](./ISHM/) | US industrial cycle: ISM/PMI, regional Feds, IP, core capex, freight volumes, eight frozen bellwethers (DAEDALUS-built 2026-10-23, WQ-506); J1 core capex → VULCAN, J2 freight → LIQUID / RED. |
 
 ## Transmission map
 
@@ -21,6 +22,7 @@ SAM / ZHAO / HANS → LIQUID
 BOND ↔ LIQUID ↔ HENRY
 VULCAN → VIOLET / HENRY / WATT (AI-capex concentration)
 {BOND, ZHAO} ↔ MIDAS → LIQUID / HENRY (metals bridge: gold↔real-rates w/ BOND, copper↔China w/ ZHAO — MIDAS home page: _ENERGY.md)
+HANS → ISHM → {HENRY, CARL, LABOR, REGINALD/GIBBS, WATT}; ISHM J1 → VULCAN; ISHM J2 → LIQUID / RED (industrial cycle; WQ-507 A 2026-10-23)
 Credit / energy shocks become systemic when LIQUID confirms funding amplification.
 ```
 

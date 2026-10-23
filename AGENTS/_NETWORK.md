@@ -25,6 +25,7 @@ flowchart LR
         REGINALD[REGINALD<br/>Regional banks]
         FLG[FLG<br/>Flagstar single-name]
         GIBBS[GIBBS<br/>Large banks — Fed Cat I–III]
+        ISHM[ISHM<br/>US industrial / manufacturing cycle]
         OZK[OZK<br/>Bank OZK]
         WAL[WAL<br/>Western Alliance]
         CORAL[CORAL<br/>Florida convergence]
@@ -77,6 +78,16 @@ flowchart LR
     GIBBS -->|NDFI figure, one number| BROCK
     BROCK -->|BRK-31 figure JPM/WFC/C| GIBBS
     GIBBS -->|custody / brokerage deposit flows| LIQUID
+    HANS -->|European PMI lead| ISHM
+    ISHM -->|ISM / PMI read; ISM Mfg <47 trigger| HENRY
+    ISHM -->|consumer read of the same prints, one figure| CARL
+    ISHM -->|ISM employment sub-index| LABOR
+    ISHM -->|C&I channel| REGINALD
+    ISHM -->|C&I channel| GIBBS
+    WATT -->|grid-equipment demand figure, one number| ISHM
+    ISHM -->|J1 core capex orders vs AI-capex thesis| VULCAN
+    ISHM -->|J2 freight volumes vs credit bear| LIQUID
+    ISHM -->|J2 freight volumes vs credit bear| RED
     CARL -->|consumer/housing losses| REGINALD
     CORAL -->|FL bank/real estate convergence| REGINALD
     CREED -->|CRE / CMBS / public REIT tape bank bridge| REGINALD
@@ -208,6 +219,7 @@ flowchart LR
 | Climate → economy | AEOLUS → BRENT / CORAL / MARCO | Insurance losses, ag/food supply shifts, energy-demand swings on a weather/structural horizon |
 | Power | AEOLUS → WATT → HENRY / CARL; BRENT → WATT | Grid emergencies (PJM EEA), LMP spikes, capacity-auction clears at cap, data-center load |
 | AI-capex | VULCAN → VIOLET / HENRY / WATT; ZHAO / HAWK → VULCAN | Hyperscaler capex guides, Mag-7 concentration, memory cycle, export controls, Taiwan chokepoint |
+| Industrial cycle | HANS → ISHM → HENRY / CARL / LABOR / REGINALD-GIBBS / WATT; ISHM → VULCAN (J1), → LIQUID / RED (J2) — added 2026-10-23 (WQ-507 A; desk built under WQ-506) | ISM/PMI new orders vs inventories, core capex orders, IP/CU, freight volumes (Cass, rail carloads, Class 8), the eight bellwethers' guides; ISM Mfg <47 = the recession trigger (ISHM owns, HENRY informed) |
 | Metals | {BOND, ZHAO} ↔ MIDAS → LIQUID / HENRY; HAWK → MIDAS | Gold real-rate divergence (debasement), copper/China demand, GSR, PGM supply |
 | Energy → consumer discretionary | BRENT → CRUISE (CCL vehicle; event-driven, re-classed ACTIVE 2026-08-21) | Fuel-cost pass-through, pre-announce channels, Q3 print |
 | Japan/carry | SAM → LIQUID/HENRY | JGB/BOJ/carry unwind, USDJPY/FXY, global funding volatility |
