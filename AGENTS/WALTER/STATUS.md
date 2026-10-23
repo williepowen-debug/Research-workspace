@@ -32,6 +32,7 @@ Signal/news routing and receiving-layer readiness. Domain agents own evidence, g
 ## STATE POINTERS
 
 - Sole current obligation/approval/decision list and publication receipt: `LAST_COMPLETION.md`.
+- WQ-508 harness-audit lines applied 2026-10-23 (E04, U-W1, U-W2, U-W3, U-W5; Will confirmed in the WALTER terminal 10:5x ET); packet `inbox/2026-10-23_from-DAEDALUS_WQ508-harness-audit-lines.md`.
 - Current evidence: `research/2026-10-16_finish/`; prior partial boot preserved at `research/2026-10-16_codex-boot/BOOT-RECEIPT.md`.
 - Bookmark authentication/read/mark evidence: `bookmark-mark-receipt.json` and `bookmark-dispositions-final.md` in current evidence directory. Credentials remain ignored/machine-local.
 - VULCAN intake recommendation: `outbox/REQ-PROME-20261016-vulcan-intake-design.md`; no collector deployment inferred.

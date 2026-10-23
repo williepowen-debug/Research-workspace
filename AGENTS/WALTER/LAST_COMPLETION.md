@@ -42,6 +42,7 @@ Commits 2c978f325, 37613b255, 0b9a90bd5, b96491d14, 95cadc719 reached origin thr
 3. DEWEY queue: 003R (≥10/30, by 11/03), 005R (after 10/28–29, by 11/02), 008R (10/29), REQ-DEWEY-20261023-001.
 4. Iran anchor next full sweep ~10/29; MEMORY calendar check 10/29; staleness sweep due 10/24 (last 10/10).
 5. Prior carries retained verbatim in the prior copies.
+6. **WQ-508 U-W3 (moved here from CLAUDE.md step 7h, 2026-10-23 desktop sitting, verbatim):** "L3 success live; L3 failure one cause/one instance; N1/L4 untested live." and "L599 reviewOctober17." The October 17 review date has passed; whether that L599 review happened is UNKNOWN to this sitting (check `design/X_BOOKMARKS_ACCEPTANCE.md` §9/9a). Desktop re-authorization 10/23 09:06 ET succeeded and its first scan returned 2 bookmarks (L3-class success on this box). The authorization fence stays in CLAUDE.md.
 
 ## SOURCE-SEARCH DISPOSITION — approved by Will 2026-10-16
 
