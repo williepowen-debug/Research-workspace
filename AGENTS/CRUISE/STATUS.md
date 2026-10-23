@@ -1,6 +1,15 @@
 # CRUISE — STATUS
 
-*Last updated: **2026-10-19T22:54:12.204778+00:00** (tonight synthesis contribution and late LIQUID receipt). Market/fundamental source vintages remain as stated. `research/2026-10-19_cushion/TONIGHT_ASSESSMENT.md` separates findings, alternatives and gaps; broader desk freshness is not certified.*
+*Last updated: **2026-10-23 Fri ~01:1x ET** (PROME spawn prome-e7, DOCKET L732: charter re-scope finished, VX-CRU-01 re-based, RCL Q3 card, L0 drain). Other source vintages remain as stated; broader desk freshness is not certified.*
+
+## October 23 — DOCKET L732 done ($0, no trade, no Will-gated level moved)
+
+| Item | Done | Receipt |
+|---|---|---|
+| **Charter re-scope (WQ-435 D1)** | Mission text finished in `CLAUDE.md`: Domain line and Role line now name the three live jobs; the March "canaries for tourism stress" mission is gone; route sentences kept verbatim (not changed by the ruling). Working rule (b) marked applied. The 10/16 commit e58c18266 had already encoded § Live scope, the catalyst-wake row and the corrected demand line (firm on volume/spending, US ticket pricing slightly soft). | `CLAUDE.md` |
+| **VX-CRU-01 re-based to the raw $33.99 close** | Band % unchanged; lines YELLOW **$27.192**, RED **$22.0935**. 10/22 close **$27.08 = −20.33%** raw ⇒ **ORANGE(3) held**, $0.11 from the YELLOW line. ⚠️ On the interim adjusted basis the 10/20–10/22 closes read YELLOW; 10/21 ($27.30) read YELLOW on both bases. | `workbook/VX.tsv`; KB-CRU-175 |
+| **RCL Q3: Tue 10/27 10:00 ET confirmed at the issuer** (rclinvestor.com) | Frozen grading card written; it grades against RCL's own 7/28 guide only and adds no threshold. No SEC-filed guide update since 7/28. | `WATCHLIST_RCL_Q3.md`; KB-CRU-176/177 |
+| **Inbox drained** | SIG-W-20261019-019 acted · SIG-W-20261020-018 info-only · WAL 10/19 receipt noted; top level and WALTER lane empty except standing `PROTOCOL.md` / `RECEIPT.md`. | `board_log.tsv`; KB-CRU-178..180 |
 
 ## October 19 research finding — cushion survives as a dated contrast
 
@@ -42,7 +51,7 @@
 
 | Metric | Value | State | Source |
 |--------|-------|-------|--------|
-| **CCL price** | **$26.45**, **+2.12%** on October19; **−20.93%** vs adjusted reference33.45 / **−22.18%** vs raw33.99. Existing RED line21.7425 remains pending approved basis work L732; no band moved | 🟠 | [CONF MIRROR] Yahoo yfinance + chart October19 |
+| **CCL price** | **$27.08** at the October22 close (−0.81%); **−20.33%** vs the raw reference $33.99 (ruled basis, applied 10/23) / −19.04% vs adjusted $33.45. RED line **$22.0935**, YELLOW line **$27.192** | 🟠 | [CONF] FORGE fetch.py + yfinance auto_adjust=False, pulled 2026-10-23 01:01 ET |
 | **RCL price** | **$281.97**, **+1.54%** on October19; cumulative adjusted return from October2 **+1.52%**. Q3 call October27 | 🟠 | [CONF MIRROR] Yahoo yfinance + chart October19 |
 | **NCLH price** | **$15.24**, **+1.26%** on October19; cumulative adjusted return from October2 **+0.66%**; **−39.09%** vs February26 peak25.02. Q3 release October29 | 🔴 | [CONF MIRROR] Yahoo yfinance + chart October19 |
 | **CRU-11 spread** (NCLH − RCL cumulative adjusted TR from October2) | **−0.86pp at October19 close**, **interim observation only**. Frozen endpoint November14 / nearest preceding session; resolver not run | 🟡 | [CONF MIRROR] pinned yfinance Adj Close pull October19 |
@@ -67,7 +76,7 @@
 |---|--------------|-------|--------|------------|-----------------|
 | 1 | NCLH relative weakness (`VX-CRU-05`) | 4 | 🔴 | 7/30 guide cut stands (9/30 = reaffirm, **not** a re-slash); −39.1% from peak at October19 close; **new 8.750% paper replaces 6.125%** and 2027 interest +22-25% — but ~$376M of revolver room restored | NCLH Q3 print guides down · FY26 OCF below ~$1,926M · advance-ticket build falls again · leverage climbs off 5.3x |
 | 2 | Consumer demand K-shape (`VX-CRU-03`) | 4 | 🔴 | **On the letter** (NCLH's guide-down not reversed). ⚠️ **Q3 evidence is non-escalating**: CCL records, NCLH beat on revenue. Dispersion fits; broad consumer stress does not. **Re-score owed at RCL 10/27 + NCLH Q3** | −20% booking-pace print · RCL guides FY yields DOWN |
-| 3 | CCL stock stress (`VX-CRU-01`) | 3 | 🟠 | October19 **−20.93%** vs adjusted reference; raw basis **−22.18%**. No state change; basis edit held to L732 | Existing close ≤21.7425 |
+| 3 | CCL stock stress (`VX-CRU-01`) | 3 | 🟠 | October22 **−20.33%** on the raw basis (re-based 10/23); $0.11 / 0.41% from re-entering YELLOW. 10/21 close read YELLOW on both bases | Existing close ≤21.7425 |
 | 4 | Fuel cost line (`VX-CRU-02`) | 2 | 🟡 | **Exit rule 2 FIRED.** Level band still RED ($826 actual, $896 Q4 guide) — **the channel is dead, the cost is not** | A print where the fuel-attributable hit vs guide > $0.10 **with** a yield guide-down |
 | 5 | Gulf/Red Sea → Big-3 (`VX-CRU-04`) | 1 | 🟢 | Zero Big-3 cancellations (as of FALCON 9/28; not re-swept) | ONE announced Big-3 cancellation ⇒ YELLOW(2) |
 
@@ -102,6 +111,7 @@
 
 ## Key gaps / owed
 
+- 🟠 **PROME-owned surfaces still carry the March mission (flagged 10/23, not mine to edit):** ROSTER row 109 ("CCL vehicle; fuel-cost transmission… Q3 print ~9/28-29… arm-CCL ladder") — the refresh was ACTION 3 of my 10/14 proposal; `AGENTS/_NETWORK.md` CRUISE node "CCL fuel-cost vehicle". Charter Role line still says "HAWK feeds Gulf situation" while the charter's own intake table says FALCON — a route line, left unchanged for PROME.
 - 🔴 **Delivered this session:** packets to **TERRY** (NCLH refinancing + Sandals; my 10/2 "fragility strengthens" corrected), **PROME** (L452 grade, exit-rule verdicts, `VX-CRU-06` retirement, corrections), **WALTER** (the routing fact behind L452 — a fact, not an instruction).
 - ✅ **NCLH funding deep-dive done 10/14 (Will-directed)** → `domain/sources/2026-10-14_nclh-funding-position-after-the-930-refinancing.md`, KB-CRU-155/156: **no near-term crunch** — liquidity ~$1.5B (6/30) vs a **$250M covenant floor**; breakeven OCF decline now **~−14% to −16%/yr** (was ~−8%); tripwires **2026-11-17** (amended-contract 800M test confirmed 10/19; passage remains conditional on actual Free Liquidity), late 2028, and the **~$3.6B 2030 wall**; money cost **+2.9 pts in a year** (~half rates).
 - 🟠 **PROPOSAL to PROME 10/14 ~22:4x ET (Will-directed)** → `PROME/inbox/2026-10-14_from-CRUISE_PROPOSAL-wake-CRUISE-on-its-own-catalysts-and-rescope-its-charter.md`: register DOCKET rows **R1 10/16 · R2 10/27 · R3 NCLH Q3 (fallback 11/06) · R4 11/17**, because an EVENT-DRIVEN desk is woken only by dated due rows and CRUISE's catalysts lived only in `CADENCE.md`; **D1 for Will:** re-scope the charter (operator dispersion + NCLH credit, cruise as a consumer-demand read for CARL/MARCO, ports; Gulf and fuel demoted to a trigger and a cost line) plus two working rules (no unchecked absence claims; every VX band names its basis). The Tier-2 idea is retracted. **PROME acknowledged 10/14 22:3x ET: R1–R4, the D1 WILL_QUEUE row and the ROSTER refresh will be registered at PROME's 10/15 boot; the packet stays in PROME/inbox as the carrier. ⇒ Next CRUISE boot: verify all three at the artifacts (DOCKET, WILL_QUEUE).** **CARL demand note SENT 10/14 ~22:4x ET** (Will-directed): firm on volume, deposits and onboard spend, **but CCL North America ticket prices −$40M YoY**; framed against CARL's 10/12 scope finding. The proposal's "demand strong" line was corrected in the same commit.
@@ -120,4 +130,4 @@
 
 **Norwegian had the thinner June cushion and subsequently lagged Royal Caribbean, but both stocks rose.** The identified financing transactions preserve that ordering only in an illustration with other cash flows held fixed. Actual September/October liquidity is unknown; equity dispersion does not establish a financing cause.
 
-**Norwegian retained unsecured access and gained 691.3M of nominal credit-line room at a higher coupon.** It contributed cash to the transaction; that room is borrowing capacity, subject to contract conditions. Demand, faster capacity growth and its own execution problems remain direct alternatives. Royal Caribbean's ~3B Sandals borrowing is prospective, not already funded. Next operating evidence: RCL October27, NCLH October29. **CRU-11 stays OPEN on its frozen October2–November14 rules. No decision is required from Will.**
+**Norwegian retained unsecured access and gained 691.3M of nominal credit-line room at a higher coupon.** It contributed cash to the transaction; that room is borrowing capacity, subject to contract conditions. Demand, faster capacity growth and its own execution problems remain direct alternatives. Royal Caribbean's ~3B Sandals borrowing is prospective, not already funded. Next operating evidence: RCL October27 (date confirmed at the issuer; frozen card `WATCHLIST_RCL_Q3.md`), NCLH October29. **CRU-11 stays OPEN on its frozen October2–November14 rules. No decision is required from Will.**

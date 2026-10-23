@@ -33,3 +33,6 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-19T22:24:44.080353+00:00	LIQUID-20261019-EXISTING-FINANCING	acted	MANUAL	KB169; actual scoped consumption verified; no independent vote.
 2026-10-19T22:42:08.618843+00:00	HENRY-20261019-CONDITIONAL-FINAL	acted	MANUAL	KB171; final4261b747e digest/committedblob matched; conditional shortlist now consumed, cruise unaffected.
 2026-10-19T22:54:12.204778+00:00	LIQUID-20261019-CONDITIONAL-EXECUTED	acted	MANUAL	KB174; final-cohort financing review consumed, no causal/access-seizure finding; own synthesis reused.
+2026-10-23T05:06:05Z	SIG-W-20261019-019	acted	INBOX_WALTER	KB-CRU-178; ask = retain named-event/window/operating alternatives, already the STATUS practice (KB-CRU-160..164); CRU-11 unchanged; no new study.
+2026-10-23T05:06:05Z	SIG-W-20261020-018	info-only	INBOX_WALTER	KB-CRU-179; USGC jet-Brent spot margin is not bunker cost; VX-CRU-02 unchanged.
+2026-10-23T05:06:05Z	WAL-20261019-REPEAT-LOSER-RECEIPT	noted	MANUAL	KB-CRU-180; WAL applied CRUISE clarification in its 10/19 research; peer receipt, no figure changed.
