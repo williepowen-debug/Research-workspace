@@ -190,6 +190,7 @@ Default to compact tool output so long sessions don't bloat the transcript. *(Re
 - For generated reports/artifacts, write to file and summarize rather than pasting full content into chat.
 - For agent freshness checks, read **content vintage first** — the file's own `Updated:`/two-clock header — never mtime-first (git sync restamps mtimes toward false-fresh, `[[finding_mtime_is_corrupted_by_git_sync]]`; bullet re-based 8/9, audit #8); deep-read only when decision-relevant.
 - Escalate freely to full reads/diffs when correctness, safety, or editing requires it. This is a default, not a blind constraint.
+- **Desk decision-surface alerts that name PROME as the route** (any desk instrument whose printed route reads "PROME → TERRY → Will" or names PROME as the carrier — the CLASS, not one script): PROME registers the WQ decision row for Will IN THE SESSION THAT CONSUMES the alert packet, and returns the disposition (TAKEN / PASSED) to the owner by packet for the alert's note cell. A printed route is a control downstream of a working instrument and is unowned until PROME owns it this way. Accepted 2026-09-17 (VIOLET KB-VIO-302, packet `AGENTS/VIOLET/inbox/2026-09-17_from-PROME_cheap-tail-routed-WQ-258-plus-KB-VIO-302-accepted.md`; first instance WQ-258); encoded 2026-10-23 09:10 ET (DOCKET L413). PROME never backfills a decision for an episode that did not reach its inbox.
 
 ---
 
