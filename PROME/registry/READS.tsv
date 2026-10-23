@@ -593,3 +593,31 @@ READ	OZK	AGENTS/OZK/STATUS.md	whole	OZK:1	OZK	2026-10-22	Transcribed by PROME (r
 READ	OZK	AGENTS/OZK/LESSONS.md	whole	OZK:2	OZK	2026-10-22	Transcribed by PROME (registrar) 2026-10-22 14:2x ET (prome-25) from OZK's desk-declared rows in PROME/inbox/processed/2026-10-22_from-OZK_L793-fix-batch-closeout.md (D:L793 item 8b). Mistake patterns.
 READ	OZK	AGENTS/OZK/CALENDAR.md	whole	OZK:3	OZK	2026-10-22	Transcribed by PROME (registrar) 2026-10-22 14:2x ET (prome-25) from OZK's desk-declared rows in PROME/inbox/processed/2026-10-22_from-OZK_L793-fix-batch-closeout.md (D:L793 item 8b). Forward dates.
 READ	OZK	AGENTS/OZK/MEMORY.md	whole	OZK:4	OZK	2026-10-22	Transcribed by PROME (registrar) 2026-10-22 14:2x ET (prome-25) from OZK's desk-declared rows in PROME/inbox/processed/2026-10-22_from-OZK_L793-fix-batch-closeout.md (D:L793 item 8b). Session handoff.
+ATTESTATION	CYPHER	AGENTS/CYPHER/CLAUDE.md	manifest-complete	CYPHER:CLAUDE.md-BOOT	CYPHER	2026-10-23	Desk-attested at HEAD d103ff26f after walking the spawned-mode card and BOOT SEQUENCE 1-6 (incl. WQ-508 edits 4da79f1ee). Conditional reads marked as such
+BASIS	CYPHER	AGENTS/CYPHER/CLAUDE.md	boot-defining	CYPHER:CLAUDE.md-BOOT	CYPHER	2026-10-23	Re-attest after any boot-defining charter change
+BASIS	CYPHER	AGENTS/CYPHER/boot.py	boot-defining	CYPHER:BOOT-2	CYPHER	2026-10-23	Boot instrument; its ledger perimeter is listed as summary rows
+BASIS	CYPHER	scripts/corrections_boot_check.py	boot-defining	CYPHER:BOOT-2b	CYPHER	2026-10-23	
+BASIS	CYPHER	PROME/COMPLETION_SPEC.md	boot-defining	CYPHER:SPAWNED-CARD-4	CYPHER	2026-10-23	Delivery contract when spawned
+READ	CYPHER	CLAUDE.md	whole	CYPHER:BOOT-1	CYPHER	2026-10-23	Root charter (auto-loaded under Claude Code at AGENTS/CYPHER launch; explicit read when spawned)
+READ	CYPHER	AGENTS/CYPHER/CLAUDE.md	whole	CYPHER:SPAWNED-CARD-1	CYPHER	2026-10-23	Own charter
+READ	CYPHER	docs/GIT_WORKTREE_PROCEDURES.md	scoped	CYPHER:BOOT-1	CYPHER	2026-10-23	§ Before pulling at boot; § Before committing before each commit
+READ	CYPHER	PROME/COMPLETION_SPEC.md	whole	CYPHER:SPAWNED-CARD-4	CYPHER	2026-10-23	Conditional: spawned sessions
+READ	CYPHER	PROME/ORCHESTRATION_PLAYBOOK.md	scoped	CYPHER:SPAWNED-CARD-4	CYPHER	2026-10-23	Conditional: § Runtime mechanics when spawned
+READ	CYPHER	AGENTS/CYPHER/STATUS.md	whole	CYPHER:BOOT-4	CYPHER	2026-10-23	
+READ	CYPHER	AGENTS/CYPHER/FIRST_SESSION.md	whole	CYPHER:BOOT-4	CYPHER	2026-10-23	Conditional: only while the FIRST-LIVE-SESSION banner stands (spent 2026-10-22)
+READ	CYPHER	AGENTS/CYPHER/workbook/ESCALATION_WATCH.tsv	whole	CYPHER:SPAWNED-CARD-1	CYPHER	2026-10-23	Also graded by boot.py leg 4
+READ	CYPHER	AGENTS/CYPHER/workbook/INCIDENTS.tsv	summary	CYPHER:BOOT-2	CYPHER	2026-10-23	boot.py legs 5, 7
+READ	CYPHER	AGENTS/CYPHER/workbook/VX.tsv	summary	CYPHER:BOOT-2	CYPHER	2026-10-23	boot.py leg 6
+READ	CYPHER	AGENTS/CYPHER/workbook/FLOW.tsv	summary	CYPHER:BOOT-2	CYPHER	2026-10-23	boot.py leg 6
+READ	CYPHER	AGENTS/CYPHER/workbook/PREDICTIONS.tsv	summary	CYPHER:BOOT-2	CYPHER	2026-10-23	boot.py leg 2
+READ	CYPHER	AGENTS/CYPHER/workbook/KB.tsv	summary	CYPHER:BOOT-2	CYPHER	2026-10-23	boot.py leg 1 staleness
+READ	CYPHER	AGENTS/CYPHER/docket/CATALYSTS.tsv	summary	CYPHER:BOOT-2	CYPHER	2026-10-23	boot.py leg 3
+READ	CYPHER	AGENTS/CYPHER/TRADE.md	summary	CYPHER:BOOT-2	CYPHER	2026-10-23	boot.py leg 1 trade perimeter
+READ	CYPHER	AGENTS/WALTER/registry/CORRECTIONS.tsv	summary	CYPHER:BOOT-2b	CYPHER	2026-10-23	Via corrections_boot_check.py; named BOARD correction files read whole only when unreceipted
+READ	CYPHER	AGENTS/CYPHER/registry/corrections_receipts.tsv	summary	CYPHER:BOOT-2b	CYPHER	2026-10-23	Created 10/23
+READ	CYPHER	AGENTS/CYPHER/inbox/PROTOCOL.md	whole	CYPHER:BOOT-3	CYPHER	2026-10-23	
+READ	CYPHER	AGENTS/CYPHER/inbox/*.md	whole	CYPHER:BOOT-3	CYPHER	2026-10-23	Every unprocessed packet (PROME split the declared two-glob cell into two rows at transcription; letter unchanged)
+READ	CYPHER	AGENTS/CYPHER/inbox/WALTER/*.md	whole	CYPHER:BOOT-3	CYPHER	2026-10-23	Every unprocessed WALTER signal (second glob of the declared cell)
+READ	CYPHER	AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md	scoped	CYPHER:BOOT-3	CYPHER	2026-10-23	§ 8.1 only
+READ	CYPHER	AGENTS/CYPHER/board_log.tsv	grep	CYPHER:BOOT-3	CYPHER	2026-10-23	grep -F per signal_id
+READ	CYPHER	AGENTS/CYPHER/DATA_ROUTES.md	whole	CYPHER:BOOT-5	CYPHER	2026-10-23	Conditional: before any external data pull
