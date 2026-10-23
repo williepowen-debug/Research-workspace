@@ -1,0 +1,21 @@
+{
+  "schema": 2,
+  "staged_at": 1792760798.8365517,
+  "items": [
+    {
+      "id": "2113564807244792185",
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "BOARD/SIG-W-20261023-007-hurricane-vance-cat1-85mph-440mi-ssw-of-acapulco-major-by-tonight-peak-115mph-cat3-not-cat4-forecast-offshore-through-oct28-no-us-gulf-channel-AEOLUS.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113265593092628551",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": "BOARD/SIG-W-20261023-008-apollo-slok-ramp-ai-index-80point4pct-of-top-1pct-ai-spenders-are-vc-backed-vs-13point1pct-of-median-demand-concentration-depends-on-vc-funding-VULCAN.md",
+      "ask_user": null
+    }
+  ],
+  "stage_id": "124a4e838df142c79a76b3dc1b68c954"
+}

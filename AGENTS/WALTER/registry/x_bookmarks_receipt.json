@@ -1,48 +1,30 @@
 {
   "kind": "marked",
-  "checked_at": "2026-10-23T04:43:51Z",
-  "items": 6,
+  "checked_at": "2026-10-23T13:11:15Z",
+  "items": 2,
   "scan": {
-    "checked_at": "2026-10-23T04:38:19Z",
-    "head_checked_at": "2026-10-23T04:38:19Z",
+    "checked_at": "2026-10-23T13:06:38Z",
+    "head_checked_at": "2026-10-23T13:06:38Z",
     "head_checked_this_run": true,
     "incomplete": false,
-    "attempts": 3
+    "attempts": 2
   },
   "review_recorded": true,
   "read_counts": {
-    "fully_read": 3,
-    "partly_read": 3
+    "partly_read": 1,
+    "fully_read": 1
   },
   "dispositions": {
-    "DISPATCH": 2,
-    "FOLD": 3,
-    "DUP": 1
+    "DISPATCH": 2
   },
   "follow_ups": [
     {
-      "id": "2113426917915508765",
-      "ref": "BOARD/SIG-W-20261023-004-amazon-drops-four-data-centers-on-former-gwu-ashburn-campus-county-deal-oct20-siting-settlement-not-a-capex-cut-VULCAN.md"
+      "id": "2113564807244792185",
+      "ref": "BOARD/SIG-W-20261023-007-hurricane-vance-cat1-85mph-440mi-ssw-of-acapulco-major-by-tonight-peak-115mph-cat3-not-cat4-forecast-offshore-through-oct28-no-us-gulf-channel-AEOLUS.md"
     },
     {
-      "id": "2113337712749301958",
-      "ref": "BOARD/SIG-W-20261023-002-us-chip-rout-oct22-sox-minus-6-72-lam-supply-constraints-2027-qqq-minus-2-86-coreweave-minus-10-1-to-55-60-asia-mixed-oct23-VULCAN.md"
-    },
-    {
-      "id": "2113438053469712602",
-      "ref": "BOARD/SIG-W-20261023-004-amazon-drops-four-data-centers-on-former-gwu-ashburn-campus-county-deal-oct20-siting-settlement-not-a-capex-cut-VULCAN.md"
-    },
-    {
-      "id": "2113414387541102972",
-      "ref": "BOARD/SIG-W-20261023-002-us-chip-rout-oct22-sox-minus-6-72-lam-supply-constraints-2027-qqq-minus-2-86-coreweave-minus-10-1-to-55-60-asia-mixed-oct23-VULCAN.md"
-    },
-    {
-      "id": "2113431765926793562",
-      "ref": "BOARD/SIG-W-20261023-002-us-chip-rout-oct22-sox-minus-6-72-lam-supply-constraints-2027-qqq-minus-2-86-coreweave-minus-10-1-to-55-60-asia-mixed-oct23-VULCAN.md"
-    },
-    {
-      "id": "2113427367599493530",
-      "ref": "BOARD/SIG-W-20261023-003-japan-september-core-cpi-2-1-first-above-boj-target-in-nine-months-in-line-yen-156-89-nikkei-down-on-chip-rout-not-cpi-SAM.md"
+      "id": "2113265593092628551",
+      "ref": "BOARD/SIG-W-20261023-008-apollo-slok-ramp-ai-index-80point4pct-of-top-1pct-ai-spenders-are-vc-backed-vs-13point1pct-of-median-demand-concentration-depends-on-vc-funding-VULCAN.md"
     }
   ],
   "requests": []
