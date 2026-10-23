@@ -1,0 +1,46 @@
+BETA -0.1526 %/bp | residual sd (120 pairs to 2026-10-21) 1.402% | threshold +/-1.402%
+
+10/22 graded case:
+gld       -2.625679
+dr            -12.0
+dxy       -0.167025
+spx       -1.208427
+dvix           2.35
+dton         -11.98
+e         -4.456879
+cls     LIQUIDATION
+
+Base rates, 120-pair window to 10/21:
+cls
+RATE                82
+UNEXPLAINED-DOWN    18
+UNEXPLAINED-UP      11
+DEDOLLAR-PROXY       6
+LIQUIDATION          3
+
+Base rates, 2025-01 to 2026-10-21:
+cls
+RATE                312
+UNEXPLAINED-DOWN     49
+UNEXPLAINED-UP       47
+DEDOLLAR-PROXY       24
+LIQUIDATION          11
+HAVEN                 5
+
+Window 9/3->10/15: GLD -6.71%  dDFII10 +36bp  DXY +3.03%  tonnes +0.43  sum e -1.20%
+cls
+RATE                19
+UNEXPLAINED-DOWN     6
+UNEXPLAINED-UP       3
+GLD max close 2026: 2026-01-29 495.9
+
+Last 8 sessions:
+             gld    dr     e   dxy   spx  dvix   dton               cls
+2026-10-13 -0.76  -3.0 -1.21 -0.03 -0.08  0.43   1.07              RATE
+2026-10-14 -1.49  -4.0 -2.10  0.36 -1.11  1.60   0.00  UNEXPLAINED-DOWN
+2026-10-15  1.79  -6.0  0.87 -0.54  0.33 -0.41  -0.29              RATE
+2026-10-16 -0.18  -4.0 -0.79 -0.16 -1.09  3.53   5.13              RATE
+2026-10-19 -0.61   6.0  0.31  0.14  0.41 -1.55  -0.57              RATE
+2026-10-20 -0.54  -3.0 -1.00 -0.25  0.28 -1.13   1.71              RATE
+2026-10-21  0.34  -1.0  0.19  0.05  0.58 -0.63  -2.56              RATE
+2026-10-22 -2.63 -12.0 -4.46 -0.17 -1.21  2.35 -11.98       LIQUIDATION

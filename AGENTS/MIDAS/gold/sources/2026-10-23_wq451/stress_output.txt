@@ -1,0 +1,3 @@
+2025-01..2026-10-22: stress days 59; GLD up 28 (47%); mean GLD -0.27% vs mean SPX -1.57%; residual e>0 44%; classes {'RATE': 29, 'LIQUIDATION': 12, 'UNEXPLAINED-UP': 9, 'HAVEN': 5, 'UNEXPLAINED-DOWN': 4}
+2026 only: stress days 24; GLD up 6 (25%); mean GLD -1.42% vs mean SPX -1.36%; residual e>0 25%; classes {'RATE': 10, 'LIQUIDATION': 8, 'UNEXPLAINED-DOWN': 3, 'HAVEN': 2, 'UNEXPLAINED-UP': 1}
+last 120 pairs: stress days 12; GLD up 2 (17%); mean GLD -1.82% vs mean SPX -1.34%; residual e>0 17%; classes {'RATE': 6, 'LIQUIDATION': 4, 'UNEXPLAINED-DOWN': 2}
