@@ -10,7 +10,7 @@
 
 ## ⚡ SPAWNED-MODE BOOT CARD (coordinator spawns — your CLAUDE.md did NOT auto-load)
 
-1. **Read:** `AGENTS/GIBBS/CLAUDE.md` (this file) · `AGENTS/GIBBS/STATUS.md` · `AGENTS/GIBBS/workbook/PERIMETER.tsv` — full repo-root paths.
+1. **Read** root `CLAUDE.md` · `AGENTS.md` · `USER.md` explicitly and identify the runtime (model, session, tools, else UNKNOWN; `PROME/COMPLETION_SPEC.md`). **Then:** `AGENTS/GIBBS/CLAUDE.md` (this file) · `AGENTS/GIBBS/STATUS.md` · `AGENTS/GIBBS/workbook/PERIMETER.tsv` — full repo-root paths.
 2. **Critical semantics:** the perimeter is a **NAMED LIST**, not an asset line. "Above $250B" is NOT the Fed's Category III test (12 CFR 252.5(d): ≥$250B **four-quarter average** assets, OR ≥$100B plus ≥$75B in one risk indicator). Northern Trust is in at $179B; Huntington is out at $284B. Read `PERIMETER.tsv`, never re-derive membership from a size.
 3. **Git:** cwd-proof ops from repo root · pathspec-only commits (`AGENTS/GIBBS/…`) · **no push when spawned** — coordinator sweeps.
 4. **Deliver before idle, BOTH halves:** files written + committed AND coordinator notified (SendMessage). Never idle "holding."
@@ -21,10 +21,11 @@
 
 ## BOOT SEQUENCE (full session)
 
+0. Explicit reads + runtime identification as in boot-card item 1.
 1. Root sync per root `CLAUDE.md` §Git Protocol ("Before pulling").
 2. `python3 "$(git rev-parse --show-toplevel)/AGENTS/GIBBS/boot.py"` — rc 1 = REVIEW: work flagged items before new research (root rule #8).
 2b. **R1 corrections check:** `python3 "$(git rev-parse --show-toplevel)/scripts/corrections_boot_check.py" GIBBS` — §9 rc 0/1/2; rc 1 = a NAMED correction is unreceipted: read the pointer, then `--receipt <id> --action <APPLIED|NO-OP|DEFERRED>` with the fields the writer requires, and commit `registry/corrections_receipts.tsv`.
-3. Process `inbox/` (and `inbox/WALTER/` if present) per `inbox/PROTOCOL.md`. WALTER intake follows `AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md` §8.1: search each signal_id with `grep -F` in `board_log.tsv`, read/disposition every unrecorded delivered signal, append timestamp_read/signal_id/disposition/source/notes, integrate and commit before `git mv` to `inbox/WALTER/processed/`.
+3. Process `inbox/` (and `inbox/WALTER/` if present) per `inbox/PROTOCOL.md`. WALTER intake follows `AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md` §8.1: search each signal_id with `grep -F` in `board_log.tsv`, read/disposition every unrecorded delivered signal, append timestamp_read/signal_id/disposition/source/notes, integrate and commit, then `git mv` to `inbox/WALTER/processed/` and commit the rename in the same step.
 4. Read `STATUS.md`. **If its FIRST-LIVE-SESSION banner is present, § FIRST LIVE SESSION below is your session.**
 5. Execute the task. Write back: `workbook/READS.tsv` per print, STATUS + BOTTOM LINE, `NEXUS_BRIEF.md` (last write-back, after the final STATUS commit; schema `AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md`; STATUS hash in the header — `python3 "$(git rev-parse --show-toplevel)/scripts/brief_pin_check.py"` must print OK for GIBBS).
 6. Closeout per root `CLAUDE.md` §Git Protocol (1b orphan · 1c consumer · 1c-bis ledger · 1d memory · 1e claim), then auto-push unless spawned.
@@ -146,7 +147,7 @@ Delivery: write the packet into the recipient's `inbox/` and **commit it yoursel
 
 ---
 
-## FIRST LIVE SESSION (PROME spawn, DOCKET L704, 2026-10-19 — FITB's print day)
+## FIRST LIVE SESSION — ✅ SPENT 2026-10-21, HISTORY: do not re-run (PROME spawn, DOCKET L704, 2026-10-19)
 
 1. **Fill and verify `PERIMETER.tsv` `CIK`** for all 16 at EDGAR; check each response names the right issuer. Re-verify the 6/30 assets at the 10-Q (the seed is the builder's).
 2. **Retrospective Q3 read** of every perimeter firm already printed (as of build: JPM · WFC · C · GS 10/13; BAC · MS · STT 10/14; PNC · USB · BK · SCHW 10/15; TFC 10/16) — the four items per firm into `READS.tsv`, each tagged against REGINALD's cohort where its read exists.

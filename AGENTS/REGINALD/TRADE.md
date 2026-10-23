@@ -35,7 +35,7 @@ Last real data refresh: 2026-10-22 — §2 legs re-derived from `FORGE/STATUS.md
 
 ## 2b. Trade-idea route to TERRY (Will 10/20 "we can loosen rules for trade ideas"; added 2026-10-22, D:L793 item 6)
 
-At each print-cluster grade, this desk sends TERRY any candidate expression as a packet to `AGENTS/TERRY/inbox/`, **labelled NOT-FIRED** whenever its trigger has not fired. Each packet carries the trigger state, size and risk in figures, and the evidence link. If there is no candidate, the grading report says "no candidate" and why. TERRY constructs; Will decides each one under root rule #5. The $500/card and X1 limits are the default shown on each card.
+At each print-cluster grade, this desk sends TERRY any candidate expression as a packet to `AGENTS/TERRY/inbox/`, **labelled NOT-FIRED** whenever its trigger has not fired. Each packet carries the trigger state, the evidence link and its grade; **TERRY's card** carries size and risk in figures (WQ-508, one form fleet-wide). If there is no candidate, the grading report says "no candidate" and why. TERRY constructs; Will decides each one under root rule #5. The $500/card and X1 limits are the default shown on each card.
 
 | Date | Idea | State | Disposition |
 |---|---|---|---|

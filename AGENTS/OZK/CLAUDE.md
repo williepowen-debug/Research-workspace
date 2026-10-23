@@ -42,24 +42,16 @@ When PROME spawns you in a live session **you inherit PROME's cwd (`PROME/`), an
 0. **`git pull`** — sync from GitHub before reading anything. Follow pull protocol in root CLAUDE.md. GitHub is the source of truth.
 1. **Read `STATUS.md`** — price, positions, thesis state, catalyst calendar, convergence scoring
 2. **Read `LESSONS.md`** — OZK-specific mistake patterns + structural rules
-3. **Read `CALENDAR.md`** — upcoming dates, roll deadlines, signal thresholds
+3. **Read `CALENDAR.md`** — upcoming dates, signal thresholds
 4. **Read `MEMORY.md`** — ends on session handoff: CHANGES SINCE + NEXT SESSION action items
 5. **Boot brief** — run the boot kit (live prices + catalyst countdown + standing-watch + inbox + staleness in ~10s):
    ```
    (cd "$(git rev-parse --show-toplevel)" && .venv/bin/python3 AGENTS/OZK/scripts/boot.py)
    ```
-   `--verbose` for the full cohort table + all catalysts. Compare OZK against STATUS thresholds, flag moves >3%, note what changed for CHANGES SINCE. **Manual fallback** (if boot.py breaks): `(cd "$(git rev-parse --show-toplevel)" && .venv/bin/python3 scripts/market.py)` — ⚠️ **the `cd` wrapper is load-bearing, not decoration: `market.py` lives at REPO ROOT (`scripts/market.py`), and `AGENTS/OZK/scripts/` contains only `boot.py`.** Run bare from the launch dir it fails `No such file or directory` — as both `.venv/` and `scripts/` are root-relative. *(Fixed 2026-08-28 sweep: this line carried the bare form for 55 days while line 132 carried the correct one and annotated itself "matches boot step 5" — it did not. The desk's documented remedy for a broken boot kit was itself broken; verified by running it.)* *(boot.py v0.2 (§8 wrapper contract, 2026-08-23); v0.1 added 2026-07-04 — self-contained; catalysts/thresholds inlined, kept in sync with CALENDAR/STATUS by hand. Future: decompose per DAEDALUS market-agent blueprint.)*
+   `--verbose` for the full cohort table + all catalysts. Compare OZK against STATUS thresholds, flag moves >3%, note what changed for CHANGES SINCE. **Manual fallback** (if boot.py breaks): `(cd "$(git rev-parse --show-toplevel)" && .venv/bin/python3 scripts/market.py)` — ⚠️ **the `cd` wrapper is load-bearing, not decoration: `market.py` lives at REPO ROOT (`scripts/market.py`), and `AGENTS/OZK/scripts/` holds `boot.py` + `flng_watch.py` (boot.py runs it).** Run bare from the launch dir it fails `No such file or directory` — as both `.venv/` and `scripts/` are root-relative. *(Fixed 2026-08-28 sweep: this line carried the bare form for 55 days while line 132 carried the correct one and annotated itself "matches boot step 5" — it did not. The desk's documented remedy for a broken boot kit was itself broken; verified by running it.)* *(boot.py v0.2 (§8 wrapper contract, 2026-08-23); v0.1 added 2026-07-04 — self-contained; catalysts/thresholds inlined, kept in sync with CALENDAR/STATUS by hand. Future: decompose per DAEDALUS market-agent blueprint.)*
 6. **Inbox awareness** — boot.py lists unprocessed inbox files (step 5). Report count + senders. Do NOT process — just awareness.
 7. **(Situational, not routine)** Read `../REGINALD/MEMORY.md` only when a task specifically requires shared Will feedback that isn't already duplicated into OZK/MEMORY.md. Routine boot is local-only.
-7a. **R1 corrections check (fleet-wide — FORUM-6 ruling ①, Will-approved 2026-08-17):** `python3 "$(git rev-parse --show-toplevel)/scripts/corrections_boot_check.py" OZK` — §9 rc 0/1/2; **rc=1 = a NAMED correction is unreceipted:** read the pointer, then receipt with the **WQ-399 fields** below and commit own `registry/corrections_receipts.tsv`. Missing required fields return rc 2 and write nothing. *(Wired 2026-08-28; receipt syntax updated 2026-10-12 under Will's 10/8 WQ-399 ruling and WALTER SIG-W-20261008-033 own-charter instruction; no authority change.)*
-   From repository root, use the applicable form; quote placeholder values containing spaces or shell metacharacters:
-   ```
-   python3 scripts/corrections_boot_check.py OZK --receipt <COR-id> --action APPLIED --artifact <path#key> --validation-ref <path#key|NONE>
-   python3 scripts/corrections_boot_check.py OZK --receipt <COR-id> --action NO-OP --scope <text>
-   python3 scripts/corrections_boot_check.py OZK --receipt <COR-id> --action DEFERRED --review YYYY-MM-DD
-   python3 scripts/corrections_boot_check.py OZK --receipt <COR-id> --action CONTESTED
-   ```
-   APPLIED permits repeated `--artifact`; optional `--scope`, `--artifact` and `--note` depend on action (`--help`). DEFERRED review date must be today or later. Do not backfill pre-word receipts.
+7a. **R1 corrections check (FORUM-6 ruling ①, Will 2026-08-17):** `python3 "$(git rev-parse --show-toplevel)/scripts/corrections_boot_check.py" OZK` — rc 0/1/2; **rc=1 = a NAMED correction is unreceipted:** read the pointer, then from repo root `--receipt <COR-id> --action <A>` with the WQ-399 fields in the script header; the writer refuses an incomplete receipt (rc 2, nothing written). Commit own `registry/corrections_receipts.tsv`. Do not backfill pre-word receipts.
 
 ### Execute
 
@@ -68,7 +60,7 @@ When PROME spawns you in a live session **you inherit PROME's cwd (`PROME/`), an
 ### Write-back
 
 9. **Research detail → `research/threads/` (post-Q1) or `research/C*_*.md` / `research/D*_*.md` (pre-Q1 rebuttals)**
-10. **Deliveries and signals.** Requests for PROME action and completion memos → **`PROME/inbox/`** directly (dated memo, self-committed, carve-out ①). **Reports to REGINALD** — OZK → REGINALD is a **directed edge** since 8ebc7e0a7 (WQ-484 A, Will 10/22): every graded print and single-name credit read gets a top entry in `REGINALD_CHANNEL.md`, and a threshold fire also goes as a packet to `AGENTS/REGINALD/inbox/` (self-committed). **Candidate trade ideas → TERRY** per `TRADE.md` § Candidate-idea route (NOT-FIRED/FIRED label, trigger state, size and risk in figures). Other peer signals → `outbox/` for routing. **Topology is canonical in `AGENTS/_NETWORK.md`**, never in this file. News/signal routing is WALTER's; never route signals around it.
+10. **Deliveries and signals.** Requests for PROME action and completion memos → **`PROME/inbox/`** directly (dated memo, self-committed, carve-out ①). **Reports to REGINALD** — OZK → REGINALD is a **directed edge** since 8ebc7e0a7 (WQ-484 A, Will 10/22): every graded print and single-name credit read gets a top entry in `REGINALD_CHANNEL.md`, and a threshold fire also goes as a packet to `AGENTS/REGINALD/inbox/` (self-committed). **Candidate trade ideas → TERRY** per `TRADE.md` § Candidate-idea route (NOT-FIRED/FIRED label, the trigger state, the evidence and its grade; OZK never sizes — TERRY's card carries size and risk in figures). Other peer packets → the recipient's `inbox/`, self-committed (carve-out ①). **Topology is canonical in `AGENTS/_NETWORK.md`**, never in this file. News/signal routing is WALTER's; never route signals around it.
 11. **Run session close checklist** (see below)
 
 ### Session Close Checklist
@@ -103,9 +95,9 @@ Before ending, complete in order:
 
 All mail directories:
 - **Inbox:** `inbox/` — inbound signals routed in by PROME (or dropped directly by the sender)
-- **Outbox:** `outbox/` — outbound signals you write for other agents
+- **Outbox:** `outbox/` — optional sender copies; delivery is direct to the recipient's `inbox/`
 - **Processed:** `inbox/processed/` — signals you've integrated
-- **Delivered:** `outbox/delivered/` — signals that have been routed/received (move here once delivery is confirmed)
+- **Delivered:** `outbox/delivered/` — sender copies whose delivery is confirmed
 
 ### Inbox Processing Protocol (when spawned for it)
 
@@ -113,12 +105,12 @@ All mail directories:
 2. **Cross-reference workbook** — check `workbook/KB.tsv` for related entries. Does this connect to an existing KB row, catalyst, or scenario branch?
 3. **Assess thesis impact** — does this change any prediction, threshold, scenario weight, or position view?
 4. **Update STATUS.md** if warranted (new data, changed levels, adjusted confidence)
-5. **Reply via outbox** only if: (a) you have new information the sender doesn't have, (b) their signal contains an error you can correct, or (c) it triggers a cross-agent threshold. Do NOT reply just to acknowledge — silence means "received and integrated."
+5. **Reply direct to the sender's `inbox/`** (self-committed, carve-out ①) only if: (a) you have new information the sender doesn't have, (b) their signal contains an error you can correct, or (c) it triggers a cross-agent threshold. Do NOT reply just to acknowledge — silence means "received and integrated."
 6. **Mark processed** — move signal file to `inbox/processed/`
 
 ### Outbox Protocol
 
-Write a single `.md` file to `outbox/` per signal:
+Write a single `.md` packet per signal into the recipient's `inbox/` (see Routing):
 - **Filename:** `YYYY-MM-DD_to-[target]_[short_description].md`
 - **Format:**
 ```
@@ -128,7 +120,7 @@ Write a single `.md` file to `outbox/` per signal:
 **Source:** [data release / own analysis]
 **Priority:** 🔴/🟠/🟡
 ```
-- **Routing:** `outbox/` holds peer signals awaiting routing per `AGENTS/_NETWORK.md` (no auto-courier since HERMES retired 6/30). Anything for PROME goes straight to `PROME/inbox/`; REGINALD reports go to `REGINALD_CHANNEL.md` / `AGENTS/REGINALD/inbox/` (directed edge). In a live teams-mode session, also notify the coordinator (file = durable handoff, message = live ping).
+- **Routing:** deliver direct into the recipient's `inbox/` and self-commit (root carve-out ①); `outbox/` keeps only an optional sender copy, never the sole delivery (no courier collects it). External news/data items → `AGENTS/WALTER/inbox/`. Anything for PROME goes straight to `PROME/inbox/`; REGINALD reports go to `REGINALD_CHANNEL.md` / `AGENTS/REGINALD/inbox/` (directed edge). In a live teams-mode session, also notify the coordinator (file = durable handoff, message = live ping).
 - Once routed/received, the file is moved to `outbox/delivered/`.
 - **Write a signal when:** a cross-agent threshold fires (see table below), a prediction resolves, or analysis produces an actionable insight for another agent
 - **Do NOT write for:** routine STATUS updates or data that only affects your own state
@@ -149,7 +141,6 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 
 ## OUTPUT RULES
 
-- **Tables > prose.** Bank data is quantitative — past-due %, LTVs, reserves, NCO rates, EL math.
 - **Source tags on data points.** `[CONF Q1 2026 Mgmt Comments Fig 24]`, `[EST thread]`, `[CONF Rossow Bisnow 3/19/26]`. No naked numbers.
 - **STATUS.md stays under 250 lines.** If it grows, archive prior section to `archive/` or push detail to sub-doc.
 - **Date everything.** Every metric carries a date. "Past due $465M" means nothing without "Q1 2026."
@@ -277,4 +268,4 @@ At session start and end, follow root CLAUDE.md pull/commit protocol:
 | `historical/` | Quarterly Management Comments extracts for trajectory. |
 | `archive/` | Completed / superseded work. Never read at boot. |
 | `inbox/` | Inbound signals from other agents. |
-| `outbox/` | Outbound peer signals awaiting routing per `AGENTS/_NETWORK.md`; PROME-bound memos go to `PROME/inbox/` directly. One file per signal (no HERMES courier since 6/30). |
+| `outbox/` | Optional sender copies only; packets go direct to the recipient's `inbox/` (carve-out ①), PROME-bound memos to `PROME/inbox/`. |

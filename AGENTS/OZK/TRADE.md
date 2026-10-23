@@ -22,7 +22,7 @@ This desk **supplies evidence; TERRY constructs; Will approves every trade (root
 | Label | **NOT-FIRED** or **FIRED** — whether the named trigger has actually printed |
 | Trigger | The exact condition, its source and today's reading in figures (e.g. "THESIS invalidation 7 reversal: an OREO sale at <80% of 9/30 carrying — not printed at 10/22") |
 | Direction / instrument idea | Plain words; strikes and expiries are TERRY's to build |
-| Size and risk | In dollars, against the $500/card and X1 defaults (going past them is Will's choice per card) |
+| Evidence and its grade | The desk's evidence link and grade; **size and risk in figures are TERRY's card** (USER.md 10/20; $500/card and X1 defaults shown there; going past them is Will's choice per card) |
 | What kills it | The figure that would make it wrong |
 
 **Triggers that would generate an idea** (none fired at 10/22): the v1.7 reversal triggers (OREO sale well below carrying · SM → classified in the 10-Q · RaDD reserve/readvance · `RIAD5409` charging off again) on the bear side; THESIS invalidation 6 + 7 firing on the other side (the case for no OZK short at all). Price bands <$45 / <$40 page REGINALD + PROME; they are signals, not ideas.
