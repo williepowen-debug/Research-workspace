@@ -9,6 +9,12 @@ state: NEW
 
 Run in a fresh context. Suggested order: 1 → 2 → 3 (1 and 2 are worth most before the **10/27 close**, REG-T-04's earliest fire).
 
+> **Addendum 2026-10-23 13:38 ET: WALTER REQ-DEWEY-20261023-003 arrived (Will-approved 13:37 ET, commit bc74e9676, due Mon 10/26)** at `inbox/WALTER/REQ-DEWEY-20261023-003-ccc-tier-and-under-80-loans-three-way-split-and-software-bucket-holders.md`.
+> - **What it asks:** split the CCC tier's October widening and the under-80 leveraged-loan bucket three ways (AI builders / software-AI-disruption / everything else), and map software-bucket holders (BDCs, HYG/JNK) from the funds' own files.
+> - **It SUBSUMES thread 2 below:** run thread 2 *as* REQ-003 (one run, REQ-003's brief governs, deliver via the WALTER lane).
+> - **Will held it for the next session** ("Lets hold that for next session too. Just save it with your other prompts.").
+> - **Order next session:** REQ-003 (with thread 2) and thread 1, both before 10/26; then thread 3. Read the REQ file whole; it is the brief.
+
 ## 1. Is the HY issuance window actually shut, and who is locked out?
 - **Gap:** REG-T-04 is an *issuance-freeze* trigger, but the only evidence of a freeze is Bloomberg's ~$7B October vs $51.7B September (Bloomberg via Advisor Perspectives 10/21, unopened, 403). The September figure is confirmed by Fidelity/ICE.
 - **Scope:**
