@@ -1,0 +1,22 @@
+{
+  "series": "BAMLC0A0CM",
+  "label": "BAMLC0A0CM",
+  "observations": [
+    {
+      "date": "2026-10-21",
+      "value": "0.88"
+    },
+    {
+      "date": "2026-10-20",
+      "value": "0.87"
+    },
+    {
+      "date": "2026-10-19",
+      "value": "0.87"
+    },
+    {
+      "date": "2026-10-16",
+      "value": "0.85"
+    }
+  ]
+}

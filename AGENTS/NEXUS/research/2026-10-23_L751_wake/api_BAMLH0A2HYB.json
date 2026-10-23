@@ -1,0 +1,22 @@
+{
+  "series": "BAMLH0A2HYB",
+  "label": "BAMLH0A2HYB",
+  "observations": [
+    {
+      "date": "2026-10-21",
+      "value": "3.32"
+    },
+    {
+      "date": "2026-10-20",
+      "value": "3.38"
+    },
+    {
+      "date": "2026-10-19",
+      "value": "3.36"
+    },
+    {
+      "date": "2026-10-16",
+      "value": "3.35"
+    }
+  ]
+}

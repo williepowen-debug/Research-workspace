@@ -1,9 +1,21 @@
 {
   "recorded_at_et": "2026-10-19T11:43:36-04:00",
-  "status": "PROVISIONAL; no actual anchor yet",
+  "status": "ANCHOR QUALIFIED 2026-10-19 (first read 2026-10-23T01:03:44-04:00, DOCKET L751); window dates still count-governed",
   "assumed_anchor": "2026-10-19",
-  "actual_anchor": null,
-  "actual_anchor_HY_CCC_levels": null,
+  "actual_anchor": "2026-10-19",
+  "actual_anchor_HY_CCC_levels": {
+    "L_HY_bp": 329,
+    "C0_CCC_bp": 1310,
+    "UP_edge_HY_ge": 339,
+    "DOWN_edge_HY_le": 319,
+    "DOWN_guard_CCC_le": 1310,
+    "source": "FRED fredgraph.csv pulled 2026-10-23T01:01:02-04:00; fetch.py first-published identical",
+    "disc_A_context_at_anchor": {
+      "IG_bp": 87,
+      "B_bp": 336,
+      "BB_bp": 200
+    }
+  },
   "actual_earliest_fire": null,
   "actual_window_end": null,
   "actual_backstop": null,
@@ -56,5 +68,30 @@
     },
     "cutoff_vs_wake": "Provisional inclusive cutoff11/23END ET;L754isfirst-session-aftercutoff11/24,neverearlygrade11/23morning. Recomputeactualdatesfromqualifyinganchor/count.",
     "qualification": "wakes_to_PROME above preserves original request; this accepted set is the current registered schedule. Actual anchor/levels/dates remain unset."
+  },
+  "L751_check": {
+    "read_at_et": "2026-10-23T01:03:44-04:00",
+    "postanchor_cells_counted": 2,
+    "cells": [
+      {
+        "cell": 1,
+        "obs": "2026-10-20",
+        "HY": 333,
+        "CCC": 1327,
+        "branch": "neither"
+      },
+      {
+        "cell": 2,
+        "obs": "2026-10-21",
+        "HY": 327,
+        "CCC": 1307,
+        "branch": "neither"
+      }
+    ],
+    "cell3_obs_2026-10-22": "UNPUBLISHED at 2026-10-23T01:01:02-04:00",
+    "fired": false,
+    "earliest_possible_fire": "cell 5 (cells 1-2 meet neither edge); provisional obs 2026-10-26, read ~2026-10-27; counts govern",
+    "successor_wake_proposed": "2026-10-27 (rides DOCKET L554 Tuesday wake)",
+    "unchanged": "cell15 provisional obs 2026-11-09 (read ~11-10), month-end variant 11-06 (read ~11-09), backstop 2026-11-23 inclusive end ET; L752-L754 stand"
   }
 }

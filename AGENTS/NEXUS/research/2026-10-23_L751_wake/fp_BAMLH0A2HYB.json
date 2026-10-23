@@ -1,0 +1,58 @@
+{
+  "basis": "first-published",
+  "series": "BAMLH0A2HYB",
+  "rows": [
+    {
+      "date": "2026-10-21",
+      "value": "3.32",
+      "first_published": "2026-10-21"
+    },
+    {
+      "date": "2026-10-20",
+      "value": "3.38",
+      "first_published": "2026-10-20"
+    },
+    {
+      "date": "2026-10-19",
+      "value": "3.36",
+      "first_published": "2026-10-19"
+    },
+    {
+      "date": "2026-10-16",
+      "value": "3.35",
+      "first_published": "2026-10-16"
+    },
+    {
+      "date": "2026-10-15",
+      "value": "3.26",
+      "first_published": "2026-10-15"
+    },
+    {
+      "date": "2026-10-14",
+      "value": "3.29",
+      "first_published": "2026-10-14"
+    },
+    {
+      "date": "2026-10-13",
+      "value": "3.17",
+      "first_published": "2026-10-13"
+    },
+    {
+      "date": "2026-10-12",
+      "value": "3.1",
+      "first_published": "2026-10-12"
+    }
+  ],
+  "request": {
+    "series_id": "BAMLH0A2HYB",
+    "output_type": 4,
+    "observation_start": "2026-09-20",
+    "realtime_start": "2026-09-06",
+    "realtime_end": "9999-12-31",
+    "limit": 8
+  },
+  "short": false,
+  "missing": [],
+  "under_limit": false,
+  "label": "BAMLH0A2HYB"
+}
