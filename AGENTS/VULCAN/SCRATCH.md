@@ -1,4 +1,16 @@
-> # ⛔ 2026-10-22T13:34:46-04:00 — READ THIS BLOCK FIRST. L782 v2 PARTIAL + L0 drain (PROME spawn prome-25, WQ-487 A, Claude Code, Opus 5.5).
+> # ⛔ 2026-10-23T17:50:32-04:00 — READ THIS BLOCK FIRST. Will-launched boot, catch-up, three idea investigations, closeout (Claude Code, Opus 5.5).
+
+▶ START HERE: **10/26 owed — GOOGL cadence method + KB-096 issuance** (deferred from 10/23, Will-approved; `reports/2026-10-20_catchup/CADENCE_METHOD.md`, `ISSUANCE.md`). Then **10/28–29 is the test week**: SK hynix 10/28 / Samsung 10/29 against the pre-stated memory test in `MEMORY_CYCLE/README.md` (grade it, do not reinterpret it); MSFT/GOOGL 10/28 + AMZN 10/29 close §4b and the EXIT_PROTOCOL rewrite; GE Vernova/Vertiv 10/28 bear on the power idea.
+
+- Scores unchanged 15/25 (S5 4, n=2). L782 v3 FINAL delivered (all LIQUID cells) [KB-270]. Solidigm IPO review halt NOT SCORED (no application) [KB-271].
+- Post-close slots 10/23 done: Mag-7 34.0060%, breadth −1.04pp YELLOW [KB-279]; S2 row [KB-280]; GPU reading 7, OCPI $3.15 (+15%) [KB-281]. Next slots 10/30 (Mag7 + GPU reading 8 + S2). Registered Mag7 slots run to 12/18 (renew before 12/18); GPU slots to 11/27 (renew before the last slot).
+- Will asked "where is the puck going": three investigations in `reports/2026-10-23_puck/` + `MEMORY_CYCLE/` [KB-282..284]. Memory = coin flip into the prints (2018 steep vs 2021 shallow analog). Power = credit sorts site owners by tenant, equity does not. Tier-gap seesaw NOT supported (both tiers widened together).
+- **S2 instrument changed (Will-approved 17:37 ET):** headline memory = MU+SNDK (`memory_core_1mo_pct`), HDD split out, legacy kept, history backfilled [KB-285]. `mag7.py` LAYER_MEMORY still includes WDC/STX — not changed.
+- TERRY holds two NOT-FIRED ideas (power tenant split, memory print binary); any card goes to Will. LIQUID got the DTCC CDS cross-section (tech/AI 11 of 12 wider) [KB-278]. CYPHER boundary confirmed.
+- Unverified, not carried: "Bernstein CRWV $51 / facilities $9B of $85B" (search summary only).
+- Runtime: Claude Code, Opus 5.5 (claude-opus-5-5), Will-launched (not spawned); sub-agents: three Opus research readers, finished. Other desks' dirty paths present at boot — no pull; push via safe-push at closeout.
+
+> # (prior block, demoted 2026-10-23) 2026-10-22T13:34:46-04:00 — L782 v2 PARTIAL + L0 drain (PROME spawn prome-25, WQ-487 A, Claude Code, Opus 5.5).
 
 ▶ START HERE: L782 v2 is `reports/2026-10-22_L782_v2_weak-links.md` [KB-258..269]; DOCKET due 10/24. **Only LIQUID's cells remain** (CRWV 2030s CUSIP + current credit level, ORCL LIQ-069/CDS, DC CMBS spread, Meta CDS Markit 114.5 vs ICE ~119.3). Integrate on arrival; do not re-run the study.
 
@@ -18,18 +30,3 @@
 - AFR pensions bookmark UNREACHABLE (afr.com blocked to this runtime + paywall). FRED fetch failed 10/21 22:5x ET; HY 332bp [10/20 secondary] carried.
 - Next clocks unchanged: 10/23 Mag7/S2/GPU slots + GOOGL method + KB-096 residuals; 10/27 ZHAO; 10/28–29 cluster.
 - Runtime: Claude Code, model Opus 5.5 (claude-opus-5-5), PROME-spawned; other desks' dirty paths present — no pull, no stash. Push via safe-push per spawn prompt (overrides charter step 6 "spawned ⇒ do not push").
-
-> # (prior block, demoted 2026-10-21) 2026-10-20T20:55:54-04:00 — Will requested closeout.
-
-Closeout: startup repair committed1e5bb4943; final integration1b2a4a958. No late inbox arrivals. Closeout checker19checked/0FAIL before this final continuity commit. Incomplete research is the next discussion; no research expansion during closeout.
-
-▶ START HERE: Will requested repair of broken diagnostics, inaccurate calendar labels and stale startup documents; then reassess incomplete research. See `reports/2026-10-20_startup-repair.md`. This is maintenance, not a financial refresh. Prior continuity preserved verbatim in `archive/SCRATCH_PRE_STARTUP_REFRESH_2026-10-20.md`.
-
-- Scores unchanged: S1 3 / S2 2 / S3 3 / S4 3 / S5 4 =15/25; one fired channel, two S5 events. WQ-441 B is ruled; WQ-464 is OPEN, separate score decision (PROME recommends retain4). Preserve retrospective/deal-specific baseline and secondary-source caveats.
-- Boot now names GOOGL10-Q backtest failure separately from collection freshness, and identifies CRWV/GOOGL/META10-K thin histories. It intentionally returns2 on the existing failed model. GOOGL statistical method remains UNGRADEABLE, DEFERRED to2026-10-23; no bound changed just to pass. `tools/test_boot_edgar.py` covers wiring and mixed good/bad histories.
-- Next time-sensitive research: META10/21after close;10/23post-close Mag7/S2/GPU plus registered GOOGL method and issuance residuals;10/27ZHAO;10/28–29hyperscaler/Hynix/Samsung cluster. Dates in docket own obligations; no automatic wake is armed.
-- Calendar clarified: Oracle~12/15is a disclosure check, NOT a new maturity; stated September maturity passed, outcomeUNKNOWN. NVDA11/15early watch,~11/19modeled filing. FERC11/15is our forecast/rewrite backstop, actual responses11/16with section205proviso. Forecast letters and resolve dates unchanged.
-- Read current CLAUDE, not the old slim candidate (now bannered superseded). Old charter is verbatim in archive/CLAUDE_PRE_REPAIR_2026-10-20.md. Tool safeguards retained in current charter; CRWV/KB and KB_GENERAL own rows, workbook/KB is generated.
-- Next discussion is incomplete research: GOOGL method; annual issuance inventory/matched tenor denominator; CoreWeave current parent/project cash bridge, principal/leases, delivery rights and valuation; source-limited watches. PROME owns its overdue summons repair; do not edit its code or claim it repaired.
-
-Runtime OpenAI Codex; session01a15b07-d0aa-7430-8336-732a3a6071c9; exact modelUNKNOWN. No subagents. Other desks' dirty files prevent pull; native fleet presence/notification/consumption unverified. Own path-scoped commits and final safe-push receipt reported separately. Pending approvals never inferred from maintenance authority.
