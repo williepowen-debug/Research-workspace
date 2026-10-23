@@ -1,6 +1,6 @@
 # GIBBS STATUS
 
-**Last Updated: 2026-10-23 08:39 EDT — AXP Q3 print read (DOCKET L779), Claude Code / Claude Opus 5.5, PROME spawn prome-03.**
+**Last Updated: 2026-10-23 08:46 EDT — AXP Q3 print read (DOCKET L779), Claude Code / Claude Opus 5.5, PROME spawn prome-03.**
 
 > FIRST-LIVE-SESSION banner struck 2026-10-21. The registration ask (item 5) is closed: PROME confirmed 10/23 that `docket/CATALYSTS.tsv` is in SUMMONS_LEDGERS (the boot gate's BD-02 check read the AXP row that morning).
 
@@ -16,9 +16,9 @@ No thresholds, predictions, grades or book (WQ-426).
 | AXP Q3 (10/23) | SEC 8-K 0000004962-26-000405 (accepted 11:00:36Z) EX-99.1/99.2 + IR presentation read. Call 08:30 ET: transcript NOT reachable at write time (Quartr paid, KB-GIB-014); NII-guide leg UNAVAILABLE. Card credit = CARL's figure (pointer only). |
 | Exclusions register | AXP enforcement event logged KB-GIB-017: OCC $350M AML penalty + Fed/OCC cease-and-desist orders 10/08, no asset cap; Q3 legal-matters item -$400M pretax. Flagged to PROME 10/23. |
 | Perimeter | 16/16 CIKs; Q2 assets 16/16 verified (AXP 308.2 re-checked at Q3 EX-99.2); Q3 assets 16/16 (AXP $310.3B). BK desk key vs SEC ticker BNY unchanged pending named handling. |
-| NDFI one figure | BROCK confirmed JPM/WFC/C 10/21 (KB-GIB-012). AXP has no NDFI line, so nothing to reconcile; BROCK note drafted (outbox). CFG baseline gap is BROCK/REGINALD's (KB-GIB-011). |
-| CYPHER seam | Boundary confirmed 10/23 (KB-GIB-023): CYPHER owns the cyber event, GIBBS the large-bank consequence. Charter exclusions-register owner cell still says NO OWNER — edit waits for PROME (C4). |
-| Peer packets | Drafted, NOT delivered (spawn limited writes to GIBBS + PROME/inbox): `outbox/2026-10-23_to-REGINALD_…`, `_to-BROCK_…`, `_to-CYPHER_…`. Delivery awaits PROME's word. |
+| NDFI one figure | BROCK confirmed JPM/WFC/C 10/21 (KB-GIB-012). AXP has no NDFI line, so nothing to reconcile; BROCK note delivered 10/23. CFG baseline gap is BROCK/REGINALD's (KB-GIB-011). |
+| CYPHER seam | Boundary confirmed 10/23 (KB-GIB-023): CYPHER owns the cyber event, GIBBS the large-bank consequence. Charter exclusions-register owner cell updated 10/23 (C4, PROME-verified). |
+| Peer packets | Delivered 10/23 08:44 ET on PROME's word (carve-out ①): CYPHER boundary reply · REGINALD AXP read + census · BROCK AXP no-NDFI note. Outbox copies kept as sender record. |
 | Falsification | EXIT_PROTOCOL re-derived 2026-10-21; R0 review 2026-11-15 unchanged. |
 
 ## Decisive observations (Q3 vs Q2 2026, SEC 8-K exhibits; rows in workbook/READS.tsv)
