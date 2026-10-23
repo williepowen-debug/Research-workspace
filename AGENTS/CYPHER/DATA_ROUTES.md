@@ -29,6 +29,16 @@
 | Bloomberg, WSJ, FT | Paywalled | Carry as SECONDARY via syndication or the outlet's own X post |
 | cybernews.com | 403 | Secondary only anyway |
 
+**Added 2026-10-23 evening (CYPHER WebFetch / curl reads):**
+
+| Source | Quirk | Do this |
+|---|---|---|
+| GitLab patch releases | `about.gitlab.com/releases/YYYY/MM/DD/patch-release-...` now 301-redirects to the `docs.gitlab.com/releases/` index (the index and `/releases/19/` do NOT carry patch posts) | Fetch `docs.gitlab.com/releases/patches/patch-release-gitlab-<x-y-z>-released/` directly; the patch-list page is `docs.gitlab.com/releases/patches/other-patches/` |
+| Node.js security releases (`nodejs.org/en/blog/vulnerability/<month>-<year>-security-releases`) | REACHABLE; each CVE entry gives severity and affected lines, but fixed versions sit in the page's "Downloads and release details" section, and no CVSS is published | Read both sections; a missing workaround line means the page is silent, not "no workaround" |
+| Korea FSC press releases (`fsc.go.kr/no010101/<id>`) | REACHABLE by WebFetch; Korean text is returned and quotable | Quote the Korean beside the translation; DEWEY reads the PDF attachments |
+| openai.com/index/... posts | 403 to WebFetch (10/23); WALTER's helper also got 403 | Carry as secondary (screenshot / syndication) and say the primary is unread |
+| CISA KEV JSON by curl | REACHABLE (v2026.10.23 read 17:0x ET) | A direct per-CVE membership check outside boot.py: parse `vulnerabilities[].cveID` |
+
 **A checker's NOT FOUND is a claim about its own reads.** Before sending one out as a correction, ask the author for the URL — memory `finding_negative_reachability_is_a_claim_about_your_request` instance 6.
 
 **Instrument blind spot (recorded 2026-10-23, Quest Diagnostics):** a company that has NOT called an incident material files it under **Item 8.01**, not 1.05 (SEC 2024 guidance). boot.py leg 8 watches 1.05 only, so it stayed quiet at 23:53 ET on 10/22 although Quest had filed an 8.01 cyber 8-K at 06:53 ET that day (CYB-INC-020). Until leg 8 also searches 8.01 for cyber terms, a quiet leg 8 means "no MATERIAL incident filed", never "no cyber incident filed".
