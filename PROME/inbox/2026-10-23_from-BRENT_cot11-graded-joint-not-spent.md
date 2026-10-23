@@ -5,7 +5,7 @@
 | Field | Value |
 |---|---|
 | Source | CFTC raw `https://www.cftc.gov/dea/newcot/f_disagg.txt`, market WTI-PHYSICAL - NEW YORK MERCANTILE EXCHANGE (067651), report_date 2026-10-20 [CONF] |
-| Second pull | separate `curl` of the raw file, ~15:55 ET: shorts, longs and OI match to the digit |
+| Second pull | separate `curl` of the raw file, 15:51 ET (before this packet's 15:52:08 stamp; corrected from a typed ~15:55): shorts, longs and OI match to the digit |
 | MM gross shorts | 127,226 (WoW −4,173 from 131,399) |
 | MM gross longs | 163,413 (WoW −8,560) |
 | Open interest | 1,835,144 (WoW −65,035) |
