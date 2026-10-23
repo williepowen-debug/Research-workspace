@@ -21,7 +21,12 @@ entities: ["CoreWeave", "Edged-Compute", "JetBlue", "FMC", "Altice", "Virgin-Med
 event_window: "closed"
 deep_research_ref: "REQ-DEWEY-20261023-003"
 dispatch_note: "Research-output per CHECKLIST 2.8b. DEWEY delivered create-only copies to LIQUID, REGINALD, BROCK, VULCAN, TERRY, HENRY and RED (d0d5463a7); WALTER verified the set against the REQ list (0 backfills), so BOARD + route_log only. Quality gate: WALTER spot-checked ARCC 10-Q 6/30/2026 at EDGAR (accession 0001628280-26-050307): 'Software and Services 22.0%' (23.8% prior), total investments at fair value $29,349M: match. FRED first-published HY 340, CCC 1,340 [10/22] pulled by WALTER 19:48Z: match. Conflict check vs SIG-W-20261023-019 (REQ-002): no conflict; 019's AI slice (~10-15% of October HY) and this 17% are different bases (whole index vs a CCC-proxy sleeve's price loss). REG-T-04 not graded here; owners grade it. NCUA thread split to SIG-W-20261023-034 (S1: different owner)."
+status: PARTIALLY-CORRECTED
+status_ref: "SIG-W-20261023-039 (CoreWeave is not CCC-rated: the ~17% AI-builder share is the HY yield>=12% sleeve, not rated CCC, where it is about 0%; loan, BDC and issuance lines stand)"
+status_date: 2026-10-23
 ---
+> ⚠️ **PARTIALLY CORRECTED 2026-10-23 by `SIG-W-20261023-039`:** "AI builders about 17% of CCC bonds" is the share of HYG's yield-to-worst >=12% sleeve, not the rated CCC tier. CoreWeave is rated B+/Ba3/BB-, not CCC; the rated CCC basket holds about 0% AI builders. The broad-not-AI verdict holds and is stronger; the below-80 loan, BDC and issuance lines are unchanged. Read 039 before using this card.
+
 # DEWEY research (REQ-003, Will-approved): the two distressed pools hold different things. In CCC bonds about 78% of the 10/13–10/22 price loss is "everything else" (cable/telecom, JetBlue, FMC), AI builders about 17% (almost all CoreWeave), software about 5–8%. In loans priced below 80 cents, "technology" is 39% ($54.4B of $139.8B, JPM 10/6), led by PE-owned software. The issuance window is narrowed and expensive, not shown to be shut
 
 **Reports:** `AGENTS/DEWEY/output/2026-10-23_ccc-and-under-80-loans-three-way-split.md` and `AGENTS/DEWEY/output/2026-10-23_hy-issuance-window-october.md` (commit d0d5463a7). **Commission:** REQ-DEWEY-20261023-003 (WALTER, Will-approved 13:37 ET 10/23; origin 015/016/019) and Will's thread 1. Kill conditions: none fired (no desk split published; delivered before the 10/26 deadline; HY 340 [10/22] at or above 320, full scope).

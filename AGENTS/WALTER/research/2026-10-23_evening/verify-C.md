@@ -1,0 +1,45 @@
+# verify-C: X-bookmark security claims (read-only helper, WALTER)
+
+Run: Fri 2026-10-23 20:35Z (~16:35 ET). No repo file edited; this is the only write.
+Method: WebFetch (page summarized by a small model; quotes are as returned) plus WebSearch. Quotes marked (via fetch) were not seen as raw HTML.
+
+## Verdict table
+
+| # | Claim | Verdict | Primary actually read (pub date) | Key figures / quotes |
+|---|---|---|---|---|
+| 1 | Node2Shell, CVE-2026-111497: pre-auth RCE in Node.js via Brotli; express.json() enough; works on official build | CORRECTED-FRAMING | nodejs.org/en/blog/vulnerability/october-2026-security-releases (Wed 2026-10-21); Imperva blog (2026-10-22); THN (2026-10-23) | Node.js: "Node.js Brotli decoder out-of-bounds write permits remote code execution (CVE-2026-111497) - (high)". "This vulnerability affects Node.js 26.x, 24.x, and 22.x." Fixed: v22.23.4, v24.22.1, v26.12.1. CVSS: NOT stated by Node.js, Imperva or THN (only "High"). No workaround listed. Credit: OpenAI Codex Security (Khai Tran, Sylvie Mayer). |
+| 2 | Hultquist/GTIG on PHP2Shell: no validated ITW exploitation; vibe-coded PoCs; RCE on mod_php not PHP-FPM; patched 8.5.12/8.4.27/8.3.36/8.2.35 | CORRECTED-FRAMING (patched versions + core ITW statement CONFIRMED; two sub-claims INDETERMINATE) | Google Cloud blog (2026-10-21, updated 10-21/10-22); The Record (2026-10-23); THN PHP2Shell exploit-attempts (2026-10-23); Sophos (10-21, updates to 10-23); VirusTotal blog (2026-10-21) | See notes B. |
+| 3 | FulcrumSec breach of EMARKETER (Axel Springer): 15.8 TB, 15.3M profiles, via exposed AWS creds/GitHub tokens | INDETERMINATE (claim-only) | None found. 3 searches; no company, Axel Springer or outlet coverage. | Zero hits linking EMARKETER to FulcrumSec or to any breach. Unrelated FulcrumSec items surfaced (LexisNexis 2026-03; Manchester Airports Group 86 GB, Iterable creds in client-side JS). Treat as an unverified threat-actor/aggregator claim. |
+| 4 | Qilin lists Coop Italia on leak site (DailyDarkWeb 10/23) | INDETERMINATE (claim-only) | None found. 3 searches (EN + IT); no Coop Italia statement or coverage. | Searches returned only other Italian Qilin victims (Coface, Cressi, Bravo Group, Tecnici Associati STP, Euroflora, Studio Boldrin, Aurore Development), none Coop. Leak-site listing itself not checked directly (no access to Qilin site; not attempted). |
+
+## Notes
+
+### A. Claim 1 detail (Node2Shell)
+- Security release date: Wed 2026-10-21 (nodejs.org post: "Wednesday, October 21, 2026 Security Releases"). Page says releases available "on, or shortly after," that date.
+- Root cause per Node.js: "An invalid block switch was reported as a temporary need for more input instead of a permanent format error, so the streaming decoder kept appending input bytes to an eight-byte internal buffer. An attacker who can supply Brotli data that an application decompresses with `node:zlib` can corrupt process memory, which can lead to a crash, disclosure of process memory, or remote code execution."
+- Affected-version range: Node.js says only the 22.x/24.x/26.x lines (no sub-version floor given on the page read). Node.js 20 and older: no fix per THN ("end-of-life, won't receive a fix"). Imperva tested only official Node.js 24.22.0 (Linux arm64); THN says 22.x and 26.x were not tested by Imperva.
+- "Pre-auth" is Imperva/THN framing, not in the Node.js advisory. Reaching the decoder needs the app to decompress attacker-controlled Brotli: Node fetch() reading a Brotli response, or Express 5 / body-parser 2 decoding a Brotli request body. THN: Express 5 parsers (express.json(), urlencoded(), text(), raw()) decode Brotli request bodies; reproduced on Express 5.0.0-5.3.0 and body-parser 2.0.0-2.3.0 (THN, via fetch). Imperva: "A bare Node.js HTTP server does not decode incoming Brotli bodies simply by receiving them" and "when their parsers are configured." So express.json() is sufficient only on Express 5 / body-parser 2 with the parser mounted on the route; Express 4 not stated either way in what I read. It is pre-auth only if the parser runs before authentication.
+- Reliability: Imperva "The proof did not succeed on every attempt" (several tries needed).
+- Exploitation in the wild: none reported. THN: "No exploitation of the flaw in the wild has been reported as of October 22." Imperva states only PoC testing.
+- CISA KEV: NOT listed. Pulled CISA KEV JSON feed directly (dateReleased 2026-10-23T19:30:18Z, count 1756): CVE-2026-111497 absent.
+- CVE-number caution: two search results warned some news articles carry CVE numbers that differ from official ones; the nodejs.org post I read does list CVE-2026-111497 for Brotli, so the number matches the primary.
+- Same release: 10 CVEs, 4 High (also DNS NUL truncation CVE-2026-105482, TLS hostname bypasses CVE-2026-105483 and CVE-2026-106069).
+
+### B. Claim 2 detail (PHP2Shell, CVE-2026-109618 / -109619)
+- Patched versions CONFIRMED (Google Cloud blog, 2026-10-21): PHP 8.5.12, 8.4.27, 8.3.36, 8.2.35. Vulnerable: "All versions of PHP from 5.4 through 8.5.11." 8.1 and earlier will not be patched. CVSS: "base severity score ... Critical, a severity of 9.2."
+- Hultquist quote is NOT on the Google Cloud blog page (no Hultquist, no vibe-coded, no mod_php/FPM there). It appears in The Record (Recorded Future News), 2026-10-23, verbatim: Hultquist said his team has not validated ITW exploitation, but "exploitation may have already begun in a limited fashion and the threat is viable and very serious." The Record also says (per search summary) dozens of experts told it none of the attempts have been successful.
+- FRAMING CORRECTION: the bookmark's version drops Hultquist's warning that exploitation "may have already begun in a limited fashion." Decision-relevant: it is not an all-clear. The exact phrase "no evidence of successful wide scale exploitation" came via search summary of The Record, not read verbatim on the page; the fetched page gave the "not validated" and "viable and very serious" quotes.
+- "Vibe-coded": NOT found in any source read. Nearest: The Record describes many PoCs as "garbage and nonfunctional" (via fetch). Sophos: "developing a successful exploit is not straightforward," its own attempts "proving challenging even with AI support." Wording may be Hultquist's from another outlet or X post; not verified. INDETERMINATE.
+- mod_php vs PHP-FPM: NOT confirmed by any source read. Only adjacent evidence: THN says SOCRadar's "one-click" exploit targets PHP 8.4.26 "under Apache mod_php"; VulnCheck's McIntyre: "We haven't identified another public or commercial exploit that achieves this under the same conditions." No source read states PoCs fail against PHP-FPM. INDETERMINATE.
+- Exploitation status across sources (as of 10-22/23): scanning at scale (Cloudflare: tens of thousands to millions of attempts by early 10-22), no confirmed compromise (Previdian "no successful remote code execution and no dropped PHP files"; Hunt.io 123 targeted servers "None was exploited"; Talos "most of the activity is scanning"). Sophos reported a Mirai-derived variant ("Potassium") deployment attempt. Sophos 10-22 update first reported one successful exploitation, then withdrew it: "there is no evidence of a successful compromise due to these vulnerabilities." CISA KEV feed 2026-10-23: neither CVE listed.
+- VirusTotal exposure (VT blog, 2026-10-21, Joseliyo Sanchez; counts as of 10-21; median of 7 runs; footprint not confirmed-vulnerable): ~5.1M IPs fingerprinted as PHP (~3.8M with an open port); version disclosed ~1.1M (~80% hide version); supported branches 8.2-8.5 ~272K; EOL 5.4-8.1 ~758K (7.4 ~187K, 5.4 ~119K); 5.2/5.3 ~88K; Apache ~2.9M, nginx ~1.48M, LiteSpeed ~90K; WordPress ~538K; US ~920K PHP hosts with open port. Quote: "The figures below describe the Internet-facing PHP footprint, not confirmed vulnerable hosts."
+- Other count (THN via Censys 10-23): ~41M Internet-facing PHP services on affected versions, ~1M on a fixed release (via The Record fetch). Different basis than VT; not reconcilable here.
+
+### C. Claims 3-4
+- No evidence either way beyond absence of coverage. Absence in a search engine within hours of a 10/23 claim is weak evidence of anything; it is not a denial. Check next: EMARKETER/Axel Springer/Business Insider statements, BleepingComputer/The Record/DataBreaches.net; Coop Italia / Italian press (ANSA, Il Sole 24 Ore, Red Hot Cyber), ransomware.live for Qilin listing.
+- FulcrumSec track record in results: LexisNexis (company confirmed breach but called data old, 2026-03); MAG (company said ~8.7M customers affected). Shows the group's claims can be real but sizes vary; says nothing about EMARKETER.
+
+### D. Unreachable / limits
+- No page returned 403. nodejs.org index page lacked body; the direct post URL worked.
+- Imperva and THN Node2Shell pages were read through a summarizing fetch; fine details (Express version ranges) come from THN's summary, not independently seen raw.
+- Search tool summaries (not raw pages) are the source for: Sophos/Hunt.io/AWS-Datadog items other than those fetched, and the "no evidence of successful wide-scale exploitation" phrase.
