@@ -92,8 +92,8 @@
 - **Bright Data Web Unlocker (WQ-383 pilot, LIVE 2026-10-04):** `bdata scrape <url>` for a 403'd no-screenshot bookmark link; free tier 5k/mo HARD STOP, Web-Unlocker-only, key in gitignored `.env` (per-machine). Full method+limits+ledger: `design/X_BOOKMARKS_ACCEPTANCE.md` §9a.
 ## Session Notes
 
-**October22 evening FULL closeout:** dispatches 030–036; CYPHER built (DAEDALUS) and `CYBER` lane added (Will sign-off); evidence research/2026-10-22_evening/.
+**October22 night FULL closeout (laptop):** dispatches 037–048 + 1023-001; cyber session with live CYPHER/DEWEY; X token re-authorized on the laptop (a desktop scan rotates it: re-authorize at every machine switch or carry .env); evidence research/2026-10-22_night/.
 
-**October22 morning FULL closeout:** Will-launched boot (PARTIAL), dispatches 001–005, Will's HY→CRE question routed (005) instead of a wake; duties/receipts LAST_COMPLETION; evidence research/2026-10-22_boot/.
+**October22 evening FULL closeout:** dispatches 030–036; CYPHER built (DAEDALUS) and `CYBER` lane added (Will sign-off); evidence research/2026-10-22_evening/.
 
 *(10/20 bookmark-acceptance, bookmark-completion and 10/19 breadth session notes rotated verbatim to MEMORY_PROMOTED.md 2026-10-22; the bookmark backlog is fully marked, 96/96.)*

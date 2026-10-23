@@ -309,3 +309,8 @@ Historical text below preserves the size incident and findings28/29/41/43. Curre
 **Bookmark completion:** new stages require --review-template + --mark --review; --receipt is local-only. Fully/partly/unread labels are attestations; material reading gaps need follow-up/request. Repairevidence research/2026-10-19_bookmark-repair/.
 
 **10/19 breadth:** HENRY/LIQUID final conditional study and event audit consumed; MOSstrongestresidual/ADMqualified,HII/CPRTevent-sensitive,primaryfourunmatched. No commonfinancingcause;ACVcompleted10/16. Eveningcontribution research/2026-10-19_evening-combined; duties/closure/publication LAST_COMPLETION.
+
+
+## Rotated 2026-10-23 (night closeout) — session note, verbatim
+
+**October22 morning FULL closeout:** Will-launched boot (PARTIAL), dispatches 001–005, Will's HY→CRE question routed (005) instead of a wake; duties/receipts LAST_COMPLETION; evidence research/2026-10-22_boot/.

@@ -1,0 +1,48 @@
+⚠️  uncommitted files outside AGENTS/WALTER/:
+     [likely YOURS] PROME/inbox/processed/2026-10-22_from-WALTER_cyber-desk-build-request.md
+     [likely YOURS] PROME/inbox/processed/2026-10-22_from-WALTER_dewey-research-lane-codified-v053.md
+     [not yours]    AGENTS/DAEDALUS/inbox/2026-10-22_from-PROME_CYPHER-roster-row-landed.md
+     [not yours]    AGENTS/VULCAN/inbox/2026-10-22_from-PROME_status-glued-tokens-firetime-flag.md
+     [not yours]    HEARTBEAT.md
+     [not yours]    PROME/DOCKET.tsv
+     [not yours]    PROME/GATES.tsv
+     [not yours]    PROME/SCRATCH.md
+     [not yours]    PROME/WILL_QUEUE.md
+     [not yours]    PROME/archive/WILL_QUEUE_ROWS_2026-10-22_rolloff.md
+     [not yours]    PROME/inbox/processed/2026-10-21_from-LIQUID_UNATTENDED-hy-oas-zone-escalation-327bps.md
+     [not yours]    PROME/inbox/processed/2026-10-22_from-CYPHER_boot-row5-adjudicated-registration-gap.md
+     [not yours]    PROME/inbox/processed/2026-10-22_from-DAEDALUS_CYPHER-built-registration-changelist.md
+     [not yours]    PROME/inbox/processed/2026-10-22_from-DAEDALUS_L793-closeout-charter-size-addendum.md
+     [not yours]    PROME/inbox/processed/2026-10-22_from-DAEDALUS_evening-tools-HAWK-retirement.md
+     [not yours]    PROME/inbox/processed/2026-10-22_from-DEWEY_bank-legacy-technology-exposure.md
+     [not yours]    PROME/inbox/processed/2026-10-22_from-DEWEY_bank-technology-vendors-risk-profile.md
+     [not yours]    PROME/inbox/processed/2026-10-22_from-DEWEY_bank-vendor-products-vs-wave-failure-classes.md
+     [not yours]    PROME/inbox/processed/2026-10-22_from-DEWEY_coreweave-hedge-wording-CARRIED.md
+     [not yours]    PROME/inbox/processed/2026-10-22_from-DEWEY_cyber-wave-systemic-base-rates.md
+     [not yours]    PROME/inbox/processed/2026-10-22_from-DEWEY_cypher-watch-legs-row5-nydfs.md
+     [not yours]    PROME/inbox/processed/2026-10-22_from-DEWEY_memory-promotion-flag-session-budget.md
+     [not yours]    PROME/inbox/processed/2026-10-22_from-HENRY_L787-putwall-close-test.md
+     [not yours]    PROME/inbox/processed/2026-10-22_from-LIQUID_after-close-funding-credit-read.md
+     [not yours]    PROME/inbox/processed/2026-10-22_from-REGINALD_owner-closeout.md
+     [not yours]    PROME/inbox/processed/2026-10-22_from-TERRY_L803-close-grade-and-MRNA-card.md
+     [not yours]    PROME/registry/WQ_LEDGER.crc
+     [not yours]    PROME/registry/WQ_LEDGER.tsv
+     [not yours]    PROME/registry/corrections_receipts.tsv
+     [not yours]    PROME/reports/2026-10-22_ellison-financing-web/
+     [not yours]    PROME/reports/2026-10-22_firetime-boot-flags-disposition.md
+     [not yours]    PROME/state/ORCH_INFLIGHT.md
+     [not yours]    PROME/state/ORCH_LOG.tsv
+     [not yours]    PROME/state/board_consumed.tsv
+     [not yours]    PROME/state/board_cursor.txt
+     [not yours]    PROME/state/firetime_dispositioned.tsv
+     [not yours]    scripts/firetime_allowlist.tsv
+
+🔴 THE FLAGGED FILES LOOK LIKE PACKETS YOU AUTHORED.
+   If you do not commit them they never reach the recipient, and the recipient
+   is never told anything was sent. Committing files you authored into another
+   agent's inbox is the ONE sanctioned exception to the pathspec rule.
+
+   git add <paths> && git commit <paths> -m "WALTER -> <recipient>: <what>"
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.
