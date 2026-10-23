@@ -20,7 +20,12 @@ entities: ["Tom-Barrack", "CENTCOM", "Kan", "Trump", "Iraq", "Ali-al-Zaidi", "Ro
 event_window: "closed"
 anchor_unverified_as_of: "2026-10-22"
 dispatch_note: "Will bookmarks, 13 Iran items folded into one card. Iran guards consulted: POTUS/envoy channel = tape, declaratory-control, ADD#24 capacity-vs-loss, date traps. Anchor line 'the 10/8 no-attack-before-11/3 pledge stands' is freshly contradicted by envoy tape, and the anchor lists any Iran-cluster dispatch as an immediate re-verify trigger: routed first (decay), full sweep commissioned as follow-up. Boundary #1 (Brent >=120 x3 settles) is 2.8% away on an intraday December read: near-trigger watch, not a fire."
+status: CORRECTED
+status_ref: "SIG-W-20261023-031 (WH restated in writing 10/22: no attack on Iran before the midterms, so the timing read WEAKENS; Bushehr had ~135 Rosatom staff at 10/11, not ~20)"
+status_date: 2026-10-23
 ---
+> ⚠️ **CORRECTED 2026-10-23 by `SIG-W-20261023-031`:** this card omitted the White House's written 10/22 restatement ("will not be attacking Iran at any time prior to the midterm elections"), so its "timing moved forward" read WEAKENS; and its Bushehr line is wrong: about 135 Rosatom staff were on site at 10/11, not a caretaker group of about 20. Read 031 before using this card.
+
 # US strike-timing signals moved forward on Friday 10/23: a US envoy said a strike on Iran 'this weekend' is 'absolutely' possible and Israel's Kan says Trump ordered CENTCOM to prepare a plan with no target date; Brent December rose 3.1% to about $116.71 intraday. The Bushehr evacuation and the 'US warned Iraq's prime minister' reports are unconfirmed
 
 **What moved (10/23):**
