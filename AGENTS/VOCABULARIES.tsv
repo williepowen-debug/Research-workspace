@@ -56,6 +56,7 @@ META	MULTIPLE	System architecture, agent methodology, process notes
 FERTILIZER_N	FERT	Nitrogen fertilizer complex — urea/ammonia pricing (benchmark+unit+date mandatory), supply, tenders, China export policy
 PHOSPHATE	FERT	Phosphate complex — rock/DAP/MAP pricing, sulfur input, producer capacity, Morocco trade policy
 FOOD_CPI	FERT	Fertilizer->food-price transmission — BLS food-at-home, USDA ERS outlook, input-cost pass-through
+CYBER	CYPHER	Cyber incidents and their market transmission — bank/vendor/core-provider compromise, SEC 8-K Item 1.05 (and 8.01 disclosures), MSP/supply-chain channels, cyber-insurance, exploitation waves (WAVE-* rows); registered 2026-10-23 on Will's word (WQ-501 A), proposed PROVISIONAL by DAEDALUS 2026-10-22
 ---CANONICAL_ENTITIES---
 Canonical	Aliases	Type	Notes
 Kuwait	KWT	Country	
