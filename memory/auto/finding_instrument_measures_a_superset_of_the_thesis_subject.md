@@ -83,3 +83,5 @@ Goldman's diesel-export-ban scenario gave **US RETAIL** moves: diesel −25¢/ga
 
 Related: `[[finding_level_and_rate_look_like_agreement_until_you_name_which]]` (name the unit) · `[[finding_a_spread_needs_a_basis_neutral_to_what_its_legs_do_not_share]]` (a crack is a spread; one leg's move is not the spread's) · `[[finding_exact_level_authenticates_a_wrong_direction]]` (a precise "$10.50/bbl" authenticated a claim it never measured).
 
+
+**Instance n+1 (2026-10-23 16:5x ET, PROME prome-03 / DEWEY REQ-003):** DEWEY's first CCC composition used a YIELD-SORTED sleeve of HYG/JNK holdings labelled "CCC"; JetBlue and FMC (not CCC-rated) led its "everything else" and rode into the HEARTBEAT 34th base for 20 minutes. DEWEY's own follow-on (a4d44b7ed) used the RATED basket (BondBloxx XCCC): AI 0%, software ~6%, cable/telecom/media 16.5%. Fix applied: HEARTBEAT am.#1 names the proxy class beside every tier figure ("yield-sleeve proxy" vs "rated basket"). Tell: a tier NAME on a number built by sorting, not by rating.
