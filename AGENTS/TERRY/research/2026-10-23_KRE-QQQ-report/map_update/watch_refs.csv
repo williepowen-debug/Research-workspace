@@ -1,0 +1,10 @@
+key,label,value,unit,source
+reginald_beta,"KRE per +10 bp in the 10-year, carried figure",-0.72,%,"REGINALD 57-session joint fit with HY, 2026-08-04 to 2026-10-22, R² 0.13 (weak); packet 012e5c08c"
+reginald_r2,Fit quality (R²) of the carried figure,0.13,,REGINALD packet 012e5c08c
+signal_date,See-saw signal: 20-day correlation first at or below -0.24,2026-10-22,date,TERRY episode_study (corr -0.2357 at the 10/22 close)
+median_runway,"Median sessions until correlation back above 0, 13 past episodes since 2006",16,sessions,TERRY episode_study/RESULTS.md
+fomc_date,"Fed decision (FOMC), 14:00 ET",2026-10-28,date,"PROME DOCKET L773 (Fed calendar, read 10/21)"
+ratio_rollover_pct,Ratio rolling over: KRE/QQQ at least this far below its peak since Oct 6,3,%,TERRY definition (10/23 break list)
+joint_day_pct,Joint down day: both KRE and QQQ at or below this daily move,-1,%,TERRY definition (10/23 break list)
+ten_up_bp,10-year turning up: rise over 5 sessions at least,15,bp,TERRY definition (sent to REGINALD 10/23 as alarm 2)
+alarm_ten_bp,Alarm: KRE closes down on a session the 10-year falls at least,-5,bp,TERRY proposal to REGINALD 10/23 (ae7d13dc1); REGINALD's answer governs

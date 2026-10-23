@@ -1,0 +1,14 @@
+signal,leader,class_at_20,both_fell_5pct_40d,both_rose_5pct_40d,runway_sessions,kre_40d,qqq_40d
+2013-07-25,banks,FLAT,False,False,10.0,-4.0,5.7
+2016-12-06,banks,FLAT,False,False,15.0,3.3,7.8
+2017-06-15,banks,FLAT,False,False,39.0,-5.5,2.4
+2017-11-29,banks,FLAT,False,True,20.0,5.4,10.8
+2019-02-27,tech,CONTINUED,False,False,3.0,-3.1,9.9
+2020-07-28,tech,CONTINUED,False,True,30.0,-8.3,2.9
+2020-11-11,banks,CONTINUED,False,True,18.0,24.4,8.7
+2021-01-06,banks,FLAT,False,True,16.0,19.1,0.4
+2021-03-30,banks,SNAP-BACK,False,True,14.0,3.8,6.3
+2021-06-14,tech,CONTINUED,False,False,23.0,-1.6,6.6
+2024-03-18,tech,FLAT,False,False,11.0,7.9,1.9
+2024-07-05,tech,SNAP-BACK,False,False,19.0,20.6,-4.0
+2024-12-05,tech,CONTINUED,False,False,2.0,-1.8,1.1

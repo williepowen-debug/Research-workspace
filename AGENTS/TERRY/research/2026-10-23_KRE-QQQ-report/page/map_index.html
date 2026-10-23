@@ -35,6 +35,12 @@
 #dash-root .dv-fail::before { content: ""; width: 0.375rem; height: 0.375rem; border-radius: 50%; background: var(--color-bad); }
 #dash-root [data-dash-source-state=empty] { color: transparent; }
 #dash-root [data-dash-source-state=refreshing] { opacity: .5; transition: opacity var(--cds-dur-slow); }
+#dash-root .dv-tile .state { font-size: var(--cds-font-size-caption); font-weight: var(--cds-font-weight-medium); color: var(--color-fg-muted); }
+#dash-root .dv-tile .state.on { color: var(--color-bad); }
+#dash-root .dv-tile.on { border-color: var(--cds-chart-status-critical); }
+#dash-root .dv-status { font-size: var(--cds-font-size-body); margin: 0; max-width: 70ch; }
+#dash-root .dv-check { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-md) var(--cds-pad-lg); font-size: var(--cds-font-size-body); }
+#dash-root .dv-check b { font-weight: var(--cds-font-weight-medium); }
 </style>
 
 <div class="dv">
@@ -48,6 +54,42 @@
     <div class="dv-tile"><span class="lbl">Tech (QQQ) since Oct 6</span><span class="big dash-skeleton" data-source="headline" data-field="qqq_since">—</span><span class="sub">Oct 6 was QQQ's recent peak close</span></div>
     <div class="dv-tile"><span class="lbl">Gap, banks minus tech</span><span class="big dash-skeleton" data-source="headline" data-field="gap_pp">—</span><span class="sub">Percentage points</span></div>
     <div class="dv-tile"><span class="lbl">20-day correlation now</span><span class="big dash-skeleton" data-source="headline" data-field="corr20">—</span><span class="sub">Lower than <span data-source="headline" data-field="corr_pctile_below">—</span>% of readings since Jan 2024</span></div>
+  </div>
+
+  <h2 class="dv-section" id="watch">Daily watch: is the see-saw breaking?</h2>
+  <p class="dv-status" id="watch-status" data-source="watch"><span class="dash-skeleton">—</span></p>
+  <div class="dv-tiles" id="watch-tiles">
+    <div class="dv-tile" id="w-corr"><span class="lbl">Correlation back above 0?</span><span class="big dash-skeleton" data-source="watch" data-field="corr20">—</span><span class="state" data-k="corr_on"></span><span class="sub">Session <span data-source="watch" data-field="sessions_since_signal">—</span> since the signal; past episodes ended after a median of <span data-source="watch" data-field="median_runway">—</span></span></div>
+    <div class="dv-tile" id="w-ratio"><span class="lbl">KRE ÷ QQQ, off its peak since Oct 6</span><span class="big dash-skeleton" data-source="watch" data-field="ratio_off_peak_pct">—</span><span class="state" data-k="ratio_on"></span><span class="sub">Turns on at <span data-source="watch" data-field="ratio_rollover_pct">—</span>% below the peak</span></div>
+    <div class="dv-tile" id="w-joint"><span class="lbl">First day both fell 1% or more</span><span class="big dash-skeleton" data-source="watch" data-field="first_joint_day">—</span><span class="state" data-k="joint_on"></span><span class="sub">Counted from the signal session</span></div>
+    <div class="dv-tile" id="w-ten"><span class="lbl">10-year yield, 5-session change</span><span class="big dash-skeleton" data-source="watch" data-field="ten_chg5_bp">—</span><span class="state" data-k="ten_on"></span><span class="sub">Turns on at +<span data-source="watch" data-field="ten_up_bp">—</span> bp; now <span data-source="watch" data-field="ten_last">—</span>%</span></div>
+    <div class="dv-tile" id="w-beta"><span class="lbl">KRE move per +0.10 pt in the 10-year</span><span class="big dash-skeleton" data-source="watch" data-field="kre_per_10bp_60">—</span><span class="state" data-k="beta_note"></span><span class="sub">Last 60 sessions. Carried figure <span data-source="watch" data-field="reginald_beta">—</span>% (REGINALD, R² <span data-source="watch" data-field="reginald_r2">—</span>, weak). Banks normally rise with yields</span></div>
+    <div class="dv-tile" id="w-alarm"><span class="lbl">Alarm: KRE on the last yields-down day</span><span class="big dash-skeleton" data-source="watch" data-field="last_down_kre_ret">—</span><span class="state" data-k="alarm_on"></span><span class="sub"><span data-source="watch" data-field="last_down_date">—</span>, 10-year <span data-source="watch" data-field="last_down_ten_bp">—</span> bp</span></div>
+  </div>
+  <div class="dv-check" id="fomc" data-source="watch"><span class="dash-skeleton">—</span></div>
+
+  <h2 class="dv-section" id="what-followed">What followed in the past</h2>
+  <div class="dv-grid">
+    <section class="dv-card" id="base-rate">
+      <h2>Next 20 sessions after a negative-correlation day, since 2024</h2>
+      <p class="dv-note">Every session since Jan 2024 with the 20-day correlation below 0, and where KRE and QQQ each stood 20 sessions later (any size: a small dip counts as down, unlike the 5% bar beside it).<span data-source="base_rate" data-field="windows" data-row="0">—</span> overlapping windows from about <span data-source="base_rate" data-field="runs" data-row="0">—</span> separate stretches, so far fewer independent cases than windows.</p>
+      <div class="dv-table-wrap">
+        <table class="dv-table" id="base-table" data-source="base_rate" data-row-key="outcome">
+          <thead><tr><th data-field="outcome">20 sessions later</th><th data-field="count">Windows</th><th data-field="share_pct">Share</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+    <section class="dv-card" id="long-history">
+      <h2>How past see-saws ended, since 2006</h2>
+      <p class="dv-note">Each past time the 20-day correlation first fell to today's signal level (−0.24), measured from that day. Mostly bull-market years; no episode began in a crisis.</p>
+      <div class="dv-table-wrap">
+        <table class="dv-table" id="hist-table" data-source="long_history" data-row-key="measure">
+          <thead><tr><th data-field="measure">Within 40 sessions of the signal</th><th data-field="value">Episodes</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
   </div>
 
   <h2 class="dv-section" id="how-far">How far apart they have moved</h2>
@@ -76,7 +118,7 @@
     </section>
     <section class="dv-card" id="yield">
       <h2>10-year Treasury yield</h2>
-      <p class="dv-note">The likely link. Falling yields ease regional banks' real-estate refinancing worries; this is a hypothesis, not a measured cause.</p>
+      <p class="dv-note">The measured link: regional banks have lately risen when this yield falls, the reverse of their usual pattern (see the watch tile). Why is a hypothesis: lower yields ease their bond losses and real-estate refinancing.</p>
       <div class="dv-chart" id="yield-chart" data-source="kre_qqq_daily"></div>
     </section>
   </div>
@@ -451,5 +493,148 @@ dash.calc('daily_gap', {
   }
 
   dash.onData(draw);
+})();
+</script>
+
+<script>
+dash.calc('watch', {
+  inputs: ['kre_qqq_daily', 'watch_refs'],
+  title: 'Daily watch readings',
+  description: 'Latest reading of each warning sign against the thresholds in Watch thresholds and references: correlation back above 0, KRE/QQQ off its peak since Oct 6, first joint down day since the signal, 5-session 10-year change, KRE sensitivity to the 10-year, and KRE on the last yields-down day.',
+  fn: (kre_qqq_daily, watch_refs) => {
+    const ref = {}; watch_refs.forEach(r => { ref[r.key] = r.unit === 'date' ? r.value : +r.value; });
+    const rows = kre_qqq_daily.map(r => ({ date: r.date, kre: +r.kre, qqq: +r.qqq, ten: +r.ten_year, kr: +r.kre_ret_pct, qr: +r.qqq_ret_pct,
+      tb: +r.ten_chg_bp, c: +r.corr20, b60: +r.kre_per_10bp_60 }));
+    const n = rows.length, last = rows[n - 1];
+    const iSig = rows.findIndex(r => r.date >= ref.signal_date);
+    const iAnc = rows.findIndex(r => r.date >= '2026-10-06');
+    if (iSig < 0 || iAnc < 0 || n < 6) return [];
+    const r1 = x => Math.round(x * 10) / 10, r2 = x => Math.round(x * 100) / 100;
+    const peak = Math.max(...rows.slice(iAnc).map(r => r.kre / r.qqq));
+    const off = (last.kre / last.qqq / peak - 1) * 100;
+    const joint = rows.slice(iSig + 1).find(r => r.kr <= ref.joint_day_pct && r.qr <= ref.joint_day_pct);
+    const ten5 = (last.ten - rows[n - 6].ten) * 100;
+    let ld = null; for (let i = n - 1; i >= 0; i--) if (rows[i].tb <= ref.alarm_ten_bp) { ld = rows[i]; break; }
+    let toFomc = 0; const d0 = new Date(last.date + 'T00:00:00Z'), d1 = new Date(ref.fomc_date + 'T00:00:00Z');
+    for (let d = new Date(d0.getTime() + 864e5); d <= d1; d = new Date(d.getTime() + 864e5)) { const w = d.getUTCDay(); if (w > 0 && w < 6) toFomc++; }
+    const on = { corr_on: last.c > 0 ? 1 : 0, ratio_on: off <= -ref.ratio_rollover_pct ? 1 : 0, joint_on: joint ? 1 : 0,
+      ten_on: ten5 >= ref.ten_up_bp ? 1 : 0, alarm_on: ld && ld.kr < 0 ? 1 : 0 };
+    return [{ last_date: last.date, corr20: r2(last.c), sessions_since_signal: n - 1 - iSig, median_runway: ref.median_runway,
+      ratio_off_peak_pct: r1(off), ratio_rollover_pct: ref.ratio_rollover_pct, first_joint_day: joint ? joint.date : 'None yet',
+      ten_chg5_bp: r1(ten5), ten_up_bp: ref.ten_up_bp, ten_last: r2(last.ten), kre_per_10bp_60: r2(last.b60),
+      reginald_beta: ref.reginald_beta, reginald_r2: ref.reginald_r2,
+      last_down_date: ld ? ld.date : '', last_down_ten_bp: ld ? r1(ld.tb) : null, last_down_kre_ret: ld ? r2(ld.kr) : null,
+      fomc_date: ref.fomc_date, sessions_to_fomc: toFomc, ...on,
+      signs_on: on.corr_on + on.ratio_on + on.joint_on + on.ten_on + on.alarm_on }];
+  }
+});
+
+dash.calc('base_rate', {
+  inputs: ['kre_qqq_daily'],
+  title: 'Outcomes after negative correlation',
+  description: 'Every session since Jan 2024 whose 20-day correlation was below 0 and that has 20 later sessions: where KRE and QQQ each stood 20 sessions later (up or down), as counts and shares; runs = separate stretches of such sessions.',
+  fn: (kre_qqq_daily) => {
+    const rows = kre_qqq_daily.map(r => ({ kre: +r.kre, qqq: +r.qqq, c: +r.corr20 }));
+    const names = ['QQQ down, KRE up', 'Both down', 'QQQ up, KRE down', 'Both up'];
+    const cnt = [0, 0, 0, 0]; let runs = 0, prev = -2;
+    for (let i = 0; i + 20 < rows.length; i++) {
+      if (!(rows[i].c < 0)) continue;
+      if (i !== prev + 1) runs++; prev = i;
+      const k = rows[i + 20].kre >= rows[i].kre, q = rows[i + 20].qqq >= rows[i].qqq;
+      cnt[!q && k ? 0 : !q && !k ? 1 : q && !k ? 2 : 3]++;
+    }
+    const tot = cnt.reduce((a, b) => a + b, 0);
+    return names.map((nm, j) => ({ outcome: nm, count: cnt[j], share_pct: tot ? Math.round(cnt[j] / tot * 1000) / 10 : null, windows: tot, runs }));
+  }
+});
+
+dash.calc('long_history', {
+  inputs: ['episodes_2006'],
+  title: 'How past see-saws ended',
+  description: 'Counts over the completed KRE/QQQ see-saw episodes since 2006 (signal = 20-day correlation first at or below -0.24, re-armed above 0).',
+  fn: (episodes_2006) => {
+    const n = episodes_2006.length, t = v => String(v).toLowerCase() === 'true';
+    const run = episodes_2006.map(r => +r.runway_sessions).sort((a, b) => a - b);
+    const med = n % 2 ? run[(n - 1) / 2] : (run[n / 2 - 1] + run[n / 2]) / 2;
+    const c = k => episodes_2006.filter(r => r.class_at_20 === k).length;
+    return [
+      { measure: 'Both KRE and QQQ fell 5% or more', value: `${episodes_2006.filter(r => t(r.both_fell_5pct_40d)).length} of ${n}` },
+      { measure: 'Both rose 5% or more', value: `${episodes_2006.filter(r => t(r.both_rose_5pct_40d)).length} of ${n}` },
+      { measure: 'Gap kept widening after 20 sessions (3%+)', value: `${c('CONTINUED')} of ${n}` },
+      { measure: 'Gap flat after 20 sessions', value: `${c('FLAT')} of ${n}` },
+      { measure: 'Gap closed after 20 sessions (3%+)', value: `${c('SNAP-BACK')} of ${n}` },
+      { measure: 'Median sessions until correlation back above 0', value: String(med) }
+    ];
+  }
+});
+</script>
+
+<script>
+(function () {
+  const sgn1 = d3.format('+.1f'), sgn2 = d3.format('+.2f');
+  const fmtShort = d3.utcFormat('%b %-d'), fmtLong = d3.utcFormat('%a %b %-d');
+  const day = s => new Date(s + 'T00:00:00Z');
+  const STATE = {
+    corr_on: ['Not yet: still a see-saw', 'ON: moving together again'],
+    ratio_on: ['Off: no rollover', 'ON: ratio rolling over'],
+    joint_on: ['Off', 'ON: joint down day'],
+    ten_on: ['Off', 'ON: 10-year turning up'],
+    alarm_on: ['Off: rate relief still working', 'ALARM: KRE fell as yields fell']
+  };
+  function setText(el, text) { if (el) { el.textContent = text; el.classList.remove('dash-skeleton'); } }
+  function rowsInto(tbody, rows, cols) {
+    tbody.textContent = '';
+    rows.forEach(r => { const tr = document.createElement('tr'); cols.forEach(f => { const td = document.createElement('td'); td.textContent = f(r); tr.appendChild(td); }); tbody.appendChild(tr); });
+  }
+  function drawWatch() {
+    const w = dash.data('watch');
+    const tiles = document.getElementById('watch-tiles');
+    const statusEl = document.getElementById('watch-status'), fomcEl = document.getElementById('fomc');
+    if (w.status !== 'ok' || !w.data.length) {
+      if (w.status !== 'loading') { setText(statusEl, '—'); setText(fomcEl, '—'); tiles.querySelectorAll('.big').forEach(e => setText(e, '—')); }
+    } else {
+      const h = w.data[0];
+      const q = f => tiles.querySelector(`[data-field="${f}"]`);
+      setText(q('corr20'), sgn2(h.corr20));
+      setText(q('sessions_since_signal'), String(h.sessions_since_signal));
+      setText(q('median_runway'), String(h.median_runway));
+      setText(q('ratio_off_peak_pct'), sgn1(h.ratio_off_peak_pct) + '%');
+      setText(q('ratio_rollover_pct'), String(h.ratio_rollover_pct));
+      setText(q('first_joint_day'), h.first_joint_day === 'None yet' ? 'None yet' : fmtShort(day(h.first_joint_day)));
+      setText(q('ten_chg5_bp'), sgn1(h.ten_chg5_bp) + ' bp');
+      setText(q('ten_up_bp'), String(h.ten_up_bp));
+      setText(q('ten_last'), h.ten_last.toFixed(2));
+      setText(q('kre_per_10bp_60'), sgn2(h.kre_per_10bp_60) + '%');
+      setText(q('reginald_beta'), sgn2(h.reginald_beta));
+      setText(q('reginald_r2'), h.reginald_r2.toFixed(2));
+      setText(q('last_down_kre_ret'), h.last_down_kre_ret === null ? '—' : sgn2(h.last_down_kre_ret) + '%');
+      setText(q('last_down_date'), h.last_down_date ? fmtShort(day(h.last_down_date)) : '—');
+      setText(q('last_down_ten_bp'), h.last_down_ten_bp === null ? '—' : sgn1(h.last_down_ten_bp));
+      Object.keys(STATE).forEach(k => {
+        const el = tiles.querySelector(`[data-k="${k}"]`); if (!el) return;
+        el.textContent = STATE[k][h[k] ? 1 : 0]; el.classList.toggle('on', !!h[k]);
+        el.closest('.dv-tile').classList.toggle('on', !!h[k]);
+      });
+      const be = tiles.querySelector('[data-k="beta_note"]');
+      be.textContent = h.kre_per_10bp_60 < 0 ? 'Inverted: KRE rises when yields fall' : 'Normal: KRE rises with yields';
+      statusEl.textContent = `${h.signs_on} of 5 warning signs on at the ${fmtShort(day(h.last_date))} close. ` +
+        (h.signs_on === 0 ? 'The see-saw is intact: no sign yet that it is turning into a joint fall or a joint rally.' :
+          'Read the lit tiles below: a sign on is a reason to look, not a forecast.');
+      statusEl.classList.remove('dash-skeleton');
+      fomcEl.textContent = '';
+      const b = document.createElement('b'); b.textContent = 'Checkpoint: '; fomcEl.appendChild(b);
+      fomcEl.appendChild(document.createTextNode(`Fed decision ${fmtLong(day(h.fomc_date))}, 2:00 pm ET, ${h.sessions_to_fomc} sessions away. ` +
+        'If the 10-year rises after it, regional banks lose the falling-yield support behind their rally while tech also feels higher rates: the November 2021 pattern. If it keeps falling, the see-saw can run.'));
+    }
+    const br = dash.data('base_rate'), bt = document.querySelector('#base-table tbody');
+    const brNote = document.querySelectorAll('#base-rate span[data-source="base_rate"]');
+    if (br.status === 'ok' && br.data.length) {
+      rowsInto(bt, br.data, [r => r.outcome, r => String(r.count), r => r.share_pct === null ? '—' : r.share_pct.toFixed(1) + '%']);
+      brNote.forEach(e => setText(e, String(br.data[0][e.dataset.field])));
+    } else bt.textContent = '';
+    const lh = dash.data('long_history'), ht = document.querySelector('#hist-table tbody');
+    if (lh.status === 'ok') rowsInto(ht, lh.data, [r => r.measure, r => r.value]); else ht.textContent = '';
+  }
+  dash.onData(drawWatch);
 })();
 </script>
