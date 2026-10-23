@@ -1,0 +1,631 @@
+<style>
+#dash-root .rp { display: flex; flex-direction: column; gap: var(--cds-gap-lg); font-family: var(--font-anthropic-sans); max-width: 72rem; margin-inline: auto; }
+#dash-root .rp-head h1 { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); margin: 0; text-wrap: balance; }
+#dash-root .rp-meta { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); margin: var(--cds-gap-xs) 0 0; }
+#dash-root .rp-take { font-size: var(--cds-font-size-body); margin: var(--cds-gap-sm) 0 0; max-width: 68ch; line-height: 1.55; }
+#dash-root .rp-nav { display: flex; flex-wrap: wrap; gap: var(--cds-gap-xs); }
+#dash-root .rp-nav button { font: inherit; font-size: var(--cds-font-size-caption); padding: var(--cds-pad-xs) var(--cds-pad-sm); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); background: var(--color-bg); color: var(--color-fg); cursor: pointer; }
+#dash-root .rp-nav button:focus-visible, #dash-root .rp-range button:focus-visible { outline: 2px solid var(--color-fg); outline-offset: 2px; }
+#dash-root .rp-sec { display: flex; flex-direction: column; gap: var(--cds-gap-md); scroll-margin-top: var(--cds-gap-lg); }
+#dash-root .rp-sec > h2 { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); margin: var(--cds-gap-md) 0 0; text-wrap: balance; }
+#dash-root .rp-lede { margin: 0; max-width: 68ch; line-height: 1.55; }
+#dash-root .rp-findings { margin: 0; padding-left: 1.2rem; display: flex; flex-direction: column; gap: var(--cds-gap-sm); max-width: 72ch; line-height: 1.55; }
+#dash-root .rp-findings b, #dash-root .rp-lede b { font-weight: var(--cds-font-weight-medium); }
+#dash-root .rp-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 11rem), 1fr)); gap: var(--cds-gap-md); }
+#dash-root .rp-tile { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-md) var(--cds-pad-lg); display: flex; flex-direction: column; gap: var(--cds-gap-xs); min-width: 0; }
+#dash-root .rp-tile .lbl, #dash-root .rp-tile .sub { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+#dash-root .rp-tile .big { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); font-variant-numeric: tabular-nums; }
+#dash-root .rp-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 26rem), 1fr)); gap: var(--cds-gap-md); }
+#dash-root .rp-card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); display: flex; flex-direction: column; gap: var(--cds-gap-sm); min-width: 0; }
+#dash-root .rp-card h3 { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); margin: 0; }
+#dash-root .rp-note { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: 0; max-width: 72ch; line-height: 1.5; }
+#dash-root .rp-chart { position: relative; min-height: 240px; }
+#dash-root .rp-chart.tall { min-height: 260px; }
+#dash-root .rp-range { display: flex; gap: var(--cds-gap-xs); flex-wrap: wrap; }
+#dash-root .rp-range button { font: inherit; font-size: var(--cds-font-size-caption); padding: var(--cds-pad-xs) var(--cds-pad-sm); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); background: var(--color-bg); color: var(--color-fg); cursor: pointer; }
+#dash-root .rp-range button[aria-pressed="true"] { background: var(--color-fg); color: var(--color-bg); border-color: var(--color-fg); }
+#dash-root .rp-key { display: flex; gap: var(--cds-gap-md); flex-wrap: wrap; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+#dash-root .rp-key i { display: inline-block; width: 0.75rem; height: 0.2rem; border-radius: 2px; vertical-align: middle; margin-right: 0.35rem; }
+#dash-root .rp-tip { position: absolute; background: var(--cds-surface-popover); border: 1px solid var(--cds-border); border-radius: var(--cds-radius); box-shadow: var(--cds-shadow-popover); padding: var(--cds-pad-xs) var(--cds-pad-sm); font-size: var(--cds-font-size-caption); pointer-events: none; white-space: nowrap; font-variant-numeric: tabular-nums; z-index: 2; }
+#dash-root .rp-tip .d { color: var(--cds-text-secondary); }
+#dash-root .rp-tip .sw { display: inline-block; width: 0.5rem; height: 0.5rem; border-radius: 50%; margin-right: 0.35rem; }
+#dash-root .rp-tw { overflow-x: auto; }
+#dash-root table.rp-t { width: 100%; border-collapse: collapse; font-size: var(--cds-font-size-caption); font-variant-numeric: tabular-nums; }
+#dash-root table.rp-t th, #dash-root table.rp-t td { text-align: right; padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); vertical-align: top; }
+#dash-root table.rp-t th.l, #dash-root table.rp-t td.l { text-align: left; }
+#dash-root table.rp-t td.w { min-width: 14rem; text-align: left; }
+#dash-root table.rp-t th { color: var(--color-fg-muted); font-weight: var(--cds-font-weight-medium); white-space: nowrap; }
+#dash-root table.rp-t tr.hi td { font-weight: var(--cds-font-weight-medium); }
+#dash-root .up { color: var(--color-ok); }
+#dash-root .down { color: var(--color-bad); }
+#dash-root .rp-pill { display: inline-block; font-size: var(--cds-font-size-caption); padding: 0 var(--cds-pad-sm); border-radius: 999px; border: 1px solid var(--color-border-line); white-space: nowrap; }
+#dash-root .rp-pill.warn { color: var(--color-warn); border-color: var(--color-warn); }
+#dash-root .rp-pill.ok { color: var(--color-ok); border-color: var(--color-ok); }
+#dash-root .rp-pill.bad { color: var(--color-bad); border-color: var(--color-bad); }
+#dash-root .rp-rules { margin: 0; padding-left: 1.2rem; display: flex; flex-direction: column; gap: var(--cds-gap-xs); max-width: 72ch; line-height: 1.5; }
+#dash-root .rp-fail { display: flex; align-items: center; justify-content: center; gap: var(--cds-gap-xs); color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); min-height: inherit; }
+#dash-root .rp-fail::before { content: ""; width: 0.375rem; height: 0.375rem; border-radius: 50%; background: var(--color-bad); }
+#dash-root [data-dash-source-state=empty] { color: transparent; }
+#dash-root [data-dash-source-state=refreshing] { opacity: .5; transition: opacity var(--cds-dur-slow); }
+</style>
+
+<div class="rp">
+  <header class="rp-head" id="top">
+    <h1>KRE vs QQQ: the divergence report</h1>
+    <p class="rp-meta">TERRY trade desk · market data through the Oct 22, 2026 close · option quotes from the Oct 23 session (screening, not broker) · ideas only, nothing placed</p>
+    <p class="rp-take" id="takeaway" data-source="headline"><span class="dash-skeleton">—</span></p>
+  </header>
+
+  <nav class="rp-nav" aria-label="Report sections">
+    <button type="button" data-go="findings">Key findings</button>
+    <button type="button" data-go="now">What's happening</button>
+    <button type="button" data-go="rare">How rare</button>
+    <button type="button" data-go="behave">How divergences behave</button>
+    <button type="button" data-go="book">Your book</button>
+    <button type="button" data-go="tested">Strategies tested</button>
+    <button type="button" data-go="timing">Timing</button>
+    <button type="button" data-go="ideas">Trade ideas</button>
+    <button type="button" data-go="caveats">Caveats</button>
+  </nav>
+
+  <section class="rp-sec" id="findings">
+    <h2>Key findings</h2>
+    <ol class="rp-findings">
+      <li><b>It's a real divergence, and a rare one.</b> Since QQQ's Oct 6 peak close, regional banks moved <span data-source="headline" data-field="kre_since" data-fmt="pct1">—</span> and tech <span data-source="headline" data-field="qqq_since" data-fmt="pct1">—</span>. Their 20-day correlation is <span data-source="headline" data-field="corr20" data-fmt="sgn2">—</span>, lower than <span data-source="headline" data-field="corr_pctile_below" data-fmt="num1">—</span>% of readings since 2024. For 2026 so far the yearly correlation is <span data-source="yearly_corr" data-field="corr" data-where="year=2026" data-fmt="sgn2">—</span>, the lowest since 2006.</li>
+      <li><b>The see-saw is one-sided.</b> On QQQ's big down days (1% or more) since late September, KRE averaged <span data-source="big_days" data-field="kre_avg_on_down" data-where="window=Sep 25 – Oct 22, 2026" data-fmt="pct2">—</span>. In 2025 through mid-2026 it averaged <span data-source="big_days" data-field="kre_avg_on_down" data-where="window=Jan 2025 – Jun 2026" data-fmt="pct2">—</span> on those days. Banks now hold up when tech falls; the reverse is weaker.</li>
+      <li><b>Divergences trend; they don't oscillate.</b> Past episodes ran <span data-source="episode_ranges" data-field="sess_min" data-fmt="int">—</span>–<span data-source="episode_ranges" data-field="sess_max" data-fmt="int">—</span> sessions with the KRE ÷ QQQ line moving <span data-source="episode_ranges" data-field="net_min" data-fmt="num1">—</span>–<span data-source="episode_ranges" data-field="net_max" data-fmt="num1">—</span>% and pullbacks of only <span data-source="episode_ranges" data-field="ctr_min" data-fmt="num1">—</span>–<span data-source="episode_ranges" data-field="ctr_max" data-fmt="num1">—</span>%. July 2024's ended with both falling together: KRE <span data-source="divergence_episodes" data-field="kre_pct" data-where="episode=Then: both fall together" data-fmt="pct1">—</span>, QQQ <span data-source="divergence_episodes" data-field="qqq_pct" data-where="episode=Then: both fall together" data-fmt="pct1">—</span> in three sessions.</li>
+      <li><b>"Sell, buy, sell, buy" cost money in this trend.</b> Starting Oct 6, rebalancing between the two put legs made <span data-source="strategy_backtest" data-field="pnl_base" data-where="id=2026-10-06 rebalance" data-fmt="pct1">—</span> against <span data-source="strategy_backtest" data-field="pnl_base" data-where="id=2026-10-06 hold" data-fmt="pct1">—</span> for simply holding (model). Over two months, harvest-and-park held up best: <span data-source="strategy_backtest" data-field="pnl_base" data-where="id=2026-08-24 harvest" data-fmt="pct1">—</span> against <span data-source="strategy_backtest" data-field="pnl_base" data-where="id=2026-08-24 hold" data-fmt="pct1">—</span>.</li>
+      <li><b>Timing beats strategy.</b> Every test started late September or later made money; every July or August start lost. Bank puts bought when insurance was cheap and KRE had run up averaged <span data-source="timing_signals" data-field="mean_pct" data-where="id=KRE: Cheap AND stretched up" data-fmt="pct1">—</span>; bought when insurance was expensive and KRE had already dropped, <span data-source="timing_signals" data-field="mean_pct" data-where="id=KRE: Expensive AND stretched down" data-fmt="pct1">—</span>.</li>
+      <li><b>Right now is a watch window, not a buy window.</b> QQQ insurance (VXN) is at the <span data-source="start_conditions" data-field="vxn_pctile" data-where="moment=Now (Oct 22 close)" data-fmt="ord">—</span> percentile of six months with QQQ <span data-source="start_conditions" data-field="qqq_vs_ma20_pct" data-where="moment=Now (Oct 22 close)" data-fmt="pct2">—</span> against its 20-day average: the worst setup for buying QQQ puts. Bank insurance (VIX) is at the <span data-source="start_conditions" data-field="vix_pctile" data-where="moment=Now (Oct 22 close)" data-fmt="ord">—</span> percentile.</li>
+      <li><b>Your downside book is two bets that cancel during the see-saw.</b> <span data-source="book_snapshot" data-field="contracts" data-where="group=Bank and credit puts" data-fmt="int">—</span> bank and credit put contracts against <span data-source="book_snapshot" data-field="contracts" data-where="group=Tech (QQQ) puts" data-fmt="int">—</span> QQQ put. Both sides pay only if the see-saw breaks downward, and nothing pays if both rally.</li>
+    </ol>
+  </section>
+
+  <section class="rp-sec" id="now">
+    <h2>What's happening</h2>
+    <div class="rp-tiles">
+      <div class="rp-tile"><span class="lbl">Regional banks (KRE) since Oct 6</span><span class="big dash-skeleton" data-source="headline" data-field="kre_since" data-fmt="pct1">—</span><span class="sub">Close to last close</span></div>
+      <div class="rp-tile"><span class="lbl">Tech (QQQ) since Oct 6</span><span class="big dash-skeleton" data-source="headline" data-field="qqq_since" data-fmt="pct1">—</span><span class="sub">Oct 6 was QQQ's highest close in the data</span></div>
+      <div class="rp-tile"><span class="lbl">Gap, banks minus tech</span><span class="big dash-skeleton" data-source="headline" data-field="gap_pp" data-fmt="sgn1">—</span><span class="sub">Percentage points</span></div>
+      <div class="rp-tile"><span class="lbl">20-day correlation</span><span class="big dash-skeleton" data-source="headline" data-field="corr20" data-fmt="sgn2">—</span><span class="sub">Median since 2024: <span data-source="headline" data-field="corr_median" data-fmt="sgn2">—</span></span></div>
+    </div>
+    <div class="rp-range" role="group" aria-label="Date range for the price charts">
+      <button type="button" id="rng-3m" data-range="3m" aria-pressed="true">3 months</button>
+      <button type="button" id="rng-6m" data-range="6m" aria-pressed="false">6 months</button>
+      <button type="button" id="rng-1y" data-range="1y" aria-pressed="false">1 year</button>
+      <button type="button" id="rng-all" data-range="all" aria-pressed="false">Since Jan 2024</button>
+    </div>
+    <div class="rp-grid">
+      <section class="rp-card" id="perf">
+        <h3>Both rebased to 100</h3>
+        <p class="rp-note">Each line starts at 100 on the first day of the range.</p>
+        <div class="rp-key"><span><i id="key-kre"></i>KRE regional banks</span><span><i id="key-qqq"></i>QQQ Nasdaq-100</span></div>
+        <div class="rp-chart" id="perf-chart" data-source="kre_qqq_daily"></div>
+      </section>
+      <section class="rp-card" id="ratio">
+        <h3>The divergence: KRE ÷ QQQ</h3>
+        <p class="rp-note">Rebased to 100. Rising means banks are beating tech. This is the line the timing and turn signals watch.</p>
+        <div class="rp-chart" id="ratio-chart" data-source="kre_qqq_daily"></div>
+      </section>
+      <section class="rp-card" id="daily">
+        <h3>Day by day, last 20 sessions</h3>
+        <p class="rp-note">KRE's daily move minus QQQ's. KRE-colored bars are days banks beat tech.</p>
+        <div class="rp-chart" id="gap-chart" data-source="daily_gap"></div>
+      </section>
+      <section class="rp-card" id="yield">
+        <h3>10-year Treasury yield</h3>
+        <p class="rp-note">The likely link: falling yields ease regional banks' real-estate refinancing worries. A hypothesis, not a measured cause.</p>
+        <div class="rp-chart" id="yield-chart" data-source="kre_qqq_daily"></div>
+      </section>
+    </div>
+  </section>
+
+  <section class="rp-sec" id="rare">
+    <h2>How rare this is</h2>
+    <div class="rp-grid">
+      <section class="rp-card" id="corr">
+        <h3>20-day correlation since 2024</h3>
+        <p class="rp-note">+1 moves together, −1 is a perfect see-saw. Shaded areas are stretches below zero; the dashed line is the median.</p>
+        <div class="rp-chart tall" id="corr-chart" data-source="kre_qqq_daily headline"></div>
+      </section>
+      <section class="rp-card" id="years">
+        <h3>Correlation by calendar year, 2006–2026</h3>
+        <p class="rp-note">Positive every year. 2006 starts June 23; 2026 runs through Oct 22.</p>
+        <div class="rp-chart tall" id="year-chart" data-source="yearly_corr"></div>
+      </section>
+    </div>
+    <section class="rp-card" id="bigdays">
+      <h3>What KRE did on QQQ's big days</h3>
+      <p class="rp-note">Days QQQ moved 1% or more. The current window is the only one where banks tended to rise on tech's down days.</p>
+      <div class="rp-tw">
+        <table class="rp-t" id="bd-table" data-source="big_days" data-row-key="window">
+          <thead><tr>
+            <th class="l" data-field="window">Window</th>
+            <th data-field="qqq_down_days">QQQ down 1%+ days</th>
+            <th data-field="kre_avg_on_down">KRE average those days</th>
+            <th data-field="kre_up_share">KRE rose</th>
+            <th data-field="qqq_up_days">QQQ up 1%+ days</th>
+            <th data-field="kre_avg_on_up">KRE average those days</th>
+            <th data-field="kre_down_share">KRE fell</th>
+          </tr></thead><tbody></tbody>
+        </table>
+      </div>
+    </section>
+  </section>
+
+  <section class="rp-sec" id="behave">
+    <h2>How divergences behave</h2>
+    <p class="rp-lede">The daily see-saw is noise on top of a trend. In past episodes the KRE ÷ QQQ line moved one way for weeks with only small pullbacks, then mostly flattened rather than snapping back. Most past splits came with <b>rising</b> yields; this one, like July 2024, comes with <b>falling</b> yields.</p>
+    <section class="rp-card" id="episodes">
+      <h3>Past divergences and how they ended</h3>
+      <p class="rp-note">Windows chosen by TERRY around known rotations, which tilts the sample toward trends. Episode labels are general background, not sourced.</p>
+      <div class="rp-tw">
+        <table class="rp-t" id="ep-table" data-source="divergence_episodes" data-row-key="episode">
+          <thead><tr>
+            <th class="l" data-field="episode">Episode</th>
+            <th data-field="start">From</th>
+            <th data-field="end">To</th>
+            <th data-field="kre_pct">KRE</th>
+            <th data-field="qqq_pct">QQQ</th>
+            <th data-field="ratio_net_pct">KRE ÷ QQQ</th>
+            <th data-field="max_counter_pct">Biggest pullback</th>
+            <th data-field="sessions">Sessions</th>
+            <th data-field="ratio_next20_pct">Next 20 sessions</th>
+            <th data-field="ten_year_start">10-yr start</th>
+            <th data-field="ten_year_end">10-yr end</th>
+          </tr></thead><tbody></tbody>
+        </table>
+      </div>
+    </section>
+  </section>
+
+  <section class="rp-sec" id="book">
+    <h2>What it means for your book</h2>
+    <section class="rp-card" id="book-card">
+      <h3>Downside positions</h3>
+      <p class="rp-note">From the reconcile of your Fidelity IRA positions on Oct 22 at 11:01 ET (intraday marks). Robinhood not verified. A structure read, not a prompt to sell or hold any line.</p>
+      <div class="rp-tw">
+        <table class="rp-t" id="book-table" data-source="book_snapshot" data-row-key="group">
+          <thead><tr>
+            <th class="l" data-field="group">Group</th>
+            <th data-field="contracts">Contracts</th>
+            <th data-field="lines">Lines</th>
+            <th class="l" data-field="detail">Detail</th>
+            <th class="l" data-field="expiries">Expiries</th>
+          </tr></thead><tbody></tbody>
+        </table>
+      </div>
+    </section>
+    <section class="rp-card" id="scenarios">
+      <h3>Three ways this ends</h3>
+      <div class="rp-tw">
+        <table class="rp-t">
+          <thead><tr><th class="l">Scenario</th><th class="l">What happens</th><th class="l">Your downside book</th></tr></thead>
+          <tbody>
+            <tr><td class="l"><span class="rp-pill warn">See-saw continues</span></td><td class="l w">Tech falls, banks hold or rise (or the reverse)</td><td class="l w">The two sides offset and both lose value to time decay. A slow drain.</td></tr>
+            <tr><td class="l"><span class="rp-pill ok">Both fall together</span></td><td class="l w">A real risk-off move, the August 2024 shape</td><td class="l w">Bank puts and QQQ puts pay at the same time. The scenario the book is built for.</td></tr>
+            <tr><td class="l"><span class="rp-pill bad">Both rally together</span></td><td class="l w">Falling rates plus a tech rebound</td><td class="l w">Nothing in the downside book pays. The gap in the book.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </section>
+
+  <section class="rp-sec" id="tested">
+    <h2>Strategies tested</h2>
+    <p class="rp-lede">$1,000 split across KRE and QQQ puts (3% below the price, about two months out, rolled near three weeks left), marked at the Oct 22 close. <b>Hold both</b>; <b>Rebalance</b> back to 50/50 whenever KRE ÷ QQQ moves 3%; <b>Harvest and park</b>: sell half of a leg at +50% on its red day, hold the cash, and buy the other leg only after the line turns 3%. Option prices are modeled from the VIX and VXN volatility indexes, so each result is shown under three pricing assumptions.</p>
+    <section class="rp-card" id="bt-card">
+      <h3>Profit or loss on $1,000, by start date</h3>
+      <p class="rp-note">Base case first; the range shows cheaper and pricier option assumptions. Trades and trading costs are for the base case.</p>
+      <div class="rp-tw">
+        <table class="rp-t" id="bt-table" data-source="strategy_backtest" data-row-key="id">
+          <thead><tr>
+            <th class="l" data-field="start">Start</th>
+            <th class="l" data-field="strategy">Strategy</th>
+            <th data-field="kre_px_pct">KRE price</th>
+            <th data-field="qqq_px_pct">QQQ price</th>
+            <th data-field="pnl_base">Result (base)</th>
+            <th data-field="pnl_low">Cheaper options</th>
+            <th data-field="pnl_high">Pricier options</th>
+            <th data-field="trades">Trades</th>
+            <th data-field="friction_usd">Trading costs</th>
+          </tr></thead><tbody></tbody>
+        </table>
+      </div>
+    </section>
+  </section>
+
+  <section class="rp-sec" id="timing">
+    <h2>Timing</h2>
+    <p class="rp-lede">You can't time the turn, but you can time the purchase: buy insurance when it's cheap and the stock has just run up, never after a drop when fear is high.</p>
+    <section class="rp-card" id="start-card">
+      <h3>What the winning start dates had in common</h3>
+      <p class="rp-note">Volatility percentile ranks today's index level against the prior 120 sessions; lower means cheaper puts. "vs 20-day avg" is the close against its 20-session average.</p>
+      <div class="rp-tw">
+        <table class="rp-t" id="sc-table" data-source="start_conditions" data-row-key="moment">
+          <thead><tr>
+            <th class="l" data-field="moment">Moment</th>
+            <th data-field="vxn">VXN</th>
+            <th data-field="vxn_pctile">VXN percentile</th>
+            <th data-field="qqq_vs_ma20_pct">QQQ vs 20-day avg</th>
+            <th data-field="vix">VIX</th>
+            <th data-field="vix_pctile">VIX percentile</th>
+            <th data-field="kre_vs_ma20_pct">KRE vs 20-day avg</th>
+            <th data-field="hold_pnl_base">Hold-both result</th>
+          </tr></thead><tbody></tbody>
+        </table>
+      </div>
+    </section>
+    <section class="rp-card" id="signals-card">
+      <h3>Every trading day since January 2024: buy a put, sell it four weeks later</h3>
+      <p class="rp-note">Put 3% below the price, about two months out; modeled prices. Neighbouring days overlap, so "about N episodes" is the honest count of separate cases.</p>
+      <div class="rp-tw">
+        <table class="rp-t" id="ts-table" data-source="timing_signals" data-row-key="id">
+          <thead><tr>
+            <th class="l" data-field="leg">Leg</th>
+            <th class="l" data-field="condition">Condition when bought</th>
+            <th data-field="n_days">Days</th>
+            <th data-field="approx_episodes">About N episodes</th>
+            <th data-field="mean_pct">Average</th>
+            <th data-field="median_pct">Typical (median)</th>
+            <th data-field="win_pct">Made money</th>
+          </tr></thead><tbody></tbody>
+        </table>
+      </div>
+    </section>
+    <section class="rp-card" id="checklist">
+      <h3>Timing checklist for any new put</h3>
+      <ol class="rp-rules">
+        <li>Insurance is cheap: the volatility index is in the bottom quarter of its last six months.</li>
+        <li>The stock is 2% or more above its 20-day average.</li>
+        <li>It's a green day for that stock (root rule #6).</li>
+        <li>A dated event falls before expiry: an earnings report, inflation data, a Fed meeting.</li>
+        <li>Never buy when fear is high and the stock has already dropped. That's a chase, and it was the worst setup in both legs.</li>
+      </ol>
+    </section>
+  </section>
+
+  <section class="rp-sec" id="ideas">
+    <h2>Trade ideas</h2>
+    <p class="rp-lede">Ideas only. Nothing is placed, and each needs your approval on a broker-priced ticket. Quotes are free-feed screening marks. Your Fidelity options level is 2; single options fit, spreads may need a higher level (unverified).</p>
+    <section class="rp-card" id="ideas-card">
+      <h3>Ideas on file</h3>
+      <div class="rp-tw">
+        <table class="rp-t" id="ideas-table" data-source="trade_ideas" data-row-key="idea">
+          <thead><tr>
+            <th class="l" data-field="idea">Idea</th>
+            <th class="l" data-field="structure">Structure</th>
+            <th data-field="max_loss_usd">Most you can lose</th>
+            <th data-field="max_gain_usd">Most it can pay</th>
+            <th data-field="breakeven">Breakeven at expiry</th>
+            <th class="l" data-field="level_needed">Account level</th>
+            <th class="l" data-field="trigger">Trigger</th>
+            <th class="l" data-field="status">Status</th>
+            <th class="l" data-field="quote_time">Quoted</th>
+          </tr></thead><tbody></tbody>
+        </table>
+      </div>
+      <p class="rp-note">"Most it can pay" is blank for single puts: they keep gaining down to zero. Max loss includes assumed $0.65-per-contract fees.</p>
+    </section>
+    <section class="rp-card" id="rotation">
+      <h3>If you rotate between the legs: rules</h3>
+      <ol class="rp-rules">
+        <li>Rotate only KRE and QQQ; single-bank puts are too wide to trade in and out of.</li>
+        <li>Buy at least 45 days out. No weeklies.</li>
+        <li>Recycle, never add: each purchase is paid for by a sale on the other side.</li>
+        <li>Take profits: sell half a leg when it's up 50% and its sector is having a red day.</li>
+        <li>Park the cash. Redeploy to the other leg only after KRE ÷ QQQ turns 3% from its extreme, on that leg's green day.</li>
+        <li>At most one swap a week, and only after a 3% move in the line.</li>
+        <li>Don't feed a loser: no recycling into a leg already down 50% from cost.</li>
+        <li>Stop rotating and hold both on the first day both fall 1% or more, or when the 20-day correlation climbs back above +0.3.</li>
+      </ol>
+    </section>
+  </section>
+
+  <section class="rp-sec" id="caveats">
+    <h2>Caveats and sources</h2>
+    <ul class="rp-rules">
+      <li><b>Model, not fills.</b> Strategy and timing tests price options with Black-Scholes from the VIX and VXN, loosely matched to Oct 23 quotes, with no skew. Treat results as direction, not exact returns.</li>
+      <li><b>Small samples.</b> Five past divergence windows, chosen around known rotations. Overlapping test days mean the true number of separate cases is about one-twentieth of the day counts.</li>
+      <li><b>One regime.</b> 2024–2026 was mostly a rising market, which makes puts look worse than in a falling one.</li>
+      <li><b>Drivers are hypotheses.</b> Rotation out of AI and chips, falling yields and mostly benign bank earnings are likely causes, not measured ones. Market-structure calls belong to HENRY, synthesis to NEXUS.</li>
+      <li><b>Data.</b> Yahoo Finance via yfinance: daily closes (dividend-adjusted), 10-year yield (^TNX), VIX and VXN; not exchange-official. Option quotes are free-feed screening marks from Oct 23; the broker quote is the real price.</li>
+      <li><b>Positions.</b> From the Oct 22 11:01 ET Fidelity reconcile; Robinhood unverified.</li>
+    </ul>
+  </section>
+</div>
+
+<script>
+dash.calc('headline', {
+  inputs: ['kre_qqq_daily'],
+  title: 'Divergence since Oct 6',
+  description: 'KRE and QQQ change from the Oct 6, 2026 close to the last close, their gap, and where the latest 20-day correlation ranks among all 20-day readings since Jan 2024.',
+  fn: (kre_qqq_daily) => {
+    const rows = kre_qqq_daily.map(r => ({ date: r.date, kre: +r.kre, qqq: +r.qqq, ten: +r.ten_year, c: +r.corr20 }));
+    const a = rows.find(r => r.date === '2026-10-06');
+    const z = rows[rows.length - 1];
+    if (!a || !z) return [];
+    const r1 = x => Math.round(x * 10) / 10;
+    const r2 = x => Math.round(x * 100) / 100;
+    const kre = (z.kre / a.kre - 1) * 100, qqq = (z.qqq / a.qqq - 1) * 100;
+    const cs = rows.map(r => r.c).sort((x, y) => x - y);
+    const below = rows.filter(r => r.c > z.c).length / rows.length * 100;
+    const med = cs.length % 2 ? cs[(cs.length - 1) / 2] : (cs[cs.length / 2 - 1] + cs[cs.length / 2]) / 2;
+    return [{ anchor: a.date, last_date: z.date, kre_since: r1(kre), qqq_since: r1(qqq), gap_pp: r1(kre - qqq),
+      corr20: r2(z.c), corr_pctile_below: r1(below), corr_median: r2(med), ten_anchor: r2(a.ten), ten_last: r2(z.ten) }];
+  }
+});
+
+dash.calc('daily_gap', {
+  inputs: ['kre_qqq_daily'],
+  title: 'Daily gap, last 20 sessions',
+  description: 'For each of the last 20 sessions, KRE daily % change minus QQQ daily % change.',
+  fn: (kre_qqq_daily) => kre_qqq_daily.slice(-20).map(r => ({
+    date: r.date, kre_ret_pct: +r.kre_ret_pct, qqq_ret_pct: +r.qqq_ret_pct,
+    gap_pp: Math.round((+r.kre_ret_pct - +r.qqq_ret_pct) * 100) / 100
+  }))
+});
+
+dash.calc('episode_ranges', {
+  inputs: ['divergence_episodes'],
+  title: 'Range across past bank-led episodes',
+  description: 'Smallest and largest length, KRE ÷ QQQ move and biggest pullback across past episodes where banks beat tech (excludes the current one and the July–August 2024 joint fall).',
+  fn: (divergence_episodes) => {
+    const e = divergence_episodes.filter(r => !String(r.episode).startsWith('Now') && r.ratio_net_pct !== '' && r.ratio_net_pct != null && +r.ratio_net_pct > 0);
+    if (!e.length) return [];
+    const net = e.map(r => +r.ratio_net_pct), ctr = e.map(r => Math.abs(+r.max_counter_pct)), ses = e.map(r => +r.sessions);
+    return [{ net_min: Math.min(...net), net_max: Math.max(...net), ctr_min: Math.min(...ctr), ctr_max: Math.max(...ctr), sess_min: Math.min(...ses), sess_max: Math.max(...ses) }];
+  }
+});
+</script>
+
+<script>
+(function () {
+  const root = document.getElementById('dash-root');
+  const parseDay = d3.utcParse('%Y-%m-%d');
+  const fmtDay = d3.utcFormat('%b %-d, %Y');
+  const fmtShort = d3.utcFormat('%b %-d');
+  const sgn1 = d3.format('+.1f'), sgn2 = d3.format('+.2f'), usd = d3.format('$,.2f');
+  const FMT = {
+    pct1: v => sgn1(v) + '%', pct2: v => sgn2(v) + '%', sgn1: v => sgn1(v), sgn2: v => sgn2(v),
+    num1: v => d3.format('.1f')(v), int: v => d3.format('.0f')(v), ord: v => ordinal(v)
+  };
+  function ordinal(n) { n = Math.round(+n); const s = (n % 100 >= 11 && n % 100 <= 13) ? 'th' : ({ 1: 'st', 2: 'nd', 3: 'rd' }[n % 10] || 'th'); return n + s; }
+  let range = '3m';
+
+  function css(name) { return getComputedStyle(root).getPropertyValue(name).trim(); }
+  function measure(svg, labels) {
+    const t = svg.append('text').attr('font-size', css('--cds-font-size-caption') || '12px').style('font-family', 'var(--font-anthropic-sans)');
+    let w = 0; labels.forEach(s => { t.text(s); w = Math.max(w, t.node().getComputedTextLength()); }); t.remove(); return w;
+  }
+  function fail(el) { el.innerHTML = ''; const d = document.createElement('div'); d.className = 'rp-fail'; d.textContent = 'Failed to load'; el.appendChild(d); }
+  function styleAxis(g) {
+    g.attr('font-size', null).attr('font-family', null);
+    g.selectAll('text').attr('fill', 'var(--color-fg-muted)').style('font-size', 'var(--cds-font-size-caption)');
+    g.selectAll('line').attr('stroke', 'var(--cds-chart-grid)'); g.select('.domain').remove();
+  }
+  function tipBox(el) { let tip = el.querySelector('.rp-tip'); if (!tip) { tip = document.createElement('div'); tip.className = 'rp-tip'; tip.hidden = true; el.appendChild(tip); } return tip; }
+  function placeTip(tip, el, x, y) {
+    const w = tip.offsetWidth, h = tip.offsetHeight, W = el.clientWidth;
+    let left = x + 12; if (left + w > W) left = x - w - 12; if (left < 0) left = 0;
+    let top = y - h - 8; if (top < 0) top = y + 12; tip.style.left = left + 'px'; tip.style.top = top + 'px';
+  }
+  function tipLines(tip, head, lines) {
+    tip.textContent = ''; const d = document.createElement('div'); d.className = 'd'; d.textContent = head; tip.appendChild(d);
+    lines.forEach(l => { const row = document.createElement('div'); if (l.color) { const s = document.createElement('span'); s.className = 'sw'; s.style.background = l.color; row.appendChild(s); } row.appendChild(document.createTextNode(l.text)); tip.appendChild(row); });
+  }
+
+  function lineChart(el, series, opt) {
+    el.innerHTML = '';
+    const W = el.clientWidth || 600, H = opt.height || 240;
+    const svg = d3.select(el).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img').attr('aria-label', opt.label);
+    const all = series.flatMap(s => s.values);
+    let lo = d3.min(all, d => d.v), hi = d3.max(all, d => d.v);
+    (opt.refs || []).forEach(r => { lo = Math.min(lo, r.v); hi = Math.max(hi, r.v); });
+    if (opt.domain) { lo = opt.domain[0]; hi = opt.domain[1]; }
+    const pad = (hi - lo) * 0.08 || 1;
+    const y0 = d3.scaleLinear([lo - pad, hi + pad], [0, 1]).nice();
+    const ticks = y0.ticks(5);
+    const endLabels = series.map(s => s.endLabel || '');
+    const ml = measure(svg, ticks.map(opt.yFmt)) + 10;
+    const mr = Math.max(8, measure(svg, endLabels) + (endLabels.some(Boolean) ? 12 : 0));
+    const mt = 10, mb = 24;
+    const x = d3.scaleUtc(d3.extent(all, d => d.d), [ml, W - mr]);
+    const y = d3.scaleLinear(y0.domain(), [H - mb, mt]);
+    styleAxis(svg.append('g').attr('transform', `translate(${ml},0)`).call(d3.axisLeft(y).tickValues(ticks).tickFormat(opt.yFmt).tickSize(-(W - ml - mr)).tickPadding(6)));
+    const xt = Math.max(2, Math.floor((W - ml - mr) / 90));
+    styleAxis(svg.append('g').attr('transform', `translate(0,${H - mb})`).call(d3.axisBottom(x).ticks(xt).tickFormat(d => fmtShort(d)).tickSize(0).tickPadding(8)));
+    (opt.refs || []).forEach(r => svg.append('line').attr('x1', ml).attr('x2', W - mr).attr('y1', y(r.v)).attr('y2', y(r.v))
+      .attr('stroke', r.solid ? 'var(--cds-chart-axis)' : 'var(--cds-chart-reference)').attr('stroke-dasharray', r.solid ? null : '4 3'));
+    if (opt.negFill) svg.append('path').datum(series[0].values).attr('d', d3.area().x(d => x(d.d)).y0(y(0)).y1(d => y(Math.min(0, d.v)))).attr('fill', 'var(--cds-chart-status-critical)').attr('fill-opacity', 0.22);
+    if (opt.areaFill) {
+      const s = series[0], gid = 'g' + Math.random().toString(36).slice(2);
+      const grad = svg.append('defs').append('linearGradient').attr('id', gid).attr('x1', 0).attr('x2', 0).attr('y1', 0).attr('y2', 1);
+      [[0, .26], [.25, .16], [.5, .08], [.75, .03], [1, 0]].forEach(([o, a]) => grad.append('stop').attr('offset', o).attr('style', `stop-color:${s.color};stop-opacity:${a}`));
+      svg.append('path').datum(s.values).attr('d', d3.area().x(d => x(d.d)).y0(H - mb).y1(d => y(d.v))).attr('fill', `url(#${gid})`);
+    }
+    series.forEach(s => svg.append('path').datum(s.values).attr('fill', 'none').attr('stroke', s.color).attr('stroke-width', 2)
+      .attr('stroke-linejoin', 'round').attr('stroke-linecap', 'round').attr('d', d3.line().x(d => x(d.d)).y(d => y(d.v))));
+    const ends = series.filter(s => s.endLabel).map(s => ({ s, y: y(s.values[s.values.length - 1].v) })).sort((a, b) => a.y - b.y);
+    for (let i = 1; i < ends.length; i++) if (ends[i].y - ends[i - 1].y < 14) ends[i].y = ends[i - 1].y + 14;
+    ends.forEach(e => svg.append('text').attr('x', W - mr + 6).attr('y', e.y).attr('dy', '0.35em').attr('fill', e.s.color).style('font-size', 'var(--cds-font-size-caption)').text(e.s.endLabel));
+    const tip = tipBox(el);
+    const rule = svg.append('line').attr('y1', mt).attr('y2', H - mb).attr('stroke', 'var(--cds-chart-axis)').attr('opacity', 0);
+    const dots = series.map(s => svg.append('circle').attr('r', 3.5).attr('fill', s.color).attr('opacity', 0));
+    const dates = series[0].values.map(d => d.d), bis = d3.bisector(d => d).center;
+    svg.append('rect').attr('x', ml).attr('y', mt).attr('width', W - ml - mr).attr('height', H - mt - mb).attr('fill', 'transparent')
+      .on('pointermove', ev => {
+        const [px] = d3.pointer(ev); const i = bis(dates, x.invert(px)); const d = dates[i]; if (!d) return;
+        rule.attr('x1', x(d)).attr('x2', x(d)).attr('opacity', 1);
+        series.forEach((s, k) => { const v = s.values[i]; dots[k].attr('cx', x(v.d)).attr('cy', y(v.v)).attr('opacity', 1); });
+        tipLines(tip, fmtDay(d), series.map(s => ({ color: series.length > 1 ? s.color : null, text: `${s.name} ${opt.tipFmt(s.values[i])}` })));
+        tip.hidden = false; const r = el.getBoundingClientRect(); placeTip(tip, el, ev.clientX - r.left, ev.clientY - r.top);
+      })
+      .on('pointerleave', () => { tip.hidden = true; rule.attr('opacity', 0); dots.forEach(d => d.attr('opacity', 0)); });
+  }
+
+  function barChart(el, items, opt) {
+    el.innerHTML = '';
+    const W = el.clientWidth || 600, H = opt.height || 240;
+    const svg = d3.select(el).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img').attr('aria-label', opt.label);
+    const y = d3.scaleLinear(opt.domain, [H - 24, 10]).nice();
+    const ticks = opt.ticks || y.ticks(5);
+    const ml = measure(svg, ticks.map(opt.yFmt)) + 10, mr = 8;
+    const x = d3.scaleBand(items.map(d => d.k), [ml, W - mr]).padding(0.22);
+    styleAxis(svg.append('g').attr('transform', `translate(${ml},0)`).call(d3.axisLeft(y).tickValues(ticks).tickFormat(opt.yFmt).tickSize(-(W - ml - mr)).tickPadding(6)));
+    svg.append('line').attr('x1', ml).attr('x2', W - mr).attr('y1', y(0)).attr('y2', y(0)).attr('stroke', 'var(--cds-chart-axis)');
+    const every = Math.max(1, Math.ceil(items.length / Math.max(2, Math.floor((W - ml - mr) / opt.labelW))));
+    const shown = items.map(d => d.k).filter((k, i) => i % every === 0 || i === items.length - 1);
+    styleAxis(svg.append('g').attr('transform', `translate(0,${H - 24})`).call(d3.axisBottom(x).tickValues(shown).tickFormat(opt.xFmt).tickSize(0).tickPadding(8)));
+    const bw = Math.min(32, x.bandwidth()), tip = tipBox(el);
+    svg.selectAll('rect.bar').data(items).join('rect').attr('class', 'bar')
+      .attr('x', d => x(d.k) + (x.bandwidth() - bw) / 2).attr('width', bw)
+      .attr('y', d => y(Math.max(0, d.v))).attr('height', d => Math.max(1, Math.abs(y(d.v) - y(0))))
+      .attr('rx', 3).attr('fill', d => d.color)
+      .on('pointermove', (ev, d) => { tipLines(tip, d.head, d.lines); tip.hidden = false; const r = el.getBoundingClientRect(); placeTip(tip, el, ev.clientX - r.left, ev.clientY - r.top); })
+      .on('pointerleave', () => { tip.hidden = true; });
+  }
+
+  function sliceRange(rows) {
+    if (range === 'all') return rows;
+    const start = d3.utcMonth.offset(rows[rows.length - 1].d, -({ '3m': 3, '6m': 6, '1y': 12 }[range]));
+    return rows.filter(r => r.d >= start);
+  }
+  root.querySelectorAll('.rp-range button').forEach(b => b.addEventListener('click', () => {
+    range = b.dataset.range; root.querySelectorAll('.rp-range button').forEach(o => o.setAttribute('aria-pressed', String(o === b))); draw();
+  }));
+  root.querySelectorAll('.rp-nav button').forEach(b => b.addEventListener('click', () => {
+    const el = document.getElementById(b.dataset.go); if (el) { el.scrollIntoView(); dash.setLink(el.id); }
+  }));
+
+  function matchRow(rows, where) {
+    if (!where) return rows[0];
+    const conds = where.split('&').map(p => p.split('=').map(decodeURIComponent));
+    return rows.find(r => conds.every(([k, v]) => String(r[k]) === v));
+  }
+  function fillMarks() {
+    root.querySelectorAll('[data-fmt][data-source][data-field]').forEach(el => {
+      const ds = dash.data(el.dataset.source);
+      if (ds.status !== 'ok') return;
+      const row = matchRow(ds.data, el.dataset.where);
+      if (!row || row[el.dataset.field] === '' || row[el.dataset.field] == null) { el.textContent = '—'; return; }
+      el.textContent = FMT[el.dataset.fmt](+row[el.dataset.field]);
+      el.classList.remove('dash-skeleton');
+    });
+  }
+
+  function fillTable(id, dsId, cols, opts = {}) {
+    const ds = dash.data(dsId), tb = document.querySelector(`#${id} tbody`);
+    tb.textContent = '';
+    if (ds.status !== 'ok') return;
+    ds.data.forEach(r => {
+      const tr = document.createElement('tr');
+      if (opts.key) tr.dataset.key = r[opts.key];
+      if (opts.hi && opts.hi(r)) tr.className = 'hi';
+      cols.forEach(c => {
+        const td = document.createElement('td'); const raw = r[c.f];
+        const empty = raw === '' || raw == null;
+        td.textContent = empty ? '—' : (c.fmt ? c.fmt(raw, r) : String(raw));
+        const cls = [];
+        if (c.l) cls.push('l'); if (c.w) cls.push('w');
+        if (c.sign && !empty) cls.push(+raw >= 0 ? 'up' : 'down');
+        if (cls.length) td.className = cls.join(' ');
+        tr.appendChild(td);
+      });
+      tb.appendChild(tr);
+    });
+  }
+
+  const pctF = v => sgn1(+v) + '%', dayF = v => fmtShort(parseDay(v)) + ', ' + String(v).slice(0, 4);
+
+  function draw() {
+    const C = dash.colors;
+    document.getElementById('key-kre').style.background = C[0];
+    document.getElementById('key-qqq').style.background = C[1];
+    fillMarks();
+
+    const head = dash.data('headline');
+    if (head.status === 'ok' && head.data.length) {
+      const h = head.data[0];
+      document.getElementById('takeaway').textContent = `Since QQQ's ${fmtShort(parseDay(h.anchor))} peak close, regional banks moved ${sgn1(h.kre_since)}% while tech moved ${sgn1(h.qqq_since)}%, and the two now move against each other more than at almost any point since 2024. History says divergences like this trend for weeks rather than see-saw, that rotating between put legs loses during the trend, and that buying insurance only when it's cheap matters more than any rotation rule. Right now insurance is expensive on both sides: a time to watch, not buy.`;
+    }
+
+    const daily = dash.data('kre_qqq_daily');
+    const els = ['perf-chart', 'ratio-chart', 'yield-chart', 'corr-chart'].map(i => document.getElementById(i));
+    if (daily.status !== 'ok') {
+      els.forEach(el => { if (daily.status === 'loading') { el.innerHTML = ''; el.classList.add('dash-skeleton'); } else { el.classList.remove('dash-skeleton'); fail(el); } });
+    } else {
+      els.forEach(el => el.classList.remove('dash-skeleton'));
+      const rows = daily.data.map(r => ({ d: parseDay(r.date), kre: +r.kre, qqq: +r.qqq, ten: +r.ten_year, c: +r.corr20 }));
+      const rs = sliceRange(rows), k0 = rs[0].kre, q0 = rs[0].qqq, ratio0 = k0 / q0;
+      const kreS = rs.map(r => ({ d: r.d, v: r.kre / k0 * 100, raw: r.kre })), qqqS = rs.map(r => ({ d: r.d, v: r.qqq / q0 * 100, raw: r.qqq }));
+      lineChart(els[0], [
+        { name: 'KRE', color: C[0], values: kreS, endLabel: 'KRE ' + kreS[kreS.length - 1].v.toFixed(1) },
+        { name: 'QQQ', color: C[1], values: qqqS, endLabel: 'QQQ ' + qqqS[qqqS.length - 1].v.toFixed(1) }
+      ], { label: 'KRE and QQQ rebased to 100', yFmt: d3.format('.0f'), refs: [{ v: 100, solid: true }], tipFmt: p => `${p.v.toFixed(1)} ($${p.raw.toFixed(2)})` });
+      const ratS = rs.map(r => ({ d: r.d, v: (r.kre / r.qqq) / ratio0 * 100 }));
+      lineChart(els[1], [{ name: 'KRE ÷ QQQ', color: C[0], values: ratS, endLabel: ratS[ratS.length - 1].v.toFixed(1) }],
+        { label: 'KRE relative to QQQ, rebased to 100', yFmt: d3.format('.0f'), refs: [{ v: 100, solid: true }], areaFill: true, tipFmt: p => p.v.toFixed(1) });
+      const tenS = rs.map(r => ({ d: r.d, v: r.ten }));
+      lineChart(els[2], [{ name: '10-yr', color: C[2], values: tenS, endLabel: tenS[tenS.length - 1].v.toFixed(2) + '%' }],
+        { label: '10-year Treasury yield', yFmt: v => v.toFixed(2) + '%', tipFmt: p => p.v.toFixed(2) + '%' });
+      const med = head.status === 'ok' && head.data.length ? head.data[0].corr_median : null;
+      const cS = rows.map(r => ({ d: r.d, v: r.c })), refs = [{ v: 0, solid: true }];
+      if (med !== null) refs.push({ v: med });
+      lineChart(els[3], [{ name: '20-day corr', color: C[0], values: cS, endLabel: sgn2(cS[cS.length - 1].v) }],
+        { label: '20-day correlation of KRE and QQQ daily returns', height: 260, yFmt: d3.format('+.1f'), refs, negFill: true, domain: [Math.min(-0.7, d3.min(cS, d => d.v)), 1], tipFmt: p => sgn2(p.v) });
+    }
+
+    const gap = dash.data('daily_gap'), gapEl = document.getElementById('gap-chart');
+    if (gap.status !== 'ok') { if (gap.status === 'loading') { gapEl.innerHTML = ''; gapEl.classList.add('dash-skeleton'); } else { gapEl.classList.remove('dash-skeleton'); fail(gapEl); } }
+    else {
+      gapEl.classList.remove('dash-skeleton');
+      const g = gap.data.map(r => ({ d: parseDay(r.date), kr: +r.kre_ret_pct, qr: +r.qqq_ret_pct, v: +r.gap_pp }));
+      const ext = (d3.max(g, d => Math.abs(d.v)) || 1) * 1.1;
+      barChart(gapEl, g.map(d => ({ k: d.d, v: d.v, color: d.v >= 0 ? C[0] : C[1], head: fmtDay(d.d),
+        lines: [{ color: C[0], text: `KRE ${sgn2(d.kr)}%` }, { color: C[1], text: `QQQ ${sgn2(d.qr)}%` }, { text: `Gap ${sgn2(d.v)} pts` }] })),
+        { label: 'Daily KRE minus QQQ, last 20 sessions', domain: [-ext, ext], yFmt: t => sgn1(t), xFmt: d => fmtShort(d), labelW: 70 });
+    }
+
+    const yr = dash.data('yearly_corr'), yEl = document.getElementById('year-chart');
+    if (yr.status !== 'ok') { if (yr.status === 'loading') { yEl.innerHTML = ''; yEl.classList.add('dash-skeleton'); } else { yEl.classList.remove('dash-skeleton'); fail(yEl); } }
+    else {
+      yEl.classList.remove('dash-skeleton');
+      const ys = yr.data.map(r => ({ year: String(r.year), v: +r.corr, n: +r.bars })), last = ys[ys.length - 1].year;
+      barChart(yEl, ys.map(d => ({ k: d.year, v: d.v, color: d.year === last ? C[0] : 'var(--cds-chart-muted)', head: d.year,
+        lines: [{ text: `Correlation ${sgn2(d.v)}` }, { text: `${d.n} trading days` }] })),
+        { label: 'Yearly correlation of KRE and QQQ', height: 260, domain: [0, 1], ticks: [0, 0.25, 0.5, 0.75, 1], yFmt: t => t.toFixed(2), xFmt: d => "'" + d.slice(2), labelW: 44 });
+    }
+
+    fillTable('bd-table', 'big_days', [
+      { f: 'window', l: true }, { f: 'qqq_down_days' }, { f: 'kre_avg_on_down', fmt: v => sgn2(+v) + '%', sign: true }, { f: 'kre_up_share', fmt: v => v + '%' },
+      { f: 'qqq_up_days' }, { f: 'kre_avg_on_up', fmt: v => sgn2(+v) + '%', sign: true }, { f: 'kre_down_share', fmt: v => v + '%' }
+    ], { hi: r => String(r.window).startsWith('Sep') });
+    fillTable('ep-table', 'divergence_episodes', [
+      { f: 'episode', l: true }, { f: 'start', fmt: dayF }, { f: 'end', fmt: dayF }, { f: 'kre_pct', fmt: pctF, sign: true }, { f: 'qqq_pct', fmt: pctF, sign: true },
+      { f: 'ratio_net_pct', fmt: pctF }, { f: 'max_counter_pct', fmt: pctF }, { f: 'sessions', fmt: v => d3.format('.0f')(+v) }, { f: 'ratio_next20_pct', fmt: pctF },
+      { f: 'ten_year_start', fmt: v => (+v).toFixed(2) + '%' }, { f: 'ten_year_end', fmt: v => (+v).toFixed(2) + '%' }
+    ], { hi: r => String(r.episode).startsWith('Now') });
+    fillTable('book-table', 'book_snapshot', [{ f: 'group', l: true }, { f: 'contracts' }, { f: 'lines' }, { f: 'detail', l: true }, { f: 'expiries', l: true }]);
+    fillTable('bt-table', 'strategy_backtest', [
+      { f: 'start', l: true, fmt: v => fmtShort(parseDay(v)) }, { f: 'strategy', l: true }, { f: 'kre_px_pct', fmt: pctF, sign: true }, { f: 'qqq_px_pct', fmt: pctF, sign: true },
+      { f: 'pnl_base', fmt: pctF, sign: true }, { f: 'pnl_low', fmt: pctF }, { f: 'pnl_high', fmt: pctF }, { f: 'trades' }, { f: 'friction_usd', fmt: v => '$' + v }
+    ], { key: 'id', hi: r => r.start === '2026-10-06' || r.start === '2026-08-24' });
+    fillTable('sc-table', 'start_conditions', [
+      { f: 'moment', l: true }, { f: 'vxn', fmt: v => (+v).toFixed(2) }, { f: 'vxn_pctile', fmt: v => ordinal(v) }, { f: 'qqq_vs_ma20_pct', fmt: v => sgn2(+v) + '%' },
+      { f: 'vix', fmt: v => (+v).toFixed(2) }, { f: 'vix_pctile', fmt: v => ordinal(v) }, { f: 'kre_vs_ma20_pct', fmt: v => sgn2(+v) + '%' }, { f: 'hold_pnl_base', fmt: pctF, sign: true }
+    ], { hi: r => String(r.moment).startsWith('Now') });
+    fillTable('ts-table', 'timing_signals', [
+      { f: 'leg', l: true }, { f: 'condition', l: true }, { f: 'n_days' }, { f: 'approx_episodes' }, { f: 'mean_pct', fmt: pctF, sign: true }, { f: 'median_pct', fmt: pctF }, { f: 'win_pct', fmt: v => v + '%' }
+    ], { key: 'id', hi: r => /Cheap AND|Expensive AND/.test(r.condition) });
+    fillTable('ideas-table', 'trade_ideas', [
+      { f: 'idea', l: true }, { f: 'structure', l: true }, { f: 'max_loss_usd', fmt: v => usd(+v) }, { f: 'max_gain_usd', fmt: v => usd(+v) },
+      { f: 'breakeven', fmt: v => '$' + (+v).toFixed(2) }, { f: 'level_needed', l: true }, { f: 'trigger', l: true, w: true }, { f: 'status', l: true }, { f: 'quote_time', l: true }
+    ]);
+  }
+
+  dash.onData(draw);
+  const named = document.getElementById(location.hash.slice(1));
+  if (named) setTimeout(() => named.scrollIntoView(), 0);
+})();
+</script>

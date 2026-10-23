@@ -1,0 +1,15 @@
+id,leg,condition,n_days,approx_episodes,mean_pct,median_pct,win_pct
+QQQ: Any day,QQQ,Any day,685,34,-22.5,-69.8,23
+QQQ: Cheap insurance (vol ≤ 25th pct),QQQ,Cheap insurance (vol ≤ 25th pct),169,8,-21.4,-75.3,22
+QQQ: Expensive insurance (vol ≥ 75th pct),QQQ,Expensive insurance (vol ≥ 75th pct),221,11,-43.6,-78.4,19
+QQQ: Stretched up (≥ +2% vs 20-day avg),QQQ,Stretched up (≥ +2% vs 20-day avg),234,12,-20.9,-71.8,21
+QQQ: Stretched down (≤ −2% vs 20-day avg),QQQ,Stretched down (≤ −2% vs 20-day avg),93,5,-37.5,-87.0,20
+QQQ: Cheap AND stretched up,QQQ,Cheap AND stretched up,81,4,-13.5,-72.4,30
+QQQ: Expensive AND stretched down,QQQ,Expensive AND stretched down,85,4,-36.9,-87.0,20
+KRE: Any day,KRE,Any day,685,34,-6.0,-55.2,33
+KRE: Cheap insurance (vol ≤ 25th pct),KRE,Cheap insurance (vol ≤ 25th pct),195,10,23.1,-16.7,43
+KRE: Expensive insurance (vol ≥ 75th pct),KRE,Expensive insurance (vol ≥ 75th pct),196,10,-36.4,-81.9,21
+KRE: Stretched up (≥ +2% vs 20-day avg),KRE,Stretched up (≥ +2% vs 20-day avg),227,11,9.5,-29.9,35
+KRE: Stretched down (≤ −2% vs 20-day avg),KRE,Stretched down (≤ −2% vs 20-day avg),162,8,-38.8,-82.7,26
+KRE: Cheap AND stretched up,KRE,Cheap AND stretched up,66,3,29.9,-12.0,42
+KRE: Expensive AND stretched down,KRE,Expensive AND stretched down,73,4,-37.8,-87.9,22

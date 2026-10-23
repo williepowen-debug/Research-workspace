@@ -4,7 +4,13 @@
 Activity detail lives in commit messages, daytrading/JOURNAL.md, and `memory/auto/`.
 Keep this load-bearing: append a Durable Finding only when it survives the episode.
 
-## October20 current pickup — 2026-10-20T12:01:18.796890-04:00
+## October 23 current pickup — 2026-10-23 13:06 ET
+
+Will-launched conversational desk session (Claude Opus 5.5). No order, no card fired, no gate moved. Delivered: FLG Q3 perspective and idea menu (`research/2026-10-23_FLG-Q3-perspective.md`, SETUPS `CAND-FLG-JUL27-10P`); 2024 NYCB comparison verified at EDGAR and sent to FLG (3bbd9ee13); KRE vs QQQ divergence research, model backtest and timing test, with a report page and a separate map page (links in `research/2026-10-23_KRE-QQQ-report/README.md`; SETUPS `CAND-KRE-QQQ-SEESAW`). Will said his Fidelity options level is 2; whether spreads are allowed there is unverified.
+
+Not performed at closeout: PROME's 10/23 12:4x ET ask to re-grade RSP / FXY / IEF / VST and the QQQ put-wall T1 (note sent to PROME/inbox); DAEDALUS WQ-508 harness-audit lines (packet still in `inbox/`, read in full, deferred).
+
+## October 20 pickup (prior) — 2026-10-20T12:01:18.796890-04:00
 
 **Changedoperatorbrief:** Will11:10/11:32stopmicromanagement/expiryreminders/held-linesellpush/checkins;C5PAUSED,existingcardsreferenceonly. Bookcapturesandactualdispositions,neverinfer.11:50“we can loosen rules for trade ideas”permitsNOT-FIREDproposalswithfigures;actualfillseparatelyapproved. Default500/card/X1closedshownpercard,no automaticexception/hardguard/daycolourrelaxation. VerifiedcommittedPROMEpacketsb480e2f1d/a5af2e30e/ff9531ffc,USER.mdcurrentwords;localCLAUDEandRISK_RULESdurablefinding1amendedwithoutnumberchanges. Broader11:32word supersedesinterimstandingpracticequestion.
 
@@ -42,6 +48,7 @@ Publication and exactcloseoutcommit proof are recorded in dateddelivery; prior s
 
 ## Next Session — start here
 
+0. **October 23 carry-forward:** apply DAEDALUS WQ-508 lines from `inbox/2026-10-23_from-DAEDALUS_WQ508-harness-audit-lines.md` (Will approved 10:27 ET, PROME e46a81d6a) and send DAEDALUS the one-line applied/contested packet. If PROME still wants it, grade the 10/20 slate cards (RSP, FXY, IEF, VST) on their own letters with fresh pulls; IEF needs the official 10/22 10-year cell. To continue the KRE/QQQ work, start at `research/2026-10-23_KRE-QQQ-report/README.md`.
 1. Read currentoperatoroverrideabove/USER.md beforeanyheld-linecommunication. Noexpiryreminders,sellpushesorrepeatedcheck-ins;C5paused.
 2. Newtradeidea slate/cardversionsat research/2026-10-20_trade-idea-slate.md; nofillsapproved. RefreshlivebrokerquotesatadecisionandpreserveX1/hardguards/daycolour;presentNOT-FIREDideaswithoutpretendingtriggerconfirmation.
 3. ReconcileanynewbrokerreceiptagainstOctober19ActivitykeysandOctober20sourcehashesbeforebooking. Olderdiscrepanciesstayunknownuntilactualevidence;noabsentholding⇒lapseinference.

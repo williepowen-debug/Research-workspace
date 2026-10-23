@@ -1,0 +1,455 @@
+<style>
+#dash-root .dv { display: flex; flex-direction: column; gap: var(--cds-gap-lg); font-family: var(--font-anthropic-sans); max-width: 72rem; margin-inline: auto; }
+#dash-root .dv-head h1 { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); margin: 0; text-wrap: balance; }
+#dash-root .dv-take { color: var(--color-fg-muted); font-size: var(--cds-font-size-body); margin: var(--cds-gap-xs) 0 0; max-width: 65ch; }
+#dash-root .dv-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 11rem), 1fr)); gap: var(--cds-gap-md); }
+#dash-root .dv-tile { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-md) var(--cds-pad-lg); display: flex; flex-direction: column; gap: var(--cds-gap-xs); min-width: 0; }
+#dash-root .dv-tile .lbl { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+#dash-root .dv-tile .big { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); font-variant-numeric: tabular-nums; }
+#dash-root .dv-tile .sub { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+#dash-root .dv-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 26rem), 1fr)); gap: var(--cds-gap-md); }
+#dash-root .dv-card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); display: flex; flex-direction: column; gap: var(--cds-gap-sm); min-width: 0; }
+#dash-root .dv-card h2 { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); margin: 0; }
+#dash-root .dv-note { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: 0; max-width: 70ch; }
+#dash-root .dv-chart { position: relative; min-height: 240px; }
+#dash-root .dv-chart.tall { min-height: 260px; }
+#dash-root .dv-section { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); margin: var(--cds-gap-sm) 0 0; }
+#dash-root .dv-range { display: flex; gap: var(--cds-gap-xs); flex-wrap: wrap; }
+#dash-root .dv-range button { font: inherit; font-size: var(--cds-font-size-caption); padding: var(--cds-pad-xs) var(--cds-pad-sm); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); background: var(--color-bg); color: var(--color-fg); cursor: pointer; }
+#dash-root .dv-range button[aria-pressed="true"] { background: var(--color-fg); color: var(--color-bg); border-color: var(--color-fg); }
+#dash-root .dv-range button:focus-visible { outline: 2px solid var(--color-fg); outline-offset: 2px; }
+#dash-root .dv-key { display: flex; gap: var(--cds-gap-md); flex-wrap: wrap; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+#dash-root .dv-key i { display: inline-block; width: 0.75rem; height: 0.2rem; border-radius: 2px; vertical-align: middle; margin-right: 0.35rem; }
+#dash-root .dv-tip { position: absolute; background: var(--cds-surface-popover); border: 1px solid var(--cds-border); border-radius: var(--cds-radius); box-shadow: var(--cds-shadow-popover); padding: var(--cds-pad-xs) var(--cds-pad-sm); font-size: var(--cds-font-size-caption); pointer-events: none; white-space: nowrap; font-variant-numeric: tabular-nums; z-index: 2; }
+#dash-root .dv-tip .d { color: var(--cds-text-secondary); }
+#dash-root .dv-tip .sw { display: inline-block; width: 0.5rem; height: 0.5rem; border-radius: 50%; margin-right: 0.35rem; }
+#dash-root .dv-table-wrap { overflow-x: auto; }
+#dash-root table.dv-table { width: 100%; border-collapse: collapse; font-size: var(--cds-font-size-caption); font-variant-numeric: tabular-nums; }
+#dash-root table.dv-table th, #dash-root table.dv-table td { text-align: right; padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); white-space: nowrap; }
+#dash-root table.dv-table th:first-child, #dash-root table.dv-table td:first-child { text-align: left; white-space: normal; }
+#dash-root table.dv-table th { color: var(--color-fg-muted); font-weight: var(--cds-font-weight-medium); }
+#dash-root table.dv-table tr.now td { font-weight: var(--cds-font-weight-medium); }
+#dash-root .up { color: var(--color-ok); }
+#dash-root .down { color: var(--color-bad); }
+#dash-root .dv-fail { display: flex; align-items: center; justify-content: center; gap: var(--cds-gap-xs); color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); min-height: inherit; }
+#dash-root .dv-fail::before { content: ""; width: 0.375rem; height: 0.375rem; border-radius: 50%; background: var(--color-bad); }
+#dash-root [data-dash-source-state=empty] { color: transparent; }
+#dash-root [data-dash-source-state=refreshing] { opacity: .5; transition: opacity var(--cds-dur-slow); }
+</style>
+
+<div class="dv">
+  <header class="dv-head" id="top">
+    <h1>KRE–QQQ divergence map</h1>
+    <p class="dv-take" id="takeaway" data-source="headline"><span class="dash-skeleton">—</span></p>
+  </header>
+
+  <div class="dv-tiles" id="tiles">
+    <div class="dv-tile"><span class="lbl">Regional banks (KRE) since Oct 6</span><span class="big dash-skeleton" data-source="headline" data-field="kre_since">—</span><span class="sub">Close to last close</span></div>
+    <div class="dv-tile"><span class="lbl">Tech (QQQ) since Oct 6</span><span class="big dash-skeleton" data-source="headline" data-field="qqq_since">—</span><span class="sub">Oct 6 was QQQ's recent peak close</span></div>
+    <div class="dv-tile"><span class="lbl">Gap, banks minus tech</span><span class="big dash-skeleton" data-source="headline" data-field="gap_pp">—</span><span class="sub">Percentage points</span></div>
+    <div class="dv-tile"><span class="lbl">20-day correlation now</span><span class="big dash-skeleton" data-source="headline" data-field="corr20">—</span><span class="sub">Lower than <span data-source="headline" data-field="corr_pctile_below">—</span>% of readings since Jan 2024</span></div>
+  </div>
+
+  <h2 class="dv-section" id="how-far">How far apart they have moved</h2>
+  <div class="dv-range" role="group" aria-label="Date range for the price charts">
+    <button type="button" id="rng-3m" data-range="3m" aria-pressed="true">3 months</button>
+    <button type="button" id="rng-6m" data-range="6m" aria-pressed="false">6 months</button>
+    <button type="button" id="rng-1y" data-range="1y" aria-pressed="false">1 year</button>
+    <button type="button" id="rng-all" data-range="all" aria-pressed="false">Since Jan 2024</button>
+  </div>
+  <div class="dv-grid">
+    <section class="dv-card" id="perf">
+      <h2>Both rebased to 100</h2>
+      <p class="dv-note">Each line starts at 100 on the first day of the range, so you can compare the paths directly.</p>
+      <div class="dv-key"><span><i id="key-kre"></i>KRE regional banks</span><span><i id="key-qqq"></i>QQQ Nasdaq-100</span></div>
+      <div class="dv-chart" id="perf-chart" data-source="kre_qqq_daily"></div>
+    </section>
+    <section class="dv-card" id="ratio">
+      <h2>The divergence: KRE relative to QQQ</h2>
+      <p class="dv-note">KRE divided by QQQ, rebased to 100. Rising means banks are beating tech; falling means tech is winning.</p>
+      <div class="dv-chart" id="ratio-chart" data-source="kre_qqq_daily"></div>
+    </section>
+    <section class="dv-card" id="daily">
+      <h2>Day by day, last 20 sessions</h2>
+      <p class="dv-note">Each bar is KRE's daily move minus QQQ's. Bars in the KRE color are days banks beat tech.</p>
+      <div class="dv-chart" id="gap-chart" data-source="daily_gap"></div>
+    </section>
+    <section class="dv-card" id="yield">
+      <h2>10-year Treasury yield</h2>
+      <p class="dv-note">The likely link. Falling yields ease regional banks' real-estate refinancing worries; this is a hypothesis, not a measured cause.</p>
+      <div class="dv-chart" id="yield-chart" data-source="kre_qqq_daily"></div>
+    </section>
+  </div>
+
+  <h2 class="dv-section" id="how-rare">How rare this is</h2>
+  <div class="dv-grid">
+    <section class="dv-card" id="corr">
+      <h2>20-day correlation since 2024</h2>
+      <p class="dv-note">+1 means they move together, −1 means a perfect see-saw. Shaded areas are stretches below zero. The dashed line is the median since Jan 2024.</p>
+      <div class="dv-chart tall" id="corr-chart" data-source="kre_qqq_daily headline"></div>
+    </section>
+    <section class="dv-card" id="years">
+      <h2>Correlation by calendar year, 2006–2026</h2>
+      <p class="dv-note">Positive every year. 2026 so far is the lowest in the record. 2006 starts June 23; 2026 runs through Oct 22.</p>
+      <div class="dv-chart tall" id="year-chart" data-source="yearly_corr"></div>
+    </section>
+  </div>
+
+  <section class="dv-card" id="episodes">
+    <h2>Past divergences and how they ended</h2>
+    <p class="dv-note">Windows chosen around each episode. Most past splits came with rising yields; this one, like July 2024, comes with falling yields. July 2024 ended with both falling together within days.</p>
+    <div class="dv-table-wrap">
+      <table class="dv-table" id="ep-table" data-source="divergence_episodes" data-row-key="episode">
+        <thead><tr>
+          <th data-field="episode">Episode</th>
+          <th data-field="start">From</th>
+          <th data-field="end">To</th>
+          <th data-field="kre_pct">KRE</th>
+          <th data-field="qqq_pct">QQQ</th>
+          <th data-field="ten_year_start">10-yr start</th>
+          <th data-field="ten_year_end">10-yr end</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+</div>
+
+<script>
+dash.calc('headline', {
+  inputs: ['kre_qqq_daily'],
+  title: 'Divergence since Oct 6',
+  description: 'KRE and QQQ change from the Oct 6, 2026 close to the last close, their gap, and where the latest 20-day correlation ranks among all 20-day readings since Jan 2024.',
+  fn: (kre_qqq_daily) => {
+    const rows = kre_qqq_daily.map(r => ({ date: r.date, kre: +r.kre, qqq: +r.qqq, ten: +r.ten_year, c: +r.corr20 }));
+    const a = rows.find(r => r.date === '2026-10-06');
+    const z = rows[rows.length - 1];
+    if (!a || !z) return [];
+    const r1 = x => Math.round(x * 10) / 10;
+    const r2 = x => Math.round(x * 100) / 100;
+    const kre = (z.kre / a.kre - 1) * 100, qqq = (z.qqq / a.qqq - 1) * 100;
+    const cs = rows.map(r => r.c).sort((x, y) => x - y);
+    const below = rows.filter(r => r.c > z.c).length / rows.length * 100;
+    const med = cs.length % 2 ? cs[(cs.length - 1) / 2] : (cs[cs.length / 2 - 1] + cs[cs.length / 2]) / 2;
+    return [{ anchor: a.date, last_date: z.date, kre_since: r1(kre), qqq_since: r1(qqq), gap_pp: r1(kre - qqq),
+      corr20: r2(z.c), corr_pctile_below: r1(below), corr_median: r2(med), ten_anchor: r2(a.ten), ten_last: r2(z.ten) }];
+  }
+});
+
+dash.calc('daily_gap', {
+  inputs: ['kre_qqq_daily'],
+  title: 'Daily gap, last 20 sessions',
+  description: 'For each of the last 20 sessions, KRE daily % change minus QQQ daily % change.',
+  fn: (kre_qqq_daily) => kre_qqq_daily.slice(-20).map(r => ({
+    date: r.date, kre_ret_pct: +r.kre_ret_pct, qqq_ret_pct: +r.qqq_ret_pct,
+    gap_pp: Math.round((+r.kre_ret_pct - +r.qqq_ret_pct) * 100) / 100
+  }))
+});
+</script>
+
+<script>
+(function () {
+  const root = document.getElementById('dash-root');
+  const parseDay = d3.utcParse('%Y-%m-%d');
+  const fmtDay = d3.utcFormat('%b %-d, %Y');
+  const fmtShort = d3.utcFormat('%b %-d');
+  const sgn1 = d3.format('+.1f');
+  const sgn2 = d3.format('+.2f');
+  let range = '3m';
+
+  function css(name) { return getComputedStyle(root).getPropertyValue(name).trim(); }
+
+  function measure(svg, labels) {
+    const t = svg.append('text').attr('font-size', css('--cds-font-size-caption') || '12px').style('font-family', 'var(--font-anthropic-sans)');
+    let w = 0;
+    labels.forEach(s => { t.text(s); w = Math.max(w, t.node().getComputedTextLength()); });
+    t.remove();
+    return w;
+  }
+
+  function fail(el) {
+    el.innerHTML = '';
+    const d = document.createElement('div');
+    d.className = 'dv-fail';
+    d.textContent = 'Failed to load';
+    el.appendChild(d);
+  }
+
+  function styleAxis(g) {
+    g.attr('font-size', null).attr('font-family', null);
+    g.selectAll('text').attr('fill', 'var(--color-fg-muted)').style('font-size', 'var(--cds-font-size-caption)');
+    g.selectAll('line').attr('stroke', 'var(--cds-chart-grid)');
+    g.select('.domain').remove();
+  }
+
+  function tipBox(el) {
+    let tip = el.querySelector('.dv-tip');
+    if (!tip) { tip = document.createElement('div'); tip.className = 'dv-tip'; tip.hidden = true; el.appendChild(tip); }
+    return tip;
+  }
+
+  function placeTip(tip, el, x, y) {
+    const w = tip.offsetWidth, h = tip.offsetHeight, W = el.clientWidth;
+    let left = x + 12; if (left + w > W) left = x - w - 12; if (left < 0) left = 0;
+    let top = y - h - 8; if (top < 0) top = y + 12;
+    tip.style.left = left + 'px'; tip.style.top = top + 'px';
+  }
+
+  function tipLines(tip, head, lines) {
+    tip.textContent = '';
+    const d = document.createElement('div'); d.className = 'd'; d.textContent = head; tip.appendChild(d);
+    lines.forEach(l => {
+      const row = document.createElement('div');
+      if (l.color) { const s = document.createElement('span'); s.className = 'sw'; s.style.background = l.color; row.appendChild(s); }
+      row.appendChild(document.createTextNode(l.text));
+      tip.appendChild(row);
+    });
+  }
+
+  // Generic time-series line chart
+  function lineChart(el, series, opt) {
+    el.innerHTML = '';
+    const W = el.clientWidth || 600, H = opt.height || 240;
+    const svg = d3.select(el).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img').attr('aria-label', opt.label);
+    const all = series.flatMap(s => s.values);
+    let lo = d3.min(all, d => d.v), hi = d3.max(all, d => d.v);
+    (opt.refs || []).forEach(r => { lo = Math.min(lo, r.v); hi = Math.max(hi, r.v); });
+    if (opt.domain) { lo = opt.domain[0]; hi = opt.domain[1]; }
+    const pad = (hi - lo) * 0.08 || 1;
+    const y0 = d3.scaleLinear([lo - pad, hi + pad], [0, 1]).nice();
+    const ticks = y0.ticks(5);
+    const tickLabels = ticks.map(opt.yFmt);
+    const endLabels = series.map(s => s.endLabel || '');
+    const ml = measure(svg, tickLabels) + 10;
+    const mr = Math.max(8, measure(svg, endLabels) + (endLabels.some(Boolean) ? 12 : 0));
+    const mt = 10, mb = 24;
+    const x = d3.scaleUtc(d3.extent(all, d => d.d), [ml, W - mr]);
+    const y = d3.scaleLinear(y0.domain(), [H - mb, mt]);
+    const gy = svg.append('g').attr('transform', `translate(${ml},0)`).call(d3.axisLeft(y).tickValues(ticks).tickFormat(opt.yFmt).tickSize(-(W - ml - mr)).tickPadding(6));
+    styleAxis(gy);
+    const xt = Math.max(2, Math.floor((W - ml - mr) / 90));
+    const gx = svg.append('g').attr('transform', `translate(0,${H - mb})`).call(d3.axisBottom(x).ticks(xt).tickFormat(d => fmtShort(d)).tickSize(0).tickPadding(8));
+    styleAxis(gx);
+    (opt.refs || []).forEach(r => {
+      svg.append('line').attr('x1', ml).attr('x2', W - mr).attr('y1', y(r.v)).attr('y2', y(r.v))
+        .attr('stroke', r.solid ? 'var(--cds-chart-axis)' : 'var(--cds-chart-reference)').attr('stroke-dasharray', r.solid ? null : '4 3');
+    });
+    if (opt.negFill) {
+      const s = series[0];
+      svg.append('path').datum(s.values)
+        .attr('d', d3.area().x(d => x(d.d)).y0(y(0)).y1(d => y(Math.min(0, d.v))))
+        .attr('fill', 'var(--cds-chart-status-critical)').attr('fill-opacity', 0.22);
+    }
+    if (opt.areaFill) {
+      const s = series[0];
+      const gid = 'g' + Math.random().toString(36).slice(2);
+      const grad = svg.append('defs').append('linearGradient').attr('id', gid).attr('x1', 0).attr('x2', 0).attr('y1', 0).attr('y2', 1);
+      [[0, .26], [.25, .16], [.5, .08], [.75, .03], [1, 0]].forEach(([o, a]) => grad.append('stop').attr('offset', o).attr('style', `stop-color:${s.color};stop-opacity:${a}`));
+      svg.append('path').datum(s.values).attr('d', d3.area().x(d => x(d.d)).y0(H - mb).y1(d => y(d.v))).attr('fill', `url(#${gid})`);
+    }
+    series.forEach(s => {
+      svg.append('path').datum(s.values).attr('fill', 'none').attr('stroke', s.color).attr('stroke-width', 2)
+        .attr('stroke-linejoin', 'round').attr('stroke-linecap', 'round').attr('d', d3.line().x(d => x(d.d)).y(d => y(d.v)));
+    });
+    // end labels, nudged apart
+    const ends = series.filter(s => s.endLabel).map(s => ({ s, y: y(s.values[s.values.length - 1].v) }));
+    ends.sort((a, b) => a.y - b.y);
+    for (let i = 1; i < ends.length; i++) if (ends[i].y - ends[i - 1].y < 14) ends[i].y = ends[i - 1].y + 14;
+    ends.forEach(e => svg.append('text').attr('x', W - mr + 6).attr('y', e.y).attr('dy', '0.35em')
+      .attr('fill', e.s.color).style('font-size', 'var(--cds-font-size-caption)').text(e.s.endLabel));
+    // hover
+    const tip = tipBox(el);
+    const rule = svg.append('line').attr('y1', mt).attr('y2', H - mb).attr('stroke', 'var(--cds-chart-axis)').attr('opacity', 0);
+    const dots = series.map(s => svg.append('circle').attr('r', 3.5).attr('fill', s.color).attr('opacity', 0));
+    const dates = series[0].values.map(d => d.d);
+    const bis = d3.bisector(d => d).center;
+    svg.append('rect').attr('x', ml).attr('y', mt).attr('width', W - ml - mr).attr('height', H - mt - mb).attr('fill', 'transparent')
+      .on('pointermove', ev => {
+        const [px] = d3.pointer(ev);
+        const i = bis(dates, x.invert(px));
+        const d = dates[i]; if (!d) return;
+        rule.attr('x1', x(d)).attr('x2', x(d)).attr('opacity', 1);
+        series.forEach((s, k) => { const v = s.values[i]; dots[k].attr('cx', x(v.d)).attr('cy', y(v.v)).attr('opacity', 1); });
+        tipLines(tip, fmtDay(d), series.map(s => ({ color: series.length > 1 ? s.color : null, text: `${s.name} ${opt.tipFmt(s.values[i])}` })));
+        tip.hidden = false;
+        const r = el.getBoundingClientRect();
+        placeTip(tip, el, ev.clientX - r.left, ev.clientY - r.top);
+      })
+      .on('pointerleave', () => { tip.hidden = true; rule.attr('opacity', 0); dots.forEach(d => d.attr('opacity', 0)); });
+  }
+
+  function sliceRange(rows) {
+    if (range === 'all') return rows;
+    const last = rows[rows.length - 1].d;
+    const months = { '3m': 3, '6m': 6, '1y': 12 }[range];
+    const start = d3.utcMonth.offset(last, -months);
+    return rows.filter(r => r.d >= start);
+  }
+
+  document.querySelectorAll('#dash-root .dv-range button').forEach(b => b.addEventListener('click', () => {
+    range = b.dataset.range;
+    document.querySelectorAll('#dash-root .dv-range button').forEach(o => o.setAttribute('aria-pressed', String(o === b)));
+    draw();
+  }));
+
+  function setText(sel, text) { const el = root.querySelector(sel); if (el) { el.textContent = text; el.classList.remove('dash-skeleton'); } }
+
+  function draw() {
+    const C = dash.colors;
+    document.getElementById('key-kre').style.background = C[0];
+    document.getElementById('key-qqq').style.background = C[1];
+    const daily = dash.data('kre_qqq_daily');
+    const head = dash.data('headline');
+    const gap = dash.data('daily_gap');
+    const perfEl = document.getElementById('perf-chart'), ratioEl = document.getElementById('ratio-chart'),
+      yieldEl = document.getElementById('yield-chart'), corrEl = document.getElementById('corr-chart'), gapEl = document.getElementById('gap-chart');
+
+    // Header + tiles
+    if (head.status === 'ok' && head.data.length) {
+      const h = head.data[0];
+      setText('[data-field="kre_since"]', sgn1(h.kre_since) + '%');
+      setText('[data-field="qqq_since"]', sgn1(h.qqq_since) + '%');
+      setText('[data-field="gap_pp"]', sgn1(h.gap_pp));
+      setText('[data-field="corr20"]', sgn2(h.corr20));
+      setText('[data-field="corr_pctile_below"]', d3.format('.1f')(h.corr_pctile_below));
+      const t = document.getElementById('takeaway');
+      t.textContent = `From the ${fmtShort(parseDay(h.anchor))} tech peak to the ${fmtShort(parseDay(h.last_date))} close, regional banks moved ${sgn1(h.kre_since)}% while tech moved ${sgn1(h.qqq_since)}%. Their 20-day correlation is ${sgn2(h.corr20)}, against a median of ${sgn2(h.corr_median)} since 2024. The 10-year yield fell from ${h.ten_anchor.toFixed(2)}% to ${h.ten_last.toFixed(2)}% over the same stretch.`;
+    } else if (head.status !== 'loading') {
+      document.getElementById('takeaway').textContent = '—';
+    }
+
+    if (daily.status !== 'ok') {
+      [perfEl, ratioEl, yieldEl, corrEl].forEach(el => { if (daily.status === 'loading') { el.innerHTML = ''; el.classList.add('dash-skeleton'); } else { el.classList.remove('dash-skeleton'); fail(el); } });
+    } else {
+      [perfEl, ratioEl, yieldEl, corrEl].forEach(el => el.classList.remove('dash-skeleton'));
+      const rows = daily.data.map(r => ({ d: parseDay(r.date), kre: +r.kre, qqq: +r.qqq, ten: +r.ten_year, c: +r.corr20 }));
+      const rs = sliceRange(rows);
+      const k0 = rs[0].kre, q0 = rs[0].qqq, ratio0 = k0 / q0;
+      const kreS = rs.map(r => ({ d: r.d, v: r.kre / k0 * 100, raw: r.kre }));
+      const qqqS = rs.map(r => ({ d: r.d, v: r.qqq / q0 * 100, raw: r.qqq }));
+      lineChart(perfEl, [
+        { name: 'KRE', color: C[0], values: kreS, endLabel: 'KRE ' + kreS[kreS.length - 1].v.toFixed(1) },
+        { name: 'QQQ', color: C[1], values: qqqS, endLabel: 'QQQ ' + qqqS[qqqS.length - 1].v.toFixed(1) }
+      ], { label: 'KRE and QQQ rebased to 100', yFmt: d3.format('.0f'), refs: [{ v: 100, solid: true }],
+        tipFmt: p => `${p.v.toFixed(1)} ($${p.raw.toFixed(2)})` });
+      const ratS = rs.map(r => ({ d: r.d, v: (r.kre / r.qqq) / ratio0 * 100 }));
+      lineChart(ratioEl, [{ name: 'KRE ÷ QQQ', color: C[0], values: ratS, endLabel: ratS[ratS.length - 1].v.toFixed(1) }],
+        { label: 'KRE relative to QQQ, rebased to 100', yFmt: d3.format('.0f'), refs: [{ v: 100, solid: true }], areaFill: true,
+          tipFmt: p => p.v.toFixed(1) });
+      const tenS = rs.map(r => ({ d: r.d, v: r.ten }));
+      lineChart(yieldEl, [{ name: '10-yr', color: C[2], values: tenS, endLabel: tenS[tenS.length - 1].v.toFixed(2) + '%' }],
+        { label: '10-year Treasury yield', yFmt: v => v.toFixed(2) + '%', tipFmt: p => p.v.toFixed(2) + '%' });
+      const med = head.status === 'ok' && head.data.length ? head.data[0].corr_median : null;
+      const cS = rows.map(r => ({ d: r.d, v: r.c }));
+      const refs = [{ v: 0, solid: true }];
+      if (med !== null) refs.push({ v: med });
+      lineChart(corrEl, [{ name: '20-day corr', color: C[0], values: cS, endLabel: sgn2(cS[cS.length - 1].v) }],
+        { label: '20-day correlation of KRE and QQQ daily returns', height: 260, yFmt: d3.format('+.1f'), refs, negFill: true,
+          domain: [Math.min(-0.7, d3.min(cS, d => d.v)), 1], tipFmt: p => sgn2(p.v) });
+    }
+
+    // Daily gap bars
+    if (gap.status !== 'ok') {
+      if (gap.status === 'loading') { gapEl.innerHTML = ''; gapEl.classList.add('dash-skeleton'); } else { gapEl.classList.remove('dash-skeleton'); fail(gapEl); }
+    } else {
+      gapEl.classList.remove('dash-skeleton');
+      gapEl.innerHTML = '';
+      const g = gap.data.map(r => ({ d: parseDay(r.date), kr: +r.kre_ret_pct, qr: +r.qqq_ret_pct, v: +r.gap_pp }));
+      const W = gapEl.clientWidth || 600, H = 240;
+      const svg = d3.select(gapEl).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img').attr('aria-label', 'Daily KRE minus QQQ, last 20 sessions');
+      const ext = d3.max(g, d => Math.abs(d.v)) || 1;
+      const y = d3.scaleLinear([-ext * 1.1, ext * 1.1], [H - 24, 10]).nice();
+      const ticks = y.ticks(5);
+      const ml = measure(svg, ticks.map(t => sgn1(t))) + 10, mr = 8;
+      const x = d3.scaleBand(g.map(d => d.d), [ml, W - mr]).padding(0.25);
+      const gy = svg.append('g').attr('transform', `translate(${ml},0)`).call(d3.axisLeft(y).tickValues(ticks).tickFormat(t => sgn1(t)).tickSize(-(W - ml - mr)).tickPadding(6));
+      styleAxis(gy);
+      svg.append('line').attr('x1', ml).attr('x2', W - mr).attr('y1', y(0)).attr('y2', y(0)).attr('stroke', 'var(--cds-chart-axis)');
+      const every = Math.max(1, Math.ceil(g.length / Math.max(2, Math.floor((W - ml - mr) / 70))));
+      const gx = svg.append('g').attr('transform', `translate(0,${H - 24})`).call(d3.axisBottom(x).tickValues(g.map(d => d.d).filter((_, i) => i % every === 0)).tickFormat(d => fmtShort(d)).tickSize(0).tickPadding(8));
+      styleAxis(gx);
+      const tip = tipBox(gapEl);
+      svg.selectAll('rect.bar').data(g).join('rect').attr('class', 'bar')
+        .attr('x', d => x(d.d)).attr('width', Math.min(32, x.bandwidth()))
+        .attr('y', d => y(Math.max(0, d.v))).attr('height', d => Math.max(1, Math.abs(y(d.v) - y(0))))
+        .attr('rx', 3).attr('fill', d => d.v >= 0 ? C[0] : C[1])
+        .on('pointermove', (ev, d) => {
+          tipLines(tip, fmtDay(d.d), [
+            { color: C[0], text: `KRE ${sgn2(d.kr)}%` },
+            { color: C[1], text: `QQQ ${sgn2(d.qr)}%` },
+            { text: `Gap ${sgn2(d.v)} pts` }
+          ]);
+          tip.hidden = false;
+          const r = gapEl.getBoundingClientRect();
+          placeTip(tip, gapEl, ev.clientX - r.left, ev.clientY - r.top);
+        })
+        .on('pointerleave', () => { tip.hidden = true; });
+    }
+
+    // Yearly correlation bars
+    const yr = dash.data('yearly_corr');
+    const yEl = document.getElementById('year-chart');
+    if (yr.status !== 'ok') {
+      if (yr.status === 'loading') { yEl.innerHTML = ''; yEl.classList.add('dash-skeleton'); } else { yEl.classList.remove('dash-skeleton'); fail(yEl); }
+    } else {
+      yEl.classList.remove('dash-skeleton');
+      yEl.innerHTML = '';
+      const ys = yr.data.map(r => ({ year: String(r.year), v: +r.corr, n: +r.bars }));
+      const W = yEl.clientWidth || 600, H = 260;
+      const svg = d3.select(yEl).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img').attr('aria-label', 'Yearly correlation of KRE and QQQ');
+      const y = d3.scaleLinear([0, 1], [H - 24, 10]);
+      const ticks = [0, 0.25, 0.5, 0.75, 1];
+      const ml = measure(svg, ticks.map(t => t.toFixed(2))) + 10, mr = 8;
+      const x = d3.scaleBand(ys.map(d => d.year), [ml, W - mr]).padding(0.2);
+      const gy = svg.append('g').attr('transform', `translate(${ml},0)`).call(d3.axisLeft(y).tickValues(ticks).tickFormat(t => t.toFixed(2)).tickSize(-(W - ml - mr)).tickPadding(6));
+      styleAxis(gy);
+      const every = Math.max(1, Math.ceil(ys.length / Math.max(2, Math.floor((W - ml - mr) / 44))));
+      const shown = ys.map(d => d.year).filter((yv, i) => i % every === 0 || yv === ys[ys.length - 1].year);
+      const gx = svg.append('g').attr('transform', `translate(0,${H - 24})`).call(d3.axisBottom(x).tickValues(shown).tickFormat(d => "'" + d.slice(2)).tickSize(0).tickPadding(8));
+      styleAxis(gx);
+      const tip = tipBox(yEl);
+      const last = ys[ys.length - 1].year;
+      svg.selectAll('rect.bar').data(ys).join('rect').attr('class', 'bar')
+        .attr('x', d => x(d.year) + (x.bandwidth() - Math.min(32, x.bandwidth())) / 2).attr('width', Math.min(32, x.bandwidth()))
+        .attr('y', d => y(Math.max(0, d.v))).attr('height', d => Math.max(1, y(0) - y(Math.max(0, d.v))))
+        .attr('rx', 3).attr('fill', d => d.year === last ? C[0] : 'var(--cds-chart-muted)')
+        .on('pointermove', (ev, d) => {
+          tipLines(tip, d.year, [{ text: `Correlation ${sgn2(d.v)}` }, { text: `${d.n} trading days` }]);
+          tip.hidden = false;
+          const r = yEl.getBoundingClientRect();
+          placeTip(tip, yEl, ev.clientX - r.left, ev.clientY - r.top);
+        })
+        .on('pointerleave', () => { tip.hidden = true; });
+    }
+
+    // Episodes table
+    const ep = dash.data('divergence_episodes');
+    const tb = document.querySelector('#ep-table tbody');
+    tb.textContent = '';
+    if (ep.status === 'ok') {
+      ep.data.forEach((r, i) => {
+        const tr = document.createElement('tr');
+        if (i === ep.data.length - 1) tr.className = 'now';
+        const cells = [
+          [r.episode, null],
+          [fmtShort(parseDay(r.start)) + ', ' + r.start.slice(0, 4), null],
+          [fmtShort(parseDay(r.end)) + ', ' + r.end.slice(0, 4), null],
+          [sgn1(+r.kre_pct) + '%', +r.kre_pct],
+          [sgn1(+r.qqq_pct) + '%', +r.qqq_pct],
+          [(+r.ten_year_start).toFixed(2) + '%', null],
+          [(+r.ten_year_end).toFixed(2) + '%', null]
+        ];
+        cells.forEach(([txt, num]) => {
+          const td = document.createElement('td');
+          td.textContent = txt;
+          if (num !== null) td.className = num >= 0 ? 'up' : 'down';
+          tr.appendChild(td);
+        });
+        tb.appendChild(tr);
+      });
+    }
+  }
+
+  dash.onData(draw);
+})();
+</script>
