@@ -1,0 +1,10 @@
+# FROZEN PERIMETER 2026-10-23 — WQ-506 (Will 2026-10-23 09:35 ET, "yes approved go ahead"): exactly eight names. Changes only by a Will-gated re-cut recorded on a PROME WQ row; a proposed ninth name is a proposal, never an addition. Eaton is excluded by ruling (WATT owns the grid-equipment figure). boot.py leg 6 checks the count and the tickers.
+Ticker	Company	Segment_read	Seam	Frozen_At	Notes
+CAT	Caterpillar	Construction, resource and energy-transportation equipment; dealer inventory	Energy & Transportation (power gen for data centers) -> WATT/VULCAN line on the checklist	2026-10-23	Frozen list (WQ-506 4)
+DE	Deere	Large ag, small ag/turf, construction & forestry equipment demand	Farm-income side -> FERT/CARL; ISHM reads equipment demand only	2026-10-23	Fiscal year ends late Oct/early Nov; fiscal Q4 prints in late Nov
+HON	Honeywell	Aerospace, building automation, industrial automation	Aerospace defence share -> HAWK seam (FIRST_SESSION)	2026-10-23	UNVERIFIED AT BUILD: Honeywell announced a multi-way separation (aerospace spin planned for 2026). FIRST_SESSION checks whether it has completed; if HON no longer holds Aerospace, the row needs a Will-gated re-cut
+GE	GE Aerospace	Commercial engines and services; defence & propulsion	Defence -> HAWK seam; GE Vernova is a separate company and is WATT's	2026-10-23	Ticker GE = GE Aerospace
+PH	Parker-Hannifin	Diversified industrial (motion and control) and aerospace systems orders	—	2026-10-23	Fiscal Q1 ends September
+MMM	3M	Safety & industrial, transportation & electronics	Litigation is not cycle evidence; record it, never score it	2026-10-23	
+EMR	Emerson	Automation orders (process, hybrid, discrete)	—	2026-10-23	Fiscal year ends September 30
+UNP	Union Pacific	Carloads by commodity group, intermodal volume, pricing vs volume	Freight volume J2 instrument; one figure shared with CARL's goods read	2026-10-23	

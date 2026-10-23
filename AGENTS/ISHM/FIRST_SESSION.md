@@ -1,0 +1,17 @@
+# ISHM — FIRST LIVE SESSION (one-time list)
+
+Applies while the STATUS banner reads **UNSPENT**. When every item is done or carried by name (owner and date), strike the banner, and say in STATUS which items were carried. Order matters: items 1–3 make the desk's instruments honest before it reads anything.
+
+| # | Item | Done when |
+|---|---|---|
+| 1 | **Boot clean.** Run `boot.py`, then `python3 -m unittest discover -s "$(git rev-parse --show-toplevel)/AGENTS/ISHM/scripts" -p 'test_*.py'`. Read every REVIEW line | Tests pass; each boot flag worked or carried |
+| 2 | **Verify the perimeter** (`PERIMETER.tsv`): has Honeywell's aerospace separation completed? Is ticker GE GE Aerospace? Then check each bellwether's next print date in `docket/CATALYSTS.tsv` against the company's own IR page | Each row confirmed at a primary. A changed company becomes a re-cut **proposal** to PROME (Will-gated), never an edit |
+| 3 | **Boundary packets**, one per seam owner. **HENRY:** ISM split; the `<47` trigger stays HENRY's until Will rules. **CARL:** prices-paid and consumer read, tariff announcement vs effect, shared trucking/rail figure. **LABOR:** employment sub-index. **HAWK:** defence-capex seam. **OTTO:** auto production in IP. **FERT:** Deere farm income. **HANS:** the inbound lead. **VULCAN · LIQUID · RED:** J1/J2 handoff form. **REGINALD · GIBBS:** C&I channel. **WATT:** read its reply to DAEDALUS's build packet (grid-equipment figure) | Each owner has a packet. Record replies here as they land |
+| 4 | **The HANS caveat, US side.** Read S&P Global's own release for the US September and October flash manufacturing PMIs. Verify the 57.0 at the primary (it replaces seeded KB-ISH-002). Record what S&P says drives it: demand, inventories, or pre-tariff buying | KB row at PRIMARY-VERIFIED, or the claim struck with the reason |
+| 5 | **J1 paired test** (`workbook/EXIT_PROTOCOL.md`): write the three-leg test — M3 core capex categories, computer imports (FT-900), BEA equipment investment. Give each leg's release date and its healthy reading | J1 row registered, or the exact blocker named |
+| 6 | **J2 base rate:** how often goods-transport volumes fell without HY widening. Name the sample and its start-date reason (blueprint §3 reference-discipline bundle) | Base rate on KB with basis; band proposed |
+| 7 | **First print rows.** Read the newest release of each family — ISM (October 1 release for September), S&P Global flash and final, the five regional Feds, IP/CU, durables and core capex, factory orders, Cass, AAR — into `workbook/PRINTS.tsv`. Then score VX | ≥1 PRINTS row per family or a named blocker; every VX score set or `UNKNOWN` with a reason |
+| 8 | **R1 bidirectional flip:** one observation each way, each testable at a named print with its date | Both flips written in EXIT_PROTOCOL; re-stamp `Kill rail re-derived:` |
+| 9 | **Thresholds:** propose bands with base rates for new-orders-minus-inventories, the regional composite, core capex y/y, Cass shipments y/y and the carload trend | Proposed in STATUS; registered only via PROME (gates are Will's) |
+| 10 | **READS declaration:** ask PROME for this desk's `PROME/registry/READS.tsv` rows (the read-cap perimeter) | Packet sent |
+| 11 | **NEXUS_BRIEF.md** — the first write, last in the session, pinned to STATUS | `brief_pin_check.py` OK for ISHM |

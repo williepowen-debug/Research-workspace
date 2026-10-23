@@ -1,0 +1,7 @@
+# LIVE — Last real data refresh: NONE (built 2026-10-23, no print read yet) | Staleness sweep: 2026-10-23 | Next: first print row at the first live session
+# Cadence: PRINT-DRIVEN (dated rows in docket/CATALYSTS.tsv) | Last re-pull ATTEMPTED: 2026-10-23 (build: FRED reachability only, no row written)
+# One row per Series x Ref_Period x Vintage. Series = a SERIES-KEY below. Vintage: FLASH | ADVANCE | FIRST-PUBLISHED | FINAL | REVISED-YYYY-MM-DD. A FLASH or ADVANCE row names its successor in Successor_Date.
+# SERIES-KEY: ISM-MFG | ISM-MFG-NO (new orders) | ISM-MFG-PROD | ISM-MFG-INV | ISM-MFG-PRICES | SPG-PMI-MFG | EMPIRE | PHILLY | RICHMOND | KCFED | DALLAS | IP (FRED INDPRO) | TCU (FRED TCU) | DGORDER (FRED) | NEWORDER (FRED, core capex orders) | ANDENO-SHIP (core capex shipments, FRED ANXAVS or as DATA_ROUTES records) | AMTMNO (FRED factory orders) | CASS-SHIP | CASS-EXP | AAR-CARLOADS | AAR-INTERMODAL | CLASS8-ORDERS | AIR-CARGO
+# Basis = STATE_VOCABULARY Class 12 (PRIMARY-VERIFIED | ARTIFACT-VERIFIED | SECONDARY-SOURCE | OWNER-ASSERTED | UNANCHORED). SA = SA | NSA. A survey value is a diffusion-index level, never a growth rate.
+# boot.py leg 5 reads Series + Release_Date to tell whether a dated catalyst's print has been ingested; leg 8 compares FRED's newest observation with the newest Ref_Period here.
+Series	Ref_Period	Release_Date	Vintage	Value	Unit	SA	Prior	Consensus	Basis	Source	Successor_Date	Read_By	Notes

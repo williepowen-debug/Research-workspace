@@ -1,0 +1,13 @@
+# LIVE — Last real data refresh: NONE (built 2026-10-23) | Staleness sweep: 2026-10-23 | Next: verify each row at the first live session
+# Cadence: PRINT-DRIVEN | Last re-pull ATTEMPTED: 2026-10-23
+# Transmission map: one row per mechanism, keyed to a VX vector. State (desk-local enum): CONFIRMED (>=1 documented past instance at a primary) | NOT-OBSERVED (tested by history, 0 instances in a named sample — a base rate, NOT a proof) | MODELED (only a model says it) | UNTESTED (no instance verified at a fleet artifact yet).
+# ALL ROWS SEEDED UNTESTED BY DAEDALUS AT BUILD — a builder's mechanism list, not evidence. Flip a row only with a cited instance, in the same edit.
+ID	Mechanism	Vector	State	Consequence_Owner	Evidence	As_Of	Notes
+FL-ISH-01	Tariff front-running pulls orders forward, then a payback month shows in new orders and imports	VX-ISH-06	UNTESTED	CARL · HENRY	none at build	2026-10-23	
+FL-ISH-02	Inventory rebuild lifts surveys and output without end-demand; the turn shows first in new-orders-minus-inventories	VX-ISH-07	UNTESTED	HENRY	none at build	2026-10-23	
+FL-ISH-03	AI/data-center demand lifts electrical-equipment orders (domestic) while GPUs/servers arrive as imports	VX-ISH-03	UNTESTED	VULCAN · WATT	none at build	2026-10-23	J1 caveat
+FL-ISH-04	Freight-volume decline precedes trucking/logistics credit stress and HY widening	VX-ISH-04	UNTESTED	LIQUID · RED	none at build	2026-10-23	J2; freight-recession-without-credit base rate owed
+FL-ISH-05	Capex-plan cuts at bellwethers reduce C&I loan demand at banks	VX-ISH-05	UNTESTED	REGINALD · GIBBS	none at build	2026-10-23	
+FL-ISH-06	Defence spending lifts aerospace/defence orders independent of private demand	VX-ISH-05	UNTESTED	HAWK (dormant book)	none at build	2026-10-23	Seam to settle at first session
+FL-ISH-07	Manufacturing employment follows new orders with a lag	VX-ISH-01	UNTESTED	LABOR	none at build	2026-10-23	
+FL-ISH-08	European manufacturing leads US ISM (HANS lead, r=+0.573 DE->US at 6m)	VX-ISH-01	UNTESTED	HANS (source)	HANS charter § PMI -> ISM lead (HANS's own test; ISHM has not re-run it)	2026-10-23	Inbound edge
