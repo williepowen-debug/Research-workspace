@@ -1,6 +1,9 @@
 # TRADE IDEA — QQQ Nov-20 690/670 put spread — equity downside while dealer gamma is negative
 **Setup ID:** `IDEA-QQQ-PUTWALL-OCT22`
-**Terry verdict:** CONDITIONAL — **NOT-FIRED**; unapproved proposal. Nothing is approved in advance.
+**Terry verdict:** FIRED / LIVE — **×2, by Will's hand 2026-10-23, AHEAD of T1**; net debit $936.70; management lines in §6 live (harvest ≥ $10.00 mark · kill SPX cash close ≥ 7,750 two consecutive sessions · time stop Fri 2026-11-13 close).
+**Prior verdict (2026-10-22, history):** CONDITIONAL — NOT-FIRED; unapproved proposal.
+
+> **FILL 2026-10-23 (TERRY booking, written 13:2x ET from `date`; root rule #10).** Source: PROME transcription of Will's Fidelity Pending view (`PROME/data/2026-10-23_broker-activity-TRANSCRIPTION.md`, ~13:2x ET; TERRY did not view the image; fill clock not displayed). **BTO 2 × 690P @ $13.39 (−$2,679.33) / STO 2 × 670P @ $8.72 (+$1,742.63), one order, net debit limit $4.67 ⇒ net $936.70 = max loss** (1.87× the $500 default and against the closed X1 gate: Will's explicit per-card choices, root rule #5 by his own hand). Max gain $3,063.30 at QQQ ≤ $670; breakeven $685.32. **Card conditions at the fill:** T1 NOT met (SPX 7,629.53 intraday at 13:23 ET; the cash close had not printed; 10/22 close 7,663.43) ⇒ fired ahead of the trigger · QQQ green ($705.65, +0.17%, 13:23 ET) ⇒ root rule #6 colour respected · net $4.67 ≤ $5.00 chase line · QQQ > $685 · SPX < 7,745 · T2 (HENRY gamma) not re-read at entry, UNKNOWN. Screening mark 13:24 ET: spread mid $4.66 / sell-side $4.62 (vendor, not broker). **Book overlap: QQQ Oct-26 710P ×1 + Oct-26 705P ×2 (bought today, $861.33) + this spread = ONE Nasdaq-downside bet, basis $2,255.69, ≈ $2,668 at 13:23–13:24 ET screening bids.** Arithmetic: `../research/2026-10-23_broker-booking/NOTE.md`. Paper book `PB-0008` (`lane=real`).
 **Prepared:** 2026-10-22 13:29 ET (clock read from `date`), TERRY (Claude Opus 5.5, Claude Code), PROME spawn on WQ-487 A. Commission basis: Will 2026-10-20 11:50 ET, verbatim *"we can loosen rules for trade ideas"* (`USER.md` § Trade ideas loosened).
 **Thesis owners (evidence, not a TERRY thesis):** HENRY (dealer gamma, put wall: SIG-W-20261022-004); VULCAN / LIQUID (AI tape and IG-tech credit: SIG-W-20261022-006); LIQUID (HY >320 rung MET 3/3, X1 CLOSED: SIG-W-20261019-003); WALTER follow-ups (FINRA margin debt $1,480,054M Sep-26, CCC effective yield 18.01% [10/20]: SIG-W-20261022-016); HENRY (Asia: CSI 300 20% below its June peak: SIG-W-20261022-002).
 **Data freshness:** spot and chain pulled 13:26–13:28 ET 10/22 (`fetch.py price`, `chain_fetch.py --no-cache`). Vendor option quotes are **SCREENING marks, not fill prices** (durable finding 5b): the order is priced on the broker chain. Position truth: `FORGE/STATUS.md` mirror of Will's 11:01 ET capture (ANVIL `ec5a7058b`), a mirror, not the broker.
@@ -50,8 +53,8 @@ Puts belong on green days. **Today is RED:** QQQ $705.92 (−2.66%), SPX −1.38
 | **N_eff** | **≈ 1.5 → sized as ONE view** |
 | Book overlap | Same falsifier as the held **QQQ Oct-26 710P ×1** (the book's only remaining index hedge) and, partly, the bank put lines (risk-off). The combined equity-downside forward risk is this card's $492.30 plus the 710P's remaining broker mark; it is one bet, not two |
 
-## 6. Management (written before any fill)
-- **Harvest (durable finding 9):** sell the spread when it marks **≥ $10.00** (≈ 2× the debit, 50% of width) on the broker bid. P/L-keyed, reachable in the profit zone.
+## 6. Management (written before any fill) — **LIVE from 2026-10-23, at ×2**
+- **Harvest (durable finding 9):** sell the spread when it marks **≥ $10.00** (≈ 2× the debit, 50% of width) on the broker bid. P/L-keyed, reachable in the profit zone. At ×2: ~$2,000 proceeds, ~+$1,063.30 before closing fees.
 - **Kill:** SPX cash close **≥ 7,750 on two consecutive sessions** (wall reclaimed, flips crossed) → sell at the spread bid.
 - **Time stop:** sell by the close **Fri 2026-11-13** if neither harvest nor kill has fired. No roll pre-registered; any roll is a new Will-gated proposal (Non-Negotiable #6).
 - Forward max loss after a fill is the remaining mark (construction rule #20 (d)).
