@@ -28,9 +28,9 @@ Written 2026-10-23 before either print (first public: none). Registered at `dock
 | Ambiguous | Cuts limited to phones/PCs | Record; no score change |
 | Override | TrendForce publishes 1Q27 DRAM ≤ 0% | Treat as the 2018 path regardless |
 
-## Instrument caveat
+## Instrument (basket changed 2026-10-23, Will-approved)
 
-`tools/semi_watch.py`'s "memory" basket is **MU/SNDK/WDC/STX** — half of it is hard-disk makers with their own supply shock. Quote MU + SNDK separately when the claim is about memory (MU+SNDK −14.8% on the 10/16 row vs −17.9% basket) [KB-282]. Changing the tool is a separate decision; not done.
+`tools/semi_watch.py` now reports **`memory_core_1mo_pct` = Micron + SanDisk** as the headline memory measure, with hard-disk makers WDC/STX in `hdd_1mo_pct`. The old four-name `memory_1mo_pct` stays as a legacy column so no past reading changes meaning; earlier rows were backfilled from their own per-stock figures [KB-285]. Core vs legacy: 10/16 −14.80% vs −17.91%; 10/23 **−24.09%** vs −25.56%. In August the old basket hid that memory itself was flat to up. `mag7.py`'s layer decomposition still groups WDC/STX with memory (separate tool, not changed).
 
 ## Files
 

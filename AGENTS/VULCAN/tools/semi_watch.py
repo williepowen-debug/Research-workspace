@@ -10,8 +10,17 @@ live read lives only in a rewritten STATUS has no history at all.
 WHAT IT RECORDS  -> workbook/S2_SERIES.tsv (append-only, one row per run)
   1. DRAM spot   — TrendForce public spot tracker (DDR5 / DDR4 session averages)
   2. The equity cross-section that IS the S2 leading indicator (KB-048):
-     memory (MU/SNDK/WDC/STX) + semicap (KLAC/LRCX/AMAT) + foundry (TSM)
-     vs AI-compute (NVDA/AVGO) and QQQ.
+     memory core (MU/SNDK) + hard-disk storage (WDC/STX) + semicap (KLAC/LRCX/AMAT)
+     + foundry (TSM) vs AI-compute (NVDA/AVGO) and QQQ.
+
+  ⚠️ BASKET CHANGE 2026-10-23 (Will-approved in session, 17:37 ET): the HEADLINE memory
+  measure is now `memory_core_1mo_pct` = MU + SNDK only. WDC/STX are hard-disk makers
+  with their own supply shock (KB-282: on 10/16 the four-name basket read -17.91% while
+  MU+SNDK read -14.80%). The four-name `memory_1mo_pct` is KEPT, unchanged in
+  definition, as the LEGACY column so no history changes meaning; `hdd_1mo_pct` and
+  `spread_aicompute_minus_memory_core_pp` sit beside it. Rows written before the change
+  had the three new cells BACKFILLED from their own `per_ticker_1mo_pct` (same window,
+  same closes; arithmetic only) and say so in `memory_basis`.
 
 ⚠️ DESIGN NOTES — read before changing:
   * The cross-section is deliberately CONSTITUENT-level, not index-level.
@@ -90,7 +99,9 @@ _reexec_under_venv()
 SPOT_URL = "https://www.trendforce.com/price/dram/dram_spot"
 
 # constituent cross-section — see KB-048 / KB-067
-MEMORY = ["MU", "SNDK", "WDC", "STX"]
+MEMORY_CORE = ["MU", "SNDK"]          # headline memory measure since 2026-10-23
+HDD = ["WDC", "STX"]                   # hard-disk storage, reported separately
+MEMORY = MEMORY_CORE + HDD             # LEGACY four-name basket, kept for continuity
 SEMICAP = ["KLAC", "LRCX", "AMAT"]
 FOUNDRY = ["TSM"]
 AICOMPUTE = ["NVDA", "AVGO"]
@@ -104,7 +115,11 @@ COLUMNS = [
     "aicompute_1mo_pct", "qqq_1mo_pct", "soxx_1mo_pct",
     "spread_aicompute_minus_memory_pp",
     "per_ticker_1mo_pct", "notes",
+    # added 2026-10-23 (basket change; see module docstring)
+    "memory_core_1mo_pct", "hdd_1mo_pct", "spread_aicompute_minus_memory_core_pp",
+    "memory_basis",
 ]
+BASIS_LIVE = "core=MU+SNDK;legacy=MU+SNDK+WDC+STX;live"
 
 
 def _err(msg: str) -> str:
@@ -211,11 +226,17 @@ def build_row() -> tuple[dict, int]:
     if xerr or not xs:
         for c in ("memory_1mo_pct", "semicap_1mo_pct", "foundry_1mo_pct",
                   "aicompute_1mo_pct", "qqq_1mo_pct", "soxx_1mo_pct",
-                  "spread_aicompute_minus_memory_pp", "per_ticker_1mo_pct"):
+                  "spread_aicompute_minus_memory_pp", "per_ticker_1mo_pct",
+                  "memory_core_1mo_pct", "hdd_1mo_pct",
+                  "spread_aicompute_minus_memory_core_pp"):
             row[c] = xerr or _err("no-data")
+        row["memory_basis"] = BASIS_LIVE
     else:
         per = xs["per"]
         row["memory_1mo_pct"] = _mean(per, MEMORY)
+        row["memory_core_1mo_pct"] = _mean(per, MEMORY_CORE)
+        row["hdd_1mo_pct"] = _mean(per, HDD)
+        row["memory_basis"] = BASIS_LIVE
         row["semicap_1mo_pct"] = _mean(per, SEMICAP)
         row["foundry_1mo_pct"] = _mean(per, FOUNDRY)
         row["aicompute_1mo_pct"] = _mean(per, AICOMPUTE)
@@ -226,6 +247,11 @@ def build_row() -> tuple[dict, int]:
                 round(float(row["aicompute_1mo_pct"]) - float(row["memory_1mo_pct"]), 2))
         except ValueError:
             row["spread_aicompute_minus_memory_pp"] = _err("uncomputable")
+        try:
+            row["spread_aicompute_minus_memory_core_pp"] = str(
+                round(float(row["aicompute_1mo_pct"]) - float(row["memory_core_1mo_pct"]), 2))
+        except ValueError:
+            row["spread_aicompute_minus_memory_core_pp"] = _err("uncomputable")
         row["per_ticker_1mo_pct"] = ";".join(f"{t}:{per[t]}" for t in sorted(per))
         notes.append(f"window={xs['window']}")
 
@@ -233,7 +259,8 @@ def build_row() -> tuple[dict, int]:
     if n_err:
         notes.append(f"{n_err}_field_errors")
     row["notes"] = " ".join(notes) if notes else "ok"
-    rc = 0 if n_err == 0 else (2 if n_err >= len(COLUMNS) - 3 else 1)
+    # total failure = every fetchable field ERR (all but asof_utc, trade_date, notes, memory_basis)
+    rc = 0 if n_err == 0 else (2 if n_err >= len(COLUMNS) - 4 else 1)
     return row, rc
 
 
@@ -253,7 +280,8 @@ def show(n: int) -> int:
     rows = open(SERIES, encoding="utf-8").read().rstrip("\n").split("\n")
     print(f"  {SERIES}  ({len(rows) - 1} retained rows)")
     hdr = rows[0].split("\t")
-    keep = ["trade_date", "ddr5_spot_avg", "ddr4_spot_avg", "memory_1mo_pct",
+    keep = ["trade_date", "ddr5_spot_avg", "ddr4_spot_avg", "memory_core_1mo_pct",
+            "hdd_1mo_pct", "memory_1mo_pct",
             "semicap_1mo_pct", "aicompute_1mo_pct", "spread_aicompute_minus_memory_pp"]
     idx = [hdr.index(k) for k in keep if k in hdr]
     print("  " + " | ".join(f"{hdr[i]:>12.12}" for i in idx))

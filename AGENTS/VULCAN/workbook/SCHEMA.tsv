@@ -46,7 +46,11 @@ S2_SERIES.tsv	notes	String		No	Run caveats
 S2_SERIES.tsv	ddr5_chg_pct	Float		No	DDR5 session % change
 S2_SERIES.tsv	ddr4_chg_pct	Float		No	DDR4 session % change
 S2_SERIES.tsv	spot_asof	String		No	Vintage of the TrendForce spot read
-S2_SERIES.tsv	memory_1mo_pct	Float		No	Memory cohort 1-month % — constituent-weighted
+S2_SERIES.tsv	memory_1mo_pct	Float		No	LEGACY four-name memory basket (MU/SNDK/WDC/STX) 1-month %, definition unchanged; since 2026-10-23 the HEADLINE memory measure is memory_core_1mo_pct (Will-approved basket change, KB-285)
+S2_SERIES.tsv	memory_core_1mo_pct	Float		No	HEADLINE memory measure since 2026-10-23: MU + SNDK 1-month %, equal-weight. Rows before 2026-10-23 backfilled from their own per_ticker_1mo_pct (see memory_basis). ERR: prefix on failure
+S2_SERIES.tsv	hdd_1mo_pct	Float		No	Hard-disk storage (WDC + STX) 1-month %, reported separately from memory since 2026-10-23
+S2_SERIES.tsv	spread_aicompute_minus_memory_core_pp	Float		No	AI-compute minus memory_core, pp. Same calendar-window/raw-close basis caveat and 55.4% base rate as the legacy spread
+S2_SERIES.tsv	memory_basis	String		No	Basket definition for the row: 'live' if computed at run time, 'backfilled-2026-10-23-from-per_ticker' if derived after the fact
 S2_SERIES.tsv	semicap_1mo_pct	Float		No	Semicap cohort 1-month %
 S2_SERIES.tsv	foundry_1mo_pct	Float		No	Foundry cohort 1-month %
 S2_SERIES.tsv	aicompute_1mo_pct	Float		No	AI-compute cohort 1-month %
