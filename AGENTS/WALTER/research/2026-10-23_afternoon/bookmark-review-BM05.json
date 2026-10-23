@@ -1,0 +1,406 @@
+{
+  "schema": 2,
+  "staged_at": 1792780628.6705003,
+  "items": [
+    {
+      "id": "2113667176959770966",
+      "disposition": "FOLD",
+      "read_state": "partly_read",
+      "follow_up": "BOARD/SIG-W-20261023-027-ai-credit-tape-oct23-nvda-5y-cds-over-120-claim-unverified-record-was-82-in-july-meta-cds-at-record-coreweave-bonds-15-16pct-crwv-form-4-late-filing-claim-false-VULCAN-LIQUID.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113391457730011526",
+      "disposition": "DUP",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/anchors/IRAN_WAR.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113664628823900664",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": "BOARD/SIG-W-20261023-024-us-strike-timing-signals-move-up-barrack-strike-this-weekend-absolutely-kan-centcom-plan-no-target-date-brent-dec-116point71-plus-3pct-bushehr-evac-and-iraq-warning-claim-only-FALCON.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113536628924846475",
+      "disposition": "FOLD",
+      "read_state": "partly_read",
+      "follow_up": "BOARD/SIG-W-20261023-027-ai-credit-tape-oct23-nvda-5y-cds-over-120-claim-unverified-record-was-82-in-july-meta-cds-at-record-coreweave-bonds-15-16pct-crwv-form-4-late-filing-claim-false-VULCAN-LIQUID.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113352236222824678",
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "BOARD/SIG-W-20261023-029-kff-2026-employer-health-survey-family-premium-over-28000-up-5pct-vs-wages-3point7pct-2027-premium-hikes-forecast-near-double-digits-CARL.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113577431013413360",
+      "disposition": "NO-ACTION",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2113465123016765637",
+      "disposition": "FOLD",
+      "read_state": "partly_read",
+      "follow_up": "BOARD/SIG-W-20261023-026-market-plumbing-and-positioning-nyse-american-options-halted-oct23-rivals-declared-self-help-10-27-et-hedge-funds-broad-drawdown-oct22-treasury-call-skew-highest-since-mar-2025-HENRY.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113400257522303324",
+      "disposition": "NO-ACTION",
+      "read_state": "partly_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2113478027044679920",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": "BOARD/SIG-W-20261023-025-supply-policy-trump-dpa-section-303-petroleum-determination-oct22-germany-ebv-tender-to-sell-diesel-heating-oil-crude-spain-4point4m-is-oct15-news-BRENT.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113396237739139456",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": "BOARD/SIG-W-20261023-025-supply-policy-trump-dpa-section-303-petroleum-determination-oct22-germany-ebv-tender-to-sell-diesel-heating-oil-crude-spain-4point4m-is-oct15-news-BRENT.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113685308554522699",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": "BOARD/SIG-W-20261023-027-ai-credit-tape-oct23-nvda-5y-cds-over-120-claim-unverified-record-was-82-in-july-meta-cds-at-record-coreweave-bonds-15-16pct-crwv-form-4-late-filing-claim-false-VULCAN-LIQUID.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113553957465272342",
+      "disposition": "NO-ACTION",
+      "read_state": "partly_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2113427914502864986",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": "BOARD/SIG-W-20261023-024-us-strike-timing-signals-move-up-barrack-strike-this-weekend-absolutely-kan-centcom-plan-no-target-date-brent-dec-116point71-plus-3pct-bushehr-evac-and-iraq-warning-claim-only-FALCON.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113698001889927608",
+      "disposition": "NO-ACTION",
+      "read_state": "partly_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2113380122468454765",
+      "disposition": "NO-ACTION",
+      "read_state": "partly_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2113685382961213460",
+      "disposition": "FOLD",
+      "read_state": "partly_read",
+      "follow_up": "BOARD/SIG-W-20261023-026-market-plumbing-and-positioning-nyse-american-options-halted-oct23-rivals-declared-self-help-10-27-et-hedge-funds-broad-drawdown-oct22-treasury-call-skew-highest-since-mar-2025-HENRY.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113673522337939959",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": "BOARD/SIG-W-20261023-027-ai-credit-tape-oct23-nvda-5y-cds-over-120-claim-unverified-record-was-82-in-july-meta-cds-at-record-coreweave-bonds-15-16pct-crwv-form-4-late-filing-claim-false-VULCAN-LIQUID.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113411928085217523",
+      "disposition": "DUP",
+      "read_state": "fully_read",
+      "follow_up": "AGENTS/WALTER/anchors/IRAN_WAR.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113642652746809393",
+      "disposition": "DUP",
+      "read_state": "fully_read",
+      "follow_up": "AGENTS/MIDAS/STATUS.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113508566665732417",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": "BOARD/SIG-W-20261023-025-supply-policy-trump-dpa-section-303-petroleum-determination-oct22-germany-ebv-tender-to-sell-diesel-heating-oil-crude-spain-4point4m-is-oct15-news-BRENT.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113661358780620979",
+      "disposition": "NO-ACTION",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2113691592301433276",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": "BOARD/SIG-W-20261023-028-cyber-wave-oct23-php-cve-2026-115560-unlikely-rce-no-emergency-fix-ruby-regex-bugs-behind-four-gitlab-rces-cloudflare-ceo-more-severe-flaws-mythos-5-aisi-incident-verified-by-cypher-CYPHER.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113667955745517608",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": "BOARD/SIG-W-20261023-024-us-strike-timing-signals-move-up-barrack-strike-this-weekend-absolutely-kan-centcom-plan-no-target-date-brent-dec-116point71-plus-3pct-bushehr-evac-and-iraq-warning-claim-only-FALCON.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113629159377289567",
+      "disposition": "DUP",
+      "read_state": "fully_read",
+      "follow_up": "BOARD/SIG-W-20261023-020-white-collar-layoffs-in-record-quarters-amex-336m-restructuring-charge-confirmed-at-8k-3500-jobs-secondary-visa-2600-barclays-5000-unverified-2023-date-trap-LABOR.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113672173009117323",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": "BOARD/SIG-W-20261023-025-supply-policy-trump-dpa-section-303-petroleum-determination-oct22-germany-ebv-tender-to-sell-diesel-heating-oil-crude-spain-4point4m-is-oct15-news-BRENT.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113553526173335677",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": "BOARD/SIG-W-20261023-026-market-plumbing-and-positioning-nyse-american-options-halted-oct23-rivals-declared-self-help-10-27-et-hedge-funds-broad-drawdown-oct22-treasury-call-skew-highest-since-mar-2025-HENRY.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113636574743191772",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": "BOARD/SIG-W-20261023-028-cyber-wave-oct23-php-cve-2026-115560-unlikely-rce-no-emergency-fix-ruby-regex-bugs-behind-four-gitlab-rces-cloudflare-ceo-more-severe-flaws-mythos-5-aisi-incident-verified-by-cypher-CYPHER.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113605192059064641",
+      "disposition": "NO-ACTION",
+      "read_state": "partly_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2113680611026096517",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": "BOARD/SIG-W-20261023-026-market-plumbing-and-positioning-nyse-american-options-halted-oct23-rivals-declared-self-help-10-27-et-hedge-funds-broad-drawdown-oct22-treasury-call-skew-highest-since-mar-2025-HENRY.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113693832948936831",
+      "disposition": "KILL",
+      "read_state": "fully_read",
+      "follow_up": "AGENTS/WALTER/filtered/kill_log.tsv",
+      "ask_user": null
+    },
+    {
+      "id": "2113613837773533226",
+      "disposition": "FOLD",
+      "read_state": "partly_read",
+      "follow_up": "BOARD/SIG-W-20261023-028-cyber-wave-oct23-php-cve-2026-115560-unlikely-rce-no-emergency-fix-ruby-regex-bugs-behind-four-gitlab-rces-cloudflare-ceo-more-severe-flaws-mythos-5-aisi-incident-verified-by-cypher-CYPHER.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113333931185426865",
+      "disposition": "FOLD",
+      "read_state": "partly_read",
+      "follow_up": "BOARD/SIG-W-20261023-026-market-plumbing-and-positioning-nyse-american-options-halted-oct23-rivals-declared-self-help-10-27-et-hedge-funds-broad-drawdown-oct22-treasury-call-skew-highest-since-mar-2025-HENRY.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113688612110037211",
+      "disposition": "KILL",
+      "read_state": "fully_read",
+      "follow_up": "AGENTS/WALTER/filtered/kill_log.tsv",
+      "ask_user": null
+    },
+    {
+      "id": "2113597695931863048",
+      "disposition": "NO-ACTION",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2113684110883606971",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": "BOARD/SIG-W-20261023-024-us-strike-timing-signals-move-up-barrack-strike-this-weekend-absolutely-kan-centcom-plan-no-target-date-brent-dec-116point71-plus-3pct-bushehr-evac-and-iraq-warning-claim-only-FALCON.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113682777455436167",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": "BOARD/SIG-W-20261023-024-us-strike-timing-signals-move-up-barrack-strike-this-weekend-absolutely-kan-centcom-plan-no-target-date-brent-dec-116point71-plus-3pct-bushehr-evac-and-iraq-warning-claim-only-FALCON.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113623229944483893",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": "BOARD/SIG-W-20261023-028-cyber-wave-oct23-php-cve-2026-115560-unlikely-rce-no-emergency-fix-ruby-regex-bugs-behind-four-gitlab-rces-cloudflare-ceo-more-severe-flaws-mythos-5-aisi-incident-verified-by-cypher-CYPHER.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113684760019210585",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": "BOARD/SIG-W-20261023-024-us-strike-timing-signals-move-up-barrack-strike-this-weekend-absolutely-kan-centcom-plan-no-target-date-brent-dec-116point71-plus-3pct-bushehr-evac-and-iraq-warning-claim-only-FALCON.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113448091731021863",
+      "disposition": "NO-ACTION",
+      "read_state": "partly_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2113653762355028077",
+      "disposition": "FOLD",
+      "read_state": "partly_read",
+      "follow_up": "BOARD/SIG-W-20261023-024-us-strike-timing-signals-move-up-barrack-strike-this-weekend-absolutely-kan-centcom-plan-no-target-date-brent-dec-116point71-plus-3pct-bushehr-evac-and-iraq-warning-claim-only-FALCON.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113447090978467922",
+      "disposition": "NO-ACTION",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2113675565727371364",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": "BOARD/SIG-W-20261023-024-us-strike-timing-signals-move-up-barrack-strike-this-weekend-absolutely-kan-centcom-plan-no-target-date-brent-dec-116point71-plus-3pct-bushehr-evac-and-iraq-warning-claim-only-FALCON.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113342004176531691",
+      "disposition": "FOLD",
+      "read_state": "partly_read",
+      "follow_up": "BOARD/SIG-W-20261023-028-cyber-wave-oct23-php-cve-2026-115560-unlikely-rce-no-emergency-fix-ruby-regex-bugs-behind-four-gitlab-rces-cloudflare-ceo-more-severe-flaws-mythos-5-aisi-incident-verified-by-cypher-CYPHER.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113373548282827130",
+      "disposition": "FOLD",
+      "read_state": "partly_read",
+      "follow_up": "BOARD/SIG-W-20261023-028-cyber-wave-oct23-php-cve-2026-115560-unlikely-rce-no-emergency-fix-ruby-regex-bugs-behind-four-gitlab-rces-cloudflare-ceo-more-severe-flaws-mythos-5-aisi-incident-verified-by-cypher-CYPHER.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113656365361099257",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": "BOARD/SIG-W-20261023-024-us-strike-timing-signals-move-up-barrack-strike-this-weekend-absolutely-kan-centcom-plan-no-target-date-brent-dec-116point71-plus-3pct-bushehr-evac-and-iraq-warning-claim-only-FALCON.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113600694435680758",
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "BOARD/SIG-W-20261023-028-cyber-wave-oct23-php-cve-2026-115560-unlikely-rce-no-emergency-fix-ruby-regex-bugs-behind-four-gitlab-rces-cloudflare-ceo-more-severe-flaws-mythos-5-aisi-incident-verified-by-cypher-CYPHER.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113666337184653565",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": "BOARD/SIG-W-20261023-024-us-strike-timing-signals-move-up-barrack-strike-this-weekend-absolutely-kan-centcom-plan-no-target-date-brent-dec-116point71-plus-3pct-bushehr-evac-and-iraq-warning-claim-only-FALCON.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113592231286255625",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": "BOARD/SIG-W-20261023-028-cyber-wave-oct23-php-cve-2026-115560-unlikely-rce-no-emergency-fix-ruby-regex-bugs-behind-four-gitlab-rces-cloudflare-ceo-more-severe-flaws-mythos-5-aisi-incident-verified-by-cypher-CYPHER.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113653441230979126",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": "BOARD/SIG-W-20261023-028-cyber-wave-oct23-php-cve-2026-115560-unlikely-rce-no-emergency-fix-ruby-regex-bugs-behind-four-gitlab-rces-cloudflare-ceo-more-severe-flaws-mythos-5-aisi-incident-verified-by-cypher-CYPHER.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113645729596014722",
+      "disposition": "FOLD",
+      "read_state": "partly_read",
+      "follow_up": "BOARD/SIG-W-20261023-028-cyber-wave-oct23-php-cve-2026-115560-unlikely-rce-no-emergency-fix-ruby-regex-bugs-behind-four-gitlab-rces-cloudflare-ceo-more-severe-flaws-mythos-5-aisi-incident-verified-by-cypher-CYPHER.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113650107568533867",
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "BOARD/SIG-W-20261023-030-us-state-department-security-alert-for-france-ahead-of-new-protests-after-last-weeks-rioting-curfews-in-place-moodys-france-review-tonight-HANS.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113416100369363430",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": "BOARD/SIG-W-20261023-024-us-strike-timing-signals-move-up-barrack-strike-this-weekend-absolutely-kan-centcom-plan-no-target-date-brent-dec-116point71-plus-3pct-bushehr-evac-and-iraq-warning-claim-only-FALCON.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113592819730546935",
+      "disposition": "FOLD",
+      "read_state": "partly_read",
+      "follow_up": "BOARD/SIG-W-20261023-028-cyber-wave-oct23-php-cve-2026-115560-unlikely-rce-no-emergency-fix-ruby-regex-bugs-behind-four-gitlab-rces-cloudflare-ceo-more-severe-flaws-mythos-5-aisi-incident-verified-by-cypher-CYPHER.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113623259833123029",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": "BOARD/SIG-W-20261023-028-cyber-wave-oct23-php-cve-2026-115560-unlikely-rce-no-emergency-fix-ruby-regex-bugs-behind-four-gitlab-rces-cloudflare-ceo-more-severe-flaws-mythos-5-aisi-incident-verified-by-cypher-CYPHER.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113656477659312134",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": "BOARD/SIG-W-20261023-024-us-strike-timing-signals-move-up-barrack-strike-this-weekend-absolutely-kan-centcom-plan-no-target-date-brent-dec-116point71-plus-3pct-bushehr-evac-and-iraq-warning-claim-only-FALCON.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113643932709974426",
+      "disposition": "NO-ACTION",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2113637874117812684",
+      "disposition": "DUP",
+      "read_state": "fully_read",
+      "follow_up": "BOARD/SIG-W-20261023-014-michigan-october-final-sentiment-48point0-revised-up-from-46point3-inflation-expectations-4point7-1y-3point5-long-run-highest-since-may-durables-buying-conditions-minus-18pct-entrenchment-report-CARL.md",
+      "ask_user": null
+    }
+  ],
+  "stage_id": "b9f24ce98eb048e8b345037df58a1a90"
+}

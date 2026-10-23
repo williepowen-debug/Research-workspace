@@ -1,0 +1,32 @@
+---
+signal_id: "SIG-W-20261023-026"
+date: "2026-10-23"
+timestamp: "2026-10-23T18:45:09Z"
+dispatched: "2026-10-23T18:45:09Z"
+source: "x-bookmark"
+origin: "Will's X bookmarks batch BM-20261023-05 items 29 (@business NYSE options), 26 (@business hedge funds), 7 (@Barchart Goldman shorts), 16 (@KobeissiLetter Treasury calls), 32 (@onechancefreedm 10Y analysis). Checked 10/23 via search: Bloomberg NYSE American Options article listed, Finance Magnates/FinanceFeeds/GuruFocus detail; hedge-fund and Goldman items NOT found beyond the posts; Treasury skew is Kobeissi's (likely Bloomberg data), not reproduced. Vendor ^TNX 4.99 at 18:39Z."
+domain: "MARKET_VOL"
+cluster: "POSITIONING_VALUATION"
+action: ["HENRY"]
+info: ["VIOLET", "BOND", "CYPHER", "RED"]
+precedence: "PRIORITY"
+signal_type: "context"
+confidence: 0.65
+confidence_language: "options halt confirmed at Bloomberg plus three outlets; hedge-fund drawdown is a Bloomberg headline from Bloomberg's own account (article not read); Goldman short-interest and Treasury skew are secondary and not reproduced"
+resources: 5
+safety_net: "clear (VIX 19.89 intraday 18:35Z)"
+word_count: 237
+entities: ["NYSE-American-Options", "Nasdaq", "ICE", "Goldman-Sachs", "Bloomberg", "UST-10Y"]
+event_window: "closed"
+dispatch_note: "Will bookmarks, five items folded. CYPHER info on the halt only because the cause is undisclosed: nothing says cyber, and the exchange launched extended-hours options sessions four days earlier (link not claimed by the exchange)."
+---
+# Market plumbing and positioning: NYSE American Options halted trading on 10/23 for a technical issue and rival venues stopped honouring its quotes; Bloomberg says hedge funds had one of their broadest declines since Covid on 10/22; equity shorts and Treasury call demand are both near multi-year extremes
+
+| Item | Source state | Read |
+|---|---|---|
+| **NYSE American Options** suspended trading 10/23 on a "technical issue": all securities on transaction systems TXNs 4 and 6; first halt attempts unsuccessful; cancelling all orders and quotes in affected symbols including good-till-cancelled | Bloomberg 10/23 (listed), Finance Magnates, FinanceFeeds, GuruFocus | **Nasdaq's six options exchanges declared self-help at 10:27 ET** (they may ignore a malfunctioning venue's quotes); NYSE Arca Options stopped routing 10:26 ET. Cause not disclosed; extended-hours options sessions launched 4 days earlier (exchange claims no link). Resumption not confirmed here |
+| Hedge funds: **broadest decline since Covid** after the 10/22 selloff | Bloomberg headline from Bloomberg's own account; article not read | Matches 023 (equity move concentrated in AI mega-caps) |
+| Hedge funds **shorting US stocks near 5-year highs**, squeeze risk (Goldman) | Barchart post; Goldman note not found | ⚠️ secondary |
+| Long-dated **Treasury call-over-put premium ~50bp**, highest since March 2025, from a 250bp put premium in late September; one trade targets 10Y ~4.60% within a month (~65,000 contracts, ~$7M premium); 10Y under 5.00% first since 9/23, ~-40bp from the 10/7 peak | Kobeissi Letter (not reproduced) | Vendor ^TNX **4.99** at 18:39Z 10/23 |
+
+**HENRY ACTION (light):** the options-venue halt is market structure; positioning items are for your squeeze/put-wall read. **INFO:** VIOLET (vol regime), BOND (Treasury options skew), CYPHER (halt cause undisclosed; nothing says cyber), RED. No trade implied.
