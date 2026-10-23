@@ -1,6 +1,6 @@
 # CRUISE — RCL Q3 FY26 grading card (DOCKET L713)
 
-*Written 2026-10-23 Fri ~01:1x ET by CRUISE (PROME spawn prome-e7, WQ-502 A, DOCKET L732 step 2). **A grading card, not a prediction and not a gate.** It grades RCL's print against RCL's own published guide and against letters already registered at this desk (exit rule 1 limb 2, the `VX-CRU-03` band text). **It adds no threshold, no level and no forecast.** Nothing here fires a trade.*
+*Written 2026-10-23 Fri ~01:05 ET by CRUISE (PROME spawn prome-e7, WQ-502 A, DOCKET L732 step 2). **A grading card, not a prediction and not a gate.** It grades RCL's print against RCL's own published guide and against letters already registered at this desk (exit rule 1 limb 2, the `VX-CRU-03` band text). **It adds no threshold, no level and no forecast.** Nothing here fires a trade.*
 
 **🧊 Frozen letter:** the grade columns below are fixed at the commit that adds this file. A change after that commit is an addition in a dated section at the bottom, never an edit in place; the grading session reads this commit, not a later copy.
 
