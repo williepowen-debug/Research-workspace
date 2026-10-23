@@ -66,3 +66,20 @@
 **L0 at birth.** The L1 leg needs a current judgment (reading B), and ISHM's says *NONE YET*. Every seeded row is marked as inherited. Two premises in the ruling were checked and found only partly true:
 - **(a)** WATT reads GE Vernova's backlog (KB-WATT-097), but its charter does not claim equipment demand. WATT was asked to accept, partly accept or decline.
 - **(b)** HENRY's `<47` trigger is not moved by WQ-506.
+
+## 5. Follow-up — catalysts and data routes (same morning)
+
+**Calendar source:** a research helper (Opus) read the issuer schedules and recorded every failure. Working file: the session scratchpad `release_calendar.md`; its content is carried into the catalyst `notes` cells. The helper found 38 dated rows: 20 PRIMARY, 7 SECONDARY, 11 RULE-DERIVED.
+
+**`docket/CATALYSTS.tsv`:** 32 rows from 2026-10-23 to 2026-12-31.
+- `date_class`: `FIRM` for PRIMARY dates; `MODELED (~)` for SECONDARY or rule-derived ones.
+- AAR weekly rail is batched into one row per month, to keep the Tier-2 wake cost down.
+- One housekeeping row on 12/31 to extend the calendar.
+- The **G.17 annual revision on 11/24** is a P1 row, because any IP/TCU band must be re-based.
+- **The December S&P Global flash has no row:** no source gave a date.
+
+**Blocked routes:** ISM is behind a login page with a reCAPTCHA check, and was not bypassed. S&P Global returns 403 or a bot challenge. Both have SECONDARY dates only.
+
+**`DATA_ROUTES.md`:** 14 routes, each with its reach.
+
+**Bellwether earnings rows:** owed. A second helper is verifying the dates at each company's IR page; until then FIRST_SESSION item 2 covers them.

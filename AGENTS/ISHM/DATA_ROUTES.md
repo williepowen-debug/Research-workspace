@@ -1,0 +1,19 @@
+# ISHM — DATA ROUTES (reachability measured at build, 2026-10-23)
+
+Measured by DAEDALUS and a research helper on 2026-10-23, roughly 09:30–09:55 ET, from this box. Full working record: the build record, `AGENTS/DAEDALUS/builds/ISHM_BUILD_2026-10-23.md` §5. **Re-record a route here the day it changes.** A route marked BLOCKED is data an LLM cannot reach. Tell Will before spending a session on it.
+
+| Route | Reach at build | Use | Notes |
+|---|---|---|---|
+| **FRED CSV, keyless** (`https://fred.stlouisfed.org/graph/fredgraph.csv?id=<ID>`) | ✅ REACHABLE. INDPRO · IPMAN · TCU (newest 2026-09) · DGORDER · NEWORDER · ANXAVS · AMTMNO (newest 2026-08) | boot.py leg 8, plus history for base rates | FRED serves the **latest-revised** vintage. A first-published value comes from the issuer release (or ALFRED). One curl timed out at 30 s and succeeded on retry |
+| **ISM** (ismworld.org calendar and report pages) | ⛔ BLOCKED. A 302 sends the request to a login page with a reCAPTCHA check, both in curl and WebFetch. Not bypassed, and never to be | — | The `baby<YYYYMM>pmi.pdf` press release on ismworld.org loaded (HTTP 200) for September, so the **headline release may be readable as a PDF**. Verify at the first session. **ISM is not on FRED**: every NAPM* id returns 404, and `/series/NAPM` redirects to FRED's 2016 removal notice. **History is paywalled, so survey thresholds cannot be back-tested on free data** |
+| **S&P Global PMI** (pmi.spglobal.com, spglobal.com) | ⛔ BLOCKED. 403 or an empty bot-challenge page, in curl and WebFetch | — | Release dates come from MTS Insights / Investing.com (SECONDARY). A headline figure from a secondary source is `SECONDARY-SOURCE` until it is read at the issuer |
+| **Census M3** (`census.gov/manufacturing/m3/`) | ✅ REACHABLE. The release schedule and the 2026 economic-indicator calendar agree on every date | Durable goods advance, full factory orders | The next full report after December is 2027-01-07 |
+| **Fed G.17** (`federalreserve.gov/releases/g17/`) | ✅ REACHABLE. Release dates + `json/calendar.json` (times) | IP / CU | ⚠️ **Annual revision 2026-11-24**: base year moves to 2022, history back to 1972 restated. Re-base any IP/TCU band |
+| **Regional Feds**: NY (Empire) · Philadelphia · Richmond · Dallas | ✅ REACHABLE (PRIMARY schedules) | Survey rows | Two guessed URLs returned 404; the correct pages are linked from each survey's own page (see catalyst notes) |
+| **Kansas City Fed** | ⚠️ PARTIAL. curl timed out; WebFetch reached the release-dates page | Survey rows | No release time is published; the 11:00 ET figure is MTS's |
+| **AAR weekly rail traffic** (aar.org) | ⚠️ PARTIAL. The Data Center page says "every Wednesday at noon"; later requests got **HTTP 429** (rate-limited) | J2 freight leg | Holiday-week dates unverified. Read each month's weeks in one batch (catalyst design) and space out requests |
+| **Cass Freight Index** (cassinfo.com) | ✅ Rule page reachable: "typically released on the 13th", "within two weeks of month-end" | J2 freight leg | There is no dated schedule; a 13th that falls on a weekend moves |
+| **Class 8 truck orders** (ACT Research, FTR) | Press-release headlines only (not measured at build) | J2 freight leg | The full data is paid. Headlines are `SECONDARY-SOURCE` unless read at the firm's own release |
+| **Census FT-900 trade** (computers and accessories imports) | Not measured at build | J1 leg 2 | FIRST_SESSION item 5 |
+| **BEA GDP**, equipment / information-processing investment | Not measured at build | J1 leg 3 | FIRST_SESSION item 5 |
+| **Bellwether IR pages** (8 names) | Being verified (helper running at build) | Earnings rows | FIRST_SESSION item 2 |
