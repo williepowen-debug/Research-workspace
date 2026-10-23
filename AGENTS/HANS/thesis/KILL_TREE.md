@@ -6,10 +6,10 @@
 
 | Claim | Verdict | Why, in one line |
 |---|---|---|
-| **C-1** long-end term premium | 🟠 **WEAKENED — no longer load-bearing** | Two of its three exclusion legs no longer hold: France's spread is **157.5bp**, not tight, and the euro **weakened** 1.16 → **1.1227**. No kill row fired, but only because every row was conditioned on a RISING Bund, and the Bund is falling (safe haven). The live European channel is now **France sovereign credit (`T-10`)**. |
+| **C-1** long-end term premium | 🟠 **WEAKENED — no longer load-bearing** | Two of its three exclusion legs no longer hold: France's spread is **174.6bp [10/22]** (157.5 on 10/21), not tight, and the euro **weakened** 1.16 → **1.1227**. No kill row fired, but only because every row was conditioned on a RISING Bund, and the Bund is falling (safe haven). The live European channel is now **France sovereign credit (`T-10`)**. |
 | **C-2** PMI → ISM | ✅ **SURVIVED its test** | `HNS-06` HIT (Sept flash 53.8); US ISM Sept **54.5** (HENRY). The regime caveat is retracted (self-challenge #14). Next: Oct flash ~10/23. |
 | **C-3** storage clears 80% | 🔴 **HEADED FOR ITS KILL** | `HNS-07` re-marked **65% → 30%**; fill **74.58%** [gas day 10/20], first net withdrawal. The premise's 82.0 norm was a defect (AGSI-native **89.33** on 10/20). Grades 11/01. |
-| **C-4** bank channel quiet | 🟡 **HOLDS, perimeter weak** | `T-14` NOT fired. New untested path: **the French sovereign–bank loop.** `HNS-09` window opens 10/28. |
+| **C-4** bank channel quiet | 🟡 **HOLDS, perimeter weak — pressure rising** | `T-14` NOT fired. **French sovereign–bank loop: the equity leg is now measured and moving with the OAT (10/22); the CDS/funding leg is not measured.** `HNS-09` window opens 10/28. |
 
 **Why this file exists:** DAEDALUS's 2026-08-28 revival brief named it as the L3→L4 handle this desk lacked — *"no kill tree / falsification surface anywhere but STATUS."* A claim living only inside a narrative surface has no place to die. Each claim below names **what would kill it**, and where possible the **registered prediction** that does the killing.
 
@@ -72,7 +72,7 @@
 | What kills it | Instrument | Status |
 |---|---|---|
 | European bank CDS widen materially, or a named funding event | LIQUID/REGINALD own; I hold the European nexus | Not firing on any measured instrument. `T-14` NOT fired (EIOPA's 10/6 statement writes checks, names no institution; `KB-115`). ⚠️ **SX7E not re-pulled since 9/18.** LIQUID re-asked 10/21 on US funding |
-| 🆕 **2026-10-21: the French sovereign–bank loop.** French bank equities/CDS fall WITH the OAT → sovereign stress is becoming bank stress | BNP / SocGen / Crédit Agricole equities or CDS vs OAT–Bund | ⚪ **UNMEASURED.** Secondary reports say French bank stocks sold off with OATs 10/19–21. No instrument on this desk, so this row cannot fire until one exists. Named so the gap can be counted |
+| 🆕 **2026-10-21: the French sovereign–bank loop.** French bank equities/CDS fall WITH the OAT → sovereign stress is becoming bank stress | BNP / SocGen / Crédit Agricole equities or CDS vs OAT–Bund | 🟠 **EQUITY LEG MEASURED 10/22, CDS LEG STILL UNMEASURED.** On the day OAT–Bund widened +17bp: BNP −4.9%, SocGen −4.5%, CA −2.5% (Yahoo); 9/21→10/20 SocGen −15.0%, BNP −11.1%. The co-movement is real. Allianz (10/9) reports French bank CDS widening, but I have not seen it. **Not fired:** equities price earnings risk, the kill needs funding/CDS. `FLOW-HANS-6` DORMANT → MONITORING. Next: BNP Q3 10/28 (`HNS-09`) |
 | **Higher-for-longer turns:** the same rate level that is currently *supporting* bank earnings begins impairing asset quality | NPL / cost-of-risk in Q3 prints | 🟡 **This is the asymmetry to watch: the bull case and the bear case run through the SAME variable.** Instrument = `HNS-09`, window opens with BNP 10/28. ⚠️ Owed #28 must fix the definitions first, including one-offs such as a UniCredit Russia exit (`KB-112`) |
 
 ---

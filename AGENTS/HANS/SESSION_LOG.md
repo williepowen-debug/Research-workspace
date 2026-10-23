@@ -151,6 +151,22 @@ CATO reviewed the day's work and produced counterexamples against several of thi
 
 **READS.** Attestation filed; the gap was conditional reads (STATE_VOCABULARY, finding_check, mail lanes) and script-internal reads (receipts). STATE_VOCABULARY is over the byte budget — DAEDALUS's file, flagged via PROME.
 
+## 2026-10-22 (Thu) — hans-1022, Will-spawned catch-up to live + France bond-market deep dive (the night before Moody's)
+
+**Order of work.** Boot rc1 → two WALTER signals (031 France, 028 Houthi/Yanbu) processed on Will's word, one at a time → `T-10` graded on the i-i close → gas/storage/Bund/BTP/UK refreshed → Will asked "have you examined the French bond market?" — honest answer was **no, only the 10Y benchmark** → deep dive → workbook pass.
+
+**How `T-10` was graded.** i-i 10/22 close (17h35 CEST) 174.6bp / OAT 5.13. TE gave 174.5 on its own legs, so the LEVEL is two-vendor. The d/d legs disagreed by vendor (OAT +14 vs +7.6, Bund −3 vs −9.5). Under the 10/01 lesson I refused to quote a composition from one source. `HNS-10`'s 175.0 line missed by 0.4bp on the resolver basis; TE's 174.5 is not the resolver and was not used to argue it either way.
+
+**What the deep dive found that the spread could not.** The composition question was answered by a THIRD referent, not a second vendor: against the EUR 10Y swap, OAT–swap +40bp, Bund–swap flat. That is `ML-HANS-481` — a spread cannot say which leg moved; a common referent can. CDS rising alongside (secondary) is what separates credit from pure supply; the rough bond–CDS basis says both are present. The curve says belly, not long end. The money-market edge (FR 3M 13bp under the MLF) is the thing to watch. Allianz's 9 Oct note (read in full) supplied the ECB reaction ladder that makes 174.6 legible: top of "France-centred", operational steps need BTP ~150.
+
+**What went wrong and was caught.** (1) A FLOW.tsv update wrote the date into the `Source` column (I mis-indexed col 11 as a date). Caught on a header re-check before commit, restored from `git show HEAD:`. (2) `doc_audit` C8 caught five KB rows still asserting 10/21 values (TTF, storage, spread, two gilt levels) after I had refreshed every surface — superseded or dated inline, not silenced. The standing prior holds: **the defects were found by a script, not by re-reading.**
+
+**Unreachable, recorded as such.** AFT press releases 403 (WebFetch and curl). worldgovernmentbonds CDS page served `----` placeholders with a 200. No daily keyless swap feed is scripted. → `ML-HANS-482`.
+
+**Records:** `KB-HANS-140`–`148` · `ML-HANS-481`–`482` · `research/2026-10-22_FRANCE_BOND_MARKET_DEEP_DIVE.md` · `HANS-F-006` note · `FLOW-HANS-4`/`6` · KILL_TREE C-4 · packet to PROME + LIQUID.
+
+---
+
 ## 2026-10-21 (Wed) — hans-1021, Will-spawned boot + Europe news catch-up (12-day gap, no HANS session 10/10–10/20)
 - **Boot** rc1; R1 rc=1 on two NAMED corrections (COR-20261012-15 DR-4 peak horizon; -16 diesel net supply) — both read at BOARD and receipted. Git current with origin; tree dirty only with FALCON/HAWK paths (another session live), so no pull and every stage is HANS-pathed.
 - **News source order:** WALTER's 26 routed signals read at body first (not moved — inbox processing is a separate spawn), then extended web searches for the gaps WALTER does not cover (UK CPI, ECB pricing, France, ZEW, TTF, Qatar), then primary/vendor pulls: i-i OAT–Bund screen, TE gilts/Bund/BTP, AGSI 30-day series.

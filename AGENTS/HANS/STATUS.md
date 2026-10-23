@@ -1,5 +1,5 @@
 # HANS STATUS.md
-**Updated:** 2026-10-22 (Thu, ~20:45 ET) — **hans-1022, Will-spawned catch-up to live:** WALTER `-031`/`-028` processed · `T-10` graded 10/22 on i-i (OAT **through the 5.00 RED tier**) · TTF/storage/Bund/BTP refreshed. *10/21 session:* Boot + Europe news catch-up · full registry re-grade · inbox drained (37 + 4) · `HNS-07` 65% → 30% · KILL_TREE re-graded · 20 expired KB rows cleared · test suite 149/149 · **France TPI read + `HNS-10`/`HNS-11` registered before Moody's** · France sovereign memo · **`HNS-09` rules frozen and mechanised before 10/28** · UK Budget groundwork · RULE #1c reworded (WQ-469, Will in-session). *Prior STATUS verbatim → `workbook/STATUS_ROTATED_2026-10-21.md`.*
+**Updated:** 2026-10-22 (Thu, ~20:45 ET) — **hans-1022, Will-spawned catch-up to live:** WALTER `-031`/`-028` processed · `T-10` graded 10/22 on i-i (OAT **through the 5.00 RED tier**) · **France bond-market deep dive** (swap, CDS, curve, bills, auctions) · TTF/storage/Bund/BTP/UK/US refreshed · workbook pass (FLOW-4/6, KILL_TREE C-4, PREDICTIONS, ML-481/482). *10/21 session:* Boot + Europe news catch-up · full registry re-grade · inbox drained (37 + 4) · `HNS-07` 65% → 30% · KILL_TREE re-graded · 20 expired KB rows cleared · test suite 149/149 · **France TPI read + `HNS-10`/`HNS-11` registered before Moody's** · France sovereign memo · **`HNS-09` rules frozen and mechanised before 10/28** · UK Budget groundwork · RULE #1c reworded (WQ-469, Will in-session). *Prior STATUS verbatim → `workbook/STATUS_ROTATED_2026-10-21.md`.*
 **Boot 10/22:** rc1 (attention) · R1 corrections rc=0 · HEAD = origin (not pulled: foreign dirty tree, none mine) · **inbox: 2 of 2 WALTER signals processed on Will's word**, logged in `board_log.tsv`; KB-HANS-140–141. I own **`EUROPE_MACRO`** (BOND = time-critical backup). **UK leg: MINE.**
 
 ---
@@ -15,7 +15,7 @@
 - 🔴 **`HNS-07` (EU storage ≥80% by 11/01) RE-MARKED 65% → 30%** at checkpoint 2, evaluated late on gas-day-10/14 data only: required pace 0.324 pp/d > season-best 0.3107 (rule a) **and** DEWEY's DR-4 rerun (76.5–77.9%) + my pace (~77.4%) both land MISS (rule b). **Not resolved — grades on the 11/01 gas day.** Post-checkpoint (not in the grade): **gas day 10/20 = the season's FIRST net-withdrawal day**; 74.58% needed 0.452 pp/d for 12 days; **gas day 10/21: 74.62%, +0.04pp → now ~0.49 pp/d needed.** Rule (c) count **1 of 5** for the 10/25 checkpoint.
 - 🔴 **INFLATION BROADENING ON BOTH SIDES OF THE CHANNEL — the "energy-only" read is under pressure, not falsified.** EA Sept FINAL (Eurostat 10/16): **headline 3.8%** (Aug 3.2), energy **18.9%**, **core 2.5% → `T-16` 1 of 2** (2nd = Oct FINAL **11/18**; the 11/04 flash cannot complete it). UK Sept (ONS 10/21, secondaries): **3.5% vs 3.4% consensus**, **core 2.8%** (Aug 2.6 — first move since `T-17` was registered, 0.2 under watch), **services 3.7%** (3.4). UK unemployment 4.7%, faster wages (TE 10/20).
 - 🟠 **ECB 10/29: HOLD is consensus; DECEMBER hike ~87% priced** (secondary, ~10/20). `T-04` (≥2.75) stays NOT-MET into 10/29 on that pricing. **BoE 11/5: 25bp hike priced** (press). **NL election 10/29**, same day as the ECB.
-- 🟠 **UK long end retreated before the 10/28 Budget:** 30Y **5.797** (−6.3bp, TE 10/21) = **20bp under `T-13`**; 10Y **5.388** = 11bp under `T-06`. Both fell on a CPI beat. Bank-tax reports hit Lloyds −2.3% / NatWest −2.1% (10/15–16). 📄 **Groundwork → `research/2026-10-21_UK_BUDGET_GROUNDWORK.md`** (`KB-135`–`139`).
+- 🟠 **UK long end retreated before the 10/28 Budget:** 30Y **5.73** (TE 10/22) = **27bp under `T-13`**, now below the 5.75 pre-alert; 10Y **5.34** = 16bp under `T-06`. They fell on the 10/21 CPI beat, then on 10/22 money moved out of euro-area debt into gilts (TE). **The UK is a haven leg of the French move, not a casualty.** Bank-tax reports hit Lloyds −2.3% / NatWest −2.1% (10/15–16). 📄 **Groundwork → `research/2026-10-21_UK_BUDGET_GROUNDWORK.md`** (`KB-135`–`139`).
   - Chancellor **Healey**. Headroom £23.6bn (OBR, March) → ~£11–12bn (private estimates).
   - Borrowing is **+£6.0bn vs the OBR** YTD (ONS 10/21), so expect an upward remit revision. **Read the long-gilt line first.**
   - The BoE's gilt sales are paused to ~Apr-27.
@@ -69,11 +69,13 @@
 | OAT–Bund spread | **174.6bp** (i-i 10/22; +17.1 d/d); TE-derived 174.5 | >100 ✅ MET, **`T-10` OPEN**; exit <90 AND OAT <4.40 ×5 — **0/5** · `HNS-10` 0.4bp short | i-i ✓ |
 | Italy 10Y BTP | **4.602** (TE 10/22, ~flat) | >5.50 level leg — 90bp under | TE ✓ |
 | BTP–Bund spread | **~127bp** (TE-derived) — the +11bp is the Bund rally | >200 — 73bp under | TE ✓ |
-| UK 10Y gilt | **5.3882** (TE 10/21, −3.6bp); BoE par 5.3740 [10/19] | >5.50 orange — 11bp under | TE ✓ · IADB ✓ |
-| **UK 30Y gilt** | **5.7970** (TE 10/21, −6.3bp); BoE 20y par 5.7108 [10/19] = proxy, never T-13 | **>6.00 orange — 20bp under** | TE ✓ |
+| UK 10Y gilt | **5.34** (TE 10/22, ~−5bp, haven inflow); BoE par 5.3516 [10/20] | >5.50 orange — 16bp under | TE ✓ · IADB ✓ |
+| **UK 30Y gilt** | **5.73** (TE 10/22, ~−7bp; below the 5.75 pre-alert); BoE 20y par 5.6687 [10/20] = proxy, never T-13 | **>6.00 orange — 27bp under** | TE ✓ |
+| UK–US 10Y | **39bp** (5.34 − ^TNX 4.95 [10/22]; was 24.2) — USTs rallied ~19bp on the AI-stock selloff | — | TE + Yahoo |
+| Spain–Germany 10Y | ECB monthly **45.4** [Aug] governs; **TE daily cross-check ~71bp [10/22]** (different series) — first daily read near the 80 Yellow | 80 Yellow | ECB ✓ · TE |
 | BoE Bank Rate | **3.75%** [10/20] — **11/5 hike priced** | — | IADB ✓ · pricing secondary |
-| EUR/USD · DXY · GBP/USD | **1.12 · 101.68 · 1.34** | <1.05 watch far away | boot ✓ 10/21 |
-| EuroStoxx50 · DAX · FTSE | **6,207.5 · 25,645.0 · 10,752.9** | — | boot ✓ 10/21 |
+| EUR/USD · DXY · GBP/USD | **1.12 · 101.52 · 1.34** | <1.05 watch far away | boot ✓ 10/22 |
+| EuroStoxx50 · DAX · FTSE | **6,087.0 · 25,371.8 · 10,725.0** | — | boot 10/22 ⚠️ index bars vendor-flagged stale — date unverified |
 
 **Open fires: 5 of 17 — `T-02` · `T-05` · `T-07` · `T-08` · `T-10`.** `T-15` registered 9/18 (see §SAUDI). 🔴 **`T-12` (EUR/USD 3M basis) UNINSTRUMENTED — cannot fire, excluded from any clean-board count.** A clean scan of the 6 daily-scannable rows does not clear the 17.
 
