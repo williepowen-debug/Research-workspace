@@ -1,45 +1,77 @@
 {
   "kind": "marked",
-  "checked_at": "2026-10-23T19:23:47Z",
-  "items": 8,
+  "checked_at": "2026-10-23T20:04:13Z",
+  "items": 13,
   "scan": {
-    "checked_at": "2026-10-23T19:22:43Z",
-    "head_checked_at": "2026-10-23T19:22:42Z",
+    "checked_at": "2026-10-23T19:50:07Z",
+    "head_checked_at": "2026-10-23T19:50:06Z",
     "head_checked_this_run": true,
     "incomplete": false,
     "attempts": 2
   },
   "review_recorded": true,
   "read_counts": {
-    "partly_read": 2,
-    "fully_read": 6
+    "partly_read": 11,
+    "fully_read": 2
   },
   "dispositions": {
-    "DISPATCH": 1,
-    "DUP": 1,
-    "KILL": 3,
-    "NO-ACTION": 3
+    "DISPATCH": 3,
+    "FOLD": 6,
+    "KILL": 2,
+    "DUP": 2
   },
   "follow_ups": [
     {
-      "id": "2113650987349242159",
-      "ref": "BOARD/SIG-W-20261023-032-china-crude-imports-set-for-highest-level-since-the-iran-war-cut-them-commodity-context-rory-johnston-oct23-chart-unseen-ahead-of-us-midterms-BRENT.md"
+      "id": "2113602587404714160",
+      "ref": "BOARD/SIG-W-20261023-035-cyber-oct23-php2shell-palo-alto-fixes-from-oct26-citrix-no-fix-date-27-oct-unconfirmed-aslr-beaumont-railway-100k-is-a-ceiling-anthropic-openssh-pwc-vendor-ransomware-ai-CYPHER.md"
     },
     {
-      "id": "2113344669295710332",
-      "ref": "AGENTS/WALTER/anchors/IRAN_WAR.md"
+      "id": "2113385914751963535",
+      "ref": "BOARD/SIG-W-20261023-037-openai-cuts-round-target-to-1point25tn-pre-money-from-1point4tn-pitched-up-to-30b-uae-coatue-deadline-oct30-ft-plus-bbb-minus-below-90-chart-unsourced-VULCAN.md"
     },
     {
-      "id": "2113337765052236022",
+      "id": "2113482294145212519",
+      "ref": "BOARD/SIG-W-20261023-035-cyber-oct23-php2shell-palo-alto-fixes-from-oct26-citrix-no-fix-date-27-oct-unconfirmed-aslr-beaumont-railway-100k-is-a-ceiling-anthropic-openssh-pwc-vendor-ransomware-ai-CYPHER.md"
+    },
+    {
+      "id": "2113689832761471041",
+      "ref": "BOARD/SIG-W-20261023-035-cyber-oct23-php2shell-palo-alto-fixes-from-oct26-citrix-no-fix-date-27-oct-unconfirmed-aslr-beaumont-railway-100k-is-a-ceiling-anthropic-openssh-pwc-vendor-ransomware-ai-CYPHER.md"
+    },
+    {
+      "id": "2113387429113499895",
       "ref": "AGENTS/WALTER/filtered/kill_log.tsv"
     },
     {
-      "id": "2113665275413291451",
+      "id": "2113465500755800235",
+      "ref": "BOARD/SIG-W-20261023-002-us-chip-rout-oct22-sox-minus-6-72-lam-supply-constraints-2027-qqq-minus-2-86-coreweave-minus-10-1-to-55-60-asia-mixed-oct23-VULCAN.md"
+    },
+    {
+      "id": "2113712529646203369",
+      "ref": "BOARD/SIG-W-20261023-035-cyber-oct23-php2shell-palo-alto-fixes-from-oct26-citrix-no-fix-date-27-oct-unconfirmed-aslr-beaumont-railway-100k-is-a-ceiling-anthropic-openssh-pwc-vendor-ransomware-ai-CYPHER.md"
+    },
+    {
+      "id": "2113390744454971566",
+      "ref": "BOARD/SIG-W-20261023-037-openai-cuts-round-target-to-1point25tn-pre-money-from-1point4tn-pitched-up-to-30b-uae-coatue-deadline-oct30-ft-plus-bbb-minus-below-90-chart-unsourced-VULCAN.md"
+    },
+    {
+      "id": "2113617699469201539",
+      "ref": "BOARD/SIG-W-20261023-038-q3-card-spend-flat-quarter-on-quarter-at-big-issuers-minus-0point6-to-plus-0point8pct-but-yoy-plus-8-to-11pct-chipotle-bull-to-sidelines-CARL.md"
+    },
+    {
+      "id": "2113408079358201861",
       "ref": "AGENTS/WALTER/filtered/kill_log.tsv"
     },
     {
-      "id": "2113612653809532983",
-      "ref": "AGENTS/WALTER/filtered/kill_log.tsv"
+      "id": "2113610863060091120",
+      "ref": "BOARD/SIG-W-20261023-038-q3-card-spend-flat-quarter-on-quarter-at-big-issuers-minus-0point6-to-plus-0point8pct-but-yoy-plus-8-to-11pct-chipotle-bull-to-sidelines-CARL.md"
+    },
+    {
+      "id": "2113703286050042298",
+      "ref": "BOARD/SIG-W-20261023-035-cyber-oct23-php2shell-palo-alto-fixes-from-oct26-citrix-no-fix-date-27-oct-unconfirmed-aslr-beaumont-railway-100k-is-a-ceiling-anthropic-openssh-pwc-vendor-ransomware-ai-CYPHER.md"
+    },
+    {
+      "id": "2113513261161161061",
+      "ref": "BOARD/SIG-W-20261022-031-france-10y-oat-5point06-touched-5point14-highest-since-2002-above-us-10y-first-since-2013-as-us-10y-falls-to-4point95-on-ai-selloff-hans-red-tier-moodys-friday-HANS.md"
     }
   ],
   "requests": []

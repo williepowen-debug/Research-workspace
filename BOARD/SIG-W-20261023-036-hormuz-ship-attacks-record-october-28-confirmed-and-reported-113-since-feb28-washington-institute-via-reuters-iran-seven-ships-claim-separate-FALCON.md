@@ -1,0 +1,41 @@
+---
+signal_id: "SIG-W-20261023-036"
+date: "2026-10-23"
+timestamp: "2026-10-23T20:03:40Z"
+dispatched: "2026-10-23T20:03:40Z"
+source: "RESEARCH-INTAKE"
+origin: "RESEARCH-INTAKE 2026-10-23 run (18:52Z), DEVELOPMENT row 'Ship attacks in Strait of Hormuz hit record high in October - Reuters' (RSS 14:59 GMT). Rule 9 helper verify-A (read-only, Sonnet) read the Reuters story via boereport.com syndication (US News copy timed out); Reuters original and timestamp not verified. Evidence AGENTS/WALTER/research/2026-10-23_late-boot/verify-A.md §2"
+domain: "GEOPOL_ENERGY"
+cluster: "IRAN_HORMUZ"
+action: ["FALCON"]
+info: ["HAWK", "BRENT", "SAM", "RED"]
+precedence: "PRIORITY"
+signal_type: "context"
+confidence: 0.65
+confidence_language: "Reuters story read via one syndication; the 'record' rests on the Washington Institute analyst's statement (no prior monthly figure in the text read); counts are on three different bases"
+resources: 1
+safety_net: "clear"
+word_count: 380
+entities: ["Strait-of-Hormuz", "Reuters", "Washington-Institute", "Noam-Raydan", "IMO", "UKMTO", "Marisks", "BBC-Verify", "GFS-PRIDE", "CAPE-DAO", "IRGC"]
+event_window: "closed"
+anchor_verified_as_of: "2026-10-23"
+dispatch_note: "Iran pre-dispatch guard run: anchor targeted re-verify 10/23 (fresh); IRAN_WAR_GUARDS read for the maritime blocks (vessel-sunk theater check, clock collision, Hormuz denominator, ADD#13, ADD#24, ADD#26). Three counting bases kept separate, never blended. Iran state TV's 10/22 'seven ships' claim is CLAIM-ONLY and not in this Reuters piece. Reuters 10/15 relays GFS PRIDE and CAPE DAO as sunk; FALCON's own record holds CAPE DAO CONTESTED ('partially sunk' at IMO 10/21), so the anchor's losses line (4 confirmed + 1 contested) is not changed here. The UKMTO Limah item in the same coverage is SIG-W-20261023-018. No ladder item fires on a count."
+---
+# Hormuz: Reuters 10/23 says ship attacks in and near the strait hit a monthly record in October: 28 "confirmed and reported attacks" so far (Washington Institute count), 113 since the war began 2/28. This is a tally, not a new event; Iran's 10/22 "seven ships struck" claim is separate and unconfirmed
+
+| Basis | Figure | Source (as relayed by Reuters 10/23) |
+|---|---|---|
+| Washington Institute (Noam Raydan) map, "confirmed and reported attacks", Strait and nearby waters | **28 in October** (to about 10/22); **113 since 2/28**. "October has seen the highest number of ship attacks on record." | Reuters via boereport.com syndication |
+| IMO incident list (Hormuz plus wider Middle East) | 120 incidents since the conflict began; more than 30 VLCCs damaged, **11 in October** | Reuters review of the IMO list plus MarineTraffic |
+| UKMTO | 135 incidents as of 10/16; UKMTO flags under-reporting by shippers | same article |
+| Marisks / UKMTO / BBC Verify | 12 vessels attacked 10/5–10/11 = highest WEEKLY level (prior week 10) | same article |
+
+**Not established:** the prior monthly record (no figure in the text read); the Reuters original and its timestamp.
+
+**Guards applied:**
+- ⛔ Never blend these bases or write "120 attacks": attacks (WINEP) ≠ incidents (IMO, UKMTO).
+- ⛔ Iran state TV (10/22) "seven ships struck by strikes or mines" is **CLAIM-ONLY** (CBC page 403; wording from search summaries), not in this Reuters piece, no UKMTO confirmation. Never "seven tankers hit" (anchor).
+- A separate Reuters story (10/15) relays GFS PRIDE and CAPE DAO as sunk. **FALCON's record holds CAPE DAO CONTESTED** ("partially sunk" at IMO 10/21). Losses stay 4 confirmed + 1 contested until FALCON says otherwise.
+- A count is not a gate event: **GATE 2 / ladder #2 needs a confirmed sinking or mine detonation on a named hull**; nothing here fires it.
+
+**FALCON ACTION:** the monthly-record tally is a theater-intensity datapoint for your 7-day review (next 10/28); grade or ledger as you judge. **INFO:** HAWK (cross-war synthesis), BRENT (transit and freight context; the attack count is not a transit count), SAM (oil-yen), RED. Brent December $117.32 intraday 10/23 (+3.7%, not a settle; boundary #1 watch 2.3% away).

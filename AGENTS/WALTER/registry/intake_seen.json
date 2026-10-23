@@ -4,22 +4,14 @@
     "fred:MORTGAGE30US:red": "2026-10-22T19:20:42Z",
     "fred:BAMLH0A0HYM2:red": "2026-10-22T19:20:42Z",
     "cftc:cftc_cot_VIX_lev_money_net_1105_orange_n:orange": "2026-10-18T22:11:18Z",
-    "edgar:WAL_2026_10_19_2_02_9_01_": "2026-10-22T00:23:50Z",
     "edgar:EGBN_2026_10_21_2_02_7_01_9_01_": "2026-10-22T19:20:42Z",
     "edgar:ZION_2026_10_19_2_02_9_01_": "2026-10-22T00:23:50Z",
     "edgar:VLY_2026_10_22_2_02_9_01_": "2026-10-22T19:20:42Z",
     "edgar:META_2026_10_21_1_01_2_02_8_01_9_01_": "2026-10-22T19:20:42Z",
-    "edgar:NCLH_2026_10_15_1_01_1_02_2_03_8_01_9_01_": "2026-10-16T21:45:56Z",
-    "edgar:NCLC_2026_10_15_1_01_1_02_2_03_8_01_9_01_": "2026-10-16T21:45:56Z",
-    "news:NEW_WATCH:data/2026-10-22/news.json": "2026-10-22T19:20:42Z",
-    "news:WATCH_HIT:7e36779b6b22": "2026-10-22T19:20:42Z",
-    "news:WATCH_HIT:974fc85462f0": "2026-10-22T19:20:42Z",
-    "news:WATCH_HIT:a760fd6fafb1": "2026-10-22T19:20:42Z",
-    "news:WATCH_HIT:7cb8a14cf325": "2026-10-22T19:20:42Z",
-    "news:DEVELOPMENT:ee3b9a8b6e65": "2026-10-22T19:20:42Z",
-    "news:WATCH_HIT:7161222f2ce2": "2026-10-22T19:20:42Z",
-    "news:WATCH_HIT:938612bf38a2": "2026-10-22T19:20:42Z",
-    "news:WATCH_HIT:b536e991a4e6": "2026-10-22T19:20:42Z"
+    "news:NEW_ALERT:data/2026-10-23/news.json": "2026-10-23T20:04:13Z",
+    "news:NEW_WATCH:data/2026-10-23/news.json": "2026-10-23T20:04:13Z",
+    "news:WATCH_HIT:3581f9668fde": "2026-10-23T20:04:13Z",
+    "news:DEVELOPMENT:166bc7f7ac9e": "2026-10-23T20:04:13Z"
   },
-  "updated": "2026-10-22T19:20:42Z"
+  "updated": "2026-10-23T20:04:13Z"
 }

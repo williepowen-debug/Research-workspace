@@ -1,0 +1,98 @@
+{
+  "schema": 2,
+  "staged_at": 1792785007.0452871,
+  "items": [
+    {
+      "id": "2113602587404714160",
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "BOARD/SIG-W-20261023-035-cyber-oct23-php2shell-palo-alto-fixes-from-oct26-citrix-no-fix-date-27-oct-unconfirmed-aslr-beaumont-railway-100k-is-a-ceiling-anthropic-openssh-pwc-vendor-ransomware-ai-CYPHER.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113385914751963535",
+      "disposition": "FOLD",
+      "read_state": "partly_read",
+      "follow_up": "BOARD/SIG-W-20261023-037-openai-cuts-round-target-to-1point25tn-pre-money-from-1point4tn-pitched-up-to-30b-uae-coatue-deadline-oct30-ft-plus-bbb-minus-below-90-chart-unsourced-VULCAN.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113482294145212519",
+      "disposition": "FOLD",
+      "read_state": "partly_read",
+      "follow_up": "BOARD/SIG-W-20261023-035-cyber-oct23-php2shell-palo-alto-fixes-from-oct26-citrix-no-fix-date-27-oct-unconfirmed-aslr-beaumont-railway-100k-is-a-ceiling-anthropic-openssh-pwc-vendor-ransomware-ai-CYPHER.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113689832761471041",
+      "disposition": "FOLD",
+      "read_state": "partly_read",
+      "follow_up": "BOARD/SIG-W-20261023-035-cyber-oct23-php2shell-palo-alto-fixes-from-oct26-citrix-no-fix-date-27-oct-unconfirmed-aslr-beaumont-railway-100k-is-a-ceiling-anthropic-openssh-pwc-vendor-ransomware-ai-CYPHER.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113387429113499895",
+      "disposition": "KILL",
+      "read_state": "fully_read",
+      "follow_up": "AGENTS/WALTER/filtered/kill_log.tsv",
+      "ask_user": null
+    },
+    {
+      "id": "2113465500755800235",
+      "disposition": "DUP",
+      "read_state": "partly_read",
+      "follow_up": "BOARD/SIG-W-20261023-002-us-chip-rout-oct22-sox-minus-6-72-lam-supply-constraints-2027-qqq-minus-2-86-coreweave-minus-10-1-to-55-60-asia-mixed-oct23-VULCAN.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113712529646203369",
+      "disposition": "FOLD",
+      "read_state": "partly_read",
+      "follow_up": "BOARD/SIG-W-20261023-035-cyber-oct23-php2shell-palo-alto-fixes-from-oct26-citrix-no-fix-date-27-oct-unconfirmed-aslr-beaumont-railway-100k-is-a-ceiling-anthropic-openssh-pwc-vendor-ransomware-ai-CYPHER.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113390744454971566",
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "BOARD/SIG-W-20261023-037-openai-cuts-round-target-to-1point25tn-pre-money-from-1point4tn-pitched-up-to-30b-uae-coatue-deadline-oct30-ft-plus-bbb-minus-below-90-chart-unsourced-VULCAN.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113617699469201539",
+      "disposition": "FOLD",
+      "read_state": "partly_read",
+      "follow_up": "BOARD/SIG-W-20261023-038-q3-card-spend-flat-quarter-on-quarter-at-big-issuers-minus-0point6-to-plus-0point8pct-but-yoy-plus-8-to-11pct-chipotle-bull-to-sidelines-CARL.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113408079358201861",
+      "disposition": "KILL",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/filtered/kill_log.tsv",
+      "ask_user": null
+    },
+    {
+      "id": "2113610863060091120",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": "BOARD/SIG-W-20261023-038-q3-card-spend-flat-quarter-on-quarter-at-big-issuers-minus-0point6-to-plus-0point8pct-but-yoy-plus-8-to-11pct-chipotle-bull-to-sidelines-CARL.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113703286050042298",
+      "disposition": "FOLD",
+      "read_state": "partly_read",
+      "follow_up": "BOARD/SIG-W-20261023-035-cyber-oct23-php2shell-palo-alto-fixes-from-oct26-citrix-no-fix-date-27-oct-unconfirmed-aslr-beaumont-railway-100k-is-a-ceiling-anthropic-openssh-pwc-vendor-ransomware-ai-CYPHER.md",
+      "ask_user": null
+    },
+    {
+      "id": "2113513261161161061",
+      "disposition": "DUP",
+      "read_state": "partly_read",
+      "follow_up": "BOARD/SIG-W-20261022-031-france-10y-oat-5point06-touched-5point14-highest-since-2002-above-us-10y-first-since-2013-as-us-10y-falls-to-4point95-on-ai-selloff-hans-red-tier-moodys-friday-HANS.md",
+      "ask_user": null
+    }
+  ],
+  "stage_id": "541cf28f0f1d40b0b778fec27fbadc27"
+}

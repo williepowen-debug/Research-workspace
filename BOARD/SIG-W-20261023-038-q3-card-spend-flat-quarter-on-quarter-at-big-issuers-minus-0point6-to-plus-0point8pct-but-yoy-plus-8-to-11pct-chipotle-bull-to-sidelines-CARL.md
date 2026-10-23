@@ -1,0 +1,40 @@
+---
+signal_id: "SIG-W-20261023-038"
+date: "2026-10-23"
+timestamp: "2026-10-23T20:03:40Z"
+dispatched: "2026-10-23T20:03:40Z"
+source: "x-bookmark"
+origin: "Will's X bookmarks batch BM-20261023-07 items 11 (@gamesblazer06, 10/23 12:37Z) and 9 (@business Chipotle, 10/23 13:05Z). Rule 9 helper verify-A (read-only, Sonnet) read JPM 3Q26 results PDF, BAC and Citi 3Q26 8-K ex99.1, AXP 10-Q 9/30/26, SYF 3Q26 8-K, COF Q2 10-Q (COF Q3 release 403, Q3 dollar figure secondary). Bloomberg Chipotle story not read (headline only). Evidence AGENTS/WALTER/research/2026-10-23_late-boot/verify-A.md §6"
+domain: "CONSUMER_CREDIT"
+cluster: "CONSUMER_STAGFLATION"
+action: ["CARL"]
+info: ["GIBBS", "HENRY", "RED"]
+precedence: "ROUTINE"
+signal_type: "context"
+confidence: 0.7
+confidence_language: "issuer filings read by the helper; bases differ across issuers (JPM and BAC include debit, Citi rounded to $B, AXP global billed business); COF Q3 dollar figure secondary; Chipotle is a headline"
+resources: 2
+safety_net: "clear"
+word_count: 360
+entities: ["JPMorgan", "Bank-of-America", "Citigroup", "Capital-One", "American-Express", "Synchrony", "Chipotle"]
+event_window: "closed"
+dispatch_note: "Claim checked: 'almost all big banks and card cos reported zero sequential spending growth in 3Q26' is roughly true quarter on quarter (5 of 6 within ±1%) but overstated as worded, and year on year is still +8% to +11%. GIBBS carve-out: COF/AXP card reads go to CARL; GIBBS info for the large-bank perimeter. CARL's own Q3 issuer read (10/21) covers credit, not purchase volume; this adds the volume leg. Not seasonally adjusted."
+---
+# Q3 card spending was flat quarter on quarter at the big issuers (−0.6% to +0.8% at JPM, BAC, Citi, Capital One, AmEx and Synchrony) but still up 8–11% year on year; the X claim of "zero sequential growth" is roughly right on the quarter and overstated as a slowdown. Also: a long-standing Chipotle bull moved to the sidelines on softening sales (Bloomberg headline)
+
+| Issuer | Metric | 3Q26 | 2Q26 | QoQ | YoY | Source |
+|---|---|---|---|---|---|---|
+| JPM | debit + credit sales volume | $539.5B | $535.8B | +0.7% | +10% | JPM 3Q26 results 10/13 |
+| BAC | credit + debit spend | $265.7B | $266.1B | −0.2% | +8.4% | BAC 8-K ex99.1 (column order inferred) |
+| Citi | US card spend volume | $175B | $176B | −0.6% (rounded $B) | +11% | Citi 8-K ex99.1 10/13 |
+| COF | purchase volume | ~$254.7B (secondary) | $253.75B (10-Q) | ~+0.4% | +11% (management) | COF Q3 release 403 |
+| AmEx | billed business | $454.0B | $455.8B | −0.4% | +8% (Q2 +9%) | AXP 10-Q 9/30/26 |
+| SYF | purchase volume | $49.7B | $49.8B | −0.3% | +8% | SYF 3Q26 8-K |
+
+**Read:** flat on the quarter, solid on the year, with AmEx's year-on-year easing from 9% to 8%. Q3 usually runs at or above Q2, so flat is a mild deceleration tell, not a contraction. Nominal, not seasonally adjusted; higher gas prices lift spend (SYF cites this), so real volume is weaker than nominal. Bank CEOs' upbeat tone does not contradict this: their year-on-year growth is solid.
+
+**Chipotle:** Bloomberg 10/23, "A long-standing Chipotle bull has moved to the sidelines" on softening sales. Headline only, analyst not named here. It touches your K-shape T1 restaurant leg (restaurants +3.41% real in September, AGAINST trade-down).
+
+**CARL ACTION:** the volume leg for your Q3 issuer read; grade as you judge. **INFO:** GIBBS (large-bank perimeter), HENRY, RED. WFC not checked; DFS is now inside COF.
+
+**Do not relay as:** "card spending stalled" (YoY +8–11%); "zero growth at all banks" (JPM +0.7%, COF ~+0.4%).
