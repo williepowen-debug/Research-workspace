@@ -59,12 +59,12 @@
   <h2 class="dv-section" id="watch">Daily watch: is the see-saw breaking?</h2>
   <p class="dv-status" id="watch-status" data-source="watch"><span class="dash-skeleton">—</span></p>
   <div class="dv-tiles" id="watch-tiles">
-    <div class="dv-tile" id="w-corr"><span class="lbl">Correlation back above 0?</span><span class="big dash-skeleton" data-source="watch" data-field="corr20">—</span><span class="state" data-k="corr_on"></span><span class="sub">Session <span data-source="watch" data-field="sessions_since_signal">—</span> since the signal; past episodes ended after a median of <span data-source="watch" data-field="median_runway">—</span></span></div>
+    <div class="dv-tile" id="w-corr"><span class="lbl">Correlation back above 0?</span><span class="big dash-skeleton" data-source="watch" data-field="corr20">—</span><span class="state" data-k="corr_on"></span><span class="sub">Session <span data-source="watch" data-field="sessions_since_signal">—</span> since the signal; since 2006, episodes this deep ended after a median of <span data-source="watch" data-field="median_runway">—</span></span></div>
     <div class="dv-tile" id="w-ratio"><span class="lbl">KRE ÷ QQQ, off its peak since Oct 6</span><span class="big dash-skeleton" data-source="watch" data-field="ratio_off_peak_pct">—</span><span class="state" data-k="ratio_on"></span><span class="sub">Turns on at <span data-source="watch" data-field="ratio_rollover_pct">—</span>% below the peak</span></div>
     <div class="dv-tile" id="w-joint"><span class="lbl">First day both fell 1% or more</span><span class="big dash-skeleton" data-source="watch" data-field="first_joint_day">—</span><span class="state" data-k="joint_on"></span><span class="sub">Counted from the signal session</span></div>
     <div class="dv-tile" id="w-ten"><span class="lbl">10-year yield, 5-session change</span><span class="big dash-skeleton" data-source="watch" data-field="ten_chg5_bp">—</span><span class="state" data-k="ten_on"></span><span class="sub">Turns on at +<span data-source="watch" data-field="ten_up_bp">—</span> bp; now <span data-source="watch" data-field="ten_last">—</span>%</span></div>
     <div class="dv-tile" id="w-beta"><span class="lbl">KRE move per +0.10 pt in the 10-year</span><span class="big dash-skeleton" data-source="watch" data-field="kre_per_10bp_60">—</span><span class="state" data-k="beta_note"></span><span class="sub">Last 60 sessions. Carried figure <span data-source="watch" data-field="reginald_beta">—</span>% (REGINALD, R² <span data-source="watch" data-field="reginald_r2">—</span>, weak). Banks normally rise with yields</span></div>
-    <div class="dv-tile" id="w-alarm"><span class="lbl">Alarm: KRE on the last yields-down day</span><span class="big dash-skeleton" data-source="watch" data-field="last_down_kre_ret">—</span><span class="state" data-k="alarm_on"></span><span class="sub"><span data-source="watch" data-field="last_down_date">—</span>, 10-year <span data-source="watch" data-field="last_down_ten_bp">—</span> bp</span></div>
+    <div class="dv-tile" id="w-alarm"><span class="lbl">Alarm: KRE on the last yields-down day</span><span class="big dash-skeleton" data-source="watch" data-field="last_down_kre_ret">—</span><span class="state" data-k="alarm_on"></span><span class="sub"><span data-source="watch" data-field="last_down_date">—</span>, 10-year <span data-source="watch" data-field="last_down_ten_bp">—</span> bp. Not a crash signal: since 2024 KRE fell on <span data-source="watch" data-field="down_kre_fell">—</span> of <span data-source="watch" data-field="down_days">—</span> such days (this year <span data-source="watch" data-field="down_kre_fell_ytd">—</span> of <span data-source="watch" data-field="down_days_ytd">—</span>). It marks the falling-yield support ending</span></div>
   </div>
   <div class="dv-check" id="fomc" data-source="watch"><span class="dash-skeleton">—</span></div>
 
@@ -82,10 +82,10 @@
     </section>
     <section class="dv-card" id="long-history">
       <h2>How past see-saws ended, since 2006</h2>
-      <p class="dv-note">Each past time the 20-day correlation first fell to today's signal level (−0.24), measured from that day. Mostly bull-market years; no episode began in a crisis.</p>
+      <p class="dv-note">Each past time the 20-day correlation first fell to today's signal level (−0.24), measured from that day. Today banks lead, so the banks-led column is the closer comparison. Mostly bull-market years; no episode began in a crisis.</p>
       <div class="dv-table-wrap">
         <table class="dv-table" id="hist-table" data-source="long_history" data-row-key="measure">
-          <thead><tr><th data-field="measure">Within 40 sessions of the signal</th><th data-field="value">Episodes</th></tr></thead>
+          <thead><tr><th data-field="measure">Measured from the signal</th><th data-field="all">All</th><th data-field="banks">Banks led (like today)</th><th data-field="tech">Tech led</th></tr></thead>
           <tbody></tbody>
         </table>
       </div>
@@ -515,6 +515,7 @@ dash.calc('watch', {
     const joint = rows.slice(iSig + 1).find(r => r.kr <= ref.joint_day_pct && r.qr <= ref.joint_day_pct);
     const ten5 = (last.ten - rows[n - 6].ten) * 100;
     let ld = null; for (let i = n - 1; i >= 0; i--) if (rows[i].tb <= ref.alarm_ten_bp) { ld = rows[i]; break; }
+    const dn = rows.filter(r => r.tb <= ref.alarm_ten_bp), dnY = dn.filter(r => r.date >= last.date.slice(0, 4) + '-01-01');
     let toFomc = 0; const d0 = new Date(last.date + 'T00:00:00Z'), d1 = new Date(ref.fomc_date + 'T00:00:00Z');
     for (let d = new Date(d0.getTime() + 864e5); d <= d1; d = new Date(d.getTime() + 864e5)) { const w = d.getUTCDay(); if (w > 0 && w < 6) toFomc++; }
     const on = { corr_on: last.c > 0 ? 1 : 0, ratio_on: off <= -ref.ratio_rollover_pct ? 1 : 0, joint_on: joint ? 1 : 0,
@@ -525,6 +526,7 @@ dash.calc('watch', {
       reginald_beta: ref.reginald_beta, reginald_r2: ref.reginald_r2,
       last_down_date: ld ? ld.date : '', last_down_ten_bp: ld ? r1(ld.tb) : null, last_down_kre_ret: ld ? r2(ld.kr) : null,
       fomc_date: ref.fomc_date, sessions_to_fomc: toFomc, ...on,
+      down_days: dn.length, down_kre_fell: dn.filter(r => r.kr < 0).length, down_days_ytd: dnY.length, down_kre_fell_ytd: dnY.filter(r => r.kr < 0).length,
       signs_on: on.corr_on + on.ratio_on + on.joint_on + on.ten_on + on.alarm_on }];
   }
 });
@@ -553,18 +555,23 @@ dash.calc('long_history', {
   title: 'How past see-saws ended',
   description: 'Counts over the completed KRE/QQQ see-saw episodes since 2006 (signal = 20-day correlation first at or below -0.24, re-armed above 0).',
   fn: (episodes_2006) => {
-    const n = episodes_2006.length, t = v => String(v).toLowerCase() === 'true';
-    const run = episodes_2006.map(r => +r.runway_sessions).sort((a, b) => a - b);
-    const med = n % 2 ? run[(n - 1) / 2] : (run[n / 2 - 1] + run[n / 2]) / 2;
-    const c = k => episodes_2006.filter(r => r.class_at_20 === k).length;
-    return [
-      { measure: 'Both KRE and QQQ fell 5% or more', value: `${episodes_2006.filter(r => t(r.both_fell_5pct_40d)).length} of ${n}` },
-      { measure: 'Both rose 5% or more', value: `${episodes_2006.filter(r => t(r.both_rose_5pct_40d)).length} of ${n}` },
-      { measure: 'Gap kept widening after 20 sessions (3%+)', value: `${c('CONTINUED')} of ${n}` },
-      { measure: 'Gap flat after 20 sessions', value: `${c('FLAT')} of ${n}` },
-      { measure: 'Gap closed after 20 sessions (3%+)', value: `${c('SNAP-BACK')} of ${n}` },
-      { measure: 'Median sessions until correlation back above 0', value: String(med) }
+    const t = v => String(v).toLowerCase() === 'true';
+    const groups = { all: episodes_2006, banks: episodes_2006.filter(r => r.leader === 'banks'), tech: episodes_2006.filter(r => r.leader === 'tech') };
+    const med = g => { const a = g.map(r => +r.runway_sessions).sort((x, y) => x - y), n = a.length; return n ? String(n % 2 ? a[(n - 1) / 2] : (a[n / 2 - 1] + a[n / 2]) / 2) : '—'; };
+    const of = (g, f) => `${g.filter(f).length} of ${g.length}`;
+    const tests = [
+      ['Both fell 5% or more within 40 sessions', r => t(r.both_fell_5pct_40d)],
+      ['Both rose 5% or more within 40 sessions', r => t(r.both_rose_5pct_40d)],
+      ['After 40 sessions: both higher', r => +r.kre_40d > 0 && +r.qqq_40d > 0],
+      ['After 40 sessions: QQQ higher, KRE lower', r => +r.qqq_40d > 0 && +r.kre_40d < 0],
+      ['After 40 sessions: QQQ lower, KRE higher', r => +r.qqq_40d < 0 && +r.kre_40d > 0],
+      ['Gap kept widening after 20 sessions (3%+)', r => r.class_at_20 === 'CONTINUED'],
+      ['Gap flat after 20 sessions', r => r.class_at_20 === 'FLAT'],
+      ['Gap closed after 20 sessions (3%+)', r => r.class_at_20 === 'SNAP-BACK']
     ];
+    const rows = tests.map(([m, f]) => ({ measure: m, all: of(groups.all, f), banks: of(groups.banks, f), tech: of(groups.tech, f) }));
+    rows.push({ measure: 'Median sessions until correlation back above 0', all: med(groups.all), banks: med(groups.banks), tech: med(groups.tech) });
+    return rows;
   }
 });
 </script>
@@ -610,6 +617,7 @@ dash.calc('long_history', {
       setText(q('last_down_kre_ret'), h.last_down_kre_ret === null ? '—' : sgn2(h.last_down_kre_ret) + '%');
       setText(q('last_down_date'), h.last_down_date ? fmtShort(day(h.last_down_date)) : '—');
       setText(q('last_down_ten_bp'), h.last_down_ten_bp === null ? '—' : sgn1(h.last_down_ten_bp));
+      ['down_kre_fell', 'down_days', 'down_kre_fell_ytd', 'down_days_ytd'].forEach(f => setText(q(f), String(h[f])));
       Object.keys(STATE).forEach(k => {
         const el = tiles.querySelector(`[data-k="${k}"]`); if (!el) return;
         el.textContent = STATE[k][h[k] ? 1 : 0]; el.classList.toggle('on', !!h[k]);
@@ -633,7 +641,7 @@ dash.calc('long_history', {
       brNote.forEach(e => setText(e, String(br.data[0][e.dataset.field])));
     } else bt.textContent = '';
     const lh = dash.data('long_history'), ht = document.querySelector('#hist-table tbody');
-    if (lh.status === 'ok') rowsInto(ht, lh.data, [r => r.measure, r => r.value]); else ht.textContent = '';
+    if (lh.status === 'ok') rowsInto(ht, lh.data, [r => r.measure, r => r.all, r => r.banks, r => r.tech]); else ht.textContent = '';
   }
   dash.onData(drawWatch);
 })();
