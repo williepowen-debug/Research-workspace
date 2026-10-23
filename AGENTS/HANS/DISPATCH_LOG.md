@@ -120,5 +120,6 @@
 ## 2026-10-22 (hans-1022) — dispatched
 | To | Packet (recipient tree) | What |
 |---|---|---|
-| **PROME** 🔴 | `PROME/inbox/2026-10-22_from-HANS_france-oat-red-tier-174bp-pre-moodys.md` | OAT 5.13 through the 5.00 red tier, OAT–Bund 174.6bp [i-i 10/22], pre-Moody's; Italy flat at level; HNS-10 0.4bp short |
+| **PROME** 🔴 | `PROME/inbox/processed/2026-10-22_from-HANS_france-oat-red-tier-174bp-pre-moodys.md` | OAT 5.13 through the 5.00 red tier, OAT–Bund 174.6bp [i-i 10/22], pre-Moody's; Italy flat at level; HNS-10 0.4bp short |
 | **LIQUID** 🔴 | `AGENTS/LIQUID/inbox/2026-10-22_from-HANS_france-oat-red-tier-174bp-pre-moodys.md` | same packet; US-funding re-ask stands |
+| **WALTER** 🟡 | `AGENTS/WALTER/inbox/2026-10-23_from-HANS_owner-values-refresh-10-22.md` | root 1c consumer check: `STATUS.md:19` Europe row carried 10/21 owner values → 10/22 set. TERRY `STATUS.md:7` hit = a dated re-verification receipt (Bund 3.4265 [TE 10/21] at 37ed457a5) — correct history, NO packet. Other 🔴 hits are dated run/boot records — no packet |
