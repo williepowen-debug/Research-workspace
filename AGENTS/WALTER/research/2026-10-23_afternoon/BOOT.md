@@ -4,7 +4,7 @@ Boot started 18:33:40Z (14:33 ET). Result: COMPLETE for reads and checks, with t
 
 | Step | Result |
 |---|---|
-| 0 sync | origin 0 incoming at 18:33Z; 3 local commits were MIDAS/PROME (already pushed by them at fetch time? no: AHEAD 3 at boot); foreign dirty: PROME ORCH_LOG + PROME report (untracked); no pull needed |
+| 0 sync | origin 0 incoming at 18:33Z; HEAD 3 ahead of origin with MIDAS/PROME commits (theirs to push); foreign dirty: PROME ORCH_LOG + PROME report (untracked); no pull needed |
 | 0.5 doctor | 0 HIGH / 2 MED: MIDAS registry row stale (refresh at step 13); 13 aged unconsumed deliveries (HOMER 3A, CATO 1A, SAM 6, BOND 2, OTTO 1; owner-side) |
 | basis / reads / read-cap | BOOT BASIS MATCH 29; READS-CAP 0; READ-CAP rc=0 |
 | explicit loads | root CLAUDE.md and WALTER CLAUDE.md injected; AGENTS.md, USER.md, MEMORY.md read |

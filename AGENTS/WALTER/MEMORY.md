@@ -80,6 +80,8 @@
 
 52. **The bookmark scan truncates long posts with "…"; read the full body before any disposition.** 10/22 evening: the @resetbasis multifamily post ended mid-sentence in the scan output and Will's no-kill-on-lede rule applies. `bdata` is not installed on the desktop; `curl https://api.fxtwitter.com/<user>/status/<id>` returned the full text. Record the read path in the signal's `origin:`. → `design/X_BOOKMARKS_ACCEPTANCE.md` §9a (owner surface for the fallback; not yet written there)
 
+53. **Before routing ONE side of a contested timing question, search for the newest OFFICIAL statement on that same question.** 10/23: `-024` led with envoy Barrack's "strike this weekend? Absolutely" and omitted the White House's written 10/22 line ("will not be attacking Iran at any time prior to the midterm elections"); the Rule 9 helper found it seven minutes later and `-031` corrected the direction (WEAKENS). An unofficial voice moving a question is only news against the current official answer. → `anchors/IRAN_WAR_GUARDS.md` POTUS-channel block · `[[finding_a_named_unchecked_fallback_makes_an_absence_closable]]`
+
 **✅ RETIRED 2026-09-01 — the two-branch-test-sharing-a-premise finding (2026-08-03) is PLACED:** PROME landed it as the n=5 extension of `[[finding_enumerated_mechanism_test_hides_a_completeness_claim]]` (8/31 night, packet filed to WALTER 9/1) and the test now sits in bold in `FORGE/PREDICTION_DISCIPLINE.md` § Registration. *(Was: "owed, not placed — WALTER cannot file to a PROME-owned surface." The obligation discharged the way it was supposed to: a packet, then the owner's write.)*
 
 ## References
@@ -92,8 +94,6 @@
 - **Bright Data Web Unlocker (WQ-383 pilot, LIVE 2026-10-04):** `bdata scrape <url>` for a 403'd no-screenshot bookmark link; free tier 5k/mo HARD STOP, Web-Unlocker-only, key in gitignored `.env` (per-machine). Full method+limits+ledger: `design/X_BOOKMARKS_ACCEPTANCE.md` §9a.
 ## Session Notes
 
-**October23 desktop FULL closeout:** dispatches 1023-005..016; ISHM routing (INDUSTRIAL_CYCLE, v0.46/v0.47) and WQ-508 charter wording, both on Will's own word in this terminal (peer-relayed approvals were confirmed with Will before editing routing law or CLAUDE.md); HY 340 near-trigger watch + DEWEY REQ-002; X token re-authorized on the DESKTOP 10/23 (the laptop copy is now the stale one). evidence research/2026-10-23_morning/.
+**October23 afternoon FULL closeout:** dispatches 1023-024..032 (Iran strike timing 024 corrected by 031 after a helper found the omitted WH written line; 65 bookmarks in two batches); midday sitting 017–023 had no closeout, closed here. Evidence research/2026-10-23_afternoon/.
 
-**October23 early FULL closeout (laptop, before desktop switch):** dispatches 1023-002..004 from bookmarks; boot-health pass on Will's word — `registry/CLUSTER_RECATEGORIZATIONS.tsv` (generator re-files INDEX placement, fail-closed; Will chose the mechanism) and `registry/NOTE_ROWS_REVIEWED.tsv` (doctor NOTE check drops to INFO only for reviewed (note_id, recipient)). A check with no reviewed state alarms forever on history the rules say to keep; give it a ledger, not a silence. evidence research/2026-10-23_boot/.
-
-*(10/20 bookmark-acceptance, bookmark-completion and 10/19 breadth session notes rotated verbatim to MEMORY_PROMOTED.md 2026-10-22; the bookmark backlog is fully marked, 96/96.)*
+*(10/23 early and desktop session notes rotated verbatim to MEMORY_PROMOTED.md at the 10/23 afternoon closeout; 10/20 bookmark-acceptance, bookmark-completion and 10/19 breadth session notes rotated verbatim to MEMORY_PROMOTED.md 2026-10-22; the bookmark backlog is fully marked, 96/96.)*

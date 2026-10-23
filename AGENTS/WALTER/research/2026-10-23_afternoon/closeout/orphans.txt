@@ -1,0 +1,10 @@
+⚠️  uncommitted files outside AGENTS/WALTER/:
+     [not yours]    AGENTS/DEWEY/output/2026-10-23_hy-issuance-window-october.md
+     [not yours]    AGENTS/DEWEY/output/2026-10-23_ncua-vendor-authority-information-sharing.md
+     [not yours]    AGENTS/REGINALD/registry/REG_T02_EXIT_LOG.tsv
+     [not yours]    AGENTS/REGINALD/reports/2026-10-23_boot/
+     [not yours]    AGENTS/REGINALD/scripts/.kre_float_state.json
+     [not yours]    AGENTS/TERRY/research/2026-10-23_KRE-QQQ-report/deep_1985/raw_french/
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.

@@ -322,3 +322,10 @@ Historical text below preserves the size incident and findings28/29/41/43. Curre
 ## Rotated 2026-10-23 (desktop FULL closeout) — session note, verbatim
 
 **October22 night FULL closeout (laptop):** dispatches 037–048 + 1023-001; cyber session with live CYPHER/DEWEY; X token re-authorized on the laptop (a desktop scan rotates it: re-authorize at every machine switch or carry .env); evidence research/2026-10-22_night/.
+
+
+## Session note rotated verbatim 2026-10-23 afternoon closeout
+
+**October23 early FULL closeout (laptop, before desktop switch):** dispatches 1023-002..004 from bookmarks; boot-health pass on Will's word — `registry/CLUSTER_RECATEGORIZATIONS.tsv` (generator re-files INDEX placement, fail-closed; Will chose the mechanism) and `registry/NOTE_ROWS_REVIEWED.tsv` (doctor NOTE check drops to INFO only for reviewed (note_id, recipient)). A check with no reviewed state alarms forever on history the rules say to keep; give it a ledger, not a silence. evidence research/2026-10-23_boot/.
+
+**October23 desktop FULL closeout:** dispatches 1023-005..016; ISHM routing (INDUSTRIAL_CYCLE, v0.46/v0.47) and WQ-508 charter wording, both on Will's own word in this terminal (peer-relayed approvals were confirmed with Will before editing routing law or CLAUDE.md); HY 340 near-trigger watch + DEWEY REQ-002; X token re-authorized on the DESKTOP 10/23 (the laptop copy is now the stale one). evidence research/2026-10-23_morning/.
