@@ -19,6 +19,9 @@ safety_net: clear
 event_window: closed
 word_count: 162
 dispatch_note: "Normal intake under standing authority; bounded CORRECTED-framing verification. No new research commission, threshold, grade or owner launch. Recipient availability UNKNOWN; no DARK claim."
+status: PARTIALLY-CORRECTED
+status_ref: "SIG-W-20261022-048 (CYPHER re-verification at primaries, 10/22)"
+status_date: 2026-10-22
 ---
 
 # French refrigeration cyberattack destroys food; Ahold network outage is a separate incident

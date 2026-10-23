@@ -20,6 +20,9 @@ word_count: 724
 entities: ["PHP2Shell", "CISA-KEV", "eMudhra", "emSign", "Mozilla", "Tailscale", "LiteLLM", "OVHcloud", "Railway", "KSMBD", "CrowdStrike", "Cloudflare", "Black-October"]
 event_window: "closed"
 dispatch_note: "Verified ledger of the cyber wave; four viral claims marked FALSE/not supported. Exploitation status disputed (CISA none observed vs watchTowr in the wild), both carried. Updates 019."
+status: PARTIALLY-CORRECTED
+status_ref: "SIG-W-20261022-048 (CYPHER re-verification at primaries, 10/22)"
+status_date: 2026-10-22
 ---
 # "Black October" cyber wave, verified ledger: many real incidents but no confirmed break-in through PHP2Shell, no bank or payment victim outside Japan's precautionary shutdowns, and no insurer or rating-agency statement yet. Viral claims "60M certificates untrusted" and "pip is compromised" are FALSE. Cyber stocks rose on attempts alone
 

@@ -21,6 +21,9 @@ word_count: 174
 dispatch_note: "Operator-requested intake after successful reauthorization. Source qualifications survive; no new grade/study/owner launch. Publication and consumption separate."
 consumer_transmission: none
 confidence_note: "Germany wire text read; Japan primary body inaccessible, emergency legal scope and company count unverified. Mixed-source confidence does not certify the Japanese limb."
+status: PARTIALLY-CORRECTED
+status_ref: "SIG-W-20261022-048 (CYPHER re-verification at primaries, 10/22)"
+status_date: 2026-10-22
 ---
 
 # Japan cyber-emergency language is reported; Germany issues a dated warning, with legal powers and attack counts unverified

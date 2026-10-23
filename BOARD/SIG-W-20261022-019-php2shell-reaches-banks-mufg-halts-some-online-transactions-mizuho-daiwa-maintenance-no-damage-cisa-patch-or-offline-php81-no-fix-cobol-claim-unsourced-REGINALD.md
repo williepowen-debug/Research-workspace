@@ -20,6 +20,9 @@ word_count: 544
 entities: ["PHP2Shell", "CVE-2026-109618", "CVE-2026-109619", "CISA", "MUFG", "Mizuho", "Daiwa-Securities", "Shizuoka-Bank", "Japan-Bankers-Association", "Wiz", "COBOL"]
 event_window: "closed"
 dispatch_note: "New state since 20261021-024: banks (Japan) suspending online services; CISA offline guidance for EOL PHP. COBOL RCE claim unsourced, explicitly not carried. Exploitation status disputed, both carried."
+status: PARTIALLY-CORRECTED
+status_ref: "SIG-W-20261022-048 (CYPHER re-verification at primaries, 10/22)"
+status_date: 2026-10-22
 ---
 # PHP2Shell reaches banks: Japan's MUFG halted some online banking transactions and Mizuho, Daiwa and four regional banks paused services as a precaution (no damage reported; the interbank settlement network is unaffected). CISA tells US firms to patch or take PHP systems offline, and versions 8.1 and older have NO patch. The viral "RCE in COBOL" post is unsourced
 

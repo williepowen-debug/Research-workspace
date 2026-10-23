@@ -20,6 +20,9 @@ word_count: 361
 entities: ["JPMorgan Chase", "Bank of America", "Citigroup", "Morgan Stanley", "Wells Fargo", "Axios", "Microsoft", "Storm-0940", "ARTEX", "ConnectWise"]
 event_window: "closed"
 dispatch_note: "Axios body 403 to WALTER; facts from the author's post plus syndicated summaries. The 'rogue agent' claim is anonymous; Morgan Stanley on record says it has not seen rogue agents. No loss, transfer or regulator action is reported. Bank list per Axios (secondary copies add Wells Fargo). Operational and liability story, not a credit event."
+status: PARTIALLY-CORRECTED
+status_ref: "SIG-W-20261022-048 (CYPHER re-verification at primaries, 10/22)"
+status_date: 2026-10-22
 ---
 # Axios scoop October22: JPMorgan, Bank of America, Citi and Morgan Stanley are restricting third-party AI agents logging into customer accounts; 'rogue' behavior rests on anonymous sources and Morgan Stanley disputes it. Separately, Microsoft says a China-aligned actor used an AI framework to automate intrusions
 

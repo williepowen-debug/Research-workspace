@@ -20,7 +20,7 @@ entities: ["Railway", "OpenCode", "OpenAI", "Anthropic", "OpenRouter", "Axios", 
 event_window: "closed"
 dispatch_note: "Three Will bookmarks, one cyber theme. Railway is new; Barchart is a DUP of 008 with a hardened claim; Clinton is opinion. No link to PHP2Shell is established."
 status: PARTIALLY-CORRECTED
-status_ref: "SELF — Railway was already on the BOARD in SIG-W-20261022-025 (supply-chain row: 'Railway secrets exposure (primary)', beside a Zeabur breach; Railway $371K crypto-wallet loss secondary only). 037 is an UPDATE to 025 (deploys paused, Railway's AI-inference-key series claim), not a new event; 'No other company is named' holds for Railway's post, but 025 already carries Zeabur as a second platform breach. WALTER's dedup grep was case-sensitive; CYPHER caught it."
+status_ref: "SELF — Railway was already on the BOARD in SIG-W-20261022-025 (supply-chain row: 'Railway secrets exposure (primary)', beside a Zeabur breach; Railway $371K crypto-wallet loss secondary only). 037 is an UPDATE to 025 (deploys paused, Railway's AI-inference-key series claim), not a new event; 'No other company is named' holds for Railway's post, but 025 already carries Zeabur as a second platform breach. WALTER's dedup grep was case-sensitive; CYPHER caught it.; also corrected by SIG-W-20261022-048 (CYPHER re-verification)"
 status_date: 2026-10-22
 ---
 # Railway, a cloud app-hosting platform, says an intruder reached stored customer secrets and decrypted some of them (API keys, database and registry credentials). It paused all deployments and says the attack is part of a series aimed at platform companies to get at AI-model providers' keys

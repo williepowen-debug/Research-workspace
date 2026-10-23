@@ -19,6 +19,9 @@ word_count: 169
 entities: ["PHP", "NCSC", "OpenAI"]
 event_window: "closed"
 dispatch_note: "Accessible relays/primary read as named; access limits retained; no owner grade or new research commission."
+status: PARTIALLY-CORRECTED
+status_ref: "SIG-W-20261022-048 (CYPHER re-verification at primaries, 10/22)"
+status_date: 2026-10-22
 ---
 
 # PHP: two critical vulnerabilities (CVSSv4 9.2) patched October21 14:00 UTC; UK NCSC urges immediate updates; Finland, the Netherlands and France reportedly took state sites offline
