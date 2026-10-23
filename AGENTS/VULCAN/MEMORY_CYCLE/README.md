@@ -34,13 +34,31 @@ Written 2026-10-23 before either print (first public: none). Registered at `dock
 
 ## Files
 
+**In this folder**
+
+| File | What | Kind |
+|---|---|---|
+| `README.md` | Working model, pre-stated print test, instrument caveat (this file) | Live — update per the rule below |
+| `2026-10-23_divergence-investigation.md` | Full 10/23 investigation: contract/spot, drawdowns, valuation, 2018/2021 analogs, bear case, supply (moved here from `reports/2026-10-23_puck/`) | Dated research record |
+| `S2_FACTS.tsv` | Every KB row on channel S2 plus other-channel rows that name memory (`match` = channel-S2 / keyword) | **GENERATED** by `build_views.py` — never edit |
+| `S2_PREDICTIONS.tsv` | Every live or resolved S2 forecast (VULCAN-02, -04, -11, -12, -16) | **GENERATED** — never edit |
+| `HISTORY.md` | Verbatim copies of rotated S2 STATUS cells (10/08, 10/09, 10/15) with crc32 | Frozen copy; `CHANNEL_DETAIL.md` is the record |
+| `build_views.py` | Rebuilds the two views from the canonical ledgers | Tool |
+
+**Elsewhere (linked, not copied — live or canonical)**
+
 | File | What |
 |---|---|
-| `../reports/2026-10-23_puck/1_memory-divergence.md` | Full 10/23 investigation: contract/spot, drawdowns, valuation, analogs, bear case, supply (sub-agent research, tiered sources) |
-| `../workbook/S2_SERIES.tsv` | Weekly equity + DDR5/DDR4 spot series (`semi_watch.py`, Friday post-close) |
-| `../workbook/KB_GENERAL.tsv` (channel S2) | All memory facts; KB-280/282 are the 10/23 rows |
-| `../archive/PREDICTIONS_RESOLVED_2026-10.tsv` | VULCAN-11 (FALSIFIED: equity leads, contract decides) and VULCAN-12 (MU FQ4) |
+| `../STATUS.md` (S2 row and live read) | Canonical score, band, current read |
+| `../THESIS.md` § S2 | Live causal stages |
+| `../workbook/EXIT_PROTOCOL.md` §3 | S2 kill/flip rules |
+| `../workbook/KB_GENERAL.tsv` | Canonical facts (the view above is a filtered copy) |
+| `../workbook/S2_SERIES.tsv` · `../tools/semi_watch.py` | Weekly equity + DDR spot series |
+| `../workbook/MU_FQ4_RESOLVER.md` | Spent Micron FQ4 resolver (frozen) |
+| `../archive/THESIS_ARCHIVE_2026-10-20_S1-S2.md` | Earlier S2 thesis text (frozen) |
+| `../reports/2026-09-25_newsweep-raw_semis-memory-geo.md` | 9/25 raw news sweep incl. memory |
+| `../docket/CATALYSTS.tsv` (10/28 row) | Registered hynix/Samsung test date |
 
 ## Update rule
 
-At each S2 event (hynix/Samsung/Micron prints, TrendForce revisions), update the working-model table here **after** STATUS and KB, with the KB row cited. If this README disagrees with STATUS, STATUS wins.
+At each S2 event (hynix/Samsung/Micron prints, TrendForce revisions), update the working-model table here **after** STATUS and KB, with the KB row cited, then run `python3 AGENTS/VULCAN/MEMORY_CYCLE/build_views.py` so the views match the ledgers. If this README disagrees with STATUS, STATUS wins.
