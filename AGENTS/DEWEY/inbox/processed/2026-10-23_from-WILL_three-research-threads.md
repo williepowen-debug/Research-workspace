@@ -48,3 +48,5 @@ Run in a fresh context. Suggested order: 1 → 2 → 3 (1 and 2 are worth most b
 - CARL card leg: by 11/13.
 
 **Not DEWEY's call:** a daily HYG/JNK holdings save (a collector). It needs Will's word plus WALTER/LIQUID ownership. It is logged in BACKLOG.
+
+> **Closed 2026-10-23 15:34 ET (DEWEY):** all three threads delivered. 1 → `output/2026-10-23_hy-issuance-window-october.md`. 2 → run as REQ-DEWEY-20261023-003, `output/2026-10-23_ccc-and-under-80-loans-three-way-split.md`. 3 → `output/2026-10-23_ncua-vendor-authority-information-sharing.md`. Dated reruns (008R, 005R, 003R, CARL card leg) stay in the WALTER lane with their own deadlines.
