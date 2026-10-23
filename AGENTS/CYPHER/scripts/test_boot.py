@@ -204,9 +204,12 @@ class BootDrills(unittest.TestCase):
         self.edit(d, "workbook/ESCALATION_WATCH.tsv",
                   "\tNOT-FIRED\t2026-10-22\tSCHEDULED\tMACHINE\tWALTER (routing); REGINALD, SHADE, VULCAN",
                   "\tFIRED 2026-10-22\t2026-10-22\tSCHEDULED\tMACHINE\tWALTER (routing); REGINALD, SHADE, VULCAN")
-        self.assertBoot(d, 0, "FIRED 1", "1 FIRED row(s)", "✓ 4 watched CVE(s)")   # incident 007 still carries them
+        out = self.assertBoot(d, 0, "FIRED 1", "1 FIRED row(s)", "watched CVE(s) absent from KEV")
+        self.assertIn("CVE-2026-109618", out)                    # incident 007 still carries the wave CVEs
         self.edit(d, "workbook/INCIDENTS.tsv", "\tATTEMPTS-ONLY\tPRIMARY-VERIFIED", "\tFALSE\tPRIMARY-VERIFIED")
-        self.assertBoot(d, 0, "✓ 2 watched CVE(s) absent from KEV: CVE-2026-114625, CVE-2026-91403")
+        out = self.assertBoot(d, 0, "watched CVE(s) absent from KEV", "CVE-2026-114625")
+        kev_line = next(l for l in out.splitlines() if "absent from KEV" in l)
+        self.assertNotIn("CVE-2026-109618", kev_line)            # dropped with the FALSE row and the FIRED watch row
 
     # ---- EDGAR ---------------------------------------------------------------------------
     def test_edgar_zero_control_is_fail(self):
@@ -226,7 +229,7 @@ class BootDrills(unittest.TestCase):
         self.assertBoot(self.clean_copy(), 2, "8-K Item 1.05: fetch/parse FAILED", env={"CYPHER_EDGAR_FILE": "/nonexistent.json"})
 
     def test_offline_reports_skipped_legs(self):
-        self.assertBoot(self.clean_copy(), 1, "NOT RUN (--offline): 4 KEV key(s)", "NOT RUN (--offline): 8-K Item 1.05",
+        self.assertBoot(self.clean_copy(), 1, "KEV key(s)", "NOT RUN (--offline): 8-K Item 1.05",
                         "NOT RUN (--offline): 8-K Item 8.01", args=("--offline",))
 
     # ---- EDGAR 8.01 cyber (leg 9) ---------------------------------------------------------

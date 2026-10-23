@@ -65,6 +65,11 @@
 
 **Relay direction (KB-CYP-019):** 12 of the 13 overstate toward alarm, 1 toward reassurance. Selection-biased sample (only odd-looking claims were checked), so it shows a direction, not a rate. Operating rule: a news outlet reporting an agency is a lead, never row-1 evidence.
 
+## Late 10/23 (closeout, 16:2x ET)
+
+- **CISA KEV v2026.10.23** (19:30Z) listed **Arista VeloCloud CVE-2026-114625** (CYB-INC-014): government confirmation of exploitation Arista stated 10/22; no victim or sector named; off-root, so nothing fires. **PHP2Shell CVEs still absent** (row 2 NOT-FIRED at this release).
+- WALTER 035/028 processed: **Citrix NetScaler ADC/Gateway impacted by PHP2Shell, no fix date** (CTX697263; CHK-32); **Palo Alto corrected WF-500 to NOT affected** 10/23 (vendor correction, not a misread); a second PHP flaw CVE-2026-115560 ("unlikely RCE vector", no fix yet) KEV-watched; Railway's 100,000 is a ceiling, not a count.
+
 ## Standing conditions
 
 - **Event, not consequence.** Boundary packets went to 11 consequence owners 2026-10-22. **Confirmed as written: GIBBS (10/23 08:44, KB-GIB-023) and WATT (10/23 01:04, KB-WATT-180; a cyber cause does not lower WATT's P1 grid bar).** The other 9 stay UNCONFIRMED until they reply, re-raised next session.
