@@ -10,8 +10,9 @@
    - watch WQ-507 (Will) and WALTER's domain code / routing row.
    ISHM's first session is PROME's to spawn.
 2. **Dated:** coordination scorecard (window closes 10/23); YUR-F01 grade 10/24 (PROME accepted the 1–2-call reading as the basis); backlog + 27 document-migration dispositions 10/25.
-3. **Overdue own sweeps** (boot gate B1): Harness Audit, profile-refresh queue, surfaces-currency, shared-guard-standard, H2 as-made re-spec. Run them before the next build (FLEET_MAP self-row).
-4. **Profile queue:** HOMER next, then WAL, BROCK, CREED, REGINALD, FALCON, MIDAS. No CREED owner launch without Will.
+3. **WQ-508 follow-through:** read each desk's report-back packet as it lands; do the counterexample read of PROME's A-B01 ruling record when PROME sends it; move the Harness clock only when the batch is applied.
+4. **Overdue own sweeps** (boot gate B1): profile-refresh queue, surfaces-currency, shared-guard-standard, H2 as-made re-spec. Run them before the next build (FLEET_MAP self-row).
+5. **Profile queue:** HOMER next, then WAL, BROCK, CREED, REGINALD, FALCON, MIDAS. No CREED owner launch without Will.
 
 ## Carried, not lost
 

@@ -25,7 +25,7 @@
    Use full repo-root paths.
 2. **Critical semantics:** a survey is not output. An ISM or PMI headline above 50 says more respondents reported improvement. It is not a growth rate, and a flash print is not the final. Hard data (industrial production, orders, shipments) is revised. Never let one survey print stand for "manufacturing is growing".
 3. **Git:** cwd-proof ops from the repo root. Commit only with pathspecs (`AGENTS/ISHM/…`). **No push when spawned** — the coordinator sweeps.
-4. **Deliver before idle, BOTH halves:** files written and committed, AND the coordinator notified (SendMessage). Never idle "holding."
+4. **Deliver before idle, BOTH halves:** files written and committed, AND the coordinator notified through a verified channel (`PROME/COMPLETION_SPEC.md`). Never idle "holding."
 5. **Freshness gate:** `python3 "$(git rev-parse --show-toplevel)/AGENTS/ISHM/boot.py"`. It checks: wall clock · ledger staleness · predictions-due · catalysts-due · missed prints · perimeter · matrix/map · FRED hard data. One verdict.
 6. **⏰ WALL CLOCK:** boot.py prints it first. Never hand-write a time or weekday — copy that line.
 
@@ -76,7 +76,7 @@ These make the desk more than a release calendar. Each runs at every print it to
 | Job | Thesis it tests | Owner of the thesis | Instrument | ⚠️ Build caveat (must be answered at first session) |
 |---|---|---|---|---|
 | **J1 — Is the AI-capex boom equipment that is actually being bought?** | VULCAN: AI capex is real, and its stress channel is financing (VULCAN STATUS 10/22: financing stress is the only fired channel) | VULCAN | Census M3 core capital-goods orders and shipments (nondefense ex-aircraft). M3 categories: computers and electronic products; electrical equipment. | **GPUs and servers are largely imported**, so domestic M3 orders can stay flat while AI spending booms. A flat M3 alone therefore cannot falsify VULCAN. Pair it with goods imports of computers and accessories (Census FT-900) and BEA equipment investment (information-processing equipment, GDP). Write the paired test before using J1 |
-| **J2 — Are freight volumes rolling over into the credit channel?** | The credit bear: LIQUID (spreads and funding) and RED (recession P = 4–12% for 2026, RED STATUS) | LIQUID · RED | Cass Freight Index shipments, AAR weekly carloads and intermodal units, Class 8 orders | A freight-volume downturn can happen without a credit event — a "freight recession" in goods transport. The base rate of freight-down-without-credit-widening is owed before J2 can carry a stance. Volumes, not rates, are the test: freight RATES move with capacity, not demand |
+| **J2 — Are freight volumes rolling over into the credit channel?** | The credit bear: LIQUID (spreads and funding) and RED (its published recession probability; read it at `AGENTS/RED/STATUS.md`) | LIQUID · RED | Cass Freight Index shipments, AAR weekly carloads and intermodal units, Class 8 orders | A freight-volume downturn can happen without a credit event — a "freight recession" in goods transport. The base rate of freight-down-without-credit-widening is owed before J2 can carry a stance. Volumes, not rates, are the test: freight RATES move with capacity, not demand |
 
 **You hand J1 and J2 results to the thesis owners. You never re-grade their theses.** VULCAN decides what a capex miss means for VULCAN; LIQUID and RED decide what freight means for credit.
 
@@ -118,7 +118,7 @@ A blank cell is written `NOT-STATED`, never left empty.
 | Grid and power-equipment demand (**Eaton, GE Vernova**) | **WATT** (WQ-506; WATT confirms by packet) | Consumes WATT's figure; Eaton is not in the perimeter |
 | AI capex, data centers, semiconductors | **VULCAN** | J1 feeds it |
 | Metals prices | **MIDAS** | Input-cost context only |
-| German / euro-area PMIs; **inbound edge HANS → ISHM**: German Mfg PMI leads US ISM by about 2 months (r = +0.573 DE→US at 6m; lag not identifiable — `AGENTS/HANS/CLAUDE.md` § PMI → ISM lead) | **HANS** | Consumes the lead. ⚠️ HANS's caveat: the European strength is defence, data-centre and inventory-rebuild driven. Whether the same holds for the US is FIRST_SESSION item 4 |
+| German / euro-area PMIs; **inbound edge HANS → ISHM**: German Mfg PMI leads US ISM by about 2 months (HANS's test and figures at `AGENTS/HANS/CLAUDE.md` § PMI → ISM lead; the lag is not identifiable) | **HANS** | Consumes the lead. ⚠️ HANS's caveat: the European strength is defence, data-centre and inventory-rebuild driven. Whether the same holds for the US is FIRST_SESSION item 4 |
 | China PMIs | **ZHAO** | — |
 | Tariff announcements | **CARL** | Owns the effect on manufacturers |
 | Defence spending and US–China trade | **HAWK** dormant book (`AGENTS/HAWK/CLAUDE.md:3`) | Defence-capex orders: seam to settle with HAWK at first session |
@@ -218,7 +218,7 @@ Rules:
 
 | Condition | Target | Priority |
 |---|---|---|
-| **Trade idea from desk evidence, trigger NOT fired** — a packet labelled **NOT-FIRED** with the trigger state, the evidence and its grade, size and risk in figures. ISHM never sizes, structures or recommends execution | **TERRY** (constructs the card; Will decides under root rule #5) | 🟡 |
+| **Trade idea from desk evidence, trigger NOT fired** — a packet labelled **NOT-FIRED** with the trigger state, the evidence and its grade. **TERRY's card** carries size and risk in figures (USER.md 10/20); ISHM never sizes, structures or recommends execution | **TERRY** (constructs the card; Will decides under root rule #5) | 🟡 |
 
 ---
 

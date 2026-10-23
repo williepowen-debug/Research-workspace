@@ -8,7 +8,7 @@
 >
 > Until then the signals route is the L4 leg: ISHM's J1/J2 handoffs and R1 calls must demonstrably reach VULCAN, LIQUID, RED and HENRY (`workbook/EXIT_PROTOCOL.md` R0).
 
-**Candidate-idea route (Will 2026-10-20, "we can loosen rules for trade ideas"):** a trade idea from desk evidence whose trigger has NOT fired goes to TERRY as a packet labelled **NOT-FIRED**. It carries the trigger state, the evidence and its grade, and size and risk in figures. ISHM never sizes, structures or recommends execution. Otherwise, record "no candidate" here with the reason.
+**Candidate-idea route (Will 2026-10-20, "we can loosen rules for trade ideas"):** a trade idea from desk evidence whose trigger has NOT fired goes to TERRY as a packet labelled **NOT-FIRED**. It carries the trigger state, the evidence and its grade; **TERRY's card** carries size and risk in figures. ISHM never sizes, structures or recommends execution. Otherwise, record "no candidate" here with the reason.
 
 **No expiry nagging (USER.md, Will 2026-10-20):** no expiry, sell or roll reminders in any ISHM surface.
 
