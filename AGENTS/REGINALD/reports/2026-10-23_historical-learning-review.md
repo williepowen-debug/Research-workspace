@@ -293,3 +293,37 @@ Crude outside check (8/20 → 10/22 total return, 14 banks; Spearman, where nega
 - **More predictions:** one or two consequential, pre-registered expectations per bank print, each with a baseline. Keep credit, earnings and price forecasts separate. Do not manufacture volume.
 - **Ranking test (highest value):** keep the 8/20 scores frozen. At the 11/07 Call Report run, test v2.0, v2.0 without the coverage point, and simple baselines (prior nonaccrual rate; prior quarter's nonaccrual change) against the Q2 → Q3 change in nonaccrual (`RCON1403`) and Q3 NCO. ⚠️ **Contamination:** I have already read Q3 *releases* for 13 of the 14 names (all but SBCF). The test is mechanical, so freezing its exact computation *before* 11/07 is what keeps it honest. Not frozen here; it needs Will's go-ahead.
 - **Overhead:** for each control, record its cost, what it catches, whether another control catches the same thing, and how bad a miss would be, then remove redundancy. That replaces my "retire if it caught nothing in a month", which would remove rare-but-severe guards.
+
+---
+
+## ADDENDUM 3 — 2026-10-23 16:3x ET: REG-09 and REG-18 re-verified; draft 11/07 test protocol (NOT frozen)
+
+**Status of the three decisions:** the outside reviewer recommends approving all three. **Nothing is applied until Will gives his own word.** A reviewer's recommendation relayed through the operator is not an approval for gated surfaces; the prediction ledger and the matrix method are both gated.
+
+### Re-verification
+| Row | Wording | Evidence | Grade |
+|---|---|---|---|
+| REG-18 | A Metropolitan-pattern (MI3/C&I > 20%) bank fails in H1 2026 | The only other H1 failure, Community Bank & Trust – West Georgia (cert 25796, RSSD 761833, failed 5/1), filed **MI3 $1,337K / C&I $83,884K = 1.6%** at 12/31/25 and **$1,329K / $85,150K = 1.6%** at 3/31/26 (FFIEC CDR facsimiles pulled 10/23; the same filing shows total capital $21.3M → $3.6M, consistent with the failing bank). Kentland (7/10) is H2 | **FAILED holds** |
+| REG-09 | A Tier-2 bank (VLY, CFG, ZION) misses Q1 | VLY adjusted EPS $0.29 vs ~$0.27 consensus (Zacks via [WTOP](https://wtop.com/news/2026/04/valley-national-q1-earnings-snapshot/)); CFG $1.13 vs ~$1.10 (aggregators only); ZION $1.56 vs ~$1.45 (issuer [8-K](https://www.sec.gov/Archives/edgar/data/0000109380/000010938026000063/exh991earningsrelease20260.htm) for the EPS, aggregators for consensus). All three beat | **FAILED holds** (consensus SECONDARY) |
+
+**Final Brier rebuild** (REG-08 and REG-10 corrected; all other rows re-verified):
+- 8 rows: **0.162**.
+- 7 rows, excluding REG-13 (judgment-graded): **0.174**.
+- Coin flip: 0.25.
+- Still too few forecasts to show skill.
+
+### DRAFT protocol for the 11/07 ranking test — retrospective validation, not a blind test
+*To be frozen (sha256-stamped) only on Will's word, and before any Q3 Call Report is pulled.*
+- **Label:** retrospective validation of frozen 8/20 scores. ⚠️ Q3 earnings releases for 13 of the 14 names (all but SBCF) were read before this protocol was written.
+- **Universe:** the 14 banks in `BANK_EXPOSURE_MATRIX.md` v2.0 (`75f0dd18b`). No exclusions. A bank with no Q3 Call Report at retrieval is reported as missing and left out of each statistic, with n stated.
+- **Rankings compared (all fixed now):**
+  - S1 = v2.0 score as published 8/20.
+  - S2 = S1 minus the coverage point (FLG 5, EGBN 4, AMTB 4, WAL 1, BKU 1; others unchanged).
+  - B1 = 6/30/26 nonaccrual ÷ total loans (the matrix's own column).
+  - B2 = change in that ratio from 3/31/26 to 6/30/26.
+- **Primary outcome:** change in nonaccrual ÷ total loans, 6/30/26 → 9/30/26, in percentage points. Call Report RC-N nonaccrual total (`RCON1403`; RCFD for 031 filers) ÷ total loans (`RCON2122`), the same fields as the matrix.
+- **Secondary outcome:** Q3 net charge-off rate = (Q3 YTD − H1 YTD net charge-offs, RI-B) ÷ 9/30 total loans × 4.
+- **Statistic:** Spearman rank correlation between each ranking and each outcome. Ties take average ranks. Positive means a higher risk score went with more deterioration. Also report the mean outcome of the top 3 versus the other 11 for each ranking.
+- **Reading rule, fixed in advance:** with n = 14, correlation differences under 0.2 are reported as "no distinguishable difference". No significance claims. All four results are shown whichever way they fall.
+- **Follow-on:** a fresh ranking and the same procedure, frozen before the Q4 prints (~mid-January 2027), as the genuinely prospective test.
+- **Size:** one script run and one short results section. No new dashboard or standing procedure.
