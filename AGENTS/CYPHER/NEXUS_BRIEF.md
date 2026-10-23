@@ -2,7 +2,7 @@
 
 **Status:** 🟡 WAVE-2026-10 open, 9 of 9 escalation rows NOT-FIRED (rows 1, 2, 4 re-checked 10/23); PHP2Shell ATTEMPTS-ONLY (weak evidence, not an all-clear)
 **Domain:** Cyber events that can move money — owns the EVENT (confirmed?, class, dates, escalation state); consequence owners keep the consequence
-**As of:** 2026-10-23 07:30 ET | STATUS commit: 0e155b238
+**As of:** 2026-10-23 11:4x ET (boot; substance unchanged from 07:30 sweep, + ConnectWise check 10/26) | STATUS commit: 4c35cd86b
 
 ---
 
