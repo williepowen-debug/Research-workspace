@@ -89,7 +89,7 @@ const GROUPS = [
 ]
 
 const CANON = `CANON ANCHORS (read these FIRST; they win on any conflict):
-- Git/push/commit protocol: ${REPO}/CLAUDE.md "Git Protocol" section (serial multi-machine; non-ff abort = routine 'git pull --rebase' + re-push, escalate only on out-of-dir conflicts or mid-session recurrence; ALL git ops from repo root; pathspec commits only).
+- Git/push/commit protocol: ${REPO}/CLAUDE.md "Git Protocol" section (serial multi-machine; a non-ff abort is ROUTINE — recovery is root Git Protocol session-end step 3 IN FULL: the incoming-vs-dirty-path overlap check FIRST, then 'git pull --rebase --autostash' + re-push; escalate to Will only on a rebase conflict outside your own dir or a non-ff that persists through a completed rebase-and-re-push cycle — a bare recurrence is ordinary traffic; ALL git ops from repo root; pathspec commits only).
 - Machine model: ${REPO}/PROME/MACHINE_LOCAL.md (serial multi-machine, desktop <-> laptop, one box at a time).
 - Forward catalyst dates: ${REPO}/PROME/DOCKET.tsv (canonical docket — prose date claims must match it).
 - Roster/classification: ${REPO}/PROME/ROSTER.md.

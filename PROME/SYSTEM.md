@@ -22,7 +22,6 @@ Core rule:
 | File | Trust | Role |
 |---|---|---|
 | `CLAUDE.md` (root + `PROME/`) | High | Repo + PROME operating rules — the only docs Claude Code genuinely auto-injects. |
-| `docs/GIT_WORKTREE_PROCEDURES.md` | Mandatory at the named Git action | Canonical continuation of root Git Protocol: read its Before committing or Before pulling section before that action; authority remains at root. |
 | `MEMORY.md` (auto-memory index — lives in-repo at `memory/auto/`; `~/.claude/.../memory/` is a **directory symlink** to it, so normal Write/Edit tools are safe — `[[finding_automem_hardlink_inplace_edit]]` [superseded-hardlink slug, current model inside]) | High for curated lessons; check freshness | Operating lessons / findings / feedback index — the genuinely-injected memory layer. |
 
 *(`AGENTS.md` + `USER.md` are **explicit boot-reads**, not injected — see the next table. `SOUL.md` + `IDENTITY.md` were deleted root-level in the 2026-06-30 public-prep cleanup.)*
@@ -33,6 +32,7 @@ Core rule:
 
 | File | Cadence | Role |
 |---|---|---|
+| `docs/GIT_WORKTREE_PROCEDURES.md` | EXPLICIT read at the named Git action (NOT injected — moved out of the auto-loaded table 2026-10-23, harness audit #3 P03) | Canonical continuation of root Git Protocol: read its Before committing or Before pulling section before that action; the only home of the pathspec / amend / reset bans; authority remains at root. |
 | `USER.md` | Each fresh session (stable) | Will's operator model — communication/thinking style, edge, psychology. The operator manual for Will-facing work. |
 | `AGENTS.md` | When roster/routing relevant | NAVIGATION surface: operating model, transmission-chain pointers, coordination/authority. Roster canon = `PROME/ROSTER.md`; topology canon = `AGENTS/_NETWORK.md` (root: it wins on disagreement). |
 | `PROME/BOOT.md` | Maintained | Boot sequence + protocol reminders (trust/ownership map lives here). |
