@@ -94,6 +94,6 @@
 
 **October22 night FULL closeout (laptop):** dispatches 037–048 + 1023-001; cyber session with live CYPHER/DEWEY; X token re-authorized on the laptop (a desktop scan rotates it: re-authorize at every machine switch or carry .env); evidence research/2026-10-22_night/.
 
-**October22 evening FULL closeout:** dispatches 030–036; CYPHER built (DAEDALUS) and `CYBER` lane added (Will sign-off); evidence research/2026-10-22_evening/.
+**October23 early FULL closeout (laptop, before desktop switch):** dispatches 1023-002..004 from bookmarks; boot-health pass on Will's word — `registry/CLUSTER_RECATEGORIZATIONS.tsv` (generator re-files INDEX placement, fail-closed; Will chose the mechanism) and `registry/NOTE_ROWS_REVIEWED.tsv` (doctor NOTE check drops to INFO only for reviewed (note_id, recipient)). A check with no reviewed state alarms forever on history the rules say to keep; give it a ledger, not a silence. evidence research/2026-10-23_boot/.
 
 *(10/20 bookmark-acceptance, bookmark-completion and 10/19 breadth session notes rotated verbatim to MEMORY_PROMOTED.md 2026-10-22; the bookmark backlog is fully marked, 96/96.)*

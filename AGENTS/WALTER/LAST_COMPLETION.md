@@ -1,45 +1,47 @@
-# WALTER LAST_COMPLETION — October22 night FULL closeout (laptop)
+# WALTER LAST_COMPLETION — October23 early FULL closeout (laptop, before the desktop switch)
 
-Updated 2026-10-23T04:06:28Z (FULL; Will 00:03 ET 10/23 "yes to both": file the DEWEY thread and close out). Will-launched night sitting on the LAPTOP (hostname WilliePOwen), boot 19:12 ET 10/22, right after the evening closeout. Prior version preserved verbatim: `research/2026-10-22_night/prior-LAST_COMPLETION.md` (sha256 0761fd9a167a28ca…), which points back to the evening, afternoon, morning and October21 records. Evidence: `research/2026-10-22_night/`.
+Updated 2026-10-23T11:28:10Z (FULL; Will 07:26 ET 10/23 "lets close out here commit and push for switch to desktop"). Will-launched sitting on the LAPTOP, boot 00:35 ET 10/23, 30 minutes after the night closeout. Prior version preserved verbatim: `research/2026-10-23_boot/prior-LAST_COMPLETION.md` (sha256 949f10b0b151e677…), which points back to the night, evening, afternoon, morning and October21 records. Evidence: `research/2026-10-23_boot/`.
 
-## STATUS (10/22 night)
+## STATUS (10/23 early)
 
-FULL closeout. Boot: origin 0/0, no pull (PROME and other desks had uncommitted work); doctor 0 HIGH / 4 MED (same carries); all boot reads done incl. ORCH_INFLIGHT whole (34,218 B, PROME's generated view, over budget, routed to its source owner); threshold grades carried from the evening scan (markets closed; FRED 10/22 prints publish 10/23); intake 0 NEW; dropzone 0; corrections 0. Boot basis still REVIEW REQUIRED (see GAPS).
+FULL closeout. Boot: origin 0/0, no pull (PROME dirty); doctor 0 HIGH / 3 MED; all boot reads done incl. ORCH_INFLIGHT whole; boot basis REVIEW REQUIRED at boot → reviewed and re-attested (29 paths MATCH); threshold scan no fire, no near-trigger inside 5% (`THRESHOLD-SCAN.md`); intake 0 NEW; dropzone 0; corrections 0 (text verdict; the echoed rc was the pager's). At closeout: doctor 0 HIGH / 1 MED (owner-side backlog); read_cap_check rc=0.
 
-## CHANGED (10/22 night)
+## CHANGED (10/23 early)
 
-- **BOARD 1625 → 1638:** 037 Railway platform breach (erratum: already in 025) · 038 Iran conditional threat (FALCON) · 039 DEWEY watch legs rows 1/5/6/7 · 040 CORRECTION to 016 (FINRA Sep-2026 margin debt is second of 357 months; HENRY caught it) · 041 LIQUID GATE-076 W2 first fire · 042 Florida home prices below peak (CORAL) · 043 TruStage (US credit-union insurer, attacked 7/11, never on BOARD) + Bangladesh Bank/SBI/Haiti · 044 TruStage update (DEWEY) · 045 Oracle Java CVE-2026-91403 = eMudhra certificate fix; Oracle Health 19.9M (Oct 5 news) · 046 officials on AI/cyber risk to banks · 047 DEWEY five reports (AI raises flaw volume 3.1x, not exploit speed) · 048 CORRECTION (CYPHER: ten BOARD lines fail at primary; markers on nine signals) · 1023-001 Quest Diagnostics 8-K 8.01 breach.
-- **CYPHER:** first live session done (Will-launched): 21 signals logged, all nine WAVE-2026-10 rows NOT-FIRED, row 5 redefined (fires only on a supervisory-concern statement), Will's view registered as CYP-01/CYP-02 from WALTER's packet d9b5c12d9.
-- **DEWEY:** all work Will-directed in its session (no WALTER slots used); REQ-DEWEY-20261023-001 filed (Will-approved): MSP/ConnectWise channel into credit unions and community banks, public evidence only, before 11/04.
-- **Bookmarks:** laptop token stale (desktop scan rotated it); Will re-authorized 19:34 ET; BM-20261022-15 (4) and -16 (1) closed and marked.
-- **Corrections registered:** COR-20261022-40, COR-20261022-48. MEMORY #2 gains "dup grep is grep -i"; session note added.
-- **REGISTRY:** CYPHER, LIQUID, PROME, HENRY, DEWEY, WALTER rows refreshed.
+- **BOARD 1638 → 1641:** 002 US chip rout 10/22 (SOX −6.72% on Lam's 2027 supply-constraint call, CRWV −10.1%, dark-pool/margin-call claim UNVERIFIED; VULCAN action) · 003 Japan September core CPI 2.1%, in line; Nikkei fall tied to the chip rout (SAM action) · 004 Amazon drops the GWU Ashburn data centers under a Loudoun deal, a siting settlement and not a capex cut (VULCAN action). Batch BM-20261023-01 closed 6/6; bookmarks marked.
+- **Boot-health pass (Will "Lets fix boot health issues"):** `tools/gen_board_index.py` reads new `registry/CLUSTER_RECATEGORIZATIONS.tsv` (CLUSTER_TAXONOMY Re-categorization, INDEX placement only, fail-closed; Will chose the mechanism via AskUserQuestion "Override file") → SIG-W-20261007-013 LABOR_DOWN → CONSUMER_STAGFLATION. `tools/walter_doctor.py` NOTE check drops to INFO only for (note_id, recipient) classified in new `registry/NOTE_ROWS_REVIEWED.tsv` (8 correct notes, 14 corrections carried as notes). SIG-W-20260914-015 and -025 gained `status: PARTIALLY-CORRECTED` (retro-applied, pointing at their 9/14 in-file correction blocks). 11 new tests; two mutations caught; full WALTER suite RC=0.
+- **PROME:** packet 0b9a90bd5 (ORCH_INFLIGHT over budget, HOMER backlog). PROME narrowed the view to 26,855 B (verified at the file; read_cap_check rc=0); HOMER's three 10/20 ACTION items recorded, no wake before 10/27 under WQ-206; CRUISE 019 rode PROME's 01:00 CRUISE spawn.
+- **Inbox:** HANS 10/22 owner values (STATUS Europe row updated) and PROME WQ-501 CYBER NETWORK_GROUP packet consumed and filed.
+- **REGISTRY:** boot refresh HANS, PROME, RED, VIOLET, WATT; closeout refresh CRUISE, OSPREY, NEXUS, WATT, PROME, WALTER. **MEMORY:** session note; 10/22 evening note rotated verbatim to MEMORY_PROMOTED.md.
 
-## RESULT (10/22 night)
+## RESULT (10/23 early)
 
-Commits 52ed3f636 … 17d77e210 plus this closeout. 037–048 reached origin through other desks' pushes (fresh fetch: HEAD 2 ahead before the closeout commit); reconcile moved 42 rows to delivered. 1023-001 (0611a5c64) and the REQ (17d77e210) are local until a push. Publication is not consumption.
+Commits 2c978f325, 37613b255, 0b9a90bd5, b96491d14, 95cadc719 reached origin through PROME's 07:21 push (fresh fetch 11:26Z: each on origin/master). Reconcile moved 11 rows to delivered; all 13 rows dated 10/23 delivered. The closeout commit is pushed by WALTER at Will's word. Publication is not consumption.
 
 ## GAPS (carried)
 
-- **Push:** other desks had uncommitted work at closeout (37+ foreign paths); WALTER's push rule (BOARD_CONSUMPTION_SPEC §7) defers, and none tonight is FLASH/IMMEDIATE. 0611a5c64, 17d77e210 and the closeout commit ride the next fleet push; then `reconcile_delivery_log.py --apply` (2 rows pending for 1023-001).
-- **Boot basis REVIEW REQUIRED** (ROUTING_TABLE/OVERLAYS from the evening CYBER edits, read whole this boot; scripts/read_cap_check.py foreign). Re-attest at the next boot.
-- **X bookmarks:** the token now lives in the LAPTOP .env; the desktop copy is stale. Re-authorize on the desktop at the next switch (or carry .env).
-- Threshold scan this sitting was carried, not re-pulled (no new prints after the close). The FRED 10/22 prints (HY, DGS10, DGS30) are due 10/23.
-- CYPHER's 8-K boot leg sees Item 1.05 only; Quest filed 8.01 (CYPHER recorded the blind spot).
-- Carried from the evening, unchanged: France before Moody's (WILL_NEEDS 1); Houthi Yanbu CLAIM-ONLY; bdata not installed on the desktop; REGINALD coverage basis conflict; correction 20261021-016 kill_strings; the BRENT receipt for COR-20261021-16; doctor MEDs (LABOR_DOWN, 22 NOTE rows, 3 aged unconsumed).
+- **X bookmarks on the DESKTOP:** the token lives in the LAPTOP `.env` and the laptop scan used it today; the desktop copy is stale. Re-authorize at the first desktop boot (or carry `.env`).
+- **Uncommitted foreign file on the laptop at closeout:** `PROME/state/argus_baseline.json` (PROME's; not WALTER's to commit). It stays on the laptop unless PROME commits it.
+- FRED 10/22 prints (HY, CCC, VIXCLS, DGS10) were unpublished at 11:27Z; the next boot's 6c grades them (REG-T-04 was 23bp away on 327 [10/21]).
+- **SIG-W-20260914-021 carries a leftover `erratum: SELF`** (my 9/14 mistake; the INDEX shows a false "ADDITIVE ERRATUM SELF" flag). Removing it edits a dispatched header; Will's call.
+- Doctor MED: 15 aged unconsumed deliveries, all BACKLOG (BCS §3.7), owner-side. LOWs: SIG-W-20261016-001 action-line (LIQUID acted 10/16; ages out 10/30); 6 old signals without `entities:` (immutable); OTTO 2 consumed-unfiled.
+- Carried unchanged: Houthi Yanbu CLAIM-ONLY; bdata not installed on the desktop; REGINALD coverage basis conflict; correction 20261021-016 kill_strings; BRENT receipt for COR-20261021-16; CYPHER's 8-K leg sees Item 1.05 only.
 
 ## WILL_NEEDS
 
-1. **France before Moody's (Fri 10/23):** HANS not live; whether PROME wakes HANS is Will's call (carried; not re-asked tonight).
-2. At the desktop switch: re-authorize X bookmarks there (or carry the laptop .env).
+1. At the desktop: re-authorize X bookmarks (or carry the laptop `.env`).
+2. SIG-W-20260914-021 `erratum: SELF` — remove the line or leave it.
 3. REQ-DEWEY-20261023-001 runs when Will points DEWEY at it.
+
+(Night-closeout item "France before Moody's" is discharged: HANS ran live 10/22–23 and refreshed the France leg.)
 
 ## FOLLOW-UP
 
-1. Next sitting: FLG Q3 Fri 06:00 ET (FLG action desk), Moody's France, H.8 Fri (REGINALD), Istanbul ministerial Fri, FRED HY/DGS10/DGS30 10/22 prints, boot-basis re-attestation.
-2. Cyber calendar (CYPHER owns): Chrome drops eMudhra 10/27 (Chrome-only; Linux bundle removals were 10/19–20); DEWEY 008R re-run 10/29; MOVEit-analogue victim check 11/04; TruStage member-data answer about 11/12.
-3. DEWEY queue: 003R (≥10/30, by 11/03), 005R (after 10/28–29, by 11/02), 008R (10/29), REQ-DEWEY-20261023-001 (Will-approved; before 11/04).
-4. Prior carries retained verbatim in the prior copies.
+1. Next sitting: grade FRED 10/22 prints; FLG Q3 (FLG desk), Moody's France (HANS), H.8 (REGINALD), Istanbul ministerial outcome (FALCON); re-search the day's state stories per MEMORY #40.
+2. Cyber calendar (CYPHER owns): Chrome drops eMudhra 10/27; DEWEY 008R re-run 10/29; MOVEit-analogue victim check 11/04; TruStage member-data answer about 11/12.
+3. DEWEY queue: 003R (≥10/30, by 11/03), 005R (after 10/28–29, by 11/02), 008R (10/29), REQ-DEWEY-20261023-001.
+4. Iran anchor next full sweep ~10/29; MEMORY calendar check 10/29; staleness sweep due 10/24 (last 10/10).
+5. Prior carries retained verbatim in the prior copies.
 
 ## SOURCE-SEARCH DISPOSITION — approved by Will 2026-10-16
 
@@ -47,55 +49,57 @@ Unchanged; full table via `research/2026-10-22_evening/prior-LAST_COMPLETION.md`
 
 ## OPEN DESIGN DECISIONS
 
-- No `CYBER` cluster in CLUSTER_TAXONOMY; cyber signals use BANK_COLLATERAL / AI_INFRA_CAPEX / MISC. Tonight added 13 cyber-heavy signals; revisit if volume holds (proposal, not taken).
-- Healthcare cyber (Quest) is a NO-OWNER class (PROME on the line); unchanged.
-- Carried: VX-CYP channel tags; AI_INFRA_CAPEX re-cut; verdict-letter F1/F2; LABOR_DOWN; L730 re-scope; staleness-sweep P2; CRUISE miss option 2; lane dateline flag.
+- No `CYBER` BOARD cluster; PROME registered CYBER as a NETWORK_GROUP (WQ-501 A, Will 00:57 ET) without a cluster. Proposal to Will stays WALTER's if cyber volume holds (13 cyber-heavy signals 10/22).
+- **RESOLVED 10/23:** LABOR_DOWN (re-filed by ledger).
+- Carried: VX-CYP channel tags; AI_INFRA_CAPEX re-cut; verdict-letter F1/F2; L730 re-scope; staleness-sweep P2; CRUISE miss option 2; lane dateline flag.
 
-**Rulings retained:** as listed in the prior copy, plus: Will 00:03 ET 10/23 approved REQ-DEWEY-20261023-001; Will 20:44 ET 10/22 approved sending his view to CYPHER as two predictions.
+**Rulings retained:** as listed in the prior copy, plus Will 10/23 ~00:50 ET chose the generator override ledger for cluster re-filing.
 
 ## CLOSEOUT RECEIPT
 
-FULL closeout at Will's word 00:03 ET 10/23. 13 dispatches this sitting (037–048, 1023-001), 2 correction-class. Publication: 037–048 on origin via fleet pushes (fresh fetch); 0611a5c64, 17d77e210 and the closeout commit pending push.
+FULL closeout at Will's word 07:26 ET 10/23. 3 dispatches this sitting (1023-002..004), 0 correction-class (two retro status markers on 9/14 signals). Publication: five sitting commits on origin via PROME's push (fresh fetch); closeout commit pushed by WALTER at Will's word.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-23T04:06:28Z",
+  "as_of": "2026-10-23T11:28:10Z",
   "next_review": "2026-10-23",
   "publication": [
-    {"commit": "52ed3f636", "state": "published"},
-    {"commit": "d942d0ccb", "state": "published"},
-    {"commit": "0611a5c64", "state": "pending"},
-    {"commit": "17d77e210", "state": "pending"}
+    {"commit": "2c978f325", "state": "published"},
+    {"commit": "37613b255", "state": "published"},
+    {"commit": "0b9a90bd5", "state": "published"},
+    {"commit": "b96491d14", "state": "published"},
+    {"commit": "95cadc719", "state": "published"}
   ],
   "delivery": {
-    "signal_date": "20261022",
-    "total": 146,
-    "delivered": 146,
-    "note": "All 146 rows dated 10/22 (incl. tonight's 037-048) delivered after fleet pushes and reconcile. The 2 rows for SIG-W-20261023-001 are pending push and sit under 10/23's receipt. Publication, not consumption."
+    "signal_date": "20261023",
+    "total": 13,
+    "delivered": 13,
+    "note": "All 13 delivery rows for SIG-W-20261023-001..004 delivered after PROME's 07:21 push and reconcile (2 for 001, 11 for 002-004). Publication, not consumption."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
     "evidence": [
-      {"path": "AGENTS/WALTER/research/2026-10-22_night/prior-LAST_COMPLETION.md", "sha256": "0761fd9a167a28ca872a116aa82edefc6ac731c5950fadaa1fc0b639305a5c08"},
-      {"path": "AGENTS/WALTER/research/2026-10-22_night/bookmark-review-BM15.json", "sha256": "1d9a8e6bf3cbac9c5d7c6b7ca94e0f32744b7d889db18c405585f1b60b338ef0"},
-      {"path": "AGENTS/WALTER/research/2026-10-22_night/bookmark-review-BM16.json", "sha256": "1a5e9d1703f32e2d818f308c696c27c88d9978f7b8a2a14c2b7ae9480d709ad5"}
+      {"path": "AGENTS/WALTER/research/2026-10-23_boot/prior-LAST_COMPLETION.md", "sha256": "949f10b0b151e677aa6b4c77154cf4087813a40ccf6247ea22cb9d908045b9d4"},
+      {"path": "AGENTS/WALTER/research/2026-10-23_boot/bookmark-review-BM01.json", "sha256": "20ea715912bb5bf91289c3fd2af9185009048494250b11b982eb74ca41b51c6e"},
+      {"path": "AGENTS/WALTER/research/2026-10-23_boot/THRESHOLD-SCAN.md", "sha256": "987e223bb5ca1b1bd3a8d0caaef7544ac635e472688e95c068739eaa114269d2"},
+      {"path": "AGENTS/WALTER/registry/NOTE_ROWS_REVIEWED.tsv", "sha256": "f66a63ab366b2d3122d34773e879978fdf7609daf4e7bb0be3048c280a7b002f"}
     ]
   },
   "procedure": {
     "tier": "full",
-    "boot": "COMPLETE reads; threshold grades carried (no new prints); boot basis REVIEW REQUIRED (carried)",
+    "boot": "COMPLETE reads; boot basis re-attested; threshold scan no fire; FRED 10/22 prints unpublished at closeout",
     "owner": "WILL",
-    "ask": "Will 00:03 ET 10/23: yes to both",
+    "ask": "Will 07:26 ET 10/23: lets close out here commit and push for switch to desktop",
     "closeout": "FULL"
   },
   "manual_duties": {
-    "11": "13 dispatches with BOARD, route_log, handoffs or verified DEWEY stubs, delivery rows; INDEX regenerated after each.",
-    "12": "STATUS header, bottom line, cyber observation row, network awareness regenerated; old header and bottom line rotated verbatim to SESSION_LOG.",
-    "13": "REGISTRY refreshed (CYPHER, LIQUID, PROME, HENRY, DEWEY, WALTER) before 12(b).",
-    "14": "MEMORY #2 extended (grep -i); night session note; under 100 lines.",
-    "15": "Prior LAST_COMPLETION preserved verbatim; carries evidence-checked; receipt here.",
-    "16": "Exact-path commits; push deferred (foreign uncommitted work; no FLASH/IMMEDIATE)."
+    "11": "3 dispatches with BOARD, route_log, handoffs, delivery rows; INDEX regenerated after each change.",
+    "12": "STATUS header, bottom line, chips/Asia observation row, Europe row (HANS 10/22), network awareness regenerated; old header and bottom line rotated verbatim to SESSION_LOG.",
+    "13": "REGISTRY refreshed at boot (HANS, PROME, RED, VIOLET, WATT) and closeout (CRUISE, OSPREY, NEXUS, WATT, PROME, WALTER) before 12(b).",
+    "14": "MEMORY session note; 10/22 evening note rotated verbatim to MEMORY_PROMOTED; 99 lines.",
+    "15": "Prior LAST_COMPLETION preserved verbatim; carries evidence-checked (push and boot-basis carries discharged); receipt here.",
+    "16": "Exact-path commits; push at Will's word via scripts/safe-push.sh."
   }
 }
 END_CLOSEOUT_RECEIPT -->

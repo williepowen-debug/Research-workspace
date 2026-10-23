@@ -314,3 +314,7 @@ Historical text below preserves the size incident and findings28/29/41/43. Curre
 ## Rotated 2026-10-23 (night closeout) — session note, verbatim
 
 **October22 morning FULL closeout:** Will-launched boot (PARTIAL), dispatches 001–005, Will's HY→CRE question routed (005) instead of a wake; duties/receipts LAST_COMPLETION; evidence research/2026-10-22_boot/.
+
+## Rotated 2026-10-23 (early closeout) — session note, verbatim
+
+**October22 evening FULL closeout:** dispatches 030–036; CYPHER built (DAEDALUS) and `CYBER` lane added (Will sign-off); evidence research/2026-10-22_evening/.
