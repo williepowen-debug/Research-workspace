@@ -1,0 +1,89 @@
+# Reader P — Harness Audit #3 ledger (PROME + root canon)
+
+Reader: P · HEAD `9da57b469` · BASE `3d47a7d9d` · started 2026-10-23 · read-only on repo.
+
+## Files in scope (bytes at HEAD · lines · commits since BASE · coverage)
+
+| file | bytes | lines | commits since BASE | coverage |
+|---|---:|---:|---:|---|
+| CLAUDE.md (root) | 22,726 | 121 | 2 | FULL-DIFF (+4/−18); target `docs/GIT_WORKTREE_PROCEDURES.md` (3,185 B) read WHOLE to test the moved recipe |
+| AGENTS.md | 5,427 | 60 | 1 | FULL-DIFF (+1/−1) |
+| USER.md | 8,458 | 98 | 5 | FULL-DIFF (+11/−2) |
+| PROME/BOOT.md | 24,852 | 113 | 24 | WHOLE (Read :1–40, :41–113, final line 113 received) + `git diff -U0` for added-line classification + BASE :9–30 read for the removed Non-Negotiables |
+| PROME/CLOSEOUT.md | 24,268 | 126 | 23 | WHOLE (Read :1–60, :61–127, final line 126/127 received) + `git diff -U0` hunk list and removed lines |
+| PROME/CLAUDE.md | 24,132 | 82 | 4 | FULL-DIFF (+2/−2: :53, :72) + targeted :34–47, :61 |
+| PROME/SYSTEM.md | 31,969 | 234 | 7 | FULL-DIFF (+9/−6) + targeted :2, :14–30, :55, :67, :183–195, :233 |
+| PROME/AUTONOMY.md | 27,491 | 109 | 11 | FULL-DIFF (+9/−2) |
+| PROME/ORCHESTRATION_PLAYBOOK.md | 50,032 | 295 | 4 | FULL-DIFF (+3/−3: :2, :121, :250) + targeted :9, :27, :45. NOT read whole (not required: file pre-dates BASE) |
+| PROME/tools/spine_audit.workflow.js | 13,694 | 189 | 0 | C10 only (scope): :85–95 read; unchanged since ab54af034 (2026-10-02) |
+
+Changelist lines naming these files (from `_A.md`; `_B.md` has none naming these files): B01–B04, C01, C05–C14, plus Tier-3 D12 (root session-end vs desk closeouts). C02–C04 and C15–C19 name CLOSEOUT_PROCEDURES / COMPLETION_SPEC / ROSTER — out of my file set, not re-tested.
+
+## Table A — changelist re-test
+
+| line_id | file:line@HEAD | verdict | evidence quote (≤25 words) |
+|---|---|---|---|
+| B01 (A-B01, Tier 3) | CLAUDE.md:84 | STILL-LIVE | ":84 **Gate C custody (PROME only).** PROME is the sole active acceptance custodian. Under an operator-approved activation packet PROME may explicitly stage and commit only…" — unchanged; every `KERNEL/GATE_C_*ACTIVATION_*.json` non-DRAFT has `revoked_at` set, latest window ended 2026-09-02T17:00Z; no new activation since. Runbook home exists: `KERNEL/GATE_C_C7_RUNBOOK.md`. |
+| B02 | CLAUDE.md:24 (WQ-137); WQ-96/WQ-171 tags moved to docs/GIT_WORKTREE_PROCEDURES.md:12–13 | CHANGED | :24 "(WQ-137: the hand-copied chain that lived here had already diverged from canon — root carries the rule…)" still in root; WQ-96/WQ-171 parentheticals left root with the recipe move (c5286bf6d) and now sit in the docs file. Residual = WQ-137 only. |
+| B03 (A-B03, Tier 3) | CLAUDE.md:86 | STILL-LIVE | ":86 …Everyone else: own `AGENTS/<NAME>/` dir + auto-push at closeout." — no DAEDALUS `scripts/` clause; `grep -n DAEDALUS CLAUDE.md` hits only :56, :110 (blueprint pointers). |
+| B04 | AGENTS.md:33 | STILL-LIVE | ":33 YURI (Russian state decision) → {OSPREY, HAWK} → {OSPREY, FALCON} → HAWK (cross-war synthesis…)" — row unchanged; only the Credit row (:31) changed since BASE. |
+| D12 (Tier 3) | CLAUDE.md:91 vs LIQUID/CLOSEOUT.md:37,:124 · HANS/CLOSEOUT.md:24 · TERRY/CLOSEOUT.md:29 | CHANGED (partly fixed) | Root :91 "1. Commit your files locally" unchanged. TERRY FIXED (:29 "At an actual session end, root Git Protocol's… exact-path commit… apply even after a Bounce/Light-sized task"). LIQUID :37 "\| **Light** \|…\| Optional \|" and HANS :24 "…\| Optional \|" (Commit? column) STILL-LIVE. |
+| C01 | PROME/BOOT.md:19 | FIXED | The restated push/shared-doc bullet is gone; :19 "Root `CLAUDE.md` Critical Rules #4/#5, position-truth canon and Git Protocol bind; PROME/CLAUDE.md Ask-First governs external sends and shared/root edits." (PROME/CLAUDE.md:38 carries the HEARTBEAT/FORGE exceptions). |
+| C05 | PROME/BOOT.md:63, :67 | FIXED | :63 "**Never run those five standalone as well** — a standalone run is for a SKIPPED gate"; :67 "ALREADY inside `prome_gate.py boot`): run standalone ONLY if the gate was skipped". The old :66–70 standalone lines are gone. |
+| C06 | PROME/CLAUDE.md:61 | STILL-LIVE | "**And a document never carries a figure a reader can recompute from an instrument:** a document never carries a figure a reader can recompute…" (`grep -o` count 2). |
+| C07 | PROME/CLOSEOUT.md:40 | STILL-LIVE | "⛔ This block previously restated the sequence here — ordering the render *after* the gate and quoting a `--tier`-less command…" |
+| C08 | PROME/CLOSEOUT.md:36 | CHANGED | The overclaimed gate mechanism is removed; :36 now "only for a separately requested active deliverable… Helm is RETIRED (WQ-461); Deck is PAUSED BY WILL (WQ-460)". The defect dissolved with the retirement, not by repair. |
+| C09 | PROME/CLOSEOUT.md:116 | STILL-LIVE (reduced) | "**Publication prerequisites are checked at Pre-closeout, not at the render** (item 5), only for a separately requested active deliverable." Still repeats :36 ("checked HERE, never at the render"); LOW duplicate. |
+| C10 | PROME/tools/spine_audit.workflow.js:92 | STILL-LIVE | "non-ff abort = routine 'git pull --rebase' + re-push, escalate only on out-of-dir conflicts or mid-session recurrence" vs root CLAUDE.md:98 "bare recurrence is ordinary traffic". File unchanged since 2026-10-02. |
+| C11 | PROME/SYSTEM.md:55 (was :53) | STILL-LIVE | "greps the retired token across every file named in **this table** (parsed at runtime — the tool carries no copy of the list) **plus PROME's own surfaces**." |
+| C12 | PROME/SYSTEM.md:233 (was :230) | STILL-LIVE | "- All agents are Claude Code sessions (no persistent/managed agents — OpenClaw vestige removed 7/1)." |
+| C13 | PROME/SYSTEM.md:67 | STILL-LIVE | "`AGENTS.md` (table + run-model note)" listed as a Roster/classification mirror; AGENTS.md carries a route table, no roster. |
+| C14 | PROME/ORCHESTRATION_PLAYBOOK.md:9 | STILL-LIVE | "Every multi-agent task is one of two modes. **Decide the mode BEFORE spawning.**" while :27/:45 define Mode C. |
+
+### Tier-3 questions — live at HEAD?
+
+| Question | Live? | Basis |
+|---|---|---|
+| A-B01 Gate C custody text in root | **YES, still live** | root CLAUDE.md:84 unchanged; all 11 non-DRAFT `KERNEL/GATE_C_*ACTIVATION_*.json` carry a `revoked_at`; latest window 2026-09-02T14:00–17:00Z, revoked 14:13Z; no activation since. The runbook home exists (`KERNEL/GATE_C_C7_RUNBOOK.md`). Root :104 also cites "the Gate C custody paragraph above", so a move must carry that pointer too. |
+| A-B03 Discoverability of the DAEDALUS `scripts/` grant | **YES, still live** | root CLAUDE.md:86 Scope note names PROME, TERRY, WALTER only; the grant is still only at `AGENTS/DAEDALUS/CLAUDE.md` § GIT. |
+| D12 "Light: commit optional" vs root | **YES, narrowed** | TERRY resolved it (TERRY/CLOSEOUT.md:29, the BOND-style wording). LIQUID/CLOSEOUT.md:37, :124 and HANS/CLOSEOUT.md:24 unchanged. **New: PROME's own `PROME/CLOSEOUT.md:30–31` carries the same "Optional" commit cell for Bounce/Light** (pre-BASE, not named in the 10/08 changelist; see P07). |
+
+## Table B — new findings (delta since BASE `3d47a7d9d`, plus carried items found while re-testing)
+
+Severity in brackets. HIGH = git-safety weakening; none found.
+
+| id | file:line@HEAD | class | verdict | quote ≤25 words | proposed direction | strongest refuter considered |
+|---|---|---|---|---|---|---|
+| P01 [MED] | PROME/CLAUDE.md:45 | EXPIRY / CANON-CONTRADICTION | REWRITE | "C5 below permits commissioning one held-option card, never executing its recommendation." | Add the pause: "C5 (PAUSED by Will 2026-10-20, :53) — commission none", or drop the sentence. The 10/20 pause edited :53 and AUTONOMY:27/:52 but missed this Tier-3 line in the same section. | :53, eight lines below, says "C5 — PAUSED by Will 2026-10-20"; a reader of the whole § Ask First sees it. But :45 sits in the ALWAYS-ASK tier as a present-tense permission, and the 10/23 spine audit #17 fixed only the AUTONOMY mirror. |
+| P02 [MED] | PROME/AUTONOMY.md:103 vs PROME/CLAUDE.md:53; BOOT.md:73; CLOSEOUT.md:118 | CANON-CONTRADICTION | REWRITE | AUTONOMY:103 "**Narrow C8 — IMMEDIATE dark-desk own-theater spawn (WQ-369)**… Charter propagation (`PROME/CLAUDE.md` § Ask First) still OWED" | PROME applies DOCKET L644 (PENDING, dated 2026-10-12, 11 days overdue): encode C8 in § Ask First, and widen the "C1–C7" report lines at BOOT:73 and CLOSEOUT:118 so a C8 act has a "Done without asking" slot. | AUTONOMY:27 says CLAUDE.md "governs every item here", and CLAUDE.md:53 says "Seven kinds… ⛔ Nothing else moved". On the canonical text C8 does not exist, so a cautious reader asks first, which is safe. The defect is a granted authority whose same-day-report guard has nowhere to be reported (and BOOT:73 / CLOSEOUT:118 enumerate C1–C7 only). |
+| P03 [MED-LOW] | PROME/SYSTEM.md:25 | OTHER (git-adjacent) | REWRITE | "\| `docs/GIT_WORKTREE_PROCEDURES.md` \| Mandatory at the named Git action \|" — under the heading "### Auto-loaded each session (Claude Code)" | Move the row to the explicit-read table or mark it "NOT injected — read at the action". Root moved the commit/pull recipe here 10/19, so this is now the only home of `git reset HEAD` / amend / pathspec bans. | The Trust cell already says "read its… section before that action". Even so, a table titled auto-loaded invites a session to believe the recipe is in context; on SYSTEM's own trust map the error points toward skipping the read. |
+| P04 [LOW] | PROME/ORCHESTRATION_PLAYBOOK.md:250; PROME/CLOSEOUT.md:24 | STALE-POINTER | REWRITE | :250 "the writer-side refusal is proposed to DAEDALUS (packet 2026-10-15)"; CLOSEOUT:24 "(the writer-side refusal is DAEDALUS's — packet 2026-10-15; L733)" | Point at the shipped refusal: `scripts/orch_log.py` append "REFUSES when the ledger holds rows the current view does not count" (:18–19, L733 2026-10-20). | The shipped refusal fires at the NEXT append, not at hand-write time, so "equality is NOT evidence of zero hand rows" still holds. Only the "proposed / is DAEDALUS's" status phrase is stale. |
+| P05 [LOW-MED] | PROME/SYSTEM.md:193 | OTHER (rule on no boot/closeout path) | REWRITE | "**Desk decision-surface alerts that name PROME as the route**… PROME registers the WQ decision row for Will IN THE SESSION THAT CONSUMES the alert packet" | Re-home it to PROME/CLAUDE.md § Session Process Controls or to BOOT step 6's inbox-drain bullet. § Operating Defaults is tool-output guidance, and BOOT:70 reads SYSTEM.md "only for implementation work". | BOOT:69 already requires every inbox packet dispositioned, including "registered as a DOCKET/WILL_QUEUE row", so the registration half fires anyway. The return-the-disposition-to-owner half has no carrier. |
+| P06 [LOW-MED] | USER.md:43 vs :45 | EXPIRY | REWRITE (Will-gated) | :43 "Cards, rulings and mirrors carry a **sell-or-roll rail** for every option line, never a hold-to-expiry or lapse rail" | Will's call: recast :43 as description only ("how he trades"), matching :45's own last sentence. | :45 already scopes it: "The 9/30 line above stands only as the description of how he trades, not as a reminder duty." Also, an exit rail on a NEW-position card is construction (TERRY), not a reminder. The residual risk is a desk reading :43 alone as a card requirement. |
+| P07 [MED, pre-BASE] | PROME/CLOSEOUT.md:30–31 | CANON-CONTRADICTION (D12 class) | REWRITE → fold into Will's D12 ruling | ":31 \| **Light** \| Short session paused for hours; 1-2 artifacts \|… \| Optional \|" vs root :91 "1. Commit your files locally" | Adopt TERRY/CLOSEOUT.md:29's model wording ("at an actual session end, root… exact-path commit… apply even after a Bounce/Light-sized task"), or let the D12 ruling cover PROME too. | Bounce and Light are defined as pauses ("paused for hours", "back within the hour"), not session ends, and root's commit duty is a session-END duty. A mid-session Bounce is the refuter the 10/08 changelist already accepted. Not authored since BASE. |
+| P08 [LOW, pre-BASE] | PROME/CLOSEOUT.md:9 | STALE-POINTER | REWRITE | "**Git protocol canon = root `CLAUDE.md` (auto-injected; not restated here).**" | "root § Git Protocol + `docs/GIT_WORKTREE_PROCEDURES.md` (read at the action)". Since c5286bf6d the injected root no longer carries the commit recipe, and root's How-the-System-Works says not to assume auto-load. | Step 10 commits through `commit_check.py … -- <exact paths>`, so the recipe is mechanized on PROME's path and the stale claim cannot route a wrong commit. |
+| P09 [LOW] | PROME/CLAUDE.md:53 | HISTORY-IN-STEP | REWRITE | "Original letter, dormant: every option line Will HOLDS gets a sell-or-roll card from TERRY at least two sessions before its expiry —" | Replace the dormant letter with a pointer to the WQ-348/WQ-361 ruling records; keep the pause sentence. | Will said "pause", not "retire". Keeping the letter inline lets a lift be applied without re-derivation. Inline and labelled dormant, it is low-risk, but it is an auto-loaded expiry-card rule text. |
+| P10 [LOW] | PROME/CLAUDE.md:72 | HISTORY-IN-STEP | REWRITE | "CEILING of FIVE changes per session (raised from three by Will in-session 2026-10-21 10:05 ET, verbatim *\"I want to bump…\"*; earlier one → three 2026-10-18" | Keep "FIVE" and "AUTONOMY change log" as a pointer; the provenance is already at AUTONOMY.md:109 (10/21 row). | Provenance next to a Will-gated number helps a cold reader trust it; cost is ~200 B. |
+| P11 [LOW] | AGENTS.md:31 | STALE / OTHER | REWRITE (Will-gated, AGENTS.md core) | "FLG also → {LIQUID, TERRY} Large-bank comparison group: GIBBS → {REGINALD, BROCK}" | Add the missing separator, and either add `LIQUID` (AGENTS/_NETWORK.md:79 "GIBBS -->\|custody / brokerage deposit flows\| LIQUID") or say "see _NETWORK". | Root :24 says `_NETWORK.md` wins on any disagreement, and AGENTS.md is navigation only, so nothing routes off this row. |
+| P12 [LOW] | PROME/SYSTEM.md:2 | OTHER (stale header) | REWRITE | "**Updated:** 2026-10-02 (spine audit #15 — stamp reconcile…" while 7 commits since BASE changed the body (10/14–10/23) | Refresh the stamp, or let git log be the record and drop the claim. | `git log` is the amendment record; stamps are courtesy. Still, a stale header understates freshness of a trust-map owner file. |
+| P13 [LOW] | PROME/AUTONOMY.md:104–105 | OTHER | REWRITE | The 2026-10-16 row is placed before the 2026-10-14 row in the change log. | Reorder to date order (log rows only, no text change). | Rows may be in entry order, not event order; harmless. |
+| P14 | CLAUDE.md:100, :102 (root) | GIT-SAFETY (checked) | KEEP | "**Before committing** (mandatory for every commit): read and execute `docs/GIT_WORKTREE_PROCEDURES.md` § Before committing in full." | None. `diff` of BASE root's recipe vs `docs/GIT_WORKTREE_PROCEDURES.md:5–21` prints nothing (VERBATIM). No weakening; authority stays in root (:104 "Never" line intact). | The pointer moves the bans out of an auto-loaded file (see P03 and P08 for the consequences on PROME surfaces). |
+| P15 | PROME/BOOT.md:19, :51 | GIT-SAFETY (checked) | KEEP (stricter) | :51 "If clean/safe, `git pull --rebase`. If dirty/untracked/staged, do not pull; read local continuity first and ask/triage." | None. Stricter than the docs recipe step 3 (which allows a scoped stash of one's own dir); safe. The removed "No broad git operations" bullet is covered by root :76 + docs :10–12 via :19's citation. | One could call :51 a restatement (leg c), but it is stricter and an action gate. |
+| P16 | PROME/CLOSEOUT.md:86 | GIT-SAFETY (checked) | KEEP | "a PENDING file another owner creates or changes AFTER the freeze… is listed… as `FOREIGN-PENDING (advisory)` and never blocks" | None. It relaxes ARGUS-review blocking, not git scope; the commit is still exact-path and verified at step 10 (`--verify-review --ref <DELIVERY_SHA> --paths`). | It could read as a weakening of the closeout gate; it is not a git-protocol weakening. |
+| P17 | USER.md:47 | TRADE (checked) | KEEP | "TERRY may bring trades whose trigger has NOT fired… Will decides every one (root rule #5)." | None; consistent with root #5 and mirrored at PROME/STATUS.md:49. | — |
+
+## Where I could be wrong
+
+- **P02** depends on whether WQ-369 C8 is still an operative grant. I read the AUTONOMY row, DOCKET L644 (PENDING) and PROME/CLAUDE.md:53. I did not read the WQ-369 ruling packet or check whether a later ruling superseded it.
+- **P05**: I did not check whether a PROME runner skill or `prome_gate` already carries the decision-alert disposition. If one does, the placement issue is cosmetic.
+- **P07/D12**: the "pause, not end" reading of Bounce/Light may be the intended design. I report it only because the same question was put to Will for three desks, and PROME's own file has the identical cell.
+- **ORCHESTRATION_PLAYBOOK.md** was audited by diff plus three targeted lines, not read whole. SYSTEM/AUTONOMY/PROME CLAUDE were audited by diff plus targeted lines. Pre-BASE text outside those spans is not audited, except the carried items P07 and P08, which I found while re-testing.
+- **C10**: I re-read only :85–95. I did not re-verify the `:136` interpolation locator from 10/08.
+- `PROME/GIT_COORDINATION.md` (cited by BOOT:22 for commits) does not mention `docs/GIT_WORKTREE_PROCEDURES.md` (`grep` found nothing). It is out of my file set, so I did not audit it.
+
+## Counts
+
+- Table A (16 lines): FIXED 2 (C01, C05) · STILL-LIVE 11 (B01, B03, B04, C06, C07, C09, C10, C11, C12, C13, C14) · CHANGED 3 (B02, C08, D12) · CANNOT-LOCATE 0.
+- Table B (17 rows): REWRITE 13 (P01–P13) · KEEP 4 (P14–P17, git/trade checks) · STRIKE 0.
+- Severity: HIGH 0 · MED 3 (P01, P02, P07) · MED-LOW / LOW-MED 3 (P03, P05, P06) · LOW 7. No git-safety weakening, no signal routed around WALTER, no uncommitted-packet instruction, no trade-approval weakening found in the delta.
+- Ledger closed 2026-10-23 at HEAD `9da57b469`.
