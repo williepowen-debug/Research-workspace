@@ -1,6 +1,6 @@
 # CYPHER STATUS
 
-**Last Updated: 2026-10-22 23:56 ET — first live session plus a documentation pass (Will-launched, Claude Code, claude-opus-5-5).** Evidence record: `research/2026-10-22_first-session-verification-record.md`.
+**Last Updated: 2026-10-23 00:01 ET — Quest Diagnostics incident added; first live session and documentation pass 10/22 (Will-launched, Claude Code, claude-opus-5-5).** Evidence record: `research/2026-10-22_first-session-verification-record.md`.
 
 > ~~FIRST-LIVE-SESSION BANNER~~ — **SPENT 2026-10-22.** `FIRST_SESSION.md` items 1–8 done or carried as listed under § First-session record. Normal boot from here.
 
@@ -41,6 +41,7 @@
 | CYB-INC-009 | eMudhra weak CA keys; Chrome drops the G3 root 10/27; non-browser stores already 10/19–20 | CONFIRMED · PRIMARY-VERIFIED | The trading-software trust-chain class has NO OWNER (exclusions register) |
 | CYB-INC-016 | Railway platform breach; says it is part of a series targeting AI-inference providers | CONFIRMED · PRIMARY-VERIFIED | Shares the AI-key target with LiteLLM (CYB-INC-011); a link, not a merge |
 | CYB-INC-001 | Tanker networks compromised (FBI/USCG); propulsion access REPORTED only | CONFIRMED (network) · SECONDARY | OT channel; FALCON / BRENT |
+| CYB-INC-020 | **Quest Diagnostics (DGX)**: unauthorized access to its Quanum LSM ordering and results system, learned 10/21; "accessed certain patient records"; not material per Quest (8-K **Item 8.01**, 10/22); not PHP2Shell per Quest (AP) | CONFIRMED · PRIMARY-VERIFIED | Healthcare = NO-OWNER class, flagged to PROME and HENRY 10/23. **It exposed a blind spot:** boot.py leg 8 watches Item 1.05 only (DATA_ROUTES) |
 
 **FALSE / do-not-relay kept:** "60M certificates can't be trusted" · "pip is compromised" · "Japan declared a cyber emergency" · "rogue AI agents broke into bank accounts" (CYB-INC-019) · "Railway lost $371K" (unanchored).
 
@@ -77,6 +78,7 @@ Verisk PCS: subscription (MIRROR-WALLED). NYDFS industry letters are **reachable
 **Known gaps carried:**
 - boot.py leg 5 checks Last_Checked only on REPORTED / ATTEMPTS-ONLY rows, so a blank cell on a CONFIRMED row passes silently. Caught by hand tonight; fix and drill at the next boot.py edit.
 - `corrections_boot_check.py CYPHER` returns rc 2 until DAEDALUS lists CYPHER in FLEET_DIRECTORY.
+- boot.py leg 8 sees only Item 1.05. A non-material cyber 8-K under Item 8.01 is invisible to it (Quest, 10/22). Add an 8.01 cyber-term search, with a drill, at the next boot.py edit; until then a quiet leg 8 means "no MATERIAL incident filed".
 
 ## BOTTOM LINE
 

@@ -30,3 +30,5 @@
 | cybernews.com | 403 | Secondary only anyway |
 
 **A checker's NOT FOUND is a claim about its own reads.** Before sending one out as a correction, ask the author for the URL — memory `finding_negative_reachability_is_a_claim_about_your_request` instance 6.
+
+**Instrument blind spot (recorded 2026-10-23, Quest Diagnostics):** a company that has NOT called an incident material files it under **Item 8.01**, not 1.05 (SEC 2024 guidance). boot.py leg 8 watches 1.05 only, so it stayed quiet at 23:53 ET on 10/22 although Quest had filed an 8.01 cyber 8-K at 06:53 ET that day (CYB-INC-020). Until leg 8 also searches 8.01 for cyber terms, a quiet leg 8 means "no MATERIAL incident filed", never "no cyber incident filed".
