@@ -9,3 +9,6 @@ receipt_date	correction_id	action	note
 2026-10-15T16:10Z	COR-20261014-10	NO-OP	scope=VULCAN never carried the Ornn Anthropic all-time-low or nominal-cut claim - grep of AGENTS/VULCAN 2026-10-15 found 0 hits - the bounded index observation enters KB with the method disagreement; 
 2026-10-15T16:10Z	COR-20261015-05	NO-OP	scope=VULCAN never carried the 14.5pct CRWV 2032 YTW relay - grep 2026-10-15 found 0 hits - LIQUID 15.83pct HYG fund-eval figure enters VULCAN records first-time this session with its bid-side caveat; 
 2026-10-22T17:31Z	COR-20261022-01	APPLIED	artifact=AGENTS/VULCAN/workbook/KB_GENERAL.tsv#KB-VULCAN-258; validation_ref=AGENTS/VULCAN/reports/2026-10-22_L782_v2_weak-links.md#row-5; 
+2026-10-23T18:41Z	COR-20261022-27	APPLIED	artifact=AGENTS/VULCAN/reports/2026-10-23_L782_v3_weak-links_FINAL.md#changes-row-3; validation_ref=AGENTS/VULCAN/workbook/KB_GENERAL.tsv#KB-VULCAN-270; 
+2026-10-23T18:41Z	COR-20261022-40	NO-OP	scope=FINRA margin debt ranking is outside VULCAN channels and no VULCAN artifact cites it (grep 10/23); 
+2026-10-23T18:41Z	COR-20261022-48	NO-OP	scope=no VULCAN artifact carries any of the six kill strings (grep 10/23) and KB-269 and KB-277 cite only the held findings; 
