@@ -5,3 +5,19 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-22T02:33:37.186977+00:00	2026-10-20_from-REGINALD_seams-confirmed	acted	INBOX_TOPLEVEL	AOCI stays REGINALD; HBAN stays REGINALD; FITB tag accepted as scoped vs CFG; same-line rule applied in READS (WFC total-deposit cost left NOT-YET-DETERMINABLE). KB-GIB-013.
 2026-10-22T02:33:37.186977+00:00	2026-10-21_from-BROCK_cfg-12852-source-named	noted	INBOX_TOPLEVEL	CFG baseline gap $1,875M is BROCK/REGINALD's reconciliation (CFG not in GIBBS perimeter); no GIBBS surface holds a CFG figure. KB-GIB-011.
 2026-10-22T02:33:37.186977+00:00	2026-10-21_from-BROCK_ndfi-handoff-confirmed	acted	INBOX_TOPLEVEL	JPM/WFC/C item-3 rows re-cite BROCK bank_Q3_read.md as the ONE figure (attribution INSUFFICIENT); KB-GIB-012; STATUS one-figure line.
+2026-10-23T12:38:49.345252+00:00	SIG-W-20261022-005	noted	INBOX_WALTER	Will's HY-to-CRE/regional question; GIBBS large-bank framing cited as counter-evidence. AXP print adds no CRE or NDFI evidence; no surface change.
+2026-10-23T12:38:49.345252+00:00	SIG-W-20261022-008	acted	INBOX_WALTER	GIBBS ACTION answered in KB-GIB-019: operational-risk/customer-friction item, not a deposit item; no loss or reserve reported; anonymous rogue claim, MS disputes. No READS change.
+2026-10-23T12:38:49.345252+00:00	SIG-W-20261022-011	noted	INBOX_WALTER	HBAN/VLY/SSB are REGINALD's; HBAN Q3 read consumed as the comparator for the pruned 10/22 CATALYSTS row; HBAN category check stays on the 11/14 re-cut.
+2026-10-23T12:38:49.345252+00:00	SIG-W-20261022-012	noted	INBOX_WALTER	REGINALD BANK-ABSENT ~0.6 and BROCK NDFI read are owner answers; GIBBS figures cited there unchanged (GS $368M open item).
+2026-10-23T12:38:49.345252+00:00	SIG-W-20261022-015	info-only	INBOX_WALTER	CRE leg is CREED's; no large-bank surface changes.
+2026-10-23T12:38:49.345252+00:00	SIG-W-20261022-019	noted	INBOX_WALTER	Japanese megabank precautionary pauses; no US large-bank outage. Event owner now CYPHER (KB-GIB-023).
+2026-10-23T12:38:49.345252+00:00	SIG-W-20261022-025	noted	INBOX_WALTER	Cyber ledger; no perimeter-firm victim. Base-rate context KB-GIB-022. Event owner CYPHER.
+2026-10-23T12:38:49.345252+00:00	SIG-W-20261022-046	noted	INBOX_WALTER	Officials on AI/cyber risk to banks; CYPHER owns; no GIBBS surface change.
+2026-10-23T12:38:49.345252+00:00	SIG-W-20261022-048	noted	INBOX_WALTER	Correction COR-20261022-48: none of the kill strings appear on any GIBBS-owned surface (grep 2026-10-23); receipted NO-OP.
+2026-10-23T12:38:49.345252+00:00	2026-10-22_from-CYPHER_boundary-confirmation	acted	INBOX_TOPLEVEL	Boundary confirmed (KB-GIB-023); reply drafted in GIBBS outbox pending PROME delivery word; charter owner-cell edit left for PROME (C4).
+2026-10-23T12:38:49.345252+00:00	2026-10-22_from-DEWEY_bank-legacy-technology-exposure	skipped	INBOX_TOPLEVEL	DISCARD: regional/community-bank core technology and conversions (PNFP FLG MBWM BANR INDB RF) are REGINALD's cohort; cyber event is CYPHER's. No perimeter firm named.
+2026-10-23T12:38:49.345252+00:00	2026-10-22_from-DEWEY_bank-tech-vendor-concentration	noted	INBOX_TOPLEVEL	LOG: G-SIB AI-agent restrictions folded into KB-GIB-019.
+2026-10-23T12:38:49.345252+00:00	2026-10-22_from-DEWEY_bank-technology-vendors-risk-profile	skipped	INBOX_TOPLEVEL	DISCARD: second-tier vendor and Fiserv/FIS strain bear on regional/community banks (REGINALD) and cyber events (CYPHER); no perimeter-firm dependency shown.
+2026-10-23T12:38:49.345252+00:00	2026-10-22_from-DEWEY_cyber-wave-systemic-base-rates	noted	INBOX_TOPLEVEL	LOG: KB-GIB-022 (n=5 caveat carried).
+2026-10-23T12:38:49.345252+00:00	2026-10-22_from-DEWEY_genius-stablecoin-deposit-flight	noted	INBOX_TOPLEVEL	LOG: KB-GIB-020 (custody deposit lane context; DEWEY figures not re-verified).
+2026-10-23T12:38:49.345252+00:00	2026-10-22_from-DEWEY_reserve-coverage-decline-base-rate	noted	INBOX_TOPLEVEL	LOG: KB-GIB-021.
