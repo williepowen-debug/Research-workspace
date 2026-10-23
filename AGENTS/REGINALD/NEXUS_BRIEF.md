@@ -2,7 +2,7 @@
 
 **Status:** Concentrated bank risk. HY 340bp [10/22] is 10bp from REG-T-04 and mostly a BROAD repricing; still BANK-ABSENT on bank instruments (~0.7). On a 57-day fit the 10-year, not HY, moves KRE. Q3: problem loans up at 7 of 10 names read, coverage down at 6 of 8 — holds at CRE-concentrated names, breaks at cleaner ones.
 **Domain:** Regional-bank comparison, FHLB advances, hidden CRE and sponsor-bank balance-sheet risk.
-**As of:** 2026-10-23 15:33 ET, owner session (Will-launched boot + catch-up) | STATUS commit: c6bb09ab0
+**As of:** 2026-10-23 17:02 ET, owner session (Will-launched boot, catch-up, learning review, WQ-512 rider) | STATUS commit: 8452f2af7
 
 ## CROSS-DOMAIN
 
