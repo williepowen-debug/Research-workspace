@@ -52,7 +52,7 @@
 | 1 | `PROME/ROSTER.md` | ⏳ PROME — TIER-2 row (6→7), on this commit |
 | 2 | Root `CLAUDE.md` | NO-OP expected (no roster or chain list) — PROME verifies by grep |
 | 3–6 | `AGENTS.md` · `_INDEX.md` · `_NETWORK.md` · group pages | ⏳ PROME, with text proposed in the registration packet. `_NETWORK.md` edges are routes, so they go to Will via PROME |
-| 7 | WALTER routing | ⏳ WALTER mints the domain code and routing row on Will's sign-off; the `MACRO_INFLATION` row re-cut is WALTER's |
+| 7 | WALTER routing | ✅ **LIVE** (local, not yet pushed): WALTER `2d3870e82`, Will sign-off in WALTER's terminal at 10:04 ET ("Yes ISHM signoff approved"). Verified by DAEDALUS at the artifact 10:0x ET: `INDUSTRIAL_CYCLE` row at `ROUTING_TABLE.md:80` (v0.46); `MACRO_INFLATION` narrowed to prices-paid / consumer (`:58`); FORMAT_SPEC v0.27; REGISTRY row. HENRY's `<47` trigger was not moved |
 | 8–9 | `FLEET_MAP.tsv` + directory | ⏳ DAEDALUS, AFTER ROSTER (PAT-047) |
 | 10–11 | Peer seams + consumer handoffs | WATT (ASK, committed) and CARL (INFO, committed) packets sent at build. Every other seam owner is DEFERRED to ISHM's first session by charter (FIRST_SESSION item 3) |
 | 12 | DAEDALUS script registries | No edit — the Market default |

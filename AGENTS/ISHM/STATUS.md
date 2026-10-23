@@ -20,9 +20,9 @@
 | Perimeter | 8 frozen names; the HON separation status is UNVERIFIED | `PERIMETER.tsv` |
 | Predictions | 0 (empty by design) | `workbook/PREDICTIONS.tsv` |
 
-## Interim routing until this desk's first session
+## Routing
 
-**WALTER's interim rule:** US PMI and ISM prints route to CARL to act, with HENRY informed, and WALTER notes the coverage gap on each dispatch. Once WALTER mints ISHM's domain code and routing row (on Will's sign-off), routed prints queue in `inbox/WALTER/`.
+**LIVE since 2026-10-23 10:04 ET.** WALTER `INDUSTRIAL_CYCLE` → ISHM acts, HENRY backup (ROUTING_TABLE v0.46, `2d3870e82`). Routed items queue in `inbox/WALTER/`, created on the first handoff. WALTER has pointed the first session at SIG-W-20261023-010 (US flash PMI) and SIG-W-20261023-014 (Michigan final) on the BOARD.
 
 ## BOTTOM LINE
 
