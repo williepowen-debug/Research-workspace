@@ -1,0 +1,10 @@
+M13 GLD 2008+: P(any close t+2..t+21 >= +2.70%) 0.52 n4711
+M13 GLD 2025+: P(any close t+2..t+21 >= +2.70%) 0.69 n432
+M13 after a <=-2% day (2008+): 0.61 n175
+SLV: P(d200 <= -20 after 7 sessions | start in [-27,-21]) 0.77 n70 (overlapping starts)
+PALL: P(d200 <= -25 after 7 sessions | start in [-30,-24]) 0.23 n88 (overlapping starts)
+M17 2010+: P(20-session cum residual > 0) 0.57 n4175 overlapping; non-overlap 0.57 n209
+M17 2025+: P(20-session cum residual > 0) 0.67 n430 overlapping; non-overlap 0.64 n22
+M16 P(v[t+2]<v[t]) 0.51 n866
+M16 after 4 straight declines: P(v[t+2]<v[t]) 0.38 n77
+M16 when v>=50: P(v[t+2]<v[t]) 0.73 n62

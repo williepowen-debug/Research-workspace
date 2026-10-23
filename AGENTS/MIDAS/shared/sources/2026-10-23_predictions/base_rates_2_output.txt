@@ -1,0 +1,3 @@
+SLV: P(d200<=-20 after 7 | start [-26,-22.5]) 0.72 n40; first-day-per-episode 0.43 n7
+PALL: P(d200<=-25 after 7 | start [-28.5,-25.5]) 0.27 n44; first-day-per-episode 0.27 n11
+M17 2026 only: P(20-session cum residual>0) 0.53 n182; non-overlap 0.50 n10
