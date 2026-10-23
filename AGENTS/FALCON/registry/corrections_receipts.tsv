@@ -10,3 +10,4 @@ receipt_date	correction_id	action	note
 2026-10-15T01:35Z	COR-20261014-31	APPLIED	artifact=AGENTS/FALCON/domain/vessel-incidents/VESSELS.tsv#VI-2026-0036; validation_ref=NONE; Cape Dao total loss on IMO basis recorded (VI-0036); GFS PRIDE = IMO third sinking, class-(ii), VI-0064; census reconciliation in VX-FALCON-SUNK-01 + KB-FALCON-276/277
 2026-10-22T00:30Z	COR-20261014-35	NO-OP	scope=Correction relays FALCON's own 10/14 grades back to the board. Its additions (AL SAADIYAT = VI-2026-0072, Perim claim = KB-FALCON-292, war-risk 6-10%) were already encoded 10/14-10/15, nothing further to apply; 
 2026-10-22T00:37Z	COR-20261021-11	APPLIED	artifact=AGENTS/FALCON/domain/vessel-incidents/VESSELS.tsv#VI-2026-0074; validation_ref=AGENTS/FALCON/workbook/KB.tsv#KB-FALCON-296; 
+2026-10-23T18:50Z	COR-20261023-31	APPLIED	artifact=AGENTS/FALCON/workbook/KB.tsv#KB-FALCON-329; validation_ref=AGENTS/FALCON/thesis/PREDICTIONS.tsv#As of 2026-10-23; 
