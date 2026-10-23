@@ -15,3 +15,5 @@ receipt_date	correction_id	action	note
 2026-10-21T13:39Z	COR-20261019-12	NO-OP	scope=BROCK cites no OTTO Ally-contract, warehouse-exit forecast or short-report timing figure. CRMT ladder reads are BROCK's own EDGAR grades, unaffected; 
 2026-10-21T13:39Z	COR-20261021-01	NO-OP	scope=BROCK holds no H.8 small-bank borrowing, deposit or cash figure. SIG-W-20261010-007 fed no BROCK vector, gate or prediction; 
 2026-10-22T15:32Z	COR-20261021-10	APPLIED	artifact=AGENTS/BROCK/workbook/KB.tsv#KB-BRK-356; validation_ref=AGENTS/BROCK/docket/CATALYSTS.tsv#2026-11-01; 
+2026-10-23T20:46Z	COR-20261022-27	NO-OP	scope=BROCK never cited the 024 kill-strings (no BDC holds DC ABS/CMBS, Lambda outcome, Elk Grove 356M) - grep of AGENTS/BROCK on 2026-10-23 finds none outside inbox. v2 facts noted in board_log; 
+2026-10-23T20:46Z	COR-20261023-39	NO-OP	scope=BROCK never cited the 033 CCC 17pct AI-builders figure - grep of AGENTS/BROCK on 2026-10-23 finds none. WQ-511 report uses the corrected rated-CCC basis; 
