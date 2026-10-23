@@ -64,3 +64,9 @@ Will asked whether CYPHER lacked architecture other desks have. Measured against
 | Charter byte budget | Charter reached 25,291 B (78% of 32,550 B — past the 75% trigger DAEDALUS flagged on four bank charters today). `FIRST_SESSION.md` and `DATA_ROUTES.md` moved out verbatim (pointers left; leg numbers in the moved routes table corrected and noted) → **22,775 B (70%)** | read_cap rc 0; FIRST_SESSION.md picked up as a boot read (7%) |
 
 **Deliberately deferred:** `NEXUS_BRIEF.md` (26/32) — written at the first session, GIBBS precedent; NEXUS cannot see CYPHER until then. **Create-on-use, not gaps:** `registry/`, `archive/`, `research/`, `reports/`, `LAST_COMPLETION.md`. **Local habit, not required:** LESSONS / MEMORY / SCRATCH; `thesis/` (event desk, no thesis). **Outside the desk:** no `PROME/registry/READS.tsv` declaration yet — read_cap reports "clean within what the scan found", not a clean bill.
+
+## 6. Registration close, 2026-10-23 09:3x ET
+
+- ROSTER Tier-2 row landed (PROME ae3419a8a). §3 rows 8–9 are now DONE: FLEET_MAP row **L2/M** scored 2026-10-23 and directory regenerated (PAT-047 order kept).
+- §1 "Group `CYBER` provisional": the group is **CANONICAL** as of 2026-10-23 (WQ-501 A, `AGENTS/VOCABULARIES.tsv` NETWORK_GROUPS). The §1 cell stays as a dated record.
+- `corrections_boot_check CYPHER`: was rc 2 CANNOT-EVALUATE, now evaluates. It returns rc 1 for one unreceipted correction, COR-20261022-48. That receipt is CYPHER's own work, not DAEDALUS's.
