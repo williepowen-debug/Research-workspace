@@ -1,6 +1,6 @@
 # WQ-508 — PROME's two charter encodes (P01: the C5 pause · P02: the C8 grant), canon-drafts record
 
-**Written:** 2026-10-23 10:3x ET (PROME, session prome-03, desktop). **Status:** RULED — Will in PROME's window 2026-10-23 10:27 ET, verbatim *"ok approved"*, on WQ-508 (DAEDALUS Harness Audit #3 changelist), whose one OK for Tiers 1/3/4/5 expressly includes PROME's P01 and P02 charter edits (WILL_QUEUE row 508, RECENTLY DONE). Both edits RECORD words Will already gave; neither creates authority. Route: `PROME/CLAUDE.md` § Session Process Controls "Canon drafts live in the ruling record, transplanted once" — drafted here, blind plan read here, ONE insertion per line, one result read; DOCKET L644's own instruction ("drafted in the ruling record, plan read + result read; PROME's own charter is never C4").
+**Written:** 2026-10-23 10:3x ET (PROME, session prome-03, desktop). **Status:** RULED — Will in PROME's window 2026-10-23 10:27 ET, verbatim *"ok approved"*, on WQ-508 (DAEDALUS Harness Audit #3 changelist), whose one OK for Tiers 1, 3, 4 and 5 expressly includes PROME's P01 and P02 charter edits (WILL_QUEUE row 508, RECENTLY DONE). Both edits RECORD words Will already gave; neither creates authority. Route: `PROME/CLAUDE.md` § Session Process Controls "Canon drafts live in the ruling record, transplanted once" — drafted here, blind plan read here, ONE insertion per line, one result read; DOCKET L644's own instruction ("drafted in the ruling record, plan read + result read; PROME's own charter is never C4").
 
 ## 1. Inputs, each at its artifact
 

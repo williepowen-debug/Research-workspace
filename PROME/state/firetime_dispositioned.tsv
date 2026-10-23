@@ -41,3 +41,4 @@ AGENTS/DEWEY/output/2026-10-22_reserve-coverage-decline-base-rate.md	DATE DRIFT	
 AGENTS/DEWEY/output/2026-10-22_reserve-coverage-decline-base-rate.md	DATE DRIFT	artifact says 2027-01-08 ('1/8')	2026-10-23	PROME/reports/2026-10-22_firetime-boot-flags-disposition.md
 AGENTS/DEWEY/output/2026-10-22_reserve-coverage-decline-base-rate.md	DATE DRIFT	artifact says 2027-01-03 ('Jan 3')	2026-10-23	PROME/reports/2026-10-22_firetime-boot-flags-disposition.md
 AGENTS/VULCAN/STATUS.md	DATE DRIFT	artifact says 2027-01-10 ('1/10')	2026-10-22	PROME/reports/2026-10-22_firetime-boot-flags-disposition.md
+AGENTS/DAEDALUS/runs/2026-10-23_HARNESS_AUDIT_3.md	DEAD POINTER	`design/BOOT_PROTOCOL.md`	2026-10-23	PROME/reports/2026-10-23_firetime-closeout-flags-disposition.md
