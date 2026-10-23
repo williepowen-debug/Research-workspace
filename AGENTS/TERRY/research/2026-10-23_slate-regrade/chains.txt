@@ -1,0 +1,12 @@
+Underlying: IEF  Spot: 91.05 (as-of 2026-10-23 19:01)
+  ✓ usable        90.00 C  bid 1.86 / ask 1.96  [-]
+  ✓ usable        92.00 C  bid 0.91 / ask 0.96  [-]
+  ⇒ all requested legs carry usable two-sided quotes.
+Underlying: FXY  Spot: 58.42 (as-of 2026-10-23 19:01)
+  ✓ usable        58.00 C  bid 1.30 / ask 1.60  [-]
+  ✓ usable        60.00 C  bid 0.45 / ask 0.60  [-]
+  ⇒ all requested legs carry usable two-sided quotes.
+Underlying: RSP  Spot: 216.54 (as-of 2026-10-23 19:01)
+  ✓ usable       215.00 C  bid 6.30 / ask 10.30  [-]
+  ✓ usable       225.00 C  bid 2.35 / ask 3.50  [-]
+  ⇒ all requested legs carry usable two-sided quotes.

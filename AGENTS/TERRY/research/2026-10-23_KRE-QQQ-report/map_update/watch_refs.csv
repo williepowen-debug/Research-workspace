@@ -1,5 +1,7 @@
 key,label,value,unit,source
-reginald_beta,"KRE per +10 bp in the 10-year, carried figure",-0.72,%,"REGINALD 57-session joint fit with HY, 2026-08-04 to 2026-10-22, R² 0.13 (weak); packet 012e5c08c"
+kre_10y_range_low,"KRE per +10 bp in the 10-year, weakest window (57 sessions excluding the Q3 print week)",-0.43,%,"REGINALD answer 2026-10-23 17:01 ET (AGENTS/TERRY/inbox/2026-10-23_from-REGINALD_regional-rally-rates-read-answer.md); KRE daily vs ^TNX daily, yfinance; R² 0.04"
+kre_10y_range_high,"KRE per +10 bp in the 10-year, strongest window (last 20 sessions)",-1.3,%,"REGINALD answer 2026-10-23 17:01 ET (AGENTS/TERRY/inbox/2026-10-23_from-REGINALD_regional-rally-rates-read-answer.md); KRE daily vs ^TNX daily, yfinance; R² 0.41"
+reginald_beta,"KRE per +10 bp, 57-session joint fit with HY (superseded as the single carried figure; REGINALD: carry the range)",-0.72,%,REGINALD packet 012e5c08c; R² 0.13
 reginald_r2,Fit quality (R²) of the carried figure,0.13,,REGINALD packet 012e5c08c
 signal_date,See-saw signal: 20-day correlation first at or below -0.24,2026-10-22,date,TERRY episode_study (corr -0.2357 at the 10/22 close)
 median_runway,"Median sessions until correlation back above 0, 13 past episodes since 2006",16,sessions,TERRY episode_study/RESULTS.md
@@ -8,3 +10,6 @@ ratio_rollover_pct,Ratio rolling over: KRE/QQQ at least this far below its peak 
 joint_day_pct,Joint down day: both KRE and QQQ at or below this daily move,-1,%,TERRY definition (10/23 break list)
 ten_up_bp,10-year turning up: rise over 5 sessions at least,15,bp,TERRY definition (sent to REGINALD 10/23 as alarm 2)
 alarm_ten_bp,Alarm: KRE closes down on a session the 10-year falls at least,-5,bp,TERRY proposal to REGINALD 10/23 (ae7d13dc1); REGINALD's answer governs
+a1_fwd_fall_pct,"After A1 (KRE down on a 10-year down >= 5 bp day): share of times KRE fell over the next 20 sessions, 2006-2026",42,%,"REGINALD answer 2026-10-23 17:01 ET (AGENTS/TERRY/inbox/2026-10-23_from-REGINALD_regional-rally-rates-read-answer.md); KRE daily vs ^TNX daily, yfinance; 566 occurrences"
+a2_fwd_fall_pct,"After A2 (10-year +15 bp over 5 sessions with KRE down): share of times KRE fell over the next 20 sessions, 2006-2026",48,%,"REGINALD answer 2026-10-23 17:01 ET (AGENTS/TERRY/inbox/2026-10-23_from-REGINALD_regional-rally-rates-read-answer.md); KRE daily vs ^TNX daily, yfinance"
+base_fwd_fall_pct,"Any day: share of times KRE fell over the next 20 sessions, 2006-2026",45,%,"REGINALD answer 2026-10-23 17:01 ET (AGENTS/TERRY/inbox/2026-10-23_from-REGINALD_regional-rally-rates-read-answer.md); KRE daily vs ^TNX daily, yfinance"

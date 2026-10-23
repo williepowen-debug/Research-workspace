@@ -1,0 +1,11 @@
+# 10/20 slate re-grade — RSP / IEF / FXY on completed closes through 10/23 (TERRY, 2026-10-23 19:0x ET from `date`)
+
+Commission: PROME prome-03 (13:06 note; WQ-499/509 packet "still owed"). Each card graded on its own resolver; closes from yfinance (`regrade.py`, `closes.csv`, 49 bars 8/17 → 10/23); official 10Y = FRED DGS10 (10/23 not yet published). Debit legs = closing-chain SCREEN (pulled 19:00–19:01 ET, after hours; durable finding 5b), not broker. **No card is approved; no order exists; nothing fired into a fill.**
+
+| Card | Confirmation leg | Entry-colour leg | Debit cap (moment property) | State |
+|---|---|---|---|---|
+| `IDEA-RSP-OCT20` Jan-15 215/225C ×1 | MET 10/20 (close 215.86 > 215.00; RSP/SPY 0.280684 > prior-20 max 0.280498); again 10/22 (218.22; 0.285643 > 0.280684) | **first red RSP session after confirmation = 10/23** (−0.77%, close 216.54 ≥ 215) | screen 215C 6.30/10.30 · 225C 2.35/3.50 ⇒ mid **$5.38**, worst $7.95 vs cap **$4.90** ⇒ **FAILS** | Card's single entry session (10/23) passed with no qualifying debit; on the letter the entry case is spent — re-opening needs a rework (Will) |
+| `IDEA-IEF-OCT20` Jan-15 90/92C ×3 | MET 10/22 (DGS10 **4.96** ≤ 5.00) | later red IEF session with IEF ≥ 90: **10/23** (−0.16%, close 91.05) | screen 90C 1.86/1.96 · 92C 0.91/0.96 ⇒ mid **$0.975**, worst $1.05 vs cap **$0.85** ⇒ **FAILS** | Armed: any later red IEF session ≥ $90 with debit ≤ $0.85. IEF's +1.08% on 10/22 moved the 90C in the money, so the cap is now structurally hard to meet without a re-strike |
+| `IDEA-FXY-OCT20` Jan-15 58/60C ×1 | MET 10/22 (close 58.44 > prior-20 high 58.30) | red FXY session ≥ 58: **10/23** (−0.03%, close 58.42) | screen 58C 1.30/1.60 · 60C 0.45/0.60 ⇒ mid **$0.925**, worst $1.15 vs cap **$0.90** ⇒ **FAILS** | Armed: a later red FXY session ≥ $58 with debit ≤ $0.90 |
+
+Caveats: day colour is graded close-to-close here; the cards' colour test is at order time. Whether any debit was inside its cap DURING the 10/23 session is unmeasured (no intraday chain) — a moment property (construction rule #14). The RSP "first red session" reading is the card's letter; if Will intended "any red session", RSP is armed like the other two.

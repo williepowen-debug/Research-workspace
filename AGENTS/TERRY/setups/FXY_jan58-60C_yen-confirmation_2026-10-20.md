@@ -4,6 +4,8 @@
 **Prepared:** 2026-10-20T11:59:53.683072-04:00. Commissionff9531ffc, Will'srecorded11:50ETword.
 **Thesis-owner evidence:** SAM October20committedad61cfd5: nofreshcarryunwind, retired-toLOW/no successor, BOJfurtherhikesintendedbutOctoberunsignalled; OctoberOIS5%indicativemedian isnot a simple forecastprobability. No existingSAMtriggerrevived. TERRYconditionalconstructiononly.
 
+> **RE-GRADE 2026-10-23 (TERRY, 19:0x ET from `date`):** breakout MET on the 10/22 close (58.44 > prior-20 high 58.30); a red FXY session came **10/23** (−0.03%, close 58.42 ≥ 58). Closing-chain screen 58C 1.30/1.60 · 60C 0.45/0.60 ⇒ mid $0.925 / worst $1.15 > the $0.90 cap ⇒ **entry blocked by its own chase cap**. Still armed for a later red FXY day ≥ $58 at ≤ $0.90. No order; card unapproved. Evidence `../research/2026-10-23_slate-regrade/NOTE.md`.
+
 ## Entry and trigger state
 NOT-FIRED: completedFXYclose>58.30 (prior20closehigh), thenredFXYentrywithprice≥58.00and brokerdebit≤0.90. Lastcompleted57.79 is0.51/0.883%below58.30; live57.92still0.38/0.656%below; liveUSDJPY158.19iscontextonly, notanewSAMgate. Cheapestmarkisnotyenconfirmation.
 

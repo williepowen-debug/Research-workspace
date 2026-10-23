@@ -4,6 +4,8 @@
 **Prepared:** 2026-10-20T11:59:53.683072-04:00. Commissionff9531ffc, Will'srecorded11:50ETword.
 **Thesis-owner evidence:** BOND October15: longTreasurieswereboughtonsafe-assetdemand; durationshortkillMET-REC/NO-ADD remains. This is a conditional opposite expression, not a newBONDlong recommendation.
 
+> **RE-GRADE 2026-10-23 (TERRY, 19:0x ET from `date`):** leg 1 MET — official 10Y (FRED DGS10) **4.96% on 10/22** ≤ 5.00; a later red IEF session came **10/23** (−0.16%, close 91.05 ≥ 90). Closing-chain screen 90C 1.86/1.96 · 92C 0.91/0.96 ⇒ mid $0.975 / worst $1.05 > the $0.85 cap ⇒ **entry blocked by its own chase cap**. Still armed for a later red IEF day ≥ $90 at ≤ $0.85; with IEF at 91.05 the cap is structurally hard without a re-strike. No order; card unapproved. Evidence `../research/2026-10-23_slate-regrade/NOTE.md`.
+
 ## Entry and trigger state
 NOT-FIRED: proposedcompletedofficialTreasury10Y≤5.00% AND laterredIEFsession withIEF≥90.00 AND brokercomplexdebit≤0.85. Livevendor^TNX5.11% is11bpabove5.00 (not the officialclosing resolver); IEF90.24/+0.18% isgreen; screen0.87 exceeds0.85by0.02/unit or6.00on3spreads. No threshold already fired is claimed.
 

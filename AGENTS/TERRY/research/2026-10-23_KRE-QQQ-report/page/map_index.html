@@ -62,11 +62,12 @@
     <div class="dv-tile" id="w-corr"><span class="lbl">Correlation back above 0?</span><span class="big dash-skeleton" data-source="watch" data-field="corr20">—</span><span class="state" data-k="corr_on"></span><span class="sub">Session <span data-source="watch" data-field="sessions_since_signal">—</span> since the signal; since 2006, episodes this deep ended after a median of <span data-source="watch" data-field="median_runway">—</span></span></div>
     <div class="dv-tile" id="w-ratio"><span class="lbl">KRE ÷ QQQ, off its peak since Oct 6</span><span class="big dash-skeleton" data-source="watch" data-field="ratio_off_peak_pct">—</span><span class="state" data-k="ratio_on"></span><span class="sub">Turns on at <span data-source="watch" data-field="ratio_rollover_pct">—</span>% below the peak</span></div>
     <div class="dv-tile" id="w-joint"><span class="lbl">First day both fell 1% or more</span><span class="big dash-skeleton" data-source="watch" data-field="first_joint_day">—</span><span class="state" data-k="joint_on"></span><span class="sub">Counted from the signal session</span></div>
-    <div class="dv-tile" id="w-ten"><span class="lbl">10-year yield, 5-session change</span><span class="big dash-skeleton" data-source="watch" data-field="ten_chg5_bp">—</span><span class="state" data-k="ten_on"></span><span class="sub">Turns on at +<span data-source="watch" data-field="ten_up_bp">—</span> bp; now <span data-source="watch" data-field="ten_last">—</span>%. Series: Cboe 10-year yield index (^TNX) via Yahoo; Treasury's official daily rate can differ by a few hundredths</span></div>
-    <div class="dv-tile" id="w-beta"><span class="lbl">KRE move per +0.10 pt in the 10-year</span><span class="big dash-skeleton" data-source="watch" data-field="kre_per_10bp_60">—</span><span class="state" data-k="beta_note"></span><span class="sub">Last 60 sessions. Carried figure <span data-source="watch" data-field="reginald_beta">—</span>% (REGINALD, R² <span data-source="watch" data-field="reginald_r2">—</span>, weak). Banks normally rise with yields</span></div>
-    <div class="dv-tile" id="w-alarm"><span class="lbl">Alarm: KRE on the last yields-down day</span><span class="big dash-skeleton" data-source="watch" data-field="last_down_kre_ret">—</span><span class="state" data-k="alarm_on"></span><span class="sub"><span data-source="watch" data-field="last_down_date">—</span>, 10-year <span data-source="watch" data-field="last_down_ten_bp">—</span> bp. Not a crash signal: since 2024 KRE fell on <span data-source="watch" data-field="down_kre_fell">—</span> of <span data-source="watch" data-field="down_days">—</span> such days (this year <span data-source="watch" data-field="down_kre_fell_ytd">—</span> of <span data-source="watch" data-field="down_days_ytd">—</span>). It marks the falling-yield support ending</span></div>
+    <div class="dv-tile" id="w-ten"><span class="lbl">10-year yield, 5-session change</span><span class="big dash-skeleton" data-source="watch" data-field="ten_chg5_bp">—</span><span class="state" data-k="ten_on"></span><span class="sub">Turns on at +<span data-source="watch" data-field="ten_up_bp">—</span> bp; now <span data-source="watch" data-field="ten_last">—</span>%. Series: Cboe 10-year yield index (^TNX) via Yahoo; Treasury's official daily rate can differ by a few hundredths. A close variant (with KRE down) showed no forward edge 2006–2026: <span data-source="watch" data-field="a2_fwd_fall_pct">—</span>% vs <span data-source="watch" data-field="base_fwd_fall_pct" data-row="0">—</span>% (REGINALD)</span></div>
+    <div class="dv-tile" id="w-beta"><span class="lbl">KRE move per +0.10 pt in the 10-year</span><span class="big dash-skeleton" data-source="watch" data-field="kre_per_10bp_60">—</span><span class="state" data-k="beta_note"></span><span class="sub">Last 60 sessions. REGINALD's range by window: <span data-source="watch" data-field="kre_10y_range_low">—</span>% to <span data-source="watch" data-field="kre_10y_range_high">—</span>%, weak outside the last four weeks. Banks normally rise with yields</span></div>
+    <div class="dv-tile" id="w-alarm"><span class="lbl">Regime tile: KRE on the last yields-down day</span><span class="big dash-skeleton" data-source="watch" data-field="last_down_kre_ret">—</span><span class="state" data-k="alarm_on"></span><span class="sub"><span data-source="watch" data-field="last_down_date">—</span>, 10-year <span data-source="watch" data-field="last_down_ten_bp">—</span> bp. Describes the 2026 pattern; no forward edge 2006–2026: after it KRE fell over the next 20 sessions <span data-source="watch" data-field="a1_fwd_fall_pct">—</span>% of the time vs <span data-source="watch" data-field="base_fwd_fall_pct">—</span>% on any day (REGINALD). Since 2024 KRE fell on <span data-source="watch" data-field="down_kre_fell">—</span> of <span data-source="watch" data-field="down_days">—</span> such days (this year <span data-source="watch" data-field="down_kre_fell_ytd">—</span> of <span data-source="watch" data-field="down_days_ytd">—</span>)</span></div>
   </div>
   <div class="dv-check" id="fomc" data-source="watch"><span class="dash-skeleton">—</span></div>
+  <p class="dv-note" id="credit-leg">Not on this page: the signal REGINALD's bank desk would act on is credit, not these tiles. That means weekly Fed H.8 bank lending (business loans and loans to non-bank lenders) and the Q4 bank reports. Exposure to private-credit lenders is concentrated in a few regionals rather than spread across the sector (REGINALD, from June 30 Call Reports).</p>
 
   <h2 class="dv-section" id="what-followed">What followed in the past</h2>
   <div class="dv-grid">
@@ -118,7 +119,7 @@
     </section>
     <section class="dv-card" id="yield">
       <h2>10-year Treasury yield</h2>
-      <p class="dv-note">The measured link: regional banks have lately risen when this yield falls, the reverse of their usual pattern (see the watch tile). Why is a hypothesis: lower yields ease their bond losses and real-estate refinancing.</p>
+      <p class="dv-note">The measured link: regional banks have lately risen when this yield falls, the reverse of their usual pattern (see the watch tile). It is strong only in the last four weeks, and most of KRE's Oct 22 jump was earnings relief at a few banks rather than rates (REGINALD). Why is a hypothesis: lower yields ease their bond losses and real-estate refinancing.</p>
       <div class="dv-chart" id="yield-chart" data-source="kre_qqq_daily"></div>
     </section>
   </div>
@@ -523,7 +524,8 @@ dash.calc('watch', {
     return [{ last_date: last.date, corr20: r2(last.c), sessions_since_signal: n - 1 - iSig, median_runway: ref.median_runway,
       ratio_off_peak_pct: r1(off), ratio_rollover_pct: ref.ratio_rollover_pct, first_joint_day: joint ? joint.date : 'None yet',
       ten_chg5_bp: r1(ten5), ten_up_bp: ref.ten_up_bp, ten_last: r2(last.ten), kre_per_10bp_60: r2(last.b60),
-      reginald_beta: ref.reginald_beta, reginald_r2: ref.reginald_r2,
+      kre_10y_range_low: ref.kre_10y_range_low, kre_10y_range_high: ref.kre_10y_range_high,
+      a1_fwd_fall_pct: ref.a1_fwd_fall_pct, a2_fwd_fall_pct: ref.a2_fwd_fall_pct, base_fwd_fall_pct: ref.base_fwd_fall_pct,
       last_down_date: ld ? ld.date : '', last_down_ten_bp: ld ? r1(ld.tb) : null, last_down_kre_ret: ld ? r2(ld.kr) : null,
       fomc_date: ref.fomc_date, sessions_to_fomc: toFomc, ...on,
       down_days: dn.length, down_kre_fell: dn.filter(r => r.kr < 0).length, down_days_ytd: dnY.length, down_kre_fell_ytd: dnY.filter(r => r.kr < 0).length,
@@ -589,7 +591,7 @@ dash.calc('long_history', {
     ratio_on: ['Off: no rollover', 'ON: ratio rolling over'],
     joint_on: ['Off', 'ON: joint down day'],
     ten_on: ['Off', 'ON: 10-year turning up'],
-    alarm_on: ['Off: rate relief still working', 'ALARM: KRE fell as yields fell']
+    alarm_on: ['Off: rate relief still working', 'ON: KRE fell as yields fell (regime change, not a forecast)']
   };
   function setText(el, text) { if (el) { el.textContent = text; el.classList.remove('dash-skeleton'); } }
   function rowsInto(tbody, rows, cols) {
@@ -615,8 +617,10 @@ dash.calc('long_history', {
       setText(q('ten_up_bp'), String(h.ten_up_bp));
       setText(q('ten_last'), h.ten_last.toFixed(2));
       setText(q('kre_per_10bp_60'), sgn2(h.kre_per_10bp_60) + '%');
-      setText(q('reginald_beta'), sgn2(h.reginald_beta));
-      setText(q('reginald_r2'), h.reginald_r2.toFixed(2));
+      setText(q('kre_10y_range_low'), sgn1(h.kre_10y_range_low));
+      setText(q('kre_10y_range_high'), sgn1(h.kre_10y_range_high));
+      ['a1_fwd_fall_pct', 'a2_fwd_fall_pct'].forEach(f => setText(q(f), String(h[f])));
+      tiles.querySelectorAll('[data-field="base_fwd_fall_pct"]').forEach(e => setText(e, String(h.base_fwd_fall_pct)));
       setText(q('last_down_kre_ret'), h.last_down_kre_ret === null ? '—' : sgn2(h.last_down_kre_ret) + '%');
       setText(q('last_down_date'), h.last_down_date ? fmtShort(day(h.last_down_date)) : '—');
       setText(q('last_down_ten_bp'), h.last_down_ten_bp === null ? '—' : sgn1(h.last_down_ten_bp));
@@ -628,9 +632,9 @@ dash.calc('long_history', {
       });
       const be = tiles.querySelector('[data-k="beta_note"]');
       be.textContent = h.kre_per_10bp_60 < 0 ? 'Inverted: KRE rises when yields fall' : 'Normal: KRE rises with yields';
-      statusEl.textContent = `${h.signs_on} of 5 monitoring thresholds triggered at the ${fmtShort(day(h.last_date))} close. ` +
+      statusEl.textContent = `${h.signs_on} of 5 monitoring tiles on at the ${fmtShort(day(h.last_date))} close. ` +
         'The divergence persists; where it goes next is unresolved. These thresholds were set on Oct 23, 2026 and detect a change once it starts: ' +
-        'replayed on November 2021, they lit on the day the shock hit, not before. A sign on is a reason to look, not a forecast.';
+        'replayed on November 2021, they lit on the day the shock hit, not before; where tested back to 2006, none showed forward edge. They describe the regime; a tile on is a reason to look, not a forecast.';
       statusEl.classList.remove('dash-skeleton');
       fomcEl.textContent = '';
       const b = document.createElement('b'); b.textContent = 'Checkpoint: '; fomcEl.appendChild(b);

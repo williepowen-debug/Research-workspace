@@ -14,7 +14,7 @@
 - [x] Earnings: vendor calendar shows Q3 on **2026-11-06 07:00** (screening date, not issuer IR), after the Oct-30 expiry; the spread spans the ESMO readout and FOMC (10/28), not the print.
 
 ## 1. One-line setup
-Buy a capped call spread Friday that pays if the full INTerpath-001 data at ESMO make the market read Thursday's −17.6% close as a valuation unwind rather than a thesis break, with the first reaction at the Monday 10/27 open.
+Buy a capped call spread Friday that pays if the full INTerpath-001 data at ESMO make the market read Thursday's −17.6% close as a valuation unwind rather than a thesis break, with the first reaction at the Monday ~~10/27~~ → 10/26 open (date corrected 2026-10-23: 10/27 is a Tuesday).
 
 ## 2. What the packet assumed versus the closing chain
 
@@ -63,7 +63,7 @@ At the $500 default the asked structure sizes to **zero contracts**. B keeps the
 - **Weekend:** no interim trading; the gap from Friday's close to Monday's open is the whole trade, and max loss is fixed at the debit.
 - **Thesis-break exit:** if the ESMO data show a BRAF-mutant HR above 0.80 or no subgroup benefit (ASCL file H's tell), sell the whole spread at the Monday open complex bid, whatever it shows.
 - **Harvest (durable finding 9):** sell at the broker complex bid **≥ $15.00** (75% of width) at any point Monday.
-- **Monday rule:** sell the whole spread by **10:30 ET Mon 10/27** at the broker complex bid if neither line above has fired. The view is one readout; holding to 10/30 through FOMC (10/28) and big-tech prints (10/29) is a different trade (construction rule #16).
+- **Monday rule:** sell the whole spread by **10:30 ET Mon ~~10/27~~ → 10/26** at the broker complex bid if neither line above has fired. The view is one readout; holding to 10/30 through FOMC (10/28) and big-tech prints (10/29) is a different trade (construction rule #16).
 - **No roll, no add** (Non-Negotiable #6; construction rule #23).
 - **If MRNA opens Friday above $205** (concern 5): the asked strikes are then in the money and the debit rises; 205/225 screened at mid $6.65 / worst $8.85 on the closing chain, also over the default. No re-strike is pre-approved; a new strike is a new card for Will.
 

@@ -4,6 +4,8 @@
 **Prepared:** 2026-10-20T11:59:53.683072-04:00. Commissionff9531ffc, Will'srecorded11:50ETword.
 **Thesis-owner evidence:** HENRY October19: narrowMondayrebound, improvingequalweight/Nasdaqparticipation counterevidence, negativegamma/fragility. Not a confirmedbullregime; TERRY proposes a breadth-dependentconstruction, not a newHENRYforecast.
 
+> **RE-GRADE 2026-10-23 (TERRY, 19:0x ET from `date`):** confirmation MET on the 10/20 close (215.86; RSP/SPY 0.280684 > 0.280498) and again 10/22; the first red RSP session after it was **10/23** (−0.77%, close 216.54). Closing-chain screen 215C 6.30/10.30 · 225C 2.35/3.50 ⇒ mid $5.38 > the $4.90 cap ⇒ **no qualifying entry**; on the card's letter ("first red session") the entry case is spent; re-opening needs a rework. No order; card unapproved. Evidence `../research/2026-10-23_slate-regrade/NOTE.md`.
+
 ## Entry and trigger state
 NOT-FIRED: requireacompletedRSPclose>215.00 AND same-dateRSP/SPYratio>0.280497871 (prior20alignedclosemax), thenfirstredRSPentrysessionwithRSP≥215 and brokerdebit≤4.90. LastcompletedRSP213.40 is1.60below; ratio0.278415614 is0.002082257/0.748%below. Current215.67clearspriceintraday0.67, but pairedintradayratio0.280123651 isunsynchronized/NOTtheclosingresolver; nopartialgradeasfinal. Debit5.45needs0.55improvement.
 
