@@ -84,7 +84,7 @@
 
 ## PREDICTIONS
 
-**Canonical state: `workbook/PREDICTIONS.tsv`.** **REG-28/29/30 registered 10/22 on Will's word** (EGBN extend-not-exit 65% · cohort Q4 NCO rise 45% · VLY non-accrual ≥$511.4M 60%); resolve-by dates in `registry/PREDICTION_RESOLVE_BY.tsv`. REG-07 is VOID under WQ-412 (10/16 ledger refresh); successor REG-27 is OPEN at15%, encoded10/21 under WQ-454.REG27 A (SSB NPL ratio≥0.70%,Q3-2026 throughQ2-2027); original20 rows preserved. REG-01/REG-06 remain byte-frozen; original remaining predictions, ownership and outcome rules stay in the ledger. Prior prose (including the superseded REG-07 re-mark instruction) → `archive/2026-10-20_organisation-cleanup_STATUS.md` §B10; exact map → cleanup RECEIPT. REG-03's existing re-spec remains carried, not resolved here.
+**Canonical state: `workbook/PREDICTIONS.tsv`.** **10/23 (Will-approved): REG-08 and REG-10 grades corrected FAILED → CONFIRMED** (both came true on their wording; original grades kept verbatim; review `reports/2026-10-23_historical-learning-review.md`). **REG-28/29/30 registered 10/22 on Will's word** (EGBN extend-not-exit 65% · cohort Q4 NCO rise 45% · VLY non-accrual ≥$511.4M 60%); resolve-by dates in `registry/PREDICTION_RESOLVE_BY.tsv`. REG-07 is VOID under WQ-412 (10/16 ledger refresh); successor REG-27 is OPEN at15%, encoded10/21 under WQ-454.REG27 A (SSB NPL ratio≥0.70%,Q3-2026 throughQ2-2027); original20 rows preserved. REG-01/REG-06 remain byte-frozen; original remaining predictions, ownership and outcome rules stay in the ledger. Prior prose (including the superseded REG-07 re-mark instruction) → `archive/2026-10-20_organisation-cleanup_STATUS.md` §B10; exact map → cleanup RECEIPT. REG-03's existing re-spec remains carried, not resolved here.
 
 ---
 

@@ -40,6 +40,7 @@ Original contiguous blocks B01–B08 → `archive/2026-10-20_organisation-cleanu
 2. **DEWEY REQ-003** (CCC + under-80 loan composition) due Mon 10/26 → ACTION to me; it decides WQ-509's instrument (TERRY's broad-credit card).
 3. **H.8 Fri 10/23** (released after this session's write-back unless noted in STATUS): small-bank borrowings, C&I and NDFI loan lines (draw check).
 4. **SBCF Tue 10/27** after close: last FL frame name (aggregate goes final on ≥3 HOLDS). **REG-28 checkpoint 10/27:** EGBN $42.7M + $27.7M maturities. Nano P&A / DEWEY records route 10/27.
+4b. **11/07 ranking test:** verify sha256 `06e37edad2d583074a20f0ca70d0f84079a3eed95fba891204060662bcd00672` of `reports/2026-10-23_ranking-test_FROZEN_protocol.md`, then run it on the Q3 Call Report pull. Retrospective, not blind. Do not edit the protocol.
 5. **DOCKET L801 ~10/30:** Q3 cohort re-read vs DEWEY base rate (now 7/10 and 6/8). REG-T-06 Q3 OF Highlights 10/30; grades 11/13 from the CFR.
 6. **Pending Will:** charter trim; JWT renewal before 11/05 (11/07 run).
 7. **Carried:** 10-Q cells (FLG MF special mention + mods, VLY mods ~11/10, SSB classified share, BKU CRE 30-89) · CCB/CASH/GDOT Q3 dates unchecked · CUBI N at 11/07.

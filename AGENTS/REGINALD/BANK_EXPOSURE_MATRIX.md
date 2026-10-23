@@ -35,7 +35,7 @@
 ### Scored channel 2 — Credit quality (0-3)
 - **Instrument:** nonaccrual loans `RCON1403` ÷ total loans `RCON2122`; reserve coverage = ACL `RCON3123` ÷ nonaccrual.
 - **Band:** nonaccrual `≥2.0% = 2` · `1.0-1.99% = 1` · `<1.0% = 0`; **plus 1 if ACL/nonaccrual < 100%** (reserves do not cover the nonaccruals already recognised). Capped at 3.
-- **Why this band is defensible:** the coverage leg is not a judgment call — **<100% means the reserve is arithmetically insufficient for loans already on nonaccrual**, independent of any view.
+- ⚠️ **Justification CORRECTED 2026-10-23 (Will-approved; scores unchanged):** the coverage point is **an untested warning indicator, not an arithmetic fact.** An allowance estimates expected loss net of collateral and recoveries, and nonaccrual balances are often already partly charged off. Coverage below 100% therefore does not mean the reserve is insufficient: this desk's own evidence puts realized resolution losses at ~13–22% (`reports/2026-10-22_appraisal-discount_cohort_test.md`) and FLG's recognised loss at ~21%. The band stays as published so the 8/20 scores remain frozen. Whether the point adds predictive information is tested at 11/07 (`reports/2026-10-23_ranking-test_FROZEN_protocol.md`, rankings S1 vs S2). *Original wording, superseded:* "the coverage leg is not a judgment call — <100% means the reserve is arithmetically insufficient for loans already on nonaccrual, independent of any view."
 
 **TOTAL = channel 1 + channel 2. Maximum 6.**
 
@@ -60,7 +60,7 @@
 | 13= | CFG | 95.3% | 0 | 0.96% | 137% | 0 | **0** |
 | 13= | HBAN | 83.4% | 0 | 0.84% | 204% | 0 | **0** |
 
-**Three banks carry reserves that do not cover their own recognised nonaccruals: FLG 29% · AMTB 51% · EGBN 88%** (WAL 86% and BKU 95% are marginal). That is the single most decision-relevant column in this table.
+**Three banks carry reserves that do not cover their own recognised nonaccruals: FLG 29% · AMTB 51% · EGBN 88%** (WAL 86% and BKU 95% are marginal). *(2026-10-23: the sentence that stood here, calling this "the single most decision-relevant column in this table", is withdrawn; see the corrected justification in §1. Removing the point leaves the top three unchanged.)*
 
 ---
 
