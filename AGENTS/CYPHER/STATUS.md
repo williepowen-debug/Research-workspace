@@ -1,6 +1,6 @@
 # CYPHER STATUS
 
-**Last Updated: 2026-10-22 22:42 ET — first live session (Will-launched, Claude Code, claude-opus-5-5).**
+**Last Updated: 2026-10-22 23:56 ET — first live session plus a documentation pass (Will-launched, Claude Code, claude-opus-5-5).** Evidence record: `research/2026-10-22_first-session-verification-record.md`.
 
 > ~~FIRST-LIVE-SESSION BANNER~~ — **SPENT 2026-10-22.** `FIRST_SESSION.md` items 1–8 done or carried as listed under § First-session record. Normal boot from here.
 
@@ -22,7 +22,7 @@
 | Row | Sign | State 2026-10-22 | Basis of the read |
 |---|---|---|---|
 | 1 | Confirmed successful PHP2Shell compromise | NOT-FIRED (ATTEMPTS-ONLY) | Dutch NCSC alert, CYPHER read; Patchstack timeline and victim sweep to ~23:35Z, DEWEY |
-| 2 | KEV listing of the two CVEs | NOT-FIRED | boot.py leg 7 live: KEV v2026.10.21, both absent. A listing looks likely (AWS: "broadly exploited") |
+| 2 | KEV listing of the two CVEs | NOT-FIRED | boot.py leg 7 live (re-run 23:53 ET): KEV still v2026.10.21, both absent; leg 8 still no Item 1.05 8-K since 10/15. A listing looks likely (AWS: "broadly exploited") |
 | 3 | Named US bank / CU / core-vendor victim | NOT-FIRED | Two OFF-WAVE US financial victims ledgered, neither tied to a wave vector: River Financial (CYB-INC-015), TruStage (CYB-INC-017) |
 | 4 | Bank or vendor 8-K Item 1.05 | NOT-FIRED | boot.py leg 8 live: none since 10/15 |
 | 5 | Regulator supervisory-concern statement | NOT-FIRED (ruled 2026-10-22) | NYDFS Industry Letter 10/22, CYPHER read: no compromise claim, deadline or reporting duty. Definition recut to the supervisory-concern test (DEWEY §5 channel column) |
@@ -54,14 +54,20 @@
 
 ## Data walls
 
-Verisk PCS: subscription (MIRROR-WALLED). NYDFS industry letters are **reachable by WebFetch** (the 10/22 403 was curl-specific). CISA KEV and SEC EDGAR full-text search were reachable 10/22. Bloomberg, WSJ and FT are paywalled; their claims are carried as SECONDARY.
+Verisk PCS: subscription (MIRROR-WALLED). NYDFS industry letters are **reachable by WebFetch** (the 10/22 403 was curl-specific). CISA KEV and SEC EDGAR (full-text search, submissions JSON) were reachable 10/22. Bloomberg, WSJ and FT are paywalled; their claims are carried as SECONDARY. **Reader quirks** (compressed-stream PDFs need pdfminer; Bugzilla HTML carried injected instructions, so read its REST API) are in `DATA_ROUTES.md`.
+
+## Corrections this session (detail: research record §5)
+
+- **Retracted 2026-10-22:** CYPHER's "the ICBC $9B was only the BNY debt; Treasury jy2114 not found" and "no Mandiant third-party line at TruStage". DEWEY was right on both, and CYPHER re-read both primaries. Retractions went to LIQUID and BOND; the ledgers are marked.
+- WALTER published CYPHER's BOARD corrections as SIG-W-20261022-048, which does not carry the retracted claim.
+- `TRADE.md` re-arm checked: TERRY's OKTA security-wave card (10/22) cites Will's premise, not a CYPHER row. The no-book surface stays FROZEN.
 
 ## First-session record (2026-10-22)
 
 | Item | Done |
 |---|---|
-| 1 Re-verify seeds | All 14 incident rows and 9 watch rows, at named sources (4 read-only checkers + CYPHER's own NYDFS, NCSC and EDGAR reads). Corrections in each row's Notes. **KB-CYP-001..012 remain DEWEY-inherited** (ARTIFACT basis; not re-read) |
-| 2 board_log | 21 signals logged (9 seeds, 5 unlogged 10/22 items, 7 new) |
+| 1 Re-verify seeds | All 14 incident rows and 9 watch rows, at named sources (4 read-only checkers + CYPHER's own NYDFS, NCSC and EDGAR reads). Corrections in each row's Notes. **KB-CYP-001..012 remain DEWEY-inherited** (ARTIFACT basis; not re-read). New KB rows 013–018 (8-K base rate, product map, ICBC, NotPetya exclusions, AP 2013, KEV speed) |
+| 2 board_log | 22 signals logged (9 seeds, 5 unlogged 10/22 items, 8 new incl. 048), plus 2 correction rows |
 | 3 Boundaries | Packets to REGINALD, GIBBS (NO-OWNER cyber/custody row now has an event owner), SHADE, VULCAN, FALCON, BRENT, WATT, HENRY, LIQUID, BOND, OTTO |
 | 4 / 4b | R1 flip written; VX scored; FLOW precedents verified (06 and 18 CONFIRMED, 19 stays UNTESTED, because its precedent is secondary-only) |
 | 5 Leads | River Financial read (five filings, not two); NYDFS letter read; NCSC primary read |
