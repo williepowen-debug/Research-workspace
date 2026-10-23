@@ -1,1 +1,22 @@
 timestamp_read	signal_id	disposition	source	notes
+2026-10-22T22:34-0400	SIG-W-20261002-026	acted	SEED-AT-BUILD	Tanker OT compromise -> CYB-INC-001 re-verified (boardings Aug 21/24 per FBI/USCG statement via AP/ME; propulsion access REPORTED via Bloomberg unnamed officials; Mehr date Aug 20 not Aug 7)
+2026-10-22T22:34-0400	SIG-W-20261012-011	acted	SEED-AT-BUILD	French refrigeration + Ahold -> CYB-INC-003/004 re-verified (govt ~700 stores 10/13; Copeland second vendor; Danfoss internal-IT clause UNANCHORED, struck)
+2026-10-22T22:34-0400	SIG-W-20261012-039	acted	SEED-AT-BUILD	Japan emergency + Germany -> CYB-INC-005 re-cut (LDP official remark 10/9, not a govt declaration: declaration claim FALSE as phrased) and CYB-INC-006 (warning, not attribution)
+2026-10-22T22:34-0400	SIG-W-20261015-010	acted	SEED-AT-BUILD	Saudi-owned refinery buyer -> CYB-INC-002 SUPERSEDED into CYB-INC-001 (same vessel VL Prosperity; buyer Motiva)
+2026-10-22T22:34-0400	SIG-W-20261021-024	acted	SEED-AT-BUILD	PHP2Shell disclosure -> CYB-INC-007 re-verified at php.net, GHSA, CISA, AWS primaries; attempts-count attributed to Cloudflare
+2026-10-22T22:34-0400	SIG-W-20261022-008	noted	BOARD	Axios outside AI agents (anonymous, MS disputes, no loss) + Storm-0940: not logged as incident; Storm-0940/ConnectWise logged as CYB-INC-018 (Microsoft vendor attribution, not government). Barchart relay of 008 triaged under 037
+2026-10-22T22:34-0400	SIG-W-20261022-017	info-only	BOARD	DEWEY REQ-001 vendor concentration: base-rate context for VX-CYP-01; River Financial (June ransomware) listed there, read at primary this session -> CYB-INC-015
+2026-10-22T22:34-0400	SIG-W-20261022-019	acted	SEED-AT-BUILD	Japan bank pauses -> CYB-INC-008 re-verified (Jiji; Shizuoka/Aomori began 10/21; Nomura not in Jiji)
+2026-10-22T22:34-0400	SIG-W-20261022-025	acted	SEED-AT-BUILD	Black October verified ledger -> CYB-INC-009..014 re-verified; FALSE rows kept (60M certs, pip compromised)
+2026-10-22T22:34-0400	SIG-W-20261022-026	info-only	BOARD	DEWEY REQ-008 five-wave base rate: KB-CYP prior; consumed for VX bands and predictions CYP-01/02
+2026-10-22T22:34-0400	SIG-W-20261022-030	acted	SEED-AT-BUILD	DEWEY legacy cores: exposure is web layer, not cores; context for VX-CYP-01 score
+2026-10-22T22:34-0400	SIG-W-20261022-032	acted	SEED-AT-BUILD	Arista VeloCloud CVE-2026-114625 -> CYB-INC-014 re-verified at Arista advisory 0199 (authenticated SQLi; CVSS3.1 9.9 / CVSS4 9.4)
+2026-10-22T22:34-0400	SIG-W-20261022-035	info-only	BOARD	DEWEY bank vendors: 0 of 1,754 KEV banking software (weak evidence: vendors are not CNAs, hosted products rarely get CVEs)
+2026-10-22T22:34-0400	SIG-W-20261022-036	noted	BOARD	DEWEY product map (inbox stub): LOG; candidate watch row "a section-1 bank product added to KEV" deferred to the next wave block, not adopted tonight
+2026-10-22T22:34-0400	SIG-W-20261022-037	acted	INBOX_WALTER	Railway breach -> CYB-INC-016 split out of CYB-INC-012; series claim (AI-inference-provider targeting) carried as a lead; Zeabur same window = possible link, not confirmed; Barchart relay of 008 = viral-claim triage, hedges dropped
+2026-10-22T22:34-0400	SIG-W-20261022-039	acted	BOARD	DEWEY watch legs (inbox stub): row 5 adjudicated NOT-FIRED (626f2a9bc); row 1 NCSC primary pinned; rows 6/7 NOT-FIRED
+2026-10-22T22:34-0400	SIG-W-20261022-043	acted	INBOX_WALTER	TruStage outage since 7/11 -> CYB-INC-017 (status page PRIMARY 10/20; data access undetermined)
+2026-10-22T22:34-0400	SIG-W-20261022-044	acted	BOARD	DEWEY TruStage answers (inbox stub): adopted with corrections; Mandiant third-party wording and CEO 2-3 month window NOT FOUND by CYPHER checker -> asked DEWEY for URLs
+2026-10-22T22:34-0400	SIG-W-20261022-045	acted	INBOX_WALTER	Oracle Java CVE-2026-91403 folded into CYB-INC-009 (eMudhra); Oracle Health 2025 breach not ledgered (Jan-Apr 2025, healthcare, no wave link; NO-OWNER healthcare class context only)
+2026-10-22T22:34-0400	SIG-W-20261022-046	noted	INBOX_WALTER	Officials on AI/cyber risk (FDIC Hill, OCC Gould, Bowman, Bessent, Sacks): regulator-stance context; none is a row-5 supervisory-concern statement; Gould liability silence = marker noted for CYP-02 context
+2026-10-22T22:34-0400	SIG-W-20261022-047	acted	BOARD	DEWEY five reports (inbox stub): FL-CYP-06 CONFIRMED (SEC order 34-101794 primary; $9B = debt to BNY, not settlement volume); FL-CYP-17 docket re-timed (removals 19-20 Oct); FL-CYP-14/18 unchanged

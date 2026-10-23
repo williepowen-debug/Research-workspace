@@ -1,6 +1,6 @@
 # CYPHER — EXIT PROTOCOL (dated kill rail)
 
-**Kill rail re-derived: 2026-10-22** (at build, by DAEDALUS — PROVISIONAL until CYPHER re-derives it at its first live session)
+**Kill rail re-derived: 2026-10-22** (by CYPHER at its first live session, 22:39 ET; supersedes the DAEDALUS build draft of the same date)
 
 Two rails. **R0** asks whether the desk should exist, and is unusual here because a named cheaper alternative exists. **R1** asks, per wave, whether the wave stays mechanical or becomes systemic. At build there is a strong prior and no thesis. This file says so rather than inventing one.
 
@@ -20,9 +20,10 @@ Two rails. **R0** asks whether the desk should exist, and is unusual here becaus
 
 | Field | Content |
 |---|---|
-| State at build | **OPEN QUESTION — prior: mechanical.** Closest precedent so far is Log4Shell (ubiquitous open-source flaw, attempts in the millions, no confirmed compromise); shares MOVEit's one dangerous feature, exploitation before disclosure (AWS 10/17 vs disclosure 10/21) |
+| State 2026-10-22 (CYPHER) | **OPEN QUESTION — prior: mechanical.** Closest precedent is Log4Shell (ubiquitous open-source flaw; attempts in the millions per Cloudflare; no named successful compromise at 2026-10-22). It shares MOVEit's one dangerous feature, exploitation before disclosure (AWS MadPot 10/17 vs disclosure 10/21), and the Dutch NCSC is investigating "first signals of successful misuse" (primary, 10/22 16:01 CEST). Composite 21/40 raw, 15/40 shared-root-adjusted (`VX.tsv`) |
 | Instrument | `ESCALATION_WATCH.tsv` rows 1–9 for WAVE-2026-10; each row's own healthy reading |
-| Bidirectional flip | **OWED at the first live session:** name the single observation that moves the wave toward the MOVEit shape (candidate: row 1 or row 3 FIRES — a named, confirmed successful compromise), and the single observation that moves it toward Log4Shell (candidate: rows 1, 3, 4 still NOT-FIRED at disclosure +30 days with the CVEs KEV-listed and patched), each testable inside a named window |
+| Flip toward MOVEit (systemic-for-vendors shape) | **Fires when** escalation row 1 or row 3 moves from NOT-FIRED to FIRED on or before **2026-11-20** (disclosure +30 days): a named organisation's successful PHP2Shell compromise confirmed by the victim, an incident-response report, a national CERT, or a leak-site claim the victim does not deny. Instrument: rows 1 and 3, re-checked at least every 7 days (boot.py leg 4 enforces the clock). Window check: MOVEit satisfied it at +14 days (KB-CYP-004); Log4Shell did not (no named mass compromise at +30). **Consequence:** R1 state becomes SYSTEMIC-WATCH; P1 packets to REGINALD, GIBBS, SHADE, PROME the same session |
+| Flip toward Log4Shell (loud and small) | **Fires when**, at **2026-11-20**, rows 1, 3 and 4 are all still NOT-FIRED (the state it fires FROM is their 2026-10-22 NOT-FIRED), each with a dated re-check inside 2026-11-13..2026-11-20 at its named instrument (row 1 national CERT and IR primaries; row 3 victim and vendor statements; row 4 EDGAR Item 1.05 via boot.py leg 8). A search outside that window is NO-VERDICT, not a pass. Window check: Log4Shell (disclosed 2021-12-09) satisfies it at 2022-01-08; MOVEit fails it, so the test discriminates. **Consequence:** R1 state becomes MECHANICAL (Log4Shell-shaped); rows stay open, nothing is closed by it — MOVEit's list grew 13+ months and SolarWinds' victims surfaced at +66 days, so a row 1 FIRE after 11/20 still flips the stance back |
 | Kill (wave) | A wave closes when every row is `STOOD-DOWN` with a dated reason. Closing a wave does not touch R0 |
 | ⚠️ Conjunction warning | "Rows 1, 3, 4 all NOT-FIRED for N days" is a multi-channel quiet-period conjunction — the highest-risk kill shape (blueprint §4). It must state the state it fires FROM and name one historical window that would have satisfied it (Log4Shell's) before it is used to close a wave |
 
