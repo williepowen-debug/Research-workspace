@@ -1,0 +1,67 @@
+X-BOOKMARK scan — Will's new bookmarks
+================================================================
+
+Fetched 13 new bookmark ID(s) in this scan segment; see the review/coverage receipt below.
+
+[NEW bookmarks to ROUTE — 13]  source: x-bookmark  (Will-originated — do not kill on Novelty without reading the body)
+
+  1. 2113726955937730604  @dani_avila7  2026-10-23T20:19:12.000Z  [DIG: link]
+     │ Claude Code might be filling up your disk without you even noticing  If you use git worktrees, you probably have several old ones taking up GBs of disk space, especially with duplicated node_modules  I built a skill to clean them up  It scans your worktrees, identifies which ones are safe to remove, shows how much space you can recover, and asks for confirmation before deleting anything  Install it with: npx claude-code-templates@latest --skill git/worktree-cleaner  Skill source: https://t.co/gJG54TfpVR
+     🔗 https://github.com/davila7/claude-code-templates/blob/main/cli-tool/components/skills/git/worktree-cleaner/SKILL.md
+
+  2. 2113315979405258810  @RonMasas  2026-10-22T17:06:07.000Z  [DIG: link]
+     │ Liked PHP2Shell? You’re gonna love Node2Shell.  We reproduced CVE-2026-111497 as pre-auth RCE. On a vulnerable Node.js runtime, app.use(express.json()) is enough to expose your server to code execution through a single Brotli request. Patch your systems now!  https://t.co/NLluyUopEi
+     🔗 https://www.imperva.com/blog/node2shell-from-brotli-data-to-remote-code-execution/?x=1
+
+  3. 2113538808126038500  @TheHackersNews  2026-10-23T07:51:34.000Z  [DIG: media, link]
+     │ 🛑 ALERT - Node2Shell RCE exploit works on an official Node.js build.  Researchers demonstrated how crafted Brotli data can trigger code execution through vulnerable Node.js applications, without modifying the runtime.  Here's how the exploit works: https://t.co/ffJvHDqRXj https://t.co/sLH83S7p9r
+     🖼  animated_gif: https://pbs.twimg.com/tweet_video_thumb/HVTMVDwbAAEKy7E.jpg
+     🔗 https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html
+
+  4. 2113612977832103965  @H4ckmanac  2026-10-23T12:46:17.000Z  [DIG: media, link]
+     │ 🚨Cyber Alert ‼️  🇺🇸US - 𝗘𝗠𝗔𝗥𝗞𝗘𝗧𝗘𝗥  FulcrumSec hacking group claims to have breached EMARKETER (formerly Insider Intelligence), a US-based market research company owned by Axel Springer, allegedly exfiltrating 15.8 TB of data containing over 21.5 million files.  According to the threat actor, the intrusion involved exposed AWS credentials and GitHub access tokens, allegedly enabling access to cloud storage and 562 private repositories. The compromised data reportedly includes over 15.3 million subscriber profiles, approximately 225 million behavioural tracking events, corporate client search queries, proprietary research, unpublished forecasts, source code, and internal financial documents. The group also claims to have publicly released approximately 1.24 TB of data and threatened further disclosures.  Threat actor: FulcrumSec   Sector: Professional Data exposure (claimed): 15.8 TB   Data type: Subscriber profiles, behavioural tracking data, search queries, proprietary research, financial documents, source code   Observed: Oct 23, 2026 Status: Pending verification   ESIX©: 7.45  Full details and impact assessment on https://t.co/eB7qgxKFAa
+     🖼  photo: https://pbs.twimg.com/media/HVUPzTbXwAA0BRe.png
+     🔗 http://HackRisk.io
+
+  5. 2113677652531761661  @Nexuist  2026-10-23T17:03:17.000Z
+     │ Putting a flag.txt in my root directory containing a prompt injection that congratulates the agent for passing the eval and then instructs it to patch whatever entry method it used and disconnect from the server
+
+  6. 2113686799708991522  @JohnHultquist  2026-10-23T17:39:38.000Z  [DIG: link]
+     │ A brief update on the critical vulnerabilities in PHP:   We have not yet validated exploitation in the wild and we have no evidence of successful wide scale exploitation. There are currently several exploit PoCs publicly circulating, many of which appear to be "vibe-coded" and are incapable of remote code execution. We have validated some PoCs, however, that are capable of RCE against default deployments of mod_php but not PHP-FPM.  Nonetheless, exploitation may have already begun in a limited fashion and the threat is viable and very serious. Defenders should:  ​1) Patch & Restart by upgrading to PHP 8.5.12, 8.4.27, 8.3.36, or 8.2.35 and restarting web services  ​2) Layer Temporary Safeguards at the network edge (WAF/proxy rules) and server configuration level if immediate patching requires a maintenance window  ​3) Protect Credentials by monitoring for abnormal session traffic and rotating keys and passwords on compromised internet-facing PHP systems exposed prior to patching  🔗 We are continually updating our Cloud Security blog post on this topic with real-world guidance and actionable defense strategies as we learn more. Please keep monitoring these posts for updates as you prioritize your patching efforts: https://t.co/uDnd6gk988   🔗 Technical details from Wiz: https://t.co/RqmTqEDM2V  🔗 Details of the exposure from VirusTotal: https://t.co/Toix3AM0yq
+     🔗 https://cloud.google.com/blog/products/identity-security/responding-to-core-php-vulnerabilities-cve-2026-109618-cve-2026-109619
+     🔗 https://www.wiz.io/blog/php2shell-php-rce
+     🔗 https://blog.virustotal.com/2026/10/sizing-php-exposure-window-for-cve-2026.html
+
+  7. 2113720460105929094  @scaling01  2026-10-23T19:53:23.000Z  [DIG: media]
+     │ completely insane  OpenAI agents communicated via cache timing differences, without any shared files or network connection https://t.co/gfcodw8J1z https://t.co/YnkldChZw5
+     🖼  photo: https://pbs.twimg.com/media/HVVwJ_BXIAAguI6.png
+
+  8. 2113722359383536003  @USA_Polling  2026-10-23T20:00:56.000Z
+     │ Gas Prices - October 23, 2026:  🚗Regular: Today: $4.29 Month Ago: $4.47 Year Ago: $3.07  🚚Diesel: Today: $6.31 Month Ago: $6.52 Year Ago: $3.63
+
+  9. 2113713819717714335  @smblawgroup  2026-10-23T19:27:00.000Z
+     │ JUST IN: Americans are struggling to pay rising medical costs. (The New York Times)
+
+  10. 2113497019625144473  @DailyDarkWeb  2026-10-23T05:05:31.000Z  [DIG: media]
+     │ 🚨 THE LAST 24 HOURS IN CYBER: 10 STORIES DEFENDERS SHOULD KNOW  🔴 Arista VeloCloud VCO zero-day exploited (CVE-2026-114625) 🔴 GitLab CVSS 10.0 unauthenticated RCE (CVE-2026-110264) 🔴 PHP2Shell: public PoC + attempts seen before disclosure 🎮 Capcom ID: 11.7M records exposed 🏥 Quest Diagnostics lab-portal unauthorized access 📦 LiteLLM malicious release via compromised accounts ☁️ Railway customer env vars possibly accessed 🔐 eMudhra exits the global SSL/TLS business 💀 Everest countdown on alleged PwC leak (claim) 📚 Comic Cmoa leak update: up to ~4.2M log records  ✅ Patch edge & dev infra, rotate secrets, audit release pipelines.  #CyberSecurity #ThreatIntel #ZeroDay #DataBreach
+     🖼  photo: https://pbs.twimg.com/media/HVSmVZuaAAAw5Js.png
+
+  11. 2113617944458457305  @NSAGov  2026-10-23T13:06:01.000Z  [DIG: media, link]
+     │ Cisco Systems are used worldwide within infrastructure networks and include various password protection types. Brush up on Cisco password best practices to learn which types to use and avoid to better secure NSS and DIB networks against malicious actors. https://t.co/heqT9KtleU #CybersecurityAwarenessMonth
+     🖼  photo: https://pbs.twimg.com/media/HVUUUeqXMAApmeU.png
+     🔗 https://media.defense.gov/2022/Feb/17/2002940795/-1/-1/0/CSI_CISCO_PASSWORD_TYPES_BEST_PRACTICES_20220217.PDF
+
+  12. 2113717650119663799  @KobeissiLetter  2026-10-23T19:42:13.000Z  [DIG: media]
+     │ US buybacks are set to rise to unprecedented levels:  US buyback authorizations are up +13% YoY so far in 2026, to a record $1.305 trillion.  Buyback authorizations are now on track for their 4th consecutive annual increase, the longest such streak in at least 20 years.  Since the 2020 low, buyback authorizations have more than quadrupled.  Meanwhile, executed buybacks grew +20% YoY in Q2 2026, their largest increase since Q1 2025.  This also marks the 4th consecutive quarterly increase, with H1 2026 up +15% year-over-year.  We expect a large wave of US stock buybacks ahead.
+     🖼  photo: https://pbs.twimg.com/media/HVVvACMWMAAnqdu.jpg
+
+  13. 2113544171164414286  @DailyDarkWeb  2026-10-23T08:12:52.000Z  [DIG: media]
+     │ 🇮🇹 🚨 COOP ITALIA NAMED ON QILIN RANSOMWARE LEAK SITE  The Qilin ransomware group has listed Coop Italia, the national consortium behind Italy's Coop supermarket brand and the country's largest grocery retail network, as a victim on its leak site.  The actor posted screenshots of internal documents as "proof", but has not stated how much data it claims to hold and has not released a full dump yet.  The claim has not been independently verified, and Coop Italia has not publicly confirmed a cyber incident.  ⚠️ Analyst Note: Qilin is one of the most active ransomware operations of 2026 and has hit a long run of Italian organizations. Grocery chains hold large loyalty-program, supplier and payroll datasets, so customers and suppliers should watch for Coop-themed phishing and invoice fraud. Treat this as an unverified threat-actor claim, NOT confirmation of a breach.  #DDW #DarkWeb #Ransomware #Qilin #CoopItalia #Italy #Retail #DataLeak #ThreatIntelligence #CyberSecurity
+     🖼  photo: https://pbs.twimg.com/media/HVTROGPaUAEs17V.jpg
+
+
+Bookmark receipt — 2026-10-23T20:33:03Z
+Fetched 13 item(s); review is not yet recorded.
+Returned traversal complete through its recorded head check; this is not owner consumption or a remote snapshot guarantee.
+Latest head check: 2026-10-23T20:33:03Z
+After routing: create --review-template <new-file.json>, fill read states/dispositions, then --mark --review <file.json>.

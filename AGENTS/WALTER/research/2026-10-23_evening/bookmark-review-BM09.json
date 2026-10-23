@@ -1,0 +1,98 @@
+{
+ "schema": 2,
+ "staged_at": 1792787583.4722805,
+ "items": [
+  {
+   "id": "2113726955937730604",
+   "disposition": "NO-ACTION",
+   "read_state": "partly_read",
+   "follow_up": "AGENTS/WALTER/registry/BATCH_MANIFEST.tsv",
+   "ask_user": null
+  },
+  {
+   "id": "2113315979405258810",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "BOARD/SIG-W-20261023-041-cyber-oct23-evening-node2shell-node-js-brotli-rce-high-patched-oct21-not-in-kev-php2shell-google-not-validated-in-wild-but-viable-emarketer-coop-italia-claims-only-korea-16-firms-dewey-CYPHER.md",
+   "ask_user": null
+  },
+  {
+   "id": "2113538808126038500",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": "BOARD/SIG-W-20261023-041-cyber-oct23-evening-node2shell-node-js-brotli-rce-high-patched-oct21-not-in-kev-php2shell-google-not-validated-in-wild-but-viable-emarketer-coop-italia-claims-only-korea-16-firms-dewey-CYPHER.md",
+   "ask_user": null
+  },
+  {
+   "id": "2113612977832103965",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": "BOARD/SIG-W-20261023-041-cyber-oct23-evening-node2shell-node-js-brotli-rce-high-patched-oct21-not-in-kev-php2shell-google-not-validated-in-wild-but-viable-emarketer-coop-italia-claims-only-korea-16-firms-dewey-CYPHER.md",
+   "ask_user": null
+  },
+  {
+   "id": "2113677652531761661",
+   "disposition": "NO-ACTION",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/registry/BATCH_MANIFEST.tsv",
+   "ask_user": null
+  },
+  {
+   "id": "2113686799708991522",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": "BOARD/SIG-W-20261023-041-cyber-oct23-evening-node2shell-node-js-brotli-rce-high-patched-oct21-not-in-kev-php2shell-google-not-validated-in-wild-but-viable-emarketer-coop-italia-claims-only-korea-16-firms-dewey-CYPHER.md",
+   "ask_user": null
+  },
+  {
+   "id": "2113720460105929094",
+   "disposition": "DISPATCH",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261023-044-openai-says-agents-in-separate-vms-passed-secrets-via-cpu-cache-timing-in-a-sandbox-test-primary-unread-403-incident-sept20-dated-secondary-CYPHER.md",
+   "ask_user": null
+  },
+  {
+   "id": "2113722359383536003",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "BOARD/SIG-W-20261023-042-aaa-oct23-regular-4point29-down-4pct-on-month-diesel-6point32-down-3pct-while-brent-dec-up-3pct-on-day-nyt-medical-costs-headline-unread-pew-28pct-trouble-paying-CARL.md",
+   "ask_user": null
+  },
+  {
+   "id": "2113713819717714335",
+   "disposition": "FOLD",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261023-042-aaa-oct23-regular-4point29-down-4pct-on-month-diesel-6point32-down-3pct-while-brent-dec-up-3pct-on-day-nyt-medical-costs-headline-unread-pew-28pct-trouble-paying-CARL.md",
+   "ask_user": null
+  },
+  {
+   "id": "2113497019625144473",
+   "disposition": "DUP",
+   "read_state": "fully_read",
+   "follow_up": "BOARD/SIG-W-20261022-032-arista-velocloud-orchestrator-zero-day-cve-2026-114625-cvss-9point9-exploited-third-since-july-not-in-kev-no-named-victims-edge-layer-context.md",
+   "ask_user": null
+  },
+  {
+   "id": "2113617944458457305",
+   "disposition": "NO-ACTION",
+   "read_state": "partly_read",
+   "follow_up": "AGENTS/WALTER/registry/BATCH_MANIFEST.tsv",
+   "ask_user": null
+  },
+  {
+   "id": "2113717650119663799",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "BOARD/SIG-W-20261023-043-buyback-authorizations-record-1point305t-goldman-via-kobeissi-UNVERIFIED-basis-likely-ytd-vs-full-year-q2-executed-plus-20pct-contradicted-goldman-aug-said-11pct-HENRY.md",
+   "ask_user": null
+  },
+  {
+   "id": "2113544171164414286",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": "BOARD/SIG-W-20261023-041-cyber-oct23-evening-node2shell-node-js-brotli-rce-high-patched-oct21-not-in-kev-php2shell-google-not-validated-in-wild-but-viable-emarketer-coop-italia-claims-only-korea-16-firms-dewey-CYPHER.md",
+   "ask_user": null
+  }
+ ],
+ "stage_id": "f6287fc16ad642af974e5c981235c648"
+}
