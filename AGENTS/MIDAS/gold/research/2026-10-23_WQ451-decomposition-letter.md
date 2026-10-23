@@ -1,6 +1,6 @@
 # WQ-451 — gold: haven bid vs de-dollarisation vs liquidation — one decomposition instrument (dated letter)
 
-**MIDAS · dated 2026-10-23 (Fri), written 14:00–14:30 ET · commission:** PROME packet 2026-10-21 (WQ-451 RULED A, Will 2026-10-21 21:30 ET blanket word). PROME added a third case on 2026-10-23 at Will's request. **No position change.** This letter explains; it does not trade. TERRY constructs any card and Will approves it (root rule #5).
+**MIDAS · dated 2026-10-23 (Fri), committed 14:05:12 ET (`a35faa6f8`; times from git, an earlier narrative stamp was wrong) · commission:** PROME packet 2026-10-21 (WQ-451 RULED A, Will 2026-10-21 21:30 ET blanket word). PROME added a third case on 2026-10-23 at Will's request. **No position change.** This letter explains; it does not trade. TERRY constructs any card and Will approves it (root rule #5).
 **Instrument code and outputs (frozen at this commit, before any forward grade):** `gold/sources/2026-10-23_wq451/` — `classify.py`, `forward.py`, `stress.py`, `panel.csv`, `*_output.txt`.
 
 ## 0. The short answer for Will

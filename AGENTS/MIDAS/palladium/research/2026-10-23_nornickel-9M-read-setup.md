@@ -1,6 +1,6 @@
 # Nornickel 9M 2026 production — read set up before the release (DOCKET L701)
 
-**Written 2026-10-23 (Fri) ~14:35 ET, before the scheduled Monday 2026-10-26 release** ([issuer calendar](https://nornickel.com/investors/events/), PRIMARY, verified 10/12). These lines are fixed now so Monday's figures are graded against them, not fitted to them. Grade on the **issuer's own release** (nornickel.com press/IR); media only as a pointer. Frozen MIDAS-09/10 (resolve 10/30) are untouched. No score, band or trade follows automatically.
+**Committed 2026-10-23 (Fri) 14:07:13 ET (`a955a1bef`), before the scheduled Monday 2026-10-26 release** ([issuer calendar](https://nornickel.com/investors/events/), PRIMARY, verified 10/12). These lines are fixed now so Monday's figures are graded against them, not fitted to them. Grade on the **issuer's own release** (nornickel.com press/IR); media only as a pointer. Frozen MIDAS-09/10 (resolve 10/30) are untouched. No score, band or trade follows automatically.
 
 ## Basis (dated, with source tier)
 
