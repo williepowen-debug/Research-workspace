@@ -208,6 +208,7 @@ Outbox filename: `YYYY-MM-DD_to-[target]_[desc].md`. Format: Signal / Detail (2�
 | `CHANNEL_DETAIL.md` | Cold evidence §F onward; superseded §A–E moved to October15 archive parts |
 | `NEXUS_BRIEF.md`, `TRADE.md` | Curated synthesis / dated mechanism candidates; TERRY owns cards |
 | `CLAUDE.md`, `CLOSEOUT_RATIONALE.md`, `LESSONS.md` | Current charter / off-boot closeout reasons / durable lessons (L01–30 archived) |
+| `MEMORY_CYCLE/README.md` | S2 memory-cycle working model, pre-stated print tests, analogs; STATUS/KB stay canonical |
 | `CRWV/README.md`, `CRWV/MAINTENANCE.md`, `CRWV/CORRECTIONS.md` | Company entry, authority instructions, corrections; guide/catalogue retain source aliases |
 | `CRWV/KB.tsv`, `workbook/KB_GENERAL.tsv`, `workbook/KB.tsv` | Company / broader editable authorities / generated combined view |
 | `CRWV/KB_MIGRATION.json`, `CRWV/MANIFEST.json`, `CRWV/VERIFICATION.json` | Permanent-ID conservation and immutable capture evidence |
