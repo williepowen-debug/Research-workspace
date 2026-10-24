@@ -2,8 +2,7 @@
 NEXUS_BRIEF TEMPLATE — copy this file to AGENTS/<YOUR_AGENT>/NEXUS_BRIEF.md and fill in.
 
 Schema spec (CANONICAL — wins over this template on any disagreement): AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md
-Worked example (heaviest domain — Japan macro, 4 channels, 5 cross-agent edges):
-  AGENTS/SAM/NEXUS_BRIEF.md
+Worked examples (measured 2026-10-24): FULL in amendment-12 order — AGENTS/LABOR/NEXUS_BRIEF.md, AGENTS/REGINALD/NEXUS_BRIEF.md; COMPACT (schema §2b) — AGENTS/VULCAN/NEXUS_BRIEF.md is the ratification-era example (now FULL); SAM's brief has reverted to the pre-A12 order and is no longer the worked example.
 
 Amendments applied (synced 2026-10-01 to the schema's ratified set: R3 + 7, 9, 10, 11, 12):
   1. Recent thesis pivot: REQUIRED single line (named what + why)
@@ -13,7 +12,7 @@ Amendments applied (synced 2026-10-01 to the schema's ratified set: R3 + 7, 9, 1
   5. Status emoji: per root CLAUDE.md key only — 🟢 none / 🟡 monitoring / 🟠 elevated / 🔴 active/critical
   6. Conviction decomposition: OPTIONAL per agent
   7. WAITING FOR: "Expected by" column REQUIRED
-  9. COMPACT variant allowed for utility/single-seam desks (schema §amendment 9)
+  9. COMPACT variant allowed for utility/single-seam desks — skeleton in schema §2b; revert to FULL at ≥3 persistent live edges or a thesis version
   10. Closeout ORDERING: the brief fold is the session's LAST write-back
   11. pin-follows-STATUS-HEAD: the STATUS commit pinned below must equal STATUS HEAD at commit time (re-pin after any same-session STATUS commit)
   12. FULL variant: ## CROSS-DOMAIN is the FIRST body section (this template's order)
@@ -63,7 +62,7 @@ As-Of: timestamp when you last touched the brief. If STATUS data is older than t
 (e.g. weekend, market closure, refresh lag), tag inline: "(STATUS data through Fri X/Y close)"
 NEXUS uses the commit hash for mechanical stale-check (§4.4 of schema).
 -->
-**As of:** YYYY-MM-DD ~HH:MM ET | STATUS commit: <short-hash>
+**As of:** YYYY-MM-DD HH:MM ET | STATUS commit: `<short-hash>`
 
 ---
 

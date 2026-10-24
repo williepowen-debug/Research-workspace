@@ -127,3 +127,110 @@
 *(crc32 2715162176, 611 B)*
 
   - **Origin: HOMER's truncation defect, accepted verbatim.** §1's section-priority list has ranked **CROSS-DOMAIN #1 — "protect this section first"** since R1, and the §2 layout put it **third**. So every truncation, cap-trim, partial read or context-window cut removed **the highest-value section first**, and did so silently. **The schema's own stated priority and its own layout disagreed, and the layout is what executes.** ⭐ `[[finding_a_ruling_governs_the_next_write_not_the_existing_state]]` in its structural form: a priority written in prose is not a priority until it is the order of the file.
+
+## §A13 — 2026-10-24T16:19:07-04:00: Stage-2 repair of the HOT schema (Will-authorized 2026-10-24 16:06 ET). The pre-rewrite file was 32,443 B, crc32 469cd368 over the whole file as committed at 8678bec2a. Eight verbatim blocks below (crc32 over each block body, lines joined by \n, no trailing newline). Every governing rule they carried is restated in the hot file; what moved is history, superseded text and the 2026-06 proposal.
+
+### §A13a — the superseded amendment-11 header text (old line 8) (crc32 80767657, 1,140 B)
+
+> **SUPERSEDED 2026-08-07:** *"**ONE amendment PENDING (Will-gated): proposed amendment 11 — `pin-follows-STATUS-HEAD`** (the brief's STATUS pin must equal STATUS HEAD *at commit time*, re-pinned after any same-session STATUS re-commit — an invariant checked at commit, not an ordering remembered). Origin: LABOR, flagged **four consecutive sessions** (8/5→8/7): amendment 10 is an ORDERING rule and ordering alone does not survive a second STATUS write in one session — on 8/7 the pin went stale three times in one multi-workstream session. NEXUS endorses (the amendment-10 audit's 5-of-5 evidence was about ordering; LABOR's n=4 is about re-commits — a distinct, real residual). **Not ratified — amendments 9/10 precedent: fleet-facing format changes get Will's look. Routed via PROME.**"* — preserved verbatim per DELEGATION_TIER rider R2. The routing judgment in that final sentence was itself the error the tier corrected: the amendments-9/10 precedent was applied **by surface** (it touches the brief format) rather than **by kind** (9 and 10 changed what a brief IS; 11 only checks a requirement §4.1 already imposes).
+
+### §A13b — the 2026-06-07 Tier-1 scope list with its 7/22–7/31 annotations (old line 13) (crc32 b8c3f713, 807 B)
+
+**Scope:** required for Tier-1 active agents (CARL, REGINALD, OZK, SAM, RED, BROCK, LIQUID, HENRY, HAWK, BRENT, VIOLET, WALTER). Tier-2 spawn-as-needed agents (LABOR, HERMES, DARWIN, ZHAO, etc.) skip; NEXUS reads their STATUS directly when active. *(⚠️ Scope list is 2026-06-07 vintage, kept verbatim because the schema is LOCKED — the LIVE coverage index is `AGENTS/NEXUS/BRIEFS_MAP.md`, which carries the count; **no brief count is stated here** [the 7/22 annotation's bracketed "23" had itself rotted by 7/31 — the anti-rot note re-introduced the rot; de-hardcoded per the same-day CLAUDE.md census fix]. HERMES/DARWIN dropped 6/27; LABOR promoted to the Tier-1 read-set; WALTER/OZK/SHADE remain brief-less by design. Annotation added 2026-07-22, amended 2026-07-31; schema mechanics unchanged.)*
+
+### §A13c — §4.1-R rollout state at adoption + the VIOLET/OSPREY open question (old lines 159–160) (crc32 2be4f9b2, 1,470 B)
+
+**Rollout state at adoption, VERIFIED at the artifacts 2026-09-07 (not relayed):** 18 briefs carry both sections; **4 conformant (VULCAN · HOMER · LABOR · and the schema's own §2 layout)**, **14 `pre-A12`** (SAM · FALCON · OTTO · BRENT · CARL · BROCK · RED · REGINALD · HAWK · HENRY · ZHAO · LIQUID · CORAL · MARCO), **8 `n/a`** (no `## CROSS-DOMAIN` header: MIDAS · BOND · WAL · AEOLUS · WATT · SHADE · ORACLE, plus VIOLET and OSPREY which carry `## VIEW` but no `## CROSS-DOMAIN`). ⚠️ **DAEDALUS's packet counted 15 `pre-A12` including LABOR; LABOR reordered at `5ee78189c` (2026-09-07 12:27 ET) between that measurement and this one, taking `CROSS-DOMAIN` from byte 55,629 to byte 2,952 — so the 🔴 set halved from two to one while the packet was in flight.** `[[finding_directive_overtaken_between_authorship_and_delivery]]` — the target was re-measured before acting, and that check is what removed 13 of the 14 packets this ACTION would otherwise have generated.
+🟡 **Separate question, NOT adjudicated here and owed to a later pass:** VIOLET and OSPREY carry `## VIEW` with **no `## CROSS-DOMAIN`**, which matches neither the FULL variant nor amendment 9's COMPACT variant (COMPACT is defined by having *no VIEW/CALIBRATION split*, §4.1 amendment-12 note). They are marked `n/a` on the conformance cell rather than silently counted as compliant — **`n/a` here means "the amendment cannot apply," never "this brief is fine."**
+
+### §A13d — the amendment-11 SELF-RULED five-test record (old lines 173–179) (crc32 dbafafcb, 2,351 B)
+
+**SELF-RULED 2026-08-07 (DELEGATION_TIER):** May NEXUS, as schema owner-of-record, ratify amendment 11 itself rather than routing it to Will?
+→ Yes — ratified as an INVARIANT, expressly NOT as an added closeout step in any agent's instructions. Tests 1-5 PASS. Riders: R1 (dated), R2 (superseded header text preserved verbatim above), R3 (n/a — no confidence, probability or weight moved in this edit).
+- **Test 1 SCOPE — PASS, and it is the binding one.** The ruling changes one file inside `AGENTS/NEXUS/`. It passes under the tier's CHECK-versus-DO refinement *because §4.1 already requires the hash stamp*; amendment 11 makes an existing obligation checkable, it does not create one. ⚠️ **This is why the ruling carries a scope constraint: if amendment 11 were ever propagated as "every agent adds a step to its closeout doc," it would change ~26 files outside this directory and test 1 would FAIL.** The invariant is enforced at the check, not by fleet-wide instruction edits.
+- **Test 2 REVERSIBILITY — PASS.** Undoing it edits this file only. The `AGENTS/SELF_RULINGS.tsv` row is an append-only audit record; a reversal appends, it does not delete.
+- **Test 3 NO-CAPITAL — PASS.** A commit-time equality check on a pointer. It gates, sizes, prices, selects strikes for, and sets exits for nothing.
+- **Test 4 ANTI-SELF-SERVING — PASS, with a guard recorded rather than assumed.** The ruling makes NEXUS *easier* to catch being wrong (the SHADE class is exactly what it detects) and makes no threshold easier to satisfy — the fallback rollup's decision rule keys on `brief-gap` rate, which this does not touch. ⚠️ **The self-serving edge, named:** a falling `stale`-cause fallback rate after this ships would make NEXUS's own brief-health instrument look healthier. **NEXUS will not cite a post-amendment-11 `stale`-rate drop as evidence of brief quality** — it is a real improvement in pin accuracy, not a measurement of content.
+- **Test 5 DATA-VS-INSTRUMENT — PASS.** The subject is whether a pointer in NEXUS's own artifact equals the head of the file it points at: a property of this instrument, not of the world. It is not revision handling, vintage, publication cadence, unit base, or weekday convention, and no second authority could rule it differently (contrast MIDAS L-15, which is fleet-wide by subject).
+
+### §A13e — §4.2 cap discipline — the 2026-06 pilot text (old lines 184–188) (crc32 856f6494, 679 B)
+
+### 4.2 Cap discipline — HISTORICAL PILOT; superseded by §4.5
+
+> - **No fixed cap until pilot measurement completes.** The SAM pilot brief sets the empirical ceiling for the heaviest real domain. If SAM compresses cleanly to 50, cap is 50. If SAM bursts to 95, cap is 95 (not "force-trim SAM").
+> - **Cap is calibrated to the heaviest real domain, not picked aspirationally.**
+> - **Cap-burst on a settled agent = fragmentation hypothesis** (not an auto-trigger). If SAM consistently bursts after pilot calibration, that's a signal to investigate whether SAM's domain has fragmented and warrants sub-agent spinout (like OZK from REGINALD). Investigation, not automatic action.
+
+### §A13f — §4.5 historical pilot text + the 2026-08-28 100-line-ceiling ruling paragraph (old lines 223–230) (crc32 ae5055f0, 1,985 B)
+
+**Historical pilot text — superseded 2026-08-28; 100-line ceiling UNENFORCED:**
+
+> - Hard ceiling: pending pilot measurement (provisionally 100 lines; revise after SAM pilot).
+> - Headers, separators, section markers count.
+
+Root `CLAUDE.md` §Data Hygiene's byte budget still binds alongside amendment12's section order. No new cap or §4.6 re-spec is installed.
+
+> ⚠️ **RULED 2026-08-28 (NEXUS, on VULCAN's §4.5 ask + HOMER's ordering packet): THE 100-LINE CEILING IS ON THE WRONG AXIS AND IS NOT ENFORCED. ✅ **AMENDMENT 12 IS NOW RULED (2026-09-01) — the ordering fix shipped; the ceiling remains UNENFORCED and the binding control is POSITION, not length (§2 order + amendment 12).** 🔒 **And it can no longer be fixed by a thirteenth amendment — a line/byte-axis re-spec is now RE-SPEC-SITTING work under §4.6.**** Measured fleet-wide this session (all 26 briefs): **12 of 26 are over the cap** — it is not binding, it is being ignored by half the fleet — and **line count is nearly uncorrelated with byte load**: `WATT` 37 lines / **20.4 KB** (550 B/line) vs `OSPREY` 75 lines / **11.5 KB** (153 B/line); `SHADE` 42 lines / 22.5 KB; heaviest are `SAM` 318/105.9 KB, `HOMER` 165/94.7 KB, `VULCAN` 187/92.8 KB. **A brief can sit 60% under the cap and carry more bytes than one twice over it.** ⛔ **A byte cap alone is the WEAKER fix and is NOT adopted** — HOMER flagged against its own interest that a cap on the wrong axis *rewards compression into longer lines*, and the fleet's highest B/line figures are all short files, which confirms it. **No agent is to cut content against this line cap — it is not enforced, and amendment 12 (ruled 9/1) fixed the real defect by ORDER instead** (VULCAN was told so explicitly at 187 lines; ✅ **VULCAN's held revert is RELEASED this session — its condition was MET, and under the new order it no longer pushes routing below the cut**). The binding control is POSITION, not length — see the §6 strike below.
+
+### §A13g — §4.6 'why a cap answers accretion' rationale paragraph (old line 253) (crc32 d8f2470f, 505 B)
+
+**Why a cap answers accretion better than declining the fix (PROME's ruling, adopted verbatim in intent):** twelve amendments arrived because each one was individually correct — including amendment 12, which repairs a defect that made the schema cut its own most valuable section first. **Declining valid repairs to control accretion trades a real defect for a tidy count.** The cap puts the pressure where it belongs: on the **13th** change, which must now buy a full re-derivation rather than a rider.
+
+### §A13h — §5 INTEGRATION WITH NEXUS — the 2026-06 proposal (old lines 259–287) (crc32 0ffeaf0e, 1,412 B)
+
+## 5. INTEGRATION WITH NEXUS — HISTORICAL PROPOSAL; ratification superseded by header
+
+### 5.1 NEXUS BOOT change
+
+Current NEXUS BOOT step 6: "read each agent's STATUS.md headers, first ~30 lines... do NOT read full STATUS files unless flagged."
+
+Proposed amendment (post-ratification): **"read each agent's `NEXUS_BRIEF.md`. Read raw STATUS only when fallback trigger (a), (b), or (c) fires per § 4.4."**
+
+One-line change to the WHAT YOU READ table. Surgical integration.
+
+### 5.2 NEXUS ratification
+
+This schema is a **proposal** until NEXUS reviews and ratifies. NEXUS owns the interface — the consumer of the brief should sign off on the format before fleet adoption. Ratification scope:
+
+- Schema sections + ordering
+- Section design notes (§3)
+- Maintenance discipline (§4)
+- Fallback triggers (§4.4)
+
+NEXUS is mid-E-phase with a Mon 6/9 deadline. **Do not interrupt E.** Ratification window opens post-E.
+
+### 5.3 Rollout sequence
+
+1. **NEXUS ratifies** (post-E). Iterations expected.
+2. **Pilot 1:** SAM brief consumed by NEXUS on 1-2 synthesis passes. Surface gaps. Iterate.
+3. **Pilot 2:** add one tight-domain agent (HENRY or BRENT — single-channel domains) to stress-test the schema at the *light* end.
+4. **Iterate** on schema gaps surfaced by both pilots.
+5. **Fleet rollout:** other 11 agents draft briefs against the iterated schema. Add brief write-back to each agent's SPAWN PROTOCOL.
+
+### §A13i — §4.1-R as written 2026-09-07 — heading, rule, three parts, standing consequence (old lines 147–157) (crc32 4f7a5293, 2,767 B) — added after the independent read found these passages restated but not archived
+
+#### 4.1-R 🆕 ROLLOUT RULE — the missing half of every amendment (added 2026-09-07; DAEDALUS packet 2026-09-07, `8df8756d2`; NEXUS owns the schema and rules this itself under the 2026-08-07 DELEGATION_TIER block below)
+
+> **A schema amendment that changes what a WRITER does is NOT IN FORCE when it is ratified. It is in force when every full-variant brief conforms, and until then its state is `RATIFIED-NOT-ROLLED-OUT` and its protection is ZERO.**
+
+**Three parts, and the owner is named for each — the defect being repaired is that amendment 12 had a surface list and no owner (DAEDALUS PAT-139 (d)).**
+
+1. **TRIGGER — each desk reorders at its NEXT RE-PIN. This adds NO new duty:** §4.1 already makes the fold mandatory every session, so the reorder rides a write the desk is already performing. A desk is non-conformant only after its next re-pin, never before it.
+2. **OWNER — NEXUS**, and the obligation is discharged by **an `order` conformance cell in `BRIEFS_MAP.md`** (`A12` · `pre-A12` · `n/a`), *not* by a packet round. ⚠️ **This is a deliberate DEPARTURE from DAEDALUS's recommendation** (*"NEXUS packets every full-variant brief owner once"*), and the reason is `[[finding_hand_fixing_named_rows_is_not_fixing_the_class]]`: **a one-time packet to 14 owners is a SAMPLE that rots the moment a 15th brief is created, while the map is re-read at every drift pass and cannot silently go missing.** The map is the mechanism; packets are the escalation.
+3. **ESCALATION — NEXUS packets ONLY the desks whose non-conformance is CURRENTLY LOAD-BEARING**, defined as: **the byte offset of `## CROSS-DOMAIN` exceeds the single-read cap (54,250 B, READ_CAP rule 1).** 🔑 **This is the discriminating measurement and it is not the same as "the file is over cap."** Measured 2026-09-07 at 13:5x ET across all 26 briefs: **6 files exceed the cap, but only ONE has `CROSS-DOMAIN` beyond it (SAM).** Amendment 12's protection is *positional* — on a 20 KB brief the order is cosmetic; it only bites where a truncation actually lands. **Sorting the rollout by conformance would have produced 14 packets; sorting it by consequence produces one.**
+
+**⚠️ Standing consequence for the NEXT amendment, whatever it is:** an amendment is not ratifiable without naming its trigger, its owner and its observable-conformance surface **in the same word that ratifies it.** Amendment 12 was ratified 2026-09-01 and was still unrolled on 2026-09-07 because none of the three was written down — six days in which the schema asserted a protection the files did not have. *(This costs nothing: §4.6's CAP means amendment 12 is the last one, so this rule governs the amendment-cap re-spec and any successor schema rather than a queue of pending amendments.)*
+
+
+### §A13j — §4.1 bullets as written — mandatory write-back, amendment 10 with its checkable form, amendment 11 with its scope note, amendment 12 with origin / MISSED-watch bullets (old lines 162–171) (crc32 57794de9, 2,928 B) — added after the independent read found these passages restated but not archived
+
+- **Mandatory write-back in agent's SPAWN PROTOCOL closeout, every session.** Even no-change sessions update the AS OF stamp + STATUS commit hash. Forces the agent to look at the brief each session — staleness becomes self-correcting.
+- **Amendment 10 (ORDERING — RATIFIED, Will-approved 2026-07-31): the brief fold is the LAST write-back of the session, after the final STATUS write and immediately before git commit.** A brief written mid-session and left untouched while STATUS work continues is the fleet's dominant CONTENT-STALE mechanism — the 7/31 audit found **5-of-5** stale briefs (WAL, CORAL, OSPREY, HAWK, BROCK) had refreshed-then-kept-working; zero had skipped the refresh. "Refreshed every closeout" without the ordering constraint permits exactly this failure. Checkable form: the brief's commit timestamp ≥ the session's last STATUS commit timestamp.
+- **Amendment 11 (INVARIANT — RATIFIED 2026-08-07, NEXUS self-ruled): `pin-follows-STATUS-HEAD`. The brief's STATUS commit hash must EQUAL that agent's STATUS HEAD at the moment the brief is committed.** If a session commits STATUS again after the brief fold — the multi-workstream case — the pin is re-stamped and the brief re-committed. This supersedes amendment 10's *timestamp* check (`brief commit time ≥ last STATUS commit time`) with a *hash equality*, which is exact where a timestamp can tie or run non-monotonically across a rebase.
+  - **This is a CHECK on an obligation §4.1 already imposes** ("Even no-change sessions update the AS OF stamp + STATUS commit hash"). **It adds no new duty to any agent** and it must NOT be shipped as an added closeout step in any agent's `CLAUDE.md` — see the scope constraint in the SELF-RULED block below.
+
+- 🆕 **Amendment 12 (SECTION ORDER — RATIFIED 2026-09-01, Will-approved via PROME WQ-105: *"approve all of those with your recs"*; decision row 22): in the FULL variant, `## CROSS-DOMAIN` is the FIRST body section, above `## VIEW` and `## CALIBRATION`.** Zero text added or removed — **ORDER only.**
+  - **Origin: HOMER's truncation defect, accepted verbatim** — §1 has ranked CROSS-DOMAIN **#1** since R1 while §2 put it **third**, so every truncation removed the highest-value section first, silently. 📦 full text → the archive companion §A12.
+  - **The COMPACT variant (amendment 9) is UNCHANGED** — it has no VIEW/CALIBRATION split to reorder.
+  - ⛔ **This is a zero-text DEFECT REPAIR, not an accretion.** The accretion question it raised is answered by §4.6's CAP, adopted in the same word — **not by declining a valid fix.**
+  - ⚠️ **The watch-prediction that should have caught this was GRADED `MISSED` on its own letter** (see §4.6). NEXUS registered a falsifier saying *"if a twelfth amendment is PROPOSED"* — one was, on 8/28 — and did not grade it until PROME did on 9/1. **The rule that fires on my own accretion is the one I failed to run.**
