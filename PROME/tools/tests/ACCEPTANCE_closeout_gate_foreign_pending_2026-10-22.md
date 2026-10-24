@@ -19,3 +19,7 @@
 - AC5 ✅ four suites OK (15 · 28 · 6 · 37).
 
 **State: IMPLEMENTED · TESTED. INDEPENDENTLY VERIFIED: owed — one counterexample read (Opus) at the next boot, before the first closeout that relies on it (DOCKET L796). Will's word 12:34 ET authorized the change; the read is PROME's WQ-229 duty, not a second approval.**
+
+## CORRECTION 2026-10-24 (counterexample read, DOCKET L796) — AC4 is FALSE as written
+
+AC4's sentence "foreign pending files are not in the commit and never were checked there" does not hold: `verify()`'s inventory loop runs on every call and the `FOREIGN-PENDING (advisory)` branch is guarded by `target is None`, so the `--ref` form at CLOSEOUT step 10 still returns rc 1 `UNCLASSIFIED` for a post-freeze foreign arrival (fixtures CE1/CE9, `PROME/reports/2026-10-24_L796-counterexample-read_fixtures/ce.py`). The 10/22 AC4 observation (a WAL commit at HEAD → `UNREVIEWED ACTUAL COMMIT PATH`) tested the actual-commit-path check, not a pending arrival. Status of this acceptance: AC1–AC3, AC5 stand as the author's own tests (IMPLEMENTED · TESTED); AC4 is WITHDRAWN; the repair is NOT INDEPENDENTLY VERIFIED. A second ❌ (live, unpinned perimeter; fixture CE8b) and five ⚠️ are at `PROME/reports/2026-10-24_L796-counterexample-read.md`. Neighbour category not covered by the 10/22 line "concurrent activity: N/A": CE9 (an arrival between the gate and step 10) is exactly that case.
