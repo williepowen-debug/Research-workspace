@@ -3,6 +3,12 @@
 
 **CLOSED OUT 2026-10-24T12:32:41-04:00 — Will: "okay lets close out here."** Session 10/23 21:17 → 10/24 12:3x ET: full pass (b45f488a2), signal catch-up (a08040c6c), pane-feedback memory (ab6427fea), trigger correction (43dfba860), rule-5 rotation with cold read (9b0aaa400). Tree clean, HEAD = origin at each push. Owed next: DOCKET L832 Monday 10/26 read (M-03 decision, L16 cell 4, L13 cell 5, M-04b/M-08b anchors) → Tue 10/27 L554/L555 → 10/29 L630 + L13 cell 8. No polling; no terminal-open instruction survives this closeout.
 
+## 2026-10-24T15:40:57-04:00 — Will-direct files sweep ("review/offer feedback … flag stale, broken, owed, incomplete, missing, inaccurate") — LIGHT (records only; no board edited)
+
+Three Opus readers (charter · brief-standard surfaces · boards + records) + NEXUS mechanical scans. Report → `research/2026-10-24_structure_pass/SWEEP_REPORT.md` (ledgers SWEEP_A/B/C beside it). Counts: ❌ 17 · ⚠️ ~51 · ✅ 25+. Every ❌ spot-checked at the artifact before filing. **Owed from it (Will to pick order):** ① Standard correction commit (CONFIRMED ❌1–3, STATUS PRED-41 row + M-10 Disc-J, LC label, board_log deferred rows, RETIRED banners, two research retirements) · ② PROME packet (READS re-attestation; L631 / L752–L754 / L40) · ③ schema repair (HEAVY) · ④ charter hot/cold split (HEAVY, Will-gated). **skipped:** 9/9b/9c/10/14/15a (Light: no board or letter touched) · 1c/1c-bis/1d n/a · 1b + 1e run.
+
+---
+
 ## 2026-10-24T15:19:32-04:00 — Will-direct weekend structure pass ("keep working on NEXUS files and structure … caught up on all live data", 15:01 ET) — HEAVY tier
 
 Runtime: Claude Code `claude-fable-5-1`, launched from `AGENTS/NEXUS/`. Record → `research/2026-10-24_structure_pass/RECORD.md`. Delivery → `PROME/inbox/2026-10-24_from-NEXUS_weekend-structure-pass-nothing-fires-L639-note.md`.
