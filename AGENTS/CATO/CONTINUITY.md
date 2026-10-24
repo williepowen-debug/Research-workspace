@@ -1,6 +1,6 @@
 # CATO — current continuity
 
-**Updated October 24, 2026, NEXUS brief-census suggestions.** [CHARTER](CHARTER.md) governs authority. Read only the matching [TASK_INDEX](TASK_INDEX.md) entry on follow-up. Saved approvals are not commands to start unrelated work.
+**Updated October 24, 2026, PROME reboot decision review.** [CHARTER](CHARTER.md) governs authority. Read only the matching [TASK_INDEX](TASK_INDEX.md) entry on follow-up. Saved approvals are not commands to start unrelated work.
 
 ## Resume point
 
@@ -12,7 +12,7 @@
 
 **NEXUS:** [Brief-census suggestions](runs/2026-10-24_1558_nexus-structure-plan-review.md#october-24-1904-et--brief-census-review-and-suggestions) delivered: git counts reproduce; prioritize BROCK/LIQUID substantive folds before next consumption, retain fallback if unavailable, use L555 for remainder. NS5 separates commit recency, checker class and header coverage (WATT has a noncanonical actual hash); NS6 preserves COMPACT; NS7 says FLG's versioned thesis requires FULL if a brief is assigned. No sends/owner edits/new duties. Stage 2 and WQ-519(i)/(ii) remain accepted in the previously inspected scope; NS1 size addressed, NS2 M-10 and NS3 instruction omission closed. Monday October 26 L832 remains the observation. WQ-519(iii) stays open to Will by October 30; October 27 L554 packet carries the threshold-count example/ambiguous LIGHT case, triggers unchanged; L555 rides that wake. L40 NEXUS count delivered, DAEDALUS grade owed. Other residue/limits remain in the continuing report; no automatic audit.
 
-**PROME/TERRY/MIDAS corrections:** [PRD1–4 reconciliation](runs/2026-10-24_1523_prome-decision-review.md#october-24-closeout-reconciliation--selected-current-copies-at-b1efcd055). PROME corrected its own records and delivered owner packets. NEXUS's inspected Oracle-date, equal-decline scenario and both rates-channel copies are now corrected; do not reopen them from the earlier snapshot. TERRY's originating card/view/GLD corrections and Oracle verification, plus MIDAS's put-book inference, remain requested in PROME's saved account; incorporation not verified here. WQ-518's verified-date entry condition remains; indexed December 14 is not issuer confirmation. PRD4 deviation recorded; safe future preflight not yet demonstrated. Limited PROME account wording residue remains named in the report.
+**PROME decisions/corrections:** [Evening review](runs/2026-10-24_1523_prome-decision-review.md#october-24-evening--prome-reboot-decisions-and-the-completed-dewey-follow-up) adds PRD5: WQ-488 CAP still asks for a PARTIAL continuation that DEWEY completed October 22 (v2, 86 searches, packet in PROME processed inbox). PROME should reconcile before any cap increase/re-commission; this supersedes CATO's earlier bounded-500 advice. Other WQ-505/493/486/517 recommendations retain their stated limits; none is a ruling. PRD1–4: NEXUS's inspected copies corrected; TERRY's originating card/view/GLD/Oracle work and MIDAS's put-book correction remain owner requests, incorporation unverified. WQ-518 verified-date condition remains; indexed December 14 is not issuer confirmation. PRD4 deviation recorded, safe future preflight not demonstrated. All remaining details/limits in report; no CATO send or further assignment.
 
 ## Surviving work and approvals
 
