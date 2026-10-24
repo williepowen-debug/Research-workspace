@@ -1,0 +1,67 @@
+{
+  "source_url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0000320193/us-gaap/NetIncomeLoss.json",
+  "retrieved_utc": "2026-10-24T21:43:10.239847+00:00",
+  "response_sha256": "9b6ac23b024662c95dc7b4088a448bf60a31ff672e2f328161c5ceda6a8b9915",
+  "producer_excerpt": {
+    "cik": 320193,
+    "taxonomy": "us-gaap",
+    "tag": "NetIncomeLoss",
+    "label": "Net Income (Loss) Attributable to Parent",
+    "description": "The portion of profit or loss for the period, net of income taxes, which is attributable to the parent.",
+    "entityName": "Apple Inc.",
+    "units": {
+      "USD": [
+        {
+          "start": "2025-09-28",
+          "end": "2026-06-27",
+          "val": 101464000000,
+          "accn": "0000320193-26-000020",
+          "fy": 2026,
+          "fp": "Q3",
+          "form": "10-Q",
+          "filed": "2026-07-31"
+        },
+        {
+          "start": "2026-03-29",
+          "end": "2026-06-27",
+          "val": 29789000000,
+          "accn": "0000320193-26-000020",
+          "fy": 2026,
+          "fp": "Q3",
+          "form": "10-Q",
+          "filed": "2026-07-31",
+          "frame": "CY2026Q2"
+        }
+      ]
+    }
+  },
+  "current_function_output": [
+    "Apple Inc.",
+    "Net Income (Loss) Attributable to Parent",
+    [
+      {
+        "unit": "USD",
+        "end": "2026-06-27",
+        "val": 101464000000,
+        "fy": 2026,
+        "fp": "Q3",
+        "form": "10-Q",
+        "filed": "2026-07-31"
+      },
+      {
+        "unit": "USD",
+        "end": "2026-06-27",
+        "val": 29789000000,
+        "fy": 2026,
+        "fp": "Q3",
+        "form": "10-Q",
+        "filed": "2026-07-31"
+      }
+    ]
+  ],
+  "dropped_fields": [
+    "accn",
+    "start"
+  ],
+  "scope": "Real SEC response excerpt passed to unchanged xbrl_concept with network replaced; values are historical examples, not current financial advice."
+}
