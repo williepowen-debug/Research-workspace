@@ -33,3 +33,19 @@
 
 ## Out of scope (packet §2(e))
 Metric discovery · interpretation · TTM/annualising arithmetic · scheduled collection · CATO's files · L833 Experiment A, WQ-515, WQ-516.
+
+## Result (appended after the edit, Sat 2026-10-24 18:21 ET; author's own evidence — IMPLEMENTED + TESTED, not INDEPENDENTLY VERIFIED)
+
+| # | State | Evidence |
+|---|---|---|
+| A1 | IMPLEMENTED · TESTED | `test_facts_superset_distinguishes_quarter_from_nine_months`, `test_xbrl_concept_rows_keep_start_accn_frame`, `test_facts_instant_row_marked` |
+| A2 | IMPLEMENTED · TESTED | `test_reproduces_cato_packet_and_limits_verbatim` (12 of 12 CATO keys equal except `limits`; sha 9b6ac23b…8b9915); CLI Markdown diff vs CATO's `comparison.md` = only the fifth limit + Notes |
+| A3 | IMPLEMENTED · TESTED | `test_markdown_rendered_from_record` |
+| A4 | IMPLEMENTED · TESTED | CATO's 12 + `test_cli_failures_name_cause`, `test_instant_fact_named_as_cause`, `test_missing_window_lists_same_end_windows`; live: 9 explicit failures in the L800 run, none produced a value |
+| A5 | IMPLEMENTED · TESTED | literal five-string assertion |
+| A6 | IMPLEMENTED · TESTED | `test_save_*` (4); live: 9 saved records, each raw file hashes to its record |
+| A7 | IMPLEMENTED · TESTED | `test_retrieval_basis_snapshot_vs_live`; help text/docstring carry the README limits |
+| A8 | IMPLEMENTED · TESTED | `test_live_fetch_uses_existing_transport` |
+| A9 | TESTED | `test_edgar_xbrl_compare.py` 30/30 OK; `test_research_readers.py` 14/14 OK; four injected mutations each failed the suite; CATO's own suite still OK against its unchanged files |
+
+Neighbours: ordinary = META/ORCL live run (`research/edgar_xbrl/2026-10-24_L800_first-run-log.md`); overlap = two-unit + shared-folder tests; wrong owner = live 404s (`PaymentsToAcquireProductiveAssets` ×2, ORCL `PaymentsOfDividends`) + mocked 404; missing information = mocked 403/DNS, nothing saved; concurrent activity = ported cutoff test + hash-named files. **Addition beyond the plan (disclosed):** a missing-window failure now lists the windows the issuer DID report ending on that date — added after the live run showed META's 10-Q cash-flow tags are year-to-date only.

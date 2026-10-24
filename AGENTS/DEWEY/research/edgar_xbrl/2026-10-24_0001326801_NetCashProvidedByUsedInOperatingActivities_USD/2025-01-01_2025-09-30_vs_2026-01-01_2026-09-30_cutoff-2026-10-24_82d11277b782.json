@@ -1,0 +1,59 @@
+{
+  "entity": "Meta Platforms, Inc.",
+  "cik": "0001326801",
+  "concept": "NetCashProvidedByUsedInOperatingActivities",
+  "unit": "USD",
+  "source_url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0001326801/us-gaap/NetCashProvidedByUsedInOperatingActivities.json",
+  "retrieved_at": "2026-10-24T22:19:17.384845+00:00",
+  "response_sha256": "82d11277b782fb062209861dee6e4bbdd2a913494ef5c067d815d0f2776062a2",
+  "filing_cutoff": "2026-10-24",
+  "selection": "Exact periods/unit; latest filed on or before cutoff; conflicting latest records rejected",
+  "prior": {
+    "start": "2025-01-01",
+    "end": "2025-09-30",
+    "val": 79586000000,
+    "accn": "0001628280-26-066773",
+    "form": "10-Q",
+    "filed": "2026-10-22",
+    "fy": 2026,
+    "fp": "Q3",
+    "frame": null,
+    "unit": "USD",
+    "kind": "reported",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/0001628280-26-066773-index.html"
+  },
+  "current": {
+    "start": "2026-01-01",
+    "end": "2026-09-30",
+    "val": 96873000000,
+    "accn": "0001628280-26-066773",
+    "form": "10-Q",
+    "filed": "2026-10-22",
+    "fy": 2026,
+    "fp": "Q3",
+    "frame": null,
+    "unit": "USD",
+    "kind": "reported",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/0001628280-26-066773-index.html"
+  },
+  "calculation": {
+    "kind": "derived",
+    "difference": 17287000000,
+    "unit": "USD",
+    "formula": "current.val - prior.val",
+    "percent_change": 21.721156987409845,
+    "percent_formula": "(current.val - prior.val) / prior.val * 100; omitted when prior <= 0"
+  },
+  "limits": [
+    "Filing cutoff is not a historical API snapshot.",
+    "Same concept/unit and similar duration do not establish accounting comparability.",
+    "Standard entity-level US-GAAP facts only; custom tags and segment facts need document work.",
+    "Filing links identify sources; the source statements have not been independently reconciled.",
+    "A fact appears in the SEC API only after the XBRL filing is processed; a press-release number is not in it."
+  ],
+  "retrieval_basis": "live-fetch",
+  "notes": [
+    "Retrieved live by edgar_doc.py compare; retrieved_at is the tool clock (UTC) when the response arrived.",
+    "Instant (balance-sheet) metrics, custom tags, segment facts and accounting changes need further source work; this record covers one duration fact."
+  ]
+}

@@ -378,6 +378,12 @@ def compare_build(raw, *, cik, concept, unit, prior, current, as_of, retrieved_a
             msg = f'Missing period {period} in unit {unit}; no proxy substituted'
             if any(v.get('start') is None and v.get('end') == period[1] for v in units.get(unit, [])):
                 msg += '; only an instant (balance-sheet) fact exists at that end date, duration comparison does not apply'
+            same_end = sorted({v.get('start') for v in units.get(unit, [])
+                               if v.get('end') == period[1] and v.get('start')})
+            if same_end:
+                msg += ('; windows reported ending ' + period[1] + ': '
+                        + ', '.join(f'{st} to {period[1]}' for st in same_end)
+                        + ' (no quarter subtraction is performed)')
             if unit not in units:
                 msg += f"; units present: {', '.join(sorted(units)) or 'none'}"
             raise ValueError(msg)

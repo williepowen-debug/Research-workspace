@@ -251,6 +251,15 @@ class AcceptanceTests(unittest.TestCase):
                   prior=['2025-03-30', '2025-06-28'], current=['2026-03-29', '2026-06-27'],
                   as_of='2026-10-24', retrieved_at='2026-10-24T21:43:10+00:00')
 
+    def test_missing_window_lists_same_end_windows(self):
+        # the live META case: a 10-Q tags only the year-to-date cash-flow window
+        data = json.loads(self.raw)
+        data['units']['USD'] = [v for v in data['units']['USD'] if v.get('start') != '2026-03-29']
+        with self.assertRaisesRegex(ValueError, 'windows reported ending 2026-06-27: 2025-09-28 to 2026-06-27 .no quarter subtraction'):
+            build(json.dumps(data).encode(), cik='320193', concept='NetIncomeLoss', unit='USD',
+                  prior=['2025-03-30', '2025-06-28'], current=['2026-03-29', '2026-06-27'],
+                  as_of='2026-10-24', retrieved_at='2026-10-24T21:43:10+00:00')
+
     # A6 — save: raw bytes hash to the record, JSON + MD beside it, path printed
     def test_save_writes_raw_json_md_and_prints_paths(self):
         rc, out, err = run_cli(['compare', *CLI, '--snapshot', str(RESPONSE),
