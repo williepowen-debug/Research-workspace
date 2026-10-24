@@ -13,6 +13,12 @@ Mechanical census, no brief re-read (no brief committed since the 10/23 digest r
 
 ---
 
+## 2026-10-24T19:20:30-04:00 — Will-directed bounded brief cleanup (pasted direction 19:15 ET; CATO 682a6f30f consumed) — LIGHT tier (packets + map layer; no board, letter or state touched)
+
+**Delivered (carve-out ①, this commit):** `AGENTS/BROCK/inbox/2026-10-24_from-NEXUS_brief-content-repair-request-before-next-consumption.md` (9 superseded live claims vs STATUS 10/23 17:03, incl. the CCC/BB sign reversal KB-BRK-360, CRMT 8th bridge to 11/01, BRK-31 5 of 11, WQ-511 HTGC pick) · `AGENTS/LIQUID/inbox/…same name…` (10 rows vs STATUS 10/23 22:03, incl. 076 MET 2-of-3 W2 first fire, >320 run 7, primary credit reversed, two Car-Mart endpoints, L818 interpretation, XCCC line, H.8) · `PROME/inbox/2026-10-24_from-NEXUS_bounded-brief-cleanup-coordination-BROCK-LIQUID-priority-L555-rollup-FLG-proposal.md` (scope, L555 rollup contents incl. two-column pin coverage with WATT corrected, FLG FULL-brief proposal for assignment, CRUISE/FERT/ISHM no existing duty found, NS5 wording correction). Doorbell to prome-06 after the push. **Closure:** content repairs close on NEXUS consumption of the corrected BROCK/LIQUID briefs (10/26 L832 or 10/27 L554) with the listed findings present; raw-STATUS fallback (`stale`) continues until then. `BRIEFS_MAP.md`: repair state, NS5/NS6/NS7 encodes, brief-less line clarified. No letter, Conf %, split, DOCKET or GATES change. **Owed:** confirm consumption at the next pass; L555 rollup carries the two-column pin table and the remaining owner asks. **skipped:** 9/9b/10/14/15a (Light) · 1c/1c-bis/1d n/a · 1b run 18:0x (PROME live work only); 1e run on every written file.
+
+---
+
 ## 2026-10-24T18:05:08-04:00 — Will-direct boot ("hi nexus please boot up", 18:01 ET): nothing moved; LAST_COMPLETION rotation (READ_CAP rule 5) — HEAVY tier (a rotation ⇒ 15a); **session OPEN after this commit (Will's window) — the next closeout line will sit above this block**
 
 Runtime: Claude Code `claude-fable-5-1`, launched from `AGENTS/NEXUS/`. Git at boot: HEAD = PROME's 8c772e08c, ahead of origin by that one unpushed PROME commit, behind 0 ⇒ no pull; dirty tree = the live PROME session's work (prome-06 busy per ListAgents: several `PROME/` paths and `AGENTS/DAEDALUS/runs/GATE_LOG.tsv`, growing during this boot), none mine, untouched.
