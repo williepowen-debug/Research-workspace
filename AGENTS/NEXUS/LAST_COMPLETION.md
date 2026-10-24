@@ -9,6 +9,12 @@ Three Opus readers (charter · brief-standard surfaces · boards + records) + NE
 
 ---
 
+## 2026-10-24T15:57:40-04:00 — CORRECTION (PROME → NEXUS cross-session, Will-authorized follow-through on CATO PRD1–3, `8ae69ad95`) — STANDARD tier
+
+STATUS Trading line reworded: ORCL FQ2 date = UNVERIFIED at Oracle IR as of 10/24, condition stands, TERRY verifies (WQ-518 "A for now, verify first") — my 15:1x line had carried PROME's "cannot be met before 11/20" over-statement; the cluster figure is now an equal-decline original-cost-at-expiry SCENARIO (11.76%), not a "breakeven". No NEXUS surface carries the GLD put-book-hedge line (PRD3). Dated originals (the 15:19 block below, the pass RECORD, the processed PROME packet) stay as written — labelled here. No letter, Conf % or split touched. 9b residue grep (`cannot be met` · `breakeven` · `put-book hedge`): STATUS fixed; the 15:19 block + RECORD + packet = RETAINED-HISTORY. **skipped:** 9c run (no fleet STATUS/brief since 15:00 besides this lane) · 10/11/14/15a n/a · 1c/1c-bis/1d n/a · 1b + 1e run.
+
+---
+
 ## 2026-10-24T15:19:32-04:00 — Will-direct weekend structure pass ("keep working on NEXUS files and structure … caught up on all live data", 15:01 ET) — HEAVY tier
 
 Runtime: Claude Code `claude-fable-5-1`, launched from `AGENTS/NEXUS/`. Record → `research/2026-10-24_structure_pass/RECORD.md`. Delivery → `PROME/inbox/2026-10-24_from-NEXUS_weekend-structure-pass-nothing-fires-L639-note.md`.
