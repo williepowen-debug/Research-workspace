@@ -61,3 +61,24 @@ Runtime: Claude Code, `claude-opus-5-5`, spawned from PROME's cwd; charter + roo
 <!-- BEGIN VERBATIM B (line 3) -->
 **CLOSED OUT 2026-10-19T13:40:36-04:00 — Will requested closeout; NEXUS acknowledges and releases active work. No polling/push. Latest commits a1f8d3366/09265ad69; pending10/20source checks,L11/L730 unchanged. Final controls→ `research/2026-10-19_session_closeout.json`. Earlier work receipts below are history; no terminal-open instruction survives this closeout.**
 <!-- END VERBATIM B -->
+
+---
+
+Rotation 2, 2026-10-24T16:46:00-04:00: the 2026-10-23T01:06:59 PROME-spawned DOCKET L751 wake block, verbatim from LAST_COMPLETION.md lines 92–105, crc32 `dbf06434` over the block text between the markers (2,382 B). Trigger: the file reached 75.9% after the PROME-receipt line. HISTORY: its owed items were discharged at the 10/23 full pass and the 10/24 Stage-1 repair.
+
+<!-- BEGIN VERBATIM C -->
+## 2026-10-23T01:06:59-04:00 — PROME-spawned DOCKET L751 wake (prome-e7, WQ-502 A, Tier 1; scoped) — STANDARD tier
+
+Runtime: Claude Code `claude-opus-5-5`, launched from PROME's cwd; root 4 pages · AGENTS 1 · USER 2 · charter 13 pages, each to `eof: true` via `boot_read.py`. No digest readers (scoped due-row wake). Record → `research/2026-10-23_L751_wake/RECORD.md`. Delivery → `PROME/inbox/2026-10-23_from-NEXUS_L751-publication-check.md`.
+
+- **L16 / GATE-NEXUS-WQ459-HY: anchor 10/19 QUALIFIED** — L 329 · C₀ 1,310 ⇒ UP ≥339 ×3 · DOWN ≤319 ×3 + CCC ≤1,310. Cells 1–2 = 333/1,327 [10/20] · 327/1,307 [10/21], neither; cell 3 (10/22) UNPUBLISHED at FRED 01:01 ET. No fire; earliest possible fire = cell 5 (obs ~10/26, read ~10/27). Split HELD.
+- **M-04 UP FIRED 26→30** (FRED VIXCLS 18.44 [10/19]); **M-08 UP FIRED 79→83** (B/CCC 335/1,297 [10/16] · 336/1,310 [10/19]). Both forced by my own registered letters. ⚠️ No post-fire falsifier on either (Disc-J) — owed at the next full pass.
+- L13 window 2 cells 1–3 = 2.80 · 2.77 · 2.76, neither. PRED-30 cite re-pointed to `AGENTS/ZHAO/reports/2026-10-16_AUGUST_TIC_SESSION.md`. LIQ-076 moved to owner fires (LIQUID MET 2-of-3, 10/22).
+- Inbox 5 + WALTER 3 drained (board_log ×8, `git mv` → processed). COR-20261021-22 NO-OP · COR-20261022-04 APPLIED.
+
+**NEXT SESSION OWES:** ① L16 cells 3–5 at the 10/27 L554 wake (earliest possible fire) · ② L13 window 2 (earliest fire obs 10/23, read ~10/26–27) · ③ Disc-J successor letters for M-04 and M-08 at the next full pass · ④ DOCKET L555 rollup 10/27 · ⑤ M-08/M-09 window end 10/30 is moot for M-08 (fired).
+
+**Checks:** 0a rc 0 (STATUS 70–75% band, under trigger) · 7a rc 0 · 9 STATUS under 200 lines; Δ convention applied to M-04/M-08 (Last upd 10-23) · 9b residue: dated 10/19–10/20 header blocks = RETAINED-HISTORY; L16 cells on STATUS and PREDICTIONS carry a visible "superseded" label · 9c: WATT 96a6c8a12 (01:05 ET) deferred in writing, no NEXUS letter keyed · 10: nothing else past trigger · 11 done · 14 none this pass · 15a n/a (no whole-file rewrite) · 15b: successor 10/27 named in the PROME memo. **skipped:** BOOT 6 digest readers (scoped wake) · 1c (no fleet-cited figure superseded; the matrix marks are my own Conf %) · 1c-bis (no LEDGER_GLOB) · 1d (no memory) · 9a (L555, 10/27).
+
+---
+<!-- END VERBATIM C -->
