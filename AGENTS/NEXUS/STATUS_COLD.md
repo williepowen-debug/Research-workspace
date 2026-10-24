@@ -1730,3 +1730,37 @@ File-audit findings/owed map → `research/2026-10-19_file_audit/AUDIT.md` (hist
 ### §H22C — header delta-annotation sentence, 10/23 22:1x ET catch-up (crc32 3bbb9ca5, 243 B)
 
 **Delta annotation 1 of 2, 2026-10-23T22:16:16-04:00 (Will: catch up on new signals): BOARD 10/23 cards 014/016/019/023/026/027/033/036/037/039/040/042 + LIQUID 22:06 read folded as evidence; no letter, Conf % or split moved; not a re-sweep.**
+
+## §H23 — 2026-10-24T15:10:01-04:00: Will-direct structure pass (weekend; no new cell). Two CLOSED tension rows rotated verbatim from the live TENSIONS table (crc32 7d9190d3 over the two rows joined by \n, 169 B; they were not contiguous — T-15 sat between them). Both are closed states with no live resolver: T-11/T-12 (FERC IRAS REJECTED 10/9; T-12 old clause EXHAUSTED; L13 window 2 is the live successor, on the split line) and T-21/T-23 (retained; C-36 LEVEL/SPLIT unchanged, `CONFIRMED.md`). The live table keeps a one-row pointer.
+
+| T-11/T-12 | closed | FERC IRAS REJECTED 10/9; T-12 old clause EXHAUSTED; L13 window 2 running (above). |
+| T-21/T-23 | closed | Retained; C-36 LEVEL/SPLIT unchanged. |
+
+### §H23B — 2026-10-24T15:12:26-04:00: four owner-state BREACHED threshold rows rotated verbatim (crc32 55ccb9c8 over the four rows joined by \n, 637 B; contiguous in the file). None is a NEXUS letter; the live table keeps a one-row pointer with each owner's dated state. The trigger was my own 10/24 annotation taking STATUS to 75.7%; the fresh annotation text was also tightened (fresh text, no crc).
+
+| SPX put wall 7,650 | **7,623.61 close [10/23, TERRY T1 FIRED]**; 7,663.43 [10/22, tested, HENRY] | TERRY's card trigger; HENRY owns the gamma read, none for 10/23. Not a NEXUS letter. |
+| RED FT-08 / FT-10 / FT-02 | core 3-mo 3.25%; SKEW 150.36 [10/21]; FT-02 FIRED (10/16 obs) | RED HOLD 72, net-bear 69 [S56 10/22]; SKEW exit (<150) 0.36 away. |
+| LIQ-076 dealer positioning | W2 −$1,717M [as-of 10/14] + W3; MET 2-of-3 [LIQUID 10/22] | Net stock, not gross selling; no funding leg. |
+| Brent Dec settle | **$116.72 [10/23, BRENT, secondary]**, highest since April | BRENT boundary ≥$120 ×3 settles 0 of 3; M-06 has no letter. |
+
+### §H23C — 2026-10-24T15:13:32-04:00: four far-dated CATALYST DOCKET rows (10/31–11/3 · 11/05 · 11/06–11/10 · 11/20–11/24) rotated verbatim (crc32 b3991b55 over the four rows joined by \n, 726 B; contiguous). Every DOCKET L-number and date they carried is restated in two compact live rows; nothing was dropped from the obligation set, only the per-event detail (owner names, non-NEXUS prints) moved here.
+
+| 10/31–11/3 | LIQ-079 bands 10/31; Russian producer ban expires 10/31; CRMT post-STD read 11/02; midterms 11/3; JOLTS 11/3. |
+| 11/05 | **DOCKET L631: M-01 · M-03 · M-05 · M-07 windows END** (M-04's old window closed by its fire); FAL-06; FSK Q3. |
+| 11/06–11/10 | NFP 11/6; GIBBS 10-Qs ~11/6; FFIEC 11/7; **DOCKET L752/L753: L16 cell 15 (obs 11/6 if a 10/31 month-end cell qualifies, else 11/9)**; **DOCKET L572 PRED-38 11/10**; CPI 11/10. |
+| 11/20–11/24 | **DOCKET L574/L632: PRED-45 · M-11 · M-04b · M-08b grade** (L632 rider ADDED by PROME 22:1x; L573 annotated M-09-only; L630 carries the L13 cell-8 read). HHDC Q3 ~mid-Nov (PRED-41, DOCKET L575). **11/23 END ET = L16 backstop; DOCKET L754 reads 11/24.** |
+
+### §H23D — 2026-10-24T15:14:58-04:00: three lines rotated verbatim to reach the rule-5 STOP (crc32 c7c7dab4 over the three lines joined by \n in this order — the T-18… carry row, the proximity-cluster note, the NOT CONFIRMING line — 651 B; not contiguous in the file). Each keeps a shortened live line carrying the same states; no owner state, letter or distance was dropped.
+
+| T-18/T-20/T-22/T-24/T-29 | carry | Unchanged → `STATUS_COLD.md` §H16; T-29 crude-loss source still absent [FALCON 10/23]. |
+*Proximity-cluster rule (3+ within 20% ⇒ PROME 🔴): the 8 lines above = 2 evidence classes (ICE credit; Treasury rates) + KRE — by class the rule is NOT met.*
+HY <260 ×2 `GATE-HY-REKILL` (340, 80bp away) · LIQ-079 NOT ARMED · LIQ-07 reserve coupling not observed · M-06 withdrawn · WATT P1 5 → 3 [10/22] · T-SHADE-01 NOT MET · CORAL MSI re-fire fails (4 of 5) · FERT G5 unchanged · no JGB disorder (SAM 10/20) · 11/10 clocks unfired · CYPHER 9 of 9 rows NOT-FIRED (new desk; 15/40 shared-root-adjusted).
+
+### §H23E — 2026-10-24T15:18:03-04:00: the live header line as it stood after the 10/24 delta annotation (crc32 75c40b26 over the one line, 1,167 B) — rotated verbatim so the hot header could be compacted to the STOP; every sentence it carried is either restated in the compact header or already cold (§H21 · §H22C).
+
+**Updated:** 2026-10-23T21:36:31-04:00 — **FULL MATRIX REVIEW (Will-direct boot), the first since 10/19 11:05 ET.** 28 briefs read whole by 3 Opus digest readers (census 29; HAWK excluded); owner STATUS for 7 load-bearing desks and every letter series at FRED read myself (21:20 ET). Record, pulls, digests → `research/2026-10-23_full_pass/`; prior header blocks → `STATUS_COLD.md` §H21. Frontiers: FRED obs 10/22 for the ICE, H.15 and VIX series (their 10/23 cells unpublished at 21:20 ET; `T10YIE` 10/23 published same-day); equity closes 10/23 (vendor); Brent settle 10/23 (BRENT, secondary). Dated marks, not quotes. **Delta annotation 1 (10/23 22:1x catch-up) → `STATUS_COLD.md` §H22C; correction 10/24 on the Trading line.** **Tokens:** bare `L<n>` = `PREDICTIONS_MONITOR.md` row; `DOCKET L<n>` = PROME docket row; desk scores (x/y) = owner composites. **Delta annotation 2 of 2, 10/24 15:1x ET (weekend structure pass; annotation cap reached — next touch = Mon 10/26 DOCKET L832, a proper pass): FRED 15:0x, every letter series still ends at obs 10/22; TERRY 10/24 + LIQUID 10/23 22:27 folded; nothing moved; rotations → `STATUS_COLD.md` §H23.**
+
+### §H23F — 2026-10-24T15:19:11-04:00: the two header split-letter paragraphs (L13 · L16) as rewritten 10/23 (crc32 c1444386 over the two lines joined by \n, 1,307 B; contiguous) — compacted in the hot header to state + resolver; the full letters, cases and history are the PREDICTIONS_MONITOR L13 / L16 rows (rewritten and cold-read this pass).
+
+> **L13 (`DFII10`, window 2, L₂ = 2.74 [10/16]; UP ≥2.84 ×5 ⇒ Break +6pp · DOWN ≤2.64 ×5 ⇒ Break −6pp):** cells 1–4 = 2.80 · 2.77 · 2.76 · **2.64 [10/19–22, FRED first-published]** ⇒ **DOWN run 1 of 5** (inclusive edge). Earliest DOWN fire = cell 8 (obs Wed 10/28, FOMC day; read ~10/29). ⚠️ **Disc-A pre-registered:** the letter grades DOWN as relief only if HY at the fire cell is not wider than at the anchor (331 [10/16]); at HY 340 a DOWN fire is a **growth-scare = TRUE-in-letter, FALSE-in-spirit**; the −6pp still applies (Break 20 → 14, Grind 47 → 53) and PROME rules whether the letter stands. Window 1 C#1 EARNED 10/20; a second C ⇒ EXHAUSTED. Ledger → `PREDICTIONS_MONITOR.md` L13.
+> **L16 (`GATE-NEXUS-WQ459-HY`, anchor obs 10/19, L = 329 · C₀ = 1,310; UP HY ≥339 ×3 ⇒ Break +6pp · DOWN HY ≤319 ×3 + CCC ≤1,310 ⇒ Break −6pp):** cells 1–3 = 333 · 327 · **340 [10/20–22, FRED first-published; all five series moved 10/22, not a carry]** ⇒ **UP run 1 of 3.** Earliest UP fire = cell 5 (obs Mon 10/26, read Tue 10/27) if cells 4–5 are both ≥339. Cell 15 ~obs 11/9, backstop 11/23 (DOCKET L752–L754). Log → `analysis/WQ342_grading_log.tsv`; ledger → `PREDICTIONS_MONITOR.md` L16. Count once with M-08, M-01, LIQUID's >320 run.
