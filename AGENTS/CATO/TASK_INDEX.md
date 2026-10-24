@@ -2,6 +2,25 @@
 
 Read only entries relevant to Will's current assignment. This is historical evidence and retained authority, not an automatic task queue. Moved from CONTINUITY.md on October 1, 2026; pre-move record at `c8a8fb86a969688c4b8e9ee25b130770d40be0c2`. Current resume point: [CONTINUITY.md](CONTINUITY.md). Dates and owner states below are last-checked observations, not fresh verification. Moving a record neither closes a finding nor revokes its approval.
 
+## October 24 topic map and retained dispositions
+
+[Pre-closeout continuity](CONTINUITY_2026-10-24_ARCHIVE.md) preserves the complete previous startup record verbatim, including all approvals and unresolved limits; it is history, not a current assignment. This table supplies targeted entry points. Older cases were not freshly audited during closeout.
+
+| Topic | Current home and disposition |
+|---|---|
+| CATO learning/continuity | [October 24 update](runs/2026-10-24_1725_cato-session-learning.md): source-grounded borrowing is a distinct task, approved trials continue; startup archive and link checks. |
+| External systems and trials | [Mira/openInvest](runs/2026-10-24_1653_external-systems-borrowing.md): implementation candidates, pins, bounded checks; no integration selected. L833/WQ-515/WQ-516 remain separate approved owner work. |
+| NEXUS Stage 1/2, WQ-519 | [Continuing review](runs/2026-10-24_1558_nexus-structure-plan-review.md#october-24-closeout-reconciliation--wq-519-implementation): (i)/(ii) incorporated, (iii) pending to October 30; L832/L554 observations; residual limits named. |
+| PROME/TERRY/MIDAS PRD1–4 | [Continuing review](runs/2026-10-24_1523_prome-decision-review.md#october-24-closeout-reconciliation--selected-current-copies-at-b1efcd055): NEXUS inspected copies corrected, originating owner corrections pending verification, Oracle condition preserved. |
+| Work selection, LIQUID | [Carry](runs/2026-10-23_2131_next-work-selection.md); CARL/BROCK next owner work, October 28 L818; no new CATO study. |
+| Calendar/backlog | [Calendar](runs/2026-10-20_calendar-review.md), [backlog](runs/2026-10-20_docket-sweep-plan-review.md); CM1/CM2 closed within reviewed scope, CM3 deferred; later counts owner-reported. |
+| October 20 commit review / delivery adoption | [Review](runs/2026-10-20_yesterday-commit-review.md); persistence residue closed at a8fb01fcf, DC1/DC2 closure unverified at prior review, no repeated acceptance by default. |
+| WALTER | [October 19 research](runs/2026-10-19_1728_walter-breadth-credit-review.md), [October 16 cleanup](runs/2026-10-16_walter-instruction-audit-review.md); WA2/other limits preserved in archive; [L628](runs/2026-10-02_1057_walter-prome-relationship.md) remains closed. |
+| OTTO | [Current continuing review](runs/2026-10-19_1322_otto-readiness-review.md); OR1 closed, OT1 causal overstatement and later owner-read/receipt uncertainties preserved, no new audit. |
+| Nisaba | [Panel follow-up](runs/2026-10-17_1305_keeper-research-design-review.md#october-17--nisaba-panel-follow-up); preserve freeflowing $200 grant and latest-inspection limits; no added study prerequisite. |
+| Runtime, Fleet-Ops and WQ-448 | [PROME procedure review](runs/2026-10-19_1340_prome-retired-procedures-review.md), [snapshot condition](runs/2026-10-15_2025_prome-simplification-oversight.md); archived acceptance/caveats remain, WQ-448 D1 not approved at last inspected pin. |
+| Forecast pilot / census / bookmarks / other approvals | Current CONTINUITY plus existing task entries below; complete pre-closeout approval text remains in the archive. No grant revoked or automatically activated by this move. |
+
 ## October 23 catch-up — superseded resume details
 
 [Catch-up assessment](runs/2026-10-23_1950_system-catchup.md) supersedes these four startup paragraphs as the current resume point. They are preserved verbatim from October 21 continuity, with their dates, report links, approvals and unresolved limits. Later owner work is addressed in the catch-up; no new independent implementation or external-source verification is inferred.
