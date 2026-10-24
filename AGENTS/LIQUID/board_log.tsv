@@ -579,3 +579,31 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-22T23:39:03Z	2026-10-22_from-DEWEY_hyperscaler-ai-funding-gap	noted	INBOX	LIQUID after-close (PROME prome-e7). AA bucket +6bp vs IG +11bp 9/21-10/21; ORCL ~120B index-exit tail; consistent with LIQ-072 QUIET.
 2026-10-22T23:41:10Z	SIG-W-20261022-040	info-only	INBOX_WALTER	LIQUID after-close (PROME prome-e7). Margin debt rank corrected (Sep 2026 #2, Jun 2026 record); level unchanged; LIQUID carries no rank claim; COR-20261022-40 NO-OP.
 2026-10-22T23:41:10Z	2026-10-22_from-TERRY_crwv-rallyfade-card-DEAD-on-void	info-only	INBOX	LIQUID after-close (PROME prome-e7). TERRY card TRY-COND-CRWV-RALLYFADE DEAD on its void line (CRWV close 55.60 [10/22]); LIQUID routes no further deltas to it; CRWV credit tells unchanged.
+2026-10-24T02:05:41Z	SIG-W-20261022-045	info-only	INBOX_WALTER	LIQUID evening boot (Will). Oracle Java CVE / Health breach context; ORCL 5Y DTCC 308-321bp [10/23]; no gate.
+2026-10-24T02:05:41Z	SIG-W-20261022-048	noted	INBOX_WALTER	LIQUID evening boot (Will). Cyber-ledger correction; COR-20261022-48 NO-OP receipted (zero kill-string hits in LIQUID).
+2026-10-24T02:05:41Z	SIG-W-20261023-003	info-only	INBOX_WALTER	LIQUID evening boot (Will). Japan Sep core CPI 2.1% in line; SAM owns; USD/JPY 156.81 below 160.
+2026-10-24T02:05:41Z	SIG-W-20261023-010	info-only	INBOX_WALTER	LIQUID evening boot (Will). US flash PMI mfg 56.0; CARL/HENRY; no funding leg.
+2026-10-24T02:05:41Z	SIG-W-20261023-011	noted	INBOX_WALTER	LIQUID evening boot (Will). France flash PMI 48.4; HANS-T-10; EUR to USD channel UNMEASURED; US funding legs quiet (SOFR99-IORB +8bp 10/22).
+2026-10-24T02:05:41Z	SIG-W-20261023-014	info-only	INBOX_WALTER	LIQUID evening boot (Will). Michigan final; not a LIQUID instrument.
+2026-10-24T02:05:41Z	SIG-W-20261023-015	acted	INBOX_WALTER	LIQUID evening boot (Will). REG-T-04 near-trigger: HY 340 first-published [10/22] run 0 of 3; answered WALTER 2026-10-23_from-LIQUID_answers-015-016-027; L818 read to PROME.
+2026-10-24T02:05:41Z	SIG-W-20261023-016	acted	INBOX_WALTER	LIQUID evening boot (Will). Issuance volume: one snippet, seasonally confounded, not shown shut (DEWEY); answered in same packet; recheck ~11/2.
+2026-10-24T02:05:41Z	SIG-W-20261023-021	info-only	INBOX_WALTER	LIQUID evening boot (Will). CB gold custody NY Fed -40t (Goldman est via Fortune); relocation not selling; MIDAS owns.
+2026-10-24T02:05:41Z	SIG-W-20261023-027	acted	INBOX_WALTER	LIQUID evening boot (Will). NVDA 5Y CDS 128bp disseminated [DTCC 10/23] CONFIRMS 'over 120'; META 121/127; answered WALTER; STATUS AI-infra line.
+2026-10-24T02:05:41Z	SIG-W-20261023-037	info-only	INBOX_WALTER	LIQUID evening boot (Will). OpenAI round target cut; BBB- below-90 chart unsourced, no figure taken.
+2026-10-24T02:05:41Z	SIG-W-20261023-043	info-only	INBOX_WALTER	LIQUID evening boot (Will). Buyback figures UNVERIFIED; HENRY owns.
+2026-10-24T02:05:41Z	2026-10-22_from-CYPHER_RETRACTION-icbc-9B	noted	INBOX	LIQUID evening boot (Will). Both 9B figures real; no LIQUID record cited the retracted line.
+2026-10-24T02:05:41Z	2026-10-22_from-CYPHER_boundary-confirmation	acted	INBOX	LIQUID evening boot (Will). Boundary CONFIRMED by packet to CYPHER inbox.
+2026-10-24T02:05:41Z	2026-10-22_from-DEWEY_icbc-fs-treasury-settlement	noted	INBOX	LIQUID evening boot (Will). ICBC FS 2023: participant-level, SOFR flat; tail case untested.
+2026-10-24T02:05:41Z	2026-10-22_from-HANS_france-oat-red-tier-174bp-pre-moodys	noted	INBOX	LIQUID evening boot (Will). HANS ask: no US-funding transmission seen (SOFR99-IORB +6/+8bp, SRF 0); EUR basis unmeasured; silence per HANS protocol.
+2026-10-24T02:05:41Z	2026-10-23_from-CYPHER_chokepoint-map-payment-rows	info-only	INBOX	LIQUID evening boot (Will). Chokepoint rows CHK-19/21/25/26/27; nothing fired.
+2026-10-24T02:05:41Z	2026-10-23_from-DAEDALUS_WQ508-harness-audit-lines	acted	INBOX	LIQUID evening boot (Will). Read git show 4da79f1ee for LIQUID: accepted, no contest; B44 class rewrite stays optional.
+2026-10-24T02:05:41Z	2026-10-23_from-DEWEY_ccc-concentration-optimum	acted	INBOX	LIQUID evening boot (Will). XCCC composition into STATUS (WQ-516 A); Optimum = dated CCC event (L825).
+2026-10-24T02:05:41Z	2026-10-23_from-DEWEY_ccc-loans-issuance	acted	INBOX	LIQUID evening boot (Will). Used in L818 interpretation; issuance narrowed not shut.
+2026-10-24T02:05:41Z	2026-10-23_from-DEWEY_hy-widening-ai-vs-broad	acted	INBOX	LIQUID evening boot (Will). Used in L818 interpretation (65% broad Sept; AI 10-15% Oct).
+2026-10-24T02:05:41Z	2026-10-23_from-DEWEY_req003-coreweave-rating-correction	acted	INBOX	LIQUID evening boot (Will). Correction applied in L818 (CoreWeave not CCC; 17% = HYG sleeve).
+2026-10-24T02:05:41Z	2026-10-23_from-DEWEY_research-history-meta-review	noted	INBOX	LIQUID evening boot (Will). I1 ask settled by PROME WQ-516 A (standing XCCC line).
+2026-10-24T02:05:41Z	2026-10-23_from-FLG_q3-capital-funding-read	noted	INBOX	LIQUID evening boot (Will). FLG FHLB flat 9.9B; deposit mix to CDs/brokered, cash -21%; drift not funding stress; no threshold.
+2026-10-24T02:05:41Z	2026-10-23_from-PROME_ELLISON-theme-home-oracle-collateral-loop	acted	INBOX	LIQUID evening boot (Will). DTCC ORCL 308-321bp [10/23] no conflict with 314; theme cited by file in STATUS.
+2026-10-24T02:05:41Z	2026-10-23_from-PROME_WQ516-I1-xccc-composition-standing-line	acted	INBOX	LIQUID evening boot (Will). Standing line added STATUS 1; refresh owed (fund page 403).
+2026-10-24T02:05:41Z	2026-10-23_from-PROME_status-fraction-reads-as-a-date	acted	INBOX	LIQUID evening boot (Will). 'Event legs: 1 of 4' applied.
+2026-10-24T02:05:41Z	2026-10-23_from-VULCAN_cds-breadth-cross-section	noted	INBOX	LIQUID evening boot (Will). Direction agrees; NVDA 128 [10/23] via WALTER packet; no conflict.

@@ -70,7 +70,9 @@ No `git pull` (dirty HOMER/PROME/BOND/RED trees); pathspec commits only.
 
 ### NEXT SESSION
 
-**Next boot (10/23+):** grade the 10/22 first-published HY (the >320 run continues or resets; a 10/22 print ≤320 resets), 10/22 SOFR percentiles (079), CFTC as-of 10/20 (076 W1; a W1 hit would be inside the same un-re-armed episode), H.8 10/23 (DEWEY GENIUS Table 6 legs), the 10/22 DTCC CDS file (META/ORCL). 076 re-arm needs 10 consecutive business days with no leg met. Car-Mart 11/01 (BROCK). DAEDALUS 10/16 deferral row in STATUS §3 is overdue.
+**Next boot (Mon 10/26+):** grade the 10/23 first-published tiers. REG-T-04 needs >350 (REGINALD grades). BB moving with CCC on consecutive days is the L818 change-maker (`analysis/2026-10-23_L818-repricing-vs-restriction.md`, sent to PROME 10/23). Also grade 10/23 SOFR (079) and refresh the XCCC composition line: the fund page 403s to curl, so try WebFetch or DEWEY's method (L829 checks 10/30). H.8: read the DATED path (`releases/h8/YYYYMMDD/`); `current/h8.htm` served a 2015 page at 200. 076 re-arm needs 10 consecutive business days with no leg met. Car-Mart 11/01 (BROCK). DAEDALUS 10/16 deferral row in STATUS §3 is still overdue. 10/31: 079 FIRE bands proposal.
+
+*10/23 evening (Will boot, "catch up on owed work"):* owed 10/23 row graded (`research/2026-10-23_evening/REPORT.md`); inbox 16 + 12 WALTER items drained; COR-20261022-48 and COR-20261023-39 NO-OP; NVDA 5Y CDS 128bp CONFIRMED at DTCC and sent to WALTER; CYPHER boundary confirmed; WQ-508 DAEDALUS edits accepted with no contest.
 
 Resume STATUS§3 and `research/2026-10-19_equity-financing/RESULT.md`. Check HENRY’s exact cohort/matching reply and recipient acknowledgment before repeating any research. Use existing funding notes to fill only missing formation-date maturity/liquidity/credit fields. Joint attribution is saved PARTIAL, not an unattended job. Closeout receipt separates desk write-back, push, notification and recipient consumption.
 
