@@ -97,7 +97,7 @@ HY <260 ×2 `GATE-HY-REKILL` (340, 80bp away) · LIQ-079 NOT ARMED · LIQ-07 cou
 
 | Date | Event / current ownership |
 |---|---|
-| **Mon 10/26** | **FRED 10/23 cells publish:** M-03 DOWN decision (DGS10 ≤5.07 ⇒ −4pp) · L16 cell 4 · L13 cell 5 · **M-04b / M-08b anchors**. **DOCKET L832 Monday read registered by PROME 22:1x** (after the ~16:30 ET publication; Tier-1 spawn if NEXUS is dark). Also WAL 10-Q (≥10/26); DOCKET L229 Iran–Oman window closes; Plenum 10/26–29. |
+| **Mon 10/26** | **FRED 10/23 cells publish:** M-03 DOWN decision (DGS10 ≤5.07 ⇒ −4pp) · L16 cell 4 · L13 cell 5 · **M-04b / M-08b anchors**. **DOCKET L832 Monday read registered by PROME 22:1x** (after the ~16:30 ET publication; Tier-1 spawn if NEXUS is dark). Also WAL 10-Q (≥10/26); DOCKET L229 Iran–Oman window closes; Plenum 10/26–29. **DOCKET L836 (PROME 10/24 19:2x, reported by doorbell, verify at boot): LIQUID adds a brief-fold closeout step + applies NEXUS's 10-row content repair; NEXUS consumes at L832/L554 — the BROCK repair has no row and rides BROCK's next session; raw-STATUS fallback for both until consumed.** |
 | **Tue 10/27** | **DOCKET L554 + L751 wake: L16 cell 5 = earliest UP fire** (10/23 and 10/26 cells both ≥339) · **DOCKET L555 rollup #6** · L13 cell 6 · REG-T-04 earliest fire close (REGINALD) · ARCC Q3 (DOCKET L826) · MWD board (AEOLUS C6). |
 | Wed 10/28 | **FOMC 14:00 ET** (HENRY DOCKET L773; ORACLE hike 12.5%); L13 cell 7; BOND BND32 2s30s test; MSFT/GOOGL/META Q3; FALCON review. |
 | Thu 10/29 | **L13 cell 8 = earliest DOWN fire (read ~10/29)**; **DOCKET L630 M-06 disposition (judgment, no number)**; BOJ; GDP + PCE; claims; H.4.1 (T-30); HTGC Q3 (DOCKET L827). |

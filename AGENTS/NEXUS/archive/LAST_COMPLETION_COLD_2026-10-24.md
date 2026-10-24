@@ -127,3 +127,20 @@ The correction commit 43dfba860 left STATUS at 24,516 B = 75.3% (over the trigge
 The 10/23 catch-up wrote that Will's two approved NOT-FIRED cards "ride the same HY series" as M-01/L16. Verified at `PROME/proposals/2026-10-23_wq513-516-RULED.md`: WQ-513 HYG triggers on REG-T-04 (ICE HY OAS >350 ×3 closes — that IS my letters' series, count once); WQ-514 ORCL triggers on ORCL's own 5Y CDS ≥350 with ORCL ≥$120 — a different instrument, correlated exposure, not the same observation. Fixed on STATUS (Trading line) and in the 22:3x addendum above; the fused sentence in my 22:18 ET reply to Will is corrected by this block. Neither card, letter, Conf %, root count nor the split changed. 9b residue grep over `AGENTS/NEXUS/` for "same HY series" / "count once with M-01/L16": two hits, both fixed; the 10/23 commit message carries the old wording = RETAINED-HISTORY (immutable; named here). 0b: no letter touched, so the four tests do not apply; the corrected sentence names instrument, level and conjunction for each card. **skipped:** 9c (no fleet STATUS/brief commit since my 22:4x push, fetch 11:2x ET) · 10/11/14/15a n/a (no past-trigger item, no inbox, nothing to promote, no whole-file rewrite) · 1c (no fleet-cited figure) · 1c-bis · 1d n/a · 1e run.
 
 <!-- END VERBATIM E -->
+
+---
+
+Rotation 5, 2026-10-24T19:26:59-04:00 (session-end commit measured 25,019 B = 76.9% after the PROME-receipt line): the 2026-10-24 15:40:57 files-sweep block (LIGHT) and the 15:57:40 CATO PRD1–3 correction block (STANDARD), verbatim from LAST_COMPLETION.md, crc32 `610f7e4f` over the block text between the markers (1,924 B). HISTORY: the sweep report and its owed items were discharged by the Stage 1 / Stage 2 blocks and WQ-519; the PRD correction lives on STATUS (Trading line).
+
+<!-- BEGIN VERBATIM F -->
+## 2026-10-24T15:40:57-04:00 — Will-direct files sweep ("review/offer feedback … flag stale, broken, owed, incomplete, missing, inaccurate") — LIGHT (records only; no board edited)
+
+Three Opus readers (charter · brief-standard surfaces · boards + records) + NEXUS mechanical scans. Report → `research/2026-10-24_structure_pass/SWEEP_REPORT.md` (ledgers SWEEP_A/B/C beside it). Counts: ❌ 17 · ⚠️ ~51 · ✅ 25+. Every ❌ spot-checked at the artifact before filing. **Owed from it (Will to pick order):** ① Standard correction commit (CONFIRMED ❌1–3, STATUS PRED-41 row + M-10 Disc-J, LC label, board_log deferred rows, RETIRED banners, two research retirements) · ② PROME packet (READS re-attestation; L631 / L752–L754 / L40) · ③ schema repair (HEAVY) · ④ charter hot/cold split (HEAVY, Will-gated). **skipped:** 9/9b/9c/10/14/15a (Light: no board or letter touched) · 1c/1c-bis/1d n/a · 1b + 1e run.
+
+---
+
+## 2026-10-24T15:57:40-04:00 — CORRECTION (PROME → NEXUS cross-session, Will-authorized follow-through on CATO PRD1–3, `8ae69ad95`) — STANDARD tier
+
+STATUS Trading line reworded: ORCL FQ2 date = UNVERIFIED at Oracle IR as of 10/24, condition stands, TERRY verifies (WQ-518 "A for now, verify first") — my 15:1x line had carried PROME's "cannot be met before 11/20" over-statement; the cluster figure is now an equal-decline original-cost-at-expiry SCENARIO (11.76%), not a "breakeven". No NEXUS surface carries the GLD put-book-hedge line (PRD3). Dated originals (the 15:19 block below, the pass RECORD, the processed PROME packet) stay as written — labelled here. No letter, Conf % or split touched. 9b residue grep (`cannot be met` · `breakeven` · `put-book hedge`): STATUS fixed; the 15:19 block + RECORD + packet = RETAINED-HISTORY. **skipped:** 9c run (no fleet STATUS/brief since 15:00 besides this lane) · 10/11/14/15a n/a · 1c/1c-bis/1d n/a · 1b + 1e run.
+
+<!-- END VERBATIM F -->
