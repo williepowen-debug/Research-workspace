@@ -36,7 +36,7 @@
 | Mark | Meaning |
 |---|---|
 | ✅ **FRESH** | Brief present + STATUS-pin commit current (0 commits drift) OR brief edited after STATUS edit. Read brief; raw STATUS only on trigger (b)/(c). |
-| 🟡 **PIN-STALE** | Brief present, content current, but STATUS-pin hash not bumped. Read brief; flag pin-hygiene to that agent. NOT a (a) trigger if content is fresh. *(Historical legend; schema §4.4 now states precedence — same-day lag = the amendment-11 case; the content-fresh reading here vs §4.4's "mechanical, always fires" is an open disagreement flagged to Will 2026-10-24, not re-ruled in this map.)* |
+| 🟡 **PIN-STALE** — **HISTORICAL LABEL, NOT A CURRENT RULE (Will, WQ-519 (ii), 2026-10-24 17:10 ET)** | *Historical wording:* "Brief present, content current, but STATUS-pin hash not bumped. Read brief; flag pin-hygiene. NOT a (a) trigger if content is fresh." **The ratified schema §4.4 governs the trigger, including its existing exceptions** (a single-commit lag is tolerated; a same-day lag is the amendment-11 case); this row no longer defines when (a) fires. Record: `PROME/proposals/2026-10-24_wq519-nexus-charter-split-RULED.md`. |
 | 🟠 **CONTENT-STALE** | Brief present but >1 STATUS-commit behind AND brief content predates a material STATUS change. Trigger (a) fires → raw STATUS fallback + log to `brief_fallback_log.tsv`. |
 | ⏳ **MISSING** | No `NEXUS_BRIEF.md` exists. Raw STATUS is the only intake. Log to fallback as cause=stale (functionally equivalent) until brief exists. |
 | ⚪ **DORMANT** | Agent's own STATUS is itself stale (no recent activity). No brief expected; if NEXUS needs the domain, escalate to PROME/Will. |
@@ -49,5 +49,5 @@
 
 - **Update on every NEXUS boot** if any agent's brief status changed (new brief, refresh, pin-bump, drift state shift). Refresh the ★-dated freshness note; do NOT accrete a new snapshot table under the old one (the 7/5 prune removed three such stale layers — keep ONE current freshness note).
 - **Update on fleet milestone** (new brief added, new Tier-1 promoted/demoted, schema amendment changes drift rules).
-- **Drift recomputed via** `git log --oneline <brief-pin>..HEAD -- AGENTS/<NAME>/STATUS.md | wc -l`. ≤1 = within threshold; ≥2 = check whether content is fresh (PIN-STALE) or genuinely behind (CONTENT-STALE). On a multi-day re-anchor, batch this fleet-wide per BOOT step 6.
+- **Drift recomputed via** `git log --oneline <brief-pin>..HEAD -- AGENTS/<NAME>/STATUS.md | wc -l`. ≤1 = within threshold; ≥2 = trigger (a) per schema §4.4 (the former "check whether content is fresh (PIN-STALE)" branch is historical — WQ-519 (ii)). On a multi-day re-anchor, batch this fleet-wide per BOOT step 6.
 - **Pair with `brief_fallback_log.tsv`** — when fallback fires in practice, the cause-tag (stale/convergence/uncertainty/brief-gap) informs whether the map needs updating or the agent needs a flag.
