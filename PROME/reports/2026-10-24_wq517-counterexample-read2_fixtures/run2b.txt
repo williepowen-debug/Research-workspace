@@ -1,0 +1,354 @@
+
+[CE-A2 NEW] rc=1
+    UNCLASSIFIED: AGENTS/BROCK/z.md (new or changed observed version)
+
+[CE-A2 PRE-REPAIR] rc=1
+    UNCLASSIFIED: AGENTS/BROCK/z.md (new or changed observed version)
+
+[CE-A3 NEW] rc=1
+    UNCLASSIFIED: AGENTS/BROCK/z.md (new or changed observed version)
+
+[CE-A3 PRE-REPAIR] rc=1
+    UNCLASSIFIED: AGENTS/BROCK/z.md (new or changed observed version)
+
+[CE-A NEW] rc=1
+    UNCLASSIFIED: AGENTS/BROCK/y.md (new or changed observed version)
+
+[CE-A PRE-REPAIR] rc=1
+    UNCLASSIFIED: AGENTS/BROCK/y.md (new or changed observed version)
+
+[CE-B2 owned+perimeter delete NEW] rc=1
+    UNCLASSIFIED: PROME/old (new or changed observed version)
+    UNCLASSIFIED: PROME/state/AUDIT_PERIMETER.tsv (new or changed observed version)
+
+[CE-B2 owned+perimeter delete PRE-REPAIR] rc=1
+    UNCLASSIFIED: PROME/old (new or changed observed version)
+    UNCLASSIFIED: PROME/state/AUDIT_PERIMETER.tsv (new or changed observed version)
+
+[CE-B foreign delete NEW] rc=0
+    FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): AGENTS/BROCK/old.md
+    contract 66657a89539fa8af97cdd035c71818d205a8a4fef1e05029ce8680d019203b2f unchanged; verdict FROZEN; delivery b9fc06d2483dcfd9f4ab0e846749fad0708a06e1; snapshot b9fc06d2483dcfd9f4ab0e846749fad0708a06e1; 2 inventory paths retained, unrelated content not certified
+
+[CE-B foreign delete PRE-REPAIR] rc=1
+    UNCLASSIFIED: AGENTS/BROCK/old.md (new or changed observed version)
+
+[CE-C2 staged rename in foreign lane NEW] rc=0
+    FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): AGENTS/BROCK/a.md
+    FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): AGENTS/BROCK/b.md
+    contract 3b34ef12141affbed11e70390e5bcff58c81e873feeb0bb069b5e9da7cf19ef4 unchanged; verdict FROZEN; delivery 3042b8a5cba93a4762b66e519e776a015eac3e0d; snapshot 3042b8a5cba93a4762b66e519e776a015eac3e0d; 3 inventory paths retained, unrelated content not certified
+
+[CE-C2 staged rename in foreign lane PRE-REPAIR] rc=1
+    UNCLASSIFIED: AGENTS/BROCK/a.md (new or changed observed version)
+    UNCLASSIFIED: AGENTS/BROCK/b.md (new or changed observed version)
+
+[CE-C3 desk consumes a PROME packet (pending move) NEW] rc=1
+    UNCLASSIFIED: AGENTS/BROCK/inbox/2026-10-24_from-PROME_x.md (new or changed observed version)
+    UNCLASSIFIED: AGENTS/BROCK/inbox/processed/2026-10-24_from-PROME_x.md (new or changed observed version)
+
+[CE-C3 desk consumes a PROME packet (pending move) PRE-REPAIR] rc=1
+    UNCLASSIFIED: AGENTS/BROCK/inbox/2026-10-24_from-PROME_x.md (new or changed observed version)
+    UNCLASSIFIED: AGENTS/BROCK/inbox/processed/2026-10-24_from-PROME_x.md (new or changed observed version)
+
+porcelain: [(' D', 'PROME/old'), ('R ', 'AGENTS/BROCK/old'), ('??', 'PROME/state/argus_baseline.json'), ('??', 'PROME/state/argus_review.json')]
+
+[CE-C staged rename OWNED->EXCLUDED NEW] rc=1
+    UNCLASSIFIED: PROME/old (new or changed observed version)
+    FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): AGENTS/BROCK/old
+
+[CE-C staged rename OWNED->EXCLUDED PRE-REPAIR] rc=1
+    UNCLASSIFIED: AGENTS/BROCK/old (new or changed observed version)
+    UNCLASSIFIED: PROME/old (new or changed observed version)
+
+porcelain: [(' M', 'AGENTS/BROCK/m.md'), ('MM', 'OWNERX.md'), (' M', 'PROME/old'), ('??', 'PROME/state/argus_baseline.json'), ('??', 'PROME/state/argus_review.json')]
+
+[CE-D2 mode-only + staged-reverted NEW] rc=1
+    UNCLASSIFIED: PROME/old (new or changed observed version)
+    FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): AGENTS/BROCK/m.md
+    FOREIGN-PENDING (advisory, owner UNVERIFIED — UNATTRIBUTED lane, no PROME evidence): OWNERX.md
+
+[CE-D2 mode-only + staged-reverted PRE-REPAIR] rc=1
+    UNCLASSIFIED: AGENTS/BROCK/m.md (new or changed observed version)
+    UNCLASSIFIED: OWNERX.md (new or changed observed version)
+    UNCLASSIFIED: PROME/old (new or changed observed version)
+
+[CE-D staged add NEW] rc=0
+    FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): AGENTS/BROCK/s.md
+    contract 374466d8b9b65f421e748925b90e6ddf1c56f2c79911c1102da53b83031355ee unchanged; verdict FROZEN; delivery ccde5999dfdcabd0ae4b35d0bad7936faebe3c8a; snapshot ccde5999dfdcabd0ae4b35d0bad7936faebe3c8a; 2 inventory paths retained, unrelated content not certified
+
+[CE-D staged add PRE-REPAIR] rc=1
+    UNCLASSIFIED: AGENTS/BROCK/s.md (new or changed observed version)
+
+[CE-E lookalikes NEW] rc=0
+    FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): PROME/inbox/x.md
+    FOREIGN-PENDING (advisory, owner UNVERIFIED — UNATTRIBUTED lane, no PROME evidence): PROMEX/state/x.md
+    FOREIGN-PENDING (advisory, owner UNVERIFIED — UNATTRIBUTED lane, no PROME evidence): Prome/state/x.md
+    FOREIGN-PENDING (advisory, owner UNVERIFIED — UNATTRIBUTED lane, no PROME evidence): forge/x.md
+    FOREIGN-PENDING (advisory, owner UNVERIFIED — UNATTRIBUTED lane, no PROME evidence): prome/state/x.md
+    contract 374466d8b9b65f421e748925b90e6ddf1c56f2c79911c1102da53b83031355ee unchanged; verdict FROZEN; delivery ccde5999dfdcabd0ae4b35d0bad7936faebe3c8a; snapshot ccde5999dfdcabd0ae4b35d0bad7936faebe3c8a; 6 inventory paths retained, unrelated content not certified
+
+[CE-E lookalikes PRE-REPAIR] rc=1
+    UNCLASSIFIED: PROME/inbox/x.md (new or changed observed version)
+    UNCLASSIFIED: PROMEX/state/x.md (new or changed observed version)
+    UNCLASSIFIED: Prome/state/x.md (new or changed observed version)
+    UNCLASSIFIED: forge/x.md (new or changed observed version)
+    UNCLASSIFIED: prome/state/x.md (new or changed observed version)
+
+[CE-F2 AGENTS/.gitignore hides PROME-evidenced NEW] rc=1
+    UNCLASSIFIED: AGENTS/.gitignore (new or changed observed version)
+
+[CE-F2 AGENTS/.gitignore hides PROME-evidenced PRE-REPAIR] rc=1
+    UNCLASSIFIED: AGENTS/.gitignore (new or changed observed version)
+
+[CE-F3 AGENTS/BROCK/.gitignore hides SHARED inbox NEW] rc=1
+    UNCLASSIFIED: AGENTS/BROCK/.gitignore (new or changed observed version)
+
+[CE-F3 AGENTS/BROCK/.gitignore hides SHARED inbox PRE-REPAIR] rc=1
+    UNCLASSIFIED: AGENTS/BROCK/.gitignore (new or changed observed version)
+
+[CE-F4 working-tree form (step 8)] rc=0
+    FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): AGENTS/BROCK/.gitignore
+    contract 374466d8b9b65f421e748925b90e6ddf1c56f2c79911c1102da53b83031355ee unchanged; verdict FROZEN; delivery working tree; snapshot working tree; 2 inventory paths retained, unrelated content not certified
+
+[CE-F control (no ignore file)] rc=1
+    UNCLASSIFIED: .claude/skills/newskill/SKILL.md (new or changed observed version)
+
+[CE-F .claude/.gitignore hides OWNED NEW] rc=1
+    UNCLASSIFIED: .claude/.gitignore (new or changed observed version)
+
+[CE-F .claude/.gitignore hides OWNED PRE-REPAIR] rc=1
+    UNCLASSIFIED: .claude/.gitignore (new or changed observed version)
+   ignored? ?? .claude/.gitignore
+?? PROME/state/argus_baseline.json
+?? PROME/state/argus_review.json
+!! .claude/skills/newskill/SKILL.md
+
+[CE-G2 HEAD behind delivery, ref=delivery NEW] rc=0
+    FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): AGENTS/BROCK/q.md
+    FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): AGENTS/BROCK/q2.md
+    contract 5289e9bdbbc08845bf62e622b357184b1c4930fcf63181d488a725ec918ab6a7 unchanged; verdict FROZEN; delivery 7875cb8e531c47035a6b345fe57c4314dc59751c; snapshot 7875cb8e531c47035a6b345fe57c4314dc59751c; 3 inventory paths retained, unrelated content not certified
+
+[CE-G2 HEAD behind delivery, ref=delivery PRE-REPAIR] rc=1
+    UNCLASSIFIED: AGENTS/BROCK/q.md (new or changed observed version)
+    UNCLASSIFIED: AGENTS/BROCK/q2.md (new or changed observed version)
+
+[CE-G2b HEAD behind, snapshot=b NEW] rc=1
+    UNCLASSIFIED SNAPSHOT PATH: AGENTS/BROCK/q2.md
+    FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): AGENTS/BROCK/q.md
+    FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): AGENTS/BROCK/q2.md
+
+[CE-G2b HEAD behind, snapshot=b PRE-REPAIR] rc=1
+    UNCLASSIFIED: AGENTS/BROCK/q.md (new or changed observed version)
+    UNCLASSIFIED: AGENTS/BROCK/q2.md (new or changed observed version)
+    UNCLASSIFIED SNAPSHOT PATH: AGENTS/BROCK/q2.md
+
+HEAD 7875cb8e5 a 7875cb8e5 p 15484704f
+
+[CE-G snapshot not ancestor of HEAD NEW] rc=1
+    UNCLASSIFIED SNAPSHOT PATH: AGENTS/BROCK/z.md
+    FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): AGENTS/BROCK/z.md
+
+[CE-G snapshot not ancestor of HEAD PRE-REPAIR] rc=1
+    UNCLASSIFIED: AGENTS/BROCK/z.md (new or changed observed version)
+    UNCLASSIFIED SNAPSHOT PATH: AGENTS/BROCK/z.md
+
+[CE-H rc0 advisory only] rc=0
+    FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): AGENTS/BROCK/new.md
+    contract 5289e9bdbbc08845bf62e622b357184b1c4930fcf63181d488a725ec918ab6a7 unchanged; verdict FROZEN; delivery 7875cb8e531c47035a6b345fe57c4314dc59751c; snapshot 7875cb8e531c47035a6b345fe57c4314dc59751c; 2 inventory paths retained, unrelated content not certified
+
+[CE-H2 + later unreviewed PROME commit] rc=1
+    UNCLASSIFIED: PROME/later (new or changed observed version)
+    FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): AGENTS/BROCK/new.md
+
+[CE-A2 NEW] rc=1
+    UNCLASSIFIED: AGENTS/BROCK/z.md (new or changed observed version)
+
+[CE-A2 PRE-REPAIR] rc=1
+    UNCLASSIFIED: AGENTS/BROCK/z.md (new or changed observed version)
+
+[CE-A3 NEW] rc=1
+    UNCLASSIFIED: AGENTS/BROCK/z.md (new or changed observed version)
+
+[CE-A3 PRE-REPAIR] rc=1
+    UNCLASSIFIED: AGENTS/BROCK/z.md (new or changed observed version)
+
+[CE-A NEW] rc=1
+    UNCLASSIFIED: AGENTS/BROCK/y.md (new or changed observed version)
+
+[CE-A PRE-REPAIR] rc=1
+    UNCLASSIFIED: AGENTS/BROCK/y.md (new or changed observed version)
+
+[CE-B2 owned+perimeter delete NEW] rc=1
+    UNCLASSIFIED: PROME/old (new or changed observed version)
+    UNCLASSIFIED: PROME/state/AUDIT_PERIMETER.tsv (new or changed observed version)
+
+[CE-B2 owned+perimeter delete PRE-REPAIR] rc=1
+    UNCLASSIFIED: PROME/old (new or changed observed version)
+    UNCLASSIFIED: PROME/state/AUDIT_PERIMETER.tsv (new or changed observed version)
+
+[CE-B foreign delete NEW] rc=0
+    FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): AGENTS/BROCK/old.md
+    contract d5c385018166ee0b28b33a9643fef98ea0beb9e72e5a119abef5a78809ab74cf unchanged; verdict FROZEN; delivery e71e3d0bb9096eeabc715c9e5ec2df081faef73b; snapshot e71e3d0bb9096eeabc715c9e5ec2df081faef73b; 2 inventory paths retained, unrelated content not certified
+
+[CE-B foreign delete PRE-REPAIR] rc=1
+    UNCLASSIFIED: AGENTS/BROCK/old.md (new or changed observed version)
+
+[CE-C2 staged rename in foreign lane NEW] rc=0
+    FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): AGENTS/BROCK/a.md
+    FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): AGENTS/BROCK/b.md
+    contract 23193ee3e00243cbdf70d6a41fefa1993c214ac429cb5c0eb3a014285b60d781 unchanged; verdict FROZEN; delivery 33f40a616b1b1c4cd2e010fc9bb488bfaadb4eb3; snapshot 33f40a616b1b1c4cd2e010fc9bb488bfaadb4eb3; 3 inventory paths retained, unrelated content not certified
+
+[CE-C2 staged rename in foreign lane PRE-REPAIR] rc=1
+    UNCLASSIFIED: AGENTS/BROCK/a.md (new or changed observed version)
+    UNCLASSIFIED: AGENTS/BROCK/b.md (new or changed observed version)
+
+[CE-C3 desk consumes a PROME packet (pending move) NEW] rc=1
+    UNCLASSIFIED: AGENTS/BROCK/inbox/2026-10-24_from-PROME_x.md (new or changed observed version)
+    UNCLASSIFIED: AGENTS/BROCK/inbox/processed/2026-10-24_from-PROME_x.md (new or changed observed version)
+
+[CE-C3 desk consumes a PROME packet (pending move) PRE-REPAIR] rc=1
+    UNCLASSIFIED: AGENTS/BROCK/inbox/2026-10-24_from-PROME_x.md (new or changed observed version)
+    UNCLASSIFIED: AGENTS/BROCK/inbox/processed/2026-10-24_from-PROME_x.md (new or changed observed version)
+
+porcelain: [(' D', 'PROME/old'), ('R ', 'AGENTS/BROCK/old'), ('??', 'PROME/state/argus_baseline.json'), ('??', 'PROME/state/argus_review.json')]
+
+[CE-C staged rename OWNED->EXCLUDED NEW] rc=1
+    UNCLASSIFIED: PROME/old (new or changed observed version)
+    FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): AGENTS/BROCK/old
+
+[CE-C staged rename OWNED->EXCLUDED PRE-REPAIR] rc=1
+    UNCLASSIFIED: AGENTS/BROCK/old (new or changed observed version)
+    UNCLASSIFIED: PROME/old (new or changed observed version)
+
+porcelain: [(' M', 'AGENTS/BROCK/m.md'), ('MM', 'OWNERX.md'), (' M', 'PROME/old'), ('??', 'PROME/state/argus_baseline.json'), ('??', 'PROME/state/argus_review.json')]
+
+[CE-D2 mode-only + staged-reverted NEW] rc=1
+    UNCLASSIFIED: PROME/old (new or changed observed version)
+    FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): AGENTS/BROCK/m.md
+    FOREIGN-PENDING (advisory, owner UNVERIFIED — UNATTRIBUTED lane, no PROME evidence): OWNERX.md
+
+[CE-D2 mode-only + staged-reverted PRE-REPAIR] rc=1
+    UNCLASSIFIED: AGENTS/BROCK/m.md (new or changed observed version)
+    UNCLASSIFIED: OWNERX.md (new or changed observed version)
+    UNCLASSIFIED: PROME/old (new or changed observed version)
+
+[CE-D staged add NEW] rc=0
+    FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): AGENTS/BROCK/s.md
+    contract 2edc5a5e2227e2ff16303a90fe597cc2f98004f6729ac8d65ad2dbb22d76c9a5 unchanged; verdict FROZEN; delivery 9162e4bc28a5aceb6df5defd08ddf8fa5528e3b2; snapshot 9162e4bc28a5aceb6df5defd08ddf8fa5528e3b2; 2 inventory paths retained, unrelated content not certified
+
+[CE-D staged add PRE-REPAIR] rc=1
+    UNCLASSIFIED: AGENTS/BROCK/s.md (new or changed observed version)
+
+[CE-E lookalikes NEW] rc=0
+    FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): PROME/inbox/x.md
+    FOREIGN-PENDING (advisory, owner UNVERIFIED — UNATTRIBUTED lane, no PROME evidence): PROMEX/state/x.md
+    FOREIGN-PENDING (advisory, owner UNVERIFIED — UNATTRIBUTED lane, no PROME evidence): Prome/state/x.md
+    FOREIGN-PENDING (advisory, owner UNVERIFIED — UNATTRIBUTED lane, no PROME evidence): forge/x.md
+    FOREIGN-PENDING (advisory, owner UNVERIFIED — UNATTRIBUTED lane, no PROME evidence): prome/state/x.md
+    contract 2edc5a5e2227e2ff16303a90fe597cc2f98004f6729ac8d65ad2dbb22d76c9a5 unchanged; verdict FROZEN; delivery 9162e4bc28a5aceb6df5defd08ddf8fa5528e3b2; snapshot 9162e4bc28a5aceb6df5defd08ddf8fa5528e3b2; 6 inventory paths retained, unrelated content not certified
+
+[CE-E lookalikes PRE-REPAIR] rc=1
+    UNCLASSIFIED: PROME/inbox/x.md (new or changed observed version)
+    UNCLASSIFIED: PROMEX/state/x.md (new or changed observed version)
+    UNCLASSIFIED: Prome/state/x.md (new or changed observed version)
+    UNCLASSIFIED: forge/x.md (new or changed observed version)
+    UNCLASSIFIED: prome/state/x.md (new or changed observed version)
+
+[CE-F2 AGENTS/.gitignore hides PROME-evidenced NEW] rc=1
+    UNCLASSIFIED: AGENTS/.gitignore (new or changed observed version)
+
+[CE-F2 AGENTS/.gitignore hides PROME-evidenced PRE-REPAIR] rc=1
+    UNCLASSIFIED: AGENTS/.gitignore (new or changed observed version)
+
+[CE-F3 AGENTS/BROCK/.gitignore hides SHARED inbox NEW] rc=1
+    UNCLASSIFIED: AGENTS/BROCK/.gitignore (new or changed observed version)
+
+[CE-F3 AGENTS/BROCK/.gitignore hides SHARED inbox PRE-REPAIR] rc=1
+    UNCLASSIFIED: AGENTS/BROCK/.gitignore (new or changed observed version)
+
+[CE-F4 working-tree form (step 8)] rc=0
+    FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): AGENTS/BROCK/.gitignore
+    contract b8cb149930a0889609dc6b3657c7f3ee396566139a81c0a9c8516668b1196ce0 unchanged; verdict FROZEN; delivery working tree; snapshot working tree; 2 inventory paths retained, unrelated content not certified
+
+[CE-F control (no ignore file)] rc=1
+    UNCLASSIFIED: .claude/skills/newskill/SKILL.md (new or changed observed version)
+
+[CE-F .claude/.gitignore hides OWNED NEW] rc=1
+    UNCLASSIFIED: .claude/.gitignore (new or changed observed version)
+
+[CE-F .claude/.gitignore hides OWNED PRE-REPAIR] rc=1
+    UNCLASSIFIED: .claude/.gitignore (new or changed observed version)
+   ignored? ?? .claude/.gitignore
+?? PROME/state/argus_baseline.json
+?? PROME/state/argus_review.json
+!! .claude/skills/newskill/SKILL.md
+
+[CE-G2 HEAD behind delivery, ref=delivery NEW] rc=0
+    FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): AGENTS/BROCK/q.md
+    FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): AGENTS/BROCK/q2.md
+    contract b8cb149930a0889609dc6b3657c7f3ee396566139a81c0a9c8516668b1196ce0 unchanged; verdict FROZEN; delivery d1523aca1065c21c925624387eea01ae03ae8be7; snapshot d1523aca1065c21c925624387eea01ae03ae8be7; 3 inventory paths retained, unrelated content not certified
+
+[CE-G2 HEAD behind delivery, ref=delivery PRE-REPAIR] rc=1
+    UNCLASSIFIED: AGENTS/BROCK/q.md (new or changed observed version)
+    UNCLASSIFIED: AGENTS/BROCK/q2.md (new or changed observed version)
+
+[CE-G2b HEAD behind, snapshot=b NEW] rc=1
+    UNCLASSIFIED SNAPSHOT PATH: AGENTS/BROCK/q2.md
+    FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): AGENTS/BROCK/q.md
+    FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): AGENTS/BROCK/q2.md
+
+[CE-G2b HEAD behind, snapshot=b PRE-REPAIR] rc=1
+    UNCLASSIFIED: AGENTS/BROCK/q.md (new or changed observed version)
+    UNCLASSIFIED: AGENTS/BROCK/q2.md (new or changed observed version)
+    UNCLASSIFIED SNAPSHOT PATH: AGENTS/BROCK/q2.md
+
+[CE-G3 control HEAD==a] rc=1
+    UNCLASSIFIED: AGENTS/BROCK/p.md (new or changed observed version)
+    UNCLASSIFIED SNAPSHOT PATH: AGENTS/BROCK/p.md
+
+porcelain: [('A ', 'AGENTS/BROCK/h.md'), ('A ', 'AGENTS/BROCK/p.md'), ('A ', 'PROME/result'), ('??', 'PROME/state/argus_baseline.json'), ('??', 'PROME/state/argus_review.json')]
+
+[CE-G3 HEAD reset to baseline, history paths now staged-pending NEW] rc=1
+    UNCLASSIFIED SNAPSHOT PATH: AGENTS/BROCK/h.md
+    UNCLASSIFIED SNAPSHOT PATH: AGENTS/BROCK/p.md
+    FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): AGENTS/BROCK/h.md
+    FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): AGENTS/BROCK/p.md
+
+[CE-G3 HEAD reset to baseline, history paths now staged-pending PRE-REPAIR] rc=1
+    UNCLASSIFIED: AGENTS/BROCK/h.md (new or changed observed version)
+    UNCLASSIFIED: AGENTS/BROCK/p.md (new or changed observed version)
+    UNCLASSIFIED SNAPSHOT PATH: AGENTS/BROCK/h.md
+    UNCLASSIFIED SNAPSHOT PATH: AGENTS/BROCK/p.md
+
+HEAD d1523aca1 a d1523aca1 p d653f2116
+
+[CE-G snapshot not ancestor of HEAD NEW] rc=1
+    UNCLASSIFIED SNAPSHOT PATH: AGENTS/BROCK/z.md
+    FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): AGENTS/BROCK/z.md
+
+[CE-G snapshot not ancestor of HEAD PRE-REPAIR] rc=1
+    UNCLASSIFIED: AGENTS/BROCK/z.md (new or changed observed version)
+    UNCLASSIFIED SNAPSHOT PATH: AGENTS/BROCK/z.md
+
+[CE-H rc0 advisory only] rc=0
+    FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): AGENTS/BROCK/new.md
+    contract bda20add56c98046c537a7dc0b3aa45f02e9d556fd9802523197f7435caa3cb7 unchanged; verdict FROZEN; delivery 6222e4ee6fb0bab8ca9e45683f17f13eb8ec1e51; snapshot 6222e4ee6fb0bab8ca9e45683f17f13eb8ec1e51; 2 inventory paths retained, unrelated content not certified
+
+[CE-H2 + later unreviewed PROME commit] rc=1
+    UNCLASSIFIED: PROME/later (new or changed observed version)
+    FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): AGENTS/BROCK/new.md
+
+[CE-I2 current dep edited after commit (--ref) NEW] rc=0
+    contract 6128541d61b4de0d00bbc9196b79db61d812b0cd5f4350530c6cd53cd14eac68 unchanged; verdict FROZEN; delivery 985d76f8fbc166dcce2ecf4027147e32ec909426; snapshot 985d76f8fbc166dcce2ecf4027147e32ec909426; 2 inventory paths retained, unrelated content not certified
+
+[CE-I2 current dep edited after commit (--ref) PRE-REPAIR] rc=0
+    contract 6128541d61b4de0d00bbc9196b79db61d812b0cd5f4350530c6cd53cd14eac68 unchanged; verdict FROZEN; delivery 985d76f8fbc166dcce2ecf4027147e32ec909426; snapshot 985d76f8fbc166dcce2ecf4027147e32ec909426; 2 inventory paths retained, unrelated content not certified
+
+[CE-I2 same at working-tree form] rc=1
+    CHANGED-SINCE-REVIEW: current evidence AGENTS/BROCK/ev.md
+
+[CE-I historical dep, live file edited after commit NEW] rc=0
+    FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): AGENTS/BROCK/ev.md
+    contract d70cfc70dbc2afb2f4260a9c20c07dc3841981221471c7dc3474cff767b0ea02 unchanged; verdict FROZEN; delivery 985d76f8fbc166dcce2ecf4027147e32ec909426; snapshot 985d76f8fbc166dcce2ecf4027147e32ec909426; 2 inventory paths retained, unrelated content not certified
+
+[CE-I historical dep, live file edited after commit PRE-REPAIR] rc=1
+    UNCLASSIFIED: AGENTS/BROCK/ev.md (new or changed observed version)

@@ -1,0 +1,6 @@
+
+FAILED (failures=3)
+FAILED: ['test_z9_ce_f_nested_ignore_file_above_an_owned_arrival_stays_strict_at_the_ref_form', 'test_z9b_ce_f2_shared_lane_ignore_file_hiding_a_prome_packet_stays_strict_at_the_ref_form', 'test_z9c_ce_f3_desk_root_ignore_file_over_its_inbox_stays_strict_at_the_ref_form']
+
+OK
+FAILED: []

@@ -1,0 +1,39 @@
+...
+----------------------------------------------------------------------
+Ran 3 tests in 0.926s
+
+OK
+
+[CE-I historical dep, live file edited after commit NEW] rc=0
+    FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): AGENTS/BROCK/ev.md
+    contract 0bd19e5cf0a4d0117d30cbf531f31ace8686bc49f3c56a822a2a0a57e3f2776f unchanged; verdict FROZEN; delivery 6967f30016ea005e6685748cbe3184c673c79819; snapshot 6967f30016ea005e6685748cbe3184c673c79819; 2 inventory paths retained, unrelated content not certified
+
+[CE-I historical dep, live file edited after commit PRE-REPAIR] rc=1
+    UNCLASSIFIED: AGENTS/BROCK/ev.md (new or changed observed version)
+
+[CE-I2 current dep edited after commit (--ref) NEW] rc=0
+    contract 6a9b752bef1265090f7e5024a1789ee2762a4ef14cb9c1e977e3a3cc4f5fb724 unchanged; verdict FROZEN; delivery 6967f30016ea005e6685748cbe3184c673c79819; snapshot 6967f30016ea005e6685748cbe3184c673c79819; 2 inventory paths retained, unrelated content not certified
+
+[CE-I2 current dep edited after commit (--ref) PRE-REPAIR] rc=0
+    contract 6a9b752bef1265090f7e5024a1789ee2762a4ef14cb9c1e977e3a3cc4f5fb724 unchanged; verdict FROZEN; delivery 6967f30016ea005e6685748cbe3184c673c79819; snapshot 6967f30016ea005e6685748cbe3184c673c79819; 2 inventory paths retained, unrelated content not certified
+
+[CE-I2 same at working-tree form] rc=1
+    CHANGED-SINCE-REVIEW: current evidence AGENTS/BROCK/ev.md
+
+[CE-G3 control HEAD==a] rc=1
+    UNCLASSIFIED: AGENTS/BROCK/p.md (new or changed observed version)
+    UNCLASSIFIED SNAPSHOT PATH: AGENTS/BROCK/p.md
+
+porcelain: [('A ', 'AGENTS/BROCK/h.md'), ('A ', 'AGENTS/BROCK/p.md'), ('A ', 'PROME/result'), ('??', 'PROME/state/argus_baseline.json'), ('??', 'PROME/state/argus_review.json')]
+
+[CE-G3 HEAD reset to baseline, history paths now staged-pending NEW] rc=1
+    UNCLASSIFIED SNAPSHOT PATH: AGENTS/BROCK/h.md
+    UNCLASSIFIED SNAPSHOT PATH: AGENTS/BROCK/p.md
+    FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): AGENTS/BROCK/h.md
+    FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): AGENTS/BROCK/p.md
+
+[CE-G3 HEAD reset to baseline, history paths now staged-pending PRE-REPAIR] rc=1
+    UNCLASSIFIED: AGENTS/BROCK/h.md (new or changed observed version)
+    UNCLASSIFIED: AGENTS/BROCK/p.md (new or changed observed version)
+    UNCLASSIFIED SNAPSHOT PATH: AGENTS/BROCK/h.md
+    UNCLASSIFIED SNAPSHOT PATH: AGENTS/BROCK/p.md

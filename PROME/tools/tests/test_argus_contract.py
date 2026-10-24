@@ -436,6 +436,118 @@ class PerimeterPinTests(ContractFixture):
         self.assertEqual(rc, 0, lines)
         self.assertIn(FP.format('EXCLUDED', 'AGENTS/BROCK/research/.gitignore'), lines)
 
+    # --- WQ-517 A (Will 2026-10-24): pending-only foreign paths are advisory at the --ref / --snapshot forms too.
+    # Acceptance: ACCEPTANCE_closeout_gate_ref_pending_only_2026-10-24.md (AC1–AC8) ---
+
+    def desk_commit(self, path, text, subject='BROCK: desk note'):
+        self.write(path, text)
+        self.git('add', '--', path); self.git('commit', '-qm', subject, '--', path)
+        return self.git('rev-parse', 'HEAD')
+
+    def test_z1_ac1_pending_only_foreign_arrival_is_advisory_at_the_ref_form(self):
+        self.freeze(); a = self.commit('PROME/result')
+        self.write('AGENTS/BROCK/new.md', 'desk wrote after the delivery commit\n')
+        rc, lines = sc.verify_review(ref=a, paths=['PROME/result'])
+        self.assertEqual(rc, 0, lines)
+        self.assertEqual(self.foreign_lines(lines), [FP.format('EXCLUDED', 'AGENTS/BROCK/new.md')])
+        self.assertNotIn(UNC.format('AGENTS/BROCK/new.md'), lines)
+
+    def test_z2_ac2_committed_and_pending_foreign_path_stays_strict_at_the_ref_form(self):
+        self.freeze(); a = self.commit('PROME/result')
+        self.desk_commit('AGENTS/BROCK/new.md', 'v1\n')
+        self.write('AGENTS/BROCK/new.md', 'v2 pending\n')
+        rc, lines = sc.verify_review(ref=a, paths=['PROME/result'])
+        self.assertEqual(rc, 1, lines)
+        self.assertIn(UNC.format('AGENTS/BROCK/new.md'), lines)
+        self.assertEqual(self.foreign_lines(lines), [])
+
+    def test_z3_ac3_delivery_commit_paths_unchanged_either_way(self):
+        self.freeze(); self.write('PROME/extra', 'rode along'); a = self.commit('PROME/result', 'PROME/extra')
+        rc, lines = sc.verify_review(ref=a, paths=['PROME/result'])
+        self.assertEqual(rc, 1, lines)
+        self.assertIn('UNREVIEWED ACTUAL COMMIT PATH: PROME/extra', lines)
+        self.assertEqual(self.foreign_lines(lines), [])
+
+    def test_z3b_ac3_pending_edit_of_a_delivered_path_after_the_commit_verifies_committed_bytes(self):
+        self.freeze(); a = self.commit('PROME/result')
+        self.write('PROME/result', 'edited after the delivery commit\n')
+        rc, lines = sc.verify_review(ref=a, paths=['PROME/result'])
+        self.assertEqual(rc, 0, lines)
+        self.assertEqual(self.foreign_lines(lines), [])
+
+    def test_z4_ac4_owned_lane_arrival_stays_strict_at_the_ref_form(self):
+        self.freeze(); a = self.commit('PROME/result')
+        self.write('PROME/state/x.md', 'someone wrote in the owned lane\n')
+        rc, lines = sc.verify_review(ref=a, paths=['PROME/result'])
+        self.assertEqual(rc, 1, lines)
+        self.assertIn(UNC.format('PROME/state/x.md'), lines)
+        self.assertEqual(self.foreign_lines(lines), [])
+
+    def test_z5_ac5_prome_evidenced_arrival_stays_strict_at_the_ref_form(self):
+        self.freeze(); a = self.commit('PROME/result')
+        self.write('AGENTS/BROCK/inbox/2026-10-24_from-PROME_x.md', 'PROME packet, uncommitted\n')
+        rc, lines = sc.verify_review(ref=a, paths=['PROME/result'])
+        self.assertEqual(rc, 1, lines)
+        self.assertIn(UNC.format('AGENTS/BROCK/inbox/2026-10-24_from-PROME_x.md'), lines)
+        self.assertEqual(self.foreign_lines(lines), [])
+
+    def test_z6_ac6_root_gitignore_edit_after_the_commit_stays_strict_at_the_ref_form(self):
+        self.freeze(); a = self.commit('PROME/result')
+        self.write('.gitignore', 'PROME/state/*.tmp\n')
+        rc, lines = sc.verify_review(ref=a, paths=['PROME/result'])
+        self.assertEqual(rc, 1, lines)
+        self.assertIn(UNC.format('.gitignore'), lines)
+        self.assertEqual(self.foreign_lines(lines), [])
+
+    def test_z7_ac7_manifest_without_a_pin_runs_strict_at_the_ref_form(self):
+        self.freeze(); d = self.manifest(); del d['perimeter']; self.save(d)
+        a = self.commit('PROME/result')
+        self.write('AGENTS/BROCK/new.md', 'x\n')
+        rc, lines = sc.verify_review(ref=a, paths=['PROME/result'])
+        self.assertEqual(rc, 1, lines)
+        self.assertIn(UNC.format('AGENTS/BROCK/new.md'), lines)
+        self.assertEqual(self.foreign_lines(lines), [])
+
+    def test_z8_ac8_snapshot_history_stays_strict_while_pending_only_is_advisory(self):
+        self.freeze(); a = self.commit('PROME/result')
+        p = self.desk_commit('AGENTS/BROCK/other.md', 'v1\n', 'BROCK: other note')
+        self.write('AGENTS/BROCK/other.md', 'v2 pending\n')
+        self.write('AGENTS/BROCK/new.md', 'pending only\n')
+        rc, lines = sc.verify_review(ref=a, snapshot=p, paths=['PROME/result'])
+        self.assertEqual(rc, 1, lines)
+        self.assertIn(UNC.format('AGENTS/BROCK/other.md'), lines)
+        self.assertIn('UNCLASSIFIED SNAPSHOT PATH: AGENTS/BROCK/other.md', lines)
+        self.assertEqual(self.foreign_lines(lines), [FP.format('EXCLUDED', 'AGENTS/BROCK/new.md')])
+
+    # --- read #1 of the WQ-517 repair (Opus, 2026-10-24 19:4x ET) ❌1: nested ignore files at the --ref form ---
+
+    def test_z9_ce_f_nested_ignore_file_above_an_owned_arrival_stays_strict_at_the_ref_form(self):
+        self.freeze(); a = self.commit('PROME/result')
+        self.write('.claude/skills/newskill/SKILL.md', 'owned arrival\n')
+        self.write('.claude/.gitignore', 'skills/newskill/\n')
+        rc, lines = sc.verify_review(ref=a, paths=['PROME/result'])
+        self.assertEqual(rc, 1, lines)
+        self.assertIn(UNC.format('.claude/.gitignore'), lines)
+        self.assertEqual(self.foreign_lines(lines), [])
+
+    def test_z9b_ce_f2_shared_lane_ignore_file_hiding_a_prome_packet_stays_strict_at_the_ref_form(self):
+        self.freeze(); a = self.commit('PROME/result')
+        self.write('AGENTS/BROCK/inbox/2026-10-24_from-PROME_x.md', 'PROME packet\n')
+        self.write('AGENTS/.gitignore', '*/inbox/*from-PROME*\n')
+        rc, lines = sc.verify_review(ref=a, paths=['PROME/result'])
+        self.assertEqual(rc, 1, lines)
+        self.assertIn(UNC.format('AGENTS/.gitignore'), lines)
+        self.assertEqual(self.foreign_lines(lines), [])
+
+    def test_z9c_ce_f3_desk_root_ignore_file_over_its_inbox_stays_strict_at_the_ref_form(self):
+        self.freeze(); a = self.commit('PROME/result')
+        self.write('AGENTS/BROCK/inbox/2026-10-24_from-PROME_y.md', 'PROME packet\n')
+        self.write('AGENTS/BROCK/.gitignore', 'inbox/\n')
+        rc, lines = sc.verify_review(ref=a, paths=['PROME/result'])
+        self.assertEqual(rc, 1, lines)
+        self.assertIn(UNC.format('AGENTS/BROCK/.gitignore'), lines)
+        self.assertEqual(self.foreign_lines(lines), [])
+
     def test_y4_pin_digest_covers_the_bytes_the_rules_were_parsed_from(self):
         self.freeze(); d = self.manifest()
         self.assertEqual(d['perimeter']['sha256'], hashlib.sha256((self.root / sc.PERIMETER_FILE).read_bytes()).hexdigest())

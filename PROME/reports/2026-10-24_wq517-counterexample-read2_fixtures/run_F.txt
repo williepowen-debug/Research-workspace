@@ -1,0 +1,34 @@
+....
+----------------------------------------------------------------------
+Ran 4 tests in 0.723s
+
+OK
+
+[CE-F control (no ignore file)] rc=1
+    UNCLASSIFIED: .claude/skills/newskill/SKILL.md (new or changed observed version)
+
+[CE-F .claude/.gitignore hides OWNED NEW] rc=1
+    UNCLASSIFIED: .claude/.gitignore (new or changed observed version)
+
+[CE-F .claude/.gitignore hides OWNED PRE-REPAIR] rc=1
+    UNCLASSIFIED: .claude/.gitignore (new or changed observed version)
+   ignored? ?? .claude/.gitignore
+?? PROME/state/argus_baseline.json
+?? PROME/state/argus_review.json
+!! .claude/skills/newskill/SKILL.md
+
+[CE-F2 AGENTS/.gitignore hides PROME-evidenced NEW] rc=1
+    UNCLASSIFIED: AGENTS/.gitignore (new or changed observed version)
+
+[CE-F2 AGENTS/.gitignore hides PROME-evidenced PRE-REPAIR] rc=1
+    UNCLASSIFIED: AGENTS/.gitignore (new or changed observed version)
+
+[CE-F3 AGENTS/BROCK/.gitignore hides SHARED inbox NEW] rc=1
+    UNCLASSIFIED: AGENTS/BROCK/.gitignore (new or changed observed version)
+
+[CE-F3 AGENTS/BROCK/.gitignore hides SHARED inbox PRE-REPAIR] rc=1
+    UNCLASSIFIED: AGENTS/BROCK/.gitignore (new or changed observed version)
+
+[CE-F4 working-tree form (step 8)] rc=0
+    FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): AGENTS/BROCK/.gitignore
+    contract 35144081b7239b23c69dd337d6f5fdcc01421b5c44c6d4c5f2db4e8689a2b9ce unchanged; verdict FROZEN; delivery working tree; snapshot working tree; 2 inventory paths retained, unrelated content not certified

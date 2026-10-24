@@ -309,6 +309,7 @@ def verify(sc, manifest, paths=None, ref=None, snapshot=None):
         # Will 2026-10-22 12:34 ET ("we need to change these rules"): on a WORKING-TREE verify, a PENDING path that is
         # neither OWNED nor PROME-evidenced is another owner's live work — advisory, never blocking. The delivery
         # commit (--ref) is still verified by its actual paths. Acceptance: ACCEPTANCE_closeout_gate_foreign_pending_2026-10-22.md
+        # WQ-517 A (2026-10-24) extends the advisory branch to the --ref / --snapshot forms for PENDING-ONLY paths; see the loop.
         advisories = []
         try:
             subjects = sc.commit_subjects(c['baseline'])
@@ -340,7 +341,18 @@ def verify(sc, manifest, paths=None, ref=None, snapshot=None):
                 require(checked['basis'] == entry['basis'], f'{path}: attribution basis changed')
                 matched = True
             if not matched:
-                lane = foreign_pending(path, state) if target is None else None
+                # WQ-517 A (Will 2026-10-24, full registered restrictions): at the --ref / --snapshot forms the
+                # advisory branch reaches ONLY a pending-only path — no commit in baseline..HEAD, hence outside the
+                # delivery commit and outside baseline-to-target history — that the predicate already calls foreign
+                # (not delivered, not never-advisory, not OWNED under the pin, no PROME evidence). Delivered content,
+                # dependencies, actual commit paths, history and snapshot paths stay strict below.
+                # Acceptance: ACCEPTANCE_closeout_gate_ref_pending_only_2026-10-24.md
+                # Read #1 ❌1 (CE-F/F2/F3, 2026-10-24 19:4x ET): a NESTED ignore file is not `never_advisory` when its own
+                # folder is EXCLUDED, yet its patterns can hide an OWNED / PROME-evidenced arrival below it from this
+                # inventory — so at the --ref / --snapshot forms every ignore file keeps the PRE-REPAIR strict behaviour
+                # (UNCLASSIFIED); the working-tree gap for the same file is DOCKET L835, unchanged here.
+                pending_only = target is None or (not state['commits'] and PurePosixPath(path).name not in IGNORE_FILES)
+                lane = foreign_pending(path, state) if pending_only else None
                 if lane:
                     advisories.append(f'FOREIGN-PENDING (advisory, owner UNVERIFIED — {lane} lane, no PROME evidence): {path}')
                 else:
