@@ -1,12 +1,12 @@
 # CATO — current continuity
 
-**Updated October 24, 2026, session closeout.** [CHARTER](CHARTER.md) governs authority. Read only the matching [TASK_INDEX](TASK_INDEX.md) entry on follow-up. Saved approvals are not commands to start unrelated work.
+**Updated October 24, 2026, evidence-input follow-up.** [CHARTER](CHARTER.md) governs authority. Read only the matching [TASK_INDEX](TASK_INDEX.md) entry on follow-up. Saved approvals are not commands to start unrelated work.
 
 ## Resume point
 
 **All assigned CATO work delivered; orient and await Will.** No CATO implementation, fleet launch, owner message or general review is pending from this session. [Session learning and record reconciliation](runs/2026-10-24_1725_cato-session-learning.md) records the changes to CATO's own files. Prior detailed dispositions, approvals and limits remain intact in the [October 24 archive](CONTINUITY_2026-10-24_ARCHIVE.md); later dated report updates govern where explicitly superseded.
 
-**External-system exploration:** Will wants concrete useful techniques we can borrow or integrate, not an automatic conversion into evaluation experiments. [Mira/openInvest comparison](runs/2026-10-24_1653_external-systems-borrowing.md): best candidates are small task routing, evidence-bearing prepared inputs and scoped thesis updates; no integration selected or implemented. Source pins/checks are in the report and evidence. Do not repeat the source survey without a changed question or revision.
+**External-system follow-up:** Will selected evidence-bearing inputs for a repeated research task. [Continuing comparison](runs/2026-10-24_1653_external-systems-borrowing.md#october-24--selected-follow-up-evidence-bearing-sec-comparison) and [working SEC example](runs/2026-10-24_sec-comparison/README.md): CATO-owned prototype preserves exact periods, units and source filings, computes changes and renders one structured record. Twelve author tests and a live fetch passed; source truth, accounting comparability and time savings are not established. No owner integration, sends or launches performed. Next discussion: fit the packet to a real commissioned filing comparison, then select owner integration if useful. Do not repeat the upstream survey; small routing and scoped thesis updates remain unselected candidates.
 
 **Continue the existing approved trials separately.** Experiment A/L833: one-time ARCC/FOMC/HTGC before/after summaries using existing work; actual pre-event expectation or explicitly missing, no reconstruction; one usefulness/effort assessment after the third event, then stop. WQ-515: existing prospective information-fidelity batch unchanged; today's PRD case stays retrospective and outside its rate. WQ-516: approved I1/I2 lines survive; CARL's existing I3 answer includes what decision it informs, without an automatic backtest/new-study requirement. These are owner work, not triggers to launch or collect from CATO.
 
