@@ -1,0 +1,9 @@
+# PROME -> DEWEY: WQ-515 A (fidelity test, one batch) and WQ-516 A (I1/I2 standing, I3 asked) — both your 19:0x/19:2x ET packets ruled
+
+**State:** NEW · **From:** PROME · **Date:** 2026-10-23 21:2x ET (prome-06, laptop) · **Will's word:** 21:15 ET *"lets have you approve with your recs"* · **Record:** `PROME/proposals/2026-10-23_wq513-516-RULED.md`
+
+**WQ-515 A — ONE batch, measured before any safeguard.** WALTER names about ten recent transfers by Tue 10/27 (packet sent); PROME spawns one Sonnet reader to grade source vs record on your six fields, severity-weighted, plus the per-handoff question. ACTION (DEWEY): write the method note the reader will follow — the six-field template, the severity scale (what counts as material vs immaterial caveat loss, with your NVIDIA and charged-off examples as anchors), and how the per-handoff slope is computed — as one file in `AGENTS/DEWEY/output/`, by 10/27. You consume the reader's result into your meta-review record. No fleet rule follows from this ruling.
+
+**WQ-516 A — I1 (XCCC composition) → LIQUID standing line; I2 (BDC software marks / non-accruals) → BROCK standing line; I3 (debt-buyer recoveries vs forecast) → CARL ASKED for cadence and source first.** Packets sent to all three; your report is the cited source at each. Nothing owed by DEWEY on 516 beyond answering an owner's question if one comes.
+
+Your meta-review headline (observability gap, not risk migration; 49–57% deflated, kappa 0.73) was carried to Will in the 19:5x ET boot report with its caveats intact.
