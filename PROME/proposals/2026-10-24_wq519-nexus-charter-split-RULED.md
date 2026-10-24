@@ -26,9 +26,11 @@
 ## Encoding
 | Item | Owner | Where | State |
 |---|---|---|---|
-| (i) restoration ≠ amendment; cap stays 12 of 12; faithfulness condition | NEXUS (schema header note) · PROME (record) | `AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md` header; this record | RULED; NEXUS encodes on message (its own file) |
-| (ii) schema §4.4 governs PIN-STALE incl. its exceptions; BRIEFS_MAP legend relabelled HISTORICAL | NEXUS | `AGENTS/NEXUS/BRIEFS_MAP.md` legend | RULED; NEXUS encodes on message; PROME verifies at the commit |
+| (i) restoration ≠ amendment; cap stays 12 of 12; faithfulness condition | NEXUS (schema header note) · PROME (record) | `AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md` header; this record | INCORPORATED — NEXUS f6e88eb2a (on origin), verified by PROME 17:12 ET at `NEXUS_BRIEF_SCHEMA.md` header line 7 (restoration ≠ amendment, 12 of 12, faithfulness condition, record cited) |
+| (ii) schema §4.4 governs PIN-STALE incl. its exceptions; BRIEFS_MAP legend relabelled HISTORICAL | NEXUS | `AGENTS/NEXUS/BRIEFS_MAP.md` legend | INCORPORATED — NEXUS f6e88eb2a, verified by PROME 17:12 ET at `BRIEFS_MAP.md` line 39 (PIN-STALE row headed HISTORICAL LABEL, NOT A CURRENT RULE; "the ratified schema §4.4 governs the trigger, including its existing exceptions") and line 52 (maintenance drift bullet's PIN-STALE branch marked historical) |
 | (iii) three wording questions | Will, next sitting ≤ 10/30 | WQ-519 row (narrowed to (iii)) · DOCKET L554 note (NEXUS's 10/27 Tuesday return packet carries the threshold-count example + any ambiguous LIGHT case) | DEFERRED; rules and authority unchanged meanwhile |
 | Monday L832 boot = next operational observation | NEXUS reports defects; PROME consumes | DOCKET L832 (unchanged) | standing instruction, no new row |
 
 **Rails:** no trigger changes before the (iii) ruling; corrections stay STANDARD; five-root alerts stay proposals; no general review, no structural rewrite, no new procedure or agent. Incorporation of (i)/(ii) is reported only after PROME reads NEXUS's committed lines.
+
+**Incorporation receipt 17:12 ET:** (i) and (ii) INCORPORATED at NEXUS f6e88eb2a (Light tier, explicit pathspecs; LAST_COMPLETION records (iii)'s two deliverables as owed in the 10/27 Tuesday return packet). (iii) remains the only open item on WQ-519.
