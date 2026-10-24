@@ -1,0 +1,53 @@
+{
+  "observed_at": "2026-10-24T22:54:24.488362+00:00",
+  "investigation_commit": "9ef7777b4f97445299863b98b9cce352ebfadda8",
+  "publication": "Verified on origin/master by safe-push receipt and subsequent fresh-fetch legacy verifier; seven committed paths byte-identical at that verification.",
+  "verification": {
+    "mode": "verify",
+    "agent": "DAEDALUS",
+    "ts": "20261024T225353Z",
+    "head": "2e2d391442a5d93e92ec1858fbe68f8c7637250e",
+    "fingerprint": "0a094de6b09ddc1412775c1bcc6041364a829dfa7f52c8ddecaba8bd0fa5b63c",
+    "runner_sha256": "80693ab3dd846da49bd61f846461b1adcb6317688281a099a7b2e287e2111011",
+    "steps": [
+      {
+        "id": "V1",
+        "name": "verify_push.sh <subject>",
+        "cmd": [
+          "bash",
+          "/home/willi/Research-workspace/AGENTS/DAEDALUS/scripts/verify_push.sh",
+          "DAEDALUS: investigate restart cost and reproduce the closeout delivery race"
+        ],
+        "rc": 0,
+        "class": "CLEAN",
+        "reason": "child rc 0",
+        "log": "/tmp/claude-1000/daedalus-gate/logs/20261024T225353Z_V1.txt",
+        "findings": []
+      },
+      {
+        "id": "V2",
+        "name": "content check: located commit's paths origin/master vs HEAD",
+        "cmd": [
+          "git",
+          "show",
+          "origin/master:<p>",
+          "vs",
+          "HEAD:<p>"
+        ],
+        "rc": 0,
+        "class": "CLEAN",
+        "reason": "7 path(s) of 9ef7777b4 byte-identical origin/master vs HEAD",
+        "log": "/tmp/claude-1000/daedalus-gate/logs/20261024T225353Z_V2.txt",
+        "findings": []
+      }
+    ],
+    "counts": {
+      "CLEAN": 2
+    },
+    "rc": 0,
+    "perimeter": "GATE verify rc=0 \u00b7 checked: 2 steps ['V1', 'V2'] \u00b7 NOT checked (declared/enumerated only): [] \u00b7 proves nothing about: completion of work beyond complete_check's legs, owner consumption of packets, the truth of any DECLARED value, or anything a child's own PASS line disclaims."
+  },
+  "closeout": "20261024T222430Z: rc 0, 7 CLEAN, 2 DUE, 1 DECLARED, 1 NOT-APPLICABLE; existing maintenance and ledger debt retained.",
+  "recipient": "Will via current conversation; no peer notification or consumption claimed.",
+  "scope": "Receipt only; no expansion of investigation or certification of PROME concurrent repairs."
+}
