@@ -1,0 +1,87 @@
+### V-C1
+non-PROME perimeter commit, not delivered: freeze REFUSED: PROME/state/AUDIT_PERIMETER.tsv changed since the baseline: deliver it (the delivered version becomes the pin) — it is never attributed by commit or observed-only (reader 10/24 ❌1, CE-C1/CE-O); manifest written? False
++ declared observed: freeze REFUSED: PROME/state/AUDIT_PERIMETER.tsv changed since the baseline: deliver it (the delivered version becomes the pin) — it is never attributed by commit or observed-only (reader 10/24 ❌1, CE-C1/CE-O)
+
+### V-C1ctl
+perimeter untouched; freeze OK; auto=['memory/auto/f.md']; pin sha == file: True
+
+### V-O
+pending perimeter observed-only: freeze REFUSED: PROME/state/AUDIT_PERIMETER.tsv changed since the baseline: deliver it (the delivered version becomes the pin) — it is never attributed by commit or observed-only (reader 10/24 ❌1, CE-C1/CE-O)
+delivered AND observed: freeze REFUSED: PROME/state/AUDIT_PERIMETER.tsv: the audit perimeter is never observed-only — deliver it
+
+### V-G1
+porcelain: 'M .gitignore\n?? PROME/result\n?? PROME/state/argus_baseline.json\n?? PROME/state/argus_review.json'
+gate: (1, ['UNCLASSIFIED: .gitignore (new or changed observed version)'])
+
+### V-D
+pin has delivered row: True; pin sha == delivered sha: True
+wt gate clean: (0, ['contract 042edb185e440ab37940a19f8e064532e3f1a6fbff50fcb762894f790b99ae4f unchanged; verdict FROZEN; delivery working tree; snapshot working tree; 2 inventory paths retained, unrelated content not certified'])
+step10 clean: (0, ['contract 042edb185e440ab37940a19f8e064532e3f1a6fbff50fcb762894f790b99ae4f unchanged; verdict FROZEN; delivery d28192b32a446dcac2d279c05a9b5330dbf86636; snapshot d28192b32a446dcac2d279c05a9b5330dbf86636; 2 inventory paths retained, unrelated content not certified'])
+wt gate + BRENT (new pin OWNED) + BROCK arrivals: (1, ['UNCLASSIFIED: AGENTS/BRENT/x.md (new or changed observed version)', 'FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): AGENTS/BROCK/y.md'])
+step10 same: (1, ['UNCLASSIFIED: AGENTS/BRENT/x.md (new or changed observed version)', 'UNCLASSIFIED: AGENTS/BROCK/y.md (new or changed observed version)'])
+
+### N1
+working-tree gate: (0, ['contract e8750ca98c8aa743befba9fd53551ff968fce128b89339d6d995bc1054ab4b06 unchanged; verdict FROZEN; delivery working tree; snapshot working tree; 2 inventory paths retained, unrelated content not certified'])
+step10 --ref: (0, ['contract e8750ca98c8aa743befba9fd53551ff968fce128b89339d6d995bc1054ab4b06 unchanged; verdict FROZEN; delivery c64cf97c201963fac7487d1464dcf1aaf5b2343c; snapshot c64cf97c201963fac7487d1464dcf1aaf5b2343c; 2 inventory paths retained, unrelated content not certified'])
+porcelain: '?? PROME/state/argus_baseline.json\n?? PROME/state/argus_review.json'
+ignored under PROME/: '?? PROME/state/argus_baseline.json\n?? PROME/state/argus_review.json\n!! PROME/state/HANDOFF_X.md'
+
+### N1ctl
+PROME-subject .gitignore commit post-freeze: (1, ['UNCLASSIFIED: .gitignore (new or changed observed version)'])
+
+### N1c
+freeze OK; auto=['.gitignore']; HANDOFF_X in inventory? False; gate: (0, ['contract 3c2d6d54df553009ec2047bbd5ee865740c3f915d8a855a7ad0dc2f42b943f06 unchanged; verdict FROZEN; delivery working tree; snapshot working tree; 2 inventory paths retained, unrelated content not certified'])
+
+### N1d
+committed .gitattributes post-freeze: (0, ['contract e8750ca98c8aa743befba9fd53551ff968fce128b89339d6d995bc1054ab4b06 unchanged; verdict FROZEN; delivery working tree; snapshot working tree; 2 inventory paths retained, unrelated content not certified'])
+
+### N2
+gate before observe: (1, ['UNCLASSIFIED: PROME/state/AUDIT_PERIMETER.tsv (new or changed observed version)'])
+observe() ACCEPTED the perimeter
+gate after observe: (0, ['contract e8750ca98c8aa743befba9fd53551ff968fce128b89339d6d995bc1054ab4b06 unchanged; verdict FROZEN; delivery working tree; snapshot working tree; 2 inventory paths retained, unrelated content not certified'])
+mark_reviewed: (0, 'verdict REVIEWED over 1 path(s)')
+step10: (0, ['contract e8750ca98c8aa743befba9fd53551ff968fce128b89339d6d995bc1054ab4b06 unchanged; verdict REVIEWED; delivery b803f445cb3b8ded4e7860576cc39bc01ac0119e; snapshot b803f445cb3b8ded4e7860576cc39bc01ac0119e; 2 inventory paths retained, unrelated content not certified'])
+next-day freeze pins WALTER rows without delivery: True
+next-day gate with OWNED-under-old-rules write: (0, ['FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): PROME/state/HANDOFF_X.md', 'contract e103bc58b594081809bac7e15d3146c6ea7d6e5f53a1966863530db47b2d5650 unchanged; verdict FROZEN; delivery working tree; snapshot working tree; 2 inventory paths retained, unrelated content not certified'])
+
+### N3
+undelivered: freeze REFUSED: PROME/state/AUDIT_PERIMETER.tsv changed since the baseline: deliver it (the delivered version becomes the pin) — it is never attributed by commit or observed-only (reader 10/24 ❌1, CE-C1/CE-O)
+delivered: pin has (committed,pending) rows (True, True)
+step10: (0, ['contract 864327250175c1983d79cbfed5a952c65c35ada9698e774972f59cd2f37ffc34 unchanged; verdict FROZEN; delivery 6595e65397eab8593c5852669ad4ae5a487d38a1; snapshot 6595e65397eab8593c5852669ad4ae5a487d38a1; 2 inventory paths retained, unrelated content not certified'])
+
+### N4
+git rm at freeze, not delivered: freeze REFUSED: PROME/state/AUDIT_PERIMETER.tsv changed since the baseline: deliver it (the delivered version becomes the pin) — it is never attributed by commit or observed-only (reader 10/24 ❌1, CE-C1/CE-O)
+git rm at freeze, delivered (+ desk committed-only memory file): freeze REFUSED: unclassified inventory (PENDING, OWNED, PROME-evidenced or differing from its commit): memory/auto/f.md
+
+### N4b
+staged git mv after freeze: (1, ['UNCLASSIFIED: PROME/state/AUDIT_PERIMETER.tsv (new or changed observed version)', 'UNCLASSIFIED: PROME/state/AUDIT_PERIMETER_v2.tsv (new or changed observed version)', 'FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): AGENTS/BROCK/new.md'])
+committed (WALTER subject): (1, ['UNCLASSIFIED: PROME/state/AUDIT_PERIMETER.tsv (new or changed observed version)', 'UNCLASSIFIED: PROME/state/AUDIT_PERIMETER_v2.tsv (new or changed observed version)', 'FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): AGENTS/BROCK/new.md'])
+
+### N5
+pending root .gitattributes: (1, ['UNCLASSIFIED: .gitattributes (new or changed observed version)'])
+pending AGENTS/BROCK/.gitignore (cannot hide PROME files): (1, ['UNCLASSIFIED: AGENTS/BROCK/.gitignore (new or changed observed version)'])
+pending memory/auto/.gitignore: (1, ['UNCLASSIFIED: memory/auto/.gitignore (new or changed observed version)'])
+
+### N6
+.GITIGNORE: porcelain '?? .GITIGNORE\n?? PROME/result\n?? PROME/state/HANDOFF_X.md\n?? PROME/state/argus_baseline.json\n?? PROME/state/argus_review.json'; gate (1, ['UNCLASSIFIED: PROME/state/HANDOFF_X.md (new or changed observed version)', 'FOREIGN-PENDING (advisory, owner UNVERIFIED — UNATTRIBUTED lane, no PROME evidence): .GITIGNORE'])
+never_advisory forms: .gitignore=True PROME//.gitignore=True ./PROME/state/AUDIT_PERIMETER.tsv=False .gitignore.bak=False
+symlinked .gitignore: porcelain 'T .gitignore\n?? AGENTS/BROCK/ign\n?? PROME/result\n?? PROME/state/HANDOFF_X.md\n?? PROME/state/argus_baseline.json\n?? PROME/state/argus_review.json\n?? gi.bak'; gate (1, ['UNCLASSIFIED: .gitignore (new or changed observed version)', 'UNCLASSIFIED: PROME/state/HANDOFF_X.md (new or changed observed version)', 'FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): AGENTS/BROCK/ign', 'FOREIGN-PENDING (advisory, owner UNVERIFIED — UNATTRIBUTED lane, no PROME evidence): gi.bak'])
+
+### N7
+skip-worktree: porcelain '?? PROME/result\n?? PROME/state/argus_baseline.json\n?? PROME/state/argus_review.json'; gate (0, ['contract b8ae0c3c8dba9aafd94e3c86c6fe4ebbf4fe4ee7a66b3e64bf59d049b9c32877 unchanged; verdict FROZEN; delivery working tree; snapshot working tree; 1 inventory paths retained, unrelated content not certified'])
+assume-unchanged: porcelain '?? PROME/result\n?? PROME/state/argus_baseline.json\n?? PROME/state/argus_review.json'; gate (0, ['contract b8ae0c3c8dba9aafd94e3c86c6fe4ebbf4fe4ee7a66b3e64bf59d049b9c32877 unchanged; verdict FROZEN; delivery working tree; snapshot working tree; 1 inventory paths retained, unrelated content not certified'])
+
+### N8
+freeze OK; pin sha == delivered sha: True; pin rules == rules parsed from delivered bytes: False
+gate: (0, ['FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): PROME/state/HANDOFF_X.md', 'contract ecc6d9f10575c87dcbd032643030bfbe2052917bf0c639361d32560cd558f83a unchanged; verdict FROZEN; delivery working tree; snapshot working tree; 3 inventory paths retained, unrelated content not certified'])
+
+### R1
+AC6: (0, ['FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): AGENTS/BROCK/new.md', 'contract b8ae0c3c8dba9aafd94e3c86c6fe4ebbf4fe4ee7a66b3e64bf59d049b9c32877 unchanged; verdict FROZEN; delivery working tree; snapshot working tree; 2 inventory paths retained, unrelated content not certified'])
+
+### R2
+committed-only SHARED + EXCLUDED desk files after freeze: (0, ['contract b8ae0c3c8dba9aafd94e3c86c6fe4ebbf4fe4ee7a66b3e64bf59d049b9c32877 unchanged; verdict FROZEN; delivery working tree; snapshot working tree; 3 inventory paths retained, unrelated content not certified'])
+step10: (0, ['contract b8ae0c3c8dba9aafd94e3c86c6fe4ebbf4fe4ee7a66b3e64bf59d049b9c32877 unchanged; verdict FROZEN; delivery 2c72750255d3629bec35783a1b30cdd8d53004f9; snapshot 2c72750255d3629bec35783a1b30cdd8d53004f9; 3 inventory paths retained, unrelated content not certified'])
+
+### R3
+OWNED pending arrival: (1, ['UNCLASSIFIED: PROME/state/HANDOFF_X.md (new or changed observed version)'])
+

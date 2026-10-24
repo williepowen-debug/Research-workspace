@@ -1,0 +1,11 @@
+### G1 at HEAD code
+(0, ["FOREIGN-PENDING (advisory): .gitignore — another owner's live file, not in PROME's delivery", 'contract b886bffd5d0b9b454d27208810b4136cfe9f2c5b968f7e2a3211ae833bb90d38 unchanged; verdict FROZEN; delivery working tree; snapshot working tree; 2 inventory paths retained, unrelated content not certified'])
+
+### C1 at HEAD code
+auto=['PROME/state/AUDIT_PERIMETER.tsv']; (0, ["FOREIGN-PENDING (advisory): PROME/state/HANDOFF_X.md — another owner's live file, not in PROME's delivery", 'contract 8b3abdbaadbfac31411a8c2e553a8ae037fd0bce7f878d4ac6157f675236bcfa unchanged; verdict FROZEN; delivery working tree; snapshot working tree; 3 inventory paths retained, unrelated content not certified'])
+
+### G1 git add of ignored file
+git add rc 1: The following paths are ignored by one of your .gitignore files:
+PROME/state/HANDOFF_X.md
+hint: Use -f if you really wan
+

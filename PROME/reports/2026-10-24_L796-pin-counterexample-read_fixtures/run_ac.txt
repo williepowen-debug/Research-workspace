@@ -1,0 +1,34 @@
+### AC1
+rules==loaded: True; sha==file: True; perimeter not in contract: True; contract_sha ok: True; contract keys ['anchor', 'baseline', 'delivered', 'evidence']
+
+### AC2
+NEW (1, ['UNCLASSIFIED: PROME/state/AUDIT_PERIMETER.tsv (new or changed observed version)', 'UNCLASSIFIED: PROME/state/HANDOFF_X.md (new or changed observed version)'])
+  OLD(HEAD) (0, ["FOREIGN-PENDING (advisory): PROME/state/AUDIT_PERIMETER.tsv — another owner's live file, not in PROME's delivery", "FOREIGN-PENDING (advisory): PROME/state/HANDOFF_X.md — another owner's live file, not in PROME's delivery", 'contract 47b568e0f086a47615484732092196f8c5606fbacb4bd51fdd22534e0d3788ce unchanged; verdict FROZEN; delivery working tree; snapshot working tree; 3 inventory paths retained, unrelated content not certified'])
+
+### AC3
+NEW (1, ['UNCLASSIFIED: PROME/state/AUDIT_PERIMETER.tsv (new or changed observed version)', 'FOREIGN-PENDING (advisory, owner UNVERIFIED — SHARED lane, no PROME evidence): memory/auto/x.md'])
+  OLD(HEAD) (1, ['UNCLASSIFIED: PROME/state/AUDIT_PERIMETER.tsv (new or changed observed version)', "FOREIGN-PENDING (advisory): memory/auto/x.md — another owner's live file, not in PROME's delivery"])
+
+### AC4
+NEW (1, ['UNCLASSIFIED: FORGE/x.md (new or changed observed version)', 'UNCLASSIFIED: PROME/state/AUDIT_PERIMETER.tsv (new or changed observed version)'])
+  OLD(HEAD) (1, ['UNCLASSIFIED: PROME/state/AUDIT_PERIMETER.tsv (new or changed observed version)'])
+
+### AC5a
+(1, ['UNCLASSIFIED: AGENTS/BRENT/c.md (new or changed observed version)', 'UNCLASSIFIED: AGENTS/BROCK/new.md (new or changed observed version)'])
+
+### AC5b
+(2, ['CANNOT-EVALUATE: malformed perimeter pin rules'])
+
+### AC6
+(0, ['FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): AGENTS/BROCK/new.md', 'contract 358e7fc8f1011824c9ae2f7c0cd39dee89029ccebc07be4f8bc56f8c920594b8 unchanged; verdict FROZEN; delivery working tree; snapshot working tree; 2 inventory paths retained, unrelated content not certified'])
+
+### AC6b
+NEW (1, ['UNCLASSIFIED: PROME/state/AUDIT_PERIMETER.tsv (new or changed observed version)', 'FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): AGENTS/BROCK/new.md'])
+  OLD(HEAD) (1, ['UNCLASSIFIED: AGENTS/BROCK/new.md (new or changed observed version)', 'UNCLASSIFIED: PROME/state/AUDIT_PERIMETER.tsv (new or changed observed version)'])
+
+### AC7
+(1, ['UNCLASSIFIED: PROME/old (new or changed observed version)', 'FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): AGENTS/ZED/old'])
+
+### AC8
+(0, ['FOREIGN-PENDING (advisory, owner UNVERIFIED — SHARED lane, no PROME evidence): AGENTS/FALCON/inbox/data/2026-10-24_FIRMS.csv', 'FOREIGN-PENDING (advisory, owner UNVERIFIED — SHARED lane, no PROME evidence): CLAUDE.md', 'FOREIGN-PENDING (advisory, owner UNVERIFIED — UNATTRIBUTED lane, no PROME evidence): NEWROOTFILE.md', 'FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): PROME/inbox/processed/2026-10-24_from-WALTER_x.md', 'FOREIGN-PENDING (advisory, owner UNVERIFIED — SHARED lane, no PROME evidence): memory/auto/finding_prome_new_lesson.md', 'contract 358e7fc8f1011824c9ae2f7c0cd39dee89029ccebc07be4f8bc56f8c920594b8 unchanged; verdict FROZEN; delivery working tree; snapshot working tree; 6 inventory paths retained, unrelated content not certified'])
+

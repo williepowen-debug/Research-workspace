@@ -1,0 +1,70 @@
+### CE-G1 root .gitignore hides OWNED arrival
+porcelain: 'M .gitignore\n?? PROME/result\n?? PROME/state/argus_baseline.json\n?? PROME/state/argus_review.json'
+working-tree gate: (0, ['FOREIGN-PENDING (advisory, owner UNVERIFIED — UNATTRIBUTED lane, no PROME evidence): .gitignore', 'contract 5253ec39ab94c5b7ed82a09e3c76808d8406ae62b8841c7736fdcd6c7af6f092 unchanged; verdict FROZEN; delivery working tree; snapshot working tree; 2 inventory paths retained, unrelated content not certified'])
+
+### CE-G2 nested self-ignoring .gitignore
+porcelain: '?? PROME/result\n?? PROME/state/argus_baseline.json\n?? PROME/state/argus_review.json'
+working-tree gate: (0, ['contract 5253ec39ab94c5b7ed82a09e3c76808d8406ae62b8841c7736fdcd6c7af6f092 unchanged; verdict FROZEN; delivery working tree; snapshot working tree; 1 inventory paths retained, unrelated content not certified'])
+
+### CE-C1 foreign-subject perimeter commit pre-freeze
+freeze OK; attributed_by_commit keys: ['PROME/state/AUDIT_PERIMETER.tsv']
+perimeter delivered? False; observed? False
+pinned class of perimeter file: ('SHARED', 'x')
+working-tree gate after OWNED-under-baseline write: (0, ['FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): PROME/state/HANDOFF_X.md', 'contract e7bea8c83b20116a869469fcdda50647bbc2e9090e5a59058235da1b6859c50c unchanged; verdict FROZEN; delivery working tree; snapshot working tree; 3 inventory paths retained, unrelated content not certified'])
+
+### CE-C1 control PROME subject
+EXCEPTION ValueError: unclassified inventory (PENDING, OWNED, PROME-evidenced or differing from its commit): PROME/state/AUDIT_PERIMETER.tsv
+
+### CE-T1 tampered pin
+tampered pin, digest unchanged: (0, ['FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): PROME/state/HANDOFF_X.md', 'contract 5253ec39ab94c5b7ed82a09e3c76808d8406ae62b8841c7736fdcd6c7af6f092 unchanged; verdict FROZEN; delivery working tree; snapshot working tree; 2 inventory paths retained, unrelated content not certified'])
+
+### CE-T2 digest never checked
+sha256=None,rules present: rc 0
+sha256=aaaa…: rc 0 (live file digest 8cc164678c2d, untouched)
+
+### CE-V validate shapes
+rules=[]: rc 2 'CANNOT-EVALUATE: malformed perimeter pin rules'
+rules tuple-ish 4 cells: rc 2 'CANNOT-EVALUATE: malformed perimeter pin rules'
+pattern int: rc 2 'CANNOT-EVALUATE: malformed perimeter pin rules'
+class UNATTRIBUTED: rc 2 'CANNOT-EVALUATE: malformed perimeter pin rules'
+extra key: rc 2 'CANNOT-EVALUATE: malformed perimeter pin'
+pin = []: rc 2 'CANNOT-EVALUATE: malformed perimeter pin'
+pin = false: rc 2 'CANNOT-EVALUATE: malformed perimeter pin'
+pin = {}: rc 2 'CANNOT-EVALUATE: malformed perimeter pin'
+rules = dict: rc 2 'CANNOT-EVALUATE: malformed perimeter pin rules'
+rules=None (explicit strict): rc 1 'UNCLASSIFIED: AGENTS/BROCK/new.md (new or changed observed version)'
+pattern with trailing space (valid shape): rc 0 'FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): AGENTS/BROCK/new.md'
+empty-string pattern/reason: rc 0 'FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): AGENTS/BROCK/new.md'
+pin = null (JSON): rc 1 'UNCLASSIFIED: AGENTS/BROCK/new.md (new or changed observed version)'
+
+### CE-R TOCTOU in pin_perimeter
+freeze REFUSED: UNCLASSIFIED: PROME/state/AUDIT_PERIMETER.tsv (new or changed observed version); manifest written? False
+
+### CE-R2 race delivered perimeter
+freeze REFUSED: CHANGED-SINCE-REVIEW: delivered PROME/state/AUDIT_PERIMETER.tsv
+
+### CE-D delivered perimeter pinned
+pin has new row: True
+wt gate with BRENT pending (pinned OWNED): (1, ['UNCLASSIFIED: AGENTS/BRENT/x.md (new or changed observed version)'])
+step10: (1, ['UNCLASSIFIED: AGENTS/BRENT/x.md (new or changed observed version)'])
+
+### CE-S10 step-10 committed side
+step10, foreign EXCLUDED commit after delivery: (0, ['contract baeb45c75004bacbc47176071587bf96f7db7c0a544c40720f46c8d0bb3ee11a unchanged; verdict FROZEN; delivery e666a6fb3d3ca54ce96e16b414d25b2ce28135db; snapshot e666a6fb3d3ca54ce96e16b414d25b2ce28135db; 2 inventory paths retained, unrelated content not certified'])
+step10, + FORGE commit + live perimeter edit: (1, ['UNCLASSIFIED: FORGE/x.md (new or changed observed version)', 'UNCLASSIFIED: PROME/state/AUDIT_PERIMETER.tsv (new or changed observed version)'])
+
+### CE-L legacy schema-1 live perimeter
+legacy working-tree gate: (0, ['1 path(s) in the working tree byte-identical to the frozen candidate (verdict FROZEN, recorded 2026-10-24T22:07:44+00:00)'])
+mark_reviewed: (0, 'verdict REVIEWED over 1 path(s)')
+
+### CE-M mark_reviewed/observe keep pin
+mark_reviewed (0, 'verdict REVIEWED over 1 path(s)'); pin kept after mark: REVIEWED; pin kept after observe: True
+verify after live edit: (1, ['UNCLASSIFIED: PROME/state/AUDIT_PERIMETER.tsv (new or changed observed version)'])
+mark_reviewed now: (1, 'REFUSED: the frozen candidate changed since the freeze — UNCLASSIFIED: PROME/state/AUDIT_PERIMETER.tsv (new or changed observed version)')
+
+### CE-O observed-only perimeter at freeze
+freeze OK with perimeter observed-only; pinned has HANDOFF row: True
+gate: (0, ['FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): PROME/state/HANDOFF_X.md', 'contract baeb45c75004bacbc47176071587bf96f7db7c0a544c40720f46c8d0bb3ee11a unchanged; verdict FROZEN; delivery working tree; snapshot working tree; 3 inventory paths retained, unrelated content not certified'])
+
+### CE-X committed-only SHARED after freeze
+committed-only SHARED by desk after freeze (pinned): (0, ['contract baeb45c75004bacbc47176071587bf96f7db7c0a544c40720f46c8d0bb3ee11a unchanged; verdict FROZEN; delivery working tree; snapshot working tree; 2 inventory paths retained, unrelated content not certified'])
+

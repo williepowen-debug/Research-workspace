@@ -1,0 +1,124 @@
+### a1_post_freeze_committed_root_gitignore
+HANDOFF_X visible in porcelain? False
+working-tree gate: (1, ['UNCLASSIFIED: .gitignore (new or changed observed version)'])
+step10 --ref: (1, ['UNCLASSIFIED: .gitignore (new or changed observed version)', 'UNCLASSIFIED SNAPSHOT PATH: .gitignore'])
+
+### a2_pre_freeze_committed_root_gitignore
+not delivered: freeze REFUSED: changed since the baseline and never attributed by commit or observed-only — deliver it (the perimeter becomes the pin; an ignore file changes what the gate can see): .gitignore
+declared observed: freeze REFUSED: changed since the baseline and never attributed by commit or observed-only — deliver it (the perimeter becomes the pin; an ignore file changes what the gate can see): .gitignore
+
+### a3_post_freeze_committed_root_gitattributes
+wt: (1, ['UNCLASSIFIED: .gitattributes (new or changed observed version)'])
+step10: (1, ['UNCLASSIFIED: .gitattributes (new or changed observed version)', 'UNCLASSIFIED SNAPSHOT PATH: .gitattributes'])
+
+### b1_observe_perimeter_and_root_gitignore
+observe perimeter (wt): observe REFUSED: PROME/state/AUDIT_PERIMETER.tsv: never observed-only — the perimeter and guarded ignore files are delivered in a re-freeze or they block (reader 10/24 ❌B)
+observe root .gitignore (wt): observe REFUSED: .gitignore: never observed-only — the perimeter and guarded ignore files are delivered in a re-freeze or they block (reader 10/24 ❌B)
+observe perimeter ref=A: observe REFUSED: PROME/state/AUDIT_PERIMETER.tsv: never observed-only — the perimeter and guarded ignore files are delivered in a re-freeze or they block (reader 10/24 ❌B)
+observe .gitignore ref=A: observe REFUSED: .gitignore: never observed-only — the perimeter and guarded ignore files are delivered in a re-freeze or they block (reader 10/24 ❌B)
+gate wt: (1, ['UNCLASSIFIED: .gitignore (new or changed observed version)', 'UNCLASSIFIED: PROME/state/AUDIT_PERIMETER.tsv (new or changed observed version)'])
+step10: (1, ['UNCLASSIFIED: .gitignore (new or changed observed version)', 'UNCLASSIFIED: PROME/state/AUDIT_PERIMETER.tsv (new or changed observed version)', 'UNCLASSIFIED SNAPSHOT PATH: PROME/state/AUDIT_PERIMETER.tsv', 'UNCLASSIFIED SNAPSHOT PATH: .gitignore'])
+
+### b2_hand_inserted_observed
+hand-inserted observed PROME/state/AUDIT_PERIMETER.tsv: wt (2, ['CANNOT-EVALUATE: PROME/state/AUDIT_PERIMETER.tsv: never observed-only (reader 10/24 ❌B)'])
+hand-inserted observed .gitignore: wt (2, ['CANNOT-EVALUATE: .gitignore: never observed-only (reader 10/24 ❌B)'])
+  same, step10: (2, ['CANNOT-EVALUATE: .gitignore: never observed-only (reader 10/24 ❌B)'])
+  mark_reviewed: (2, 'REFUSED (CANNOT-EVALUATE): CANNOT-EVALUATE: .gitignore: never observed-only (reader 10/24 ❌B)')
+
+### c1_research_gitignore
+pending: (0, ['FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): AGENTS/BROCK/research/2026-10-24_x/.gitignore', 'contract 2ab7f52a8b39df8dc92a60a54563fc2a0117c9a8f65bc524ab6085734ada887a unchanged; verdict FROZEN; delivery working tree; snapshot working tree; 2 i'])
+committed (BROCK subject): (0, ['contract 2ab7f52a8b39df8dc92a60a54563fc2a0117c9a8f65bc524ab6085734ada887a unchanged; verdict FROZEN; delivery working tree; snapshot working tree; 2 i'])
+
+### c2_guarded_dirs
+PROME/.gitignore                         never_advisory=True
+FORGE/.gitignore                         never_advisory=True
+.gitignore                               never_advisory=True
+AGENTS/BRENT/inbox/.gitignore            never_advisory=True
+AGENTS/WALTER/inbox/WILL/.gitignore      never_advisory=True
+memory/auto/.gitignore                   never_advisory=True
+newtop/.gitignore                        never_advisory=True
+PROME/inbox/.gitignore                   never_advisory=False
+.claude/.gitignore                       never_advisory=False
+AGENTS/BRENT/.gitignore                  never_advisory=False
+AGENTS/.gitignore                        never_advisory=False
+scripts/.gitignore                       never_advisory=False
+.claude/agents/.gitignore                never_advisory=True
+
+### c3_pending_each
+pending PROME/.gitignore: rc 1 UNCLASSIFIED: PROME/.gitignore (new or changed observed version)
+pending FORGE/.gitignore: rc 1 UNCLASSIFIED: FORGE/.gitignore (new or changed observed version)
+pending AGENTS/BRENT/inbox/.gitignore: rc 1 UNCLASSIFIED: AGENTS/BRENT/inbox/.gitignore (new or changed observed version)
+pending memory/auto/.gitignore: rc 1 UNCLASSIFIED: memory/auto/.gitignore (new or changed observed version)
+pending root .gitignore: 1
+
+### c4_claude_gitignore_hides_owned
+control (no ignore file): (1, ['UNCLASSIFIED: .claude/agents/newdef.md (new or changed observed version)'])
+pending .claude/.gitignore: (0, ['FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): .claude/.gitignore', 'contract 2ab7f52a8b39df8dc92a60a54563fc2a0117c9a8f65bc524ab6085734ada887a unchanged; verdict FROZEN; delivery working tree; snapshot working tree; 2 i'])
+porcelain: '?? .claude/.gitignore\n?? PROME/result\n?? PROME/state/argus_baseline.json\n?? PROME/state/argus_review.json'
+committed under BRENT subject: (0, ['contract 2ab7f52a8b39df8dc92a60a54563fc2a0117c9a8f65bc524ab6085734ada887a unchanged; verdict FROZEN; delivery working tree; snapshot working tree; 2 i'])
+step10: (0, ['contract 2ab7f52a8b39df8dc92a60a54563fc2a0117c9a8f65bc524ab6085734ada887a unchanged; verdict FROZEN; delivery cd301002857e6e1291c12ccb737af51a14d50830'])
+ignored under .claude: '!! .claude/agents/newdef.md'
+
+### c4b_claude_gitignore_observe_and_prefreeze
+pre-freeze desk commit of .claude/.gitignore + OWNED pending: freeze OK; auto=['.claude/.gitignore']; gate (0, ['contract 3bae7a78f3b0b938f0ddae5d1aa0129250fbba0fba6d100bed276588790ad943 unchanged; verdict FROZEN; delivery working tree; snapshot working tree; 2 i'])
+
+### c5_desk_root_gitignore_hides_prome_packet
+control: (1, ['UNCLASSIFIED: AGENTS/BRENT/inbox/2026-10-24_from-PROME_task.md (new or changed observed version)'])
+with pending AGENTS/BRENT/.gitignore: (0, ['FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): AGENTS/BRENT/.gitignore', 'contract 2ab7f52a8b39df8dc92a60a54563fc2a0117c9a8f65bc524ab6085734ada887a unchanged; verdict FROZEN; delivery working tree; snapshot working tree; 2 i'])
+
+### c6_agents_gitignore
+pending AGENTS/.gitignore hiding a from-PROME packet: (0, ['FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): AGENTS/.gitignore', 'contract 2ab7f52a8b39df8dc92a60a54563fc2a0117c9a8f65bc524ab6085734ada887a unchanged; verdict FROZEN; delivery working tree; snapshot working tree; 2 i'])
+
+### c7_terry_real_shape
+TERRY-shape desk-root ignore of a SHARED inbox lane: (0, ['FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): AGENTS/TERRY/.gitignore', 'contract 2ab7f52a8b39df8dc92a60a54563fc2a0117c9a8f65bc524ab6085734ada887a unchanged; verdict FROZEN; delivery working tree; snapshot working tree; 2 i']); porcelain '?? AGENTS/TERRY/.gitignore\n?? PROME/result\n?? PROME/state/argus_baseline.json\n?? PROME/state/argus_review.json'
+
+### d1_root_dotfile_row_disarms_root_guard
+root .gitignore guarded under pin? False
+pending root .gitignore hiding OWNED: (0, ['FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): .gitignore', 'contract fc2f37747ba9cd5fa2e7b5f9ba9d78725bb62ff06783b9eb7f62ca7b695e5c90 unchanged; verdict FROZEN; delivery working tree; snapshot working tree; 3 i'])
+committed by WALTER: (0, ['contract fc2f37747ba9cd5fa2e7b5f9ba9d78725bb62ff06783b9eb7f62ca7b695e5c90 unchanged; verdict FROZEN; delivery working tree; snapshot working tree; 3 i'])
+
+### d2_gitattributes_changes_porcelain
+with ident attr, porcelain: 'M PROME/tracked.md\n?? .claude/.gitattributes\n?? .gitattributes\n?? PROME/result\n?? PROME/state/argus_baseline.json\n?? PROME/state/argus_review.json'
+gate: (1, ['UNCLASSIFIED: .gitattributes (new or changed observed version)', 'UNCLASSIFIED: PROME/tracked.md (new or changed observed version)', 'FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): .claude/.gitattributes'])
+without attr, porcelain: 'M PROME/tracked.md\n?? .claude/.gitattributes\n?? PROME/result\n?? PROME/state/argus_baseline.json\n?? PROME/state/argus_review.json'
+
+### d3_guarded_path_removed_before_freeze
+deleted root .gitignore not delivered: freeze REFUSED: changed since the baseline and never attributed by commit or observed-only — deliver it (the perimeter becomes the pin; an ignore file changes what the gate can see): .gitignore
+delivered deletion: freeze OK; sha=None
+step10: (0, ['contract 77db5178e563da20d5544f6a7f4343723bf9a60173606ca41d5feacd3d09b535 unchanged; verdict FROZEN; delivery a93d022232bba83a45ed774af2c2e79703d1b70e'])
+
+### d3b_perimeter_removed_before_freeze
+not delivered: freeze REFUSED: changed since the baseline and never attributed by commit or observed-only — deliver it (the perimeter becomes the pin; an ignore file changes what the gate can see): PROME/state/AUDIT_PERIMETER.tsv
+delivered: freeze OK; pin={'sha256': None, 'rules': None}
+foreign arrival under null pin: (1, ['UNCLASSIFIED: AGENTS/BROCK/new.md (new or changed observed version)'])
+
+### d4_null_rules_observed_nested
+PROME-subject nested research ignore observed at freeze: freeze OK; gate (0, ['contract 68f872c2d430d09ab8cd646dc9b20ec0350629c6ac1fb190268ac01b6ef34a1f unchanged; verdict FROZEN; delivery working tree; snapshot working tree; 2 i'])
+rules null: (2, ['CANNOT-EVALUATE: AGENTS/BROCK/research/x/.gitignore: never observed-only (reader 10/24 ❌B)'])
+no pin key: (2, ['CANNOT-EVALUATE: AGENTS/BROCK/research/x/.gitignore: never observed-only (reader 10/24 ❌B)'])
+
+### d5_probe_name_collision
+PROME/.gitignore guarded with colliding row? True
+
+### d6_gitignore_in_excluded_dir_with_shared_file_rows
+scripts/.gitignore hides SHARED-row file: porcelain '?? PROME/result\n?? PROME/state/argus_baseline.json\n?? PROME/state/argus_review.json\n?? scripts/.gitignore\n?? scripts/new_shared_tool.py'; gate (0, ['FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): scripts/.gitignore', 'FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): scripts/new_shared_tool.py', 'contract 2a09f8b8f04340a3ea13dcff12688ef463d896f2f1e8e967c0cd3f8d7858d7c5 unchanged; verdict FROZEN; delivery working tree; snapshot working tree; 3 i'])
+
+### r1_ac6
+AC6: (0, ['FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): AGENTS/BROCK/new.md', 'contract 2a09f8b8f04340a3ea13dcff12688ef463d896f2f1e8e967c0cd3f8d7858d7c5 unchanged; verdict FROZEN; delivery working tree; snapshot working tree; 2 i'])
+
+### r2_committed_shared
+desk committed-only SHARED after freeze: (0, ['contract 2a09f8b8f04340a3ea13dcff12688ef463d896f2f1e8e967c0cd3f8d7858d7c5 unchanged; verdict FROZEN; delivery working tree; snapshot working tree; 2 i'])
+step10: (0, ['contract 2a09f8b8f04340a3ea13dcff12688ef463d896f2f1e8e967c0cd3f8d7858d7c5 unchanged; verdict FROZEN; delivery b96c968afa58ac723ff466f724708b7a6f2fb27a'])
+
+### r3_delivered_perimeter_step10
+pin sha==delivered: True; pin rules==parse of file: True
+step10: (0, ['contract 5de4345c1b5ecd961cc54424e80250fb22442add12562058cd8ba04085489c74 unchanged; verdict FROZEN; delivery 543940d8ed78f03b77404a6d00fc33cce9315f8a'])
+wt + AGENTS/BRENT arrival (OWNED under pin): (1, ['UNCLASSIFIED: AGENTS/BRENT/x.md (new or changed observed version)'])
+
+### c4_bound
+plain git add rc=1 'The following paths are ignored by one of your .gitignore files:\n.claude/agents/newdef.md\n'
+force-added commit, step10: (1, ['UNCLASSIFIED: .claude/agents/newdef.md (new or changed observed version)', 'UNREVIEWED ACTUAL COMMIT PATH: .claude/agents/newdef.md', 'UNCLASSIFIED SNAPSHOT PATH: .claude/agents/newdef.md'])
+
+### c4_existing_tracked_owned
+tracked OWNED edit under .claude/.gitignore agents/: (1, ['UNCLASSIFIED: .claude/agents/argus.md (new or changed observed version)', 'FOREIGN-PENDING (advisory, owner UNVERIFIED — EXCLUDED lane, no PROME evidence): .claude/.gitignore'])
+

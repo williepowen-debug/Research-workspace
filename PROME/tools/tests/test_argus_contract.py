@@ -1,5 +1,6 @@
 """Delivery B: real disposable Git repositories, no production state writes."""
 import copy
+import hashlib
 import json
 import subprocess
 import sys
@@ -13,7 +14,9 @@ import argus_scope as sc
 import argus_contract as ac
 
 
-class ContractTests(unittest.TestCase):
+class ContractFixture(unittest.TestCase):
+    """Disposable repo + helpers; no tests of its own. The baseline carries NO perimeter file, so every
+    ContractTests case runs the strict path (reader 2026-10-24 ⚠️6)."""
     def setUp(self):
         tmp = tempfile.TemporaryDirectory()
         self.addCleanup(tmp.cleanup)
@@ -59,6 +62,8 @@ class ContractTests(unittest.TestCase):
     def save(self, d):
         (self.root / sc.REVIEW_FILE).write_text(json.dumps(d))
 
+
+class ContractTests(ContractFixture):
     def test_unrelated_pending_does_not_block_named_delivery_or_promotion(self):
         path = 'AGENTS/BROCK/inbox/foreign'
         self.write(path, 'unrelated')
@@ -229,6 +234,212 @@ class ContractTests(unittest.TestCase):
         d['observed'] = {}; self.save(d)
         ac.observe(sc, {path: self.unrelated()}, ref=p)
         self.assertEqual(sc.verify_review(ref=a, snapshot=p)[0], 0)
+
+
+PERIMETER = (sc.ROOT / sc.PERIMETER_FILE).read_text()  # the REAL perimeter, read at import before ROOT is patched
+FP = 'FOREIGN-PENDING (advisory, owner UNVERIFIED — {} lane, no PROME evidence): {}'
+UNC = 'UNCLASSIFIED: {} (new or changed observed version)'
+
+
+class PerimeterPinTests(ContractFixture):
+    """DOCKET L796 ❌2 — the perimeter is PINNED at the freeze; the live file is never read at verify time.
+    Acceptance: ACCEPTANCE_closeout_gate_perimeter_pin_2026-10-24.md (AC1–AC8). The baseline commits the REAL
+    PROME/state/AUDIT_PERIMETER.tsv, so the advisory branch is live here (unlike ContractTests)."""
+    def setUp(self):
+        super().setUp()
+        self.write(sc.PERIMETER_FILE, PERIMETER)
+        self.write('memory/auto/MEMORY.md', 'idx\n')
+        self.git('add', '--', sc.PERIMETER_FILE, 'memory/auto/MEMORY.md')
+        self.git('commit', '-qm', 'baseline perimeter', '--', sc.PERIMETER_FILE, 'memory/auto/MEMORY.md')
+        self.base = self.git('rev-parse', 'HEAD')
+        sc.record_baseline(self.base)
+
+    def perimeter_edit(self, old, new):
+        f = self.root / sc.PERIMETER_FILE
+        text = f.read_text()
+        self.assertIn(old, text)
+        f.write_text(text.replace(old, new, 1))
+
+    def foreign_lines(self, lines):
+        return [l for l in lines if l.startswith('FOREIGN-PENDING')]
+
+    def test_ac1_freeze_pins_the_loaded_perimeter_outside_the_contract(self):
+        self.freeze(); d = self.manifest()
+        self.assertEqual([tuple(r) for r in d['perimeter']['rules']], sc.load_perimeter())
+        self.assertEqual(d['perimeter']['sha256'],
+                         hashlib.sha256((self.root / sc.PERIMETER_FILE).read_bytes()).hexdigest())
+        self.assertNotIn('perimeter', d['contract'])
+        self.assertEqual(d['contract_sha256'], ac.digest(d['contract']))
+
+    def test_ac2_ce8b_self_exempting_perimeter_edit_blocks_both_paths(self):
+        self.freeze()
+        self.perimeter_edit('pattern\tclass\treason\n',
+                            'pattern\tclass\treason\nPROME/state/AUDIT_PERIMETER.tsv\tEXCLUDED\tx\n'
+                            'PROME/state/HANDOFF_X.md\tEXCLUDED\tx\n')
+        self.write('PROME/state/HANDOFF_X.md', 'PROME owned post-freeze write\n')
+        rc, lines = sc.verify_review()
+        self.assertEqual(rc, 1, lines)
+        self.assertIn(UNC.format(sc.PERIMETER_FILE), lines)
+        self.assertIn(UNC.format('PROME/state/HANDOFF_X.md'), lines)
+        self.assertEqual(self.foreign_lines(lines), [])
+
+    def test_ac3_ce8_perimeter_edit_blocks_and_pinned_rules_still_classify(self):
+        self.freeze()
+        self.perimeter_edit('memory/auto/**\tSHARED', 'memory/auto/**\tEXCLUDED')
+        self.write('memory/auto/x.md', 'x')
+        rc, lines = sc.verify_review()
+        self.assertEqual(rc, 1, lines)
+        self.assertIn(UNC.format(sc.PERIMETER_FILE), lines)
+        self.assertIn(FP.format('SHARED', 'memory/auto/x.md'), lines)
+
+    def test_ac4_committed_side_is_attributed_by_the_pinned_rules_not_the_live_file(self):
+        self.freeze()
+        self.write('FORGE/x.md', 'desk wrote\n')
+        self.git('add', '--', 'FORGE/x.md'); self.git('commit', '-qm', 'BRENT: forge note', '--', 'FORGE/x.md')
+        self.perimeter_edit('FORGE/**\tOWNED', 'FORGE/**\tEXCLUDED')
+        rc, lines = sc.verify_review()
+        self.assertEqual(rc, 1, lines)
+        self.assertIn(UNC.format('FORGE/x.md'), lines)
+
+    def test_ac5a_manifest_without_a_pin_runs_strict(self):
+        self.freeze(); d = self.manifest(); del d['perimeter']; self.save(d)
+        self.write('AGENTS/BROCK/new.md', 'x')
+        rc, lines = sc.verify_review()
+        self.assertEqual(rc, 1, lines)
+        self.assertIn(UNC.format('AGENTS/BROCK/new.md'), lines)
+        self.assertEqual(self.foreign_lines(lines), [])
+
+    def test_ac5b_tampered_pin_cannot_evaluate(self):
+        self.freeze(); d = self.manifest(); d['perimeter']['rules'] = [['**', 'BOGUS', 'r']]; self.save(d)
+        self.assertEqual(sc.verify_review()[0], 2)
+        d['perimeter'] = {'sha256': 'nothex', 'rules': None}; self.save(d)
+        self.assertEqual(sc.verify_review()[0], 2)
+
+    def test_ac6_foreign_pending_arrival_stays_advisory_and_names_its_lane(self):
+        self.freeze(); self.write('AGENTS/BROCK/new.md', 'x')
+        rc, lines = sc.verify_review()
+        self.assertEqual(rc, 0, lines)
+        self.assertIn(FP.format('EXCLUDED', 'AGENTS/BROCK/new.md'), lines)
+
+    def test_ac6b_ce7_corrupted_live_perimeter_blocks_on_the_perimeter_file_itself(self):
+        self.freeze(); self.write('AGENTS/BROCK/new.md', 'x')
+        (self.root / sc.PERIMETER_FILE).write_text('pattern\tclass\treason\nfoo\tBOGUS\tr\n')
+        rc, lines = sc.verify_review()
+        self.assertEqual(rc, 1, lines)
+        self.assertIn(UNC.format(sc.PERIMETER_FILE), lines)
+        self.assertIn(FP.format('EXCLUDED', 'AGENTS/BROCK/new.md'), lines)
+
+    def test_ac7_ce5_rename_out_of_the_owned_lane_blocks(self):
+        self.freeze()
+        (self.root / 'AGENTS/ZED').mkdir(parents=True)
+        self.git('mv', 'PROME/old', 'AGENTS/ZED/old')
+        rc, lines = sc.verify_review()
+        self.assertEqual(rc, 1, lines)
+        self.assertIn(UNC.format('PROME/old'), lines)
+
+    def test_ac8_ce2_prome_writes_in_other_lanes_are_advisory_and_labelled_by_lane(self):
+        self.freeze()
+        paths = {'memory/auto/finding_prome_new_lesson.md': 'SHARED',
+                 'AGENTS/FALCON/inbox/data/2026-10-24_FIRMS.csv': 'SHARED',
+                 'NEWROOTFILE.md': 'UNATTRIBUTED',
+                 'PROME/inbox/processed/2026-10-24_from-WALTER_x.md': 'EXCLUDED'}
+        for path in paths:
+            self.write(path, 'PROME wrote this after the freeze\n')
+        rc, lines = sc.verify_review()
+        self.assertEqual(rc, 0, lines)
+        self.assertEqual(sorted(self.foreign_lines(lines)), sorted(FP.format(l, p) for p, l in paths.items()))
+
+    # --- reader 10/24 (second read, L796 ❌2 repair): ported counterexamples CE-C1 · CE-O · CE-G1 · CE-S10 ---
+
+    def test_x1_ce_c1_perimeter_changed_before_the_freeze_must_be_delivered_never_attributed(self):
+        self.perimeter_edit('pattern\tclass\treason\n',
+                            'pattern\tclass\treason\nPROME/state/AUDIT_PERIMETER.tsv\tSHARED\tx\n')
+        self.git('add', '--', sc.PERIMETER_FILE)
+        self.git('commit', '-qm', 'BRENT: tidy', '--', sc.PERIMETER_FILE)   # a non-PROME subject, committed-only
+        with self.assertRaises(ValueError) as cm:
+            self.freeze()
+        self.assertIn('deliver it', str(cm.exception))
+        self.plan['delivered'][sc.PERIMETER_FILE] = 'PROME perimeter row'
+        self.freeze(); d = self.manifest()
+        self.assertEqual([tuple(r) for r in d['perimeter']['rules']], sc.load_perimeter())
+        self.assertNotIn(sc.PERIMETER_FILE, d['attributed_by_commit'])
+
+    def test_x1b_ce_o_perimeter_cannot_be_observed_only(self):
+        self.perimeter_edit('pattern\tclass\treason\n',
+                            'pattern\tclass\treason\nPROME/state/HANDOFF_X.md\tEXCLUDED\tx\n')
+        self.plan['observed'][sc.PERIMETER_FILE] = self.unrelated()
+        with self.assertRaises(ValueError) as cm:
+            self.freeze()
+        self.assertIn(sc.PERIMETER_FILE, str(cm.exception))  # either guard may fire first; both refuse the freeze
+
+    def test_x2_ce_g1_gitignore_edit_after_the_freeze_blocks(self):
+        self.freeze()
+        self.write('.gitignore', 'PROME/state/HANDOFF_X.md\n')
+        self.write('PROME/state/HANDOFF_X.md', 'hidden OWNED write\n')
+        rc, lines = sc.verify_review()
+        self.assertEqual(rc, 1, lines)
+        self.assertIn(UNC.format('.gitignore'), lines)
+        self.assertEqual(self.foreign_lines(lines), [])
+
+    def test_x3_ce_s10_step_10_committed_side_uses_the_pin(self):
+        self.freeze()
+        self.write('FORGE/x.md', 'desk wrote\n')
+        self.git('add', '--', 'FORGE/x.md'); self.git('commit', '-qm', 'BRENT: forge note', '--', 'FORGE/x.md')
+        self.perimeter_edit('FORGE/**\tOWNED', 'FORGE/**\tEXCLUDED')
+        a = self.commit('PROME/result')
+        rc, lines = sc.verify_review(ref=a, paths=['PROME/result'])
+        self.assertEqual(rc, 1, lines)
+        self.assertIn(UNC.format('FORGE/x.md'), lines)
+        self.assertIn(UNC.format(sc.PERIMETER_FILE), lines)
+        self.assertEqual(self.foreign_lines(lines), [])
+
+    # --- reader 10/24 read #2: ❌A committed ignore file · ❌B observe() door · ⚠️C nested desk ignore file ---
+
+    def test_y1_committed_root_gitignore_under_a_desk_subject_is_never_attributed(self):
+        self.freeze()
+        self.write('.gitignore', 'PROME/state/HANDOFF_X.md\n')
+        self.git('add', '--', '.gitignore'); self.git('commit', '-qm', 'BRENT: ignore scratch', '--', '.gitignore')
+        self.write('PROME/state/HANDOFF_X.md', 'hidden OWNED write\n')
+        rc, lines = sc.verify_review()
+        self.assertEqual(rc, 1, lines)
+        self.assertIn(UNC.format('.gitignore'), lines)
+        a = self.commit('PROME/result')
+        rc, lines = sc.verify_review(ref=a, paths=['PROME/result'])
+        self.assertEqual(rc, 1, lines)
+        self.assertIn(UNC.format('.gitignore'), lines)
+
+    def test_y1b_pre_freeze_committed_root_gitignore_must_be_delivered(self):
+        self.write('.gitignore', 'PROME/state/HANDOFF_X.md\n')
+        self.git('add', '--', '.gitignore'); self.git('commit', '-qm', 'BRENT: ignore scratch', '--', '.gitignore')
+        with self.assertRaises(ValueError) as cm:
+            self.freeze()
+        self.assertIn('.gitignore', str(cm.exception))
+        self.plan['delivered']['.gitignore'] = 'PROME reviewed the ignore change'
+        self.freeze()
+        self.assertNotIn('.gitignore', self.manifest()['attributed_by_commit'])
+
+    def test_y2_observe_refuses_the_perimeter_after_the_freeze(self):
+        self.freeze()
+        self.perimeter_edit('pattern\tclass\treason\n', 'pattern\tclass\treason\nPROME/state/HANDOFF_X.md\tEXCLUDED\tx\n')
+        self.git('add', '--', sc.PERIMETER_FILE); self.git('commit', '-qm', 'BRENT: perimeter row', '--', sc.PERIMETER_FILE)
+        with self.assertRaises(ValueError) as cm:
+            ac.observe(sc, {sc.PERIMETER_FILE: self.unrelated()})
+        self.assertIn('never observed-only', str(cm.exception))
+        d = self.manifest()                      # a hand-inserted observed entry on the perimeter: CANNOT-EVALUATE
+        d['observed'][sc.PERIMETER_FILE] = [{'owner': 'OTTO'}]; self.save(d)
+        self.assertEqual(sc.verify_review()[0], 2)
+
+    def test_y3_nested_ignore_file_in_an_excluded_lane_stays_advisory(self):
+        self.freeze()
+        self.write('AGENTS/BROCK/research/.gitignore', '*.csv\n')
+        rc, lines = sc.verify_review()
+        self.assertEqual(rc, 0, lines)
+        self.assertIn(FP.format('EXCLUDED', 'AGENTS/BROCK/research/.gitignore'), lines)
+
+    def test_y4_pin_digest_covers_the_bytes_the_rules_were_parsed_from(self):
+        self.freeze(); d = self.manifest()
+        self.assertEqual(d['perimeter']['sha256'], hashlib.sha256((self.root / sc.PERIMETER_FILE).read_bytes()).hexdigest())
+        self.assertEqual([tuple(r) for r in d['perimeter']['rules']], sc.load_perimeter())
 
 
 if __name__ == '__main__':
