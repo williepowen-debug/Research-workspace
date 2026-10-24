@@ -23,3 +23,10 @@ Every NEW flag below was read at the artifact with its full line logic (WQ-467 C
 Pattern note for the checker's owner (DAEDALUS, L768 lane — an observation, not a change): twelve of the thirteen are "N/M" fractions (scores, cell counts, pages read) or desk-ruled forward dates; the thirteenth is a URL path fragment. None was drift. No allowlist row is added here: the allowlist is expiry-dated for benign CLASSES and these are per-line readings; the baseline accept carries them.
 
 Accepted into the baseline with `firetime_delta.py --accept --pointer` this record; `PROME/state/firetime_dispositioned.tsv` committed in the same boot commit.
+
+## Closeout run (same day, ~17:24 ET; `scripts/firetime_check.py --window 7` standalone, log `/tmp/prome-closeout-firetime.txt`) — 1 NEW · 1 no longer reported
+
+| Flag | Disposition |
+|---|---|
+| NEW DEAD POINTER `AGENTS/NEXUS/PREDICTIONS_MONITOR.md` — `workbook/KILL_MEMO_HY_OAS_260.md` (row L4, standing guards) | ROUTED to NEXUS (live; SendMessage at closeout) and already FIXED: the memo lives at `AGENTS/LIQUID/workbook/KILL_MEMO_HY_OAS_260.md` (the L4 cell named LIQUID; PROME's first note wrongly searched only the NEXUS tree — corrected on ARGUS ⚠️); NEXUS made the pointer repo-absolute at b1efcd055. Baseline row accepted; it falls off at the next prune. |
+| 1 baseline row no longer reported | DONE: pruned (`--prune`). |

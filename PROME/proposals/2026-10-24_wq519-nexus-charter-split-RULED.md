@@ -1,6 +1,6 @@
 # WQ-519 — NEXUS charter split (Stage 2) three items — RULED (i) A · (ii) A · (iii) DEFERRED ≤ 10/30
 
-**Ruled by Will 2026-10-24 17:10 ET** (pasted ruling, PROME window; recorded 2026-10-24 17:11 ET by PROME prome-06). Row registered 16:5x ET from NEXUS packet `PROME/inbox/processed/2026-10-24_from-NEXUS_stage2-reattestation-charter-split-schema-restored.md` §3 (NEXUS commit 86cb450f7).
+**Ruled by Will 2026-10-24 17:10 ET** (pasted ruling, PROME window; recorded 2026-10-24 17:11 ET by PROME prome-06). Row registered 16:44 ET from NEXUS packet `PROME/inbox/processed/2026-10-24_from-NEXUS_stage2-reattestation-charter-split-schema-restored.md` §3 (NEXUS commit 86cb450f7).
 
 ## Will's word, verbatim
 > PROME — my decisions on WQ-519:

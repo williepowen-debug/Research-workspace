@@ -95,6 +95,7 @@ Closeout is the **write-back tail** of boot (`[[finding_closeout_as_writeback_ta
     python3 PROME/tools/argus_scope.py --verify-review --ref <DELIVERY_SHA> --paths <the same exact paths>
     bash scripts/safe-push.sh        # ONLY if the line above returned rc 0
     ```
+    ⚠️ **A post-freeze foreign PENDING arrival blocks this verify as `UNCLASSIFIED` (step 8's live-fleet note, L796 ❌1):** classify it with `--observe /tmp/prome-observed.json` (`ARGUS_CONTRACT.md`) and re-run the verify; never loop on re-runs; WQ-517 decides whether the advisory rule extends here.
     ⛔ **`--push` on the commit wrapper is forbidden at this step.** It pushes inside the same command, so the delivery check would run *after* the bytes were already on origin — detecting an unreviewed delivery once it has shipped is not a control.
     Record the commit’s full immutable SHA as DELIVERY_SHA immediately after committing. Both arguments matter: `--ref` checks committed bytes and `--paths` declares the exact commit set; schema2 also discovers full inventory and actual commit paths, so a truncated list cannot hide an addition. Follow `ARGUS_CONTRACT.md` for outgoing and actual fresh-fetch snapshot comparisons; ancestry proves inclusion, not unchanged current content.
     **Push receipt, verbatim:** `Pushed. CONFIRMED: HEAD <sha> is on origin/master (fresh fetch).` A bare `Pushed.` is not a receipt.
