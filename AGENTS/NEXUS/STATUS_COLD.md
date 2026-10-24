@@ -1711,3 +1711,22 @@ File-audit findings/owed map → `research/2026-10-19_file_audit/AUDIT.md` (hist
 **Housekeeping 2026-10-19T13:33:36-04:00:** helper-model selectors reconciled with runtime/task approval;100-line pilot text labelled superseded under existing8/28ruling,notnewpolicy. No market refresh/forecast/gate change. Receipt→ `research/2026-10-19_housekeeping/RECORD.md`.
 
 **Session closeout 2026-10-19T13:40:36-04:00:** Will requested closeout; active assignment ended, no polling. Work locally committed; no push. Pending published observations/L11/L730 and existing10/20wake retained. Receipt→ `research/2026-10-19_session_closeout.json`.
+
+## §H22 — 2026-10-24T11:29:29-04:00: READ_CAP rule-5 rotation after the 10/24 correction commit (STATUS 24,516 B = 75.3%). Three verbatim blocks from the live file as committed at 43dfba860; crc32 over each body (rows joined by \n, no trailing newline). Block A's six rows were NOT contiguous in the file (R7 and R10 sat between them and stay live). Live pointers remain in the hot file; no letter, Conf %, root count or docket row is rotated.
+
+### §H22A — ANTECEDENT MAP context-root rows R6 · R8 · R11 · R12 · Climate/power · R5, states as of the 10/23 PM full pass (crc32 42a07884, 1237 B)
+
+| R6 Japan | SAM 10/20: 20Y auction FIRM (5.844×); no carry-unwind vote; USD/JPY 156.64 [10/22]; BOJ 10/29–30. |
+| R8 foreign official | L11 closed ⚪; China LT −$4.8B [Aug]; no capital-flight read 10/22 (ZHAO). Sept TIC ~mid-Nov. |
+| R11 China | ZHAO 28/60; CSI 300 −19.4% from the 6/22 peak [10/22]; Plenum 10/26–29; two 11/10 clocks. Magnitude UNKNOWN. |
+| R12 European rivers | AEOLUS: Rhine FIRED 34 days [10/21]; Mead 1,037.18 ft [10/20], C6 leg 2 fires on the Lower Basin signature (MWD 10/27). No bank transmission observed. |
+| Climate/power context | **WATT P1 5 → 3 [10/22]** (no EEA posting 10/15–21); composite 14/20. Isaias insured $1–4.5bn (AEOLUS, secondary), DR pending. CORAL MSI 4-of-5, re-fire fails; Parcl series ruled 10/21. |
+| R5 derived, not new root | Sept PPI +1.343% m/m, gasoline +20.3% (CARL); core hot (RED FT-08) but not via oil; real wages negative four months = the anti-spiral (RED). Pump prices FALLING while crude rises: AAA regular $4.29 (−4.1% m/m, +39.8% y/y), diesel $6.32 (−3.1% m/m) [10/23]; Michigan 1-yr expectations 4.7%, long-run 3.5% = highest since May [10/23 final] (survey, not RED's 5y5y). Brent $116.72 re-opens oil → CPI only if sustained; nothing registered. |
+
+### §H22B — THRESHOLD 'Other owner states' row (crc32 e0c2c64b, 190 B)
+
+| Other owner states | LIQ-07 S2 · LIQ-069 2-of-2 FIRED (not RELEASED) · FLG RED (CRE lines 0 of 4 [10/23]) · BOND one-shot MET 10/1 · Rhine FIRED 34 days [10/21] | Dated owner states. |
+
+### §H22C — header delta-annotation sentence, 10/23 22:1x ET catch-up (crc32 3bbb9ca5, 243 B)
+
+**Delta annotation 1 of 2, 2026-10-23T22:16:16-04:00 (Will: catch up on new signals): BOARD 10/23 cards 014/016/019/023/026/027/033/036/037/039/040/042 + LIQUID 22:06 read folded as evidence; no letter, Conf % or split moved; not a re-sweep.**
