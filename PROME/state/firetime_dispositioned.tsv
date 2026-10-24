@@ -1,7 +1,7 @@
 artifact	kind	core	first_dispositioned	pointer
 AGENTS/WAL/Q2_10Q_READ_2026-08-07.md	DATE DRIFT	artifact says 2027-01-05 ('1/5')	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
 AGENTS/CORAL/STATUS.md	DATE DRIFT	artifact says 2027-01-04 ('2027-01-04')	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
-PROME/WILL_QUEUE.md	DEAD POINTER	`scripts/routine-requirements.txt`	2026-10-23	PROME/reports/2026-10-23_firetime-evening-boot-flags-disposition.md
+PROME/WILL_QUEUE.md	DATE DRIFT	artifact says 2027-01-15 ('Jan-15')	2026-10-23	PROME/reports/2026-10-23_firetime-late-boot-flags-disposition.md
 PROME/proposals/2026-09-05_spawn-driver-RULED.md	DEAD POINTER	`BLUEPRINTS/meta-agent.md`	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
 PROME/proposals/2026-09-05_spawn-driver-RULED.md	DEAD POINTER	`profiles/FERT.md`	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
 PROME/inbox/processed/2026-09-25_from-DAEDALUS_L290-render-4-inbox-drain-wq295-doorbell-close.md	DEAD POINTER	`Research-Intake/scripts/newsweep_config.py`	2026-10-22	PROME/reports/2026-10-22_firetime-boot-flags-disposition.md
@@ -43,3 +43,4 @@ AGENTS/DEWEY/output/2026-10-22_reserve-coverage-decline-base-rate.md	DATE DRIFT	
 AGENTS/DEWEY/output/2026-10-22_reserve-coverage-decline-base-rate.md	DATE DRIFT	artifact says 2027-01-03 ('Jan 3')	2026-10-23	PROME/reports/2026-10-22_firetime-boot-flags-disposition.md
 AGENTS/REGINALD/STATUS.md	DATE DRIFT	artifact says 2026-12-30 ('12/30')	2026-10-23	PROME/reports/2026-10-23_firetime-evening-boot-flags-disposition.md
 AGENTS/LIQUID/STATUS.md	DATE DRIFT	artifact says 2027-01-04 ('1/4')	2026-10-23	PROME/reports/2026-10-23_firetime-evening-boot-flags-disposition.md
+PROME/proposals/2026-10-23_wq513-516-RULED.md	DATE DRIFT	artifact says 2027-01-15 ('Jan-15')	2026-10-23	PROME/reports/2026-10-23_firetime-late-boot-flags-disposition.md
