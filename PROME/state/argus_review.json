@@ -2,11 +2,11 @@
   "schema": 2,
   "verdict": "REVIEWED",
   "baseline": "873f8a510d53ad5544b5c4a3951ce7aff6ecf43e",
-  "head": "689ba38a4daccfbab462794c16726f3fb5466979",
-  "recorded_at": "2026-10-24T21:40:47.258410+00:00",
+  "head": "2509a882349d6e2dbdc3bcaeaede17dc339efa43",
+  "recorded_at": "2026-10-24T21:42:00.908627+00:00",
   "contract": {
     "baseline": "873f8a510d53ad5544b5c4a3951ce7aff6ecf43e",
-    "anchor": "689ba38a4daccfbab462794c16726f3fb5466979",
+    "anchor": "2509a882349d6e2dbdc3bcaeaede17dc339efa43",
     "delivered": {
       "FORGE/tools/market-data/fetch.py": {
         "sha256": "7d4298421a095eb78b190b34f2f89787d3090abc4a89307d6b048c17c9010b0b",
@@ -27,7 +27,8 @@
         "sha256": "27abd11506edfba82664ab02b4d51f3e2c8cd3fbdfdddb8e99555a23e6b0ba34",
         "provenance": "PROME-owned surface changed since baseline 873f8a510 (10/23 evening set + 10/24 Saturday session prome-06); commits 5b82be83e; step 10 gained the --observe pointer clause at this closeout (ARGUS \u274c7)",
         "versions": {
-          "5b82be83e7009c663ccc119616e46dc536fd8363": "ea539d875b94bfb7158de87b2132fe1ab34d8dcf467aec96f3a6d41a421595bc"
+          "5b82be83e7009c663ccc119616e46dc536fd8363": "ea539d875b94bfb7158de87b2132fe1ab34d8dcf467aec96f3a6d41a421595bc",
+          "2509a882349d6e2dbdc3bcaeaede17dc339efa43": "27abd11506edfba82664ab02b4d51f3e2c8cd3fbdfdddb8e99555a23e6b0ba34"
         }
       },
       "PROME/DOCKET.tsv": {
@@ -45,7 +46,8 @@
           "6d3c15406a30f83cb0b2d2234237bd7830def5b4": "03b52d8b6e78d86eec84b21a0599a9fc031d88b7fbd1c7059a3809b6cd9cdc6a",
           "2c20874bdf4e38f7006929bd4a1e5b473266f195": "e0dbccbe751bfdc9a78b8d2fc2a6a9b14cbfb5f2d31d38036950bc881f0a0c54",
           "54a961748df5dc472220f61c8db7c06a380e9199": "06c269b52c7bea55137f6a4ecf53f6afea3d50ef3b89025a300b948c59a70348",
-          "c71c018175ec2ebea64877468cc4477d6065a5ac": "028b23dba1fa3a926784a6ae18dd73df17cee380164d973b62fd6458b1af649c"
+          "c71c018175ec2ebea64877468cc4477d6065a5ac": "028b23dba1fa3a926784a6ae18dd73df17cee380164d973b62fd6458b1af649c",
+          "2509a882349d6e2dbdc3bcaeaede17dc339efa43": "b7d96ea6a4eb436c3518f5d3e56383341c6c5f8fd6c6ab262c58d5725885a71f"
         }
       },
       "PROME/GATES.tsv": {
@@ -59,7 +61,8 @@
         "sha256": "155bd24a8ecfd1af6b82945a8539cd1eb37acb0cf5879ad97df890535f883f7c",
         "provenance": "PROME-owned surface changed since baseline 873f8a510 (10/23 evening set + 10/24 Saturday session prome-06); commits be768a68a + pending",
         "versions": {
-          "be768a68ab960614f8e7d4a5b7468aa334400ae3": "75f31842071b05510577a93f9490ddf557f223b75921695110bb70c890c4bbe5"
+          "be768a68ab960614f8e7d4a5b7468aa334400ae3": "75f31842071b05510577a93f9490ddf557f223b75921695110bb70c890c4bbe5",
+          "2509a882349d6e2dbdc3bcaeaede17dc339efa43": "155bd24a8ecfd1af6b82945a8539cd1eb37acb0cf5879ad97df890535f883f7c"
         }
       },
       "PROME/SCRATCH.md": {
@@ -72,14 +75,16 @@
           "71c197742c5c877c94930deb2990029bc5ec49d8": "b023f21740205af1901a95cf08d03e501c002adf86d99f937354d5d4da3a74a0",
           "5b82be83e7009c663ccc119616e46dc536fd8363": "5622ea0307f19c7723cddf288c6b05ef1827b056a2bed3107ff480686f62b4de",
           "d0e662694108d26cdd8dad1c9c711b904b8d85e3": "23658523821ebe5eee52c9d1d2838923d8d5cfcd3ac8e3128f064a34ffc18fa9",
-          "54a961748df5dc472220f61c8db7c06a380e9199": "5085131342292b418b2e54c00a0e3e0ab0190fd5580953e97a10d0003e413766"
+          "54a961748df5dc472220f61c8db7c06a380e9199": "5085131342292b418b2e54c00a0e3e0ab0190fd5580953e97a10d0003e413766",
+          "2509a882349d6e2dbdc3bcaeaede17dc339efa43": "3750dfe379981729fe2dbcc7d9edaa62af93ad8fea941a2db8865650f3baf5ed"
         }
       },
       "PROME/STATUS.md": {
         "sha256": "461467ee4cb63267f521e95bc352db0dc4c058170ecce51260968430c858441a",
         "provenance": "PROME-owned surface changed since baseline 873f8a510 (10/23 evening set + 10/24 Saturday session prome-06); commits be768a68a + pending",
         "versions": {
-          "be768a68ab960614f8e7d4a5b7468aa334400ae3": "2ac10bb997651a11fde653ed3bb1b48bc22db676419dc5c3cb8f071f0a72cf5f"
+          "be768a68ab960614f8e7d4a5b7468aa334400ae3": "2ac10bb997651a11fde653ed3bb1b48bc22db676419dc5c3cb8f071f0a72cf5f",
+          "2509a882349d6e2dbdc3bcaeaede17dc339efa43": "461467ee4cb63267f521e95bc352db0dc4c058170ecce51260968430c858441a"
         }
       },
       "PROME/WILL_QUEUE.md": {
@@ -94,7 +99,8 @@
           "d0e662694108d26cdd8dad1c9c711b904b8d85e3": "d2d11ffbed30c734daab10a9566557a2c1b647164677b3ff200f56bd132bf463",
           "83e9572de458e6e431fc017c16c7cb3730a42404": "ad4690ef7182d43bb16e36a90857469021714abbfcd38f9d23dff9a73a700dae",
           "54a961748df5dc472220f61c8db7c06a380e9199": "3ea3d3d153f61c7e538568f554cbfaa7a45f6d8de6b951e592fbae8743872715",
-          "c71c018175ec2ebea64877468cc4477d6065a5ac": "27f97170901cfb65bf3b9491141ddb24cb90bd25054cbe2ccd4d1593633212c4"
+          "c71c018175ec2ebea64877468cc4477d6065a5ac": "27f97170901cfb65bf3b9491141ddb24cb90bd25054cbe2ccd4d1593633212c4",
+          "2509a882349d6e2dbdc3bcaeaede17dc339efa43": "fc131f6b4f66fede0aae25d197c058e60c7d13151a0ebb1d0e0263e8c0ad8dbd"
         }
       },
       "PROME/archive/HANDOFF_ROTATED_2026-10-23_prome-06.md": {
@@ -133,7 +139,8 @@
         "provenance": "PROME-owned surface changed since baseline 873f8a510 (10/23 evening set + 10/24 Saturday session prome-06); commits 5084ce6fe,c71c01817",
         "versions": {
           "c71c018175ec2ebea64877468cc4477d6065a5ac": "2664b88ab6036b301be2d25e337160463d9a21b8d18c247b45457271c4ee9f0c",
-          "5084ce6fe09faa0435870d3510aec2f7136d83c7": "a59ad615a8ed680d532f21663e717655d076c686c2509f00f2152cc0e2ebbf56"
+          "5084ce6fe09faa0435870d3510aec2f7136d83c7": "a59ad615a8ed680d532f21663e717655d076c686c2509f00f2152cc0e2ebbf56",
+          "2509a882349d6e2dbdc3bcaeaede17dc339efa43": "44e7151dbb67c82e1047e480938880a31341fc357b871ac170750fc68c200897"
         }
       },
       "PROME/registry/READS.tsv": {
@@ -155,7 +162,8 @@
           "d0e662694108d26cdd8dad1c9c711b904b8d85e3": "02df1a460dba7b88d144e12cc3e3412fe3f28d74c6cda2efdb9043ac3cc7af80",
           "83e9572de458e6e431fc017c16c7cb3730a42404": "8d3583dedb30416dd2fbd524a2212788b9dee2e9095e7ccbfda231a72428f610",
           "54a961748df5dc472220f61c8db7c06a380e9199": "d4a40e4d13c8267ec50fac6862af645ba3356e9eff771fb9891bb19bbe945c5e",
-          "c71c018175ec2ebea64877468cc4477d6065a5ac": "2695572ad31eb825c6ce6023c5dd83e45b320d0ff2cd32a49c28e9588393a99b"
+          "c71c018175ec2ebea64877468cc4477d6065a5ac": "2695572ad31eb825c6ce6023c5dd83e45b320d0ff2cd32a49c28e9588393a99b",
+          "2509a882349d6e2dbdc3bcaeaede17dc339efa43": "1c0616a5e70d5ea5c90caf3ad2ae4b853430ee97588fefadc458ef6289ccf71d"
         }
       },
       "PROME/registry/WQ_LEDGER.tsv": {
@@ -169,7 +177,8 @@
           "d0e662694108d26cdd8dad1c9c711b904b8d85e3": "0cb7bd95ffa0d24e35b11d95a03774650375e3e045e1f8fa51c32773e8c5a121",
           "83e9572de458e6e431fc017c16c7cb3730a42404": "c4ebd32d945fb1e5ebc4c020e60a353a911bb0c67a3ce382ba2b5feb085425ae",
           "54a961748df5dc472220f61c8db7c06a380e9199": "8ded0180902efa9ee0459c792fa5837bd432249c66fa3282969ac6a11a8ca757",
-          "c71c018175ec2ebea64877468cc4477d6065a5ac": "8823d20a4c6f7d10b2a7e7dcb849447d0a4146929b9ca5328f713fad094b64cf"
+          "c71c018175ec2ebea64877468cc4477d6065a5ac": "8823d20a4c6f7d10b2a7e7dcb849447d0a4146929b9ca5328f713fad094b64cf",
+          "2509a882349d6e2dbdc3bcaeaede17dc339efa43": "3648d94b47c495d5005c6b0fbf4bc0b3ac2811476d235403921d8c98028b5d8d"
         }
       },
       "PROME/registry/corrections_receipts.tsv": {
@@ -219,7 +228,8 @@
         "sha256": "4be9645a645d31795f9a3c5405c97caefc4e3296d90483f85cd62208305d3ada",
         "provenance": "PROME-owned surface changed since baseline 873f8a510 (10/23 evening set + 10/24 Saturday session prome-06); commits 71c197742 + pending",
         "versions": {
-          "71c197742c5c877c94930deb2990029bc5ec49d8": "be99a382d86bdcc451fb4a34dda89df0fde20057675c5e2fa13e0eb445b28b45"
+          "71c197742c5c877c94930deb2990029bc5ec49d8": "be99a382d86bdcc451fb4a34dda89df0fde20057675c5e2fa13e0eb445b28b45",
+          "2509a882349d6e2dbdc3bcaeaede17dc339efa43": "4be9645a645d31795f9a3c5405c97caefc4e3296d90483f85cd62208305d3ada"
         }
       },
       "PROME/state/CALENDAR.md": {
@@ -237,7 +247,8 @@
           "6d3c15406a30f83cb0b2d2234237bd7830def5b4": "240c106ba3d9a918dbb7612600bc62b22d128ef3eea00d007a9efa342cc1b2c9",
           "2c20874bdf4e38f7006929bd4a1e5b473266f195": "d7da8b9f444474bed8ef8300956db9bc1f5b411160e7e312df1325fb2db3956d",
           "54a961748df5dc472220f61c8db7c06a380e9199": "29f9c7c04be8d1298e34083349fdf6e87fb634fc7e7a979e16d3b4410c80872b",
-          "c71c018175ec2ebea64877468cc4477d6065a5ac": "04c0816743073b2ba42a88ccd25a49a476990ffa040bbdd1bc73ad12b7e0051b"
+          "c71c018175ec2ebea64877468cc4477d6065a5ac": "04c0816743073b2ba42a88ccd25a49a476990ffa040bbdd1bc73ad12b7e0051b",
+          "2509a882349d6e2dbdc3bcaeaede17dc339efa43": "d99725af42d3b0b96a0bfb092214e685bb1e3a2cd9bfaf592958720aef0aa5c6"
         }
       },
       "PROME/state/ORCH_LOG.tsv": {
@@ -246,7 +257,8 @@
         "versions": {
           "5b82be83e7009c663ccc119616e46dc536fd8363": "38810c59495bb80be35a17d3236e9be06c7f9a332646b22475de9b9ad3daf4cc",
           "d0e662694108d26cdd8dad1c9c711b904b8d85e3": "414e99c82844aa781fd002a3d49c67b9a4c7db4c49351181332b77ffcba425e3",
-          "83e9572de458e6e431fc017c16c7cb3730a42404": "d5e043288254845e643257c1935643193723f39ceacd820bb26c9c61f06ea1c4"
+          "83e9572de458e6e431fc017c16c7cb3730a42404": "d5e043288254845e643257c1935643193723f39ceacd820bb26c9c61f06ea1c4",
+          "2509a882349d6e2dbdc3bcaeaede17dc339efa43": "4e9fda39dcf4055d7a46576d9e3e97aa566829c3035ddf9d6d6f373fcccc5d53"
         }
       },
       "PROME/state/board_consumed.tsv": {
@@ -269,7 +281,8 @@
         "versions": {
           "3500eaa910d626f8287c1c1fd8bb486dc1f3ca2b": "d2c756101ac33168f38c7419682c4a1faf32fa53e23224f1e9844a5ceed82844",
           "044341f0d44cdb34416eef53ef6c2a0eb2699168": "670005c9f4ae3a1b127654daf7948f5150807148872e6f0dfbbcce64e4a035d9",
-          "71c197742c5c877c94930deb2990029bc5ec49d8": "72e0b8d600773d1658c3dffd936662560f016101417db6bc5b81009eb1322e5f"
+          "71c197742c5c877c94930deb2990029bc5ec49d8": "72e0b8d600773d1658c3dffd936662560f016101417db6bc5b81009eb1322e5f",
+          "2509a882349d6e2dbdc3bcaeaede17dc339efa43": "3c87891e473d304fc389362e3405d52d3ad9c834f757d861f68671c9e7198e6e"
         }
       },
       "PROME/tools/tests/ACCEPTANCE_closeout_gate_foreign_pending_2026-10-22.md": {
@@ -419,7 +432,7 @@
         }
       },
       "memory/2026-10-24.md": {
-        "sha256": "d4a718db9a42588275f957ff3beebf4f6fce8d890620b8c13886db696f0b5eba",
+        "sha256": "0b597212908b4f70a89c2f28ccd43c5121b379071bb49c70931b08c79b6e87a9",
         "provenance": "PROME session account for 10/24 (root memory/ grant); committed d032bd868\u2026 + pending closeout section",
         "versions": {
           "d032bd86883c3b4656d044e6cc08967310e3a361": "1f51a0d9d56eba91d203e63370f386092b05d04f3740a7690d0310b5787fe72d",
@@ -427,7 +440,8 @@
           "2c20874bdf4e38f7006929bd4a1e5b473266f195": "cdc9f5a2509f4731cfc93becebea351bd20bd37bc54b12fc019bfd3cd0a26aa3",
           "54a961748df5dc472220f61c8db7c06a380e9199": "109c70f4736645553cbebac6b201dda070f08c42693bac3e87ace53977d1253c",
           "c71c018175ec2ebea64877468cc4477d6065a5ac": "9c33f81a8a6dde3fef07acf16fb504fdd66a64dc30b05bea331fda5740740cec",
-          "5084ce6fe09faa0435870d3510aec2f7136d83c7": "be31e1d6eb952847d055283bb8719271bccc943fb386a8246b9b8c0edf2c4b7d"
+          "5084ce6fe09faa0435870d3510aec2f7136d83c7": "be31e1d6eb952847d055283bb8719271bccc943fb386a8246b9b8c0edf2c4b7d",
+          "2509a882349d6e2dbdc3bcaeaede17dc339efa43": "0b597212908b4f70a89c2f28ccd43c5121b379071bb49c70931b08c79b6e87a9"
         }
       },
       "AGENTS/LIQUID/inbox/processed/2026-10-23_from-PROME_ELLISON-theme-home-oracle-collateral-loop.md": {
@@ -640,27 +654,37 @@
       "PROME/archive/SCRATCH_ROTATED_2026-10-24_prome-06.md": {
         "sha256": "4294bb6873be192d1bb06db42dab7ebb0a5de246439a5c8f9f770fc37000aed3",
         "provenance": "SCRATCH byte-flow rotation archive written at this closeout (verbatim, crc in header)",
-        "versions": {}
+        "versions": {
+          "2509a882349d6e2dbdc3bcaeaede17dc339efa43": "4294bb6873be192d1bb06db42dab7ebb0a5de246439a5c8f9f770fc37000aed3"
+        }
       },
       "PROME/archive/HANDOFF_ROTATED_2026-10-24_prome-06.md": {
         "sha256": "9fcf3367cbb47729a33e5bab9e1b69e85558afdd84951ab5a1b0d95dd9a5f264",
         "provenance": "HANDOFF rotation archive written at this closeout (verbatim, crc in header)",
-        "versions": {}
+        "versions": {
+          "2509a882349d6e2dbdc3bcaeaede17dc339efa43": "9fcf3367cbb47729a33e5bab9e1b69e85558afdd84951ab5a1b0d95dd9a5f264"
+        }
       },
       ".claude/skills/closeout/SKILL.md": {
         "sha256": "443eb1ecf71a2d44967ef71c628af2eecedd778dab987ff235f42a3763fd97ef",
         "provenance": "PROME-owned runner (root copy; parity-gated with the PROME copy): step-5 pointer on the step-10 --observe rule (ARGUS \u274c7)",
-        "versions": {}
+        "versions": {
+          "2509a882349d6e2dbdc3bcaeaede17dc339efa43": "443eb1ecf71a2d44967ef71c628af2eecedd778dab987ff235f42a3763fd97ef"
+        }
       },
       "PROME/.claude/skills/closeout/SKILL.md": {
         "sha256": "443eb1ecf71a2d44967ef71c628af2eecedd778dab987ff235f42a3763fd97ef",
         "provenance": "PROME-owned runner (PROME copy): same one-clause edit",
-        "versions": {}
+        "versions": {
+          "2509a882349d6e2dbdc3bcaeaede17dc339efa43": "443eb1ecf71a2d44967ef71c628af2eecedd778dab987ff235f42a3763fd97ef"
+        }
       },
       "PROME/state/ORCH_INFLIGHT.md": {
         "sha256": "2bcd3921985ff3a0b76f4cdeb5d6e58a0d5835608a1f1bc09f50588d522dc69f",
         "provenance": "Generated view regenerated by scripts/orch_log.py append (the ARGUS RUN-LOG row, with ACK-UNOBSERVED 3) at this closeout",
-        "versions": {}
+        "versions": {
+          "2509a882349d6e2dbdc3bcaeaede17dc339efa43": "2bcd3921985ff3a0b76f4cdeb5d6e58a0d5835608a1f1bc09f50588d522dc69f"
+        }
       }
     },
     "evidence": [
@@ -724,16 +748,16 @@
       }
     ]
   },
-  "contract_sha256": "9d10d098ffa5ab8cc3cc6336b5ec13fdf9056f16c4e123b33de9b81fb67fe01a",
+  "contract_sha256": "8aa890c5558e3b654451ec4aef17faaff25336a61e472a026c718710b701abc7",
   "observed": {},
   "inventory": {
     ".claude/skills/closeout/SKILL.md": {
-      "commits": [],
-      "pending": [
-        " M"
+      "commits": [
+        "2509a882349d6e2dbdc3bcaeaede17dc339efa43"
       ],
+      "pending": [],
       "working_sha256": "443eb1ecf71a2d44967ef71c628af2eecedd778dab987ff235f42a3763fd97ef",
-      "commit_sha256": "a9c0559bbe0f6dbbcacefd0ebfffd3a663240ea0744ef39a34420b12eaea3c6c"
+      "commit_sha256": "443eb1ecf71a2d44967ef71c628af2eecedd778dab987ff235f42a3763fd97ef"
     },
     "AGENTS/BROCK/inbox/2026-10-23_from-DEWEY_research-history-meta-review.md": {
       "commits": [
@@ -2786,22 +2810,21 @@
       "commit_sha256": "a560c8ba58404df590b725640a106ce713fe59dae7905d699135bc99dd113111"
     },
     "PROME/.claude/skills/closeout/SKILL.md": {
-      "commits": [],
-      "pending": [
-        " M"
+      "commits": [
+        "2509a882349d6e2dbdc3bcaeaede17dc339efa43"
       ],
+      "pending": [],
       "working_sha256": "443eb1ecf71a2d44967ef71c628af2eecedd778dab987ff235f42a3763fd97ef",
-      "commit_sha256": "a9c0559bbe0f6dbbcacefd0ebfffd3a663240ea0744ef39a34420b12eaea3c6c"
+      "commit_sha256": "443eb1ecf71a2d44967ef71c628af2eecedd778dab987ff235f42a3763fd97ef"
     },
     "PROME/CLOSEOUT.md": {
       "commits": [
-        "5b82be83e7009c663ccc119616e46dc536fd8363"
+        "5b82be83e7009c663ccc119616e46dc536fd8363",
+        "2509a882349d6e2dbdc3bcaeaede17dc339efa43"
       ],
-      "pending": [
-        " M"
-      ],
+      "pending": [],
       "working_sha256": "27abd11506edfba82664ab02b4d51f3e2c8cd3fbdfdddb8e99555a23e6b0ba34",
-      "commit_sha256": "ea539d875b94bfb7158de87b2132fe1ab34d8dcf467aec96f3a6d41a421595bc"
+      "commit_sha256": "27abd11506edfba82664ab02b4d51f3e2c8cd3fbdfdddb8e99555a23e6b0ba34"
     },
     "PROME/DOCKET.tsv": {
       "commits": [
@@ -2816,13 +2839,12 @@
         "6d3c15406a30f83cb0b2d2234237bd7830def5b4",
         "2c20874bdf4e38f7006929bd4a1e5b473266f195",
         "54a961748df5dc472220f61c8db7c06a380e9199",
-        "c71c018175ec2ebea64877468cc4477d6065a5ac"
+        "c71c018175ec2ebea64877468cc4477d6065a5ac",
+        "2509a882349d6e2dbdc3bcaeaede17dc339efa43"
       ],
-      "pending": [
-        " M"
-      ],
+      "pending": [],
       "working_sha256": "b7d96ea6a4eb436c3518f5d3e56383341c6c5f8fd6c6ab262c58d5725885a71f",
-      "commit_sha256": "028b23dba1fa3a926784a6ae18dd73df17cee380164d973b62fd6458b1af649c"
+      "commit_sha256": "b7d96ea6a4eb436c3518f5d3e56383341c6c5f8fd6c6ab262c58d5725885a71f"
     },
     "PROME/GATES.tsv": {
       "commits": [
@@ -2834,13 +2856,12 @@
     },
     "PROME/HANDOFF.md": {
       "commits": [
-        "be768a68ab960614f8e7d4a5b7468aa334400ae3"
+        "be768a68ab960614f8e7d4a5b7468aa334400ae3",
+        "2509a882349d6e2dbdc3bcaeaede17dc339efa43"
       ],
-      "pending": [
-        " M"
-      ],
+      "pending": [],
       "working_sha256": "155bd24a8ecfd1af6b82945a8539cd1eb37acb0cf5879ad97df890535f883f7c",
-      "commit_sha256": "75f31842071b05510577a93f9490ddf557f223b75921695110bb70c890c4bbe5"
+      "commit_sha256": "155bd24a8ecfd1af6b82945a8539cd1eb37acb0cf5879ad97df890535f883f7c"
     },
     "PROME/SCRATCH.md": {
       "commits": [
@@ -2850,23 +2871,21 @@
         "71c197742c5c877c94930deb2990029bc5ec49d8",
         "5b82be83e7009c663ccc119616e46dc536fd8363",
         "d0e662694108d26cdd8dad1c9c711b904b8d85e3",
-        "54a961748df5dc472220f61c8db7c06a380e9199"
+        "54a961748df5dc472220f61c8db7c06a380e9199",
+        "2509a882349d6e2dbdc3bcaeaede17dc339efa43"
       ],
-      "pending": [
-        " M"
-      ],
+      "pending": [],
       "working_sha256": "3750dfe379981729fe2dbcc7d9edaa62af93ad8fea941a2db8865650f3baf5ed",
-      "commit_sha256": "5085131342292b418b2e54c00a0e3e0ab0190fd5580953e97a10d0003e413766"
+      "commit_sha256": "3750dfe379981729fe2dbcc7d9edaa62af93ad8fea941a2db8865650f3baf5ed"
     },
     "PROME/STATUS.md": {
       "commits": [
-        "be768a68ab960614f8e7d4a5b7468aa334400ae3"
+        "be768a68ab960614f8e7d4a5b7468aa334400ae3",
+        "2509a882349d6e2dbdc3bcaeaede17dc339efa43"
       ],
-      "pending": [
-        " M"
-      ],
+      "pending": [],
       "working_sha256": "461467ee4cb63267f521e95bc352db0dc4c058170ecce51260968430c858441a",
-      "commit_sha256": "2ac10bb997651a11fde653ed3bb1b48bc22db676419dc5c3cb8f071f0a72cf5f"
+      "commit_sha256": "461467ee4cb63267f521e95bc352db0dc4c058170ecce51260968430c858441a"
     },
     "PROME/WILL_QUEUE.md": {
       "commits": [
@@ -2878,13 +2897,12 @@
         "d0e662694108d26cdd8dad1c9c711b904b8d85e3",
         "83e9572de458e6e431fc017c16c7cb3730a42404",
         "54a961748df5dc472220f61c8db7c06a380e9199",
-        "c71c018175ec2ebea64877468cc4477d6065a5ac"
+        "c71c018175ec2ebea64877468cc4477d6065a5ac",
+        "2509a882349d6e2dbdc3bcaeaede17dc339efa43"
       ],
-      "pending": [
-        " M"
-      ],
+      "pending": [],
       "working_sha256": "fc131f6b4f66fede0aae25d197c058e60c7d13151a0ebb1d0e0263e8c0ad8dbd",
-      "commit_sha256": "27f97170901cfb65bf3b9491141ddb24cb90bd25054cbe2ccd4d1593633212c4"
+      "commit_sha256": "fc131f6b4f66fede0aae25d197c058e60c7d13151a0ebb1d0e0263e8c0ad8dbd"
     },
     "PROME/archive/HANDOFF_ROTATED_2026-10-23_prome-06.md": {
       "commits": [
@@ -2895,20 +2913,20 @@
       "commit_sha256": "ed5152337adc21394586a99539674167b5ca1b8c7057bd715908133cd306f92b"
     },
     "PROME/archive/HANDOFF_ROTATED_2026-10-24_prome-06.md": {
-      "commits": [],
-      "pending": [
-        "??"
+      "commits": [
+        "2509a882349d6e2dbdc3bcaeaede17dc339efa43"
       ],
+      "pending": [],
       "working_sha256": "9fcf3367cbb47729a33e5bab9e1b69e85558afdd84951ab5a1b0d95dd9a5f264",
-      "commit_sha256": null
+      "commit_sha256": "9fcf3367cbb47729a33e5bab9e1b69e85558afdd84951ab5a1b0d95dd9a5f264"
     },
     "PROME/archive/SCRATCH_ROTATED_2026-10-24_prome-06.md": {
-      "commits": [],
-      "pending": [
-        "??"
+      "commits": [
+        "2509a882349d6e2dbdc3bcaeaede17dc339efa43"
       ],
+      "pending": [],
       "working_sha256": "4294bb6873be192d1bb06db42dab7ebb0a5de246439a5c8f9f770fc37000aed3",
-      "commit_sha256": null
+      "commit_sha256": "4294bb6873be192d1bb06db42dab7ebb0a5de246439a5c8f9f770fc37000aed3"
     },
     "PROME/ideas/list.tsv": {
       "commits": [
@@ -3127,13 +3145,12 @@
     "PROME/proposals/2026-10-24_wq519-nexus-charter-split-RULED.md": {
       "commits": [
         "c71c018175ec2ebea64877468cc4477d6065a5ac",
-        "5084ce6fe09faa0435870d3510aec2f7136d83c7"
+        "5084ce6fe09faa0435870d3510aec2f7136d83c7",
+        "2509a882349d6e2dbdc3bcaeaede17dc339efa43"
       ],
-      "pending": [
-        " M"
-      ],
+      "pending": [],
       "working_sha256": "44e7151dbb67c82e1047e480938880a31341fc357b871ac170750fc68c200897",
-      "commit_sha256": "a59ad615a8ed680d532f21663e717655d076c686c2509f00f2152cc0e2ebbf56"
+      "commit_sha256": "44e7151dbb67c82e1047e480938880a31341fc357b871ac170750fc68c200897"
     },
     "PROME/registry/READS.tsv": {
       "commits": [
@@ -3153,13 +3170,12 @@
         "d0e662694108d26cdd8dad1c9c711b904b8d85e3",
         "83e9572de458e6e431fc017c16c7cb3730a42404",
         "54a961748df5dc472220f61c8db7c06a380e9199",
-        "c71c018175ec2ebea64877468cc4477d6065a5ac"
+        "c71c018175ec2ebea64877468cc4477d6065a5ac",
+        "2509a882349d6e2dbdc3bcaeaede17dc339efa43"
       ],
-      "pending": [
-        " M"
-      ],
+      "pending": [],
       "working_sha256": "1c0616a5e70d5ea5c90caf3ad2ae4b853430ee97588fefadc458ef6289ccf71d",
-      "commit_sha256": "2695572ad31eb825c6ce6023c5dd83e45b320d0ff2cd32a49c28e9588393a99b"
+      "commit_sha256": "1c0616a5e70d5ea5c90caf3ad2ae4b853430ee97588fefadc458ef6289ccf71d"
     },
     "PROME/registry/WQ_LEDGER.tsv": {
       "commits": [
@@ -3170,13 +3186,12 @@
         "d0e662694108d26cdd8dad1c9c711b904b8d85e3",
         "83e9572de458e6e431fc017c16c7cb3730a42404",
         "54a961748df5dc472220f61c8db7c06a380e9199",
-        "c71c018175ec2ebea64877468cc4477d6065a5ac"
+        "c71c018175ec2ebea64877468cc4477d6065a5ac",
+        "2509a882349d6e2dbdc3bcaeaede17dc339efa43"
       ],
-      "pending": [
-        " M"
-      ],
+      "pending": [],
       "working_sha256": "3648d94b47c495d5005c6b0fbf4bc0b3ac2811476d235403921d8c98028b5d8d",
-      "commit_sha256": "8823d20a4c6f7d10b2a7e7dcb849447d0a4146929b9ca5328f713fad094b64cf"
+      "commit_sha256": "3648d94b47c495d5005c6b0fbf4bc0b3ac2811476d235403921d8c98028b5d8d"
     },
     "PROME/registry/corrections_receipts.tsv": {
       "commits": [
@@ -3229,13 +3244,12 @@
     },
     "PROME/reports/2026-10-24_firetime-boot-flags-disposition.md": {
       "commits": [
-        "71c197742c5c877c94930deb2990029bc5ec49d8"
+        "71c197742c5c877c94930deb2990029bc5ec49d8",
+        "2509a882349d6e2dbdc3bcaeaede17dc339efa43"
       ],
-      "pending": [
-        " M"
-      ],
+      "pending": [],
       "working_sha256": "4be9645a645d31795f9a3c5405c97caefc4e3296d90483f85cd62208305d3ada",
-      "commit_sha256": "be99a382d86bdcc451fb4a34dda89df0fde20057675c5e2fa13e0eb445b28b45"
+      "commit_sha256": "4be9645a645d31795f9a3c5405c97caefc4e3296d90483f85cd62208305d3ada"
     },
     "PROME/state/CALENDAR.md": {
       "commits": [
@@ -3250,33 +3264,31 @@
         "6d3c15406a30f83cb0b2d2234237bd7830def5b4",
         "2c20874bdf4e38f7006929bd4a1e5b473266f195",
         "54a961748df5dc472220f61c8db7c06a380e9199",
-        "c71c018175ec2ebea64877468cc4477d6065a5ac"
+        "c71c018175ec2ebea64877468cc4477d6065a5ac",
+        "2509a882349d6e2dbdc3bcaeaede17dc339efa43"
       ],
-      "pending": [
-        " M"
-      ],
+      "pending": [],
       "working_sha256": "d99725af42d3b0b96a0bfb092214e685bb1e3a2cd9bfaf592958720aef0aa5c6",
-      "commit_sha256": "04c0816743073b2ba42a88ccd25a49a476990ffa040bbdd1bc73ad12b7e0051b"
+      "commit_sha256": "d99725af42d3b0b96a0bfb092214e685bb1e3a2cd9bfaf592958720aef0aa5c6"
     },
     "PROME/state/ORCH_INFLIGHT.md": {
-      "commits": [],
-      "pending": [
-        " M"
+      "commits": [
+        "2509a882349d6e2dbdc3bcaeaede17dc339efa43"
       ],
+      "pending": [],
       "working_sha256": "2bcd3921985ff3a0b76f4cdeb5d6e58a0d5835608a1f1bc09f50588d522dc69f",
-      "commit_sha256": "4d76d38c9938f77e91c690b081ae6474cde646a748091671b903f5c7e4a7afce"
+      "commit_sha256": "2bcd3921985ff3a0b76f4cdeb5d6e58a0d5835608a1f1bc09f50588d522dc69f"
     },
     "PROME/state/ORCH_LOG.tsv": {
       "commits": [
         "5b82be83e7009c663ccc119616e46dc536fd8363",
         "d0e662694108d26cdd8dad1c9c711b904b8d85e3",
-        "83e9572de458e6e431fc017c16c7cb3730a42404"
+        "83e9572de458e6e431fc017c16c7cb3730a42404",
+        "2509a882349d6e2dbdc3bcaeaede17dc339efa43"
       ],
-      "pending": [
-        " M"
-      ],
+      "pending": [],
       "working_sha256": "4e9fda39dcf4055d7a46576d9e3e97aa566829c3035ddf9d6d6f373fcccc5d53",
-      "commit_sha256": "d5e043288254845e643257c1935643193723f39ceacd820bb26c9c61f06ea1c4"
+      "commit_sha256": "4e9fda39dcf4055d7a46576d9e3e97aa566829c3035ddf9d6d6f373fcccc5d53"
     },
     "PROME/state/board_consumed.tsv": {
       "commits": [
@@ -3298,13 +3310,12 @@
       "commits": [
         "3500eaa910d626f8287c1c1fd8bb486dc1f3ca2b",
         "044341f0d44cdb34416eef53ef6c2a0eb2699168",
-        "71c197742c5c877c94930deb2990029bc5ec49d8"
+        "71c197742c5c877c94930deb2990029bc5ec49d8",
+        "2509a882349d6e2dbdc3bcaeaede17dc339efa43"
       ],
-      "pending": [
-        " M"
-      ],
+      "pending": [],
       "working_sha256": "3c87891e473d304fc389362e3405d52d3ad9c834f757d861f68671c9e7198e6e",
-      "commit_sha256": "72e0b8d600773d1658c3dffd936662560f016101417db6bc5b81009eb1322e5f"
+      "commit_sha256": "3c87891e473d304fc389362e3405d52d3ad9c834f757d861f68671c9e7198e6e"
     },
     "PROME/tools/tests/ACCEPTANCE_closeout_gate_foreign_pending_2026-10-22.md": {
       "commits": [
@@ -3329,13 +3340,12 @@
         "2c20874bdf4e38f7006929bd4a1e5b473266f195",
         "54a961748df5dc472220f61c8db7c06a380e9199",
         "c71c018175ec2ebea64877468cc4477d6065a5ac",
-        "5084ce6fe09faa0435870d3510aec2f7136d83c7"
+        "5084ce6fe09faa0435870d3510aec2f7136d83c7",
+        "2509a882349d6e2dbdc3bcaeaede17dc339efa43"
       ],
-      "pending": [
-        " M"
-      ],
-      "working_sha256": "d4a718db9a42588275f957ff3beebf4f6fce8d890620b8c13886db696f0b5eba",
-      "commit_sha256": "be31e1d6eb952847d055283bb8719271bccc943fb386a8246b9b8c0edf2c4b7d"
+      "pending": [],
+      "working_sha256": "0b597212908b4f70a89c2f28ccd43c5121b379071bb49c70931b08c79b6e87a9",
+      "commit_sha256": "0b597212908b4f70a89c2f28ccd43c5121b379071bb49c70931b08c79b6e87a9"
     },
     "memory/auto/MEMORY.md": {
       "commits": [
@@ -4186,7 +4196,7 @@
     "memory/auto/MEMORY.md": "67ad4e5e2c0bae4599b4428b47b8ec6130796c23c9c57a1d35000fc9683912e3",
     "memory/auto/finding_a_limit_you_volunteer_gets_less_scrutiny_than_a_claim_you_make.md": "9d94e9127015260b83a013b54574e9cb9306d4e96f3bee3dcd81f85a0bdec403",
     "memory/auto/finding_adopted_rule_drifts_toward_the_cheaper_test.md": "ad790e3c20d2d57d71f7b65d8f714c69b188655c1bfd180943314c01854c604b",
-    "memory/2026-10-24.md": "d4a718db9a42588275f957ff3beebf4f6fce8d890620b8c13886db696f0b5eba",
+    "memory/2026-10-24.md": "0b597212908b4f70a89c2f28ccd43c5121b379071bb49c70931b08c79b6e87a9",
     "AGENTS/LIQUID/inbox/processed/2026-10-23_from-PROME_ELLISON-theme-home-oracle-collateral-loop.md": "4d1156409a011e766a209d9127853ebe408a12df8476febe1fd0f624864b66c8",
     "AGENTS/LIQUID/inbox/processed/2026-10-23_from-PROME_WQ516-I1-xccc-composition-standing-line.md": "265265f6a9510099eb571ba635c218a188df97028275924f130e313b72746cf7",
     "AGENTS/LIQUID/inbox/processed/2026-10-23_from-PROME_status-fraction-reads-as-a-date.md": "bf94125723a16ea20b66be03f3275bb6e17222ed36e1051f2add4ac0055958f9",
@@ -4221,7 +4231,7 @@
     "PROME/.claude/skills/closeout/SKILL.md": "443eb1ecf71a2d44967ef71c628af2eecedd778dab987ff235f42a3763fd97ef",
     "PROME/state/ORCH_INFLIGHT.md": "2bcd3921985ff3a0b76f4cdeb5d6e58a0d5835608a1f1bc09f50588d522dc69f"
   },
-  "reviewed_note": "ARGUS 2026-10-24 end-of-day (Opus): 46 claims 7x/8w/31ok, all x fixed; re-run 19 claims 0x/4w/15ok; post-review one-clause edits + L171/L749 lands-today dispositions (gate) disclosed UNREVIEWED in memory",
-  "reviewed_at": "2026-10-24T21:40:52+00:00",
-  "reviewed_contract_sha256": "9d10d098ffa5ab8cc3cc6336b5ec13fdf9056f16c4e123b33de9b81fb67fe01a"
+  "reviewed_note": "ARGUS 2026-10-24 end-of-day (Opus): 46 claims 7x/8w/31ok all x fixed; re-run 19 claims 0x/4w/15ok. RE-FROZEN after commit 2509a8823 because PROME appended one post-review disclosure line to memory/2026-10-24.md AFTER the freeze (ordering defect, PROME's; the line discloses the L171/L749 gate dispositions); no other path changed; disclosed in the closeout report",
+  "reviewed_at": "2026-10-24T21:42:07+00:00",
+  "reviewed_contract_sha256": "8aa890c5558e3b654451ec4aef17faaff25336a61e472a026c718710b701abc7"
 }
