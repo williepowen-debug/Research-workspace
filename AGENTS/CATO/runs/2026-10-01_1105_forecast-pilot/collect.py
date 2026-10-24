@@ -83,9 +83,27 @@ def collect(repo, config, pin, interpretations=()):
     base = config['baseline_commit']
     pin = git(repo, 'rev-parse', pin + '^{commit}').strip()
     git(repo, 'merge-base', '--is-ancestor', base, pin)
-    if git(repo, 'rev-list', '--min-parents=2', f'{base}..{pin}').strip():
-        raise ValueError('merge in pilot range; review ancestry before collection')
     paths = config['paths']
+    # An unrelated side branch cannot reorder first appearances in these ledgers.
+    # Reject ledger edits even if reverted before merge, and merge-only edits.
+    merges = git(repo, 'rev-list', '--min-parents=2', f'{base}..{pin}').splitlines()
+    if merges:
+        first_parent = git(repo, 'rev-list', '--first-parent', pin).splitlines()
+        if base not in first_parent:
+            raise ValueError('merge in pilot range; baseline not on first-parent ancestry')
+        for merge in merges:
+            parents = git(repo, 'show', '-s', '--format=%P', merge).split()
+            if len(parents) != 2:
+                raise ValueError('merge in pilot range; unsupported parent count')
+            side = git(repo, 'rev-list', f'{parents[0]}..{parents[1]}').splitlines()
+            for commit in side:
+                if len(git(repo, 'show', '-s', '--format=%P', commit).split()) != 1:
+                    raise ValueError('merge in pilot range; non-linear side branch')
+                if git(repo, 'diff-tree', '--root', '--no-commit-id', '--name-only',
+                       '-r', commit, '--', *paths).strip():
+                    raise ValueError('merge in pilot range; side branch touches forecast ledger')
+            if git(repo, 'diff', '--name-only', parents[0], merge, '--', *paths).strip():
+                raise ValueError('merge in pilot range; merge changes forecast ledger')
     seen = set(config['baseline_keys'])
     current = {}
     for path in paths:

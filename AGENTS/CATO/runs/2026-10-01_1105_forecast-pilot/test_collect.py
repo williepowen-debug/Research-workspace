@@ -163,6 +163,43 @@ class CaptureTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'merge in pilot'):
             self.collect()
 
+    def test_unrelated_merge_preserves_order_and_versions(self):
+        self.commit('new\tOriginal\t60%\tOPEN\n')
+        before = self.collect()
+        self.run_git('checkout', '-qb', 'side')
+        (self.repo / 'unrelated.txt').write_text('tracking note')
+        self.run_git('add', 'unrelated.txt')
+        self.run_git('commit', '-qm', 'unrelated')
+        self.run_git('checkout', '-q', 'main')
+        self.commit('new\tAmended\t30%\tOPEN\nnext\tNext\t80%\tOPEN\n')
+        expected = self.collect()
+        self.run_git('merge', '--no-ff', '-qm', 'merge', 'side')
+        actual = self.collect()
+        for field in ('selected', 'later_versions', 'nonnumeric_new_rows'):
+            self.assertEqual(actual[field], expected[field])
+        self.assertEqual(actual['selected'][:1], before['selected'])
+        self.assertEqual(actual, self.collect())
+
+    def test_reverted_side_ledger_edit_still_fails(self):
+        self.run_git('checkout', '-qb', 'side')
+        self.commit('old\tOld question\t70%\tOPEN\nside\tQ\t60%\tOPEN\n')
+        self.commit('old\tOld question\t70%\tOPEN\n')
+        self.run_git('checkout', '-q', 'main')
+        self.run_git('merge', '--no-ff', '-qm', 'merge', 'side')
+        with self.assertRaisesRegex(ValueError, 'side branch touches'):
+            self.collect()
+
+    def test_merge_only_ledger_edit_fails(self):
+        self.run_git('checkout', '-qb', 'side')
+        (self.repo / 'unrelated.txt').write_text('tracking note')
+        self.run_git('add', 'unrelated.txt')
+        self.run_git('commit', '-qm', 'unrelated')
+        self.run_git('checkout', '-q', 'main')
+        self.run_git('merge', '--no-ff', '--no-commit', 'side')
+        self.commit('old\tOld question\t70%\tOPEN\nmerge\tQ\t60%\tOPEN\n')
+        with self.assertRaisesRegex(ValueError, 'merge changes'):
+            self.collect()
+
     def test_atomic_monotonic_write_and_concurrent_lock(self):
         self.commit('new\tQ\t60%\tOPEN\n')
         path = self.repo / 'capture.json'

@@ -31,5 +31,16 @@
     "evidence": "85d7d18781dcfb36e2df8f05a644872ded2772c8:AGENTS/BRENT/thesis/prediction_notes/BRT-31.md; 98d07c696:AGENTS/BRENT/setups/2026-09-30_BRT-31-path-B-successor-DRAFT-v2.md section 2",
     "reviewed_by": "CATO",
     "reviewed_at": "2026-10-02"
+  },
+  {
+    "key": "BOND/BND-32",
+    "commit": "cfa4b420122632a455ee7bf7f3de2b3dd7f5d283",
+    "blob": "cf181a0424c60419cd8b491ac586cc831b1be968",
+    "confidence": "65pct",
+    "p": 0.65,
+    "reason": "The original Confidence cell means 65 percent; the same-row Notes explicitly say 65% discounts the six-meeting 83.3% base. This is forecast probability, not the delta threshold.",
+    "evidence": "cfa4b420122632a455ee7bf7f3de2b3dd7f5d283:AGENTS/BOND/thesis/PREDICTIONS.tsv BND-32 Confidence and Notes cells",
+    "reviewed_by": "CATO",
+    "reviewed_at": "2026-10-23"
   }
 ]

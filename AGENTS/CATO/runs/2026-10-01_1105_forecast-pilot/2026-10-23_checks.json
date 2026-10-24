@@ -1,0 +1,43 @@
+{
+  "checked_at_utc": "2026-10-24T01:12:31.897943+00:00",
+  "input_pin": "27f1f6ccaecf0839a9108b827d141223cef5ba40",
+  "previous_capture_pin": "60d41ee16275288897a3c50da73d78829b3a5c9c",
+  "checks": {
+    "selected": true,
+    "later_versions": true,
+    "nonnumeric_new_rows": true,
+    "same_pin_replay": true,
+    "frozen_config_bytes": true,
+    "all_17_originals_unique": true,
+    "slots_1_through_17": true
+  },
+  "counts": {
+    "selected": 17,
+    "later_versions": 7,
+    "nonnumeric_new_rows": 19
+  },
+  "author_tests": {
+    "command": "python3 -B AGENTS/CATO/runs/2026-10-01_1105_forecast-pilot/test_collect.py",
+    "passed": 17,
+    "independent_review": false
+  },
+  "merge": {
+    "commit": "839c7527a16e009125f12c5ffe8fd0a070ef489c",
+    "side_commit": "060db28adf2eb7f8fa074a5825667daea147447a",
+    "first_parent": "10780b36f313be83668c2d0584cf152e6690668c",
+    "side_and_merge_changed_paths": [
+      "AGENTS/BRENT/demand_destruction/TRACKER.md",
+      "AGENTS/BRENT/demand_destruction/data/friday_2026-10-16.md",
+      "AGENTS/BRENT/workbook/COT_VINTAGES.tsv"
+    ],
+    "frozen_ledgers_touched": []
+  },
+  "sha256": {
+    "config.json": "ab8ed56af3492ca6d74d5f583b00ce93d1f129de4f9c1cea8eff5af404ce885e",
+    "capture.json": "8ff340e56d3b1794f05f859f58c9498031e965a8de20fc891b1d5a848cae9c88",
+    "collect.py": "83e37a437be5e0e3fba3832c8b2357ec087dc000e03de3027bc23e9f28142534",
+    "test_collect.py": "fa901d0cf17b7b46592dac1dde8ca47b1a7d3bf5bf6b599e97ad014839543096",
+    "probability_interpretations.json": "baa7514986fb096b0073d38b8cd2be86ef52f160b41f6ce6dc5562b17c47f9da"
+  },
+  "limits": "Collector author checks only; no automatic grading, primary-data certification, owner writes, or independent code review."
+}
