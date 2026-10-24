@@ -1,4 +1,8 @@
-# DAEDALUS continuation — October 23, 2026 (closed 11:3x ET)
+# DAEDALUS continuation — October 24, 2026
+
+**Current continuation:** Will's restart/research-depth/shared-write investigation is complete at `runs/2026-10-24_RESTART_REVIEW/REPORT.md`; measurements and four-case reproduction beside it. No owner implementation changed. WQ-517 is the existing decision; proposed startup observations/DEWEY clarification await direction. `STATUS.md` owns the remaining queue; `runs/2026-10-24_BOOT_ORIENTATION.json` records three inbox dispositions. Publication evidence belongs in the investigation's `DELIVERY.json`.
+
+**The October 23 continuation below is historical recovery context, including its then-unpushed list; it is not a current Git inventory.**
 
 **STATUS.md is canonical; this page points.** The prior HANDOFF is preserved verbatim at `archive/HANDOFF_2026-10-23_before_sweep.md` (crc32 4275898673). Its own recovery pointers (10/21 core sync, 10/20 cleanup receipt) remain valid there.
 

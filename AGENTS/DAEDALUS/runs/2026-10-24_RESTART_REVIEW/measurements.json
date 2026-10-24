@@ -1,0 +1,221 @@
+{
+  "as_of": "2026-10-24T22:22:49.937472+00:00",
+  "head": "0c0ab27ab7e5197de354a664da03c812a4132fa8",
+  "method": "UTF-8 Git blob byte sizes; named prose only, not full boot cost, actual tokens, runtime or avoidable waste. Excludes runtime-spec reads, conditional sources, inboxes and tool outputs.",
+  "files": {
+    "AGENTS.md": {
+      "bytes": 5756,
+      "sha256": "70ec98ebc0c046d5db796b208f15ef7fd4552f6ef8634e550cfcf8f117a1c5b0"
+    },
+    "AGENTS/DAEDALUS/CLAUDE.md": {
+      "bytes": 20194,
+      "sha256": "9b2a899c76e0e25ff15aabe3bdb66a7084ddd72f0308fc657232c0c3ea0c62e3"
+    },
+    "AGENTS/DAEDALUS/FLEET_DIRECTORY.md": {
+      "bytes": 13872,
+      "sha256": "ffd2921dc588d4bc22d94e8df64117b42396d7b1e6ade50f58cd4239dda37623"
+    },
+    "AGENTS/DAEDALUS/OPERATIONS.md": {
+      "bytes": 19097,
+      "sha256": "deb9f38e0665e0be763fa6e062f6feec91f6d5df91560b361c61ffddf99ee7f6"
+    },
+    "AGENTS/DAEDALUS/PATTERNS_HOT.md": {
+      "bytes": 7449,
+      "sha256": "febfa70aa1f024d6d3faa4347da0e4f7992178b4aa908d1b01968f873edb0b01"
+    },
+    "AGENTS/DAEDALUS/STATUS.md": {
+      "bytes": 22592,
+      "sha256": "bf9583498f5036937818af5dc3285c5a684667e26b11bf17c3dc62849aa74951"
+    },
+    "AGENTS/DEWEY/CLAUDE.md": {
+      "bytes": 36199,
+      "sha256": "2b21daacca46d4d7c164d191e8205c17c858614d5e72c63f39c4cc9a8c56e476"
+    },
+    "AGENTS/DEWEY/CONTEXT.md": {
+      "bytes": 19447,
+      "sha256": "21662126b073d53f62a3f4de91f3d52750077bfe5370a9fbfa7d1fb4205d5604"
+    },
+    "AGENTS/HANS/CLAUDE.md": {
+      "bytes": 24899,
+      "sha256": "e26eb215195dbcf4cdb17522ecd2d1b04eb77392db800c4338b95adf1fb00bce"
+    },
+    "AGENTS/HANS/STATUS.md": {
+      "bytes": 22125,
+      "sha256": "bf4f4233a416d1b7357c2c7e7e8d7d06ff14ed39e639d5f78b76f20ee7aafe9f"
+    },
+    "AGENTS/OTTO/CLAUDE.md": {
+      "bytes": 46728,
+      "sha256": "680a0f8038471c6c75ba1d794ef559b9223f46ca0077438734d680ea2f3fc2f0"
+    },
+    "AGENTS/OTTO/LAST_COMPLETION.md": {
+      "bytes": 1432,
+      "sha256": "ffac32cb6400f6eb0fdf1971a40b958695e483776e2bb39d8977a7f7a3cca802"
+    },
+    "AGENTS/OTTO/LESSONS.md": {
+      "bytes": 8783,
+      "sha256": "3f148e5ea6755c770d41e84f2b312858feffd48ddfb62884681c8400a6c95a1a"
+    },
+    "AGENTS/OTTO/MEMORY.md": {
+      "bytes": 7864,
+      "sha256": "1cce80bf6ef63a29fd0bf960d0c9e27c2e330e0ffa8ac7ba9890040913fc1a0a"
+    },
+    "AGENTS/OTTO/STATUS.md": {
+      "bytes": 22732,
+      "sha256": "56672eb19dad2686cbf0f57f4bcf8b3566854e5088e0cd2f52530bcf6f61351a"
+    },
+    "CLAUDE.md": {
+      "bytes": 22726,
+      "sha256": "b08689789d99bc2ef72a3706866848a58b20fb50fffa71d37128540ea589d577"
+    },
+    "USER.md": {
+      "bytes": 8458,
+      "sha256": "cf1ccc03a1aec9ab27d5c8bdcb99555be7d976fe18cc53798dda3ccc18f70299"
+    }
+  },
+  "named_read_sets": {
+    "DEWEY_boot_before_question": {
+      "paths": [
+        "CLAUDE.md",
+        "AGENTS.md",
+        "USER.md",
+        "AGENTS/DEWEY/CLAUDE.md",
+        "AGENTS/DEWEY/CONTEXT.md"
+      ],
+      "bytes": 92586
+    },
+    "HANS_core_plus_status": {
+      "paths": [
+        "CLAUDE.md",
+        "AGENTS.md",
+        "USER.md",
+        "AGENTS/HANS/CLAUDE.md",
+        "AGENTS/HANS/STATUS.md"
+      ],
+      "bytes": 83964
+    },
+    "OTTO_full_named_prose": {
+      "paths": [
+        "CLAUDE.md",
+        "AGENTS.md",
+        "USER.md",
+        "AGENTS/OTTO/CLAUDE.md",
+        "AGENTS/OTTO/STATUS.md",
+        "AGENTS/OTTO/LAST_COMPLETION.md",
+        "AGENTS/OTTO/MEMORY.md",
+        "AGENTS/OTTO/LESSONS.md"
+      ],
+      "bytes": 124479
+    },
+    "OTTO_specific_task_named_prose": {
+      "paths": [
+        "CLAUDE.md",
+        "AGENTS.md",
+        "USER.md",
+        "AGENTS/OTTO/CLAUDE.md",
+        "AGENTS/OTTO/STATUS.md"
+      ],
+      "bytes": 106400
+    },
+    "DAEDALUS_every_boot_named_prose": {
+      "paths": [
+        "CLAUDE.md",
+        "AGENTS.md",
+        "USER.md",
+        "AGENTS/DAEDALUS/CLAUDE.md",
+        "AGENTS/DAEDALUS/OPERATIONS.md",
+        "AGENTS/DAEDALUS/STATUS.md",
+        "AGENTS/DAEDALUS/FLEET_DIRECTORY.md",
+        "AGENTS/DAEDALUS/PATTERNS_HOT.md"
+      ],
+      "bytes": 120144
+    }
+  },
+  "fixtures": [
+    {
+      "case": "clean",
+      "mark_reviewed": [
+        0,
+        "verdict REVIEWED over 1 path(s)"
+      ],
+      "working_tree_verify": [
+        0,
+        [
+          "contract 75163c1f899525057f840b00307ce96700154daac55c2ace6d13b8586b10acb0 unchanged; verdict REVIEWED; delivery working tree; snapshot working tree; 1 inventory paths retained, unrelated content not certified"
+        ]
+      ],
+      "delivery_verify": [
+        0,
+        [
+          "contract 75163c1f899525057f840b00307ce96700154daac55c2ace6d13b8586b10acb0 unchanged; verdict REVIEWED; delivery 0d4fa2b50b1714bc6697fd73a02bc3d4d9255a73; snapshot 0d4fa2b50b1714bc6697fd73a02bc3d4d9255a73; 1 inventory paths retained, unrelated content not certified"
+        ]
+      ]
+    },
+    {
+      "case": "foreign_pending",
+      "mark_reviewed": [
+        0,
+        "verdict REVIEWED over 1 path(s)"
+      ],
+      "working_tree_verify": [
+        0,
+        [
+          "FOREIGN-PENDING (advisory): AGENTS/REGINALD/unrelated.md \u2014 another owner's live file, not in PROME's delivery",
+          "contract 2508f19f1a121b1049790ad85d1cc49deee984d37ae2e9b4a3287c1c9b982445 unchanged; verdict REVIEWED; delivery working tree; snapshot working tree; 2 inventory paths retained, unrelated content not certified"
+        ]
+      ],
+      "delivery_verify": [
+        1,
+        [
+          "UNCLASSIFIED: AGENTS/REGINALD/unrelated.md (new or changed observed version)"
+        ]
+      ]
+    },
+    {
+      "case": "owned_pending",
+      "mark_reviewed": [
+        0,
+        "verdict REVIEWED over 1 path(s)"
+      ],
+      "working_tree_verify": [
+        1,
+        [
+          "UNCLASSIFIED: PROME/unreviewed.md (new or changed observed version)"
+        ]
+      ],
+      "delivery_verify": [
+        1,
+        [
+          "UNCLASSIFIED: PROME/unreviewed.md (new or changed observed version)"
+        ]
+      ]
+    },
+    {
+      "case": "unreviewed_commit",
+      "mark_reviewed": [
+        0,
+        "verdict REVIEWED over 1 path(s)"
+      ],
+      "working_tree_verify": [
+        0,
+        [
+          "contract 2508f19f1a121b1049790ad85d1cc49deee984d37ae2e9b4a3287c1c9b982445 unchanged; verdict REVIEWED; delivery working tree; snapshot working tree; 1 inventory paths retained, unrelated content not certified"
+        ]
+      ],
+      "delivery_verify": [
+        1,
+        [
+          "UNCLASSIFIED: PROME/unreviewed.md (new or changed observed version)",
+          "UNREVIEWED DELIVERY PATH: PROME/unreviewed.md",
+          "UNREVIEWED ACTUAL COMMIT PATH: PROME/unreviewed.md",
+          "UNCLASSIFIED SNAPSHOT PATH: PROME/unreviewed.md"
+        ]
+      ]
+    }
+  ],
+  "tool_source_hashes": {
+    "PROME/tools/argus_scope.py": "2a4eaa804f04b654c6d3951d23d4fdd4f63852ee323b421dbf4b9237e239c339",
+    "PROME/tools/argus_contract.py": "59a810332ecb34199f329298df0f3afacb8a113ca8223a258ef3ec10191ba2f6",
+    "PROME/state/AUDIT_PERIMETER.tsv": "8cc164678c2d1c6cae7866a973222143938edfc086f4a25bf4b6fd51e3ead67e",
+    ".gitignore": "85ff7292f2b8557a4a54b6ba7e4d1e6ff0362874c5686eb2cc9b7ee7d9be3973"
+  }
+}

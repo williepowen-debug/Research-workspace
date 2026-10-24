@@ -1,0 +1,230 @@
+{
+  "observed_at": "2026-10-24T18:06:43.662820-04:00",
+  "scope": "Will requested startup/orientation, then await assignment. No maintenance task started.",
+  "desk": "DAEDALUS",
+  "provider": "OpenAI",
+  "runtime": "Codex",
+  "model": "GPT-6 family exposed; exact variant UNKNOWN",
+  "session_id": "01a16ff2-0c91-7300-aa4b-4def7087bffe",
+  "repository": "/home/willi/Research-workspace",
+  "head": "8c772e08cc44286af876e9236c0108f2b2f0ab23",
+  "capabilities": {
+    "execution": "exec_command, apply_patch; managed workspace-write sandbox",
+    "collaboration": "thread-local tools exposed; no helpers launched; fleet presence and cross-session transport not verified",
+    "notification": "direct response to Will in current conversation"
+  },
+  "reads": [
+    {
+      "path": "AGENTS.md",
+      "scope": "whole",
+      "returned_ranges": [
+        [
+          1,
+          61
+        ]
+      ],
+      "final_line_covered": true
+    },
+    {
+      "path": "CLAUDE.md",
+      "scope": "whole",
+      "returned_ranges": [
+        [
+          1,
+          121
+        ]
+      ],
+      "final_line_covered": true
+    },
+    {
+      "path": "USER.md",
+      "scope": "whole",
+      "returned_ranges": [
+        [
+          1,
+          98
+        ]
+      ],
+      "final_line_covered": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/CLAUDE.md",
+      "scope": "whole",
+      "returned_ranges": [
+        [
+          1,
+          138
+        ]
+      ],
+      "final_line_covered": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/OPERATIONS.md",
+      "scope": "whole",
+      "returned_ranges": [
+        [
+          1,
+          110
+        ]
+      ],
+      "final_line_covered": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/STATUS.md",
+      "scope": "whole",
+      "returned_ranges": [
+        [
+          1,
+          111
+        ]
+      ],
+      "final_line_covered": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/HANDOFF.md",
+      "scope": "whole",
+      "returned_ranges": [
+        [
+          1,
+          35
+        ]
+      ],
+      "final_line_covered": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/FLEET_DIRECTORY.md",
+      "scope": "whole",
+      "returned_ranges": [
+        [
+          1,
+          81
+        ]
+      ],
+      "final_line_covered": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/PATTERNS_HOT.md",
+      "scope": "whole",
+      "returned_ranges": [
+        [
+          1,
+          43
+        ]
+      ],
+      "final_line_covered": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/SPEC.md",
+      "scope": "whole",
+      "returned_ranges": [
+        [
+          1,
+          133
+        ]
+      ],
+      "final_line_covered": true
+    },
+    {
+      "path": "PROME/COMPLETION_SPEC.md",
+      "scope": "whole",
+      "returned_ranges": [
+        [
+          1,
+          95
+        ]
+      ],
+      "final_line_covered": true
+    },
+    {
+      "path": "docs/GIT_WORKTREE_PROCEDURES.md",
+      "scope": "whole",
+      "returned_ranges": [
+        [
+          1,
+          22
+        ]
+      ],
+      "final_line_covered": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/inbox/2026-10-23_from-TERRY_WQ508-applied.md",
+      "scope": "whole",
+      "returned_ranges": [
+        [
+          1,
+          18
+        ]
+      ],
+      "final_line_covered": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/inbox/2026-10-23_from-TERRY_WQ508-deferred.md",
+      "scope": "whole",
+      "returned_ranges": [
+        [
+          1,
+          5
+        ]
+      ],
+      "final_line_covered": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/inbox/2026-10-24_from-NEXUS_L40-amendment-count-since-am11-format-vs-nonformat.md",
+      "scope": "whole",
+      "returned_ranges": [
+        [
+          1,
+          17
+        ]
+      ],
+      "final_line_covered": true
+    }
+  ],
+  "scoped_reads": [
+    {
+      "path": "PROME/ORCHESTRATION_PLAYBOOK.md",
+      "returned_ranges": [
+        [
+          64,
+          88
+        ]
+      ],
+      "scope": "Runtime mechanics"
+    },
+    {
+      "path": "PROME/DOCKET.tsv",
+      "returned_ranges": [
+        [
+          816,
+          817
+        ]
+      ],
+      "scope": "L816 and L817"
+    },
+    {
+      "path": "PROME/WILL_QUEUE.md",
+      "returned_ranges": [
+        [
+          76,
+          78
+        ]
+      ],
+      "scope": "WQ-506/507/508 approval records"
+    }
+  ],
+  "read_notes": "Initial combined root/charter output truncated; root CLAUDE, local CLAUDE and OPERATIONS each re-read separately without truncation. Initial inbox glob also included processed history; corrected enumeration excluded processed/archive before whole reads of the three current packets. No whole-read declaration changed.",
+  "boot_receipt": "/tmp/claude-1000/daedalus-gate/20261024T220530Z_boot.json",
+  "git": "Boot fetch failed under sandbox; escalated git fetch origin succeeded. Fresh comparison: HEAD ahead 1, behind 0. Pull deferred because nine foreign dirty/untracked paths exist. No foreign changes touched.",
+  "checks": {
+    "B1": "DUE: profile queue, H2, scorecard, harness, surfaces-currency, shared-guard-standard",
+    "B2": "CLEAN",
+    "B4": "CLEAN with one declared advisory",
+    "B5": "L816 newly acknowledged in STATUS; acknowledgement is not completion"
+  },
+  "inbox_dispositions": {
+    "2026-10-23_from-TERRY_WQ508-deferred.md": "Historical notice superseded by later applied/deferred receipt; no execution owed from this notice.",
+    "2026-10-23_from-TERRY_WQ508-applied.md": "Owner reports five APPLIED, two KEEP, B44 and D17 deferred to 2026-11-06. Commit acc1c61ae located; full application verification/write-back tail pending assignment. Harness clock unchanged.",
+    "2026-10-24_from-NEXUS_L40-amendment-count-since-am11-format-vs-nonformat.md": "Read and retained as L40 grade input: one format amendment and five non-format edits reported. Independent grade not performed; awaiting assignment."
+  },
+  "delivery": "Local boot record and STATUS only; no publication or peer consumption claimed. Session remains open awaiting Will; closeout not invoked."
+}

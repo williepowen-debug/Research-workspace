@@ -1,12 +1,16 @@
 # DAEDALUS STATUS
 
-**Last Updated: 2026-10-23 — ISHM (industrials desk) reviewed, built and registered; CYPHER registration closed; own-file sweep. Claude Code, Opus 5.5.** Pre-sweep STATUS preserved verbatim at `archive/STATUS_2026-10-23_before_sweep.md` (crc32 300895856).
+**Last Updated: 2026-10-24 — Will's research-depth, restart and shared-write investigation completed (Codex).** Pre-sweep STATUS preserved verbatim at `archive/STATUS_2026-10-23_before_sweep.md` (crc32 300895856).
 
 **Current judgment:** the architecture is coherent; current-state reconciliation and maintenance have lagged new builds. Preserve evidence and rules, reduce recovery ambiguity, and repair specific tooling gaps. Assessment: `runs/2026-10-20_ORGANIZATION_REVIEW.md`. **Recorded grade L4/M retained**, current bounded PR8 row re-cut October21; no L5 adjudication; AEOLUS whole profile refreshed October 21. Authority remains own directory/root scripts; other desks require express scope and idle target.
 
 Prior STATUS is preserved byte-for-byte at `archive/2026-10-20_ORGANIZATION_CLEANUP/STATUS.md.before`; original line/block hashes and all moved destinations: `runs/2026-10-20_CLEANUP_MOVEMENT_RECEIPT.json`. Historical next-work dates there do not supersede this page. Current continuation/recovery: `HANDOFF.md`.
 
 ## Current work and next actions
+
+**October 24 investigation complete:** `runs/2026-10-24_RESTART_REVIEW/REPORT.md` and pinned measurements. DEWEY already has three research depths, but cold/thesis selection follows an unconditional context read; OTTO already permits a shorter specific-task startup. Five named prose sets measured; actual time/token savings unmeasured. L796/WQ-517 delivery-check defect reproduced in four isolated cases; PROME's concurrent perimeter repair not certified or edited. Existing trial/deferrals preserved; owner clarification and bounded restart comparison remain proposals, not standing work.
+
+**October 24 boot:** required whole reads completed; approvals WQ-506/507/508 recovered. Boot and inbox dispositions: `runs/2026-10-24_BOOT_ORIENTATION.json`. L816 acknowledged: October 30 L499 wording follow-up; PROME encodes, DAEDALUS owns the vocabulary/source text. No implementation started.
 
 October20 follow-through: scorecard/MARCO check complete; L736 writer repair reviewed; EVOLUTION rotated verbatim below stop threshold. That partial detection is superseded by October21 PR8/Staleness6 disposition records; the October20 record remains historical.
 
@@ -61,7 +65,7 @@ October20 follow-through: scorecard/MARCO check complete; L736 writer repair rev
 ## Conditional seats and other owners
 
 - **L757 (next production review):** firetime false-positive classes — carried to the next Production Review, not started 10/22. **L768 (2026-10-25):** firetime NEW-vs-PERSISTING split disposition — carried to the 10/25 backlog/retirement sitting.
-- **Inbox: EMPTY after the 2026-10-23 sweep** (13 packets filed to `processed/`). Dispositions:
+- **Inbox October 24:** three current packets read; retained in place pending substantive follow-through. TERRY's later WQ-508 receipt supersedes its earlier full deferral: five applied, two KEEP, B44/D17 deferred to November 6 (owner report; full verification pending). NEXUS L40 amendment-count evidence received; grade pending. Historical October 23 sweep dispositions (13 packets filed):
   - HANS FLEET_MAP row re-cut (L5/H retained; HNS-09 grade 10/28 is the SUSTAIN test).
   - L499 Class 2 pointer added to STATE_VOCABULARY. The two residue answers went to PROME (`PROME/inbox/2026-10-23_from-DAEDALUS_L499-class2-pointer-and-two-residue-answers.md`).
   - CYBER group: PROVISIONAL → canonical, noted in the CYPHER build record §6.
@@ -78,34 +82,9 @@ October20 follow-through: scorecard/MARCO check complete; L736 writer repair rev
 - Informed-only or contextual: **L473/L504/L557/L561/L562/L581/L646/L735/L737**. L737 suite failures remain PROME's; conservative parser may require acknowledgment but creates no writer duty. NEXUS blind commission#2 scheduling remains PROME's; sealed material stays sealed. CREED WQ-100, OSPREY Channel3, NEXUS rotation, HANS rotation condition remain owner watches. WALTER six doorbells closedSeptember25; no resend.
 - WQ-374 helper/registrar proposal DEFERRED pending charter consolidation; no implementation owed. L285 ladder N/A encoded, SL-6/A/B encoded; L593 repair done; L658 resolved; no obsolete encode/apply instruction reopened. Detailed history and original approval text remain in archived STATUS and linked records.
 
-## BOTTOM LINE — 2026-10-23
+## BOTTOM LINE — 2026-10-24
 
-**WORK:** Done on Will's word in this terminal; session closing.
-- Industrials proposal reviewed in one round with WALTER.
-- **ISHM built, registered and architecture-checked** (`080fbc7d6` … ISHM check commit). WQ-506 and WQ-507 encoded. HON re-described after the 6/29 Honeywell Aerospace spin.
-- CYPHER registration closed.
-- **Harness Audit #3** (`cf0569f2a`) → **WQ-508 RULED** → applied directly at 35 idle desks (`f4149bf51` · `4da79f1ee` · `d3488e641`), packets marked APPLIED. WALTER applied its 5/5 (f2161b7dd).
-- falsification_scan now reads the `Kill rail re-derived:` stamp.
-- Own-file sweep done; inbox empty.
-
-**CHECKS:**
-- ISHM: 37/37 drills; 3/3 mutations caught; read_cap rc 0; corrections rc 0.
-- Editor drafts were reviewed line by line, and 2 weakenings were reverted before commit (WATT commit-before-filing; ZHAO charter cap + spawned commit).
-- **Scanner fix watched both ways:** FERT now honestly 65d with its own 11/15 re-derivation — next sweep, no packet.
-- **DUE and not run:** coordination scorecard (window closes today), profile-refresh queue, surfaces-currency, shared-guard-standard, H2 re-spec.
-- Harness clock stays July 7 until PROME's lines land.
-- Closeout gate result is in the closeout commit's receipt.
-
-**DELIVERY:**
-- Commits pushed at this closeout via safe-push (receipt in the session record).
-- PROME consumed ISHM registration, WQ-507/508 and the READS ask (ISHM rows builder-declared).
-- WALTER consumed and applied its lines.
-- TERRY packet delivered, not yet applied.
-
-**OPEN:**
-- TERRY's 9 lines.
-- PROME L817 on Sun 10/25: 23 lines + root R0 / A-B01 / A-B03 + CYPHER's `_SYNTHESIS_OPS` row; DAEDALUS counterexample read of the A-B01 record when sent.
-- WATT ASK reply (if declined, re-cut via PROME).
-- HENRY pointer edits.
-- ISHM first session (Will launches).
-- Scorecard tonight or tomorrow; YUR-F01 10/24; backlog/retirement 10/25; HOMER profile next.
+**WORK:** Bounded investigation complete; report and reproducible measurements at `runs/2026-10-24_RESTART_REVIEW/REPORT.md`. No shared implementation or new rule adopted; no independent review claimed.
+**CHECKS:** Four isolated cases matched expected behavior; reading sizes pinned to source commit. Time/token savings UNKNOWN. Existing maintenance/scorecard DUE; L816 acknowledged. Closeout results remain in GATE_LOG and the delivery receipt, not inferred from this completion.
+**DELIVERY:** Own artifacts saved; Git publication tracked in the investigation's DELIVERY.json. No peer notification or consumption claimed; caller receives the report in this conversation.
+**OPEN:** WQ-517 remains Will/PROME's; trial remains with existing owners. Restart comparison and DEWEY clarification are proposals. Prior maintenance, L40 and TERRY verification unchanged; three current inbox packets retained with boot dispositions.
