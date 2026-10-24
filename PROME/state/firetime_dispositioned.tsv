@@ -1,6 +1,11 @@
 artifact	kind	core	first_dispositioned	pointer
 AGENTS/WAL/Q2_10Q_READ_2026-08-07.md	DATE DRIFT	artifact says 2027-01-05 ('1/5')	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
 AGENTS/CORAL/STATUS.md	DATE DRIFT	artifact says 2027-01-04 ('2027-01-04')	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
+AGENTS/AEOLUS/STATUS.md	DATE DRIFT	artifact says 2027-01-06 ('1/6')	2026-10-24	PROME/reports/2026-10-24_firetime-boot-flags-disposition.md
+AGENTS/AEOLUS/STATUS.md	DATE DRIFT	artifact says 2027-01-05 ('1/5')	2026-10-24	PROME/reports/2026-10-24_firetime-boot-flags-disposition.md
+AGENTS/AEOLUS/STATUS.md	DATE DRIFT	artifact says 2027-01-01 ('2027-01-01')	2026-10-24	PROME/reports/2026-10-24_firetime-boot-flags-disposition.md
+AGENTS/AEOLUS/STATUS.md	DATE DRIFT	artifact says 2026-12-30 ('Dec 30')	2026-10-24	PROME/reports/2026-10-24_firetime-boot-flags-disposition.md
+AGENTS/AEOLUS/STATUS.md	DATE DRIFT	artifact says 2027-01-15 ('1/15')	2026-10-24	PROME/reports/2026-10-24_firetime-boot-flags-disposition.md
 PROME/WILL_QUEUE.md	DATE DRIFT	artifact says 2027-01-15 ('Jan-15')	2026-10-23	PROME/reports/2026-10-23_firetime-late-boot-flags-disposition.md
 PROME/proposals/2026-09-05_spawn-driver-RULED.md	DEAD POINTER	`BLUEPRINTS/meta-agent.md`	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
 PROME/proposals/2026-09-05_spawn-driver-RULED.md	DEAD POINTER	`profiles/FERT.md`	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
@@ -32,6 +37,14 @@ PROME/proposals/2026-09-07_wq163-183-190-191-RULED.md	DEAD POINTER	`PROME/propos
 55ee66731:AGENTS/MIDAS/analysis/2026-10-12_MIDAS-news-sweep.md	UNREADABLE	[Errno 2] No such file or directory: '/home/willi/Research-workspace/55ee66731:AGENTS/MIDAS/analysis/2026-10-12_MIDAS-news-sweep.md'	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
 AGENTS/RED/SCRATCH.md	DATE DRIFT	artifact says 2026-12-30 ('12/30')	2026-10-22	PROME/reports/2026-10-22_firetime-boot-flags-disposition.md
 AGENTS/RED/reports/2026-10-15_S54_NETWORK_SWEEP.md	DATE DRIFT	artifact says 2027-01-10 ('1/10')	2026-10-22	PROME/reports/2026-10-22_firetime-boot-flags-disposition.md
+AGENTS/OZK/reports/2026-10-21_self-sweep.md	DEAD POINTER	`reports/2026-09-26_CRE_top3_dossiers/q2_OZK.md`	2026-10-24	PROME/reports/2026-10-24_firetime-boot-flags-disposition.md
+AGENTS/OZK/reports/2026-10-21_self-sweep.md	DEAD POINTER	`reports/2026-09-26_CRE_top3_loss_bridge.md`	2026-10-24	PROME/reports/2026-10-24_firetime-boot-flags-disposition.md
+AGENTS/OZK/reports/2026-10-21_self-sweep.md	DATE DRIFT	artifact says 2027-01-16 ('Jan 16')	2026-10-24	PROME/reports/2026-10-24_firetime-boot-flags-disposition.md
+AGENTS/YURI/research/2026-10-21_L432-read-and-actor-update.md	DEAD POINTER	`docs/news`	2026-10-24	PROME/reports/2026-10-24_firetime-boot-flags-disposition.md
+AGENTS/YURI/research/2026-10-21_L432-read-and-actor-update.md	DEAD POINTER	`longsearch/pravo-queries.json`	2026-10-24	PROME/reports/2026-10-24_firetime-boot-flags-disposition.md
+AGENTS/YURI/research/2026-10-21_L432-read-and-actor-update.md	DATE DRIFT	artifact says 2027-01-01 ('1/1')	2026-10-24	PROME/reports/2026-10-24_firetime-boot-flags-disposition.md
+AGENTS/YURI/research/2026-10-21_L432-read-and-actor-update.md	DATE DRIFT	artifact says 2027-01-02 ('1/2')	2026-10-24	PROME/reports/2026-10-24_firetime-boot-flags-disposition.md
+AGENTS/YURI/research/2026-10-21_L432-read-and-actor-update.md	DATE DRIFT	artifact says 2027-01-03 ('1/3')	2026-10-24	PROME/reports/2026-10-24_firetime-boot-flags-disposition.md
 AGENTS/HENRY/domain/ECON_CALENDAR.md	DATE DRIFT	artifact says 2026-12-23 ('Dec 23')	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
 AGENTS/DAEDALUS/runs/2026-10-22_BANK_DESK_REVIEW/REPORT.md	DATE DRIFT	artifact says 2027-01-16 ('Jan 16')	2026-10-22	PROME/reports/2026-10-22_firetime-boot-flags-disposition.md
 AGENTS/DEWEY/output/2026-10-22_hyperscaler-ai-funding-gap-ig-capacity.md	DEAD POINTER	`scripts/funding_gap.py`	2026-10-22	PROME/reports/2026-10-22_firetime-boot-flags-disposition.md
