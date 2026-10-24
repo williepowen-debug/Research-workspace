@@ -1,16 +1,16 @@
 # TRADE IDEA — ORCL Dec-18 115/100 put spread — Oracle's equity has not followed its credit
 **Date:** 2026-10-23 (written 19:0x ET from `date`)
 **Setup ID:** `IDEA-ORCL-PUTSPREAD-OCT23`
-**Terry verdict:** CONDITIONAL — NOT-FIRED; unapproved proposal. Nothing is approved in advance.
+**Terry verdict:** CONDITIONAL — APPROVED NOT-FIRED (WQ-514 A, Will 2026-10-23 21:15 ET, at the rec: Dec-18 115/100P ×1, limit ≤ $4.40, default size), CONDITIONAL on an Oracle-IR-verified fiscal-Q2 date written on this card before any entry. The order is Will's hand (root rule #5). *(was: unapproved proposal, 10/23 19:0x ET)*
 **Confidence in trade structure:** Medium (liquid chain; the trigger reads a credit series this desk does not own)
 **Commission:** WQ-499 RULED APPROVE A, Will 2026-10-23 13:38 ET in PROME's window (PROME packet `inbox/2026-10-23_from-PROME_WQ499-WQ509-RULED-two-NOT-FIRED-cards.md`). Preparation only; root rule #5 — the order is Will's.
-**Thesis owner (evidence, not TERRY's):** PROME ELLISON theme, `PROME/themes/ellison/reports/2026-10-22_sweep/00-SYNTHESIS.md` § 5 (as relayed in the packet): 5Y CDS **314 bp [10/22, DTCC]** against an S&P **BBB−** rating; 30-day IV ~59.5%, flat skew, put/call 0.71; FCF ≈ −$28.7B over four quarters, $125B debt, $288B of leases off balance sheet, about half of the $664B backlog is OpenAI; Jupiter force majeure 9/24. Oracle is investment grade, so this is an **idiosyncratic credit/equity-gap card, not a credit-cycle card** (outside DEWEY's HY figures).
+**Thesis owner (evidence, not TERRY's):** PROME ELLISON theme, `PROME/themes/ellison/reports/2026-10-22_sweep/00-SYNTHESIS.md` § 5 (as relayed in the packet): 5Y CDS **314 bp [10/22, DTCC]** against an S&P **BBB−** rating; 30-day IV ~59.5%, flat skew, put/call 0.71; FCF ≈ −$28.7B over four quarters, $125B debt, $288B of future data-center lease commitments **not yet on the balance sheet** (commencement ~FY27–29 per the 10-Q: REPORTED by an outside reviewer via PROME, not read by TERRY — verify), RPO $664B of which **"OpenAI ≈ half" is S&P's estimate; Oracle's filing does not name the customer** (ELLISON synthesis line 21, restored 2026-10-24 on PROME's packet); Jupiter force majeure 9/24. Oracle is investment grade, so this is an **idiosyncratic credit/equity-gap card, not a credit-cycle card** (outside DEWEY's HY figures).
 **Data freshness:** spot = 10/23 close **$126.16** (+0.49%, green; snapshot 18:54 ET). Chain pulled 18:56 ET after the close; quotes are two-sided and tight, but vendor marks are SCREENING marks (durable finding 5b): the order is priced on the broker chain.
 
 ## 0. Missing inputs / hard caveats
 - [x] Live price checked (10/23 close) · [x] chain checked (after-hours screen) · [ ] broker quote at entry
 - [x] Position truth: no ORCL line in the book (FORGE 10/22 capture + 10/23 activity)
-- [ ] **Oracle's fiscal Q2 report date UNVERIFIED** (historically the second week of December; a company IR or 8-K check is owed before any order — root canon: earnings dates come from IR, never memory). The time stop below sits before that window
+- [ ] **Oracle's fiscal Q2 report date UNVERIFIED — checked 2026-10-24 14:4x ET:** no FQ2 FY27 date release found at Oracle IR (SEARCH-NOT-FOUND: the IR news list did not render; a web search found none). **Verified at Oracle IR, the pattern:** FQ2 FY26 date set 2025-12-02 for **2025-12-10** after the close; FQ1 FY27 set 2026-09-02 for 2026-09-10. Third-party calendars ESTIMATE **Thu 2026-12-10** (unconfirmed). ⚠️ **Oracle announces ~8 days ahead, so on that pattern the date becomes verifiable ~early December, AFTER this card's 11/20 entry window closes: under WQ-514's letter no entry can happen unless Oracle announces early or Will rules on the condition** (see § 10). Re-check Oracle IR at every touch
 - [ ] The CDS trigger reads a series TERRY does not own or pull; its reading comes from the ELLISON theme (PROME) at its stated source
 
 ## 1. One-line setup
@@ -53,7 +53,7 @@ If Oracle's credit keeps widening while the stock holds, buy a defined-risk Dec-
 ## 5. Effective-N (RISK_SCORING §2b)
 | Field | Entry |
 |---|---|
-| N_claimed | 5: CDS vs rating gap · negative FCF · off-balance-sheet leases · OpenAI backlog concentration · Jupiter force majeure |
+| N_claimed | 5: CDS vs rating gap · negative FCF · lease commitments not yet on the balance sheet (company-disclosed) · OpenAI backlog concentration (S&P estimate, not company-disclosed) · Jupiter force majeure |
 | Shared antecedent | OpenAI / AI-capex financing: one event (OpenAI's funding or contract renegotiation) moves four of the five |
 | **N_eff** | **≈ 1.3 → sized as ONE view** |
 | Book overlap | the Nasdaq-downside bet (QQQ Oct-26 710P ×1 + 705P ×2 + Nov-20 690/670P ×2) and APO Dec-18 95P share the AI-capex-repricing antecedent; CRWV Oct-23 56P expired today (disposition unknown). Combined AI-financing downside is far larger than this card's $441 — one theme, several lines |
@@ -75,9 +75,17 @@ If Oracle's credit keeps widening while the stock holds, buy a defined-risk Dec-
 No probability stated; no Brier row.
 
 ## 9. Decision
-- [ ] APPROVE Dec-18 115/100P ×1, limit ≤ $4.40, max loss $441.30 — on T1 + T2 and a green ORCL day
+- [x] **APPROVED (WQ-514 A, Will 2026-10-23 21:15 ET, verbatim "lets have you approve with your recs"; record `PROME/proposals/2026-10-23_wq513-516-RULED.md`)** Dec-18 115/100P ×1, limit ≤ $4.40, max loss $441.30 — on T1 + T2 and a green ORCL day, NOT-FIRED, conditional on the verified FQ2 date
 - [ ] APPROVE alternative Nov-20 115/100P ×1, max loss $288.30
 - [ ] REJECT
 - [ ] REWORK: ____
 
 **APPROVAL REQUIRED — Will must approve/reject before execution. Terry never executes.** All lines above are PROPOSED CARD CONDITIONS, not registered fleet gates. Chain evidence: `../research/2026-10-23_WQ509-WQ499-cards/chains.txt`.
+
+## 10. Ruling encoded — 2026-10-24 (TERRY, PROME packet `inbox/processed/2026-10-23_from-PROME_WQ513-514-RULED-A-cards-approved-not-fired.md`)
+- **State:** APPROVED NOT-FIRED. T1 (5Y CDS ≥ 350 bp, ELLISON reading) at 314 bp [10/22]: NOT-FIRED. Nothing fills before T1 + T2 + a green ORCL day, by 11/20; time stop 12/4. $0 moved.
+- **Day-colour read source (root rule #6):** ORCL regular-session close vs prior close from `FORGE/tools/market-data/fetch.py price ORCL` (stamp from `date`); intraday at order time the same tool's live read, confirmed on the broker screen. A green day = positive change on that read.
+- **Earnings-risk reading (provisional, on the IR-verified pattern, NOT a verified date):** if FQ2 lands ~12/8–12/11, it falls **inside** the Dec-18 structure's life, 7–10 days before expiry and **after** the 12/4 time stop. With the time stop kept, the card exits before the print; holding past 12/4 would be a bet through a binary print and is a separate Will choice. The Dec puts' 61–66% IV on the 10/23 screen already carries some of that event premium, so the debit pays for a print the card plans to leave before. The Nov-20 alternative expires before any December print.
+- **Condition binding:** no entry until the FQ2 date is verified at Oracle IR and written here. On Oracle's verified ~8-day announcement pattern this likely cannot happen inside the 11/20 entry window — a question for Will (accept the pattern-based reading with the 12/4 time stop, or let the card lapse unfired at 11/20), routed via PROME.
+- **Sourcing (PROME packet `inbox/processed/2026-10-23_from-PROME_ORCL-card-two-source-qualifications-restore.md`):** line 7 now separates the company-disclosed lease commitments (not yet on the balance sheet) from S&P's OpenAI estimate. Levels, trigger and approval unchanged.
+- Broker re-quote at entry; the 10/23 chain was an after-hours screen (durable finding 5b).

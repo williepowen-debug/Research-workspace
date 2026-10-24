@@ -1,0 +1,9 @@
+KRE base rate, pulled 2026-10-24 14:4x ET via .venv yfinance, KRE daily Close (unadjusted) 2006-07-03 -> 2026-10-23, 5,110 bars.
+Method: every start day i; "close-at-h" = close h sessions later <= (1 - thr) x close_i; "any-close-touch" = any close within h sessions at or below that level. Overlapping windows (not independent); 2006+ sample includes 2008-09 and March 2023.
+h=19 sessions (~to 11/20) thr=10.00%: any-close-touch 13.4%  close-at-h 7.0%  (n=5091)
+h=19 sessions             thr=11.76%: any-close-touch 8.9%   close-at-h 4.9%
+h=19 sessions             thr=15.00%: any-close-touch 4.9%   close-at-h 2.7%
+h=39 sessions (~to 12/18) thr=10.00%: any-close-touch 25.7%  close-at-h 11.4% (n=5071)
+h=39 sessions             thr=11.76%: any-close-touch 19.1%  close-at-h 9.0%
+h=39 sessions             thr=15.00%: any-close-touch 11.7%  close-at-h 5.9%
+2024+ subsample (n=687 / 667): close-at-h <= -11.76%: h=19 2.2%, h=39 2.8%

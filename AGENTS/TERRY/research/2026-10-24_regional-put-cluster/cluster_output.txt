@@ -1,0 +1,18 @@
+contracts 28 basis $4,646.62 value(10/22) $1,563.00 basis/acct 11.65% value/acct 3.92%
+KRE 2026-11-20 66P x3: OTM 8.9%  BE 65.55 (9.5% fall)  basis $133.99
+KRE 2026-11-27 67P x4: OTM 7.5%  BE 65.72 (9.3% fall)  basis $510.65
+KRE 2026-11-27 70P x2: OTM 3.4%  BE 68.59 (5.3% fall)  basis $281.33
+KRE 2026-12-18 60P x2: OTM 17.2%  BE 57.43 (20.7% fall)  basis $513.34
+KRE 2026-12-18 60P x3: OTM 17.2%  BE 57.07 (21.2% fall)  basis $878.02
+KRE 2026-12-31 65P x2: OTM 10.3%  BE 63.31 (12.6% fall)  basis $337.33
+OZK 2026-11-20 40P x4: OTM 21.0%  BE 39.19 (22.6% fall)  basis $322.65
+ZION 2026-11-20 62.5P x2: OTM 5.6%  BE 60.32 (8.9% fall)  basis $435.33
+WAL 2026-12-18 65P x4: OTM 14.6%  BE 63.29 (16.9% fall)  basis $682.65
+WAL 2026-12-18 70P x2: OTM 8.0%  BE 67.24 (11.7% fall)  basis $551.33
+uniform fall  0%: intrinsic $0  vs basis $-4,647
+uniform fall  5%: intrinsic $233  vs basis $-4,414
+uniform fall 10%: intrinsic $2,790  vs basis $-1,857
+uniform fall 15%: intrinsic $8,275  vs basis $3,628
+uniform fall 20%: intrinsic $16,222  vs basis $11,575
+uniform fall 25%: intrinsic $25,781  vs basis $21,134
+cluster breakeven (uniform fall, expiry intrinsic): 11.76%

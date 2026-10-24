@@ -1,7 +1,7 @@
 # TRADE IDEA — Broad credit into the REG-T-04 window — HYG Jan-15 77/74 put spread (rec) · alt HTGC Jan-15 16P
 **Date:** 2026-10-23 (written 19:0x ET from `date`)
 **Setup ID:** `IDEA-CREDIT-HYG-BDC-OCT23`
-**Terry verdict:** CONDITIONAL — NOT-FIRED; unapproved proposal. Nothing is approved in advance.
+**Terry verdict:** CONDITIONAL — APPROVED NOT-FIRED, leg (a) only (WQ-513 A, Will 2026-10-23 21:15 ET, at the rec: HYG Jan-15 77/74P ×4, limit ≤ $1.00, default size). Leg (b) HTGC is NOT approved. The order is Will's hand (root rule #5). *(was: unapproved proposal, 10/23 19:0x ET)*
 **Confidence in trade structure:** Medium (HYG leg) · Low (HTGC leg: thin options, binary print inside the entry window)
 **Commission:** WQ-509 RULED APPROVE A, Will 2026-10-23 13:38 ET in PROME's window (PROME packet `inbox/2026-10-23_from-PROME_WQ499-WQ509-RULED-two-NOT-FIRED-cards.md`). Preparation only; root rule #5 — the order is Will's.
 **Thesis owners (evidence, not TERRY's):** REGINALD (REG-T-04 letter: HY OAS > 350 bp on 3 consecutive first-published closes; exit ≤ 330 ×5; 340 [10/22], run 0 of 3, packet `012e5c08c`) · DEWEY (REQ-002 HY widening mostly BROAD; REQ-003 CCC bonds ~78% cable/telecom/airline/chemicals, software 5–8%, software stress sits in loans/BDCs: `AGENTS/DEWEY/output/2026-10-23_ccc-and-under-80-loans-three-way-split.md`, `d0d5463a7` + `23209b69f`) · BROCK (BDC pick HTGC, trap FSK: `AGENTS/BROCK/research/2026-10-23_bdc-software-exposure/REPORT.md`, read at the artifact) · WALTER SIG-W-20261023-015/-016 (issuance ≈ $7B Oct vs ≈ $51B Sep).
@@ -70,9 +70,16 @@ Own the broad junk-bond repricing that REGINALD's issuance-freeze gate measures,
 No probability stated; no Brier row.
 
 ## 9. Decision
-- [ ] APPROVE (a) HYG Jan-15 77/74P ×4, limit ≤ $1.00, max loss $405.20 — on T1 and a green HYG day
-- [ ] APPROVE (b) HTGC Jan-15 16P ×5, limit ≤ $0.75, max loss $378.25
+- [x] **APPROVED (WQ-513 A, Will 2026-10-23 21:15 ET, verbatim "lets have you approve with your recs"; record `PROME/proposals/2026-10-23_wq513-516-RULED.md`)** (a) HYG Jan-15 77/74P ×4, limit ≤ $1.00, max loss $405.20 — on T1 and a green HYG day, NOT-FIRED
+- [ ] (b) HTGC Jan-15 16P ×5, limit ≤ $0.75, max loss $378.25 — **NOT approved**; a BDC card after the 10/29 HTGC print is a new Tier-3 ask
 - [ ] REJECT
 - [ ] REWORK: ____
 
 **APPROVAL REQUIRED — Will must approve/reject before execution. Terry never executes.** All lines above are PROPOSED CARD CONDITIONS, not registered fleet gates. Chain evidence: `../research/2026-10-23_WQ509-WQ499-cards/chains.txt`.
+
+## 10. Ruling encoded — 2026-10-24 (TERRY, PROME packet `inbox/processed/2026-10-23_from-PROME_WQ513-514-RULED-A-cards-approved-not-fired.md`)
+- **State:** leg (a) APPROVED NOT-FIRED. T1 = REG-T-04 (HY OAS > 350 bp on 3 consecutive first-published closes; REGINALD's letter): 340 [10/22], run 0 of 3; earliest fire the 10/27 close, published ~10/28. **Nothing fills before T1 fires**, then the first GREEN HYG day after it, by Fri 11/13. Management lines in § 6 stand as written. $0 moved.
+- **Day-colour read source (root rule #6):** HYG regular-session close vs prior close from `FORGE/tools/market-data/fetch.py price HYG` (stamp from `date`); intraday at order time the same tool's live read, confirmed on the broker screen. A green day = positive change on that read.
+- **Read at a T1 fire, before entry (context, not a gate):** LIQUID's standing rated-CCC composition line (WQ-516 I1; DEWEY meta-review §3, `AGENTS/DEWEY/output/2026-10-23_dewey-research-history-meta-review.md`): whether the fire reads as a cycle or as a few cable/telecom restructurings (SIG-W-20261023-040: rated-CCC basket ≈ 0% AI, 16.5% cable/telecom). The § 7 counter-case already names this; no level or trigger changes.
+- **Broker re-quote at entry:** the 10/23 chain was an after-hours screen with no bid on the out-of-the-money strikes (durable finding 5b); limit ≤ $1.00 net debit, one complex order.
+- Count note: § 0 and § 5 say "31 bank puts"; TERRY's 10/24 cluster view counts **28 Fidelity contracts across 10 lines** at the 10/22 capture (+ Robinhood WAL 70P ×1 unverified), `research/2026-10-24_regional-put-cluster/VIEW.md`. The card's point (they are not this trade) is unchanged.
