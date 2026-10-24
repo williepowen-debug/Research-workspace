@@ -1,0 +1,165 @@
+{
+  "date": "2026-10-24",
+  "purpose": "Read-only comparison of transferable mechanisms; source hashes identify inspected files, not whole-file coverage or correctness certification.",
+  "upstream": {
+    "Mira": {
+      "commit": "adddce7c6f41be309855e3c7d047e309bbe58a3a",
+      "url": "https://github.com/byteseek/Mira/tree/adddce7c6f41be309855e3c7d047e309bbe58a3a",
+      "files": [
+        {
+          "path": "OPERATING_CONTRACT.md",
+          "bytes": 17535,
+          "sha256": "421b1a9a956f6123b14f718d1affba6d325432971e51298d8f9a5946c7deb19c"
+        },
+        {
+          "path": "data/routing-index.csv",
+          "bytes": 2673,
+          "sha256": "1f742ccd73626f597fba1488e3019215516a0f90ea1d321c1d332116d8a34317"
+        },
+        {
+          "path": "data/output-surface-matrix.md",
+          "bytes": 10057,
+          "sha256": "0f73101976877f04163d00b3b2d2007cc024ba49a381c5be3cd11b59d77f3874"
+        },
+        {
+          "path": "loops/monitoring-loop.md",
+          "bytes": 4814,
+          "sha256": "16eb7fbefada70ff6300242407aec79bf0eb50a19331948a40bfb959773e6ef0"
+        },
+        {
+          "path": "data/handoff-contracts.md",
+          "bytes": 2599,
+          "sha256": "8acab020214b5c7310cce8e8db73e17655f70c15091f818c6ab0029bf103ab06"
+        },
+        {
+          "path": "data/evidence-log-schema.md",
+          "bytes": 9730,
+          "sha256": "12cfd3a58f944511d526a4f14715c136483c8b7586e1ebf8e37c8c83a8477b40"
+        },
+        {
+          "path": "tools/mira_data/canonical.py",
+          "bytes": 6869,
+          "sha256": "f9fdb31219dfceeaa579ba4e7b29afa8353a11c2e09f4e960bfee0f61a536d99"
+        },
+        {
+          "path": "tools/mira_data/emit.py",
+          "bytes": 15574,
+          "sha256": "89a243588faf2c97cace73965ae1f79165d4ae8fef72170cc8a33960ef5aeaba"
+        },
+        {
+          "path": "scripts/check_updates.sh",
+          "bytes": 10305,
+          "sha256": "accdf5a939fe947a68235f09d77a19df701fd236f7c0d8e60f64ed09e3fafd79"
+        },
+        {
+          "path": "scripts/test_routing_schema.py",
+          "bytes": 5388,
+          "sha256": "8a047778d5037b4372ceb32f9e22a72b7f255f9c6088d61c4fece4e10f815854"
+        },
+        {
+          "path": "scripts/test_repo_validation_contracts.py",
+          "bytes": 9802,
+          "sha256": "9fd0ddc7fad5fbe6b4f844283ac8758343e26abed8a33e8a2cabe543a29fd1cd"
+        }
+      ]
+    },
+    "openInvest": {
+      "commit": "fd41d8eab958b766a4af8dc0a501103cfbeb2745",
+      "url": "https://github.com/longsizhuo/openInvest/tree/fd41d8eab958b766a4af8dc0a501103cfbeb2745",
+      "files": [
+        {
+          "path": "plugin/skills/invest/references/committee-protocol.md",
+          "bytes": 11392,
+          "sha256": "1a214c8f016e1c81d565573a401922519a198ed761501e95660cb3bdd25ce3a1"
+        },
+        {
+          "path": "src/openinvest/core/runner/coordinator.py",
+          "bytes": 29549,
+          "sha256": "000d25cb0ace12c3175650621e0ed57f3a7424d54b47445a247410c487fa6a3c"
+        },
+        {
+          "path": "src/openinvest/core/runner/loaders.py",
+          "bytes": 10051,
+          "sha256": "7802de1c13dc2413aec208dbcbd91df92421731fb3f4db3d15b21bf6155dc4ca"
+        },
+        {
+          "path": "src/openinvest/core/runner/event_format.py",
+          "bytes": 8751,
+          "sha256": "6d85c7524bf635cba387786b8f935c70d3806e54450aa6c999788f61670c543b"
+        },
+        {
+          "path": "src/openinvest/core/committee/debate.py",
+          "bytes": 18616,
+          "sha256": "600be9ccc682d2d3d8058d5b11763802886b65ef997d51e5becae65ba1e1dc95"
+        },
+        {
+          "path": "src/openinvest/core/committee/debate_calc.py",
+          "bytes": 2500,
+          "sha256": "cca7262a9ce042b34359c51a6fdb2ee13da7045d5a79f7558238b076ff548fa4"
+        },
+        {
+          "path": "src/openinvest/core/memory_store.py",
+          "bytes": 17148,
+          "sha256": "aeda1aa8610547045165b208fce1f78abf30a44abf28f0da546cc0f203f6d55b"
+        },
+        {
+          "path": "src/openinvest/core/portfolio_manager.py",
+          "bytes": 84361,
+          "sha256": "d5050000fc617c60a30ddb015be9aa0797f33512cd2e74340b9fc3b2ebc51e6b"
+        },
+        {
+          "path": "src/openinvest/jobs/dreaming.py",
+          "bytes": 30309,
+          "sha256": "ca5266967f6a1ea72a2071419b0f7c294c7e7528f423b768d269708da2a98f44"
+        },
+        {
+          "path": "src/openinvest/jobs/dreaming_calc.py",
+          "bytes": 4190,
+          "sha256": "94e040b3667eb2589c7fb09b23f3baed0c2c3afe055f80190c6b7387bb7154bb"
+        },
+        {
+          "path": "src/openinvest/core/config/tunable.py",
+          "bytes": 21612,
+          "sha256": "6f7e6f27ada2f4fa6c56cd7a9550eb4d5a3e439c0030d35b0cdc218abdc9a425"
+        },
+        {
+          "path": "src/openinvest/core/config/locked.py",
+          "bytes": 2759,
+          "sha256": "c90b1b4ce0ff122e395eaecdf57cfaf68f12508f93e98978d88b0511c95da120"
+        },
+        {
+          "path": "src/openinvest/skill_cmds/committee_cmds.py",
+          "bytes": 16458,
+          "sha256": "33e902df248b0352465c9d71070431be770faa6371a6033eb8b63dc745ae5d54"
+        },
+        {
+          "path": "pyproject.toml",
+          "bytes": 7519,
+          "sha256": "daf7237c681fe7e3952a53cc5e37d0e94066955bff32f251ca6411e8a8aad586"
+        },
+        {
+          "path": "tests/test_memory_store.py",
+          "bytes": 6371,
+          "sha256": "30d85a18dde46af0486a51b07a61b64d93c5b6a0df3181e7521afb2dc4631976"
+        },
+        {
+          "path": "tests/test_dreaming_llm_verify.py",
+          "bytes": 8989,
+          "sha256": "5066588e16a2a8d6d7f5111e033c0373ff9ead3ed2c6f2a74660b03d8edf5d73"
+        }
+      ]
+    }
+  },
+  "local_pin": "60efec312",
+  "checks": {
+    "Mira_routing": "ok  valid golden card (aapl)\nok  decision_grade without followup_questions  (missing required field `followup_questions`)\nok  decision_grade WITH followup_questions\nok  none without followup_waiver_reason  (missing required field `followup_waiver_reason`)\nok  out-of-vocab followup_prompt_mode  (`followup_prompt_mode`: 'deep' is not one of ['decision_grade', 'light', 'none', 'standard'])\nok  out-of-vocab interaction_mode  (`interaction_mode`: 'bogus' is not one of ['decision_support', 'quick_answer', 'routed_research', 'routing_unclear'])\nok  quant!=none without calculation_gate  (missing required field `calculation_gate`)\nok  decision_pressure high + disconfirmation no  (`disconfirmation_required`: 'no' is not one of ['yes'])\nok  empty required string  (missing required field `routing_basis`)\nok  out-of-vocab task_mode  (`task_mode`: 'bogus_mode' is not one of ['decision_quality_review', 'discovery_or_screening', 'earnings_event', 'first_pass_research', 'market_briefing', 'methodology_review', 'monitoring_update', 'portfolio_construction_review', 'portfolio_review', 'position_review', 'research_report_interpretation', 'sec_filing_deep_dive', 'sec_supplement', 'thesis_system_update', 'view_continuity'])\nok  decision_support without decision_pressure  (missing required field `decision_pressure`)\nok  decision_support with decision_pressure\nok  position_review without decision_pressure  (missing required field `decision_pressure`)\nok  position_review with decision_pressure\nok  live_data_gate required_quote_time without live fields  (missing required field `live_freshness_status`)\nok  live_data_gate required_quote_time with live fields\nok  live_data_gate required_publish_time without publish_time  (missing required field `publish_time`)\nok  live_data_gate required_publish_time with publish_time\nrouting_schema_tests: pass\n",
+    "Mira_artifact": "ok derived calculation without trace is rejected\nok derived calculation can be traced through calculation ledger\nok derived calculation can be traced through formula note\nok calculation ledger rejects unknown evidence refs\nok manifest accepts non-research package type\nok manifest rejects missing hero artifact\nok case readme requires manifest when evidence log exists\nok generated manifest classifies earnings and calculation artifacts\nrepo_validation_contract_tests: pass\n",
+    "openInvest_pure_function_probe": {
+      "function": "_check_convergence",
+      "empty_histories_with_two_empty_entries_each": true,
+      "stable_opposite_positions": true,
+      "limit": "Direct probe of pure helper only, not an end-to-end empty-response failure."
+    },
+    "openInvest_full_suite": "Not run: project requires Python >=3.13; available Python is 3.12.3 and pytest/frontmatter unavailable. No dependencies installed, live agents called or broker/network endpoints invoked."
+  }
+}

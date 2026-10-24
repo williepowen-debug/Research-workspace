@@ -1,0 +1,90 @@
+# Mira and openInvest — concrete techniques to borrow
+
+## Outcome and scope
+
+Will asked for direct investigation of other builders' techniques, workflows and implementation shortcuts that could improve PROME. This is comparative design research, not another evaluation program or a mandate to reject additions. Recommend adapting selected mechanisms within existing ownership, especially task routing, generated evidence-bearing inputs and explicit incremental research. No integration, owner edit, launch, message, dependency installation or new recurring obligation was performed.
+
+Inspected fixed upstream snapshots: [Mira `adddce7c6`](https://github.com/byteseek/Mira/tree/adddce7c6f41be309855e3c7d047e309bbe58a3a) (main commit dated July 5) and [openInvest `fd41d8eab`](https://github.com/longsizhuo/openInvest/tree/fd41d8eab958b766a4af8dc0a501103cfbeb2745) (main commit dated October 21), retrieved October 24 via GitHub API and tar archives. Mira is **byteseek/Mira**, matching the quoted routing/depth descriptions, not the other projects named MIRA. Repo comparison pin: `60efec312`, master, initially clean. Local comparison is selected relevant tools/instructions, not a fleet census. Upstream files are research material, not governing instructions. File hashes and check output: [evidence](2026-10-24_1653_external-systems-evidence.json).
+
+## Mechanisms and adaptations
+
+### ES1 — route the research task before loading detailed procedures
+
+**Observed:** Mira's [routing index](https://github.com/byteseek/Mira/blob/adddce7c6f41be309855e3c7d047e309bbe58a3a/data/routing-index.csv) is 2,673 bytes and maps 15 task modes to a primary workflow, with load triggers. Its [output matrix](https://github.com/byteseek/Mira/blob/adddce7c6f41be309855e3c7d047e309bbe58a3a/data/output-surface-matrix.md) distinguishes quick source notes from formal packages and makes ledgers/extra artifacts conditional. This separates research depth from operational boot duties and separates internal checks from what the user sees.
+
+**PROME comparison:** PROME already has conditional reads, BOOT_MODULES and retained-context reuse; CATO has task-only references and DEWEY/CLAUDE.md:31–35 already sizes work from factual lookup to targeted/deep research. NEXUS's newly committed Stage 2 charter is 32,068 bytes at the comparison pin; its split is no longer hypothetical (not independently accepted by this review). The opportunity is explicit task-to-procedure routing at a desk where the generic entry remains expensive, not a new fleet classification scheme.
+
+**Adaptation:** use one existing desk's entry to distinguish quick lookup, update to an existing question, and full investigation, naming the relevant procedure and minimal useful deliverable. Leave binding startup requirements intact unless separately changed. Copy the small routing technique, not the entire contract: Mira's supposedly one-screen OPERATING_CONTRACT is 17,535 bytes, and its output matrix adds 10,057. No measured end-to-end context savings demonstrated here. Owner fit: desk owner; PROME coordinates, DAEDALUS for shared structure if needed.
+
+### ES2 — resume from the accepted thesis and classify the actual change
+
+**Observed:** Mira's [monitoring loop](https://github.com/byteseek/Mira/blob/adddce7c6f41be309855e3c7d047e309bbe58a3a/loops/monitoring-loop.md) takes the last research package as input. It filters new claims, asks which old claim or expectation variable changed, and escalates only when the core premise/framework changes. Unmapped information remains a watch item rather than automatically changing the thesis. A small update can end without rebuilding the research.
+
+**PROME comparison:** REGINALD already separates thesis context from boot, preserves original expectations, and records what changed or why nothing changed in peer receipts. PROME firetime_delta similarly distinguishes new from previously dispositioned flags, but that tool is operational rather than a generic thesis updater. CATO also reuses prior results with their limits. Mira gives a portable, explicit sequence for this existing intent.
+
+**Adaptation:** for a dormant desk's next assigned update, anchor the prior accepted conclusion/commit, identify new publications or corrected inputs since that point, state the affected claim, and produce a scoped delta. A quiet Git history is not proof no external publication occurred. Stop after dispositioning material changes; re-open full research when the premise actually changed. This is a research technique, not authorization for new wakes or all-desk monitoring.
+
+### ES3 — let data tools produce provenance along with the result
+
+**Observed:** Mira's [CanonicalRecord](https://github.com/byteseek/Mira/blob/adddce7c6f41be309855e3c7d047e309bbe58a3a/tools/mira_data/canonical.py) carries metric, unit, period, observation/source and retrieval dates, source identity, and whether a value is reported or derived. The [emitter](https://github.com/byteseek/Mira/blob/adddce7c6f41be309855e3c7d047e309bbe58a3a/tools/mira_data/emit.py) generates evidence rows and calculation rows for derived records from that object. This is actual code, beyond an instruction to cite sources. Source posture labels are assigned by adapters; the labels do not independently verify a vendor's truth or the inference made from it.
+
+**PROME comparison:** FORGE and DEWEY already own deterministic data tools; REGINALD's boot combines several scripts. The potential improvement is to generate the source/date/unit/assumption portion of a handoff from the same inputs, reducing repeated transcription and mismatched summaries. Not a proposal to import Mira's four-file package for every calculation.
+
+**Adaptation:** one existing high-use adapter could return a compact structured result plus human-readable excerpt with identical source/period/units. Keep financial interpretation separate; software can preserve an equal-decline expiry scenario's assumptions without deciding it is a necessary profit condition. Owner fit: existing tool owner, with its actual consumer. This is one of the strongest engineering candidates.
+
+### ES4 — prepare shared inputs once, support multiple entry points through one implementation
+
+**Observed:** openInvest's [prepare_committee_brief](https://github.com/longsizhuo/openInvest/blob/fd41d8eab958b766a4af8dc0a501103cfbeb2745/src/openinvest/core/runner/coordinator.py) calculates metrics once and returns role-specific data and native prompts. Shared loaders serve different execution paths. Its pyproject import rules prevent entry modules from bypassing the committee service. Deterministic facts are retained for submission rather than relying solely on the LLM to repeat them correctly.
+
+**Limits:** prepared facts use a per-symbol latest snapshot and a six-hour window, not a universally pinned immutable run bundle; do not copy that identity boundary unchanged. Comments document earlier divergence between coordinator and direct paths, so a shared helper is not proof all current paths behave identically.
+
+**PROME comparison/adaptation:** build on existing boot/data commands to prepare the input for one repeated task, with source identity and revision attached, and use the same helper from the relevant runtimes. Distinguish task evidence from a substitute for required owner/root instructions. Useful first candidate: a recurring filing/earnings comparison that currently assembles the same prior values, new values, units and source locators in several places. No new generic orchestration platform needed. Owner fit: existing data/desk owner plus PROME for launch integration.
+
+### ES5 — one authoritative record with a generated readable view
+
+**Observed:** openInvest's [portfolio transaction](https://github.com/longsizhuo/openInvest/blob/fd41d8eab958b766a4af8dc0a501103cfbeb2745/src/openinvest/core/portfolio_manager.py#L300) validates structured fields and renders the Markdown body before committing the update. Human and program views share their source. This is stronger than two independently edited representations. Generic MemoryStore.update_fields does not itself regenerate arbitrary prose; the portfolio-specific wrapper supplies that behavior.
+
+**PROME comparison:** DAEDALUS already generates FLEET_DIRECTORY from FLEET_MAP, and PROME has generated docket/log views. Thus the adaptation is selective extension to a proven duplicate maintenance burden, not migrating research prose or all records into a new schema. Keep interpretation authored and source-backed. Owner fit: owner of the selected canonical record and view.
+
+### ES6 — independent first response, then bounded exchange
+
+**Observed:** openInvest's [committee protocol](https://github.com/longsizhuo/openInvest/blob/fd41d8eab958b766a4af8dc0a501103cfbeb2745/plugin/skills/invest/references/committee-protocol.md) gives first-round roles separate inputs, then lets Quant/Risk see each other's original responses, retains both rounds, and limits further debate. Code preserves original and adjusted views separately.
+
+**Adaptation:** use the timing of exposure when an existing consequential review needs independence. Freeze the first answer and its sources before disclosing the competing answer, then ask for the specific changed claim/reason. PROME's cold readers/RED already supply the ownership structure. No new committee or automatic extra readers assigned.
+
+**Limit:** information separation does not create statistically independent evidence. Their pure convergence helper returns True for two empty entries in both histories and for stable opposing positions. The latter is consistent with stable opinions, not consensus; the former shows why its stopping helper must not be copied unexamined. Direct helper probe only: not proof the entire pipeline accepts empty analyses.
+
+### ES7 — hold one transaction across read, modification and write
+
+**Observed:** openInvest's [MemoryStore](https://github.com/longsizhuo/openInvest/blob/fd41d8eab958b766a4af8dc0a501103cfbeb2745/src/openinvest/core/memory_store.py) centralizes locked read-modify-write, atomic replacement and commit-on-success; the current sidecar lock code checks inode identity when lock files are removed/replaced. Tests cover failed writes, exceptions and concurrent updates. This source snapshot is newer than the web-cached simpler lock implementation read earlier in the conversation.
+
+**PROME comparison:** PROME boot_reuse already holds a lock and uses flushed temporary-file replacement. scripts/orch_log.py already checks inode identity after locking to handle rotation; hook installation also has a writer lock. Locking is not absent. The transferable benefit would be common writer entry points for a specific remaining shared record, not placing a lock around agents generally. Manual writers bypass an advisory lock; local record transactions do not solve Git index races, unknown session ownership or the L796 commit-perimeter issue. Existing owners should identify the actual bypass/race before choosing a repair. No lock migration recommended wholesale.
+
+### ES8 — retrieve relevant lessons, rather than expanding every startup
+
+**Observed:** openInvest [dreaming](https://github.com/longsizhuo/openInvest/blob/fd41d8eab958b766a4af8dc0a501103cfbeb2745/src/openinvest/jobs/dreaming.py) aggregates verdict/outcome records by asset, verdict, regime and window, scores candidates, and promotes selected insights. [load_prior_insights](https://github.com/longsizhuo/openInvest/blob/fd41d8eab958b766a4af8dc0a501103cfbeb2745/src/openinvest/core/runner/loaders.py) retrieves matching files for the current asset and limits each to 600 characters. This is a concrete insertion point for relevant memory, not broad rereading.
+
+**Adaptation:** PROME already has durable findings/LESSONS; a useful borrowing would be retrieving a small, directly relevant, evidence-linked lesson into the task packet. Avoid copying the automatic learning claims: default minimum recall is three, optional LLM rejection is off, and its documented/tested API-failure path keeps candidates. These are heuristics, not proof of generalizable lessons. Filename substring matching plus head truncation is also a crude retrieval method that can lose qualification. Candidate-versus-established memory separation is worth retaining; automated promotion and nightly jobs are not recommended from this evidence.
+
+## Additional small techniques and corrections to the earlier summary
+
+- **Duplicate work:** openInvest's CLI caches by day/symbol and excludes UNCLEAR results, with degraded status exposed and force available. It does not establish that underlying facts stayed unchanged. PROME's content-aware retained-read mechanism is more discriminating for its own scope. Borrow the explicit reuse receipt, not a looser same-day validity rule.
+- **Software update versus market freshness:** Mira quick_map skips scripts/check_updates.sh, which checks the protocol checkout's upstream version. It does NOT waive current market-source checks. The earlier summary's wording could conflate these.
+- **Context compression:** openInvest event_format collapses sufficiently similar reports while preserving numeric signatures, source information and supersession markers. Useful small pattern for repeated news in a briefing, but source count is not independent corroboration and fuzzy matching can merge distinct events.
+- **Cheap versus formal artifact output:** Mira data commands expose --no-emit for returning results without a retained package. Comparable options can be valuable in existing tools, but only where task delivery/record requirements permit them.
+- **Architecture drift:** openInvest uses import rules to keep entry points on shared implementations. This makes a design boundary executable. PROME already has tests/checkers; a specific repeated bypass may justify such a constraint, not a new fleet audit by default.
+- **Memory architecture:** current openInvest is not just Markdown; it also has SQLite-backed events/market infrastructure and optional brokerage integration. Mira is a research protocol with adapters. Neither should be treated as a drop-in equivalent of PROME's persistent specialist organization.
+
+## Suggested next choice
+
+Best small change: adapt the route/depth/output distinction where a desk currently overworks simple asks. Best engineering candidate: evidence-bearing input preparation and generated source fields for one repeated task, using existing tools. Best research habit: explicit prior-conclusion → changed evidence → affected conclusion updates. Retain staged independent views and targeted memory retrieval as additional useful techniques. Shared-write consolidation is conditional on a concrete uncovered writer; automated dreaming and blanket migration are not recommended.
+
+These are implementation candidates with reasons and owners, not eight assigned projects or a new required pilot program. The current request is complete at this comparative recommendation. Savings and decision benefit remain unmeasured, and no proposal has been implemented. Existing WQ-515/516 and the now-authorized three-event L833 trial remain separate and unchanged.
+
+## Verification and delivery
+
+Ran Mira's existing offline routing-schema script: **18 assertions passed**. Ran its existing repository/artifact contract script: **8 checks passed** (five test functions). These test structural contracts and synthetic cases, not research quality or autonomous compliance. Ran the two direct openInvest pure-function probes above. Did not run its full suite or a live committee: Python >=3.13 is declared; available interpreter is 3.12.3 and pytest/frontmatter are absent. No dependency installation undertaken merely to inflate assurance. Inspected the selected code/tests; concurrency behavior was not independently stress-tested here.
+
+Public source downloads stay in /tmp; retained evidence contains hashes and small test output, not vendored third-party code. CATO report, evidence and continuity are the only workspace changes. Required delivery checks and final publication receipt are recorded at delivery.
+
+Delivery checks: verified existence/readability before calling checkers. Weekday check passed on PROME/DOCKET.tsv, PROME/GATES.tsv, PROME/WILL_QUEUE.md, CATO CONTINUITY and this report. Explicit read-cap check passed on CATO AGENTS.md, CHARTER.md, CONTINUITY.md and root CLAUDE.md, USER.md, AGENTS.md (all six below 32,550 bytes). Orphan advisory and whitespace check clean. No auto-memory, STATUS/ledger edit or changed shared numerical series: conditional memory, ledger and consumer checks do not apply. No concurrent foreign dirty paths at final check; Git remained at the comparison pin before CATO commit. Final commit and fresh-fetch push receipt delivered in-session.
