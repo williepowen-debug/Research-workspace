@@ -1,0 +1,311 @@
+{
+  "revision": "c8a8857df926a9b638b0eaa21293251daeca9099",
+  "method": "git log -1 --format=%cs by exact brief/STATUS path; calendar dates to 2026-10-24; first 40 header lines, historical-labelled lines excluded; canonical plus three schema-grandfathered token spellings; no semantic content grading",
+  "counts": {
+    "briefs": 29,
+    "committed_within_3_days": 24,
+    "status_lag_at_least_2_days": [
+      "BROCK",
+      "LIQUID"
+    ],
+    "header_hash_in_schema_token": 12,
+    "no_schema_token_hash": 17
+  },
+  "rows": [
+    {
+      "desk": "AEOLUS",
+      "brief_commit_date": "2026-10-21",
+      "status_commit_date": "2026-10-21",
+      "brief_age_calendar_days": 3,
+      "status_lag_calendar_days": 0,
+      "recognized_pin": null,
+      "schema_token_match": null,
+      "brief_sha256": "b8a22ff3cb578be5475308101f5fc0a78e08d86670b77e30a8d06edaa616500d"
+    },
+    {
+      "desk": "BOND",
+      "brief_commit_date": "2026-10-20",
+      "status_commit_date": "2026-10-20",
+      "brief_age_calendar_days": 4,
+      "status_lag_calendar_days": 0,
+      "recognized_pin": null,
+      "schema_token_match": null,
+      "brief_sha256": "f3fbc491c1ebedf7dc1d8cfcca652dcbdef05812e5e1ff92db4866317d28319c"
+    },
+    {
+      "desk": "BRENT",
+      "brief_commit_date": "2026-10-23",
+      "status_commit_date": "2026-10-23",
+      "brief_age_calendar_days": 1,
+      "status_lag_calendar_days": 0,
+      "recognized_pin": null,
+      "schema_token_match": null,
+      "brief_sha256": "e0b46508a05652a46fe45421c1a3492f4a64e88a05cded5c6fb0c197bea946e9"
+    },
+    {
+      "desk": "BROCK",
+      "brief_commit_date": "2026-10-15",
+      "status_commit_date": "2026-10-23",
+      "brief_age_calendar_days": 9,
+      "status_lag_calendar_days": 8,
+      "recognized_pin": "a131c7018",
+      "schema_token_match": "a131c7018",
+      "brief_sha256": "717128f7d669b73f71f7468440ca9202a17a4ec1a718f98a9e016b3b3a8bfbea"
+    },
+    {
+      "desk": "CARL",
+      "brief_commit_date": "2026-10-21",
+      "status_commit_date": "2026-10-21",
+      "brief_age_calendar_days": 3,
+      "status_lag_calendar_days": 0,
+      "recognized_pin": "975ea7d6e",
+      "schema_token_match": "975ea7d6e",
+      "brief_sha256": "1e557f33a39bc5f053f78a53006f359bb6176b67637d4127db3cf3985d3de0cd"
+    },
+    {
+      "desk": "CORAL",
+      "brief_commit_date": "2026-10-21",
+      "status_commit_date": "2026-10-21",
+      "brief_age_calendar_days": 3,
+      "status_lag_calendar_days": 0,
+      "recognized_pin": null,
+      "schema_token_match": null,
+      "brief_sha256": "1322df954abee5ad13b005b2ba9bb4d5c02b288f47df59a5fd062ff65769f0ae"
+    },
+    {
+      "desk": "CYPHER",
+      "brief_commit_date": "2026-10-23",
+      "status_commit_date": "2026-10-23",
+      "brief_age_calendar_days": 1,
+      "status_lag_calendar_days": 0,
+      "recognized_pin": "b562466d3",
+      "schema_token_match": "b562466d3",
+      "brief_sha256": "68a38f88dee3d3333f545c5772e348c8c61832c57bb5b43e56c21fe5083e3be0"
+    },
+    {
+      "desk": "FALCON",
+      "brief_commit_date": "2026-10-23",
+      "status_commit_date": "2026-10-23",
+      "brief_age_calendar_days": 1,
+      "status_lag_calendar_days": 0,
+      "recognized_pin": "5063c120e",
+      "schema_token_match": "5063c120e",
+      "brief_sha256": "20c298c2c4d61ca4333ffbe7f2f007a7a419a1a99226fb1e5549ecb73f193f57"
+    },
+    {
+      "desk": "GIBBS",
+      "brief_commit_date": "2026-10-23",
+      "status_commit_date": "2026-10-23",
+      "brief_age_calendar_days": 1,
+      "status_lag_calendar_days": 0,
+      "recognized_pin": "6d1d9df51",
+      "schema_token_match": "6d1d9df51",
+      "brief_sha256": "ccd82e09b528333e1b2ada9f125c6fb59fbb1e12a0b154d7ecfd8158b7486a73"
+    },
+    {
+      "desk": "HAWK",
+      "brief_commit_date": "2026-10-21",
+      "status_commit_date": "2026-10-21",
+      "brief_age_calendar_days": 3,
+      "status_lag_calendar_days": 0,
+      "recognized_pin": null,
+      "schema_token_match": null,
+      "brief_sha256": "544ff1a6b239da15ca4f535876aa97590b14049d6603ee776fdb9330b6ee40c2"
+    },
+    {
+      "desk": "HENRY",
+      "brief_commit_date": "2026-10-22",
+      "status_commit_date": "2026-10-22",
+      "brief_age_calendar_days": 2,
+      "status_lag_calendar_days": 0,
+      "recognized_pin": null,
+      "schema_token_match": null,
+      "brief_sha256": "2590bd27dbffe42628c0056c840ceabff3b4f9a2269c3198a20eda84f837c39b"
+    },
+    {
+      "desk": "HOMER",
+      "brief_commit_date": "2026-10-19",
+      "status_commit_date": "2026-10-19",
+      "brief_age_calendar_days": 5,
+      "status_lag_calendar_days": 0,
+      "recognized_pin": null,
+      "schema_token_match": null,
+      "brief_sha256": "744e2a7bde1f988af8380e74db69f622a2ab863bb9ef2a4eab031483d4d164aa"
+    },
+    {
+      "desk": "LABOR",
+      "brief_commit_date": "2026-10-22",
+      "status_commit_date": "2026-10-22",
+      "brief_age_calendar_days": 2,
+      "status_lag_calendar_days": 0,
+      "recognized_pin": "9ce83bd08",
+      "schema_token_match": "9ce83bd08",
+      "brief_sha256": "c80e9f8d0aada579e5d90406208ad30fc7eace1a48a6884decccb18cae8878b9"
+    },
+    {
+      "desk": "LIQUID",
+      "brief_commit_date": "2026-10-21",
+      "status_commit_date": "2026-10-24",
+      "brief_age_calendar_days": 3,
+      "status_lag_calendar_days": 3,
+      "recognized_pin": null,
+      "schema_token_match": null,
+      "brief_sha256": "512b6a61216d59aee8b1032762986a164d21f173f03b17428c4581f5de578c0e"
+    },
+    {
+      "desk": "MARCO",
+      "brief_commit_date": "2026-10-21",
+      "status_commit_date": "2026-10-21",
+      "brief_age_calendar_days": 3,
+      "status_lag_calendar_days": 0,
+      "recognized_pin": "05f8f1bcb",
+      "schema_token_match": "05f8f1bcb",
+      "brief_sha256": "ca1a294fc4cb9995cb75bec5021e374cba58e054b0ce8c2ce48633011f4dc603"
+    },
+    {
+      "desk": "MIDAS",
+      "brief_commit_date": "2026-10-23",
+      "status_commit_date": "2026-10-23",
+      "brief_age_calendar_days": 1,
+      "status_lag_calendar_days": 0,
+      "recognized_pin": null,
+      "schema_token_match": null,
+      "brief_sha256": "6054ecdf791ed6adfb24ea470de8354f11c5e8c4cb58a1a91695370a3c88fa6a"
+    },
+    {
+      "desk": "ORACLE",
+      "brief_commit_date": "2026-10-21",
+      "status_commit_date": "2026-10-21",
+      "brief_age_calendar_days": 3,
+      "status_lag_calendar_days": 0,
+      "recognized_pin": null,
+      "schema_token_match": null,
+      "brief_sha256": "0a031fb0854eae59afb4fa2af1e633715a40a8ddb490c9d22129869f1f275602"
+    },
+    {
+      "desk": "OSPREY",
+      "brief_commit_date": "2026-10-23",
+      "status_commit_date": "2026-10-23",
+      "brief_age_calendar_days": 1,
+      "status_lag_calendar_days": 0,
+      "recognized_pin": null,
+      "schema_token_match": null,
+      "brief_sha256": "1997f144693bf83272d96d429c2534ec18162de22bfdc25f9ba589b44f975a5a"
+    },
+    {
+      "desk": "OTTO",
+      "brief_commit_date": "2026-10-19",
+      "status_commit_date": "2026-10-19",
+      "brief_age_calendar_days": 5,
+      "status_lag_calendar_days": 0,
+      "recognized_pin": "586b33778",
+      "schema_token_match": "586b33778",
+      "brief_sha256": "2c3dfbc44bdace2d6d52699f67aa3a7ee70493c1241c0e83ed5729469863e0d0"
+    },
+    {
+      "desk": "RED",
+      "brief_commit_date": "2026-10-22",
+      "status_commit_date": "2026-10-22",
+      "brief_age_calendar_days": 2,
+      "status_lag_calendar_days": 0,
+      "recognized_pin": null,
+      "schema_token_match": null,
+      "brief_sha256": "e1fd0419407b512e25d12b79662bc819d9cc842145049fe4a5cec8f59831e140"
+    },
+    {
+      "desk": "REGINALD",
+      "brief_commit_date": "2026-10-23",
+      "status_commit_date": "2026-10-23",
+      "brief_age_calendar_days": 1,
+      "status_lag_calendar_days": 0,
+      "recognized_pin": "8452f2af7",
+      "schema_token_match": "8452f2af7",
+      "brief_sha256": "3083fb52d70c2892497ab13f82a9c8ed9ac313c322f9818ba7e07e68b472de8a"
+    },
+    {
+      "desk": "SAM",
+      "brief_commit_date": "2026-10-20",
+      "status_commit_date": "2026-10-20",
+      "brief_age_calendar_days": 4,
+      "status_lag_calendar_days": 0,
+      "recognized_pin": "0055442a8",
+      "schema_token_match": "0055442a8",
+      "brief_sha256": "6fc7278a361828e0de6b3adcef1c37636ed15318d3eb2f15315a5d6c80f6be32"
+    },
+    {
+      "desk": "SHADE",
+      "brief_commit_date": "2026-10-21",
+      "status_commit_date": "2026-10-21",
+      "brief_age_calendar_days": 3,
+      "status_lag_calendar_days": 0,
+      "recognized_pin": null,
+      "schema_token_match": null,
+      "brief_sha256": "6e31b03f4536c695bdcbb15bad1d1c35b6d46ad797f90c8caf79ece1c24f0c92"
+    },
+    {
+      "desk": "VIOLET",
+      "brief_commit_date": "2026-10-21",
+      "status_commit_date": "2026-10-21",
+      "brief_age_calendar_days": 3,
+      "status_lag_calendar_days": 0,
+      "recognized_pin": null,
+      "schema_token_match": null,
+      "brief_sha256": "3fbc60ea72deabe30c46198db9e98717cc36a238494b2e707f4cab54a8dedc4d"
+    },
+    {
+      "desk": "VULCAN",
+      "brief_commit_date": "2026-10-23",
+      "status_commit_date": "2026-10-23",
+      "brief_age_calendar_days": 1,
+      "status_lag_calendar_days": 0,
+      "recognized_pin": "953f8da9d",
+      "schema_token_match": "953f8da9d",
+      "brief_sha256": "e2c9f50bfa161627f76ffc5c854237cecada41cd3ec748648e7433f9fbbddefd"
+    },
+    {
+      "desk": "WAL",
+      "brief_commit_date": "2026-10-22",
+      "status_commit_date": "2026-10-22",
+      "brief_age_calendar_days": 2,
+      "status_lag_calendar_days": 0,
+      "recognized_pin": "1d4d4210adbcdfbea6a3d3c363d80e0fa36415dc",
+      "schema_token_match": "1d4d4210adbcdfbea6a3d3c363d80e0fa36415dc",
+      "brief_sha256": "213f481916f3edcb1eccff5f057b8822cfd801ff526495d0d116e76b6f3a4152"
+    },
+    {
+      "desk": "WATT",
+      "brief_commit_date": "2026-10-23",
+      "status_commit_date": "2026-10-23",
+      "brief_age_calendar_days": 1,
+      "status_lag_calendar_days": 0,
+      "recognized_pin": null,
+      "schema_token_match": null,
+      "brief_sha256": "b1312678bffabf5d73317151bb5590232ba001f56b365af9712983652cff4c95"
+    },
+    {
+      "desk": "YURI",
+      "brief_commit_date": "2026-10-21",
+      "status_commit_date": "2026-10-21",
+      "brief_age_calendar_days": 3,
+      "status_lag_calendar_days": 0,
+      "recognized_pin": null,
+      "schema_token_match": null,
+      "brief_sha256": "2eef6b4c797284e4619167788acd6341c15cfa36d95c6a1880db7aee4ae770a8"
+    },
+    {
+      "desk": "ZHAO",
+      "brief_commit_date": "2026-10-22",
+      "status_commit_date": "2026-10-22",
+      "brief_age_calendar_days": 2,
+      "status_lag_calendar_days": 0,
+      "recognized_pin": null,
+      "schema_token_match": null,
+      "brief_sha256": "238ecb740de53acf43569318105c4ef1c4e59519011e5ed82f4d4d71abac51bb"
+    }
+  ],
+  "limits": [
+    "Recent file commit is not source freshness.",
+    "Header matching is not source-content validation.",
+    "WATT has a real hash under noncanonical STATUS source commit wording; no_schema_token_hash does not mean no source reference anywhere."
+  ]
+}
