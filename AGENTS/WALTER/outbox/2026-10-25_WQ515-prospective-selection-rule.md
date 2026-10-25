@@ -1,0 +1,7 @@
+# WQ-515 — prospective transfer selection
+
+Recorded before selection on October 25, 2026. Authority: PROME's October 23 packet `inbox/2026-10-23_from-PROME_WQ515-RULED-A-fidelity-test-name-ten-transfers.md` and `PROME/proposals/2026-10-23_wq513-516-RULED.md` § WQ-515; DOCKET L828.
+
+Select the next TEN dispatches from 2026-10-26 00:00 America/New_York, in dispatch order, whose ACTION owner is named and whose source carries a bounding caveat of one of DEWEY's four types: contingent versus current; inference versus measurement; share versus probability; base rate versus predictor. Stop at ten or at the October 30 close, whichever comes first. No skipping and no substitution. Nothing about how a transfer turned out may enter selection. This adopts PROME's proposed rule unchanged.
+
+As each qualifying dispatch lands, log its signal ID, source artifact path, ACTION owner, owner's record path once written, and hop count in `research/2026-10-26_WQ515/transfers.tsv`. No transfers selected at registration; the window has not opened. An unknown recipient record remains unknown until evidenced. Deliver the single list to PROME when the batch closes. Recipient grading begins no earlier than 24 hours after each dispatch, through PROME's approved reader; WALTER does not grade this batch. This creates no collector, routing change, or standing audit rule.
