@@ -34,8 +34,8 @@ HAW-20 October 31; HAW-22 event close October 31, final resolution December 22. 
 
 ## MAIL STATE
 
-Inbox and WALTER lane read and dispositioned; file moves recorded at closeout. BOARD exact-ID scan found 14 unmatched routed IDs, 13 lane copies plus DEWEY BOARD-only. Outbox contains historical unsent packets; this session's BRENT K1 request is prepared, recipient notification/consumption unverified. PROME delivery tracked separately.
+Inbox and WALTER lane clear: 16 moves committed in `6c9a0bce0`, with read dispositions. BOARD exact-ID scan found 14 unmatched routed IDs, 13 lane copies plus DEWEY BOARD-only. Outbox contains historical unsent packets; this session's BRENT K1 request is prepared, recipient notification/consumption unverified. PROME delivery tracked separately.
 
 ## PENDING PUSH / GIT
 
-Boot pull deferred: foreign TERRY/MIDAS dirty paths, root Git dirty-owner stop. Exact own-path commit and full closeout receipt follow. No pull/rebase/stash of others' work. Verify final commit and push disposition at handoff; saved files alone are not recipient consumption.
+Boot pull deferred: foreign TERRY/MIDAS dirty paths, root Git dirty-owner stop. Own-state commit `6c9a0bce0`; PROME packet `0a1672e89`; WALTER correction `b5118ddbd`. No pull/rebase/stash of others' work. Safe push follows this final pin commit; its exact receipt is reported to PROME and Will. Recipient consumption remains unverified.

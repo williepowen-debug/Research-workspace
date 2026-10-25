@@ -3,7 +3,7 @@
 **Status:** ELEVATED. Cross-war route/willingness risk persists; net crude loss and the price-premium fraction remain unmeasured. No HAWK mark, band or probability changed.
 **Domain:** cross-war synthesis + dormant geopolitical book.
 **As of:** 2026-10-25 12:26 EDT; owner evidence through October 23, trade-policy primaries checked October 25.
-**STATUS commit:** pending this session's scoped commit; see `git log -1 -- AGENTS/HAWK/STATUS.md` until the closeout pin is written.
+**STATUS commit:** `6c9a0bce0` (exact STATUS revision read back at closeout).
 
 ## CROSS-DOMAIN
 
