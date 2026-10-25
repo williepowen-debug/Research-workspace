@@ -1,7 +1,7 @@
 # HAWK SOURCES
 
 > **Reference index — NOT boot-read.** Consulted ad hoc when running a dormant-book re-sweep or cross-war synthesis question; not part of the BOOT sequence (STATUS/SCRATCH/LESSONS/predictions/sibling NEXUS_BRIEFs). Sources below are evergreen monitoring endpoints — refreshed, not rebuilt.
-> **Last refreshed:** 2026-06-26 (created 2026-02-18). **Split 2026-07-12:** Iran/Middle East regional sources → **FALCON**; Russia/Ukraine regional sources → **OSPREY** (both copied to the siblings' own `SOURCES.md`, generic sections below copied to all three). This file trimmed to generic sections + HAWK's dormant-book regional focus (China/Taiwan, Venezuela/LatAm).
+> **Index reconciled:** 2026-10-25; individual endpoint access dates are stated below. **Prior full refresh:** 2026-06-26 (created 2026-02-18). **Split 2026-07-12:** Iran/Middle East regional sources → **FALCON**; Russia/Ukraine regional sources → **OSPREY** (both copied to the siblings' own `SOURCES.md`, generic sections below copied to all three). This file trimmed to generic sections + HAWK's dormant-book regional focus (China/Taiwan, Venezuela/LatAm).
 > **Oil handoff (Mar 6 2026, unchanged):** oil prices / storage / tanker *markets* are **BRENT's** lane. Theater chokepoint *transit* tracking now belongs to OSPREY (Baltic/Black Sea)/FALCON (Hormuz/Bab al-Mandab); HAWK's use is limited to dormant-book chokepoints (Suez/Malacca) and cross-war synthesis.
 
 Monitored sources for geopolitical and military risk.
@@ -106,21 +106,27 @@ Key accounts for real-time military tracking:
 - China Brief (Jamestown): https://jamestown.org/programs/cb
 
 ### Venezuela / Latin America
-- Reuters/AP world wires (above) — primary
+- Reuters/AP world wires (above) — secondary reporting; an attributed government/operator statement remains a relay until the primary is read.
 - InSight Crime: https://insightcrime.org — regional security/sanctions
 
 ---
 
-## Scan Frequency
+## Cadence and source perimeter
 
-| Status | Frequency |
-|--------|-----------|
-| 🟢 GREEN | Weekly |
-| 🟡 YELLOW | 2x/week |
-| 🟠 ORANGE | Daily |
-| 🔴 RED | Continuous / multiple daily |
+Use the current Guard/Watch_Source fields in `workbook/VX.tsv`: event watches plus a 45-day backstop for active dormant vectors, with native Europe rungs checked on their own 14-day rule. A colour does not create a new daily/continuous research obligation. Superseded rows are excluded. These are manual review sources, not claims that a live feed is running.
 
-**Current posture (2026-07-12, split day):**
-- **Iran/Gulf and Russia/Ukraine theater posture** now tracked at `AGENTS/FALCON/SOURCES.md` and `AGENTS/OSPREY/SOURCES.md` respectively — not here.
-- Venezuela / Taiwan / trade war — 🟡 secondary watch, HAWK dormant book (see STATUS.md DORMANT BOOK table for the current re-sweep cadence).
-> Canonical tier truth lives in `STATUS.md`, not here — this footer is a quick-reference snapshot, refresh at closeout if posture shifts a tier.
+| Lane | Issuer-primary / owner | Access verified in this repair |
+|---|---|---|
+| Europe Article 4 / posture | NATO consultation topic, eastern-flank topic; SHAPE; national MoDs | NATO pages read October 25; Article 4 topic lacks a new dated complete 2026 record, so absence remains unclosed |
+| Romania responses | https://www.mapn.ro/ and /cpresa/ | October 25: official October 17 engagement release and October 21 incident table read; national figures are not Russian-intent counts |
+| German service law | Bundeswehr service FAQ; Bundestag legislation; Bundesgesetzblatt | Bundeswehr FAQ read October 25: service voluntary, further law required for compulsory call-up; no complete legislative absence certified |
+| EU legal acts | Consilium press release plus EUR-Lex act | Council adoption statement reachable October 25; EUR-Lex robot challenge means legal annex not independently extracted |
+| US trade / litigation | Federal Register/GovInfo, USTR, USITC, CBP CSMS; CIT/CAFC | October 25 trade bulletin and proclamation reads recorded in the boot report; no whole-court completeness claim |
+| Canada documentary scope | CBSA, Canada Gazette, Department of Finance | Exact SOR/Gazette registration residual remains named; see CATALYSTS |
+| Taiwan | MOEA/CPC inventory/cargo statements; Taipower operating reserve; MND/MSA notices | Operating reserve is a power metric, not fuel days. No current fuel-stock feed established |
+| Venezuela | OFAC general licences; SOUTHCOM/DoD; PDVSA/operator and attributed monthly exports | Sanctions licensing review is not military-posture or crude-only-volume verification |
+| Acid / copper transmission | Ivanhoe issuer release; matched delivered-Kolwezi assessment via owner | October 8 release read October 25, mine-gate only. Delivered quote remains UNMEASURED |
+| Japan substitution | METI petroleum table; SAM/BRENT owner read; MOF customs cross-check | BRENT October 1 August-table packet consumed; receipt location is not proven Hormuz transit |
+| Gulf/Black Sea war risk | FALCON/OSPREY WARRISK and named broker/insurer primaries | Owner evidence dated separately; all current quote legs remain stale; Bab CANNOT-FIRE |
+
+Press, broker, analyst, vendor and sovereign statements are separate source classes. Copies of one wire do not add independence. An index or listing is not an authenticated policy quote, legal annex or actual payment. No paid data inquiry is re-opened by this table.

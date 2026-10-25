@@ -14,7 +14,7 @@
 ## Findings
 - [2026-06-08] **Deferral-dynamic calibration anchor (HAW-06 FAILED).** This conflict produces armed pauses via ally-request deferrals, NOT clean breaks (or clean collapses). Don't over-predict clean state changes on deadline-shaped events.
 - [2026-06-08] **FLOW = canonical, KB = pointer for synthesis claims.** Decoupling thesis lives at FLOW-HAWK-19; KB rows are one-line pointers w/ DerivedFrom chains. One source of truth per metric prevents file drift.
-- [2026-06-08; pointer updated 2026-09-08] **Falsification cross-link.** Current homes: FLOW-19 ↔ `thesis/FALSIFICATION.md` ↔ HAW-19's registered letter. HAW-11 is closed history. HAW-19 LEG A's duration and N/M defects remain explicit; a pointer is not a working test.
+- [2026-06-08; pointer updated 2026-09-08] **Falsification cross-link.** Current homes: FLOW-19 ↔ `thesis/FALSIFICATION.md` ↔ HAW-22's narrow disclosed-terminal screen. HAW-19 is closed DEFECTIVE-INSTRUMENT; HAW-11 is closed history. Upstream/processing, denial/rerouting and supply-attribution remain outside that screen. See `design/2026-10-25_THESIS_TEST_COVERAGE.md`; a pointer is not a complete test.
 - [2026-06-20] **Dormant-armed framing.** Apr-damage-regime vectors/flows aren't dead — muted by de-escalation, primed to re-fire on escalation. Reconcile stale escalation vectors as "MUTED, re-fires if X," not deleted. (See LESSONS dormant-vector re-sweep.)
 - [2026-06-20] **Don't stack concurrent workflows / wide fan-out while siblings live** — API 529-overloads and drops RANDOM agents (lost the most-important theater, missed the Hormuz re-closure). Degrade to inline sequential WebSearch + harvest partials. (auto-memory finding-workflow-concurrency-529.)
 

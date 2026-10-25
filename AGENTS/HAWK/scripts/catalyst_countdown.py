@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 """
+FROZEN 2026-07-09; direct execution refused from 2026-10-25.
+Historical code only; current boot follows CLAUDE.md.
+
 HAWK Catalyst Countdown — Days to Key Dates
 
 Reads CALENDAR.md and calculates days until each event. Outputs countdown
@@ -219,4 +222,5 @@ def main():
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    print("FROZEN: HAWK refuses this legacy entrypoint. Follow CLAUDE.md; no legacy output or save is allowed.", file=sys.stderr)
+    sys.exit(2)

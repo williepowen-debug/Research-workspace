@@ -1,3 +1,5 @@
+> FROZEN 2026-10-25 — historical March analysis, not current evidence or instructions. Current synthesis: STATUS.md and workbook/FLOW.tsv.
+
 # HAWK — Four Structural Breaks (Mar 18 Evening) | Created Mar 20 from STATUS.md
 
 ## TONIGHT'S FOUR STRUCTURAL BREAKS (Mar 18 Evening)

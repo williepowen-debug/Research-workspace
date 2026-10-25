@@ -35,6 +35,11 @@ Usage:
 """
 
 import sys
+
+# October 25 repair: source accounting remains available; frozen histories cannot receive new scans.
+if __name__ == "__main__" and "--save" in sys.argv:
+    print("FROZEN: war_monitor --save is disabled before source access. Frozen war/scenario histories remain historical.", file=sys.stderr)
+    sys.exit(2)
 import subprocess
 import argparse
 from datetime import datetime
@@ -42,7 +47,6 @@ from pathlib import Path
 
 HAWK_DIR = Path(__file__).resolve().parent.parent
 WORKBOOK = HAWK_DIR / "workbook"
-WORKBOOK.mkdir(exist_ok=True)
 
 # ⚠️ FROZEN pre-split constants — historical shape only, NOT a live HAWK read.
 SCENARIO_BASELINE = {"D": 82, "C": 12, "B": 6}

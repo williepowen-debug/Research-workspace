@@ -26,6 +26,10 @@ Usage:
 """
 
 import sys
+
+if __name__ == "__main__":
+    print("FROZEN: legacy command disabled before source access or save. Read HAWK CLAUDE.md for the live workflow.", file=sys.stderr)
+    sys.exit(2)
 import argparse
 from datetime import datetime
 from pathlib import Path
@@ -38,7 +42,6 @@ except ImportError:
 
 HAWK_DIR = Path(__file__).resolve().parent.parent
 WORKBOOK = HAWK_DIR / "workbook"
-WORKBOOK.mkdir(exist_ok=True)
 
 # Scenario thresholds for Brent (BZ=F)
 # Format: (level, scenario_zone, description)

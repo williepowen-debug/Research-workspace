@@ -16,3 +16,17 @@ FAILED would require a candidate meeting both conditions. CONFIRMED would requir
 **Limits that must travel with any registration:** undisclosed damage can still create a misleading confirmation; this remains a disclosure test, not a complete measurement of actual capacity. Damage without a published repair estimate can make it ungradeable. It does not test denial versus rerouting, willingness, premium attribution or K1's price response. Broader asset coverage raises event probability relative to HAW-22; its 65% UNCALIBRATED must not be copied.
 
 **Before registration:** PROME/Will approve the asset perimeter, source rule and dates; HAWK audits example disclosures and writes a defensible confidence rationale. If no candidate is registered before November 1, report that there is no forward physical-loss event window. Never extend HAW-22 retrospectively.
+
+## Completed feasibility review — October 25
+
+| Example held in the current evidence set | Proposed outcome and reason |
+|---|---|
+| Unconfirmed Yanbu fire/interception claim | WATCH only: no counting operator/sovereign confirmation or attributed crude interruption/repair estimate. Repetition does not resolve either test. |
+| Saudi crude-processing unit with sovereign-confirmed damage and interruption but no repair horizon | UNRESOLVED-CANDIDATE: eligible asset, insufficient ≥90-day evidence. Cannot be silently graded as no qualifying loss. |
+| Products terminal, gas plant, LNG/GTL unit or a tanker hull | EXCLUDED by asset perimeter even if visibly damaged. Do not add nameplates to crude capacity. |
+| Confirmed upstream crude damage with attributed interruption AND named ≥90-day repair estimate | Candidate satisfying both proposed predicates; would FAIL the no-event claim within the proposed dates. This is a worked logical example, not an asserted event. |
+| Temporarily closed loading channel with no physical damage | Excluded; reversible denial/rerouting needs its own observation instrument. |
+
+The held record demonstrates that confirmation and repair-horizon disclosure are distinct bottlenecks. It does not supply a representative historical set of comparable asset-months or a disclosure-completeness denominator. **A defensible numerical confidence is not available from this evidence.** Copying 65% from HAW-22, pooling hulls with assets or treating search-not-found as no damage would manufacture calibration.
+
+**Recommendation now:** retain this as an unscored observation protocol for November if Will approves its perimeter; do not register a probabilistic forecast until HAWK supplies a dated comparable-event denominator and a disclosure/repair-estimate sensitivity analysis. Alternative: retain no successor and explicitly report the forward-window gap. The exact predicates and worked examples are ready for review; numerical registration remains blocked by the named confidence input, not by missing draft prose. No HAW-23 prediction exists and no new observation protocol is activated by this file.

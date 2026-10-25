@@ -79,13 +79,13 @@ rules of engagement and mandate state · Article 4/5 ladder state · mobilisatio
 
 ---
 
-## 4. THE HANS OVERLAP (open — not yet agreed)
+## 4. THE HANS BOUNDARY — AGREED September 18
 
 HANS's own `CLAUDE.md` line 118: *"Geopolitical/military → HAWK (**but EU defense spending response is yours**)."* HAWK's root charter lists **defense spending** in the dormant book. Both are correct; they overlap. Root canon says reconcile to one figure, do not silo.
 
-**Proposed split — the shape Will already approved for Taiwan (TWN-01 LNG chain vs TWNMIL-01 military posture, 2026-07-28):** HANS owns **fiscal and macro transmission**; HAWK owns **military posture**.
+**Agreed split, consistent with the Taiwan energy/military separation:** HANS owns **fiscal and macro transmission**; HAWK owns **military posture**.
 
-✅ **Status: AGREED 2026-09-18 20:49 ET** — HANS concurred without re-cut (`inbox/2026-09-18_from-HANS_rearmament-scope-split-CONCUR.md`, commit `1fe0ddcf0`): *"That is the line I would have drawn. Mark `VX-HAWK-EURMIL-01` AGREED."* **Boundary notes HANS attached:** the German 2027 defence budget (€109.7–109.8bn, +34%) is HANS's — **cite, never re-derive**; a ministerial statement about a future threat date is **HAWK's** even though it moves HANS's spreads; HANS will read spread moves off its own instruments and **will not score HAWK's rungs**.
+✅ **Status: AGREED 2026-09-18 20:49 ET** — HANS concurred without re-cut (`inbox/processed/2026-09-18_from-HANS_rearmament-scope-split-CONCUR.md`, commit `1fe0ddcf0`): *"That is the line I would have drawn. Mark `VX-HAWK-EURMIL-01` AGREED."* **Boundary notes HANS attached:** the German 2027 defence budget (€109.7–109.8bn, +34%) is HANS's — **cite, never re-derive**; a ministerial statement about a future threat date is **HAWK's** even though it moves HANS's spreads; HANS will read spread moves off its own instruments and **will not score HAWK's rungs**.
 
 Already-verified HANS input, cited not re-derived: S&P's August German manufacturing **final** names the drivers verbatim as *"defense spending, data center construction, and inventory rebuild"* (Mfg PMI **54.3**, strongest since May 2022) — confirmed at source by HANS. **HANS's figure.**
 
@@ -110,7 +110,7 @@ Already-verified HANS input, cited not re-derived: S&P's August German manufactu
 
 ## 6. OPEN GAPS (named, not filled)
 
-1. No VX row yet. Bands must be written as explicit **band X → band Y** transitions on the §2 ladder, **not on spending levels** — money in the bands repeats the TWN-01 defect exactly (evidence accreting against a scale that cannot score it).
+1. VX-HAWK-EURMIL-01 is registered in `workbook/VX.tsv`. Its explicit band transitions score the military/legal ladder, never spending. Current evidence limits live in LADDER and the October 25 review.
 2. **Article 4 negative is not primary-closed.** NATO's Article 4 page was last updated 2025-09-23, the same date as its newest entry, so its silence on 2026 carries no information.
 3. **Aggregator concentration** — `grosswald.org` supplies the densest incursion record. Load-bearing claims were independently corroborated; its ammunition tracker is deliberately unused. Do not let one aggregator become the spine.
 4. Delivered-capability and Russian-mirror legs unbuilt (§5).

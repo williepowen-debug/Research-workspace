@@ -1,0 +1,182 @@
+{
+  "generated_utc": "2026-10-25T18:22:21.869625+00:00",
+  "result": "PASS",
+  "checks": {
+    "guarded_commands": [
+      {
+        "script": "boot.py",
+        "args": [],
+        "rc": 2,
+        "stdout_bytes": 0,
+        "frozen_refusal": true
+      },
+      {
+        "script": "boot.py",
+        "args": [
+          "--save"
+        ],
+        "rc": 2,
+        "stdout_bytes": 0,
+        "frozen_refusal": true
+      },
+      {
+        "script": "boot.py",
+        "args": [
+          "--quick",
+          "--verbose"
+        ],
+        "rc": 2,
+        "stdout_bytes": 0,
+        "frozen_refusal": true
+      },
+      {
+        "script": "thresholds.py",
+        "args": [],
+        "rc": 2,
+        "stdout_bytes": 0,
+        "frozen_refusal": true
+      },
+      {
+        "script": "thresholds.py",
+        "args": [
+          "--save"
+        ],
+        "rc": 2,
+        "stdout_bytes": 0,
+        "frozen_refusal": true
+      },
+      {
+        "script": "sanctions_tracker.py",
+        "args": [],
+        "rc": 2,
+        "stdout_bytes": 0,
+        "frozen_refusal": true
+      },
+      {
+        "script": "sanctions_tracker.py",
+        "args": [
+          "--save"
+        ],
+        "rc": 2,
+        "stdout_bytes": 0,
+        "frozen_refusal": true
+      },
+      {
+        "script": "oil_infrastructure.py",
+        "args": [],
+        "rc": 2,
+        "stdout_bytes": 0,
+        "frozen_refusal": true
+      },
+      {
+        "script": "oil_infrastructure.py",
+        "args": [
+          "--save"
+        ],
+        "rc": 2,
+        "stdout_bytes": 0,
+        "frozen_refusal": true
+      },
+      {
+        "script": "catalyst_countdown.py",
+        "args": [],
+        "rc": 2,
+        "stdout_bytes": 0,
+        "frozen_refusal": true
+      },
+      {
+        "script": "catalyst_countdown.py",
+        "args": [
+          "--save"
+        ],
+        "rc": 2,
+        "stdout_bytes": 0,
+        "frozen_refusal": true
+      },
+      {
+        "script": "boot.py",
+        "audit_hooks": "network and file writes rejected",
+        "args": [
+          "--save"
+        ],
+        "rc": 2
+      },
+      {
+        "script": "thresholds.py",
+        "audit_hooks": "network and file writes rejected",
+        "args": [
+          "--save"
+        ],
+        "rc": 2
+      },
+      {
+        "script": "sanctions_tracker.py",
+        "audit_hooks": "network and file writes rejected",
+        "args": [
+          "--save"
+        ],
+        "rc": 2
+      },
+      {
+        "script": "oil_infrastructure.py",
+        "audit_hooks": "network and file writes rejected",
+        "args": [
+          "--save"
+        ],
+        "rc": 2
+      },
+      {
+        "script": "catalyst_countdown.py",
+        "audit_hooks": "network and file writes rejected",
+        "args": [
+          "--save"
+        ],
+        "rc": 2
+      },
+      {
+        "script": "war_monitor.py",
+        "audit_hooks": "network and file writes rejected",
+        "args": [
+          "--save"
+        ],
+        "rc": 2
+      }
+    ],
+    "workbook_unchanged_during_guard_tests": true,
+    "workbook/VX.tsv": {
+      "rows": 11,
+      "columns": 13,
+      "shape": "PASS"
+    },
+    "workbook/FLOW.tsv": {
+      "rows": 8,
+      "columns": 9,
+      "shape": "PASS"
+    },
+    "workbook/CATALYSTS.tsv": {
+      "rows": 46,
+      "columns": 5,
+      "shape": "PASS"
+    },
+    "domain/europe-rearm/INCURSIONS.tsv": {
+      "rows": 20,
+      "columns": 15,
+      "shape": "PASS"
+    },
+    "registered_VX_band_and_Guard_text_unchanged": true,
+    "registered_prediction_bytes_unchanged": {
+      "sha256": "c42f0cd245d98eeae103c74f5f460dfbc20fb73700331e4a30be9d1edffaf39d",
+      "bytes": 96616
+    },
+    "KB_append_only": {
+      "original_prefix_sha256": "bc10388b6dcc637059ba82341b70d9b8dcb2f4950b7ff93c596c87727bdc945b",
+      "new_rows": 5,
+      "new_rows_columns": 13,
+      "historical_rows_not_rewritten": true
+    },
+    "charter_bytes": 17990,
+    "bad_proposal_pointers_repaired": true,
+    "processed_signal_bytes_unchanged": true,
+    "scope_limits": "Snapshot checks only. Does not certify source truth, semantic completeness, current quotes, legal absence, owner consumption or scoring."
+  }
+}

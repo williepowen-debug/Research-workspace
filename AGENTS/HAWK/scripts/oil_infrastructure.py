@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 """
+FROZEN 2026-07-09; direct execution refused from 2026-10-25.
+Historical code only; current boot follows CLAUDE.md.
+
 HAWK Oil Infrastructure Monitor — Facility Status Tracker
 
 Tracks status of key Gulf energy infrastructure (Fujairah, Ras Laffan,
@@ -17,7 +20,6 @@ from pathlib import Path
 
 HAWK_DIR = Path(__file__).resolve().parent.parent
 WORKBOOK = HAWK_DIR / "workbook"
-WORKBOOK.mkdir(exist_ok=True)
 
 # Facility registry
 FACILITIES = [
@@ -203,4 +205,5 @@ def main():
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    print("FROZEN: HAWK refuses this legacy entrypoint. Follow CLAUDE.md; no legacy output or save is allowed.", file=sys.stderr)
+    sys.exit(2)

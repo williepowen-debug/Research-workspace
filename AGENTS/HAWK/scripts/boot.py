@@ -208,4 +208,5 @@ def main():
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    print("FROZEN: HAWK refuses this legacy entrypoint. Follow CLAUDE.md; no legacy output or save is allowed.", file=sys.stderr)
+    sys.exit(2)

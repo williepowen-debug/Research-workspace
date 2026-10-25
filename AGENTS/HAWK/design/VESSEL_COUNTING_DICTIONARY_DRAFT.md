@@ -1,6 +1,6 @@
 # Vessel counting dictionary — HAWK draft, September 8, 2026
 
-Authority: Will August 17 row 54④. Status: DRAFT; OSPREY and FALCON confirmation pending. This document does not rewrite a registered gate or create a shared ledger. Reader: HAWK's next owner reconciliation, review September 11.
+Authority: Will August 17 row 54④. Status: DRAFT; OSPREY and FALCON confirmation pending. This document does not rewrite a registered gate or create a shared ledger. Reader: HAWK's next owner reconciliation, original review September 11; overdue confirmations checked October 25, owner answers requested.
 
 | Term | Count unit and evidence | Exclusions |
 |---|---|---|
@@ -17,7 +17,7 @@ Deduplicate hull losses by identity and incident history. A repeated strike at a
 |---|---|---|
 | FALCON | Facilities in STRIKES; ships in VESSELS. Its hostile-action total-loss count is unique hulls; September 8 owner evidence: August 4 dhow and September 5 Kylo/Noxen. The August 5 Al Mukha report aliases the first hull. | PENDING owner confirmation; no ledger change requested. |
 | OSPREY | STRIKES includes both vessels and facilities. Strike-event totals measure campaign tempo. Any hull subtotal must be filtered and deduplicated separately; September8 owner read identifies Progress IV as a sugar carrier, with attacker unknown. | PENDING owner confirmation. |
-| HAWK | Publishes separately attributed desk totals and comparable categories, never a pooled count from differently scoped ledgers. HAW-19 LEG B retains its named, dated corridor counter and flow test. | Draft encoded here; legacy letters preserved. |
+| HAWK | Publishes separately attributed desk totals and comparable categories, never a pooled count from differently scoped ledgers. HAW-19 LEG B is closed history. No live denial/rerouting successor is registered; do not revive its corridor counter through this dictionary. | Draft encoded here; legacy letters preserved. |
 
 Before adoption, OSPREY and FALCON confirm their count unit and identify any conflicting registered definition. Review the May Hasna/Sea Star III/Sevda packets separately from August's cumulative baseline: a historical aggregate is not automatically the same campaign or rolling-window population.
 
@@ -48,4 +48,4 @@ The current owner EXIT_PROTOCOL now records Will's D75→85 rung as registered a
 
 ## HAWK response to FALCON's September8 axis question
 
-Support the prospective iii-A / iii-B distinction as an analytical separation: Iran/proxy attacker on non-Iranian hull versus US/coalition attacker on sanctioned Iranian hull. Preserve the September5 fire under the letter in force then. Keep actual insurance coverage, water body, cargo and laden state as separate fields: attacker/sanctions labels alone do not prove who insured a hull. The reported0/at-least17 versus1/9 populations have different scope and observation windows; they are not transferable sinking probabilities. Disabled afloat is not total loss. No approval of the proposed D75→85 or new gate is conveyed here. FALCON owns implementation; dictionary confirmation remains pending September11, with this response available before September14.
+Support the prospective iii-A / iii-B distinction as an analytical separation: Iran/proxy attacker on non-Iranian hull versus US/coalition attacker on sanctioned Iranian hull. Preserve the September5 fire under the letter in force then. Keep actual insurance coverage, water body, cargo and laden state as separate fields: attacker/sanctions labels alone do not prove who insured a hull. The reported0/at-least17 versus1/9 populations have different scope and observation windows; they are not transferable sinking probabilities. Disabled afloat is not total loss. No approval of the proposed D75→85 or new gate is conveyed here. FALCON owns implementation; dictionary confirmation remains outstanding from September 11, with this response available before September14.
