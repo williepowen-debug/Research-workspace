@@ -33,7 +33,7 @@
 
 ## 3. Bank / NDFI channel
 
-The bank channel this repricing would open is **drawn balances**: C&I revolvers and NDFI lender/fund-finance lines get drawn as the bond window narrows (REGINALD). That is a **liquidity-use** channel. It is not a credit-loss channel. Wider spreads are **not** evidence of regional-bank credit losses:
+A candidate bank channel is **actual draws on C&I revolvers or NDFI lender/fund-finance lines** when other financing becomes less attractive (REGINALD). That would be a liquidity-use channel, distinct from credit loss. Such draws and their financing motive are not identified by the aggregate balance observations below. Wider spreads are **not** evidence of regional-bank credit losses:
 - REGINALD: KRE vs HY daily correlation +0.07 over 57 days. The 10-year, not HY, moves regionals (R² 0.13, weak). BANK-ABSENT at the 10/22 cell (~0.7).
 - H.8 small domestic banks SA [week to 10/14, released 10/23]: borrowings 307.3 → 316.4 ($B), with deposits +7.0 and cash +12.1. That is one week, and since deposits rose it is not a deposit-replacement signature.
 - Losses, if they come, come later and through BDC/NDFI borrowers (BROCK's lane), not through bond spreads.
@@ -49,5 +49,8 @@ The bank channel this repricing would open is **drawn balances**: C&I revolvers 
 1. **BB widening with CCC on consecutive days** (FRED A1HYBB/A3HYC, 10/23 obs publishes Mon 10/26). If BB keeps moving with CCC, the read shifts from distress-tier repricing toward transmission widening.
 2. **A funding leg moving with credit:** SOFR99−IORB ≥ +30bp (079 arm), SRF draws outside quarter-end, or a dealer move from net stock to refused intermediation. Any of these would move me from repricing to restriction.
 3. **October HY issuance total at month-end (~11/2)** and any named HY **bond** pulled. A shut window on quantity, not price, would confirm the freeze leg.
-4. **H.8 C&I / NDFI draw lines** rising over consecutive weeks. That would show the bank channel opening as liquidity use.
+4. **H.8 C&I / NDFI loan balances** rising over consecutive weeks would be a lead for investigation, not proof of draws or market-to-bank substitution. Identify the borrower/facility and reconcile originations, repayments, purchases, reclassification and other balance changes against unused commitments and the reason for borrowing before calling it liquidity use caused by a narrowed market window.
 5. **Optimum Chapter 11 or creditor deal** (L825): read the CCC/HY cells that day and the two following, to bound how much of the tier's move is one name.
+
+
+**Correction 2026-10-25T14:40:14-04:00 — WQ-523 / DOCKET L839 (Will-approved; PROME packet October25):** the former item 4 called H.8 balances “draw lines” and said persistence “would show” liquidity use. That inference is withdrawn. H.8 stocks can flag a candidate channel but cannot identify utilisation or substitution. Section 3 now states the bank-draw route conditionally. Original October23 observations, tier/spread grades, forecasts and REG-T-04 terms are unchanged; pre-correction text preserved in `research/2026-10-25_WQ523-carmart/sources/before-2026-10-23_L818-repricing-vs-restriction.md`.

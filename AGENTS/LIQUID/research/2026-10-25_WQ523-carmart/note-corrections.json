@@ -1,0 +1,14 @@
+{
+  "2026-10-23_L818-repricing-vs-restriction.md": {
+    "before_sha256": "23b30a88c44caf7bbe7943b05c0dc64b8281d1f03cc92cad2b8027a633b53764",
+    "before_path": "research/2026-10-25_WQ523-carmart/sources/before-2026-10-23_L818-repricing-vs-restriction.md",
+    "correction_at": "2026-10-25T14:40:14-04:00",
+    "after_sha256": "f80919d4a95a019baa7fe234e5822031455fa70f3ca0fe7833e947b59368c807"
+  },
+  "2026-10-23_L818-followup-H8-bank-credit-shift.md": {
+    "before_sha256": "6cc5de1be95fb2d31c7a33bf5e5eee8049a1a4b161dfdb4df688bcdfcc989a56",
+    "before_path": "research/2026-10-25_WQ523-carmart/sources/before-2026-10-23_L818-followup-H8-bank-credit-shift.md",
+    "correction_at": "2026-10-25T14:40:14-04:00",
+    "after_sha256": "a61da816b3dc9b441f300a2ceb759fcb908562f3875cf509d3738a0dbb0af978"
+  }
+}

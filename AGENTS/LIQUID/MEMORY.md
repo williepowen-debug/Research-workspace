@@ -2,7 +2,14 @@
 
 ## Session Notes
 
-### CURRENT SESSION — 2026-10-25T13:54:48-04:00 (Will: credit transmission pathways)
+### CURRENT SESSION — 2026-10-25T14:49:06-04:00 (PROME/Will WQ523 single transmission case)
+
+- Completed Car-Mart case using existing BROCK/OTTO work and primary SEC filings: `research/2026-10-25_WQ523-carmart/REPORT.md`. Borrower constraints/lender terms observed, bank-risk bridge/current eligible cash unresolved. No other case or source program.
+- $305.60882577M principal at10/14 is not due11/01 by schedule (maturity2030). $5M signed incremental commitments/conditions not independently funded cash; ~$92M released receivables not cash. Six new-money lender signatures identified, allocations omitted; trustee/agent not bank risk. Publication lag and containment explicit.
+- Corrected both October23 L818 notes: H.8 stocks not draws, unused/funded stock changes require reconciliation, SLOOS context not matched proof. Preimages/hashes retained; original tables/grades unchanged.
+- Standard desk closeout requested, final STATUS before brief pin. All five gates, owed/coverage tail, withheld code/letter and Experiments A/B unchanged. Foreign dirt preserved; no pull/rebase/stash. Fresh-origin push receipt required after committed PROME delivery.
+
+### PRIOR SESSION — 2026-10-25T13:54:48-04:00 (Will: credit transmission pathways)
 
 - Bounded coverage review saved at `research/2026-10-25_transmission-pathways/REPORT.md`: 14 overlapping mechanism families, concrete observables/absorbers and missing causal bridges, existing ownership preserved. Official FSB/Fed/BIS mechanism sources checked; peer vintages retained, no live market pull.
 - Key judgment: coverage is incomplete between price deterioration and cash/capital responses. Calm SOFR only bears on measured overnight funding; it cannot clear other routes. LIQ-07 letter/outcome and all five gate rows unchanged; no new standing tracking, cohort, threshold or trade.

@@ -1,0 +1,10 @@
+{
+  "before_bytes": 24172,
+  "after_bytes": 22602,
+  "archive": "archive/status_snapshots/STATUS_before-2026-10-25-WQ523.md",
+  "crc32_before": "16e0c8ac",
+  "crc32_archive": "16e0c8ac",
+  "obligations": "Sections2\u20136 byte-identical. Five gate rows, all owed actions and coverage limits preserved. No duty moved off boot path. Current context condensed with source pointers.",
+  "read_path": "Archive off whole-read boot path; STATUS shrinks; no additional mandatory read.",
+  "retrigger": "Any append or next closeout"
+}

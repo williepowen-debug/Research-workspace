@@ -1,0 +1,38 @@
+{
+  "recorded_at": "2026-10-25T18:49:06+00:00",
+  "runtime": "OpenAI/Codex, exact model UNKNOWN",
+  "session_id": "01a173ad-d1d6-7941-96ce-fc93c1f73e20",
+  "instructions": "Root CLAUDE/AGENTS/USER and local CLAUDE/boot/closeout explicitly recovered in this continuing owner session; no cwd inference.",
+  "raw_exhibit": "Sandbox DNS failure, approved network retry HTTP403. Browser primary reads succeeded; no full raw exhibit hash claimed.",
+  "raw_feed": "Captured October25, latest returned filing October21, issuer-feed perimeter not court absence.",
+  "files": {
+    "sources/before-2026-10-23_L818-followup-H8-bank-credit-shift.md": {
+      "bytes": 6964,
+      "sha256": "6cc5de1be95fb2d31c7a33bf5e5eee8049a1a4b161dfdb4df688bcdfcc989a56"
+    },
+    "sources/before-2026-10-23_L818-repricing-vs-restriction.md": {
+      "bytes": 7446,
+      "sha256": "23b30a88c44caf7bbe7943b05c0dc64b8281d1f03cc92cad2b8027a633b53764"
+    },
+    "sources/browser-definitions.json": {
+      "bytes": 14169,
+      "sha256": "27f740121aa6a0211e61a7ba8e248cc0b2d88aa02cfe84042d94d9f561eb7fc6"
+    },
+    "sources/browser-key-clauses.json": {
+      "bytes": 35006,
+      "sha256": "13b43d53a87ce1b53c48fe2a399da73745d5773250aea85d6363bbf236bdd73c"
+    },
+    "sources/browser-query-1.json": {
+      "bytes": 1720,
+      "sha256": "b30b5fa21ae07fcd60810da3958b1b7873834cf7b565b0b5936e7791f8dc8e08"
+    },
+    "sources/browser-query-2.json": {
+      "bytes": 14193,
+      "sha256": "e7a6af6aa740c06c5d2213d23f8b575be7b8163b4ca103ea8c01ce8e312b772d"
+    },
+    "sources/submissions-20261025.json": {
+      "bytes": 162551,
+      "sha256": "46649a5a15af22118c6ad4d14a292284f69fbb056a6944cc69b39d6b89d9539e"
+    }
+  }
+}
