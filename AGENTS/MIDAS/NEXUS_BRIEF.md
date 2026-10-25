@@ -1,5 +1,8 @@
 # MIDAS — NEXUS brief
 
+**October 25 bank-buying follow-up:** `gold/research/2026-10-25_why-weak-despite-bank-buying.md`; official buying corroborated on primary WGC pages, but August/September reporting does not establish this week’s orders. Buying support coexists with CFTC long reduction/GLD daily withdrawals; exact causal shares and forced-selling claim unproved. No new score, forecast, trade or cadence.
+
+
 **October 25 cross-asset gold extension (Will-directed):** `shared/research/2026-10-25_gold-versus-equities-bonds-oil.md`. GLD/SPY recent120 daily correlation +0.527 (throughOct23) versus pre2026 +0.052; correlation of returns, not stable hedge effectiveness. Oct9→22 GLD −4.05%, SPY −1.88%, IEF +2.01%, TLT +4.82%: gold missed defensive bond strength. Exact Jan29→Oct20 returns GLD −23.85%, SPY +11.67%, IEF −3.14%, TLT −5.36%, WTI spot +66.57%; same signs as 2020–2022 gold retreat, not a causal/recovery forecast. EIA spot latestOct20, no Friday fill or futures-settlement replacement; oil price change not investment return, ETF dividends/interest included. Full-history completed monthly gold/equity/oil correlations +0.085/+0.068 (262 months). No new score, prediction, capital or cadence; bearish-option hedge remains unestablished.
 
 

@@ -1,5 +1,8 @@
 # MIDAS — STATUS
 
+**October 25 bank-buying explanation:** `gold/research/2026-10-25_why-weak-despite-bank-buying.md`. Re-opened WGC confirms reported global +39t August and China +23t September; these are lagged monthly buying observations. Investor exposure reductions and October22 GLD withdrawal support selling-pressure interpretation, not proven forced selling or a quantified causal split. Global ETF additions/custody versus new purchases caveats retained; no score/forecast change.
+
+
 **Gold cross-asset extension October 25, 2026 (Will-directed):** [report](shared/research/2026-10-25_gold-versus-equities-bonds-oil.md). Recent 120-observation GLD/SPY daily correlation +0.53 versus +0.05 before 2026; does not establish permanent regime or option-book hedge. Oct9→22 gold −4.05%, stocks −1.88%, IEF +2.01%, TLT +4.82%: gold missed the Treasury defensive bid. January29→October20 common gold/stocks/IEF/TLT/WTI returns −23.85/+11.67/−3.14/−5.36/+66.57%; sign pattern resembles 2020–2022, not a forecast. Oil is PRIMARY EIA physical spot, latest October20, price change only; ETFs include distribution adjustments. Friday fund-only gold drawdown −26.07% remains. No score, band, frozen beta/prediction, trade or cadence change; actual 8/20.
 
 

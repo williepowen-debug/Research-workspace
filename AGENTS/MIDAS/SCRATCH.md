@@ -1,5 +1,8 @@
 # MIDAS — SCRATCH
 
+**Later October 25 — Will asked why gold is weak despite bank buying:** saved `gold/research/2026-10-25_why-weak-despite-bank-buying.md`; WGC August39t/ChinaSept23t reverified on public primary pages. Explained different participant clocks, rate/dollar backdrop versus recent yield relief, COT/GLD evidence and unproven force/causal shares. KB201; no new research cadence, score or forecast. Underlying Goldman note still unheld. Existing next-event work unchanged.
+
+
 **Later October 25 — Will extended gold comparison to equities, bonds and oil:** completed `shared/research/2026-10-25_gold-versus-equities-bonds-oil.md`; raw/calculation/plots in `shared/sources/2026-10-25_gold-cross-assets/`. Gold issuer history reused; SPY/IEF/TLT adjusted market-return histories fetched and checked against primary issuer figures; EIA primary WTI endsOct20, fundsOct23, never forward-filled. KB196–200, state/indexes updated. Current120 gold/equity correlation+0.53; weak gold response to defensive Treasury rally; 2020–2022 shared signs are description only. No forecast/score/trade or new cadence. Existing settlement/Nornickel/calendar work unchanged; no pull over foreign work.
 
 
