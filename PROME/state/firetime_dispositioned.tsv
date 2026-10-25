@@ -1,12 +1,12 @@
 artifact	kind	core	first_dispositioned	pointer
 AGENTS/WAL/Q2_10Q_READ_2026-08-07.md	DATE DRIFT	artifact says 2027-01-05 ('1/5')	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
+PROME/WILL_QUEUE.md	DATE DRIFT	artifact says 2027-01-15 ('Jan-15')	2026-10-23	PROME/reports/2026-10-23_firetime-late-boot-flags-disposition.md
 AGENTS/CORAL/STATUS.md	DATE DRIFT	artifact says 2027-01-04 ('2027-01-04')	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
 AGENTS/AEOLUS/STATUS.md	DATE DRIFT	artifact says 2027-01-06 ('1/6')	2026-10-24	PROME/reports/2026-10-24_firetime-boot-flags-disposition.md
 AGENTS/AEOLUS/STATUS.md	DATE DRIFT	artifact says 2027-01-05 ('1/5')	2026-10-24	PROME/reports/2026-10-24_firetime-boot-flags-disposition.md
 AGENTS/AEOLUS/STATUS.md	DATE DRIFT	artifact says 2027-01-01 ('2027-01-01')	2026-10-24	PROME/reports/2026-10-24_firetime-boot-flags-disposition.md
 AGENTS/AEOLUS/STATUS.md	DATE DRIFT	artifact says 2026-12-30 ('Dec 30')	2026-10-24	PROME/reports/2026-10-24_firetime-boot-flags-disposition.md
 AGENTS/AEOLUS/STATUS.md	DATE DRIFT	artifact says 2027-01-15 ('1/15')	2026-10-24	PROME/reports/2026-10-24_firetime-boot-flags-disposition.md
-PROME/WILL_QUEUE.md	DATE DRIFT	artifact says 2027-01-15 ('Jan-15')	2026-10-23	PROME/reports/2026-10-23_firetime-late-boot-flags-disposition.md
 PROME/proposals/2026-09-05_spawn-driver-RULED.md	DEAD POINTER	`BLUEPRINTS/meta-agent.md`	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
 PROME/proposals/2026-09-05_spawn-driver-RULED.md	DEAD POINTER	`profiles/FERT.md`	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
 PROME/inbox/processed/2026-09-25_from-DAEDALUS_L290-render-4-inbox-drain-wq295-doorbell-close.md	DEAD POINTER	`Research-Intake/scripts/newsweep_config.py`	2026-10-22	PROME/reports/2026-10-22_firetime-boot-flags-disposition.md
@@ -29,9 +29,6 @@ PROME/ROSTER.md	DEAD POINTER	`workbook/CATALYSTS.tsv`	2026-10-21	PROME/reports/2
 AGENTS/NEXUS/CLAUDE.md	DEAD POINTER	`AGENTS/PROME`	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
 AGENTS/NEXUS/brief_health.md	DATE DRIFT	artifact says 2027-01-17 ('1/17')	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
 AGENTS/LIQUID/inbox/processed/2026-10-01_from-PROME_usd-swapline-result-read-2-WITHHELD.md	DATE DRIFT	artifact says 2027-01-14 ('2027-01-14')	2026-10-22	PROME/reports/2026-10-22_firetime-boot-flags-disposition.md
-PROME/CLAUDE.md	DEAD POINTER	`docs/handoffs`	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
-PROME/CLAUDE.md	DEAD POINTER	`memory/YYYY-MM-DD.md`	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
-PROME/proposals/2026-09-25_wq299-prome-self-correction-reform-RULED.md	DEAD POINTER	`scratchpad/wq299result.md`	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
 778ef6a38:PROME/inbox/2026-10-12_from-MIDAS_news-sweep.md	UNREADABLE	[Errno 2] No such file or directory: '/home/willi/Research-workspace/778ef6a38:PROME/inbox/2026-10-12_from-MIDAS_news-sweep.md'	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
 55ee66731:AGENTS/MIDAS/analysis/2026-10-12_MIDAS-news-sweep.md	UNREADABLE	[Errno 2] No such file or directory: '/home/willi/Research-workspace/55ee66731:AGENTS/MIDAS/analysis/2026-10-12_MIDAS-news-sweep.md'	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
 AGENTS/RED/SCRATCH.md	DATE DRIFT	artifact says 2026-12-30 ('12/30')	2026-10-22	PROME/reports/2026-10-22_firetime-boot-flags-disposition.md
@@ -52,7 +49,37 @@ AGENTS/DEWEY/output/2026-10-22_hyperscaler-ai-funding-gap-ig-capacity.md	DATE DR
 AGENTS/DEWEY/output/2026-10-22_reserve-coverage-decline-base-rate.md	DATE DRIFT	artifact says 2027-01-02 ('1/2')	2026-10-23	PROME/reports/2026-10-22_firetime-boot-flags-disposition.md
 AGENTS/DEWEY/output/2026-10-22_reserve-coverage-decline-base-rate.md	DATE DRIFT	artifact says 2027-01-10 ('1/10')	2026-10-23	PROME/reports/2026-10-22_firetime-boot-flags-disposition.md
 AGENTS/DEWEY/output/2026-10-22_reserve-coverage-decline-base-rate.md	DATE DRIFT	artifact says 2027-01-08 ('1/8')	2026-10-23	PROME/reports/2026-10-22_firetime-boot-flags-disposition.md
+AGENTS/DEWEY/output/2026-10-22_reserve-coverage-decline-base-rate.md	DATE DRIFT	artifact says 2027-01-23 ('1/23')	2026-10-25	PROME/reports/2026-10-25_firetime-boot-flags-disposition.md
 AGENTS/DEWEY/output/2026-10-22_reserve-coverage-decline-base-rate.md	DATE DRIFT	artifact says 2027-01-03 ('Jan 3')	2026-10-23	PROME/reports/2026-10-22_firetime-boot-flags-disposition.md
 AGENTS/REGINALD/STATUS.md	DATE DRIFT	artifact says 2026-12-30 ('12/30')	2026-10-23	PROME/reports/2026-10-23_firetime-evening-boot-flags-disposition.md
 AGENTS/LIQUID/STATUS.md	DATE DRIFT	artifact says 2027-01-04 ('1/4')	2026-10-23	PROME/reports/2026-10-23_firetime-evening-boot-flags-disposition.md
 PROME/proposals/2026-10-23_wq513-516-RULED.md	DATE DRIFT	artifact says 2027-01-15 ('Jan-15')	2026-10-23	PROME/reports/2026-10-23_firetime-late-boot-flags-disposition.md
+PROME/tools/tests/ACCEPTANCE_closeout_gate_perimeter_pin_2026-10-24.md	DEAD POINTER	`AGENTS/BROCK/new.md`	2026-10-25	PROME/reports/2026-10-25_firetime-boot-flags-disposition.md
+PROME/tools/tests/ACCEPTANCE_closeout_gate_perimeter_pin_2026-10-24.md	DEAD POINTER	`AGENTS/ZED`	2026-10-25	PROME/reports/2026-10-25_firetime-boot-flags-disposition.md
+PROME/tools/tests/ACCEPTANCE_closeout_gate_perimeter_pin_2026-10-24.md	DEAD POINTER	`FORGE/x.md`	2026-10-25	PROME/reports/2026-10-25_firetime-boot-flags-disposition.md
+PROME/tools/tests/ACCEPTANCE_closeout_gate_perimeter_pin_2026-10-24.md	DEAD POINTER	`PROME/old`	2026-10-25	PROME/reports/2026-10-25_firetime-boot-flags-disposition.md
+PROME/tools/tests/ACCEPTANCE_closeout_gate_perimeter_pin_2026-10-24.md	DEAD POINTER	`PROME/state/HANDOFF_X.md`	2026-10-25	PROME/reports/2026-10-25_firetime-boot-flags-disposition.md
+PROME/tools/tests/ACCEPTANCE_closeout_gate_perimeter_pin_2026-10-24.md	DEAD POINTER	`memory/auto/x.md`	2026-10-25	PROME/reports/2026-10-25_firetime-boot-flags-disposition.md
+PROME/reports/2026-10-24_L796-pin-counterexample-read3.md	DEAD POINTER	`AGENTS/.gitignore`	2026-10-25	PROME/reports/2026-10-25_firetime-boot-flags-disposition.md
+PROME/reports/2026-10-24_L796-pin-counterexample-read3.md	DEAD POINTER	`AGENTS/BRENT/inbox/2026-10-24_from-PROME_task.md`	2026-10-25	PROME/reports/2026-10-25_firetime-boot-flags-disposition.md
+PROME/reports/2026-10-24_L796-pin-counterexample-read3.md	DEAD POINTER	`AGENTS/BRENT/x.md`	2026-10-25	PROME/reports/2026-10-25_firetime-boot-flags-disposition.md
+PROME/reports/2026-10-24_L796-pin-counterexample-read3.md	DEAD POINTER	`AGENTS/BROCK/new.md`	2026-10-25	PROME/reports/2026-10-25_firetime-boot-flags-disposition.md
+PROME/reports/2026-10-24_L796-pin-counterexample-read3.md	DEAD POINTER	`FORGE/.gitignore`	2026-10-25	PROME/reports/2026-10-25_firetime-boot-flags-disposition.md
+PROME/reports/2026-10-24_L796-pin-counterexample-read3.md	DEAD POINTER	`PROME/.gitignore`	2026-10-25	PROME/reports/2026-10-25_firetime-boot-flags-disposition.md
+PROME/reports/2026-10-24_L796-pin-counterexample-read3.md	DEAD POINTER	`PROME/state/HANDOFF_X.md`	2026-10-25	PROME/reports/2026-10-25_firetime-boot-flags-disposition.md
+PROME/reports/2026-10-24_L796-pin-counterexample-read3.md	DEAD POINTER	`PROME/tracked.md`	2026-10-25	PROME/reports/2026-10-25_firetime-boot-flags-disposition.md
+PROME/reports/2026-10-24_L796-pin-counterexample-read3.md	DEAD POINTER	`agents/newdef.md`	2026-10-25	PROME/reports/2026-10-25_firetime-boot-flags-disposition.md
+PROME/reports/2026-10-24_L796-pin-counterexample-read3.md	DEAD POINTER	`l796-pin-read3/ce3.py`	2026-10-25	PROME/reports/2026-10-25_firetime-boot-flags-disposition.md
+PROME/reports/2026-10-24_L796-pin-counterexample-read3.md	DEAD POINTER	`l796-pin-read3/run3.txt`	2026-10-25	PROME/reports/2026-10-25_firetime-boot-flags-disposition.md
+PROME/reports/2026-10-24_L796-pin-counterexample-read3.md	DEAD POINTER	`memory/auto/f.md`	2026-10-25	PROME/reports/2026-10-25_firetime-boot-flags-disposition.md
+PROME/reports/2026-10-24_L796-pin-counterexample-read3.md	DEAD POINTER	`scripts/.gitignore`	2026-10-25	PROME/reports/2026-10-25_firetime-boot-flags-disposition.md
+AGENTS/LIQUID/CLAUDE.md	DEAD POINTER	`workbook/CUSTODIAL_VELOCITY_PROTOCOL.md`	2026-10-25	PROME/reports/2026-10-25_firetime-boot-flags-disposition.md
+PROME/plans/2026-10-22_terry-falcon-ledger-fix-PLAN.md	DEAD POINTER	`daytrading/LEDGER.tsv`	2026-10-25	PROME/reports/2026-10-25_firetime-boot-flags-disposition.md
+PROME/plans/2026-10-22_terry-falcon-ledger-fix-PLAN.md	DEAD POINTER	`scripts/warrisk_row_staleness.py`	2026-10-25	PROME/reports/2026-10-25_firetime-boot-flags-disposition.md
+PROME/plans/2026-10-22_terry-falcon-ledger-fix-PLAN.md	DEAD POINTER	`workbook/FLOW.tsv`	2026-10-25	PROME/reports/2026-10-25_firetime-boot-flags-disposition.md
+PROME/plans/2026-10-22_terry-falcon-ledger-fix-PLAN.md	DEAD POINTER	`workbook/FLOW_HAWK_MIGRATED_FROZEN.tsv`	2026-10-25	PROME/reports/2026-10-25_firetime-boot-flags-disposition.md
+PROME/plans/2026-10-22_terry-falcon-ledger-fix-PLAN.md	DEAD POINTER	`workbook/VX.tsv`	2026-10-25	PROME/reports/2026-10-25_firetime-boot-flags-disposition.md
+PROME/plans/2026-10-22_terry-falcon-ledger-fix-PLAN.md	DEAD POINTER	`workbook/WARRISK.tsv`	2026-10-25	PROME/reports/2026-10-25_firetime-boot-flags-disposition.md
+AGENTS/FLG/STATUS.md	DEAD POINTER	`PROME/intake`	2026-10-25	PROME/reports/2026-10-25_firetime-boot-flags-disposition.md
+AGENTS/FLG/STATUS.md	DATE DRIFT	artifact says 2027-01-09 ('01/9')	2026-10-25	PROME/reports/2026-10-25_firetime-boot-flags-disposition.md
+AGENTS/NEXUS/templates/NEXUS_BRIEF_TEMPLATE.md	DEAD POINTER	`thesis/PREDICTIONS.tsv`	2026-10-25	PROME/reports/2026-10-25_firetime-boot-flags-disposition.md
