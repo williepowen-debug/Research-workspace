@@ -162,3 +162,10 @@ found in this touch's current STATUS/SIGNALS/October24 VIEW/HYG card sources. No
 new study or change to WQ-515. Packet left visible while sender source/delivery
 is in flight; do not move/commit another writer's unfinished delivery. Original
 zero-inbox cutoff remains dated; latest I reports 1 in-flight, not unread.
+
+DEWEY late-packet completion: sender committed `9c97f5012`. Verified the corrected
+source at that exact commit (Key Finding 3 / correction paragraph): CARL retained
+uncertainty/counter-evidence; unsupported two-of-five recipient-loss claim withdrawn.
+TERRY notes this classification for any future citation, without a new study or
+rule. STATUS/MEMORY updated before filing under the two-tier contract. Three total
+inbox packets incorporated today; the earlier in-flight disposition is superseded.
