@@ -27,6 +27,8 @@ Six initial top-level incoming packets read; no queued unstarted WALTER commissi
 
 **Notification:** task list identified live PROME and WALTER owner threads; direct PROME coordination acknowledged by transport. Final doorbells point to committed packets; transport acceptance is not recipient consumption. No claim of CARL or other recipient integration.
 
+**Final closeout, October 25:** delivery commit `9c97f5012` contains both new reports, source evidence, corrections and eight recipient packets. The first safe-push included it but returned rc1 because another desk advanced local HEAD during confirmation. A second safe-push freshly fetched and returned rc0, "Nothing to push (0 commits ahead of origin/master)"; the DEWEY delivery commit is an ancestor of the fetched origin/master. No rebase or stash was needed. Final desk check was clean; the remaining foreign orphan-check rows belong to other writers, including recipients filing DEWEY's already-committed packets. Corrections recheck covers the now-105-row register and still has zero unreceipted NAMED rows. WALTER's incoming selection pointer is now committed by its author at f35a4b297 and is filed after the method delivery. Final full-closeout receipt is sent to PROME's verified existing task, with this record as its durable source.
+
 ## COMPLETION — DEWEY — 2026-10-25
 STATUS: ✅ DONE for this catch-up's available work; future dependencies retained.
 CHANGED: 2 new reports, 2 existing reports, INDEX, saved SEC evidence, dated closeout and create-only delivery packets.
