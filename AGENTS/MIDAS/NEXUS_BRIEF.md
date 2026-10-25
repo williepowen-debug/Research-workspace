@@ -1,5 +1,8 @@
 # MIDAS — NEXUS brief
 
+**October 25 gold/conflict study (Will-directed):** `gold/research/2026-10-25_gold-during-war.md`; charts and exact endpoints in `gold/sources/2026-10-25_war-history/`. Gold can receive an initial fear bid without a sustained conflict-period gain. Current Feb28 Iran event first-session+1.29%,21 sessions−14.30%,126−15.47%; Ukraine2022 +2.72/−8.44% versus Hamas2023 +8.04/+28.27%. Selected retrospective windows, not war-only causal returns or forecasts. WGC64% positive in14 GPR-spike weeks is not next-war odds; BIS author paper conditional result ends March2026. Monthly pre-2004 and daily GLD bases separate. No new channel, band, score or calendar task; option-book hedge still unmeasured.
+
+
 **October 25 bank-buying follow-up:** `gold/research/2026-10-25_why-weak-despite-bank-buying.md`; official buying corroborated on primary WGC pages, but August/September reporting does not establish this week’s orders. Buying support coexists with CFTC long reduction/GLD daily withdrawals; exact causal shares and forced-selling claim unproved. No new score, forecast, trade or cadence.
 
 

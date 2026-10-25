@@ -1,0 +1,39 @@
+{
+  "created_at": "2026-10-25T19:31:59.896048+00:00",
+  "gold_daily_input": "gold/sources/2026-10-25_historical-comparison/gold_close_series.csv",
+  "gold_daily_sha256": "102687b74f15b1b57eeceea96720c7944d6d7a1baf9c4ab9147975312bf84245",
+  "daily_endpoint": "2026-10-23",
+  "modern_event_count": 7,
+  "older_monthly_case_count": 5,
+  "worldbank_update": "October02,2026 as workbook header; data through September2026",
+  "worldbank_gold_definition": "Gold, spot average of daily rates, from June 2025; previously (UK), 99.5% fine, London afternoon fixing, average of daily rates",
+  "publisher_mismatch_sheet_gold_entry_count": 0,
+  "older_monthly_gold_definition_applies": "Pre-June2025 London afternoon fixing, average of daily rates; nominal USD/troy ounce",
+  "urls": {
+    "worldbank_landing": "https://www.worldbank.org/en/research/commodity-markets",
+    "worldbank_monthly": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Historical-Data-Monthly.xlsx",
+    "wgc": "https://www.gold.org/goldhub/gold-focus/2026/03/weekly-markets-monitor-crisis-hedge",
+    "wgc_pdf": "https://www.gold.org/download/file/20583/WMM_2_March_Crisis_Hedge.pdf",
+    "bis": "https://www.bis.org/publications/working-paper-1380-chasing-el-dorado-gold-under-shifting-geopolitical-and-financial-condition",
+    "bis_pdf": "https://www.bis.org/publications/working-paper-1380-chasing-el-dorado-gold-under-shifting-geopolitical-and-financial-condition.pdf",
+    "lbma": "https://www.lbma.org.uk/alchemist/issue-30/not-just-another-war-story",
+    "gold_convertibility": "https://www.federalreservehistory.org/essays/gold-convertibility-ends",
+    "war1973": "https://history.state.gov/milestones/1969-1976/arab-israeli-war-1973",
+    "war1979": "https://history.state.gov/milestones/1977-1980/soviet-invasion-afghanistan",
+    "gulf1990_1991": "https://history.state.gov/milestones/1989-1992/gulf-war"
+  },
+  "captures": {
+    "worldbank_monthly.xlsx": "ea1c350827878ea3bbe30e3cda16a13fd3bd5b409b8458940dc94a36b5a33154",
+    "worldbank_commodity_landing.html": "2c0a4dbea6a8949047269ac9ab1d7f5bdb6cd65d8cf50fa77beb2fe1c70e192a",
+    "BIS_wp1380.pdf": "9ddef0777a402e68a36b203709de9581854aead0ca6ee678181ab3de414ade19",
+    "WGC_20260302.pdf": "bee4ae95a78cc185e210739a7ba65dd5c294d1f6f2f31ca7e96783d4d373577c",
+    "LBMA_gulf_wars.html": "f46485fcf407f75ab6122c324513194a01151b5a4d8c27d5ef55ae132cd078f5"
+  },
+  "limits": [
+    "selected examples, not war census",
+    "later returns reflect all shocks; no war-only causal attribution",
+    "monthly average ratios are not daily close-to-close returns",
+    "2026 252-session result right-censored",
+    "1990/1991 stages and recent MiddleEast events overlap; no independent event odds"
+  ]
+}

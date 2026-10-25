@@ -1,5 +1,8 @@
 # MIDAS — current open items
 
+**Late October 25 copper intake:** WALTER SIG-W-20261025-005 read and DEFERRED (KB206, board_log) to the next existing copper review, using WALTER’s October26 follow-up if available. Jubilee fiscal Q4 is April–June2026, not new October production evidence; subsequent issuer disclosure and forecast-model bases remain unchecked by MIDAS. No national copper/phosphate loss, current I1 change or new cadence inferred.
+
+
 **Sunday October 25, 2026 reconciliation:** New PROME PRD3 wording correction applied to current TRADE/STATUS/NEXUS: gold failed to hedge equity declines in the sample; bearish-option book hedge value is unestablished. WQ-451 is DELIVERED and PROME-registered as DOCKET L819–L822; older “not delivered”, “unapproved” and CFTC-blocked paragraphs below are dated history. COT as-of October 20 already consumed. Weekly map review completed October 23, next October 30. Teck strike began October 24 with reduced capacity; lost output unknown. Friday SLV/PPLT/PALL d200 −24.99/−18.98/−27.26%, counterfactual 13/20, actual 8/20. Gold October 22/23 certified-settle grades remain UNRESOLVED; primary real-yield/issuer bullion data held still end October 22. Nornickel grading due October 26 on pre-registered setup. Full source limits and assignment reconciliation: `shared/research/2026-10-25_sunday-catch-up.md`.
 
 

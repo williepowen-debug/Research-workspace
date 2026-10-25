@@ -1,0 +1,2300 @@
+BIS Working Papers
+No 1380 
+
+Chasing El Dorado: gold under 
+shifting geopolitical and 
+financial conditions  
+by Rafael Guerra and Gabriel Zelpo 
+
+Monetary and Economic Department 
+
+October 2026 
+
+JEL classification: G15, E44, F51, G12, Q02 
+
+Keywords:  gold  prices,  geopolitical  risk, 
+
+financial 
+
+conditions 
+
+BIS  Working  Papers  are  written  by  members  of  the  Monetary  and  Economic 
+Department of the Bank for International Settlements, and from time to time by other 
+economists,  and  are  published  by  the  Bank.  The  papers  are  on  subjects  of  topical 
+interest  and  are  technical  in  character.  The  views  expressed  in  this  publication  are 
+those of the authors and do not necessarily reflect the views of the BIS or its member 
+central banks. 
+
+This publication is available on the BIS website (www.bis.org). 
+
+©  Bank for International Settlements 2026. All rights reserved. Brief excerpts may be 
+
+reproduced or translated provided the source is stated. 
+
+ISSN 1020-0959 (print) 
+ISSN 1682-7678 (online) 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Chasing El Dorado: gold under shifting geopolitical
+and financial conditions∗
+
+Rafael Guerra1 and Gabriel Zelpo1,2
+
+1Bank for International Settlements (BIS)
+2Central Bank of Chile
+
+22 September 2026
+
+Abstract
+
+This paper analyses the state-dependent effects of geopolitical risks on gold prices (i.e. the
+safe-haven role of gold), conditional on financial conditions. Geopolitical risks are often
+associated with tighter financial conditions. However, recent data reveal a decoupling be-
+tween such shocks and more restrictive financial conditions, raising the question of how gold
+returns are affected by geopolitical shocks, conditional on the macro-financial environment.
+Using monthly data from 1990 to 2026, we find that increases in geopolitical risks – both
+geopolitical threats and realised events – increase gold returns, with stronger effects ob-
+served during periods of loose financial conditions. We decompose this relationship into two
+mechanisms: (i) the credit and liquidity risk channel and (ii) the opportunity cost channel.
+Our findings indicate that the relationship operates most clearly through the first channel,
+suggesting that the key factor is investors’ capacity to rebalance, while the evidence for the
+second channel is less conclusive. Finally, we also find that the largest impact occurs when
+periods of loose financial conditions are compounded with periods of geopolitical escala-
+tions, as seen in 2024–26. These insights highlight the relevance of understanding gold as a
+safe-haven asset amid complex macro-financial conditions.
+
+JEL Classification: G15, E44, F51, G12, Q02.
+
+Keywords: Gold prices; geopolitical risk; financial conditions.
+
+∗Contact information: Rafael.Guerra@bis.org; Gabriel.Zelpo@bis.org. The views expressed in this publication
+are those of the authors and do not necessarily reflect the views of the BIS or its member central banks. We
+thank Ilhyock Shim, Nicole Scherrer, Denis Gorea, Christian Upper and participants in an internal BIS seminar
+for helpful comments and suggestions. The authors acknowledge the use of artificial intelligence in editorial
+refinement. Responsibility for all errors remains with the authors.
+
+1
+
+1
+
+Introduction
+
+Gold occupies a distinctive position within the international financial system, combining excep-
+
+tional market scale with unique institutional attributes and informational value, which confer
+
+its status as a safe-haven asset during times of stress. Unlike most financial assets, it carries
+
+no counterparty or issuer risk: as a stateless asset not backed by any government, it cannot
+
+be frozen, sanctioned or devalued via redenomination – and it cannot be printed.1 Compared
+
+with previous years, gold is now held primarily as a reserve and investment asset rather than
+
+for industrial use, and its price largely reflects its safe-haven characteristics, making it a highly
+
+sensitive barometer of systemic stress.2 Recently, gold prices rose to unprecedented levels, re-
+
+gaining academic attention for their dynamics amid geopolitical fragmentation.
+
+There is a well-documented empirical literature on gold’s safe-haven status with respect
+
+to economic uncertainty, mostly focused on financial risks (Baur and McDermott, 2010; Beck-
+
+mann, Berger, and Czudaj, 2015; Huynh, 2020), and risks related to policy uncertainty (Balcilar,
+
+Gupta, and Pierdzioch, 2016; Raza et al., 2018; Bilgin et al., 2018; Beckmann, Berger, and Czu-
+
+daj, 2019; Gozgor et al., 2019). However, there is limited analysis with respect to geopolitical
+
+events and geopolitical threats, a growing literature facilitated by the construction of the geopo-
+
+litical risk (GPR) index proposed by Caldara and Iacoviello (2022).
+
+In addition to this, it is difficult to consider in isolation the link between the effect of
+
+geopolitical risks on agents’ decisions to seek refuge in gold prices without accounting for the
+
+macro-financial landscape, which may serve as a catalyst for this mechanism – in this case,
+
+global financial conditions. Usually, geopolitical risks go hand in hand with tighter financial
+
+conditions (Caldara and Iacoviello, 2022; IMF, 2025); however, one exception to this rule is
+
+the recently observed period where there is a decoupling between geopolitical risks and tighter
+
+financial conditions, which may potentially benefit gold’s safe-haven status. As observed in
+
+Figure 1, the historical positive correlation between high geopolitical risks and tight financial
+
+conditions (dots in blue) has reversed in recent years (dots in red).
+
+Between 2024 and 2026, gold prices surged to unprecedented levels (Figure 2). Prices rose
+
+by over 130% between January 2024 and April 2026, when gold peaked. Newspapers and finan-
+
+cial experts attributed this surge to major geopolitical conflicts, including the ongoing Russian
+
+invasion of Ukraine and escalating tensions in the Middle East, which boosted demand for gold
+
+by some central banks and investors (ECB, 2025). However, such a sharp increase in gold prices
+
+had not been seen during earlier spikes in geopolitical risks (Figure 2a).
+
+1Above-ground gold stocks are valued at roughly USD 30 trillion, a figure comparable to the market value
+of US Treasuries. At end–2025 gold accounted for more than 20% of global official reserves, making it the
+second-largest reserve asset after the US dollar and, in recent years, surpassing the euro.
+
+2Beyond its safe-haven properties, gold has also been extensively documented as an effective hedge against
+inflation (Beckmann and Czudaj, 2013; Salisu, Raheem, and Ndako, 2020), a hedge against currency risk (Wang
+and Lee, 2022; Capie, Mills, and Wood, 2005; He, Guo, and Yu, 2020), and a portfolio diversifier given its
+low correlation with most other asset classes (Baur and McDermott, 2010; Akhtaruzzaman et al., 2021; Agyei-
+Ampomah, Gounopoulos, and Mazouz, 2014; Ciner, Gurdgiev, and Lucey, 2013).
+
+2
+
+Figure 1: Historical link between global financial conditions and geopolitical risks. Note: Data
+on global financial conditions from Goldman Sachs and data on geopolitical risks from Caldara
+and Iacoviello (2022).
+
+At the same time, an easing of the US monetary policy stance, a decline in liquidity and
+
+credit risk conditions, and a continuous weakening of the US dollar – three major factors iden-
+
+tified as drivers of global financial conditions (Miranda-Agrippino and Rey, 2020; Hofmann,
+
+Shim, and Shin, 2022; Jiang, Krishnamurthy, and Lustig, 2023; Gelos, Patelli, and Shim, 2024)
+
+– favoured a loosening of these conditions during the same period of 2024-26 (Figure 2b). Since
+
+January 2024, a continuous easing of US monetary policy (cumulative cut in the federal funds
+
+rate by 175 basis points), a reduction of almost 100 basis points in the US BBB corporate
+
+spreads (proxy of credit and liquidity risk conditions), and the weakening of the US dollar by
+
+around 11.5% against other currencies have loosened global financial conditions. In this par-
+
+ticular case, it is unavoidable to question whether this global loosening of financial conditions
+
+affected the safe-haven status of gold during major geopolitical events.
+
+With this background, in this paper we study the state-dependent effects of geopolitical
+
+shocks on gold price returns conditional on global financial conditions, a research question not
+
+addressed before. Using an extended monthly sample spanning from 1990 to 2026 and perform-
+
+ing several state-dependent econometric models, we find evidence of non-linear effects on the
+
+safe-haven status of gold, conditional on global financial conditions. Specifically, we find that,
+
+on average, a 1 standard deviation increase in threats (the subcomponent related to geopo-
+
+litical threats) increases gold returns by 0.45% (at month = 0), while a 1 standard deviation
+
+increase in GPR events (the subcomponent related to geopolitical realised events) increases gold
+
+returns by 0.60% (at month = 4). During rising GPR risks (a regime defined by escalations in
+
+geopolitical risks), baseline results rise to 1.00% and 0.80%, respectively. During loose financial
+
+conditions, baseline results rise to 0.60% and 1.00%, respectively. When combining the regimes
+
+3
+
+- High geopolitical risks- Loose financial conditions- High geopolitical risks- Tight financial conditionsSample 1990-2023Sample 2024-20269698100102104Global financial conditions (Index)50100150200250300350Geopolitical risks (Index) (a) Gold prices and geopolitical risks.
+
+(b) Gold prices and financial conditions.
+
+Figure 2: Gold prices, geopolitical risks and financial conditions Note: Data on gold prices from
+Bloomberg, data on global financial conditions from Goldman Sachs and data on geopolitical
+risks from Caldara and Iacoviello (2022).
+
+of rising GPR risks and loose financial conditions, we find the largest effects. The impact of
+
+GPR threats on gold returns increases to 1.3% (at month = 0), and the impact of GPR acts
+
+on gold returns increases to 1.2% (at month = 3).3 We argue that the combination of rising
+
+geopolitical risks and loose financial conditions has helped to explaining recent unprecedented
+
+spikes in gold prices, among other factors.4
+
+The literature directly addressing this question is scarce, leaving a clear gap for contribu-
+
+tion. Few works have analysed the particular implications of geopolitical risks (both threats
+
+and geopolitical events) on gold price returns. Baur and Smales (2020) and Das, Kannadhasan,
+
+and Bhowmik (2019) are the two direct works analysing the linear impact of geopolitical risks
+
+on gold returns. Both find that the contemporaneous response of geopolitical threats positively
+
+influences gold price returns, and find no effect from geopolitical events. We find these latter
+
+results somewhat unconvincing, as major geopolitical events can indeed have the potential to
+
+force agents either to seek safe-havens or to liquidate their gold reserves to provide additional
+
+liquidity. We argue that these nuanced results may be a product of the contemporaneous anal-
+
+ysis they performed and that a dynamic analysis with longer-horizon windows can provide a
+
+better understanding of these patterns.5
+
+Finally, regarding the gold price return responses conditional on the state of the macroecon-
+
+omy, one single work stands out. Chen, Miao, and Tee (2023) evaluate the effects of economic
+
+uncertainty shocks on gold prices in the zero lower bound (ZLB) regime, finding that the re-
+
+3By placing these results in context, the historical average gold return from 1990 to 2023 was 0.5%, while the
+
+recent average gold return from 2024 onwards has been 2.6%, with a standard deviation of 4.2%.
+
+4Further analysing the underlying financial mechanisms, we find that the lack of credit access and the liquidity
+risk channel explain why accommodative financial conditions facilitate gold’s safe-haven role during periods of
+geopolitical shocks, in line with the literature on liquidity risk effects (Brunnermeier and Pedersen, 2009; Cheema,
+Faff, and Szulczyk, 2022).
+
+5Two other papers in this strand, though not directly related, stand out. Ngo, Nguyen, and Hoang (2024)
+study the influence of geopolitical risks on national reserves, finding that geopolitical shocks can affect several
+types of reserves – financial and natural reserves – but reserves in gold tend to increase. In addition, Triki and
+Maatoug (2021) find that the S&P 500 correlates more (less) with gold during periods of high (low) geopolitical
+risks.
+
+4
+
+2024138.9%Gold pricesGPR risks0100200300400500Geopolitical Risk Index010002000300040005000gold price (USD x troy ounce)2000m12005m12010m12015m12020m12025m1 2024138.9%Gold pricesFC Index9698100102104US FCI (GS)010002000300040005000gold price (USD x troy ounce)2000m12005m12010m12015m12020m12025m1 sponses of gold prices to increases in VIX and economic policy uncertainty (EPU) are stronger
+
+and more persistent during ZLB periods. They argue that setting policy rates, especially at
+
+the ZLB, could also alter investors’ conditional expectations of underlying asset prices, thereby
+
+modifying forward-looking investors’ perceptions and affecting fluctuations in gold prices.
+
+All told, the contribution of this paper to the literature is mainly twofold. First, it builds on
+
+Baur and Smales (2020) and Das, Kannadhasan, and Bhowmik (2019) and further extends their
+
+contemporaneous analysis to a dynamic examination of geopolitical risk shocks on gold returns
+
+– an approach needed to better understand the link between geopolitical risk and fluctuations
+
+in gold prices. Second, it is the first work to analyse the non-linear effects of geopolitical risk
+
+shocks, conditional on the macro-financial state of the economy (in this case, global financial
+
+conditions) – a focus not explored before.
+
+The remainder of this paper is structured as follows. Section 2 discusses the relationship
+
+between this work and the literature. Section 3 outlines the empirical strategy implemented.
+
+Section 4 describes the data. The main results are presented in Section 5, and an analysis of the
+
+underlying financial mechanisms is provided in Section 6. A robustness analysis is presented in
+
+Section 7. Finally, the last section presents conclusions.
+
+2 Relation to the literature
+
+In this first section, we situate our contribution within the three strands of literature most
+
+relevant to our analysis: research on gold as a hedge and safe-haven asset, the financial conse-
+
+quences of geopolitical risk, and the role of liquidity and macro-financial conditions in shaping
+
+gold responses. We connect these strands by studying the dynamic response of gold returns to
+
+geopolitical shocks and examining how this response varies with the prevailing geopolitical and
+
+financial environment.
+
+Most empirical research on gold belongs to the portfolio allocation literature and evaluates
+
+whether gold is negatively or weakly correlated with other assets during periods of market
+
+stress (Agyei-Ampomah, Gounopoulos, and Mazouz, 2014; Beckmann, Berger, and Czudaj,
+
+2015; Baur and McDermott, 2010; Reboredo, 2013; Ciner, Gurdgiev, and Lucey, 2013). Much
+
+of this literature relies on daily data and therefore concentrates on immediate flight-to-safety
+
+behaviour. At the opposite end of the frequency spectrum, studies using annual or historical
+
+data examine gold’s long-run performance over several decades or centuries (Erb and Harvey,
+
+2013; Boubaker et al., 2020; Barro and Misra, 2016). Comparatively less is known about the
+
+within-12-month response of gold prices to uncertainty shocks.6
+
+Evidence from time-frequency methods nevertheless indicates that the horizon of analysis
+
+matters. Bredin, Conlon, and Potì (2015), for example, find that gold can retain its safe-haven
+
+properties for horizons of up to one year during financial crises. Related wavelet-based research
+
+6See Annex Table 1 to see an extensive review of the literature on the safe-haven status of gold.
+
+5
+
+similarly shows that gold’s protective properties vary across frequencies (Bouri et al., 2020).
+
+These methods provide useful evidence on horizon dependence, but they primarily examine
+
+variation in comovement across frequencies rather than tracing the response to a particular
+
+shock. Our analysis complements this literature by using monthly local projections to estimate
+
+the response of gold returns to geopolitical shocks over a 12-month horizon.
+
+A second strand of research examines the relationship between geopolitical risk and gold
+
+prices (Annex Table 2). The Geopolitical Risk Index developed by Caldara and Iacoviello
+
+(2022) distinguishes between geopolitical threats and realised geopolitical events and provides a
+
+systematic measure of their evolution over time. Using this framework, Baur and Smales (2020)
+
+and Das, Kannadhasan, and Bhowmik (2019) find that gold responds positively to geopoliti-
+
+cal threats, while the response to realised events is generally not statistically different from zero.
+
+These findings raise the question of whether realised geopolitical events have no effect on
+
+gold or whether their effects simply emerge with a delay. Threats can be incorporated into
+
+prices immediately because they alter investors’ expectations about future conflict. Realised
+
+events, by contrast, may propagate gradually through revisions to the expected duration and
+
+severity of the conflict, policy responses and international portfolio reallocation. By estimat-
+
+ing horizon-specific responses, our analysis distinguishes an absence of contemporaneous effects
+
+from an absence of effects altogether.
+
+An additional empirical challenge is that geopolitical events frequently coincide with changes
+
+in financial volatility and global risk appetite. Although the GPR index contains information
+
+distinct from standard measures of financial uncertainty (Baur and Smales, 2020; Caldara and
+
+Iacoviello, 2022), failing to account for their comovement could conflate the response to geopo-
+
+litical developments with a broader flight-to-quality episode. In our baseline specification, we
+
+therefore calculate the residual of each GPR component with respect to the VIX and use the
+
+standardised residual as the geopolitical innovation.
+
+A third strand of literature shows that gold’s safe-haven properties are not invariant across
+
+economic and financial environments. The paper most closely related to our analysis is Chen,
+
+Miao, and Tee (2023), who use a non-linear Interacted-VAR to examine whether gold prices
+
+respond differently to uncertainty shocks during normal monetary-policy periods and episodes
+
+in which the federal funds rate is constrained by the ZLB. They find that the response of
+
+gold prices to VIX and EPU shocks is substantially stronger and more persistent at the ZLB.
+
+Their counterfactual analysis further suggests that this state dependence is associated with the
+
+monetary-policy regime rather than simply with the business cycle. These findings demonstrate
+
+that the macro-financial environment can amplify gold’s response to uncertainty shocks. Our
+
+analysis extends this insight by studying geopolitical rather than general uncertainty shocks
+
+and by conditioning their effects on a broader measure of global financial conditions, rather
+
+than exclusively on the monetary-policy rate.
+
+6
+
+The market turmoil at the beginning of the COVID-19 pandemic illustrates the complemen-
+
+tary role of funding liquidity in gold’s safe-haven property. During the initial liquidity shortage,
+
+investors reportedly liquidated profitable gold positions to raise cash and meet margin calls
+
+elsewhere (Lee, 2020; Grosskopf, 2020). Consistent with this mechanism, Echaust and Just
+
+(2022) and Cheema, Faff, and Szulczyk (2022) find that gold did not provide consistent protec-
+
+tion against extreme downside risk during the pandemic shock. When funding constraints are
+
+binding, investors may be unable to reallocate towards gold even when demand for safe-assets
+
+is elevated.
+
+State dependence also arises from portfolio characteristics affecting gold returns. Zulaica
+
+(2020) shows that gold’s effectiveness as a hedge or safe-haven in central bank reserve portfolios
+
+depends on factors such as portfolio duration and the volatility of the numeraire currency. More
+
+generally, this evidence implies that safe-haven properties depend not only on the adverse shock
+
+itself, but also on investors’ balance sheets, opportunity costs and the ability to adjust their
+
+portfolios. We extend this insight by using global financial conditions as a state variable that
+
+captures whether the broader environment facilitates or constrains reallocation towards gold
+
+following geopolitical shocks.
+
+This paper makes three key contributions to the existing literature. First, it extends the pre-
+
+dominantly contemporaneous analysis of geopolitical risk and gold by examining the dynamic
+
+responses of gold returns to both geopolitical threats and realised geopolitical events. Second, it
+
+demonstrates that these responses are state-dependent, systematically varying with geopolitical
+
+risk and global financial condition regimes. The central implication is that gold’s safe-haven
+
+behaviour cannot be captured by a single unconditional coefficient; rather, it depends on both
+
+the nature of the geopolitical shock and the macro-financial conditions under which investors
+
+react. Third, this paper contributes to the literature by being the first to distinguish between
+
+geopolitical risks and financial risks, effectively isolating flight-to-quality effects from safe-haven
+
+effects during periods of geopolitical tension.
+
+3 Empirical strategy
+
+To address these objectives, our empirical strategy examines how gold returns respond to geopo-
+
+litical risks and how that response varies with the macro-financial environment. We proceed in
+
+three steps: we first construct a measure of geopolitical risks that is independent of financial
+
+risks, we then estimate its dynamic effect on gold returns, and we finally allow that effect to
+
+differ across macro-financial conditions.
+
+3.1 Identification of shocks orthogonal to financial risks
+
+Geopolitical risks are often accompanied by financial risks, which can lead to an overestimation
+
+of our coefficient of interest when assessing the impact on gold returns, as the distinct market
+
+dynamics of geopolitical risks (safe-haven effect) and financial risks (flight-to-quality) may be-
+
+7
+
+come conflated. To isolate the pure effect of geopolitical risks from the potential financial risks
+created by the same geopolitical event, we regress each GPR component (k ∈ {G, T, A} for
+overall, threats and acts, respectively) on the VIX index (taken as a proxy for global financial
+
+volatility):
+
+GP Rk
+t
+
+= α + β V IXt + ˆεk
+t .
+
+(1)
+
+denotes the estimated residual, which we standardise and treat as identified geopolitical
+
+is orthogonal to the VIX in-sample (i.e. financial risks). We
+
+here ˆεk
+t
+shocks. By construction, ˆεk
+t
+henceforth denote the shocks as GP Rk,⊥F
+
+t
+
+= ˆεk
+t
+
+.
+
+3.2 Estimating the impact of geopolitical risk shocks on gold price returns
+
+Unlike previous analyses of gold returns that focus on contemporaneous responses, we employ
+
+linear local projections à la Jordà (2005) to estimate the cumulative dynamic response of gold
+returns to geopolitical risk shocks. Specifically, for each forecast horizon h we estimate:
+
+H
+X
+
+s=0
+
+yt+s = αH + βH GP Rk,⊥F
+
+t
+
++
+
+p
+X
+
+i=1
+
+γH,i yt−i + Γ′
+
+H Xt + εt+H ,
+
+k ∈ {G, T, A}.
+
+(2)
+
+here, the dependent variable is the difference in the logarithm of the spot gold price (USD per
+troy ounce), returnst = 100.∆logP gold
+. βH represents the cumulative impact of geopolitical
+risk shocks on gold price returns through horizon H after the shock. The lag order p is selected
+using the Akaike Information Criterion and is held fixed across horizons. Inference relies on
+Newey–West (HAC) standard errors to account for serial autocorrelation induced by the H-
+step-ahead projection (the HAC bandwidth is set to at least H). X denotes a vector of control
+variables, including macro-financial variables that could bias and lead to overestimation or
+
+t
+
+underestimation of our coefficient of interest if omitted in the contemporaneous period.7 These
+
+data are described in Section 4.
+
+3.3 State-dependent responses of gold prices to geopolitical risk shocks
+
+To assess whether the safe-haven response varies with macro-financial conditions, we use the
+
+following specifications. First, to evaluate whether an escalation in geopolitical risks generates
+
+non-linear responses in gold prices, as suggested by the literature, we augment Equation (2)
+
+with a dummy interaction term. Second, in a separate exercise, we examine whether the degree
+
+of tightness in financial conditions generates non-linear responses of gold prices to geopolitical
+
+shocks. Specifically, our specification is as follows:
+
+H
+X
+
+s=0
+
+yt+s = αH + βH GP Rk,⊥F
+
+t
+
++ δhDt + θH
+
+(cid:0)GP Rk,⊥F
+t
+
+× Dt
+
+(cid:1) +
+
+p
+X
+
+i=1
+
+γH,i yt−i + Γ′
+
+H Xt + εt+H , (3)
+
+7Even when lagging the control vector by one period, our baseline findings remain robust.
+
+8
+
+where
+
+Dt =
+
+
+
+
+
+
+1 if St−1 = High state,
+0 otherwise.
+
+St ∈ {DG
+
+t , DF
+
+t }.
+
+(4)
+
+here, βH captures the response of gold returns in the low state (Dt = 0), while βH + θH captures
+the response in the high state (Dt = 1). We explicitly define our state variables Dt as follows:
+
+= 1 if ∆GP Rt−1 ≥ 0.This classifies periods
+• Escalation of geopolitical risk state: DG
+t
+when geopolitical risk is growing (escalating); Dt = 0 otherwise (i.e. de-escalation of
+geopolitical risks).
+
+• Tight financial conditions state: DF
+t
+
+= 1 if F CIt−1 ≥ F CI, indicating tighter-than-
+loose financial
+
+average (i.e. deteriorated) financial conditions; Dt = 0 otherwise (i.e.
+conditions).
+
+We lag the state variable by one period to mitigate contemporaneous feedback between the
+shock and the state (St−1). Intuitively, the first state splits the sample into lagged periods of ris-
+ing versus non-rising geopolitical risk, while the second splits it into lagged tighter versus looser
+financial conditions. Intutively, the sign of the coefficient θH will reveal whether the gold-return
+response to a GPR shock is amplified after periods of increasing geopolitical tensions or tighter
+
+financial conditions.
+
+Finally, we combine the two state variables to characterise the four regimes analysed in
+
+Section 5. Their interaction defines four mutually exclusive regimes:
+
+R1
+t
+R2
+t
+R3
+t
+R4
+t
+
+t DG
+t
+(1 − DG
+t
+
+= DF
+= DF
+t
+= (1 − DF
+t
+= (1 − DF
+t
+
+)
+
+)
+
+)(1 − DG
+t
+)DG
+t
+
+(tight FCI, rising GPR),
+(tight FCI, non-rising GPR),
+(loose FCI, non-rising GPR),
+(loose FCI, rising GPR).
+
+(5)
+
+for each horizon h and shock k ∈ {G, T, A} and regime j ∈ {1, 2, 3, 4}, we estimate the following
+local projection:
+
+H
+X
+
+s=0
+
+yt+s = αH + βj
+
+H GP Rk,⊥F
+
+t
+
++ δj
+
+H Rj
+
+t
+
++ θj
+H
+
+(cid:0)Rj
+
+t × GP Rk,⊥F
+
+t
+
+(cid:1) +
+
+p
+X
+
+i=1
+
+γH,i yt−i + Γ′
+
+H Xt + εt+H (6)
+
+the cumulative impulse response in regime j is
+
+CIRF j(H) = βj
+H
+
++ θj
+H
+
+(7)
+
+the coefficients βj
+H
+deviation geopolitical-risk shock occurring in regime j.
+
++ θj
+H
+
+measure the response of gold returns at horizon h to a one-standard-
+
+9
+
+Our central hypothesis is that the response of gold price returns to the GPR variable is
+
+strongest when rising geopolitical risk coincides with loose financial conditions. We therefore
+
+test whether
+
+(cid:0)β4
+H
+
++ θ4
+H
+
+(cid:1) > max
+
+q∈{1,2,3}
+
+(cid:0)βq
+H
+
++ θq
+H
+
+(cid:1)
+
+(8)
+
+for each type of geopolitical shock (threats and events). We will focus on distinguishing the
+
+effects in the regime of interest from the baseline effects, to avoid saturated models that report
+
+the combination of interactions across the four regimes simultaneously.
+
+In all specifications, causal inference is supported by the narrative short-run restriction
+
+imposed on the link between geopolitical shocks and gold prices. Given the nature of the shocks
+
+considered – geopolitical threats and geopolitical acts – it is implausible that monthly gold
+
+returns could causally drive either type of geopolitical disturbance within the 12-month horizon
+
+of our analysis, over the sample period (1990–2026). Moreover, the use of state-dependent
+
+models introduces predetermined variation in the transmission mechanism, effectively treating
+
+shifts across regimes as external to the baseline contemporaneous relationship. By exploiting
+
+this variation, we capture non-linearities in the response of gold price returns to geopolitical
+
+shocks while preserving the causal interpretation of our estimates.
+
+4 Data
+
+The sample consists of monthly data and covers January 1990 to March 2026. The choice of
+
+the monthly frequency reflects the objective of the paper. Most studies of gold as a safe-haven
+
+asset use daily data and focus on immediate market reactions. Monthly data allow us instead to
+
+study whether the effects of geopolitical developments persist or emerge gradually over subse-
+
+quent months, while remaining sufficiently frequent to capture considerable changes in financial
+
+conditions and geopolitical risks.
+
+The independent variables and controls are:
+
+• Geopolitical risks: We measure geopolitical risks using the newspaper-based Geopoliti-
+cal Risk Index developed by Caldara and Iacoviello (2022). They define geopolitical risks
+
+as the threats, realisations, and escalation of adverse events associated with wars, terror-
+
+ism, and any tensions among states and political actors that affect the peaceful course of
+
+international relations. They construct the GPR index with an algorithm that computes
+
+the share of articles mentioning adverse geopolitical events in leading newspapers pub-
+
+lished in the United States, the United Kingdom, and Canada. We use the three available
+
+series:
+
+– the aggregate Geopolitical Risk Index (GP Rt);
+– the Geopolitical Threats sub-index (GP RTt), which captures references to war threats,
+
+peace threats, military buildup, nuclear threats, and terrorist threats; and
+
+– the Geopolitical Acts sub-index (GP RAt), which captures realised events (beginning
+
+of wars, escalation of wars, or terrorist acts).
+
+10
+
+• Financial conditions: The Goldman Sachs US Financial Conditions Index (GS US
+FCI) is a composite indicator developed by Goldman Sachs Research to measure the
+overall ease or tightness of financial conditions in the US economy – essentially capturing
+
+how the current state of financial markets either supports or restrains economic growth
+
+in that country. A higher reading signals tighter financial conditions – meaning credit is
+
+more expensive, the dollar is stronger, and equities are weaker – which tends to restrain
+
+economic activity, while a lower reading signals easier conditions that are more supportive
+
+of growth (Goldman Sachs Research, 2017). Given its large historical sample, we will use
+
+this series as a proxy for global financial conditions.
+
+• Uncertainty indicators: The VIX Index, obtained from Bloomberg, measures option-
+implied volatility in the US equity market, derived from a weighted average of S&P 500
+
+option prices over a 30-day horizon. Even though the VIX is used in the construction of
+
+the residualised GPR innovations to ensure that our geopolitical shocks are orthogonal to
+
+risk-aversion shocks, it is useful to include this variable as a control. It captures investors’
+
+forward-looking uncertainty about equity market conditions and serves as a broad proxy
+
+for financial market stress.
+
+• Macro-financial controls:
+
+– The logarithm of the Nominal Broad US Dollar Index – a trade-weighted index of
+the US dollar against a basket of major currencies – is included because gold is
+
+globally priced in US dollars, creating a mechanical inverse relationship between
+
+dollar strength and gold returns: appreciation of the dollar raises the effective cost
+
+of gold for non-US investors, compressing demand. Controlling for the dollar index
+
+therefore isolates movements in gold prices attributable to shifts in risk sentiment or
+
+geopolitical uncertainty from those driven purely by currency valuation.
+
+– The 10-year US Treasury yield captures the competition of other safe-haven assets.
+As nominal yields rise – whether reflecting tighter monetary policy expectations,
+
+improved growth prospects, higher fiscal concerns, or rising inflation compensation
+
+– the relative attractiveness of gold could be affected.
+
+– The logarithm of US industrial production (IP) proxies for the state of the global
+business cycle and aggregate economic activity. Beyond its role as a financial asset,
+
+gold retains significant industrial and jewelry demand, both of which are sensitive
+
+to cyclical conditions; moreover, broad economic expansions tend to increase risk
+
+appetite and reduce precautionary demand for safe-havens, while downturns can have
+
+the opposite effect. Controlling for global IP therefore accounts for the demand-side
+
+macroeconomic fundamentals that independently influence gold prices.
+
+– The logarithm of the oil price is included as a joint control for commodity-market
+co-movement and inflationary pressures. Gold and oil share exposure to common
+
+commodity factors – including dollar denomination and global supply and demand
+
+cycles – and oil price increases historically signal rising inflation expectations, which
+
+in turn boost gold’s appeal as an inflation hedge. By conditioning on the oil price,
+
+11
+
+the estimates isolate safe-haven and geopolitical channels from broader commodity-
+
+market dynamics and inflation shocks.
+
+It is worth noting that, in all cases presented in Section 5 on results, where the dependent
+
+variable is one of the subindices (GPR threats or events), the other subindex is included as a
+
+control. This approach ensures a more robust identification of each subindex’s distinct effect
+
+on gold prices.
+
+5 Results
+
+5.1 Baseline effects
+
+Figure 3 shows the impact of GPR, GPR threat, and GPR event shocks on gold price returns,
+
+generating overall positive statistical impacts but at different magnitudes and horizons. We find
+
+that the dynamics of the overall impact of GPR on gold price returns is a combination of the
+
+impacts of its two subcomponents: threats and events (first panel). First, there is a short-lived
+response of GPR threats of 0.45% (second panel) at month h = 0, with 90% confidence, indi-
+cating that the impact is contemporaneous and short-lived. Second, a medium-term response of
+
+0.60% emerges from GPR event shocks (third panel), with 99% confidence, reflecting a longer
+and lagged response from this subcomponent. At the contemporaneous horizon (h = 0), our
+results are consistent with Baur and Smales (2020): threats have a significant effect on gold re-
+
+turns, whereas geopolitical events do not. However, a lagged effect is observed from this second
+
+factor.
+
+These initial results suggest that, contrary to the existing literature, a dynamic analysis
+
+is needed to better understand the differing effects of geopolitical risks on gold price returns.
+
+While gold price returns respond swiftly to surges in geopolitical threats, they generally take a
+
+few months on average to react to geopolitical events, potentially depending on the escalation
+
+of these events.
+
+The horizon at which each subcomponent operates requires explanations on why we ex-
+
+pect realised events to act with a delay. Geopolitical threats are news about the distribution
+
+of future conflict: they arrive as headlines and are incorporated into prices essentially on impact.
+
+Realised events differ in two key respects. First, a substantial part of their content has typ-
+ically been priced already at the threat stage – the invasion follows the mobilisation; the strike
+follows the ultimatum – so what moves prices on the day of the event is only its unanticipated
+component, which can be small even when the event itself is large. Second, the information that
+
+events do carry is revealed progressively: markets learn about the expected duration, severity
+
+and geographic containment of a conflict, whether the geopolitical event in question will trigger
+
+chain disruptions, the sanctions and policy responses it prompts, and the reallocation of official
+
+reserves it induces, over weeks and months rather than hours. Under this interpretation, the
+
+12
+
+coefficient at h = 0 for geopolitical event shocks on gold returns understates the total effect of
+an event. The response is expected to build over the subsequent quarter, as observed in the
+
+third panel of Figure 3, peaking four months after the shock.
+
+Figure 3: Cumulative IRF of GPR shocks on gold price returns. Note: Shocks are orthogonal and
+uncorrelated with financial sources of uncertainty (VIX index). Estimated via Local Projections
+(Jordà, 2005). Confidence intervals are at 90% and 95%. HAC (Newey-West) std errors are
+used.
+
+5.2 Rising versus non-rising geopolitical risk environments
+
+As established in the literature, stronger geopolitical shocks tend to have a greater impact on
+
+gold prices than weaker shocks – a pattern that has been well documented (Baur and Smales,
+
+2020; Das, Kannadhasan, and Bhowmik, 2019). To align this paper with the existing body
+
+of research, we first test this pattern by analysing geopolitical shocks followed by periods of
+
+escalation in geopolitical tensions (i.e. rising GPR risks) in this subsection. Our findings con-
+
+firm the strong safe-haven property of gold when there is a geopolitical shock after experiencing
+
+escalations in GPR risks.
+
+Allowing the response to differ across rising and non-rising states (Figure 4), we find dif-
+
+ferentiated effects when geopolitical stress is rising. In the rising-GPR state, the response of
+gold returns to threats is about 1.0% on impact (h = 0), followed by a reversal effect in the
+In contrast, when examining the impact of
+third month, after which the impact dissipates.
+
+geopolitical threats on gold price returns during non-rising GPR risks, we observe no statistical
+
+evidence across the 12-month horizon of the shock.
+
+13
+
+-.4-.20.2.4.6.8Gold price return (%)-2024681012Months after the impactGPR -.8-.6-.4-.20.2.4.6.81Gold price return (%)-2024681012Months after the impactGPR: THREATS-.6-.4-.20.2.4.6.81Gold price return (%)-2024681012Months after the impactGPR: EVENTS For geopolitical event shocks, the cumulative response peaks at around 0.8% in the second
+month (h = 2) after the shock, while the same impact during the decreasing GPR risk state
+shows a lower magnitude and a lagged effect at h = 4. Considering these differences, we argue
+that the safe-haven property of gold is state-dependent. It becomes particularly salient when
+
+geopolitical risk is already increasing; that is, an escalation of a geopolitical event tends to am-
+
+plify gold’s safe-haven behaviour. Finally, tests for statistical evidence of non-linearities confirm
+
+that our results are statistically different across regimes (Figure 19, in the Annex).
+
+Figure 4: Cumulative IRF of GPR shocks on gold price returns conditional on geopolitical
+state. Note: Shocks are orthogonal and uncorrelated with financial sources of uncertainty (VIX
+index). Growing geopolitical-risk state occurs when ∆GP Rt−1 ≥ 0; low state otherwise. The red
+line represents the response under growing geopolitical risk, and the blue line under decreasing.
+Estimated via Local Projections (Jordà, 2005). Confidence intervals are at 90%. HAC (Newey-
+West) std errors are used.
+
+5.3 Tight versus loose financial conditions
+
+Addressing our principal research question, we also find non-linear patterns when conditioning
+
+on global financial conditions (Figure 5). Under tight conditions, the responses of gold returns
+
+to both GPR threats and events are not statistically significant for most of the horizons. There
+
+is even a negative response of gold prices to geopolitical threats in the second month after the
+
+shock. Under loose conditions, by contrast, the threats shock elicits a positive response of about
+0.6% on impact (h = 0), while the cumulative geopolitical event impact peaks at roughly 1.0%
+around the six-month horizon (h = 6), a pattern consistent with fewer frictions when investors
+rebalance their portfolios.
+
+14
+
+-1.5-1-.50.511.5Gold price return (%)-10123456789101112Months after the impactRising geopolitical risksGPR: THREATS-1-.50.511.5Gold price return (%)-10123456789101112Months after the impactDecreasing geopolitical risksGPR: EVENTSThese results support our main hypothesis: when a geopolitical shock occurs in an envi-
+
+ronment characterised by low financing costs, reduced transaction frictions, and fewer liquidity
+
+constraints, these conditions amplify the safe-haven role of gold prices in the aftermath of such
+
+shocks. This is likely because investors can borrow at lower costs to purchase gold, making it
+
+easier to utilise leverage. Tests for statistical evidence of non-linearities confirm that our results
+
+are statistically different across regimes in most months, particularly in the case of geopolitical
+
+event shocks (Figure 20, in the Annex). Section 6 explores which of these factors plays the most
+
+significant role, with the findings pointing most clearly to the relaxation of credit and liquidity
+
+constraints.
+
+Figure 5: Cumulative IRF of GPR shocks on gold price returns conditional on financial condi-
+tions. Note: Shocks are orthogonal and uncorrelated with financial sources of uncertainty (VIX
+index). Tight financial-conditions state occurs when F CIt−1 ≥ F CI; low (loose) state other-
+wise. The green line represents the response under loose financial conditions, and the orange
+line under tight conditions. Estimated via Local Projections (Jordà, 2005). Confidence intervals
+are at 90%. HAC (Newey-West) std errors are used.
+
+5.4 Mixing the four regimes: rising and non-rising GPR risks versus tight
+
+and loose financial conditions.
+
+To assess whether the two non-linearities tested earlier feedback into each other, we split the
+
+sample into the four regimes defined by rising and non-rising GPR risks, combined with the
+
+states of tight and loose financial conditions. We then re-estimate the dynamic response of the
+
+impact of geopolitical threats and events on gold price returns, as shown in Figures 6 and 7,
+
+respectively. Our hypothesis in combining these four states is that these regimes do not move
+
+in tandem mechanically, leaving room for them to interact with each other exogenously. In this
+
+15
+
+-1-.50.511.5Gold price return (%)-10123456789101112Months after the impactLoose financial conditionsGPR: THREATS-1-.50.511.5Gold price return (%)-10123456789101112Months after the impactTight financial conditionsGPR: EVENTSFigure 6: Cumulative IRF of GPR threats shocks on gold price returns conditional on financial
+conditions and escalation of geopolitical states. Note: Shocks are orthogonal and uncorrelated
+with financial sources of uncertainty (VIX index). Regime 1 = tight FC and rising GPR threats;
+regime 2 = tight FC and decreasing GPR threats; regime 3 = loose FC and decreasing GPR
+threats and regime 4 = loose FC and rising GPR threats. Estimated via Local Projections (Jordà,
+2005). Confidence intervals are at 90% and 95%. HAC (Newey-West) std errors are used.
+
+context, the implications for safe-haven assets can either reinforce or offset each other across
+
+the combination of regimes.
+
+• Results for the impact of geopolitical threats on gold price returns under the four
+
+regimes are summarised as follows, and shown in Figure 6:
+
+– Regime 1 (Tight FCI and rising GPR threats): We find a short positive
+response of 0.5% at month = 0. After that, most of the quarters following the shock
+
+remain statistically not different from zero.
+
+– Regime 2 (Tight FCI and decreasing GPR threats): In this regime, we find
+a response that is initially insignificant and then becomes negative, with an effect of
+−0.6% for the first and second months after the shock.
+
+– Regime 3 (Loose FCI and decreasing GPR threats): In this regime, we find
+that the response is statistically insignificant throughout the 12-month horizon.
+
+– Regime 4 (Loose FCI and rising GPR threats): This regime combines the
+two states that, separately, amplify the safe-haven role of gold the most. Here, we
+
+find the largest positive and significant response, reaching close to 1.3% on impact
+(h = 0) for geopolitical threat shocks.
+
+16
+
+-2-1.5-1-.50.511.5Gold price return (%)-10123456789101112Months after the impactGPR: THREATS - R1: tight FC and rising GPR-1.5-1-.50.51Gold price return (%)-10123456789101112Months after the impactGPR: THREATS - R2: tight FC and decreasing GPR-1-.50.511.5Gold price return (%)-10123456789101112Months after the impactGPR: THREATS - R3: loose FC and decreasing GPR-2.5-2-1.5-1-.50.511.522.5Gold price return (%)-10123456789101112Months after the impactGPR: THREATS - R4: loose FC and rising GPRFigure 7: Cumulative IRF of GPR acts shocks on gold price returns conditional on financial
+and geopolitical state. Note: Shocks are orthogonal and uncorrelated with financial sources of
+uncertainty (VIX index). Regime 1 = tight FC and rising GPR acts; regime 2 = tight FC and
+decreasing GPR acts; regime 3 = loose FC and decreasing GPR acts and regime 4 = loose FC
+and increasing GPR acts. Estimated via Local Projections (Jordà, 2005). Confidence intervals
+are at 90% and 95%. HAC (Newey-West) std errors are used.
+
+• Results for the impact of geopolitical events on gold price returns under the four regimes
+
+are summarised as follow (Figure 7):
+
+– Regime 1 (Tight FCI and rising GPR acts): In the short term, a cumula-
+tive negative response of −0.8% is observed at month = 1. After that, there is no
+statistical significance of the impact on gold returns.
+
+– Regime 2 (Tight FCI and decreasing GPR acts): There are no responses
+
+statistically different from zero throughout the 12-month analysis.
+
+– Regime 3 (Loose FCI and decreasing GPR acts): The cumulative response is
+positive after the fourth month of the impact, reaching values of a 1.0% increase in
+
+gold price returns.
+
+– Regime 4 (Loose FCI and rising GPR acts): A large positive and significant
+cumulative response is observed, reaching close to 0.7% on impact (h = 0) and
+continuing over the next three months peaking at 1.2%. That is, there is a quick
+
+response of gold price returns to geopolitical event shocks under this regime.
+
+Regime 4 corresponds to the configuration highlighted earlier: the combination of rising
+
+geopolitical risks and loose financial conditions amplifies and accelerates the safe-haven role of
+
+gold far beyond the other combinations of regimes (i.e. regimes 1, 2 and 3). Most notably, while
+
+gold price returns typically exhibit a lagged response to geopolitical event shocks in our previous
+
+17
+
+-1.5-1-.50.511.5Gold price return (%)-10123456789101112Months after the impactGPR: EVENTS - R1: tight FC and rising GPR-1-.8-.6-.4-.20.2.4.6.81Gold price return (%)-10123456789101112Months after the impactGPR: EVENTS - R2: tight FC and decreasing GPR-1.5-1-.50.511.52Gold price return (%)-10123456789101112Months after the impactGPR: EVENTS - R3: loose FC and decreasing GPR-2-1.5-1-.50.511.52Gold price return (%)-10123456789101112Months after the impactGPR: EVENTS - R4: loose FC and rising GPRanalysis, this particular regime leads to a much faster effect. The impact on gold price returns
+
+is observed within the same month of the shock and remains significant for three additional
+
+months. Statistical tests confirm the presence of non-linearities in regime 4 compared with the
+
+others, highlighting both the highest impact of geopolitical event shocks on gold prices and the
+
+statistically significant differences across regimes (Figure 21, in the Annex).
+
+These results could contrast with previous findings in the literature. However, when the link
+
+between geopolitical events and gold returns is placed within a framework where the macro-
+
+financial context is considered, our results can be better understood. In this context, gold could
+
+become an even more attractive refuge under the macro-financial conditions observed over the
+past two years, serving as a modern-day El Dorado.
+
+Finally, for geopolitical threats, these results suggest that such shocks amid loose financial
+
+conditions can have nearly double the impact on gold returns compared with the linear average
+
+effect estimated in the baseline scenarios.
+
+5.5 Summary of Magnitudes
+
+Table 1 summarises the cumulative peak responses of gold prices to a one-standard-deviation or-
+
+thogonal GPR threat and event shocks across specifications. Overall, we find statistical evidence
+
+suggesting that rising geopolitical events, loose global financial conditions, and the combination
+
+of these two states amplify the impact of geopolitical risks on gold price returns compared with
+
+the baseline impact. A phenomenon not tested before in the literature.
+
+Table 1: Cumulative peak responses of gold returns to GPR shocks.
+
+Specification
+
+Cumulative peak response (%)
+
+Events
+
+Threats
+
+Linear (baseline)
+Rising geopolitical risk regime
+Loose global financial conditions
+Rising GPR and loose financial conditions (Regime 4)
+
+≈ 0.6
+≈ 0.8
+≈ 1.0
+≈ 1.2
+
+≈ 0.5
+≈ 1.0
+≈ 0.6
+≈ 1.3
+
+Having documented the state-dependent magnitudes, we now examine the financial mecha-
+
+nisms that explain why financial conditions influence the safe-haven response in the first place.
+
+6 Which financial channels affect the relationship?
+
+In this section, we examine the mechanisms through which financial conditions influence the
+
+relationship between geopolitical risks and gold prices, separating the relationship into the two
+
+channels most commonly analysed in the literature: (i) the credit and liquidity risk channel,
+
+and (ii) the opportunity cost channel. We analyse each in turn and find that our results operate
+
+18
+
+most clearly through the first channel, while the evidence for the second is less conclusive.
+
+The two channels are:
+
+1. Credit and liquidity risk channel: During periods of heightened market stress, such as
+geopolitical shocks, credit and liquidity risks can significantly constrain investors’ ability
+
+to allocate capital to safe-haven assets like gold. When credit risk is high – marked by
+
+tighter credit conditions and elevated borrowing costs – or when liquidity risk is elevated –
+
+characterised by margin calls and forced asset liquidations – investors are often compelled
+
+to prioritise meeting short-term obligations rather than reallocating to gold as a safe
+
+haven. For instance, margin calls during such periods can trigger asset sales to cover
+
+collateral requirements (e.g., Brunnermeier and Pedersen, 2009), leaving little room for
+
+portfolio adjustments towards gold. This dynamic was evident during the Covid-19 episode
+
+(e.g., Akhtaruzzaman et al., 2021). The same logic applies on the credit side: widening
+
+credit spreads are not merely a symptom of stress but a tightening of financial conditions
+
+in their own right, operating through the risk-bearing capacity of the financial sector
+
+(Gilchrist and Zakrajšek, 2012). When intermediary balance sheets are impaired, risk
+
+premia rise across assets because constrained intermediaries cannot take positions, rather
+
+than because fundamentals have changed (He and Krishnamurthy, 2013).
+
+In contrast,
+
+when credit and liquidity risks are low, agents face fewer balance sheet frictions and are
+
+better positioned to reallocate to gold in response to geopolitical shocks.
+
+• To capture these dynamics, we use as a state-dependent threshold the subcomponent
+of the GS US FCI related to corporate credit spreads, which represents the part of
+the broad GS US FCI measuring the share related to credit risks associated with
+
+investment-grade US corporate spreads over equivalent-duration government bond
+
+yields. In Figure 8a, we observe the link between gold prices and credit-liquidity risk
+
+conditions, showing that gold prices tend to rise more significantly during geopolitical
+
+shocks when credit and liquidity risks are low, as agents can easily move into gold
+
+under such conditions.
+
+• For robustness checks, we also use as a threshold in a separate exercise the US BBB
+corporate spread, as a proxy for global credit and liquidity risks. Wider spreads sig-
+nal elevated perceived risks, reflecting both tighter liquidity conditions and increased
+
+credit concerns in the corporate sector. Conversely, narrower spreads indicate im-
+
+proved credit availability and market liquidity, facilitating smoother reallocations to
+
+gold.
+
+2. Opportunity cost channel: Low interest rates can reduce the yield sacrifice of holding
+gold relative to interest-bearing alternatives (e.g. Erb and Harvey, 2013; Chen, Miao, and
+
+Tee, 2023). This reduction in opportunity cost makes gold a more attractive investment,
+
+particularly during periods of heightened geopolitical uncertainty. However, it is impor-
+
+tant to note that low interest rates can also introduce opposing effects in this channel.
+
+While low rates reduce the opportunity cost of holding gold, they often coincide with
+
+19
+
+periods of economic weakness or recessions, reflecting the business cycle position. In such
+
+scenarios, agents may face immediate financial pressures, such as the need to consume
+
+or invest in productive or liquid assets to address short-term economic challenges. These
+
+financial constraints can dampen the demand for gold as a safe-haven, as agents priori-
+
+tise meeting immediate consumption needs or maintaining liquidity over reallocating to
+
+gold. Thus, while the opportunity cost mechanism generally supports higher gold demand
+
+during periods of low interest rates, the broader economic context may complicate this
+
+relationship, introducing opposing forces that can limit the extent of gold’s safe-haven
+
+appeal during geopolitical shocks, as stated in Chen, Miao, and Tee, 2023.
+
+• To capture these dynamics, we use as a state-dependent threshold the GS US FCI
+subcomponent related to the risk-free yield of short-term interest rates. In Figure 8b,
+we observe the link between gold prices and short- and long-interest rates in the US.
+
+• For robustness checks, we also use as a threshold in a separate exercise the GS US
+FCI subcomponent related to long-term interest rates. The performance of long-term
+yields provides further insights into whether this mechanism matters when agents
+
+seek refuge in gold or other safe-haven asset competitors (e.g., US Treasuries).
+
+(a) Gold prices and credit and liquidity risks.
+
+(b) Gold prices and opportunity cost.
+
+Figure 8: Gold prices, credit and liquidity conditions, and interest rates. Note: Data sourced
+from Bloomberg.
+
+We will adjust Equation (3) to consider these two variables as thresholds separately and
+
+compare the results. Specifically:
+
+Dt =
+
+
+
+
+
+
+1 if St−1 = High state,
+0 otherwise.
+
+St ∈ {LiquidityRisk
+
+t, OpportunityCost
+
+t}.
+
+• Credit and liquidity risk channel (CRt): the high state identifies periods of above-
+average credit and liquidity risk, in which balance-sheet and funding constraints are bind-
+ing. We measure CRt with the credit-spread subcomponent of the GS US FCI, and
+re-estimate using the BBB corporate spread.
+
+20
+
+2024238.9%Gold pricesBBB corporate spreadsUS FCI: credit spreads-20246Financial variables (z-score)010002000300040005000gold price (USD x troy ounce)2000m12005m12010m12015m12020m12025m1 2024238.9%Gold pricesUS FCI: short ratesUS FCI: long rates-2-1012Financial variables (z-score)010002000300040005000gold price (USD x troy ounce)2000m12005m12010m12015m12020m12025m1 • Opportunity cost channel (OCt): the high state identifies periods in which the yield
+available on interest-bearing alternatives to gold is above average, so that the yield sac-
+rificed by holding a non-interest-bearing asset is large. We measure OCt with the short-
+interest rate subcomponent of the GS FCI, and re-estimate using the long-term subcom-
+
+ponent.
+
+As elsewhere in the paper, the state is lagged one period so that it is predetermined relative
+
+to the contemporaneous geopolitical-risk shock.
+
+Testing the credit and liquidity risk channel. In Figure 9, we show that the impact of
+both geopolitical threats and geopolitical events is greater during a low-credit-and-liquidity-risk
+
+regime than during a high-risk regime. For geopolitical threats, we find an impact of 0.7% on
+
+gold returns in the month of the shock when credit and liquidity risks are low, while there is
+
+no statistical evidence of an effect when they are high. For geopolitical events, we observe a
+
+positive cumulative impact from the first month after the shock, peaking at 0.9% four months
+
+after the shock, with no statistically significant effects in the high-risk regime.
+
+Figure 10 re-estimates the same specification using the BBB corporate spreads variable and
+
+confirms the pattern. The impact of geopolitical threats on gold returns is 0.6% in the low-risk
+
+regime, compared with no statistical evidence of this effect in the high-risk regime. For the
+
+cumulative impact of geopolitical events, we find that it peaks at approximately 0.9% around
+
+the fourth month in the low-risk state, compared with no statistically significant evidence in
+
+the high-risk state.
+
+These two analysis therefore confirm the validation of this mechanism as set out above:
+
+when there is a lack of credit and liquidity risks, the reallocation towards gold triggered by a
+
+geopolitical shock can be significantly higher.
+
+Testing the opportunity cost channel. The evidence on the second channel is less
+clear-cut. In Figure 11, the response of gold returns to geopolitical shocks is larger in the high-
+
+opportunity-cost state – the opposite of what a yield-sacrifice mechanism predicts. When the
+
+yield on interest-bearing alternatives is high, the impact of geopolitical threats is 0.6%, and the
+
+cumulative impact of geopolitical events peaks at 1.4% four months after the shock. In contrast,
+
+in the low short-term interest rate regime, the impacts are not statistically distinguishable from
+
+zero throughout. Figure 12 re-estimates the specification using alternative long-term interest
+
+rates and yields the same results. These results suggest that the opportunity cost channel, with
+
+thresholds measured in levels, is not an amplifier of the link between geopolitical shocks and
+
+gold returns.
+
+As a final exercise, and recognising the results of Chen, Miao, and Tee, 2023 regarding the
+
+stance of US monetary policy (a subcomponent in the opportunity cost channel), we re-estimate
+
+the threshold analysis in Figure 13, this time considering the easing and tightening cycles of US
+
+monetary policy. To do this, we use as a threshold whether US monetary policy is tightening or
+
+21
+
+Figure 9: Cumulative IRF of GPR shocks on gold price returns conditional on credit and
+liquidity risk conditions. Note: Shocks are orthogonal and uncorrelated with financial sources of
+uncertainty (VIX index). High credit and liquidity risk conditions occur when the credit-spread
+subcomponent of the GS FCI satisfies CLt−1 ≥ CL (in orange); low credit and liquidity risk
+conditions otherwise (in green). Estimated via Local Projections (Jordà, 2005). Confidence
+intervals are at 90%. HAC (Newey-West) std errors are used.
+
+easing, testing whether the signalling of relaxed global monetary conditions plays a role in gold
+
+prices during geopolitical shocks. We find that in this last exercise, the state-dependent local
+
+projections tell a different story. During the easing cycle of US monetary policy, the impact of
+
+geopolitical threats on gold returns is 0.6% on impact, while the cumulative impact of geopolit-
+ical events peaks at 0.8% at month h = 4. In contrast, there is no statistical evidence to suggest
+that geopolitical shocks affect gold returns during the US tightening cycle. This latter analysis
+
+therefore provides some evidence for the opportunity cost channel, but linked explicitly to the
+
+stance of US monetary policy – a key driver of global financial conditions and consistent with
+
+Chen, Miao, and Tee, 2023.
+
+Taken together, these analyses suggest that the state dependence documented in Section 5
+
+operates most clearly through the credit and liquidity risk channel and is less conclusive for
+
+the opportunity cost channel. Loose financial conditions appear to amplify gold’s safe-haven
+
+response to geopolitical shocks by easing frictions that would otherwise prevent or hinder in-
+
+vestors’ reallocation towards gold. This interpretation is also consistent with the horizon results
+
+in Section 5: the response to realised events is fastest in Regime 4, where these constraints are
+
+at their slackest.
+
+We would not, however, interpret these results as ruling out the opportunity cost channel.
+
+The two mechanisms are not mutually exclusive, and it is equally plausible that the two channels
+
+22
+
+-1.5-1-.50.51Gold price return (%)-10123456789101112Months after the impactLow credit and liquidity risksGPR: THREATS-.6-.4-.20.2.4.6.811.21.4Gold price return (%)-10123456789101112Months after the impactHigh credit and liquidity risksGPR: EVENTSFigure 10: Cumulative IRF of GPR shocks on gold price returns conditional on the BBB corpo-
+rate spread. Note: Shocks are orthogonal and uncorrelated with financial sources of uncertainty
+(VIX index). High spread conditions occur when BBBt−1 ≥ BBB (in orange); low spread
+conditions otherwise (in green). Estimated via Local Projections (Jordà, 2005). Confidence
+intervals are at 90%. HAC (Newey-West) std errors are used.
+
+interact: a low yield sacrifice raises the incentive to hold gold, but that incentive can only be
+
+acted upon when funding conditions permit investors to take positions. Thus, the second
+
+channel may amplify the first without being separately identified in a univariate split of the
+
+sample. Disentangling the interaction between the two channels, rather than testing them in
+
+isolation, is a natural direction for further research.
+
+23
+
+-1-.50.51Gold price return (%)-10123456789101112Months after the impactLow BBB corporate spreadsGPR: THREATS-1-.50.511.5Gold price return (%)-10123456789101112Months after the impactHigh BBB corporate spreadsGPR: EVENTSFigure 11: Cumulative IRF of GPR shocks on gold price returns conditional on short-term
+interest rates. Note: Shocks are orthogonal and uncorrelated with financial sources of uncertainty
+(VIX index). High short-rate conditions occur when the short-term interest rate subcomponent
+of the GS FCI satisfies is
+t−1 ≥ is (in orange); low short-rate conditions otherwise (in green).
+Estimated via Local Projections (Jordà, 2005). Confidence intervals are at 90%. HAC (Newey-
+West) std errors are used.
+
+24
+
+-1.5-1-.50.51Gold price return (%)-10123456789101112Months after the impactLow short-term interest ratesGPR: THREATS-.50.511.52Gold price return (%)-10123456789101112Months after the impactHigh short-term interest ratesGPR: EVENTSFigure 12: Cumulative IRF of GPR shocks on gold price returns conditional on long-term
+interest rates. Note: Shocks are orthogonal and uncorrelated with financial sources of uncertainty
+(VIX index). High long-rate conditions occur when the long-term interest rate subcomponent
+of the GS FCI satisfies il
+t−1 ≥ il (in orange); low long-rate conditions otherwise (in green).
+Estimated via Local Projections (Jordà, 2005). Confidence intervals are at 90%. HAC (Newey-
+West) std errors are used.
+
+Figure 13: Cumulative IRF of GPR shocks on gold price returns conditional on the US monetary
+policy cycle. Note: Shocks are orthogonal and uncorrelated with financial sources of uncertainty
+(VIX index). Tightening cycle occur change of the US policy rate is positive (in orange); easing
+cycle conditions otherwise (in green). Estimated via Local Projections (Jordà, 2005). Confidence
+intervals are at 90%. HAC (Newey-West) std errors are used.
+
+25
+
+-1-.50.511.5Gold price return (%)-10123456789101112Months after the impactLow long-term interest ratesGPR: THREATS-1-.50.511.5Gold price return (%)-10123456789101112Months after the impactHigh long-term interest ratesGPR: EVENTS-1-.50.511.5Gold price return (%)-10123456789101112Months after the impactEasing cycle of US monetary policyGPR: THREATS-.6-.4-.20.2.4.6.811.2Gold price return (%)-10123456789101112Months after the impactTightening cycle of US monetary policyGPR: EVENTS7 Robustness tests: analysing potential biases
+
+In this section, we present several robustness checks for this paper, addressing potential omitted
+
+variable biases or mediation factors in the analysis. Specifically, we consider four factors that
+
+could influence our baseline results and the paper’s motivation concerning the recent decoupling
+
+observed in the data: the demand for gold by central banks, the trade momentum of gold prices
+
+during major rally events, the US government yield convenience, and fiscal policy uncertainty
+
+in the United States.
+
+First, we examine the role of major participants in the gold market, with a particular empha-
+
+sis on central banks. Figure 14a shows that the share of gold demand accounted for by central
+
+banks rose over 2022–2024, while the investment share rose in 2025, and Figure 14b shows
+
+total gold net purchases, which fell sharply during the COVID-19 pandemic—when economies
+
+faced heightened liquidity constraints—and has recovered strongly since. ECB (2025) notes
+
+that while gold prices reached historical highs in 2024, central bank gold reserves also rose to
+
+their highest levels since the Bretton Woods era. If central banks and private investors were
+
+the primary drivers of the gold price increases observed during geopolitical episodes, we would
+
+expect geopolitical shocks to raise their purchases. Official and investor demand would then
+
+mediate the relationship we estimate: the response of gold returns would run through a shift in
+
+the demand of these particular participants, rather than reflecting a broader repricing of gold
+
+as a safe-haven asset. We therefore examine how central bank purchases respond to identified
+
+geopolitical shocks.
+
+(a) Composition of gold demand (share, %).
+
+(b) Total gold net purchases (in tonnes).
+
+Figure 14: Central bank gold purchases and the composition of gold demand. Note: Data from
+World Gold Council.
+
+In Figure 15, we present the results of the impact of geopolitical shocks on the monthly data
+
+series of global net gold purchases by central banks. This analysis focuses exclusively on central
+
+bank demand, leveraging the data availability for this variable, which is measured in tonnes and
+
+aggregated for all central banks included in the World Gold Council dataset.8 The analysis is
+
+8Our analysis focuses on central bank purchases, as the World Gold Council provides monthly data for this
+category. The higher frequency of this dataset enables a more timely examination of geopolitical shocks compared
+to the lower-frequency data available for other buyer groups (eg quarterly data).
+
+26
+
+020406080100Share (%)2010201120122013201420152016201720182019202020212022202320242025Holdings of goldCentral banksInvestmentJewelleryTechnology3500400045005000In tonnes2010201520202025Total gold net purchasesFigure 15: Cumulative IRF of GPR shocks on a global central bank gold net purchases. Note:
+Shocks are orthogonal and uncorrelated with financial sources of uncertainty (VIX index). Es-
+timated via Local Projections (Jordà, 2005). Confidence intervals are at 90% and 95%. HAC
+(Newey-West) standard errors are used.
+
+conducted using local projections, following Equation (2). In this case, the dependent variable
+is total gold net purchases by central banks at month h = 0, measured in tonnes. On the
+right-hand side, similar control variables are included, and the impact of geopolitical shocks on
+
+central bank gold purchases is traced.
+
+We observe that, following a geopolitical threat shock, there is a positive association with
+
+central bank purchases five months after the shock. This suggests that, in the aftermath of a
+
+geopolitical threat, precautionary behaviour could lead to an increase in gold reserves. However,
+
+during geopolitical event shocks, the impact on net gold purchases is negative, indicating global
+
+selling of gold by central banks in the fifth and sixth months after the shock. This suggests
+
+a partial liquidation of gold reserves to meet country needs during realised geopolitical episodes.
+
+At first glance, this analysis suggests that the timing of geopolitical threats affecting central
+
+bank gold purchases does not condition the contemporaneous responses observed in gold price
+
+returns in our baseline analysis. For geopolitical event shocks, we find that they tend to reduce
+
+central bank gold purchases on average, weakening the argument that central bank purchases
+
+were the sole driver of our results.9
+
+9While this exercise is conducted as a robustness check, geopolitical threats and events could trigger opposite
+effects on certain central banks’ gold purchases, conditional on specific domestic factors. However, a separate
+paper would be required to analyse more precisely the impact of geopolitical shocks on central bank demand
+for gold. For further analysis linking geopolitical risks, international investors’ portfolio choices and gold reserve
+management, see Arvai, Coimbra, and Pinchetti (2026) and Aizenman et al. (2026).
+
+27
+
+-20-15-10-50510Gold net purchases (in tonnes)-2024681012Months after the impactGPR -15-10-505101520Gold net purchases (in tonnes)-2024681012Months after the impactGPR: THREATS-20-15-10-50510Gold net purchases (in tonnes)-2024681012Months after the impactGPR: EVENTS Second, we assess whether trade momentum influences gold price increases after geopoliti-
+
+cal shocks begin to affect gold prices (Figure 16). Moskowitz, Ooi, and Pederse (2012) argue
+
+that there is significant trade momentum in liquid financial variables, with persistence lasting
+
+from one to 12 months. In this context, if trade momentum plays a role, it could explain an
+
+additional impact on gold prices following a geopolitical shock. We therefore add three-month
+gold-price momentum, defined as mt−1 = 100 × (cid:0) log P gold
+(cid:1), as a control in Equa-
+tions (2) and (3). The window ends in t − 1, so that the control is predetermined with respect
+to the shock in t and does not overlap with the dependent variable at h = 0. When including
+this variable as a control, it leaves our baseline results statistically and economically unchanged
+
+t−1 − log P gold
+
+t−4
+
+(see Annex figures).
+
+Figure 16: Gold price returns. Note: Data from Bloomberg.
+
+Third, we consider whether a change in the perceived safety of US treasury bonds, rather
+
+than geopolitical risk as such, accounts for the recent behaviour of gold prices (Figure 17).
+
+Gold and US treasury bonds compete directly as reserve and safe-haven assets, so the premium
+
+investors pay for dollar bonds safety is a natural omitted variable: an erosion of that premium
+
+would raise the relative attractiveness of gold at the same time as it loosened measured finan-
+
+cial conditions, generating our pattern without any role for geopolitical risk. Du, Keerati, and
+
+Schreger (2026) show that the US bond convenience yield has declined substantially over the
+
+past decade, and Figure 17 reproduces their series for advanced economies: after peaking close
+
+to 1 percentage points in 2011, it has trended down and turned negative from 2019 onwards —
+
+the same window in which gold prices rose most sharply. We therefore re-estimate Equations (2)
+
+and (3), adding the US government bond convenience yield as an additional control. Once in-
+
+cluded, the estimated linear effects of geopolitical shocks on gold prices become smaller and
+
+lose statistical power, whereas the non-linear effect—the paper’s main contribution—remains
+
+statistically significant (see Annex figures). This highlights both the importance of the declining
+
+US bond convenience yield—given the role of the attractiveness of the major safe-haven asset
+
+28
+
+20241M gold returns3M gold returns-20-1001020Returns (%)1990m11995m12000m12005m12010m12015m12020m12025m1 Figure 17: US 5-year convenience government yield for G10 economies. Note: Data from Du,
+Keerati, and Schreger, 2026.
+
+Figure 18: US Fiscal policy uncertainty Index. Note: Data from Hong, Ke, and Nguyen, 2024.
+
+competitor to gold—and the robustness of our state-dependent results for gold prices.
+
+Fourth, we examine whether uncertainty about US fiscal policy is driving our results (Fig-
+
+ure 18). Fiscal uncertainty is a plausible confounder on two counts:
+
+it raises sovereign risk
+
+premia and concerns around US fiscal policy management, which can therefore increase pre-
+
+cautionary demand for gold through a channel unrelated to geopolitics, and episodes of fiscal
+
+brinkmanship are frequently contemporaneous with the geopolitical events our index captures.
+
+Figure 18 plots the US fiscal policy uncertainty index of Hong, Ke, and Nguyen (2024). The
+
+series is dominated by a small number of discrete spikes – the 2011 debt-ceiling episode, the
+
+2013 shutdown and a further spike in 2024 – rather than by persistent variation, which already
+
+29
+
+2024US 5-year convenience government yield for G10 economies-.50.51(%)2000m12005m12010m12015m12020m12025m1 2024US fiscal policy uncertainty-20246Z-score1995m12000m12005m12010m12015m12020m12025m1 limits its scope to explain a sustained repricing of gold. However, the 2024 spike falls inside our
+
+period of interest. Including the index as an additional control in Equations (2) and (3) leaves
+
+our estimates essentially unchanged (see Annex graphs). Finally, this measure serves as a good
+
+proxy for sovereign risks in the US, another relevant factor to control for in the relationship
+
+between geopolitical shocks and gold prices.
+
+Based on these results, we argue that the roles of central banks, gold price momentum,
+
+perceived dollar risk, and uncertainty surrounding US fiscal policy decisions do not necessarily
+
+explain the relationship between geopolitical shocks, gold price returns, and financial conditions,
+
+in the context of our baseline econometric results.
+
+8 Conclusion
+
+This paper investigates the state-dependent effects of geopolitical risks on gold prices, condi-
+
+tional on the scalation of GPR risks and the tightness of global financial conditions, providing
+
+new insights into the dynamics of gold’s safe-haven properties. The findings indicate that geopo-
+
+litical risks – encompassing both threats and realised events – significantly elevate gold returns,
+
+with the effects being more pronounced during periods of loose financial conditions and rising
+
+GPR risks. The largest impacts are observed when rising geopolitical risk indicators coincide
+
+with loose financial conditions, a scenario that has become increasingly prominent in recent
+
+years. Tests for non-linearities corroborate the asymmetric effects documented in this analysis.
+
+We further ask why financial conditions shape the safe-haven response, separating the rela-
+tionship into the two channels most often invoked in the literature: (i) the credit and liquidity
+
+risk channel and (ii) the opportunity cost channel. Our results operate most clearly through
+
+the first channel. When credit and liquidity risks are low, the response of gold returns to geopo-
+
+litical shocks is large and significant; when they are high, it is statistically indistinguishable
+
+from zero. This holds across alternative measures of the channel. The evidence on the second
+
+channel is less conclusive and is sensitive to how the yield sacrifice is measured. We therefore
+
+interpret our findings as suggesting that loose financial conditions amplify gold’s safe-haven role
+
+primarily by relaxing the constraints that limit portfolio reallocation.
+
+Finally, we perform a series of robustness checks to ensure that the link reported in this
+
+paper is not spurious but rather robust to a set of major events potentially affecting gold prices
+
+simultaneously with recent geopolitical shocks. We report that our results remain robust when
+
+considering the role of central bank demand for gold purchases, trade momentum in the gold
+
+market, the evolution of the US government bond convenience yield, and the uncertainty sur-
+
+rounding US fiscal policy.
+
+This study makes three key contributions to the literature. First, it advances prior research
+
+by replacing a contemporaneous analysis with a dynamic and recursive framework, offering a
+
+30
+
+more comprehensive understanding of the relationship between geopolitical risks and gold price
+
+fluctuations. Second, it is the first to examine the non-linear effects of geopolitical shocks on
+
+gold returns, conditional on global financial conditions – a novel approach that addresses a
+
+significant gap in existing research. Third, it distinguishes between geopolitical risks and finan-
+
+cial risks, isolating flight-to-quality effects from safe-haven effects during periods of geopolitical
+
+tension.
+
+Looking ahead, future research could delve deeper into how geopolitical fragmentation and
+
+financial innovation are reshaping the global financial system and influencing patterns in gold
+
+prices. These areas of inquiry are essential for understanding the evolving role of gold as a
+
+safe-haven asset in an increasingly complex and interconnected world.
+
+31
+
+References
+
+Agyei-Ampomah, Sam, Dimitrios Gounopoulos, and Khelifa Mazouz (2014). “Does gold offer a
+better protection against losses in sovereign debt bonds than other metals?” In: Journal of
+Banking & Finance 40, pp. 507–521. doi: 10.1016/j.jbankfin.2013.11.014.
+
+Aizenman, Joshua, Jamel Saadaoui, Gazi Salah Uddin, and Naoki Yago (2026). US Monetary
+Spillovers, Foreign Exchange, and Gold Reserves at Times of Geopolitical Fragmentation.
+Tech. rep. National Bureau of Economic Research.
+
+Akhtaruzzaman, Md, Sabri Boubaker, Brian M Lucey, and Ahmet Sensoy (2021). “Is gold a
+hedge or a safe-haven asset in the COVID–19 crisis?” In: Economic Modelling 102, p. 105588.
+Arvai, Kai, Nuno Coimbra, and Marco Pinchetti (2026). Fool’s Gold? How the USD lost its
+
+Shine. Tech. rep. National Bureau of Economic Research.
+
+Balcilar, Mehmet, Rangan Gupta, and Christian Pierdzioch (2016). “Does uncertainty move the
+gold price? New evidence from a nonparametric causality-in-quantiles test”. In: Resources
+Policy 49, pp. 74–80. doi: 10.1016/j.resourpol.2016.04.004. url: https://doi.org/
+10.1016/j.resourpol.2016.04.004.
+
+Barro, Robert J and Sanjay Misra (2016). “Gold returns”. In: The Economic Journal 126.594,
+
+pp. 1293–1317.
+
+Baur, Dirk G and Brian M Lucey (2010). “Is gold a hedge or a safe haven? An analysis of stocks,
+
+bonds and gold”. In: Financial review 45.2, pp. 217–229.
+
+Baur, Dirk G. and Thomas K. McDermott (2010). “Is gold a safe haven? International evidence”.
+In: Journal of Banking & Finance 34.8, pp. 1886–1898. doi: 10.1016/j.jbankfin.2009.
+12.008.
+
+Baur, Dirk G. and Lee A. Smales (2020). “Hedging geopolitical risk with precious metals”. In:
+Journal of Banking & Finance 117, p. 105823. doi: 10.1016/j.jbankfin.2020.105823.
+Beckmann, Joscha, Theo Berger, and Robert Czudaj (2015). “Does gold act as a hedge or a safe
+haven for stocks? A smooth transition approach”. In: Economic Modelling 48, pp. 16–24.
+— (2019). “Gold price dynamics and the role of uncertainty”. In: Quantitative Finance 19.4,
+pp. 663–681. doi: 10.1080/14697688.2018.1508879. url: https://doi.org/10.1080/
+14697688.2018.1508879.
+
+Beckmann, Joscha and Robert Czudaj (2013). “Gold as an inflation hedge in a time-varying
+coefficient framework”. In: The North American Journal of Economics and Finance 24,
+pp. 208–222. doi: 10.1016/j.najef.2012.10.007.
+
+Bilgin, Mehmet Huseyin, Giray Gozgor, Chi Keung Marco Lau, and Xin Sheng (2018). “The
+effects of uncertainty measures on the price of gold”. In: International Review of Financial
+Analysis 58, pp. 1–7.
+
+Boubaker, Heni, Juncal Cunado, Luis A Gil-Alana, and Rangan Gupta (2020). “Global crises
+and gold as a safe haven: Evidence from over seven and a half centuries of data”. In: Physica
+A: Statistical Mechanics and its Applications 540, p. 123093.
+
+Bouri, Elie, Syed Jawad Hussain Shahzad, David Roubaud, Ladislav Kristoufek, and Brian
+
+Lucey (2020). “Bitcoin, gold, and commodities as safe havens for stocks: New insight through
+wavelet analysis”. In: The Quarterly Review of Economics and Finance 77, pp. 156–164.
+
+32
+
+Bredin, Don, Thomas Conlon, and Valerio Potì (2015). “Does gold glitter in the long-run? Gold
+as a hedge and safe haven across time and investment horizon”. In: International Review of
+Financial Analysis 41, pp. 320–328.
+
+Brunnermeier, Markus K and Lasse Heje Pedersen (2009). “Market liquidity and funding liq-
+
+uidity”. In: The Review of Financial Studies 22.6, pp. 2201–2238.
+
+Caldara, Dario and Matteo Iacoviello (2022). “Measuring Geopolitical Risk”. In: American
+
+Economic Review 112.4, pp. 1194–1225. doi: 10.1257/aer.20191823.
+
+Capie, Forrest, Terence C. Mills, and Geoffrey Wood (2005). “Gold as a hedge against the dol-
+lar”. In: Journal of International Financial Markets, Institutions and Money 15.4, pp. 343–
+352. doi: 10.1016/j.intfin.2004.07.002.
+
+Cheema, Muhammad A, Robert Faff, and Kenneth R Szulczyk (2022). “The 2008 global financial
+crisis and COVID-19 pandemic: How safe are the safe haven assets?” In: International Review
+of Financial Analysis 83, p. 102316.
+
+Chen, Peng, Xinru Miao, and Kai-Hong Tee (2023). “Do gold prices respond more to uncertainty
+
+shocks at the zero lower bound?” In: Resources Policy 86, p. 104057.
+
+Ciner, Cetin, Constantin Gurdgiev, and Brian M Lucey (2013). “Hedges and safe havens: An
+examination of stocks, bonds, gold, oil and exchange rates”. In: International Review of
+Financial Analysis 29, pp. 202–211.
+
+Das, Debojyoti, M Kannadhasan, and Puja Bhowmik (2019). “Geopolitical risk and precious
+
+metals”. In: Journal of Economic Research 24, pp. 49–66.
+
+Du, Wenxin, Ritt Keerati, and Jesse Schreger (2026). “Decoupling dollar and treasury privilege”.
+
+In: NBER Working paper series 35000.
+
+ECB (2025). “Gold demand: the role of the official sector and geopolitics”. In: International
+
+Role of the Euro.
+
+Echaust, Krzysztof and Małgorzata Just (2022). “Is gold still a safe haven for stock markets?
+New insights through the tail thickness of portfolio return distributions”. In: Research in
+International Business and Finance 63, p. 101788. doi: 10.1016/j.ribaf.2022.101788.
+Erb, Claude B. and Campbell R. Harvey (2013). “The Golden Dilemma”. In: Financial Analysts
+
+Journal 69.4, pp. 10–42. doi: 10.2469/faj.v69.n4.1.
+
+Gelos, Gaston, Pietro Patelli, and Ilhyock Shim (2024). “The US dollar and capital flows to
+
+EMEs”. In: BIS Quarterly Review, pp. 51–67.
+
+Gilchrist, Simon and Egon Zakrajšek (2012). “Credit spreads and business cycle fluctuations”.
+
+In: American economic review 102.4, pp. 1692–1720.
+
+Goldman Sachs Research (2017). “Our New G10 Financial Conditions Indices”. In.
+
+Gozgor, Giray, Chi Keung Marco Lau, Xin Sheng, and Larisa Yarovaya (2019). “The role of
+
+uncertainty measures on the returns of gold”. In: Economics Letters 185, p. 108680.
+
+Grosskopf, Peter (Mar. 2020). Keep the Faith: A Message from the CEO. CEO Letter. Corporate
+
+communication. Sprott Inc., pp. 1–7.
+
+He, Q., Y. Guo, and J. Yu (2020). “Nonlinear dynamics of gold and the dollar”. In: The North
+
+American Journal of Economics and Finance 52, p. 101160.
+
+He, Zhiguo and Arvind Krishnamurthy (2013). “Intermediary asset pricing”. In: American Eco-
+
+nomic Review 103.2, pp. 732–770.
+
+33
+
+Hofmann, Boris, Ilhyock Shim, and Hyun Song Shin (2022). “Risk capacity, portfolio choice and
+
+exchange rates”. In: Available at SSRN 4028446.
+
+Hong, Gee Hee, Shikun Ke, and Anh D.M Nguyen (2024). “the economic impact of fiscal policy
+uncertainty: evidence from a new cross-country database”. In: IMF Working papers 2024.209.
+Huynh, Toan Luu Duc (2020). “The effect of uncertainty on the precious metals market: New in-
+sights from Transfer Entropy and Neural Network VAR”. In: Resources Policy 66, p. 101623.
+doi: 10 . 1016 / j . resourpol . 2020 . 101623. url: https : / / doi . org / 10 . 1016 / j .
+resourpol.2020.101623.
+
+IMF (2025). “Global financial stability report: enhancing resilience amid uncertainty”. In.
+
+Jiang, Zhengyang, Arvind Krishnamurthy, and Hanno Lustig (2023). “Dollar Safety and the
+
+Global Financial Cycle”. In: NBER WORKING PAPER SERIES 27682.
+
+Jordà, Òscar (2005). “Estimation and Inference of Impulse Responses by Local Projections”.
+In: American Economic Review 95.1, pp. 161–182. doi: 10.1257/0002828053423622.
+Lee, Howie (Mar. 2020). Covid-19 demonstrates why a return to the Gold Standard is unlikely.
+Treasury Research: Gold. Research note. OCBC Bank, Treasury Research & Strategy, pp. 1–
+
+3.
+
+Miranda-Agrippino, Silvia and Hélène Rey (2020). “US monetary policy and the global financial
+
+cycle”. In: The Review of Economic Studies 87, issue 6, pp. 2754–2776.
+
+Moskowitz, Tobias J, Yao Hua Ooi, and Lasse Heje Pederse (2012). “Time series momentum”.
+
+In: Journal of Financial Economics 104.2, pp. 228–250.
+
+Ngo, Vu Minh, Phuc Van Nguyen, and Yen Hai Hoang (2024). “The impacts of geopolitical
+risks on gold, oil and financial reserve management”. In: Resources Policy 90.104688.
+Raza, Naveed, Sajid Ali, Syed Jawad Hussain Shahzad, and Syed Ali Raza (2018). “Do com-
+
+modities effectively hedge real estate risk? A multi-scale asymmetric DCC approach”. In:
+Resources Policy 57, pp. 10–29.
+
+Reboredo, Juan C (2013). “Is gold a safe haven or a hedge for the US dollar? Implications for
+
+risk management”. In: Journal of Banking & Finance 37.8, pp. 2665–2676.
+
+Salisu, Afees A., Ibrahim D. Raheem, and Umar B. Ndako (2020). “The inflation hedging
+properties of gold, stocks and real estate: A comparative analysis”. In: Resources Policy 66,
+p. 101605. doi: 10.1016/j.resourpol.2020.101605. url: https://doi.org/10.1016/j.
+resourpol.2020.101605.
+
+Triki, Mohamed Bilel and Abderrazek Ben Maatoug (2021). “The GOLD market as a safe haven
+against the stock market uncertainty: Evidence from geopolitical risk”. In: Resources Policy
+70.101872.
+
+Wang, Kuan-Min and Yuan-Ming Lee (2022). “Is gold a safe haven for exchange rate risks?
+An empirical study of major currency countries”. In: Journal of Multinational Financial
+Management 63, p. 100705.
+
+Zulaica, Omar (2020). What share for gold? On the interaction of gold and foreign exchange
+
+reserve returns. Tech. rep. Bank for International Settlements.
+
+34
+
+Appendix
+
+Appendix - Literature review
+
+Table 2: Literature Review on Hedge and Safe-Haven Assets
+
+Author(s) (Year)
+
+Key Findings
+
+Agyei-Ampomah, Gounopoulos,
+
+Industrial metals (like copper) and other precious metals
+
+and Mazouz, 2014
+
+(like palladium) offer better safe-haven protection against
+
+sovereign bond losses than gold.
+
+Barro and Misra, 2016
+
+Gold’s real expected return is close to the risk-free. Gold
+
+has not been a reliable hedge against macroeconomic dis-
+
+asters, and its price volatility has been highly regime-
+
+dependent, rising markedly once the gold standard ended.
+
+Baur and Lucey, 2010
+
+This paper explicitly defines the concepts of a hedge and a
+
+safe-haven, analyzing gold’s role against stocks and bonds
+
+in the US, UK, and Germany.
+
+It concludes that gold
+
+acts as a hedge and a safe-haven for stocks, but not for
+
+bonds, and notes that its safe-haven property is short-
+
+lived (around 15 trading days).
+
+Baur and McDermott, 2010
+
+Gold acts as a strong safe-haven for most developed stock
+
+markets (e.g., US, UK, Germany) but not for Australia,
+
+Canada, Japan, or large emerging markets.
+
+Baur and Smales, 2020
+
+Precious metals, particularly gold, serve as an effective
+
+hedge against geopolitical risk, with pronounced effec-
+
+tiveness in the face of geopolitical threats as opposed to
+
+actualized events.
+
+Beckmann, Berger, and Czudaj,
+
+Gold often acts as both a hedge and a safe haven, though
+
+2015
+
+its performance varies markedly between calm markets
+
+and episodes of stress or turmoil.
+
+Boubaker et al., 2020
+
+Analyzing over seven centuries of data, gold serves as
+
+a strong hedge against global crises, particularly during
+
+bullish phases of the gold market.
+
+Bredin, Conlon, and Potì, 2015
+
+Gold acts as a short- and long-run hedge (up to one year)
+
+and a safe-haven during financial crises, but it failed to
+
+act as a safe-haven during the economic contractions in
+
+early 1980s.
+
+Continued on next page...
+
+35
+
+Table 2 – Continued from previous page
+
+Author(s) (Year)
+
+Key Findings
+
+Cheema, Faff,
+
+and Szulczyk,
+
+While gold acted as a safe-haven during the 2008 Global
+
+2022
+
+Financial Crisis, it failed to protect investor wealth dur-
+
+ing the COVID-19 pandemic.
+
+Ciner, Gurdgiev, and Lucey,
+
+Gold acts as a safe-haven against extreme movements in
+
+2013
+
+exchange rates in the US and UK, underscoring its role
+
+as a monetary asset.
+
+Echaust and Just, 2022
+
+Utilizing Extreme Value Theory, gold successfully re-
+
+duced extreme downside risk (fat tails) during the GFC,
+
+but failed to do so during the COVID-19 pandemic.
+
+Erb and Harvey, 2013
+
+Over typical
+
+investment horizons, gold’s returns are
+
+driven much more by changes in its real price than by
+
+realized inflation, and gold is not a reliably effective
+
+safe-haven asset during periods of financial stress.
+
+Grosskopf, 2020
+
+Gold provided necessary liquidity during the COVID-19
+
+crisis margin calls, and long-term investors not subject to
+
+margin pressures are rewarded by holding it as portfolio
+
+insurance.
+
+Reboredo, 2013
+
+Gold can act as a safe-haven asset against extreme US
+
+dollar (USD) rate movements.
+
+Zulaica, 2020
+
+This paper shows a portafolio analysis for central banks.
+
+It shows that gold’s substantial market risk keeps base-
+
+line allocations low. However, gold can serve as an ef-
+
+fective hedge in portfolios with higher interest rate sensi-
+
+tivity (longer duration) or when returns are measured in
+
+non-reserve numeraires.
+
+36
+
+Appendix - Additional graphs
+
+Figure 19: Dynamic coefficients for each period h of non-linear tests across regimes: rising vs
+non-rising GPR risks. Note: Tests were performed by tracing the dynamics of the coefficient
+θ from the interaction term in Equation (3). Statistical significance indicates that the state
+variable interaction adds information beyond the baseline effect.
+
+Figure 20: Dynamic coefficients for each period h of non-linear tests across regimes: tight vs
+loose financial conditions. Note: Tests were performed by tracing the dynamics of the coefficient
+θ from the interaction term in Equation (3). Statistical significance indicates that the state
+variable interaction adds information beyond the baseline effect.
+
+37
+
+-2-1.5-1-.50.511.5Gold price return (%)-10123456789101112Months after the impactGPR: THREATS-1-.50.511.5Gold price return (%)-10123456789101112Months after the impactGPR: EVENTSStatistical non-linear difference across H: rising vs non-rising GPR-.6-.4-.20.2.4.6.811.21.4Gold price return (%)-10123456789101112Months after the impactGPR: THREATS-.50.511.52Gold price return (%)-10123456789101112Months after the impactGPR: EVENTSStatistical non-linear difference across H: tight vs loose FCFigure 21: Dynamic coefficients for each period h of non-linear tests across regimes: Regime
+4 (rising GPR and loose FC) vs other regimes. Note: Tests were performed by tracing the
+dynamics of the coefficient θ from the interaction term in Equation (3). Statistical significance
+indicates that the state variable interaction adds information beyond the baseline effect.
+
+Figure 22: Cumulative impact of geopolitical shocks on gold price returns, controlling for the
+three-month gold price momentum. Note: Estimations for robustness check.
+
+38
+
+-2.5-2-1.5-1-.50.511.52Gold price return (%)-10123456789101112Months after the impactGPR: THREATS - R4: rising GPR and loose FC-1.5-1-.50.511.52Gold price return (%)-10123456789101112Months after the impactGPR: EVENTS - R4: rising GPR and loose FCStatistical non-linear difference across H: Regime 4 vs baseline-.4-.20.2.4.6.8Gold price return (%)-2024681012Months after the impactGPR -.8-.6-.4-.20.2.4.6.81Gold price return (%)-2024681012Months after the impactGPR: THREATS-.4-.20.2.4.6.81Gold price return (%)-2024681012Months after the impactGPR: EVENTS Figure 23: State-dependent cumulative impact of geopolitical shocks on gold price returns, con-
+ditional on rising geopolitical events and controlling for the three-month gold price momentum.
+Note: Estimations for robustness check.
+
+Figure 24: State-dependent cumulative impact of geopolitical shocks on gold price returns,
+conditional on financial conditions and controlling for the three-month gold price momentum.
+Note: Estimations for robustness check.
+
+39
+
+-1.5-1-.50.511.5Gold price return (%)-10123456789101112Months after the impactRising geopolitical risksGPR: THREATS-1-.50.511.5Gold price return (%)-10123456789101112Months after the impactDecreasing geopolitical risksGPR: EVENTS-1-.50.511.5Gold price return (%)-10123456789101112Months after the impactLoose financial conditionsGPR: THREATS-1-.50.511.5Gold price return (%)-10123456789101112Months after the impactTight financial conditionsGPR: EVENTSFigure 25: Cumulative impact of geopolitical shocks on gold price returns, controlling for the
+US 5-year convenience government yield for G10 economies from Du, Keerati, and Schreger,
+2026. Note: Estimations for robustness check.
+
+Figure 26: State-dependent cumulative impact of geopolitical shocks on gold price returns, con-
+ditional on rising geopolitical events and controlling for the US 5-year convenience government
+yield for G10 economies from Du, Keerati, and Schreger, 2026. Note: Estimations for robust-
+ness check.
+
+40
+
+-.6-.4-.20.2.4.6.8Gold price return (%)-2024681012Months after the impactGPR -1-.50.511.5Gold price return (%)-2024681012Months after the impactGPR: THREATS-.8-.6-.4-.20.2.4.6.8Gold price return (%)-2024681012Months after the impactGPR: EVENTS -1.5-1-.50.511.52Gold price return (%)-10123456789101112Months after the impactRising geopolitical risksGPR: THREATS-1.5-1-.50.511.5Gold price return (%)-10123456789101112Months after the impactDecreasing geopolitical risksGPR: EVENTSFigure 27: State-dependent cumulative impact of geopolitical shocks on gold price returns,
+conditional on financial conditions and controlling for the US 5-year convenience government
+yield for G10 economies from Du, Keerati, and Schreger, 2026. Note: Estimations for robustness
+check.
+
+Figure 28: Cumulative impact of geopolitical shocks on gold price returns, controlling for the US
+fiscal policy uncertainty from Hong, Ke, and Nguyen, 2024. Note: Estimations for robustness
+check.
+
+41
+
+-1.5-1-.50.511.52Gold price return (%)-10123456789101112Months after the impactLoose financial conditionsGPR: THREATS-1.5-1-.50.511.5Gold price return (%)-10123456789101112Months after the impactTight financial conditionsGPR: EVENTS-.4-.20.2.4.6.81Gold price return (%)-2024681012Months after the impactGPR -.8-.6-.4-.20.2.4.6.81Gold price return (%)-2024681012Months after the impactGPR: THREATS-.6-.4-.20.2.4.6.81Gold price return (%)-2024681012Months after the impactGPR: EVENTS Figure 29: State-dependent cumulative impact of geopolitical shocks on gold price returns,
+conditional on rising geopolitical events and controlling for the US fiscal policy uncertainty
+from Hong, Ke, and Nguyen, 2024. Note: Estimations for robustness check.
+
+Figure 30: State-dependent cumulative impact of geopolitical shocks on gold price returns,
+conditional on financial conditions and controlling for the US fiscal policy uncertainty from
+Hong, Ke, and Nguyen, 2024. Note: Estimations for robustness check.
+
+42
+
+-2-1.5-1-.50.511.52Gold price return (%)-10123456789101112Months after the impactRising geopolitical risksGPR: THREATS-1.5-1-.50.511.5Gold price return (%)-10123456789101112Months after the impactDecreasing geopolitical risksGPR: EVENTS-1.5-1-.50.51Gold price return (%)-10123456789101112Months after the impactLoose financial conditionsGPR: THREATS-.6-.4-.20.2.4.6.811.21.4Gold price return (%)-10123456789101112Months after the impactTight financial conditionsGPR: EVENTS

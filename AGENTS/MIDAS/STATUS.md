@@ -1,5 +1,8 @@
 # MIDAS — STATUS
 
+**Gold/conflict history October 25, 2026 (Will-directed):** `gold/research/2026-10-25_gold-during-war.md`. WGC selected 14 geopolitical-risk spike weeks: gold positive64%, small retrospective sample, not war odds. Fixed seven modern event windows: Ukraine2022 +2.72% at21/−8.44% at126 sessions; Hamas2023 +8.04/+28.27%; Iran2026 first-session+1.29%, then21−14.30%,126−15.47%. Initial fear bid and sustained war-period return differ. Older World Bank monthly averages kept separate. BIS author paper supports conditional haven response but sample ends March2026. No score, forecast, trade or cadence change; actual8/20.
+
+
 **October 25 bank-buying explanation:** `gold/research/2026-10-25_why-weak-despite-bank-buying.md`. Re-opened WGC confirms reported global +39t August and China +23t September; these are lagged monthly buying observations. Investor exposure reductions and October22 GLD withdrawal support selling-pressure interpretation, not proven forced selling or a quantified causal split. Global ETF additions/custody versus new purchases caveats retained; no score/forecast change.
 
 

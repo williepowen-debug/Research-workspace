@@ -64,3 +64,5 @@ Put inseparable multi-metal work in [shared](../shared/README.md), once, and lin
 - [Gold versus equities, Treasuries and oil](../shared/research/2026-10-25_gold-versus-equities-bonds-oil.md) — October 25 cross-asset extension; matched dates, return bases, historical cases and changing relationships.
 
 - [Why gold is weak despite bank buying](research/2026-10-25_why-weak-despite-bank-buying.md) — participant/reporting clocks, verified buying, selling evidence and causal limits.
+
+- [Gold during war and conflict](research/2026-10-25_gold-during-war.md) — October 25 historical study; initial response versus later returns, with separate older monthly evidence and primary research.

@@ -1,5 +1,8 @@
 # MIDAS — SCRATCH
 
+**Later October 25 — Will requested gold performance during war:** completed `gold/research/2026-10-25_gold-during-war.md`; raw WB monthly workbook, WGC/BIS primary studies, chronology references, fixed7-event GLD calculations and charts in `gold/sources/2026-10-25_war-history/`. KB202–205. Initial fear response often differs from month/six-month return; current Iran first-session up then first21 down14.3%. Older five-case monthly averages not pooled with daily fund returns. No causal war-only effect, calibrated odds, score/forecast/trade or new cadence. Existing settlement and Monday calendar preserved. Late WALTER005 copper packet read/deferred as KB206/board_log; period/model checks remain with next existing copper review and WALTER October26 follow-up, no new I1 claim. No pull over foreign work.
+
+
 **Later October 25 — Will asked why gold is weak despite bank buying:** saved `gold/research/2026-10-25_why-weak-despite-bank-buying.md`; WGC August39t/ChinaSept23t reverified on public primary pages. Explained different participant clocks, rate/dollar backdrop versus recent yield relief, COT/GLD evidence and unproven force/causal shares. KB201; no new research cadence, score or forecast. Underlying Goldman note still unheld. Existing next-event work unchanged.
 
 
