@@ -1205,6 +1205,58 @@
         },
         "recorded_at": "2026-10-25T18:48:37.390704+00:00"
       }
+    ],
+    "AGENTS/LIQUID/MEMORY.md": [
+      {
+        "owner": "LIQUID",
+        "reason": "LIQUID updated its own continuity during the independently running WQ523 case after PROME froze. PROME handoff explicitly labels new case and new closeout receipt pending; prior Sunday results remain historical committed evidence. These current bytes are not part of PROME delivery.",
+        "basis": {
+          "path": "AGENTS/LIQUID/CLAUDE.md",
+          "commit": "4da79f1eeb8a6c960f6e00d757a1915ae70fa74a",
+          "sha256": "8508be5545a3c74993ac4dd70005abed8be438c5fdf06548bde99f69d9651a05"
+        },
+        "quote": "# LIQUID \u2014 Agent Instructions",
+        "not_relied_on": true,
+        "snapshot": {
+          "commits": [
+            "2444de3f156148f38284744d560fbb85c7d54fb0",
+            "f102d5a1f3b477355221d3548f1b37687949a952",
+            "2f1a92dd26a28b66f40975ecbca0d8b772df3b14"
+          ],
+          "pending": [
+            " M"
+          ],
+          "working_sha256": "4a683bc2189ac8250d1f5d81ced04812f0807c7d597fc9fee22e93d7a259a246",
+          "commit_sha256": "17a42eb8fed8a69d8176537ca72084ad078613b82b97a384133a67547288e32b"
+        },
+        "recorded_at": "2026-10-25T18:50:10.035752+00:00"
+      }
+    ],
+    "AGENTS/LIQUID/STATUS.md": [
+      {
+        "owner": "LIQUID",
+        "reason": "LIQUID updated its own continuity during the independently running WQ523 case after PROME froze. PROME handoff explicitly labels new case and new closeout receipt pending; prior Sunday results remain historical committed evidence. These current bytes are not part of PROME delivery.",
+        "basis": {
+          "path": "AGENTS/LIQUID/CLAUDE.md",
+          "commit": "4da79f1eeb8a6c960f6e00d757a1915ae70fa74a",
+          "sha256": "8508be5545a3c74993ac4dd70005abed8be438c5fdf06548bde99f69d9651a05"
+        },
+        "quote": "# LIQUID \u2014 Agent Instructions",
+        "not_relied_on": true,
+        "snapshot": {
+          "commits": [
+            "2444de3f156148f38284744d560fbb85c7d54fb0",
+            "f102d5a1f3b477355221d3548f1b37687949a952",
+            "2f1a92dd26a28b66f40975ecbca0d8b772df3b14"
+          ],
+          "pending": [
+            " M"
+          ],
+          "working_sha256": "03e498b537a8107874bbaf4c0ba662a99907509b9d29e7c9a311057e97796a80",
+          "commit_sha256": "404f3fd8e906392505c8809ad004fc044338fd3ab71c8a5185b8c3973e05ebeb"
+        },
+        "recorded_at": "2026-10-25T18:50:10.044101+00:00"
+      }
     ]
   },
   "inventory": {
@@ -2950,8 +3002,10 @@
         "f102d5a1f3b477355221d3548f1b37687949a952",
         "2f1a92dd26a28b66f40975ecbca0d8b772df3b14"
       ],
-      "pending": [],
-      "working_sha256": "17a42eb8fed8a69d8176537ca72084ad078613b82b97a384133a67547288e32b",
+      "pending": [
+        " M"
+      ],
+      "working_sha256": "4a683bc2189ac8250d1f5d81ced04812f0807c7d597fc9fee22e93d7a259a246",
       "commit_sha256": "17a42eb8fed8a69d8176537ca72084ad078613b82b97a384133a67547288e32b"
     },
     "AGENTS/LIQUID/NEXUS_BRIEF.md": {
@@ -2969,8 +3023,10 @@
         "f102d5a1f3b477355221d3548f1b37687949a952",
         "2f1a92dd26a28b66f40975ecbca0d8b772df3b14"
       ],
-      "pending": [],
-      "working_sha256": "404f3fd8e906392505c8809ad004fc044338fd3ab71c8a5185b8c3973e05ebeb",
+      "pending": [
+        " M"
+      ],
+      "working_sha256": "03e498b537a8107874bbaf4c0ba662a99907509b9d29e7c9a311057e97796a80",
       "commit_sha256": "404f3fd8e906392505c8809ad004fc044338fd3ab71c8a5185b8c3973e05ebeb"
     },
     "AGENTS/LIQUID/analysis/2026-10-23_L818-followup-H8-bank-credit-shift.md": {
@@ -2988,6 +3044,14 @@
       ],
       "working_sha256": "f80919d4a95a019baa7fe234e5822031455fa70f3ca0fe7833e947b59368c807",
       "commit_sha256": "23b30a88c44caf7bbe7943b05c0dc64b8281d1f03cc92cad2b8027a633b53764"
+    },
+    "AGENTS/LIQUID/archive/status_snapshots/STATUS_before-2026-10-25-WQ523.md": {
+      "commits": [],
+      "pending": [
+        "??"
+      ],
+      "working_sha256": "404f3fd8e906392505c8809ad004fc044338fd3ab71c8a5185b8c3973e05ebeb",
+      "commit_sha256": null
     },
     "AGENTS/LIQUID/archive/status_snapshots/STATUS_before-2026-10-25-boot.md": {
       "commits": [
@@ -3105,6 +3169,14 @@
       "working_sha256": "c3eaa14c64ab3ed928cfabd28ce643c7cd336d9fe5bd2ba4a70f463ddc7d85ca",
       "commit_sha256": null
     },
+    "AGENTS/LIQUID/research/2026-10-25_WQ523-carmart/source-receipt.json": {
+      "commits": [],
+      "pending": [
+        "??"
+      ],
+      "working_sha256": "0fbe9d79202070f03ff97c9b2647af30712fec3c0f107ccd1b58db25f2da4cfa",
+      "commit_sha256": null
+    },
     "AGENTS/LIQUID/research/2026-10-25_WQ523-carmart/sources/before-2026-10-23_L818-followup-H8-bank-credit-shift.md": {
       "commits": [],
       "pending": [
@@ -3159,6 +3231,14 @@
         "??"
       ],
       "working_sha256": "46649a5a15af22118c6ad4d14a292284f69fbb056a6944cc69b39d6b89d9539e",
+      "commit_sha256": null
+    },
+    "AGENTS/LIQUID/research/2026-10-25_WQ523-carmart/state-rotation.json": {
+      "commits": [],
+      "pending": [
+        "??"
+      ],
+      "working_sha256": "4f30ade62ed2ad67209479c2f5cdfd7af999b2f578247a7b8c0a8d8aa11f83e8",
       "commit_sha256": null
     },
     "AGENTS/LIQUID/research/2026-10-25_boot/REPORT.md": {
@@ -5554,24 +5634,22 @@
         "70d7a131eeda6f7a3d607dd8c987ff1d166acd34",
         "30d226e02cebb9fe6ab9dd2e2d25080d99a29b68",
         "d06dbff4c1232e06e6f7d21f8c887d5d856a8083",
-        "df3915b4b3b2cb4384398e72e56117e5e13bf57c"
+        "df3915b4b3b2cb4384398e72e56117e5e13bf57c",
+        "245ef3217bf43115c78af5ba5b3c7f043472b726"
       ],
-      "pending": [
-        " M"
-      ],
+      "pending": [],
       "working_sha256": "c9e8849c155462393e2411c0d715dabb6d5e485e3d12350aac78eef0aa71c2a4",
-      "commit_sha256": "fa45bab1c33d711861c46559be1905528db0ebbad8c3a74b28787031af41316c"
+      "commit_sha256": "c9e8849c155462393e2411c0d715dabb6d5e485e3d12350aac78eef0aa71c2a4"
     },
     "PROME/HANDOFF.md": {
       "commits": [
         "2e2d391442a5d93e92ec1858fbe68f8c7637250e",
-        "ad9b0ef2e022e958140f2ed57f6d4f8e3c0b58ad"
+        "ad9b0ef2e022e958140f2ed57f6d4f8e3c0b58ad",
+        "245ef3217bf43115c78af5ba5b3c7f043472b726"
       ],
-      "pending": [
-        " M"
-      ],
+      "pending": [],
       "working_sha256": "962b3a7cfa17984cbe28a690a85e86e860f9a62e7f5e5e2925bc3e01297bd84e",
-      "commit_sha256": "8dffe08d4a7848e9e57fa4d204f3bc6fe7486b9ef1ce605e45356f66ced97a35"
+      "commit_sha256": "962b3a7cfa17984cbe28a690a85e86e860f9a62e7f5e5e2925bc3e01297bd84e"
     },
     "PROME/SCRATCH.md": {
       "commits": [
@@ -5581,24 +5659,22 @@
         "ad9b0ef2e022e958140f2ed57f6d4f8e3c0b58ad",
         "70d7a131eeda6f7a3d607dd8c987ff1d166acd34",
         "201f5f57335ca29fb3920c4b17787c1a8e428bb9",
-        "30d226e02cebb9fe6ab9dd2e2d25080d99a29b68"
+        "30d226e02cebb9fe6ab9dd2e2d25080d99a29b68",
+        "245ef3217bf43115c78af5ba5b3c7f043472b726"
       ],
-      "pending": [
-        " M"
-      ],
+      "pending": [],
       "working_sha256": "d8fe761672c5f7bc9c398b950f502dce3b284aa445769eb46644775141f2492b",
-      "commit_sha256": "eb8f5a31783ce11b49c76ce36cc5d56b286ff82ff778b3f248b861a49c887e2a"
+      "commit_sha256": "d8fe761672c5f7bc9c398b950f502dce3b284aa445769eb46644775141f2492b"
     },
     "PROME/STATUS.md": {
       "commits": [
         "2e2d391442a5d93e92ec1858fbe68f8c7637250e",
-        "ad9b0ef2e022e958140f2ed57f6d4f8e3c0b58ad"
+        "ad9b0ef2e022e958140f2ed57f6d4f8e3c0b58ad",
+        "245ef3217bf43115c78af5ba5b3c7f043472b726"
       ],
-      "pending": [
-        " M"
-      ],
+      "pending": [],
       "working_sha256": "e5c88c53351b4dc5bc21cc4b4cb45d5ececdfad3fedfd5ae08230af0faf15406",
-      "commit_sha256": "44be33eba1dfc70c3c71b332a1eedd27d16b0c92abcca91454db786ec018a61b"
+      "commit_sha256": "e5c88c53351b4dc5bc21cc4b4cb45d5ececdfad3fedfd5ae08230af0faf15406"
     },
     "PROME/WILL_QUEUE.md": {
       "commits": [
@@ -6217,13 +6293,12 @@
         "70d7a131eeda6f7a3d607dd8c987ff1d166acd34",
         "30d226e02cebb9fe6ab9dd2e2d25080d99a29b68",
         "d06dbff4c1232e06e6f7d21f8c887d5d856a8083",
-        "df3915b4b3b2cb4384398e72e56117e5e13bf57c"
+        "df3915b4b3b2cb4384398e72e56117e5e13bf57c",
+        "245ef3217bf43115c78af5ba5b3c7f043472b726"
       ],
-      "pending": [
-        " M"
-      ],
+      "pending": [],
       "working_sha256": "8bb43377225062b9d3d9cf2e89f505a01e348c15ae77abee026a28b521a70760",
-      "commit_sha256": "d13a5d0c51ae7f6e7217a472ee1470d3938ccb76014c686dd32757beddb8e2af"
+      "commit_sha256": "8bb43377225062b9d3d9cf2e89f505a01e348c15ae77abee026a28b521a70760"
     },
     "PROME/state/ORCH_INFLIGHT.md": {
       "commits": [
@@ -6260,13 +6335,12 @@
     "PROME/state/firetime_dispositioned.tsv": {
       "commits": [
         "8c772e08cc44286af876e9236c0108f2b2f0ab23",
-        "3a81b6265327f2ed5305ae55d18923f5eb647667"
+        "3a81b6265327f2ed5305ae55d18923f5eb647667",
+        "245ef3217bf43115c78af5ba5b3c7f043472b726"
       ],
-      "pending": [
-        " M"
-      ],
+      "pending": [],
       "working_sha256": "613498f41f829a94d63ee56f31a61f1b47fad9e7b53dbe3fbae2de35e276de6a",
-      "commit_sha256": "2c85953654769cc766bb70504720544f7a317ec2f1be69248a3b1c2d5b35f025"
+      "commit_sha256": "613498f41f829a94d63ee56f31a61f1b47fad9e7b53dbe3fbae2de35e276de6a"
     },
     "PROME/tools/ARGUS_CONTRACT.md": {
       "commits": [
@@ -6321,12 +6395,12 @@
       "commit_sha256": "09bf355a4973bf5b72878c1c941f5c5820a1c29856a2a21b6a793239760fc4e8"
     },
     "memory/2026-10-25.md": {
-      "commits": [],
-      "pending": [
-        "??"
+      "commits": [
+        "245ef3217bf43115c78af5ba5b3c7f043472b726"
       ],
+      "pending": [],
       "working_sha256": "557a09f4065a4f186659b0d66c9d321c14de7b5859db597de4eea0a3365fb14c",
-      "commit_sha256": null
+      "commit_sha256": "557a09f4065a4f186659b0d66c9d321c14de7b5859db597de4eea0a3365fb14c"
     }
   },
   "attributed_by_commit": {
