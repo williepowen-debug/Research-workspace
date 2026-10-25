@@ -1,0 +1,44 @@
+
+  ══════════════════════════════════════════════════════════
+   PROME Market Stress Dashboard
+   2026-10-25 22:42:17 UTC
+  ══════════════════════════════════════════════════════════
+
+  TIER 1 — DECISION DRIVERS
+  ┌──────────────────┬────────────────────┬────────────────────────┬────────────┬──────────┐
+  │ Series           │ Value              │ As-of                  │ Zone       │ Agent    │
+  ├──────────────────┼────────────────────┼────────────────────────┼────────────┼──────────┤
+  │ HY OAS           │ 340bps (+13.00)    │ [10/22]                │ 🔴 red      │ REGINALD/LIQUID │
+  │ CCC OAS          │ 1340bps (+33.00)   │ [10/22]                │ 🔴 red      │ LIQUID   │
+  │ Brent (BZZ26 Dec) │ $115.27            │ [10/25 non-session] ⚠non-session bar, Δ withheld │ 🔴 red      │ HENRY    │
+  │ Gas (wkly)       │ 4.28 (-0.05)       │ [10/19]                │ 🔴 red      │ HENRY/CARL │
+  │ USD/JPY          │ 156.85 (+0.13)     │ [10/25]                │ 🟡 yellow   │ SAM      │
+  │ Init Claims      │ 194,000 (-6,000)   │ [10/17]                │ 🟢 green    │ LABOR    │
+  │ Cont Claims      │ 1,728,000 (+25,000) │ [10/10]                │ 🟢 green    │ LABOR    │
+  │ SOFR             │ 3.90 (+0.02)       │ [10/22]                │ 🔴 red      │ LIQUID   │
+  │ 10Y Yield        │ 4.96 (-0.17)       │ [10/22]                │ 🔴 red      │ LIQUID   │
+  │ CP-TBill Spread  │ 0.00 (-0.05)       │ [10/20] Δ over 2 sessions │ 🟢 green    │ LIQUID   │
+  │ SOFR-IORB        │ 0.00 (+0.02)       │ [10/22]                │ 🟢 green    │ LIQUID   │
+  │ Cushing          │ 27.59 (+0.99)      │ [10/16]                │ 🟢 green    │ BRENT    │
+  └──────────────────┴────────────────────┴────────────────────────┴────────────┴──────────┘
+
+  TIER 2 — POSITION MONITORING
+  ┌──────────────────┬────────────────────┬────────────────────────┬────────────┬──────────┐
+  │ Series           │ Value              │ As-of                  │ Zone       │ Agent    │
+  ├──────────────────┼────────────────────┼────────────────────────┼────────────┼──────────┤
+  │ KRE              │ $72.46 (+0.05)     │ [10/23] ⚠stale         │ 🟢 green    │ LIQUID   │
+  │ APO              │ $112.83 (-2.00)    │ [10/23] ⚠stale         │ 🟡 yellow   │ BROCK    │
+  │ ARES             │ $122.08 (-1.62)    │ [10/23] ⚠stale         │ 🟡 yellow   │ BROCK    │
+  │ OZK              │ $50.61 (+0.94)     │ [10/23] ⚠stale         │ 🟢 green    │ REGINALD │
+  │ WAL              │ $76.12 (-0.55)     │ [10/23] ⚠stale         │ 🟢 green    │ REGINALD │
+  │ TLT              │ $81.34 (-0.40)     │ [10/23] ⚠stale         │ 🔴 red      │ LIQUID   │
+  │ BIZD             │ $11.93 (-0.13)     │ [10/23] ⚠stale         │ 🔴 red      │ BROCK    │
+  │ ARCC             │ $18.64 (-0.15)     │ [10/23] ⚠stale         │ 🟡 yellow   │ BROCK    │
+  │ FSK              │ $10.44 (-0.09)     │ [10/23] ⚠stale         │ 🔴 red      │ BROCK    │
+  │ OBDC             │ $10.05 (-0.12)     │ [10/23] ⚠stale         │ 🔴 red      │ BROCK    │
+  │ VIX              │ 19.45 (+0.42)      │ [10/23] ⚠stale         │ 🟢 green    │ REGINALD │
+  │ MOVE             │ 103.31 (-3.53)     │ [10/23] ⚠stale         │ 🟡 yellow   │ VIOLET/HENRY │
+  └──────────────────┴────────────────────┴────────────────────────┴────────────┴──────────┘
+
+  SUMMARY: 10🔴  5🟡  9🟢  │  🔴 CRITICAL (score 16)
+
