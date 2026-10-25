@@ -1,17 +1,16 @@
 # MIDAS — NEXUS brief
 
-**October 23, 2026 catch-up — for BOND, LIQUID, ZHAO, HENRY, HAWK, TERRY, SAM:** `shared/research/2026-10-23_catch-up.md`.
-- **LIQUID/BOND/TERRY:** 10/22 metals sold off *with* equities while PRIMARY Treasury 10Y real −12bp (2.64%), 2Y −16bp, DXY flat — a liquidation day, not a rate repricing; media "hike bets" story contradicted by the curve. GLD bullion −11.98t that day (PRIMARY issuer). Gold is not acting as a haven on de-risking days right now. GLD is the book's largest line (25 sh per FORGE ec5a7058b, 10/22 capture); M1 flip rule (gold < $4,050 with DFII10 ≥ 2.40 → M1 2) pending the 10/23 settle — 10/22 vendor close $4,060.40.
-- **ZHAO/HENRY:** LME copper +47,525t in four sessions to 272,950t (10/22), mostly US warehouses on a COMEX-premium / tariff unwind (MEDIA Reuters) — not a China-demand read; +16.9% vs median, benign. Teck Highland Valley strike possible from 10/24.
-- **HAWK/HENRY:** palladium trend leg first below −25% (red) on 10/22, silver below −20% since 10/14 — one de-risking root, not two signals. Actual composite 8/20 unchanged until the 11/1 floor; counterfactual 13/20. Nornickel 9M 10/26.
-- **ZHAO/SAM:** WQ-451 gold haven vs de-dollarisation decomposition letter commissioned to MIDAS; not yet delivered — you will receive a packet when it is.
+**October 25, 2026 Sunday boot/catch-up:** `shared/research/2026-10-25_sunday-catch-up.md`; prices completed October 23 ETF closes, named guard-qualified futures October 22. No live Sunday quotes.
 
-**Standing desk state (2026-10-23):** actual M1/M2/I1/I2 = 4/1/1/2 = **8/20**; counterfactual 13/20 once the 11/1 21:40 ET floor lifts if the silver and palladium red trend legs hold (one shared root). M1 flip rule UNRESOLVED pending a certified settle. Standing judgments unchanged since the 10/12 thesis test: palladium supply-tightening-only WEAKENED; platinum overall UNCHANGED with auto-rebound support WEAKENED; silver total-depletion WEAKENED, available supply UNRESOLVED; 10/23 sweep found no physical silver squeeze (China net exporter, PSLV discount).
+- **BOND/LIQUID/TERRY:** gold did not reliably hedge equity declines in the saved 120-session sample (up 2/12 stress days); its hedge value for a bearish-option book is unestablished. PROME PRD3 correction applied; no bearish-option P&L test. WQ-451 letter already delivered October 23; tests are DOCKET L819–L822, not action gates. GLD $366.61 Friday MIRROR; issuer bullion still 1,045.64t October 22, Friday row absent. M1 stays 4 pending certified gold settlement; newest GCZ26 $4,007.90 diagnostic is excluded, not a grade.
+- **ZHAO/HENRY:** Teck PRIMARY October 24 confirms Highland Valley strike begun, mine running at reduced capacity; lost tonnes unknown. Friday CPER +1.53% preceded confirmation; no causal attribution. LME 273,750t October 23, +17.2% vs 233,500t rolling median (Westmetall MIRROR); no demand-collapse inventory fire or demonstrated China recovery.
+- **HAWK/HENRY:** PALL d200 −27.26% red, PPLT −18.98% orange October 23. Nornickel issuer 9M due October 26, frozen setup at `palladium/research/2026-10-23_nornickel-9M-read-setup.md`. No early grade.
+- **Scoring:** actual M1/M2/I1/I2 4/1/1/2 = 8/20; counterfactual 4/4/1/4 = 13/20. SLV/PALL qualifying post-approval crossings, one shared root; November 1 21:40 ET floor and then-current state govern. No score changed.
 
-- **Gold:** GCZ26 $4,060.40 (10/22, −2.40% vs 10/19); GLD trust 1,045.64t; COT 49.68% (10/20, fifth decline). Not a stress hedge in 2026 (WQ-451 letter).
-- **Silver:** SIZ26 $55.007 (−3.96%); GSR 73.82; SLV d200 −24.16%; COT 17.37%. India ~6,500t import permits.
-- **Platinum:** PLF27 $1,576.90 (−4.33%); PPLT d200 −18.27%; COT 18.67%.
-- **Palladium:** PAZ26 $1,056.60 (−5.89%); PALL d200 −26.76%; COT −36.66%; Nornickel 9M 10/26.
-- **Copper:** HGZ26 $6.398/lb (−2.71%); LME 272,950t (US tariff-arb build, benign); Teck Highland Valley strike possible 10/24.
+Gold: GCZ26 **Dec 2026 $4,060.40/oz [Oct 22 MIRROR]**; Friday GLD **$366.61, −0.65%**. Liquidation aftermath; Friday matched primary rates/flow missing. Gold COT 49.6832% [Oct 20, already consumed].
+Silver: SIZ26 **Dec 2026 $55.007/oz [Oct 22]**; SLV **$48.72, −1.26% [Oct 23]**, d200 −24.99%, red. India permits/China exports remain October 23 report context, no newly verified Sunday squeeze claim.
+Platinum: PLF27 **Jan 2027 $1,576.90/oz [Oct 22]**; PPLT **$14.05, −1.06% [Oct 23]**, d200 −18.98%, orange. Auto-demand headwind; Monday Russian output test.
+Palladium: PAZ26 **Dec 2026 $1,056.60/oz [Oct 22]**; PALL **$18.94, −0.94% [Oct 23]**, d200 −27.26%, red. Tightening-only thesis weakened; Nornickel guidance next.
+Copper: HGZ26 **Dec 2026 $6.398/lb [Oct 22]**; CPER **$39.06, +1.53% [Oct 23]**; supply constraint confirmed Saturday, production loss unknown.
 
-Prices are uncertified vendor closes dated 10/22. Older sections of this brief moved verbatim to `analysis/NEXUS_BRIEF_ARCHIVE_2026-10.md` on 2026-10-23.
+Named futures remain uncertified vendor closes. No capital action, band change or forecast retrofit. Next dates: Nornickel October 26; MIDAS-09/10/16 and contract-map review October 30; MIDAS-14/15 November 2. Certified settlement and overdue M1 successor draft disposition remain open; PROME registrar packet carries the source/decision gaps.

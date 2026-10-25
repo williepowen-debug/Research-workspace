@@ -1,0 +1,90 @@
+========================================================================
+  MIDAS BOOT — metals watch · ledgers · predictions · four-metal COT
+========================================================================
+
+--- 0. metals_watch (real yield + spot + GSR + M1 divergence) ---
+
+  ERROR real-yield fetch FAILED: FRED DFII10 fetch failed: <urlopen error [Errno -3] Temporary failure in name resolution>
+Failed to get ticker 'GC=F' reason: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Failed to get ticker 'SI=F' reason: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Failed to get ticker 'HG=F' reason: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+$HG=F: possibly delisted; no price data found  (period=12d)
+Failed to get ticker 'PL=F' reason: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+$PL=F: possibly delisted; no price data found  (period=12d)
+Failed to get ticker 'PA=F' reason: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+$PA=F: possibly delisted; no price data found  (period=12d)
+Failed to get ticker 'GCZ26.CMX' reason: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+$GCZ26.CMX: possibly delisted; no price data found  (period=12d)
+Failed to get ticker 'SIZ26.CMX' reason: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+$SIZ26.CMX: possibly delisted; no price data found  (period=12d)
+Failed to get ticker 'HGZ26.CMX' reason: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+$HGZ26.CMX: possibly delisted; no price data found  (period=12d)
+Failed to get ticker 'PLF27.NYM' reason: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+$PLF27.NYM: possibly delisted; no price data found  (period=12d)
+Failed to get ticker 'PAZ26.NYM' reason: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+$PAZ26.NYM: possibly delisted; no price data found  (period=12d)
+Failed to get ticker 'GLD' reason: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+$GLD: possibly delisted; no price data found  (period=1y)
+$GLD: possibly delisted; no price data found  (period=5d)
+Failed to get ticker 'SLV' reason: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+$SLV: possibly delisted; no price data found  (period=1y)
+$SLV: possibly delisted; no price data found  (period=5d)
+Failed to get ticker 'CPER' reason: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+$CPER: possibly delisted; no price data found  (period=1y)
+$CPER: possibly delisted; no price data found  (period=5d)
+Failed to get ticker 'PPLT' reason: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+$PPLT: possibly delisted; no price data found  (period=1y)
+$PPLT: possibly delisted; no price data found  (period=5d)
+Failed to get ticker 'PALL' reason: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+$PALL: possibly delisted; no price data found  (period=1y)
+$PALL: possibly delisted; no price data found  (period=5d)
+
+  ERROR ETF proxy spot fetch FAILED: ALL spot tickers failed: {'GLD': {'error': "'exchangeTimezoneName'", 'name': 'GLD'}, 'SLV': {'error': "'exchangeTimezoneName'", 'name': 'SLV'}, 'CPER': {'error': "'exchangeTimezoneName'", 'name': 'CPER'}, 'PPLT': {'error': "'exchangeTimezoneName'", 'name': 'PPLT'}, 'PALL': {'error': "'exchangeTimezoneName'", 'name': 'PALL'}}
+
+  ERROR GSR not graded: named gold or silver contract is unavailable
+
+  ERROR LME copper stocks scrape FAILED: <urlopen error [Errno -3] Temporary failure in name resolution>
+  metals_watch.py: 11 leg(s) FAILED: DFII10: FRED DFII10 fetch failed: <urlopen error [Errno -3] Temporary failure in name resolution>; named-GC=F: empty history or a null Close; no prior-row certification; named-SI=F: empty history or a null Close; no prior-row certification; named-HG=F: empty history or a null Close; no prior-row certification; named-PL=F: empty history or a null Close; no prior-row certification; named-PA=F: empty history or a null Close; no prior-row certification; etf: ALL spot tickers failed: {'GLD': {'error': "'exchangeTimezoneName'", 'name': 'GLD'}, 'SLV': {'error': "'exchangeTimezoneName'", 'name': 'SLV'}, 'CPER': {'error': "'exchangeTimezoneName'", 'name': 'CPER'}, 'PPLT': {'error': "'exchangeTimezoneName'", 'name': 'PPLT'}, 'PALL': {'error': "'exchangeTimezoneName'", 'name': 'PALL'}}; GSR: named gold or silver contract is unavailable; divergence-calc: missing real-yield or gold leg; kc3-window: missing real-yield observations; LME-stocks: <urlopen error [Errno -3] Temporary failure in name resolution>
+========================================================================
+  METALS WATCH — fetched 2026-10-25 15:29 UTC
+========================================================================
+
+  METALS — named futures, MIRROR vendor daily Close; newest row excluded.
+    These bars are not certified exchange settlements. Units: USD/oz; copper USD/lb.
+    GCZ26.CMX    Gold fut       UNKNOWN: empty history or a null Close; no prior-row certification
+    SIZ26.CMX    Silver fut     UNKNOWN: empty history or a null Close; no prior-row certification
+    HGZ26.CMX    Copper fut     UNKNOWN: empty history or a null Close; no prior-row certification
+    PLF27.NYM    Platinum fut   UNKNOWN: empty history or a null Close; no prior-row certification
+    PAZ26.NYM    Palladium fut  UNKNOWN: empty history or a null Close; no prior-row certification
+
+  CONTRACT IDENTITY — `=F` pointer vs explicit front month (prior vendor row; the newest futures row's volume is duplicated):
+    GC=F   vs GCZ26.CMX   UNKNOWN (Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.)
+    SI=F   vs SIZ26.CMX   UNKNOWN (Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.)
+    HG=F   vs HGZ26.CMX   UNKNOWN (empty history or a null Close; no prior-row certification)
+    PL=F   vs PLF27.NYM   UNKNOWN (empty history or a null Close; no prior-row certification)
+    PA=F   vs PAZ26.NYM   UNKNOWN (empty history or a null Close; no prior-row certification)
+    ⛔ 5 pointer(s) NOT on the front month: GC=F, SI=F, HG=F, PL=F, PA=F — pointer prices are excluded from primary prices and GSR.
+
+  NOTE: gold and Ag/Pt/Pd COT freshness run in separate boot legs. Copper price history/conjunction remains UNMEASURED in this script.
+
+  Metals leg: real-yield FETCH-FAIL · gold FETCH-FAIL · GSR FETCH-FAIL · LME Cu FETCH-FAIL · M1: divergence FETCH-FAIL
+
+  ⛔ CONTRACT IDENTITY: 5 `=F` pointer(s) off the front month (GC=F, SI=F, HG=F, PL=F, PA=F) — primary prices and GSR use named contracts.
+
+--- 1. ledger staleness (workbook + TRADE.md + metal KB views) ---
+perimeter [MIDAS]: 5 ledger(s) scanned; 11 TSV(s) NOT scanned by this pass: KB_METALS.tsv, METALS_CATALOG.tsv, analysis/BEFORE_MAINTENANCE_2026-10-12_FLOW.tsv, analysis/BEFORE_MAINTENANCE_2026-10-12_VX.tsv (+7 more)
+trade perimeter: 1 agent(s) with a matching trade surface graded; 0 agent(s) matched NO trade surface and are NOT certified by this pass
+Metal KB views current (content checked against ledger and tags).
+  ✓ quiet (alert-contract: output only when stale/misconfigured)
+
+--- 2. predictions-due scan ---
+  none due (or newborn ledger)
+
+--- 3. COT vintage freshness (CFTC gold, code 088691) ---
+  🔴 CANNOT CERTIFY — CFTC pull/parse/reconcile failed: <urlopen error [Errno -3] Temporary failure in name resolution>
+
+--- 4. Ag/Pt/Pd COT vintage freshness (CFTC legacy futures-only) ---
+  CANNOT CERTIFY Ag/Pt/Pd COT freshness: <urlopen error [Errno -3] Temporary failure in name resolution>
+
+========================================================================
+  MIDAS boot: leg FAILED — metals watch, COT vintage, Ag/Pt/Pd COT vintage. Check manually, do NOT assume quiet.

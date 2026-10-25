@@ -51,3 +51,5 @@ Examples: gold/silver ratios; platinum/palladium vehicle-demand and supply studi
 - [Shared indicator ledger](../workbook/VX.tsv)
 
 Operations, implementation and preserved historical archives are classified separately in [the catalog](../METALS_CATALOG.tsv). Their original paths remain authoritative. New shared reports go in `shared/research/`; new source captures go in `shared/sources/YYYY-MM-DD_topic/`.
+
+- [Sunday October 25 catch-up and assignment reconciliation](research/2026-10-25_sunday-catch-up.md) — dated prices, source limits, completed PRD3 correction and next owner work.

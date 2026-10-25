@@ -1,0 +1,96 @@
+========================================================================
+  MIDAS BOOT — metals watch · ledgers · predictions · four-metal COT
+========================================================================
+
+--- 0. metals_watch (real yield + spot + GSR + M1 divergence) ---
+========================================================================
+  METALS WATCH — fetched 2026-10-25 16:12 UTC
+========================================================================
+
+  REAL YIELD (FRED DFII10 MIRROR, latest-revised; T+1 publication lag):
+    Latest: 2.64 [2026-10-22]
+    ~90d prior: 2.43 [2026-07-24]
+
+  METALS — named futures, MIRROR vendor daily Close; newest row excluded.
+    These bars are not certified exchange settlements. Units: USD/oz; copper USD/lb.
+    GCZ26.CMX    Gold fut       $ 4,060.400 [2026-10-22]  prior-bar change -2.16%
+    SIZ26.CMX    Silver fut     $    55.007 [2026-10-22]  prior-bar change -4.68%
+    HGZ26.CMX    Copper fut     $     6.398 [2026-10-22]  prior-bar change -2.76%
+    PLF27.NYM    Platinum fut   $ 1,576.900 [2026-10-22]  prior-bar change -3.61%
+    PAZ26.NYM    Palladium fut  $ 1,056.600 [2026-10-22]  prior-bar change -3.06%
+
+  METALS SPOT — ETF proxies (secondary cross-check, NOT 1:1 unit-matched to futures):
+    GLD      Gold ETF       $    366.61  chg -0.65%  (prev $369.00)
+    SLV      Silver ETF     $     48.72  chg -1.26%  (prev $49.34)
+    CPER     Copper ETF     $     39.06  chg +1.53%  (prev $38.47)
+    PPLT     Platinum ETF   $     14.05  chg -1.06%  (prev $14.20)
+    PALL     Palladium ETF  $     18.94  chg -0.94%  (prev $19.12)
+
+  CONTRACT IDENTITY — `=F` pointer vs explicit front month (prior vendor row; the newest futures row's volume is duplicated):
+    GC=F   vs GCZ26.CMX   [2026-10-22]  vol   214,607 vs   214,607 (100.00%)  $ 4,060.40 vs $ 4,060.40  spread +0.00%  -> OK
+    SI=F   vs SIZ26.CMX   [2026-10-22]  vol        63 vs    58,831 ( 0.11%)  $    54.76 vs $    55.01  spread -0.44%  -> DYING
+    HG=F   vs HGZ26.CMX   [2026-10-22]  vol       865 vs    69,879 ( 1.24%)  $     6.36 vs $     6.40  spread -0.55%  -> DYING
+    PL=F   vs PLF27.NYM   [2026-10-22]  vol         0 vs    31,813 ( 0.00%)  $ 1,567.50 vs $ 1,576.90  spread -0.60%  -> DYING
+    PA=F   vs PAZ26.NYM   [2026-10-22]  vol         0 vs     7,659 ( 0.00%)  $ 1,051.60 vs $ 1,056.60  spread -0.47%  -> DYING
+    ⛔ 4 pointer(s) NOT on the front month: SI=F, HG=F, PL=F, PA=F — pointer prices are excluded from primary prices and GSR.
+
+  GOLD/SILVER RATIO: 73.82 [2026-10-22]  GCZ26.CMX/SIZ26.CMX (MIRROR vendor Close)
+    Bands unchanged: Y85/O90/R95; current benign.
+
+  M1 DIVERGENCE CHECK (trailing ~90d, INTERVAL-MATCHED on both legs):
+    DFII10:      2.43 [2026-07-24] -> 2.64 [2026-10-22]  (+21bp)
+    Gold (GCZ26.CMX): $4,129.70 [2026-07-24] -> $4,060.40 [2026-10-22]  (-1.68%)  [MIRROR vendor daily Close; uncertified settlement]
+    State: CONVERGE (real-rate-consistent pattern — yields up, gold down; mechanism unidentified)
+    No-roll GLD cross-check: -0.78% [2026-07-24->2026-10-22].
+    decided by: |-1.68%| vs a 0.00% sign boundary; window daily sigma 1.42%  (margin exceeds 1-sigma)
+
+  M1 KILL-COND-#3 (RULED Friday-as-of endpoints, three weekly intervals):
+    DFII10: 2.92 [2026-10-02] -> 2.64 [2026-10-22] (-28bp)
+    GLD: $380.14 [2026-10-02] -> $369.00 [2026-10-22] (-2.93%)
+    Gold graded on GLD, MIRROR vendor daily Close; no futures-roll fallback.
+    Weekly joint-up 2026-10-02->2026-10-09: False (-1bp / +1.17%).
+    Weekly joint-up 2026-10-09->2026-10-16: False (-17bp / -0.67%).
+    Weekly joint-up 2026-10-16->2026-10-22: False (-10bp / -3.41%).
+    Endpoint shape False; weekly-continuous False (DECLINED alternative, no grading effect).
+    Friday 2026-10-23 uses common observation 2026-10-22 across non-publication days.
+    Named-contract cross-check GCZ26.CMX: -2.45% [2026-10-02->2026-10-22]; GLD remains binding.
+    Rolling21-calendar-day diagnostic: -24bp / -3.59% (not the ruled weekly grade).
+    Magnitude attribution UNMEASURED: no current same-window empirical model fitted by this script.
+    State: no kill-cond-#3 endpoint shape on the ruled weekly basis
+
+  LME COPPER STOCKS (westmetall.com scrape, LME data, business-daily):
+    Latest: 273,750 t  [23. October 2026]
+    Span peak: 402,625 t [15. April 2026]  (latest = -32.0% vs peak, falling)
+    vs 2yr median 233,500 t (n=507): +17.2%  ->  band benign
+    band context: Y+25/O+50/R+100% vs median; but the RED demand-collapse
+    fire needs copper -20% AND inventory +100%.
+    Inventory leg CLEAR: +17.2% vs dated median; boundary +100%. Copper price leg UNMEASURED here; the full price/inventory conjunction is not graded.
+
+  NOTE: gold and Ag/Pt/Pd COT freshness run in separate boot legs. Copper price history/conjunction remains UNMEASURED in this script.
+
+  Metals leg: DFII10 2.64 [2026-10-22] · gold GCZ26.CMX $4,060.40 [2026-10-22] · GSR 73.82 (benign) · LME Cu 273,750t (+17% vs 2yr-med, benign) [23. October 2026] · M1: CONVERGE (real-rate-consistent pattern — yields up, gold down; mechanism unidentified) · KC#3(3wk): no kill-cond-#3 endpoint shape on the ruled weekly basis
+
+  ⛔ CONTRACT IDENTITY: 4 `=F` pointer(s) off the front month (SI=F, HG=F, PL=F, PA=F) — primary prices and GSR use named contracts.
+
+--- 1. ledger staleness (workbook + TRADE.md + metal KB views) ---
+perimeter [MIDAS]: 5 ledger(s) scanned; 11 TSV(s) NOT scanned by this pass: KB_METALS.tsv, METALS_CATALOG.tsv, analysis/BEFORE_MAINTENANCE_2026-10-12_FLOW.tsv, analysis/BEFORE_MAINTENANCE_2026-10-12_VX.tsv (+7 more)
+trade perimeter: 1 agent(s) with a matching trade surface graded; 0 agent(s) matched NO trade surface and are NOT certified by this pass
+Metal KB views current (content checked against ledger and tags).
+  ✓ quiet (alert-contract: output only when stale/misconfigured)
+
+--- 2. predictions-due scan ---
+  none due (or newborn ledger)
+
+--- 3. COT vintage freshness (CFTC gold, code 088691) ---
+  last consumed: 2026-10-20  net/OI 49.6832%  [cot_vintages_consumed.tsv]
+  live at CFTC : 2026-10-20  net/OI 49.6832%  (code 088691, reconciled)
+  ✓ current vintage already consumed
+
+--- 4. Ag/Pt/Pd COT vintage freshness (CFTC legacy futures-only) ---
+  silver: CFTC 2026-10-20 net/OI 17.3653%; last consumed 2026-10-20; delta -0.0000pp
+  platinum: CFTC 2026-10-20 net/OI 18.6666%; last consumed 2026-10-20; delta -0.0000pp
+  palladium: CFTC 2026-10-20 net/OI -36.6552%; last consumed 2026-10-20; delta +0.0000pp
+  Current CFTC vintage already consumed for all three metals; no positioning-band conclusion
+
+========================================================================
+  MIDAS boot: REVIEW — metals watch.

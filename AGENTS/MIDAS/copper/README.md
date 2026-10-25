@@ -34,3 +34,5 @@ Existing observations are held in the shared source bundles below.
 Put new copper-specific writeups in `copper/research/` and supporting captures/calculations in `copper/sources/YYYY-MM-DD_topic/`, relative to MIDAS. Keep reports and evidence linked. Classify evidence by prices, positioning, investment flows, physical stocks, supply, demand, and macro context when relevant; create subfolders when material exists.
 
 Put inseparable multi-metal work in [shared](../shared/README.md), once, and link it from every relevant metal. Existing `analysis/`, `reports/` and `sources/` paths remain valid for scripts, frozen references and peer citations. Add new artifacts to [METALS_CATALOG.tsv](../METALS_CATALOG.tsv) and this index. Do not create separate copies of STATUS, forecast ledgers, source registers or shared datasets.
+
+- [Sunday October 25 catch-up and assignment reconciliation](../shared/research/2026-10-25_sunday-catch-up.md) — dated prices, source limits, completed PRD3 correction and next owner work.

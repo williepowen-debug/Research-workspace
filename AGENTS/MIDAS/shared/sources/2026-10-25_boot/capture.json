@@ -1,0 +1,136 @@
+{
+  "captured_at": "2026-10-25T16:13:36.022086+00:00",
+  "series": {
+    "GLD": {
+      "date": "2026-10-23",
+      "close": 366.6099853515625,
+      "day_pct": -0.6477004467310254,
+      "oct19_pct": -3.444920067881496,
+      "basis": "Yahoo MIRROR unadjusted completed daily Close"
+    },
+    "SLV": {
+      "date": "2026-10-23",
+      "close": 48.720001220703125,
+      "day_pct": -1.2565847790177775,
+      "oct19_pct": -5.471477774022782,
+      "d200": -24.98902826335194,
+      "dd252": -53.863634541014974,
+      "T_level": 4,
+      "S_level": 1,
+      "crossings_since_oct22": {
+        "T": [],
+        "C": []
+      },
+      "basis": "Yahoo MIRROR unadjusted completed daily Close"
+    },
+    "PPLT": {
+      "date": "2026-10-23",
+      "close": 14.050000190734863,
+      "day_pct": -1.0563353559512212,
+      "oct19_pct": -5.195678272235538,
+      "d200": -18.975503104665915,
+      "dd252": -44.30128849054057,
+      "T_level": 3,
+      "S_level": 1,
+      "crossings_since_oct22": {
+        "T": [],
+        "C": []
+      },
+      "basis": "Yahoo MIRROR unadjusted completed daily Close"
+    },
+    "PALL": {
+      "date": "2026-10-23",
+      "close": 18.940000534057617,
+      "day_pct": -0.9414241489280051,
+      "oct19_pct": -6.42292120435497,
+      "d200": -27.26275436748181,
+      "dd252": -49.06137125965857,
+      "T_level": 4,
+      "S_level": 1,
+      "crossings_since_oct22": {
+        "T": [],
+        "C": []
+      },
+      "basis": "Yahoo MIRROR unadjusted completed daily Close"
+    },
+    "CPER": {
+      "date": "2026-10-23",
+      "close": 39.060001373291016,
+      "day_pct": 1.5336629422054049,
+      "oct19_pct": -1.288850961502308,
+      "basis": "Yahoo MIRROR unadjusted completed daily Close"
+    },
+    "GCZ26.CMX": {
+      "date": "2026-10-23",
+      "close": 4007.89990234375,
+      "day_pct": -1.2929760925690092,
+      "oct19_pct": -3.658570508874237,
+      "basis": "Newest vendor row: diagnostic ONLY; excluded by standing futures guard; uncertified settlement"
+    },
+    "SIZ26.CMX": {
+      "date": "2026-10-23",
+      "close": 53.94900131225586,
+      "day_pct": -1.9233891283173654,
+      "oct19_pct": -5.803777638039421,
+      "basis": "Newest vendor row: diagnostic ONLY; excluded by standing futures guard; uncertified settlement"
+    },
+    "PLF27.NYM": {
+      "date": "2026-10-23",
+      "close": 1562.4000244140625,
+      "day_pct": -0.9195256373585203,
+      "oct19_pct": -5.205674632911405,
+      "basis": "Newest vendor row: diagnostic ONLY; excluded by standing futures guard; uncertified settlement"
+    },
+    "PAZ26.NYM": {
+      "date": "2026-10-23",
+      "close": 1051.5,
+      "day_pct": -0.482677995814762,
+      "oct19_pct": -6.341850384651437,
+      "basis": "Newest vendor row: diagnostic ONLY; excluded by standing futures guard; uncertified settlement"
+    },
+    "HGZ26.CMX": {
+      "date": "2026-10-23",
+      "close": 6.507500171661377,
+      "day_pct": 1.7114787780626362,
+      "oct19_pct": -1.0341394519712055,
+      "basis": "Newest vendor row: diagnostic ONLY; excluded by standing futures guard; uncertified settlement"
+    },
+    "DX-Y.NYB": {
+      "date": "2026-10-23",
+      "close": 101.80999755859375,
+      "day_pct": 0.19682801598350785,
+      "oct19_pct": -0.16670503308851004,
+      "basis": "Yahoo MIRROR unadjusted completed daily Close"
+    },
+    "^GSPC": {
+      "date": "2026-10-23",
+      "close": 7623.68017578125,
+      "day_pct": -0.5186972294159098,
+      "oct19_pct": -0.8718262747200667,
+      "basis": "Yahoo MIRROR unadjusted completed daily Close"
+    },
+    "^VIX": {
+      "date": "2026-10-23",
+      "close": 19.450000762939453,
+      "day_pct": 2.20704183467888,
+      "oct19_pct": 5.4772245099257155,
+      "basis": "Yahoo MIRROR unadjusted completed daily Close"
+    }
+  },
+  "sources": {
+    "GLD_issuer_archive.xlsx": {
+      "url": "https://api.spdrgoldshares.com/api/v1/historical-archive?exchange=NYSE&lang=en&product=gld",
+      "bytes": 542343,
+      "sha256": "20f9c82b3281b5ef65412917e12fee50f5f788cb850463f045e920be3cd257e6"
+    },
+    "treasury_real_curve.csv": {
+      "url": "https://home.treasury.gov/resource-center-data-chart-center/interest-rates/pages/xml?data=daily_treasury_real_yield_curve&field_tdr_date_value=2026",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "teck_hvc.html": {
+      "url": "https://www.teck.com/news/news-releases/2026/teck-provides-update-on-highland-valley-copper-operations",
+      "bytes": 224501,
+      "sha256": "e0c6ef363c57479d92200e144374ccf375c0b24183a2738b8fed597214fa8584"
+    }
+  }
+}
