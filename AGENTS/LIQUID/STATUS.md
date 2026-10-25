@@ -1,11 +1,11 @@
 # LIQUID STATUS
-**Last Updated:** 2026-10-25T14:49:06-04:00 — WQ523 single Car-Mart case and two note corrections complete; contract responses observed, current usable cash/bank-risk link unresolved. No gate/forecast change. → `research/2026-10-25_WQ523-carmart/REPORT.md`.
+**Last Updated:** 2026-10-25T16:17:51-04:00 — WQ524 First Brands-to-WAL case complete: historical bank response verified; earlier public warning/current spillover not established.
 
 > **How to read this file.** Levels here are **dated snapshots**, each with its own observation date. **`scripts/boot.py` is the live source**; quote from it, not from here. Basis is latest-revised FRED unless stated (see §5). One fact, one place: if a figure appears twice, one copy is a defect.
 
 ## 1. NOW
 
-**Weekend boot [10/25]:** 30 series, 0 fetch errors; latest-revised FRED, not a first-publication census. Friday ICE/SOFR pending Monday 10/26. No new gate episode or capital action. X1 CLOSED / DON'T-SIZE. Evidence: `research/2026-10-25_boot/boot.txt`.
+**Weekend restart boot [10/25 15:46 ET]:** 31 series, 0 fetch errors after network-enabled retry; latest-revised FRED, not a first-publication census. Credit/SOFR frontier unchanged; Friday ICE/SOFR pending Monday 10/26. No new gate episode or capital action. X1 CLOSED / DON'T-SIZE. Evidence: `research/2026-10-25_restart/boot.txt`; intake/runtime receipt in the adjacent `REPORT.md`.
 
 **Transmission coverage [10/25 review]:** fourteen mechanism families mapped; named exposure/contract/cash-response links remain incomplete. Quiet overnight funding does not clear bank-line substitution, insurer/fund cash calls, structured-credit diversion or operating feedback. LIQ-07 S2 remains its frozen reserve-channel verdict. Evidence/unknowns → `research/2026-10-25_transmission-pathways/REPORT.md`; no new gate or standing collector.
 
@@ -27,11 +27,13 @@
 
 **Named financing — Car-Mart [WQ523,10/25]:** $305,608,825.77 principal at10/14; $5M incremental agreement signed10/15/public10/21, net cash receipt unverified. Relief11/01 is not2030 maturity; $92M receivables are not cash. Current eligible liquidity and bank-risk bridge unobservable. Six new-money lender signatures, allocations omitted; agent/trustee distinct. → `research/2026-10-25_WQ523-carmart/REPORT.md`.
 
+**Historical bank transmission [WQ524, 10/25]:** First Brands receivables → LAM TFG I SPV LLC → Western Alliance Bank: $42.125M missed principal receipt; $126.4M remaining loan charged off Q1, not fresh cash paid. Forbearance/litigation executed. Jefferies disputes parent recourse; current recoveries/ultimate net loss unknown. March 6/9 disclosures follow events: mechanism beyond prices, earlier public warning unestablished. Q1 earnings/capital show absorption, not a funding squeeze. → `research/2026-10-25_WQ524-first-brands/REPORT.md`.
+
 **AI financing [carried10/23]:** CRWV/ORCL CDS are model conversions, META/NVDA disseminated (128bp NVDA). CRWV marks may be stale, parent/project funding unassessed. Lambda guidance not clearing; rated clean perimeter not access proof; FSK/DLIC terms UNKNOWN. Figures/sources → 10/22–23 reports/archive; Oracle canon `PROME/themes/ellison/`.
 
 **L818 judgment [10/23; inference corrected10/25]:** mainly repricing; restriction generally unestablished. One-day BB/CCC co-widening, unmatched issuance periods and quarter-end bank stocks do not prove a freeze/draws. Substitution INSUFFICIENT EVIDENCE. Reconcile facility stock/flows; SLOOS aggregate context. Both corrected L818 notes retain all dated figures/grades; private terms remain missing.
 
-**Other carried state:** LIQ-07 RESOLVED S2 10/16: no reserve-channel loop observed, not no loop; n=1 no calibration proof. HENRY cohort PARTIAL (§3), negative gamma not a funding leg, unwind rumor UNCONFIRMED. Bank confirmation absent, CREED CMBS flat10/16. Will/broker book truth off-repo; no LIQUID-owned line established, TERRY constructs.
+**Other carried state:** LIQ-07 RESOLVED S2 10/16: no reserve-channel loop observed, not no loop; n=1 no calibration proof. HENRY cohort PARTIAL (§3), negative gamma not a funding leg, unwind rumor UNCONFIRMED. Current broad bank-transmission confirmation absent, CREED CMBS flat10/16. Will/broker book truth off-repo; no LIQUID-owned line established, TERRY constructs.
 
 **Rotation 10/25 WQ523:** preimage → `archive/status_snapshots/STATUS_before-2026-10-25-WQ523.md`; CRC/obligations → `research/2026-10-25_WQ523-carmart/state-rotation.json`. Recheck at any append or next closeout.
 
@@ -51,6 +53,7 @@
 
 | When | What | Owner / status |
 |---|---|---|
+| **10/26 source follow-up** | WALTER 10/25-016 JetBlue issuer-event/bond-identity check and -018 AI-CDS turnover incrementality: DEFERRED pending full dated reporting/TRACE bond identity and defined basket/gross-net methodology. Secondary prices and chart volume supply no current credit grade. WALTER source review 10/26; no new standing study. | LIQUID existing credit lane; WALTER source recovery |
 | **10/26, L836** | Substantive NEXUS brief fold and CLOSEOUT final-fold step implemented 10/25; owner commit/pin recorded in `research/2026-10-25_inbox-owed/REPORT.md`. Await PROME verification and NEXUS consumption at L832/L554; raw-STATUS fallback remains until NEXUS accepts. | LIQUID delivered; PROME / NEXUS verify |
 | **after-close research, 10/19** | PARTIAL attribution; conditional shortlist received4261b747e,9funding checks delivered. Remaining actual-redemption/cash bridges,current certificates and issuer-credit panel; primary4 unmatched. Detail/WHY → `research/2026-10-19_equity-financing/conditional/RESULT.md`. Recipient final-version consumption unverified. | LIQUID funding; HENRY selection complete; PROME coordination |
 | **before the WQ404 read or any letter edit** | HANS corrected swap-line letter line68:1,179 USD operations since2007; bidders≥8 fired164 times, including2020 and earlier year-end false alarms. Known-wrong line68 remains held byte-stable for the named reader; HANS figures not independently re-verified by LIQUID. Full figures/provenance preserved in the prior STATUS archive and WQ404. | LIQUID/PROME: tell the reader |

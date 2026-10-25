@@ -2,13 +2,28 @@
 
 ## Session Notes
 
+### CURRENT SESSION — 2026-10-25T16:17:51-04:00 (PROME/Will WQ524; replacement Codex window)
+
+- Completed one historical case: `research/2026-10-25_WQ524-first-brands/REPORT.md`. First Brands receivables → LAM TFG I SPV LLC → Western Alliance Bank; $42.125M missed receipt and $126.4M Q1 remaining-loan charge-off. Executed forbearance/litigation, no fresh $126.4M cash payout.
+- Jefferies' non-recourse/guarantee-refusal account is disputed counterparty evidence, not adjudicated protection. Prior repayments already embedded; current collateral recovery/final economic loss unknown. Earnings offsets are not recoveries.
+- Warning value: contractual/accounting response beyond prices, but no earlier public lead established. March 6/9 publications follow events. Q1 SEC index distinguishes May 11 filing from May 8 17:49:33 acceptance; March 31 is period-end. No current bank funding crisis inferred.
+- BROCK handoff consumed at final research/state ef2c1df65 and brief/delivery bc2a28267. Only two candidates considered at selection depth; GBDC/Pluralsight not researched further. Car-Mart and Experiments A/B remain separate/unchanged.
+- Standard write-back and final brief fold follow final STATUS commit; dated PROME packet plus explicit native closeout/push receipt complete delivery. Other desks' dirty work preserved; no pull/rebase/stash. General inbox remains unprocessed beyond the two commissioned WQ524 packets.
+
+### RESTART BOOT — 2026-10-25T15:47:28-04:00 (Will direct; OpenAI / Codex, exact model UNKNOWN)
+
+- Root/local instructions and prior WQ523 closeout recovered; session `01a17495-c27a-7eb0-82c6-38f6992424d7`. Boot receipt: `research/2026-10-25_restart/REPORT.md`.
+- Network-enabled live retry: 31 series, zero fetch errors; credit/SOFR frontier unchanged. First sandbox attempt failed DNS; not market stress. Corrections clear; boot selftest PASS.
+- Seven WALTER items read: five info-only, two source-dependent credit leads DEFERRED to October26 (STATUS §3). General inbox, including MIDAS gold history, remains unprocessed under normal-boot scope.
+- Shared tree dirty/staged outside LIQUID: no pull/rebase/stash. Existing five gates, first-published counts, swap-line WITHHELD and X1 CLOSED / DON’T-SIZE preserved. Boot is a checkpoint; session remains open for Will’s next work.
+
 ### RESTART HANDOFF — 2026-10-25T15:41:28-04:00 (Will clearing/rebooting)
 
 - WQ523 research and corrections accepted; full owner closeout/push receipt delivered. Resume from existing STATUS §3 / NEXT SESSION, not another case.
 - New `inbox/2026-10-25_from-MIDAS_gold-conflict-history.md` arrived after closeout, currently sender-authored/untracked; leave for authorized next-boot intake. No new research opened.
 - Other desks have active dirty/staged work; do not sweep, pull, rebase or stash it. This restart only saves this continuity update and refreshes the final brief stamp/pin.
 
-### CURRENT SESSION — 2026-10-25T14:49:06-04:00 (PROME/Will WQ523 single transmission case)
+### PRIOR SESSION — 2026-10-25T14:49:06-04:00 (PROME/Will WQ523 single transmission case)
 
 - Completed Car-Mart case using existing BROCK/OTTO work and primary SEC filings: `research/2026-10-25_WQ523-carmart/REPORT.md`. Borrower constraints/lender terms observed, bank-risk bridge/current eligible cash unresolved. No other case or source program.
 - $305.60882577M principal at10/14 is not due11/01 by schedule (maturity2030). $5M signed incremental commitments/conditions not independently funded cash; ~$92M released receivables not cash. Six new-money lender signatures identified, allocations omitted; trustee/agent not bank risk. Publication lag and containment explicit.
@@ -103,6 +118,8 @@ No `git pull` (dirty HOMER/PROME/BOND/RED trees); pathspec commits only.
 - ⚠️ Self-caught: my C4 catalyst row copied CLAUDE.md's 9/12 "OCIC at 2 consecutive" text; SIGNALS.md shows BROCK R2 (a) FIRED #2 on OCIC 10/2. Corrected the row; the CLAUDE.md line ~84 is stale (charter edit not made).
 
 ### NEXT SESSION
+
+WQ524 study is complete; resume existing dated duties in STATUS §3, not another case. Final recoveries/contract allocation and earlier public warning remain evidence gaps without a new search commission.
 
 **Next boot (Mon 10/26+):** grade the 10/23 first-published tiers. REG-T-04 needs >350 (REGINALD grades). BB moving with CCC on consecutive days is the L818 change-maker (`analysis/2026-10-23_L818-repricing-vs-restriction.md`, sent to PROME 10/23). Also grade 10/23 SOFR (079) and refresh the XCCC composition line: the fund page 403s to curl, so try WebFetch or DEWEY's method (L829 checks 10/30). H.8: read the DATED path (`releases/h8/YYYYMMDD/`); `current/h8.htm` served a 2015 page at 200. 076 re-arm needs 10 consecutive business days with no leg met. Car-Mart 11/01 (BROCK). DAEDALUS 10/16 deferral row in STATUS §3 is still overdue. 10/31: 079 FIRE bands proposal.
 

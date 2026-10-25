@@ -1,0 +1,74 @@
+{
+  "verified_at": "2026-10-25T20:17:18.460280+00:00",
+  "sources": [
+    {
+      "key": "WQ524_WAL_release",
+      "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026015454/wal_pressrelease.htm",
+      "status": 200,
+      "file": "/tmp/brock-followup-20261025/WQ524_WAL_release.html",
+      "bytes": 20895,
+      "sha256": "1ded82534aa2346b961709d5d8a322bf4b4e0722c2b64e39d8cc2978af51fe24",
+      "retrieved_at": "2026-10-25T20:04:22.765531+00:00",
+      "independent_local_hash_verified_at": "2026-10-25T20:17:18.450491+00:00",
+      "acquisition": "BROCK public SEC download; LIQUID independently read March documents using web and Q1 from this raw HTML",
+      "read_boundary": "Substantive event/letter text; no unrelated MFS case assessment"
+    },
+    {
+      "key": "WQ524_JEF_letter",
+      "url": "https://www.sec.gov/Archives/edgar/data/96223/000114036126008339/ef20067441_ex99-1.htm",
+      "status": 200,
+      "file": "/tmp/brock-followup-20261025/WQ524_JEF_letter.html",
+      "bytes": 24592,
+      "sha256": "0bac8deaad0b58842dd9f7b0bd77706870a6b3c2fdf2e7e80aa0fd55ff6c6deb",
+      "retrieved_at": "2026-10-25T20:03:50.164718+00:00",
+      "independent_local_hash_verified_at": "2026-10-25T20:17:18.450644+00:00",
+      "acquisition": "BROCK public SEC download; LIQUID independently read March documents using web and Q1 from this raw HTML",
+      "read_boundary": "Substantive event/letter text; no unrelated MFS case assessment"
+    },
+    {
+      "key": "WQ524_WAL_Mar8K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026015454/wal-20260302.htm",
+      "status": 200,
+      "file": "/tmp/brock-followup-20261025/WQ524_WAL_Mar8K.html",
+      "bytes": 31566,
+      "sha256": "975809c837807b9eb595f78bc2601696f7d82464ed15f161d8592e347276d2f1",
+      "retrieved_at": "2026-10-25T20:03:50.165401+00:00",
+      "independent_local_hash_verified_at": "2026-10-25T20:17:18.450743+00:00",
+      "acquisition": "BROCK public SEC download; LIQUID independently read March documents using web and Q1 from this raw HTML",
+      "read_boundary": "Substantive event/letter text; no unrelated MFS case assessment"
+    },
+    {
+      "key": "WQ524_WAL_Q1",
+      "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026033054/wal-20260331.htm",
+      "status": 200,
+      "file": "/tmp/brock-followup-20261025/WQ524_WAL_Q1.html",
+      "bytes": 5520774,
+      "sha256": "11337e3fe1c472f596afff809c5967a16ab61172b06a8a9f47595fdd23504324",
+      "retrieved_at": "2026-10-25T20:03:50.168647+00:00",
+      "independent_local_hash_verified_at": "2026-10-25T20:17:18.460263+00:00",
+      "acquisition": "BROCK public SEC download; LIQUID independently read March documents using web and Q1 from this raw HTML",
+      "read_boundary": "Q1 legal-dispute LAM paragraph, income/adjustment/capital tables"
+    }
+  ],
+  "index_reads": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026015454/0001628280-26-015454-index.html",
+      "filing_date": "2026-03-06",
+      "accepted_as_displayed": "2026-03-06 07:30:36",
+      "period": "2026-03-02"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026033054/0001628280-26-033054-index.html",
+      "filing_date": "2026-05-11",
+      "accepted_as_displayed": "2026-05-08 17:49:33",
+      "period": "2026-03-31"
+    }
+  ],
+  "limits": [
+    "SEC acceptance timezone not asserted",
+    "March9 letter acceptance timestamp not independently verified",
+    "No current recovery ledger or court/adjudication read",
+    "No source census or price lead-lag backtest",
+    "Full Q1 body exceeds web extraction size; local primary parsing succeeded"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "section_2.": {
+    "unchanged": true,
+    "sha256": "60181b251364f517d7a7ae195f3a507b17bb9e8c3c69bc7737fe27e1c4f9c980"
+  },
+  "section_4.": {
+    "unchanged": true,
+    "sha256": "cfcdc94b4ea30a2467587ed6e67b0580fc4eab0f08b9d35d7259d042d8156f00"
+  },
+  "section_5.": {
+    "unchanged": true,
+    "sha256": "7e5abfd3e0a1d751ceaf309e0c88e89f954a68acb91ed00295998407f95ad243"
+  },
+  "owed_preserved": true,
+  "gate_rows": 5,
+  "status_bytes": 23634,
+  "status_lines": 102,
+  "status_under_rotation_trigger": true
+}
