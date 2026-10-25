@@ -505,3 +505,4 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-25T16:23:32.272722+00:00	SIG-W-20261023-031	acted	INBOX_WALTER	CORRECTION applied: WH10/22 no-strike-before-midterms; Bushehr135 as-of10/11, evacuation unconfirmed. KB-456. [hawk-1025 Codex]
 2026-10-25T16:23:32.272722+00:00	SIG-W-20261023-036	noted	INBOX_WALTER	Attack/incident censuses have different populations; no sum and no new gate event. KB-456. [hawk-1025 Codex]
 2026-10-25T16:23:32.272722+00:00	SIG-W-20261022-023	noted	BOARD_SCAN	DEWEY: historical patterns, not 2026 loss rates; escorts displace risk; non-US tanker qualifier retained. KB-459. [hawk-1025 Codex]
+2026-10-25T16:45:01.525310+00:00	SIG-W-20261025-001	acted	INBOX_WALTER	Late closeout intake: Oct24 Yanbu/Taif and Oct25 Riyadh reported intercepts; originating coalition releases not recovered. No confirmed oil damage, no HAW22 candidate established. KB-460. Sender source still untracked; leave in place for WALTER commit.

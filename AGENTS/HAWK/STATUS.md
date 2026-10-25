@@ -1,6 +1,6 @@
 # HAWK STATUS
 
-**Last Updated:** 2026-10-25 12:26 EDT. Will-launched boot and task catch-up; Codex thread `01a173d6-38cc-7de3-9a0b-fd12caf682cc`. Root and desk rules explicitly read. No trade book. No mark, band, probability or registered prediction letter changed. **Evidence through October 23 except the October 25 trade-policy primary review.** No live price quoted.
+**Last Updated:** 2026-10-25 12:26 EDT. Will-launched boot and task catch-up; Codex thread `01a173d6-38cc-7de3-9a0b-fd12caf682cc`. Root and desk rules explicitly read. No trade book. No mark, band, probability or registered prediction letter changed. **Owner evidence through October 23; October 25 trade primaries and a late WALTER interception report also read.** No live price quoted.
 
 **Today's assignment:** tariff-stacking RED definition (PROME DOCKET L778) drafted in `proposals/2026-10-25_TRADE02_RED_L778.md`. PROME registers options; Will rules. Draft is NOT REGISTERED. Recommendation: countrywide additional duty ≥50%, Section 232 stacking, effective legal instrument and complete scope/implementation evidence. No threshold activated.
 
@@ -27,6 +27,8 @@ Both derived aggregates regenerated October 25 from owner changes; fingerprints 
 - **US–China (KB-454):** MOFCOM officially announces extension to January 10, 2027; this is stronger than a Bessent verbal claim. Implementing amendments to the separate November legal clocks were not located in bounded searches. USTR exclusions still show November 9; BIS stay November 9. CBP October 22 update changes five classification descriptions, not expiry. No IEEPA tariff-lapse claim.
 - **HAW-20:** its registered letter explicitly excludes product carve-outs. The Section 338 Part B scope cut cannot fire the forecast; no new interpretation is needed. October 31 all-leg primary/court review still owed.
 - **Intake:** 3 direct packets, 13 WALTER files and 1 BOARD-only DEWEY signal read and dispositioned. Two named corrections handled. Historical tanker-war patterns are usable; historical loss rates are not 2026 forecasts. No primary study was re-conducted.
+
+**Late intake October 25 (KB-460):** WALTER reports October 24 Yanbu/Taif and October 25 Riyadh interceptions from dated article bodies; coalition originating releases not recovered. No oil damage established; separate dates, not one salvo. This does not establish a confirmed HAW-22 candidate. The delivered source is still sender-untracked and is left in place for WALTER persistence.
 
 ## Registered predictions and existing approvals
 

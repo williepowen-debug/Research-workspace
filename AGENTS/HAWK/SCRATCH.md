@@ -12,7 +12,7 @@ Canada broad auto-stacking claim corrected from MARCO/CBP. MOFCOM official Janua
 
 ## WHAT I DID THIS SESSION
 
-L778 draft and prospective successor candidate written, neither registered. TRADE-01 primary cadence run. DAEDALUS nine-item findings dispositioned in `research/2026-10-25_boot-obligations.md`. Retired K2 pointer repaired without inventing full coverage. Completed September/October N6, IRAQ/FININFRA review and HAW-19 residual tasks marked in CATALYSTS; HAW-22 final-search/resolution dates added; EURMIL 45-day arithmetic corrected. Both aggregates rebuilt. Intake: 3 direct packets + 13 WALTER files + one BOARD-only signal consumed; KB-453..459. Root/desk instructions explicitly loaded; boot checks executed. No frozen monitors run.
+L778 draft and prospective successor candidate written, neither registered. TRADE-01 primary cadence run. DAEDALUS nine-item findings dispositioned in `research/2026-10-25_boot-obligations.md`. Retired K2 pointer repaired without inventing full coverage. Completed September/October N6, IRAQ/FININFRA review and HAW-19 residual tasks marked in CATALYSTS; HAW-22 final-search/resolution dates added; EURMIL 45-day arithmetic corrected. Both aggregates rebuilt. Intake: 3 direct packets + 13 WALTER files + one BOARD-only signal consumed; KB-453..460 (includes late interception intake). Root/desk instructions explicitly loaded; boot checks executed. No frozen monitors run.
 
 ## NEXT SESSION
 
@@ -34,8 +34,10 @@ HAW-20 October 31; HAW-22 event close October 31, final resolution December 22. 
 
 ## MAIL STATE
 
-Inbox and WALTER lane clear: 16 moves committed in `6c9a0bce0`, with read dispositions. BOARD exact-ID scan found 14 unmatched routed IDs, 13 lane copies plus DEWEY BOARD-only. Outbox contains historical unsent packets; this session's BRENT K1 request is prepared, recipient notification/consumption unverified. PROME delivery tracked separately.
+Inbox and WALTER lane clear: 16 moves committed in `6c9a0bce0`, with read dispositions. Late SIG-W-20261025-001 read and logged (KB-460), left in place because WALTER has not committed its source yet; sender persistence pending, not unread work. BOARD exact-ID scan found 14 unmatched routed IDs, 13 lane copies plus DEWEY BOARD-only. Outbox contains historical unsent packets; this session's BRENT K1 request is prepared, recipient notification/consumption unverified. PROME delivery tracked separately.
 
 ## PENDING PUSH / GIT
 
 Boot pull deferred: foreign TERRY/MIDAS dirty paths, root Git dirty-owner stop. Own-state commit `6c9a0bce0`; PROME packet `0a1672e89`; WALTER correction `b5118ddbd`. No pull/rebase/stash of others' work. Safe push follows this final pin commit; its exact receipt is reported to PROME and Will. Recipient consumption remains unverified.
+
+**Push receipt before late intake:** `Pushed. CONFIRMED: HEAD f467a2cbc is on origin/master (fresh fetch).` Late-intake write-back is committed separately and re-pushed; original delivery packet remains a dated pre-addendum snapshot.

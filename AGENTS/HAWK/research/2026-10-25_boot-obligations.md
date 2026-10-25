@@ -68,3 +68,5 @@ Searches: Federal Register/BIS “November 9 / January 10 / China” extensions;
 **Read-cap follow-through:** October 21 LESSONS rotation had stopped at 71%. Completed October 25 by moving the split-history paragraph verbatim to its existing archive; live file now below 70%.
 
 **Consumer check:** lexical “auto duties now stack” search found WALTER's copied October25 owner header and DAEDALUS's October22 reader. The reader already reports the narrowing correction and is point-in-time evidence, so it is not a stale-current claim. A correction packet is prepared for WALTER's current catch-up. Self scan has no unqualified live hit. Ledger-count convention corrected: exclude column headers (current159/41/82 data rows).
+
+**Late closeout intake (October25):** SIG-W-20261025-001 read and logged as KB-460. WALTER reports October24/25 interceptions; no confirmed oil damage. Article bodies read by WALTER, coalition origin unread. No mark or HAW-22 letter changed. Source still untracked by WALTER at receipt, so left in place; no claim of sender persistence. Total intake read now18, KB additions8.
