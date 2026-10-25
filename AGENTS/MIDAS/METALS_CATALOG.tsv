@@ -98,3 +98,5 @@ shared	gold,silver	research	shared/research/2026-10-23_gold-silver-news-sweep.md
 shared	gold,silver,palladium	sources	shared/sources/2026-10-23_predictions/	Base rates for MIDAS-13..17 (registered 2026-10-23)	Frozen at registration.
 shared	gold,silver,platinum,palladium,copper	research	shared/research/2026-10-25_sunday-catch-up.md	Sunday catch-up and assignment reconciliation	PRD3 applied; Teck strike; completed ETF closes and dated source limits.
 shared	gold,silver,platinum,palladium,copper	sources	shared/sources/2026-10-25_boot	October25 boot and Friday-close capture	Raw unadjusted histories, issuer archive, Teck release and boot receipt.
+gold	gold	research	gold/research/2026-10-25_recent-gold-versus-history.md	Gold recent performance versus history	Will-directed descriptive study; four completed major GLD drawdowns, current episode censored.
+gold	gold	sources	gold/sources/2026-10-25_historical-comparison	Historical GLD calculation and charts	Method, source hashes, input exclusions, return/drawdown/rate/holdings tables; PNG/SVG/PDF.

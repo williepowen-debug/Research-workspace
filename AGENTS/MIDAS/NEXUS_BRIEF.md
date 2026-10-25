@@ -1,5 +1,8 @@
 # MIDAS — NEXUS brief
 
+**October 25 gold-history follow-up (Will-directed):** `gold/research/2026-10-25_recent-gold-versus-history.md`; chart and reproducible tables in `gold/sources/2026-10-25_historical-comparison/`. GLD −26.07% vs January peak, +142.42% vs September 2022 low; 5-session return −4.03% at pre-2026 percentile 3.9 (overlapping history). Daily-record bear episodes since 2004 recovered after 494/548/3264/1306 calendar days from peak; current episode ongoing, no recovery clock. Bullion Jan29→Oct22 −3.76%, far smaller than 2011–2015 −50.94%; fund-only comparison, unequal durations. Gold still fell 4.05% Oct9→22 despite real yield −27 bp. Historical evidence supports a substantial correction of an exceptional advance, not a demonstrated immediate buying edge. New descriptive rate estimates do not replace WQ-451/MIDAS-17 frozen beta; no score, probability or trade change.
+
+
 **October 25, 2026 Sunday boot/catch-up:** `shared/research/2026-10-25_sunday-catch-up.md`; prices completed October 23 ETF closes, named guard-qualified futures October 22. No live Sunday quotes.
 
 - **BOND/LIQUID/TERRY:** gold did not reliably hedge equity declines in the saved 120-session sample (up 2/12 stress days); its hedge value for a bearish-option book is unestablished. PROME PRD3 correction applied; no bearish-option P&L test. WQ-451 letter already delivered October 23; tests are DOCKET L819–L822, not action gates. GLD $366.61 Friday MIRROR; issuer bullion still 1,045.64t October 22, Friday row absent. M1 stays 4 pending certified gold settlement; newest GCZ26 $4,007.90 diagnostic is excluded, not a grade.

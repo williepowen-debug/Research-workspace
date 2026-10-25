@@ -1,0 +1,67 @@
+{
+  "endpoint": "2026-10-23",
+  "close": 366.6099853515625,
+  "issuer_endpoint": "2026-10-22",
+  "primary_rows": 5515,
+  "excluded_holidays_or_missing": 205,
+  "appended_mirror_rows": 1,
+  "overlap_n": 453,
+  "overlap_max_error": 1.464843751364242e-05,
+  "peak": "2026-01-29",
+  "peak_price": 495.9,
+  "current_drawdown_pct": -26.071791620979536,
+  "recovery_required_pct": 35.26636475120944,
+  "pre2026_underwater_deeper_fraction_pct": 29.800451807228917,
+  "low2022_date": "2022-09-26",
+  "low2022_price": 151.23,
+  "low2022_to_peak_pct": 227.91112874429675,
+  "low2022_to_now_pct": 142.4188225560818,
+  "cagr_full_history_pct": 10.108414468152226,
+  "drawdown_episode_count20": 5,
+  "completed_episode_count20": 4,
+  "relief_window": {
+    "start": "2026-10-09",
+    "end": "2026-10-22",
+    "gld_return_pct": -4.051172707889117,
+    "real_yield_change_bp": -27.0
+  },
+  "calendar_anchors": {
+    "since_2022_lastclose_pct": 116.11057849066407,
+    "since_2023_lastclose_pct": 91.77171384190119,
+    "since_2024_lastclose_pct": 51.41039332241461,
+    "since_2025_lastclose_pct": -7.494137076641394
+  },
+  "supplementary_descriptive_context": {
+    "2020-03-09 to 2020-03-19": -12.52772321145682,
+    "2025-12-31 to 2026-01-29": 25.129317958164066,
+    "2026-08-31 to 2026-10-23": -10.237014506742447,
+    "now_vs_july16_low_pct": 0.452100326491256,
+    "oct22_vs_july16_tonnes": 43.760000000000105
+  },
+  "sources": {
+    "issuer": {
+      "path": "shared/sources/2026-10-25_boot/GLD_issuer_archive.xlsx",
+      "sha256": "20f9c82b3281b5ef65412917e12fee50f5f788cb850463f045e920be3cd257e6"
+    },
+    "recent": {
+      "path": "shared/sources/2026-10-25_boot/GLD.csv",
+      "sha256": "0c69c9f7e6fd3358440629d59d968d6040c00bbba757e526ff3a64bfa2345847"
+    },
+    "yield_history": {
+      "path": "sources/2026-10-12_m1-expanded/DFII10_latest.json",
+      "sha256": "a5f05962f5dd13ebf47662cbe65dd5960252818d58d9d099256e5022bdf0d519"
+    },
+    "yield_newer": {
+      "path": "sources/2026-10-20_GLD-review/DFII10.json",
+      "sha256": "ded317b493e5f3159575ef4a7185b0aa6a31a0c3cf0a4a96324e29b4ff91a7a7"
+    },
+    "treasury": {
+      "path": "shared/sources/2026-10-23_catch-up/treasury_real_curve_2026.csv",
+      "sha256": "aaa23d46087373ac6f71f39931b987989457e58599a2c933a9091a979fa7ebd8"
+    },
+    "stress_panel": {
+      "path": "gold/sources/2026-10-23_wq451/panel.csv",
+      "sha256": "5039a2688910a950a38ec435410e6d485caeb9ac8651d48354e33351e229a179"
+    }
+  }
+}

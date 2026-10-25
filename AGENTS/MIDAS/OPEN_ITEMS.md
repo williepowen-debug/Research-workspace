@@ -45,6 +45,8 @@ Four continuous pointers were wrong against the mapped contracts in the October1
 
 ## 21. M1 successor — expanded reference complete, draft still unpriced
 
+**October 25 registrar update:** PROME records disposition as **WQ-522**, not ruled. Prior Sunday PRD3 correction and full closeout were verified by PROME at exact committed artifacts. No repeat correction or additional disposition request owed. Will’s subsequent gold-history comparison is complete at `gold/research/2026-10-25_recent-gold-versus-history.md`; it creates no new forecast or scoring authority.
+
 MIDAS-08 remains terminal(b) INDETERMINATE; M1=4 and the historical if-falsified(c) correction remains not owed. Ratio/absolute-positioning denominator lesson stands. WQ-161/162 are encoded; non-resolution is STATUS with no probability mass, not an outstanding canon blocker.
 
 Preferred120-pair beta/20-new-pair endpoint/existing−0.08 flip DRAFT: `analysis/2026-10-12_M1-successor-DRAFT.md`. Approved expanded2010–2026 reference:4186 pairs,244/1578 overlapping flips15.46%, fixed nested grid28 disjoint-input episodes/9 eligible/2 flips22.22%. All9 eligible cases precede2022; this is a frequency, not a forward probability. ALFRED first print is nonnumeric on2020-08-19; first-per-observation vintages are not historic resolving snapshots, and GLD is a later vendor capture. Review due 10/19 is OVERDUE (audit 10/23): retire-or-register decision outstanding; no registration or score action. Do not shift the grid or reanchor an ineligible future start. The November20 proposed date remains unarmed.

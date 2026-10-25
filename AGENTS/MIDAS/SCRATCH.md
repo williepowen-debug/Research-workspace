@@ -1,5 +1,8 @@
 # MIDAS — SCRATCH
 
+**Later October 25 — Will asked gold recent performance versus history:** completed `gold/research/2026-10-25_recent-gold-versus-history.md`; PRIMARY issuer history 2004–Oct22 plus one MIRROR Oct23 close, overlap 453 dates reconciled. Charts PNG/SVG/PDF and calculation/source hashes in `gold/sources/2026-10-25_historical-comparison/`. KB192–195; full historical recovery dispersion, near-July-low price and weak reaction to real-yield relief documented. No new prediction/score/trade. PROME acknowledged exact PRD3/result/delivery/closeout commits; WQ-522 now registers draft disposition (not ruled). Gold settlement source still missing. Plot dependencies installed only under /tmp. No pull over foreign live work.
+
+
 **Sunday boot/catch-up October 25, 2026 (Will-directed, Codex; closeout):** `shared/research/2026-10-25_sunday-catch-up.md`; raw `shared/sources/2026-10-25_boot/`. Initial clean-tree pull up to date; later foreign TERRY work means no further pull. Network boot REVIEW metals pointers only; no due predictions, unconsumed COT or named corrections. PRD3 current hedge wording corrected: equity-decline hedge failed in sample; bearish-option book hedge UNESTABLISHED. WQ-451 delivery reconciled (already consumed October 23). Teck strike confirmed October 24, reduced capacity, loss unknown. Friday ETF closes/bands updated; actual 8/20, counterfactual 13/20 unchanged. Gold settle still UNRESOLVED; newest vendor bar $4,007.90 is excluded, primary real yield and issuer bullion still October 22. Source XML/CSV both 404; no CME reprobe. No forecast edited. Owned result24aeb1487; deliverya7adbefa7 (PROME, ZHAO, HENRY). PRD3 inbox packet processed; final inbox sweep empty. Full checks/consumer-hit dispositions in `outbox/2026-10-25_closeout-receipt.md`; foreign work preserved, no later pull. Final push result reported separately by native notice/task output.
 
 
@@ -15,6 +18,6 @@
 5. **11/1 21:40 ET floor → 11/2 close:** SLV/PALL/PPLT band legs score at their then-current level (MIDAS-14/15). Counterfactual 13/20 with shared-root flag.
 6. **WQ-451 tests (DOCKET):** L819 11/06 (L1 liquidation), L820 SAFE ~11/07, L821 TIC ~11/18, L822 WGC ~12/04. MIDAS grades, PROME consumes. Name Russia's CB selling as the L3 offset.
 7. **11/20 — MIDAS-11/13/17** (issuer GLD closes; MIDAS-17 also needs the PRIMARY Treasury real 10Y for 11/20). MIDAS-12 on 2027-01-20.
-8. **Overdue decision:** M1 successor DRAFT (`analysis/2026-10-12_M1-successor-DRAFT.md`) review was due 10/19; retire or register (WQ-451 instrument may supersede).
+8. **Overdue decision (now WQ-522, registered by PROME October 25; NOT ruled):** M1 successor DRAFT (`analysis/2026-10-12_M1-successor-DRAFT.md`) review was due 10/19; retire or register (WQ-451 instrument may supersede).
 9. **Audit remainder** (`analysis/2026-10-23_desk-audit.md`): THESIS I1/I2 and FLOW FL-03/04 still 10/12 evidence; resolved MIDAS-01..08 not archived; LESSONS candidates (media mechanism vs the curve; measured stress-day behaviour); ask PROME to close the 8/10 DOCKET row and confirm L409 by name.
 10. **Position context:** GLD 25 sh (FORGE `ec5a7058b`); TERRY constructs any card, Will approves. Evidence gaps live in `OPEN_ITEMS.md`.

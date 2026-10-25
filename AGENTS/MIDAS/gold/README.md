@@ -58,3 +58,5 @@ Put new gold-specific writeups in `gold/research/` and supporting captures/calcu
 Put inseparable multi-metal work in [shared](../shared/README.md), once, and link it from every relevant metal. Existing `analysis/`, `reports/` and `sources/` paths remain valid for scripts, frozen references and peer citations. Add new artifacts to [METALS_CATALOG.tsv](../METALS_CATALOG.tsv) and this index. Do not create separate copies of STATUS, forecast ledgers, source registers or shared datasets.
 
 - [Sunday October 25 catch-up and assignment reconciliation](../shared/research/2026-10-25_sunday-catch-up.md) — dated prices, source limits, completed PRD3 correction and next owner work.
+
+- [Recent gold performance versus history](research/2026-10-25_recent-gold-versus-history.md) — October 25 study: 2004–2026 drawdowns, recoveries, recent-return percentiles and rate/holdings context. [Charts and calculations](sources/2026-10-25_historical-comparison/).
