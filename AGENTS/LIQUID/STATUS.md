@@ -1,5 +1,5 @@
 # LIQUID STATUS
-**Last Updated:** 2026-10-25T16:17:51-04:00 — WQ524 First Brands-to-WAL case complete: historical bank response verified; earlier public warning/current spillover not established.
+**Last Updated:** 2026-10-25T16:49:26-04:00 — Will-requested final closeout. First Brands transmission study complete; final recovery/recourse unresolved. Existing gates and dated duties preserved.
 
 > **How to read this file.** Levels here are **dated snapshots**, each with its own observation date. **`scripts/boot.py` is the live source**; quote from it, not from here. Basis is latest-revised FRED unless stated (see §5). One fact, one place: if a figure appears twice, one copy is a defect.
 
@@ -27,7 +27,7 @@
 
 **Named financing — Car-Mart [WQ523,10/25]:** $305,608,825.77 principal at10/14; $5M incremental agreement signed10/15/public10/21, net cash receipt unverified. Relief11/01 is not2030 maturity; $92M receivables are not cash. Current eligible liquidity and bank-risk bridge unobservable. Six new-money lender signatures, allocations omitted; agent/trustee distinct. → `research/2026-10-25_WQ523-carmart/REPORT.md`.
 
-**Historical bank transmission [WQ524, 10/25]:** First Brands receivables → LAM TFG I SPV LLC → Western Alliance Bank: $42.125M missed principal receipt; $126.4M remaining loan charged off Q1, not fresh cash paid. Forbearance/litigation executed. Jefferies disputes parent recourse; current recoveries/ultimate net loss unknown. March 6/9 disclosures follow events: mechanism beyond prices, earlier public warning unestablished. Q1 earnings/capital show absorption, not a funding squeeze. → `research/2026-10-25_WQ524-first-brands/REPORT.md`.
+**Historical bank transmission [WQ524, 10/25; study complete, recovery/recourse unresolved]:** First Brands receivables → LAM TFG I SPV LLC → Western Alliance Bank: $42.125M missed principal receipt; $126.4M remaining loan charged off Q1, not fresh cash paid. Forbearance/litigation executed. Jefferies disputes parent recourse; current recoveries/ultimate net loss unknown. March 6/9 disclosures follow events: mechanism beyond prices, earlier public warning unestablished. Q1 earnings/capital show absorption, not a funding squeeze. → `research/2026-10-25_WQ524-first-brands/REPORT.md`.
 
 **AI financing [carried10/23]:** CRWV/ORCL CDS are model conversions, META/NVDA disseminated (128bp NVDA). CRWV marks may be stale, parent/project funding unassessed. Lambda guidance not clearing; rated clean perimeter not access proof; FSK/DLIC terms UNKNOWN. Figures/sources → 10/22–23 reports/archive; Oracle canon `PROME/themes/ellison/`.
 

@@ -2,13 +2,15 @@
 
 ## Session Notes
 
-### CURRENT SESSION — 2026-10-25T16:17:51-04:00 (PROME/Will WQ524; replacement Codex window)
+### CURRENT SESSION — CLOSED 2026-10-25T16:49:26-04:00 (Will-requested final closeout; WQ524 replacement window)
 
 - Completed one historical case: `research/2026-10-25_WQ524-first-brands/REPORT.md`. First Brands receivables → LAM TFG I SPV LLC → Western Alliance Bank; $42.125M missed receipt and $126.4M Q1 remaining-loan charge-off. Executed forbearance/litigation, no fresh $126.4M cash payout.
 - Jefferies' non-recourse/guarantee-refusal account is disputed counterparty evidence, not adjudicated protection. Prior repayments already embedded; current collateral recovery/final economic loss unknown. Earnings offsets are not recoveries.
 - Warning value: contractual/accounting response beyond prices, but no earlier public lead established. March 6/9 publications follow events. Q1 SEC index distinguishes May 11 filing from May 8 17:49:33 acceptance; March 31 is period-end. No current bank funding crisis inferred.
 - BROCK handoff consumed at final research/state ef2c1df65 and brief/delivery bc2a28267. Only two candidates considered at selection depth; GBDC/Pluralsight not researched further. Car-Mart and Experiments A/B remain separate/unchanged.
-- Standard write-back and final brief fold follow final STATUS commit; dated PROME packet plus explicit native closeout/push receipt complete delivery. Other desks' dirty work preserved; no pull/rebase/stash. General inbox remains unprocessed beyond the two commissioned WQ524 packets.
+- Prior full write-back/push completed: research/STATUS f1409f6ef, final brief 1ba8b1a54, delivery 4ddae6f50; safe-push rc 0 with fresh-fetch confirmation. PROME marked the case ACCEPTED AND COMPLETE and L840 RESOLVED; final receipt/commit ancestry checks independently verified in its assessment and DOCKET, read at this closeout.
+- Will then requested final file update/closeout. Closure means the bank-transmission study is complete; eventual recoveries, enforceable Jefferies liability and earlier public warning remain unestablished. No new investigation commissioned. Final STATUS/brief refreshed and closeout record updated.
+- Other desks' dirty work preserved; no pull/rebase/stash. General inbox remains pending beyond the commissioned WQ524 packets; no closeout inbox drain. Resume STATUS §3 / NEXT SESSION for existing dated duties.
 
 ### RESTART BOOT — 2026-10-25T15:47:28-04:00 (Will direct; OpenAI / Codex, exact model UNKNOWN)
 
