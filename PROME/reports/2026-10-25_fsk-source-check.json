@@ -1,0 +1,17 @@
+{
+  "scope": "PROME source-level spot check, not independent six-issuer audit or complete helper certification",
+  "json_sha256": "d63a6c7ae3ba19c07fb43537f9ea5faa4e0062837fa69b0d9311b7c6fdc30b00",
+  "source_rows_verified": 134,
+  "funded_rows": 67,
+  "funded_mark": 85.39813216482982,
+  "bridge_rows": [
+    "Unfunded Loan Commitments ( 1,069.9 ) ( 1,069.9 )",
+    "Unfunded Debt Commitments ( 7.9 ) ( 7.9 )",
+    "Unfunded Asset Based Finance Commitments ( 33.2 ) ( 33.2 )",
+    "TOTAL INVESTMENTS\u2014 223.1 % 12,604.8 11,418.1",
+    "Unfunded Loan Commitments ( 1,338.4 ) ( 1,338.4 )",
+    "Unfunded Debt Commitments ( 1.6 ) ( 1.6 )",
+    "Unfunded Asset Based Finance Commitments ( 98.9 ) ( 98.9 )",
+    "TOTAL INVESTMENTS\u2014 222.4 % $ 13,740.8 13,008.6"
+  ]
+}
