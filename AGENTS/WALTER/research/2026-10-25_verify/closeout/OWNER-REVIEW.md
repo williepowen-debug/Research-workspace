@@ -1,0 +1,7 @@
+# Manual review — 2026-10-25T20:43:35Z
+
+All14 bundle dispositions reviewed; all four bounded helper reports fully read. Root inspected current ensemble graphic, Meta reconciliation, NYFed current summary/entire unemployment CSV and earlier quarterly counterexample, GMO two-page issuer disclosure/notices/CEO main body, PyPA YAMLs and KEV, ICSG full two-page forecast, Jubilee/FQM and Mosaic operating sections. Figures above are bounded by each source/date/basis; inaccessible originals remain gaps. No independent domain-owner review claimed.
+
+Consumer check literal “contrary Channel13 relay” returned3 BOARD references (marked original and explicit withdrawal/kill_strings) plus5 MAIL copies. All original recipients receive026; no stale owner canonical figure identified. Entire general lifecycle sweep remains overdue. No source retirement. Full-deferred header normalization records an actually completed prior FULL procedure.
+
+Ledger nudge reviewed: kill_log is deliberately frozen because no whole bundle received a KILL disposition; the first-ever subclaim is excluded within a mixed evidence update. No new correction receipt, threshold fire, deep-research commission or established-DARK doorbell event. CORRECTIONS/route/delivery changed. Prior event-ledger dates do not manufacture a new event. Meta draft provenance ordinal fixed before first commit: item18/October21 coverage, not item30/October23.

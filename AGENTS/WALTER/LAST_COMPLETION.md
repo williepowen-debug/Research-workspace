@@ -1,6 +1,6 @@
-# WALTER LAST_COMPLETION — October25 bookmark processing
+# WALTER LAST_COMPLETION — October25 bookmark verification
 
-Updated 2026-10-25T19:30:50Z; Will-directed bookmark processing. Codex/OpenAI GPT-6, exact variant UNKNOWN, session01a173d6-e52a-7b51-ba71-45d586fca51e. FULL continuity closeout of PARTIAL boot. Prior receipt preserved at research/2026-10-25_bookmarks/prior-LAST_COMPLETION.md.
+Updated 2026-10-25T20:43:35Z; Will-directed investigation of uncertain bookmark claims. Codex/OpenAI GPT-6, exact variant UNKNOWN, session01a173d6-e52a-7b51-ba71-45d586fca51e. LIGHT follow-up after19:30 FULL closeout. Earlier receipt preserved at research/2026-10-25_verify/prior-LAST_COMPLETION.md.
 
 ## STATUS
 
@@ -8,11 +8,15 @@ Boot PARTIAL: X reauthorization completed; READS attestation stale; full cross-o
 
 ## CHANGED
 
+Verification batch BM-20261025-03 CLOSED14/14:12 DISPATCH bundles produce13 new cards019–031 and43 create-only handoffs;1 NO-ACTION,1 NOTE. BOARD1700→1713. COR-20261025-26 withdraws the purported Zamir contradiction; original additive banner/generated INDEX/R1 included together. RESULTS.md and four helper reports contain primary checks/calculations/access limits. No X scan or mark.
+
 Bookmark batch BM-20261025-02 processed39/39: sixteen new BOARD cards003–018,45 create-only handoffs, route/delivery/index and exact-ID review. BOARD1684→1700. Source review, bounded follow-ups and mark receipt in research/2026-10-25_bookmarks/.
 
 Two BOARD cards (1682 -> 1684): SIG-W-20261025-001 weekend Saudi reported interceptions, originating coalition release not recovered, no confirmed oil-damage claim; SIG-W-20261025-002 corrects issuance-freeze inference in 1023-016. Original additive banner, generated INDEX, R1 COR-20261025-02, route log, eight create-only handoffs in f35a4b297. Rule 046fd4ae5 registered WQ-515 before selection; exact clock clarified in same owned rule file. REGISTRY, STATUS, SESSION_LOG, MEMORY, basis hashes, intake dispositions, consumption receipts and CARL-DR1 continuation updated. Main repository pull deferred for foreign dirty work; intake clone synced 82f6342.
 
 ## RESULT
+
+**Current verification cohort:**13 cards/43 handoffs written; exact commit/publication evaluated below. No owner semantic consumption inferred. QQQ count conditionally replicated, CalPERS26% count basis verified, Meta lease reconciliation exact, current NYFedQ2 corroborated and first-ever crossover refuted, GMO containment/scope sharpened, Python fixes verified. No new threshold grade/trade.
 
 Publication receipt:3e0333f30 is on fetched origin/master; all45 new handoffs delivered by path proof. No own push with foreign dirty work. BROCK reports010/018 noted; no broad downstream-integration claim. Evidence: research/2026-10-25_bookmarks/publication-receipt.json.
 
@@ -24,7 +28,7 @@ Fourteen intake content items dispositioned (5 DUP,6 FOLD,1 DISPATCH,1 KILL,1 NO
 
 ## GAPS
 
-- Bookmark limits:31 fully/8 partly read; Bloomberg CalPERS/JetBlue excerpts only, Japan video not assessed, other source/verification gaps explicitly owned in REVIEW.md. Inline verification only; no independent review claimed. No fresh KEV or whole Iran sweep. Source retriesOctober26 are reading checkpoints, not autonomous polling promises.
+- Bookmark historical processing31 fully/8 partly read is unchanged. Follow-up14 bundles completed with bounded helpers and manual primary review. CalPERS SEC holdings, Python advisories, current KEV, Reuters transcript, official Hebron statements, formal article+appendix and Meta/NYFed bases now checked. Remaining: full Japan spoken video/exact identity, original FT/MS dataset/import construction, actual JetBlue TRACE prices/adviser primary, exact French intraday spread, selected original Iran broadcasts/neutral maritime corroboration. No whole Iran sweep or proof-artifact audit. Source checkpointOctober26 is not autonomous polling.
 - READS attestation stale relative to current boot protocol. Boot basis 29 MATCH after explicit root-forum-carve-out / PSKY-alias review; this is not execution or perimeter attestation. PROME owns READS.tsv; request its existing owner reconciliation, no silent external edit.
 - Boot receipt lists uncompleted market/context legs. HANS daily evidence remains mostly October 22/21 owner values; HANS-T-12 UNINSTRUMENTED and excluded from clearance. FT-11/current official Brent settlement counts not newly adjudicated. Requested Brent metadata remains truncated; no crack fire from an unresolved identity.
 - General staleness/lifecycle sweep remains overdue (last completed October 10). The correction linkage for 1023-016 is completed; this does not close the full sweep. Initial doctor: 0 HIGH/4 MED; owner backlog not neglect. Current doctor/check outcomes in closeout bundle.
@@ -40,7 +44,7 @@ Fourteen intake content items dispositioned (5 DUP,6 FOLD,1 DISPATCH,1 KILL,1 NO
 
 ## FOLLOW-UP
 
-Bookmark batch resolved:39 marked after review; zero staged. WALTER source follow-upsOctober26 in REVIEW.md (Japan/Reuters/Hebron video transcripts; Bloomberg bodies; chart methods; Iran primaries; French spread basis). Material packets preserve recipient questions; no automated owner wakes. Curated formal-verification item for Will is a note, not a commissioned project.
+Bookmark batch resolved:39 marked after earlier review; verification caused no new scan/mark. Fourteen uncertainty bundles now investigated in research/2026-10-25_verify/RESULTS.md. Remaining access/method questions are named in GAPS; review material new evidence aroundOctober26. Reuters transcript/formal appendix/CalPERS holdings and current KEV gaps are discharged at stated scope. Material owner packets preserve questions without automated wakes. Formal item remains a note, not a commissioned project.
 
 1. WQ-515 / L828: sample window October 26 00:00 EDT (04:00Z) to October 30 16:00 EDT (20:00Z), stop at ten qualifying ACTION dispatches or cutoff. No Sunday or Saturday CATO transfers. Log in dispatch order with source/owner-record paths, versions and hops; no outcome-based skipping. DEWEY method 9c97f5012 received. Deliver one list at close; recipient reads wait>=24h and may extend to October 31. This is a bounded batch, not a new standing audit.
 2. Complete the explicit partial-boot market/context legs above when source evidence permits, reconcile READS with PROME. X access is restored; authorization performed no scan and left seen/staged state unchanged.
@@ -63,22 +67,14 @@ Preserved predecessor chain remains authoritative for the unchanged detailed tab
 
 ## CLOSEOUT RECEIPT
 
-FULL continuity closeout after third deferred sitting; checks saved under research/2026-10-25_bookmarks/closeout/. Research/boot gaps retained. Cards/handoffs committed in3e0333f30; fresh origin fetch proves publication;45 new handoffs reconciled delivered (Sunday53/53). Recipient consumption is separate. Mechanical read-cap/basis/versions/weekday/archive checks pass; READS remains UNKNOWN; doctor has0HIGH/2MED (backlog and overdue lifecycle sweep). Ledger nudge is history-based: route/delivery/registry updated this batch; kill ledger frozen because no KILL dispositions; correction/fire/doorbell ledgers frozen because no qualifying new event. No new consumer replacement or source retirement. Generated ORCH view rotate-tier flag belongs to PROME source, not manual projection edits. Own pull/push deferred for foreign dirty work. No Telegram alert/reply tool; this terminal request creates no Telegram reply debt.
+LIGHT verification follow-up after19:30 FULL closeout. Ledger-nudge REVIEW is explained: kill ledger frozen, no KILL bundle; no new receipt/fire/commission/dark doorbell event. New43 handoffs are written; current publication evidence below. Own push deferred for foreign dirty work. Research/source boundaries, correction linkage and carry review completed; mechanical checks do not certify owner integration or market clearance.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-25T19:46:10Z",
+  "as_of": "2026-10-25T20:43:35Z",
   "next_review": "2026-10-26",
   "publication": [
-    {
-      "commit": "046fd4ae5",
-      "state": "published"
-    },
-    {
-      "commit": "f35a4b297",
-      "state": "published"
-    },
     {
       "commit": "3e0333f30e535c220145807c5c08ae70d2311c30",
       "state": "published"
@@ -86,46 +82,57 @@ FULL continuity closeout after third deferred sitting; checks saved under resear
   ],
   "delivery": {
     "signal_date": "20261025",
-    "total": 53,
+    "total": 96,
     "delivered": 53,
-    "note": "Fresh git fetch origin and exact commit ancestry verified; reconciler validated all45 new paths on origin and flipped them. Total Sunday53/53 delivered; consumption separate."
+    "note": "Prior Sunday53 proven; new verification43 written awaiting commit/publication proof. No consumption inference."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
     "evidence": [
       {
-        "path": "AGENTS/WALTER/research/2026-10-25_bookmarks/REVIEW.md",
-        "sha256": "3380ca5baf5c18960383b268db1536f200dd57fcde2c16ccad81b5d0face0284"
+        "path": "AGENTS/WALTER/research/2026-10-25_verify/RESULTS.md",
+        "sha256": "0ea088c8423f2bf4c06d6c549eb11139ae9686d88f238136204fbcc398791c79"
       },
       {
-        "path": "AGENTS/WALTER/research/2026-10-25_bookmarks/bookmark-review.json",
-        "sha256": "d40eeb1dd0b9a8aebbd2b91fd7511e370b9a64a06e3ddb58d4be73267a485c89"
+        "path": "AGENTS/WALTER/research/2026-10-25_verify/finance.md",
+        "sha256": "a1a32af11300c996b138e1f1b9e5f6612267b713ff566b4a474b350236107a99"
       },
       {
-        "path": "AGENTS/WALTER/research/2026-10-25_bookmarks/MARK-RECEIPT.txt",
-        "sha256": "184a533780500d027251d64a7a4d1738377262c8ba0b93b0de6ade4f76ef5dbf"
+        "path": "AGENTS/WALTER/research/2026-10-25_verify/charts.md",
+        "sha256": "9730372029b1c2a9f5a313b79b44cd1b71174d99cc051d6c075fadc8e10f56de"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-25_verify/iran.md",
+        "sha256": "76344d8b2f798880522b40dc37186920b7db4c0ae7a597af183a0e9b571e9783"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-25_verify/japan-formal.md",
+        "sha256": "d0410e72c21fa6ceb2c9fe2590135b4f3036df3e83a4add4c4ea0e45c09a8420"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-25_verify/dispositions.json",
+        "sha256": "30bccf8d05d72649d444055b8d023bff2759d3c17905d02752d6fb8879a271ba"
       }
     ]
   },
   "procedure": {
-    "tier": "full",
-    "boot": "PARTIAL; prior exact gaps retained",
+    "tier": "light",
+    "boot": "PARTIAL; previously named market/context/READS gaps retained",
     "owner": "WILL",
-    "ask": "Please process the bookmarks",
-    "closeout": "FULL continuity with source gaps; receipt checks PASS; READS UNKNOWN/doctor REVIEW retained"
+    "ask": "Okay if you unsure about some of th claims in th bookmarks can you investigate them now?",
+    "closeout": "Verification follow-up;14 bundles closed, research and correction linked; exact commit/publication receipt follows"
   },
   "manual_duties": {
-    "11": "16 cards +45 handoffs/log rows; no new correction to published facts; generated INDEX1700; batch39 closed and marked.",
-    "12": "Updated dated source evidence/lead; prior narrative preserved verbatim in SESSION_LOG.",
-    "13": "Header date/focus refresh before NETWORK summary; no domain score inferred.",
-    "14": "Session note replaced, old note verbatim in SESSION_LOG; no durable rule change.",
-    "15": "Review and mark receipts hash-bound; partial content and prior approvals retained.",
-    "16": "3e0333f30 committed/published by shared push train;45 new delivery rows reconciled. Own push deferred for foreign dirty work. Final receipt commit is separate."
+    "11": "13 cards +43 create-only handoffs/log rows; correction026+original banner+R1+generated INDEX1713;14 bundles closed.",
+    "Tier1": "STATUS affected evidence refreshed;1 light breadcrumb; full narrative deferred after19:30 full procedure.",
+    "15": "Prior carries evaluated against primary followup; exact resolved/remaining source gaps above; bounded helper reports fully read.",
+    "16": "Exact authored paths only; shared foreign staged LIQUID renames excluded. Own pull/push deferred. Publication separately proven."
   },
   "root_duties": {
-    "retirement": "No files retired; no broader historical eligibility claim.",
-    "consumer": "No published owner number overwritten; new source comparisons retain date/basis; no universal consumer sweep credit.",
-    "weekday": "New cards dates SundayOctober25; Jubilee FYQ4 versusCYQ4 distinguished; new calendar text will be checked by runner."
+    "retirement": "No source/file retirement. New raw downloads remain/tmp; no credential storage in research.",
+    "consumer": "Correction literal search found original marked BOARD and correcting quotation/kill_strings; no other live owner artifact adopting literal. Five historical/current MAIL matches receive correction by same recipient union. No owner canonical edit.",
+    "weekday": "Sunday October25; observation dates, Apr\u2013Jun fiscalQ4 and October26 checkpoint retained.",
+    "checks": "Light runner plus scoped doctor/R1. Doctor0HIGH/2MED: old owner backlog and overdue lifecycle sweep; no new HIGH. READS remains priorUNKNOWN."
   }
 }
 END_CLOSEOUT_RECEIPT -->

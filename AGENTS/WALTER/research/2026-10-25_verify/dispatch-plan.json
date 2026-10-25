@@ -1,0 +1,380 @@
+[
+  {
+    "n": 19,
+    "id": "SIG-W-20261025-019",
+    "slug": "gmo-primary-server-scope-live-sessions-containment",
+    "title": "GMO: 26,739 is potential server scope; password changes may leave trading sessions active",
+    "domain": "CYBER",
+    "cluster": "MISC",
+    "action": [
+      "CYPHER"
+    ],
+    "info": [
+      "SAM",
+      "LIQUID",
+      "PROME",
+      "RED"
+    ],
+    "entities": [
+      "GMO-Internet",
+      "Onamae-Desktop-Cloud",
+      "Japan"
+    ],
+    "body": "# GMO: 26,739 is potential server scope; password changes may leave trading sessions active\n\n## Signal\n\nVerification follow-up to the already processed October 25 bookmarks. Material delta from prior card(s): 003; primary scope and containment detail newly read.\n\n## Data\n\n[Issuer October 23 disclosure](https://internet.gmo/ir/pdf/irlibrary/gmointernet_j_disclose_20261023.pdf), both pages read, gives **26,739 potentially affected servers**, explicitly not confirmed intrusions. [Fifth notice, October 24 15:00 JST](https://internet.gmo/news/article/250/) warns some broker sessions survive password changes and asks users to terminate all sessions. Scans are precautionary; universal endpoint infection is unproven.\n\n[CEO October 25 account](https://www.kumagai.com/?eid=19600) acknowledges earlier internal warnings and delayed hardening. Attacker identity/AI mechanism remain company assertions. More than 70 firms is threat scope, not 70 breached broker backends. Financial loss remains unquantified.\n\n## Relevance\n\n**CYPHER ACTION:** incorporate scope and containment guidance into the existing GMO event. SAM/LIQUID receive Japan/trading-access context. No broker exposure census or fleet deployment follows.\n\n## Source\n\nFull claim-level evidence and access limits: AGENTS/WALTER/research/2026-10-25_verify/RESULTS.md and its linked helper reports. Retrieval October 25; observation and publication dates above remain distinct.\n",
+    "precedence": "IMMEDIATE",
+    "confidence": 0.94,
+    "extra": {}
+  },
+  {
+    "n": 20,
+    "id": "SIG-W-20261025-020",
+    "slug": "brotli-python-primary-fixes-kev-vintage",
+    "title": "Brotli Python fixes verified at PyPA; fresh KEV catalog still does not list the CVE",
+    "domain": "CYBER",
+    "cluster": "MISC",
+    "action": [
+      "CYPHER"
+    ],
+    "info": [
+      "PROME",
+      "RED"
+    ],
+    "entities": [
+      "Brotli",
+      "brotlicffi",
+      "CVE-2026-111497",
+      "CISA",
+      "Python"
+    ],
+    "body": "# Brotli Python fixes verified at PyPA; fresh KEV catalog still does not list the CVE\n\n## Signal\n\nVerification follow-up to the already processed October 25 bookmarks. Material delta from prior card(s): 004 and CYB-INC-027; previously unread Python primaries and refreshed KEV check.\n\n## Data\n\nFull [PyPA Brotli advisory](https://raw.githubusercontent.com/pypa/advisory-database/main/vulns/brotli/PYSEC-2026-4322.yaml) and [brotlicffi advisory](https://raw.githubusercontent.com/pypa/advisory-database/main/vulns/brotlicffi/PYSEC-2026-4323.yaml), published October 23, identify fixes **1.2.1** and **1.2.1.0** respectively. Vulnerability requires affected decoder code handling attacker input; generic Python/HTTP exposure is not enough. GitHub/PyPA range conventions differ, so exact installed and distro-backport mapping still matters.\n\n[CISA catalog](https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json) fetched October 25: version **2026.10.23**, release **October 23 19:30:18.9209Z**, 1,756 entries; CVE-2026-111497 absent. Absence does not establish no exploitation. [Red Hat October 23 assessment](https://access.redhat.com/security/cve/cve-2026-111497) reports no public reliable RCE PoC as of its update, with severity differing from GitHub. This is the same underlying CVE, not another wave event.\n\n## Relevance\n\n**CYPHER ACTION:** fold Python fixes and exact KEV vintage into **CYB-INC-027**. No new incident count, successful exploitation assertion, or patch/deployment execution.\n\n## Source\n\nFull claim-level evidence and access limits: AGENTS/WALTER/research/2026-10-25_verify/RESULTS.md and its linked helper reports. Retrieval October 25; observation and publication dates above remain distinct.\n",
+    "precedence": "PRIORITY",
+    "confidence": 0.8,
+    "extra": {}
+  },
+  {
+    "n": 21,
+    "id": "SIG-W-20261025-021",
+    "slug": "acid-copper-producer-differences-refined-balance",
+    "title": "Acid stress varies by copper producer; ICSG forecasts a near-term refined surplus",
+    "domain": "METALS",
+    "cluster": "MISC",
+    "action": [
+      "MIDAS",
+      "FERT"
+    ],
+    "info": [
+      "LIQUID",
+      "HENRY",
+      "VULCAN",
+      "WATT",
+      "CARL",
+      "RED"
+    ],
+    "entities": [
+      "Jubilee-Metals",
+      "First-Quantum",
+      "Kansanshi",
+      "Zambia",
+      "ICSG",
+      "IEA",
+      "Mosaic",
+      "Sulfuric-Acid"
+    ],
+    "body": "# Acid stress varies by copper producer; ICSG forecasts a near-term refined surplus\n\n## Signal\n\nVerification follow-up to the already processed October 25 bookmarks. Material delta from prior card(s): 005; new producer counterevidence and primary forecast/curtailment checks.\n\n## Data\n\nJubilee's [September 14 issuer update](https://www.ukwire.co.uk/announcement/rns/jubilee-metals-group--jlp/fy2026-production-and-operational-update-/9769108) places acid costs >200% higher and Sable disruption in **April\u2013June fiscal Q4**, with no national affected-tonnage estimate. [First Quantum's July 28 Q2 results](https://www.first-quantum.com/news/first-quantum-minerals-reports-second-quarter-2026-results/) record Kansanshi selling about **36kt of acid/$12m** to third parties in that same quarter. Producer exposure differs.\n\n[ICSG October 14 forecast](https://icsg.org/download/2026-10-14-press-release-icsg-copper-market-forecast-2026-2027/), two pages read, projects refined surpluses **104kt in 2026 / 368kt in 2027**. It warns about Middle East disruptions and unreported Chinese stocks. [IEA's 2026 outlook](https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary) estimates a **25% 2035 project-pipeline gap** on a different horizon/basis. BNEF's exact bookmarked 8%/44% forecasts remain gated/unverified. None is an observed current deficit.\n\n[Mosaic Q2 10-Q](https://www.sec.gov/Archives/edgar/data/1285785/000128578526000112/mos-20260630.htm), operating sections read, links sulfur/supply pressure with temporary phosphate/Brazil curtailments. FERT already covers Mosaic cuts (KB-FERT-075/081); this is primary corroboration, not a new sector event. Specific plant utilization claims were not verified here.\n\n## Relevance\n\n**MIDAS ACTION:** incorporate the same-quarter acid counterexample and separate near-term refined balance from long-term mine capacity. **FERT ACTION:** fold primary corroboration into existing phosphate evidence; no blanket fertilizer-shortage inference. VULCAN/WATT receive conditional input-cost context, CARL food-cost transmission. Owner grades remain yours.\n\n## Source\n\nFull claim-level evidence and access limits: AGENTS/WALTER/research/2026-10-25_verify/RESULTS.md and its linked helper reports. Retrieval October 25; observation and publication dates above remain distinct.\n",
+    "precedence": "PRIORITY",
+    "confidence": 0.8,
+    "extra": {}
+  },
+  {
+    "n": 22,
+    "id": "SIG-W-20261025-022",
+    "slug": "qqq-fifty-five-replicated-final-down-day-condition",
+    "title": "QQQ 55-event count reproduces with a final-down-day condition; breadth supports concentrated weakness",
+    "domain": "MARKET_VOL",
+    "cluster": "POSITIONING_VALUATION",
+    "action": [
+      "HENRY"
+    ],
+    "info": [
+      "VIOLET",
+      "LIQUID",
+      "RED"
+    ],
+    "entities": [
+      "QQQ",
+      "OddStats",
+      "Bespoke",
+      "S&P-500",
+      "MacroCharts",
+      "Bloomberg"
+    ],
+    "body": "# QQQ 55-event count reproduces with a final-down-day condition; breadth supports concentrated weakness\n\n## Signal\n\nVerification follow-up to the already processed October 25 bookmarks. Material delta from prior card(s): 006; QQQ independently computed, current breadth located at publisher.\n\n## Data\n\nUsing [Yahoo daily QQQ data](https://query1.finance.yahoo.com/v8/finance/chart/QQQ?period1=915148800&period2=1792800000&interval=1d) from inception, the original count reproduces exactly: rolling five sessions contain at least two returns \u2264\u22122.5%, at least two \u2265+1%, **and end on a \u2264\u22122.5% session**. Annual counts: 2000:21, 2001:10, 2002:8, 2003:1, 2008:4, 2009:1, 2016:1, 2018:2, 2020:4, 2022:2, 2026:1; total **55**. Raw and dividend-adjusted prices match. Without the final-session condition, **155** overlapping windows qualify. October 16 lies marginally through \u22122.5%; rounding matters.\n\n[Bespoke October 23 recap](https://www.bespokepremium.com/morning-lineup/bespokes-morning-lineup-semis-at-the-200-dma-10-23-26/) reports October 22 S&P constituent breadth **337 up/165 down**, average stock **+0.7%**, while cap-weighted index fell >1%. Original historical constituent dots were not independently reconstructed. It is not NYSE-wide breadth.\n\nShort-ETF constituent universe/normalization remain unrecovered; turnover is not positioning. Bloomberg G10 excess-liquidity conceptual method was recovered from its author's interview, but exact 2026 construction, smoothing and six-month shift remain unreproduced.\n\n## Relevance\n\n**HENRY ACTION:** replace the count-unreplicated limitation with the explicit event definition; retain clustered/overlapping sample and no forward-return test. Breadth supports concentrated index weakness. VIOLET/LIQUID receive context, with no crash probability or liquidity forecast established.\n\n## Source\n\nFull claim-level evidence and access limits: AGENTS/WALTER/research/2026-10-25_verify/RESULTS.md and its linked helper reports. Retrieval October 25; observation and publication dates above remain distinct.\n",
+    "precedence": "PRIORITY",
+    "confidence": 0.8,
+    "extra": {}
+  },
+  {
+    "n": 23,
+    "id": "SIG-W-20261025-023",
+    "slug": "hardware-domestic-output-partial-replication",
+    "title": "Hardware chart partly reproduces; communications and electrical labels retain a vintage gap",
+    "domain": "INDUSTRIAL_CYCLE",
+    "cluster": "AI_INFRA_CAPEX",
+    "action": [
+      "ISHM"
+    ],
+    "info": [
+      "VULCAN",
+      "WATT",
+      "CARL",
+      "RED"
+    ],
+    "entities": [
+      "a16z",
+      "FRED",
+      "Federal-Reserve-G17",
+      "Census-FT900",
+      "BLS"
+    ],
+    "body": "# Hardware chart partly reproduces; communications and electrical labels retain a vintage gap\n\n## Signal\n\nVerification follow-up to the already processed October 25 bookmarks. Material delta from prior card(s): 007; original publisher and four domestic-series calculations recovered.\n\n## Data\n\n[Original a16z newsletter, October 23](https://www.a16z.news/p/charts-of-the-week-attention-is-all) recovered. December 2019\u2192September 2026 current FRED G.17 series yield **45.63% computers (IPG3341S), 84.58% communications (IPG3342S), 76.36% semiconductors (IPG3344S), \u22126.46% electrical equipment (IPG3353S)**. Chart's 46/87/76/\u22127 labels only partly reproduce: communications differs; electrical does not conventionally round to \u22127. Vintage/mapping remains unresolved, so this is not proof the original vintage was false.\n\nThe chart footnote names Census FT900 Exhibit 8 codes 21300+21301/214/21320/20005 and BLS import-price deflators 213/214/21320/20005. Exact import endpoints/aggregation were not reconstructed; **366/175/131/69%** remain publisher-attributed. Domestic series are real seasonally adjusted output, 2017=100. Different growth percentages are not import shares, units displaced or dollar capex totals.\n\n## Relevance\n\n**ISHM ACTION:** retain only the reproducible domestic observations and flag the two label/vintage gaps before using the import/output wedge. VULCAN/WATT receive hardware attribution/scope limits; CARL broad investment composition. No reshoring-failure or import-dependence estimate established.\n\n## Source\n\nFull claim-level evidence and access limits: AGENTS/WALTER/research/2026-10-25_verify/RESULTS.md and its linked helper reports. Retrieval October 25; observation and publication dates above remain distinct.\n",
+    "precedence": "PRIORITY",
+    "confidence": 0.8,
+    "extra": {}
+  },
+  {
+    "n": 24,
+    "id": "SIG-W-20261025-024",
+    "slug": "vortex-ensemble-weakening-oct25-not-observed-ssw",
+    "title": "Current ensembles support vortex weakening; reversal and surface cold remain uncertain",
+    "domain": "CLIMATE_MACRO",
+    "cluster": "CLIMATE_MACRO",
+    "action": [
+      "AEOLUS"
+    ],
+    "info": [
+      "BRENT",
+      "HENRY",
+      "RED"
+    ],
+    "entities": [
+      "ECMWF",
+      "GEPS",
+      "GEFS",
+      "Northern-Polar-Vortex"
+    ],
+    "body": "# Current ensembles support vortex weakening; reversal and surface cold remain uncertain\n\n## Signal\n\nVerification follow-up to the already processed October 25 bookmarks. Material delta from prior card(s): 008; current ensemble comparison replaces single-run-only evidence.\n\n## Data\n\n[Current original-processing graphic](https://scorvec.com/assets/sst/nh_vortex.webp), inspected in full, includes runs through **October 25 12Z**; [method](https://scorvec.com/stratosphere.html) uses ECMWF/NOAA/ECCC open data. Ensemble means at 10hPa/60\u00b0N weaken from about 22m/s toward roughly 0\u20134m/s in early November. Its **67%** annotation refers to GEPS members crossing easterly on some day within 15 days. That is one model's member fraction, not calibrated multi-model probability. IFS/AIFS/GEFS means remain weakly westerly; analysis remains westerly.\n\nThis improves on the October 23 single deterministic run. Official ECMWF chart access was blocked, so the recovered current comparison is independently processed open data. A purported latest OU GEFS chart was excluded because its image was dated August 14, 2025.\n\n## Relevance\n\n**AEOLUS ACTION:** incorporate ensemble support for weakening while keeping reversal/observed SSW and regional surface-cold transmission unconfirmed. BRENT/HENRY receive conditional energy-demand context; no realized gas draw, price effect or winter-temperature grade follows.\n\n## Source\n\nFull claim-level evidence and access limits: AGENTS/WALTER/research/2026-10-25_verify/RESULTS.md and its linked helper reports. Retrieval October 25; observation and publication dates above remain distinct.\n",
+    "precedence": "PRIORITY",
+    "confidence": 0.8,
+    "extra": {}
+  },
+  {
+    "n": 25,
+    "id": "SIG-W-20261025-025",
+    "slug": "calpers-sec-share-count-twenty-six-percent",
+    "title": "CalPERS 26% cut reproduces as combined direct share counts, not total economic exposure",
+    "domain": "PRIVATE_CREDIT",
+    "cluster": "PC_STRESS",
+    "action": [
+      "BROCK"
+    ],
+    "info": [
+      "HENRY",
+      "LIQUID",
+      "RED"
+    ],
+    "entities": [
+      "CalPERS",
+      "AAPL",
+      "MSFT",
+      "NVDA",
+      "AMZN",
+      "META",
+      "TSLA",
+      "GOOG",
+      "GOOGL"
+    ],
+    "body": "# CalPERS 26% cut reproduces as combined direct share counts, not total economic exposure\n\n## Signal\n\nVerification follow-up to the already processed October 25 bookmarks. Material delta from prior card(s): 010; primary holdings replace excerpt-only numerical evidence.\n\n## Data\n\nPrimary SEC CalPERS 13Fs for [December 31, 2025, filed February 12](https://www.sec.gov/Archives/edgar/data/919079/000091907926000003/form13fInfoTable.xml) and [June 30, 2026, filed August 14](https://www.sec.gov/Archives/edgar/data/919079/000091907926000011/form13fInfoTable.xml) were downloaded and parsed. Non-option shares across seven issuers/eight tickers sum **192,704,071\u2192142,182,529, \u221226.217%**. Exact per-name table is in finance.md. Tesla shares rose **6.55%**, so not every name fell. Combined filed market values **$53.862bn\u2192$40.908bn, \u221224.050%**, reflecting prices as well as holdings.\n\n[Bloomberg Tax October 23 relay](https://news.bloombergtax.com/financial-accounting/calpers-pivots-from-us-tech-giants-to-private-equity-ft-reports) explicitly identifies combined share counts. Raw shares across different issuers are not an economic exposure weight. Neither two snapshots nor the relay establish transaction proceeds, total look-through exposure, October sales, or linked net private-equity purchases. Full FT interview/allocation paper remain unavailable.\n\n## Relevance\n\n**BROCK ACTION:** use the verified count basis if folding this allocation report; retain unknown vehicles/net commitments. HENRY/LIQUID receive the measurement qualification. No measured system outflow or private-credit loss established.\n\n## Source\n\nFull claim-level evidence and access limits: AGENTS/WALTER/research/2026-10-25_verify/RESULTS.md and its linked helper reports. Retrieval October 25; observation and publication dates above remain distinct.\n",
+    "precedence": "PRIORITY",
+    "confidence": 0.93,
+    "extra": {}
+  },
+  {
+    "n": 26,
+    "id": "SIG-W-20261025-026",
+    "slug": "CORRECTION-zamir-conditional-warning-compatible-october-assessment",
+    "title": "CORRECTION: Zamir reports can coexist; Iran statement dates recovered without kinetic confirmation",
+    "domain": "GEOPOL_ENERGY",
+    "cluster": "IRAN_HORMUZ",
+    "action": [
+      "FALCON"
+    ],
+    "info": [
+      "HAWK",
+      "BRENT",
+      "RED"
+    ],
+    "entities": [
+      "Iran",
+      "Israel",
+      "Netanyahu",
+      "Eyal-Zamir",
+      "IRGC",
+      "Hormuz",
+      "Hebron",
+      "Bandar-Lengeh"
+    ],
+    "body": "# CORRECTION: Zamir reports can coexist; Iran statement dates recovered without kinetic confirmation\n\n## Signal\n\nVerification follow-up to the already processed October 25 bookmarks. Material delta from prior card(s): 011; actual framing correction plus primary date/provenance upgrades.\n\n## Data\n\n**Withdrawn:** 011 called a later Zamir assessment a **contrary Channel13 relay**. The recovered [October 8 Channel 12 report](https://www.timesofisrael.com/liveblog_entry/zamir-told-us-generals-that-striking-iran-in-coming-weeks-could-delay-israeli-election-report/) says war **could** delay the October 27 election. An October 22 assessment of no operational need for a pre-election strike can coexist with it. It does not refute that conditional warning. \u201cWill indefinitely\u201d remains unsupported; original broadcasts unrecovered.\n\n[Official PM October 21 indexed text](https://www.gov.il/en/pages/spoke-course211026) supports the public regime-change directive; body403 limits direct access. Public intent is not an executable strike timetable or IAEA nuclear evidence. [Reuters transcript](https://www.marketscreener.com/news/iran-shows-off-purported-underground-drone-factory-in-state-tv-footage-ce785cdfda80f520) dates state-TV drone footage to **October 22**, published October 23, unknown location: no verified output/capacity. PM/IDF sources support October 23 Hebron deaths/cordon; the recovered Iran-border sortie occurred **October 19**, not two proven new runs. Exact locators and later October 25\u201327 restrictions are in iran.md.\n\n[Anadolu October 23](https://f.aa.com.tr/en/middle-east/iran-s-revolutionary-guards-say-2-supertankers-hit-naval-mines-in-strait-of-hormuz/4099071) establishes IRGC/IRNA's two-tanker allegation, not mine casualties: no hull names/operator corroboration. IMO October 22 list predates it; unusable UKMTO dynamic page proves no absence. Bandar Lengeh event/aircraft identity remains unverified. Separate claim dates are not additive confirmed hulls.\n\n## Relevance\n\n**Direction:** removes the purported contradiction; **HOLDS** no verified new strike/nuclear restart/mine casualty or lost barrels. **FALCON ACTION:** apply this correction and dated provenance to 011 wherever adopted; owner ledger/watch grades remain yours. HAWK/BRENT retain separate statement, footage and consequence evidence. Full guard inventory read through ADD#27; targeted check does not reset full anchor October 22/next October 29.\n\n## Source\n\nFull claim-level evidence and access limits: AGENTS/WALTER/research/2026-10-25_verify/RESULTS.md and its linked helper reports. Retrieval October 25; observation and publication dates above remain distinct.\n",
+    "precedence": "PRIORITY",
+    "confidence": 0.8,
+    "extra": {
+      "signal_type": "correction",
+      "corrects": [
+        "SIG-W-20261025-011"
+      ],
+      "corrects_direction": "HOLDS no kinetic/nuclear/hull upgrade; removes purported contradiction between conditional warning and later operational assessment",
+      "kill_strings": [
+        "contrary Channel13 relay"
+      ],
+      "anchor_unverified_as_of": "2026-10-25",
+      "narrative_channel": "tasnim"
+    }
+  },
+  {
+    "n": 27,
+    "id": "SIG-W-20261025-027",
+    "slug": "japan-debt-imf-basis-video-remains-partial",
+    "title": "Japan debt title needs a ratio and comparison group; full spoken video remains inaccessible",
+    "domain": "JAPAN_BOJ",
+    "cluster": "ASIA_CHINA",
+    "action": [
+      "SAM"
+    ],
+    "info": [
+      "LIQUID",
+      "HENRY",
+      "RED"
+    ],
+    "entities": [
+      "Japan",
+      "IMF",
+      "BOJ",
+      "United-States",
+      "peruvian_bull"
+    ],
+    "body": "# Japan debt title needs a ratio and comparison group; full spoken video remains inaccessible\n\n## Signal\n\nVerification follow-up to the already processed October 25 bookmarks. Material delta from prior card(s): 015; primary title/basis checks completed, transcript retrieval concretely attempted.\n\n## Data\n\n[IMF October 2026 WEO GDP](https://www.imf.org/external/datamapper/api/v1/NGDPD/JPN/USA) and [gross-debt/GDP](https://www.imf.org/external/datamapper/api/v1/GGXWDG_NGDP/JPN/USA), with indicator metadata checked, imply projected general-government gross debt about **Japan $8.658tn versus US $41.391tn**. Therefore \u201cmost debt\u201d is contradicted as a dollar amount on this basis; [MOF](https://www.mof.go.jp/zaisei/financial-situation/financial-situation-01.html) supports highest ratio among major advanced economies. IMF's Japan debt-definition change also limits older-vintage comparisons.\n\n[BOJ June 16 purchase plan](https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260616b.pdf) retains purchases, about **\u00a52.3tn/month October\u2013December**, alongside planned reductions toward \u00a52tn from April 2027 and emergency flexibility. Purchases alone establish no collapse-prevention causal claim.\n\nNear-identical [author YouTube candidate](https://www.youtube.com/watch?v=2dEUNe2N9X0), October 23/1,017s, was found. Exact X-content identity is unproven. English caption tracks advertise ASR but return empty200; transcript endpoint400. The full spoken argument remains unread; title/description are not a transcript.\n\n## Relevance\n\n**SAM ACTION:** retain the video as a partial lead and use ratio/group/vintage qualifications for any debt comparison. No carry unwind, fiscal-collapse timing, probability or policy grade established.\n\n## Source\n\nFull claim-level evidence and access limits: AGENTS/WALTER/research/2026-10-25_verify/RESULTS.md and its linked helper reports. Retrieval October 25; observation and publication dates above remain distinct.\n",
+    "precedence": "PRIORITY",
+    "confidence": 0.8,
+    "extra": {}
+  },
+  {
+    "n": 28,
+    "id": "SIG-W-20261025-028",
+    "slug": "france-moodys-aa3-negative-retained-spread-unverified",
+    "title": "Moody\u2019s retained France Aa3/negative; the reported 7bp intraday narrowing remains unverified",
+    "domain": "EUROPE_MACRO",
+    "cluster": "MISC",
+    "action": [
+      "HANS"
+    ],
+    "info": [
+      "BOND",
+      "LIQUID",
+      "RED"
+    ],
+    "entities": [
+      "France",
+      "Moodys",
+      "OAT",
+      "Bund",
+      "AFT"
+    ],
+    "body": "# Moody\u2019s retained France Aa3/negative; the reported 7bp intraday narrowing remains unverified\n\n## Signal\n\nVerification follow-up to the already processed October 25 bookmarks. Material delta from prior card(s): 017; primary rating outcome newly recovered while exact market-price question remains unresolved.\n\n## Data\n\n[French Finance Ministry October 23 release 1146](https://presse.economie.gouv.fr/notation-moodys-reaction-de-roland-lescure/) states Moody's maintained **Aa3 with negative outlook**. This government primary establishes no downgrade at that review; Moody's full rationale not recovered. [AFT ratings listing](https://www.aft.gouv.fr/en/frances-credit-ratings) still lists October 23 as next review, a stale listing rather than contrary outcome evidence.\n\nThe bookmarked **7bp October 23 narrowing** still lacks matching benchmark start/end yields and timestamp basis. Later widening does not falsify an earlier intraday narrowing. AFT's TEC10 is a synthetic constant-maturity rate, not the matching benchmark OAT/Bund pair; no substitute spread calculated.\n\n## Relevance\n\n**HANS ACTION:** incorporate the actual rating outcome into existing France review/predictions; do not infer spread relief or threshold resolution from the headline. BOND/LIQUID receive the outcome and basis limits. WALTER does not grade HNS-10/HNS-11 or HANS-T-10.\n\n## Source\n\nFull claim-level evidence and access limits: AGENTS/WALTER/research/2026-10-25_verify/RESULTS.md and its linked helper reports. Retrieval October 25; observation and publication dates above remain distinct.\n",
+    "precedence": "PRIORITY",
+    "confidence": 0.9,
+    "extra": {}
+  },
+  {
+    "n": 29,
+    "id": "SIG-W-20261025-029",
+    "slug": "meta-fcf-ppe-lease-definition-reconciled",
+    "title": "Meta \u2212$1.2bn and \u2212$2.12bn cash-flow figures reconcile through finance-lease principal",
+    "domain": "AI_CAPEX",
+    "cluster": "AI_INFRA_CAPEX",
+    "action": [
+      "VULCAN"
+    ],
+    "info": [
+      "LIQUID",
+      "BROCK",
+      "VIOLET",
+      "HENRY",
+      "WATT",
+      "RED"
+    ],
+    "entities": [
+      "META",
+      "Meta-Platforms",
+      "Finance-Leases"
+    ],
+    "body": "# Meta \u2212$1.2bn and \u2212$2.12bn cash-flow figures reconcile through finance-lease principal\n\n## Signal\n\nVerification follow-up to the already processed October 25 bookmarks. Material delta from prior card(s): BM-02 item18, previously DUP to October21 primary earnings coverage (SIG-W-20261021-015); now resolves the chart-definition gap.\n\n## Data\n\n[Meta Q3 2026 SEC earnings release](https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm), non-GAAP reconciliation read, reports operating cash flow **$32.786bn**, purchases of property/equipment **$33.942bn**, and finance-lease principal **$0.964bn**. CFO minus PPE is **\u2212$1.156bn**, rounding to the bookmarked **\u2212$1.2bn**. Meta subtracts lease principal too, producing issuer-defined FCF **\u2212$2.120bn**. The difference is exactly the lease amount.\n\nThus the two figures can be valid under different explicitly named definitions. Full historical quarterly series was not reconstructed: **\u201cfirst ever negative\u201d remains unverified**. This is numerical reconciliation, not independent evidence of a fresh capex cut or funding failure.\n\n## Relevance\n\n**VULCAN ACTION:** retain both definitions where needed and use issuer reconciliation consistently in the existing cash-flow/capex evidence. LIQUID/BROCK receive financing context without a new credit event; VIOLET/HENRY/WATT capex consequence context. No owner figure overwritten.\n\n## Source\n\nFull claim-level evidence and access limits: AGENTS/WALTER/research/2026-10-25_verify/RESULTS.md and its linked helper reports. Retrieval October 25; observation and publication dates above remain distinct.\n",
+    "precedence": "PRIORITY",
+    "confidence": 0.96,
+    "extra": {}
+  },
+  {
+    "n": 30,
+    "id": "SIG-W-20261025-030",
+    "slug": "nyfed-prior-unemployment-crossovers-q2-vintage",
+    "title": "NY Fed data contradict the graduate-unemployment \u201c45-year first\u201d; Q2 figures remain supported",
+    "domain": "LABOR",
+    "cluster": "CONSUMER_STAGFLATION",
+    "action": [
+      "LABOR"
+    ],
+    "info": [
+      "CARL",
+      "HENRY",
+      "RED"
+    ],
+    "entities": [
+      "New-York-Fed",
+      "Recent-College-Graduates",
+      "BLS"
+    ],
+    "body": "# NY Fed data contradict the graduate-unemployment \u201c45-year first\u201d; Q2 figures remain supported\n\n## Signal\n\nVerification follow-up to the already processed October 25 bookmarks. Material delta from prior card(s): 014 and BM-02 item36; source-quarter ambiguity resolved and primary historical counterexample calculated.\n\n## Data\n\n[NY Fed current page](https://www.newyorkfed.org/research/college-labor-market), body/methodology read October 25, confirms **2026 Q2 recent-graduate unemployment 5.6%, underemployment 42%**. Underemployment concerns employed graduates in jobs typically not requiring degrees; it is not an unemployment add-on.\n\nThe page's legacy XLS link is a July 2023 underemployment-job-type workbook, so it cannot establish the current unemployment history. Current chart JavaScript yields this [primary CSV](https://www.newyorkfed.org/medialibrary/research/interactives/data/college-labor-market/college-labor-unemployment-data.csv), January 1990\u2013June 2026, parsed in full. It contains **73 monthly observations before 2025** with recent-graduate unemployment above all workers. Q2 2019 averages **3.957% recent graduates vs 3.557% all workers**. This is a quarterly counterexample too.\n\nThe attached 2025 graphic's \u201cfirst in 45 years\u201d comparison therefore fails on NY Fed's current basis. This does not negate current graduate weakness, reconcile all historical vintages or demonstrate AI displacement. Original014 explicitly left the historical claim unverified; this is a verification update, not withdrawal of a previously certified claim.\n\n## Relevance\n\n**LABOR ACTION:** exclude the first-ever framing and retain the dated Q2 observations/definitions when assessing the existing low-hire picture. CARL/HENRY receive household-demand context, no causal estimate.\n\n## Source\n\nFull claim-level evidence and access limits: AGENTS/WALTER/research/2026-10-25_verify/RESULTS.md and its linked helper reports. Retrieval October 25; observation and publication dates above remain distinct.\n",
+    "precedence": "PRIORITY",
+    "confidence": 0.94,
+    "extra": {}
+  },
+  {
+    "n": 31,
+    "id": "SIG-W-20261025-031",
+    "slug": "ai-cds-volume-basket-months-still-secondary",
+    "title": "AI CDS volume basket and comparison months recovered; original transaction methodology remains unavailable",
+    "domain": "FUNDING_LIQUIDITY",
+    "cluster": "AI_INFRA_CAPEX",
+    "action": [
+      "LIQUID"
+    ],
+    "info": [
+      "BROCK",
+      "VULCAN",
+      "HENRY",
+      "RED"
+    ],
+    "entities": [
+      "Morgan-Stanley",
+      "Oracle",
+      "SpaceX",
+      "Alphabet",
+      "Amazon",
+      "Meta",
+      "Broadcom",
+      "Nvidia"
+    ],
+    "body": "# AI CDS volume basket and comparison months recovered; original transaction methodology remains unavailable\n\n## Signal\n\nVerification follow-up to the already processed October 25 bookmarks. Material delta from prior card(s): 018; useful basket/timeframe recovered, original market dataset still unavailable.\n\n## Data\n\nThe [October 20 FT original](https://www.ft.com/content/6dd31584-064c-4015-bf5d-e5747799ccd5) remains subscription-limited. An [accessible relay](https://dealroom.co/news/other-1a9vuwe-ai-debt-worries-spark-surge-in-default-insurance-trading/) attributes **September average weekly volume >$9bn versus July <$2bn** to Morgan Stanley Research across **Oracle, SpaceX, Alphabet, Amazon, Meta, Broadcom, Nvidia**.\n\nThis recovers comparison months and basket behind the rounded \u201cfour times/~$10bn\u201d chart. The relay is not independent market-data verification; original transaction filters, gross/net classification and aggregation remain unavailable. September average weekly trading volume is not an October observation, outstanding net protection, new hedges, spreads, or default probability. Multiple relays of this research are one source lineage.\n\n## Relevance\n\n**LIQUID ACTION:** preserve the basket/month/volume basis when folding018 into existing AI-credit evidence, and keep it separate from spread/position measures. BROCK/VULCAN/HENRY receive the bounded context. No fresh threshold fire or commissioned dataset/collector.\n\n## Source\n\nFull claim-level evidence and access limits: AGENTS/WALTER/research/2026-10-25_verify/RESULTS.md and its linked helper reports. Retrieval October 25; observation and publication dates above remain distinct.\n",
+    "precedence": "PRIORITY",
+    "confidence": 0.6,
+    "extra": {}
+  }
+]

@@ -1,4 +1,18 @@
-## 2026-10-25T19:30:50Z — FULL continuity closeout:39 bookmark reviews
+## 2026-10-25T20:43:35Z — light-closeout — full deferred:14 bookmark-verification bundles
+
+Will asked to investigate uncertain bookmark claims. BM-20261025-03 CLOSED14/14:12 DISPATCH bundles yielding13 cards019–031, one NO-ACTION (JetBlue prices remain secondary), one NOTE (formal article+appendix reading closed).43 create-only handoffs. COR-20261025-26 corrects the purported Zamir contradiction; original additive banner+generated index+R1 same change. Primary/calculation findings and actual access failures are in research/2026-10-25_verify/RESULTS.md and four helper reports. No X scan/mark, owner grade or trade. Raw external content only/tmp. Full narrative/registry/MEMORY regeneration deferred; prior19:30 FULL procedure is preserved. Its SESSION header is normalized from “FULL continuity closeout” to “FULL closeout: continuity” so the debt parser recognizes the already completed full procedure; no new full-procedure claim. Existing boot/lifecycle/attestation gaps remain. Pull/own push deferred for foreign dirty work; publication and consumption recorded separately in LAST_COMPLETION.
+
+### Prior STATUS lead (verbatim)
+
+# WALTER STATUS
+**Updated:** 2026-10-25T19:30:50Z — Sunday bookmarks processed;18 cards today,BOARD1700. FULL continuity closeout; boot remains PARTIAL. Duties and publication: LAST_COMPLETION.md.
+
+## BOTTOM LINE
+
+All39 staged bookmarks processed:27 origins in16 new tracked packets,7 duplicates,3 no-action and2 context/system notes. Main findings: GMO Desktop Cloud breach confirmed but70-plus firms remains threat scope; Brotli reach confirmed at Bun/Envoy; Jubilee acid increase is fiscalQ4 endedJune; housing order needs agency implementation; KFF worker contribution9% differs from total premium5%. Eight items retain partial reading limits and material leads have dated follow-ups. No owner threshold grade/trade changed. WQ-515 opensMonday; zero Sunday samples. Prior issuance correction002 and Saudi report001 remain. Boot remains PARTIAL for the previously recorded market/context/READS gaps.
+
+
+## 2026-10-25T19:30:50Z — FULL closeout: continuity after39 bookmark reviews
 
 Will requested processing the exact39 staged IDs. BM-20261025-02 CLOSED39/39; marked39 at19:29:22Z,31 fully/8 partly read. DISPATCH16/FOLD11/DUP7/NO-ACTION3/NOTE2. Cards003–018,45 create-only handoffs; BOARD1700. No new fire, grade or trade. Current-state boot remains PARTIAL; existing source/attestation gaps persist. Two preceding full-deferred breadcrumbs plus this third sitting trigger FULL continuity closeout; pending research duties are retained rather than cleared by mechanical checks. Source review/report in research/2026-10-25_bookmarks/REVIEW.md. Main pull/own push deferred for foreign dirty work; exact local commit and publication evidence recorded separately.
 

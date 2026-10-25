@@ -1,0 +1,13 @@
+{
+  "as_of": "2026-10-25T20:22:40Z",
+  "batch": "BM-20261025-03",
+  "scope": "14 bundles from already processed bookmarks; no scan or mark",
+  "runtime": "Codex/OpenAI GPT-6; exact variant UNKNOWN",
+  "helpers": [
+    "verify_finance",
+    "verify_charts",
+    "verify_iran"
+  ],
+  "review": "WALTER read complete four helper reports and checked primary consequential evidence",
+  "raw_storage": "/tmp only"
+}

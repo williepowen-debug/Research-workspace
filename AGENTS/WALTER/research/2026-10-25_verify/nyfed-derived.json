@@ -1,0 +1,13 @@
+{
+  "first_recent_gt_all": {
+    "Date": "2001-09-01 00:00:00",
+    "Young workers": "7.109",
+    "All workers": "4.658",
+    "Recent graduates": "4.693",
+    "College graduates": "2.544",
+    "NBER": "1"
+  },
+  "pre2025_months": 73,
+  "q2_recent_mean": 5.584666666666667,
+  "raw_source": "https://www.newyorkfed.org/medialibrary/research/interactives/data/college-labor-market/college-labor-unemployment-data.csv"
+}

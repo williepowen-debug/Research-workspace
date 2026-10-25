@@ -1,0 +1,130 @@
+{
+  "CYPHER": [
+    {
+      "path": "AGENTS/CYPHER/STATUS.md",
+      "line": 60,
+      "text": "| CYB-INC-027 | **Node.js CVE-2026-111497 (\"Node2Shell\"):** Brotli decoder memory write can lead to code execution where an app decompresses attacker data; rated high; fixed 10/21; found by OpenAI Codex Security; no exploitation stated; not in KEV | DISCLOSED \u00b7 PRIMARY-VERIFIED | Not \"pre-auth on an"
+    }
+  ],
+  "MIDAS": [
+    {
+      "path": "AGENTS/MIDAS/OPEN_ITEMS.md",
+      "line": 3,
+      "text": "**Late October 25 copper intake:** WALTER SIG-W-20261025-005 read and DEFERRED (KB206, board_log) to the next existing copper review, using WALTER\u2019s October26 follow-up if available. Jubilee fiscal Q4 is April\u2013June2026, not new October production evidence; subsequent issuer disclosure and forecast-m"
+    }
+  ],
+  "FERT": [
+    {
+      "path": "AGENTS/FERT/STATUS.md",
+      "line": 7,
+      "text": "**Situation Tier:** \ud83d\udfe1 MONITORING \u2014 **retail MAP $981 / DAP $937 [DTN 10/21, wk Oct 12\u201316]**, sixth straight MAP rise; G5 NOT FIRED 10-of-10, **$19** short, ~1.9 months at the 10-week pace. India booked only **~410,000 t of 1.7 Mt** [AFC w/e 16.10] \u2014 Chinese sellers refused ~$320\u2013325/mt FOB netbacks;"
+    },
+    {
+      "path": "AGENTS/FERT/TRADE.md",
+      "line": 70,
+      "text": "| Mosaic (MOS) | Potash exposure dilutes nitrogen thesis. CF is purer play on urea. |"
+    },
+    {
+      "path": "AGENTS/FERT/outbox/2026-09-22_from-FERT_L398-source-disposition.md",
+      "line": 14,
+      "text": "| T12 corroboration | Fertilizer Daily | `https://www.fertilizerdaily.com/20260715-tampa-sulfur-price-record/` | HTTP 200 | article (7/15/26) | Q3 Tampa $705/lt delivered, +$50 from $655 | MIRROR | also: Mosaic cut output at four US plants (July) |"
+    },
+    {
+      "path": "AGENTS/FERT/outbox/2026-09-17_from-FERT_L310-G5-9-16-grade-plus-DAEDALUS-ASK-disposition.md",
+      "line": 85,
+      "text": "- **Cost:** the T12 phosphate-margin-inputs second source stays unobtained, so any rock+sulfur cost-push narrative remains single-sourced. Mitigation: Mosaic IR (the other half of the T12 row) at the next full session."
+    },
+    {
+      "path": "AGENTS/FERT/reports/2026-10-21_self-sweep.md",
+      "line": 12,
+      "text": "| 4 | **Phosphate cost-push mechanism under G5 unreadable at its settlement.** Q4 Tampa molten sulfur still unsettled at the 10/16 post; the body is behind Green Markets' subscriber wall. The Mosaic South Fort Meade idling rests on a headline + one secondary (theledger.com refuses this box; Mosaic I"
+    },
+    {
+      "path": "AGENTS/FERT/workbook/GATE_GRADES.md",
+      "line": 73,
+      "text": "Fifth consecutive MAP up-print (+$5 w/w); DAP flat ($934 = $934) after last week's +$8. MAP is now the highest monthly row in DTN's own 10/14 table. A last-six-prints window (9/9 \u2192 10/14) puts MAP at ~+1.80 %/mo (~1.2 months to the line) \u2014 a window, not a trend, not used for the grade or the score. "
+    },
+    {
+      "path": "AGENTS/FERT/workbook/INSTRUMENT_GAPS.md",
+      "line": 16,
+      "text": "| Phosphate cost-push second source | **SULFUR LEG RESOLVED 2026-09-22 \u00b7 curtailment leg STALE** | Tampa molten sulfur **$705/lt CFR** now two-sourced: Green Markets Sulfur Posts **9/18** (continued) + Fertilizer Daily **7/15** (Q3 settlement, +$50). Curtailment: second read was **July** (FD 7/15: M"
+    }
+  ],
+  "HENRY": [],
+  "ISHM": [],
+  "AEOLUS": [
+    {
+      "path": "AGENTS/AEOLUS/seismic/DOSSIER.md",
+      "line": 15,
+      "text": "| S-1 | GVP week 9/10\u20139/16: max plume 2.5 km above crater (Aira); no stratospheric-injection report | not met (partial coverage) |"
+    },
+    {
+      "path": "AGENTS/AEOLUS/seismic/SOURCES.md",
+      "line": 73,
+      "text": "GVP's Eruptive History database carries VEI. \u26a0\ufe0f **VEI is assigned *after* an eruption, often revised, and the climate-relevant variable is not VEI itself but the *stratospheric SO\u2082 mass*.** The S-1 trigger requires **confirmed stratospheric injection**, not a VEI number alone \u2014 a large but troposphe"
+    },
+    {
+      "path": "AGENTS/AEOLUS/seismic/README.md",
+      "line": 28,
+      "text": "| **\u2460 Volcanic \u2192 climate** | **VEI 6+** injects stratospheric SO\u2082 \u2192 global cooling \u2192 **crop yield loss** | **C2** (agriculture) \u2014 *the genuine climate link* |"
+    },
+    {
+      "path": "AGENTS/AEOLUS/seismic/AGENT.md",
+      "line": 59,
+      "text": "- **VEI alone does not imply climate forcing.** S-1 needs **confirmed stratospheric SO\u2082**. Eyjafjallaj\u00f6kull was low-VEI with zero climate effect and the largest aviation disruption in modern memory."
+    },
+    {
+      "path": "AGENTS/AEOLUS/seismic/RUN_REPORT.md",
+      "line": 8,
+      "text": "  S-1 volcanic climate   | GVP week 9/10-9/16: max plume 2.5 km above crater (Aira); no VEI 5+ and no stratospheric SO2 reported | NOT-FIRED (coverage covers 1 week of the 4.5-week gap)"
+    }
+  ],
+  "BROCK": [
+    {
+      "path": "AGENTS/BROCK/catchups/2026-10-25.md",
+      "line": 123,
+      "text": "Late WALTER intake: SIG-W-20261025-010 CalPERS holdings lead triaged/noted, no identified PC vehicle or net commitments and no pension study commissioned; original-source retrieval remains WALTER10/26. SIG-W-20261025-018 AI CDS volume info-only, not net protection or an extra spread observation. Bot"
+    },
+    {
+      "path": "AGENTS/BROCK/trade/CROSS_ANALYSIS.md",
+      "line": 16,
+      "text": "| OBDC/OBDC II/OTIC asset sale | OWL | $1.4B | 99.7% of par (99.8% of FV) | Arms-length (CalPERS/OMERS/BCI/Kuvare) |"
+    },
+    {
+      "path": "AGENTS/BROCK/domain/PRIVATE_CREDIT_CONTAGION_TRACKER.md",
+      "line": 66,
+      "text": "- 3 arm's-length buyers: OMERS, Canadian pension, CalPERS"
+    }
+  ],
+  "SAM": [],
+  "HANS": [
+    {
+      "path": "AGENTS/HANS/STATUS.md",
+      "line": 9,
+      "text": "- \ud83d\udd34 **FRANCE IS THE STRESS, AND IT IS FRANCE-SPECIFIC. `T-10` OPEN AND DEEPENING: OAT 5.13 / Bund 3.38 / spread 174.6bp [i-i close 10/22]** \u2014 137.4 [10/16] \u2192 142.3 \u2192 150.8 \u2192 157.5 \u2192 **174.6 (+17.1 in one session, +37bp in 4)**. TE cross-check 5.076 / 3.3311 = 174.5bp, so the LEVEL agrees; the day's "
+    },
+    {
+      "path": "AGENTS/HANS/outbox/delivered/2026-10-22_from-HANS_france-oat-red-tier-174bp-pre-moodys.md",
+      "line": 2,
+      "text": "**Signal:** France 10Y OAT closed **5.13%**, through HANS's 5.00% red tier; OAT\u2013Bund **174.6bp** (+17.1bp in one session) on the governing ideal-investisseur close 10/22, the night before Moody's (Fri 10/23, Aa3 negative)."
+    },
+    {
+      "path": "AGENTS/HANS/outbox/delivered/2026-10-21_to-LIQUID_T10-157bp-reask-us-funding.md",
+      "line": 5,
+      "text": "- **Next catalyst: Moody's review Fri 10/23** (Aa3, negative outlook)."
+    }
+  ],
+  "VULCAN": [
+    {
+      "path": "AGENTS/VULCAN/STATUS.md",
+      "line": 46,
+      "text": "- **S1** \u2014 \ud83c\udd95 **10/22 tape: S&P \u22121.21% while RSP +0.73% \u2014 mega-cap AI selling, which moves the breadth red leg AWAY from \u2264 \u22127.5pp; SOX \u22126.72% on Lam's supply-capped guide (read at SEC: demand intact, CY2027 WFE >$200B per the call) [KB-272/273]. Slot 7 taken post-close 10/23 (KB-279).** 10/22: META \u2212"
+    },
+    {
+      "path": "AGENTS/VULCAN/reports/2026-10-21_L782_ai-infra-financing-weak-links.md",
+      "line": 11,
+      "text": "The chain is breaking **from the bottom up, at the borrowers without an investment-grade tenant, and it has not reached the hyperscalers.** The two S5 events on record (Firmus IPO withdrawn 10/09; Volta +150bp versus its sounding, 10/15) and tonight's NextDC guidance cut on a power delay all sit in "
+    }
+  ],
+  "LABOR": []
+}

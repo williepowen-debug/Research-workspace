@@ -1,0 +1,72 @@
+[
+  {
+    "bundle": 1,
+    "disposition": "DISPATCH",
+    "reference": "SIG-W-20261025-019"
+  },
+  {
+    "bundle": 2,
+    "disposition": "DISPATCH",
+    "reference": "SIG-W-20261025-020"
+  },
+  {
+    "bundle": 3,
+    "disposition": "DISPATCH",
+    "reference": "SIG-W-20261025-021"
+  },
+  {
+    "bundle": 4,
+    "disposition": "DISPATCH",
+    "reference": "SIG-W-20261025-022"
+  },
+  {
+    "bundle": 5,
+    "disposition": "DISPATCH",
+    "reference": "SIG-W-20261025-023"
+  },
+  {
+    "bundle": 6,
+    "disposition": "DISPATCH",
+    "reference": "SIG-W-20261025-024"
+  },
+  {
+    "bundle": 7,
+    "disposition": "DISPATCH",
+    "reference": "SIG-W-20261025-025"
+  },
+  {
+    "bundle": 8,
+    "disposition": "DISPATCH",
+    "reference": "SIG-W-20261025-026; COR-20261025-26"
+  },
+  {
+    "bundle": 9,
+    "disposition": "DISPATCH",
+    "reference": "SIG-W-20261025-027"
+  },
+  {
+    "bundle": 10,
+    "disposition": "NO-ACTION",
+    "reference": "finance.md: JetBlue instrument verified, trade prices remain secondary; existing016 still covers lead"
+  },
+  {
+    "bundle": 11,
+    "disposition": "DISPATCH",
+    "reference": "SIG-W-20261025-028"
+  },
+  {
+    "bundle": 12,
+    "disposition": "DISPATCH",
+    "reference": "SIG-W-20261025-031"
+  },
+  {
+    "bundle": 13,
+    "disposition": "DISPATCH",
+    "reference": "SIG-W-20261025-029; SIG-W-20261025-030"
+  },
+  {
+    "bundle": 14,
+    "disposition": "NOTE",
+    "reference": "japan-formal.md: full article and appendix read; no new project commissioned"
+  }
+]

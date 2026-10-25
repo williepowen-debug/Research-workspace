@@ -21,7 +21,11 @@ event_window: "closed"
 dispatch_note: "Sunday batch: outside WQ-515 selection window. Source content and owner judgment remain distinct; no threshold fire or trade follows from this research lead."
 anchor_unverified_as_of: "2026-10-25"
 narrative_channel: "tasnim"
+status: "PARTIALLY-CORRECTED"
+status_ref: "SIG-W-20261025-026 — HOLDS no kinetic/nuclear/hull upgrade; purported Zamir contradiction withdrawn; primary dates/provenance added"
 ---
+> **PARTIALLY CORRECTED 2026-10-25 — SIG-W-20261025-026:** the later Zamir assessment does not contradict the earlier conditional election warning. HOLDS: no verified new strike, nuclear restart or mine casualty. Primary statement/event dates are updated in026; original text preserved below.
+
 # Weekend Iran/Israel bookmarks add claims and election rhetoric; no new strike, mine detonation or nuclear capability verified here
 
 **Read state:** full post text; item26's map inspected; video thumbnails/metadata for22 and25, no full video transcripts. Current-state re-verification is incomplete. Broad anchor last full October22, targeted October23; complete guard inventory consulted earlier this sitting. This card does not reset it. The narrative-channel tag identifies the IRGC/state-media maritime limb; Israeli official/TV and OSINT claims remain separately attributed in the table.
