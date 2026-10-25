@@ -40,3 +40,5 @@ Direct inbox clear at cutoff; WALTER011 consumed/archived, 396 exact routed BOAR
 ## PENDING PUSH / GIT
 
 Repairs 7644c394b, input deliveries 71b274847, PROME packet 868c7a89d, completeness revision b7d521e79/ pin ac6270394 and DEWEY delivery 380da6bf1 are committed/pushed. PROME consumed repair package at 5d73329cc. This final closeout updates owner state/workbook and supplies a dated PROME receipt; NEXUS pins its exact STATUS commit afterwards. Fresh-origin push receipt is reported in task output. Foreign BROCK/WALTER/other work excluded; no pull/stash/rebase. No owners launched; no trade executed.
+
+Final owner write-back commit `3841fe06c` contains STATUS and workbook updates. NEXUS names that exact STATUS revision. Dated completion packet: `outbox/2026-10-25_to-PROME_final-closeout.md`; recipient consumption of this new receipt is unverified until acknowledged. The preceding repair package was already consumed. Final push receipt is reported in task output.
