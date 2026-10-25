@@ -78,3 +78,7 @@
 2. **The SEC submissions JSON moved its clock under the same URL** — the same 9/24 8-K read `20:05:15Z` on 9/25 and `00:05:15Z`(+1d) on 10/2. Grade acceptance times from the EDGAR index page.
 3. **My own pre-statement over-claimed a surface** ("10-Qs name exited positions with proceeds vs cost"). Five filings showed sales and repayments merged. Pre-stating made the miss visible instead of quietly re-scoped — **keep pre-stating; it is what caught it.**
 
+
+### #38 — Separate committed exposure, funded loans and net commitment marks before comparing prices. *(2026-10-25)*
+
+FSK's gross SOI sections included $1,111M unfunded offsets and $15.4M money-market cash; adding them to a funded investment comparison manufactured a $1,126.4M discrepancy. Rows marked footnote(x) were unfunded commitments, not funded loans. Removing them changes software FV/par87.03→85.40 and below80 funded-par share21.85→25.55; negative marks on the commitments are a separate perimeter. The six-name peer conclusion inherited the same basis error and was withdrawn, not quietly retained beside corrected totals. **Before parsing a SOI: identify cash, unfunded rows, net offsets and currency basis; tie gross-minus-offsets to the balance sheet before using any weighted mark.** Evidence/helper: `research/2026-10-25_bank-and-bdc/`.
