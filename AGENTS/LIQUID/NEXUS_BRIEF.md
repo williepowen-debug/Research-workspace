@@ -1,6 +1,6 @@
 # LIQUID — NEXUS Brief
 
-**As of:** 2026-10-25T14:53:06-04:00 | STATUS commit: `50570647e434bb2708fe0174602d39d212064b4b`
+**As of:** 2026-10-25T15:41:37-04:00 | STATUS commit: `50570647e434bb2708fe0174602d39d212064b4b`
 **Evidence frontier:** credit/SOFR October22; SRF/RRP and raw vendor closes October23; dealer as-of October14 (published October22); CFTC as-of October20 (published October23); H.4.1 week ended October21; H.8 week ended October14 (released October23). Reconciliation date is not an observation date. Sources: `STATUS.md`, `research/2026-10-23_evening/REPORT.md`, `research/2026-10-25_boot/boot.txt` and the named analyses below. No market data re-pulled for this fold.
 
 ## Current judgment
