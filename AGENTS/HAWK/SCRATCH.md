@@ -42,3 +42,5 @@ Prior audit pushed through e6f181cb7; prior boot/intake pushed through 265d66cac
 October 25 guard clarification: war_monitor source accounting remains unwired and unchanged; direct --save now refuses before source access, protecting frozen war/scenario histories.
 
 Repair commit `7644c394b` contains exact STATUS revision and validation receipt. Five recipient packets persisted in `71b274847`; consumption unverified. PROME repair delivery packet saved and exact STATUS pin updated at final closeout; push receipt follows the pin/delivery commit.
+
+Confirmed repair push: `Pushed. CONFIRMED: HEAD 868c7a89d is on origin/master (fresh fetch).` Native PROME notice accepted for the exact dated repair delivery; recipient artifact consumption remains unverified. This receipt update is closeout metadata; evidence/validation and STATUS remain pinned to 7644c394b. Final metadata push receipt is reported in task output. Own worktree was clean after 868c7a89d; foreign BROCK research remains excluded.
