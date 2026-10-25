@@ -3,7 +3,7 @@
 **Status:** ELEVATED. Willingness/route risk plausible; net crude loss and oil-price premium share UNMEASURED. No mark, band or probability moved.
 **Domain:** Cross-war synthesis and dormant geopolitical book.
 **As of:** October 25, 2026, 14:21 EDT; theater-owner evidence through October 23. Native Europe/issuer/legal documentary review October 25.
-**STATUS commit:** PENDING exact repair commit pin; prior audit pin 4e88720ac is superseded at this closeout.
+**STATUS commit:** `7644c394b` (exact STATUS repair revision).
 
 | Consumer | Material result | Limitation |
 |---|---|---|

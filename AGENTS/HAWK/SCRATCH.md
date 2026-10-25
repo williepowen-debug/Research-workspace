@@ -40,3 +40,5 @@ Earlier boot intake consumed; late SIG-W-20261025-001 committed by WALTER f35a4b
 Prior audit pushed through e6f181cb7; prior boot/intake pushed through 265d66cac. Pull deferred because foreign work was dirty (MIDAS at start; PROME at closeout); no stash/rebase of others. Repair commit and final push receipt are appended after validation. NEXUS gets exact STATUS commit pin in a follow-up commit. Notification acceptance never proves recipient consumption.
 
 October 25 guard clarification: war_monitor source accounting remains unwired and unchanged; direct --save now refuses before source access, protecting frozen war/scenario histories.
+
+Repair commit `7644c394b` contains exact STATUS revision and validation receipt. Five recipient packets persisted in `71b274847`; consumption unverified. PROME repair delivery packet saved and exact STATUS pin updated at final closeout; push receipt follows the pin/delivery commit.
