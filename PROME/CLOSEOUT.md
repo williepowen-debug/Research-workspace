@@ -1,5 +1,6 @@
 # PROME CLOSEOUT
 
+**Editorial amendment:** 2026-10-25, WQ-525 — session summary follows BOOT step 8; [ruling and reads](proposals/2026-10-25_research-first-briefing-RULED.md).
 **Created:** 2026-05-18 · **Updated:** 2026-10-16 00:01 ET (PROME session `b486657a`, L738 / WQ-446 A — the Deck OWED view publishes only when the step-9 gate's *Deck republish* line reads OWED or UNKNOWN; Pre-closeout 4–5, symmetry row, step 11, § Delivery; acceptance `PROME/tools/tests/ACCEPTANCE_L738_deck_owed_digest.md`) · prior stamps 2026-09-11 → 2026-10-15 15:29 ET moved verbatim to `PROME/archive/CLOSEOUT_STAMP_CHAIN_2026-10-16.md`; amendment history `git log -p -- PROME/CLOSEOUT.md`.
 **Gate-instruction reconciliation:** 2026-10-25 — end-of-day ARGUS found the pre-WQ-517 step-10 instruction still live in step 8 and both closeout runners. Aligned to the already-approved October24 rule; no code or policy change.
 **Owner:** Prome
@@ -117,7 +118,7 @@ Closeout is the **write-back tail** of boot (`[[finding_closeout_as_writeback_ta
 
 **Publication prerequisites are checked at Pre-closeout, not at the render** (item 5), only for a separately requested active deliverable. Helm retirement and the Deck pause require no dashboard explainer, page read, file listing or hosted receipt. **If an active prerequisite cannot be met, say so at Pre-closeout and decide then**; discovering it only at step 11 remains a process defect.
 
-**Session summary to Will:** what landed (commit hashes belong HERE, never in state files — they decay) · the three delivery states · **"Done without asking": each C1–C7 act of the session with its commit, or the word none (WQ-348 guard, `PROME/CLAUDE.md` § Ask First)** · **RETIRED: Helm under WQ-461; PAUSED BY WILL: Deck under WQ-460 (neither is a skipped control)** · **SKIPPED: any active routine step not run, or run by reasoning instead of by the instrument, with its reason — and then the headline is PARTIAL whatever the three delivery states say (`PROME/CLAUDE.md` § Skipped-control reporting)** · what is owed at next boot · open `PROME/WILL_QUEUE.md` rows by number.
+**Session summary to Will:** apply `PROME/BOOT.md` step 8 **Research-first briefing**. **Required operational accounting:** what landed (commit hashes belong HERE, never in state files — they decay) · the three delivery states · **"Done without asking": each C1–C7 act of the session with its commit, or the word none (WQ-348 guard, `PROME/CLAUDE.md` § Ask First)** · **RETIRED: Helm under WQ-461; PAUSED BY WILL: Deck under WQ-460 (neither is a skipped control)** · **SKIPPED: any active routine step not run, or run by reasoning instead of by the instrument, with its reason — and then the headline is PARTIAL whatever the three delivery states say (`PROME/CLAUDE.md` § Skipped-control reporting)** · what is owed at next boot · open `PROME/WILL_QUEUE.md` rows by number.
 
 ---
 
