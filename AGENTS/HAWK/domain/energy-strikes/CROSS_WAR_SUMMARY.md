@@ -1,6 +1,28 @@
 # Cross-war energy-strike aggregate — HAWK, derived
 
-**Regenerated: 2026-10-21** (§October21 below; prior passes: 10/10, 9/28, 9/18, 9/16).
+**Regenerated: 2026-10-25.** Latest owner evidence: October 23. No fresh October 25 theater sweep. Historical passes below are snapshots, not current grades.
+
+| Owner ledger | Committed head reviewed | Data rows, excluding header |
+|---|---|---|
+| OSPREY STRIKES | `3bac20f15` | 159 |
+| FALCON facility STRIKES | `ab9b1cea0` | 41 |
+| FALCON VESSELS | `5063c120e` | 82 |
+
+Earlier tables counted the header as a row: October 21's 160 / 42 / 82 should read 159 / 41 / 81 data rows. This is a counting-convention correction, not deleted incidents. Current heterogeneous rows cannot be added into capacity or barrel losses.
+
+**Reconciliation (owner briefs October 23, KB-HAWK-456):** OSPREY holds 5 / 5 / 3; refinery/products disruption remains separate from crude terminal damage. Its certified window advances to October 18 on a bounded Palaemon/land review. October 19–23 was searched but not certified; index coverage was thin. Azov is closed UNRESOLVED, not disproved. Wine Trader and Bulgaria-pair date conflicts do not affect its channel clocks.
+
+FALCON holds B 1 / C 14 / D 85. The newly rowed October 22 Limah outbound tanker was struck but sailed on. It establishes neither a sinking nor a mine confirmation. The IRGC unnamed seven-ship claim and the Yanbu fire claim remain unconfirmed. FALCON losses remain 4 confirmed + 1 contested; the four loss instruments are never summed.
+
+**FLOW-19 assessment:** Russian refining/products and Gulf hull/route risk are unlike exposures. The October 21 Kpler relay is volume; PortWatch is an AIS-visible count lower bound (BRENT's KB-HAWK-450 reconciliation). That closes the old instrument-conflict caveat, not the sourcing gap: Kpler remains one secondary relay and net lost supply is unmeasured. No measured fraction of oil price can be attributed to premium here. A production-site confirmation could change the regime; a hull count cannot establish it.
+
+**Forecast perimeter:** HAW-22 remains OPEN, 65% UNCALIBRATED. Yanbu October 22 stays an unconfirmed watch; crude-terminal identity, sole-path damage and repair duration are not established. It is not a confirmed candidate. **undisclosed damage can produce a misleading CONFIRM — a CONFIRM on this letter is a claim about what was DISCLOSED, never about capacity**. HAW-22 excludes upstream/processing and refinery/product assets; no broad K2 negative follows.
+
+**No double-count:** preserve attacker/target dyad, molecule, asset, loading/departure/transit basis and prior outage. Licensed diesel not delivered and the refinery loss that prevents it are one barrel. DEWEY's historical escort patterns are mechanism evidence, not contemporary loss-rate forecasts.
+
+---
+
+## Historical refreshes — original vintages retained
 
 ## October21 refresh: owner ledgers at their heads, plus the WALTER lane 10/10 → 10/21 (59 signals) and a HAWK web sweep
 

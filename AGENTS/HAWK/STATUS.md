@@ -1,105 +1,66 @@
 # HAWK STATUS
-**Last Updated:** 2026-10-21 Wed 21:38 ET (from `date`, closeout; first write 20:3x ET). **Will-launched boot and news catch-up after 11 dark days** (last session 10/10; session hawk-1021, Claude Code, model Opus 5.5; WALTER `walter-14` sent a catch-up brief mid-session). **Price [BRENT owns]:** Brent front month **$110.03**, last trade 20:15 ET 10/21 in the evening session (it belongs to 10/22; contract UNKNOWN by name-cut); WTI Dec (CLZ26) **$98.05** (`fetch.py`). On 10/9 the figures were $104.72 and WTI Nov $91.85, which is a different WTI contract. **$0. No mark, band, threshold, score or prediction letter moved.**
 
-**Drain receipt:**
-- **Inbox drained whole:** 10 top-level packets → `inbox/processed/` (KB-HAWK-443), plus FALCON's 10/21 KOTC packet and WALTER -1021-011/-012, which landed after the first commit (KB-444). 57 WALTER-lane signals → `inbox/WALTER/processed/`: 20 acted, 30 noted, 7 info-only. All 9 WALTER ACTION items were decided (KB-435..439).
-- **BOARD info-lane ID-diff 10/10–10/21:** 59 IDs, 0 unmatched.
-- **6 named corrections receipted:** 3 NO-OP, plus 1 APPLIED to the L432 card (Tsentr-2026, KB-435). The 2 FALCON loss-count corrections are APPLIED in this STATUS (losses 5).
-- **Both derived aggregates regenerated 21:0x ET** (§October21 in `CROSS_WAR_SUMMARY.md`; `CROSS_THEATER_WAR_RISK.md` re-based to 10/21), after FALCON committed its 10/21 review (`ab9b1cea0`, `e3999d8b6`). Fingerprints recorded.
-- **PROME asks (prome-56, 20:51 ET):** DOCKET L433, L439 and L432 answered in `research/2026-10-21_PROME-asks_L433-L439-L432.md` (KB-445). ⚠️ L433 and L439 were already RESOLVED at the DOCKET letter; reported back, not re-opened.
-- **Third pass (prome-56, Will 21:22 ET, "finish the incomplete items"):** all four done.
-  - TRADE-02 re-swept at the Federal Register primary: ORANGE held; Canada auto duties now stack on 232 (KB-447).
-  - N6 September + October STEO read at the EIA primary: September DECAY, October **EXTENSION** (KB-448).
-  - VEN/TWN/TWNMIL/CODIF re-swept, marks held (KB-451).
-  - LESSONS rotated 86% → 71% (`rotation_due=0`).
-  - **Also graded OSPREY's C3 canvass, delivered early: limb 2 NOT SATISFIED** (KB-449).
-  - BRENT resolved the Hormuz instrument conflict (KB-450).
-- **Closeout (Will, "lets close out"):** WALTER -1021-016/-017 consumed (KB-452). Corrections COR-20261021-11 APPLIED and -16 NO-OP (rc 0). `thesis/FALSIFICATION.md` re-stamped 10/21, with the rows re-read named on the page. No new auto-memory.
+**Last Updated:** 2026-10-25 12:26 EDT. Will-launched boot and task catch-up; Codex thread `01a173d6-38cc-7de3-9a0b-fd12caf682cc`. Root and desk rules explicitly read. No trade book. No mark, band, probability or registered prediction letter changed. **Evidence through October 23 except the October 25 trade-policy primary review.** No live price quoted.
 
-**What changed while dark (synthesis; owners in brackets):**
-1. **Gulf: escalation signals stacked, with no verified production loss** [FALCON 10/14 + my 10/21 sweep].
-   - US ordered departure from Saudi Arabia 10/21. Reuters says Saudi only. AFP says all staff and families, with families also told to leave the UAE/Jordan/Qatar/Bahrain. **The two reports CONFLICT.**
-   - A third carrier, TR, is heading out (Fox; arrives by end-November), plus the Makin Island ARG.
-   - Netanyahu 10/21 directive to topple the regime. Kharg oil-infrastructure strike options reported (anonymous Erem chain, **no decision**).
-2. **Iran diplomacy went backwards.** Iran rejected the Pakistani proposals 10/20–21, and Araghchi says Hormuz stays closed absent US acceptance. ORACLE 10/15: the odds that the US ends the blockade by 12/31 fell from 59.1 to 37.9. Trump's pre-11/3 no-strike pledge is tape.
-3. **Hull war spread across the whole Gulf.** FALCON losses (10/21 review): **4 confirmed + 1 contested**. GFS PRIDE sank 10/13. CAPE DAO went from IMO "Sunk" (10/14) to "Partially sunk", and JMIC disputes it; the WQ-431 hold is at 5. Hulls hit:
-   - ST3 and LOYALTY, 68–78 nm NE of Al Jubail, 10/16. That is the Saudi Gulf coast, **not Hormuz** as first relayed.
-   - SOYIA off Al Faw, 10/20.
-   - AL DASMA off Bukha. **One event, not two.** ⚠️ Date CONFLICT, re-opened by FALCON 10/21 ~21:4x ET (KB-FALCON-313): UKMTO 179-26 primary says 21 Oct 0145Z, while NAVAREA IX 396/26 and the IMO say 20 Oct. Carry both.
-   
-   **KOTC pattern-watch tripped:** AL DASMA is the third Kuwait hull since 9/28 (KB-444). JMIC raised the Arabian Gulf to SUBSTANTIAL 10/18. **No mine blast verified.**
-4. **Saudi targets moved toward Aramco.**
-   - Dhahran HQ 10/13 is an office (OUT).
-   - Abqaiq 10/08: heat at the flare stacks, no counting source.
-   - Shaybah 10/21: drone intercepted, debris killed 2 (MoE).
-   - **FALCON production rung D 85→92 NOT FIRED at its 10/21 review**, with marks HELD at B 1 / C 14 / D 85. Pakistan's army chief was in Tehran 10/20; mediation has no date.
-5. **Russia [OSPREY 10/21, `481b5a917`]:** the 10/11 "energy ceasefire" was never in force. Strikes resumed 10/15 (Ryazan; CDU-6 shut per Reuters), then Surgut condensate 10/16 and the St Petersburg Oil Terminal 10/17–18 (C2 RE-ARMED). Scores 5/5/3, band ~30%.
-6. **The sanctions coalition widened its split** (KB-436/437).
-   - **US eases on Russia:** Graham Act waiver 10/16, with s.4(b) preserving the existing EO measures. GL 135 diesel cargoes are moving; destinations are signalled, not delivered.
-   - **US tightens on Iran:** 26 targets 10/15–16, plus the Karnakis network 10/21.
-   - **France boarded DF Peak** south of Réunion 10/12: first enforcement boarding outside European waters on this record.
-7. **EURMIL:** Russia-attributed attacks on merchant ships in Romanian/Bulgarian EEZs (10/5, 10/6, 10/13). Bulgaria **considered** Article 4; PM Radev said no grounds, so **none was requested**. ORANGE holds (KB-439).
+**Today's assignment:** tariff-stacking RED definition (PROME DOCKET L778) drafted in `proposals/2026-10-25_TRADE02_RED_L778.md`. PROME registers options; Will rules. Draft is NOT REGISTERED. Recommendation: countrywide additional duty ≥50%, Section 232 stacking, effective legal instrument and complete scope/implementation evidence. No threshold activated.
+
+**Full obligation account:** `research/2026-10-25_boot-obligations.md` carries completion evidence, original overdue work and per-item DAEDALUS October 22 dispositions. Local task ledger: `workbook/CATALYSTS.tsv`.
 
 ## Cross-war decision summary
 
-**The decoupling holds on flow, and the escalation drivers are stacking.** Kpler via WSJ (10/21; secondary relay, single source) reports Middle East oil flows averaged **>24 mb/d vs 23.3 prewar** in the week to 10/18, with Hormuz at **~82% of prewar**. So Brent at ~$110 is mostly **risk premium, not lost barrels** (FLOW-HAWK-19; ORACLE's 10/15 gauge reads the same). **Confidence medium (restored):** BRENT reconciled the instruments (KB-450). PortWatch's 4/88 is an AIS-visible lower bound (~0.09 mb/d of visible tanker capacity, <1% of the volume); Kpler counts the dark shuttle VLCCs. Use volume, never the AIS count. The two wars still hit different molecules:
-- **Russia:** refining and products capacity.
-- **Gulf:** hull losses and the threat to processing.
+**ASSESSMENT:** the willingness/route-risk channel remains plausible, but “premium rather than lost barrels” is not quantitatively established. BRENT resolved the count-versus-volume conflict (KB-450); the October Kpler volume is still a single secondary relay. Net lost supply and the fraction of oil price due to premium are unmeasured. Russia refining/products and Gulf hull/route exposure remain separate; never pool their losses.
 
-Never pool a lost-barrel figure across the two. **The conversion risk:** one counting-source hit on a Saudi crude-processing unit, or a US strike on Kharg, would turn premium into physical loss. **The post-11/3 window is the dated known-unknown.**
-
-| Leg | Current synthesis / evidence limit |
+| Owner input | Latest verified owner state / implication |
 |---|---|
-| Saudi upstream / processing | Abqaiq 10/08 flare-stack heat (FALCON KB-293), cause unknown. Shedgum gas-plant fire subsided by 10/14. Dhahran HQ office 10/13. Haradh BM intercepted. Shaybah intercepted 10/21 (2 debris deaths). Yanbu missile intercepted 10/16. "Pipeline targeted again" is an IRIB claim only. **No Aramco/MoE counting-source production loss.** Gas plants and offices are OUT of FALCON's rung. |
-| Saudi crude transport | Carried from 10/10: three unaveraged Petroline estimates; Yanbu loadings reported resumed (WALTER -1015-009). Not metered. |
-| Hull war (Gulf) | FALCON losses 4 confirmed + 1 contested (10/21). Four loss instruments, **never summed** (FALCON, IMO, UKMTO, CENTCOM). Kuwait hulls ×3 since 9/28 (pattern-watch). Container ships are now targeted. IRGC mine claims name no hull. |
-| Russia refining / products | [OSPREY] C1 5 (Ryazan 10/15 anchor). Capacity, not barrels. Band ~30% (25–35% EST). |
-| Russian exports | [OSPREY] C2 RE-ARMED 10/18 (St Petersburg Oil Terminal, products, 12.5 Mt/yr capacity, no damage figure); earliest re-kill 11/17. Tambov Nikolskoye LPDS 10/20 is an inland companion watch. Bloomberg 4-wk ~3.7 to 10/11 (B3). |
-| Diesel cross-link | GL 135 cargoes: Primorsk ~40 kt 10/13; Leruo (to Brazil) and Dolunay (to Turkey) signalled. ⛔ A refinery-strike loss and an undelivered licensed tranche are ONE barrel. |
-| Insurance | **Hormuz 6–10% of hull** (FT brokers ~10/06; supersedes 6–9% from 9/24, per FALCON 10/14). It **pre-dates** the 10/11–13 run. WC Saudi ~3% is 9/24. JWC unchanged. **Black Sea: 0.6–1.0% of vessel value before discount (BPG Shipping broker quote, 10/09; general transit, not Russian-port tankers), plus Marelis 0.1% → 0.5%** (OSPREY canvass `9449f14cb`). Lukoil ~$2.5M/vessel stays a LEAD. **Every leg is >10 days old; aggregate re-based 10/21.** OSPREY's canvass was run early (10/21) and graded the same session. |
+| OSPREY October 23 | Scores 5 / 5 / 3, band ~30% EST unchanged. C1 downgrade NOT MET; no national capacity-offline update. Bounded certified window through October 18; later searches are not certified. Products-terminal hit is not a crude-terminal loss. |
+| FALCON October 23 | B 1 / C 14 / D 85 held. Production rung not fired. IRGC seven-hull/mine claim and Yanbu fire claim unconfirmed. Limah October 22 tanker sailed onward. Losses 4 confirmed + 1 contested; CAPE DAO conflict retained. |
+| US strike timing | White House restated no attack before midterms in writing October 22. Envoy weekend comments and a CENTCOM plan without a date do not supersede that official line (COR-20261023-31; KB-456). No fresh October 25 strike sweep. |
+| Hull/route vs physical supply | Gulf targeting and threatened Saudi processing damage can change the regime. Counts, intercepts and claims do not establish lost production. Cable threats are threats, not financial-infrastructure incidents. |
+| War-risk insurance | Every quote leg >10 days old. Hormuz 6–10% circa October 6; WC Saudi ~3% September 24; Black Sea BPG 0.6–1.0% October 9, broker grade. **Bab CANNOT-FIRE** at owner. No matched cross-theater ratio. |
+| Origin premium falsifier | FALCON marked WC Saudi rise from ~0.1% to ~3% FIRED September 28; it prices Saudi-linked hull willingness, not measured production loss. This was missing from HAWK's active falsification read. |
 
-**No-double-count rule (unchanged):** identify dyad/direction, asset, molecule, flow layer, event date and prior outage. Hull loss is not lost productive capacity. A sanctions listing or boarding is not a seized quantified cargo. A refinery-strike loss and an undelivered licensed-import tranche are one barrel.
+Both derived aggregates regenerated October 25 from owner changes; fingerprints recorded only after review. Source dates remain unchanged. See `domain/energy-strikes/CROSS_WAR_SUMMARY.md` and `domain/war-risk/CROSS_THEATER_WAR_RISK.md`.
 
-## Existing approvals and prediction obligations
+## Corrections and intake
 
-| Item | State retained / next action |
+- **Canada scope correction (KB-453):** listed goods can stack Section 338 on Section 232. Passenger cars/light trucks/parts under 8703.22+, 8704 and 8708 remain absent according to MARCO's attachment read. HAWK read CBP 69851916 and P.11065; it did not independently re-extract the attachment. Earlier broad “autos now stack” wording overstated coverage. Current VX and NEXUS corrected.
+- **US–China (KB-454):** MOFCOM officially announces extension to January 10, 2027; this is stronger than a Bessent verbal claim. Implementing amendments to the separate November legal clocks were not located in bounded searches. USTR exclusions still show November 9; BIS stay November 9. CBP October 22 update changes five classification descriptions, not expiry. No IEEPA tariff-lapse claim.
+- **HAW-20:** its registered letter explicitly excludes product carve-outs. The Section 338 Part B scope cut cannot fire the forecast; no new interpretation is needed. October 31 all-leg primary/court review still owed.
+- **Intake:** 3 direct packets, 13 WALTER files and 1 BOARD-only DEWEY signal read and dispositioned. Two named corrections handled. Historical tanker-war patterns are usable; historical loss rates are not 2026 forecasts. No primary study was re-conducted.
+
+## Registered predictions and existing approvals
+
+| Item | State / next action |
 |---|---|
-| HAW-22 | OPEN **65% UNCALIBRATED**; event window 10/01–10/31, resolves 12/22 IMMOVABLE. ⚠️ *Undisclosed damage can produce a misleading CONFIRM — a CONFIRM on this letter is a claim about what was DISCLOSED, never about capacity.* **Print 10/11–10/21: no candidate** (KB-441). St Petersburg is a products terminal. Azov: no oil terminal named. Gulf strikes were intercepts or hulls. Re-print at FALCON's commit. |
-| HAW-20 | OPEN 65%, **resolves 10/31**. Four frozen instruments: US 301, US 338, the Iran toll bill, the Mecca pact. Bounded 10/21 check: no softening found on 338 (search absence ≠ legal absence). **Grade all four legs at primaries by 10/31.** **Pre-assessment 10/21 (KB-451):** legs (a), (c) and (d) unfired. Leg (b) is unfired on the letter, because the headline rate is still 50% and nothing is suspended, enjoined or rescinded. ⚠️ But P.11064/11065 Part B removes some products from the duty. The 10/31 grade must rule explicitly on that scope-cut-vs-letter question. |
-| HAW-19 / HAW-18 / WQ-208 / WQ-216 | Closed history, unchanged (see archived STATUS). |
-| Successor / WQ-362 | Vendor inquiry LAPSED (Will 10/01). Terminal-level daily export data is a NAMED UNAVAILABLE input. Re-opens only on Will's word. |
-| N6 / WQ-211 | **RUN 10/21 at the EIA primary** (KB-448; 3dtab `cops_opec`/`cops_opec_r05`, Apr–Jun 2027 mean). **September STEO** (old OR/OR branches): 2.38/2.35 → **DECAY**, unique, no straddle; KB-334 closed. **October STEO** (AGREEMENT rule, first application): OPEC 1.78 < 2.38, ME 1.75 < 2.35 → **EXTENSION**. April 2027 is now 0.58 vs 2.38, so the no-spare-capacity window runs through March 2027 and the test repeats at the next STEO. ⚠️ Assumes the archive file is the first-published vintage. |
-| OSPREY C3 limb 2 (HAWK grades; DOCKET L439 substance) | **GRADED 10/21: NOT SATISFIED** (KB-449, `research/2026-10-21_C3_limb2_GRADE.md`). Two named brokers report in-window repricing (BPG 0.2–0.5% → 0.6–1.0% to 10/09; Marelis 0.1% → 0.5%). Insurer primaries are UNMEASURED, not negative, so the "no repricing" condition fails and **there is no C3 kill on 10/27** (OSPREY integrated it: KB-OSPREY-217, holds at 3). **Defect routed by OSPREY:** limb 2 has no attacker/cause qualifier, and the repricing is driven by Russian-attributed attacks. Agreed, but NOT applied in-window. HAWK recommends a prospective SCOPE qualifier (Russian-port tanker calls); a cause qualifier is likely unmeasurable on a basin premium. **WQ-470 RULED A (Will 2026-10-21 21:30 ET, via PROME prome-56):** the 10/21 canvass is graded on the letter as written, so NOT SATISFIED stands and C3 holds through 10/27. The qualifier is drafted **after 10/27 by OSPREY with HAWK**; SCOPE (HAWK) vs CAUSE (OSPREY) is decided in that draft, then presented to Will as the adopted text. No second row registered. |
-| DOCKET L433 (Suwałki equipment) | RESOLVED 9/25 UNDETERMINED stands. 10/21 re-check: no Baltic/Polish "units stayed forward" statement found. The observable rides WATCH_FOR "Belarusian troops remain" (KB-445). |
-| DOCKET L432 (YURI-owned; HAWK is consumer) | HAWK posture-consequence read written 10/21 for YURI's 10/31 grade. DECLARED → long fuse (12–18 months), no EURMIL rung. NOT-DECLARED → no change. The pressure is maritime/hybrid (KB-445). |
-| TD3C / FLOW21 | Unchanged; retest owner realized TCE at Q3 releases (late October/early November). |
+| HAW-20 | OPEN 65%, resolve October 31. Four frozen instruments, all-leg primary/court search still owed. Product exclusions never fire under its letter. |
+| HAW-22 | OPEN **65% UNCALIBRATED**. Event window ends October 31; observation cutoff December 21 23:59 UTC; resolution December 22. Yanbu October 22 remains an unconfirmed watch, not confirmed damage. **undisclosed damage can produce a misleading CONFIRM — a CONFIRM on this letter is a claim about what was DISCLOSED, never about capacity**. |
+| K2 / forward coverage | HAW-19 closed DEFECTIVE-INSTRUMENT. HAW-22 covers terminals only; upstream/processing and supply-attribution remain unmeasured. Denial/rerouting has no registered successor. Candidate `proposals/2026-10-25_HAW23_candidate.md` is NOT REGISTERED, with no probability. No new event window after October 31 unless approved and registered. |
+| C3 limb 2 / WQ-470 | **Already graded October 21: NOT SATISFIED** (KB-449). No C3 kill October 27. OSPREY + HAWK qualifier draft **after October 27**; Will rules adopted text. No repeated canvass owed for current grade. |
+| N6 / WQ-211 | September DECAY and October EXTENSION DONE October 21 (KB-448); stale catalyst rows resolved. Repeat at November STEO. Archive first-vintage assumption remains. |
+| YURI mobilisation / L432 | HAWK consequence leg written October 21; YURI grades October 31 with November 2 backfill. Re-read on owner instrument change. L433/L439 remain resolved history. |
+| WQ-362 | Vendor inquiry LAPSED. Terminal-level daily export data remains named UNAVAILABLE. Re-open only on Will's word. |
+| FLOW-21 / K1 | Q3 realized-TCE comparison still owed; review issuer releases October 28. Five-settle K1 input request prepared for BRENT; no new numerical grade. |
 
-## Dormant book — marks carried; bounded checks only 10/21
+## Dormant book
 
-| Vector | Mark / unresolved evidence |
+| Vector | Mark / next check |
 |---|---|
-| VEN | GREEN, **re-swept 10/21** (KB-451). OFAC 9/28 amended GLs at primary = easing; no sanctions escalation. Military leg UNMEASURED (gate SOUTHCOM/DoD). |
-| TWN | YELLOW, **re-swept 10/21**. Taipower 45-day min reserve 10.19% (10/04), latest 22.26%, no alert. LNG/coal days UNMEASURED (gate MOEA/CPC); Qatar not restored. |
-| TWNMIL | YELLOW, **re-swept 10/21**. The 10/12–17 PRC live-fire zones were all OUTSIDE the Strait (closest off Zhejiang), so Orange is not met. CCG gray-zone count rising; no shipping effect. The mnd.gov.tw primary was not reached. |
-| IRAQ | 🟡 YELLOW (WQ-319). Tanker hit ~30 nm off Al Faw 10/20 is a hull, not Iraqi production. |
-| TRADE-01 | ORANGE. The truce extension to 2027-01-10 is still ANNOUNCED-only. **Three US measures lapse 11/9–10, with nothing on record extending them** (Thomson Reuters; KB-442). The 11/10 clocks stand. |
-| TRADE-02 | ORANGE, **re-swept 10/21 at the FR primary** (KB-447): both limbs firm. **P.11065/11064 stack S338 on top of 232 from 9/15** (reverses the 8/22 "0% autos" mechanism; MARCO's 9/02 read is stale and a packet was sent), plus import bans from 9/29. S301 unmodified. Graham Act duty channel waived 10/16. RED is still undefined and needs a ruling. |
-| CODIF | ORANGE, **re-swept 10/21**. S338 stepped up at IMPLEMENTED; S301 unmodified. Toll bill unmoved in English sources (Persian primaries gate); Canada Gazette unread. No collection evidence, so RED is not met. |
-| SULPHUR | RED (mine-gate basis). Ivanhoe Q3 not checked. |
-| FININFRA | YELLOW. IRGC Hormuz cable threat renewed 10/20 with no damage verified (WALTER -1020-031): watch, no event. |
-| CEASEFIRE | SUPERSEDED historical; excluded. |
-| EURMIL | 🟠 ORANGE. Article 4 considered by Bulgaria, not requested. Dobrindt warning, the Poland threat and the Patriot consent delays are not rungs (KB-439). Backstop 11/02. |
+| TRADE-01 | ORANGE; primary 45-day review DONE October 25. Adoption-stage restrictions remain. Announced relief is not implemented rollback; RED wording has no operational threshold. Separate November legal deadlines remain. |
+| TRADE-02 | ORANGE; scope corrected October 25, full sweep October 21. L778 RED definition DRAFT only. |
+| VEN | GREEN; October 21 sanctions easing review. Military posture and crude-only export population remain unmeasured. |
+| TWN | YELLOW; October 21 power-reserve check is not fuel-inventory days. MOEA/CPC fuel/cargo legs still missing. |
+| TWNMIL | YELLOW; October 21 bounded check. PRC notice/commercial effect and actor-scope gaps remain. |
+| IRAQ | YELLOW under WQ-319; next 45-day backstop November 12. |
+| CODIF | ORANGE; October 21 review. Actual collection/payment still unmeasured; effective dates do not imply ENFORCED. |
+| SULPHUR | RED on delivered-Kolwezi basis; current matched quote unavailable, Ivanhoe Q3 leg not checked. Backstop November 12. |
+| FININFRA | YELLOW under WQ-320; no physical named-bank interruption established from new threats. Backstop November 12. |
+| EURMIL | ORANGE carry. Native 14-day rung review OVERDUE; primary Article 4 and October integration still owed. Next work review October 26; 45-day backstop November 2 (corrected from October 3). |
+| CEASEFIRE | SUPERSEDED; excluded from cadence. |
 
-Dormant book is **11 rows**. **10/21 cadence scan (45 days), after the re-sweeps:** TRADE-02/VEN/TWN/TWNMIL/CODIF are current (10/21). TRADE-01 (9/10) falls due 10/25, EURMIL (9/18) 11/02, IRAQ/SULPHUR/FININFRA (9/28) 11/12. CEASEFIRE is excluded.
+## Remaining evidence debt
 
-## Other obligations retained
-- Carried from 10/10 and not re-worked: the 9/9–9/11 overdue list (Canada SOR/Gazette, QatarEnergy notice, matched premium/flow, Sidi comparator, CPC durability, dormant missing legs); GL 135 grade upgrade/falsifier (KB-429); dictionary owner confirmations; — **LESSONS rotation DONE 10/21** (86% → 71%, `archive/LESSONS_ROTATED_2026-10-21.md`).
-- Prior STATUS (10/10) verbatim: `archive/2026-10-21_STATUS_before-catchup.md`.
+Canada SOR/Gazette dates; QatarEnergy seller notice; matched premium/flow and Sidi comparator; CPC durability; dormant missing source legs; equipment-stock decomposition; August METI adoption; dictionary confirmations; GL 135 inference falsifier; Ivanhoe acid price; EU package legal adoption; FE1 actual Suez transit. **Still owed**, with original dates retained in CATALYSTS and the October 25 report. Next bounded triage October 26. Charter/legacy-script/retirement items remain deferred under the DAEDALUS disposition; frozen monitors stay frozen.
 
 ## BOTTOM LINE
 
-**Combined read (2026-10-21; Brent ~$110 on the 10/21 evening session, WTI Dec ~$98):**
-- **Oil is pricing fear more than loss.** Middle East flows are reported at or above prewar levels while Brent sits near $110 (single secondary source).
-- **What changed is US posture.** An embassy drawdown in Saudi Arabia, a third carrier, and Kharg oil infrastructure now on the reported options list. Meanwhile Iran rejected the latest mediation and the Houthis keep aiming at Aramco.
-- **Watch:** a counting-source hit on a Saudi processing unit, any US move on Kharg, and the days after the 11/3 midterms, when Trump's no-strike pledge ends.
-- **Russia:** Ukraine is back to hitting refineries and export terminals despite Washington's diesel deal.
+The two wars still transmit through different assets, and the evidence does not support a pooled barrel-loss figure or a measured split between fear and supply loss. Today's tariff-risk draft is ready for PROME, while the next hard HAWK deadlines are the joint insurance-test draft after October 27 and the October 31 forecast checks. The most consequential watch remains confirmed Saudi crude-processing damage or a verified US strike decision; the latest owner evidence is October 23.

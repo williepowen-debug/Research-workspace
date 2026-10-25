@@ -2,7 +2,7 @@
 
 *Read at boot (SPAWN PROTOCOL step 3). One lesson per entry: what happened, why it bites, the rule.*
 
-**Split note (2026-07-12):** items 1-2 are primary-inherited by **FALCON** (Iran/Gulf-sourced; item 2 also copy-worthy to OSPREY as general active-conflict boot methodology), item 4 by **OSPREY** (Russia/Ukraine-sourced, its founding calibration lesson) — copies made to both siblings' own `LESSONS.md` at spinout. HAWK retains the **full history** below (nothing removed — freeze-in-place philosophy). **Item 3 (dormant-vector re-sweep) is HAWK's own standing operating lesson post-split** — HAWK now owns the dormant book, so this is the one item that lives here primarily, not just historically. Baked into `CLAUDE.md` boot step 6b (45-day re-sweep cadence check).
+**Split history:** sibling-inherited lessons and the July12 scope split are recorded verbatim in `archive/LESSONS_ROTATED_2026-10-21.md`. Dormant-vector cadence remains HAWK-owned.
 
 ## [2026-06-12] Prediction text and promotion-threshold text must be written identically
 **Rule:** when a prediction and a vector threshold describe the same event, write one canonical sentence and reference it from both; on conflict the registered PREDICTIONS.tsv text is canonical. *Full entry (what happened, why it bites, corollaries): `archive/LESSONS_ROTATED_2026-10-21.md` (rotated verbatim 2026-10-21).*

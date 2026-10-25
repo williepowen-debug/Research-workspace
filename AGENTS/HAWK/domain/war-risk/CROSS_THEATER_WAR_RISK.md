@@ -1,16 +1,20 @@
 # Cross-theater war-risk aggregate — HAWK
 
-**Refreshed: 2026-10-21** (HAWK catch-up, 11 dark days; owner ledgers FALCON WARRISK `ede013415` 10/14, OSPREY WARRISK `3e87063b9` 10/18). **The matched cross-theater premium ratio is still UNKNOWN.**
+**Refreshed: 2026-10-25.** Owner records reviewed: OSPREY WARRISK October 21 and FALCON WARRISK October 23; both October 23 briefs. This refresh updates the derived read, not quote dates. **Matched cross-theater premium ratio UNKNOWN.**
 
-| Leg / owner | Owner-recorded level | Age at 2026-10-21 | Newer item HAWK holds (none is a premium quote) | Current interpretation |
-|---|---|---|---|---|
-| Hormuz / FALCON | **6–10% of hull** (FT brokers ~10/06 via Marine Insight/TradeWinds/Insurance Business; FALCON re-pull 10/14). Supersedes 6–9% (Reuters **9/24**) | **15 days** ⚠️ | Quoted **before** the 10/11–13 run (GFS PRIDE sank 10/13). Since then: JMIC raised the Arabian Gulf to SUBSTANTIAL 10/18; hulls hit off Al Jubail 10/16, Khor Fakkan 10/18, Bukha and Al Faw 10/20–21 | STALE as a number in a rising-tempo window. Gulf-internal loading risk is not priced by a Hormuz-transit quote. |
-| Southern Red Sea / FALCON | up to 7% Saudi-linked, 0.2–0.3% non-Saudi (9/24) | **27 days** ⚠️ | Sourcing Journal 10/14: "roughly 3% since early September, according to Reuters". Unit not stated; FALCON did NOT adopt it (almost certainly the Saudi-linked population) | STALE. Attacker-split read is FALCON's. |
-| Bab / FALCON | ~0.5% AWRP, July 23 | **90 days** ⚠️ | same unadopted Sourcing Journal line | STALE (row EXPIRED at owner) |
-| West Saudi / Yanbu / FALCON | ~3% Saudi-linked at Yanbu, **As_Of corrected 9/25 → 9/24** by FALCON | **27 days** ⚠️ | Yanbu missile intercepted 10/16; Yanbu loadings reported resumed (WALTER -1015-009) | STALE. FALCON's WC-vs-Hormuz derived spread is NOT recomputed (mixing a 10/06 Hormuz leg with a 9/24 WC leg would mix vintages); it stays at its 9/24 single-basis pair. |
-| Black Sea / OSPREY | **0.6–1.0% of vessel value before a 50% no-claims discount** (~0.3–0.5% after), up from 0.2–0.5% a week earlier: **BPG Shipping (G. Ivanov) broker QUOTE, as-of 10/09** (two relays, bodies read; OSPREY WARRISK `9449f14cb`, data clock advanced to 10/21). Plus Marelis Navigation 0.1% → 0.5% ("confirmed by insurers as of October 6"). LEAD, not adopted: Lukoil-Bulgaria ~$0.2M → ~$2.5M **per vessel** | **12 days** ⚠️ | TD6 ÷ TD19 tripwire FIRED: 1.02 (10/2) → 1.52 (10/16). That is freight, not a premium. Insurer/P&I primaries UNMEASURED (The Insurer, Lloyd's List, Insurance Day, Platts 403) | **First named-originator % print since 9/18. SCOPE: general Black Sea transit (JWC listed area, NATO-coast attacks), NOT Russian-port tanker calls.** B2 broker grade, not an underwriter primary. **HAWK graded C3 limb 2 NOT SATISFIED** for the RIO window (KB-HAWK-449). |
+| Leg / owner | Last owner-adopted observation | Quote age October 25 | State / implication |
+|---|---|---|---|
+| Hormuz / FALCON | 6–10% of hull, FT unnamed brokers around October 6, secondhand press | 19 days | STALE. Predates October 11–13 losses. Not a current quote. |
+| Southern Red Sea / FALCON | Up to 7% Saudi-linked calls; 0.2–0.3% non-Saudi transit, September 24 Reuters | 31 days | STALE; attacker/affiliation populations must stay separate. |
+| Bab / FALCON | ~0.5% AWRP, July 23 | 94 days | **CANNOT-FIRE**, marked by owner October 23 under WQ-298, KB-FALCON-328. Named on PROME's unreachable-measurements registry. No fresh Bab-specific source. |
+| West Saudi / Yanbu / FALCON | ~3% Saudi-linked hulls, September 24 Reuters | 31 days | STALE. The origin-risk falsifier **FIRED at owner September 28**, versus historical ~0.1%; different compilation populations qualify the ~30× comparison. It is hull willingness, not a measured production loss. |
+| Black Sea / OSPREY | BPG 0.6–1.0% before no-claims discount (~0.3–0.5% after), October 9; Marelis 0.1→0.5% as of October 6 | 16 days BPG; 19 Marelis | STALE. Broker grade, general Black Sea transit, not Russian-port tanker calls; insurer primaries unmeasured. C3 limb 2 NOT SATISFIED on its current letter, graded October 21. |
 
-**10-day bar:** all five legs exceed it (Black Sea at 12 days is the freshest). **Matched cross-theater ratio still UNKNOWN:** both are now % of hull, but the populations differ (Hormuz transit vs general Black Sea transit) and so do the vintages (~10/06 vs 10/09). Same unit is not same object (LESSONS 2026-08-20).
+**All five quote legs exceed the 10-day bar.** Bab is an unreachable instrument as well as stale. FALCON's same-article September 24 WC/Hormuz ratio of 2–3× is historical; do not recompute it using October Hormuz and September WC legs. Gulf vs Black Sea populations, cover and dates remain unmatched.
+
+**New owner evidence without a quote:** Limah October 22 hull sailed onward; IRGC seven-hull/mine claims remain unconfirmed; named hull losses remain 4 confirmed + 1 contested. A monthly incident/attack census is neither a premium quote nor a new event. An embassy drawdown, cable threat or third-carrier report cannot fill a premium cell.
+
+**Existing obligation:** FALCON's October 26 re-pull assignment owns Gulf quote retrieval. HAWK does not commission another broad search. After October 27, OSPREY and HAWK draft the C3 scope/cause qualifier under WQ-470. Current-window grade is fixed; no October 27 kill.
 
 ---
 
