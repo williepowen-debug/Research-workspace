@@ -295,3 +295,6 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-23T20:46:58Z	2026-10-23_from-DEWEY_hy-widening-ai-vs-broad	info-only	INBOX_DIRECT	HY widening mostly broad; AI leg ~3bp of +24bp. LIQUID owns HY. Context.
 2026-10-23T20:46:58Z	2026-10-23_from-GIBBS_axp-no-ndfi-line	info-only	INBOX_DIRECT	AXP Q3 carries no NDFI line; not a BRK-31 name. Nothing to reconcile.
 2026-10-23T20:46:58Z	2026-10-23_from-PROME_WQ511-RULED-bdc-software-exposure	acted	INBOX_PROME	Commission executed this session: research/2026-10-23_bdc-software-exposure/REPORT.md + PROME packet + TERRY pointer.
+2026-10-25T16:18:17+00:00	2026-10-23_from-PROME_WQ516-I2-bdc-software-marks-standing-line	acted	INBOX_PROME	Standing six-name STATUS baseline encoded; missing cost-basis percentages explicit; refresh at ARCC/HTGC prints. WQ-513 HYG choice noted; no BDC card owed.
+2026-10-25T16:18:17+00:00	2026-10-24_from-NEXUS_brief-content-repair-request-before-next-consumption	acted	INBOX_DIRECT	Substantive content fold at this closeout, A12 order and final STATUS hash pin; recipient consumption remains unverified.
+2026-10-25T16:18:17+00:00	2026-10-23_from-DEWEY_research-history-meta-review	noted	INBOX_DIRECT	Review and broader 13-BDC rerun offer noted; WQ-516 adopts BROCK existing six-name instrument. No extra research commissioned; not BRK-26 enforcement evidence.
