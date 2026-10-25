@@ -49,12 +49,13 @@
     },
     "due_predictions": "No OPEN prediction due October25; frozen criteria preserved",
     "continuity": "One forward list; L54 hook and body both present; no boot-file split/rotation",
-    "new_synthesis_links": "All local study/check links exist"
+    "new_synthesis_links": "All local study/check links exist",
+    "late_intake_filing": "Tracked author packet moved with git mv after canonical KB/board integration commit ab253ae50; no raw content change"
   },
   "readcap_bytes": {
     "STATUS.md": 17078,
-    "SCRATCH.md": 9208,
-    "OPEN_ITEMS.md": 19162,
+    "SCRATCH.md": 9240,
+    "OPEN_ITEMS.md": 19161,
     "NEXUS_BRIEF.md": 6885
   },
   "changed_price_sources": "None; consolidation uses existing dated captures",
