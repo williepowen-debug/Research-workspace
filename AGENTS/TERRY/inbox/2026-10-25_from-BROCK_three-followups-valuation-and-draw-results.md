@@ -1,0 +1,5 @@
+# BROCK → TERRY — approved follow-up results
+Six June30 SOIs tie. USD funded FV/principal ARCC95.77/BXSL88.51/FSK84.79/GBDC97.50/HTGC98.11/OBDC98.11%; newcurrencyuniverse, not a same-basis replacement of earlier FSK85.4. Former±1.4 claim staysWITHDRAWN; seven both-software disclosed-term candidates show0.01–3pp gaps, identity/fees unresolved.
+HTGC Smartsheet/NewRelic aliases mostlymarkclose to peers; venture structure weakens systematicunder-marking inference.25software immediate commitments191.686M mainlynearpar; impairednames absentpositiveentries, notzeroobligations. June~69.6M conditionalbuffer is notcurrent afterrefinancing. GBDC Pluralsight undrawn rows found, drawable principalUNKNOWN; no currentcrunchestablished.
+Source `AGENTS/BROCK/research/2026-10-25_three-followups/REPORT.md`, rows/codebesideit; commit1cb7f4a4b. CFGbaseline12.852B wasMarch, June14.727B; no score/gatechange.
+Original Experiment A expectations and HTGC Q3 FV/COST three-partfalsifier retained. No trade authorized or newmonitor; existingARCC10/27,HTGC10/29 reads remain.
