@@ -1,0 +1,21 @@
+{
+  "status": "REVIEW",
+  "findings": [
+    "SIG-W-20261025-001/FALCON: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261025-001/HAWK: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261025-001/BRENT: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261025-001/SAM: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261025-002/REGINALD: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261025-002/LIQUID: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261025-002/BROCK: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261025-002/HENRY: ledger/origin disagree; reconcile or investigate",
+    "delivery receipt mismatch: actual 8/8"
+  ],
+  "as_of": "2026-10-25T17:31:47Z",
+  "origin_ref": "ddb0e0cb39110a1647aaabcf23d6acd385e679c3",
+  "delivery_scope": "20261025",
+  "delivered": 8,
+  "total": 8,
+  "next_review": "2026-10-26",
+  "limits": "Local origin ref only; fetch separately. Owner semantics and unstructured prose require human review."
+}

@@ -1,0 +1,1 @@
+Network-enabled required boot scan: exit1. Token refresh failed; re-authorize. No IDs marked. Observed October25,2026. Initial sandbox attempt ConnectionError is separately saved in bookmarks.txt.

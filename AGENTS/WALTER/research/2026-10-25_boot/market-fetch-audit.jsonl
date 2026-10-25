@@ -1,0 +1,15 @@
+2026-10-25T12:20:23.622789 EIA_ERROR latency=1ms {"series": "W_EPC0_SAX_YCUOK_MBBL", "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"}
+2026-10-25T12:22:46.589770 FREDV_FETCH latency=526ms {"series": "ICSA", "rows": 8, "missing": 0}
+2026-10-25T12:22:46.695022 FREDV_FETCH latency=598ms {"series": "BAMLH0A3HYC", "rows": 8, "missing": 0}
+2026-10-25T12:22:46.722983 FREDV_FETCH latency=562ms {"series": "SOFR", "rows": 8, "missing": 0}
+2026-10-25T12:22:46.743899 FREDV_FETCH latency=586ms {"series": "VIXCLS", "rows": 8, "missing": 0}
+2026-10-25T12:22:46.792727 FREDV_FETCH latency=590ms {"series": "T5YIFR", "rows": 8, "missing": 0}
+2026-10-25T12:22:46.857616 FREDV_FETCH latency=646ms {"series": "BAMLH0A0HYM2", "rows": 8, "missing": 0}
+2026-10-25T12:22:47.936141 FREDV_FETCH latency=557ms {"series": "DGS5", "rows": 8, "missing": 0}
+2026-10-25T12:22:47.975941 FREDV_FETCH latency=594ms {"series": "DGS20", "rows": 8, "missing": 0}
+2026-10-25T12:22:48.080110 FREDV_FETCH latency=635ms {"series": "DGS2", "rows": 8, "missing": 0}
+2026-10-25T12:22:48.093001 FREDV_FETCH latency=630ms {"series": "DGS30", "rows": 8, "missing": 0}
+2026-10-25T12:22:48.126238 FREDV_FETCH latency=641ms {"series": "DGS10", "rows": 8, "missing": 0}
+2026-10-25T12:22:48.776617 EIA_FETCH latency=800ms {"series": "W_EPC0_SAX_YCUOK_MBBL", "observations": 3}
+2026-10-25T12:22:49.032257 FREDV_FETCH latency=576ms {"series": "T10YIE", "rows": 8, "missing": 0}
+2026-10-25T12:22:50.995987 FREDV_FETCH latency=539ms {"series": "IORB", "rows": 8, "missing": 0}

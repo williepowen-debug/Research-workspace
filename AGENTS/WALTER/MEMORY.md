@@ -95,6 +95,6 @@
 - **Bright Data Web Unlocker (WQ-383 pilot, LIVE 2026-10-04):** `bdata scrape <url>` for a 403'd no-screenshot bookmark link; free tier 5k/mo HARD STOP, Web-Unlocker-only, key in gitignored `.env` (per-machine). Full method+limits+ledger: `design/X_BOOKMARKS_ACCEPTANCE.md` §9a.
 ## Session Notes
 
-**October23 evening FULL closeout:** dispatches 1023-039..045 (039 corrects 033 CoreWeave/CCC; GitLab 045 late after a DUP miss Will caught); ROUTING_TABLE v0.48 + CHECKLIST v0.54 Will-approved; late-boot 033–038 closed here. Evidence research/2026-10-23_evening/.
+**October 25 Sunday boot:** PARTIAL coverage; full continuity closeout. WQ-515 selection rule 046fd4ae5 precedes selection; DEWEY method 9c97f5012 received. Cutoff: October 30 at 20:00Z. Card 001 carries weekend Saudi reports; 002 corrects 1023-016. X needs reauthorization. Evidence: research/2026-10-25_boot/.
 
 *(10/23 early and desktop session notes rotated verbatim to MEMORY_PROMOTED.md at the 10/23 afternoon closeout; 10/20 bookmark-acceptance, bookmark-completion and 10/19 breadth session notes rotated verbatim to MEMORY_PROMOTED.md 2026-10-22; the bookmark backlog is fully marked, 96/96.)*

@@ -1,0 +1,60 @@
+{
+  "retrieved_at": "2026-10-25T16:22:47.976168+00:00",
+  "result": {
+    "basis": "first-published",
+    "series": "DGS20",
+    "rows": [
+      {
+        "date": "2026-10-22",
+        "value": "5.32",
+        "first_published": "2026-10-23"
+      },
+      {
+        "date": "2026-10-21",
+        "value": "5.47",
+        "first_published": "2026-10-22"
+      },
+      {
+        "date": "2026-10-20",
+        "value": "5.47",
+        "first_published": "2026-10-21"
+      },
+      {
+        "date": "2026-10-19",
+        "value": "5.53",
+        "first_published": "2026-10-20"
+      },
+      {
+        "date": "2026-10-16",
+        "value": "5.47",
+        "first_published": "2026-10-19"
+      },
+      {
+        "date": "2026-10-15",
+        "value": "5.48",
+        "first_published": "2026-10-16"
+      },
+      {
+        "date": "2026-10-14",
+        "value": "5.57",
+        "first_published": "2026-10-15"
+      },
+      {
+        "date": "2026-10-13",
+        "value": "5.6",
+        "first_published": "2026-10-14"
+      }
+    ],
+    "request": {
+      "series_id": "DGS20",
+      "output_type": 4,
+      "observation_start": "2026-09-22",
+      "realtime_start": "2026-09-08",
+      "realtime_end": "9999-12-31",
+      "limit": 8
+    },
+    "short": false,
+    "missing": [],
+    "under_limit": false
+  }
+}

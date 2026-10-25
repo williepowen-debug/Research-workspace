@@ -1,0 +1,60 @@
+{
+  "retrieved_at": "2026-10-25T16:22:46.744079+00:00",
+  "result": {
+    "basis": "first-published",
+    "series": "VIXCLS",
+    "rows": [
+      {
+        "date": "2026-10-22",
+        "value": "19.03",
+        "first_published": "2026-10-22"
+      },
+      {
+        "date": "2026-10-21",
+        "value": "16.68",
+        "first_published": "2026-10-21"
+      },
+      {
+        "date": "2026-10-20",
+        "value": "17.31",
+        "first_published": "2026-10-20"
+      },
+      {
+        "date": "2026-10-19",
+        "value": "18.44",
+        "first_published": "2026-10-19"
+      },
+      {
+        "date": "2026-10-16",
+        "value": "19.99",
+        "first_published": "2026-10-16"
+      },
+      {
+        "date": "2026-10-15",
+        "value": "16.46",
+        "first_published": "2026-10-15"
+      },
+      {
+        "date": "2026-10-14",
+        "value": "16.87",
+        "first_published": "2026-10-14"
+      },
+      {
+        "date": "2026-10-13",
+        "value": "15.27",
+        "first_published": "2026-10-13"
+      }
+    ],
+    "request": {
+      "series_id": "VIXCLS",
+      "output_type": 4,
+      "observation_start": "2026-09-22",
+      "realtime_start": "2026-09-08",
+      "realtime_end": "9999-12-31",
+      "limit": 8
+    },
+    "short": false,
+    "missing": [],
+    "under_limit": false
+  }
+}

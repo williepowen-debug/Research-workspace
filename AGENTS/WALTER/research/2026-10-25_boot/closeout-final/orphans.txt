@@ -1,0 +1,17 @@
+⚠️  uncommitted files outside AGENTS/WALTER/:
+     [not yours]    AGENTS/BROCK/research/2026-10-25_bank-and-bdc/
+     [not yours]    AGENTS/MIDAS/shared/sources/2026-10-25_gold-cross-assets/
+     [not yours]    PROME/SCRATCH.md
+     [not yours]    PROME/inbox/processed/2026-10-25_from-DEWEY_catchup-method-corrections-and-syf-q3.md
+     [not yours]    PROME/inbox/processed/2026-10-25_from-HAWK_boot-L778-completion.md
+     [not yours]    PROME/inbox/processed/2026-10-25_from-LIQUID_L836-brief-and-owed-closeout.md
+     [not yours]    PROME/inbox/processed/2026-10-25_from-LIQUID_L836-final-inbox-closeout-receipt.md
+     [not yours]    PROME/inbox/processed/2026-10-25_from-MIDAS_sunday-catch-up.md
+     [not yours]    PROME/inbox/processed/2026-10-25_from-TERRY_boot-PRD1-3-WQ493.md
+     [not yours]    PROME/reports/2026-10-25_fsk-source-check.json
+     [not yours]    PROME/reports/2026-10-25_sunday-owner-orchestration.md
+     [not yours]    PROME/state/ORCH_INFLIGHT.md
+     [not yours]    PROME/state/ORCH_LOG.tsv
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.

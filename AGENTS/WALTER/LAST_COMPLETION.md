@@ -1,54 +1,49 @@
-# WALTER LAST_COMPLETION — October23 evening FULL closeout
+# WALTER LAST_COMPLETION — October 25 Sunday boot
 
-Updated 2026-10-23T22:56:54Z (FULL; Will 18:56 ET 10/23 "are we closed out here? Can I exit the window?"). Will-launched DESKTOP sitting after /clear (walter-32, Claude Code, claude-opus-5-5), boot 16:31 ET 10/23. This record also closes the LATE-BOOT sitting (boot 15:44 ET, dispatches 033–038, BOOT `research/2026-10-23_late-boot/BOOT.md`), which ended without a closeout. Prior version preserved verbatim: `research/2026-10-23_evening/prior-LAST_COMPLETION.md` (sha256 5869ef919cffa289…), which points back to the 10/23 afternoon and earlier records. Evidence: `research/2026-10-23_evening/`.
+Updated 2026-10-25T17:31:47Z. Will-launched WALTER, Codex / OpenAI GPT-6, exact variant UNKNOWN, session 01a173d6-e52a-7b51-ba71-45d586fca51e. FULL continuity closeout of a PARTIAL boot. Prior record preserved verbatim at research/2026-10-25_boot/prior-LAST_COMPLETION.md. Evidence: research/2026-10-25_boot/BOOT-RECEIPT.md and THRESHOLD-SCAN.md.
 
-## STATUS (10/23 evening)
+## STATUS
 
-FULL closeout. Boot was a DELTA boot (same terminal ran a COMPLETE boot at 19:47Z, 45 minutes earlier): doctor 0 HIGH / 1 MED (13 aged unconsumed deliveries, owner-side); basis MATCH 29; READS-CAP 0; read-cap rc 0; corrections 0 OK; intake 0 NEW (lane healthy, last run 18:52Z); drop zone empty; ROUTING_TABLE and OVERLAYS re-read whole; REGISTRY re-read. PARTIAL against a cold boot: owner threshold registries (6b) and FILTER_SPEC scoped reads were NOT re-read this sitting (relied on the 19:47Z late-boot, same day); a scoped 6c tape re-pull at 20:38Z found no fire. read_cap rc=0 at closeout.
+Boot PARTIAL: X token refresh failed; READS attestation stale; full cross-owner/filter/catalyst context, fresh HANS daily inputs, FT-11 and official Brent settlement counts remain incomplete. No COMPLETE/clean-board claim. Checked credit, bank, SKEW, funding and Cushing observations establish no new fire. Full closeout checks and their REVIEW/UNKNOWN outcomes are saved, not converted to a pass.
 
-## CHANGED (10/23 late-boot + evening)
+## CHANGED
 
-- **Late-boot (no closeout then; commits on origin):** 033 DEWEY REQ-003 CCC/loan split · 034 NCUA · 035 cyber (PHP2Shell vendors, Railway) · 036 Hormuz attack record · 037 OpenAI round · 038 card spend; batches BM-20261023-07 (13/13) and -08 (5/5).
-- **Evening, BOARD 1675 → 1682 (dispatches 039–045):** 039 **CORRECTION to 033** (CoreWeave is B+/Ba3/BB-, not CCC; the ~17% AI share was the HY yield>=12% sleeve; rated-CCC basket ~0% AI; R1 row COR-20261023-39; 033 bannered PARTIALLY-CORRECTED; BROCK/HENRY backfilled) · 040 DEWEY rated-CCC basket ~16.5% cable/telecom, Optimum going concern (WALTER checked the 10-Q maturities at EDGAR) · 041 cyber (Node2Shell CVE-2026-111497, Google PHP2Shell update, EMARKETER and Coop Italia CLAIM-ONLY, DEWEY Korea) · 042 AAA gas + NYT medical headline (unread) · 043 buybacks UNVERIFIED · 044 OpenAI cache-timing test · 045 GitLab CVE-2026-110264 (CVSS 10) + Capcom/Comic Cmoa claims, **a WALTER DUP miss Will caught**.
-- Errata on 041 (Node.js advisory silent on workarounds) and 045 (Comic Cmoa 4.2M not in the NTT Solmare release), both per CYPHER.
-- **Rules (Will-approved 17:16 ET, AskUserQuestion "Approve both"):** ROUTING_TABLE v0.48 CYBER row (no money-channel filter; channel sets precedence, not inclusion; channel-less claims fold into one ROUTINE card per sitting, one line per claim per CYPHER's PROTOCOL rule 0) · CHECKLIST v0.54 rule 1b roundup sub-rule. Companions lockstep (OVERLAYS, CARVEOUTS v0.48; THRESHOLD_SCAN v0.54; STATE.md); version_drift_check clean.
-- Batch BM-20261023-09 13/13 closed and marked (item 10's DUP disposition was wrong in part; corrected by 045). DEWEY handoffs (REQ-003 correction; Optimum/Korea follow-on) RESOLVED in DEEP_RESEARCH_FLAGGED_LOG and filed; BRENT BZZ26 packet consumed (.consumed.tsv).
-- delivery_log: 17 rows for 039–045 had a non-canonical `pending` token from a scratch script; corrected and reconciled (804de5895).
-- MEMORY findings 54 (owner calls on "no channel"/"already covered") and 55 (canonical ledger tokens). REGISTRY: WALTER, CYPHER refreshed.
+Two BOARD cards (1682 -> 1684): SIG-W-20261025-001 weekend Saudi reported interceptions, originating coalition release not recovered, no confirmed oil-damage claim; SIG-W-20261025-002 corrects issuance-freeze inference in 1023-016. Original additive banner, generated INDEX, R1 COR-20261025-02, route log, eight create-only handoffs in f35a4b297. Rule 046fd4ae5 registered WQ-515 before selection; exact clock clarified in same owned rule file. REGISTRY, STATUS, SESSION_LOG, MEMORY, basis hashes, intake dispositions, consumption receipts and CARL-DR1 continuation updated. Main repository pull deferred for foreign dirty work; intake clone synced 82f6342.
 
 ## RESULT
 
-057366c4a, 5d27fd411, 4de366cca, 0adecd021, 804de5895 and 9f11bc019 on origin (carried by other desks' pushes incl. CYPHER 3bbb27366 and 5f8693abb; fresh fetch). The closeout commit: see CLOSEOUT RECEIPT. CYPHER consumed 041/044/045 (CYB-INC-026..031, KB-CYP-036; no watch row fired); BROCK receipted COR-20261023-39 as NO-OP (20:46Z). Delivery rows dated 10/23: 122, all delivered. Publication is not consumption.
+Fourteen intake content items dispositioned (5 DUP,6 FOLD,1 DISPATCH,1 KILL,1 NO-ACTION), 0 NEW after mark; drop zone 0; X 0 marks. HY 340 bp [10/22] is 10 bp/2.86% below REG-T-04, run 0 of 3; no spread or threshold changed. Owner inference correction weakens the volume-ahead-of-price story and retains the spread watch. DEWEY method 9c97f5012 received; historical two-of-five caveat-loss claim withdrawn in its corrected report. CARL-DR1 stays PARTIAL: SYF Q3 scale comparison delivered, COF/BFH pending, no causal masking grade. See the structured receipt for current publication proof; committed files are not recipient integration.
 
-## GAPS (carried and new)
+## GAPS
 
-- **New:** NYT medical-costs article unread (nytimes blocked); OpenAI post unread (403); Kobeissi/Goldman buyback primary not found; Capcom 2026 claim unanchored (CYPHER re-check 11/06); EMARKETER/Coop Italia uncorroborated; owner threshold registries not re-read this sitting (late-boot 19:47Z basis).
-- ROUTING_TABLE at 23,814 B (73% of the 32,550 B budget; 75% trigger is 24,412 B) — next append likely trips rotation.
-- Doctor MED: 13 aged unconsumed deliveries (HOMER 3A, CATO 1A, SAM 6, BOND 2, OTTO 1), owner-side.
-- Carried unchanged from the prior record: laptop X token stale (re-authorize at next laptop boot); Germany flash PMI not read; SIG-W-20260914-021 `erratum: SELF`; Houthi Yanbu CLAIM-ONLY; bdata not on desktop; REGINALD coverage basis conflict; correction 20261021-016 kill_strings; BRENT receipt for COR-20261021-16; LOWs (SIG-W-20261016-001 action line, 6 old signals without `entities:`, OTTO 2 consumed-unfiled).
+- X service reached with technical network permission; refresh failed, reauthorization still required (WQ-471). No IDs marked; no browser authorization launched without the supported user step.
+- READS attestation stale relative to current boot protocol. Boot basis 29 MATCH after explicit root-forum-carve-out / PSKY-alias review; this is not execution or perimeter attestation. PROME owns READS.tsv; request its existing owner reconciliation, no silent external edit.
+- Boot receipt lists uncompleted market/context legs. HANS daily evidence remains mostly October 22/21 owner values; HANS-T-12 UNINSTRUMENTED and excluded from clearance. FT-11/current official Brent settlement counts not newly adjudicated. Requested Brent metadata remains truncated; no crack fire from an unresolved identity.
+- General staleness/lifecycle sweep remains overdue (last completed October 10). The correction linkage for 1023-016 is completed; this does not close the full sweep. Initial doctor: 0 HIGH/4 MED; owner backlog not neglect. Current doctor/check outcomes in closeout bundle.
+- Full cross-owner first40-line context and complete 48-hour route extract were captured but not wholly manually assessed; lead-header/selected-source reads do not certify the full filter-context duty. Broad current/upcoming RED catalyst extraction also partial. No verified whole-fleet absence; unseen owners UNKNOWN, no dark doorbell.
+- Carried source limits: NYT medical article unread; OpenAI post unread at prior403; buyback primary unfound; Capcom/EMARKETER/Coop Italia claims unresolved at owners. Iran broad anchor last full October 22, next full around October 29; scoped Sunday card does not reset that clock. Germany flash PMI not read by WALTER.
+- Remaining carried issues: SIG-W-20260914-021 erratum SELF (WQ-503); REGINALD coverage-basis conflict; correction20261021-016 kill_strings; BRENT COR-20261021-16 receipt; LOWs for102016-001 action line, six older signals without entities, OTTO consumed/unfiled. No claim of repair.
+- WQ-508 U-W3 retained verbatim in substance: L3 success live; L3 failure one cause/one instance; N1/L4 untested live. L599 review October 17 remains UNKNOWN; do not infer review from technical fixture coverage. Older source-search/ruling details remain in preserved predecessor chain.
 
 ## WILL_NEEDS
 
-1. **WQ-507 reading** (carried): PROME read your 10:38 "Lets do this one too?" as approving the ISM <47 trigger move to ISHM; say if not.
-2. SIG-W-20260914-021 `erratum: SELF` — remove or leave (carried).
-3. At the next laptop boot: re-authorize X bookmarks (carried).
-4. Optional: paste the NYT medical-costs article if you want 042's medical line finished.
+- Existing WQ-471: X bookmark reauthorization on this machine. No new decision row requested.
+- Existing WQ-503: September 14 erratum SELF remove/leave choice remains open. No new ruling asked here.
+- Optional previous source request: NYT medical-cost article text if Will wants that line finished. WQ-507 interpretation carry is DISCHARGED by PROME's committed ruling packet; ISM<47 move stands.
 
 ## FOLLOW-UP
 
-1. **Iran weekend:** anything more official than Barrack's envoy tape vs the WH written 10/22 line; full Iran sweep ~10/29.
-2. **HY 10/23 bar** (FRED about Mon 10/26): REG-T-04 (>350 for 3 closes; earliest fire Tue 10/27 close). Watch an Optimum 8-K (restructuring support agreement or Chapter 11) as a dated CCC event (040).
-3. **Boundary #1:** Brent >=120 on 3 consecutive settles, BZZ26 to Fri 10/30, BZF27 from Mon 11/2 (BRENT packet).
-4. **First cyber sitting under v0.48:** fold channel-less claims into one ROUTINE card, one line per claim (victim, actor, claim date, handle, figure as claimed); split roundups and match on CVE/victim+date.
-5. DEWEY queue: 003R (>=10/30, by 11/03), 005R (by 11/02), 008R (10/29).
-6. MEMORY calendar check 10/29; staleness sweep due 10/24 (last 10/10).
-7. Cyber calendar (CYPHER owns): Chrome drops eMudhra 10/27; MOVEit-analogue check 11/04; Kiteworks P1 and Capcom re-check 11/06; TruStage about 11/12.
-8. WQ-508 U-W3 carry (verbatim in the prior record, item 9) remains open.
-9. Prior carries retained verbatim in the prior copies.
+1. WQ-515 / L828: sample window October 26 00:00 EDT (04:00Z) to October 30 16:00 EDT (20:00Z), stop at ten qualifying ACTION dispatches or cutoff. No Sunday or Saturday CATO transfers. Log in dispatch order with source/owner-record paths, versions and hops; no outcome-based skipping. DEWEY method 9c97f5012 received. Deliver one list at close; recipient reads wait>=24h and may extend to October 31. This is a bounded batch, not a new standing audit.
+2. Complete the explicit partial-boot market/context legs above when source evidence permits, reconcile READS with PROME, reauthorize X through its supported user step; preserve no-mark state until dispositions.
+3. HY next publication: strict>350 for three observation closes, earliest candidate10/23,10/26,10/27 if all qualify. Volume freeze claim withdrawn in002; completed October issuance read around November 2 remains LIQUID's.
+4. Iran full sweep around October 29; weekend originating coalition releases and any production/route consequence remain FALCON-owned. Boundary#1 needs official>=120 three settles, not vendor metadata. December basis throughOctober30;#8 January switch November 2 per BRENT.
+5. Existing DEWEY queue:003R>=October 30/byNovember3;005R byNovember2;008R October 29. CARL-DR1 existing November 13 deadline remains PARTIAL with SYF Q3 continuation; never call99.24bp causal masking or a ceiling.
+6. Full staleness/lifecycle adjudication overdue; MEMORY/anchor calendar check October 29. Cyber owner calendar retained: Chrome/eMudhra October 27, November 4/6 follow-ups, TruStage aroundNovember12; no owner launch inferred.
+7. VULCAN intake design REQ-PROME-20261016 remains a completed recommendation awaiting coordinator disposition, not collector deployment;9days old, no>14day alarm yet. Source-search and open-design carries below remain unresolved unless their canonical owner evidence discharges them.
 
 ## SOURCE-SEARCH DISPOSITION — approved by Will 2026-10-16
 
-Unchanged; full table via the prior copies.
+Preserved predecessor chain remains authoritative for the unchanged detailed table. No new source product, vendor spend, collector or search cap approved here.
 
 ## OPEN DESIGN DECISIONS
 
@@ -59,51 +54,73 @@ Unchanged; full table via the prior copies.
 
 ## CLOSEOUT RECEIPT
 
-FULL closeout at Will's word 18:56 ET 10/23. 7 dispatches this sitting (039–045), 1 correction-class (039, R1 row in the same commit). Publication: 057366c4a, 5d27fd411, 4de366cca, 0adecd021, 804de5895 on origin (CYPHER pushes, fresh fetch); 9f11bc019 and the closeout commit are recorded in the closeout commit message and the Will-facing reply.
+Full continuity closeout of PARTIAL boot; checks and limitations are explicit. Local routing commit f35a4b297 and initial selection commit 046fd4ae5; exact final record commits are named in the completion packet/message. Own push deferred for foreign dirty work; fresh fetch proves 046fd4ae5 and f35a4b297 already published by the shared push train, and all eight handoffs reconciled delivered. Recipient integration remains separate. No native Telegram reply capability in this runtime; this request arrived in the Codex terminal, so no Telegram reply is owed for it.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-23T22:56:54Z",
+  "as_of": "2026-10-25T17:31:47Z",
   "next_review": "2026-10-26",
   "publication": [
-    {"commit": "057366c4a", "state": "published"},
-    {"commit": "5d27fd411", "state": "published"},
-    {"commit": "4de366cca", "state": "published"},
-    {"commit": "0adecd021", "state": "published"},
-    {"commit": "804de5895", "state": "published"},
-    {"commit": "9f11bc019", "state": "published"}
+    {
+      "commit": "046fd4ae5",
+      "state": "published"
+    },
+    {
+      "commit": "f35a4b297",
+      "state": "published"
+    }
   ],
   "delivery": {
-    "signal_date": "20261023",
-    "total": 122,
-    "delivered": 122,
-    "note": "All 10/23 rows delivered (on origin). Publication, not consumption."
+    "signal_date": "20261025",
+    "total": 8,
+    "delivered": 8,
+    "note": "Fresh git fetch origin verified both routing commits; reconciler proved eight of eight handoff paths on origin, not recipient integration."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
     "evidence": [
-      {"path": "AGENTS/WALTER/research/2026-10-23_evening/prior-LAST_COMPLETION.md", "sha256": "5869ef919cffa28930465c0692e019fcedca3e26451f5071676ca95390ee7c4f"},
-      {"path": "AGENTS/WALTER/research/2026-10-23_evening/verify-C.md", "sha256": "27bdd735383831d84b27b6c93581f106efd191e17aeda69a09c1e6098cf82e16"},
-      {"path": "AGENTS/WALTER/research/2026-10-23_evening/verify-D.md", "sha256": "5969d9ee8ef830ffe6e05d7439f5911e38c3e2d84d617cd89df4a44e97b9bb13"},
-      {"path": "AGENTS/WALTER/research/2026-10-23_evening/bookmark-review-BM09.json", "sha256": "44f2cebf36fbae28e1e1f04212d40640c39d79808e8dff59eb3af483e2995c09"},
-      {"path": "AGENTS/WALTER/research/2026-10-23_evening/bm-scan.txt", "sha256": "6945b61dc63d51ec4fb281c96d85b4ab40cdeedeccd318c6f13614a043ec4aa2"}
+      {
+        "path": "AGENTS/WALTER/research/2026-10-25_boot/prior-LAST_COMPLETION.md",
+        "sha256": "e16673843eec9435ee621a847ea1133c05197e924b7ec82f5543a6a8d5eb68ab"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-25_boot/THRESHOLD-SCAN.md",
+        "sha256": "53741b67c035cfb61e3dfeb7feffee66e0fb0caa37e8de037b399530ba042d26"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-25_boot/INTAKE-DISPOSITIONS.md",
+        "sha256": "62ce1aa2a25031c12498ed512dde17797bb8af83a03d7e365bdea1bfbf7835a7"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-25_boot/basis-review.md",
+        "sha256": "4d7475c0f09967da5e84c568c6286a09347c4e2ed25e23fdf640ffb26a8fccc3"
+      },
+      {
+        "path": "AGENTS/WALTER/outbox/2026-10-25_WQ515-prospective-selection-rule.md",
+        "sha256": "920d7943c632655942e7b65bf0ae5ef1c67658e72db126b0bad76cc4f5a953d9"
+      }
     ]
   },
   "procedure": {
     "tier": "full",
-    "boot": "DELTA boot after the 19:47Z COMPLETE late-boot; 6b registries and FILTER_SPEC scoped reads not re-read; scoped 6c tape re-pull 20:38Z no fire",
+    "boot": "PARTIAL; exact execution and read gaps at research/2026-10-25_boot/BOOT-RECEIPT.md",
     "owner": "WILL",
-    "ask": "Will 18:56 ET 10/23: are we closed out here? Can I exit the window?",
-    "closeout": "FULL"
+    "ask": "Will: Hi WALTER please boot up. PROME coordination requested dated delivery and explicit full-closeout receipt.",
+    "closeout": "FULL continuity closeout of PARTIAL boot"
   },
   "manual_duties": {
-    "11": "7 dispatches (039-045) with BOARD, route_log, handoffs, delivery rows; INDEX regenerated after each; weekday claim-check clean; correction 039 with R1 row and 033 banner in one commit; errata on 041/045.",
-    "12": "STATUS header, bottom line, one dated observation row, network awareness regenerated; old header and bottom line rotated verbatim to SESSION_LOG; read_cap rc=0.",
-    "13": "REGISTRY refreshed (WALTER, CYPHER) before 12(b).",
-    "14": "MEMORY findings 54 and 55 added; afternoon session note rotated verbatim to MEMORY_PROMOTED; 100 lines.",
-    "15": "Prior LAST_COMPLETION preserved verbatim; carries evidence-checked (REQ-003 delivered and corrected; BRENT basis answered); receipt here.",
-    "16": "Exact-path commits; push per the closeout decision recorded in the closeout commit/message."
+    "11": "Two cards, one correction and eight handoffs committed with route/delivery/R1 and original banner; INDEX regenerated. Fourteen lane content items accounted.",
+    "12": "Updated STATUS lead/dated observations, posture and registry-derived network summary; prior lead/network preserved verbatim in SESSION_LOG.",
+    "13": "39 owner lead headers refreshed before network summary; no data or liveness inferred from dates. REGISTRY reduced below rotation stop.",
+    "14": "Session note updated; prior note preserved verbatim in SESSION_LOG. No new cross-fleet finding or auto-memory authored.",
+    "15": "Prior LAST_COMPLETION preserved verbatim; named approval and obligation carries evaluated below. Missing market/context legs remain explicit.",
+    "16": "Exact-path commits only; main pull and own push deferred for observed foreign dirty work. Pending publication retained until origin proof."
+  },
+  "root_duties": {
+    "retirement": "Scoped live boot/source references checked; no eligibility or deletion claim for the wider historical corpus; no files retired.",
+    "consumer": "No published numeric level superseded: inference correction retains original figures; original recipient union receives R1 correction. No consumer value replacement claimed.",
+    "weekday": "Two new BOARD cards checked before first successful commit; final state checked by closeout runner."
   }
 }
 END_CLOSEOUT_RECEIPT -->

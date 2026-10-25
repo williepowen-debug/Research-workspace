@@ -1,0 +1,2 @@
+https://cdn.cboe.com/api/global/us_indices/daily_prices/SKEW_History.csv
+Retrieved 2026-10-25; source response SHA256 0f97cd721a6367ad3137cf8cf89bdeb8607b2f5a9636103de450183d0d1a350c

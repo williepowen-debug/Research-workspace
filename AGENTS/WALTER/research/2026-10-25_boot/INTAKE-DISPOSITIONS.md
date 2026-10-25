@@ -1,0 +1,9 @@
+# October 25 intake disposition
+
+Research-Intake synced82f6342; last run October 24 17:45:19Z, zero missed weekday runs, healthy. Five NEW detector entries expanded to 14 content items: two regional-bank earnings filings and12 news items. BM-20261025-01 closed14/14:5 DUP,6 FOLD,1 DISPATCH,1 KILL,1 NO-ACTION. Seven syndicated October 24 interception items form one card, not seven sources. Other exact dispositions in BATCH_MANIFEST.tsv.
+
+WAL/FLG earnings already on owner/BOARD records. DOE400k Lake Charles exchange already SIG-W-20261023-022 and BRENT primary-read; Russia diesel target already SIG-W-20261015-008. Group1001 article is March7-2023, body checked at Cybersecurity Dive, killed as a fresh event. The October 20 all-clear is old theater context. July21 TrendForce2027 outlook retained as dated context, not newly body-assessed or evidence of a current change. These old dates alone do not establish that every old primary is immaterial; no such blanket rule is adopted.
+
+Intake marked only after dispositions and ordinary top-level corrections integrated; after-scan has0 NEW. X network retry reached the service but token refresh failed;0 IDs marked. Drop zone0 content files. New DEWEY method/correction/SYF packet9c97f5012 integrated before final filing; CARL and PROME stubs verified. The earlier meta-review's seven stubs existed; no missing route backfill and no matching REQ row to falsely resolve. CARL-DR1 remains PARTIAL at November 13.
+
+The new correction SIG-W-20261025-002 is independent of this14-item lane batch: it executes LIQUID's existing reply. Its R1 row targets the original and correcting recipient union. HAWK's corrected Canada scope is attached prominently to the saved owner-header snapshot. WQ-515 sample still0; exact window04:00Z10/26 to 20:00Z10/30, stop at 10; Saturday CATO and Sunday cards excluded.
