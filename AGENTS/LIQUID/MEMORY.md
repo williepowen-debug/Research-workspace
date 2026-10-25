@@ -2,12 +2,18 @@
 
 ## Session Notes
 
+### RESTART HANDOFF — 2026-10-25T15:41:28-04:00 (Will clearing/rebooting)
+
+- WQ523 research and corrections accepted; full owner closeout/push receipt delivered. Resume from existing STATUS §3 / NEXT SESSION, not another case.
+- New `inbox/2026-10-25_from-MIDAS_gold-conflict-history.md` arrived after closeout, currently sender-authored/untracked; leave for authorized next-boot intake. No new research opened.
+- Other desks have active dirty/staged work; do not sweep, pull, rebase or stash it. This restart only saves this continuity update and refreshes the final brief stamp/pin.
+
 ### CURRENT SESSION — 2026-10-25T14:49:06-04:00 (PROME/Will WQ523 single transmission case)
 
 - Completed Car-Mart case using existing BROCK/OTTO work and primary SEC filings: `research/2026-10-25_WQ523-carmart/REPORT.md`. Borrower constraints/lender terms observed, bank-risk bridge/current eligible cash unresolved. No other case or source program.
 - $305.60882577M principal at10/14 is not due11/01 by schedule (maturity2030). $5M signed incremental commitments/conditions not independently funded cash; ~$92M released receivables not cash. Six new-money lender signatures identified, allocations omitted; trustee/agent not bank risk. Publication lag and containment explicit.
 - Corrected both October23 L818 notes: H.8 stocks not draws, unused/funded stock changes require reconciliation, SLOOS context not matched proof. Preimages/hashes retained; original tables/grades unchanged.
-- Standard desk closeout requested, final STATUS before brief pin. All five gates, owed/coverage tail, withheld code/letter and Experiments A/B unchanged. Foreign dirt preserved; no pull/rebase/stash. Fresh-origin push receipt required after committed PROME delivery.
+- Standard desk closeout COMPLETE: state50570647e; final brief16ccf395c pins that exact STATUS; delivery24f2d9c02 consumed under PROME acceptance b9f32f2d9. Actual safe-push rc0 confirmed HEAD24f2d9c02 on origin/master by fresh fetch; explicit final receipt sent to resumed PROME thread01a1747f-1d92-7d11-bd17-f3d4f9c9c5d8. All five gates/owed/coverage, withholding and Experiments A/B unchanged. No pull/rebase/stash.
 
 ### PRIOR SESSION — 2026-10-25T13:54:48-04:00 (Will: credit transmission pathways)
 
