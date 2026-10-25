@@ -3,7 +3,7 @@
 **Status:** 🔴 STAGE 2→3 — substance firming; bank transmission unconfirmed; X1 NOT MET, wrapper NOT ARMED.
 **Domain:** BDCs / private credit / alternative managers / AI-infrastructure lending / PE-insurance links. Insurer exposure belongs to SHADE; EU bank/private-credit seam to HANS.
 **Recent thesis pivots:** ① **GATE-BRK-R2 (a) FIRED ×2** — North Haven PIF 9/25 (Q3 prelim 43.8%), OCIC 10/2 (Q3 prelim ~30%); one redemption wave, scored once. ② **BRK-02 RESOLVED FALSE 10/2:** Octus industry non-accruals at COST fell 2.02→1.90% in Q2, while rated-universe medians rose. ③ Duration 3→4 on 9/25, registered >5.00% rung met; latest 4.96 [FRED 10/22] is below the rung now, without an inferred reset rule. ④ WQ-363 (Will 10/3): X1 sustained = 3 consecutive HY readings >280.0; HY leg met, wrapper fails. ⑤ WQ-370 keeps OTIC OUT of R2; **standalone GATE-BRK-OTIC REGISTERED 10/15 (WQ-403)**, first grading Q4-2026.
-**As of:** 2026-10-25T16:09:27-04:00 | STATUS commit: `ef2c1df65` | Convergence **58/70**, last rescore **9/25**, unchanged. Three follow-ups and WQ524 bounded support DONE; no forecast/gate change.
+**As of:** 2026-10-25T16:32:38-04:00 | STATUS commit: `c4a1d9319` | Convergence **58/70**, last rescore **9/25**, unchanged. HTGC preliminary source search DONE; no forecast/gate change.
 
 ## CROSS-DOMAIN
 
@@ -33,6 +33,7 @@
 
 ## VIEW
 
+- **HTGC preliminary sources found (KB388–392):** Annex announced its Edited Capital sale June24,2025; Simon AI (formerly Simon Data) announced Monetate acquisition/new capital July30,2026; Suzy announced HIG-led funding/CEO transition September22,2026. Transaction prices, HTGC payoff, retained loan rights and waterfalls were not obtained. Small December/March/June history shows markdowns; Annex's overdue par-valued tranche still needs a recovery basis. Hunterbrook's February27 critique contains issuer responses and a disclosed related short; the complaint is not independent corroboration. October6 issuer prospectus reports both related suits dismissed without prejudice (shareholderJuly22, derivativeAugust11), no merits finding. These are source routes, not proof of concealment or newly observed October stress. No new study/monitor commissioned; original Q3 falsifier/Experiment A preserved. `research/2026-10-25_HTGC-preliminary-search/REPORT.md`.
 - **Software marks are the near-term test, with better comparisons and weaker HTGC inference.** Six-SOI reconciliation and funded USD screen DONE. The seven both-software disclosed-term candidates show absolute gaps0.01–3.00pp, not proof of identical rights or systematic manager bias. HTGC venture growth terms differ from syndicated buyout debt; its Smartsheet/New Relic economic aliases mostly mark close to peers. The old ±1.4 claim remains withdrawn. Preserve original October23 expectations in Experiment A; do not substitute the new FV/principal screen for HTGC's FV/COST falsifier. Report/rows/code at `research/2026-10-25_three-followups/`.
 - **Substance is firmer than established transmission.** Historical 11-for-11 negatives drove NDFI4→3 on9/3. The new Q3 pass now covers11/11 release/deck packages, **provisional and attribution-insufficient**, with no qualifying F1/F2 established. Those are different observations, not a second eleven-bank flat-reserve verdict. Industry NA at cost fell in Q2; no score changed.
 - **BCRED:** Q3 cap held, ~10% shares requested / ~50% satisfied, backlog largely resubmitted; **9/30 NAV $23.51/sh, −0.59% QoQ; aggregate ~$41.1B, −3.9%**, issuer 8-K 10/22 (KB-BRK-359). July $280.4M and August $227.1M subscriptions counter a one-way outflow story. R2 (a) fires concern other named vehicles; count once.
@@ -70,4 +71,4 @@
 | 11/17 AMC | GBDC annual results (issuer 10/6 8-K) | Revisit post-maturity funding and named draw disclosure; June arithmetic is historical. |
 | ~mid-Nov | BCRED Q3 10-Q | Final Q3 tender dollars on 9/30 valuation date. |
 
-*FULL schema R3 + amendments 7/9/10/11/12. Content repair replaces the 10/15 live claims; historical observations remain dated in catchups/ and Git. Owner fold completed after final STATUS commit ef2c1df65; NEXUS consumption remains unverified. Source dates and instrument boundaries survive this summary.*
+*FULL schema R3 + amendments 7/9/10/11/12. Content repair replaces the 10/15 live claims; historical observations remain dated in catchups/ and Git. Owner fold completed after final STATUS commit c4a1d9319; NEXUS consumption remains unverified. Source dates and instrument boundaries survive this summary.*
