@@ -1,0 +1,281 @@
+[
+  {
+    "borrower": "neo4j",
+    "commitment_m": 25.0,
+    "funded_par_m": 10.0,
+    "funded_fv_m": 9.878,
+    "funded_mark_pct": 98.78,
+    "commitment_ctx": "c-2258",
+    "position_ctx": [
+      "c-219"
+    ]
+  },
+  {
+    "borrower": "mango technologies",
+    "commitment_m": 23.45,
+    "funded_par_m": 45.25,
+    "funded_fv_m": 44.49,
+    "funded_mark_pct": 98.32044198895028,
+    "commitment_ctx": "c-2260",
+    "position_ctx": [
+      "c-86"
+    ]
+  },
+  {
+    "borrower": "intercom",
+    "commitment_m": 22.5,
+    "funded_par_m": 22.554,
+    "funded_fv_m": 23.785,
+    "funded_mark_pct": 105.45801188259288,
+    "commitment_ctx": "c-2264",
+    "position_ctx": [
+      "c-79"
+    ]
+  },
+  {
+    "borrower": "earnix",
+    "commitment_m": 16.25,
+    "funded_par_m": 20.505,
+    "funded_fv_m": 20.539,
+    "funded_mark_pct": 100.16581321628871,
+    "commitment_ctx": "c-2272",
+    "position_ctx": [
+      "c-75"
+    ]
+  },
+  {
+    "borrower": "controlup",
+    "commitment_m": 15.0,
+    "funded_par_m": 10.084,
+    "funded_fv_m": 10.001,
+    "funded_mark_pct": 99.17691392304641,
+    "commitment_ctx": "c-2274",
+    "position_ctx": [
+      "c-211"
+    ]
+  },
+  {
+    "borrower": "expel",
+    "commitment_m": 12.0,
+    "funded_par_m": 12.0,
+    "funded_fv_m": 11.718,
+    "funded_mark_pct": 97.65,
+    "commitment_ctx": "c-2278",
+    "position_ctx": [
+      "c-215"
+    ]
+  },
+  {
+    "borrower": "micro1",
+    "commitment_m": 10.875,
+    "funded_par_m": 10.875,
+    "funded_fv_m": 10.606,
+    "funded_mark_pct": 97.52643678160919,
+    "commitment_ctx": "c-2282",
+    "position_ctx": [
+      "c-88"
+    ]
+  },
+  {
+    "borrower": "coreview usa",
+    "commitment_m": 10.0,
+    "funded_par_m": 25.0,
+    "funded_fv_m": 25.243,
+    "funded_mark_pct": 100.972,
+    "commitment_ctx": "c-2286",
+    "position_ctx": [
+      "c-212"
+    ]
+  },
+  {
+    "borrower": "ispot tv",
+    "commitment_m": 9.75,
+    "funded_par_m": 42.587,
+    "funded_fv_m": 42.319,
+    "funded_mark_pct": 99.3706999788668,
+    "commitment_ctx": "c-2294",
+    "position_ctx": [
+      "c-80",
+      "c-81"
+    ]
+  },
+  {
+    "borrower": "pindrop security",
+    "commitment_m": 7.75,
+    "funded_par_m": 31.0,
+    "funded_fv_m": 31.675,
+    "funded_mark_pct": 102.1774193548387,
+    "commitment_ctx": "c-2296",
+    "position_ctx": [
+      "c-91"
+    ]
+  },
+  {
+    "borrower": "tipalti solutions",
+    "commitment_m": 7.5,
+    "funded_par_m": 116.506,
+    "funded_fv_m": 114.744,
+    "funded_mark_pct": 98.48763153828988,
+    "commitment_ctx": "c-2300",
+    "position_ctx": [
+      "c-101",
+      "c-102"
+    ]
+  },
+  {
+    "borrower": "payit",
+    "commitment_m": 5.08,
+    "funded_par_m": 29.269,
+    "funded_fv_m": 29.04,
+    "funded_mark_pct": 99.21760224127917,
+    "commitment_ctx": "c-2306",
+    "position_ctx": [
+      "c-221",
+      "c-222"
+    ]
+  },
+  {
+    "borrower": "smartsheet",
+    "commitment_m": 4.84,
+    "funded_par_m": 46.785,
+    "funded_fv_m": 46.752,
+    "funded_mark_pct": 99.9294645719782,
+    "commitment_ctx": "c-2308",
+    "position_ctx": [
+      "c-97"
+    ]
+  },
+  {
+    "borrower": "babel street",
+    "commitment_m": 4.367,
+    "funded_par_m": 64.845,
+    "funded_fv_m": 63.322,
+    "funded_mark_pct": 97.65132238414681,
+    "commitment_ctx": "c-2314",
+    "position_ctx": [
+      "c-66"
+    ]
+  },
+  {
+    "borrower": "loftware",
+    "commitment_m": 2.846,
+    "funded_par_m": 29.511,
+    "funded_fv_m": 29.511,
+    "funded_mark_pct": 100.0,
+    "commitment_ctx": "c-2320",
+    "position_ctx": [
+      "c-85"
+    ]
+  },
+  {
+    "borrower": "funnel holding ab publ",
+    "commitment_m": 2.625,
+    "funded_par_m": 21.34,
+    "funded_fv_m": 21.01,
+    "funded_mark_pct": 98.45360824742268,
+    "commitment_ctx": "c-2322",
+    "position_ctx": [
+      "c-77"
+    ]
+  },
+  {
+    "borrower": "zappi",
+    "commitment_m": 2.571,
+    "funded_par_m": 12.558,
+    "funded_fv_m": 12.406,
+    "funded_mark_pct": 98.78961618092053,
+    "commitment_ctx": "c-2324",
+    "position_ctx": [
+      "c-105"
+    ]
+  },
+  {
+    "borrower": "proven optics",
+    "commitment_m": 2.25,
+    "funded_par_m": 15.0,
+    "funded_fv_m": 14.69,
+    "funded_mark_pct": 97.93333333333334,
+    "commitment_ctx": "c-2328",
+    "position_ctx": [
+      "c-92"
+    ]
+  },
+  {
+    "borrower": "new relic",
+    "commitment_m": 2.176,
+    "funded_par_m": 21.89,
+    "funded_fv_m": 21.343,
+    "funded_mark_pct": 97.5011420740064,
+    "commitment_ctx": "c-2330",
+    "position_ctx": [
+      "c-220"
+    ]
+  },
+  {
+    "borrower": "sumo logic",
+    "commitment_m": 1.52,
+    "funded_par_m": 23.543,
+    "funded_fv_m": 22.663,
+    "funded_mark_pct": 96.26215860340653,
+    "commitment_ctx": "c-2332",
+    "position_ctx": [
+      "c-229"
+    ]
+  },
+  {
+    "borrower": "zimperium",
+    "commitment_m": 1.088,
+    "funded_par_m": 19.523,
+    "funded_fv_m": 19.422,
+    "funded_mark_pct": 99.48266147620755,
+    "commitment_ctx": "c-2336",
+    "position_ctx": [
+      "c-230",
+      "c-231"
+    ]
+  },
+  {
+    "borrower": "alchemer",
+    "commitment_m": 0.89,
+    "funded_par_m": 20.054,
+    "funded_fv_m": 19.655,
+    "funded_mark_pct": 98.01037199561185,
+    "commitment_ctx": "c-2338",
+    "position_ctx": [
+      "c-60"
+    ]
+  },
+  {
+    "borrower": "streamline healthcare solutions",
+    "commitment_m": 0.84,
+    "funded_par_m": 22.26,
+    "funded_fv_m": 21.73,
+    "funded_mark_pct": 97.61904761904762,
+    "commitment_ctx": "c-2340",
+    "position_ctx": [
+      "c-99"
+    ]
+  },
+  {
+    "borrower": "linenmaster",
+    "commitment_m": 0.338,
+    "funded_par_m": 11.5,
+    "funded_fv_m": 11.087,
+    "funded_mark_pct": 96.40869565217392,
+    "commitment_ctx": "c-2342",
+    "position_ctx": [
+      "c-84"
+    ]
+  },
+  {
+    "borrower": "omeda holdings",
+    "commitment_m": 0.18,
+    "funded_par_m": 6.985,
+    "funded_fv_m": 6.954,
+    "funded_mark_pct": 99.5561918396564,
+    "commitment_ctx": "c-2344",
+    "position_ctx": [
+      "c-90"
+    ]
+  }
+]

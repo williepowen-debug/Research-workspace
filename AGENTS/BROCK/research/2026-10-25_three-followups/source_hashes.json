@@ -1,0 +1,161 @@
+[
+  {
+    "ticker": "ARCC",
+    "kind": "html",
+    "filename": "ARCC_Q2.html",
+    "sha256": "21512672c0f41a68bb9965b921415d1bd13b94d850389c8632bc1b789b341f9d",
+    "bytes": 24846135
+  },
+  {
+    "ticker": "ARCC",
+    "kind": "xml",
+    "filename": "ARCC_xml.xml",
+    "sha256": "15b49d7baf95233d6dffdac01aee7560e8232a0f2bf55f5f424265ffb8d92cec",
+    "bytes": 14572370
+  },
+  {
+    "ticker": "BXSL",
+    "kind": "html",
+    "filename": "BXSL_Q2.html",
+    "sha256": "2d7f9cb86ca491a48623815302ec13efc31ed4b6e38c0a803cb5b9120a5bf3e0",
+    "bytes": 13314941
+  },
+  {
+    "ticker": "BXSL",
+    "kind": "xml",
+    "filename": "BXSL_xml.xml",
+    "sha256": "f95eb59439ab119012877f5d9d4c3ea38eeac29f386612e6f8ddea3a72d3fad9",
+    "bytes": 16545199
+  },
+  {
+    "ticker": "FSK",
+    "kind": "html",
+    "filename": "FSK_Q2.html",
+    "sha256": "bf9996ca83313469a5142a305ee431467e5c7fa9ae83385576b30496594b137d",
+    "bytes": 12100169
+  },
+  {
+    "ticker": "FSK",
+    "kind": "xml",
+    "filename": "FSK_xml.html",
+    "sha256": "5d308941ecb9cb0c14b0e3556c585edc0e5ffd5481fab7df2b063b4473560271",
+    "bytes": 12352571
+  },
+  {
+    "ticker": "GBDC",
+    "kind": "html",
+    "filename": "GBDC_Q2.html",
+    "sha256": "717cd19914cac94ae5b5e999143b1ac3d0c79d0cbc681c772b649b18687fd885",
+    "bytes": 24599095
+  },
+  {
+    "ticker": "GBDC",
+    "kind": "xml",
+    "filename": "GBDC_xml.xml",
+    "sha256": "4885cab442feecc11ab80f0252e249d6f577dba4379bc60ed27d75d990347d6f",
+    "bytes": 22486222
+  },
+  {
+    "ticker": "HTGC",
+    "kind": "html",
+    "filename": "HTGC_Q2.html",
+    "sha256": "416074173958f293dbe6d43ead7bfb51649ee328e78d6ff4560c916c670294cb",
+    "bytes": 7881751
+  },
+  {
+    "ticker": "HTGC",
+    "kind": "xml",
+    "filename": "HTGC_xml.xml",
+    "sha256": "ff05b944f9d8e4031fe86228375a7887cba8ce91d96e9eccd5b55efe4929be40",
+    "bytes": 8395699
+  },
+  {
+    "ticker": "OBDC",
+    "kind": "html",
+    "filename": "OBDC_Q2.html",
+    "sha256": "69307e23b51123006ad129dbab8ab5cdf4b5b1867dd256ac1f8b4469ea24a2aa",
+    "bytes": 10851208
+  },
+  {
+    "ticker": "OBDC",
+    "kind": "xml",
+    "filename": "OBDC_xml.xml",
+    "sha256": "dca4db884761f23bc20a662c21be09d26efb14a6d4ae5803802f54a3b2150883",
+    "bytes": 10770935
+  },
+  {
+    "filename": "CFG_Q1.html",
+    "sha256": "a3d20e9e92f31036473ed4ed969be010e067e1cdfb72d133b7e3b39b451598bd",
+    "bytes": 4296806
+  },
+  {
+    "filename": "CFG_Q2.html",
+    "sha256": "7c68d1b07e03867f0073981eb1967b8c7bbd2269de877d8ddc32295ff14ed9a7",
+    "bytes": 5494944
+  },
+  {
+    "filename": "CFG_Q2_8K_index.json",
+    "sha256": "070538bb204e0559a17821aa1878a2cebbdd826a892d8b81e5e39e5970abd1bb",
+    "bytes": 6565
+  },
+  {
+    "filename": "CFG_Q2_deck.html",
+    "sha256": "32e792cfc050f64b110568776f512fba7893a17014a551b45ed8b1654ea66dd4",
+    "bytes": 66070
+  },
+  {
+    "filename": "CFG_Q2_supplement.html",
+    "sha256": "d19735c9aae8088fcbb4a58bf9abc0c1edd000b25470fed48c2a6a1fd28a26e0",
+    "bytes": 2629555
+  },
+  {
+    "filename": "CFG_Q3_deck.pdf",
+    "sha256": "34834bcfa0c29c7d0695e6756b71bc600d912382fb2019578af3babd038b2930",
+    "bytes": 740452
+  },
+  {
+    "filename": "CFG_Q3_ir.html",
+    "sha256": "46c4e1cc2005119162ed40f3990e30f6fc2a8e0aae23dca1f6e9a893a19c985b",
+    "bytes": 69435
+  },
+  {
+    "filename": "CFG_call_page.html",
+    "sha256": "513ce0988b05b371ba75f2d1b3722150221d91c1d5f032035b190125e67ea3bc",
+    "bytes": 25929
+  },
+  {
+    "filename": "CFG_call_secondary.html",
+    "sha256": "d06c0d4cf2b9f2cb9eee6316cb77e4ed5a0487ecf7ae2d0ea3d8dd48150f87bc",
+    "bytes": 413668
+  },
+  {
+    "filename": "CFG_submissions.json",
+    "sha256": "49a40ed1d93ff90245213205ad461330e550aed49338b6240fe8db73cafd0492",
+    "bytes": 163782
+  },
+  {
+    "filename": "GBDC_Aug8K.html",
+    "sha256": "d1e21fb5323e1150117429225549c8713e19a31a43074381d20477d0ac28bf64",
+    "bytes": 28477
+  },
+  {
+    "filename": "GBDC_Oct8K.html",
+    "sha256": "e06c33c64181289a03ffd3b7ceaf211de62f068cababcce86e8e2a852f8da16d",
+    "bytes": 31050
+  },
+  {
+    "filename": "HTGC_Oct_closed.html",
+    "sha256": "a86802096551f21e83fab7c469b2539cbddb223ded44ffde927423fb34e68bf7",
+    "bytes": 52587
+  },
+  {
+    "filename": "HTGC_Oct_prospectus.html",
+    "sha256": "ed5973864b0efba19003713004c22c8966ad0f7cbbf55d7c2e850a6c1c278ce1",
+    "bytes": 3411184
+  },
+  {
+    "filename": "JPM_Q3_transcript.pdf",
+    "sha256": "78ca429f91555b2ffaf05568ad819a1673e13446a964ff467da52de26e46bb25",
+    "bytes": 325723
+  }
+]

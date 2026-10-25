@@ -1,0 +1,56 @@
+[
+  {
+    "ticker": "HTGC",
+    "as_of": "2026-06-30",
+    "draw_fraction": 0.25,
+    "draw_m": 102.0605,
+    "cash_m": 48.176,
+    "conditional_bank_capacity_m": 429.7,
+    "minimum_bank_draw_m": 53.8845,
+    "remaining_cash_plus_capacity_m": 375.8155
+  },
+  {
+    "ticker": "HTGC",
+    "as_of": "2026-06-30",
+    "draw_fraction": 0.5,
+    "draw_m": 204.121,
+    "cash_m": 48.176,
+    "conditional_bank_capacity_m": 429.7,
+    "minimum_bank_draw_m": 155.945,
+    "remaining_cash_plus_capacity_m": 273.755
+  },
+  {
+    "ticker": "HTGC",
+    "as_of": "2026-06-30",
+    "draw_fraction": 1.0,
+    "draw_m": 408.242,
+    "cash_m": 48.176,
+    "conditional_bank_capacity_m": 429.7,
+    "minimum_bank_draw_m": 360.06600000000003,
+    "remaining_cash_plus_capacity_m": 69.63399999999996
+  },
+  {
+    "ticker": "GBDC",
+    "as_of": "2026-06-30",
+    "draw_fraction": 1.0,
+    "draw_m": 580.832,
+    "cash_and_foreign_currency_m": 20.006,
+    "jpm_unused_commitment_m": 1725.941,
+    "adviser_unused_commitment_m": 266.8,
+    "assumed_notes_repayment_m": 0,
+    "remaining_excluding_adviser_m": 1165.1150000000002,
+    "remaining_including_adviser_m": 1431.915
+  },
+  {
+    "ticker": "GBDC",
+    "as_of": "2026-06-30",
+    "draw_fraction": 1.0,
+    "draw_m": 580.832,
+    "cash_and_foreign_currency_m": 20.006,
+    "jpm_unused_commitment_m": 1725.941,
+    "adviser_unused_commitment_m": 266.8,
+    "assumed_notes_repayment_m": 600.0,
+    "remaining_excluding_adviser_m": 565.1150000000002,
+    "remaining_including_adviser_m": 831.915
+  }
+]

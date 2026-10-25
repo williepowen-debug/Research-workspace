@@ -1,0 +1,50 @@
+[
+  {
+    "ticker": "ARCC",
+    "extracted_fv_m": 29349.3,
+    "bridge_m": 0,
+    "reconciled_fv_m": 29349.3,
+    "issuer_investments_fv_m": 29349.3,
+    "difference_m": 0.0
+  },
+  {
+    "ticker": "BXSL",
+    "extracted_fv_m": 13631.45,
+    "bridge_m": -267.155,
+    "reconciled_fv_m": 13364.295,
+    "issuer_investments_fv_m": 13364.295,
+    "difference_m": 0.0
+  },
+  {
+    "ticker": "FSK",
+    "extracted_fv_m": 12529.1,
+    "bridge_m": -1111.0,
+    "reconciled_fv_m": 11418.1,
+    "issuer_investments_fv_m": 11418.1,
+    "difference_m": 0.0
+  },
+  {
+    "ticker": "GBDC",
+    "extracted_fv_m": 8196.353,
+    "bridge_m": 0,
+    "reconciled_fv_m": 8196.353,
+    "issuer_investments_fv_m": 8196.353,
+    "difference_m": 0.0
+  },
+  {
+    "ticker": "HTGC",
+    "extracted_fv_m": 4583.87,
+    "bridge_m": 0,
+    "reconciled_fv_m": 4583.87,
+    "issuer_investments_fv_m": 4583.87,
+    "difference_m": 0.0
+  },
+  {
+    "ticker": "OBDC",
+    "extracted_fv_m": 14963.793,
+    "bridge_m": -8.744,
+    "reconciled_fv_m": 14955.048999999999,
+    "issuer_investments_fv_m": 14955.049,
+    "difference_m": -1.8189894035458565e-12
+  }
+]

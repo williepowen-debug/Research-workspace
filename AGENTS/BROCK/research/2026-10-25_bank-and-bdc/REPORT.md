@@ -1,5 +1,7 @@
 # BROCK — six remaining bank Q3 reads and pre-ARCC disclosure repair
 
+**Later approved follow-ups completed 2026-10-25:** See `../2026-10-25_three-followups/REPORT.md`. Six-funded-position comparison rerun; prior ±1.4 claim remains withdrawn. CFG baseline mismatch resolved as a March-versus-June vintage error; +$52M attribution still unresolved. Named borrower/cash mechanism tested. Earlier findings below retain their original read state.
+
 **Written:** 2026-10-25, owner continuation requested by PROME in native thread 01a17383-f032-7092-af13-12b4f414e79d. Existing frozen BRK-31 population/operator unchanged; research scope only, $0. Bank judgment remains REGINALD/WAL/OZK's. Their already-obtained primary materials and source pointers were reused, then the decisive issuer text re-read. This is not independent corroboration of their grades.
 
 **Result:** all **11/11** frozen-cohort banks now have a provisional release/presentation read. **No qualifying F1/F2 fire established.** Category attribution remains INSUFFICIENT; this is neither eleven flat reserve balances nor a FALSE resolution. Calls/final filings remain required under R1. The other result is a correction: FSK's original gross software mark included unfunded commitments and must not be used as a funded-loan mark.

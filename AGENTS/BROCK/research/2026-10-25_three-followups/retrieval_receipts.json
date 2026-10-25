@@ -1,0 +1,241 @@
+[
+  [
+    {
+      "key": "ARCC_submissions",
+      "url": "https://data.sec.gov/submissions/CIK0001287750.json",
+      "status": 200,
+      "file": "/tmp/brock-followup-20261025/ARCC_submissions.json",
+      "bytes": 162568,
+      "sha256": "59f83fb33a06ae1713d13abc95682a2032f03d4947ee08007ddda4bd798128f9",
+      "retrieved_at": "2026-10-25T18:21:28.888688+00:00"
+    },
+    {
+      "key": "OBDC_submissions",
+      "url": "https://data.sec.gov/submissions/CIK0001655888.json",
+      "status": 200,
+      "file": "/tmp/brock-followup-20261025/OBDC_submissions.json",
+      "bytes": 115129,
+      "sha256": "6aca73ad8feb558a978fdded1467f4e09e25c23525861088bd50161fd4ff5700",
+      "retrieved_at": "2026-10-25T18:21:28.889171+00:00"
+    },
+    {
+      "key": "CFG_submissions",
+      "url": "https://data.sec.gov/submissions/CIK0000759944.json",
+      "status": 200,
+      "file": "/tmp/brock-followup-20261025/CFG_submissions.json",
+      "bytes": 163782,
+      "sha256": "49a40ed1d93ff90245213205ad461330e550aed49338b6240fe8db73cafd0492",
+      "retrieved_at": "2026-10-25T18:21:28.890856+00:00"
+    },
+    {
+      "key": "BXSL_xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/1736035/000173603526000016/bxsl-20260630_htm.xml",
+      "status": 200,
+      "file": "/tmp/brock-followup-20261025/BXSL_xml.xml",
+      "bytes": 16545199,
+      "sha256": "f95eb59439ab119012877f5d9d4c3ea38eeac29f386612e6f8ddea3a72d3fad9",
+      "retrieved_at": "2026-10-25T18:21:28.891543+00:00"
+    },
+    {
+      "key": "GBDC_xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/1476765/000147676526000048/gbdc-20260630_htm.xml",
+      "status": 200,
+      "file": "/tmp/brock-followup-20261025/GBDC_xml.xml",
+      "bytes": 22486222,
+      "sha256": "4885cab442feecc11ab80f0252e249d6f577dba4379bc60ed27d75d990347d6f",
+      "retrieved_at": "2026-10-25T18:21:28.892114+00:00"
+    },
+    {
+      "key": "HTGC_xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/1280784/000128078426000042/htgc-20260630_htm.xml",
+      "status": 200,
+      "file": "/tmp/brock-followup-20261025/HTGC_xml.xml",
+      "bytes": 8395699,
+      "sha256": "ff05b944f9d8e4031fe86228375a7887cba8ce91d96e9eccd5b55efe4929be40",
+      "retrieved_at": "2026-10-25T18:21:28.892663+00:00"
+    }
+  ],
+  [
+    {
+      "key": "ARCC_Q2",
+      "url": "https://www.sec.gov/Archives/edgar/data/1287750/000162828026050307/arcc-20260630.htm",
+      "status": 200,
+      "file": "/tmp/brock-followup-20261025/ARCC_Q2.html",
+      "bytes": 24846135,
+      "sha256": "21512672c0f41a68bb9965b921415d1bd13b94d850389c8632bc1b789b341f9d",
+      "retrieved_at": "2026-10-25T18:29:08.799657+00:00"
+    },
+    {
+      "key": "ARCC_xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/1287750/000162828026050307/arcc-20260630_htm.xml",
+      "status": 200,
+      "file": "/tmp/brock-followup-20261025/ARCC_xml.xml",
+      "bytes": 14572370,
+      "sha256": "15b49d7baf95233d6dffdac01aee7560e8232a0f2bf55f5f424265ffb8d92cec",
+      "retrieved_at": "2026-10-25T18:29:08.800073+00:00"
+    },
+    {
+      "key": "OBDC_Q2",
+      "url": "https://www.sec.gov/Archives/edgar/data/1655888/000165588826000056/obdc-20260630.htm",
+      "status": 200,
+      "file": "/tmp/brock-followup-20261025/OBDC_Q2.html",
+      "bytes": 10851208,
+      "sha256": "69307e23b51123006ad129dbab8ab5cdf4b5b1867dd256ac1f8b4469ea24a2aa",
+      "retrieved_at": "2026-10-25T18:29:08.800350+00:00"
+    },
+    {
+      "key": "OBDC_xml",
+      "url": "https://www.sec.gov/Archives/edgar/data/1655888/000165588826000056/obdc-20260630_htm.xml",
+      "status": 200,
+      "file": "/tmp/brock-followup-20261025/OBDC_xml.xml",
+      "bytes": 10770935,
+      "sha256": "dca4db884761f23bc20a662c21be09d26efb14a6d4ae5803802f54a3b2150883",
+      "retrieved_at": "2026-10-25T18:29:08.801426+00:00"
+    },
+    {
+      "key": "CFG_Q2",
+      "url": "https://www.sec.gov/Archives/edgar/data/759944/000075994426000148/cfg-20260630.htm",
+      "status": 200,
+      "file": "/tmp/brock-followup-20261025/CFG_Q2.html",
+      "bytes": 5494944,
+      "sha256": "7c68d1b07e03867f0073981eb1967b8c7bbd2269de877d8ddc32295ff14ed9a7",
+      "retrieved_at": "2026-10-25T18:29:08.802850+00:00"
+    },
+    {
+      "key": "CFG_Q3_ir",
+      "url": "https://investor.citizensbank.com/about-us/investor-relations/financial-information/financial-results/2026.aspx",
+      "status": 200,
+      "file": "/tmp/brock-followup-20261025/CFG_Q3_ir.html",
+      "bytes": 69435,
+      "sha256": "46c4e1cc2005119162ed40f3990e30f6fc2a8e0aae23dca1f6e9a893a19c985b",
+      "retrieved_at": "2026-10-25T18:29:08.803842+00:00"
+    }
+  ],
+  [
+    {
+      "key": "CFG_Q2_8K_index",
+      "url": "https://www.sec.gov/Archives/edgar/data/759944/000075994426000133/index.json",
+      "status": 200,
+      "file": "/tmp/brock-followup-20261025/CFG_Q2_8K_index.json",
+      "bytes": 6565,
+      "sha256": "070538bb204e0559a17821aa1878a2cebbdd826a892d8b81e5e39e5970abd1bb",
+      "retrieved_at": "2026-10-25T18:36:51.696528+00:00"
+    },
+    {
+      "key": "CFG_Q3_deck",
+      "url": "https://investor.citizensbank.com/~/media/Files/C/CitizensBank-IR/3q26-earnings-presentation.pdf",
+      "status": 200,
+      "file": "/tmp/brock-followup-20261025/CFG_Q3_deck.pdf",
+      "bytes": 740452,
+      "sha256": "34834bcfa0c29c7d0695e6756b71bc600d912382fb2019578af3babd038b2930",
+      "retrieved_at": "2026-10-25T18:36:51.696913+00:00"
+    },
+    {
+      "key": "CFG_call_page",
+      "url": "https://event.choruscall.com/mediaframe/webcast.html?webcastid=9Fs9PkKT",
+      "status": 200,
+      "file": "/tmp/brock-followup-20261025/CFG_call_page.html",
+      "bytes": 25929,
+      "sha256": "513ce0988b05b371ba75f2d1b3722150221d91c1d5f032035b190125e67ea3bc",
+      "retrieved_at": "2026-10-25T18:36:51.697247+00:00"
+    },
+    {
+      "key": "JPM_Q3_transcript",
+      "url": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2026/3rd-quarter/3q26-earnings-transcript.pdf",
+      "status": 200,
+      "file": "/tmp/brock-followup-20261025/JPM_Q3_transcript.pdf",
+      "bytes": 325723,
+      "sha256": "78ca429f91555b2ffaf05568ad819a1673e13446a964ff467da52de26e46bb25",
+      "retrieved_at": "2026-10-25T18:36:51.698434+00:00"
+    },
+    {
+      "key": "CFG_call_secondary",
+      "url": "https://stockanalysis.com/stocks/cfg/transcripts/651771-q3-2026/",
+      "status": 200,
+      "file": "/tmp/brock-followup-20261025/CFG_call_secondary.html",
+      "bytes": 413668,
+      "sha256": "d06c0d4cf2b9f2cb9eee6316cb77e4ed5a0487ecf7ae2d0ea3d8dd48150f87bc",
+      "retrieved_at": "2026-10-25T18:36:51.699711+00:00"
+    }
+  ],
+  [
+    {
+      "key": "CFG_Q2_supplement",
+      "url": "https://www.sec.gov/Archives/edgar/data/759944/000075994426000133/q226financialsupplement.htm",
+      "status": 200,
+      "file": "/tmp/brock-followup-20261025/CFG_Q2_supplement.html",
+      "bytes": 2629555,
+      "sha256": "d19735c9aae8088fcbb4a58bf9abc0c1edd000b25470fed48c2a6a1fd28a26e0",
+      "retrieved_at": "2026-10-25T18:42:11.502279+00:00"
+    },
+    {
+      "key": "CFG_Q2_deck",
+      "url": "https://www.sec.gov/Archives/edgar/data/759944/000075994426000133/a2q26earningspresentatio.htm",
+      "status": 200,
+      "file": "/tmp/brock-followup-20261025/CFG_Q2_deck.html",
+      "bytes": 66070,
+      "sha256": "32e792cfc050f64b110568776f512fba7893a17014a551b45ed8b1654ea66dd4",
+      "retrieved_at": "2026-10-25T18:42:11.503088+00:00"
+    }
+  ],
+  [
+    {
+      "key": "HTGC_Oct_prospectus",
+      "url": "https://www.sec.gov/Archives/edgar/data/1280784/000162828026065264/htgc-20261006.htm",
+      "status": 200,
+      "file": "/tmp/brock-followup-20261025/HTGC_Oct_prospectus.html",
+      "bytes": 3411184,
+      "sha256": "ed5973864b0efba19003713004c22c8966ad0f7cbbf55d7c2e850a6c1c278ce1",
+      "retrieved_at": "2026-10-25T19:22:06.446367+00:00"
+    },
+    {
+      "key": "GBDC_submissions",
+      "url": "https://data.sec.gov/submissions/CIK0001476765.json",
+      "status": 200,
+      "file": "/tmp/brock-followup-20261025/GBDC_submissions.json",
+      "bytes": 167434,
+      "sha256": "63b33c8b5948839300ad3e8ef0fb498af2079b66df0bff53a85fa5746a42fd52",
+      "retrieved_at": "2026-10-25T19:22:06.449099+00:00"
+    }
+  ],
+  [
+    {
+      "key": "GBDC_Oct8K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1476765/000147676526000072/gbdc-20261006.htm",
+      "status": 200,
+      "file": "/tmp/brock-followup-20261025/GBDC_Oct8K.html",
+      "bytes": 31050,
+      "sha256": "e06c33c64181289a03ffd3b7ceaf211de62f068cababcce86e8e2a852f8da16d",
+      "retrieved_at": "2026-10-25T19:23:10.284062+00:00"
+    },
+    {
+      "key": "GBDC_Aug8K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1476765/000147676526000070/gbdc-20260807.htm",
+      "status": 200,
+      "file": "/tmp/brock-followup-20261025/GBDC_Aug8K.html",
+      "bytes": 28477,
+      "sha256": "d1e21fb5323e1150117429225549c8713e19a31a43074381d20477d0ac28bf64",
+      "retrieved_at": "2026-10-25T19:23:10.286939+00:00"
+    },
+    {
+      "key": "HTGC_Oct_closed",
+      "url": "https://investor.htgc.com/news-events/press-releases/detail/600/hercules-capital-closes-institutional-notes-offering-of",
+      "status": 200,
+      "file": "/tmp/brock-followup-20261025/HTGC_Oct_closed.html",
+      "bytes": 52587,
+      "sha256": "a86802096551f21e83fab7c469b2539cbddb223ded44ffde927423fb34e68bf7",
+      "retrieved_at": "2026-10-25T19:23:10.288371+00:00"
+    }
+  ],
+  [
+    {
+      "key": "CFG_Q1",
+      "url": "https://www.sec.gov/Archives/edgar/data/759944/000075994426000101/cfg-20260331.htm",
+      "status": 200,
+      "file": "/tmp/brock-followup-20261025/CFG_Q1.html",
+      "bytes": 4296806,
+      "sha256": "a3d20e9e92f31036473ed4ed969be010e067e1cdfb72d133b7e3b39b451598bd",
+      "retrieved_at": "2026-10-25T19:24:22.966479+00:00"
+    }
+  ]
+]

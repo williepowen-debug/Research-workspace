@@ -1,0 +1,183 @@
+[
+  {
+    "ticker": "ARCC",
+    "soi_boundary_factrow": 1932,
+    "positions": 1439,
+    "all_fv_m": 29349.3,
+    "software_all_fv_m": 6451.2,
+    "software_usd_funded": {
+      "n": 207,
+      "par_m": 5624.9,
+      "fv_m": 5386.7,
+      "mark_pct": 95.76525804903198,
+      "below80_par_pct": 4.222297285285071,
+      "below90_par_pct": 11.573539085139291,
+      "pik_bearing_fv_pct": 17.923775224163215
+    },
+    "software_other_currency_funded": {},
+    "software_unfunded_rows": 0,
+    "unfunded_tagged_m": 4984.6
+  },
+  {
+    "ticker": "BXSL",
+    "soi_boundary_factrow": 906,
+    "positions": 703,
+    "all_fv_m": 13631.45,
+    "software_all_fv_m": 2524.75,
+    "software_usd_funded": {
+      "n": 104,
+      "par_m": 2380.042,
+      "fv_m": 2106.498,
+      "mark_pct": 88.50675744377621,
+      "below80_par_pct": 19.983302815664597,
+      "below90_par_pct": 28.624873006442744,
+      "pik_bearing_fv_pct": 17.629401974271993
+    },
+    "software_other_currency_funded": {
+      "EUR": {
+        "n": 20,
+        "fv_usd_m": 230.793,
+        "cost_usd_m": 228.958,
+        "par_native_m": 203.699,
+        "mark": "NOT_COMPUTED_NO_FX_CONVERSION"
+      },
+      "GBP": {
+        "n": 10,
+        "fv_usd_m": 176.521,
+        "cost_usd_m": 171.664,
+        "par_native_m": 135.084,
+        "mark": "NOT_COMPUTED_NO_FX_CONVERSION"
+      },
+      "SEK": {
+        "n": 1,
+        "fv_usd_m": 4.43,
+        "cost_usd_m": 3.955,
+        "par_native_m": 43.39,
+        "mark": "NOT_COMPUTED_NO_FX_CONVERSION"
+      }
+    },
+    "software_unfunded_rows": 0,
+    "unfunded_tagged_m": 1415.535
+  },
+  {
+    "ticker": "FSK",
+    "soi_boundary_factrow": 754,
+    "positions": 616,
+    "all_fv_m": 12529.1,
+    "software_all_fv_m": 2402.2,
+    "software_usd_funded": {
+      "n": 59,
+      "par_m": 2148.0,
+      "fv_m": 1821.3,
+      "mark_pct": 84.79050279329608,
+      "below80_par_pct": 26.876163873370576,
+      "below90_par_pct": 44.031657355679705,
+      "pik_bearing_fv_pct": 8.850820842255532
+    },
+    "software_other_currency_funded": {
+      "EUR": {
+        "n": 4,
+        "fv_usd_m": 22.0,
+        "cost_usd_m": 22.0,
+        "par_native_m": 20.1,
+        "mark": "NOT_COMPUTED_NO_FX_CONVERSION"
+      },
+      "GBP": {
+        "n": 3,
+        "fv_usd_m": 71.0,
+        "cost_usd_m": 74.4,
+        "par_native_m": 58.4,
+        "mark": "NOT_COMPUTED_NO_FX_CONVERSION"
+      },
+      "SEK": {
+        "n": 1,
+        "fv_usd_m": 15.1,
+        "cost_usd_m": 14.9,
+        "par_native_m": 161.1,
+        "mark": "NOT_COMPUTED_NO_FX_CONVERSION"
+      }
+    },
+    "software_unfunded_rows": 68,
+    "unfunded_tagged_m": 1110.5
+  },
+  {
+    "ticker": "GBDC",
+    "soi_boundary_factrow": 2067,
+    "positions": 1811,
+    "all_fv_m": 8196.353,
+    "software_all_fv_m": 2135.05,
+    "software_usd_funded": {
+      "n": 199,
+      "par_m": 2013.531,
+      "fv_m": 1963.202,
+      "mark_pct": 97.50046063358349,
+      "below80_par_pct": 0.45884567955497085,
+      "below90_par_pct": 0.7602564847524076,
+      "pik_bearing_fv_pct": 19.7661269701233
+    },
+    "software_other_currency_funded": {},
+    "software_unfunded_rows": 69,
+    "unfunded_tagged_m": 0.0
+  },
+  {
+    "ticker": "HTGC",
+    "soi_boundary_factrow": 580,
+    "positions": 360,
+    "all_fv_m": 4583.87,
+    "software_all_fv_m": 1502.337,
+    "software_usd_funded": {
+      "n": 63,
+      "par_m": 1428.25,
+      "fv_m": 1401.235,
+      "mark_pct": 98.10852441799405,
+      "below80_par_pct": 2.4600735165412217,
+      "below90_par_pct": 2.4600735165412217,
+      "pik_bearing_fv_pct": 47.75437382023715
+    },
+    "software_other_currency_funded": {
+      "EUR": {
+        "n": 1,
+        "fv_usd_m": 77.927,
+        "cost_usd_m": 70.218,
+        "par_native_m": 68.2,
+        "mark": "NOT_COMPUTED_NO_FX_CONVERSION"
+      }
+    },
+    "software_unfunded_rows": 0,
+    "unfunded_tagged_m": 408.242
+  },
+  {
+    "ticker": "OBDC",
+    "soi_boundary_factrow": 549,
+    "positions": 350,
+    "all_fv_m": 14963.793,
+    "software_all_fv_m": 1732.587,
+    "software_usd_funded": {
+      "n": 54,
+      "par_m": 1584.653,
+      "fv_m": 1554.688,
+      "mark_pct": 98.10904974148914,
+      "below80_par_pct": 1.002995608502303,
+      "below90_par_pct": 1.0154273522342114,
+      "pik_bearing_fv_pct": 19.34317367857731
+    },
+    "software_other_currency_funded": {
+      "EUR": {
+        "n": 2,
+        "fv_usd_m": 38.608,
+        "cost_usd_m": 37.358,
+        "par_native_m": 36.068,
+        "mark": "NOT_COMPUTED_NO_FX_CONVERSION"
+      },
+      "GBP": {
+        "n": 1,
+        "fv_usd_m": 2.376,
+        "cost_usd_m": 2.243,
+        "par_native_m": 1.846,
+        "mark": "NOT_COMPUTED_NO_FX_CONVERSION"
+      }
+    },
+    "software_unfunded_rows": 0,
+    "unfunded_tagged_m": 1486.557
+  }
+]

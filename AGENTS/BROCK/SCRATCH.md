@@ -1,11 +1,11 @@
-# BROCK SCRATCH — 2026-10-25 bank/BDC continuation
+# BROCK SCRATCH — 2026-10-25 approved follow-ups
 
-STATUS owns obligations; current catch-up and research/2026-10-25_bank-and-bdc/REPORT.md hold work. Six bank release/deck reads DONE, cohort11/11 provisional; no F1/F2 established, attribution insufficient. Primary calls/final filings remain, not negative grades.
+STATUS owns obligations. All three Will-approved investigations completed; report and reproducible comparison at research/2026-10-25_three-followups/. Nine new KB facts376–384. Six SOIs tie; old +/-1.4 claim remains WITHDRAWN. Core screen is USD funded FV/principal; original Experiment A and HTGC FV/COST falsifier stay as-made. Use new compare.py, not old FSK pipeline unchanged.
 
-FSK correction: gross87.0/21.9 -> funded-only85.4/25.6; gap reconciled (unfunded1111M +money-market15.4M). Six-name peer +/-1.4 conclusion WITHDRAWN; PIK/rest ratios not revalidated. Original WQ-511 report preserved with current correction banner. Do not run FSK old pipeline unchanged; use footnote(x)-aware audit helper and revalidate matching before reuse.
+Critical correction: CFG12.852B is MARCH31; June30=14.727B (KB379). Frozen operators unchanged; dated annotations only. Notify REGINALD/GIBBS/DEWEY/PROME. CFG+52M attribution UNKNOWN; JPM official call says generic wholesale build from new activity. Other bank primary calls/final filings remain, not negative grades.
 
-ARCC10/27, HTGC10/29: Experiment A EXPECTED from original WQ-511 report, then OBSERVED/MATERIAL DIFFERENCE/REVISED BELIEF, then stop. BXSL COST3.6% and HTGC facilities filled; GBDC per-name undrawn remains UNKNOWN. CRMT10/28 backstop,10/30+11/02; CABO10/30; R2 review10/31.
+HTGC named immediate software commitments191.686M/25borrowers mainly near par; impaired Annex/Simon/Suzy have no positive entries in that table, not zero contingent obligations. June conditional buffer~69.6M cannot be called current after refinancing. GBDC Pluralsight named undrawn positions prove contingent link, principal UNKNOWN; June capacity not a current squeeze.
 
-PROME delivery/closeout after final STATUS commit and substantive brief re-pin. Own thread01a173ad-f2ce-7f91-ab8d-46e6f76330c0; exact model UNKNOWN. Shared foreign dirty work untouched; no pull/rebase/stash.
+Next scheduled tests: ARCC10/27; CRMT10/28backstop; HTGC10/29; CRMT/CABO10/30 andCRMT11/02; R2review10/31. GBDC nextresults11/17AMC. Experiment A EXPECTED original / OBSERVED / MATERIAL DIFFERENCE / REVISED BELIEF, then stop.
 
-Late intake: COR-20261025-02 (HY volume inference withdrawn) NO-OP scoped receipt; no adopted owner claim, spread terms unchanged. PROME source spot-check accepted and L826/L827 corrected.
+Codex OpenAI thread01a173ad-f2ce-7f91-ab8d-46e6f76330c0; exactmodelUNKNOWN. Root/local instructions explicitly read in boot. No subagents or new monitors. Shared foreign dirty work untouched; no pull/rebase/stash. Final STATUS-pinned NEXUS brief and dated packets follow final research/state commit. Delivery/consumption remain distinct.
