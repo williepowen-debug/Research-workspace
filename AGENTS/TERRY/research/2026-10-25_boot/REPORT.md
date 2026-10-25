@@ -142,3 +142,23 @@ the earlier 4-row mark and timestamp qualification stand. Owned whitespace check
 is clean; the unscoped check sees foreign TSV trailing empty cells, left untouched.
 PROME's ORCH_LOG now records a separate `terry-guard-review` in flight. No review
 result or independent acceptance received at this cutoff; no reviewer contact.
+
+## Later material correction / independent read 1 — 2026-10-25T12:48:35-04:00
+
+PROME accepted the PRD1–3/WQ-493 artifacts at 3be3db220, and delivered the separate
+IDEA read-1 result: F1, normal INDEX structures invisible to G. The earlier owner
+closeout is superseded for this new repair touch. See acceptance reads=1 and the
+verbatim saved review. Author corrected the IDEA INDEX reader path, added seven
+end-to-end fixtures (118 assertions now), and replayed both preserved F1 mutations
+in a separate owner snapshot: both fire. Existing policy invariants unchanged.
+Live A–H clean after making the USO TRADE_BOOK year explicit to match its unchanged
+card expiry. No independent acceptance claimed; commit goes to PROME for one
+result re-read. No repeated source/price work or trade/forecast/risk change.
+
+New inbox: DEWEY's caveat-loss correction READ IN FLIGHT (uncommitted sender
+packet). It withdraws the measured 2/5 cross-desk claim; CARL retains uncertainty
+and counter-evidence, reasoned disagreement is not caveat loss. No such assertion
+found in this touch's current STATUS/SIGNALS/October24 VIEW/HYG card sources. No
+new study or change to WQ-515. Packet left visible while sender source/delivery
+is in flight; do not move/commit another writer's unfinished delivery. Original
+zero-inbox cutoff remains dated; latest I reports 1 in-flight, not unread.

@@ -348,7 +348,13 @@ def setups_tsv_states(text: str) -> dict[str, str]:
     return out
 
 
-def index_md_states(text: str) -> dict[str, str]:
+def index_md_states(text: str, *, include_idea_structure: bool = False) -> dict[str, str]:
+    """Read current state; live IDEA claims also carry their normal structure cell.
+
+    Keep state first so A/F retain their declaration-prefix semantics. G uses
+    the existing first-mention fingerprint policy on the appended structure.
+    Legacy TRY/MGMT claim extraction is unchanged by this bounded IDEA repair.
+    """
     out: dict[str, str] = {}
     for line in text.split("\n"):
         cells = md_cells(line)
@@ -357,6 +363,8 @@ def index_md_states(text: str) -> dict[str, str]:
         ids = SETUP_ID_RE.findall(cells[0])
         if len(ids) == 1:
             out[ids[0]] = cells[1]
+            if include_idea_structure and ids[0].startswith("IDEA-") and len(cells) >= 4:
+                out[ids[0]] += " || " + cells[3]
     return out
 
 
@@ -979,7 +987,7 @@ def gather_live():
 
     for sid, cell in setups_tsv_states(read(SETUPS_TSV)).items():
         add(sid, "SETUPS.tsv", cell)
-    for sid, cell in index_md_states(read(INDEX_MD)).items():
+    for sid, cell in index_md_states(read(INDEX_MD), include_idea_structure=True).items():
         add(sid, "INDEX.md", cell)
     for sid, cell in trade_book_states(read(TRADE_BOOK)).items():
         add(sid, "TRADE_BOOK.md", cell)
@@ -1109,6 +1117,52 @@ def selftest() -> int:
                            "TRADE_BOOK.md": "FIRED / LIVE QQQ Nov-20 690P/665P"}}
     ok("IDEA G: same state with different strikes fires",
        len(check_structure_agreement(_idea_struct)) == 1)
+    # Read-1 F1: exercise gather_live, not a handcrafted G claims dictionary.
+    # The ordinary INDEX structure is cell 3, outside the state cell.
+    import tempfile as _idea_tf
+    with _idea_tf.TemporaryDirectory() as _idea_dir:
+        _idea_card_dir = Path(_idea_dir)
+        _idea_path = _idea_card_dir / "idea.md"
+        _idea_path.write_text(_idea_card)
+        _idea_index_normal = f"| **{_idea}** | FIRED / LIVE | IDEA | QQQ Nov-20 690/670P x2 | trigger | owner | idea.md |"
+        _idea_tb_normal = f"| now | {_idea} | Will | CLEAN | approved | FIRED / LIVE — QQQ Nov-20 690/670P x2 | idea.md |"
+        _idea_overrides = {_idea_path: _idea_card, INDEX_MD: _idea_index_normal,
+                           TRADE_BOOK: _idea_tb_normal,
+                           SETUPS_TSV: f"setup_id\tverdict\tstatus\n{_idea}\tCLEAN\tFIRED / LIVE\n"}
+        _idea_saved_read, _idea_saved_dir = read, CARD_DIR
+        try:
+            globals()["CARD_DIR"] = _idea_card_dir
+            globals()["read"] = lambda path: _idea_overrides.get(path, "")
+            _idea_gathered, _, _ = gather_live()
+            ok("F1: gather reads the normal IDEA INDEX structure and matching G stays clean",
+               "690/670P" in _idea_gathered[_idea]["INDEX.md"]
+               and check_structure_agreement(_idea_gathered) == [])
+            _idea_overrides[INDEX_MD] = _idea_index_normal.replace("690/670P", "690/665P")
+            _idea_gathered, _, _ = gather_live()
+            ok("F1: normal INDEX structure-column mismatch fires end to end",
+               len(check_structure_agreement(_idea_gathered)) == 1)
+            ok("F1: structure-column mismatch does not alter state agreement",
+               check_state_agreement(_idea_gathered) == [])
+            _idea_overrides[INDEX_MD] = _idea_index_normal
+            _idea_overrides[TRADE_BOOK] = _idea_tb_normal.replace("690/670P", "690/665P")
+            _idea_gathered, _, _ = gather_live()
+            ok("F1: last TRADE_BOOK mismatch fires against normal INDEX structure",
+               len(check_structure_agreement(_idea_gathered)) == 1)
+            _idea_overrides[TRADE_BOOK] = _idea_tb_normal
+            _idea_overrides[INDEX_MD] = _idea_index_normal.replace("Nov-20", "Nov-27")
+            _idea_gathered, _, _ = gather_live()
+            ok("F1: normal INDEX expiry-column mismatch fires end to end",
+               len(check_structure_agreement(_idea_gathered)) == 1)
+        finally:
+            globals()["read"], globals()["CARD_DIR"] = _idea_saved_read, _idea_saved_dir
+    ok("F1: absent structure cell is not invented",
+       index_md_states(f"| **{_idea}** | FIRED / LIVE |", include_idea_structure=True)
+       == {_idea: "FIRED / LIVE"})
+    ok("F1: TRY/MGMT state extraction remains unchanged in live mode",
+       index_md_states("| **TRY-FIRE-004** | CLOSED | FLOW | TLT Sep-30 77/75P |\n"
+                       "| **MGMT-GLD-SHARES-OCT24** | CONDITIONAL | MGMT | GLD shares |",
+                       include_idea_structure=True)
+       == {"TRY-FIRE-004": "CLOSED", "MGMT-GLD-SHARES-OCT24": "CONDITIONAL"})
     _idea_fields = [""] * 20
     _idea_fields[1], _idea_fields[4] = _idea, "QQQ Nov-20 690P/670P x2"
     _idea_fields[12], _idea_fields[18] = "OPEN", "real"

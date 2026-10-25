@@ -49,3 +49,18 @@ Codex read/send verified against PROME's exact thread; original delivery's
 transport UNKNOWN was dated and is superseded for this pair only. This is an
 explicit owner closeout receipt, not process termination or acceptance of the
 IDEA guard. Final addendum SHA follows in native notification after persistence.
+
+## IDEA F1 repair submitted for the single result re-read
+
+reads=1. PROME accepted PRD1–3/WQ-493 separately; no repeat research. Read 1 found
+G omitted normal INDEX structure cell 3. Live IDEA claims now carry that field
+through gather_live with state first; no fingerprint/state/count policy change.
+Seven added end-to-end tests, 118 author assertions pass; both preserved F1
+mutations fire on separate owner replay. Live A–H clean after writing the USO
+ledger's existing expiry as Jan-15-2027, matching its unchanged card.
+
+ACTION: PROME performs the single result re-read at the commit named in the native notification.
+Evidence/review history: LEDGER_GUARD_ACCEPTANCE.md reads=1, IDEA_GUARD_READ1.md,
+IDEA_F1_SELFTEST.txt and IDEA_F1_PROBE_RESULTS.jsonl in the existing boot folder.
+Independent acceptance remains pending; TERRY waits for that result before final
+closeout. DEWEY late correction read in flight, left visible while uncommitted.
