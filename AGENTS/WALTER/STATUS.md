@@ -3,7 +3,7 @@
 
 ## BOTTOM LINE
 
-**Sunday October 25.** Friday's issuance-freeze inference was overstated: a partial October compared with a full September and mixed delayed deals do not establish a high-yield bond-market freeze (SIG-W-20261025-002). The dated spread watch holds: first-published HY 340 bp [10/22],10 bp below strict >350 for3 closes;0 of 3. Saudi reports describe weekend missile interceptions (001); the originating coalition releases were not recovered and oil-infrastructure damage is not established. FALCON owns any grade. WQ-515's prospective selection rule was committed before selection; the sample opens Monday and Sunday's cards are excluded. The checked inputs show no new threshold fire; missing grades and source reads keep boot PARTIAL. X access requires reauthorization.
+**Sunday October 25.** Friday's issuance-freeze inference was overstated: a partial October compared with a full September and mixed delayed deals do not establish a high-yield bond-market freeze (SIG-W-20261025-002). The dated spread watch holds: first-published HY 340 bp [10/22],10 bp below strict >350 for3 closes;0 of 3. Saudi reports describe weekend missile interceptions (001); the originating coalition releases were not recovered and oil-infrastructure damage is not established. FALCON owns any grade. WQ-515's prospective selection rule was committed before selection; the sample opens Monday and Sunday's cards are excluded. The checked inputs show no new threshold fire; missing grades and source reads keep boot PARTIAL. X access reauthorized October 25 (authorization only; no scan).
 
 ## DATED MARKET OBSERVATIONS
 

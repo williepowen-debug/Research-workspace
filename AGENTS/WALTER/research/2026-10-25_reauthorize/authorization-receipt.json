@@ -1,0 +1,32 @@
+{
+  "observed_at": "2026-10-25T18:01:50.681163+00:00",
+  "state_before": {
+    "registry/x_bookmarks_seen.json": {
+      "exists": true,
+      "sha256": "7ec01d421542a4a0ac8514e6b782fcd801681d7d63a719973dbf56e4e9450802"
+    },
+    "registry/x_bookmarks_pending.json": {
+      "exists": true,
+      "sha256": "f017a01b3e03225c033b29a05ba27da635e88ee1f2ec932259103c923819e117"
+    }
+  },
+  "completed_at": "2026-10-25T18:04:10Z",
+  "command": "python3 AGENTS/WALTER/tools/x_bookmarks_scan.py --authorize",
+  "exit_code": 0,
+  "authenticated_users_me": "succeeded in authorization flow before credential rewrite",
+  "scope": "tweet.read users.read bookmark.read offline.access",
+  "bookmark_scan_performed": false,
+  "ids_marked": 0,
+  "state_after": {
+    "registry/x_bookmarks_seen.json": {
+      "exists": true,
+      "sha256": "7ec01d421542a4a0ac8514e6b782fcd801681d7d63a719973dbf56e4e9450802"
+    },
+    "registry/x_bookmarks_pending.json": {
+      "exists": true,
+      "sha256": "f017a01b3e03225c033b29a05ba27da635e88ee1f2ec932259103c923819e117"
+    }
+  },
+  "state_unchanged": true,
+  "credential_file_gitignored": true
+}

@@ -1,0 +1,19 @@
+⚠️  uncommitted files outside AGENTS/WALTER/:
+     [not yours]    AGENTS/MIDAS/KB_METALS.tsv
+     [not yours]    AGENTS/MIDAS/METALS_CATALOG.tsv
+     [not yours]    AGENTS/MIDAS/NEXUS_BRIEF.md
+     [not yours]    AGENTS/MIDAS/SCRATCH.md
+     [not yours]    AGENTS/MIDAS/STATUS.md
+     [not yours]    AGENTS/MIDAS/gold/KB.tsv
+     [not yours]    AGENTS/MIDAS/gold/README.md
+     [not yours]    AGENTS/MIDAS/outbox/2026-10-25_to-BOND_gold-treasury-comparison.md
+     [not yours]    AGENTS/MIDAS/outbox/2026-10-25_to-BRENT_gold-oil-comparison.md
+     [not yours]    AGENTS/MIDAS/outbox/2026-10-25_to-PROME_gold-cross-assets.md
+     [not yours]    AGENTS/MIDAS/shared/README.md
+     [not yours]    AGENTS/MIDAS/shared/research/2026-10-25_gold-versus-equities-bonds-oil.md
+     [not yours]    AGENTS/MIDAS/shared/sources/2026-10-25_gold-cross-assets/
+     [not yours]    AGENTS/MIDAS/workbook/KB.tsv
+     [not yours]    AGENTS/MIDAS/workbook/VX.tsv
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.
