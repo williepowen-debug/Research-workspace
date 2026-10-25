@@ -85,3 +85,9 @@
 
 ---
 
+
+## L-54 — Early signals and confirmation answer different operator questions (October 25, 2026)
+
+Will clarified, “Just trying to find hints and signals,” after MIDAS repeatedly led with a durable bottom not being confirmed. The current gold record contained both useful supportive hints (July low intact, GLD quantities above July, earlier partial global additions and easing financial conditions) and adverse observations (fresh short-term lows, a failed higher low and recent exposure reduction). Treating absence of certainty as the headline obscured that balance.
+
+Report the strongest early hints, the contrary evidence, the current judgment and the next change that would improve or weaken it. Distinguish an observation from an interpretation and from later corroboration. A qualitative clue is not an adopted threshold, a calibrated probability or authority for a trade. Retain small-sample/source-lag limits, and do not invent a recurring monitor merely because the operator wants an early warning. The same discipline applies to LIQUIDATION: the instrument label does not prove a forced-sale mechanism. Source: Will's October 25 clarification; `gold/research/2026-10-25_session-synthesis.md`; KB 211.

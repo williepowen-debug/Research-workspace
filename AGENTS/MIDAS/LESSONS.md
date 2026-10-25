@@ -65,3 +65,5 @@
 | **L-51** | 2026-09-11 | **A regression coefficient is a dated carry item and nothing on this desk expires one.** M1's premise was written on a 2025 gold–rate beta of **−0.0086 (t −0.45, statistically ZERO)**; it is now **−0.1860 (t −4.68)** and no surface re-measured it. Re-measure the parameter, not just the claim. |
 | **L-52** | 2026-09-25 | **A ratio band is blind to a crash in BOTH its legs.** Silver fell 45% and M2 read "dormant": the GSR was its only band. Give every tracked metal its own level band, and don't let a pair stand in for its members. |
 | **L-53** | 2026-10-01 | **A stale hand-kept contract map does not go quiet, it certifies.** `PL=F` and the map both sat on the dying `PLV26`, so the guard printed OK at 100% share. A self-referential match is not a pass: roll the map on the volume cross. |
+
+| **L-54** | 2026-10-25 | Report early hints, adverse evidence and corroboration separately; lack of certainty must not hide useful signals or create a new gate. |

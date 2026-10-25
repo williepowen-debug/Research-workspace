@@ -68,3 +68,5 @@ Put inseparable multi-metal work in [shared](../shared/README.md), once, and lin
 - [Gold during war and conflict](research/2026-10-25_gold-during-war.md) — October 25 historical study; initial response versus later returns, with separate older monthly evidence and primary research.
 
 - [Current check for evidence of a gold bottom](research/2026-10-25_bottom-evidence-check.md) — refreshed prices, issuer holdings, positioning, rates/dollar response and equity protection; source lags and small samples retained.
+
+- [October 25 joined session findings and early signals](research/2026-10-25_session-synthesis.md) — entry point to history, cross-assets, official buying, conflict and the current bottom check; preserves the distinction between hints and confirmation.

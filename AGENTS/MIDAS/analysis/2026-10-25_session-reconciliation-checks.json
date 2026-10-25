@@ -1,0 +1,62 @@
+{
+  "task": "October25 Will-directed session file/workbook consolidation",
+  "checks": {
+    "workbook/KB.tsv": {
+      "rows": 211,
+      "schema_and_ids": "PASS"
+    },
+    "KB_METALS.tsv": {
+      "rows": 211,
+      "schema_and_ids": "PASS"
+    },
+    "METALS_CATALOG.tsv": {
+      "rows": 109,
+      "schema_and_ids": "PASS"
+    },
+    "workbook/VX.tsv": {
+      "rows": 5,
+      "schema_and_ids": "PASS"
+    },
+    "workbook/FLOW.tsv": {
+      "rows": 5,
+      "schema_and_ids": "PASS"
+    },
+    "gold/KB.tsv": {
+      "rows": 135,
+      "schema_and_ids": "PASS"
+    },
+    "copper/KB.tsv": {
+      "rows": 36,
+      "schema_and_ids": "PASS"
+    },
+    "historical_KB_and_tags": "Preserved all existing rows; appended KB211 synthesis and KB212 late copper owner packet once each",
+    "vectors_pathways": "Same IDs; all score/threshold/indicator/channel fields unchanged; actual4/1/1/2",
+    "workbook/PREDICTIONS.tsv": {
+      "byte_identical_to_preconsolidation_HEAD": true,
+      "sha256": "67775106a453b5e1503c2c8b3fb3f1948355954e529583858db68b2e21c463aa"
+    },
+    "gold/research/2026-10-23_WQ451-decomposition-letter.md": {
+      "byte_identical_to_preconsolidation_HEAD": true,
+      "sha256": "c41c635417f40e66b963ce33a903ab6b5225a93e59977e3a84c8f7df62e316ea"
+    },
+    "sources/cot_vintages_consumed.tsv": {
+      "byte_identical_to_preconsolidation_HEAD": true,
+      "sha256": "9922856668a86a15389dc36fc0c2be1a84173588bf768cb7dea8fb6cf6dca845"
+    },
+    "sources/cot_metals_vintages_consumed.tsv": {
+      "byte_identical_to_preconsolidation_HEAD": true,
+      "sha256": "9b18851ca6d0be658458012870db4d3a5282f90a3e89e5be97ec42a5a4809338"
+    },
+    "due_predictions": "No OPEN prediction due October25; frozen criteria preserved",
+    "continuity": "One forward list; L54 hook and body both present; no boot-file split/rotation",
+    "new_synthesis_links": "All local study/check links exist"
+  },
+  "readcap_bytes": {
+    "STATUS.md": 17078,
+    "SCRATCH.md": 9208,
+    "OPEN_ITEMS.md": 19162,
+    "NEXUS_BRIEF.md": 6885
+  },
+  "changed_price_sources": "None; consolidation uses existing dated captures",
+  "late_intake": "WALTER021 read/noted; owner-sourced KB212, independent MIDAS checks stay at next existing copper review"
+}

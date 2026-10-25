@@ -11,6 +11,8 @@ Find research and data by metal. These folders are topic indexes and the filing 
 | [Copper](copper/README.md) | Copper, CPER, Chinese demand, mine supply and inventories |
 | [Shared studies](shared/README.md) | Ratios, paired metals, shared macro evidence and multi-metal datasets |
 
+Latest joined gold review: [October 25 session synthesis](gold/research/2026-10-25_session-synthesis.md), with dated source studies and early signals.
+
 ## Knowledge bases
 
 Each metal has a focused KB: [gold](gold/KB.tsv), [silver](silver/KB.tsv), [platinum](platinum/KB.tsv), [palladium](palladium/KB.tsv), and [copper](copper/KB.tsv). [Shared KB](shared/KB.tsv) holds multi-metal comparisons and general desk records.
