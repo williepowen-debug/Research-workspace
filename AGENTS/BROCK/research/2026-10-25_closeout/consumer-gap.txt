@@ -1,0 +1,31 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/BROCK/   (processed/ + archive/ excluded everywhere — historical by design)
+
+  ── CCC-BB dated gap bp · superseded 1058 → current 1125
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (59)
+        AGENTS/WALTER/research/2026-10-14_morning-news/ms.txt:1102  [1058]  (no unit/series context on line)
+           1,058
+        AGENTS/VULCAN/CRWV/SOURCE_MAP.md:103  [1058]  (no unit/series context on line)
+           | [EDGAR_SEEN.tsv](<archive/extracts/EDGAR_SEEN.tsv>) | 1058 | [AGENTS/VULCAN/workbook/EDGAR_SEEN.tsv](<../workbook/EDGAR_SEEN.tsv>) |
+        AGENTS/SAM/workbook/MOF_FLOWS.tsv:1078  [1058]  (no unit/series context on line)
+           2025．8．17～8．23	-3061	-1672	-4733	-355	-5088	-0.167	-4962	-1058	-6020	-361	-6381
+        AGENTS/SAM/research/outputs/2026-09-09_followthrough/raw/cftc-legacy.txt:92  [1058]  (no unit/series context on line)
+           "SONAT - TIER 1 POOL (ZONE 0) - ICE FUTURES ENERGY DIV",260901,2026-09-01,0233C1,IFED,01,023 ,   86005,    4745,       0,     641,   70286, 
+        AGENTS/SAM/research/outputs/2026-09-09_followthrough/raw/cftc-legacy.txt:137  [1058]  (no unit/series context on line)
+           "CHEESE (CASH-SETTLED) - CHICAGO MERCANTILE EXCHANGE",260901,2026-09-01,063642,CME ,00,063 ,   32126,     586,   10310,    2026,   28456,   
+        AGENTS/HENRY/research/2026-10-22_L769/src/aal-q2-ex99.txt:1  [1058]  (no unit/series context on line)
+           EX-99.1 2 a8kerexhibit991q2-26.htm EX-99.1 Document Exhibit 99.1 Corporate Communications mediarelations@aa.com Investor Relations investor.
+        AGENTS/HENRY/research/2026-10-22_L769/src/aal-q3-ex99.txt:1  [1058]  (no unit/series context on line)
+           EX-99.1 2 a8kerexhibit991q3-26.htm EX-99.1 Document Exhibit 99.1 Corporate Communications mediarelations@aa.com Investor Relations investor.
+        AGENTS/WATT/sources/2026-10-20-news/steo-oct26.txt:14070  [1058]  (no unit/series context on line)
+           1,058
+        … +51 more 🟠 hit(s) on [1058] across 36 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+     🟡 in MAIL, point-in-time — usually no action (1: CARL)
+     🟢 cleared: marker-adjacent / next to new value / frozen file (2)  [--show-handled to audit]
+
+  🟠 59 CANDIDATE(s), zero certified-stale. A 🟠 is a prompt to LOOK, never a packet: confirm same series AND unit at the hit, then re-run with --unit/--series for the 🔴 verdict.
+==================================================================
+

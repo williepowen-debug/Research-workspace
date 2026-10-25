@@ -1,0 +1,22 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/BROCK/   (processed/ + archive/ excluded everywhere — historical by design)
+
+  ── CCC/BB dated observation · superseded 6.454 → current 6.57
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (5)
+        AGENTS/WALTER/research/2026-10-12_resume-2057/headers-1.md:146  [6.454]  (no unit/series context on line)
+           | Mon 10/5 → | HY >320 ×3 (RED-FT-02 / REG-T-03) — LIQUID/RED own the count; HY **315 [FRED 10/8]** (303 10/6 · 309 10/7), 1.6% under 320. *
+        AGENTS/WALTER/research/2026-10-19_resume/status-context-2.txt:19  [6.454]  (no unit/series context on line)
+           | Mon 10/5 → | HY >320 ×3 (RED-FT-02 / REG-T-03) — LIQUID/RED own the count; HY **315 [FRED 10/8]** (303 10/6 · 309 10/7), 1.6% under 320. *
+        AGENTS/WALTER/research/2026-10-21_boot/owner-heads-0.txt:142  [6.454]  (no unit/series context on line)
+           | Mon 10/5 → | HY >320 ×3 (RED-FT-02 / REG-T-03) — LIQUID/RED own the count; HY **315 [FRED 10/8]** (303 10/6 · 309 10/7), 1.6% under 320. *
+        AGENTS/SAM/research/outputs/2026-09-14_stale-sweep/raw/bis-latest.csv:198  [6.454]  (no unit/series context on line)
+           Q,TO1,2R,S,B,A,B,771,"Total bank claims on other advanced economies, Non-financial private sector",0,2,,A,2026-Q1,6.454,A,,F
+        AGENTS/NEXUS/research/2026-10-23_full_pass/DIGEST_R1.md:76  [6.454]  (no unit/series context on line)
+           4. **CROSS-DOMAIN / CALIBRATION** — REGINALD "11-for-11 negative on PC/NDFI reserve builds"; BRK-31 falsifier = a PC/NDFI reserve build at 1
+
+  🟠 5 CANDIDATE(s), zero certified-stale. A 🟠 is a prompt to LOOK, never a packet: confirm same series AND unit at the hit, then re-run with --unit/--series for the 🔴 verdict.
+==================================================================
+

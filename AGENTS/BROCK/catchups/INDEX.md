@@ -1,6 +1,6 @@
 # BROCK catch-ups — INDEX
 
-**CURRENT:** `catchups/2026-10-25.md` (owner boot; assigned/owed audit; WQ-516 baseline; NEXUS substantive fold; no score change).
+**CURRENT:** `catchups/2026-10-25.md` (completed research, workbook reconciliation and fresh-session handoff; full earlier narrative preserved in `archive/2026-10-25_catchup_before-closeout.md`; no score change).
 
 **Rule (since the 2026-10-02 split):** ONE FILE PER DAY — a later session the same day appends its own `## <time> session` section to that day's file. Each session's narrative — stamps, superseded BOTTOM LINEs, closed calendar rows, pre-grade records — goes to `catchups/YYYY-MM-DD.md`, never into STATUS. Mark the new file CURRENT here and move the previous line to *Superseded*. STATUS keeps only current state.
 

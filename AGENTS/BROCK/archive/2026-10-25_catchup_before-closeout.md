@@ -1,0 +1,151 @@
+# Historical October25 narrative before documentation closeout
+
+Frozen at 2026-10-25T16:54:36-04:00. Original text follows verbatim; current navigation is catchups/2026-10-25.md.
+
+# BROCK catch-up — 2026-10-25
+
+## 2026-10-25 12:16 ET — Will owner boot and assigned/owed task audit
+
+- Runtime: BROCK in OpenAI Codex, GPT-6 family exposed; exact model and session ID UNKNOWN. Cwd /home/willi/Research-workspace/AGENTS/BROCK; repository root /home/willi/Research-workspace. Explicitly read root CLAUDE.md, AGENTS.md, USER.md, desk CLAUDE.md, completion contract and runtime mechanics; SCRATCH, STATUS, CURRENT catch-up, LESSONS and scoped prediction states read. No delegation. Fleet transport not verified; no peer consumption claimed.
+- Git pull deferred under docs/GIT_WORKTREE_PROCEDURES.md: TERRY had 7 dirty tracked files plus an untracked boot directory at the initial status read. BROCK initially clean. Local checkout only; no claim that it includes unseen remote work.
+- Boot checks: 0 WALTER-lane files; 3 direct packets reviewed for this explicit assigned/owed catch-up (PROME WQ-516, NEXUS repair, DEWEY review). 12 OPEN/STUCK predictions, none past Resolve_Date. Corrections check 0 named unreceipted. Ledger staleness scan 13 ledgers, no stale findings; 3 out-of-perimeter TSVs reported.
+- FORUM-5 W2 checked against recovered primary wording and SHADE's 10/10 + 10/12 owner returns: no matched forced-recognition event newly established in this intake. Redemption-proration fires do not qualify; SHADE's provisional relative-price fire is a separate instrument. No retraction, no universal no-event claim.
+- Dashboard completed: HY 340 bp and CCC 1340 bp [FRED 10/22], 10Y 4.96% [10/22]. Vendor equities carry 10/23 date and tool stale flags; no live Sunday price claim. Historical duration grade remains dated, no automatic downgrade invented.
+- Confirmed issuer announcement bodies: [ARCC](https://arcc.ares.com/news/ares-capital-corporation-schedules-earnings-release-for-the-third-quarter-ended-september-30-2026/47c2ef5e-1218-459c-bc46-73fc46ce2cc9), 10/27 before open, noon ET call; [HTGC](https://investor.htgc.com/news-events/press-releases/detail/601/hercules-capital-announces-date-for-release-of-third), 10/29 after close, 17:00 ET call.
+- WQ-516 I2 seeded in STATUS from WQ-511 §1: all six names, labelled cost-basis non-accrual UNKNOWN cells where that report supplied only FV or counts. No imputation. Refresh at the prints; L829's consumer check remains PROME's. DEWEY's broader 13-name rerun is informational, not newly commissioned here.
+- Experiment A instruction recovered directly from the 10/24 ruled record and L826/L827: retain the WQ-511 report as pre-event source; add four short cells at each ordinary print update, then stop after the trial. Observations remain future.
+- L794/L795 successors already REGISTERED; repaired STATUS's stale registration-owed wording. L657 settled first-filing interpretation already RESOLVED 10/20; removed the stale spec-question label. No change to BRK-26 letter/confidence.
+- NEXUS repair will replace superseded claims, not just header/pin. Full schema A12 order and pin-after-STATUS-commit rule read. Await actual NEXUS consumption at L832/L554.
+
+## Priorities and open limits
+
+1. Six primary bank reads remain OVERDUE: WAL, OZK, EGBN, BKU, SSB, AMTB; only 5/11 read, no qualifying fire established. No fresh negative grade on unread banks.
+2. By ARCC 10/27 (L826): FSK $1.126B SOI discrepancy; BXSL cost non-accrual %, HTGC facility availability, GBDC per-position unfunded. Not researched in this boot audit.
+3. 10/28 L741 CRMT backstop; 10/29 HTGC falsifier; 10/30 L794 CRMT + L795 CABO; by 10/30 DAEDALUS asks/Radiant source gap; 10/31 R2 review and final-tender windows.
+4. Older debt survives in STATUS: FORUM-5 L186 normalization/base rate and conditional ratio (W1 denominator NOT FOUND); SHADE joint reconcile L185 11/5–18; fourth-dividend-cut trigger/RED; VX-023; CDLI NAV; ARCC additions comparison; BRK-32 STUCK resolution 11/30. Neither file cleanup nor a newer date discharges them.
+5. No new Will decision, no trade. Convergence 58/70 held. This session reconciles assigned work and closes owner documentation tasks; it does not complete every older research debt.
+
+## Rotated verbatim from STATUS
+
+### Previous STATUS stamp
+
+**Updated:** 2026-10-23 Fri 17:03 ET — PROME WQ-511 commission (Will 16:43 ET "511 approved"): **BDC software-exposure table delivered** (`research/2026-10-23_bdc-software-exposure/REPORT.md`, KB-BRK-363/364/365) (pick/trap in BOTTOM LINE) · L0 drain 17/17 · **DAEDALUS WQ-508 lines B02/B11/B14/C13 verified applied (d3488e641), none contested.** Narrative → CURRENT catch-up.
+
+### Superseded obligation row
+
+| **Fri 10/30 after ~16:30 ET + Mon 11/02 AM** (STD is **Sun 11/01**) | **CRMT EIGHTH-bridge STD** — L740 GRADED 10/22 (KB-BRK-356/357): extension agreed 10/20, 8-K 0001171843-26-006742 accepted 10/21 16:05:16 ET, a day BEFORE the STD; rides with the 10/15 Second Amendment ($5.0M new money ranked SENIOR to the ~$305.6M, PIK fee, Bankruptcy-Code-scoped lender release, borrowing-base prepayment waived). Item 8.01 strategic-alternatives paragraph ABSENT (absence, not retraction). ⚠️ CRMT $0.76 [fetch.py 10/22 11:28 ET intraday], <$1 since ~10/20 → Nasdaq min-bid Item 3.01 watch | Full feed from 10/22, every form type incl. Item 1.03; acceptance time from the INDEX page. Silence grades nothing. **Successor row for PROME to register** (CATALYSTS 2026-11-01) |
+
+### Superseded obligation row
+
+| **Fri 10/30** (weekly; L743 read EARLY 10/22) | **Cable One (CABO) MBI close — NOT CLOSED:** SDNY (Judge Oetken) TRO 10/9 on CoBank's suit, press-only; no hearing date found. EDGAR 10/22: **Graham 13D/A 10/19 = EXIT filing (<5%)**, sales $13.02 → $6.07 10/13–10/19 (KB-BRK-358); still no 8-K after 10/2 (no close/extension/financing/TRO). CABO $6.17 [fetch.py 10/22 11:28 ET intraday] | Full CABO feed + WALTER on the hearing; who writes the new money? PACER = ask-first |
+
+### Superseded obligation row
+
+| **Thu 11/05 BMO; call09:00** | **FSK Q3 cash/PIK + Kellermeyer marks / actual collateral contribution / funded lender shares** (issuer10/8, KB334) | `research/2026-10-14_wave/FSK_cash_collateral_lenders.md` |
+
+### Superseded obligation row
+
+| Will | ✅ **GATE-BRK-OTIC REGISTERED 10/15 (WQ-403)** (closed WQ-363 detail → catch-up 10/23) Leg R >45.0% / Leg S structural; graded from Q4-2026; Q3 FINAL ~10/23 recorded never graded; review 2027-04-30 · WQ-364: opacity bloc claim WITHDRAWN, my named NOT-FOUND leg stays (KB-BRK-347) · R2 population UNCHANGED · **W1 strict-vs-functional** (my leg NOT FOUND, KB-BRK-313) | PROME registered; not mine to rule |
+
+### Previous BRK-26 summary
+
+- **BRK-26 (first SEC enforcement FILING, 12/31, 55% HELD):** mechanism hardened again (Delaware Life distribution pause; SEC v. Chu charges three named Tricolor execs — ⚠️ **Tricolor is ABS, not PC valuation/disclosure, and does NOT grade BRK-26**). **NO PC-valuation charges since registration (5/1). Unmet.** ⚠️ A 2/25/26 order predates it (KB-BRK-326) — spec question, PROME.
+
+### Previous HY exit-rule observation
+
+- ~~HY OAS <260bps for 10+ sessions~~ **— RETIRED AS A KILL 2026-09-02 (WQ-106, Will 9/1). Now an OBSERVABLE only.** ⇒ **THE kill on 260 is the registry 2-close `GATE-HY-REKILL`** (LIQUID's series, LIQUID's count) — **0-of-2; HY 315 [FRED 10/8], far from 260.** My 10-session count reads **0/10** and now authorises nothing. Charter edited (`CLAUDE.md` §EXIT RULES 1). **A label was corrected on Will's word; no threshold moved.**
+
+### Previous BOTTOM LINE
+
+**2026-10-23 — The BDC software loans are marked near par while the same kind of loans in the traded market average about 88 cents.** At 6/30, software debt was marked 95.8 (ARCC), 90.4 (BXSL), 87.0 (FSK), 97.5 (GBDC), 98.7 (HTGC) and 98.2 (OBDC) of par. The same borrower gets the same mark across managers (within ±1.4 pts), so the gap is private-vs-traded, not one lenient manager (KB-BRK-363/364). **Pick HTGC:** software is 66% of NAV, marked 98.7, and the stock sits 35% above NAV. **Trap FSK:** already marked below the traded average and trading at 0.57× NAV. ARCC prints first, Tue 10/27 before the open; HTGC Thu 10/29 after the close is the falsifier. Convergence 58/70 and APO HOLD unchanged; $0. *Earlier bottom lines → `catchups/`.*
+
+
+### Previous BRK-31 obligation row (verbatim)
+
+| **10/19 → 10/22** | **BRK-31**: 5 of 11 read — JPM/WFC/C (10/14) and **MTB/CFG (10/16, KB-BRK-350/351): no qualifying fire.** CFG total ACL release −$12M, but an **unattributed +$52M unfunded-commitment reserve** = INSUFFICIENT pending call/10-Q; MTB +$3M unattributed, criticized +$245M on an unnamed auto-leasing borrower (not R5). **OVERDUE at primary: WAL · OZK · EGBN · BKU · SSB · AMTB** (SSB: WALTER relay 011 only, not a read). GIBBS 12 names 10/21: no NDFI build; balances rising (BAC +5.7%/+8.3% QoQ); GS $368M wholesale impairment unattributed — context at the GS 10-Q. Frozen frame unchanged; Q3 cannot resolve FALSE | `research/2026-10-14_wave/bank_Q3_read.md` · `research/2026-10-16_BRK-31_MTB_CFG_read.md` (CFG deck: capital call $10.5B + PC finance $4.5B = $15.0B, no growth inference); REGINALD CFG baseline reconciliation pending. **GIBBS (WQ-426): JPM/WFC/C NDFI = MY frozen frame, ONE figure; other 13 = GIBBS's, sent to me first; primary decides** |
+
+## Validation and persistence notes
+
+- Selfcheck CLEAN (only fire/resolution propagation, matrix and KB/VX field counts); read-cap PASS, STATUS 22,616 B <22,785 B local target. Scoped predictions: no due resolutions.
+- Weekday claim checker flagged a historical August window by associating Tue 8/11 with the nearby 2022–2025 comparison: actual row is 2026-08-12; 2026-08-11 is Tuesday. No correction made to the correct original text.
+- Ledger nudge notes PUBLISHED/VX/redemption/PREDICTIONS/FLOW behind STATUS commits. No metric, score, fire, resolution or mechanism changed by this boot; no cosmetic ledger date refresh. CATALYSTS carries only the two already-authorized trial instructions.
+- Git operations below are exact-path; shared staging was empty at precommit inspection. Pull remains deferred under dirty-owner stop. No consumer-check value replacement required: no owned metric was superseded.
+
+## 2026-10-25T12:23:52-04:00 — PROME handoff continuation
+
+PROME native message received from thread 01a17383-f032-7092-af13-12b4f414e79d asking for the existing brief/I2 repair, dated delivery and full closeout. Verified its c0418ba3c catch-up report against already-delivered owner commits a976d68d8 and 2119011ac: BROCK's outstanding-work row reflects its earlier snapshot; owner work is done. PROME owns its reconciliation, so no edit to that report.
+
+Runtime identity recovered from CODEX_THREAD_ID: **01a173ad-f2ce-7f91-ab8d-46e6f76330c0**. OpenAI Codex, GPT-6 family exposed; exact model UNKNOWN; no model change. Root/desk rules, completion contract and runtime mechanics re-anchored; direct and WALTER inboxes have 0 unprocessed files at this continuation. Existing instructions and approvals retained.
+
+WQ-516 I2 is present at STATUS, six names with 6/30 vintages, software FV/NAV and debt FV/par, cost-basis non-accruals, NAV/share. BXSL/FSK/OBDC cost percentages remain UNKNOWN in this extracted table, not zero or fair-value substitutes; FSK reconciliation and HTGC comparability limits survive. L826/L827 Experiment A continuation is present in STATUS, the two CATALYSTS rows, SCRATCH and brief; original expectation source remains WQ-511 REPORT, observations future, then stop.
+
+Brief substantive fold 2119011ac covered the nine-row NEXUS request (including current CCC/BB direction, eight-bridge CRMT terms, CABO holder exit, 5/11 bank sample, six-name study, BCRED NAV and rebuilt dated calendar). No score changed. The requested closeout is answered after exact-path commits/push and a new dated PROME inbox memo; receiver reading/acknowledgment remains PROME/NEXUS's own evidence. Older bank/source debts remain in STATUS. Shared foreign dirty work remains untouched; no pull, rebase or stash.
+
+## 2026-10-25T13:41:32-04:00 — six-bank and pre-ARCC bounded research continuation
+
+Report: `research/2026-10-25_bank-and-bdc/REPORT.md`; KB-BRK-366–375. Six primary bank release/deck reads DONE, cohort11/11 provisional; no F1/F2 established, attribution INSUFFICIENT. No primary calls heard; final filings remain. BXSL COST cell3.6%, HTGC facility split filled; GBDC complete per-name mapping remains UNKNOWN after exact attempted source. FSK gap reconciled; funded-only85.4/25.6 replaces gross87.0/21.9, six-name shared-borrower claim WITHDRAWN, original expectations preserved with correction banner. DEWEY10/25 classification correction read at canonical report; no instrument change.
+
+### Previous STATUS stamp (verbatim)
+
+**Updated:** 2026-10-25T12:23:52-04:00 — PROME handoff continuation: WQ-516 I2 encoded; NEXUS content fold completed (2119011ac), consumer read pending. No evidence, score or prediction grade changed. Narrative → CURRENT catch-up.
+
+### Previous bank obligation row (verbatim)
+
+| **OVERDUE: 10/19–10/22** | **BRK-31: 5/11 read**, JPM/WFC/C (10/14), MTB/CFG (10/16): no qualifying fire. CFG +$52M unfunded reserve / MTB +$3M unattributed = INSUFFICIENT (KB-BRK-350/351). **Six primary reads owed: WAL, OZK, EGBN, BKU, SSB, AMTB** (SSB relay only). Q3 cannot resolve FALSE. | Frozen frame: `research/2026-10-14_wave/bank_Q3_read.md`; MTB/CFG memo 10/16. REGINALD CFG reconciliation pending. **WQ-426: JPM/WFC/C NDFI = BROCK frozen frame, one figure; other 13 = GIBBS, primary decides.** GIBBS 10/21 found no attributed build; context, not these six reads. |
+
+### Previous BOTTOM LINE (verbatim)
+
+**2026-10-25 — The next test is whether software-loan stress reaches the BDC books:** ARCC 10/27 BMO, HTGC 10/29 AMC (issuer dates rechecked 10/25). The WQ-511 study is delivered; its Q2 marks are a baseline, not Q3 evidence. HTGC remains the research pick, with venture-debt comparability a material weakness; no BDC trade authorized by that pick. Six BRK-31 bank reads remain overdue. CRMT/CABO next reads 10/30; R2 FIRED ×2, review 10/31. Convergence **58/70**, no rescore or gate change.
+
+### Bounded continuation validation
+
+- Replayed footnote-aware FSK helper from independently re-downloaded SEC HTML/XBRL: gross87.0278%, funded-only85.3981%; funded par<80 share25.5522%. Section totals minus explicitly printed offsets tie SOI/BS at displayed precision. Unfunded rows have their own below-par marks; funded-only measure is labelled and excludes those commitment liabilities.
+- Source retrieval succeeded for six bank releases/decks and four BDC filings. Original issuer403/web-size-limit failures have successful SEC alternatives; no absence claims from errors. No calls heard; final filings remain source-limited residuals.
+- Consumer scans run separately for FSK mark and FSK sub80 par share; broad numeric candidates ignored. Confirmed FSK series at PROME DOCKET L827: request its owner correction, never edit. Original report and JSON retained as-made; correction banner and withdrawn KB364 prevent current reuse of six-name peer deltas. New peer packets carry full caveats.
+- Narrow selfcheck CLEAN. Historical August weekday flag is the same inspected false positive as the earlier boot, no find/replace. Ledger writeback now includes KB/PREDICTIONS/VX; scores and forecast letter/45%/resolve date unchanged.
+
+Consumer identity check: scoped re-runs with series FSK returned four apparent stale hits; inspected them at the actual numeric token. OTTO's87 is a citation marker, NEXUS/WALTER's21.9 is OCIC redemption demand, including its historical route baseline. These are not the corrected FSK software measures, so no packets to those owners on those false positives. PROME L827 is a manually verified actual FSK consumer; the corrective memo asks its owner to update it. TERRY/NEXUS receive the substantive correction as existing study consumers.
+
+### 2026-10-25T13:51:17-04:00 — late mandatory correction intake before final closeout
+
+SIG-W-20261025-002 arrived during final persistence: original MTD-vs-full-month HY issuance freeze/volume-leading-price inference withdrawn. Canonical BOARD correction read; inspected current owner surfaces and found no adoption of that inference. COR-20261025-02 NO-OP scoped receipt written; board log updated and handoff filed. No research/score/prediction change. PROME native return independently spot-checked the FSK source rows and corrected L826/L827; its bounded verification does not certify peer/PIK calculations. Final brief remains pinned to4e46f3e39; NEXUS consumes at existing next pass.
+
+## 2026-10-25T15:30:40-04:00 — three Will-approved follow-ups
+
+Direct authorization: “Okay can you perform these now?” Completed all three scopes in research/2026-10-25_three-followups/REPORT.md, KB376–384. Six investment extracts independently reconcile; HTGC subtotal duplication and 15 GBDC non-Identifier security contexts repaired. USD funded software FV/principal84.79–98.11%; different industry populations/fees still matter. Ten disclosed-term candidates, seven both-software, allARCC/OBDC; not legal identical-tranche proof. Old +/-1.4 remains withdrawn. Alias review weakens simplistic HTGC under-marking thesis; original three-part falsifier and Experiment A expectations unchanged.
+
+Primary CFG Q1/Q2 Table9 resolves12.852/14.727 discrepancy as DATE notscope: March31 versusJune30. Corrected KB195/350 and dated frozen-frame/prediction annotations; no operator/probability/resolver changed. JPM primaryQ3transcriptp18 attributes wholesale build tonewactivity, no PCcategoryattribution. CFG registrationlanding page supplies no obtainedpublictranscript; Q310-Q notyetfiled. Secondary transcript usedasleadonly, notgrade. Other bankcall/finalfiling coverage remains incomplete.
+
+HTGC25positive immediate softwarecommitments191.686M mainlynearpar; impairedsoftwareborrowers absentpositiveimmediate-tableentries, nozero-legalobligationclaim. June cash+conditionalborrowing477.876M versus408.242M potentialdraw; excludes175MLOC; laterJuly/Septemberrefinance andOct400Mnotespreclude currentcashinference. GBDC Pluralsight has two namedunfunded rows; -174kFV isnotprincipal. Aggregatecommitments580.832M notallocatablebyname. June JPMnominalunused1725.941M plusadviser266.8M conditional; no currentcrunchestablished. Nextannualresults11/17AMCissuer8-K.
+
+Predictions due scan: none newly due asof10/25; BRK31 OPEN45% Jan31, BRK32STUCKNov30; no forecastresolved, no gate/vectorchange. W2 remains no newmatchedforcedrecognition event; R2liquidity events do notsatisfyit. No broaderworkbookscoreupdatewaswarranted. Runtime sameOpenAI/Codex, exactmodelUNKNOWN, nohelpers. Sharedforeignchangesleftuntouched; pullwithheld. Root/localinstructionreadreceipt carriesfromboot.
+
+Superseded STATUS bottom line (verbatim):
+
+**2026-10-25 — Bank transmission remains unconfirmed after all 11 provisional release/deck reads:** no qualifying PC/NDFI reserve build or named lender migration established; attribution and final filings remain incomplete. FSK gap reconciled: funded-only software mark **85.4**, not gross87.0; six-name peer conclusion withdrawn pending rerun. BXSL/HTGC gaps filled, GBDC per-name mapping UNKNOWN. ARCC 10/27 and HTGC 10/29 remain next tests; convergence **58/70**, no score or gate change.
+
+Late WALTER intake: SIG-W-20261025-010 CalPERS holdings lead triaged/noted, no identified PC vehicle or net commitments and no pension study commissioned; original-source retrieval remains WALTER10/26. SIG-W-20261025-018 AI CDS volume info-only, not net protection or an extra spread observation. Both board dispositions logged; no score/new monitor.
+
+Closeout verification: six issuer FV total checks PASS; BROCK selfcheck CLEAN; read-cap PASS (STATUS22,775B, below22,785B target); brief-pin PASS to1cb7f4a4b. Scoped predictions due scan empty; ledger-staleness quiet. Consumer scan CFG live owners GIBBS/DEWEY/PROME receive packets plus source owner REGINALD. Remaining self-scan hit is the correctly dated March/June KB379 correction, manually verified, not a stale June claim. Historical weekday advisory on old modeled BCRED8/11 window left as-made. WALTER sources became tracked; both consumed packets moved with git mv. Shared foreign work not touched; no pull.
+
+## 2026-10-25T16:07:26-04:00 — WQ524 bounded candidate support
+
+Verified Willruling eeb0de907 and PROME packet. Prior three-followups completed/pushedbefore starting. Ruling grants oneadditionalcase, LIQUIDleads; BROCKatmost2already-heldcandidateswithnarrowprimaryclarification, existingwindow. No conflictingWilltask orunresolvedpermission. Currentroot/localinstruction context retained; nohelpers/spawns. SharedHAWK/LIQUID/PROME changespreventpull; unrelatedstaging preserved.
+
+HANDOFF recommends FirstBrandsreceivables→LAMTradeFinanceGroupLLC→LAMTFGISPVLLC→WesternAllianceBank,126.4M fundedremainingloanchargedoffQ1; alternativeGBDC/Pluralsight hasunfundedconnectionwithoutknownprincipal/drawresponse. Fourprimarydocrechecksverifyexactlegalchainandrecordedresponse. CounterpartyJEFassertionnotadjudication; parentaffiliationisnotguarantee. Q1chargeisnoncashrecognition, notnewcashpayment; Januaryrepaymentalreadyincludedinremainder. WALrealized45MgainsasofMarch6/50.5MQ1securitiesgainsisearningsabsorptionnotloanrecovery; plannedexpensesnotcompleted. No publicationleadaheadloss: exactpublicentitybridgeMarch9followsMarch6lossreport, Sep2025guaranteerequestdateisnotpublicationclock. KB385/386. ExistingWALownerfoldreadatcurrentfoldonly; noworkingownerfileedited.
+
+BRK31letter/probability/Jan31resolver andallforecast/gatesunchanged; historicalQ1chargeoffdoesnotfireQ3/Q4reservebuildtest. W2no newmatchedrecognitionevent. Scopedpredictionsdue scan remainsnone. No newmonitor/taskcalendarorcontinuedBROCKresearchafterhandoff. LIQUIDselects/finalizescase; BROCKsupportcloseswithdatedcommittedpacketsandexplicitpushreceipt.
+
+Superseded STATUS bottom line (verbatim):
+
+**2026-10-25 — Three approved follow-ups DONE:** six issuer totals reconcile; funded USD software marks 84.79–98.11%, but HTGC systematic under-marking not established. CFG $12.852B is March31, June30 $14.727B; +$52M attribution still UNKNOWN. JPM wholesale build growth-driven, no PC attribution. GBDC Pluralsight has named unfunded positions, amounts UNKNOWN; no current HTGC/GBDC funding crunch established. Report `research/2026-10-25_three-followups/REPORT.md`. ARCC10/27, HTGC10/29 remain tests; convergence **58/70**, no score/gate change.
+
+Will HTGC intent hypothesis: narrow footnotes8/26 re-read saved in HTGC_status-disclosure-question.md, KB387. Annex workout/non-accrual explicit; par-tranche recovery basis unverified. No intent finding or formal-state change.
+
+## 2026-10-25T16:30:24-04:00 — HTGC preliminary source discovery
+
+Will authorized preliminary searching. Four routes saved: Annex sale to Edited (June2025), Simon AI/Monetate (July2026), Suzy/HIG funding and CEO change (September2026), Hunterbrook February report with issuer responses/short conflict. No transaction recovery or intent proved. Latest October prospectus says both related suits dismissed without prejudice. Small Dec/March/June panel confirms markdowns; no new forecast or monitor. KB388–392; source receipts and rows retained. Same runtime, no helpers; foreign staged work untouched/no pull. R1 clean, predictions none due, W2 unchanged.
+
+Superseded STATUS bottom line (verbatim):
+
+**2026-10-25 — Three follow-ups DONE; WQ524 support DONE:** six SOIs tie; HTGC systematic under-marking not established. CFG12.852B is March31, June14.727B; +52M attribution UNKNOWN. GBDC named Pluralsight undrawn amounts UNKNOWN; no current funding crunch established. WQ524 recommends historical First Brands/SPV→WAL126.4M Q1 charge-off over Pluralsight; LIQUID owns selection/final case. No fresh Q3 fire or early-warning claim. Reports: `research/2026-10-25_three-followups/` and `research/2026-10-25_WQ524-handoff/`. Convergence **58/70**, unchanged.

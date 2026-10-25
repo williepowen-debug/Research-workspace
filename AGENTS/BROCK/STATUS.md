@@ -1,6 +1,6 @@
 # BROCK — STATUS
 
-**Updated:** 2026-10-25T16:30:24-04:00 — HTGC preliminary search DONE; four public leads, recovery rights unknown. No forecast/score change.
+**Updated:** 2026-10-25T16:54:36-04:00 — documentation closeout; workbook reconciled, WQ524 accepted. Resume: SCRATCH.md.
 
 ---
 
@@ -114,4 +114,4 @@
 
 ## BOTTOM LINE
 
-**2026-10-25 — Preliminary HTGC search DONE:** Annex/Edited sale June2025, Simon/Monetate acquisition July2026 and Suzy/HIG financing September2026 are public transaction leads; HTGC cash recovery/loan rights unknown. Hunterbrook's February critique includes issuer responses and disclosed short interest; related suits later dismissed without prejudice. Some borrower marks already fell. Report `research/2026-10-25_HTGC-preliminary-search/REPORT.md`. Earlier three follow-ups/WQ524 support DONE. Original Q3 falsifier and Experiment A unchanged; convergence **58/70**, no rescore.
+**October25 closeout:** Concentrated borrower stress is documented; systematic HTGC under-marking, concealment and a current bank funding crunch remain unproven. Six-SOI rerun and four HTGC source routes DONE; former peer +/-1.4 withdrawn. LIQUID WQ524 historical WAL case ACCEPTED/COMPLETE (PROME 2ed79e13b); no support debt. Index: `workbook/RESEARCH_INDEX.md`; resume: `SCRATCH.md`. Original Experiment A/falsifier intact; convergence **58/70**.

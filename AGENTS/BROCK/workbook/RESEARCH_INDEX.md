@@ -1,0 +1,19 @@
+# BROCK research index — October 25, 2026 closeout
+
+Navigation for the completed work, not an additional forecast or monitoring program. Facts and provenance live in KB.tsv; current judgment and obligations live in ../STATUS.md. Each report retains its measurement basis and unknowns.
+
+| Work | State and canonical evidence | Workbook home | Remaining question |
+|---|---|---|---|
+| Eleven-bank Q3 release/deck pass and FSK reconciliation | DONE within initial-read scope. [Report](../research/2026-10-25_bank-and-bdc/REPORT.md) | KB366–375; VX015 | Calls/final filings and CFG's $52M unfunded-reserve attribution remain. Initial packages do not establish a qualifying bank trigger or eleven flat categories. |
+| Six June30 BDC SOIs and funded USD software comparison | DONE. [Report, code and reproducible inputs](../research/2026-10-25_three-followups/REPORT.md) | KB376–378; KB363 corrected, KB364 superseded | Disclosed-term candidates are not certification of legally identical debt. Former six-manager ±1.4-point result remains withdrawn; the rerun is complete. |
+| Bank attribution/source-date follow-ups | DONE within obtained documents. [Same report, bank section](../research/2026-10-25_three-followups/REPORT.md) | KB379–380; VX015 | CFG $12.852B was March31, not June30; June was $14.727B. JPM's generic growth-driven wholesale build lacks private-credit attribution. |
+| HTGC/GBDC commitments and conditional liquidity | DONE within June30 disclosures. [Same report, commitments section](../research/2026-10-25_three-followups/REPORT.md) | KB381–384; FLOW026/021 | Negative undrawn fair value is not draw principal. Nominal/conditional facilities are not demonstrated usable cash; no October crunch established. |
+| WQ524 named transmission support | BROCK support DONE; LIQUID final case ACCEPTED AND COMPLETE. [BROCK receipt](../research/2026-10-25_WQ524-handoff/HANDOFF.md); [LIQUID final case](../../LIQUID/research/2026-10-25_WQ524-first-brands/REPORT.md); [PROME acceptance](../../../PROME/reports/2026-10-25_WQ524-transmission-assessment.md) | KB385–386; VX015; FLOW001/021 | Historical First Brands/SPV/WAL loss demonstrates a bank consequence, not an earlier public warning or current funding squeeze. Final recovery/recourse unknown; no further support owed. |
+| HTGC loan-status disclosure check | DONE. [Disclosure question](../research/2026-10-25_three-followups/HTGC_status-disclosure-question.md) | KB387 | Annex's overdue par-valued tranche is footnoted as nonaccrual/workout. Recovery basis and rights unknown; disclosure complexity does not establish intent to conceal. |
+| Preliminary HTGC source search and borrower history | DONE. [Report and source receipts](../research/2026-10-25_HTGC-preliminary-search/REPORT.md) | KB388–392 | Annex sale/workout terms; Simon/Monetate consideration and retained claims; Suzy financing amount/loan effects. Hunterbrook allegations are unverified and related litigation is not independent corroboration. |
+
+The original October23 report is preserved as made, with correction banners. Its original-convention FSK figures differ from the new USD-only screen; do not overwrite the original Experiment A expectations. Current ranking confidence is weaker than the original HTGC pick: the held evidence does not establish systematic under-marking.
+
+PUBLISHED.tsv now records the already-held October20 CCC/BB pair from KB360, with observation/retrieval/publication dates separated. This is documentation reconciliation, not a fresh October25 market print. The 58/70 convergence score and registered thresholds are unchanged.
+
+Read ../SCRATCH.md for the fresh-session entry point. Annex recovery rights and Simon transaction-to-HTGC proceeds are possible next investigations for Will to choose; no full study, recurring monitor, external outreach or trade is commissioned by this index.
