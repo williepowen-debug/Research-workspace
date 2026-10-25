@@ -1,0 +1,203 @@
+[
+  {
+    "key": "BKU_release",
+    "url": "https://www.sec.gov/Archives/edgar/data/1504008/000150400826000088/earningsdocex99120260930.htm",
+    "status": 200,
+    "bytes": 869562,
+    "sha256": "5a78672245309506ca6ca3e47503d74c1797dc039d71de43e7def075c2304389",
+    "file": "/tmp/brock-20261025-primary/BKU_release.html",
+    "retrieved_at": "2026-10-25T16:46:10.109591+00:00"
+  },
+  {
+    "key": "SSB_release",
+    "url": "https://www.sec.gov/Archives/edgar/data/764038/000119312526427824/ssb-ex99_1.htm",
+    "status": 200,
+    "bytes": 4532886,
+    "sha256": "5ea7e58baf585b670392610e7dea4fd7b3e02afe4719e50ad4b4099e28c2ab85",
+    "file": "/tmp/brock-20261025-primary/SSB_release.html",
+    "retrieved_at": "2026-10-25T16:46:10.110149+00:00"
+  },
+  {
+    "key": "AMTB_release",
+    "url": "https://www.sec.gov/Archives/edgar/data/1734342/000173434226000084/amerant3q2026earningsrelea.htm",
+    "status": 200,
+    "bytes": 1081492,
+    "sha256": "a7508f336ba5aff187daa04cb3bcc2ceb7efae16356240b86e8d157cda1cb9bd",
+    "file": "/tmp/brock-20261025-primary/AMTB_release.html",
+    "retrieved_at": "2026-10-25T16:46:10.111631+00:00"
+  },
+  {
+    "key": "EGBN_release",
+    "url": "https://ir.eaglebankcorp.com/news/news-details/2026/Eagle-Bancorp-Inc--Announces-Third-Quarter-2026-Results/default.aspx",
+    "status": 403,
+    "bytes": 5865,
+    "sha256": "64187e27a2c933d952f623cf0a0fe2be5a02297126367af590620d5ffe5b6dee",
+    "file": "/tmp/brock-20261025-primary/EGBN_release.html",
+    "retrieved_at": "2026-10-25T16:46:10.112326+00:00"
+  },
+  {
+    "key": "BKU_index",
+    "url": "https://www.sec.gov/Archives/edgar/data/1504008/000150400826000088/index.json",
+    "status": 200,
+    "bytes": 4462,
+    "sha256": "2585e8619c13aa16e2b6028a67113f3adcdfc8e69796eedc82691820edfae293",
+    "file": "/tmp/brock-20261025-primary/BKU_index.json",
+    "retrieved_at": "2026-10-25T16:46:10.112891+00:00"
+  },
+  {
+    "key": "SSB_index",
+    "url": "https://www.sec.gov/Archives/edgar/data/764038/000119312526427824/index.json",
+    "status": 200,
+    "bytes": 5182,
+    "sha256": "50e7d49431a6e8fb179a4126ac1a8d3e5b378d796cc63f3dd290530d66a4b0d0",
+    "file": "/tmp/brock-20261025-primary/SSB_index.json",
+    "retrieved_at": "2026-10-25T16:46:10.113445+00:00"
+  },
+  {
+    "key": "AMTB_index",
+    "url": "https://www.sec.gov/Archives/edgar/data/1734342/000173434226000084/index.json",
+    "status": 200,
+    "bytes": 6084,
+    "sha256": "5415268c2f7a1a449208b61b8f3031e67e3019cc4b8db0951bd356965fa45324",
+    "file": "/tmp/brock-20261025-primary/AMTB_index.json",
+    "retrieved_at": "2026-10-25T16:46:10.114047+00:00"
+  },
+  {
+    "key": "BKU_deck",
+    "url": "https://ir.bankunited.com/static-files/ee8fd67d-7744-436e-9f1b-19c3eca7596b",
+    "status": 403,
+    "bytes": 444,
+    "sha256": "756ff3ea20b607851def1c27475473dad1891de5b6be6b603e5a589a566a3e98",
+    "file": "/tmp/brock-20261025-primary/BKU_deck.html",
+    "retrieved_at": "2026-10-25T16:46:10.114628+00:00"
+  },
+  {
+    "key": "BKU_deck_sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1504008/000150400826000088/exhibit99209302026.htm",
+    "status": 200,
+    "bytes": 39078,
+    "sha256": "380fa4daf282a965b08b8c45267b947fb20c65a24fbfbfa359b737012669eeeb",
+    "file": "/tmp/brock-20261025-primary/BKU_deck_sec.html",
+    "retrieved_at": "2026-10-25T17:04:48.938854+00:00"
+  },
+  {
+    "key": "SSB_deck",
+    "url": "https://www.sec.gov/Archives/edgar/data/764038/000119312526427824/ssb-ex99_2.htm",
+    "status": 200,
+    "bytes": 28436,
+    "sha256": "af1608ac8991954676c45d6b3633dcecde0e983648dbd637bca49f9a8ab7752c",
+    "file": "/tmp/brock-20261025-primary/SSB_deck.html",
+    "retrieved_at": "2026-10-25T17:04:48.940121+00:00"
+  },
+  {
+    "key": "AMTB_deck",
+    "url": "https://www.sec.gov/Archives/edgar/data/1734342/000173434226000084/meidmasterearningsdeck09.htm",
+    "status": 200,
+    "bytes": 44533,
+    "sha256": "90e1c221dda807b34aeac539dbf06b7b70b90d9aaee2ff1bad4b3023af4218c4",
+    "file": "/tmp/brock-20261025-primary/AMTB_deck.html",
+    "retrieved_at": "2026-10-25T17:04:48.940861+00:00"
+  },
+  {
+    "key": "EGBN_release_sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1050441/000105044126000110/finalegbnerq3-2026xearni.htm",
+    "status": 200,
+    "bytes": 38631,
+    "sha256": "7ae298d1c328fe4ecba1718c8b1e436e72d834c3820254a87fe635bc9c3d8e16",
+    "file": "/tmp/brock-20261025-primary/EGBN_release_sec.html",
+    "retrieved_at": "2026-10-25T17:04:48.941534+00:00"
+  },
+  {
+    "key": "EGBN_deck_sec",
+    "url": "https://www.sec.gov/Archives/edgar/data/1050441/000105044126000110/final-3q2026egbnearnings.htm",
+    "status": 200,
+    "bytes": 55599,
+    "sha256": "4dd888042bf9cabebe12b289a159bb80a412d8e567d986c9fd0c95a1234438b3",
+    "file": "/tmp/brock-20261025-primary/EGBN_deck_sec.html",
+    "retrieved_at": "2026-10-25T17:04:48.942147+00:00"
+  },
+  {
+    "key": "FSK_Q2",
+    "url": "https://www.sec.gov/Archives/edgar/data/1422183/000162828026053783/fsk-20260630.htm",
+    "status": 200,
+    "bytes": 12100169,
+    "sha256": "bf9996ca83313469a5142a305ee431467e5c7fa9ae83385576b30496594b137d",
+    "file": "/tmp/brock-20261025-primary/FSK_Q2.html",
+    "retrieved_at": "2026-10-25T17:27:07.464749+00:00"
+  },
+  {
+    "key": "BXSL_Q2",
+    "url": "https://www.sec.gov/Archives/edgar/data/1736035/000173603526000016/bxsl-20260630.htm",
+    "status": 200,
+    "bytes": 13314941,
+    "sha256": "2d7f9cb86ca491a48623815302ec13efc31ed4b6e38c0a803cb5b9120a5bf3e0",
+    "file": "/tmp/brock-20261025-primary/BXSL_Q2.html",
+    "retrieved_at": "2026-10-25T17:27:07.466071+00:00"
+  },
+  {
+    "key": "HTGC_index",
+    "url": "https://www.sec.gov/Archives/edgar/data/1280784/000128078426000042/index.json",
+    "status": 200,
+    "bytes": 10167,
+    "sha256": "cf30bed94a5c9038449d24845bdd73f6142aee270ca1d4c51dceb2b021de718d",
+    "file": "/tmp/brock-20261025-primary/HTGC_index.json",
+    "retrieved_at": "2026-10-25T17:27:07.466921+00:00"
+  },
+  {
+    "key": "GBDC_index",
+    "url": "https://www.sec.gov/Archives/edgar/data/1476765/000147676526000048/index.json",
+    "status": 200,
+    "bytes": 9145,
+    "sha256": "a8e996cc15cbb8553a03d46a0cf58eab1041c1e7694a790d4c6ea84c2adfb551",
+    "file": "/tmp/brock-20261025-primary/GBDC_index.json",
+    "retrieved_at": "2026-10-25T17:27:07.467650+00:00"
+  },
+  {
+    "key": "HTGC_Q2",
+    "url": "https://www.sec.gov/Archives/edgar/data/1280784/000128078426000042/htgc-20260630.htm",
+    "status": 200,
+    "bytes": 7881751,
+    "sha256": "416074173958f293dbe6d43ead7bfb51649ee328e78d6ff4560c916c670294cb",
+    "file": "/tmp/brock-20261025-primary/HTGC_Q2.html",
+    "retrieved_at": "2026-10-25T17:30:59.601670+00:00"
+  },
+  {
+    "key": "GBDC_Q2",
+    "url": "https://www.sec.gov/Archives/edgar/data/1476765/000147676526000048/gbdc-20260630.htm",
+    "status": 200,
+    "bytes": 24599095,
+    "sha256": "717cd19914cac94ae5b5e999143b1ac3d0c79d0cbc681c772b649b18687fd885",
+    "file": "/tmp/brock-20261025-primary/GBDC_Q2.html",
+    "retrieved_at": "2026-10-25T17:30:59.603371+00:00"
+  },
+  {
+    "key": "FSK_xml",
+    "url": "https://www.sec.gov/Archives/edgar/data/1422183/000162828026053783/fsk-20260630_htm.xml",
+    "status": 200,
+    "bytes": 12352571,
+    "sha256": "5d308941ecb9cb0c14b0e3556c585edc0e5ffd5481fab7df2b063b4473560271",
+    "file": "/tmp/brock-20261025-primary/FSK_xml.html",
+    "retrieved_at": "2026-10-25T17:30:59.604724+00:00"
+  },
+  {
+    "file": "AGENTS/WAL/sources/2026-10-19_Q3/pressrelease-9302026.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/pressrelease-9302026.htm",
+    "bytes": 1269375,
+    "sha256": "636d0de96706656e7eab7b3b8dff62e5686559ec148d3713205afc62b4fccffc",
+    "source": "Existing owner primary bytes re-read 2026-10-25; not independent corroboration"
+  },
+  {
+    "file": "AGENTS/WAL/sources/2026-10-19_Q3/walq32026earningspresent.htm",
+    "url": "https://www.sec.gov/Archives/edgar/data/1212545/000162828026066286/walq32026earningspresent.htm",
+    "bytes": 43615,
+    "sha256": "a24727df7874db01af2ce510a3d0ed2cc93b8074d874da8c23a068a9a4ba1121",
+    "source": "Existing owner primary bytes re-read 2026-10-25; not independent corroboration"
+  },
+  {
+    "file": "AGENTS/OZK/raw/Q3_2026_8K_bundle.pdf",
+    "url": "FDIC FLNG 12022; issuer management comments https://ir.ozk.com/3Q26_Management_Comments",
+    "bytes": 2077994,
+    "sha256": "81ba170dad2095bde8fe9af5243fd8713a5ceec33f15d409b6039b94cffb1293",
+    "source": "Existing owner primary bytes re-read 2026-10-25; not independent corroboration"
+  }
+]

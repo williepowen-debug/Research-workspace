@@ -1,9 +1,9 @@
-# BROCK SCRATCH — 2026-10-25 owner boot
+# BROCK SCRATCH — 2026-10-25 bank/BDC continuation
 
-STATUS owns all obligations; catchups/2026-10-25.md records this audit. WQ-516 Q2 baseline encoded, preserving cost-basis gaps. NEXUS substantive fold DONE (2119011ac); handoff continuation re-pins after final STATUS commit. Actual consumer receipt remains unverified. No score or prediction changes.
+STATUS owns obligations; current catch-up and research/2026-10-25_bank-and-bdc/REPORT.md hold work. Six bank release/deck reads DONE, cohort11/11 provisional; no F1/F2 established, attribution insufficient. Primary calls/final filings remain, not negative grades.
 
-First moves: six overdue BRK-31 primary bank reads; prepare L826 ARCC 10/27 and its four extraction/reconciliation gaps. HTGC falsifier 10/29; original WQ-511 REPORT is the preserved pre-event source for Experiment A. Do not manufacture expectations afterward. CRMT 10/28 backstop, 10/30 + 11/02 STD reads; CABO 10/30; R2 review 10/31.
+FSK correction: gross87.0/21.9 -> funded-only85.4/25.6; gap reconciled (unfunded1111M +money-market15.4M). Six-name peer +/-1.4 conclusion WITHDRAWN; PIK/rest ratios not revalidated. Original WQ-511 report preserved with current correction banner. Do not run FSK old pipeline unchanged; use footnote(x)-aware audit helper and revalidate matching before reuse.
 
-Script reuse: metrics.py has a hard-coded SP directory; repoint before running on new downloads. Keep FV/par distinct from FV/cost and non-accrual cost distinct from FV.
+ARCC10/27, HTGC10/29: Experiment A EXPECTED from original WQ-511 report, then OBSERVED/MATERIAL DIFFERENCE/REVISED BELIEF, then stop. BXSL COST3.6% and HTGC facilities filled; GBDC per-name undrawn remains UNKNOWN. CRMT10/28 backstop,10/30+11/02; CABO10/30; R2 review10/31.
 
-Git pull deferred: TERRY dirty at initial boot read. Commit only exact own paths; preserve other staging. Check push outcome and report actual receipt. PROME native-thread coordination now available; send dated packet and explicit closeout receipt. Consumption remains separate.
+PROME delivery/closeout after final STATUS commit and substantive brief re-pin. Own thread01a173ad-f2ce-7f91-ab8d-46e6f76330c0; exact model UNKNOWN. Shared foreign dirty work untouched; no pull/rebase/stash.
