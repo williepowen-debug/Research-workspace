@@ -1,0 +1,235 @@
+{
+  "price": {
+    "date": "2026-10-23",
+    "close": 366.6099853515625,
+    "issuer_date": "2026-10-22",
+    "issuer_vendor_overlap_n": 500,
+    "issuer_vendor_max_error": 1.464843751364242e-05,
+    "july_low_date": "2026-07-16",
+    "july_low": 364.96,
+    "above_july_low_pct": 0.452100326491256,
+    "mean20": 379.09349926757807,
+    "vs_mean20_pct": -3.29299076352777,
+    "mean50": 394.50499970703123,
+    "vs_mean50_pct": -7.070889944660841,
+    "mean200": 414.20914992675785,
+    "vs_mean200_pct": -11.491577282542409,
+    "low20": 366.6099853515625,
+    "low20_date": "2026-10-23",
+    "return20_pct": -6.812235237649656,
+    "low60": 366.6099853515625,
+    "low60_date": "2026-10-23",
+    "return60_pct": -2.7972252223028793,
+    "recent_local_extrema": [
+      {
+        "date": "2026-09-18",
+        "close": 401.17,
+        "type": "peak",
+        "confirmed_after": "2026-09-22"
+      },
+      {
+        "date": "2026-09-25",
+        "close": 393.41,
+        "type": "peak",
+        "confirmed_after": "2026-09-29"
+      },
+      {
+        "date": "2026-09-28",
+        "close": 377.91,
+        "type": "trough",
+        "confirmed_after": "2026-09-30"
+      },
+      {
+        "date": "2026-10-06",
+        "close": 382.27,
+        "type": "peak",
+        "confirmed_after": "2026-10-08"
+      },
+      {
+        "date": "2026-10-07",
+        "close": 375.88,
+        "type": "trough",
+        "confirmed_after": "2026-10-09"
+      },
+      {
+        "date": "2026-10-09",
+        "close": 384.58,
+        "type": "peak",
+        "confirmed_after": "2026-10-13"
+      },
+      {
+        "date": "2026-10-14",
+        "close": 375.99,
+        "type": "trough",
+        "confirmed_after": "2026-10-16"
+      },
+      {
+        "date": "2026-10-15",
+        "close": 382.71,
+        "type": "peak",
+        "confirmed_after": "2026-10-19"
+      }
+    ]
+  },
+  "holdings": {
+    "date": "2026-10-22",
+    "tonnes": 1045.64,
+    "last_day_tonnes_change": -11.97999999999979,
+    "since_sep30_tonnes": -10.059999999999945,
+    "since_july16_tonnes": 43.760000000000105,
+    "change5_tonnes": -8.269999999999982,
+    "change5_start": "2026-10-15",
+    "change21_tonnes": -11.199999999999818,
+    "change21_start": "2026-09-23"
+  },
+  "financial_windows": [
+    {
+      "window": "Oct9_to_latest",
+      "start": "2026-10-09",
+      "end": "2026-10-22",
+      "GLD_pct": -4.051172707889117,
+      "real10y_start": 2.91,
+      "real10y_end": 2.64,
+      "real10y_change_bp": -27.0,
+      "DXY_pct": -0.5870252220873451
+    },
+    {
+      "window": "last5_matched",
+      "start": "2026-10-15",
+      "end": "2026-10-22",
+      "GLD_pct": -3.5823469467743174,
+      "real10y_start": 2.78,
+      "real10y_end": 2.64,
+      "real10y_change_bp": -13.999999999999968,
+      "DXY_pct": -0.3823523427925912
+    },
+    {
+      "window": "last21_matched",
+      "start": "2026-09-22",
+      "end": "2026-10-22",
+      "GLD_pct": -7.76614092533806,
+      "real10y_start": 2.63,
+      "real10y_end": 2.64,
+      "real10y_change_bp": 1.000000000000023,
+      "DXY_pct": 1.0039782818588083
+    }
+  ],
+  "conditional_financial_response": [
+    {
+      "window_sessions": 20,
+      "window_start": "2026-09-28",
+      "window_end": "2026-10-23",
+      "condition": "real_yield_falls",
+      "n": 9,
+      "gold_up": 5,
+      "mean_gold_pct": -0.08364453294528913,
+      "median_gold_pct": 0.344234079173833
+    },
+    {
+      "window_sessions": 20,
+      "window_start": "2026-09-28",
+      "window_end": "2026-10-23",
+      "condition": "yield_and_dollar_fall",
+      "n": 6,
+      "gold_up": 3,
+      "mean_gold_pct": -0.018831164986397402,
+      "median_gold_pct": 0.2668660035955839
+    },
+    {
+      "window_sessions": 60,
+      "window_start": "2026-07-31",
+      "window_end": "2026-10-23",
+      "condition": "real_yield_falls",
+      "n": 22,
+      "gold_up": 15,
+      "mean_gold_pct": 0.374623786915523,
+      "median_gold_pct": 0.4716357497689838
+    },
+    {
+      "window_sessions": 60,
+      "window_start": "2026-07-31",
+      "window_end": "2026-10-23",
+      "condition": "yield_and_dollar_fall",
+      "n": 14,
+      "gold_up": 10,
+      "mean_gold_pct": 0.6763258995955265,
+      "median_gold_pct": 0.6878770508018328
+    }
+  ],
+  "latest_primary_rate_date": "2026-10-22",
+  "cot": {
+    "report_date": "2026-10-20",
+    "market": "GOLD - COMMODITY EXCHANGE INC.",
+    "oi": 402279,
+    "nc_long": 237142,
+    "nc_short": 37277,
+    "nc_spread": 54199,
+    "com_long": 59531,
+    "com_short": 295113,
+    "tot_long": 350872,
+    "tot_short": 386589,
+    "nonrept_long": 51407,
+    "nonrept_short": 15690,
+    "net_nc": 199865,
+    "net_over_oi": 49.68318008148574,
+    "already_consumed": true,
+    "previous_nc_long": 245300,
+    "previous_nc_short": 37421,
+    "previous_oi": 396345,
+    "long_change": -8158,
+    "short_change": -144
+  },
+  "equity_response": [
+    {
+      "window_sessions": 20,
+      "start": "2026-09-28",
+      "end": "2026-10-23",
+      "condition": "SPY_down",
+      "n": 11,
+      "gold_up": 2,
+      "mean_gold_pct": -0.8911016115600845,
+      "median_gold_pct": -0.6318581309480487
+    },
+    {
+      "window_sessions": 20,
+      "start": "2026-09-28",
+      "end": "2026-10-23",
+      "condition": "SPY_down_at_least1pct",
+      "n": 3,
+      "gold_up": 0,
+      "mean_gold_pct": -1.432259645707201,
+      "median_gold_pct": -1.488196609636594
+    },
+    {
+      "window_sessions": 60,
+      "start": "2026-07-31",
+      "end": "2026-10-23",
+      "condition": "SPY_down",
+      "n": 33,
+      "gold_up": 12,
+      "mean_gold_pct": -0.5162441304272899,
+      "median_gold_pct": -0.3925075768867803
+    },
+    {
+      "window_sessions": 60,
+      "start": "2026-07-31",
+      "end": "2026-10-23",
+      "condition": "SPY_down_at_least1pct",
+      "n": 3,
+      "gold_up": 0,
+      "mean_gold_pct": -1.432259645707201,
+      "median_gold_pct": -1.488196609636594
+    }
+  ],
+  "limitations": [
+    "Descriptive unvalidated diagnostics, no calibrated bottom probability.",
+    "Latest issuer holdings and refreshed Fed rates end October22; no Friday flow/rate claim.",
+    "GLD is one fund; WGC global week ending October16 is lagged and partially reported.",
+    "Recent equity and rate subsets are small and overlapping; no causal attribution or option-book P&L.",
+    "Implied shares divide two rounded issuer quantities and are not a reported share-count or exact flow."
+  ],
+  "dependency": {
+    "path": "gold/sources/2026-10-25_historical-comparison/same_endpoint_rate_pairs.csv",
+    "sha256": "08abbc95faacaf78aab417805688e0496f4285b7e574eb2ddbb3603f91084b6d"
+  }
+}

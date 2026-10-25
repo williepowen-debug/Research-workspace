@@ -1,0 +1,22 @@
+{
+  "report_date": "2026-10-20",
+  "market": "GOLD - COMMODITY EXCHANGE INC.",
+  "oi": 402279,
+  "nc_long": 237142,
+  "nc_short": 37277,
+  "nc_spread": 54199,
+  "com_long": 59531,
+  "com_short": 295113,
+  "tot_long": 350872,
+  "tot_short": 386589,
+  "nonrept_long": 51407,
+  "nonrept_short": 15690,
+  "net_nc": 199865,
+  "net_over_oi": 49.68318008148574,
+  "already_consumed": true,
+  "previous_nc_long": 245300,
+  "previous_nc_short": 37421,
+  "previous_oi": 396345,
+  "long_change": -8158,
+  "short_change": -144
+}

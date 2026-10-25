@@ -1,5 +1,7 @@
 # MIDAS — STATUS
 
+**Gold bottom-evidence check, October 25, 2026 (Will-directed):** `gold/research/2026-10-25_bottom-evidence-check.md`. Refreshed GLD October 23 $366.61 is a 20/60-session closing low and below October 14 $375.99 local trough; July $364.96 still holds narrowly. October 9-22 real yields -27 bp and DXY -0.59%, yet GLD -4.05%. Latest GLD quantity -11.98 tonnes October 22; earlier WGC global week ended October 16 +13.9 tonnes is partially reported. CFTC October 20 long reduction reconfirmed, no duplicate vintage. Latest 20-session GLD up 2/11 stock-down days; small descriptive sample, no option-book hedge inference. Durable bottom unconfirmed; some daily easing responses positive. Friday issuer flow/primary rate missing. No score, forecast, trade, band or cadence change; actual 8/20.
+
 **Gold/conflict history October 25, 2026 (Will-directed):** `gold/research/2026-10-25_gold-during-war.md`. WGC selected 14 geopolitical-risk spike weeks: gold positive64%, small retrospective sample, not war odds. Fixed seven modern event windows: Ukraine2022 +2.72% at21/−8.44% at126 sessions; Hamas2023 +8.04/+28.27%; Iran2026 first-session+1.29%, then21−14.30%,126−15.47%. Initial fear bid and sustained war-period return differ. Older World Bank monthly averages kept separate. BIS author paper supports conditional haven response but sample ends March2026. No score, forecast, trade or cadence change; actual8/20.
 
 

@@ -1,0 +1,56 @@
+[
+  {
+    "file": "GLD_issuer_archive.xlsx",
+    "url": "https://api.spdrgoldshares.com/api/v1/historical-archive?exchange=NYSE&lang=en&product=gld",
+    "requested_utc": "2026-10-25T20:04:30.030316+00:00",
+    "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+  },
+  {
+    "file": "treasury_real.html",
+    "url": "https://home.treasury.gov/resource-center-data-chart-center/interest-rates/TextView?type=daily_treasury_real_yield_curve&field_tdr_date_value=2026",
+    "requested_utc": "2026-10-25T20:04:30.031305+00:00",
+    "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+  },
+  {
+    "file": "cftc_legacy.txt",
+    "url": "https://www.cftc.gov/dea/newcot/deafut.txt",
+    "requested_utc": "2026-10-25T20:04:30.031883+00:00",
+    "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+  },
+  {
+    "file": "cftc_gold.html",
+    "url": "https://www.cftc.gov/dea/futures/deacmxsf.htm",
+    "requested_utc": "2026-10-25T20:04:30.032895+00:00",
+    "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+  },
+  {
+    "file": "wgc_etf.html",
+    "url": "https://www.gold.org/goldhub/data/gold-etfs-holdings-and-flows",
+    "requested_utc": "2026-10-25T20:04:30.033765+00:00",
+    "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+  },
+  {
+    "file": "fed_h15.html",
+    "url": "https://www.federalreserve.gov/releases/h15/",
+    "requested_utc": "2026-10-25T20:04:30.170377+00:00",
+    "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+  },
+  {
+    "file": "GLD.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?range=2y&interval=1d&events=div%2Csplits",
+    "requested_utc": "2026-10-25T20:04:30.170650+00:00",
+    "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+  },
+  {
+    "file": "SPY.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=2y&interval=1d&events=div%2Csplits",
+    "requested_utc": "2026-10-25T20:04:30.170809+00:00",
+    "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+  },
+  {
+    "file": "DX-Y.NYB.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/DX-Y.NYB?range=2y&interval=1d&events=div%2Csplits",
+    "requested_utc": "2026-10-25T20:04:30.170999+00:00",
+    "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+  }
+]

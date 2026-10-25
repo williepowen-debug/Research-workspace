@@ -1,0 +1,80 @@
+[
+  {
+    "file": "GLD_issuer_archive.xlsx",
+    "url": "https://api.spdrgoldshares.com/api/v1/historical-archive?exchange=NYSE&lang=en&product=gld",
+    "requested_utc": "2026-10-25T20:07:13.716476+00:00",
+    "status": 200,
+    "final_url": "https://api.spdrgoldshares.com/api/v1/historical-archive?exchange=NYSE&lang=en&product=gld",
+    "bytes": 542343,
+    "sha256": "20f9c82b3281b5ef65412917e12fee50f5f788cb850463f045e920be3cd257e6"
+  },
+  {
+    "file": "treasury_real.html",
+    "url": "https://home.treasury.gov/resource-center-data-chart-center/interest-rates/TextView?type=daily_treasury_real_yield_curve&field_tdr_date_value=2026",
+    "requested_utc": "2026-10-25T20:07:13.717852+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "file": "cftc_legacy.txt",
+    "url": "https://www.cftc.gov/dea/newcot/deafut.txt",
+    "requested_utc": "2026-10-25T20:07:13.719278+00:00",
+    "status": 200,
+    "final_url": "https://www.cftc.gov/dea/newcot/deafut.txt",
+    "bytes": 429994,
+    "sha256": "79c5e9c15586421ea2cf84401337e787089944b20077343a0095e6eca39e20f0"
+  },
+  {
+    "file": "cftc_gold.html",
+    "url": "https://www.cftc.gov/dea/futures/deacmxsf.htm",
+    "requested_utc": "2026-10-25T20:07:13.720595+00:00",
+    "status": 200,
+    "final_url": "https://www.cftc.gov/dea/futures/deacmxsf.htm",
+    "bytes": 14978,
+    "sha256": "1918b7e04868b91699a96407858586f50b37d7f74ed5cc5e8e9c651dc5d3deac"
+  },
+  {
+    "file": "wgc_etf.html",
+    "url": "https://www.gold.org/goldhub/data/gold-etfs-holdings-and-flows",
+    "requested_utc": "2026-10-25T20:07:13.722594+00:00",
+    "status": 200,
+    "final_url": "https://www.gold.org/goldhub/data/gold-etfs-holdings-and-flows",
+    "bytes": 65816,
+    "sha256": "b651e671824dfb70e8c37d7cbbc422855399e1663be725b1bc2d2822d0d4fe20"
+  },
+  {
+    "file": "fed_h15.html",
+    "url": "https://www.federalreserve.gov/releases/h15/",
+    "requested_utc": "2026-10-25T20:07:14.009045+00:00",
+    "status": 200,
+    "final_url": "https://www.federalreserve.gov/releases/h15/",
+    "bytes": 105950,
+    "sha256": "3a3f9ae1be9c77030c93e872d83164e24290fa687b5c6932658a7b2844019726"
+  },
+  {
+    "file": "GLD.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?range=2y&interval=1d&events=div%2Csplits",
+    "requested_utc": "2026-10-25T20:07:14.034115+00:00",
+    "status": 200,
+    "final_url": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?range=2y&interval=1d&events=div%2Csplits",
+    "bytes": 55030,
+    "sha256": "4ebb3897f1ea900c1ecf7feb9aa1143b3ff5bfaaf5e17240a14e4794a02e3c15"
+  },
+  {
+    "file": "SPY.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=2y&interval=1d&events=div%2Csplits",
+    "requested_utc": "2026-10-25T20:07:14.035788+00:00",
+    "status": 200,
+    "final_url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=2y&interval=1d&events=div%2Csplits",
+    "bytes": 54903,
+    "sha256": "8ee0816e1d5cbc5c2328a74c67db30739d176fba01e4606c50c193bd07475e4e"
+  },
+  {
+    "file": "DX-Y.NYB.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/DX-Y.NYB?range=2y&interval=1d&events=div%2Csplits",
+    "requested_utc": "2026-10-25T20:07:14.054470+00:00",
+    "status": 200,
+    "final_url": "https://query1.finance.yahoo.com/v8/finance/chart/DX-Y.NYB?range=2y&interval=1d&events=div%2Csplits",
+    "bytes": 56526,
+    "sha256": "f4f049bc3168fdf108b5b7f009c9d3860b06cacaef812e86880382545190cc07"
+  }
+]

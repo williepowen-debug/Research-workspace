@@ -1,0 +1,18 @@
+{
+  "result": "PASS",
+  "checked": [
+    "Raw price near July low, broken October14 local low, latest20/60 minimum",
+    "Raw issuer daily/five-observation bullion changes",
+    "Raw issuer fixed Oct9-22 return",
+    "Independent raw-market adjacent-session equity/rate conditional counts and means"
+  ],
+  "global_weekly_source": {
+    "sources/2026-10-20_news/wgc_weekly.pdf": {
+      "sha256": "eb2402469f198c4ae7e883b592e9825ce9027ce9fae47328b0076382560503ae"
+    },
+    "sources/2026-10-20_GLD-review/wgc-weekly-flows-page13.png": {
+      "sha256": "17550243c241233a5aceec103a44af65d104510a0b86932a6ff6199697672715"
+    },
+    "visual_read": "Printed page13: week ended October16; net demand13.9t, flowsUSD1916.0mn; complete82/202 funds,74.8% of AUM; lagged partial snapshot."
+  }
+}
