@@ -1,9 +1,9 @@
 # WALTER STATUS
-**Updated:** 2026-10-25T20:43:35Z — uncertain bookmark claims investigated; 13 verification cards, BOARD 1713. Boot remains PARTIAL. Duties and publication: LAST_COMPLETION.md.
+**Updated:** 2026-10-25T21:28:56Z — Will-directed FULL session closeout; 31 cards today, BOARD 1713. Boot remains PARTIAL. Duties and publication: LAST_COMPLETION.md.
 
 ## BOTTOM LINE
 
-Fourteen verification bundles completed after processing the 39 bookmarks. GMO issuer scope is 26,739 potentially affected servers; live sessions may survive password changes. QQQ's 55 windows reproduce only with the final-down-day condition; no crash probability tested. CalPERS 26% is aggregate direct share count, not total exposure. Meta cash-flow figures reconcile through finance leases. NY Fed history contradicts the 45-year-first crossover framing. Copper acid exposure varies by producer; near-term refined surplus forecasts and long-term project gaps are different claims. Iran provenance improved, but no verified new strike/nuclear restart/mine casualty; the purported Zamir contradiction is withdrawn in026. JetBlue trades, French intraday spread, imports/MS methods and Japan speech remain partly inaccessible. No owner grade or trade changed. Research: research/2026-10-25_verify/RESULTS.md. Prior boot market/context/READS gaps persist.
+Session closed after39 bookmark reviews and14 verification bundles. The strongest findings are GMO's confirmed platform breach/conditional server scope, Python Brotli patch coverage, reproducible QQQ count under a precise event definition, CalPERS share-count basis, Meta lease reconciliation and the NY Fed historical counterexample. Iran contradiction framing is corrected in026; no verified new kinetic/nuclear/hull event follows. Copper producer differences and forecast horizons remain explicit. JetBlue trades, French intraday spread, imports/MS methodology and Japan speech retain source limits. No owner threshold grade or trade changed. Research: research/2026-10-25_verify/RESULTS.md. Boot remains PARTIAL for carried context/market/READS gaps; next-session duties live only in LAST_COMPLETION.md.
 
 ## DATED MARKET OBSERVATIONS
 
@@ -50,7 +50,7 @@ Signal/news routing and receiving-layer readiness. Domain agents own evidence, g
 
 ## NETWORK AWARENESS
 
-Registry header dates/focus refreshed before this summary at 2026-10-25T19:30:50Z. PROME 2026-10-25, BROCK 2026-10-25, BRENT 2026-10-23, LIQUID 2026-10-25, HAWK 2026-10-25, NEXUS 2026-10-23, WALTER 2026-10-25, VIOLET 2026-10-21, TERRY 2026-10-25, MIDAS 2026-10-25. Native app-server listing observed active WALTER/BROCK/PROME/HAWK/LIQUID; MIDAS/DEWEY and prior PROME/TERRY idle. Scope is app-server only; other owners UNKNOWN. Neither inbox backlog nor foreign dirty work proves neglect or darkness. Header refresh does not refresh market evidence.
+Registry header mirrors refreshed before this summary at 2026-10-25T21:28:56Z. PROME 2026-10-25, BROCK 2026-10-25, BRENT 2026-10-23, LIQUID 2026-10-25, HAWK 2026-10-25, NEXUS 2026-10-23, WALTER 2026-10-25, VIOLET 2026-10-21, TERRY 2026-10-25, MIDAS 2026-10-25. BROCK records025/029/031 noted/info-only; MIDAS021 noted/provisional. These receipts establish bounded consumption without a grade change. Header dates are documentation clocks, not fresh market observations. Whole-fleet liveness was not refreshed at closeout; unobserved owners remain UNKNOWN. No dark-owner wake or neglect inference.
 
 ## Active LIAISON channels
 

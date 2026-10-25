@@ -1,12 +1,14 @@
-# WALTER LAST_COMPLETION — October25 bookmark verification
+# WALTER LAST_COMPLETION — October25 final session closeout
 
-Updated 2026-10-25T20:43:35Z; Will-directed investigation of uncertain bookmark claims. Codex/OpenAI GPT-6, exact variant UNKNOWN, session01a173d6-e52a-7b51-ba71-45d586fca51e. LIGHT follow-up after19:30 FULL closeout. Earlier receipt preserved at research/2026-10-25_verify/prior-LAST_COMPLETION.md.
+Updated 2026-10-25T21:28:56Z; Will requested “Okay lets close out here”. FULL closeout after bookmark processing/verification. Codex/OpenAI GPT-6; exact variant UNKNOWN; session01a173d6-e52a-7b51-ba71-45d586fca51e. Prior receipt: research/2026-10-25_final/prior-LAST_COMPLETION.md.
 
 ## STATUS
 
-Boot PARTIAL: X reauthorization completed; READS attestation stale; full cross-owner/filter/catalyst context, fresh HANS daily inputs, FT-11 and official Brent settlement counts remain incomplete. No COMPLETE/clean-board claim. Checked credit, bank, SKEW, funding and Cushing observations establish no new fire. Full closeout checks and their REVIEW/UNKNOWN outcomes are saved, not converted to a pass.
+Boot PARTIAL: X reauthorization completed; READS attestation stale; full cross-owner/filter/catalyst context, fresh HANS daily inputs, FT-11 and official Brent settlement counts remain incomplete. No COMPLETE/clean-board claim. Checked credit, bank, SKEW, funding and Cushing observations establish no new fire. Full closeout checks and their REVIEW/UNKNOWN outcomes are saved: READS attestation UNKNOWN; doctor0HIGH/2MED (49 aged unconsumed rows and overdue lifecycle sweep). No clean-board claim.
 
 ## CHANGED
+
+Final closeout: fresh origin proof,43 new delivery rows reconciled (Sunday96/96), owner consumption receipts checked, REGISTRY/header-derived NETWORK/STATUS/MEMORY/session continuity refreshed. No new research or dispatch. Full checks saved under research/2026-10-25_final/closeout/.
 
 Verification batch BM-20261025-03 CLOSED14/14:12 DISPATCH bundles produce13 new cards019–031 and43 create-only handoffs;1 NO-ACTION,1 NOTE. BOARD1700→1713. COR-20261025-26 withdraws the purported Zamir contradiction; original additive banner/generated INDEX/R1 included together. RESULTS.md and four helper reports contain primary checks/calculations/access limits. No X scan or mark.
 
@@ -16,7 +18,7 @@ Two BOARD cards (1682 -> 1684): SIG-W-20261025-001 weekend Saudi reported interc
 
 ## RESULT
 
-**Current verification cohort:**13 cards/43 handoffs committed in975fb2201; fresh origin fetch currently proves pending. MIDAS records021 NOTED/provisional in its board_log; no broad owner semantic integration inferred. QQQ count conditionally replicated, CalPERS26% count basis verified, Meta lease reconciliation exact, current NYFedQ2 corroborated and first-ever crossover refuted, GMO containment/scope sharpened, Python fixes verified. No new threshold grade/trade.
+**Current verification cohort:**13 cards/43 handoffs committed in975fb2201; fresh origin fetch proves published, all43 delivered. Closing reconciliation brings Sunday total to96/96 delivered. BROCK025/029/031 noted/info-only and MIDAS021 noted/provisional verified at owner board logs; no broad integration or independent owner primary check inferred. QQQ count conditionally replicated, CalPERS26% count basis verified, Meta lease reconciliation exact, current NYFedQ2 corroborated and first-ever crossover refuted, GMO containment/scope sharpened, Python fixes verified. No new threshold grade/trade.
 
 Publication receipt:3e0333f30 is on fetched origin/master; all45 new handoffs delivered by path proof. No own push with foreign dirty work. BROCK reports010/018 noted; no broad downstream-integration claim. Evidence: research/2026-10-25_bookmarks/publication-receipt.json.
 
@@ -67,28 +69,32 @@ Preserved predecessor chain remains authoritative for the unchanged detailed tab
 
 ## CLOSEOUT RECEIPT
 
-LIGHT verification follow-up after19:30 FULL closeout. Ledger-nudge REVIEW is explained: kill ledger frozen, no KILL bundle; no new receipt/fire/commission/dark doorbell event. New43 handoffs are committed in975fb2201; current publication evidence below. Own push deferred for foreign dirty work. Research/source boundaries, correction linkage and carry review completed; mechanical checks do not certify owner integration or market clearance.
+FULL session-end closeout. Verification975fb2201 and receipt3c5cd0068 are published by shared push train;43 new delivery rows promoted after origin proof, Sunday96/96. Owner receipts are bounded, no trade/grade changes. Full checks and explicit manual review live under research/2026-10-25_final/closeout/. General lifecycle/READS/context gaps remain. Own pull/push deferred for foreign DEWEY work; closing receipt commit separate.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-25T20:46:13Z",
+  "as_of": "2026-10-25T21:30:08Z",
   "next_review": "2026-10-26",
   "publication": [
     {
-      "commit": "3e0333f30e535c220145807c5c08ae70d2311c30",
+      "commit": "975fb22013c96b8ddd2763fd1cc5b51c470c396d",
       "state": "published"
     },
     {
-      "commit": "975fb22013c96b8ddd2763fd1cc5b51c470c396d",
-      "state": "pending"
+      "commit": "3c5cd0068d4aa32887a493f5032b8fcb4875812a",
+      "state": "published"
+    },
+    {
+      "commit": "3e0333f30e535c220145807c5c08ae70d2311c30",
+      "state": "published"
     }
   ],
   "delivery": {
     "signal_date": "20261025",
     "total": 96,
-    "delivered": 53,
-    "note": "43 pending publication; prior Sunday53 proven; semantic consumption separate."
+    "delivered": 96,
+    "note": "Fresh fetch; origin path/history proof for all43 verification handoffs plus prior53. Transport is not semantic integration."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
@@ -116,27 +122,33 @@ LIGHT verification follow-up after19:30 FULL closeout. Ledger-nudge REVIEW is ex
       {
         "path": "AGENTS/WALTER/research/2026-10-25_verify/dispositions.json",
         "sha256": "30bccf8d05d72649d444055b8d023bff2759d3c17905d02752d6fb8879a271ba"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-25_final/publication-receipt.json",
+        "sha256": "96a60f38611940127de5e30a85ebdff73747fad418bd338ee60534ab15881374"
       }
     ]
   },
   "procedure": {
-    "tier": "light",
-    "boot": "PARTIAL; previously named market/context/READS gaps retained",
+    "tier": "full",
+    "boot": "PARTIAL; all carried source/context/market/READS limits retained",
     "owner": "WILL",
-    "ask": "Okay if you unsure about some of th claims in th bookmarks can you investigate them now?",
-    "closeout": "LIGHT manual duties reviewed; selected receipt/read-cap/archive/weekday checksPASS; ledger-nudge REVIEW explained by frozen kill ledger; doctor0HIGH/2MED retained."
+    "ask": "Okay lets close out here",
+    "closeout": "FULL manual duties reviewed; selected checks UNKNOWN because READS perimeter attestation is stale. Receipt/read-cap/archive/weekday/basis/versions/memory-line checksPASS; doctor0HIGH/2MED and ledger-nudgeREVIEW retained."
   },
   "manual_duties": {
-    "11": "13 cards +43 create-only handoffs/log rows; correction026+original banner+R1+generated INDEX1713;14 bundles closed.",
-    "Tier1": "STATUS affected evidence refreshed;1 light breadcrumb; full narrative deferred after19:30 full procedure.",
-    "15": "Prior carries evaluated against primary followup; exact resolved/remaining source gaps above; bounded helper reports fully read.",
-    "16": "Exact authored89-path commit 975fb22013c96b8ddd2763fd1cc5b51c470c396d; fresh origin2ed79e13ba5006c79cdc92bdf183e8791d6c89e7 proves pending. Own push deferred for foreign dirty work;43 new handoffs retain pending state until on-origin proof. Final receipt commit separate."
+    "11": "No new signals. BM-01/BM-02/BM-03 closed;31 Sunday cards;96 handoffs delivered. Correction026 original/index/R1 linkage retained.",
+    "12": "STATUS evidence/lead and header-derived NETWORK refreshed; FILTER BALANCED unchanged; full session breadcrumb. No new market claims.",
+    "13": "REGISTRY header date/focus refreshed BEFORE NETWORK; preserved grades/classifications. No created/prior/observation date substituted for current authored header.",
+    "14": "MEMORY session note replaced; prior note verbatim in SESSION_LOG;98 lines; no new auto-memory or enduring rule.",
+    "15": "Prior carries manually reviewed; unresolved source and boot duties retained, verified publication/consumption carries updated. Next reviewOctober26, WQ515 Monday window unchanged.",
+    "16": "975fb2201 and3c5cd0068 on fetched origin.43 delivery promotions; closing continuity/reconciliation exact-path commit. Own pull/push deferred for foreign DEWEY work."
   },
   "root_duties": {
     "retirement": "No source/file retirement. New raw downloads remain/tmp; no credential storage in research.",
     "consumer": "Correction literal search found original marked BOARD and correcting quotation/kill_strings; no other live owner artifact adopting literal. Five historical/current MAIL matches receive correction by same recipient union. No owner canonical edit.",
     "weekday": "Sunday October25; observation dates, Apr\u2013Jun fiscalQ4 and October26 checkpoint retained.",
-    "checks": "Light runner plus scoped doctor/R1. Doctor0HIGH/2MED: old owner backlog and overdue lifecycle sweep; no new HIGH. READS remains priorUNKNOWN."
+    "checks": "Full selected checks: receipt/read-cap/archive/weekday/basis/versions/local-memory-linesPASS; orphanADVISORY; ledger-nudgeREVIEW (REGISTRY refreshed in this commit, kill frozen); READS UNKNOWN (26 cap-bearing rows, attestation predates current protocol); doctorREVIEW0HIGH/2MED (49 aged unconsumed rows and overdue lifecycle sweep). Manual duties separately reviewed; no unavailable research cleared."
   }
 }
 END_CLOSEOUT_RECEIPT -->

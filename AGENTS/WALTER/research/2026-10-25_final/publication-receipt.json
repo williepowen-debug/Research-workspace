@@ -1,0 +1,21 @@
+{
+  "as_of": "2026-10-25T21:27:38Z",
+  "origin_ref": "cc30b68c41a90770c1e5ccc8e28162ec522b63d8",
+  "publication": [
+    {
+      "commit": "975fb22013c96b8ddd2763fd1cc5b51c470c396d",
+      "state": "published"
+    },
+    {
+      "commit": "3c5cd0068d4aa32887a493f5032b8fcb4875812a",
+      "state": "published"
+    },
+    {
+      "commit": "3e0333f30e535c220145807c5c08ae70d2311c30",
+      "state": "published"
+    }
+  ],
+  "delivery_total": 96,
+  "delivery_delivered": 96,
+  "own_push": "deferred for foreign DEWEY work; publication by shared push train"
+}
