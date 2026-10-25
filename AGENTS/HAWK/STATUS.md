@@ -1,6 +1,6 @@
 # HAWK STATUS
 
-**Updated:** October 25, 2026, 15:25 EDT. Codex / OpenAI GPT-6 identity exposed; serving variant UNKNOWN. Thread `01a173d6-38cc-7de3-9a0b-fd12caf682cc`. Root/local instructions explicitly read. No trade book. No mark, band, probability or registered prediction letter changed.
+**Updated:** October 25, 2026, 15:45 EDT. Codex / OpenAI GPT-6 identity exposed; serving variant UNKNOWN. Thread `01a173d6-38cc-7de3-9a0b-fd12caf682cc`. Root/local instructions explicitly read. No trade book. No mark, band, probability or registered prediction letter changed.
 
 **Repair outcome:** Will's key-file update request implemented: **9 of 19 findings repaired; 10 advanced with named residuals.** Full evidence/dispositions: `research/2026-10-25_repairs.md`; original audit and validation receipt in `audits/`. Pending tariff definition is already registered as **WQ-521**, exact L778 draft consumed by PROME, ruling pending. Other band alternatives and the November observation candidate remain drafts only.
 
@@ -18,7 +18,7 @@ All insurance quotes exceed ten days; Bab CANNOT-FIRE. FALCON's September 28 WC 
 |---|---|
 | Europe | Six-rung native review completed October 25; October 17 Romanian primary response integrated. Article4 June 18–October 25 negative and complete current legal/mandate negatives remain unverified. ORANGE historical carry; no current all-clear. Next residual review October 26; 45-day backstop November 2. |
 | Sulphur / acid | Historical ruled RED retained on delivered-Kolwezi basis. Ivanhoe October 8 Q3 ~$900/t and September ~$950/t are MINE-GATE net realizations; cannot verify that delivered threshold. Current matched delivered price UNMEASURED. KB461/462. |
-| METI | BRENT October1 primary read consumed: August Kuwait/Qatar Japanese receipts nonzero after July zero. Stockpiling/transit attribution UNKNOWN; not normalized Hormuz flows. KB464. |
+| METI | BRENT October 1 primary read consumed: August Kuwait/Qatar Japanese receipts nonzero after July zero. Stockpiling/transit attribution UNKNOWN; not normalized Hormuz flows. KB464. |
 | EU listings | Council confirms October 12 adoption; formal-adoption wait closed. Full legal annex remains missing; not a full sectoral-package audit. KB465. |
 | Canada | Section338 stacks on Section232 for LISTED goods. Passenger cars/light trucks/parts remain absent per MARCO attachment mapping; HAWK has not independently re-extracted it. Current VX Status now matches the caveat. |
 | US–China | MOFCOM January10 extension announcement is official; separate November 9–10 implementing clocks not all verified changed. TRADE01 ORANGE. |
@@ -41,7 +41,7 @@ All insurance quotes exceed ten days; Bab CANNOT-FIRE. FALCON's September 28 WC 
 
 Marks unchanged: VEN GREEN; TWN/TWNMIL/IRAQ/FININFRA YELLOW; TRADE01/TRADE02/CODIF/EURMIL ORANGE; SULPHUR RED; CEASEFIRE SUPERSEDED. Registered bands remain canonical in VX; draft definitions do not override them. Iraq/financial-infrastructure next backstops November12; sulphur November12, Europe November 2. Event watches still apply.
 
-46 catalyst rows now distinguish 20 PENDING, 2 OPEN and 3 PARTIAL from completed/lapsed/transferred history. Original missed dates retained. Genuine debt: current Europe political/legal evidence and equipment stocks; matched acid quote; Qatar notice; Canada Gazette/annex; Taiwan fuel/cargo/traffic; Venezuela posture/crude-only flow; matched Sidi/premium/flow; CPC durability; GL135 inference falsifier; Graham Act actions; full EU annex; FE1 actual canal transit; owner dictionary confirmations; HAW01/04/05 historical provenance/scoring disposition. Details and reasons remain in CATALYSTS and the repair receipt.
+49 catalyst rows now distinguish 20 PENDING, 2 OPEN, 3 PARTIAL and 3 DELIVERED research requests from completed/lapsed/transferred history. Original missed dates retained. Genuine debt: current Europe political/legal evidence and equipment stocks; matched acid quote; Qatar notice; Canada Gazette/annex; Taiwan fuel/cargo/traffic; Venezuela posture/crude-only flow; matched Sidi/premium/flow; CPC durability; GL135 inference falsifier; Graham Act actions; full EU annex; FE1 actual canal transit; owner dictionary confirmations; HAW01/04/05 historical provenance/scoring disposition. Details and reasons remain in CATALYSTS and the repair receipt.
 
 ## Controls and next work
 
@@ -51,10 +51,14 @@ Next: October 26 residual-source/owner-input review; after October 27 joint C3 d
 
 October 25 guard clarification: war_monitor source accounting remains unwired and unchanged; direct --save now refuses before source access, protecting frozen war/scenario histories.
 
-## Post-repair completeness check — October 25
+## Session closeout — October 25
 
-Follow-up audit: `audits/2026-10-25_post-repair-check.md`. Scoped checks pass; no unprocessed direct/WALTER mail and no undispositioned exact HAWK BOARD signal among 395 routed IDs. Forty literal local file pointers resolve. Script and registered-instrument bytes match the verified repair revision; no need to repeat unchanged guard tests. Five owner-input packets remain delivered with no response found. PROME consumed the exact repair package and recorded 9 repaired / 10 residuals in `5d73329cc`, report §HAWK; that receipt is now reflected in continuity.
+Will authorized three DEWEY research prompts: helium/fab constraints, Taiwan fuel buffers/cargoes, marine war-risk prices/coverage. All three are byte-verified in DEWEY's inbox, committed and pushed at `380da6bf1`; HAWK outbox copies retained. **DELIVERED, execution/results unverified; Will will launch DEWEY.** Three CATALYSTS rows now own their return tracking. Five earlier owner-input requests remain delivered with answers unverified. Research delivery does not close the original ten evidence/test residuals.
+
+Two verified source discoveries added to KB466/467 and SOURCES: DOE's October 23 helium designation and UK War Risks' October 1 area map. Neither measures actual fab shortages or current premiums. New WALTER SIG-W-20261025-011 read and dispositioned: weekend nuclear/mine/explosion assertions remain unverified; no hull, strike or lost-barrel addition. FALCON owns verification. Packet archived after sender commitment.
+
+Post-repair check remains at `audits/2026-10-25_post-repair-check.md`: 40 checked literal file pointers resolve, scoped checks passed, original 9 repaired / 10 residuals retained. Closeout intake reconciles 396 exact HAWK BOARD IDs after the new signal; no unread direct/WALTER item left at this cutoff. PROME consumption of the repair package is verified in `5d73329cc`. Theater-owner source bytes remain unchanged; aggregate fingerprints pass. No new comprehensive theater, oil-price or insurance-price sweep performed.
 
 ## BOTTOM LINE
 
-HAWK's operating files are more consistent, stale-source limits are explicit, and retired commands cannot write fresh-looking history through their guarded entrypoints. The main unfinished work is evidence and test coverage: the oil thesis still lacks full supply-versus-premium attribution, and the next physical-loss event window is unregistered. Prioritize the dated owner inputs and the October 31 forecast checkpoint; the most consequential watch remains independently confirmed crude-processing damage or a verified US strike decision. This check adds no market sweep or new risk grade.
+HAWK's operating files are more consistent, stale-source limits are explicit, and retired commands cannot write fresh-looking history through their guarded entrypoints. The main unfinished work is evidence and test coverage: the oil thesis still lacks full supply-versus-premium attribution, and the next physical-loss event window is unregistered. Prioritize the dated owner inputs and the October 31 forecast checkpoint; the most consequential watch remains independently confirmed crude-processing damage or a verified US strike decision. Three factual research prompts are delivered to DEWEY for Will to run; their results remain pending. No new risk grade.

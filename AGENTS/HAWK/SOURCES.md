@@ -130,3 +130,10 @@ Use the current Guard/Watch_Source fields in `workbook/VX.tsv`: event watches pl
 | Gulf/Black Sea war risk | FALCON/OSPREY WARRISK and named broker/insurer primaries | Owner evidence dated separately; all current quote legs remain stale; Bab CANNOT-FIRE |
 
 Press, broker, analyst, vendor and sovereign statements are separate source classes. Copies of one wire do not add independence. An index or listing is not an authenticated policy quote, legal annex or actual payment. No paid data inquiry is re-opened by this table.
+
+## October 25 discovery and delivery addendum
+
+- Helium policy primary: DOE October 23 designation, read October 25, https://www.energy.gov/articles/energy-department-designates-helium-critical-material-strengthen-american-manufacturing (KB-HAWK-466). It does not measure semiconductor inventory, allocation or output loss. DEWEY prompt 01 now delivered.
+- Marine insurance primary: UK War Risks October 1 map, https://www.ukwarrisks.com/news-resources/publications/ap-area-map-october-2026/ (KB-HAWK-467). Geographic cover evidence, not a current price. The Club's https://www.ukwarrisks.com/cover/ap-area-cover-explained/ explains voyage/period/insured-value dependence. DEWEY prompt 03 now delivered; no insurer contact or paid inquiry authorized.
+- Operator disclosure opportunity verified October 25: https://www.aramco.com/en/investors lists Q3 results November 3, 2026. Future disclosure opportunity only; no current physical-loss finding inferred.
+- Search limits from the advice pass: October MOEA newsletter open returned 403; the EUR-Lex 2026/2281 PDF endpoint returned a robot/JavaScript challenge. Search excerpts and unavailable pages do not close the relevant inventory/legal gaps. DEWEY prompt 02 targets current actual fuel measurements in original-language sources.

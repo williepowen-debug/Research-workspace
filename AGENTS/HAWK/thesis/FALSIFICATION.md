@@ -176,7 +176,7 @@ Full specs, non-fires, NO-VERDICT bands and confidence derivations: `thesis/PRED
 
 ## §EURMIL — `VX-HAWK-EURMIL-01` (registered 2026-09-18, opening mark 🟠 ORANGE)
 
-**Claim under test:** Europe's *military* rungs have stepped while its *political-legal* rungs have not, and the gap is the signal. Bands score the escalation ladder only; spending is excluded by named exclusion. Instruments: `domain/europe-rearm/LADDER.md` + `INCURSIONS.tsv`.
+**Claim under test:** the historical Europe framing is military-rung escalation preceding political/legal escalation. October 25 bounded review does not close current political/legal negatives; do not assert that those rungs remain unstepped as a verified current fact. Registered falsifiers below are unchanged. Bands score the escalation ladder only; spending is excluded. Instruments: `domain/europe-rearm/LADDER.md` + `INCURSIONS.tsv`.
 
 | # | What would make this WRONG | By when | Instrument |
 |---|---|---|---|
@@ -189,4 +189,4 @@ Full specs, non-fires, NO-VERDICT bands and confidence derivations: `thesis/PRED
 
 ⚠️ **The two that would most damage HAWK's own framing are E3 and E4, and both are named deliberately.** E4 in particular is the likeliest way the current read is wrong, and decomposing it is the registered next step. ⛔ **E1 and E2 are NOT satisfied by an announcement:** von der Leyen's 2026-09-16 EU counter-hybrid proposal carries no legal base, figure or date, and Germany's service law in force since 2026-01-01 is voluntary. An instrument, not a statement.
 
-**Boundary state:** the YURI/OSPREY/HAWK split was RULED9/19; reaction, including its null, belongs to HAWK. This does not turn spending into a military rung. Native EURMIL ledger refresh remains overdue; next review10/26.
+**Boundary state:** the YURI/OSPREY/HAWK split was RULED9/19; reaction, including its null, belongs to HAWK. This does not turn spending into a military rung. Native EURMIL six-rung review and October 17 response integration completed October 25; primary Article 4/current legal and mandate gaps remain. Next residual review October 26; 45-day backstop November 2.

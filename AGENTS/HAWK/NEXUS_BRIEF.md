@@ -2,7 +2,7 @@
 
 **Status:** ELEVATED. Willingness/route risk plausible; net crude loss and oil-price premium share UNMEASURED. No mark, band or probability moved.
 **Domain:** Cross-war synthesis and dormant geopolitical book.
-**As of:** October 25, 2026, 15:25 EDT; theater-owner evidence through October 23. Native Europe/issuer/legal documentary review October 25.
+**As of:** October 25, 2026, 15:45 EDT; theater-owner evidence through October 23. Native Europe/issuer/legal documentary review October 25.
 **STATUS commit:** `b7d521e79` (exact STATUS completeness-check revision; evidence repair remains 7644c394b).
 
 | Consumer | Material result | Limitation |
@@ -24,4 +24,4 @@ The latest verified written US line remains October 22's pre-midterm no-strike p
 
 October 25 guard clarification: war_monitor source accounting remains unwired and unchanged; direct --save now refuses before source access, protecting frozen war/scenario histories.
 
-October 25 completeness recheck: no undispositioned exact HAWK BOARD IDs or unprocessed inbox mail found; scoped checks pass. PROME consumption verified in 5d73329cc; five domain-owner replies still outstanding. Three continuity/charter loose ends corrected and EU task title aligned to its partial evidence state. No new market sweep, mark or forecast change. See `audits/2026-10-25_post-repair-check.md`.
+October 25 final closeout: all three Will-directed DEWEY prompts delivered/pushed at 380da6bf1 (helium/fab, Taiwan fuel/cargo, marine war-risk). Execution/results unverified; Will controls launch. Five earlier owner inputs also remain unanswered in the evidence read. New WALTER011 weekend claims logged without adding hulls, strikes or lost supply. DOE helium designation and October 1 UKWR area map logged as source leads, not physical factory shortages or premium quotes. 396 exact HAWK BOARD IDs dispositioned; intake clear at cutoff. Original 9 repaired/ 10 residuals retained. No grade or registered letter changed.

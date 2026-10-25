@@ -117,3 +117,5 @@ October 25 guard clarification: war_monitor source accounting remains unwired an
 `audits/2026-10-25_post-repair-check.md` is the user-requested follow-up completeness check and prioritized unfinished-work account. Existing dated-audit class; no new monitor or registered test.
 
 October 25 Will-directed research prompts: `outbox/2026-10-25_to-DEWEY_01-helium-fab-evidence.md`, `outbox/2026-10-25_to-DEWEY_02-taiwan-fuel-buffer.md` and `outbox/2026-10-25_to-DEWEY_03-marine-war-risk.md` retain the three prompts supplied in chat. Exact recipient copies use DEWEY inbox date-first from-HAWK filenames under root Git carve-out ①. These follow the existing dated-mail class; delivery does not start or complete the research.
+
+`outbox/2026-10-25_to-PROME_final-closeout.md` is the final Will-requested session completion receipt after DEWEY prompt delivery; existing dated-mail class. The three DEWEY return tasks live in CATALYSTS, not a new tracker.

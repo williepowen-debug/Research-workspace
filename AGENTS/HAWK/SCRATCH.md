@@ -1,42 +1,42 @@
-# HAWK SCRATCH — October 25, 2026 repair closeout
+# HAWK SCRATCH — October 25, 2026 final closeout
 
-Runtime Codex / OpenAI GPT-6 exposed, exact serving variant UNKNOWN. Thread `01a173d6-38cc-7de3-9a0b-fd12caf682cc`. Root/local instructions explicitly read. User requested implementation of the 19 key-file audit findings.
+**As of:** 15:45 EDT. Will requested session closeout after repairs, completeness review and DEWEY delivery. Runtime Codex / OpenAI GPT-6 exposed; serving variant UNKNOWN. Thread `01a173d6-38cc-7de3-9a0b-fd12caf682cc`. Root/local instructions explicitly loaded in this session.
 
 ## CURRENT MARKS
 
-No trade book. VEN G; TWN/TWNMIL/IRAQ/FININFRA Y; TRADE01/TRADE02/CODIF/EURMIL O; SULPHUR R; CEASEFIRE superseded. HAW20/22 OPEN. No mark, band, probability or letter moved.
+No trade book. VEN G; TWN/TWNMIL/IRAQ/FININFRA Y; TRADE01/TRADE02/CODIF/EURMIL O; SULPHUR R; CEASEFIRE superseded. HAW20/22 OPEN. No mark, band, probability, registered letter or score changed.
 
 ## CHANGES SINCE LAST SESSION
 
-Native Europe six-rung review done; current Article4/legal negatives remain incomplete. October 17 Romanian response added, one event/two drones, no NATO mandate or agency inference. Ivanhoe October 8 mine-gate Q3/September prices supersede old contract observations, do not verify delivered Kolwezi. August METI owner read finally consumed; nonzero Japanese receipts, stockpiling/transit UNKNOWN. EU October 12 adoption confirmed; full annex still missing.
+Repair outcome remains 9 repaired / 10 named residuals. Native Europe reviewed October 25, current Article4/legal/mandate negatives incomplete. Acid mine-gate/delivered basis corrected; matched delivered quote missing. August METI owner read consumed; stockpiling/transit attribution unknown. EU listings adopted; full annex missing. These are dated findings, no current all-clear.
 
 ## WHAT I DID THIS SESSION
 
-9 findings repaired, 10 advanced with named residuals: research/2026-10-25_repairs.md. New claim/test matrix and prospective band alternatives; successor examples completed but confidence denominator unavailable, no registration. Charter/reference split below rotation target; frozen direct-command guards; SOURCE/navigation/catalyst/Canada/link corrections. KB461–465 added. Exact-band and prediction byte preservation checked in validation receipt. Original audit retained as input snapshot.
+Saved and delivered three Will-directed prompts in DEWEY inbox, pushed at 380da6bf1, exact matching outbox copies. Research: 01 helium/fab, 02 Taiwan fuel/cargo, 03 marine war-risk. Will will launch; no execution/consumption/result claimed. Three CATALYSTS delivery rows added, KB466/467 capture verified source leads, SOURCES updated. FALSIFICATION's active Europe footer reconciled to the completed native review while keeping its source gaps and registered tests.
+
+New WALTER SIG-W-20261025-011 read, noted, and filed after sender commit 3e0333f30. Its nuclear/mine/explosion assertions do not establish new hull losses, a confirmed strike or lost barrels. FALCON owns verification; WALTER October 26 originals/transcript follow-up. No new theater KB event or count.
 
 ## NEXT SESSION
 
-1. October 26: fold existing owner answers; residual Article4/legal and named source gaps. Do not repeat six-rung prose as if unresolved search were new evidence. Insurance Gulf re-pull belongs to FALCON.
-2. AFTER October 27: joint C3 scope/cause qualifier with OSPREY under WQ470; current limb2 NOT SATISFIED, no repeated canvass needed.
-3. October 28: issuer realized-TCE availability on comparable basis; BRENT K1 five settles. Current Q3 result date not verified; reject wrong fiscal vintage.
-4. October 31: HAW20 four frozen legs/courts, product exclusions never fire. HAW22 event-window closes; November candidate remains unregistered/unpriced unless approved. YURI owner grade October 31/November 2 backfill.
-5. November 2 Europe 45-day backstop (native14-day rule separate); November 9–10 legal clocks; November STEO N6.
-6. December 15–21 final HAW22 operator search; cutoff December 21 23:59 UTC; resolution December 22.
+1. Consume DEWEY results when delivered; first check report/output/version and recipient receipts. Do not launch duplicate work. Five earlier owner inputs remain requested; integrate actual returned evidence before closing residuals.
+2. October 26: residual current-primary Article4/legal and other source gaps; fold FALCON insurance re-pull when available. Native14-day and November 2 45-day clocks remain separate.
+3. AFTER October 27: joint C3 scope/cause qualifier with OSPREY under WQ470. Current limb2 NOT SATISFIED, no repeated canvass needed for its completed grade.
+4. October 28: comparable tanker realized-TCE availability and BRENT five-settle input. Release date still unverified; reject wrong fiscal vintage.
+5. October 31: HAW20 four frozen instruments/courts (product exclusions never fire); HAW22 event close and prospective November coverage checkpoint. Candidate unpriced/unregistered. YURI October 31/November 2 backfill.
+6. November 9–10 legal clocks; November STEO N6. December 15–21 final HAW22 disclosure search; cutoff December 21 23:59 UTC; immutable resolution December 22.
 
 ## OPEN THREADS / WATCHES
 
-Confirmed Saudi crude-processing damage or verified US strike decision; unconfirmed Yanbu; CAPE DAO; stale premiums/Bab CANNOT-FIRE; full oil-test gaps. Taiwan current fuel/cargo/helium/fab endpoints UNMEASURED; current Europe legal negatives unclosed; matched acid quote missing. Detailed evidence debt with original dates in CATALYSTS/repair report. Dictionary confirmations overdue; HAW01 dropped premise and HAW04/05 as-made provenance unresolved, no scores rewritten. WQ362 LAPSED, do not reopen vendors.
+Confirmed crude-processing damage or verified US strike decision; unconfirmed Yanbu/CAPE DAO/other hull claims; stale premiums and Bab CANNOT-FIRE; incomplete oil-thesis tests and denial/rerouting attribution. Europe legal/stock evidence, matched acid price, Taiwan endpoints, Qatar/Canada/EU documentary gaps, Venezuela posture/crude-only flow, Sidi/premium/flow matching, CPC durability, GL135/Graham residuals, FE1 actual canal transit, dictionary confirmations and HAW01/04/05 provenance remain named in CATALYSTS/repair report. WQ362 LAPSED, no vendor reopening.
 
 ## PREDICTIONS / DECISIONS
 
-WQ521 exact tariff letter registered by PROME, pending ruling. HAW22 OPEN 65% UNCALIBRATED: undisclosed damage can produce a misleading CONFIRM — a CONFIRM on this letter is a claim about what was DISCLOSED, never about capacity. Terminal-only coverage; no full K2 claim. New band alternatives/proposed November observation protocol are drafts, no new decision presented as adopted.
+HAW20 OPEN 65%, October 31. HAW22 OPEN 65% UNCALIBRATED, terminal-only: undisclosed damage can produce a misleading CONFIRM — a CONFIRM on this letter is a claim about what was DISCLOSED, never about capacity. WQ521 exact tariff proposal registered, pending ruling. Other band/November observation drafts remain inactive. HAW18 scoring decision closed.
 
 ## MAIL STATE
 
-Earlier boot intake consumed; late SIG-W-20261025-001 committed by WALTER f35a4b297, consumed in KB460/board_log, now filed to processed. Five repair input/dictionary packets copied byte-for-byte to recipient inboxes; exact persistence recorded in dated PROME completion packet. Recipient consumption remains unverified. Historical unsent packets retain their dates; no mass resend.
+Direct inbox clear at cutoff; WALTER011 consumed/archived, 396 exact routed BOARD IDs dispositioned. DEWEY prompts 01/02/03 delivered at 380da6bf1, Will controls launch; results unverified. Five earlier owner input/dictionary requests delivered at 71b274847; no answers verified. Historical unsent outbox packets retain their dates; no mass resend.
 
 ## PENDING PUSH / GIT
 
-Repair evidence and STATUS were pinned to `7644c394b`; input packets `71b274847`; PROME delivery `868c7a89d`; receipt-only update `1d6acf90a` pushed with fresh-origin confirmation. PROME's consumption is now independently verified at `5d73329cc`, `PROME/reports/2026-10-25_sunday-owner-orchestration.md` repair addendum, and its processed delivery path. PROME consumption is complete; the five domain-owner replies remain unverified. No duplicate delivery or owner launch is needed.
-
-October 25 follow-up completeness check: repaired leftover legacy-tool description and restored STATUS's required closing summary; reconciled PROME receipt and the EU catalyst's current title. Full result in `audits/2026-10-25_post-repair-check.md`. No unprocessed inbox or undispositioned exact HAWK BOARD ID found; 40 literal file pointers resolve. Original 9 repaired / 10 residual classification unchanged. No source, band or forecast changed. Current STATUS revision is `b7d521e79`, pinned exactly by NEXUS. Foreign WALTER/PROME/BROCK changes defer pull; excluded from our commit. Follow-up commit/push receipt is reported in task output.
+Repairs 7644c394b, input deliveries 71b274847, PROME packet 868c7a89d, completeness revision b7d521e79/ pin ac6270394 and DEWEY delivery 380da6bf1 are committed/pushed. PROME consumed repair package at 5d73329cc. This final closeout updates owner state/workbook and supplies a dated PROME receipt; NEXUS pins its exact STATUS commit afterwards. Fresh-origin push receipt is reported in task output. Foreign BROCK/WALTER/other work excluded; no pull/stash/rebase. No owners launched; no trade executed.
