@@ -4,9 +4,9 @@
 Activity detail lives in commit messages, daytrading/JOURNAL.md, and `memory/auto/`.
 Keep this load-bearing: append a Durable Finding only when it survives the episode.
 
-## Current pickup — 2026-10-25T12:15:04-04:00
+## Current pickup — 2026-10-25T12:43:20-04:00
 
-Will-launched TERRY, OpenAI GPT-6 / Codex, exact variant UNKNOWN; session `01a173ac-c7b5-7c82-97bb-0210dd57427f`. Read `research/2026-10-25_boot/REPORT.md` first. Two inbox packets consumed: PRD1–3 current-surface corrections and WQ-493 prospective template/ledger encode. Oracle FAQ index points to December 14, direct FAQ/events reads inconclusive; verified-date condition retained, no impossibility inference. Regional-put 11.76% is one equal-decline original-cost-at-expiry scenario; rate-fit limits retained. GLD hedge value for the bearish-option book is unestablished; no action derived. IDEA guard coverage A/G/H repaired, author selftests/live sweep clean. No new card, forecast row, fill, order, approval, sizing or score. Existing HYG/ORCL approvals remain NOT-FIRED. Weekend paper marks are screening values with unknown option quote timestamps.
+Will-launched TERRY, OpenAI GPT-6 / Codex, exact variant UNKNOWN; session `01a173ac-c7b5-7c82-97bb-0210dd57427f`. Read `research/2026-10-25_boot/REPORT.md` first, including its explicit closeout addendum. PROME direct thread read/send became available at the last coordination touch; the original transport UNKNOWN was dated, not permanent.  Two inbox packets consumed: PRD1–3 current-surface corrections and WQ-493 prospective template/ledger encode. Oracle FAQ index points to December 14, direct FAQ/events reads inconclusive; verified-date condition retained, no impossibility inference. Regional-put 11.76% is one equal-decline original-cost-at-expiry scenario; rate-fit limits retained. GLD hedge value for the bearish-option book is unestablished; no action derived. IDEA guard coverage A/G/H repaired, author selftests/live sweep clean. No new card, forecast row, fill, order, approval, sizing or score. Existing HYG/ORCL approvals remain NOT-FIRED. Weekend paper marks are screening values with unknown option quote timestamps.
 
 ## October 24 prior pickup
 

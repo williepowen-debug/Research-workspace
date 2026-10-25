@@ -30,3 +30,22 @@ RESULT: Incorporated 2 packets, corrected 3 inference classes and repaired IDEA 
 GAPS: Oracle rendered date remains inaccessible; Claude artifact repair tool unavailable; PROME acceptance/consumption not established.
 WILL_NEEDS: None. No new decision requested.
 FOLLOW-UP: PROME verifies 3be3db220/L837 and PRD1–3; TERRY uses the saved continuation at its next touch.
+
+## Explicit full-closeout receipt — PROME's final coordination touch
+
+PROME's closeout ask received and answered by the same TERRY session. Owner
+write-back and applicable full closeout are complete; source/independent-review
+gaps remain explicit in REPORT.md's addendum and LEDGER_GUARD_ACCEPTANCE.md.
+Implementation 3be3db220 and original delivery 8aeede853 confirmed on fresh
+origin. Separate PROME IDEA counterexample review is now in flight; owner has
+received no result and made no reviewer contact. Oracle remains UNVERIFIED.
+
+Final 12:43 EDT checks: A–H clean, I inbox 0, R1 0 NAMED outstanding, weekday
+4 files clean, read-cap rc 0 within 7-file heuristic. Nudge board_log behind:
+0 new BOARD IDs, so no row manufactured. Event-driven SIGNALS/daytrading have
+no new input; clocks were not falsely refreshed. Foreign work untouched.
+Model OpenAI GPT-6, exact variant UNKNOWN, no switch/helper. Newly exposed
+Codex read/send verified against PROME's exact thread; original delivery's
+transport UNKNOWN was dated and is superseded for this pair only. This is an
+explicit owner closeout receipt, not process termination or acceptance of the
+IDEA guard. Final addendum SHA follows in native notification after persistence.

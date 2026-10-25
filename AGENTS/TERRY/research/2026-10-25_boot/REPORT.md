@@ -90,3 +90,55 @@ delivery alone does not establish consumption. TERRY is closing this session;
 routine future inputs belong to the next session, material arrivals remain visible.
 
 Final owner observation: 2026-10-25T12:17:57-04:00. Inbox 0 undrained; WILL raw drops 0 new. Ledger selftest: 111 assertions passed; live A–H clean, I = 0. Full author test receipt: LEDGER_SELFTEST.txt. The stamp guard misread ISO seconds as a clock; STATUS/PAPER_BOOK/SETUPS use the observed minute in the existing spaced format, with no guard change.
+
+## Explicit full-closeout addendum — 2026-10-25T12:43:20-04:00
+
+PROME thread `01a17383-f032-7092-af13-12b4f414e79d` explicitly asked this existing
+Will-launched owner to finish persistence and provide the closeout receipt. No
+new owner, helper or model switch. Model remains OpenAI GPT-6; exact variant
+UNKNOWN. Re-anchored root/desk instructions, STATUS, whole inbox (0), completion
+and two-tier contract, and PROME's c0418ba3c Saturday-rulings report. Its TERRY
+"still owed" rows are historical: implementation 3be3db220 and delivery 8aeede853
+supersede them, as PROME's new message acknowledges. No PRD/WQ-493 research repeated.
+
+**Closeout status:** owner write-back and applicable Standard/Heavy closeout
+performed, with source and independent-acceptance gaps explicitly retained.
+Initial packet contains the earlier cutoff/checks, not a whole-fleet certificate.
+Latest conditional checks are recorded with this addendum's persistence; no new
+card, fill, forecast, threshold, approval or score. Research/source retirement
+assessment for touched current files: not eligible (>60-day condition absent);
+prior legacy retirement/cold-structure history not retroactively certified.
+Consumer scan not triggered (no numeric figure supersession); ledger nudge is
+run at this final STATUS-only touch; no auto-memory/index edit. Selftests are the
+111-assertion implementation receipt, not relabelled independent review.
+
+IDEA review history and unreviewed perimeter are now explicit in
+LEDGER_GUARD_ACCEPTANCE.md. Independent acceptance of the October 14 repair is
+separate; IDEA today has author tests only. Oracle remains UNVERIFIED and its
+condition binding; page repair and Monday source work remain carried, no new
+reminder or commission. No change to original source findings.
+
+Transport recheck: newly exposed Codex read/send tools successfully read the
+exact PROME thread; coordination send returned that thread ID. This establishes
+this pair's notification transport, not recipient artifact acceptance. PROME's
+incoming message explicitly acknowledges reading the original delivery. Final
+notification will name the addendum commit. No process termination inferred from
+idle; this is the owner's explicit full-closeout receipt and end-of-work answer.
+
+Fresh fetch in this touch confirmed 3be3db220 and 8aeede853 are ancestors of
+origin/master (26df890a5d185411538aea6cfb74cae02889f8ce at observation). Earlier
+safe-push receipt: `Pushed. CONFIRMED: HEAD 8aeede853 is on origin/master (fresh fetch).`
+No pull/rebase/stash; foreign dirty/staged work untouched. The final addendum SHA
+and fresh push receipt are delivered through the verified PROME thread.
+
+Final checks at 12:43 EDT: A–H rc 0, inbox I = 0; R1 rc 0; weekday 4 files
+clean; read-cap rc 0 (7-file heuristic). Nudge: board_log 8 STATUS-writes behind;
+kept unchanged because BOARD scan has 0 new action-line IDs, and a fabricated
+consumption row would be worse than the warning. SIGNALS and daytrading LEDGER
+are EVENT-DRIVEN (last attempted check October 22); no new signal or raw broker
+intake in this closeout touch, so no artificial refresh. Orphan entries are
+foreign work only. No new paper mark needed in this receipt-only continuation;
+the earlier 4-row mark and timestamp qualification stand. Owned whitespace check
+is clean; the unscoped check sees foreign TSV trailing empty cells, left untouched.
+PROME's ORCH_LOG now records a separate `terry-guard-review` in flight. No review
+result or independent acceptance received at this cutoff; no reviewer contact.
