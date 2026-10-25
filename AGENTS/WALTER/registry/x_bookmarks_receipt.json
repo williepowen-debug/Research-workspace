@@ -1,78 +1,13 @@
 {
-  "kind": "marked",
-  "checked_at": "2026-10-23T20:47:05Z",
-  "items": 13,
+  "kind": "fetched",
+  "checked_at": "2026-10-25T18:18:17Z",
+  "items": 39,
   "scan": {
-    "checked_at": "2026-10-23T20:33:03Z",
-    "head_checked_at": "2026-10-23T20:33:03Z",
+    "checked_at": "2026-10-25T18:18:17Z",
+    "head_checked_at": "2026-10-25T18:18:17Z",
     "head_checked_this_run": true,
     "incomplete": false,
     "attempts": 2
   },
-  "review_recorded": true,
-  "read_counts": {
-    "partly_read": 4,
-    "fully_read": 9
-  },
-  "dispositions": {
-    "NO-ACTION": 3,
-    "DISPATCH": 4,
-    "FOLD": 5,
-    "DUP": 1
-  },
-  "follow_ups": [
-    {
-      "id": "2113726955937730604",
-      "ref": "AGENTS/WALTER/registry/BATCH_MANIFEST.tsv"
-    },
-    {
-      "id": "2113315979405258810",
-      "ref": "BOARD/SIG-W-20261023-041-cyber-oct23-evening-node2shell-node-js-brotli-rce-high-patched-oct21-not-in-kev-php2shell-google-not-validated-in-wild-but-viable-emarketer-coop-italia-claims-only-korea-16-firms-dewey-CYPHER.md"
-    },
-    {
-      "id": "2113538808126038500",
-      "ref": "BOARD/SIG-W-20261023-041-cyber-oct23-evening-node2shell-node-js-brotli-rce-high-patched-oct21-not-in-kev-php2shell-google-not-validated-in-wild-but-viable-emarketer-coop-italia-claims-only-korea-16-firms-dewey-CYPHER.md"
-    },
-    {
-      "id": "2113612977832103965",
-      "ref": "BOARD/SIG-W-20261023-041-cyber-oct23-evening-node2shell-node-js-brotli-rce-high-patched-oct21-not-in-kev-php2shell-google-not-validated-in-wild-but-viable-emarketer-coop-italia-claims-only-korea-16-firms-dewey-CYPHER.md"
-    },
-    {
-      "id": "2113677652531761661",
-      "ref": "AGENTS/WALTER/registry/BATCH_MANIFEST.tsv"
-    },
-    {
-      "id": "2113686799708991522",
-      "ref": "BOARD/SIG-W-20261023-041-cyber-oct23-evening-node2shell-node-js-brotli-rce-high-patched-oct21-not-in-kev-php2shell-google-not-validated-in-wild-but-viable-emarketer-coop-italia-claims-only-korea-16-firms-dewey-CYPHER.md"
-    },
-    {
-      "id": "2113720460105929094",
-      "ref": "BOARD/SIG-W-20261023-044-openai-says-agents-in-separate-vms-passed-secrets-via-cpu-cache-timing-in-a-sandbox-test-primary-unread-403-incident-sept20-dated-secondary-CYPHER.md"
-    },
-    {
-      "id": "2113722359383536003",
-      "ref": "BOARD/SIG-W-20261023-042-aaa-oct23-regular-4point29-down-4pct-on-month-diesel-6point32-down-3pct-while-brent-dec-up-3pct-on-day-nyt-medical-costs-headline-unread-pew-28pct-trouble-paying-CARL.md"
-    },
-    {
-      "id": "2113713819717714335",
-      "ref": "BOARD/SIG-W-20261023-042-aaa-oct23-regular-4point29-down-4pct-on-month-diesel-6point32-down-3pct-while-brent-dec-up-3pct-on-day-nyt-medical-costs-headline-unread-pew-28pct-trouble-paying-CARL.md"
-    },
-    {
-      "id": "2113497019625144473",
-      "ref": "BOARD/SIG-W-20261022-032-arista-velocloud-orchestrator-zero-day-cve-2026-114625-cvss-9point9-exploited-third-since-july-not-in-kev-no-named-victims-edge-layer-context.md"
-    },
-    {
-      "id": "2113617944458457305",
-      "ref": "AGENTS/WALTER/registry/BATCH_MANIFEST.tsv"
-    },
-    {
-      "id": "2113717650119663799",
-      "ref": "BOARD/SIG-W-20261023-043-buyback-authorizations-record-1point305t-goldman-via-kobeissi-UNVERIFIED-basis-likely-ytd-vs-full-year-q2-executed-plus-20pct-contradicted-goldman-aug-said-11pct-HENRY.md"
-    },
-    {
-      "id": "2113544171164414286",
-      "ref": "BOARD/SIG-W-20261023-041-cyber-oct23-evening-node2shell-node-js-brotli-rce-high-patched-oct21-not-in-kev-php2shell-google-not-validated-in-wild-but-viable-emarketer-coop-italia-claims-only-korea-16-firms-dewey-CYPHER.md"
-    }
-  ],
-  "requests": []
+  "review_recorded": false
 }

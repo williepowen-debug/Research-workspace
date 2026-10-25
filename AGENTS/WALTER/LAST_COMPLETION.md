@@ -12,6 +12,8 @@ Two BOARD cards (1682 -> 1684): SIG-W-20261025-001 weekend Saudi reported interc
 
 ## RESULT
 
+**Bookmark queue check October 25, 14:18 EDT:** fresh scan found 39 unprocessed bookmark IDs and staged them; review is not yet recorded, zero marks, consumed set unchanged at 1,203. Returned traversal complete through the recorded head check, not a remote snapshot guarantee. Evidence: outbox/2026-10-25_bookmark-queue-check.md and registry/x_bookmarks_pending.json.
+
 **Authorization follow-up 2026-10-25T18:04:10Z:** Will requested reauthorization in this conversation; OAuth completed successfully, authenticated user lookup succeeded, and credentials were refreshed in the gitignored machine-local .env. Bookmark seen/staged hashes are unchanged; no bookmark scan and no marks. Existing WQ-471 authentication gap is resolved on this machine; broader boot gaps remain. Evidence: research/2026-10-25_reauthorize/authorization-receipt.json.
 
 Fourteen intake content items dispositioned (5 DUP,6 FOLD,1 DISPATCH,1 KILL,1 NO-ACTION), 0 NEW after mark; drop zone 0; X 0 marks. HY 340 bp [10/22] is 10 bp/2.86% below REG-T-04, run 0 of 3; no spread or threshold changed. Owner inference correction weakens the volume-ahead-of-price story and retains the spread watch. DEWEY method 9c97f5012 received; historical two-of-five caveat-loss claim withdrawn in its corrected report. CARL-DR1 stays PARTIAL: SYF Q3 scale comparison delivered, COF/BFH pending, no causal masking grade. See the structured receipt for current publication proof; committed files are not recipient integration.
@@ -32,6 +34,8 @@ Fourteen intake content items dispositioned (5 DUP,6 FOLD,1 DISPATCH,1 KILL,1 NO
 - Optional previous source request: NYT medical-cost article text if Will wants that line finished. WQ-507 interpretation carry is DISCHARGED by PROME's committed ruling packet; ISM<47 move stands.
 
 ## FOLLOW-UP
+
+Bookmark queue: 39 staged IDs from the October 25 14:18 EDT head check await content review and disposition. No triage or routing was performed for this count request; preserve exact IDs and review binding.
 
 1. WQ-515 / L828: sample window October 26 00:00 EDT (04:00Z) to October 30 16:00 EDT (20:00Z), stop at ten qualifying ACTION dispatches or cutoff. No Sunday or Saturday CATO transfers. Log in dispatch order with source/owner-record paths, versions and hops; no outcome-based skipping. DEWEY method 9c97f5012 received. Deliver one list at close; recipient reads wait>=24h and may extend to October 31. This is a bounded batch, not a new standing audit.
 2. Complete the explicit partial-boot market/context legs above when source evidence permits, reconcile READS with PROME. X access is restored; authorization performed no scan and left seen/staged state unchanged.
@@ -59,7 +63,7 @@ Full continuity closeout of PARTIAL boot; checks and limitations are explicit. L
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-25T18:04:10Z",
+  "as_of": "2026-10-25T18:19:18Z",
   "next_review": "2026-10-26",
   "publication": [
     {
@@ -103,6 +107,10 @@ Full continuity closeout of PARTIAL boot; checks and limitations are explicit. L
       {
         "path": "AGENTS/WALTER/research/2026-10-25_reauthorize/authorization-receipt.json",
         "sha256": "ddb481d646a96a428067d481f3b68310d85bb260d55748ec3a5273919e2fe272"
+      },
+      {
+        "path": "AGENTS/WALTER/outbox/2026-10-25_bookmark-queue-check.md",
+        "sha256": "1ff24d2316b079791f48c9e1c71ba261f47a40b826f8dea31ffd231afb754ae9"
       }
     ]
   },
@@ -110,15 +118,15 @@ Full continuity closeout of PARTIAL boot; checks and limitations are explicit. L
     "tier": "light",
     "boot": "PARTIAL; exact execution and read gaps at research/2026-10-25_boot/BOOT-RECEIPT.md",
     "owner": "WILL",
-    "ask": "Will: okay lets reauthorize now",
-    "closeout": "LIGHT authorization follow-up; full boot coverage remains PARTIAL"
+    "ask": "Will: Do we have any bookmarks that have not been processed?",
+    "closeout": "LIGHT queue check; content review pending, prior partial-boot gaps retained"
   },
   "manual_duties": {
     "11": "Two cards, one correction and eight handoffs committed with route/delivery/R1 and original banner; INDEX regenerated. Fourteen lane content items accounted.",
     "12": "Updated STATUS lead/dated observations, posture and registry-derived network summary; prior lead/network preserved verbatim in SESSION_LOG.",
     "13": "39 owner lead headers refreshed before network summary; no data or liveness inferred from dates. REGISTRY reduced below rotation stop.",
     "14": "Session note updated; prior note preserved verbatim in SESSION_LOG. No new cross-fleet finding or auto-memory authored.",
-    "15": "X authorization gap resolved on this machine using successful OAuth and authenticated user lookup; seen/staged SHA256 unchanged; zero scans/marks. Prior boot gaps and approvals preserved.",
+    "15": "Fresh X scan staged39 unconsumed IDs; no marks, no content assessment. Exact queue state saved; prior approvals/source gaps retained.",
     "16": "Exact-path commits only; main pull and own push deferred for observed foreign dirty work. Pending publication retained until origin proof."
   },
   "root_duties": {

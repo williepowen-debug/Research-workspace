@@ -1,3 +1,7 @@
+## 2026-10-25T18:19:18Z — light-closeout — full deferred: bookmark queue check
+
+Will asked for unprocessed bookmark count. Fresh head check 18:18:17Z found 39 IDs, now staged and unreviewed. No content classification, routing, or marks; consumed set remains 1,203. Scope is queue inspection only. Current work and other gaps stay in LAST_COMPLETION. Evidence: outbox/2026-10-25_bookmark-queue-check.md.
+
 ## 2026-10-25T18:04:10Z — light-closeout — full deferred: X authorization follow-up
 
 Will requested reauthorization. OAuth and authenticated user lookup succeeded; machine-local ignored credentials refreshed. Seen/staged SHA256 unchanged; zero scan/marks. Prior partial-boot coverage and other duties remain at LAST_COMPLETION. Authentication repair alone warrants no fresh market claim or narrative regeneration. Evidence: research/2026-10-25_reauthorize/authorization-receipt.json.
