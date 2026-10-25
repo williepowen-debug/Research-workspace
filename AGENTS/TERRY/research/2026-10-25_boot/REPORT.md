@@ -169,3 +169,39 @@ uncertainty/counter-evidence; unsupported two-of-five recipient-loss claim withd
 TERRY notes this classification for any future citation, without a new study or
 rule. STATUS/MEMORY updated before filing under the two-tier contract. Three total
 inbox packets incorporated today; the earlier in-flight disposition is superseded.
+
+## FINAL full-closeout receipt — 2026-10-25T13:28:41-04:00
+
+PROME's explicit final ask is satisfied by this owner receipt. Read 2 accepts
+5586d2e20, 0 blockers in the bounded IDEA namespace/normal INDEX-versus-TRADE_BOOK
+scope; 118 assertions pass and policy unchanged. reads=2 recorded in acceptance;
+no third read. Verbatim read2 report retained locally, while PROME owns persistence
+of its review original. PRD1–3 and WQ-493 already accepted by PROME, not repeated.
+DEWEY correction incorporated at f72437316 before filing; third packet moved
+byte-identically to processed. No new source research, order, approval or size.
+
+Standard/Heavy closeout: current STATUS and MEMORY restamped/read; latest inbox
+and raw-drop observations, BOARD/R1, sweep, weekday/read-cap, nudge and orphan
+results belong to this final persistence. 118 tests/read2 are reused because no
+code changed after the accepted pin. No additional paper mark in receipt-only
+continuation; earlier screening-only/unknown-timestamp qualification stands.
+No numeric figure supersession/consumer scan trigger; no new card or trade close
+for TRADE_BOOK/POSTMORTEMS; no auto-memory/index edit. Retirement assessment remains
+0 eligible touched current research files; historical missing assessment remains
+uncertified, no invented recovery or broad cleanup.
+
+Continuity: Oracle UNVERIFIED (approved condition intact); Monday quotes and
+supplied-fill reconciliation; existing KRE/QQQ artifact access debt; broker truth
+and legacy registered obligations stay with their recorded owners. These are not
+new work commissioned by the guard review. Foreign dirty/staged work untouched,
+no pull/rebase/stash. Exact final commit and push receipt follow via verified
+Codex message to PROME. Owner work ends after that delivery; no process termination
+or whole-fleet completion inferred.
+
+Final observation at 13:28 EDT: BOARD scan run, 0 new since SIG-W-20261023-045,
+0 logged; inbox 0, raw WILL 0. A–H/boot/R1 rc0; weekday4 clean; read-cap rc0
+within 7-file heuristic; owned diff whitespace clean. Nudge kept three unchanged
+ledgers deliberately: board_log has no new IDs; PAPER_BOOK has no new mark/fill
+since the qualified weekend pull; SETUPS has no card state/condition/position
+change since implementation. EVENT-DRIVEN daytrading/SIGNALS/CALIBRATION have no
+new input or forecast, so no synthetic clock/row. Orphans are foreign only.

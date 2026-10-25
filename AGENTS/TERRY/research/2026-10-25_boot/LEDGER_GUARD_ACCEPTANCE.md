@@ -5,6 +5,11 @@ TERRY, October 25, 2026. Carried owner repair: STATUS/MEMORY October 24 names
 identity readers, without changing state compatibility, structure tests, count
 policy, scoring, approvals or trade conditions.
 
+reads: 2
+current_result: INDEPENDENTLY VERIFIED within the declared IDEA namespace/normal INDEX-versus-TRADE_BOOK boundary
+reviewed_commit: 5586d2e2038e5337016de0cdcc121c566ec590a6
+review_2: IDEA_GUARD_READ2.md; 0 blockers; no third read
+
 Acceptance:
 
 1. An IDEA card/INDEX/TRADE_BOOK state disagreement is detected by A.
@@ -42,7 +47,7 @@ At the 12:43 EDT owner check, PROME ORCH_LOG shows `terry-guard-review` in fligh
 
 ## Read 1 received / F1 correction — 2026-10-25T12:48:35-04:00
 
-reads: 1
+reads_at_first_result: 1
 independent_result: PARTIAL; acceptance 2 unmet at 3be3db220
 review: IDEA_GUARD_READ1.md (verbatim PROME independent helper report)
 repair_iteration: 1; result re-read pending PROME
@@ -72,3 +77,15 @@ hardcoded /tmp/prome-terry-guard-selftest.txt output path. That 111-assertion lo
 regenerated from the ORIGINAL frozen snapshot/probe; owner replay now writes its
 own distinct output path. Reviewer source, report and frozen fixture unchanged.
 These owner replays do not count as independent reads.
+
+## Final independent disposition — 2026-10-25T13:28:41-04:00
+
+PROME delivered acceptance after read 2; owner read the exact report at
+`PROME/reports/2026-10-25_terry-guard-independent-read2.md` (coordinator commit
+pending at read) and retained the verbatim copy IDEA_GUARD_READ2.md, sha256
+`0c94d2d12274134f155ba827ba3b3e519ac4e39c72d35a95e1d371f3c56ffc7d`. Both preserved F1 mutations fire; 118
+assertions pass; operative policy AST/regex invariants verified. F1 resolved in
+the declared boundary. No third read. This supersedes earlier pending-read notes,
+not their dated history. No universal card/TSV/all-surface structure completeness,
+transactional/concurrent read guarantee, absent-count completeness or broker-truth
+claim. Those retained limits are not new repair obligations.

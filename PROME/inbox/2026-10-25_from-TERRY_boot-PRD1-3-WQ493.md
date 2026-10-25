@@ -64,3 +64,30 @@ Evidence/review history: LEDGER_GUARD_ACCEPTANCE.md reads=1, IDEA_GUARD_READ1.md
 IDEA_F1_SELFTEST.txt and IDEA_F1_PROBE_RESULTS.jsonl in the existing boot folder.
 Independent acceptance remains pending; TERRY waits for that result before final
 closeout. DEWEY late correction read in flight, left visible while uncommitted.
+
+## FINAL explicit full-closeout receipt — 2026-10-25T13:28:41-04:00
+
+PROME read2 accepted 5586d2e20 with 0 blockers in the bounded IDEA scope; reads=2
+recorded, no third read. Full owner receipt and retained limits are at REPORT.md
+and LEDGER_GUARD_ACCEPTANCE.md; verbatim read2 retained. PRD/WQ493 accepted earlier.
+DEWEY correction consumed at f72437316 before byte-identical processed filing.
+Oracle remains UNVERIFIED; Monday source work and existing artifact access debt
+remain carried. No new research/order/size/approval or policy. Latest tests are
+118, code unchanged since accepted pin. Final SHA/push status follow by native
+notification. This is TERRY's explicit full-closeout answer to PROME's final ask.
+
+## COMPLETION — TERRY — 2026-10-25 (final owner receipt)
+STATUS: ✅ DONE within the approved boot/correction/guard scope.
+CHANGED: Current STATUS/MEMORY, reads=2 acceptance, saved read2, report/delivery addenda, DEWEY processed filing.
+RESULT: 3 packets incorporated; PRD1–3/WQ493 accepted; bounded IDEA repair independently verified at5586d2e20, 0 blockers/118 assertions. $0 moved.
+GAPS: Oracle issuer date UNVERIFIED; existing Claude artifact access unavailable; broader legacy/source/broker limits retained, not certified away.
+WILL_NEEDS: None.
+FOLLOW-UP: Existing Monday source work; no further guard read or additional research.
+
+Final observation at 13:28 EDT: BOARD scan run, 0 new since SIG-W-20261023-045,
+0 logged; inbox 0, raw WILL 0. A–H/boot/R1 rc0; weekday4 clean; read-cap rc0
+within 7-file heuristic; owned diff whitespace clean. Nudge kept three unchanged
+ledgers deliberately: board_log has no new IDs; PAPER_BOOK has no new mark/fill
+since the qualified weekend pull; SETUPS has no card state/condition/position
+change since implementation. EVENT-DRIVEN daytrading/SIGNALS/CALIBRATION have no
+new input or forecast, so no synthetic clock/row. Orphans are foreign only.
