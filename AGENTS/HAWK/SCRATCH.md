@@ -37,10 +37,6 @@ Earlier boot intake consumed; late SIG-W-20261025-001 committed by WALTER f35a4b
 
 ## PENDING PUSH / GIT
 
-Prior audit pushed through e6f181cb7; prior boot/intake pushed through 265d66cac. Pull deferred because foreign work was dirty (MIDAS at start; PROME at closeout); no stash/rebase of others. Repair commit and final push receipt are appended after validation. NEXUS gets exact STATUS commit pin in a follow-up commit. Notification acceptance never proves recipient consumption.
+Repair evidence and STATUS were pinned to `7644c394b`; input packets `71b274847`; PROME delivery `868c7a89d`; receipt-only update `1d6acf90a` pushed with fresh-origin confirmation. PROME's consumption is now independently verified at `5d73329cc`, `PROME/reports/2026-10-25_sunday-owner-orchestration.md` repair addendum, and its processed delivery path. PROME consumption is complete; the five domain-owner replies remain unverified. No duplicate delivery or owner launch is needed.
 
-October 25 guard clarification: war_monitor source accounting remains unwired and unchanged; direct --save now refuses before source access, protecting frozen war/scenario histories.
-
-Repair commit `7644c394b` contains exact STATUS revision and validation receipt. Five recipient packets persisted in `71b274847`; consumption unverified. PROME repair delivery packet saved and exact STATUS pin updated at final closeout; push receipt follows the pin/delivery commit.
-
-Confirmed repair push: `Pushed. CONFIRMED: HEAD 868c7a89d is on origin/master (fresh fetch).` Native PROME notice accepted for the exact dated repair delivery; recipient artifact consumption remains unverified. This receipt update is closeout metadata; evidence/validation and STATUS remain pinned to 7644c394b. Final metadata push receipt is reported in task output. Own worktree was clean after 868c7a89d; foreign BROCK research remains excluded.
+October 25 follow-up completeness check: repaired leftover legacy-tool description and restored STATUS's required closing summary; reconciled PROME receipt and the EU catalyst's current title. Full result in `audits/2026-10-25_post-repair-check.md`. No unprocessed inbox or undispositioned exact HAWK BOARD ID found; 40 literal file pointers resolve. Original 9 repaired / 10 residual classification unchanged. No source, band or forecast changed. Current STATUS pin is refreshed in the next NEXUS commit. Foreign WALTER/PROME/BROCK changes defer pull; excluded from our commit. Follow-up commit/push receipt is reported in task output.

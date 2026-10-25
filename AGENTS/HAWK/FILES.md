@@ -113,3 +113,5 @@ Will asked to update the audit findings. `design/WORKBOOK_REFERENCE.md` holds th
 October 25 repair addendum: `research/2026-10-25_EURMIL_review.md` is the bounded primary-source receipt for all six native rungs. `outbox/2026-10-25_to-PROME_repairs-completion.md` is the dated completion delivery. Frozen direct-command refusal now covers boot, threshold, sanctions, infrastructure and countdown commands; war_monitor retains its September 2 source-accounting contract and remains unwired. No script is revived.
 
 October 25 guard clarification: war_monitor source accounting remains unwired and unchanged; direct --save now refuses before source access, protecting frozen war/scenario histories.
+
+`audits/2026-10-25_post-repair-check.md` is the user-requested follow-up completeness check and prioritized unfinished-work account. Existing dated-audit class; no new monitor or registered test.

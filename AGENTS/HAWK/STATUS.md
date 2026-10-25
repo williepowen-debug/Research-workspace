@@ -1,6 +1,6 @@
 # HAWK STATUS
 
-**Updated:** October 25, 2026, 14:21 EDT. Codex / OpenAI GPT-6 identity exposed; serving variant UNKNOWN. Thread `01a173d6-38cc-7de3-9a0b-fd12caf682cc`. Root/local instructions explicitly read. No trade book. No mark, band, probability or registered prediction letter changed.
+**Updated:** October 25, 2026, 15:25 EDT. Codex / OpenAI GPT-6 identity exposed; serving variant UNKNOWN. Thread `01a173d6-38cc-7de3-9a0b-fd12caf682cc`. Root/local instructions explicitly read. No trade book. No mark, band, probability or registered prediction letter changed.
 
 **Repair outcome:** Will's key-file update request implemented: **9 of 19 findings repaired; 10 advanced with named residuals.** Full evidence/dispositions: `research/2026-10-25_repairs.md`; original audit and validation receipt in `audits/`. Pending tariff definition is already registered as **WQ-521**, exact L778 draft consumed by PROME, ruling pending. Other band alternatives and the November observation candidate remain drafts only.
 
@@ -50,3 +50,11 @@ Charter/reference split, source map/navigation, Canada field consistency and bro
 Next: October 26 residual-source/owner-input review; after October 27 joint C3 draft; October 28 comparable tanker earnings availability; October 31 forecast grade/event close. Issuer Q3 availability is not yet a verified release date. No completed grade is repeated merely because an old catalyst title survives. No new capital action or user-hands requirement arises from this repair pass; WQ521 remains the existing decision.
 
 October 25 guard clarification: war_monitor source accounting remains unwired and unchanged; direct --save now refuses before source access, protecting frozen war/scenario histories.
+
+## Post-repair completeness check — October 25
+
+Follow-up audit: `audits/2026-10-25_post-repair-check.md`. Scoped checks pass; no unprocessed direct/WALTER mail and no undispositioned exact HAWK BOARD signal among 395 routed IDs. Forty literal local file pointers resolve. Script and registered-instrument bytes match the verified repair revision; no need to repeat unchanged guard tests. Five owner-input packets remain delivered with no response found. PROME consumed the exact repair package and recorded 9 repaired / 10 residuals in `5d73329cc`, report §HAWK; that receipt is now reflected in continuity.
+
+## BOTTOM LINE
+
+HAWK's operating files are more consistent, stale-source limits are explicit, and retired commands cannot write fresh-looking history through their guarded entrypoints. The main unfinished work is evidence and test coverage: the oil thesis still lacks full supply-versus-premium attribution, and the next physical-loss event window is unregistered. Prioritize the dated owner inputs and the October 31 forecast checkpoint; the most consequential watch remains independently confirmed crude-processing damage or a verified US strike decision. This check adds no market sweep or new risk grade.
