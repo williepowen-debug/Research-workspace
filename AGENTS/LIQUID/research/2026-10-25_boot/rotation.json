@@ -1,0 +1,11 @@
+{
+  "baseline_commit": "a976d68d84fb4042a029db115de8069d0edbe964",
+  "archive": "archive/status_snapshots/STATUS_before-2026-10-25-boot.md",
+  "before_bytes": 28673,
+  "after_bytes": 22781,
+  "crc32_before": "bdc24b33",
+  "crc32_archive": "bdc24b33",
+  "obligations": "Sections 3 through 6 byte-identical; all 5 gate rows byte-identical. Section 1 watches and caveats retained in condensed current reads; original fully archived. No obligation discharged by rotation.",
+  "boot_cost": "Archive off whole-read boot path; current STATUS shrank; NEXUS_BRIEF unchanged.",
+  "retrigger": "Any append or next closeout"
+}

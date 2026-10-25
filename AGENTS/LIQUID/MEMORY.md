@@ -2,7 +2,14 @@
 
 ## Session Notes
 
-### CURRENT SESSION — 2026-10-22T19:25-04:00 start (PROME prome-e7 after-close spawn, WQ-481 A Tier 1; Claude Code / Opus 5.5)
+### CURRENT SESSION — 2026-10-25T12:17:49-04:00 (Will boot; OpenAI / Codex, exact model UNKNOWN)
+
+- Full boot: 30 series, 0 fetch errors; credit/SOFR frontier still 10/22, SRF/RRP 10/23. No Friday credit/SOFR publication yet. Latest-revised sweep does not add to the prior first-published run.
+- Working view unchanged: repricing; measured overnight funding orderly, hidden financing restrictions unmeasured. 076 MET in existing episode; 10/23 MOVE/VIX EDGE. X1 CLOSED / DON'T-SIZE; swap-line WITHHELD.
+- Corrections clear; 0 unconsumed WALTER handoffs; general inbox not processed. Selftest PASS. STATUS rotation below 70% budget, CRC and obligation preservation verified; research receipt `research/2026-10-25_boot/REPORT.md`.
+- Pull deferred under dirty-owner rule (TERRY and subsequently MIDAS); own-path persistence only. Monday entry point remains NEXT SESSION / STATUS §3; no new research or trade approval.
+
+### PRIOR SESSION — 2026-10-22T19:25-04:00 start (PROME prome-e7 after-close spawn, WQ-481 A Tier 1; Claude Code / Opus 5.5)
 
 - **Whole inbox drained:** 8 top-level packets (PROME's census said 9; `inbox_census.py` counted 8) + 15 WALTER signals, each logged in `board_log.tsv` and `git mv`'d. Corrections: COR-20261022-04 / -27 APPLIED, -01 / -14 NO-OP.
 - **>320 run, FRED back, first-published (two methods agree):** VERIFIED 6 consecutive 325/323/331/329/333/327 [10/14–10/21]; last reset 316 [10/13]; MET unchanged. X1 HY leg 19 consecutive >280 since 9/25.
