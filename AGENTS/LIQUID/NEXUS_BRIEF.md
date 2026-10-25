@@ -1,9 +1,11 @@
 # LIQUID — NEXUS Brief
 
-**As of:** 2026-10-25T12:46:08-04:00 | STATUS commit: `f102d5a1f3b477355221d3548f1b37687949a952`
+**As of:** 2026-10-25T13:55:30-04:00 | STATUS commit: `2f1a92dd26a28b66f40975ecbca0d8b772df3b14`
 **Evidence frontier:** credit/SOFR October22; SRF/RRP and raw vendor closes October23; dealer as-of October14 (published October22); CFTC as-of October20 (published October23); H.4.1 week ended October21; H.8 week ended October14 (released October23). Reconciliation date is not an observation date. Sources: `STATUS.md`, `research/2026-10-23_evening/REPORT.md`, `research/2026-10-25_boot/boot.txt` and the named analyses below. No market data re-pulled for this fold.
 
 ## Current judgment
+
+**Transmission coverage review [October25, Will-directed]:** fourteen overlapping mechanism families identified, but complete named exposure→contract→cash/capital-response coverage is not established. Calm overnight funding does not clear bank-line substitution, warehouse/borrowing-base pressure, fund/insurer cash demands, structured-credit diversion, risk-transfer counterparties or operating feedback. Senior protection and usable liquidity may contain stress. LIQ-07 S2 remains only its frozen reserve-channel result; no re-grade. Priority inside existing work is matching those intermediate links to named recipients and containment tests, not inferring contagion from co-widening alone. Coverage/source inventory: `research/2026-10-25_transmission-pathways/REPORT.md`. This bounded review creates no new gate, standing collector, peer assignment or trade.
 
 **Mainly credit repricing; financing restriction is not established.** The October1→22 15-session change was CCC +125bp, B +17, BB +6, IG +3. BB joined CCC for one day on October22 (+12/+33bp); one day does not establish broadening. HY issuance is narrower and more expensive, not shown shut: the volume comparison is one seasonally confounded Bloomberg snippet; no named HY bond was pulled, while two loans were pulled/postponed. L818 analysis: `analysis/2026-10-23_L818-repricing-vs-restriction.md`. The bank channel is drawn C&I/NDFI balances if public funding narrows, not regional credit losses inferred from spread widening.
 
