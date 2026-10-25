@@ -1,6 +1,6 @@
 # WQ524 — PROME assessment of the second transmission case
 
-October25. **Substantive result accepted within the bounded scope; final owner persistence/closeout receipt pending.** LIQUID's `AGENTS/LIQUID/research/2026-10-25_WQ524-first-brands/REPORT.md` was read with its selection and source receipt. BROCK support is complete at ef2c1df65/bc2a28267, separately verified and filed. L840 remains open until LIQUID's committed final brief/delivery and explicit closeout/push receipt are checked.
+October25. **ACCEPTED AND COMPLETE within the bounded scope.** LIQUID's `AGENTS/LIQUID/research/2026-10-25_WQ524-first-brands/REPORT.md` was read with its selection and source receipt. BROCK support is complete at ef2c1df65/bc2a28267, separately verified and filed. L840 resolved after final owner persistence and explicit closeout/push checks.
 
 The case adds an observed lender response: First Brands receivables financed through the named Point Bonita SPV reached a missed bank receipt, forbearance, loss recognition and litigation. It does not demonstrate an earlier public warning, a current bank funding squeeze or an executed onward cash call on Jefferies. This advances the original task from a plausible financing connection to a documented bank consequence; it does not establish actionable advance timing. No further case or program is commissioned.
 
@@ -18,4 +18,8 @@ The checked loss disclosure follows the missed payment and impairment decision; 
 
 Servicing/perfection/alleged-fraud failure in a limited-recourse structure remains a credible case-specific explanation. Ultimate recoveries, executed contracts, legal priority/waterfall and final recourse remain unknown. Existing owner court and Car-Mart checks continue; no new monitor, forecast, probability, gate, experiment or trade change follows. Historical Q1 charge-off is not the frozen Q3/Q4 reserve-build trigger.
 
-This is a bounded coordinator source check, not a full independent audit of all owner files. Final acceptance of persistence remains separate from the substantive assessment above.
+This is a bounded coordinator source check, not a full independent audit of all owner files. Final persistence acceptance is recorded below.
+
+## Final persistence and lifecycle acceptance
+
+LIQUID explicitly reported FULL STANDARD CLOSEOUT COMPLETE, window preserved. Research/final STATUS `f1409f6efd10a0268386088de8eaf6ff9231b333`, final brief `1ba8b1a54d2e857317e2f1dbb48f02a08d7a87cb` pins that exact STATUS, delivery `4ddae6f509a57df9a51d23eaf3da0465a9cdb202`. PROME read packet/state/final case fold and independently verified all three commits as ancestors of freshly fetched origin/master. Actual owner safe-push rc0 with fresh-fetch confirmation received. Packet filed in `PROME/inbox/processed/2026-10-25_from-LIQUID_WQ524-first-brands-bank-response-complete.md`. L840 is resolved. No onward assignment, duplicate launch or window termination. Late unrelated inbox arrivals remain for normal owner intake; they do not invalidate completion of this bounded case.
