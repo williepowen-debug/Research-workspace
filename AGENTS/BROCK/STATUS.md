@@ -1,6 +1,6 @@
 # BROCK — STATUS
 
-**Updated:** 2026-10-25T15:30:40-04:00 — approved follow-ups DONE; six SOIs tie. CFG date corrected, attribution open. No score/gate change; narrative → CURRENT catch-up.
+**Updated:** 2026-10-25T16:07:26-04:00 — WQ524 support DONE; historical WAL loss case recommended to LIQUID. Three follow-ups complete; no forecast/score/gate change.
 
 ---
 
@@ -114,4 +114,4 @@
 
 ## BOTTOM LINE
 
-**2026-10-25 — Three approved follow-ups DONE:** six issuer totals reconcile; funded USD software marks 84.79–98.11%, but HTGC systematic under-marking not established. CFG $12.852B is March31, June30 $14.727B; +$52M attribution still UNKNOWN. JPM wholesale build growth-driven, no PC attribution. GBDC Pluralsight has named unfunded positions, amounts UNKNOWN; no current HTGC/GBDC funding crunch established. Report `research/2026-10-25_three-followups/REPORT.md`. ARCC10/27, HTGC10/29 remain tests; convergence **58/70**, no score/gate change.
+**2026-10-25 — Three follow-ups DONE; WQ524 support DONE:** six SOIs tie; HTGC systematic under-marking not established. CFG12.852B is March31, June14.727B; +52M attribution UNKNOWN. GBDC named Pluralsight undrawn amounts UNKNOWN; no current funding crunch established. WQ524 recommends historical First Brands/SPV→WAL126.4M Q1 charge-off over Pluralsight; LIQUID owns selection/final case. No fresh Q3 fire or early-warning claim. Reports: `research/2026-10-25_three-followups/` and `research/2026-10-25_WQ524-handoff/`. Convergence **58/70**, unchanged.
