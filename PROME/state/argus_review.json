@@ -2,26 +2,31 @@
   "schema": 2,
   "verdict": "FROZEN",
   "baseline": "2509a882349d6e2dbdc3bcaeaede17dc339efa43",
-  "head": "0297374edf4a9d9194b58e933b40f07f2fb42aea",
-  "recorded_at": "2026-10-24T22:39:48.018339+00:00",
+  "head": "45c5a1b119314d1e381ab4faa6d7a244fb6f9b0d",
+  "recorded_at": "2026-10-25T00:46:09.647751+00:00",
   "contract": {
     "baseline": "2509a882349d6e2dbdc3bcaeaede17dc339efa43",
-    "anchor": "0297374edf4a9d9194b58e933b40f07f2fb42aea",
+    "anchor": "45c5a1b119314d1e381ab4faa6d7a244fb6f9b0d",
     "delivered": {
       "PROME/CLOSEOUT.md": {
-        "sha256": "ac7a2c5e4aeb3e41305a248abacfc5b69b4a4120eac1bf848b174ae0693824b5",
+        "sha256": "ab1f04eb32e796c1d348372d5b6dbad293b2180a0f6ee7c5cff421e08603d9d5",
         "provenance": "PROME-authored, commit 0297374ed (PROME: L796 \u274c2 \u2014 pin the audit perimeter at the freeze (argu)",
         "versions": {
-          "0297374edf4a9d9194b58e933b40f07f2fb42aea": "ac7a2c5e4aeb3e41305a248abacfc5b69b4a4120eac1bf848b174ae0693824b5"
+          "0297374edf4a9d9194b58e933b40f07f2fb42aea": "ac7a2c5e4aeb3e41305a248abacfc5b69b4a4120eac1bf848b174ae0693824b5",
+          "f5dfb840ad3a8958a370609fe210f66b95295746": "ab1f04eb32e796c1d348372d5b6dbad293b2180a0f6ee7c5cff421e08603d9d5"
         }
       },
       "PROME/DOCKET.tsv": {
-        "sha256": "f9dca86448a22d0d320a78a2d2ee248ba94ad09e14443242822dff97157be0ce",
+        "sha256": "1ba0a0264f62bff147ce7171c9faf4aac52b71cdb25d576b1b4bf592ebaaf0c5",
         "provenance": "PROME rows L796 cell \u00b7 L834 \u00b7 L835 \u00b7 L378 cell",
         "versions": {
           "6896076827ea3eccf2fccabe51e597f88286c121": "9498d1274ad42b502591ea9c677ce7a54a18ac499e44abffd176e850be460d8e",
           "754ab102e832712979446b820deae60e0d6e2b37": "00af77546ea0376db64686650ab40a8a84af8acb60a5c2a559c6d45cafca4746",
-          "0297374edf4a9d9194b58e933b40f07f2fb42aea": "021e89d44cc88c97ae7dbd9fe14c3cb900b51edcc6febe8fad310b2c8ed9f1c3"
+          "0297374edf4a9d9194b58e933b40f07f2fb42aea": "021e89d44cc88c97ae7dbd9fe14c3cb900b51edcc6febe8fad310b2c8ed9f1c3",
+          "2e2d391442a5d93e92ec1858fbe68f8c7637250e": "f9dca86448a22d0d320a78a2d2ee248ba94ad09e14443242822dff97157be0ce",
+          "68ee3061f4558f9fce6d68e2b404da8c8ea83c2b": "45b451f4886981aea22d191a5e9395c1635ab54b72c94295fc2e95652d945814",
+          "54ef1c424947a8e86e3f27d4f442bcf2aef7fd0d": "3423d1d21a2202791fb3edcab29e2dd3cad7b6c3139c1b4d36cec6b6fd8fcbc3",
+          "f5dfb840ad3a8958a370609fe210f66b95295746": "1ba0a0264f62bff147ce7171c9faf4aac52b71cdb25d576b1b4bf592ebaaf0c5"
         }
       },
       "PROME/reports/2026-10-24_L796-pin-counterexample-read.md": {
@@ -123,33 +128,37 @@
         }
       },
       "PROME/state/ORCH_INFLIGHT.md": {
-        "sha256": "a0841e1da45e2fef6d023bf9d539b46340e096d781805f618052ef26807dbf94",
+        "sha256": "13841776c6d950d5857720037db7ec5b5234b96bfaf229faa6362c87bb876037",
         "provenance": "PROME-authored, commit 0297374ed (PROME: L796 \u274c2 \u2014 pin the audit perimeter at the freeze (argu)",
         "versions": {
           "754ab102e832712979446b820deae60e0d6e2b37": "bf281f13051e6ef852cf989295ec8c38ddf117862499f3dab5a8782df2abb003",
-          "0297374edf4a9d9194b58e933b40f07f2fb42aea": "a0841e1da45e2fef6d023bf9d539b46340e096d781805f618052ef26807dbf94"
+          "0297374edf4a9d9194b58e933b40f07f2fb42aea": "a0841e1da45e2fef6d023bf9d539b46340e096d781805f618052ef26807dbf94",
+          "f5dfb840ad3a8958a370609fe210f66b95295746": "13841776c6d950d5857720037db7ec5b5234b96bfaf229faa6362c87bb876037"
         }
       },
       "PROME/state/ORCH_LOG.tsv": {
-        "sha256": "fa8eb7ab2389ca9638435c3b8c6553f2d214cb6fab289f182e14117a2e95208a",
+        "sha256": "57a8fbff11f286c107eefa53a032fa2acc5e1979c22f2b9579e6907804fe232f",
         "provenance": "PROME-authored, commit 0297374ed (PROME: L796 \u274c2 \u2014 pin the audit perimeter at the freeze (argu)",
         "versions": {
           "754ab102e832712979446b820deae60e0d6e2b37": "c82b15ac44b7f50a71c3b1c8f0f4a4b9688cba7f326142efc5a07068dbfa034f",
-          "0297374edf4a9d9194b58e933b40f07f2fb42aea": "fa8eb7ab2389ca9638435c3b8c6553f2d214cb6fab289f182e14117a2e95208a"
+          "0297374edf4a9d9194b58e933b40f07f2fb42aea": "fa8eb7ab2389ca9638435c3b8c6553f2d214cb6fab289f182e14117a2e95208a",
+          "f5dfb840ad3a8958a370609fe210f66b95295746": "57a8fbff11f286c107eefa53a032fa2acc5e1979c22f2b9579e6907804fe232f"
         }
       },
       "PROME/tools/ARGUS_CONTRACT.md": {
-        "sha256": "79c07d2b16995c195422cdb95c0e0b4941cc3b64802c026f085bf295e041ee45",
+        "sha256": "23e8dc651f70ed45dec2b2eb89791da38d988a963cf06ba146edd7cc4d388f16",
         "provenance": "PROME-authored, commit 0297374ed (PROME: L796 \u274c2 \u2014 pin the audit perimeter at the freeze (argu)",
         "versions": {
-          "0297374edf4a9d9194b58e933b40f07f2fb42aea": "79c07d2b16995c195422cdb95c0e0b4941cc3b64802c026f085bf295e041ee45"
+          "0297374edf4a9d9194b58e933b40f07f2fb42aea": "79c07d2b16995c195422cdb95c0e0b4941cc3b64802c026f085bf295e041ee45",
+          "f5dfb840ad3a8958a370609fe210f66b95295746": "23e8dc651f70ed45dec2b2eb89791da38d988a963cf06ba146edd7cc4d388f16"
         }
       },
       "PROME/tools/argus_contract.py": {
-        "sha256": "31a261bdad3252e5f8d6e46f647fafb38027424c41afbcade0a90bbf1407ad76",
+        "sha256": "771b33cee062a04b553bb1489e81bbf4563b2fe78ac4ea8267dd50627c1f534e",
         "provenance": "PROME-authored, commit 0297374ed (PROME: L796 \u274c2 \u2014 pin the audit perimeter at the freeze (argu)",
         "versions": {
-          "0297374edf4a9d9194b58e933b40f07f2fb42aea": "31a261bdad3252e5f8d6e46f647fafb38027424c41afbcade0a90bbf1407ad76"
+          "0297374edf4a9d9194b58e933b40f07f2fb42aea": "31a261bdad3252e5f8d6e46f647fafb38027424c41afbcade0a90bbf1407ad76",
+          "f5dfb840ad3a8958a370609fe210f66b95295746": "771b33cee062a04b553bb1489e81bbf4563b2fe78ac4ea8267dd50627c1f534e"
         }
       },
       "PROME/tools/tests/ACCEPTANCE_closeout_gate_perimeter_pin_2026-10-24.md": {
@@ -160,15 +169,16 @@
         }
       },
       "PROME/tools/tests/test_argus_contract.py": {
-        "sha256": "bcb44d614be658d04cb9268cc2b96ab22250fd63f3e04edbb05384b3e0475ef8",
+        "sha256": "31698778cb4392436da989d759d4c18c7bc1ffac3c0b8b3771a92b10c78f33b9",
         "provenance": "PROME-authored, commit 0297374ed (PROME: L796 \u274c2 \u2014 pin the audit perimeter at the freeze (argu)",
         "versions": {
-          "0297374edf4a9d9194b58e933b40f07f2fb42aea": "bcb44d614be658d04cb9268cc2b96ab22250fd63f3e04edbb05384b3e0475ef8"
+          "0297374edf4a9d9194b58e933b40f07f2fb42aea": "bcb44d614be658d04cb9268cc2b96ab22250fd63f3e04edbb05384b3e0475ef8",
+          "f5dfb840ad3a8958a370609fe210f66b95295746": "31698778cb4392436da989d759d4c18c7bc1ffac3c0b8b3771a92b10c78f33b9"
         }
       },
       "memory/2026-10-24.md": {
-        "sha256": "6a0438bd384c68c929865f41e6a2f56dc93597cfc0bc9be7604d2c0952ea3579",
-        "provenance": "PROME-authored, commit 0297374ed (PROME: L796 \u274c2 \u2014 pin the audit perimeter at the freeze (argu)",
+        "sha256": "09bf355a4973bf5b72878c1c941f5c5820a1c29856a2a21b6a793239760fc4e8",
+        "provenance": "PROME session account \u00a7 second sitting",
         "versions": {
           "0297374edf4a9d9194b58e933b40f07f2fb42aea": "6a0438bd384c68c929865f41e6a2f56dc93597cfc0bc9be7604d2c0952ea3579"
         }
@@ -211,24 +221,37 @@
         }
       },
       "PROME/SCRATCH.md": {
-        "sha256": "b0de82aadfcb5e4383263fdc65dce199e131a9ee09f783262cb4145b51067493",
-        "provenance": "PROME closeout write (\u2605 NEXT block + header)",
-        "versions": {}
+        "sha256": "7ab55614537a3d3f0595ccc4d78cdd72a71867699889cb5624bb469f2f5896ca",
+        "provenance": "PROME closeout: \u2605 NEXT block + byte-flow rotation (blind reader 8/8)",
+        "versions": {
+          "2e2d391442a5d93e92ec1858fbe68f8c7637250e": "b0de82aadfcb5e4383263fdc65dce199e131a9ee09f783262cb4145b51067493",
+          "68ee3061f4558f9fce6d68e2b404da8c8ea83c2b": "041f70d4e7dc7118453287d7c73d109ca788cdc439befdc983b7a8fa00569a5b",
+          "54ef1c424947a8e86e3f27d4f442bcf2aef7fd0d": "138e16fd53b772cbedb4b8850bcac440129e5a1676b0143ad5d5be436e6865c7"
+        }
       },
       "PROME/STATUS.md": {
-        "sha256": "139f804d25cb9d2edb0547b2de33d7aa0f419c06992c6ac46ba598468d4e4749",
-        "provenance": "PROME closeout stamp",
-        "versions": {}
+        "sha256": "44be33eba1dfc70c3c71b332a1eedd27d16b0c92abcca91454db786ec018a61b",
+        "provenance": "PROME closeout: Updated stamp",
+        "versions": {
+          "2e2d391442a5d93e92ec1858fbe68f8c7637250e": "139f804d25cb9d2edb0547b2de33d7aa0f419c06992c6ac46ba598468d4e4749"
+        }
       },
       "PROME/HANDOFF.md": {
-        "sha256": "b8306b3dbd6a0156941c6a809bdd9ace3a7cbe60ecacc00997e5d7c6610ea34c",
-        "provenance": "PROME closeout entry",
-        "versions": {}
+        "sha256": "8dffe08d4a7848e9e57fa4d204f3bc6fe7486b9ef1ce605e45356f66ced97a35",
+        "provenance": "PROME closeout: entry + rotation of two Oct23 entries",
+        "versions": {
+          "2e2d391442a5d93e92ec1858fbe68f8c7637250e": "b8306b3dbd6a0156941c6a809bdd9ace3a7cbe60ecacc00997e5d7c6610ea34c"
+        }
       },
       "PROME/state/CALENDAR.md": {
-        "sha256": "f5296136b586de82c1b18572fbc42fa72fa5cbbd58f6917f0731c4537e739e96",
+        "sha256": "679aa71bfa6e2720483f1c7b32cc35c92a4231edc8f6226feeb30d9ddc493170",
         "provenance": "generated docket view (docket_view.py --write)",
-        "versions": {}
+        "versions": {
+          "2e2d391442a5d93e92ec1858fbe68f8c7637250e": "f5296136b586de82c1b18572fbc42fa72fa5cbbd58f6917f0731c4537e739e96",
+          "68ee3061f4558f9fce6d68e2b404da8c8ea83c2b": "9b0bc2590d9751b3b06b76cddfbd96d22fc49e9e3ae22fff4e82ba53a473c169",
+          "54ef1c424947a8e86e3f27d4f442bcf2aef7fd0d": "9d17aa4d6301781df6919ca13f1711d0d3b48a5ad52893a1c48c1dc8c1102372",
+          "f5dfb840ad3a8958a370609fe210f66b95295746": "679aa71bfa6e2720483f1c7b32cc35c92a4231edc8f6226feeb30d9ddc493170"
+        }
       },
       "AGENTS/DEWEY/inbox/processed/2026-10-24_from-PROME_L834-xbrl-compare-integration.md": {
         "sha256": "4ce7abee52afd2ac12b316b74ab90786fa3f8f88acd8a03065b6ca6b49ebe4ab",
@@ -236,11 +259,236 @@
         "versions": {
           "5fb7539d3c6d81978e4a49436414846075e45097": "4ce7abee52afd2ac12b316b74ab90786fa3f8f88acd8a03065b6ca6b49ebe4ab"
         }
+      },
+      "AGENTS/LIQUID/inbox/2026-10-24_from-PROME_closeout-brief-fold-step-missing-C4-and-NEXUS-content-repair.md": {
+        "sha256": "9edf12cf6f2b9ee7e2c80e7aafd38ce4918621d69818bf467e9240dc58cfce64",
+        "provenance": "PROME-authored this sitting, commit 38a5053e0 (PROME -> LIQUID: closeout has no brief-fold step \u2014 add one (C4) + appl)",
+        "versions": {
+          "38a5053e0aa9e7d1f1fb78d61ca78b23aa77a87b": "9edf12cf6f2b9ee7e2c80e7aafd38ce4918621d69818bf467e9240dc58cfce64"
+        }
+      },
+      "PROME/WILL_QUEUE.md": {
+        "sha256": "0ff059c98052b2429c0953acaf30faba8aa99ee551304b83c9ff9ca05c8ab430",
+        "provenance": "PROME: six RECENTLY DONE rows carry Will verbatim in the record cell (done_rows fix) + header stamp",
+        "versions": {
+          "68ee3061f4558f9fce6d68e2b404da8c8ea83c2b": "9ede2519e673137f37b3fe21f6600f3fc64314bc5e7e6b42335a012d3d35194a",
+          "54ef1c424947a8e86e3f27d4f442bcf2aef7fd0d": "5f6823ac4477030ea02ec5a57dceb4c6595046a6da5bbc7440e76e6d0c168a76"
+        }
+      },
+      "PROME/inbox/processed/2026-10-24_from-NEXUS_bounded-brief-cleanup-coordination-BROCK-LIQUID-priority-L555-rollup-FLG-proposal.md": {
+        "sha256": "d6d79492936ebd00a0a35b105ac1be5a1bc0b3bba6140e20e97d81b6474e2e2e",
+        "provenance": "PROME-authored this sitting, commit 68ee3061f (PROME: NEXUS brief-cleanup packet consumed \u2014 WQ-520 registered, DOCKET)",
+        "versions": {
+          "68ee3061f4558f9fce6d68e2b404da8c8ea83c2b": "d6d79492936ebd00a0a35b105ac1be5a1bc0b3bba6140e20e97d81b6474e2e2e"
+        }
+      },
+      "PROME/registry/WQ_LEDGER.crc": {
+        "sha256": "3eb6923b3d75fe33baedd3c65b5fc62c052121ebf7bd52c4adb0dad89cee4a5d",
+        "provenance": "generated by wq_ledger.py sync",
+        "versions": {
+          "68ee3061f4558f9fce6d68e2b404da8c8ea83c2b": "01bc82989f2269a7adb0e4dc47ea981a04e46056257b0a273682e672a9328a07",
+          "54ef1c424947a8e86e3f27d4f442bcf2aef7fd0d": "00a1c94eb9a35526cb7290dc67362082ef4d83b0b339bd8543a277ebbd670bea"
+        }
+      },
+      "PROME/registry/WQ_LEDGER.tsv": {
+        "sha256": "84b566b072b8139e2393e5fd60a67c6b1fab8a6ab7475598d933f2bfcf7746c3",
+        "provenance": "generated by wq_ledger.py sync",
+        "versions": {
+          "68ee3061f4558f9fce6d68e2b404da8c8ea83c2b": "0372984da0cfbc365345cbbf165242e68e58ce59578013def47591ee2804cf10",
+          "54ef1c424947a8e86e3f27d4f442bcf2aef7fd0d": "c971065d5c7ff54081ad5fd9b96c1cb09d59279454e500bef93dfa22bee10c62"
+        }
+      },
+      "AGENTS/DEWEY/inbox/2026-10-24_from-PROME_WQ488-RULED-EMAIL-A-CAP-closed-overtaken.md": {
+        "sha256": "7099511f3090f4a36795ff1125941902adbf36fdb76b728b3dd1968c56154bb5",
+        "provenance": "PROME-authored this sitting, commit c15740f5d (PROME -> TERRY, DEWEY: WQ-493 A prospective probability \u00b7 WQ-488 EMAIL)",
+        "versions": {
+          "c15740f5dd2962a7bfd9c90c3bce7a1dde5ed95f": "7099511f3090f4a36795ff1125941902adbf36fdb76b728b3dd1968c56154bb5"
+        }
+      },
+      "AGENTS/TERRY/inbox/2026-10-24_from-PROME_WQ493-RULED-A-prospective-trigger-probability.md": {
+        "sha256": "8a30fc9bbf59d3e883a41f6609f874e9facd98b4b920d26ca2cb1f341eda2572",
+        "provenance": "PROME-authored this sitting, commit c15740f5d (PROME -> TERRY, DEWEY: WQ-493 A prospective probability \u00b7 WQ-488 EMAIL)",
+        "versions": {
+          "c15740f5dd2962a7bfd9c90c3bce7a1dde5ed95f": "8a30fc9bbf59d3e883a41f6609f874e9facd98b4b920d26ca2cb1f341eda2572"
+        }
+      },
+      "CLAUDE.md": {
+        "sha256": "fd7db0825391fa5c6804e42d76e10deb81a94cc324e2cdc1680ed7feaeb5b778",
+        "provenance": "PROME-authored this sitting, commit 3d0f802a0 (PROME: root CLAUDE.md carve-out \u2464 \u2014 self-authored FORUM posts (WQ-486 )",
+        "versions": {
+          "3d0f802a073ee6fcb554f1235861a39193ff9005": "fd7db0825391fa5c6804e42d76e10deb81a94cc324e2cdc1680ed7feaeb5b778"
+        }
+      },
+      "FORUM/README.md": {
+        "sha256": "26c1eea20ef744c8ecc048b8bd0b21ea26936dbc5e9767f1a53f145164e9a57d",
+        "provenance": "PROME-authored this sitting, commit 3d0f802a0 (PROME: root CLAUDE.md carve-out \u2464 \u2014 self-authored FORUM posts (WQ-486 )",
+        "versions": {
+          "3d0f802a073ee6fcb554f1235861a39193ff9005": "26c1eea20ef744c8ecc048b8bd0b21ea26936dbc5e9767f1a53f145164e9a57d"
+        }
+      },
+      "PROME/proposals/2026-10-24_wq505-486-517-493-488-RULED.md": {
+        "sha256": "68ede5698c888ee527bede4bee2b3c746e0a5fb592803651942f8c696b634379",
+        "provenance": "PROME-authored this sitting, commit 3d0f802a0 (PROME: root CLAUDE.md carve-out \u2464 \u2014 self-authored FORUM posts (WQ-486 )",
+        "versions": {
+          "3d0f802a073ee6fcb554f1235861a39193ff9005": "c49ad854e1b2ae64255cc03c9044a5fe0fa2fa4827de2d357ad9e2d0d83b7a86",
+          "f5dfb840ad3a8958a370609fe210f66b95295746": "68ede5698c888ee527bede4bee2b3c746e0a5fb592803651942f8c696b634379"
+        }
+      },
+      "PROME/reports/2026-10-24_wq486-carve-out-5-plan-read.md": {
+        "sha256": "ada71ba416cb6695ce5e4e79e61b0fd27be84fd386ed4b47d8395d4cbb240736",
+        "provenance": "PROME-authored this sitting, commit 3d0f802a0 (PROME: root CLAUDE.md carve-out \u2464 \u2014 self-authored FORUM posts (WQ-486 )",
+        "versions": {
+          "3d0f802a073ee6fcb554f1235861a39193ff9005": "ada71ba416cb6695ce5e4e79e61b0fd27be84fd386ed4b47d8395d4cbb240736"
+        }
+      },
+      "PROME/reports/2026-10-24_wq486-carve-out-5-result-read.md": {
+        "sha256": "c71168f8ae14af84849af06e8aa0b80a5a5d6d66d206ac224e9267f31b1fde91",
+        "provenance": "PROME-authored this sitting, commit 3d0f802a0 (PROME: root CLAUDE.md carve-out \u2464 \u2014 self-authored FORUM posts (WQ-486 )",
+        "versions": {
+          "3d0f802a073ee6fcb554f1235861a39193ff9005": "c71168f8ae14af84849af06e8aa0b80a5a5d6d66d206ac224e9267f31b1fde91"
+        }
+      },
+      "PROME/AUTONOMY.md": {
+        "sha256": "822248b65793e4317446e80a0936ead2596a53762991de4b25d58d0241b60db7",
+        "provenance": "PROME-authored this sitting, commit 54ef1c424 (PROME: rulings recorded \u2014 WQ-505/493/488/520 encoded, L600 RESOLVED, L)",
+        "versions": {
+          "54ef1c424947a8e86e3f27d4f442bcf2aef7fd0d": "822248b65793e4317446e80a0936ead2596a53762991de4b25d58d0241b60db7"
+        }
+      },
+      "PROME/CLAUDE.md": {
+        "sha256": "44e36ac69c1847079490f2fed930d35e019376ba42370812859bba5982f82cfb",
+        "provenance": "PROME-authored this sitting, commit 54ef1c424 (PROME: rulings recorded \u2014 WQ-505/493/488/520 encoded, L600 RESOLVED, L)",
+        "versions": {
+          "54ef1c424947a8e86e3f27d4f442bcf2aef7fd0d": "44e36ac69c1847079490f2fed930d35e019376ba42370812859bba5982f82cfb"
+        }
+      },
+      "PROME/ideas/list.tsv": {
+        "sha256": "9b4411fb6cfdaa8165828f613e8be7e635def96f344a50632fd193193e97309f",
+        "provenance": "PROME-authored this sitting, commit 54ef1c424 (PROME: rulings recorded \u2014 WQ-505/493/488/520 encoded, L600 RESOLVED, L)",
+        "versions": {
+          "54ef1c424947a8e86e3f27d4f442bcf2aef7fd0d": "9b4411fb6cfdaa8165828f613e8be7e635def96f344a50632fd193193e97309f"
+        }
+      },
+      "PROME/reports/2026-10-24_wq517-counterexample-read.md": {
+        "sha256": "4e3d5c1d9e6e98b738c114e08670b22a9914e3a6f61e4255963cb6df202e1576",
+        "provenance": "PROME-authored this sitting, commit f5dfb840a (PROME: WQ-517 A \u2014 pending-only foreign paths advisory at the push-gate)",
+        "versions": {
+          "f5dfb840ad3a8958a370609fe210f66b95295746": "4e3d5c1d9e6e98b738c114e08670b22a9914e3a6f61e4255963cb6df202e1576"
+        }
+      },
+      "PROME/reports/2026-10-24_wq517-counterexample-read2.md": {
+        "sha256": "7d0f74bbc629043b873fac804616c359e06430efca96a6b15fa7c6f161a17882",
+        "provenance": "PROME-authored this sitting, commit f5dfb840a (PROME: WQ-517 A \u2014 pending-only foreign paths advisory at the push-gate)",
+        "versions": {
+          "f5dfb840ad3a8958a370609fe210f66b95295746": "7d0f74bbc629043b873fac804616c359e06430efca96a6b15fa7c6f161a17882"
+        }
+      },
+      "PROME/reports/2026-10-24_wq517-counterexample-read2_fixtures/ce_tests3.py": {
+        "sha256": "0e4810c84cae4ddf985de108793702b0822f2f2f6dd4ca56d93277bdf8e64a92",
+        "provenance": "PROME-authored this sitting, commit f5dfb840a (PROME: WQ-517 A \u2014 pending-only foreign paths advisory at the push-gate)",
+        "versions": {
+          "f5dfb840ad3a8958a370609fe210f66b95295746": "0e4810c84cae4ddf985de108793702b0822f2f2f6dd4ca56d93277bdf8e64a92"
+        }
+      },
+      "PROME/reports/2026-10-24_wq517-counterexample-read2_fixtures/run2b.txt": {
+        "sha256": "2aef5b336615ac3a88464b4edc9708d1220ed69a8ddcf53c740fe8c7c29c6887",
+        "provenance": "PROME-authored this sitting, commit f5dfb840a (PROME: WQ-517 A \u2014 pending-only foreign paths advisory at the push-gate)",
+        "versions": {
+          "f5dfb840ad3a8958a370609fe210f66b95295746": "2aef5b336615ac3a88464b4edc9708d1220ed69a8ddcf53c740fe8c7c29c6887"
+        }
+      },
+      "PROME/reports/2026-10-24_wq517-counterexample-read2_fixtures/run3.txt": {
+        "sha256": "3bfe5010b182601f761ac2af8d5b633c98b08d694bbc03dce1b73f9a31f2865b",
+        "provenance": "PROME-authored this sitting, commit f5dfb840a (PROME: WQ-517 A \u2014 pending-only foreign paths advisory at the push-gate)",
+        "versions": {
+          "f5dfb840ad3a8958a370609fe210f66b95295746": "3bfe5010b182601f761ac2af8d5b633c98b08d694bbc03dce1b73f9a31f2865b"
+        }
+      },
+      "PROME/reports/2026-10-24_wq517-counterexample-read2_fixtures/run_F.txt": {
+        "sha256": "282a90cf291b8ede01c2bb4d72d3c15c320141de3981e3b81771bb4e40326818",
+        "provenance": "PROME-authored this sitting, commit f5dfb840a (PROME: WQ-517 A \u2014 pending-only foreign paths advisory at the push-gate)",
+        "versions": {
+          "f5dfb840ad3a8958a370609fe210f66b95295746": "282a90cf291b8ede01c2bb4d72d3c15c320141de3981e3b81771bb4e40326818"
+        }
+      },
+      "PROME/reports/2026-10-24_wq517-counterexample-read2_fixtures/run_suites.txt": {
+        "sha256": "408254a5fc3957349b7300b93894dce5e8e75370d0113251991a5b5a2bb23b78",
+        "provenance": "PROME-authored this sitting, commit f5dfb840a (PROME: WQ-517 A \u2014 pending-only foreign paths advisory at the push-gate)",
+        "versions": {
+          "f5dfb840ad3a8958a370609fe210f66b95295746": "408254a5fc3957349b7300b93894dce5e8e75370d0113251991a5b5a2bb23b78"
+        }
+      },
+      "PROME/reports/2026-10-24_wq517-counterexample-read2_fixtures/run_swap.txt": {
+        "sha256": "95050fabd3d6dfb60ba394d8b0f3d721785f4c215766c81dc6994a3da729b550",
+        "provenance": "PROME-authored this sitting, commit f5dfb840a (PROME: WQ-517 A \u2014 pending-only foreign paths advisory at the push-gate)",
+        "versions": {
+          "f5dfb840ad3a8958a370609fe210f66b95295746": "95050fabd3d6dfb60ba394d8b0f3d721785f4c215766c81dc6994a3da729b550"
+        }
+      },
+      "PROME/reports/2026-10-24_wq517-counterexample-read2_fixtures/swap_firstcut.py": {
+        "sha256": "f0a174babc7d572ac767043996b723da48fb8fe38f85f5ac770724df86cc89a4",
+        "provenance": "PROME-authored this sitting, commit f5dfb840a (PROME: WQ-517 A \u2014 pending-only foreign paths advisory at the push-gate)",
+        "versions": {
+          "f5dfb840ad3a8958a370609fe210f66b95295746": "f0a174babc7d572ac767043996b723da48fb8fe38f85f5ac770724df86cc89a4"
+        }
+      },
+      "PROME/reports/2026-10-24_wq517-counterexample-read_fixtures/ce_tests.py": {
+        "sha256": "78c755843f4cfb68690df0f4f770d5038a9bef802b45dcbeca461d2cd6cc3385",
+        "provenance": "PROME-authored this sitting, commit f5dfb840a (PROME: WQ-517 A \u2014 pending-only foreign paths advisory at the push-gate)",
+        "versions": {
+          "f5dfb840ad3a8958a370609fe210f66b95295746": "78c755843f4cfb68690df0f4f770d5038a9bef802b45dcbeca461d2cd6cc3385"
+        }
+      },
+      "PROME/reports/2026-10-24_wq517-counterexample-read_fixtures/ce_tests2.py": {
+        "sha256": "d85c4b6d40f01259c2d82b46beccbadd4e7fa55e5ddac70a337c2773c70d5052",
+        "provenance": "PROME-authored this sitting, commit f5dfb840a (PROME: WQ-517 A \u2014 pending-only foreign paths advisory at the push-gate)",
+        "versions": {
+          "f5dfb840ad3a8958a370609fe210f66b95295746": "d85c4b6d40f01259c2d82b46beccbadd4e7fa55e5ddac70a337c2773c70d5052"
+        }
+      },
+      "PROME/reports/2026-10-24_wq517-counterexample-read_fixtures/run1.txt": {
+        "sha256": "d4106029dba9d8933e094b7eac3e5a4ec461b3933c5d8e05ed281444372b25bb",
+        "provenance": "PROME-authored this sitting, commit f5dfb840a (PROME: WQ-517 A \u2014 pending-only foreign paths advisory at the push-gate)",
+        "versions": {
+          "f5dfb840ad3a8958a370609fe210f66b95295746": "d4106029dba9d8933e094b7eac3e5a4ec461b3933c5d8e05ed281444372b25bb"
+        }
+      },
+      "PROME/reports/2026-10-24_wq517-counterexample-read_fixtures/run2.txt": {
+        "sha256": "5a46ab3cb861ba38ffd1eeeda510c00bd8168758bb565a6ca00e05ecdd69e99b",
+        "provenance": "PROME-authored this sitting, commit f5dfb840a (PROME: WQ-517 A \u2014 pending-only foreign paths advisory at the push-gate)",
+        "versions": {
+          "f5dfb840ad3a8958a370609fe210f66b95295746": "5a46ab3cb861ba38ffd1eeeda510c00bd8168758bb565a6ca00e05ecdd69e99b"
+        }
+      },
+      "PROME/tools/tests/ACCEPTANCE_closeout_gate_ref_pending_only_2026-10-24.md": {
+        "sha256": "213685dc189478f6563706a9fe2c62b21ffc868404d6977a672d889a0d565cde",
+        "provenance": "PROME-authored this sitting, commit f5dfb840a (PROME: WQ-517 A \u2014 pending-only foreign paths advisory at the push-gate)",
+        "versions": {
+          "f5dfb840ad3a8958a370609fe210f66b95295746": "213685dc189478f6563706a9fe2c62b21ffc868404d6977a672d889a0d565cde"
+        }
+      },
+      "PROME/archive/HANDOFF_ROTATED_2026-10-24_prome-06-evening2.md": {
+        "sha256": "287a9e7fb6cdc72bb48c734b00275acc2e46acdc695f9b8f56642f893f557d53",
+        "provenance": "PROME rotation archive, crc in header",
+        "versions": {}
+      },
+      "PROME/archive/SCRATCH_ROTATED_2026-10-24_prome-06-evening2.md": {
+        "sha256": "fda70e36e7b8148bca611480b8968dedcfce7f8087aab3531581c21fa764a716",
+        "provenance": "PROME rotation archive, crc 2414073421 in header",
+        "versions": {}
+      },
+      "PROME/inbox/2026-10-24_from-NEXUS_bounded-brief-cleanup-coordination-BROCK-LIQUID-priority-L555-rollup-FLG-proposal.md": {
+        "sha256": null,
+        "provenance": "PROME consumed-move ORIGIN: git mv to PROME/inbox/processed/ in commit 68ee3061f (inbox drain; the DEST path is delivered beside it)",
+        "versions": {
+          "5a03a625315b5e86a8f918c9fec8b1f980a31275": "d6d79492936ebd00a0a35b105ac1be5a1bc0b3bba6140e20e97d81b6474e2e2e",
+          "68ee3061f4558f9fce6d68e2b404da8c8ea83c2b": null
+        }
       }
     },
     "evidence": []
   },
-  "contract_sha256": "c8f1e5e06045d8416fe26cdf1517b98be78950e629f8b1819f67314215d60ea1",
+  "contract_sha256": "9208275d2c63c6482f08b1008a6744485419e7ce9b54c41862db9b43125db429",
   "observed": {
     "AGENTS/DAEDALUS/runs/GATE_LOG.tsv": [
       {
@@ -255,27 +503,54 @@
         "not_relied_on": true,
         "snapshot": {
           "commits": [
-            "9ef7777b4f97445299863b98b9cce352ebfadda8"
+            "9ef7777b4f97445299863b98b9cce352ebfadda8",
+            "c8a8857df926a9b638b0eaa21293251daeca9099"
           ],
-          "pending": [
-            " M"
-          ],
-          "working_sha256": "5c5788bbe3c459da771ab24427ea5d27730e272152884b415b8ee4833dad0e31",
-          "commit_sha256": "e382db2a4027d8c13f34f35c135f3a41c940d62e77149ee9e658ee8232eaa3fa"
+          "pending": [],
+          "working_sha256": "c70caae9ab4a98f7d70b9627142042d6056dd89fcc03661cd28ca25f46655caf",
+          "commit_sha256": "c70caae9ab4a98f7d70b9627142042d6056dd89fcc03661cd28ca25f46655caf"
         },
-        "recorded_at": "2026-10-24T22:39:48.011286+00:00"
+        "recorded_at": "2026-10-25T00:46:09.631500+00:00"
       }
     ]
   },
   "inventory": {
+    "AGENTS/BROCK/inbox/2026-10-24_from-NEXUS_brief-content-repair-request-before-next-consumption.md": {
+      "commits": [
+        "5a03a625315b5e86a8f918c9fec8b1f980a31275"
+      ],
+      "pending": [],
+      "working_sha256": "868f7810bae39fd8690d0f3456010d0df23f5a265aa09cc02068985d1a5f8d33",
+      "commit_sha256": "868f7810bae39fd8690d0f3456010d0df23f5a265aa09cc02068985d1a5f8d33"
+    },
     "AGENTS/CATO/CONTINUITY.md": {
       "commits": [
         "38e1c23042468cee862d08cd30dcef6668d1b0b7",
-        "8e971a14cb75fdcf10e70cd8ded43db7c8b3c7bf"
+        "8e971a14cb75fdcf10e70cd8ded43db7c8b3c7bf",
+        "682a6f30fdebf107ca01f87c8c2070c9c5ca417a",
+        "801134b14cad04d29530876140d3a5699f53e890",
+        "6f8e2616f9d3cba26cc7de6b43c9fe299498b717"
       ],
       "pending": [],
-      "working_sha256": "290683d8d2b16e9ecd495dcd73777eb9c7560a6e23daee58ee2314caea670a31",
-      "commit_sha256": "290683d8d2b16e9ecd495dcd73777eb9c7560a6e23daee58ee2314caea670a31"
+      "working_sha256": "1d6a04f2782e2890e8720f2a6c8e155ef8769fffe605ab840c589ebe3cd5a109",
+      "commit_sha256": "1d6a04f2782e2890e8720f2a6c8e155ef8769fffe605ab840c589ebe3cd5a109"
+    },
+    "AGENTS/CATO/runs/2026-10-24_1523_prome-decision-review.md": {
+      "commits": [
+        "801134b14cad04d29530876140d3a5699f53e890",
+        "6f8e2616f9d3cba26cc7de6b43c9fe299498b717"
+      ],
+      "pending": [],
+      "working_sha256": "8011b782b7d6c7985675012b2fe1b15af38d1df4913d785c0e5329b4c37a3dea",
+      "commit_sha256": "8011b782b7d6c7985675012b2fe1b15af38d1df4913d785c0e5329b4c37a3dea"
+    },
+    "AGENTS/CATO/runs/2026-10-24_1558_nexus-structure-plan-review.md": {
+      "commits": [
+        "682a6f30fdebf107ca01f87c8c2070c9c5ca417a"
+      ],
+      "pending": [],
+      "working_sha256": "bb4fc68a7dcc3040f295974110363ee827d7c90e9558ef130e6489649c892e0e",
+      "commit_sha256": "bb4fc68a7dcc3040f295974110363ee827d7c90e9558ef130e6489649c892e0e"
     },
     "AGENTS/CATO/runs/2026-10-24_1653_external-systems-borrowing.md": {
       "commits": [
@@ -285,6 +560,14 @@
       "pending": [],
       "working_sha256": "fcfca9a1b16de36d800d9d5bc387133802dc0eae324096f39d56462f1f1ca990",
       "commit_sha256": "fcfca9a1b16de36d800d9d5bc387133802dc0eae324096f39d56462f1f1ca990"
+    },
+    "AGENTS/CATO/runs/2026-10-24_1904_nexus-brief-census-evidence.json": {
+      "commits": [
+        "682a6f30fdebf107ca01f87c8c2070c9c5ca417a"
+      ],
+      "pending": [],
+      "working_sha256": "bdf0d446737af1d2e3f659bdd339339b3c6cb496b8bc4143b3aa9e5c083c8386",
+      "commit_sha256": "bdf0d446737af1d2e3f659bdd339339b3c6cb496b8bc4143b3aa9e5c083c8386"
     },
     "AGENTS/CATO/runs/2026-10-24_sec-comparison/README.md": {
       "commits": [
@@ -366,6 +649,14 @@
       "working_sha256": "f67fe26e8db149aaf8671b445303054248961031c702ff14f903bf77b73ecaf2",
       "commit_sha256": "f67fe26e8db149aaf8671b445303054248961031c702ff14f903bf77b73ecaf2"
     },
+    "AGENTS/DAEDALUS/runs/2026-10-24_RESTART_REVIEW/DELIVERY.json": {
+      "commits": [
+        "c8a8857df926a9b638b0eaa21293251daeca9099"
+      ],
+      "pending": [],
+      "working_sha256": "18b33d032c9ab59016a00510e110044832e15f80c46c19bc3345ae9dde47e938",
+      "commit_sha256": "18b33d032c9ab59016a00510e110044832e15f80c46c19bc3345ae9dde47e938"
+    },
     "AGENTS/DAEDALUS/runs/2026-10-24_RESTART_REVIEW/REPORT.md": {
       "commits": [
         "9ef7777b4f97445299863b98b9cce352ebfadda8"
@@ -392,13 +683,12 @@
     },
     "AGENTS/DAEDALUS/runs/GATE_LOG.tsv": {
       "commits": [
-        "9ef7777b4f97445299863b98b9cce352ebfadda8"
+        "9ef7777b4f97445299863b98b9cce352ebfadda8",
+        "c8a8857df926a9b638b0eaa21293251daeca9099"
       ],
-      "pending": [
-        " M"
-      ],
-      "working_sha256": "5c5788bbe3c459da771ab24427ea5d27730e272152884b415b8ee4833dad0e31",
-      "commit_sha256": "e382db2a4027d8c13f34f35c135f3a41c940d62e77149ee9e658ee8232eaa3fa"
+      "pending": [],
+      "working_sha256": "c70caae9ab4a98f7d70b9627142042d6056dd89fcc03661cd28ca25f46655caf",
+      "commit_sha256": "c70caae9ab4a98f7d70b9627142042d6056dd89fcc03661cd28ca25f46655caf"
     },
     "AGENTS/DEWEY/inbox/2026-10-24_from-PROME_L834-xbrl-compare-integration.md": {
       "commits": [
@@ -408,6 +698,14 @@
       "pending": [],
       "working_sha256": null,
       "commit_sha256": null
+    },
+    "AGENTS/DEWEY/inbox/2026-10-24_from-PROME_WQ488-RULED-EMAIL-A-CAP-closed-overtaken.md": {
+      "commits": [
+        "c15740f5dd2962a7bfd9c90c3bce7a1dde5ed95f"
+      ],
+      "pending": [],
+      "working_sha256": "7099511f3090f4a36795ff1125941902adbf36fdb76b728b3dd1968c56154bb5",
+      "commit_sha256": "7099511f3090f4a36795ff1125941902adbf36fdb76b728b3dd1968c56154bb5"
     },
     "AGENTS/DEWEY/inbox/processed/2026-10-24_from-PROME_L834-xbrl-compare-integration.md": {
       "commits": [
@@ -684,30 +982,73 @@
       "working_sha256": "39edc6421b6251fcd77008d70ea690fc70431ce2d2287da6f7916bcc601f6c75",
       "commit_sha256": "39edc6421b6251fcd77008d70ea690fc70431ce2d2287da6f7916bcc601f6c75"
     },
-    "AGENTS/NEXUS/BRIEFS_MAP.md": {
+    "AGENTS/FLG/inbox/2026-10-24_from-NEXUS_WQ-520-concise-FULL-brief-assignment-next-owner-session.md": {
       "commits": [
-        "08269e4310181dc98be182fef9a31ad9217a0978"
+        "ad10737e7795e27f619e1b8efa976b0b657908dd"
       ],
       "pending": [],
-      "working_sha256": "76d76fed54962b227146b0eee1b82b46b3a6a4c6f923e0d2df889aca0599e672",
-      "commit_sha256": "76d76fed54962b227146b0eee1b82b46b3a6a4c6f923e0d2df889aca0599e672"
+      "working_sha256": "04d7fc87ec10e89c0268cf4d4d5690fcd9d1404de27268ae8ee8bda7c1ab23ce",
+      "commit_sha256": "04d7fc87ec10e89c0268cf4d4d5690fcd9d1404de27268ae8ee8bda7c1ab23ce"
+    },
+    "AGENTS/LIQUID/inbox/2026-10-24_from-NEXUS_brief-content-repair-request-before-next-consumption.md": {
+      "commits": [
+        "5a03a625315b5e86a8f918c9fec8b1f980a31275"
+      ],
+      "pending": [],
+      "working_sha256": "1b9a0d9d0e2e15ac7f3c0315efe06e933bb1d1710ed5559863c8b19a398407ce",
+      "commit_sha256": "1b9a0d9d0e2e15ac7f3c0315efe06e933bb1d1710ed5559863c8b19a398407ce"
+    },
+    "AGENTS/LIQUID/inbox/2026-10-24_from-PROME_closeout-brief-fold-step-missing-C4-and-NEXUS-content-repair.md": {
+      "commits": [
+        "38a5053e0aa9e7d1f1fb78d61ca78b23aa77a87b"
+      ],
+      "pending": [],
+      "working_sha256": "9edf12cf6f2b9ee7e2c80e7aafd38ce4918621d69818bf467e9240dc58cfce64",
+      "commit_sha256": "9edf12cf6f2b9ee7e2c80e7aafd38ce4918621d69818bf467e9240dc58cfce64"
+    },
+    "AGENTS/NEXUS/BRIEFS_MAP.md": {
+      "commits": [
+        "08269e4310181dc98be182fef9a31ad9217a0978",
+        "5a03a625315b5e86a8f918c9fec8b1f980a31275",
+        "ad10737e7795e27f619e1b8efa976b0b657908dd"
+      ],
+      "pending": [],
+      "working_sha256": "5670de42d9ae89ae72a4981db2ed150203b5699b84726af5000847a851933148",
+      "commit_sha256": "5670de42d9ae89ae72a4981db2ed150203b5699b84726af5000847a851933148"
     },
     "AGENTS/NEXUS/LAST_COMPLETION.md": {
       "commits": [
         "bb35e3e36dd166e01ae55062c4d787b9cb61f744",
-        "08269e4310181dc98be182fef9a31ad9217a0978"
+        "08269e4310181dc98be182fef9a31ad9217a0978",
+        "5a03a625315b5e86a8f918c9fec8b1f980a31275",
+        "35aef4fb5eab3f6b3559a0947dd3036491da2937",
+        "19d266fc82b4de5cf4ac87126879e8077ed080bb",
+        "ad10737e7795e27f619e1b8efa976b0b657908dd",
+        "a0c121637dfbbc97c0bd5879aa86a2a19f77e569",
+        "45c5a1b119314d1e381ab4faa6d7a244fb6f9b0d"
       ],
       "pending": [],
-      "working_sha256": "141b0657287ae87a69f429b44d6adb7bcfa679f0119026e29d7c7129f0741c29",
-      "commit_sha256": "141b0657287ae87a69f429b44d6adb7bcfa679f0119026e29d7c7129f0741c29"
+      "working_sha256": "7446425c948b951a998bb35ef0d0f4d3629ec55b7939108df85db45f96de5aed",
+      "commit_sha256": "7446425c948b951a998bb35ef0d0f4d3629ec55b7939108df85db45f96de5aed"
+    },
+    "AGENTS/NEXUS/STATUS.md": {
+      "commits": [
+        "35aef4fb5eab3f6b3559a0947dd3036491da2937",
+        "a0c121637dfbbc97c0bd5879aa86a2a19f77e569"
+      ],
+      "pending": [],
+      "working_sha256": "388bcddaacfda7756ca48cfd433215a42c5abe01043c8a794614b6e0acdc2271",
+      "commit_sha256": "388bcddaacfda7756ca48cfd433215a42c5abe01043c8a794614b6e0acdc2271"
     },
     "AGENTS/NEXUS/archive/LAST_COMPLETION_COLD_2026-10-24.md": {
       "commits": [
-        "bb35e3e36dd166e01ae55062c4d787b9cb61f744"
+        "bb35e3e36dd166e01ae55062c4d787b9cb61f744",
+        "35aef4fb5eab3f6b3559a0947dd3036491da2937",
+        "19d266fc82b4de5cf4ac87126879e8077ed080bb"
       ],
       "pending": [],
-      "working_sha256": "30aa49c9cc005cd0b776fbad3e285560bb2e9db9d9173e65cdd53bfb4d2f442f",
-      "commit_sha256": "30aa49c9cc005cd0b776fbad3e285560bb2e9db9d9173e65cdd53bfb4d2f442f"
+      "working_sha256": "8c7e2a7cc07c5d59967a1a1ca0cc112745d47d2d3568bc659001f5d3cdfb9b21",
+      "commit_sha256": "8c7e2a7cc07c5d59967a1a1ca0cc112745d47d2d3568bc659001f5d3cdfb9b21"
     },
     "AGENTS/NEXUS/research/2026-10-24_brief_census/RECORD.md": {
       "commits": [
@@ -725,6 +1066,14 @@
       "working_sha256": "a4b493193268e225049e2af8e4503a1e63ddfae6a2721be714ddc9efdc7b8540",
       "commit_sha256": "a4b493193268e225049e2af8e4503a1e63ddfae6a2721be714ddc9efdc7b8540"
     },
+    "AGENTS/TERRY/inbox/2026-10-24_from-PROME_WQ493-RULED-A-prospective-trigger-probability.md": {
+      "commits": [
+        "c15740f5dd2962a7bfd9c90c3bce7a1dde5ed95f"
+      ],
+      "pending": [],
+      "working_sha256": "8a30fc9bbf59d3e883a41f6609f874e9facd98b4b920d26ca2cb1f341eda2572",
+      "commit_sha256": "8a30fc9bbf59d3e883a41f6609f874e9facd98b4b920d26ca2cb1f341eda2572"
+    },
     "AGENTS/VULCAN/inbox/2026-10-24_from-DEWEY_L834-saved-packets.md": {
       "commits": [
         "5fb7539d3c6d81978e4a49436414846075e45097"
@@ -741,54 +1090,141 @@
       "working_sha256": "278efd6149091e8be59bc711e6f507459f4fbf06cbe172b110e7a9749a555753",
       "commit_sha256": "278efd6149091e8be59bc711e6f507459f4fbf06cbe172b110e7a9749a555753"
     },
-    "PROME/CLOSEOUT.md": {
+    "CLAUDE.md": {
       "commits": [
-        "0297374edf4a9d9194b58e933b40f07f2fb42aea"
+        "3d0f802a073ee6fcb554f1235861a39193ff9005"
       ],
       "pending": [],
-      "working_sha256": "ac7a2c5e4aeb3e41305a248abacfc5b69b4a4120eac1bf848b174ae0693824b5",
-      "commit_sha256": "ac7a2c5e4aeb3e41305a248abacfc5b69b4a4120eac1bf848b174ae0693824b5"
+      "working_sha256": "fd7db0825391fa5c6804e42d76e10deb81a94cc324e2cdc1680ed7feaeb5b778",
+      "commit_sha256": "fd7db0825391fa5c6804e42d76e10deb81a94cc324e2cdc1680ed7feaeb5b778"
+    },
+    "FORUM/README.md": {
+      "commits": [
+        "3d0f802a073ee6fcb554f1235861a39193ff9005"
+      ],
+      "pending": [],
+      "working_sha256": "26c1eea20ef744c8ecc048b8bd0b21ea26936dbc5e9767f1a53f145164e9a57d",
+      "commit_sha256": "26c1eea20ef744c8ecc048b8bd0b21ea26936dbc5e9767f1a53f145164e9a57d"
+    },
+    "PROME/AUTONOMY.md": {
+      "commits": [
+        "54ef1c424947a8e86e3f27d4f442bcf2aef7fd0d"
+      ],
+      "pending": [],
+      "working_sha256": "822248b65793e4317446e80a0936ead2596a53762991de4b25d58d0241b60db7",
+      "commit_sha256": "822248b65793e4317446e80a0936ead2596a53762991de4b25d58d0241b60db7"
+    },
+    "PROME/CLAUDE.md": {
+      "commits": [
+        "54ef1c424947a8e86e3f27d4f442bcf2aef7fd0d"
+      ],
+      "pending": [],
+      "working_sha256": "44e36ac69c1847079490f2fed930d35e019376ba42370812859bba5982f82cfb",
+      "commit_sha256": "44e36ac69c1847079490f2fed930d35e019376ba42370812859bba5982f82cfb"
+    },
+    "PROME/CLOSEOUT.md": {
+      "commits": [
+        "0297374edf4a9d9194b58e933b40f07f2fb42aea",
+        "f5dfb840ad3a8958a370609fe210f66b95295746"
+      ],
+      "pending": [],
+      "working_sha256": "ab1f04eb32e796c1d348372d5b6dbad293b2180a0f6ee7c5cff421e08603d9d5",
+      "commit_sha256": "ab1f04eb32e796c1d348372d5b6dbad293b2180a0f6ee7c5cff421e08603d9d5"
     },
     "PROME/DOCKET.tsv": {
       "commits": [
         "6896076827ea3eccf2fccabe51e597f88286c121",
         "754ab102e832712979446b820deae60e0d6e2b37",
-        "0297374edf4a9d9194b58e933b40f07f2fb42aea"
+        "0297374edf4a9d9194b58e933b40f07f2fb42aea",
+        "2e2d391442a5d93e92ec1858fbe68f8c7637250e",
+        "68ee3061f4558f9fce6d68e2b404da8c8ea83c2b",
+        "54ef1c424947a8e86e3f27d4f442bcf2aef7fd0d",
+        "f5dfb840ad3a8958a370609fe210f66b95295746"
       ],
-      "pending": [
-        " M"
-      ],
-      "working_sha256": "f9dca86448a22d0d320a78a2d2ee248ba94ad09e14443242822dff97157be0ce",
-      "commit_sha256": "021e89d44cc88c97ae7dbd9fe14c3cb900b51edcc6febe8fad310b2c8ed9f1c3"
+      "pending": [],
+      "working_sha256": "1ba0a0264f62bff147ce7171c9faf4aac52b71cdb25d576b1b4bf592ebaaf0c5",
+      "commit_sha256": "1ba0a0264f62bff147ce7171c9faf4aac52b71cdb25d576b1b4bf592ebaaf0c5"
     },
     "PROME/HANDOFF.md": {
-      "commits": [],
+      "commits": [
+        "2e2d391442a5d93e92ec1858fbe68f8c7637250e"
+      ],
       "pending": [
         " M"
       ],
-      "working_sha256": "b8306b3dbd6a0156941c6a809bdd9ace3a7cbe60ecacc00997e5d7c6610ea34c",
-      "commit_sha256": "155bd24a8ecfd1af6b82945a8539cd1eb37acb0cf5879ad97df890535f883f7c"
+      "working_sha256": "8dffe08d4a7848e9e57fa4d204f3bc6fe7486b9ef1ce605e45356f66ced97a35",
+      "commit_sha256": "b8306b3dbd6a0156941c6a809bdd9ace3a7cbe60ecacc00997e5d7c6610ea34c"
     },
     "PROME/SCRATCH.md": {
-      "commits": [],
+      "commits": [
+        "2e2d391442a5d93e92ec1858fbe68f8c7637250e",
+        "68ee3061f4558f9fce6d68e2b404da8c8ea83c2b",
+        "54ef1c424947a8e86e3f27d4f442bcf2aef7fd0d"
+      ],
       "pending": [
         " M"
       ],
-      "working_sha256": "b0de82aadfcb5e4383263fdc65dce199e131a9ee09f783262cb4145b51067493",
-      "commit_sha256": "3750dfe379981729fe2dbcc7d9edaa62af93ad8fea941a2db8865650f3baf5ed"
+      "working_sha256": "7ab55614537a3d3f0595ccc4d78cdd72a71867699889cb5624bb469f2f5896ca",
+      "commit_sha256": "138e16fd53b772cbedb4b8850bcac440129e5a1676b0143ad5d5be436e6865c7"
     },
     "PROME/STATUS.md": {
-      "commits": [],
+      "commits": [
+        "2e2d391442a5d93e92ec1858fbe68f8c7637250e"
+      ],
       "pending": [
         " M"
       ],
-      "working_sha256": "139f804d25cb9d2edb0547b2de33d7aa0f419c06992c6ac46ba598468d4e4749",
-      "commit_sha256": "461467ee4cb63267f521e95bc352db0dc4c058170ecce51260968430c858441a"
+      "working_sha256": "44be33eba1dfc70c3c71b332a1eedd27d16b0c92abcca91454db786ec018a61b",
+      "commit_sha256": "139f804d25cb9d2edb0547b2de33d7aa0f419c06992c6ac46ba598468d4e4749"
+    },
+    "PROME/WILL_QUEUE.md": {
+      "commits": [
+        "68ee3061f4558f9fce6d68e2b404da8c8ea83c2b",
+        "54ef1c424947a8e86e3f27d4f442bcf2aef7fd0d"
+      ],
+      "pending": [
+        " M"
+      ],
+      "working_sha256": "0ff059c98052b2429c0953acaf30faba8aa99ee551304b83c9ff9ca05c8ab430",
+      "commit_sha256": "5f6823ac4477030ea02ec5a57dceb4c6595046a6da5bbc7440e76e6d0c168a76"
+    },
+    "PROME/archive/HANDOFF_ROTATED_2026-10-24_prome-06-evening2.md": {
+      "commits": [],
+      "pending": [
+        "??"
+      ],
+      "working_sha256": "287a9e7fb6cdc72bb48c734b00275acc2e46acdc695f9b8f56642f893f557d53",
+      "commit_sha256": null
+    },
+    "PROME/archive/SCRATCH_ROTATED_2026-10-24_prome-06-evening2.md": {
+      "commits": [],
+      "pending": [
+        "??"
+      ],
+      "working_sha256": "fda70e36e7b8148bca611480b8968dedcfce7f8087aab3531581c21fa764a716",
+      "commit_sha256": null
+    },
+    "PROME/ideas/list.tsv": {
+      "commits": [
+        "54ef1c424947a8e86e3f27d4f442bcf2aef7fd0d"
+      ],
+      "pending": [],
+      "working_sha256": "9b4411fb6cfdaa8165828f613e8be7e635def96f344a50632fd193193e97309f",
+      "commit_sha256": "9b4411fb6cfdaa8165828f613e8be7e635def96f344a50632fd193193e97309f"
     },
     "PROME/inbox/2026-10-24_from-DEWEY_L834-xbrl-compare-delivered.md": {
       "commits": [
         "5fb7539d3c6d81978e4a49436414846075e45097",
         "754ab102e832712979446b820deae60e0d6e2b37"
+      ],
+      "pending": [],
+      "working_sha256": null,
+      "commit_sha256": null
+    },
+    "PROME/inbox/2026-10-24_from-NEXUS_bounded-brief-cleanup-coordination-BROCK-LIQUID-priority-L555-rollup-FLG-proposal.md": {
+      "commits": [
+        "5a03a625315b5e86a8f918c9fec8b1f980a31275",
+        "68ee3061f4558f9fce6d68e2b404da8c8ea83c2b"
       ],
       "pending": [],
       "working_sha256": null,
@@ -801,6 +1237,45 @@
       "pending": [],
       "working_sha256": "fbf09b55075812ab85e42cbc2d739de73a8bfce8ebbfad87d6d26cc724e2db97",
       "commit_sha256": "fbf09b55075812ab85e42cbc2d739de73a8bfce8ebbfad87d6d26cc724e2db97"
+    },
+    "PROME/inbox/processed/2026-10-24_from-NEXUS_bounded-brief-cleanup-coordination-BROCK-LIQUID-priority-L555-rollup-FLG-proposal.md": {
+      "commits": [
+        "68ee3061f4558f9fce6d68e2b404da8c8ea83c2b"
+      ],
+      "pending": [],
+      "working_sha256": "d6d79492936ebd00a0a35b105ac1be5a1bc0b3bba6140e20e97d81b6474e2e2e",
+      "commit_sha256": "d6d79492936ebd00a0a35b105ac1be5a1bc0b3bba6140e20e97d81b6474e2e2e"
+    },
+    "PROME/proposals/2026-10-24_wq505-486-517-493-488-RULED.md": {
+      "commits": [
+        "3d0f802a073ee6fcb554f1235861a39193ff9005",
+        "f5dfb840ad3a8958a370609fe210f66b95295746"
+      ],
+      "pending": [],
+      "working_sha256": "68ede5698c888ee527bede4bee2b3c746e0a5fb592803651942f8c696b634379",
+      "commit_sha256": "68ede5698c888ee527bede4bee2b3c746e0a5fb592803651942f8c696b634379"
+    },
+    "PROME/registry/WQ_LEDGER.crc": {
+      "commits": [
+        "68ee3061f4558f9fce6d68e2b404da8c8ea83c2b",
+        "54ef1c424947a8e86e3f27d4f442bcf2aef7fd0d"
+      ],
+      "pending": [
+        " M"
+      ],
+      "working_sha256": "3eb6923b3d75fe33baedd3c65b5fc62c052121ebf7bd52c4adb0dad89cee4a5d",
+      "commit_sha256": "00a1c94eb9a35526cb7290dc67362082ef4d83b0b339bd8543a277ebbd670bea"
+    },
+    "PROME/registry/WQ_LEDGER.tsv": {
+      "commits": [
+        "68ee3061f4558f9fce6d68e2b404da8c8ea83c2b",
+        "54ef1c424947a8e86e3f27d4f442bcf2aef7fd0d"
+      ],
+      "pending": [
+        " M"
+      ],
+      "working_sha256": "84b566b072b8139e2393e5fd60a67c6b1fab8a6ab7475598d933f2bfcf7746c3",
+      "commit_sha256": "c971065d5c7ff54081ad5fd9b96c1cb09d59279454e500bef93dfa22bee10c62"
     },
     "PROME/reports/2026-10-24_L796-pin-counterexample-read.md": {
       "commits": [
@@ -914,31 +1389,156 @@
       "working_sha256": "3f29d94b0ee1c346610588a716cd1d906f7f73694cc19a76705cd14839aae5c7",
       "commit_sha256": "3f29d94b0ee1c346610588a716cd1d906f7f73694cc19a76705cd14839aae5c7"
     },
-    "PROME/state/CALENDAR.md": {
-      "commits": [],
-      "pending": [
-        " M"
+    "PROME/reports/2026-10-24_wq486-carve-out-5-plan-read.md": {
+      "commits": [
+        "3d0f802a073ee6fcb554f1235861a39193ff9005"
       ],
-      "working_sha256": "f5296136b586de82c1b18572fbc42fa72fa5cbbd58f6917f0731c4537e739e96",
-      "commit_sha256": "d99725af42d3b0b96a0bfb092214e685bb1e3a2cd9bfaf592958720aef0aa5c6"
+      "pending": [],
+      "working_sha256": "ada71ba416cb6695ce5e4e79e61b0fd27be84fd386ed4b47d8395d4cbb240736",
+      "commit_sha256": "ada71ba416cb6695ce5e4e79e61b0fd27be84fd386ed4b47d8395d4cbb240736"
+    },
+    "PROME/reports/2026-10-24_wq486-carve-out-5-result-read.md": {
+      "commits": [
+        "3d0f802a073ee6fcb554f1235861a39193ff9005"
+      ],
+      "pending": [],
+      "working_sha256": "c71168f8ae14af84849af06e8aa0b80a5a5d6d66d206ac224e9267f31b1fde91",
+      "commit_sha256": "c71168f8ae14af84849af06e8aa0b80a5a5d6d66d206ac224e9267f31b1fde91"
+    },
+    "PROME/reports/2026-10-24_wq517-counterexample-read.md": {
+      "commits": [
+        "f5dfb840ad3a8958a370609fe210f66b95295746"
+      ],
+      "pending": [],
+      "working_sha256": "4e3d5c1d9e6e98b738c114e08670b22a9914e3a6f61e4255963cb6df202e1576",
+      "commit_sha256": "4e3d5c1d9e6e98b738c114e08670b22a9914e3a6f61e4255963cb6df202e1576"
+    },
+    "PROME/reports/2026-10-24_wq517-counterexample-read2.md": {
+      "commits": [
+        "f5dfb840ad3a8958a370609fe210f66b95295746"
+      ],
+      "pending": [],
+      "working_sha256": "7d0f74bbc629043b873fac804616c359e06430efca96a6b15fa7c6f161a17882",
+      "commit_sha256": "7d0f74bbc629043b873fac804616c359e06430efca96a6b15fa7c6f161a17882"
+    },
+    "PROME/reports/2026-10-24_wq517-counterexample-read2_fixtures/ce_tests3.py": {
+      "commits": [
+        "f5dfb840ad3a8958a370609fe210f66b95295746"
+      ],
+      "pending": [],
+      "working_sha256": "0e4810c84cae4ddf985de108793702b0822f2f2f6dd4ca56d93277bdf8e64a92",
+      "commit_sha256": "0e4810c84cae4ddf985de108793702b0822f2f2f6dd4ca56d93277bdf8e64a92"
+    },
+    "PROME/reports/2026-10-24_wq517-counterexample-read2_fixtures/run2b.txt": {
+      "commits": [
+        "f5dfb840ad3a8958a370609fe210f66b95295746"
+      ],
+      "pending": [],
+      "working_sha256": "2aef5b336615ac3a88464b4edc9708d1220ed69a8ddcf53c740fe8c7c29c6887",
+      "commit_sha256": "2aef5b336615ac3a88464b4edc9708d1220ed69a8ddcf53c740fe8c7c29c6887"
+    },
+    "PROME/reports/2026-10-24_wq517-counterexample-read2_fixtures/run3.txt": {
+      "commits": [
+        "f5dfb840ad3a8958a370609fe210f66b95295746"
+      ],
+      "pending": [],
+      "working_sha256": "3bfe5010b182601f761ac2af8d5b633c98b08d694bbc03dce1b73f9a31f2865b",
+      "commit_sha256": "3bfe5010b182601f761ac2af8d5b633c98b08d694bbc03dce1b73f9a31f2865b"
+    },
+    "PROME/reports/2026-10-24_wq517-counterexample-read2_fixtures/run_F.txt": {
+      "commits": [
+        "f5dfb840ad3a8958a370609fe210f66b95295746"
+      ],
+      "pending": [],
+      "working_sha256": "282a90cf291b8ede01c2bb4d72d3c15c320141de3981e3b81771bb4e40326818",
+      "commit_sha256": "282a90cf291b8ede01c2bb4d72d3c15c320141de3981e3b81771bb4e40326818"
+    },
+    "PROME/reports/2026-10-24_wq517-counterexample-read2_fixtures/run_suites.txt": {
+      "commits": [
+        "f5dfb840ad3a8958a370609fe210f66b95295746"
+      ],
+      "pending": [],
+      "working_sha256": "408254a5fc3957349b7300b93894dce5e8e75370d0113251991a5b5a2bb23b78",
+      "commit_sha256": "408254a5fc3957349b7300b93894dce5e8e75370d0113251991a5b5a2bb23b78"
+    },
+    "PROME/reports/2026-10-24_wq517-counterexample-read2_fixtures/run_swap.txt": {
+      "commits": [
+        "f5dfb840ad3a8958a370609fe210f66b95295746"
+      ],
+      "pending": [],
+      "working_sha256": "95050fabd3d6dfb60ba394d8b0f3d721785f4c215766c81dc6994a3da729b550",
+      "commit_sha256": "95050fabd3d6dfb60ba394d8b0f3d721785f4c215766c81dc6994a3da729b550"
+    },
+    "PROME/reports/2026-10-24_wq517-counterexample-read2_fixtures/swap_firstcut.py": {
+      "commits": [
+        "f5dfb840ad3a8958a370609fe210f66b95295746"
+      ],
+      "pending": [],
+      "working_sha256": "f0a174babc7d572ac767043996b723da48fb8fe38f85f5ac770724df86cc89a4",
+      "commit_sha256": "f0a174babc7d572ac767043996b723da48fb8fe38f85f5ac770724df86cc89a4"
+    },
+    "PROME/reports/2026-10-24_wq517-counterexample-read_fixtures/ce_tests.py": {
+      "commits": [
+        "f5dfb840ad3a8958a370609fe210f66b95295746"
+      ],
+      "pending": [],
+      "working_sha256": "78c755843f4cfb68690df0f4f770d5038a9bef802b45dcbeca461d2cd6cc3385",
+      "commit_sha256": "78c755843f4cfb68690df0f4f770d5038a9bef802b45dcbeca461d2cd6cc3385"
+    },
+    "PROME/reports/2026-10-24_wq517-counterexample-read_fixtures/ce_tests2.py": {
+      "commits": [
+        "f5dfb840ad3a8958a370609fe210f66b95295746"
+      ],
+      "pending": [],
+      "working_sha256": "d85c4b6d40f01259c2d82b46beccbadd4e7fa55e5ddac70a337c2773c70d5052",
+      "commit_sha256": "d85c4b6d40f01259c2d82b46beccbadd4e7fa55e5ddac70a337c2773c70d5052"
+    },
+    "PROME/reports/2026-10-24_wq517-counterexample-read_fixtures/run1.txt": {
+      "commits": [
+        "f5dfb840ad3a8958a370609fe210f66b95295746"
+      ],
+      "pending": [],
+      "working_sha256": "d4106029dba9d8933e094b7eac3e5a4ec461b3933c5d8e05ed281444372b25bb",
+      "commit_sha256": "d4106029dba9d8933e094b7eac3e5a4ec461b3933c5d8e05ed281444372b25bb"
+    },
+    "PROME/reports/2026-10-24_wq517-counterexample-read_fixtures/run2.txt": {
+      "commits": [
+        "f5dfb840ad3a8958a370609fe210f66b95295746"
+      ],
+      "pending": [],
+      "working_sha256": "5a46ab3cb861ba38ffd1eeeda510c00bd8168758bb565a6ca00e05ecdd69e99b",
+      "commit_sha256": "5a46ab3cb861ba38ffd1eeeda510c00bd8168758bb565a6ca00e05ecdd69e99b"
+    },
+    "PROME/state/CALENDAR.md": {
+      "commits": [
+        "2e2d391442a5d93e92ec1858fbe68f8c7637250e",
+        "68ee3061f4558f9fce6d68e2b404da8c8ea83c2b",
+        "54ef1c424947a8e86e3f27d4f442bcf2aef7fd0d",
+        "f5dfb840ad3a8958a370609fe210f66b95295746"
+      ],
+      "pending": [],
+      "working_sha256": "679aa71bfa6e2720483f1c7b32cc35c92a4231edc8f6226feeb30d9ddc493170",
+      "commit_sha256": "679aa71bfa6e2720483f1c7b32cc35c92a4231edc8f6226feeb30d9ddc493170"
     },
     "PROME/state/ORCH_INFLIGHT.md": {
       "commits": [
         "754ab102e832712979446b820deae60e0d6e2b37",
-        "0297374edf4a9d9194b58e933b40f07f2fb42aea"
+        "0297374edf4a9d9194b58e933b40f07f2fb42aea",
+        "f5dfb840ad3a8958a370609fe210f66b95295746"
       ],
       "pending": [],
-      "working_sha256": "a0841e1da45e2fef6d023bf9d539b46340e096d781805f618052ef26807dbf94",
-      "commit_sha256": "a0841e1da45e2fef6d023bf9d539b46340e096d781805f618052ef26807dbf94"
+      "working_sha256": "13841776c6d950d5857720037db7ec5b5234b96bfaf229faa6362c87bb876037",
+      "commit_sha256": "13841776c6d950d5857720037db7ec5b5234b96bfaf229faa6362c87bb876037"
     },
     "PROME/state/ORCH_LOG.tsv": {
       "commits": [
         "754ab102e832712979446b820deae60e0d6e2b37",
-        "0297374edf4a9d9194b58e933b40f07f2fb42aea"
+        "0297374edf4a9d9194b58e933b40f07f2fb42aea",
+        "f5dfb840ad3a8958a370609fe210f66b95295746"
       ],
       "pending": [],
-      "working_sha256": "fa8eb7ab2389ca9638435c3b8c6553f2d214cb6fab289f182e14117a2e95208a",
-      "commit_sha256": "fa8eb7ab2389ca9638435c3b8c6553f2d214cb6fab289f182e14117a2e95208a"
+      "working_sha256": "57a8fbff11f286c107eefa53a032fa2acc5e1979c22f2b9579e6907804fe232f",
+      "commit_sha256": "57a8fbff11f286c107eefa53a032fa2acc5e1979c22f2b9579e6907804fe232f"
     },
     "PROME/state/firetime_dispositioned.tsv": {
       "commits": [
@@ -950,19 +1550,21 @@
     },
     "PROME/tools/ARGUS_CONTRACT.md": {
       "commits": [
-        "0297374edf4a9d9194b58e933b40f07f2fb42aea"
+        "0297374edf4a9d9194b58e933b40f07f2fb42aea",
+        "f5dfb840ad3a8958a370609fe210f66b95295746"
       ],
       "pending": [],
-      "working_sha256": "79c07d2b16995c195422cdb95c0e0b4941cc3b64802c026f085bf295e041ee45",
-      "commit_sha256": "79c07d2b16995c195422cdb95c0e0b4941cc3b64802c026f085bf295e041ee45"
+      "working_sha256": "23e8dc651f70ed45dec2b2eb89791da38d988a963cf06ba146edd7cc4d388f16",
+      "commit_sha256": "23e8dc651f70ed45dec2b2eb89791da38d988a963cf06ba146edd7cc4d388f16"
     },
     "PROME/tools/argus_contract.py": {
       "commits": [
-        "0297374edf4a9d9194b58e933b40f07f2fb42aea"
+        "0297374edf4a9d9194b58e933b40f07f2fb42aea",
+        "f5dfb840ad3a8958a370609fe210f66b95295746"
       ],
       "pending": [],
-      "working_sha256": "31a261bdad3252e5f8d6e46f647fafb38027424c41afbcade0a90bbf1407ad76",
-      "commit_sha256": "31a261bdad3252e5f8d6e46f647fafb38027424c41afbcade0a90bbf1407ad76"
+      "working_sha256": "771b33cee062a04b553bb1489e81bbf4563b2fe78ac4ea8267dd50627c1f534e",
+      "commit_sha256": "771b33cee062a04b553bb1489e81bbf4563b2fe78ac4ea8267dd50627c1f534e"
     },
     "PROME/tools/tests/ACCEPTANCE_closeout_gate_perimeter_pin_2026-10-24.md": {
       "commits": [
@@ -972,31 +1574,58 @@
       "working_sha256": "72c2ed47fbb37953256a62cf6ab7b00b618db16490bd6f522b52f1bed502c5f2",
       "commit_sha256": "72c2ed47fbb37953256a62cf6ab7b00b618db16490bd6f522b52f1bed502c5f2"
     },
-    "PROME/tools/tests/test_argus_contract.py": {
+    "PROME/tools/tests/ACCEPTANCE_closeout_gate_ref_pending_only_2026-10-24.md": {
       "commits": [
-        "0297374edf4a9d9194b58e933b40f07f2fb42aea"
+        "f5dfb840ad3a8958a370609fe210f66b95295746"
       ],
       "pending": [],
-      "working_sha256": "bcb44d614be658d04cb9268cc2b96ab22250fd63f3e04edbb05384b3e0475ef8",
-      "commit_sha256": "bcb44d614be658d04cb9268cc2b96ab22250fd63f3e04edbb05384b3e0475ef8"
+      "working_sha256": "213685dc189478f6563706a9fe2c62b21ffc868404d6977a672d889a0d565cde",
+      "commit_sha256": "213685dc189478f6563706a9fe2c62b21ffc868404d6977a672d889a0d565cde"
+    },
+    "PROME/tools/tests/test_argus_contract.py": {
+      "commits": [
+        "0297374edf4a9d9194b58e933b40f07f2fb42aea",
+        "f5dfb840ad3a8958a370609fe210f66b95295746"
+      ],
+      "pending": [],
+      "working_sha256": "31698778cb4392436da989d759d4c18c7bc1ffac3c0b8b3771a92b10c78f33b9",
+      "commit_sha256": "31698778cb4392436da989d759d4c18c7bc1ffac3c0b8b3771a92b10c78f33b9"
     },
     "memory/2026-10-24.md": {
       "commits": [
         "0297374edf4a9d9194b58e933b40f07f2fb42aea"
       ],
-      "pending": [],
-      "working_sha256": "6a0438bd384c68c929865f41e6a2f56dc93597cfc0bc9be7604d2c0952ea3579",
+      "pending": [
+        " M"
+      ],
+      "working_sha256": "09bf355a4973bf5b72878c1c941f5c5820a1c29856a2a21b6a793239760fc4e8",
       "commit_sha256": "6a0438bd384c68c929865f41e6a2f56dc93597cfc0bc9be7604d2c0952ea3579"
     }
   },
   "attributed_by_commit": {
+    "AGENTS/BROCK/inbox/2026-10-24_from-NEXUS_brief-content-repair-request-before-next-consumption.md": [
+      "5a03a625315b5e86a8f918c9fec8b1f980a31275"
+    ],
     "AGENTS/CATO/CONTINUITY.md": [
       "38e1c23042468cee862d08cd30dcef6668d1b0b7",
-      "8e971a14cb75fdcf10e70cd8ded43db7c8b3c7bf"
+      "8e971a14cb75fdcf10e70cd8ded43db7c8b3c7bf",
+      "682a6f30fdebf107ca01f87c8c2070c9c5ca417a",
+      "801134b14cad04d29530876140d3a5699f53e890",
+      "6f8e2616f9d3cba26cc7de6b43c9fe299498b717"
+    ],
+    "AGENTS/CATO/runs/2026-10-24_1523_prome-decision-review.md": [
+      "801134b14cad04d29530876140d3a5699f53e890",
+      "6f8e2616f9d3cba26cc7de6b43c9fe299498b717"
+    ],
+    "AGENTS/CATO/runs/2026-10-24_1558_nexus-structure-plan-review.md": [
+      "682a6f30fdebf107ca01f87c8c2070c9c5ca417a"
     ],
     "AGENTS/CATO/runs/2026-10-24_1653_external-systems-borrowing.md": [
       "38e1c23042468cee862d08cd30dcef6668d1b0b7",
       "8e971a14cb75fdcf10e70cd8ded43db7c8b3c7bf"
+    ],
+    "AGENTS/CATO/runs/2026-10-24_1904_nexus-brief-census-evidence.json": [
+      "682a6f30fdebf107ca01f87c8c2070c9c5ca417a"
     ],
     "AGENTS/CATO/runs/2026-10-24_sec-comparison/README.md": [
       "38e1c23042468cee862d08cd30dcef6668d1b0b7"
@@ -1028,6 +1657,9 @@
     "AGENTS/DAEDALUS/runs/2026-10-24_BOOT_ORIENTATION.json": [
       "9ef7777b4f97445299863b98b9cce352ebfadda8"
     ],
+    "AGENTS/DAEDALUS/runs/2026-10-24_RESTART_REVIEW/DELIVERY.json": [
+      "c8a8857df926a9b638b0eaa21293251daeca9099"
+    ],
     "AGENTS/DAEDALUS/runs/2026-10-24_RESTART_REVIEW/REPORT.md": [
       "9ef7777b4f97445299863b98b9cce352ebfadda8"
     ],
@@ -1036,6 +1668,10 @@
     ],
     "AGENTS/DAEDALUS/runs/2026-10-24_RESTART_REVIEW/measurements.json": [
       "9ef7777b4f97445299863b98b9cce352ebfadda8"
+    ],
+    "AGENTS/DAEDALUS/runs/GATE_LOG.tsv": [
+      "9ef7777b4f97445299863b98b9cce352ebfadda8",
+      "c8a8857df926a9b638b0eaa21293251daeca9099"
     ],
     "AGENTS/DEWEY/research/edgar_xbrl/2026-10-24_0001326801_FinanceLeasePrincipalPayments_USD/2025-01-01_2025-09-30_vs_2026-01-01_2026-09-30_cutoff-2026-10-24_359460601e2d.json": [
       "5fb7539d3c6d81978e4a49436414846075e45097"
@@ -1139,15 +1775,35 @@
       "0c0ab27ab7e5197de354a664da03c812a4132fa8",
       "5fb7539d3c6d81978e4a49436414846075e45097"
     ],
+    "AGENTS/FLG/inbox/2026-10-24_from-NEXUS_WQ-520-concise-FULL-brief-assignment-next-owner-session.md": [
+      "ad10737e7795e27f619e1b8efa976b0b657908dd"
+    ],
+    "AGENTS/LIQUID/inbox/2026-10-24_from-NEXUS_brief-content-repair-request-before-next-consumption.md": [
+      "5a03a625315b5e86a8f918c9fec8b1f980a31275"
+    ],
     "AGENTS/NEXUS/BRIEFS_MAP.md": [
-      "08269e4310181dc98be182fef9a31ad9217a0978"
+      "08269e4310181dc98be182fef9a31ad9217a0978",
+      "5a03a625315b5e86a8f918c9fec8b1f980a31275",
+      "ad10737e7795e27f619e1b8efa976b0b657908dd"
     ],
     "AGENTS/NEXUS/LAST_COMPLETION.md": [
       "bb35e3e36dd166e01ae55062c4d787b9cb61f744",
-      "08269e4310181dc98be182fef9a31ad9217a0978"
+      "08269e4310181dc98be182fef9a31ad9217a0978",
+      "5a03a625315b5e86a8f918c9fec8b1f980a31275",
+      "35aef4fb5eab3f6b3559a0947dd3036491da2937",
+      "19d266fc82b4de5cf4ac87126879e8077ed080bb",
+      "ad10737e7795e27f619e1b8efa976b0b657908dd",
+      "a0c121637dfbbc97c0bd5879aa86a2a19f77e569",
+      "45c5a1b119314d1e381ab4faa6d7a244fb6f9b0d"
+    ],
+    "AGENTS/NEXUS/STATUS.md": [
+      "35aef4fb5eab3f6b3559a0947dd3036491da2937",
+      "a0c121637dfbbc97c0bd5879aa86a2a19f77e569"
     ],
     "AGENTS/NEXUS/archive/LAST_COMPLETION_COLD_2026-10-24.md": [
-      "bb35e3e36dd166e01ae55062c4d787b9cb61f744"
+      "bb35e3e36dd166e01ae55062c4d787b9cb61f744",
+      "35aef4fb5eab3f6b3559a0947dd3036491da2937",
+      "19d266fc82b4de5cf4ac87126879e8077ed080bb"
     ],
     "AGENTS/NEXUS/research/2026-10-24_brief_census/RECORD.md": [
       "08269e4310181dc98be182fef9a31ad9217a0978"
@@ -1320,8 +1976,8 @@
     ]
   },
   "paths": {
-    "PROME/CLOSEOUT.md": "ac7a2c5e4aeb3e41305a248abacfc5b69b4a4120eac1bf848b174ae0693824b5",
-    "PROME/DOCKET.tsv": "f9dca86448a22d0d320a78a2d2ee248ba94ad09e14443242822dff97157be0ce",
+    "PROME/CLOSEOUT.md": "ab1f04eb32e796c1d348372d5b6dbad293b2180a0f6ee7c5cff421e08603d9d5",
+    "PROME/DOCKET.tsv": "1ba0a0264f62bff147ce7171c9faf4aac52b71cdb25d576b1b4bf592ebaaf0c5",
     "PROME/reports/2026-10-24_L796-pin-counterexample-read.md": "75e5248cb8c50adaba0c29ef7b9ec2e989a1e171e4c0766563562b33d6106d7b",
     "PROME/reports/2026-10-24_L796-pin-counterexample-read2.md": "c03689b5108190bfd4f1443c769d8070b6b64cec8f1d932d8fe0107bd1d9fae7",
     "PROME/reports/2026-10-24_L796-pin-counterexample-read2_fixtures/ce2.py": "4dd13b1062dd26e7fcdfa6f59074ccfd760956a17c49fca012a9c4e263763152",
@@ -1336,22 +1992,54 @@
     "PROME/reports/2026-10-24_L796-pin-counterexample-read_fixtures/run1.txt": "7f02043a13b84e9a7c16a79d68cbde86d837c5514e5777c87ec159a6f6dd8790",
     "PROME/reports/2026-10-24_L796-pin-counterexample-read_fixtures/run_ac.txt": "481f54f344f9b3c32f06da368f5d7b92589ec4dfa136e02f477bc175913dbd1f",
     "PROME/reports/2026-10-24_L796-pin-counterexample-read_fixtures/run_old.txt": "3f29d94b0ee1c346610588a716cd1d906f7f73694cc19a76705cd14839aae5c7",
-    "PROME/state/ORCH_INFLIGHT.md": "a0841e1da45e2fef6d023bf9d539b46340e096d781805f618052ef26807dbf94",
-    "PROME/state/ORCH_LOG.tsv": "fa8eb7ab2389ca9638435c3b8c6553f2d214cb6fab289f182e14117a2e95208a",
-    "PROME/tools/ARGUS_CONTRACT.md": "79c07d2b16995c195422cdb95c0e0b4941cc3b64802c026f085bf295e041ee45",
-    "PROME/tools/argus_contract.py": "31a261bdad3252e5f8d6e46f647fafb38027424c41afbcade0a90bbf1407ad76",
+    "PROME/state/ORCH_INFLIGHT.md": "13841776c6d950d5857720037db7ec5b5234b96bfaf229faa6362c87bb876037",
+    "PROME/state/ORCH_LOG.tsv": "57a8fbff11f286c107eefa53a032fa2acc5e1979c22f2b9579e6907804fe232f",
+    "PROME/tools/ARGUS_CONTRACT.md": "23e8dc651f70ed45dec2b2eb89791da38d988a963cf06ba146edd7cc4d388f16",
+    "PROME/tools/argus_contract.py": "771b33cee062a04b553bb1489e81bbf4563b2fe78ac4ea8267dd50627c1f534e",
     "PROME/tools/tests/ACCEPTANCE_closeout_gate_perimeter_pin_2026-10-24.md": "72c2ed47fbb37953256a62cf6ab7b00b618db16490bd6f522b52f1bed502c5f2",
-    "PROME/tools/tests/test_argus_contract.py": "bcb44d614be658d04cb9268cc2b96ab22250fd63f3e04edbb05384b3e0475ef8",
-    "memory/2026-10-24.md": "6a0438bd384c68c929865f41e6a2f56dc93597cfc0bc9be7604d2c0952ea3579",
+    "PROME/tools/tests/test_argus_contract.py": "31698778cb4392436da989d759d4c18c7bc1ffac3c0b8b3771a92b10c78f33b9",
+    "memory/2026-10-24.md": "09bf355a4973bf5b72878c1c941f5c5820a1c29856a2a21b6a793239760fc4e8",
     "PROME/inbox/2026-10-24_from-DEWEY_L834-xbrl-compare-delivered.md": null,
     "PROME/inbox/processed/2026-10-24_from-DEWEY_L834-xbrl-compare-delivered.md": "fbf09b55075812ab85e42cbc2d739de73a8bfce8ebbfad87d6d26cc724e2db97",
     "AGENTS/DEWEY/inbox/2026-10-24_from-PROME_L834-xbrl-compare-integration.md": null,
     "AGENTS/VULCAN/inbox/2026-10-24_from-PROME_L834-xbrl-compare-consumer.md": "278efd6149091e8be59bc711e6f507459f4fbf06cbe172b110e7a9749a555753",
     "PROME/state/firetime_dispositioned.tsv": "06124d94e86af8de94adf8118a5aaca0a43062c1d84773ae1226de4bd8b9d4ed",
-    "PROME/SCRATCH.md": "b0de82aadfcb5e4383263fdc65dce199e131a9ee09f783262cb4145b51067493",
-    "PROME/STATUS.md": "139f804d25cb9d2edb0547b2de33d7aa0f419c06992c6ac46ba598468d4e4749",
-    "PROME/HANDOFF.md": "b8306b3dbd6a0156941c6a809bdd9ace3a7cbe60ecacc00997e5d7c6610ea34c",
-    "PROME/state/CALENDAR.md": "f5296136b586de82c1b18572fbc42fa72fa5cbbd58f6917f0731c4537e739e96",
-    "AGENTS/DEWEY/inbox/processed/2026-10-24_from-PROME_L834-xbrl-compare-integration.md": "4ce7abee52afd2ac12b316b74ab90786fa3f8f88acd8a03065b6ca6b49ebe4ab"
+    "PROME/SCRATCH.md": "7ab55614537a3d3f0595ccc4d78cdd72a71867699889cb5624bb469f2f5896ca",
+    "PROME/STATUS.md": "44be33eba1dfc70c3c71b332a1eedd27d16b0c92abcca91454db786ec018a61b",
+    "PROME/HANDOFF.md": "8dffe08d4a7848e9e57fa4d204f3bc6fe7486b9ef1ce605e45356f66ced97a35",
+    "PROME/state/CALENDAR.md": "679aa71bfa6e2720483f1c7b32cc35c92a4231edc8f6226feeb30d9ddc493170",
+    "AGENTS/DEWEY/inbox/processed/2026-10-24_from-PROME_L834-xbrl-compare-integration.md": "4ce7abee52afd2ac12b316b74ab90786fa3f8f88acd8a03065b6ca6b49ebe4ab",
+    "AGENTS/LIQUID/inbox/2026-10-24_from-PROME_closeout-brief-fold-step-missing-C4-and-NEXUS-content-repair.md": "9edf12cf6f2b9ee7e2c80e7aafd38ce4918621d69818bf467e9240dc58cfce64",
+    "PROME/WILL_QUEUE.md": "0ff059c98052b2429c0953acaf30faba8aa99ee551304b83c9ff9ca05c8ab430",
+    "PROME/inbox/processed/2026-10-24_from-NEXUS_bounded-brief-cleanup-coordination-BROCK-LIQUID-priority-L555-rollup-FLG-proposal.md": "d6d79492936ebd00a0a35b105ac1be5a1bc0b3bba6140e20e97d81b6474e2e2e",
+    "PROME/registry/WQ_LEDGER.crc": "3eb6923b3d75fe33baedd3c65b5fc62c052121ebf7bd52c4adb0dad89cee4a5d",
+    "PROME/registry/WQ_LEDGER.tsv": "84b566b072b8139e2393e5fd60a67c6b1fab8a6ab7475598d933f2bfcf7746c3",
+    "AGENTS/DEWEY/inbox/2026-10-24_from-PROME_WQ488-RULED-EMAIL-A-CAP-closed-overtaken.md": "7099511f3090f4a36795ff1125941902adbf36fdb76b728b3dd1968c56154bb5",
+    "AGENTS/TERRY/inbox/2026-10-24_from-PROME_WQ493-RULED-A-prospective-trigger-probability.md": "8a30fc9bbf59d3e883a41f6609f874e9facd98b4b920d26ca2cb1f341eda2572",
+    "CLAUDE.md": "fd7db0825391fa5c6804e42d76e10deb81a94cc324e2cdc1680ed7feaeb5b778",
+    "FORUM/README.md": "26c1eea20ef744c8ecc048b8bd0b21ea26936dbc5e9767f1a53f145164e9a57d",
+    "PROME/proposals/2026-10-24_wq505-486-517-493-488-RULED.md": "68ede5698c888ee527bede4bee2b3c746e0a5fb592803651942f8c696b634379",
+    "PROME/reports/2026-10-24_wq486-carve-out-5-plan-read.md": "ada71ba416cb6695ce5e4e79e61b0fd27be84fd386ed4b47d8395d4cbb240736",
+    "PROME/reports/2026-10-24_wq486-carve-out-5-result-read.md": "c71168f8ae14af84849af06e8aa0b80a5a5d6d66d206ac224e9267f31b1fde91",
+    "PROME/AUTONOMY.md": "822248b65793e4317446e80a0936ead2596a53762991de4b25d58d0241b60db7",
+    "PROME/CLAUDE.md": "44e36ac69c1847079490f2fed930d35e019376ba42370812859bba5982f82cfb",
+    "PROME/ideas/list.tsv": "9b4411fb6cfdaa8165828f613e8be7e635def96f344a50632fd193193e97309f",
+    "PROME/reports/2026-10-24_wq517-counterexample-read.md": "4e3d5c1d9e6e98b738c114e08670b22a9914e3a6f61e4255963cb6df202e1576",
+    "PROME/reports/2026-10-24_wq517-counterexample-read2.md": "7d0f74bbc629043b873fac804616c359e06430efca96a6b15fa7c6f161a17882",
+    "PROME/reports/2026-10-24_wq517-counterexample-read2_fixtures/ce_tests3.py": "0e4810c84cae4ddf985de108793702b0822f2f2f6dd4ca56d93277bdf8e64a92",
+    "PROME/reports/2026-10-24_wq517-counterexample-read2_fixtures/run2b.txt": "2aef5b336615ac3a88464b4edc9708d1220ed69a8ddcf53c740fe8c7c29c6887",
+    "PROME/reports/2026-10-24_wq517-counterexample-read2_fixtures/run3.txt": "3bfe5010b182601f761ac2af8d5b633c98b08d694bbc03dce1b73f9a31f2865b",
+    "PROME/reports/2026-10-24_wq517-counterexample-read2_fixtures/run_F.txt": "282a90cf291b8ede01c2bb4d72d3c15c320141de3981e3b81771bb4e40326818",
+    "PROME/reports/2026-10-24_wq517-counterexample-read2_fixtures/run_suites.txt": "408254a5fc3957349b7300b93894dce5e8e75370d0113251991a5b5a2bb23b78",
+    "PROME/reports/2026-10-24_wq517-counterexample-read2_fixtures/run_swap.txt": "95050fabd3d6dfb60ba394d8b0f3d721785f4c215766c81dc6994a3da729b550",
+    "PROME/reports/2026-10-24_wq517-counterexample-read2_fixtures/swap_firstcut.py": "f0a174babc7d572ac767043996b723da48fb8fe38f85f5ac770724df86cc89a4",
+    "PROME/reports/2026-10-24_wq517-counterexample-read_fixtures/ce_tests.py": "78c755843f4cfb68690df0f4f770d5038a9bef802b45dcbeca461d2cd6cc3385",
+    "PROME/reports/2026-10-24_wq517-counterexample-read_fixtures/ce_tests2.py": "d85c4b6d40f01259c2d82b46beccbadd4e7fa55e5ddac70a337c2773c70d5052",
+    "PROME/reports/2026-10-24_wq517-counterexample-read_fixtures/run1.txt": "d4106029dba9d8933e094b7eac3e5a4ec461b3933c5d8e05ed281444372b25bb",
+    "PROME/reports/2026-10-24_wq517-counterexample-read_fixtures/run2.txt": "5a46ab3cb861ba38ffd1eeeda510c00bd8168758bb565a6ca00e05ecdd69e99b",
+    "PROME/tools/tests/ACCEPTANCE_closeout_gate_ref_pending_only_2026-10-24.md": "213685dc189478f6563706a9fe2c62b21ffc868404d6977a672d889a0d565cde",
+    "PROME/archive/HANDOFF_ROTATED_2026-10-24_prome-06-evening2.md": "287a9e7fb6cdc72bb48c734b00275acc2e46acdc695f9b8f56642f893f557d53",
+    "PROME/archive/SCRATCH_ROTATED_2026-10-24_prome-06-evening2.md": "fda70e36e7b8148bca611480b8968dedcfce7f8087aab3531581c21fa764a716",
+    "PROME/inbox/2026-10-24_from-NEXUS_bounded-brief-cleanup-coordination-BROCK-LIQUID-priority-L555-rollup-FLG-proposal.md": null
   }
 }
