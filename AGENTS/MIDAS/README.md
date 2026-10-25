@@ -11,6 +11,8 @@ Find research and data by metal. These folders are topic indexes and the filing 
 | [Copper](copper/README.md) | Copper, CPER, Chinese demand, mine supply and inventories |
 | [Shared studies](shared/README.md) | Ratios, paired metals, shared macro evidence and multi-metal datasets |
 
+Targeted desk-file review: [NEXUS, THESIS and TRADE freshness repairs](analysis/2026-10-25_NEXUS-THESIS-TRADE-review.md).
+
 Latest joined gold review: [October 25 session synthesis](gold/research/2026-10-25_session-synthesis.md), with dated source studies and early signals.
 
 ## Knowledge bases

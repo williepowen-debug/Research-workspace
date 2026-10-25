@@ -1,0 +1,17 @@
+{
+  "NEXUS_BRIEF.md": {
+    "snapshot": "analysis/2026-10-25_before-targeted-review_NEXUS_BRIEF.md",
+    "sha256": "f5dbe1031452fd1f732769da2f42d8601688a85039314a131b020ba58e549e48",
+    "bytes": 6885
+  },
+  "THESIS.md": {
+    "snapshot": "analysis/2026-10-25_before-targeted-review_THESIS.md",
+    "sha256": "063b0322e01c1ae234c9ad37ffc1799e99acf1a8bf98fef0fc2632282ff7d183",
+    "bytes": 22431
+  },
+  "TRADE.md": {
+    "snapshot": "analysis/2026-10-25_before-targeted-review_TRADE.md",
+    "sha256": "efc38042483a6bcc2c6386310f439b5b9255c486d56b0a3e747f6e1b5a0c662c",
+    "bytes": 18649
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "snapshots": {
+    "NEXUS_BRIEF.md": {
+      "exact_pre_review_hash": "f5dbe1031452fd1f732769da2f42d8601688a85039314a131b020ba58e549e48",
+      "preserved": true
+    },
+    "THESIS.md": {
+      "exact_pre_review_hash": "063b0322e01c1ae234c9ad37ffc1799e99acf1a8bf98fef0fc2632282ff7d183",
+      "preserved": true
+    },
+    "TRADE.md": {
+      "exact_pre_review_hash": "efc38042483a6bcc2c6386310f439b5b9255c486d56b0a3e747f6e1b5a0c662c",
+      "preserved": true
+    }
+  },
+  "checks": {
+    "trade_inherited_unfreeze": "Three conditions retained byte-for-byte",
+    "thesis_rules_falsifiers": "Standing rules, weekly basis and M2/I1/I2 falsifiers preserved exactly",
+    "trade_current_state": "Current data/attention clocks; no old active fired/GSR candidate; existing outlook boundaries retained",
+    "thesis_stale_fragments": "Older current-table LME/palladium values and expired option instruction removed; new held observations dated",
+    "links": "All current-file local Markdown links resolve",
+    "workbook/PREDICTIONS.tsv": {
+      "unchanged": true,
+      "sha256": "67775106a453b5e1503c2c8b3fb3f1948355954e529583858db68b2e21c463aa"
+    },
+    "gold/research/2026-10-23_WQ451-decomposition-letter.md": {
+      "unchanged": true,
+      "sha256": "c41c635417f40e66b963ce33a903ab6b5225a93e59977e3a84c8f7df62e316ea"
+    },
+    "workbook/VX.tsv": {
+      "unchanged": true,
+      "sha256": "dba6b689b5ca9d98d10c12b044f2348dcb6b7d3baa100bfabb8c8c0cbc92d0c8"
+    },
+    "workbook/FLOW.tsv": {
+      "unchanged": true,
+      "sha256": "0deb1d3af6bd9f2f38057a1b9f756830468e9ff2eceb20c77acf9af802a54f7f"
+    },
+    "TSV": "Nine schemas/unique IDs valid; generated views separately checked",
+    "standard_trade_staleness": "PASS rc0; zero-day diagnostic intentionally flags old observation dates rather than establishing a semantic content defect",
+    "weekday_disposition": "An initial flag paired October22 with Friday in a sentence saying the Friday row was absent. Clarified both observation dates; no source/weekday fact changed."
+  },
+  "reading_cost": {
+    "NEXUS_BRIEF.md": {
+      "before_bytes": 6885,
+      "after_bytes": 7674
+    },
+    "THESIS.md": {
+      "before_bytes": 22431,
+      "after_bytes": 23542
+    },
+    "TRADE.md": {
+      "before_bytes": 18649,
+      "after_bytes": 7774
+    },
+    "boot_paths": "NEXUS whole-file read grew from 6885 to 7674 bytes; no split/rotation, boot obligations removed or claimed saving. TRADE history and THESIS expired illustration are on-demand snapshots; active conditions remain in current files."
+  },
+  "consumer_disposition": "LME self13/CFTC-Pd self19 candidates are dated source/history/closed-item context. External scans flag WALTER October19 captured status context, not a new observation; an informational dated-value packet preserves that history and prevents current reuse."
+}
