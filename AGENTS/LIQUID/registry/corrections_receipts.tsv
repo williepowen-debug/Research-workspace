@@ -40,3 +40,4 @@ receipt_date	correction_id	action	note
 2026-10-22T23:41Z	COR-20261022-40	NO-OP	scope=LIQUID carries no margin-debt rank claim and the level is unchanged; 
 2026-10-24T02:01Z	COR-20261022-48	NO-OP	scope=grep 2026-10-23 of AGENTS/LIQUID (excl inbox and board_log) for all six kill strings returns zero hits - LIQUID never cited the cyber-ledger lines; 
 2026-10-24T02:01Z	COR-20261023-39	NO-OP	scope=LIQUID never took the 033 figure (17 pct of CCC or CoreWeave-is-CCC) - grep of AGENTS/LIQUID 2026-10-23 zero hits - STATUS CCC read is index-level only; 
+2026-10-25T16:45Z	COR-20261025-02	NO-OP	scope=Current STATUS L818 judgment and analysis/2026-10-23_L818-repricing-vs-restriction.md already reject issuance-freeze and volume-ahead-of-price inference from mismatched month-to-date and full-month volume. The brief fold preserves those limits. Spread readings and REG-T-04 terms unchanged.; 

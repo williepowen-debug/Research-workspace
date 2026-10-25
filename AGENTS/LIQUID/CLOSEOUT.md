@@ -57,6 +57,12 @@ End-of-day always runs at least Standard so the audit trail catches up.
 - **§6 POINTERS:** KB range, new playbooks.
 - **Size:** `scripts/read_cap_check.py --agent LIQUID`; rotate at the 75% trigger down to <70%, verbatim with crc32 (lossless check against the pre-rotation commit).
 
+### `NEXUS_BRIEF.md` — final state fold
+
+**L836 repair, 2026-10-25 (PROME's existing Will-directed packet):** at every committed closeout, including Light, refresh the brief from the final STATUS findings. Replace superseded live claims; preserve observation dates, publication vintage, source limits and qualifications. Follow `AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md` §4.1/§4.4 for ordering and the STATUS pin; no new schema or review rule is introduced here.
+
+Complete the remaining MEMORY/calendar/workbook/report writes below and commit the final STATUS first. Then fold the brief as the session's **last write-back**, immediately before its own path-scoped commit, using `STATUS commit: \`<hash>\`` with that STATUS commit. If STATUS changes again, fold again before delivery. For a no-change session, refresh the As-of stamp and pin. This subsection is placed beside STATUS to make the dependency visible; its execution comes after the other write-back chunks. NEXUS consumption and PROME verification remain separate from the owner commit.
+
 ### `MEMORY.md` — session block rotation
 
 - Promote previous CURRENT SESSION → PRIOR SESSION (rename heading)
@@ -164,6 +170,7 @@ One short message:
 | File | Closeout action |
 |---|---|
 | `STATUS.md` | Surgical six-section update (Now / Gates / Owed / Carried / Caveats / Pointers) |
+| `NEXUS_BRIEF.md` | Final substantive STATUS fold, source dates/caveats retained, then pin; last write-back before the brief commit |
 | `MEMORY.md` | Promote CURRENT→PRIOR + new CURRENT + update NEXT |
 | `CALENDAR.md` | Event-gated — only if dates roll or events resolve |
 | `IDENTITY.md` / `STRATEGY.md` / `USER.md` / `CREDIT_THRESHOLDS.md` | Don't auto-touch; revise only when scope/thesis shifts |

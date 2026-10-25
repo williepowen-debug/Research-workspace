@@ -607,3 +607,4 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-24T02:05:41Z	2026-10-23_from-PROME_WQ516-I1-xccc-composition-standing-line	acted	INBOX	LIQUID evening boot (Will). Standing line added STATUS 1; refresh owed (fund page 403).
 2026-10-24T02:05:41Z	2026-10-23_from-PROME_status-fraction-reads-as-a-date	acted	INBOX	LIQUID evening boot (Will). 'Event legs: 1 of 4' applied.
 2026-10-24T02:05:41Z	2026-10-23_from-VULCAN_cds-breadth-cross-section	noted	INBOX	LIQUID evening boot (Will). Direction agrees; NVDA 128 [10/23] via WALTER packet; no conflict.
+2026-10-25T16:44:39+00:00	SIG-W-20261025-002	noted	INBOX_WALTER	Own October23 analysis routed back as correction: WEAKENS issuance-freeze/volume-ahead-of-price inference; spread observations and REG-T-04 terms HOLD. STATUS and L818 already reject freeze proof from one mismatched-period snippet; brief fold preserves it. Not independent corroboration.
