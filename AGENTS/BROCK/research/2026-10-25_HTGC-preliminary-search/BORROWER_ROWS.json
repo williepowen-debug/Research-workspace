@@ -1,0 +1,942 @@
+[
+  {
+    "source": "PRE_HTGC_Q1.html",
+    "factrow": 119,
+    "cells": [
+      "Annex Cloud",
+      "Senior Secured",
+      "June 2028",
+      "PIK Interest 3-month SOFR + 9.99%, Floor rate 10.99%",
+      "5,642",
+      "5,642",
+      "282",
+      "(8)(13)(18)"
+    ],
+    "facts": [
+      [
+        "us-gaap:InvestmentInterestRatePaidInKind",
+        "c-42"
+      ],
+      [
+        "us-gaap:InvestmentBasisSpreadVariableRate",
+        "c-42"
+      ],
+      [
+        "us-gaap:InvestmentInterestRateFloor",
+        "c-42"
+      ],
+      [
+        "us-gaap:InvestmentOwnedBalancePrincipalAmount",
+        "c-42"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtCost",
+        "c-42"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtFairValue",
+        "c-42"
+      ]
+    ]
+  },
+  {
+    "source": "PRE_HTGC_Q1.html",
+    "factrow": 122,
+    "cells": [
+      "Total Annex Cloud",
+      "10,683",
+      "10,684",
+      "3,693"
+    ],
+    "facts": [
+      [
+        "us-gaap:InvestmentOwnedBalancePrincipalAmount",
+        "c-45"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtCost",
+        "c-45"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtFairValue",
+        "c-45"
+      ]
+    ]
+  },
+  {
+    "source": "PRE_HTGC_Q1.html",
+    "factrow": 153,
+    "cells": [
+      "Simon Data, Inc.",
+      "Senior Secured",
+      "March 2027",
+      "Prime + 1.00%, Floor rate 8.75%, PIK Interest 1.95%, 3.59% Exit Fee",
+      "10,802",
+      "11,042",
+      "10,784",
+      "(12)(14)"
+    ],
+    "facts": [
+      [
+        "us-gaap:InvestmentBasisSpreadVariableRate",
+        "c-76"
+      ],
+      [
+        "us-gaap:InvestmentInterestRateFloor",
+        "c-76"
+      ],
+      [
+        "us-gaap:InvestmentInterestRatePaidInKind",
+        "c-76"
+      ],
+      [
+        "htgc:InvestmentExitFee",
+        "c-76"
+      ],
+      [
+        "us-gaap:InvestmentOwnedBalancePrincipalAmount",
+        "c-76"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtCost",
+        "c-76"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtFairValue",
+        "c-76"
+      ]
+    ]
+  },
+  {
+    "source": "PRE_HTGC_Q1.html",
+    "factrow": 158,
+    "cells": [
+      "Suzy, Inc.",
+      "Senior Secured",
+      "August 2027",
+      "Prime + 1.75%, Floor rate 10.00%, PIK Interest 1.95%, 3.45% Exit Fee",
+      "23,430",
+      "23,599",
+      "22,822",
+      "(6)(14)(15)"
+    ],
+    "facts": [
+      [
+        "us-gaap:InvestmentBasisSpreadVariableRate",
+        "c-81"
+      ],
+      [
+        "us-gaap:InvestmentInterestRateFloor",
+        "c-81"
+      ],
+      [
+        "us-gaap:InvestmentInterestRatePaidInKind",
+        "c-81"
+      ],
+      [
+        "htgc:InvestmentExitFee",
+        "c-81"
+      ],
+      [
+        "us-gaap:InvestmentOwnedBalancePrincipalAmount",
+        "c-81"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtCost",
+        "c-81"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtFairValue",
+        "c-81"
+      ]
+    ]
+  },
+  {
+    "source": "PRE_HTGC_Q1.html",
+    "factrow": 411,
+    "cells": [
+      "Annex Cloud",
+      "Warrant",
+      "6/5/2025",
+      "Common Units",
+      "50,000",
+      "\u2014",
+      "\u2014"
+    ],
+    "facts": [
+      [
+        "us-gaap:InvestmentOwnedBalanceShares",
+        "c-420"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtCost",
+        "c-420"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtFairValue",
+        "c-420"
+      ]
+    ]
+  },
+  {
+    "source": "PRE_HTGC_Q1.html",
+    "factrow": 434,
+    "cells": [
+      "Simon Data, Inc.",
+      "Warrant",
+      "3/22/2023",
+      "Common Stock",
+      "77,934",
+      "96",
+      "\u2014",
+      "(12)"
+    ],
+    "facts": [
+      [
+        "us-gaap:InvestmentOwnedBalanceShares",
+        "c-466"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtCost",
+        "c-466"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtFairValue",
+        "c-466"
+      ]
+    ]
+  },
+  {
+    "source": "PRE_HTGC_Q1.html",
+    "factrow": 436,
+    "cells": [
+      "Suzy, Inc.",
+      "Warrant",
+      "8/24/2023",
+      "Common Stock",
+      "292,936",
+      "367",
+      "142",
+      "(6)(15)"
+    ],
+    "facts": [
+      [
+        "us-gaap:InvestmentOwnedBalanceShares",
+        "c-470"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtCost",
+        "c-470"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtFairValue",
+        "c-470"
+      ]
+    ]
+  },
+  {
+    "source": "PRE_HTGC_Q1.html",
+    "factrow": 568,
+    "cells": [
+      "Annex Cloud",
+      "Senior Secured",
+      "June 2028",
+      "PIK Interest 3-month SOFR + 9.99%, Floor rate 10.99%",
+      "5,642",
+      "5,642",
+      "2,257",
+      "(8)(13)(18)"
+    ],
+    "facts": [
+      [
+        "us-gaap:InvestmentInterestRatePaidInKind",
+        "c-707"
+      ],
+      [
+        "us-gaap:InvestmentBasisSpreadVariableRate",
+        "c-707"
+      ],
+      [
+        "us-gaap:InvestmentInterestRateFloor",
+        "c-707"
+      ],
+      [
+        "us-gaap:InvestmentOwnedBalancePrincipalAmount",
+        "c-707"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtCost",
+        "c-707"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtFairValue",
+        "c-707"
+      ]
+    ]
+  },
+  {
+    "source": "PRE_HTGC_Q1.html",
+    "factrow": 571,
+    "cells": [
+      "Total Annex Cloud",
+      "10,683",
+      "10,684",
+      "6,269"
+    ],
+    "facts": [
+      [
+        "us-gaap:InvestmentOwnedBalancePrincipalAmount",
+        "c-710"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtCost",
+        "c-710"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtFairValue",
+        "c-710"
+      ]
+    ]
+  },
+  {
+    "source": "PRE_HTGC_Q1.html",
+    "factrow": 601,
+    "cells": [
+      "Simon Data, Inc.",
+      "Senior Secured",
+      "March 2027",
+      "Prime + 1.00%, Floor rate 8.75%, PIK Interest 1.95%, 3.58% Exit Fee",
+      "11,350",
+      "11,560",
+      "11,343",
+      "(12)(14)"
+    ],
+    "facts": [
+      [
+        "us-gaap:InvestmentBasisSpreadVariableRate",
+        "c-740"
+      ],
+      [
+        "us-gaap:InvestmentInterestRateFloor",
+        "c-740"
+      ],
+      [
+        "us-gaap:InvestmentInterestRatePaidInKind",
+        "c-740"
+      ],
+      [
+        "htgc:InvestmentExitFee",
+        "c-740"
+      ],
+      [
+        "us-gaap:InvestmentOwnedBalancePrincipalAmount",
+        "c-740"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtCost",
+        "c-740"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtFairValue",
+        "c-740"
+      ]
+    ]
+  },
+  {
+    "source": "PRE_HTGC_Q1.html",
+    "factrow": 606,
+    "cells": [
+      "Suzy, Inc.",
+      "Senior Secured",
+      "August 2027",
+      "Prime + 1.75%, Floor rate 10.00%, PIK Interest 1.95%, 3.45% Exit Fee",
+      "24,827",
+      "24,901",
+      "24,378",
+      "(6)(14)(15)"
+    ],
+    "facts": [
+      [
+        "us-gaap:InvestmentBasisSpreadVariableRate",
+        "c-745"
+      ],
+      [
+        "us-gaap:InvestmentInterestRateFloor",
+        "c-745"
+      ],
+      [
+        "us-gaap:InvestmentInterestRatePaidInKind",
+        "c-745"
+      ],
+      [
+        "htgc:InvestmentExitFee",
+        "c-745"
+      ],
+      [
+        "us-gaap:InvestmentOwnedBalancePrincipalAmount",
+        "c-745"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtCost",
+        "c-745"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtFairValue",
+        "c-745"
+      ]
+    ]
+  },
+  {
+    "source": "PRE_HTGC_Q1.html",
+    "factrow": 841,
+    "cells": [
+      "Annex Cloud",
+      "Warrant",
+      "6/5/2025",
+      "Common Units",
+      "50,000",
+      "\u2014",
+      "\u2014"
+    ],
+    "facts": [
+      [
+        "us-gaap:InvestmentOwnedBalanceShares",
+        "c-1065"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtCost",
+        "c-1065"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtFairValue",
+        "c-1065"
+      ]
+    ]
+  },
+  {
+    "source": "PRE_HTGC_Q1.html",
+    "factrow": 864,
+    "cells": [
+      "Simon Data, Inc.",
+      "Warrant",
+      "3/22/2023",
+      "Common Stock",
+      "77,934",
+      "96",
+      "7",
+      "(12)"
+    ],
+    "facts": [
+      [
+        "us-gaap:InvestmentOwnedBalanceShares",
+        "c-1111"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtCost",
+        "c-1111"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtFairValue",
+        "c-1111"
+      ]
+    ]
+  },
+  {
+    "source": "PRE_HTGC_Q1.html",
+    "factrow": 866,
+    "cells": [
+      "Suzy, Inc.",
+      "Warrant",
+      "8/24/2023",
+      "Common Stock",
+      "292,936",
+      "367",
+      "182",
+      "(6)(15)"
+    ],
+    "facts": [
+      [
+        "us-gaap:InvestmentOwnedBalanceShares",
+        "c-1115"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtCost",
+        "c-1115"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtFairValue",
+        "c-1115"
+      ]
+    ]
+  },
+  {
+    "source": "HTGC_Q2.html",
+    "factrow": 138,
+    "cells": [
+      "Annex Cloud",
+      "Senior Secured",
+      "June 2028",
+      "PIK Interest 3-month SOFR + 9.99%, Floor rate 10.99%",
+      "5,642",
+      "5,642",
+      "\u2014",
+      "(8)(13)(18)"
+    ],
+    "facts": [
+      [
+        "us-gaap:InvestmentInterestRatePaidInKind",
+        "c-62"
+      ],
+      [
+        "us-gaap:InvestmentBasisSpreadVariableRate",
+        "c-62"
+      ],
+      [
+        "us-gaap:InvestmentInterestRateFloor",
+        "c-62"
+      ],
+      [
+        "us-gaap:InvestmentOwnedBalancePrincipalAmount",
+        "c-62"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtCost",
+        "c-62"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtFairValue",
+        "c-62"
+      ]
+    ]
+  },
+  {
+    "source": "HTGC_Q2.html",
+    "factrow": 141,
+    "cells": [
+      "Total Annex Cloud",
+      "10,683",
+      "10,684",
+      "3,325"
+    ],
+    "facts": [
+      [
+        "us-gaap:InvestmentOwnedBalancePrincipalAmount",
+        "c-65"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtCost",
+        "c-65"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtFairValue",
+        "c-65"
+      ]
+    ]
+  },
+  {
+    "source": "HTGC_Q2.html",
+    "factrow": 171,
+    "cells": [
+      "Simon Data, Inc.",
+      "Senior Secured",
+      "March 2027",
+      "Prime + 1.00%, Floor rate 8.75%, PIK Interest 1.95%, 3.59% Exit Fee",
+      "5,033",
+      "5,272",
+      "2,194",
+      "(8)(12)(14)"
+    ],
+    "facts": [
+      [
+        "us-gaap:InvestmentBasisSpreadVariableRate",
+        "c-95"
+      ],
+      [
+        "us-gaap:InvestmentInterestRateFloor",
+        "c-95"
+      ],
+      [
+        "us-gaap:InvestmentInterestRatePaidInKind",
+        "c-95"
+      ],
+      [
+        "htgc:InvestmentExitFee",
+        "c-95"
+      ],
+      [
+        "us-gaap:InvestmentOwnedBalancePrincipalAmount",
+        "c-95"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtCost",
+        "c-95"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtFairValue",
+        "c-95"
+      ]
+    ]
+  },
+  {
+    "source": "HTGC_Q2.html",
+    "factrow": 176,
+    "cells": [
+      "Suzy, Inc.",
+      "Senior Secured",
+      "August 2027",
+      "Prime + 1.75%, Floor rate 10.00%, PIK Interest 1.95%, 3.45% Exit Fee",
+      "22,745",
+      "23,007",
+      "17,037",
+      "(6)(14)(15)"
+    ],
+    "facts": [
+      [
+        "us-gaap:InvestmentBasisSpreadVariableRate",
+        "c-100"
+      ],
+      [
+        "us-gaap:InvestmentInterestRateFloor",
+        "c-100"
+      ],
+      [
+        "us-gaap:InvestmentInterestRatePaidInKind",
+        "c-100"
+      ],
+      [
+        "htgc:InvestmentExitFee",
+        "c-100"
+      ],
+      [
+        "us-gaap:InvestmentOwnedBalancePrincipalAmount",
+        "c-100"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtCost",
+        "c-100"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtFairValue",
+        "c-100"
+      ]
+    ]
+  },
+  {
+    "source": "HTGC_Q2.html",
+    "factrow": 424,
+    "cells": [
+      "Annex Cloud",
+      "Warrant",
+      "6/5/2025",
+      "Common Units",
+      "50,000",
+      "\u2014",
+      "\u2014"
+    ],
+    "facts": [
+      [
+        "us-gaap:InvestmentOwnedBalanceShares",
+        "c-434"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtCost",
+        "c-434"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtFairValue",
+        "c-434"
+      ]
+    ]
+  },
+  {
+    "source": "HTGC_Q2.html",
+    "factrow": 447,
+    "cells": [
+      "Simon Data, Inc.",
+      "Warrant",
+      "3/22/2023",
+      "Common Stock",
+      "77,934",
+      "96",
+      "\u2014",
+      "(12)"
+    ],
+    "facts": [
+      [
+        "us-gaap:InvestmentOwnedBalanceShares",
+        "c-480"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtCost",
+        "c-480"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtFairValue",
+        "c-480"
+      ]
+    ]
+  },
+  {
+    "source": "HTGC_Q2.html",
+    "factrow": 449,
+    "cells": [
+      "Suzy, Inc.",
+      "Warrant",
+      "8/24/2023",
+      "Common Stock",
+      "292,936",
+      "367",
+      "\u2014",
+      "(6)(15)"
+    ],
+    "facts": [
+      [
+        "us-gaap:InvestmentOwnedBalanceShares",
+        "c-484"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtCost",
+        "c-484"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtFairValue",
+        "c-484"
+      ]
+    ]
+  },
+  {
+    "source": "HTGC_Q2.html",
+    "factrow": 588,
+    "cells": [
+      "Annex Cloud",
+      "Senior Secured",
+      "June 2028",
+      "PIK Interest 3-month SOFR + 9.99%, Floor rate 10.99%",
+      "5,642",
+      "5,642",
+      "2,257",
+      "(8)(13)(18)"
+    ],
+    "facts": [
+      [
+        "us-gaap:InvestmentInterestRatePaidInKind",
+        "c-733"
+      ],
+      [
+        "us-gaap:InvestmentBasisSpreadVariableRate",
+        "c-733"
+      ],
+      [
+        "us-gaap:InvestmentInterestRateFloor",
+        "c-733"
+      ],
+      [
+        "us-gaap:InvestmentOwnedBalancePrincipalAmount",
+        "c-733"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtCost",
+        "c-733"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtFairValue",
+        "c-733"
+      ]
+    ]
+  },
+  {
+    "source": "HTGC_Q2.html",
+    "factrow": 591,
+    "cells": [
+      "Total Annex Cloud",
+      "10,683",
+      "10,684",
+      "6,269"
+    ],
+    "facts": [
+      [
+        "us-gaap:InvestmentOwnedBalancePrincipalAmount",
+        "c-736"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtCost",
+        "c-736"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtFairValue",
+        "c-736"
+      ]
+    ]
+  },
+  {
+    "source": "HTGC_Q2.html",
+    "factrow": 621,
+    "cells": [
+      "Simon Data, Inc.",
+      "Senior Secured",
+      "March 2027",
+      "Prime + 1.00%, Floor rate 8.75%, PIK Interest 1.95%, 3.58% Exit Fee",
+      "11,350",
+      "11,560",
+      "11,343",
+      "(12)(14)"
+    ],
+    "facts": [
+      [
+        "us-gaap:InvestmentBasisSpreadVariableRate",
+        "c-766"
+      ],
+      [
+        "us-gaap:InvestmentInterestRateFloor",
+        "c-766"
+      ],
+      [
+        "us-gaap:InvestmentInterestRatePaidInKind",
+        "c-766"
+      ],
+      [
+        "htgc:InvestmentExitFee",
+        "c-766"
+      ],
+      [
+        "us-gaap:InvestmentOwnedBalancePrincipalAmount",
+        "c-766"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtCost",
+        "c-766"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtFairValue",
+        "c-766"
+      ]
+    ]
+  },
+  {
+    "source": "HTGC_Q2.html",
+    "factrow": 626,
+    "cells": [
+      "Suzy, Inc.",
+      "Senior Secured",
+      "August 2027",
+      "Prime + 1.75%, Floor rate 10.00%, PIK Interest 1.95%, 3.45% Exit Fee",
+      "24,827",
+      "24,901",
+      "24,378",
+      "(6)(14)(15)"
+    ],
+    "facts": [
+      [
+        "us-gaap:InvestmentBasisSpreadVariableRate",
+        "c-771"
+      ],
+      [
+        "us-gaap:InvestmentInterestRateFloor",
+        "c-771"
+      ],
+      [
+        "us-gaap:InvestmentInterestRatePaidInKind",
+        "c-771"
+      ],
+      [
+        "htgc:InvestmentExitFee",
+        "c-771"
+      ],
+      [
+        "us-gaap:InvestmentOwnedBalancePrincipalAmount",
+        "c-771"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtCost",
+        "c-771"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtFairValue",
+        "c-771"
+      ]
+    ]
+  },
+  {
+    "source": "HTGC_Q2.html",
+    "factrow": 861,
+    "cells": [
+      "Annex Cloud",
+      "Warrant",
+      "6/5/2025",
+      "Common Units",
+      "50,000",
+      "\u2014",
+      "\u2014"
+    ],
+    "facts": [
+      [
+        "us-gaap:InvestmentOwnedBalanceShares",
+        "c-1091"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtCost",
+        "c-1091"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtFairValue",
+        "c-1091"
+      ]
+    ]
+  },
+  {
+    "source": "HTGC_Q2.html",
+    "factrow": 884,
+    "cells": [
+      "Simon Data, Inc.",
+      "Warrant",
+      "3/22/2023",
+      "Common Stock",
+      "77,934",
+      "96",
+      "7",
+      "(12)"
+    ],
+    "facts": [
+      [
+        "us-gaap:InvestmentOwnedBalanceShares",
+        "c-1137"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtCost",
+        "c-1137"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtFairValue",
+        "c-1137"
+      ]
+    ]
+  },
+  {
+    "source": "HTGC_Q2.html",
+    "factrow": 886,
+    "cells": [
+      "Suzy, Inc.",
+      "Warrant",
+      "8/24/2023",
+      "Common Stock",
+      "292,936",
+      "367",
+      "182",
+      "(6)(15)"
+    ],
+    "facts": [
+      [
+        "us-gaap:InvestmentOwnedBalanceShares",
+        "c-1141"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtCost",
+        "c-1141"
+      ],
+      [
+        "us-gaap:InvestmentOwnedAtFairValue",
+        "c-1141"
+      ]
+    ]
+  }
+]

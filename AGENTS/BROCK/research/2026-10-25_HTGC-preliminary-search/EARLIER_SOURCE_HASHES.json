@@ -1,0 +1,14 @@
+[
+  {
+    "file": "HTGC_Q2.html",
+    "url": "https://www.sec.gov/Archives/edgar/data/1280784/000128078426000042/htgc-20260630.htm",
+    "bytes": 7881751,
+    "sha256": "416074173958f293dbe6d43ead7bfb51649ee328e78d6ff4560c916c670294cb"
+  },
+  {
+    "file": "HTGC_Oct_prospectus.html",
+    "url": "https://www.sec.gov/Archives/edgar/data/1280784/000162828026065264/htgc-20261006.htm",
+    "bytes": 3411184,
+    "sha256": "ed5973864b0efba19003713004c22c8966ad0f7cbbf55d7c2e850a6c1c278ce1"
+  }
+]

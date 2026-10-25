@@ -1,0 +1,110 @@
+[
+  {
+    "key": "PRE_Suzy_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001527456.json",
+    "status": 200,
+    "file": "/tmp/brock-followup-20261025/PRE_Suzy_submissions.json",
+    "bytes": 2650,
+    "sha256": "5859b18d8001216b20d9bcec2680a3c0c3b6e3ac7ca3e8774551b0be623bcccc",
+    "retrieved_at": "2026-10-25T20:22:30.099037+00:00"
+  },
+  {
+    "key": "PRE_HTGC_Q1",
+    "url": "https://www.sec.gov/Archives/edgar/data/1280784/000128078426000027/htgc-20260331.htm",
+    "status": 200,
+    "file": "/tmp/brock-followup-20261025/PRE_HTGC_Q1.html",
+    "bytes": 7384344,
+    "sha256": "139a20543dd3ef61899a2b38a1a57109540d08ffceacfeec562064efc3cf18c1",
+    "retrieved_at": "2026-10-25T20:22:30.100443+00:00"
+  },
+  {
+    "key": "PRE_Annex_sale",
+    "url": "https://www.annexcloud.com/press-releases/edited-capital-acquires-annex-cloud/",
+    "status": 200,
+    "file": "/tmp/brock-followup-20261025/PRE_Annex_sale.html",
+    "bytes": 449521,
+    "sha256": "bac4a8b3eb858fed7a5049b83efd94bfcce0daaa50ef0b3ab244cc6abae22cf3",
+    "retrieved_at": "2026-10-25T20:22:30.101580+00:00"
+  },
+  {
+    "key": "PRE_Simon_sale",
+    "url": "https://www.simon.ai/blog-posts/simon-ai-acquired-by-monetate",
+    "status": 200,
+    "file": "/tmp/brock-followup-20261025/PRE_Simon_sale.html",
+    "bytes": 112359,
+    "sha256": "e2d33b4a85f820300e53a20bd424d8852f827b6fd1afff63978f0b4a1b77ff37",
+    "retrieved_at": "2026-10-25T20:22:30.102355+00:00"
+  },
+  {
+    "key": "PRE_Simon_alias",
+    "url": "https://www.simon.ai/about-us",
+    "status": 200,
+    "file": "/tmp/brock-followup-20261025/PRE_Simon_alias.html",
+    "bytes": 115590,
+    "sha256": "23233075e6ff71026c94b1cc4b03a168be942cfe0d80fde745fa0f81b6bc8528",
+    "retrieved_at": "2026-10-25T20:22:30.103077+00:00"
+  },
+  {
+    "key": "PRE_Monetate_release",
+    "url": "https://www.simon.ai/news/monetate-acquires-simon-ai-uniting-the-leader-in-ai-powered-experience-optimization-with-the-ai-first-composable-cdp",
+    "status": 200,
+    "file": "/tmp/brock-followup-20261025/PRE_Monetate_release.html",
+    "bytes": 103174,
+    "sha256": "b62d061a24b8b2c3c9434607bfb818e49389530729c5b98088b86a88b72c7893",
+    "retrieved_at": "2026-10-25T20:22:30.104059+00:00"
+  },
+  {
+    "key": "PRE_Suzy_Forge",
+    "url": "https://forgeglobal.com/suzy_ipo/",
+    "status": 403,
+    "file": "/tmp/brock-followup-20261025/PRE_Suzy_Forge.html",
+    "bytes": 5528,
+    "sha256": "672af7221d158b75b3acaf472ff7e08455ffe122952173b959da1e6e9225423b",
+    "retrieved_at": "2026-10-25T20:22:30.362746+00:00"
+  },
+  {
+    "key": "PRE_Suzy_funding",
+    "url": "https://www.suzy.com/blog/suzy-names-bryan-silverman-chief-executive-officer-announces-new-round-of-funding",
+    "status": 200,
+    "file": "/tmp/brock-followup-20261025/PRE_Suzy_funding.html",
+    "bytes": 132714,
+    "sha256": "78d182d2fcc295b66111628024128a0b6dbef523011737d01513a1231c7a524d",
+    "retrieved_at": "2026-10-25T20:23:58.879811+00:00"
+  },
+  {
+    "key": "PRE_Edited_news",
+    "url": "https://editedcapital.com/news/",
+    "status": 403,
+    "file": "/tmp/brock-followup-20261025/PRE_Edited_news.html",
+    "bytes": 52,
+    "sha256": "889403e5cfbb7981f7a26aced0d7492524e5397d6996f7fccd67562d2a4a71a3",
+    "retrieved_at": "2026-10-25T20:23:58.880512+00:00"
+  },
+  {
+    "key": "PRE_Suzy_FormD_2021",
+    "url": "https://www.sec.gov/Archives/edgar/data/1527456/000152745621000001/primary_doc.xml",
+    "status": 200,
+    "file": "/tmp/brock-followup-20261025/PRE_Suzy_FormD_2021.xml",
+    "bytes": 12227,
+    "sha256": "2ea65975d5bfa09e4514c5c0cb15d61c6250c85961037949476d2fe6a4834189",
+    "retrieved_at": "2026-10-25T20:28:36.472329+00:00"
+  },
+  {
+    "key": "PRE_Hunterbrook",
+    "url": "https://hntrbrk.com/breaking-news/hercules-capital",
+    "status": 200,
+    "file": "/tmp/brock-followup-20261025/PRE_Hunterbrook.html",
+    "bytes": 137998,
+    "sha256": "6a953780cbc4d3f12bba5cf5b0ff45ef4b3e60fc4263c78885ecb0c4dbbd0b1d",
+    "retrieved_at": "2026-10-25T20:25:20.805566+00:00"
+  },
+  {
+    "key": "PRE_HTGC_complaint",
+    "url": "https://bgandg.com/wp-content/uploads/2026/03/HTGC_complaint.pdf",
+    "status": 200,
+    "file": "/tmp/brock-followup-20261025/PRE_HTGC_complaint.pdf",
+    "bytes": 2466016,
+    "sha256": "27c34ce644b8e70c5e48a0a44c97c12019ed97160474ac8733044c6cfdf85393",
+    "retrieved_at": "2026-10-25T20:25:20.807606+00:00"
+  }
+]
