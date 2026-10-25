@@ -13,7 +13,7 @@
 - ⚠️ MIDAS's beta has R² 0.15 (about 85% of daily variance is outside the model); haven and liquidation samples are n = 5 and n = 11. Dollar figures keyed to the beta are MODEL
 
 ## 1. What the holding expresses (MIDAS's reading, not TERRY's)
-GLD is **a bet on falling real interest rates and long-run demand for gold** (central-bank buying shows up monthly, not daily). **It is not a hedge for the put book.** Over the last 120 sessions GLD rose on **2 of 12** equity-stress days (S&P ≤ −1% or VIX +2) and averaged −1.82% on them; 6 of 24 in 2026. **10/22 graded LIQUIDATION:** GLD −2.63%, residual −4.46% (3.2 sd), trust −11.98 t, while the 10-year real yield fell 12 bp. Any reading of GLD as protection for the KRE/QQQ puts is refuted on that measurement (MIDAS letter §6).
+GLD is **a bet on falling real interest rates and long-run demand for gold** (central-bank buying shows up monthly, not daily). Gold did not reliably hedge equity declines in MIDAS's 120-session sample (**2 of 12** stress days up, S&P ≤ −1% or VIX +2; average −1.82%; 6 of 24 in 2026). **Its hedge value for this bearish-option book is unestablished:** that needs the book's own daily P&L against GLD, including rallies and time decay, not equity-stress days. **10/22 graded LIQUIDATION:** GLD −2.63%, residual −4.46% (3.2 sd), trust −11.98 t, while the 10-year real yield fell 12 bp (MIDAS letter §6). That one observation does not resolve the book-offset question.
 
 ## 2. Position, in figures (10/23 close)
 | Item | Figure |
@@ -42,9 +42,9 @@ GLD is **a bet on falling real interest rates and long-run demand for gold** (ce
 ## 4. The rule TERRY applies to shares, and why
 Root rule #7 (*"Roll duration, don't trim size. Trimming = thesis broken. Rolling = timeline uncertain"*) is written for options: a share has no expiry, so there is no duration to roll. **What carries over is its test: size changes on a THESIS break, not on price noise.** Applied here:
 1. **The 1-month lines are price-path lines.** Crossing $360.71 says the near-term path is worse than MIDAS's outlook; it does not break the real-rate / structural-demand thesis. On TERRY's rule it is **not by itself a trim signal**.
-2. **The 3-month lines are the thesis lines.** Any one crossed is MIDAS's own "lean withdrawn": that is the thesis-broken branch on that axis.
+2. **The 3-month lines are MIDAS's registered premise tests.** Any one crossed makes MIDAS withdraw its positive lean to neutral. A neutral outlook does not by itself falsify every premise or select a position action; read which premise failed with MIDAS's grade.
 3. **Construction rule #23 (name the driver):** if GLD rallies, name the class (RATE / HAVEN / DE-DOLLAR proxy / UNEXPLAINED) on MIDAS's instrument before any add; a rally the thesis did not underwrite is evidence about the tape, not for the holding.
-4. **The purpose question is Will's, and it decides which branch applies.** If the 25 shares are held as **protection for the put book**, that purpose is already broken by measurement (2 of 12), and on #7's own logic that is the trim branch. If they are held as **the real-rate and long-run-demand bet**, nothing on that thesis has broken: no 3-month line is crossed as of 10/22–10/23.
+4. **The purpose question is Will's.** The equity-stress sample does not test whether GLD protects a bearish put book against its losses, so no position-action branch follows from the 2-of-12 count. For the real-rate and long-run-demand reading, no 3-month line was crossed in the 10/22–10/23 inputs. Any subsequent owner grade must name the affected premise; a change to neutral alone is not a blanket thesis-break finding.
 
 ## 5. Will's choices, with sizes (none recommended)
 | Choice | Size | Dollars at $366.61 (10/23 close) | Effect |
@@ -63,7 +63,7 @@ Limit prices for any sale or add come from the broker at the time (durable findi
 | N_claimed | 2: real-rate leg · structural (official) demand leg |
 | Shared antecedent | a real-rate surge (DFII10 ≥ 3.00%) also drives the dollar and ETF outflows: one event hits both legs |
 | N_eff | ≈ 1.3 → read as ONE view |
-| Book overlap | **not** an offset to the KRE/QQQ puts (2 of 12 stress days); on 10/22 both lost (GLD −2.63%, KRE +2.53%). A real-rate surge would hurt GLD **and** help the regional puts on REGINALD's fit (KRE −0.72% per +10 bp on the 10-year): the one channel where the two move against each other |
+| Book overlap | **Offset value is unestablished**; the 10/22 joint loss is one dated observation (GLD −2.63%, KRE +2.53%), not a hedge test. A real-rate surge would hurt GLD on MIDAS's real-yield fit (R² 0.15), while a rising nominal 10-year helps the regional puts on REGINALD's fit (KRE −0.72% per +10 bp, R² 0.13). Those are distinct yield measures and weak fitted associations, not proof of an offset |
 
 ## 7. Decision
 - [ ] HOLD 25 · [ ] TRIM 5 · [ ] TRIM 12 · [ ] EXIT 25 · [ ] ADD 1 on a named trigger · [ ] REWORK: ____

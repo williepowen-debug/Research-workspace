@@ -89,11 +89,24 @@ Copy this into `setups/YYYY-MM-DD_<ticker>_<structure>.md` for every actionable 
 ## 8. Why not / counter-trade
 [Best reason this is bad timing or bad structure. Include `NO TRADE` reason if edge, liquidity, timing, or invalidation is insufficient.]
 
-## 8b. Calibration note, if probability-style
-- **Forecast:** [p_model or subjective probability]
-- **Market-implied probability:** [if applicable]
-- **Outcome to score later:** [binary/resolution criteria]
-- **Future Brier row needed?** [yes/no]
+## 8b. Trigger forecast — REQUIRED for future cards with a dated falsifier (WQ-493 A)
+Write all four fields BEFORE the outcome:
+- **Trigger event:** [one clearly defined event, in one sentence]
+- **Deadline:** [the falsifier date, including time/timezone when relevant]
+- **Resolution basis:** [the observation that decides the event and the exact source/locator]
+- **Probability:** [one number from 0 to 1 that the trigger fires before the deadline; label a subjective estimate "subjective"; name the model for a model-derived estimate]
+
+At card write, add one `CALIBRATION.tsv` row: event in `claim`, deadline in
+`resolver_date`, probability in `p_forecast`, resolution basis and estimate type/model
+in `source`. Leave outcome and Brier unresolved; grade at the deadline using
+`RISK_SCORING.md` § 5, Brier = (p_forecast − outcome)^2.
+
+Limits: this measures TRIGGER forecasting, not trade-profit probability. It grants
+no new sizing authority: the $500/card and X1 defaults and root rule #5 remain.
+No retrospective probabilities on cards written before the October 24 ruling;
+the October 22 QQQ, USO and OKTA cards are not back-filled. No new backtesting
+requirement. If no dated falsifier exists, state that; any voluntary probability
+call still follows `RISK_SCORING.md` § 5.
 
 ## 9. Decision
 - [ ] APPROVE

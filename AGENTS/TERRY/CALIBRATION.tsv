@@ -1,4 +1,8 @@
 # TERRY CALIBRATION.tsv — LIVE (not frozen). Pre-registered probability calls and their grades.
+# WQ-493 A, prospective encode 2026-10-25: each FUTURE card with a dated falsifier writes one row BEFORE the outcome, at card write.
+# Required fields: clearly defined trigger event = claim; deadline = resolver_date; resolution basis (observation + exact source/locator) = source; one probability of firing before the deadline = p_forecast (0..1).
+# In source, LABEL subjective estimates "subjective"; name the model for model-derived estimates. Grade at the deadline: outcome 1/0; Brier = (p_forecast - outcome)^2. Unresolved fields stay blank pending resolution.
+# Limits: TRIGGER forecasting only, not trade-profit probability; NO new sizing authority ($500/card, X1 defaults, root rule #5 unchanged); NO retrospective probabilities on pre-ruling cards (10/22 QQQ/USO/OKTA NOT back-filled); NO new backtesting requirement.
 # Cadence: EVENT-DRIVEN — a row exists only when a probability was stated before an outcome (RISK_SCORING § 5). Last re-pull ATTEMPTED: 2026-10-22 — no new pre-outcome TERRY probability (10/22 QQQ/USO/OKTA/MRNA cards state none; the MRNA 55/25/20 tree is PROME's, not a TERRY forecast).
 # Last real data refresh: 2026-09-05
 # Last staleness check: 2026-10-19T17:35:54-04:00 — no new pre-outcome probability or forecast grade in this commission. Existing2rows retained, no synthetic forecast.

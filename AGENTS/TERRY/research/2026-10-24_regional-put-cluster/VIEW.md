@@ -17,7 +17,7 @@ Source: the 10/22 11:01 ET Fidelity capture (`PROME/data/2026-10-22_broker-captu
 | ZION Nov-20 62.5P | 2 | $435.33 | $130.00 | 5.6% OTM ($66.20) | $60.32 (−8.9%) |
 | WAL Dec-18 65P | 4 | $682.65 | $220.00 | 14.6% OTM ($76.12) | $63.29 (−16.9%) |
 | WAL Dec-18 70P | 2 | $551.33 | $320.00 | 8.0% OTM | $67.24 (−11.7%) |
-| **Cluster** | **28** | **$4,646.62** | **$1,563.00** | — | **−11.76% uniform fall** |
+| **Cluster** | **28** | **$4,646.62** | **$1,563.00** | — | **Equal-decline, original-cost-at-expiry scenario: −11.76%**; one path, not a necessary profit condition |
 
 **Not in the figures:** Robinhood WAL Dec-18 70P ×1 (`TRY-WAL-ROLL70`; Robinhood holdings unverified since 9/29) · FLG Mar-19-2027 10P ×4, limit $0.52, an OPEN order at the 10/23 capture, not a position (≈ $210 if filled; same lane).
 
@@ -35,35 +35,35 @@ Source: the 10/22 11:01 ET Fidelity capture (`PROME/data/2026-10-22_broker-captu
 
 These lines were placed by Will's hand; the defaults bind TERRY's cards, not his orders. The point of the comparison is that **nothing caps the cluster**: every card limit is per card, and ten lines on one falsifier behave as one position (same finding as the 9/11 shared-falsifier grouping, `archive/STATUS_ARCHIVE_2026-09-14b.md`).
 
-## 3. What it takes to pay (MODEL: expiry intrinsic, every name falls the same %)
+## 3. Equal-decline, original-cost-at-expiry scenario (MODEL: one path among many)
 | Uniform fall by each line's expiry | Intrinsic | Versus basis |
 |---|---:|---:|
 | 5% | $233 | −$4,414 |
 | 10% | $2,790 | −$1,857 |
-| **11.76%** | $4,647 | **breakeven** |
+| **11.76%** | $4,647 | **recovers original cost on this equal-decline scenario** |
 | 15% | $8,275 | +$3,628 |
 | 20% | $16,222 | +$11,575 |
 
-Simplifications: equal % fall for KRE, OZK, ZION and WAL (single names move more than the ETF); no time value, so before expiry the marks sit above intrinsic. Script and output: `cluster.py`, `cluster_output.txt`.
+Simplifications: equal % fall for KRE, OZK, ZION and WAL from each 10/23 close by each line's own expiry; terminal intrinsic only, excluding time value and volatility. This is not the book's necessary profit condition or a forecast. Unequal moves can recover cost: CATO's replay of these saved inputs has KRE alone down 20%, other names flat, producing $10,851.20 gross intrinsic against $4,646.62 original cost. Attainable pre-expiry P&L needs current quotes. Script and output: `cluster.py`, `cluster_output.txt`; CATO PRD2 via PROME's 2026-10-24 correction packet.
 
-**Base rate for the breakeven move** (`base_rate_output.txt`; KRE closes 2006-07-03 → 2026-10-23, 5,110 bars, overlapping windows): a close **≥ 11.76% lower 19 sessions later** (≈ the November expiries) **4.9%** of the time, **39 sessions later** (≈ December) **9.0%**; any close that low within 39 sessions **19.1%**. Since 2024 the same close-at-horizon rate is **2.2% / 2.8%**. The 2006+ figure includes 2008–09 and March 2023; the post-2024 figure has no crisis in it. Both are base rates, not a forecast.
+**KRE frequencies for this one scenario, not book-profit probabilities** (`base_rate_output.txt`; KRE closes 2006-07-03 → 2026-10-23, 5,110 bars, overlapping windows): a close **≥ 11.76% lower 19 sessions later** (≈ the November expiries) **4.9%** of the time, **39 sessions later** (≈ December) **9.0%**; any close that low within 39 sessions **19.1%**. Since 2024 the same close-at-horizon rate is **2.2% / 2.8%**. These are overlapping-window KRE endpoint/within-window frequencies, not the probability this multi-name, multi-expiry book profits. The 2006+ figure includes 2008–09 and March 2023; the post-2024 figure has no crisis in it. Neither is a forecast.
 
-## 4. One driver, two paths, both weak on the evidence
-**⚠️ Direction check first.** REGINALD's 57-session fit (8/4 → 10/22, `AGENTS/REGINALD/reports/2026-10-23_boot/REPORT.md` §4, committed `8bcdaa8e5`; `TRADE.md` §4): KRE moves about **−0.72% per +10 bp on the 10-year** (correlation −0.36, **R² 0.13**) and **+0.02% per +10 bp of HY spread** (correlation +0.07). So the puts gain on a **RISING** 10-year; **a FALLING 10-year is the falsifier** (rate relief lifts KRE). The spawn brief's phrase "keys on a falling 10-year" is read here as "its falsifier is a falling 10-year"; if a different meaning was intended, this section needs the correction.
+## 4. Two named paths and the limits of the fitted evidence
+**⚠️ Direction check first.** REGINALD's 57-session fit (8/4 → 10/22, `AGENTS/REGINALD/reports/2026-10-23_boot/REPORT.md` §4, committed `8bcdaa8e5`; `TRADE.md` §4): KRE moves about **−0.72% per +10 bp on the 10-year** (correlation −0.36, **R² 0.13**) and **+0.02% per +10 bp of HY spread** (correlation +0.07). In this rates scenario the puts gain on a **RISING** 10-year; a **FALLING** 10-year is a qualified rates-scenario falsifier (rate relief lifts KRE on the fit), not a universal bank-put falsifier. Bank-specific credit or funding stress can coexist with a Treasury rally. The fit is an association, not a causal or necessary payoff condition.
 
 | Path | What the evidence says | What it would take to pay the cluster |
 |---|---|---|
-| **Rates** (rising 10-year) | the only channel with a measurable fit, and the fit explains 13% of KRE's daily variance; outside the last 4 weeks the slope is −0.4% to −1.3% per +10 bp by window, weak (REGINALD answer, consumed 10/23) | the 11.76% breakeven ≈ **+160 bp** on the 10-year on this fit, in 4–8 weeks. Not a plausible rate path; at most the rate channel shades the marks. **The cluster pays only on something the fit does not contain.** |
+| **Rates** (rising 10-year) | the fitted relationship explains 13% of KRE's daily variance; outside the last 4 weeks the slope is −0.4% to −1.3% per +10 bp by window, weak (REGINALD answer, consumed 10/23) | Extrapolating this daily fit to the equal-decline 11.76% scenario gives ≈ **+160 bp** on the 10-year. R² 0.13 and the 57-session window do not support using that extrapolation as a required rate move or payoff forecast. The fitted relationship alone does not explain a payoff of that size; other paths and pre-expiry marks remain possible. |
 | **Credit** (REG-T-04: HY > 350 bp ×3 published closes; 340 at 10/22; earliest fire the 10/27 close, published ~10/28) | REGINALD reads **BANK-ABSENT** (~0.7 confidence): HY widened 266 → 340 bp (9/21 → 10/22) while KRE rose 0.6%; on 10/22, the widest HY day of the month, KRE rose 2.53% | a REG-T-04 fire is information for the HYG card (WQ-513 A), **not demonstrated** information for bank puts. It pays this cluster only if credit stress reaches bank funding or deposits, a channel no desk has measured opening |
 
-**Net:** both named paths are weak on the 57-session sample. The cluster is a bet on a **regime break** (a 2023-class funding or deposit event) inside 4–8 weeks. That is a legitimate tail bet, and it should be read as one: the base rate above, not the two channels, is the honest prior.
+**Net:** the short-window rate association is weak, and REGINALD has not measured bank transmission from broad HY widening in this sample. That limits support for these explanations; it does not establish that neither path can pay or that a crisis is the only profitable route. The equal-decline scenario and KRE frequencies are descriptive, not calibrated probabilities for this book.
 
 ## 5. The named falsifiers and what each does to the cluster
 From REGINALD `TRADE.md` §4 (refuters for any bank put) plus the rate falsifier:
 
 | Falsifier | Reading now | Effect on the cluster |
 |---|---|---|
-| **10-year falls** | ^TNX 4.96 [10/22 vendor close] | −25 bp ⇒ KRE ≈ +1.8% on the fit (to ≈ $73.76); the Nov-27 70P goes from 3.4% to 5.1% out of the money. Marks fall; the November lines need a bigger move in fewer days. FOMC 10/28 is the dated event |
+| **10-year falls — qualified rates-scenario falsifier** | ^TNX 4.96 [10/22 vendor close] | MODEL: −25 bp ⇒ KRE ≈ +1.8% on the fit (to ≈ $73.76); the Nov-27 70P goes from 3.4% to 5.1% out of the money. This isolates the fitted rates scenario; bank-specific credit/funding stress can coexist with falling yields. It is not a universal put-book falsifier or a mark forecast. FOMC 10/28 is the dated event |
 | **KRE reclaims $72.74** (the 9/16 gap-down close) | **$72.46 [10/23 close], 0.4% below** | the closest refuter to firing: one +0.4% day. A close above it says the gap is repaired; the strikes move further out of the money |
 | HY back < 280 bp / B-tier OAS < 300 | HY 340 [10/22] | kills the credit path outright (and with it the REG-T-04 route to bank stress) |
 | REG-T-04 exit, HY ≤ 330 ×5 | 340 [10/22], 10 bp above | the credit gate stands down before it fires |
@@ -73,7 +73,7 @@ From REGINALD `TRADE.md` §4 (refuters for any bank put) plus the rate falsifier
 A falsifier firing changes what the cluster is worth and what it is betting on; **what to do with any line is Will's decision**, and this view carries no management instruction.
 
 ## 6. Overlap with the rest of the book
-The QQQ Nasdaq-downside bet (basis $2,255.69, `IDEA-QQQ-PUTWALL-OCT22` + Oct-26 710P/705P) is a separate driver. The 10/23 KRE/QQQ study found the book pays only on a JOINT fall (to 11/13: flat −$1,693, both rally −$3,032, MODEL; 0 of 13 joint ≥ 5% falls in 40 sessions, 2006+), `research/2026-10-23_KRE-QQQ-report/FINDINGS_2026-10-23_pm.md`. **GLD is not a hedge for this cluster** (MIDAS WQ-451: GLD rose on 2 of 12 equity-stress days in the last 120 sessions); see `setups/GLD-SHARES_management-rails_2026-10-24.md`.
+The QQQ Nasdaq-downside bet (basis $2,255.69, `IDEA-QQQ-PUTWALL-OCT22` + Oct-26 710P/705P) is a separate driver. The saved 10/23 KRE/QQQ study reports joint-fall scenarios (to 11/13: flat −$1,693, both rally −$3,032, MODEL; 0 of 13 joint ≥ 5% falls in 40 sessions, 2006+), `research/2026-10-23_KRE-QQQ-report/FINDINGS_2026-10-23_pm.md`; those scenarios do not exhaust profitable paths. **GLD's hedge value for this bearish-option cluster is unestablished.** MIDAS's 2 of 12 GLD up-days during equity stress (120-session sample) tests protection for long equities. Testing this book requires its own daily P&L against GLD, including rallies and time decay; see `setups/GLD-SHARES_management-rails_2026-10-24.md`.
 
 ## 7. What could not be verified
 Option marks after 10/22 and all bid/ask/OI (weekend) · 10/23 account total · whether any regional line changed after the 10/23 activity capture · Robinhood WAL 70P ×1 · H.8 reading · HY OAS for 10/23 (not published at read). Every option figure: **refresh Monday before any use.**

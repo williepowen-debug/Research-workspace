@@ -202,7 +202,9 @@ CORRECTION_MARKERS = re.compile(
     re.IGNORECASE,
 )
 
-SETUP_ID_RE = re.compile(r"\b(?:TRY|MGMT)-[A-Z0-9]+(?:-[A-Z0-9]+)*\b")
+# All card namespaces participate in the same registry comparisons. IDEA cards
+# were read from card/TSV but silently omitted from INDEX/TRADE_BOOK until 10/25.
+SETUP_ID_RE = re.compile(r"\b(?:TRY|MGMT|IDEA)-[A-Z0-9]+(?:-[A-Z0-9]+)*\b")
 
 
 # ---------------------------------------------------------------- helpers
@@ -872,7 +874,7 @@ COUNT_RES = [
     re.compile(rf"{_CNT_GUARD}{_CNT}\s+(?:ct\b|contracts?\b|remain\b)"),
 ]
 
-_SID_RE = re.compile(r"TRY-[A-Z]+-(?:\d{3}|[A-Z0-9]+)")
+_SID_RE = SETUP_ID_RE
 
 
 def counts_in(text: str) -> set[int]:
@@ -915,7 +917,7 @@ def contract_count_findings(sid: str, live: int, regions: dict[str, str]) -> lis
 
 
 def _own_row(lines: list[str], sid: str, cell_idx: int) -> str | None:
-    """Last md-table row whose ID cell's FIRST TRY- token is exactly sid."""
+    """Last md-table row whose ID cell's FIRST setup ID is exactly sid."""
     hit = None
     for line in lines:
         if sid not in line or not line.strip().startswith("|"):
@@ -1084,6 +1086,46 @@ def selftest() -> int:
         print(f"  {'PASS' if cond else 'FAIL'}  {label}")
         if not cond:
             fails += 1
+
+    # IDEA namespace regression: exercise the extractors BEFORE the checks.
+    # A check given a handcrafted claims dict cannot expose a missing reader.
+    _idea = "IDEA-QQQ-PUTWALL-OCT22"
+    _idea_index = f"| **{_idea}** | CLOSED | IDEA | QQQ Nov-20 690P/670P x1 |"
+    _idea_tb = (f"| old | {_idea} | Will | CONDITIONAL | pending | CLOSED | a.md |\n"
+                f"| new | {_idea} | Will | CLEAN | approved | FIRED / LIVE | a.md |")
+    _idea_card = f"**Setup ID:** `{_idea}`\n**Terry verdict:** FIRED / LIVE\n"
+    ok("IDEA: full ID read from card, INDEX and LAST trade-book row",
+       cards_from_text("a.md", _idea_card) == (_idea, "FIRED / LIVE")
+       and index_md_states(_idea_index) == {_idea: "CLOSED"}
+       and trade_book_states(_idea_tb) == {_idea: "FIRED / LIVE"})
+    _idea_claims = {_idea: {"card": cards_from_text("a.md", _idea_card)[1],
+                           "INDEX.md": index_md_states(_idea_index)[_idea],
+                           "TRADE_BOOK.md": trade_book_states(_idea_tb)[_idea]}}
+    ok("IDEA A: reader-exposed state drift fires",
+       len(check_state_agreement(_idea_claims)) == 1)
+    ok("IDEA A: matching surfaces stay clean",
+       check_state_agreement({_idea: {"card": "FIRED / LIVE", "INDEX.md": "FIRED / LIVE"}}) == [])
+    _idea_struct = {_idea: {"INDEX.md": "FIRED / LIVE QQQ Nov-20 690P/670P",
+                           "TRADE_BOOK.md": "FIRED / LIVE QQQ Nov-20 690P/665P"}}
+    ok("IDEA G: same state with different strikes fires",
+       len(check_structure_agreement(_idea_struct)) == 1)
+    _idea_fields = [""] * 20
+    _idea_fields[1], _idea_fields[4] = _idea, "QQQ Nov-20 690P/670P x2"
+    _idea_fields[12], _idea_fields[18] = "OPEN", "real"
+    ok("IDEA H: OPEN real count uses the complete compound ID",
+       paper_live_counts("\t".join(_idea_fields)) == {_idea: 2})
+    _idea_fields[18] = "paper"
+    ok("IDEA H: paper lane is excluded", paper_live_counts("\t".join(_idea_fields)) == {})
+    _idea_fields[18], _idea_fields[12] = "real", "CLOSED"
+    ok("IDEA H: CLOSED real is excluded", paper_live_counts("\t".join(_idea_fields)) == {})
+    _idea_own = _own_row([_idea_index], _idea, 0)
+    ok("IDEA H: own-row stale count fires",
+       _idea_own is not None and len(contract_count_findings(_idea, 2, {"INDEX.md": _idea_own})) == 1)
+    ok("IDEA H: cross-card prose cannot donate a count",
+       _own_row([f"| **IDEA-OTHER** | CONDITIONAL; compare {_idea} x2 |"], _idea, 0) is None)
+    ok("identity: TRY and MGMT compound keys still parse",
+       index_md_states("| **TRY-FIRE-004** | CLOSED | x |\n| **MGMT-GLD-SHARES-OCT24** | CONDITIONAL | x |")
+       == {"TRY-FIRE-004": "CLOSED", "MGMT-GLD-SHARES-OCT24": "CONDITIONAL"})
 
     # --- normalizer
     ok("terminal state beats trailing history",

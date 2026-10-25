@@ -4,9 +4,13 @@
 Activity detail lives in commit messages, daytrading/JOURNAL.md, and `memory/auto/`.
 Keep this load-bearing: append a Durable Finding only when it survives the episode.
 
-## October 24 current pickup — 2026-10-24 14:5x ET
+## Current pickup — 2026-10-25T12:15:04-04:00
 
-PROME spawn (Claude Opus 5.5). $0 moved. Encoded WQ-513 A (HYG leg (a)) and WQ-514 A (ORCL) as APPROVED NOT-FIRED, restored ORCL line-7 sourcing; regional-put cluster VIEW (`research/2026-10-24_regional-put-cluster/VIEW.md`); GLD rails card `MGMT-GLD-SHARES-OCT24`. 10/23 sessions: see STATUS historical blocks (WQ-508 applied, RSP/FXY/IEF re-graded, USO/QQQ fills booked).
+Will-launched TERRY, OpenAI GPT-6 / Codex, exact variant UNKNOWN; session `01a173ac-c7b5-7c82-97bb-0210dd57427f`. Read `research/2026-10-25_boot/REPORT.md` first. Two inbox packets consumed: PRD1–3 current-surface corrections and WQ-493 prospective template/ledger encode. Oracle FAQ index points to December 14, direct FAQ/events reads inconclusive; verified-date condition retained, no impossibility inference. Regional-put 11.76% is one equal-decline original-cost-at-expiry scenario; rate-fit limits retained. GLD hedge value for the bearish-option book is unestablished; no action derived. IDEA guard coverage A/G/H repaired, author selftests/live sweep clean. No new card, forecast row, fill, order, approval, sizing or score. Existing HYG/ORCL approvals remain NOT-FIRED. Weekend paper marks are screening values with unknown option quote timestamps.
+
+## October 24 prior pickup
+
+Encoded WQ-513 A (HYG) / WQ-514 A (ORCL); regional-put VIEW and GLD card. October 25 corrections above supersede their unsupported inference language, preserving original arithmetic and card conditions. October 23 fills and re-grades remain at STATUS historical blocks.
 
 ## October 20 pickup (prior) — 2026-10-20T12:01:18.796890-04:00
 
@@ -46,7 +50,7 @@ Publication and exactcloseoutcommit proof are recorded in dateddelivery; prior s
 
 ## Next Session — start here
 
-0. **October 24 carry-forward:** Monday 10/26: refresh option marks on the cluster VIEW and the GLD card (weekend values are 10/22 broker / 10/23 closes); REG-T-04 earliest fire = the 10/27 close (published ~10/28) → HYG card § 10; ORCL FQ2 date at Oracle IR at every touch (WQ-514 condition). Owed: `ledger_sweep.py` IDEA- prefix coverage in checks A/G/H. KRE/QQQ work: `research/2026-10-23_KRE-QQQ-report/README.md`.
+0. **October 25 carry-forward:** Monday 10/26: refresh option marks on the cluster VIEW and the GLD card (weekend values are 10/22 broker / 10/23 closes); REG-T-04 earliest fire = the 10/27 close (published ~10/28) → HYG card § 10; ORCL FQ2 date at Oracle IR at every touch (WQ-514 condition). IDEA prefix coverage A/G/H implemented October 25; author tests passed, PROME acceptance pending. KRE/QQQ work: `research/2026-10-23_KRE-QQQ-report/README.md`.
 1. Read currentoperatoroverrideabove/USER.md beforeanyheld-linecommunication. Noexpiryreminders,sellpushesorrepeatedcheck-ins;C5paused.
 2. Newtradeidea slate/cardversionsat research/2026-10-20_trade-idea-slate.md; nofillsapproved. RefreshlivebrokerquotesatadecisionandpreserveX1/hardguards/daycolour;presentNOT-FIREDideaswithoutpretendingtriggerconfirmation.
 3. ReconcileanynewbrokerreceiptagainstOctober19ActivitykeysandOctober20sourcehashesbeforebooking. Olderdiscrepanciesstayunknownuntilactualevidence;noabsentholding⇒lapseinference.
