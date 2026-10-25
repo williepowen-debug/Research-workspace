@@ -2,8 +2,8 @@
 
 **Status:** ELEVATED. Cross-war route/willingness risk persists; net crude loss and the price-premium fraction remain unmeasured. No HAWK mark, band or probability changed.
 **Domain:** cross-war synthesis + dormant geopolitical book.
-**As of:** 2026-10-25 12:26 EDT; owner evidence through October 23, trade-policy primaries checked October 25.
-**STATUS commit:** `6c9a0bce0` (exact STATUS revision read back at closeout).
+**As of:** 2026-10-25 12:26 EDT; owner evidence through October 23, trade-policy primaries and late WALTER interception report read October 25.
+**STATUS commit:** `ef8041db5` (exact STATUS revision including late October 25 intake).
 
 ## CROSS-DOMAIN
 
@@ -33,3 +33,5 @@ October 26 overdue native EURMIL/evidence triage; after October 27 joint C3 qual
 ## WATCH
 
 Counting-source confirmation on a Saudi crude-processing unit; verified US strike decision; named hull/mine authority confirmation; new matched insurance quote; Article 4 request at a current NATO primary; legal instruments implementing the truce extension. No fresh October 25 theater sweep or live oil-price pull was performed.
+
+**Late October 25 intake (KB-460):** WALTER reports October 24 Yanbu/Taif and October 25 Riyadh interceptions. Article bodies read by WALTER; originating coalition releases not recovered. No established oil damage or confirmed HAW-22 terminal candidate. Separate dates, not one salvo. Sender source remains pending its own commit; HAWK disposition is recorded.
