@@ -1,0 +1,57 @@
+{
+  "captured_at": "2026-10-25T17:40:38.151478+00:00",
+  "sources": {
+    "SPY": {
+      "source": "Yahoo MIRROR via yfinance; explicit auto_adjust=False; Adj Close is dividend-adjusted market-return proxy",
+      "rows": 5517,
+      "start": "2004-11-18",
+      "end": "2026-10-23",
+      "sha256": "26cfd9eebf14613ebfe9d17b23a1520713d1d5843692bc309e92a1e8aad16d40",
+      "nonzero_dividend_rows": 88,
+      "nonzero_split_rows": 0
+    },
+    "IEF": {
+      "source": "Yahoo MIRROR via yfinance; explicit auto_adjust=False; Adj Close is dividend-adjusted market-return proxy",
+      "rows": 5517,
+      "start": "2004-11-18",
+      "end": "2026-10-23",
+      "sha256": "2cb16eac7d4ae9f250da8b28c4ada62a5d086333d208a28626c719a945769ad9",
+      "nonzero_dividend_rows": 263,
+      "nonzero_split_rows": 0
+    },
+    "TLT": {
+      "source": "Yahoo MIRROR via yfinance; explicit auto_adjust=False; Adj Close is dividend-adjusted market-return proxy",
+      "rows": 5517,
+      "start": "2004-11-18",
+      "end": "2026-10-23",
+      "sha256": "78b6d85a71f74a0afba8d707d157f3743759afae11280463aab01860e6444365",
+      "nonzero_dividend_rows": 262,
+      "nonzero_split_rows": 0
+    },
+    "EIA_WTI_daily.xls": {
+      "url": "https://www.eia.gov/dnav/pet/hist_xls/RWTCd.xls",
+      "bytes": 471552,
+      "sha256": "7f2f5b92d5330ef9707e25808eb9498a0d59f26f8716caf1adf1692176b23369"
+    },
+    "EIA_WTI_daily.html": {
+      "url": "https://www.eia.gov/dnav/pet/hist/RWTCD.htm",
+      "bytes": 469558,
+      "sha256": "b3aafa1445a9940aa712003d388afaed0726fe3c443acb11a062911903e69f93"
+    },
+    "IEF_issuer.html": {
+      "url": "https://www.ishares.com/us/products/239456/ishares-710-year-treasury-bond-etf",
+      "bytes": 1972515,
+      "sha256": "d0cdda7af6a94e656920e4df6eec0117b8070d1d7539c7a17f2cca3297da7f40"
+    },
+    "TLT_issuer.html": {
+      "url": "https://www.ishares.com/us/products/239454/ishares-20-year-treasury-bond-etf",
+      "bytes": 1974316,
+      "sha256": "7b11c6f9be69690797163677e49f7ba482a949a6529bbe4b8815e8a33e295e3e"
+    },
+    "SPY_issuer.html": {
+      "url": "https://www.ssga.com/us/en/individual/etfs/state-street-spdr-sp-500-etf-trust-spy",
+      "bytes": 234887,
+      "sha256": "f7a010ebdc8ec0012b3c6e37761d260df3b169781e02b9a19b9fe74f51280377"
+    }
+  }
+}

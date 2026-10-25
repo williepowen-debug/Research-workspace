@@ -53,3 +53,5 @@ Examples: gold/silver ratios; platinum/palladium vehicle-demand and supply studi
 Operations, implementation and preserved historical archives are classified separately in [the catalog](../METALS_CATALOG.tsv). Their original paths remain authoritative. New shared reports go in `shared/research/`; new source captures go in `shared/sources/YYYY-MM-DD_topic/`.
 
 - [Sunday October 25 catch-up and assignment reconciliation](research/2026-10-25_sunday-catch-up.md) — dated prices, source limits, completed PRD3 correction and next owner work.
+
+- [Gold versus equities, Treasuries and oil](research/2026-10-25_gold-versus-equities-bonds-oil.md) — October 25 cross-asset extension; matched dates, return bases, historical cases and changing relationships.

@@ -1,5 +1,8 @@
 # MIDAS — STATUS
 
+**Gold cross-asset extension October 25, 2026 (Will-directed):** [report](shared/research/2026-10-25_gold-versus-equities-bonds-oil.md). Recent 120-observation GLD/SPY daily correlation +0.53 versus +0.05 before 2026; does not establish permanent regime or option-book hedge. Oct9→22 gold −4.05%, stocks −1.88%, IEF +2.01%, TLT +4.82%: gold missed the Treasury defensive bid. January29→October20 common gold/stocks/IEF/TLT/WTI returns −23.85/+11.67/−3.14/−5.36/+66.57%; sign pattern resembles 2020–2022, not a forecast. Oil is PRIMARY EIA physical spot, latest October20, price change only; ETFs include distribution adjustments. Friday fund-only gold drawdown −26.07% remains. No score, band, frozen beta/prediction, trade or cadence change; actual 8/20.
+
+
 **Gold history study October 25, 2026 (Will-directed follow-up):** [report](gold/research/2026-10-25_recent-gold-versus-history.md). GLD $366.61 October 23 is −26.07% vs January peak but +142.42% vs September 2022 low; current close is only +0.45% above July 16 low. Four completed 20% record-drawdown episodes since 2004 took 494–3,264 calendar days from peak to regain that nominal high; current recovery unknown. Five-session −4.03% is at the 3.9th percentile of pre-2026 overlapping five-session returns. Current fund bullion decline −3.76% since January is smaller than 2011–2015’s −50.94%, but GLD fell 4.05% October 9–22 despite a 27 bp real-yield decline. Substantial correction, no historical bottom/timing edge established. Scores and frozen forecasts unchanged. PROME verified Sunday PRD3 and closeout; M1 draft disposition is now registered **WQ-522, not ruled**.
 
 

@@ -1,5 +1,8 @@
 # MIDAS — SCRATCH
 
+**Later October 25 — Will extended gold comparison to equities, bonds and oil:** completed `shared/research/2026-10-25_gold-versus-equities-bonds-oil.md`; raw/calculation/plots in `shared/sources/2026-10-25_gold-cross-assets/`. Gold issuer history reused; SPY/IEF/TLT adjusted market-return histories fetched and checked against primary issuer figures; EIA primary WTI endsOct20, fundsOct23, never forward-filled. KB196–200, state/indexes updated. Current120 gold/equity correlation+0.53; weak gold response to defensive Treasury rally; 2020–2022 shared signs are description only. No forecast/score/trade or new cadence. Existing settlement/Nornickel/calendar work unchanged; no pull over foreign work.
+
+
 **Later October 25 — Will asked gold recent performance versus history:** completed `gold/research/2026-10-25_recent-gold-versus-history.md`; PRIMARY issuer history 2004–Oct22 plus one MIRROR Oct23 close, overlap 453 dates reconciled. Charts PNG/SVG/PDF and calculation/source hashes in `gold/sources/2026-10-25_historical-comparison/`. KB192–195; full historical recovery dispersion, near-July-low price and weak reaction to real-yield relief documented. No new prediction/score/trade. PROME acknowledged exact PRD3/result/delivery/closeout commits; WQ-522 now registers draft disposition (not ruled). Gold settlement source still missing. Plot dependencies installed only under /tmp. No pull over foreign live work.
 
 

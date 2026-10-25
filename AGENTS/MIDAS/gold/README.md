@@ -60,3 +60,5 @@ Put inseparable multi-metal work in [shared](../shared/README.md), once, and lin
 - [Sunday October 25 catch-up and assignment reconciliation](../shared/research/2026-10-25_sunday-catch-up.md) — dated prices, source limits, completed PRD3 correction and next owner work.
 
 - [Recent gold performance versus history](research/2026-10-25_recent-gold-versus-history.md) — October 25 study: 2004–2026 drawdowns, recoveries, recent-return percentiles and rate/holdings context. [Charts and calculations](sources/2026-10-25_historical-comparison/).
+
+- [Gold versus equities, Treasuries and oil](../shared/research/2026-10-25_gold-versus-equities-bonds-oil.md) — October 25 cross-asset extension; matched dates, return bases, historical cases and changing relationships.

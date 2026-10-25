@@ -1,5 +1,8 @@
 # MIDAS — NEXUS brief
 
+**October 25 cross-asset gold extension (Will-directed):** `shared/research/2026-10-25_gold-versus-equities-bonds-oil.md`. GLD/SPY recent120 daily correlation +0.527 (throughOct23) versus pre2026 +0.052; correlation of returns, not stable hedge effectiveness. Oct9→22 GLD −4.05%, SPY −1.88%, IEF +2.01%, TLT +4.82%: gold missed defensive bond strength. Exact Jan29→Oct20 returns GLD −23.85%, SPY +11.67%, IEF −3.14%, TLT −5.36%, WTI spot +66.57%; same signs as 2020–2022 gold retreat, not a causal/recovery forecast. EIA spot latestOct20, no Friday fill or futures-settlement replacement; oil price change not investment return, ETF dividends/interest included. Full-history completed monthly gold/equity/oil correlations +0.085/+0.068 (262 months). No new score, prediction, capital or cadence; bearish-option hedge remains unestablished.
+
+
 **October 25 gold-history follow-up (Will-directed):** `gold/research/2026-10-25_recent-gold-versus-history.md`; chart and reproducible tables in `gold/sources/2026-10-25_historical-comparison/`. GLD −26.07% vs January peak, +142.42% vs September 2022 low; 5-session return −4.03% at pre-2026 percentile 3.9 (overlapping history). Daily-record bear episodes since 2004 recovered after 494/548/3264/1306 calendar days from peak; current episode ongoing, no recovery clock. Bullion Jan29→Oct22 −3.76%, far smaller than 2011–2015 −50.94%; fund-only comparison, unequal durations. Gold still fell 4.05% Oct9→22 despite real yield −27 bp. Historical evidence supports a substantial correction of an exceptional advance, not a demonstrated immediate buying edge. New descriptive rate estimates do not replace WQ-451/MIDAS-17 frozen beta; no score, probability or trade change.
 
 

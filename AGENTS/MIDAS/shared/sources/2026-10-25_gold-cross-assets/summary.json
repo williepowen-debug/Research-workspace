@@ -1,0 +1,64 @@
+{
+  "gold_end": "2026-10-23",
+  "fund_end": "2026-10-23",
+  "oil_end": "2026-10-20",
+  "common_start": "2004-11-18",
+  "common_end": "2026-10-20",
+  "common_daily_levels": 5364,
+  "completed_month_return_n": 262,
+  "monthly_end": "2026-09-30",
+  "latest_oil_usd_per_barrel": 107.89,
+  "negative_oil_return_exclusions": [
+    {
+      "date": "2020-04-20",
+      "value": -36.98,
+      "previous": 18.31,
+      "reason": "nonpositive endpoint"
+    },
+    {
+      "date": "2020-04-21",
+      "value": 8.91,
+      "previous": -36.98,
+      "reason": "nonpositive endpoint"
+    }
+  ],
+  "fund_adjustment_audit": {
+    "SPY": {
+      "rows": 5517,
+      "start": "2004-11-18",
+      "end": "2026-10-23",
+      "adjustment_ratio_min": 0.6699318042988064,
+      "adjustment_ratio_max": 1.0,
+      "dividend_rows": 88,
+      "split_rows": 0
+    },
+    "IEF": {
+      "rows": 5517,
+      "start": "2004-11-18",
+      "end": "2026-10-23",
+      "adjustment_ratio_min": 0.5519162838106043,
+      "adjustment_ratio_max": 1.0,
+      "dividend_rows": 263,
+      "split_rows": 0
+    },
+    "TLT": {
+      "rows": 5517,
+      "start": "2004-11-18",
+      "end": "2026-10-23",
+      "adjustment_ratio_min": 0.48679182588469844,
+      "adjustment_ratio_max": 1.0,
+      "dividend_rows": 262,
+      "split_rows": 0
+    }
+  },
+  "gold_source_sha256": "102687b74f15b1b57eeceea96720c7944d6d7a1baf9c4ab9147975312bf84245",
+  "limitations": [
+    "WTI spot price change is not an investment return",
+    "ETF adjusted market returns are not NAV returns",
+    "oil daily percentage-return observations with nonpositive endpoints excluded",
+    "2026 monthly sample only9 months",
+    "historical gold trough endpoints selected retrospectively; no prospective edge",
+    "different pairwise daily source frontiers"
+  ],
+  "source_capture": "access.json"
+}

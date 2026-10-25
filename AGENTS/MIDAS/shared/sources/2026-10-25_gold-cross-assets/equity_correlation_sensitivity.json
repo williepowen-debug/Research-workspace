@@ -1,0 +1,6 @@
+{
+  "pearson_last120": 0.5269130641806229,
+  "rank_correlation_last120": 0.48861726508785325,
+  "pearson_excluding5_largest_absolute_gold_returns": 0.5015307607343827,
+  "basis": "exploratory robustness check; no forward performance or threshold claim"
+}
