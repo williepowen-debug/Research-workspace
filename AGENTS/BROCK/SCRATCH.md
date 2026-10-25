@@ -7,3 +7,5 @@ FSK correction: gross87.0/21.9 -> funded-only85.4/25.6; gap reconciled (unfunded
 ARCC10/27, HTGC10/29: Experiment A EXPECTED from original WQ-511 report, then OBSERVED/MATERIAL DIFFERENCE/REVISED BELIEF, then stop. BXSL COST3.6% and HTGC facilities filled; GBDC per-name undrawn remains UNKNOWN. CRMT10/28 backstop,10/30+11/02; CABO10/30; R2 review10/31.
 
 PROME delivery/closeout after final STATUS commit and substantive brief re-pin. Own thread01a173ad-f2ce-7f91-ab8d-46e6f76330c0; exact model UNKNOWN. Shared foreign dirty work untouched; no pull/rebase/stash.
+
+Late intake: COR-20261025-02 (HY volume inference withdrawn) NO-OP scoped receipt; no adopted owner claim, spread terms unchanged. PROME source spot-check accepted and L826/L827 corrected.

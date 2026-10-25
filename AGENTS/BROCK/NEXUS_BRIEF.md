@@ -3,7 +3,7 @@
 **Status:** 🔴 STAGE 2→3 — substance firming; bank transmission unconfirmed; X1 NOT MET, wrapper NOT ARMED.
 **Domain:** BDCs / private credit / alternative managers / AI-infrastructure lending / PE-insurance links. Insurer exposure belongs to SHADE; EU bank/private-credit seam to HANS.
 **Recent thesis pivots:** ① **GATE-BRK-R2 (a) FIRED ×2** — North Haven PIF 9/25 (Q3 prelim 43.8%), OCIC 10/2 (Q3 prelim ~30%); one redemption wave, scored once. ② **BRK-02 RESOLVED FALSE 10/2:** Octus industry non-accruals at COST fell 2.02→1.90% in Q2, while rated-universe medians rose. ③ Duration 3→4 on 9/25, registered >5.00% rung met; latest 4.96 [FRED 10/22] is below the rung now, without an inferred reset rule. ④ WQ-363 (Will 10/3): X1 sustained = 3 consecutive HY readings >280.0; HY leg met, wrapper fails. ⑤ WQ-370 keeps OTIC OUT of R2; **standalone GATE-BRK-OTIC REGISTERED 10/15 (WQ-403)**, first grading Q4-2026.
-**As of:** 2026-10-25T13:47:51-04:00 | STATUS commit: `4e46f3e39` | Convergence **58/70**, last rescore **9/25**, unchanged this session. Includes 10/25 six-bank release/deck reads and FSK correction; no score or qualifying fire changed.
+**As of:** 2026-10-25T13:51:17-04:00 | STATUS commit: `4e46f3e39` | Convergence **58/70**, last rescore **9/25**, unchanged this session. Includes 10/25 six-bank release/deck reads and FSK correction; no score or qualifying fire changed.
 
 ## CROSS-DOMAIN
 
