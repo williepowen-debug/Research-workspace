@@ -1,0 +1,39 @@
+X-BOOKMARK scan — Will's new bookmarks
+================================================================
+
+[--mark] consuming 39 staged id(s): 2114410755965452646, 2114386923032818016, 2114074959337160937, 2114016740380483757, 2114025000743158179, 2113692454905872823, 2113986366820475079, 2113956320881811747, 2113987875759100014, 2113651656449528176 …
+
+Bookmark receipt — 2026-10-25T19:29:22Z
+Reviewed/marked 39 item(s); reading labels are WALTER's attestation.
+Fully read 31; partly read 8; unread 0.
+Dispositions: DISPATCH 16, DUP 7, FOLD 11, NO-ACTION 3, NOTE 2
+Returned traversal complete through its recorded head check; this is not owner consumption or a remote snapshot guarantee.
+Latest head check: 2026-10-25T18:18:17Z
+Follow-up 2114386923032818016: AGENTS/WALTER/research/2026-10-25_bookmarks/REVIEW.md#follow-ups
+Follow-up 2114074959337160937: AGENTS/WALTER/research/2026-10-25_bookmarks/REVIEW.md#follow-ups
+Follow-up 2114025000743158179: AGENTS/WALTER/research/2026-10-25_bookmarks/REVIEW.md#follow-ups
+Follow-up 2113692454905872823: AGENTS/WALTER/research/2026-10-25_bookmarks/REVIEW.md#follow-ups
+Follow-up 2113956320881811747: AGENTS/WALTER/research/2026-10-25_bookmarks/REVIEW.md#follow-ups
+Follow-up 2113987875759100014: AGENTS/WALTER/research/2026-10-25_bookmarks/REVIEW.md#follow-ups
+Follow-up 2113662370447036595: AGENTS/WALTER/research/2026-10-25_bookmarks/REVIEW.md#follow-ups
+Follow-up 2113691980131934210: AGENTS/WALTER/research/2026-10-25_bookmarks/REVIEW.md#follow-ups
+Follow-up 2113724329922035959: AGENTS/WALTER/research/2026-10-25_bookmarks/REVIEW.md#follow-ups
+Follow-up 2113751434307211386: AGENTS/WALTER/research/2026-10-25_bookmarks/REVIEW.md#follow-ups
+Follow-up 2113601604481908847: AGENTS/WALTER/research/2026-10-25_bookmarks/REVIEW.md#follow-ups
+Follow-up 2113601040926785698: AGENTS/WALTER/research/2026-10-25_bookmarks/REVIEW.md#follow-ups
+Follow-up 2113551014242464052: AGENTS/WALTER/research/2026-10-25_bookmarks/REVIEW.md#follow-ups
+Follow-up 2113707528618168658: AGENTS/WALTER/research/2026-10-25_bookmarks/REVIEW.md#follow-ups
+Follow-up 2113592831847670042: AGENTS/WALTER/research/2026-10-25_bookmarks/REVIEW.md#follow-ups
+Follow-up 2113513248373014902: AGENTS/WALTER/research/2026-10-25_bookmarks/REVIEW.md#follow-ups
+Follow-up 2113746025450205242: AGENTS/WALTER/research/2026-10-25_bookmarks/REVIEW.md#follow-ups
+Follow-up 2113747073916965141: AGENTS/WALTER/research/2026-10-25_bookmarks/REVIEW.md#follow-ups
+Follow-up 2113460043706503509: AGENTS/WALTER/research/2026-10-25_bookmarks/REVIEW.md#follow-ups
+Follow-up 2113759382630486395: AGENTS/WALTER/research/2026-10-25_bookmarks/REVIEW.md#follow-ups
+Follow-up 2113754773958864925: AGENTS/WALTER/research/2026-10-25_bookmarks/REVIEW.md#follow-ups
+Follow-up 2113759110625906950: AGENTS/WALTER/research/2026-10-25_bookmarks/REVIEW.md#follow-ups
+Follow-up 2113770927599272075: AGENTS/WALTER/research/2026-10-25_bookmarks/REVIEW.md#follow-ups
+Follow-up 2113728980381782476: AGENTS/WALTER/research/2026-10-25_bookmarks/REVIEW.md#follow-ups
+Follow-up 2113649143738741120: AGENTS/WALTER/research/2026-10-25_bookmarks/REVIEW.md#follow-ups
+Follow-up 2113433984961061247: AGENTS/WALTER/research/2026-10-25_bookmarks/REVIEW.md#follow-ups
+Follow-up 2113715583862612335: AGENTS/WALTER/research/2026-10-25_bookmarks/REVIEW.md#follow-ups
+--mark: recorded 39 id(s) → x_bookmarks_seen.json (ids only).

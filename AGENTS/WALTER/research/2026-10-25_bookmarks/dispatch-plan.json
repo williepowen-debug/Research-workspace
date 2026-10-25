@@ -1,0 +1,319 @@
+[
+  {
+    "sid": "SIG-W-20261025-003",
+    "path": "BOARD/SIG-W-20261025-003-gmo-desktop-cloud-breach-primary-seventy-firms-threat-not-breach-census.md",
+    "title": "GMO confirms Desktop Cloud intrusion and data theft; unauthorized trades reported, but 70-plus firms is an extortion-threat scope",
+    "act": [
+      "CYPHER"
+    ],
+    "info": [
+      "SAM",
+      "LIQUID",
+      "PROME",
+      "RED"
+    ],
+    "ords": [
+      2
+    ],
+    "precedence": "IMMEDIATE",
+    "confidence": 0.92,
+    "timestamp": "2026-10-25T19:28:38Z"
+  },
+  {
+    "sid": "SIG-W-20261025-004",
+    "path": "BOARD/SIG-W-20261025-004-brotli-reach-bun-envoy-patches-same-cve-not-new-incident.md",
+    "title": "Brotli CVE-2026-111497 now has Bun and Envoy primary advisories; update the existing incident rather than counting another flaw",
+    "act": [
+      "CYPHER"
+    ],
+    "info": [
+      "VULCAN",
+      "REGINALD",
+      "PROME",
+      "RED"
+    ],
+    "ords": [
+      31,
+      32,
+      9
+    ],
+    "precedence": "PRIORITY",
+    "confidence": 0.88,
+    "timestamp": "2026-10-25T19:28:38Z"
+  },
+  {
+    "sid": "SIG-W-20261025-005",
+    "path": "BOARD/SIG-W-20261025-005-jubilee-acid-costs-fiscal-q4-ended-june-copper-phosphate-lead.md",
+    "title": "Jubilee acid costs rose over200% in fiscal Q4 ended June; new-to-this-lane evidence, not a new October quarter",
+    "act": [
+      "MIDAS"
+    ],
+    "info": [
+      "FERT",
+      "BRENT",
+      "RED",
+      "VULCAN",
+      "WATT"
+    ],
+    "ords": [
+      6,
+      5,
+      21
+    ],
+    "precedence": "PRIORITY",
+    "confidence": 0.82,
+    "timestamp": "2026-10-25T19:28:38Z"
+  },
+  {
+    "sid": "SIG-W-20261025-006",
+    "path": "BOARD/SIG-W-20261025-006-equity-charts-breadth-shorts-liquidity-research-leads.md",
+    "title": "Four equity-chart leads need definitions and replication before becoming positioning or recession evidence",
+    "act": [
+      "HENRY"
+    ],
+    "info": [
+      "LIQUID",
+      "VIOLET",
+      "RED"
+    ],
+    "ords": [
+      8,
+      15,
+      17,
+      35
+    ],
+    "precedence": "PRIORITY",
+    "confidence": 0.65,
+    "timestamp": "2026-10-25T19:28:38Z"
+  },
+  {
+    "sid": "SIG-W-20261025-007",
+    "path": "BOARD/SIG-W-20261025-007-hardware-import-production-growth-chart-bases.md",
+    "title": "Hardware imports outgrew domestic output in an a16z chart; growth percentages do not measure import shares",
+    "act": [
+      "ISHM"
+    ],
+    "info": [
+      "VULCAN",
+      "WATT",
+      "CARL",
+      "RED"
+    ],
+    "ords": [
+      12
+    ],
+    "precedence": "PRIORITY",
+    "confidence": 0.72,
+    "timestamp": "2026-10-25T19:28:38Z"
+  },
+  {
+    "sid": "SIG-W-20261025-008",
+    "path": "BOARD/SIG-W-20261025-008-stratospheric-warming-oct23-model-run-not-observed-cold.md",
+    "title": "October23 ECMWF run forecasts a November wind reversal; model spread prevents a current cold-demand claim",
+    "act": [
+      "AEOLUS"
+    ],
+    "info": [
+      "BRENT",
+      "WATT",
+      "HENRY",
+      "RED"
+    ],
+    "ords": [
+      13
+    ],
+    "precedence": "PRIORITY",
+    "confidence": 0.7,
+    "timestamp": "2026-10-25T19:28:38Z"
+  },
+  {
+    "sid": "SIG-W-20261025-009",
+    "path": "BOARD/SIG-W-20261025-009-oracle-partner-commitment-four-years.md",
+    "title": "Oracle announces a $1B partner-program commitment over four years, not a new $1B quarterly cash outflow",
+    "act": [
+      "VULCAN"
+    ],
+    "info": [
+      "LIQUID",
+      "RED"
+    ],
+    "ords": [
+      16
+    ],
+    "precedence": "PRIORITY",
+    "confidence": 0.91,
+    "timestamp": "2026-10-25T19:28:38Z"
+  },
+  {
+    "sid": "SIG-W-20261025-010",
+    "path": "BOARD/SIG-W-20261025-010-calpers-tech-private-equity-allocation-report.md",
+    "title": "CalPERS reportedly reduced direct Big Tech holdings while expanding private equity; total exposure and net flows need reconciliation",
+    "act": [
+      "BROCK"
+    ],
+    "info": [
+      "HENRY",
+      "LIQUID",
+      "RED"
+    ],
+    "ords": [
+      19
+    ],
+    "precedence": "PRIORITY",
+    "confidence": 0.6,
+    "timestamp": "2026-10-25T19:28:38Z"
+  },
+  {
+    "sid": "SIG-W-20261025-011",
+    "path": "BOARD/SIG-W-20261025-011-iran-israel-weekend-claims-no-new-hulls-or-strike-confirmed.md",
+    "title": "Weekend Iran/Israel bookmarks add claims and election rhetoric; no new strike, mine detonation or nuclear capability verified here",
+    "act": [
+      "FALCON"
+    ],
+    "info": [
+      "HAWK",
+      "BRENT",
+      "RED"
+    ],
+    "ords": [
+      3,
+      22,
+      25,
+      26,
+      39
+    ],
+    "precedence": "PRIORITY",
+    "confidence": 0.55,
+    "timestamp": "2026-10-25T19:28:38Z"
+  },
+  {
+    "sid": "SIG-W-20261025-012",
+    "path": "BOARD/SIG-W-20261025-012-housing-cost-executive-order-conditional-implementation.md",
+    "title": "October22 housing order directs conditional mortgage-cost measures; it does not reduce every borrower\u2019s rate today",
+    "act": [
+      "HOMER"
+    ],
+    "info": [
+      "REGINALD",
+      "CARL",
+      "RED"
+    ],
+    "ords": [
+      27
+    ],
+    "precedence": "PRIORITY",
+    "confidence": 0.93,
+    "timestamp": "2026-10-25T19:28:38Z"
+  },
+  {
+    "sid": "SIG-W-20261025-013",
+    "path": "BOARD/SIG-W-20261025-013-kff-worker-premiums-nine-percent-vs-total-five.md",
+    "title": "KFF family worker contributions rose9% while total premiums rose5%; ABC\u2019s displayed prior-year dollar figure fails arithmetic",
+    "act": [
+      "CARL"
+    ],
+    "info": [
+      "LABOR",
+      "RED"
+    ],
+    "ords": [
+      28
+    ],
+    "precedence": "PRIORITY",
+    "confidence": 0.9,
+    "timestamp": "2026-10-25T19:28:38Z"
+  },
+  {
+    "sid": "SIG-W-20261025-014",
+    "path": "BOARD/SIG-W-20261025-014-recent-grad-labor-quarter-vintage-chart-mismatch.md",
+    "title": "NY Fed\u2019s5.6% unemployment/42% underemployment figures refer to2026 Q2; attached chart is a different2025 comparison",
+    "act": [
+      "LABOR"
+    ],
+    "info": [
+      "CARL",
+      "HENRY",
+      "RED"
+    ],
+    "ords": [
+      36
+    ],
+    "precedence": "PRIORITY",
+    "confidence": 0.8,
+    "timestamp": "2026-10-25T19:28:38Z"
+  },
+  {
+    "sid": "SIG-W-20261025-015",
+    "path": "BOARD/SIG-W-20261025-015-japan-debt-video-unassessed-transcript-followup.md",
+    "title": "Japan debt video retained as an unassessed research lead; no causal claim extracted from its title",
+    "act": [
+      "SAM"
+    ],
+    "info": [
+      "RED"
+    ],
+    "ords": [
+      29
+    ],
+    "precedence": "PRIORITY",
+    "confidence": 0.4,
+    "timestamp": "2026-10-25T19:28:38Z"
+  },
+  {
+    "sid": "SIG-W-20261025-016",
+    "path": "BOARD/SIG-W-20261025-016-jetblue-record-low-debt-headline-unassessed-body.md",
+    "title": "JetBlue record-low debt report is an issuer-distress lead; bond basis and full article remain to be read",
+    "act": [
+      "LIQUID"
+    ],
+    "info": [
+      "HENRY",
+      "RED"
+    ],
+    "ords": [
+      38
+    ],
+    "precedence": "PRIORITY",
+    "confidence": 0.55,
+    "timestamp": "2026-10-25T19:28:38Z"
+  },
+  {
+    "sid": "SIG-W-20261025-017",
+    "path": "BOARD/SIG-W-20261025-017-french-spread-narrowing-post-unverified-basis.md",
+    "title": "October23 French spread-narrowing headline is counterevidence to check, not an end-of-day stress reversal",
+    "act": [
+      "HANS"
+    ],
+    "info": [
+      "BOND",
+      "LIQUID",
+      "RED"
+    ],
+    "ords": [
+      11
+    ],
+    "precedence": "PRIORITY",
+    "confidence": 0.45,
+    "timestamp": "2026-10-25T19:28:38Z"
+  },
+  {
+    "sid": "SIG-W-20261025-018",
+    "path": "BOARD/SIG-W-20261025-018-ai-cds-volume-chart-separate-from-spreads.md",
+    "title": "AI-linked CDS trading volume reportedly rose fourfold since July; it is not net protection or another spread reading",
+    "act": [
+      "LIQUID"
+    ],
+    "info": [
+      "VULCAN",
+      "BROCK",
+      "HENRY",
+      "RED"
+    ],
+    "ords": [
+      20
+    ],
+    "precedence": "PRIORITY",
+    "confidence": 0.6,
+    "timestamp": "2026-10-25T19:28:38Z"
+  }
+]

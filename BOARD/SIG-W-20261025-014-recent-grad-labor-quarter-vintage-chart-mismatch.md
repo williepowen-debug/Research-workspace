@@ -1,0 +1,33 @@
+---
+signal_id: "SIG-W-20261025-014"
+date: "2026-10-25"
+timestamp: "2026-10-25T19:28:38Z"
+dispatched: "2026-10-25T19:28:38Z"
+source: "x-bookmark"
+origin: "Will-directed exact staged batch BM-20261025-02; items [36]; stage18e5dd6d27a644f8b6f8ced3981d2f1c. Full post text retrieved by exact-ID lookup; media read where attached. See review and source limits at AGENTS/WALTER/research/2026-10-25_bookmarks/REVIEW.md."
+domain: "LABOR"
+cluster: "CONSUMER_STAGFLATION"
+action: ["LABOR"]
+info: ["CARL", "HENRY", "RED"]
+precedence: "PRIORITY"
+signal_type: "research"
+confidence: 0.8
+confidence_language: "reports"
+resources: 1
+safety_net: "clear"
+word_count: 150
+entities: ["New-York-Fed", "Recent-College-Graduates", "BLS"]
+event_window: "closed"
+dispatch_note: "Sunday batch: outside WQ-515 selection window. Source content and owner judgment remain distinct; no threshold fire or trade follows from this research lead."
+---
+# NY Fed’s5.6% unemployment/42% underemployment figures refer to2026 Q2; attached chart is a different2025 comparison
+
+**Image read:** attached graphic ends2025, shows22–27-year-old graduates5.8% versus national4.2%, and asserts a45-year-first crossover. It is not the same dataset/vintage as the post's5.6%/42% numbers.
+
+[NY Fed research listing](https://www.newyorkfed.org/research), primary summary read, dates **5.6% unemployment and42% underemployment to2026 Q2**. A college-labor page search variant still returns2026 Q1 **5.7%/41.5%**; preserve vintages rather than silently replacing one with the other. No fresh October print or causal AI-displacement estimate is established. Underemployment is a job/education match concept, not unemployment added to42%. The45-year-first claim was not reconstructed from a consistent time series.
+
+**LABOR ACTION:** does this add to existing recent-graduate/low-hire evidence, or duplicate your dated series? Resolve quarter and definition before use. CARL/HENRY INFO on household employment/income and broad demand; no frozen matrix score changed by WALTER. WALTER review October26 for underlying release/vintage reconciliation.
+
+## Bookmark provenance
+
+- Item 36: https://x.com/LayoffAI/status/2113649143738741120

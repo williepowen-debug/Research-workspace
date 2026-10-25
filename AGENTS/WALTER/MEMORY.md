@@ -95,6 +95,4 @@
 - **Bright Data Web Unlocker (WQ-383 pilot, LIVE 2026-10-04):** `bdata scrape <url>` for a 403'd no-screenshot bookmark link; free tier 5k/mo HARD STOP, Web-Unlocker-only, key in gitignored `.env` (per-machine). Full method+limits+ledger: `design/X_BOOKMARKS_ACCEPTANCE.md` §9a.
 ## Session Notes
 
-**October 25 Sunday boot:** PARTIAL coverage; full continuity closeout. WQ-515 selection rule 046fd4ae5 precedes selection; DEWEY method 9c97f5012 received. Cutoff: October 30 at 20:00Z. Card 001 carries weekend Saudi reports; 002 corrects 1023-016. X reauthorized October 25; no scan or marks. Evidence: research/2026-10-25_boot/ and research/2026-10-25_reauthorize/.
-
-*(10/23 early and desktop session notes rotated verbatim to MEMORY_PROMOTED.md at the 10/23 afternoon closeout; 10/20 bookmark-acceptance, bookmark-completion and 10/19 breadth session notes rotated verbatim to MEMORY_PROMOTED.md 2026-10-22; the bookmark backlog is fully marked, 96/96.)*
+**October25 bookmarks:** exact39 marked after review;31 fully/8 partly read,16 tracked cards003–018,45 handoffs,BOARD1700. Primary-source framing and material gaps in research/2026-10-25_bookmarks/REVIEW.md. WQ-515 Monday-start window unchanged, zero Sunday samples. FULL continuity closeout clears narrative deferral debt; boot remains PARTIAL. Prior source/approval carries remain in LAST_COMPLETION. No new enduring rule or cross-fleet memory authored.

@@ -1,0 +1,41 @@
+---
+signal_id: "SIG-W-20261025-006"
+date: "2026-10-25"
+timestamp: "2026-10-25T19:28:38Z"
+dispatched: "2026-10-25T19:28:38Z"
+source: "x-bookmark"
+origin: "Will-directed exact staged batch BM-20261025-02; items [8, 15, 17, 35]; stage18e5dd6d27a644f8b6f8ced3981d2f1c. Full post text retrieved by exact-ID lookup; media read where attached. See review and source limits at AGENTS/WALTER/research/2026-10-25_bookmarks/REVIEW.md."
+domain: "MARKET_VOL"
+cluster: "POSITIONING_VALUATION"
+action: ["HENRY"]
+info: ["LIQUID", "VIOLET", "RED"]
+precedence: "PRIORITY"
+signal_type: "research"
+confidence: 0.65
+confidence_language: "assessed"
+resources: 1
+safety_net: "clear"
+word_count: 234
+entities: ["SPY", "QQQ", "S&P-500", "MacroCharts", "Bespoke", "OddStats", "Bloomberg"]
+event_window: "closed"
+dispatch_note: "Sunday batch: outside WQ-515 selection window. Source content and owner judgment remain distinct; no threshold fire or trade follows from this research lead."
+---
+# Four equity-chart leads need definitions and replication before becoming positioning or recession evidence
+
+All attached charts read; raw series/backtests not reconstructed.
+
+| Item | Observation offered | Decision limit |
+|---|---|---|
+|8 MacroCharts, October24 | S&P500 against a record-looking short-ETF-volume plot | No ETF universe, units, volume normalization or method. **Turnover is not net short positioning**, no squeeze probability follows |
+|15 Bespoke, October23 | SPY -1% days with positive breadth, plotted1993–2026 | Breadth universe, event count and exact dates absent. Selected historical dots are not an independent crash test |
+|17 OddStats, October23 | Claimed55 occurrences of two -2.5% QQQ days in five sessions including two +1% days; heavy2000–02 concentration | Counts unreplicated; overlapping windows and conditional selection matter; no forward return supplied |
+|35 MauiBoyMacro, October23 | Bloomberg G10 excess-liquidity indicator against S&P YoY | Dual axes, indicator **shifted forward six months**, formula absent. A visual correlation is neither contemporaneous liquidity measurement nor forecast validation |
+
+**HENRY ACTION:** identify any usable incremental series versus your own breadth/flow record; retain or reject each after a basis check. LIQUID gets the shifted liquidity-definition issue; VIOLET gets the clustered large-day/dispersion context. No dealer gamma flip, net-short extreme or VIX threshold is established. WALTER review October26 for source/method recovery; no order or new standing study authorized.
+
+## Bookmark provenance
+
+- Item 8: https://x.com/MacroCharts/status/2113956320881811747
+- Item 15: https://x.com/bespokeinvest/status/2113751434307211386
+- Item 17: https://x.com/OddStats/status/2113601040926785698
+- Item 35: https://x.com/MauiBoyMacro/status/2113728980381782476

@@ -1,6 +1,6 @@
-# WALTER LAST_COMPLETION — October 25 Sunday boot
+# WALTER LAST_COMPLETION — October25 bookmark processing
 
-Updated 2026-10-25T18:04:10Z; authorization-only follow-up to the dated boot closeout. Will-launched WALTER, Codex / OpenAI GPT-6, exact variant UNKNOWN, session 01a173d6-e52a-7b51-ba71-45d586fca51e. FULL continuity closeout of a PARTIAL boot. Prior record preserved verbatim at research/2026-10-25_boot/prior-LAST_COMPLETION.md. Evidence: research/2026-10-25_boot/BOOT-RECEIPT.md and THRESHOLD-SCAN.md.
+Updated 2026-10-25T19:30:50Z; Will-directed bookmark processing. Codex/OpenAI GPT-6, exact variant UNKNOWN, session01a173d6-e52a-7b51-ba71-45d586fca51e. FULL continuity closeout of PARTIAL boot. Prior receipt preserved at research/2026-10-25_bookmarks/prior-LAST_COMPLETION.md.
 
 ## STATUS
 
@@ -8,11 +8,13 @@ Boot PARTIAL: X reauthorization completed; READS attestation stale; full cross-o
 
 ## CHANGED
 
+Bookmark batch BM-20261025-02 processed39/39: sixteen new BOARD cards003–018,45 create-only handoffs, route/delivery/index and exact-ID review. BOARD1684→1700. Source review, bounded follow-ups and mark receipt in research/2026-10-25_bookmarks/.
+
 Two BOARD cards (1682 -> 1684): SIG-W-20261025-001 weekend Saudi reported interceptions, originating coalition release not recovered, no confirmed oil-damage claim; SIG-W-20261025-002 corrects issuance-freeze inference in 1023-016. Original additive banner, generated INDEX, R1 COR-20261025-02, route log, eight create-only handoffs in f35a4b297. Rule 046fd4ae5 registered WQ-515 before selection; exact clock clarified in same owned rule file. REGISTRY, STATUS, SESSION_LOG, MEMORY, basis hashes, intake dispositions, consumption receipts and CARL-DR1 continuation updated. Main repository pull deferred for foreign dirty work; intake clone synced 82f6342.
 
 ## RESULT
 
-**Bookmark queue check October 25, 14:18 EDT:** fresh scan found 39 unprocessed bookmark IDs and staged them; review is not yet recorded, zero marks, consumed set unchanged at 1,203. Returned traversal complete through the recorded head check, not a remote snapshot guarantee. Evidence: outbox/2026-10-25_bookmark-queue-check.md and registry/x_bookmarks_pending.json.
+**Bookmark processing:** all39 staged IDs marked19:29:22Z. Consumed1203→1242, stage empty. DISPATCH16/FOLD11/DUP7/NO-ACTION3/NOTE2;31 fully read/8 partly read. No source gap hidden as rejection. Last head check18:18:17Z, no later scan or remote-snapshot guarantee. Material source rechecksOctober26; recipient integration separate.
 
 **Authorization follow-up 2026-10-25T18:04:10Z:** Will requested reauthorization in this conversation; OAuth completed successfully, authenticated user lookup succeeded, and credentials were refreshed in the gitignored machine-local .env. Bookmark seen/staged hashes are unchanged; no bookmark scan and no marks. Existing WQ-471 authentication gap is resolved on this machine; broader boot gaps remain. Evidence: research/2026-10-25_reauthorize/authorization-receipt.json.
 
@@ -20,6 +22,7 @@ Fourteen intake content items dispositioned (5 DUP,6 FOLD,1 DISPATCH,1 KILL,1 NO
 
 ## GAPS
 
+- Bookmark limits:31 fully/8 partly read; Bloomberg CalPERS/JetBlue excerpts only, Japan video not assessed, other source/verification gaps explicitly owned in REVIEW.md. Inline verification only; no independent review claimed. No fresh KEV or whole Iran sweep. Source retriesOctober26 are reading checkpoints, not autonomous polling promises.
 - READS attestation stale relative to current boot protocol. Boot basis 29 MATCH after explicit root-forum-carve-out / PSKY-alias review; this is not execution or perimeter attestation. PROME owns READS.tsv; request its existing owner reconciliation, no silent external edit.
 - Boot receipt lists uncompleted market/context legs. HANS daily evidence remains mostly October 22/21 owner values; HANS-T-12 UNINSTRUMENTED and excluded from clearance. FT-11/current official Brent settlement counts not newly adjudicated. Requested Brent metadata remains truncated; no crack fire from an unresolved identity.
 - General staleness/lifecycle sweep remains overdue (last completed October 10). The correction linkage for 1023-016 is completed; this does not close the full sweep. Initial doctor: 0 HIGH/4 MED; owner backlog not neglect. Current doctor/check outcomes in closeout bundle.
@@ -35,7 +38,7 @@ Fourteen intake content items dispositioned (5 DUP,6 FOLD,1 DISPATCH,1 KILL,1 NO
 
 ## FOLLOW-UP
 
-Bookmark queue: 39 staged IDs from the October 25 14:18 EDT head check await content review and disposition. No triage or routing was performed for this count request; preserve exact IDs and review binding.
+Bookmark batch resolved:39 marked after review; zero staged. WALTER source follow-upsOctober26 in REVIEW.md (Japan/Reuters/Hebron video transcripts; Bloomberg bodies; chart methods; Iran primaries; French spread basis). Material packets preserve recipient questions; no automated owner wakes. Curated formal-verification item for Will is a note, not a commissioned project.
 
 1. WQ-515 / L828: sample window October 26 00:00 EDT (04:00Z) to October 30 16:00 EDT (20:00Z), stop at ten qualifying ACTION dispatches or cutoff. No Sunday or Saturday CATO transfers. Log in dispatch order with source/owner-record paths, versions and hops; no outcome-based skipping. DEWEY method 9c97f5012 received. Deliver one list at close; recipient reads wait>=24h and may extend to October 31. This is a bounded batch, not a new standing audit.
 2. Complete the explicit partial-boot market/context legs above when source evidence permits, reconcile READS with PROME. X access is restored; authorization performed no scan and left seen/staged state unchanged.
@@ -58,12 +61,12 @@ Preserved predecessor chain remains authoritative for the unchanged detailed tab
 
 ## CLOSEOUT RECEIPT
 
-Full continuity closeout of PARTIAL boot; checks and limitations are explicit. Local routing commit f35a4b297 and initial selection commit 046fd4ae5; exact final record commits are named in the completion packet/message. Own push deferred for foreign dirty work; fresh fetch proves 046fd4ae5 and f35a4b297 already published by the shared push train, and all eight handoffs reconciled delivered. Recipient integration remains separate. No native Telegram reply capability in this runtime; this request arrived in the Codex terminal, so no Telegram reply is owed for it.
+FULL continuity closeout after third deferred sitting; checks saved under research/2026-10-25_bookmarks/closeout/. Research/boot gaps retained. Cards/handoffs written locally; publication unproven until exact commit/origin receipt. Mechanical read-cap/basis/versions/weekday/archive checks pass; READS remains UNKNOWN; doctor has0HIGH/2MED (backlog and overdue lifecycle sweep). Ledger nudge is history-based: route/delivery/registry updated this batch; kill ledger frozen because no KILL dispositions; correction/fire/doorbell ledgers frozen because no qualifying new event. No new consumer replacement or source retirement. Generated ORCH view rotate-tier flag belongs to PROME source, not manual projection edits. Own pull/push deferred for foreign dirty work. No Telegram alert/reply tool; this terminal request creates no Telegram reply debt.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-25T18:19:18Z",
+  "as_of": "2026-10-25T19:30:50Z",
   "next_review": "2026-10-26",
   "publication": [
     {
@@ -77,62 +80,46 @@ Full continuity closeout of PARTIAL boot; checks and limitations are explicit. L
   ],
   "delivery": {
     "signal_date": "20261025",
-    "total": 8,
+    "total": 53,
     "delivered": 8,
-    "note": "Fresh git fetch origin verified both routing commits; reconciler proved eight of eight handoff paths on origin, not recipient integration."
+    "note": "Prior001/002 eight delivered; new003\u2013018 forty-five pending publication; recipient integration separate."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
     "evidence": [
       {
-        "path": "AGENTS/WALTER/research/2026-10-25_boot/prior-LAST_COMPLETION.md",
-        "sha256": "e16673843eec9435ee621a847ea1133c05197e924b7ec82f5543a6a8d5eb68ab"
+        "path": "AGENTS/WALTER/research/2026-10-25_bookmarks/REVIEW.md",
+        "sha256": "3380ca5baf5c18960383b268db1536f200dd57fcde2c16ccad81b5d0face0284"
       },
       {
-        "path": "AGENTS/WALTER/research/2026-10-25_boot/THRESHOLD-SCAN.md",
-        "sha256": "53741b67c035cfb61e3dfeb7feffee66e0fb0caa37e8de037b399530ba042d26"
+        "path": "AGENTS/WALTER/research/2026-10-25_bookmarks/bookmark-review.json",
+        "sha256": "d40eeb1dd0b9a8aebbd2b91fd7511e370b9a64a06e3ddb58d4be73267a485c89"
       },
       {
-        "path": "AGENTS/WALTER/research/2026-10-25_boot/INTAKE-DISPOSITIONS.md",
-        "sha256": "62ce1aa2a25031c12498ed512dde17797bb8af83a03d7e365bdea1bfbf7835a7"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-10-25_boot/basis-review.md",
-        "sha256": "4d7475c0f09967da5e84c568c6286a09347c4e2ed25e23fdf640ffb26a8fccc3"
-      },
-      {
-        "path": "AGENTS/WALTER/outbox/2026-10-25_WQ515-prospective-selection-rule.md",
-        "sha256": "920d7943c632655942e7b65bf0ae5ef1c67658e72db126b0bad76cc4f5a953d9"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-10-25_reauthorize/authorization-receipt.json",
-        "sha256": "ddb481d646a96a428067d481f3b68310d85bb260d55748ec3a5273919e2fe272"
-      },
-      {
-        "path": "AGENTS/WALTER/outbox/2026-10-25_bookmark-queue-check.md",
-        "sha256": "1ff24d2316b079791f48c9e1c71ba261f47a40b826f8dea31ffd231afb754ae9"
+        "path": "AGENTS/WALTER/research/2026-10-25_bookmarks/MARK-RECEIPT.txt",
+        "sha256": "184a533780500d027251d64a7a4d1738377262c8ba0b93b0de6ade4f76ef5dbf"
       }
     ]
   },
   "procedure": {
-    "tier": "light",
-    "boot": "PARTIAL; exact execution and read gaps at research/2026-10-25_boot/BOOT-RECEIPT.md",
+    "tier": "full",
+    "boot": "PARTIAL; prior exact gaps retained",
     "owner": "WILL",
-    "ask": "Will: Do we have any bookmarks that have not been processed?",
-    "closeout": "LIGHT queue check; content review pending, prior partial-boot gaps retained"
+    "ask": "Please process the bookmarks",
+    "closeout": "FULL continuity; selected checks UNKNOWN/REVIEW for stale READS, backlog and lifecycle; no boot completion claim"
   },
   "manual_duties": {
-    "11": "Two cards, one correction and eight handoffs committed with route/delivery/R1 and original banner; INDEX regenerated. Fourteen lane content items accounted.",
-    "12": "Updated STATUS lead/dated observations, posture and registry-derived network summary; prior lead/network preserved verbatim in SESSION_LOG.",
-    "13": "39 owner lead headers refreshed before network summary; no data or liveness inferred from dates. REGISTRY reduced below rotation stop.",
-    "14": "Session note updated; prior note preserved verbatim in SESSION_LOG. No new cross-fleet finding or auto-memory authored.",
-    "15": "Fresh X scan staged39 unconsumed IDs; no marks, no content assessment. Exact queue state saved; prior approvals/source gaps retained.",
-    "16": "Exact-path commits only; main pull and own push deferred for observed foreign dirty work. Pending publication retained until origin proof."
+    "11": "16 cards +45 handoffs/log rows; no new correction to published facts; generated INDEX1700; batch39 closed and marked.",
+    "12": "Updated dated source evidence/lead; prior narrative preserved verbatim in SESSION_LOG.",
+    "13": "Header date/focus refresh before NETWORK summary; no domain score inferred.",
+    "14": "Session note replaced, old note verbatim in SESSION_LOG; no durable rule change.",
+    "15": "Review and mark receipts hash-bound; partial content and prior approvals retained.",
+    "16": "Exact-path local commit pending; foreign work excludes own push."
   },
   "root_duties": {
-    "retirement": "Scoped live boot/source references checked; no eligibility or deletion claim for the wider historical corpus; no files retired.",
-    "consumer": "No published numeric level superseded: inference correction retains original figures; original recipient union receives R1 correction. No consumer value replacement claimed.",
-    "weekday": "Two new BOARD cards checked before first successful commit; final state checked by closeout runner."
+    "retirement": "No files retired; no broader historical eligibility claim.",
+    "consumer": "No published owner number overwritten; new source comparisons retain date/basis; no universal consumer sweep credit.",
+    "weekday": "New cards dates SundayOctober25; Jubilee FYQ4 versusCYQ4 distinguished; new calendar text will be checked by runner."
   }
 }
 END_CLOSEOUT_RECEIPT -->

@@ -1,0 +1,197 @@
+{
+  "2": {
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261025-003",
+    "note": "GMO confirms Desktop Cloud intrusion and data theft; unauthorized trades reported, but 70-plus firms is an extortion-threat scope"
+  },
+  "31": {
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261025-004",
+    "note": "Brotli CVE-2026-111497 now has Bun and Envoy primary advisories; update the existing incident rather than counting another flaw"
+  },
+  "32": {
+    "disposition": "FOLD",
+    "ref": "SIG-W-20261025-004",
+    "note": "Brotli CVE-2026-111497 now has Bun and Envoy primary advisories; update the existing incident rather than counting another flaw"
+  },
+  "9": {
+    "disposition": "FOLD",
+    "ref": "SIG-W-20261025-004",
+    "note": "Brotli CVE-2026-111497 now has Bun and Envoy primary advisories; update the existing incident rather than counting another flaw"
+  },
+  "6": {
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261025-005",
+    "note": "Jubilee acid costs rose over200% in fiscal Q4 ended June; new-to-this-lane evidence, not a new October quarter"
+  },
+  "5": {
+    "disposition": "FOLD",
+    "ref": "SIG-W-20261025-005",
+    "note": "Jubilee acid costs rose over200% in fiscal Q4 ended June; new-to-this-lane evidence, not a new October quarter"
+  },
+  "21": {
+    "disposition": "FOLD",
+    "ref": "SIG-W-20261025-005",
+    "note": "Jubilee acid costs rose over200% in fiscal Q4 ended June; new-to-this-lane evidence, not a new October quarter"
+  },
+  "8": {
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261025-006",
+    "note": "Four equity-chart leads need definitions and replication before becoming positioning or recession evidence"
+  },
+  "15": {
+    "disposition": "FOLD",
+    "ref": "SIG-W-20261025-006",
+    "note": "Four equity-chart leads need definitions and replication before becoming positioning or recession evidence"
+  },
+  "17": {
+    "disposition": "FOLD",
+    "ref": "SIG-W-20261025-006",
+    "note": "Four equity-chart leads need definitions and replication before becoming positioning or recession evidence"
+  },
+  "35": {
+    "disposition": "FOLD",
+    "ref": "SIG-W-20261025-006",
+    "note": "Four equity-chart leads need definitions and replication before becoming positioning or recession evidence"
+  },
+  "12": {
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261025-007",
+    "note": "Hardware imports outgrew domestic output in an a16z chart; growth percentages do not measure import shares"
+  },
+  "13": {
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261025-008",
+    "note": "October23 ECMWF run forecasts a November wind reversal; model spread prevents a current cold-demand claim"
+  },
+  "16": {
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261025-009",
+    "note": "Oracle announces a $1B partner-program commitment over four years, not a new $1B quarterly cash outflow"
+  },
+  "19": {
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261025-010",
+    "note": "CalPERS reportedly reduced direct Big Tech holdings while expanding private equity; total exposure and net flows need reconciliation"
+  },
+  "3": {
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261025-011",
+    "note": "Weekend Iran/Israel bookmarks add claims and election rhetoric; no new strike, mine detonation or nuclear capability verified here"
+  },
+  "22": {
+    "disposition": "FOLD",
+    "ref": "SIG-W-20261025-011",
+    "note": "Weekend Iran/Israel bookmarks add claims and election rhetoric; no new strike, mine detonation or nuclear capability verified here"
+  },
+  "25": {
+    "disposition": "FOLD",
+    "ref": "SIG-W-20261025-011",
+    "note": "Weekend Iran/Israel bookmarks add claims and election rhetoric; no new strike, mine detonation or nuclear capability verified here"
+  },
+  "26": {
+    "disposition": "FOLD",
+    "ref": "SIG-W-20261025-011",
+    "note": "Weekend Iran/Israel bookmarks add claims and election rhetoric; no new strike, mine detonation or nuclear capability verified here"
+  },
+  "39": {
+    "disposition": "FOLD",
+    "ref": "SIG-W-20261025-011",
+    "note": "Weekend Iran/Israel bookmarks add claims and election rhetoric; no new strike, mine detonation or nuclear capability verified here"
+  },
+  "27": {
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261025-012",
+    "note": "October22 housing order directs conditional mortgage-cost measures; it does not reduce every borrower\u2019s rate today"
+  },
+  "28": {
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261025-013",
+    "note": "KFF family worker contributions rose9% while total premiums rose5%; ABC\u2019s displayed prior-year dollar figure fails arithmetic"
+  },
+  "36": {
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261025-014",
+    "note": "NY Fed\u2019s5.6% unemployment/42% underemployment figures refer to2026 Q2; attached chart is a different2025 comparison"
+  },
+  "29": {
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261025-015",
+    "note": "Japan debt video retained as an unassessed research lead; no causal claim extracted from its title"
+  },
+  "38": {
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261025-016",
+    "note": "JetBlue record-low debt report is an issuer-distress lead; bond basis and full article remain to be read"
+  },
+  "11": {
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261025-017",
+    "note": "October23 French spread-narrowing headline is counterevidence to check, not an end-of-day stress reversal"
+  },
+  "20": {
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261025-018",
+    "note": "AI-linked CDS trading volume reportedly rose fourfold since July; it is not net protection or another spread reading"
+  },
+  "7": {
+    "disposition": "DUP",
+    "ref": "SIG-W-20261022-031",
+    "note": "Same October22 Treasury rally; image TYX53.15=5.315%, not53.15% yield; prior30y5.29% is a different retrieval."
+  },
+  "10": {
+    "disposition": "DUP",
+    "ref": "SIG-W-20261023-018",
+    "note": "Same time-late October22 1715Z Limah projectile incident; not a mine hit or sinking."
+  },
+  "14": {
+    "disposition": "DUP",
+    "ref": "SIG-W-20261023-027",
+    "note": "Same NVDA CDS concern. Inspected terminal116.110 high10/22; do not replace differently sourced120+ with an unmatched basis."
+  },
+  "18": {
+    "disposition": "DUP",
+    "ref": "SIG-W-20261021-015",
+    "note": "Meta Q3 negative FCF already primary-routed at-2.12B. Attached chart shows-1.2B on unspecified basis; first-ever claim unverified; no replacement of issuer figure."
+  },
+  "23": {
+    "disposition": "DUP",
+    "ref": "SIG-W-20261023-020",
+    "note": "AmEx5% cuts already routed, charge primary, job count secondary; linked Bloomberg body not re-read under duplicate exception."
+  },
+  "24": {
+    "disposition": "DUP",
+    "ref": "SIG-W-20261022-006",
+    "note": "ORCL5y300+ already covered. ICE multi-name chart read; PROME/LIQUID carried314bp10/22, not a new level sourced by this post."
+  },
+  "33": {
+    "disposition": "DUP",
+    "ref": "SIG-W-20261023-021",
+    "note": "Exact Goldman79t Aug versus17t pre2022, custody shift already routed; MIDAS KB-184 independently retains estimate versus WGC reported39t. No new flow."
+  },
+  "1": {
+    "disposition": "NO-ACTION",
+    "ref": "local-event",
+    "note": "Newport Pacific Seafood fire/ammonia threat verified through local report quoting fire chief and KPTV relaying sheriff; video only thumbnail read. No established broad fertilizer-ammonia supply, port-throughput or public-issuer channel. Incident cause not elevated to proven tank explosion."
+  },
+  "4": {
+    "disposition": "NO-ACTION",
+    "ref": "historical-account",
+    "note": "25YearsAgoLive historical Sears4900-layoff post; all four illustrative photos read. Not a current2026 announcement; no new dated financial evidence."
+  },
+  "30": {
+    "disposition": "NO-ACTION",
+    "ref": "haiti-rescue-context",
+    "note": "Recovered Haiti context: missing Salvadoran aviation technicians after October18 ambush; Reuters/AP bodies read for event context, reported US support not primary-confirmed. No concrete energy, shipping or financial transmission established; not an Iran or ElSalvador domestic-market crisis."
+  },
+  "34": {
+    "disposition": "NOTE",
+    "ref": "context-only",
+    "note": "Image compares CCC effective yield17.82% and Treasury5.13% on10/21 with credit-card all-account APR21.19% forAug2026. Different dates, risk pools, recoveries, terms and APR/yield definitions; not a ranking of individual default probabilities. No novel actionable fact versus existing CCC tape."
+  },
+  "37": {
+    "disposition": "NOTE",
+    "ref": "system-improvement-list",
+    "note": "Anthropic/Theorem formal-verification research: primary main sections read; linked proofs/appendix not audited and late-page limitations not fully recovered in browser view. Scoped technique worth reading, no deployment or commission. See curated note below."
+  }
+}

@@ -1,14 +1,15 @@
 # WALTER STATUS
-**Updated:** 2026-10-25T17:30:11Z — Sunday owner boot and full continuity closeout. Boot PARTIAL;2 cards,BOARD 1684. Duties, approvals, source limits and publication receipt: LAST_COMPLETION.md.
+**Updated:** 2026-10-25T19:30:50Z — Sunday bookmarks processed;18 cards today,BOARD1700. FULL continuity closeout; boot remains PARTIAL. Duties and publication: LAST_COMPLETION.md.
 
 ## BOTTOM LINE
 
-**Sunday October 25.** Friday's issuance-freeze inference was overstated: a partial October compared with a full September and mixed delayed deals do not establish a high-yield bond-market freeze (SIG-W-20261025-002). The dated spread watch holds: first-published HY 340 bp [10/22],10 bp below strict >350 for3 closes;0 of 3. Saudi reports describe weekend missile interceptions (001); the originating coalition releases were not recovered and oil-infrastructure damage is not established. FALCON owns any grade. WQ-515's prospective selection rule was committed before selection; the sample opens Monday and Sunday's cards are excluded. The checked inputs show no new threshold fire; missing grades and source reads keep boot PARTIAL. X access reauthorized October 25 (authorization only; no scan).
+All39 staged bookmarks processed:27 origins in16 new tracked packets,7 duplicates,3 no-action and2 context/system notes. Main findings: GMO Desktop Cloud breach confirmed but70-plus firms remains threat scope; Brotli reach confirmed at Bun/Envoy; Jubilee acid increase is fiscalQ4 endedJune; housing order needs agency implementation; KFF worker contribution9% differs from total premium5%. Eight items retain partial reading limits and material leads have dated follow-ups. No owner threshold grade/trade changed. WQ-515 opensMonday; zero Sunday samples. Prior issuance correction002 and Saudi report001 remain. Boot remains PARTIAL for the previously recorded market/context/READS gaps.
 
 ## DATED MARKET OBSERVATIONS
 
 | Object | Observation and limit |
 |---|---|
+| Bookmark source review (10/25 retrieval, underlying dates retained) | GMO fourth notice10/24; Bun/Envoy advisories10/23; White House order10/22; Oracle$1B over4years10/23. Jubilee costs referApr–Jun2026, announced9/14. KFF2026 family worker$7,471,+$621/~9%; total$28,303,+5%. JetBlue10/22 excerpt:2031 loyalty-backed bonds~40c versus~80c beginningOct, secondary TRACE attribution. No fresh market quote or full Bloomberg-body clearance. |
 | Sunday verification (retrieved 10/25; observations remain dated) | FRED HY 340 / CCC 1340 bp / VIXCLS 19.03 / SOFR-IORB0 bp [10/22];T5YIFR2.20 [10/23]. Vendor10/23 KRE 72.46,WAL 76.12,^VIX19.45. Cboe SKEW 151.80 [10/23];Cushing 27.594M [w/e10/16]. No new fire in completed checks; Brent identity/official settles and other coverage limits in THRESHOLD-SCAN.md. These are dated observations, not Sunday trading quotes. |
 | Close and evening (10/23; vendor 20:38Z, after the 16:00 close, not settles) | KRE 72.46 (+0.07%), WAL 76.12 (−0.72%, REG-T-02 fired state, re-entry, exit 0 of 3 at 81.90), ZION 66.20, ^VIX 19.45 (+2.21%, no safety net), HYG 77.05, SPY 759.97 (−0.52%); BZZ26 116.62 (+3.05%, contract name truncated by the probe; BRENT confirms BZZ26 is the reference to 10/30), CLZ26 103.17 (+3.72%): boundary #1 2.9% away, watch only. AAA 10/23: regular $4.2926 (month ago $4.4744), diesel $6.3172 ($6.5217) (042). Rated-CCC basket (XCCC 10/22): 0% AI, ~5.9% software, ~16.5% cable/telecom (040). FRED unchanged (HY 340 [10/22]). Evidence `research/2026-10-23_evening/`. |
 | Iran and oil (10/23 afternoon; vendor 18:35–18:39Z intraday, not settles) | BZZ26 116.71 (+3.13%, probe name truncated), CLZ26 103.26 (+3.81%); boundary #1 2.8% away = near-trigger WATCH. WH 10/22 written line: no attack before the midterms; Barrack 10/23 envoy tape; FALCON pre-11/3 ~12% [EST] (`PROME/inbox/2026-10-23_from-FALCON_sig024-strike-timing-grade.md`). Rosatom ~135 staff at Bushehr [10/11]; evacuation CLAIM-ONLY. Tape: KRE 72.56 (+0.21%), WAL 76.49 (REG-T-02 fired state, re-entry), ^VIX 19.89 (+4.52%, no safety net), HYG 77.04, FLG 10.38 (−9.27%), GC=F 4,015 (−1.12%), ^TNX 4.99, XU100 −0.92%. FRED unchanged (HY 340 [10/22]). Evidence `research/2026-10-23_afternoon/`. |
@@ -34,21 +35,21 @@ Evidence: today `research/2026-10-22_boot/THRESHOLD-SCAN.md`, `research/2026-10-
 
 ## MISSION
 
-Signal/news routing and receiving-layer readiness. Domain agents own evidence, grades and judgment. Broker truth remains off-repo; FORGE's October15 mirror is dated context, not current fills.
+Signal/news routing and receiving-layer readiness. Domain agents own evidence, grades and judgment. Broker truth remains off-repo; FORGE's October22 mirror is dated context, not current fills.
 
 ## STATE POINTERS
 
 - Sole current obligation/approval/decision list and publication receipt: `LAST_COMPLETION.md`.
 - WQ-508 harness-audit lines applied 2026-10-23 (E04, U-W1, U-W2, U-W3, U-W5; Will confirmed in the WALTER terminal 10:5x ET); packet `inbox/2026-10-23_from-DAEDALUS_WQ508-harness-audit-lines.md`.
-- Current evidence: `research/2026-10-16_finish/`; prior partial boot preserved at `research/2026-10-16_codex-boot/BOOT-RECEIPT.md`.
-- Bookmark authentication/read/mark evidence: `bookmark-mark-receipt.json` and `bookmark-dispositions-final.md` in current evidence directory. Credentials remain ignored/machine-local.
+- Current evidence: `research/2026-10-25_bookmarks/` and `research/2026-10-25_boot/`; prior partial boot preserved at `research/2026-10-16_codex-boot/BOOT-RECEIPT.md`.
+- Bookmark authentication/read/mark evidence: `MARK-RECEIPT.txt`, `bookmark-review.json` and `REVIEW.md` in the bookmark evidence directory. Credentials remain ignored/machine-local.
 - VULCAN intake recommendation: `outbox/REQ-PROME-20261016-vulcan-intake-design.md`; no collector deployment inferred.
 - Manual freight/source watch: `research/tanker-cost-watch/WATCH.md`, `STATE.csv`, `REVIEWS.tsv`.
 - CL9 runner repair remains implemented; independent acceptance and realized runtime savings are separate. No new runner project commissioned.
 
 ## NETWORK AWARENESS
 
-Registry header mirrors refreshed before this summary: PROME 2026-10-24, BROCK 2026-10-25, BRENT 2026-10-23, LIQUID 2026-10-25, HAWK 2026-10-25, NEXUS 2026-10-23, WALTER 2026-10-25, TERRY 2026-10-25, MIDAS 2026-10-25. Native app-server listing observed owner threads for WALTER, PROME, LIQUID, DEWEY, HAWK, BROCK and TERRY, MIDAS idle. This scope does not establish absence elsewhere; unobserved owners UNKNOWN. In-flight ledger rows and foreign dirty paths are not liveness verdicts. Header dates are context, not refreshed market evidence.
+Registry header dates/focus refreshed before this summary at 2026-10-25T19:30:50Z. PROME 2026-10-25, BROCK 2026-10-25, BRENT 2026-10-23, LIQUID 2026-10-25, HAWK 2026-10-25, NEXUS 2026-10-23, WALTER 2026-10-25, VIOLET 2026-10-21, TERRY 2026-10-25, MIDAS 2026-10-25. Native app-server listing observed active WALTER/BROCK/PROME/HAWK/LIQUID; MIDAS/DEWEY and prior PROME/TERRY idle. Scope is app-server only; other owners UNKNOWN. Neither inbox backlog nor foreign dirty work proves neglect or darkness. Header refresh does not refresh market evidence.
 
 ## Active LIAISON channels
 

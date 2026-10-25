@@ -1,0 +1,1 @@
+PASS: exact39 review IDs consumed; seen1242; staged0; sixteen cards,27 unique routed origins,45 required handoffs. No new X fetch.
