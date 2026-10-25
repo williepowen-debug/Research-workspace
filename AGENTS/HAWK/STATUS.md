@@ -63,6 +63,10 @@ Both derived aggregates regenerated October 25 from owner changes; fingerprints 
 
 Canada SOR/Gazette dates; QatarEnergy seller notice; matched premium/flow and Sidi comparator; CPC durability; dormant missing source legs; equipment-stock decomposition; August METI adoption; dictionary confirmations; GL 135 inference falsifier; Ivanhoe acid price; EU package legal adoption; FE1 actual Suez transit. **Still owed**, with original dates retained in CATALYSTS and the October 25 report. Next bounded triage October 26. Charter/legacy-script/retirement items remain deferred under the DAEDALUS disposition; frozen monitors stay frozen.
 
+## Key-file audit — October 25
+
+User-requested audit completed: **19 grouped findings** (4 high, 10 medium, 5 maintenance/control), at `audits/2026-10-25_key-files-sweep.md`. Priority findings: Europe native evidence stale; sulphur mine-gate/delivered-basis contradiction; incomplete oil-thesis test coverage; unfinished successor. Two bad proposal links and residual Canada Status wording survived the earlier cleanup. This audit records findings only; no finding repaired, no mark or letter changed. Later WQ-521 registration and WALTER source commitment are verified in the report; older continuity wording above remains a listed repair.
+
 ## BOTTOM LINE
 
 The two wars still transmit through different assets, and the evidence does not support a pooled barrel-loss figure or a measured split between fear and supply loss. Today's tariff-risk draft is ready for PROME, while the next hard HAWK deadlines are the joint insurance-test draft after October 27 and the October 31 forecast checks. The most consequential watch remains confirmed Saudi crude-processing damage or a verified US strike decision; the latest owner evidence is October 23.

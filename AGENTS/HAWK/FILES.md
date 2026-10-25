@@ -99,3 +99,7 @@ Actual additions reconciled against the tree: `research/2026-10-25_boot-obligati
 October25 also completes the prior LESSONS rotation by moving its split note verbatim to the existing `archive/LESSONS_ROTATED_2026-10-21.md`; live pointer retained.
 
 October25 consumer correction: `outbox/2026-10-25_to-WALTER_canada-scope-correction.md` follows the existing dated-mail class.
+
+## October25 key-file sweep inventory
+
+`audits/2026-10-25_key-files-sweep.md` is the user-requested ranked audit and owed-work list; matching `.json` pins 24 key-file input hashes and raw local scan observations. Both follow the dated-audit class, not a new live ledger or monitor. The audit does not repair or activate its findings. STATUS/SCRATCH/NEXUS link the report for the next owner session.

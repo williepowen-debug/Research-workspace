@@ -1,0 +1,1769 @@
+{
+  "observed_at": "2026-10-25T13:55:52.318203-04:00",
+  "files": {
+    "CLAUDE.md": {
+      "bytes": 28967,
+      "sha256": "0e8558e93356c69f084968928ecad214751c4218bb0f76146707072988c45687"
+    },
+    "STATUS.md": {
+      "bytes": 9240,
+      "sha256": "75cec67ac88bcfb436febefbfaf5e83b9078f7e62e13baf5a9cbd6ad7ab918fb"
+    },
+    "SCRATCH.md": {
+      "bytes": 4649,
+      "sha256": "65b0062e0220f096cfee61ff2d453fea558d756cbd6ca5d0b9efdb86bc7b0814"
+    },
+    "NEXUS_BRIEF.md": {
+      "bytes": 4500,
+      "sha256": "d7cc21d1a8e8f517592a3b20db3655ecbd585d31624885ced2ff60aacae3c337"
+    },
+    "MEMORY.md": {
+      "bytes": 7321,
+      "sha256": "d02d35d1145158e6f134aa07e79397f9cec18394bf2aba9a403ee1679434c928"
+    },
+    "LESSONS.md": {
+      "bytes": 22687,
+      "sha256": "de04485afbb04a6225d3ece642006a71220a2e199c89ed341e60049e3314f1c0"
+    },
+    "FILES.md": {
+      "bytes": 20989,
+      "sha256": "533177cb6a9cecc542116e4e9f794297b0c70d0ec34a3c55c8a8b0c5cb31fe64"
+    },
+    "SOURCES.md": {
+      "bytes": 7355,
+      "sha256": "e9ffcc434f3ea0bd8a4293a641ea5479b7a10437710eb2aa9a172d64520b804a"
+    },
+    "thesis/FALSIFICATION.md": {
+      "bytes": 37484,
+      "sha256": "0851b01060b1f632ea4c60cb50d78123027427698d6f3034236a2483297611bc"
+    },
+    "workbook/KB.tsv": {
+      "bytes": 441467,
+      "sha256": "bc10388b6dcc637059ba82341b70d9b8dcb2f4950b7ff93c596c87727bdc945b"
+    },
+    "workbook/VX.tsv": {
+      "bytes": 88187,
+      "sha256": "5f550b208c1d0f8c8198cc6893f8456f821d3cc71a61dd29202c6f73c0a42e5e"
+    },
+    "workbook/FLOW.tsv": {
+      "bytes": 37441,
+      "sha256": "472db1cf66cdaf3b5c9ee981ae093711d84dee64cff333a56e35fd1ba39488cb"
+    },
+    "workbook/CATALYSTS.tsv": {
+      "bytes": 20868,
+      "sha256": "87c2cdec4638bd65ed11abcb32f2499c97d5a11b0586b9ce983fdc657ca0c11b"
+    },
+    "workbook/SCHEMA.tsv": {
+      "bytes": 2113,
+      "sha256": "fee04e6cdf3bb95da5785a41eb933d97b4065283e8249ce30182c491e363dc43"
+    },
+    "domain/europe-rearm/README.md": {
+      "bytes": 10366,
+      "sha256": "2c252e2cc7e67a8897a611708038e575776ac5ad8b5b9a817ded197789dab625"
+    },
+    "domain/europe-rearm/LADDER.md": {
+      "bytes": 22108,
+      "sha256": "97b19499e5dbae6b5cb9670666ff28c6eb618ed2a2c397717c3d04f75282b98a"
+    },
+    "domain/europe-rearm/INCURSIONS.tsv": {
+      "bytes": 8265,
+      "sha256": "2f59acbe77e59b18cd5824f2ac47d5aca0ac928f20974563eea74e4cdc552ab4"
+    },
+    "domain/energy-strikes/CROSS_WAR_SUMMARY.md": {
+      "bytes": 21760,
+      "sha256": "c3aff9796d6db676acbdff69b7eada37a30002a3c41be5c821688ff59a747513"
+    },
+    "domain/war-risk/CROSS_THEATER_WAR_RISK.md": {
+      "bytes": 13359,
+      "sha256": "88cbe7c3e72e2889a34f7204be86eb9251b52de4d780de052a3edda98061c6b9"
+    },
+    "design/VESSEL_COUNTING_DICTIONARY_DRAFT.md": {
+      "bytes": 8428,
+      "sha256": "e657b635b914c1ccceb793311c3aaf6dfa162e88689b1b461540438a76ea484a"
+    },
+    "proposals/2026-10-25_HAW23_candidate.md": {
+      "bytes": 2757,
+      "sha256": "e134db0541c21eeb8b890907d3638613b4dbe1274505c0d973e83f49b0174e1f"
+    },
+    "proposals/2026-10-25_TRADE02_RED_L778.md": {
+      "bytes": 5064,
+      "sha256": "b3c084269b8b8dc2ffdd674a3467e0ac93cf4e061db7295a1b6d2c6a07f4cbb6"
+    },
+    "registry/derived_inputs.json": {
+      "bytes": 1767,
+      "sha256": "fd1bad8fea3920be300bcff4ce986eea6adb8cbfd27e214a90cfe1f073cd4ccc"
+    },
+    "registry/corrections_receipts.tsv": {
+      "bytes": 4158,
+      "sha256": "6ae36d4e37cc23dd625b1472a4650b8a8465ca7d4a73b86395bd46abe497fd1d"
+    }
+  },
+  "missing_references": [
+    {
+      "file": "workbook/KB.tsv",
+      "line": 227,
+      "path": "STRIKES.tsv/SUMMARY.md",
+      "context": "KB-HAWK-223\t2026-07-12\tMETHOD\tHAWK self-correction\tPROCESS MISS (Will caught it twice): my boot Russia sweep + my 7/12 'tighter confirmation' both concluded 'named crude-export ter"
+    },
+    {
+      "file": "workbook/KB.tsv",
+      "line": 233,
+      "path": "domain/war-risk/BLACK_SEA_WAR_RISK.md",
+      "context": "KB-HAWK-229\t2026-07-25\tWAR\tCross-war\tThe binding constraint in both theaters is insurer/owner risk tolerance, not physical destruction - now empirically evidenced on both sides sim"
+    },
+    {
+      "file": "workbook/KB.tsv",
+      "line": 256,
+      "path": "AGENTS/HAWK/inbox/2026-08-10_from-BRENT_correction...md",
+      "context": "KB-HAWK-252\t2026-08-10\tGEOPOLITICS\tUnited States / cross-war response function\tThe two wars are coupled through ONE channel -- US policy -- and the variable selecting the instrumen"
+    },
+    {
+      "file": "workbook/KB.tsv",
+      "line": 264,
+      "path": "04_synthesis/07_PROME_rulings-record.md",
+      "context": "KB-HAWK-260\t2026-08-15\tGEOPOLITICS\tOPEC / EIA STEO (August erratum)\tAugust-2026 STEO ERRATUM to KB-HAWK-258/259 (PROME 8/11 forum-4 close, data cutoff 8/6, the 8/8 ADNOC tanker att"
+    },
+    {
+      "file": "workbook/KB.tsv",
+      "line": 316,
+      "path": "setups/2026-09-08_market-docket-owner-read.md",
+      "context": "KB-HAWK-312\t2026-09-08\tBYPASS\tSidi Kerir\t[CONF owner report] BRENT September8 reports Reuters-relayed provisional Kpler full-August port-total exports of 2.139 mb/d. The 2.17 mb/d "
+    },
+    {
+      "file": "workbook/KB.tsv",
+      "line": 329,
+      "path": "energy-strikes/SUMMARY.md",
+      "context": "KB-HAWK-325\t2026-09-08\tTANKERS\tRussia\tThe inherited May Urals~25% discount in frozen energy-strikes/SUMMARY.md is withdrawn for present use after OSPREY retired the unsourced figur"
+    },
+    {
+      "file": "workbook/KB.tsv",
+      "line": 361,
+      "path": "domain/casualties/CASUALTIES.tsv",
+      "context": "KB-HAWK-357\t2026-09-10\tTANKERS\tFALCON\tCORRECTION of a HAWK claim: HAWK asserted the Hercules Star and New Andros were in NEITHER FALCON's VESSELS.tsv NOR CASUALTIES.tsv and that 29"
+    },
+    {
+      "file": "workbook/KB.tsv",
+      "line": 364,
+      "path": "runs/2026-09-08_HAW18_SCORING_APPLICATION.md",
+      "context": "KB-HAWK-360\t2026-09-10\tMETA\tHAWK HAW-18 / WQ-112 / WQ-208\tWQ-208 RULED: HAW-18's SCORED MARK IS 55%; the first-call 60% stays on the calibration book and is reported separately. Wi"
+    },
+    {
+      "file": "workbook/KB.tsv",
+      "line": 369,
+      "path": "inbox/2026-09-11_from-PROME_WQ-216-RULED-...md",
+      "context": "KB-HAWK-365\t2026-09-11\tWAR\tHAWK/OSPREY WQ-216 axes (RULED)\tWQ-216 RULED 2026-09-11 00:01 ET (Will, verbatim \"216 approved with your rec\"): the joint OSPREY/HAWK counter-campaign ta"
+    },
+    {
+      "file": "workbook/KB.tsv",
+      "line": 379,
+      "path": "research/2026-09-16_cross-war-oil/REPORT.md",
+      "context": "KB-HAWK-375\t2026-09-16\tCONVERGENCE\tRussia\tOSPREY September16 report supplies stronger products-outage evidence and a3.54mb/d four-week Russian crude-export observation to September"
+    },
+    {
+      "file": "workbook/KB.tsv",
+      "line": 380,
+      "path": "reports/2026-09-16_cross-war-oil-review.md",
+      "context": "KB-HAWK-376\t2026-09-16\tCONVERGENCE\tSaudi_Arabia\tFALCON September16 report establishes reported delivery disruption with net crude loss unquantified, conditional restart evidence, a"
+    },
+    {
+      "file": "workbook/KB.tsv",
+      "line": 388,
+      "path": "research/2026-09-18_news-catchup/REPORT.md",
+      "context": "KB-HAWK-384\t2026-09-18\tGEOPOLITICS\tJapan\tSAM CORRECTION CONSUMED, AND BRENT ANSWERED THE LEG ROUTED TO HAWK. Japan's Middle-East share of crude import VOLUME fell from 91-95% (2025"
+    },
+    {
+      "file": "workbook/VX.tsv",
+      "line": 9,
+      "path": "proposals/2026-10-25_TRADE-02_RED_L778.md",
+      "context": "VX-HAWK-TRADE-02\tBroad Tariff Policy\t\"[2026-10-25 CORRECTION, KB-HAWK-453] Section 338/232 stacking applies ONLY to listed goods. HAWK read CBP69851916 and P11065 clause 1 at prima"
+    },
+    {
+      "file": "workbook/CATALYSTS.tsv",
+      "line": 40,
+      "path": "proposals/2026-10-25_TRADE-02_RED_L778.md",
+      "context": "2026-10-25\tTRADE-02 RED definition draft (DOCKET L778)\tRESOLVED\tproposals/2026-10-25_TRADE-02_RED_L778.md\tDraft complete; PROME registration and Will ruling pending. No band change"
+    }
+  ],
+  "moved_references": [
+    {
+      "file": "workbook/KB.tsv",
+      "line": 360,
+      "path": "AGENTS/OSPREY/inbox/2026-09-10_from-HAWK_downgrade-path-NO-OBJECTION-plus-two-consumer-flags.md",
+      "context": "KB-HAWK-356\t2026-09-10\tWAR\tOSPREY\tHAWK closed its consumer objection window on OSPREY's EXIT RULES \u00a71b downgrade path: NO OBJECTION, recorded 2026-09-10, five days before the 9/15 "
+    },
+    {
+      "file": "workbook/KB.tsv",
+      "line": 368,
+      "path": "AGENTS/OSPREY/inbox/2026-09-10_from-HAWK_WQ-216-taxonomy-joint-draft-HAWK-half.md",
+      "context": "KB-HAWK-364\t2026-09-10\tWAR\tHAWK/OSPREY WQ-216 (OWED-23)\tHAWK's half of the WQ-216 joint counter-campaign taxonomy DELIVERED to OSPREY 2026-09-10 (OSPREY merges and returns the join"
+    },
+    {
+      "file": "workbook/KB.tsv",
+      "line": 368,
+      "path": "AGENTS/OSPREY/inbox/2026-09-10_from-PROME_OWED-23-taxonomy-is-WQ-216-write-the-joint-one-pager-with-HAWK.md",
+      "context": "KB-HAWK-364\t2026-09-10\tWAR\tHAWK/OSPREY WQ-216 (OWED-23)\tHAWK's half of the WQ-216 joint counter-campaign taxonomy DELIVERED to OSPREY 2026-09-10 (OSPREY merges and returns the join"
+    },
+    {
+      "file": "workbook/KB.tsv",
+      "line": 396,
+      "path": "AGENTS/HAWK/inbox/2026-09-18_from-OSPREY_dyad-boundary-RULING-concur-with-three-amendments.md",
+      "context": "KB-HAWK-392\t2026-09-18\tGEOPOLITICS\tOSPREY\tOSPREY RULED ON THE DYAD BOUNDARY AND HAWK ADOPTS ALL THREE AMENDMENTS -- VX-HAWK-EURMIL-01 IS NO LONGER 'PROPOSED, NOT AGREED'. OSPREY co"
+    },
+    {
+      "file": "workbook/KB.tsv",
+      "line": 400,
+      "path": "AGENTS/HAWK/inbox/2026-09-18_from-HANS_rearmament-scope-split-CONCUR.md",
+      "context": "KB-HAWK-396\t2026-09-18\tGEOPOLITICS\tHANS\tHANS CONCURRED ON THE FISCAL/POSTURE SPLIT WITHOUT RE-CUT -- VX-HAWK-EURMIL-01 IS AGREED ON BOTH SIDES AND THE PROPOSED MARKER COMES OFF ENT"
+    },
+    {
+      "file": "workbook/KB.tsv",
+      "line": 401,
+      "path": "AGENTS/HAWK/inbox/2026-09-18_from-HANS_qualifying-the-S-P-driver-figure-you-are-carrying-plus-the-fiscal-read.md",
+      "context": "KB-HAWK-397\t2026-09-18\tGEOPOLITICS\tGermany\tTHE S&P GERMAN DRIVER ATTRIBUTION IS A SURVEY ATTRIBUTION, NOT A MEASUREMENT -- HAWK'S OWN WORDING CORRECTED BY THE FIGURE'S OWNER. S&P/H"
+    },
+    {
+      "file": "workbook/KB.tsv",
+      "line": 402,
+      "path": "AGENTS/HAWK/inbox/2026-09-18_from-HANS_qualifying-the-S-P-driver-figure-you-are-carrying-plus-the-fiscal-read.md",
+      "context": "KB-HAWK-398\t2026-09-18\tGEOPOLITICS\tEurope\tTHE SOVEREIGN LEG RUNS AGAINST 'RISING CONFLICT RISK' AND IS AN INDEPENDENT CHECK ON HAWK'S CONTAMINATED VERDICT. HANS's discriminator: co"
+    },
+    {
+      "file": "workbook/KB.tsv",
+      "line": 403,
+      "path": "AGENTS/HAWK/inbox/2026-09-18_from-HANS_eu-storage-gap-re-widened-cc.md",
+      "context": "KB-HAWK-399\t2026-09-18\tGEOPOLITICS\tHANS\tBOUNDARY NOTE RECEIVED AND ACCEPTED: HANS'S ENERGY FIRES ARE HORMUZ/QATAR -- GULF, NOT RUSSIA-NATO -- AND MUST NOT BE RELAYED AS EUROPEAN CO"
+    },
+    {
+      "file": "workbook/KB.tsv",
+      "line": 417,
+      "path": "PROME/inbox/2026-09-26_from-HAWK_paid-data-line-2-and-WQ-296.md",
+      "context": "KB-HAWK-413\t2026-09-26\tMETA\tHAW-19 successor\tWQ-298 line 2 answered (PROME/inbox/2026-09-26_from-HAWK_paid-data-line-2-and-WQ-296.md): the approved v2 successor letter needs BOTH K"
+    },
+    {
+      "file": "workbook/VX.tsv",
+      "line": 14,
+      "path": "inbox/2026-09-18_from-OSPREY_dyad-boundary-RULING-concur-with-three-amendments.md",
+      "context": "VX-HAWK-EURMIL-01\tEuropean Military Posture / Rearmament (RU-NATO dyad)\t[2026-09-18 OPENED, Will-directed. First reading.] MILITARY RUNGS STEPPED, POLITICAL-LEGAL RUNGS UNSTEPPED. "
+    },
+    {
+      "file": "workbook/VX.tsv",
+      "line": 14,
+      "path": "inbox/2026-09-18_from-HANS_rearmament-scope-split-CONCUR.md",
+      "context": "VX-HAWK-EURMIL-01\tEuropean Military Posture / Rearmament (RU-NATO dyad)\t[2026-09-18 OPENED, Will-directed. First reading.] MILITARY RUNGS STEPPED, POLITICAL-LEGAL RUNGS UNSTEPPED. "
+    },
+    {
+      "file": "domain/europe-rearm/README.md",
+      "line": 88,
+      "path": "inbox/2026-09-18_from-HANS_rearmament-scope-split-CONCUR.md",
+      "context": "\u2705 **Status: AGREED 2026-09-18 20:49 ET** \u2014 HANS concurred without re-cut (`inbox/2026-09-18_from-HANS_rearmament-scope-split-CONCUR.md`, commit `1fe0ddcf0`): *\"That is the line I w"
+    },
+    {
+      "file": "domain/war-risk/CROSS_THEATER_WAR_RISK.md",
+      "line": 76,
+      "path": "AGENTS/OSPREY/inbox/2026-09-19_from-HAWK_channel3-limb2-answered-NEGATIVE-and-it-is-circular.md",
+      "context": "**Remedy owned by OSPREY** (the only end that can close it): its 10-outlet canvass + TD6, dated. HAWK folds it the same session it arrives. Packet: `AGENTS/OSPREY/inbox/2026-09-19_"
+    }
+  ],
+  "past_pending": [
+    {
+      "date": "2026-09-11",
+      "event": "Qatar primary review and Canadian documentary follow-up",
+      "days_past": 44
+    },
+    {
+      "date": "2026-09-11",
+      "event": "Partial dormant sweep missing-leg review",
+      "days_past": 44
+    },
+    {
+      "date": "2026-09-11",
+      "event": "Owner dictionary and calibration review",
+      "days_past": 44
+    },
+    {
+      "date": "2026-09-11",
+      "event": "September29 Canadian import-ban press lead",
+      "days_past": 44
+    },
+    {
+      "date": "2026-09-11",
+      "event": "HAW19 successor measurement readiness",
+      "days_past": 44
+    },
+    {
+      "date": "2026-09-09",
+      "event": "Canadian Gazette PartII next regular issue check",
+      "days_past": 46
+    },
+    {
+      "date": "2026-10-18",
+      "event": "Article 4 negative must be closed at a 2026-vintage NATO primary",
+      "days_past": 7
+    },
+    {
+      "date": "2026-10-05",
+      "event": "August METI crude-by-source table \u2014 adopt Kuwait/Qatar-at-zero instrument",
+      "days_past": 20
+    },
+    {
+      "date": "2026-09-30",
+      "event": "Equipment-stock decomposition \u2014 depletion vs lag vs composition",
+      "days_past": 25
+    },
+    {
+      "date": "2026-10-02",
+      "event": "DOCKET line 434 \u2014 does the Nestle/Auchan seizure convert from external management into a SALE?",
+      "days_past": 23
+    },
+    {
+      "date": "2026-10-05",
+      "event": "Iran 7-day plan: formal US reply via mediators / talks 'this week' (Trump to Axios 9/27)",
+      "days_past": 20
+    },
+    {
+      "date": "2026-10-08",
+      "event": "Ivanhoe Q3 release (est. early Oct) -- SULPHUR-01 acid contract price",
+      "days_past": 17
+    },
+    {
+      "date": "2026-10-18",
+      "event": "H.R.5334 (Graham Sanctioning Russia and Iran Act) ~30-day action deadlines",
+      "days_past": 7
+    },
+    {
+      "date": "2026-10-12",
+      "event": "EU 22nd Russia sanctions package: formal approval expected",
+      "days_past": 13
+    },
+    {
+      "date": "2026-10-17",
+      "event": "FE1 Suez return: first sailing ONE Continuity ex Laem Chabang",
+      "days_past": 8
+    }
+  ],
+  "outbox_deterministic_check": [
+    {
+      "path": "outbox/2026-08-20_to-BRENT_kill-leg2-transit-is-not-a-crosscheck-on-haw19-and-why.md",
+      "target": "BRENT",
+      "date": "2026-08-20",
+      "exact_recipient_copy_found": false
+    },
+    {
+      "path": "outbox/2026-08-20_to-PROME_checkpoint-conditions-BUILT-plus-line168-answer-DISPLAYS-plus-two-band-defects-needing-a-ruling.md",
+      "target": "PROME",
+      "date": "2026-08-20",
+      "exact_recipient_copy_found": false
+    },
+    {
+      "path": "outbox/2026-08-20_to-WALTER_answering-the-9-8-ask-the-mou-expiry-raises-the-bar-and-kills-a-discriminator.md",
+      "target": "WALTER",
+      "date": "2026-08-20",
+      "exact_recipient_copy_found": false
+    },
+    {
+      "path": "outbox/2026-08-22_to-PROME_s338-pause-expiry-primary-verify.md",
+      "target": "PROME",
+      "date": "2026-08-22",
+      "exact_recipient_copy_found": false
+    },
+    {
+      "path": "outbox/2026-09-02_to-PROME_52-drained-pgm-answered-war-monitor.md",
+      "target": "PROME",
+      "date": "2026-09-02",
+      "exact_recipient_copy_found": true
+    },
+    {
+      "path": "outbox/2026-09-08_to-DAEDALUS_catchup-structural-and-asmade-dispositions.md",
+      "target": "DAEDALUS",
+      "date": "2026-09-08",
+      "exact_recipient_copy_found": true
+    },
+    {
+      "path": "outbox/2026-09-08_to-FALCON_hull-count-refining-and-insurance-receipt.md",
+      "target": "FALCON",
+      "date": "2026-09-08",
+      "exact_recipient_copy_found": true
+    },
+    {
+      "path": "outbox/2026-09-08_to-LABOR_canada-product-remission-employment-perimeter.md",
+      "target": "LABOR",
+      "date": "2026-09-08",
+      "exact_recipient_copy_found": true
+    },
+    {
+      "path": "outbox/2026-09-08_to-MARCO_canada-product-remission-exposure.md",
+      "target": "MARCO",
+      "date": "2026-09-08",
+      "exact_recipient_copy_found": true
+    },
+    {
+      "path": "outbox/2026-09-08_to-OSPREY_refining-audit-and-owner-corrections-receipt.md",
+      "target": "OSPREY",
+      "date": "2026-09-08",
+      "exact_recipient_copy_found": true
+    },
+    {
+      "path": "outbox/2026-09-08_to-PROME_codex-owner-catchup-completion.md",
+      "target": "PROME",
+      "date": "2026-09-08",
+      "exact_recipient_copy_found": true
+    },
+    {
+      "path": "outbox/2026-09-08_to-WALTER_Qatar-COR-20260908-04-applied-receipt.md",
+      "target": "WALTER",
+      "date": "2026-09-08",
+      "exact_recipient_copy_found": true
+    },
+    {
+      "path": "outbox/2026-09-08_to-WALTER_corrections-and-canada-owner-receipt.md",
+      "target": "WALTER",
+      "date": "2026-09-08",
+      "exact_recipient_copy_found": true
+    },
+    {
+      "path": "outbox/2026-10-25_to-BRENT_K1-five-settle-input.md",
+      "target": "BRENT",
+      "date": "2026-10-25",
+      "exact_recipient_copy_found": false
+    },
+    {
+      "path": "outbox/2026-10-25_to-PROME_boot-L778-completion.md",
+      "target": "PROME",
+      "date": "2026-10-25",
+      "exact_recipient_copy_found": true
+    },
+    {
+      "path": "outbox/2026-10-25_to-WALTER_canada-scope-correction.md",
+      "target": "WALTER",
+      "date": "2026-10-25",
+      "exact_recipient_copy_found": true
+    }
+  ],
+  "expired_active_or_confirmed_kb": [
+    {
+      "id": "KB-HAWK-021",
+      "stale_by": "2026-03-17",
+      "fact": "Lebanon govt banned Hezbollah military activities; LAF conducting disarmament ops in S. Lebanon. Limited strik"
+    },
+    {
+      "id": "KB-HAWK-023",
+      "stale_by": "2026-03-12",
+      "fact": "Hormuz shipping -92% vs pre-war week. Qatar and Kuwait curtailments begun. Kuwait ~18 days storage runway. UAE"
+    },
+    {
+      "id": "KB-HAWK-025",
+      "stale_by": "2026-03-10",
+      "fact": "Brent hits $90 \u2014 first time since mid-2024. WTI ~$88. +14% since war began."
+    },
+    {
+      "id": "KB-HAWK-027",
+      "stale_by": "2026-03-17",
+      "fact": "Lebanon at \"tipping point\" on Hezbollah disarmament. Govt push underway. Mass activation risk reduced near-ter"
+    },
+    {
+      "id": "KB-HAWK-028",
+      "stale_by": "2026-03-13",
+      "fact": "Scenario framework established: A (surgical) 10%, B (sustained) 55%, C (full escalation) 35%, D (collapse/nucl"
+    },
+    {
+      "id": "KB-HAWK-029",
+      "stale_by": "2026-03-15",
+      "fact": "Russia Jan 2026 oil/gas revenue $5.1B (-50% YoY). Shadow fleet + sanctions + Ukraine refinery campaign compoun"
+    },
+    {
+      "id": "KB-HAWK-030",
+      "stale_by": "2026-03-15",
+      "fact": "Ukraine refinery campaign: 16 refineries targeted (38% capacity). Throughput ~335K bpd below YoY. Russian prod"
+    },
+    {
+      "id": "KB-HAWK-031",
+      "stale_by": "2026-03-13",
+      "fact": "Iraq next in line after Kuwait/UAE for forced curtailment. If Hormuz closed 4 weeks, all Iraq/Kuwait/UAE/Qatar"
+    },
+    {
+      "id": "KB-HAWK-033",
+      "stale_by": "2026-03-12",
+      "fact": "War risk insurance for Hormuz transit becoming uninsurable \u2014 insurance cliff Mar 5"
+    },
+    {
+      "id": "KB-HAWK-034",
+      "stale_by": "2026-03-10",
+      "fact": "Convergence score 37/45 \ud83d\udd34\ud83d\udd34 \u2014 highest since war began. 5 vectors at RED or RED-RED."
+    },
+    {
+      "id": "KB-HAWK-035",
+      "stale_by": "2026-03-12",
+      "fact": "Iraqi southern oilfield production collapsed from ~4.3M bpd to ~1.3M bpd \u2014 ~3M bpd (~70%) shut-in"
+    },
+    {
+      "id": "KB-HAWK-038",
+      "stale_by": "2026-03-11",
+      "fact": "Israeli strikes hit oil storage/depots in Tehran area \u2014 smoldering tanks per AP; AP confirms \"oil storage faci"
+    },
+    {
+      "id": "KB-HAWK-039",
+      "stale_by": "2026-06-30",
+      "fact": "Gulf states (KSA, Qatar, UAE, Iran, Oman) collectively 13% of global fertilizer exports; all routes Hormuz-dep"
+    },
+    {
+      "id": "KB-HAWK-043",
+      "stale_by": "2026-03-20",
+      "fact": "Iranian munitions targeting Gulf states (Feb 28-Mar 5): Feb 28 ~385 total (UAE ~320, Bahrain ~5, Qatar ~60); M"
+    },
+    {
+      "id": "KB-HAWK-044",
+      "stale_by": "2026-03-20",
+      "fact": "22 fires at Iranian missile/drone production facilities (peak destruction Mar 3). Nuclear facility fire detect"
+    },
+    {
+      "id": "KB-HAWK-045",
+      "stale_by": "2026-03-14",
+      "fact": "Lloyd's List Intelligence / Seasearcher: Hormuz transits Mar 1-5 = 46 total vs 561 same period Feb \u2192 -92%. Zer"
+    },
+    {
+      "id": "KB-HAWK-046",
+      "stale_by": "2026-03-20",
+      "fact": "Consensus formation: Eric Nuttall (MacroEdge) Mar 5: \"Largest loss of oil supply in history \u2014 3x bigger than 1"
+    },
+    {
+      "id": "KB-HAWK-048",
+      "stale_by": "2026-03-20",
+      "fact": "Platts commodity price moves Feb 28 \u2192 Mar 5: Oil +21%, Jet fuel +87%, LNG +106%, VLCC rates +201%, LNG carrier"
+    },
+    {
+      "id": "KB-HAWK-073",
+      "stale_by": "2026-04-30",
+      "fact": "Fertilizer shortage timeline confirmed: Week 0-2 = price shock (urea NOLA $683/mt). Week 2-4 = India inventory"
+    },
+    {
+      "id": "KB-HAWK-074",
+      "stale_by": "2026-03-15",
+      "fact": "TSMC inflation transmission chain confirmed: Hormuz closure \u2192 Qatar LNG offline (30% of Taiwan supply) \u2192 Taiwa"
+    },
+    {
+      "id": "KB-HAWK-084",
+      "stale_by": "2026-03-18",
+      "fact": "ISW Mar 13: Iran \"selectively allowing\" some ships to transit Hormuz. NO attacks on civilian vessels since Ira"
+    },
+    {
+      "id": "KB-HAWK-086",
+      "stale_by": "2026-03-20",
+      "fact": "ISW Mar 12: Iranian armed forces facing \"deepening fractures between Artesh and IRGC amid severe supply shorta"
+    },
+    {
+      "id": "KB-HAWK-087",
+      "stale_by": "2026-03-18",
+      "fact": "ISW Mar 14: Neither Iran nor US prepared for ceasefire discussions \"despite mediation efforts by Oman and Egyp"
+    },
+    {
+      "id": "KB-HAWK-091",
+      "stale_by": "2026-03-25",
+      "fact": "India asked China to allow urea cargo sales as war-induced LNG crunch forces Indian fertilizer plant unit shut"
+    },
+    {
+      "id": "KB-HAWK-092",
+      "stale_by": "2026-03-16",
+      "fact": "Dubai airport status Mar 14: Emirates operating reduced schedule (~110 destinations), planning return to full "
+    },
+    {
+      "id": "KB-HAWK-093",
+      "stale_by": "2026-03-20",
+      "fact": "France deploying ~12 naval vessels including aircraft carrier strike group to Mediterranean/Red Sea/Hormuz. Tr"
+    },
+    {
+      "id": "KB-HAWK-106",
+      "stale_by": "2026-03-21",
+      "fact": "Iraq declared force majeure on ALL foreign-operated oilfields (BP, ExxonMobil, TotalEnergies). Iraq ~4.5M bpd,"
+    },
+    {
+      "id": "KB-HAWK-108",
+      "stale_by": "2026-04-15",
+      "fact": "Seven Depletion Clocks framework: (1) Planting mid-April, (2) USDA Mar 31, (3) FAO Apr 3, (4) Pharma APIs late"
+    },
+    {
+      "id": "KB-HAWK-131",
+      "stale_by": "2026-03-25",
+      "fact": "IDF confirmed \"wide-scale wave of strikes\" on Tehran infrastructure targets, two rounds within hours"
+    },
+    {
+      "id": "KB-HAWK-132",
+      "stale_by": "2026-03-25",
+      "fact": "Iran struck near Dimona (Israel nuclear research site); 180 injured in Israel; Iranian state media claims targ"
+    },
+    {
+      "id": "KB-HAWK-111",
+      "stale_by": "2026-03-25",
+      "fact": "Joint Hezbollah + Iran coordinated multi-vector attack on northern Israel"
+    },
+    {
+      "id": "KB-HAWK-112",
+      "stale_by": "2026-03-24",
+      "fact": "Trump claimed \"productive talks\" with Iran, delayed/postponed US power plant strikes by 5 days; markets rallie"
+    },
+    {
+      "id": "KB-HAWK-113",
+      "stale_by": "2026-03-24",
+      "fact": "Iran DENYING any talks with US exist. Rally narrative contradicted by active combat and Iranian government sta"
+    },
+    {
+      "id": "KB-HAWK-114",
+      "stale_by": "2026-03-28",
+      "fact": "Trump postponed US strikes on Iranian power plants for 5 days (deadline now ~Mar 28)"
+    },
+    {
+      "id": "KB-HAWK-115",
+      "stale_by": "2026-03-28",
+      "fact": "Retaliation cycle analysis: Kharg offline \u2192 Iran has no economic incentive to de-escalate; targeting GCC expor"
+    },
+    {
+      "id": "KB-HAWK-116",
+      "stale_by": "2026-03-27",
+      "fact": "Sea drone attack on Kuwait port (Mina al-Ahmadi / Shuaiba) \u2014 new attack vector beyond missiles"
+    },
+    {
+      "id": "KB-HAWK-117",
+      "stale_by": "2026-03-27",
+      "fact": "Kuwait airport drone strike \u2014 GCC capital infrastructure targeted via drone (non-missile vector)"
+    },
+    {
+      "id": "KB-HAWK-118",
+      "stale_by": "2026-03-30",
+      "fact": "82nd Airborne deploying to region \u2014 US ground forces positioning for escalation or deterrence"
+    },
+    {
+      "id": "KB-HAWK-119",
+      "stale_by": "2026-03-28",
+      "fact": "Rezaie statement: \"we are waiting\" \u2014 IRGC commander pre-strike posture signal"
+    },
+    {
+      "id": "KB-HAWK-120",
+      "stale_by": "2026-03-30",
+      "fact": "IDF at Litani River \u2014 Israel occupation of southern Lebanon proceeding; second front consolidating"
+    },
+    {
+      "id": "KB-HAWK-121",
+      "stale_by": "2026-03-28",
+      "fact": "Iran demands Lebanon included in any ceasefire deal \u2014 expands negotiating demands; harder to close agreement"
+    },
+    {
+      "id": "KB-HAWK-122",
+      "stale_by": "2026-03-28",
+      "fact": "Iran mocks US \"negotiating with themselves\" \u2014 confirms zero diplomatic track from Iranian side"
+    },
+    {
+      "id": "KB-HAWK-123",
+      "stale_by": "2026-06-01",
+      "fact": "QatarEnergy declared force majeure on LNG contracts (China, Italy, South Korea, Belgium) \u2014 13M tonnes/yr (17% "
+    },
+    {
+      "id": "KB-HAWK-124",
+      "stale_by": "2026-04-01",
+      "fact": "Israel striking Caspian Sea Russia-Iran weapons smuggling route (WSJ) \u2014 drones, oil, wheat moved via Caspian; "
+    },
+    {
+      "id": "KB-HAWK-125",
+      "stale_by": "2026-04-07",
+      "fact": "Russia suspends ammonium nitrate exports (Bloomberg) \u2014 combined with China N-K halt + Gulf urea = three major "
+    },
+    {
+      "id": "KB-HAWK-126",
+      "stale_by": "2026-03-31",
+      "fact": "USDA Planting Intentions Mar 31: urea +40% (FOB Egypt ~$700/mt vs $490 pre-war); reduced nitrogen application "
+    },
+    {
+      "id": "KB-HAWK-129",
+      "stale_by": "2026-05-14",
+      "fact": "IMF GFSR April 2026: \"Policymakers should ensure they are prepared to address any market dysfunction by standi"
+    },
+    {
+      "id": "KB-HAWK-130",
+      "stale_by": "2026-05-14",
+      "fact": "Baker Hughes rig count flat despite >1 month of elevated oil prices - supply response lag confirmed, shale NOT"
+    },
+    {
+      "id": "KB-HAWK-132",
+      "stale_by": "2026-04-22",
+      "fact": "US-Iran Islamabad Round 1 talks: 21 hours of negotiation, no deal. Vance: Iran refused Washington's terms. US "
+    },
+    {
+      "id": "KB-HAWK-135",
+      "stale_by": "2026-04-22",
+      "fact": "US Navy seized Iran-flagged vessel defying blockade. Tehran vowed retaliation"
+    },
+    {
+      "id": "KB-HAWK-136",
+      "stale_by": "2026-04-22",
+      "fact": "Trump stated extension \"highly unlikely\" without deal; ceasefire expires Apr 21 8pm ET. Vance departs Washingt"
+    },
+    {
+      "id": "KB-HAWK-137",
+      "stale_by": "2026-04-23",
+      "fact": "Brent crude $95.42 on Apr 20, up 5.58% single session. Above $80-100 Scenario C band; market pricing ceasefire"
+    },
+    {
+      "id": "KB-HAWK-138",
+      "stale_by": "2026-04-23",
+      "fact": "Simultaneous EAM broadcasts from HFGCS ground stations AND Mercury E-6B aircraft observed 19:20 UTC on 8991-89"
+    },
+    {
+      "id": "KB-HAWK-139",
+      "stale_by": "2026-04-25",
+      "fact": "US multi-carrier buildup: USS Ford w/ destroyers Mahan + Churchill joining Lincoln in N Arabian Sea; USS HW Bu"
+    },
+    {
+      "id": "KB-HAWK-140",
+      "stale_by": "2026-05-01",
+      "fact": "Dutch kabinet activates Phase 1 alerteringsfase of Landelijk Crisisplan Olie (LCP-O) effective Apr 20. First-e"
+    },
+    {
+      "id": "KB-HAWK-141",
+      "stale_by": "2026-05-01",
+      "fact": "Ukraine struck Tuapse refinery + Black Sea port 2nd time in 4 days. Rosneft-owned ~240kbpd."
+    },
+    {
+      "id": "KB-HAWK-142",
+      "stale_by": "2026-05-15",
+      "fact": "Aggregator compilation: 11 non-ME hydrocarbon-infra incidents Mar 1-Apr 15. Mix: 4 Russia war-driven, 3 India,"
+    },
+    {
+      "id": "KB-HAWK-143",
+      "stale_by": "2026-04-23",
+      "fact": "@OSINTdefender/MarineTraffic Apr 17-19: few ships transited SoH past 24h due to Iranian attacks forcing turnar"
+    },
+    {
+      "id": "KB-HAWK-144",
+      "stale_by": "2026-04-23",
+      "fact": "Trump convened WH Situation Room on Iran Sat Apr 18. Treasury Secretary Bessent attended (atypical \u2014 sanctions"
+    },
+    {
+      "id": "KB-HAWK-145",
+      "stale_by": "2026-05-29",
+      "fact": "Barakah nuclear plant struck by 3 drones from Iraqi territory; 2 intercepted, 1 hit outer-perimeter generator;"
+    },
+    {
+      "id": "KB-HAWK-146",
+      "stale_by": "2026-05-29",
+      "fact": "Trump called off a planned very major attack on Iran after Qatar/Saudi/UAE requested 2-3 day hold pending deal"
+    },
+    {
+      "id": "KB-HAWK-147",
+      "stale_by": "2026-05-29",
+      "fact": "Chinese-affiliated supertankers exited Hormuz after 60+ days waiting; quiet Iran-permitted egress expands carv"
+    },
+    {
+      "id": "KB-HAWK-148",
+      "stale_by": "2026-05-29",
+      "fact": "M/T Celestial Sea boarded by 31st MEU in Gulf of Oman; 5th vessel boarded under blockade; 91 ships redirected "
+    },
+    {
+      "id": "KB-HAWK-150",
+      "stale_by": "2026-06-15",
+      "fact": "Kpler charts show 2026 global crude exports down ~14% Jan-May and OPEC+ exports down ~29%; OPEC+ dominant driv"
+    },
+    {
+      "id": "KB-HAWK-151",
+      "stale_by": "2026-06-22",
+      "fact": "Trump stated agreement with Iran \"largely negotiated\"; Strait of Hormuz \"will be opened\" under framework"
+    },
+    {
+      "id": "KB-HAWK-152",
+      "stale_by": "2026-06-22",
+      "fact": "14-point framework MOU draft circulated for 60-day truce extension + Hormuz reopen + Iran demine 30d + no nuke"
+    },
+    {
+      "id": "KB-HAWK-153",
+      "stale_by": "2026-06-22",
+      "fact": "US CENTCOM \"self-defense\" strikes in southern Iran targeted missile launch sites and boats near Hormuz; Irania"
+    },
+    {
+      "id": "KB-HAWK-154",
+      "stale_by": "2026-06-22",
+      "fact": "Tentative 60-day truce extension agreement reached, pending Trump signoff; preliminary MOU; Iranian state medi"
+    },
+    {
+      "id": "KB-HAWK-155",
+      "stale_by": "2026-06-22",
+      "fact": "Iran ambassador to Moscow stated Strait of Hormuz will reopen with new transit fees determined by Iranian and "
+    },
+    {
+      "id": "KB-HAWK-156",
+      "stale_by": "2026-06-22",
+      "fact": "Iran SUSPENDED Pakistan-mediated talks; threatened complete Hormuz closure plus Bab al-Mandab activation; Tasn"
+    },
+    {
+      "id": "KB-HAWK-157",
+      "stale_by": "2026-06-22",
+      "fact": "Trump and Rubio publicly denied Iranian suspension; Trump said deal reachable \"next week\"; Rubio named 4 concr"
+    },
+    {
+      "id": "KB-HAWK-158",
+      "stale_by": "2026-09-03",
+      "fact": "IAEA Director General Grossi stated Barakah May 17 drone attack was \"more dangerous than Zaporizhzhia\" because"
+    },
+    {
+      "id": "KB-HAWK-159",
+      "stale_by": "2026-06-15",
+      "fact": "UKMTO Hormuz tanker 7-day average 1.1/day week ending Jun 3; April monthly avg 3.9 \u2192 May 2.8 \u2192 Jun-3 week 1.1 "
+    },
+    {
+      "id": "KB-HAWK-160",
+      "stale_by": "2026-06-22",
+      "fact": "Iran fired 7 ballistic missiles at Kuwait and Bahrain in single salvo; Bahrain new target class; all intercept"
+    },
+    {
+      "id": "KB-HAWK-161",
+      "stale_by": "2026-06-22",
+      "fact": "Iran launched missiles at Israel for first time in 2 months (Day 100 of war); Israel struck Beirut Sunday defy"
+    },
+    {
+      "id": "KB-HAWK-162",
+      "stale_by": "2026-06-22",
+      "fact": "Damage-vs-Salvo regime split: Feb-Apr was damage regime (real infra hits \u2192 Brent $116 peak); May-Jun is salvo "
+    },
+    {
+      "id": "KB-HAWK-163",
+      "stale_by": "2026-06-22",
+      "fact": "Iran fired ~30 ballistic missiles at 3 Israeli air bases (Jun 7-8, 2nd wave reported); Israel retaliated hitti"
+    },
+    {
+      "id": "KB-HAWK-164",
+      "stale_by": "2026-07-01",
+      "fact": "Houthis fired missiles at Israel Jun 8 (Tel Aviv sirens) \u2014 re-entry alongside Iran-Israel exchange; active vs "
+    },
+    {
+      "id": "KB-HAWK-174",
+      "stale_by": "2026-06-19",
+      "fact": "'Islamabad Agreement' final text claimed Jun 12: Pakistan PM Sharif says 'final, agreed upon text' of US-Iran "
+    },
+    {
+      "id": "KB-HAWK-175",
+      "stale_by": "2026-06-19",
+      "fact": "Same-day term contradictions on Islamabad Agreement Jun 12: Iran declares it keeps uranium ENRICHMENT rights +"
+    },
+    {
+      "id": "KB-HAWK-178",
+      "stale_by": "2026-06-19",
+      "fact": "Jun 12 re-mark: scenarios C 42% / B 32% / D 26% (from C53/D35/B12 Jun 8). Convergence re-based to 10-vector co"
+    },
+    {
+      "id": "KB-HAWK-180",
+      "stale_by": "2026-06-20",
+      "fact": "Iran: future management of Strait of Hormuz to be decided bilaterally by Iran+Oman as bordering sovereigns; jo"
+    },
+    {
+      "id": "KB-HAWK-181",
+      "stale_by": "2026-08-16",
+      "fact": "Trump + Pezeshkian electronically SIGNED the Islamabad Memorandum of Understanding Jun 17: 60-day ceasefire ex"
+    },
+    {
+      "id": "KB-HAWK-182",
+      "stale_by": "2026-06-25",
+      "fact": "Jun 18 first day of commercial Hormuz reopening: 18 transits Jun 17-18 (highest single-window of conflict); fi"
+    },
+    {
+      "id": "KB-HAWK-183",
+      "stale_by": "2026-06-25",
+      "fact": "Jun 18 re-mark: scenarios B 46% / C 39% / D 15% (from C42/B32/D26 Jun 12). Signing executed Jun 17 (announceme"
+    },
+    {
+      "id": "KB-HAWK-184",
+      "stale_by": "2026-06-25",
+      "fact": "Ukrainian drones struck Moscow MNPZ (Kapotnya) refinery 2nd time in 3 days overnight 6/17-18 amid largest-ever"
+    },
+    {
+      "id": "KB-HAWK-185",
+      "stale_by": "2026-07-18",
+      "fact": "MAY 2026 = RECORD MONTH for Ukraine strikes on Russian oil infra: 31 attacks (refineries/terminals/pipelines),"
+    },
+    {
+      "id": "KB-HAWK-186",
+      "stale_by": "2026-07-18",
+      "fact": "JUNE 2026 oil-infra strike sequence + cumulative state: Jun 10 Kuibyshev refinery (Samara) AVT-4/AVT-5 units +"
+    },
+    {
+      "id": "KB-HAWK-187",
+      "stale_by": "2026-07-18",
+      "fact": "PRIMARY CONFIRMATION of channel-rotation thesis: Ukrainian refinery strikes FREE crude for export. Russian cru"
+    },
+    {
+      "id": "KB-HAWK-188",
+      "stale_by": "2026-06-26",
+      "fact": "B verification leg refined to physical-tanker + liner sub-gates, BOTH unmet 6/18-19: (1) LINER - Maersk/CMA-CG"
+    },
+    {
+      "id": "KB-HAWK-189",
+      "stale_by": "2026-06-26",
+      "fact": "First post-signing stress test (6/18-19): @HormuzLetter \"Iran suspended entire 60-day negotiation period\" = CO"
+    },
+    {
+      "id": "KB-HAWK-190",
+      "stale_by": "2026-06-26",
+      "fact": "Lebanon flare matured WORSE than first read (KB-189): Israeli strikes Jun 18-19 killed >=47 (Lebanese Health M"
+    },
+    {
+      "id": "KB-HAWK-191",
+      "stale_by": "2026-06-26",
+      "fact": "TWO corrections to the Lebanon read (both verified): (1) Lebanon is a DISPUTED-SCOPE clause INSIDE the MOU, no"
+    },
+    {
+      "id": "KB-HAWK-192",
+      "stale_by": "2026-06-26",
+      "fact": "Hormuz verification sub-agent sweep Jun 19: PHYSICAL gate PARTIALLY CLEARING - transits resuming + CENTCOM lif"
+    },
+    {
+      "id": "KB-HAWK-193",
+      "stale_by": "2026-06-26",
+      "fact": "Diplomatic/implementation sweep Jun 19: STUCK-but-STABILIZING. First Switzerland/Vance round postponed (no fir"
+    },
+    {
+      "id": "KB-HAWK-194",
+      "stale_by": "2026-09-30",
+      "fact": "HAW-03 FALSIFIED. US military intervention in Venezuela already occurred: Operation Absolute Resolve Jan 3 202"
+    },
+    {
+      "id": "KB-HAWK-195",
+      "stale_by": "2026-06-27",
+      "fact": "Lebanon seam DE-escalated Jun 20: after Hezbollah fired dozens of projectiles + killed 4 IDF troops, Netanyahu"
+    },
+    {
+      "id": "KB-HAWK-196",
+      "stale_by": "2026-07-03",
+      "fact": "US-Iran Switzerland round was SET for Jun 20, POSTPONED a 2nd time (Vance delayed trip; Iran withholding deleg"
+    },
+    {
+      "id": "KB-HAWK-197",
+      "stale_by": "2026-07-04",
+      "fact": "NEW Hormuz reopening headwind: Iran's Persian Gulf Strait Authority (PGSA) now MANDATES every transiting comme"
+    },
+    {
+      "id": "KB-HAWK-198",
+      "stale_by": "2026-07-15",
+      "fact": "Russia-Ukraine Jun 18-20: Moscow MNPZ hit 2nd time in a week Jun 18 (ops suspended indefinitely; largest-ever "
+    },
+    {
+      "id": "KB-HAWK-199",
+      "stale_by": "2026-07-20",
+      "fact": "Taiwan/China MILITARY quiet/baseline Jun 6-20: PLA gray-zone routine (daily ADIZ sorties ~4-22; no large-scale"
+    },
+    {
+      "id": "KB-HAWK-200",
+      "stale_by": "2026-06-23",
+      "fact": "Iran RE-DECLARED the Strait of Hormuz CLOSED Sat Jun 20 2026 - joint military command framed it as the 'FIRST "
+    },
+    {
+      "id": "KB-HAWK-201",
+      "stale_by": "2026-07-10",
+      "fact": "DECOUPLING TEST RESOLVED = SHRUG. Iran re-declared Hormuz closed Sat 6/20; markets reopened Mon 6/22 -> Brent "
+    },
+    {
+      "id": "KB-HAWK-202",
+      "stale_by": "2026-07-15",
+      "fact": "Hormuz transit rebound-then-fade = reopening-ladder ANCHOR datum. 71 confirmed transits 19-21 Jun, weekend pea"
+    },
+    {
+      "id": "KB-HAWK-203",
+      "stale_by": "2026-08-17",
+      "fact": "OFAC Iran-oil general license LANDED as primary text: authorizes import of Iranian-origin crude/petrochem/petr"
+    },
+    {
+      "id": "KB-HAWK-204",
+      "stale_by": "2026-07-26",
+      "fact": "Brent specs near-record SHORT (net length washed out) = market positioned HARD on de-escalation holding. Stand"
+    },
+    {
+      "id": "KB-HAWK-205",
+      "stale_by": "2026-09-01",
+      "fact": "US SPR buffer 340.3M bbl = lowest since 1983 (40-yr low). +200M rebuild (Wright 2026-27) only works if ceasefi"
+    },
+    {
+      "id": "KB-HAWK-206",
+      "stale_by": "2026-07-15",
+      "fact": "BRIDGE (backfilled 7/8, gap-swept): 6/27-28 vertical kinetic spike (Kiku tanker drone-struck 6/27; IRGC strike"
+    },
+    {
+      "id": "KB-HAWK-207",
+      "stale_by": "2026-07-15",
+      "fact": "Iran/IRGC struck 3 THIRD-PARTY-FLAGGED commercial tankers in/near the Strait over ~24h: Al Rekayat (Qatari-own"
+    },
+    {
+      "id": "KB-HAWK-208",
+      "stale_by": "2026-07-15",
+      "fact": "US CENTCOM struck 80+ targets across Iran 7/7 in response to the tanker attacks: air-defense systems, C2 netwo"
+    },
+    {
+      "id": "KB-HAWK-209",
+      "stale_by": "2026-07-15",
+      "fact": "IRGC claims strikes on '85 US military sites' in Bahrain (Salman Port/5th Fleet HQ) + Kuwait (Ali Al Salem air"
+    },
+    {
+      "id": "KB-HAWK-210",
+      "stale_by": "2026-07-10",
+      "fact": "Trump at NATO Ankara summit declared the ceasefire 'over' ('For me, I think it's over'), said US will 'very pr"
+    },
+    {
+      "id": "KB-HAWK-211",
+      "stale_by": "2026-07-12",
+      "fact": "Diplomatic + secondary-channel status check: NO formal MOU collapse declared by either party as of search time"
+    },
+    {
+      "id": "KB-HAWK-212",
+      "stale_by": "2026-07-19",
+      "fact": "Three corrections to HAWK's 7/8 STATUS + one new theater: (1) US 2nd strike night was EXECUTED (~90 targets 7/"
+    },
+    {
+      "id": "KB-HAWK-213",
+      "stale_by": "2026-07-26",
+      "fact": "4th commercial vessel struck this cycle: a Cyprus-flagged container ship hit by Iran in the Strait of Hormuz 7"
+    },
+    {
+      "id": "KB-HAWK-214",
+      "stale_by": "2026-07-26",
+      "fact": "US 3rd strike round EXECUTED 7/12: ~140 Iran military targets in southern Iran, retaliation for the 7/11 conta"
+    },
+    {
+      "id": "KB-HAWK-215",
+      "stale_by": "2026-07-26",
+      "fact": "Iran's BROADEST Gulf retaliation of the war 7/12: simultaneous missile+drone attacks on Qatar (2 waves over Do"
+    },
+    {
+      "id": "KB-HAWK-216",
+      "stale_by": "2026-07-26",
+      "fact": "IRGC formally declared the Strait of Hormuz CLOSED 'until further notice / until regional US interference ceas"
+    },
+    {
+      "id": "KB-HAWK-218",
+      "stale_by": "2026-07-23",
+      "fact": "SL Mojtaba Khamenei likely INCAPACITATED, not merely absent (WALTER succession-lens verify-agent 7/9, HIGH on "
+    },
+    {
+      "id": "KB-HAWK-219",
+      "stale_by": "2026-07-26",
+      "fact": "New mediation vector: Oman drafting a tentative proposal to manage Hormuz traffic via two separately controlle"
+    },
+    {
+      "id": "KB-HAWK-220",
+      "stale_by": "2026-08-01",
+      "fact": "MISSED-AT-BOOT, surfaced by Will: Ukraine is running an industrial-scale KINETIC campaign against Russian oil "
+    },
+    {
+      "id": "KB-HAWK-221",
+      "stale_by": "2026-07-15",
+      "fact": "HAW-15 confirmation (Will-directed): the 4 NAMED Russian crude-export installations were NOT struck IN-WINDOW "
+    },
+    {
+      "id": "KB-HAWK-222",
+      "stale_by": "2026-07-20",
+      "fact": "CORRECTION (Will-directed comprehensive sweep): the Russian crude-export TERMINAL channel WAS struck IN-WINDOW"
+    },
+    {
+      "id": "KB-HAWK-224",
+      "stale_by": "2026-09-08",
+      "fact": "Venezuela crude exports 1.2M bpd (Jun-2026), vs 1.24M bpd May and 1.23M bpd Apr (highest in 7+ years). Chevron"
+    },
+    {
+      "id": "KB-HAWK-225",
+      "stale_by": "2026-09-08",
+      "fact": "PLA conducted two-day live-fire drills in the Taiwan Strait 7/23-24 2026 (near the Fujian coast, 0600-1800 bot"
+    },
+    {
+      "id": "KB-HAWK-226",
+      "stale_by": "2026-09-08",
+      "fact": "FIRST-EVER PLA helicopter crossing of the Taiwan Strait median line into the restricted flight zone east of th"
+    },
+    {
+      "id": "KB-HAWK-227",
+      "stale_by": "2026-09-08",
+      "fact": "China's MOFCOM added 10 US firms to its export-control list on 6/22/2026, including MP Materials and USA Rare "
+    },
+    {
+      "id": "KB-HAWK-228",
+      "stale_by": "2026-08-25",
+      "fact": "Both war theaters' registered gates fired within 24h of each other, and BOTH fired on their non-severity legs."
+    },
+    {
+      "id": "KB-HAWK-229",
+      "stale_by": "2026-08-25",
+      "fact": "The binding constraint in both theaters is insurer/owner risk tolerance, not physical destruction - now empiri"
+    },
+    {
+      "id": "KB-HAWK-230",
+      "stale_by": "2026-08-25",
+      "fact": "Double-count check on the two 7/23-24 gate fires: they are NOT two comparable supply shocks. FALCON's leg-1 fi"
+    },
+    {
+      "id": "KB-HAWK-231",
+      "stale_by": "2026-08-04",
+      "fact": "Hormuz war-risk hull premium 7.5-10% of vessel value as of 7/22 2026, up from 1-3% 'several weeks ago' - attri"
+    },
+    {
+      "id": "KB-HAWK-232",
+      "stale_by": "2026-08-04",
+      "fact": "Southern Red Sea war-risk hull premium rose to >1% of vessel value 7/23, from ~0.75% on 7/21 and 0.3% the prio"
+    },
+    {
+      "id": "KB-HAWK-233",
+      "stale_by": "2026-08-25",
+      "fact": "War-risk premium DECOMPOSES ON TRANSIT, not on country or production. Same war, same belligerents, same region"
+    },
+    {
+      "id": "KB-HAWK-234",
+      "stale_by": "2026-09-08",
+      "fact": "A REFINERY outage does not remove barrels from the world - it re-routes them from the product pool to the crud"
+    },
+    {
+      "id": "KB-HAWK-235",
+      "stale_by": "2026-09-01",
+      "fact": "CPC RESUMED loadings 2026-07-27 after a ~1-week halt, with NO SPM structural damage, NO repair, and NO new for"
+    },
+    {
+      "id": "KB-HAWK-236",
+      "stale_by": "2026-09-01",
+      "fact": "MAGNITUDE NO LONGER DISCRIMINATES a premium event from a physical supply event -- only REVERSIBILITY does. The"
+    },
+    {
+      "id": "KB-HAWK-237",
+      "stale_by": "2026-08-24",
+      "fact": "FIRST-EVER Indian refiner contract clause barring BOTH Hormuz and the Red Sea: MRPL (state-owned, ONGC subsidi"
+    },
+    {
+      "id": "KB-HAWK-238",
+      "stale_by": "2026-08-15",
+      "fact": "THE CROSS-WAR SHAPE CHANGED: the two theaters are no longer moving together. As of 7/28 there are THREE counte"
+    },
+    {
+      "id": "KB-HAWK-239",
+      "stale_by": "2026-09-01",
+      "fact": "BRANCH-(c) REVERSIBILITY CAVEAT VALIDATED ON ITS FIRST TEST. HAWK wrote 7/25: 'premium unwinds fast; destroyed"
+    },
+    {
+      "id": "KB-HAWK-240",
+      "stale_by": "2026-08-28",
+      "fact": "LIBYAN REVENUE-DENIAL CAMPAIGN OPENED 7/28: the 'Sons of Souq al-Jum'ah Movement', stated aim overthrowing the"
+    },
+    {
+      "id": "KB-HAWK-241",
+      "stale_by": "2026-09-01",
+      "fact": "GENERALISATION OF FLOW-HAWK-19 BRANCH (c): the discriminating property is REVERSIBILITY / NON-DESTRUCTION, not"
+    },
+    {
+      "id": "KB-HAWK-242",
+      "stale_by": "2026-08-28",
+      "fact": "THE IRAN WAR'S ONE CONFIRMED, SUSTAINED, QUANTIFIED ENERGY SUPPLY LOSS IS IN LNG, NOT CRUDE, AND IT IS STILL E"
+    },
+    {
+      "id": "KB-HAWK-243",
+      "stale_by": "2026-09-11",
+      "fact": "HELICOPTER MEDIAN-LINE CROSSING CORROBORATED (was single-source Taipei Times). Event date CORRECTED to Monday "
+    },
+    {
+      "id": "KB-HAWK-245",
+      "stale_by": "2026-10-23",
+      "fact": "EU 21st SANCTIONS PACKAGE ADOPTED 2026-07-23 -- highest number of listings in four years. Shadow fleet: 41 mor"
+    },
+    {
+      "id": "KB-HAWK-246",
+      "stale_by": "2026-08-28",
+      "fact": "UNVERIFIED LEAD, EXPLICITLY NOT ADOPTED: a low-tier secondary source claims the US has added NO new OFAC desig"
+    },
+    {
+      "id": "KB-HAWK-252",
+      "stale_by": "2026-09-08",
+      "fact": "The two wars are coupled through ONE channel -- US policy -- and the variable selecting the instrument is LEVE"
+    },
+    {
+      "id": "KB-HAWK-253",
+      "stale_by": "2026-09-08",
+      "fact": "DURABLE CROSS-WAR ASYMMETRY: one theater SUSPENDS risk (Black Sea, a free and freely-revocable understanding l"
+    },
+    {
+      "id": "KB-HAWK-254",
+      "stale_by": "2026-09-30",
+      "fact": "The two theaters are ANTI-CORRELATED IN EXPOSURE: a Black Sea de-escalation presents MORE tonnage to the Gulf "
+    },
+    {
+      "id": "KB-HAWK-255",
+      "stale_by": "2026-09-10",
+      "fact": "The binding constraint in war-risk cover is underwriter APPETITE, not CAPACITY: ~$2.5-3bn of global hull war c"
+    },
+    {
+      "id": "KB-HAWK-256",
+      "stale_by": "2026-08-20",
+      "fact": "BOTH war-risk legs are dark and BOTH are EVENT-DRIVEN OBSERVABLE -- per-voyage privately-negotiated numbers th"
+    },
+    {
+      "id": "KB-HAWK-257",
+      "stale_by": "2026-09-15",
+      "fact": "Turkey is the first actor holding a formal security role in BOTH war theaters, acquired within nine days: Mont"
+    },
+    {
+      "id": "KB-HAWK-258",
+      "stale_by": "2026-08-11",
+      "fact": "The convexity is a DATED WINDOW, not a permanent condition. July-2026 STEO surplus crude oil production capaci"
+    },
+    {
+      "id": "KB-HAWK-259",
+      "stale_by": "2026-08-11",
+      "fact": "THE 2027 SPARE-CAPACITY RECOVERY IS ~99% MIDDLE EASTERN: Middle East surplus runs 0.00/0.00/0.00 through Q4-20"
+    },
+    {
+      "id": "KB-HAWK-260",
+      "stale_by": "2026-09-09",
+      "fact": "August-2026 STEO ERRATUM to KB-HAWK-258/259 (PROME 8/11 forum-4 close, data cutoff 8/6, the 8/8 ADNOC tanker a"
+    },
+    {
+      "id": "KB-HAWK-262",
+      "stale_by": "2026-09-01",
+      "fact": "THREE INDEPENDENT SIGNS OF A SHARED SHAPE ACROSS BOTH THEATERS THIS WEEK: (1) Sheskharis/Novorossiysk RE-STRUC"
+    },
+    {
+      "id": "KB-HAWK-263",
+      "stale_by": "2026-09-15",
+      "fact": "DEWEY's DR-5 (`AGENTS/DEWEY/output/2026-08-12_dr5-lng-as-a-target-class.md`, INFO to HAWK) is the first genuin"
+    },
+    {
+      "id": "KB-HAWK-264",
+      "stale_by": "2026-09-15",
+      "fact": "The Egypt/Med theater coverage gap this desk has flagged for weeks partially closed this week: Syria and Russi"
+    },
+    {
+      "id": "KB-HAWK-265",
+      "stale_by": "2026-09-01",
+      "fact": "RECONCILES KB-HAWK-261 (this morning's REROUTING verdict) against FALCON's fresh adjudication that GATE-FALCON"
+    },
+    {
+      "id": "KB-HAWK-266",
+      "stale_by": "2026-09-08",
+      "fact": "OSPREY's 8/15 STRIKES.tsv records a 3-episode Sheskharis pattern: halt 7/22-26 -> RE-STRUCK 8/12 (Neptune anti"
+    },
+    {
+      "id": "KB-HAWK-267",
+      "stale_by": "2026-09-30",
+      "fact": "~8/24 SUNSET CHECKPOINT: both Will-ruled conditions BUILT 2026-08-20. (1) Successor falsification surface = th"
+    },
+    {
+      "id": "KB-HAWK-268",
+      "stale_by": "2026-09-24",
+      "fact": "TWO BAND-SCORING DEFECTS found while writing per-row promotion gates against band TEXT: (D1) VX-HAWK-TWN-01 ma"
+    },
+    {
+      "id": "KB-HAWK-269",
+      "stale_by": "2026-09-30",
+      "fact": "US-IRAN MOU EXPIRED BY TERM 2026-08-17 (signed 6/18, 60-day window), no comprehensive agreement, Trump will no"
+    },
+    {
+      "id": "KB-HAWK-270",
+      "stale_by": "2026-09-30",
+      "fact": "INSTRUMENT RULING (HAWK, binding on this desk's falsifiers): the Hormuz TRANSIT/CROSSING-COUNT family is IMPEA"
+    },
+    {
+      "id": "KB-HAWK-271",
+      "stale_by": "2026-09-30",
+      "fact": "LOADING-LAYER VERDICT REFINED (BRENT commissioned discriminator, committed 2026-08-17, consumed by HAWK 8/20)."
+    },
+    {
+      "id": "KB-HAWK-272",
+      "stale_by": "2026-09-30",
+      "fact": "CROSS-THEATER MECHANISM PATTERN, HAWK-owned because neither theater desk can see it from inside its own lane: "
+    },
+    {
+      "id": "KB-HAWK-273",
+      "stale_by": "2026-09-30",
+      "fact": "CENTCOM ENFORCEMENT SERIES, CURRENT RECORD (supersedes the 'flat 2/2' this desk carried): redirected 53(8/08) "
+    },
+    {
+      "id": "KB-HAWK-274",
+      "stale_by": "2026-09-30",
+      "fact": "MRPL CLAUSE ADOPTION TEST RESOLVED 2026-08-20 (registered bar: >=2 further Indian refiners -- IOC/BPCL/HPCL/Re"
+    },
+    {
+      "id": "KB-HAWK-275",
+      "stale_by": "2026-09-30",
+      "fact": "THE TEST MEASURED BREADTH AND THE EVIDENCE MOVED ON DEPTH -- and the registered test cannot see it. Alongside "
+    },
+    {
+      "id": "KB-HAWK-276",
+      "stale_by": "2026-09-08",
+      "fact": "~8/17 CPC RUNG GRADED 2026-08-20 by DIRECT PRIMARY CHECK, not absence-of-report: on the evening of Sun 2026-08"
+    },
+    {
+      "id": "KB-HAWK-277",
+      "stale_by": "2026-09-30",
+      "fact": "CROSS-WAR FINDING, and neither theater desk can state it from inside its own lane: BOTH THEATERS ARE SHOWING L"
+    },
+    {
+      "id": "KB-HAWK-278",
+      "stale_by": "2026-09-30",
+      "fact": "\ud83d\udd34 A CRUDE-EXPORT ASSET WAS IRREVERSIBLY DESTROYED IN THIS WAR AND NO FLEET SURFACE HELD IT. CPC's OWN OPERATOR"
+    },
+    {
+      "id": "KB-HAWK-279",
+      "stale_by": "2026-09-30",
+      "fact": "KHARG ISLAND CRUDE LOADINGS HALTED 25 DAYS, 2026-07-18 -> 2026-08-12, at the terminal carrying ~90% of Iran's "
+    },
+    {
+      "id": "KB-HAWK-280",
+      "stale_by": "2026-09-30",
+      "fact": "\ud83d\udd34 TAMANNEFTEGAZ, Port of Taman (Krasnodar Krai) -- the LARGEST PRIVATELY OWNED OIL TRANSSHIPMENT FACILITY IN S"
+    },
+    {
+      "id": "KB-HAWK-281",
+      "stale_by": "2026-09-30",
+      "fact": "COMPLETENESS FAILURE IN A SIBLING'S CANONICAL LEDGER, SELF-FOUND AND SELF-REPORTED: OSPREY held ZERO Tamanneft"
+    },
+    {
+      "id": "KB-HAWK-282",
+      "stale_by": "2026-09-24",
+      "fact": "\ud83d\udd11 A CHOKEPOINT CLASS INSIDE HAWK'S OWN DOMAIN SCOPE WITH NO FLEET INSTRUMENT ON IT: Gulf deep-sea fibre. The f"
+    },
+    {
+      "id": "KB-HAWK-283",
+      "stale_by": "2026-09-08",
+      "fact": "\ud83d\udd11 THE POST-MOU-EXPIRY UNKNOWN IS CLOSED, AND THE ANSWER IS THAT NOTHING CHANGED. Through 0500 ET 2026-08-19 --"
+    },
+    {
+      "id": "KB-HAWK-284",
+      "stale_by": "2026-09-30",
+      "fact": "OPERATOR ALL-CLEAR, HIGHEST-GRADE EVIDENCE THIS CHAIN HAS HAD IN WEEKS -- and it lands inside the FAL-04 windo"
+    },
+    {
+      "id": "KB-HAWK-285",
+      "stale_by": "2026-09-30",
+      "fact": "\ud83c\udd95 A THIRD LAYER, AND IT IS DISTINCT FROM THE TWO THIS DESK ALREADY MODELS. Kharg 2026-08-19: >=12 tankers obse"
+    },
+    {
+      "id": "KB-HAWK-286",
+      "stale_by": "2026-09-30",
+      "fact": "BOUNDARY PROPERTY OF HAW-19, RECORDED NOT PATCHED (raised by OSPREY as an explicit NON-amendment): anchoring t"
+    },
+    {
+      "id": "KB-HAWK-287",
+      "stale_by": "2026-09-30",
+      "fact": "\ud83c\udfaf THE DAY'S DEFECT CLASS APPEARS A FOURTH TIME -- INSIDE ITS OWN REMEDY, AND THIS IS THE SHARPEST INSTANCE. OS"
+    },
+    {
+      "id": "KB-HAWK-288",
+      "stale_by": "2026-09-30",
+      "fact": "METHODOLOGICAL CONVERGENCE, RECORDED WITH ITS OWN INDEPENDENCE CAVEAT ATTACHED: two desks reached the same dis"
+    },
+    {
+      "id": "KB-HAWK-289",
+      "stale_by": "2026-09-30",
+      "fact": "MY RULE WAS RIGHT AND ITS DIAGNOSIS WAS WRONG -- corrected by OSPREY, toward MORE work for itself. I had writt"
+    },
+    {
+      "id": "KB-HAWK-290",
+      "stale_by": "2026-09-30",
+      "fact": "\ud83c\udfaf THE SHARPEST INSTANCE OF THE DAY'S DEFECT CLASS, AND IT IS ABOUT WHICH NUMBER YOU DO NOT CHECK. OSPREY estab"
+    },
+    {
+      "id": "KB-HAWK-291",
+      "stale_by": "2026-09-30",
+      "fact": "\ud83c\udfaf A DISTINCT SUB-FORM OF THE DAY'S DEFECT FAMILY, ISOLATED BY OSPREY AND NOW SPANNING THREE INSTRUMENTS: A SCO"
+    },
+    {
+      "id": "KB-HAWK-293",
+      "stale_by": "2026-10-15",
+      "fact": "Russia is tolling crude through Kazakhstan's kondensat refinery because Ukraine has taken Russian refining cap"
+    },
+    {
+      "id": "KB-HAWK-294",
+      "stale_by": "2026-09-30",
+      "fact": "A FOURTH Jazan-class strike was claimed 2026-08-18 across three outlets and every wire calls it THE THIRD. Ind"
+    },
+    {
+      "id": "KB-HAWK-295",
+      "stale_by": "2026-09-15",
+      "fact": "Department of Finance Canada PRIMARY (canada.ca), pulled 2026-09-02: counter-tariffs on $27.6 BILLION of US im"
+    },
+    {
+      "id": "KB-HAWK-296",
+      "stale_by": "2026-10-02",
+      "fact": "The IUA Joint War Committee Risk List is a LIVE, READABLE, DATED war-risk instrument: plain HTML listing every"
+    },
+    {
+      "id": "KB-HAWK-297",
+      "stale_by": "2026-10-02",
+      "fact": "MINOAN DIGNITY (IMO 9294484, Liberia-flag, Greek-owned, 76,801 dwt) took an unknown projectile into the ENGINE"
+    },
+    {
+      "id": "KB-HAWK-298",
+      "stale_by": "2026-10-02",
+      "fact": "The AMARA (IMO 9333280, Liberia-flag, IN BALLAST Singapore->Jebel Ali) was SEIZED by Iranian forces near Qeshm"
+    },
+    {
+      "id": "KB-HAWK-302",
+      "stale_by": "2026-09-11",
+      "fact": "HAW-21 CONFIRMED on its registered CBSA-notice alternative: September 8 entry into force supported by the two "
+    },
+    {
+      "id": "KB-HAWK-304",
+      "stale_by": "2026-09-11",
+      "fact": "New order extends conditional remission for manufacturing, processing, agricultural production and food/bevera"
+    },
+    {
+      "id": "KB-HAWK-309",
+      "stale_by": "2026-09-11",
+      "fact": "FALCON September7 reports hostile-action total losses 1 to 2 after unladen Kylo/Noxen sank September5; two oth"
+    },
+    {
+      "id": "KB-HAWK-311",
+      "stale_by": "2026-09-11",
+      "fact": "OSPREY September2 supersedes mid-June ~120M bbl with ~94M (week to August16, published August18) and ~83M (wee"
+    },
+    {
+      "id": "KB-HAWK-312",
+      "stale_by": "2026-09-11",
+      "fact": "[CONF owner report] BRENT September8 reports Reuters-relayed provisional Kpler full-August port-total exports "
+    },
+    {
+      "id": "KB-HAWK-313",
+      "stale_by": "2026-09-11",
+      "fact": "WALTER Saudi September8 packet leaves damaged units, duration and incremental barrels unverified; prior Jazan "
+    },
+    {
+      "id": "KB-HAWK-314",
+      "stale_by": "2026-09-11",
+      "fact": "WALTER Saratov September8 packet does not authenticate restart after prior shutdown/re-strike, named damaged u"
+    },
+    {
+      "id": "KB-HAWK-315",
+      "stale_by": "2026-09-11",
+      "fact": "Direct CBSA26-23 retrieval succeeded HTTP200; September7 paragraph4 specifies September8 application of the co"
+    },
+    {
+      "id": "KB-HAWK-316",
+      "stale_by": "2026-09-11",
+      "fact": "Edison August28 discloses five additional cancelled cargoes extending its affected period into early November2"
+    },
+    {
+      "id": "KB-HAWK-317",
+      "stale_by": "2026-09-11",
+      "fact": "EO14389 February20 terminated the listed IEEPA additional duties; November10 Chinese export-control suspension"
+    },
+    {
+      "id": "KB-HAWK-318",
+      "stale_by": "2026-09-11",
+      "fact": "OFAC programme lists August27 oil licences and September2 minerals licences; partial review does not establish"
+    },
+    {
+      "id": "KB-HAWK-319",
+      "stale_by": "2026-09-11",
+      "fact": "MND September8 one-day report lists8 PLA sorties,8 PLAN ships,4 official ships and4 sorties in southwest/easte"
+    },
+    {
+      "id": "KB-HAWK-320",
+      "stale_by": "2026-09-11",
+      "fact": "OSPREY August3.8mb/d versus seasonal5.3\u20135.5 implies28.3\u201330.9% runs shortfall; Jazan400kbpd is unlike plant nam"
+    },
+    {
+      "id": "KB-HAWK-322",
+      "stale_by": "2026-09-11",
+      "fact": "Newest recovered Black Sea1% premium is an August21 Noah relay citing Gibson; original assessment date unknown"
+    },
+    {
+      "id": "KB-HAWK-323",
+      "stale_by": "2026-09-11",
+      "fact": "OSPREY September8 reports CPC not formalised/not extended and holds with an open SIREN cargo/attacker test."
+    },
+    {
+      "id": "KB-HAWK-324",
+      "stale_by": "2026-09-11",
+      "fact": "Follow-up recovered matching confidence evidence for12 of14 NOT-FOUND rows; HAW04/05 retain date/provenance li"
+    },
+    {
+      "id": "KB-HAWK-326",
+      "stale_by": "2026-09-11",
+      "fact": "Taipower daily archive reports September8 operating reserve1083.9 ten-thousand kW (10.839GW),29.89%."
+    },
+    {
+      "id": "KB-HAWK-328",
+      "stale_by": "2026-09-11",
+      "fact": "Reuters reports August oil exports1.17mb/d, flat versus July; retrieved body does not isolate crude-only volum"
+    },
+    {
+      "id": "KB-HAWK-329",
+      "stale_by": "2026-09-11",
+      "fact": "September7-8 SOUTHCOM releases place their reported interdictions in the Eastern Pacific with transfers to Ecu"
+    },
+    {
+      "id": "KB-HAWK-330",
+      "stale_by": "2026-09-11",
+      "fact": "Live USITC9903.88.15 specifies applicable ordinary duty plus7.5%, subject to listed exclusions."
+    },
+    {
+      "id": "KB-HAWK-332",
+      "stale_by": "2026-09-11",
+      "fact": "August6 signed Section232 proclamation schedules covered polysilicon measures for December4,00:01ET."
+    },
+    {
+      "id": "KB-HAWK-333",
+      "stale_by": "2026-09-09",
+      "fact": "Official September STEO schedule is September9, normally12:00-12:15ET; archived August workbook reproduces2027"
+    },
+    {
+      "id": "KB-HAWK-335",
+      "stale_by": "2026-09-11",
+      "fact": "Public vendor docs show potential terminal queries; no usable matched73-day tracker sample or complete path/un"
+    },
+    {
+      "id": "KB-HAWK-336",
+      "stale_by": "2026-09-11",
+      "fact": "MND September5 noon reported20 PLA sorties since08:24, including12 median-line/extension crossings."
+    },
+    {
+      "id": "KB-HAWK-337",
+      "stale_by": "2026-09-11",
+      "fact": "General surtax signed order P.C.2026-0785 dated September4 recovered; its section10 conditions September8 effe"
+    },
+    {
+      "id": "KB-HAWK-338",
+      "stale_by": "2026-09-11",
+      "fact": "CBSA25-11 paragraph7 identifies SOR/2026-187 for the September8 steel/aluminum update; signed amendment is P.C"
+    },
+    {
+      "id": "KB-HAWK-339",
+      "stale_by": "2026-09-11",
+      "fact": "Direct order schedules reconcile335 general commodity lines plus294 steel/aluminum lines to629 unique Finance "
+    },
+    {
+      "id": "KB-HAWK-340",
+      "stale_by": "2026-09-11",
+      "fact": "Navy notice149 attachmentH specifies Taiwan Coast Guard exercise September11 from08:00 to17:00 local in a defi"
+    },
+    {
+      "id": "KB-HAWK-341",
+      "stale_by": "2026-09-11",
+      "fact": "Navy notice153 attachmentC specifies Taiwan Coast Guard exercises September15 and16, each08:00\u201312:00 and13:00\u2013"
+    },
+    {
+      "id": "KB-HAWK-342",
+      "stale_by": "2026-09-11",
+      "fact": "September8 bounded operator-site search did not retrieve QatarEnergy seller extension letter; readable public "
+    },
+    {
+      "id": "KB-HAWK-343",
+      "stale_by": "2026-09-11",
+      "fact": "HAW18 first60 and contemporaneous machine55 are evidenced; the older55 field is undated while its correction d"
+    },
+    {
+      "id": "KB-HAWK-344",
+      "stale_by": "2026-09-11",
+      "fact": "September8 canonical EXIT_PROTOCOL \u00a72 now records owner D75\u219285 rung registered and not fired; D remains75."
+    },
+    {
+      "id": "KB-HAWK-345",
+      "stale_by": "2026-09-15",
+      "fact": "OSPREY canonical EXIT RULES now record downgrade path in force,33% re-centre withdrawn, Channel3 geography spe"
+    },
+    {
+      "id": "KB-HAWK-346",
+      "stale_by": "2026-09-11",
+      "fact": "OSPREY ledger now100 mixed rows after August26 Kstovo refinery backfill and September9-local unnamed Novorossi"
+    },
+    {
+      "id": "KB-HAWK-347",
+      "stale_by": "2026-09-30",
+      "fact": "WQ-160 RULED: Will approved option (b), a Status-class resolvability repair of HAW-19 LEG A, by Decision Deck "
+    },
+    {
+      "id": "KB-HAWK-348",
+      "stale_by": "2026-09-30",
+      "fact": "Disclosure test RE-RUN at patch time 2026-09-10 and clean on three legs: (I) not one of the six pre-registered"
+    },
+    {
+      "id": "KB-HAWK-349",
+      "stale_by": "2026-10-10",
+      "fact": "Owner state corrected: M/T Riesco SANK 2026-09-08 per CENTCOM's own post with footage; FALCON confirmed hostil"
+    },
+    {
+      "id": "KB-HAWK-351",
+      "stale_by": "2026-10-10",
+      "fact": "FALCON ruled D->85 trigger (c) AMBIGUOUS \u21d2 NOT FIRED on the 9/9 Hercules Star strike at the Dubai anchorage (1"
+    },
+    {
+      "id": "KB-HAWK-355",
+      "stale_by": "2026-09-30",
+      "fact": "HAW-18 WQ-112 scoring-vintage application delivered 2026-09-10, one day ahead of DOCKET L306 (due 9/11). HAWK "
+    },
+    {
+      "id": "KB-HAWK-356",
+      "stale_by": "2026-09-15",
+      "fact": "HAWK closed its consumer objection window on OSPREY's EXIT RULES \u00a71b downgrade path: NO OBJECTION, recorded 20"
+    },
+    {
+      "id": "KB-HAWK-361",
+      "stale_by": "2026-09-30",
+      "fact": "WQ-212 RULED: HAW-19 RESOLVES 2026-09-30 AS A **DEFECTIVE INSTRUMENT** WITH NO CALIBRATION CREDIT. The origina"
+    },
+    {
+      "id": "KB-HAWK-364",
+      "stale_by": "2026-09-19",
+      "fact": "HAWK's half of the WQ-216 joint counter-campaign taxonomy DELIVERED to OSPREY 2026-09-10 (OSPREY merges and re"
+    },
+    {
+      "id": "KB-HAWK-365",
+      "stale_by": "2026-09-25",
+      "fact": "WQ-216 RULED 2026-09-11 00:01 ET (Will, verbatim \"216 approved with your rec\"): the joint OSPREY/HAWK counter-"
+    },
+    {
+      "id": "KB-HAWK-366",
+      "stale_by": "2026-10-15",
+      "fact": "INSTRUMENT-INTEGRITY FINDING, and it is the load-bearing fact of the VECTOR-1 read: the TD3C VLCC benchmark (2"
+    },
+    {
+      "id": "KB-HAWK-367",
+      "stale_by": "2026-10-11",
+      "fact": "THE RED SEA LEG IS RECOVERING, NOT TIGHTENING - a direct correction to the 'three of four chokepoints tighteni"
+    },
+    {
+      "id": "KB-HAWK-369",
+      "stale_by": "2026-09-24",
+      "fact": "PROME September16 commission consumed: bounded cross-war research and synthesis for BRENT, not authority to ch"
+    },
+    {
+      "id": "KB-HAWK-370",
+      "stale_by": "2026-09-24",
+      "fact": "FALCON September11 shutdown confirmation supersedes HAWK unconfirmed-Petroline carry; September11b correction "
+    },
+    {
+      "id": "KB-HAWK-371",
+      "stale_by": "2026-09-24",
+      "fact": "Yanbu September-MTD3.7mb/d is Vortexa, versus Kpler2.9mb/d in BRENT September12 packet; not a settled pipeline"
+    },
+    {
+      "id": "KB-HAWK-372",
+      "stale_by": "2026-09-24",
+      "fact": "RED accepts the transaction-print critique but retains its registered September30 series resolver with the cav"
+    },
+    {
+      "id": "KB-HAWK-373",
+      "stale_by": "2026-09-24",
+      "fact": "BRENT September16 receipt identifies consumed owner baselines; owner September16 reports additionally verify S"
+    },
+    {
+      "id": "KB-HAWK-374",
+      "stale_by": "2026-09-24",
+      "fact": "BRENT recovered full Bloomberg/Transport Topics September16 partial-Petroline-restart reporting. Access improv"
+    },
+    {
+      "id": "KB-HAWK-375",
+      "stale_by": "2026-09-24",
+      "fact": "OSPREY September16 report supplies stronger products-outage evidence and a3.54mb/d four-week Russian crude-exp"
+    },
+    {
+      "id": "KB-HAWK-376",
+      "stale_by": "2026-09-24",
+      "fact": "FALCON September16 report establishes reported delivery disruption with net crude loss unquantified, condition"
+    },
+    {
+      "id": "KB-HAWK-377",
+      "stale_by": "2026-09-24",
+      "fact": "Yanbu northbound Suez/SUMED cargoes avoid Bab; upstream Petroline feed and downstream route risks must be reco"
+    },
+    {
+      "id": "KB-HAWK-381",
+      "stale_by": "2026-10-18",
+      "fact": "ARTICLE 4 HAS NOT BEEN INVOKED ONCE IN 2026. NATO's record lists nine invocations ever; the two most recent ar"
+    },
+    {
+      "id": "KB-HAWK-385",
+      "stale_by": "2026-10-18",
+      "fact": "ARTICLE 4 NEGATIVE IS NOW PRIMARY-CLOSED THROUGH 2026-06-17, AND NOT AFTER. NATO's own topic page 'Strengtheni"
+    },
+    {
+      "id": "KB-HAWK-389",
+      "stale_by": "2026-10-18",
+      "fact": "THE 2026 BALTIC ENGAGEMENT-COUNT CONTAMINATION IS BROADER THAN HAWK FIRST LOGGED, AND INCLUDES FINLAND. Refere"
+    },
+    {
+      "id": "KB-HAWK-398",
+      "stale_by": "2026-10-18",
+      "fact": "THE SOVEREIGN LEG RUNS AGAINST 'RISING CONFLICT RISK' AND IS AN INDEPENDENT CHECK ON HAWK'S CONTAMINATED VERDI"
+    },
+    {
+      "id": "KB-HAWK-400",
+      "stale_by": "2026-10-19",
+      "fact": "HAWK RULED PROME'S YURI BOUNDARY PROPOSAL: CONCUR ON THE FOUR-SLOT CHAIN DECISION->OBJECT->TARGET->REACTION, A"
+    },
+    {
+      "id": "KB-HAWK-401",
+      "stale_by": "2026-10-02",
+      "fact": "L434 DECREE DATE RESOLVED AT THE RUSSIAN OFFICIAL PRIMARY, CLOSING PROME'S EXPLICIT 'DATE UNRESOLVED, DO NOT P"
+    },
+    {
+      "id": "KB-HAWK-402",
+      "stale_by": "2026-09-21",
+      "fact": "L432 RESOLUTION INSTRUMENT TESTED AND ARMED FOUR DAYS BEFORE IT IS NEEDED -- and the test's FIRST answer was w"
+    },
+    {
+      "id": "KB-HAWK-403",
+      "stale_by": "2026-10-19",
+      "fact": "OSPREY'S 9/18 CORRECTIONS WERE WRITTEN AND THE ASSERTIONS THEY CORRECTED STAYED LIVE BESIDE THEM ON FOUR OF HA"
+    },
+    {
+      "id": "KB-HAWK-405",
+      "stale_by": "2026-09-24",
+      "fact": "OSPREY'S CHANNEL-3 LIMB 2 AND HAWK'S BLACK SEA CELL ARE A CIRCLE, AND IT WOULD CERTIFY QUIETLY. OSPREY's Chann"
+    },
+    {
+      "id": "KB-HAWK-406",
+      "stale_by": "2026-10-19",
+      "fact": "OSPREY CONCURRED ON THE YURI FOUR-SLOT CHAIN INDEPENDENTLY AND ADDED A CAP DEFECT HAWK MISSED. OSPREY's ruling"
+    },
+    {
+      "id": "KB-HAWK-412",
+      "stale_by": "2026-09-30",
+      "fact": "DOCKET L321 NOT MET: the WQ-212 capacity-only successor was NOT REGISTERED. The approved 9/8 proposal measures"
+    },
+    {
+      "id": "KB-HAWK-413",
+      "stale_by": "2026-10-02",
+      "fact": "WQ-298 line 2 answered (PROME/inbox/2026-09-26_from-HAWK_paid-data-line-2-and-WQ-296.md): the approved v2 succ"
+    },
+    {
+      "id": "KB-HAWK-415",
+      "stale_by": "2026-10-01",
+      "fact": "HAW-19 ENCODED DEFECTIVE-INSTRUMENT, NO CALIBRATION CREDIT (WQ-212; DOCKET L491 permitted the 9/28 early encod"
+    },
+    {
+      "id": "KB-HAWK-416",
+      "stale_by": "2026-10-05",
+      "fact": "IRAN 7-DAY HORMUZ PLAN, HAWK FRAMEWORK READ. Timeline of record (weekdays checked): Thu 9/24 Araghchi private "
+    },
+    {
+      "id": "KB-HAWK-420",
+      "stale_by": "2026-10-05",
+      "fact": "FIRST DATED GULF WAR-RISK QUOTES SINCE 7/22-23 (HAWK-received, FALCON-owned legs): Reuters via Insurance Journ"
+    },
+    {
+      "id": "KB-HAWK-421",
+      "stale_by": "2026-10-12",
+      "fact": "DORMANT-BOOK HEADLINES 9/18-9/28 (sub-agent sweeps, tags per scratch C/A): (1) US-China: Bessent 9/23 truce ex"
+    },
+    {
+      "id": "KB-HAWK-429",
+      "stale_by": "2026-10-24",
+      "fact": "GRADE of OSPREY's INFERENCE (10/10) that GL 135 licenses price-cap services for Russian diesel so mainstream ("
+    },
+    {
+      "id": "KB-HAWK-431",
+      "stale_by": "2026-10-24",
+      "fact": "KB-HAWK-416 FALSIFIER 1 for 'the rejection stands' MET: the US response to Iran's 7-day plan was handed over i"
+    },
+    {
+      "id": "KB-HAWK-433",
+      "stale_by": "2026-10-24",
+      "fact": "WALTER ACTIONS SIG-W-20261005-004 and -001 ENCODED. (1) UK FCDO 2026-10-01 package designates EIGHT ships: thr"
+    },
+    {
+      "id": "KB-HAWK-434",
+      "stale_by": "2026-10-17",
+      "fact": "SAUDI CHAIN 9/28-10/10, synthesis of owner and WALTER evidence, not a measurement. Petroline flow has three li"
+    }
+  ],
+  "limits": [
+    "Local-file consistency only; no new external-source verification.",
+    "A missing exact inbox match does not prove an item was never delivered or consumed.",
+    "Historical references and repeated archival figures require manual classification."
+  ]
+}

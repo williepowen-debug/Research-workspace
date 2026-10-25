@@ -41,3 +41,7 @@ Inbox and WALTER lane clear: 16 moves committed in `6c9a0bce0`, with read dispos
 Boot pull deferred: foreign TERRY/MIDAS dirty paths, root Git dirty-owner stop. Own-state commit `6c9a0bce0`; PROME packet `0a1672e89`; WALTER correction `b5118ddbd`. No pull/rebase/stash of others' work. Safe push follows this final pin commit; its exact receipt is reported to PROME and Will. Recipient consumption remains unverified.
 
 **Push receipt before late intake:** `Pushed. CONFIRMED: HEAD f467a2cbc is on origin/master (fresh fetch).` Late-intake write-back is committed separately and re-pushed; original delivery packet remains a dated pre-addendum snapshot.
+
+## Subsequent user-requested key-file audit — October 25
+
+Audit list saved at `audits/2026-10-25_key-files-sweep.md` and source/scan receipt JSON. 19 grouped findings: 4 high, 10 medium, 5 maintenance/control. No repairs to findings or band/letter changes. First work order: stale state/pointers, Europe native evidence, sulphur price-basis contradiction, then successor feasibility before October31. Later WQ-521 and WALTER persistence acknowledgments verified; earlier continuity wording remains an explicit finding. Audit committed and pushed at this task closeout.
