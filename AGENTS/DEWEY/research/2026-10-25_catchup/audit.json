@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-25",
+  "reports": 96,
+  "ledger_rows": 96,
+  "ledger_issues": {
+    "orphan_files": [],
+    "orphan_rows": [],
+    "bad_widths": [],
+    "duplicate_paths": []
+  },
+  "source_hashes": "4/4 match",
+  "current_ratio_bp": 99.239997487595,
+  "q2_ratio_bp": 103.04245858669469,
+  "syf_q3_cohort_total": 1242,
+  "syf_q3_enrollment": 555
+}

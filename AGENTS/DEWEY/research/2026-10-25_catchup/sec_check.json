@@ -1,0 +1,60 @@
+[
+  {
+    "ticker": "COF",
+    "cik": "927628",
+    "url": "https://data.sec.gov/submissions/CIK0000927628.json",
+    "retrieved_at": "2026-10-25T16:22:56.516963+00:00",
+    "sha256": "e1f5270c6c15923204389fddc7cfc7e7e811f68d0e85cc875b049651b6aa483a",
+    "latest_10q": {
+      "form": "10-Q",
+      "filingDate": "2026-07-28",
+      "reportDate": "2026-06-30",
+      "accessionNumber": "0000927628-26-000089",
+      "primaryDocument": "cof-20260630.htm"
+    },
+    "q3_2026": []
+  },
+  {
+    "ticker": "SYF",
+    "cik": "1601712",
+    "url": "https://data.sec.gov/submissions/CIK0001601712.json",
+    "retrieved_at": "2026-10-25T16:22:56.706935+00:00",
+    "sha256": "5e7393989a1fead50828ae363ebd23f67b1d4b7a67166605779b1b5785bcfefe",
+    "latest_10q": {
+      "form": "10-Q",
+      "filingDate": "2026-10-22",
+      "reportDate": "2026-09-30",
+      "accessionNumber": "0001601712-26-000043",
+      "primaryDocument": "syf-20260930.htm"
+    },
+    "q3_2026": [
+      {
+        "form": "10-Q",
+        "filingDate": "2026-10-22",
+        "reportDate": "2026-09-30",
+        "accessionNumber": "0001601712-26-000043",
+        "primaryDocument": "syf-20260930.htm"
+      }
+    ],
+    "document": {
+      "url": "https://www.sec.gov/Archives/edgar/data/1601712/000160171226000043/syf-20260930.htm",
+      "sha256": "f99c99baec04d1b1bb23868d99acd506335d908aba47e20a1ea04ee5815d1fd2",
+      "retrieved_at": "2026-10-25T16:22:57.289692+00:00"
+    }
+  },
+  {
+    "ticker": "BFH",
+    "cik": "1101215",
+    "url": "https://data.sec.gov/submissions/CIK0001101215.json",
+    "retrieved_at": "2026-10-25T16:22:57.496751+00:00",
+    "sha256": "21bdf21c8dce6d5626f4c603a7f03480da20a7ae8fb022093acb305c5ebfc8eb",
+    "latest_10q": {
+      "form": "10-Q",
+      "filingDate": "2026-07-28",
+      "reportDate": "2026-06-30",
+      "accessionNumber": "0001101215-26-000074",
+      "primaryDocument": "bfh-20260630.htm"
+    },
+    "q3_2026": []
+  }
+]

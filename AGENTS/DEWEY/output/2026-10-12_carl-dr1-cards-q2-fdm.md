@@ -2,6 +2,8 @@
 
 **Date:** 2026-10-12 | **Mode:** Thesis | **Commission:** CARL-DR-1 card leg / PROME L567 | **Status:** Q2 pull delivered; Q3 refresh pending publication, existing deliver-by 2026-11-13. **Confidence:** High (issuer disclosures and arithmetic); NOT COMPUTABLE (class-wide causal delinquency suppression).
 
+**Continuation, 2026-10-25:** Synchrony's Q3 filing is now read and delivered in `output/2026-10-25_carl-dr1-syf-q3-fdm.md` (current card cohort $948M / $95,526M = 99.24bp, scale only). COF/BFH Q3 remain pending in the checked SEC feeds. The tables below remain the June-quarter record; they are not current issuer readings.
+
 ## Key finding
 
 All three named issuers publish the requested loan-modification disclosures. Their disclosed recent modified-card cohorts contain **$3.182B / $971M / $264M classified current** at June30, 2026 (Capital One / Synchrony / Bread). These are observable balances, **not estimates of delinquency hidden by modification**. No filing supplies the untreated counterfactual or the complete class-wide overlap map required to score CARL's50bp kill. Q3 filings had not appeared in the issuer submissions feeds at this10/12 pull.

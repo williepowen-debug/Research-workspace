@@ -6,7 +6,7 @@
 ## Key Finding
 1. **The supported claim is an observability gap, not risk migration.** In five domains, the public indicator the fleet watches did not show what a non-market source did. None of the five shows exposure *moving* over time, and none shows the gap *preceding* market stress. Both remain hypotheses.
 2. **Outcome split, measured:** of 67–69 premise-testing reports (June–October), **49–57% deflated the commissioning concern, 25–26% confirmed it, and 19–23% were mixed.** These are two independent classifications (DEWEY's own and a blind rater's), with 80% agreement and Cohen's kappa 0.73. **This replaces DEWEY's earlier "~50 of 80 deflated"**, which was its own unaudited count and leaned toward "deflated".
-3. **Downstream use is real but lossy.** All five traced reports were consumed: three changed a recorded judgment or instrument, one partly changed one, and one left the target decision unmoved. **In two of five, the caveat that bounded the finding was dropped on the way into the consumer's record.** DEWEY repeated the same loss in its own 2026-10-23 synthesis (NVIDIA $164.5B; the charged-off cohort).
+3. **Downstream use is real; cross-desk caveat loss was not established by this trace.** All five traced reports were consumed, with different effects on the recipients' judgments. CARL retained the charged-off cohort's uncertainty and rejected DEWEY's reconciliation on a stated falsifiability ground. **The earlier "two of five" caveat-loss claim is withdrawn: no second recipient case was identified.** Separately, DEWEY dropped qualifications in its own 2026-10-23 synthesis (NVIDIA $164.5B; the charged-off cohort). Those are own-synthesis failures, not a measured cross-desk loss rate.
 
 ## 1. Auditable classification of the 93 reports
 **Method.**
@@ -25,7 +25,7 @@
 | CONFIRMED | 17 | 18 | 14 |
 | MIXED | 13 | 16 | 10 |
 | NULL | 8 | 10 | 7 |
-| DESCRIPTIVE | 16 | 16 | 7 |
+| DESCRIPTIVE | 16 | 16 | 13 |
 
 **Main disagreement:** five rows DEWEY coded DEFLATED were coded MIXED by the blind rater ("real but concentrated" headlines). **DEWEY's coding leans toward DEFLATED.** Treat the 49% (blind) to 57% (DEWEY) range as the measurement, not either end.
 
@@ -70,10 +70,12 @@
 | R74 Reserve-coverage base rate (10/22) | REGINALD's weight on falling reserve coverage | REGINALD STATUS: "It is not a short-term predictor; **re-weighted 10/22**", citing the report. GIBBS KB-GIB-021 and FLG KB rows adopted the base rate; FLG applied it to its own non-accrual trend. CREED: noted, no change | **Incorporated; judgment changed** |
 | R55 NVIDIA vendor financing (9/10) | VULCAN's AI-credit instrument choice | VULCAN KB rows carry the Lucent/Nortel base rate. **VULCAN-17 registered 9/11** "consumes DEWEY REQ-002 §6.4/§6.7" with a pre-committed reading rule | **Incorporated; instrument created** |
 | R30/R39 FHA/VA loss waterfall + stress test (7/24–25) | Kill REGINALD's "bank eats FHA/VA loss" channel | HOMER KB_LIVE: "Regional-bank FHA/VA credit-loss channel = KILLED", citing DEWEY. CARL's STUE added the FHA channel it had not carried, and on 8/10 corrected a category error *at DEWEY's cited source*. REGINALD's own kill commit was not located | **Incorporated** (HOMER, CARL); **REGINALD side UNVERIFIED** |
-| R53 Charged-off cohort (8/28) | CARL's masking branch | CARL KB row adopted the debt-buyer evidence. The DEWEY ledger impact note: CARL "took branch (a) directionally **with the reconciliation stripped out**" | **Incorporated with caveat loss** |
+| R53 Charged-off cohort (8/28) | CARL's masking branch | KB-CARL-402 records "(a)-LEANING, NOT (a)-CONFIRMED" and the split indicators. KB-CARL-403 explicitly declines the survivor-pool reconciliation as unfalsifiable and retains Encore's over-performance as UNRECONCILED COUNTER-EVIDENCE. The earlier DEWEY impact note misclassified this. | **Incorporated; reconciliation DECLINED with reason; counter-evidence retained** |
 | R26 BRK-25 BDC print hunt (7/16) | BROCK's BRK-25 watch | BROCK cites the report in two source files. BRK-25 still open: "COUNT STAYS AT 2 … resolves by counting misses", 45%, to 12/31. DEWEY had found the watch's founding figure "refuted at its root" | **Consumed; target decision unmoved** (BROCK resolves by its own rule, which may be correct) |
 
-**Pattern across the five:** a report changes a judgment most cleanly when the recipient converts it into a **numbered artifact**: a re-weight line, a KB row with the base rate, a registered prediction (R74, R55). **The losses happen at the conversion step:** the caveat that bounded the finding is the part that drops (R53; and DEWEY's own 10/23 synthesis of R55 and R53). That is the fleet's anti-laundering rule failing *between* desks, not inside one report.
+**Pattern across the five:** use is easiest to trace when the recipient creates a **numbered artifact**: a re-weight line, a KB row, or a registered prediction (R74, R55). This selected trace does not establish a cross-desk caveat-loss rate. R53 demonstrates reasoned disagreement with the qualification preserved. DEWEY's own 10/23 synthesis of R55 and R53 lost qualifications; the prospective WQ-515 batch tests whether that failure also occurs between desks.
+
+**Correction — 2026-10-25:** applied PROME's 10/23 verified review packet after reading KB-CARL-402/403 directly. The DESCRIPTIVE agreement cell is 13, making the column total 74; the agreement rate and kappa do not change. R53 is reclassified as reasoned disagreement with counter-evidence retained. "Two of five" is withdrawn throughout this report and corrected in the run ledger. Historical proposal and delivery packets remain as-made; the correction is delivered separately to their consumers. No new five-case rate is estimated. The headline-only coding limitation and unfinished independent full-text check remain open.
 
 ## 5. Addendum 2026-10-23 19:24 ET: full-text validation check NOT DONE (session ended)
 The outside reviewer's third ask was a random sample checked against the **full reports** by a reader who did not write the rubric. It was started and **not completed**: the reader was stopped for a machine switch before it wrote any result. **Until it runs, quote the 49–57% only as a headline-level, two-rater figure.**
