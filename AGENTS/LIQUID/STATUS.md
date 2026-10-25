@@ -1,11 +1,13 @@
 # LIQUID STATUS
-**Last Updated:** 2026-10-25T12:41:43-04:00 — inbox/owed audit plus L836 brief/closeout repair; market observations unchanged from the 10/25 boot. Two October24 packets integrated; NEXUS/PROME consumer verification pending. Audit → `research/2026-10-25_inbox-owed/REPORT.md`.
+**Last Updated:** 2026-10-25T13:54:48-04:00 — Will-directed transmission coverage review: 14 mechanism families assessed, incomplete intermediate links identified; no new market observation, gate, threshold or tracking job. Source → `research/2026-10-25_transmission-pathways/REPORT.md`.
 
 > **How to read this file.** Levels here are **dated snapshots**, each with its own observation date. **`scripts/boot.py` is the live source**; quote from it, not from here. Basis is latest-revised FRED unless stated (see §5). One fact, one place: if a figure appears twice, one copy is a defect.
 
 ## 1. NOW
 
 **Weekend boot [10/25]:** 30 series, 0 fetch errors; latest-revised FRED, not a first-publication census. Friday ICE/SOFR pending Monday 10/26. No new gate episode or capital action. X1 CLOSED / DON'T-SIZE. Evidence: `research/2026-10-25_boot/boot.txt`.
+
+**Transmission coverage [10/25 review]:** fourteen mechanism families mapped; named exposure/contract/cash-response links remain incomplete. Quiet overnight funding does not clear bank-line substitution, insurer/fund cash calls, structured-credit diversion or operating feedback. LIQ-07 S2 remains its frozen reserve-channel verdict. Evidence/unknowns → `research/2026-10-25_transmission-pathways/REPORT.md`; no new gate or standing collector.
 
 **Credit [FRED ICE BofA OAS, observation 10/22, re-read 10/25; bp]:** HY 340 · IG 89 · BB 210 · CCC 1,340; HY−IG 251; CCC−BB 1,130. B 346 and CCC−B 994 are carried first-published 10/23 reads of 10/22, not re-pulled this boot. The 10/22 change was HY +13, BB +12, B +14, CCC +33, IG +1. DEWEY's 10/23 attribution: ~65% of the 260→340 HY move was September's broad selloff; AI infrastructure ≈10–15% of October widening. Few-name/sector contributions remain UNKNOWN / NO_INSTRUMENT; tier gaps are not issuer breadth. Details: `research/2026-10-23_evening/REPORT.md`.
 

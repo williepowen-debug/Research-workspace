@@ -2,14 +2,21 @@
 
 ## Session Notes
 
-### CURRENT SESSION — 2026-10-25T12:41:43-04:00 (Will inbox/owed check; PROME L836 follow-through)
-+
-+- Two October24 packets (NEXUS ten-row content repair + PROME missing closeout fold) integrated in one existing commission. CLOSEOUT now explicitly executes the brief fold last after the final STATUS commit, including Light; brief retains its existing headings per the bounded request.
-+- Substantive fold covers all ten rows, preserves WQ516 XCCC 403/holdings-date limits, and pins the final STATUS commit. Owner delivery does not establish NEXUS/PROME consumption; L836 stays in STATUS §3 until verified.
-+- Reconciled local owed list with central DOCKET: L568 fix due 10/28, L799 joint read due 11/30, L825 event-keyed tier read, and existing November BDC card duty retained. L486/L587 are shared coordinator questions, not new autonomous instruments. Audit `research/2026-10-25_inbox-owed/REPORT.md`.
-+- No market pull, gate re-grade, new threshold/trade or speculative data-wall workaround. General inbox authorized by Will; WALTER 002 arrived mid-pass and was noted as own-analysis loopback, issuance-freeze inference withdrawn; no independent confirmation. Foreign dirty work preserved; no pull/rebase/stash; PROME coordinates push.
-+
-+### PRIOR SESSION — 2026-10-25T12:17:49-04:00 (Will boot; OpenAI / Codex, exact model UNKNOWN)
+### CURRENT SESSION — 2026-10-25T13:54:48-04:00 (Will: credit transmission pathways)
+
+- Bounded coverage review saved at `research/2026-10-25_transmission-pathways/REPORT.md`: 14 overlapping mechanism families, concrete observables/absorbers and missing causal bridges, existing ownership preserved. Official FSB/Fed/BIS mechanism sources checked; peer vintages retained, no live market pull.
+- Key judgment: coverage is incomplete between price deterioration and cash/capital responses. Calm SOFR only bears on measured overnight funding; it cannot clear other routes. LIQ-07 letter/outcome and all five gate rows unchanged; no new standing tracking, cohort, threshold or trade.
+- Priority within existing work: named bank draws/warehouse terms, fund/insurer cash bridges, and structured-credit/risk-transfer holder links. Further standing cross-desk instrumentation would be separate scope, not installed by this report. Existing dated duties stay STATUS §3.
+- Repaired stray leading plus marks in prior session metadata only. Final brief fold follows final STATUS commit; no peer files edited or tasks launched. Pull/push deferred under shared-tree dirty-owner rule.
+
+### PRIOR SESSION — 2026-10-25T12:41:43-04:00 (Will inbox/owed check; PROME L836 follow-through)
+
+- Two October24 packets (NEXUS ten-row content repair + PROME missing closeout fold) integrated in one existing commission. CLOSEOUT now explicitly executes the brief fold last after the final STATUS commit, including Light; brief retains its existing headings per the bounded request.
+- Substantive fold covers all ten rows, preserves WQ516 XCCC 403/holdings-date limits, and pins the final STATUS commit. Owner delivery does not establish NEXUS/PROME consumption; L836 stays in STATUS §3 until verified.
+- Reconciled local owed list with central DOCKET: L568 fix due 10/28, L799 joint read due 11/30, L825 event-keyed tier read, and existing November BDC card duty retained. L486/L587 are shared coordinator questions, not new autonomous instruments. Audit `research/2026-10-25_inbox-owed/REPORT.md`.
+- No market pull, gate re-grade, new threshold/trade or speculative data-wall workaround. General inbox authorized by Will; WALTER 002 arrived mid-pass and was noted as own-analysis loopback, issuance-freeze inference withdrawn; no independent confirmation. Foreign dirty work preserved; no pull/rebase/stash; PROME coordinates push.
+
+### PRIOR SESSION — 2026-10-25T12:17:49-04:00 (Will boot; OpenAI / Codex, exact model UNKNOWN)
 
 - Full boot: 30 series, 0 fetch errors; credit/SOFR frontier still 10/22, SRF/RRP 10/23. No Friday credit/SOFR publication yet. Latest-revised sweep does not add to the prior first-published run.
 - Working view unchanged: repricing; measured overnight funding orderly, hidden financing restrictions unmeasured. 076 MET in existing episode; 10/23 MOVE/VIX EDGE. X1 CLOSED / DON'T-SIZE; swap-line WITHHELD.
