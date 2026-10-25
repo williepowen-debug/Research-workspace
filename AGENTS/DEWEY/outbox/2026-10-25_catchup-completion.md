@@ -17,7 +17,7 @@ Six initial top-level incoming packets read; no queued unstarted WALTER commissi
 | Obligation | Remaining action / dependency |
 |---|---|
 | L567 / CARL-DR-1 | COF and BFH Q3 10-Qs absent from October 25 recent-submissions feeds; finish after filing, by November 13. No causal class-wide grade from descriptive balances. |
-| WQ-515 / L828 | WALTER commits selection and logs future transfers; PROME commissions approved reader after inputs and 24-hour waits; DEWEY adds the result to its meta-review. |
+| WQ-515 / L828 | Selection registered at 046fd4ae5; exact clock and method receipt verified at 2a9e9cb17. WALTER logs future transfers; PROME commissions approved reader after inputs and 24-hour waits; DEWEY adds the result to its meta-review. |
 | L834 / L800 | Build delivered and independently verified October 24. VULCAN confirms concepts and handles comparability/interpretation; later issuer pulls wait for filings. No repeat build owed. |
 | Meta-review section 5 | Historical independent full-text validation of ten reports remains unfinished. Sample and RUBRIC_v2 preserved. No self-read is represented as independent validation; no additional reviewer launched in this pass. |
 
@@ -40,6 +40,24 @@ Will's direct instruction in this DEWEY session:
 > No new agents, standing procedures, or research obligations for now.
 
 The two existing experiments continue within their approved scopes: Experiment A's three-event before/after summaries and the WQ-515 prospective information-fidelity batch (called Experiment B in this discussion). The five-case research-value idea remains a discussion proposal, unapproved and unlaunched. Results from the first two experiments precede any decision on further work. This direction creates no new assignment, agent, standing procedure or research obligation. No additional review or pilot is launched from the suggestions above.
+
+## Documentation follow-through — October 25, at Will's request
+
+Reconciled six existing files: CONTEXT.md; the WQ-515 method; the research-history review; output/INDEX.tsv; scripts/BACKLOG.md; and this record. The research-history review now preserves the operator-facing interpretation and the five-case discussion proposal under Will's explicit unapproved/unlaunched disposition. This creates no new ledger row or research report, and changes no grading formula or trial scope. The old CAP-continuation wording in BACKLOG is reconciled to WQ-488; no cap change or repeated research follows.
+
+**WALTER receipt verified at the artifact:** commit 2a9e9cb17, `AGENTS/WALTER/inbox/DEWEY/processed/.consumed.tsv`, records the 9c97f5012 method/correction/SYF handoff read and the card continuation retained as PARTIAL. This establishes WALTER's consumption, not CARL's integration. The exact Experiment B window is October 26 00:00 EDT / 04:00 UTC to October 30 16:00 EDT / 20:00 UTC, stopping at the tenth qualifying dispatch if earlier. Sunday dispatches and Saturday's CATO case remain excluded. Final destination reads can extend to October 31 because of the 24-hour wait.
+
+**Existing dated reruns found in WALTER's register:** the following rows were already QUEUED in `AGENTS/WALTER/registry/DEEP_RESEARCH_FLAGGED_LOG.tsv` and reiterated in its October 25 LAST_COMPLETION. They were not new commissions from this conversation. No matching `003R`, `005R` or `008R` REQ file was found in DEWEY's live or processed inbox in this documentation pass. Preserve the ledger's scope and reconcile request provenance at the future intake; do not infer completion or a fresh authorization from this note.
+
+| Existing REQ | Existing timing and source condition | Existing scope, from WALTER's register |
+|---|---|---|
+| REQ-DEWEY-20261022-003R | After Q3 call reports post, approximately October 30; deliver by November 3. If unavailable by then, defer. | Re-run reserve-coverage placement and reconcile call-report versus company coverage definitions; REGINALD consumes. |
+| REQ-DEWEY-20261022-005R | After the three named MSFT/GOOGL/AMZN Q3 10-Qs/8-Ks file; deliver by November 2. If delayed past then, use what is filed. | Refresh the existing hyperscaler funding-gap table; coordinate with VULCAN's existing L800/L834 source work. |
+| REQ-DEWEY-20261022-008R | October 29; the registered trigger permits earlier intake if WALTER routes a fired escalation row. | Re-place the cyber wave against the existing five-wave base rates and escalation checklist. A second pass around November 5 requires Will's request. |
+
+**Scope of this pass:** repository documentation and receipts only. No web fetch, market refresh, source re-pull, agent launch, new recurring task, independent validation run or research rerun. The first two experiments continue under their existing owners; the five-case idea remains for discussion after their results.
+
+**Documentation verification:** 96 report files still match 96 unique eight-field ledger rows; only three ledger notes changed. Exact UTC clocks and local reference paths checked. Weekday, whitespace and NAMED-correction checks pass. Updated CONTEXT.md is 20,636 B, below the 32,550 B read budget; the pre-existing charter-size observation remains unchanged. Orphan-check residue belongs to other writers and is excluded from this commit. No code changed or regression test added.
 
 ## COMPLETION — DEWEY — 2026-10-25
 STATUS: ✅ DONE for this catch-up's available work; future dependencies retained.
