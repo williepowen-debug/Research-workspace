@@ -1,0 +1,12 @@
+{
+  "as_of": "2026-10-25T19:46:10Z",
+  "commit": "3e0333f30e535c220145807c5c08ae70d2311c30",
+  "origin_master": "e9842fe02a1a331a7255d054dfe0a1d0c132334e",
+  "fresh_fetch": true,
+  "new_delivery_rows": 45,
+  "all_sunday_delivery_rows": 53,
+  "delivered": 53,
+  "consumption": "Separate owner evidence required; BROCK reports010/018 noted, owner integration not inferred for others.",
+  "own_push": "Deferred for foreign dirty work; publication accomplished by shared push train.",
+  "marking": "39 exact staged IDs consumed;1242 total,0 staged; last head check18:18:17Z."
+}
