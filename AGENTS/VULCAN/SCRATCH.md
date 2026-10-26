@@ -1,4 +1,16 @@
-> # ⛔ 2026-10-26T17:34:18-04:00 — READ THIS BLOCK FIRST. Will-directed local workflow repair.
+> # ⛔ 2026-10-26T17:40:41-04:00 — READ THIS BLOCK FIRST. Will-approved workflow wording cleanup.
+
+▶ START HERE: Next authorized research task uses the repaired reconciliation; assess ease, unnecessary fingerprint repetition and actual avoided edits in that task's existing report. No extra research or recurring log. GOOGL/META model failures and GOOGL-method/KB-096 October 26 obligations remain unresolved and are not re-dated.
+
+RECONCILE cf04f466cd29c3391b50df4f380cea372364fc6e9c778639d007abc5012e59f1 STATUS UNCHANGED: documentation wording and savings correction change no analytical evidence, caveat, 15/25 score or unresolved obligation; no market refresh.
+RECONCILE cf04f466cd29c3391b50df4f380cea372364fc6e9c778639d007abc5012e59f1 THESIS UNCHANGED: no new channel evidence, verdict or resolver; prior sweep implications and counterevidence remain valid.
+RECONCILE cf04f466cd29c3391b50df4f380cea372364fc6e9c778639d007abc5012e59f1 EXIT UNCHANGED: kill legs and dated rewrite requirements unchanged; no analytical vintage refresh warranted.
+
+- Updated local charter and repair report: UPDATED/UNCHANGED describe reconciliation against the current work, rather than earlier edits that day. Checker mechanics and NEXUS version contract unchanged.
+- Corrected the savings claim: three analytical files stayed unchanged, but three avoided edits was not established. Research-time savings remain unmeasured. L-76 records the correction.
+- Existing report: reports/2026-10-26_workflow-repair/REPAIR.md. Root/other desks untouched. Pull withheld for foreign dirty paths. Prior checker now reports no local delivery failure; fresh push result for this cleanup remains unverified until commit/push.
+
+> # ⛔ 2026-10-26T17:34:18-04:00 — prior block. Will-directed local workflow repair.
 
 - Delivery-only addendum 2026-10-26T17:35:04-04:00: repair commit 9c235148e retained locally. Safe-push failed fetching origin: GitHub HTTPS Username unavailable. No CONFIRMED receipt and no delegation. Post-commit full check: analytical/obligation/schema/pin checks pass; only root push verification FAILS (one unpushed VULCAN commit). This receipt changes no covered analytical input; current reconciliation key remains valid. Next authorized research trial remains pending.
 
