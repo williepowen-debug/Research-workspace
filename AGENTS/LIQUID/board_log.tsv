@@ -617,3 +617,16 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-25T15:47:28-04:00	SIG-W-20261025-018	deferred	INBOX_WALTER	AI-CDS turnover chart basket/method/gross-net unknown. Existing credit-lane follow-up retained STATUS section3 for October26 WALTER source review; no spread/net-demand grade.
 2026-10-25T16:17:51-04:00	2026-10-25_from-PROME_WQ524-next-transmission-case	acted	INBOX_PROME	WQ524 accepted in replacement session01a17495 under committed Will ruling; one First Brands/WAL case completed, existing duties and frozen grades preserved. REPORT in research/2026-10-25_WQ524-first-brands.
 2026-10-25T16:17:51-04:00	2026-10-25_from-BROCK_WQ524-two-candidates-bank-loss-recommended	acted	INBOX_BROCK	Consumed ef2c1df65 research/state and bc2a28267 brief/delivery; selected First Brands/WAL, independently checked four primaries and SEC indexes. No duplicate six-issuer work.
+2026-10-26T13:27:27-04:00	SIG-W-20261025-019	info-only	INBOX_WALTER	Read with source limits; no LIQUID gate or funding-restriction grade. Boot report.
+2026-10-26T13:27:27-04:00	SIG-W-20261025-021	info-only	INBOX_WALTER	Read with source limits; no LIQUID gate or funding-restriction grade. Boot report.
+2026-10-26T13:27:27-04:00	SIG-W-20261025-022	info-only	INBOX_WALTER	Read with source limits; no LIQUID gate or funding-restriction grade. Boot report.
+2026-10-26T13:27:27-04:00	SIG-W-20261025-025	info-only	INBOX_WALTER	Read with source limits; no LIQUID gate or funding-restriction grade. Boot report.
+2026-10-26T13:27:27-04:00	SIG-W-20261025-027	info-only	INBOX_WALTER	Read with source limits; no LIQUID gate or funding-restriction grade. Boot report.
+2026-10-26T13:27:27-04:00	SIG-W-20261025-028	info-only	INBOX_WALTER	Read with source limits; no LIQUID gate or funding-restriction grade. Boot report.
+2026-10-26T13:27:27-04:00	SIG-W-20261025-029	noted	INBOX_WALTER	FCF lease reconciliation retained; no new financing-failure grade.
+2026-10-26T13:27:27-04:00	SIG-W-20261025-031	acted	INBOX_WALTER	Recovered basket/month; original gross/net methodology missing. Boot report.
+2026-10-26T13:27:27-04:00	SIG-W-20261026-001	noted	INBOX_WALTER	Offering/forward timing folded as WALTER-reported; own primary open failed. Boot report.
+2026-10-26T13:27:27-04:00	SIG-W-20261026-002	info-only	INBOX_WALTER	Read with source limits; no LIQUID gate or funding-restriction grade. Boot report.
+2026-10-26T13:27:27-04:00	SIG-W-20261026-003	info-only	INBOX_WALTER	Read with source limits; no LIQUID gate or funding-restriction grade. Boot report.
+2026-10-26T13:27:27-04:00	SIG-W-20261026-004	acted	INBOX_WALTER	Brazil shock assessed; pre-event SOFR cannot test same-day USD contagion. Boot report.
+2026-10-26T13:27:27-04:00	SIG-W-20261026-008	noted	INBOX_WALTER	Intraday US rebound not offshore funding clearance; JetBlue remains source-limited.
