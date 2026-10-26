@@ -1,7 +1,9 @@
 # CRUISE — Operator profiles (CCL · RCL · NCLH)
 
-*Split out of `STATUS.md` 2026-09-19 under READ_CAP rule 5. **This is the LIVE surface for per-operator detail — not an archive.** `STATUS.md` carries the headline numbers; **update this file, not a copy.** **Body 4,844 B, crc32 `6751f84e`**, computed from the first `### ` line to EOF (rewritten 2026-10-14; the 9/19 whole-file stamp could not be reproduced once written). The 9/19 version is in git history; the pre-9/19 version is at `domain/sources/STATUS_archive_2026-09-19_rotation.md` § I. Prices are **2026-10-19 closes** (repository yfinance, cross-checked Yahoo daily chart; same vendor) — re-pull before citing (root rule #4).*
+*Split out of `STATUS.md` 2026-09-19 under READ_CAP rule 5. **This is the LIVE surface for per-operator detail — not an archive.** `STATUS.md` carries the headline numbers; **update this file, not a copy.** **Body 5,187 B, crc32 `62e9ea53`**, computed from the first `### ` line to EOF (checked 2026-10-25). The 9/19 version is in git history; the pre-9/19 version is at `domain/sources/STATUS_archive_2026-09-19_rotation.md` § I. Prices are **2026-10-19 closes** (repository yfinance, cross-checked Yahoo daily chart; same vendor) — re-pull before citing (root rule #4).*
 
+
+*October 25 maintenance: CCL declared $0.15/share on October 22 (record November 6, pay November 27; KB-CRU-187). NCLH full nominal revolver capacity remains conditional on ARCA §4.01 and Amendment3 §1.05 steps; see `research/2026-10-25_catchup/RESULT.md`. Actual September/October cash and availability remain unknown; the ~14–16% OCF-decline case below excludes the later $315M commitment increase.*
 
 ### Carnival (CCL) — **$26.45** · beat and raised; the near-RED tape reversed on the print
 - **Q3 FY26 (9/29, 8-K acc 0000815097-26-000104 + 10-Q …-000107):** adj EPS **$1.43** vs ~$1.35 guide; fuel **$826/mt** vs $812 guide but the fuel hit was **$0.007/sh**; **FY26 CC net yield raised ~+1.75% → ~+2.3%**, FY adj EPS ~$2.24, through a ~$150M fuel headwind; **Q4 fuel guide $896/mt**. Deposits **$7.6B, +~7% YoY** on flat capacity; **2027 occupancy and pricing at records.** ⚠️ 10-Q: North America **ticket prices −$40M YoY**, cause unnamed.
@@ -10,9 +12,9 @@
 - **Tape:** **−20.93% vs the $33.45 adjusted reference**; was **−34.71% on 9/18**, $0.10 from RED; print day **+13.4%**.
 
 ### Royal Caribbean (RCL) — **$281.97** · committed future resort financing changes the comparison
-- **Q2 FY26:** FY Adj EPS $17.73–17.87 raised, 110.2% load factor, **58% fuel-hedged @ ~$474/mt**. **Q3 call Tue 2026-10-27 10:00 ET.** NCLH Q3: **Thu 10/29 06:30 ET release / 08:30 ET call** (issuer October15 announcement).
+- **Q2 FY26:** FY Adj EPS $17.73–17.87 raised, 110.2% load factor, **58% fuel-hedged @ ~$474/mt**. **Q3 call Tue 2026-10-27 10:00 ET.** NCLH Q3: **Thu 10/29 06:30 ET release / 08:30 ET call** (issuer October 15 announcement).
 - **🟠 Sandals (8-K Item 8.01, acc 0001104659-26-109755, 9/23):** **50% of Sandals & Beaches Resorts for ~$3B**, ~10x forward EBITDA, **committed Morgan Stanley debt**, close early 2027, "expected to be accretive to earnings next year." FT leak 9/22: **RCL −6.14% that day vs CCL −0.13%.** Bloomberg 10/7: MS syndicating the $3B loan. Secured or unsecured: **not stated.** (KB-CRU-147)
-- **October19 bridge:** RCL June principal-basis liquidity ratio **29.37%** vs NCLH **~9.81%**; transaction-only comparison preserves ordering, actual post-June flows unknown. Sandals represents **prospective borrowing**, not current funded debt; committed financing only. `research/2026-10-19_cushion/RESULT.md`.
+- **October 19 bridge:** RCL June principal-basis liquidity ratio **29.37%** vs NCLH **~9.81%**; transaction-only comparison preserves ordering, actual post-June flows unknown. Sandals represents **prospective borrowing**, not current funded debt; committed financing only. `research/2026-10-19_cushion/RESULT.md`.
 - ⛔ **Ladder entry now pre-deal:** "zero secured debt; $1.25B 8-yr unsecured at T+105 (8/6); liquidity/stated debt 30.2%" all predate a ~$3B debt-funded, non-cruise investment. Re-read at the Q3 10-Q.
 - **Sell-side (headlines only, not read):** BofA upgrade to Buy 9/28; Jefferies upgrade 10/8 on 2027 yields; Barclays target $340 → $337 10/7.
 

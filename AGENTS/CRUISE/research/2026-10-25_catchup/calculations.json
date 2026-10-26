@@ -1,0 +1,20 @@
+{
+  "units": "USD millions, except percentages",
+  "net_proceeds_before_fees": 941.7,
+  "principal_uses": 943.5,
+  "cash_contribution_minimum_before_costs": 1.8,
+  "commitments_old": 2486,
+  "commitments_new": 2801,
+  "commitment_increase": 315,
+  "nominal_room_increase_before_other_flows": 691.3,
+  "debt_principal_change_before_other_flows": 6.5,
+  "same_525_coupon_increment_annual": 13.78125,
+  "new_note_coupon_annual": 83.125,
+  "implied_q4_at_existing_guides": 427.5999999999999,
+  "warnings": [
+    "Not actual September/October cash or drawable capacity.",
+    "Nominal room excludes other cash flows, drawings, L/C usage, FX and availability conditions.",
+    "Coupon increment on same principal is not whole-deal net-interest increase.",
+    "Q4 guide arithmetic is a baseline, not a Q3 result."
+  ]
+}

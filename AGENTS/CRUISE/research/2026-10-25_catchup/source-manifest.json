@@ -1,0 +1,110 @@
+{
+  "CCL-submissions.json": {
+    "bytes": 162631,
+    "sha256": "f82d9bc721785d7e2ed4a11e4d54d6ffda7148c37bd8c42f23065955843002f0"
+  },
+  "NCLH-submissions.json": {
+    "bytes": 168000,
+    "sha256": "05322462d29713efb87151110e36ac463be3e457afc03df8b1814bb361d6acfa"
+  },
+  "RCL-submissions.json": {
+    "bytes": 155967,
+    "sha256": "fb3c6b3d7e7286f20f66b0825ef32f3dfedb51d16c880bc9d1d846b524afffdc"
+  },
+  "aaa-forecast.html": {
+    "bytes": 90594,
+    "sha256": "a8dcdef9fd33995137d51d52e1e86dbe0be0207f9b629b81c478693a98515d0a"
+  },
+  "aaa-forecast.txt": {
+    "bytes": 11609,
+    "sha256": "4d1c82822b5a12a5fc9ae6d50a28021ccb887ce64a247d67e158cbaa42481d49"
+  },
+  "bella.html": {
+    "bytes": 60954,
+    "sha256": "feed71882c4dbaacfd90908026138883dd8d4fd15d1ceba2c0a2d4b2524e5251"
+  },
+  "bella.txt": {
+    "bytes": 25956,
+    "sha256": "bfb115fe9fd4d67065468163e7f37c3c7eaa3b54ac8a83a0ffa4ee9654511248"
+  },
+  "browser-source-note.md": {
+    "bytes": 325,
+    "sha256": "5388ba5d388875dcdc7cfef80f6a6d01c9b68f5b8d7cf68a815afdfd0f66ff00"
+  },
+  "ccl-dividend-body.html": {
+    "bytes": 10125,
+    "sha256": "0d9411ce44e988c1f9cbcc9ce7afd7387e8c3b104e2479dc3edcfea81e099aec"
+  },
+  "ccl-dividend.html": {
+    "bytes": 116057,
+    "sha256": "2598da72649fad32b53755f158c8aa89dc23ce41dc00e66f20604a3aad0b7c1f"
+  },
+  "ccl-news.html": {
+    "bytes": 132380,
+    "sha256": "9d4410e490fdd40ddbb3da514a4be446a9ecb2db5e9f65771428c6de623341f6"
+  },
+  "ccl-news.txt": {
+    "bytes": 9374,
+    "sha256": "f52a31ff8e9dbbee6dbfb0065c9c962c855111b9b5260dc2c7ccf533cb2c922c"
+  },
+  "consumer-checkpoint-pdf.pdf": {
+    "bytes": 252843,
+    "sha256": "3cc838e2990e21b33f78b9b442e5e49eca10b6b257feae4953f94d3549556f63"
+  },
+  "consumer-checkpoint.html": {
+    "bytes": 126180,
+    "sha256": "6a2111e5d500cdcfc0081e95bfaa0598f15e9eaae1eecffa1b1e7cd793da3f79"
+  },
+  "consumer-checkpoint.txt": {
+    "bytes": 6625,
+    "sha256": "ee6e6f9852580bbf6e0dd9a4ce1668e25757608db971c77f2fbf9e08bb0e48fb"
+  },
+  "demand-secondary.html": {
+    "bytes": 773,
+    "sha256": "e9a73bb4257da00f42ae03cc5f3fe7901fd009db319f2d35e526cd80c5b80c29"
+  },
+  "ncl-terms.html": {
+    "bytes": 451228,
+    "sha256": "638011b7e1131e543cc749f3e5afba5eb7408722e3513b2e44978c824ea29118"
+  },
+  "ncl-terms.txt": {
+    "bytes": 250263,
+    "sha256": "3a7181c0e637826eed5cdc70a8f391779406fa25c3222443423edf4f54796af5"
+  },
+  "nclh-close.html": {
+    "bytes": 41961,
+    "sha256": "079bc80232aa2734a3ceb60e7259e4174a1f1f2ba1fd19d0d3533322868a1908"
+  },
+  "nclh-close.txt": {
+    "bytes": 14561,
+    "sha256": "6a44807857ddf686fc2ba1b71066e14fad86fa3c39cac177daffea1e03757cef"
+  },
+  "nclh-contract.html": {
+    "bytes": 1370810,
+    "sha256": "379392489e6e4d8421a512dca0bc77e8879fbd6117d2530e39586ecbf93a5bfd"
+  },
+  "nclh-contract.txt": {
+    "bytes": 767529,
+    "sha256": "a29dee57a5ec488fb8d6c67b1918f9c54f7a85a18683db0e601a11da782bca88"
+  },
+  "nclh-ir.html": {
+    "bytes": 50581,
+    "sha256": "2afd0f2cb52a6cde2aa0172c8d3173738f826e8ca55741f2d3eed51bc969133c"
+  },
+  "nclh-ir.txt": {
+    "bytes": 20176,
+    "sha256": "0804283f06657bf198f69d6fe0222c05e8050788eb494f7196edb2bce036cf9f"
+  },
+  "rcl-ir.html": {
+    "bytes": 59495,
+    "sha256": "b20655102bdb6e2b3dffac7ff9a0edaceb19de596a1bdad199d91df86f731b18"
+  },
+  "rcl-ir.txt": {
+    "bytes": 17486,
+    "sha256": "d01f2783fbf73d641237bbad32936ab2b729e721c89ceeccf92a25e624364d9c"
+  },
+  "retrievals.json": {
+    "bytes": 5999,
+    "sha256": "11e9d28ad3f5a6cd564b18c0df845ce71e56642ae2c4c661312ab4b303ea95ec"
+  }
+}
