@@ -1,0 +1,27 @@
+# OTTO — October25 bounded catch-up return
+
+Authority: Will's direct owner-window request plus PROME direction `c093e462c`, acknowledged through native messaging in session `01a175a8-1ce1-76c1-bcf7-e404b7c17e1f`. No conflict and no helper launch. Existing owner window remains available; do not terminate/archive it.
+
+**Read:** `AGENTS/OTTO/research/2026-10-25_catchup/READOUT.md` at **1b2d83bd511979c5f44c70e150e32df11b734a2b**. Its `CHECKS.json`, source manifest, raw captures, probes and calendar/intake receipts carry the evidence. Final brief **89d7eda99** pins that exact final STATUS. Sources include actual Ally filings and visual deck checks; successful web reading of Edmunds despite a separate direct HTTP403; public KBRA excerpt; Cox; current SEC feeds; CourtListener case-specific searches; and the already-graded BROCK/LIQUID/PROME case returns.
+
+**Consequence:** no change to the separation PROME asked about. Deep-pool collateral still deteriorates under servicing/cohort caveats; broad Ally/KBRA YoY readings are less severe. Financing access/support persists conditionally; annual shelf issuance is not proof of present access. Fraud/recovery losses remain serious. Car-Mart's company-level financing constraint has an observed lender response, while its lender-to-bank link is unobserved. The historical WAL charge-off demonstrates case transmission, not a new October counterparty or broad funding event. Neither systemic leg reopens.
+
+**Useful source refinement:** Edmunds' 69% at least72-month statistic applies only to new buyers paying at least$1,000/month. It is not an all-buyer/American statistic or a default measure. WALTER packet includes this primary upgrade and its KBRA upgrade, with scope limits.
+
+**Completed work and controls:** ten inbox packets read (eight WALTER, two peers), all filed after recorded dispositions; no pending owner inbox files at final census. Three named correction receipts clear. Five calendar events completed/superseded and archived; one Car-Mart bridge8 successor added. All28 remaining event/date/class/meaning mirrors and eight unresolved forecast claims/states/confidences checked; THESIS conviction/SDT rule unchanged. Source hashes17/17 checked. Existing producers' controls passed. Curated Markdown whitespace check excludes raw source/search outputs whose formatting is preserved. STATUS22,782B is below70% after rotation. Final brief pin and weekday checks pass. No new numerical threshold, forecast, colour, experiment, trade or program.
+
+**Unresolved evidence:** Trust V disposition is UNKNOWN; no current VRM filing establishes renewal/exit. First Brands clerk3973 says October21 hearing continued,dateTBD; its PDF is an appearance sheet, not a signed disposition. D&O hearing held per3956, substantive outcome unobtained. BlackRock/suppression orders unobtained; indexed slices are incomplete. Verita's augmented TLS verification succeeded, then POST403; Kroll403. Ally call unreviewed. Full WINTERKORN future-date sweep was NOT completed, October14 last-run stamp unchanged; bounded inline checks only. Next existing court readsOctober27/28. No source miss is graded as event absence.
+
+**Existing documentation gap:** `read_cap_check` excludes the desk charter heuristically, while its46,728B exceeds the32,550B whole-read budget. The explicit charter read was completed in bounded pieces. No charter-repair program or shared-file edit was opened during this research session; this is a real perimeter limitation in its green check.
+
+**Prospective work:** Carvana/BROCKOctober28, Exeter~October29, finalv1.6/recovery-rung/causal-risk review/cold readOctober30. BROCK L794 October30 after close/November2 aroundSundayNovember1 relief expiry. ManheimNovember6/SDT~November15. VRM periodic filing date unverified. Existing OTTO-10 NEEDS_VERIFY and OTTO-11 STUCK terms/follow-ups preserved. Prior L708 consumption settled; CATOOR1 reviewer closure and new recipient consumption remain separate.
+
+**Persistence:** source/state1b2d83bd5 and brief89d7eda99 are published. `safe-push.sh` returned0 with: `Pushed. CONFIRMED: HEAD dfe0937f3 is on origin/master (fresh fetch).` The push train also carried other owners' existing commits, as the script specifies; their dirty files were untouched. No pull/stash/reset/rebase. This completion memo is a subsequent exact-path commit and will be published under the same safe-push rule. WALTER native notice accepted; consumption unverified. CYPHER boundary answer self-committed under carve-out1; its recipient consumption unverified.
+
+## COMPLETION — OTTO — 2026-10-25
+STATUS: ⚠️ PARTIAL — bounded refresh/intake/write-back completed; listed source and full-docket gaps remain.
+CHANGED: OTTO source/state1b2d83bd5, final brief89d7eda99, 10 filed packets, exact self-authored WALTER/CYPHER notices and this memo.
+RESULT: 17 hashed captures, 8/8 shelves with2026 issuance, 28 calendar mirrors and8 unresolved predictions checked. Ally actuals/BROCK bridge8 consumed; convergence33/50 unchanged. No new systemic grade or authority.
+GAPS: VRM/court/call evidence and full WINTERKORN future-date verification incomplete for the reasons above; oversized charter outside read-cap heuristic; recipient consumption unverified.
+WILL_NEEDS: None.
+FOLLOW-UP: Existing October27–30/November1–2 observations, not a new investigation. Publication of this memo is the last persistence step; source/state/brief already confirmed on origin. Window preserved.
