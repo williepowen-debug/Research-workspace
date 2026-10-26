@@ -1,9 +1,11 @@
 # BRENT — NEXUS Brief
 
-**Status:** Energy WAIT retained. Brent December settled $116.72 on 10/23, its highest since April, on strike tape with no measured new barrel loss. Boundary #1 is 0 of 3 settles, $3.28 below $120. COT #11 JOINT NOT-SPENT. BRT-31 OPEN.
+**Status:** Energy WAIT retained; BRT-30 endpoint CONFIRMED on underwriting listings only.
 **Domain:** Oil/energy supply, demand, structure and transmission.
 **Thesis version:** v5.13; no calibration or capital-authority change.
-**As of:** October 23, 2026 16:04 ET (from `date`) — live session — SCOPED-PARTIAL. Re-verified 10/23: COT #11 (raw CFTC, two pulls), Brent/WTI December settles (secondary, arithmetic-checked), named-contract vendor quotes 15:19 ET, the IUA JWC index, the EIA STEO OPEC spare figure, DOE exchange notices (primary) and the whitehouse.gov DPA texts (via a summarizing fetch), and Baker Hughes via the Friday routine (oil rigs 460, +1, secondary). Positions and specs were NOT re-verified against TRADE (no position or spec claim changed). MIXED-VINTAGE: rows dated 10/21 and earlier were not re-verified today; they keep their own vintages and the 10/21 scope (see their linked reports). Not re-verified: EIA weekly, retail, rigs, Dated Brent spot, HOZ26 settle, broker, cargo, company or holding grades. USER.md: Will manages expiries; no reminders.
+**Recent thesis pivot:** crude recovery separated from product scarcity (October 14); unchanged at startup.
+**As of:** 2026-10-26 13:31 ET | STATUS commit: `4e018496051562558ba70f7249e6cca684946865`
+**Scope — SCOPED-PARTIAL / MIXED-VINTAGE:** Re-verified today: primary IUA index and JWLA-035 PDF, BRT-30 endpoint, complete Monday routine, named correction and boot/intake diagnostics. BRT-30 confirmed at its original 80%; this is underwriting classification, not premiums, flow or price. The Monday routine's named intraday observations remain dated context; no fresh settle/composite grade made. Earlier table rows retain their stated vintages. Positions/specs NOT re-verified against TRADE; no new position or spec claim. No broker outcome inferred. CENTCOM primary/period/perimeter and CLZ26 settlement follow-ups remain open. [Receipt and deferred mail](research/2026-10-26_boot/REPORT.md).
 
 ## CROSS-DOMAIN
 
@@ -11,6 +13,7 @@
 
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |---|---|---|---|
+| PROME / HAWK / FALCON / RED | **October26 BRT-30 CONFIRMED:** original 80%, primary index newest JWLA-035, fresh body retains both Gulf areas. | 🟡 | Confirms retained insurance-risk geography only; no premium, barrel, diplomatic or capital grade. Existing crude/product split survives; [evidence](research/2026-10-26_boot/REPORT.md#brt-30-endpoint-grade). |
 | PROME / TERRY / HENRY / FALCON / HAWK / RED | **10/23 tape and positioning:** BZZ26 settled $116.72 (+3.55) and CLZ26 $103.27 (+3.80) [EST secondary]. Boundary #1 (≥ $120 × 3 settles) is 0 of 3, $3.28 below; BZZ26's last trade is 10/30. The fleet front is BZZ26 until 10/30, then BZF27; the vendor's continuous `BZ=F` rolled 10/23, so don't quote its change. COT #11 JOINT NOT-SPENT, fifth consecutive (shorts 127,226; OI share 6.93%). | 🟠 | A price on strike-timing tape, not on measured loss (FALCON: FAL-07 NOT FIRED; the White House's written no-strike-before-midterms line stands). COT is a sizing descriptor, never an entry trigger. Packet to PROME (G:GATE-BRENT-COT-35B). [Report](research/2026-10-23_inbox-catchup/REPORT.md) §1–2, §6. |
 | HANS / CARL / HENRY / TERRY / PROME | **10/22–10/23 supply policy:** Germany's EBV is SELLING diesel, heating oil and crude (the first German release under the IEA action; volumes unknown; July tenders were buys). The DPA § 303 order of 10/22 repeats April's, addressed to the Secretary of War: no new supply. DOE exchange loans: 10/10 up to 4 M bbl, 10/23 up to 0.4 M bbl to P66 Lake Charles (primary). Great Lakes gasoline spike: ExxonMobil Joliet unit outage (S-tier), regional. | 🟠 | European diesel relief is in the L783 direction (toward $90.16); the physical Gulf clean-product shortfall is unchanged. CARL: Midwest retail pass-through (Michigan $4.74, Ohio $4.34 GasBuddy 10/22). [Report](research/2026-10-23_inbox-catchup/REPORT.md) §5. |
 | TERRY / PROME / WALTER / HENRY | **Diesel commission L783 delivered:** governing December crack 95.0479 (10/21). Path to the $90.16 SELL line by 11/19 is plausible: 26% on this sample's history (a rising-crack sample), 67–79% on a driftless model [EST, vendor bars]. NEHHOR 315k bbl and the $8B farmer aid confirmed as announced; the '50M bbl diesel' figure is probably the G7 package restated. Russian increment ~70–125 kb/d before 11/19. | 🟠 | TERRY reads the dated catalyst table (event, date, tier, crack direction); no trade, threshold or grade. [Report](research/2026-10-21_diesel-commission/REPORT.md). |
@@ -62,7 +65,7 @@ Completed installation, preparation, intake and superseded holding-image rows ar
 
 ## CALIBRATION
 
-- **Conviction:** existing moderate commodity assessment retained; no new numeric forecast/probability, earnings target or prediction grade. Dated calibration stays at THESIS/PREDICTIONS.
+- **Conviction:** existing moderate commodity assessment retained; no new numeric forecast/probability or earnings target; BRT-30 closed at its unchanged original probability. Dated calibration stays at THESIS/PREDICTIONS.
 - **Diverge from market by:** no quantified earnings/return divergence established. Macroaxis Q3 indication is provider/basis-limited, not synchronized consensus or valuation. High cracks alone cannot supply an edge.
 - **Cross-agent tensions:** two open, neither adjudicated by BRENT. (1) **The $95 near-line band:** HENRY's F1 applies ±$0.15 at $95 and reads 10/21 as UNKNOWN; the leg-A §2-bis letter puts the band only at $90.16, so 10/21 ($95.0479) is not below $95. TERRY owns the ruling (packet 10/21); the consequence is notice only. (2) **Kpler's 24.6 mb/d regional figure** is disputed by a third-party analyst (low Yanbu loadings on satellite). BRENT does not adopt either side; HEARTBEAT should not cite it. Earlier: YURI closes announcement source, DEWEY closes CME source and preserves net-supply gap. Policy/legal opinion and commodity delivery remain separate. WQ-392 settles HEN-46 December basis; owner encoding not re-verified here.
 - **Counter-frame:** old commitments delivered sooner, stock release and refinery output can compress margins without full Russian repair; confirmation of shortage need not mean underpriced equity.
@@ -71,8 +74,8 @@ Completed installation, preparation, intake and superseded holding-image rows ar
 
 ## NEXT DECISION POINT
 
-BRT-30 resolves Mon 10/26 on the JWC circular number (10/23 index: newest JWLA-035; pre-staged). Next EIA print: Wed 10/28. COT #12 and the BZZ26 last trade: Fri 10/30. OPEC+ meets 11/01: STEO spare is 0.02 mb/d (single agency), and a second agency is owed before grading. Boundary #1 is a watch only. TERRY grades held-VLO leg A; HOZ26 10/23 settle not read. The L526 routine preamble draft is with PROME for Will's install word. No new Will decision or card created.
+BRT-30 closed CONFIRMED October26 on fresh index/body evidence. Existing CLZ26 settlement and CENTCOM primary/period/perimeter work remain unverified at startup; full HAWK/DEWEY requests explicitly deferred. Next EIA print: Wed 10/28. COT #12 and the BZZ26 last trade: Fri 10/30. OPEC+ meets 11/01: STEO spare is 0.02 mb/d (single agency), and a second agency is owed before grading. Boundary #1 is a watch only. TERRY grades held-VLO leg A; HOZ26 10/23 settle not read. The L526 routine preamble draft is with PROME for Will's install word. No new Will decision or card created.
 
-## WATCH (next 2–4 weeks)
+## FORWARD CATALYSTS (next 2–4 weeks)
 
 Forward dates live at [CATALYSTS](docket/CATALYSTS.tsv); next-work state at [SCRATCH](SCRATCH.md). Routine deployment remains unverified at the existing CATO handoff. Older detailed chronology is preserved [verbatim](archive/2026-10-20_organisation-cleanup/NEXUS_BRIEF.md.before.md); [conservation map](audits/2026-10-20_organisation-cleanup/manifest.json). Original relative links in before-images resolve from BRENT, not the archive directory. Notification, publication and recipient consumption remain distinct.
