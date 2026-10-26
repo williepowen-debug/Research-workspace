@@ -22,3 +22,4 @@ receipt_date	correction_id	action	note
 2026-10-23T19:52Z	COR-20261021-22	APPLIED	artifact=AGENTS/BRENT/research/2026-10-21_henry-december-adoption/REPORT.md#10/21 95.04790847983; validation_ref=NONE; 
 2026-10-23T19:52Z	COR-20261022-04	NO-OP	scope=Dealer gamma and the SPX put wall are HENRY domain. BRENT carries no gamma claim. The December crack leg of 022 is unchanged; 
 2026-10-23T19:52Z	COR-20261023-31	NO-OP	scope=BRENT wrote nothing from 024 before the correction. Strike timing is FALCON and HAWK domain. Boundary 1 watch is unchanged because the tape is unchanged; 
+2026-10-26T17:30Z	COR-20261025-26	APPLIED	artifact=AGENTS/BRENT/research/2026-10-26_boot/REPORT.md#cor-20261025-26; validation_ref=NONE; 

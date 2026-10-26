@@ -1,44 +1,34 @@
-# BRENT SCRATCH — October 23 live session (15:14–16:04 ET; stamps from `date`)
+# BRENT SCRATCH — October 26 startup (2026-10-26T13:30:21-04:00)
 
 ## CHANGES SINCE LAST SESSION
-- Brent December (BZZ26) settled $113.17 on 10/22 and **$116.72 (+3.55) on 10/23**, the highest since 4/29. WTI December (CLZ26) settled $103.27 (+3.80) on 10/23. Both are secondary (Newsquawk settle wrap; CNBC snippet for 10/22).
-- Strike-timing tape: Barrack's "this weekend? Absolutely" is envoy tape; Kan reports a CENTCOM plan with no target date. The White House restated in writing on 10/22: no attack before the midterms. FALCON graded FAL-07 NOT FIRED (relayed by PROME).
-- An unnamed outbound tanker was hit near Limah on 10/22 and sailed on (UKMTO time-late). IRGC claims (4 STS tankers, 3 mines) and Houthi claims (a Yanbu fire) are CLAIM-ONLY.
-- Policy: the DPA § 303 order of 10/22 repeats April's, addressed to the Secretary of War. Germany's EBV is SELLING diesel, heating oil and crude under the IEA action. DOE lent 0.4 M bbl from the SPR to P66 Lake Charles. The Joliet unit outage drove the Great Lakes gasoline spike.
-- The vendor's continuous `BZ=F` rolled to January on 10/23.
+- New Monday routine read in full. Its tape is intraday, contract-named and dated; no settlement grade inherited.
+- Fresh IUA index/JWLA-035 body retains both Gulf areas: BRT-30 endpoint CONFIRMED; no measured-flow inference.
+- WALTER correction removes a false contradiction between Zamir reports; no executable strike timing established.
 
 ## WHAT I DID THIS SESSION
-- Boot rc 2 (LESSONS_INDEX ledger +12d, known; instrument warnings). 0 commits behind origin, no pull needed. Corrections check went rc 1 → 0 after five receipts.
-- **COT #11 graded 15:51 ET: JOINT NOT-SPENT, fifth consecutive** (127,226 / 6.9328%). A second raw pull matches. Ledger row appended; TRACKER line 8 refreshed and pushed before the 16:15 Friday routine; packet to PROME (G:GATE-BRENT-COT-35B). CATALYSTS row graded, COT #12 row added for 10/30, calendar regenerated.
-- Inbox drained: 18 items (13 WALTER, 5 general) = 18 board_log rows = 18 `git mv`. Packets sent: WALTER (front-month basis), CYPHER (boundary confirmed), OSPREY (Russia four-week 3.7 → 3.59), PROME ×2 (COT; L526).
-- **L526** routine boot-preamble DRAFT plus `scripts/routine-requirements.txt` (not installed; Will's word).
-- BRT-30 pre-staged (IUA index 15:54 ET: newest JWLA-035). OPEC+ 11/01: STEO spare 0.02 mb/d pulled. DEWEY corrections banner added to the archived precedents file.
-- STATUS updated, then rotated to 70% of budget ([archive](archive/STATUS_dated_2026-10-23_rotation.md), 4,138 B, crc32 `d37d2d49`). NEXUS_BRIEF refreshed, MIXED-VINTAGE annotated. [Report](research/2026-10-23_inbox-catchup/REPORT.md).
-- A read-only helper (Opus) did the web lookups. Its tiers are kept in the report.
+- Explicit instruction/runtime loading, boot (rc2 findings), correction receipt, 12-file intake triage and archived consumption.
+- Closed BRT-30 at original 80%, updated note/CHANGELOG/THESIS/docket and generated calendar; v5.13/WAIT unchanged.
+- STATUS and TRACKER scoped stamps; primary evidence, capability gaps and exact deferred mail in research/2026-10-26_boot/REPORT.md.
+- Startup pull deferred: other desks have dirty files. Own-path commit; sync/push outcome recorded in final response.
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **DONE 16:28 ET:** the Friday routine (16:17 ET) reported COT NO NEW OBSERVATION, with no re-append (ledger ends at 10/20, written once). Rigs: oil 460 (+1), total 603, secondary ×2, record only. **Open:** the routine read AAL's FY2026 adjusted EPS guide as −$0.65 to +$0.65; HENRY (via WALTER -004) had −$1.60 to −$1.00. Flagged to HENRY by packet; HENRY owns HEN-46. Do not adopt either.
-2. **Mon 10/26:** grade BRT-30 using the pre-staged procedure in `thesis/prediction_notes/BRT-30.md`. Read the whole note and every TSV field first. The USO short-interest publication is the same day.
-3. **Boundary #1 watch through 10/30:** count BZZ26 settles ≥ $120 (0 of 3 at 10/23). Read the boundary's own letter on spanning the BZF27 switch before any count crosses 10/30.
-4. **Wed 10/28 10:30 ET:** EIA week 10/23, the third BRT-31 window week.
-5. **Fri 10/30:** COT #12 (`cot_grade.py --expect 2026-10-27`) and the BZZ26 last trade.
-6. **Before Sun 11/01:** second-agency spare figure for the OPEC+ deliverability gate. The 10/23 16:10 attempt was SEARCH-NOT-FOUND (IEA OMR page 403). Try the IEA OMR PDF or a press summary, then OPEC MOMR (~11/11, after the meeting); otherwise grade single-agency, caveat stated.
-7. HOZ26 10/23 settle not obtained (CME 403). If TERRY or Will reads it, record it; TERRY grades leg A.
-8. Carried from 10/21: verify the Senate's "DOE 50 M bbl diesel" claim at a DOE primary (still open; today's DOE pages were exchanges only).
+1. October26 existing follow-ups: CLZ26 settle-basis grade and CENTCOM primary/period/perimeter reconciliation remain unverified; USO short-interest publication due today.
+2. October26 carried post-October24 eligibility: Saudi-restart resolver registration/shadow-run review remains unperformed, nothing armed by startup.
+3. October28 10:30 ET: first-published EIA week10/23, BRT-31 third window week. COT October30 asof10/27; BZZ26 last trade October30.
+4. Before November1: second-agency effective spare-capacity evidence for existing OPEC deliverability check; DST routine reset remains due.
 
 ## OPEN THREADS / WATCHES
-- 🔴 US strike timing and Hormuz: the price runs on tape, measured loss is unchanged. FALCON grades the theater; BRENT owns boundary #1 and price.
-- 🟠 European diesel: the EBV sale volumes and the relayed ICE gasoil crack (~$95 → ~$76) are unconfirmed. Find primary or ICE figures.
-- 🟠 DPA: diff the 10/22 and 4/20 texts verbatim before citing "no other change".
-- 🟠 China crude imports at a war-period high (Johnston, chart unseen): deferred to the GAC October customs release.
-- 🟡 Undated: 14 aged INCIDENTS rows (5 ACTIVE). Joliet stays out of INCIDENTS ("operational issue", not confirmed damage). LESSONS_INDEX ledger stale (no lesson change).
+- HAWK K1 comparable-settle request and 3 DEWEY source reports explicitly deferred, files remain top-level inbox.
+- Full source/market/incident/holding refresh not commissioned by startup; existing October23 report/prior SCRATCH threads remain uncompleted.
+- Missing broker outcome remains UNKNOWN internally; no position inference or Will reminder.
 
 ## POSITION DECISIONS PENDING
-- None new for Will. TRADE owns structural receipts; TERRY constructs and grades; broker truth is off-repo. USER.md: no expiry reminders.
+- None new. TRADE remains structural/receipt owner, TERRY constructs; broker truth off-repo. No holding grade.
 
 ## MAIL STATE
-- Inbox: clear at 16:04 ET (top level and WALTER/).
-- Outbox: the packets of 10/21 and 10/23 are delivered direct to recipient inboxes. Publication is not consumption.
+- WALTER: 10 consumed = 10 rows = 10 git moves; EQT/Range full integration deferred with archived source packet.
+- General: MIDAS and PROME noted/consumed; HAWK and 3 DEWEY packets deferred in place. No MSG-* intake.
+- Outbox: October13 packets lack demonstrated closure at this boot; left in place. Publication is not consumption.
 
 ## WORKBOOK HEALTH
-- COT_VINTAGES current to #11. LESSONS_INDEX stale +12d (nothing to add). STATUS 70% of budget after rotation; TRADE 75% (not touched).
+- LESSONS_INDEX stale +14d; no lesson change, no cosmetic stamp. Boot incident aging and partial instrument coverage remain in receipt. Prediction-due finding addressed by endpoint grade; broker-record finding unresolved.
