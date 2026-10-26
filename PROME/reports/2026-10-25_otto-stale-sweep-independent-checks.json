@@ -21,5 +21,20 @@
   "four_owner_commits_on_origin_master": true,
   "brief_pin_matches_status": "63cb6063e9130d8d870d86e61d5a18aee02963a6",
   "owner_dirt": "",
-  "scope": "PROME independent preserved-term/code/calendar/pin/publication checks plus inspected claim-site diffs; not a fresh primary-source census."
+  "scope": "PROME independent preserved-term/code/calendar/pin/publication checks plus inspected claim-site diffs; not a fresh primary-source census.",
+  "final_prose_recheck": {
+    "accepted": true,
+    "receipt": "3393ff5f3",
+    "two_single_line_replacements_in_WHY_NOW_only": true,
+    "protected_hashes_unchanged": {
+      "STATUS.md": "1d15102e901b93c3c8d00cf844306e80de1a1b5e356b37d3089b612e43c0de5f",
+      "thesis/PREDICTIONS.tsv": "291466e97fab09526893f150c5267053691c2196ddffc5633320e87fa018f5ae",
+      "docket/CATALYSTS.tsv": "58ad103ffe322cd0a291b6ff98b56ea251789cb2f175a4347e8cc419cbd25eb3",
+      "scripts/shelf_halt_monitor.py": "3224ded4b242a2b5269aeca183764871e4293e59f152b25d49134c17d54575b7"
+    },
+    "all_three_followup_commits_on_origin_master": true,
+    "brief_pin_still_matches": true,
+    "owner_clean_at_review": true,
+    "limits": "Existing source/cadence/tool gaps and Oct30 review remain; no primary-source census."
+  }
 }
