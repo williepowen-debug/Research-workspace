@@ -1,6 +1,6 @@
 # MARCO Research Status Index
 
-**Updated:** 2026-09-24 (s30 stale sweep — prior 2026-06-15)
+**Updated:** 2026-10-25 (s36 bounded M1 index repair from existing VX evidence; no new source fetch or grade). Prior: 2026-09-24 (s30 stale sweep).
 **Purpose:** Track research thread status to prevent re-investigation
 
 ---
@@ -73,7 +73,7 @@
 |-----|----------------|----------|
 | Spirit total-airport attribution | Scheduled domestic replacement measured10/25 (T2-K complete); domestic-plus-international replacement and unique demand attribution remain unmeasured. No further investigation auto-commissioned. | 🟡 |
 | `NV-01` latest filing gaps | LAS Canadian-airline capacity refreshed10/25; May latest complete, Jun/Jul missing AC/Porter. Revisit with existing November BTS read, not a new standing monitor. | 🟠 |
-| `VX-1.03` "loss" basis | Basis ruled 8/21 (YoY spending) but the fresh 2026 figure is unpulled. | 🟡 |
+| `VX-1.03` later spending vintage | **Already measured 9/24:** BEA Travel exports, nominal/seasonally adjusted; actual trailing 12 months **Aug-2025–Jul-2026 versus the prior 12 months**, graded on the annual spending bands (see canonical VX-1.03). Later months and subsequent revisions have not been checked by this index repair; no current October coverage claimed. | 🟡 |
 | `VX-2.01` arrest-rate leg | ICE/TRAC arrest rate still Jun-15 vintage. | 🟡 |
 | USMCA preference under §338 | "Does not exempt" is not primary-supported (Proc. 11046 silent). | 🟡 |
 

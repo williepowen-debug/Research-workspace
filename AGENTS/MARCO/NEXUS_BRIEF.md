@@ -4,7 +4,7 @@
 **Domain:** Population movement — international visitors, workforce displacement and internal migration; Florida primary.
 **Thesis version:** v3.2, unchanged; position none.
 **Recent thesis pivot:** Channel 4 MED-LOW → LOW (9/24); s35 material evidence correction: MIA is Spirit-exposed, not a clean control.
-**As of:** 2026-10-25 21:38 ET (session 35). **STATUS commit:** `7cdb4f952` (prior pin; new STATUS and brief commit together, amendment 11).
+**As of:** 2026-10-25 22:15 ET (session 36 index-only M1 repair; research judgment unchanged). **STATUS commit:** `9a93bb871`.
 
 ---
 

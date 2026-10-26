@@ -1,5 +1,8 @@
-# MARCO SCRATCH — session 35
-**Last Updated:** 2026-10-25 21:33 ET. Bounded follow-up authorized by Will through committed PROME 0c0221120. Prior boot/instructions reused under its explicit reuse clause; no new helpers. OpenAI Codex, same owner thread 01a175a8-62c5-74a3-a010-0fb3d619f279, model serving suffix unknown.
+# MARCO SCRATCH — session 36 index repair; session 35 research handoff retained
+**Last Updated:** 2026-10-25 22:15 ET. PROME write-back audit M1 (bea1633fe), Will-authorized bounded consistency repair; existing evidence only. Session 35 research below remains complete.
+
+## SESSION 36 — bounded M1 repair
+RESEARCH_STATUS no longer calls tourism spending unpulled: it points to VX-1.03's September 24 actual trailing-12-month Aug-2025–Jul-2026 BEA Travel comparison. Later vintage/revisions remain unverified. No source fetch, data/grade/forecast change or new task. STATUS and ledgers unchanged; brief will pin existing STATUS commit 9a93bb871. Audit packet receipted and moved to processed; dated PROME completion saved.
 
 ## CHANGES SINCE session 34
 Domestic capacity replacement now measured, not just passenger offsets. **MIA Spirit-free assessment retracted** on two primary routes. LAS Canadian seat leg refreshed; latest complete May CRITICAL, June/July incomplete. No thesis/forecast definition/confidence change.
