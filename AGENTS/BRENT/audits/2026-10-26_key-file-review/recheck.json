@@ -1,0 +1,51 @@
+{
+  "checked_at": "2026-10-26T18:58:10-04:00",
+  "work_reviewed": [
+    "d82338a0e",
+    "dfc1edb6e"
+  ],
+  "scope": "Re-read saved evidence and prior commits; no fresh market/source retrieval; same owner session, no subagent",
+  "checks": {
+    "setups/SPECS_GATES.md": true,
+    "setups/SPECS_TRADE_RULES.md": true,
+    "setups/SPECS_OFFRAMP_ENTRY.md": true,
+    "workbook/REGISTRY.tsv": true,
+    "thesis/PREDICTIONS.tsv": true,
+    "USO/observations.tsv": true,
+    "binding_trade_quotes_unchanged": true,
+    "conservation_manifest": true,
+    "official_cme_pdf_hash_and_decimal_crack": "97.7840",
+    "closed_163C_gain": "145.68",
+    "named_broker_source_comparison": "October22 positions rows1/5/7/10/14/17 and October23 activity matched; canceled limit not booked; post-sale balances remain derived",
+    "issuer_and_theater_comparison": "EQT primary release transaction terms re-read; FALCON event/source/cargo qualifiers agree; no current rate or oil-loss proof inferred",
+    "cot_data_rows_unchanged": true
+  },
+  "reruns": {
+    "calendar": {
+      "rc": 0,
+      "output": "\u2705 CALENDAR: STATUS block matches docket/CATALYSTS.tsv (38 events)\n\u2705 STANDING STATE: all 8 row(s) stamped and reconciled at or after the newest graded catalyst (2026-10-26).\n"
+    },
+    "pending_receipts": {
+      "rc": 0,
+      "output": "  \u2705 PENDING-RECEIPTS: no unresolved execution receipts or elapsed explicit expiries.\n     Scope: EXECUTION LOG markers and POSITIONS expiry=YYYY-MM-DD fields only.\n     Broker truth and unrecorded trades remain outside this text check.\n"
+    },
+    "predictions_due": {
+      "rc": 0,
+      "output": "  \u23f3 Predictions-Due Scan...\n      \u2705 no OPEN predictions past (or within 7d of) their timeframe\n"
+    },
+    "read_cap": {
+      "rc": 0,
+      "output": "READ-CAP [BRENT] \u2014 cap 54,250 B \u00b7 budget 32,550 B (60%) \u00b7 ALL % BELOW ARE OF BUDGET (the number every verdict grades; \u2265100% = over) \u00b7 perimeter: 3 boot section(s) in CLAUDE.md, 29 'read' line(s) scanned (0 on-demand/grep + 0 SCOPED-read token(s) excluded by marker; 0 list item(s) inherited the parent line's read verb, L530), 5 whole-read file(s) found; boot.py-internal reads and prose outside the boot section NOT seen (heuristic \u2014 READS.tsv replaces it)\n  \u2705 STATUS.md                            22,767 B    70% of budget    (boot-step line 22 \u00b7 ALSO read whole by NEXUS:6)\n  \u2705 TRADE.md                             22,640 B    70% of budget    (boot-step line 22)\n  \u2705 LESSONS.md                           15,125 B    46% of budget    (boot-step line 26)\n  \u2705 domain/REFERENCE_TABLES.md            6,561 B    20% of budget    (boot-step line 27)\n  \u2705 SCRATCH.md                            3,556 B    11% of budget    (boot-step line 23)\n\u2705 READ-CAP 0 [BRENT]: every boot-mandated read this check found is under budget (5 file(s)). \u26a0\ufe0f PERIMETER IS THE CHARTER HEURISTIC \u2014 this desk has no declaration in PROME/registry/READS.tsv, so this is 'clean within what the scan found', NOT a clean bill. 29 of 37 desks delegate boot to a file it cannot see.\n  \u2139\ufe0f  charter AGENTS/BRENT/CLAUDE.md = 22,902 B \u2014 OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here\n  \u2709\ufe0f  OWNER-DIRECTED NOTICE [BRENT] (READ_CAP rule 15): 1 file(s) under AGENTS/BRENT/ that OTHER desks' declared boot reads load WHOLE \u2014 counted in THOSE readers' perimeters, NOT in this desk's totals or rc. The bytes are this desk's to rotate (rule 4); a breach here is also turning the READER's check red.\n     \u2705 AGENTS/BRENT/NEXUS_BRIEF.md          24,223 B    74% of budget  under 75% of budget  \u2190 read whole by NEXUS:6\nREAD-CAP-RESULT v1 mode=agent rc=0 assessed=1 desk=BRENT reads=5 over_budget=0 over_cap=0 manifest_defects=0 advisories=0 generated_flagged=0 rotation_due=0 active_decisions_over_budget=0 charter_mode=unspecified charter_reads=0 owner_notices=1 owner_notices_over_budget=0 charter_bytes=22902\n"
+    }
+  },
+  "findings": [
+    {
+      "severity": "minor metadata",
+      "old_NEXUS_size": 23876,
+      "actual_rechecked_size": 24223,
+      "repair": "validation.json updated and snapshot stage/time stated"
+    }
+  ],
+  "substantive_errors_found": false,
+  "remaining_limits": "Previously disclosed current-market/source/insurance/earnings gaps remain; script passes are not whole-domain clearance"
+}

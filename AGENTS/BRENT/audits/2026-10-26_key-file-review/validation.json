@@ -22,7 +22,7 @@
   "sizes": {
     "STATUS.md": 22767,
     "TRADE.md": 22640,
-    "NEXUS_BRIEF.md": 23876
+    "NEXUS_BRIEF.md": 24223
   },
   "missing_local_link_targets": [],
   "remaining_scope_limits": [
@@ -40,5 +40,7 @@
     "diff-check": 0
   },
   "self_consumer_disposition": "Only conserved before-image retains original phrase; active report sentence corrected. No cross-agent consumer on exact-string scan. WALTER receives scope correction because earlier packet carried same generalization.",
-  "raw_evidence_whitespace": "5 findings in conserved before-image/raw logs; preserved intentionally. Active reader diff check passes."
+  "raw_evidence_whitespace": "5 findings in conserved before-image/raw logs; preserved intentionally. Active reader diff check passes.",
+  "size_snapshot_at": "2026-10-26T18:58:10-04:00",
+  "size_snapshot_scope": "Recheck before any subsequent brief fold; replaces earlier pre-fold NEXUS measurement"
 }
