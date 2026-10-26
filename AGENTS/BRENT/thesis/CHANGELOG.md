@@ -1,3 +1,7 @@
+## 2026-10-26 — official settlement recovery; throughput basis narrowed; v5.13 unchanged
+
+Old: WTI-above100 follow-up intraday-only; October23 HO official pair not obtained; October21 single relayed Hormuz figure carried as settled basis. New: primary CME October23 CL/HO pair verified; WTI breach observed asof23 (first crossing UNKNOWN), exact December crack97.7840; no new ICE Brent count. CENTCOM quantitative primary recovered, but cumulative exports/count/safety cannot adjudicate contemporary volume. The14mb/d relay is no longer a single verified current figure; no average with regional exports/AIS. FALCON13:37 Saudi verification consumed: no new measured loss, current day partial. EQT integration conditional on Q12027 closing/approvals; no immediate supply increment. WQ510 remains uninstalled. No version, probability, threshold or capital-authority change. [Evidence](../research/2026-10-26_energy-review/REPORT.md).
+
 ## 2026-10-26 — BRT-30 endpoint closed; v5.13 unchanged
 
 Old: BRT-30 OPEN, due October26. New: CONFIRMED at 80%, Brier0.04, on fresh IUA index/JWLA-035 body retaining both Gulf areas. Frozen baseline unchanged; underwriting classification is not premiums, barrels, diplomacy or capital authority. THESIS v5.13/WAIT unchanged. [Evidence and limits](../research/2026-10-26_boot/REPORT.md#brt-30-endpoint-grade).

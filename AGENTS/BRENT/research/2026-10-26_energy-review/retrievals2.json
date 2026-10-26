@@ -1,0 +1,37 @@
+[
+  {
+    "key": "centcom-release",
+    "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4633061/centcom-commander-visits-strait-of-hormuz-during-milestone-week/",
+    "status": 200,
+    "bytes": 82205,
+    "text_bytes": 5266
+  },
+  {
+    "key": "dvids-release",
+    "url": "https://www.dvidshub.net/news/577799/centcom-commander-visits-strait-hormuz-during-milestone-week",
+    "status": 200,
+    "bytes": 68247,
+    "text_bytes": 4998
+  },
+  {
+    "key": "ice-report10",
+    "url": "https://www.ice.com/report/10",
+    "status": 200,
+    "bytes": 110475,
+    "text_bytes": 2250
+  },
+  {
+    "key": "ice-brent-data",
+    "url": "https://www.ice.com/products/219/Brent-Crude-Futures/data",
+    "status": 200,
+    "bytes": 116872,
+    "text_bytes": 1058
+  },
+  {
+    "key": "kpler-september",
+    "url": "https://www.kpler.com/blog/what-the-strait-of-hormuzs-fragile-recovery-signal-means-for-oil-flows-and-prices",
+    "status": 200,
+    "bytes": 182153,
+    "text_bytes": 11058
+  }
+]

@@ -672,8 +672,11 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-26T13:30:21-04:00	SIG-W-20261025-011	noted	INBOX_WALTER	Startup triage only; source limits and follow-ups in research/2026-10-26_boot/REPORT.md
 2026-10-26T13:30:21-04:00	SIG-W-20261025-024	noted	INBOX_WALTER	Startup triage only; source limits and follow-ups in research/2026-10-26_boot/REPORT.md
 2026-10-26T13:30:21-04:00	SIG-W-20261025-026	noted	INBOX_WALTER	Applied COR-20261025-26 framing correction; no kinetic or barrel-loss inference
-2026-10-26T13:30:21-04:00	SIG-W-20261026-006	deferred	INBOX_WALTER	Startup triage only; source limits and follow-ups in research/2026-10-26_boot/REPORT.md
-2026-10-26T13:30:21-04:00	SIG-W-20261026-007	noted	INBOX_WALTER	Startup triage only; source limits and follow-ups in research/2026-10-26_boot/REPORT.md
-2026-10-26T13:30:21-04:00	SIG-W-20261026-009	noted	INBOX_WALTER	Startup triage only; source limits and follow-ups in research/2026-10-26_boot/REPORT.md
+2026-10-26T13:30:21-04:00	SIG-W-20261026-006	acted	INBOX_WALTER	Follow-up 2026-10-26T13:41:44-04:00: full EQT/Range primary announcement read; conditional closing, combined EV and no immediate supply increment integrated in research/2026-10-26_energy-review/REPORT.md
+2026-10-26T13:30:21-04:00	SIG-W-20261026-007	noted	INBOX_WALTER	Follow-up 2026-10-26T13:41:44-04:00: diplomacy is not restored throughput; AP locator unrecovered; FALCON continuation read; report energy-review §1-2
+2026-10-26T13:30:21-04:00	SIG-W-20261026-009	info-only	INBOX_WALTER	Follow-up 2026-10-26T13:41:44-04:00: diffusion-index composition retained; no measured energy-demand/causal attribution; ISHM/CARL own conclusions
 2026-10-26T13:30:21-04:00	2026-10-25_from-MIDAS_gold-oil-comparison	noted	INBOX	Startup triage only; source limits and follow-ups in research/2026-10-26_boot/REPORT.md
-2026-10-26T13:30:21-04:00	2026-10-26_from-PROME_monday-routine-consumed	noted	INBOX	Startup triage only; source limits and follow-ups in research/2026-10-26_boot/REPORT.md
+2026-10-26T13:30:21-04:00	2026-10-26_from-PROME_monday-routine-consumed	acted	INBOX	Follow-up 2026-10-26T13:41:44-04:00: CENTCOM primary recovered; source roles reconciled, current rate unresolved; official CLZ26 October23 grade supplied, report energy-review
+2026-10-26T13:41:44-04:00	2026-10-25_from-DEWEY_hawk-03-marine-war-risk-prices-coverage	noted	INBOX	Integrated in research/2026-10-26_energy-review/REPORT.md; K1 remains UNMEASURED; no inferred loss/current insurance ratio
+2026-10-26T13:41:44-04:00	2026-10-25_from-HAWK_K1-five-settle-input	noted	INBOX	Integrated in research/2026-10-26_energy-review/REPORT.md; K1 remains UNMEASURED; no inferred loss/current insurance ratio
+2026-10-26T13:41:44-04:00	2026-10-26_from-FALCON_saudi-pumping-airport-verification	acted	INBOX	Integrated in research/2026-10-26_energy-review/REPORT.md; K1 remains UNMEASURED; no inferred loss/current insurance ratio

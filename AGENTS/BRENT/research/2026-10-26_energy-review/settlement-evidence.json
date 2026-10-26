@@ -1,0 +1,23 @@
+{
+  "observation_date": "2026-10-23",
+  "source": "CME FINAL bulletin205 section61 page1",
+  "CLZ26_USD_per_bbl": "103.27",
+  "HOZ26_USD_per_gallon": "4.7870",
+  "crack_formula": "42*HOZ26-CLZ26",
+  "crack_exact_USD_per_bbl": "97.7840",
+  "notice_strict_below95": false,
+  "exit_strict_below90_16": false,
+  "WTI_strict_above100": true,
+  "first_post_reset_crossing_date": "UNKNOWN",
+  "official_oct26_settlement": "NOT_YET_OBSERVED",
+  "metadata_expiries_utc": {
+    "CL=F": "2026-11-20",
+    "CLZ26.NYM": "2026-11-20",
+    "HOZ26.NYM": "2026-11-30",
+    "HOF27.NYM": "2026-12-31",
+    "BZZ26.NYM": "2026-11-02",
+    "BZF27.NYM": "2026-12-01"
+  },
+  "sha256_cme_final": "608e18ff725e46cf7a113e2a9418e0b67d803cbcb20d469ef81ef03bda1c9a7d",
+  "duplicate_retrieval_same_bytes": true
+}

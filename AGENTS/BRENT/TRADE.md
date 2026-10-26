@@ -10,6 +10,8 @@
 
 ### WQ-386 — approved amendment applied to original held VLO ×1
 
+**October26 source upgrade — observation dated October23:** CME FINAL bulletin205/section61/p1 gives HOZ26 $4.7870/gal and CLZ26 $103.27/bbl [CONF primary]. WQ-420 source(1), exact crack $97.7840/bbl: below neither $95 nor $90.16. [Immutable evidence and calculation](research/2026-10-26_energy-review/REPORT.md#3-existing-energy-triggers--official-prices-versus-vendor-indications). No vendor bars needed for this valid official pair. TERRY owns holding grades/B1–B3; original-share scope, outstanding exits and calibration caveat survive. No new order or position inference. Earlier vendor-only access limits below are dated history, superseded for this October23 source pair only.
+
 **BRENT-published December leg-A observations (October 21, source-(3) ESTIMATES, WQ-420 native-tick basis):** 10/15 98.9213 · 10/16 99.4509 · 10/19 99.8657 · 10/20 100.1768 · **10/21 95.0479**. None is below $95 or $90.16; 10/21 is $0.048 above the notice line. CME settlement not obtained (desk scripts blocked); vendor daily rows rejected. TERRY grades. The question of whether the notice inherits the gate's ±$0.15 band at $95 was routed to TERRY. No holding grade, notice, SELL or order here. **Company context (not a grade):** Valero's CFO said 7/30 that Port Arthur runs at normal throughput, with its diesel hydrotreater back by year-end, and a separate ~9/1 storm power outage was reported; Valero Q3 is 10/22 ([re-verify](research/2026-10-21_incidents-reverify/REPORT.md)). Russian refinery halts (Ryazan, Perm, YANOS, Syzran, Saratov) support distillate tightness; SATORP's restart works the other way. [Adoption record](research/2026-10-21_henry-december-adoption/REPORT.md).
 
 Canonical ruling: [PROME § Approved amendment](../../PROME/proposals/2026-10-07_VLO-december-management-RULED.md#approved-amendment). TERRY owns canonical card integration and grades; Will executes. Exact approved operational letter reproduced for this reader path; rationale at [RULINGS](RULINGS.md#r-2026-10-07-wq-386--held-share-month-extension).
@@ -29,18 +31,9 @@ Canonical ruling: [PROME § Approved amendment](../../PROME/proposals/2026-10-07
 
 Thesis and calibration: [THESIS](thesis/THESIS.md). **WAIT; WQ-189/192 STAND DOWN; no live deploy gate or discretionary arm.** BG-02 remains binding; today's container casualties/lagged single-vendor AIS diagnostic do not establish its head clause. Policy legB1 remains binding; the [October5 search](research/2026-10-05_market-open/REPORT.md) and [September28 sensitivities](research/2026-09-28_us-diesel-export-ban-risk.md) retain their dates, not a current policy clearance. Current OMR/shipping/option evidence is linked below; no new holding grade.
 
-### October14 expression assessment — research candidates, no new ticket
+### Dated expression comparison
 
-**Wait on new purchases.** Today's [option comparison](research/2026-10-14_energy-option-continuity/REPORT.md) extends the [benchmark comparison](research/2026-10-12_USO-view/EXPRESSION_COMPARISON.md). Quote retrieval is13:30EDT, option bid/ask clocks unavailable; research authority is not purchase authority. TERRY's dated owner refusals are not superseded by this desk's screen.
-
-| Expression | Current disposition |
-|---|---|
-| **USO** | Existing WTI exposure/recorded structural vehicle. December18 162/175 is leading research candidate:65DTE, approximately$396 opening cost/max expiration loss and$165.963 expiration breakeven [EST vendor sides13:30EDT plus assumed$0.65/contract opening fees]. Approximately$83 displayed roundtrip friction; no calibrated price edge, TERRY card or buy recommendation. |
-| **BNO** | October14 returned no60–90DTE expiry; January15 is93DTE. Dated TERRY common-share feasibility/NO TRADE remains. Brent fit does not prove superior return; no tenor waiver, USO switch or vehicle approval. |
-| **VLO** | Current quantity/scope: POSITIONS below. October14 screen remains dated research; no add recommendation or scope extension. |
-| **MPC / PSX** | Existing [TERRY L689](../TERRY/setups/MPC_refiner-margin-resilience_L689_2026-10-12.md) PASS retains its dated quotes. Today's MPC500/510 screen exceeds cap; PSX310/320 fits dollar cap but has poorer payoff/friction than preferred USO. Own-company earnings/valuation edge remains unproved; affordability alone does not repair it. |
-
-**Time and implementation:** shares and October 14 calls share crude direction with different clocks. Forward Panama risk or gradual tightening cannot establish a move before Wednesday expiry. The [TERRY Oct14 card](../TERRY/setups/USO150C_oct14-sell-or-roll_2026-10-12.md) prefers sale conditional on a confirmed profitable broker bid; October13card receipt records the October12one-contract$2.66Day order CANCELED, no fill or resting order. Proposed review times were not adopted. Will handles sell/roll. No new ticket, deadline, broker mark or order is inferred. TERRY constructs/grades; Will executes. Existing holding-specific rules, full specs, registered USO vehicle and WQ192 govern. L694 comparison and L633 bounded read accepted complete; historical October12afternoon owner grade UNKNOWN. Its CME source gap is now closed, but no new owner grade is inferred. DEWEY bounded commission complete; physical/company-earnings evidence remains UNKNOWN. [Company continuation](research/2026-10-13_energy-wait/COMPANY-FOLLOWUP.md).
+October14 research, not a current ticket: [verbatim archive](archive/TRADE_expression_2026-10-14.md), 2629 UTF-8 payload bytes, crc32 `797257ff`. Current stance, structural receipts, complete decision read paths and binding specs remain here.
 
 ### FRAME-BREAKER STATE (letter: [BG-02](setups/SPECS_GATES.md#bg-02--frame-breaker-prospective-capacity-floor-and-constraints))
 

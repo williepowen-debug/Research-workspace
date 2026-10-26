@@ -1,0 +1,58 @@
+[
+  {
+    "key": "cme-energy-final",
+    "url": "https://www.cmegroup.com/daily_bulletin/current/Section61_Energy_Futures_Products.pdf",
+    "status": 200,
+    "bytes": 267553,
+    "saved": "cme-energy-final.pdf",
+    "at": "2026-10-26T17:33:37.566218+00:00"
+  },
+  {
+    "key": "cme-energy-prelim",
+    "url": "https://www.cmegroup.com/daily_bulletin/current/Section61_Energy_Futures_Products.pdf?download=1",
+    "status": 200,
+    "bytes": 267553,
+    "saved": "cme-energy-prelim.pdf",
+    "at": "2026-10-26T17:33:37.936030+00:00"
+  },
+  {
+    "key": "eqt-range-release",
+    "url": "https://ir.rangeresources.com/static-files/d0f85b39-e8ec-4761-8be7-ad192d150777",
+    "status": 200,
+    "bytes": 251535,
+    "saved": "eqt-range-release.pdf",
+    "at": "2026-10-26T17:33:37.578778+00:00"
+  },
+  {
+    "key": "spa-riyadh",
+    "url": "https://www.spa.gov.sa/N2710291",
+    "status": 200,
+    "bytes": 169264,
+    "saved": "spa-riyadh.html",
+    "at": "2026-10-26T17:33:38.479521+00:00"
+  },
+  {
+    "key": "centcom-index",
+    "url": "https://www.centcom.mil/MEDIA/PRESS-RELEASES/",
+    "status": 200,
+    "bytes": 320669,
+    "saved": "centcom-index.html",
+    "at": "2026-10-26T17:33:37.689449+00:00"
+  },
+  {
+    "key": "kpler-oct1",
+    "url": "https://www.kpler.com/es/blog/hormuz-normalisation-no-longer-needs-to-wait-for-a-deal",
+    "status": 200,
+    "bytes": 187942,
+    "saved": "kpler-oct1.html",
+    "at": "2026-10-26T17:33:38.840611+00:00"
+  },
+  {
+    "key": "reuters-pump-claim",
+    "url": "https://www.timeslive.co.za/news/world/2026-10-26-houthis-say-they-attacked-east-west-oil-pumping-stations/",
+    "status": 200,
+    "bytes": 438277,
+    "saved": "reuters-pump-claim.html",
+    "at": "2026-10-26T17:33:37.363608+00:00"
+  }
+]

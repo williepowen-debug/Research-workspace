@@ -1,0 +1,78 @@
+{
+  "retrieved_at": "2026-10-26T17:35:54.082912+00:00",
+  "type": "vendor intraday/metadata; never official settlement",
+  "symbols": {
+    "CL=F": {
+      "symbol": "CL=F",
+      "shortName": "Crude Oil Dec 26",
+      "longName": null,
+      "exchange": "NYM",
+      "quoteType": "FUTURE",
+      "expireDate": 1795132800,
+      "regularMarketTime": 1793035550,
+      "regularMarketPrice": 102.17,
+      "regularMarketPreviousClose": 103.27,
+      "previousClose": 103.27
+    },
+    "CLZ26.NYM": {
+      "symbol": "CLZ26.NYM",
+      "shortName": "Crude Oil Dec 26",
+      "longName": "Crude Oil Dec 26",
+      "exchange": "NYM",
+      "quoteType": "FUTURE",
+      "expireDate": 1795132800,
+      "regularMarketTime": 1793035550,
+      "regularMarketPrice": 102.17,
+      "regularMarketPreviousClose": 103.27,
+      "previousClose": 103.27
+    },
+    "HOZ26.NYM": {
+      "symbol": "HOZ26.NYM",
+      "shortName": "Heating Oil Dec 26",
+      "longName": "Heating Oil Dec 26",
+      "exchange": "NYM",
+      "quoteType": "FUTURE",
+      "expireDate": 1795996800,
+      "regularMarketTime": 1793035549,
+      "regularMarketPrice": 4.7616,
+      "regularMarketPreviousClose": 4.787,
+      "previousClose": 4.787
+    },
+    "HOF27.NYM": {
+      "symbol": "HOF27.NYM",
+      "shortName": "Heating Oil Jan 27",
+      "longName": "Heating Oil Jan 27",
+      "exchange": "NYM",
+      "quoteType": "FUTURE",
+      "expireDate": 1798675200,
+      "regularMarketTime": 1793035520,
+      "regularMarketPrice": 4.6559,
+      "regularMarketPreviousClose": 4.6765,
+      "previousClose": 4.6765
+    },
+    "BZZ26.NYM": {
+      "symbol": "BZZ26.NYM",
+      "shortName": "Brent Crude Oil Last Day Financ",
+      "longName": "Brent Crude Oil Last Day Financ",
+      "exchange": "NYM",
+      "quoteType": "FUTURE",
+      "expireDate": 1793577600,
+      "regularMarketTime": 1793035549,
+      "regularMarketPrice": 116.19,
+      "regularMarketPreviousClose": 116.72,
+      "previousClose": 116.72
+    },
+    "BZF27.NYM": {
+      "symbol": "BZF27.NYM",
+      "shortName": "Brent Crude Oil Last Day Financ",
+      "longName": "Brent Crude Oil Last Day Financ",
+      "exchange": "NYM",
+      "quoteType": "FUTURE",
+      "expireDate": 1796083200,
+      "regularMarketTime": 1793035545,
+      "regularMarketPrice": 111.08,
+      "regularMarketPreviousClose": 111.7,
+      "previousClose": 111.7
+    }
+  }
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "path": "AGENTS/FALCON/reports/2026-10-26_startup-receipt.md",
+    "read_at": "2026-10-26T13:41:44-04:00",
+    "sha256": "a54828f7b9dc7f7d148750265652a45d6f32ac6f446e2d0e9a49244fa8009cc2",
+    "commit": "1bff6df25da308a06be4ab6ce6192477f5bd2d29"
+  },
+  {
+    "path": "AGENTS/FALCON/reports/2026-10-26_saudi-claims-and-L807.md",
+    "read_at": "2026-10-26T13:41:44-04:00",
+    "sha256": "2e7ee8ce5a3a6463439642d6339dc9e182eebf3087b54f432b69e12058ab0980",
+    "commit": ""
+  },
+  {
+    "path": "AGENTS/FALCON/STATUS.md",
+    "read_at": "2026-10-26T13:41:44-04:00",
+    "sha256": "07e1174808a9fc05982501a33edbf4d050c232dcf42c45cfd944a58fb475a075",
+    "commit": "1bff6df25da308a06be4ab6ce6192477f5bd2d29"
+  },
+  {
+    "path": "AGENTS/DEWEY/output/2026-10-25_marine-war-risk-prices-coverage.md",
+    "read_at": "2026-10-26T13:41:44-04:00",
+    "sha256": "654b947e58a3d8bbe3a611bef1722cc72777f955102018830a8f20966f1c51e4",
+    "commit": "2fc7b0942c31fe68d81d6a483015e441d9f90b39"
+  },
+  {
+    "path": "AGENTS/HAWK/thesis/FALSIFICATION.md",
+    "read_at": "2026-10-26T13:41:44-04:00",
+    "sha256": "9045b8a448b7fe059b5e3b57846264eb01bd67869d59c303f982fa1e71146577",
+    "commit": "3841fe06cdf51097c872b11e9a2c0cd46202d055"
+  },
+  {
+    "path": "AGENTS/WALTER/design/ROUTING_OVERLAYS.md",
+    "read_at": "2026-10-26T13:41:44-04:00",
+    "sha256": "f3f16de35ff5c2c955b4dac0f9f38392fb239aff5006155a688aec5228c06377",
+    "commit": "0adecd02197ae27ac1b390b22ad177aea375005c"
+  }
+]

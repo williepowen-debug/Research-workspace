@@ -1,0 +1,62 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  SELF mode: 626 files under AGENTS/BRENT/ (processed/ + archive/ still excluded — historical by design). Nothing outside your own dir is scanned.
+
+  ── value · superseded 14 → current UNRESOLVED current same-perimeter flow
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (15)
+        AGENTS/BRENT/NEXUS_BRIEF.md:23  [14]
+           | HAWK / FALCON / PROME / HENRY / TERRY | **Hormuz basis (KB-HAWK-446):** PortWatch = AIS-visible transits, a lower bound (10/12–10/18: 26 s
+        AGENTS/BRENT/NEXUS_BRIEF.md:46  [14]
+           | Kpler / WSJ | October-week Kpler primary behind the ~14 mb/d / 82% relay (10/21 check: newest reachable Kpler primary is 10/1; the October
+        AGENTS/BRENT/NEXUS_BRIEF.md:62  [14]
+           - October 21: Hormuz volume (~14 mb/d, 82% of pre-war, week to 10/18, relayed preliminary; partial-fleet Lvision 14.7 roughly agrees) with B
+        AGENTS/BRENT/board_log.tsv:77  [14]
+           2026-07-28 21:45:00 EDT	SIG-W-20260728-011	acted	INBOX_WALTER	CLOSES MY #1 OPEN PULL - the one I recorded as 'the highest-value open item on
+        AGENTS/BRENT/research/2026-10-08_isaias-hormuz/REPORT.md:124  [14]
+           25.08% Gulf oil shut in = 511,619 b/d [CONF MMA 10/7 11:00 CDT]; Gulf ~2.04 MMb/d ≈ 14% of US crude. Magnitude trivial vs stocks: 511 kb/d ×
+        AGENTS/BRENT/research/2026-10-21_eia-oct21/REPORT.md:44  [14]
+           | **Kpler via WSJ** (secondary relay; WSJ not read) | Week through 10/18: **~14 mb/d = 82% of pre-war**, "including offshore transfers in th
+        AGENTS/BRENT/research/2026-10-21_eia-oct21/REPORT.md:47  [14]
+           **Verdict: PROME's hypothesis holds in part, and the main driver is AIS-darkness rather than bypass alone.** Bypass explains why regional ex
+        AGENTS/BRENT/research/2026-10-21_eia-oct21/REPORT.md:100  [14]
+           | Week to 10/18 | **~14 mb/d (82%)** | through the strait incl. Gulf of Oman offshore transfers, preliminary | WSJ via IBTimes / Seeking Alp
+        AGENTS/BRENT/research/2026-10-21_eia-oct21/REPORT.md:104  [14]
+           **Cross-check:** 14 / 17.1 = 81.9%, so the WSJ 82% sits on Al Jazeera's 17.1 mb/d Kpler Hormuz pre-war baseline. The level and baseline are 
+        AGENTS/BRENT/research/2026-10-21_eia-oct21/REPORT.md:117  [14]
+           **The October-week Kpler figures remain secondary-only** (WSJ via IBTimes 10/21 13:31 ET; Bloomberg 10/21 summary): Hormuz ~14 mb/d (82%, pr
+        AGENTS/BRENT/research/2026-10-21_eia-oct21/REPORT.md:119  [14]
+           **Independent cross-check (non-Kpler, unverified tracker):** Lvision (pgcrudeflows.lvision.ae, an X trader account; read 10/21). It shows a 
+        AGENTS/BRENT/research/2026-10-21_eia-oct21/REPORT.md:121  [14]
+           **Effect on BRENT's recorded figure:** unchanged. ~14 mb/d Hormuz basis (Kpler preliminary) [EST secondary], now with partial independent co
+        AGENTS/BRENT/research/2026-10-26_energy-review/REPORT.md:31  [14]
+           | Kpler via WSJ, week to October 18, carried secondary relay | About **14 mb/d / 82%**, described as Hormuz including Gulf of Oman offshore 
+        AGENTS/BRENT/thesis/CHANGELOG.md:11  [14]
+           Old: week 10/16 unevaluated; Hormuz input carried as UNRECONCILED between PortWatch transit counts and Kpler volume (PROME 10/21, HAWK KB-44
+        AGENTS/BRENT/thesis/THESIS.md:6  [14]
+           **October 21 scoped update:** (1) **Crude/product split, now at a Kpler primary:** Kpler (10/1) puts Gulf crude exits plus bypass at ~100% o
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (6532)
+        AGENTS/BRENT/2026-08-28_session-delivery.md:19  [14]  (no unit/series context on line)
+           `board_log.tsv` **511% over the read cap** and I appended 14 rows to it today — **not fixed, because it is the mail protocol's reconcile sur
+        AGENTS/BRENT/CLAUDE.md:18  [14]  (no unit/series context on line)
+           **Boot and closeout are symmetric.** Run steps 7–14 at EVERY session end, including intraday sessions (`[[feedback_intra_day_closeout_discip
+        AGENTS/BRENT/CLAUDE.md:54  [14]  (no unit/series context on line)
+           **EXECUTE THE TASK.** Keep unnumbered. Closeout steps 7–14 are cited elsewhere: **do not renumber** (11 SCRATCH; 12 NEXUS fold).
+        AGENTS/BRENT/CLAUDE.md:73  [14]  (no unit/series context on line)
+           14. **Git:** commit own files per root CLAUDE.md §Git Protocol (pathspec `AGENTS/BRENT/`) + auto-push via `scripts/safe-push.sh` (ff-gated; 
+        AGENTS/BRENT/CLAUDE.md:203  [14]  (no unit/series context on line)
+           ## DIRECT MESSAGING V1 — FIRST COHORT (WILL-APPROVED 2026-07-14)
+        AGENTS/BRENT/LESSONS.md:33  [14]  (no unit/series context on line)
+           14. **1986 = the canonical glut/bank-crisis analog (geographic concentration).** Use the 1986 comparison to investigate geographic concentra
+        AGENTS/BRENT/LESSONS.md:41  [14]  (no unit/series context on line)
+           18. **Separate signature, paired tanker liveness and physical retention.** Distinguish rhetoric, signed agreement and physical reopening. En
+        AGENTS/BRENT/LESSONS.md:62  [14]  (no unit/series context on line)
+           ⚠️ **I caught none of the four; HENRY caught all four.** A desk cannot review its own support by re-reading its own output — the reviewer ha
+        … +6524 more 🟠 hit(s) on [14] across 361 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+     🟡 in MAIL, point-in-time — usually no action (66: BRENT)
+     🟢 cleared: marker-adjacent / next to new value / frozen file (249)  [--show-handled to audit]
+
+  🔴 15 stale reference(s) on YOUR OWN surfaces. You are the owner: fix them in place this session — no packet, nobody else to tell. Fix by PATTERN, not by the line list above (a line-targeted sweep left a hit on the highest-blast-radius surface three times in one night).
+==================================================================
+

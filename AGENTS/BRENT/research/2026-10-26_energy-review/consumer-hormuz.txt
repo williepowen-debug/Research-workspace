@@ -1,0 +1,68 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/BRENT/   (processed/ + archive/ excluded everywhere — historical by design)
+
+  ── value · superseded 14 → current UNRESOLVED current same-perimeter flow
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (18)
+        AGENTS/WALTER/SESSION_LOG.md:2731  [14]
+           **Updated:** 2026-07-28 (Tue **EVENING session** ~4:37 PM ET boot → ~00:3xZ 7/29 close; **US MARKETS CLOSED all session**; Will-Telegram "pl
+        AGENTS/WALTER/research/2026-10-14_three-thread-verification/before-SESSION_LOG.md:1995  [14]
+           **Updated:** 2026-07-28 (Tue **EVENING session** ~4:37 PM ET boot → ~00:3xZ 7/29 close; **US MARKETS CLOSED all session**; Will-Telegram "pl
+        AGENTS/WALTER/research/2026-10-26_boot/owner-context-0.txt:97  [14]
+           **Current judgment:** THESIS v5.13 / WAIT retained from the October 14 assessment; product scarcity may persist alongside crude recovery. Oc
+        AGENTS/WALTER/research/2026-10-14_morning-news/before-SESSION_LOG.md:1992  [14]
+           **Updated:** 2026-07-28 (Tue **EVENING session** ~4:37 PM ET boot → ~00:3xZ 7/29 close; **US MARKETS CLOSED all session**; Will-Telegram "pl
+        AGENTS/WALTER/research/2026-10-25_boot/owner-headers.txt:118  [14]
+           **Current judgment:** THESIS v5.13 / WAIT retained from the October 14 assessment; product scarcity may persist alongside crude recovery. Oc
+        AGENTS/WALTER/research/2026-10-14_walter-closeout/before-SESSION_LOG.md:1998  [14]
+           **Updated:** 2026-07-28 (Tue **EVENING session** ~4:37 PM ET boot → ~00:3xZ 7/29 close; **US MARKETS CLOSED all session**; Will-Telegram "pl
+        AGENTS/WALTER/research/2026-10-22_iran-full-sweep/SWEEP.md:19  [14]
+           | 6 | Hormuz transit print | **NO RECOVERY (floor)** | IMF PortWatch `chokepoint6`, own query 10/22: 10/12–10/18 = 3, 7, 3, 2, 7, **0**, 4 →
+        AGENTS/FALCON/workbook/KB.tsv:317  [14]
+           KB-FALCON-315	2026-10-22	HORMUZ	IRGC 10/22 claim: 4 STS tankers hit (northern Gulf) + 3 mine hits west of Hormuz — CLAIM-ONLY	IRGC Navy via 
+        AGENTS/FALCON/workbook/KB.tsv:322  [14]
+           KB-FALCON-320	2026-10-22	HORMUZ	Hormuz instruments 10/22 — no new prints	PortWatch transit (own run 10/22 13:2x ET): newest print still 10/1
+        AGENTS/NEXUS/research/2026-10-23_full_pass/DIGEST_R1.md:59  [14]
+           - Hormuz basis (KB-HAWK-446): PortWatch 10/12–10/18 26 ships, tanker capacity 87,683 t ("under 1% of volume"); volume ~14 mb/d, 82% of pre-w
+        AGENTS/HAWK/thesis/FALSIFICATION.md:12  [14]
+           > - FLOW-HAWK-19 decoupling holds on the VOLUME basis. Kpler ~14 mb/d through Hormuz in the week to 10/18 is 82% of pre-war; PortWatch 4/88 
+        AGENTS/HAWK/workbook/KB.tsv:454  [14]
+           KB-HAWK-450	2026-10-21	HORMUZ	Hormuz flow instruments (KB-446 resolution)	KB-446 RESOLVED by BRENT (verified at AGENTS/BRENT/research/2026-1
+        PROME/plans/2026-10-23_heartbeat-34th-rebase-PLAN.md:54  [14]
+           **Declared residue from the result read (⚠️, not fixed):** W1 marks 1/14/85 lack unit/owner inline (FALCON scenario marks) · W2 FALCON-001 8
+        PROME/reports/2026-10-23_heartbeat-rebase/HEARTBEAT_candidate.md:8  [14]
+           **1. Energy — 🟠** Brent Dec `BZZ26` **$116.72 settle (+$3.55)**, WTI `CLZ26` $103.27 (+$3.80) [10/23, BRENT 0da921804: Newsquawk settle wrap
+        PROME/reports/2026-10-23_heartbeat-rebase/result-read.md:30  [14]
+           W12. Unsourced/undated cells: "SOFR 3.90 / SOFR−IORB 0 bp [10/22]" (no source named in §2), "Hormuz ~14 mb/d relayed (82% of pre-war)" (no d
+        BOARD/SIG-W-20260728-011-gs-oil-tracker-yanbu-loadings-3-3-the-leg3-data-now-exists-hormuz-8pct.md:18  [14]
+           # 🔴 THE POST-7/25 YANBU LOADINGS DATA NOW EXISTS — GS/Kpler: **7-day avg 3.3 mb/d (crude 2.7) vs 30-day 4.3 (crude 3.7)**, against FALCON's 
+        BOARD/SIG-W-20260728-011-gs-oil-tracker-yanbu-loadings-3-3-the-leg3-data-now-exists-hormuz-8pct.md:41  [14]
+           - **Persian Gulf total flows: 9.4 mb/d = 41% of pre-war**, with the late-July net hit shown around **~13–14 mb/d** (decomposition panel part
+        BOARD/SIG-W-20260728-011-gs-oil-tracker-yanbu-loadings-3-3-the-leg3-data-now-exists-hormuz-8pct.md:43  [14]
+           ## 3. 🔑 THE RECONCILIATION THAT MATTERS — a ~13-14 mb/d flows hit against a −2.7 mb/d inventory draw
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (66814)
+        AGENTS/SELF_RULINGS.tsv:18  [14]  (no unit/series context on line)
+           2026-08-20	WAL	MI3 denominator basis: divide RCON2746 by RC-C item 4 alone, or by items 4+9? (P8)	SPLIT RULING, two owners. (a) MY frozen be
+        AGENTS/SELF_RULINGS.tsv:22  [14]  (no unit/series context on line)
+           2026-08-21	MIDAS	L-13: every registered I1 (copper) trigger is a DOWNSIDE band, so a physical TIGHTENING regime scores 1 (benign) - may I ad
+        AGENTS/_INDEX.md:61  [14]  (no unit/series context on line)
+           | GIBBS | [`GIBBS/`](./GIBBS/) | Credit (large-bank desk — the 16 US firms in Fed Categories I–III, named list re-cut quarterly; industry-wi
+        AGENTS/SIGNALS.md:5  [14]  (no unit/series context on line)
+           **Last reset:** 2026-03-14. All prior entries (Feb 14–Mar 12) archived — fully integrated into NEXUS STATUS.md.
+        AGENTS/SIGNALS.md:49  [14]  (no unit/series context on line)
+           | 2026-10-15 | LIQUID | VULCAN, VIOLET; info NEXUS, TERRY (via WALTER) | 🟠 | **GATE-LIQ-069 L4 FIRED on the 10/14 session** (CRWV raw −15.46
+        AGENTS/SIGNALS.md:50  [14]  (no unit/series context on line)
+           | 2026-10-21 | LIQUID | ALL (via WALTER; packet processed by WALTER, BOARD SIG-W-20261019-003 carries the same sequence) | 🔴 | **HY OAS >320
+        AGENTS/_CREDIT.md:17  [14]  (no unit/series context on line)
+           | GIBBS | [`GIBBS/`](./GIBBS/) | Large banks — the 16 US firms in Fed Categories I–III (named list); comparison group for REGINALD (industry
+        AGENTS/CORAL/LESSONS.md:20  [14]  (no unit/series context on line)
+           **Mistake pattern (caught in self-steelman, 2026-06-25):** I read SBCF's 30-89d past-due −14% QoQ as "cooling / benign" and led with it — wh
+        … +66806 more 🟠 hit(s) on [14] across 5739 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+     🟡 in MAIL, point-in-time — usually no action (737: AEOLUS, BOND, BROCK, CARL, CORAL, CREED, CRUISE, DAEDALUS, DEWEY, FALCON, FERT, FLG, GIBBS, HANS, HAWK, HENRY, HOMER, LABOR, LIQUID, MIDAS, NEXUS, ORACLE, OSPREY, OTTO, OZK, RED, REGINALD, SAM, SHADE, TERRY, VIOLET, VULCAN, WAL, WALTER, WATT, ZHAO)
+     🟢 cleared: marker-adjacent / next to new value / frozen file (5861)  [--show-handled to audit]
+
+  🔴 18 stale consumer reference(s). Send each owner a packet with the refreshed value — do NOT edit their files.
+==================================================================
+
