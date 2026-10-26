@@ -3,13 +3,15 @@
 
 ---
 
+**Latest evidence:** `domain/sources/2026-10-25_news-catchup.md` — October California farm disruption, H-2A court deadline, Canadian tariff scope change; source and release-check limits.
+
 ## How to use this file
 
 Each section below is a **thesis bucket**. Under each bucket: the research docs that support or bound it, one line each. Follow the path to read the full writeup. When a bucket has a live data tool, it's called out.
 
 ---
 
-## 🟠 SDL-01 — Self-Deportation Ledger (ELEVATED — basis RULED by Will 2026-09-24: YoY change in the foreign-born labor force, Aug −379K; the old BREACHED was a retracted-2.2M residue; formalized VX 2026-04-21)
+## SDL-01 — foreign-born labor-force change (Will-ruled basis; current grade in VX/STATUS)
 
 **Core claim:** a structural foreign-born labor-supply shock — **~1.0M realized labor-force decline / ~1.5M population** (NFAP/BLS-CPS; FRED LNU01073395), not cyclical. *(RE-MARKED v2.6, 2026-07-02: the prior "~2.2M self-deported (CBO)" figure was wrong — a mis-attributed disputed-DHS claim, NOT CBO, which estimates ≈290K+30K voluntary; direction/mechanism unchanged. Corroborated by June-2026 total LF −1M+ YoY. See thesis magnitude note + KB-MARCO-WFD-SDL-02.)* Transmission quantified via 1930s historical template.
 
@@ -18,7 +20,7 @@ Each section below is a **thesis bucket**. Under each bucket: the research docs 
 | Doc | What it contains |
 |-----|------------------|
 | `SDL_HISTORICAL_ANALOGS.md` | 1929-33 Mexican Repatriation, 1954 Operation Wetback, 2008-11 Recession — transmission templates and timelines (weeks to 5+yr). |
-| `BANXICO_STATE_REVERSE.md` | Methodology + data: US state-of-origin reverse-mapping from Banxico Mexican-state destinations. AZ -6.1%, TX -5.8%, MI -5.6% lead decline; CA least impacted. |
+| `BANXICO_STATE_REVERSE.md` | Historical reverse-map methodology; retired as a spatial test 10/14 (fixed weights cannot identify concentrated US-state losses). Current transaction evidence in VX/STATUS. |
 
 🔧 Live tool: `tools/banxico_reverse.py` → `baselines/us_state_sender_implied.tsv`
 

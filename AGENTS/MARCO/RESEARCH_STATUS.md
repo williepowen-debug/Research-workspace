@@ -60,7 +60,7 @@
 | Thread | Waiting For | Last Checked |
 |--------|-------------|--------------|
 | TOURISM sub-agent $-at-risk v0 | **DECISION 6/15: SHELVE the sub-agent, KEEP the vector.** Sub-agent never delivered (no commits since Apr 22); MARCO handles tourism inline (session-9 refresh, 6/2 WC pull, StatCan May integration, 6/15 FLL pull). Vector LIVE (ES-09 WC reversal test runs through ~Aug). The prior "stalled / vector softened" label was misleading — the *content* is current, only the ROOMS sub-agent is dormant; re-spawn only if a dedicated $-at-risk grid build is greenlit. | 2026-06-15 |
-| ICE off-farm pivot | Q4 2026 — does ag enforcement resume post-harvest? Re-accelerates SDL-01 if so. Construction raids stayed ON. | 2026-09-24 (no ag resumption seen) |
+| ICE off-farm pivot | October CA community/roadside enforcement reportedly caused local attendance/output disruption. Persistence review 11/2 in docket; no national-policy inference. | 2026-10-25, Ag Alert 10/21; KB-WFD-21 |
 | Cattle/meatpacking consolidation | Beef-belt plant closures → immigrant layoffs (separate from SDL-01). Weekly slaughter fetcher runs at boot (`baselines/slaughter_weekly.tsv`); layoff list `baselines/beef_belt_layoffs.tsv` last row Nov-2025 — no analysis thread opened. | 2026-09-24 |
 
 ---

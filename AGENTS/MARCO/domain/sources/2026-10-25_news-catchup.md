@@ -1,0 +1,41 @@
+# MARCO — news catch-up, October 25, 2026
+As of: 2026-10-25 20:48 ET. Session 34, Will-directed independent owner session. Review window: October 21–25, plus older material news missed by the desk. Thesis v3.2 and prediction confidence unchanged.
+
+## What changes the desk's view
+
+| Development / event date | Verified evidence and source quality | Judgment / limits |
+|---|---|---|
+| California farm labor, reported October 21; activity during the preceding two weeks | California Farm Bureau's Ag Alert interviews named growers: Kevin Herman reports about half of roughly 100 fig-harvest workers absent for over a week and reduced shipments; Joe Del Bosque reports a handful absent from a roughly 20-person melon crew. | Local attendance-to-output disruption is reported. Withdraw the blanket current “ag-off” label. This is industry reporting, not a representative survey or measured national shortfall. A labor contractor said he knew of no agents entering farm properties: roadside/community enforcement and fear can disrupt farms without on-farm raids. DHS did not confirm the reported operation's duration. |
+| H-2A wage methodology, court order October 2; newly integrated October 25 | E.D. Cal. case 1:25-cv-01614-KES-EGC, docket 108, page 3: replacement interim rule due December 30; existing rule vacated effective that day; joint reports October 22 and every three weeks. DOL's September 2 notice warns of possible adjustments for work from that notice until new rates issue. | A contingent employer-cost exposure, not a measured scarcity wage premium. DOL's notice says no back-wage payment obligation existed at issuance and contests future liability; the order inspected does not award back pay. New rates, amount, liability and later docket developments remain unverified. Do not describe October 23 reporting as a new October 23 order or immediate vacatur. |
+| Canada tariff scope, proclamation October 23, effective October 30 at 12:01 a.m. Eastern | Proclamation clause 1 and Annex I: Part A removes selected packaging, plywood and machinery lines; Part B adds other products. Clause 1 retains stacking with section 232. | Mixed product changes, not a concluded bilateral deal; no change to Channel 2 invalidation or ID-01 letter. Annex I contains no 8703/8704/8708 additions. No newly measured Canadian travel response or net tariff-dollar relief is claimed. HAWK owns broader trade-policy judgment. |
+| US slaughter, release October 23 for week ending October 24 | USDA AMS estimates cattle 546,000 versus 573,000 year ago (−4.7%); hogs 2,615,000 versus 2,577,000 (+1.5%). Cattle YTD −7.2%. | This week's cattle decline is smaller than the YTD decline; no broad new weekly meatpacking cliff is visible. National counts cannot exclude local disruptions or establish their causes. Estimates are revisable. |
+
+## Florida and Las Vegas release checks
+
+- MIA September airport-own PDF: HTTP 404 on October 25; official index still lists January–August. Trigger remains NOT MET (August is only one negative month). Passenger Index's TSA throughput is a different instrument and cannot replace the Will-ruled airport-own count.
+- LVCVA current Executive Summary link resolves to **August 2026**, verified at the PDF, not its landing-page date. September Aug+Sep combined-RevPAR test remains pending (~October 28, estimated).
+- OFLC performance page still links **FY2026_Q3** H-2A disclosure as newest; no Q4 result. MAR-11 remains 72%, waiting for the actual disclosure. MAR-24 remains 80%, waiting for its pre-registered BTS-vintage resolver (first pull dated on/after February 1, 2027). Boot's fiscal/calendar-window warnings do not authorize early grading.
+- Florida migration proxies unchanged: voter series September, licenses H1, enrollment October 2025. Enrollment age warning does not turn the upcoming survey into an observed migration print.
+
+## Consequence and next checks
+
+The new California account is evidence of a localized output effect but does not establish economy-wide price transmission or reopen the retired aggregate wage instruments. Keep Channel 1's conviction and November CPS pre-registration unchanged. Existing post-harvest enforcement watch moves to a November 2 review of persistence, affected crops and actual output/cost disclosures. Add the verified December 30 court deadline and November 12 scheduled court-report checkpoint. October 22 status-report contents were not retrieved; verify at that checkpoint before assuming the schedule is unchanged.
+
+News packet saved for WALTER routing judgment (suggest LABOR/CARL for farm labor and H-2A; HAWK for tariff scope); PROME completion saved separately. PROME native coordination acknowledgment sent after reading its committed c093e462c direction; final artifact pointer follows commit. WALTER routing consumption remains unverified.
+
+## Sources (retrieved October 25)
+
+1. [California Farm Bureau / Ag Alert, October 21](https://www.agalert.com/california-ag-news/archives/october-21-2026/immigration-raids-slow-farm-work-in-the-central-valley/) — named grower reporting; industry source.
+2. [Court order, docket 108, October 2, p.3](https://storage.courtlistener.com/recap/gov.uscourts.caed.475524/gov.uscourts.caed.475524.108.0.pdf) — primary judicial document via CourtListener.
+3. [DOL OFLC notice, September 2](https://content.govdelivery.com/accounts/USDOL/bulletins/42821f3) — primary agency notice.
+4. [White House proclamation, October 23](https://www.whitehouse.gov/presidential-actions/2026/10/further-modifying-the-scope-of-products-of-canada-subject-to-the-additional-duties-imposed-to-offset-canadian-discrimination-against-the-commerce-of-the-united-states-with-respect-to-motor-vehicles/) and [Annex I](https://www.whitehouse.gov/wp-content/uploads/2026/10/2026ModifyingAuto338.prc_.AnnexI-3.pdf) — primary scope and effective date.
+5. [USDA AMS SJ_LS712, October 23](https://www.ams.usda.gov/mnreports/sj_ls712.txt) — primary weekly estimates; baselines/slaughter_weekly.tsv updated by existing boot fetcher.
+6. [MIA official index](https://www.miami-airport.com/airport_stats.asp) and direct September PDF path recorded in docket/CATALYSTS.tsv.
+7. [LVCVA current-report landing page](https://www.lvcva.com/research/reports/post/lvcva-executive-summary-of-southern-nevada-tourism-indicators/) → [August PDF](https://assets.simpleviewcms.com/simpleview/image/upload/v1/clients/lasvegas/ES_Aug2026_3d0e4c3b-10da-4e90-9d6b-86610adeec6c.pdf).
+8. [DOL OFLC performance disclosures](https://www.dol.gov/agencies/eta/foreign-labor/performance).
+
+## Runtime / boot receipt
+
+Desk MARCO; OpenAI Codex runtime (model/version not exposed, UNKNOWN; platform session ID 01a175a8-62c5-74a3-a010-0fb3d619f279 identified in native inventory); tool task identity /root; repository /home/willi/Research-workspace; cwd AGENTS/MARCO. Root CLAUDE.md, AGENTS.md, USER.md, desk CLAUDE.md and continuity files explicitly read. Shell/Python and web source access verified. No helpers spawned. Native list_threads and send_message_to_thread discovered later in this session; PROME coordination read and acknowledged against committed c093e462c. Final commit pointer will be sent to PROME. Recent-thread inventory is truncated and does not establish fleet-wide absence; WALTER presence/consumption unverified. WALTER boot lane has zero new packets; one general administrative inbox packet remains outside this session's mail-processing scope. No named unreceipted correction. Full boot and proxy check ran; six-ledger parser checks passed. Other-desk dirty work (DEWEY) prevents startup pull; no stash or pull performed. VX oldest-row alert remains genuine and intentionally unreset (processing-vulnerability data August 21, Q4 pending; TX inventory unscored). Local MEMORY unchanged: no addition requiring rotation.
+
+Validation: read-cap within budget; six-ledger reader/round-trip invariants and version/residue checks clean; weekday/date claims clean. Diff check flags only TSV terminal tabs representing empty poultry fields, retained to preserve schema; check with blank-at-eol disabled clean. Consumer scan hits inspected: WALTER dated captures, own explicit withdrawals, historical BRENT snapshots; WALTER packet carries the correction. No new band or superseded numerical grade.

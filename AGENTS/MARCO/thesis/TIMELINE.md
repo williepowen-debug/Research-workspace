@@ -66,6 +66,7 @@ Dated event spine. Resolved events (mark ✅ with outcome) + forward branch poin
 | 2026-10-21 | **Section 338 (Canada) correction:** from 9/15 the motor-vehicle duties stack on §232 for LISTED lines and 9903.03.15 is dairy-only — but passenger cars, light trucks and parts remain unlisted (0%) | 2 | HAWK's 10/21 packet right on the mechanism (Proc. 11065, 91 FR 58339; CBP CSMS #69851916); Ch.87 at 50% = 3 lines. 9/02 file corrected in place. `KB-MARCO-CAN-50` |
 | 2026-10-21 | **`SDL-01` basis caveat:** the Jan-2026 CPS population controls do not control nativity and raised Hispanic (+165K labor force) and Asian (+938K) groups; foreign-born Dec→Jan +632K | 1 | INFERRED upward level break ⇒ 2026 YoYs lean toward increase; Sep +206K NORMAL holds on the letter with the caveat. November print 12/4. `KB-MARCO-WFD-19` |
 ---
+| 2026-10-25 | **October news catch-up:** California named-grower attendance/output disruption reported (10/21); H-2A court order (10/2) imposes 12/30 deadline; Canadian scope change (10/23) effective10/30 | 1,2 | Blanket current ag-off label withdrawn; local evidence only. Wage adjustments contingent, tariff removals AND additions. v3.2/confidence unchanged. KB-WFD-21/-22/-23, KB-CAN-51. MIA/LVCVA September unavailable. |
 
 ## FORWARD BRANCH POINTS
 

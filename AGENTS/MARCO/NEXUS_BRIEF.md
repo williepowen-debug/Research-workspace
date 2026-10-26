@@ -1,13 +1,17 @@
 # MARCO — NEXUS Brief
 
-**Status:** 🟠 **v3.2** (unchanged s33). 🆕 **s33 (10/21) = PROME wave-3 catch-up — inbox drained (7 items), no thesis version move.** `VX-2.06` construction-wage gap **ELEVATED → NORMAL** (Sep prelim +1.91pp; revised Aug +2.38pp held — a one-month crossing). **FL months of supply, September: condo 7.7 (flat — the decline run ended), SF 4.4** — CORAL carries the canonical cell. **Section 338 corrected** (HAWK packet, re-read at FR + CBP): from 9/15 it stacks on §232 for **listed** lines, but passenger cars, light trucks and parts are still **unlisted**. **`SDL-01` caveat:** the Jan-2026 CPS population controls do not control nativity; immigrant-heavy groups were revised up. s32 (10/14) carried below: remittance re-spec CONFIRMED · `SDL-01` NORMAL on Sep +206K · `ENR-02` leg 1 PASSED · Canada −28.72% BREACHED.
+**Status:** 🟠 **v3.2** (unchanged s34). **10/25 catch-up:** October CA local farm attendance/output disruption reported; blanket current agricultural-enforcement-eased label withdrawn. H-2A court replacement-rule deadline December 30 and contingent wage adjustments integrated (older October 2 order). Canada October 23 tariff scope removes AND adds lines, effective October 30; no concluded deal inferred. MIA/LVCVA September pending. No conviction or prediction-confidence move.
 **Domain:** Population movement — international visitor flows (Canadian boycott), workforce displacement (ag/immigration), internal migration (FL/Sun Belt). FL is the primary geography.
 **Thesis version:** **v3.2** (set s29, Will-ruled 9/24: Channel 4 MED-LOW → LOW). s30–s32 moved no channel. · **Position:** none — theses express downstream via REGINALD (bank/CRE) and CARL (consumer).
-**As of:** 2026-10-21 22:47 ET (session 33 closeout — PROME wave-3 catch-up). **STATUS commit:** `05f8f1bcb`.
+**As of:** 2026-10-25 20:51 ET (session 34 owner closeout). **STATUS commit:** `05f8f1bcb` (prior pin; this brief folds with the new STATUS in the same commit, amendment 11).
 
 ---
 
 ## VIEW
+
+- **(s34) California farms:** Ag Alert October 21 named-grower interviews report missed shifts and reduced fig shipments. Local, industry-sourced evidence; on-farm entry and statewide/national extent unconfirmed. **CA-02 remains UNSCORED**; aggregate price transmission remains UNDEMONSTRATED. Existing post-harvest watch now reviews persistence November 2. `KB-WFD-21`; sourced memo `domain/sources/2026-10-25_news-catchup.md`.
+- **(s34) H-2A cost risk:** October 2 court order (docket 108) requires replacement rule and makes vacatur effective **December 30**. DOL September 2 notice warns of possible later adjustments for covered work from September 2 until new rates. **Back pay remains unresolved; later docket state and new rates unverified.** Administrative wage floors do not measure scarcity. `KB-WFD-22`.
+- **(s34) Canadian tariff scope:** October 23 proclamation removes selected products AND adds others effective October 30; section 232 stacking retained. No concluded bilateral deal or travel response inferred; Channel 2/ID-01 unchanged. `KB-CAN-51`.
 
 - 🆕 **(s33) `SDL-01` CAVEAT — the September 'first increase' may partly be a survey re-weighting.** BLS's January-2026 population controls **do not control nativity** (BLS tech doc, verbatim) and revised the immigrant-heavy groups UP (Hispanic labor force +165K, Asian +938K) while total labor force fell 1.4M; the foreign-born series jumped **+632K Dec→Jan** (2nd-largest since 2008). ⇒ INFERRED: every 2026 YoY leans toward increase by an unknown amount. NORMAL stays on the letter; **route the Sep +206K as 'possibly a level-break artefact, unconfirmed'.** November CPS 12/4 (BLS schedule). `KB-MARCO-WFD-19`.
 - 🆕 **(s33) Florida housing supply, September (FL Realtors primary, CORAL-canonical):** condo/townhouse **7.7 months** (flat vs Aug; 9.1 a year ago), single-family **4.4** (Aug 4.3; 5.1). Listings −9.0% / −9.8% YoY. **Absorption stalled, not reversed**; condo still inside the 6–9 CRITICAL band; >9.0 distress line (MAR-08) far off. `KB-MARCO-FLI-04`.
@@ -59,6 +63,8 @@
 
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |----|--------|----------|---------------------------------------------|
+| **WALTER** | **SAVED 10/25 — CA local farm disruption / H-2A court deadline / mixed Canadian scope changes**, packet `inbox/2026-10-25_from-MARCO_farm-labor-h2a-canada-news.md` under WALTER | 🟠 | WALTER owns dedupe/routing; suggested LABOR/CARL and HAWK; receipt/consumption pending |
+| **PROME** | **10/25 catch-up memo saved**, native coordination acknowledged against `c093e462c`; final commit pointer follows | 🟡 | No new decision for Will; artifact consumption pending |
 | **HAWK** | **SENT 10/21 (s33) — S338 stacking verified (CSMS #69851916) but passenger cars / light trucks / parts still unlisted**; Ch.87 at 50% = 3 lines | 🟡 | Keeps HAWK's 'autos stack on 232' from being read as cars paying 50% downstream (CARL) |
 | **LABOR** | **SENT 10/21 (s33) — Jan-2026 CPS controls: nativity not a control dimension; Hispanic LF +165K, Asian +938K; foreign-born Dec→Jan +632K** (optional ask: a nativity split if LABOR can reach the BLS supplemental XLSX) | 🟡 | Sizes the level break every 2026 `SDL-01` YoY spans |
 | **PROME** | **SENT 10/21 (s33) — wave-3 catch-up memo** (`PROME/inbox/2026-10-21_from-MARCO_catchup-wave3.md`) | 🟡 | PROME consumes; WQ-249 closeout ask |
@@ -90,7 +96,7 @@
 ## NEXT DECISION POINT
 
 - **The live questions:** (1) **is the foreign-born labor-force decline over, or was September noise?** — November CPS (12/4, BLS schedule) under a pre-registered rule, with the population-control caveat; (2) **is the Canadian land leg diverging on tariffs?** — StatCan October (~11/13, est.) completes `ID-01`.
-- **When:** **~10/28 MIA September (the ruled trigger; 404 on 10/21) + LVCVA September (Aug+Sep combined RevPAR)** · 11/2 Banxico Sep · 11/3 FL Amendment 3 · ~11/5 AZ-01 first scored print · 11/6 October CPS (context only) · **11/10 `ENR-02` leg 2** (BLS schedule) · ~11/13 StatCan Oct · ~11/15 OFLC Q4 (`MAR-11`), NTTO Oct, BTS Aug · 11/16 FL Realtors Oct · 11/20 BLS state Oct · **12/4 November CPS** (BLS schedule) · ~Dec→2027-02 BTS Q3 for `MAR-24`. Canonical dates → `docket/CATALYSTS.tsv`.
+- **When:** **~10/28 MIA September (the ruled trigger; 404 and index through August on 10/25) + LVCVA September (Aug+Sep combined RevPAR; current official PDF still August on 10/25)** · 11/2 Banxico Sep + CA disruption persistence · 11/12 court-status checkpoint · 12/30 H-2A rule deadline · 11/3 FL Amendment 3 · ~11/5 AZ-01 first scored print · 11/6 October CPS (context only) · **11/10 `ENR-02` leg 2** (BLS schedule) · ~11/13 StatCan Oct · ~11/15 OFLC Q4 (`MAR-11`), NTTO Oct, BTS Aug · 11/16 FL Realtors Oct · 11/20 BLS state Oct · **12/4 November CPS** (BLS schedule) · ~Dec→2027-02 BTS Q3 for `MAR-24`. Canonical dates → `docket/CATALYSTS.tsv`.
 - **What would change my mind on Channel 2:** the air 2-yr stack above −25% for two consecutive prints **plus** a concluded US–Canada deal. 🆕 **The AIR half is now MET (Aug −22.67, Sep −18.70); the DEAL half is not** (Canadian counter-tariffs live since 9/8) — so no change yet, and the total stack is −28.72% with the land leg moving the other way. THESIS's own invalidation test (Canada back within 10% of 2024) is far off.
 - **What would change my mind on Channel 1:** on **transmission**, nothing available (⛔ no fifth instrument, v3.0). On **quantity**, November CPS under the pre-registered rule.
 

@@ -14,6 +14,14 @@
 
 ---
 
+## October 25, session 34 — source verification receipt
+
+- California attendance/output: **REPORTED**, named-grower interviews in Ag Alert 10/21; not a statewide measurement. Canonical: KB-WFD-21 / STATUS. CA-02 stays UNSCORED.
+- H-2A schedule: **VERIFIED-PRIMARY**, court docket108 10/2 p3, new rule and effective vacatur 12/30; DOL 9/2 contingent adjustment notice. Canonical: docket / KB-WFD-22. Later procedural state and new rates unverified.
+- Canadian scope: **VERIFIED-PRIMARY**, White House 10/23 cl1 plus AnnexI; removals and additions effective10/30, stacking retained. Canonical: KB-CAN-51. No trade-deal inference.
+- Slaughter: **VERIFIED-PRIMARY**, USDA AMS 10/23 w/e10/24; baseline updated by boot. Canonical: baselines/slaughter_weekly.tsv / KB-WFD-23.
+- MIA/LVCVA September: unavailable on live primary checks; OFLC Q3 still newest. No new grade. URLs/method: `domain/sources/2026-10-25_news-catchup.md`.
+
 ## 1. VERIFIED THIS PASS — pulled from the issuing primary 2026-07-31
 
 All five BLS figures reproduced **exactly** to the digit. The VX stale backlog was also fully cleared this pass — **25 stale BREACHED/CRITICAL rows this morning → 0**, every one pulled from a live primary. These are the surviving HIGH-conviction Channel-1 **quantity** claims — the half of Channel 1 that v3.0 explicitly did *not* walk back.
