@@ -1,7 +1,9 @@
 # SCRATCH.md — Ephemeral Session State
-**Updated:** 2026-10-25 18:04 ET — final Standard closeout; account `../memory/2026-10-25.md` § PROME resumed session.
+**Updated:** 2026-10-25 late session — three-desk owner closeouts consumed; earlier18:04 Standard account remains in `../memory/2026-10-25.md` § PROME resumed session.
 
 ## ★ NEXT SESSION — START HERE
+
+**Latest handoff:** [three-desk sweep and independent reviews](reports/2026-10-25_three-desk-stale-file-sweep.md#final-session-disposition--all-three-closed-by-will). Will closed OTTO, CRUISE and MARCO; do not restart automatically. OTTO accepted; MARCO/CRUISE each retain two narrow file corrections in their pending owner packets for the next authorized sessions. The report records accepted work, receipts and limits; overall sweep is not yet fully accepted.
 
 **Resume first:** [October25 final account](../memory/2026-10-25.md#prome-resumed-session--final-standard-closeout). WQ523/L839 and WQ524/L840 complete; [final transmission assessment](reports/2026-10-25_WQ524-transmission-assessment.md). Read existing calendar/queue and owner returns before any launch. BROCK/LIQUID final receipts consumed; MIDAS later review and DEWEY research were active at census, so preserve their files/windows. No duplicate launch or automatic follow-on study. **No compulsory Sunday process day.** Dated entries below are history; canonical rows govern.
 
