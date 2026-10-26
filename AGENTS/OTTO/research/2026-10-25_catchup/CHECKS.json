@@ -1,0 +1,18 @@
+{
+  "calendar_mapping": true,
+  "prediction_terms_states_confidences_unchanged": true,
+  "prediction_mirror_ids": true,
+  "unresolved_prediction_count": 8,
+  "thesis_unchanged": true,
+  "convergence": true,
+  "status_bytes": 22782,
+  "rotated_surface_under_70pct": true,
+  "source_hash_mismatches": [],
+  "source_capture_count": 17,
+  "source_capture_errors": {
+    "edmunds_q3": "403 Client Error: Forbidden for url: https://www.edmunds.com/press/new-car-financing-records-pile-up-in-q3-as-buyers-borrow-more-and-stretch-loans-longer-according-to-edmunds.html"
+  },
+  "manual_semantic_review": "Reviewed all 28 event identities/dates/classes/meaning versus narrative; 8 unresolved prediction claims/states/current probabilities; unchanged THESIS conviction/SDT consequence versus STATUS; no new grade from index universe, annual shelf existence, hearing held or filing silence.",
+  "gaps": "Full WINTERKORN date re-verification incomplete; VRM outcome, BlackRock/suppression orders, D&O disposition and Ally call unresolved. Three named correction receipts are separate from their validation substance.",
+  "memory_promotion_scan": "Existing lesson classes cover scope, measurement clocks, source identity, mirror consistency and delivery. No novel durable class promoted; prior session preserved in archive/MEMORY_2026-10-25_pre-s036.md."
+}

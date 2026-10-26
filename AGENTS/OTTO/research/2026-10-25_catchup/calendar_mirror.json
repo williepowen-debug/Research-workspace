@@ -1,0 +1,146 @@
+{
+  "active_count": 28,
+  "archived_count": 5,
+  "mapping": [
+    {
+      "date": "2026-10-16",
+      "canonical_event": "Tricolor Ch.7 \u2014 BlackRock Rule 2004 meet-and-confer deadline (trustee's motion Dkt 1298, GRANTED 9/1; deadline set at the 10/7 status conference) \u2014 PENDING outcome, next-check 2026-10-28",
+      "mirror_row": "| 2026-10-16 (Fri) | Tricolor BlackRock Rule2004 confer deadline; outcome still unverified, next 10/28 | \ud83d\udfe0 acknowledged pending10/25; source gap; next10/28 |"
+    },
+    {
+      "date": "2026-10-20",
+      "canonical_event": "First Brands Ch.7 \u2014 hearing on the Excess ABC Insurers' motion: clarify the 5/29 order, or lift the stay so D&O insurers can advance defense costs of insured persons (Dkt 3669; reset to 10/20 by Dkt 3800)",
+      "mirror_row": "| 2026-10-20 (Tue) | First Brands D&O insurer hearing (Dkt3669/3800) | \ud83d\udfe0 held per clerk3956; disposition unverified; next10/27 |"
+    },
+    {
+      "date": "2026-10-21",
+      "canonical_event": "First Brands Ch.7 \u2014 hearing on the Ch.7 Trustee's Emergency Motion for Authority to Operate under 11 U.S.C. \u00a7721, effective as of 9/1 (Dkt 3796), 09:00 AM CT, Courtroom 402",
+      "mirror_row": "| 2026-10-21 (Wed) | First Brands \u00a7721 operating motion (Dkt3796),09:00CT | \ud83d\udfe0 clerk3973:continued,date TBD; next10/27 |"
+    },
+    {
+      "date": "2026-10-21",
+      "canonical_event": "Tricolor criminal \u2014 ruling on Chu's motion to suppress (ECF 108, seized devices / iCloud); evidentiary hearing set 10/7, continuing 10/8-9 as needed (ECF 171; 175-176)",
+      "mirror_row": "| ~2026-10-21 (Wed) | Chu suppression-ruling check (ECF108) | \ud83d\udfe0 pending; next10/28 |"
+    },
+    {
+      "date": "2026-10-27",
+      "canonical_event": "First Brands Ch.7 \u2014 \u00a7341(a) meeting of creditors (reset), 11:00 AM CT via Zoom (Trustee Engelhart)",
+      "mirror_row": "| 2026-10-27 (Tue) | First Brands \u00a7341 creditors meeting,11:00CT | \ud83d\udfe0 confirmed; Trustee Engelhart;11:00CT |"
+    },
+    {
+      "date": "2026-10-28",
+      "canonical_event": "CRMT Item 1.01 backstop #5 \u2014 agreement dated <=10/22, owner BROCK",
+      "mirror_row": "| 2026-10-28 (Wed) | CRMT backstop5: agreement\u226410/22; BROCK | \ud83d\udfe0 BROCK L741; excludes10/20 extension already filed10/21 |"
+    },
+    {
+      "date": "2026-10-28",
+      "canonical_event": "Carvana (CVNA) Q3-2026 results, after the close, call 17:30 ET",
+      "mirror_row": "| 2026-10-28 (Wed) | Carvana Q3 AMC; call17:30ET | \ud83d\udd34 confirmed; Published disclosures/earnings; no short-report cadence assumption |"
+    },
+    {
+      "date": "2026-10-29",
+      "canonical_event": "10-D cycle \u2014 EART SEPTEMBER collection month (Exeter files ~month-end)",
+      "mirror_row": "| ~2026-10-29 (Thu) | EART September-collection 10-Ds | \ud83d\udfe0 modeled; Pair DQ/extensions; recovery<28%; OTTO-34 |"
+    },
+    {
+      "date": "2026-10-30",
+      "canonical_event": "THESIS v1.6 rewrite \u2014 OTTO-set TARGET (after Carvana Q3 on 10/28, whose results feed it)",
+      "mirror_row": "| 2026-10-30 (Fri) | THESIS v1.6 target after Carvana Q3 | \ud83d\udfe0 confirmed; THESIS v1.6; existing punchlist |"
+    },
+    {
+      "date": "2026-11-01",
+      "canonical_event": "CRMT BRIDGE-8 temporary relief expires (Sunday) \u2014 BROCK owner, not loan maturity",
+      "mirror_row": "| 2026-11-01 (Sun) | CRMT bridge8 temporary relief expiry | \ud83d\udd34 BROCK L794 checks 10/30 after close / 11/02 AM; not maturity |"
+    },
+    {
+      "date": "2026-11-04",
+      "canonical_event": "NY Fed Q3-2026 Household Debt and Credit Report \u2014 release WINDOW opens (window 11/04-11/12)",
+      "mirror_row": "| ~2026-11-04 (Wed) | NY Fed Q3 Household Debt/Credit window opens | \ud83d\udfe0 modeled; Window11/04\u201311/12, not promised date |"
+    },
+    {
+      "date": "2026-11-05",
+      "canonical_event": "M&T Q3 10-Q narrow-custody follow-up \u2014 modeled observation check for OTTO-31",
+      "mirror_row": "| ~2026-11-05 (Thu) | M&T Q3 10-Q modeled check; OTTO-31 | \ud83d\udfe0 modeled; OTTO-31 narrow custody; not promised filing |"
+    },
+    {
+      "date": "2026-11-06",
+      "canonical_event": "Manheim Used Vehicle Value Index \u2014 October 2026 full-month release (Cox)",
+      "mirror_row": "| 2026-11-06 (Fri) | Manheim October full-month release | \ud83d\udfe0 confirmed; Manheim hinge; SDT input |"
+    },
+    {
+      "date": "2026-11-11",
+      "canonical_event": "Tricolor \u00a7341 (continued), 10:00 AM CT - next-canonical observation point",
+      "mirror_row": "| 2026-11-11 (Wed) | Tricolor \u00a7341 continued | \ud83d\udfe0 confirmed; 10:00CT; date vintage10/14 |"
+    },
+    {
+      "date": "2026-11-12",
+      "canonical_event": "EART 2026-5 (Exeter) new-issue launch WINDOW closes (window 10/20-11/12) \u2014 Exeter's own-cadence test for OTTO-07",
+      "mirror_row": "| ~2026-11-12 (Thu) | EART2026-5 modeled launch window closes | \ud83d\udfe0 modeled; OTTO-07 cadence window10/20\u201311/12 |"
+    },
+    {
+      "date": "2026-11-15",
+      "canonical_event": "Severity-Divergence Test (SDT) - quarterly re-run, Secondary-thesis falsifier",
+      "mirror_row": "| ~2026-11-15 (Sun) | Severity-Divergence Test quarterly re-run | \ud83d\udfe0 modeled; Second observation; consequence requires3consecutive total; \u226512 filings/deal |"
+    },
+    {
+      "date": "2026-11-16",
+      "canonical_event": "10-D cycle \u2014 SDART + BLAST OCTOBER collection month",
+      "mirror_row": "| ~2026-11-16 (Mon) | SDART/BLAST October-collection 10-Ds | \ud83d\udfe0 modeled; SDART/BLAST October collection |"
+    },
+    {
+      "date": "2026-11-30",
+      "canonical_event": "10-D cycle \u2014 EART OCTOBER collection month",
+      "mirror_row": "| ~2026-11-30 (Mon) | EART October-collection 10-Ds | \ud83d\udfe0 modeled; See event; no retrospective grading repair |"
+    },
+    {
+      "date": "2026-11-30",
+      "canonical_event": "Year-end readiness follow-up \u2014 OTTO-11 source coverage and OTTO-12 evidence",
+      "mirror_row": "| 2026-11-30 (Mon) | Year-end follow-up: OTTO-11 covering-source check/-12 coverage | \ud83d\udfe0 confirmed; Instrument audits done 10/19; -11 STUCK; Ally/VRM check completed late 10/25, Trust V unknown |"
+    },
+    {
+      "date": "2026-12-01",
+      "canonical_event": "Hertz US-fleet disposal WATCH - $200M 4.63% senior notes AND HVF III Series 2021-2 $2,000M fleet ABS both mature 12/2026 (credit read = LIQUID; OTTO reads the fleet consequence only)",
+      "mirror_row": "| ~2026-12-01 (Tue) | Hertz December debt maturities: fleet-disposal WATCH | \ud83d\udfe1 modeled; LIQUID credit read; OTTO disposal/repo mechanics |"
+    },
+    {
+      "date": "2026-12-04",
+      "canonical_event": "Tricolor criminal - David Goodgame sentencing control date (Castel, 9:00 AM)",
+      "mirror_row": "| 2026-12-04 (Fri) | Goodgame sentencing control date | \ud83d\udfe1 confirmed; Goodgame;09:00ET, control date |"
+    },
+    {
+      "date": "2026-12-07",
+      "canonical_event": "Manheim Used Vehicle Value Index \u2014 November 2026 full-month release (Cox)",
+      "mirror_row": "| ~2026-12-07 (Mon) | Manheim November full-month release | \ud83d\udfe0 modeled; Manheim November; date vintage10/14 |"
+    },
+    {
+      "date": "2026-12-09",
+      "canonical_event": "Tricolor criminal Final Pre-Trial Conference (Judge Castel SDNY, 2pm)",
+      "mirror_row": "| 2026-12-09 (Wed) | Chu Final Pretrial Conference | \ud83d\udfe0 confirmed; Chu FPTC14:00ET |"
+    },
+    {
+      "date": "2026-12-15",
+      "canonical_event": "OTTO-10 NEEDS_VERIFY re-check: read the Equifax Originations edition that covers through Sep-2026 (expected Dec-2026 edition)",
+      "mirror_row": "| ~2026-12-15 (Tue) | OTTO-10 covering Equifax edition check | \ud83d\udfe0 modeled; Equifax must coverSeptember; no early grade |"
+    },
+    {
+      "date": "2026-12-31",
+      "canonical_event": "OTTO-07 / OTTO-11 / OTTO-12 / OTTO-31 / OTTO-33 / OTTO-34 prediction resolve (year-end cluster)",
+      "mirror_row": "| 2026-12-31 (Thu) | OTTO-07/-11/-12/-31/-33/-34 year-end resolve | \ud83d\udfe1 confirmed; Fixed prediction definitions/calibration vintages |"
+    },
+    {
+      "date": "2027-01-25",
+      "canonical_event": "Tricolor executive criminal trial (Chu, Judge Castel SDNY, 10am) - RE-DATED from 2026-10-19",
+      "mirror_row": "| 2027-01-25 (Mon) | Chu criminal trial,01/25/2027 | \ud83d\udfe0 confirmed; Chu trial; Castel10:00ET |"
+    },
+    {
+      "date": "2027-02-01",
+      "canonical_event": "First Brands criminal \u2014 pretrial conference, US v. Patrick James & Edward James (1:26-cr-00029, SDNY, Judge Analisa Torres), 12:00 PM, Courtroom 15D",
+      "mirror_row": "| 2027-02-01 (Mon) | James criminal pretrial,02/01/2027 | \ud83d\udfe0 confirmed; James pretrial; Torres12:00ET |"
+    },
+    {
+      "date": "2027-02-09",
+      "canonical_event": "First Brands criminal trial \u2014 US v. Patrick James & Edward James (Judge Torres, SDNY, 9:00 AM, Courtroom 15D)",
+      "mirror_row": "| 2027-02-09 (Tue) | James criminal trial,02/09/2027 | \ud83d\udfe0 confirmed; James trial; Torres09:00ET |"
+    }
+  ]
+}

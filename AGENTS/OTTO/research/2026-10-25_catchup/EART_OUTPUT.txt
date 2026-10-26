@@ -1,0 +1,15 @@
+
+========================================================================================================
+  OTTO 10-D Performance Panel — 2026-10-25T20:45:26   (1 filing(s)/deal)
+  FIXED PANEL of named deals — NOT an index. Tiers stay separate by design.
+========================================================================================================
+  EART 2022-2    DEEP  2026-09-29  CP 2026-08-01/2026-08-31  MS  53  60+DQ  15.22  CNL  27.07  ANL  20.00  REC  25.17  EXT   4.49
+  EART 2022-3    DEEP  2026-09-29  CP 2026-08-01/2026-08-31  MS  51  60+DQ  14.46  CNL  28.40  ANL  20.20  REC  24.58  EXT   4.73
+  EART 2023-1    DEEP  2026-09-29  CP 2026-08-01/2026-08-31  MS  43  60+DQ  12.32  CNL  23.17  ANL  19.18  REC  24.79  EXT   5.29
+  EART 2024-1    DEEP  2026-09-29  CP 2026-08-01/2026-08-31  MS  32  60+DQ  10.89  CNL  18.36  ANL  17.52  REC  29.78  EXT   5.44
+
+  POSITIVE CONTROL — re-parse frozen exhibit: EART 2022-3 cnl_pct must equal 27.58 (10-D filed 2026-06-30 (frozen exhibit)): PASS ✓
+  SEASONING CONTROL — 11 frozen exhibits, >=3 per shelf, both Exeter double-filing dates: PASS ✓
+
+  [--dry-run] nothing written
+

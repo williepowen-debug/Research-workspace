@@ -1,0 +1,25 @@
+
+==========================================================================
+  OTTO Shelf-Activity Monitor (OTTO-07 instrument) — 2026-10-25T20:44:13
+  Probing 2026 vintages; per-issuer control year 2025
+==========================================================================
+
+  Shelf         control  2026 vintages
+  --------------------------------------------------------
+  Exeter              5  ✓ 2026-1, 2026-2, 2026-3, 2026-4
+  Santander           4  ✓ 2026-1
+  CPS                 4  ✓ 2026-A, 2026-B, 2026-C, 2026-D
+  Westlake            3  ✓ 2026-1, 2026-2, 2026-3
+  Lendbuzz            2  ✓ 2026-1
+  GLS                 4  ✓ 2026-1, 2026-2, 2026-3
+  ACA                 4  ✓ 2026-1, 2026-2, 2026-3, 2026-4
+  Bridgecrest         4  ✓ 2026-1, 2026-2, 2026-3, 2026-4
+
+  VERDICT: NO HALT — every validated shelf issued this year
+  All 8 validated shelves show at least one 2026 vintage. This is a REAL observed zero-halts reading, attributable to a run that executed at 2026-10-25T20:44:13 with per-issuer controls passing against 2025.
+
+  [--dry-run] ledger row NOT written:
+  2026-10-25T20:44:13	OK	2026	2025	8	8	0	0	Exeter=2026-1,2026-2,2026-3,2026-4;Santander=2026-1;CPS=2026-A,2026-B,2026-C,2026-D;Westlake=2026-1,2026-2,2026-3;Lendbuzz=2026-1;GLS=2026-1,2026-2,2026-3;ACA=2026-1,2026-2,2026-3,2026-4;Bridgecrest=2026-1,2026-2,2026-3,2026-4	NO HALT — every validated shelf issued this year	All 8 validated shelves show at least one 2026 vintage. This is a REAL observed zero-halts reading, attributable to a run that executed at 2026-10-25T20:44:13 with per-issuer controls passing against 2025.
+
+  (dry run — nothing written)
+

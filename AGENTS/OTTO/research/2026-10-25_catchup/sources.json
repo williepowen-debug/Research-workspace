@@ -1,0 +1,108 @@
+{
+  "ally_release": {
+    "url": "https://mmx.prnewswire.com/media/MS2016505/Ally-3Q-2026-Press-Release.pdf",
+    "path": "AGENTS/OTTO/research/2026-10-25_catchup/sources/ally_release.pdf",
+    "sha256": "4ea16324c33b132ceeb5cbdc03ffdd5279ffdb64214381c102fbc404566214de",
+    "captured_at": "2026-10-26T00:44:36.052945+00:00"
+  },
+  "ally_submissions": {
+    "url": "https://data.sec.gov/submissions/CIK0000040729.json",
+    "path": "AGENTS/OTTO/research/2026-10-25_catchup/sources/ally_submissions.json",
+    "sha256": "b50e45a5c04e75f1d7cbb428b60bb4239188acc8bb16ae11dc405ad441619b2e",
+    "captured_at": "2026-10-26T00:44:37.248587+00:00"
+  },
+  "cvna_submissions": {
+    "url": "https://data.sec.gov/submissions/CIK0001690820.json",
+    "path": "AGENTS/OTTO/research/2026-10-25_catchup/sources/cvna_submissions.json",
+    "sha256": "6cf74fd12ad74a7f6bc1077578eea8faae46875224dd6dbe64b2568c057fa0de",
+    "captured_at": "2026-10-26T00:44:37.388173+00:00"
+  },
+  "vrm_submissions": {
+    "url": "https://data.sec.gov/submissions/CIK0001580864.json",
+    "path": "AGENTS/OTTO/research/2026-10-25_catchup/sources/vrm_submissions.json",
+    "sha256": "1520b00c1cd907d8b61e21e1a2a5913fc7d7958dfa6a1365d0a45fe1f95183c6",
+    "captured_at": "2026-10-26T00:44:37.586935+00:00"
+  },
+  "crmt_8k": {
+    "url": "https://www.sec.gov/Archives/edgar/data/799850/000117184326006742/f8k_102126.htm",
+    "path": "AGENTS/OTTO/research/2026-10-25_catchup/sources/crmt_8k.html",
+    "sha256": "ad09b59673e4edb4d0329021a5948bbfde2e4f8c88d0aa038f2b2d93b983c331",
+    "captured_at": "2026-10-26T00:44:37.777687+00:00"
+  },
+  "manheim_mid_oct": {
+    "url": "https://www.coxautoinc.com/insights/manheim-used-vehicle-value-index-mid-october-2026-trends/",
+    "path": "AGENTS/OTTO/research/2026-10-25_catchup/sources/manheim_mid_oct.html",
+    "sha256": "591d78d5e06185992c464312c64e66f90e031c11851bf5695ce489297a45954c",
+    "captured_at": "2026-10-26T00:44:37.912486+00:00"
+  },
+  "gotham_home": {
+    "url": "https://www.gothamcityresearch.com/main",
+    "path": "AGENTS/OTTO/research/2026-10-25_catchup/sources/gotham_home.html",
+    "sha256": "d5ab3c5364b69ba03f4158004238c75498db7472dc5d5eca6285ace6af3e870c",
+    "captured_at": "2026-10-26T00:44:38.214085+00:00"
+  },
+  "ally_exhibit_0": {
+    "url": "https://www.sec.gov/Archives/edgar/data/40729/000119312526425698/d116845dex991.htm",
+    "path": "AGENTS/OTTO/research/2026-10-25_catchup/sources/ally_exhibit_0.html",
+    "sha256": "8b82539fcdf910ded9fdce1fa1a8be1f0da7a143ce654227085bc27c455cc5e7",
+    "captured_at": "2026-10-26T00:45:08.438685+00:00"
+  },
+  "ally_exhibit_1": {
+    "url": "https://www.sec.gov/Archives/edgar/data/40729/000119312526425698/d116845dex992.htm",
+    "path": "AGENTS/OTTO/research/2026-10-25_catchup/sources/ally_exhibit_1.html",
+    "sha256": "33717bf405b3a8fffcd3521fa635623fd9b412771bc77c8b8062329a7903f1e2",
+    "captured_at": "2026-10-26T00:45:08.655233+00:00"
+  },
+  "ally_exhibit_2": {
+    "url": "https://www.sec.gov/Archives/edgar/data/40729/000119312526425698/d116845dex993.htm",
+    "path": "AGENTS/OTTO/research/2026-10-25_catchup/sources/ally_exhibit_2.html",
+    "sha256": "b5f64f6a8cec3aa9f09915948c635c516e77412c46b377b6da86c6bc61fe2352",
+    "captured_at": "2026-10-26T00:45:08.933384+00:00"
+  },
+  "ally_deck_p9": {
+    "url": "https://www.sec.gov/Archives/edgar/data/40729/000119312526425698/g116845ex99_2p9g1.jpg",
+    "path": "AGENTS/OTTO/research/2026-10-25_catchup/sources/ally_deck_p9.jpg",
+    "sha256": "72cc55418d645a14a670e74ebe8ef3faaf882785f5f446ea0d0c2a89e5d2a16e",
+    "captured_at": "2026-10-26T00:45:33.937897+00:00"
+  },
+  "ally_deck_p10": {
+    "url": "https://www.sec.gov/Archives/edgar/data/40729/000119312526425698/g116845ex99_2p10g1.jpg",
+    "path": "AGENTS/OTTO/research/2026-10-25_catchup/sources/ally_deck_p10.jpg",
+    "sha256": "ecafe911638e60c1dcdac7f93e749625c08d80f2778a396b010a8d4019f6f503",
+    "captured_at": "2026-10-26T00:45:34.162052+00:00"
+  },
+  "ally_deck_p13": {
+    "url": "https://www.sec.gov/Archives/edgar/data/40729/000119312526425698/g116845ex99_2p13g1.jpg",
+    "path": "AGENTS/OTTO/research/2026-10-25_catchup/sources/ally_deck_p13.jpg",
+    "sha256": "1ed5a41f25c32f055a24c68cff0341e4105be3fc5f911cfe0594cded32816d7e",
+    "captured_at": "2026-10-26T00:45:34.346899+00:00"
+  },
+  "edmunds_q3": {
+    "url": "https://www.edmunds.com/press/new-car-financing-records-pile-up-in-q3-as-buyers-borrow-more-and-stretch-loans-longer-according-to-edmunds.html",
+    "error": "403 Client Error: Forbidden for url: https://www.edmunds.com/press/new-car-financing-records-pile-up-in-q3-as-buyers-borrow-more-and-stretch-loans-longer-according-to-edmunds.html"
+  },
+  "kbra_sep": {
+    "url": "https://www.kbra.com/publications/jvkNXCjH/u-s-auto-loan-abs-indices-september-2026?format=web",
+    "path": "AGENTS/OTTO/research/2026-10-25_catchup/sources/kbra_sep.html",
+    "sha256": "60f9fa1f08476ee6a2bdf58a62cbf660014d3fa7ba152b9c43039fb361219d90",
+    "captured_at": "2026-10-26T00:49:19.417820+00:00"
+  },
+  "gotham_feb18": {
+    "url": "https://www.gothamcityresearch.com/post/carvana-new-information-reveals-that-bridgecrest-is-the-lienholder-cvna-must-explain-how-and-how",
+    "path": "AGENTS/OTTO/research/2026-10-25_catchup/sources/gotham_feb18.html",
+    "sha256": "6f7a06d7cf7ce8bf02682f92f1a7bc6943ce44757150066741bc5825df669a6a",
+    "captured_at": "2026-10-26T00:49:20.771584+00:00"
+  },
+  "firstbrands_mirror": {
+    "url": "https://elevenflo.com/cases/first-brands-group-llc-47",
+    "path": "AGENTS/OTTO/research/2026-10-25_catchup/sources/firstbrands_mirror.html",
+    "sha256": "1c00478faa37c36ef8d95027a8b311406ae7912f037467d04bb29a60885b5773",
+    "captured_at": "2026-10-26T00:49:21.113642+00:00"
+  },
+  "fb3973": {
+    "url": "https://storage.courtlistener.com/recap/gov.uscourts.txsb.487046/gov.uscourts.txsb.487046.3973.0.pdf",
+    "path": "AGENTS/OTTO/research/2026-10-25_catchup/sources/fb3973.pdf",
+    "sha256": "861217f23ba2ae737245a1ae54243e95f6397e0c302905ca8f9467ea5729d788",
+    "identity": "Header manually read in extracted text: Case 25-90399 Document 3973 Filed in TXSB on 10/21/26. Appearance sheet ONLY. Docket-list narrative is separate."
+  }
+}

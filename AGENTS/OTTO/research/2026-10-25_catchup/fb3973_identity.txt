@@ -1,0 +1,2 @@
+UNVERIFIED: page-1 header unreadable (170 words extracted; image-only scan?). Render it (pdftoppm -r 80 -png) and confirm by eye before citing
+  sha256 861217f23ba2ae737245a1ae54243e95f6397e0c302905ca8f9467ea5729d788 · 2 pp · /home/willi/.cache/dewey_recap/unverified/861217f23ba2ae737245a1ae54243e95f6397e0c302905ca8f9467ea5729d788.pdf

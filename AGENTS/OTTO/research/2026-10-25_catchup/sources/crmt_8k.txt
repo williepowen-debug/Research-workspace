@@ -1,0 +1,38 @@
+false 0000799850 0000799850 2026-10-15 2026-10-15 iso4217:USD xbrli:shares iso4217:USD xbrli:shares UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 8-K CURRENT REPORT Pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934 Date of Report (Date of earliest event reported): October 15, 2026 America's Car-Mart, Inc. (Exact name of registrant as specified in its charter) Texas 0-14939 63-0851141 (State or other jurisdiction of incorporation) (Commission File Number) (IRS Employer Identification Number) 1805 North 2nd Street , Suite 401 , Rogers , Arkansas 72756 (Address of principal executive offices) (Zip Code) (479) 464-9944 (Registrant's telephone number, including area code) Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy
+the filing obligation of the registrant under any of the following provisions: ☐ Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425) ☐ Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12) ☐ Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17
+CFR 240.14d-2(b)) ☐ Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17
+CFR 240.13e-4(c)) Indicate by check mark whether the registrant is an emerging growth company as defined in Rule
+405 of the Securities Act of 1933 or Rule 12b-2 of the Securities Exchange Act of 1934. Emerging growth company ☐ If an emerging growth company, indicate by check mark if the registrant has elected not to use
+the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a)
+of the Exchange Act. ☐ Securities registered pursuant to Section 12(b) of the Act: Title of each class Trading Symbol(s) Name of each exchange on which registered Common Stock, par value $0.01 per share CRMT NASDAQ Global Select Market Item 1.01 Entry into a Material Definitive Agreement. As disclosed in its Current Report on Form 8-K filed on June 25, 2026 (the "June 25th Current
+Report"), and other recent Current Reports on Form 8-K, America's Car-Mart, Inc. (the "Company") entered into the First
+Amendment and Limited Waiver to Credit and Guaranty Agreement (the "First Amendment") with Silver Point Finance, LLC, as Administrative
+Agent and Collateral Agent (the "Agent"), and the lenders party thereto (collectively, the "Lenders"), amending and
+providing certain limited waivers under the Credit and Guaranty Agreement dated as of October 30, 2025 (the "Credit Agreement"). Second Amendment to Credit Agreement On October 15, 2026, the Company entered into the Second Amendment to the Credit and Guaranty
+Agreement (the "Second Amendment") with the Agent and the Lenders. Pursuant to the Second Amendment, the Lenders agreed to provide
+incremental term loans in an aggregate principal amount of $5.0 million (the "Incremental Term Loans"), the proceeds of which
+are to be used for general corporate purposes. The Incremental Term Loans mature on the same date, October 30, 2030, and are generally
+subject to the same interest rate and other terms and conditions as the initial term loans outstanding under the Credit Agreement, as
+amended by the First Amendment. The Company has agreed to pay the Agent and Lenders aggregate fees of $200,000 in connection
+with entering into the Second Amendment, which will be added to the outstanding principal balance under the Credit Agreement. The foregoing description of the Second Amendment does not purport to be complete and is qualified
+in its entirety by reference to the Second Amendment, a copy of which will be filed as Exhibit 10.1 hereto and incorporated herein by
+reference. First Amendment Waiver Extension Pursuant to the First Amendment, the Lenders agreed to waive, for the period from the effective
+date of the First Amendment to September 7, 2026 (the "Scheduled Termination Date"), certain anticipated or existing events
+of default under the Credit Agreement. As previously disclosed, since September 4, 2026, the Agent and Lenders have agreed to a series
+of extensions of the Scheduled Termination Date through October 22, 2026, and have provided temporary relief through October 22, 2026,
+with respect to the Company's obligations to maintain certain minimum liquidity thresholds and a minimum Collateral Coverage Ratio (as
+defined in the Credit Agreement), each as described in the June 25th Current Report (collectively, the "Prior Extensions").
+On October 20, 2026, the Agent and Lenders agreed to further extend the Scheduled Termination Date and the temporary relief with respect
+to the minimum liquidity thresholds and minimum Collateral Coverage Ratio through November 1, 2026 (the "Current Extension"
+and, together with the Prior Extensions, the "Extensions"). Item 2.03 Creation of a Direct Financial Obligation or an Obligation under an Off-Balance
+Sheet Arrangement of a Registrant. The information set forth above under Item 1.01 with respect to the Second Amendment is hereby
+incorporated by reference into this Item 2.03. Item 8.01 Other Events. On October 20, 2026 (the "Redemption Date"), ACM Auto Trust 2024-2 (the "Issuer"),
+an indirect subsidiary of the Company, completed the redemption (the "Redemption") of all its outstanding Asset Backed Notes
+(the "Notes"). The Notes were issued pursuant to the Indenture, dated as of October 9, 2024, between the Issuer and Deutsche
+Bank National Trust Company, as indenture trustee (the "Trustee"). The Redemption was effected following the Company's exercise,
+as servicer, of its option to purchase the remaining receivables held by the Issuer pursuant to the Sale and Servicing Agreement, dated
+October 9, 2024. Following the Redemption, the remaining receivables, with an aggregate principal balance of approximately $92 million,
+were released from the Issuer and are no longer pledged to secure the Notes. Item 9.01 Financial Statements and Exhibits. (d) Exhibits. 10.1 Second Amendment to Credit and Guaranty Agreement, dated
+October 15, 2026, among America's Car Mart, Inc., Colonial Auto Finance, Inc., Texas Car-Mart, Inc., America's Car-Mart, Inc., the guarantors
+party thereto, the lenders party thereto, and Silver Point Finance, LLC, as Administrative Agent and Collateral Agent 104 Cover Page Interactive Data File (formatted in Inline XBRL and contained in Exhibit 101) SIGNATURES Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly
+caused this report to be signed on its behalf by the undersigned hereunto duly authorized. AMERICA'S CAR-MART, INC. Date:  October 21, 2026 By: /s/ Marie Persichetti Marie Persichetti Chief Financial Officer

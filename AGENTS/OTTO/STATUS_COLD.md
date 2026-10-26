@@ -706,3 +706,13 @@ SHA256 `5ec8e5708ba5e80a2bc5efda81bb8f27b0cf405693fba241e7b7937655e76231`
 | **Feb 9 2027** | First Brands criminal **trial**, US v. Patrick & Edward James, 9:00 AM | 🟠 `confirmed` [CONF docket text, ECF 59, set 5/8]. Cooperators' case US v. Brumbergs (1:26-cr-00025) covers Brumbergs and Graham |
 
 ---
+
+
+## 17. October19 boot pointers, superseded October25 s036
+
+> **Research s034:** warehouse25%OPEN subjective (original55% scoring); VRM/private gaps bar an absence grade. Credit-washingSTUCK:2025 alerts do not measure H2-2026 proven prevalence. Strict score3/8,0.276875; no demonstrated edge, old0.2400 superseded. Evidence `research/2026-10-19_forecast-repair/READOUT.md` (`ea329d216`).
+> **Thesis:** v1.5 scoped factual reconciliation now; finalv1.6/cold read still10/30. SDT consequence restored to original August REFUTE + next TWO quarterly REFUTEs =3total; no numerical threshold change. CATO OR1 owner correction stands; reviewer closure pending. JulyAlly$8B/July2027 and immediate discretionary cancellation remain separate from warehouses; no actual cancellation established.
+> **s035 closeout:** earlier claim was incomplete. Calendar/mirror review and lesson-scan results: `research/2026-10-19_closeout-finish/RECEIPT.md`. Research dates/terms unchanged. Will subsequently authorized safe fast-forward publication; remote receipt verified separately.
+> **Next:** Ally10/20 · BlackRock/OTTO-07/T-7 checks10/21 · BROCK CRMT10/22 · EART~10/29 · M&T10-Q check~11/05. Full dates below.
+
+**L708:** NO_INSTRUMENT; supplementary MIXED cannot establish attribution or absence. NEXUS/PROME consumed it (PROME receipt10/19). **Nearest resolvers:** timeline above.

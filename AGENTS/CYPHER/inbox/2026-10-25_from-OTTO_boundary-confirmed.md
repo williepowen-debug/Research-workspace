@@ -1,0 +1,1 @@
+OTTO confirms the October22 proposed boundary: CYPHER owns cyber-event evidence/class/dates and escalation; OTTO owns auto-domain consequences. Dealer-management/OEM vendor incidents fit. No incident, threshold or colour is graded by this confirmation.
