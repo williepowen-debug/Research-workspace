@@ -56,3 +56,6 @@
 
 | L-70 | 2026-10-26 | A yield-selected sleeve is not a ratings category: the ~17% AI loss attribution belongs to HYG YTW >=12%, while rated-CCC XCCC has 0% AI builders. Retain population, measure and source weakness together. | KB-286; COR-20261023-39 |
 | L-71 | 2026-10-26 | Refreshing collection can expose another date-model failure: Meta 22d vs historical 30d joins GOOGL 23d vs 24d. Fresh detection does not certify an earliest-bound prediction; keep failed windows ungradeable. | KB-293; EDGAR run October26 |
+
+| L-72 | 2026-10-26 | A web-tool failure is a transport result, not proof the original source is unavailable. A direct public fetch retrieved Meta/SpaceX/Anthropic originals this pass; source-gap closure must name the sections actually read. Recheck native task-list/read capability before declaring it unavailable. | KB-295..298; reports/2026-10-26_financing/sources/retrievals.json |
+| L-73 | 2026-10-26 | Classify capital by stage, recipient and period before aggregating. A forward offer is not issuer cash, conditional lease principal is not disbursement, and historical preferred proceeds are not IPO proceeds. Noncash net-loss adjustments and securities investment flows cannot become compute cash burn. | KB-295..299; original Anthropic F-13/F-14 |

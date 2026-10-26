@@ -1,34 +1,34 @@
 # VULCAN — NEXUS Brief
 
-**Status:** S1 3 / S2 2 / S3 3 / S4 3 / S5 4 = **15/25**, unchanged. One fired channel, S5, two events (Firmus withdrawal and Volta under Will's B choice); WQ-464 retained score 4.
-**Domain:** AI-capex / semiconductor / memory systemic transmission; count shared AI-demand root once.
-**As of:** 2026-10-26T13:34:56-04:00 | **STATUS commit:** b5f0c53fc
-**Variant:** FULL. Startup/intake only; no live market-price refresh. KB-286..294 and reports/2026-10-26_startup.md. Prior prices retain their observation dates. Cross-fleet discovery/notification unavailable; recipient consumption unverified. Push pending: safe-push failed for missing GitHub HTTPS credentials.
+**Status:** S1 3 / S2 2 / S3 3 / S4 3 / S5 4 = **15/25**, unchanged. One fired channel, S5, two events: Firmus withdrawal and Volta under Will's B choice; WQ-464 retains score4.
+**Domain:** AI-capex / semiconductor / memory systemic transmission; shared AI-demand root counted once.
+**As of:** 2026-10-26T13:47:46-04:00 | **STATUS commit:** 859f120d9
+**Variant:** FULL. Will-directed October26 financing pass, KB-295..299; reports/2026-10-26_financing/REPORT.md. Originals/hashes/scoped reads retained. No market-price refresh. Native Codex list/read verified; discovery truncated, BROCK/WATT presence UNKNOWN. Notification acceptance and consumption separate. Push pending missing GitHub credentials.
 
 ## CROSS-DOMAIN
 
-| Desk | Current consequence / limits | Source |
+| Desk | Material consequence and retained caveat | Source |
 |---|---|---|
-| VIOLET / HENRY | Retained SPY Mag7 fund weight 34.0060%, breadth -1.04pp [holdings October22] = YELLOW NOT FIRED. No new concentration sample. Meta issuer FCF -$2.120B includes $0.964B lease principal; CFO-PPE alone -$1.156B. | KB-279/290 |
-| LIQUID / BROCK | Meta ~$35B offerings launched per WALTER issuer read; common forwards are not initial cash, $60B ATM unagreed, vendor interest nonbinding. Own issuer/SEC body opens failed. Anthropic public S-1 reported; full tables unread. Neither establishes a qualifying new S5 event. SpaceX ~$40B commitment remains conditional with future delivery, per WALTER relay. | KB-291/292; SIG-W-20261026-002 |
-| HAWK / ZHAO | Polar confirms allocation from one of three suppliers. Not an actual production shutdown; current fab buffers and lost output UNMEASURED. Same incident as CBS, not independent corroboration of a second fab. HAWK packet delivered by file. Existing policy re-check October27. | KB-287 |
-| CARL / HENRY | Core memory basket MU+SNDK -24.09% 1-month [October23], contracts still positive at prior source vintage. Existing hynix/Samsung test unchanged, no off-cadence sample. | KB-282/285 |
-| WATT | No new firm-capacity-removal evidence established; copper/acid leads are conditional input costs, not cancelled capacity. Keep producer and horizon distinctions. | SIG-W-20261025-005/021 |
-| TERRY | PASS on both October23 ideas, no card: tenant split lacks verified tenants and gradeable trigger; memory binary lacks outcome edge. Route existing print-test results when available. | KB-288 |
-| DEWEY / PROME | L834 five concepts accepted with exact issuer fiscal windows, explicit missing tags, and consumer-derived YTD subtraction. Print-day releases first; XBRL later. No accounting comparability implied by matching tags. | KB-289; DEWEY reply packet |
-| CYPHER / ISHM | Domain-owner process dates retained with owners, no parallel collector. No cyber-related named compute contract change established; receive ISHM's existing paired J1 outputs. | startup receipt neighbour assessment |
+| BROCK | Meta $35B preliminary offerings/$60B ATM unagreed; SpaceX ~$40B conditional principal, rate unset; Anthropic IPO unpriced. Asked final terms, recourse/guarantees/residual risk, retention and drawable-versus-drawn distinction in existing work. Neither an arranger role nor manager name identifies bank/insurer loss exposure. | KB-295..297; BROCK packet |
+| WATT | SpaceX closing expected before year-end2026; delivery/lease commencement H1 2027. No actual delivered units, firm grid rights, site MW, energized load or utilization established. Meta guide held $135–145B. Asked already-sourced consequences, no dollars-to-GW model. | KB-296/299; WATT packet |
+| LIQUID | Funding-access counterevidence, not new cleared spread or VULCAN event; pricing still matters. SpaceX binding commitment stronger than interest, weaker than close/disbursement. Existing spread read owns any market implication; no new collector. | KB-296/299; LIQUID packet |
+| HENRY | Meta nine-month OCF $97B is not comparable to full-year capex $135–145B for a cash-gap subtraction. Anthropic H1 OCF +$3.929B and net financing +$110.774B; June cash/equivalents+short-term investments $131.651B. Historical receipts, not IPO cash/current runway; working-capital timing matters. | KB-295/298; HENRY packet |
+| VIOLET | NVDA/AMD/AVGO interest up to $5B in Meta common offering is nonbinding and not additional to $22.5B. Possible supplier/customer equity correlation, not a funded circular contract or new guarantee; no price/volatility-reaction claim. | KB-295/299; VIOLET packet |
+| WALTER | Originals now retrieved directly for all three. Anthropic source access/status gap narrowed, full current cash/commitment reconciliation gap retained. This updates the three existing signals, not three new events. | KB-295..298; WALTER packet |
+| HAWK / ZHAO | Prior helium endpoint unchanged: Polar allocation, not lost output; current buffer UNMEASURED. Existing policy re-check October27. | KB-287 |
+| CARL / HENRY / TERRY | Existing memory print test and TERRY PASS retained. No new contract-price or demand-cut evidence from this financing pass; no card/trade. | KB-282/285/288 |
 
 ## VIEW
 
-Financing remains the only fired channel; fresh announcements expand the evidence set without proving new cash, a funding failure or another stress vote. Polar's named-fab allocation strengthens the physical-supply endpoint but does not measure lost output. Broad HY distress must not be relabelled AI-led: the earlier ~17% figure is loss attribution in a yield-selected HYG sleeve, while the rated-CCC basket has 0% AI builders in DEWEY's holdings read. Agency-rating primaries were not reached [KB-286].
+The strongest change is evidence that capital access is adapting rather than proved shut. Meta brings external equity explicitly into payer-tier funding; SpaceX has institutional willingness to commit to future equipment; Anthropic's historical positive OCF and financing receipts counter a cash-collapse narrative. That supports buildout while leaving dilution, pricing, conditions, risk allocation and delivery timing consequential. No current hardware/power quantity follows from a financing headline. No extra S5 qualifying event; the shared buildout root remains one.
 
 ## CALIBRATION
 
-17 forecasts registered, 12 resolved, five OPEN; none due at startup. No grades changed. EDGAR collected 15 additions but full run rc2: GOOGL 10-Q 23d versus 24d bound and META 22d versus 30d bound FAIL. Those windows remain UNGRADEABLE; thin annual histories also ungradeable. Collection freshness is separate. No bound widened. DEWEY withdrew its unsupported two-of-five caveat-loss attribution [KB-294].
+17 predictions registered,12 resolved,five OPEN; none due. No grades changed. Meta Oct21 RAISE/REWARDED after-hours observation remains the first cluster leg; October26 financing does not regrade that reaction. EDGAR collection fresh but GOOGL/META 10-Q backtests FAIL, windows UNGRADEABLE; thin annual histories likewise ungradeable. No bounds widened. Full original retrieval is not a full-document financial reconciliation.
 
 ## NEXT DECISION POINT
 
-Today's October26 GOOGL method and KB-096 issuance studies remain unfinished and due today; no later deadline inferred from startup. Next market tests are the already-registered October28-29 earnings cluster and memory prints, then October30 post-close samples. No new Will decision or trade proposed. TERRY's PASS supersedes the prior pending-card implication.
+Existing October28–29 hyperscaler/memory tests and October30 post-close samples. Additional transaction windows are evidence dates, not a new cadence: Meta next pricing/closing date unspecified, optional ATM Q1 2027/charter Jan19, common settlement on/before Nov19 2027 under preliminary terms; SpaceX expected close before year-end2026, delivery H1 2027. Anthropic has no announced priced-IPO date. Original current commitment placeholders remain blank; no leaked totals imported. Older GOOGL method/KB-096 issuance study remains open and dueOctober26, not silently completed or re-dated. No new Will decision or trade proposed.
 
 ## WATCH (next 2–4 weeks and beyond) — ⏱️ THE CLOCK
 

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "anthropic-s1",
+    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+    "retrieved_at": "2026-10-26T17:37:41.930653+00:00",
+    "status": 200,
+    "bytes": 14169252,
+    "sha256": "01ceed043cd6ff4f67d9053ec6f8dac703c931b3327e98d6abf2d56fef45dc89"
+  },
+  {
+    "name": "anthropic-issuer",
+    "url": "https://www.anthropic.com/news/s1-sec",
+    "retrieved_at": "2026-10-26T17:37:41.931325+00:00",
+    "status": 200,
+    "bytes": 150742,
+    "sha256": "265e108314c615682da6c757b67432085cbdd04c4f5b8aa30e2d67a671c3d002"
+  },
+  {
+    "name": "meta-common",
+    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526431040/d94886d424b5.htm",
+    "retrieved_at": "2026-10-26T17:37:41.931719+00:00",
+    "status": 200,
+    "bytes": 417718,
+    "sha256": "62d08bb18b772876f2c548ab5610d250e19aca32aa176c541426efe0f26c000f"
+  },
+  {
+    "name": "meta-preferred",
+    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526431043/d133631d424b5.htm",
+    "retrieved_at": "2026-10-26T17:37:41.932128+00:00",
+    "status": 200,
+    "bytes": 821163,
+    "sha256": "1f055929f8bd045ea0ad495db1c94de47fb14709ca7710aafae634058f399f5f"
+  },
+  {
+    "name": "meta-release",
+    "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Announces-Launch-of-Offering-of-Depositary-Shares-Representing-Series-A-Mandatory-Convertible-Preferred-Stock-and-Offering-of-Class-A-Common-Stock-in-Connection-with-Forward-Sale-Agreements/default.aspx",
+    "retrieved_at": "2026-10-26T17:37:42.171511+00:00",
+    "status": 200,
+    "bytes": 73092,
+    "sha256": "35a544a7a220d6ec15276dde9dc968fe8fba162bc74f2df9d2c645c8ed84a359"
+  },
+  {
+    "name": "spacex-release",
+    "url": "https://ir.spacex.com/updates/releases-details/2026/SPACEX-SECURES-40-BILLION-IN-THE-LARGEST-GPU-FINANCING-EVER-2026-EnDqGhTAB3/default.aspx",
+    "retrieved_at": "2026-10-26T17:37:42.301358+00:00",
+    "status": 200,
+    "bytes": 90697,
+    "sha256": "1c1ca1c306e872188679b6a5f1aad19632588cb2ad8941650b5039c0be1bc092"
+  }
+]
