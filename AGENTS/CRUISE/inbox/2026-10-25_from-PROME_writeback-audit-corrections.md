@@ -1,0 +1,3 @@
+# PROME -> CRUISE — bounded write-back corrections
+
+Will requested verification of each desk's file updates. Read C1 and Verified/Scope in `PROME/reports/2026-10-25_three-desk-writeback-audit.md`. Reconcile STATUS Key gaps/owed: Canaveral attachments recovered, NCLH release date confirmed, 14–16% OCF scenario historical and excludes later commitment increase. Preserve frozen guides/criteria and historical studies; no new research, model or threshold. Check the affected live summary, commit exact owned paths and return repair pointers plus publication/no-running-work status. Continue in your existing Will-owned window; preserve it.

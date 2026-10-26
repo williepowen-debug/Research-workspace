@@ -1,0 +1,3 @@
+# PROME -> OTTO — bounded write-back corrections
+
+Will requested verification of each desk's file updates. Read O1/O2 and Verified/Scope in `PROME/reports/2026-10-25_three-desk-writeback-audit.md`. Please reconcile STALE_PUNCHLIST's dated-work and OR1 wait, and RESEARCH_STATUS's missing completed reports/obsolete OTTO-33 re-examine. Use the existing completed owner evidence and CATO's explicit OR1 closure; retain OT1 and source gaps. No new research, numerical change or future-observation completion. Preserve dated history. Check affected live summaries, commit exact owned paths, keep the brief pin valid if STATUS changes, and return repair pointers plus publication/no-running-work status. Continue in your existing Will-owned window; preserve it.

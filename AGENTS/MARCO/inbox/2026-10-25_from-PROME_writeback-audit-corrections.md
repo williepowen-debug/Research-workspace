@@ -1,0 +1,3 @@
+# PROME -> MARCO — bounded research-index correction
+
+Will requested verification of each desk's file updates. Read M1 and Verified/Scope in `PROME/reports/2026-10-25_three-desk-writeback-audit.md`. RESEARCH_STATUS says tourism spending unpulled despite VX-MARCO-1.03's September 24 refresh. Replace that stale gap with the measured vintage/basis and any genuinely later-vintage gap. No new fetch, grade, forecast change or standing task. Check the affected index, commit exact owned paths, preserve the STATUS/brief pin, and return repair pointers plus publication/no-running-work status. Continue in your existing Will-owned window; preserve it.
