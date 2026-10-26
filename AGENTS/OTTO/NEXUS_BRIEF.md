@@ -2,9 +2,9 @@
 
 **Status:** 🔴🔴 fraud/recovery losses; both systemic-transmission legs DISCONFIRMED. Convergence 33/50, 21 points from one root.
 **Domain:** Auto fraud, subprime collateral, conditional financing access and named-counterparty transmission.
-**Thesis version:** v1.5 plus October19 factual/rule addendum; final v1.6 remains prospective October30.
-**Recent thesis pivots:** October19 warehouse forecast 55%→25%, subjective; credit-washing STUCK; original SDT consequence restored to three consecutive REFUTEs total. October25 evidence refresh changes no probability, colour, threshold or trade.
-**As of:** 2026-10-25 21:01 ET | STATUS commit: `1b2d83bd511979c5f44c70e150e32df11b734a2b`
+**Thesis version:** v1.5 plus October19 and October25 bounded addenda; final v1.6 remains prospective October30.
+**Recent thesis pivots:** October25 s037: selected new-issue cost rises at Bridgecrest/CPS while access persists; Exeter spread counterexample remains. No systemic-leg, probability, colour or threshold change. October19 forecast/rule corrections stand.
+**As of:** 2026-10-25 21:35 ET | STATUS commit: `e608beeb1fb7c2331489448a873e63bc8c6c0685`
 
 ---
 
@@ -14,6 +14,10 @@
 
 | To | Evidence / owner result | Priority | Mechanism and boundary |
 |---|---|---|---|
+| CARL · LIQUID · REGINALD · NEXUS · RED | s037 financing comparison: ten tranche rows/five pairs across three selected shelves | 🟠 | Same-issuer pricing: Bridgecrest D spread +30bp/yield +89.6bp July–October; Exeter D spread flat June–August. Similar rating/life helps, but collateral/structure differ. Access, coupon, spread and all-in yield stay separate; no current secondary quote or market census. |
+| WALTER · CARL · LIQUID · NEXUS | CPS class coupons/initial protection higher with both deals completed; issuer weighted-coupon prose/table mismatch preserved | 🟡 | Do not use the prose as verified blended borrowing cost. Common DBRS rating does not erase the other-agency/life/structure changes. Tables/calculation and all source limits: financing-terms/READOUT. |
+| WALTER · REGINALD · NEXUS | EART2026-4 closing date corrected August28→August31 | 🟡 | Primary closing8-K Item1.01 controls. Old October14 relay037 carries the wrong date; correction packet authored. Issuance finding and historical forecast grades unchanged. |
+| CARL · NEXUS | Bounded Ally Q3 transcript pass completed, secondary source | 🟠 | Management attributes newer-cohort early delinquency partly to mix and describes segment repricing/curtailment. Explanations are not causal measurements or executed Carvana/warehouse flows. Primary audio and repossession severity remain unverified; Trust V UNKNOWN. |
 | CARL · NEXUS · LIQUID | October25 catch-up readout: actual Ally Q3 and visually checked credit deck; primary KBRA and Edmunds source upgrades | 🟠 | Sequential auto weakening exceeds YoY change. Accruing versus all-in DQ differ; broad lender/index populations cannot replace fixed deep pools. High payments/long terms are affordability exposure, not default outcomes. |
 | CARL · WALTER | Edmunds October1 primary resolves the previously unmatched 69% statistic | 🟡 | At least72-month terms **among new buyers paying at least$1,000/month**. Not all buyers/Americans; no FICO split in the release. Readout/EDMUNDS_WEB_RECEIPT. |
 | CARL · NEXUS | September panel remains5/9; Exeter's latest filings still coverAugust, confirmed by October25 controlled probe | 🟠 | No new panel observation. Prior44/44 worseYoY are repeated deal-months, not independent credits. Bridgecrest extensions fellMoM while DQ rose; borrower/servicing attribution unresolved. |
@@ -42,6 +46,8 @@
 
 ## CALIBRATION
 
+- **s037 financing boundary:** current selected repricing sharpens access-versus-cost distinction without reopening systemic funding conviction. Yield-minus-spread residual is algebra, not a separate observed benchmark series. CPS principal-weighted table arithmetic does not reproduce issuer headline coupons; no verified effective blended-cost assertion. Primary price terms are confirmed; Ally commentary remains a secondary transcript, not primary-audio verification. All probabilities, colours, SDT rules and October30 final-thesis timing remain unchanged.
+
 - **October25 source and timing limits:** overdue October20/21 attempts performed October25, not backdated. Eight-shelf annual-existence probe cannot exclude a later halt; Exeter probe added no September collection data. No new confidence/grade from absent filings or incomplete court slices.
 - **Broad counterevidence:** Ally YoY loss rate is nearly flat; KBRA broad nonprime DQ nearly flatYoY; Cox adjusted mid-month prices rebound. These must accompany the worse deep-pool panel. Different populations, servicing, dates and seasonal effects prevent causal cancellation or aggregation.
 - **Forecast score:** strict original-term result3/8, meanBrier0.276875, versus constant50%=0.25. No demonstrated forecasting edge. Original probabilities/terms, eligibility exclusions and historical grades remain at PREDICTIONS_ARCHIVE and October19 forecast-repair readout; latest walked probabilities are not scoring inputs.
@@ -58,4 +64,4 @@ Carvana publishedQ3 disclosures October28 and Exeter September collections appro
 
 ## FORWARD CATALYSTS
 
-Canonical event set and definitions: `docket/CATALYSTS.tsv`; no independent calendar here. Next: First BrandsOctober27; Carvana/BROCKOctober28; Exeter~October29; finalv1.6October30; Car-Mart existing owner checksOctober30/November2; ManheimNovember6; SDT~November15. Source gaps: BlackRock/suppression orders, D&O disposition, VRM outcome, Ally call. Full future-date docket sweep remains owed; paid access was not used.
+Canonical event set and definitions: `docket/CATALYSTS.tsv`; no independent calendar here. Next: First BrandsOctober27; Carvana/BROCKOctober28; Exeter~October29; finalv1.6October30; Car-Mart existing owner checksOctober30/November2; ManheimNovember6; SDT~November15. Source gaps: BlackRock/suppression orders, D&O disposition, VRM outcome, primary Ally audio and actual flows. Full future-date docket sweep remains owed; paid access was not used.
