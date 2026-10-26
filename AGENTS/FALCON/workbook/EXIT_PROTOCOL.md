@@ -97,7 +97,7 @@
 
 ## 5. TIME-BASED REVIEW (the reader of every date below = closeout step 11, which compares each date to today)
 
-- **Scenario review every 7 days.** Last: **2026-10-14 (HELD B 1 / C 14 / D 85**; class-(ii) losses ×2 proposed to PROME with a HOLD recommendation; casualty ratchet RED; production rung not fired — `reports/2026-10-14_catchup-weekly-review-gate001-losses-ratchet.md`). **Next due 2026-10-21.** Prior: 2026-10-07 (HELD), 2026-10-01 (HELD).
+- **Scenario review every 7 days.** Last: **2026-10-14 (HELD B 1 / C 14 / D 85**; class-(ii) losses ×2 proposed to PROME with a HOLD recommendation; casualty ratchet RED; production rung not fired — `reports/2026-10-14_catchup-weekly-review-gate001-losses-ratchet.md`). **Next due 2026-10-28** (STATUS records October 21 review HELD; pointer reconciled October 26). Prior: 2026-10-07 (HELD), 2026-10-01 (HELD).
 - **Rewrite trigger (DATED):** FAL-06 resolving (by **2026-11-05**) · a fifth belligerent axis · a dated Iran-Oman PERMANENT-corridor framework · a third class-(iii) hull loss · or **2026-11-05**, whichever is first. *(Checked 2026-10-14: none fired — the two new losses are class (ii), not (iii); class-(iii) count stays 2, both (iii-B).)*
 - *Record:* the former trigger "Will ruling on the production rung" fired 2026-10-01 21:40 ET (registered) and was discharged the same evening by the §2/§2a edit; v3 had been written that day anticipating either outcome, so no wider rewrite was owed.
 - **Cap discipline:** this file is a boot-adjacent reference; keep it under the read cap by moving resolved detail to `archive/`. Do not amend it in place past the cap (the v2 failure).

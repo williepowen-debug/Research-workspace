@@ -263,3 +263,9 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-23T14:49-04:00	2026-10-23_from-DAEDALUS_WQ508-harness-audit-lines	acted	DAEDALUS	B25/B27 already applied by DAEDALUS f4149bf51; read the diff against the charter at boot (lines 30/60/340 match); NOT contested; no report-back owed.
 2026-10-23T14:49-04:00	2026-10-23_from-PROME_bab-awrp-filed-on-unreachable-list	acted	PROME	WARRISK Bab row marked CANNOT-FIRE, note points at registry row 1; Stale_By not widened; attempts-list correction (add 9/7, 9/8, 10/7) sent in PROME memo (KB-328).
 2026-10-23T14:50-04:00	SIG-W-20261023-031	acted	WALTER	CORRECTION to 024 applied before any publication: WH written no-strike-before-midterms 10/22 weighted over Barrack; pre-11/3 ~12% [EST] not ~15%; Bushehr ~135 staff (claim still CLAIM-ONLY, material if confirmed); GEM NO. 2 = 10/9 hull; receipt COR-20261023-31 APPLIED (KB-329).
+2026-10-26T13:30:28-04:00	SIG-W-20261023-032	info-only	WALTER	China chart unseen; BRENT owns
+2026-10-26T13:30:28-04:00	SIG-W-20261023-036	noted	WALTER	Attributed attack tally only; census unchanged
+2026-10-26T13:30:28-04:00	SIG-W-20261025-001	noted	WALTER	Intercept reports; primary release unrecovered; quiet completion not certified
+2026-10-26T13:30:28-04:00	SIG-W-20261025-011	noted	WALTER	Read with correction -026; claims not upgraded
+2026-10-26T13:30:28-04:00	SIG-W-20261025-026	noted	WALTER	Conditional warning and assessment compatible; old contradiction never adopted
+2026-10-26T13:30:28-04:00	SIG-W-20261026-007	noted	WALTER	Relayed diplomacy/Yemen claims; AP locator malformed; no settlement inferred
