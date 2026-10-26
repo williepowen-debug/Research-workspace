@@ -1,3 +1,4 @@
+# FROZEN 2026-10-25 — not maintained; STATUS is canonical, do not cite rows as current. Boot staleness alert +33d; rows retained as historical evidence, not refreshed.
 # Last real data refresh: 2026-09-20
 # CRUISE transmission map. Refreshed 2026-09-02 (CRUISE session) against BRENT STATUS 9/2 17:4x, FALCON STATUS 9/1 17:4x, CCL Q2 FY26 8-K 2026-06-23 (acc 0000815097-26-000086 Ex-99.1), CCL FY25 10-K 2026-01-27 (acc 0000815097-26-000007), CCL Q2 FY26 10-Q 2026-06-26 (acc 0000815097-26-000096).
 # Prior state was 2026-07-02 with no banner and no clock (+43d behind STATUS) — DAEDALUS Staleness Sweep #4, 2026-09-01. Two rows carried the JULY direction into September and are corrected below (FL-CRU-01 sign, FL-CRU-02 theater).
