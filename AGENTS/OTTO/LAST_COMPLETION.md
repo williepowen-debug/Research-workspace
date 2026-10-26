@@ -1,8 +1,7 @@
-## COMPLETION — OTTO — 2026-10-25 (s038)
-STATUS: ✅ DONE — bounded O1/O2 write-back repair using existing evidence.
-CHANGED: STALE_PUNCHLIST, RESEARCH_STATUS, MEMORY, ML, archived preimages, repair receipt, LAST_COMPLETION and refreshed pinned brief; assignment filed processed.
-RESULT: October25 s036/s037 reports indexed; completed dated checks and OTTO-33 re-examine no longer appear pending. CATO OR1 closure recorded at inspected frontier990753244, review566c749dc. Dated history preserved; OT1 remains OPEN for the existing October30 review.
-UNCHANGED: STATUS, PREDICTIONS, CATALYSTS and THESIS are byte-identical. No new research, metric, probability, colour, threshold, trade or future-observation completion.
-GAPS: Existing primary Ally audio/flows, Trust V, court/full WINTERKORN and other source limits remain; plea-transcript priority remains HIGH without claiming recovery.
-WILL_NEEDS: None.
-FOLLOW-UP: Existing owner dates/scope remain. No helper, tool, future-release wait or work remains running. Exact commits/publication receipt belong to the dated PROME repair memo; owner window preserved.
+## COMPLETION — OTTO — 2026-10-25 (s039, stale-file sweep Phase2)
+STATUS: DONE — accepted corrections and bounded existing-name/series checks; residual evidence/tool limits remain explicit.
+CHANGED: STATUS/THESIS/OTTO35 commentary/calendar attempt pointer, active docket/memory/index/backlog, factual charter/frozen metadata, Tier2 erratum, shelf docstring, historical-study banner, source/preimage/result receipts and WALTER/PROME delivery; final pinned brief follows STATUS commit.
+RESULT: Mixed-bank total retired; original SDT three-total consequence explicit;19 before images retained; five-name watchlist pass and Edmunds/Experian bounded checks completed. No forecast terms/probabilities/colours/convergence/calendar dates/numeric thresholds or executable producer logic/schema changed.
+GAPS: Some historical bank bases and current rating outcomes unverified; exact compatible Experian Q2 split unavailable. Full docket/primary audio/TrustV, missed after-refresh SDT cadence (actual lastAug14), existing October30 OT1/thesis review remain. No extra SDT verdict/run, detector redesign or Tier2 build/gate/schedule/drop commissioned.
+WILL_NEEDS: None for accepted bounded corrections; PROME independently checks closure.
+FOLLOW-UP: Existing dates/scope preserved. No helper, executing tool, source fetch, automated wait or research remains running after delivery. Exact finding results/checks and publication receipts: dated Phase2 READOUT/PROME memo. Owner window preserved.

@@ -1,0 +1,42 @@
+[
+  {
+    "key": "edmunds_q3",
+    "url": "https://www.edmunds.com/car-news/Q3-2026-negative-equity-report.html",
+    "publication": "2026-10-21",
+    "coverage": "2026Q3 financed trade-ins toward new purchases",
+    "retrieval_utc": "2026-10-26T03:00:15.514215+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "experian_q2",
+    "url": "https://www.experian.com/automotive/auto-credit-webinar-form",
+    "publication": "undated current landing page",
+    "coverage": "2026Q2; summary only, no exact new-only term split",
+    "retrieval_utc": "2026-10-26T03:00:15.706599+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "cps_q2_10q",
+    "url": "https://www.sec.gov/Archives/edgar/data/889609/000168316826006096/cpss_i10q-063026.htm",
+    "publication": "filing date not re-established; quarter ended2026-06-30",
+    "coverage": "Note8 consumer litigation as ofQ2; not current universal no-case assertion",
+    "retrieval_utc": "2026-10-26T03:00:20.947879+00:00",
+    "status": 200,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/889609/000168316826006096/cpss_i10q-063026.htm",
+    "raw_path": "AGENTS/OTTO/research/2026-10-25_stale-file-sweep-phase2/sources/cps_q2_10q.raw.gz",
+    "sha256": "ea4fe0213974a63f403867b2cd3f4441d887f2c21507578fd2097b8b99932967",
+    "bytes": 1114726
+  },
+  {
+    "key": "edmunds_chart_csv",
+    "url": "https://datawrapper.dwcdn.net/Nn4Lb/1/dataset.csv",
+    "publication": "linked from2026-10-21 publisher release",
+    "coverage": "same-series historical comparison only",
+    "retrieval_utc": "2026-10-26T03:00:21.429564+00:00",
+    "status": 200,
+    "final_url": "https://datawrapper.dwcdn.net/Nn4Lb/1/dataset.csv",
+    "raw_path": "AGENTS/OTTO/research/2026-10-25_stale-file-sweep-phase2/sources/edmunds_chart_csv.raw.gz",
+    "sha256": "bdfaec9a2a6d2570b16e48ae9eab4cd1829ec6a88f72fcd1828610356bebfdaf",
+    "bytes": 877
+  }
+]

@@ -1,0 +1,78 @@
+{
+  "STATUS.md": {
+    "sha256": "60bf0ae3e78c4e562e2be8ecfea863c53988b426291c86ec08e458b19f787f07",
+    "preimage": "AGENTS/OTTO/research/2026-10-25_stale-file-sweep-phase2/before/STATUS.md.gz"
+  },
+  "thesis/THESIS.md": {
+    "sha256": "f3313cad03bba646c40a15f6403f49992bf8c44a708e3da77e58cbdb003d4c50",
+    "preimage": "AGENTS/OTTO/research/2026-10-25_stale-file-sweep-phase2/before/thesis/THESIS.md.gz"
+  },
+  "thesis/PREDICTIONS.tsv": {
+    "sha256": "aeca8e7b44b07bf73ba0a4cebeb0d2b1f24c6eeb62b41421a3dda4c4573bb7b8",
+    "preimage": "AGENTS/OTTO/research/2026-10-25_stale-file-sweep-phase2/before/thesis/PREDICTIONS.tsv.gz"
+  },
+  "docket/CATALYSTS.tsv": {
+    "sha256": "994a60b99b6bda358885db375c13ad3c132bcc5792ac1647684a4a1b01934c5a",
+    "preimage": "AGENTS/OTTO/research/2026-10-25_stale-file-sweep-phase2/before/docket/CATALYSTS.tsv.gz"
+  },
+  "docket/WINTERKORN_MEMORY.md": {
+    "sha256": "f22e31068c10e6eae39293b5592d6fbebad1409b07d2ba1c8c0aadca031b5ea3",
+    "preimage": "AGENTS/OTTO/research/2026-10-25_stale-file-sweep-phase2/before/docket/WINTERKORN_MEMORY.md.gz"
+  },
+  "MEMORY.md": {
+    "sha256": "fa0375b0e83410c429e8fc68ab921dd1495d63c464bcdb3f42d7ef1ed2a6259b",
+    "preimage": "AGENTS/OTTO/research/2026-10-25_stale-file-sweep-phase2/before/MEMORY.md.gz"
+  },
+  "CLAUDE.md": {
+    "sha256": "680a0f8038471c6c75ba1d794ef559b9223f46ca0077438734d680ea2f3fc2f0",
+    "preimage": "AGENTS/OTTO/research/2026-10-25_stale-file-sweep-phase2/before/CLAUDE.md.gz"
+  },
+  "OUTBOX.md": {
+    "sha256": "7413488857e5bc16bcc251ffca6364a5d5093db1eb301d7d7545211d7721a7a1",
+    "preimage": "AGENTS/OTTO/research/2026-10-25_stale-file-sweep-phase2/before/OUTBOX.md.gz"
+  },
+  "RESEARCH_STATUS.md": {
+    "sha256": "a471ee12e70e8d5cbc4a93199e28367c749ef12400925a2c8924c44934a5253a",
+    "preimage": "AGENTS/OTTO/research/2026-10-25_stale-file-sweep-phase2/before/RESEARCH_STATUS.md.gz"
+  },
+  "research/TIER2_FORENSIC_SCREEN_SPEC.md": {
+    "sha256": "2eb4030d2fbc08f43c8cf7eca9b3a28af26b9689b1f6f3a57981ed9bea4f2601",
+    "preimage": "AGENTS/OTTO/research/2026-10-25_stale-file-sweep-phase2/before/research/TIER2_FORENSIC_SCREEN_SPEC.md.gz"
+  },
+  "scripts/shelf_halt_monitor.py": {
+    "sha256": "c4c0aab515b472e34beeeeaba2a21ae1a4c2bed911458e929af4061dcc0750df",
+    "preimage": "AGENTS/OTTO/research/2026-10-25_stale-file-sweep-phase2/before/scripts/shelf_halt_monitor.py.gz"
+  },
+  "workbook/SHELF_ACTIVITY.tsv": {
+    "sha256": "d361a21e429d07058fd770d31a6afbf427fda7809bdb8873de23adcc1e4974b4",
+    "preimage": "AGENTS/OTTO/research/2026-10-25_stale-file-sweep-phase2/before/workbook/SHELF_ACTIVITY.tsv.gz"
+  },
+  "NEXUS_BRIEF.md": {
+    "sha256": "c7ce5158882336f87c69d638dead5a4af5db591895ff4f39863258fbed801703",
+    "preimage": "AGENTS/OTTO/research/2026-10-25_stale-file-sweep-phase2/before/NEXUS_BRIEF.md.gz"
+  },
+  "STALE_PUNCHLIST.md": {
+    "sha256": "cff58afb35e95139d27ed5e429079f360e40744b0defb87eed9428a9fc80e9c5",
+    "preimage": "AGENTS/OTTO/research/2026-10-25_stale-file-sweep-phase2/before/STALE_PUNCHLIST.md.gz"
+  },
+  "LAST_COMPLETION.md": {
+    "sha256": "4f38c44aa30eec9b90ac90c759917d0d5d728f861e8b16b1af2b522f2fe5ee34",
+    "preimage": "AGENTS/OTTO/research/2026-10-25_stale-file-sweep-phase2/before/LAST_COMPLETION.md.gz"
+  },
+  "workbook/ML.tsv": {
+    "sha256": "6c4225d9c5ed7107d6891ca5aec2bf1893068c3d883d4d029a5e1055906020c5",
+    "preimage": "AGENTS/OTTO/research/2026-10-25_stale-file-sweep-phase2/before/workbook/ML.tsv.gz"
+  },
+  "MAINTENANCE.md": {
+    "sha256": "8da06f95381e51b3e7f1a6b2e077b8f8b7befb4c034cc575170d01f604134534",
+    "preimage": "AGENTS/OTTO/research/2026-10-25_stale-file-sweep-phase2/before/MAINTENANCE.md.gz"
+  },
+  "thesis/CHANGELOG.md": {
+    "sha256": "47e97ec103c5891009aca192ed06cd4ad613bcf3e20d6476b866fb688eedd808",
+    "preimage": "AGENTS/OTTO/research/2026-10-25_stale-file-sweep-phase2/before/thesis/CHANGELOG.md.gz"
+  },
+  "research/outputs/RP-OTT-2.5/RP-OTT-2.5_Negative_Equity_and_Loan_Term_Extension.md": {
+    "sha256": "a12fcc4761d28b455b1184b32397c2905fc709afefd5cd4eed0dcadbc0457ac4",
+    "preimage": "AGENTS/OTTO/research/2026-10-25_stale-file-sweep-phase2/before/research/outputs/RP-OTT-2.5/RP-OTT-2.5_Negative_Equity_and_Loan_Term_Extension.md.gz"
+  }
+}

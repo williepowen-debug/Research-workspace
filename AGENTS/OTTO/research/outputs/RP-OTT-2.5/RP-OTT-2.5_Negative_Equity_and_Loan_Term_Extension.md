@@ -1,3 +1,5 @@
+> **Dated correction October25,2026 (s039/OTS-05/12):** this August27 study is historical. Its “this REFUTE + one more” and November-alone consequence are superseded by the ORIGINAL August14 rule: August first plus next TWO quarterly REFUTEs =THREE total; numeric test thresholds unchanged. Q2 flat-depth support is not current: bounded Q3 publisher update/limits are at `../../2026-10-25_stale-file-sweep-phase2/READOUT.md`. No new formal SDT run, causal-confidence change or forecast grade follows. Original text retained below.
+
 # RP-OTT-2.5 — Negative Equity & Loan-Term Extension: the skip precondition, measured for the first time
 
 **Series:** 2.x (Immigration/skip transmission) · **Date:** 2026-08-27 (s020) · **Author:** OTTO

@@ -123,6 +123,9 @@ Future format for new PENDING items:
 
 ## STANDING MONITORS
 
+> **Owner-consumed overlay October25 (s039/OTS-06), not a WINTERKORN run:** current evidence supersedes active carry-forward hints below. EART2026-4 closedAugust31, not the8/28 filing date (s037 primary8-K); BLAST2026-4 closedOctober22. First Brands October20 hearing held perclerk3956, substantive disposition missing; October21 hearing continued,dateTBD perclerk3973, nextcheckOctober27. Verita recipe verifiedTLS thenHTTP403 onOctober25; a working recipe is not guaranteed present access. Ally/VRM/shelf/T-7 bounded attempts completed lateOctober25, not at old scheduled dates. Current canonical dates/questions → CATALYSTS/STATUS; old next-nodes/next-run hints below are October14 history. Full WINTERKORN last-run date remainsOctober14; full future-date sweep remains incomplete. No source gap or order outcome closed by this overlay.
+
+
 Recurring watches WINTERKORN should re-verify every run regardless of pre-fire window. These are the rows where source-of-truth is known to drift / be blocked.
 
 *(Rewritten by OTTO 2026-10-14, s029 — the July text is in `WINTERKORN_MEMORY_ARCHIVE.md` only where it was moved; the lines replaced here were stale facts, not history.)*
@@ -244,6 +247,8 @@ Will asked whether the Fitch gap could be closed from another source. All candid
 ---
 
 ## NEXT RUN HINTS
+
+> **October25 owner correction:** use the current overlay above and CATALYSTS for action; dated October14 hints below are retained as historical run output. No new WINTERKORN run or cadence satisfaction is claimed.
 
 Notes from the most recent run for the next-WINTERKORN to read first. Captures one-off context that doesn't fit in STANDING MONITORS but matters for the next sync.
 

@@ -1,14 +1,17 @@
 # OTTO Research Status
 
-**Last Updated:** 2026-10-25 (s038 write-back reconciliation). Completed October25 reports indexed below; current metrics remain in STATUS. CATO OR1 CLOSED at inspected owner frontier `990753244` (review `566c749dc`); OT1/final v1.6 remains the existing October30 review.
+**Last Updated:** 2026-10-25 (s039 broader stale-file reconciliation). Completed October25 reports indexed below; current metrics remain in STATUS. CATO OR1 CLOSED at inspected owner frontier `990753244` (review `566c749dc`); OT1/final v1.6 remains the existing October30 review.
 
 ---
 
 
 ## COMPLETED RESEARCH
 
+**Historical-index correction October25 (OTS-09):** dated rows preserve what each study originally reported, not current facts. RP-OTT-1.6’s “only2” early deals was superseded by October14 ECF149/inventory reconciliation (11 charged of≥13 issued, including4 earlier deals); its11 examined reports are not the whole universe. RP-OTT-2.3’s$237M total is retired/unqualifiable, not live exposure; BROCK owns named current marks. Older negative-equity/development findings are dated; current Phase2 disposition is below.
+
 | ID | Topic | Date | Finding | Location |
 |----|-------|------|---------|----------|
+| **s039** | **Audit-first broader stale-file sweep and accepted repairs** | **2026-10-25** | Mixed-basis bank sum retired; original SDT commentary restored; source checks leave explicit rating/series/court/cadence gaps, OT1 October30 retained | `research/2026-10-25_stale-file-sweep-phase2/READOUT.md`; Phase1 `research/2026-10-25_stale-file-sweep/AUDIT.md` |
 | **s037** | **Current financing terms and bounded Ally source pass** | **2026-10-25** | Ten selected tranche rows/five pairs across three shelves: differentiated repricing with completed access, not a market census. CPS issuer/table arithmetic mismatch and EART closing-date correction retained; Ally secondary-only, primary audio/flows unverified | `research/2026-10-25_financing-terms/READOUT.md` (`e608beeb1`); final brief `3feea9145` |
 | **s036** | **Bounded domain catch-up and directed whole-inbox intake** | **2026-10-25** | Ten packets consumed; Ally actuals, controlled shelf/Exeter probes and primary affordability/index context. Court/Trust V/full-docket gaps remain; no future observation claimed complete | `research/2026-10-25_catchup/READOUT.md` (`1b2d83bd5`); final brief `89d7eda99` |
 | **s034** | **Forecast provenance/instrument repair; bounded thesis reconciliation** | **2026-10-19** | Strict original score3/8,0.276875; warehouse55→25%subjective; credit-washingSTUCK; originalSDT3total. Finalv1.6 still10/30 | `research/2026-10-19_forecast-repair/READOUT.md` |

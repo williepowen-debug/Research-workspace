@@ -1,0 +1,17 @@
+{
+  "publisher_period_control": "Edmunds article date2026-10-21 explicitly Q3-2026. Linked raw chart last label Q3 3026 is retained, not silently changed. Values align with article29.1%/7107.",
+  "raw_latest_label": "Q3 3026",
+  "current_period_from_article": "2026Q3",
+  "q3_2026_share_pct": "29.1",
+  "q3_2025_share_pct": "28.1",
+  "q2_2026_share_pct": "29.6",
+  "q3_2026_depth_usd": "7107",
+  "q3_2025_depth_usd": "6905",
+  "q2_2026_depth_usd": "6884",
+  "q1_2026_depth_usd": "7183",
+  "qoq_depth_change_usd": "223",
+  "yoy_depth_change_usd": "202",
+  "qoq_depth_pct": "3.239395700174317257408483440",
+  "yoy_depth_pct": "2.925416364952932657494569153",
+  "limits": "Nominal, financed trade-ins with outstanding debt toward new purchases. Not every borrower/used-car cohort; no skip, repo severity, fraud or inflation inference. No forecast/SDT verdict change."
+}

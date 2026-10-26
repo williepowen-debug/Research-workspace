@@ -6,6 +6,8 @@
 
 ---
 
+> **Dated erratum October25,2026 (s039/OTS-10):** the feasibility gate already passedJuly25; the ending instruction to run it again is historical and is superseded. The eleven reports examined were a sample, not the complete issued-deal universe (October14 inventory≥13; ECF149 charges11). Build remains unscheduled; no gate rerun, build, scheduling/drop decision or new validation is commissioned by this correction. Original design/history below retained.
+
 ## The idea
 
 The superseding indictment alleges Tricolor *"manipulated delinquent loan data to make non-performing loans appear current"* and *"created fictitious payment records."* If that manipulation leaves a **statistical signature in reported ABS pool performance**, the signature can be screened for across other subprime shelves — turning the Cockroach thesis from a reactive posture (wait for a collapse, then investigate) into a **detection instrument**.

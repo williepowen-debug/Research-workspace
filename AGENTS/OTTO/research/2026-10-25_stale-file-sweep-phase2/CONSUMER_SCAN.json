@@ -1,0 +1,22 @@
+{
+  "scope": "Targeted current BOARD cards and NEXUS STATUS, not exhaustive cross-fleet census; search terms retained",
+  "terms": [
+    "$767",
+    "767M",
+    "6,884",
+    "6884",
+    "one more REFUTE",
+    "REFUTE + one more",
+    "SAFCO AND Lendbuzz"
+  ],
+  "nexus_status_targeted_hits": 0,
+  "limits": "Historical cards preserved; WALTER correction will qualify superseded owner claims and route current publisher observation. No other-owner edit or consumption claim.",
+  "incidental_hits": [
+    {
+      "path": "BOARD/SIG-W-20261001-019-us-offers-up-to-40m-bbl-more-from-spr-as-an-exchange-not-a-sale-last-of-the-172m-coordinated-release-reserve-heads-to-lowest-since-1982.md",
+      "line": 21,
+      "excerpt": "dispatch_note: \"Source: Will-Telegram 8-image batch 2026-10-01 ~17:04Z (msgs 4835-4842), batch manifest BM-20261001-05, item 6. 'Already ours?' BOARD has the SPR LEVEL (-0928-010) but not this release; BRENT STATUS carries weekly SPR draws, no release line. MEMORY #35 applied: BRENT's live SPR basis is in STATUS (283.767M wk 9/25), not the frozen KB rows. OIL_ENERGY -> BRENT action (fold the offer into your SPR/supply ledger, including the exchange return obligation); HAWK/RED info; CARL info (pump-price pass-through); HENRY info. Cluster IRAN_HORMUZ: the release is the war-driven coordinated draw.\""
+    }
+  ],
+  "relevant_stale_consumer_hits": []
+}

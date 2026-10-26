@@ -33,9 +33,16 @@ POSITIVE CONTROL (per [[finding_discovery_tool_wrong_slice_false_zero]]):
 
 Method + the four EDGAR-FTS rules: see AGENTS/OTTO/EDGAR_8K_MONITOR.md (instrument registry).
 
+INTERPRETATION CORRECTION (2026-10-25, OTS-11):
+  The producer probes existence of annual trust vintages, not a rolling 90-day
+  issuance series. Its historical NO HALT verdict means only that every
+  validated shelf has a vintage in that year. It cannot exclude a later halt
+  or establish uninterrupted/current access. The emitted verdict/schema and
+  probe logic are preserved; detector redesign is outside this text repair.
+
 Usage:
-  .venv/bin/python3 AGENTS/OTTO/scripts/shelf_halt_monitor.py            # 90-day window
-  .venv/bin/python3 AGENTS/OTTO/scripts/shelf_halt_monitor.py --days 180
+  .venv/bin/python3 AGENTS/OTTO/scripts/shelf_halt_monitor.py            # current-year vintage existence
+  .venv/bin/python3 AGENTS/OTTO/scripts/shelf_halt_monitor.py --year 2026 # explicit vintage year
   .venv/bin/python3 AGENTS/OTTO/scripts/shelf_halt_monitor.py --dry-run  # no ledger write
 """
 

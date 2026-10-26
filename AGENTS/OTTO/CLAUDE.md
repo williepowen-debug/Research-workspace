@@ -274,25 +274,24 @@ else references it. *(Finalized via the Phase-3b cross-doc audit, 2026-06-02. Ro
 | `thesis/PREDICTIONS.tsv` | The falsifiable-claim ledger (9-col schema) — every OTTO-NN + status. *Moved from `workbook/` → `thesis/` on 2026-06-09; boot scripts updated.* | Narrative; dashboard values; resolved-row post-mortems (→ PREDICTIONS_ARCHIVE) |
 | `thesis/PREDICTIONS_ARCHIVE.md` | Post-mortems for resolved PREDICTIONS rows: substance vs window outcome, calibration lesson. Calibration scoreboard at top. Read at calibration-review pass, not at boot | The active TSV rows (those stay in `PREDICTIONS.tsv` with status); failure-pattern *rules* (those live in THESIS § Predictions) |
 | `workbook/ML.tsv` | Append-only dated master-log of observations (the event record) | Forward predictions (→ PREDICTIONS); live dashboard state (→ STATUS) |
-| `workbook/VX.tsv` | Tracked-vector **registry** — vector IDs, category, per-vector rungs + status | ⚠ dup/rot: its `Current_Value` column duplicates STATUS + the CLAUDE threshold rules and is Feb-stale; treat STATUS as the live read, VX as the structured registry |
-| `workbook/VX_HISTORY.tsv` | Time-series history of vector values — **FROZEN 2026-10-14** (2 rows from 2026-01-26; banner on line 1, CRLF kept) | The current live read (→ STATUS / VX) |
-| `workbook/FLOW.tsv` | Transmission pathways (trigger → transmission → endpoint → agents) | Current metric values |
-| `workbook/KB.tsv` | Structured KB facts with epistemic + `STALE_BY` tagging (the in-house precedent for the evidence tags) | — |
-| `workbook/ABS_ISSUANCE.tsv`, `workbook/EXTENSION_PROXY.tsv` | Script-generated monitoring series (fed by `scripts/`) | Hand-authored narrative |
+| `workbook/VX.tsv` | **FROZEN registry/history** sinceJuly4: retained vector IDs/rungs/category; no maintained current values | Current decisions → STATUS; do not cite frozen Current_Value |
+| `workbook/VX_HISTORY.tsv` | **FROZEN2026-10-14**, two January26 historical rows | Live values → STATUS; VX is also frozen |
+| `workbook/FLOW.tsv` | **FROZEN2026-07-04** historical transmission map | Operative chain → thesis/THESIS.md; no live telemetry |
+| `workbook/KB.tsv` | **FROZEN2026-07-25** structured historical facts/STALE_BY tagging precedent | Current evidence → STATUS; expired rows are not live facts |
+| `workbook/ABS_ISSUANCE.tsv`, `workbook/EXTENSION_PROXY.tsv` | **FROZEN2026-07-25** manual-stub artifacts; stub scripts archivedOctober14 | Not maintained feeds; no default-zero issuance/extension inference |
 | `workbook/PANEL_10D.tsv` | **LIVE** 10-D deal panel (9 deals, 3 tiers): 60+ DQ, CNL, ANL, recovery, extension rate, disclosed `collection_period`, issuer `months_seasoned` (Bridgecrest: exhibit-derived). Written ONLY by `scripts/panel_10d.py` | Hand edits; an index or blended average |
-| `workbook/SHELF_ACTIVITY.tsv` | OTTO-07 shelf-halt probe output (`scripts/shelf_halt_monitor.py`), event-driven | — |
-| `workbook/CROSS_AGENT_LOG.tsv` | Log of outbound cross-agent signals (record of what was routed) | — |
+| `workbook/SHELF_ACTIVITY.tsv` | **FROZEN2026-09-02** July25 annual-vintage probe record; fresh dry-run evidence saved with dated research | Annual existence does not prove uninterrupted access/no later halt; live interpretation → STATUS |
+| `workbook/CROSS_AGENT_LOG.tsv` | **FROZEN2026-07-25** partial outbound history | Current delivery evidence → committed WALTER packets/receipts, not this subset |
 | `scripts/` | Boot automation (`boot.py` orchestrator → `predictions_due.py` + `catalyst_countdown.py` + price snapshot) and instruments (`panel_10d.py`, `severity_divergence.py`, `shelf_halt_monitor.py`). The two manual-check stubs were retired to `archive/` 2026-10-14: run bare, they appended placeholder rows to FROZEN ledgers | — |
 | `docket/CATALYSTS.tsv` | Machine-readable forward-event feed (8-col: date/event/what_to_check/threshold_signal/priority/who_cares/notes/date_class). Read by `catalyst_countdown.py` at boot. Source of truth for dated events. **Maintained by WINTERKORN sub-agent** (not edited by OTTO directly during normal sessions; OTTO applies WINTERKORN's flagged-for-OTTO escalations). Swept rows >30 days old move verbatim to `docket/CATALYSTS_ARCHIVE.tsv` (not a boot read) | Narrative (→ STATUS CRITICAL TIMELINE, the human twin); the prediction ledger (→ thesis/PREDICTIONS.tsv); live dashboard values |
 | `docket/WINTERKORN.md` | **Sub-agent spec** (mandate, autonomy gradient, read/write-set, truth model, the job, return format). OTTO-internal docket steward — spawned every OTTO session with ≥7 days since its last run, plus T-3 pre-hearing. Not a network peer. Auto-domain reference (VW Dieselgate executive-knew archetype). | Live state (→ WINTERKORN_MEMORY); analytical judgment (→ THESIS); anything outside docket/ scope |
 | `docket/WINTERKORN_MEMORY.md` | **Sub-agent state** — LAST RUN (history), PENDING (OTTO-side decisions queued), STANDING MONITORS (recurring watches), CALIBRATION (OTTO-owned accept/decline log; WINTERKORN reads but never writes), NEXT RUN HINTS. Superseded run entries and cleared PENDING → `docket/WINTERKORN_MEMORY_ARCHIVE.md` (verbatim, not a read) | The durable spec (→ WINTERKORN.md); CATALYSTS data itself |
 | `MEMORY.md` | Cross-session feedback, findings, references, Session Notes (CHANGES/LAST/NEXT) | Recaps of STATUS values (reference, don't copy) |
-| `LESSONS.md` | Distilled durable process rules | ⚠ overlaps MEMORY § Feedback + these conventions (consolidation candidate — punch-list) |
 | `LAST_COMPLETION.md` | The per-session hand-off | Durable learnings (→ MEMORY) |
-| `TRADE.md` | Position ideas, entry/anti-triggers, sizing, watchlist | ⚠ Thesis metrics (→ STATUS); prediction tracking; live prices (fetch live, never store) |
+| `TRADE.md` | **FROZEN2026-07-04** dated historical ideas, with later factual correction banners | No current holdings/prices/instructions; TERRY constructs, Will approves |
 | `RESEARCH_STATUS.md` | Completed-research index + exhausted-sources / research queue | ⚠ Live monitoring snapshots (those duplicate STATUS § CRITICAL TIMELINE) |
 | `STALE_PUNCHLIST.md` | Standing stale-doc inventory + priority-ordered refresh plan; re-audit each major session. The "what needs work next" list — check it when planning a maintenance/refresh pass | Live state; the actual refreshed content (this is the to-do, not the fix) |
-| `EDGAR_8K_MONITOR.md` | The 8-K early-warning monitoring protocol + bank watchlist (method) | ⚠ Bank-loss sizing (REGINALD owns); heavy REGINALD overlap |
+| `EDGAR_8K_MONITOR.md` | Live EDGAR search **method**; bank-watchlist half archivedOctober14 | No live bank sizing/watchlist; REGINALD owns sizing, dedicated desks own their filings |
 | `OUTBOX.md` | *(Deprecated — legacy HERMES transport buffer; superseded by WALTER inbox routing)* | Anything live |
 | `LESSONS.md` | Desk mistake patterns and pointers to evidence; read at boot3a | Live metrics, duplicated canonical prediction/gate rules |
 | `CLAUDE.md` | Identity, domain scope, boot/closeout protocol, threshold *rules*, these conventions, one-line pointer to canonical thesis | **The canonical thesis** (→ thesis/THESIS.md); **any current value or case status** (all live state → STATUS) |
@@ -403,12 +402,14 @@ OTTO's job: Generate signal. Not position sizing.
 
 **Added:** 2026-02-19 (CVNA lesson — closed position before Gotham report dropped same-day as earnings)
 
-### Known Activist Short-Sellers
+### Historical Activist Reference
+
+**Metadata reconciled October25 (s039):** the table below is historical reference, not a verified current-firm roster. The September28/30 adoption in `board_log.tsv` retired the Hindenburg phrase and records the nine accepted monitoring phrases. No current firm-status claim or new route/phrase is adopted here; root/WALTER routing and existing dated report checks govern.
 
 | Firm | Style | Typical Targets | Alert Level |
 |------|-------|-----------------|-------------|
 | **Gotham City Research** | Forensic accounting | Fraud, related-party | 🔴 HIGH |
-| **Hindenburg Research** | Investigative | Fraud, EV, SPAC | 🔴 HIGH |
+| **Hindenburg Research** | Historical investigative reference | Fraud, EV, SPAC | Historical only; phrase retired in recorded adoption |
 | **Muddy Waters** | Forensic/China | Chinese frauds, governance | 🟠 MEDIUM |
 | **Citron Research** | Quick hits | Overvalued, momentum | 🟡 LOW |
 | **Wolfpack Research** | Forensic | Healthcare fraud | 🟡 LOW |

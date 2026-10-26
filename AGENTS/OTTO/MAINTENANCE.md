@@ -14,6 +14,11 @@ routine content edits. Archive to `archive/` if it grows past ~300 lines (SAM ca
 
 ---
 
+
+### 2026-10-25 s039 — accepted stale-file metadata/source reconciliation
+
+**Trigger:** Will audit-first sweep, Phase1 consumed and Phase2 authorized atPROME`413f7d495`. **Changes:** dated inventory/findings/source/preimage/result receipts; factual Doc Ownership/frozen/retired reference metadata and duplicate LESSONS row corrected, OUTBOX historical transport warning, Tier2 completed-gate erratum; shelf producer docstring describes its actual annual-vintage probe and frozen ledger wrapper warns about its historical verdict label. **Controls:** source/forecast/case observations remain at their owners; no governance/routing/spawn/threshold change, no producer logic or emitted schema change, no tool build. Old records/preimages preserved. **Boot impact:** existing files/sequence unchanged; STATUS carries bounded results and residual gaps, final brief pin follows STATUS commit. **Lesson:** existing mirror/source-clock/scope correction patterns cover this pass; no new fleet-memory promotion. Analytical judgment unchanged; no new CHANGELOG pivot.
+
 ### 2026-10-19 s035 — finish omitted closeout checks
 
 **Trigger:** Will accepted the bounded research repairs but explicitly withheld full procedural-closeout acceptance after OTTO admitted skipped semantic comparisons and lesson-promotion scan. **Changes:** reconcile nine live calendar rows to existing records, unroll dead instructions, explicitly compare all32 event identities/dates/classes/meanings and8 unresolved prediction claims, and review the thesis-conviction mirror. Save task-local review mapping, one-off verification and lesson-scan disposition under `research/2026-10-19_closeout-finish/`. No production monitor, new research, event date, forecast term, threshold or authority change. **Boot impact:** next-session calendar now agrees with the existing corrected timing/measurement rules; continuity records explain earlier incomplete closeout. **Lesson:** existing fleet correction/mirror/skipped-control memories already cover this class; no new auto-memory or index entry warranted. Fullv1.6 and independent cold read remain scheduled10/30.

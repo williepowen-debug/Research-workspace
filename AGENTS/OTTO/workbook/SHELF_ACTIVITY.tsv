@@ -1,3 +1,4 @@
+# INTERPRETATION CORRECTION2026-10-25 OTS-11: annual-vintage existence is not proof of uninterrupted/current financing access or no later halt. The historical NO HALT/zero-halts labels below overstate that scope; original frozen records retained unchanged. Latest dated run evidence and precise limits live in research/2026-10-25_catchup/READOUT.md, not a refreshed row here. Producer logic/schema unchanged.
 # FROZEN 2026-09-02 — not maintained; STATUS is canonical, do not cite rows as current.
 # Single-run probe (run_ts 2026-07-25, verdict NO HALT — 8/8 validated shelves issued in 2026).
 # Cadence: EVENT-DRIVEN — re-run scripts/shelf_halt_monitor.py when OTTO-07 (>=1 subprime ABS shelf halts
