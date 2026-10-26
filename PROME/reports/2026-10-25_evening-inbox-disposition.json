@@ -1,0 +1,103 @@
+{
+  "as_of_utc": "2026-10-26T03:55:59.530911+00:00",
+  "total": 19,
+  "consumed_registered_in_place": 18,
+  "carried_substantive_review": 1,
+  "packets": [
+    {
+      "path": "PROME/inbox/2026-10-25_from-CRUISE_C1-writeback-repair.md",
+      "disposition": "CONSUMED/REGISTERED: three-desk direction, next-assignment, writeback and sweep reports plus ORCH_LOG; retained at original path",
+      "latest_commit": "a6d9da803a8d0046bc95bb947cc548196274ae70"
+    },
+    {
+      "path": "PROME/inbox/2026-10-25_from-CRUISE_catchup-and-watch-reconciliation.md",
+      "disposition": "CONSUMED/REGISTERED: three-desk direction, next-assignment, writeback and sweep reports plus ORCH_LOG; retained at original path",
+      "latest_commit": "dfe0937f357b25880ccdf184d815da2e56789fdc"
+    },
+    {
+      "path": "PROME/inbox/2026-10-25_from-CRUISE_port-pass-and-earnings-readiness.md",
+      "disposition": "CONSUMED/REGISTERED: three-desk direction, next-assignment, writeback and sweep reports plus ORCH_LOG; retained at original path",
+      "latest_commit": "274321488452c66cfa899d083617060627db9677"
+    },
+    {
+      "path": "PROME/inbox/2026-10-25_from-CRUISE_session-closeout.md",
+      "disposition": "CONSUMED/REGISTERED: three-desk direction, next-assignment, writeback and sweep reports plus ORCH_LOG; retained at original path",
+      "latest_commit": "2c9263802f8141a80d997551be6d0211c1497b7d"
+    },
+    {
+      "path": "PROME/inbox/2026-10-25_from-CRUISE_stale-file-sweep-phase1.md",
+      "disposition": "CONSUMED/REGISTERED: three-desk direction, next-assignment, writeback and sweep reports plus ORCH_LOG; retained at original path",
+      "latest_commit": "1ac9ebca67768b4ae0e82949b3bdbf8b829337b4"
+    },
+    {
+      "path": "PROME/inbox/2026-10-25_from-CRUISE_stale-file-sweep-phase2.md",
+      "disposition": "CONSUMED/REGISTERED: three-desk direction, next-assignment, writeback and sweep reports plus ORCH_LOG; retained at original path",
+      "latest_commit": "25caf23ae20d11e6ae22e29e7c9bde3c852040bb"
+    },
+    {
+      "path": "PROME/inbox/2026-10-25_from-DEWEY_hawk-three-research-returns.md",
+      "disposition": "CARRIED: read summary; HAWK owns commission, substantive consumer review pending; no new assignment",
+      "latest_commit": "2fc7b0942c31fe68d81d6a483015e441d9f90b39"
+    },
+    {
+      "path": "PROME/inbox/2026-10-25_from-MARCO_M1-index-repair.md",
+      "disposition": "CONSUMED/REGISTERED: three-desk direction, next-assignment, writeback and sweep reports plus ORCH_LOG; retained at original path",
+      "latest_commit": "01cd3b7ef2e31b40477acecf96486bf17a475627"
+    },
+    {
+      "path": "PROME/inbox/2026-10-25_from-MARCO_domestic-seats-LAS-complete.md",
+      "disposition": "CONSUMED/REGISTERED: three-desk direction, next-assignment, writeback and sweep reports plus ORCH_LOG; retained at original path",
+      "latest_commit": "9a93bb871a85b95730ffd339c5dc73ff090d0172"
+    },
+    {
+      "path": "PROME/inbox/2026-10-25_from-MARCO_session-closeout.md",
+      "disposition": "CONSUMED/REGISTERED: three-desk direction, next-assignment, writeback and sweep reports plus ORCH_LOG; retained at original path",
+      "latest_commit": "12870a75b970ac7ac44eb0082fce4df1c3343f39"
+    },
+    {
+      "path": "PROME/inbox/2026-10-25_from-MARCO_stale-file-sweep-phase1.md",
+      "disposition": "CONSUMED/REGISTERED: three-desk direction, next-assignment, writeback and sweep reports plus ORCH_LOG; retained at original path",
+      "latest_commit": "b46494136c58142240a83b2d5fe129ba94dcdbef"
+    },
+    {
+      "path": "PROME/inbox/2026-10-25_from-MARCO_stale-file-sweep-phase2.md",
+      "disposition": "CONSUMED/REGISTERED: three-desk direction, next-assignment, writeback and sweep reports plus ORCH_LOG; retained at original path",
+      "latest_commit": "f63a97bbe7eb12e49f7a3a57cb0329ddbfad7a7c"
+    },
+    {
+      "path": "PROME/inbox/2026-10-25_from-OTTO_domain-catchup-and-source-gaps.md",
+      "disposition": "CONSUMED/REGISTERED: three-desk direction, next-assignment, writeback and sweep reports plus ORCH_LOG; retained at original path",
+      "latest_commit": "b9d4426502d1e7eef45e272ec0b3372c7d2b50f4"
+    },
+    {
+      "path": "PROME/inbox/2026-10-25_from-OTTO_financing-terms-and-Ally-pass-complete.md",
+      "disposition": "CONSUMED/REGISTERED: three-desk direction, next-assignment, writeback and sweep reports plus ORCH_LOG; retained at original path",
+      "latest_commit": "bfc07a22c620ba2762d5f8b65e2b78c36afbaa3b"
+    },
+    {
+      "path": "PROME/inbox/2026-10-25_from-OTTO_session-closeout.md",
+      "disposition": "CONSUMED/REGISTERED: three-desk direction, next-assignment, writeback and sweep reports plus ORCH_LOG; retained at original path",
+      "latest_commit": "767673fd6ef9649c1756d5ff2464ba2e336b78b1"
+    },
+    {
+      "path": "PROME/inbox/2026-10-25_from-OTTO_stale-file-sweep-phase1.md",
+      "disposition": "CONSUMED/REGISTERED: three-desk direction, next-assignment, writeback and sweep reports plus ORCH_LOG; retained at original path",
+      "latest_commit": "5a53ca9d01a9caf8908042dc2e1be41021764f79"
+    },
+    {
+      "path": "PROME/inbox/2026-10-25_from-OTTO_stale-file-sweep-phase2-complete.md",
+      "disposition": "CONSUMED/REGISTERED: three-desk direction, next-assignment, writeback and sweep reports plus ORCH_LOG; retained at original path",
+      "latest_commit": "bc517d74cd941817291adace6965dc0c249a461a"
+    },
+    {
+      "path": "PROME/inbox/2026-10-25_from-OTTO_stale-sweep-final-prose-corrected.md",
+      "disposition": "CONSUMED/REGISTERED: three-desk direction, next-assignment, writeback and sweep reports plus ORCH_LOG; retained at original path",
+      "latest_commit": "3393ff5f3da3c32ce1e334cb5f010f3a6420cad9"
+    },
+    {
+      "path": "PROME/inbox/2026-10-25_from-OTTO_writeback-audit-O1-O2-repaired.md",
+      "disposition": "CONSUMED/REGISTERED: three-desk direction, next-assignment, writeback and sweep reports plus ORCH_LOG; retained at original path",
+      "latest_commit": "b1a69755cd3822fa860ff75ae3958d8ee3e392fa"
+    }
+  ]
+}
