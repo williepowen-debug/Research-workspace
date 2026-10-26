@@ -1,3 +1,7 @@
+# October26 Brazil interpretation follow-up
+
+Will asked what Brazil means for us and what to investigate. Saved bounded explanation/source qualification and ordered research questions in research/2026-10-26_morning/BRAZIL-INTERPRETATION.md. New local reporting: cancelled fixed-rate/inflation-linked auctions, floating-rate October27 LFT sale retained; official dated circular not recovered, placement still future/unverified. Forced carry liquidation, private dollar cash calls and US contagion remain unproved. Owner funding/credit data October23 predate the shock. FORGE positions October22/incomplete account scope, not current book. No new dispatch, monitor, trade, owner grade or desk launch. Existing publication/boot duties and all approvals below unchanged. Internal explanation committed locally; push deferred on existing authority/authentication boundary.
+
 # WALTER morning-news continuation — October26
 
 Updated 2026-10-26T16:46:43Z; requested by Will: “catch up any news from this morning”.

@@ -1,3 +1,7 @@
+## October26 Brazil explanation — light closeout, full deferred
+
+Will-directed mechanism/exposure explanation; fiscal/positioning/forced-sale layers separated, auction-scope qualification and post-event measurement gaps retained. Evidence/research priorities: research/2026-10-26_morning/BRAZIL-INTERPRETATION.md. No new research commission/dispatch/trade. Earlier delivery still unconfirmed; full boot/lifecycle duties unchanged.
+
 ## 2026-10-26T16:46:43Z — light-closeout — full deferred
 
 Will requested morning news. Two manifests CLOSED13/13:11 dispatches plus2 FOLD, BOARD1713→1724,44 create-only handoffs. Eight qualifying WQ515 transfers selected in dispatch order, source qualification/BOARD/handoff bytes hashed; actual owner records UNKNOWN and no grading before24h. Brazil B3 halt primary; AI financing primary terms separate from cash/proceeds; Dallas composition retained; ifo/CFNAI and Anthropic original-table gaps explicit. No new owner grade/trade, no new collector/commission, no inbox consumption. Existing10 regular/3 DEWEY returns remain pending. Sources/records in research/2026-10-26_morning/. Prior STATUS bottom line verbatim follows; full boot/lifecycle/READS duties stay open.

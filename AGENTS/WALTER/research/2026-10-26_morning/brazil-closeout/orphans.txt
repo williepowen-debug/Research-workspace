@@ -1,0 +1,22 @@
+⚠️  uncommitted files outside AGENTS/WALTER/:
+     [not yours]    AGENTS/BRENT/inbox/2026-10-26_from-FALCON_saudi-pumping-airport-verification.md
+     [not yours]    AGENTS/BRENT/research/2026-10-26_energy-review/
+     [not yours]    AGENTS/FALCON/board_log.tsv
+     [not yours]    AGENTS/FALCON/domain/energy-strikes/STRIKES.tsv
+     [not yours]    AGENTS/FALCON/domain/sources/FLOW_FALCON04_SUPERSEDED_2026-10-26.tsv
+     [not yours]    AGENTS/FALCON/inbox/processed/2026-10-25_from-DEWEY_hawk-03-marine-war-risk-prices-coverage.md
+     [not yours]    AGENTS/FALCON/inbox/processed/2026-10-25_from-HAWK_dictionary-confirmation.md
+     [not yours]    AGENTS/FALCON/reports/2026-10-26_saudi-claims-and-L807.md
+     [not yours]    AGENTS/FALCON/research/
+     [not yours]    AGENTS/FALCON/workbook/FLOW.tsv
+     [not yours]    AGENTS/FALCON/workbook/FLOW_HAWK_MIGRATED_FROZEN.tsv
+     [not yours]    AGENTS/FALCON/workbook/KB.tsv
+     [not yours]    AGENTS/FALCON/workbook/WARRISK.tsv
+     [not yours]    AGENTS/HAWK/inbox/2026-10-26_from-FALCON_cc-saudi-pumping-airport-verification.md
+     [not yours]    AGENTS/LIQUID/MEMORY.md
+     [not yours]    AGENTS/LIQUID/STATUS.md
+     [not yours]    AGENTS/LIQUID/research/2026-10-26_brazil-transmission/
+     [not yours]    AGENTS/VULCAN/reports/2026-10-26_financing/
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.
