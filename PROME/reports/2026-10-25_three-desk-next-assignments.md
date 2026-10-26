@@ -43,3 +43,5 @@ Each desk: acknowledge receipt once and identify the first task or any conflict.
 ## Dispatch receipt
 
 Before dispatch, direct native reads verified all three original Codex sessions at their exact desk cwd, idle after completed prior work. OTTO `01a175a8-1ce1-76c1-bcf7-e404b7c17e1f`; CRUISE `01a175a8-45aa-7d91-bd2d-e54349a416dd`; MARCO `01a175a8-62c5-74a3-a010-0fb3d619f279`. No new owner launch or model override. Requested Sol 6.1 remains the user's launch choice; actual serving suffix is unexposed. Notification and acknowledgment will be recorded after sending.
+
+All three native sends returned their matching thread IDs without error, pointing to committed assignment `0c0221120`. Each was registered as touch `2-NEXT-ASSIGNMENT` in ORCH_LOG with actual timestamps and Will-owned lifecycle. This records dispatch; owner acknowledgment and research delivery remain separate and pending at this receipt.
