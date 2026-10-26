@@ -1,8 +1,12 @@
+# FROZEN 2026-10-25 — completed CCL Q3 watch; historical criteria and run records only
+
+Q3 watch closed September29; CRU09 resolved October3; CCL WATCH retired by WQ427 October14. Do not run the historical every-spawn instructions below. Current state and future obligations: STATUS.md / CADENCE.md. Deferred Med/Europe call color remains separately listed in STATUS; no new CCL watch is created.
+
 # CCL Preannouncement Watch List
 
-*Owner: CRUISE. Created 2026-08-14 at Will's request. **Run 2026-09-02** — all 9 channels swept, dated observations below. Live document — run every spawn.*
+*Owner: CRUISE. Created 2026-08-14 at Will's request. **Run 2026-09-02** — all 9 channels swept, dated observations below. Historical completed watch — every-spawn instruction retired October25.*
 
-**One-line:** CCL's next scheduled report is Q3 FY26, **CONFIRMED 2026-09-29 (Tue)** — ⛔ *(was ~10/5 ESTIMATED; see the correction box. Historical text preserved below reads: NOT the 9/28-29 this document estimated on 8/14**. Between now and then the question is whether the Q3 print makes the fuel P&L drag visible — except the tape stopped waiting: the complex de-rated 13–18% between 8/14 and 9/2. This document lists what would fire a preannouncement, what to watch, and where CRUISE stands on each channel.
+**Historical pre-print one-line (superseded by the resolved run below):** CCL's then-next report was Q3 FY26, **CONFIRMED 2026-09-29 (Tue)** — ⛔ *(was ~10/5 ESTIMATED; see the correction box. Historical text preserved below reads: NOT the 9/28-29 this document estimated on 8/14**. Between now and then the question is whether the Q3 print makes the fuel P&L drag visible — except the tape stopped waiting: the complex de-rated 13–18% between 8/14 and 9/2. This document lists what would fire a preannouncement, what to watch, and where CRUISE stands on each channel.
 
 
 ## ✅ RUN 2026-09-29 — THE PRINT ARRIVED; WATCH CLOSED FOR Q3 FY26

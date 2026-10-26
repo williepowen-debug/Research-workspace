@@ -1,0 +1,23 @@
+[
+  {
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CCL?range=1mo&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "http": 200,
+    "retrieved_utc": "2026-10-26T03:14:39.846616+00:00",
+    "path": "sources/CCL-chart.json",
+    "sha256": "1ecbf5e4e9345a4d3b59a984dc972ca8e6cfc316c9b71ececa6028009b3508de"
+  },
+  {
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/RCL?range=1mo&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "http": 200,
+    "retrieved_utc": "2026-10-26T03:14:40.243874+00:00",
+    "path": "sources/RCL-chart.json",
+    "sha256": "f28cfe64bc90ffd77475366c2c51a5dc52ee3e249f38d823b212eba6baf508dd"
+  },
+  {
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NCLH?range=1mo&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "http": 200,
+    "retrieved_utc": "2026-10-26T03:14:40.605280+00:00",
+    "path": "sources/NCLH-chart.json",
+    "sha256": "8ea0f040300fc31d80bf35b70bf7f8ae6a28aa10b8c3575154f4dde26da2b49f"
+  }
+]

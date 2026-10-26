@@ -161,6 +161,8 @@ See STATUS.md for the live convergence matrix.
 
 ## MAIL SYSTEM
 
+*October 25 SF10 implementation limit: WQ508 R0A is APPROVED (October 23): external news/data via WALTER; own analysis, threshold fire or consequence handoff to a named consumer as PACKET. PROME has not verified the separately required root insertion. This note records approval versus pending implementation; it does not install or replace the operative rule below. SF10 stays open pending PROME's controlling record. Existing authorized named analysis packets and external-news WALTER routing remain available under current root rules.*
+
 ⛔ **HERMES was retired 2026-06-30 — there is no mail carrier.** Everything below was written for one and was corrected 2026-09-02 (DAEDALUS fleet census, 10 desks; CRUISE's three rows were the **DEAD-ROUTER** class — they named a router that had not existed for 64 days, so a signal written per this file would have been delivered to nobody and nothing would have reported the failure).
 
 > ### 🚦 The routing rule, and it has two lanes — do not over-correct in either direction

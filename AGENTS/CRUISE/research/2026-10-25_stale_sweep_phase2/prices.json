@@ -1,0 +1,46 @@
+{
+  "retrieved_utc": "2026-10-26T03:14:39.077946+00:00",
+  "vendor": "Yahoo Finance; pinned repository yfinance plus raw chart; same source family",
+  "basis": "raw Close for VX01 fixed33.99; adjusted observations retained, no prediction resolver",
+  "tickers": {
+    "CCL": {
+      "observation_date": "2026-10-23",
+      "raw_close": 26.110000610351562,
+      "adjusted_close": 26.110000610351562,
+      "previous_raw_close": 27.079999923706055,
+      "daily_raw_change_pct": -3.581976795004893,
+      "fixed_reference_date": "2026-02-06",
+      "fixed_raw_reference": 33.99,
+      "raw_change_from_fixed_reference_pct": -23.18328740702689,
+      "yellow_line": 27.192,
+      "red_line": 22.0935,
+      "current_adjusted_feb6": 33.452430725097656,
+      "chart_observation_date": "2026-10-23",
+      "chart_raw_close": 26.110000610351562,
+      "chart_matches_yfinance": true
+    },
+    "RCL": {
+      "observation_date": "2026-10-23",
+      "raw_close": 276.4800109863281,
+      "adjusted_close": 276.4800109863281,
+      "previous_raw_close": 286.1300048828125,
+      "daily_raw_change_pct": -3.3725906866833633,
+      "chart_observation_date": "2026-10-23",
+      "chart_raw_close": 276.4800109863281,
+      "chart_matches_yfinance": true
+    },
+    "NCLH": {
+      "observation_date": "2026-10-23",
+      "raw_close": 15.100000381469727,
+      "adjusted_close": 15.100000381469727,
+      "previous_raw_close": 15.539999961853027,
+      "daily_raw_change_pct": -2.8314001381170795,
+      "held_peak_date": "2026-02-26",
+      "held_raw_peak": 25.02,
+      "raw_change_from_held_peak_pct": -39.6482798502409,
+      "chart_observation_date": "2026-10-23",
+      "chart_raw_close": 15.100000381469727,
+      "chart_matches_yfinance": true
+    }
+  }
+}

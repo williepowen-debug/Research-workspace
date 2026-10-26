@@ -1,0 +1,58 @@
+{
+  "verified_utc": "2026-10-26T03:28:33.815984+00:00",
+  "protected_hashes_unchanged": {
+    "WATCHLIST_RCL_Q3.md": true,
+    "WATCHLIST_NCLH_Q3.md": true,
+    "domain/2026-09-19_DRAFT_FL-CRU-10_identifying_test.md": true,
+    "workbook/PREDICTIONS.tsv": true,
+    "workbook/FLOW.tsv": true
+  },
+  "all_six_literal_band_cells_unchanged": {
+    "VX-CRU-01": true,
+    "VX-CRU-02": true,
+    "VX-CRU-03": true,
+    "VX-CRU-04": true,
+    "VX-CRU-05": true,
+    "VX-CRU-06": true
+  },
+  "old_KB_rows_fact_date_source_and_evidence_fields_preserved": true,
+  "KB_rows": 201,
+  "KB_enums_valid": true,
+  "VX06_entire_row_unchanged": true,
+  "STATUS_exit_rules_block_unchanged": true,
+  "CCL_watch_resolved_run_and_criteria_body_unchanged": true,
+  "three_price_sources_agree_same_vendor": true,
+  "new_price_observation_date": "2026-10-23",
+  "only_state_change": "VX04 GREEN1 -> YELLOW2 on existing one-cancellation trigger",
+  "final_verification_utc": "2026-10-26T03:35:57.052859+00:00",
+  "final_ledger_shapes": {
+    "KB": [
+      201,
+      13
+    ],
+    "VX": [
+      6,
+      12
+    ],
+    "PREDICTIONS": [
+      11,
+      9
+    ],
+    "FLOW": [
+      10,
+      8
+    ]
+  },
+  "all_original195_KB_evidence_fields_preserved": true,
+  "preexisting_KB_status_or_Notes_rows_changed": 17,
+  "resolution_unique_ids": 25,
+  "source_hashes_pass": true,
+  "STATUS_bytes": 20109,
+  "brief_pin": "NO-BRIEF; rc0",
+  "read_cap": "rc0; STATUS20109B; heuristic perimeter",
+  "only_owned_task_packets_filed": true,
+  "raw_source_archive": "sources.tar.gz",
+  "raw_archive_sha256": "65b6519b2fe4d9f3995675089aa34fff857a3cace889b5e3b7d5db5df45c59a6",
+  "raw_archive_members_verified": 27,
+  "authored_staged_diff_check": "PASS; publisher raw bytes packaged unchanged"
+}

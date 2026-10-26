@@ -1,0 +1,31 @@
+{
+  "vendor": "Yahoo Finance via pinned repository yfinance; raw CSVs saved",
+  "scope": "Three existing price series only; no CRU-11 resolver or interim update",
+  "prices": {
+    "CCL": {
+      "date": "2026-10-23",
+      "raw_close": 26.110000610351562,
+      "adjusted_close": 26.110000610351562,
+      "daily_raw_change_pct": -3.581976795004893,
+      "fixed_raw_reference": 33.99,
+      "reference_date": "2026-02-06",
+      "raw_change_from_reference_pct": -23.18328740702689,
+      "distance_above_red_dollars": 4.016500610351564,
+      "decline_to_red_pct": 15.382996999085407,
+      "rise_to_yellow_pct": 4.144003693433351
+    },
+    "RCL": {
+      "date": "2026-10-23",
+      "raw_close": 276.4800109863281,
+      "adjusted_close": 276.4800109863281,
+      "daily_raw_change_pct": -3.3725906866833633
+    },
+    "NCLH": {
+      "date": "2026-10-23",
+      "raw_close": 15.100000381469727,
+      "adjusted_close": 15.100000381469727,
+      "daily_raw_change_pct": -2.8314001381170795,
+      "raw_change_from_held_25_02_peak_pct": -39.6482798502409
+    }
+  }
+}

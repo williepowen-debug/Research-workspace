@@ -1,0 +1,26 @@
+id	disposition	evidence_or_changed_paths	residual_or_boundary
+CRU-SF-01	fixed/verified	workbook/VX.tsv VX03 Current/Source/Notes	Existing-evidence correction; no new rule, conviction or forecast grade.
+CRU-SF-02	fixed/verified	workbook/VX.tsv VX05; KB successor notes; STATUS/OPERATORS/TRADE/CADENCE	Existing-evidence correction; no new rule, conviction or forecast grade.
+CRU-SF-03	fixed/verified	workbook/KB.tsv 15 specific lifecycle/Notes repairs; 6 appended rows	Existing-evidence correction; no new rule, conviction or forecast grade.
+CRU-SF-04	fixed/verified	workbook/VX.tsv VX02 Source/Notes	Existing-evidence correction; no new rule, conviction or forecast grade.
+CRU-SF-05	fixed/verified	workbook/VX.tsv VX04 dated FALCON successor	Existing-evidence correction; no new rule, conviction or forecast grade.
+CRU-SF-06	fixed/verified	STATUS.md dashboard/convergence/gaps/rotation	Existing-evidence correction; no new rule, conviction or forecast grade.
+CRU-SF-07	fixed/verified	TRADE.md RCL historical drawdown	Existing-evidence correction; no new rule, conviction or forecast grade.
+CRU-SF-08	fixed/verified	OPERATORS.md integrity stamp removed	Existing-evidence correction; no new rule, conviction or forecast grade.
+CRU-SF-09	fixed/verified	WATCHLIST_CCL_PREANNOUNCE.md frozen header; body preserved	Existing-evidence correction; no new rule, conviction or forecast grade.
+CRU-SF-10	unresolved	CLAUDE.md factual approved-versus-implementation-pending note only	PROME has not verified separate root insertion; operative routing rule preserved.
+CRU-SF-11	fixed/verified	prices.json, CSV/chart/CLI evidence, calculations; VX01/05, STATUS/OPERATORS/CADENCE	Latest available observation Oct23; same vendor adapters; no option/forecast resolver.
+CRU-SF-12	fixed/verified	CANCELLATIONS.md, KB200/201, VX04, STATUS/TRADE/OPERATORS/CADENCE	One identified NCL itinerary, B2 quoted operator statement; original guest letter/exact send time unavailable, aggregate basket/venture treatment and denominator incomplete.
+CRU-SF-13	unresolved	VX01/03 Current warnings and Notes; CADENCE residual; band cells untouched	Signed inequality ambiguity and VX02 formal re-spec remain unresolved; no new predicate/inclusivity.
+CRU-SF-14	unresolved	Existing contract/current-liquidity limits retained; CADENCE no longer implies Q3 headline certifies November17	Actual September/October cash/drawability/covenant history unavailable; future Oct27/29 and Nov17 remain.
+CRU-SF-15	unresolved	Port findings/limits unchanged; no port refetch	Miami annual disagreement/current NOLA count unavailable in checked sources; completed port pass not reopened.
+CRU-SF-16	unresolved	WQ504/L815 pending; no shared topology edit	Existing WQ504/L815 ruling pending.
+CRU-CN-01	valid-as-is	workbook/FLOW.tsv#first line and all10rows	Protected/date-qualified historical/publication-lag case preserved; see Phase1 finding.
+CRU-CN-02	valid-as-is	WATCHLIST_RCL_Q3.md#G1-G7; WATCHLIST_NCLH_Q3.md#A-E; CADENCE.md#Oct27/29	Protected/date-qualified historical/publication-lag case preserved; see Phase1 finding.
+CRU-CN-03	valid-as-is	research/2026-10-19_cushion/RESULT.md#June comparison; STATUS/OPERATORS	Protected/date-qualified historical/publication-lag case preserved; see Phase1 finding.
+CRU-CN-04	valid-as-is	workbook/PREDICTIONS.tsv#all11rows; frozen CRU09 resolver	Protected/date-qualified historical/publication-lag case preserved; see Phase1 finding.
+CRU-CN-05	valid-as-is	domain/2026-09-19_DRAFT_FL-CRU-10_identifying_test.md#header/4a-4c; CRUISE_TERM_SET.md; Sep2 LADDER memo	Protected/date-qualified historical/publication-lag case preserved; see Phase1 finding.
+CRU-CN-06	valid-as-is	research/2026-10-25_ports/RESULT.md#definitions; STATUS#port table; KB190-194	Protected/date-qualified historical/publication-lag case preserved; see Phase1 finding.
+CRU-CN-07	valid-as-is	STATUS.md#Key gaps/owed C1 three corrected bullets; TRADE.md#WATCH	Protected/date-qualified historical/publication-lag case preserved; see Phase1 finding.
+CRU-CN-08	valid-as-is	STATUS.md#Key gaps not re-read; VX02 dated crude; board_log.tsv historical rows	Protected/date-qualified historical/publication-lag case preserved; see Phase1 finding.
+CRU-CN-09	valid-as-is	STATUS.md#deferred items; KB183-185; TRADE.md#consumer handoff	Protected/date-qualified historical/publication-lag case preserved; see Phase1 finding.

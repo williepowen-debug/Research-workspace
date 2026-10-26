@@ -1,0 +1,140 @@
+{
+  "created_utc": "2026-10-26T03:33:28.792706+00:00",
+  "files": [
+    {
+      "path": "sources/CCL-chart.json",
+      "bytes": 3623,
+      "sha256": "1ecbf5e4e9345a4d3b59a984dc972ca8e6cfc316c9b71ececa6028009b3508de"
+    },
+    {
+      "path": "sources/CCL-yfinance.csv",
+      "bytes": 24709,
+      "sha256": "5bce5c69d525e81d40e2337fbfd1f3c5d80b2dd78bf77a123ff8f92ddd52c1ca"
+    },
+    {
+      "path": "sources/NCLH-chart.json",
+      "bytes": 3706,
+      "sha256": "8ea0f040300fc31d80bf35b70bf7f8ae6a28aa10b8c3575154f4dde26da2b49f"
+    },
+    {
+      "path": "sources/NCLH-yfinance.csv",
+      "bytes": 24582,
+      "sha256": "0e3a901f9d17de83731044f088acc7cde4828fd7792a0974e53d1f0a548d43a5"
+    },
+    {
+      "path": "sources/RCL-chart.json",
+      "bytes": 3462,
+      "sha256": "f28cfe64bc90ffd77475366c2c51a5dc52ee3e249f38d823b212eba6baf508dd"
+    },
+    {
+      "path": "sources/RCL-yfinance.csv",
+      "bytes": 22921,
+      "sha256": "71a7d9597be93f44443d995d2086b50f0641fcb32c0a0f885eca288c499a0dee"
+    },
+    {
+      "path": "sources/aida-advisory.html",
+      "bytes": 43809,
+      "sha256": "97d48862c950f92c54c92427c34fe0aa4d25a620857dd5755150a15cb344fcdd"
+    },
+    {
+      "path": "sources/aida-advisory.txt",
+      "bytes": 15434,
+      "sha256": "05b937a1c09f0013cecdbe109cdc5072edc800048f4f404d45ed2c36f2ffb225"
+    },
+    {
+      "path": "sources/aida-jun30.html",
+      "bytes": 23668,
+      "sha256": "b5ed27b0c0a7ccdabbed19b9b700aa2e0851af0442386f09fbaa8b782428ff12"
+    },
+    {
+      "path": "sources/aida-jun30.txt",
+      "bytes": 1926,
+      "sha256": "f1a4fe652f66032b839e6bb8bea6a937d0b71577c00f44f06d06369de84aa20e"
+    },
+    {
+      "path": "sources/cancellation-followup.txt",
+      "bytes": 37596,
+      "sha256": "7b264f243879e6f1defc41bc7f2e12a776707a2db1fada918b51f204a12baab6"
+    },
+    {
+      "path": "sources/cancellation-web-pass.txt",
+      "bytes": 29976,
+      "sha256": "94c53144de072bc53c41af9fd47506db6551468d1a952b95dadd9e61aefa53fb"
+    },
+    {
+      "path": "sources/ccl-index.html",
+      "bytes": 132380,
+      "sha256": "c5c4bedd160f527fa3015ff3cd8466811cc764d7cf7bc2abc1850ba8778f6783"
+    },
+    {
+      "path": "sources/ccl-index.txt",
+      "bytes": 5257,
+      "sha256": "16cee63fd04e7dbd939cd8cb4f08770aa4189a39cd8eac5a07e432f4212b0f1f"
+    },
+    {
+      "path": "sources/ncl-advisory.html",
+      "bytes": 107204,
+      "sha256": "32a168333a550e2030335f1d0b238faa7037f758b9567dde2ac691f4aee88334"
+    },
+    {
+      "path": "sources/ncl-advisory.txt",
+      "bytes": 7696,
+      "sha256": "f4e639ef0cafff0d8ad4f9e767e3b4c54a3a6c0c1038465ed7be2bed314b2e20"
+    },
+    {
+      "path": "sources/nclh-index.html",
+      "bytes": 34459,
+      "sha256": "3499c284972bc65f99689ebfe03e7d40ae7a930bb7a76e5cbee271003d626f21"
+    },
+    {
+      "path": "sources/nclh-index.txt",
+      "bytes": 2469,
+      "sha256": "ddf3c02bf342dd17af66eac2bee2cf8d03db0b44f380544d0ac676b45529c5fd"
+    },
+    {
+      "path": "sources/rcl-index.html",
+      "bytes": 1276081,
+      "sha256": "9979a85bf733b7709543c6f36085252c31dee2bdd1f9a8449c8a48853dbc3a20"
+    },
+    {
+      "path": "sources/rcl-index.txt",
+      "bytes": 1931,
+      "sha256": "770e51bdd753ae8a0c82c537e3d9d8993573382741fde666ce93a5bcf86f6f9a"
+    },
+    {
+      "path": "sources/sector-september.html",
+      "bytes": 219287,
+      "sha256": "2a0b7785c96a4d738b0d2ff50039baf85b633ecc1f7e42ee2a7666761a6feca7"
+    },
+    {
+      "path": "sources/sector-september.txt",
+      "bytes": 6164,
+      "sha256": "a083155c6410bd0488178908c750ac22cf9ec475ec7de78bd49c9babbca01ae2"
+    },
+    {
+      "path": "sources/sky-aug5.html",
+      "bytes": 216293,
+      "sha256": "b9f459d5ce38c0f3aa0b7fec972894dacd2a6d1147f1926934ff14fd5bfcc60d"
+    },
+    {
+      "path": "sources/sky-aug5.txt",
+      "bytes": 5150,
+      "sha256": "d9022eada97ae51153a28c3d20f57e6754dc92a054220e01cf82375893f514e7"
+    },
+    {
+      "path": "sources/sky-jul9.html",
+      "bytes": 217207,
+      "sha256": "a8dff0501b231fa9982f8dc564eed5c76ff532f47ca6ae9d7fd3c485040f1477"
+    },
+    {
+      "path": "sources/sky-jul9.txt",
+      "bytes": 5876,
+      "sha256": "6cdfeb1ba9e078353e337875e558adf401ce867959c3dc7369b1d4252313f545"
+    },
+    {
+      "path": "sources/sky-letter-route-check.txt",
+      "bytes": 11357,
+      "sha256": "546de656d443f8353bd8eac8fc3d003328bd71ced6095acbb714fe6dadf670ce"
+    }
+  ]
+}

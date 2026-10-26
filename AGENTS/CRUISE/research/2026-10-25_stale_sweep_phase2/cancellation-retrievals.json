@@ -1,0 +1,83 @@
+[
+  {
+    "id": "sky-aug5",
+    "url": "https://cruiseindustrynews.com/cruise-news/2026/08/norwegian-sky-farewell-cruise-cancelled/",
+    "retrieved_utc": "2026-10-26T03:16:17.570966+00:00",
+    "http": 200,
+    "final_url": "https://cruiseindustrynews.com/cruise-news/2026/08/norwegian-sky-farewell-cruise-cancelled/",
+    "path": "sources/sky-aug5.html",
+    "sha256": "b9f459d5ce38c0f3aa0b7fec972894dacd2a6d1147f1926934ff14fd5bfcc60d"
+  },
+  {
+    "id": "sky-jul9",
+    "url": "https://cruiseindustrynews.com/cruise-news/2026/07/norwegian-changes-itinerary-of-skys-farewell-cruise/",
+    "retrieved_utc": "2026-10-26T03:16:17.571453+00:00",
+    "http": 200,
+    "final_url": "https://cruiseindustrynews.com/cruise-news/2026/07/norwegian-changes-itinerary-of-skys-farewell-cruise/",
+    "path": "sources/sky-jul9.html",
+    "sha256": "a8dff0501b231fa9982f8dc564eed5c76ff532f47ca6ae9d7fd3c485040f1477"
+  },
+  {
+    "id": "sector-september",
+    "url": "https://cruiseindustrynews.com/cruise-news/2026/09/deployment-update-all-brands-now-out-of-arabian-gulf/",
+    "retrieved_utc": "2026-10-26T03:16:17.571902+00:00",
+    "http": 200,
+    "final_url": "https://cruiseindustrynews.com/cruise-news/2026/09/deployment-update-all-brands-now-out-of-arabian-gulf/",
+    "path": "sources/sector-september.html",
+    "sha256": "2a0b7785c96a4d738b0d2ff50039baf85b633ecc1f7e42ee2a7666761a6feca7"
+  },
+  {
+    "id": "aida-jun30",
+    "url": "https://aida.de/unternehmen/presse/archiv/neues-winterprogramm-2027-2028-aidaperla-in-nordeuropa-und-auf-den-kanaren",
+    "retrieved_utc": "2026-10-26T03:16:17.574279+00:00",
+    "http": 200,
+    "final_url": "https://aida.de/unternehmen/presse/archiv/neues-winterprogramm-2027-2028-aidaperla-in-nordeuropa-und-auf-den-kanaren",
+    "path": "sources/aida-jun30.html",
+    "sha256": "b5ed27b0c0a7ccdabbed19b9b700aa2e0851af0442386f09fbaa8b782428ff12"
+  },
+  {
+    "id": "aida-advisory",
+    "url": "https://aida.de/willkommen/aktuelle-informationen",
+    "retrieved_utc": "2026-10-26T03:16:17.575136+00:00",
+    "http": 200,
+    "final_url": "https://aida.de/willkommen/aktuelle-informationen",
+    "path": "sources/aida-advisory.html",
+    "sha256": "97d48862c950f92c54c92427c34fe0aa4d25a620857dd5755150a15cb344fcdd"
+  },
+  {
+    "id": "ncl-advisory",
+    "url": "https://www.ncl.com/travel-advisory",
+    "retrieved_utc": "2026-10-26T03:16:17.819204+00:00",
+    "http": 200,
+    "final_url": "https://www.ncl.com/vacations",
+    "path": "sources/ncl-advisory.html",
+    "sha256": "32a168333a550e2030335f1d0b238faa7037f758b9567dde2ac691f4aee88334"
+  },
+  {
+    "id": "ccl-index",
+    "url": "https://www.carnivalcorp.com/media-center/news-releases/",
+    "retrieved_utc": "2026-10-26T03:16:17.877441+00:00",
+    "http": 200,
+    "final_url": "https://www.carnivalcorp.com/media-center/news-releases/",
+    "path": "sources/ccl-index.html",
+    "sha256": "c5c4bedd160f527fa3015ff3cd8466811cc764d7cf7bc2abc1850ba8778f6783"
+  },
+  {
+    "id": "rcl-index",
+    "url": "https://www.royalcaribbeangroup.com/news/",
+    "retrieved_utc": "2026-10-26T03:16:17.905017+00:00",
+    "http": 200,
+    "final_url": "https://www.royalcaribbeangroup.com/news/",
+    "path": "sources/rcl-index.html",
+    "sha256": "9979a85bf733b7709543c6f36085252c31dee2bdd1f9a8449c8a48853dbc3a20"
+  },
+  {
+    "id": "nclh-index",
+    "url": "https://www.nclhltd.com/news-media/press-releases",
+    "retrieved_utc": "2026-10-26T03:16:18.009120+00:00",
+    "http": 200,
+    "final_url": "https://www.nclhltd.com/news-media/press-releases",
+    "path": "sources/nclh-index.html",
+    "sha256": "3499c284972bc65f99689ebfe03e7d40ae7a930bb7a76e5cbee271003d626f21"
+  }
+]
