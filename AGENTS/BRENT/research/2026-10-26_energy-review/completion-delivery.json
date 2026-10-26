@@ -1,0 +1,12 @@
+{
+  "observed_at": "2026-10-26T18:09:30.755901+00:00",
+  "authorization": "Will: Send PROME a concise completion packet with findings, evidence paths, commit IDs and unresolved work",
+  "packet": "PROME/inbox/2026-10-26_from-BRENT_completion-energy-review.md",
+  "packet_commit": "40f61121a",
+  "recipient_session": "01a178dd-09d7-7781-8f82-46f3bd00a6b3",
+  "identity_evidence": "Native read_thread confirms PROME cwd and session; list_threads shows idle before notification",
+  "transport": "mcp__codex_tui__send_message_to_thread",
+  "notification": "ACCEPTED: tool returned target threadId with isError false",
+  "recipient_consumption": "UNVERIFIED",
+  "remote_publication": "PENDING: preceding safe-push failed for missing GitHub HTTPS credentials"
+}
