@@ -1,0 +1,63 @@
+{
+  "url": "https://markets.newyorkfed.org/api/rates/secured/sofr/last/5.json",
+  "retrieved_utc": "2026-10-26T17:34:02.474385+00:00",
+  "data": {
+    "refRates": [
+      {
+        "effectiveDate": "2026-10-23",
+        "type": "SOFR",
+        "percentRate": 3.92,
+        "percentPercentile1": 3.85,
+        "percentPercentile25": 3.9,
+        "percentPercentile75": 3.97,
+        "percentPercentile99": 4.0,
+        "volumeInBillions": 3065,
+        "revisionIndicator": ""
+      },
+      {
+        "effectiveDate": "2026-10-22",
+        "type": "SOFR",
+        "percentRate": 3.9,
+        "percentPercentile1": 3.83,
+        "percentPercentile25": 3.88,
+        "percentPercentile75": 3.95,
+        "percentPercentile99": 3.98,
+        "volumeInBillions": 2945,
+        "revisionIndicator": ""
+      },
+      {
+        "effectiveDate": "2026-10-21",
+        "type": "SOFR",
+        "percentRate": 3.88,
+        "percentPercentile1": 3.83,
+        "percentPercentile25": 3.86,
+        "percentPercentile75": 3.93,
+        "percentPercentile99": 3.96,
+        "volumeInBillions": 2942,
+        "revisionIndicator": ""
+      },
+      {
+        "effectiveDate": "2026-10-20",
+        "type": "SOFR",
+        "percentRate": 3.88,
+        "percentPercentile1": 3.83,
+        "percentPercentile25": 3.86,
+        "percentPercentile75": 3.93,
+        "percentPercentile99": 3.96,
+        "volumeInBillions": 2925,
+        "revisionIndicator": ""
+      },
+      {
+        "effectiveDate": "2026-10-19",
+        "type": "SOFR",
+        "percentRate": 3.87,
+        "percentPercentile1": 3.83,
+        "percentPercentile25": 3.85,
+        "percentPercentile75": 3.92,
+        "percentPercentile99": 3.95,
+        "volumeInBillions": 2888,
+        "revisionIndicator": ""
+      }
+    ]
+  }
+}

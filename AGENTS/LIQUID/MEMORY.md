@@ -2,12 +2,13 @@
 
 ## Session Notes
 
-### CURRENT SESSION — STARTUP 2026-10-26T13:27:14-04:00 (Will direct)
+### CURRENT SESSION — 2026-10-26T13:39:36-04:00 (Will direct startup + Brazil assessment)
 
-- OpenAI/Codex; exact model/session ID UNKNOWN. Required root/local reads and runtime selection complete. Boot evidence: `research/2026-10-26_boot/REPORT.md`.
-- 30 series/0 fetch errors; October23 HY338, CCC1356; >320 first-published run8. BB narrowed while CCC widened. SOFR99−IORB+10bp;079 not armed. All five gates, X1 closure and coverage limits retained.
-- 13 WALTER handoffs integrated; general inbox untouched. Brazil shock not tested by pre-event SOFR; Meta primary terms not independently recovered. XCCC page access restored; aggregate sector reclassification remains missing.
-- Pull deferred for foreign WALTER untracked caches. This is startup checkpoint; no full desk closeout or recipient consumption claimed. Resume STATUS§3, not a new case.
+- Root/local startup reads complete. Initial sweep 30 series / 0 errors; 13 WALTER handoffs consumed, no new unconsumed handoff on continuation search. General inbox untouched. Evidence: `research/2026-10-26_brazil-transmission/REPORT.md` and prior boot package.
+- First-published HY October 23 confirmed at 338bp; >320 run remains 8, no ninth on repeated pull. BB/B narrowed as CCC widened. Five gates preserved; X1 CLOSED / DON'T-SIZE. Metadata is not wall-clock publication evidence.
+- Brazil: severe local repricing; US credit ETFs up and FX mixed at 13:32 ET. No observed broad dollar-funding/carry transmission, but basis/participant/margin evidence missing. October 23 SOFR predates the event. October 26 morning repo accepted $0; afternoon operation pending at 13:34 retrieval. Next result after 13:45 ET; event-day SOFR and ICE expected October 27. Calendar exclusions October 28–November 3 must travel with 079.
+- BCB $3.75B announcement is derivative rollover, not allotted cash dollars. No new data collector/gate/trade. Brief-fold repair is verified complete per Will; no repeat repair, remove obsolete owed item; routine final content fold only.
+- Native Codex list/read/message tools discovered; list truncated, not fleet absence evidence. LIQUID app-server ID surfaced 01a1793d-46fa-70e0-8cbe-5eab50407842. Model UNKNOWN. Foreign VULCAN work/WALTER caches preserved; no pull/stash/rebase. Earlier safe-push credential failure remains a persistence gap pending retry.
 
 ### PRIOR SESSION — CLOSED 2026-10-25T16:49:26-04:00 (Will-requested final closeout; WQ524 replacement window)
 
@@ -130,7 +131,7 @@ No `git pull` (dirty HOMER/PROME/BOND/RED trees); pathspec commits only.
 
 WQ524 study is complete; resume existing dated duties in STATUS §3, not another case. Final recoveries/contract allocation and earlier public warning remain evidence gaps without a new search commission.
 
-**Next boot (Mon 10/26+):** grade the 10/23 first-published tiers. REG-T-04 needs >350 (REGINALD grades). BB moving with CCC on consecutive days is the L818 change-maker (`analysis/2026-10-23_L818-repricing-vs-restriction.md`, sent to PROME 10/23). Also grade 10/23 SOFR (079) and refresh the XCCC composition line: the fund page 403s to curl, so try WebFetch or DEWEY's method (L829 checks 10/30). H.8: read the DATED path (`releases/h8/YYYYMMDD/`); `current/h8.htm` served a 2015 page at 200. 076 re-arm needs 10 consecutive business days with no leg met. Car-Mart 11/01 (BROCK). DAEDALUS 10/16 deferral row in STATUS §3 is still overdue. 10/31: 079 FIRE bands proposal.
+**Next read:** October 23 first-published tiers/SOFR completed October 26; resume Brazil post-event repo/SOFR/ICE tests in STATUS §3. REG-T-04 needs >350 (REGINALD grades). BB moving with CCC on consecutive days is the L818 change-maker (`analysis/2026-10-23_L818-repricing-vs-restriction.md`, sent to PROME 10/23). October 23 SOFR is graded; XCCC page access recovered October 26. Full sector reclassification remains unreconstructed; L829 checks October 30. H.8: read the DATED path (`releases/h8/YYYYMMDD/`); `current/h8.htm` served a 2015 page at 200. 076 re-arm needs 10 consecutive business days with no leg met. Car-Mart 11/01 (BROCK). DAEDALUS 10/16 deferral row in STATUS §3 is still overdue. 10/31: 079 FIRE bands proposal.
 
 *10/23 evening (Will boot, "catch up on owed work"):* owed 10/23 row graded (`research/2026-10-23_evening/REPORT.md`); inbox 16 + 12 WALTER items drained; COR-20261022-48 and COR-20261023-39 NO-OP; NVDA 5Y CDS 128bp CONFIRMED at DTCC and sent to WALTER; CYPHER boundary confirmed; WQ-508 DAEDALUS edits accepted with no contest. CATO L818 answered (mainly repricing, not restriction) plus an H.8 follow-up (market→bank shift: INSUFFICIENT EVIDENCE; large C&I quarter-end jump isolated, NDFI on trend); both to PROME. KB-LIQ-146: the H.8 `current/h8.htm` page served a 2015 release. Next H.8 Fri 10/30: does large-bank C&I keep rising? SLOOS (early November) and Q3 RC-L unused commitments are the observations that would identify draws.
 

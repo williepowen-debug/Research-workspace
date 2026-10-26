@@ -1,0 +1,26 @@
+{
+  "url": "https://markets.newyorkfed.org/api/rp/repo/all/announcements/latest.json",
+  "retrieved_utc": "2026-10-26T17:34:02.450170+00:00",
+  "data": {
+    "repo": {
+      "operations": [
+        {
+          "operationId": "RP 102626 27",
+          "auctionStatus": "Released",
+          "operationDate": "2026-10-26",
+          "settlementDate": "2026-10-26",
+          "maturityDate": "2026-10-27",
+          "operationType": "Repo",
+          "operationMethod": "Full Allotment",
+          "settlementType": "Same Day",
+          "termCalenderDays": 1,
+          "term": "Overnight",
+          "releaseTime": "13:30",
+          "closeTime": "13:45",
+          "note": "",
+          "lastUpdated": "2026-10-26 13:30:00"
+        }
+      ]
+    }
+  }
+}
