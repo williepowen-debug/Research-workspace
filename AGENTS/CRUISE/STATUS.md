@@ -1,6 +1,8 @@
 # CRUISE — STATUS
 
-*Last updated: **2026-10-25 23:33 ET** — PROME-authorized stale-file Phase2 repairs and bounded price/cancellation checks. Source dates remain distinct; full result: `research/2026-10-25_stale_sweep_phase2/RESULT.md`.*
+*Last updated: **2026-10-25 23:45 ET** — PROME-authorized stale-file Phase2 repairs and bounded price/cancellation checks. Source dates remain distinct; full result: `research/2026-10-25_stale_sweep_phase2/RESULT.md`.*
+
+**SESSION CLOSED AT WILL'S REQUEST (October 25).** Research stops here. PROME independently verified the main `25caf23ae` repairs; **full sweep acceptance remains pending two local follow-ups**, explicitly deferred under its stop instruction. Resume from `inbox/2026-10-25_from-PROME_stale-sweep-final-two-fixes.md`: fix VX04 Source's malformed `phase 2` evidence path, then supersede the historical zero-count wording in the Consumer/Gulf dashboard row. The accepted current VX04 is YELLOW(2); no fresh owner research or rule change is needed. Closeout receipt: `research/2026-10-25_closeout.md`.
 
 ## October 25 — Stale-file repairs and missed Gulf trigger
 
@@ -124,4 +126,4 @@
 
 ## BOTTOM LINE
 
-**New public port reports show growing activity at Canaveral, Miami and Galveston on each port's own period and definition; Galveston also missed its passenger budget.** More calls and changed deployments remain alternatives to stronger demand, and these counts identify neither realized fares nor company profits; current New Orleans physical counts and Miami's annual reconciliation remain unresolved. One documented NCL Sky cancellation now fires the existing Gulf trigger, with reporting and basket-coverage limits; Norwegian's actual liquidity and full drawable credit are still unverified; its existing WATCH 3/no card is unchanged. The prepared Royal Caribbean October 27 and Norwegian October 29 reads must explain pricing versus capacity, cash/deposits and guidance; no future result was graded and no new decision is required from Will.
+The published port and operator evidence retains its dated limits; NCLH remains WATCH 3/no card and current VX04 is YELLOW(2). All forecast terms, band cells and scheduled obligations remain unchanged; actual liquidity, port-source and governance gaps remain open. Will requested session closeout, so the two final local fixes in the pending PROME packet are carried to the next authorized session, and full sweep closure is not claimed. No research tool, helper, collection job or release wait remains running.
