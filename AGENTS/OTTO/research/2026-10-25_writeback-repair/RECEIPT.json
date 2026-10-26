@@ -1,0 +1,37 @@
+{
+  "authority": "PROME audit bea1633fe, Will requested write-back verification",
+  "before_sha256": {
+    "STALE_PUNCHLIST.md": "982639247b5b6243d6a5499c4dd90b1cba24e6af48cdc6e74700364a74c21ca9",
+    "RESEARCH_STATUS.md": "60404f614477f8898f8140de00b251cfc866ae671eb3e8b9a57ef51f8b011b16",
+    "MEMORY.md": "af38df1ac5976febbaa189bda63b9a83361c261b9c59e52a76623885fdd24787",
+    "STATUS.md": "60bf0ae3e78c4e562e2be8ecfea863c53988b426291c86ec08e458b19f787f07",
+    "thesis/PREDICTIONS.tsv": "aeca8e7b44b07bf73ba0a4cebeb0d2b1f24c6eeb62b41421a3dda4c4573bb7b8",
+    "docket/CATALYSTS.tsv": "994a60b99b6bda358885db375c13ad3c132bcc5792ac1647684a4a1b01934c5a",
+    "thesis/THESIS.md": "f3313cad03bba646c40a15f6403f49992bf8c44a708e3da77e58cbdb003d4c50"
+  },
+  "after_sha256": {
+    "STALE_PUNCHLIST.md": "cff58afb35e95139d27ed5e429079f360e40744b0defb87eed9428a9fc80e9c5",
+    "RESEARCH_STATUS.md": "a471ee12e70e8d5cbc4a93199e28367c749ef12400925a2c8924c44934a5253a",
+    "MEMORY.md": "fa0375b0e83410c429e8fc68ab921dd1495d63c464bcdb3f42d7ef1ed2a6259b",
+    "STATUS.md": "60bf0ae3e78c4e562e2be8ecfea863c53988b426291c86ec08e458b19f787f07",
+    "thesis/PREDICTIONS.tsv": "aeca8e7b44b07bf73ba0a4cebeb0d2b1f24c6eeb62b41421a3dda4c4573bb7b8",
+    "docket/CATALYSTS.tsv": "994a60b99b6bda358885db375c13ad3c132bcc5792ac1647684a4a1b01934c5a",
+    "thesis/THESIS.md": "f3313cad03bba646c40a15f6403f49992bf8c44a708e3da77e58cbdb003d4c50"
+  },
+  "unchanged_canonical": {
+    "STATUS.md": true,
+    "thesis/PREDICTIONS.tsv": true,
+    "docket/CATALYSTS.tsv": true,
+    "thesis/THESIS.md": true
+  },
+  "or1_closure": "CATO current assessment + explicit OR1 CLOSED follow-up; owner frontier990753244, CATO report commit566c749dc",
+  "ot1": "OPEN; existing October30 owner review, not resolved by this repair",
+  "source_limits": "All previous domain/source gaps retained. No transcript recovery or future-observation completion claimed.",
+  "checks": {
+    "october25_reports_indexed": true,
+    "obsolete_reexamine_removed": true,
+    "or1_not_waiting": true,
+    "history_closed_rows_preserved": true,
+    "plea_transcript_priority_unchanged": true
+  }
+}

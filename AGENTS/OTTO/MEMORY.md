@@ -1,6 +1,6 @@
 # OTTO MEMORY
 
-**Updated:** 2026-10-25, s037. Boot navigation and continuity; live metrics belong to STATUS/workbooks. Mistake patterns live in boot-read `LESSONS.md`. Prior memory preserved byte-for-byte in `archive/MEMORY_2026-10-19_pre-s031.md`; old entries are history, not pending work.
+**Updated:** 2026-10-25, s038. Boot navigation and continuity; live metrics belong to STATUS/workbooks. Mistake patterns live in boot-read `LESSONS.md`. Prior memory preserved byte-for-byte in `archive/MEMORY_2026-10-19_pre-s031.md`; old entries are history, not pending work.
 
 ## Desk boundaries
 - OTTO owns auto-fraud mechanisms, collateral evidence and identification of exposed counterparties. REGINALD owns bank sizing; BROCK owns CRMT financing grades and BDC marks; TERRY constructs trades and Will decides.
@@ -21,8 +21,9 @@
 - M&T official IR direct requests returned403 on10/19, while the web tool read its official deck/quarterly index and SEC supplied the filed release. Official webcast403; third-party transcript is labelled secondary. Do not claim a primary audio read.
 - Fitch paid/full index access was declined10/14; no new account or paid-data authority. March aggregate values retired from hot STATUS; deal-level panel is a different instrument, not a replacement Fitch index.
 
-## LAST SESSION — s037, current financing terms and bounded Ally call pass
-- Will's new bounded task is recorded at PROME `0c0221120`; acknowledged in the same owner window. Previous s036 catch-up was complete. No reboot, helper, standing monitor, paid data or future-release wait.
+## LAST SESSION — s038 write-back repair; latest research remains s037
+- PROME audit `bea1633fe` named O1/O2 secondary-summary residues. Reconciled STALE_PUNCHLIST dated work/OR1 and RESEARCH_STATUS missing October25 reports/OTTO-33 completed re-examine. No new research or canonical metric/forecast/date change. CATO OR1 is CLOSED at inspected frontier990753244, review566c749dc; OT1 remains OPEN for existing October30 work. Original dated history preserved in archive/2026-10-25_s038_before_* files.
+- The completed s037 research was commissioned at PROME `0c0221120` and acknowledged in the same owner window. Previous s036 catch-up was complete. No reboot, helper, standing monitor, paid data or future-release wait.
 - Canonical result: `research/2026-10-25_financing-terms/READOUT.md`; ten rows/five descriptive comparisons, saved raw captures/hashes and reproducible arithmetic. Selected three shelves are not a market census. All-in yield, spread, coupon and current executable price are different objects.
 - Current evidence: differentiated repricing with financing completed; no systemic-leg, probability, colour, threshold or trade change. THESIS has a bounded evidence addendum; final v1.6 remains October30. Both prior systemic calls remain disconfirmed; new spread changes are not attributed causally to fraud.
 - CPS's issuer headline weighted coupons do not match its listed amounts/rates. Both prose and table arithmetic are preserved, with no verified actual blended-cost assertion. Structure/rating/life differences prevent an inferred like-for-like spread from coupons.
@@ -35,4 +36,4 @@
 2. Carvana October28 actual disclosures; Exeter approximately October29 September collections with extensions. BROCK's existing October28 and October30/November2 checks remain owner-graded; no duplicate Car-Mart study.
 3. Final THESIS v1.6, broader causal/risk review, recovery rung and independent cold read October30 remain prospective. Pricing examples and secondary Ally explanation inform that review; no earlier completion claim.
 4. Trust V outcome/next periodic filing date remain unknown. Primary Ally audio and quantified repo severity/Carvana access remain unverified after the completed bounded pass. M&T modeled10-Q~November5, ManheimNovember6, SDT~November15.
-5. OTTO-10 NEEDS_VERIFY/OTTO-11 STUCK retain terms and registered follow-ups. No additional investigation commissioned; existing CATO reviewer closure remains separate. Exact publication/consumption outcome belongs to the dated PROME delivery memo.
+5. OTTO-10 NEEDS_VERIFY/OTTO-11 STUCK retain terms and registered follow-ups. No additional investigation commissioned; CATO OR1 closure is settled within its inspected scope; OT1 remains the separate October30 review. Exact publication/consumption outcome belongs to the dated PROME delivery memo.

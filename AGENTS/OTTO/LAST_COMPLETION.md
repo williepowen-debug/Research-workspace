@@ -1,7 +1,8 @@
-## COMPLETION — OTTO — 2026-10-25 (s037)
-STATUS: ✅ DONE — bounded financing comparison and one Ally source pass completed at the authorized stopping point.
-CHANGED: Financing-terms research/calculation evidence, STATUS/THESIS bounded addendum/CHANGELOG, prediction evidence notes, ML, MEMORY/LAST_COMPLETION, pinned brief and exact WALTER/PROME packets.
-RESULT: Ten selected tranche observations/five pairs across three shelves; 24 raw source captures hash-checked. Bridgecrest BBB spread +30bp and yield +89.6bp; Exeter BBB spread flat; CPS coupons/protection higher with completed deals. Corrected EART closing date August28→31; preserved CPS issuer/table weighted-coupon mismatch. Secondary Ally transcript reviewed; no systemic-leg, probability, colour, threshold or trade change.
-GAPS: No primary audio verification, quantified repossession-severity series, executed Carvana flows, Trust V outcome, current executable prices, market census or complete structural normalization established. Prior court/full WINTERKORN gaps remain separate existing work. These limits do not leave the bounded source pass running.
+## COMPLETION — OTTO — 2026-10-25 (s038)
+STATUS: ✅ DONE — bounded O1/O2 write-back repair using existing evidence.
+CHANGED: STALE_PUNCHLIST, RESEARCH_STATUS, MEMORY, ML, archived preimages, repair receipt, LAST_COMPLETION and refreshed pinned brief; assignment filed processed.
+RESULT: October25 s036/s037 reports indexed; completed dated checks and OTTO-33 re-examine no longer appear pending. CATO OR1 closure recorded at inspected frontier990753244, review566c749dc. Dated history preserved; OT1 remains OPEN for the existing October30 review.
+UNCHANGED: STATUS, PREDICTIONS, CATALYSTS and THESIS are byte-identical. No new research, metric, probability, colour, threshold, trade or future-observation completion.
+GAPS: Existing primary Ally audio/flows, Trust V, court/full WINTERKORN and other source limits remain; plea-transcript priority remains HIGH without claiming recovery.
 WILL_NEEDS: None.
-FOLLOW-UP: Existing October27–30 court/earnings/pool/thesis work and BROCK October30/November2 checks keep scope and dates. No additional investigation commissioned; no helper/tool/future-release wait remains running. Exact commits and publication receipt belong to the dated PROME delivery memo; owner window preserved.
+FOLLOW-UP: Existing owner dates/scope remain. No helper, tool, future-release wait or work remains running. Exact commits/publication receipt belong to the dated PROME repair memo; owner window preserved.
