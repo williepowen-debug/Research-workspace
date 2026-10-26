@@ -1,0 +1,25 @@
+{
+  "forecasts_20_only_OTTO35_notes_append": [
+    [
+      "OTTO-35",
+      "Notes"
+    ]
+  ],
+  "calendar28_only_readiness_commentary": [
+    [
+      "2026-11-30",
+      "what_to_check"
+    ],
+    [
+      "2026-11-30",
+      "notes"
+    ]
+  ],
+  "executable_AST_unchanged": true,
+  "frozen_original_suffixes_preserved": true,
+  "ML_append_only": true,
+  "four_owner_commits_on_origin_master": true,
+  "brief_pin_matches_status": "63cb6063e9130d8d870d86e61d5a18aee02963a6",
+  "owner_dirt": "",
+  "scope": "PROME independent preserved-term/code/calendar/pin/publication checks plus inspected claim-site diffs; not a fresh primary-source census."
+}
