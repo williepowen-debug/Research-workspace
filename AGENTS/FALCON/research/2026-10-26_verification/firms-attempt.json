@@ -1,0 +1,44 @@
+{
+  "bbox": [
+    39.95,
+    23.85,
+    40.15,
+    24.05
+  ],
+  "coordinate_origin": "Unverified social-media PS3 label near 23.959N 40.054E; no facility identification inferred",
+  "retrieved_at": "2026-10-26T17:36:32.402885+00:00",
+  "results": [
+    {
+      "sensor": "VIIRS_NOAA20_NRT",
+      "start": "2026-10-17",
+      "status": 200,
+      "detections": 0,
+      "days": [],
+      "max_frp": 0
+    },
+    {
+      "sensor": "VIIRS_NOAA20_NRT",
+      "start": "2026-10-22",
+      "status": 200,
+      "detections": 0,
+      "days": [],
+      "max_frp": 0
+    },
+    {
+      "sensor": "VIIRS_NOAA21_NRT",
+      "start": "2026-10-17",
+      "status": 200,
+      "detections": 0,
+      "days": [],
+      "max_frp": 0
+    },
+    {
+      "sensor": "VIIRS_NOAA21_NRT",
+      "start": "2026-10-22",
+      "status": 200,
+      "detections": 0,
+      "days": [],
+      "max_frp": 0
+    }
+  ]
+}

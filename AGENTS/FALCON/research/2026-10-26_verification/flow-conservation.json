@@ -1,0 +1,9 @@
+{
+  "input_rows": 16,
+  "live_falcon": 4,
+  "frozen_hawk": 11,
+  "superseded_duplicate": 1,
+  "original_sha256": "0da00c71e6cda943d452808cee68ac8f34e269dab6ddcd9a49d89bfcd6de3a0c",
+  "verbatim_row_multiset_conserved": true,
+  "current_ids_unique": true
+}

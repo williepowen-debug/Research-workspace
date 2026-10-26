@@ -31,3 +31,6 @@ Canonical EXIT_PROTOCOL §2a excludes pipelines/pumping stations and export term
 
 ## Still owed
 Full day-by-day facility sweep October 22–26 (and newest-row staleness disposition); end-of-day L229 grade; current insurance re-pull if a genuinely dated broker quote appears; current IMO/JMIC census check; full Iraq/PMF read; carried builds/rotation. No absent-source claim or stale quote upgraded to fresh.
+
+## Continuation completed on Will's next instruction
+Saudi claim verification, dated gap sweep, L807 split, WARRISK attempt/declare and direct BRENT/HAWK packets: reports/2026-10-26_saudi-claims-and-L807.md. This supersedes the original FLOW and sweep deferrals above. Quote age, unavailable sources and end-of-day L229 limits remain explicit.
