@@ -12,3 +12,4 @@ receipt_date	correction_id	action	note
 2026-10-23T18:41Z	COR-20261022-27	APPLIED	artifact=AGENTS/VULCAN/reports/2026-10-23_L782_v3_weak-links_FINAL.md#changes-row-3; validation_ref=AGENTS/VULCAN/workbook/KB_GENERAL.tsv#KB-VULCAN-270; 
 2026-10-23T18:41Z	COR-20261022-40	NO-OP	scope=FINRA margin debt ranking is outside VULCAN channels and no VULCAN artifact cites it (grep 10/23); 
 2026-10-23T18:41Z	COR-20261022-48	NO-OP	scope=no VULCAN artifact carries any of the six kill strings (grep 10/23) and KB-269 and KB-277 cite only the held findings; 
+2026-10-26T17:32Z	COR-20261023-39	APPLIED	artifact=AGENTS/VULCAN/workbook/KB_GENERAL.tsv#KB-VULCAN-286; validation_ref=AGENTS/VULCAN/reports/2026-10-26_startup.md#checks-and-limits;

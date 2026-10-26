@@ -67,6 +67,8 @@ Only semiconductor consequences belong here; ZHAO owns China policy and HAWK kin
 
 Revenue instrument: SEC-primary tsmc_watch.py→S4_SERIES.tsv. Cite cumulative Jan-to-date YoY to reduce monthly base effects; grade decel by the charter's current cumulative rule. Monthly flat0–2%/decline<0 are distinct bands. January has no prior cumulative comparison and is UNGRADEABLE for decel. Historical red count0/20 is an unobserved-in-sample condition, not evidence of stability. Historical cumulative comparisons align months: July2026+37.0 vs July2025+37.6, not full-year2025+31.6. VULCAN-14 HIT and original calibration live in the October archive.
 
+**October26 intake update [KB-287]:** Polar's October19 issuer confirmation establishes helium allocation from one of three suppliers, not a production shutdown. The source was read directly October26. Current inventory days and lost wafer output remain UNMEASURED; historical mitigation cannot certify October buffers. S4 stays 3, no standing equipment/fab-cutoff or Taiwan-kinetic trigger established.
+
 ## S5 — Financing and contractual obligations
 
 | Stage | Mechanism | State |
@@ -109,3 +111,7 @@ Keep the strongest countercase: memory contracts still rise; two July hyperscale
 ## Boundaries
 
 VIOLET: volatility expression. HENRY: FCF/valuation and macro velocity. WATT: power prices and grid firmness. ZHAO: China policy/macro. HAWK: geopolitics. BROCK: private-credit structure. LIQUID: spreads. VULCAN owns semiconductor/capex mechanisms; shared metrics reconcile to one owner figure. Full original arguments and retracted interpretations remain in the three archive parts.
+
+## October26 startup reconciliation
+
+Financing announcements [KB-291/292] do not supply a new cleared-new-issue flex or withdrawal. Meta ~$35B concurrent offerings per WALTER issuer read are not cash received: common forwards settle later, $60B ATM unagreed, vendor interest nonbinding. Own source-body access failed. Anthropic public S-1 status is reported with primary search locators, but full financial tables were not read. No new S5 event or score change. Meta FCF -$2.120B retains issuer definition including $0.964B lease principal [KB-290]; CFO minus PPE alone is -$1.156B. TERRY passed on both ideas [KB-288]. No market refresh or completed cluster verdict implied.
