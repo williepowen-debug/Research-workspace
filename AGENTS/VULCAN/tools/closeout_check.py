@@ -29,11 +29,12 @@ Usage:
   python3 AGENTS/VULCAN/tools/closeout_check.py            # run; exit 1 = LOOK
   python3 AGENTS/VULCAN/tools/closeout_check.py --list     # enumerate steps only
   python3 AGENTS/VULCAN/tools/closeout_check.py --base <sha>
-  python3 AGENTS/VULCAN/tools/closeout_check.py --selftest # falsify the parsers on fixtures
+  python3 AGENTS/VULCAN/tools/closeout_check.py --selftest # isolated fixtures
+  python3 AGENTS/VULCAN/tools/closeout_check.py --reconciliation-key # read-only
 Exit: 0 every CHECKED/DELEGATED step passed · 1 a step is FAIL or LOOK · 2 could not run.
 """
 from __future__ import annotations
-import argparse, re, subprocess, sys
+import argparse, hashlib, json, os, re, subprocess, sys, tempfile
 from datetime import date, datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -85,6 +86,60 @@ def changed_since(base, rel):
 def added_lines(base, rel):
     out = git("diff", "-U0", base, "--", f"{REL}/{rel}")
     return [l[1:] for l in out.splitlines() if l.startswith("+") and not l.startswith("+++")]
+
+
+ANALYTICAL = {"STATUS": "STATUS.md", "THESIS": "THESIS.md", "EXIT": "workbook/EXIT_PROTOCOL.md"}
+CONTINUITY = {"SCRATCH.md", "NEXUS_BRIEF.md"}
+
+
+def reconciliation_scope(base, root=None):
+    """Bind review to current changed contents, including untracked files/deletions.
+
+    SCRATCH holds the stamp; NEXUS is separately checked and written last. Neither
+    may be the sole home of substantive evidence. Ignored files are not records.
+    Git failures raise rather than yielding an empty scope and a false pass.
+    """
+    root = ROOT if root is None else root
+
+    def run(*args):
+        return subprocess.run(["git", *args], cwd=root, capture_output=True,
+                              check=True).stdout
+
+    resolved = run("rev-parse", "--verify", f"{base}^{{commit}}").decode().strip()
+    names = set(run("diff", "--no-renames", "--name-only", "-z", resolved, "--", REL).split(b"\0"))
+    names.update(run("ls-files", "--others", "--exclude-standard", "-z", "--", REL).split(b"\0"))
+    entries = []
+    for raw in sorted(names - {b""}):
+        name = os.fsdecode(raw)
+        rel = str(Path(name).relative_to(REL))
+        if rel in CONTINUITY:
+            continue
+        path = Path(root) / name
+        if path.is_symlink():
+            kind, content = "symlink", os.fsencode(os.readlink(path))
+        elif path.is_file():
+            kind, content = "file", path.read_bytes()
+        elif not path.exists():
+            kind, content = "deleted", b""
+        else:
+            raise RuntimeError(f"unsupported reconciliation path: {name}")
+        entries.append((rel, kind, hashlib.sha256(content).hexdigest()))
+    payload = json.dumps([resolved, entries], ensure_ascii=True, separators=(",", ":"))
+    return hashlib.sha256(payload.encode()).hexdigest(), {e[0] for e in entries}
+
+
+def reconciliation_errors(scratch, key, paths):
+    """Require one reasoned disposition per analytical record in the TOP block."""
+    top = re.split(r"^> # ⛔", scratch, flags=re.M)
+    top = top[1] if len(top) > 1 else ""
+    errors = []
+    for label, path in ANALYTICAL.items():
+        lines = re.findall(rf"^RECONCILE {key} {label} (UPDATED|UNCHANGED):[ \t]*(.*)$", top, re.M)
+        if len(lines) != 1 or not lines[0][1].strip():
+            errors.append(f"{label}: need one current-key disposition with a reason")
+        elif lines[0][0] == "UPDATED" and path not in paths:
+            errors.append(f"{label}: UPDATED but file does not differ from base")
+    return errors
 
 
 # ------------------------------------------------------- pure parsers (tested)
@@ -159,11 +214,13 @@ def checks(base):
     sc_base, comp_base = parse_composite(st_base)
     if len(sc_now) != 5:
         rec("1", "desk", "FAIL", f"could not parse 5 channel scores from STATUS composite line (got {sc_now})")
-    touched = bool(git("diff", "--name-only", base, "--", REL).strip())
-
-    # 1 STATUS
-    rec("1 STATUS updated", "desk", "PASS" if changed_since(base, "STATUS.md") or not touched else "FAIL",
-        "STATUS.md changed since base" if changed_since(base, "STATUS.md") else "desk files changed but STATUS did not")
+    key, paths = reconciliation_scope(base)
+    errors = reconciliation_errors(now_text("SCRATCH.md"), key, paths)
+    reconciled = not errors
+    rec("1 analytical records reconciled to current contents", "desk",
+        "PASS" if reconciled else "FAIL",
+        "STATUS / THESIS / EXIT explicitly reconciled; judgment remains manual" if reconciled
+        else "; ".join(errors) + f"; key {key}")
     sz = len(st_now.encode())
     over = sz > 0.85 * STATUS_BUDGET
     dfr = over and deferral_covers(st_now, "STATUS read-cap", t)
@@ -178,14 +235,11 @@ def checks(base):
     rec("2 workbook schema + score reconcile", "desk", "PASS" if rc == 0 else "FAIL",
         "validate_workbook.py rc 0" if rc == 0 else out.strip().splitlines()[-1][:120])
 
-    # 2b THESIS reconcile when a score moved
+    # A score move still needs semantic THESIS review; a cosmetic edit proves nothing.
     moved = {k: (sc_base.get(k), v) for k, v in sc_now.items() if sc_base.get(k) != v}
-    if moved:
-        ok = changed_since(base, "THESIS.md")
-        rec("2b THESIS reconciled for moved scores", "desk", "PASS" if ok else "FAIL",
-            f"moved {moved}; THESIS.md {'changed' if ok else 'NOT changed'} since base")
-    else:
-        rec("2b THESIS reconciled for moved scores", "desk", "N/A", "no channel score moved")
+    rec("2b THESIS reconciled for moved scores", "desk",
+        ("MANUAL" if reconciled else "FAIL") if moved else "N/A",
+        f"moved {moved}; verify State cells, resolved gates and baselines" if moved else "no channel score moved")
 
     # 2c register: no past-dated rows left
     past = past_catalyst_rows(now_text("docket/CATALYSTS.tsv"), t)
@@ -197,7 +251,7 @@ def checks(base):
         rec("2c CLOCK mirror touched when register changed", "desk", "LOOK" if not ok else "MANUAL",
             "register changed; brief NOT changed" if not ok else "register + brief both changed — confirm the event SET matches")
 
-    # 3 EXIT_PROTOCOL freshness line
+    # Preserve dating of actual EXIT edits; reviewed-unchanged does not refresh vintage.
     ex = now_text("workbook/EXIT_PROTOCOL.md")
     m = re.search(r"Newest entry: (\d{4}-\d{2}-\d{2})", ex)
     if changed_since(base, "workbook/EXIT_PROTOCOL.md"):
@@ -205,8 +259,9 @@ def checks(base):
         rec("3 EXIT_PROTOCOL freshness line", "desk", "PASS" if ok else "FAIL",
             f"Newest entry {m.group(1) if m else 'MISSING'} vs edited today")
     else:
-        rec("3 EXIT_PROTOCOL re-read (kill-leg count)", "desk", "LOOK",
-            "file not touched this session — the step requires a re-read; bump 'Newest entry' when you do")
+        rec("3 EXIT_PROTOCOL reconciled without a cosmetic date bump", "desk",
+            "PASS" if reconciled else "FAIL", "kill-leg review recorded in current reconciliation" if reconciled
+            else "current reconciliation missing; no edit is required if unchanged")
 
     # 4 SCRATCH
     sc_txt = now_text("SCRATCH.md")
@@ -430,6 +485,84 @@ def selftest():
     chk("ruled in-session with old ISO date is not new",
         new_ruling_lines(["Will ruled in-session 2026-10-09 over my qualifier"], T) == [])
     chk("a line with no ruling is ignored", new_ruling_lines(["S5 FIRED 10/09"], T) == [])
+    # Real Git fixtures: earlier STATUS edits must not bless later research.
+    with tempfile.TemporaryDirectory(prefix="vulcan-reconcile-") as tmp:
+        repo = Path(tmp)
+        desk = repo / REL
+        (desk / "workbook").mkdir(parents=True)
+
+        def g(*args):
+            return subprocess.run(["git", *args], cwd=repo, capture_output=True,
+                                  text=True, check=True).stdout.strip()
+
+        def write(name, text):
+            (desk / name).write_text(text)
+
+        def stamp(key, disposition="UNCHANGED", reason="reviewed; no analytical change"):
+            return "> # ⛔ test — READ THIS BLOCK FIRST\n" + "\n".join(
+                f"RECONCILE {key} {label} {disposition}: {reason}" for label in ANALYTICAL)
+
+        g("init", "-q")
+        g("config", "user.email", "fixture@example.invalid")
+        g("config", "user.name", "Isolated fixture")
+        for name in ANALYTICAL.values():
+            write(name, "original\n")
+        g("add", "--", REL)
+        g("commit", "-qm", "baseline")
+        base = g("rev-parse", "HEAD")
+        write("STATUS.md", "earlier unrelated assessment edit\n")
+        g("add", "--", f"{REL}/STATUS.md")
+        g("commit", "-qm", "earlier STATUS")
+        analytical_before = {name: (desk / name).read_bytes() for name in ANALYTICAL.values()}
+        evidence_base = g("rev-parse", "HEAD")
+        earlier, paths = reconciliation_scope(base, repo)
+        old_stamp = stamp(earlier)
+        chk("earlier current review can pass", not reconciliation_errors(old_stamp, earlier, paths))
+        write("evidence.md", "later substantive evidence\n")
+        later, paths = reconciliation_scope(base, repo)
+        chk("untracked later evidence invalidates earlier STATUS/review", earlier != later and
+            bool(reconciliation_errors(old_stamp, later, paths)))
+        evidence_key, evidence_paths = reconciliation_scope(evidence_base, repo)
+        chk("evidence-only passes with no STATUS change since base", "STATUS.md" not in evidence_paths and
+            not reconciliation_errors(stamp(evidence_key), evidence_key, evidence_paths))
+        chk("evidence-only can reconcile without analytical edits",
+            not reconciliation_errors(stamp(later), later, paths))
+        chk("missing disposition reason fails", bool(reconciliation_errors(stamp(later, reason="  "), later, paths)))
+        chk("UPDATED cannot claim an unchanged THESIS/EXIT", bool(reconciliation_errors(stamp(later, "UPDATED"), later, paths)))
+        chk("historical matching stamp cannot satisfy current block", bool(reconciliation_errors(
+            "> # ⛔ current — READ THIS BLOCK FIRST\n> # ⛔ prior\n" + old_stamp, earlier, paths)))
+        g("add", "--", f"{REL}/evidence.md")
+        g("commit", "-qm", "later evidence")
+        committed, paths = reconciliation_scope(base, repo)
+        chk("commit preserves content-bound review key", committed == later)
+        write("evidence.md", "corrected evidence\n")
+        corrected, paths = reconciliation_scope(base, repo)
+        chk("tracked uncommitted correction invalidates review", corrected != committed)
+        write("receipt.md", "notification accepted; consumption unknown\n")
+        receipt, paths = reconciliation_scope(base, repo)
+        chk("receipt-only requires a current review, permits unchanged analytics", receipt != corrected and
+            not reconciliation_errors(stamp(receipt), receipt, paths))
+        chk("evidence and receipt review leaves all analytical bytes unchanged",
+            analytical_before == {name: (desk / name).read_bytes() for name in ANALYTICAL.values()})
+        chk("duplicate disposition fails", bool(reconciliation_errors(
+            stamp(receipt) + f"\nRECONCILE {receipt} STATUS UNCHANGED: duplicate", receipt, paths)))
+        write("SCRATCH.md", stamp(receipt))
+        write("NEXUS_BRIEF.md", "derived brief; separate contract\n")
+        chk("continuity writes do not self-invalidate key", reconciliation_scope(base, repo)[0] == receipt)
+        g("mv", "--", f"{REL}/evidence.md", f"{REL}/renamed.md")
+        renamed, paths = reconciliation_scope(base, repo)
+        chk("rename changes key", renamed != receipt)
+        # Remove a baseline-tracked record through Git, inside the disposable fixture.
+        g("rm", "--", f"{REL}/THESIS.md")
+        deleted, paths = reconciliation_scope(base, repo)
+        chk("deletion represented and invalidates key", deleted != renamed and "THESIS.md" in paths)
+        chk("baseline identity bound into key", reconciliation_scope("HEAD", repo)[0] != deleted)
+        try:
+            reconciliation_scope("not-a-valid-commit", repo)
+            bad_base_raised = False
+        except subprocess.CalledProcessError:
+            bad_base_raised = True
+        chk("Git failure cannot yield a passable empty key", bad_base_raised)
     print("SELFTEST", "PASS" if ok else "FAIL")
     return 0 if ok else 1
 
@@ -439,11 +572,15 @@ def main():
     ap.add_argument("--base")
     ap.add_argument("--list", action="store_true")
     ap.add_argument("--selftest", action="store_true")
+    ap.add_argument("--reconciliation-key", action="store_true")
     a = ap.parse_args()
     if a.selftest:
         return selftest()
     try:
         base = session_base(a.base)
+        if a.reconciliation_key:
+            print(reconciliation_scope(base)[0])
+            return 0
     except Exception as e:  # noqa: BLE001
         print(f"closeout_check: cannot determine session base: {e}")
         return 2

@@ -61,3 +61,5 @@
 | L-73 | 2026-10-26 | Classify capital by stage, recipient and period before aggregating. A forward offer is not issuer cash, conditional lease principal is not disbursement, and historical preferred proceeds are not IPO proceeds. Noncash net-loss adjustments and securities investment flows cannot become compute cash burn. | KB-295..299; original Anthropic F-13/F-14 |
 
 | L-74 | 2026-10-26 | Test live-record omissions, not just repeat today's headlines. Nebius Citi terms,PG&E stages and Micron roadmap were absent. Pipeline applications,power readiness and compute energization need separate populations/stages; contractual rate step-up is not launch flex. | KB-300..307; reports/2026-10-26_news-sweep/REPORT.md |
+
+| L-75 | 2026-10-26 | Reconciliation needs a current scope, not a token edit. An earlier STATUS change cannot attest later evidence; bind reasoned UPDATED/UNCHANGED dispositions to covered content. Delivery receipts do not refresh analytical vintage. Source caveats, correction propagation, obligations and Git controls still govern. | Will-directed local repair; reports/2026-10-26_workflow-repair/REPAIR.md; tools/closeout_check.py --selftest |

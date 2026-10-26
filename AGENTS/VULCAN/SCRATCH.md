@@ -1,4 +1,16 @@
-> # ⛔ 2026-10-26T14:27:16-04:00 — READ THIS BLOCK FIRST. Will-requested missed-news sweep.
+> # ⛔ 2026-10-26T17:34:18-04:00 — READ THIS BLOCK FIRST. Will-directed local workflow repair.
+
+▶ START HERE: At the next authorized research task, use the repaired reconciliation and report actual work saved; do not launch extra research for the trial. Existing GOOGL/META model failures and GOOGL-method/KB-096 October 26 obligations remain unresolved, with no re-date. No market refresh or new signal in this maintenance task.
+
+RECONCILE 5e83560d1945a49918250e8e1a48e6841501ed7851068a3101379f7694e9e146 STATUS UNCHANGED: October 26 sweep's findings/caveats and 15/25 assessment already recorded; maintenance changes no analytical state or unresolved obligation.
+RECONCILE 5e83560d1945a49918250e8e1a48e6841501ed7851068a3101379f7694e9e146 THESIS UNCHANGED: no new evidence, score, verdict or resolver; Nebius/PG&E/Micron sweep implications already reconciled, including counterevidence and source limits.
+RECONCILE 5e83560d1945a49918250e8e1a48e6841501ed7851068a3101379f7694e9e146 EXIT UNCHANGED: kill legs and October 28–29 rewrite inputs unchanged; no new rail evidence or reason to refresh Newest entry.
+
+- Repair record: reports/2026-10-26_workflow-repair/REPAIR.md. 35 isolated/legacy assertions pass; stale earlier STATUS/review fails after later evidence, while evidence/receipt-only review permits byte-identical analytical records. NEXUS version contract preserved verbatim.
+- The full checker remains binding. Reasoned dispositions replace cosmetic edits, not caveat review, correction propagation, dated obligations or delivery/Git controls. Prospective research trial is pending, not certified by maintenance tests.
+- Local-only boundary: root/other desks untouched; no PROME inbox memo or coordinator consumption claimed. Pull withheld for foreign dirty paths. Prior push was blocked by missing HTTPS credentials; new persistence result follows after commit.
+
+> # ⛔ 2026-10-26T14:27:16-04:00 — prior block. Will-requested missed-news sweep.
 
 ▶ START HERE: `reports/2026-10-26_news-sweep/REPORT.md` [KB-300..307]. Live-record omissions: Nebius $3.5B Citi facility (executed,draws unknown,364 days); PG&E 12,870 MW pipeline/174 MW since 2024 and deferrals beyond 1.8 GW; Micron original October 21 slide 16 rejects4F2. Qualified Bloom first-power is not commissioned compute; TSMC/China NAND reports source-qualified. NERC/Treasury proposals not operating restrictions.
 

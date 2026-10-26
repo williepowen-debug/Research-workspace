@@ -37,14 +37,15 @@ Count the AI-demand root ONCE: a capex disappointment can drive S1, S3 and S5 to
 
 **Run `python3 "$(git rev-parse --show-toplevel)/AGENTS/VULCAN/tools/closeout_check.py"` FIRST (to see what is owed) and LAST (rc 0 = mechanical steps pass; it never certifies judgement).** It merges root `CLAUDE.md` § At session end with this list, tags each CHECKED / DELEGATED / MANUAL, prints MANUAL every run, and **BLOCKS on boot alarms left unactioned** (a stale ledger or due prediction needs a fix, a FROZEN banner, or `DEFERRED to YYYY-MM-DD` in STATUS). Why each step exists → `CLOSEOUT_RATIONALE.md` (verbatim history, off the boot path).
 
-**Tier:** **Standard** = every step below (end of a working session). **Bounce** = Will restarts within the hour: SCRATCH 3–5 lines + commit. **Re-close** = ANY write after the closeout commit (a late signal, a ruling): redo 1 → 2 → 2b/4b if a score or rule moved → 5 (re-pin) → 6 → 7, then re-run the checker.
+**Tier:** **Standard** = every step below (end of a working session). **Bounce** = Will restarts within the hour: SCRATCH 3–5 lines + commit. **Re-close** = reconcile late changes and repeat affected duties, then re-run the full checker. Substantive/evidence changes require fresh step 4 reconciliation and any necessary analytical updates or correction propagation. Delivery-only changes require continuity, delivery and Git controls, plus current reconciliation; they do not require unrelated analytical rewrites. Step 5 remains binding in both cases.
 
-1. **`STATUS.md`** — matrix scores, dated live reads, triad + fired-count, OPEN items, BOTTOM LINE. Watch the read-cap (checker warns >85% of 32,550 B).
+1. **Reconcile `STATUS.md`** — matrix scores, dated live reads, triad + fired-count, OPEN items, BOTTOM LINE. Edit only when the assessment, material caveats or obligations change; otherwise record UNCHANGED at step 4. Watch the read-cap (checker warns >85% of 32,550 B).
 2. **Workbook** — facts → `CRWV/KB.tsv` (company) or `workbook/KB_GENERAL.tsv` (broader desk); regenerate the combined `workbook/KB.tsv` using `scripts/kb_catalog.py --write` · state changes → `VX.tsv` · pathways → `FLOW.tsv` · forecasts → `PREDICTIONS.tsv` (VULCAN-NN). Validator must pass (scores reconcile VX ↔ matrix ↔ composite).
-2b. **Reconcile `THESIS.md`** for every channel whose score, verdict, live read or resolver changed: ① a stage `State` cell STATUS contradicts? ② a resolved gate shown as forward? ③ a calc on a superseded baseline? Strike + date, never delete.
+2b. **Reconcile `THESIS.md`** for every channel whose score, verdict, live read or resolver changed: ① a stage `State` cell STATUS contradicts? ② a resolved gate shown as forward? ③ a calc on a superseded baseline? Strike + date, never delete. If the existing text still reconciles, record UNCHANGED with the reason; an edit is not proof of review.
 2c. **Reconcile `docket/CATALYSTS.tsv`** — add new dated commitments; mark fired rows; MOVE swept rows verbatim to `archive/CATALYSTS_FIRED_<YYYY-MM>.tsv` (by ROW: re-home any forward commitment first); make `NEXUS_BRIEF.md`'s `## WATCH … ⏱️ THE CLOCK` hold the same event SET (register wins). Renew a cadence BEFORE its last slot fires.
-3. **Kill rail** — re-read `workbook/EXIT_PROTOCOL.md`; re-count thesis-kill legs; honour the dated rewrite trigger; bump its `Newest entry:` line.
+3. **Kill rail** — re-read `workbook/EXIT_PROTOCOL.md`; re-count thesis-kill legs; honour the dated rewrite trigger. Update text and `Newest entry:` when the rail changes; otherwise record UNCHANGED without refreshing its evidence vintage.
 4. **Continuity** — new dated top block in `SCRATCH.md` with ONE `READ THIS BLOCK FIRST` banner (demote the previous one); ▶ START HERE first. **`LESSONS.md` row for every correction, defect or ruling the session produced** (`| L-NN | date | lesson | refs |`).
+   **Content-bound reconciliation:** after covered writes, run `python3 tools/closeout_check.py --reconciliation-key` from this desk (same `--base` as the final check). In the top SCRATCH block record three lines: `RECONCILE <key> STATUS UNCHANGED: <reason>`, likewise `THESIS` and `EXIT`; use `UPDATED` where the file differs from base and explain why. Review source caveats, material corrections/consumer propagation and unresolved obligations before choosing UNCHANGED. A prior STATUS edit is insufficient: later covered content changes invalidate the key. The key covers changed tracked/untracked, non-ignored desk files and deletions, excluding only SCRATCH and NEXUS_BRIEF. Substantive findings must have a covered record, never only those two continuity outputs. Hashes establish scope, not semantic correctness.
 4b. **Self-check THIS file** if the session changed a channel scope, threshold, instrument, routing owner, boot/closeout step, cadence or catalyst date — or Will RULED on how a rule reads: ① THRESHOLDS match STATUS's bands? ② FILES table names every tool/ledger that exists? ③ any date/figure here since corrected?
 5. **`NEXUS_BRIEF.md` = the LAST write before the commit.** Header `Status:` · `Domain:` · `As of: <date from \`date\`> | STATUS commit: <hash>` — the hash MUST equal `STATUS.md`'s HEAD (re-pin after any later STATUS commit). FULL variant; order `CROSS-DOMAIN → VIEW → CALIBRATION → NEXT DECISION POINT → WATCH`; **no `Thesis version:` line**; the 100-line ceiling is not enforced (position is). Schema questions → NEXUS.
 6. **Git** (root § Git Protocol) — path-scoped commits; root 1b orphan · 1c consumers (checker greps the old composite; packet each OWNER) · 1c-bis ledger nudge · 1d memory (if written) · 1e claim check; then `scripts/safe-push.sh` and quote the `CONFIRMED` receipt — **or**, if a coordinator offers its push train, write `push delegated to PROME <time>` in SCRATCH; the next boot (leg 10) verifies it landed. Spawned by a coordinator ⇒ do NOT push.
@@ -52,7 +53,7 @@ Count the AI-demand root ONCE: a capex disappointment can drive S1, S3 and S5 to
 
 **Record rules (checked):** a `FIXED`/`DONE` claim carries the commit sha that did it (a sha cannot exist before the fix) · a "pre-stated / pre-registered before the outcome" claim carries `first public: <time | none found after search>` — the claim is about the WORLD, not my knowledge [L-43] · stamps come from `date`, never typed.
 
-> **Boot↔Closeout symmetry:** what you read at boot (SCRATCH, STATUS, **PREDICTIONS — SCANNED by boot leg 2, not read whole**), you write back at closeout; `THESIS.md` and this file are closed by steps 2b and 4b. When a file rots, ask which loop it was missing from.
+> **Boot↔Closeout symmetry:** what you read at boot (SCRATCH, STATUS, **PREDICTIONS — SCANNED by boot leg 2, not read whole**), you reconcile at closeout, writing only necessary changes and recording unchanged dispositions at step 4; `THESIS.md` and this file are closed by steps 2b and 4b. When a file rots, ask which loop it was missing from.
 ---
 
 ## DOMAIN SCOPE
@@ -167,7 +168,7 @@ Route to the **domain owner**, not the transmission-adjacent agent. Outbox = cri
 
 - **Mechanism-vs-thermometer (MARCO):** the AI-capex-concentration *mechanism* is high-confidence; any single earnings print's stock reaction is a confounded *thermometer*. The thesis survives a noisy quarter.
 - **EXPECTED_SIGNALS (MARCO):** if the concentration-fragility thesis holds, capex decel + memory roll + breadth divergence should co-appear — their absence is data.
-- **Boot↔Closeout symmetry:** what you read at boot, you write back at closeout.
+- **Boot↔Closeout symmetry:** reconcile what you read; update changed records and record reasoned unchanged dispositions at closeout.
 
 ---
 
@@ -226,6 +227,6 @@ Outbox filename: `YYYY-MM-DD_to-[target]_[desc].md`. Format: Signal / Detail (2�
 | `board_log.tsv`, `registry/corrections_receipts.tsv`, `inbox/`, `outbox/` | Intake judgments / corrections / durable packets |
 | `reports/`, `archive/`, `SCHEDULED_RUNS.md` | Dated research / frozen superseded records / spent routines and future delivery-path warning |
 
-## BOTTOM LINE (update every working session)
+## BOTTOM LINE (reconcile every working session)
 
-End STATUS with 2–4 plain-language sentences: systemic state, most important channel reading, next evidence/decision. A maintenance session must say no market refresh or new signal; do not invent one to change the bottom line. Current judgments and unresolved caveats travel together.
+End STATUS with 2–4 plain-language sentences: systemic state, most important channel reading, next evidence/decision. If unchanged, retain the bottom line and its vintage; a maintenance session records no market refresh or new signal in SCRATCH rather than manufacturing an analytical edit. Current judgments and unresolved caveats travel together.
