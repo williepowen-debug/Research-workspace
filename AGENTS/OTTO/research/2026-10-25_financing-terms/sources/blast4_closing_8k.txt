@@ -1,0 +1,62 @@
+8-K 1 tm2626506d14_8k.htm FORM 8-K UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 8-K Current Report Pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934 Date of Report (Date of Earliest Event Reported) October 22, 2026 BRIDGECREST LENDING AUTO SECURITIZATION TRUST
+2026-4 (Exact Name of Issuing Entity as Specified
+in its Charter) Commission File Number of Issuing Entity: 333-297422-01 Central Index Key Number of Issuing Entity: 0002151184 BRIDGECREST AUTO FUNDING LLC (Exact Name of Depositor as Specified in its
+Charter) Commission File Number of Depositor: 333-297422 Central Index Key Number of Depositor: 0001974820 BRIDGECREST ACCEPTANCE CORPORATION (Exact Name of Sponsor as Specified in its
+Charter) Central Index Key Number of Sponsor: 0001493927 Delaware (State or Other Jurisdiction of Incorporation
+of Registrant) 41-6683331 (Issuing Entity’s I.R.S. Employer Identification No.) Bridgecrest Auto Funding LLC 1720 W. Rio Salado Parkway Tempe, Arizona 85281 (Address of Principal Executive Offices of Registrant) (Zip Code) (888) 418-1212 (Registrant’s Telephone Number, Including
+Area Code) Not Applicable (Former Name or Former Address, if Changed Since
+Last Report) Check the appropriate box below if the Form 8-K filing is intended
+to simultaneously satisfy the filing obligation of the registrant under any of the following provisions: ¨ Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425) ¨ Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12) ¨ Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b)) ¨ Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c)) Securities registered pursuant to Section 12(b) of
+the Securities Exchange Act of 1934: Title of each class Trading Symbol(s) Name of each exchange on which registered N/A N/A N/A Indicate by check mark whether the registrant is an emerging growth
+company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule 12b-2 of the Securities
+Exchange Act of 1934 (§240.12b-2 of this chapter). Emerging
+growth company ¨ If
+an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying
+with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ¨ Item 1.01. Entry into a Material Definitive Agreement. Bridgecrest Acceptance Corporation (“BAC”)
+and Bridgecrest Auto Funding LLC (“BAF”) entered into a Purchase Agreement (the “Purchase Agreement”), dated as
+of October 22, 2026, (the “Closing Date”), pursuant to which BAC transferred to BAF certain motor vehicle retail installment
+sales contracts relating to certain new and used automobiles, light-duty trucks, SUVs and vans (the “Receivables”) and related
+property. Bridgecrest Lending Auto Securitization Trust 2026-4 (the “Issuer”), a Delaware statutory trust, was established
+by a Trust Agreement, dated as of December 2, 2025 ,
+which was amended and restated by an Amended and Restated Trust Agreement, dated as of the Closing Date (the “Amended and Restated
+Trust Agreement”) , by and between BAF, as depositor, and Wilmington Trust, National Association, as owner trustee. Bridgecrest
+Lending Auto Securitization Grantor Trust 2026-4 (the “Grantor Trust”), a Delaware statutory trust, was established by a Trust
+Agreement, dated as of December 2, 2025 , which was amended and restated by an Amended
+and Restated Trust Agreement, dated as of the Closing Date (the “Amended and Restated Grantor Trust Agreement”) , by
+and between the Issuer, as grantor trust seller, and Wilmington Trust, National Association, as grantor trust trustee. On the Closing
+Date, the Issuer entered into a Sale and Servicing Agreement, dated as of the Closing Date (the “Sale and Servicing Agreement”),
+with the Grantor Trust, BAF, as seller, BAC, as servicer, and Computershare Trust Company, National Association, as indenture trustee
+(the “Indenture Trustee”) and standby servicer, pursuant to which the Receivables and related property were transferred to
+the Issuer and pursuant to which BAC agreed to act as servicer for the Receivables. On the Closing Date, the Issuer entered into a Receivables
+Contribution Agreement, dated as of the Closing Date (the “Receivables Contribution Agreement”), with the Grantor Trust, pursuant
+to which the Receivables and related property were transferred to the Grantor Trust. On the Closing Date, the Issuer, the Grantor Trust,
+BAC, as sponsor and servicer, and Clayton Fixed Income Services LLC, as asset representations reviewer, entered into an Asset Representations
+Review Agreement, dated as of the Closing Date (the “Asset Representations Review Agreement”), relating to the review of certain
+representations relating to the Receivables after satisfaction of certain conditions. Also, on the Closing Date, the Issuer entered into
+an Indenture, dated as of the Closing Date (the “Indenture”), by and between the Issuer, the Grantor Trust and the Indenture
+Trustee. Pursuant to the Indenture, the Issuer caused the issuance of the following notes: the Class A-1 4.370% Auto Loan Asset Backed
+Notes, the Class A-2 4.86% Auto Loan Asset Backed Notes, the Class A-3 5.10% Auto Loan Asset Backed Notes, the Class B
+5.41% Auto Loan Asset Backed Notes, the Class C 5.85% Auto Loan Asset Backed Notes and the Class D 6.46% Auto Loan Asset Backed
+Notes (collectively, the “Publicly Registered Notes”) and the Class E 8.38% Auto Loan Asset Backed Notes (the “Class E
+Notes” and together with the Publicly Registered Notes, the “Notes”). Also pursuant to the Indenture, the Issuer and
+the Grantor Trust granted a security interest in the Receivables and other related property to secure the Notes. Also, on the Closing
+Date, the Issuer, the Grantor Trust, BAC, as administrator, and the Indenture Trustee entered into an Administration Agreement, dated
+as of the Closing Date (the “Administration Agreement”), relating to the provision by BAC of certain administration services
+on behalf of the Issuer and the Grantor Trust relating to the Notes. The Publicly Registered Notes were sold to Wells Fargo Securities,
+LLC, BMO Capital Markets Corp., Deutsche Bank Securities Inc. and Citigroup Global Markets Inc. (together, the “Underwriters”),
+pursuant to an Underwriting Agreement, dated as of October 8, 2026, by and among BAC, BAF and Wells Fargo Securities, LLC, on behalf
+of itself and as representative of the Underwriters. The Publicly Registered Notes have been registered pursuant to the Securities Act
+of 1933, as amended (the “Act”), under a Registration Statement on Form SF-3 (Commission File No. 333-297422). Attached as Exhibit 4.1 is the Indenture,
+as Exhibit 10.1 is the Purchase Agreement, as Exhibit 10.2 is the Sale and Servicing Agreement, as Exhibit 10.3 is the
+Receivables Contribution Agreement, as Exhibit 10.4 is the Administration Agreement, as Exhibit 10.5 is the Amended and Restated
+Trust Agreement, as Exhibit 10.6 is the Amended and Restated Grantor Trust Agreement and as Exhibit 10.7 is the Asset Representations
+Review Agreement. Item 8.01. Other Events. On the Closing Date, the Issuer issued Class E
+Notes in the aggregate principal amount of $64,840,000 to BAF, as depositor, and BAF sold the Class E Notes to Qualified Institutional
+Buyers pursuant to the requirements of Rule 144A promulgated under the Securities Act of 1933. Item 9.01. Financial Statements and Exhibits. (a) Not applicable. (b) Not applicable. (c) Not applicable. (d) Exhibits. Exhibit No. Document Description 4.1 Indenture, dated as of the Closing Date, between the Issuer, the Grantor Trust and Computershare Trust Company, National Association,
+as indenture trustee (the “Indenture Trustee”). 10.1 Purchase Agreement, dated as of the Closing Date, between BAC and BAF. 10.2 Sale and Servicing Agreement, dated as of the Closing Date, between the Issuer, the Grantor Trust, BAF, BAC, as servicer, Computershare
+Trust Company, National Association, and the Indenture Trustee. 10.3 Receivables Contribution Agreement, dated as of the Closing Date, between the Issuer and the Grantor Trust. 10.4 Administration Agreement, dated as of the Closing Date, between the Issuer, the Grantor Trust, BAC, as administrator, and the Indenture
+Trustee. 10.5 Amended and Restated Trust Agreement, dated as of the Closing Date, between BAF and Wilmington Trust, National Association, not in
+its individual capacity but solely as owner trustee for the Issuer. 10.6 Amended and Restated Grantor Trust Agreement, dated as of the Closing Date, between the Issuer and Wilmington Trust, National Association,
+not in its individual capacity but solely as grantor trust trustee for the Grantor Trust. 10.7 Asset Representations Review Agreement, dated as of the Closing Date, between the Issuer, the Grantor Trust, BAC, as sponsor and servicer,
+and Clayton Fixed Income Services LLC, as asset representations reviewer. SIGNATURES Pursuant to the requirements of the Securities
+Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized. October 22, 2026 BRIDGECREST AUTO FUNDING LLC By: /s/ Daniel Gaudreau Name: Daniel Gaudreau Title: President

@@ -1,0 +1,46 @@
+CONSUMER PORTFOLIO SERVICES, INC. 8-K false 0000889609 0000889609 2026-07-22 2026-07-22 iso4217:USD xbrli:shares iso4217:USD xbrli:shares UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON DC 20549 FORM 8-K CURRENT REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 Date of Report (Date of earliest event reported) July 22, 2026 CONSUMER PORTFOLIO SERVICES, INC. (Exact Name of Registrant as Specified in Charter) california 1-11416 33-0459135 (State or Other Jurisdiction of Incorporation) (Commission File Number) (IRS Employer Identification No.) 3800 Howard Hughes Pkwy , Suite 1400 , Las Vegas , NV 89169 (Address of Principal Executive Offices) (Zip Code) Registrant’s telephone number, including area code
+( 949 ) 753-6800 Not Applicable (Former name or former address, if changed since last report) Check the appropriate box below if the Form 8-K filing is intended
+to simultaneously satisfy the filing obligation of the registrant under any of the following provisions (see General Instruction A.2.
+below): ☐ Written
+communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425) ☐ Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12) ☐ Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b)) ☐ Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c)) Securities registered pursuant to Section 12(b) of the Act: Title of each class Trading Symbol(s) Name of each exchange on which registered Common Stock, no par value CPSS The Nasdaq Stock Market LLC (Global Market) Indicate by check mark whether the registrant is an emerging growth
+company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule 12b-2 of the Securities Exchange
+Act of 1934 (§240.12b-2 of this chapter). Emerging growth company ☐ If an emerging growth company, indicate by check mark if the registrant
+has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant
+to Section 13(a) of the Exchange Act. ☐ Item 1.01. Entry into a Material Definitive
+Agreement. The information contained in Item 2.03 of this
+report is hereby incorporated by reference into this Item 1.01. The registrant disclaims any implication that the agreements relating
+to the transactions described in this report are other than agreements entered into in the ordinary course of its business. Securitization of Receivables On July 22, 2026, the registrant Consumer Portfolio
+Services, Inc. (“CPS”) and its wholly owned subsidiary CPS Receivables Five LLC (“Subsidiary”) entered into a
+series of agreements under which Subsidiary purchased from CPS, and sold to CPS Auto Receivables Trust 2026-C (the “Trust”),
+approximately $734.51 million of subprime automotive receivables (the “Receivables”). Item 2.03. Creation of a Direct Financial Obligation
+or an Obligation under an Off-Balance Sheet Arrangement of a Registrant. Securitization of Receivables CPS, Subsidiary, the Trust and others on July
+22, 2026, entered into a series of agreements that, among other things, created long-term obligations that are material to CPS, Subsidiary
+and the Trust. Under these agreements (i) CPS sold the Receivables to Subsidiary (ii) Subsidiary sold the Receivables to the Trust (iii)
+the Trust deposited the Receivables with Computershare Trust Company, N.A. (“CTCNA”), as trustee of a grantor trust, receiving
+in return a certificate of beneficial interest (“CBI”) representing beneficial ownership of the Receivables, (iv) the Trust
+pledged the CBI to CTCNA as indenture trustee for benefit of the holders of the Notes (as defined below), (v) the Trust issued and sold
+$716.88 million of asset-backed Notes, in five classes (such Notes collectively, the “Notes”), and (vi) a cash deposit (the
+“Reserve Account”) in the amount of 1.00% of the aggregate balance of the Receivables was pledged for the benefit of the holders
+of the Notes. Security for the repayment of the Notes consists
+of the Receivables and the rights to payments relating to the Receivables. CPS will act as the servicer of the Receivables. Credit enhancement
+for the Notes consists of over-collateralization and the Reserve Account. CTCNA will act as collateral agent and trustee on behalf of
+the secured parties, and is the backup servicer. The Notes are obligations only of the Trust, and
+not of Subsidiary nor of CPS. Nevertheless, the Notes are properly treated as long-term debt obligations of CPS. The sale and issuance
+of the Notes, treated as secured financings for accounting and tax purposes, are treated as sales for all other purposes, including legal
+and bankruptcy purposes. None of the assets of the Trust or Subsidiary are available to pay other creditors of CPS or its affiliates. The Trust holds a fixed pool of amortizing assets.
+The Trust is obligated to pay principal and interest on the Notes on a monthly basis. Interest is payable at fixed rates on the outstanding
+principal balance of each of the five classes of the Notes, and principal is payable by reference to the aggregate principal balance of
+the Receivables (adjusted for chargeoffs and prepayments, among other things) and agreed required over-collateralization. The following
+table sets forth the interest rates and initial principal amounts of the five classes of Notes: Note Class Interest Rate Amount Class A 4.52% $ 317,300,000 Class B 4.84% $ 99,900,000 Class C 5.05% $ 113,110,000 Class D 5.72% $ 81,530,000 Class E 7.65% $ 105,040,000 2 The 2026-C transaction has initial credit enhancement
+consisting of a cash deposit equal to 1.00% of the original Receivable pool balance and overcollateralization of 2.40%. The final enhancement
+level requires accelerated payment of principal on the Notes to reach overcollateralization of the lesser of 7.70% of the original Receivables
+pool balance, or 19.10% of the then outstanding pool balance, but in no event less than 1.50% of the original receivable pool balance. If an event of default were to occur under the
+agreements, the Trustee would have the right to accelerate the maturity of the Notes, in which event the cash proceeds of the Receivables
+that otherwise would be released to Subsidiary would instead be directed entirely toward repayment of the Notes. Events of default include
+such events as failure to make required payments on the Notes, breaches of warranties, representations or covenants under any of the agreements
+or specified bankruptcy-related events. At such time as the aggregate outstanding principal
+balance of the Receivables is less than 10% of the initial aggregate balance of $734.51 million, CPS will have the option to purchase
+the Trust estate at fair market value, provided that such purchase price is sufficient to cause the Notes to be redeemed and paid in full,
+and to cause other obligations of the Trust to be met. Item 9.01. Financial Statements and Exhibits. One exhibit is included with this report: 99.1 News release re securitization transaction. 104 Cover Page Interactive Data File (embedded within the Inline XBRL document). 3 SIGNATURES Pursuant to the requirements of the Securities Exchange
+Act of 1934, as amended, the registrant has duly caused this report to be signed on its behalf by the undersigned, thereunto duly authorized. CONSUMER PORTFOLIO SERVICES, INC. Dated: July 24, 2026 By: /s/ Denesh
+    Bharwani Denesh Bharwani Executive Vice President and Chief Financial Officer Signing on behalf of the registrant 4

@@ -716,3 +716,10 @@ SHA256 `5ec8e5708ba5e80a2bc5efda81bb8f27b0cf405693fba241e7b7937655e76231`
 > **Next:** Ally10/20 · BlackRock/OTTO-07/T-7 checks10/21 · BROCK CRMT10/22 · EART~10/29 · M&T10-Q check~11/05. Full dates below.
 
 **L708:** NO_INSTRUMENT; supplementary MIXED cannot establish attribution or absence. NEXUS/PROME consumed it (PROME receipt10/19). **Nearest resolvers:** timeline above.
+
+
+## 18. October25 s036 pointer, superseded by financing-terms pass s037
+
+> **s036 catch-up, October 25:** Ally Q3 is almost flat YoY on losses but accruing delinquency rose; Cox mid-October rebounded; all 8 shelves have 2026 issuance (not proof of current access). BROCK bridge 8 relief through 11/01 replaces 10/22. Evidence: `research/2026-10-25_catchup/READOUT.md`.
+> **Unresolved:** VRM TrustV outcome; Tricolor BlackRock/suppression orders; First Brands D&O disposition. October 21 §721 hearing continued, date TBD in clerk entry 3973. Full WINTERKORN sweep not completed; bounded inline checks only.
+> **Next:** First Brands 10/27 · CVNA/BROCK 10/28 · EART ~10/29 · final v1.6 10/30 · BROCK 10/30 and 11/02 around 11/01. WQ508 charter edits already applied by DAEDALUS, verified at 4da79f1ee.

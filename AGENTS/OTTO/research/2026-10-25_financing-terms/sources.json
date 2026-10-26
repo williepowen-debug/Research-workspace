@@ -1,0 +1,182 @@
+{
+  "eart3_fwp": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1654238/000092963826002238/eart2026-3_fwp.htm",
+    "path": "AGENTS/OTTO/research/2026-10-25_financing-terms/sources/eart3_fwp.html.gz",
+    "raw_sha256": "d761a1b29ce2ad7104c33ed47b48ea7ac82a7d677e780915bc57837135457340",
+    "captured_at": "2026-10-26T01:17:07.014025+00:00",
+    "bytes": 26259
+  },
+  "eart4_fwp": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1654238/000092963826003248/eart2026-4_fwp.htm",
+    "path": "AGENTS/OTTO/research/2026-10-25_financing-terms/sources/eart4_fwp.html.gz",
+    "raw_sha256": "5e9dbddedc539ea00e2297a6bc35c15c0b7cf36b0bd050c39f64b1185c432a62",
+    "captured_at": "2026-10-26T01:17:07.698052+00:00",
+    "bytes": 21736
+  },
+  "blast3_fwp": {
+    "url": "https://www.sec.gov/Archives/edgar/data/2138886/000110465926085513/tm2620097d8_fwp.htm",
+    "path": "AGENTS/OTTO/research/2026-10-25_financing-terms/sources/blast3_fwp.html.gz",
+    "raw_sha256": "142014597c3d234c8f0a1ea56d39bc9562ee954bb9eb805f4dc0979f6c0102c7",
+    "captured_at": "2026-10-26T01:17:08.243274+00:00",
+    "bytes": 21234
+  },
+  "blast4_fwp": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1974820/000110465926114786/tm2626506d8_fwp.htm",
+    "path": "AGENTS/OTTO/research/2026-10-25_financing-terms/sources/blast4_fwp.html.gz",
+    "raw_sha256": "083712e65215b614e0dd9d3397e56fccfd24c83c4513e14056c90ba313d6a8de",
+    "captured_at": "2026-10-26T01:17:08.669149+00:00",
+    "bytes": 15656
+  },
+  "blast4_prospectus": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1974820/000110465926115378/tm2626506d10_424b5.htm",
+    "path": "AGENTS/OTTO/research/2026-10-25_financing-terms/sources/blast4_prospectus.html.gz",
+    "raw_sha256": "0532ba2cd1beeadf817c75f96ce1e3fa42753d7ef06280e8a55fe93d0919a38a",
+    "captured_at": "2026-10-26T01:17:11.965608+00:00",
+    "bytes": 5204328
+  },
+  "ally_ir": {
+    "url": "https://www.ally.com/about/investor",
+    "path": "AGENTS/OTTO/research/2026-10-25_financing-terms/sources/ally_ir.html.gz",
+    "raw_sha256": "6bf4269ebf71a9c1df838d27341f514d1211cef5c170430a414ff22c857664fb",
+    "captured_at": "2026-10-26T01:17:12.544436+00:00",
+    "bytes": 234222
+  },
+  "ally_transcript_secondary": {
+    "url": "https://stockanalysis.com/stocks/ally/transcripts/711267-q3-2026/",
+    "path": "AGENTS/OTTO/research/2026-10-25_financing-terms/sources/ally_transcript_secondary.html.gz",
+    "raw_sha256": "5189afe452472c1b5005f801d30ca850c0df8c70ade343a4efa5dc383339cbde",
+    "captured_at": "2026-10-26T01:17:13.208791+00:00",
+    "bytes": 343811
+  },
+  "cps_d": {
+    "url": "https://ir.consumerportfolio.com/news-releases/news-release-details/cps-announces-76785-million-senior-subordinate-asset-backed",
+    "error": "403 Client Error: Forbidden for url: https://ir.consumerportfolio.com/news-releases/news-release-details/cps-announces-76785-million-senior-subordinate-asset-backed"
+  },
+  "cps_c": {
+    "url": "https://ir.consumerportfolio.com/news-releases/news-release-details/cps-announces-71688-million-senior-subordinate-asset-backed",
+    "error": "403 Client Error: Forbidden for url: https://ir.consumerportfolio.com/news-releases/news-release-details/cps-announces-71688-million-senior-subordinate-asset-backed"
+  },
+  "cps_submissions": {
+    "url": "https://data.sec.gov/submissions/CIK0000889609.json",
+    "path": "AGENTS/OTTO/research/2026-10-25_financing-terms/sources/cps_submissions.html.gz",
+    "raw_sha256": "e8c150ea79a6bf33a81e2b6b64a2f93043c4fd826bc8997166ee8dc34be9164a",
+    "captured_at": "2026-10-26T01:18:35.094215+00:00",
+    "bytes": 160318
+  },
+  "blast3_8k": {
+    "url": "https://www.sec.gov/Archives/edgar/data/2138886/000110465926086208/tm2620097d12_8k.htm",
+    "path": "AGENTS/OTTO/research/2026-10-25_financing-terms/sources/blast3_8k.html.gz",
+    "raw_sha256": "18b69332913eac46b2ff6923e364afd0b26678924ccbbdfb79f73addb850c576",
+    "captured_at": "2026-10-26T01:18:35.800321+00:00",
+    "bytes": 21807
+  },
+  "blast4_8k": {
+    "url": "https://www.sec.gov/Archives/edgar/data/2151184/000110465926115376/tm2626506d12_8k.htm",
+    "error": "404 Client Error: Not Found for url: https://www.sec.gov/Archives/edgar/data/2151184/000110465926115376/tm2626506d12_8k.htm"
+  },
+  "eart4_8k": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1654238/000092963826003359/eart2026-4_8k.htm",
+    "path": "AGENTS/OTTO/research/2026-10-25_financing-terms/sources/eart4_8k.html.gz",
+    "raw_sha256": "cd27e108da3e358482261908396a22c61bb4243c59a45ac71eabe87eb496bc58",
+    "captured_at": "2026-10-26T01:18:36.845827+00:00",
+    "bytes": 45106
+  },
+  "ally_replay": {
+    "url": "https://edge.media-server.com/mmc/p/up7u82sy/",
+    "path": "AGENTS/OTTO/research/2026-10-25_financing-terms/sources/ally_replay.html.gz",
+    "raw_sha256": "3466f83ca8178db775cd6f40da03a9c63e73c6f51d5b4ce7ad7e2a99fdd6d085",
+    "captured_at": "2026-10-26T01:18:38.241263+00:00",
+    "bytes": 3810
+  },
+  "blast3_submissions": {
+    "url": "https://data.sec.gov/submissions/CIK0002138886.json",
+    "path": "AGENTS/OTTO/research/2026-10-25_financing-terms/sources/blast3_submissions.html.gz",
+    "raw_sha256": "38be2388226c22780ec206b05e57cca1eeffd2a3dbf8c2f75565d49974d2514e",
+    "captured_at": "2026-10-26T01:19:58.216991+00:00",
+    "bytes": 3919
+  },
+  "blast3_prospectus": {
+    "url": "https://www.sec.gov/Archives/edgar/data/2138886/000110465926086207/tm2620097d10_424b5.htm",
+    "path": "AGENTS/OTTO/research/2026-10-25_financing-terms/sources/blast3_prospectus.html.gz",
+    "raw_sha256": "953c495284f60496889130f6f58189f4f59a63511b34fbb1fad676990406bdee",
+    "captured_at": "2026-10-26T01:20:00.665659+00:00",
+    "bytes": 3745178
+  },
+  "blast4_submissions": {
+    "url": "https://data.sec.gov/submissions/CIK0002151184.json",
+    "path": "AGENTS/OTTO/research/2026-10-25_financing-terms/sources/blast4_submissions.html.gz",
+    "raw_sha256": "d8b7d20762aafa31e3da3b4904de274f7bcd09738e2cd0c335b9c663df03fef2",
+    "captured_at": "2026-10-26T01:20:01.111011+00:00",
+    "bytes": 2667
+  },
+  "blast4_pricing_8k": {
+    "url": "https://www.sec.gov/Archives/edgar/data/2151184/000110465926115379/tm2626506d12_8k.htm",
+    "path": "AGENTS/OTTO/research/2026-10-25_financing-terms/sources/blast4_pricing_8k.html.gz",
+    "raw_sha256": "7161516dc110f97fa902eb3ca49fc4b29f9b668a6e9f2794eeb2b30b4604f540",
+    "captured_at": "2026-10-26T01:20:01.708807+00:00",
+    "bytes": 22753
+  },
+  "efcar_submissions": {
+    "url": "https://data.sec.gov/submissions/CIK0001654238.json",
+    "path": "AGENTS/OTTO/research/2026-10-25_financing-terms/sources/efcar_submissions.html.gz",
+    "raw_sha256": "d0c43a42d78288b59c1f1bc6617519a9934a9e89a47cd538db964d0814fe56a4",
+    "captured_at": "2026-10-26T01:20:02.321728+00:00",
+    "bytes": 69210
+  },
+  "eart3_prospectus": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1654238/000092963826002279/eart2026-3_424b5.htm",
+    "path": "AGENTS/OTTO/research/2026-10-25_financing-terms/sources/eart3_prospectus.html.gz",
+    "raw_sha256": "146419383b6099d696420ee3d0737f9df8cd94d6e94d7de25dc1b1d1ec07c570",
+    "captured_at": "2026-10-26T01:20:05.639457+00:00",
+    "bytes": 4124107
+  },
+  "cps_d_8k": {
+    "url": "https://www.sec.gov/Archives/edgar/data/889609/000168316826008011/cps_8k.htm",
+    "path": "AGENTS/OTTO/research/2026-10-25_financing-terms/sources/cps_d_8k.html.gz",
+    "raw_sha256": "79f982efce69e8e9a9d895abc6501b34c6b0d3e8e0a2ce25309cbc43a927850a",
+    "captured_at": "2026-10-26T01:20:08.003909+00:00",
+    "bytes": 37529
+  },
+  "cps_d_sec_release": {
+    "url": "https://www.sec.gov/Archives/edgar/data/889609/000168316826008011/cps_ex9901.htm",
+    "path": "AGENTS/OTTO/research/2026-10-25_financing-terms/sources/cps_d_sec_release.html.gz",
+    "raw_sha256": "1c855245e3dd4e8b74aabcd73c4151526bc94457bc2724efb398e5b8c8b1962a",
+    "captured_at": "2026-10-26T01:20:08.447995+00:00",
+    "bytes": 10003
+  },
+  "cps_c_8k": {
+    "url": "https://www.sec.gov/Archives/edgar/data/889609/000168316826005764/cps_8k.htm",
+    "path": "AGENTS/OTTO/research/2026-10-25_financing-terms/sources/cps_c_8k.html.gz",
+    "raw_sha256": "70ab6c7ee5db821cddc370809b0f123f37ef6ce2d80de8a2f78bb50b833c43ca",
+    "captured_at": "2026-10-26T01:21:10.566090+00:00",
+    "bytes": 36634
+  },
+  "cps_c_sec_release": {
+    "url": "https://www.sec.gov/Archives/edgar/data/889609/000168316826005764/cps_ex9901.htm",
+    "path": "AGENTS/OTTO/research/2026-10-25_financing-terms/sources/cps_c_sec_release.html.gz",
+    "raw_sha256": "172a59037fce110687d73e2ac4cbec2ebc77cc3ded32bc266da70bcc1d9652b7",
+    "captured_at": "2026-10-26T01:21:10.969641+00:00",
+    "bytes": 9981
+  },
+  "eart4_prospectus": {
+    "url": "https://www.sec.gov/Archives/edgar/data/2150254/000092963826003269/eart2026-4_424b5.htm",
+    "path": "AGENTS/OTTO/research/2026-10-25_financing-terms/sources/eart4_prospectus.html.gz",
+    "raw_sha256": "0a94a9c03346652d628b6de04311d22351e4d21e596cef2b482bde36360a97ea",
+    "captured_at": "2026-10-26T01:21:13.961932+00:00",
+    "bytes": 3895781
+  },
+  "blast4_underwriting_8k": {
+    "url": "https://www.sec.gov/Archives/edgar/data/2151184/000110465926115376/tm2626506d13_8k.htm",
+    "path": "AGENTS/OTTO/research/2026-10-25_financing-terms/sources/blast4_underwriting_8k.html.gz",
+    "raw_sha256": "ff74a362198ac2cc59302beb67bdc29f4bfcef0622185f5f194f1748be342f05",
+    "captured_at": "2026-10-26T01:21:14.623182+00:00",
+    "bytes": 30006
+  },
+  "blast4_closing_8k": {
+    "url": "https://www.sec.gov/Archives/edgar/data/2151184/000110465926118129/tm2626506d14_8k.htm",
+    "path": "AGENTS/OTTO/research/2026-10-25_financing-terms/sources/blast4_closing_8k.html.gz",
+    "raw_sha256": "09da387bf2cb9df89e0ffc8e416cbc5817e3c89f7aeb689d24212cd41dfbb04e",
+    "captured_at": "2026-10-26T01:28:17.689194+00:00",
+    "bytes": 29492
+  }
+}

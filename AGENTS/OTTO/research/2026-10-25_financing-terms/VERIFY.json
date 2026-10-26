@@ -1,0 +1,7 @@
+{
+  "hash_checked": 24,
+  "bad": [],
+  "pricing_rows": 10,
+  "pairs": 5,
+  "checks": "All 10 selected rows cross-read at source. Five pairs preserve issuer/rating/WAL/date/benchmark basis. CPS arithmetic uses listed amounts/rates and retains prose mismatch."
+}

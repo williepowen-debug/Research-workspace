@@ -1,0 +1,100 @@
+{
+  "pairs": [
+    {
+      "issuer": "Exeter",
+      "tranche": "A-3",
+      "earlier": "EART 2026-3",
+      "later": "EART 2026-4",
+      "coupon_change_bp": "9.00",
+      "spread_change_bp": -7,
+      "yield_change_bp": "9.900",
+      "yield_less_spread_residual_change_bp": "16.900",
+      "interpretation": "Descriptive new-issue comparison; no causal attribution or current secondary quote. CPS coupons are not yields/spreads."
+    },
+    {
+      "issuer": "Exeter",
+      "tranche": "D",
+      "earlier": "EART 2026-3",
+      "later": "EART 2026-4",
+      "coupon_change_bp": "20.00",
+      "spread_change_bp": 0,
+      "yield_change_bp": "20.500",
+      "yield_less_spread_residual_change_bp": "20.500",
+      "interpretation": "Descriptive new-issue comparison; no causal attribution or current secondary quote. CPS coupons are not yields/spreads."
+    },
+    {
+      "issuer": "Bridgecrest",
+      "tranche": "A-3",
+      "earlier": "BLAST 2026-3",
+      "later": "BLAST 2026-4",
+      "coupon_change_bp": "46.00",
+      "spread_change_bp": 5,
+      "yield_change_bp": "46.300",
+      "yield_less_spread_residual_change_bp": "41.300",
+      "interpretation": "Descriptive new-issue comparison; no causal attribution or current secondary quote. CPS coupons are not yields/spreads."
+    },
+    {
+      "issuer": "Bridgecrest",
+      "tranche": "D",
+      "earlier": "BLAST 2026-3",
+      "later": "BLAST 2026-4",
+      "coupon_change_bp": "87.00",
+      "spread_change_bp": 30,
+      "yield_change_bp": "89.600",
+      "yield_less_spread_residual_change_bp": "59.600",
+      "interpretation": "Descriptive new-issue comparison; no causal attribution or current secondary quote. CPS coupons are not yields/spreads."
+    },
+    {
+      "issuer": "CPS",
+      "tranche": "D",
+      "earlier": "CPS 2026-C",
+      "later": "CPS 2026-D",
+      "coupon_change_bp": "83.00",
+      "interpretation": "Descriptive new-issue comparison; no causal attribution or current secondary quote. CPS coupons are not yields/spreads."
+    }
+  ],
+  "cps_weighted_coupon_reconciliation": {
+    "C": {
+      "amount_millions": [
+        "317.300",
+        "99.900",
+        "113.110",
+        "81.530",
+        "105.040"
+      ],
+      "coupon_pct": [
+        "4.52",
+        "4.84",
+        "5.05",
+        "5.72",
+        "7.65"
+      ],
+      "publisher_weighted_coupon_pct": "5.90",
+      "listed_amount_sum_millions": "716.880",
+      "table_implied_principal_weighted_coupon_pct": "5.243311432875795112152661533",
+      "publisher_less_table_bp": "65.66885671242048878473384670"
+    },
+    "D": {
+      "amount_millions": [
+        "356.340",
+        "111.470",
+        "118.090",
+        "71.120",
+        "110.830"
+      ],
+      "coupon_pct": [
+        "5.14",
+        "5.59",
+        "6.01",
+        "6.55",
+        "8.56"
+      ],
+      "publisher_weighted_coupon_pct": "6.68",
+      "listed_amount_sum_millions": "767.850",
+      "table_implied_principal_weighted_coupon_pct": "5.963360812658722406720062512",
+      "publisher_less_table_bp": "71.66391873412775932799374880"
+    }
+  },
+  "cps_table_implied_change_bp": "72.00493797829272945674009790",
+  "limits": "CPS issuer prose and table disagree; no claim about actual all-in effective borrowing cost. Benchmark residual is algebra, not an independently observed rate series."
+}

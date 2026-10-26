@@ -1,6 +1,6 @@
 # OTTO MEMORY
 
-**Updated:** 2026-10-25,s036. Boot navigation and continuity; live metrics belong to STATUS/workbooks. Mistake patterns live in boot-read `LESSONS.md`. Prior memory preserved byte-for-byte in `archive/MEMORY_2026-10-19_pre-s031.md`; old entries are history, not pending work.
+**Updated:** 2026-10-25, s037. Boot navigation and continuity; live metrics belong to STATUS/workbooks. Mistake patterns live in boot-read `LESSONS.md`. Prior memory preserved byte-for-byte in `archive/MEMORY_2026-10-19_pre-s031.md`; old entries are history, not pending work.
 
 ## Desk boundaries
 - OTTO owns auto-fraud mechanisms, collateral evidence and identification of exposed counterparties. REGINALD owns bank sizing; BROCK owns CRMT financing grades and BDC marks; TERRY constructs trades and Will decides.
@@ -21,19 +21,18 @@
 - M&T official IR direct requests returned403 on10/19, while the web tool read its official deck/quarterly index and SEC supplied the filed release. Official webcast403; third-party transcript is labelled secondary. Do not claim a primary audio read.
 - Fitch paid/full index access was declined10/14; no new account or paid-data authority. March aggregate values retired from hot STATUS; deal-level panel is a different instrument, not a replacement Fitch index.
 
-## LAST SESSION — s036, October25 domain/inbox catch-up
-- Sources and judgments: `research/2026-10-25_catchup/READOUT.md`; boot/source/probe/consumption receipts beside it. Root/desk explicitly loaded. Codex session01a175a8-1ce1-76c1-bcf7-e404b7c17e1f,exact model suffixUNKNOWN. No helpers. Initialpull skipped for foreign dirty files.
-- Will authorized catch-up; PROME c093e462c added whole-inbox scope, acknowledged natively. Ten packets consumed. WQ508 charter edits were already applied4da79f1ee,verified; no new charter edit. CYPHER boundary answer authored. R1 corrections receipted separately.
-- Ally primary actuals read (including visual deckp9/10); accruing delinquency rose more YoY than all-in, losses near-flat YoY. No repossession-severity/Carvana-specific outcome established. Call unreviewed, Q3 10-Q not yet in feed. October20 attempt missed; actual10/25 recorded.
-- Controlled shelf/exeter probes completed late10/25; no panel write from unchanged AugustEART. Annual issuance existence cannot establish no current halt. VRMTrustV disposition remainsUNKNOWN despite current filing-feed check. No probability/threshold/colour/trade change.
-- Cox mid-month rebound and KBRA broad-index counterevidence now sourced. Edmunds primary fixes69% denominator (only1000plusnew buyers); no delinquency/crash inference. September CACC settlement was already consumed9/24,not a newly discovered case.
-- BROCK bridge8 grade and LIQUID/PROME WQ523/524 consumed. November1 is relief expiry,not maturity; signed5M/92Mreceivablesnotcurrentcash. HistoricalWALloss does not reopen new-bank transmission or add42.125Mto126.4M.
-- FirstBrands clerk3973:10/21hearing continued,dateTBD;3956:10/20D&Ohearingheld,no disposition obtained. BlackRock/suppression orders unverified. Verita TLS recipe validates but POST403; Kroll403. Inline bounded docket checks,NOT a full WINTERKORN sweep; last-run10/14 unchanged.
-- Calendar: five completed/superseded rows archived,one bridge8 successor added; pending court rows carry nextchecks. Prediction terms/confidences unchanged; notes record actual attempts. Canonical/mirror checks and persistence receipt at closeout. Existing mistake classes cover this work; no new auto-memory promotion.
+## LAST SESSION — s037, current financing terms and bounded Ally call pass
+- Will's new bounded task is recorded at PROME `0c0221120`; acknowledged in the same owner window. Previous s036 catch-up was complete. No reboot, helper, standing monitor, paid data or future-release wait.
+- Canonical result: `research/2026-10-25_financing-terms/READOUT.md`; ten rows/five descriptive comparisons, saved raw captures/hashes and reproducible arithmetic. Selected three shelves are not a market census. All-in yield, spread, coupon and current executable price are different objects.
+- Current evidence: differentiated repricing with financing completed; no systemic-leg, probability, colour, threshold or trade change. THESIS has a bounded evidence addendum; final v1.6 remains October30. Both prior systemic calls remain disconfirmed; new spread changes are not attributed causally to fraud.
+- CPS's issuer headline weighted coupons do not match its listed amounts/rates. Both prose and table arithmetic are preserved, with no verified actual blended-cost assertion. Structure/rating/life differences prevent an inferred like-for-like spread from coupons.
+- EART2026-4 closed August31 per actual Item1.01, correcting earlier August28. Hot source cell and OTTO-07 evidence notes corrected; append-only history preserved. Cross/self consumer scans ran; series-specific review isolates old WALTER relay037, correction packet authored.
+- Ally issuer replay returns a JavaScript player shell; no primary audio listened/transcribed. Secondary Q3 transcript now read: management's cohort/mix/curtailment commentary is attributed, not a measured causal decomposition or realized later-vintage outcome. No quantified repossession severity or executed Carvana purchase/warehouse flow established; Trust V remains UNKNOWN.
+- Previous s036 source/intake/persistence and PROME consumption settled. Court/full WINTERKORN gaps remain separate existing work; no repeat court loop. New assignment packet filed after completion. Existing lesson classes cover source arithmetic, scope and clocks; no new fleet-memory promotion.
 
 ## NEXT SESSION — keep last
-1. FirstBrands10/27 docket/§341: obtain D&O disposition and continued§721 date; do not infer outcomes from hearing-held/appearance PDF. BlackRock/suppression source checks10/28 remain pending.
-2. CVNA10/28: actualQ3 disclosures/any actual activist report. BROCK L741backstop same day excludesalreadyfiled10/20 extension. EART~10/29 completesSeptembercollection coverage; pairDQ/extensions.
-3. FinalTHESISv1.6/recovery rung/broader causal-risk review/independent cold read10/30 remains future. BROCK L79410/30afterclose/11/02AM aroundSunday11/01reliefexpiry; no duplicate investigation.
-4. VRM nextperiodic filing date unverified; TrustVoutcomeUNKNOWN. Allycall andQ3filing-specificCarvana/performance/access detail remain unreviewed. M&T modeled10-Q~11/05; Manheim11/06; SDT~11/15. Full WINTERKORN future-dateverification remains incomplete.
-5. OTTO-10 NEEDS_VERIFY,OTTO-11 STUCK; existing11/30/12/15/12/31follow-ups preserved. CATOOR1closure/recipientconsumption remain separate; priorL708consumption settled. No research restart or expanded program commissioned.
+1. Existing First Brands October27 and Tricolor October28 court checks; D&O disposition/continued §721 date/BlackRock and suppression orders remain unverified. Full WINTERKORN future-date sweep remains incomplete.
+2. Carvana October28 actual disclosures; Exeter approximately October29 September collections with extensions. BROCK's existing October28 and October30/November2 checks remain owner-graded; no duplicate Car-Mart study.
+3. Final THESIS v1.6, broader causal/risk review, recovery rung and independent cold read October30 remain prospective. Pricing examples and secondary Ally explanation inform that review; no earlier completion claim.
+4. Trust V outcome/next periodic filing date remain unknown. Primary Ally audio and quantified repo severity/Carvana access remain unverified after the completed bounded pass. M&T modeled10-Q~November5, ManheimNovember6, SDT~November15.
+5. OTTO-10 NEEDS_VERIFY/OTTO-11 STUCK retain terms and registered follow-ups. No additional investigation commissioned; existing CATO reviewer closure remains separate. Exact publication/consumption outcome belongs to the dated PROME delivery memo.

@@ -1,0 +1,11 @@
+issuer	deal	date	date_basis	tranche	ratings	size_millions	modeled_wal_years	benchmark_as_printed	spread_bp	yield_pct	coupon_pct	prepayment_call_basis	source_key
+Exeter	EART 2026-3	2026-06-16	FWP/prospectus dated	A-3	S&P AAA / Moody Aaa	267.47	1.38	I-CRV	59	4.512	4.47	1.50% ABS to 5% call	eart3_fwp
+Exeter	EART 2026-4	2026-08-26	FWP/underwriting agreement dated	A-3	S&P AAA / Moody Aaa	246.63	1.37	I-CRV	52	4.611	4.56	1.50% ABS to 5% call	eart4_fwp
+Exeter	EART 2026-3	2026-06-16	FWP/prospectus dated	D	S&P BBB / Moody Baa3	194.31	3.59	I-CRV	140	5.505	5.44	1.50% ABS to 5% call	eart3_fwp
+Exeter	EART 2026-4	2026-08-26	FWP/underwriting agreement dated	D	S&P BBB / Moody Baa3	159.56	3.64	I-CRV	140	5.71	5.64	1.50% ABS to 5% call	eart4_fwp
+Bridgecrest	BLAST 2026-3	2026-07-21	prospectus/underwriting date; FWP filed July22	A-3	S&P AAA / DBRS AAA	134.72	1.24	I-Curve	57	4.692	4.64	1.75% ABS to 10% call	blast3_fwp
+Bridgecrest	BLAST 2026-4	2026-10-08	prospectus/underwriting date; FWP filed October9	A-3	S&P AAA / DBRS AAA	119.33	1.32	I-CRV	62	5.155	5.1	1.75% ABS to 10% call	blast4_fwp
+Bridgecrest	BLAST 2026-3	2026-07-21	prospectus/underwriting date; FWP filed July22	D	S&P BBB / DBRS BBB	107.25	3.24	I-Curve	135	5.66	5.59	1.75% ABS to 10% call	blast3_fwp
+Bridgecrest	BLAST 2026-4	2026-10-08	prospectus/underwriting date; FWP filed October9	D	S&P BBB / DBRS BBB	114.71	3.27	I-CRV	165	6.556	6.46	1.75% ABS to 10% call	blast4_fwp
+CPS	CPS 2026-C	2026-07-22	closing date; pricing date undisclosed	D	S&P BBB / DBRS BBB	81.53	3.21	UNDISCLOSED			5.72	10% pool call; original/remaining OC targets differ	cps_c_sec_release
+CPS	CPS 2026-D	2026-10-21	closing date; pricing date undisclosed	D	Moody Baa2 / DBRS BBB	71.12	3.31	UNDISCLOSED			6.55	10% pool call; original/remaining OC targets differ	cps_d_sec_release

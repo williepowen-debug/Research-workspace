@@ -1,0 +1,22 @@
+{
+  "calendar_events": 28,
+  "calendar_date_class_meaning_unchanged": true,
+  "prediction_terms_probabilities_states_unchanged": true,
+  "convergence": 33,
+  "status_bytes": 22771,
+  "semantic_review": "Only financing V7 evidence, Ally source boundary and factual EART close date moved. Calendar event set/date/classes, eight unresolved forecast definitions/confidences and thesis conviction/SDT consequence remain unchanged. Full v1.6 remains prospective.",
+  "lesson_scan": "Existing source-arithmetic, benchmark/universe, information-clock and mirror-consistency rules cover findings; no new promotion.",
+  "rotation_under_70pct": true,
+  "all_calendar_mirror_rows_present": true,
+  "unresolved_pred_mirror_ids": true,
+  "source_capture_checks": {
+    "hash_checked": 24,
+    "bad": [],
+    "pricing_rows": 10,
+    "pairs": 5,
+    "checks": "All 10 selected rows cross-read at source. Five pairs preserve issuer/rating/WAL/date/benchmark basis. CPS arithmetic uses listed amounts/rates and retains prose mismatch."
+  },
+  "new_court_loop": false,
+  "future_release_wait": false,
+  "no_processes_remaining": "Every execution session returned final exit; no helpers launched."
+}

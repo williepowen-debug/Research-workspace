@@ -1,0 +1,94 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  SELF mode: 203 files under AGENTS/OTTO/ (processed/ + archive/ still excluded — historical by design). Nothing outside your own dir is scanned.
+
+  ── value · superseded 8/28 → current 8/31
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (31)
+        AGENTS/OTTO/RESEARCH_STATUS.md:63  [8/28]
+           | ✅ RESOLVED | ~~Counts 7–8 securitization list~~ | ECF 149, filed on time 8/28: 11 of ≥13 TAST deals (ML-OTTO-293/294, s028) |
+        AGENTS/OTTO/STATUS.md:45  [8/28]
+           | V7 | Systemic funding (ABS spreads / issuance) | **1** | **src: THESIS stage [3] 🟢 DISCONFIRMED** · stage [7] 🟢 | A channel of Root A: tes
+        AGENTS/OTTO/STATUS.md:76  [8/28]
+           | **First Brands DIP** `[CONF Saratoga SOI5/31/2026 via BROCK8/28]` | New-money TL-A22.8¢; BROCK owns marks. **Claim disputes, collateral an
+        AGENTS/OTTO/STATUS_COLD.md:140  [8/28]
+           | ~~**Sep 4**~~ | Tricolor criminal — **privilege chain FIRST OBSERVABLE OUTPUT** (was re-keyed 8/7 → 9/4) | ✅ **RETIRED 9/2 — FIRED EARLY, 
+        AGENTS/OTTO/STATUS_COLD.md:149  [8/28]
+           | **~Aug 17** | **EART 2026-4 (Exeter) ABS new-issue FWP / pricing window** | 🟡 **UNSWEPT at 10d — ACKNOWLEDGED-PENDING with a reason and a 
+        AGENTS/OTTO/STATUS_COLD.md:154  [8/28]
+           | **~Aug 28-31** | 🔴 **EART July 10-D — the print that makes July a two-tier observation** | 🔴 `modeled` **NEW Aug 27; WINDOW MEASURED + NEG
+        AGENTS/OTTO/STATUS_COLD.md:223  [8/28]
+           **Nearest resolvers:** **entry of the First Brands conversion order** (not entered at 21:47 EDT, tip Dkt 3727 — OTTO-32 holds OPEN at 97%, u
+        AGENTS/OTTO/STATUS_COLD.md:317  [8/28]
+           | **Sep 19** | Tricolor **Counts 7–8 exhaustive securitization list** — due ~8/28, **22d past and UNVERIFIED** | 🟠 `modeled` **OWNER: OTTO, 
+        AGENTS/OTTO/STATUS_COLD.md:447  [8/28]
+           **Swept s028 (2026-10-14) — the Tricolor Counts 7–8 check row (RESOLVED: ECF 149, filed 8/28):**
+        AGENTS/OTTO/STATUS_COLD.md:449  [8/28]
+           | **Oct 1** | Tricolor **Counts 7–8 exhaustive securitization list** — CHECK date (event due ~8/28, still UNVERIFIED) | 🟠 `modeled` **OWNER 
+        AGENTS/OTTO/STATUS_COLD.md:503  [8/28]
+           > - **DONE:** 10-D seasoning/upsert repair (13 days late; 0 of 137 values moved; packet to CARL, his BLAST ruling asked) · August 10-D read:
+        AGENTS/OTTO/STATUS_COLD.md:528  [8/28]
+           | **🔴 First Brands recovery — a super-priority DIP marked at 22.8¢** `[CONF Saratoga Investment Corp SOI dated 2026-05-31, via BROCK 8/28]` 
+        AGENTS/OTTO/STATUS_COLD.md:665  [8/28]
+           | **🔴 First Brands recovery — super-priority DIP marked 22.8¢** `[CONF Saratoga SOI 2026-05-31, via BROCK 8/28]` | New-Money DIP TL A **22.8
+        AGENTS/OTTO/docket/WINTERKORN_MEMORY.md:13  [8/28]
+           - **Cases:** First Brands plan confirmation DENIED 8/24 and every debtor converted to Ch.7 (order ENTERED 9/1, Dkt 3748): the Ch.11 hearing 
+        AGENTS/OTTO/docket/WINTERKORN_MEMORY.md:21  [8/28]
+           - **Swept by OTTO in s028:** 10/1 CRMT STD, 10/7 backstop, 10/1 10-D cycle, 10/1 seasoning deliverable, 10/1 Tricolor Counts 7-8 (RESOLVED: 
+        AGENTS/OTTO/docket/WINTERKORN_MEMORY.md:38  [8/28]
+           - **EART 2026-4 ISSUED** (8/19 → 8/28; first 10-D 9/29). Facts are on the 8/17 row for OTTO's sweep.
+        AGENTS/OTTO/docket/WINTERKORN_MEMORY.md:91  [8/28]
+           - `[CONF EDGAR FTS, trust CIK 0002150254]` ABS-15G 8/18 · 424H + FWP 8/19 · FWP 8/26 · 424B5 + closing 8-K 8/28 · first 10-D 9/29. Controls:
+        AGENTS/OTTO/docket/WINTERKORN_MEMORY.md:148  [8/28]
+           - **EART 2026-4**: **ISSUED** (424H + FWP 8/19, FWP 8/26, 424B5 + closing 8-K 8/28, first 10-D 9/29; trust CIK 0002150254). The facts are on
+        AGENTS/OTTO/research/2026-10-14_file_review/review_A_thesis.md:24  [8/28]
+           | M3 | MED | PREDICTIONS.tsv:19 (OTTO-33); THESIS.md:53, :278, :283 | **[V]** The Notes end at 8/27 and carry *"Re-examine if the transcript
+        AGENTS/OTTO/research/2026-10-19_forecast-repair/ledger-before.tsv:6  [8/28]
+           OTTO-07	At least one subprime ABS shelf halts issuance	15% [2026-07-25] (was 55% [2026-02-23])	2026-02-23	2026-12-31	OPEN		All major shelves
+        AGENTS/OTTO/research/2026-10-19_forecast-repair/ledger-before.tsv:19  [8/28]
+           OTTO-33	A corporate counterparty NOT on OTTO's current named list (banks JPM/5-3/BCS/Regions/MTB/OBK/TFIN; entities Vervent/ACV Capital/Wilm
+        AGENTS/OTTO/research/outputs/RP-OTT-5.1_CRMT_TRICOLOR_PREREGISTERED_LETTERS.md:240  [8/28]
+           | **8/14** | **Chu's motion to dismiss DENIED**; bill of particulars **granted in part** — government must confirm an exhaustive securitizat
+        AGENTS/OTTO/research/outputs/RP-OTT-5.1_CRMT_TRICOLOR_PREREGISTERED_LETTERS.md:245  [8/28]
+           **Re-dated, with the reason:** the next *docketed* observables are **Dec 4** (Goodgame sentencing control date, Castel) and **Dec 9** (Final
+        AGENTS/OTTO/research/outputs/RP-OTT-5.1_CRMT_TRICOLOR_PREREGISTERED_LETTERS.md:259  [8/28]
+           | 3 | **Graded 2026-09-02 (this document).** Next check: the Counts 7–8 securitization list (~8/28, UNVERIFIED) | SDNY docket / Inner City P
+        AGENTS/OTTO/thesis/PREDICTIONS.tsv:6  [8/28]
+           OTTO-07	At least one subprime ABS shelf halts issuance	15% [2026-07-25] (was 55% [2026-02-23])	2026-02-23	2026-12-31	OPEN		All major shelves
+        AGENTS/OTTO/thesis/PREDICTIONS.tsv:19  [8/28]
+           OTTO-33	A corporate counterparty NOT on OTTO's current named list (banks JPM/5-3/BCS/Regions/MTB/OBK/TFIN; entities Vervent/ACV Capital/Wilm
+        AGENTS/OTTO/workbook/ML.tsv:215  [8/28]
+           ML-OTTO-214	2026-08-03	017	Tricolor criminal / trial date	Catalyst Resolution	[CONF SDNY 1:25-cr-00579 minute entry 2026-07-29] JAN 25 2027 
+        AGENTS/OTTO/workbook/ML.tsv:264  [8/28]
+           ML-OTTO-263	2026-09-02	021	Tricolor privilege chain	🔴 A catalyst row was re-keyed FORWARD across the window in which its event had already f
+        AGENTS/OTTO/workbook/ML.tsv:278  [8/28]
+           ML-OTTO-277	2026-09-24	023	OTTO-12 warehouse-lender exit	First dated search attempt in 155 days: NO major warehouse-lender exit found; the n
+        AGENTS/OTTO/workbook/ML.tsv:297  [8/28]
+           ML-OTTO-296	2026-10-14	029	OTTO-33 / Tricolor criminal discovery	Prediction re-examine	Re-examined on the row's own ~9/28 trigger, 16 days l
+        AGENTS/OTTO/workbook/ML.tsv:298  [8/28]
+           ML-OTTO-297	2026-10-14	029	EART 2026-4 / OTTO-07	Shelf evidence	EART 2026-4 ISSUED: closing 8-Ks 8/28 (EFCAR, LLC) and a first 10-D 2026-09-
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (9)
+        AGENTS/OTTO/docket/CATALYSTS_ARCHIVE.tsv:20  [8/28]  (CATALYSTS_ARCHIVE.tsv is a HISTORY/ARCHIVE-class file — a dated RECORD is expected to hold superseded values; verify before treating as stale)
+           2026-08-31	ENTRY of the First Brands CONVERSION ORDER — STILL NOT VERIFIED at 2026-09-02; re-dated with reason — ✅ RESOLVED 2026-09-30 (orde
+        AGENTS/OTTO/docket/CATALYSTS_ARCHIVE.tsv:22  [8/28]  (CATALYSTS_ARCHIVE.tsv is a HISTORY/ARCHIVE-class file — a dated RECORD is expected to hold superseded values; verify before treating as stale)
+           2026-09-04	RETIRED 2026-09-02 — Tricolor privilege chain FIRST OBSERVABLE OUTPUT FIRED EARLY on 08-07 and 08-14, inside the window this row 
+        AGENTS/OTTO/docket/CATALYSTS_ARCHIVE.tsv:30  [8/28]  (CATALYSTS_ARCHIVE.tsv is a HISTORY/ARCHIVE-class file — a dated RECORD is expected to hold superseded values; verify before treating as stale)
+           2026-08-17	EART 2026-4 (Exeter) ABS new-issue FWP / pricing window - FIRED 8/17, STILL UNSWEPT at 10d — ✅ SWEPT 2026-10-14: ISSUED (closed 8
+        AGENTS/OTTO/docket/CATALYSTS_ARCHIVE.tsv:37  [8/28]  (CATALYSTS_ARCHIVE.tsv is a HISTORY/ARCHIVE-class file — a dated RECORD is expected to hold superseded values; verify before treating as stale)
+           2026-10-01	Tricolor Counts 7-8 EXHAUSTIVE SECURITIZATION LIST — still UNVERIFIED (due ~8/28, 31d past at 9/28). Date = next OTTO CHECK, not 
+        AGENTS/OTTO/docket/CATALYSTS_ARCHIVE.tsv:48  [8/28]  (CATALYSTS_ARCHIVE.tsv is a HISTORY/ARCHIVE-class file — a dated RECORD is expected to hold superseded values; verify before treating as stale)
+           2026-10-21	OTTO-07 full shelf_halt_monitor.py re-run; EART2026-4 already issued (FWP sweep completed10/14)	Run scripts/shelf_halt_monitor.py
+        AGENTS/OTTO/workbook/STATUS_archive_20260827.md:119  [8/28]  (STATUS_archive_20260827.md is a HISTORY/ARCHIVE-class file — a dated RECORD is expected to hold superseded values; verify before treating as stale)
+           | **Aug 7** | Tricolor criminal — **privilege-log schedule** (log 8/7 → gov't 20 exemplars 8/14 → defense 8/21 → gov't 8/28 → reply 9/4) | ⚪
+        AGENTS/OTTO/research/2026-10-19_quickwins/calendar_before.tsv:8  [8/28]  (dated TSV row (2026-10-01) — HISTORY-ROW candidate: a time-series capture holds the value AS OF its date; a refresh would corrupt the series)
+           2026-10-01	Tricolor Counts 7-8 EXHAUSTIVE SECURITIZATION LIST — still UNVERIFIED (due ~8/28, 31d past at 9/28). Date = next OTTO CHECK, not 
+        AGENTS/OTTO/research/2026-10-19_quickwins/calendar_before.tsv:22  [8/28]  (dated TSV row (2026-10-21) — HISTORY-ROW candidate: a time-series capture holds the value AS OF its date; a refresh would corrupt the series)
+           2026-10-21	OTTO-07 shelf re-run (shelf_halt_monitor.py) + EART 2026-4 FWP sweep — the STATUS-promised dated read	Run scripts/shelf_halt_moni
+        … +1 more 🟠 hit(s) on [8/28] across 4 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+     🟡 in MAIL, point-in-time — usually no action (2: OTTO)
+     🟢 cleared: marker-adjacent / next to new value / frozen file (3)  [--show-handled to audit]
+
+  🔴 31 stale reference(s) on YOUR OWN surfaces. You are the owner: fix them in place this session — no packet, nobody else to tell. Fix by PATTERN, not by the line list above (a line-targeted sweep left a hit on the highest-blast-radius surface three times in one night).
+==================================================================
+

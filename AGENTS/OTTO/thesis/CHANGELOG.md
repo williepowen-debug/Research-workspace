@@ -13,6 +13,12 @@ changes (those live in `MAINTENANCE.md`).
 
 **Format:** reverse-chronological. Each entry: `### YYYY-MM-DD — headline`, then **Was → Is**, **Trigger**, **Touches**, and any calibration note. *(Un-fused from the first entry heading 2026-08-14 — the sentence had been concatenated onto an entry title since the v1.2 pass, so the newest entry always inherited the words "Format: reverse-chronological. Each entry:" as part of its heading.)*
 
+### 2026-10-25 — s037 financing access survives while selected cost and protection increase
+
+**Was → Is:** current financing-spread evidence stopped at a June deal → a dated same-issuer comparison shows Exeter summer spread stability/tighter AAA, but Bridgecrest July–October spread widening and higher all-in yield; CPS coupons and initial protection increase while financing completes. Read the pricing table and structural limits in `../research/2026-10-25_financing-terms/READOUT.md`; no market-wide estimate or fraud-causal claim. This sharpens the distinction between access and price without reopening the systemic funding leg or changing its colour/conviction. Ally's secondary call adds a management warning on newer cohorts, not quantified repossession severity or executed Carvana purchases.
+
+**Trigger:** Will commissioned current terms and one Ally call pass via PROME `0c0221120`. **Touches:** STATUS V7, THESIS bounded addendum, prediction evidence/date correction, ML, brief and WALTER/PROME packets. Original probabilities, resolved grades, SDT rules and October30 final v1.6 timing remain unchanged. EART2026-4 closing corrected August28→August31 from primary Item1.01; CPS's headline weighted coupons remain inconsistent with its own amounts/rates, so no blended effective-cost assertion is adopted.
+
 ### 2026-10-19 — s034 forecast/provenance repair and bounded thesis reconciliation
 
 **Was → Is.** Warehouse-exit55% held without calibration → **25% OPEN, coarse subjective judgment**, direct CACC extension/tighter spread and CPS added capacity weigh against broad retreat. Private/annual gaps and VRMUNKNOWN prevent a negative event grade, not a reason to favor exit. Original55% remains eventual scoring vintage; whole-loan arrangement separate. Credit-washingOPEN60% → **STUCK**, probability/terms/deadline unchanged: candidate alerts/consortium universe known, literal prevalence/H2 observation absent; no post-hoc dead-zone repair.
