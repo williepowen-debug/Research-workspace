@@ -4,7 +4,7 @@
 **Domain:** Auto fraud, subprime collateral, conditional financing access and named-counterparty transmission.
 **Thesis version:** v1.5 plus October19 and October25 bounded addenda; final v1.6 remains prospective October30.
 **Recent thesis pivots:** no conviction pivot in s039; accepted dated factual reconciliation/source limits at Phase2 READOUT. October25 s037: selected new-issue cost rises at Bridgecrest/CPS while access persists; Exeter spread counterexample remains. No systemic-leg, probability, colour or threshold change. October19 forecast/rule corrections stand.
-**As of:** 2026-10-25 23:17 ET | STATUS commit: `63cb6063e9130d8d870d86e61d5a18aee02963a6`
+**As of:** 2026-10-25 23:26 ET | STATUS commit: `63cb6063e9130d8d870d86e61d5a18aee02963a6`
 
 ---
 
@@ -47,6 +47,8 @@
 - Convergence33/50 is an index over correlated local colours, not probability or independent breadth. STATUS owns cells/arithmetic; THESIS owns conviction and rules.
 
 ## CALIBRATION
+
+- **s039 final OTS04 claim-site check:** WHY NOW now labels the rationale’s vintage and separates July disconfirmation from selected s037 repricing. LOW/DISCONFIRMED, no established broad/fraud-caused transmission and October30 review remain. No new source or grade; exact two-span diff/history at Phase2 OTS04_FINAL_PROSE.
 
 - **s039 accepted stale-file repair:** mixed bank total retired, historical examples/date pointers and metadata reconciled. OR1 is CLOSED only at inspected990753244/review566c749dc; OT1/finalv1.6 staysOctober30. Watchlist current-rating/old-ECNL gaps, some bank bases and exact Experian split remain explicit. Full docket/audio/TrustV still missing. Actual lastSDT runAugust14; after-Oct14/19-refresh cadence was not satisfied by a recorded run. November remains scheduled second quarterly observation, original consequence3total. No new verdict, probability, colour, threshold, calendar date, causal-confidence or executable producer change.
 
