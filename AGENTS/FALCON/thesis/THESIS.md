@@ -1,9 +1,10 @@
 # FALCON THESIS — v3.0
 
 **Version:** 3.0 (2026-10-01, `falcon-1001` touch 2, DOCKET L540). The rewrite was triggered by FAL-05 resolving FAILED on 9/28. v2.2 (2026-09-08) is in git history. That chain runs: v2.1 (7/30, molecule split) · v2.0 (7/27, first FALCON-authored).
-**Status:** 🔴 ACTIVE WAR, **War Day 216** (Feb 28 = Day 1; compute it, never copy it).
+**Structural snapshot:** 🔴 ACTIVE WAR. Evidence tables below are dated October 1 unless stated; STATUS.md governs current state. Compute war day from February 28 = Day 1, never carry a number as current.
+**Maintenance review:** 2026-10-26; structure and forecast letters unchanged.
 **Scenario ladder:** **B 1 / C 14 / D 85** · Convergence 43/50 (saturated: 7 of 10 vectors at ceiling). ⚠️ **`STATUS.md` is canonical for marks; on conflict STATUS wins.** This file holds the structure.
-**Conviction:** MEDIUM on the regime call (two true statements, below) · MEDIUM on the marks (D 85 is a registered-rule mark, not a judgment on this week) · **the ladder above 85 now has one registered rung:** production rung D 85→92, registered by Will 10/01 21:40 ET (WQ-355; targeting threshold, minor-damage hits count; letter `workbook/EXIT_PROTOCOL.md` §2a).
+**Conviction:** MEDIUM on the regime call (two true statements, below) · MEDIUM on the marks (D 85 is a registered-rule mark, not a judgment on this week) · **the ladder above 85 now has one registered rung:** production rung D 85→ 92, registered by Will 10/01 21:40 ET (WQ-355; targeting threshold, minor-damage hits count; letter `workbook/EXIT_PROTOCOL.md` §2a).
 
 ---
 
@@ -36,9 +37,9 @@ The question since v2.0 has been *"does the war's damage ever become lost barrel
 | ⓶ | **Facility supply loss:** damage → stated offline capacity → price | FIRED for gas and product; crude production FIRED in April (600 kbpd stated), quiet since. **Test = FAL-06 route (b)** |
 | ⓷ | **Actor proliferation:** new belligerents reach the asset class | Four axes: US→Iran (hulls) · Iran→Gulf allies · Houthi→Saudi · Iraqi militias→Saudi (Petroline 9/10, US-attributed to KH). The 9/30 US exit from Iraq frees axis (d). **A fifth axis = rewrite trigger** |
 | ⓸ | **Export-chain interdiction:** US strikes on Iranian export hulls → sanctioned barrels leave | Dormant since 9/8 (no US strike since). FLOW-FALCON-03. Out of FAL-06's perimeter by design |
-| ⓹ | 🆕 **Route loss with re-routing:** a terminal or pipeline halt → export redistribution → partial or zero net loss | **FIRED 9/11–9/28 (Petroline/Yanbu).** It is what route (c) of FAL-05 actually measured. Its signature: a single-terminal zero, plus Bab tanker counts swinging with Yanbu (TankerMap 11.1/day, +144% w/w after the restart). It confounds GATE-FALCON-001 leg 2, handled in the proposed basis |
+| ⓹ | 🆕 **Route loss with re-routing:** a terminal or pipeline halt → export redistribution → partial or zero net loss | **FIRED 9/11–9/28 (Petroline/Yanbu).** It is what route (c) of FAL-05 actually measured. Its signature: a single-terminal zero, plus Bab tanker counts swinging with Yanbu (TankerMap 11.1/day, +144% w/w after the restart). It confounds GATE-FALCON-001 leg 2, handled in the registered provisional leg-2 basis (WQ-353) |
 
-**What would convert ⓹ into ⓶ for crude:** a second artery lost while the first is down (Petroline AND Hormuz/STS hubs), or a hit on production itself. **The production-hit class is the gap the 10/01 rung proposal addresses.**
+**What would convert ⓹ into ⓶ for crude:** a second artery lost while the first is down (Petroline AND Hormuz/STS hubs), or a hit on production itself. **The production-hit class is addressed by the rung registered October 1 (WQ-355); current state is ARMED, NOT FIRED.**
 
 ---
 
@@ -48,7 +49,7 @@ The question since v2.0 has been *"does the war's damage ever become lost barrel
 |---|---:|---|
 | **B — Deal / verified reopen** | 1 | US reply to Iran's 7-day plan delivered via Qatar (Doha 9/29); the gap is sequencing; no date, no framework. Flip up needs a DATED framework + verified reopening steps |
 | **C — Grind** | 14 | Hull hits resumed 9/28–29 after a 5-day lull; Houthi salvos intercepted; talks alive on a mediated track |
-| **D — Damage regime** | 85 | Registered-rule mark (FAL-05 FAILED ⇒ rung (b)). Its triggering event is reversing (Yanbu loading again, 9/28). It reverts only via a downgrade trigger, by design. **Above 85: the production rung D 85→92 (registered 10/01, armed, not fired)** |
+| **D — Damage regime** | 85 | Registered-rule mark (FAL-05 FAILED ⇒ rung (b)). Its triggering event is reversing (Yanbu loading again, 9/28). It reverts only via a downgrade trigger, by design. **Above 85: the production rung D 85→ 92 (registered 10/01, armed, not fired)** |
 
 ---
 
@@ -63,7 +64,7 @@ The question since v2.0 has been *"does the war's damage ever become lost barrel
 
 ## CROSS-AGENT LINKS
 
-- **BRENT:** net-loss arithmetic is yours; FAL-06 route (c) is graded from your Kpler/Vortexa reads where you hold them. The production rung, if registered, is a hit, not a loss.
+- **BRENT:** net-loss arithmetic is yours; FAL-06 route (c) is graded from your Kpler/Vortexa reads where you hold them. The registered production rung is a targeting test; it does not establish a supply-loss quantity.
 - **HAWK:** NEXUS_BRIEF carries the synthesis; Iraq after the 9/30 exit is your mark (VX-HAWK-IRAQ-01).
 - **HENRY:** D 85 is a rule mark; the fresh catalysts are the resumed hull hits and the unexplained Ghawar heat.
 - **PROME / Will:** both 10/01 asks RULED by Will 21:40 ET — production rung registered (WQ-355), leg-2 basis adopted PROVISIONAL (WQ-353). No trade (WQ-192 stand-down).
@@ -72,8 +73,10 @@ The question since v2.0 has been *"does the war's damage ever become lost barrel
 
 ## EXIT PROTOCOL STATUS (canonical: `workbook/EXIT_PROTOCOL.md` v3)
 
-Thesis kill **0/7**. D indicators **7 of 8 limbs lit or fired**. Ladder top: D 85, nothing registered above.
+Thesis kill **0/7**. D indicators **7 of 8 limbs lit or fired**. Current mark: D 85; production rung D 85→ 92 is registered and ARMED, NOT FIRED. Current evidence and data-age limits: STATUS.md.
 
 ---
 
-*Living document. **Next rewrite trigger (DATED; read at every closeout step 11):** FAL-06 resolving · Will's ruling on the production rung · a fifth belligerent axis · a dated Iran-Oman permanent-corridor framework · a third class-(iii) hull loss · or **2026-11-05**, whichever first. Routine mark moves belong in `STATUS.md`.*
+*Living document. **Next rewrite trigger (DATED; read at every closeout step 11):** FAL-06 resolving · a fifth belligerent axis · a dated Iran-Oman permanent-corridor framework · a third class-(iii) hull loss · or **2026-11-05**, whichever first. Routine mark moves belong in `STATUS.md`.*
+
+**Discharged trigger:** Will's October 1 production-rung ruling is already encoded above and in EXIT_PROTOCOL §2a; it is no longer a pending rewrite trigger. October 26 consistency pass changed navigation/state summaries only.

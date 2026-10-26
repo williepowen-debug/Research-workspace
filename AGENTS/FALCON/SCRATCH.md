@@ -9,6 +9,10 @@ B 1 / C 14 / D 85 HELD; convergence 43/50 retained. FAL-06 OPEN at 70%; FAL-07 O
 - UKMTO 182 relay: October 23 0839 UTC outbound tanker disabled, crew safe, published October 26. UKMTO 183 relay: October 26 vessel fire 63 NM SE Al-Faw, cause/hull/outcome unknown. Both original PDFs 403; VI-83/84 labelled RELAYED, no new sinking/mine attribution.
 - Saudi pump/airport impacts and Sirik alleged US counterstrike remain unverified. FAL-07 confirmation bar not met.
 
+## CLOSEOUT FILE REVIEW
+- Reconciled THESIS, EXIT_PROTOCOL and seven current VX summaries with the evening dashboard; preserved historical unchecked rows and before-images. Corrected MEMORY: FAL-06 registration is closed, the Yanbu proxy build remains unbuilt.
+- Production letter, vector threshold columns and OPEN prediction rows unchanged; no new research after 17:36 EDT. No new falsification or rewrite trigger met. See reports/2026-10-26_closeout-review.md and machine-readable checks.
+
 ## WHAT I DID
 - Saved official Oman lecture, IMO table, Pakistan NAVAREA 403/404 warning texts, Reuters talks body and secondary maritime reports. CTP October 26 path 404; AP body 403; limitations preserved.
 - Updated STATUS, VX-SUNK current value, VESSELS, CASUALTIES/CASUALTY_RATCHET (recorded killed 24 vs 7 current/prior windows), KB 340..347, prediction interim header. Archived old dashboard and computed casualty view verbatim.
@@ -34,4 +38,4 @@ FAL-06/FAL-07 remain OPEN; no dated resolution due today. EXIT rewrite trigger n
 BRENT daytime reply already consumed at KB 339; now moved to processed after sender commit verified. No new WALTER top-level handoffs found at opening sweep. Evening packets written; live notification/recipient acknowledgment recorded at delivery, not inferred from Git.
 
 ## PENDING PUSH / GIT
-Pull/push deferred for foreign in-flight BRENT/VULCAN work and WALTER caches. Own exact-path commits only. Native thread discovery now available; use verified owner sessions for packet doorbells, never a duplicate launch.
+Pull deferred for foreign in-flight BRENT work and WALTER caches. Own exact-path commits only. Closeout safe-push will be attempted without pulling or changing foreign work; its receipt governs publication status. Native thread discovery now available; use verified owner sessions for packet doorbells, never a duplicate launch.

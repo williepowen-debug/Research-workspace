@@ -1,0 +1,37 @@
+{
+  "thesis/THESIS.md": {
+    "before_sha256": "fe89da4b4e0f41c6d9998e8b9ed651c08758b499d5b266380ae5390bceae0af1",
+    "archive": "AGENTS/FALCON/archive/2026-10-26_closeout_before_thesis_THESIS.md"
+  },
+  "workbook/EXIT_PROTOCOL.md": {
+    "before_sha256": "7b55b71c9a8b5e4d75296050ce2672f4ae30e586ed6147f2eb7fe59506fd8970",
+    "archive": "AGENTS/FALCON/archive/2026-10-26_closeout_before_workbook_EXIT_PROTOCOL.md"
+  },
+  "workbook/VX.tsv": {
+    "before_sha256": "c057bd5b7da91dc0f69341f2db99b9a80b83e7f0e68ecad162cfc3c7bdd6c84b",
+    "archive": "AGENTS/FALCON/archive/2026-10-26_closeout_before_workbook_VX.tsv"
+  },
+  "MEMORY.md": {
+    "before_sha256": "69ed97b48a23354093627acf9e60a1c07885863f69b08c0ed5bbc6b578006b95",
+    "archive": "AGENTS/FALCON/archive/2026-10-26_closeout_before_MEMORY.md"
+  },
+  "production_letter_unchanged": true,
+  "open_prediction_row_sha256": {
+    "FAL-06": "97cbb51844b780c997ec9b088c9625705fbf7a02473ce57c6aad64b897c6e99e",
+    "FAL-07": "a1d95ca3787d1158171d9f9181c833d1a1abab4c57a653eb252536bb838428e8"
+  },
+  "reviewed_at": "2026-10-26T17:47-04:00",
+  "archive_hashes_verified": true,
+  "vector_threshold_columns_unchanged": true,
+  "open_prediction_rows_unchanged_against_HEAD": true,
+  "tsv_widths_valid": true,
+  "final_reviewed_at": "2026-10-26 17:50 EDT",
+  "checks": {
+    "read_cap": "rc0; rotation_due=0; charter heuristic perimeter only",
+    "weekday": "rc0; 3 files",
+    "corrections": "rc0; no unreceipted named rows",
+    "ledger_nudge": "FLOW/WARRISK event-driven; attempt clocks October26, data clocks unchanged",
+    "warrisk": "rc1 expected; 5 expired, 0 current; Bab CANNOT-FIRE",
+    "git_diff_check": "passed"
+  }
+}

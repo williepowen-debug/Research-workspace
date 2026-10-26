@@ -1,7 +1,9 @@
 # FALCON — Exit Protocol & Falsification Criteria (v3)
 
 **v3 REWRITTEN 2026-10-01** (`falcon-1001` touch 2; DOCKET L540; the §5 trigger fired 9/28 on "FAL-05 resolving"). **v2 (2026-07-30 → 2026-09-28, all amendments) archived VERBATIM at `archive/EXIT_PROTOCOL_archive_2026-10-01.md`.** Before writing this file, that archive was checked by `grep -F` for the D 75→85 letter's distinctive strings.
-**Amended 2026-10-01 ~21:5x ET:** production rung D 85→92 REGISTERED by Will (WQ-355) and encoded at §2a; no other change.
+**Closeout reviewed 2026-10-26:** current marks and evidence are in STATUS.md; §2a registered letter unchanged. Historical state tables retain their dates.
+
+**Amended 2026-10-01 ~21:5x ET:** production rung D 85→ 92 REGISTERED by Will (WQ-355) and encoded at §2a; no other change.
 **This is FALCON's live falsification rail.** `STATUS.md` is canonical for marks; `thesis/PREDICTIONS.tsv` is canonical for prediction text. Where a condition is also a prediction, this file REFERENCES it (HAW-10) and never restates it.
 **Why v3:** v2's §1 tested "the CRUDE leg of the premium regime", and that leg is falsified on the letter (FAL-05 FAILED 9/28). A kill table framed around a falsified premise needed re-framing, not annotation. v2 had also grown to 44,914 B, over the fleet read cap, through in-place amendments.
 
@@ -37,12 +39,12 @@
 
 ## 2. SCENARIO LADDER — 3-tier B/C/D (no Scenario A)
 
-**Marks B 1 / C 14 / D 85** (re-marked 2026-09-28 by the registered rung; reviewed and HELD 2026-10-01). Mark moves are by registered letter only. A mark reverts only via a registered downgrade trigger.
+**Marks B 1 / C 14 / D 85** (re-marked 2026-09-28 by the registered rung; last full review HELD 2026-10-21; next due 2026-10-28). Mark moves are by registered letter only. A mark reverts only via a registered downgrade trigger.
 
 | Move | Registered trigger | Status 2026-10-01 |
 |---|---|---|
 | D → C | Strikes halt 72h two-sided (necessary, not sufficient: HAW-06) | ❌ Hull hits 9/28–29 ended the 9/24–27 lull |
-| C → B | DATED Oman/Doha framework AND verified Hormuz reopening steps | ❌ Diplomacy = MEDIATED EXCHANGE LIVE, NO FRAMEWORK; permanent-corridor window 9/25–10/26 (DOCKET L229), no date |
+| C → B | DATED Oman/Doha framework AND verified Hormuz reopening steps | ❌ October 26 close: L229 LAPSED / NOT VERIFIED AS AGREED. Oman describes a temporary outline with political obstacles; no qualifying permanent agreement or verified reopening. KB-340; evening report. |
 | B → below 5 | Strikes resume | ✅ fired 7/29 |
 | C → D | Resumed strikes OR a confirmed capacity loss | ✅ fired 7/27–29 |
 | D → 75 (trip) | class-(iii) hull total loss | ✅ fired 9/5 (M/T Kylo) |
@@ -76,12 +78,12 @@
 | 2 | Second salvo at Yanbu, or the Petroline | ✅ FIRED 9/11 (Petroline limb, MoE shutdown). No repeat clause |
 | 3 | US strike tempo NIGHTLY, or the US target set crosses into energy | ✅ energy limb FIRED 9/5 (tankers) · ❌ nightly limb (no US strike since 9/8) |
 | 4 | Iraq/PMF backlash turns kinetic; next rung = a damaging follow-on | 🔴 firing on the actor axis since 7/27 · ❌ no damaging follow-on at the 9/30 withdrawal deadline (US out of federal Iraq 9/30) |
-| 5 | Casualty ratchet (`domain/CASUALTY_RATCHET.md` §2) | 🔴 **LIT 2026-10-14 — RED RATE-STEP on the fresh window:** killed 9/15–10/14 = 21 vs 8/16–9/14 = 6 (3.5×; robust excl. contested Sirik 21 vs 1); ORANGE (i) also lit (injured 376 vs 151); class step unfired. ⚠️ [10/14 self-catch] the "no US death since 6/27" baseline is FALSE — 2 US service members KILLED in Jordan 7/17 (CENTCOM; CAS-2026-032, KB-294); the MILITARY_US class-step is RULED B by Will 2026-10-14 22:18 ET (WQ-434, verbatim "Approve 434", PROME/proposals/2026-10-14_wq434-RULED.md): the class-step is anchored to 9/8 — a US death on/after 9/8 = RED. Driver: GACA's KKIA 10/10 count (12 killed / 309 injured) + 10/11 (1 / 11). Computed from `CASUALTIES.tsv` (KB-FALCON-278). ⟵ PRIOR: 🟡 **10/07 recompute: RATE-STEP NOT LIT on the fresh window** (killed 5 in 9/08–10/07 vs 11 in 8/09–9/07; it was lit at registration 9/8 on Aug–Sep); YELLOW (3 GCC-civilian deaths 10/07); class step unfired (no US/GCC military killed); 158-26 casualty count unknown |
-| 6 | Vessel confirmed SUNK / mine detonation on a hull | ✅ FIRED 9/5 · **total losses 5** (dhow 8/4 · Kylo 9/5 · Riesco 9/8 · **CAPE DAO** — struck 9/23, IMO "Sunk" as at 10/14 · **GFS PRIDE** 10/13; the last two class-(ii), KB-276/277); **no mine detonation on a hull established** (GFS PRIDE: MPA "unknown projectile"; the IRGC mine claim names no ship); no repeat clause |
-| 7 | Bypass breakage: Fujairah+Sohar below the ROLLING floor AND transits collapsed — read the floor from a live `bypass_watch.py` run, never from a document | 🟢 HOLDING (122,458 vs 29,590 t/d, print 9/25, run 10/01) |
+| 5 | Casualty ratchet (`domain/CASUALTY_RATCHET.md` §2) | 🔴 RED recorded-killed rate-step, recomputed October 26: 24 September 27–October 26 versus 7 August 28–September 26 (3.43x). Injury comparison incomplete; no fresh firm ORANGE ratio. WQ-434 class-step anchor 9/8 unchanged. See domain/CASUALTY_RATCHET.md §3 and CASUALTIES.tsv; historical computed prose archived at archive/2026-10-26_closeout_before_workbook_EXIT_PROTOCOL.md. |
+| 6 | Vessel confirmed SUNK / mine detonation on a hull | ✅ Fired September 5, no repeat clause. October 26 census 5 confirmed (class i1 / ii2 / iii-B2 / iii-A0); Cape Dao dispute resolved on own IMO Sunk and NAVAREA 403/26, KB-341. Old non-tanker episode, WQ-431 HOLD. No named-hull mine detonation established by the reviewed evidence. |
+| 7 | Bypass breakage: Fujairah+Sohar below the ROLLING floor AND transits collapsed — read the floor from a live `bypass_watch.py` run, never from a document | Current condition UNKNOWN: evening rerun has no newer print than October 16 (10 days old); that vintage HOLDING 92,073 versus rolling floor 32,115 t/day. Not a current all-clear. Script run and source limits in evening report. |
 | 8 | WC-Saudi war-risk rising from 0.1% (transit → origin migration) | 🔴 LIT 9/28 (~3%, Reuters 9/25) |
 
-**Lit/fired: #1 #2 #3(energy) #4(actor) #5 #6 #8 = 7 of 8 limbs** (10/14: #5 re-lit on its fresh window; 6 of 8 on 10/07; 7 of 8 on 10/01). Only #7 (bypass breakage) is unlit — HOLDING 96,309 vs floor 31,639 t/d, print 10/09, run 10/14. Separation preserved: an indicator firing asserts no barrels; barrels belong to FAL-06.
+**Indicator posture:** seven previously lit/fired limbs remain carried; #5 RED rechecked on October 26 windows, #6 Cape Dao confirmation reconciled. #7 has no fresh observation, so current bypass condition is UNKNOWN. No barrels are inferred from indicator counts; FAL-06 governs net-loss evidence.
 
 ---
 
@@ -97,8 +99,8 @@
 
 ## 5. TIME-BASED REVIEW (the reader of every date below = closeout step 11, which compares each date to today)
 
-- **Scenario review every 7 days.** Last: **2026-10-14 (HELD B 1 / C 14 / D 85**; class-(ii) losses ×2 proposed to PROME with a HOLD recommendation; casualty ratchet RED; production rung not fired — `reports/2026-10-14_catchup-weekly-review-gate001-losses-ratchet.md`). **Next due 2026-10-28** (STATUS records October 21 review HELD; pointer reconciled October 26). Prior: 2026-10-07 (HELD), 2026-10-01 (HELD).
-- **Rewrite trigger (DATED):** FAL-06 resolving (by **2026-11-05**) · a fifth belligerent axis · a dated Iran-Oman PERMANENT-corridor framework · a third class-(iii) hull loss · or **2026-11-05**, whichever is first. *(Checked 2026-10-14: none fired — the two new losses are class (ii), not (iii); class-(iii) count stays 2, both (iii-B).)*
+- **Scenario review every 7 days.** Last full review: **2026-10-21, HELD B 1 / C 14 / D 85** (STATUS canonical, prior dashboard preserved at `domain/sources/STATUS_before_2026-10-26_evening.md`). **Next due 2026-10-28.** October 26 was a source update and closeout consistency review, not an early weekly review.
+- **Rewrite trigger (DATED):** FAL-06 resolving (by **2026-11-05**) · a fifth belligerent axis · a dated Iran-Oman PERMANENT-corridor framework · a third class-(iii) hull loss · or **2026-11-05**, whichever is first. *(Checked 2026-10-26: none newly met; Cape Dao is an existing class(ii) episode, class(iii) stays 2, both iii-B; L229 has no qualifying permanent agreement; FAL-06 remains OPEN.)*
 - *Record:* the former trigger "Will ruling on the production rung" fired 2026-10-01 21:40 ET (registered) and was discharged the same evening by the §2/§2a edit; v3 had been written that day anticipating either outcome, so no wider rewrite was owed.
 - **Cap discipline:** this file is a boot-adjacent reference; keep it under the read cap by moving resolved detail to `archive/`. Do not amend it in place past the cap (the v2 failure).
 

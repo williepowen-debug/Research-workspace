@@ -1,0 +1,109 @@
+# FALCON — Exit Protocol & Falsification Criteria (v3)
+
+**v3 REWRITTEN 2026-10-01** (`falcon-1001` touch 2; DOCKET L540; the §5 trigger fired 9/28 on "FAL-05 resolving"). **v2 (2026-07-30 → 2026-09-28, all amendments) archived VERBATIM at `archive/EXIT_PROTOCOL_archive_2026-10-01.md`.** Before writing this file, that archive was checked by `grep -F` for the D 75→85 letter's distinctive strings.
+**Amended 2026-10-01 ~21:5x ET:** production rung D 85→92 REGISTERED by Will (WQ-355) and encoded at §2a; no other change.
+**This is FALCON's live falsification rail.** `STATUS.md` is canonical for marks; `thesis/PREDICTIONS.tsv` is canonical for prediction text. Where a condition is also a prediction, this file REFERENCES it (HAW-10) and never restates it.
+**Why v3:** v2's §1 tested "the CRUDE leg of the premium regime", and that leg is falsified on the letter (FAL-05 FAILED 9/28). A kill table framed around a falsified premise needed re-framing, not annotation. v2 had also grown to 44,914 B, over the fleet read cap, through in-place amendments.
+
+---
+
+## 0. THE REGIME, STATED AS TWO TRUE STATEMENTS (carry both; never let one rescue the other)
+
+| Statement | Basis |
+|---|---|
+| **On the letter:** the crude premium regime is falsified. FAL-05 (registered crude-leg test) FAILED on route (c): Yanbu crude loadings were suspended ≥72h from 9/11 on two dark-fleet-capable vendors. The D 75→85 rung fired; **D 85 stands** | Kpler blog 9/17 · Vortexa via Argus/OilPrice 9/15 · `reports/2026-09-28_fal05-FAILED-route-c-and-d85-rung.md` |
+| **On the composition:** the 9/11–9/28 loss was a **ROUTE loss**, not a demonstrated **BARREL** loss. Aggregate Saudi crude reached market by re-routing | Sept Saudi exports >5 mb/d (Bloomberg 9/28) · Aramco CEO 9/24 *"We never stopped"* · Kpler 7-day Saudi loadings 8.5 mb/d, "highest of the war" (AGBI 9/30) |
+
+**Molecule split (unchanged since 7/30):** GAS supply-loss since 2026-03-24 (Ras Laffan FM) · PRODUCT supply-loss since 2026-07-27 (Jazan) · CRUDE: route loss 9/11–9/28 (letter fired); net barrel loss NOT demonstrated → **tested by FAL-06** (registered 2026-10-01, resolves 2026-11-05).
+**Four quantities, never collapsed:** nameplate ≠ routed flow ≠ stated offline capacity ≠ net supply loss.
+
+---
+
+## 1. THESIS KILL — exit 100% of the geopolitical overlay (all 7 required; status 2026-10-01)
+
+| # | Kill condition | Status |
+|---|---|---|
+| 1 | Ceasefire signed AND credibly held 72h+ (a pause is not a ceasefire) | ❌ Hull hits resumed 9/28–9/29; US reply to Iran's 7-day plan delivered via Qatar 9/29 — an exchange, not a ceasefire |
+| 2 | Hormuz verifiably reopened: mine clearance complete AND transits >50% of 88/day for 10 days | ❌ PortWatch 1/88 (9/27, own run 10/01, DEEPENING); Windward 16–17/day 9/28–29 (vendors disagree ~17×) |
+| 3 | War-risk normalized: Hormuz hull premium back toward 1–3% | ❌ 6–9% (Reuters 9/25); WC-Saudi ~3% vs 0.1% baseline |
+| 4 | Brent sustained below $80 (BRENT's number; "sustained" duration bar still owed) | ❌ Dec ~$100.83 intraday 10/01 (vendor, `fetch.py`; not a settle) |
+| 5 | Blockade lifted | ❌ In effect |
+| 6 | Emergency Fed facility (BTFP 2.0 class) — overrides all stress | ❌ None |
+| 7 | Iran-aligned axes stand down (Tehran, Houthi, Iraqi militias) | ❌ None; KH 10/01 "the resistance has won this round" after the US left Iraq 9/30 |
+
+**0/7.** Two-clock insight (durable, from March; archive §6): the headline trade unwinds in minutes, physical normalization (demining, insurance, re-contracting) lags months. Do not exit the fundamental view on a headline.
+
+---
+
+## 2. SCENARIO LADDER — 3-tier B/C/D (no Scenario A)
+
+**Marks B 1 / C 14 / D 85** (re-marked 2026-09-28 by the registered rung; reviewed and HELD 2026-10-01). Mark moves are by registered letter only. A mark reverts only via a registered downgrade trigger.
+
+| Move | Registered trigger | Status 2026-10-01 |
+|---|---|---|
+| D → C | Strikes halt 72h two-sided (necessary, not sufficient: HAW-06) | ❌ Hull hits 9/28–29 ended the 9/24–27 lull |
+| C → B | DATED Oman/Doha framework AND verified Hormuz reopening steps | ❌ Diplomacy = MEDIATED EXCHANGE LIVE, NO FRAMEWORK; permanent-corridor window 9/25–10/26 (DOCKET L229), no date |
+| B → below 5 | Strikes resume | ✅ fired 7/29 |
+| C → D | Resumed strikes OR a confirmed capacity loss | ✅ fired 7/27–29 |
+| D → 75 (trip) | class-(iii) hull total loss | ✅ fired 9/5 (M/T Kylo) |
+| **D 75 → 85** | (a) iii-A total loss · (b) FAL-05 FAILS · (c) hit IN a GCC port/anchorage · (d) US service member KILLED on/after 9/8. **Canonical letter, immutable, verbatim: `archive/EXIT_PROTOCOL_archive_2026-10-01.md` §2** (registered by Will 2026-09-08; clarifications `reports/2026-09-08_theater-catchup-and-ladder-proposal.md` §3.5) | ✅ **FIRED 2026-09-28 on (b).** One move; cannot fire again |
+| **D 85 → 92 (production rung)** | **REGISTERED 2026-10-01 by Will** (21:40 ET, verbatim *"all with your recs"*, WQ-355; FALCON's §1a draft as written; minor-damage hits COUNT). **Canonical letter, immutable: §2a below.** | ARMED · not fired |
+
+### 2a. Production rung D 85 → 92 — registered letter (revision only via PROME → Will, prospective, with a base rate)
+
+**FIRES** when a **hostile-action strike** on a **Gulf-ally crude PRODUCTION-class facility** is **confirmed by a counting source**, strike on/after **2026-09-29**. **A TARGETING threshold, not a damage threshold: a minor-damage hit (Abqaiq 7/27 class) COUNTS.**
+
+| Element | Letter |
+|---|---|
+| Gulf-ally | Saudi Arabia · UAE · Kuwait · Qatar · Bahrain · Oman |
+| Production-class (IN) | oil/condensate field wellheads and gathering · gas-oil separation plants (GOSPs) · central processing facilities · crude stabilisation plants (Abqaiq, Khurais CPF class) · offshore PRODUCTION platforms |
+| NOT production-class (OUT) | pipelines and pumping stations (route) · export terminals, SPMs, loading berths (route) · refineries (Jazan class) · gas plants, LNG trains · storage tanks · drilling rigs · tankers · power/desalination |
+| Counting sources (must confirm BOTH the hostile strike AND an IN-class facility) | the state (Saudi MoE/SPA/MoD · Kuwait MoD/KPC/KOC/KUNA · UAE MoD/ADNOC/WAM · QatarEnergy/QNA · BNA · ONA) · the operator (Aramco statement or Tadawul disclosure; ADNOC; KPC) · CENTCOM/DoD naming the facility · a named wire (Reuters/Bloomberg/AP) citing a named official OR ≥2 independent industry sources, and naming the facility class |
+| NEVER count | satellite thermal or plume imagery (FIRMS, Meteosat, Sentinel) · OSINT accounts · claimant media (Saba, Al-Masirah, IRNA, Tasnim, Fars, IRGC/Houthi statements, Yemen Press Agency; attribution only after a counting source confirms) · aggregators/Substacks · unverified video · prediction markets · a capacity share quoted as a loss |
+| Moves | **D 85 → 92; C 14 → 7; B stays 1** (floor, disclosed). One move; cannot fire again |
+| Does NOT | fire FAL-06 · touch §1 · constitute a trade signal — WQ-192's stand-down on new energy capital holds |
+| VOID | within 7 days of the fire, a counting source attributes the event to a non-hostile cause, or the confirming wire retracts ⇒ VOID, marks revert the same day. After 7 days, reversion only via the §2 downgrade triggers |
+
+⚠️ **Caveats that travel with this letter (WQ-355):** the base rate rests on **two past episodes** (April Khurais/Manifa · Abqaiq 7/27; ≈24% P(≥1 in 30 days)); the **counting-source list has not been independently reviewed**; the rung **moves scenario numbers only** — no trade follows, WQ-192 holds, FAL-06 is not fired by it. **The 9/29–9/30 Ghawar/Ain Dar-area heat stays NOT ESTABLISHED** (FIRMS and OSINT only; re-checked 10/01 ~21:5x ET, no counting source). Derivation and acceptance tests A1–A6: `reports/2026-10-01b_production-rung-proposal-fal06-rewrite.md` §1.
+
+---
+
+## 3. SCENARIO D CONFIRMATION INDICATORS (8; status 2026-10-01, #5 re-read 2026-10-07)
+
+| # | Indicator | State |
+|---|---|---|
+| 1 | Confirmed CRUDE capacity offline — governed by the live crude prediction's text (now **FAL-06**) | 🔴 LIT 9/28 on FAL-05's route-(c) fire; net barrels not demonstrated |
+| 2 | Second salvo at Yanbu, or the Petroline | ✅ FIRED 9/11 (Petroline limb, MoE shutdown). No repeat clause |
+| 3 | US strike tempo NIGHTLY, or the US target set crosses into energy | ✅ energy limb FIRED 9/5 (tankers) · ❌ nightly limb (no US strike since 9/8) |
+| 4 | Iraq/PMF backlash turns kinetic; next rung = a damaging follow-on | 🔴 firing on the actor axis since 7/27 · ❌ no damaging follow-on at the 9/30 withdrawal deadline (US out of federal Iraq 9/30) |
+| 5 | Casualty ratchet (`domain/CASUALTY_RATCHET.md` §2) | 🔴 **LIT 2026-10-14 — RED RATE-STEP on the fresh window:** killed 9/15–10/14 = 21 vs 8/16–9/14 = 6 (3.5×; robust excl. contested Sirik 21 vs 1); ORANGE (i) also lit (injured 376 vs 151); class step unfired. ⚠️ [10/14 self-catch] the "no US death since 6/27" baseline is FALSE — 2 US service members KILLED in Jordan 7/17 (CENTCOM; CAS-2026-032, KB-294); the MILITARY_US class-step is RULED B by Will 2026-10-14 22:18 ET (WQ-434, verbatim "Approve 434", PROME/proposals/2026-10-14_wq434-RULED.md): the class-step is anchored to 9/8 — a US death on/after 9/8 = RED. Driver: GACA's KKIA 10/10 count (12 killed / 309 injured) + 10/11 (1 / 11). Computed from `CASUALTIES.tsv` (KB-FALCON-278). ⟵ PRIOR: 🟡 **10/07 recompute: RATE-STEP NOT LIT on the fresh window** (killed 5 in 9/08–10/07 vs 11 in 8/09–9/07; it was lit at registration 9/8 on Aug–Sep); YELLOW (3 GCC-civilian deaths 10/07); class step unfired (no US/GCC military killed); 158-26 casualty count unknown |
+| 6 | Vessel confirmed SUNK / mine detonation on a hull | ✅ FIRED 9/5 · **total losses 5** (dhow 8/4 · Kylo 9/5 · Riesco 9/8 · **CAPE DAO** — struck 9/23, IMO "Sunk" as at 10/14 · **GFS PRIDE** 10/13; the last two class-(ii), KB-276/277); **no mine detonation on a hull established** (GFS PRIDE: MPA "unknown projectile"; the IRGC mine claim names no ship); no repeat clause |
+| 7 | Bypass breakage: Fujairah+Sohar below the ROLLING floor AND transits collapsed — read the floor from a live `bypass_watch.py` run, never from a document | 🟢 HOLDING (122,458 vs 29,590 t/d, print 9/25, run 10/01) |
+| 8 | WC-Saudi war-risk rising from 0.1% (transit → origin migration) | 🔴 LIT 9/28 (~3%, Reuters 9/25) |
+
+**Lit/fired: #1 #2 #3(energy) #4(actor) #5 #6 #8 = 7 of 8 limbs** (10/14: #5 re-lit on its fresh window; 6 of 8 on 10/07; 7 of 8 on 10/01). Only #7 (bypass breakage) is unlit — HOLDING 96,309 vs floor 31,639 t/d, print 10/09, run 10/14. Separation preserved: an indicator firing asserts no barrels; barrels belong to FAL-06.
+
+---
+
+## 4. CROSS-AGENT THRESHOLDS (the owner's value governs; I carry none)
+
+| Threshold | Owner |
+|---|---|
+| Oil below pre-war for 5+ sessions → de-escalation confirmed | BRENT |
+| VIX sustained <20 for 2 weeks → market shrugging off the conflict | HENRY (level and duration both theirs) |
+| HY OAS break | LIQUID / REGINALD |
+
+---
+
+## 5. TIME-BASED REVIEW (the reader of every date below = closeout step 11, which compares each date to today)
+
+- **Scenario review every 7 days.** Last: **2026-10-14 (HELD B 1 / C 14 / D 85**; class-(ii) losses ×2 proposed to PROME with a HOLD recommendation; casualty ratchet RED; production rung not fired — `reports/2026-10-14_catchup-weekly-review-gate001-losses-ratchet.md`). **Next due 2026-10-28** (STATUS records October 21 review HELD; pointer reconciled October 26). Prior: 2026-10-07 (HELD), 2026-10-01 (HELD).
+- **Rewrite trigger (DATED):** FAL-06 resolving (by **2026-11-05**) · a fifth belligerent axis · a dated Iran-Oman PERMANENT-corridor framework · a third class-(iii) hull loss · or **2026-11-05**, whichever is first. *(Checked 2026-10-14: none fired — the two new losses are class (ii), not (iii); class-(iii) count stays 2, both (iii-B).)*
+- *Record:* the former trigger "Will ruling on the production rung" fired 2026-10-01 21:40 ET (registered) and was discharged the same evening by the §2/§2a edit; v3 had been written that day anticipating either outcome, so no wider rewrite was owed.
+- **Cap discipline:** this file is a boot-adjacent reference; keep it under the read cap by moving resolved detail to `archive/`. Do not amend it in place past the cap (the v2 failure).
+
+---
+
+## 6. ARCHIVE
+
+v2 (with v1 March content in its own §6): `archive/EXIT_PROTOCOL_archive_2026-10-01.md`. It holds the D 75→85 canonical letter, every dated adjudication 7/30–9/28, and the durable March insights (the Perera insight; the two-clock trade). Cite it as history; the letter in its §2 stays canonical for that rung.
