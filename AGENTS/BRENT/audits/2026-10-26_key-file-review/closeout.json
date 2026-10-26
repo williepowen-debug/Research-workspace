@@ -1,0 +1,37 @@
+{
+  "closed_at": "2026-10-26T19:00:20-04:00",
+  "state": "WAIT / v5.13, no new thesis or capital change",
+  "freshness": "No new market/source retrieval at closeout; prior observation cutoffs retained",
+  "checks": {
+    "calendar": {
+      "rc": 0,
+      "output": "\u2705 CALENDAR: STATUS block matches docket/CATALYSTS.tsv (38 events)\n\u2705 STANDING STATE: all 8 row(s) stamped and reconciled at or after the newest graded catalyst (2026-10-26).\n"
+    },
+    "pending_receipts": {
+      "rc": 0,
+      "output": "  \u2705 PENDING-RECEIPTS: no unresolved execution receipts or elapsed explicit expiries.\n     Scope: EXECUTION LOG markers and POSITIONS expiry=YYYY-MM-DD fields only.\n     Broker truth and unrecorded trades remain outside this text check.\n"
+    },
+    "predictions_due": {
+      "rc": 0,
+      "output": "  \u23f3 Predictions-Due Scan...\n      \u2705 no OPEN predictions past (or within 7d of) their timeframe\n"
+    },
+    "corrections": {
+      "rc": 0,
+      "output": "CORRECTIONS-CHECK 0 OK: 0 unreceipted NAMED rows for BRENT (register 106 row(s), 0 ALL-warn, 0 ALL-row(s) past cap unreceipted = broadcast expired, not an obligation; receipts on file: 24) \u2014 PASS covers the register at /home/willi/Research-workspace/AGENTS/WALTER/registry/CORRECTIONS.tsv and this desk's receipts file, nothing else (it does not prove a receipt's action was correct or that the correction was applied)\n"
+    },
+    "read_cap": {
+      "rc": 0,
+      "output": "READ-CAP [BRENT] \u2014 cap 54,250 B \u00b7 budget 32,550 B (60%) \u00b7 ALL % BELOW ARE OF BUDGET (the number every verdict grades; \u2265100% = over) \u00b7 perimeter: 3 boot section(s) in CLAUDE.md, 29 'read' line(s) scanned (0 on-demand/grep + 0 SCOPED-read token(s) excluded by marker; 0 list item(s) inherited the parent line's read verb, L530), 5 whole-read file(s) found; boot.py-internal reads and prose outside the boot section NOT seen (heuristic \u2014 READS.tsv replaces it)\n  \u2705 STATUS.md                            22,777 B    70% of budget    (boot-step line 22 \u00b7 ALSO read whole by NEXUS:6)\n  \u2705 TRADE.md                             22,640 B    70% of budget    (boot-step line 22)\n  \u2705 LESSONS.md                           15,125 B    46% of budget    (boot-step line 26)\n  \u2705 domain/REFERENCE_TABLES.md            6,561 B    20% of budget    (boot-step line 27)\n  \u2705 SCRATCH.md                            3,878 B    12% of budget    (boot-step line 23)\n\u2705 READ-CAP 0 [BRENT]: every boot-mandated read this check found is under budget (5 file(s)). \u26a0\ufe0f PERIMETER IS THE CHARTER HEURISTIC \u2014 this desk has no declaration in PROME/registry/READS.tsv, so this is 'clean within what the scan found', NOT a clean bill. 29 of 37 desks delegate boot to a file it cannot see.\n  \u2139\ufe0f  charter AGENTS/BRENT/CLAUDE.md = 22,902 B \u2014 OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here\n  \u2709\ufe0f  OWNER-DIRECTED NOTICE [BRENT] (READ_CAP rule 15): 1 file(s) under AGENTS/BRENT/ that OTHER desks' declared boot reads load WHOLE \u2014 counted in THOSE readers' perimeters, NOT in this desk's totals or rc. The bytes are this desk's to rotate (rule 4); a breach here is also turning the READER's check red.\n     \u2705 AGENTS/BRENT/NEXUS_BRIEF.md          24,223 B    74% of budget  under 75% of budget  \u2190 read whole by NEXUS:6\nREAD-CAP-RESULT v1 mode=agent rc=0 assessed=1 desk=BRENT reads=5 over_budget=0 over_cap=0 manifest_defects=0 advisories=0 generated_flagged=0 rotation_due=0 active_decisions_over_budget=0 charter_mode=unspecified charter_reads=0 owner_notices=1 owner_notices_over_budget=0 charter_bytes=22902\n"
+    },
+    "orphans": {
+      "rc": 0,
+      "output": "\u26a0\ufe0f  uncommitted files outside AGENTS/BRENT/:\n     [not yours]    AGENTS/LIQUID/research/2026-10-26_brazil-feasibility-execution/\n     [not yours]    AGENTS/WALTER/research/2026-10-12_reboot/.cache/\n     [not yours]    AGENTS/WALTER/research/2026-10-16_codex-boot/.cache/\n     [not yours]    AGENTS/WALTER/research/2026-10-16_finish/.cache/\n     [not yours]    AGENTS/WALTER/research/2026-10-16_finish/credit-cache/\n     [not yours]    AGENTS/WALTER/research/2026-10-16_finish/hans-cache/\n     [not yours]    AGENTS/WALTER/research/2026-10-19_afternoon/.cache/\n     [not yours]    AGENTS/WALTER/research/2026-10-19_afternoon/hans-cache/\n     [not yours]    AGENTS/WALTER/research/2026-10-19_resume/.cache/\n     [not yours]    AGENTS/WALTER/research/2026-10-21_boot/.cache/\n     [not yours]    AGENTS/WALTER/research/2026-10-21_boot/hans-cache/\n     [not yours]    AGENTS/WALTER/research/2026-10-26_unwind-search/.cache/\n\n\u2139\ufe0f  The [not yours] entries are someone else's work \u2014 do NOT commit them.\n   Flag to PROME (or Will) rather than sweeping them into your commit.\n"
+    }
+  },
+  "inbox": "Two DEWEY items explicitly deferred; no new intake since completed FALCON filing",
+  "outbox": "No newly demonstrated closed loop to archive",
+  "WQ_510": "PENDING Will; no scheduler/prompt installation",
+  "remaining": "See SCRATCH and existing canonical catalyst/owner records",
+  "prior_confirmed_publication": "0706a7a8b",
+  "runtime": "BRENT / OpenAI GPT-6 family / Codex; same existing owner session"
+}

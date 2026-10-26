@@ -1,4 +1,4 @@
-# BRENT SCRATCH — October 26 key-file review
+# BRENT SCRATCH — October 26 closeout (2026-10-26T19:00:20-04:00)
 
 ## CHANGES SINCE LAST SESSION
 - FALCON’s committed evening packet received: prior report evidence now has owner commits 261593822 / 53a12d75d. Shipping relays still do not establish Saudi or aggregate oil loss.
@@ -8,6 +8,7 @@
 - Reconciled THESIS/STATUS/TRADE, COT header, own corridor catalyst and source pointers; replaced stale Friday summary and single-settled-Hormuz wording. v5.13/WAIT unchanged.
 - Recorded exact USO purchases/sales and closed the matched October 23 163C receipt. Remaining share/call quantities after sales are DERIVED from prior capture; original images, current orders and later events remain unknown. No owner-book duplicate posting.
 - Distinguished REGISTRY level/F-a roll ON expiry day from boundary #8 product-crack roll AFTER expiry day; corrected earlier overgeneralized “fleet basis” prose, no amended rule or grade.
+- Double-check completed: source comparisons and preserved rule/ledger bytes agree; only pre-fold NEXUS size metadata corrected (0706a7a8b). Full recheck: audits/2026-10-26_key-file-review/recheck.json.
 - Reran boot, then targeted checks after repairs. Scope, before-images/hashes and limitations: audits/2026-10-26_key-file-review/REPORT.md. No new market-data/official-settlement pull or numerical forecast.
 
 ## NEXT SESSION (dated, future-verifiable)
@@ -31,4 +32,4 @@
 
 ## WORKBOOK HEALTH
 - COT #11 header repaired to the existing row; no numerical append/reissue claim. LESSONS_INDEX/USO observations/INCIDENTS retain their original dates because no new lesson/positioning/facility source observation was established.
-- Foreign PROME work precludes pull. Prior evening push is CONFIRMED at f631cd5cb; this review requires its own closeout receipt.
+- Foreign untracked LIQUID research/WALTER caches left untouched; no shared-tree pull. Research/review/recheck publication confirmed through 0706a7a8b; final handoff committed separately. No fresh price/source pull at closeout.

@@ -1,6 +1,6 @@
 # BRENT STATUS
 
-**Current judgment — October 26 review, SCOPED-PARTIAL:** v5.13 / WAIT. No new confirmed Saudi production, pipeline-throughput or export loss. Dialogue is not implemented reopening; proposed Saudi storage is H2 2027 supply buffering. [Evidence](research/2026-10-26_evening-sweep/REPORT.md).
+**Current judgment — October 26 closeout, SCOPED-PARTIAL:** v5.13 / WAIT. No new confirmed Saudi production, pipeline-throughput or export loss. Dialogue is not implemented reopening; proposed Saudi storage is H2 2027 supply buffering. [Evidence](research/2026-10-26_evening-sweep/REPORT.md).
 
 **Shipping — FALCON evening owner report, committed 261593822:** tanker-disablement relay and third-party Al-Faw fire establish no quantified oil loss; Cape Dao is an old BULKER casualty. Oman’s temporary outline remains unimplemented. [Source limits](research/2026-10-26_evening-sweep/REPORT.md).
 
@@ -10,7 +10,7 @@
 
 **Throughput:** current comparable Gulf volume UNRESOLVED. CENTCOM cumulative barrels/ships/safety, regional crude plus bypass, products and AIS counts have different scopes; never average them. The earlier ~14 mb/d / 82% relay is withdrawn as a single adjudicated current Hormuz rate; disputed 24.6 regional claim not adopted. Excluded trackers stay excluded. [Reconciliation](research/2026-10-26_energy-review/REPORT.md).
 
-**Last real market/source refresh:** October 26, 17:28–17:34 EDT; shipping owner report followed. This key-file review reconciles saved evidence, not fresh quotes. Retail observation still October 19, weekly oil October 16; FINRA October 15 file blocked at last attempt. Current Gulf volumes/insurance and official October 26 settlements unresolved. Conditional EQT/Range terms → [afternoon report](research/2026-10-26_energy-review/REPORT.md); reconciliation/receipts → [audit](audits/2026-10-26_key-file-review/REPORT.md). WQ-510 pending; prompts untouched. Positions/receipts → [TRADE](TRADE.md), broker truth off-repo.
+**Last real market/source refresh:** October 26, 17:28–17:34 EDT; shipping owner report followed. This key-file review reconciles saved evidence, not fresh quotes. Retail observation still October 19, weekly oil October 16; FINRA October 15 file blocked at last attempt. Current Gulf volumes/insurance and official October 26 settlements unresolved. Conditional EQT/Range terms → [afternoon report](research/2026-10-26_energy-review/REPORT.md); reconciliation/receipts → [audit/recheck](audits/2026-10-26_key-file-review/REPORT.md). WQ-510 pending; prompts untouched. Positions/receipts → [TRADE](TRADE.md), broker truth off-repo.
 
 **Navigation:** [README](README.md) · [handoff](SCRATCH.md) · [cleanup accepted; warning retained](audits/2026-10-20_organisation-cleanup/REVIEW-CLOSED.md) · [USO](USO/README.md) · [live-routine acceptance still unverified](audits/2026-10-04_cato-correction/REPORT.md#live-deployment-follow-up--2026-10-04-2302-et).
 
