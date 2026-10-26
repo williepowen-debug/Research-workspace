@@ -17,7 +17,7 @@ The complete initial investigation and its source receipts are now stored under 
 
 ## Missing evidence and next useful work
 
-1. October 26 or later, when available: retrieve the October 15 FINRA row and compare the same series. This is a research dependency, not a promised scheduled run; it cannot answer October 20 positioning.
+1. October26 evening ATTEMPTED twice: October15 file403, September30control200/reproduced. No new count authenticated. Retrieve the October15 row when accessible and compare the same series. This is a research dependency, not a promised scheduled run; it cannot answer October 20 positioning.
 2. Obtain an authenticated daily USO securities-lending history: loans outstanding, new loans/returns, lendable supply, utilization and fees, with provider coverage. No subscription/account access has been assumed or purchased.
 3. Build issuer share-count/creation-redemption and premium/discount history. Authenticate a September 30 denominator before computing its short percentage. Current creation restrictions remain to be checked.
 4. Reproduce vendor short-volume observations from primary files when access works, preserving venue scope and its 30-day averaging definition. Do not derive net short balances by summing transactions.

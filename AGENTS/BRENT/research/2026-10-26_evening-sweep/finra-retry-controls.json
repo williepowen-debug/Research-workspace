@@ -1,0 +1,16 @@
+[
+  {
+    "date": "20261015",
+    "url": "https://cdn.finra.org/equity/otcmarket/biweekly/shrt20261015.csv",
+    "status": 403,
+    "bytes": 111,
+    "sha256": "a824bc7739e226e1b40ea0f8c4e4f4c6f796fc3b4abfa6e9abe3bd119a30d938"
+  },
+  {
+    "date": "20260930",
+    "url": "https://cdn.finra.org/equity/otcmarket/biweekly/shrt20260930.csv",
+    "status": 200,
+    "bytes": 2748711,
+    "sha256": "63c740578627ac5e1357a939936c5b48fe202d466247bc608bef33b2964652a2"
+  }
+]

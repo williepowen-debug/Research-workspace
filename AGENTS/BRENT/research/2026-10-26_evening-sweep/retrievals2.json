@@ -1,0 +1,53 @@
+[
+  {
+    "key": "cl-settlements",
+    "url": "https://www.cmegroup.com/CmeWS/mvc/Settlements/Futures/Settlements/425/FUT?tradeDate=10/26/2026&pageSize=500",
+    "status": 200,
+    "bytes": 123,
+    "content_type": "application/json",
+    "at": "2026-10-26T21:29:10.483512+00:00",
+    "sample": "{'settlements': [], 'updateTime': '', 'dsHeader': 'Crude Oil Future', 'reportType': 'Final', 'tradeDate': '10/26/2026', 'empty': True}"
+  },
+  {
+    "key": "ho-settlements",
+    "url": "https://www.cmegroup.com/CmeWS/mvc/Settlements/Futures/Settlements/426/FUT?tradeDate=10/26/2026&pageSize=500",
+    "status": 200,
+    "bytes": 128,
+    "content_type": "application/json",
+    "at": "2026-10-26T21:29:15.550108+00:00",
+    "sample": "{'settlements': [], 'updateTime': '', 'dsHeader': 'NY Harbor ULSD Future', 'reportType': 'Final', 'tradeDate': '10/26/2026', 'empty': True}"
+  },
+  {
+    "key": "cme-preliminary",
+    "url": "https://www.cmegroup.com/daily_bulletin/preliminary/Section61_Energy_Futures_Products.pdf",
+    "status": 403,
+    "bytes": 263,
+    "content_type": "application/xml",
+    "at": "2026-10-26T21:29:10.499060+00:00"
+  },
+  {
+    "key": "eia-retail-xls",
+    "url": "https://www.eia.gov/petroleum/gasdiesel/xls/pswrgvwall.xls",
+    "status": 200,
+    "bytes": 7513088,
+    "content_type": "application/vnd.ms-excel",
+    "at": "2026-10-26T21:29:10.565113+00:00"
+  },
+  {
+    "key": "eia-diesel-xls",
+    "url": "https://www.eia.gov/petroleum/gasdiesel/xls/psw18vwall.xls",
+    "status": 200,
+    "bytes": 765440,
+    "content_type": "application/vnd.ms-excel",
+    "at": "2026-10-26T21:29:10.507294+00:00"
+  },
+  {
+    "key": "usosi",
+    "url": "https://api.nasdaq.com/api/quote/USO/short-interest?assetclass=etf",
+    "status": 200,
+    "bytes": 183,
+    "content_type": "application/json; charset=utf-8",
+    "at": "2026-10-26T21:29:10.433423+00:00",
+    "sample": "{'data': None, 'message': 'Short interest is not available. Short interest is only supported for Nasdaq Listed stocks', 'status': {'rCode': 200, 'bCodeMessage': None, 'developerMessage': None}}"
+  }
+]

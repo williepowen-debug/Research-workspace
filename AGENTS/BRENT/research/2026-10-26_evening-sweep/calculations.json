@@ -1,0 +1,124 @@
+{
+  "rows": [
+    {
+      "symbol": "BZZ26.NYM",
+      "price": 115.22,
+      "prior_vendor_field": 116.72,
+      "change": "-1.50",
+      "pct": "-1.285126799177518848526387940",
+      "last_quote_ET": "2026-10-26T16:59:30-04:00",
+      "basis": "vendor quote/daily close field, NOT official settlement"
+    },
+    {
+      "symbol": "BZF27.NYM",
+      "price": 110.27,
+      "prior_vendor_field": 111.7,
+      "change": "-1.43",
+      "pct": "-1.280214861235452103849597140",
+      "last_quote_ET": "2026-10-26T16:59:57-04:00",
+      "basis": "vendor quote/daily close field, NOT official settlement"
+    },
+    {
+      "symbol": "BZG27.NYM",
+      "price": 106.02,
+      "prior_vendor_field": 107.32,
+      "change": "-1.30",
+      "pct": "-1.211330600074543421543048830",
+      "last_quote_ET": "2026-10-26T16:54:53-04:00",
+      "basis": "vendor quote/daily close field, NOT official settlement"
+    },
+    {
+      "symbol": "CLZ26.NYM",
+      "price": 101.25,
+      "prior_vendor_field": 103.27,
+      "change": "-2.02",
+      "pct": "-1.956037571414738065265808080",
+      "last_quote_ET": "2026-10-26T16:59:57-04:00",
+      "basis": "vendor quote/daily close field, NOT official settlement"
+    },
+    {
+      "symbol": "HOZ26.NYM",
+      "price": 4.7182,
+      "prior_vendor_field": 4.787,
+      "change": "-0.0688",
+      "pct": "-1.437225819928974305410486730",
+      "last_quote_ET": "2026-10-26T16:59:55-04:00",
+      "basis": "vendor quote/daily close field, NOT official settlement"
+    },
+    {
+      "symbol": "RBZ26.NYM",
+      "price": 3.1247,
+      "prior_vendor_field": 3.1284,
+      "change": "-0.0037",
+      "pct": "-0.1182713208029663725866257500",
+      "last_quote_ET": "2026-10-26T16:59:58-04:00",
+      "basis": "vendor quote/daily close field, NOT official settlement"
+    },
+    {
+      "symbol": "NGZ26.NYM",
+      "price": 3.039,
+      "prior_vendor_field": 3.05,
+      "change": "-0.011",
+      "pct": "-0.3606557377049180327868852500",
+      "last_quote_ET": "2026-10-26T16:59:58-04:00",
+      "basis": "vendor quote/daily close field, NOT official settlement"
+    },
+    {
+      "symbol": "NGX26.NYM",
+      "price": 2.612,
+      "prior_vendor_field": 2.64,
+      "change": "-0.028",
+      "pct": "-1.060606060606060606060606060",
+      "last_quote_ET": "2026-10-26T16:59:58-04:00",
+      "basis": "vendor quote/daily close field, NOT official settlement"
+    },
+    {
+      "symbol": "USO",
+      "price": 166.23,
+      "prior_vendor_field": 169.53,
+      "change": "-3.30",
+      "pct": "-1.946558131304193947973809950",
+      "last_quote_ET": "2026-10-26T16:00:00-04:00",
+      "basis": "vendor quote/daily close field, NOT official settlement"
+    },
+    {
+      "symbol": "EOG",
+      "price": 163.68,
+      "prior_vendor_field": 163.03,
+      "change": "0.65",
+      "pct": "0.398699625835735754155676900",
+      "last_quote_ET": "2026-10-26T16:00:03-04:00",
+      "basis": "vendor quote/daily close field, NOT official settlement"
+    },
+    {
+      "symbol": "LNG",
+      "price": 300.59,
+      "prior_vendor_field": 298.67,
+      "change": "1.92",
+      "pct": "0.642849968192319282150868900",
+      "last_quote_ET": "2026-10-26T16:00:02-04:00",
+      "basis": "vendor quote/daily close field, NOT official settlement"
+    },
+    {
+      "symbol": "VLO",
+      "price": 426.76,
+      "prior_vendor_field": 419.28,
+      "change": "7.48",
+      "pct": "1.784010684983781721045602000",
+      "last_quote_ET": "2026-10-26T16:00:02-04:00",
+      "basis": "vendor quote/daily close field, NOT official settlement"
+    },
+    {
+      "symbol": "DX-Y.NYB",
+      "price": 102.003,
+      "prior_vendor_field": 101.81,
+      "change": "0.193",
+      "pct": "0.189568804636086828405854000",
+      "last_quote_ET": "2026-10-26T17:18:44-04:00",
+      "basis": "vendor quote/daily close field, NOT official settlement"
+    }
+  ],
+  "vendor_only_diesel_crack": "96.9144",
+  "vendor_dec_jan_brent": "4.95",
+  "not_a_grade": "Vendor cash/last-price indication only, not official settle. Distinct last-quote timestamps preserved; no official curve or holding grade."
+}

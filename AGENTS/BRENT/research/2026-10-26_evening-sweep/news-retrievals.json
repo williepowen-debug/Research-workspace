@@ -1,0 +1,32 @@
+[
+  {
+    "key": "jtc-storage",
+    "url": "https://www.jtc.gov.sg/about-jtc/news-and-stories/press-releases/singapore-and-the-kingdom-of-saudi-arabia",
+    "status": 200,
+    "bytes": 125016
+  },
+  {
+    "key": "tehran-statement",
+    "url": "https://www.presstv.co.uk/Detail/2026/10/26/779258/Press%C2%A0statement-after-four-way-Tehran-meeting-between-Iran,-Pakistan,-Turkey-and-Saudi-Arabia",
+    "status": 200,
+    "bytes": 28288
+  },
+  {
+    "key": "saudi-mfa",
+    "url": "https://www.spa.gov.sa/en/w2710794",
+    "status": 200,
+    "bytes": 170045
+  },
+  {
+    "key": "ap-talks",
+    "url": "https://apnews.com/article/36486edb61b3bf4e0df67e8a17123e44",
+    "status": 403,
+    "bytes": 5531
+  },
+  {
+    "key": "imo-index",
+    "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-strait-of-hormuz.aspx",
+    "status": 200,
+    "bytes": 62191
+  }
+]

@@ -1,5 +1,8 @@
 # BRENT THESIS — v5.13
 
+**October26 evening refinement:** vendor crude prices eased without newly established Saudi loss or measured reopening. Tehran's short four-country statement promises further dialogue; Saudi–Singapore proposed H22027 storage offers a future buffer, not present incremental barrels. Neither establishes a phase transition. Current-source limits and official-settlement gaps remain explicit in the [evening sweep](../research/2026-10-26_evening-sweep/REPORT.md). v5.13/WAIT retained; no numerical forecast or trigger change.
+
+
 **October26 source/basis refinement (v5.13/WAIT retained):** new Saudi pump-station claims remain unconfirmed as physical loss after the FALCON13:37 continuation. CENTCOM primary supports cumulative assisted shipping, not a current barrel rate. The October21 “one Hormuz figure” convention and “flow basis settled” description below are superseded: ~14mb/d is a preliminary, wider-scope secondary relay, not an adjudicated current crossing volume; 24.6 regional claim remains disputed. Existing crude-adaptation/product-scarcity mechanism survives with current-volume uncertainty stated. Official October23 CL/HO pair replaces its source-access gap; no official Brent grade or new trigger. EQT–Range adds conditional gas contracting/infrastructure integration, not immediate output: closing approvals and existing-output versus incremental-supply distinction govern. [Evidence, exact comparisons and falsifiers](../research/2026-10-26_energy-review/REPORT.md).
 
 

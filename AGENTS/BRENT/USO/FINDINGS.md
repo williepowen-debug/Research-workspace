@@ -1,5 +1,8 @@
 # USO — findings and analysis from October 20, 2026
 
+**October26 evening access check:** attempted the scheduled October15 FINRA snapshot twice; HTTP403, while the September30 control file succeeds and reproduces its earlier SHA256. No October15 row authenticated; this does not prove non-publication or unchanged short positions. Latest verified numerical snapshot remains September30. [Access receipts](../research/2026-10-26_evening-sweep/REPORT.md#fundamentals-and-uso-positioning). Other lending/issuer figures below were not refreshed.
+
+
 Consolidates the investigation and subsequent discussion with Will. This records research already performed; it is not a new market-data refresh. Exact figures, observation dates and source coverage live in [observations.tsv](observations.tsv). The original [investigation](research-2026-10-20-short-interest/REPORT.md) and all its receipts are stored alongside this note.
 
 ## Established evidence

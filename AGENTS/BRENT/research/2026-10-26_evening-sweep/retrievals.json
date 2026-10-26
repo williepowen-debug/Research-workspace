@@ -1,0 +1,37 @@
+[
+  {
+    "key": "cme-energy",
+    "url": "https://www.cmegroup.com/daily_bulletin/current/Section61_Energy_Futures_Products.pdf",
+    "status": 200,
+    "bytes": 267553,
+    "at": "2026-10-26T21:28:24.276427+00:00"
+  },
+  {
+    "key": "ice-brent",
+    "url": "https://www.ice.com/products/219/Brent-Crude-Futures/data",
+    "status": 200,
+    "bytes": 116872,
+    "at": "2026-10-26T21:28:24.650263+00:00"
+  },
+  {
+    "key": "eia-retail",
+    "url": "https://www.eia.gov/petroleum/gasdiesel/",
+    "status": 200,
+    "bytes": 114590,
+    "at": "2026-10-26T21:28:24.321215+00:00"
+  },
+  {
+    "key": "aramco-news",
+    "url": "https://www.aramco.com/en/news-media/news",
+    "status": 200,
+    "bytes": 524219,
+    "at": "2026-10-26T21:28:25.685501+00:00"
+  },
+  {
+    "key": "centcom",
+    "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/",
+    "status": 200,
+    "bytes": 59296,
+    "at": "2026-10-26T21:28:25.053298+00:00"
+  }
+]

@@ -1,3 +1,7 @@
+## 2026-10-26 evening — refreshed tape, no phase/version change
+
+Vendor named December crude lower; official October26 settlements not recovered (CME current bulletin stillOctober23, dated endpoints empty). No new trigger grade from vendor last prices. Four-country statement continuation-of-dialogue and Singapore H22027 storage intent verified; neither supplies current barrels/reopening. USO publication dependency attempted, no authenticated new row. EIA latest retail observation10/19 rechecked at exact series. v5.13/WAIT unchanged. [Evidence](../research/2026-10-26_evening-sweep/REPORT.md).
+
 ## 2026-10-26 — official settlement recovery; throughput basis narrowed; v5.13 unchanged
 
 Old: WTI-above100 follow-up intraday-only; October23 HO official pair not obtained; October21 single relayed Hormuz figure carried as settled basis. New: primary CME October23 CL/HO pair verified; WTI breach observed asof23 (first crossing UNKNOWN), exact December crack97.7840; no new ICE Brent count. CENTCOM quantitative primary recovered, but cumulative exports/count/safety cannot adjudicate contemporary volume. The14mb/d relay is no longer a single verified current figure; no average with regional exports/AIS. FALCON13:37 Saudi verification consumed: no new measured loss, current day partial. EQT integration conditional on Q12027 closing/approvals; no immediate supply increment. WQ510 remains uninstalled. No version, probability, threshold or capital-authority change. [Evidence](../research/2026-10-26_energy-review/REPORT.md).

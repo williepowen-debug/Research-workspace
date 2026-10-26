@@ -1,0 +1,20 @@
+[
+  {
+    "file": "eia-retail-xls.raw",
+    "sheet": "Data 3",
+    "series": "Weekly U.S. Regular All Formulations Retail Gasoline Prices  (Dollars per Gallon)",
+    "observation": "2026-10-19",
+    "value": 4.284,
+    "unit": "USD/gallon",
+    "retrieved": "2026-10-26T21:29Z"
+  },
+  {
+    "file": "eia-diesel-xls.raw",
+    "sheet": "Data 1",
+    "series": "Weekly U.S. No 2 Diesel Retail Prices  (Dollars per Gallon)",
+    "observation": "2026-10-19",
+    "value": 6.276,
+    "unit": "USD/gallon",
+    "retrieved": "2026-10-26T21:29Z"
+  }
+]
