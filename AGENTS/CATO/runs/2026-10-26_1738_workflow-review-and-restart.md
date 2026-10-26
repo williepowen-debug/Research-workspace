@@ -2,7 +2,7 @@
 
 ## Current disposition
 
-CATO advice delivered; orient and await Will after reboot. No owner edits, sends, launches or implementation performed by CATO. Suggested directions in chat are recommendations, not evidence that Will sent or approved them. Existing trials and forecast-pilot approval limits remain unchanged.
+CATO review delivered: accept the bounded restart assessment at 4778e15e0 and return to approved research. Will supplied the direction and PROME response, then explicitly requested this file-backed check. No blocking finding in the inspected conclusion, continuation evidence or research handoff; efficiency and process-survival claims remain unproven. No owner edits, sends or launches by CATO. Existing trials and forecast-pilot limits remain unchanged. The dated follow-up below supersedes the earlier restart resume condition.
 
 ## Research value
 
@@ -29,3 +29,22 @@ Deferred/separate: NEXUS commit-reference sequencing needs consumer agreement; u
 Shared checkout has concurrent FALCON, BRENT, LIQUID, WALTER and PROME work; preserve it and do not pull. CATO changes only this report and CONTINUITY.md. No research or owner work begins at reboot. Check results and Git receipt are delivered below/in-session; no additional commit solely to record its hash.
 
 Checks: all inputs confirmed readable. Read-cap passed for AGENTS/CATO/{AGENTS,CHARTER,CONTINUITY}.md and root CLAUDE.md, USER.md, AGENTS.md. Weekday check passed for PROME/DOCKET.tsv, PROME/GATES.tsv, PROME/WILL_QUEUE.md, CATO CONTINUITY.md and this report (five files). CATO has no optional calendar/status/catalyst inputs. Orphan advisory showed foreign work only; no self-authored packets or auto-memory. Scoped whitespace check passed. No figure supersession, ledger or memory-index trigger. Checks are author documentation checks, not independent workflow acceptance.
+
+
+## October 26 — verification of bounded usefulness conclusion
+
+**Scope/revision:** Will requested checking PROME's work, including conclusion commit `4778e15e00e830c068a8d23a52b9d6ff094c919c` and continuation `35267e7524fbafe181c5636de4a8e4d2e4cc5b63`; checkout at inspection `99b7ded77`. Inspected exact conclusion diff, current ruling/continuation report, saved refresh verdict, packet manifest and pre-filing bytes, relevant docket rows, and BROCK's October 25 three-followups report. Foreign WALTER cache paths preserved; no pull, owner edits or messages. This is evidence/conclusion review, not independent acceptance of the installed workflow or financial-source audit. CATO previously advised on the workflow.
+
+**Judgment:** no blocking finding within this scope. Close the assessment and retain provisionally; no further trial or audit is owed by this conclusion. The usefulness direction reached PROME through Will's supplied exchange and applies to CATO as well.
+
+- Conclusion and SCRATCH distinguish assessment closure from the historically incomplete original trial. PARTIAL boot, queue, CARL receipt, lifecycle and maintenance obligations remain carried; NEXUS L832 retains the existing October 27 L554 fallback and delay disclosure, while L836 consumption stays pending. No permission or session-allowance reset appears in the two-path conclusion commit.
+- Saved refresh `refresh-amzsjo7y/gate.txt` confirms eight blocking passes and three ACTION OWED items, consistent with the continuation's PARTIAL status. This verifies the saved verdict, not a rerun or proof of every underlying check.
+- Independently compared all 17 packet destinations to the manifest SHA-256 and pre-filing source bytes at `35267e752^`: all match. Commit 35267e752 records all 17 renames plus the docket/calendar changes. This corroborates preserved intake and writeback; filing alone does not prove full semantic consumption. The 15-to-17 arrival comparison and omitted dashboard/HEARTBEAT/domain operations remain supported by PROME's execution account, not a complete CATO-observed tool trace.
+- The ruling's parent checkpoint receipt now records the successor STOP ACK and successful authenticated fetch. This supersedes CATO's earlier excerpt-only concern about missing release evidence at the documentary level; native session acknowledgment was not independently inspected. Original trial remains incomplete. The earlier wording requiring a successful later restart is superseded by Will's bounded-conclusion direction: no additional experiment is required.
+- BROCK's report supports PROME's HTGC summary: portfolio differences and unresolved contractual rights prevent inferring systematic under-marking from the aggregate comparison. Existing falsifier uses FV/cost, whereas the corrected comparison table uses FV/principal. Original Experiment A expectations remain historical; subsequent corrections must travel alongside them. No current prices or external filing arithmetic independently verified here; no investment conclusion added.
+
+**Remaining actions:** PROME returns to existing research and scheduled trial assessments; BROCK preserves expectations/corrections in its approved event updates; NEXUS/PROME retain the already-registered delayed read and consumption duties. No new CATO assignment. Net efficiency, full reachability, session-bound survival and shutdown recovery remain unproven limitations, not automatic new work. Existing VULCAN documentation advice and other approvals remain separate.
+
+**Verification limits:** no complete tool transcript, native fleet-presence check, new restart, external financial verification or implementation/test-suite rerun. The two-path conclusion is present in local origin/master ancestry; publication will be rechecked through the ordinary safe-push receipt with CATO's delivery. Documentation checks recorded below.
+
+Documentation checks: six startup inputs previously read and readable; read-cap passed for AGENTS/CATO/AGENTS.md, CHARTER.md, CONTINUITY.md and root CLAUDE.md, USER.md, AGENTS.md. Weekday passed for PROME/DOCKET.tsv, GATES.tsv, WILL_QUEUE.md, CATO CONTINUITY.md and this report, with all five inputs verified readable. Scoped whitespace passed; orphan advisory found only foreign WALTER cache paths, preserved. No ledger, memory or figure-supersession trigger. Exact two CATO files delivered; Git receipt in-session.
