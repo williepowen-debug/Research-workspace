@@ -1,0 +1,45 @@
+# October 25 — next assignments for OTTO, CRUISE and MARCO
+
+## Authority and starting point
+
+Will, directly in PROME session `01a17533-2f1c-78d0-b23e-a1184c9d8eb7`: “Yes lets assign the next tasks for OTTO CRUISE and MARCO. Use a tick here to plan what each agent should be told to do”. This follows the reviewed CATO priorities and PROME's proposal for bounded follow-ups. These instructions commission the work below in the existing Will-owned windows. All three preceding catch-up passes have returned; do not restart them. OTTO's disclosed evidence gaps remain gaps, not an unfinished running pass.
+
+Use completed boot reads under applicable reuse rules; restore root and local instructions if context was lost. Owner evidence and judgment remain independent. Flag conflicts with newer direct Will instructions before dependent work. Existing future obligations keep their dates and definitions; this packet creates no unattended scheduler, standing monitor, new forecast or trade authority. Do not wait in a running turn for a future release.
+
+## OTTO — current financing terms, then the Ally call gap
+
+**Question:** What do the newest public financing terms tell us about the cost and conditions of borrowing, separately from deteriorating loans and annual issuance counts?
+
+1. Refresh the dated auto ABS spread evidence. Start with the shelves already covered, seeking the most recent priced deals and a comparable earlier observation. Record issuer/deal, pricing date, tranche, rating, benchmark, spread/yield basis, size and relevant structural differences when disclosed. Select examples on comparability and public availability; disclose coverage rather than presenting selected deals as a market census. A spread change may reflect rating, duration or structure differences; do not silently pool them. If none matches the June reference, keep it explicitly dated and state that a like-for-like change cannot be measured.
+2. Make one bounded pass at Ally's available Q3 call/replay/transcript for repossession loss severity, underwriting and actual financing or whole-loan purchase commentary. Reuse the completed release/deck work. Distinguish a contractual purchase agreement from executed purchases, warehouse commitments and borrower performance. Trust V stays unknown without covering evidence.
+3. Return a compact evidence table and judgment: what changed about cost, access and conditions; what contradicts a tightening story; what remains unmeasured. Preserve fixed-pool versus broad-lender differences. Update only owner surfaces affected by new evidence.
+
+**Stop:** comparable current evidence is established, or a documented pass through relevant free primary/public deal and issuer sources cannot establish it. Missing prices or no new issue do not establish a funding shutdown. No paid feed, new collector framework or repeated court search loop. Court checks, Carvana October 28, Exeter approximately October 29 and October 30 thesis work remain their existing assignments; consume BROCK's grades rather than duplicate them.
+
+## CRUISE — port-volume evidence and readiness for earnings
+
+**Question:** What newly released physical-volume evidence is available in the desk's port footprint, and what will the forthcoming issuer results need to explain?
+
+1. Make one bounded source pass at Port Canaveral (including board financial attachments), PortMiami, Galveston and New Orleans, within existing coverage. Seek FY2026 or newly available monthly passenger figures and comparable prior periods. Record each port's fiscal period, publication/retrieval dates and counting definition: movements, embarkations, transit calls and unique passengers are not interchangeable. Keep unavailable releases pending; no made-up common vintage or aggregate of incompatible counts.
+2. Where the same public materials supply ship calls, deployed capacity or attributable local exposure, include them as context. Do not build a new economic-impact model or infer fares, profit, employment or consumer strength from passenger growth alone.
+3. Confirm the existing RCL October 27 and NCLH October 29 reading guides incorporate the now-completed financing reconciliation. Reuse the frozen criteria; do not rewrite them or pre-grade results. Upcoming reads should address pricing versus capacity, deposits/bookings, operating cash flow, actual cash/drawable liquidity and guidance. Keep September balances separate from October subsequent events. Norwegian's implied Q4 arithmetic must use actual Q3 and revised full-year guidance when available, with timing alternatives and no automatic demand conclusion.
+
+**Deliver/stop:** source table plus any consequential change in interpretation, explicit unavailable periods, and a short confirmation of earnings readiness. Finish the current pass when the named public sources are checked. Future earnings and the contractual November observation remain pending on their existing calendars. No new fare scraper, trade card, forecast, threshold or fuel/theater investigation.
+
+## MARCO — domestic capacity replacement, then the LAS Canadian leg
+
+**Question:** How much of Spirit's lost domestic seat capacity was replaced by other airlines at Orlando and Fort Lauderdale, and how does that affect our interpretation of passenger weakness?
+
+1. Use maintenance T2-K and the October 14 BTS download method to obtain domestic segment seats and compatible passengers for MCO/FLL, with MIA as a comparison rather than a causal control. Start with the months behind the existing May/June passenger-offset finding and extend through the latest comparably covered public month. Verify actual latest availability rather than assuming July is still latest.
+2. Show Spirit, other carriers and total seats by airport and matched month, with a consistent prior-year basis and stable carrier/direction/service definitions. Show Spirit's seat loss, other carriers' net change and the resulting replacement fraction only where the denominator is a genuine loss. Retain negative or above-100% results; explain them. Compare passengers/load factors only on compatible segments. Check carrier-month holes and revisions; distinguish observed figures from estimates and never silently treat missing filings as zero. Show the data lag prominently.
+3. Then make a bounded LAS-specific Canadian-capacity refresh using the existing international extractor. Cover Canadian routes/carrier families consistently, flag reporting holes and distinguish Canadian airline seats from Canadian-resident visitors. Reuse the prior Florida international study; do not rerun it as new research. If the existing method cannot supply adequate LAS coverage without a separate build, report that limit and stop that leg.
+
+**Deliver/stop:** reproducible source/calculation table and a plain-language conclusion on whether supply changes explain more, less or an unresolved portion of the passenger pattern. Seat arithmetic alone cannot uniquely identify demand causation. Reconcile affected owner claims; no post-hoc forecast definition changes, unsupported Florida dollar-loss estimate, dormant helper revival or new standing tracker. Existing MIA/LVCVA and other release reads retain their publication lags and dates.
+
+## Return contract
+
+Each desk: acknowledge receipt once and identify the first task or any conflict. Save source evidence, calculations and concise findings in owned paths; reconcile affected owner state. Return the most useful discovery, contradiction or uncertainty without filling a quota, and distinguish completed research from the next scheduled observation. Persist exact owned paths/self-authored packets under root Git rules. Deliver a dated completion packet to `PROME/inbox/` and notify PROME's exact session above. State what is finished, any blocked/source-limited leg, remaining existing observations, commit/publication receipt, and whether tools or work remain running. Preserve Will's window. Further investigations discovered during this pass are proposals, not automatic assignments.
+
+## Dispatch receipt
+
+Before dispatch, direct native reads verified all three original Codex sessions at their exact desk cwd, idle after completed prior work. OTTO `01a175a8-1ce1-76c1-bcf7-e404b7c17e1f`; CRUISE `01a175a8-45aa-7d91-bd2d-e54349a416dd`; MARCO `01a175a8-62c5-74a3-a010-0fb3d619f279`. No new owner launch or model override. Requested Sol 6.1 remains the user's launch choice; actual serving suffix is unexposed. Notification and acknowledgment will be recorded after sending.
