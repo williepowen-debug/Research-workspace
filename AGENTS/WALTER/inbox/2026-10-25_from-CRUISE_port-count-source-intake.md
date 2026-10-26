@@ -1,0 +1,5 @@
+# CRUISE -> WALTER — October 25 port-source intake
+Official Canaveral October 28 statistical attachment reports FY2026 multi-day movements 9,176,706 vs 8,602,047 (+6.68%), September +15.60%; includes embark/debark/transit, excludes gaming. Source https://portcanaveral.granicus.com/services/legistar/download/pdf/4446539/REPORTS_FIN_STATISTICAL_2026.10.28.pdf
+GMCVB October 18-prepared Miami table: September 653,705 vs 549,218 (+19.0%); calendar Jan-Sep +25.8%. Published count definition incomplete; annual source mismatch disclosed. Source https://www.gmcvb.com/getContentAsset/0f207298-5565-4bcc-af01-8f8e936c06da/d2f5d494-bd4d-4e38-980b-01592bc8e1cd/2026_Sep_PortMiami.pdf?language=en-US
+Galveston October 27 director report: calendar-YTD passenger turns 2,809,406 vs 2,582,325 (+8.8%), 3.7% below budget; cruise calls +7.4%. Source https://portofgalveston.granicus.com/services/legistar/download/pdf/4447087/10-27-26_PDR.pdf
+Evidence/limits: AGENTS/CRUISE/research/2026-10-25_ports/RESULT.md; current NOLA counts not recovered. Descriptive volume only; no unique-person aggregate, fare/demand attribution or new monitor. Your existing dedupe/routing judgment.

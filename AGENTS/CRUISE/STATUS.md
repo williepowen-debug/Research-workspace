@@ -1,6 +1,17 @@
 # CRUISE — STATUS
 
-*Last updated: **2026-10-25 Sun 20:50 ET** (Will-requested Codex boot). **October 25 catch-up checked issuer news, SEC inventories and the amended credit contract; price/theater and operating vintages remain as labelled.** Boot receipt: `research/2026-10-25_boot.md`.*
+*Last updated: **2026-10-25 Sun 21:29 ET** (four-port pass and earnings readiness, PROME direction 0c0221120). **Port source vintages are named below; market/theater and issuer operating vintages remain as labelled.** Boot receipt: `research/2026-10-25_boot.md`.*
+
+## October 25 — Four-port publication pass complete
+
+| Newly recovered evidence | Interpretation / limit |
+|---|---|
+| **Canaveral FY2026 multi-day movements 9,176,706 vs 8,602,047 (+6.68%); September +15.60%** | Actual staff statistical attachment recovered from October 28 public agenda before meeting. Includes embarking/debarking/transit, not unique travelers. Calls +5.44% FY; no berth-day or fare inference. KB-CRU-190 |
+| **Miami September 653,705 vs 549,218 (+19.0%); Jan–Sep +25.8%** | October 18-prepared GMCVB port-sourced monthly table now recovered; definition split unavailable. Matched calendar periods, not final FY2026. Annual source reconciliation remains open. KB-CRU-191/194 |
+| **Galveston Jan–Sep passenger turns 2,809,406 (+8.8%), 3.7% below budget** | Calls +7.4%; December year-end, source turn label retained. New Orleans current counts not recovered from checked public finance/board routes; older CY2025 is not FY2026. KB-CRU-192/193 |
+| **RCL/NCLH earnings readiness confirmed** | Frozen RCL card unchanged. Companion `research/2026-10-25_ports/EARNINGS_READINESS.md` carries actual-cash/drawability, deposits/OCF, capacity/pricing and implied-Q4 distinctions; CADENCE links it. Dates unchanged; no early grade. |
+
+**So what:** three distinct port comparisons still show physical growth; they do not identify demand versus added capacity, realized fares, profit or employment. No combined port index, trade or score change. Full definitions, source table, missing periods and arithmetic: `research/2026-10-25_ports/RESULT.md`.
 
 ## October 25 — Published-evidence catch-up (PROME direction c093e462c)
 
@@ -128,4 +139,4 @@
 
 ## BOTTOM LINE
 
-**Norwegian still presents an operator-specific demand and financing-cost question, not demonstrated loss of access or broad cruise-demand collapse.** Its October 15 refinancing increased nominal credit-line room by $691.3M, while using at least $1.8M of cash before costs; actual current liquidity and full drawable capacity remain unverified. Current promotion evidence is real advertising, not measured fare erosion; the new UBS booking claim remains secondary, and AAA's growth figure is a forecast. Royal Caribbean October 27 and Norwegian October 29 are the next operating tests; WATCH 3 / no card and CRU-11's frozen rules remain unchanged, with no new decision for Will.
+**New public port reports show growing activity at Canaveral, Miami and Galveston on each port's own period and definition; Galveston also missed its passenger budget.** More calls and changed deployments remain alternatives to stronger demand, and these counts identify neither realized fares nor company profits; current New Orleans physical counts and Miami's annual reconciliation remain unresolved. Norwegian's actual liquidity and full drawable credit are still unverified; its existing WATCH 3/no card is unchanged. The prepared Royal Caribbean October 27 and Norwegian October 29 reads must explain pricing versus capacity, cash/deposits and guidance; no future result was graded and no new decision is required from Will.

@@ -1,0 +1,11 @@
+{
+  "CAN-STAT": "https://portcanaveral.granicus.com/services/legistar/download/pdf/4446539/REPORTS_FIN_STATISTICAL_2026.10.28.pdf",
+  "CAN-FIN": "https://portcanaveral.granicus.com/services/legistar/download/pdf/4446533/REPORTS_FIN_CFO_MEMO_2026.10.28.pdf",
+  "MIA-SEP": "https://www.gmcvb.com/getContentAsset/0f207298-5565-4bcc-af01-8f8e936c06da/d2f5d494-bd4d-4e38-980b-01592bc8e1cd/2026_Sep_PortMiami.pdf?language=en-US",
+  "GAL-PDR": "https://portofgalveston.granicus.com/services/legistar/download/pdf/4447087/10-27-26_PDR.pdf",
+  "GAL-CFO": "https://portofgalveston.granicus.com/services/legistar/download/pdf/4436341/1_CFOs_Report_10.27.2026.pdf",
+  "GAL-FISCAL": "https://www.portofgalveston.com/wp-content/uploads/2022/11/2025-ACFR-Final-Reduced.pdf",
+  "NOLA-PLAN": "https://portnola.com/assets/pdf/FY2026-compressed.pdf",
+  "publication_note": "All retrieved October25 ET. GMCVB table prepared October18. Canaveral/Galveston board reports dated October28/27 respectively, already public before those meetings; original posting dates not independently established.",
+  "retrieval_note": "Exact UTC capture times are in stage4/stage5/stage6 receipts where logged. Earlier snapshots retain run date only; no mtime freshness inferred."
+}

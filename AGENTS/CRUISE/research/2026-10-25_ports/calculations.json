@@ -1,0 +1,76 @@
+{
+  "observations": [
+    {
+      "key": "canaveral_fy_multiday",
+      "value": 9176706.0,
+      "prior": 8602047.0,
+      "change": 574659.0,
+      "yoy_pct": 6.680491283063206,
+      "unit": "passenger movements",
+      "source_id": "CAN-STAT-P2"
+    },
+    {
+      "key": "canaveral_sep_multiday",
+      "value": 650526.0,
+      "prior": 562721.0,
+      "change": 87805.0,
+      "yoy_pct": 15.603647278136057,
+      "unit": "passenger movements",
+      "source_id": "CAN-STAT-P2"
+    },
+    {
+      "key": "canaveral_fy_voyages",
+      "value": 1094.5,
+      "prior": 1038.0,
+      "change": 56.5,
+      "yoy_pct": 5.44315992292872,
+      "unit": "VOYG report units",
+      "source_id": "CAN-STAT-P1-P2"
+    },
+    {
+      "key": "miami_sep",
+      "value": 653705.0,
+      "prior": 549218.0,
+      "change": 104487.0,
+      "yoy_pct": 19.024686008106073,
+      "unit": "monthly passenger count",
+      "source_id": "MIA-SEP"
+    },
+    {
+      "key": "miami_ytd",
+      "value": 7871050.0,
+      "prior": 6255777.0,
+      "change": 1615273.0,
+      "yoy_pct": 25.82050159396667,
+      "unit": "monthly passenger count",
+      "source_id": "MIA-SEP"
+    },
+    {
+      "key": "galveston_ytd",
+      "value": 2809406.0,
+      "prior": 2582325.0,
+      "change": 227081.0,
+      "yoy_pct": 8.79366462393385,
+      "unit": "passenger turns",
+      "source_id": "GAL-PDR-P4",
+      "budget": 2916378.0,
+      "vs_budget_pct": -3.667974453243028
+    },
+    {
+      "key": "galveston_cruise_calls",
+      "value": 320.0,
+      "prior": 298.0,
+      "change": 22.0,
+      "yoy_pct": 7.38255033557047,
+      "unit": "cruise calls",
+      "source_id": "GAL-PDR-P5"
+    }
+  ],
+  "source_quality": {
+    "miami_calendar_totals_match_monthly_sums": true,
+    "miami_fy2025_monthly_splice_not_published_annual": 8464151,
+    "miami_historical_page_fy2025": 8564151,
+    "miami_sept21_release_fy2025": 8564225,
+    "warning": "Monthly splice differs from both annual source figures; no fiscal-year reconstruction or cross-port sum is promoted."
+  }
+}

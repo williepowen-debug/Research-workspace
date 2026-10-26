@@ -1,0 +1,263 @@
+{
+  "canaveral-financial.pdf": {
+    "bytes": 778952,
+    "sha256": "47813dfbb2b6d76803861c309e49789bb776e94ed7c0900060ad7a4c4b759ecd",
+    "bundled": true
+  },
+  "canaveral-financial.txt": {
+    "bytes": 13548,
+    "sha256": "5aae89a2a312b44e4bfe0634c261a860a3bdefacca1ee18897cb4d24b37df714",
+    "bundled": true
+  },
+  "canaveral-financials.html": {
+    "bytes": 470602,
+    "sha256": "fc9c406552d443d994474dd2a72d7fb4485a45e487136ac48e4981a9816530d7",
+    "bundled": true
+  },
+  "canaveral-first10.txt": {
+    "bytes": 20114,
+    "sha256": "0e3c39209b74416c46a53137a70b71b4bf7ff61efe6c3dfaef73adc56968cf15",
+    "bundled": true
+  },
+  "canaveral-granicus.html": {
+    "bytes": 1178993,
+    "sha256": "08d07a7a5e9306f8ba441cd8065024b6023265f311954f6a4c4855980e47567c",
+    "bundled": true
+  },
+  "canaveral-home.html": {
+    "bytes": 75070,
+    "sha256": "b668e1744f471718279212c1484ca4dbbe8c91de51e40fc6c4786c7325070e4f",
+    "bundled": true
+  },
+  "canaveral-oct28-agenda.html": {
+    "bytes": 45922,
+    "sha256": "078ed8d76ec2fcde034047b110dde002d6bf105868ac857b8c5dc0ea483d582c",
+    "bundled": true
+  },
+  "canaveral-oct28.pdf": {
+    "bytes": 24598848,
+    "sha256": "ebed740b497a43a979d8ebff7a0512551859034a18470fdcce6103148991bcbb",
+    "bundled": false,
+    "note": "Whole 24.6MB packet downloaded; first10 pages read. Redundant whole body omitted from bundle; decisive separate statistical and financial attachments are bundled. Whole packet retained locally in /tmp/cruise-20261025-ports-raw."
+  },
+  "canaveral-statistical-rows.txt": {
+    "bytes": 8165,
+    "sha256": "34e008293c047537c5cd9bdab52bf1ec63482043ca955e925e12fd212eb25221",
+    "bundled": true
+  },
+  "canaveral-statistical.pdf": {
+    "bytes": 213459,
+    "sha256": "4dd30c2895be07360de9c1e7d98080d93b704593cc7982bc917f543ce7ed9a2c",
+    "bundled": true
+  },
+  "canaveral-statistical.txt": {
+    "bytes": 13143,
+    "sha256": "4600af3d2e5cbdba17468f24d6ebace368f58af8c99108f48ca70daffcac4a73",
+    "bundled": true
+  },
+  "galveston-acfr-first4.txt": {
+    "bytes": 717,
+    "sha256": "9400208b6e8ea84f11ccaafe84526672a3ab7ef67669fc72221aaf5e21fd519f",
+    "bundled": true
+  },
+  "galveston-acfr2025.pdf": {
+    "bytes": 5278139,
+    "sha256": "20bdab694d4a08fba2b9b982256374b9f1e35108bdc2739afd4b8ba7b2da4022",
+    "bundled": true
+  },
+  "galveston-cfo.pdf": {
+    "bytes": 1109614,
+    "sha256": "e025c6a9825a99d922ba152be0311cf4dbe2c51427ce4003c289970fe5f22b17",
+    "bundled": true
+  },
+  "galveston-cfo.txt": {
+    "bytes": 20350,
+    "sha256": "7e6d0742227d93111eaef8b2e42ca472116362ee6fc6f2732ebc4a7552c5e14f",
+    "bundled": true
+  },
+  "galveston-director-rows.txt": {
+    "bytes": 1776,
+    "sha256": "064bbbed4cf7174ef073ea461daa12ae3fa0007b0559af49890c736fd0b62a69",
+    "bundled": true
+  },
+  "galveston-director.pdf": {
+    "bytes": 7883490,
+    "sha256": "b59a2385247de03fe86c95e3b906e567bd0f2a614513be4401dee898a3dc7310",
+    "bundled": true
+  },
+  "galveston-director.txt": {
+    "bytes": 28920,
+    "sha256": "774262dcee45c82d9470f60e5d1bab8b994186ac648f3b6a94b24974269d1011",
+    "bundled": true
+  },
+  "galveston-finance.html": {
+    "bytes": 332162,
+    "sha256": "538f0e6d279bc9d96817a55a889b812a48c1b7566742eece4057935ef0967467",
+    "bundled": true
+  },
+  "galveston-home.html": {
+    "bytes": 274064,
+    "sha256": "5b699ca3aaf886d6599a2efbd513f332912960992af641958f50ecf82ab900e0",
+    "bundled": true
+  },
+  "galveston-meetings.html": {
+    "bytes": 262444,
+    "sha256": "710e2b9db1a42a1f27e92f2a8eed711a9f61ebd5e45cca1919a292a93ac4f901",
+    "bundled": true
+  },
+  "galveston-oct26-agenda.html": {
+    "bytes": 13511,
+    "sha256": "b3343e848fad54b7228d98b5d71db8a6f2d07369ac227316af8cf68b3f4b1209",
+    "bundled": true
+  },
+  "galveston-oct27-agenda.html": {
+    "bytes": 49345,
+    "sha256": "40c98e8e31a73442b3cd5b74152db33e00e3b6aedba2b4a5df3013f126546007",
+    "bundled": true
+  },
+  "galveston-statements.pdf": {
+    "bytes": 2584048,
+    "sha256": "f06f2cbb0a6ea3fec1f3f60ad88908738f441084c3e9dd25500a119226fbf52e",
+    "bundled": true
+  },
+  "galveston-statements.txt": {
+    "bytes": 130590,
+    "sha256": "cf3a683d683d1a925608fe5367d992aecaf42e9ec0ca7e5fcaae4fd1ead907e4",
+    "bundled": true
+  },
+  "galveston-trade.pdf": {
+    "bytes": 265815,
+    "sha256": "229acf99b60dc6414bcdbb4d3212097967dd7abd7687ad1c3c91d66a0a863b79",
+    "bundled": true
+  },
+  "galveston-trade.txt": {
+    "bytes": 786,
+    "sha256": "81ee6c37acc04c9c3c7cd1d4305dd0bc94a14f0cf6c28886551ea2360039987f",
+    "bundled": true
+  },
+  "initial-links.json": {
+    "bytes": 4484,
+    "sha256": "1b4c0a487149cba17cf3b54a965dbe363dbe439dc0afe6ea9fe8589c75cfcbe8",
+    "bundled": true
+  },
+  "miami-fiscal-history.html": {
+    "bytes": 77187,
+    "sha256": "8fddc088af6cbac1353be1ae9cb85e44cfe80afe620d3f74c66d3972a3211bbb",
+    "bundled": true
+  },
+  "miami-milestone.html": {
+    "bytes": 97506,
+    "sha256": "6d657fa49eef0db6c549db12201e18e6fc25f9608c9416521cf2ac2bf75296c3",
+    "bundled": true
+  },
+  "miami-research.html": {
+    "bytes": 95370,
+    "sha256": "0491cb86a602ad6ec4e947a45d5075427343399834f48f45f719117f7bdf5ba6",
+    "bundled": true
+  },
+  "miami-sep-rows.txt": {
+    "bytes": 1844,
+    "sha256": "167a024e6bd553ff661e42d964480d53db14c5d10f94b2f051d396a7e64707f8",
+    "bundled": true
+  },
+  "miami-sep.pdf": {
+    "bytes": 146853,
+    "sha256": "c87fe342761a9befbb5dde0b253d85a997588f84610b8d53b0b7ad24cdfc34fe",
+    "bundled": true
+  },
+  "miami-sep.txt": {
+    "bytes": 1600,
+    "sha256": "8df15a3d9867cc51f52dc9e8a31d6cedc701c64986ee27b6031e8507ce6212e6",
+    "bundled": true
+  },
+  "nola-aug27-minutes.pdf": {
+    "bytes": 138354,
+    "sha256": "37d7ef85a8d2c47b97996a5e6d67b2578bd3a3ec7038cea3557f5b3caa48c272",
+    "bundled": true
+  },
+  "nola-aug27-minutes.txt": {
+    "bytes": 7732,
+    "sha256": "a5a3b6a883ad69e0cf9a2d24a28bea2dcae3d287d9630b85b9f9b2dc3e231ec3",
+    "bundled": true
+  },
+  "nola-finance.html": {
+    "bytes": 39561,
+    "sha256": "8e6f7c13009bb4538dc89bd1f9e5c103f888bacade4b7ba68fd16acebef013b9",
+    "bundled": true
+  },
+  "nola-financial-plan.pdf": {
+    "bytes": 1073931,
+    "sha256": "bace422a8889de1f10438767575e3e79bc7cfc193f58753022d4fd85d1a522fa",
+    "bundled": true
+  },
+  "nola-financial-plan.txt": {
+    "bytes": 51975,
+    "sha256": "651f6ec37571ef1d73dbcf75289408f9d70f2e0134047e712bac9bdbdd92ea0d",
+    "bundled": true
+  },
+  "nola-home.html": {
+    "bytes": 46330,
+    "sha256": "c99c6ad8815c404e5805cf90add4a436d017fe2022a89a705b23b5201add09dc",
+    "bundled": true
+  },
+  "nola-meetings.html": {
+    "bytes": 40402,
+    "sha256": "cafde3ef87878c3dab4841f26111eee1de44f56961e340ade16abad6da83537c",
+    "bundled": true
+  },
+  "nola-passenger-release.html": {
+    "bytes": 40384,
+    "sha256": "022c7f015aa0e253322860235744e8bd43ea0342098f077838c617b5445cab16",
+    "bundled": true
+  },
+  "nola-past-meetings.html": {
+    "bytes": 43262,
+    "sha256": "4422ec6c0478faa82a6b0bd385a8aab45aafd60a15b341021459b54c174d355a",
+    "bundled": true
+  },
+  "nola-sep24-agenda.pdf": {
+    "bytes": 625201,
+    "sha256": "775ee37abc13c988a2242de34ed70c4b0ad68e8daedf296f10e61e107056fb65",
+    "bundled": true
+  },
+  "nola-sep24-agenda.txt": {
+    "bytes": 3481,
+    "sha256": "a98ef2c53220f73b53ffe0f7d1a43911b81ab8aa52bc13e67c9a1f03e79caf3e",
+    "bundled": true
+  },
+  "nola-state-of-port.html": {
+    "bytes": 37412,
+    "sha256": "a06024dfa0667a69b70d2dc1fbe27947ed7040b94b4c9f1193b24c2a82999993",
+    "bundled": true
+  },
+  "nola-stats.html": {
+    "bytes": 41485,
+    "sha256": "cf34574b0cda876ca48c0b24ca5687efa8cb953d7ea6ff2c7958162754e246de",
+    "bundled": true
+  },
+  "stage2-retrievals.json": {
+    "bytes": 1915,
+    "sha256": "fe1753aecf8fae288e3212bb3ee36c0e832844536df07fc92d2dceabc1571bec",
+    "bundled": true
+  },
+  "stage3-retrievals.json": {
+    "bytes": 639,
+    "sha256": "a8264b4d8f1e1e7563d959a728d1f446dff4427abd1ca824b354c8e1b5918788",
+    "bundled": true
+  },
+  "stage4-retrievals.json": {
+    "bytes": 3605,
+    "sha256": "5f4094fb4451f5dae31072c7e6a3a78bbee20c921876d50e9d15c00845680e4a",
+    "bundled": true
+  },
+  "stage5-retrievals.json": {
+    "bytes": 565,
+    "sha256": "b60ff082cceaa14c2ee78dc831e9187b5d9912f398ccca5ca1bf23c47f15da1e",
+    "bundled": true
+  },
+  "stage6-retrievals.json": {
+    "bytes": 1129,
+    "sha256": "6cfb0099e4b885089a3487258cfcba2dc84be2fc76bdca287e7d8fbff5a00b13",
+    "bundled": true
+  }
+}
