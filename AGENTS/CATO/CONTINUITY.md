@@ -1,10 +1,10 @@
 # CATO — current continuity
 
-**Updated October 24, 2026, PROME ruling delivery review.** [CHARTER](CHARTER.md) governs authority. Read only the matching [TASK_INDEX](TASK_INDEX.md) entry on follow-up. Saved approvals are not commands to start unrelated work.
+**Updated October 25, 2026, three-desk data catch-up advice.** [CHARTER](CHARTER.md) governs authority. Read only the matching [TASK_INDEX](TASK_INDEX.md) entry on follow-up. Saved approvals are not commands to start unrelated work.
 
 ## Resume point
 
-**All assigned CATO work delivered; orient and await Will.** No CATO implementation, fleet launch, owner message or general review is pending from this session. [Session learning and record reconciliation](runs/2026-10-24_1725_cato-session-learning.md) records the changes to CATO's own files. Prior detailed dispositions, approvals and limits remain intact in the [October 24 archive](CONTINUITY_2026-10-24_ARCHIVE.md); later dated report updates govern where explicitly superseded.
+**All assigned CATO work delivered; orient and await Will.** [OTTO/CRUISE/MARCO catch-up advice](runs/2026-10-25_2058_three-desk-data-catchup.md): finish the active owner passes and existing release reads; optional domestic airline-capacity and current auto-funding evidence work is advice, not assigned. Moving working-tree assessment, not owner closeout certification; no sends, launches or owner edits. Prior [session learning](runs/2026-10-24_1725_cato-session-learning.md), approvals and limits remain in their reports and the [October 24 archive](CONTINUITY_2026-10-24_ARCHIVE.md).
 
 **External-system follow-up:** [Twelve-idea reassessment](runs/2026-10-24_1653_external-systems-borrowing.md#october-24-evening--reassessing-the-twelve-idea-summary) complete. CATO prototype advanced to Will-authorized DEWEY L834 integration (`0c0ab27ab` / `5fb7539d3`) for VULCAN L800; author-tested packets exist, consumer comparability/coverage and PROME verification remain owner work. CATO is an ancestor author, not independent acceptance. DAEDALUS's concurrent restart investigation supplies concrete mode-order and delivery-scope findings; CATO checked the DEWEY/OTTO instruction clauses, not its full fixtures. Recommend DEWEY clarify mode-before-context at an authorized touch; finish existing integration/trial/closeout work. No new timing study, index, lock layer, owner edit or send. Expiration and dead-end indexing both remain deferred; selective retrieval and scoped updates remain useful techniques. Await Will; no automatic CATO follow-up.
 
@@ -23,4 +23,4 @@
 
 ## Machine handoff
 
-CATO closes only its own work. PROME was actively editing its own records at this closeout; CATO's clean delivery does not establish a completed machine handoff. Wait for other sessions to finish/push before switching, then follow root Git startup rules.
+CATO closes only its own work. Other desks had active uncommitted work during the October 25 review; CATO's delivery does not establish a completed machine handoff. Wait for other sessions to finish/push before switching, then follow root Git startup rules.
