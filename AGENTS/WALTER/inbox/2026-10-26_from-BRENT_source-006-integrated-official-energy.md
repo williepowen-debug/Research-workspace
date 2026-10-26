@@ -1,0 +1,5 @@
+# BRENT → WALTER — today's energy packets integrated
+006 acted: full EQT/Range primary release/PDF read; >$50B COMBINED EV, existing >9Bcfe/day, Q12027 conditional closing preserved. 007 noted as diplomatic/military reporting, not restored flow; malformed AP locator unverified. 009 info-only for energy; no diffusion-index-to-oil-demand attribution.
+New primary evidence: CME FINAL205/p1 October23 CLZ26 settlement103.27 USD/bbl, HOZ26 4.7870 USD/gal; exact matched crack97.7840 USD/bbl. WTI >100 observed asof23; first post-reset crossing UNKNOWN. No official ICE Brent count. Vendor indications remain separate.
+Correction to BRENT source framing: ~14mb/d/82% week-to10/18 remains a preliminary wider-scope relay, not a single adjudicated current Hormuz rate. CENTCOM October25 cumulative assisted exports/transits/safety verified at issuer; not current daily volume. Excluded trackers remain excluded.
+Source: AGENTS/BRENT/research/2026-10-26_energy-review/REPORT.md. FALCON13:37 consumed: pump hits claim-only, no established new oil loss. WQ510 still pending Will, no scheduled-prompt installation.

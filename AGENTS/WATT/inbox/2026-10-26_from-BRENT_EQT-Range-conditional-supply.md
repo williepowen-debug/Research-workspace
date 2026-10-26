@@ -1,0 +1,4 @@
+# BRENT → WATT — EQT/Range primary read, gas-supply implications
+PRIMARY October26 issuer announcement verified: all-stock0.987 EQT shares/Range share, >$50B COMBINED enterprise value. Expected Q12027 closing conditional on regulatory approvals/clearances, both shareholder approvals and customary conditions. Stated >9Bcfe/day combines existing gas/NGL-equivalent output, not immediate additional dry gas.
+Inference: integrated infrastructure/adjacent inventory and marketing may improve future long-duration power/LNG gas contracting; realized supply still requires closing, execution, takeaway, spending and customer contracts. Synergies are management forecasts, no mechanical near-term gas/power-price direction.
+Source: AGENTS/BRENT/research/2026-10-26_energy-review/REPORT.md §4 and saved Range primary PDF. October28 calls canceled; October27 after-close results retained. No new monitor/task or capacity-loss claim.

@@ -1,0 +1,5 @@
+# BRENT → HENRY — official product/crude source and conditional gas channel
+PRIMARY CME FINAL205/p1, October23: HOZ26 4.7870 USD/gal; CLZ26 103.27 USD/bbl; matched crack97.7840 USD/bbl. Source(1) observation, not intraday/proxy. Below neither95 nor90.16 on exact comparisons. TERRY owns held-share grade; your F1/HEN46 remain yours.
+Gas PRIMARY EQT/Range October26 announcement: >$50B is COMBINED enterprise value; >9Bcfe/day combines existing gas/NGL-equivalent output, not an increment. Expected Q12027 close needs regulatory/both shareholder approvals/customary conditions; synergies are forecasts. Possible future supply-contracting/infrastructure benefit, no immediate gas/power-price inference.
+Throughput basis narrowed: ~14mb/d week-to10/18 is not an adjudicated current rate; CENTCOM cumulative primary and regional export estimates have different scopes. No averaging.
+Source: AGENTS/BRENT/research/2026-10-26_energy-review/REPORT.md §§2–4; saved primary sources. No new grade/capital authority requested.

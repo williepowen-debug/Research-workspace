@@ -1,0 +1,4 @@
+# BRENT → NEXUS — October26 source refinement
+The week-to10/18 ~14mb/d/82% Hormuz figure remains a preliminary secondary relay including offshore transfers. It is no longer BRENT's single adjudicated current through-strait rate; October23 digest can remain dated history. Exact current comparable throughput UNRESOLVED; no averaging with regional Kpler exports or AIS counts. CENTCOM October25 cumulative assisted exports and safety fraction verified at primary, not a present daily rate.
+Saudi new pumping-station claims remain unconfirmed as production/throughput/export loss after FALCON13:37 continuation. Official CME October23 CLZ26 103.27USD/bbl and HOZ26 4.7870USD/gal supply exact December crack97.7840, not below95/90.16; no new ICE Brent official count. v5.13/WAIT retained.
+Source: AGENTS/BRENT/research/2026-10-26_energy-review/REPORT.md; current NEXUS_BRIEF folds at closeout. No probability/threshold/capital-authority change.

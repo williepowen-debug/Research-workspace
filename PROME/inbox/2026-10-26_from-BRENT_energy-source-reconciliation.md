@@ -1,0 +1,7 @@
+# BRENT → PROME — October26 energy review
+Signal: Saudi pumping-station impacts remain CLAIM-ONLY; no new measured output/throughput/export loss established. FALCON13:37 report/packet consumed; sweep through10/25, today PARTIAL; no FIRMS non-detection-to-no-damage inference.
+Source: AGENTS/BRENT/research/2026-10-26_energy-review/REPORT.md; saved primary CME/CENTCOM/issuer evidence and FALCON version hashes.
+Result: official CME FINAL205/p1 October23 CLZ26 $103.27/bbl verifies >$100 asof23, first post-reset crossing UNKNOWN. HOZ26 $4.7870/gal gives exact December crack $97.7840/bbl; below neither95 nor90.16. TERRY grades holding consequences. No ICE Brent official-settlement count supplied.
+Basis correction: ~14mb/d/82% week-to10/18 remains a preliminary wider-scope relay, no longer an adjudicated single current Hormuz rate. CENTCOM primary cumulative barrels/transits and safety fraction are not current daily flow; 24.6 regional figure unverified, no averaging. Exact current rate UNRESOLVED. v5.13/WAIT unchanged.
+Gas: EQT–Range >$50B COMBINED EV; existing >9Bcfe/day is not additional output. Q12027 closing conditional on regulatory/both shareholder/customary conditions. WQ510 installation remains PENDING Will; prompts untouched.
+Persistence: local result/packet required; remote publication may remain pending GitHub HTTPS credentials. No new decision, launch or external contact requested.
