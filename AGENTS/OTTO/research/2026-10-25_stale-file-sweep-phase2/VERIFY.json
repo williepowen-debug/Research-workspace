@@ -9,7 +9,7 @@
   "frozen_shelf_header_and_data_retained_exact_suffix": true,
   "original_RP_OTT_2_5_retained_exact_suffix": true,
   "all19_preimages_hash_checked": true,
-  "all_other_original_owner_files_unchanged": true,
+  "all_other_original_owner_files_unchanged": "Verified before filing; then two assignment packets moved byte-identical to processed (mapping/hash below). No other owner content changed.",
   "raw_source_hashes_verified": 2,
   "convergence33_and_source_colour_no_rescore": true,
   "forecast_calendar_schema": true,
@@ -18,5 +18,17 @@
   "residuals": "Ratings/exact Experian split, some historical bank bases, full docket/audio/TrustV, missed after-refresh SDT cadence, October30 OT1 and tool redesign/build remain explicit; no new run or full-sweep completion.",
   "ML_append_only_original_prefix_preserved": true,
   "charter_boot_closeout_coordination_threshold_invalidation_authority_sections_unchanged": true,
-  "historical_ARCHIVE_panel_and_other_producer_files_unchanged": "Verified against505-file Phase1 inventory excluding explicit19-file allowed write-set; all other files unchanged."
+  "historical_ARCHIVE_panel_and_other_producer_files_unchanged": "All original owner files outside19 allowed repair/continuity paths retain bytes, except assignment-path relocation with exact bytes retained.",
+  "assignment_filing": {
+    "2026-10-25_from-PROME_stale-file-sweep.md": {
+      "sha256": "f408c8e814a5e445827450fa57373bac96676f8eeb1f15aece63cb6bd60f6b36",
+      "from": "AGENTS/OTTO/inbox/2026-10-25_from-PROME_stale-file-sweep.md",
+      "to": "AGENTS/OTTO/inbox/processed/2026-10-25_from-PROME_stale-file-sweep.md"
+    },
+    "2026-10-25_from-PROME_stale-file-sweep-phase2.md": {
+      "sha256": "ab5cd7e45a2ad0b8a65bb5c5586a9fdbdf87b843de6e953f49321f5d8c72d31a",
+      "from": "AGENTS/OTTO/inbox/2026-10-25_from-PROME_stale-file-sweep-phase2.md",
+      "to": "AGENTS/OTTO/inbox/processed/2026-10-25_from-PROME_stale-file-sweep-phase2.md"
+    }
+  }
 }
