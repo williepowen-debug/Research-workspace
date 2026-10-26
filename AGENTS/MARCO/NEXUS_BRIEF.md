@@ -4,7 +4,7 @@
 **Domain:** Population movement — international visitors, workforce displacement and internal migration; Florida primary.
 **Thesis version:** v3.2, unchanged; position none.
 **Recent thesis pivot:** Channel 4 MED-LOW → LOW (9/24); s35 material evidence correction: MIA is Spirit-exposed, not a clean control.
-**As of:** 2026-10-25 23:34 ET (session37 Phase2 accepted repairs/bounded checks). **STATUS commit:** `f63a97bbe`.
+**As of:** 2026-10-25 23:37 ET (Will-requested session closeout; no new research). **STATUS commit:** `f63a97bbe`.
 
 ---
 
@@ -15,7 +15,7 @@
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |----|--------|----------|---------------------------------------------|
 | **WALTER** | **SAVED10/25 s37 — stale-sweep attribution/dollar/transmission corrections**, packet `inbox/2026-10-25_from-MARCO_stale-sweep-corrections.md` underWALTER | 🟠 | Withdraw unsupported CBO2025 range; no replacement adopted. Preserve prior MIA route; delivery is not consumption. |
-| **PROME** | **SAVED10/25 Phase2 completion**, `research/2026-10-25_stale-file-sweep-phase2/completion.md`; source/basis/check residuals explicit | 🟡 | Accepted repair set executed; overall sweep awaits independent PROME recheck. |
+| **PROME** | **SAVED10/25 Phase2 completion**, `research/2026-10-25_stale-file-sweep-phase2/completion.md`; source/basis/check residuals explicit | 🟡 | Accepted repair set executed; PROME review in progress flags two airport-record details, exact follow-up pending; Will closed this session. |
 | **WALTER** | **SAVED 10/25 s35 — MIA Spirit-free CORRECTION**, domestic seat replacement and LAS Canadian refresh; packet `inbox/2026-10-25_from-MARCO_MIA-Spirit-correction-capacity.md` under WALTER | 🟠 | CORAL STATUS/brief still call MIA the clean tell; route correction to affected consumers. Seats are capacity, not demand or resident visitors. |
 | **PROME** | **SAVED 10/25 s35 — commissioned capacity completion**, report `domain/sources/TOURISM/2026-10-25_spirit-seat-replacement_LAS.md`; commit pointer follows | 🟡 | Bounded assignment complete; source gaps disclosed, no forecast-letter change or new monitor. |
 | **WALTER** | **SAVED 10/25 — CA local farm disruption / H-2A court deadline / mixed Canadian scope changes**, packet `inbox/2026-10-25_from-MARCO_farm-labor-h2a-canada-news.md` under WALTER | 🟠 | WALTER owns dedupe/routing; suggested LABOR/CARL and HAWK; receipt/consumption pending |
@@ -70,6 +70,8 @@
 - **RED counter-frame:** Florida housing absorption and restored FLL domestic volume remain meaningful counters. The local CA output report does not erase the failed aggregate Channel 1 transmission tests. Unsupported Florida loss estimate stays withdrawn pending its existing owner task (PROME L466), not revived here.
 
 ## NEXT DECISION POINT
+
+**Session closed at Will’s request.** PROME review/follow-up remains pending; existing scheduled observations below are for the next authorized session. No running wait.
 
 - **What:** grade the existing MIA airport-own and LVCVA Aug+Sep combined tests when their September releases exist; MIA's Spirit/capacity caveat travels with the raw grade.
 - **When:** existing ~October 28 observation (date estimated; sources not yet published at 10/25 checks). No running turn waits for it.
