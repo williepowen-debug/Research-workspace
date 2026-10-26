@@ -1,13 +1,13 @@
 # LIQUID STATUS
-**Last Updated:** 2026-10-26T19:16:48-04:00 — Official Brazil buybacks recovered; fund-payment route documented, activation unproved. X1 CLOSED / DON’T-SIZE.
+**Last Updated:** 2026-10-26T19:46:52-04:00 — Editorial clarification; evidence dates and registered grades unchanged.
 
 > **How to read this file.** Levels here are **dated snapshots**, each with its own observation date. **`scripts/boot.py` is the live source**; quote from it, not from here. Basis is latest-revised FRED unless stated (see §5). One fact, one place: if a figure appears twice, one copy is a defect.
 
 ## 1. NOW
 
-**Startup [October26]:** root/local reads complete;30-series/0 errors;13 WALTER handoffs consumed, corrections clear. Workbook reconciled; general inbox pending. Pull deferred for foreign work. OpenAI/Codex, model UNKNOWN. Boot→`research/2026-10-26_boot/REPORT.md`; current→`research/2026-10-26_brazil-feasibility-execution/REPORT.md`. VULCAN financing packets/WALTER19:00 relay folded; scoped owner review, not fleet-wide freshness.
+**Main research question:** Is Brazil's local repricing spreading into dollar funding, cross-currency markets, carry or broader credit? Transmission remains unproved; pre-event US data cannot settle it. §3 owns dated duties and completion conditions.
 
-**Transmission coverage [10/25 review]:** fourteen mechanism families mapped; named exposure/contract/cash-response links remain incomplete. Quiet overnight funding does not clear bank-line substitution, insurer/fund cash calls, structured-credit diversion or operating feedback. LIQ-07 S2 remains its frozen reserve-channel verdict. Evidence/unknowns → `research/2026-10-25_transmission-pathways/REPORT.md`; no new gate or standing collector.
+**Evidence boundary:** fourteen-family map incomplete; calm repo does not clear private/offshore channels. LIQ-07 S2 is reserve-channel only. Sources→`research/2026-10-26_brazil-feasibility-execution/REPORT.md`; coverage→`research/2026-10-25_transmission-pathways/REPORT.md`.
 
 **Credit [FRED ICE first-published API, October 23 observation; refreshed October26 18:56 ET, bp]:** HY 338 (−2 d/d), IG 91 (+2), BB 206 (−4), B 343 (−3), CCC 1,356 (+16); HY−IG 247, CCC−BB 1,150, CCC−B 1,013. October 22 BB/CCC co-widening did not persist; mainly repricing remains the judgment. These data predate Brazil. Contributions UNKNOWN; tiers are not issuer breadth. Credit metadata is backdated, not wall-clock publication evidence. Complete run/reset within 21 returned cells (25 requested; explicit window), no missing/short flag. Source → continuation first-published-refresh.json; latest-revised ladder agrees.
 
@@ -25,7 +25,7 @@
 
 **Duration/foreign/auctions:** H.15 October23 10Y5.00%/30Y5.33%, first-publishedOctober26; Monday cells absent18:56ET. Positive bond-ETF prices do not decompose spreads/duration. 20Y/TIPS cleared,tails UNGRADED. August TIC official selling/private buying coexist;custody not sales,Belgium proxy FALSIFIED. SAM Channel1 retired;bases unmeasured. Buyback ends11/4;full history→archive.
 
-**Brazil [October26]:**17:35 vendor closes EWZ−19.82%,HYG+0.19%,LQD+0.16%,KRE+0.37%,EMB−0.16%;not OAS/flows. Matched5pm proxies BRL/JPY−7.53%,MXN/JPY+0.96%;not certified fixes/bases. Broad unwind unproved. PRIMARY Treasury XLS now confirms R$14.807B accepted Extra Compra purchases, settlementOctober27—not paid cash/USD. Retained LFT sale still future. UBR NAV CSV endsOctober23; historical May31 collateral/general ISDA NAV-termination route recovered, current threshold/call/sale/bank loss absent. Private bases/calls dark. Details→current report.
+**Brazil [October26]:**17:35 vendor closes EWZ−19.82%,HYG+0.19%,LQD+0.16%,KRE+0.37%,EMB−0.16%;not OAS/flows. Matched5pm proxies BRL/JPY−7.53%,MXN/JPY+0.96%;not certified fixes/bases. Broad unwind unproved. PRIMARY Treasury XLS now confirms R$14.807B accepted Extra Compra purchases, settlementOctober27—not paid cash/USD. Retained LFT sale still future. Fund-to-dealer evidence limit/revisit condition→§3. Private bases/calls dark. Details→current report.
 
 **Named financing — Car-Mart [WQ523,10/25]:** $305,608,825.77 principal at10/14; $5M incremental agreement signed10/15/public10/21, net cash receipt unverified. Relief11/01 is not2030 maturity; $92M receivables are not cash. Current eligible liquidity and bank-risk bridge unobservable. Six new-money lender signatures, allocations omitted; agent/trustee distinct. → `research/2026-10-25_WQ523-carmart/REPORT.md`.
 
@@ -51,7 +51,9 @@
 
 *The private-credit gate count was retired to BROCK's `GATE-BRK-R2` on 9/12 (full text in `CLAUDE.md` § CROSS-AGENT SIGNALS); this desk keeps NO private-credit-gate count.*
 
-## 3. OWED (the only list; dated)
+## 3. OWED (the only obligations list; dated)
+
+Dates are existing duties, not unattended execution. Evidence gaps imply no schedule.
 
 | When | What | Owner / status |
 |---|---|---|
@@ -59,13 +61,13 @@
 | **after-close research, 10/19** | PARTIAL attribution; conditional shortlist received4261b747e,9funding checks delivered. Remaining actual-redemption/cash bridges,current certificates and issuer-credit panel; primary4 unmatched. Detail/WHY → `research/2026-10-19_equity-financing/conditional/RESULT.md`. Recipient final-version consumption unverified. | LIQUID funding; HENRY selection complete; PROME coordination |
 | **before the WQ404 read or any letter edit** | HANS corrected swap-line letter line68:1,179 USD operations since2007; bidders≥8 fired164 times, including2020 and earlier year-end false alarms. Known-wrong line68 remains held byte-stable for the named reader; HANS figures not independently re-verified by LIQUID. Full figures/provenance preserved in the prior STATUS archive and WQ404. | LIQUID/PROME: tell the reader |
 | **10/28, L568: fix pass** (WQ-404 read NOT RELEASED 10/15) | ⛔ `usd_swapline.py` + letter stay WITHHELD. Will-named read 10/15: 28✅·7⚠️·6❌ — letter L68 HANS base rate withdrawn by HANS; two release conditions; AC-X2b no own failure path; 3 dead pointers; reader counterexamples A (no-bid dormancy ⇒ `--baserate` rc 2 forever) and B (string date compare) untested. Conditions first, then code; another read needs Will's word. → `PROME/reports/2026-10-15_wq404-swapline-independent-read/READ1.md`. | LIQUID; Will (next read) |
-| **October 27 publications / auction** | Bounded auction/contract/system review DONE; HY/SOFR/H.15 still October23 at18:56ET. Read event-day SOFR/ICE/H.15 when published; verify October27 buyback settlement and retained LFT terms/results. UBR post-event cash/position bridge unproved; no standing collector. Existing calendar exclusions apply; L829 October 30 and Car-Mart November 1 retained. | LIQUID; REGINALD owns REG-T-04 |
+| **October27 publications / auction** | Read event-day SOFR/first-published ICE/H.15 and Brazil settlement/LFT results. Completion: dated results/grades or explicit missing-input limits recorded. Frontier atOctober26 18:56ET:October23. Acceptance≠settlement; exclusions apply. | LIQUID; REGINALD owns REG-T-04 |
 | **10/28 · ~11/2** | L818 publication check (10/27 obs) · October HY issuance total (DEWEY flagged; confirms or kills the volume leg of "freeze"). | LIQUID with REGINALD / DEWEY |
 | **review 10/16** (dated deferral) | **DAEDALUS 10/8 asks, deferred, not filed away:** ① L546 normalization implemented/tested; targeted SRF path independently verified (READ2 below), no observed260bp misgrade established. ② LIQ-072 letter precision rule for `>94` and the derived `basis <180`; LIQ-069 L2 discount curve named. ④ stranger-read items on 072 legs 1/4, 069 L2 conversion, 079 wording. Reason for deferral: this wake's scope was WQ-398 + W1 reads + drain; none is time-critical (DAEDALUS: no deadline). | LIQUID |
 | **for BROCK, via PROME** | BIZD's first sub-$12.50 raw close (10/1) is the $0.437 ex-dividend, so a wrapper-vs-manager test across 10/1 needs total return (§1 X1). Named in the 10/8 memo to PROME. | LIQUID → PROME relays |
 | 10/14 · 10/28 | CPI (BOND's Q4 D7/D8) · FOMC; B-tier real-yield β by 10/28; a pulled HY deal before 10/14 (Q4 discriminators D6–D8, BOND-owned → `reports/2026-09-25_Q4_ccc-isolated-vs-leading-edge.md`; Q2 → `reports/2026-09-25_Q2_first-observation-of-spreading.md`). | BOND |
-| **10/30** | LIQ-04 monthly-source coverage reconciliation; prior access attempt reported, receipt/letter authority unresolved. Forecast unchanged. | LIQUID |
-| **10/31** | GATE-LIQ-079 FIRE-leg bands + base rate → PROME as a PROPOSAL. | LIQUID |
+| **10/30** | 069/076: record dated grades/limits under unchanged letters. LIQ-04/L829: record qualifying monthly evidence or access/authority gaps; forecast unchanged. | LIQUID; PROME owns review dates |
+| **10/31** | Complete by delivering079 FIRE-band/base-rate PROPOSAL with evidence/limits to PROME; approval/activation remain separate. | LIQUID |
 | **11/13 (estimated)** | Q3 BDC pre-registration before filings and remaining Q2 M3/M4/M5 grading; existing card in `workbook/BDC_MARK_CONVERGENCE_MONITOR.md`, calendar row carries scope. | LIQUID with BROCK/NEXUS |
 | **11/30, L799** | Fed GENIUS Act comment-close read with REGINALD: assess deposit/liquidity implications of the final rule evidence; not a comment-submission instruction. | REGINALD / LIQUID; PROME consumes |
 | **on Optimum filing or creditor deal, L825** | Read event-day CCC/HY and two following observations; concentration attribution may stay UNKNOWN. WALTER routes; REGINALD owns REG-T-04 attribution. | LIQUID tier read |
@@ -74,6 +76,8 @@
 | deferred (Will, in-session 9/29; no repo record) | STATUS staleness check in `boot.py --selftest` (restructure option B). | LIQUID |
 | optional, new episode if elected | Alert/SRF repair **INDEPENDENTLY VERIFIED** at `fd036576c` (PROME read #2 RELEASE, 10/15; `PROME/reports/2026-10-15_LIQUID-SRF-repair-independent-read/READ2.md`). Declared residue ⚠️: N5 non-ISO date strings (proposed ISO-refusal guard, acceptance first) · N1 surface last VINTAGE-FETCH-FAIL in boot echo · M9 dateless value / stale `boot.py:88` docstring · M8 dashboard counts across non-numeric row. | LIQUID |
 | scope note | October14 first-published SOFR99/IORB comparisons completed for returnedAugust20–October13 window; no differences. Full-history revision census remains not run; window evidence is not a global revision claim. | LIQUID |
+
+**Fund-to-dealer gap — unscheduled:** UBR public evidence ends at October23 holdings/NAV, May31 collateral and general termination terms. Current thresholds/cash demands, payments, hedge sales or bank losses remain unproved. Revisit on a dated issuer/dealer filing or authenticated notice of an actual call/termination/payment or named dealer financing response. NAV/share changes alone are insufficient; no recurring search or new assignment.
 
 **Pending decisions held by others:** **PROME registry checked October19:** 069/076 reviewsOctober30, 072/HY-REKILL December31 already set; WQ404 registered and 072 basis-half restoredOctober1. Today’s owner evidence still needs recipient integration; packet persistence is not consumption. FORGE classification normalization was already implementedOctober8; FYI and current code verified, stale pending claim removed. **Will:** any X1 sizing (Tier 3); authorizing the S&P Global connector (the L5 re-open condition); the swap-line letter after read 3. *(WQ-301 (b) and WQ-363 are RULED and encoded.)*
 
