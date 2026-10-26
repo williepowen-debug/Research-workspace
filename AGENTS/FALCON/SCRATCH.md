@@ -1,46 +1,37 @@
-# FALCON SCRATCH — 2026-10-26 13:37 EDT
+# FALCON SCRATCH — October 26, 2026 evening, 17:36 EDT evidence cutoff
 
 ## CURRENT MARKS
-B 1 / C 14 / D 85; convergence 43/50 retained from prior grade. OpenAI GPT-6, Codex; session ID UNKNOWN. Startup and user-directed Saudi verification/L807 completed; not the October 28 weekly review.
+B 1 / C 14 / D 85 HELD; convergence 43/50 retained. FAL-06 OPEN at 70%; FAL-07 OPEN at 65%. OpenAI GPT-6 / Codex; local thread 01a17940-33df-7271-9eb4-3e42db57b396.
 
 ## CHANGES SINCE LAST SESSION
-- WALTER October 24–25 intercept reports remain attributed, no production hit established; completed 72h quiet not certified.
-- Correction COR-20261025-26: conditional Zamir warning and later assessment compatible. Original contradictory framing never adopted here.
-- October 26 Tehran delegations/Yemen packet is relayed reporting; malformed AP locator not independently recovered.
-- October 26 pumping-station/airport hits remain unconfirmed. Coalition official indexed text reports Riyadh missile intercepted; no new damage or operational shutdown established. Reuters/Cirium airport cancellations 4,071 /4,736, October 8–25 (~85.96%), separate historical disruption; two terminals partially reopened October 25.
-- PortWatch has no new data: transit October 18 (8 days old); bypass October 16 (10 days old). No current all-clear.
+- Cape Dao contest resolved by own IMO Sunk fetch and NAVAREA 403/26 wreck notice cancelling 380/26. Census 5 confirmed, class(ii) bulker, not a new tanker sinking; existing WQ-431 HOLD.
+- L229 permanent-corridor window LAPSED / NOT VERIFIED AS AGREED at market close. Oman official says temporary outline still faces implementation obstacles. Talks do not establish executed settlement or restored shipping.
+- UKMTO 182 relay: October 23 0839 UTC outbound tanker disabled, crew safe, published October 26. UKMTO 183 relay: October 26 vessel fire 63 NM SE Al-Faw, cause/hull/outcome unknown. Both original PDFs 403; VI-83/84 labelled RELAYED, no new sinking/mine attribution.
+- Saudi pump/airport impacts and Sirik alleged US counterstrike remain unverified. FAL-07 confirmation bar not met.
 
-## WHAT I DID THIS SESSION
-- Explicit root/local reads and boot checks; receipt reports/2026-10-26_startup-receipt.md.
-- Six WALTER packets read, logged and git-moved; KB-330..332; correction receipted NO-OP for unadopted framing.
-- Read DEWEY insurance report and HAWK dictionary; no insurance clock refreshed. Dictionary response saved in own outbox.
-- Removed terminal/pipeline inclusion from standing production watch: canonical EXIT §2a excludes those facilities. Reconciled EXIT review pointer with STATUS.
-- L807 DONE: FLOW source had 16 rows including duplicate04. Four current unique FALCON, eleven frozen HAWK and one superseded duplicate archived verbatim; conservation checked. WARRISK EVENT-DRIVEN/attempt October 26 declared; same-vintage 2–3x arithmetic checked, no fresh quotes, all five expired and Bab CANNOT-FIRE.
-- Report reports/2026-10-26_saudi-claims-and-L807.md; direct BRENT inbox packet, HAWK copied, PROME completion packet. BRENT acknowledgment received via its 13:40 owner report and packet; HAWK unverified.
-- No predictions due for dated resolution. FAL-06 and FAL-07 OPEN; no live settle clock, step 12b no-op.
+## WHAT I DID
+- Saved official Oman lecture, IMO table, Pakistan NAVAREA 403/404 warning texts, Reuters talks body and secondary maritime reports. CTP October 26 path 404; AP body 403; limitations preserved.
+- Updated STATUS, VX-SUNK current value, VESSELS, CASUALTIES/CASUALTY_RATCHET (recorded killed 24 vs 7 current/prior windows), KB 340..347, prediction interim header. Archived old dashboard and computed casualty view verbatim.
+- Direct evening packets to BRENT, HAWK, WALTER and PROME; sender commits exact paths. L807 still DONE, no fresh insurance data and no reopened access ask.
+- PortWatch no new prints: transit October 18, bypass October 16; current conditions unknown. No live settle clock; step 12b no-op. No scenario letter or trade changed.
 
 ## NEXT SESSION (dated, future-verifiable)
-1. 2026-10-26 end-of-day: L229 permanent corridor grade; joint/dual official agreement required. Current bounded search is not a final lapse.
-2. 2026-10-26: facility gap sweep DONE for completed days October 22–25, October 26 PARTIAL through 13:37 EDT. Sweep mark October 25, newest event September 10. No new established facility row. Re-check new station/operator statements and post-claim airport operations.
-3. 2026-10-28: scenario + GATE-FALCON-001 review; current TankerMap vintage and IMO/JMIC required.
-4. 2026-11-05: FAL-06 search ON that day. 2027-01-02: FAL-07 dated search if not resolved CONFIRMED earlier.
+1. October 27: obtain UKMTO 182/183 originals, hull IDs and Al-Faw cause/outcome; any confirmed sinking or mine regraded immediately. JMIC 108 primary still needed.
+2. October 27: recheck named-station operator/MoE damage and actual pipeline/export status, GACA/operator post-claim airport operation. No closure inferred from empty dynamic pages.
+3. October 28: scenario + GATE-FALCON-001 weekly review; current TankerMap vintage required.
+4. November 5: FAL-06 dated search ON that day. January 2, 2027: FAL-07 failure search if no qualifying strike confirmed earlier.
 
 ## OPEN THREADS / WATCHES
-- Counting-source hostile hit on Gulf-ally PRODUCTION-class facility fires D85→92. Pipelines/pumps/export terminals OUT; canonical EXIT §2a.
-- Four confirmed hull losses plus Cape Dao CONTESTED is prior vintage, not re-fetched today.
-- All five WARRISK rows expired; FLOW split DONE; STATUS/PREDICTIONS rotated below 70% of read budget with verbatim archives; CARRIED OPEN Yanbu proxy and builds remain.
-- CTP/ISW October 24 read, October 26 weekday report not recovered before 2 pm cutoff. Shafaq matched page was September 4, not fresh; no quiet declared.
+- L229 owner grade delivered; PROME docket update and BRENT BRT-30 disposition are theirs. No auto-extension/re-registration.
+- Insurance 5 rows EXPIRED; Bab CANNOT-FIRE. Current matched spread unmeasurable. L807 conservation 16 = 4 current + 11 frozen + 1 superseded remains verified.
+- Current Iraqi/PMF read incomplete; CTP October 26 body not recovered. No silent-sensor quiet inference.
+- Fourteen old BOARD membership gaps and carried builds remain; today's sweep does not claim historical backlog completion.
 
-## PREDICTIONS DUE / DECISIONS PENDING
-FAL-06 OPEN 70% (November 5); FAL-07 OPEN 65% (through December 31). No Will decision proposed.
+## PREDICTIONS / DECISIONS
+FAL-06/FAL-07 remain OPEN; no dated resolution due today. EXIT rewrite trigger not newly fired. No Will decision.
 
 ## MAIL STATE
-WALTER: six dispositioned. DEWEY/HAWK packets consumed and moved to processed; own-outbox dictionary response written, recipient consumption unverified. Historical BOARD membership scan found 15 unlogged IDs, fourteen remain after DEWEY duplicate noted; historical reconciliation separate from today's handoffs.
+BRENT daytime reply already consumed at KB 339; now moved to processed after sender commit verified. No new WALTER top-level handoffs found at opening sweep. Evening packets written; live notification/recipient acknowledgment recorded at delivery, not inferred from Git.
 
 ## PENDING PUSH / GIT
-Local path-scoped commits only. Startup pull and push deferred because LIQUID owned files and WALTER caches are dirty; foreign work untouched. No live fleet transport verified.
-
-## VALIDATION
-Correction check PASS; weekday and diff checks PASS. FLOW row conservation PASS (16 total across current/frozen/superseded). Read-cap rc0 with rotation_due=0 after verbatim STATUS event-table and resolved-prediction-history rotation; open prediction rows unchanged. WARRISK per-row rc1 EXPECTED: five expired quotes, no data clock change.
-
-BRENT incoming packet read at its owner report: cumulative CENTCOM figures cannot be current daily flow; ~14 mb/d relay no longer BRENT's adjudicated current Hormuz figure. Incoming file left unmoved while sender commit pending, avoiding a sender/recipient path race.
+Pull/push deferred for foreign in-flight BRENT/VULCAN work and WALTER caches. Own exact-path commits only. Native thread discovery now available; use verified owner sessions for packet doorbells, never a duplicate launch.

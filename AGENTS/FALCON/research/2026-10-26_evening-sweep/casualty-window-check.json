@@ -1,0 +1,95 @@
+{
+  "current": {
+    "from": "2026-09-27",
+    "through": "2026-10-26",
+    "ids": [
+      "CAS-2026-021",
+      "CAS-2026-022",
+      "CAS-2026-023",
+      "CAS-2026-024",
+      "CAS-2026-025",
+      "CAS-2026-026",
+      "CAS-2026-027",
+      "CAS-2026-028",
+      "CAS-2026-029",
+      "CAS-2026-030",
+      "CAS-2026-031",
+      "CAS-2026-033",
+      "CAS-2026-034",
+      "CAS-2026-035",
+      "CAS-2026-036"
+    ],
+    "known_numeric": {
+      "killed": 24,
+      "injured": 388,
+      "missing": 2
+    },
+    "unknown_or_approx": [
+      [
+        "CAS-2026-023",
+        "killed",
+        "unk"
+      ],
+      [
+        "CAS-2026-023",
+        "injured",
+        "unk"
+      ],
+      [
+        "CAS-2026-023",
+        "missing",
+        "unk"
+      ],
+      [
+        "CAS-2026-024",
+        "injured",
+        "unk ('several')"
+      ],
+      [
+        "CAS-2026-025",
+        "injured",
+        "unk"
+      ],
+      [
+        "CAS-2026-036",
+        "killed",
+        "unk"
+      ],
+      [
+        "CAS-2026-036",
+        "missing",
+        "unk"
+      ]
+    ]
+  },
+  "prior": {
+    "from": "2026-08-28",
+    "through": "2026-09-26",
+    "ids": [
+      "CAS-2026-014",
+      "CAS-2026-015",
+      "CAS-2026-016",
+      "CAS-2026-017",
+      "CAS-2026-018",
+      "CAS-2026-019",
+      "CAS-2026-020"
+    ],
+    "known_numeric": {
+      "killed": 7,
+      "injured": 82,
+      "missing": 1
+    },
+    "unknown_or_approx": [
+      [
+        "CAS-2026-014",
+        "injured",
+        "~70"
+      ],
+      [
+        "CAS-2026-018",
+        "injured",
+        "\u2014"
+      ]
+    ]
+  }
+}

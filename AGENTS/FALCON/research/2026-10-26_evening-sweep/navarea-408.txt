@@ -1,0 +1,10 @@
+URL: https://hydrography.paknavy.gov.pk/wp-content/plugins/navarea-warnings/custom_uploaded_warnings_for_navarea/20261026SEC 408.txt
+HTTP: 200
+261500 UTC OCT 2026
+NAVAREA IX 408/26
+CENTRAL GULF
+QATAR
+CHARTS BA 2523, 2837, 2883 AND 2886
+
+A DEADMAN ANCHOR MARKED BY UNLIT YELLOW BUOY DEPLOYED
+IN 26-38.47N 051-56.05E (.) MARINERS CAUTIONED

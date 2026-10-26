@@ -272,3 +272,4 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-26T13:39:40.533336-04:00	2026-10-25_from-DEWEY_hawk-03-marine-war-risk-prices-coverage.md	acted	inbox	Read and integrated KB-336/337; report 2026-10-26_saudi-claims-and-L807.md
 2026-10-26T13:39:40.573430-04:00	2026-10-25_from-HAWK_dictionary-confirmation.md	acted	inbox	Read and integrated KB-336/337; report 2026-10-26_saudi-claims-and-L807.md
 2026-10-26T13:41:25.697182-04:00	SIG-W-20261022-023	info-only	BOARD_SCAN	Read; same DEWEY REQ006 report already integrated KB-322. No new rate or census adopted.
+2026-10-26T17:39:33.523020-04:00	2026-10-26_from-BRENT_primary-throughput-settlement-evidence.md	acted	inbox	Previously read/integrated KB-339; sender commit verified, filed processed at evening sweep.

@@ -1,0 +1,44 @@
+[
+  {
+    "key": "oman-lecture",
+    "url": "https://www.fm.gov.om/en/62165/",
+    "status": 200,
+    "text_bytes": 23119,
+    "retrieved_at": "2026-10-26T21:29:57.975951+00:00"
+  },
+  {
+    "key": "ap-delegations",
+    "url": "https://apnews.com/article/36486edb61b3bf4e0df67e8a17123e44",
+    "status": 403,
+    "text_bytes": 60,
+    "retrieved_at": "2026-10-26T21:29:56.299365+00:00"
+  },
+  {
+    "key": "reuters-talks",
+    "url": "https://www.brecorder.com/news/40445993/saudi-arabia-says-talks-in-tehran-aim-to-prevent-escalation",
+    "status": 200,
+    "text_bytes": 9846,
+    "retrieved_at": "2026-10-26T21:29:56.457264+00:00"
+  },
+  {
+    "key": "jmic-lead",
+    "url": "https://regulasshipping.com/blog/jmic-update-108-keeps-hormuz-severe-and-logs-the-limah-hit-as-an-lpg-tanker/",
+    "status": 200,
+    "text_bytes": 21572,
+    "retrieved_at": "2026-10-26T21:29:57.381055+00:00"
+  },
+  {
+    "key": "navarea-list",
+    "url": "https://hydrography.paknavy.gov.pk/navarea-ix-warnings/",
+    "status": 200,
+    "text_bytes": 23580,
+    "retrieved_at": "2026-10-26T21:29:59.334493+00:00"
+  },
+  {
+    "key": "ctp-oct26",
+    "url": "https://www.criticalthreats.org/analysis/iran-update-october-26-2026",
+    "status": 404,
+    "text_bytes": 1435,
+    "retrieved_at": "2026-10-26T21:29:57.132541+00:00"
+  }
+]

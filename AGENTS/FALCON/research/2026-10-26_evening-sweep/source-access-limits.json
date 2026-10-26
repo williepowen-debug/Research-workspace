@@ -1,0 +1,17 @@
+{
+  "observed_at": "2026-10-26T21:40:35.330937+00:00",
+  "ukmto_182": {
+    "url": "https://www.ukmto.org/-/media/ukmto/products/20261026-ukmto_warning-182-26.pdf",
+    "requests_status": 403,
+    "web_status": "internal error",
+    "adopted_as": "RELAYED only"
+  },
+  "ukmto_183": {
+    "url": "https://www.ukmto.org/-/media/ukmto/products/20261026-ukmto_warning-183-26.pdf",
+    "requests_status": 403,
+    "web_status": "internal error",
+    "adopted_as": "THIRD_PARTY_REPORT_RELAYED"
+  },
+  "jmic108": "Primary not recovered; secondary only",
+  "ofac": "Official action date October21, not October26 digest date"
+}

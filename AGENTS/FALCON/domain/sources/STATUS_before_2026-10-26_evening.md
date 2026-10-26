@@ -1,0 +1,104 @@
+# Historical dashboard — superseded by October26 evening sweep
+
+# FALCON STATUS
+
+**Latest boot:** 2026-10-26 13:37 EDT, OpenAI GPT-6 / Codex, session ID UNKNOWN. [Receipt](reports/2026-10-26_startup-receipt.md). Startup plus user-directed Saudi-claim verification and L807 completed; source limits below. Prior scenario marks retained. Pull/push deferred: foreign dirty work.
+
+**Last substantive grade:** 2026-10-23 ~15:0x ET (PROME C8 bounded spawn, WQ-369, on WALTER IMMEDIATE SIG-W-20261023-024 + correction -031). Runtime Claude Code, model Opus (`claude-opus-5-5`), desktop. Memo: `PROME/inbox/2026-10-23_from-FALCON_sig024-strike-timing-grade.md`. *Prior:* 2026-10-22 ~13:3x ET (prome-25 posture grade; memo `PROME/inbox/2026-10-22_from-FALCON_posture-not-strike-irgc-claims-claim-only.md`); 2026-10-21 weekly review.
+**Decision read (10/23, not a review):** **Marks HELD B 1 / C 14 / D 85.** ① **No US strike on Iran (46 days since 9/8) ⇒ FAL-07 NOT FIRED, 65% registered unchanged.** Barrack (ambassador to Turkey, no Iran role) *"strike this weekend? Absolutely"* = envoy tape; Kan: CENTCOM plan **without a target date, no approval** = posture; Trump 10/23 11:33 ET *"finish it off or just … let it wither?"* = undecided; **WH in writing 10/22: "will not be attacking Iran at any time prior to the midterm elections"** (WALTER correction -031) ⇒ pledge line STANDS officially, contested by envoy tape. **Pre-11/3 strike ~10% → ~12% [EST]; weekend 10/24–10/25 ~4% [EST]** (KB-323/329). ② Bushehr evacuation + Channel 8 "US warned al-Zaidi" = CLAIM-ONLY (Bushehr material if confirmed: ~135 Rosatom staff 10/11). ③ New hull: unnamed outbound tanker struck 7 NM NE Limah 10/22 1715Z, sailed on (VI-0082, KB-324); census unchanged; IRGC "seven" 0 of 7 corroborated; NAVAREA IX newest 400/26. ④ Houthi Yanbu "fire" = CLAIM-ONLY ⇒ production rung NOT FIRED (KB-325). ⑤ GATE leg 2 NOT MET (8,200 vs 4,615, KB-326). ⑥ WARRISK Bab row CANNOT-FIRE (WQ-298, KB-328). Monday conditional: memo. *(10/22 read: `git show HEAD:AGENTS/FALCON/STATUS.md`.)*
+
+## Current marks and authority
+
+| State | Current disposition |
+|---|---|
+| B / C / D | **1 / 14 / 85** (re-marked 2026-09-28 by the Will-registered rung). **7-day review 2026-10-21: HELD** — D→C needs a 72h two-sided halt (hulls struck 10/16 ×2, 10/18, 10/20 SOYIA 1830Z, AL DASMA 10/20 (NAVAREA/IMO) or 10/21 0145Z (UKMTO) — conflict, KB-313; Houthi strikes on Saudi Arabia 10/21; **10/22 RESET: Houthi drones launched at Riyadh/Medina, intercepted (coalition, CBS 10:03 ET) ⇒ earliest completion ≥ 10/25 ~14:00Z; impacts-only reading 10/24 ~23:48Z** — KB-317); C→B needs a DATED framework (none: Rezaei 10/20 "not a single gram of enriched uranium will be removed"; Iran: no talks until sanctions/pressure dropped; Pezeshkian "we have submitted our plan"; Trump "getting close to settling a war"); nothing above 85 fired. **10/23: no change** (Limah hull 10/22 1715Z inside the reset window; completion still ≥ 10/25 ~14:00Z). Next review **2026-10-28**. |
+| D 75→85 rung | **FIRED 2026-09-28 (trigger b).** One move; cannot fire again. Letter: [EXIT_PROTOCOL §2](workbook/EXIT_PROTOCOL.md) → archive. |
+| Production rung D 85→92 | **REGISTERED 2026-10-01 (Will, WQ-355). ARMED, NOT FIRED** (graded 10/21: **Shaybah 10/21 = drone INTERCEPTED, debris outside the perimeter, operations unaffected (MoE)** ⇒ no hostile strike on the facility; Yanbu 10/16 BM intercepted, no damage (Rapidan/Reuters); IRIB "East-West pipeline targeted again" 10/16 = claim-only; Saree 10/19 Yanbu/Shaybah fires = claim-only; Reuters 10/15 "three processing hubs damaged since the war began" = historical, no asset/date). **10/23: Houthi 10/22 "Aramco facility in Yanbu, causing a fire" = CLAIM-ONLY** (coalition confirms intercepts over Riyadh/Medina only; no Aramco/SPA/MoE word; KB-325). Fires on a counting source confirming BOTH a hostile strike AND a Gulf-ally crude PRODUCTION-class facility (on/after 9/29); minor damage counts; FIRMS/imagery/claimants never count. Letter [EXIT_PROTOCOL §2a](workbook/EXIT_PROTOCOL.md). ⚠️ Base rate = 2 episodes; numbers only, no trade (WQ-192). |
+| Ship losses (`VX-FALCON-SUNK-01`) | **4 confirmed + 1 CONTESTED since spinout** (dhow 8/4 class i · Kylo 9/5, Riesco 9/8 class iii-B · **GFS PRIDE 10/13** class ii · **CAPE DAO CONTESTED 10/21**: IMO "Partially sunk", NAVAREA IX 380/26 "sinking and drifting", JMIC 105/106 dispute). (iii-A) n=0. **No new sinking 10/15–10/22.** **IRGC 10/22 claim (4 STS tankers northern Gulf + 3 mine hits west of Hormuz, "seven") = CLAIM-ONLY** — no hull, no UKMTO/JMIC/NAVAREA/IMO/operator confirmation (KB-315); DEWEY base rate: belligerent over-claiming is the historical norm (KB-322, pattern only). **Four instruments, never summed:** IMO "Sunk" = Safeen Prestige 3/4 · GFS PRIDE; UKMTO "total losses"; CENTCOM "destroyed". **No mine detonation on a hull established** (IRGC 10/17 and 10/20 claims unnamed; JMIC "no substantiation"). CENTCOM: GFS PRIDE hit by an Iranian projectile (KB-301). |
+| Predictions | FAL-05 FAILED 9/28. **FAL-06 OPEN at 70%** (no NET Gulf-ally crude/condensate loss to 2026-11-05): no force majeure; no stated production offline; Yanbu loadings reported resumed (relay); IEA September Gulf crude exports 13.9 mb/d. Dated-search precondition (WQ-433): run the search ON 2026-11-05. **FAL-07 REGISTERED 10/21 on Will's word: US offensive strike on Iran (territory, ports, or IRGC/Navy assets) 10/22–12/31, 65%**; claims, interceptions, merchant blockade enforcement, proxy/Israeli-only strikes never count; FAILED graded by a dated search 2027-01-02 (KB-314). **10/23 interim: NOT FIRED** (plan without date/approval, envoy tape; WH written no-strike-before-midterms 10/22); desk EST pre-11/3 ~12%, weekend ~4% (KB-323/329). Scoreboard **1C / 3F / 1P / 0V / 2 OPEN**. |
+| GATE-FALCON-001 | **LIVE. Graded 2026-10-21 (review_by, on time)** — letter + blocks: [FRESH_LEG_BASELINE §GATE-FALCON-001](domain/FRESH_LEG_BASELINE.md). Leg 1 FIRED 7/23 · **leg 2 NOT FIRED** (TankerMap completed UTC days 10/15–10/20 none qualified; 10/21 `100×80 = 8,000` vs `65×72 = 4,680`; 7dma ~11.4, flat-to-up; [bars 10/21](domain/tankermap/2026-10-21_bab_daily_bars.csv), KB-305) · leg 3 FIRED 8/15. **Event override NOT TRIGGERED** (no Houthi act on shipping 10/15–10/21; Al Mukalla skiff 10/17 = unattributed, piracy-class). **Next review_by 2026-10-28 (owner-set 10/21).** **10/22 touch (not a review):** current vintage revises 10/21 to 9 tankers; `100 × 82 = 8,200` vs `65 × 72 = 4,680` ⇒ NOT MET; 10/22 partial; override not triggered ([bars 10/22](domain/tankermap/2026-10-22_bab_daily_bars.csv), KB-318). **10/23 touch:** 10/22 completed = 9; `100 × 82 = 8,200` vs `65 × 71 = 4,615` ⇒ NOT MET; override not triggered ([bars 10/23](domain/tankermap/2026-10-23_bab_daily_bars.csv), KB-326). PROME owns `G:GATE-FALCON-001`. |
+| WARRISK falsifier | 🔴 LIT on its last reading (Yanbu ~3% vs 0.1% baseline; quote 9/24). **All 5 rows EXPIRED** (per-row check 10/21; Hormuz 6–10% dated ~10/06). Search 10/21: no post-10/11 broker quote found; data clock NOT advanced. **Bab AWRP row = CANNOT-FIRE 10/23** (WQ-298; instrument on `PROME/registry/UNREACHABLE_MEASUREMENTS.tsv`; KB-328). |
+| Casualty ratchet (§3 #5) | 🔴 **RED RATE-STEP HOLDS** (from `CASUALTIES.tsv`, computed 10/21): killed 9/23–10/22 = **25** (KFIA Dammam toll 1 → 2, GACA 10/22) vs 8/24–9/22 = **6** ⇒ 4.2× (computed 10/22). 🟠 **ORANGE (i) LIT**: injured 387 vs 81+. **Class-step UNFIRED** (no US/GCC-military death on/after 9/8; the US citizen killed at KKIA 10/10 is civilian). CAS-033..035. |
+| EXIT §3 indicators | **7 of 8 lit** (#1 #2 #3-energy #4-actor #5 #6 #8); #7 bypass unlit (HOLDING 92,073 vs floor 32,115 t/d, print 10/16). |
+| Thesis-kill (EXIT §1) | **0/7.** Letter = crude premium falsified, D 85 · composition = route loss, not a demonstrated barrel loss. §5 rewrite trigger: not fired (no class-iii loss). |
+| Capital / other owners | No trade or capital grade. BRENT owns prices (own `fetch.py` 10/23 14:44 ET: BZZ26 $116.51 +2.95%, CLZ26 $103.11 +3.66%, intraday vendor, not settles; ⚠️ `BZ=F` printed $111.52 −1.46% in the same minute — a vendor contract-label mismatch, cite the dated contract; BRENT's boundary #1 ≥$120 ×3 settles is ~3% away — cite BRENT). TERRY construction, Will approvals. No settle-count clock; step 12b no-op. |
+
+## Prior event detail
+
+October 14–23 event table preserved verbatim in [October 26 archive](domain/sources/STATUS_archive_2026-10-26_rotation.md). Current October 26 verification is below.
+
+## Convergence Matrix
+
+Scores retained. 7 vectors at ceiling ⇒ the composite cannot register the week. **Mark moves come from registered rungs, not from the matrix.**
+
+| Vector | Score | Current State | Threshold → Next Level | Last Updated |
+|---|---:|---|---|---|
+| Hormuz status | 5 | PortWatch newest print 10/18: 4/88, 2 tankers; 10/12–10/18 all <10 (DEEPENING), 7d 26 ≈ 3.7/day. ⚠️ **Basis: AIS-visible transit COUNT, a lower bound, NOT a volume** (AL DASMA was AIS-dark when hit; IEA Sept 10.9 mb/d through Hormuz; Kpler ~82% of pre-war via HAWK — BRENT owns volume; KB-311). Score held on the attack campaign, not the count | Verified reopening + sustained transit recovery → down | Oct 21 (print Oct 18) |
+| Iran/proxy military ops | 5 | 5 hulls struck 10/16–10/20 (UKMTO 174–180-26) incl. Al Jubail ×2 and Al-Faw (northern Gulf); "≥10 in the week to 10/17" relayed only; Houthi land campaign: KFIA Dammam 10/21 (1 killed), Shaybah intercept (2 killed), Yanbu intercept 10/16; IRGC mine claims | 1wk two-sided quiet incl. proxies → 3 | Oct 22 (IRGC 7-claim CLAIM-ONLY; Riyadh/Medina drones) |
+| US-Iran direct kinetic | 5 | No US strike on Iran since 9/8 (46 days); blockade enforced; CENTCOM plan without target date (Kan); WH written no-strike-before-midterms 10/22; ordered departure Saudi-only; carrier surge by late Nov | Formal ceasefire + blockade lifted → 2 | Oct 23 (Barrack/Kan/WH graded; no strike) |
+| Oil price / energy tape | 5 | BRENT-owned; Z6 $109.86 10/16 (WALTER relay) | Registered fade <$78 settles → 4/3, BRENT input | Oct 21 (cite only) |
+| Gulf production/bypass infra | 5 | Shaybah + Yanbu intercepted; no production hit confirmed; bypass HOLDING 92,073 vs floor 32,115 t/d (print 10/16) | At ceiling | Oct 21 |
+| Diplomacy | 3 | Busy, undated: Pakistan/Qatar shuttle, Iran preconditions (sanctions, enrichment), "table remains in place" | Dated framework → 2; talks collapse EVENT → 4 | Oct 22 (indirect talks continue; Istanbul FMs 10/23) |
+| Shipping / insurance | 5 | JMIC 106 Arabian Gulf SUBSTANTIAL; IMO 119 incidents / 24 seafarer deaths (10/21); war-risk quotes stale (Hormuz 6–10% ~10/06) | At ceiling | Oct 21 (premia 10/06) |
+| Cyber / data chokepoint | 2 | IRGC cable threats renewed 10/19, 10/21; no cable incident | Operator-confirmed in-theater cyber OR cable incident | Oct 21 |
+| Global macro / credit | 3 | HY 331bp, 3rd close >320 (WALTER/LIQUID 10/16) — owner input, not graded here | HY/OAS or VIX regime shift → 4 | Oct 21 (cite) |
+| Bab al-Mandab | 5 | TankerMap 7dma ~11.4/day flat-to-up; no Houthi act on shipping 10/15–10/21 | At ceiling; read the gate letter | Oct 23 (TankerMap 82 vs 71) |
+
+**Convergence: 43/50** (unchanged).
+
+## Molecule and measurement controls
+
+- **Four quantities, never collapsed:** nameplate ≠ routed flow ≠ stated offline capacity (none on record) ≠ net supply loss (not demonstrated).
+- **Four loss instruments, never summed** (FALCON census · IMO "Sunk" · UKMTO total losses · CENTCOM "destroyed"). **An authority can revise a "Sunk" downward** (Cape Dao 10/14 → 10/21): re-fetch the IMO table before quoting any loss count.
+- **A FIRMS detection is heat, never a cause or a facility.** Own pull 10/12–10/21: Khurais heat declining (489 → 11 MW day-sum), Shaybah 10/21 inside its 9-day range, Abqaiq quiet. FIRMS area API: ≤5-day requests.
+- **A transit count is not a flow** (KB-311): PortWatch sees AIS-visible ships only; never cite it as a supply or volume figure.
+- **Which-sea check:** WALTER's "MT ST 3 struck in Hormuz" = IMO ST3 at 68 NM NE of Al Jubail. Place the hull by the IMO/UKMTO position, never by the headline.
+- **Vendor vintage:** TankerMap revises recent days (and flagged `stale_data` 10/21); grade completed UTC days on the current vintage.
+
+## Owed (dated)
+
+| Item | Due |
+|---|---|
+| GATE-FALCON-001 review (TankerMap bars, current vintage) | **2026-10-28** (override: immediately on any Bab enforcement event) |
+| 7-day scenario review | **2026-10-28** |
+| **Saudi production-class watch (standing):** a counting source naming **Abqaiq**, **Ain Dar/Shedgum crude units**, **Khurais**, **Shaybah** (field/GOSP, not perimeter debris) (pipelines, pumping stations and export terminals are OUT under EXIT_PROTOCOL §2a) with a hostile strike ⇒ FIRE D 85→92, C 14→7, PROME first line same hour. Storage tank, gas plant, office, airport, or intercept-debris outside the fence ⇒ OUT | **standing** |
+| Cape Dao: re-adjudicate when IMO/JMIC settle (CONTESTED, not deleted) | at each IMO fetch |
+| KOTC/Kuwait: a 4th Kuwait hull ⇒ propose a registered operator-concentration watch (not a letter today) | standing |
+| ✅ VESSELS: UKMTO 174–180-26 mapped (WALTER -012, KB-306); AL DASMA date = CONFLICT (UKMTO 21 Oct 0145Z vs NAVAREA 396/IMO 20 Oct; KB-313); open: AL KHARSAAH bearing, 178-26 hull; PETRO DOLPHIN missing crew; Safeen Prestige (IMO 3/4) type/attacker/HAWK record | next session (WALTER offered the UKMTO pull) |
+| WARRISK: L807 re-pull/declare DONE October 26; all 5 rows still EXPIRED. Bab CANNOT-FIRE, current matched spread unmeasurable | next genuine dated broker quote |
+| CTP/ISW October 24 body read; weekday October 26 report not recovered before 2 pm cutoff. Shafaq matched article is September 4, not fresh. Baghdad October 24 generic advisory proves no quiet | next published daily update |
+| Strike ledger sweep completed calendar days through October 25; October 26 partial to 13:37 EDT, zero new established facility rows | done October 26; newest event date September 10 remains honestly old |
+| Kpler/Vortexa weekly Saudi crude export print covering 9/29→ (FAL-06 route c) | next vendor pub |
+| **DOCKET L229 Iran–Oman permanent-route window** — FIRES only on Iranian AND Omani official word (or a joint statement / IMO circular) that a PERMANENT corridor is AGREED; talks, coordinates, Iran-only claims, US statements = not a fire. **10/22: LAPSE ~95%** (Omani MFA zero items 10/21–10/22; IRGC firing on traffic using a non-Iranian route near Oman; KB-319). No FALCON mark consequence either way (KB-308); BRENT owns BRT-30. **Primary read 10/21 (KB-312): Omani MFA 10/06–10/21, 100 posts, zero corridor/permanent-route items** (UK PM 10/21: efforts to get Hormuz "reopened"); Iranian MFA English archives no Oman item; ONA unreachable, Iranian Farsi not read | **2026-10-26** |
+| FAL-06 resolves (dated search ON the day) | **2026-11-05** |
+| FAL-07 resolves (CONFIRMED in-session on a qualifying strike; FAILED only by the dated search) | **2027-01-02** |
+| FRESH_LEG_BASELINE hot/cold split (50,024 B, over the read cap; not boot-read whole) | carried build |
+| L807 FLOW split + WARRISK attempt/declare | DONE October 26; 4 current +11 frozen +1 superseded rows conserved; all insurance quotes still expired |
+| 🔴 CARRIED (MEMORY): KB-168 Yanbu terminus proxy unbuilt | carried build |
+| Carried builds: sub-$80 duration bar, bypass empty-series guard, archive-content guard, EXIT_PROTOCOL boot reader, VX sweep | carried |
+
+## Ownership, mail and provenance
+
+**10/23 (PROME C8 spawn):** drained **8 of 8** — WALTER `SIG-W-20261022-028`, `-038`, `20261023-018`, `-024`, `-031` (correction; COR-20261023-31 receipted APPLIED) + CYPHER boundary (CONFIRMED by packet) + DAEDALUS WQ-508 (B25/B27 applied by DAEDALUS `f4149bf51`, not contested) + PROME Bab AWRP (row marked CANNOT-FIRE; attempts correction to PROME); rows in `board_log`, `git mv` to `processed/`; census 0/0/0. **10/22 (prome-25 spawn):** drained **4 of 4** — WALTER `SIG-W-20261021-027`, `20261022-003`, `20261022-007` (all acted) + DEWEY `2026-10-22_from-DEWEY_tanker-war-base-rates` (acted, KB-322); rows in `board_log`, `git mv` to `processed/`; `inbox/data/` empty; census 0/0/0. **10/21:** drained **16 of 16** — WALTER 15 (`SIG-W-20261014-035`, `20261015-009/-010`, `20261016-003/-018/-024/-026/-035`, `20261018-002`, `20261019-003/-005`, `20261020-030/-031/-032`, `20261021-007`; 11 acted, 1 noted, 3 info-only — rows in `board_log`, `git mv` to `processed/`) + PROME ORACLE packet (10/15, info). Correction COR-20261014-35 receipted NO-OP (WQ-399 form); check PASS. WALTER `walter-14` catch-up brief (SendMessage, 10/21 ~20:3x ET) matched the inbox; replied. Prior sessions' mail records are in git history.
+
+## Verified changes and claims — October 26, 13:37 EDT
+
+[Owner report and L807 acceptance](reports/2026-10-26_saudi-claims-and-L807.md), KB-333..338. Direct packet written to BRENT inbox, HAWK copied; BRENT consumption acknowledged in its 13:40 owner report and incoming packet; HAWK consumption unverified.
+
+| Object | Evidence and owner grade |
+|---|---|
+| East-West pumping stations, October 26 | Saree claim reported by Reuters; no immediate Saudi confirmation. No station IDs, damage, new shutdown or measured export effect established. CLAIM-ONLY. September 22 repair image is historical. Pipeline/pumps are OUT of production rung even if hit later confirmed |
+| Riyadh airport, October 26 | Claimant says hit; coalition official indexed SPA N2710291 says Riyadh missile intercepted. New airport impact/damage/incremental closure NOT ESTABLISHED |
+| Airport operations, October 8–25 | Reuters/Cirium 4,071 /4,736 scheduled flights cancelled (~85.96%); Gulf News uses cancelled/no-fly departures. Two terminals partially reopened October 25. Historic cumulative disruption is real reporting, not proof today's claimed hit landed or current utilization |
+| Thermal candidate | NOAA20/21 query at UNVERIFIED PS3-labelled coordinates returned no detections in October 17–26 windows. This cannot establish no fire/damage/disruption; no facility ID or overpass completeness verified |
+| Shipping basis (BRENT reply) | CENTCOM October 25 cumulative assisted barrels/transits and safe-passage fraction are separate populations/clocks; no current daily rate inferred. BRENT withdraws ~14 mb/d relay as its single adjudicated current Hormuz figure. Report source verified at BRENT artifact, own CENTCOM body fetch failed |
+| Diplomacy / L229 | Mediation is not executed settlement or restored shipping. No permanent corridor agreement recovered as of cutoff; end-of-day grade still owed |
+| FLOW L807 | DONE. Source actually 16 rows, with duplicate04: 4 current unique FALCON +11 frozen HAWK +1 superseded duplicate, verbatim row multiset conserved. FLOW-HAWK-12 historical FIRING preserved, not silently rewritten MUTED |
+| WARRISK L807 | DONE as re-pull attempt and declaration. No new comparable quotes. All five rows EXPIRED; Bab CANNOT-FIRE and paid-data pointer retained. Same-vintage historical 6–9 /~3 =2–3x recomputed; current spread unmeasurable. No Value/As_Of/Prior/Stale_By changed |
+| Boot instruments | Transit October 18 (8 days old), bypass October 16 (10 days old): no new prints. HOLDING describes that vintage, current bypass UNKNOWN. Correction check PASS. No predictions due for dated resolution; no settle clock |
+
+Facility sweep now covers completed calendar days through October 25 plus October 26 PARTIAL. No new established energy facility row; absence of a row is not absence of a strike. Six WALTER handoffs and DEWEY/HAWK owner packets consumed. Scoped BOARD membership check additionally found 15 historical unlogged IDs (mostly August); full historical backlog reconciliation is separate from today's handoffs. October 22 DEWEY BOARD-023 read, same report already consumed at KB-322; no new finding. No unverified old item promoted as current.
+
+## BOTTOM LINE
+
+The pumping-station and fresh Riyadh-airport hits remain claims; no new pipeline damage, shutdown, lost barrels or airport impact was established. Severe airport disruption through October 25 is separately evidenced, with partial reopening rather than normalization. Prior marks remain B 1 / C 14 / D 85; L807 is completed without refreshing stale insurance figures or widening expiry limits. Next evidence is named-station/operator damage and flow status, post-claim airport operations, and a genuinely dated matched broker quote.
