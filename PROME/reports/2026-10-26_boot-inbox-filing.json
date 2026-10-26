@@ -1,0 +1,102 @@
+[
+  {
+    "old": "PROME/inbox/2026-10-25_from-CRUISE_C1-writeback-repair.md",
+    "new": "PROME/inbox/processed/2026-10-25_from-CRUISE_C1-writeback-repair.md",
+    "sha256": "b73c9e904c37540c561769440915ca471445c713e91de0f1a56be5a9661a932b"
+  },
+  {
+    "old": "PROME/inbox/2026-10-25_from-CRUISE_catchup-and-watch-reconciliation.md",
+    "new": "PROME/inbox/processed/2026-10-25_from-CRUISE_catchup-and-watch-reconciliation.md",
+    "sha256": "64a05f084d4b1e1457a15843c4b200ac9ae91c664f9f2b3036449ce6f936b263"
+  },
+  {
+    "old": "PROME/inbox/2026-10-25_from-CRUISE_port-pass-and-earnings-readiness.md",
+    "new": "PROME/inbox/processed/2026-10-25_from-CRUISE_port-pass-and-earnings-readiness.md",
+    "sha256": "9425f7fbcb9fdcc74db274d3709950baafdfd08874652fd9625ede065b8dcd7a"
+  },
+  {
+    "old": "PROME/inbox/2026-10-25_from-CRUISE_session-closeout.md",
+    "new": "PROME/inbox/processed/2026-10-25_from-CRUISE_session-closeout.md",
+    "sha256": "2b13a0419d004cc697c980d5d385be2f821674ac86faf94c4f80a366e9f44a60"
+  },
+  {
+    "old": "PROME/inbox/2026-10-25_from-CRUISE_stale-file-sweep-phase1.md",
+    "new": "PROME/inbox/processed/2026-10-25_from-CRUISE_stale-file-sweep-phase1.md",
+    "sha256": "e1b3f40a5ec3c74518f2a21b2ffda942687f4ea27a28522065ac4252576717af"
+  },
+  {
+    "old": "PROME/inbox/2026-10-25_from-CRUISE_stale-file-sweep-phase2.md",
+    "new": "PROME/inbox/processed/2026-10-25_from-CRUISE_stale-file-sweep-phase2.md",
+    "sha256": "78026ed8ba2da36f531a92427825925f9ccfe19ad547e2f67d8fb250fa8099f3"
+  },
+  {
+    "old": "PROME/inbox/2026-10-25_from-DEWEY_hawk-three-research-returns.md",
+    "new": "PROME/inbox/processed/2026-10-25_from-DEWEY_hawk-three-research-returns.md",
+    "sha256": "253b14c532d14510f679dbbbfbfe1124bbc090ba73023da08562bbe71b115cc4"
+  },
+  {
+    "old": "PROME/inbox/2026-10-25_from-MARCO_M1-index-repair.md",
+    "new": "PROME/inbox/processed/2026-10-25_from-MARCO_M1-index-repair.md",
+    "sha256": "e35c39d124b6d2de15ebc0ea15bd885b77383e889d5995765f06922f8dd952d4"
+  },
+  {
+    "old": "PROME/inbox/2026-10-25_from-MARCO_domestic-seats-LAS-complete.md",
+    "new": "PROME/inbox/processed/2026-10-25_from-MARCO_domestic-seats-LAS-complete.md",
+    "sha256": "24ef498974db2abe9ff3d1f27d3cb91ac3c89bf1785c5e3a3b2e3e1344dba5e9"
+  },
+  {
+    "old": "PROME/inbox/2026-10-25_from-MARCO_session-closeout.md",
+    "new": "PROME/inbox/processed/2026-10-25_from-MARCO_session-closeout.md",
+    "sha256": "7849cbad9274d51800256ab019c1a5334a06e7ada38efa3a7ff532617a3d0554"
+  },
+  {
+    "old": "PROME/inbox/2026-10-25_from-MARCO_stale-file-sweep-phase1.md",
+    "new": "PROME/inbox/processed/2026-10-25_from-MARCO_stale-file-sweep-phase1.md",
+    "sha256": "ead576d41ca8628de3e18708e30749b16d5445a931c3234139ad75c974b4e3b5"
+  },
+  {
+    "old": "PROME/inbox/2026-10-25_from-MARCO_stale-file-sweep-phase2.md",
+    "new": "PROME/inbox/processed/2026-10-25_from-MARCO_stale-file-sweep-phase2.md",
+    "sha256": "b26a19870267afc35cf6d056a24b1f159d21a28b6e9318754d446e8d079be184"
+  },
+  {
+    "old": "PROME/inbox/2026-10-25_from-OTTO_domain-catchup-and-source-gaps.md",
+    "new": "PROME/inbox/processed/2026-10-25_from-OTTO_domain-catchup-and-source-gaps.md",
+    "sha256": "48e9754907b7a3851af239d9af3dff403284f3a12bf70958fb9c39abc0a4def0"
+  },
+  {
+    "old": "PROME/inbox/2026-10-25_from-OTTO_financing-terms-and-Ally-pass-complete.md",
+    "new": "PROME/inbox/processed/2026-10-25_from-OTTO_financing-terms-and-Ally-pass-complete.md",
+    "sha256": "0e09d0fc87790b12a1c775335e4b75af32913a359dcb601b39b3dc2f3fe8eb0f"
+  },
+  {
+    "old": "PROME/inbox/2026-10-25_from-OTTO_session-closeout.md",
+    "new": "PROME/inbox/processed/2026-10-25_from-OTTO_session-closeout.md",
+    "sha256": "70f1a17590812af9fab07499b82975c57e203b9253323b57d9536cd6ce5aa9f9"
+  },
+  {
+    "old": "PROME/inbox/2026-10-25_from-OTTO_stale-file-sweep-phase1.md",
+    "new": "PROME/inbox/processed/2026-10-25_from-OTTO_stale-file-sweep-phase1.md",
+    "sha256": "cb74ea07254d47830fe4b22bfaf335eb0c81fe2ed8476e0d9a3e07aaf089662c"
+  },
+  {
+    "old": "PROME/inbox/2026-10-25_from-OTTO_stale-file-sweep-phase2-complete.md",
+    "new": "PROME/inbox/processed/2026-10-25_from-OTTO_stale-file-sweep-phase2-complete.md",
+    "sha256": "bbc22015b01e4b005651913927da9588513f2cc1835516633c901a9eb4b21bfa"
+  },
+  {
+    "old": "PROME/inbox/2026-10-25_from-OTTO_stale-sweep-final-prose-corrected.md",
+    "new": "PROME/inbox/processed/2026-10-25_from-OTTO_stale-sweep-final-prose-corrected.md",
+    "sha256": "1913cc37d225d84fa2d5775aaf0554d04d2eb44bf45f5c774d8bfe45c4658e22"
+  },
+  {
+    "old": "PROME/inbox/2026-10-25_from-OTTO_writeback-audit-O1-O2-repaired.md",
+    "new": "PROME/inbox/processed/2026-10-25_from-OTTO_writeback-audit-O1-O2-repaired.md",
+    "sha256": "0bd71206b83600a8e09f99beb1c38ae7d546b5132b3a8433b2515fb10f7e87ae"
+  },
+  {
+    "old": "PROME/inbox/2026-10-26_from-BRENT_monday-routine-wti-continues-near-100-plus-weekend-escalation-claims.md",
+    "new": "PROME/inbox/processed/2026-10-26_from-BRENT_monday-routine-wti-continues-near-100-plus-weekend-escalation-claims.md",
+    "sha256": "24728010d0b54a50c8fdf12e9b0a33b184b3b9e153ca88957abcf481521091d1"
+  }
+]
