@@ -3,8 +3,8 @@
 **Status:** 🔴🔴 fraud/recovery losses; both systemic-transmission legs DISCONFIRMED. Convergence 33/50, 21 points from one root.
 **Domain:** Auto fraud, subprime collateral, conditional financing access and named-counterparty transmission.
 **Thesis version:** v1.5 plus October19 and October25 bounded addenda; final v1.6 remains prospective October30.
-**Recent thesis pivots:** October25 s037: selected new-issue cost rises at Bridgecrest/CPS while access persists; Exeter spread counterexample remains. No systemic-leg, probability, colour or threshold change. October19 forecast/rule corrections stand.
-**As of:** 2026-10-25 22:20 ET | STATUS commit: `e608beeb1fb7c2331489448a873e63bc8c6c0685`
+**Recent thesis pivots:** no conviction pivot in s039; accepted dated factual reconciliation/source limits at Phase2 READOUT. October25 s037: selected new-issue cost rises at Bridgecrest/CPS while access persists; Exeter spread counterexample remains. No systemic-leg, probability, colour or threshold change. October19 forecast/rule corrections stand.
+**As of:** 2026-10-25 23:17 ET | STATUS commit: `63cb6063e9130d8d870d86e61d5a18aee02963a6`
 
 ---
 
@@ -14,6 +14,8 @@
 
 | To | Evidence / owner result | Priority | Mechanism and boundary |
 |---|---|---|---|
+| REGINALD · NEXUS · PROME | s039 mixed bank-loss aggregate retired; original SDT commentary explicitly corrected | 🟡 | No comparable current767M total: dates/currencies/cases and exposure/commitment/charge-off bases differ. Seven historical observations/unknowns at Phase2 BANK_OBSERVATIONS; REGINALD/WAL own sizing. No rescore. SDT consequence remains original3total; no extra run. |
+| CARL · NEXUS | Edmunds Q3 dated depth update; watchlist labels qualified | 🟡 | Financed-new trade-in population only; Q3 mean7107 aboveQ2 6884, belowQ1 7183. Exact compatible Experian new-only Q2 term share unverified. This updates dated context, not causal confidence, formal SDT verdict or a new credit/rating census. Phase2 READOUT/source limits. |
 | CARL · LIQUID · REGINALD · NEXUS · RED | s037 financing comparison: ten tranche rows/five pairs across three selected shelves | 🟠 | Same-issuer pricing: Bridgecrest D spread +30bp/yield +89.6bp July–October; Exeter D spread flat June–August. Similar rating/life helps, but collateral/structure differ. Access, coupon, spread and all-in yield stay separate; no current secondary quote or market census. |
 | WALTER · CARL · LIQUID · NEXUS | CPS class coupons/initial protection higher with both deals completed; issuer weighted-coupon prose/table mismatch preserved | 🟡 | Do not use the prose as verified blended borrowing cost. Common DBRS rating does not erase the other-agency/life/structure changes. Tables/calculation and all source limits: financing-terms/READOUT. |
 | WALTER · REGINALD · NEXUS | EART2026-4 closing date corrected August28→August31 | 🟡 | Primary closing8-K Item1.01 controls. Old October14 relay037 carries the wrong date; correction packet authored. Issuance finding and historical forecast grades unchanged. |
@@ -46,7 +48,7 @@
 
 ## CALIBRATION
 
-- **s038 summary reconciliation:** completed October25 reports/dates are indexed and CATO OR1 is CLOSED within inspected owner frontier `990753244` (review `566c749dc`). OT1 remains OPEN for the existing October30 causal-confidence/illustrative-positioning review. No new research, canonical financial-state, forecast or catalyst change.
+- **s039 accepted stale-file repair:** mixed bank total retired, historical examples/date pointers and metadata reconciled. OR1 is CLOSED only at inspected990753244/review566c749dc; OT1/finalv1.6 staysOctober30. Watchlist current-rating/old-ECNL gaps, some bank bases and exact Experian split remain explicit. Full docket/audio/TrustV still missing. Actual lastSDT runAugust14; after-Oct14/19-refresh cadence was not satisfied by a recorded run. November remains scheduled second quarterly observation, original consequence3total. No new verdict, probability, colour, threshold, calendar date, causal-confidence or executable producer change.
 
 - **s037 financing boundary:** current selected repricing sharpens access-versus-cost distinction without reopening systemic funding conviction. Yield-minus-spread residual is algebra, not a separate observed benchmark series. CPS principal-weighted table arithmetic does not reproduce issuer headline coupons; no verified effective blended-cost assertion. Primary price terms are confirmed; Ally commentary remains a secondary transcript, not primary-audio verification. All probabilities, colours, SDT rules and October30 final-thesis timing remain unchanged.
 
@@ -56,7 +58,7 @@
 - **Instrument gaps:** OTTO-11 STUCK60% because2025 application alerts do not measure H2-2026 proven prevalence; OTTO-10 NEEDS_VERIFY until a covering Equifax edition. Terms/deadlines unchanged. Narrow custody remains unmeasured; current credit does not resolve private counterparty terms.
 - **Source specificity:** Gotham's displayed article is the February18 follow-up, not an October report because its comments are recent. No dependable activist/earnings cadence, report-arrival probability or holding instruction.
 - **Historical bank response is not advance edge:** WQ524 clarifies a completed bank consequence, not public pre-loss warning or current broad contagion. WQ523 identifies a future contractual boundary but not current cash runway or an exercised remedy.
-- **Verification:** 28 calendar event mirrors,8 unresolved predictions and unchanged conviction/rule pairs checked;17 saved source captures hash-verified. Three named corrections receipted; whole-inbox intake10 packets. Full WINTERKORN future-date re-verification remains incomplete. Charter edits underWQ508 were already applied4da79f1ee and verified; no new structural rule adopted.
+- **Verification:** s039 preserves all20 forecast rows/terms except appendedOTTO35 notes; all28 calendar events/dates/classes and8 unresolved mirrors, conviction block, numeric SDT boundaries and executable shelf AST checked. Nineteen preimages and two saved fresh raw captures hash-verified; frozen rows/history preserved. Earlier s036 hash-check covered17 captures. Three named corrections receipted; whole-inbox intake10 packets. Full WINTERKORN future-date re-verification remains incomplete. Charter edits underWQ508 were already applied4da79f1ee and verified; no new structural rule adopted.
 - **Diverge from market by:** case recoveries remain the narrow concern; systemic ABS freeze/bank-propagation bearishness stays retracted. No new price comparison or validated advance timing established in this pass.
 - **Cross-agent tensions:** broad-index/lender stability and continued financing support coexist with worsening deep pools. Any current-freeze claim needs fresh access/spread evidence; annual issuance cannot settle it. BROCK/LIQUID company constraints are not proof of lender-bank propagation.
 
@@ -66,4 +68,4 @@ Carvana publishedQ3 disclosures October28 and Exeter September collections appro
 
 ## FORWARD CATALYSTS
 
-Canonical event set and definitions: `docket/CATALYSTS.tsv`; no independent calendar here. Next: First BrandsOctober27; Carvana/BROCKOctober28; Exeter~October29; finalv1.6October30; Car-Mart existing owner checksOctober30/November2; ManheimNovember6; SDT~November15. Source gaps: BlackRock/suppression orders, D&O disposition, VRM outcome, primary Ally audio and actual flows. Full future-date docket sweep remains owed; paid access was not used.
+Canonical event set and definitions: `docket/CATALYSTS.tsv`; no independent calendar here. Next: First BrandsOctober27; Carvana/BROCKOctober28; Exeter~October29; finalv1.6October30; Car-Mart existing owner checksOctober30/November2; ManheimNovember6; SDT~November15. Source gaps: BlackRock/suppression orders, D&O disposition, VRM outcome, primary Ally audio/flows, some bank bases/current rating outcomes and exact Experian split. Full future-date docket sweep remains owed; paid access was not used.
