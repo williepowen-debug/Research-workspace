@@ -1,0 +1,159 @@
+{
+  "repo-results": {
+    "url": "https://markets.newyorkfed.org/api/rp/repo/all/results/latest.json",
+    "retrieved": "2026-10-26T17:44:24.520364+00:00",
+    "status": 200,
+    "sha256": "d8d45de82f18cb9f66c98a261cf462e8a246359fb16f0943376d545bb87f1191",
+    "data": {
+      "repo": {
+        "operations": [
+          {
+            "operationId": "RP 102626 25",
+            "auctionStatus": "Results",
+            "operationDate": "2026-10-26",
+            "settlementDate": "2026-10-26",
+            "maturityDate": "2026-10-27",
+            "operationType": "Repo",
+            "operationMethod": "Full Allotment",
+            "settlementType": "Same Day",
+            "termCalenderDays": 1,
+            "term": "Overnight",
+            "releaseTime": "08:15",
+            "closeTime": "08:30",
+            "note": "",
+            "lastUpdated": "2026-10-26 08:30:39",
+            "totalAmtSubmitted": 0,
+            "totalAmtAccepted": 0,
+            "details": [
+              {
+                "securityType": "Treasury",
+                "amtSubmitted": 0,
+                "amtAccepted": 0,
+                "percentOfferingRate": 4.0
+              },
+              {
+                "securityType": "Agency",
+                "amtSubmitted": 0,
+                "amtAccepted": 0,
+                "percentOfferingRate": 4.0
+              },
+              {
+                "securityType": "Mortgage-Backed",
+                "amtSubmitted": 0,
+                "amtAccepted": 0,
+                "percentOfferingRate": 4.0
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "repo-announcements": {
+    "url": "https://markets.newyorkfed.org/api/rp/repo/all/announcements/latest.json",
+    "retrieved": "2026-10-26T17:44:24.573295+00:00",
+    "status": 200,
+    "sha256": "eafc3387765c82472e35d2652b482d7cacf712b3390ae0068a8ac52d2046e2e8",
+    "data": {
+      "repo": {
+        "operations": [
+          {
+            "operationId": "RP 102626 27",
+            "auctionStatus": "Released",
+            "operationDate": "2026-10-26",
+            "settlementDate": "2026-10-26",
+            "maturityDate": "2026-10-27",
+            "operationType": "Repo",
+            "operationMethod": "Full Allotment",
+            "settlementType": "Same Day",
+            "termCalenderDays": 1,
+            "term": "Overnight",
+            "releaseTime": "13:30",
+            "closeTime": "13:45",
+            "note": "",
+            "lastUpdated": "2026-10-26 13:30:00"
+          }
+        ]
+      }
+    }
+  },
+  "sofr": {
+    "url": "https://markets.newyorkfed.org/api/rates/secured/sofr/last/5.json",
+    "retrieved": "2026-10-26T17:44:24.581139+00:00",
+    "status": 200,
+    "sha256": "b5cb46710d48847365d0140455e685cc58300d85ae52fba1090b63ea3e9300f5",
+    "data": {
+      "refRates": [
+        {
+          "effectiveDate": "2026-10-23",
+          "type": "SOFR",
+          "percentRate": 3.92,
+          "percentPercentile1": 3.85,
+          "percentPercentile25": 3.9,
+          "percentPercentile75": 3.97,
+          "percentPercentile99": 4.0,
+          "volumeInBillions": 3065,
+          "revisionIndicator": ""
+        },
+        {
+          "effectiveDate": "2026-10-22",
+          "type": "SOFR",
+          "percentRate": 3.9,
+          "percentPercentile1": 3.83,
+          "percentPercentile25": 3.88,
+          "percentPercentile75": 3.95,
+          "percentPercentile99": 3.98,
+          "volumeInBillions": 2945,
+          "revisionIndicator": ""
+        },
+        {
+          "effectiveDate": "2026-10-21",
+          "type": "SOFR",
+          "percentRate": 3.88,
+          "percentPercentile1": 3.83,
+          "percentPercentile25": 3.86,
+          "percentPercentile75": 3.93,
+          "percentPercentile99": 3.96,
+          "volumeInBillions": 2942,
+          "revisionIndicator": ""
+        },
+        {
+          "effectiveDate": "2026-10-20",
+          "type": "SOFR",
+          "percentRate": 3.88,
+          "percentPercentile1": 3.83,
+          "percentPercentile25": 3.86,
+          "percentPercentile75": 3.93,
+          "percentPercentile99": 3.96,
+          "volumeInBillions": 2925,
+          "revisionIndicator": ""
+        },
+        {
+          "effectiveDate": "2026-10-19",
+          "type": "SOFR",
+          "percentRate": 3.87,
+          "percentPercentile1": 3.83,
+          "percentPercentile25": 3.85,
+          "percentPercentile75": 3.92,
+          "percentPercentile99": 3.95,
+          "volumeInBillions": 2888,
+          "revisionIndicator": ""
+        }
+      ]
+    }
+  },
+  "b3-price-band": {
+    "url": "https://sistemasweb.b3.com.br/PlantaoNoticias/Noticias/Detail?agencia=17&dataNoticia=2026-10-26+09%3A07%3A56&idNoticia=3527929",
+    "retrieved": "2026-10-26T17:44:24.595772+00:00",
+    "status": 200,
+    "sha256": "06b6b18c131a0683bf8678a71ff9969d2dcd1d97d026df0ca2112d7dce75e6d3",
+    "text": "Plant\u00e3o de Not\u00edcias Plant\u00e3o de Not\u00edcias Selecione um ou mais crit\u00e9rios para realizar sua busca. Voc\u00ea pode realizar v\u00e1rias consultas, sempre dentro do intervalo m\u00e1ximo de at\u00e9 30 dias: Buscar Limpar [Suporte a Negociacao] 666/2026-SSN - Alteracao dos Limites de Oscilacao Diaria (IND/WIN) | Change to Daily Price Fluctuation Limits (IND/WIN) Ola Cliente, \r\n \r\nA partir das 09h30 de hoje, 26/10/2026, exclusivamente para a sessao de negociacao de pregao regular, serao expandidos os limites inferiores de oscilacao diaria para os vencimentos abaixo: \r\n \r\n. Contrato Futuro de Indice BOVESPA (IND): dos atuais -15% para -20% (todos os vencimentos)\r\n. Mini Contrato Futuro de Indice BOVESPA (WIN): dos atuais -15% para -20% (todos os vencimentos)\r\n \r\nHello Client, Starting at 09:30 a.m. today, Oct 26, 2026, solely for the regular trading session, the lower daily price fluctuation limits for the contracts below will be expanded: \r\n \r\n. BOVESPA Index Futures Contract (IND): from the current -15% to -20% (all maturities) \r\n. Mini BOVESPA Index Futures Contract (WIN): from the current -15% to -20% (all maturities) Visualizar Todas Not\u00edcias Canais de Atendimento"
+  },
+  "retail-treasury": {
+    "url": "https://www.tesourodireto.com.br/ja/w/atraso-na-abertura-do-mercado",
+    "retrieved": "2026-10-26T17:44:24.723902+00:00",
+    "status": 200,
+    "sha256": "edb41fdae2b90eb3b6ed54c108dbad70b8b205c147d8f03c03d09dd8ab8e780a",
+    "text": "Atraso na abertura do mercado - Tesouro Direto \u30e1\u30a4\u30f3\u30b3\u30f3\u30c6\u30f3\u30c4\u306b\u30b9\u30ad\u30c3\u30d7 IR CONTE\u00daDO IR MENU IR RODAP\u00c9 Menu menu Tesouro Reserva Produtos T\u00edtulos Tesouro Selic Ideal para reserva de emerg\u00eancia Tesouro IPCA+ Rentabilidade sempre acima de infla\u00e7\u00e3o Tesouro Educa+ Planeje a Educa\u00e7\u00e3o dos seus filhos Tesouro RendA+ Viabilize uma aposentadoria confort\u00e1vel Tesouro Prefixado Garanta uma rentabilidade fixa Servi\u00e7os Tesouro Direto Coletivo Tesouro Direto Coletivo Gift Card Presenteie amigos, familiares e pessoas queridas com um cart\u00e3o presente Dados sobre T\u00edtulos Rendimento dos T\u00edtulos Consulte os t\u00edtulos que est\u00e3o dispon\u00edveis para investimento e resgate Rentabilidade acumulada Rentabilidade dos t\u00edtulos em caso de resgate antecipado Hist\u00f3rico de Pre\u00e7os e Taxas Saiba quais foram os t\u00edtulos mais rent\u00e1veis de cada m\u00eas Pagamento de juros Programa\u00e7\u00e3o das datas de pagamento de juros semestrais Simuladores Meu t\u00edtulo ideal Descubra qual o t\u00edtulo ideal para o seu objetivo Calculadora avan\u00e7ada Estime a rentabilidade dos t\u00edtulos Como investir Avisos Fique por dentro das novidades Bancos e corretoras Encontre uma institui\u00e7\u00e3o financeira D\u00favidas frequentes Requisitos b\u00e1sicos, quanto custa investir, hor\u00e1rio de funcionamento e muito mais Sobre o Tesouro Quem somos Tudo o que voc\u00ea precisa saber sobre o Tesouro Regras e Regulamento Informa\u00e7\u00f5es e normas do tesouro direto Entrar Abrir conta boy Para voc\u00ea escalator_warning Para o menor de idade Menu close Tesouro Reserva Tesouro Reserva Produtos keyboard_arrow_down T\u00edtulos keyboard_arrow_down Tesouro Selic Tesouro IPCA+ Tesouro Educa+ Tesouro RendA+ Tesouro Prefixado Servi\u00e7os keyboard_arrow_down Tesouro Direto Coletivo Gift Card Dados sobre T\u00edtulos keyboard_arrow_down Rendimento dos T\u00edtulos Rentabilidade acumulada Hist\u00f3rico de Pre\u00e7os e Taxas Pagamento de juros Simuladores keyboard_arrow_down Meu t\u00edtulo ideal Calculadora avan\u00e7ada Como investir keyboard_arrow_down Avisos Bancos e corretoras D\u00favidas frequentes Sobre o Tesouro keyboard_arrow_down Quem somos Regras e Regulamento Abrir conta boy Para voc\u00ea escalator_warning Para o menor de idade Entrar warning Digite aqui o texto a ser exibido close Atraso na abertura do mercado 26/10/2026 10:00 Atraso na abertura do mercado O Tesouro Direto informa que est\u00e1 fechado para negocia\u00e7\u00e3o devido \u00e0 alta volatilidade nas taxas de juros dos t\u00edtulos p\u00fablicos nesta manh\u00e3. A expectativa \u00e9 de normaliza\u00e7\u00e3o ao longo do dia. O Tesouro Reserva, que n\u00e3o possui marca\u00e7\u00e3o a mercado, continua funcionando normalmente. Para saber mais, acesse Tesouro Reserva . Footer Acompanhe o Tesouro Direto em nossas redes OLITEF TD Impacta Termo do uso Tesouro Transparente Tesouro Nacional Quem somos D\u00favidas frequentes Regulamento Avisos Contato Tesouro Nacional - Todos os direitos reservados Esplanada dos Minist\u00e9rios, Ed. Sede do Minist\u00e9rio da Fazenda, Bloco\n            P - CEP 70.048-900 Bras\u00edlia - DF Copyright \u00a9 2025 Tesouro Direto Termo do uso \u975e\u8868\u793a"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "BRL=X": {
+    "pair": "JPY per BRL",
+    "last": 28.96695070345852,
+    "prior": 30.989524860609713,
+    "change_pct": -6.526638166440735,
+    "leg_times": [
+      "2026-10-26T17:44:00+00:00",
+      "2026-10-26T17:44:00+00:00"
+    ],
+    "basis": "derived from same-vendor USD legs; prior daily close clocks not independently established"
+  },
+  "MXN=X": {
+    "pair": "JPY per MXN",
+    "last": 8.477352569890186,
+    "prior": 8.359374350489247,
+    "change_pct": 1.411328341744067,
+    "leg_times": [
+      "2026-10-26T17:44:00+00:00",
+      "2026-10-26T17:44:00+00:00"
+    ],
+    "basis": "derived from same-vendor USD legs; prior daily close clocks not independently established"
+  },
+  "ZAR=X": {
+    "pair": "JPY per ZAR",
+    "last": 9.46340143392848,
+    "prior": 9.49593736064606,
+    "change_pct": -0.3426299635507113,
+    "leg_times": [
+      "2026-10-26T17:44:00+00:00",
+      "2026-10-26T17:44:00+00:00"
+    ],
+    "basis": "derived from same-vendor USD legs; prior daily close clocks not independently established"
+  }
+}

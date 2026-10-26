@@ -1,0 +1,20 @@
+{
+  "braziljournal": {
+    "url": "https://braziljournal.com/bloody-monday-b3-e-csn-desabam-40-btg-e-bb-mergulham-30",
+    "status": 200,
+    "retrieved": "2026-10-26T17:45:44.227101+00:00",
+    "body_sha256": "ef18b7f2f3bf8f4044d46231f0e96fc5854789bd8bf4eb2b93dbe3f8bb576346",
+    "body_chars": 3784,
+    "excerpt": "lgumas quedas estão exageradas por causa dos stop losses ,” disse um gestor de ações. “Ainda vai levar um tempo par",
+    "keyword_found": true
+  },
+  "aephel": {
+    "url": "https://www.aephel.com/research/daily-brief/2026-10-26-morning-brief-monday-october-26-2026",
+    "status": 403,
+    "retrieved": "2026-10-26T17:45:44.456793+00:00",
+    "body_sha256": "18f2a0947f9d6523991b29b450307f22773f57d65f7efb98d48a167df04d6b1d",
+    "body_chars": 7,
+    "excerpt": "Blocked",
+    "keyword_found": false
+  }
+}

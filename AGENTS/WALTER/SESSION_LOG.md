@@ -1,3 +1,12 @@
+### Prior morning bottom line preserved verbatim (October26 unwind update)
+
+Morning catchup covers Brazil’s exchange halt, new AI financing terms, Microsoft’s voluntary exit offer, the EQT–Range merger, Tehran diplomacy/Yemen claims and three economic releases. Meta’s $95B headline is not cash raised; SpaceX’s $40B lease remains conditional. Dallas sentiment improved while production/orders slowed and price pressure rose. No owner grade or trade changed. Eleven cards and 44 create-only handoffs are written; publication and consumption remain unverified. Full boot/context/source gaps remain in LAST_COMPLETION.md.
+
+
+## 2026-10-26T17:49:26Z — light-closeout — full deferred
+
+Will-directed triggered-unwind investigation: anonymous local-stop report found; named forced liquidations/collateral calls not verified. Snapshot13:44ET mixed, afternoon repo primary13:47ET$5M. Card012/four handoffs committed locally with delivery pending. ManifestBM-20261026-03 four content items; no source kills. WQ5159/10, no grading. No foreign working files edited; no new trade/monitor/desk launch. Report and source limits: research/2026-10-26_unwind-search/. Prior duties retained in LAST_COMPLETION.
+
 ## October26 Brazil explanation — light closeout, full deferred
 
 Will-directed mechanism/exposure explanation; fiscal/positioning/forced-sale layers separated, auction-scope qualification and post-event measurement gaps retained. Evidence/research priorities: research/2026-10-26_morning/BRAZIL-INTERPRETATION.md. No new research commission/dispatch/trade. Earlier delivery still unconfirmed; full boot/lifecycle duties unchanged.

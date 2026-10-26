@@ -1,0 +1,174 @@
+{
+  "as_of": "2026-10-26T17:51:51.911599+00:00",
+  "created_unique_paths": 5,
+  "WQ515_count": 9,
+  "hash_checks": [
+    {
+      "signal": "SIG-W-20261026-001",
+      "path": "AGENTS/WALTER/research/2026-10-26_morning/SOURCE-CHECKS.md",
+      "basis": "current-path",
+      "hash": "MATCH"
+    },
+    {
+      "signal": "SIG-W-20261026-001",
+      "path": "BOARD/SIG-W-20261026-001-meta-financing-launch-35b-plus-unestablished-60b-program.md",
+      "basis": "current-path",
+      "hash": "MATCH"
+    },
+    {
+      "signal": "SIG-W-20261026-001",
+      "path": "AGENTS/BROCK/inbox/WALTER/SIG-W-20261026-001.md",
+      "basis": "current-path",
+      "hash": "MATCH"
+    },
+    {
+      "signal": "SIG-W-20261026-002",
+      "path": "AGENTS/WALTER/research/2026-10-26_morning/SOURCE-CHECKS.md",
+      "basis": "current-path",
+      "hash": "MATCH"
+    },
+    {
+      "signal": "SIG-W-20261026-002",
+      "path": "BOARD/SIG-W-20261026-002-spacex-apollo-40b-gpu-lease-binding-commitment-not-closed.md",
+      "basis": "current-path",
+      "hash": "MATCH"
+    },
+    {
+      "signal": "SIG-W-20261026-002",
+      "path": "AGENTS/BROCK/inbox/WALTER/SIG-W-20261026-002.md",
+      "basis": "current-path",
+      "hash": "MATCH"
+    },
+    {
+      "signal": "SIG-W-20261026-003",
+      "path": "AGENTS/WALTER/research/2026-10-26_morning/SOURCE-CHECKS.md",
+      "basis": "current-path",
+      "hash": "MATCH"
+    },
+    {
+      "signal": "SIG-W-20261026-003",
+      "path": "BOARD/SIG-W-20261026-003-anthropic-public-ipo-filing-reported-terms-and-primary-access-gap.md",
+      "basis": "current-path",
+      "hash": "MATCH"
+    },
+    {
+      "signal": "SIG-W-20261026-003",
+      "path": "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261026-003.md",
+      "basis": "immutable originally committed version; owner may have moved current path",
+      "hash": "MATCH"
+    },
+    {
+      "signal": "SIG-W-20261026-005",
+      "path": "AGENTS/WALTER/research/2026-10-26_morning/SOURCE-CHECKS.md",
+      "basis": "current-path",
+      "hash": "MATCH"
+    },
+    {
+      "signal": "SIG-W-20261026-005",
+      "path": "BOARD/SIG-W-20261026-005-microsoft-voluntary-exit-offer-not-realized-layoffs.md",
+      "basis": "current-path",
+      "hash": "MATCH"
+    },
+    {
+      "signal": "SIG-W-20261026-005",
+      "path": "AGENTS/LABOR/inbox/WALTER/SIG-W-20261026-005.md",
+      "basis": "current-path",
+      "hash": "MATCH"
+    },
+    {
+      "signal": "SIG-W-20261026-006",
+      "path": "AGENTS/WALTER/research/2026-10-26_morning/SOURCE-CHECKS.md",
+      "basis": "current-path",
+      "hash": "MATCH"
+    },
+    {
+      "signal": "SIG-W-20261026-006",
+      "path": "BOARD/SIG-W-20261026-006-eqt-range-all-stock-merger-combined-enterprise-value.md",
+      "basis": "current-path",
+      "hash": "MATCH"
+    },
+    {
+      "signal": "SIG-W-20261026-006",
+      "path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261026-006.md",
+      "basis": "immutable originally committed version; owner may have moved current path",
+      "hash": "MATCH"
+    },
+    {
+      "signal": "SIG-W-20261026-007",
+      "path": "AGENTS/WALTER/research/2026-10-26_morning/SOURCE-CHECKS.md",
+      "basis": "current-path",
+      "hash": "MATCH"
+    },
+    {
+      "signal": "SIG-W-20261026-007",
+      "path": "BOARD/SIG-W-20261026-007-tehran-regional-security-meeting-yemen-claims-no-settlement.md",
+      "basis": "current-path",
+      "hash": "MATCH"
+    },
+    {
+      "signal": "SIG-W-20261026-007",
+      "path": "AGENTS/FALCON/inbox/WALTER/SIG-W-20261026-007.md",
+      "basis": "immutable originally committed version; owner may have moved current path",
+      "hash": "MATCH"
+    },
+    {
+      "signal": "SIG-W-20261026-009",
+      "path": "AGENTS/WALTER/research/2026-10-26_morning/SOURCE-CHECKS.md",
+      "basis": "current-path",
+      "hash": "MATCH"
+    },
+    {
+      "signal": "SIG-W-20261026-009",
+      "path": "BOARD/SIG-W-20261026-009-dallas-fed-october-output-orders-slow-price-pressure-rises.md",
+      "basis": "current-path",
+      "hash": "MATCH"
+    },
+    {
+      "signal": "SIG-W-20261026-009",
+      "path": "AGENTS/ISHM/inbox/WALTER/SIG-W-20261026-009.md",
+      "basis": "current-path",
+      "hash": "MATCH"
+    },
+    {
+      "signal": "SIG-W-20261026-010",
+      "path": "AGENTS/WALTER/research/2026-10-26_morning/SOURCE-CHECKS.md",
+      "basis": "current-path",
+      "hash": "MATCH"
+    },
+    {
+      "signal": "SIG-W-20261026-010",
+      "path": "BOARD/SIG-W-20261026-010-ifo-october-secondary-rise-expectations-current-conditions-diverge.md",
+      "basis": "current-path",
+      "hash": "MATCH"
+    },
+    {
+      "signal": "SIG-W-20261026-010",
+      "path": "AGENTS/HANS/inbox/WALTER/SIG-W-20261026-010.md",
+      "basis": "current-path",
+      "hash": "MATCH"
+    },
+    {
+      "signal": "SIG-W-20261026-012",
+      "path": "AGENTS/WALTER/research/2026-10-26_unwind-search/SOURCE-CHECKS.md",
+      "basis": "current-path",
+      "hash": "MATCH"
+    },
+    {
+      "signal": "SIG-W-20261026-012",
+      "path": "BOARD/SIG-W-20261026-012-brazil-stop-loss-report-and-mixed-carry-pattern-no-named-forced-seller.md",
+      "basis": "current-path",
+      "hash": "MATCH"
+    },
+    {
+      "signal": "SIG-W-20261026-012",
+      "path": "AGENTS/SAM/inbox/WALTER/SIG-W-20261026-012.md",
+      "basis": "current-path",
+      "hash": "MATCH"
+    }
+  ],
+  "manual_review": "Anonymous local stops reported, no named verified forced seller/collateral call; mixed market proxies are not causal proof; timing/basis preserved. No owner grade/trade/desk launch/standing monitor.",
+  "retirement_review": "Only selected new/current event evidence reviewed; no retirement/archive move. Full historical lifecycle remains overdue.",
+  "checks": "Weekday/diff/readcap/archive pass. Ledger nudge REVIEW: zero kills, route/delivery/manifest updated. Doctor pending-delivery/backlog/lifecycle/full-closeout debt retained. Selected receipt PASS applies October25 only.",
+  "publication": "Unverified; pending delivery; push deferred for foreign dirty work and authentication boundary.",
+  "inbox": "New VULCAN/LIQUID notifications pending separately; no consumption/intake marks."
+}

@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-26",
+  "scope": [
+    "English/Portuguese dated Brazil forced liquidations, margin calls, redemptions, stops",
+    "B3 price bands/margins/default notices",
+    "Brazil yen/MXN/ZAR cross-market transmission"
+  ],
+  "selected_content_items": 4,
+  "manifest": "BM-20261026-03",
+  "new_finding": "one anonymous local stop-loss amplification report, not named verified forced seller",
+  "public_coverage_limits": "No complete CVM/paid-prime-broker/clearing-position census; no negative-proof claim",
+  "article_original": "Brazil Journal HTTP200 read; search body and short saved excerpt; full copyrighted text not retained",
+  "aephel": "indexed body read, original403; no adopted causal carry claim"
+}
