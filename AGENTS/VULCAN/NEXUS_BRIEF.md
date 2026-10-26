@@ -3,7 +3,7 @@
 **Status:** S1 3 / S2 2 / S3 3 / S4 3 / S5 4 = **15/25**, unchanged. One fired channel, S5, two events: Firmus withdrawal and Volta under Will's B choice; WQ-464 retains score4.
 **Domain:** AI-capex / semiconductor / memory systemic transmission; shared AI-demand root counted once.
 **As of:** 2026-10-26T13:47:46-04:00 | **STATUS commit:** 859f120d9
-**Variant:** FULL. Will-directed October26 financing pass, KB-295..299; reports/2026-10-26_financing/REPORT.md. Originals/hashes/scoped reads retained. No market-price refresh. Native Codex list/read verified; discovery truncated, BROCK/WATT presence UNKNOWN. Notification acceptance and consumption separate. Push pending missing GitHub credentials.
+**Variant:** FULL. Will-directed October26 financing pass, KB-295..299; reports/2026-10-26_financing/REPORT.md. Originals/hashes/scoped reads retained. No market-price refresh. Native Codex list/read verified; discovery truncated, BROCK/WATT presence UNKNOWN. Native doorbells accepted for PROME/LIQUID/WALTER after commit594ff5c39; consumption unverified. BROCK/WATT/HENRY/VIOLET file delivery awaits verified recipient transport. Push pending missing GitHub credentials.
 
 ## CROSS-DOMAIN
 
