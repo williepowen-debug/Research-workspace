@@ -4,7 +4,7 @@
 **Domain:** Auto fraud, subprime collateral, conditional financing access and named-counterparty transmission.
 **Thesis version:** v1.5 plus October19 and October25 bounded addenda; final v1.6 remains prospective October30.
 **Recent thesis pivots:** October25 s037: selected new-issue cost rises at Bridgecrest/CPS while access persists; Exeter spread counterexample remains. No systemic-leg, probability, colour or threshold change. October19 forecast/rule corrections stand.
-**As of:** 2026-10-25 21:35 ET | STATUS commit: `e608beeb1fb7c2331489448a873e63bc8c6c0685`
+**As of:** 2026-10-25 22:20 ET | STATUS commit: `e608beeb1fb7c2331489448a873e63bc8c6c0685`
 
 ---
 
@@ -45,6 +45,8 @@
 - Convergence33/50 is an index over correlated local colours, not probability or independent breadth. STATUS owns cells/arithmetic; THESIS owns conviction and rules.
 
 ## CALIBRATION
+
+- **s038 summary reconciliation:** completed October25 reports/dates are indexed and CATO OR1 is CLOSED within inspected owner frontier `990753244` (review `566c749dc`). OT1 remains OPEN for the existing October30 causal-confidence/illustrative-positioning review. No new research, canonical financial-state, forecast or catalyst change.
 
 - **s037 financing boundary:** current selected repricing sharpens access-versus-cost distinction without reopening systemic funding conviction. Yield-minus-spread residual is algebra, not a separate observed benchmark series. CPS principal-weighted table arithmetic does not reproduce issuer headline coupons; no verified effective blended-cost assertion. Primary price terms are confirmed; Ally commentary remains a secondary transcript, not primary-audio verification. All probabilities, colours, SDT rules and October30 final-thesis timing remain unchanged.
 
