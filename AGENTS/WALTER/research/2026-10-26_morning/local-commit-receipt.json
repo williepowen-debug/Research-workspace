@@ -1,0 +1,16 @@
+{
+  "as_of": "2026-10-26T16:55:56.703728+00:00",
+  "commits": [
+    "56aebdd9957f5a9d3b9a86bbe26039e7d2674955",
+    "9ccbf8c20cafa56320d16218a8f55ff4683c1c3a"
+  ],
+  "board_cards": 11,
+  "handoffs": 44,
+  "all_authored_dispatch_paths_tracked": true,
+  "push": "DEFERRED",
+  "delivery": "written_not_delivered_pending_push",
+  "recipient_consumption": "UNKNOWN",
+  "reason": "Earlier Git authentication failed; existing untracked cache work remains, no clean-tree auto-push claim. WALTER standing authority does not cover blanket push.",
+  "post_commit_closeout_check": "PASS on retained October25 receipt only; NOT evidence for October26 publication",
+  "tracked_tree_clean": true
+}

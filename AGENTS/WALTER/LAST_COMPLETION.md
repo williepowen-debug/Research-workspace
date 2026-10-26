@@ -12,7 +12,9 @@ WILL_NEEDS: No new decision. Existing WQ503 and prior approvals retained below.
 FOLLOW-UP: WQ515 sample remains OPEN at8/10 through registered cutoff; source→WALTER hop observed, owner hop and destination records UNKNOWN. Complete prior inbox/boot/source/lifecycle duties below; publication/consumption separate.
 OPEN DESIGN DECISIONS: Unchanged from retained predecessor.
 
-Selected light checks will be saved under research/2026-10-26_morning/closeout/. Their receipt check may read the older structured full-closeout receipt below; that is not proof of this cohort’s publication.
+Local commit receipt:56aebdd99 +9ccbf8c20 contain all11 cards/44 handoffs. All55 dispatch paths are tracked; tracked tree was clean after commits. Push DEFERRED, delivery unchanged. Exact evidence: research/2026-10-26_morning/local-commit-receipt.json. Post-commit closeout_check PASS reads October25 only and does not validate this cohort.
+
+Selected light checks are saved under research/2026-10-26_morning/closeout/. Their receipt check may read the older structured full-closeout receipt below; that is not proof of this cohort’s publication.
 
 ## Retained prior completion and obligations — unchanged
 
