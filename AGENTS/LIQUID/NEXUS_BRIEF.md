@@ -1,7 +1,7 @@
 # LIQUID — NEXUS Brief
 
-**As of:** 2026-10-26T19:09:30-04:00 | STATUS commit: `545b21e7202dcc70bfa1253b7aa96474ec6abed3`
-**Evidence frontier:** October26 closing vendor bars/matched5pm FX proxies retained from17:35ET; fresh18:56ET first-published/NYFed pull still endsOctober23 for credit/SOFR/H.15. Friday10Y5.00%/30Y5.33%, notMonday. Official October26 accepted Brazilian purchases recovered18:57ET, settlementOctober27; UBR NAV CSV endsOctober23, contract notes/historical collateral recovered. Full clocks/units/receipts→`research/2026-10-26_brazil-feasibility-execution/REPORT.md`. Credit metadata is not wall-clock publication evidence. Routine substantive fold after final STATUS; no repeated repair, gate, collector or sizing change. Current publication receipt follows separately.
+**As of:** 2026-10-26T19:17:49-04:00 | STATUS commit: `9a2181201f8a76790817aa0cad5ed750f02b3931`
+**Evidence frontier:** October26 closing vendor bars/matched5pm FX proxies retained from17:35ET; fresh18:56ET first-published/NYFed pull still endsOctober23 for credit/SOFR/H.15. Friday10Y5.00%/30Y5.33%, notMonday. Official October26 accepted Brazilian purchases recovered18:57ET, settlementOctober27; UBR NAV CSV endsOctober23, contract notes/historical collateral recovered. Full clocks/units/receipts→`research/2026-10-26_brazil-feasibility-execution/REPORT.md`. Credit metadata is not wall-clock publication evidence. Routine substantive fold after final STATUS; no repeated repair, gate, collector or sizing change. Research published85f1f4fad; workbook follow-through→`audits/2026-10-26_workbook-followthrough/REPORT.md`,KB147–149/calendar twins reconciled. No new measurement or grade; current publication receipt follows separately.
 
 ## Current judgment
 
