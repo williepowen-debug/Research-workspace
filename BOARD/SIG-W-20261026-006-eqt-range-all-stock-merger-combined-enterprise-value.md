@@ -1,0 +1,29 @@
+---
+signal_id: "SIG-W-20261026-006"
+date: "2026-10-26"
+timestamp: "2026-10-26T16:40:23Z"
+dispatched: "2026-10-26T16:40:23Z"
+source: "WALTER"
+origin: "EQT/Range joint issuer release October 26; Range SEC 8-K indexed terms corroborate exchange ratio"
+domain: "OIL_ENERGY"
+cluster: "HYDROCARBON_INFRA"
+action: ["BRENT"]
+info: ["WATT", "HENRY", "RED"]
+precedence: "PRIORITY"
+signal_type: "research"
+confidence: 0.93
+confidence_language: "confirmed"
+resources: 1
+safety_net: "clear"
+word_count: 133
+entities: ["EQT", "Range-Resources", "RRC", "Appalachia"]
+event_window: "closed"
+dispatch_note: "Morning catchup; source/body boundaries stated; no owner grade/trade; written locally, publication/consumption unverified."
+---
+# EQT agrees to acquire Range in stock; over $50B refers to the combined enterprise value
+
+EQT and Range announced an all-stock merger at 0.987 EQT shares for each Range share. Over $50B is the pro-forma combined enterprise value, not a verified purchase price paid for Range. Issuers expect Q1 2027 completion, conditional on shareholder/regulatory approvals and customary terms; synergies and future cash flow are management forecasts, not realized outcomes. Combined net output is described as over 9Bcfe/day, not crude barrels.
+
+BRENT ACTION: integrate the gas-supply/marketing consolidation into existing natural-gas work. WATT/HENRY/RED INFO for gas-to-power and sector structure; no immediate production increment or power-price effect inferred. Issuers cancel October 28 earnings calls but retain October 27 after-close results; this is a dated calendar change, not a request for a new program.
+
+Source: https://ir.eqt.com/newsroom/news-releases/news-release-details/2026/EQT-Announces-Strategic-Acquisition-of-Range-Resources-Creating-Americas-Undisputed-Natural-Gas-Champion/default.aspx

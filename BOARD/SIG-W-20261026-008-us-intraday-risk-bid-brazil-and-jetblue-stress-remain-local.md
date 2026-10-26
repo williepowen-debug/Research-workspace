@@ -1,0 +1,34 @@
+---
+signal_id: "SIG-W-20261026-008"
+date: "2026-10-26"
+timestamp: "2026-10-26T16:40:23Z"
+dispatched: "2026-10-26T16:40:23Z"
+source: "WALTER"
+origin: "FORGE vendor tape retrieved October26 around16:33Z; Reuters October23 JetBlue adviser report; live US market coverage"
+domain: "MARKET_VOL"
+cluster: "POSITIONING_VALUATION"
+action: ["HENRY"]
+info: ["VIOLET", "LIQUID", "REGINALD", "SAM", "NEXUS", "RED"]
+precedence: "PRIORITY"
+signal_type: "divergence"
+confidence: 0.88
+confidence_language: "reports"
+resources: 1
+safety_net: "clear"
+word_count: 153
+entities: ["SP500", "Nasdaq", "VIX", "KRE", "WAL", "JetBlue", "JBLU", "EWZ"]
+event_window: "closed"
+dispatch_note: "Morning catchup; source/body boundaries stated; no owner grade/trade; written locally, publication/consumption unverified."
+signal_role: "cluster_mediating"
+---
+# US stocks rebound intraday while Brazil and JetBlue remain under pressure; no broad funding conclusion
+
+Separate intraday vendor snapshot: S&P 500 7,679.59(+0.73%), Nasdaq 26,208.62(+0.98%), VIX 18.36(−5.60%), KRE 72.84(+0.52%), WAL 76.25(+0.16%). These are October 26 intraday readings, not closes or causal attribution. Brazil's separate shock in 004 has not produced a simultaneous US equity selloff in this snapshot; that does not clear offshore/private funding risk.
+
+JBLU 2.27(−13.88%) is a fresh tape consequence. The adviser-hiring report dates October 23 (Reuters relaying WSJ/unnamed people), not a new Monday hire or a bankruptcy filing. Prior SIG-W-20261025-016 preserves bond-price/adviser verification gaps; no new TRACE trade claimed.
+
+Continuous Brent headlines differ from the requested December series; no cross-contract change or official settlement grade supplied. Earlier fresh US threshold subset established no new fire, not complete registry clearance.
+
+HENRY ACTION: integrate this dated cross-market snapshot into existing transmission work. VIOLET/LIQUID/REGINALD/SAM/NEXUS/RED INFO. No trade or new correlation study.
+
+Source: https://www.investing.com/news/stock-market-news/jetblue-creditors-working-with-restructuring-adviser-pjt-partners-wsj-reports-4970498

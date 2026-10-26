@@ -1,0 +1,62 @@
+[
+  {
+    "key": "meta",
+    "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Announces-Launch-of-Offering-of-Depositary-Shares-Representing-Series-A-Mandatory-Convertible-Preferred-Stock-and-Offering-of-Class-A-Common-Stock-in-Connection-with-Forward-Sale-Agreements/default.aspx",
+    "final_url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Announces-Launch-of-Offering-of-Depositary-Shares-Representing-Series-A-Mandatory-Convertible-Preferred-Stock-and-Offering-of-Class-A-Common-Stock-in-Connection-with-Forward-Sale-Agreements/default.aspx",
+    "status": 403,
+    "retrieved_at": "2026-10-26T16:35:51.244523+00:00",
+    "sha256": "31f4212be41f91ff3fc76e1aa4001363e5e64c748d8a2746f020bf14761218bc",
+    "text_bytes": 58,
+    "sec_links": []
+  },
+  {
+    "key": "spacex",
+    "url": "https://ir.spacex.com/updates/releases-details/2026/SPACEX-SECURES-40-BILLION-IN-THE-LARGEST-GPU-FINANCING-EVER-2026-EnDqGhTAB3/",
+    "final_url": "https://ir.spacex.com/updates/releases-details/2026/SPACEX-SECURES-40-BILLION-IN-THE-LARGEST-GPU-FINANCING-EVER-2026-EnDqGhTAB3/",
+    "status": 403,
+    "retrieved_at": "2026-10-26T16:35:51.226270+00:00",
+    "sha256": "c95b116c5cfed9341a961c724019f64c3528bb046b83c92cb5ce9924f042f43a",
+    "text_bytes": 58,
+    "sec_links": []
+  },
+  {
+    "key": "microsoft",
+    "url": "https://blogs.microsoft.com/blog/2026/10/26/introducing-a-voluntary-exit-offer/",
+    "final_url": "https://blogs.microsoft.com/blog/2026/10/26/introducing-a-voluntary-exit-offer/",
+    "status": 403,
+    "retrieved_at": "2026-10-26T16:35:51.520517+00:00",
+    "sha256": "32f2fa940d4b4fe19aca1e53a24e5aac29c57b7c5ee78588325b87f1b649c864",
+    "text_bytes": 33,
+    "sec_links": []
+  },
+  {
+    "key": "eqt",
+    "url": "https://ir.eqt.com/newsroom/news-releases/news-release-details/2026/EQT-Announces-Strategic-Acquisition-of-Range-Resources-Creating-Americas-Undisputed-Natural-Gas-Champion/default.aspx",
+    "final_url": "https://ir.eqt.com/newsroom/news-releases/news-release-details/2026/EQT-Announces-Strategic-Acquisition-of-Range-Resources-Creating-Americas-Undisputed-Natural-Gas-Champion/default.aspx",
+    "status": 403,
+    "retrieved_at": "2026-10-26T16:35:51.121484+00:00",
+    "sha256": "9d93792e9aad36638362b01d35e4bcae62a204bea56ae05409278836fe2bdc86",
+    "text_bytes": 58,
+    "sec_links": []
+  },
+  {
+    "key": "b3",
+    "url": "https://www.b3.com.br/pt_br/noticias/b3-informa.htm",
+    "final_url": "https://www.b3.com.br/pt_br/noticias/b3-informa.htm",
+    "status": 200,
+    "retrieved_at": "2026-10-26T16:35:51.334081+00:00",
+    "sha256": "9c1e94a357e5e895699c1cc5b8b321e20a8865d8b4323f10168773363eacaf42",
+    "text_bytes": 1335,
+    "sec_links": []
+  },
+  {
+    "key": "anthropic-mirror",
+    "url": "https://www.stocktitan.net/sec-filings/ANT/s-1-anthropic-pbc-files-s-1-registration-statement-a0477b41760e.html",
+    "final_url": "https://www.stocktitan.net/sec-filings/ANT/s-1-anthropic-pbc-files-s-1-registration-statement-a0477b41760e.html",
+    "status": 403,
+    "retrieved_at": "2026-10-26T16:35:51.341311+00:00",
+    "sha256": "78342a0905a72ce44da083dcb5d23b8ea0c16992ba2a82eece97e033d76ba3d3",
+    "text_bytes": 9,
+    "sec_links": []
+  }
+]

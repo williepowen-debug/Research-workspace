@@ -1,0 +1,459 @@
+{
+  "meta": [
+    {
+      "path": "BOARD/SIG-W-20261014-032-iran-full-reverify-week-to-oct15-fal01-firm-negative-imo-three-sunk-none-in-census-saudi-deaths-cross-ratchet-bar-ladder-not-fired.md",
+      "title": "# Iran full re-verify, week to October 15: FAL-01 stays firm-negative; IMO lists three ships sunk, none in FALCON's census; Riyadh-airport deaths appear to cross FALCON's casualty bar; no ladder item fired",
+      "matches": [
+        "Class C"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261005-004-uk-shipping-sanctions-bounded-sakhalin-licences.md",
+      "title": "# UK designates eight ships; Sakhalin-2 licensing remains contract- and date-limited",
+      "matches": [
+        "Class C"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261004-009-micron-q4-fy26-record-ai-memory-supercycle-54B-rev-fq1-27-guide-61-5B-VULCAN-has-it-ARCHIVE.md",
+      "title": "# Micron Q4 FY26 \u2014 record AI-memory super-cycle; FQ1-27 guided $61.5B; **VULCAN already has it** \u2192 BOARD archive record",
+      "matches": [
+        "Class C"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261022-033-anecdote-unnamed-national-property-manager-150k-units-says-multifamily-worst-in-40-years-class-b-oversupply-renters-on-credit-cards-lender-forbearance-UNVERIFIED-HOMER.md",
+      "title": "# UNVERIFIED anecdote: an unnamed executive overseeing about 150,000 apartments at a national property manager says US multifamily is the worst in 40 years. Class A tenants stretched, Class B oversupplied, Class C tenants not paying, and some large sponsors unpaid on mortgages for 2\u20133 years without foreclosure",
+      "matches": [
+        "Class C"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261022-006-ai-tape-oct22-meta-minus-6point7-cds-record-two-vendor-levels-lam-supply-constraints-caps-dec-guide-soxx-minus-5point8-tesla-capex-cut-20b-VULCAN-LIQUID.md",
+      "title": "# AI tape October22: Meta -6.7% and its 5-year CDS at a record (two vendors, two levels); Lam -10% as supply constraints cap its December guide; SOXX -5.8%; Tesla cut 2026 capex to about $20B",
+      "matches": [
+        "Class C"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261015-015-CORRECTION-fleet-bloc-claim-private-credit-is-opaque-WITHDRAWN-wq364-ruled-two-named-gaps-survive-aare-note-14-and-exit-pricing-in-fund-filings.md",
+      "title": "# SIG-W-20261015-015 \u2014 CORRECTION (fleet-bloc-class): the \"private credit is opaque\" bloc claim is WITHDRAWN fleet-wide (WQ-364 ruled 2026-10-15); TWO NAMED GAPS SURVIVE \u2014 AARe Note 14 and exit pricing in fund filings. Any downstream reasoning that treated opacity as a uniform property of the private-credit asset class should be re-based on the two named gaps.",
+      "matches": [
+        "Class C"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261021-015-meta-q3-capex-34point91b-2026-capex-135-145b-narrowed-up-fcf-minus-2point12b-9point89b-legal-charge-class-c-nonvoting-recap-VULCAN.md",
+      "title": "# Meta Q3 (October21 8-K): capex $34.91B; 2026 capex $135\u2013145B (low end raised); free cash flow \u2212$2.12B; $9.89B legal charge; new non-voting Class C stock dividend",
+      "matches": [
+        "Class C"
+      ]
+    }
+  ],
+  "spacex": [
+    {
+      "path": "BOARD/SIG-W-20261008-024-AI-infra-financing-WSJ-broadcom-50B-is-OPENAI-chip-separate-from-60B-anthropic-oracle-off-balance-sheet-chip-lease-SPV-spacex-40B-not-30yr-ABS-firmus-IPO-struggles-APLD-VULCAN-BROCK.md",
+      "title": "# AI-infra financing 10/8: the WSJ's \"Broadcom seeks >$50B\" is for **OpenAI's** chip and is a different deal from the ~$60B Anthropic-linked package; Oracle is talking to Apollo and Goldman about an off-balance-sheet chip-lease vehicle; SpaceX's ~$40B is loans plus investment-grade debt (the \"30-year ABS\" is not established); an AI data-centre IPO is struggling",
+      "matches": [
+        "Apollo"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261022-036-dewey-regional-bank-software-by-product-fis-fiserv-jack-henry-q2-none-in-kev-viral-ai-stories-three-channels-no-us-bank-compromise-straiker-400-targets-latam-CYPHER.md",
+      "title": "# DEWEY research (Will-directed): named regional-bank software concentrates in FIS IBS, Fiserv, Jack Henry and Q2, none of them on CISA's known-exploited list. Today's viral \"AI hacking banks\" stories are three separate stories, and none names a US bank compromise or a dollar loss",
+      "matches": [
+        "Apollo"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261013-013-volta-underwriting-order-not-cleared-financing.md",
+      "title": "# Volta financing reports shift underwriting risk; Apollo\u2019s order is not an insurer exposure or closed allocation",
+      "matches": [
+        "Apollo"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261002-022-GATE-BRK-R2-a-FIRED-2-on-OCIC-q3-prelim-30pct-third-consecutive-prorated-quarter-8-K-411315-BROCK-graded-queue-shrinking-not-accelerating.md",
+      "title": "# BROCK: the redemption gate GATE-BRK-R2 (a) has FIRED on Blue Owl's OCIC, the second fund to trip it. The queue is shrinking, not accelerating.",
+      "matches": [
+        "Apollo"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261016-005-volta-5B-loan-reported-final-95c-S650-UNCONFIRMED-single-source-vs-talk-S625-650-OID-97-98-airtrunk-firmus-sb-energy-listings-pulled-or-paused-oracle-cds-record-288.md",
+      "title": "# SIG-W-20261016-005 \u2014 Volta's ~$5B loan reportedly priced at 95c, S+650 (UNCONFIRMED single source) vs talk S+625\u2013650 / 97\u201398; AirTrunk, Firmus and SB Energy listings pulled or paused (Reuters); Oracle 5Y CDS record 288 bp",
+      "matches": [
+        "Apollo"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261002-021-blue-owl-Q3-OCIC-16-8pct-OTIC-39pct-requests-vs-5pct-cap-OCIC-3rd-consecutive-sub-100pct-on-issuer-letter-GATE-BRK-R2-a-CANDIDATE-requests-easing.md",
+      "title": "# Blue Owl Q3: OCIC requests 16.8% and OTIC 39%, against 5% caps. For OCIC that is a third straight quarter of partial payouts, which is a candidate fire for BROCK's GATE-BRK-R2 (a). Requests are easing, though.",
+      "matches": [
+        "Apollo"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261008-044-broadcom-early-talks-30-50B-debt-for-openai-chips-separate-from-anthropic-60B-trendforce-dc-power-plus31pct-open-42B-basis-question-on-006-BROCK-VULCAN.md",
+      "title": "# Broadcom is in early talks to arrange $30B\u201350B+ of debt for OpenAI's custom chips, a separate deal from the ~$60B Anthropic package. TrendForce has data-centre power demand up 31% in 2026. One basis question on `-006`'s $42B is open.",
+      "matches": [
+        "Apollo"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261002-012-FT-amazon-seeks-to-move-8B-of-nvidia-grace-blackwell-chips-into-debt-funded-SPV-and-lease-them-back-IG-debt-for-insurers-pensions.md",
+      "title": "# FT: Amazon is in talks to move about $8B of Nvidia AI chips into a debt-funded vehicle and lease them back",
+      "matches": [
+        "Apollo"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261008-049-fed-discount-window-9-965B-wed-10-07-highest-since-jan-2024-amex-350M-occ-aml-penalty-no-asset-cap-car-mart-sixth-lender-bridge-to-10-15-LIQUID-OTTO.md",
+      "title": "# Fed discount-window borrowing hit $9.965B on Wed 10/7, the highest since at least January 2024; AmEx takes a $350M OCC money-laundering penalty with no asset cap; Car-Mart's lenders extend its bridge a sixth time, to 10/15",
+      "matches": [
+        "Apollo"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261023-008-apollo-slok-ramp-ai-index-80point4pct-of-top-1pct-ai-spenders-are-vc-backed-vs-13point1pct-of-median-demand-concentration-depends-on-vc-funding-VULCAN.md",
+      "title": "# Apollo's Slok, on Ramp AI Index data: 80.4% of the top 1% of AI spenders are VC-backed vs 13.1% of median spenders, so the heaviest AI demand depends on venture funding",
+      "matches": [
+        "Apollo"
+      ]
+    }
+  ],
+  "anthropic": [
+    {
+      "path": "BOARD/SIG-W-20261008-024-AI-infra-financing-WSJ-broadcom-50B-is-OPENAI-chip-separate-from-60B-anthropic-oracle-off-balance-sheet-chip-lease-SPV-spacex-40B-not-30yr-ABS-firmus-IPO-struggles-APLD-VULCAN-BROCK.md",
+      "title": "# AI-infra financing 10/8: the WSJ's \"Broadcom seeks >$50B\" is for **OpenAI's** chip and is a different deal from the ~$60B Anthropic-linked package; Oracle is talking to Apollo and Goldman about an off-balance-sheet chip-lease vehicle; SpaceX's ~$40B is loans plus investment-grade debt (the \"30-year ABS\" is not established); an AI data-centre IPO is struggling",
+      "matches": [
+        "Anthropic"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261023-028-cyber-wave-oct23-php-cve-2026-115560-unlikely-rce-no-emergency-fix-ruby-regex-bugs-behind-four-gitlab-rces-cloudflare-ceo-more-severe-flaws-mythos-5-aisi-incident-verified-by-cypher-CYPHER.md",
+      "title": "# Cyber wave, Friday 10/23: PHP flagged a second, unlikely remote-code-execution path (CVE-2026-115560) with no emergency fix; Ruby regex bugs sit behind four GitLab flaws; Cloudflare's CEO reportedly says more severe flaws are being patched; Anthropic's Mythos 5 test incident is verified at primary by CYPHER",
+      "matches": [
+        "Anthropic"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261008-038-openai-told-investors-annualized-revenue-about-50B-end-sept-vs-70B-circulating-counting-basis-gap-traded-as-weakness-AI-infra-names-fall-3-to-8pct-VULCAN.md",
+      "title": "# OpenAI told investors annualized revenue was ~$50B at end-September, ~$20B below the ~$70B that circulated \u2014 a counting-basis gap the market traded as weakness; AI-infra names fell 3\u20138% on 10/8",
+      "matches": [
+        "Anthropic"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261015-018-anthropic-revenue-45pct-qoq-16point8B-slowing-from-triple-digits-85pct-gaap-gm-11pct-adj-opex-margin.md",
+      "title": "# SIG-W-20261015-018 \u2014 Anthropic quarterly revenue reportedly +45% QoQ to $16.8B (slowing from triple-digit QoQ prior quarter); 85% gross margin is GAAP (not adjusted), 11% positive operating margin at 3Q is ADJUSTED (per EdLudlow source), raising concerns about reported $2T valuation target and broader AI valuations",
+      "matches": [
+        "Anthropic"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261013-013-volta-underwriting-order-not-cleared-financing.md",
+      "title": "# Volta financing reports shift underwriting risk; Apollo\u2019s order is not an insurer exposure or closed allocation",
+      "matches": [
+        "Anthropic"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261022-037-railway-cloud-platform-breach-customer-secrets-decrypted-deploys-paused-says-series-targets-ai-inference-keys-barchart-hardens-axios-agents-claim-CYPHER.md",
+      "title": "# Railway, a cloud app-hosting platform, says an intruder reached stored customer secrets and decrypted some of them (API keys, database and registry credentials). It paused all deployments and says the attack is part of a series aimed at platform companies to get at AI-model providers' keys",
+      "matches": [
+        "Anthropic"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261014-010-CORRECTION-ornn-anthropic-blended-price-method.md",
+      "title": "# Anthropic blended-price index falls; nominal rate cut and all-time claim remain unproved",
+      "matches": [
+        "Anthropic"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261023-037-openai-cuts-round-target-to-1point25tn-pre-money-from-1point4tn-pitched-up-to-30b-uae-coatue-deadline-oct30-ft-plus-bbb-minus-below-90-chart-unsourced-VULCAN.md",
+      "title": "# OpenAI cut its funding-round target to $1.25 trillion pre-money after pitching $1.4 trillion earlier this month (FT 10/22); the round is up to $30B, UAE investors and Coatue in talks, commitments due 10/30, nothing signed. Also: a chart says the share of BBB- bonds priced below $90 \"sharply jumped\" (source and level unknown)",
+      "matches": [
+        "Anthropic"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261015-024-us-close-10-15-regional-banks-led-recovery-on-asia-circuit-breaker-day-SP500-plus0point31-KRE-plus1point77-WAL-plus3point02-VIX-16point46-transmission-did-not-propagate.md",
+      "title": "# SIG-W-20261015-024 \u2014 US close 2026-10-15: regional banks LED the recovery on an Asia dual-circuit-breaker day; S&P 500 +0.31%, KRE +1.77%, WAL +3.02%, OZK +2.07%, VIX 16.46 (\u22122.43%), TLT +1.42%; the Asia-tape transmission framed in SIG-W-20261015-002 (IMMEDIATE cluster_mediating) DID NOT propagate to US regional banks or broad credit by the US close",
+      "matches": [
+        "Anthropic"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261023-035-cyber-oct23-php2shell-palo-alto-fixes-from-oct26-citrix-no-fix-date-27-oct-unconfirmed-aslr-beaumont-railway-100k-is-a-ceiling-anthropic-openssh-pwc-vendor-ransomware-ai-CYPHER.md",
+      "title": "# Cyber, Friday 10/23: Palo Alto's PHP2Shell fixes start 10/26 (PAN-OS, Panorama), Citrix lists NetScaler affected with no fix date (\"27 October\" unconfirmed), and Kevin Beaumont says both run without ASLR; Railway's \"100,000 workspaces\" is a ceiling, not a count; Anthropic's OpenSSH find is real (fixed across 10.5 and 10.6); PwC confirms a vendor breach of employee learning records; ransomware affiliates used AI tooling",
+      "matches": [
+        "Anthropic"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261015-023-GATE-LIQ-069-L4-FIRED-10-14-crwv-raw-close-neg15point46pct-plus-fred-hy-316-to-325-plus9bp-gate-stays-2-of-2-count-unchanged.md",
+      "title": "# SIG-W-20261015-023 \u2014 GATE-LIQ-069 L4 FIRED on the 10/14 session: CRWV raw close 77.81\u219265.78 = \u221215.46% (\u2264\u221215.00%) with FRED HY OAS 316\u2192325 = +9bp (\u2265+5bp); gate stays 2-of-2 FIRED (count unchanged, this is a new observation on an already-fired gate); L1 NOT FIRED; discriminator NOT FIRED",
+      "matches": [
+        "Anthropic"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261020-023-datacenter-listing-statuses-and-new-financing-leads.md",
+      "title": "# Data-center list mixes delays, withdrawals and funded IPOs; three incremental issuer leads",
+      "matches": [
+        "Anthropic"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261008-044-broadcom-early-talks-30-50B-debt-for-openai-chips-separate-from-anthropic-60B-trendforce-dc-power-plus31pct-open-42B-basis-question-on-006-BROCK-VULCAN.md",
+      "title": "# Broadcom is in early talks to arrange $30B\u201350B+ of debt for OpenAI's custom chips, a separate deal from the ~$60B Anthropic package. TrendForce has data-centre power demand up 31% in 2026. One basis question on `-006`'s $42B is open.",
+      "matches": [
+        "Anthropic"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261018-001-microsoft-drops-anchor-tenancy-at-nscale-loughton-uk-pre-ipo-grid-power-2030s-not-a-neocloud-walkaway-MS-cuts-AMD-GPU-units-character-ai-chapter-11-VULCAN.md",
+      "title": "# SIG-W-20261018-001 \u2014 Microsoft has dropped out as anchor tenant of Nscale's planned UK data centre at Loughton, Essex (Telegraph, 10/18), and the reported reason is grid power, not demand. The X framing \"MSFT dumping neoclouds\" is not supported.",
+      "matches": [
+        "Anthropic"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261021-023-ai-infra-tape-oct20-21-anthropic-wsj-draft-ipo-figures-conflict-reuters-smci-preannounce-beat-nextdc-power-delay-crwv-bonds-VULCAN.md",
+      "title": "# AI-infra tape October20-21: WSJ-reported Anthropic draft-IPO figures (conflict with earlier Reuters read); Super Micro pre-announces $18.5-19.5B vs $14.5-15.5B guide; NextDC guidance cut on project/power delay; CoreWeave 2031s ~79.5c",
+      "matches": [
+        "Anthropic"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261016-008-anthropic-june-bbplus-disclosure-and-ipo-expectations.md",
+      "title": "# SIG-W-20261016-008 \u2014 Anthropic: June BB+ rating newly reported; junior exposure and disclosure limits matter more than recycled financing totals",
+      "matches": [
+        "Anthropic"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261010-009-ai-infra-gpu-collateral-lenders-want-bigger-nvidia-guarantees-banks-underwrite-3-4yr-vs-nvidia-10yr-asia-banks-3point8B-gpu-loans-ft-nvidia-insurer-talks-RELAY-burry-vs-nvidia-useful-life-VULCAN-BROCK.md",
+      "title": "# GPU collateral meets the lenders: banks want bigger Nvidia guarantees and underwrite chips over 3\u20134 years against Nvidia's \"up to 10\" (Reuters 10/1); Asian banks have joined ~$3.8B of GPU loans (Bloomberg 10/6); Nvidia is in early talks with insurers to cover such loans (FT, RELAY-ONLY); Burry calls Nvidia's chip-value slide a rental model, not resale prices",
+      "matches": [
+        "Anthropic"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261022-046-officials-on-ai-cyber-risk-to-banks-fdic-hill-wont-rule-out-agent-driven-deposit-run-occ-gould-dodges-who-pays-twice-bowman-ai-accelerates-flaws-bessent-you-should-sacks-pushes-back-CYPHER-REGINALD.md",
+      "title": "# What US officials are saying about AI and cyber risk to banks: the bank supervisors treat it as live this fall, and the FDIC chair won't rule out AI agents speeding a deposit run. The OCC head twice declined to say who pays when an agent moves a customer's money, and the White House AI adviser is pushing back on the alarm",
+      "matches": [
+        "Anthropic"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261015-021-korea-eod-foreign-flows-kospi-foreigners-neg3point6B-sk-hynix-neg830M-15-cons-sess-samsung-neg1point1B-5-cons-sess-taiwan-neg9point3B-largest-ever.md",
+      "title": "# SIG-W-20261015-021 \u2014 Korea EOD foreign-flow numbers for 10/15 circuit-breaker day: foreigners net \u2212$3.6B KOSPI; SK Hynix \u2212$830M (15 consecutive sessions net sold); Samsung \u2212$1.1B (5 cons sessions); KIOXIA closes below 200DMA for first time ever; Taiwan foreigners net \u2212$9.3B (largest day in history); semis closed down 12% on the day",
+      "matches": [
+        "Anthropic"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261008-045-RESOLVED-006-holds-broadcom-up-to-42B-convertible-notes-for-anthropic-tpu-lease-separate-from-60B-bank-package-42B-senior-tranche-no-source-links-them.md",
+      "title": "# Resolved: `-006` holds. Broadcom agreed to lend Anthropic up to $42B in convertible notes for its TPU lease. That facility is separate from the $42B senior tranche of the reported $60B bank package, and no source links the two.",
+      "matches": [
+        "Anthropic"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261013-027-anthropic-internal-coding-output-not-paid-inference-roi.md",
+      "title": "# Anthropic reports rapid internal code growth and source-control efficiency; paid inference economics remain unmeasured",
+      "matches": [
+        "Anthropic"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261008-006-ai-infra-week-anthropic-ipo-filing-125B-TPU-lease-42B-broadcom-convertible-60B-blackstone-syndicate-ares-573B-loop-finland-google-halt-stargate-wi-grid-2029-samsung-prelim-today-VULCAN-BROCK.md",
+      "title": "# AI-infrastructure week: Anthropic filing shows a $125.2B TPU lease part-financed by up to $42B Broadcom convertible notes; ~$60B Broadcom/Blackstone syndicate; Ares tallies $573B of circular AI financing; two buildout setbacks; Samsung Q3 prelim due today",
+      "matches": [
+        "Anthropic"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261014-021-anthropic-below-2t-is-a-thin-synthetic-perp-price-not-a-valuation-last-round-965b.md",
+      "title": "# 'Anthropic below $2 trillion' is the price of a thin synthetic perpetual on Hyperliquid, not a valuation; the last primary round was $965B",
+      "matches": [
+        "Anthropic"
+      ]
+    }
+  ],
+  "brazil": [
+    {
+      "path": "BOARD/SIG-W-20261002-023-von-der-leyen-G7-decided-not-to-impose-export-bans-on-allies-US-diesel-ban-off-the-table-for-allies-per-EU-no-white-house-confirmation-non-allies-not-covered.md",
+      "title": "# Von der Leyen: the G7 decided not to impose export bans on allies, so the US diesel-ban threat is off the table for Europe. The White House has not said so, and non-allies are not covered.",
+      "matches": [
+        "Brazil"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261003-009-x-bookmark-JPM-oil-markets-weekly-9sep-dated-research-VIEW-forever-conflict-brent-87-2027-cracks-absorb-shock-hormuz-workaround-BRENT-assess.md",
+      "title": "# JPM \"Oil Markets Weekly\" (9 Sept 2026) \u2014 a dated research VIEW, retrieved from a bookmarked screenshot \u2014 BRENT assess as a lead",
+      "matches": [
+        "Brazil"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261025-021-acid-copper-producer-differences-refined-balance.md",
+      "title": "# Acid stress varies by copper producer; ICSG forecasts a near-term refined surplus",
+      "matches": [
+        "Brazil"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261007-005-pink-sheet-published-phosphate-root-flat.md",
+      "title": "# October Pink Sheet is available: September phosphate rock remains $170",
+      "matches": [
+        "Brazil"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261021-004-russian-diesel-two-destination-signals.md",
+      "title": "# Russian diesel tankers signal Turkey and Brazil; deliveries and restored export scale unproved",
+      "matches": [
+        "Brazil"
+      ]
+    }
+  ],
+  "microsoft": [
+    {
+      "path": "BOARD/SIG-W-20261012-034-PepsiCo-Poppi-earnout-12M-contingent-liability-2027-deadline.md",
+      "title": "# PepsiCo values Poppi contingent consideration at $12M; the milestone deadline remains Q3 2027",
+      "matches": [
+        "60000"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261009-003-private-credit-valuation-suits-semafor-aggregation-SEC-staff-fair-value-statement-9-28-kellermeyer-marks-10c-to-par-OTF-PIK-share-is-of-NII-not-income-BROCK.md",
+      "title": "# Private-credit valuation: Semafor (10/7) gathers the fee suits against Ares, Blue Owl and FS KKR funds; new are the SEC staff's 9/28 fair-value statement and one borrower marked from ~10 cents to ~par on different loans",
+      "matches": [
+        "60000"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261025-025-calpers-sec-share-count-twenty-six-percent.md",
+      "title": "# CalPERS 26% cut reproduces as combined direct share counts, not total economic exposure",
+      "matches": [
+        "60000"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261019-012-otto-ally-contract-warehouse-forecast-and-calendar-repairs.md",
+      "title": "# SIG-W-20261019-012 \u2014 OTTO corrects Ally contract; warehouse-exit forecast55\u219225%; timing pattern withdrawn",
+      "matches": [
+        "60000"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261007-013-workday-september-reorganization-primary-recovered.md",
+      "title": "# Workday September29 reorganization recovered at SEC; October article is a revisit",
+      "matches": [
+        "60000"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261002-001-sept-NFP-plus29K-jul-aug-revised-minus60K-U3-4-2-LABOR-kill-line-not-fired-yields-fall.md",
+      "title": "# September payrolls +29K, Jul+Aug revised \u221260K, unemployment 4.2%; LABOR's kill line not fired; yields fall pre-open",
+      "matches": [
+        "60,000"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261020-013-volkswagen-global-pay-budget-proposal-bargaining.md",
+      "title": "# Volkswagen global pay-budget directive remains a contested proposal",
+      "matches": [
+        "60,000"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261023-005-flagstar-q3-eps-0point01-provision-76m-vs-18m-criticized-plus-670m-cet1-12point38-targets-slip-to-2028-nyc-rent-regulation-named-premarket-minus-6point6-FLG-REGINALD.md",
+      "title": "# Flagstar (FLG) Q3: EPS $0.01 vs $0.06 in Q2 as the provision rose to $76M from $18M; criticized/classified loans +$670M (+6%); full strategic targets pushed from 2027 to 2028; the CEO names NYC rent regulation as the credit-cost pressure; premarket -6.6%",
+      "matches": [
+        "60000"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261012-028-sofi-Q2-transfer-risk-servicing-stock-not-retained-loss.md",
+      "title": "# SoFi Q2 filing is recovered: servicing, retained consideration and impaired-loan sale flows are separate risk objects",
+      "matches": [
+        "60000"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261013-014-ai-credit-quote-leads-instrument-and-cohort-unverified.md",
+      "title": "# AI-credit screenshots and thread claims lack matched instruments and named cohort confirmation",
+      "matches": [
+        "60000"
+      ]
+    }
+  ],
+  "eqt": [],
+  "tehran": [
+    {
+      "path": "BOARD/SIG-W-20261022-038-iran-security-official-via-fars-us-political-targets-legitimate-IF-new-war-phase-conditional-dropped-in-relay-preemptive-strike-line-unsourced-FALCON.md",
+      "title": "# An Iranian security official, via Fars, says US political targets and infrastructure in participating countries become legitimate targets IF a new phase of large-scale war begins. A popular relay drops the \"if\" and adds an unsourced line that Trump now favors a preemptive strike",
+      "matches": [
+        "Tehran"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261011-002-iran-rezaei-says-US-reply-to-its-seven-hormuz-conditions-INSUFFICIENT-some-accepted-per-iran-US-rejected-iran-oman-joint-management-per-iran-mediated-not-bilateral-FALCON.md",
+      "title": "# Iran: Mohsen Rezaei says the US reply to Iran's seven conditions for reopening Hormuz is \"insufficient\". By Iran's account, Washington accepted some, rejected Iran\u2013Oman joint management, and Iran has stopped responding. There is no US statement",
+      "matches": [
+        "Tehran"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261001-002-us-response-to-iran-7-day-plan-delivered-doha-9-29-iran-confirms-sequencing-gap-axios-rubio-expulsion-order-9-28-iran-denies.md",
+      "title": "# The US answered Iran's 7-day plan (handed over in Doha 9/29, Iran confirmed 9/30). Gap is sequencing. Separately, Axios: Rubio ordered Iran's delegation out of New York on 9/28; Iran denies it.",
+      "matches": [
+        "Tehran"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261003-012-camp-david-iran-natsec-meeting-escalation-indicator-FALCON-verify-at-axios-primary.md",
+      "title": "# Camp David US NatSec meeting on Iran + carrier buildup \u2014 escalation-DECISION indicator \u2192 FALCON verify at Axios primary",
+      "matches": [
+        "Tehran"
+      ]
+    }
+  ],
+  "saudi": [],
+  "jetblue": [
+    {
+      "path": "BOARD/SIG-W-20261025-016-jetblue-record-low-debt-headline-unassessed-body.md",
+      "title": "# JetBlue record-low debt report is an issuer-distress lead; bond basis and full article remain to be read",
+      "matches": [
+        "JetBlue"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261023-040-dewey-rated-ccc-basket-zero-ai-16point5pct-cable-telecom-optimum-going-concern-4point12b-due-apr-2027-chapter-11-prep-reported-weak-few-names-explain-widening-unknown-LIQUID-REGINALD.md",
+      "title": "# DEWEY: the rated CCC index holds no AI builders and about 16.5% cable/telecom/media, led by Optimum, a live restructuring (.12B due April 2027, going-concern warning, Chapter 11 preparation reported 10/22). Whether a few names explain most of CCC's October widening is UNKNOWN",
+      "matches": [
+        "JetBlue"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261023-039-CORRECTION-to-033-coreweave-is-not-ccc-rated-ai-builders-about-17pct-is-the-hy-yield-proxy-sleeve-not-rated-ccc-rated-ccc-ai-share-near-zero-ccc-widening-cable-telecom-led-LIQUID-REGINALD-BROCK-VULCAN.md",
+      "title": "# CORRECTION to 033: CoreWeave is not CCC-rated, so \"AI builders about 17% of CCC\" was the high-yield sleeve's share, not the rated CCC tier's. In the rated CCC index the AI-builder share is about zero; the CCC widening is broad and cable/telecom-led. 033's loan and BDC figures stand",
+      "matches": [
+        "JetBlue"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261023-033-dewey-req003-ccc-bonds-mostly-broad-ai-builders-about-17pct-software-5-8pct-below-80-loans-tech-39pct-54b-bdc-software-arcc-6point5b-issuance-narrowed-not-shut-LIQUID-REGINALD-BROCK-VULCAN.md",
+      "title": "# DEWEY research (REQ-003, Will-approved): the two distressed pools hold different things. In CCC bonds about 78% of the 10/13\u201310/22 price loss is \"everything else\" (cable/telecom, JetBlue, FMC), AI builders about 17% (almost all CoreWeave), software about 5\u20138%. In loans priced below 80 cents, \"technology\" is 39% ($54.4B of $139.8B, JPM 10/6), led by PE-owned software. The issuance window is narrowed and expensive, not shown to be shut",
+      "matches": [
+        "JetBlue"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+---
+signal_id: "SIG-W-20261026-011"
+date: "2026-10-26"
+timestamp: "2026-10-26T16:43:36Z"
+dispatched: "2026-10-26T16:43:36Z"
+source: "WALTER"
+origin: "Haver October26 report; FRED CFNAI headline/revisions subsequently corroborated; full Chicago Fed release table unavailable"
+domain: "MACRO_INFLATION"
+cluster: "CONSUMER_STAGFLATION"
+action: ["CARL"]
+info: ["HENRY", "ISHM", "LABOR", "RED"]
+precedence: "PRIORITY"
+signal_type: "research"
+confidence: 0.8
+confidence_language: "reports"
+resources: 1
+safety_net: "clear"
+word_count: 123
+entities: ["Chicago-Fed", "CFNAI"]
+event_window: "closed"
+consumer_transmission: "counter_evidence"
+dispatch_note: "Oct26 economic release sweep; observation/source boundaries explicit; no grade/trade; Telegram unavailable for IMMEDIATE, Will brief in this conversation."
+---
+# September CFNAI reportedly returns slightly above trend; consumption/housing component weakens
+
+Haver reports September CFNAI+0.07 versus revised August−0.08 (initially−0.04); three-month average+0.03 versus+0.01. Production/income contributes+0.13, while personal consumption/housing contributes−0.08 versus+0.02. This mixed composition matters beside the positive aggregate. FRED CFNAI subsequently corroborated the headline and revisions: September +0.07, August −0.08, July +0.12. The component figures and three-month average remain Haver-reported; the official release table was not recovered. The publisher calendar confirms the October 26 release.
+
+The index measures activity relative to historical trend in standard-deviation units; it is not a GDP growth percentage or a definitive recession test. CARL ACTION: incorporate the reported aggregate/consumer split into existing macro-consumer work, preserving revisions and primary-access limits. HENRY/ISHM/LABOR/RED INFO. No threshold, probability or score changed.
+
+Source: https://www.haver.com/articles/chicago-fed-national-activity-index-turns-positive-in-september

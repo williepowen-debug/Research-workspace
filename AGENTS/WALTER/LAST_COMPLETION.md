@@ -1,3 +1,21 @@
+# WALTER morning-news continuation — October26
+
+Updated 2026-10-26T16:46:43Z; requested by Will: “catch up any news from this morning”.
+
+## CURRENT RESULT
+
+STATUS: Morning catchup completed at stated source boundaries; boot still PARTIAL.
+CHANGED: BOARD001–011/generated INDEX, route/delivery logs,44 create-only recipient handoffs, two CLOSED manifests, STATUS/SESSION_LOG, source/retrieval/dedup/tape evidence; WQ515 transfers8/10 selected.
+RESULT:13 content items dispositioned as11 dispatches and2 FOLD. Primary terms checked for Meta, SpaceX, Microsoft, EQT, B3 and Dallas. No new owner grade/trade or broad funding-contagion claim.
+GAPS: Publication not yet proven; all44 new handoffs written_not_delivered_pending_push. Source gaps: original Anthropic prospectus; full ifo/CFNAI current primary numeric tables; coalition/Houthi claims and broad Iran anchor not newly adjudicated. No verified full-fleet discovery/Telegram; urgent Will briefing uses this conversation, not claimed Telegram delivery. Existing10 regular packets/3 DEWEY returns remain pending; no intake/X marks.
+WILL_NEEDS: No new decision. Existing WQ503 and prior approvals retained below.
+FOLLOW-UP: WQ515 sample remains OPEN at8/10 through registered cutoff; source→WALTER hop observed, owner hop and destination records UNKNOWN. Complete prior inbox/boot/source/lifecycle duties below; publication/consumption separate.
+OPEN DESIGN DECISIONS: Unchanged from retained predecessor.
+
+Selected light checks will be saved under research/2026-10-26_morning/closeout/. Their receipt check may read the older structured full-closeout receipt below; that is not proof of this cohort’s publication.
+
+## Retained prior completion and obligations — unchanged
+
 # WALTER startup continuation — October 26, 2026
 
 Updated 2026-10-26T16:27:32Z; Will launched WALTER in Codex and requested explicit root/local reads plus startup.

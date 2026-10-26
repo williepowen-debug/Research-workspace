@@ -1,0 +1,291 @@
+[
+  {
+    "n": 1,
+    "slug": "meta-financing-launch-35b-plus-unestablished-60b-program",
+    "title": "Meta launches a $35B financing package; the separate $60B stock-sale program is not established",
+    "domain": "FUNDING_LIQUIDITY",
+    "cluster": "AI_INFRA_CAPEX",
+    "action": [
+      "BROCK",
+      "LIQUID"
+    ],
+    "info": [
+      "VULCAN",
+      "GIBBS",
+      "HENRY",
+      "RED"
+    ],
+    "confidence": 0.93,
+    "source": "Meta issuer release October 26, read through web tool; direct requests returned 403",
+    "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Announces-Launch-of-Offering-of-Depositary-Shares-Representing-Series-A-Mandatory-Convertible-Preferred-Stock-and-Offering-of-Class-A-Common-Stock-in-Connection-with-Forward-Sale-Agreements/default.aspx",
+    "qual": "contingent/current",
+    "body": "Meta launched approximately $35B of concurrent offerings: $22.5B common stock through forward sales and $12.5B mandatory-convertible preferred depositary shares. The proposed $60B Class C at-the-market program has no agreement and uncertain timing/size/terms; it is not $95B cash raised. Common-stock forward proceeds are not initially received; settlement is by November 19, 2027. Nvidia, AMD and Broadcom indicate up to $5B of buying interest, explicitly nonbinding. The issuer describes continuing substantial operating cash flow and liquidity; external equity does not by itself establish insolvency.\n\nDelta versus SIG-W-20261021-015: financing terms now launched, beyond the earlier Class C authorization. BROCK and LIQUID ACTION: incorporate the announced instruments and timing into the existing AI-financing record; keep planned capacity separate from proceeds. VULCAN/GIBBS/HENRY/RED INFO; no capex-cut or bank-loss grade follows.",
+    "entities": [
+      "Meta",
+      "META",
+      "Nvidia",
+      "AMD",
+      "Broadcom",
+      "Morgan-Stanley",
+      "Goldman-Sachs"
+    ]
+  },
+  {
+    "n": 2,
+    "slug": "spacex-apollo-40b-gpu-lease-binding-commitment-not-closed",
+    "title": "SpaceX announces about $40B of committed GPU leasing through Apollo; closing and deliveries remain ahead",
+    "domain": "PRIVATE_CREDIT",
+    "cluster": "AI_INFRA_CAPEX",
+    "action": [
+      "BROCK"
+    ],
+    "info": [
+      "LIQUID",
+      "VULCAN",
+      "GIBBS",
+      "RED"
+    ],
+    "confidence": 0.93,
+    "source": "SpaceX issuer release October 26, read through web tool; direct requests returned 403",
+    "url": "https://ir.spacex.com/updates/releases-details/2026/SPACEX-SECURES-40-BILLION-IN-THE-LARGEST-GPU-FINANCING-EVER-2026-EnDqGhTAB3/",
+    "qual": "contingent/current",
+    "body": "SpaceX reports a binding commitment for an approximately $40B GPU/equipment master finance lease with an Apollo-managed entity. Apollo leads financing parties; Goldman Sachs is structuring agent, with BlackRock, GSAM and KKR-advised accounts named as anchors. Entry remains conditional, with closing expected before year-end and lease schedules beginning on equipment delivery in H1 2027. This is committed financing, not proof of cash drawn or installed compute. The issuer claims rapid infrastructure payback; that assertion is not independently validated here.\n\nBROCK ACTION: integrate the new committed-lease structure into existing GPU-financing work and preserve the closing/delivery limits. LIQUID/VULCAN/GIBBS/RED INFO. No insurer allocation, named-bank retained exposure, collateral recovery rate or achieved investment return is established.",
+    "entities": [
+      "SpaceX",
+      "Apollo",
+      "Nvidia",
+      "Goldman-Sachs",
+      "BlackRock",
+      "GSAM",
+      "KKR"
+    ]
+  },
+  {
+    "n": 3,
+    "slug": "anthropic-public-ipo-filing-reported-terms-and-primary-access-gap",
+    "title": "Anthropic publicly files for its IPO; proceeds and valuation remain unset, full prospectus still unread by WALTER",
+    "domain": "AI_CAPEX",
+    "cluster": "AI_INFRA_CAPEX",
+    "action": [
+      "VULCAN"
+    ],
+    "info": [
+      "BROCK",
+      "LIQUID",
+      "HENRY",
+      "RED"
+    ],
+    "confidence": 0.8,
+    "source": "AP October 26 full article and StockTitan S-1 indexed excerpt; original issuer/SEC prospectus not recovered",
+    "url": "https://apnews.com/article/anthropic-ipo-shares-public-ca2f4c282bef3201a392e59e3df2300c",
+    "qual": "contingent/current",
+    "body": "AP reports Anthropic filed publicly Monday for a Nasdaq listing as ANT. Offering price, proceeds and valuation are not final; the circulating $100B raise is a reported possibility. This advances the earlier confidential/draft status in SIG-W-20261021-023. Reported net losses include material accounting items and cannot be equated to cash burn. Full issuer/SEC financial tables were not read: the issuer page failed and the mirrored prospectus exceeded web-tool length limits; a direct request was denied.\n\nVULCAN ACTION: integrate the public-filing status into the existing IPO/demand record, keeping prospectus financial reconciliation unresolved. BROCK/LIQUID/HENRY/RED INFO. Earlier draft-period and commitment-basis conflicts remain open; no fresh cash-runway, valuation endorsement or owner score is inferred.",
+    "entities": [
+      "Anthropic",
+      "ANT",
+      "Nasdaq"
+    ]
+  },
+  {
+    "n": 4,
+    "slug": "brazil-b3-halt-real-and-equity-selloff-after-election",
+    "title": "Brazil: exchange confirms trading halt; currency, equities and sovereign credit sell off after election",
+    "domain": "JAPAN_BOJ",
+    "cluster": "POSITIONING_VALUATION",
+    "action": [
+      "SAM",
+      "LIQUID"
+    ],
+    "info": [
+      "HENRY",
+      "BOND",
+      "RED",
+      "PROME"
+    ],
+    "confidence": 0.86,
+    "source": "B3 October 26 notice; Reuters via MarketScreener updated 15:52 GMT; separate vendor tape",
+    "url": "https://www.b3.com.br/pt_br/noticias/b3-informa.htm",
+    "qual": null,
+    "precedence": "IMMEDIATE",
+    "body": "B3 confirms a 30-minute circuit-breaker suspension on October 26. Reuters reports the post-election Bovespa selloff exceeded 15%; the real lost over 11% early and later stood about 8.3% weaker. Reuters also reports sovereign CDS 151.67bp versus 120.21 Friday and cancellation of October 27/29 government auctions. These are distinct intraday observations, not simultaneous closing prices. B3 primary confirms the halt, not every Reuters quote.\n\nVendor EWZ $33.35, \u221221.71%, is a US-listed dollar ETF; it is not the local index decline. USD/BRL5.43 is reais per dollar; a rise is real weakness. No forced carry liquidation or US funding contagion has been measured.\n\nSAM and LIQUID ACTION: assess this new EM currency/credit event against existing carry and cross-market transmission work. HENRY/BOND/RED/PROME INFO. No new trade or threshold grade. Telegram transport unavailable; Will brief delivered in this conversation.",
+    "entities": [
+      "Brazil",
+      "B3",
+      "Ibovespa",
+      "Brazilian-real",
+      "EWZ",
+      "Lula"
+    ]
+  },
+  {
+    "n": 5,
+    "slug": "microsoft-voluntary-exit-offer-not-realized-layoffs",
+    "title": "Microsoft opens a voluntary exit offer; eligibility is not a realized layoff count",
+    "domain": "LABOR",
+    "cluster": "CONSUMER_STAGFLATION",
+    "action": [
+      "LABOR"
+    ],
+    "info": [
+      "CARL",
+      "VULCAN",
+      "RED"
+    ],
+    "confidence": 0.93,
+    "source": "Microsoft Amy Coleman employee communication, October 26, read at official blog",
+    "url": "https://blogs.microsoft.com/blog/2026/10/26/introducing-a-voluntary-exit-offer/",
+    "qual": "contingent/current",
+    "body": "Microsoft confirms a time-limited voluntary exit offer for eligible level-70-and-below staff in participating organizations in Canada, India, the UK and US. Some teams participate and others do not. The official text gives no total acceptances or completed departures. Secondary coverage says around60,000 employees may be eligible; that count was not verified in the official text and is not60,000 layoffs. The company frames the program as workforce adaptation; a quantified AI-caused job loss is not established.\n\nLABOR ACTION: incorporate the announced program into existing white-collar employment tracking; distinguish offers, eligibility and realized exits. CARL/VULCAN/RED INFO. No national employment inference or new monitoring program.",
+    "entities": [
+      "Microsoft",
+      "MSFT",
+      "Canada",
+      "India",
+      "United-Kingdom",
+      "United-States"
+    ]
+  },
+  {
+    "n": 6,
+    "slug": "eqt-range-all-stock-merger-combined-enterprise-value",
+    "title": "EQT agrees to acquire Range in stock; over $50B refers to the combined enterprise value",
+    "domain": "OIL_ENERGY",
+    "cluster": "HYDROCARBON_INFRA",
+    "action": [
+      "BRENT"
+    ],
+    "info": [
+      "WATT",
+      "HENRY",
+      "RED"
+    ],
+    "confidence": 0.93,
+    "source": "EQT/Range joint issuer release October 26; Range SEC 8-K indexed terms corroborate exchange ratio",
+    "url": "https://ir.eqt.com/newsroom/news-releases/news-release-details/2026/EQT-Announces-Strategic-Acquisition-of-Range-Resources-Creating-Americas-Undisputed-Natural-Gas-Champion/default.aspx",
+    "qual": "contingent/current",
+    "body": "EQT and Range announced an all-stock merger at0.987 EQT shares for each Range share. Over$50B is the pro-forma combined enterprise value, not a verified purchase price paid for Range. Issuers expect Q1 2027 completion, conditional on shareholder/regulatory approvals and customary terms; synergies and future cash flow are management forecasts, not realized outcomes. Combined net output is described as over9Bcfe/day, not crude barrels.\n\nBRENT ACTION: integrate the gas-supply/marketing consolidation into existing natural-gas work. WATT/HENRY/RED INFO for gas-to-power and sector structure; no immediate production increment or power-price effect inferred. Issuers cancel October28 earnings calls but retain October27 after-close results; this is a dated calendar change, not a request for a new program.",
+    "entities": [
+      "EQT",
+      "Range-Resources",
+      "RRC",
+      "Appalachia"
+    ]
+  },
+  {
+    "n": 7,
+    "slug": "tehran-regional-security-meeting-yemen-claims-no-settlement",
+    "title": "Tehran hosts regional security delegations while Yemen fighting continues; talks establish no settlement",
+    "domain": "GEOPOL_ENERGY",
+    "cluster": "IRAN_HORMUZ",
+    "action": [
+      "FALCON"
+    ],
+    "info": [
+      "HAWK",
+      "BRENT",
+      "SAM",
+      "RED"
+    ],
+    "confidence": 0.8,
+    "source": "AP Tehran October 26; Reuters/AFP same-day reports; AP Yemen live report",
+    "url": "https://apnews.com/article/iran-israel-us-war-10-26-2026-36486edb61b3bf4e0df67e8a17123e44",
+    "qual": "contingent/current",
+    "body": "AP reports Saudi, Pakistani and Turkish delegations in Tehran Monday. Reuters/AFP identify the regional-security channel; earlier AFP wording had no meeting date, so that earlier wording is not proof the meeting had occurred. The later AP report supplies the in-person update. Mediated regional contact is not bilateral US-Iran negotiation, an agreed settlement or restored shipping. No new instrument or measured oil-flow improvement is established by this contact.\n\nSeparately, AP attributes to the Saudi-led coalition claims of five missile-storage tunnels and four launchers destroyed in Yemen. Houthi hospital/strike allegations remain unverified. Do not treat either side's military claims as observed production damage or count them as Hormuz hull events.\n\nFALCON ACTION: incorporate these dated diplomatic and Yemen-claim deltas into existing theater records, preserving source attribution. HAWK/BRENT/SAM/RED INFO. Scoped check only: full anchor last verified October22; no full sweep/reset or new owner grade. Narrative tag follows the lead MFA channel; coalition/Houthi claims are separately attributed.",
+    "entities": [
+      "Iran",
+      "Tehran",
+      "Saudi-Arabia",
+      "Pakistan",
+      "Turkiye",
+      "Houthis"
+    ],
+    "narrative_channel": "mfa",
+    "anchor_unverified_as_of": "2026-10-22"
+  },
+  {
+    "n": 8,
+    "slug": "us-intraday-risk-bid-brazil-and-jetblue-stress-remain-local",
+    "title": "US stocks rebound intraday while Brazil and JetBlue remain under pressure; no broad funding conclusion",
+    "domain": "MARKET_VOL",
+    "cluster": "POSITIONING_VALUATION",
+    "action": [
+      "HENRY"
+    ],
+    "info": [
+      "VIOLET",
+      "LIQUID",
+      "REGINALD",
+      "SAM",
+      "NEXUS",
+      "RED"
+    ],
+    "confidence": 0.88,
+    "source": "FORGE vendor tape retrieved October26 around16:33Z; Reuters October23 JetBlue adviser report; live US market coverage",
+    "url": "https://www.investing.com/news/stock-market-news/jetblue-creditors-working-with-restructuring-adviser-pjt-partners-wsj-reports-4970498",
+    "qual": null,
+    "body": "Separate intraday vendor snapshot: S&P5007,679.59(+0.73%), Nasdaq26,208.62(+0.98%), VIX18.36(\u22125.60%), KRE72.84(+0.52%), WAL76.25(+0.16%). These are October26 intraday readings, not closes or causal attribution. Brazil's separate shock in004 has not produced a simultaneous US equity selloff in this snapshot; that does not clear offshore/private funding risk.\n\nJBLU2.27(\u221213.88%) is a fresh tape consequence. The adviser-hiring report dates October23 (Reuters relaying WSJ/unnamed people), not a new Monday hire or a bankruptcy filing. Prior SIG-W-20261025-016 preserves bond-price/adviser verification gaps; no new TRACE trade claimed.\n\nContinuous Brent headlines differ from the requested December series; no cross-contract change or official settlement grade supplied. Earlier fresh US threshold subset established no new fire, not complete registry clearance.\n\nHENRY ACTION: integrate this dated cross-market snapshot into existing transmission work. VIOLET/LIQUID/REGINALD/SAM/NEXUS/RED INFO. No trade or new correlation study.",
+    "entities": [
+      "SP500",
+      "Nasdaq",
+      "VIX",
+      "KRE",
+      "WAL",
+      "JetBlue",
+      "JBLU",
+      "EWZ"
+    ],
+    "signal_role": "cluster_mediating"
+  },
+  {
+    "n": 9,
+    "title": "Dallas Fed: business sentiment improves, but production and new-order growth slow while prices rise",
+    "url": "https://www.dallasfed.org/research/surveys/tmos/2026/2610",
+    "source": "Dallas Fed October26 primary, current versus prior-month table and methodology read",
+    "body": "# Dallas Fed: business sentiment improves, but production and new-order growth slow while prices rise\n\nOctober survey: general business activity13.4 versus9.8, while production15.8 versus29.5 and new orders9.3 versus30.7. The latter two remain positive; growth slowed rather than output necessarily falling. Input-price index55.3 versus52.2 and selling-price index29.9 versus27.6 rose; employment11.6 versus15.1 eased. These are seasonally adjusted respondent diffusion indexes, not percent output changes or national measured production.64 of114 surveyed manufacturers replied, October13\u201321.\n\nISHM and CARL ACTION: integrate the split between activity, orders and prices into existing manufacturing-cycle and consumer-inflation work. HENRY/LABOR/BRENT/RED INFO. No ISM<47 grade, causal tariff/AI attribution or national recession verdict follows. The optimistic business-activity headline alone misses the composition.\n\nSource: https://www.dallasfed.org/research/surveys/tmos/2026/2610\n",
+    "action": [
+      "ISHM",
+      "CARL"
+    ],
+    "info": [
+      "HENRY",
+      "LABOR",
+      "BRENT",
+      "RED"
+    ],
+    "qual": "inference/measurement"
+  },
+  {
+    "n": 10,
+    "title": "Germany ifo reportedly edges up on expectations; current conditions weaken, primary table inaccessible",
+    "url": "https://financieel.headliner.nl/item/duitse-ifo-index-verder-omhoog-iex-138588",
+    "source": "IEX via Headliner Oct26 numerical relay; ifo issuer page only title/date; Capital Economics accessible lead paragraph",
+    "body": "# Germany ifo reportedly edges up on expectations; current conditions weaken, primary table inaccessible\n\nIEX/Headliner reports October ifo business climate90.2 versus89.9, expectations91.6 versus90.4 and current conditions88.8 versus89.5. The ifo release URL confirmed title/date but served no numeric body through the web tool; the numerical table is not primary-verified here. Capital Economics independently describes a small sentiment increase and explicitly cautions that weak hard data do not match stronger surveys; its full analysis is subscriber-only. Expectations are not realized German growth.\n\nHANS ACTION: integrate the dated release lead into existing German-cycle work with the primary-table gap intact. ISHM receives the German lead as INFO; HENRY/CARL/RED INFO. No HANS PMI threshold is graded from an ifo index. Source date26October; no2025 reading substituted.\n\nSource: https://financieel.headliner.nl/item/duitse-ifo-index-verder-omhoog-iex-138588\n",
+    "action": [
+      "HANS"
+    ],
+    "info": [
+      "ISHM",
+      "HENRY",
+      "CARL",
+      "RED"
+    ],
+    "qual": "inference/measurement"
+  },
+  {
+    "n": 11,
+    "title": "September CFNAI reportedly returns slightly above trend; consumption/housing component weakens",
+    "url": "https://www.haver.com/articles/chicago-fed-national-activity-index-turns-positive-in-september",
+    "source": "Haver full indexed report October26; Chicago Fed current-data methodology and release calendar read",
+    "body": "# September CFNAI reportedly returns slightly above trend; consumption/housing component weakens\n\nHaver reports September CFNAI+0.07 versus revisedAugust\u22120.08 (initially\u22120.04); three-month average+0.03 versus+0.01. Production/income contributes+0.13, while personal consumption/housing contributes\u22120.08 versus+0.02. This mixed composition matters beside the positive aggregate. The official current-data page supplied methodology but no current numerical table through the accessed route; the release calendar confirms September data due October26. No primary-table verification is claimed.\n\nThe index measures activity relative to historical trend in standard-deviation units; it is not a GDP growth percentage or a definitive recession test. CARL ACTION: incorporate the reported aggregate/consumer split into existing macro-consumer work, preserving revisions and primary-access limits. HENRY/ISHM/LABOR/RED INFO. No threshold, probability or score changed.\n\nSource: https://www.haver.com/articles/chicago-fed-national-activity-index-turns-positive-in-september\n",
+    "action": [
+      "CARL"
+    ],
+    "info": [
+      "HENRY",
+      "ISHM",
+      "LABOR",
+      "RED"
+    ],
+    "qual": null
+  }
+]
