@@ -1,0 +1,209 @@
+{
+  "health": [
+    [
+      "OK",
+      "last_run 2026-10-23T18:52:35Z (1 missed weekday runs, 2 calendar days)"
+    ],
+    [
+      "OK",
+      "news search items saved: 152 (trailing median 190 over 10 batches)"
+    ]
+  ],
+  "new": [
+    {
+      "feed": "cftc_cot",
+      "key": "cftc:cftc_cot_VIX_lev_money_net_1105_orange_n:orange",
+      "band": "orange",
+      "gate": "INFO",
+      "owners": [
+        "VIOLET"
+      ],
+      "info_cc": [
+        "SAM"
+      ],
+      "precedence": "ROUTINE",
+      "raw": "cftc_cot VIX lev-money net=1105 [orange] (net-long vol / de-risking regime)",
+      "label": "VIX positioning",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:NEW_ALERT:data/2026-10-23/news.json",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "(per-item agents field)"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "1 NEW_ALERT item(s) \u2014 read data/2026-10-23/news.json",
+      "label": "1 NEW_ALERT",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:NEW_WATCH:data/2026-10-23/news.json",
+      "band": null,
+      "gate": "INFO",
+      "owners": [
+        "(per-item agents field)"
+      ],
+      "info_cc": [],
+      "precedence": "ROUTINE",
+      "raw": "2 NEW_WATCH item(s) \u2014 read data/2026-10-23/news.json",
+      "label": "2 NEW_WATCH",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:3581f9668fde",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "White House Considers 90-Day Diesel Export Ban As Prices Surge - Motor1.com",
+      "label": "WATCH_HIT [BRENT:'White House diesel export'; BRENT:'90-day diesel']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:DEVELOPMENT:166bc7f7ac9e",
+      "band": null,
+      "gate": "INFO",
+      "owners": [
+        "HENRY",
+        "BRENT",
+        "SAM"
+      ],
+      "info_cc": [],
+      "precedence": "ROUTINE",
+      "raw": "Ship attacks in Strait of Hormuz hit record high in October - Reuters",
+      "label": "DEVELOPMENT [known entity Hormuz + escalation qualifier]",
+      "onset": true
+    }
+  ],
+  "suppressed": [
+    {
+      "feed": "fred",
+      "key": "fred:UMCSENT:orange",
+      "band": "orange",
+      "gate": "INFO",
+      "owners": [
+        "HENRY"
+      ],
+      "info_cc": [],
+      "precedence": "ROUTINE",
+      "raw": "UMCSENT UMich sentiment=48.1 [orange]",
+      "label": "",
+      "onset": false
+    },
+    {
+      "feed": "fred",
+      "key": "fred:MORTGAGE30US:red",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "PROME"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "MORTGAGE30US 30yr mortgage rate %=7.32 [red]",
+      "label": "",
+      "onset": false
+    },
+    {
+      "feed": "fred",
+      "key": "fred:BAMLH0A0HYM2:red",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "LIQUID",
+        "PROME"
+      ],
+      "info_cc": [
+        "HENRY"
+      ],
+      "precedence": "IMMEDIATE",
+      "raw": "BAMLH0A0HYM2 HY OAS bps=340.0 [red]",
+      "label": "X1-trigger breach (credit-bear arm)",
+      "onset": false
+    },
+    {
+      "feed": "fred",
+      "key": "fred:BAMLH0A0HYM2:red",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "LIQUID",
+        "PROME"
+      ],
+      "info_cc": [
+        "HENRY"
+      ],
+      "precedence": "IMMEDIATE",
+      "raw": "BAMLH0A0HYM2 HY OAS=340bps [red] >=280 X1-trigger breach (LIQUID half of X1; sustain-check owner LIQUID; BROCK wrapper-half must also fire)",
+      "label": "X1-trigger breach (credit-bear arm)",
+      "onset": false
+    },
+    {
+      "feed": "edgar_8k",
+      "key": "edgar:EGBN_2026_10_21_2_02_7_01_9_01_",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "REGINALD"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "EGBN 2026-10-21 ['2.02', '7.01', '9.01']",
+      "label": "critical 8-K [regional_bank]",
+      "onset": false
+    },
+    {
+      "feed": "edgar_8k",
+      "key": "edgar:ZION_2026_10_19_2_02_9_01_",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "REGINALD"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "ZION 2026-10-19 ['2.02', '9.01']",
+      "label": "critical 8-K [regional_bank]",
+      "onset": false
+    },
+    {
+      "feed": "edgar_8k",
+      "key": "edgar:VLY_2026_10_22_2_02_9_01_",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "REGINALD"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "VLY 2026-10-22 ['2.02', '9.01']",
+      "label": "critical 8-K [regional_bank]",
+      "onset": false
+    },
+    {
+      "feed": "edgar_8k",
+      "key": "edgar:META_2026_10_21_1_01_2_02_8_01_9_01_",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "VULCAN",
+        "HENRY"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "META 2026-10-21 ['1.01', '2.02', '8.01', '9.01']",
+      "label": "critical 8-K [hyperscaler_ai]",
+      "onset": false
+    }
+  ]
+}

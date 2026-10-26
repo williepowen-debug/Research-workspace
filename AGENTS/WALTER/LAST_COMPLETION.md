@@ -1,3 +1,18 @@
+# WALTER startup continuation — October 26, 2026
+
+Updated 2026-10-26T16:27:32Z; Will launched WALTER in Codex and requested explicit root/local reads plus startup.
+
+## CURRENT STARTUP — PARTIAL
+
+CHANGED: REGISTRY.tsv; research/2026-10-26_boot/ evidence and boot receipt; this continuation and SESSION_LOG.
+RESULT: Four requested instruction files explicitly read. Initial doctor0HIGH/4MED;48 registry rows loaded, partial fresh US checks establish no new fire; HY338bp[10/23], REG-T-04 near-watch0/3. Three owner header dates refreshed. No new signal, trade, consumption or publication claim.
+GAPS: Main/intake git authentication unavailable; X refresh failed with zero marks; READS stale/UNKNOWN; full context/current HANS/FT11/official settles and full ORCH read uncompleted. All10 regular packets and3 DEWEY handoffs remain read-but-unconsumed pending disposition/routing. Local intake is behind Sunday's captured lane vintage;5 NEW keys unmarked. General lifecycle sweep remains overdue. Exact evidence: research/2026-10-26_boot/BOOT-RECEIPT.md and THRESHOLD-SCAN.md.
+WILL_NEEDS: No new ruling. Existing WQ503 below remains. Git/X authentication requires a supported credential/browser path if those capabilities are to be restored; no credentials requested in chat.
+FOLLOW-UP: Inbox correction dispositions first, then DEWEY returns/intake; complete remaining startup legs. WQ515 remains within its registered window with zero new samples. Publication unverified; no push attempted.
+OPEN DESIGN DECISIONS: All predecessor decisions/approvals below retained; no new proposal.
+
+## Retained prior completion and obligations — unchanged
+
 # WALTER LAST_COMPLETION — October25 final session closeout
 
 Updated 2026-10-25T21:28:56Z; Will requested “Okay lets close out here”. FULL closeout after bookmark processing/verification. Codex/OpenAI GPT-6; exact variant UNKNOWN; session01a173d6-e52a-7b51-ba71-45d586fca51e. Prior receipt: research/2026-10-25_final/prior-LAST_COMPLETION.md.

@@ -1,0 +1,256 @@
+
+FILE AGENTS/HAWK/STATUS.md
+# HAWK STATUS
+
+**Updated:** October 25, 2026, 15:45 EDT. Codex / OpenAI GPT-6 identity exposed; serving variant UNKNOWN. Thread `01a173d6-38cc-7de3-9a0b-fd12caf682cc`. Root/local instructions explicitly read. No trade book. No mark, band, probability or registered prediction letter changed.
+
+**Repair outcome:** Will's key-file update request implemented: **9 of 19 findings repaired; 10 advanced with named residuals.** Full evidence/dispositions: `research/2026-10-25_repairs.md`; original audit and validation receipt in `audits/`. Pending tariff definition is already registered as **WQ-521**, exact L778 draft consumed by PROME, ruling pending. Other band alternatives and the November observation candidate remain drafts only.
+
+## Current cross-war read
+
+Willingness/route risk remains plausible; net lost crude and the fraction of price due to premium are UNMEASURED. Russia refining/products and Gulf hull/route exposure stay separate. Owner evidence through October 23: OSPREY 5/5/3, ~30% EST; FALCON B1/C14/D85, production rung not fired. No pooled barrel loss or current price quoted.
+
+Official October 22 pre-midterm no-strike pledge remains the latest verified written line; envoy comments do not supersede it. IRGC ship/mine and Yanbu fire claims remain unconfirmed. Limah October 22 sailed onward. CAPE DAO contested; FALCON losses 4 confirmed + 1 contested on its own population. Late WALTER October 24/25 interceptions do not establish oil-asset damage; originating coalition release unrecovered. KB460 consumed, source committed by WALTER `f35a4b297`, filing complete.
+
+All insurance quotes exceed ten days; Bab CANNOT-FIRE. FALCON's September 28 WC Saudi origin-premium falsifier fired on hull willingness, not measured production loss. October 26 Gulf re-pull remains with FALCON, Black Sea with OSPREY. Both aggregate fingerprints agree with reviewed inputs; this certifies bytes, not current quotes or semantic truth.
+
+## Material corrections
+
+| Item | Current state / remaining gap |
+|---|---|
+| Europe | Six-rung native review completed October 25; October 17 Romanian primary response integrated. Article4 June 18–October 25 negative and complete current legal/mandate negatives remain unverified. ORANGE historical carry; no current all-clear. Next residual review October 26; 45-day backstop November 2. |
+| Sulphur / acid | Historical ruled RED retained on delivered-Kolwezi basis. Ivanhoe October 8 Q3 ~$900/t and September ~$950/t are MINE-GATE net realizations; cannot verify that delivered threshold. Current matched delivered price UNMEASURED. KB461/462. |
+| METI | BRENT October 1 primary read consumed: August Kuwait/Qatar Japanese receipts nonzero after July zero. Stockpiling/transit attribution UNKNOWN; not normalized Hormuz flows. KB464. |
+| EU listings | Council confirms October 12 adoption; formal-adoption wait closed. Full legal annex remains missing; not a full sectoral-package audit. KB465. |
+| Canada | Section338 stacks on Section232 for LISTED goods. Passenger cars/light trucks/parts remain absent per MARCO attachment mapping; HAWK has not independently re-extracted it. Current VX Status now matches the caveat. |
+| US–China | MOFCOM January10 extension announcement is official; separate November 9–10 implementing clocks not all verified changed. TRADE01 ORANGE. |
+| Endpoint buffers | FLOW16/20 current helium/fab and fuel/cargo outcomes explicitly UNMEASURED. July/August absorption is history; power reserve percentage is not inventory days. |
+
+## Forecasts, tests and existing decisions
+
+| Item | State / next action |
+|---|---|
+
+FILE AGENTS/HENRY/STATUS.md
+# HENRY STATUS
+
+**Last owner update:** 2026-10-22 19:3x ET, PROME-spawned wake for DOCKET L787 (put-wall close test; Claude Code, Opus 5.5, model ID `claude-opus-5-5`; native session ID not exposed). Gamma `--both` 19:27 ET from the 16:00 ET close; tape 19:26–19:31 ET; Cboe `_SPX` close fields 19:28 ET; Treasury par and FRED 19:3x ET. Prior owner record (10/22 09:5x ET, L769) preserved verbatim at `research/2026-10-22_L787/STATUS-before.md`; it points back to the 10/21 and 10/19 records.
+
+## VIEW
+
+**DOCKET L787 graded: SPX closed at 7,663.43 (−1.21%), 13.43 points ABOVE the ~7,650 break line. The put wall is TESTED, not broken — the same state as the 09:53 ET read.** Two sources agree on the close: Cboe's own `_SPX` quote (close 7,663.43, low 7,637.36, prior close 7,757.17) and the vendor daily bar. SPX did trade under 7,650 intraday (low 7,637.36 at 15:02 ET; 99 one-minute closes under 7,650 between 10:32 and 15:50 ET) and recovered into the bell, so the test was real and the break did not happen on the close. Dealer gamma deepened: NEGATIVE at both horizons, −$40.5B / −$54.2B per 1% (from −$29.0B / −$39.3B at 09:53), with spot 78–85 points under a flip band that held at 7,742–7,748. **The put wall moved down with spot, from 7,750 to 7,650 at both horizons**, so the wall now sits on the old break line. **The selloff was concentrated, not broad:** QQQ −2.86%, XLK −3.29%, SOXX −6.79%, while equal-weight RSP rose +0.73% and staples, utilities, health care and financials all rose; the 10Y fell 17bp to 4.96% (Treasury par) and KRE rose +2.53%. Credit did not lead it (HY 327bp [FRED 10/21], down 6bp). **Nothing new routed via WALTER: the registered condition's state is unchanged (TESTED).** No probability, threshold or trade changed.
+
+## DOCKET L787 — PUT-WALL CLOSE TEST, GRADED 2026-10-22 19:3x ET
+
+| Test (as written 09:53 ET, 2bc07ba9c) | Line | Observed at the 16:00 ET close | Result |
+|---|---|---|---|
+| Break at BOTH horizons | cash close < ~7,650 | 7,663.43 (Cboe `_SPX` close; vendor `^GSPC` bar 7,663.43, last 1-min bar 15:59 ET 7,663.45) | **NOT MET** (+13.43 pts) |
+| 14d band 7,650–7,750 | inside = tested | 7,663.43, inside the band, 13 pts above its floor | **TESTED** (unchanged) |
+| 35d band 7,700–7,750 | below floor, above 7,650 = tested | 7,663.43, 37 pts under the band floor (already under it at 09:53) | **TESTED** (unchanged) |
+| Intraday range (not the letter's test) | — | low 7,637.36 at 15:02 ET; high 7,702.94 at 10:03 ET | pierced 7,650 intraday, recovered |
+
+**Grade: put wall TESTED, NOT BROKEN, at both horizons; state unchanged from 09:53 ET ⇒ no new WALTER signal.** Figures: `research/2026-10-22_L787/close_ohlc.txt`, `gamma_both_close.txt`. **TERRY's L803 trigger (SPX cash close < 7,650) is not met on the same figure**; HENRY's close equals PROME's 7,663.43 orientation figure, so no TERRY packet was needed.
+
+## GEX / GAMMA REGIME — OCTOBER 22 CLOSE (gamma `--both` 19:27 ET)
+
+| Horizon / Cboe chain | Spot input | Flip | Net GEX per 1% | Put wall | Call wall |
+|---|---:|---:|---:|---:|---:|
+| 14d / 3,410 contracts | 7,663.43 (Cboe close) | ~7,742 (spot −78) | −$40.5B | 7,650 clean (+19% over #2) | 7,800 clean |
+| 35d / 7,219 contracts | same | ~7,748 (spot −85) | −$54.2B | 7,650 near-tie (7%) → band 7,650–7,700 | 8,000 clean |
+
+**Cross-horizon check:** NEGATIVE both; put wall **7,650 PUBLISHED** at both horizons (35d as the band 7,650–7,700); call wall WITHHELD (7,800 vs 8,000). **09:53 ET read (superseded):** flip ~7,745/~7,750, −$29.0B/−$39.3B, put wall 7,750 as bands 7,650–7,750 / 7,700–7,750 (`research/2026-10-22_L769/gamma_both_postopen.txt`; `PUBLISHED.tsv` keeps one row per metric per date, so its 10/22 flip/GEX rows now carry the close values). Free-tier estimates on assumed dealer positioning; dollar magnitudes are assumption-dependent; the sign and the flip are the robust reads. ES December traded 7,706 at 19:21 ET in the evening session (vendor; a next-session bar, not a settle). **Cascade proxy (own calc, not a fund's trigger):** SPX 7,663.43 is under its 50-day average 7,703.0, so layer 2's (short-term CTA) proxy condition is met; it was above it (7,757 vs ~7,705) on 10/21. Layer 1 (vol-control, VIX > 23–24) dormant at 19.03. 200-day 7,283.7. **Operating Dashboard refreshed** at the same URL (`https://claude.ai/code/artifact/ebb53cd8-c46a-4edd-b278-068791225a35`, version 4, published 19:3x ET).
+
+## VOL REGIME / TAPE INPUTS — OCTOBER 22 CLOSE (vendor, pulled 19:26–19:31 ET)
+
+
+FILE AGENTS/HOMER/STATUS.md
+# HOMER STATUS — HOT SURFACE
+
+*Promoted from CARL sub-agent 2026-07-12 (Will-directed).*
+
+> ⚠️ Rotated 2026-09-14 — pre-rotation file preserved byte-for-byte at `archive/STATUS_2026-09-14_pre-catchup-VERBATIM.md`. Evidence lives in `workbook/` (the record); `STATUS_COLD.md` FROZEN 9/2 (**this file wins**). The 9/14 BOTTOM LINE's full synthesis → `reports/2026-09-14_three-week-catchup-release-ledger.md`.
+> ⛔ **VALUES + BANDS + OBLIGATIONS ONLY.** Target: `read_cap_check.py` <70% of budget (22,785 B).
+
+---
+
+## ⚠️ DATA VINTAGE — READ BEFORE QUOTING ANY ROW
+
+✅ **10/19 — Will-requested sweep + morning L725.** New evidence → `reports/2026-10-19_domain-news-sweep.md`; HMI/spread grade → `reports/2026-10-19_morning-L725.md`. Prior narrative retained in `archive/STATUS_2026-10-19_morning-narrative.md`.
+Documentation audited 10/19; durable findings → `workbook/KB_LIVE.tsv` KB-HOMER-034–038.
+⚠️ **YEAR TRAP, now n=4 on this desk:** verify the page's publication YEAR, not just the month.
+
+---
+
+## SIGNAL DASHBOARD — LIVE VALUES ONLY
+*Evidence, provenance, superseded figures → `workbook/`. Bands → `CLAUDE.md`.*
+
+> ⚠️⚠️ **BAND RULE: report the highest UNCROSSED rung and the distance to it.** **THREE rows now have NO uncrossed rung (30-Yr PMMS, Freddie MF, Existing Home Sales)** — report the distance ABOVE the top and say the ladder carries no information upward. ⛔ Instruments grading NOTHING → §C.
+
+### Foreclosure Pipeline
+| Metric | Value (as of) | Band |
+|---|---|---|
+| **★★ ICE national DQ** | **3.53% AUG, +14bps MoM (ICE: calendar effect, ~flat underlying)**, +10bps YoY; 30+ +81K MoM · Jul 3.39% | 🟡 **inflow — July's improvement did not extend** |
+| **⚠️⚠️ ICE CURE RATE (the band's NATIVE basis)** | **AUGUST: all-loans YoY % NOT PRINTED by ICE (Oct edition, pub 10/05) ⇒ UNGRADED.** Level **7.8%** (Jul 8.0%, a 9-mo high). Chart-derived −25 to −29% YoY = INFERRED, not ICE's, not used to grade. **FHA −37% YoY** (Jul −39%). New defaults: FHA −15% YoY, **GSE +18%** (largest in 19 mo), VA +23% | 🟡 **last graded YELLOW (Jul −28%)**; no evidence of an ORANGE (<−30%) cross. ⛔ the First Look MoM count never grades this band |
+| **ATTOM AUGUST monthly (pub 9/17, found 9/29)** | **REO +42% YoY (+22% MoM)**; filings +13%, starts +7% YoY — an observation, not the band basis; ATTOM: volumes 'well below historical norms' | 🔴 conversion |
+| **ATTOM H1-2026 (ledger `PIPELINE.tsv`)** | **Filings 227,548 (+21% YoY), starts 164,566 (+18%), REO 27,983 (+33%), timeline 563 days — lowest since 2013** | 🔴 |
+| **★ National FC STARTS band** *(re-armed 9/29, Will)* | **Q2-2026 81,935 (DERIVED: H1 − Q1)**, ~+15% YoY · Q1 82,631 | ⚪ **no rung crossed — Yellow (>100K) 18K away**; Orange >130K, Red >175K. ⛔ **Severity ladder only: below Yellow ≠ contained** |
+
+FILE AGENTS/ISHM/STATUS.md
+# ISHM STATUS
+
+**Last Updated: 2026-10-23 — BUILT by DAEDALUS (Claude Code, claude-opus-5-5); zero ISHM sessions.**
+
+> **FIRST-LIVE-SESSION BANNER — UNSPENT.** Your session is `FIRST_SESSION.md`; read it whole. Strike this banner when its items are done or carried by name.
+
+## Current judgment
+
+**NONE YET — by design.** A desk that has read no print has no judgment. Everything on file is the builder's copy of someone else's read:
+- the September flash PMI 57.0 is WALTER's figure (KB-ISH-002, SECONDARY, unverified);
+- the German → US lead is HANS's test (KB-ISH-001).
+
+| Gauge | Reading | Canonical |
+|---|---|---|
+| Print ledger | **0 rows** — no print read yet | `workbook/PRINTS.tsv` |
+| Convergence matrix | **8 of 8 vectors UNKNOWN** | `workbook/VX.tsv` |
+| R1 (real or borrowed) | OPEN QUESTION, no stance; both flips owed | `workbook/EXIT_PROTOCOL.md` |
+| J1 (AI capex → VULCAN) | NOT REGISTERED; paired test owed (GPU-import caveat) | `workbook/EXIT_PROTOCOL.md` |
+| J2 (freight → LIQUID / RED) | NOT REGISTERED; base rate owed | `workbook/EXIT_PROTOCOL.md` |
+| Perimeter | 8 frozen names; HON = Honeywell Technologies (automation) since the 2026-06-29 aerospace spin (VERIFIED 10/23) | `PERIMETER.tsv` |
+| Predictions | 0 (empty by design) | `workbook/PREDICTIONS.tsv` |
+| `ISM Mfg <47` trigger | **OWNED** since WQ-507 A (Will 10:38 ET). DAEDALUS encoded it before launch: charter § BOUNDARIES + THRESHOLDS + EXIT_PROTOCOL. PROME's inbox packet asks ①–③ are already done; read the packet, then file it | charter § THRESHOLDS |
+
+## Routing
+
+**LIVE since 2026-10-23 10:04 ET.** WALTER `INDUSTRIAL_CYCLE` → ISHM acts, HENRY backup (ROUTING_TABLE v0.46, `2d3870e82`). Routed items queue in `inbox/WALTER/`, created on the first handoff. WALTER has pointed the first session at SIG-W-20261023-010 (US flash PMI) and SIG-W-20261023-014 (Michigan final) on the BOARD.
+
+## BOTTOM LINE
+
+ISHM is built and has read nothing yet. Its job is to say whether the US factory upturn is real demand or borrowed from next year, and to test two live theses against real-economy data:
+
+FILE AGENTS/LABOR/STATUS.md
+# LABOR STATUS
+**Last Updated:** 2026-10-22 *(PROME-spawned, session 84affa50, WQ-479 A / WQ-184 Tier-1 due-row wake DOCKET L719)* · ✅ **Claims w/e Oct 17 graded off the frozen card + §8a: 194,000, band B, nothing fired** — MA 197,750 (−1,000, arithmetic; lowest since w/e 2022-10-01 on FRED IC4WSA) · w/e Oct 10 revised 199,000 → 200,000, which **cut the v13 `<200,000` run to 1** (record-only) · CC 1,728,000 (run 6, record-only) · R13-c `197,750 / 198,250 = 0.9975 < 1.15` no action. **10/29 card frozen** (0 defects). Score **26/75 unchanged**. *Prior:* 2026-10-21 — C2 decisions batch (R13-c adopted; v7 none; openings no band; v11 not widened). Superseded surfaces → DETAIL § `status-rotated-20261022`.
+**Status:** 🟠 **LOW-FIRE / LOW-HIRE — the flow side turned (JOLTS NET >0 two months).** Claims 194K / MA 197,750 · CC 1,728K (v13 1, v7 2; runs 1 and 6, record-only) · JOLTS hires 5,192K / 3.3% · layoffs rate 1.0% · NFP Sep **+29K** (Jul rev −10K, Aug rev +133K) · U-3 4.2% on LFPR 61.8% · EPOP 59.2%. **Bull-side kill (freeze-thaw v2) did NOT fire 10/2** (needed ≥+177K on the revised bar); LEG A is the open leg again — next draw Nov 6.
+
+> 🔒 **HOT/COLD SPLIT** (2026-09-02): this file is **canonical for every live figure, band, score and open grade**; `STATUS_DETAIL.md` is the cold half — **on demand, NOT a boot read**. 🔒 **TRIMMED 2026-09-29 from 31,125 B:** the pre-trim file is preserved **byte-for-byte** at `STATUS_DETAIL.md` § `status-pretrim-20260929` (blob `d7a0f26`) — every shortened row is there word-for-word; no live figure was dropped. Older rotations: § `hotcold-split-inventory`.
+> 📅 **READ_CAP rule 7:** re-measure at every closeout append (`python3 scripts/read_cap_check.py --agent LABOR`). The dated **2026-10-02** re-trigger was discharged **2026-10-01** (whichever-first) at the 10/1 closeout — both files below the rotate tier, no rotation (re-measure with the command above; this line carries no size figure). Budget **32,550 B**; rotate at ≥24,412 B; stop <22,785 B.
+
+> 🔒 CORE TENSION → `STATUS_DETAIL.md` § `core-tension`. Supply-side context (MARCO) → § `cross-domain`. Bearish-core shape (8/7) → § `matrix-bearish-shape`.
+
+---
+
+## CONVERGENCE MATRIX (15 live vectors · re-grade basis → DETAIL § `matrix-regrade-notes`)
+
+| # | Vector | Score | Δ | Live state · If-falsified → ACTION |
+|---|--------|-------|---|------------------------|
+| 1 | WARN pipeline | **3** 🟠 | ↓5 | ⚠️ **T-07 unmeasurable since 9/29** (no monthly source; BD-36). Newest cohort: **Oracle Sep round — CA 441 `[CONF EDD]` + WA 359 `[2ND]`, effective 11/13** (claims w/e Nov 14; `800 / 197,000 = 0.4%` of a week — state-level only, L-08). Drop to 2 if claims MA stays <225K (framework lag failed on the cohort) |
+| 2 | Sector cuts | **1** ⚪ | flat | Challenger **Sep 43,281** (Aug 52,881; both <80K) — counter 0 of 2. Re-spike >80K/mo ×2 → restore 4 |
+| 3 | ISM/survey employment | **2** 🟡 | flat | Graded 9/3: Svs Emp **47.8** (2nd mo <50) vs Mfg **51.2** — split. Drop to 1 needs BOTH >50 same month |
+| 4 | JOLTS hire-rate freeze | **2** 🟡 | ↓1 | ✅ **Graded 9/29 on the 9/1 band: Aug NET +122K ⇒ 3 → 2.** Hires rate 3.3% · layoffs 1.0% · quits 1.9%. → 3 on NET ≤0 in a month; → 4 on NET ≤0 ×2 AND hires rate ≤3.2%. Hires >5.5M ×2 → thawed (`5,500 − 5,192 = 308K` away) |
+| 5 | AI displacement | **4** 🔴 | flat | ✅ **Graded 10/1:** Challenger Sep AI **#5, `3,961 / 43,281 = 9.15%`** (Aug 6.5%; #1 YTD 120,136 ≈ 21%). Share leg **2 of 2 MET**; tech leg **FAILS: `165,925 / 107,878 − 1 = +53.8%`** ⇒ conjunction blocks the demote ⇒ **holds at 4.** Demote still needs share <20% ×2 AND tech YTD <+20% in the same read |
+| 6 | Long-term unemployed | **3** 🟠 | flat | Graded 10/2: LT share **27.1%** (1.94M) — over the >27% bar, but the restore's 2nd leg (YoY turning positive **in BLS's own text**) is absent: text says only "essentially unchanged" ⇒ holds 3. Drop to 2 needs <24% ×2 |
+| 7 | UI exhaustion / CC grind | **2** 🟡 | ↓1 | ✅ Graded 10/8: CC <1,750K ×4 ⇒ 3 → 2. **10/22: CC 1,728K** (w/e Oct 10, +25K; Oct 3 rev 1,703K) — run 6, record-only, `22,000` inside. **Return letter: NONE — decided 10/21** (every CC candidate leads, lift 1.82–3.57, but fires 21–25% of weeks since 2022; pre-set calm-regime test failed — KB-LAB-218). → 3 only via a new pre-registered letter |
+| 8 | BLS data degradation | **2** 🟡 | flat | ✅ Graded 10/2: net Jul+Aug rev `(−10 − 21) + (133 − 162) = −60K` (<0) ⇒ restore counter **RESET 1 → 0 of 2** (two consecutive ≥0 prints required). No downward band exists; none improvised |
+| 10 | Healthcare | **1** ⚪ | flat | Sep **+16.7K** (12-mo avg +33K) — decelerating, no band for that. Net-negative aggregate → T-08, restore 4 |
+| 11 | ICE worksite → layoffs | **1** ⚪ | ↓1 | Floor. → 2 only on a **raid-linked WARN/layoff filing — any state, any sector** (letter text since 8/21; KS meatpacking was always in scope, KS check 10/15 SEARCH-NOT-FOUND, KB-LAB-216). **Decided 10/21: scope NOT widened.** The TX/FL construction proxy leg (Aug+Sep negative) graded **NOT MET** — TX Aug +0.7K, Sep −2.4K; FL +0.1K, +0.1K [FRED TXCONS/FLCONS obs 2026-09-01; KB-LAB-219] — expired, not re-armed without a base rate (L-15) |
+| 12 | Public-sector employment | **1** ⚪ | flat | Federal Sep **−1K** (ex-USPS +0.7K) vs ≤−25K T-13 bar — no fire; BD-17: payroll line alone never moves it |
+| 13 | Claims / shadow gap | **1** ⚪ | ↓1 | ✅ Graded 10/8: <200K ×4 ⇒ 2 → 1. **10/22: 194,000, band B** — run **1** (w/e Oct 10 revised to 200,000 cut the 5-week run), record-only. **Return letter R13-c (adopted 10/21):** published 4-wk MA ≥ `1.15 ×` its prior-52-week min ⇒ 1 → 2 — **graded 10/22: `197,750 / 198,250 = 0.9975`, no action**; next min 197,750 ⇒ ~227,413, `X ≥ 318,000` (10/29 card §5d; lift `0.350/0.196 = 1.78`, but 0 of 2 since 2022). 230–250K single ⇒ → 3 (band C; higher assignment governs). >250K sustained → T-01 |
+| 14 | Staffing canaries | **1** ⚪ | ↓1 | Floor. Re-arm on a guide-down from RHI/KFRC/MAN + TEMPHELPS −20K ×2 → 3, T-12 to PROME |
+| 15 | Hormuz hiring freeze | **1** ⚪ | flat | Re-arms only on BRENT demand-destruction Path B |
+| 16 | Temp employment | **1** ⚪ | flat | −6% YoY revives a LAB-01-class call (nowhere near) |
+
+FILE AGENTS/LIQUID/STATUS.md
+# LIQUID STATUS
+**Last Updated:** 2026-10-25T16:49:26-04:00 — Will-requested final closeout. First Brands transmission study complete; final recovery/recourse unresolved. Existing gates and dated duties preserved.
+
+> **How to read this file.** Levels here are **dated snapshots**, each with its own observation date. **`scripts/boot.py` is the live source**; quote from it, not from here. Basis is latest-revised FRED unless stated (see §5). One fact, one place: if a figure appears twice, one copy is a defect.
+
+## 1. NOW
+
+**Weekend restart boot [10/25 15:46 ET]:** 31 series, 0 fetch errors after network-enabled retry; latest-revised FRED, not a first-publication census. Credit/SOFR frontier unchanged; Friday ICE/SOFR pending Monday 10/26. No new gate episode or capital action. X1 CLOSED / DON'T-SIZE. Evidence: `research/2026-10-25_restart/boot.txt`; intake/runtime receipt in the adjacent `REPORT.md`.
+
+**Transmission coverage [10/25 review]:** fourteen mechanism families mapped; named exposure/contract/cash-response links remain incomplete. Quiet overnight funding does not clear bank-line substitution, insurer/fund cash calls, structured-credit diversion or operating feedback. LIQ-07 S2 remains its frozen reserve-channel verdict. Evidence/unknowns → `research/2026-10-25_transmission-pathways/REPORT.md`; no new gate or standing collector.
+
+**Credit [FRED ICE BofA OAS, observation 10/22, re-read 10/25; bp]:** HY 340 · IG 89 · BB 210 · CCC 1,340; HY−IG 251; CCC−BB 1,130. B 346 and CCC−B 994 are carried first-published 10/23 reads of 10/22, not re-pulled this boot. The 10/22 change was HY +13, BB +12, B +14, CCC +33, IG +1. DEWEY's 10/23 attribution: ~65% of the 260→340 HY move was September's broad selloff; AI infrastructure ≈10–15% of October widening. Few-name/sector contributions remain UNKNOWN / NO_INSTRUMENT; tier gaps are not issuer breadth. Details: `research/2026-10-23_evening/REPORT.md`.
+
+**Rated-CCC composition [WQ-516 A; DEWEY holdings parse as of 10/22, read 10/23]:** BondBloxx XCCC / Bloomberg US HY CCC 2% issuer-capped index: AI builders 0.0%, software ~6%, cable/telecom/media 16.5% (CSC/Optimum 2.2%, Altice France 2.0%, Uniti 1.8%), everything else ~76%. Weights, not contributions to widening. LIQUID fund-page refresh failed HTTP 403 on 10/23; no new CCC observation this boot, so no new holdings grade. Refresh with the next CCC grade (L829 checks 10/30). Optimum restructuring or Chapter 11 remains a dated risk in the REG-T-04 window: going-concern warning, $4.12B due 4/15/2027. Source: `AGENTS/DEWEY/output/2026-10-23_ccc-concentration-optimum-altice.md`.
+
+**Credit persistence:** own first-published >320 run remains **7** through 10/22: 325/323/331/329/333/327/340 [10/14–10/22]; last reset 316 [10/13]. WQ-444 state MET, non-latching; already routed 10/19, no repeat send. X1 HY >280 half remains MET; BROCK owns the wrapper/total-return half (BIZD 10/1 dividend $0.437). X1 CLOSED / DON'T-SIZE; WQ363 forward-only/post-data calibration caveat persists. **REG-T-04 is REGINALD's >350 ×3 price test:** last own reading 340, 10bp below, 0 of 3; earliest possible fire still requires all 10/23, 10/26, 10/27 observations >350, last publication ~10/28. RED/REGINALD own their counts. A price-test fire does not demonstrate funding restriction or authorize sizing.
+
+**Funding [10/25 re-read; NY Fed SOFR primary agrees with FRED, observation 10/22]:** SOFR 3.90%, IORB 3.90% same date, SOFR75−IORB +5bp, SOFR99−IORB +8bp; volume $2,945B (primary 10/23 read). Drift-robust z +0.0, regime slope +4.0bp/year (p50 of own history). **SRF $0.00B, both legs, and RRP $0.20B [10/23 FRED].** SRF's 10/20 $0.067B was a Small Value Exercise, not demand. 079 NOT ARMED; measured rate control is orderly. PARTIALLY INSTRUMENTED / SUPERVISOR-BLIND: haircuts, collateral calls, prime-broker restrictions and offshore USD remain outside this read; EUR→USD unmeasured. HANS's 10/22 France/US yield crossover still has no observed US funding counterpart; his reply condition remains unmet. Q3 persistence stays SEASONAL under the frozen WRESBAL rule. FRED's future-dated IORB 10/26 display is reference-only; composites use 10/22 IORB.
+
+**Dealer/settlement [10/25 boot]:** 076 remains MET in the existing episode; gate row owns readings/reset. Net positions do not prove capacity refusal. Sponsored repo/WAM remain unmeasured; full dated settlement detail → pre-WQ523 archive.
+
+**Fed/banks [H.4.1 10/22 release, week10/21]:** reserves $2,962.607B, weekly fall largely TGA-linked; primary credit fell. H.8 10/23/week10/14: small-bank borrowing rose with cash/deposits, no deposit-replacement proof. Use dated H.8 page (current served2015). Amounts/source → 10/23 report/archive; next10/30.
+
+**Flows/deposits [10/19–10/23 carried reads]:** ICI week 10/14 MMF assets −$40.46B, government and prime both down; no prime→government shift, WAM/cash origins unmeasured. Week 10/21 blocked. GIBBS SEC bank-deposit averages show drift, not established flight; no pooling with period-end/sweep cash. Dated amounts and maturity-mismatched CP comparison remain in the pre-boot archive.
+
+**Duration/foreign/auctions:** 10/22 H.15 10Y4.96%/30Y5.29%; 20Y/TIPS cleared, tails UNGRADED. August TIC official selling/private buying coexist; custody changes not sales, Belgium proxy FALSIFIED. SAM Channel1 retired; FX/Brent proxies not official bases. Full figures → pre-WQ523 archive; buyback ends11/4.
+
+**Named financing — Car-Mart [WQ523,10/25]:** $305,608,825.77 principal at10/14; $5M incremental agreement signed10/15/public10/21, net cash receipt unverified. Relief11/01 is not2030 maturity; $92M receivables are not cash. Current eligible liquidity and bank-risk bridge unobservable. Six new-money lender signatures, allocations omitted; agent/trustee distinct. → `research/2026-10-25_WQ523-carmart/REPORT.md`.
+
+**Historical bank transmission [WQ524, 10/25; study complete, recovery/recourse unresolved]:** First Brands receivables → LAM TFG I SPV LLC → Western Alliance Bank: $42.125M missed principal receipt; $126.4M remaining loan charged off Q1, not fresh cash paid. Forbearance/litigation executed. Jefferies disputes parent recourse; current recoveries/ultimate net loss unknown. March 6/9 disclosures follow events: mechanism beyond prices, earlier public warning unestablished. Q1 earnings/capital show absorption, not a funding squeeze. → `research/2026-10-25_WQ524-first-brands/REPORT.md`.
+
+FILE AGENTS/MARCO/STATUS.md
+# MARCO STATUS
+**Last Updated:** 2026-10-25 23:30 ET (session37 — authorized stale-file Phase2 reconciliation/ bounded checks) | **Thesis:** v3.2 | **Status:** 🟠 ELEVATED
+**This session in one line:** CBO2025 negative-net-migration range withdrawn/UNSCORED; all13 FLOW pathways reconciled to dated evidence, MIA correction completed inAPT01, current thesis/index/calendar premises repaired. Seven existing series refreshed without threshold changes; four compatibility/access gaps remain explicit. Forecast terms/probabilities/resolvers unchanged. Report → `research/2026-10-25_stale-file-sweep-phase2/completion.md`.
+
+## BOTTOM LINE (the desk's judgment now — reviewed10/25 against Phase2 source checks and existing capacity evidence; carried figures retain their dates)
+- **Thesis v3.2, 🟠 ELEVATED — unchanged.** Population movement is still subtracting from US/FL demand through **counts, not dollars**: overseas arrivals **−22.40% vs 2019** (Sep, `VX-1.02` CRITICAL — the widening run broke) and the Canadian 2-yr stack **−28.72%** (Sep, 11th month past −25%; the deepening is a weekend-count artefact). Channel 2 stays the highest-conviction transmitting channel; since the 9/8 counter-tariffs the Canadian **land** leg is falling faster than air (`ID-01` leg 1 met).
+- **Channel 1 (immigration labor): the two quantity instruments now SPLIT.** Remittances (Aug) say the outflow continued — count **−6.39% YoY**, 2-yr **−11.99%**, re-spec CONFIRMED, a 5-month sub-−5% run second only to 2009–10. The jobs survey (Sep) says it stopped — foreign-born labor force **+206K YoY**, the first increase ⇒ `SDL-01` NORMAL on the letter. One month, a 1.77-sd swing: **conviction HELD until November** (next gradable print; Oct-2025 missing), rule pre-registered in VX SDL-01. ⚠️ The Jan-2026 CPS population controls do not control nativity and lifted Hispanic/Asian groups ⇒ 2026 YoYs may lean toward increase (`KB-WFD-19`). Transmission to prices still undemonstrated (F&V +3.85% Sep).
+- **Florida: airport demand remains CONFOUNDED.** July domestic capacity was still below 2025 at MCO but restored at FLL; carrier additions can overcome Spirit's lost seats, so raw declines are not “locked.” **MIA also had Spirit exposure** — withdraw the only-clean-leg claim. Its airport-own August −5.69% still supplies one of two months for the unchanged trigger; September (~10/28) remains pending. Condo/SF supply remains CORAL-canonical; no whole-Florida demand verdict.
+- **Channel 4 (border munis): LOW** — unchanged (Will-ruled 9/24); its flow leg is the remittance row above.
+- **Energy → fares (`ENR-02`): leg 1 PASSED** (Sep 2-yr +26.36%); October needs only +1.01% MoM, a rise seen in every Sep→Oct 2013–24 — grades 11/10 (BLS schedule verified 10/21). **Las Vegas:** August room revenue −11.5%, but Labor Day moved into September — the Aug+Sep combined read (pre-registered) decides ~10/28.
+- **What would change it:** MIA Sep negative (unchanged raw airport-own trigger; Spirit/capacity caveat mandatory) · November CPS confirming or reversing the `SDL-01` flip · `ENR-02` leg 2 · `ID-01` October leg · the existing Census domestic-component test(~Dec); total-population decline needs separate Census total/components.
+- **New local labor evidence (10/25):** October 21 grower interviews report missed fig-harvest shifts and reduced shipments in California. Local output disruption, not national shortage proof; H-2A replacement wage rule due December 30, with possible back-pay exposure unresolved (`KB-WFD-21/-22`). No Channel-1 conviction move.
+## 🏫 FL ENROLLMENT → cold (`_archive/STATUS_cold_20260924.md`): OCPS −3.97% YoY; migration share ≤2,032, confounded.
+
+## 🍁 CANADA → cold: Q2 BOP — Canadians' US travel spend C$6,513M, −13.5% 2-yr; US share 52.3→41.3% (`KB-CAN-48`). Live monthly read = `VX-1.01` (Sep 2-yr −28.72%). Tariffs/counter-tariffs live; no employment effect inferred. Full line → `_archive/STATUS_rotated_s31_20261010.md`.
+
+## Phase2 evidence reconciliation (10/25 s37)
+- **Unsupported measured claim removed:** VX2.04 CBO−290K..−525K2025 range is UNSCORED/withdrawn; primary attribution check does not support it. No replacement estimate adopted. Historical assertion/correction companion KB-WFD-24 retained; WALTER packet routes consequential correction, consumption unverified.
+- **New same-basis observations:** Sep construction-employment class gap−0.78pp NORMAL; FL L&H AHE23.87 versusUS23.90 NORMAL/statutory context; SepZHVIspread4.48pp ELEVATED; Austin−4.31%/44negative months BREACHED duration; FLDOM81/+7.05% NORMAL; Jan–Oct border allocations+5.77% NORMAL (credit retainsSep24 review); BEA nominalSA Travel actualTTMSep25–Aug26−$3.125B ELEVATED (old window revised−$2.380B). Sources/revisions → Phase2source_checks.md, KB-DATA-01.
+- **Limits preserved:** GT same-category request429; regional remittance matched refresh unresolved; TOUR05 full winter schedule denominator and TOUR06 primary monthly TDT not verified. No substitute proxy/new grade. Insurance.com matched source stillSep15/2.95x; FR latest matching noticeQ2. Annual/quarterly lags and LAS holes unchanged.
+- **APT01 and1.04 deliberately retain different bands:** July−7.13% grades CRITICAL inAPT01 andELEVATED in1.04; both confounded, neither clean demand. Duplicate merge/band change outside this pass.
+
+## SIGNAL DASHBOARD
+
+| Indicator | Value (dated per row) | Status |
+|-----------|--------|--------|
+| Produce / CPI F&V | **+3.85% YoY Sep** (BLS `SAF1131`, live 10/14); 2-yr +5.13%. `ES-MARCO-05` DID_NOT_APPEAR 9/19; **MAR-14 6%** (Oct-25 missing ⇒ two gradable prints left). Detail → `_archive/STATUS_unresolved_rotated_s30_20260924.md` | 🔻 RESOLVED |
+| ICE Ag/Construction Raids | **California October: localized attendance/output disruption REPORTED** (Ag Alert 10/21, named growers; half of ~100 fig workers absent >1 week). Blanket **AG-OFF withdrawn**; no confirmation of on-farm entry or nationwide policy reversal. **USDA w/e 10/24:** cattle 546K (−4.7% YoY vs YTD −7.2%); hogs +1.5% — no new broad weekly cliff. Sources and limits → catch-up memo, `KB-WFD-21/-23`. | 🟠 LOCAL DISRUPTION / national extent unmeasured |
+| H-2A Bottleneck | **FY26-thru-Q3 349,867 certified** (OFLC file, re-verified live 9/19 — still the newest); MAR-11 (>425K) needs Q4 ≥ **75,133** vs FY25 Q4 80,947 / FY24 74,234. Resolver = OFLC Q4 file ~Nov. ⚠️ The *bottleneck* evidence (Red River Valley potato delays, South Africa consular slots → July) is **spring-2026 anecdote, not re-checked since** — the pace is measured, the bottleneck is not. | 🟠 PACE AT THRESHOLD / bottleneck evidence stale |
+| FL Condo Inventory | **Sep 2026: condo/TH 7.7mo (flat vs Aug — the decline run ENDED), SF 4.4mo (Aug 4.3)**; year-ago 9.1 / 5.1; listings −9.0% / −9.8% YoY; condo median $293,500 −1.8% (FL Realtors PDFs, released 10/16, verified 10/21). **ONE number: CORAL carries the canonical cell** (reproduced exactly). **MAR-08 (>9.0) NOT met.** ⚠️ Level vs trend are separate claims: 7.7 sits in `VX-FL-02`'s 6-9 CRITICAL band — grade the level, keep the trend in Trend. `KB-FLI-04` | 🟠 **CONDO CRITICAL (6-9mo) / SF ELEVATED (4.4) / ABSORPTION STALLED** |
+
+FILE AGENTS/MIDAS/STATUS.md
+# MIDAS — STATUS
+
+**Targeted key-file review October 25:** `analysis/2026-10-25_NEXUS-THESIS-TRADE-review.md`. NEXUS source clocks/intake clarified, THESIS stale table/expired position context repaired, TRADE current register separated from exact historical snapshot. KB213; no new market observation, score, standing condition or frozen forecast.
+
+**Session consolidation, October 25:** [Joined findings and early-signal read](gold/research/2026-10-25_session-synthesis.md). Early supportive hints are present (July low intact, GLD bullion above July, earlier partial global ETF additions, easing rates/dollar); the balance remains weak. Will wants hints and changes in evidence before certainty. No requirement for full confirmation before reporting a possible turn; no bottom probability, new gate or trade follows. KB 188-211 cover the session; all source dates stay explicit.
+
+**Gold bottom-evidence check, October 25, 2026 (Will-directed):** `gold/research/2026-10-25_bottom-evidence-check.md`. Refreshed GLD October 23 $366.61 is a 20/60-session closing low and below October 14 $375.99 local trough; July $364.96 still holds narrowly. October 9-22 real yields -27 bp and DXY -0.59%, yet GLD -4.05%. Latest GLD quantity -11.98 tonnes October 22; earlier WGC global week ended October 16 +13.9 tonnes is partially reported. CFTC October 20 long reduction reconfirmed, no duplicate vintage. Latest 20-session GLD up 2/11 stock-down days; small descriptive sample, no option-book hedge inference. Durable bottom unconfirmed; some daily easing responses positive. Friday issuer flow/primary rate missing. No score, forecast, trade, band or cadence change; actual 8/20.
+
+**Gold/conflict history October 25, 2026 (Will-directed):** `gold/research/2026-10-25_gold-during-war.md`. WGC selected 14 geopolitical-risk spike weeks: gold positive64%, small retrospective sample, not war odds. Fixed seven modern event windows: Ukraine2022 +2.72% at21/−8.44% at126 sessions; Hamas2023 +8.04/+28.27%; Iran2026 first-session+1.29%, then21−14.30%,126−15.47%. Initial fear bid and sustained war-period return differ. Older World Bank monthly averages kept separate. BIS author paper supports conditional haven response but sample ends March2026. No score, forecast, trade or cadence change; actual8/20.
+
+
+**October 25 bank-buying explanation:** `gold/research/2026-10-25_why-weak-despite-bank-buying.md`. Re-opened WGC confirms reported global +39t August and China +23t September; these are lagged monthly buying observations. Investor exposure reductions and October22 GLD withdrawal support selling-pressure interpretation, not proven forced selling or a quantified causal split. Global ETF additions/custody versus new purchases caveats retained; no score/forecast change.
+
+
+**Gold cross-asset extension October 25, 2026 (Will-directed):** [report](shared/research/2026-10-25_gold-versus-equities-bonds-oil.md). Recent 120-observation GLD/SPY daily correlation +0.53 versus +0.05 before 2026; does not establish permanent regime or option-book hedge. Oct9→22 gold −4.05%, stocks −1.88%, IEF +2.01%, TLT +4.82%: gold missed the Treasury defensive bid. January29→October20 common gold/stocks/IEF/TLT/WTI returns −23.85/+11.67/−3.14/−5.36/+66.57%; sign pattern resembles 2020–2022, not a forecast. Oil is PRIMARY EIA physical spot, latest October20, price change only; ETFs include distribution adjustments. Friday fund-only gold drawdown −26.07% remains. No score, band, frozen beta/prediction, trade or cadence change; actual 8/20.
+
+
+**Gold history study October 25, 2026 (Will-directed follow-up):** [report](gold/research/2026-10-25_recent-gold-versus-history.md). GLD $366.61 October 23 is −26.07% vs January peak but +142.42% vs September 2022 low; current close is only +0.45% above July 16 low. Four completed 20% record-drawdown episodes since 2004 took 494–3,264 calendar days from peak to regain that nominal high; current recovery unknown. Five-session −4.03% is at the 3.9th percentile of pre-2026 overlapping five-session returns. Current fund bullion decline −3.76% since January is smaller than 2011–2015’s −50.94%, but GLD fell 4.05% October 9–22 despite a 27 bp real-yield decline. Substantial correction, no historical bottom/timing edge established. Scores and frozen forecasts unchanged. PROME verified Sunday PRD3 and closeout; M1 draft disposition is now registered **WQ-522, not ruled**.
+
+
+**Boot/update Sunday October 25, 2026 (Codex, Will-directed):** [catch-up](shared/research/2026-10-25_sunday-catch-up.md). Network boot rc 1 REVIEW, metals pointers only; no predictions due; no unconsumed COT vintage; 0 named corrections. One new PROME packet integrated: **gold did not reliably hedge equity declines in the saved sample; its hedge value for a bearish-option book is unestablished.** WQ-451 was delivered October 23 and PROME registered DOCKET L819–L822; older “not executed/delivered” language below is superseded. **Teck confirms Highland Valley strike began October 24; reduced-capacity operations, lost tonnes unknown.** Friday ETF closes: GLD $366.61, SLV $48.72, PPLT $14.05, PALL $18.94, CPER $39.06 (all MIRROR October 23). SLV/PPLT/PALL d200 −24.99/−18.98/−27.26%; actual 8/20, counterfactual 13/20, one root. Guard-qualified futures still end October 22; October 23 GCZ26 $4,007.90 is an excluded newest-row diagnostic, not a certified downgrade. Issuer GLD bullion and held primary real yield still end October 22.
+
+
+**COT as-of 10/20 (released 10/23 15:30 ET, consumed):** gold net long 49.68% of OI, −2.77pp, **fifth straight weekly decline**, first below 50% since 7/28 (92nd pct); longs −8,158 contracts and shorts −144: reduced long exposure, without proof of forced selling. Silver 17.37% (−3.51pp), Pt 18.67%, Pd −36.66%. The week ends before 10/22. MIDAS-16 was registered before this release.
+
+**News sweep 2026-10-23 (Will-directed):** `shared/research/2026-10-23_gold-silver-news-sweep.md`. New: Russia's central bank selling gold for a 10th straight month (−6.2t Sept, ~−62t since Dec 2025) as a named offset to official buying; Goldman ESTIMATES 79t Aug central-bank buying vs WGC REPORTED 39t; Chinese banks ending retail leveraged metals trading; no October CME margin hike found; India ~6,500t silver import permits (premium $2.50 → $0.45/oz); China a net silver exporter; a 13.75% Shanghai silver 'premium' is mostly VAT. Today (14:57 ET) yields +3.5bp, dollar +0.2%, gold −1.25%: an ordinary rates-and-dollar day, unlike Thursday. WALTER SIG-021 noted (board_log). No score/prediction change.
+
+**Predictions registered 2026-10-23 (Will-directed, rows committed before 15:30 ET):** MIDAS-13 GLD any issuer close ≥ $378.95 by 11/20 (P 0.50) · MIDAS-14 SLV d200 ≤ −20% at 11/2 close (P 0.70) · MIDAS-15 PALL d200 ≤ −25% at 11/2 (P 0.35) · MIDAS-16 gold COT as-of 10/27 < 52.4490% (P 0.70) · MIDAS-17 GLD beats rate-implied path 10/22 → 11/20 (P 0.55). Letters and base rates in `workbook/PREDICTIONS.tsv`; WQ-451 letter tests are DOCKET L819–L822 (PROME-registered).
+
+**Catch-up October 23, 2026 (Will-directed, Fri; started 13:37 ET, first commit 13:49 ET):** `shared/research/2026-10-23_catch-up.md`, captures `shared/sources/2026-10-23_catch-up/`. **October 22 was a liquidation day:** every metal fell with equities (S&P −1.21%, Nasdaq −2.60%) while PRIMARY Treasury 10Y real fell 2.76 → 2.64, 10Y nominal 5.13 → 4.96, 2Y 4.81 → 4.65, DXY flat. Media "rate-hike bets" attribution is contradicted by those moves and not adopted. PRIMARY GLD bullion −11.98t on 10/22 (1,045.64t), ~−10t since 9/30, reversing the 10/20 accumulation read. **M1 flip rule (gold < $4,050 AND DFII10 ≥ 2.40 → M1 2): NOT fired on the 10/22 vendor close $4,060.40 (+0.26%); 10/23 trading ~1% below the line. A secondary source says 10/22 settled $4,042.80 (below; unverifiable) → 10/22 and 10/23 both UNRESOLVED, certified-settle retrieval Mon 10/26; CME blocks this box's IP.** Band counterfactual on post-approval data: SLV d200 first < −20% on 10/14 (now −24.16%) and PALL first < −25% on 10/22 (−26.76%) → would-be M2 4 / I2 4, counterfactual 13/20, one shared root; **actual 8/20 unchanged until the 11/1 21:40 ET floor**. LME copper +47,525t in four sessions to 272,950t (+16.9% vs median, benign), mostly US warehouses on tariff-arb unwind, not China demand. CFTC 10/13 vintages consumed (CFTC reachable again; 403 cleared). Inbox: DAEDALUS WQ-508 packet filed (lines already applied in `f4149bf51`, none contested); **PROME WQ-451 commission (gold haven vs de-dollarisation decomposition letter) received, NOT yet executed — kept in inbox.** Tree had foreign uncommitted WALTER work at boot → no pull.

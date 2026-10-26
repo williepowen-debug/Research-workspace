@@ -1,0 +1,21 @@
+{
+  "as_of": "2026-10-26T16:27:32Z",
+  "regular": [
+    "AGENTS/WALTER/inbox/2026-10-25_from-CRUISE_correction-zero-cancellation-count.md",
+    "AGENTS/WALTER/inbox/2026-10-25_from-CRUISE_external-cruise-source-intake.md",
+    "AGENTS/WALTER/inbox/2026-10-25_from-CRUISE_port-count-source-intake.md",
+    "AGENTS/WALTER/inbox/2026-10-25_from-MARCO_MIA-Spirit-correction-capacity.md",
+    "AGENTS/WALTER/inbox/2026-10-25_from-MARCO_farm-labor-h2a-canada-news.md",
+    "AGENTS/WALTER/inbox/2026-10-25_from-MARCO_stale-sweep-corrections.md",
+    "AGENTS/WALTER/inbox/2026-10-25_from-MIDAS_saved-metals-context-vintages.md",
+    "AGENTS/WALTER/inbox/SIG-OTTO-WALTER-20261025-catchup-primary-context-and-bridge8.md",
+    "AGENTS/WALTER/inbox/SIG-OTTO-WALTER-20261025-financing-terms-and-eart-date-correction.md",
+    "AGENTS/WALTER/inbox/SIG-OTTO-WALTER-20261025-stale-file-corrections-and-negative-equity.md"
+  ],
+  "dewey": [
+    "AGENTS/WALTER/inbox/DEWEY/2026-10-25_hawk-01-helium-semiconductor-deliveries_handoff.md",
+    "AGENTS/WALTER/inbox/DEWEY/2026-10-25_hawk-02-taiwan-fuel-buffer-cargoes_handoff.md",
+    "AGENTS/WALTER/inbox/DEWEY/2026-10-25_hawk-03-marine-war-risk-prices-coverage_handoff.md"
+  ],
+  "state": "READ, NOT CONSUMED; no moves or consumption declarations; disposition/routing incomplete"
+}
