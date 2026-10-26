@@ -1,7 +1,7 @@
-## COMPLETION — OTTO — 2026-10-25 (s039, stale-file sweep Phase2)
-STATUS: DONE — accepted corrections and bounded existing-name/series checks; residual evidence/tool limits remain explicit.
-CHANGED: STATUS/THESIS/OTTO35 commentary/calendar attempt pointer, active docket/memory/index/backlog, factual charter/frozen metadata, Tier2 erratum, shelf docstring, historical-study banner, source/preimage/result receipts and WALTER/PROME delivery; final pinned brief follows STATUS commit.
-RESULT: Mixed-bank total retired; original SDT three-total consequence explicit;19 before images retained; five-name watchlist pass and Edmunds/Experian bounded checks completed. No forecast terms/probabilities/colours/convergence/calendar dates/numeric thresholds or executable producer logic/schema changed.
-GAPS: Some historical bank bases and current rating outcomes unverified; exact compatible Experian Q2 split unavailable. Full docket/primary audio/TrustV, missed after-refresh SDT cadence (actual lastAug14), existing October30 OT1/thesis review remain. No extra SDT verdict/run, detector redesign or Tier2 build/gate/schedule/drop commissioned.
-WILL_NEEDS: None for accepted bounded corrections; PROME independently checks closure.
-FOLLOW-UP: Existing dates/scope preserved. No helper, executing tool, source fetch, automated wait or research remains running after delivery. Exact finding results/checks and publication receipts: dated Phase2 READOUT/PROME memo. Owner window preserved.
+## COMPLETION — OTTO — 2026-10-25 (s039 final OTS04 prose correction)
+STATUS: DONE — remaining WHY NOW introduction/point2 corrected after PROME passed the main repairs.
+CHANGED: Two THESIS text spans, dated original/diff/check receipt, necessary MEMORY/LAST_COMPLETION and final brief refresh; assignment filed processed.
+RESULT: Rationale vintage explicit; historical July disconfirmation separate from selected current issuer repricing and absence of established broad/fraud-caused transmission. LOW/DISCONFIRMED unchanged; every other THESIS section byte-identical.
+GAPS: Prior ratings/series/bank-basis/court/audio/TrustV/cadence/tool limits and October30 OT1/full review preserved. No new source, forecast, grade, threshold or broader sweep.
+WILL_NEEDS: None; PROME independently accepts the bounded repair.
+FOLLOW-UP: Exact diff and protected hashes at research/2026-10-25_stale-file-sweep-phase2/OTS04_FINAL_PROSE.md; publication receipt in dated PROME memo. No helper, executing tool, source fetch, automated wait or research remains running after delivery; window preserved.
