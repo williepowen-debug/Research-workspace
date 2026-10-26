@@ -5,6 +5,7 @@
 **Thesis version:** v5.13; no calibration or capital-authority change.
 **Recent thesis pivot:** crude recovery separated from product scarcity (October 14); unchanged at startup.
 **As of:** 2026-10-26 13:31 ET | STATUS commit: `4e018496051562558ba70f7249e6cca684946865`
+**Persistence:** Local commits complete; remote publication PENDING because GitHub HTTPS credentials are unavailable.
 **Scope — SCOPED-PARTIAL / MIXED-VINTAGE:** Re-verified today: primary IUA index and JWLA-035 PDF, BRT-30 endpoint, complete Monday routine, named correction and boot/intake diagnostics. BRT-30 confirmed at its original 80%; this is underwriting classification, not premiums, flow or price. The Monday routine's named intraday observations remain dated context; no fresh settle/composite grade made. Earlier table rows retain their stated vintages. Positions/specs NOT re-verified against TRADE; no new position or spec claim. No broker outcome inferred. CENTCOM primary/period/perimeter and CLZ26 settlement follow-ups remain open. [Receipt and deferred mail](research/2026-10-26_boot/REPORT.md).
 
 ## CROSS-DOMAIN

@@ -9,7 +9,7 @@
 - Explicit instruction/runtime loading, boot (rc2 findings), correction receipt, 12-file intake triage and archived consumption.
 - Closed BRT-30 at original 80%, updated note/CHANGELOG/THESIS/docket and generated calendar; v5.13/WAIT unchanged.
 - STATUS and TRACKER scoped stamps; primary evidence, capability gaps and exact deferred mail in research/2026-10-26_boot/REPORT.md.
-- Startup pull deferred: other desks have dirty files. Own-path commit; sync/push outcome recorded in final response.
+- Startup pull deferred: other desks have dirty files. Own-path commits complete; safe-push failed because HTTPS GitHub credentials are unavailable (could not read Username). Push remains pending; no rebase/force attempted.
 
 ## NEXT SESSION (dated, future-verifiable)
 1. October26 existing follow-ups: CLZ26 settle-basis grade and CENTCOM primary/period/perimeter reconciliation remain unverified; USO short-interest publication due today.
