@@ -1,0 +1,37 @@
+{
+  "main_forecasts_byte_identical": true,
+  "VX57_ids_bands_preserved_except_authorized_source_instruction": true,
+  "frozen_rows_unchanged": 21,
+  "workbook/FLOW.tsv": 13,
+  "docket/CATALYSTS.tsv": 26,
+  "nine_proxy_underlying_observations_preserved": true,
+  "six_TOUR_terms_preserved_with_two_proven_blank_slots": true,
+  "baselines/bts_airport_pax.tsv_append_rows": 3,
+  "baselines/statcan_canadian_return.tsv_append_rows": 1,
+  "original_invalidation_block_retained": true,
+  "raw_BLS_recomputed": {
+    "construction_gap_pp": -0.7806863420248241,
+    "FL_AHE": 23.87,
+    "US_AHE": 23.9
+  },
+  "raw_ZHVI_recomputed": {
+    "fixed_basket_spread_pp": 4.482689416557767,
+    "Austin_yoy_pct": -4.308405525745263
+  },
+  "raw_DOM_recomputed_pct": 7.048458149779724,
+  "raw_BEA_actual_TTM_delta_millions": -3125,
+  "TX_saved_aggregate_ratio_checked_not_full_city_rebuild": 5.77135912240605,
+  "brief_pin": "f63a97bbe7eb12e49f7a3a57cb0329ddbfad7a7c",
+  "owner_dirty_at_review": "",
+  "primary_attribution_check": {
+    "CBO_Jan2026_2025_net_immigration": 410000,
+    "Brookings_Jan13_2026_2025_range": [
+      -295000,
+      -10000
+    ],
+    "CBO_url": "https://www.cbo.gov/publication/61994",
+    "Brookings_url": "https://www.brookings.edu/articles/macroeconomic-implications-of-immigration-flows-in-2025-and-2026-january-2026-update/",
+    "result": "Independently opened both primary pages; neither supports carried attributed -290K to -525K range. Withdrawal appropriate; no replacement estimate adopted."
+  },
+  "remaining_repair": "APT01 Trend still describes old flat May/June range despite July correction; VX1.04 Source still says baseline NOT rewritten despite accepted July append. Narrow correction required."
+}
