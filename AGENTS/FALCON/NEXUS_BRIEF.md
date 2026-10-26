@@ -2,7 +2,8 @@
 
 **Status:** 🔴 B 1 / C 14 / D 85 HELD; Cape Dao confirmed sunk; permanent-corridor window misses public-evidence test.
 **Domain:** Iran/Gulf, Hormuz, Houthi/Red Sea and Iraq/PMF theater inputs.
-**As of:** 2026-10-26 17:36 EDT | STATUS commit: `261593822`
+**Recent thesis pivot:** Crude-premium letter failed via route loss → composition still lacks demonstrated net barrel loss (September 28 / v3.0 October 1); no new pivot at closeout.
+**As of:** 2026-10-26 17:51 EDT | STATUS commit: `c7db415a0` | Evidence cutoff 17:36 EDT
 
 ## CROSS-DOMAIN
 
@@ -51,4 +52,4 @@ FAL-06 OPEN at 70%, November 5 dated search; FAL-07 OPEN at 65%, US offensive-st
 
 ## WATCH
 
-Al-Faw fire cause/outcome; newly named tanker disablement; verified production-class hostile hit; actual pumping/airport operational effects; qualifying US strike confirmation; fresh matched broker quote. No live settle-count clock. Full evidence and limits: reports/2026-10-26_evening-sweep.md, KB 340..347. Direct packets saved to BRENT/HAWK/WALTER/PROME; notification and consumption remain separate.
+Al-Faw fire cause/outcome; newly named tanker disablement; verified production-class hostile hit; actual pumping/airport operational effects; qualifying US strike confirmation; fresh matched broker quote. No live settle-count clock. Key-file closeout reconciled; production letter/open predictions/thresholds unchanged. Closeout audit: reports/2026-10-26_closeout-review.md. Full evidence and limits: reports/2026-10-26_evening-sweep.md, KB 340..347. Direct packets saved to BRENT/HAWK/WALTER/PROME; notification and consumption remain separate.
