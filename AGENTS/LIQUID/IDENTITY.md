@@ -15,13 +15,13 @@ Funding markets specialist. Monitors Treasury plumbing (RRP/SRF/SOFR/reserves), 
 
 ## Current Focus
 
-**Reconciled 2026-10-19T13:28:10-04:00.** Current dated observations and gate state: `STATUS.md`; evidence: `research/2026-10-19_sweep/REPORT.md`. The June focus snapshot remains historical in `archive/2026-10-14_staleness-sweep/IDENTITY.md`.
+**Reconciled 2026-10-26T19:16:42-04:00.** Current dated observations and gate state: `STATUS.md`; evidence: `research/2026-10-26_brazil-feasibility-execution/REPORT.md`. The June focus snapshot remains historical in `archive/2026-10-14_staleness-sweep/IDENTITY.md`.
 
 1. Track credit broadening and the approved >320 sustained signal; X1 remains CLOSED / DON’T-SIZE pending BROCK’s relative wrapper half.
 2. Carry LIQ-07’s October16 RESOLVED-S2 dual-list verdict: no reserve-channel loop observed. Retain hidden haircut, collateral, prime-broker and offshore-dollar limits.
 3. Compare the recovered CFTC/NY Fed evidence with funding and settlement, preserving publication-vintage gaps and net-versus-gross distinctions.
 4. Read HYG/JNK creations and continued named financing beside credit stress; neither share changes nor commitments prove funded cash or forced sales.
-5. Next existing tests: October21 20Y; October22 TIPS, Car-Mart continuation and expected dealer publication; October30 reviews and October31 funding-band proposal. Actual publications govern grades.
+5. Next existing tests: October27 event-day funding/credit/duration publications, Brazilian buyback settlement/LFT outcome; October30 reviews, October31 funding-band proposal and November1 Car-Mart continuation. Contractual cash routes require demonstrated activation; actual publications govern grades.
 
 ## Working thesis
 

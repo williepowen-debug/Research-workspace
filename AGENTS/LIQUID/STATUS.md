@@ -1,11 +1,11 @@
 # LIQUID STATUS
-**Last Updated:** 2026-10-26T19:08:29-04:00 — Official Brazil buybacks recovered; fund-payment route documented, activation unproved. X1 CLOSED / DON’T-SIZE.
+**Last Updated:** 2026-10-26T19:16:48-04:00 — Official Brazil buybacks recovered; fund-payment route documented, activation unproved. X1 CLOSED / DON’T-SIZE.
 
 > **How to read this file.** Levels here are **dated snapshots**, each with its own observation date. **`scripts/boot.py` is the live source**; quote from it, not from here. Basis is latest-revised FRED unless stated (see §5). One fact, one place: if a figure appears twice, one copy is a defect.
 
 ## 1. NOW
 
-**Startup [October26]:** root/local reads complete;30-series/0 errors;13 WALTER handoffs consumed, corrections clear. General inbox pending. Pull deferred for foreign work. OpenAI/Codex, model UNKNOWN. Boot→`research/2026-10-26_boot/REPORT.md`; current→`research/2026-10-26_brazil-feasibility-execution/REPORT.md`. VULCAN financing packets/WALTER19:00 relay folded; scoped owner review, not fleet-wide freshness.
+**Startup [October26]:** root/local reads complete;30-series/0 errors;13 WALTER handoffs consumed, corrections clear. Workbook reconciled; general inbox pending. Pull deferred for foreign work. OpenAI/Codex, model UNKNOWN. Boot→`research/2026-10-26_boot/REPORT.md`; current→`research/2026-10-26_brazil-feasibility-execution/REPORT.md`. VULCAN financing packets/WALTER19:00 relay folded; scoped owner review, not fleet-wide freshness.
 
 **Transmission coverage [10/25 review]:** fourteen mechanism families mapped; named exposure/contract/cash-response links remain incomplete. Quiet overnight funding does not clear bank-line substitution, insurer/fund cash calls, structured-credit diversion or operating feedback. LIQ-07 S2 remains its frozen reserve-channel verdict. Evidence/unknowns → `research/2026-10-25_transmission-pathways/REPORT.md`; no new gate or standing collector.
 
@@ -100,4 +100,4 @@
 
 **Open monitors** → `workbook/OPEN_MONITORS.md` (monitors, not gates): KILL_MEMO tape-vs-substance guard (two-sided; the guarded configuration is LIVE) · Athene FABN funding canary (SHADE) · USD/JPY repat (SAM; Channel 1 RETIRED) · EndGame tripwire (≤2-of-4) · basis-trade positioning (dated contracts, not cash borrowing; no new tripwire) · JGB demand-vacuum steepener (SAM; my >¥1T bar trips, BOND's 4-wk bar does not, both true) · AI-capex → public-credit markers (KB-LIQ-066) · PC redemption wave (term door OPEN = repricing, not closure) · post-QT RMP regime (KB-LIQ-070: RMPs buy BILLS, mechanical, NOT stress) · T6 RESOLVED 8/30 NO-VERDICT.
 
-**Forward dates:** `workbook/CATALYSTS.tsv` (canonical; `boot.py` countdown). **Durable findings:** `workbook/KB.tsv` (KB-LIQ-001..146; 146 = H.8 `current/h8.htm` served a 2015 release (read the dated path); 145 = NY Fed C-suffix change-versus-gross trap; 144 = ICE tier baskets fixed intramonth; 138 = the float-tie class; 139/141/142 = FRED access traps; 143 = a fail-closed check that returns before grading hides the healthy leg's ALERT). **Predictions:** `workbook/PREDICTIONS.tsv`. **History:** `archive/status_snapshots/` (prose rotations, crc32 per block, plus the full pre-restructure file of 9/29). POV arc → `thesis/CHANGELOG.md`.
+**Forward dates:** `workbook/CATALYSTS.tsv` (canonical; `boot.py` countdown). **Durable findings:** `workbook/KB.tsv` (KB-LIQ-001..149;147–149 = Brazil source/cash/price limits;146 = H.8 `current/h8.htm` served a 2015 release (read the dated path); 145 = NY Fed C-suffix change-versus-gross trap; 144 = ICE tier baskets fixed intramonth; 138 = the float-tie class; 139/141/142 = FRED access traps; 143 = a fail-closed check that returns before grading hides the healthy leg's ALERT). **Predictions:** `workbook/PREDICTIONS.tsv`. **History:** `archive/status_snapshots/` (prose rotations, crc32 per block, plus the full pre-restructure file of 9/29). POV arc → `thesis/CHANGELOG.md`.

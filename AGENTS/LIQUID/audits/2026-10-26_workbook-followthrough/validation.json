@@ -1,0 +1,13 @@
+{
+  "calendar_machine_rows": 57,
+  "calendar_human_rows": 57,
+  "exact_ordered_date_event_equality": true,
+  "unchanged_ledger_hashes_verified": true,
+  "KB_ids_added": [
+    "KB-LIQ-147",
+    "KB-LIQ-148",
+    "KB-LIQ-149"
+  ],
+  "live_gate_rows": 5,
+  "no_new_measurement_pull": true
+}

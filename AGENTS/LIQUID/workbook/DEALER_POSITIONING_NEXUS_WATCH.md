@@ -1,15 +1,11 @@
 # Dealer-Positioning Nexus Watch — registered 2026-07-11 (Sat ~18:00 ET)
-**Owner:** LIQUID. **Reconciled 2026-10-19T13:28:10-04:00.** Current state: STATUS§2. CFTC data recovered; fresh first-publication certificate remains INSTRUMENT-FAULT / UNGRADEABLE. Next review October30, set by PROME. Registered operators/count/reset unchanged.
+**Owner:** LIQUID. **Reconciled 2026-10-26T19:16:42-04:00 to saved October22–26 evidence.** Current authoritative grade/readings/reset: STATUS§2. Next reviewOctober30, set by PROME. Registered operators/count/reset unchanged.
 
-## Latest evidence — read October19, observation dates retained
+## Latest evidence — observation dates retained
 
-| Leg | Saved source read | Certification limit |
-|---|---|---|
-| W1 | CME SOFR-3M as-ofOctober13: long1,137,065 − short3,382,572 = net−2,245,507; w/w+108,209 (long+92,971, short−15,238). Latest-returned W1 NOT MET | requests recovered weekly/raw archive; weekly Last-Modified October19, not initial October16 release. Original first-publication vintage unverified; boot urllib403 remains |
-| W2 | NY Fed as-ofOctober7: G10−$10.665B; G5L10−$1.462B vs+$0.847B September30. Latest-returned W2 NOT MET: one qualifying week below−$0.800B, two required | Latest-returned, no new first-publication certification |
-| W3 | October16 VIX witness19.99 lies within1point of20 | VIOLET recorded same-session closes required; no witness-only boundary grade |
+October19's one-week mid-curve reading is superseded by the saved October22 publication/as-ofOctober14: W2 MET. Current076 conjunction remains MET in its existing episode; no10-business-day reset, new re-arm or second write-up. CFTC W1 as-ofOctober20 NOT MET; original raw archive/Last-Modified receipt now saved in October26 boot evidence. Near-boundary W3 closes still require VIOLET; no new Monday witness certified here.
 
-No newly certified conjunction, re-arm or second write-up. Four below-IG net buckets fell$4.959B→$2.164B; Treasury7–11/11–21/>21Y nets total$135.084B (+$2.022B). Net stock is not gross selling/capacity refusal; `...C` series numerically match weekly NET changes, not gross inventory. Source files, arithmetic and limits: `research/2026-10-19_sweep/REPORT.md`, `derived-evidence.json`, `pd-source-receipts.json`.
+Exact source values and dated qualifications stay in STATUS§2 and `research/2026-10-26_boot/REPORT.md`, rather than a second live numerical table. Net positioning is not gross selling, margin calls or capacity refusal. The older logs below retain their original dates and grades; they are not current absence evidence. W1 multi-week orderly-exit blind spot and the registered vintage convention remain unchanged.
 
 ## Registered rules and historical grades
 
