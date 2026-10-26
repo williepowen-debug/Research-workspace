@@ -1,0 +1,313 @@
+year,month,carrier,carrier_name,family,nationality,direction,seats,passengers,departures_performed,departures_scheduled,asm,rpm,records,passengers_per_seat_pct,distance_weighted_load_factor_pct
+2024,1,07Q,Flair Airlines Ltd.,Flair,Canadian/foreign carrier,CA->LAS,15459,11013,82,0,23785395,17076851,11,71.240054,71.795533
+2024,1,07Q,Flair Airlines Ltd.,Flair,Canadian/foreign carrier,LAS->CA,15648,12680,83,0,24010683,19459989,11,81.03272,81.047211
+2024,1,AC,Air Canada,Air Canada family,Canadian/foreign carrier,CA->LAS,19857,16500,96,0,28617573,24137670,5,83.094123,84.345622
+2024,1,AC,Air Canada,Air Canada family,Canadian/foreign carrier,LAS->CA,19688,16185,95,0,28538133,23398927,6,82.207436,81.991793
+2024,1,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,CA->LAS,11712,10324,64,0,24631872,21669476,5,88.148907,87.973322
+2024,1,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,LAS->CA,11576,10233,63,0,24367624,21539135,4,88.398411,88.39243
+2024,1,WS,Westjet,WestJet,Canadian/foreign carrier,CA->LAS,34729,29459,214,0,41260793,35416189,17,84.825362,85.834969
+2024,1,WS,Westjet,WestJet,Canadian/foreign carrier,LAS->CA,34767,28523,214,0,41359935,34105964,18,82.040441,82.461358
+2024,1,Y9,1263343 Alberta Inc. d/b/a Lynx Air,Lynx,Canadian/foreign carrier,CA->LAS,4158,2337,22,0,6817041,4068314,2,56.204906,59.678591
+2024,1,Y9,1263343 Alberta Inc. d/b/a Lynx Air,Lynx,Canadian/foreign carrier,LAS->CA,4158,2682,22,0,6817041,4453492,2,64.502165,65.328813
+2024,2,07Q,Flair Airlines Ltd.,Flair,Canadian/foreign carrier,CA->LAS,17358,13227,92,0,25252350,19652727,12,76.201175,77.825339
+2024,2,07Q,Flair Airlines Ltd.,Flair,Canadian/foreign carrier,LAS->CA,16980,12777,90,0,24830502,19005108,12,75.24735,76.539363
+2024,2,AC,Air Canada,Air Canada family,Canadian/foreign carrier,CA->LAS,18627,15097,88,0,26870559,22102067,6,81.049015,82.253841
+2024,2,AC,Air Canada,Air Canada family,Canadian/foreign carrier,LAS->CA,18490,14748,87,0,26604368,21464853,5,79.762034,80.681687
+2024,2,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,CA->LAS,12768,11295,66,0,26954816,23767473,3,88.463346,88.175237
+2024,2,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,LAS->CA,12768,11214,66,0,26954816,23633770,3,87.828947,87.679211
+2024,2,WS,Westjet,WestJet,Canadian/foreign carrier,CA->LAS,39555,34626,243,0,46660053,41193839,21,87.53887,88.285024
+2024,2,WS,Westjet,WestJet,Canadian/foreign carrier,LAS->CA,39555,32694,243,0,46660053,38861260,21,82.654532,83.285932
+2024,2,Y9,1263343 Alberta Inc. d/b/a Lynx Air,Lynx,Canadian/foreign carrier,CA->LAS,2457,1452,13,0,3914946,2390146,2,59.096459,61.051825
+2024,2,Y9,1263343 Alberta Inc. d/b/a Lynx Air,Lynx,Canadian/foreign carrier,LAS->CA,2457,1264,13,0,3914946,2099905,2,51.444851,53.63816
+2024,3,07Q,Flair Airlines Ltd.,Flair,Canadian/foreign carrier,CA->LAS,24156,19108,128,0,32473614,25857375,13,79.1025,79.6258
+2024,3,07Q,Flair Airlines Ltd.,Flair,Canadian/foreign carrier,LAS->CA,23976,19400,127,0,32437425,26707376,13,80.914248,82.335068
+2024,3,AC,Air Canada,Air Canada family,Canadian/foreign carrier,CA->LAS,22028,17736,110,0,33598322,27086901,9,80.515707,80.619803
+2024,3,AC,Air Canada,Air Canada family,Canadian/foreign carrier,LAS->CA,22028,18081,110,0,33598322,27877393,9,82.081896,82.972575
+2024,3,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,CA->LAS,3348,3173,27,0,6505164,6165139,1,94.772999,94.772999
+2024,3,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,LAS->CA,3348,2965,27,0,6505164,5760995,1,88.560335,88.560335
+2024,3,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,CA->LAS,12288,11066,63,0,25674080,23039846,3,90.055339,89.739714
+2024,3,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,LAS->CA,12288,11510,63,0,25674080,24034258,3,93.66862,93.612928
+2024,3,UA,United Air Lines Inc.,United Air Lines Inc.,US carrier,LAS->CA,166,154,1,0,164672,152768,1,92.771084,92.771084
+2024,3,WS,Westjet,WestJet,Canadian/foreign carrier,CA->LAS,42048,38636,261,0,49332078,45470145,22,91.885464,92.171558
+2024,3,WS,Westjet,WestJet,Canadian/foreign carrier,LAS->CA,41874,36962,260,0,49159470,43673178,22,88.269571,88.839806
+2024,4,07Q,Flair Airlines Ltd.,Flair,Canadian/foreign carrier,CA->LAS,22992,16237,122,0,30311463,22052220,13,70.620216,72.752081
+2024,4,07Q,Flair Airlines Ltd.,Flair,Canadian/foreign carrier,LAS->CA,22425,17809,119,0,29532204,23671339,13,79.415831,80.154326
+2024,4,AC,Air Canada,Air Canada family,Canadian/foreign carrier,CA->LAS,23252,19178,122,0,36820136,31099966,8,82.478927,84.46456
+2024,4,AC,Air Canada,Air Canada family,Canadian/foreign carrier,LAS->CA,23252,19667,122,0,36820136,31377257,8,84.581971,85.217656
+2024,4,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,CA->LAS,3844,3793,31,0,7468892,7369799,1,98.673257,98.673257
+2024,4,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,LAS->CA,3844,3757,31,0,7468892,7299851,1,97.736733,97.736733
+2024,4,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,CA->LAS,10152,9031,56,0,21233752,18912385,4,88.957841,89.067561
+2024,4,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,LAS->CA,10152,9346,56,0,21233752,19581854,4,92.060678,92.220414
+2024,4,WS,Westjet,WestJet,Canadian/foreign carrier,CA->LAS,42684,38641,261,0,50128032,45664499,22,90.528067,91.095735
+2024,4,WS,Westjet,WestJet,Canadian/foreign carrier,LAS->CA,42510,39132,260,0,49953456,46054592,22,92.053634,92.195006
+2024,5,07Q,Flair Airlines Ltd.,Flair,Canadian/foreign carrier,CA->LAS,14532,9893,77,0,18725352,12960601,10,68.077347,69.214192
+2024,5,07Q,Flair Airlines Ltd.,Flair,Canadian/foreign carrier,LAS->CA,14154,12021,75,0,18245448,15717258,10,84.930055,86.143448
+2024,5,AC,Air Canada,Air Canada family,Canadian/foreign carrier,CA->LAS,18189,14175,90,0,25426673,20073336,7,77.931717,78.945979
+2024,5,AC,Air Canada,Air Canada family,Canadian/foreign carrier,LAS->CA,18189,16111,90,0,25426673,22444093,7,88.575513,88.269877
+2024,5,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,CA->LAS,3596,3492,29,0,6987028,6784956,1,97.107898,97.107898
+2024,5,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,LAS->CA,3844,3650,31,0,7468892,7091950,1,94.953174,94.953174
+2024,5,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,CA->LAS,11592,10532,64,0,24139416,21928284,4,90.855763,90.84016
+2024,5,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,LAS->CA,11586,10717,64,0,24127758,22307275,4,92.499568,92.454819
+2024,5,WS,Westjet,WestJet,Canadian/foreign carrier,CA->LAS,51783,46222,313,0,65065443,58458008,19,89.260954,89.84494
+2024,5,WS,Westjet,WestJet,Canadian/foreign carrier,LAS->CA,51825,47601,313,0,65109123,60161713,19,91.849493,92.401357
+2024,6,07Q,Flair Airlines Ltd.,Flair,Canadian/foreign carrier,CA->LAS,6984,4637,37,0,10393515,7009625,5,66.394616,67.442295
+2024,6,07Q,Flair Airlines Ltd.,Flair,Canadian/foreign carrier,LAS->CA,7215,5962,38,0,10349877,8730985,5,82.633403,84.358346
+2024,6,AC,Air Canada,Air Canada family,Canadian/foreign carrier,CA->LAS,12887,10700,70,0,15663001,12992988,6,83.029409,82.953375
+2024,6,AC,Air Canada,Air Canada family,Canadian/foreign carrier,LAS->CA,12906,11871,70,0,15681849,14427374,5,91.980474,92.000465
+2024,6,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,CA->LAS,3720,3137,30,0,7227960,6095191,1,84.327957,84.327957
+2024,6,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,LAS->CA,3720,3014,30,0,7227960,5856202,1,81.021505,81.021505
+2024,6,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,CA->LAS,16868,14868,108,0,35167388,31036004,5,88.14323,88.25223
+2024,6,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,LAS->CA,16732,15416,107,0,34880644,32161744,5,92.134831,92.205132
+2024,6,WS,Westjet,WestJet,Canadian/foreign carrier,CA->LAS,38391,33539,238,0,49638915,43711180,14,87.361621,88.058291
+2024,6,WS,Westjet,WestJet,Canadian/foreign carrier,LAS->CA,38001,34856,236,0,49202865,45547993,14,91.723902,92.571831
+2024,7,07Q,Flair Airlines Ltd.,Flair,Canadian/foreign carrier,CA->LAS,189,147,1,0,367227,285621,1,77.777778,77.777778
+2024,7,07Q,Flair Airlines Ltd.,Flair,Canadian/foreign carrier,LAS->CA,378,317,2,0,734454,615931,1,83.862434,83.862434
+2024,7,4Y,Eurowings Discover GmbH,Eurowings Discover GmbH,Canadian/foreign carrier,LAS->CA,553,471,2,0,575120,489840,1,85.17179,85.17179
+2024,7,AC,Air Canada,Air Canada family,Canadian/foreign carrier,CA->LAS,9334,7837,61,0,9259328,7774304,1,83.96186,83.96186
+2024,7,AC,Air Canada,Air Canada family,Canadian/foreign carrier,LAS->CA,9334,8152,61,0,9259328,8086784,1,87.336619,87.336619
+2024,7,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,CA->LAS,4092,3581,31,0,7950756,6957883,1,87.512219,87.512219
+2024,7,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,LAS->CA,3432,2920,26,0,6668376,5673560,1,85.081585,85.081585
+2024,7,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,CA->LAS,19760,18048,124,0,40889552,37335512,3,91.336032,91.308195
+2024,7,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,LAS->CA,19592,16870,123,0,40563128,34994858,3,86.106574,86.272582
+2024,7,WS,Westjet,WestJet,Canadian/foreign carrier,CA->LAS,37572,34369,236,0,47198496,43397215,14,91.475035,91.946182
+2024,7,WS,Westjet,WestJet,Canadian/foreign carrier,LAS->CA,35886,32507,226,0,45077160,40988971,14,90.584072,90.930686
+2024,8,AC,Air Canada,Air Canada family,Canadian/foreign carrier,CA->LAS,9248,7372,60,0,9174016,7313024,2,79.714533,79.714533
+2024,8,AC,Air Canada,Air Canada family,Canadian/foreign carrier,LAS->CA,9248,8130,60,0,9174016,8064960,2,87.9109,87.9109
+2024,8,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,CA->LAS,4216,3989,34,0,8191688,7750627,1,94.61575,94.61575
+2024,8,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,LAS->CA,4216,3422,34,0,8191688,6648946,1,81.166983,81.166983
+2024,8,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,CA->LAS,19116,17676,123,0,39669044,36595548,5,92.467043,92.252155
+2024,8,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,LAS->CA,19116,17364,123,0,39655772,36056952,6,90.834903,90.924852
+2024,8,WS,Westjet,WestJet,Canadian/foreign carrier,CA->LAS,37620,35617,234,0,47542836,45118254,14,94.675704,94.900216
+2024,8,WS,Westjet,WestJet,Canadian/foreign carrier,LAS->CA,37662,35098,234,0,47586516,44692512,14,93.192077,93.918437
+2024,9,07Q,Flair Airlines Ltd.,Flair,Canadian/foreign carrier,CA->LAS,2457,2011,13,0,2756376,2264112,2,81.847782,82.140898
+2024,9,07Q,Flair Airlines Ltd.,Flair,Canadian/foreign carrier,LAS->CA,2457,1848,13,0,2756376,2067688,2,75.213675,75.014729
+2024,9,AC,Air Canada,Air Canada family,Canadian/foreign carrier,CA->LAS,16564,13673,86,0,23450819,19661428,6,82.546486,83.841114
+2024,9,AC,Air Canada,Air Canada family,Canadian/foreign carrier,LAS->CA,16556,13902,86,0,23442883,19856262,6,83.969558,84.700598
+2024,9,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,CA->LAS,7440,6227,60,0,14455920,12099061,1,83.696237,83.696237
+2024,9,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,LAS->CA,7192,5589,58,0,13974056,10859427,1,77.711346,77.711346
+2024,9,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,CA->LAS,14660,12261,93,0,30877244,25844803,5,83.635744,83.701781
+2024,9,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,LAS->CA,14660,12724,93,0,30877244,26789996,5,86.793997,86.762912
+2024,9,WS,Westjet,WestJet,Canadian/foreign carrier,CA->LAS,40743,37262,248,0,51671835,47577529,13,91.456201,92.076329
+2024,9,WS,Westjet,WestJet,Canadian/foreign carrier,LAS->CA,40785,35770,248,0,51715515,46050254,13,87.703813,89.045336
+2024,10,07Q,Flair Airlines Ltd.,Flair,Canadian/foreign carrier,CA->LAS,5478,3543,29,0,6082680,3930328,4,64.676889,64.615071
+2024,10,07Q,Flair Airlines Ltd.,Flair,Canadian/foreign carrier,LAS->CA,5289,4192,28,0,5895192,4670024,4,79.258839,79.217505
+2024,10,AC,Air Canada,Air Canada family,Canadian/foreign carrier,CA->LAS,20133,17504,98,0,30406815,27014871,6,86.941837,88.84479
+2024,10,AC,Air Canada,Air Canada family,Canadian/foreign carrier,LAS->CA,19848,17620,98,0,29841648,26863644,6,88.774688,90.020645
+2024,10,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,CA->LAS,7192,6671,58,0,13974056,12961753,1,92.75584,92.75584
+2024,10,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,LAS->CA,7192,6366,58,0,13974056,12369138,1,88.515017,88.515017
+2024,10,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,CA->LAS,13508,12423,83,0,28445916,26147729,3,91.967723,91.920854
+2024,10,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,LAS->CA,13508,12074,83,0,28445916,25388222,3,89.384069,89.250851
+2024,10,WS,Westjet,WestJet,Canadian/foreign carrier,CA->LAS,50253,45111,302,0,61530276,55578349,19,89.767775,90.326832
+2024,10,WS,Westjet,WestJet,Canadian/foreign carrier,LAS->CA,50211,43776,302,0,61486596,54203591,19,87.184083,88.155134
+2024,11,07Q,Flair Airlines Ltd.,Flair,Canadian/foreign carrier,CA->LAS,10752,8180,57,0,11450136,8720296,5,76.078869,76.158886
+2024,11,07Q,Flair Airlines Ltd.,Flair,Canadian/foreign carrier,LAS->CA,10752,8978,57,0,11478864,9564544,5,83.500744,83.323088
+2024,11,AC,Air Canada,Air Canada family,Canadian/foreign carrier,CA->LAS,29018,21285,134,0,50127271,35593209,10,73.351024,71.005679
+2024,11,AC,Air Canada,Air Canada family,Canadian/foreign carrier,LAS->CA,29014,21798,134,0,50123303,36636429,10,75.129248,73.092607
+2024,11,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,CA->LAS,11880,9328,90,0,24044064,18813632,3,78.518519,78.246473
+2024,11,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,LAS->CA,11748,9071,89,0,23760924,18227247,3,77.213143,76.711019
+2024,11,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,CA->LAS,5808,4875,30,0,11284944,9472125,2,83.93595,83.93595
+2024,11,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,LAS->CA,5808,5087,30,0,11284944,9884041,2,87.586088,87.586088
+2024,11,WS,Westjet,WestJet,Canadian/foreign carrier,CA->LAS,35190,30859,212,0,41242932,36220647,19,87.692526,87.822677
+2024,11,WS,Westjet,WestJet,Canadian/foreign carrier,LAS->CA,34833,30845,210,0,40964208,36189603,18,88.551087,88.344447
+2024,12,07Q,Flair Airlines Ltd.,Flair,Canadian/foreign carrier,CA->LAS,10011,8124,53,0,10651848,8607096,4,81.150734,80.803782
+2024,12,07Q,Flair Airlines Ltd.,Flair,Canadian/foreign carrier,LAS->CA,10200,8563,54,0,10839336,9077872,4,83.95098,83.749337
+2024,12,AC,Air Canada,Air Canada family,Canadian/foreign carrier,CA->LAS,32479,25693,149,0,56475362,43842569,12,79.1065,77.63132
+2024,12,AC,Air Canada,Air Canada family,Canadian/foreign carrier,LAS->CA,32479,24808,149,0,56391002,42161426,12,76.381662,74.76623
+2024,12,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,CA->LAS,11880,9495,90,0,24070728,19144481,3,79.924242,79.534283
+2024,12,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,LAS->CA,11880,8905,90,0,24070728,17935405,3,74.957912,74.511269
+2024,12,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,CA->LAS,1148,978,6,0,2230564,1900254,2,85.191638,85.191638
+2024,12,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,LAS->CA,1148,1043,6,0,2230564,2026549,2,90.853659,90.853659
+2024,12,UA,United Air Lines Inc.,United Air Lines Inc.,US carrier,CA->LAS,166,153,1,0,322538,297279,1,92.168675,92.168675
+2024,12,WS,Westjet,WestJet,Canadian/foreign carrier,CA->LAS,38325,34145,230,0,44372811,39577471,19,89.093281,89.193067
+2024,12,WS,Westjet,WestJet,Canadian/foreign carrier,LAS->CA,38151,32129,229,0,44191851,37216282,19,84.215355,84.21526
+2025,1,07Q,Flair Airlines Ltd.,Flair,Canadian/foreign carrier,CA->LAS,7542,5348,40,0,8022984,5680440,6,70.909573,70.802086
+2025,1,07Q,Flair Airlines Ltd.,Flair,Canadian/foreign carrier,LAS->CA,7167,5705,38,0,7642056,6051360,6,79.600949,79.184973
+2025,1,AC,Air Canada,Air Canada family,Canadian/foreign carrier,CA->LAS,33978,25891,151,0,59704716,44790491,12,76.199305,75.020022
+2025,1,AC,Air Canada,Air Canada family,Canadian/foreign carrier,LAS->CA,33646,24891,150,0,58906529,43072647,12,73.979076,73.120328
+2025,1,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,CA->LAS,10824,8197,82,0,22018920,16517027,3,75.72986,75.012884
+2025,1,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,LAS->CA,10692,8389,81,0,21723372,16943883,3,78.460531,77.998402
+2025,1,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,CA->LAS,1692,1250,12,0,3730372,2746950,2,73.877069,73.637428
+2025,1,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,LAS->CA,1692,1466,12,0,3730372,3227022,2,86.643026,86.506708
+2025,1,WS,Westjet,WestJet,Canadian/foreign carrier,CA->LAS,33474,27317,203,0,39406419,32077000,19,81.60662,81.400444
+2025,1,WS,Westjet,WestJet,Canadian/foreign carrier,LAS->CA,33648,26199,204,0,39587379,30820108,19,77.861983,77.853368
+2025,2,07Q,Flair Airlines Ltd.,Flair,Canadian/foreign carrier,CA->LAS,7923,5409,42,0,8457336,5771256,5,68.269595,68.239644
+2025,2,07Q,Flair Airlines Ltd.,Flair,Canadian/foreign carrier,LAS->CA,7920,6298,42,0,8454216,6687296,5,79.520202,79.100132
+2025,2,AC,Air Canada,Air Canada family,Canadian/foreign carrier,CA->LAS,29418,24590,143,0,50745913,41969594,13,83.588279,82.705368
+2025,2,AC,Air Canada,Air Canada family,Canadian/foreign carrier,LAS->CA,28327,22830,139,0,48809350,39323332,13,80.594486,80.565162
+2025,2,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,CA->LAS,10560,8626,80,0,21386904,17312944,3,81.685606,80.951147
+2025,2,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,LAS->CA,10560,8240,80,0,21386904,16563600,3,78.030303,77.447395
+2025,2,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,CA->LAS,952,873,7,0,2131528,1954647,1,91.701681,91.701681
+2025,2,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,LAS->CA,952,835,7,0,2131528,1869565,1,87.710084,87.710084
+2025,2,WS,Westjet,WestJet,Canadian/foreign carrier,CA->LAS,33762,27969,210,0,39935838,32959142,21,82.841656,82.530238
+2025,2,WS,Westjet,WestJet,Canadian/foreign carrier,LAS->CA,33762,27189,210,0,39973764,31907076,21,80.531367,79.820044
+2025,3,07Q,Flair Airlines Ltd.,Flair,Canadian/foreign carrier,CA->LAS,11139,6563,59,0,11799408,6939016,5,58.919113,58.808171
+2025,3,07Q,Flair Airlines Ltd.,Flair,Canadian/foreign carrier,LAS->CA,10950,7550,58,0,11611920,7935016,5,68.949772,68.33509
+2025,3,AC,Air Canada,Air Canada family,Canadian/foreign carrier,CA->LAS,27493,21602,133,0,47374258,36783341,12,78.572728,77.644152
+2025,3,AC,Air Canada,Air Canada family,Canadian/foreign carrier,LAS->CA,27208,21810,132,0,46898833,37051228,13,80.160247,79.002452
+2025,3,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,CA->LAS,11616,10281,88,0,23049840,20373317,2,88.507231,88.388106
+2025,3,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,LAS->CA,11484,10485,87,0,22793364,20790697,2,91.30094,91.213816
+2025,3,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,CA->LAS,6324,5775,33,0,12327788,11253385,3,91.318786,91.284706
+2025,3,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,LAS->CA,6128,5819,32,0,11946960,11341541,3,94.957572,94.932443
+2025,3,VS,Virgin Atlantic Airways,Virgin Atlantic Airways,Canadian/foreign carrier,LAS->CA,258,247,1,0,832308,796822,1,95.736434,95.736434
+2025,3,WS,Westjet,WestJet,Canadian/foreign carrier,CA->LAS,39108,32512,237,0,45704928,38013999,21,83.133886,83.172648
+2025,3,WS,Westjet,WestJet,Canadian/foreign carrier,LAS->CA,39066,31671,237,0,45661248,36966211,21,81.070496,80.957513
+2025,4,07Q,Flair Airlines Ltd.,Flair,Canadian/foreign carrier,CA->LAS,6426,3523,34,0,6553008,3556392,3,54.824152,54.271138
+2025,4,07Q,Flair Airlines Ltd.,Flair,Canadian/foreign carrier,LAS->CA,6615,4977,35,0,6749568,5066240,3,75.238095,75.060211
+2025,4,AC,Air Canada,Air Canada family,Canadian/foreign carrier,CA->LAS,20596,16418,101,0,32729875,26429339,10,79.714508,80.749893
+2025,4,AC,Air Canada,Air Canada family,Canadian/foreign carrier,LAS->CA,20873,16430,102,0,33360054,26137291,10,78.714128,78.349067
+2025,4,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,CA->LAS,10956,9402,83,0,21740796,18601386,2,85.815991,85.55982
+2025,4,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,LAS->CA,10956,9753,83,0,21740796,19324587,2,89.019715,88.88629
+2025,4,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,CA->LAS,9308,8248,49,0,18420516,16311208,4,88.611947,88.549137
+2025,4,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,LAS->CA,9172,8241,48,0,18116012,16250543,4,89.849542,89.702651
+2025,4,WS,Westjet,WestJet,Canadian/foreign carrier,CA->LAS,37638,31246,228,0,43979880,36773984,20,83.017164,83.615471
+2025,4,WS,Westjet,WestJet,Canadian/foreign carrier,LAS->CA,37854,32111,229,0,44361642,37805751,20,84.828552,85.221712
+2025,5,07Q,Flair Airlines Ltd.,Flair,Canadian/foreign carrier,CA->LAS,5844,3224,31,0,5797248,3198208,2,55.167693,55.167693
+2025,5,07Q,Flair Airlines Ltd.,Flair,Canadian/foreign carrier,LAS->CA,5844,4272,31,0,5797248,4237824,2,73.100616,73.100616
+2025,5,AC,Air Canada,Air Canada family,Canadian/foreign carrier,CA->LAS,15910,11374,100,0,23011864,17179566,4,71.489629,74.655256
+2025,5,AC,Air Canada,Air Canada family,Canadian/foreign carrier,LAS->CA,15918,13454,100,0,23019800,19793062,4,84.520668,85.982771
+2025,5,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,CA->LAS,12276,9594,93,0,24198900,18894046,2,78.152493,78.078119
+2025,5,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,LAS->CA,12408,9866,94,0,24482040,19411230,2,79.513217,79.287633
+2025,5,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,CA->LAS,8692,7767,53,0,17970732,16066897,5,89.35803,89.405913
+2025,5,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,LAS->CA,8828,7674,54,0,18275236,15906326,5,86.927957,87.037596
+2025,5,WS,Westjet,WestJet,Canadian/foreign carrier,CA->LAS,41271,30579,251,0,46963869,35258539,15,74.093189,75.075882
+2025,5,WS,Westjet,WestJet,Canadian/foreign carrier,LAS->CA,40881,30869,249,0,46574973,35523115,15,75.509405,76.270823
+2025,6,07Q,Flair Airlines Ltd.,Flair,Canadian/foreign carrier,CA->LAS,3024,1572,16,0,2999808,1559424,1,51.984127,51.984127
+2025,6,07Q,Flair Airlines Ltd.,Flair,Canadian/foreign carrier,LAS->CA,3213,2295,17,0,3187296,2276640,1,71.428571,71.428571
+2025,6,AC,Air Canada,Air Canada family,Canadian/foreign carrier,CA->LAS,14737,11890,93,0,19892399,16713452,3,80.681278,84.019288
+2025,6,AC,Air Canada,Air Canada family,Canadian/foreign carrier,LAS->CA,14560,12301,92,0,19556096,16948082,3,84.48489,86.663933
+2025,6,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,CA->LAS,8976,6660,68,0,17627016,13070872,2,74.197861,74.152494
+2025,6,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,LAS->CA,8976,7260,68,0,17627016,14224350,2,80.882353,80.696302
+2025,6,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,CA->LAS,6608,5366,47,0,14646128,11896370,3,81.2046,81.225359
+2025,6,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,LAS->CA,6472,5732,46,0,14341624,12694828,3,88.566131,88.517367
+2025,6,WS,Westjet,WestJet,Canadian/foreign carrier,CA->LAS,31086,23385,196,0,35779452,27250838,15,75.22679,76.163374
+2025,6,WS,Westjet,WestJet,Canadian/foreign carrier,LAS->CA,30924,23053,196,0,35618748,26947118,15,74.547277,75.65431
+2025,7,AC,Air Canada,Air Canada family,Canadian/foreign carrier,CA->LAS,9182,7556,60,0,9108544,7495552,2,82.29144,82.29144
+2025,7,AC,Air Canada,Air Canada family,Canadian/foreign carrier,LAS->CA,9182,7558,60,0,9108544,7497536,2,82.313222,82.313222
+2025,7,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,CA->LAS,8052,7277,61,0,15645036,14139211,1,90.375062,90.375062
+2025,7,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,LAS->CA,7920,6788,60,0,15388560,13189084,1,85.707071,85.707071
+2025,7,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,CA->LAS,12472,11668,91,0,25485248,23842292,3,93.55356,93.553306
+2025,7,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,LAS->CA,12472,11405,91,0,25485248,23329204,3,91.444836,91.540031
+2025,7,WS,Westjet,WestJet,Canadian/foreign carrier,CA->LAS,27435,22695,170,0,30946740,25708927,12,82.722799,83.07475
+2025,7,WS,Westjet,WestJet,Canadian/foreign carrier,LAS->CA,27477,21801,170,0,30990420,24635326,12,79.342723,79.49336
+2025,8,AC,Air Canada,Air Canada family,Canadian/foreign carrier,CA->LAS,8146,5911,53,0,8402270,6129992,3,72.563221,72.95638
+2025,8,AC,Air Canada,Air Canada family,Canadian/foreign carrier,LAS->CA,8154,5893,53,0,8410206,6122597,3,72.271278,72.799608
+2025,8,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,CA->LAS,8052,7021,61,0,15645036,13641803,1,87.195728,87.195728
+2025,8,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,LAS->CA,8052,6979,61,0,15645036,13560197,1,86.674118,86.674118
+2025,8,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,CA->LAS,10862,9478,77,0,22195450,19368827,4,87.258332,87.264854
+2025,8,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,LAS->CA,10844,9068,77,0,22160476,18535369,4,83.62228,83.641565
+2025,8,WS,Westjet,WestJet,Canadian/foreign carrier,CA->LAS,27276,23308,168,0,30699246,26392660,12,85.452412,85.971688
+2025,8,WS,Westjet,WestJet,Canadian/foreign carrier,LAS->CA,27219,22868,168,0,30639966,25888356,12,84.014843,84.492117
+2025,9,07Q,Flair Airlines Ltd.,Flair,Canadian/foreign carrier,CA->LAS,1323,839,7,0,1312416,832288,1,63.416478,63.416478
+2025,9,07Q,Flair Airlines Ltd.,Flair,Canadian/foreign carrier,LAS->CA,1323,888,7,0,1312416,880896,1,67.120181,67.120181
+2025,9,AC,Air Canada,Air Canada family,Canadian/foreign carrier,CA->LAS,8146,5911,53,0,8402270,6129992,3,72.563221,72.95638
+2025,9,AC,Air Canada,Air Canada family,Canadian/foreign carrier,LAS->CA,8154,5893,53,0,8410206,6122597,3,72.271278,72.799608
+2025,9,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,CA->LAS,4092,3503,31,0,7950756,6806329,1,85.606061,85.606061
+2025,9,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,LAS->CA,4092,3397,31,0,7950756,6600371,1,83.01564,83.01564
+2025,9,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,CA->LAS,14996,12877,93,0,30505804,26164055,4,85.869565,85.767466
+2025,9,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,LAS->CA,14996,12629,93,0,30505804,25589527,4,84.215791,83.884126
+2025,9,WS,Westjet,WestJet,Canadian/foreign carrier,CA->LAS,25521,20744,158,0,28760199,23572493,12,81.282081,81.962204
+2025,9,WS,Westjet,WestJet,Canadian/foreign carrier,LAS->CA,25536,19822,158,0,28775799,22653787,12,77.623747,78.725136
+2025,10,07Q,Flair Airlines Ltd.,Flair,Canadian/foreign carrier,CA->LAS,1701,1046,9,0,1687392,1037632,1,61.493239,61.493239
+2025,10,07Q,Flair Airlines Ltd.,Flair,Canadian/foreign carrier,LAS->CA,1512,1123,8,0,1499904,1114016,1,74.272487,74.272487
+2025,10,AC,Air Canada,Air Canada family,Canadian/foreign carrier,CA->LAS,10307,7857,70,0,13815040,10955328,2,76.229747,79.300009
+2025,10,AC,Air Canada,Air Canada family,Canadian/foreign carrier,LAS->CA,10457,8079,71,0,13963840,11146848,2,77.259252,79.826523
+2025,10,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,CA->LAS,5940,5425,45,0,11541420,10540775,1,91.329966,91.329966
+2025,10,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,LAS->CA,6072,4868,46,0,11797896,9458524,1,80.171278,80.171278
+2025,10,QK,Jazz Aviation LP,Air Canada family,Canadian/foreign carrier,CA->LAS,456,354,6,0,452352,351168,1,77.631579,77.631579
+2025,10,QK,Jazz Aviation LP,Air Canada family,Canadian/foreign carrier,LAS->CA,380,252,5,0,376960,249984,1,66.315789,66.315789
+2025,10,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,CA->LAS,16148,13902,97,0,32859376,28211169,6,86.091157,85.854244
+2025,10,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,LAS->CA,15980,14015,96,0,32532952,28453003,6,87.703379,87.459026
+2025,10,WS,Westjet,WestJet,Canadian/foreign carrier,CA->LAS,37152,30583,230,0,42453987,35376468,18,82.318583,83.328965
+2025,10,WS,Westjet,WestJet,Canadian/foreign carrier,LAS->CA,37194,28876,230,0,42497667,33504838,18,77.636178,78.839241
+2025,11,07Q,Flair Airlines Ltd.,Flair,Canadian/foreign carrier,CA->LAS,1512,969,8,0,1499904,961248,1,64.087302,64.087302
+2025,11,07Q,Flair Airlines Ltd.,Flair,Canadian/foreign carrier,LAS->CA,1701,1279,9,0,1687392,1268768,1,75.191064,75.191064
+2025,11,AC,Air Canada,Air Canada family,Canadian/foreign carrier,CA->LAS,4615,3865,30,0,4578080,3834080,2,83.748646,83.748646
+2025,11,AC,Air Canada,Air Canada family,Canadian/foreign carrier,LAS->CA,4615,3757,30,0,4578080,3726944,2,81.408451,81.408451
+2025,11,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,CA->LAS,8580,6214,65,0,16670940,12073802,1,72.424242,72.424242
+2025,11,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,LAS->CA,8580,6002,65,0,16670940,11661886,1,69.95338,69.95338
+2025,11,QK,Jazz Aviation LP,Air Canada family,Canadian/foreign carrier,CA->LAS,2128,1584,28,0,2110976,1571328,1,74.43609,74.43609
+2025,11,QK,Jazz Aviation LP,Air Canada family,Canadian/foreign carrier,LAS->CA,2128,1586,28,0,2110976,1573312,1,74.530075,74.530075
+2025,11,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,CA->LAS,14796,11947,89,0,30250260,24396269,6,80.744796,80.64813
+2025,11,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,LAS->CA,14628,12227,88,0,29915520,24982483,6,83.586273,83.510108
+2025,11,WS,Westjet,WestJet,Canadian/foreign carrier,CA->LAS,27723,21829,174,0,32108133,25490549,18,78.739675,79.389695
+2025,11,WS,Westjet,WestJet,Canadian/foreign carrier,LAS->CA,27681,21549,174,0,32064453,25236996,18,77.847621,78.707084
+2025,12,07Q,Flair Airlines Ltd.,Flair,Canadian/foreign carrier,CA->LAS,2646,1858,14,0,2624832,1843136,1,70.219199,70.219199
+2025,12,07Q,Flair Airlines Ltd.,Flair,Canadian/foreign carrier,LAS->CA,2457,1931,13,0,2437344,1915552,1,78.591779,78.591779
+2025,12,AC,Air Canada,Air Canada family,Canadian/foreign carrier,CA->LAS,4738,3969,31,0,4700096,3937248,1,83.769523,83.769523
+2025,12,AC,Air Canada,Air Canada family,Canadian/foreign carrier,LAS->CA,4875,4189,32,0,4966287,4279118,2,85.928205,86.163325
+2025,12,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,CA->LAS,7524,5645,57,0,14619132,10968235,1,75.026582,75.026582
+2025,12,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,LAS->CA,7260,5159,55,0,14106180,10023937,1,71.060606,71.060606
+2025,12,QK,Jazz Aviation LP,Air Canada family,Canadian/foreign carrier,CA->LAS,1900,1555,25,0,1884800,1542560,1,81.842105,81.842105
+2025,12,QK,Jazz Aviation LP,Air Canada family,Canadian/foreign carrier,LAS->CA,1900,1551,25,0,1884800,1538592,1,81.631579,81.631579
+2025,12,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,CA->LAS,15404,12223,91,0,31442296,24891551,6,79.34952,79.165819
+2025,12,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,LAS->CA,15572,12848,92,0,31851880,26214925,6,82.507064,82.302599
+2025,12,WS,Westjet,WestJet,Canadian/foreign carrier,CA->LAS,27894,23051,176,0,32423409,26815466,20,82.637843,82.70403
+2025,12,WS,Westjet,WestJet,Canadian/foreign carrier,LAS->CA,27936,21425,176,0,32467089,25032871,20,76.693156,77.102296
+2026,1,07Q,Flair Airlines Ltd.,Flair,Canadian/foreign carrier,CA->LAS,3024,1970,16,0,2999808,1954240,1,65.145503,65.145503
+2026,1,07Q,Flair Airlines Ltd.,Flair,Canadian/foreign carrier,LAS->CA,3213,2544,17,0,3187296,2523648,1,79.178338,79.178338
+2026,1,AC,Air Canada,Air Canada family,Canadian/foreign carrier,CA->LAS,5709,4696,37,0,6466923,5390702,4,82.256087,83.358067
+2026,1,AC,Air Canada,Air Canada family,Canadian/foreign carrier,LAS->CA,5709,4734,37,0,6466923,5293356,4,82.921703,81.852776
+2026,1,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,CA->LAS,6732,5862,51,0,13080276,11389866,1,87.076649,87.076649
+2026,1,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,LAS->CA,6864,5615,52,0,13336752,10909945,1,81.803613,81.803613
+2026,1,QK,Jazz Aviation LP,Air Canada family,Canadian/foreign carrier,CA->LAS,2128,1750,28,0,2110976,1736000,1,82.236842,82.236842
+2026,1,QK,Jazz Aviation LP,Air Canada family,Canadian/foreign carrier,LAS->CA,2204,1747,29,0,2186368,1733024,1,79.264973,79.264973
+2026,1,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,CA->LAS,14852,12646,83,0,30429160,25815905,4,85.146782,84.839361
+2026,1,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,LAS->CA,15664,13067,88,0,32148248,26730136,5,83.420582,83.146478
+2026,1,WS,Westjet,WestJet,Canadian/foreign carrier,CA->LAS,25362,19909,161,0,29691606,23380033,17,78.49933,78.742905
+2026,1,WS,Westjet,WestJet,Canadian/foreign carrier,LAS->CA,25362,18795,161,0,29691606,22163355,17,74.106932,74.645188
+2026,2,07Q,Flair Airlines Ltd.,Flair,Canadian/foreign carrier,CA->LAS,3024,1831,16,0,2999808,1816352,1,60.548942,60.548942
+2026,2,07Q,Flair Airlines Ltd.,Flair,Canadian/foreign carrier,LAS->CA,2835,2124,15,0,2812320,2107008,1,74.920635,74.920635
+2026,2,AC,Air Canada,Air Canada family,Canadian/foreign carrier,CA->LAS,6176,5497,39,0,7407589,6615146,6,89.005829,89.302282
+2026,2,AC,Air Canada,Air Canada family,Canadian/foreign carrier,LAS->CA,6345,5394,40,0,7735956,6545304,6,85.01182,84.608858
+2026,2,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,CA->LAS,6336,5478,48,0,12310848,10643754,1,86.458333,86.458333
+2026,2,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,LAS->CA,6336,5252,48,0,12310848,10204636,1,82.891414,82.891414
+2026,2,QK,Jazz Aviation LP,Air Canada family,Canadian/foreign carrier,CA->LAS,1824,1622,24,0,1809408,1609024,1,88.925439,88.925439
+2026,2,QK,Jazz Aviation LP,Air Canada family,Canadian/foreign carrier,LAS->CA,1824,1551,24,0,1809408,1538592,1,85.032895,85.032895
+2026,2,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,CA->LAS,15712,13870,91,0,32602664,28737647,5,88.276477,88.145088
+2026,2,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,LAS->CA,15908,13415,92,0,33033388,27773095,6,84.32864,84.07583
+2026,2,WS,Westjet,WestJet,Canadian/foreign carrier,CA->LAS,24222,20541,156,0,28352130,23900727,16,84.803072,84.299582
+2026,2,WS,Westjet,WestJet,Canadian/foreign carrier,LAS->CA,23874,19918,154,0,27986808,23316028,17,83.429672,83.31078
+2026,3,07Q,Flair Airlines Ltd.,Flair,Canadian/foreign carrier,CA->LAS,3393,2107,18,0,3365856,2090144,2,62.098438,62.098438
+2026,3,07Q,Flair Airlines Ltd.,Flair,Canadian/foreign carrier,LAS->CA,3393,2544,18,0,3365856,2523648,2,74.977896,74.977896
+2026,3,AC,Air Canada,Air Canada family,Canadian/foreign carrier,CA->LAS,8470,7211,49,0,12293747,10291720,7,85.135773,83.715079
+2026,3,AC,Air Canada,Air Canada family,Canadian/foreign carrier,LAS->CA,8333,7611,48,0,12027556,10942881,7,91.335653,90.981751
+2026,3,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,CA->LAS,6996,6300,53,0,13593228,12240900,1,90.051458,90.051458
+2026,3,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,LAS->CA,6996,6247,53,0,13593228,12137921,1,89.293882,89.293882
+2026,3,QK,Jazz Aviation LP,Air Canada family,Canadian/foreign carrier,CA->LAS,2204,1938,29,0,2186368,1922496,1,87.931034,87.931034
+2026,3,QK,Jazz Aviation LP,Air Canada family,Canadian/foreign carrier,LAS->CA,2356,2022,31,0,2337152,2005824,1,85.82343,85.82343
+2026,3,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,CA->LAS,16692,14908,100,0,34304844,30572123,6,89.312245,89.118968
+2026,3,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,LAS->CA,16692,14990,100,0,34288212,30778375,6,89.803499,89.763721
+2026,3,WS,Westjet,WestJet,Canadian/foreign carrier,CA->LAS,28218,25403,177,0,32322285,29087744,19,90.024098,89.992845
+2026,3,WS,Westjet,WestJet,Canadian/foreign carrier,LAS->CA,28269,24798,177,0,32376639,28534624,19,87.721532,88.133373
+2026,4,07Q,Flair Airlines Ltd.,Flair,Canadian/foreign carrier,CA->LAS,1509,716,8,0,1496928,710272,2,47.448641,47.448641
+2026,4,07Q,Flair Airlines Ltd.,Flair,Canadian/foreign carrier,LAS->CA,1509,957,8,0,1496928,949344,2,63.419483,63.419483
+2026,4,AC,Air Canada,Air Canada family,Canadian/foreign carrier,CA->LAS,2732,2416,18,0,3052096,2699936,3,88.433382,88.4617
+2026,4,AC,Air Canada,Air Canada family,Canadian/foreign carrier,LAS->CA,2732,2440,18,0,3052096,2726240,3,89.311859,89.323534
+2026,4,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,CA->LAS,6732,5973,51,0,13080276,11605539,1,88.72549,88.72549
+2026,4,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,LAS->CA,6732,5931,51,0,13080276,11523933,1,88.101604,88.101604
+2026,4,QK,Jazz Aviation LP,Air Canada family,Canadian/foreign carrier,CA->LAS,2128,1837,28,0,2110976,1822304,1,86.325188,86.325188
+2026,4,QK,Jazz Aviation LP,Air Canada family,Canadian/foreign carrier,LAS->CA,2052,1726,27,0,2035584,1712192,1,84.11306,84.11306
+2026,4,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,CA->LAS,19015,17165,111,0,36341048,32716081,7,90.270839,90.025145
+2026,4,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,LAS->CA,19034,17054,111,0,36637768,32854471,7,89.597562,89.673779
+2026,4,WS,Westjet,WestJet,Canadian/foreign carrier,CA->LAS,29409,24626,182,0,34106697,28642322,19,83.736271,83.978586
+2026,4,WS,Westjet,WestJet,Canadian/foreign carrier,LAS->CA,29352,24856,182,0,34047417,28848382,19,84.682475,84.730016
+2026,5,AC,Air Canada,Air Canada family,Canadian/foreign carrier,CA->LAS,3096,2712,18,0,6024000,5328576,3,87.596899,88.455777
+2026,5,AC,Air Canada,Air Canada family,Canadian/foreign carrier,LAS->CA,3096,2863,18,0,6024000,5581952,3,92.47416,92.661886
+2026,5,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,CA->LAS,6468,5819,49,0,12567324,11306317,1,89.965986,89.965986
+2026,5,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,LAS->CA,6468,5665,49,0,12567324,11007095,1,87.585034,87.585034
+2026,5,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,CA->LAS,20066,17183,109,0,29225272,25549378,4,85.632413,87.422208
+2026,5,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,LAS->CA,20038,18562,109,0,29170868,27104693,4,92.633995,92.916992
+2026,5,WS,Westjet,WestJet,Canadian/foreign carrier,CA->LAS,27477,23795,167,0,31891626,27799616,13,86.599702,87.169014
+2026,5,WS,Westjet,WestJet,Canadian/foreign carrier,LAS->CA,27492,25257,167,0,31907226,29299299,13,91.870362,91.826532
+2026,6,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,CA->LAS,5940,5175,45,0,11541420,10055025,1,87.121212,87.121212
+2026,6,PD,Porter Airlines Limited (PACL),Porter family,Canadian/foreign carrier,LAS->CA,5940,5108,45,0,11541420,9924844,1,85.993266,85.993266
+2026,6,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,CA->LAS,22160,19172,132,0,33841132,30183085,7,86.516245,89.19053
+2026,6,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,LAS->CA,22160,20472,132,0,33841132,31550247,7,92.382671,93.230472
+2026,6,WS,Westjet,WestJet,Canadian/foreign carrier,CA->LAS,20943,17617,131,0,23893257,20200091,11,84.118799,84.543062
+2026,6,WS,Westjet,WestJet,Canadian/foreign carrier,LAS->CA,21117,18163,132,0,24074217,20739416,11,86.011271,86.147832
+2026,7,AC,Air Canada,Air Canada family,Canadian/foreign carrier,CA->LAS,507,480,3,0,1135680,1075200,1,94.674556,94.674556
+2026,7,AC,Air Canada,Air Canada family,Canadian/foreign carrier,LAS->CA,507,476,3,0,1135680,1066240,1,93.885602,93.885602
+2026,7,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,CA->LAS,23523,21356,139,0,36785253,33634447,8,90.78774,91.434595
+2026,7,RV,Air Canada rouge LP,Air Canada family,Canadian/foreign carrier,LAS->CA,23187,20403,137,0,36132405,31932861,8,87.993272,88.377347
+2026,7,WS,Westjet,WestJet,Canadian/foreign carrier,CA->LAS,21342,18269,133,0,22469184,19240456,8,85.601162,85.630417
+2026,7,WS,Westjet,WestJet,Canadian/foreign carrier,LAS->CA,21153,17299,132,0,22272624,18185592,8,81.780362,81.649975

@@ -1,0 +1,44 @@
+[
+  {
+    "airport": "MCO",
+    "carrier": "All",
+    "endpoint": "https://transtats.bts.gov/Data_Elements.aspx?Data=1",
+    "latest_actual": "2026-07",
+    "parsed_rows": 286
+  },
+  {
+    "airport": "FLL",
+    "carrier": "All",
+    "endpoint": "https://transtats.bts.gov/Data_Elements.aspx?Data=1",
+    "latest_actual": "2026-07",
+    "parsed_rows": 286
+  },
+  {
+    "airport": "MIA",
+    "carrier": "All",
+    "endpoint": "https://transtats.bts.gov/Data_Elements.aspx?Data=1",
+    "latest_actual": "2026-07",
+    "parsed_rows": 286
+  },
+  {
+    "airport": "MCO",
+    "carrier": "NK",
+    "endpoint": "https://transtats.bts.gov/Data_Elements.aspx?Data=1",
+    "latest_actual": "2026-07",
+    "parsed_rows": 113
+  },
+  {
+    "airport": "FLL",
+    "carrier": "NK",
+    "endpoint": "https://transtats.bts.gov/Data_Elements.aspx?Data=1",
+    "latest_actual": "2026-07",
+    "parsed_rows": 272
+  },
+  {
+    "airport": "MIA",
+    "carrier": "NK",
+    "endpoint": "https://transtats.bts.gov/Data_Elements.aspx?Data=1",
+    "latest_actual": "2023-02",
+    "parsed_rows": 17
+  }
+]

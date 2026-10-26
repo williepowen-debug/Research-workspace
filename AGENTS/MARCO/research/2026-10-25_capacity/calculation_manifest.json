@@ -1,0 +1,90 @@
+{
+  "study_date_et": "2026-10-25",
+  "latest_data_month": "2026-07",
+  "files": {
+    "FJE_2024_geography_carrier_month.csv": {
+      "bytes": 20188,
+      "sha256": "65532c19ec7321c7fdea735249bbfd0278c9ae3afd3ce03231fd737d7f60fa19"
+    },
+    "FJE_2024_segments.csv": {
+      "bytes": 122211,
+      "sha256": "ea0052576835c1e16430e5605d6f249e8c0729f1e14e6ca0b77c5fa037de9c2b"
+    },
+    "FJE_2025_geography_carrier_month.csv": {
+      "bytes": 19288,
+      "sha256": "400feb3eb7587d0523049f68aa1096bbb155758c183e775956e3e3d0ce9088b8"
+    },
+    "FJE_2025_segments.csv": {
+      "bytes": 102808,
+      "sha256": "9d1a016aa2e3cffce08f6e5f8084b451eea4038e7c60cfacea41681cf4715e79"
+    },
+    "FJE_2026_geography_carrier_month.csv": {
+      "bytes": 10174,
+      "sha256": "121799baea21283460d70cae50923e3e8c25266b0e414295e7df1a3ab58f4623"
+    },
+    "FJE_2026_segments.csv": {
+      "bytes": 52236,
+      "sha256": "6e77c7c27823c9edc96c4cdff06b4d0ebaae36466e238c7d2f360bc63e5bedc5"
+    },
+    "GEE_2025_geography_carrier_month.csv": {
+      "bytes": 20113,
+      "sha256": "fce4d61e4e335ac33f32f1c60486bac3ad12d49c8a0b778af47de938edf93bce"
+    },
+    "GEE_2025_segments.csv": {
+      "bytes": 2652453,
+      "sha256": "d23ad59c1842eb0cdea204a1c1317fe70782881b31b274179bbe6e78beec1b72"
+    },
+    "GEE_2026_geography_carrier_month.csv": {
+      "bytes": 10575,
+      "sha256": "b9c9045fb10e4b90f79f52f0f78b700067ea7b48c82049a110cba481eeb085ba"
+    },
+    "GEE_2026_segments.csv": {
+      "bytes": 1547257,
+      "sha256": "35123c164adbfea5247d71712262ff197f1ea298421c316e8821a3c59eb50ef3"
+    },
+    "domestic_airport_month_groups.csv": {
+      "bytes": 15285,
+      "sha256": "6747c4e15e7fee6888f7e5f3c0c225224521f6bf859b20561bebbd4b1444409a"
+    },
+    "domestic_carrier_month.csv": {
+      "bytes": 74710,
+      "sha256": "a17ca412a04b3f9f41ce5f630a99f0c269a6400c283c9efe9c8a95b5030f254e"
+    },
+    "domestic_replacement.csv": {
+      "bytes": 3767,
+      "sha256": "6707983277b77b596e0da4d52f19397b334bd4fec8494b24877c2e7abf54a3f0"
+    },
+    "hole_candidates.csv": {
+      "bytes": 750,
+      "sha256": "2d56e01ae5bf58a720018b68f93536541b499915f1aad1ed294ac4b89329a13d"
+    },
+    "las_canadian_family_windows.csv": {
+      "bytes": 534,
+      "sha256": "5b4b10334697cdde79911c52bfdc2937de27ff384182bf8d12c9bf94f27aa0f8"
+    },
+    "las_carrier_month_direction.csv": {
+      "bytes": 40744,
+      "sha256": "3a6aa724079eebbf2d0b72b292f50da02fbb06180dce9a79ea274cee7daba7e2"
+    },
+    "las_comparison_observed.csv": {
+      "bytes": 965,
+      "sha256": "9c2eb52b5bcf06b94fc78a5a4dec57e841042ce9f4b183c3dcb5b9fc1fc1777b"
+    },
+    "las_month_groups_observed.csv": {
+      "bytes": 6847,
+      "sha256": "0461580da508418fbc7603803597bea9591925e90b653398ba2e129cb3feeb44"
+    },
+    "las_period_family.csv": {
+      "bytes": 1746,
+      "sha256": "50426e6718e8479a819ae0481cef1cbbd1883d61fb65c758d27f99b2fc77f566"
+    },
+    "las_sensitivity_estimates.csv": {
+      "bytes": 362,
+      "sha256": "237c55e0c2d7a755d9d30ed8f5188d85190d43adac3e624e41f2a8f8578043b8"
+    },
+    "summary_endpoint_crosscheck.csv": {
+      "bytes": 5669,
+      "sha256": "92d2de8afcf81c8a53a6f874b72f6408b3d2953430a660d9a6c5ff6aeee7237a"
+    }
+  }
+}

@@ -1,29 +1,24 @@
-# MARCO SCRATCH — session 34
-**Last Updated:** 2026-10-25 20:48 ET. Will-directed independent Codex owner session. Root/local instructions explicitly read. Runtime details and source evidence → `domain/sources/2026-10-25_news-catchup.md`.
+# MARCO SCRATCH — session 35
+**Last Updated:** 2026-10-25 21:33 ET. Bounded follow-up authorized by Will through committed PROME 0c0221120. Prior boot/instructions reused under its explicit reuse clause; no new helpers. OpenAI Codex, same owner thread 01a175a8-62c5-74a3-a010-0fb3d619f279, model serving suffix unknown.
 
-## CHANGES SINCE (10/21 → 10/25)
-- October 21 California grower reporting was missed by last catch-up: localized missed shifts and reduced shipments. Blanket current AG-OFF withdrawn; no national shortage claim.
-- Older material development newly integrated: October 2 H-2A court order, December 30 replacement-rule deadline / effective vacatur; DOL September 2 contingent wage-adjustment notice.
-- October 23 Canada scope change removes AND adds lines effective October 30; no concluded deal or travel recovery inferred.
-- USDA w/eOctober24 refreshed. MIA September direct PDF404 / index throughAugust; LVCVA current PDF stillAugust; OFLC stillQ3.
+## CHANGES SINCE session 34
+Domestic capacity replacement now measured, not just passenger offsets. **MIA Spirit-free assessment retracted** on two primary routes. LAS Canadian seat leg refreshed; latest complete May CRITICAL, June/July incomplete. No thesis/forecast definition/confidence change.
 
 ## WHAT I DID
-Saved sourced synthesis; updated STATUS, two VX annotations (no band changes), four KB facts, thesis evidence caveat (v3.2 unchanged), timeline, figure log, indexes and docket. MAR-11/MAR-24 resolver reviews written without changing their event windows or confidence. Consumer sweep: four WALTER hits are dated owner-header research captures (packet to WALTER already carries the qualified update); three self hits explicitly say withdrawn, not stale assertions. Other-desk dirty work also includes OTTO research; left untouched. Full boot/proxies/corrections checked: no named correction debt; parser invariants clean. MEMORY unchanged; rotate before adding (prior handoff).
+- BTS GEE/FJE downloads: live latest label AND actual data both July2026; lag 86 days from month-end. Saved exact relevant segment rows, source-wide carrier-month coverage, download hashes and offline calculations in `research/2026-10-25_capacity/`.
+- Scheduled outbound domestic seat replacement June→July: MCO 55.84→76.06%; FLL 66.77→107.70%. FLL July domestic seats +2.12%, passengers +1.54%; MCO−3.04%/−4.18%. Net additions do not establish causal backfill or demand.
+- MIA NK summary query ends Feb 2023, unlike all-carrier data. GEE and Miami-Dade own FY seats show 2025 service. Corrected owner charter, dashboard, ledgers, thesis caveat, old-source banner and handoff surfaces. Existing MIA airport-own trigger unchanged, capacity caveat mandatory.
+- LAS Canadian-airline winter seats −33.22%, Jan–May−30.77%; May latest complete−31.97% (April−27.85% breaks ≥30%run). June AC / July Porter missing. Raw July−20.99%, prior-month fill −10.59% is ESTIMATE, not graded. All directions/families retained; no Canadian-resident visitor inference.
+- T2-K closed. Old market-summary overlapping baseline cells unchanged; no older raw seat file survives, so full seat-row revisions cannot be certified. MEMORY rotated verbatim before adding source lesson (target<70%).
+
+## COMPLETED / STOP
+Both commissioned research legs delivered within public-source limits; no running tool held for future prints. No dormant helper, new tracker, forecast or trade. Report: `domain/sources/TOURISM/2026-10-25_spirit-seat-replacement_LAS.md`. Future observations remain scheduled in the existing docket.
 
 ## NEXT SESSION
-1. ~10/28 MIA September airport-own report and LVCVA September: apply existing letters with capacity/holiday caveats.
-2. 11/2 Banxico September and CA output-disruption persistence review; 11/3 FL Amendment3 (CORAL).
-3. 11/10 October fares; 11/12 court-status checkpoint (retrieve October 22 report too); ~11/13 StatCan October; ~11/15 OFLC Q4.
-4. 12/4 November CPS: use existing pre-registration and population-control caveat. 12/30 H-2A rule deadline; check later orders first.
+~10/28 MIA September + LVCVA September under existing letters; show MIA Spirit/capacity caveat. 11/2 Banxico and farm persistence; 11/10 fares; 11/12 H-2A procedural check; existing November BTS read can inspect LAS filing backfills;12/4 CPS;12/30 court deadline. No date/definition changed by this study.
 
-## OPEN THREADS
-- Channel1 quantity split and level-break caveat unchanged; no fifth aggregate instrument.
-- Local farm output evidence is reported; persistence, scope and price effect unknown.
-- H-2A later docket state/new rates/back pay unresolved; do not book a liability or infer scarcity from administrative wages.
-- FL-dollar hole remains withdrawn pending DEWEY/PROME L466 (11/16); NV Canadian capacity leg still unrefreshed.
+## GAPS
+July is latest, not an October nowcast. LAS June/July filing holes prevent observed latest grade. No Canadian-resident count or total-airport demand decomposition. MIA carrier-summary cannot supply an adjusted total; use direct segments within their scope. Historical seat-row revision comparison unavailable without old raw files.
 
-## MAIL / DELIVERY
-WALTER boot lane: zero new packets. One general DAEDALUS administrative packet remains unprocessed (normal boot mail scope). News packet to WALTER for routing; completion to PROME. PROME coordination received from exact thread 01a17533-2f1c-78d0-b23e-a1184c9d8eb7, c093e462c read and acknowledged with no conflict. Native messaging verified for that pair; final artifact pointer follows commit. Recent-thread inventory truncated; no fleet absence claim. WALTER consumption unverified.
-
-## GIT
-Startup pull deferred: other-desk dirty paths (DEWEY), untouched and unstashed. Own files committed with exact paths; safe-push receipt belongs in session output. If push cannot confirm, preserve local commit and report that gap.
+## MAIL / PERSISTENCE
+New PROME assignment read and acknowledged, moved to processed with consumption declaration after integration. WALTER correction packet and dated PROME completion saved; native final pointer follows commit. No recipient consumption assumed. Consumer check confirmed CORAL STATUS/NEXUS carry the superseded MIA clean-tell claim; WALTER correction packet explicitly names them. Other clean-tell hits were bank-specific language, dated routing log and BRENT oil prose, not the same metric. Foreign OTTO/CRUISE work dirty: no pull/stash/takeover. Exact-path commit and safe-push; receipt in runtime output.

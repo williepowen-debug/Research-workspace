@@ -1,3 +1,5 @@
+> **Correction10/25:** the “MIA unconfounded/Spirit-free” interpretation below is withdrawn; carrier-summary coverage ended2023, not service. Passenger levels are preserved as the dated record. Replacement evidence: `TOURISM/2026-10-25_spirit-seat-replacement_LAS.md`.
+
 # MARCO fork — FL pulls (2026-10-14 ~20:30 ET)
 Scope: BTS T-100 newest month (MCO/FLL/MIA) · MIA September Traffic Report · FL migration proxies. Nothing written to the repo. `git status -- AGENTS/MARCO/baselines/` shows only `banxico_monthly.tsv` (parent's boot fetch, not this fork). Data: `scratchpad/bts/all.tsv` (carrier=All), `scratchpad/bts/nk.tsv` (carrier=NK), `scratchpad/mia/aug26.pdf` + `aug26.txt`; calc scripts `scratchpad/bts_calc.py`, `scratchpad/voter2022.py`.
 

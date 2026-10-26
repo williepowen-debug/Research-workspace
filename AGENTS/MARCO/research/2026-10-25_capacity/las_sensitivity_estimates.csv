@@ -1,0 +1,3 @@
+month,missing_carrier,observed_route_seats,estimated_missing_seats,estimate_method,estimated_total_seats,estimated_yoy_pct,estimate_not_observation
+6,AC,98260,3603.0,mean of LAS May and July; not national allocation,101863.0,-20.776039,YES - never grade this estimate
+7,PD,90219,11880.0,carry LAS June forward,102099.0,-10.590059,YES - never grade this estimate

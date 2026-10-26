@@ -1,0 +1,7 @@
+table,scope,carrier,year,month,previous_seats,next_seats,candidate_type,verdict
+GEE,MCO,YX,2025,11,5700,6909,interior,UNRESOLVED candidate; do not silently treat missing as zero
+FJE,full selected geography,AC,2026,6,643849,575777,interior,UNRESOLVED candidate; do not silently treat missing as zero
+FJE,full selected geography,P3,2026,7,81822,0,trailing,UNRESOLVED candidate; do not silently treat missing as zero
+FJE,full selected geography,PD,2026,7,98208,0,trailing,UNRESOLVED candidate; do not silently treat missing as zero
+FJE,full selected geography,QK,2025,6,295226,318536,interior,UNRESOLVED candidate; do not silently treat missing as zero
+FJE,LAS<->CA,PD,2026,7,11880,0,trailing,UNRESOLVED candidate; do not silently treat missing as zero

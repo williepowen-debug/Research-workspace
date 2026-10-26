@@ -3,7 +3,7 @@
 
 ---
 
-**Latest evidence:** `domain/sources/2026-10-25_news-catchup.md` — October California farm disruption, H-2A court deadline, Canadian tariff scope change; source and release-check limits.
+**Latest evidence:** `domain/sources/TOURISM/2026-10-25_spirit-seat-replacement_LAS.md` — measured domestic seat replacement, MIA Spirit-free correction, and LAS Canadian-capacity refresh with filing gaps. Prior news catch-up: `domain/sources/2026-10-25_news-catchup.md`.
 
 ## How to use this file
 

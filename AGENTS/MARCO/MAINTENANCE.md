@@ -92,9 +92,9 @@
 - **Action:** decide a forward basis (2-yr stack re-banded, or YoY kept with a 2-yr guard line) BEFORE the Oct-2026 print (~early Nov); score only out-of-sample. Not re-graded post hoc.
 - **Effort:** small.
 
-### T2-K · BTS T-100 DOMESTIC Segment seats can size the Spirit capacity hole (NEW — 2026-10-14)
-- **What:** charter airport block item 7 says FL capacity replacement is UNSIZED. The FJE route (International Segment) works by scripted POST; the Domestic Segment table carries SEATS by carrier/airport the same way. Seats would separate supply from demand at MCO/FLL.
-- **Action:** probe the domestic table with the same recipe (`domain/sources/TOURISM/2026-10-14_TOUR03_BTS_FJE_seats.md`); hole-check. **Effort:** medium.
+### ✅ T2-K · Domestic Spirit capacity study DONE 2026-10-25 (Will-commissioned via 0c0221120)
+- **Result:** scheduled outbound domestic replacement measured through July2026 at MCO/FLL/MIA; carrier holes checked. This sizes supply, not unique demand causation. MIA Spirit-free source-gap error corrected; bounded LAS Canadian refresh completed with Jun/Jul gaps disclosed.
+- **Evidence:** `domain/sources/TOURISM/2026-10-25_spirit-seat-replacement_LAS.md` and `research/2026-10-25_capacity/`. No standing tracker or forecast redefinition.
 
 ### T2-L · tsvutil re-quotes `sub_agents/TOURISM/workbook/PREDICTIONS.tsv` (NEW — 2026-10-14)
 - **What:** a `write_tsv` round-trip of that ledger wrapped TOUR-01's notes cell in quotes and doubled its inner quotes (unquoted field with literal `"`) — same class as the 8/21 VX quote-doubling. Caught by diff (2 lines changed for a 1-row edit); restored and redone as a raw line edit. The ledger is NOT in `tsvutil_selftest.py` LEDGERS, so invariant C never saw it.

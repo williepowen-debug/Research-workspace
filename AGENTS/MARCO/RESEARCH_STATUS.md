@@ -71,8 +71,8 @@
 
 | Gap | Why It Matters | Priority |
 |-----|----------------|----------|
-| Spirit seat capacity at MCO/FLL | Capacity replacement has never been measured — only passenger offsets (MCO 97.8% May → 35.6% Jun). Until seats are sized, FL airport YoY cannot separate supply from demand. | 🟠 |
-| `NV-01` Canadian basis | BREACHED rests on an unrefreshed Canadian sub-leg; LVCVA has no nativity split. Needs carrier-level AC/WestJet/Flair/Porter LAS capacity. | 🟠 |
+| Spirit total-airport attribution | Scheduled domestic replacement measured10/25 (T2-K complete); domestic-plus-international replacement and unique demand attribution remain unmeasured. No further investigation auto-commissioned. | 🟡 |
+| `NV-01` latest filing gaps | LAS Canadian-airline capacity refreshed10/25; May latest complete, Jun/Jul missing AC/Porter. Revisit with existing November BTS read, not a new standing monitor. | 🟠 |
 | `VX-1.03` "loss" basis | Basis ruled 8/21 (YoY spending) but the fresh 2026 figure is unpulled. | 🟡 |
 | `VX-2.01` arrest-rate leg | ICE/TRAC arrest rate still Jun-15 vintage. | 🟡 |
 | USMCA preference under §338 | "Does not exempt" is not primary-supported (Proc. 11046 silent). | 🟡 |
