@@ -68,6 +68,8 @@
 
 ## RECENTLY DONE (rolls off ~7d)
 
+| **526 — Bounded PROME restart path** | Done 2026-10-26, Will in PROME conversation | RULED APPROVE — Will verbatim: “Approved: implement the bounded restart path you described, reusing Bounce, SCRATCH and the existing refresh.” Includes worker preservation, carried obligations/limits and one real restart trial; no separate checkpoint system or recurring measurement. Full approval and implementation/trial: `PROME/proposals/2026-10-26_bounded-restart-RULED.md`. |
+
 | **525 — Research-first briefing in existing reports** | **Will in PROME conversation October25: “Okay lets do it. Go ahead”**, approving the preceding editorial instruction | RULED APPROVE: lead with consequential findings, preserve uncertainty, distinguish observation from assignment and use whole-brief judgment without a fixed template. BOOT owns the text; CLOSEOUT points to it; existing disclosure and authority rules retained. Implementation/read record `PROME/proposals/2026-10-25_research-first-briefing-RULED.md`. |
 
 | **524 — Continue transmission work today, one additional case** | **Will in PROME conversation October25: “okay please proceed and directly message/direct the agents to push their work forward”** | RULED APPROVE bounded extension: LIQUID leads one case, BROCK supplies at most two existing candidates and a focused evidence handoff. Existing windows only; no standing/five-case program, new launch, trade or threshold. `PROME/proposals/2026-10-25_wq524-second-transmission-case-RULED.md`; completion DOCKET L840. |

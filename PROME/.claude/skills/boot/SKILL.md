@@ -10,6 +10,8 @@ This file is an **index in execution order**, nothing more. Every rule, threshol
 
 Commands are quoted here only where they are stable interfaces; they are copied from BOOT.md verbatim, including the repo-root `cd` (PROME launches from `PROME/`, where a bare `PROME/tools/…` path does not resolve).
 
+**Mode selection:** “Resume PROME” executes BOOT.md § Resume after a restart, steps1–4, instead of items0–9 below. Fresh instructions, original-run refresh, arrival/deadline checks, lifecycle preflight and carried limits are mandatory; no inherited read acknowledgement. Full boot uses the index below.
+
 0. **Repo state + the clock** → BOOT.md step 0 (read `PROME/BOOT_MODULES.md` § Runtime disclosure on every boot; early runtime capability disclosure, the banner, the no-banner rule, the repo-state checks + pull-if-safe, the `NOW:` stamp).
 1. **Instructions and the current assignment** → BOOT.md context-injection paragraph, "Bounded reads" (**every mandatory document through the bounded reader, one document per call**) and the Repeat-boot pointer (eligibility, acknowledgement and invalidation live in `PROME/BOOT_MODULES.md` § Repeat boot — open it before reusing any earlier read) · `USER.md` at the repo root (per `PROME/CLAUDE.md` Boot step 1) · Will's directed task, if any.
 2. **Short live resume and restrictions** → BOOT.md steps 1–4 (`HANDOFF` → `SCRATCH` → `state/CALENDAR.md` (the generated calendar) → `ACTIVE_DECISIONS` by **digest** — `python3 PROME/tools/active_decisions_digest.py`, then `--row <n>` whole for each ACTIONABLE row and any row the session touches; step 3's GATES clause names what the gate checks — GATES is not read whole → `STATUS` whole, its § Restrictions before any gate-driven act).

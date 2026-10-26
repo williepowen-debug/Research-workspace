@@ -1,5 +1,7 @@
 # PROME HANDOFF
 
+**Current October26 restart:** begin at [SCRATCH ★ NEXT](SCRATCH.md#-next-session--start-here), which owns the unfinished task, original mechanical baseline, live-owner leads and carried limits. Older entries below retain historical obligations; they are not the current resume point.
+
 **Resume:** (1) [October25 evening account](../memory/2026-10-25.md#prome-evening-session--three-desk-review-and-closeout) and [SCRATCH ★ NEXT](SCRATCH.md#-next-session--start-here); (2) [three-desk acceptance and closeouts](reports/2026-10-25_three-desk-stale-file-sweep.md#final-session-disposition--all-three-closed-by-will), including the four next-session file corrections; (3) [research-first briefing instruction](proposals/2026-10-25_research-first-briefing-RULED.md), installed at BOOT step8; (4) DOCKET/GATES/WILL_QUEUE for remaining obligations, and [evening inbox disposition](reports/2026-10-25_evening-closeout.md) before any launch; (5) [delivery contract](tools/ARGUS_CONTRACT.md). All three Will-owned desks are closed; no automatic continuation. Dated sections below are historical continuity. The day's ARGUS already ran; this later set stays on the retained baseline for the next permitted audit.
 
 ## October24 Saturday night — six rulings recorded and carried out; carve-out ⑤ in root; WQ-517 gate repair verified

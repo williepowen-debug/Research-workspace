@@ -8,6 +8,8 @@ user-invocable: true
 
 An **index in execution order**, nothing more. Every rule, tier, threshold and recipe lives in `PROME/CLOSEOUT.md`; conditional procedures live in `PROME/CLOSEOUT_PROCEDURES.md`. On any conflict the manual wins — fix this index rather than working around it.
 
+**Mode selection:** “Checkpoint for restart” executes CLOSEOUT.md § Restart checkpoint and then yields; do not fall through to the actual-closeout steps below or stop surviving desks. Actual closeout follows this index unchanged.
+
 0. **Pre-closeout + tier** → CLOSEOUT.md "Pre-closeout" (items 1–4; item 3 applies at ANY tier). Item 3's ORCH_LOG rows are written by `python3 scripts/orch_log.py append …` — the only writer (L733), never typed. Take the clock per BOOT.md step 0 before writing any stamp.
 0b. **Publication prerequisites, NOW and not at the render** → CLOSEOUT.md Pre-closeout item 5 / § Delivery. **Helm RETIRED (WQ-461); Decision Deck PAUSED BY WILL (WQ-460)**: no routine dashboard upkeep or hosted reads/listing. Establish prerequisites only for a separately requested active deliverable.
 1. **Write each fact ONCE** → CLOSEOUT.md § Boot↔Closeout symmetry — ONE HOME PER FACT. The targeted-update test applies at **every tier**: *does the boot path already reach it?* Registered ⇒ do not restate. Nothing changed in a column ⇒ a **stated no-op**.
