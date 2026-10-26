@@ -1,7 +1,7 @@
-## COMPLETION — OTTO — 2026-10-25 (s039 final OTS04 prose correction)
-STATUS: DONE — remaining WHY NOW introduction/point2 corrected after PROME passed the main repairs.
-CHANGED: Two THESIS text spans, dated original/diff/check receipt, necessary MEMORY/LAST_COMPLETION and final brief refresh; assignment filed processed.
-RESULT: Rationale vintage explicit; historical July disconfirmation separate from selected current issuer repricing and absence of established broad/fraud-caused transmission. LOW/DISCONFIRMED unchanged; every other THESIS section byte-identical.
-GAPS: Prior ratings/series/bank-basis/court/audio/TrustV/cadence/tool limits and October30 OT1/full review preserved. No new source, forecast, grade, threshold or broader sweep.
-WILL_NEEDS: None; PROME independently accepts the bounded repair.
-FOLLOW-UP: Exact diff and protected hashes at research/2026-10-25_stale-file-sweep-phase2/OTS04_FINAL_PROSE.md; publication receipt in dated PROME memo. No helper, executing tool, source fetch, automated wait or research remains running after delivery; window preserved.
+## COMPLETION — OTTO — 2026-10-25 (session closeout, s039)
+STATUS: ACCEPTED / CLOSED OUT at Will’s request. PROME independently accepted the bounded stale-file correction after final OTS04 recheck.
+CHANGED: Catch-up/financing evidence and accepted stale-file corrections are persisted; final acceptance added to MEMORY/LAST_COMPLETION and refreshed pinned brief. No new research/state judgment in closeout.
+RESULT: Final repair0ade2c4f8/briefba68d65bf/receipt3393ff5f3 accepted in PROME’s three-desk sweep report, OTTO accepted section. Exact history/diffs/checks remain in dated Phase2 evidence; STATUS pin63cb6063e unchanged.
+GAPS: Ratings/series/historical bank bases, full docket/primary audio/TrustV and missed after-refresh SDT cadence remain explicit. Existing October27–30 and later observations/OT1/finalv1.6 preserved; no early completion or new program.
+WILL_NEEDS: None for completed authorized work.
+FOLLOW-UP: Next session follows MEMORY NEXT SESSION and canonical CATALYSTS/PREDICTIONS. No helper, executing tool, source fetch, research, monitor or automated wait remains running after delivery. Final publication receipt in session-closeout packet/native delivery.
