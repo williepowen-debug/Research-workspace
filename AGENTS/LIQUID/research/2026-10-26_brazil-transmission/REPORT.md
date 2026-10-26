@@ -1,6 +1,12 @@
 # Brazil transmission assessment and first-published HY read
 
-**As of:** 2026-10-26T13:46:50-04:00. Will-directed continuation of LIQUID startup. This is a bounded assessment of existing channels; no standing collector, new gate or trade is commissioned. Brief-fold repair is already verified complete per Will this turn; no repair work repeated. Routine NEXUS content fold follows final STATUS.
+**As of:** 2026-10-26T14:09:50-04:00. Completion-delivery refresh; earlier observations and retrieval limits below remain dated. No new gate, collector, sizing or trade. Verified brief-fold repair not repeated.
+
+## Completion-delivery update — October 26 14:09 ET
+
+[NY Fed PRIMARY results](https://markets.newyorkfed.org/api/rp/repo/all/results/latest.json) now supplies afternoon operation RP 102626 27, closed 13:45 ET, publisher lastUpdated 13:45:51. **$5,000,000 submitted and accepted:** Treasury $2,000,000; agency $1,000,000; mortgage-backed $2,000,000. Morning RP 102626 25 remains $0. Saved raw response: `nyfed-repo-delivery-refresh.json`, retrieval 18:09:12 UTC. This supersedes the earlier current-state retrieval gap, without making the historically correct 13:46 failed retrieval into zero. Publisher lastUpdated does not establish when this endpoint exposed the result to every client.
+
+The result establishes a small completed operation, not borrower identity, motive, a Brazil connection or a funding seizure. No new >$50B sustained signal; 079 depends on its existing rate/persistence conditions and remains NOT ARMED on published October 23 evidence. Current cross-currency bases and named cash/margin links remain unresolved. HY remains the October 23 first-published 338bp, run eight; no new credit observation retrieved for this delivery. The next rate/credit test remains October 26 observations when published October 27. Original report's pending-result descriptions below are retained as the prior observation record; this update is the current read.
 
 ## Judgment
 
