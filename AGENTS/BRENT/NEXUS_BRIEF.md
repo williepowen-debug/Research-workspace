@@ -1,11 +1,13 @@
 # BRENT — NEXUS Brief
 
-**Status:** Energy WAIT retained; no newly verified Saudi oil loss; official October23 WTI/crack evidence recovered.
+**Status:** Energy WAIT retained; vendor crude lower, shipping risk persists, no verified new Saudi oil loss.
 **Domain:** Oil/energy supply, demand, structure and transmission.
 **Thesis version:** v5.13; no new probability, threshold or capital authority.
 **Recent thesis pivot:** October14 crude recovery separated from product scarcity; October26 source refinement withdraws a single adjudicated current Hormuz volume.
-**As of:** 2026-10-26 13:45 ET | STATUS commit: `113332181b621a3006af6a024a2b64b01a4b8149`
-**Scope — SCOPED-PARTIAL / MIXED-VINTAGE:** primary CME October23 CL/HO, CENTCOM October25 and EQT/Range October26 bodies read; Kpler article basis rechecked, FALCON13:37 continuation consumed. Current throughput and ICE official settlements unresolved; vendor indications never grade settlements. TRADE/specs read for frame-breaker and source(1) observation; broker outcomes, other policy legs and historical rows not freshly graded. Earlier rows keep their own dates. [Evidence and falsifiers](research/2026-10-26_energy-review/REPORT.md). WQ510 prompt installation pending Will; no automation edited. Remote publication pending without a confirmed push receipt.
+**As of:** October 26 evening, shipping cutoff 17:45 EDT | STATUS commit: `cdd43b16d8e4a4ee0332bd8a9f457296af97352e`
+**Scope — SCOPED-PARTIAL / MIXED-VINTAGE:** primary CME October23 CL/HO, CENTCOM October25 and EQT/Range October26 bodies read; Kpler article basis rechecked, FALCON 17:45 continuation consumed; tanker-disablement relay and Al-Faw third-party fire do not quantify oil loss; Cape Dao is an old BULKER casualty. October 26 official settles unavailable. Current throughput and ICE official settlements unresolved; vendor indications never grade settlements. TRADE/specs read for frame-breaker and source(1) observation; broker outcomes, other policy legs and historical rows not freshly graded. Earlier rows keep their own dates. [Evidence and falsifiers](research/2026-10-26_energy-review/REPORT.md). WQ510 prompt installation pending Will; no automation edited. Remote publication pending without a confirmed push receipt.
+
+**Evening refresh:** December vendor Brent 115.22 / WTI 101.25 near 17:00, regular-session USO 166.23; not official futures settlements. Oman temporary navigation outline faces implementation obstacles. [Evening report](research/2026-10-26_evening-sweep/REPORT.md).
 
 ## CROSS-DOMAIN
 
