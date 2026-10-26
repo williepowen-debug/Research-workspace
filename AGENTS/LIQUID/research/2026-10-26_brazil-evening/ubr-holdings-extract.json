@@ -1,0 +1,59 @@
+{
+  "basis": "Issuer page holdings as of October 23, 2026; verify visible date against saved HTML; pre-event only",
+  "rows": [
+    [
+      "71.11%",
+      "--",
+      "ISHARES MSCI BRAZIL CAPPED (EWZ) SWAP GOLDMAN SACHS INTERNATIONAL",
+      "2,765,403",
+      "--",
+      "1,638",
+      "--"
+    ],
+    [
+      "59.34%",
+      "--",
+      "ISHARES MSCI BRAZIL CAPPED (EWZ) SWAP UBS AG",
+      "2,307,879",
+      "--",
+      "1,367",
+      "--"
+    ],
+    [
+      "35.81%",
+      "--",
+      "ISHARES MSCI BRAZIL CAPPED (EWZ) SWAP CITIBANK NA",
+      "1,392,831",
+      "--",
+      "825",
+      "--"
+    ],
+    [
+      "24.67%",
+      "--",
+      "ISHARES MSCI BRAZIL CAPPED (EWZ) SWAP BANK OF AMERICA NA",
+      "959,460",
+      "--",
+      "568",
+      "--"
+    ],
+    [
+      "8.73%",
+      "--",
+      "ISHARES MSCI BRAZIL CAPPED (EWZ) SWAP SOCIETE GENERALE",
+      "339,344",
+      "--",
+      "201",
+      "--"
+    ],
+    [
+      "--",
+      "--",
+      "NET OTHER ASSETS (LIABILITIES)",
+      "--",
+      "$3,889,180.76",
+      "3,889,181",
+      "--"
+    ]
+  ]
+}

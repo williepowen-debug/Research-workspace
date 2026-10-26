@@ -1,0 +1,38 @@
+{
+  "brazil-journal-stop": {
+    "url": "https://braziljournal.com/bloody-monday-b3-e-csn-desabam-40-btg-e-bb-mergulham-30",
+    "retrieved_utc": "2026-10-26T21:36:50.915259+00:00",
+    "status": 200,
+    "bytes": 136703,
+    "text_length": 3784,
+    "keyword_excerpts": [
+      "ixa de 35%, Banco do Brasil, de 30% e Bradesco, 25%. “Algumas quedas estão exageradas por causa dos stop losses ,” disse um gestor de ações. “Ainda vai levar um tempo para separar o joio do trigo.” Na outra ponta, as exportadoras Gerdau, Suzano, Vale e Embraer subiam e",
+      "sil, de 30% e Bradesco, 25%. “Algumas quedas estão exageradas por causa dos stop losses ,” disse um gestor de ações. “Ainda vai levar um tempo para separar o joio do trigo.” Na outra ponta, as exportadoras Gerdau, Suzano, Vale e Embraer subiam entre 5% e 10% no fim "
+    ]
+  },
+  "brazil-journal-manager-preview": {
+    "url": "https://braziljournal.com/acoes-domesticas-boas-devem-cair-20-30-gestores-preveem-segunda-caotica",
+    "retrieved_utc": "2026-10-26T21:36:52.280166+00:00",
+    "status": 200,
+    "bytes": 133380,
+    "text_length": 2451,
+    "keyword_excerpts": [
+      "“Ações domésticas boas devem cair 20-30%”. Gestores preveem segunda caótica INFRA Journal Page9 Metro Quadrado Newsletter Brazil Journal Vídeos Negócios Economia INFRA Tecnologia Weekend Podcasts “Ações domést",
+      "deos Negócios Economia INFRA Tecnologia Weekend Podcasts “Ações domésticas boas devem cair 20-30%”. Gestores preveem segunda caótica Giuliana Napolitano 26 de outubro de 2026 Com o EWZ em baixa de quase 20% depois da vitória surpreendente de Lula, gestores projetam ",
+      "tano 26 de outubro de 2026 Com o EWZ em baixa de quase 20% depois da vitória surpreendente de Lula, gestores projetam uma segunda-feira caótica nos mercados. “As ações domésticas boas, como shoppings e empresas de energia, devem cair uns 20 a 30%. Varejistas, 60%. B",
+      "o shoppings e empresas de energia, devem cair uns 20 a 30%. Varejistas, 60%. Bancos, 15%,” disse um gestor de fundos de ações. “Num primeiro momento, não tem comprador. Talvez algum gringo, mas será um dia muito difícil. A Bolsa deve devolver toda a alta desde o pri",
+      "cil. A Bolsa deve devolver toda a alta desde o primeiro turno e cair um pouco mais,” disse um outro gestor de ações. Muitos haviam aumentado a exposição a ações mais sensíveis a juros nos últimos dias, para capturar uma possível alta caso Flávio Bolsonaro fosse elei",
+      "uro de real na CME, em Chicago, apontava para um dólar de R$ 5,50. No caso dos juros, a maioria dos gestores previa uma abertura superior a 100 pontos-base na taxa do DI de janeiro de 2029 caso Lula fosse eleito, de acordo com uma pesquisa feita pelo Citi e divulgad"
+    ]
+  },
+  "treasury-results-page": {
+    "url": "https://www.tesourotransparente.gov.br/ckan/dataset/resultado-dos-leiloes-da-divida-publica-mobiliaria-federal-interna",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  "treasury-ckan-api": {
+    "url": "https://www.tesourotransparente.gov.br/ckan/api/3/action/package_show?id=402f46f7-51a2-474f-be54-ec0f258c83f6",
+    "error": "HTTP 503 Service Unavailable",
+    "read_date": "2026-10-26",
+    "role": "bounded official auction-result attempt; no output interpreted as zero"
+  }
+}

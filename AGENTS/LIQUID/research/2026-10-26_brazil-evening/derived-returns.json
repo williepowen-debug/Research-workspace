@@ -1,0 +1,82 @@
+{
+  "^BVSP": {
+    "change_pct": -13.88450804064696,
+    "basis": "raw daily vendor bar, 2026-10-26 vs 2026-10-23"
+  },
+  "EWZ": {
+    "change_pct": -19.816855122025977,
+    "basis": "raw daily vendor bar, 2026-10-26 vs 2026-10-23"
+  },
+  "HYG": {
+    "change_pct": 0.19467085080271396,
+    "basis": "raw daily vendor bar, 2026-10-26 vs 2026-10-23"
+  },
+  "LQD": {
+    "change_pct": 0.16369588006077684,
+    "basis": "raw daily vendor bar, 2026-10-26 vs 2026-10-23"
+  },
+  "EMB": {
+    "change_pct": -0.16366778328590348,
+    "basis": "raw daily vendor bar, 2026-10-26 vs 2026-10-23"
+  },
+  "BKLN": {
+    "change_pct": 0.1974284685431149,
+    "basis": "raw daily vendor bar, 2026-10-26 vs 2026-10-23"
+  },
+  "KRE": {
+    "change_pct": 0.3726252772183525,
+    "basis": "raw daily vendor bar, 2026-10-26 vs 2026-10-23"
+  },
+  "^GSPC": {
+    "change_pct": 0.6963807836358971,
+    "basis": "raw daily vendor bar, 2026-10-26 vs 2026-10-23"
+  },
+  "^VIX": {
+    "change_pct": -5.449878312142642,
+    "basis": "raw daily vendor bar, 2026-10-26 vs 2026-10-23"
+  },
+  "JPY=X": {
+    "change_pct": 0.4253494369250266,
+    "basis": "20:59 UTC one-minute close proxy for 17:00 New York; both dates matched; not official fix"
+  },
+  "BRL=X": {
+    "change_pct": 8.599384828221822,
+    "basis": "20:59 UTC one-minute close proxy for 17:00 New York; both dates matched; not official fix"
+  },
+  "MXN=X": {
+    "change_pct": -0.5278028315120031,
+    "basis": "20:59 UTC one-minute close proxy for 17:00 New York; both dates matched; not official fix"
+  },
+  "ZAR=X": {
+    "change_pct": 0.2598453731535999,
+    "basis": "20:59 UTC one-minute close proxy for 17:00 New York; both dates matched; not official fix"
+  },
+  "EURUSD=X": {
+    "change_pct": -0.24589847367820772,
+    "basis": "20:59 UTC one-minute close proxy for 17:00 New York; both dates matched; not official fix"
+  },
+  "BRL/JPY": {
+    "change_pct": -7.5267787236789285,
+    "levels": {
+      "2026-10-23": 31.507102259254523,
+      "2026-10-26": 29.13563238995719
+    },
+    "basis": "derived same-time USD legs, indicative, not traded cross or funding rate"
+  },
+  "MXN/JPY": {
+    "change_pct": 0.9582097265053546,
+    "levels": {
+      "2026-10-23": 8.402625165759197,
+      "2026-10-26": 8.483139937379288
+    },
+    "basis": "derived same-time USD legs, indicative, not traded cross or funding rate"
+  },
+  "ZAR/JPY": {
+    "change_pct": 0.16507512370025346,
+    "levels": {
+      "2026-10-23": 9.449472844216102,
+      "2026-10-26": 9.465071573202714
+    },
+    "basis": "derived same-time USD legs, indicative, not traded cross or funding rate"
+  }
+}
