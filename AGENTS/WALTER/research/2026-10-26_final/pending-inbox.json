@@ -1,0 +1,25 @@
+{
+  "regular": [
+    "AGENTS/WALTER/inbox/2026-10-25_from-CRUISE_correction-zero-cancellation-count.md",
+    "AGENTS/WALTER/inbox/2026-10-25_from-CRUISE_external-cruise-source-intake.md",
+    "AGENTS/WALTER/inbox/2026-10-25_from-CRUISE_port-count-source-intake.md",
+    "AGENTS/WALTER/inbox/2026-10-25_from-MARCO_MIA-Spirit-correction-capacity.md",
+    "AGENTS/WALTER/inbox/2026-10-25_from-MARCO_farm-labor-h2a-canada-news.md",
+    "AGENTS/WALTER/inbox/2026-10-25_from-MARCO_stale-sweep-corrections.md",
+    "AGENTS/WALTER/inbox/2026-10-26_from-BRENT_source-006-integrated-official-energy.md",
+    "AGENTS/WALTER/inbox/2026-10-26_from-FALCON_evening-census-and-new-maritime-reports.md",
+    "AGENTS/WALTER/inbox/2026-10-26_from-LIQUID_brazil-close-and-participant-source.md",
+    "AGENTS/WALTER/inbox/2026-10-26_from-LIQUID_buybacks-contract-and-1900-completion.md",
+    "AGENTS/WALTER/inbox/2026-10-26_from-VULCAN_missed-news-sweep.md",
+    "AGENTS/WALTER/inbox/SIG-OTTO-WALTER-20261025-catchup-primary-context-and-bridge8.md",
+    "AGENTS/WALTER/inbox/SIG-OTTO-WALTER-20261025-financing-terms-and-eart-date-correction.md",
+    "AGENTS/WALTER/inbox/SIG-OTTO-WALTER-20261025-stale-file-corrections-and-negative-equity.md"
+  ],
+  "regular_count": 14,
+  "DEWEY": [
+    "AGENTS/WALTER/inbox/DEWEY/2026-10-25_hawk-01-helium-semiconductor-deliveries_handoff.md",
+    "AGENTS/WALTER/inbox/DEWEY/2026-10-25_hawk-02-taiwan-fuel-buffer-cargoes_handoff.md",
+    "AGENTS/WALTER/inbox/DEWEY/2026-10-25_hawk-03-marine-war-risk-prices-coverage_handoff.md"
+  ],
+  "gate": "Not all regular inbox corrections disposed; external intake marking remains withheld."
+}

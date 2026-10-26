@@ -1,0 +1,23 @@
+{
+  "selected_state": "UNKNOWN",
+  "checks": {
+    "receipt": "PASS",
+    "read-cap": "PASS",
+    "archives": "PASS",
+    "orphans": "ADVISORY",
+    "weekdays": "PASS",
+    "ledger-nudge": "REVIEW",
+    "basis": "PASS",
+    "reads": "UNKNOWN",
+    "doctor": "REVIEW",
+    "versions": "PASS",
+    "local-memory-lines": "PASS"
+  },
+  "doctor": "0 HIGH /2 MED: historical aged recipient backlog, overdue lifecycle adjudication",
+  "ledger_nudge": "0 killed items, no synthetic kill row; delivery and manifest updated, unchanged event ledgers retain their event semantics",
+  "full_narrative_deferrals": "reconciled by FULL session entry; substantive boot/research gaps remain",
+  "caps": "local98lines; all local surfaces below trigger, PROME ORCH rotate-tier owner flag",
+  "memory_promotion": "No new standing rule/auto-memory; prior unique session narrative preserved verbatim",
+  "read_attestation": "PROME-owned, stale datedOctober23 before rootOctober24; UNKNOWN, no silent re-attestation",
+  "next_review": "2026-10-27"
+}

@@ -1,0 +1,31 @@
+{
+  "as_of": "2026-10-26T23:50:23Z",
+  "fetch": "git fetch origin completed in this closeout",
+  "origin": "f6ebff204b799c33918a16e182a361cb7d88fb16",
+  "commits": [
+    {
+      "commit": "56aebdd9957f5a9d3b9a86bbe26039e7d2674955",
+      "state": "published"
+    },
+    {
+      "commit": "9ccbf8c20cafa56320d16218a8f55ff4683c1c3a",
+      "state": "published"
+    },
+    {
+      "commit": "824358c62b20c07a18da835a669a0b5988bdd4c5",
+      "state": "published"
+    },
+    {
+      "commit": "3f3e7a436f0620fce473e55a5906a27d07316f15",
+      "state": "published"
+    },
+    {
+      "commit": "99b7ded776f3ca96fcd6a0ffbeeb80b8412f8250",
+      "state": "published"
+    }
+  ],
+  "delivery_total": 48,
+  "delivered": 48,
+  "consumed_evidence_pairs": 13,
+  "limit": "Delivery separate from recipient semantics; final closeout commit handled separately."
+}

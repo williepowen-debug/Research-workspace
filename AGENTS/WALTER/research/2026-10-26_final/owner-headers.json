@@ -1,0 +1,310 @@
+[
+  {
+    "agent": "PROME",
+    "path": "PROME/STATUS.md",
+    "date": "2026-10-25",
+    "header": "**Updated:** 2026-10-25 late session \u2014 [three-desk sweep/closeouts](reports/2026-10-25_three-desk-stale-file-sweep.md#final-session-disposition--all-three-closed-by-will): Will closed OTTO/CRUISE/MARCO; OTTO accepted, two narrow repairs each remain for MARCO/CRUISE next authorized sessions. No automatic restart. Earlier18:04 Standard closeout, WQ523/L839 and WQ524/L840 completion: [session account](../memory/2026-10-25.md#prome-resumed-session--final-standard-closeout). Other owner work remains owner-controlled; calendar/queue retain dated obligations.",
+    "limit": "header date only, not fresh market observation or liveness"
+  },
+  {
+    "agent": "CARL",
+    "path": "AGENTS/CARL/STATUS.md",
+    "date": "2026-10-21",
+    "header": "**Updated:** 2026-10-21 22:50 ET (PROME catch-up wave 3): inbox drained, BOARD gap closed; **CRL-29 = NO VERDICT**; **Q3 issuers \u2192 CRL-31/20/12 cut to 1%**; September PPI verified. **53/70, v2.6.6 unchanged.** Card: domain/sources/2026-10-21_catchup/.",
+    "limit": "header date only, not fresh market observation or liveness"
+  },
+  {
+    "agent": "REGINALD",
+    "path": "AGENTS/REGINALD/STATUS.md",
+    "date": "2026-10-23",
+    "header": "**Last Updated:** 2026-10-23T15:32:23-04:00; Will-launched boot + catch-up: FLG/AMTB/CUBI Q3, HY 340 / REG-T-04 near, PROME asks (1)\u2013(2) \u2192 `reports/2026-10-23_boot/REPORT.md`. Prior 2026-10-22T15:16:05-04:00; closeout (Will) after REG-28/29/30, D:L793 fixes, clutter retirement, coverage re-weight; DAEDALUS D:L793 fixes (exit rail re-derived, REG-T-07 row, CREED CRE answer) + EGBN folder/appraisal work. Prior 2026-10-22T11:14:29-04:00; Q3 catch-up SSB/BKU/EGBN/VLY/HBAN/ZION + Will's HY question\u2192`reports/2026-10-22_catchup/REPORT.md`. Prior 2026-10-21T11:41:45-04:00 inbox/main-file audit\u2192`reports/2026-10-21_owed-items/REPORT.md`. Economic observations retain their own dates; prior research\u2192`reports/2026-10-20_backlog-followthrough.md`.",
+    "limit": "header date only, not fresh market observation or liveness"
+  },
+  {
+    "agent": "WAL",
+    "path": "AGENTS/WAL/STATUS.md",
+    "date": "2026-10-22",
+    "header": "**Last Updated: 2026-10-22 12:30 ET \u2014 catch-up, L171 frame freeze, desk sweep, court checks, text cleanup, Q3 thesis fold, re-score rule pre-registered, DAEDALUS D:L793 fixes (Will, interactive).** Thesis **v2.4** / EV **$75.96** / PT **$52\u201376** / weights / composite **13/25** unchanged. The Q3 evidence is now folded into THESIS and WEAKNESSES as a dated, no-re-mark entry (CHANGELOG 2026-10-22). The re-score is deliberately held until the Q3 10-Q, because the $99M appraisal gates Bear-medium. KB **257 rows / 20 groups**.",
+    "limit": "header date only, not fresh market observation or liveness"
+  },
+  {
+    "agent": "SAM",
+    "path": "AGENTS/SAM/STATUS.md",
+    "date": "2026-10-20",
+    "header": "**Last written: 2026-10-20T19:12:57+00:00 \u2014 Will-directed key-file reconciliation after October 20 sweep and US-transmission discussion.** Market observations retain their individual October 19/20 source clocks; this is a documentation/interpretation update, not a new price refresh. [Sweep and source evidence](research/outputs/2026-10-20_sweep/NEWS_SWEEP.md). Runtime OpenAI Codex, session `01a159df-bbc1-7591-a70c-b5aeaf24ef0f`; exact model identifier not exposed. Pull remains deferred under the dirty-owner rule. At Will-directed closeout, use the authorized fast-forward-gated safe push; it does not touch other owners\u2019 uncommitted files. Remote confirmation requires the script receipt.",
+    "limit": "header date only, not fresh market observation or liveness"
+  },
+  {
+    "agent": "RED",
+    "path": "AGENTS/RED/STATUS.md",
+    "date": "2026-10-21",
+    "header": "**Prior headers (S53 10/15 10:59 \u2192 S54-c 10/15 16:02) folded VERBATIM \u2192 [`reports/2026-10-21_S55_status_headers_folded.md`](reports/2026-10-21_S55_status_headers_folded.md) (3613 B, crc32 `851516273`).** Earlier folds are listed inside it (the S53 Last Updated line).",
+    "limit": "header date only, not fresh market observation or liveness"
+  },
+  {
+    "agent": "BROCK",
+    "path": "AGENTS/BROCK/STATUS.md",
+    "date": "2026-10-25",
+    "header": "**Updated:** 2026-10-25T16:54:36-04:00 \u2014 documentation closeout; workbook reconciled, WQ524 accepted. Resume: SCRATCH.md.",
+    "limit": "header date only, not fresh market observation or liveness"
+  },
+  {
+    "agent": "BRENT",
+    "path": "AGENTS/BRENT/STATUS.md",
+    "date": "2026-10-26",
+    "header": "**Current judgment \u2014 October 26 closeout, SCOPED-PARTIAL:** v5.13 / WAIT. No new confirmed Saudi production, pipeline-throughput or export loss. Dialogue is not implemented reopening; proposed Saudi storage is H2 2027 supply buffering. [Evidence](research/2026-10-26_evening-sweep/REPORT.md).",
+    "limit": "header date only, not fresh market observation or liveness"
+  },
+  {
+    "agent": "LIQUID",
+    "path": "AGENTS/LIQUID/STATUS.md",
+    "date": "2026-10-26",
+    "header": "**Last Updated:** 2026-10-26T19:16:48-04:00 \u2014 Official Brazil buybacks recovered; fund-payment route documented, activation unproved. X1 CLOSED / DON\u2019T-SIZE.",
+    "limit": "header date only, not fresh market observation or liveness"
+  },
+  {
+    "agent": "HENRY",
+    "path": "AGENTS/HENRY/STATUS.md",
+    "date": "2026-10-22",
+    "header": "**Last owner update:** 2026-10-22 19:3x ET, PROME-spawned wake for DOCKET L787 (put-wall close test; Claude Code, Opus 5.5, model ID `claude-opus-5-5`; native session ID not exposed). Gamma `--both` 19:27 ET from the 16:00 ET close; tape 19:26\u201319:31 ET; Cboe `_SPX` close fields 19:28 ET; Treasury par and FRED 19:3x ET. Prior owner record (10/22 09:5x ET, L769) preserved verbatim at `research/2026-10-22_L787/STATUS-before.md`; it points back to the 10/21 and 10/19 records.",
+    "limit": "header date only, not fresh market observation or liveness"
+  },
+  {
+    "agent": "LABOR",
+    "path": "AGENTS/LABOR/STATUS.md",
+    "date": "2026-10-22",
+    "header": "**Last Updated:** 2026-10-22 *(PROME-spawned, session 84affa50, WQ-479 A / WQ-184 Tier-1 due-row wake DOCKET L719)* \u00b7 \u2705 **Claims w/e Oct 17 graded off the frozen card + \u00a78a: 194,000, band B, nothing fired** \u2014 MA 197,750 (\u22121,000, arithmetic; lowest since w/e 2022-10-01 on FRED IC4WSA) \u00b7 w/e Oct 10 revised 199,000 \u2192 200,000, which **cut the v13 `<200,000` run to 1** (record-only) \u00b7 CC 1,728,000 (run 6, record-only) \u00b7 R13-c `197,750 / 198,250 = 0.9975 < 1.15` no action. **10/29 card frozen** (0 defects). Score **26/75 unchanged**. *Prior:* 2026-10-21 \u2014 C2 decisions batch (R13-c adopted; v7 none; openings no band; v11 not widened). Superseded surfaces \u2192 DETAIL \u00a7 `status-rotated-20261022`.",
+    "limit": "header date only, not fresh market observation or liveness"
+  },
+  {
+    "agent": "HAWK",
+    "path": "AGENTS/HAWK/STATUS.md",
+    "date": "2026-10-25",
+    "header": "**Updated:** October 25, 2026, 15:45 EDT. Codex / OpenAI GPT-6 identity exposed; serving variant UNKNOWN. Thread `01a173d6-38cc-7de3-9a0b-fd12caf682cc`. Root/local instructions explicitly read. No trade book. No mark, band, probability or registered prediction letter changed.",
+    "limit": "header date only, not fresh market observation or liveness"
+  },
+  {
+    "agent": "NEXUS",
+    "path": "AGENTS/NEXUS/STATUS.md",
+    "date": "2026-10-23",
+    "header": "**Updated:** 2026-10-23T21:36:31-04:00 \u2014 **FULL MATRIX REVIEW (Will-direct boot):** 28 briefs whole via 3 Opus digest readers (census 29; HAWK excluded); owner STATUS for 7 load-bearing desks and every letter series at FRED read myself (21:20 ET). Record \u2192 `research/2026-10-23_full_pass/`. **Frontiers:** FRED obs 10/22 for the ICE, H.15 and VIX series (`T10YIE` 10/23); equity closes 10/23 (vendor); Brent settle 10/23 (BRENT, secondary). Dated marks, not quotes. Full 10/23 header \u2192 `STATUS_COLD.md` \u00a7H23E; delta annotation 1 \u2192 \u00a7H22C; correction 10/24 on the Trading line. **Delta annotation 2 of 2, 10/24 15:20 ET (weekend structure pass; annotation cap reached \u2014 next touch = Mon 10/26 DOCKET L832, a proper pass): FRED 15:0x, every letter series still ends at obs 10/22; TERRY 10/24 + LIQUID 10/23 22:27 folded; nothing moved; rotations \u2192 `STATUS_COLD.md` \u00a7H23.** **Tokens:** bare `L<n>` = `PREDICTIONS_MONITOR.md` row; `DOCKET L<n>` = PROME docket row; desk scores (x/y) = owner composites.",
+    "limit": "header date only, not fresh market observation or liveness"
+  },
+  {
+    "agent": "WALTER",
+    "path": "AGENTS/WALTER/STATUS.md",
+    "date": "2026-10-26",
+    "header": "**Updated:** 2026-10-26T17:49:26Z \u2014 morning-news catchup and Will-directed unwind search; 12 cards today, BOARD 1725. Boot remains PARTIAL. Publication and duties: LAST_COMPLETION.md.",
+    "limit": "header date only, not fresh market observation or liveness"
+  },
+  {
+    "agent": "VIOLET",
+    "path": "AGENTS/VIOLET/STATUS.md",
+    "date": "2026-10-21",
+    "header": "**As of:** October 21, 2026 22:13 ET. PROME-spawned catch-up (prome-56), Claude Code, Opus 5.5. Live boot 22:05 ET (boot.py); Cboe daily histories, Cboe futures settlement files 10/20 and 10/21, investing.com MOVE and fetch.py prices pulled 22:05\u201322:13 ET. Thesis **v4.1.4**; no new numerical line or regime phase. Prior session (10/19 18:55 ET, Codex owner `01a15611\u2026`) is dated history: [evening official check](research/2026-10-19_evening-official-check/REPORT.md).",
+    "limit": "header date only, not fresh market observation or liveness"
+  },
+  {
+    "agent": "YEYOU",
+    "path": "AGENTS/YEYOU/STATUS.md",
+    "date": "2026-08-20",
+    "header": "**Updated:** 2026-08-20 (FIRST EVER REVIEW PASS \u2014 Will-ruled \"watermark YEYOU at today and spawn it\"; DAEDALUS set *DEFAULT* watermark `fdb466786` + spawned) | **Runtime:** Claude Code session, teams-mode spawn | **Phase:** 1 (digest-to-PROME only)",
+    "limit": "header date only, not fresh market observation or liveness"
+  },
+  {
+    "agent": "ZHAO",
+    "path": "AGENTS/ZHAO/STATUS.md",
+    "date": "2026-10-22",
+    "header": "**Updated:** 2026-10-22 (see commit time). **Session: PROME-spawned (WQ-487 A) \u2014 L0 drain (3) + DOCKET L223 Plenum confirm + China-side read of the 10/22 Asia selloff + L482 pre-fetch.** *(10/20 session: L482 re-check.)*",
+    "limit": "header date only, not fresh market observation or liveness"
+  },
+  {
+    "agent": "HANS",
+    "path": "AGENTS/HANS/STATUS.md",
+    "date": "2026-10-22",
+    "header": "**Updated:** 2026-10-22 (Thu, ~20:45 ET) \u2014 **hans-1022, Will-spawned catch-up to live:** WALTER `-031`/`-028` processed \u00b7 `T-10` graded 10/22 on i-i (OAT **through the 5.00 RED tier**) \u00b7 **France bond-market deep dive** (swap, CDS, curve, bills, auctions) \u00b7 TTF/storage/Bund/BTP/UK/US refreshed \u00b7 workbook pass (FLOW-4/6, KILL_TREE C-4, PREDICTIONS, ML-481/482). *10/21 session:* Boot + Europe news catch-up \u00b7 full registry re-grade \u00b7 inbox drained (37 + 4) \u00b7 `HNS-07` 65% \u2192 30% \u00b7 KILL_TREE re-graded \u00b7 20 expired KB rows cleared \u00b7 test suite 149/149 \u00b7 **France TPI read + `HNS-10`/`HNS-11` registered before Moody's** \u00b7 France sovereign memo \u00b7 **`HNS-09` rules frozen and mechanised before 10/28** \u00b7 UK Budget groundwork \u00b7 RULE #1c reworded (WQ-469, Will in-session). *Prior STATUS verbatim \u2192 `workbook/STATUS_ROTATED_2026-10-21.md`.*",
+    "limit": "header date only, not fresh market observation or liveness"
+  },
+  {
+    "agent": "MARCO",
+    "path": "AGENTS/MARCO/STATUS.md",
+    "date": "2026-10-25",
+    "header": "**Last Updated:** 2026-10-25 23:30 ET (session37 \u2014 authorized stale-file Phase2 reconciliation/ bounded checks) | **Thesis:** v3.2 | **Status:** \ud83d\udfe0 ELEVATED",
+    "limit": "header date only, not fresh market observation or liveness"
+  },
+  {
+    "agent": "SHADE",
+    "path": "AGENTS/SHADE/STATUS.md",
+    "date": "2026-10-21",
+    "header": "**Last Updated:** 2026-10-21T22:16:48-04:00 \u2014 PROME spawn prome-56 (catch-up wave 1, Claude Code/Opus 5.5): **L726 illiquidity criterion + unknown rule and L727 TSR method DELIVERED as proposals** (`research/L726_ILLIQUIDITY_BASIS_2026-10-21.md`, `research/L727_TSR_METHOD_2026-10-21.md`); inbox drained 4\u21920; WQ-364 ruling recorded. No grade, threshold or score changed. Prior: 10/15 L673 grade NOT MET.",
+    "limit": "header date only, not fresh market observation or liveness"
+  },
+  {
+    "agent": "OTTO",
+    "path": "AGENTS/OTTO/STATUS.md",
+    "date": "2026-10-25",
+    "header": "**Signal Status:** \ud83d\udd34\ud83d\udd34 fraud-leg CRITICAL (both thesis mechanisms criminally charged; First Brands in Ch.7, order entered 9/1, Dkt 3748) / systemic legs DISCONFIRMED (funding \ud83d\udfe2 7/4 \u00b7 bank contagion \ud83d\udfe0 fired-then-closed 8/14) | **Convergence 33/50**, 21 of it one root | **Last Updated:** 2026-10-25 EDT (s039, accepted stale-file repairs)",
+    "limit": "header date only, not fresh market observation or liveness"
+  },
+  {
+    "agent": "BOND",
+    "path": "AGENTS/BOND/STATUS.md",
+    "date": "2026-10-20",
+    "header": "## Current judgment",
+    "limit": "header date only, not fresh market observation or liveness"
+  },
+  {
+    "agent": "ORACLE",
+    "path": "AGENTS/ORACLE/STATUS.md",
+    "date": "2026-10-21",
+    "header": null,
+    "limit": "header date only, not fresh market observation or liveness"
+  },
+  {
+    "agent": "FERT",
+    "path": "AGENTS/FERT/STATUS.md",
+    "date": "2026-10-21",
+    "header": null,
+    "limit": "header date only, not fresh market observation or liveness"
+  },
+  {
+    "agent": "ATHENA",
+    "path": "AGENTS/ATHENA/STATUS.md",
+    "date": "2026-03-14",
+    "header": null,
+    "limit": "header date only, not fresh market observation or liveness"
+  },
+  {
+    "agent": "CRUISE",
+    "path": "AGENTS/CRUISE/STATUS.md",
+    "date": "2026-10-25",
+    "header": "*Last updated: **2026-10-25 23:45 ET** \u2014 PROME-authorized stale-file Phase2 repairs and bounded price/cancellation checks. Source dates remain distinct; full result: `research/2026-10-25_stale_sweep_phase2/RESULT.md`.*",
+    "limit": "header date only, not fresh market observation or liveness"
+  },
+  {
+    "agent": "OZK",
+    "path": "AGENTS/OZK/STATUS.md",
+    "date": "2026-10-22",
+    "header": "**Updated:** 2026-10-22 14:1x ET \u2014 **DAEDALUS D:L793 fix batch done with Will:** THESIS invalidation 6\u20138 (forward tests, check-by 11/16 and the Q4 print) \u00b7 SCENARIOS re-weighted **Bear 20 / Base 50 / Bull 28 / Tail 2, EV $44.41** (P-OZK-8, Will 12:42 ET; was 55/30/12/3, $38.97) \u00b7 OZK-10/11/12 registered \u00b7 TRADE.md unfrozen \u00b7 charter currency. Earlier 11:3x ET \u2014 **conviction re-graded to \ud83d\udfe1 LOW (v1.7, P-OZK-7, Will-approved WQ-483 11:24 ET)**; Q3 snapshot + Q3 problem-credit roster replace the Q2 tables (Q2 \u2192 `archive/STATUS_HISTORY_2026-10-22.md`); position line synced to FORGE 10/22; housekeeping per `reports/2026-10-22_self-sweep.md`. Prior: Q3 call Stage-2 read 10/22 (D:L520), Stage-1 grade 10/21 (FDIC FLNG 12022).",
+    "limit": "header date only, not fresh market observation or liveness"
+  },
+  {
+    "agent": "CORAL",
+    "path": "AGENTS/CORAL/STATUS.md",
+    "date": "2026-10-21",
+    "header": "**Last Updated:** 2026-10-21 23:1x ET (Wed, **coral-1021b**, PROME prome-56 commission **DOCKET L784** \u2014 FEMA cost shift and Florida; Will 22:46 ET): \u2b50 **L784 delivered \u2192 `research/2026-10-21_L784_fema-cost-shift-florida.md`** \u2014 no FEMA letter exists in public (POLITICO 10/20 read: remarks on a recording + an internal 10/15 memo, PRESS-ORIGINAL); written blueprint = FEMA Review Council report 5/7/26 (PRIMARY: PA indicator $1.94\u2192$2.99, PA share 50% floor needs Congress). **FL exposure:** EPR Fund **$163.1M (9/1)** vs reserves **$16.2B**; Citizens and FHCF **$0 direct** (FEMA pays no insured loss); first test = **FL's Isaias DR request (PA 15 / IA 8 counties, ~10/15), pending \u2014 hard check 10/30**. **Inbox:** PROME WQ-475 RULED A consumed \u2192 OQ \u00a7A2 now the ruled letter (identity = data date of one build; current series from reading #11; **9/13 stand-down STANDS**). Prior: 10/21 22:13 ET (coral-1021, reading #10 + L227 \u2192 \u00a7 V; header verbatim \u2192 \u00a7 W0) \u00b7 10/15 \u2192 \u00a7 U \u00b7 10/9 \u2192 \u00a7 T.",
+    "limit": "header date only, not fresh market observation or liveness"
+  },
+  {
+    "agent": "CREED",
+    "path": "AGENTS/CREED/STATUS.md",
+    "date": "2026-10-22",
+    "header": "**Updated:** 2026-10-22 (Thu) 17:35 ET \u2014 **evening addendum:** WQ-494 settled (Trepp PARKED; **RSNRES adopted as `VX-8.01`**, `KB-074`; ABS-EE after the October print; pension route added). No score moved. EARLIER 13:46 ET \u2014 **sweep follow-up** (Will 13:19): read-cap rotations (STATUS/CHANGELOG/SCOREBOARD under 70%) \u00b7 **`registry/PREREG_2026-11_TREPP_PRINT.md` written (October print decides `T-01a`)** \u00b7 PREREG_2026-10 F2 graded NOT TRIGGERED \u00b7 KB 064\u2013073 \u00b7 VX 4.04/7.03/10.01/10.03 refreshed. No score moved. EARLIER 13:17 ET \u2014 **Will-directed sweep, six fixes** (THESIS row 2 + COVERAGE lanes 2/3/6 to September; SCRATCH refi block; PRED-002 note; CLAUDE.md archive path + trap 3; test C1; `MAINTENANCE.md` 10/22). No score moved. EARLIER 12:25 ET \u2014 **Will-launched boot + CRE leg of Will's 005 (HY widening \u2192 CRE?)**: securitized CRE spreads **held** through 10/16 (CREFC, PRIMARY-READ); the refinancing cost rose via the **10y**, not junk spreads; commercial mREITs \u221216.6%/21 sessions (1.6th pct since 2021) but only \u22124.3pp vs agency mREITs = **rate-type, not credit-type**; Ladder Q3 book value up. KB 60 \u2192 **63**. **No band, score, trigger or prediction moved; 27/45.** Record: `research/2026-10-22_HY_TO_CRE_REFI_READ.md`. PRIOR: 2026-10-21 (Wed) ~23:05 ET \u2014 **WQ-472 bounded catch-up** (Will 22:46 ET: *\"Approve 472 A \u2026\"*; PROME prome-56 spawn; dark 10/01 \u2192 10/21). Drain **37/37** every sender \u00b7 **Trepp September graded: office DQ 12.16 = `T-01a` LEG 1 of 2 (not a fire; October decides); office SS 16.85, `T-01b` not fired** \u00b7 S8a re-anchored **\u221211.48pp TR [10/21 close]** \u00b7 DOCKET L723 pre-read (450 5th St NW, auction 10/28) \u00b7 cases 137 \u2192 **154** \u00b7 KB 56 \u2192 **60**. **No band, score, trigger or prediction moved; 27/45.** Record: `catchups/2026-10-21.md`. PRIOR: 2026-10-01 (Thu) early \u2014 the 9/30 \u2192 10/01 night session (case ledger v4, loss-holder map, S8a 9/30); record `catchups/2026-09-30.md` \u00a7\u2468\u2013\u2469. *(The full prior header chain lives in git history of this line and in `catchups/`.)*",
+    "limit": "header date only, not fresh market observation or liveness"
+  },
+  {
+    "agent": "SENTRY",
+    "path": "AGENTS/SENTRY/STATUS.md",
+    "date": "2026-05-09",
+    "header": "**Last Updated:** 2026-05-09 (Saturday evening \u2014 CIK watchlist expansion 1\u219215)",
+    "limit": "header date only, not fresh market observation or liveness"
+  },
+  {
+    "agent": "TERRY",
+    "path": "AGENTS/TERRY/STATUS.md",
+    "date": "2026-10-25",
+    "header": "> ## \u2605 CURRENT STATE \u2014 2026-10-25 13:28 EDT \u00b7 Will-launched TERRY, OpenAI GPT-6 / Codex; exact variant UNKNOWN. **$0 MOVED \u00b7 NO ORDER \u00b7 NO APPROVAL, TRIGGER, SIZE OR SCORE CHANGED.**",
+    "limit": "header date only, not fresh market observation or liveness"
+  },
+  {
+    "agent": "DAEDALUS",
+    "path": "AGENTS/DAEDALUS/STATUS.md",
+    "date": "2026-10-24",
+    "header": "**Last Updated: 2026-10-24 \u2014 Will's research-depth, restart and shared-write investigation completed (Codex).** Pre-sweep STATUS preserved verbatim at `archive/STATUS_2026-10-23_before_sweep.md` (crc32 300895856).",
+    "limit": "header date only, not fresh market observation or liveness"
+  },
+  {
+    "agent": "AEOLUS",
+    "path": "AGENTS/AEOLUS/STATUS.md",
+    "date": "2026-10-21",
+    "header": "**Last Updated:** 2026-10-21 22:3x ET (**PROME catch-up spawn, wave 2** \u2014 11 days dark 10/10\u219210/21; whole-inbox drain 10/10, DAEDALUS 8 dispositions, DOCKET L650 C3 reconcile, read-cap attestation, live re-anchor; KB-206\u2026212). Prior: 10/10 12:34 ET (Will-directed El Ni\u00f1o re-point). Full rebuild 9/28 (`archive/STATUS_ARCHIVE_2026-09-18_full.md`).",
+    "limit": "header date only, not fresh market observation or liveness"
+  },
+  {
+    "agent": "WATT",
+    "path": "AGENTS/WATT/STATUS.md",
+    "date": "2026-10-23",
+    "header": "**Record maintained:** 2026-10-23 01:04 EDT \u2014 D:L789 touch: L546 float graded DONE, AEOLUS interchange test run (KB177\u2013180); RBP carried; inbox drained. Prior record 2026-10-22 09:54 EDT (D:L717/L650). **Observation cutoff:** PJM tape complete October 15\u201322 plus October 23 through 00:50 EPT; board and EIA-930 demand read 00:59 ET October 23; EIA-930 interchange September 14\u201321 pulled 01:0x ET October 23; DOE index and Inside Lines feed last read 08:34\u201308:36 ET October 22; board, DOE index and Inside Lines feed read 08:34\u201308:36 ET October 22; outage forecast executed October 22; gas quote 08:33 ET October 22 (NG=F $2.782). Auction result July 14; IRAS order October 9; RBP order September 29; generator order October 15. No fresh all-issuer guidance census. **P1/P2/P3/P4 = 3/5/4/2; composite 14/20 (was 16/20; P1 5\u21923 forced by the D:L717 letter).**",
+    "limit": "header date only, not fresh market observation or liveness"
+  },
+  {
+    "agent": "VULCAN",
+    "path": "AGENTS/VULCAN/STATUS.md",
+    "date": "2026-10-26",
+    "header": "**Last Updated:** 2026-10-26T14:27:16-04:00 \u2014 Will-requested missed-news sweep [KB-300..307]. Material live-record additions: Nebius executed Citi facility, PG&E pipeline/deferrals, Micron original roadmap; qualified Bloom first-power/TSMC/China NAND and regulatory process. **15/25 unchanged; S5 4, two events, one fired channel.** `reports/2026-10-26_news-sweep/REPORT.md`; earlier financing report remains valid. No live-price/off-cadence refresh,new monitor or trade.",
+    "limit": "header date only, not fresh market observation or liveness"
+  },
+  {
+    "agent": "MIDAS",
+    "path": "AGENTS/MIDAS/STATUS.md",
+    "date": "2026-10-25",
+    "header": "**Targeted key-file review October 25:** `analysis/2026-10-25_NEXUS-THESIS-TRADE-review.md`. NEXUS source clocks/intake clarified, THESIS stale table/expired position context repaired, TRADE current register separated from exact historical snapshot. KB213; no new market observation, score, standing condition or frozen forecast.",
+    "limit": "header date only, not fresh market observation or liveness"
+  },
+  {
+    "agent": "OSPREY",
+    "path": "AGENTS/OSPREY/STATUS.md",
+    "date": "2026-10-23",
+    "header": "**Last Updated:** 2026-10-23 (Fri) 01:08 ET (from `date`): osprey-1023, PROME prome-e7 Tier-1 spawn (WQ-502 A; WQ-184 due rows L718 + L666; L0 drain 4/4). **Scores 5 / 5 / 3 \u2014 NO mark moved. Band ~30% [EST] UNCHANGED.**",
+    "limit": "header date only, not fresh market observation or liveness"
+  },
+  {
+    "agent": "FALCON",
+    "path": "AGENTS/FALCON/STATUS.md",
+    "date": "2026-10-26",
+    "header": "**Updated:** 2026-10-26 17:36 EDT / 21:36 UTC, market-close sweep requested by Will. Runtime OpenAI GPT-6 / Codex; local session 01a17940-33df-7271-9eb4-3e42db57b396. [Evening evidence/report](reports/2026-10-26_evening-sweep.md). [Prior dashboard preserved verbatim](domain/sources/STATUS_before_2026-10-26_evening.md).",
+    "limit": "header date only, not fresh market observation or liveness"
+  },
+  {
+    "agent": "HOMER",
+    "path": "AGENTS/HOMER/STATUS.md",
+    "date": "2026-10-19",
+    "header": null,
+    "limit": "header date only, not fresh market observation or liveness"
+  },
+  {
+    "agent": "FLG",
+    "path": "AGENTS/FLG/STATUS.md",
+    "date": "2026-10-23",
+    "header": "**Last Updated:** 2026-10-23 08:4x ET Friday \u2014 **Q3-2026 PRINT GRADED (DOCKET L522 print leg, PROME prome-03 spawn).** Prior: 10/22 13:30 ET fix pass + 11:3x ET 8-K sweep (both rotated verbatim to `archive/STATUS_ARCHIVE_2026-10-23.md`, crc32 `a54fa420`) \u00b7 10/21 wave 2 \u00b7 10/01 T-08 fire grade \u00b7 08/28 first live session.",
+    "limit": "header date only, not fresh market observation or liveness"
+  },
+  {
+    "agent": "YURI",
+    "path": "AGENTS/YURI/STATUS.md",
+    "date": "2026-10-21",
+    "header": "**Last Updated: 2026-10-21** \u2014 Will-launched Claude Code owner session (Opus 5.5, `claude-opus-5-5`); session 20:49\u219222:54 ET (closed out at Will's word 22:53 ET): PROME five-item order, completion pass, YUR-005/006 registration, sweep and follow-ups, a key-file reconciliation (22:20 ET) and long searches (22:29 ET). Closeout receipt: `research/2026-10-21_session-closeout-receipt.json`. Report: `research/2026-10-21_L432-read-and-actor-update.md` \u00a71\u201310. Packets to PROME \u00d73 and WALTER \u00d74 (on origin). Prior session 2026-10-12 (Codex).",
+    "limit": "header date only, not fresh market observation or liveness"
+  },
+  {
+    "agent": "GIBBS",
+    "path": "AGENTS/GIBBS/STATUS.md",
+    "date": "2026-10-23",
+    "header": "**Last Updated: 2026-10-23 08:44 EDT \u2014 AXP Q3 print read (DOCKET L779), Claude Code / Claude Opus 5.5, PROME spawn prome-03.**",
+    "limit": "header date only, not fresh market observation or liveness"
+  },
+  {
+    "agent": "CYPHER",
+    "path": "AGENTS/CYPHER/STATUS.md",
+    "date": "2026-10-23",
+    "header": "**Last Updated: 2026-10-23 17:1x ET \u2014 WALTER 041/044/045 + 5 inbox packets processed: GitLab CVE-2026-110264 (CVSS 10, no-login code execution, patched 10/21, not exploited) and Node.js CVE-2026-111497 ledgered as DISCLOSED, off-root, KEV-watched; Korea 16-firm breach upgraded to CONFIRMED on CYPHER's own read of the FSC release; 4 leak claims triaged; no escalation row fired.** Earlier 10/23 (15:1x ET): KITEWORKS CONFIRMED AFFECTED by PHP2Shell (P1 victim check 11/06); CYP-03/04 registered; CHOKEPOINT MAP built (32 rows, Will option A), boot.py leg 9 (8-K 8.01 cyber) + drill suite repaired 29/29, Comodo/Java question answered (FL-CYP-20), Oracle CVE-2026-91403 folded into CYB-INC-009, CYB-INC-024 (Anthropic/AISI Mythos 5 test incident).** Evidence records: `research/2026-10-23_evening-intake-record.md` (this session) \u00b7 `research/2026-10-23_chokepoint-map.md` \u00b7 `research/2026-10-23_news-sweep-and-relay-pattern.md` \u00b7 `research/2026-10-22_first-session-verification-record.md`.",
+    "limit": "header date only, not fresh market observation or liveness"
+  },
+  {
+    "agent": "ISHM",
+    "path": "AGENTS/ISHM/STATUS.md",
+    "date": "2026-10-23",
+    "header": "**Last Updated: 2026-10-23 \u2014 BUILT by DAEDALUS (Claude Code, claude-opus-5-5); zero ISHM sessions.**",
+    "limit": "header date only, not fresh market observation or liveness"
+  }
+]

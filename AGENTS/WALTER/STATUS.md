@@ -1,14 +1,15 @@
 # WALTER STATUS
-**Updated:** 2026-10-26T17:49:26Z — morning-news catchup and Will-directed unwind search; 12 cards today, BOARD 1725. Boot remains PARTIAL. Publication and duties: LAST_COMPLETION.md.
+**Updated:** 2026-10-26T23:50:23Z — full session-end closeout;12cards today, BOARD1725. Boot remains PARTIAL; obligations and publication evidence: LAST_COMPLETION.md.
 
 ## BOTTOM LINE
 
-Morning catchup and Will-directed Brazil unwind search produced12cards/48create-only handoffs. Local stop-loss amplification is reported by one anonymous manager; no named margin-call liquidation or broad carry cascade was verified. At13:44ET, yen weaker/peso stronger and US credit ETFs positive;13:45NYFed repo accepted$5M. These observations do not clear private financing or prove Brazil causality. Source/boot/full-closeout duties and pending publication remain in LAST_COMPLETION.md.
+Brazil remains severe local repricing; a broad forced unwind is unproved. LIQUID's closing vendor observations show Brazil weakness alongside resilient sampled US credit/banks; event-day funding/spread readings remained unavailable at its18:56ET pull. Accepted domestic bond buybacks settleOctober27; fund contract mechanisms are not demonstrated cash calls. Twelve BOARD cards capture today's news and bounded unwind search. Full closeout continuity is reconciled; startup, pending-source and lifecycle limits remain explicit in LAST_COMPLETION.md.
 
 ## DATED MARKET OBSERVATIONS
 
 | Object | Observation and limit |
 |---|---|
+| Evening owner evidence (October26, owner pulls17:35–18:57ET) | LIQUID vendor EWZ−19.82%,HYG+0.19%,LQD+0.16%,KRE+0.37%; not spread/flow measurements. Accepted domestic buybacksR$14.807B settleOctober27; current UBR call unproved. Credit/funding frontierOctober23 at18:56ET. VULCAN original-access upgrade is owner-selected sections, full reconciliation incomplete. Sources: research/2026-10-26_final/OWNER-REVIEW.md. |
 | Brazil unwind search (October26 13:44–13:47ET) | Anonymous manager reports local stop-loss amplification; no named fund/margin-call liquidation verified. Mixed carry pattern: yen weaker, peso stronger, US credit ETFs positive. NYFed afternoon repo accepted$5M, not a seizure finding. B3 wider price bands are not margin hikes. Card012/evidence: research/2026-10-26_unwind-search/REPORT.md. |
 | Morning news (October 26, underlying clocks retained) | Meta $35B offering package plus unestablished $60B future program; SpaceX ~$40B conditional GPU lease; Anthropic public IPO reported, original prospectus unread. B3 halt confirmed; Reuters local equity/FX/CDS stress is dated intraday, not a forced-sale finding. Cards 001–004. |
 | Labor/energy/diplomacy (October 26 releases) | Microsoft voluntary offer, realized exits unknown; EQT–Range all-stock merger, >$50B combined EV not Range purchase price; Tehran regional contact not a settlement, Yemen military claims attributed. Cards 005–007. |
@@ -46,7 +47,7 @@ Signal/news routing and receiving-layer readiness. Domain agents own evidence, g
 
 - Sole current obligation/approval/decision list and publication receipt: `LAST_COMPLETION.md`.
 - WQ-508 harness-audit lines applied 2026-10-23 (E04, U-W1, U-W2, U-W3, U-W5; Will confirmed in the WALTER terminal 10:5x ET); packet `inbox/2026-10-23_from-DAEDALUS_WQ508-harness-audit-lines.md`.
-- Current evidence: `research/2026-10-25_bookmarks/` and `research/2026-10-25_boot/`; prior partial boot preserved at `research/2026-10-16_codex-boot/BOOT-RECEIPT.md`.
+- Current closeout evidence: `research/2026-10-26_final/`; research: `research/2026-10-26_morning/` and `research/2026-10-26_unwind-search/`; prior partial boot preserved at `research/2026-10-16_codex-boot/BOOT-RECEIPT.md`.
 - Bookmark authentication/read/mark evidence: `MARK-RECEIPT.txt`, `bookmark-review.json` and `REVIEW.md` in the bookmark evidence directory. Credentials remain ignored/machine-local.
 - VULCAN intake recommendation: `outbox/REQ-PROME-20261016-vulcan-intake-design.md`; no collector deployment inferred.
 - Manual freight/source watch: `research/tanker-cost-watch/WATCH.md`, `STATE.csv`, `REVIEWS.tsv`.
@@ -54,7 +55,7 @@ Signal/news routing and receiving-layer readiness. Domain agents own evidence, g
 
 ## NETWORK AWARENESS
 
-Registry header mirrors refreshed before this summary at 2026-10-25T21:28:56Z. PROME 2026-10-25, BROCK 2026-10-25, BRENT 2026-10-23, LIQUID 2026-10-25, HAWK 2026-10-25, NEXUS 2026-10-23, WALTER 2026-10-25, VIOLET 2026-10-21, TERRY 2026-10-25, MIDAS 2026-10-25. BROCK records025/029/031 noted/info-only; MIDAS021 noted/provisional. These receipts establish bounded consumption without a grade change. Header dates are documentation clocks, not fresh market observations. Whole-fleet liveness was not refreshed at closeout; unobserved owners remain UNKNOWN. No dark-owner wake or neglect inference.
+Registry headers reviewed before this summary at2026-10-26T23:50:23Z;49mirror rows retained. PROME 2026-10-25, BROCK 2026-10-25, BRENT 2026-10-26, LIQUID 2026-10-26, HAWK 2026-10-25, NEXUS 2026-10-23, WALTER 2026-10-26, VIOLET 2026-10-21, TERRY 2026-10-25, MIDAS 2026-10-25, VULCAN 2026-10-26, FALCON 2026-10-26. These are owner documentation dates, not current market inputs or liveness. Available native discovery is partial; unseen owners remain UNKNOWN. Today12signals,48handoff records, one cluster_mediating signal; no five-signal network peak. Recipient evidence and current duties are retained only in LAST_COMPLETION.md and its dated receipt.
 
 ## Active LIAISON channels
 

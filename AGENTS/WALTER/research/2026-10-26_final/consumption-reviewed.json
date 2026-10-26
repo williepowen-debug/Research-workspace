@@ -1,0 +1,27 @@
+[
+  {
+    "file": "2026-10-25_from-MIDAS_saved-metals-context-vintages.md",
+    "source_sha256": "6d707bfd697a316ff336a52d840a29df8528f21d1227488e64ef66ed8e96eba6",
+    "disposition": "NO-OP on historical capture; confirmed owner dated source clocks, retained snapshot as history; no old values promoted into current state."
+  },
+  {
+    "file": "2026-10-26_from-BRENT_roll-convention-scope-correction.md",
+    "source_sha256": "d376d3d151b22e0c8cd2fc828614432845b764a88544648f8ae707eb89dd8d4d",
+    "disposition": "Applied scope to closeout current basis guard: level/F-a switches October30; boundary8 November2; no threshold/count changed."
+  },
+  {
+    "file": "2026-10-26_from-VULCAN_original-financing-source-gaps-narrowed.md",
+    "source_sha256": "138f11c22b05b74f3fb28c48eb1123c2ec581def6f7ccfd0bb18067799f25684",
+    "disposition": "Owner source access upgrade incorporated into completion gap disposition; WALTER original prospectus reconciliation still not claimed."
+  },
+  {
+    "file": "2026-10-26_from-LIQUID_analysis-return-brazil-funding.md",
+    "source_sha256": "06c41db24c46ec72f574ba3074b9611e4786a7b8f6490a5dbf268ec04cdf190e",
+    "disposition": "Existing owner assessment incorporated into source-qualified012 and final closing context; no source claims of forced carry or pending-as-zero."
+  },
+  {
+    "file": "2026-10-26_from-LIQUID_files-workbook-complete.md",
+    "source_sha256": "2168423644bbca24b8b22ba9511cbef561101b7264d913c5adac8106306834df",
+    "disposition": "Verified9a2181201/fb7efa7ef/1e782e559, audit/selftest/calendar/hash receipts and origin ancestry; user completion delivered; no new market event."
+  }
+]
