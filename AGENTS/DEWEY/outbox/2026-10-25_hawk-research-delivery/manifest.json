@@ -1,0 +1,77 @@
+[
+  {
+    "source": "/home/willi/Research-workspace/AGENTS/DEWEY/outbox/2026-10-25_hawk-research-delivery/HAWK-01.md",
+    "destination": "/home/willi/Research-workspace/AGENTS/HAWK/inbox/2026-10-25_from-DEWEY_hawk-01-helium-semiconductor-deliveries.md",
+    "sha256": "cc909338b426f8462018f378308624043e549921c8321c1c4c8f38130c98b11b"
+  },
+  {
+    "source": "/home/willi/Research-workspace/AGENTS/DEWEY/outbox/2026-10-25_hawk-research-delivery/VULCAN-01.md",
+    "destination": "/home/willi/Research-workspace/AGENTS/VULCAN/inbox/2026-10-25_from-DEWEY_hawk-01-helium-semiconductor-deliveries.md",
+    "sha256": "40a06eb6b0188e778426f1009eacb99a48a481479de31622c43d3a1ae0e2ae50"
+  },
+  {
+    "source": "/home/willi/Research-workspace/AGENTS/DEWEY/outbox/2026-10-25_hawk-research-delivery/BRENT-01.md",
+    "destination": "/home/willi/Research-workspace/AGENTS/BRENT/inbox/2026-10-25_from-DEWEY_hawk-01-helium-semiconductor-deliveries.md",
+    "sha256": "8a144df606f4e187c9997cbf86606d62aa75620e0939f89fe0f48dd5779a8565"
+  },
+  {
+    "source": "/home/willi/Research-workspace/AGENTS/DEWEY/outbox/2026-10-25_hawk-research-delivery/WALTER-01.md",
+    "destination": "/home/willi/Research-workspace/AGENTS/WALTER/inbox/DEWEY/2026-10-25_hawk-01-helium-semiconductor-deliveries_handoff.md",
+    "sha256": "f37c0f59f3cc5beae3553f50138d9fa12ed5bcadc14bb88112237aa11dbb9cb0"
+  },
+  {
+    "source": "/home/willi/Research-workspace/AGENTS/DEWEY/outbox/2026-10-25_hawk-research-delivery/HAWK-02.md",
+    "destination": "/home/willi/Research-workspace/AGENTS/HAWK/inbox/2026-10-25_from-DEWEY_hawk-02-taiwan-fuel-buffer-cargoes.md",
+    "sha256": "21d32ec87611831bfbcc9c55743957e43757f411ed6574cdcd8f77faffb78c9c"
+  },
+  {
+    "source": "/home/willi/Research-workspace/AGENTS/DEWEY/outbox/2026-10-25_hawk-research-delivery/SAM-02.md",
+    "destination": "/home/willi/Research-workspace/AGENTS/SAM/inbox/2026-10-25_from-DEWEY_hawk-02-taiwan-fuel-buffer-cargoes.md",
+    "sha256": "14deb45ae1bad63cca783e91e1bb3f1bc1f89f8c034858b3718854f56a7a67c1"
+  },
+  {
+    "source": "/home/willi/Research-workspace/AGENTS/DEWEY/outbox/2026-10-25_hawk-research-delivery/BRENT-02.md",
+    "destination": "/home/willi/Research-workspace/AGENTS/BRENT/inbox/2026-10-25_from-DEWEY_hawk-02-taiwan-fuel-buffer-cargoes.md",
+    "sha256": "4d4d381e624c68a7972dadd31f034ec68d3982d0f14e4d206426da39a125fcfa"
+  },
+  {
+    "source": "/home/willi/Research-workspace/AGENTS/DEWEY/outbox/2026-10-25_hawk-research-delivery/WALTER-02.md",
+    "destination": "/home/willi/Research-workspace/AGENTS/WALTER/inbox/DEWEY/2026-10-25_hawk-02-taiwan-fuel-buffer-cargoes_handoff.md",
+    "sha256": "348118139494a755ecf8b03bd86a0b8a4190e247ced5ab47a922b5c05f82f565"
+  },
+  {
+    "source": "/home/willi/Research-workspace/AGENTS/DEWEY/outbox/2026-10-25_hawk-research-delivery/HAWK-03.md",
+    "destination": "/home/willi/Research-workspace/AGENTS/HAWK/inbox/2026-10-25_from-DEWEY_hawk-03-marine-war-risk-prices-coverage.md",
+    "sha256": "df06a237ff38dc6ec8e1bbd9baa48db24819ecf437fe83d4e64ffd8be0462697"
+  },
+  {
+    "source": "/home/willi/Research-workspace/AGENTS/DEWEY/outbox/2026-10-25_hawk-research-delivery/FALCON-03.md",
+    "destination": "/home/willi/Research-workspace/AGENTS/FALCON/inbox/2026-10-25_from-DEWEY_hawk-03-marine-war-risk-prices-coverage.md",
+    "sha256": "905094abc47a8a4ac30841e069e175f1530286a026761546c0bc35c28708cd71"
+  },
+  {
+    "source": "/home/willi/Research-workspace/AGENTS/DEWEY/outbox/2026-10-25_hawk-research-delivery/OSPREY-03.md",
+    "destination": "/home/willi/Research-workspace/AGENTS/OSPREY/inbox/2026-10-25_from-DEWEY_hawk-03-marine-war-risk-prices-coverage.md",
+    "sha256": "bc845ea5550f48271688aeb6c24e1e03a8f399070a4f13455ff2c01fff40c746"
+  },
+  {
+    "source": "/home/willi/Research-workspace/AGENTS/DEWEY/outbox/2026-10-25_hawk-research-delivery/BRENT-03.md",
+    "destination": "/home/willi/Research-workspace/AGENTS/BRENT/inbox/2026-10-25_from-DEWEY_hawk-03-marine-war-risk-prices-coverage.md",
+    "sha256": "bd4a3e2afaee0b54b1ec3e7809763948176293d47605897fddcabb5085a56659"
+  },
+  {
+    "source": "/home/willi/Research-workspace/AGENTS/DEWEY/outbox/2026-10-25_hawk-research-delivery/WALTER-03.md",
+    "destination": "/home/willi/Research-workspace/AGENTS/WALTER/inbox/DEWEY/2026-10-25_hawk-03-marine-war-risk-prices-coverage_handoff.md",
+    "sha256": "a1267cd2315353bd3d896cc8afb9b611d5e9361028eab49587c5cca9e4f3525c"
+  },
+  {
+    "source": "/home/willi/Research-workspace/AGENTS/DEWEY/outbox/2026-10-25_hawk-research-delivery/BROCK-CFG.md",
+    "destination": "/home/willi/Research-workspace/AGENTS/BROCK/inbox/2026-10-25_from-DEWEY_CFG-vintage-clarification-consumed.md",
+    "sha256": "f61edd5c23a995d50fbf5c8e81ef75dbfc2715cfcf16ff48995b4fc319bb440d"
+  },
+  {
+    "source": "/home/willi/Research-workspace/AGENTS/DEWEY/outbox/2026-10-25_hawk-research-delivery/PROME.md",
+    "destination": "/home/willi/Research-workspace/PROME/inbox/2026-10-25_from-DEWEY_hawk-three-research-returns.md",
+    "sha256": "253b14c532d14510f679dbbbfbfe1124bbc090ba73023da08562bbe71b115cc4"
+  }
+]

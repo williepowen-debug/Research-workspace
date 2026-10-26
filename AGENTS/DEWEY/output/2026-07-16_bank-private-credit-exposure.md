@@ -1,6 +1,8 @@
 # Bank exposure to private-credit vehicles — fund-finance, XPV syndicate, Atlas SP, and the CCLFX channel
 **Date:** 2026-07-16 | **Mode:** Thesis | **Confidence:** High (XPV roster, CCLFX channel, sizing) / Medium (transmission markers) / **Low-and-flagged (hold-vs-distribute, base rate — both unresolved)**
 
+> **Vintage clarification — October 25, 2026 (BROCK intake):** Citizens' $8,756M capital-call and $4,096M secured private-credit balances ($12,852M combined) are **March 31**, as already labelled in §1b and the Q1 source reference. The +2.1%/+3.4% changes are not Q2 growth. “Currently” in the as-made §5c proposal refers to that historical baseline, not June or October. BROCK's source-checked June Table 9 comparison is $9,852M + $4,875M = $14,727M; see `AGENTS/BROCK/research/2026-10-25_three-followups/REPORT.md` §2 and its linked [June filing](https://www.sec.gov/Archives/edgar/data/759944/000075994426000148/cfg-20260630.htm). DEWEY's web renderer could not reopen either large filing on October 25, so the June comparison is explicitly attributed to BROCK's primary-source verification. Preserve the historical proposal; this note neither rebases nor fires a threshold. No Q2-to-Q3 growth may use $12,852M as a June baseline.
+
 **Flag:** REQ-DEWEY-20260702-010 (Batch-2 #14) · **Deliver-by:** 2026-07-14 (run 7/16, +2d — see *Freshness re-anchor*)
 **Engines:** `/deep-research` fan-out (102 agents, 4.49M tokens, 20 sources → 68 claims → 25 verified → 18 confirmed / **7 killed**) + 3 DEWEY primary pulls (EDGAR N-CSR/10-Q, Fed FSR PDF, FRED H.8) + 1 targeted Atlas leg.
 
@@ -161,6 +163,8 @@ The ORC-relayed structure (BROCK NEXUS_BRIEF, *"[UNVERIFIED — ORC-relayed 6/15
 - **⚠️ Several attractive "markers" are DEWEY inferences, NOT sourced claims.** Tag them as analysis if used: *"undrawn capacity = the line-draw channel"*; *"capital-coverage-ratio breaches and subscription-line spreads = trigger markers"*; *"gating beyond ~3 quarters exhausts the cushion."*
 
 ### 5c. Proposed gate — mechanism-based, explicitly uncalibrated
+> **Historical as-made proposal, clarified October 25:** the text below retains its March 31 baseline. June's $14,727M comparison is attributed to BROCK in the top-of-report note. No live baseline or threshold is registered or rebased by this historical text.
+
 **Conjunction (all three), at the only two thresholdable names:**
 1. **CFG** capital-call facilities + secured private credit finance (currently $12,852M combined) rising **>10% QoQ** (vs +2.1%/+3.4% now) — *a draw surge, not commitment growth*; **and**
 2. **WAL** NDFI **business-credit-intermediary** line (currently $3,415M, 5.8%) rising while total HFI is flat — *isolates private-credit from the mortgage-warehouse mass*; **and**
