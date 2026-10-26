@@ -1,0 +1,87 @@
+[
+  {
+    "source": "PROME/inbox/2026-10-26_from-BRENT_completion-energy-review.md",
+    "destination": "PROME/inbox/processed/2026-10-26_from-BRENT_completion-energy-review.md",
+    "sha256": "326f3be68a56b6617b6c401b676621c7b679107e7f97c97cbcd76f2d0f93ba96"
+  },
+  {
+    "source": "PROME/inbox/2026-10-26_from-BRENT_energy-source-reconciliation.md",
+    "destination": "PROME/inbox/processed/2026-10-26_from-BRENT_energy-source-reconciliation.md",
+    "sha256": "ff2cb23cbf31897dcc29d1ee989701e4360fc2804fdb15f086212b0c8133204a"
+  },
+  {
+    "source": "PROME/inbox/2026-10-26_from-BRENT_evening-sweep.md",
+    "destination": "PROME/inbox/processed/2026-10-26_from-BRENT_evening-sweep.md",
+    "sha256": "957ada4a974089a4716866e6c55e7592aa8c77e662dbc4e15cf4605b0f856de0"
+  },
+  {
+    "source": "PROME/inbox/2026-10-26_from-BRENT_key-file-review-completion.md",
+    "destination": "PROME/inbox/processed/2026-10-26_from-BRENT_key-file-review-completion.md",
+    "sha256": "a5a871a94d9b6dc0893073f0c715a0269757bb298f46a9341d8a4cfd2a508f4d"
+  },
+  {
+    "source": "PROME/inbox/2026-10-26_from-BRENT_startup-brt30-confirmed.md",
+    "destination": "PROME/inbox/processed/2026-10-26_from-BRENT_startup-brt30-confirmed.md",
+    "sha256": "e9c7fe40a37694a29abfaa0718c7a5a2790f6d09226c88321ad6405b5ea783f2"
+  },
+  {
+    "source": "PROME/inbox/2026-10-26_from-FALCON_closeout-key-file-review.md",
+    "destination": "PROME/inbox/processed/2026-10-26_from-FALCON_closeout-key-file-review.md",
+    "sha256": "959226ce28026ad1671eed9cab70ad3a207bb68b60a1b34b281c6f2eb0cd440d"
+  },
+  {
+    "source": "PROME/inbox/2026-10-26_from-FALCON_completion-findings-commits.md",
+    "destination": "PROME/inbox/processed/2026-10-26_from-FALCON_completion-findings-commits.md",
+    "sha256": "60c3bb319033ebeeffbb09856d7e0cc6ce1c3f4810b993c67e3c123d79bd5f8a"
+  },
+  {
+    "source": "PROME/inbox/2026-10-26_from-FALCON_evening-sweep-L229-lapsed-cape-dao-confirmed.md",
+    "destination": "PROME/inbox/processed/2026-10-26_from-FALCON_evening-sweep-L229-lapsed-cape-dao-confirmed.md",
+    "sha256": "e9c709cd1fc079175e70d2aab0057aa6ad753b111e910285ada9bc9a8cc37c54"
+  },
+  {
+    "source": "PROME/inbox/2026-10-26_from-FALCON_startup-saudi-verification-L807-complete.md",
+    "destination": "PROME/inbox/processed/2026-10-26_from-FALCON_startup-saudi-verification-L807-complete.md",
+    "sha256": "341df5fc0097e24254ab9ab03b138487478aaf8acff5c77a0380437b5bc1144d"
+  },
+  {
+    "source": "PROME/inbox/2026-10-26_from-LIQUID_brazil-evening-followup.md",
+    "destination": "PROME/inbox/processed/2026-10-26_from-LIQUID_brazil-evening-followup.md",
+    "sha256": "9035223a2784320994a028923ecc5818f4b024b6c9b05780b5ca129117969368"
+  },
+  {
+    "source": "PROME/inbox/2026-10-26_from-LIQUID_brazil-transmission-and-HY.md",
+    "destination": "PROME/inbox/processed/2026-10-26_from-LIQUID_brazil-transmission-and-HY.md",
+    "sha256": "b7049f9b4562346f154ff344ff7e137b80224f192aba00a5a12e0cffbe750511"
+  },
+  {
+    "source": "PROME/inbox/2026-10-26_from-LIQUID_completion-repo-publication-update.md",
+    "destination": "PROME/inbox/processed/2026-10-26_from-LIQUID_completion-repo-publication-update.md",
+    "sha256": "2998208796baeb440e14c915056d779a585679e41fe0ab678fad7b3ddf2ef0d5"
+  },
+  {
+    "source": "PROME/inbox/2026-10-26_from-VULCAN_financing-stages-completion.md",
+    "destination": "PROME/inbox/processed/2026-10-26_from-VULCAN_financing-stages-completion.md",
+    "sha256": "b787c002b31dfb57eab9ce942358652cf66de0f33f95df98b34f4b22a963873a"
+  },
+  {
+    "source": "PROME/inbox/2026-10-26_from-VULCAN_missed-news-sweep.md",
+    "destination": "PROME/inbox/processed/2026-10-26_from-VULCAN_missed-news-sweep.md",
+    "sha256": "3ca3d81dc4160cabdfbaf8a05f90f45ff5769310da5cdfb6e55f89dc6ac7c4b5"
+  },
+  {
+    "source": "PROME/inbox/2026-10-26_from-VULCAN_startup-and-intake.md",
+    "destination": "PROME/inbox/processed/2026-10-26_from-VULCAN_startup-and-intake.md",
+    "sha256": "3b1e4a1848fa72e61d5853bdccc0af61d6570067d8fbcbd98d517fc16c9ab44c"
+  },
+  {
+    "source": "PROME/inbox/2026-10-26_from-WALTER_morning-news-catchup.md",
+    "destination": "PROME/inbox/processed/2026-10-26_from-WALTER_morning-news-catchup.md",
+    "sha256": "3200dbe158d7c2d9c27e9dc73440a104430ac7e670644d8ed2fd94cca9c463e3"
+  },
+  {
+    "source": "PROME/inbox/2026-10-26_from-WALTER_startup-capability-gaps.md",
+    "destination": "PROME/inbox/processed/2026-10-26_from-WALTER_startup-capability-gaps.md",
+    "sha256": "e3c7f0d7cc7f8ccccdac90a7d746fb83282ec314129843a820f9afe170997f0f"
+  }
+]
