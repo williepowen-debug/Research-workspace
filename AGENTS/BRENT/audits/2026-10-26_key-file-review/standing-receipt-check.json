@@ -1,0 +1,12 @@
+{
+  "workbook/STATUS_archive_20260828_dated_history_wave2.md": {
+    "payload_bytes": 88876,
+    "crc32": "4bb7aad6",
+    "payload_rule": "after first standalone separator, outer whitespace stripped"
+  },
+  "workbook/STATUS_archive_20260821_standing_blocks_aug4_aug13.md": {
+    "payload_bytes": 9970,
+    "crc32": "d82761d3",
+    "payload_rule": "after first standalone separator, outer whitespace stripped"
+  }
+}

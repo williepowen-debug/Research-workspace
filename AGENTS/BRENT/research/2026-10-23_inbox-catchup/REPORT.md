@@ -1,5 +1,8 @@
 # BRENT — October 23 inbox catch-up and owed work (live session, Will-launched 15:14 ET)
 
+**October 26 reader correction:** the “Fleet basis” sentence below overgeneralized boundary #8’s convention. REGISTRY’s level/F-a pin switches ON the last-trading day (October 30); the separate #8 three-product crack letter switches the FIRST SESSION AFTER (November 2). Docket explicitly preserves both. No rule, observed price or count changed. Historical wording retained below; current reader and notification at audits/2026-10-26_key-file-review/REPORT.md.
+
+
 Stamps come from `date`. $0 moved. No trade, threshold, gate or authority change.
 
 ## 1. COT #11 (as-of 10/20): JOINT NOT-SPENT, fifth consecutive
@@ -15,7 +18,7 @@ Leg A: 127,226 is 8,900 above the deadband top (118,326), so NOT-SPENT. Leg B: 6
 
 ## 2. Price tape and the contract roll
 
-Vendor quotes at 15:19 ET, not settles: Brent January BZF27 $111.84 (+2.93%); WTI December CLZ26 $103.49 (+4.04%); HOZ26 $4.80; RBZ26 $3.13. The BZZ26 symbol errored in BRENT's fetch. WALTER's 18:39Z read was BZZ26 $116.71 (+3.13%). The vendor's continuous `BZ=F` moved to January on 10/23, so its daily change splices two contracts (LESSONS #23). **Fleet basis:** BZZ26 through its last trade on 10/30, then BZF27 from 11/2 (the boundary #8 rule). WALTER was answered by packet.
+Vendor quotes at 15:19 ET, not settles: Brent January BZF27 $111.84 (+2.93%); WTI December CLZ26 $103.49 (+4.04%); HOZ26 $4.80; RBZ26 $3.13. The BZZ26 symbol errored in BRENT's fetch. WALTER's 18:39Z read was BZZ26 $116.71 (+3.13%). The vendor's continuous `BZ=F` moved to January on 10/23, so its daily change splices two contracts (LESSONS #23). **Boundary #8 basis only (scope corrected October 26):** December legs through October 30; January legs from November 2. REGISTRY level/F-a pin switches October 30. WALTER was answered by packet.
 
 Boundary #1 (Brent ≥ $120 for three settles) is about 3% away on an intraday December read. It is a watch, not a fire. FALCON graded the strike-timing tape FAL-07 NOT FIRED (relayed by PROME; BRENT does not re-grade the theater). The White House's written line (10/22) of no attack before the midterms stands.
 

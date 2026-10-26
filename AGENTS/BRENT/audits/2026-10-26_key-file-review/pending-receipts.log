@@ -1,0 +1,3 @@
+  ✅ PENDING-RECEIPTS: no unresolved execution receipts or elapsed explicit expiries.
+     Scope: EXECUTION LOG markers and POSITIONS expiry=YYYY-MM-DD fields only.
+     Broker truth and unrecorded trades remain outside this text check.

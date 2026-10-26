@@ -1,3 +1,7 @@
+## 2026-10-26 — key-file reconciliation; v5.13 retained
+
+Old → new: removed the live-looking “flow basis settled” paragraph from the thesis header in favor of unresolved current volume and explicit source perimeters. Committed FALCON evening maritime/corridor findings and conditional EQT–Range gas integration now appear in the current interpretation. Existing falsifiers, probabilities, phase and capital authority unchanged. TRADE adopts October 20/22 secondary position evidence and October 23 activity/TERRY closed receipts; remaining quantities after sales are derived, not a new capture. COT header now matches its already-existing #11 row, no row append. Own corridor catalyst records FALCON’s public-evidence lapse; separate Brent level/F-a and boundary #8 roll conventions are identified without amendment. STATUS summary/handoff/publication receipt reconciled. [Audit, conservation and limits](../audits/2026-10-26_key-file-review/REPORT.md).
+
 ## 2026-10-26 evening — refreshed tape, no phase/version change
 
 Vendor named December crude lower; official October26 settlements not recovered (CME current bulletin stillOctober23, dated endpoints empty). No new trigger grade from vendor last prices. Four-country statement continuation-of-dialogue and Singapore H22027 storage intent verified; neither supplies current barrels/reopening. USO publication dependency attempted, no authenticated new row. EIA latest retail observation10/19 rechecked at exact series. v5.13/WAIT unchanged. [Evidence](../research/2026-10-26_evening-sweep/REPORT.md).

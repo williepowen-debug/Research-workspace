@@ -1,5 +1,7 @@
 # BRENT — Cloud Routines Registry (off-repo prompt mirror)
 
+> **October 26 decision state:** WQ-510 remains PENDING Will in PROME/WILL_QUEUE.md. Boot-preamble draft is not installed; this key-file review changes documentation only, no saved prompt, cron or live object. Existing live-deployment/acceptance gap below remains open.
+
 > **September9 operator decision: retain the existing Claude routines.** Saved reports remain usable by BRENT in the actual approved runtime; provider/model names do not establish tools. No scheduler migration or routine-model change selected. The timing/publication repair was installed10/2; the10/4 saved-prompt correction remains unverified on the live scheduler.
 > **October14 review:** all four saved prompt SHA256s below reproduce, with no retired local autostash recipe. Current OpenAI Codex callable-tool inventory exposes no routine/RemoteTrigger/browser tool; installed `claude --help` exposes no routine command. Live config/export/update therefore remains UNVERIFIED, not repaired by this document. Historical normal-run targets below are elapsed where dated; October14/15 is the existing holiday pair, not a newly scheduled job. No October12Monday or October14Wednesday output found in the inspected report lane; absence of a saved report does not establish remote-run failure. [Capability/hash receipt](audits/2026-10-14_operational-followups/routine-review.json). Existing exact UI/export handoff below remains the concrete remaining step; no extra run or scheduler migration created.
 

@@ -1,0 +1,24 @@
+
+  SPEC SWEEP — AGENTS/BRENT/thesis/THESIS.md
+  concepts detected: announcement_vs_physical, crack_spread, data_latency, demand_measurement, entry_timing, gate_design, instrument_choice, inventory, opec, price_freshness, tanker_equity, tenor, threshold_spec, vol
+
+  15 LESSON(S) GOVERN THIS SPEC — reconcile each before shipping:
+  --------------------------------------------------------------------------
+  cited  L05 [LIVE] Oil prices are 24/7 — STATUS prices go stale fast, and a vendor DAILY BAR is MUT
+  cited  L06 [LIVE] Crack spreads tell the real story; crude price alone is incomplete
+  cited  L08 [LIVE] Storage data has reporting lag
+  cited  L09 [LIVE] EIA 'product supplied' MISLEADS in weeks 1-4 of a shock (stockpiling mask)
+  cited  L10 [LIVE] OPEC+ paper quotas != physical production
+  cited  L11 [LIVE] Announcement entry precedes physical delivery; approved conditions still govern
+  cited  L15 [SCOPED] Bear put SPREADS not naked puts at high IV; 60-90 DTE / 10-15% OTM / 3:1
+  cited  L16 [LIVE] Equity stocks LEAD physical rates — exit on announcement, not delivery
+  cited  L17 [LIVE] The OPEC+ '5-6M bpd spare' narrative is wrong — pressure-test official figures
+  cited  L18 [AMENDED] Separate signature, paired tanker liveness and physical retention
+  cited  L19 [LIVE] A signed deal is not an operational one; reopening is NOT uniformly tanker-beari
+  cited  L21 [LIVE] A threshold fails on its SPEC before it fails on the world; match each leg's win
+  cited  L22 [AMENDED] A pre-registration must name an instrument that actually TRADES and a THRESHOLD 
+  cited  L23 [AMENDED] A continuous front-month ticker (=F) silently re-points at the contract roll — a
+  cited  L25 [LIVE] A source that HANGS is not a source that is DOWN — a WAF tarpitting your User-Ag
+
+  'NOT CITED' is not automatically wrong — it means the spec never says
+  whether it honours or overrides that lesson. That silence is the failure mode.

@@ -19,7 +19,7 @@ Arithmetic is stable; prices, survey inputs, operating capacities and seasonalit
 
 | Measure | Required source and basis | Current reader / unresolved issue |
 |---|---|---|
-| Hormuz throughput | Named tracker, cargo/vessel perimeter, observation window, coverage and denominator | [Transit baseline](HORMUZ_TRANSIT_BASELINE.md); [owner evidence](../setups/2026-09-08_market-docket-owner-read.md). Retired daily-count thresholds remain retired. |
+| Hormuz throughput | Named tracker, cargo/vessel perimeter, observation window, coverage and denominator | [October 26 source reconciliation](../research/2026-10-26_energy-review/REPORT.md) owns current unresolved-volume interpretation; [transit baseline](HORMUZ_TRANSIT_BASELINE.md) supplies historical denominators, not current barrels. Retired daily-count thresholds remain retired. |
 | Gulf storage/runway | Facility/country stock, usable capacity, net inflow and observation date | March “days left” are historical. No current Gulf runway is established by the old table. |
 | OPEC spare capacity | Issue date, member set, sustainable response horizon, definition and deliverability | [October6 STEO readOctober7](../research/2026-10-07_news-catchup/REPORT.md); source issue/perimeter retained. OPEC-only surplus capacity is not the seven-country OPEC+ counterfactual; no March/October cross-perimeter subtraction. Re-read the governing issue before using a capacity figure. |
 | OPEC quotas | Official decision, effective production month, member commitments and compensation | [CATALYSTS](../docket/CATALYSTS.tsv). A quota change is not a measured supply change. |

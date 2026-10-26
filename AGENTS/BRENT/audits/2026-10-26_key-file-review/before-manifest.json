@@ -1,0 +1,80 @@
+{
+  "STATUS.md": {
+    "bytes": 22902,
+    "sha256": "dd1d33341813ed0ba3846c3e1f70c186e67849c5697b48d393b32615ca423b2c",
+    "crc32": "0e2e9ac3",
+    "payload_rule": "whole file"
+  },
+  "SCRATCH.md": {
+    "bytes": 3602,
+    "sha256": "60b03bd4f05123e8dd1107f3807490376ea3245cc76721f0040e6b117a1ca15d",
+    "crc32": "e572207a",
+    "payload_rule": "whole file"
+  },
+  "TRADE.md": {
+    "bytes": 22604,
+    "sha256": "fd0cecd5c8a5e9cf782f25197c11902e3342318116ef7331f181bc865caa9e39",
+    "crc32": "1e74c69f",
+    "payload_rule": "whole file"
+  },
+  "thesis/THESIS.md": {
+    "bytes": 27869,
+    "sha256": "209d9e172ef5aa833fdf262fe0e6fb45893e4dd5b30abffe4be3ab0ccaefbef3",
+    "crc32": "ccca1132",
+    "payload_rule": "whole file"
+  },
+  "thesis/CHANGELOG.md": {
+    "bytes": 182222,
+    "sha256": "1dc89443871e7e06d74930465c85f3b1b2a35f25cd5f139abc6461022a95f14b",
+    "crc32": "7082636f",
+    "payload_rule": "whole file"
+  },
+  "NEXUS_BRIEF.md": {
+    "bytes": 23876,
+    "sha256": "de91c22aaa7db74ab7c4fd5e4c2256043d3c356ef75669696574b41a1c211407",
+    "crc32": "dc6d044d",
+    "payload_rule": "whole file"
+  },
+  "demand_destruction/TRACKER.md": {
+    "bytes": 41198,
+    "sha256": "29a8860e7118ad34e7fc2e66569bfc5afad2c9d9fde52454fbc0d557711b549d",
+    "crc32": "0e0fc5f1",
+    "payload_rule": "whole file"
+  },
+  "workbook/COT_VINTAGES.tsv": {
+    "bytes": 2033,
+    "sha256": "8b38bbd933a422637b9fd97314bc96dd4ef9e4ed992005b145e5883d2c3a4cfc",
+    "crc32": "a7d37ede",
+    "payload_rule": "whole file"
+  },
+  "docket/CATALYSTS.tsv": {
+    "bytes": 48343,
+    "sha256": "100ca34c96b67044a783d749a5fd8e46c0dda10a3ec21275d9685c9b52ef915d",
+    "crc32": "242ece7c",
+    "payload_rule": "whole file"
+  },
+  "SCHEDULED_RUNS.md": {
+    "bytes": 13989,
+    "sha256": "16b1c35b90f985aa02f7e3fd95f7b01378938b4fc2a1fe3a7a50ce932efb7150",
+    "crc32": "cb4ce71f",
+    "payload_rule": "whole file"
+  },
+  "domain/REFERENCE_TABLES.md": {
+    "bytes": 6445,
+    "sha256": "da528c1e9c4c6a5b8231e7a8899a346972a2ebb9c3efc883a32f38ecc9727b99",
+    "crc32": "3aaeba07",
+    "payload_rule": "whole file"
+  },
+  "board_log.tsv": {
+    "bytes": 458049,
+    "sha256": "f9a147e771238950124147b38663dbbfce92a4624051fdeb412af386263c3eaa",
+    "crc32": "3fc75d85",
+    "payload_rule": "whole file"
+  },
+  "research/2026-10-23_inbox-catchup/REPORT.md": {
+    "bytes": 8920,
+    "sha256": "e961842af736775556050643104ef2985164f82719f6e8bd265a9e2802ac86ba",
+    "crc32": "c764f2bd",
+    "payload_rule": "whole file"
+  }
+}
