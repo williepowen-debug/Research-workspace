@@ -3,7 +3,7 @@
 ## CHANGES SINCE LAST SESSION
 - Vendor named December crude lower near17:00; refiners/EOG/Cheniere regular-session gains versus lower USO. Latest quote clocks retained; no official-settlement claim.
 - Four-country statement says continue dialogue, no executed peace/shipping agreement. Singapore storage intent is H22027, not current barrels; newly verified in this sweep, not necessarily newly announced after afternoon review.
-- No new independently established Saudi pipeline/production/export loss. FALCON13:37 remains latest owner continuation; IMO list last updated10/22 cannot clear later claims.
+- No new independently established Saudi pipeline/production/export loss. FALCON 17:45 findings consumed: UKMTO 182 relays October 23 tanker disablement; 183 is a third-party October 26 Al-Faw fire, cause/type/cargo unknown, originals unavailable. Cape Dao sinking resolved as existing BULKER casualty, no new tanker loss. Oman primary describes temporary outline with implementation obstacles, no verified permanent corridor. Commercial-access risk persists; no measured Saudi or aggregate oil-volume loss inferred.
 
 ## WHAT I DID THIS SESSION
 - Reran boot17:28 (rc2, six FINDINGS; no broken script), primary CME/ICE checks, vendor tape, EIA exact retail series, bounded news/source sweep.

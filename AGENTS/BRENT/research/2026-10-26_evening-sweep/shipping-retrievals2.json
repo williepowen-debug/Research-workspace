@@ -1,0 +1,20 @@
+[
+  {
+    "key": "navarea403",
+    "url": "https://hydrography.paknavy.gov.pk/wp-content/plugins/navarea-warnings/custom_uploaded_warnings_for_navarea/20261024SEC 403.txt",
+    "status": 200,
+    "bytes": 322
+  },
+  {
+    "key": "navarea404",
+    "url": "https://hydrography.paknavy.gov.pk/wp-content/plugins/navarea-warnings/custom_uploaded_warnings_for_navarea/20261024SEC 404.txt",
+    "status": 200,
+    "bytes": 291
+  },
+  {
+    "key": "ukmto183-retry",
+    "url": "https://www.ukmto.org/-/media/ukmto/products/20261026-uktmo_warning-183-26.pdf",
+    "status": 403,
+    "bytes": 4546
+  }
+]
