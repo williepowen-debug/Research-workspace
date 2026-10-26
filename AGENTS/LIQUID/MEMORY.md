@@ -2,7 +2,14 @@
 
 ## Session Notes
 
-### CURRENT SESSION — CLOSED 2026-10-25T16:49:26-04:00 (Will-requested final closeout; WQ524 replacement window)
+### CURRENT SESSION — STARTUP 2026-10-26T13:27:14-04:00 (Will direct)
+
+- OpenAI/Codex; exact model/session ID UNKNOWN. Required root/local reads and runtime selection complete. Boot evidence: `research/2026-10-26_boot/REPORT.md`.
+- 30 series/0 fetch errors; October23 HY338, CCC1356; >320 first-published run8. BB narrowed while CCC widened. SOFR99−IORB+10bp;079 not armed. All five gates, X1 closure and coverage limits retained.
+- 13 WALTER handoffs integrated; general inbox untouched. Brazil shock not tested by pre-event SOFR; Meta primary terms not independently recovered. XCCC page access restored; aggregate sector reclassification remains missing.
+- Pull deferred for foreign WALTER untracked caches. This is startup checkpoint; no full desk closeout or recipient consumption claimed. Resume STATUS§3, not a new case.
+
+### PRIOR SESSION — CLOSED 2026-10-25T16:49:26-04:00 (Will-requested final closeout; WQ524 replacement window)
 
 - Completed one historical case: `research/2026-10-25_WQ524-first-brands/REPORT.md`. First Brands receivables → LAM TFG I SPV LLC → Western Alliance Bank; $42.125M missed receipt and $126.4M Q1 remaining-loan charge-off. Executed forbearance/litigation, no fresh $126.4M cash payout.
 - Jefferies' non-recourse/guarantee-refusal account is disputed counterparty evidence, not adjudicated protection. Prior repayments already embedded; current collateral recovery/final economic loss unknown. Earnings offsets are not recoveries.

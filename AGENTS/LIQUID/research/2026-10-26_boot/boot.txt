@@ -1,0 +1,57 @@
+
+####################################################################
+#               LIQUID BOOT — 3-dashboard live sweep               #
+#                 Monday, October 26, 2026  13:24                  #
+####################################################################
+
+  Dashboard 1 — Credit Spreads
+    🔴 HY OAS       338bps               HY >320 — CONFIRMATION rung MET-WITNESS (WQ-444: 3 consecutive >320.0; witness on FRED rows, STATUS first-published count governs); X1 level leg also tagged: X1 half ONLY, never 'X1 MET' (conjunctive with BROCK's wrapper-leads half; live state → KILL_MEMO header + §D; RED-FT-01 ≥280 is RED's count)  (obs 2026-10-23)
+    🔴 CCC OAS      1356bps              CCC tail >1000 trip  (obs 2026-10-23)
+    🟢 CCC-BB gap   1150bps              pin INTACT — quality bifurcation wide (KB-LIQ-058)  [both 2026-10-23]  (obs 2026-10-23)
+    🟠 APO          $115.60 (+2.46%)     BROKE <$130 — alts-crack DEEPENING (PC→public transmission); recovery co-trigger moot, NOT all-clear  (obs 2026-10-26)
+
+  Dashboard 2 — Domestic Plumbing
+    🟠 SOFR-IORB    +2bps                ABOVE ceiling (>0) — re-open KB-LIQ-051 (verify non-mechanical, 3+ sessions)  [date-matched: SOFR 3.92 − IORB 3.90, both 2026-10-23]  (obs 2026-10-23)
+    🟠 10Y (DGS10)  4.96%                ABOVE 4.50 pivot  (obs 2026-10-22)
+    🟠 30Y (DGS30)  5.29%                ABOVE 5.00 — duration regime re-establishing (need ≥5 closes)  (obs 2026-10-22)
+    🔴 076 W3 MOVE/VIX 104.36 / 18.29       MET (MOVE>85 while VIX<20) · yfinance WITNESS — VIOLET's figure governs  (obs 2026-10-26)
+    🔴 076 W2 NY Fed PD G10 -10,307 · G5L10 -1,717 $mm MET — G5L10 -1,462 then -1,717 < -800 x2 · IG CORPORATE buckets PDPOSCSBND-G10/-G5L10 (SBN2024); as-of WEDNESDAY, ~8d lag  (obs 2026-10-14)
+    🔴 GATE-LIQ-076 MET                  window 2026-10-13→2026-10-26 · W1 met — · W3 met 2026-10-13, 2026-10-14, 2026-10-15, 2026-10-19, 2026-10-20, 2026-10-21, 2026-10-26 · W2 met 2026-10-14 · W3 EDGE (ungraded) 2026-10-16, 2026-10-22, 2026-10-23. MET ⇒ WRITE-UP (PROME + NEXUS/HENRY via WALTER), NEVER a position. Window read, not a latch: a 2nd write-up needs 10 business days with no leg met (letter 9/29)  (obs 2026-10-26)
+
+  Dashboard 3 — Foreign Official
+    🟢 USD/JPY      157.42 (+0.38%)      below 160  (obs 2026-10-26)
+
+  Catalyst Countdown (workbook/CATALYSTS.tsv, 60d horizon)
+    🟠  2026-10-28 Wed    2d cal /  2d trd  October FOMC decision + UK Budget  ⏰ IMMINENT
+    🟠  2026-10-30 Fri    4d cal /  4d trd  GATE-LIQ-069 review — October30 SET BY PROME Octob  ⏰ IMMINENT
+    🟠  2026-10-30 Fri    4d cal /  4d trd  GATE-LIQ-076 existing review — dealer-positioning   ⏰ IMMINENT
+    🟡  2026-10-30 Fri    4d cal /  4d trd  LIQ-04 source coverage reconciliation — monthly BS  ⏰ IMMINENT
+    🟡  2026-10-30 Fri    4d cal /  4d trd  OCIC Q3 final SC TO-I/A (BROCK GATE-BRK-R2 read)  ⏰ IMMINENT
+    🟡  2026-10-30 Fri    4d cal /  4d trd  ✅ PRICING READ 2026-10-19 — Volta loan SOLD; WQ441  ⏰ IMMINENT
+    🟠  2026-10-31 Sat    5d cal /  4d trd  GATE-LIQ-079 existing review — FIRE-leg bands/base  ⏰ IMMINENT
+    🟠  2026-11-01 Sun    6d cal /  4d trd  Car-Mart temporary relief through November1 — cont  ⏰ IMMINENT
+    🟠  2026-11-04 Wed    9d cal /  7d trd  Treasury long-end buyback program ENDS (refunding 
+    🟠  2026-11-06 Fri   11d cal /  9d trd  ✅ RESOLVED S2 2026-10-16 — LIQ-07 window closes
+    🟠  2026-11-10 Tue   15d cal / 11d trd  ✅ RESOLVED S2 2026-10-16 — LIQ-07 Resolve_By
+    🟡  2026-11-11 Wed   16d cal / 12d trd  MSCI non-operating-company rule — final constituen
+    🟠  2026-11-13 Fri   18d cal / 14d trd  Q3 BDC 10-Q window (FSK/OBDC/broader marks) — Q3 c
+
+  Predictions Due-Scan (workbook/PREDICTIONS.tsv)
+    🟡 LIQ-04: due 2026-12-31 (66d) — US BSL new-issue CLO AAA monthly average exceeds SOF
+
+  Unattended Watcher (AGENTS/LIQUID/alerts/HY_OAS_STATE)
+    🔴 HY OAS last red 338bps (obs 2026-10-23, checked 2026-10-26 13:00 )  ⚠️ ELEVATED — check alerts/HY_OAS_ALERTS.log
+
+  ==================================================================
+  BOOT SUMMARY   🔴 5   🟠 4   🟡 0   ⏰ 8 imminent   📋 0 overdue-pred   (30 series, 0 fetch errors, 19.2s)
+  Headline: HY OAS 338bps — HY >320 — CONFIRMATION rung MET-WITNESS (WQ-444: 3 consecutive >320.0; witness on FRED rows, STATUS first-published count governs); X1 level leg also tagged: X1 half ONLY, never 'X1 MET' (conjunctive with BROCK's wrapper-leads half; live state → KILL_MEMO header + §D; RED-FT-01 ≥280 is RED's count)
+    🔴 HY OAS: HY >320 — CONFIRMATION rung MET-WITNESS (WQ-444: 3 consecutive >320.0; witness on FRED rows, STATUS first-published count governs); X1 level leg also tagged: X1 half ONLY, never 'X1 MET' (conjunctive with BROCK's wrapper-leads half; live state → KILL_MEMO header + §D; RED-FT-01 ≥280 is RED's count)
+    🔴 CCC OAS: CCC tail >1000 trip
+    🔴 076 W3 MOVE/VIX: MET (MOVE>85 while VIX<20) · yfinance WITNESS — VIOLET's figure governs
+    🔴 076 W2 NY Fed PD: MET — G5L10 -1,462 then -1,717 < -800 x2 · IG CORPORATE buckets PDPOSCSBND-G10/-G5L10 (SBN2024); as-of WEDNESDAY, ~8d lag
+    🔴 GATE-LIQ-076: window 2026-10-13→2026-10-26 · W1 met — · W3 met 2026-10-13, 2026-10-14, 2026-10-15, 2026-10-19, 2026-10-20, 2026-10-21, 2026-10-26 · W2 met 2026-10-14 · W3 EDGE (ungraded) 2026-10-16, 2026-10-22, 2026-10-23. MET ⇒ WRITE-UP (PROME + NEXUS/HENRY via WALTER), NEVER a position. Window read, not a latch: a 2nd write-up needs 10 business days with no leg met (letter 9/29)
+
+  ⚠️  Basis: FRED prints lag T+1 (latest may be 1-2 sessions back, more on a weekend);
+      yfinance = last close; Brent BZ=F ≠ ICE settle; USD/JPY ≠ 5pm-ET NY close.
+      Declare the basis when citing any figure downstream.
+
