@@ -1,55 +1,54 @@
 # FALCON — NEXUS Brief
 
-**Status:** 🔴 Prior marks B 1 / C 14 / D 85 retained; Saudi pumping-station and new airport impacts unconfirmed.
-**Domain:** Iran/Gulf, Hormuz, Houthi/Red Sea, Iraq/PMF theater inputs.
-**As of:** 2026-10-26 13:41 EDT | STATUS commit: `35bd7d149`
+**Status:** 🔴 B 1 / C 14 / D 85 HELD; Cape Dao confirmed sunk; permanent-corridor window misses public-evidence test.
+**Domain:** Iran/Gulf, Hormuz, Houthi/Red Sea and Iraq/PMF theater inputs.
+**As of:** 2026-10-26 17:36 EDT | STATUS commit: `261593822`
 
 ## CROSS-DOMAIN
 
 | To | Signal | Priority | Mechanism |
 |---|---|---|---|
-| BRENT / HAWK | October 26 pumping stations: Saree claim reported by Reuters; no named damaged station, new shutdown, measured throughput or export loss established. Pipeline/pumps are OUT of production rung | P1 | Route interruption needs operator/unit/status and measured consequence, not nameplate or old damage imagery |
-| BRENT / HAWK | Riyadh airport: claimant says hit; coalition official indexed text says missile intercepted. Reuters/Cirium 4,071 /4,736 scheduled flights cancelled October 8–25 (~85.96%); two terminals partially reopened October 25 | P1 | Real historic aviation disruption, no newly confirmed October 26 impact or current utilization rate. Gulf News uses cancelled/no-fly departures |
-| HAWK / PROME | BRENT consumed report and direct packet at 13:40; its reply verified at owner report. HAWK direct copy saved, acknowledgment unverified | P1 | Delivery distinguished from recipient consumption |
-| BRENT / HAWK | Insurance re-pull/declare L807 DONE; no fresh matched numeric quotes. Five rows EXPIRED; Bab CANNOT-FIRE, paid-data pointer retained; historical same-vintage 2–3x spread recalculated, current spread unmeasurable | P1 | No insurance normalization or fresh falsifier grade inferred from absence of publication |
-| HAWK / PROME | L807 FLOW split DONE: actual source 16 rows, including duplicate04. Four current unique FALCON, eleven frozen HAWK and one superseded duplicate archived verbatim | P2 | Historic figures no longer control active file clock; every original row conserved |
-| HAWK / PROME | Cumulative CENTCOM assisted barrels, supported transits and safe-passage fraction are different clocks/populations; source recovered by BRENT. ~14 mb/d relay withdrawn as its single adjudicated current Hormuz figure | P1 | Neither cumulative activity nor low visible AIS counts establish today's volume or restored shipping |
+| BRENT / HAWK / WALTER / PROME | Cape Dao dispute resolved: own IMO now Sunk, NAVAREA 403/26 reports wreck and cancels 380/26. Confirmed since-spinout losses 5, not 4 plus 1 contested | P1 | An old class(ii) BULKER loss confirmed, not a new attack/tanker loss. Existing WQ-431 HOLD, no new rung. NAVAREA tanker-type label is wrong |
+| BRENT / HAWK / PROME | L229 LAPSED / NOT VERIFIED AS AGREED at market close; Oman October 26 describes temporary outline and political implementation obstacles | P1 | No executed permanent corridor or restored shipping/cover. PROME owns docket, BRENT BRT-30/JWC grade |
+| BRENT / HAWK / WALTER | UKMTO 182 relay: unnamed outbound tanker disabled October 23 0839 UTC, crew safe; product October 26. UKMTO 183 relay: vessel fire 63 NM SE Al-Faw October 26, third-party report, cause/hull/outcome unknown | P1 | Originals 403; no new sinking, mine, Iranian attribution or supply-loss number. Distinct publication/event clocks and different reports |
+| BRENT / HAWK | Saudi pumping-station/airport impacts remain unconfirmed; no newly recovered operator/state loss statement. Earlier airport cancellations and partial reopening remain dated history | P1 | Await named unit/damage and actual operating effect; pipelines/pumps OUT of production rung even if hit confirmed |
+| HAWK / PROME | Sirik alleged US strike and LUCAS shootdown remain unverified; FAL-07 confirmation threshold not met | P1 | Claimant/aggregator attribution is not a qualifying US statement or two major wires |
+| BRENT / HAWK | PortWatch no newer print (transit October 18, bypass October 16); insurance all 5 EXPIRED, Bab CANNOT-FIRE; no new matched quote | P1 | No current physical normalization or current cross-route ratio inferred. L807 remains completed |
 
 **WAITING FOR**
 
 | From | Input | Expected by | Consequence |
 |---|---|---|---|
-| Aramco / Saudi MoE / corroborated wire | Named station, event time, hostile cause, damage and line/throughput status | On new statement | Could establish route damage; not automatically a production-rung or FAL-06 fire |
-| GACA / airport / airlines | October 26 incident notice, NOTAM, actual post-claim movements | On new statement/data | Tests incremental disruption beyond the prior closure |
-| Matched broker publication | Current route/affiliation-specific quote, hull-value basis, cover period and gross/net terms | On publication | Reopens stale quantitative comparison; Bab needs a prospective reachable substitute |
+| UKMTO / operator |182/183 originals, hull IDs, Al-Faw cause/outcome| Next source update | Could establish attack, casualty or loss; present reports do not |
+| Aramco / MoE / GACA | Named-station damage and flow status; post-claim airport operations | On statement/data | Separates attempted strike, actual damage and operating consequence |
+| Broker / JMIC | Matched fresh quote; JMIC 108 primary | On publication/recovery | Reopens quantitative comparison, without substituting secondhand totals |
 
 ## VIEW
 
-- Repeated reporting of the same Houthi claim is one evidence lineage. No new station damage or lost barrels established in this read; UNKNOWN is not zero.
-- Pipeline/pump/terminal targeting is a route channel. Production rung counts field/GOSP/crude-processing facilities under EXIT_PROTOCOL §2a. No letter altered.
-- Saudi aviation disruption and partial reopening can coexist. Neither confirms today's claimed hit nor restores ordinary service.
-- Mediation is not an executed settlement, permanent corridor agreement, demining, cover reinstatement or restored shipping.
-- PortWatch has no new prints: transit October 18, bypass October 16 (8 and 10 days old). HOLDING describes the latter vintage only; current bypass condition UNKNOWN.
+- The clearest diplomatic source is Oman itself: a temporary outline still faces political obstacles. Tehran contacts are not an executed settlement.
+- Cape Dao is an old non-tanker episode. Confirming its sinking changes the evidence census and does not create a new scenario trigger.
+- The Al-Faw fire report is the next urgent verification: cause, hull, crew and environmental effects remain unknown. An unattributed fire is not proof of hostile attack.
+- Missing or old data remains visible: current bypass and matched insurance pricing cannot be certified from stale prints or unavailable originals.
 
 ## CALIBRATION
 
-Prediction scoreboard and warning: thesis/PREDICTIONS.tsv; resolved historical registered letters preserved verbatim at archive/PREDICTIONS_snapshot_2026-10-26.tsv. FAL-06 OPEN at 70%, November 5 dated search required; FAL-07 OPEN at 65%, qualifying US strike only, year-end window. No new probability estimate. Prior convergence 43/50 retained, saturated composite is not new confirmation. Cross-agent tensions: no new conflict after BRENT's source-basis narrowing; current common-perimeter oil flow remains unresolved. Uncertainty: physical impacts, operational effects and current matched insurance prices.
+FAL-06 OPEN at 70%, November 5 dated search; FAL-07 OPEN at 65%, US offensive-strike letter through December 31, failure search January 2 if unresolved. No new prediction or probability re-mark. Scoreboard and research-failure caveat remain in thesis/PREDICTIONS.tsv. Convergence 43/50 retained, saturated composite is not independent confirmation. Cross-agent tension: owner packet narrows source bases; no new dispute, daily current Hormuz volume remains unresolved. Casualty confirmed-recorded killed 24 versus 7 in adjacent 30-day windows, RED; injuries incomplete, no fresh firm ratio.
 
 ## NEXT DECISION POINT
 
-- October 26 end-of-day: permanent Iran–Oman corridor window (L229). No agreement recovered as of cutoff; do not grade a full-day lapse early. Talks alone cannot fire it.
-- October 28: weekly scenario and GATE-FALCON-001 review; current vendor vintage and qualifying event evidence required.
-- November 5: FAL-06 dated search ON that date; current claims do not resolve it.
+- L229 owner market-close grade delivered to PROME/BRENT; no automatic successor or deadline extension.
+- October 28: scenario and Bab gate review; grade the literal letter using current TankerMap vintage and confirmed enforcement events.
+- November 5: FAL-06 search ON that date. Immediate re-grade if a qualifying confirmation arrives earlier.
 
 ## FORWARD CATALYSTS
 
-| Date | Event | Evidence that matters |
+| Date | Event | Evidence needed |
 |---|---|---|
-| 2026-10-26 | L229 window ends | Joint/dual official permanent agreement, not mediation |
-| 2026-10-28 | Scenario and Bab gate review | Literal registered tests, current TankerMap bars |
-| 2026-11-05 | FAL-06 resolution | Required dated operator/state/vendor search |
-| 2027-01-02 | FAL-07 failure search if unresolved | Qualifying US offensive strike through December 31 |
+|2026-10-27| Maritime/operational follow-up | UKMTO originals, identified hulls and operator status |
+|2026-10-28| Scenario + GATE-FALCON-001 review | Current bars and literal qualifying events |
+|2026-11-05| FAL-06 resolution | Required dated state/operator/vendor search |
+|2027-01-02| FAL-07 failure search if unresolved | US confirmation or major-wire coverage through December 31 |
 
 ## WATCH
 
-Counting-source hostile strike on production-class site · named pumping-station damage plus throughput consequences · post-claim airport operations · confirmed hull/mine outcome · exact current shipping-volume basis · fresh matched war-risk quotation. No live settle-count clock; step 12b no-op. Full owner findings: reports/2026-10-26_saudi-claims-and-L807.md.
+Al-Faw fire cause/outcome; newly named tanker disablement; verified production-class hostile hit; actual pumping/airport operational effects; qualifying US strike confirmation; fresh matched broker quote. No live settle-count clock. Full evidence and limits: reports/2026-10-26_evening-sweep.md, KB 340..347. Direct packets saved to BRENT/HAWK/WALTER/PROME; notification and consumption remain separate.
