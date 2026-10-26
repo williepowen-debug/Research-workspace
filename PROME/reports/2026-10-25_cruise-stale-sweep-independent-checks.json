@@ -1,0 +1,29 @@
+{
+  "protected_files_byte_identical": [
+    "WATCHLIST_RCL_Q3.md",
+    "WATCHLIST_NCLH_Q3.md",
+    "domain/2026-09-19_DRAFT_FL-CRU-10_identifying_test.md",
+    "workbook/PREDICTIONS.tsv",
+    "workbook/FLOW.tsv"
+  ],
+  "bands_and_only_VX04_state_change_verified": true,
+  "convergence_sum": 15,
+  "original195_KB_evidence_fields_preserved": true,
+  "four_ledger_shapes_valid": true,
+  "source_archive_hashes_verified": 27,
+  "raw_price_arithmetic_verified": {
+    "CCL": 26.110000610351562,
+    "RCL": 276.4800109863281,
+    "NCLH": 15.100000381469727
+  },
+  "commit_on_origin_master": true,
+  "owner_dirty_at_review": "",
+  "cancellation_source_review": {
+    "url": "https://cruiseindustrynews.com/cruise-news/2026/08/norwegian-sky-farewell-cruise-cancelled/",
+    "result": "Independently read August5 report quoting NCL guest statement: September9 Piraeus itinerary via Suez/RedSea cancelled for security. Fits preexisting one-announced-itinerary trigger; one voyage counted once. B2 attribution, exact send date/original letter and whole-basket coverage remain unverified. No fresh October event or broad demand conclusion."
+  },
+  "remaining_repair": [
+    "VX04 Source path incorrectly contains stale_sweep_phase 2 rather than stale_sweep_phase2",
+    "STATUS Consumer/Gulf context row retains zero Big-3 cancellations without explicit correction to the recovered historical event"
+  ]
+}
