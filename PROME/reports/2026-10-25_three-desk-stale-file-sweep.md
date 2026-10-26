@@ -33,3 +33,5 @@ Repair accepted A items from existing canon; run only accepted bounded B source 
 ## Coordination status
 
 Prepared for Phase 1 dispatch. Reports and corrective dispositions will be recorded here; dispatch is not completion.
+
+Phase 1 dispatched at committed brief `2e9d30946` to the original OTTO `01a175a8-1ce1-76c1-bcf7-e404b7c17e1f`, CRUISE `01a175a8-45aa-7d91-bd2d-e54349a416dd` and MARCO `01a175a8-62c5-74a3-a010-0fb3d619f279` windows. Direct reads confirmed their availability; all three sends returned matching IDs and are registered as `4-STALE-FILE-AUDIT`. No new owner was launched. Audit reports and Phase 2 dispositions remain pending.
