@@ -1,0 +1,50 @@
+[
+  {
+    "name": "pge-slides",
+    "url": "https://www.sec.gov/Archives/edgar/data/1004980/000100498026000056/q326earningspresentation.htm",
+    "read_at": "2026-10-26T18:20:38.047980+00:00",
+    "status": 200,
+    "sha256": "025c5b23c2fea265b0efd47c986bdeddffca28ab789c332f4fdc3125e36f1fbf",
+    "bytes": 72854
+  },
+  {
+    "name": "micron-slides",
+    "url": "https://s25.q4cdn.com/621799436/files/doc_downloads/2026/10/MU-TP-Webinar.pdf",
+    "read_at": "2026-10-26T18:20:38.180969+00:00",
+    "status": 200,
+    "sha256": "00808627216e27375a163a3beff5393aea826c3722004a1a6948e88c07180f94",
+    "bytes": 1807649
+  },
+  {
+    "name": "bloom-nebius-relay",
+    "url": "https://finance.yahoo.com/energy/articles/bloom-energy-says-first-power-150207042.html",
+    "read_at": "2026-10-26T18:20:38.739713+00:00",
+    "status": 200,
+    "sha256": "b94c8ee061bcd6d3f8df8ad6b0ffc4b9cfa8865ff26e259ced068885cbd32a65",
+    "bytes": 828570
+  },
+  {
+    "name": "nerc-registration-relay",
+    "url": "https://www.publicpower.org/periodical/article/nerc-seeks-ferc-approval-add-two-new-entities-registry-criteria-tied-large-computation-loads",
+    "read_at": "2026-10-26T18:20:40.677105+00:00",
+    "status": 200,
+    "sha256": "c56015e9611c6bc1b7ddfc04e207e1a9a65945c3204295f9857a4ddb77762ace",
+    "bytes": 101254
+  },
+  {
+    "name": "nebius-site",
+    "url": "https://nebius.com/vinelandnj",
+    "read_at": "2026-10-26T18:20:40.922430+00:00",
+    "status": 200,
+    "sha256": "bae359a19132555bab584ea6902777b0971a2813310de320c95064c17f25572c",
+    "bytes": 261257
+  },
+  {
+    "name": "china-nand-reuters",
+    "url": "https://www.aol.co.uk/articles/exclusive-samsung-sk-hynix-upgrading-044936000.html",
+    "read_at": "2026-10-26T18:20:42.213047+00:00",
+    "status": 200,
+    "sha256": "04471ea3040501b0683fba172028767551d347d5076571bb008a1f70ec8415cc",
+    "bytes": 590087
+  }
+]

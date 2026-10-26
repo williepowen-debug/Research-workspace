@@ -1,34 +1,33 @@
 # VULCAN — NEXUS Brief
 
-**Status:** S1 3 / S2 2 / S3 3 / S4 3 / S5 4 = **15/25**, unchanged. One fired channel, S5, two events: Firmus withdrawal and Volta under Will's B choice; WQ-464 retains score4.
-**Domain:** AI-capex / semiconductor / memory systemic transmission; shared AI-demand root counted once.
-**As of:** 2026-10-26T13:47:46-04:00 | **STATUS commit:** 859f120d9
-**Variant:** FULL. Will-directed October26 financing pass, KB-295..299; reports/2026-10-26_financing/REPORT.md. Originals/hashes/scoped reads retained. No market-price refresh. Native Codex list/read verified; discovery truncated, BROCK/WATT presence UNKNOWN. Native doorbells accepted for PROME/LIQUID/WALTER after commit594ff5c39; consumption unverified. BROCK/WATT/HENRY/VIOLET file delivery awaits verified recipient transport. Push pending missing GitHub credentials.
+**Status:** S1 3 / S2 2 / S3 3 / S4 3 / S5 4 = **15/25**, unchanged. One fired channel, S5; two events (Firmus and Volta under Will's B choice). WQ-464 retains 4.
+**Domain:** AI-capex / semiconductor / memory systemic transmission; shared demand root counted once.
+**As of:** 2026-10-26T14:30:02-04:00 | **STATUS commit:** 7aad4bb53
+**Variant:** FULL. One-off Will-requested missed-news sweep, KB-300..307; reports/2026-10-26_news-sweep/REPORT.md. Original sources/capture hashes retained. No live-price or off-cadence sample. Cross-runtime discovery incomplete; file delivery/notification/consumption distinct. Prior Git push blocked by missing HTTPS credentials.
 
 ## CROSS-DOMAIN
 
-| Desk | Material consequence and retained caveat | Source |
+| Desk | Material finding and limit | Source |
 |---|---|---|
-| BROCK | Meta $35B preliminary offerings/$60B ATM unagreed; SpaceX ~$40B conditional principal, rate unset; Anthropic IPO unpriced. Asked final terms, recourse/guarantees/residual risk, retention and drawable-versus-drawn distinction in existing work. Neither an arranger role nor manager name identifies bank/insurer loss exposure. | KB-295..297; BROCK packet |
-| WATT | SpaceX closing expected before year-end2026; delivery/lease commencement H1 2027. No actual delivered units, firm grid rights, site MW, energized load or utilization established. Meta guide held $135–145B. Asked already-sourced consequences, no dollars-to-GW model. | KB-296/299; WATT packet |
-| LIQUID | Funding-access counterevidence, not new cleared spread or VULCAN event; pricing still matters. SpaceX binding commitment stronger than interest, weaker than close/disbursement. Existing spread read owns any market implication; no new collector. | KB-296/299; LIQUID packet |
-| HENRY | Meta nine-month OCF $97B is not comparable to full-year capex $135–145B for a cash-gap subtraction. Anthropic H1 OCF +$3.929B and net financing +$110.774B; June cash/equivalents+short-term investments $131.651B. Historical receipts, not IPO cash/current runway; working-capital timing matters. | KB-295/298; HENRY packet |
-| VIOLET | NVDA/AMD/AVGO interest up to $5B in Meta common offering is nonbinding and not additional to $22.5B. Possible supplier/customer equity correlation, not a funded circular contract or new guarantee; no price/volatility-reaction claim. | KB-295/299; VIOLET packet |
-| WALTER | Originals now retrieved directly for all three. Anthropic source access/status gap narrowed, full current cash/commitment reconciliation gap retained. This updates the three existing signals, not three new events. | KB-295..298; WALTER packet |
-| HAWK / ZHAO | Prior helium endpoint unchanged: Polar allocation, not lost output; current buffer UNMEASURED. Existing policy re-check October27. | KB-287 |
-| CARL / HENRY / TERRY | Existing memory print test and TERRY PASS retained. No new contract-price or demand-cut evidence from this financing pass; no card/trade. | KB-282/285/288 |
+| WALTER | Discovery/dedupe packet: three primary material omissions plus qualified supply/power and proposed-regulatory findings. Prior Meta/SpaceX/Anthropic work not recounted; March AWS events rejected as fresh October news. | Report; WALTER packet |
+| BROCK / LIQUID | Nebius entered $3.5B Citi senior-secured facility October 22; 364-day maturity, initial SOFR+275bp, contractual increase up to 350bp plus adjustments. Draws not disclosed. Funding-access counterevidence with refinancing risk; step-up is not launch flex or CRWV comparable. | KB-300; bounded owner packets |
+| WATT | PG&E September pipeline 12,870 MW and separate 174 MW online since 2024; deferrals beyond initial 1.8 GW. No named contracted firm-capacity removal. Qualified Bloom first-power block is not commissioned compute/full-campus MW; NERC registry petition not approval. | KB-301/303/306; WATT packet |
+| HENRY / CARL | Micron original October 21 slide16 rejects 4F² for complexity/cost; extending 6F²/3D roadmap, directional with no dates. This counters automatic cheap-bit inference from CXMT; does not prove rival failure or a memory-demand cut. Existing October 28–29 test unchanged. | KB-302; WALTER route |
+| ZHAO / HAWK | China NAND process upgrades reported with issuer comments to Reuters; full licenses/output unresolved. TSMC rare-earth substitutions reported, no measured lost output. Tech relay extension claim lacks instrument; November 10 clocks unchanged. Treasury October 26 outbound rule proposed. | KB-304/305/307; ZHAO packet |
+| VIOLET | No new capex cut, useful-life event, concentration sample or repricing claim. Payer/borrower and delivery risks remain mixed. No new threshold or volatility assertion. | KB-300..307 |
+| TERRY | Prior PASS retained; no new trade idea/card requested by this sweep. | KB-288 |
 
 ## VIEW
 
-The strongest change is evidence that capital access is adapting rather than proved shut. Meta brings external equity explicitly into payer-tier funding; SpaceX has institutional willingness to commit to future equipment; Anthropic's historical positive OCF and financing receipts counter a cash-collapse narrative. That supports buildout while leaving dilution, pricing, conditions, risk allocation and delivery timing consequential. No current hardware/power quantity follows from a financing headline. No extra S5 qualifying event; the shared buildout root remains one.
+Omissions changed evidence balance, not scores. Capital can still be arranged and on-site generation can adapt; these challenge a blanket shutdown thesis. PG&E's staged requests and capital deferrals show why planned capacity must not become operating demand. Micron's technology choice cautions against turning a rival's smaller cell into an automatic supply glut. Reported equipment-input dependence adds S4 risk but no observed fab cutoff. All shared AI-buildout effects remain one root.
 
 ## CALIBRATION
 
-17 predictions registered,12 resolved,five OPEN; none due. No grades changed. Meta Oct21 RAISE/REWARDED after-hours observation remains the first cluster leg; October26 financing does not regrade that reaction. EDGAR collection fresh but GOOGL/META 10-Q backtests FAIL, windows UNGRADEABLE; thin annual histories likewise ungradeable. No bounds widened. Full original retrieval is not a full-document financial reconciliation.
+17 predictions registered, 12 resolved, five OPEN; none due at last boot. No grade or trigger changed. S5 remains 4 with two events. Date-model failures at GOOGL/META remain UNGRADEABLE, not repaired by a news sweep. Primary retrieval does not certify a full-document read; reported call/Reuters items remain qualified. NERC/Treasury proposals do not count as enacted operating restrictions.
 
 ## NEXT DECISION POINT
 
-Existing October28–29 hyperscaler/memory tests and October30 post-close samples. Additional transaction windows are evidence dates, not a new cadence: Meta next pricing/closing date unspecified, optional ATM Q1 2027/charter Jan19, common settlement on/before Nov19 2027 under preliminary terms; SpaceX expected close before year-end2026, delivery H1 2027. Anthropic has no announced priced-IPO date. Original current commitment placeholders remain blank; no leaked totals imported. Older GOOGL method/KB-096 issuance study remains open and dueOctober26, not silently completed or re-dated. No new Will decision or trade proposed.
+October 27 existing ZHAO owner re-check; October 28–29 existing memory/hyperscaler print tests; October 30 scheduled post-close readings. No new cadence or speculative date registered. GOOGL method/KB-096 issuance study remains open/due October 26 separately. Earlier three-financing report remains valid; current cash/prospectus and closing/delivery gaps not erased by these headlines. No Will decision needed.
 
 ## WATCH (next 2–4 weeks and beyond) — ⏱️ THE CLOCK
 

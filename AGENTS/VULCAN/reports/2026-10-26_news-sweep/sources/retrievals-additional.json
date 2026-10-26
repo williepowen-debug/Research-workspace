@@ -1,0 +1,29 @@
+[
+  {
+    "name": "nebius-citi",
+    "url": "https://nebius.com/newsroom/nebius-secures-3-5-billion-financing-facility-with-citi",
+    "read_at": "2026-10-26T18:21:51.174413+00:00",
+    "status": 200,
+    "sha256": "2fa2096751d7fe090357f9b2ddcaaa12caee17660a9d821e408697fa115bb5ec"
+  },
+  {
+    "name": "nerc-petition",
+    "url": "https://www.nerc.com/globalassets/who-we-are/legal--regulatory/filings--orders/nerc-filings-to-ferc/2026/petition-for-approval-of-nerc-registry-criteria-clo-clop_signed.pdf",
+    "read_at": "2026-10-26T18:21:51.755808+00:00",
+    "status": 200,
+    "sha256": "499aef3dd6beb5657fc31a7d6e93182fba6a079b7f7e7d0248aea730064ecbac"
+  },
+  {
+    "name": "outbound-proposed",
+    "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-26/pdf/2026-21786.pdf",
+    "read_at": "2026-10-26T18:21:52.390262+00:00",
+    "status": 200,
+    "sha256": "161bfbe262babd09c2835cd809055312734ef3a2b2806e84238942873629a80c"
+  },
+  {
+    "name": "korea-demand",
+    "url": "https://en.sedaily.com/politics/2026/10/26/energy-minister-signals-lower-ai-data-center-demand-in-power",
+    "read_at": "2026-10-26T18:21:57.771841+00:00",
+    "error": "HTTP Error 404: Not Found"
+  }
+]

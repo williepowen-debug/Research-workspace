@@ -1,0 +1,40 @@
+[
+  {
+    "issuer": "PG&E Corp",
+    "filings": [
+      {
+        "date": "2026-10-22",
+        "form": "8-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1004980/000100498026000056/pcg-20261022.htm",
+        "acc": "0001004980-26-000056"
+      },
+      {
+        "date": "2026-10-22",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1004980/000100498026000055/pcg-20260930.htm",
+        "acc": "0001004980-26-000055"
+      }
+    ]
+  },
+  {
+    "issuer": "Bloom Energy Corp",
+    "filings": [
+      {
+        "date": "2026-10-22",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1664703/000162828026066931/be-20260930.htm",
+        "acc": "0001628280-26-066931"
+      },
+      {
+        "date": "2026-10-22",
+        "form": "8-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1664703/000162828026066890/be-20261022.htm",
+        "acc": "0001628280-26-066890"
+      }
+    ]
+  },
+  {
+    "issuer": "MICRON TECHNOLOGY INC",
+    "filings": []
+  }
+]

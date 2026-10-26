@@ -1,4 +1,13 @@
-> # ⛔ 2026-10-26T13:45:33-04:00 — READ THIS BLOCK FIRST. Will-directed October26 three-financing pass.
+> # ⛔ 2026-10-26T14:27:16-04:00 — READ THIS BLOCK FIRST. Will-requested missed-news sweep.
+
+▶ START HERE: `reports/2026-10-26_news-sweep/REPORT.md` [KB-300..307]. Live-record omissions: Nebius $3.5B Citi facility (executed,draws unknown,364 days); PG&E 12,870 MW pipeline/174 MW since 2024 and deferrals beyond 1.8 GW; Micron original October 21 slide 16 rejects4F2. Qualified Bloom first-power is not commissioned compute; TSMC/China NAND reports source-qualified. NERC/Treasury proposals not operating restrictions.
+
+- Scores unchanged 15/25,S5 at 4, two events; no new fire,monitor,trade or off-cadence reading. WALTER receives discovery/dedupe packet; WATT power/registration,BROCK+LIQUID facility,ZHAO China/policy receive bounded notes.
+- Original funding report594ff5c39 remains valid. No old March AWS event relabelled October; no90-day export extension adopted from tech relay.
+- GOOGL/META models and KB-096 issuance study remain open/dueOctober26, not completed/re-dated by sweep. Next:October 27 ZHAO,October 28–29 cluster,October 30 slots.
+- Pull withheld for foreign WALTER caches. Prior push blocked GitHub HTTPS Username; local path-scoped commits retained. Verified native PROME/WALTER/LIQUID transports; other owner presence UNKNOWN.
+
+> # ⛔ 2026-10-26T13:45:33-04:00 — prior block. Will-directed October26 three-financing pass.
 
 ▶ START HERE: `reports/2026-10-26_financing/REPORT.md` is the material update [KB-295..299]. Original Meta supplements, SpaceX 8-K and Anthropic S-1 now retrieved and selectively read. Public IPO status and H1 cash flows primary-verified; full current commitment/cash bridge still unresolved. GOOGL/META date models and KB-096 issuance study remain open/due as before; no later deadline granted.
 

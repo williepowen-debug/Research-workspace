@@ -1,0 +1,190 @@
+{
+  "created_at": "2026-10-26T14:25:08-04:00",
+  "files": [
+    {
+      "path": "SEC_READS.json",
+      "bytes": 1032,
+      "sha256": "0280f6989726b8fd51049ac7317d107e96ddf2b7c3e9000e9f1c51895e2236e9"
+    },
+    {
+      "path": "bloom-0001628280-26-066890.html",
+      "bytes": 33514,
+      "sha256": "7c755999a79551c8a6fa0b084b87e7f20b79a50a812f44079c991a807881ce3d"
+    },
+    {
+      "path": "bloom-0001628280-26-066890.txt",
+      "bytes": 4617,
+      "sha256": "031da1d00bc4ce3f31bbd4f134089e10bfdf0ee54e3d4d5f69fa65f3adbe31ab"
+    },
+    {
+      "path": "bloom-0001628280-26-066931.html",
+      "bytes": 2231487,
+      "sha256": "ec4f42f2af194259bad20a03edb3363724d58b3b840ea88db6e2936af698ef0e"
+    },
+    {
+      "path": "bloom-0001628280-26-066931.txt",
+      "bytes": 224258,
+      "sha256": "fe02ae2b72b3b0077db2f8a3875f234e2eff34944c0663e6a8f317e460241b77"
+    },
+    {
+      "path": "bloom-event.html",
+      "bytes": 77512,
+      "sha256": "41e8dc174ef4f240aa7d2f0ac69eb79f94ed48b99e160c63d21310dce0611908"
+    },
+    {
+      "path": "bloom-ex991_q326financialresults.htm",
+      "bytes": 528587,
+      "sha256": "2bea57699fbe1eaed31fe2ae11aaff55bd1f8c94d411974b3e114adb2e6dfe8b"
+    },
+    {
+      "path": "bloom-ex992_q32026supplemental.htm",
+      "bytes": 20925,
+      "sha256": "06478ba33f2483c18fc313216619286a6108579b2d04ed5f0b9d2e9b59de7933"
+    },
+    {
+      "path": "bloom-nebius-relay.html",
+      "bytes": 828570,
+      "sha256": "b94c8ee061bcd6d3f8df8ad6b0ffc4b9cfa8865ff26e259ced068885cbd32a65"
+    },
+    {
+      "path": "bloom-nebius-relay.txt",
+      "bytes": 516180,
+      "sha256": "7758bf5bc7b299d8fa6fdbd4581f3f2c32018e137ea5090a88131a88f1c1acc1"
+    },
+    {
+      "path": "bloom-submissions.json",
+      "bytes": 157931,
+      "sha256": "6f75a9450c49cbab4770696fa51d030f5e17b828afc9b2fae10a7f49b491fe66"
+    },
+    {
+      "path": "china-nand-reuters.html",
+      "bytes": 590087,
+      "sha256": "04471ea3040501b0683fba172028767551d347d5076571bb008a1f70ec8415cc"
+    },
+    {
+      "path": "china-nand-reuters.txt",
+      "bytes": 441421,
+      "sha256": "981b44706e6848c6266605f7128713fff95b92a58b3fb330ebcbe43b57c2c0fc"
+    },
+    {
+      "path": "micron-event.html",
+      "bytes": 496671,
+      "sha256": "e59a24c5a8ca982904e983417562d2b39801437fa84a67d2e858d14a46441583"
+    },
+    {
+      "path": "micron-slides.pdf",
+      "bytes": 1807649,
+      "sha256": "00808627216e27375a163a3beff5393aea826c3722004a1a6948e88c07180f94"
+    },
+    {
+      "path": "micron-slides.txt",
+      "bytes": 24020,
+      "sha256": "f3c36bb24887aea6ea82d617399ad4d3e5e9ca0d5681688a1f1a1f58e04f4b65"
+    },
+    {
+      "path": "micron-submissions.json",
+      "bytes": 165204,
+      "sha256": "b50ed951ec0bd75b90b6fc2305573200c3d52da9c568f05593b8b0cdeaf87f5c"
+    },
+    {
+      "path": "nebius-citi.html",
+      "bytes": 209367,
+      "sha256": "2fa2096751d7fe090357f9b2ddcaaa12caee17660a9d821e408697fa115bb5ec"
+    },
+    {
+      "path": "nebius-citi.txt",
+      "bytes": 150868,
+      "sha256": "fe20b0bd04044e891a2790e7fbe98be8df661ccfdc4fd509a8474b06ae681c78"
+    },
+    {
+      "path": "nebius-site.html",
+      "bytes": 261257,
+      "sha256": "bae359a19132555bab584ea6902777b0971a2813310de320c95064c17f25572c"
+    },
+    {
+      "path": "nebius-site.txt",
+      "bytes": 169771,
+      "sha256": "62e1c565ac0f581a2700b2280eb7c6f2ae4f7cfd6bdece1ee636ffde95cbf79e"
+    },
+    {
+      "path": "nerc-petition.pdf",
+      "bytes": 19556808,
+      "sha256": "499aef3dd6beb5657fc31a7d6e93182fba6a079b7f7e7d0248aea730064ecbac"
+    },
+    {
+      "path": "nerc-petition.txt",
+      "bytes": 1605239,
+      "sha256": "9b52153804888bb67f9fca5a6efd0310251de56d3a9992fcc49f896b9dda0a33"
+    },
+    {
+      "path": "nerc-registration-relay.html",
+      "bytes": 101254,
+      "sha256": "c56015e9611c6bc1b7ddfc04e207e1a9a65945c3204295f9857a4ddb77762ace"
+    },
+    {
+      "path": "nerc-registration-relay.txt",
+      "bytes": 20416,
+      "sha256": "756910daff34ac9ed5765d0329e120c7e04e11d07b5c1593391dff4e0701c1d2"
+    },
+    {
+      "path": "nerc-standards.html",
+      "bytes": 53462,
+      "sha256": "5b0dee35750339973515ecaf16e561e7453b5c35b1677f5da317e7c7f2a006bb"
+    },
+    {
+      "path": "outbound-proposed.pdf",
+      "bytes": 403534,
+      "sha256": "161bfbe262babd09c2835cd809055312734ef3a2b2806e84238942873629a80c"
+    },
+    {
+      "path": "outbound-proposed.txt",
+      "bytes": 290900,
+      "sha256": "52fed99c855c9a666d8aabc7e9a723995531f504920d30bab34d3be8d5d16f3f"
+    },
+    {
+      "path": "pge-0001004980-26-000055.html",
+      "bytes": 2967824,
+      "sha256": "5bf8c667f0ed69103f64686a63ecd43e3b681a28c9a17d2c03aba10dad45bd75"
+    },
+    {
+      "path": "pge-0001004980-26-000055.txt",
+      "bytes": 318082,
+      "sha256": "3bcb578a51e7f8211f0c014b415cba304175cd99017550afa235f5d9561f4ac6"
+    },
+    {
+      "path": "pge-0001004980-26-000056.html",
+      "bytes": 63289,
+      "sha256": "9bb1a6216767bec0811806c82d2035ea1379d985f80cefbc1e968aa6ce5607ed"
+    },
+    {
+      "path": "pge-0001004980-26-000056.txt",
+      "bytes": 9786,
+      "sha256": "d0fbab7e4ff6cf193b25e84909fdcec01d51fa7cbb1c3cb97dc36de856cd2379"
+    },
+    {
+      "path": "pge-slides.html",
+      "bytes": 72854,
+      "sha256": "025c5b23c2fea265b0efd47c986bdeddffca28ab789c332f4fdc3125e36f1fbf"
+    },
+    {
+      "path": "pge-slides.txt",
+      "bytes": 57861,
+      "sha256": "5ade77969aa0e58730886bd00e697beb2f0e66b6d8b0337674ed81beeac1bbdd"
+    },
+    {
+      "path": "pge-submissions.json",
+      "bytes": 165286,
+      "sha256": "68e1351dcad5873174f77ed6eb3d7cfe5e37634520bcd21aa2af6eb5e65bd47d"
+    },
+    {
+      "path": "retrievals-additional.json",
+      "bytes": 1186,
+      "sha256": "c9cb4c4a1a4eab38654e4ef90ff9ed5eeae7a2d4873cd4333c1d365f5cfaca2c"
+    },
+    {
+      "path": "retrievals.json",
+      "bytes": 1875,
+      "sha256": "e32f82156ac3753b18c531d1b6c3068806e5e72af4905bf866dfbcb085a48e5a"
+    }
+  ]
+}
