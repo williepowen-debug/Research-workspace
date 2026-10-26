@@ -1,0 +1,112 @@
+[
+  {
+    "path": "raw/banguat.xlsx",
+    "bytes": 196,
+    "sha256": "80c3fe2ae1062abf56456f52518bd670f9ec3917b7f85e152b347ac6b6faf880"
+  },
+  {
+    "path": "raw/banguat_page.html",
+    "bytes": 93050,
+    "sha256": "6c58d58c205d43c9d52fc7d8855fbf21a8cb18c2b785c00d7007e3ae2ea6e92f"
+  },
+  {
+    "path": "raw/bch.html",
+    "bytes": 735,
+    "sha256": "c88dfc97651d21a2bd0a66a8e005971d188428dacdf4af9b5eda3b2059efecb6"
+  },
+  {
+    "path": "raw/bch_page.html",
+    "bytes": 692,
+    "sha256": "c6f31008146044bfbbb5faf1d1150b7ed5bb4b468884c2a41d14abc72f3ee0d2"
+  },
+  {
+    "path": "raw/bcr.html",
+    "bytes": 241530,
+    "sha256": "f9ad974229a80391e54e4d6df73336a2ad86b3d0ccad775705f6048f5ea6737a"
+  },
+  {
+    "path": "raw/bcr.html.txt",
+    "bytes": 30845,
+    "sha256": "ae3999f72ad9ef9409a96bf0f3e6b7616f80856d550f7bc2c3c9c07b64252be9"
+  },
+  {
+    "path": "raw/bea_exh3.xlsx",
+    "bytes": 251079,
+    "sha256": "fa4fc7425211c7747335b6aa9053e94338b4210d0bc6c7b7795faf671fbabeb2"
+  },
+  {
+    "path": "raw/bls.json",
+    "bytes": 11501,
+    "sha256": "a909352d2025e25d4c71b7daffcd7135ef8dcdda5f9cb1deea8ed5f168989e17"
+  },
+  {
+    "path": "raw/brookings.html",
+    "bytes": 323549,
+    "sha256": "24fc6f562fa93d31b942bf664eaba053a28d7fe1ec3830834d6519188cc89467"
+  },
+  {
+    "path": "raw/broward.html",
+    "bytes": 5486,
+    "sha256": "7ae0ae38aa072852edb325f7fc1d17b60423db926b1ab2b3ca5c5507d0873855"
+  },
+  {
+    "path": "raw/cbo.html",
+    "bytes": 767,
+    "sha256": "d52bbece4dc7a2754312ed0190d33552f0494a0a3e2e08ff6e588a43e4a99759"
+  },
+  {
+    "path": "raw/fr_search.json",
+    "bytes": 6652,
+    "sha256": "ec64beb7045542bf17ba22c51dd82cb290419ee159adf10fd19a26dbfee3ee78"
+  },
+  {
+    "path": "raw/premium.html",
+    "bytes": 457955,
+    "sha256": "dcaaf5ae4eb8524b843cc4ec950c7948a03a4e7baba80480d87a71c4513f8513"
+  },
+  {
+    "path": "raw/premium.html.txt",
+    "bytes": 242577,
+    "sha256": "068a026af9b81440b74b6595b7f201edd718fd14af818e0d9af62c22f5b5590b"
+  },
+  {
+    "path": "raw/realtor_state.csv",
+    "bytes": 1885709,
+    "sha256": "9961bb457d1e673de8d66981ac15388349b6bfc043ab6e7684b15e431ccd0c28"
+  },
+  {
+    "path": "raw/trends_explore.json",
+    "bytes": 1701,
+    "sha256": "ddbaf6236bdc1310ca99dfca19eaa623f85759bab8d9b043a5e4b9626b547ec3"
+  },
+  {
+    "path": "raw/tx_sample.json",
+    "bytes": 305,
+    "sha256": "b320fe6b5c7ba8af8f0077b3c54be1c93bb08c233cacb9d0ec73020f98c69284"
+  },
+  {
+    "path": "raw/tx_sep_oct.json",
+    "bytes": 716442,
+    "sha256": "a492a5970e8dab795ba7cb0c7116b5247420056c974fd47a78787004b3dc26b0"
+  },
+  {
+    "path": "raw/westjet.html",
+    "bytes": 72450,
+    "sha256": "38d4e070131b94983daaadb131efd0c27b426413642546c0ecac99cf2b95dea3"
+  },
+  {
+    "path": "raw/westjet.html.txt",
+    "bytes": 2974,
+    "sha256": "0192167919c387c5a2b276b0f62d3c201ace5165c81687bd20adbacb856682da"
+  },
+  {
+    "path": "raw/westjet_winter.html",
+    "bytes": 82819,
+    "sha256": "027d2d7545b95e8926b66bd2062853357cbf6baed5b4a3fd12010368f00b256e"
+  },
+  {
+    "path": "raw/zhvi.csv",
+    "bytes": 4491441,
+    "sha256": "f921b1a98ae8b14a58c50a8be28c2dbe1bc141af8b6afcf88acb5f0ebff3b8e7"
+  }
+]

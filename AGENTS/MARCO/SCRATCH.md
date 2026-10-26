@@ -1,27 +1,17 @@
-# MARCO SCRATCH — session 36 index repair; session 35 research handoff retained
-**Last Updated:** 2026-10-25 22:15 ET. PROME write-back audit M1 (bea1633fe), Will-authorized bounded consistency repair; existing evidence only. Session 35 research below remains complete.
+# MARCO SCRATCH — session37 Phase2 stale-file repairs
+**Last Updated:** 2026-10-25 23:30 ET. Will-authorized sweep/report/correct, concrete PROME disposition17abb761d. Existing native window; no helpers/new monitors/programs/trades.
 
-## SESSION 36 — bounded M1 repair
-RESEARCH_STATUS no longer calls tourism spending unpulled: it points to VX-1.03's September 24 actual trailing-12-month Aug-2025–Jul-2026 BEA Travel comparison. Later vintage/revisions remain unverified. No source fetch, data/grade/forecast change or new task. STATUS and ledgers unchanged; brief will pin existing STATUS commit 9a93bb871. Audit packet receipted and moved to processed; dated PROME completion saved.
-
-## CHANGES SINCE session 34
-Domestic capacity replacement now measured, not just passenger offsets. **MIA Spirit-free assessment retracted** on two primary routes. LAS Canadian seat leg refreshed; latest complete May CRITICAL, June/July incomplete. No thesis/forecast definition/confidence change.
+## CHANGES SINCE
+Phase1b46494136 inventoried386files and16finding groups. Phase2 repaired accepted current-evidence/prose inconsistencies:13FLOW pathways, missedMIA/APT01, unsupported winter dollars/old thesis spine, domestic-vs-total-population logic, docket/calendar/source/index/method residues. CBO2025−290K..−525K range is WITHDRAWN/UNSCORED; no replacement adopted, original history retained.
 
 ## WHAT I DID
-- BTS GEE/FJE downloads: live latest label AND actual data both July2026; lag 86 days from month-end. Saved exact relevant segment rows, source-wide carrier-month coverage, download hashes and offline calculations in `research/2026-10-25_capacity/`.
-- Scheduled outbound domestic seat replacement June→July: MCO 55.84→76.06%; FLL 66.77→107.70%. FLL July domestic seats +2.12%, passengers +1.54%; MCO−3.04%/−4.18%. Net additions do not establish causal backfill or demand.
-- MIA NK summary query ends Feb 2023, unlike all-carrier data. GEE and Miami-Dade own FY seats show 2025 service. Corrected owner charter, dashboard, ledgers, thesis caveat, old-source banner and handoff surfaces. Existing MIA airport-own trigger unchanged, capacity caveat mandatory.
-- LAS Canadian-airline winter seats −33.22%, Jan–May−30.77%; May latest complete−31.97% (April−27.85% breaks ≥30%run). June AC / July Porter missing. Raw July−20.99%, prior-month fill −10.59% is ESTIMATE, not graded. All directions/families retained; no Canadian-resident visitor inference.
-- T2-K closed. Old market-summary overlapping baseline cells unchanged; no older raw seat file survives, so full seat-row revisions cannot be certified. MEMORY rotated verbatim before adding source lesson (target<70%).
+Seven existing series refreshed: Sepconstruction employment/wages/ZHVI/Austin/DOM; JanOctTXreceipts; AugBEATravelTTM−$3.125B,ELEVATED. Compared carried points/bases and revisions; no threshold redesign. Saved raw evidence/manifests/calculations/source limits in research/2026-10-25_stale-file-sweep-phase2/. Exact JulyBTS/SeptemberStatCan baseline rows appended from held source evidence. TOUR02/04 missing Confidence field restored EMPTY with original mapping proof; no probability invented. Active TOUR notes superseded, fixed terms unchanged. Historical thesis text preserved in dated companion; original invalidation block remains verbatim and explicitly historical.
 
-## COMPLETED / STOP
-Both commissioned research legs delivered within public-source limits; no running tool held for future prints. No dormant helper, new tracker, forecast or trade. Report: `domain/sources/TOURISM/2026-10-25_spirit-seat-replacement_LAS.md`. Future observations remain scheduled in the existing docket.
+## OPEN THREADS / LIMITS
+GoogleTrends429; CentralAmerica matched newest remittance panel unresolved; AEOLUS October15DJF stillUNFETCHED byowner; TOUR05 compatible all-carrier DecFeb schedule denominator unresolved; TOUR06 primary monthlyBrowardTDT unverified. Do not turn these into automated searches. AnnualCensus/approxCTI, OFLCQ3, TX01UNSCORED, CA02local-scope, LASJunJulholes remain dated. DuplicateAPT/1.04 bands, temporal-basis ambiguity, T2G/tool redesign and resolver changes remain outside scope.
 
 ## NEXT SESSION
-~10/28 MIA September + LVCVA September under existing letters; show MIA Spirit/capacity caveat. 11/2 Banxico and farm persistence; 11/10 fares; 11/12 H-2A procedural check; existing November BTS read can inspect LAS filing backfills;12/4 CPS;12/30 court deadline. No date/definition changed by this study.
+Existing docket only: ~10/28MIA/LVCVASeptember;11/2Banxico/CApersistence;11/3FLvote;11/5AZfirstforward grade;11/6CPScontext;11/10ENR02leg2;11/12courtstatus;11/13ID01;~11/15OFLC/BTS/NTTO;11/16/20housing/stateBLS;12/4NovemberCPS;12/30courtdeadline;annualCensuscomponenttest;MAR24firstBTSon/after2027-02-01;Laredo~2027-03-31. No forecast terms/confidences/status/outcomes changed. MAR11/MAR24 due-scan economic-window alerts do not override their publication/first-pull resolver rules.
 
-## GAPS
-July is latest, not an October nowcast. LAS June/July filing holes prevent observed latest grade. No Canadian-resident count or total-airport demand decomposition. MIA carrier-summary cannot supply an adjusted total; use direct segments within their scope. Historical seat-row revision comparison unavailable without old raw files.
-
-## MAIL / PERSISTENCE
-New PROME assignment read and acknowledged, moved to processed with consumption declaration after integration. WALTER correction packet and dated PROME completion saved; native final pointer follows commit. No recipient consumption assumed. Consumer check confirmed CORAL STATUS/NEXUS carry the superseded MIA clean-tell claim; WALTER correction packet explicitly names them. Other clean-tell hits were bank-specific language, dated routing log and BRENT oil prose, not the same metric. Foreign OTTO/CRUISE work dirty: no pull/stash/takeover. Exact-path commit and safe-push; receipt in runtime output.
+## MAIL / COMPLETION
+Phase1/2PROME packets consumed into dated audit/repair artifacts; move processed with consumption declaration. WALTER receives correction packet naming unsupportedCBO/range and propagated old-dollar/MIA/transmission premises; delivered is not consumed. No external owner files edited. Other desks dirty: no pull/stash/takeover. Exact-owned-path commits and safe-push; final publication/native receipt follows. No research tool or future-release wait remains running; overall sweep awaits PROME independent recheck. Completion: research/2026-10-25_stale-file-sweep-phase2/completion.md.

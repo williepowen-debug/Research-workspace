@@ -98,7 +98,7 @@
 
 ### T2-L · tsvutil re-quotes `sub_agents/TOURISM/workbook/PREDICTIONS.tsv` (NEW — 2026-10-14)
 - **What:** a `write_tsv` round-trip of that ledger wrapped TOUR-01's notes cell in quotes and doubled its inner quotes (unquoted field with literal `"`) — same class as the 8/21 VX quote-doubling. Caught by diff (2 lines changed for a 1-row edit); restored and redone as a raw line edit. The ledger is NOT in `tsvutil_selftest.py` LEDGERS, so invariant C never saw it.
-- **Action:** normalize the file once (deliberate commit), then add it to LEDGERS. Until then edit it raw, never via `write_tsv`. **Effort:** small.
+- **Disposition10/25:** PROME explicitly permitted missing-empty-field shape repair with proof. TOUR02/04 now have empty Confidence and exact original status/date/notes mapping, research/2026-10-25_stale-file-sweep-phase2/tour_legacy_field_mapping.json; CSV roundtrip verified. Maintained reader normalized. Adding this seventh ledger to standing selftest remains a separate tooling change; run explicit targeted checks in this pass. Original quote issue recorded above.
 
 ### T2-M · `banxico_reverse.py` rewrites both baselines from a full-range pull with no shrink guard (NEW — 2026-10-14)
 - **What:** 10/14 run verified clean by hand (30 → 31 quarters, 0 revised cells), but nothing in the tool refuses a short response. Same writer class as T2-E / the BTS defect.
@@ -141,7 +141,7 @@
 - `VX-MARCO-3.02`, `CA-01`, `FL-03`, `GTR-01`, `TX-02` (all last touched 7/31) now set the VX banner's clock 1; `ledger_staleness` still reads VX STALE +56d. FL-03 (FL Realtors monthly) and GTR-01 (Google Trends, `tools/google_trends_pull.py`) have free live sources. Refresh as research, not clerically (baseline check first — MEMORY 'BASELINE/BASIS errors').
 
 ### T2-I · Residue from the 2026-09-24 full band audit (s30d)
-- **Merge `APT-01` into `VX-1.04` (or retire one):** both grade the mean of the three FL-airport 2-yr stacks, on different band sets (−11.54% = CRITICAL here, ELEVATED there). Two marks for one number.
+- **DEFERRED outside Phase2: merge `APT-01` into `VX-1.04` (or retire one):** both grade the mean of the three FL-airport 2-yr stacks, on different band sets (−11.54% = CRITICAL here, ELEVATED there). Two marks for one number.
 - **`H2A-02`:** the BREACHED OR-leg (lead-time p25 <14 days) has never been reported; 38.53% of cases have <30d lead, so it cannot be excluded. Compute p25 from the OFLC file.
 - **`CA-01`:** the CRITICAL leg 'FAIR Plan surge' has no numeric threshold — the mark is a judgment. Give it a number (e.g. PIF growth YoY).
 - **`FL-01`:** '±2pp of national' never says level gap vs growth gap; they diverge on a below-national print.
@@ -152,7 +152,8 @@
 ### ✅ Dormant sub-agents FROZEN-bannered — DONE 2026-07-02, TOURISM closed 2026-07-09
 *(7/2 hunt: BORDER/HOUSING/MIGRATION/WORKFORCE STATUS files (untouched since Apr-21, carrying stale DHS-shutdown / 9.1mo-condo / $678.8B / 2.2M figures) each got a FROZEN banner pointing to canonical STATUS. TOURISM left live (recent) — the 7/2 call was correct at the time (5/31-dated, ~32d old). **7/9 self-sweep: that grace period had lapsed (39d, no banner) — found and closed. TOURISM now carries a SHELVED banner matching the other 4.** Will-approved freeze-not-archive.)*
 
-### T3-A · VX.tsv — 46/57 vectors are Jan-vintage (>60d, boot.py flags)
+### ✅ T3-A · historical founding-vintage backlog — SUPERSEDED by July31/September24/October25 row sweeps
+Current per-row coverage: research/2026-10-25_stale-file-sweep/vx_row_audit.tsv;21 frozen/retired excluded. Original ticket below is history, not a current45/57 backlog.
 - **What:** 45 of 57 vectors last-updated Jan 20-22 (founding research): FL insurance index, net-migration, Sunbelt-Snowbelt differential, TX/FL housing, CA ag workforce, border vectors, etc.
 - **Why it matters:** Some are genuinely stale and load-bearing (FL insurance, migration); some are deprecated/annual (can't refresh). Bulk staleness hides which.
 - **Action:** Triage pass — per vector: refresh / mark `[STALE]` with date / archive-deprecated. Don't bulk-refresh; sort by whether the vector still drives a thesis claim.
@@ -162,19 +163,19 @@
 *(s30: `git mv` → `archive/` (dir created on purpose). Superseded, not abandoned: the 9/24 Channel-4 credit rebuild did the job this protocol was for, on ratings + audited ACFRs + TX Comptroller receipts, because EMMA is terms-gated (do not script past it). Same session also archived `NOTES.md` (T1-B, resolved 7/2), `OPEN_THREADS_2026-07-09.md` (every thread since closed or carried elsewhere), `workbook/ML_BACKUP_20260418.tsv` and `workbook/VX_HISTORY.tsv` (Jan-2026, 8 rows, unread by any tool).)*
 - **What:** Feb-9 baseline protocol for monitoring border-city **municipal-bond spreads** (EMMA). Status: "Awaiting initial spread data collection." Cross-refs use OLD VX numbering (VX-MARCO-01/03/06) that **doesn't match** current VX.tsv (1.01 / 2.02 / ELP-01 / etc.).
 - **Why it matters:** **Latent opportunity:** ES-MARCO-04 (TX border fiscal stress) resolved today as a *counter-signal* on sales-tax revenue — but muni-bond spreads (EMMA) could be the cleaner, more forward-looking border-fiscal-stress instrument that sales-tax (a lagging, offset-able measure) isn't. This never-run protocol may be worth executing, not archiving.
-- **Action:** Decide execute-vs-archive. If execute: pull EMMA spreads for the 5 target cities, fix VX cross-refs to current numbering, populate a real border-fiscal vector. If archive: move to `archive/` and note in FINDINGS. ⚠️ **`AGENTS/MARCO/archive/` does NOT exist** — the 2026-06-30 prune (`1cb18fbc3`) deleted it and both files it held. **If you execute the archive branch, create the dir ON PURPOSE in the same edit** — do not let it regrow as a side effect of following this line (flagged by PROME 8/12; re-pointed 8/21).
+- **Action:** Decide execute-vs-archive. If execute: pull EMMA spreads for the 5 target cities, fix VX cross-refs to current numbering, populate a real border-fiscal vector. If archive: move to `archive/` and note in FINDINGS. Historical destination caveat SUPERSEDED9/24: archive now exists. Original warning: **`AGENTS/MARCO/archive/` did not exist then** — the 2026-06-30 prune (`1cb18fbc3`) deleted it and both files it held. **If you execute the archive branch, create the dir ON PURPOSE in the same edit** — do not let it regrow as a side effect of following this line (flagged by PROME 8/12; re-pointed 8/21).
 - **Effort:** medium-large (if executed).
 
 ### T3-C · MARCO_SKELETON.md — historical artifact
 - **What:** v1.0 thesis, explicitly superseded by `thesis/THESIS.md` (v2.4).
-- **Action:** Archive to `archive/` (low priority; harmless where it is, but it's root clutter). ⚠️ **Same nonexistent-destination caveat as the row above** — `AGENTS/MARCO/archive/` was deleted by `1cb18fbc3`; create it deliberately if you execute, or just leave the file where it is (which this row already concedes is harmless).
+- **Action:** Archive to `archive/` (low priority; harmless where it is, but it's root clutter). Historical destination caveat superseded9/24; archive exists; no archive move commissioned. Original warning: **Same then-nonexistent destination caveat** — `AGENTS/MARCO/archive/` was deleted by `1cb18fbc3`; create it deliberately if you execute, or just leave the file where it is (which this row already concedes is harmless).
 - **Effort:** trivial.
 
 ---
 
 ## Cross-references (already tracked elsewhere — not re-flagging)
-- DEFERRED.md (4 open TOURISM cross-agent items: REGINALD ×2, HOUSING, CARL) — current as of 6/2, properly tracked. The CARL World-Cup item + REGINALD winter-$ items are now partly addressed via today's NEXUS_BRIEF SENDING + outbox; could cross-ref.
-- ~~MCO/FLL April pax (PDF-blocked)~~ — **FLL RESOLVED 6/15** (pdfminer on Broward Monthly Statistical Summary PDF: +5.0% YoY / −4.7% 2-yr stack; intl −18.7% stack). MCO still blocked (flymco JS-rendered) → BTS T-100 ~Jul. Method: download+pdfminer w/ browser UA beats WebFetch for airport PDFs. 🔴 **ROUTE DEAD as of 2026-08-21 — the record above is correct FOR APRIL and the general method still holds, but the Broward URL it used no longer exists** (site rebuilt as a Next.js SPA; legacy `/Airport/Business/about/Documents/` tree 404s across all 7 months of 2026 tested, Wayback has 0 snapshots). **Do not retry it.** → `MEMORY.md` source-quality map; replacement is BTS T-100, which covers FLL *and* MCO.
+- DEFERRED.md historical4 TOURISM items closed/lapsed9/24; no current open-work claim. The CARL World-Cup item + REGINALD winter-$ items are now partly addressed via today's NEXUS_BRIEF SENDING + outbox; could cross-ref.
+- ~~MCO/FLL April pax (PDF-blocked)~~ — **FLL RESOLVED 6/15** (pdfminer on Broward Monthly Statistical Summary PDF: +5.0% YoY / −4.7% 2-yr stack; intl −18.7% stack). Historical blocked claim superseded8/21: BTS unblockedMCO; MAR22 resolved. Method: download+pdfminer w/ browser UA beats WebFetch for airport PDFs. 🔴 **ROUTE DEAD as of 2026-08-21 — the record above is correct FOR APRIL and the general method still holds, but the Broward URL it used no longer exists** (site rebuilt as a Next.js SPA; legacy `/Airport/Business/about/Documents/` tree 404s across all 7 months of 2026 tested, Wayback has 0 snapshots). **Do not retry it.** → `MEMORY.md` source-quality map; replacement is BTS T-100, which covers FLL *and* MCO.
 - Cross-agent re-sends — see T2-A (likely superseded by NEXUS_BRIEF).
 
 ---

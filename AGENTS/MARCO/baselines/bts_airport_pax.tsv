@@ -1,7 +1,9 @@
 # MARCO BTS T-100 airport enplanements | carrier=All | pulled=2026-09-19
 # ⚠️ ENPLANEMENTS (departing), NOT airport-reported enplaned+deplaned totals —
 #   BTS runs ~HALF the airport figure. Compare YoY/stacks WITHIN this series only.
-# Last real data refresh: 2026-06-30   <- newest data month common to all airports (month-end); restamped 2026-09-24 from the pull date (tool fix)
+# Last real data refresh: 2026-07-31   <- newest data month common to all airports (month-end); restamped 2026-09-24 from the pull date (tool fix)
+
+# July appended2026-10-25 from saved matching summary_endpoint_crosscheck.csv; same enplanement basis; overlapping cells previously verified unchanged.
 airport	year	month	domestic	international	total
 MCO	2002	10	963671	66591	1030262
 MCO	2002	11	959769	63435	1023204
@@ -858,3 +860,6 @@ MIA	2026	3	1407392	995369	2402761
 MIA	2026	4	1275161	908394	2183555
 MIA	2026	5	1241790	983444	2225234
 MIA	2026	6	1192671	905039	2097710
+MCO	2026	7	1964321	326738	2291059
+FLL	2026	7	1033679	170600	1204279
+MIA	2026	7	1213601	1027434	2241035

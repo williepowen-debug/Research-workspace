@@ -1,5 +1,7 @@
 # OFLC H-2A Disclosure Data — Pull Verdict
 
+**Scope corrected10/25:** April21 pull/method/proposals below are HISTORICAL, superseded by July31 direct-OFLC discovery route in tools/h2a_pull.py and currentH2A01/02. Q3 newest verified10/25. Old “direct XLSX impossible” and proposed vector splits are not current instructions; no split/new source program commissioned.
+
 *MARCO | 2026-04-21 | source: DOL/OFLC via Wayback Machine*
 
 ---

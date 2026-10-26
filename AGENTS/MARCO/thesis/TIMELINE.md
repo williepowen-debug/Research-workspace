@@ -86,3 +86,7 @@ Dated event spine. Resolved events (mark ✅ with outcome) + forward branch poin
 ---
 
 *Pre-2026 timeline detail (if needed) lives in archived STATUS snapshots under `../domain/sources/_archive/`.*
+
+
+## 2026-10-25 — s37 evidence reconciliation only
+CBO2025 range attributed byVX2.04 withdrawn/UNSCORED (WFD-24), no replacement adopted. Existing7series refreshed,13FLOW current claims reconciled, MIA/APT01 correction propagated; domestic migration does not establish total-population decline. Fixed forecast terms/probabilities/resolvers unchanged. Evidence and remaining access/compatibility limits: `../research/2026-10-25_stale-file-sweep-phase2/completion.md`.

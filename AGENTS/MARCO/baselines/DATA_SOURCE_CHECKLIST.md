@@ -1,5 +1,7 @@
 # MARCO Data Source Implementation Checklist
 
+**Historical implementation checklist, scoped10/25:** February24 tasks/this-week language and figures below are not a current backlog or dataset. Trends/NV/BTS routes were implemented subsequently; current state is RESEARCH_STATUS.md, MAINTENANCE.md, VX and Phase2source_checks.md. Do not restart these old manual tasks.
+
 **Created:** 2026-02-24
 **Purpose:** Track implementation of new tourism data sources
 

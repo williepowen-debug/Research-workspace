@@ -2,7 +2,7 @@
 
 Cross-agent and cross-vector coupling edges MARCO depends on or feeds. Per SPAWN PROTOCOL step 8: update when edges change. An edge is a *directional dependency* — "X's state changes my read of Y" — not just a shared topic.
 
-**Last updated:** 2026-09-24 (session 30 stale sweep — **both BRENT edges were a month out of date**: the crude edge was re-specified 9/24 as `ENR-02` (MARCO now *consumes* BRENT's $85 row and grades airfares) and s29 didn't carry it here; the freight→produce edge closed with the produce channel on 9/19 → moved to Resolved.) PRIOR: 2026-08-21 (session 22 — **two edges moved and one is live**: MARCO↔BRENT went to RE-ARM PENDING-CONFIRM and its deference rule was amended after BRENT's own figure proved wrong; MARCO↔AEOLUS **reversed sign** and now supports the bearish FL read. PRIOR: 2026-05-31 session 8 — created; first edge MARCO↔BRENT freight-input.)
+**Last updated:** 2026-10-25 (s37 current owner pointers/fare update; climate availability checked, definitions separated). PRIOR: 2026-09-24 (session 30 stale sweep — **both BRENT edges were a month out of date**: the crude edge was re-specified 9/24 as `ENR-02` (MARCO now *consumes* BRENT's $85 row and grades airfares) and s29 didn't carry it here; the freight→produce edge closed with the produce channel on 9/19 → moved to Resolved.) PRIOR: 2026-08-21 (session 22 — **two edges moved and one is live**: MARCO↔BRENT went to RE-ARM PENDING-CONFIRM and its deference rule was amended after BRENT's own figure proved wrong; MARCO↔AEOLUS **reversed sign** and now supports the bearish FL read. PRIOR: 2026-05-31 session 8 — created; first edge MARCO↔BRENT freight-input.)
 
 ---
 
@@ -10,8 +10,8 @@ Cross-agent and cross-vector coupling edges MARCO depends on or feeds. Per SPAWN
 
 ### 🔴 MARCO ↔ BRENT — crude level → airfares → FL tourism cost (RE-SPECIFIED 2026-09-24 as `ENR-02`)
 
-- **Type:** threshold dependency, **consumer-only on the price leg.** MARCO no longer runs its own Brent instrument: it duplicated BRENT's registered line (`AGENTS/BRENT/workbook/REGISTRY.tsv` `MKT-BZ-F-BELOW-85`, with BRENT's roll rule), and the duplicate is what lapsed when MARCO went dark 8/22–9/2. **Cite BRENT; never re-pull.** BRENT's 9/22 settles: `BZX26` $99.25 / `BZZ26` $95.41 [single vendor].
-- **MARCO's stage = fares:** CPI airline fares Aug **+23.41% YoY / +27.46% 2-yr** (BLS API, 9/24). `ENR-02` letter: Sep (10/14) AND Oct (~mid-Nov, est.) 2-yr both ≥ +20% = SUSTAINED; either < +15% = FADED; else HOLD. `FLOW-ENR-01`, `KB-MARCO-ENR-01`.
+- **Type:** threshold dependency, **consumer-only on the price leg.** MARCO no longer runs its own Brent instrument: it duplicated BRENT's registered line (`AGENTS/BRENT/workbook/REGISTRY.tsv` `MKT-BZ-F-BELOW-85`, with BRENT's roll rule), and the duplicate is what lapsed when MARCO went dark 8/22–9/2. **Cite BRENT; never re-pull.** Current price/roll state is BRENT-owned; no September22 quote is presented as current here.
+- **MARCO's stage = fares:** CPI airline fares September **+22.45% YoY / +26.36% 2-yr** (held BLS primary,10/14); leg1 PASSED. `ENR-02` letter: Sep (10/14) AND Oct (November10,08:30ET, schedule verified10/21) 2-yr both ≥ +20% = SUSTAINED; either < +15% = FADED; else HOLD. `FLOW-ENR-01`, `KB-MARCO-ENR-01`.
 - **The 8/24 re-arm (below, history) stays UNGRADED — never back-graded** (`thesis/TIMELINE.md`).
 - **Deference rule (amended 8/21, still live):** defer to BRENT on SERIES and BASIS (which contract, settle-vs-bar, roll handling); an INDEPENDENT PULL of the same named contract that disagrees on a VALUE is evidence against the owner. Now that MARCO pulls no crude, this only bites if MARCO ever re-pulls — which it should not.
 
@@ -31,8 +31,8 @@ Cross-agent and cross-vector coupling edges MARCO depends on or feeds. Per SPAWN
 - **8/3 (as first sent):** a very-strong El Niño means an active/cold **northern tier** ⇒ snowbird **PUSH** ⇒ FL demand **tailwind** ⇒ ran *against* MARCO's bearish FL read.
 - **8/12 (AEOLUS self-corrected at the CPC primary):** the northern-tier leg was **exactly backwards** — El Niño brings *"less storminess and milder-than-average conditions across the North."* ⇒ **milder North ⇒ push WEAKER ⇒ FL demand HEADWIND ⇒ now SUPPORTS the bearish read.**
 - **8/20 (settled season-specifically):** the **CPC DJF 2026-27 outlook** published and agrees — strongest warm signal over the **northern tier**. That product is **not a composite**, which is why it supersedes one.
-- ⚠️ **AMPLITUDE UNRELIABLE, carried deliberately:** OND very-strong probability **81% → >90%** ⚠️ *(a "95%" I carried earlier today is WITHDRAWN — unsourceable at either CPC product; ENSO discussions are monthly and there was none on 8/20)*, with a **69% chance of a historic event exceeding every El Niño back to 1950**. Any *composite*-based read is then an extrapolation past all comparable winters. **Carry the MECHANISM, not the magnitude.**
-- ⚠️ **OWED TO MARCO (since 8/20; not re-checked at the 9/24 sweep):** AEOLUS's **primary** read of the DJF map. MARCO's is trade-press (the CPC product is a map image) and is **not cited as primary**.
+- **HISTORICAL August probability context, not current odds:** OND very-strong probability **81% → >90%** ⚠️ *(a "95%" I carried earlier today is WITHDRAWN — unsourceable at either CPC product; ENSO discussions are monthly and there was none on 8/20)*, with a **69% chance of a historic event exceeding every El Niño back to 1950**. Any *composite*-based read is then an extrapolation past all comparable winters. **Carry the MECHANISM, not the magnitude.**
+- **Bounded owner availability check10/25:** AEOLUS STATUS October21 cites CPC10/8 RONI historic≥2.5: SON54/OND83/NDJ70; very strong≥2.0: OND100/NDJ96/DJF81. These are RONI events, not the earlier Niño/ONI/composite definitions. Do not splice odds or infer probability trend across definitions. AEOLUS explicitly lists October15 DJF reissue UNFETCHED. MARCO has no newly verified DJF primary-map amplitude; retain qualitative milder-northern-tier mechanism as dated owner context, not a quantified winter-demand effect. No new work assigned to AEOLUS.
 
 ---
 

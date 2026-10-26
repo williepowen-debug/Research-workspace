@@ -1,0 +1,36 @@
+[
+  {
+    "file": "tx_sample.json",
+    "url": "https://data.texas.gov/resource/vfba-b57j.json?%24limit=1",
+    "status": 200,
+    "bytes": 305,
+    "retrieved": "2026-10-25"
+  },
+  {
+    "file": "westjet_winter.html",
+    "url": "https://www.westjet.com/en-ca/news/2026/from-parkas-to-paradise--westjet-adds-five-new-routes-for-winter",
+    "status": 200,
+    "bytes": 82819,
+    "retrieved": "2026-10-25"
+  },
+  {
+    "file": "banguat_page.html",
+    "url": "https://www.banguat.gob.gt/page/ingreso-de-divisas-por-remesas-familiares",
+    "status": 404,
+    "bytes": 93050,
+    "retrieved": "2026-10-25"
+  },
+  {
+    "file": "bch_page.html",
+    "url": "https://www.bch.hn/estadisticos/EME/Paginas/Balanza-Cambiaria.aspx",
+    "status": 404,
+    "bytes": 692,
+    "retrieved": "2026-10-25"
+  },
+  {
+    "file": "trends_explore.json",
+    "url": "https://trends.google.com/trends/api/explore?hl=en-US&tz=0&req=%7B%22comparisonItem%22%3A+%5B%7B%22keyword%22%3A+%22florida%22%2C+%22geo%22%3A+%22CA%22%2C+%22time%22%3A+%22today+5-y%22%7D%5D%2C+%22category%22%3A+67%2C+%22property%22%3A+%22%22%7D",
+    "status": 429,
+    "retrieved": "2026-10-25"
+  }
+]

@@ -1,5 +1,7 @@
 # SLAUGHTER MONITOR — Weekly Meatpacking Throughput (SDL-01 leading indicator)
 
+**Scope corrected10/25:** April21 verdict/tables below are HISTORICAL METHOD DEMONSTRATION, not current week. Current data: baselines/slaughter_weekly.tsv; latest accepted w/eOctober24 cattle546K/−4.7%YoY versusYTD−7.2%, hogs+1.5%; KB-WFD-23. No new national labor cliff established. The cron block below is an old recommendation, not an installed/authorized job.
+
 **Owner:** MARCO | **Built:** 2026-04-21 | **Script:** `tools/slaughter_pull.py` | **Data:** `baselines/slaughter_weekly.tsv`
 
 ---

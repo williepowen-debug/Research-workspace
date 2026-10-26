@@ -1,5 +1,5 @@
 # MARCO FINDINGS INDEX
-**Last Updated:** 2026-09-24 (s30 stale sweep — vintage flags on the bucket claims; prior 2026-06-15) | **Purpose:** Category map of MARCO research docs. Not a synthesis — a navigator. For live state see `STATUS.md`.
+**Last Updated:** 2026-10-25 (s37 index/method reconciliation; dated studies remain historical). PRIOR: 2026-09-24 (s30 stale sweep — vintage flags on the bucket claims; prior 2026-06-15) | **Purpose:** Category map of MARCO research docs. Not a synthesis — a navigator. For live state see `STATUS.md`.
 
 ---
 
@@ -13,7 +13,7 @@ Each section below is a **thesis bucket**. Under each bucket: the research docs 
 
 ## SDL-01 — foreign-born labor-force change (Will-ruled basis; current grade in VX/STATUS)
 
-**Core claim:** a structural foreign-born labor-supply shock — **~1.0M realized labor-force decline / ~1.5M population** (NFAP/BLS-CPS; FRED LNU01073395), not cyclical. *(RE-MARKED v2.6, 2026-07-02: the prior "~2.2M self-deported (CBO)" figure was wrong — a mis-attributed disputed-DHS claim, NOT CBO, which estimates ≈290K+30K voluntary; direction/mechanism unchanged. Corroborated by June-2026 total LF −1M+ YoY. See thesis magnitude note + KB-MARCO-WFD-SDL-02.)* Transmission quantified via 1930s historical template.
+**Current evidence:** quantity and grade live in VX/STATUS; September foreign-born LF+206KYoY with population-control caveat. Channel1 transmission UNDEMONSTRATED. CBO2025 range in old KB-WFD-04 withdrawn10/25 (WFD-24); no replacement estimate adopted. Historical1930s studies are analogies, not identified present elasticities.
 
 📁 `domain/sources/SDL/`
 
@@ -22,17 +22,17 @@ Each section below is a **thesis bucket**. Under each bucket: the research docs 
 | `SDL_HISTORICAL_ANALOGS.md` | 1929-33 Mexican Repatriation, 1954 Operation Wetback, 2008-11 Recession — transmission templates and timelines (weeks to 5+yr). |
 | `BANXICO_STATE_REVERSE.md` | Historical reverse-map methodology; retired as a spatial test 10/14 (fixed weights cannot identify concentrated US-state losses). Current transaction evidence in VX/STATUS. |
 
-🔧 Live tool: `tools/banxico_reverse.py` → `baselines/us_state_sender_implied.tsv`
+Historical model tool, retired as a spatial identification test: `tools/banxico_reverse.py` → `baselines/us_state_sender_implied.tsv`
 
-**Transmission elasticities (Santanna/Xu NBER 1930s paper, cited in SDL_HISTORICAL_ANALOGS):**
+**Historical-paper elasticities only (not calibrated to current episode; Santanna/Xu paper cited in SDL_HISTORICAL_ANALOGS):**
 - 8.2pp house value decline per 1% Mexican population drop in a city
 - 13.3pp building permit decline per 1 SD repatriation exposure
 
 ---
 
-## 🟡 EMG-01 — American Emigration (PENDING/watch, 65% conf)
+## 🟡 EMG-01 — American Emigration (LOW/watch; no separate bucket probability)
 
-**Core claim:** US-born citizen emigration rising (IRS expatriation list H1 2026 3,243 names, +38.5% YoY, trailing-4Q 5,790 — 9/24 FR count; the old "Q1 2025 +102% YoY" was quarter-on-quarter; Brookings net migration negative first time since ~1935). WSJ "1930s levels" headline PARTIALLY SUPPORTED. Not tradeable yet — 2-3yr watch.
+**Current scope:** IRS covered-expatriate notices are a measured, lumpy receipt-quarter list, not US-born citizen-emigration totals. Current annual-band grade/source availability live inVX-EMG-01; citizen-emigration scale remains UNSCORED. The1930s comparison lacks a citizen-emigration denominator. Unsupported CBO net-migration attribution withdrawn10/25; a Brookings model is a different quantity from citizen departures. Historical studies below retain their own dates.
 
 📁 `domain/sources/EMG/`
 
@@ -56,7 +56,7 @@ Each section below is a **thesis bucket**. Under each bucket: the research docs 
 | `AG_LABOR_ALT_SOURCES_MAR26.md` | Replacement framework for canceled NASS/NAWS surveys. OFLC H-2A + BLS QCEW + NASS Crop Progress + State H-2A visas + CPI F&V. |
 | `OFLC_H2A_PULL.md` | H-2A certified FY25 = 398,059 (prior "415K" was positions REQUESTED). FY22→25 trajectory, +9.3% apps, FL #1 at 56,818. Wayback CDX methodology for Akamai wall. |
 | `SLAUGHTER_MONITOR.md` | Weekly USDA multi-species throughput. Cattle -11.1% is 75yr-low herd cycle (NOT labor). Hog z-score is the clean labor proxy. |
-| `BEEF_BELT_CONSOLIDATION.md` | Why Tyson/JBS/Cargill plant closures in Great Plains are SEPARATE from SDL-01. 1990-wave immigrant workers relocate within US, don't self-deport. Candidate for VX-BEEFBELT-01 distinct vector. |
+| `BEEF_BELT_CONSOLIDATION.md` | Why Tyson/JBS/Cargill plant closures in Great Plains are SEPARATE from SDL-01. 1990-wave immigrant workers relocate within US, don't self-deport. Historical candidate only; no new vector/collector commissioned. |
 
 🔧 Live tools: `tools/h2a_pull.py`, `tools/slaughter_pull.py`
 

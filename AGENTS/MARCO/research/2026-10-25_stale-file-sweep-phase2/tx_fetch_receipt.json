@@ -1,0 +1,5 @@
+{
+  "url": "https://data.texas.gov/resource/vfba-b57j.json?%24where=report_year%3D%272026%27+AND+report_period_type%3D%27MONTHLY%27+AND+report_month+in%28%279%27%2C%2710%27%29&%24limit=5000",
+  "status": 200,
+  "retrieved": "2026-10-25"
+}

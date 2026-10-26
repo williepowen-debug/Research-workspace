@@ -1,0 +1,83 @@
+{
+  "as_of": "2026-10-25",
+  "checks": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "name": "tsv",
+        "chunk_id": "bb5307",
+        "wall_time_seconds": 0.000014303,
+        "exit_code": 0,
+        "original_token_count": 110,
+        "output": "\n========================================================================\n  MARCO tsvutil Self-Test — reader agreement · line-number truth · round-trip\n========================================================================\n\n  ✓ thesis/PREDICTIONS.tsv\n  ✓ workbook/VX.tsv\n  ✓ workbook/KB.tsv\n  ✓ workbook/FLOW.tsv\n  ✓ workbook/MIGRATION_PROXIES.tsv\n  ✓ docket/CATALYSTS.tsv\n\n  ✅ clean — 6 ledgers, 4 invariants each.\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "name": "drift",
+        "chunk_id": "d9ed83",
+        "wall_time_seconds": 0.000012183,
+        "exit_code": 0,
+        "original_token_count": 175,
+        "output": "========================================================================\n  MARCO Version / Residue Drift Check — 2026-10-25\n========================================================================\n  canonical thesis version: v3.2\n  CHECKED: 14 surfaces (class V, C) + the git index (class B)\n  NOT checked: thesis/THESIS.md (it is the source of truth) · workbook/*.tsv · inbox/ · outbox/ · domain/sources/ · research/ · baselines/ · sub_agents/\n  NOT built (measured 8/12, no signal): forward-language-vs-passed-date (21/21 false positives) · resolved-ID-written-as-pending (2/2 false positives)\n\n  ✓ clean — no canonical-version drift, no duplicated stamps, no half-staged renames.\n\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "name": "staleness",
+        "chunk_id": "8ac1c5",
+        "wall_time_seconds": 0.00001615,
+        "exit_code": 0,
+        "original_token_count": 190,
+        "output": "\n========================================================================\n  MARCO Staleness Check — 2026-10-25 23:31\n========================================================================\n\n  ✓ STATUS.md last updated 2026-10-25 (0d ago)\n\n  ✓ workbook integrity — no duplicate IDs, no ragged rows\n\n  VX.tsv — 3/57 vectors >60d  [🔴 0 loaded-status · 1 stale-by-design (awaiting scheduled print / no primary) · 2 other · 21 excluded FROZEN/RETIRED]\n    🟠 VX-MARCO-TX-01      65d  (2026-08-21)  UNSCORED — no live months-of-supply source (was ELEVATED) Texas Housing Inventory\n    🟠 VX-MARCO-H2A-02     65d  (2026-08-21)  ELEVATED (re-marked UP 2026-08-21 — my own NORMAL de-mark earlier today was wrong) H-2A Processing Vulnerability\n\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "name": "catalyst",
+        "chunk_id": "cf8929",
+        "wall_time_seconds": 0.00001623,
+        "exit_code": 0,
+        "original_token_count": 795,
+        "output": "\n========================================================================\n  MARCO Catalyst Countdown — 2026-10-25 23:31  (30-day horizon)\n========================================================================\n\n  📅 DUE within 30d (14):\n    🟠 Wed Oct 28  in  3d (3 bd)  MIA September 2026 Traffic Report (Miami-Dade PDF) — MI\n         ↳ Aug -5.69% YoY / -6.53% 2-yr. Sep negative => MIA negative 2 consecutive months on the AIRPORT basis\n    🟠 Wed Oct 28  in  3d (3 bd)  LVCVA SEPTEMBER 2026 Executive Summary — the Labor Day \n         ↳ PRE-REGISTERED 2026-10-14 (before Sep exists): Aug+Sep COMBINED RevPAR YoY negative ⇒ the room-dolla\n    🟠 Mon Nov 02  in  8d (6 bd)  Banxico SEPTEMBER 2026 remittances (CE81)\n         ↳ VX-2.08 band on count YoY (Sep-25 base 13,418.9k). Tracking only — the remittance re-spec is already\n    🟠 Mon Nov 02  in  8d (6 bd)  October CA farm attendance/output disruption — persiste\n         ↳ Local disruption reported, not statewide shortage. Persistent output/cost evidence can refine existi\n    🟠 Tue Nov 03  in  9d (7 bd)  FL property-tax Amendment 3 / HJR 1F vote\n         ↳ PASSES = new-resident homestead exemption capped $50K/5yr vs $150K->$250K for existing = structural \n    🟡 Thu Nov 05  in 11d (9 bd)  Realtor.com OCTOBER 2026 inventory — VX-MARCO-AZ-01 FIR\n         ↳ PRE-REGISTERED 2026-10-14 22:02 EDT: excess <+10 NORMAL · +10..+25 ELEVATED · +25..+40 CRITICAL · ≥+\n    🟡 Fri Nov 06  in 12d (10 bd)  BLS Employment Situation OCTOBER — foreign-born labor f\n         ↳ None graded: Oct-2025 has no BLS value, so the ruled YoY letter cannot be computed. Read the level a\n    🔴 Tue Nov 10  in 16d (12 bd)  🔴 ENR-02 leg 2 of 2 — CPI airline fares OCTOBER (grades\n         ↳ FULL LETTER (moved here 2026-10-14 when the leg-1 row was pruned to TIMELINE): ENR-02 PRE-REGISTERED\n    🟡 Thu Nov 12  in 18d (14 bd)  H-2A wage-rule court status checkpoint\n         ↳ Verify live procedural state before projecting wage cost. Back pay remains contingent; no current ra\n    🟠 Fri Nov 13  in 19d (15 bd)  StatCan OCTOBER travel — ID-01 leg 2 (decides ID-01)\n         ↳ ID-01 (pre-committed 9/19, PROME-confirmed 9/22): Oct gap move ≤−2.5pp from the Aug −4.72 baseline A\n    🟡 Sun Nov 15  in 21d (15 bd)  OFLC H-2A FY2026_Q4 disclosure — MAR-11 FORMAL RESOLVE \n         ↳ on-pace for >425K = Pred MAR-11 (72%) on track; processing bottleneck (not demand) persists\n    🟡 Sun Nov 15  in 21d (15 bd)  NTTO OCTOBER 2026 arrivals + BTS AUGUST T-100 (MCO/FLL/\n         ↳ VX-1.02: ≥25% below 2019 = BREACHED (Sep −22.40%). BTS Aug: 2nd Q3 month for MAR-24; MIA BTS Aug vs \n    🟡 Mon Nov 16  in 22d (16 bd)  FL Realtors OCTOBER 2026 — FL months of supply (condo/T\n         ↳ VX-FL-02 bands per leg: condo 6–9 CRITICAL, ≥9 BREACHED (MAR-08 >9.0 re-engage); SF 4–6 ELEVATED. Se\n    🟡 Fri Nov 20  in 26d (20 bd)  BLS State Employment (OCTOBER data) — VX-2.06 construct\n         ↳ Band letter per print: gap ≥2.0pp ELEVATED, <2.0 NORMAL. Sep prelim +1.91pp (NORMAL, 0.09pp margin);\n\n  · Beyond 30d: 12 more catalyst(s) (use --all)\n\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "name": "due",
+        "chunk_id": "061acc",
+        "wall_time_seconds": 0.00001715,
+        "exit_code": 0,
+        "original_token_count": 146,
+        "output": "\n========================================================================\n  MARCO Predictions / Expected-Signals Due Scan — 2026-10-25 23:31\n========================================================================\n\n  PREDICTIONS — 4 OPEN\n\n  🔴 DUE for resolution — window passed (2):\n    MAR-11   window ended 2026-09-30 (25d ago) | FY 2026\n         ↳ H-2A certifications >425K\n    MAR-24   window ended 2026-09-30 (25d ago) | Q3 2026\n         ↳ All 3 FL airports negative simultaneously\n\n  EXPECTED SIGNALS — 1 active\n    ✓ no active expected-signal past deadline\n\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "name": "read_cap",
+        "chunk_id": "321f34",
+        "wall_time_seconds": 0.000010718,
+        "exit_code": 0,
+        "original_token_count": 587,
+        "output": "READ-CAP [MARCO] — cap 54,250 B · budget 32,550 B (60%) · ALL % BELOW ARE OF BUDGET (the number every verdict grades; ≥100% = over) · perimeter: 3 boot section(s) in CLAUDE.md, 12 'read' line(s) scanned (0 on-demand/grep + 0 SCOPED-read token(s) excluded by marker; 0 list item(s) inherited the parent line's read verb, L530), 4 whole-read file(s) found; boot.py-internal reads and prose outside the boot section NOT seen (heuristic — READS.tsv replaces it)\n  ✅ STATUS.md                            23,742 B    73% of budget    (boot-step line 23 · ALSO read whole by NEXUS:6)\n      ↳ 70–75% BAND — rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 958 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. ⚠️ Headroom to the trigger: 670 B.\n  ✅ MEMORY.md                            22,345 B    69% of budget    (boot-step line 25)\n  ✅ NEXUS_BRIEF.md                       11,970 B    37% of budget    (boot-step line 20 · ALSO read whole by NEXUS:6)\n  ✅ SCRATCH.md                            2,943 B     9% of budget    (boot-step line 24)\n✅ READ-CAP 0 [MARCO]: every boot-mandated read this check found is under budget (4 file(s)). ⚠️ PERIMETER IS THE CHARTER HEURISTIC — this desk has no declaration in PROME/registry/READS.tsv, so this is 'clean within what the scan found', NOT a clean bill. 29 of 37 desks delegate boot to a file it cannot see.\n  ℹ️  charter AGENTS/MARCO/CLAUDE.md = 32,487 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here\n  ℹ️  OWNER-DIRECTED NOTICE [MARCO] (READ_CAP rule 15): no file under AGENTS/MARCO/ is loaded whole by another desk OUTSIDE this desk's own perimeter (manifest scanned, CLASS rows expanded); 2 file(s) this desk also reads are annotated `ALSO read whole by` in the table above — nothing further to report.\nREAD-CAP-RESULT v1 mode=agent rc=0 assessed=1 desk=MARCO reads=4 over_budget=0 over_cap=0 manifest_defects=0 advisories=0 generated_flagged=0 rotation_due=0 active_decisions_over_budget=0 charter_mode=unspecified charter_reads=0 owner_notices=0 owner_notices_over_budget=0 charter_bytes=32487\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "name": "invariants",
+        "chunk_id": "7a83b1",
+        "wall_time_seconds": 0.000010621,
+        "exit_code": 0,
+        "original_token_count": 10,
+        "output": "PASS 255 field/basis/history invariants\n"
+      }
+    }
+  ],
+  "pin": "Final STATUS pin receipt appended after owner-state commit."
+}

@@ -1,5 +1,7 @@
 # MARCO — LOAD-BEARING FIGURE REGISTER
 
+**Current-use reconciliation2026-10-25:** this is a DATED verification log. July31 §1–3 and subsequent dated blocks preserve past checks, not a claim all carried/unavailable rows are current. Supersessions: MCO unblocked8/21/MAR22 resolved; September voter proxies inMIG-09; CBO2025 range withdrawn/UNSCORED(WFD-24), including prior “correct” endorsement; current migration/proxy and source states inVX/STATUS. Latest bounded source receipt: `research/2026-10-25_stale-file-sweep-phase2/source_checks.md`. October25 new observations: Sepemploymentgap−0.78pp, L&HFL23.87/US23.90, fixedZHVIspread4.48pp, Austin−4.31%/44months,DOM81/+7.05%,JanOct border+5.77%,BEATTM−$3.125B. No historical verification date rewritten. Section5 frozen snapshot/rebuild language is historical; current border-terminus authority is the completed9/24 v3.2 rebuild, not a new rebuild task.
+
 **Created:** 2026-07-31 (session 19) · **Last verification pass:** 2026-10-21 (session 33 — PROME wave-3 catch-up: state AHE, FL months of supply, CPS population controls, Section 338 scope; see §1 10/21 s33). PRIOR: 2026-09-24 (session 30 — stale-row sweep: remittances, IRS, StatCan Q2 BOP, state AHE, voter-reg cycle; see §1 9/24 s30). PRIOR: 2026-09-24 (session 29 — airfares, TX border receipts, border-muni credit; see §1 9/24 s29). PRIOR: 2026-09-17 (session 26 — enrollment + Canadian perimeter rows; the 7/31 pass rows stand as dated)
 
 > ## ⚠️ THIS IS A VERIFICATION LOG, NOT A SOURCE OF TRUTH

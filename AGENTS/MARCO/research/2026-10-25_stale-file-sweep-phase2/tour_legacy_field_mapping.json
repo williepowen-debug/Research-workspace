@@ -1,0 +1,44 @@
+[
+  {
+    "id": "TOUR-02",
+    "before_fields": [
+      "TOUR-02",
+      "Las Vegas Canadian visitor share (of total visitors) drops below 5%",
+      "Q2-Q3 2026",
+      "RESOLVED",
+      "2026-05-31",
+      "RESOLVED-CORRECT (disambiguated). 2025 Canadian = 1,196,300 / 38.5M total = ~3.1%, already <5%; 2026 reinforcing (-17.4% YoY 2025; WestJet/AC route cuts). NB: original metric ambiguous -- share-of-INTERNATIONAL reading (~25%, Canada=#1 intl market) is structurally unreachable, so resolved on the share-of-total reading. Mechanism (capacity collapse) intact."
+    ],
+    "after_fields_before_note": [
+      "TOUR-02",
+      "Las Vegas Canadian visitor share (of total visitors) drops below 5%",
+      "Q2-Q3 2026",
+      "",
+      "RESOLVED",
+      "2026-05-31",
+      "RESOLVED-CORRECT (disambiguated). 2025 Canadian = 1,196,300 / 38.5M total = ~3.1%, already <5%; 2026 reinforcing (-17.4% YoY 2025; WestJet/AC route cuts). NB: original metric ambiguous -- share-of-INTERNATIONAL reading (~25%, Canada=#1 intl market) is structurally unreachable, so resolved on the share-of-total reading. Mechanism (capacity collapse) intact."
+    ],
+    "mapping": "Original header7; RESOLVED status/ISO date/outcome Notes uniquely map to columns5/6/7. Insert only empty Confidence; all6 original fields identical and same order. No original confidence inferred."
+  },
+  {
+    "id": "TOUR-04",
+    "before_fields": [
+      "TOUR-04",
+      "MIA flips YoY negative (tests Pred #24 / MAR-22 condition)",
+      "Q2 2026",
+      "RESOLVED",
+      "2026-05-31",
+      "RESOLVED-CORRECT. MIA total pax: Mar 2026 -1.76%, Apr 2026 -2.02% (two consecutive negative months, within Q2 window). Intl Mar -2.79%; Apr DOMESTIC -3.27% = broader-demand signal beyond Canadian. Anchor-airport thesis confirmed cracking. Source: miami-airport.com monthly reports."
+    ],
+    "after_fields_before_note": [
+      "TOUR-04",
+      "MIA flips YoY negative (tests Pred #24 / MAR-22 condition)",
+      "Q2 2026",
+      "",
+      "RESOLVED",
+      "2026-05-31",
+      "RESOLVED-CORRECT. MIA total pax: Mar 2026 -1.76%, Apr 2026 -2.02% (two consecutive negative months, within Q2 window). Intl Mar -2.79%; Apr DOMESTIC -3.27% = broader-demand signal beyond Canadian. Anchor-airport thesis confirmed cracking. Source: miami-airport.com monthly reports."
+    ],
+    "mapping": "Original header7; RESOLVED status/ISO date/outcome Notes uniquely map to columns5/6/7. Insert only empty Confidence; all6 original fields identical and same order. No original confidence inferred."
+  }
+]
