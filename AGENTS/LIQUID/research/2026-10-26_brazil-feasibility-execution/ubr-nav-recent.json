@@ -1,0 +1,104 @@
+{
+  "fields": [
+    "Date",
+    "ProShares Name",
+    "Ticker",
+    "NAV",
+    "Prior NAV",
+    "NAV Change (%)",
+    "NAV Change ($)",
+    "Shares Outstanding (000)",
+    "Assets Under Management"
+  ],
+  "recent": [
+    {
+      "Date": "10/23/2026",
+      "ProShares Name": "ProShares Ultra MSCI Brazil Capped",
+      "Ticker": "UBR",
+      "NAV": "42.4781",
+      "Prior NAV": "41.0513",
+      "NAV Change (%)": "3.47565",
+      "NAV Change ($)": "1.4268",
+      "Shares Outstanding (000)": "91.56",
+      "Assets Under Management": "3889167.4017"
+    },
+    {
+      "Date": "10/22/2026",
+      "ProShares Name": "ProShares Ultra MSCI Brazil Capped",
+      "Ticker": "UBR",
+      "NAV": "41.0513",
+      "Prior NAV": "42.3738",
+      "NAV Change (%)": "-3.12103",
+      "NAV Change ($)": "-1.3225",
+      "Shares Outstanding (000)": "91.56",
+      "Assets Under Management": "3758533.8741"
+    },
+    {
+      "Date": "10/21/2026",
+      "ProShares Name": "ProShares Ultra MSCI Brazil Capped",
+      "Ticker": "UBR",
+      "NAV": "42.3738",
+      "Prior NAV": "43.2472",
+      "NAV Change (%)": "-2.01955",
+      "NAV Change ($)": "-0.8734",
+      "Shares Outstanding (000)": "91.56",
+      "Assets Under Management": "3879618.0066"
+    },
+    {
+      "Date": "10/20/2026",
+      "ProShares Name": "ProShares Ultra MSCI Brazil Capped",
+      "Ticker": "UBR",
+      "NAV": "43.2472",
+      "Prior NAV": "41.2581",
+      "NAV Change (%)": "4.82111",
+      "NAV Change ($)": "1.9891",
+      "Shares Outstanding (000)": "91.56",
+      "Assets Under Management": "3959583.8904"
+    },
+    {
+      "Date": "10/19/2026",
+      "ProShares Name": "ProShares Ultra MSCI Brazil Capped",
+      "Ticker": "UBR",
+      "NAV": "41.2581",
+      "Prior NAV": "41.0679",
+      "NAV Change (%)": "0.46314",
+      "NAV Change ($)": "0.1902",
+      "Shares Outstanding (000)": "91.56",
+      "Assets Under Management": "3777467.8617"
+    },
+    {
+      "Date": "10/16/2026",
+      "ProShares Name": "ProShares Ultra MSCI Brazil Capped",
+      "Ticker": "UBR",
+      "NAV": "41.0679",
+      "Prior NAV": "40.6009",
+      "NAV Change (%)": "1.15022",
+      "NAV Change ($)": "0.467",
+      "Shares Outstanding (000)": "91.56",
+      "Assets Under Management": "3760053.7203"
+    },
+    {
+      "Date": "10/15/2026",
+      "ProShares Name": "ProShares Ultra MSCI Brazil Capped",
+      "Ticker": "UBR",
+      "NAV": "40.6009",
+      "Prior NAV": "42.6421",
+      "NAV Change (%)": "-4.78682",
+      "NAV Change ($)": "-2.0412",
+      "Shares Outstanding (000)": "91.56",
+      "Assets Under Management": "3717296.6013"
+    },
+    {
+      "Date": "10/14/2026",
+      "ProShares Name": "ProShares Ultra MSCI Brazil Capped",
+      "Ticker": "UBR",
+      "NAV": "42.6421",
+      "Prior NAV": "43.1931",
+      "NAV Change (%)": "-1.27567",
+      "NAV Change ($)": "-0.551",
+      "Shares Outstanding (000)": "91.56",
+      "Assets Under Management": "3904182.7497"
+    }
+  ],
+  "scope": "issuer history as retrieved; no October26 row; share count shown in thousands and rounded"
+}

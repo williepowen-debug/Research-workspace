@@ -1,0 +1,23 @@
+{
+  "br-auctions-all.xls": {
+    "url": "https://sisweb.tesouro.gov.br/apex/cosis/rleiloes/arquivos/todos/desc/historico-leiloes-todos.xls",
+    "retrieved_utc": "2026-10-26T22:57:39.431893+00:00",
+    "status": 200,
+    "bytes": 5146112,
+    "magic": "b'\\xd0\\xcf\\x11\\xe0\\xa1\\xb1\\x1a\\xe1\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00'"
+  },
+  "ubr-financials.pdf": {
+    "url": "https://www.proshares.com/globalassets/proshares/documents/annual-reports/annual_proshares_geared_financial_statement.pdf",
+    "retrieved_utc": "2026-10-26T22:57:39.432554+00:00",
+    "status": 200,
+    "bytes": 12229760,
+    "magic": "b'%PDF-1.4\\r%\\xe2\\xe3\\xcf\\xd3\\r\\n'"
+  },
+  "ubr-statutory.pdf": {
+    "url": "https://www.proshares.com/globalassets/proshares/prospectuses/statutory_prospectus.pdf",
+    "retrieved_utc": "2026-10-26T22:57:39.433103+00:00",
+    "status": 200,
+    "bytes": 15064109,
+    "magic": "b'%PDF-1.5\\r%\\xe2\\xe3\\xcf\\xd3\\r\\n'"
+  }
+}

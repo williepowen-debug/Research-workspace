@@ -1,0 +1,85 @@
+{
+  "ubr-nav.csv": {
+    "url": "https://accounts.profunds.com/etfdata/ByFund/UBR-historical_nav.csv",
+    "retrieved_utc": "2026-10-26T22:57:05.064351+00:00",
+    "status": 200,
+    "bytes": 427619,
+    "content_type": "text/csv",
+    "head": [
+      "Date,ProShares Name,Ticker,NAV,Prior NAV,NAV Change (%),NAV Change ($),Shares Outstanding (000),Assets Under Management",
+      "10/23/2026,ProShares Ultra MSCI Brazil Capped,UBR,42.4781,41.0513,3.47565,1.4268,91.56,3889167.4017",
+      "10/22/2026,ProShares Ultra MSCI Brazil Capped,UBR,41.0513,42.3738,-3.12103,-1.3225,91.56,3758533.8741",
+      "10/21/2026,ProShares Ultra MSCI Brazil Capped,UBR,42.3738,43.2472,-2.01955,-0.8734,91.56,3879618.0066",
+      "10/20/2026,ProShares Ultra MSCI Brazil Capped,UBR,43.2472,41.2581,4.82111,1.9891,91.56,3959583.8904",
+      "10/19/2026,ProShares Ultra MSCI Brazil Capped,UBR,41.2581,41.0679,0.46314,0.1902,91.56,3777467.8617"
+    ]
+  },
+  "ubr-summary.pdf": {
+    "url": "https://www.proshares.com/globalassets/proshares/prospectuses/ubr_summary_prospectus.pdf",
+    "retrieved_utc": "2026-10-26T22:57:05.065031+00:00",
+    "status": 200,
+    "bytes": 313515,
+    "content_type": "application/pdf"
+  },
+  "ubr-statutory.html": {
+    "url": "https://www.proshares.com/regulatory-document-viewer-page?document-label=statutory-prospectus&ticker=UBR",
+    "retrieved_utc": "2026-10-26T22:57:05.065474+00:00",
+    "status": 200,
+    "bytes": 17129,
+    "content_type": "text/html; charset=utf-8",
+    "pdf_links": [
+      "/globalassets/proshares/prospectuses/ubr_summary_prospectus.pdf",
+      "/globalassets/proshares/prospectuses/statutory_prospectus.pdf",
+      "/globalassets/proshares/prospectuses/statement_of_additional_information.pdf",
+      "/globalassets/proshares/documents/annual-reports/annual_ubr.pdf",
+      "/globalassets/proshares/documents/semi-annual-reports/semiannual_ubr.pdf",
+      "/globalassets/proshares/documents/annual-reports/annual_proshares_geared_financial_statement.pdf",
+      "/globalassets/proshares/documents/semi-annual-reports/proshares_geared_semi_annual_financial_statement.pdf",
+      "/globalassets/proshares/documents/quarterly-holdings/proshares_geared_1q_detailed_holdings.pdf",
+      "/globalassets/proshares/documents/quarterly-holdings/proshares_geared_3q_detailed_holdings.pdf",
+      "/globalassets/proshares/prospectuses/ubr_summary_prospectus.pdf",
+      "/globalassets/proshares/prospectuses/statutory_prospectus.pdf",
+      "/globalassets/proshares/prospectuses/statement_of_additional_information.pdf",
+      "/globalassets/proshares/documents/annual-reports/annual_ubr.pdf",
+      "/globalassets/proshares/documents/semi-annual-reports/semiannual_ubr.pdf",
+      "/globalassets/proshares/documents/annual-reports/annual_proshares_geared_financial_statement.pdf",
+      "/globalassets/proshares/documents/semi-annual-reports/proshares_geared_semi_annual_financial_statement.pdf",
+      "/globalassets/proshares/documents/quarterly-holdings/proshares_geared_1q_detailed_holdings.pdf",
+      "/globalassets/proshares/documents/quarterly-holdings/proshares_geared_3q_detailed_holdings.pdf"
+    ]
+  },
+  "ubr-financials.html": {
+    "url": "https://www.proshares.com/regulatory-document-viewer-page?document-label=annual-financial-statement&ticker=UBR",
+    "retrieved_utc": "2026-10-26T22:57:05.065956+00:00",
+    "status": 200,
+    "bytes": 17141,
+    "content_type": "text/html; charset=utf-8",
+    "pdf_links": [
+      "/globalassets/proshares/prospectuses/ubr_summary_prospectus.pdf",
+      "/globalassets/proshares/prospectuses/statutory_prospectus.pdf",
+      "/globalassets/proshares/prospectuses/statement_of_additional_information.pdf",
+      "/globalassets/proshares/documents/annual-reports/annual_ubr.pdf",
+      "/globalassets/proshares/documents/semi-annual-reports/semiannual_ubr.pdf",
+      "/globalassets/proshares/documents/annual-reports/annual_proshares_geared_financial_statement.pdf",
+      "/globalassets/proshares/documents/semi-annual-reports/proshares_geared_semi_annual_financial_statement.pdf",
+      "/globalassets/proshares/documents/quarterly-holdings/proshares_geared_1q_detailed_holdings.pdf",
+      "/globalassets/proshares/documents/quarterly-holdings/proshares_geared_3q_detailed_holdings.pdf",
+      "/globalassets/proshares/prospectuses/ubr_summary_prospectus.pdf",
+      "/globalassets/proshares/prospectuses/statutory_prospectus.pdf",
+      "/globalassets/proshares/prospectuses/statement_of_additional_information.pdf",
+      "/globalassets/proshares/documents/annual-reports/annual_ubr.pdf",
+      "/globalassets/proshares/documents/semi-annual-reports/semiannual_ubr.pdf",
+      "/globalassets/proshares/documents/annual-reports/annual_proshares_geared_financial_statement.pdf",
+      "/globalassets/proshares/documents/semi-annual-reports/proshares_geared_semi_annual_financial_statement.pdf",
+      "/globalassets/proshares/documents/quarterly-holdings/proshares_geared_1q_detailed_holdings.pdf",
+      "/globalassets/proshares/documents/quarterly-holdings/proshares_geared_3q_detailed_holdings.pdf"
+    ]
+  },
+  "br-auction-dataset.json": {
+    "url": "https://www.tesourotransparente.gov.br/ckan/api/3/action/package_show?id=402f46f7-51a2-474f-be54-ec0f258c83f6",
+    "retrieved_utc": "2026-10-26T22:57:05.066517+00:00",
+    "status": 200,
+    "bytes": 25235,
+    "content_type": "application/json;charset=utf-8"
+  }
+}

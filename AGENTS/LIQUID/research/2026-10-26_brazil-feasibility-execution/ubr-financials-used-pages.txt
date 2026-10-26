@@ -1,0 +1,273 @@
+PROSHARES TRUST Distributor: SEI Investments Distribution Co.
+Annual Financial 
+Statements and 
+Additional Information
+MAY 31, 2026
+Short 7-10 Year Treasury TBX
+Short 20+ Year Treasury TBF
+Short Dow30SM DOG
+Short Financials SEF
+Short FTSE China 50 YXI
+Short High Yield SJB
+Short MidCap400 MYY
+Short MSCI EAFE EFZ
+Short MSCI Emerging Markets EUM
+Short QQQ® PSQ
+Short Real Estate REK
+Short Russell2000 RWM
+Short S&P500® SH
+Short SmallCap600 SBB
+Ultra 7-10 Year Treasury UST
+Ultra 20+ Year Treasury UBT
+Ultra Communication Services LTL
+Ultra Consumer Discretionary UCC
+Ultra Consumer Staples UGE
+Ultra Copper K-1 Free ETF UCOP
+Ultra Dow30SM DDM
+Ultra Energy DIG
+Ultra Financials UYG
+Ultra FTSE China 50 XPP
+Ultra FTSE Europe UPV
+Ultra Health Care RXL
+Ultra High Yield UJB
+Ultra Industrials UXI
+Ultra Materials UYM
+Ultra MidCap400 MVV
+Ultra MSCI Brazil Capped UBR
+Ultra MSCI EAFE EFO
+Ultra MSCI Emerging Markets EET
+Ultra MSCI Japan EZJ
+Ultra Nasdaq Biotechnology BIB
+Ultra Nasdaq Cloud Computing SKYU
+Ultra Nasdaq Cybersecurity UCYB
+Ultra Palladium K-1 Free ETF UPAL
+Ultra Platinum K-1 Free ETF UPLT
+Ultra QQQ® QLD
+Ultra QQQ Mega QQUP
+Ultra QQQ Top 30 QQXL
+Ultra Real Estate URE
+Ultra Russell2000 UWM
+Ultra S&P500® SSO
+Ultra S&P 500 Equal Weight URSP
+Ultra Semiconductors USD
+Ultra SmallCap600 SAA
+Ultra Technology ROM
+Ultra Utilities UPW
+UltraPro Dow30SM UDOW
+UltraPro MidCap400 UMDD
+UltraPro QQQ® TQQQ
+UltraPro Russell2000 URTY
+UltraPro S&P500® UPRO
+UltraPro Short 20+ Year Treasury TTT
+UltraPro Short Dow30SM SDOW
+UltraPro Short MidCap400 SMDD
+UltraPro Short QQQ® SQQQ
+UltraPro Short Russell2000 SRTY
+UltraPro Short S&P500® SPXU
+UltraShort 7-10 Year Treasury PST
+UltraShort 20+ Year Treasury TBT
+UltraShort Consumer 
+Discretionary
+SCC
+UltraShort Consumer Staples SZK
+UltraShort Dow30SM DXD
+UltraShort Energy DUG
+UltraShort Financials SKF
+UltraShort FTSE China 50 FXP
+UltraShort FTSE Europe EPV
+UltraShort Health Care RXD
+UltraShort Industrials SIJ
+UltraShort Materials SMN
+UltraShort MidCap400 MZZ
+UltraShort MSCI Brazil Capped BZQ
+UltraShort MSCI EAFE EFU
+UltraShort MSCI Emerging 
+Markets
+EEV
+UltraShort MSCI Japan EWV
+UltraShort Nasdaq 
+Biotechnology
+BIS
+UltraShort QQQ® QID
+UltraShort QQQ Mega QQDN
+UltraShort Real Estate SRS
+UltraShort Russell2000 TWM
+UltraShort S&P500® SDS
+UltraShort Semiconductors SSG
+UltraShort SmallCap600 SDD
+UltraShort Technology REW
+UltraShort Utilities SDP
+
+MAY 31, 2026  ::  ULTRA MSCI BRAZIL CAPPED
+SCHEDULE OF PORTFOLIO INVESTMENTS
+PROSHARES TRUST
+65
+UBR :: 
+See accompanying notes to the financial statements.
+Investments
+Principal 
+Amount Value
+Short-Term Investments — 47.6%
+Repurchase Agreements (a) — 47.6%
+Repurchase Agreements 
+with various counterparties, 
+rates 3.55% - 3.62%, dated 
+5/29/2026, due 6/1/2026, total 
+to be received $1,831,880
+(Cost $1,831,330)  $  1,831,330  $  1,831,330
+Total Investments — 47.6%  
+(Cost $1,831,330)     1,831,330
+Other assets less liabilities — 52.4%    2,012,855
+Net Assets — 100.0%  $  3,844,185
+ 
+ 
+(a) The Fund invests in Repurchase Agreements jointly with other 
+funds in the Trust. See "Repurchase Agreements" in the Notes 
+to Financial Statements to view the details of each individual 
+agreement and counterparty as well as a description of the 
+securities subject to repurchase.
+As of May 31, 2026, the gross unrealized appreciation (depreciation) 
+of investments based on the aggregate cost of investment securities 
+and derivative instruments, if applicable, for federal income tax 
+purposes was as follows:
+Aggregate gross unrealized appreciation  $  864,226
+Aggregate gross unrealized depreciation    (294,063)
+Net unrealized appreciation  $  570,163
+Federal income tax cost  $  1,831,330
+Swap Agreementsa
+Ultra MSCI Brazil Capped had the following open non-exchange traded total return swap agreements as of May 31, 2026:
+Notional 
+Amount   
+($) 
+A
+Termination 
+Dateb 
+A
+Counterparty 
+A
+Rate Paid 
+(Received)c 
+A
+Reference 
+Instrument 
+A
+Value and 
+Unrealized 
+Appreciation/ 
+(Depreciation)d  
+($) 
+A
+Financial 
+Instruments for 
+the Benefit of 
+(the Fund)/the 
+Counterparty 
+($) 
+A
+Cash Collateral 
+for the 
+Benefit of 
+(the Fund)/the 
+Counterparty 
+($) 
+A
+Net 
+Amounte  
+($) 
+A
+801,357 11/6/2026
+Bank of 
+America NA 4.62%
+iShares® MSCI Brazil 
+Capped ETFf    232,519    (232,519)    —    —
+2,182,804 11/6/2026 Citibank NA 4.42%
+iShares® MSCI Brazil 
+Capped ETFf    402,759    (402,759)    —    —
+1,308,554 11/6/2026
+Goldman Sachs 
+International 4.12%
+iShares® MSCI Brazil 
+Capped ETFf    (117,814)    —    117,814    —
+283,426 11/6/2026
+Societe 
+Generale 4.02%
+iShares® MSCI Brazil 
+Capped ETFf    228,948    (228,948)    —    —
+3,113,457 11/6/2026 UBS AG 4.02%
+iShares® MSCI Brazil 
+Capped ETFf    (176,249)    —    176,249    —
+7,689,598    570,163
+Total Unrealized 
+Appreciation    864,226
+Total Unrealized 
+Depreciation    (294,063)
+a The Fund's Swap Agreements are not accounted for as hedging instruments under ASC 815.
+b Agreements may be terminated at will by either party without penalty. Payment is due at termination/maturity.
+c Reflects the floating financing rate, as of May 31, 2026, on the notional amount of the swap agreement paid to the counterparty or received from the counterparty, 
+excluding any commissions. This amount is included as part of the unrealized appreciation/(depreciation).
+d The Fund discloses amounts due to the Fund from the counterparty (unrealized appreciation on swap agreements) at period end as an asset on its Statement of 
+Assets and Liabilities. Amounts due to the counterparty from the Fund (unrealized depreciation on swap agreements) are disclosed as a liability on its Statement of 
+Assets and Liabilities. The Fund presents these amounts on a gross basis and does not offset or "net" these amounts on its Statement of Assets and Liabilities.
+e Represents the "uncollateralized" amount due from or (to) the counterparty at period end. These amounts could be due to timing differences between the movement 
+of collateral in relation to market movements, or due to agreement provisions allowing minimum "thresholds" that would need to be exceeded prior to the movement 
+of collateral. To the extent that a net amount is due from a counterparty, the Fund would be exposed to the counterparty by such amount and could suffer losses or 
+delays in recovery of that amount in the event of a counterparty default.
+f In order to facilitate the daily valuation of these swap transactions as of close of business New York time, one or more financial products traded on a U.S. exchange 
+are used as the reference entity as a surrogate for the respective underlying index for the purposes of both daily valuation calculation as well as final settlement of the 
+swap.
+
+366  ::  MAY 31, 2026  ::  NOTES TO FINANCIAL STATEMENTS
+PROSHARES TRUST
+to the counterparty a floating rate of interest on the notional amount of the swap agreement plus the amount, if any, by which the 
+notional amount would have decreased in value had it been invested in such assets plus, in certain circumstances, commissions 
+or trading spreads on the notional amount. Therefore, the return to the Fund on a long swap should be the gain or loss on the 
+notional amount plus dividends or interest on the assets less the interest paid by the Fund on the notional amount. As a trading 
+technique, the Advisor may substitute physical securities with a swap agreement having investment characteristics substantially 
+similar to the underlying securities.
+Some Funds may also enter into swap agreements that provide the opposite return of their index or a security. These swaps are 
+similar to the long swaps disclosed above except that the counterparty pays interest to each Fund on the notional amount out -
+standing and that dividends or interest on the underlying instruments reduce the value of the swap. In addition, in certain in -
+stances, each Fund will agree to pay to the counterparty commissions or trading spreads on the notional amount. These amounts 
+are netted with any unrealized gain or loss to determine the value of the swap. 
+A Fund’s current obligations under most swap agreements (total return swaps, equity/index swaps, interest rate swaps) will be 
+accrued daily (offset against any amounts owed to the Fund) and any accrued but unpaid net amounts owed to a swap counter -
+party will be covered by segregating or earmarking cash and/or securities determined to be liquid, but typically no payments will 
+be made until the settlement date. Interest income related to segregated cash is reflected on the  Statements of Operations as 
+“Interest.”
+A Fund will not enter into non-exchange traded swap agreements (i.e., not cleared by a central counterparty) unless the Advisor 
+believes that the counterparty to the transaction is creditworthy. The counterparty to a non-exchange traded swap agreement will 
+typically be a major global financial institution. A Fund bears the risk of loss of the amount expected to be received under a swap 
+agreement in the event of the default or bankruptcy of a swap agreement counterparty. If such a default occurs, a Fund will have 
+contractual remedies pursuant to the swap agreements, but such remedies may be subject to bankruptcy and insolvency laws that 
+could affect the Fund’s rights as a creditor.
+In the normal course of business, a Fund enters into International Swaps and Derivatives Association (“ISDA”) agreements with 
+certain counterparties for derivative transactions. These agreements contain, among other conditions, events of default and ter-
+mination events, and various covenants and representations. Certain of the Fund’s ISDA agreements contain provisions that re-
+quire the Fund to maintain a pre-determined level of net assets, and/or provide limits regarding the decline of the Fund’s NAV over 
+specific periods of time, which may or may not be exclusive of redemptions. If the Fund were to trigger such provisions and have 
+open derivative positions at that time, counterparties to the ISDA agreements could elect to terminate such ISDA agreements and 
+request immediate payment in an amount equal to the net liability positions, if any, under the relevant ISDA agreement. Pursuant 
+to the terms of its ISDA agreements, the Fund will have already collateralized its liability under such agreements, in some cases 
+only in excess of certain threshold amounts. The Funds seek to mitigate risks by generally requiring that the counterparties for 
+each Fund agree to post collateral for the benefit of the Fund, marked to market daily, in an amount approximately equal to what 
+the counterparty owes the Fund, subject to certain minimum thresholds, although the Funds may not always be successful. To the 
+extent any such collateral is insufficient or there are delays in accessing the collateral, the Funds will be exposed to risks, includ-
+ing possible delays in recovering amounts as a result of bankruptcy proceedings.
+The use of swaps is a highly specialized activity which involves investment techniques and risks in addition to, and in some cases 
+different from, those associated with ordinary portfolio securities transactions. The primary risks associated with the use of 
+swap agreements are mispricing or improper valuation, imperfect correlation between movements in the notional amount and 
+the price of the underlying investments, and the inability of counterparties or clearing organizations to perform. A Fund may 
+use a combination of swaps on an underlying index and swaps on an ETF that is designed to track the performance of that index, 
+or it may solely use swaps on an ETF to achieve its desired investment exposure. The performance of an ETF may not track the 
+performance of its underlying index due to embedded costs and other factors. Thus, to the extent a Fund invests in swaps that 
+use an ETF as the reference asset, that Fund may be subject to greater correlation risk and may not achieve as high a degree of 
+correlation with its index as it would if the Fund used only swaps on the underlying index. The Advisor, under supervision from 
+the Board, is responsible for determining and monitoring the liquidity of the Funds’ transactions in swap agreements.
+All of the outstanding swap agreements held by the Funds on May 31, 2026 contractually terminate within 23 months but may be 
+terminated without penalty by either party daily. Upon termination, the Fund is entitled to receive or pay the “unrealized appreci-
+ation or depreciation” amount existing at the date of termination.
+The Financial Accounting Standards Board, pursuant to Accounting Standards Codification 815-10 (“ASC 815-10”), requires com-
+panies (including the Trust) to disclose information intended to enable financial statement users to understand how derivative 
+instruments affect the Statements of Assets and Liabilities as well as the effect of derivative instruments on the Statements of 
+Operations during the reporting period, in the context of each entity’s risk exposure. ASC 815-10 provides examples of risk expo-
+sure, including interest rate, foreign exchange, equity and credit. 

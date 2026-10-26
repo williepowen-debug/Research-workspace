@@ -1,0 +1,40 @@
+{
+  "ubr-financials": {
+    "original_sha256": "023caf84103b52366cbe67f5c7d76d1c0aa73dd26a9e88c85c832c251301fae9",
+    "original_pages": 400,
+    "retained_source_pdf_pages_1based": [
+      1,
+      68,
+      369
+    ],
+    "extract": "ubr-financials-used-pages.pdf",
+    "extract_sha256": "e8c2970ff5db0885d63f933e5e743bfd7f12bf8002088798eedc13e6d1709c3c"
+  },
+  "ubr-statutory": {
+    "original_sha256": "c04f079013602d09bd7deaa282b021ef852f7f60b6790925e8706a38c57780c2",
+    "original_pages": 617,
+    "retained_source_pdf_pages_1based": [
+      1,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189
+    ],
+    "extract": "ubr-statutory-used-pages.pdf",
+    "extract_sha256": "519ee54ecb8edab86b84e32e2a515985dd24252d8e278126a544cb2dc5398909"
+  },
+  "br-auctions-all.xls": {
+    "sha256": "179a654d20920e2999a03841bc025d7e8eff780ce52dd61a8b52a81682daf9dc",
+    "bytes": 5146112
+  },
+  "ubr-nav.csv": {
+    "sha256": "d329674f8ce530fe5b0755408a9b264427f63b0516cfc8c3106be4df7c1c5f15",
+    "bytes": 427619
+  },
+  "ubr-summary.pdf": {
+    "sha256": "57f478903734e31653c16827d084448b5b897b1e6cb3a1fa003de18313b8f37e",
+    "bytes": 313515
+  }
+}

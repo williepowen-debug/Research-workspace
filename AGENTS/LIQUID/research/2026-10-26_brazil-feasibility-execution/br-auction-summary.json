@@ -1,0 +1,30 @@
+{
+  "NTN-F": {
+    "accepted_BRL": 7107765112.39,
+    "offered_count": 15000000.0,
+    "accepted_count": 8400000.0,
+    "rows": [
+      832,
+      833,
+      834
+    ],
+    "settlement_dates": [
+      "2026-10-27"
+    ]
+  },
+  "NTN-B": {
+    "accepted_BRL": 7699247262.66,
+    "offered_count": 3000000.0,
+    "accepted_count": 1757850.0,
+    "rows": [
+      829,
+      830,
+      831
+    ],
+    "settlement_dates": [
+      "2026-10-27"
+    ]
+  },
+  "combined_BRL": 14807012375.05,
+  "max_auction_date": "2026-10-26"
+}

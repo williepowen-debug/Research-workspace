@@ -1,0 +1,417 @@
+SUMMARY PROSPECTUS
+SEPTEMBER 28, 2026
+ UBR
+           Ultra MSCI Brazil Capped
+
+
+
+
+This Summary Prospectus is designed to provide investors with key fund information in a clear and concise format. Before you invest, you may
+want to review the Fund’s Full Prospectus, which contains more information about the Fund and its risks. The Fund’s Full Prospectus, dated
+September 28, 2026, and Statement of Additional Information, dated September 28, 2026, and as each hereafter may be supplemented, are
+incorporated by reference into this Summary Prospectus. All of this information may be obtained at no cost either: online at ProShares.com/
+fund-documents; by calling 866-PRO-5125 (866-776-5125); or by sending an email request to info@ProShares.com. The Securities and
+Exchange Commission has not approved or disapproved these securities or passed upon the adequacy of this Summary Prospectus. Any repre-
+sentation to the contrary is a criminal offense.
+
+
+
+UBR LISTED ON NYSE ARCA
+Receive investor materials electronically:
+Shareholders may sign up for electronic delivery of investor materials. By doing so, you will receive the information faster and help us reduce the
+impact on the environment of providing these materials. To enroll in electronic delivery,
+
+1. Go to www.icsdelivery.com
+2. Select the first letter of your brokerage firm’s name.
+3. From the list that follows, select your brokerage firm. If your brokerage firm is not listed, electronic delivery may not be available. Please contact
+   your brokerage firm.
+4. Complete the information requested, including the e-mail address where you would like to receive notifications for electronic documents.
+
+Your information will be kept confidential and will not be used for any purpose other than electronic delivery. If you change your mind, you can cancel
+electronic delivery at any time and revert to physical delivery of your materials. Just go to www.icsdelivery.com, perform the first three steps above,
+and follow the instructions for cancelling electronic delivery. If you have any questions, please contact your brokerage firm.
+PROSHARES.COM                                                                                      UBR     ULTRA MSCI BRAZIL CAPPED :: 3
+
+
+
+Investment Objective                                                   particular contractual period may be recouped by ProShare Advisors
+                                                                       within five years subject to certain limitations. This agreement may
+ProShares Ultra MSCI Brazil Capped (the “Fund”) seeks daily            not be terminated before that date without the approval of the Fund’s
+investment results, before fees and expenses, that correspond          Board.
+to two times (2x) the daily performance of the MSCI Brazil           Example: This example is intended to help you compare the cost
+25/50 Index (the “Index”).                                           of investing in the Fund with the cost of investing in
+Important Information About the Fund                                 other funds.
+If the Fund is successful in meeting its investment objective,       The example assumes that you invest $10,000 in the Fund for
+it should gain approximately two times as much as the Index          the time periods indicated and then redeem or hold all of your
+when the Index rises on a given day. Conversely, it should lose      shares at the end of each period. The example also assumes
+approximately two times as much as the Index when the Index          that your investment has a 5% return each year and that the
+falls on a given day. The Fund does not seek to achieve two          Fund’s operating expenses remain the same, except that the
+times (2x) the daily performance of the Index (the “Daily            fee waiver/expense reimbursement is assumed only to pertain
+Target”) for any period other than a day.                            to the first year. Although your actual costs may be higher or
+                                                                     lower, based on these assumptions your approximate costs
+While the Fund has a daily investment objective, you may hold
+                                                                     would be:
+Fund shares for longer than one day if you believe doing so is
+consistent with your goals and risk tolerance. If you hold           1 Year          3 Years          5 Years           10 Years
+fund shares for any period other than a day, it is important         $97             $787             $1,502            $3,400
+for you to understand that over your holding period:
+                                                                     The Fund pays transaction and financing costs associated
+• Your return may be higher or lower than the Daily Target,          with the purchase and sale of securities and derivatives.
+  and this difference may be significant.                            These costs are not reflected in the table or the
+• Factors that contribute to returns that are worse than the         example above.
+  Daily Target include smaller Index gains or losses and             Portfolio Turnover
+  higher Index volatility, as well as longer holding periods
+  when these factors apply.                                          The Fund pays transaction costs, such as commissions, when
+                                                                     it buys and sells securities (or “turns over” its portfolio). A
+• Factors that contribute to returns that are better than the        higher portfolio turnover rate may indicate higher transac-
+  Daily Target include larger Index gains or losses and lower        tion costs and may result in higher taxes when the Fund’s
+  Index volatility, as well as longer holding periods when           shares are held in a taxable account. These costs, which are
+  these factors apply.                                               not reflected in Annual Fund Operating Expenses or in the
+• The more extreme these factors are, and the more they              example above, affect the Fund’s performance. During the
+  occur together, the more your return will tend to deviate          most recent fiscal year, the Fund’s annual portfolio turnover
+  from the Daily Target.                                             rate was 0% of the average value of its portfolio. This portfolio
+                                                                     turnover rate is calculated without regard to cash instru-
+Fees and Expenses of the Fund                                        ments or derivatives transactions. If such transactions were
+The table below describes the fees and expenses that you may         included, the Fund’s portfolio turnover rate would be signifi-
+pay if you buy, hold, and sell shares of the Fund. You may pay       cantly higher.
+other fees, such as brokerage commissions and other fees to
+financial intermediaries, which are not reflected in the
+                                                                     Principal Investment Strategies
+tables and examples below.                                           The Fund invests in financial instruments that ProShare Advi-
+                                                                     sors believes, in combination, should produce daily returns
+Annual Fund Operating Expenses                                       consistent with the Daily Target.
+(expenses that you pay each year as a percentage
+of the value of your investment)                                     The Index is designed to measure the performance of the
+Management Fees                                            0.75%     large and mid-cap segments of the Brazilian market.The
+Other Expenses                                             2.51%     Index seeks to include 85% of the market capitalization in
+Total Annual Fund Operating Expenses Before Fee                      Brazil and selects companies based on their market capital-
+Waivers and Expense Reimbursements                         3.26%     ization and liquidity. These companies are then weighted
+Fee Waiver/Reimbursement1                                 -2.31%     based on market capitalization, except that no company is
+Total Annual Fund Operating Expenses After Fee                       allowed to constitute more than 22.5% of the Index and com-
+Waivers and Expense Reimbursements                         0.95%     panies that have a weight above 4.5% are not collectively
+                                                                     allowed to constitute more than 45% of the Index. The Index’s
+1 ProShare Advisors LLC (“ProShare Advisors”) has agreed to waive    composition and assigned weights are reevaluated annually
+  fees and to reimburse expenses to the extent Total Annual Fund     in August with additional weight adjustments occurring in
+  Operating Expenses Before Fee Waivers and Expense Reimburse-       February, May, and November. The Index is constructed and
+  ments, as a percentage of average daily net assets, exceed 0.95%
+  through September 30, 2027. Amounts waived or reimbursed in a
+                                                                     maintained by MSCI Inc. More information about the Index
+4 :: ULTRA MSCI BRAZIL CAPPED         UBR                                                                              PROSHARES.COM
+
+
+
+can be found          using     the     Bloomberg   ticker   sym-    ProShare Advisors uses a mathematical approach to investing
+bol “MXBR2550.”                                                      in which it determines the type, quantity and mix of invest-
+                                                                     ment positions that it believes, in combination, the Fund
+Under normal circumstances, the Fund will obtain leveraged
+                                                                     should hold to produce daily returns consistent with the Daily
+exposure to at least 80% of its total assets in components of
+                                                                     Target. For these purposes a day is measured from the time of
+the Index or in instruments with similar economic character-
+                                                                     one net asset value (“NAV”) calculation to the next.
+istics.
+                                                                     The Fund seeks to remain fully invested at all times in finan-
+The Fund will invest principally in the financial instruments
+                                                                     cial instruments that, in combination, provide leveraged expo-
+listed below.
+                                                                     sure consistent with the investment objective, without regard
+• Equity Securities — Common stock issued by public compa-           to market conditions, trends or direction. However, the Fund
+  nies.                                                              may invest in or gain exposure to only a representative
+• Derivatives — Financial instruments whose value is derived         sample of the securities in the Index or to securities not con-
+  from the value of an underlying asset or rate, such as             tained in the Index or in financial instruments, with the
+  stocks, bonds, exchange-traded funds, interest rates or            intent of obtaining leveraged exposure consistent with the
+  indexes. The Fund invests in derivatives (e.g. swap agree-         investment objective.
+  ments) in order to gain leveraged exposure to the Index.           The Fund seeks to rebalance its portfolio each day so that its
+  These derivatives principally include:                             exposure to the Index is consistent with the Daily Target. The
+  䡩   Swap Agreements — Contracts entered into primarily with        Index’s movements during the day will affect whether the
+      major global financial institutions for a specified period     Fund’s portfolio needs to be rebalanced. For example, if the
+      ranging from a day to more than one year. In a standard        Index has risen on a given day, net assets of the Fund should
+      swap transaction, two parties agree to exchange or             rise (assuming there were no Creation Unit redemptions). As a
+      “swap” payments based on the change in value of an             result, the Fund’s exposure will need to be increased. Con-
+      underlying asset or benchmark. For example, two parties        versely, if the Index has fallen on a given day, net assets of the
+      may agree to exchange the return (or differentials in          Fund should fall (assuming there were no Creation Units
+      rates of returns) earned or realized on a particular           issued). As a result, the Fund’s exposure will need to
+      investment or instrument.                                      be decreased.
+
+• Money Market Instruments — The Fund expects that any cash          Please see “Investment Objectives, Principal Investment
+  balances maintained in connection with its use of deriva-          Strategies and Related Risks” in the Fund’s Prospectus for
+  tives will typically be held in high quality, short-term           additional details.
+  money market instruments, for example:                             Principal Risks
+  䡩   U.S. Treasury Bills — U.S. government securities that have     You could lose money by investing in the Fund.
+      initial maturities of one year or less, and are supported
+      by the full faith and credit of the U.S. government.           • Leverage Risk — The Fund uses leverage and will lose more
+                                                                       money when the value of the Index falls than a similar fund
+  䡩   Repurchase Agreements — Contracts in which a seller of           that does not use leverage. The use of leverage increases
+      securities, usually U.S. government securities or other          the risk of a total loss of your investment. If the Index
+      money market instruments, agrees to buy the securities           approaches a 50% loss at any point in the day, you could
+      back at a specified time and price.                              lose your entire investment. As a result, an investment in
+  䡩   Money Market ETF — An exchange-traded money market
+                                                                       the Fund may not be suitable for all investors. The use of
+      fund managed by ProShare Advisors that holds U.S. Trea-          leverage increases the volatility of your returns. The cost of
+      sury bills, notes, or bonds.                                     obtaining this leverage will lower your returns.
+
+• Depositary Receipts — The Fund may invest in depositary            • Holding Period Risk — The performance of the Fund for periods
+  receipts, which principally include:                                 longer than a single day will likely differ from the Daily Tar-
+                                                                       get. This difference may be significant. If you are consider-
+  䡩   American Depositary Receipts (ADRs), sometimes called Ameri-     ing holding fund shares for longer than a day, it’s impor-
+      can Depositary Shares, which represent the right to              tant that you understand the impact of the return and
+      receive securities of foreign issuers deposited in a bank        volatility (how much the value of the Index moves up and
+      or trust company and are an alternative to purchasing            down from day-to-day) of the Index on your holding period
+      the underlying securities in their national markets              return. The volatility of the Index has a negative impact on
+      and currencies.                                                  Fund returns. During periods of higher volatility, the vola-
+  䡩   Global Depositary Receipts (GDRs), which are receipts for
+                                                                       tility of the Index may affect the Fund’s returns as much as
+      shares in a foreign-based corporation traded in capital          or more than the return of the Index.
+      markets around the world.
+PROSHARES.COM                                                                                        UBR    ULTRA MSCI BRAZIL CAPPED :: 5
+
+
+
+   The following table illustrates the impact of the volatility            highest May to May volatility rate for the Index during the
+   and return of the Index on Fund returns for a hypothetical              five-year period ended May 31, 2026 was 32.13% (May 31,
+   one-year period. However, these effects will impact your                2023). The annualized total return performance of the
+   return for any holding period other than a day. The longer              Index for the five-year period ended May 31, 2026 was
+   you hold shares of the Fund, the more magnified these                   7.30%. The historical volatility and performance of the
+   effects will be. As a result, you should consider monitor-              Index do not predict future volatility and performance of
+   ing your investments in the Fund in light of your indi-                 the Index.
+   vidual investment goals and risk tolerance.
+                                                                           For more information, including additional graphs and
+   In the table areas shaded darker represent those scenarios              charts demonstrating the effects of the volatility and
+   where the Fund can be expected to return less than the                  return of the Index on the long-term performance of the
+   Daily Target. As the table shows, your return will tend to be           Fund, see “Understanding the Risks and Long-Term Perfor-
+   worse than the Daily Target when there are smaller gains or             mance of a 2x Daily Objective Fund” in the Fund’s Prospec-
+   losses and higher volatility in the Index. Your return will             tus.
+   tend to be better than the Daily Target when there are                • Correlation Risk — A number of factors may affect the Fund’s
+   larger gains or losses and lower volatility in the Index. You           ability to achieve a high degree of leveraged correlation
+   may lose money when the return of the Index is flat (i.e.,              with the Index. Fees, expenses, transaction costs, financing
+   close to zero) and you may lose money when the                          costs associated with the use of derivatives, among other
+   Index rises.                                                            factors, will adversely impact the Fund’s ability to meet its
+   The table uses hypothetical annualized volatility and                   Daily Target. In addition, the Fund may not have leveraged
+   returns of the Index to illustrate the impact of these two              exposure to all of the instruments in the Index, its weight-
+   factors on Fund performance over a one-year period. It does             ing of those instruments may be different from that of the
+   not represent actual returns. Each row corresponds to the               Index, and it may invest in instruments not included in the
+   level of a hypothetical return of the Index for a one-year              Index. Moreover, if for any reason the Fund is unable to
+   period. Each column corresponds to a level of hypothetical              rebalance all or a portion of its investments, the Fund may
+   annualized volatility of the Index. For example, the Fund               have exposure to the Index that is significantly greater or
+   may mistakenly be expected to achieve a -40% return on a                less than the Daily Target. Any of these factors may prevent
+   yearly basis if the annual return of the Index were -20%.               the Fund from achieving exposure consistent with the
+   However, as the table shows, with a one-year return of the              Daily Target. Also, the Fund will measure its correlation to
+   Index of -20% and an annualized volatility of the Index of              the performance of one or more ETFs. It is important to
+   50%, the Fund could be expected to return -50.2%.                       note that correlation to these ETFs may vary from the corre-
+                                                                           lation to the Index due to embedded costs and other factors.
+                     Estimated Fund Returns
+ Index Performance                 One Year Volatility Rate              • Derivatives Risk — Investing in derivatives may be considered
+                                                                           aggressive and may expose the Fund to greater risks
+          Two times
+ One       (2x) the
+                                                                           including counterparty risk and correlation risk. The Fund
+ Year      One Year                                                        may lose money if its derivatives do not perform as
+Index       Index         10%       25%      50%       75%      100%       expected and may even lose money if they do perform as
+-60%        -120%        -84.2%    -85.0%   -87.5%    -90.9%   -94.1%      expected. Any costs associated with using derivatives will
+ -50%       -100%        -75.2%    -76.5%   -80.5%    -85.8%   -90.8%      reduce the Fund’s return.
+ -40%         -80%       -64.4%    -66.2%   -72.0%    -79.5%   -86.8%      䡩   Swaps Risk — The return on a swap agreement may be
+ -30%         -60%       -51.5%    -54.0%   -61.8%    -72.1%   -82.0%          affected by many factors, including market conditions,
+ -20%         -40%       -36.6%    -39.9%   -50.2%    -63.5%   -76.5%          regulatory requirements, margin and collateral require-
+ -10%         -20%       -19.8%    -23.9%   -36.9%    -53.8%   -70.2%          ments and the availability of counterparties. The terms
+   0%           0%        -1.0%     -6.1%   -22.1%    -43.0%   -63.2%          of a swap agreement between the Fund and a
+ 10%          20%        19.8%      13.7%     -5.8%   -31.1%   -55.5%          counterparty may permit the counterparty to immedi-
+ 20%          40%        42.6%      35.3%    12.1%    -18.0%   -47.0%          ately close out the transaction with the Fund, including
+ 30%          60%        67.3%      58.8%    31.6%     -3.7%   -37.8%          intraday (for example, if the Index has a dramatic
+ 40%          80%        94.0%      84.1%    52.6%     11.7%   -27.9%
+                                                                               intraday move that causes a material decline in the
+                                                                               Fund’s net assets). Such terminations may be more likely
+ 50%         100%       122.8%    111.4%     75.2%     28.2%   -17.2%
+                                                                               when the underlying asset is highly concentrated. If an
+ 60%         120%       153.5%    140.5%     99.4%     45.9%     -5.8%
+                                                                               agreement is terminated, the Fund may be unable to
+Assumes: (a) no dividends paid with respect to securities included in          enter into another swap agreement or invest in other
+the Index; (b) no Fund expenses; and (c) borrowing/lending rates (to
+                                                                               derivatives to achieve its investment objective.
+obtain leveraged exposure) of zero percent. If these were included the
+Fund’s performance would be different from that shown.                         To the extent the Fund invests in swaps that use an ETF
+                                                                               as the reference asset, the Fund will be subject to the
+   The annualized historical volatility rate for the Index for                 risks of that ETF, including the risk that the ETF may not
+   the five-year period ended May 31, 2026 was 25.64%. The
+6 :: ULTRA MSCI BRAZIL CAPPED      UBR                                                                                 PROSHARES.COM
+
+
+
+     meet its investment objective. In addition, the Fund may           eign investments are usually less liquid, more volatile and
+     be subject to greater correlation risk since the perfor-           significantly smaller than markets for U.S. securities,
+     mance of the ETF may not correlate to the performance              which may affect, among other things, the Fund’s ability to
+     of the Index.                                                      purchase or sell foreign investments at appropriate times
+                                                                        and prices. Because of differences in settlement times
+• Counterparty Risk — The Fund may lose money if a
+                                                                        and/or foreign market holidays, transactions in a foreign
+  counterparty does not meet its contractual obligations.
+                                                                        market may take place one or more days after the necessary
+  Such losses may be significant. Counterparty defaults or
+                                                                        exposure to these investments is determined.
+  bankruptcies may result in significant delays in payments
+  and increased costs. Counterparty risk may increase dur-              Because the Fund’s foreign investment exposure may
+  ing periods of financial market stress or when market                 include issuers domiciled in developing or “emerging mar-
+  liquidity is reduced.                                                 ket” countries, all the aforementioned factors are height-
+• Brazilian Investments Risk — The Brazilian economy is sensitive       ened. Investments in emerging markets are consid-
+  to fluctuations in commodity prices and commodity mar-                ered speculative.
+  kets, and is heavily dependent on trading with key part-            • Money Market Instruments Risk — Adverse economic, political or
+  ners. Any changes in the volume of this trading, in taxes or          market events affecting issuers of money market instru-
+  the institution of tariffs or other trade barriers, or in politi-     ments, defaults by counterparties or changes in govern-
+  cal relationships between nations may adversely affect the            ment regulations may have a negative impact on the perfor-
+  Brazilian economy and, as a result, the Fund’s investments.           mance of the Fund. The Fund’s investments in money
+  The Brazilian economy has historically been exposed to                market instruments through an affiliated ETF are subject
+  high rates of inflation and a high level of debt, each of             to the additional risk that the ETF’s share price may fluctu-
+  which may reduce and/or prevent economic growth. The                  ate, including deviating from its net asset value during
+  Brazilian government currently imposes significant taxes              illiquid markets or during periods of high redemption
+  on the transfer of currency. While the Brazilian economy              activity.
+  has experienced growth in recent years, there is no guaran-
+                                                                      • Industry Concentration Risk — The Index may have a significant
+  tee that this growth will continue.
+                                                                        portion of its value in issuers in an industry or group of
+• Equity and Market Risk — Equity markets are volatile, and the         industries. The Fund will allocate its investments to
+  value of equity securities and other instruments correlated           approximately the same extent as the Index. As a result, the
+  with equity markets may fluctuate dramatically from day to            Fund may be subject to greater market fluctuations than a
+  day. Equity markets are subject to corporate, political, regu-        fund that is more broadly invested across industries. As of
+  latory, market, social, geopolitical and economic develop-            May 31, 2026, the Index had a significant portion of its
+  ments, including changes in interest and currency rates,              value in issuers in the energy and financials indus-
+  inflation (or expectations for inflation), deflation (or expec-       try groups.
+  tations for deflation), global demand for particular prod-
+                                                                        䡩   Energy Industry Risk — Companies in this industry may
+  ucts or resources, market instability, debt crises, embar-
+                                                                            experience: adverse effects on profitability from changes
+  goes, tariffs, sanctions and other trade barriers, regulatory
+                                                                            in worldwide energy prices and exploration, and produc-
+  or governmental trade or market control programs, reces-
+                                                                            tion spending; adverse effects from changes in exchange
+  sions, supply chain disruptions, labor disturbances, envi-
+                                                                            rates, government regulation, world events, interna-
+  ronmental or man-made disasters, war, terrorism, public
+                                                                            tional conflicts or threat of conflicts and economic con-
+  health emergencies (such as the spread of infectious dis-
+                                                                            ditions; and market, economic and political risks of the
+  eases, pandemics and epidemics), social unrest and other
+                                                                            countries where energy companies are located or do busi-
+  unforeseeable events.
+                                                                            ness. The energy industry has recently experienced sig-
+• Foreign Currency Risk — Investments linked to or denominated              nificant volatility due to dramatic changes in the prices
+  in foreign currencies are exposed to additional risk factors              of energy commodities, and it is possible that such vola-
+  versus those investments denominated in U.S. dollars and                  tility will continue in the future.
+  linked to U.S. investments. The value of an investment
+                                                                        䡩   Financials Industry Risk — Companies in this industry may
+  linked to or denominated in a foreign currency could
+  change significantly as foreign currencies strengthen or                  experience: extensive governmental regulation and/or
+  weaken relative to the U.S. dollar.                                       nationalization that affects the scope of their activities,
+                                                                            the prices they can charge and the amount of capital they
+• Foreign Investments/Emerging Market Risk — Exposure to securi-            must maintain; adverse effects from increases in inter-
+  ties of foreign issuers may provide the Fund with increased               est rates; adverse effects on profitability by loan losses;
+  risk. Foreign investments may be more susceptible to                      and severe competition.
+  political, social, economic and regional factors than may be
+  the case with U.S. securities. In addition, markets for for-
+PROSHARES.COM                                                                                                      UBR       ULTRA MSCI BRAZIL CAPPED :: 7
+
+
+
+• Geographic Concentration Risk — Because the Fund focuses its       This information provides some indication of the risks of
+  investments in one or more foreign countries, an invest-           investing in the Fund. In addition, the Fund’s performance
+  ment in the Fund may be more volatile than a more geo-             information reflects applicable fee waivers and/or expense
+  graphically diversified fund. The performance of the Fund          limitations, if any, in effect during the periods presented.
+  will be affected by the political, social and economic condi-      Absent such fee waivers/expense limitations, if any, perfor-
+  tions in those foreign countries and subject to the related        mance would have been lower. Past results (before and after
+  risks. As of May 31, 2026, the Index had a significant por-        taxes) are not predictive of future results. Updated informa-
+  tion of its value in issuers in Brazil.                            tion on the Fund’s results can be obtained by visiting the
+                                                                     Fund’s website (www.proshares.com).
+• Non-Diversification Risk — The Fund has the ability to invest a
+  relatively high percentage of its assets in the securities of a    Annual Returns as of December 31
+  small number of issuers or in financial instruments with a
+                                                                     150%
+  single counterparty or a few counterparties. This may
+  increase the Fund’s volatility and increase the risk that the              127.87%
+                                                                     100%
+  Fund’s performance will decline based on the performance                                                                                                        96.21%
+  of a single issuer or the credit of a single counterparty.           50%
+                                                                                                                                               50.38%
+• Index Performance Risk — The Index used by the Fund may                              35.20%
+                                                                                                          44.04%
+                                                                                                                                       5.54%
+  underperform other asset classes and may underperform                 0%
+  other similar indices. The Index is maintained by a third                                     -18.71%                      -39.04%
+                                                                      -50%                                         -60.69%                              -57.15%
+  party provider unaffiliated with the Fund or ProShare Advi-
+  sors. There can be no guarantee that the methodology
+  underlying the Index or the daily calculation of the Index         -100%
+                                                                             2016 2017 2018 2019 2020 2021 2022 2023 2024 2025
+  will be free from error.
+• Intraday Price Performance Risk — The intraday performance of      Best Quarter (ended 3/31/2022): 77.56%
+  Fund shares traded in the secondary market generally will          Worst Quarter (ended 3/31/2020): -82.11%
+  be different from the performance of the Fund when mea-            Year-to-Date (ended 6/30/2026): 12.26%
+  sured from one NAV calculation-time to the next. When
+  shares are bought intraday, the performance of the Fund’s
+  shares relative to the Index until the Fund’s next NAV calcu-      Average Annual Total Returns
+  lation time will generally be higher or lower than the             As of December 31, 2025
+  Daily Target.
+                                                                                                                                        One          Five            Ten
+• Market Price Variance Risk — Investors buy and sell Fund shares                                                                       Year        Years           Years
+  in the secondary market at market prices. Market prices
+                                                                     Before Tax                                                        96.21% -4.05% 1.44%
+  may be different from the NAV per share of the Fund (i.e.,
+  the secondary market price may trade at a price greater            After Taxes on Distributions                                      94.22% -4.78% 1.02%
+  than NAV (a premium) or less than NAV (a discount)). The           After Taxes on Distributions and
+  market price of the Fund’s shares will fluctuate in response       Sale of Shares                                                    56.73% -3.36% 0.92%
+  to changes in the value of the Fund’s holdings, supply and         MSCI Brazil Index1                                                49.68% 5.85% 10.64%
+  demand for shares and other market factors.                        MSCI Emerging Markets Index                         1
+                                                                                                                                       33.57% 4.19% 8.41%
+• Early Close/Late Close/Trading Halt Risk — An exchange or market   1 Reflects no deduction for fees, expenses or taxes. Returns are net
+  may close early, close late or issue trading halts on specific       returns that are adjusted to reflect the reduction of any withholding
+                                                                       taxes and the reinvestment of dividends paid by companies in the
+  securities or financial instruments. In these circum-                index.
+  stances, the Fund may be unable to rebalance its portfolio,
+  may be unable to accurately price its investments and/or           Average annual total returns are shown on a before- and after-
+  may incur substantial trading losses.                              tax basis for the Fund. After-tax returns are calculated using
+                                                                     the historical highest individual federal marginal income tax
+Please see “Investment Objectives, Principal Investment              rates and do not reflect the impact of state and local taxes.
+Strategies and Related Risks” in the Fund’s Prospectus for           Actual after-tax returns depend on an investor’s tax situation
+additional details.                                                  and may differ from those shown. After-tax returns shown are
+Investment Results                                                   not relevant to investors who hold shares through tax-
+                                                                     deferred arrangements, such as a retirement account. After-
+The bar chart below shows how the Fund’s investment results          tax returns may exceed the return before taxes due to a tax
+have varied from year to year, and the table shows how the           benefit from realizing a capital loss on a sale of shares.
+Fund’s average annual total returns for various periods com-
+pare with different broad measures of market performance.
+8 :: ULTRA MSCI BRAZIL CAPPED    UBR                                                                               PROSHARES.COM
+
+
+
+Annual returns are required to be shown and should not be          trade at a price greater than NAV (premium) or less than
+interpreted as suggesting that the Fund should or should not       NAV (discount). In addition to brokerage commissions, inves-
+be held for longer periods of time.                                tors incur the costs of the difference between the highest
+                                                                   price a buyer is willing to pay to purchase shares of the Fund
+Management                                                         (bid) and the lowest price a seller is willing to accept for
+The Fund is advised by ProShare Advisors. Alexander Ilyasov,       shares of the Fund (ask) when buying or selling shares in the
+Senior Portfolio Manager, and Eric Silverthorne, Portfolio         secondary market (the “bid-ask spread”). The bid-ask spread
+Manager, have jointly and primarily managed the Fund since         varies over time for Fund shares based on trading volume and
+August 2020 and March 2023, respectively.                          market liquidity. Recent information, including information
+                                                                   about the Fund’s NAV, market price, premiums and discounts,
+Purchase and Sale of Fund Shares                                   and bid-ask spreads, is included on the Fund’s website
+The Fund will issue and redeem shares only to Authorized Par-      (www.proshares.com).
+ticipants (typically broker-dealers) in exchange for the deposit
+or delivery of a basket of assets (securities and/or cash) in      Tax Information
+large blocks, known as Creation Units. Shares of the Fund may      Income and capital gains distributions you receive from the
+only be purchased and sold by retail investors in secondary        Fund generally are subject to federal income taxes and may
+market transactions through broker-dealers or other finan-         also be subject to state and local taxes. The Fund intends to
+cial intermediaries. Shares of the Fund are listed for trading     distribute income, if any, quarterly, and capital gains, if any,
+on a national securities exchange and because shares trade         at least annually. Distributions for this Fund may be higher
+at market prices rather than NAV, shares of the Fund may           than those of most ETFs.
+This page intentionally left blank.
+This page intentionally left blank.
+This page intentionally left blank.
+Investment Company Act file number 811-21114
+
+ProShares Trust
+7272 Wisconsin Avenue, 21st Floor, Bethesda, MD 20814
+866.PRO.5125 866.776.5125
+ProShares.com
+
+
+
+
+© 2026 ProShare Advisors LLC. All rights reserved.      UBR-SEP26
+
