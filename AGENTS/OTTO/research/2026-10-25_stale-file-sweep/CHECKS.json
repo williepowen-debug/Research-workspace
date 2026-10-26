@@ -1,0 +1,481 @@
+{
+  "authority": "2e9d30946; Phase 1 only; no live-state correction",
+  "inventory_count": 505,
+  "inventory_classes": {
+    "reference / method": 13,
+    "live state / continuity": 8,
+    "dated research / history / packet": 181,
+    "frozen / archive": 68,
+    "maintained ledger / data": 6,
+    "generated output / retained source artifact": 229
+  },
+  "inspection_counts": {
+    "full live text / wrapper reviewed (existing valid brief context reused)": 16,
+    "current preamble / relevant historical source and correction sections read; remainder historical, not full-text audited": 4,
+    "inventoried and hashed only; not semantically audited": 462,
+    "dated intake/route entries and current batch inspected; inventory validation; not a delivery-completeness census": 1,
+    "all rows structurally checked; all current unresolved claim/event rows and latest panel/baselines inspected": 3,
+    "all four receipts read; existing register coverage retained": 1,
+    "scoped live-claim dependency read": 7,
+    "instrument documentation and relevant boundaries inspected; no production execution or whole-code audit": 2,
+    "freeze/header/schema and retained fields read; historical rows not refreshed": 8,
+    "append-only history; recent ML306-334 and relevant correction/bank rows inspected, not all 334 rows": 1
+  },
+  "predictions": {
+    "rows": 20,
+    "states": {
+      "CONFIRMED": 5,
+      "FALSIFIED": 7,
+      "OPEN": 6,
+      "NEEDS_VERIFY": 1,
+      "STUCK": 1
+    },
+    "unresolved_ids": [
+      "OTTO-07",
+      "OTTO-10",
+      "OTTO-11",
+      "OTTO-12",
+      "OTTO-31",
+      "OTTO-33",
+      "OTTO-34",
+      "OTTO-35"
+    ],
+    "open_past_resolve": []
+  },
+  "calendar": {
+    "rows": 28,
+    "date_sorted": true,
+    "missing_status_dates": [],
+    "past_rows": [
+      {
+        "row": 2,
+        "date": "2026-10-16",
+        "acknowledged_pending": true,
+        "next_check": true
+      },
+      {
+        "row": 3,
+        "date": "2026-10-20",
+        "acknowledged_pending": true,
+        "next_check": true
+      },
+      {
+        "row": 4,
+        "date": "2026-10-21",
+        "acknowledged_pending": true,
+        "next_check": true
+      },
+      {
+        "row": 5,
+        "date": "2026-10-21",
+        "acknowledged_pending": true,
+        "next_check": true
+      }
+    ],
+    "limits": "Dates and event identities compared to STATUS; no fresh source re-verification. Titles alone do not establish court outcomes."
+  },
+  "panel": {
+    "rows": 152,
+    "unique_keys": 152,
+    "status_counts": {
+      "OK": 152
+    },
+    "latest_by_deal": {
+      "BLAST 2023-1": {
+        "run_ts": "2026-10-19T12:14:12",
+        "deal": "BLAST 2023-1",
+        "tier": "CARVANA",
+        "issuer": "bridgecrest",
+        "filing_date": "2026-10-15",
+        "collection_period": "2026-09-01/2026-09-30",
+        "months_seasoned": "36",
+        "dq_60plus_pct": "16.15",
+        "cnl_pct": "26.94",
+        "anl_pct": "21.61",
+        "recovery_pct": "",
+        "ext_rate_pct": "4.28",
+        "status": "OK",
+        "parse_misses": "",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1974820/000110465926116030/tm2627320d1_ex99-1.htm"
+      },
+      "BLAST 2024-1": {
+        "run_ts": "2026-10-19T12:14:12",
+        "deal": "BLAST 2024-1",
+        "tier": "CARVANA",
+        "issuer": "bridgecrest",
+        "filing_date": "2026-10-15",
+        "collection_period": "2026-09-01/2026-09-30",
+        "months_seasoned": "33",
+        "dq_60plus_pct": "16.67",
+        "cnl_pct": "26.73",
+        "anl_pct": "24.83",
+        "recovery_pct": "",
+        "ext_rate_pct": "4.72",
+        "status": "OK",
+        "parse_misses": "",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1974820/000110465926116044/tm2627320d2_ex99-1.htm"
+      },
+      "EART 2022-2": {
+        "run_ts": "2026-10-19T12:14:12",
+        "deal": "EART 2022-2",
+        "tier": "DEEP",
+        "issuer": "exeter",
+        "filing_date": "2026-09-29",
+        "collection_period": "2026-08-01/2026-08-31",
+        "months_seasoned": "53",
+        "dq_60plus_pct": "15.22",
+        "cnl_pct": "27.07",
+        "anl_pct": "20.0",
+        "recovery_pct": "25.17",
+        "ext_rate_pct": "4.49",
+        "status": "OK",
+        "parse_misses": "",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1920761/000092963826003712/eart2022-2_exhibit991.htm"
+      },
+      "EART 2022-3": {
+        "run_ts": "2026-10-19T12:14:12",
+        "deal": "EART 2022-3",
+        "tier": "DEEP",
+        "issuer": "exeter",
+        "filing_date": "2026-09-29",
+        "collection_period": "2026-08-01/2026-08-31",
+        "months_seasoned": "51",
+        "dq_60plus_pct": "14.46",
+        "cnl_pct": "28.4",
+        "anl_pct": "20.2",
+        "recovery_pct": "24.58",
+        "ext_rate_pct": "4.73",
+        "status": "OK",
+        "parse_misses": "",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1931330/000092963826003713/eart2022-3_exhibit991.htm"
+      },
+      "EART 2023-1": {
+        "run_ts": "2026-10-19T12:14:12",
+        "deal": "EART 2023-1",
+        "tier": "DEEP",
+        "issuer": "exeter",
+        "filing_date": "2026-09-29",
+        "collection_period": "2026-08-01/2026-08-31",
+        "months_seasoned": "43",
+        "dq_60plus_pct": "12.32",
+        "cnl_pct": "23.17",
+        "anl_pct": "19.18",
+        "recovery_pct": "24.79",
+        "ext_rate_pct": "5.29",
+        "status": "OK",
+        "parse_misses": "",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1964225/000092963826003717/eart2023-1_exhibit991.htm"
+      },
+      "EART 2024-1": {
+        "run_ts": "2026-10-19T12:14:12",
+        "deal": "EART 2024-1",
+        "tier": "DEEP",
+        "issuer": "exeter",
+        "filing_date": "2026-09-29",
+        "collection_period": "2026-08-01/2026-08-31",
+        "months_seasoned": "32",
+        "dq_60plus_pct": "10.89",
+        "cnl_pct": "18.36",
+        "anl_pct": "17.52",
+        "recovery_pct": "29.78",
+        "ext_rate_pct": "5.44",
+        "status": "OK",
+        "parse_misses": "",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/2005087/000092963826003722/eart2024-1_exhibit991.htm"
+      },
+      "SDART 2022-6": {
+        "run_ts": "2026-10-19T12:14:12",
+        "deal": "SDART 2022-6",
+        "tier": "BROAD",
+        "issuer": "santander",
+        "filing_date": "2026-10-15",
+        "collection_period": "2026-09-01/2026-09-30",
+        "months_seasoned": "49",
+        "dq_60plus_pct": "11.24",
+        "cnl_pct": "12.31",
+        "anl_pct": "7.93",
+        "recovery_pct": "",
+        "ext_rate_pct": "",
+        "status": "OK",
+        "parse_misses": "",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1383094/000119312526421880/d166528dex991.htm"
+      },
+      "SDART 2023-1": {
+        "run_ts": "2026-10-19T12:14:12",
+        "deal": "SDART 2023-1",
+        "tier": "BROAD",
+        "issuer": "santander",
+        "filing_date": "2026-10-15",
+        "collection_period": "2026-09-01/2026-09-30",
+        "months_seasoned": "45",
+        "dq_60plus_pct": "10.1",
+        "cnl_pct": "10.4",
+        "anl_pct": "11.37",
+        "recovery_pct": "",
+        "ext_rate_pct": "",
+        "status": "OK",
+        "parse_misses": "",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1383094/000119312526421907/d188159dex991.htm"
+      },
+      "SDART 2024-1": {
+        "run_ts": "2026-10-19T12:14:12",
+        "deal": "SDART 2024-1",
+        "tier": "BROAD",
+        "issuer": "santander",
+        "filing_date": "2026-10-15",
+        "collection_period": "2026-09-01/2026-09-30",
+        "months_seasoned": "33",
+        "dq_60plus_pct": "10.04",
+        "cnl_pct": "9.81",
+        "anl_pct": "8.2",
+        "recovery_pct": "",
+        "ext_rate_pct": "",
+        "status": "OK",
+        "parse_misses": "",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1383094/000119312526421940/d183408dex991.htm"
+      }
+    },
+    "matched_april_september": 44,
+    "worse_yoy": 44,
+    "comparisons": [
+      {
+        "deal": "SDART 2022-6",
+        "month": "2026-05",
+        "dq_yoy_pp": "2.08"
+      },
+      {
+        "deal": "SDART 2022-6",
+        "month": "2026-06",
+        "dq_yoy_pp": "1.69"
+      },
+      {
+        "deal": "SDART 2023-1",
+        "month": "2026-05",
+        "dq_yoy_pp": "1.35"
+      },
+      {
+        "deal": "SDART 2023-1",
+        "month": "2026-06",
+        "dq_yoy_pp": "1.24"
+      },
+      {
+        "deal": "SDART 2024-1",
+        "month": "2026-05",
+        "dq_yoy_pp": "2.33"
+      },
+      {
+        "deal": "SDART 2024-1",
+        "month": "2026-06",
+        "dq_yoy_pp": "1.95"
+      },
+      {
+        "deal": "BLAST 2023-1",
+        "month": "2026-05",
+        "dq_yoy_pp": "1.38"
+      },
+      {
+        "deal": "BLAST 2023-1",
+        "month": "2026-06",
+        "dq_yoy_pp": "2.62"
+      },
+      {
+        "deal": "BLAST 2024-1",
+        "month": "2026-05",
+        "dq_yoy_pp": "1.86"
+      },
+      {
+        "deal": "BLAST 2024-1",
+        "month": "2026-06",
+        "dq_yoy_pp": "2.74"
+      },
+      {
+        "deal": "EART 2022-2",
+        "month": "2026-04",
+        "dq_yoy_pp": "2.45"
+      },
+      {
+        "deal": "EART 2022-2",
+        "month": "2026-05",
+        "dq_yoy_pp": "3.00"
+      },
+      {
+        "deal": "EART 2022-3",
+        "month": "2026-04",
+        "dq_yoy_pp": "1.50"
+      },
+      {
+        "deal": "EART 2022-3",
+        "month": "2026-05",
+        "dq_yoy_pp": "2.03"
+      },
+      {
+        "deal": "EART 2023-1",
+        "month": "2026-05",
+        "dq_yoy_pp": "2.02"
+      },
+      {
+        "deal": "EART 2024-1",
+        "month": "2026-04",
+        "dq_yoy_pp": "1.59"
+      },
+      {
+        "deal": "EART 2024-1",
+        "month": "2026-05",
+        "dq_yoy_pp": "2.11"
+      },
+      {
+        "deal": "EART 2022-2",
+        "month": "2026-06",
+        "dq_yoy_pp": "2.12"
+      },
+      {
+        "deal": "EART 2022-3",
+        "month": "2026-06",
+        "dq_yoy_pp": "1.76"
+      },
+      {
+        "deal": "EART 2023-1",
+        "month": "2026-06",
+        "dq_yoy_pp": "1.56"
+      },
+      {
+        "deal": "EART 2024-1",
+        "month": "2026-06",
+        "dq_yoy_pp": "1.98"
+      },
+      {
+        "deal": "SDART 2022-6",
+        "month": "2026-07",
+        "dq_yoy_pp": "0.80"
+      },
+      {
+        "deal": "SDART 2023-1",
+        "month": "2026-07",
+        "dq_yoy_pp": "0.74"
+      },
+      {
+        "deal": "SDART 2024-1",
+        "month": "2026-07",
+        "dq_yoy_pp": "1.45"
+      },
+      {
+        "deal": "BLAST 2024-1",
+        "month": "2026-07",
+        "dq_yoy_pp": "1.58"
+      },
+      {
+        "deal": "BLAST 2023-1",
+        "month": "2026-07",
+        "dq_yoy_pp": "1.89"
+      },
+      {
+        "deal": "EART 2022-2",
+        "month": "2026-07",
+        "dq_yoy_pp": "1.31"
+      },
+      {
+        "deal": "EART 2022-3",
+        "month": "2026-07",
+        "dq_yoy_pp": "0.74"
+      },
+      {
+        "deal": "EART 2023-1",
+        "month": "2026-07",
+        "dq_yoy_pp": "1.47"
+      },
+      {
+        "deal": "EART 2024-1",
+        "month": "2026-07",
+        "dq_yoy_pp": "1.33"
+      },
+      {
+        "deal": "EART 2022-2",
+        "month": "2026-08",
+        "dq_yoy_pp": "1.87"
+      },
+      {
+        "deal": "EART 2022-3",
+        "month": "2026-08",
+        "dq_yoy_pp": "1.19"
+      },
+      {
+        "deal": "EART 2023-1",
+        "month": "2026-08",
+        "dq_yoy_pp": "0.93"
+      },
+      {
+        "deal": "EART 2024-1",
+        "month": "2026-08",
+        "dq_yoy_pp": "1.20"
+      },
+      {
+        "deal": "SDART 2022-6",
+        "month": "2026-08",
+        "dq_yoy_pp": "1.03"
+      },
+      {
+        "deal": "SDART 2023-1",
+        "month": "2026-08",
+        "dq_yoy_pp": "0.72"
+      },
+      {
+        "deal": "SDART 2024-1",
+        "month": "2026-08",
+        "dq_yoy_pp": "1.51"
+      },
+      {
+        "deal": "BLAST 2024-1",
+        "month": "2026-08",
+        "dq_yoy_pp": "3.05"
+      },
+      {
+        "deal": "BLAST 2023-1",
+        "month": "2026-08",
+        "dq_yoy_pp": "3.29"
+      },
+      {
+        "deal": "SDART 2022-6",
+        "month": "2026-09",
+        "dq_yoy_pp": "0.68"
+      },
+      {
+        "deal": "SDART 2023-1",
+        "month": "2026-09",
+        "dq_yoy_pp": "0.29"
+      },
+      {
+        "deal": "SDART 2024-1",
+        "month": "2026-09",
+        "dq_yoy_pp": "1.15"
+      },
+      {
+        "deal": "BLAST 2024-1",
+        "month": "2026-09",
+        "dq_yoy_pp": "2.45"
+      },
+      {
+        "deal": "BLAST 2023-1",
+        "month": "2026-09",
+        "dq_yoy_pp": "2.70"
+      }
+    ],
+    "limits": "Offline ledger arithmetic only; no new source fetch/parser rerun. Period-specific 5/9 September coverage retained."
+  },
+  "calibration": {
+    "n": 8,
+    "hits": 3,
+    "brier_sum": "2.2150",
+    "brier_mean": "0.276875",
+    "limits": "Arithmetic reconciled to retained original-term audit, not a new historical-outcome adjudication."
+  },
+  "phase1_only": true,
+  "new_public_source_requests": 0,
+  "helpers": 0,
+  "structural_checks": {
+    "prediction_all20_rows_9_fields": true,
+    "calendar_all28_rows_8_fields": true,
+    "panel_all152_rows_15_fields": true,
+    "latest9_source_and_period_format": true,
+    "tier2_prerequisite_link": "valid; no broken-link finding retained"
+  }
+}
