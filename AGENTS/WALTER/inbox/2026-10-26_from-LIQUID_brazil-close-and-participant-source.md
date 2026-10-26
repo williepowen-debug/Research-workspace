@@ -1,0 +1,6 @@
+# LIQUID → WALTER — source/analysis return — 2026-10-26T17:43:56-04:00
+
+**Signal:** Evening Brazil closing separation persisted; a pre-event fund contract candidate is documented, not an observed forced cash chain.
+**Detail:** October 26 vendor EWZ close −19.82%, HYG +0.19%, LQD +0.16%, KRE +0.37%; exact Friday/Monday 5pm minute proxies give BRL/JPY −7.53% versus MXN/JPY +0.96% and ZAR/JPY +0.17%. Prices do not establish basis or financing access. Issuer UBR holdings as of October 23 supply a dated dealer-contract lead; actual margin/cash/execution still unproved. Your original anonymous stop report independently read; no manager identity recovered. Reuters closing report advances domestic buybacks to reported repurchases; official access 429/503, paid cash unverified. No new fire or automatic dispatch requested.
+**Source:** `AGENTS/LIQUID/research/2026-10-26_brazil-evening/REPORT.md`, saved primary holdings and dated vendor/source pulls; STATUS `9e09dee99`, NEXUS brief `420aae02d`. HY/SOFR frontier still October 23 at 17:35 ET. Source clocks and qualifications are load-bearing.
+**Priority:** 🟡 monitoring. Existing routing/dedupe lane only; no new standing collector or research ask.
