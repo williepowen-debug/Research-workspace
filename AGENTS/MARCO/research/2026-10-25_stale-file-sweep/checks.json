@@ -1,0 +1,71 @@
+{
+  "as_of": "2026-10-25",
+  "checks": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "name": "staleness",
+        "chunk_id": "bc00e2",
+        "wall_time_seconds": 0.000060679,
+        "exit_code": 0,
+        "original_token_count": 190,
+        "output": "\n========================================================================\n  MARCO Staleness Check — 2026-10-25 22:48\n========================================================================\n\n  ✓ STATUS.md last updated 2026-10-25 (0d ago)\n\n  ✓ workbook integrity — no duplicate IDs, no ragged rows\n\n  VX.tsv — 4/57 vectors >60d  [🔴 0 loaded-status · 2 stale-by-design (awaiting scheduled print / no primary) · 2 other · 21 excluded FROZEN/RETIRED]\n    🟠 VX-MARCO-TX-01      65d  (2026-08-21)  UNSCORED — no live months-of-supply source (was ELEVATED) Texas Housing Inventory\n    🟠 VX-MARCO-H2A-02     65d  (2026-08-21)  ELEVATED (re-marked UP 2026-08-21 — my own NORMAL de-mark earlier today was wrong) H-2A Processing Vulnerability\n\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "name": "predictions",
+        "chunk_id": "ad5078",
+        "wall_time_seconds": 0.000043587,
+        "exit_code": 0,
+        "original_token_count": 146,
+        "output": "\n========================================================================\n  MARCO Predictions / Expected-Signals Due Scan — 2026-10-25 22:48\n========================================================================\n\n  PREDICTIONS — 4 OPEN\n\n  🔴 DUE for resolution — window passed (2):\n    MAR-11   window ended 2026-09-30 (25d ago) | FY 2026\n         ↳ H-2A certifications >425K\n    MAR-24   window ended 2026-09-30 (25d ago) | Q3 2026\n         ↳ All 3 FL airports negative simultaneously\n\n  EXPECTED SIGNALS — 1 active\n    ✓ no active expected-signal past deadline\n\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "name": "catalysts",
+        "chunk_id": "6e0f26",
+        "wall_time_seconds": 0.000107284,
+        "exit_code": 0,
+        "original_token_count": 795,
+        "output": "\n========================================================================\n  MARCO Catalyst Countdown — 2026-10-25 22:48  (30-day horizon)\n========================================================================\n\n  📅 DUE within 30d (14):\n    🟠 Wed Oct 28  in  3d (3 bd)  MIA September 2026 Traffic Report (Miami-Dade PDF) — MI\n         ↳ Aug -5.69% YoY / -6.53% 2-yr. Sep negative => MIA negative 2 consecutive months on the AIRPORT basis\n    🟠 Wed Oct 28  in  3d (3 bd)  LVCVA SEPTEMBER 2026 Executive Summary — the Labor Day \n         ↳ PRE-REGISTERED 2026-10-14 (before Sep exists): Aug+Sep COMBINED RevPAR YoY negative ⇒ the room-dolla\n    🟠 Mon Nov 02  in  8d (6 bd)  Banxico SEPTEMBER 2026 remittances (CE81)\n         ↳ VX-2.08 band on count YoY (Sep-25 base 13,418.9k). Tracking only — the remittance re-spec is already\n    🟠 Mon Nov 02  in  8d (6 bd)  October CA farm attendance/output disruption — persiste\n         ↳ Local disruption reported, not statewide shortage. Persistent output/cost evidence can refine existi\n    🟠 Tue Nov 03  in  9d (7 bd)  FL property-tax Amendment 3 / HJR 1F vote\n         ↳ PASSES = new-resident homestead exemption capped $50K/5yr vs $150K->$250K for existing = structural \n    🟡 Thu Nov 05  in 11d (9 bd)  Realtor.com OCTOBER 2026 inventory — VX-MARCO-AZ-01 FIR\n         ↳ PRE-REGISTERED 2026-10-14 22:02 EDT: excess <+10 NORMAL · +10..+25 ELEVATED · +25..+40 CRITICAL · ≥+\n    🟡 Fri Nov 06  in 12d (10 bd)  BLS Employment Situation OCTOBER — foreign-born labor f\n         ↳ None graded: Oct-2025 has no BLS value, so the ruled YoY letter cannot be computed. Read the level a\n    🔴 Tue Nov 10  in 16d (12 bd)  🔴 ENR-02 leg 2 of 2 — CPI airline fares OCTOBER (grades\n         ↳ FULL LETTER (moved here 2026-10-14 when the leg-1 row was pruned to TIMELINE): ENR-02 PRE-REGISTERED\n    🟡 Thu Nov 12  in 18d (14 bd)  H-2A wage-rule court status checkpoint\n         ↳ Verify live procedural state before projecting wage cost. Back pay remains contingent; no current ra\n    🟠 Fri Nov 13  in 19d (15 bd)  StatCan OCTOBER travel — ID-01 leg 2 (decides ID-01)\n         ↳ ID-01 (pre-committed 9/19, PROME-confirmed 9/22): Oct gap move ≤−2.5pp from the Aug −4.72 baseline A\n    🟡 Sun Nov 15  in 21d (15 bd)  OFLC H-2A FY2026_Q4 disclosure — MAR-11 FORMAL RESOLVE \n         ↳ on-pace for >425K = Pred MAR-11 (72%) on track; processing bottleneck (not demand) persists\n    🟡 Sun Nov 15  in 21d (15 bd)  NTTO OCTOBER 2026 arrivals + BTS AUGUST T-100 (MCO/FLL/\n         ↳ VX-1.02: ≥25% below 2019 = BREACHED (Sep −22.40%). BTS Aug: 2nd Q3 month for MAR-24; MIA BTS Aug vs \n    🟡 Mon Nov 16  in 22d (16 bd)  FL Realtors OCTOBER 2026 — FL months of supply (condo/T\n         ↳ VX-FL-02 bands per leg: condo 6–9 CRITICAL, ≥9 BREACHED (MAR-08 >9.0 re-engage); SF 4–6 ELEVATED. Se\n    🟡 Fri Nov 20  in 26d (20 bd)  BLS State Employment (OCTOBER data) — VX-2.06 construct\n         ↳ Band letter per print: gap ≥2.0pp ELEVATED, <2.0 NORMAL. Sep prelim +1.91pp (NORMAL, 0.09pp margin);\n\n  · Beyond 30d: 12 more catalyst(s) (use --all)\n\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "name": "tsv",
+        "chunk_id": "d364f9",
+        "wall_time_seconds": 0.000019277,
+        "exit_code": 0,
+        "original_token_count": 110,
+        "output": "\n========================================================================\n  MARCO tsvutil Self-Test — reader agreement · line-number truth · round-trip\n========================================================================\n\n  ✓ thesis/PREDICTIONS.tsv\n  ✓ workbook/VX.tsv\n  ✓ workbook/KB.tsv\n  ✓ workbook/FLOW.tsv\n  ✓ workbook/MIGRATION_PROXIES.tsv\n  ✓ docket/CATALYSTS.tsv\n\n  ✅ clean — 6 ledgers, 4 invariants each.\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "name": "drift",
+        "chunk_id": "836e31",
+        "wall_time_seconds": 0.000017075,
+        "exit_code": 0,
+        "original_token_count": 175,
+        "output": "========================================================================\n  MARCO Version / Residue Drift Check — 2026-10-25\n========================================================================\n  canonical thesis version: v3.2\n  CHECKED: 14 surfaces (class V, C) + the git index (class B)\n  NOT checked: thesis/THESIS.md (it is the source of truth) · workbook/*.tsv · inbox/ · outbox/ · domain/sources/ · research/ · baselines/ · sub_agents/\n  NOT built (measured 8/12, no signal): forward-language-vs-passed-date (21/21 false positives) · resolved-ID-written-as-pending (2/2 false positives)\n\n  ✓ clean — no canonical-version drift, no duplicated stamps, no half-staged renames.\n\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "name": "pin",
+        "chunk_id": "c61971",
+        "wall_time_seconds": 0.000025958,
+        "exit_code": 0,
+        "original_token_count": 62,
+        "output": "BRIEF-PIN 0 OK: 1 brief(s) checked against amendment 11 (pin-follows-STATUS-HEAD) — OK-PINNED 1. A PASS proves the pin, never the brief's content; UNPINNED briefs are not A11-checked.\n  ✅ MARCO     OK-PINNED       pin 9a93bb871 = STATUS HEAD\n"
+      }
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "as_of": "2026-10-25",
+  "scope": "Phase1 read-only snapshot; no term/status/outcome/notes edits. Full386-file fingerprints in inventory.tsv.",
+  "main_forecast_terms_header": [
+    "Pred_ID",
+    "Date_Made",
+    "Prediction",
+    "Confidence",
+    "Timeframe",
+    "Status",
+    "Date_Resolved",
+    "Outcome"
+  ],
+  "main_forecast_terms": [
+    {
+      "Pred_ID": "MAR-10",
+      "Date_Made": "2026-02-23",
+      "Prediction": "Canadian visitors >-20% YoY",
+      "Confidence": "80%",
+      "Timeframe": "Through Q2 2026",
+      "Status": "CONFIRMED",
+      "Date_Resolved": "2026-01-20",
+      "Outcome": "-28% confirmed"
+    },
+    {
+      "Pred_ID": "MAR-15",
+      "Date_Made": "2026-02-23",
+      "Prediction": "Mexico remittances full-year decline",
+      "Confidence": "75%",
+      "Timeframe": "2025 FINAL",
+      "Status": "CONFIRMED",
+      "Date_Resolved": "2026-02-17",
+      "Outcome": "-4.6% ($61.8B) worst since 2009"
+    },
+    {
+      "Pred_ID": "MAR-18",
+      "Date_Made": "2026-02-23",
+      "Prediction": "Canadian airline US capacity stays -10%+",
+      "Confidence": "75%",
+      "Timeframe": "Through Q2 2026",
+      "Status": "CONFIRMED",
+      "Date_Resolved": "2026-07-02",
+      "Outcome": "CONFIRMED — capacity sustained well past -10% through Q2"
+    },
+    {
+      "Pred_ID": "MAR-19",
+      "Date_Made": "2026-02-23",
+      "Prediction": "FL March Break Canadian bookings -20%+",
+      "Confidence": "80%",
+      "Timeframe": "Mar 2026",
+      "Status": "RESOLVED",
+      "Date_Resolved": "2026-05-31",
+      "Outcome": "PARTIAL — booking/capacity collapse confirmed, realized demand moderated"
+    },
+    {
+      "Pred_ID": "MAR-01",
+      "Date_Made": "2026-02-23",
+      "Prediction": "Nogales residential floor at -50% to -60%",
+      "Confidence": "65%",
+      "Timeframe": "Q2 2026",
+      "Status": "RESOLVED",
+      "Date_Resolved": "2026-07-02",
+      "Outcome": "MISS-on-threshold — residential floor did NOT reach -50/-60% (~-43% prior; stabilizing-soft, median ~$245K); stress manifested in cross-border RETAIL not residential prices"
+    },
+    {
+      "Pred_ID": "MAR-08",
+      "Date_Made": "2026-02-23",
+      "Prediction": "FL condo inventory >9 months",
+      "Confidence": "75%",
+      "Timeframe": "Q2 2026",
+      "Status": "CONFIRMED",
+      "Date_Resolved": "2026-04-17",
+      "Outcome": "9.1mo Mar 2026 (FL Realtors) breached 9.0 before Q2 midpoint. NB: reverted to 8.9mo Apr — one-month breach, inventory now tightening (sales up)."
+    },
+    {
+      "Pred_ID": "MAR-17",
+      "Date_Made": "2026-02-23",
+      "Prediction": "FL Citizens exposure >$750B",
+      "Confidence": "60%",
+      "Timeframe": "Q4 2026",
+      "Status": "RESOLVED",
+      "Date_Resolved": "2026-07-02",
+      "Outcome": "INVALIDATED — wrong direction; Citizens DEPOPULATING, exposure collapsing not growing"
+    },
+    {
+      "Pred_ID": "MAR-11",
+      "Date_Made": "2026-02-23",
+      "Prediction": "H-2A certifications >425K",
+      "Confidence": "72% [ledger] -- AS-MADE 70% [2026-02-23] RE-DERIVED 2026-09-17 (ledger 72% is a WALKED value; chain 70→80→88 (7/2)→72 (8/21); HELD 72% 9/19 on NO NEW DATA)",
+      "Timeframe": "FY 2026",
+      "Status": "OPEN",
+      "Date_Resolved": "",
+      "Outcome": ""
+    },
+    {
+      "Pred_ID": "MAR-12",
+      "Date_Made": "2026-02-23",
+      "Prediction": "Central America remittances -10% (reversal)",
+      "Confidence": "8% [2026-09-24] -- was 35% [2026-07-25]; AS-MADE 60% [2026-02-23] RE-DERIVED 2026-09-17 (ledger 35% is a WALKED value; the tool's '60% @7/25' coincided with the as-made)",
+      "Timeframe": "H2 2026",
+      "Status": "OPEN",
+      "Date_Resolved": "",
+      "Outcome": ""
+    },
+    {
+      "Pred_ID": "MAR-14",
+      "Date_Made": "2026-02-23",
+      "Prediction": "CA produce prices +15%",
+      "Confidence": "6% [2026-10-14] -- was 12% [2026-09-19]; AS-MADE 55% [2026-02-23] RE-DERIVED 2026-09-17 (WALKED chain 55→74→45 (7/25)→20 (7/31)→12 (9/19)→6 (10/14))",
+      "Timeframe": "H2 2026",
+      "Status": "OPEN",
+      "Date_Resolved": "",
+      "Outcome": ""
+    },
+    {
+      "Pred_ID": "MAR-25",
+      "Date_Made": "2026-02-27",
+      "Prediction": "TSA partial/full walkout triggers measurable FL airport delays",
+      "Confidence": "95%",
+      "Timeframe": "By Mar 21 2026",
+      "Status": "CONFIRMED",
+      "Date_Resolved": "2026-03-22",
+      "Outcome": "CONFIRMED — 400+ TSA quit, 11% national callout (Houston 40%, ATL 30%), 2-3hr waits at major hubs, small airport closures warned. Day 40 shutdown, no resolution til Apr 13. Exceeded prediction — not just FL but nationwide."
+    },
+    {
+      "Pred_ID": "MAR-26",
+      "Date_Made": "2026-03-23",
+      "Prediction": "ICE construction raids → housing start delays in border states (TX, AZ, FL)",
+      "Confidence": "SCORE AT 74% [2026-06-15, latest dated pre-resolution mark, WQ-112] -- AS-MADE 70% [2026-03-23] RE-DERIVED 2026-09-17 (ledger 74% is a WALKED value)",
+      "Timeframe": "Q2 2026",
+      "Status": "RESOLVED",
+      "Date_Resolved": "2026-07-02",
+      "Outcome": "MECHANISM-CONFIRMED / threshold EMERGING — May South starts -17.0% MoM flips April's against-signal geography (South had been the smallest decliner); one MoM print, Q3 is the clean test"
+    },
+    {
+      "Pred_ID": "MAR-27",
+      "Date_Made": "2026-03-26",
+      "Prediction": "DHS shutdown exceeds 60 days (longest ever)",
+      "Confidence": "90%",
+      "Timeframe": "By Apr 13 2026",
+      "Status": "CONFIRMED",
+      "Date_Resolved": "2026-04-30",
+      "Outcome": "76-day record shutdown — Trump signed funding bill Apr 30 (TSA/FEMA/CG/CISA/SS). ICE/CBP carved out to reconciliation. Longest ever, confirmed."
+    },
+    {
+      "Pred_ID": "MAR-21",
+      "Date_Made": "2026-02-23",
+      "Prediction": "Planting-season raid surge -> produce spike",
+      "Confidence": "SCORE AT 55% [2026-03-26, latest dated pre-resolution mark, WQ-112] -- AS-MADE 40% [2026-02-23] RE-DERIVED 2026-09-17 ('40% if raids escalate'; ledger 55% is a WALKED value)",
+      "Timeframe": "Mar-May 2026",
+      "Status": "RESOLVED",
+      "Date_Resolved": "2026-05-31",
+      "Outcome": "WRONG-MECHANISM (produce rose, causal claim failed)"
+    },
+    {
+      "Pred_ID": "MAR-22",
+      "Date_Made": "2026-02-23",
+      "Prediction": "OIA (Orlando/MCO) flips negative YoY",
+      "Confidence": "50%",
+      "Timeframe": "Q2-Q3 2026",
+      "Status": "RESOLVED",
+      "Date_Resolved": "2026-08-21",
+      "Outcome": "TRUE-IN-LETTER / FALSE-IN-SPIRIT — MCO flipped -1.81% May 2026, but Spirit liquidation removed 6.4x the entire decline; ex-Spirit MCO +11.13%"
+    },
+    {
+      "Pred_ID": "MAR-24",
+      "Date_Made": "2026-02-23",
+      "Prediction": "All 3 FL airports negative simultaneously",
+      "Confidence": "80% [ledger] -- AS-MADE 65% [2026-02-23] RE-DERIVED 2026-09-17 (ledger 80% is a WALKED value; chain 65→55 (5/31)→45→60 (7/25)→55→70 (9/19)→80 (9/24))",
+      "Timeframe": "Q3 2026",
+      "Status": "OPEN",
+      "Date_Resolved": "",
+      "Outcome": ""
+    }
+  ],
+  "protected_file_sha256": {
+    "AGENTS/MARCO/thesis/PREDICTIONS.tsv": "9a556d0eebe739c662666b28d2d4c724908a8fc513b85d0b7576ebb602d7255c",
+    "AGENTS/MARCO/sub_agents/TOURISM/workbook/PREDICTIONS.tsv": "da93257b53e742c23585c2814cb8efb5605ef428716e0fd58c2736cbc46e0f99",
+    "AGENTS/MARCO/thesis/PREREG_2026-07-31_floor_controlled_channel1.md": "6e1ca74441afebaa53b0f9d4aecaa0375d01a129045d88157998b0f7f4c0d9fc",
+    "AGENTS/MARCO/EXPECTED_SIGNALS.md": "a00d7f94ed0d475a69365e1aaa92a1b553982855bc4542a2454770fb4a853934",
+    "AGENTS/MARCO/docket/CATALYSTS.tsv": "18be3d5efc6bcb6aebceb549270d9cbe5b8e685036c99a0ea58b82e0c9c4fe90"
+  }
+}
