@@ -3,7 +3,7 @@
 **Status:** S1 3 / S2 2 / S3 3 / S4 3 / S5 4 = **15/25**, unchanged. One fired channel, S5; two events (Firmus and Volta under Will's B choice). WQ-464 retains 4.
 **Domain:** AI-capex / semiconductor / memory systemic transmission; shared demand root counted once.
 **As of:** 2026-10-26T14:30:02-04:00 | **STATUS commit:** 7aad4bb53
-**Variant:** FULL. One-off Will-requested missed-news sweep, KB-300..307; reports/2026-10-26_news-sweep/REPORT.md. Original sources/capture hashes retained. No live-price or off-cadence sample. Cross-runtime discovery incomplete; file delivery/notification/consumption distinct. Prior Git push blocked by missing HTTPS credentials.
+**Variant:** FULL. One-off Will-requested missed-news sweep, KB-300..307; reports/2026-10-26_news-sweep/REPORT.md. Original sources/capture hashes retained. No live-price or off-cadence sample. Cross-runtime discovery incomplete. WALTER/PROME/LIQUID native pointer notifications accepted after dd60c1247; recipient consumption unverified. Owner file packets committed. Prior Git push blocked by missing HTTPS credentials.
 
 ## CROSS-DOMAIN
 

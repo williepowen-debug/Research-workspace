@@ -5,6 +5,7 @@
 - Scores unchanged 15/25,S5 at 4, two events; no new fire,monitor,trade or off-cadence reading. WALTER receives discovery/dedupe packet; WATT power/registration,BROCK+LIQUID facility,ZHAO China/policy receive bounded notes.
 - Original funding report594ff5c39 remains valid. No old March AWS event relabelled October; no90-day export extension adopted from tech relay.
 - GOOGL/META models and KB-096 issuance study remain open/dueOctober26, not completed/re-dated by sweep. Next:October 27 ZHAO,October 28–29 cluster,October 30 slots.
+- Report/routes commit dd60c1247; STATUS 7aad4bb53. Native WALTER/PROME/LIQUID pointer notifications accepted 2026-10-26T14:31:15-04:00; consumption unverified. Receipt: reports/2026-10-26_news-sweep/DELIVERY.md.
 - Pull withheld for foreign WALTER caches. Prior push blocked GitHub HTTPS Username; local path-scoped commits retained. Verified native PROME/WALTER/LIQUID transports; other owner presence UNKNOWN.
 
 > # ⛔ 2026-10-26T13:45:33-04:00 — prior block. Will-directed October26 three-financing pass.
