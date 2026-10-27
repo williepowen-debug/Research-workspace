@@ -22,8 +22,8 @@ $ink=[Drawing.Color]::FromArgb(29,40,57)
 $muted=[Drawing.Color]::FromArgb(87,100,120)
 $accent=[Drawing.Color]::FromArgb(42,91,164)
 $form=New-Object Windows.Forms.Form
-$form.Text='Agent Launcher'; $form.ClientSize=New-Object Drawing.Size(1100,720)
-$form.MinimumSize=New-Object Drawing.Size(1116,759)
+$form.Text='Agent Launcher'; $form.ClientSize=New-Object Drawing.Size(1160,780)
+$form.MinimumSize=New-Object Drawing.Size(1176,819)
 $form.StartPosition='CenterScreen'; $form.BackColor=$bg; $form.ForeColor=$ink
 $form.Font=New-Object Drawing.Font('Segoe UI',10); $form.AutoScaleMode='Dpi'
 function Label($text,$x,$y,$width,$height,$size=10) {
@@ -35,17 +35,28 @@ function Label($text,$x,$y,$width,$height,$size=10) {
 function Button($text,$x,$y,$width) {
     $c=New-Object Windows.Forms.Button
     $c.Text=$text; $c.SetBounds($x,$y,$width,40)
+    $c.UseMnemonic=$false
     $c.FlatStyle='Flat'; $c.FlatAppearance.BorderSize=0
     $c.BackColor=[Drawing.Color]::White; $c.ForeColor=$ink
     $c.Cursor='Hand'; $form.Controls.Add($c)
     return $c
 }
-$title=Label 'Your agent desk' 24 18 900 42 23
-$subtitle=Label 'Browse a category. Check agents to launch together.' 26 65 1000 26
+$title=Label 'Agent Launcher' 24 18 900 42 23
+$subtitle=Label 'Choose your agents, prepare their instructions, and open a conversation.' 26 65 1080 26
 $subtitle.ForeColor=$muted
-$categoryLabel=Label 'Categories' 26 111 224 26
+$savedLabel=Label 'My groups' 26 111 224 26
+$savedGroups=New-Object Windows.Forms.ComboBox
+$savedGroups.SetBounds(26,145,224,32); $savedGroups.DropDownStyle='DropDown'; $form.Controls.Add($savedGroups)
+$loadGroup=Button 'Load group' 26 188 132
+$groupActions=Button 'Manage...' 166 188 84
+$groupMenu=New-Object Windows.Forms.ContextMenuStrip
+$saveGroup=$groupMenu.Items.Add('Save selection to this group')
+$saveAsGroup=$groupMenu.Items.Add('Save selection as a new group...')
+$renameGroup=$groupMenu.Items.Add('Rename group...')
+$deleteGroup=$groupMenu.Items.Add('Delete group...')
+$categoryLabel=Label 'Categories' 26 250 224 26
 $categories=New-Object Windows.Forms.ListBox
-$categories.SetBounds(26,145,224,435); $categories.BorderStyle='None'
+$categories.SetBounds(26,284,224,328); $categories.BorderStyle='None'
 $categories.IntegralHeight=$false; $categories.DrawMode='OwnerDrawFixed'; $categories.ItemHeight=46
 $categories.DisplayMember='Display'; $form.Controls.Add($categories)
 [void]$categories.Items.Add([pscustomobject]@{Name='';Display='All agents'})
@@ -60,67 +71,114 @@ $categories.Add_DrawItem({
     [Windows.Forms.TextRenderer]::DrawText($e.Graphics,$sender.Items[$e.Index].Display,$sender.Font,$rect,$e.ForeColor,([Windows.Forms.TextFormatFlags]::WordBreak -bor [Windows.Forms.TextFormatFlags]::VerticalCenter))
     $e.DrawFocusRectangle()
 })
-$searchLabel=Label 'Search in category' 270 111 220 26
+$searchLabel=Label 'Find an agent' 274 111 238 26
 $search=New-Object Windows.Forms.TextBox
-$search.SetBounds(270,145,220,30); $form.Controls.Add($search)
+$search.SetBounds(274,145,238,30); $form.Controls.Add($search)
 $list=New-Object Windows.Forms.CheckedListBox
-$list.SetBounds(270,186,220,334); $list.IntegralHeight=$false
+$list.SetBounds(274,188,238,424); $list.IntegralHeight=$false
 $list.BorderStyle='None'; $list.Font=New-Object Drawing.Font('Segoe UI',11)
 $list.CheckOnClick=$false; $list.DisplayMember='Display'; $form.Controls.Add($list)
-$count=Label '' 270 532 220 45
+$count=Label '' 274 622 238 26 9
 $count.ForeColor=$muted
-$batch=Button 'Review selected (0)' 270 582 220
+$tray=New-Object Windows.Forms.Panel
+$tray.Height=110; $tray.Dock='Bottom'; $tray.BackColor=[Drawing.Color]::White
+$form.Controls.Add($tray)
+$selectionLabel=Label 'Selected agents' 24 10 140 24
+$tray.Controls.Add($selectionLabel)
+$chips=New-Object Windows.Forms.FlowLayoutPanel
+$chips.SetBounds(24,42,800,54); $chips.Anchor='Top,Left,Right'
+$chips.WrapContents=$false; $chips.AutoScroll=$true; $tray.Controls.Add($chips)
+$batch=Button 'Review & launch 0 agents' 856 42 280
+$tray.Controls.Add($batch); $batch.Anchor='Top,Right'
 $batch.BackColor=$accent; $batch.ForeColor=[Drawing.Color]::White
-$clear=Button 'Clear selection' 26 582 224
-$name=Label 'Select an agent' 520 107 554 38 21
-$purpose=Label '' 522 151 550 52 11
+$clear=Button 'Clear all' 170 5 90
+$clear.Height=30; $tray.Controls.Add($clear)
+$name=Label 'Select an agent' 540 107 596 38 21
+$purpose=Label '' 542 151 594 48 11
 $purpose.ForeColor=$muted
-$group=Label '' 522 206 550 24
+$group=Label '' 542 204 594 24
 $group.ForeColor=$muted
-$runtimeLabel=Label 'Run this agent with' 522 242 550 25
+$runtimeLabel=Label 'Runtime' 542 246 594 25
 $runtime=New-Object Windows.Forms.ComboBox
-$runtime.SetBounds(522,271,550,32); $runtime.DropDownStyle='DropDownList'
+$runtime.SetBounds(542,275,594,32); $runtime.DropDownStyle='DropDownList'
 $form.Controls.Add($runtime)
-$taskLabel=Label 'Optional task for this agent' 522 313 550 25
+$presetLabel=Label 'Instructions preset' 542 322 594 23
+$preset=New-Object Windows.Forms.ComboBox
+$preset.SetBounds(542,351,320,30); $preset.DropDownStyle='DropDownList'; $form.Controls.Add($preset)
+$usePreset=Button 'Apply' 874 346 106
+$presetActions=Button 'More...' 992 346 144
+$presetMenu=New-Object Windows.Forms.ContextMenuStrip
+$batchPreset=$presetMenu.Items.Add('Apply preset to all selected agents...')
+$taskLabel=Label 'Instructions for this agent (optional)' 542 399 594 25
 $task=New-Object Windows.Forms.TextBox
-$task.SetBounds(522,343,550,75); $task.Multiline=$true; $task.AcceptsReturn=$true
+$task.SetBounds(542,429,594,84); $task.Multiline=$true; $task.AcceptsReturn=$true
 $task.ScrollBars='Vertical'; $form.Controls.Add($task)
-$start=Button 'Start this agent' 522 432 265
-$resume=Button 'Resume this agent...' 803 432 269
-$hint=Label 'Use checkboxes for a batch; Start and Resume use the highlighted agent.' 522 480 550 35 9
+$start=Button 'New conversation' 542 529 288
+$resume=Button 'Resume conversation...' 842 529 294
+$hint=Label 'These buttons open the highlighted agent. Clear instructions to enable Resume.' 542 579 594 30 9
 $hint.ForeColor=$muted
-$status=Label 'Ready. Each conversation opens in its own terminal.' 522 519 550 25 9
+$status=Label 'Ready. Each conversation opens in its own terminal.' 542 616 594 22 9
 $status.ForeColor=$muted
+$details=New-Object Windows.Forms.LinkLabel
+$details.Text='Show launch details'; $details.SetBounds(542,640,594,24)
+$details.LinkColor=$accent; $details.ActiveLinkColor=$accent; $form.Controls.Add($details)
 $results=New-Object Windows.Forms.TextBox
-$results.SetBounds(522,550,550,72); $results.Multiline=$true; $results.ReadOnly=$true
+$results.SetBounds(542,674,594,110); $results.Multiline=$true; $results.ReadOnly=$true
+$results.Visible=$false
 $results.ScrollBars='Vertical'; $results.BackColor=[Drawing.Color]::White
 $results.Font=New-Object Drawing.Font('Segoe UI',9); $form.Controls.Add($results)
-$stop=Button 'Stop remaining' 26 582 224
+$stop=Button 'Stop remaining' 856 5 280
+$stop.Height=30; $tray.Controls.Add($stop); $stop.Anchor='Top,Right'
 $stop.Visible=$false
-foreach ($control in @($name,$purpose,$group,$runtimeLabel,$runtime,$taskLabel,$task,$hint,$status,$results)) {$control.Anchor='Top,Left,Right'}
+foreach ($control in @($name,$purpose,$group,$runtimeLabel,$runtime,$presetLabel,$taskLabel,$task,$hint,$status,$results,$details)) {$control.Anchor='Top,Left,Right'}
+$resume.Anchor='Top,Right'; $usePreset.Anchor='Top,Right'; $presetActions.Anchor='Top,Right'
+$preset.Anchor='Top,Left,Right'
 $tooltip=New-Object Windows.Forms.ToolTip
 $tooltip.SetToolTip($list,'Click a name for details. Click its checkbox, or press Space, to include it in a batch.')
 $tooltip.SetToolTip($task,'Saved for this agent while the app is open. Applies only to new conversations.')
+$tooltip.SetToolTip($savedGroups,'Choose a saved group to load it, or use Manage to save or rename one. Groups remember agents and runtimes.')
+$tooltip.SetToolTip($usePreset,'Fill the highlighted agent instructions with this preset, then edit them as needed.')
+$tooltip.SetToolTip($presetActions,'Apply the preset to all selected agents, including agents hidden by a filter.')
 
-# Saved groups toolbar and editable task presets.
-foreach ($c in @($categoryLabel,$categories,$searchLabel,$search,$list,$count,$batch,$clear,$name,$purpose,$group,$runtimeLabel,$runtime,$stop)) {$c.Top+=54}
-$taskLabel.Top=429; $task.Top=453; $task.Height=70
-$start.Top=537; $resume.Top=537; $hint.Top=585; $status.Top=623
-$results.Top=650; $results.Height=50
-$savedLabel=Label 'Saved groups' 26 110 120 28
-$savedGroups=New-Object Windows.Forms.ComboBox
-$savedGroups.SetBounds(150,105,360,32); $savedGroups.DropDownStyle='DropDown'; $form.Controls.Add($savedGroups)
-$loadGroup=Button 'Load' 526 102 100
-$saveGroup=Button 'Save selected' 640 102 170
-$deleteGroup=Button 'Delete group' 824 102 150
-$presetLabel=Label 'Task preset' 522 365 550 23
-$preset=New-Object Windows.Forms.ComboBox
-$preset.SetBounds(522,391,300,30); $preset.DropDownStyle='DropDownList'; $form.Controls.Add($preset)
-$usePreset=Button 'Use here' 832 387 110
-$batchPreset=Button 'Use for checked' 952 387 120
-$tooltip.SetToolTip($savedGroups,'Choose a saved group, or type a name and Save selected. Groups save agents and runtimes; task text stays in this window.')
-$tooltip.SetToolTip($usePreset,'Put this preset into the highlighted agent task box; you can edit it before launch.')
-$tooltip.SetToolTip($batchPreset,'Put this preset into every checked agent task box, including hidden selections.')
+function Set-DetailsVisible($visible) {
+    if ($results.Visible -eq $visible) {return}
+    $delta=130; if (-not $visible) {$delta=-130}
+    $height=$form.ClientSize.Height+$delta
+    $form.MinimumSize=New-Object Drawing.Size($form.MinimumSize.Width,($form.MinimumSize.Height+$delta))
+    $form.ClientSize=New-Object Drawing.Size($form.ClientSize.Width,$height)
+    $results.Visible=$visible
+    $details.Text='Show launch details'; if ($visible) {$details.Text='Hide launch details'}
+}
+function Refresh-SelectionTray {
+    # Rebuild only when membership changes, so task edits never steal chip focus.
+    $members=@($data.agents | Where-Object {$script:checked.ContainsKey($_.name)})
+    $signature=($members.name -join '|')
+    if ($signature -cne $script:chipSignature) {
+        $script:chipSignature=$signature
+        $chips.SuspendLayout()
+        try {
+            while ($chips.Controls.Count -gt 0) {$chips.Controls[0].Dispose()}
+            if ($members.Count -eq 0) {
+                $empty=New-Object Windows.Forms.Label
+                $empty.Text='Check agents in the list to prepare a batch.'
+                $empty.AutoSize=$true; $empty.ForeColor=$muted; $empty.Margin=New-Object Windows.Forms.Padding(0,9,0,0)
+                $chips.Controls.Add($empty)
+            }
+            foreach ($entry in $members) {
+                $chip=New-Object Windows.Forms.Button
+                $chip.Text=$entry.name+'  x'; $chip.Tag=$entry.name
+                $chip.AutoSize=$true; $chip.Height=34; $chip.FlatStyle='Flat'
+                $chip.FlatAppearance.BorderSize=0; $chip.BackColor=$bg; $chip.Cursor='Hand'
+                $chip.Margin=New-Object Windows.Forms.Padding(0,0,8,0)
+                $chip.AccessibleName='Remove '+$entry.name+' from selection'
+                $tooltip.SetToolTip($chip,'Remove '+$entry.name+' from the batch selection')
+                $chip.Add_Click({param($sender,$e) $script:checked.Remove([string]$sender.Tag); Filter-Agents})
+                $chips.Controls.Add($chip)
+            }
+        } finally {$chips.ResumeLayout()}
+    }
+    foreach ($chip in $chips.Controls) {$chip.Enabled=-not $script:busy}
+}
 
 # Groups are personal preferences; never commands, tasks, or a fleet roster.
 $script:groups=@(); $script:groupsVersion=''; $script:groupsHealthy=$true
@@ -243,6 +301,40 @@ function Delete-Group {
         $status.Text='Saved group deleted. No agent or conversation was removed.'
     } catch {$status.Text=$_.Exception.Message;$tooltip.SetToolTip($status,$status.Text)}
 }
+function Ask-GroupName($title,$initial) {
+    $dialog=New-Object Windows.Forms.Form
+    $dialog.Text=$title; $dialog.ClientSize=New-Object Drawing.Size(420,140)
+    $dialog.StartPosition='CenterParent'; $dialog.Font=$form.Font; $dialog.BackColor=$bg
+    $dialog.FormBorderStyle='FixedDialog'; $dialog.MaximizeBox=$false; $dialog.MinimizeBox=$false
+    $input=New-Object Windows.Forms.TextBox
+    $input.SetBounds(20,20,380,30); $input.Text=$initial; $input.MaxLength=60
+    $ok=New-Object Windows.Forms.Button
+    $ok.Text='Save'; $ok.SetBounds(290,80,110,36); $ok.DialogResult='OK'
+    $cancel=New-Object Windows.Forms.Button
+    $cancel.Text='Cancel'; $cancel.SetBounds(170,80,110,36); $cancel.DialogResult='Cancel'
+    $dialog.Controls.AddRange(@($input,$ok,$cancel)); $dialog.AcceptButton=$ok; $dialog.CancelButton=$cancel
+    $answer=$dialog.ShowDialog($form); $value=$input.Text.Trim(); $dialog.Dispose()
+    if ($answer -eq 'OK') {return $value}
+    return $null
+}
+function Save-GroupAs {
+    $value=Ask-GroupName 'Save selected agents as a group' ''
+    if ($null -eq $value) {return}
+    $savedGroups.Text=$value; Save-Group
+}
+function Rename-SavedGroup($value) {
+    # Only the name changes. Preserve saved members, runtimes, and current tasks.
+    $old=$savedGroups.Text.Trim()
+    $matches=@($script:groups | Where-Object {$_.name -eq $old})
+    if ($matches.Count -ne 1) {throw 'Choose a saved group to rename.'}
+    $value=$value.Trim()
+    if (-not $value -or $value.Length -gt 60 -or $value -match '[\x00-\x1f]') {throw 'Enter a group name of 1 to 60 characters.'}
+    if (@($script:groups | Where-Object {$_.name -eq $value -and $_.name -ne $old}).Count -gt 0) {throw 'Another group already has that name. Choose a different name.'}
+    $renamed=@{name=$value;members=$matches[0].members}
+    Write-Groups @(@($script:groups | Where-Object {$_.name -ne $old})+$renamed)
+    Refresh-Groups; $savedGroups.Text=$value
+    $status.Text='Renamed group to '+$value+'.'
+}
 $presets=@(
     @{name='Orient and report status';text='Follow your startup instructions. Recover current work, approvals, and unresolved conditions. Give Will a short status and suggested next step. Do not begin unassigned work.'},
     @{name='Continue approved work';text='Follow your startup instructions and recover the current assignment, existing approvals, and unresolved conditions. Continue only work already authorized and currently in scope. Preserve all approval conditions; ask Will if the applicable assignment or authority is unclear. Report the result and next stopping point.'},
@@ -272,16 +364,22 @@ function Update-Buttons {
     $task.Enabled=$ready
     $search.Enabled=-not $script:busy; $list.Enabled=-not $script:busy; $categories.Enabled=-not $script:busy
     $batch.Enabled=($script:checked.Count -gt 0 -and -not $script:busy)
-    $batch.Text='Review selected ('+$script:checked.Count+')'
+    $noun=' agents'; if ($script:checked.Count -eq 1) {$noun=' agent'}
+    $batch.Text='Review & launch '+$script:checked.Count+$noun
     $clear.Enabled=($script:checked.Count -gt 0 -and -not $script:busy)
     $clear.Visible=-not $script:busy; $stop.Visible=$script:busy
     $stop.Enabled=($script:queue.Count -gt 0)
-    $count.Text=[string]$list.Items.Count+' shown / '+$script:checked.Count+' selected overall'
+    $count.Text=[string]$list.Items.Count+' shown / '+$script:checked.Count+' selected'
     $savedGroups.Enabled=-not $script:busy; $loadGroup.Enabled=-not $script:busy
     $saveGroup.Enabled=($script:checked.Count -gt 0 -and -not $script:busy -and $script:groupsHealthy)
+    $saveAsGroup.Enabled=$saveGroup.Enabled
+    $groupActions.Enabled=-not $script:busy
+    $renameGroup.Enabled=(-not $script:busy -and $script:groupsHealthy -and $script:groups.Count -gt 0)
     $deleteGroup.Enabled=(-not $script:busy -and $script:groupsHealthy)
     $preset.Enabled=-not $script:busy; $usePreset.Enabled=$ready
     $batchPreset.Enabled=($script:checked.Count -gt 0 -and -not $script:busy)
+    $presetActions.Enabled=$batchPreset.Enabled
+    Refresh-SelectionTray
 }
 function Save-Settings {
     if ($script:loading -or $null -eq $script:selected) {return}
@@ -384,6 +482,7 @@ function Confirm-Batch($items) {
 function Log-Result($text) {
     $results.AppendText($text+"`r`n")
     $results.SelectionStart=$results.TextLength; $results.ScrollToCaret()
+    if ($text.StartsWith('Not confirmed')) {Set-DetailsVisible $true}
 }
 function Begin-Requests($items) {
     if ($script:busy -or $items.Count -eq 0) {return}
@@ -403,7 +502,7 @@ function Finish-Current($ok,$message) {
 function Start-Next {
     if ($script:queue.Count -eq 0) {
         $script:busy=$false
-        $status.Text='Finished: '+$script:completed+' attempted, '+$script:failed+' not confirmed. See results below.'
+        $status.Text='Finished: '+$script:completed+' attempted, '+$script:failed+' not confirmed. See launch details.'
         $saved=$status.Text
         Filter-Agents
         $status.Text=$saved
@@ -500,10 +599,21 @@ $form.Add_FormClosing({
 })
 $form.Add_FormClosed({$timer.Stop();$timer.Dispose()})
 $saveGroup.Add_Click({Save-Group})
+$saveAsGroup.Add_Click({Save-GroupAs})
+$renameGroup.Add_Click({
+    try {
+        $value=Ask-GroupName 'Rename saved group' $savedGroups.Text.Trim()
+        if ($null -ne $value) {Rename-SavedGroup $value}
+    } catch {$status.Text=$_.Exception.Message;$tooltip.SetToolTip($status,$status.Text)}
+})
 $loadGroup.Add_Click({Load-Group})
+$savedGroups.Add_SelectionChangeCommitted({Load-Group})
+$groupActions.Add_Click({Update-Buttons; $groupMenu.Show($groupActions,(New-Object Drawing.Point(0,$groupActions.Height)))})
 $deleteGroup.Add_Click({Delete-Group})
 $usePreset.Add_Click({Apply-Preset $false})
 $batchPreset.Add_Click({Apply-Preset $true})
+$presetActions.Add_Click({$presetMenu.Show($presetActions,(New-Object Drawing.Point(0,$presetActions.Height)))})
+$details.Add_LinkClicked({Set-DetailsVisible (-not $results.Visible)})
 foreach ($p in $presets) {[void]$preset.Items.Add($p.name)}
 $preset.SelectedIndex=0
 $categories.SelectedIndex=0
@@ -511,6 +621,7 @@ try {Read-Groups; Refresh-Groups} catch {
     $script:groupsHealthy=$false
     $status.Text='Cannot read saved groups. See results below.'
     Log-Result ($_.Exception.Message+' File: '+$script:groupsPath)
+    Set-DetailsVisible $true
 }
 Update-Buttons
 $timer.Start()
@@ -606,13 +717,61 @@ if ($SmokeTest) {
             $savedGroups.Text='Consumer review'; $saveGroup.PerformClick()
             $script:confirmChange=$normalConfirm
 
+            # Renaming preserves the saved membership and rejects name collisions.
+            $beforeMembers=$script:groups[0].members | ConvertTo-Json -Depth 5 -Compress
+            Rename-SavedGroup 'Consumer renamed'
+            if ($script:groups[0].name -ne 'Consumer renamed' -or ($script:groups[0].members | ConvertTo-Json -Depth 5 -Compress) -cne $beforeMembers) {throw 'Rename changed saved group members'}
+            Write-Groups @($script:groups+@{name='Existing group';members=$script:groups[0].members})
+            $before=[IO.File]::ReadAllText($script:groupsPath); $failed=$false
+            try {Rename-SavedGroup 'Existing group'} catch {$failed=$true}
+            if (-not $failed -or [IO.File]::ReadAllText($script:groupsPath) -cne $before) {throw 'Rename overwrote another group'}
+            Rename-SavedGroup 'Consumer review'
+            # Selection chips include hidden agents and remove only their target.
+            $search.Text='no-such-agent-987654'
+            if ($chips.Controls.Count -ne $script:checked.Count) {throw 'Tray lost hidden agents'}
+            $remove=$chips.Controls[0]; $removedName=[string]$remove.Tag
+            $beforeCount=$script:checked.Count
+            $beforeTask=$script:settings[$removedName].task
+            $remove.PerformClick()
+            if ($script:checked.ContainsKey($removedName) -or $script:checked.Count -ne ($beforeCount-1) -or $script:settings[$removedName].task -cne $beforeTask) {throw 'Chip removal changed other selection or settings'}
+            $script:busy=$true; Update-Buttons
+            foreach ($chip in $chips.Controls) {if ($chip.Enabled) {throw 'Selection chip enabled during launch'}}
+            $script:busy=$false; Update-Buttons
+            # Details expand/collapse without losing form size or hiding the tray.
+            $height=$form.ClientSize.Height
+            Set-DetailsVisible $true
+            if (-not $results.Visible -or $results.Bottom -gt $tray.Top) {throw 'Expanded launch details overlap selection tray'}
+            Set-DetailsVisible $false
+            if ($results.Visible -or $form.ClientSize.Height -ne $height) {throw 'Details toggle changed collapsed form size'}
+            Log-Result 'Not confirmed - ISOLATED_TEST: fixture error'
+            if (-not $results.Visible) {throw 'Launch error did not reveal details'}
+            Set-DetailsVisible $false; $results.Clear()
+            $categories.SelectedIndex=0; $search.Clear()
+            for ($i=0;$i -lt $list.Items.Count;$i++) {if ($list.Items[$i].Entry.name -eq 'CARL') {$list.SelectedIndex=$i;break}}
+            foreach ($control in $form.Controls) {
+                if ($control.Visible -and $control -ne $tray -and $control.Bottom -gt $tray.Top) {throw ('Control overlaps selection tray: '+$control.Text)}
+                if ($control.Visible -and $control.Right -gt $form.ClientSize.Width) {throw ('Control exceeds form width: '+$control.Text)}
+            }
+            # Resize once; anchored controls must retain separation and visibility.
+            $width=$form.ClientSize.Width
+            $form.ClientSize=New-Object Drawing.Size(($width+160),$form.ClientSize.Height)
+            if ($start.Right -ge $resume.Left -or $preset.Right -ge $usePreset.Left -or $chips.Right -ge $batch.Left) {throw 'Resized controls overlap'}
+            $form.ClientSize=New-Object Drawing.Size($width,$form.ClientSize.Height)
+            $retained=@($script:checked.Keys)
+            foreach ($entry in $data.agents) {$script:checked[$entry.name]=$true}
+            Update-Buttons; $chips.PerformLayout()
+            if ($chips.Controls.Count -ne $data.agents.Count -or $chips.DisplayRectangle.Width -le $chips.ClientSize.Width) {throw 'Full selection does not scroll in tray'}
+            $script:checked.Clear(); Update-Buttons
+            if ($chips.Controls.Count -ne 1 -or $chips.Controls[0] -isnot [Windows.Forms.Label] -or $batch.Enabled) {throw 'Empty tray state failed'}
+            foreach ($key in $retained) {$script:checked[$key]=$true}
+            Filter-Agents
             if (@(Get-ChildItem -LiteralPath $data.directory -Filter '*.claimed').Count -ne 0) {throw 'Saving/loading/presets started an agent'}
-            $status.Text='Saved groups and editable task presets are ready.'
+            $status.Text='Ready. Review your selected agents in the tray below.'
             $form.Refresh()
             $bitmap=New-Object Drawing.Bitmap($form.Width,$form.Height)
             $form.DrawToBitmap($bitmap,(New-Object Drawing.Rectangle(0,0,$form.Width,$form.Height)))
             $bitmap.Save((Join-Path $data.directory 'preview.png')); $bitmap.Dispose()
-            @{ok=$true;checks='Categories, retained selection, per-agent runtime/task, hidden preview, CATO, resume, empty search, clear, stop remaining, saved groups, atomic persistence, concurrent/corrupt-file refusal, task presets'} | ConvertTo-Json | Set-Content -Encoding UTF8 (Join-Path $data.directory 'smoke.json')
+            @{ok=$true;checks='Categories, retained selection, per-agent runtime/task, hidden preview, CATO, resume, empty search, clear, stop remaining, saved groups, atomic persistence, concurrent/corrupt-file refusal, task presets, group rename/collision, hidden selection chips/removal, busy controls, expandable/error details, layout bounds and resize'} | ConvertTo-Json | Set-Content -Encoding UTF8 (Join-Path $data.directory 'smoke.json')
         } catch {
             @{ok=$false;error=$_.Exception.Message} | ConvertTo-Json | Set-Content -Encoding UTF8 (Join-Path $data.directory 'smoke.json')
         } finally {$form.Close()}
