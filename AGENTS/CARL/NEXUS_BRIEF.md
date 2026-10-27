@@ -1,12 +1,15 @@
 # CARL — NEXUS Brief
 
-**Status:** 🔴 Registered 53/70 unchanged; CRL-29 first grade NO VERDICT; Q3 issuer prints cut CRL-31/20/12 to 1%; scope finding re-tested and held.
+**Status:** 🔴 Registered 53/70 unchanged; startup recovered; research synthesis remains 10/21 and needs review.
 **Domain:** U.S. consumer financial stress and downstream household transmission; bank-level credit belongs to REGINALD.
 **Thesis version:** v2.6.6
-**As of:** 2026-10-21 22:51 ET | **STATUS commit:** 975ea7d6e
+**Recent thesis pivot:** issuer acceleration letters near-dead after Q3 card improvement (10/21); broad collapse unestablished.
+**As of:** 2026-10-26 21:19 ET | STATUS commit: `ffa9fb3c1`
 **Position:** No capital authority. Paper references only; no marks or broker position claims.
 
 ## CROSS-DOMAIN
+
+**10/26 startup only:** all VIEW figures below retain the 10/21 synthesis vintage and are [STALE] for current citation. Eleven BOARD reads and three corrections deferred to 10/27; no primary integration or fresh score assessment. Shell/Python/web available; Claude-native hooks and cross-runtime delivery/consumption unverified. No new packet sent. Recovery receipt: `domain/sources/2026-10-26_startup-recovery/STARTUP_RECEIPT.md`.
 
 **SENDING (10/21 catch-up, PROME wave 3; all committed):**
 
@@ -20,7 +23,7 @@
 
 | From | Input | Expected by | Consequence |
 |---|---|---|---|
-| ALLY deck / ABS curves | FY2025/26 vs FY2023 vintage loss at comparable seasoning | 10/26 review | CRL-21 formal Q3 resolution (vintage OR-leg) |
+| ALLY deck / ABS curves | FY2025/26 vs FY2023 vintage loss at comparable seasoning | 10/27 review (10/26 UNREVIEWED) | CRL-21 formal Q3 resolution (vintage OR-leg) |
 | Fed | FOMC Oct 27–28 statement | Wed 10/28 | V12 un-fire count (0 of 2) |
 | BEA | Q3 GDP + **September personal income and outlays** | Thu 10/29 08:30 | The next real test of broad spending |
 | OTTO / SEC | EART September collection month | ~10/29 | V2 deep tier (holds 4) |
@@ -47,18 +50,18 @@
 
 ## NEXT DECISION POINT
 
-- **What / when:** 10/26 CRL-21 vintage leg; 10/28 FOMC; **10/29 September PCE + Q3 GDP** and EART September.
+- **What / when:** 10/27 review of overdue CRL-21 vintage leg/RITM/fintech; 10/28 FOMC; **10/29 September PCE + Q3 GDP** and EART September.
 - **What changes the view:** real PCE falling with the saving rate up across cohorts (broad leg); a V2 two-tier reversal; CRL-21 vintage losses ≥+50bp over FY2023.
 
-## WATCH
+## FORWARD CATALYSTS
 
 | Date | Event | Registered question |
 |---|---|---|
-|10/22| Claims (LABOR) | Kill leg 1 stays met |
-|10/23| Michigan final | Persistence of the preliminary turn |
-|10/26| CRL-21 vintage leg; fintech feed | Q3 formal resolution; REGINALD agreement |
+|10/27| Claims 10/22 + Michigan final 10/23 | UNREVIEWED; verify before updating snapshot |
+|10/27| CRL-21 vintage leg; RITM; fintech feed | 10/26 duties UNREVIEWED; primary grade and REGINALD agreement |
 |10/28| FOMC | V12 un-fire count |
 |10/29| Q3 GDP + September PCE; EART September | Broad spending; V2 deep tier |
+|10/30| WQ-516 I3 reply | Debt-buyer row/cadence/source/want/decision; no new research commissioned |
 |11/06| NFP | V16 earliest new print 1 |
 |11/12| October CPI | CRL-10 level vs path |
 |11/17| October retail | Control + T1 at one vintage |
