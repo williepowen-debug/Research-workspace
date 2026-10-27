@@ -1,0 +1,497 @@
+News Release
+Embargoed until 0945 EDT (1345 UTC) 23 October 2026
+
+S&P Global Flash US PMI®
+
+Business activity growth holds close to five-year high, but selling 
+prices rise at sharpest rate since August 2022
+
+S&P Global US Composite PMI Output
+
+Gross domestic product
+
+Index, sa, >50 = growth m/m
+
+annualised % yr/yr
+
+70
+
+65
+
+60
+
+55
+
+50
+
+45
+
+40
+
+35
+
+30
+
+25
+
+12
+
+9
+
+6
+
+3
+
+0
+
+-3
+
+-6
+
+-9
+
+-12
+
+-15
+
+13 14 15 16 17 18 19 20 21 22 23 24 25 26
+
+Data were collected 09-22 October 2026.
+Sources: S&P Global PMI, Bureau of Economic Analysis via S&P Global Market Intelligence. 
+©2026 S&P Global.
+
+Comment
+
+Chris Williamson, Chief Business Economist at S&P 
+Global Market Intelligence:
+
+“October’s flash PMI data indicate that the US economy 
+continues to boom at the start of the fourth quarter. The 
+output readings from the survey are consistent with GDP 
+growing at a 5% annualized rate after a 4% expansion 
+was signalled for the third quarter. Especially healthy 
+corporate earnings and profits are also indicated, and 
+hiring has surged as companies seek to boost capacity to 
+fulfil stronger customer demand.  
+
+“If the reopening of the economy after COVID is excluded, 
+recent months have seen the best growth spell for US 
+businesses since early 2015.
+
+“However, cost pressures remain a key concern, notably 
+as the renewed surge in oil prices reverberates through to 
+impact a wide variety of goods and services. Supply chain 
+bottlenecks have meanwhile intensified, and order book 
+backlogs are growing, making it easier for companies 
+to pass higher costs on to customers. The result is the 
+sharpest increase in selling prices for over four years to 
+a pace that indicates consumer price inflation is likely to 
+rise further above the Fed’s target in the coming months.”
+
+October 2026
+Flash US Composite PMI Output Index: 57.6 
+(September: 58.4). 2-month low.
+
+Flash US Services PMI Business Activity Index: 
+57.9 (September: 58.8). 2-month low.
+
+Flash US Manufacturing Output Index: 55.8 
+(September: 56.2). 2-month low.
+
+Flash US Manufacturing PMI: 56.0 (September: 
+55.9). 53-month high. 
+
+US business activity growth slowed in October but 
+remained close to September’s recent high in response to 
+a further improvement in order books. Growth rates in both 
+manufacturing and services remained among the best seen 
+over the past five years as robust domestic demand was 
+accompanied by renewed signs of export growth. Hiring also 
+remained strong, with employment increasing at the second-
+fastest pace for over four years as firms boosted capacity to 
+meet demand. However, selling prices rose at the sharpest 
+rate since August 2022 as companies sought to pass on a 
+further steep rise in costs to customers.
+
+Output and demand
+The headline flash S&P Global US PMI Composite Output 
+Index slipped from 58.4 in September to 57.6 in October but 
+remained firmly in strong growth territory. Despite the fall, the 
+index still signalled the second-sharpest increase in activity 
+since March 2022. Growth dipped lower in both manufacturing 
+and services, but in both cases the rates of expansion were 
+among the highest seen over the past five years.
+
+New orders growth meanwhile ticked higher from September’s 
+elevated reading and was the highest in over four-and-a-half 
+years. However, a weakened rate of increase in manufacturing 
+new orders contrasted with an improved rate of growth of 
+services new business to the strongest since March 2022.
+
+While the upturn in orders was again principally a reflection 
+of rising domestic demand, boosted partly by precautionary 
+stock building, October saw export sales gain traction, 
+registering the strongest gain since May 2022. Export orders 
+for goods rose for the first time since June of last year, 
+accompanied by the largest rise in services exports since July 
+2023. 
+
+Employment and operating capacity
+Companies’ backlogs of uncompleted orders, a key indicator 
+of capacity utilization and future business growth, rose 
+
+© 2026 S&P Globalsharply again, the latest increase being the largest since 
+May 2022. Backlogs accumulated at stronger rates in both 
+manufacturing and services.
+
+The rise in backlogs of work again encouraged firms to take 
+on more staff. Employment rose in October at the fastest rate 
+since June 2022, barring only the jump in payrolls reported in 
+September. Both service sector and manufacturing payrolls 
+increased, the latter notably at the fastest rate since March 
+2012, while the service sector jobs gain was below that seen in 
+September but still the third largest for over four years. 
+
+Future sentiment
+Business output expectations for the 12 months ahead cooled 
+compared to September but were still the second highest 
+seen this year. A paring-back of optimism in the services 
+economy was countered, however, by a marked improvement 
+in sentiment in the manufacturing sector. Business expansion 
+plans reflected reports of confidence being buoyed by 
+signs of ongoing demand growth and economic resilience. 
+Manufacturers remained more upbeat than service providers, 
+and factory confidence has more or less returned to its 
+long-run average. In contrast, service providers’ sentiment 
+remained well below its trend level amid worries over the cost-
+of-living, higher borrowing costs and political uncertainty.
+
+Prices
+Selling price inflation picked up further momentum in October. 
+The overall rise in prices across goods and services was the 
+largest since August 2022. The upturn in price pressures was 
+also broad-based: while services inflation edged up to the 
+steepest since August 2022, manufacturers’ selling prices 
+rose at a pace not seen since July 2022, with the rate of 
+inflation accelerating markedly.
+
+Higher prices reflected a further sharp increase in companies’ 
+costs. Average input costs measured across both goods 
+and services rose at the fastest pace since November 2022, 
+excluding only the rise seen in September. The surge in cost 
+pressures was most prominent in manufacturing, though 
+service sector costs also rose sharply again.
+
+Respondents commonly cited oil-based inputs, energy, fuel 
+and freight rates as having pushed costs higher, but various 
+other raw materials including steel, aluminum and copper 
+were also up in price, often due to tariffs or shortages. 
+Supplier delivery times lengthened to the greatest extent 
+since 2022 amid material shortages, low stock levels, 
+overloaded suppliers, labour shortages, rising back orders and 
+shipping or import delays. Service providers also widely noted 
+higher wage rates and increased utility and insurance costs. 
+
+Manufacturing PMI
+The S&P Global US Manufacturing PMI rose from 55.9 in 
+September to 56.0 in October, according to the flash reading, 
+registering the strongest improvement in operating conditions 
+since May 2022.  Although production and new orders growth 
+rates slowed, both remained elevated to register sustained 
+strong expansions. Jobs growth meanwhile accelerated 
+further to reach the highest since March 2012, and input 
+inventories rose at the fastest rate for four months. Suppliers’ 
+delivery times meanwhile lengthened to the greatest degree 
+since July 2022. 
+
+US Services PMI Business Activity
+US Manufacturing PMI Output
+
+Index, sa, >50 = growth m/m
+
+80
+
+70
+
+60
+
+50
+
+40
+
+30
+
+20
+
+19
+
+20
+
+21
+
+22
+
+23
+
+24
+
+25
+
+26
+
+Source: S&P Global PMI. ©2026 S&P Global.
+
+S&P Global US Manufacturing PMI
+Index, sa, >50 = improvement m/m
+
+65
+
+60
+
+55
+
+50
+
+45
+
+40
+
+35
+
+13
+
+14
+
+15
+
+16
+
+17
+
+18
+
+19
+
+20
+
+21
+
+22
+
+23
+
+24
+
+25
+
+26
+
+Source: S&P Global PMI. ©2026 S&P Global.
+
+Services PMI Input Prices
+Services PMI Prices Charged
+
+Manufacturing PMI Input Prices
+Manufacturing PMI Output Prices
+
+Index, sa, >50 = inflation m/m
+
+90
+
+80
+
+70
+
+60
+
+50
+
+40
+
+30
+
+18
+
+19
+
+20
+
+21
+
+22
+
+23
+
+24
+
+25
+
+26
+
+Source: S&P Global PMI. ©2026 S&P Global.
+
+US Composite PMI Output Prices
+
+Consumer prices
+
+Index, sa, >50 = inflation m/m
+
+% yr/yr
+
+75
+
+70
+
+65
+
+60
+
+55
+
+50
+
+45
+
+40
+
+13 14 15 16 17 18 19 20 21 22 23 24 25 26
+
+Sources: S&P Global PMI, Bureau of Labor Statistics via S&P Global Market Intelligence. 
+©2026 S&P Global.
+
+12
+
+10
+
+8
+
+6
+
+4
+
+2
+
+0
+
+-2
+
+-4
+
+S&P Global Flash US PMI®© 2026 S&P GlobalContact
+
+Chris Williamson 
+Chief Business Economist 
+S&P Global Market Intelligence 
+T: +44-779-5555-061 
+chris.williamson@spglobal.com
+
+Florence Bogitsh
+Senior Communications 
+Manager, Americas
+S&P Global Market Intelligence
+T: +1-646-460-7204
+florence.bogitsh@spglobal.com
+press.mi@spglobal.com
+
+If you prefer not to receive news releases from S&P Global, please email  
+press.mi@spglobal.com. To read our privacy policy, click here.
+
+Methodology
+
+Final October data are published on 2 November for manufacturing and 4 November for 
+services and composite indicators.
+The S&P Global Flash US Composite PMI® is compiled by S&P Global from responses to 
+questionnaires sent to survey panels of around 650 manufacturers and 500 service providers. 
+The panels are each stratified by detailed sector and company workforce size, based on 
+contributions to GDP. The services sector is defined as consumer (excluding retail), transport, 
+information, communication, finance, insurance, real estate and business services. 
+
+Survey responses are collected in the second half of each month and indicate the direction of 
+change compared to the previous month. The following variables are monitored:
+
+Manufacturing: Output, new orders, new export orders, backlogs of work, stocks of finished 
+goods, employment, quantity of purchases, suppliers' delivery times, stocks of purchases, 
+input prices, output prices, future output.
+
+Services: Business activity, new business, new export business, outstanding business, 
+employment, input prices, prices charged, future activity. 
+
+A diffusion index is calculated for each manufacturing and services variable. The index is 
+the sum of the percentage of ‘higher’ responses and half the percentage of ‘unchanged’ 
+responses. The indices vary between 0 and 100, with a reading above 50 indicating an overall 
+increase compared to the previous month, and below 50 an overall decrease. The indices are 
+then seasonally adjusted. 
+
+Composite indices for are calculated by weighting together comparable manufacturing and 
+services indices using official manufacturing and services annual value added.
+
+The headline figure is the Composite Output Index. This is a weighted average of the 
+Manufacturing Output Index and the Services Business Activity Index. It may be referred to as 
+the ‘Composite PMI’ but is not comparable with the headline Manufacturing PMI, which is a 
+weighted average of five manufacturing indices (including the Manufacturing Output Index).
+The headline manufacturing figure is the Manufacturing Purchasing Managers’ Index™ (PMI®). 
+The PMI is a weighted average of the following five indices: New Orders (30%), Output (25%), 
+Employment (20%), Suppliers’ Delivery Times (15%) and Stocks of Purchases (10%). For the PMI 
+calculation the Suppliers’ Delivery Times Index is inverted so that it moves in a comparable 
+direction to the other indices. 
+
+The headline services figure is the Services Business Activity Index. This is a diffusion index 
+calculated from a single question that asks for changes in the volume of business activity 
+compared with one month previously. The Business Activity Index is comparable to the 
+Manufacturing Output Index. It may be referred to as the ‘Services PMI’ but is not comparable 
+with the headline Manufacturing PMI. 
+
+Disclaimer
+
+Flash data are calculated from around 80-90% of total responses and are intended to provide 
+an accurate early indication of the final data. Since flash data were first processed, the 
+average differences between final and flash index values for the headline indices are:
+
+Composite Output Index = 0.1 (absolute difference 0.4)
+
+Services Business Activity Index = 0.1 (absolute difference 0.4)
+
+Manufacturing PMI = 0.0 (absolute difference 0.3)
+
+S&P Global do not revise underlying survey data after first publication, but seasonal 
+adjustment factors may be revised from time to time as appropriate which will affect the 
+seasonally adjusted data series. Historical data relating to the underlying (unadjusted) 
+numbers, first published seasonally adjusted series and subsequently revised data are 
+available to subscribers from S&P Global.
+
+For further information on the PMI survey methodology, please contact 
+economics@spglobal.com.
+
+S&P Global
+
+S&P Global (NYSE: SPGI) provides essential intelligence. We enable governments, businesses 
+and individuals with the right data, expertise and connected technology so that they can 
+make decisions with conviction. From helping our customers assess new investments 
+to guiding them through ESG and energy transition across supply chains, we unlock new 
+opportunities, solve challenges and accelerate progress for the world.
+
+We are widely sought after by many of the world’s leading organizations to provide credit 
+ratings, benchmarks, analytics and workflow solutions in the global capital, commodity and 
+automotive markets. With every one of our offerings, we help the world’s leading organizations 
+plan for tomorrow, today. www.spglobal.com/marketintelligence/en/mi/products/pmi
+
+PMI by S&P Global
+Purchasing Managers’ Index™ (PMI®) surveys are now available for over 40 countries and also 
+for key regions including the eurozone. They are the most closely watched business surveys 
+in the world, favoured by central banks, financial markets and business decision makers for 
+their ability to provide up-to-date, accurate and often unique monthly indicators of economic 
+trends. www.spglobal.com
+
+The intellectual property rights to the data provided herein are owned by or licensed to S&P Global and/or its affiliates. Any unauthorised use, including but not limited to copying, distributing, 
+transmitting or otherwise of any data appearing is not permitted without S&P Global’s prior consent. S&P Global shall not have any liability, duty or obligation for or relating to the content or 
+information (“Data”) contained herein, any errors, inaccuracies, omissions or delays in the Data, or for any actions taken in reliance thereon. In no event shall S&P Global be liable for any special, 
+incidental, or consequential damages, arising out of the use of the Data. Purchasing Managers’ Index™ and PMI® are either trade marks or registered trade marks of S&P Global Inc or licensed to 
+S&P Global Inc and/or its affiliates.
+
+This Content was published by S&P Global Market Intelligence and not by S&P Global Ratings, which is a separately managed division of S&P Global. Reproduction of any information, data or 
+material, including ratings (“Content”) in any form is prohibited except with the prior written permission of the relevant party. Such party, its affiliates and suppliers (“Content Providers”) do not 
+guarantee the accuracy, adequacy, completeness, timeliness or availability of any Content and are not responsible for any errors or omissions (negligent or otherwise), regardless of the cause, or 
+for the results obtained from the use of such Content.  In no event shall Content Providers be liable for any damages, costs, expenses, legal fees, or losses (including lost income or lost profit and 
+opportunity costs) in connection with any use of the Content.
+
+S&P Global Flash US PMI®© 2026 S&P Global

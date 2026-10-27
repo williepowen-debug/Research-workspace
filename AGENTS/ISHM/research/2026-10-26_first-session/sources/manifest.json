@@ -1,0 +1,192 @@
+[
+  {
+    "key": "dallas",
+    "url": "https://www.dallasfed.org/research/surveys/tmos/2026/2610",
+    "final_url": "https://www.dallasfed.org/research/surveys/tmos/2026/2610",
+    "status": 200,
+    "bytes": 61425,
+    "type": "html",
+    "sha256": "82cc6e3aab4432a55b78d51438277028d9617af83c0769a0e4977fb0c0933eb7",
+    "retrieved_at": "2026-10-27T01:14:09.104614+00:00"
+  },
+  {
+    "key": "spg_oct",
+    "url": "https://pmi.spglobal.com/Public/Home/PressRelease/07d16568e63346999890940d47639cd9",
+    "final_url": "https://pmi.spglobal.com/Public/Home/PressRelease/07d16568e63346999890940d47639cd9",
+    "status": 200,
+    "bytes": 130478,
+    "type": "pdf",
+    "sha256": "7f81d40f644abb85229735016e83328d01e148fb1e3e58b3f213c70833999ea7",
+    "retrieved_at": "2026-10-27T01:14:09.420026+00:00"
+  },
+  {
+    "key": "ism",
+    "url": "https://www.ismworld.org/globalassets/pub/research-and-surveys/rob/pmi/rob202610pmi.pdf",
+    "final_url": "https://www.ismworld.org/globalassets/pub/research-and-surveys/rob/pmi/rob202610pmi.pdf",
+    "status": 404,
+    "bytes": 381386,
+    "type": "html",
+    "sha256": "7f37d2906094e07382046d1054520b26bbfaa0b698c7d9cf58b9361dde9fef06",
+    "retrieved_at": "2026-10-27T01:14:09.690356+00:00"
+  },
+  {
+    "key": "ism_baby",
+    "url": "https://www.ismworld.org/globalassets/pub/research-and-surveys/rob/pmi/baby202609pmi.pdf",
+    "final_url": "https://www.ismworld.org/globalassets/pub/research-and-surveys/rob/pmi/baby202609pmi.pdf",
+    "status": 200,
+    "bytes": 322649,
+    "type": "pdf",
+    "sha256": "d2b94362674cd89871b0b2a7494ddf63a469e59896eb12869a267116cd23eb7c",
+    "retrieved_at": "2026-10-27T01:14:11.880870+00:00"
+  },
+  {
+    "key": "g17",
+    "url": "https://www.federalreserve.gov/releases/g17/20261016/",
+    "final_url": "https://www.federalreserve.gov/releases/g17/20261016/",
+    "status": 200,
+    "bytes": 116159,
+    "type": "html",
+    "sha256": "d6502209a2ffd5d7cd90ab2f1643664be7901afda579a86a25412876d8d8c9ab",
+    "retrieved_at": "2026-10-27T01:14:09.293490+00:00"
+  },
+  {
+    "key": "m3",
+    "url": "https://www.census.gov/manufacturing/m3/prel/pdf/s-i-o.pdf",
+    "final_url": "https://www.census.gov/manufacturing/m3/prel/pdf/s-i-o.pdf",
+    "status": 200,
+    "bytes": 469733,
+    "type": "pdf",
+    "sha256": "128f142165506adc45ef6c6218efb3e48f0b774b5d90c03fc2d74f6c98b1faa5",
+    "retrieved_at": "2026-10-27T01:14:16.275752+00:00"
+  },
+  {
+    "key": "m3_full",
+    "url": "https://www.census.gov/manufacturing/m3/prel/pdf/s-i-o.pdf",
+    "final_url": "https://www.census.gov/manufacturing/m3/prel/pdf/s-i-o.pdf",
+    "status": 200,
+    "bytes": 469733,
+    "type": "pdf",
+    "sha256": "128f142165506adc45ef6c6218efb3e48f0b774b5d90c03fc2d74f6c98b1faa5",
+    "retrieved_at": "2026-10-27T01:14:16.660402+00:00"
+  },
+  {
+    "key": "durables",
+    "url": "https://www.census.gov/manufacturing/m3/adv/pdf/durgd.pdf",
+    "final_url": "https://www.census.gov/manufacturing/m3/adv/pdf/durgd.pdf",
+    "status": 200,
+    "bytes": 1017457,
+    "type": "pdf",
+    "sha256": "3c404ebbfcadac159c4575247fc7ec58842360d9f3f9b94bd5ada99ceb8d9989",
+    "retrieved_at": "2026-10-27T01:14:15.648509+00:00"
+  },
+  {
+    "key": "m3_schedule",
+    "url": "https://www.census.gov/manufacturing/m3/release_schedule.html",
+    "final_url": "https://www.census.gov/manufacturing/m3/release_schedule.html",
+    "status": 500,
+    "bytes": 0,
+    "type": "html",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "retrieved_at": "2026-10-27T01:14:09.946807+00:00"
+  },
+  {
+    "key": "richmond_schedule",
+    "url": "https://www.richmondfed.org/research/regional_economy/surveys_of_business_conditions/release_schedule",
+    "final_url": "https://www.richmondfed.org/research/regional_economy/surveys_of_business_conditions/release_schedule",
+    "status": 404,
+    "bytes": 56916,
+    "type": "html",
+    "sha256": "23dc037cbbf86b91ff6238d1b70e6ef20d943d768439966a84a29c2ccc0e3fac",
+    "retrieved_at": "2026-10-27T01:14:10.515495+00:00"
+  },
+  {
+    "key": "richmond",
+    "url": "https://www.richmondfed.org/research/regional_economy/surveys_of_business_conditions/manufacturing/2026/mfg_09_22_26",
+    "final_url": "https://www.richmondfed.org/research/regional_economy/surveys_of_business_conditions/manufacturing/2026/mfg_09_22_26",
+    "status": 404,
+    "bytes": 56916,
+    "type": "html",
+    "sha256": "f1cf5743dbe2c0eb5664412f136f2ec1003624b21c630fd15d418cebef79c189",
+    "retrieved_at": "2026-10-27T01:14:10.580276+00:00"
+  },
+  {
+    "key": "empire",
+    "url": "https://www.newyorkfed.org/medialibrary/media/survey/empire/empire2026/esms_2026_10.pdf",
+    "final_url": "https://www.newyorkfed.org/errors/404",
+    "status": 200,
+    "bytes": 101161,
+    "type": "html",
+    "sha256": "02633e122f9295eb45b8a397a4b9d7786b5d26ea967cbd7c992f0fea40d2fa6c",
+    "retrieved_at": "2026-10-27T01:14:11.652120+00:00"
+  },
+  {
+    "key": "philly",
+    "url": "https://www.philadelphiafed.org/surveys-and-data/regional-economic-analysis/mbos-2026-10",
+    "final_url": "https://www.philadelphiafed.org/surveys-and-data/regional-economic-analysis/mbos-2026-10",
+    "status": 200,
+    "bytes": 34526,
+    "type": "html",
+    "sha256": "d5d78629be354914899f69020ad76490cfcb9cb8e10331669b413ed7d86c5334",
+    "retrieved_at": "2026-10-27T01:14:11.597173+00:00"
+  },
+  {
+    "key": "kc",
+    "url": "https://www.kansascityfed.org/surveys/manufacturing-survey/",
+    "final_url": "https://www.kansascityfed.org/surveys/manufacturing-survey/",
+    "status": 200,
+    "bytes": 3223482,
+    "type": "html",
+    "sha256": "99a939e9c65234e7982a174200b581ed01803373b3001f9cac1e82a24ddf5947",
+    "retrieved_at": "2026-10-27T01:14:17.191080+00:00"
+  },
+  {
+    "key": "cass",
+    "url": "https://www.cassinfo.com/freight-audit-payment/cass-transportation-indexes/september-2026",
+    "final_url": "https://www.cassinfo.com/freight-audit-payment/cass-transportation-indexes/september-2026",
+    "status": 200,
+    "bytes": 148389,
+    "type": "html",
+    "sha256": "c6ceb8c14d543997b273c991996c079f68bb81920b4de8db19c1480df5cdde73",
+    "retrieved_at": "2026-10-27T01:14:13.574920+00:00"
+  },
+  {
+    "key": "aar",
+    "url": "https://www.aar.org/news/aar-reports-weekly-rail-traffic-for-the-week-ending-october-17-2026/",
+    "final_url": "https://www.aar.org/news/aar-reports-weekly-rail-traffic-for-the-week-ending-october-17-2026/",
+    "status": 200,
+    "bytes": 350859,
+    "type": "html",
+    "sha256": "32d423cc3b747355ce5bb752a397e6b49337bbd935ce9ce18c2938a808338c36",
+    "retrieved_at": "2026-10-27T01:14:13.497592+00:00"
+  },
+  {
+    "key": "bea_schedule",
+    "url": "https://www.bea.gov/news/schedule",
+    "final_url": "https://www.bea.gov/news/schedule",
+    "status": 200,
+    "bytes": 71485,
+    "type": "html",
+    "sha256": "2e517cbff84ce7ca13d39ed1cf242739ce74f2c1000666ae20d5fb9ef3499c95",
+    "retrieved_at": "2026-10-27T01:14:14.319114+00:00"
+  },
+  {
+    "key": "ft900",
+    "url": "https://www.census.gov/foreign-trade/Press-Release/current_press_release/exh8.pdf",
+    "final_url": "https://www.census.gov/foreign-trade/Press-Release/current_press_release/exh8.pdf",
+    "status": 404,
+    "bytes": 15070,
+    "type": "html",
+    "sha256": "fd246ea06b241199b212f05366b57d9fb4461dc72404da40de53a146d6986831",
+    "retrieved_at": "2026-10-27T01:14:14.303507+00:00"
+  },
+  {
+    "key": "bea_equipment",
+    "url": "https://www.bea.gov/news/2026/gross-domestic-product-2nd-quarter-2026-third-estimate-gdp-industry-and-corporate-profits-revised",
+    "final_url": "https://www.bea.gov/news/2026/gross-domestic-product-2nd-quarter-2026-third-estimate-gdp-industry-and-corporate-profits-revised",
+    "status": 404,
+    "bytes": 36063,
+    "type": "html",
+    "sha256": "05f1ada358f9ec4639ab686fc5ad25b31e58bf1f63ded31d8e43eb4ae70a14bf",
+    "retrieved_at": "2026-10-27T01:14:15.363253+00:00"
+  }
+]

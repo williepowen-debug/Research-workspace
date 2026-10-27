@@ -1,0 +1,26 @@
+{
+  "IPG3341S": {
+    "base_2019_12": 125.4299,
+    "end_2026_09": 182.6599,
+    "growth_pct": 45.62707934870394,
+    "basis": "FRED mirror of real SA Fed G.17 output; current vintage October26; 2017=100"
+  },
+  "IPG3342S": {
+    "base_2019_12": 126.7381,
+    "end_2026_09": 233.9331,
+    "growth_pct": 84.57993294833992,
+    "basis": "FRED mirror of real SA Fed G.17 output; current vintage October26; 2017=100"
+  },
+  "IPG3344S": {
+    "base_2019_12": 112.6269,
+    "end_2026_09": 198.6335,
+    "growth_pct": 76.36417232472881,
+    "basis": "FRED mirror of real SA Fed G.17 output; current vintage October26; 2017=100"
+  },
+  "IPG3353S": {
+    "base_2019_12": 105.7774,
+    "end_2026_09": 98.9473,
+    "growth_pct": -6.457050371818552,
+    "basis": "FRED mirror of real SA Fed G.17 output; current vintage October26; 2017=100"
+  }
+}

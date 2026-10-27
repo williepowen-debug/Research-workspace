@@ -1,0 +1,148 @@
+{
+  "sample_start": "2023-11-01",
+  "sample_end": "2026-09-01",
+  "months": 35,
+  "freight_down_months": 33,
+  "cass_history_start": "2016-01-01",
+  "hy_daily_start": "2023-10-27",
+  "results": [
+    {
+      "window": "hy_change_3m_bp",
+      "freight": "freight_down",
+      "widening_cut_bp": 0,
+      "no_widening_count": 18,
+      "denominator": 30,
+      "rate_pct": 60.0
+    },
+    {
+      "window": "hy_change_3m_bp",
+      "freight": "freight_down",
+      "widening_cut_bp": 25,
+      "no_widening_count": 26,
+      "denominator": 30,
+      "rate_pct": 86.66666666666667
+    },
+    {
+      "window": "hy_change_3m_bp",
+      "freight": "freight_down",
+      "widening_cut_bp": 50,
+      "no_widening_count": 28,
+      "denominator": 30,
+      "rate_pct": 93.33333333333333
+    },
+    {
+      "window": "hy_change_3m_bp",
+      "freight": "three_down",
+      "widening_cut_bp": 0,
+      "no_widening_count": 18,
+      "denominator": 30,
+      "rate_pct": 60.0
+    },
+    {
+      "window": "hy_change_3m_bp",
+      "freight": "three_down",
+      "widening_cut_bp": 25,
+      "no_widening_count": 26,
+      "denominator": 30,
+      "rate_pct": 86.66666666666667
+    },
+    {
+      "window": "hy_change_3m_bp",
+      "freight": "three_down",
+      "widening_cut_bp": 50,
+      "no_widening_count": 28,
+      "denominator": 30,
+      "rate_pct": 93.33333333333333
+    },
+    {
+      "window": "hy_forward_3m_bp",
+      "freight": "freight_down",
+      "widening_cut_bp": 0,
+      "no_widening_count": 19,
+      "denominator": 32,
+      "rate_pct": 59.375
+    },
+    {
+      "window": "hy_forward_3m_bp",
+      "freight": "freight_down",
+      "widening_cut_bp": 25,
+      "no_widening_count": 28,
+      "denominator": 32,
+      "rate_pct": 87.5
+    },
+    {
+      "window": "hy_forward_3m_bp",
+      "freight": "freight_down",
+      "widening_cut_bp": 50,
+      "no_widening_count": 30,
+      "denominator": 32,
+      "rate_pct": 93.75
+    },
+    {
+      "window": "hy_forward_3m_bp",
+      "freight": "three_down",
+      "widening_cut_bp": 0,
+      "no_widening_count": 19,
+      "denominator": 32,
+      "rate_pct": 59.375
+    },
+    {
+      "window": "hy_forward_3m_bp",
+      "freight": "three_down",
+      "widening_cut_bp": 25,
+      "no_widening_count": 28,
+      "denominator": 32,
+      "rate_pct": 87.5
+    },
+    {
+      "window": "hy_forward_3m_bp",
+      "freight": "three_down",
+      "widening_cut_bp": 50,
+      "no_widening_count": 30,
+      "denominator": 32,
+      "rate_pct": 93.75
+    }
+  ],
+  "distributions": {
+    "cass_yoy": {
+      "start": "2017-01-01",
+      "end": "2026-09-01",
+      "n": 117,
+      "p10": -8.000923695659123,
+      "p25": -5.831903945111483,
+      "p50": -2.086811352253748,
+      "p75": 3.8565022421524597,
+      "latest": 1.9193857965451144,
+      "below0_n": 70,
+      "below_minus5_n": 36
+    },
+    "core_capex_yoy": {
+      "start": "1993-02-01",
+      "end": "2026-08-01",
+      "n": 403,
+      "p10": -7.284244326783941,
+      "p25": -2.0299110481907636,
+      "p50": 4.036166659878626,
+      "p75": 9.085240637133317,
+      "latest": 14.10566882795614,
+      "below0_n": 132,
+      "below_minus5_n": 57
+    },
+    "rail_carloads_yoy": {
+      "start": "2001-01-01",
+      "end": "2026-07-01",
+      "n": 307,
+      "p10": -8.439204408511621,
+      "p25": -3.111368009282595,
+      "p50": -0.14828730758663644,
+      "p75": 2.1737722467595977,
+      "latest": 0.5938842685507817,
+      "below0_n": 158,
+      "below_minus5_n": 62
+    }
+  },
+  "cass_publisher_reconcile": {
+    "n": 129,
+    "max_abs_gap": 0.0
+  }
+}

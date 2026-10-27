@@ -1,0 +1,152 @@
+[
+  {
+    "key": "ism_page",
+    "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/september/",
+    "final_url": "https://ecommerce.ismworld.org/SSO/Login.aspx?DPLF=Y&vi=10&vt=f4c1b7b645cbd60d151a8d8786d951c1370eecfe1d1f287161002516ab5d3595e6347589f40bc2f09841aa6e12d185bc8f4d18c88d4e46b166aa5ec8db7d1dd881e7ed05e848e3430b7c1de32577602f2ed1cf6396db07cbfdf1c60d32d167e0d8bd3d3b7ae8c4a6f257e4d885635e6d25efe16b76e9f99a0f081b9f50b6a1de",
+    "status": 200,
+    "bytes": 922,
+    "type": "html",
+    "sha256": "2b00e9ba5232405175ee282eb5bee399299c655c105edb7531500a5ffaa006dc",
+    "retrieved_at": "2026-10-27T01:15:32.708855+00:00"
+  },
+  {
+    "key": "richmond_latest",
+    "url": "https://www.richmondfed.org/region_communities/regional_data_analysis/business_surveys/manufacturing",
+    "final_url": "https://www.richmondfed.org/region_communities/regional_data_analysis/business_surveys/manufacturing",
+    "status": 200,
+    "bytes": 110862,
+    "type": "html",
+    "sha256": "84d58cbc3b199641cfac8dbce4d7456921705f8592b98a74f06500bd9ec30ac7",
+    "retrieved_at": "2026-10-27T01:15:32.237135+00:00"
+  },
+  {
+    "key": "richmond_dates",
+    "url": "https://www.richmondfed.org/region_communities/regional_data_analysis/business_surveys/about",
+    "final_url": "https://www.richmondfed.org/region_communities/regional_data_analysis/business_surveys/about",
+    "status": 200,
+    "bytes": 121412,
+    "type": "html",
+    "sha256": "c00aa376f89c17cc563119f93cb3fb566327fdb1f28e1e4e5f0dd6983095fd6a",
+    "retrieved_at": "2026-10-27T01:15:32.353938+00:00"
+  },
+  {
+    "key": "ny_latest",
+    "url": "https://www.newyorkfed.org/survey/empire/empiresurvey_overview.html",
+    "final_url": "https://www.newyorkfed.org/survey/empire/empiresurvey_overview.html",
+    "status": 200,
+    "bytes": 132051,
+    "type": "html",
+    "sha256": "e9da6b27bdc2b9a58b3ff2c53f17d42bcadafcb48b9713fa05ce2c87b288458e",
+    "retrieved_at": "2026-10-27T01:15:32.306253+00:00"
+  },
+  {
+    "key": "kc_oct",
+    "url": "https://www.kansascityfed.org/surveys/manufacturing-survey/",
+    "final_url": "https://www.kansascityfed.org/surveys/manufacturing-survey/",
+    "status": 200,
+    "bytes": 3223482,
+    "type": "html",
+    "sha256": "99a939e9c65234e7982a174200b581ed01803373b3001f9cac1e82a24ddf5947",
+    "retrieved_at": "2026-10-27T01:15:33.115915+00:00"
+  },
+  {
+    "key": "GE",
+    "url": "https://www.geaerospace.com/news/press-releases/ge-aerospace-announces-third-quarter-2026-results",
+    "final_url": "https://www.geaerospace.com/news/press-releases/ge-aerospace-announces-third-quarter-2026-results",
+    "status": 200,
+    "bytes": 107516,
+    "type": "html",
+    "sha256": "9b7d64029176c100328d927fccd76cb50b9f78b7b83568d35f2a0531a8ea9d14",
+    "retrieved_at": "2026-10-27T01:15:32.131278+00:00"
+  },
+  {
+    "key": "HON",
+    "url": "https://www.honeywell.com/us/en/news/press-releases/2026/10/honeywell-technologies-reports-third-quarter-results-raises-full-year-2026-outlook",
+    "final_url": "https://www.honeywell.com/us/en/news/press-releases/2026/10/honeywell-technologies-reports-third-quarter-results-raises-full-year-2026-outlook",
+    "status": 200,
+    "bytes": 139303,
+    "type": "html",
+    "sha256": "460b0af3771dbe61f6555ea858753565e17bab2e259ddfc669ea7dfdc5c58f5c",
+    "retrieved_at": "2026-10-27T01:15:32.495055+00:00"
+  },
+  {
+    "key": "MMM",
+    "url": "https://investors.3m.com/news-events/press-releases/detail/1946/3m-reports-third-quarter-2026-results-raises-full-year-eps",
+    "final_url": "https://investors.3m.com/news-events/press-releases/detail/1946/3m-reports-third-quarter-2026-results-raises-full-year-eps",
+    "status": 200,
+    "bytes": 109758,
+    "type": "html",
+    "sha256": "32302197e574ee494503d8697114e7e2736fdee590803f221c5bf43970623c85",
+    "retrieved_at": "2026-10-27T01:15:32.541879+00:00"
+  },
+  {
+    "key": "UNP",
+    "url": "https://investor.unionpacific.com/static-files/30351076-26e4-4a0b-b884-ce4fa22b9392",
+    "final_url": "https://investor.unionpacific.com/static-files/30351076-26e4-4a0b-b884-ce4fa22b9392",
+    "status": 200,
+    "bytes": 314201,
+    "type": "pdf",
+    "sha256": "eb7262ea51e44caf1277e7cb96639f5ac8c4c3284da4f1ccaee29fd133f60ea2",
+    "retrieved_at": "2026-10-27T01:15:35.253922+00:00"
+  },
+  {
+    "key": "CAT_dates",
+    "url": "https://www.caterpillar.com/en/news/corporate-press-releases/h/caterpillar-to-announce-3Q-2026-financial-results-on-oct-29.html",
+    "final_url": "https://www.caterpillar.com/en/news/corporate-press-releases/h/caterpillar-to-announce-3Q-2026-financial-results-on-oct-29.html",
+    "status": 200,
+    "bytes": 222717,
+    "type": "html",
+    "sha256": "a45e9e199773fe1236c0a410ab7695b024e0b7235730d3f6a2e10d2d87533f62",
+    "retrieved_at": "2026-10-27T01:15:33.352563+00:00"
+  },
+  {
+    "key": "DE_dates",
+    "url": "https://investor.deere.com/home/default.aspx",
+    "final_url": "https://investor.deere.com/home/default.aspx",
+    "status": 200,
+    "bytes": 143052,
+    "type": "html",
+    "sha256": "4711528c7c5e94214e08f6708ea02b65d965a36359d7fceca1bf266008c2aeb5",
+    "retrieved_at": "2026-10-27T01:15:32.944547+00:00"
+  },
+  {
+    "key": "PH_dates",
+    "url": "https://investors.parker.com/",
+    "final_url": "https://investors.parker.com/",
+    "status": 200,
+    "bytes": 44934,
+    "type": "html",
+    "sha256": "cec4b3901ca3643af5d01f30585b749b45535b077492f542fd553230b30d7a9f",
+    "retrieved_at": "2026-10-27T01:15:32.736756+00:00"
+  },
+  {
+    "key": "EMR_dates",
+    "url": "https://www.emerson.com/en/corporate/news/2026/q4-2026-webcast-advisory",
+    "final_url": "https://www.emerson.com/en/corporate/news/2026/q4-2026-webcast-advisory",
+    "status": 200,
+    "bytes": 394580,
+    "type": "html",
+    "sha256": "5b00e89cef432151205ea6a879793b5f061e91c0f720a2cb4d19eb76486b8bd7",
+    "retrieved_at": "2026-10-27T01:15:33.527688+00:00"
+  },
+  {
+    "key": "ft900_aug",
+    "url": "https://www.census.gov/foreign-trade/Press-Release/2026pr/08/ft900.pdf",
+    "final_url": "https://www.census.gov/foreign-trade/Press-Release/2026pr/08/ft900.pdf",
+    "status": 500,
+    "bytes": 0,
+    "type": "html",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "retrieved_at": "2026-10-27T01:15:33.327686+00:00"
+  },
+  {
+    "key": "GDP_q2",
+    "url": "https://www.bea.gov/news/2026/gross-domestic-product-2nd-quarter-2026-third-estimate-gdp-industry-and-corporate-profits",
+    "final_url": "https://www.bea.gov/news/2026/gross-domestic-product-2nd-quarter-2026-third-estimate-gdp-industry-and-corporate-profits",
+    "status": 404,
+    "bytes": 36055,
+    "type": "html",
+    "sha256": "62d8d5dbeb89ddfe0ecd515b0fefe285c0d016b97257e39c9f73d9a6586e3c36",
+    "retrieved_at": "2026-10-27T01:15:33.685519+00:00"
+  }
+]

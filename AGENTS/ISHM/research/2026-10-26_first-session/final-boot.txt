@@ -1,0 +1,40 @@
+==========================================================================
+  ⏰ WALL CLOCK: 2026-10-26 21:37 Monday — never hand-write a time; copy this line
+  ISHM BOOT — staleness · predictions · catalysts · missed prints · print ledger · perimeter · matrix/map · FRED
+==========================================================================
+
+--- 1. ledger staleness (workbook + TRADE.md) ---
+perimeter [ISHM]: 5 ledger(s) scanned; 2 TSV(s) NOT scanned by this pass: PERIMETER.tsv, docket/CATALYSTS.tsv
+trade perimeter: 1 agent(s) with a matching trade surface graded; 0 agent(s) matched NO trade surface and are NOT certified by this pass
+  ✓ quiet (alert-contract: this check prints only when stale or misconfigured)
+
+--- 2. predictions-due (OPEN rows past Resolve_By) ---
+  ✓ none due — 0 row(s), 0 OPEN scanned on Resolve_By
+
+--- 3. catalysts-due (today · ≤2d · past · forward horizon) ---
+  ⚠️ in 1d: 2026-10-27 [P2] First-session dependencies follow-up
+  ⚠️ in 1d: 2026-10-27 [P1] [DGORDER] Census advance durable goods + core capex orders/shipm
+  ⚠️ in 1d: 2026-10-27 [P2] [RICHMOND] Richmond Fed Fifth District Manufacturing Survey, Oct
+  (42 row(s) scanned; window 2d; forward horizon 30d)
+
+--- 4. missed prints (past keyed catalysts vs PRINTS.tsv) ---
+  ✓ 0 past keyed catalysts — nothing to check yet (say so, never imply a check ran)
+  (0 past keyed catalyst(s) checked against 37 print row(s))
+
+--- 5. print ledger (enums · provisional rows past their successor date) ---
+  ✓ enums valid; no provisional row past its successor date — 37 row(s)
+
+--- 6. frozen perimeter (the eight ruled bellwethers) ---
+  ✓ FROZEN banner present; exactly the 8 ruled tickers: CAT DE EMR GE HON MMM PH UNP
+
+--- 7. convergence matrix + transmission map ---
+  ⚠️ UNSCORED: 1 of 8 vector(s) (VX-ISH-08) — scoring is the desk's judgment and is owed; the MECHANISM composite remains available; unscored THERMOMETER rows are excluded
+  (8 vector(s), 7 MECHANISM; 8 flow row(s); Total 18/35 (raw; report the shared-root-adjusted total beside it))
+
+--- 8. FRED hard data (positive control · new print not yet read) ---
+  ✓ ledger current with FRED on all 7 series
+  (FRED newest: INDPRO 2026-09 = 103.9506 · IPMAN 2026-09 = 99.4361 · TCU 2026-09 = 76.8504 · DGORDER 2026-08 = 338458 · NEWORDER 2026-08 = 87640 · ANXAVS 2026-08 = 84960 · AMTMNO 2026-08 = 663491)
+  (7 series checked; source LIVE fred.stlouisfed.org)
+
+==========================================================================
+  ISHM boot: REVIEW — work the flagged items before new research.

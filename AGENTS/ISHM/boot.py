@@ -329,8 +329,11 @@ def matrix_and_flow():
             mech.append(int(score))
     n_mech = sum(1 for r in vx if _token(r.get("Kind")) == "MECHANISM")
     if unscored:
+        consequence = ("the MECHANISM composite remains available; unscored THERMOMETER rows are excluded"
+                       if len(mech) == n_mech and n_mech
+                       else "the composite cannot be stated until every MECHANISM row is scored")
         out.append(f"  ⚠️ UNSCORED: {len(unscored)} of {len(vx)} vector(s) ({' '.join(unscored)}) — "
-                   f"scoring is the desk's judgment and is owed; the composite cannot be stated")
+                   f"scoring is the desk's judgment and is owed; {consequence}")
     for r in fl:
         fid = (r.get("ID") or "?").strip()
         if _token(r.get("State")) not in FLOW_STATES:

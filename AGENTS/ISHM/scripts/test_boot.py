@@ -15,7 +15,9 @@ Run from anywhere:
 Built by DAEDALUS 2026-10-23 (ISHM build).
 """
 
+import csv
 import hashlib
+import io
 import importlib.util
 import os
 import shutil
@@ -79,7 +81,25 @@ class BootDrills(unittest.TestCase):
 
     def setUp(self):
         self.home = self.tmp / f"desk_{self._testMethodName}"
-        shutil.copytree(DESK, self.home, ignore=shutil.ignore_patterns("__pycache__"))
+        self.home.mkdir()
+        for dirname in ("workbook", "docket"):
+            shutil.copytree(DESK / dirname, self.home / dirname)
+        shutil.copyfile(DESK / "PERIMETER.tsv", self.home / "PERIMETER.tsv")
+        # Drill inputs must retain their declared starting state after the live desk reads prints.
+        # Copy schemas, then seed isolated inputs; never depend on live observations or scores.
+        self.write("workbook/PRINTS.tsv", PRINT_HDR)
+        pred = self.home / "workbook/PREDICTIONS.tsv"
+        pred.write_text(next(l for l in pred.read_text().splitlines() if not l.startswith("#")) + "\n")
+        vx = self.home / "workbook/VX.tsv"
+        reader = csv.DictReader((l for l in vx.read_text().splitlines() if not l.startswith("#")), delimiter="\t")
+        fields, rows = reader.fieldnames, list(reader)
+        for row in rows:
+            row.update(Score="UNKNOWN", Local_State="UNSCORED")
+        buf = io.StringIO()
+        writer = csv.DictWriter(buf, fieldnames=fields, delimiter="\t", lineterminator="\n")
+        writer.writeheader()
+        writer.writerows(rows)
+        vx.write_text(buf.getvalue())
         self.fred = self.home / "_fred"
         self.fred.mkdir()
         self.b = _load_boot()
@@ -287,6 +307,29 @@ class BootDrills(unittest.TestCase):
         rc, out = self.run_leg("matrix_and_flow")
         self.assertEqual(rc, 0, out)
         self.assertIn("Total 14/35", out)       # 7 MECHANISM rows x 2; the THERMOMETER is not added
+
+    def test_matrix_unknown_thermometer_retains_mechanism_composite(self):
+        self._score_all("2")
+        p = self.home / "workbook" / "VX.tsv"
+        lines = p.read_text().splitlines(keepends=True)
+        self.write("workbook/VX.tsv", "".join(
+            l.replace("\t2\tSCORED\t", "\tUNKNOWN\tUNSCORED\t")
+            if "\tTHERMOMETER\t" in l else l for l in lines))
+        rc, out = self.run_leg("matrix_and_flow")
+        self.assertEqual(rc, 1, out)
+        self.assertIn("unscored THERMOMETER rows are excluded", out)
+        self.assertIn("Total 14/35", out)
+        self.assertNotIn("composite cannot be stated", out)
+
+    def test_matrix_unknown_mechanism_withholds_composite(self):
+        self._score_all("2")
+        p = self.home / "workbook" / "VX.tsv"
+        self.write("workbook/VX.tsv", p.read_text().replace(
+            "\t2\tSCORED\t", "\tUNKNOWN\tUNSCORED\t", 1))
+        rc, out = self.run_leg("matrix_and_flow")
+        self.assertEqual(rc, 1, out)
+        self.assertIn("composite cannot be stated until every MECHANISM", out)
+        self.assertNotIn("Total ", out)
 
     def test_matrix_orphan_flow(self):
         self._score_all("2")

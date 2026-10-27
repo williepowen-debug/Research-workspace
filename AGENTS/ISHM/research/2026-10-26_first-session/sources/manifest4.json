@@ -1,0 +1,62 @@
+[
+  {
+    "key": "kc_detail",
+    "url": "https://www.kansascityfed.org/surveys/manufacturing-survey/tenth-district-manufacturing-activity-increased-steadily-in-october-2026/",
+    "final_url": "https://www.kansascityfed.org/surveys/manufacturing-survey/tenth-district-manufacturing-activity-increased-steadily-in-october-2026/",
+    "status": 200,
+    "bytes": 641212,
+    "type": "html",
+    "sha256": "9a695284c96c4915fa2f197793b82c74404e194d077ed3b85a8ee02783384b68",
+    "retrieved_at": "2026-10-27T01:17:25.507142+00:00"
+  },
+  {
+    "key": "ACT_detail",
+    "url": "https://www.actresearch.net/resources/blog/north-america-class-8-blog",
+    "final_url": "https://www.actresearch.net/resources/blog/north-america-class-8-blog",
+    "status": 200,
+    "bytes": 79931,
+    "type": "html",
+    "sha256": "8b81d57bf19baa4b297c3b3dc736044b325600edd10f84fdc16aec6178b7f16c",
+    "retrieved_at": "2026-10-27T01:17:23.935954+00:00"
+  },
+  {
+    "key": "ny_pdf",
+    "url": "https://www.newyorkfed.org/medialibrary/media/survey/empire/empire2026/2026_10_empire-state-manufacturing-survey.pdf",
+    "final_url": "https://www.newyorkfed.org/medialibrary/media/survey/empire/empire2026/2026_10_empire-state-manufacturing-survey.pdf",
+    "status": 200,
+    "bytes": 194989,
+    "type": "pdf",
+    "sha256": "80645241eac173fb87d1c2a6b253fafd5571c6704117c2ccbfad3c4008578cc5",
+    "retrieved_at": "2026-10-27T01:17:25.087661+00:00"
+  },
+  {
+    "key": "richmond_pdf",
+    "url": "https://www.richmondfed.org/-/media/RichmondFedOrg/region_communities/regional_data_analysis/regional_economy/surveys_of_business_conditions/manufacturing/2026/pdf/mfg_09_22_26.pdf",
+    "final_url": "https://www.richmondfed.org/-/media/RichmondFedOrg/region_communities/regional_data_analysis/regional_economy/surveys_of_business_conditions/manufacturing/2026/pdf/mfg_09_22_26.pdf",
+    "status": 200,
+    "bytes": 1036865,
+    "type": "pdf",
+    "sha256": "8467aed6b90b72ad8dbca6f4a324fd9305679de12c23b49462847b54f9404d34",
+    "retrieved_at": "2026-10-27T01:17:24.657427+00:00"
+  },
+  {
+    "key": "DE_dates_indexed",
+    "url": "https://investor.deere.com/home/default.aspx?adobe_mc=MCORGID%3D8CC867C25245ADC30A490D4C%2540AdobeOrg%7CTS%3D1741564800&appName=dcom&sourceLinkId=nav",
+    "final_url": "https://investor.deere.com/home/default.aspx?adobe_mc=MCORGID%3D8CC867C25245ADC30A490D4C%2540AdobeOrg%7CTS%3D1741564800&appName=dcom&sourceLinkId=nav",
+    "status": 200,
+    "bytes": 143052,
+    "type": "html",
+    "sha256": "4711528c7c5e94214e08f6708ea02b65d965a36359d7fceca1bf266008c2aeb5",
+    "retrieved_at": "2026-10-27T01:17:24.252761+00:00"
+  },
+  {
+    "key": "GDP_pdf",
+    "url": "https://www.bea.gov/sites/default/files/2026-09/gdp2q26-3rd.pdf",
+    "final_url": "https://www.bea.gov/sites/default/files/2026-09/gdp2q26-3rd.pdf",
+    "status": 200,
+    "bytes": 918914,
+    "type": "pdf",
+    "sha256": "2f07c1f39a3f79329e8d7f81fa58580426791c7ce7bd49307f0fc8c79c79192d",
+    "retrieved_at": "2026-10-27T01:17:25.458457+00:00"
+  }
+]

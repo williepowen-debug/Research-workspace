@@ -1,1 +1,6 @@
 timestamp_read	signal_id	disposition	source	notes
+2026-10-26T21:23:38-04:00	SIG-W-20261025-007	INTEGRATE	WALTER inbox/SIG-W-20261025-007.md	Superseded detail by 023; growth rates not importshares; J1 pairing caveat encoded.
+2026-10-26T21:23:38-04:00	SIG-W-20261025-023	INTEGRATE	WALTER inbox/SIG-W-20261025-023.md	Partial domestic replication accepted at artifact basis; import wedge/vintage gaps retained; no AI attribution.
+2026-10-26T21:23:38-04:00	SIG-W-20261026-009	INTEGRATE	WALTER inbox/SIG-W-20261026-009.md	Dallasprimary reread; PRINTS/VX/STATUS composition encoded.
+2026-10-26T21:23:38-04:00	SIG-W-20261026-010	LOG	WALTER inbox/SIG-W-20261026-010.md	HANS actionowner; secondaryifo figures retained as INFO, no USgrade.
+2026-10-26T21:23:38-04:00	SIG-W-20261026-011	LOG	WALTER inbox/SIG-W-20261026-011.md	CARL actionowner; CFNAIcomponentssecondary; sharedIP root retained.

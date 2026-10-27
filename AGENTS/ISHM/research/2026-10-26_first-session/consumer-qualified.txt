@@ -1,0 +1,36 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/ISHM/   (processed/ + archive/ excluded everywhere — historical by design)
+
+  ── value · superseded 57.0 → current 55.9
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (2)
+        AGENTS/WALTER/research/2026-10-23_morning/INDUSTRIALS_DESK_PROPOSAL.md:21  [57]
+           - Supporting evidence, weighted as such: September's S&P Global flash manufacturing PMI (57.0, strongest since May 2022) and September's ISM
+        AGENTS/HENRY/research/2026-09-24_news_sweep.md:26  [57]
+           | Wed 9/23 | Flash US Manufacturing PMI (Sep) | **57.0** (52-month high) | 53.5 to 53.6 | 53.9 | same; consensus from FXStreet: https://www.
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (6047)
+        AGENTS/CRUISE/board_log.tsv:4  [57]  (no unit/series context on line)
+           2026-09-19T20:57Z	SIG-W-20260914-001	noted	INBOX_WALTER	FIRST SIGNAL EVER DELIVERED TO THIS DESK'S WALTER LANE (opened 9/2; empty-lane flagg
+        AGENTS/WALTER/MEMORY.md:60  [57]  (no unit/series context on line)
+           34. **Never type a dispatch time into a Write-tool signal.** 9/27: all 7 dispatches stamped +8 to +73 min AHEAD of their own commits; the do
+        AGENTS/WALTER/SESSION_LOG.md:149  [57]  (no unit/series context on line)
+           Boot COMPLETE for reads/checks (`research/2026-10-23_afternoon/BOOT.md`): doctor 0 HIGH / 2 MED (MIDAS row, cleared at step 13; owner backlo
+        AGENTS/WALTER/SESSION_LOG.md:191  [57]  (no unit/series context on line)
+           **Updated:** 2026-10-22T22:55:57Z — FULL closeout, Will-launched evening sitting on the desktop (boot 16:18 ET, right after the afternoon cl
+        AGENTS/WALTER/SESSION_LOG.md:198  [57]  (no unit/series context on line)
+           ## 2026-10-22T22:55:57Z — FULL closeout — Will-launched evening sitting on the desktop (boot 16:18 ET)
+        AGENTS/WALTER/SESSION_LOG.md:227  [57]  (no unit/series context on line)
+           | Earlier intraday breadth | October19 quotes14:50–14:57ET: SPY+0.566%,RSP−0.234%,503 SPY equity lines186up/315down/2flat;median−0.395%. QQE
+        AGENTS/WALTER/SESSION_LOG.md:312  [57]  (no unit/series context on line)
+           ## 2026-10-20T19:31:57Z — LIGHT bookmark batch8; full closeout deferred
+        AGENTS/WALTER/SESSION_LOG.md:385  [57]  (no unit/series context on line)
+           "sha256": "96096c97f7c6c005e2f9631ce76e57e9cd569e5491e8430e60c8faad35aa419a"
+        … +6039 more 🟠 hit(s) on [57] across 1487 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+     🟡 in MAIL, point-in-time — usually no action (55: BOND, CARL, CREED, CRUISE, DAEDALUS, DEWEY, FALCON, FERT, HENRY, LABOR, MARCO, MIDAS, ORACLE, RED, REGINALD, SAM, SHADE, TERRY, VIOLET, WAL, WALTER, ZHAO)
+     🟢 cleared: marker-adjacent / next to new value / frozen file (398)  [--show-handled to audit]
+
+  🔴 2 stale consumer reference(s). Send each owner a packet with the refreshed value — do NOT edit their files.
+==================================================================
+

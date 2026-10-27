@@ -1,62 +1,48 @@
-# ISHM — EXIT PROTOCOL (dated kill rail)
+# ISHM — EXIT PROTOCOL
 
-**Kill rail re-derived: 2026-10-23** (DAEDALUS build draft — PROVISIONAL. ISHM re-derives it at its first live session and re-stamps it.)
+**Kill rail re-derived: 2026-10-26** — first ISHM owner session. The inherited ISM trigger remains registered. R1 observations and proposed bands below are analytical tests, not newly approved capital gates. Current evidence: research/2026-10-26_first-session/REPORT.md; calibration: BASE_RATES.md and THRESHOLD_PROPOSALS.md in that directory.
 
-There are four rails:
-- **R0** asks whether the desk should exist. A named cheaper alternative exists: fold the prints into CARL.
-- **R1** is the desk's question.
-- **J1 and J2** are the two standing falsification jobs WQ-506 wrote into the charter.
+## R0 — does the dedicated desk earn its cost?
 
-At build there is no ISHM stance, and this file says so rather than inventing one.
+Review **January 29, 2027**, registered in docket/CATALYSTS.tsv. Compare dedicated ISHM coverage with folding these prints into CARL. Positive instrument: at least one consumer's own artifact records a changed judgment, threshold, forecast or tag because it cites an ISHM print/J1/J2 result. Separately count prints entering the BOARD or a consumer record because ISHM read them. Packet delivery, archiving and notification do not establish changed judgment. If both counts remain zero, ISHM asks PROME/DAEDALUS to recommend the CARL alternative to Will; dormancy never happens automatically. Baseline: zero ISHM owner sessions before October 26; pre-build coverage-gap claims remain WALTER's assertions, not proof that no consumer read a print.
 
-## R0 — the desk's premise (scheduled review)
+## R1 — real end-demand, or borrowed?
 
-| Field | Content |
-|---|---|
-| Premise | A dedicated industrial-cycle owner changes a consumer desk's judgment sooner or more correctly than the alternative PROME named at WQ-506: CARL reading the survey and hard-data prints as a second lens, with nobody owning freight or the bellwethers |
-| Review date | **2027-01-29** (about 14 weeks after build; spans three ISM prints, the Q3 bellwether cluster and the Q4 cluster's start) |
-| Instrument (positive) | At the consumers' own artifacts (VULCAN, LIQUID, RED, HENRY, CARL, REGINALD, GIBBS — STATUS, KB, predictions, board_log): a judgment, threshold, prediction or tag that **cites an ISHM print row, J1/J2 result or R1 call** and moved because of it. Healthy reading = ≥1 such cite. A packet moved to `processed/` is NOT consumption (Class 11: `CONSUMED` ≠ `ENCODE-CONFIRMED`) |
-| Second instrument | The count of manufacturing prints that became a BOARD signal or a consumer-desk row **because ISHM read them**. Measure it against the pre-build state: September's 57.0 flash PMI and September's ISM both produced zero (WALTER v2 proposal) |
-| If both are 0 | DAEDALUS and PROME **recommend** to Will folding back into CARL. **Never automatic** — dormancy is a ROSTER change (Will's) and a registration event |
-| If ≥1 | Continue. Record the cites here |
+**FROM state:** mixed, selective industrial upturn; durability of broad end-demand unproved. Real production and rising orders coexist with AI/government demand, safety stocks, cost pressure and supplier delays. September 57.0 flash is no longer a live premise; final 55.9 governs.
 
-## R1 — real end-demand, or borrowed? (the question)
+| Direction | Single named observation, measured at a future print | State consequence / limits |
+|---|---|---|
+| Toward real end-demand | **October S&P manufacturing FINAL, scheduled November 2:** issuer reports manufacturing new-orders growth faster than September, with output also faster, and says demand broadened beyond precautionary stockbuilding | FROM mixed, shift toward real end-demand if the issuer explicitly reports this composition; otherwise no flip. A healthy source is the dated October final issuer PDF with manufacturing-specific prose, not composite services strength. Missing composition = CANNOT-FIRE. Three linked observations share one survey root and count as one composition observation; do not award three confirmations. This is a qualitative research discriminator, not a calibrated numerical gate |
+| Toward borrowed / rolling over | **October S&P manufacturing FINAL, scheduled November 2:** issuer reports manufacturing new orders contracting while input stocks rise, explicitly linking the stock rise to precautionary purchases | FROM mixed, shift toward borrowed if both series directions and the stated mechanism appear at the same named final print. Inventory plus shrinking orders distinguishes accumulation from deliveries. Missing stocks/causal detail = CANNOT-FIRE. Do not infer all US demand is borrowed or an NBER recession from one panel |
 
-| Field | Content |
-|---|---|
-| State 2026-10-23 (builder) | **OPEN QUESTION — no stance.** One SECONDARY-sourced data point is on file (KB-ISH-002, September flash 57.0, WALTER's read). HANS's European caveat (defence, data-centre, inventory rebuild) is a hypothesis for the US, not a finding |
-| Flip toward "real end-demand" | **OWED AT FIRST SESSION.** It must name one observation, testable at a named print with its date. Example shape (not a registration): new orders minus inventories stays positive through an inventory-rebuild-neutral month |
-| Flip toward "borrowed" | **OWED AT FIRST SESSION.** Example shape: new orders fall while inventories rise for a stated count of prints, or a tariff payback month shows in orders and imports |
-| ⚠️ Shared-root warning | Surveys and IP for one month are one observation, not two. Never let a conjunction of "ISM and IP both up" count as independent confirmation |
+The two branches use the same source, reference month and final vintage; neither is treated as already met. Final date currently secondary until issuer calendar confirms. GRADE-AT-PUBLICATION, STAND-WITH-ANNOTATION; no repeated grading on a later revision. Partial evidence changes the narrative transparently but does not claim the complete flip fired. Corroborate at September M3 on October 27 and October ISM on November 2 without treating same-month activity series as independent causal proof.
 
-## Registered trigger beside R1
+## Inherited trigger beside R1
 
-`ISM Mfg <47 → LABOR, PROME` (deep contraction; HENRY informed), owned by ISHM since WQ-507 A (2026-10-23). A fire is evidence toward the "rolling over" leg of R1, not an R1 flip by itself. It is graded on the ISM release at the primary, first-published value.
+ISHM owns **ISM Manufacturing headline <47**, WQ-507 A, Will October 23. Instrument: ISM issuer first-published monthly headline; strict `<` at published precision; one monthly print, GRADE-AT-PUBLICATION, STAND-WITH-ANNOTATION. September 54.5 (October 1 primary) is **NOT-FIRED**. On a fire deliver to LABOR and PROME; inform HENRY. A fire supports the rollover side but does not, by itself, resolve R1 or establish recession. HENRY pointer repair remains recipient-owned.
 
-## J1 — is the AI-capex boom equipment actually being bought? (feeds VULCAN)
+## J1 — actual AI equipment buying, domestic and imported
 
-| Field | Content |
-|---|---|
-| Thesis tested | VULCAN's: AI capex is real, and its live stress channel is financing (VULCAN STATUS 2026-10-22). VULCAN owns the verdict |
-| Instrument | Census M3 core capital-goods orders and shipments, with computers/electronic-products and electrical-equipment categories, **paired with** Census FT-900 imports of computers and accessories and BEA information-processing equipment investment |
-| ⚠️ Why it must be paired | GPUs and servers are largely imported, so domestic orders can stay flat through an AI boom. **A flat M3 alone cannot fire J1.** That would be an instrument that reads its no-data state as a result (blueprint §4) |
-| Healthy reading | All three legs read for the same reference period, each with its vintage |
-| State | **NOT REGISTERED** — the paired test is FIRST_SESSION item 5 |
+**VULCAN owns the thesis verdict.** Its October 26 STATUS retains financing as the one fired channel; ISHM supplies physical-equipment evidence only.
 
-## J2 — are freight volumes rolling over into the credit channel? (feeds LIQUID, RED)
+| Leg | Instrument and healthy measurement | Latest read / next clock |
+|---|---|---|
+| Domestic equipment | M3 nondefense capital-goods orders/shipments excluding aircraft; computers/electronics and electrical/appliance/component categories separately. Healthy demand reading: orders and shipments rise in a comparable reference period, with price/mix limitations explicit | August full report October 2: orders $87.640B, +1.6% m/m; shipments $84.960B, +0.5%, SA nominal. September advance October 27 08:30 ET, full successor November 3 10:00 ET |
+| Imported equipment | FT-900 Exhibit 8 computers plus computer accessories; retain exact component definitions. Healthy reading: quarter aggregate rises versus preceding quarter on matched nominal basis; real comparison requires appropriate import-price deflators | August $59.356B vs July $61.392B, −3.3164% m/m nominal SA; October 6 release. September detail November 4 08:30 ET; advance goods trade cannot substitute for category detail |
+| Economy-wide real equipment | BEA NIPA real nonresidential equipment and information-processing-equipment growth, with table/line locator and q/q SAAR basis | Q3 advance October 29 08:30 ET; second estimate November 25. Q2 headline GDP PDF retrieved but detailed equipment table not recovered: no Q2 equipment rate invented |
 
-| Field | Content |
-|---|---|
-| Thesis tested | The credit bear: LIQUID (spreads and funding) and RED (recession probability 4–12% for 2026, RED STATUS). They own the verdict |
-| Instrument | Cass Freight Index shipments (volume, not expenditures), AAR weekly carloads and intermodal units, Class 8 orders (headline only) |
-| ⚠️ Base rate owed | Goods-transport volume can fall without a credit event. The base rate of freight-down-without-HY-widening must be written before J2 carries a stance; otherwise every freight dip reads as recession |
-| Healthy reading | Each leg's newest release date matches the calendar (boot.py leg 5) |
-| State | **NOT REGISTERED** — base rate and band are FIRST_SESSION item 6 |
+**FROM mixed/incomplete J1:** three quarter-aligned legs showing contraction in domestic orders/shipments, imported hardware and real information-processing investment would supply a demand-warning packet to VULCAN. Rationale for conjunction: domestic M3 omits much imported GPU/server equipment; all three are required to avoid a domestic-only false alarm. The joint event base rate is not measured, so this is **not a registered gate** and cannot carry a thesis verdict. Conversely, rising imports and real BEA equipment alongside flat domestic M3 support the import-confound explanation, not a falsification. Mixed signs = mixed; missing source/quarter coverage = CANNOT-FIRE for a complete paired verdict. No AI-specific allocation without additional evidence. Never add domestic orders to gross imports as a dollar capex total.
 
-## Rules (blueprint §4 — cite, don't restate)
+## J2 — physical freight into credit
 
-- Every `AND` in a kill states the state it fires FROM.
-- No threshold may already be breached at write time.
-- A falsification leg names a positively measured instrument, with its healthy reading.
-- A retraction is a claim, and is graded like one.
-- "Sustained" always carries a print or week count.
+LIQUID and RED own spread/funding and recession judgments. Instruments: Cass shipments (volume), AAR US weekly carloads/intermodal, ACT Class 8 net-order headline; rates and expenditures never substitute for volume. Healthy read: freshest dated issuer release, matching geography and adjustment basis; Class 8 orderbook/regulatory timing qualified.
+
+Current Cass September +1.9% y/y, AAR week ending October 17 carloads +3.5% / intermodal +12.6% y/y, ACT September final net orders −7% y/y. Mixed equipment demand, recovering carried volumes; no broad freight-collapse finding.
+
+Base rate completed on the available sample, with scope restriction: **26/30** negative-freight months had trailing-three-month HY monthly-mean widening ≤25bp; **28/32** had forward-three-month widening ≤25bp. Strict non-widening alternatives **18/30** and **19/32**. Complete joint monthly sample November 2023–September 2026, chiefly one freight episode; endpoint overlap, publication lags and excluded GFC/COVID prohibit an independent-cycle recession probability. sources/ snapshots, BASE_RATES.json and J2_monthly_sample.csv reproduce counts.
+
+**FROM recovering volumes:** the proposed deterioration test is negative Cass y/y for two consecutive monthly releases, alongside a negative four-week AAR volume comparison. Exact weekly band/base rate remains owed; this is not registered. A measured downturn routes a volume-warning packet, not a credit-event assertion. LIQUID must separately document financing transmission; RED decides probability consequence. Positive Cass and rail do not clear unrelated offshore/private funding channels. Review wider existing spread history with owners November 13; no new collector authorized.
+
+## Governance
+
+No prediction rows added. Current prediction authority is not inferred from research authorization (PROME/AUTONOMY.md Tier 2; charter prediction rule). Proposed bands remain with PROME for Will's decision only after calibration is complete. Every sustained condition names its print count; missing data never scores benign. Detailed registration requirements remain STRICT_TEXT.md §7 and market-agent.md §3; no capital or trade execution follows from this file.

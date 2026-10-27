@@ -1,0 +1,82 @@
+[
+  {
+    "key": "PH_dates_detail",
+    "url": "https://investors.parker.com/news-events/press-releases/detail/513/parker-to-announce-fiscal-2027-first-quarter-earnings-on",
+    "final_url": "https://investors.parker.com/news-events/press-releases/detail/513/parker-to-announce-fiscal-2027-first-quarter-earnings-on",
+    "status": 200,
+    "bytes": 25437,
+    "type": "html",
+    "sha256": "8f6842fe48533844115e6b252b93e00920326cb75bd642dca5422bd449b8105d",
+    "retrieved_at": "2026-10-27T01:16:27.049767+00:00"
+  },
+  {
+    "key": "kc_archive",
+    "url": "https://www.kansascityfed.org/surveys/manufacturing-survey-archive/2026-manufacturing-surveys/",
+    "final_url": "https://www.kansascityfed.org/surveys/manufacturing-survey-archive/2026-manufacturing-surveys/",
+    "status": 200,
+    "bytes": 622090,
+    "type": "html",
+    "sha256": "4a586c9407991951327eb37cc8ae025d45f7edccac73bc7019fce78420e162d2",
+    "retrieved_at": "2026-10-27T01:16:27.035384+00:00"
+  },
+  {
+    "key": "ft900_release",
+    "url": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-august-2026",
+    "final_url": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-august-2026",
+    "status": 200,
+    "bytes": 94015,
+    "type": "html",
+    "sha256": "3d01bc6395a85ea0aa39c2c53268c40d1356f6661027ca5fd0835dc514b7e0e4",
+    "retrieved_at": "2026-10-27T01:16:27.387450+00:00"
+  },
+  {
+    "key": "GDP_release",
+    "url": "https://www.bea.gov/news/2026/gross-domestic-product-2nd-quarter-2026-third-estimate-gdp-industry-and-corporate-profits-0",
+    "final_url": "https://www.bea.gov/news/2026/gross-domestic-product-2nd-quarter-2026-third-estimate-gdp-industry-and-corporate-profits-0",
+    "status": 404,
+    "bytes": 36057,
+    "type": "html",
+    "sha256": "b8230eeb5a513bbd93f7b9053d1e0b9d0213604945401061ffbb8fedd2586c56",
+    "retrieved_at": "2026-10-27T01:16:27.400108+00:00"
+  },
+  {
+    "key": "BAMLH0A0HYM2_full",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2&cosd=1996-12-31&coed=2026-10-26",
+    "final_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2&cosd=1996-12-31&coed=2026-10-26",
+    "status": 200,
+    "bytes": 12670,
+    "type": "html",
+    "sha256": "f8f985e4b9785f0f3f21628806eb8b13bbc0d44c96c5f47fa0f6cbd76dbf69ac",
+    "retrieved_at": "2026-10-27T01:16:27.165830+00:00"
+  },
+  {
+    "key": "ACT",
+    "url": "https://www.actresearch.net/resources/blog",
+    "final_url": "https://www.actresearch.net/resources/blog",
+    "status": 200,
+    "bytes": 100038,
+    "type": "html",
+    "sha256": "b72533f39b169b5db6223a1d99a1a176188039668577ef6429690a4a03a57786",
+    "retrieved_at": "2026-10-27T01:16:27.324446+00:00"
+  },
+  {
+    "key": "IATA",
+    "url": "https://www.iata.org/en/pressroom/2026-releases/09-29-air-cargo-demand-grows-august/",
+    "final_url": "https://www.iata.org/en/pressroom/2026-releases/09-29-air-cargo-demand-grows-august/",
+    "status": 200,
+    "bytes": 113640,
+    "type": "html",
+    "sha256": "419d075507269928bced793c2f853e5afa3e2a3f1cd1d2316c95283f8df40c5e",
+    "retrieved_at": "2026-10-27T01:16:27.960814+00:00"
+  },
+  {
+    "key": "spg_release_list",
+    "url": "https://www.pmi.spglobal.com/Public/Release/PressReleases",
+    "final_url": "https://www.pmi.spglobal.com/Public/Release/PressReleases",
+    "status": 200,
+    "bytes": 89736,
+    "type": "html",
+    "sha256": "fd26992c6af89f59cef2e3da25451277c9a071505a6d90dd7542522b91af914f",
+    "retrieved_at": "2026-10-27T01:16:27.926487+00:00"
+  }
+]
