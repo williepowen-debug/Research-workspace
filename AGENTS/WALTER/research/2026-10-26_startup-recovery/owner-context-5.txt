@@ -1,0 +1,192 @@
+
+FILE: AGENTS/REGINALD/STATUS.md
+# REGINALD STATUS
+
+**Last Updated:** 2026-10-23T15:32:23-04:00; Will-launched boot + catch-up: FLG/AMTB/CUBI Q3, HY 340 / REG-T-04 near, PROME asks (1)–(2) → `reports/2026-10-23_boot/REPORT.md`. Prior 2026-10-22T15:16:05-04:00; closeout (Will) after REG-28/29/30, D:L793 fixes, clutter retirement, coverage re-weight; DAEDALUS D:L793 fixes (exit rail re-derived, REG-T-07 row, CREED CRE answer) + EGBN folder/appraisal work. Prior 2026-10-22T11:14:29-04:00; Q3 catch-up SSB/BKU/EGBN/VLY/HBAN/ZION + Will's HY question→`reports/2026-10-22_catchup/REPORT.md`. Prior 2026-10-21T11:41:45-04:00 inbox/main-file audit→`reports/2026-10-21_owed-items/REPORT.md`. Economic observations retain their own dates; prior research→`reports/2026-10-20_backlog-followthrough.md`.
+
+**Update 10/23:** FLG Q3 missed; none of my 4 readable CRE 'weakens if' lines met (NAL $2,817M, RR criticized $4,402M, loss ratio 20.7%), criticized +$670M; FLG stays #1. AMTB FL frame **HOLDS final**; CUBI WQ-318 **INCONCLUSIVE** (fund finance +$456M, its top grower). Cohort descriptive now **problem loans up 7 of 10, coverage down 6 of 8**: holds at CRE-concentrated names, breaks at AMTB/CUBI/First Citizens. **HY 340 [10/22], REG-T-04 10bp away.** 57-day test: KRE −0.72% per +10bp 10-year vs +0.02% per +10bp HY (R² 0.13) ⇒ **the 10-year, not HY, moves regional banks**; BANK-ABSENT ~0.7. No score/threshold/probability change. Report §1–§6.
+
+**Current judgment (10/22):** severity remains concentrated, not tier-wide. HY widening 266→333 [9/21→10/20] is BANK-ABSENT on bank instruments (conf ~0.6): October leg CCC-only, bank prefs −2.0% vs PFF −3.9%, KRE beat KBWB/IWM. Q3 prints: problem loans up at 6/6 read names (**the leg with history behind it**). Reserve coverage fell at 5/5 computed, but **DEWEY's base rate (FDIC 1984–2026, $10–100B band) says coverage-decline + rising NPLs preceded a material NCO rise in only 2/10 episodes within 4 quarters vs 25% unconditional** (5/10 by 8Q vs 36%). It is not a short-term predictor; re-weighted 10/22 (`../DEWEY/output/2026-10-22_reserve-coverage-decline-base-rate.md`, DOCKET L801 re-read at Q3 call reports ~10/30). EGBN Prince George's $56.0M → nonaccrual, maturity re-extended 12/21/26, no cash. VLY early flag strengthens (CRE reserves released again; construction nonaccrual 9.1→39.3M). SSB/BKU/ZION clean. No score/threshold/probability change. Prior 10/21 judgment (H.8 partial reversal; OZK Boston failed sale; WAL SECONDARY call; WQ-318 INCONCLUSIVE) stands dated.
+
+**Evidence limits:** Eagle Q4 wall ~$525M (10/27–12/30) → `reports/2026-10-22_EGBN_Q4_maturity_wall.md`; criticized-four loss ~$8–31M gross (≤$1.02/TBV share); DC $20.5M appraisal printed $24.5M (Q2) vs $13.5M (Q3), same date — ask. 008 answered (no cash, support+recognition); 009/014 not identifiable, UNKNOWN; 013 still special mention; call10/22 not heard. VLY mods/re-defaults/MF buckets NOT DISCLOSED until10-Q. CREED (launched 10/22 12:19 ET on WQ-478) answered the CRE leg: rate shock, not credit; new-issue CMBS/CRE-CLO spreads flat through 10/16; borrower coupons ~+35bp (`../CREED/research/2026-10-22_HY_TO_CRE_REFI_READ.md`, via WALTER SIG-W-20261022-015). CREED owns those figures. WAL F3/exact NDFI filing inputs pending; primary call audio not listened. OZK N met on named Fund+Lender Finance alternative; exact regulatory NDFI/borrowing type and Stage2 call read remain pending. Reported provisions/earnings do not prove complete economic loss or collectibility; current valuation edge unproved. Prior M&T/EGBN investigations retain their dates.
+
+**Appraisal-discount cohort test (Will, 10/22):** `reports/2026-10-22_appraisal-discount_cohort_test.md`. 12/14 banks publish no discount-to-appraisal (SSB 19→20%; AMTB boilerplate). Realized resolution haircuts ~13–22% (OZK Boston 22%). Extensions still trigger re-appraisal, so Q4–Q1 appraisal-driven write-downs are likely; not simply deferred. EGBN: no trade from this desk (options untradeable); a long would be a TERRY card.
+
+**AI-agent banking doc (Will, 10/22):** `reports/2026-10-22_AI-agent-banking-doc_analysis.md`. Funding-speed/margin story, not credit; run-speed caveat on funding gauges; no score/threshold change.
+
+**Audit10/21:** `reports/2026-10-21_owed-items/REPORT.md`; REG-27 approval encoded, coupon correction applied; remaining work and stale carriers explicitly distinguished.
+
+**Next existing work:** AMTB/CUBI tonight, FLG Fri ~06:00 ET, SBCF 10/27; H.4.1 tonight 16:30 (descriptive lines in catchup §1e), H.8 Fri; OZK call/filing and WAL filing-only questions. Weekly funding comparison and eligible WAL log catch-up completed here; detailed dated comparisons/remaining inputs→`reports/2026-10-20_backlog-followthrough.md`. Other existing Nano/FFIEC/RED/CARL obligations stay on their carriers; no expanded task universe.
+
+**Cleanup receipt:** `reports/2026-10-20_organisation-cleanup/RECEIPT.md`; Original contiguous blocks B01–B14 → `archive/2026-10-20_organisation-cleanup_STATUS.md`; exact source-line/section map and verified CRCs → `reports/2026-10-20_organisation-cleanup/RECEIPT.md`. Re-check size at any append or on 2026-11-20, whichever first.
+
+## THESIS: The Convergence
+
+> *8/20 reconciliation note (the retired eight-channel framing sat here 7 days after THESIS was retired for it) → BLOCK T12, crc32 `ff770d7b`.*
+> **LIVE CLAIM: severity is CONCENTRATED, not tier-wide** — of 14 primary-sourced filers, **3 elevated, 8 score ≤2** (`BANK_EXPOSURE_MATRIX.md` v2.0). Concordant with the FL card (4-of-4 REVERT, 8/10) and the Q1 cohort NCO decomposition (Hyp A, 6/8). ⚠️ **The concentration is at DIFFERENT NAMES than assumed — FLG/EGBN/AMTB on instruments; WAL and OZK mid-pack.** ★ **9/26 CRE-specific cut (Will-asked): the three most worth investigating for CRE are FLG · EGBN · OZK. AMTB's score is mostly NON-CRE credit (CRE = 30% of nonaccruals on the Call Report, 5.8% on its own basis), and OZK's $288M of foreclosed CRE is invisible to the matrix credit leg.** → `reports/2026-09-26_CRE_vulnerability_top3.md`. Matrix scores unchanged until the 11/07 re-score. ⚠️ **Only 2 of the 8 channels below are instrumented here; the rest are owner-held** (map → matrix §6).
+
+**Channel table rotated 2026-10-22 → `archive/STATUS_rotation_2026-10-22.md` BLOCK T34, crc32 `45a6f2f6`** (retired eight-channel framing; April–September cells). This desk instruments **2 channels**: CRE (bank CRE credit and recognition; live levels → §THRESHOLD STATUS, FL frame, L180 at 11/07) and Hidden CRE (MI3; **rank citations DO-NOT-CITE until the 11/07 Q3 re-run**). The other channels are owner-held (BROCK, HANS, LIQUID, LABOR, CREED; map → `BANK_EXPOSURE_MATRIX.md` §6). Rates/energy context → §THRESHOLD STATUS 10Y/30Y/Brent rows.
+
+---
+
+## SIGNAL DASHBOARD → **`STATUS_DASHBOARD.md`** (cold, on-demand — NOT a boot read)
+
+FILE: AGENTS/SAM/STATUS.md
+# SAM STATUS
+
+**Last written: 2026-10-20T19:12:57+00:00 — Will-directed key-file reconciliation after October 20 sweep and US-transmission discussion.** Market observations retain their individual October 19/20 source clocks; this is a documentation/interpretation update, not a new price refresh. [Sweep and source evidence](research/outputs/2026-10-20_sweep/NEWS_SWEEP.md). Runtime OpenAI Codex, session `01a159df-bbc1-7591-a70c-b5aeaf24ef0f`; exact model identifier not exposed. Pull remains deferred under the dirty-owner rule. At Will-directed closeout, use the authorized fast-forward-gated safe push; it does not touch other owners’ uncommitted files. Remote confirmation requires the script receipt.
+
+**View:** no fresh observed Japan-led carry unwind. Further BOJ tightening remains intended; October is not specifically signalled. **20Y auction FIRM** and Fukoku's H2 plan add evidence against a continuing domestic buyer strike. **September insurer foreign-LT-debt net dispositions rose to ¥288.6B from ¥137.3B in August** (MOF monthly, updated Oct-8); that counter-signal is real, but names/UST/forced-sale mechanism remain unproved. Fukoku's own planned maturity runoff is a separate observation. **v1.7 remains retired-to-LOW, no successor declared, no re-entry or prediction re-mark.** Last Will-confirmed FLAT June 29 is a dated desk record, not a fresh broker reconciliation. Credit abroad is wider; an orderly yen is not a global all-clear.
+
+**Internal steward review, October 20:** KOYOMI verified 17 mandatory Oct/Nov events with zero gaps; supplemental Nov5 BOJ minutes accepted (26 total forward rows). KURA corrected dated Fukoku claims in KB-096/153/212 and added KB-260 on the proposed tax/support bill; bounded harvest through October sweep accepted. METSUKE current trade-summary fixes applied; full SAM-31 qualifications preserved. First-November calendar audit owes Nov+Dec coverage; 56-day Nov30→Jan25 gap remains visible. No thesis promotion or prediction/money change. Receipts → `reports/2026-10-20_subagents/RUN.md`.
+
+## LIVE MARKET DATA
+
+| Instrument / release | Level and observation date | Assessment / limit |
+|---|---|---|
+| USD/JPY, completed London-label sessions | **10/15 158.099 · 10/16 157.987 · 10/19 158.510**; ranges **0.704 / 0.653 / 0.861 yen** | Own hourly aggregation, as-last-revised. No fast weakening or +2% yen-gap observation in these sessions. Current bar never scored. |
+| USD/JPY / crosses, intraday vendor fetch 10/20 | **158.16 / EURJPY 177.70 / GBPJPY 211.59 / AUDJPY 110.72** | Saved quotes in sweep evidence, retrieved ~11:25 ET; individual vendor observation clocks differ. Not a synchronized cross-pair attribution study. |
+| BOJ meeting OIS **10/20 15:15 JST** | **Oct 5% / OIS 1.2400%; Dec 76%; Jan 25%; Mar 60%; Apr 27%; cumulative Apr 1.93 hikes** | Visually reviewed SHA `7f7a5bcf…`, arithmetic/live hash validated, 5 rows ingested. Incremental 25bp equivalents ≠ general probabilities; counts ≠ probabilities. Indicative OTC medians, JST assumed. **Source-age expiry 10/24 15:15 JST = 02:15 ET**, earlier than 10/30 decision expiry. |
+| JGB curve, **MOF 10/19** | **2Y 1.904 / 5Y 2.313 / 10Y 2.935 / 20Y 3.776 / 30Y 4.028 / 40Y 4.040%** | Versus MOF 10/14: 10Y −8.0bp, 30Y −4.4bp. Still above investigation levels; no forced-sale inference. Do not difference vendor against MOF. |
+| **20Y auction 10/20** | **BTC 5.844349×; lowest yield 3.729 / average 3.723%; tail 0.600bp** | **FIRM** on frozen BTC≥4.0 AND tail≤1.0bp; margin 0.4bp >0.1bp precision band. Competitive bids ¥3,139.0B / accepted ¥537.1B. Demand evidenced, buyer identity unknown. |
+| CFTC legacy JPY, **10/13**, rel 10/16 | **Net +50,207 LONG**, Δ −12,118; L +888 / S +13,006; OI 373,502 | Neither motive nor forced liquidation established. Multi-print drift flag did not fire. Old short-side gates stay void. |
+| **MOF September investor-type foreign LT debt**, updated **Oct-8** | **Life insurers −¥288.6B** (Aug −¥137.3B); banks banking accounts **−¥2,485.6B**; trust accounts **+¥1,195.3B**; all **−¥1,426.0B** | Intensifying insurer-sector net dispositions; no named seller, UST specificity, forced-sale cause or destination. Unit ¥100M ÷10; published net retained despite gross rounding. [PRIMARY](https://www.mof.go.jp/policy/international_policy/reference/itn_transactions_in_securities/monthb3.csv). |
+| MOF foreign LT debt, week **10/4–10/10** | **−¥339.7B**; equity/funds **−¥760.6B** | Inside >¥1.5T one-week selling bar. Designated reporting investors, not all residents; not insurer/UST-only. |
+| MOF revision / rolling basis | Prior week current CSV **−¥345.7B**, ledger first-print **−¥347.6B**; current-CSV 4W **−¥3.27T** | Do not blend vintages or call already-routed September selling a new October shock. Every-new-week reader repair remains owed. |
+| US–JP differential, **10/19** | **5Y 2.627pp / 10Y 2.215pp**, 0/5 through bars | v1.8 remains a separate candidate; no promotion. |
+| Dec Brent **BZZ26.NYM**, completed closes | **$105.69 10/13 → $109.55 10/19 (+3.65%)** | Oil guard retry PASSED, same contract across 10/13–20; 10/20 is incomplete and excluded from this return. Sampled close-date oil×yen products below ¥18,000; different session clocks and Japan crude-benchmark caveat survive. VECTOR-5 **NONE**; no rearm. |
+| FXY / VIX, intraday 10/20 fetch | **57.95 / 17.61** | Vendor snapshots, not grades; FXY proxy sign not level. HENRY owns US volatility interpretation. |
+| Funding / credit, **10/19 FRED** | SOFR **3.87%** / IORB **3.90%**, **−3bp**; HY OAS **329bp** (10/16 331) | Credit wider than old September snapshot; this repo spread alone does not show dollar-funding pressure. None measures offshore yen FX swaps. |
+| August core machinery orders, Cabinet Office | **+5.2% m/m SA**; total orders **−3.7%** | Different aggregates; no verified consensus-beat claim. |
+| September household survey, BOJ **rel 10/13** | Economy DI **−53.0** (−56.7); income DI **−5.4** (−10.7); 1Y price trimmed mean **11.8%** (13.1), median **10% unchanged** | Fieldwork Aug-3–Sep-4; 1,972 responses. Perceptions, not CPI forecasts or current traded expectations; predates September hike. |
+| Earlier macro context, dated | September CGPI **+6.8% YoY**, import contract-ccy **+1.0% m/m**, energy **+0.69pp**; August current account **+¥4,062.0B** | Primary reads completed 10/15; durable source/definitions → STATUS_REFERENCE. No new release supersedes them in this pass. |
+
+## CHANNELS · BOJ · FED
+
+FILE: AGENTS/SENTRY/STATUS.md
+# SENTRY — Status
+
+> ⛔ **DORMANT — RETIREMENT BANNER, dated 2026-09-24 (WQ-256 (d), Will verbatim *"Approve WQ-264 and WQ-256 with your recs"*, 08:50 ET; written by PROME as registrar — no live owner).** This desk has been human-idle since 2026-06-02 and DORMANT since 2026-06-27 (`PROME/ROSTER.md` is the class of record; this banner changes no class). Its RSS/CI signal pipeline was killed; **the TODO/ROADMAP items in this directory are HISTORICAL and must NOT be executed — rebuilding the pipeline is a Will ruling, not a task.** Do not launch, task or audit this desk as a fleet agent. Live signal routing is WALTER's (`AGENTS/WALTER/`). Last real commit: `58c9e02aa` 2026-05-09.
+
+**Agent:** SENTRY | **Domain:** Cross-domain signal synthesis
+**State:** 🟢 OPERATIONAL (Phase 1) — pipeline live with 2 feeds + 15-entry CIK watchlist (REGINALD-thesis-aligned); CI verified end-to-end 5/9 20:45 UTC (commit `d1a789f4`)
+**Last Updated:** 2026-05-09 (Saturday evening — CIK watchlist expansion 1→15)
+
+---
+
+## Key State
+
+**Active theses being tracked:**
+- Scenario D dominant (82%) — credit cascade, war escalation, demand destruction
+- Credit transmission: LABOR → CARL → REGINALD → repricing
+- Energy shock: HAWK → BRENT → HENRY (demand destruction)
+- Japan carry unwind: SAM → LIQUID
+- PE-insurer cascade: BROCK → SHADE → LIQUID
+
+**Open questions:**
+- Will HY OAS <280 sustained kill credit stress thesis?
+- Does eSLR reform mask or solve Treasury auction stress?
+- Is APO $130+ sustainable or dead cat bounce?
+
+**Recent signals of note:**
+- BOND refreshed May 5 — thesis softened (17/35)
+- WALTER active — cluster taxonomy built
+- Brent $110+ — war premium intact
+
+**Currently demanding attention:**
+
+FILE: AGENTS/SHADE/STATUS.md
+# SHADE STATUS
+
+**Last Updated:** 2026-10-21T22:16:48-04:00 — PROME spawn prome-56 (catch-up wave 1, Claude Code/Opus 5.5): **L726 illiquidity criterion + unknown rule and L727 TSR method DELIVERED as proposals** (`research/L726_ILLIQUIDITY_BASIS_2026-10-21.md`, `research/L727_TSR_METHOD_2026-10-21.md`); inbox drained 4→0; WQ-364 ruling recorded. No grade, threshold or score changed. Prior: 10/15 L673 grade NOT MET.
+**Prior sessions:** 10/10 L0 drain; 10/1 W1/ARI; 8/28 Delaware Life pause. Historical chain → `archive/STATUS_PRE-ROTATION_2026-10-01.md` (32,462 B, crc32 `8f171d07`, `tail -n +5`) / `archive/STATUS_PRE-ROTATION_2026-08-28.md`.
+
+**Signal Status:** 🟠 **STRUCTURAL / LATENT INSURER-WRAPPER STRESS, ONE vector FIRING (single-name Delaware Life).** **`T-SHADE-01` first prospective grade (10/15, endpoint 10/14 close) = ❌ NOT MET:** 9/24→10/14 RAW wrappers −5.44% vs managers −6.20%, managers fell more; no dig. 10/10 owner fire stays PROVISIONAL, unconfirmed. HY 316 [10/13] (LIQUID: 13 >280), 325 [10/14] read. SHADE tests how insurers absorb, hide, finance or amplify fund stress; no cohort cascade proven.
+**⚠️ KB WARNING:** `domain/sources/` 01–08 are Mar'26 vintage — check `LAST_REVIEWED` before citing.
+
+---
+
+## 0. WHERE EVERYTHING IS
+
+| Surface | Holds | Treat as |
+|---|---|---|
+| **`STATUS.md`** (this) | Live verdict + rails (§0o/§0r), top-line, vector dashboard (§3), stages (§4), forward calendar + ladder (§6), owners (§7), owed list (§10) | **Boot-read whole. Canonical on live state.** Budget 32,550 B; `python3 scripts/read_cap_check.py --agent SHADE` every closeout. |
+| **`REFERENCE.md`** | §2 carried figures (§2Q Delaware Life primary) · §3D/§3R per-vector evidence · §4 map · §5 watchlist · §6M monitor rows · §8 questions | **On demand, by section. STATUS wins on disagreement.** |
+| **`research/`** | Per-session deltas — **10/10: `T-SHADE-01_FIRE_AND_L0_DRAIN_2026-10-10.md` (+ `tshade01_signleg_2026-10-10.py`)** · 10/1: `W1_OPACITY_LEGS_AND_CATCHUP_2026-10-01.md` · 8/28: `DELAWARE_LIFE_DISTRIBUTION_PAUSE_…`, `DELAWARE_LIFE_Q2_2026_STATUTORY_…`, `FABN_CANARY_RERUN_AND_AG55_…` | When a verdict needs its evidence. |
+| **`archive/STATUS_PRE-ROTATION_*`** | Verbatim prior STATUS files | **Provenance only.** |
+| **`instruments/FABN_SUPPLY_ADJUSTED_CANARY_SPEC_2026-08-13.md`** | S1/S2/S3 canary, no-bands rule | Before grading the canary. |
+
+⛔ **Standing rules:** the session delta lives in `research/`; STATUS carries the verdict and live rails only · never raise the budget · rotate verbatim + crc-verify (**the 10/1 banner was written with the wrong offset and the crc caught it — same 15-B defect as 8/28; run the check, never trust the banner**).
+
+---
+
+## 0t. 2026-10-21 — L726 / L727 DELIVERED AS PROPOSALS (await Will's word via PROME)
+
+**L726 illiquidity (charter ratio #2, GA perimeter):** (Mortgages + BA + confirmed-illiquid ABS) / GA net admitted, one filing. ABS counts only on a cited **Transfer** (D-1-2 Restricted Asset Code `R` or a documented sale restriction), **Redemption** (fund-dependent paper, >7 days or discretionary) or **Executable-market** record (SEC 22e-4 seven-day standard). Pledge codes (`C`, `CF`, …) = separate ENCUMBRANCE companion, never illiquidity. Unknowns: buckets C/L/P/U; **RED only if FLOOR >30%, NOT RED only if CEILING ≤30%, else INDETERMINATE** with break-evens. DLIC FY25 illustration (no grade): floor ≥9.75%, ceiling ≤32.50% ⇒ INDETERMINATE; breach needs **$9,295M** confirmed-illiquid ABS (89% of book), clear needs **$1,146M** evidenced-liquid (11%). 30% unchanged; no retrospective regrade.
+
+**L727 TSR:** **TSR stays UNAVAILABLE** — creator's formula is proprietary and not reproducible (category set unspecified, 2019 categories don't map to the 2026 blank, essay arithmetic 8,300% ⇒ 1.2% not 1.6%). Proposed: **SHADE-R v1** (ABS 1909999999 + affiliated ICO 0499999999 + affiliated stock 4409999999/5979999999 + BA 8099999) / surplus and **SHADE-T v1** (Sch S Pt3 Sec1 affiliate rows, reserve credit col 9 + modco col 14) / surplus (Page 3 Line 38); never summed, never called TSR, no bands. Nothing computed yet.
+
+
+FILE: AGENTS/TERRY/STATUS.md
+# TERRY STATUS
+
+> ## ★ CURRENT STATE — 2026-10-25 13:28 EDT · Will-launched TERRY, OpenAI GPT-6 / Codex; exact variant UNKNOWN. **$0 MOVED · NO ORDER · NO APPROVAL, TRIGGER, SIZE OR SCORE CHANGED.**
+> - **Inbox 3 consumed:** DEWEY correction noted; PRD1–3 corrections applied to the current Oracle card, regional-put VIEW and GLD card; prior claims struck below. ORCL remains **APPROVED NOT-FIRED**, conditional on an issuer-verified FQ2 date. FAQ index points to 12/14; direct FAQ/events reads do not verify it. Two prior ~8-day release lags cannot bound verification timing. Evidence: `research/2026-10-25_boot/ORACLE_DATE.md`.
+> - **Regional-put VIEW corrected:** 11.76% is an **equal-decline, original-cost-at-expiry scenario**, excluding time value/volatility, not a necessary profit condition. KRE frequencies **4.9% / 9.0% endpoints, 19.1% within 39 sessions** are overlapping-window observations, not book-profit probabilities. The 57-session rate fit (R² 0.13) supplies neither a required rate move nor a universal bank-put falsifier. GLD's offset value for the bearish-option book is **unestablished**; no position action follows from the equity-stress sample.
+> - **WQ-493 A encoded prospectively:** template § 8b and CALIBRATION header require event, deadline, resolution basis and one labelled probability before the outcome; row at card write, Brier grade at deadline. Trigger forecasting only; no sizing grant, back-filled probabilities or new backtesting. Existing 2 forecast rows unchanged.
+> - **Carried ledger repair independently verified (bounded):** IDEA IDs now reach A/G/H; full compound IDs preserved. Read 2 accepted 5586d2e20: normal IDEA INDEX/TRADE_BOOK structure coverage; 118 tests, no blockers or policy change. Broader limits in acceptance. `research/2026-10-25_boot/LEDGER_GUARD_ACCEPTANCE.md` and REPORT.md. Paper book: 4 OPEN rows marked after network retry; weekend option quotes are screening-only with UNKNOWN quote timestamps, retrieval clock is not proof of freshness.
+> - **Continuity:** HYG approval WQ-513 A unchanged; earliest REG-T-04 confirmation remains 10/27 close on the prior owner reading. Monday 10/26 quote refresh and supplied-fill reconciliation remain future work. OP-SCALE 11/7 carries prior N = 2 distinct closed agent-proposed positions, R ≥ 4 live refusals, not re-graded today. KRE/QQQ page asset 404 repair remains unverified: this runtime exposes no tool for those Claude artifact IDs; saved page/data sources retained.
+> - **Hygiene:** BOARD scan run, 0 new since `SIG-W-20261023-045`, 0 logged. R1: 0 unreceipted NAMED corrections. Raw `inbox/WILL/`: 0 new. Runtime/session, checks, cutoff and PROME delivery: `research/2026-10-25_boot/REPORT.md`.
+
+> ## HISTORICAL STATE — 2026-10-24 Sat 14:5x ET (block written; clock from `date`) · PROME spawn (WQ-513/514 workstream, laptop). Model: Claude Opus 5.5 (`claude-opus-5-5`), Claude Code. **$0 MOVED · NO ORDER · NO GATE, THRESHOLD OR SCORE MOVED.**
+> - **Rulings encoded (inbox 3 consumed → `processed/`):** `IDEA-CREDIT-HYG-BDC-OCT23` leg (a) HYG Jan-15 77/74P ×4 ≤ $1.00 **APPROVED NOT-FIRED** (WQ-513 A; HTGC not approved; REG-T-04 340 [10/22], earliest fire 10/27 close, then a green HYG day by 11/13). `IDEA-ORCL-PUTSPREAD-OCT23` Dec-18 115/100P ×1 ≤ $4.40 **APPROVED NOT-FIRED** (WQ-514 A), line 7 source qualifications restored (leases NOT YET on the balance sheet; OpenAI ≈ half = S&P estimate). 🟠 **ORCL FQ2 date unannounced at Oracle IR (10/24)**; IR-verified pattern = ~8 days' notice (12/2 → 12/10/2025; 9/2 → 9/10/2026), ~~so the approval's condition likely cannot be met before the 11/20 window end~~ — WITHDRAWN October 25 PRD1: release lags do not bound FAQ/events publication; condition unchanged. Day-colour source on both cards: `fetch.py price` close vs prior close. DEWEY meta-review: noted; HYG card reads LIQUID's I1 CCC composition at a fire.
+> - **Regional-put cluster VIEW** (`research/2026-10-24_regional-put-cluster/VIEW.md`): 10 Fidelity lines, 28 contracts, basis **$4,646.62** (11.65% of the 10/22 account), forward risk $1,563 at 10/22 marks (9.3× the $500 default; X1 CLOSED). ~~Breakeven = **11.76% uniform fall**~~ — CORRECTED October 25 PRD2: equal-decline, original-cost-at-expiry scenario, one path among many; KRE base rate 4.9% (19 sessions) / 9.0% (39), 2006+. Both paths weak: rates fit R² 0.13 (puts gain on a RISING 10-year; a falling 10-year is a qualified rates-scenario falsifier, not a universal bank-put falsifier) and credit BANK-ABSENT. Nearest refuter: KRE reclaims $72.74 (10/23 close $72.46).
+> - **GLD rails card `MGMT-GLD-SHARES-OCT24`:** 25 sh, $9,165.25 at the $366.61 10/23 close (23.0% of account); MIDAS lines in dollars (1-month < $360.71 is −1.61% away = −$147.50); hold / trim 5 / trim 12 / exit / add 1 as Will's choices, none recommended; ~~not a put-book hedge (2 of 12)~~ — WITHDRAWN October 25 PRD3: the sample tests long-equity protection; hedge value for this bearish-option book is unestablished.
+> - **Hygiene:** BOARD scan run, 0 new action-line signals naming TERRY since `SIG-W-20261023-045` (no newer signal on BOARD), 0 logged. Rotations: SETUPS 7 terminal rows → `archive/SETUPS_ARCHIVE_2026-10-24.tsv` (25,639 → 22,423 B); STATUS 10/22 blocks → `archive/STATUS_ARCHIVE_2026-10-24.md`. **OP-SCALE (11/7), restated from the rotated 10/22 block:** N = 2 distinct closed agent-proposed positions, R ≥ 4 live refusals. Owed: `ledger_sweep.py` IDEA- prefix in checks A/G/H (10/23 note; IDEA rows aligned by hand today). 10/23 FORGE reconcile and option marks: Monday.
+
+> ## HISTORICAL STATE — 2026-10-23 Fri 18:3x ET (closeout, from `date`) · Will-launched, 2nd session 13:13 ET + PROME prome-03 asks. Model: Claude Opus 5.5 (`claude-opus-5-5`), Claude Code. **$0 MOVED BY TERRY · NO ORDER · NO GATE, THRESHOLD OR SCORE MOVED.**
+> - **KRE/QQQ research (Will-led; `research/2026-10-23_KRE-QQQ-report/FINDINGS_2026-10-23_pm.md`):** book pays only on a joint fall (to 11/13: flat −$1,693, both rally −$3,032, MODEL); 2006+ episodes 0 of 13 joint ≥5% falls in 40 sessions (1985+ stand-ins 1 of 17, 0 of 15: 2021-11-23); banks-led (today's class) both higher after 40 sessions 5 of 7; equal-weight 2024+ base rate both down 13.4% / both up 33.0%; Nov-2021 replay: signs lit on the shock day, not before; regionals lead financials; money-center/private credit fall.
+> - **REGINALD answer (consumed, applied 19:0x ET):** KRE **−0.4% to −1.3% per +10 bp by window, weak outside the last 4 weeks** (10/22 mostly print relief); A1/A2 **no forward edge 2006–2026** ⇒ shown as regime tiles; NDFI concentrated: CUBI 20.0% / CFG 10.7% / OZK 8.6% / WAL 7.5%.
+> - **Divergence map 8JAPSUTSqPQL4nEGtSPc6h (page v7):** watch + REGINALD relabel, FOMC 10/28 checkpoint, base rates. 🔴 **OPEN DEFECT:** every dataset file uploaded after this morning returns 404 on page load (runs doc 20:54 / 20:59 / 22:54 UTC, old addresses still 404 two hours on ⇒ not a delay); re-uploaded and re-pointed 22:56 UTC, no load since; cause UNKNOWN.
+> - **Put-wall:** T1 FIRED 10/23 close (SPX 7,623.61). **Inbox 7 consumed:** `IDEA-CREDIT-HYG-BDC-OCT23` (HYG Jan-15 77/74P ×4 rec, $405.20; alt HTGC 16P ×5) + `IDEA-ORCL-PUTSPREAD-OCT23` (Dec-18 115/100P, $441.30) filed NOT-FIRED (WQ-509/499); RSP/IEF/FXY re-graded (all hit trigger + colour 10/23, all fail debit caps; RSP spent, IEF/FXY armed); WQ-508 lines applied (B44/D17 deferred 11/06); VULCAN ideas PASS.
+> - **Hygiene:** BOARD scan run, 0 new action-line signals naming TERRY since `SIG-W-20261022-016` (through `SIG-W-20261023-045`), 0 logged. Ledger sweep CLEAN; 10/20 block rotated (index below).
+
+> ## HISTORICAL STATE — 2026-10-23 Fri 13:2x ET (block written; clock from `date`) · Will-launched TERRY (second session 13:13 ET) + PROME prome-03 booking request. Model: Claude Opus 5.5 (`claude-opus-5-5`), Claude Code. **$0 MOVED BY TERRY · NO ORDER · NO GATE, THRESHOLD OR SCORE MOVED.** Root rule #10 booking of Will's own fills (source `PROME/data/2026-10-23_broker-activity-TRANSCRIPTION.md`; arithmetic `research/2026-10-23_broker-booking/NOTE.md`):
+> - **`IDEA-QQQ-PUTWALL-OCT22` → FIRED / LIVE ×2 by Will's hand, ahead of T1** (SPX 7,629.53 intraday, no qualifying close): Nov-20 690/670P, net $936.70 = max loss; harvest ≥ $10.00 · kill SPX close ≥ 7,750 ×2 · time stop 11/13. With QQQ Oct-26 710P ×1 + 705P ×2 (new, $861.33) it is **ONE Nasdaq-downside bet, basis $2,255.69**. Paper `PB-0008` `lane=real`.
+> - **USO realized +$777.81 to +$822.81 DERIVED** (5 sh +$233.47 · Oct-30 165C 1 of 2 +$398.66–$443.66, lot choice · Oct-23 163C +$145.68 → `MGMT-USO163C-OCT23` CLOSED). AAPL 1 sh +$323.00. FLG Mar-27 10P ×4 @ $0.52 = OPEN order, not booked.
+
+> ## HISTORICAL STATE — 2026-10-23 Fri 13:05 ET (block written; clock from `date`) · Will-launched TERRY, conversational desk session from 08:57 ET. Model: Claude Opus 5.5 (`claude-opus-5-5`), Claude Code. **$0 MOVED · NO ORDER · NO CARD FIRED · NO GATE, THRESHOLD OR SCORE MOVED.**
+> - **Flagstar (FLG) Q3 print** (FLG packet consumed → `processed/`): perspective + 2024 NYCB comparison verified at EDGAR (8-Ks `0000910073-24-000031`, `0001193125-24-053449`, `0001193125-24-061476`); comparison sent to FLG as an INFO packet (`3bbd9ee13`). Idea menu, NOT a card: Jul-16-2027 10P ×3 ≤ $256.95 (also Mar-27 10P, Jan-28 12P); no entry on the 10/23 gap-down red day. `research/2026-10-23_FLG-Q3-perspective.md`; SETUPS `CAND-FLG-JUL27-10P` CONDITIONAL - NO CARD.
+> - **KRE vs QQQ divergence** (Will-led research): 20-day correlation −0.24 (2nd percentile since 2024), divergences trend rather than oscillate, rebalancing between put legs lost to holding in the trend (MODEL), timing checklist (cheap vol + stretched up + green day + dated event). Now a watch window (VXN 90th / VIX 93rd percentile at the 10/22 close). Report https://claude.ai/artifact/GEqqMLyMMJieo4t2NpeJQq · map https://claude.ai/artifact/8JAPSUTSqPQL4nEGtSPc6h · working folder `research/2026-10-23_KRE-QQQ-report/`. SETUPS `CAND-KRE-QQQ-SEESAW` NO TRADE. Will: Fidelity options Level 2 (spreads unverified).
+
+FILE: AGENTS/VIOLET/STATUS.md
+# VIOLET STATUS
+
+**As of:** October 21, 2026 22:13 ET. PROME-spawned catch-up (prome-56), Claude Code, Opus 5.5. Live boot 22:05 ET (boot.py); Cboe daily histories, Cboe futures settlement files 10/20 and 10/21, investing.com MOVE and fetch.py prices pulled 22:05–22:13 ET. Thesis **v4.1.4**; no new numerical line or regime phase. Prior session (10/19 18:55 ET, Codex owner `01a15611…`) is dated history: [evening official check](research/2026-10-19_evening-official-check/REPORT.md).
+
+## BOTTOM LINE
+
+**Friday's front-end stress has fully unwound by the official October 21 close.** VIX 16.68 (from 19.99 on 10/16), VVIX 94.55, VIX9D/VIX 0.9287, VIX3M/VIX 1.1223 and an adjusted futures slope of +1.686% are an ordinary contango surface. All October 19 and 20 Cboe finals are now published; the 10/19 finals equal the quotes carried as provisional (VIX 18.44, SKEW 161.86), and the missing 10/20 ledger row is filled.
+
+**Two things are still elevated and both deserve attention.** SKEW printed its 9th consecutive official close at or above 150 (10/09–10/21), but the 10/21 close is **150.36 — 0.36 above the line**; RED owns FT-10 and grades any exit. Oil volatility is now **leading** equity volatility: OVX 53.28 rose while VIX fell, and the registered OVX/VIX canary moved CALM → **WATCH** (ratio 3.19, p94.4). BRENT owns oil substance.
+
+**Convergence 30/50 (was 31/50): VVIX 3→2 and front curve 3→2 on the unwind, oil vol 2→3 on the canary.** Each move is forced by a named October 21 official reading (KB-VIO-354). The score is not a probability.
+
+**October VIX expiration was orderly:** VX/V6 final settlement 16.82 against a 16.68 spot close (KB-VIO-352). No live VIOLET letter touched. **DOCKET L667 tooling rider BUILT** (forward-calendar check with PROME-packet output; KB-VIO-353). No Will decision, trade or publishing task; $0 moved.
+
+## SIGNAL DASHBOARD
+
+| Metric | Latest value | Basis / interpretation |
+|---|---:|---|
+| VIX | **16.68** (−3.64% d/d) | [CONF] Cboe daily 10/21; fetch.py ^VIX 16.68. Path 19.99 [10/16] → 18.44 [10/19] → 17.31 [10/20]. LOW_VOL. |
+| VIX9D / VIX3M / VIX6M | **15.49 / 18.72 / 20.62** | [CONF] Cboe daily 10/21. 9D/VIX **0.9287**; 3M/VIX **1.1223** (registered 1.000 line far away). |
+| VVIX | **94.55** (p60.5) | [CONF] Cboe daily 10/21. 120 line NOT FIRED; 109.91 [10/16] → 106.93 [10/19] → 97.15 [10/20]. |
+| SKEW / 20d mean | **150.36 / 150.49** | [CONF] Cboe daily 10/21; p93.7. 161.86 [10/19] → 160.40 [10/20] → 150.36. 20-session mean 9/24–10/21. Daily cushion over 150 is 0.36. |
+| Adjusted VX M1:M2 | **+1.686%** VX/X6→VX/Z6 (BELOW_AVG) | [CONF] Cboe settlement 10/21: X6 18.2382, Z6 18.5457. 10/20 adjusted +1.127% (X6 18.4881 / Z6 18.6965). |
+| VIX October expiry | **SOQ 16.82** | [CONF] Cboe settlement CSV 10/21, VX/V6 final; prior settle 17.2209 (−2.33%). |
+| MOVE | **95.94** | [CONF] investing.com primary 10/21; 101.30 [10/19], 101.70 [10/20]. 23.53 above F1 72.41. |
+| OVX / OVX:VIX | **53.28 / 3.19** — WATCH | [CONF] ovx.py 10/21: OVX p88.6 (floor p75 met), ratio p94.4 ≥ p90 2.94. Last complete pair 10/16 50.74 / 2.54 CALM. OVX.tsv lacks 10/19–10/20 rows. |
+| JPY RV10 / RV20 | **3.47% / 4.71%**, p7.4, CALM | [CONF] jpy_vol.py 10/21; USDJPY 158.27. FXY IV 13.1% off-hours STALE; IV/RV 3.78 not broadcast as live. SAM owns substance. |
+| Implied correlation | COR1M **8.40**, COR3M 12.83, COR30D 9.96 — DISPERSED | [CONF] Cboe 10/21, row basis SETTLE. WQ-410 first-tell RETIRED; context only. Constituent-vol estimate 57.6 is direction-only. |
+| Credit / rates / funding | **Owner references** | HY OAS 329bp is FRED 10/19 [CONF HENRY via WALTER SIG-W-20261021-022]. Own FRED pull FAILED 10/21 22:05 ET (FRED maintenance; CCC CSV parse error) — no own credit observation tonight. LIQUID owns spreads. |
+| SPX / QQQ | **7,757.17 / $725.20** | [CONF] fetch.py as-of 10/21 (+0.58% / +1.05%). HENRY owns equity. |

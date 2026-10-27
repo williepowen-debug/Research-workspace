@@ -1,0 +1,15 @@
+# Manually reviewed evidence and bounded dispositions
+
+- Root CLAUDE.md, AGENTS.md, USER.md and WALTER CLAUDE.md explicitly loaded; required runtime selection recovered. Model OpenAI GPT-6/Codex; serving variant UNKNOWN. Session01a17ac3-4566-7932-99fb-216ed19152b0.
+- STATUS, MEMORY, LAST_COMPLETION, Iran anchor and routing/overlay/threshold modules read. Four threshold families loaded:12/8/11/17. RED scan hash matches canonical. US scan and current FT-11 window executed; gaps remain in THRESHOLD-SCAN.md.
+- All14 regular packets and3 DEWEY handoffs read whole. Corrected EART date at SEC PRIMARY Item1.01 and filing footnote; original banner/INDEX/R1 row and2 handoffs written in 4d2453c1d. Source packet's pricing/Ally work remains pending. No blanket consumption or source QA on the3 DEWEY reports.
+- FALCON's owner census correction now leads WALTER's own anchor. This applies the owner's count, not an independent primary fetch, new sinking or full-sweep reset. Marine/diplomacy dispatch remains pending.
+- WQ-515 selection rule re-read; exactly9 prior rows plus this next qualifying ACTION =10. No outcome-based skip or grading. Single list packet saved to PROME/inbox;24-hour delay and recipient evidence remain.
+- Existing Brazil feasibility report reviewed: accepted domestic buybacks settleOctober27, no paid-cash or activated fund-call claim. Later two LIQUID packets remain pending for disposition.
+- ORCH_INFLIGHT read whole without truncation; native list returned50truncated Codex tasks, not full fleet. No DARK verdict, doorbell or owner launch. Oldest aged ACTION7days based on delivery timestamp, not neglect.
+- Registry lead-header capture43 source files;49 mirror rows. CATO excluded by explicit SPECIAL/manual/no-routing ruling; _archive is not a desk. DARWIN/HERMES historical mirror rows retained; roster authority unchanged. Full44 owner first30-line interpretation remains incomplete.
+- Filter Boot Context pointer, dated broker mirror, forward catalyst candidate and44 route / 1 kill trailing48h rows reviewed. Broader owner/catalyst context is not declared complete. Event window CLOSED; BALANCED baseline retained.
+- Discovery finds CARL/RED LIAISON paths; manifest has noACTIVEchannel. One REQ read whole,10ET-days old onOctober26, not>14. Corrections checker0owed before dispatch; no fresh self-receipt obligation claimed.
+- Main pull initially deferred for PROME dirty work, later succeeded after it committed and the foreign tree was clean; exact two WALTER bookmark files scoped-stashed/restored. Intake fast-forward succeeded to2b4d9e0. No foreign stash or edit.
+- X scan succeeded at 00:33:17Z,32 IDs,3 read attempts, traversal complete through00:33:16Zhead check, review_recorded=false;0marks. Intake diagnostic10 NEW keys, no mark before inbox dispositions. Last runOctober26 20:15:39Z; UTCdiagnostic counts1missedweekday throughOctober27, while ETcurrentOctober26 has0after that run.
+- Prior permissions recovered from source-search table, WQ-515 rule and WQ-508 packet/charter. WQ-503 remains an existing Will choice. No new research program, paid service, collector, trade or domain launch authority.

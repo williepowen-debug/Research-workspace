@@ -1,0 +1,28 @@
+{
+  "observed": "2026-10-27T00:47:40.148193+00:00",
+  "origin": "ad922ea66350f1909230539acf18a6eea8b2db92",
+  "commit": "4d2453c1d68bada987d43fa33fe4f4b92a148bbe",
+  "ancestry": true,
+  "paths": [
+    {
+      "path": "BOARD/SIG-W-20261027-001-CORRECTION-eart-2026-4-closed-august31-not-august28.md",
+      "on_origin": true,
+      "same_bytes": true
+    },
+    {
+      "path": "AGENTS/CARL/inbox/WALTER/SIG-W-20261027-001.md",
+      "on_origin": true,
+      "same_bytes": true
+    },
+    {
+      "path": "AGENTS/BROCK/inbox/WALTER/SIG-W-20261027-001.md",
+      "on_origin": true,
+      "same_bytes": true
+    },
+    {
+      "path": "PROME/inbox/2026-10-26_from-WALTER_WQ515-ten-transfers-selection-closed.md",
+      "on_origin": true,
+      "same_bytes": true
+    }
+  ]
+}

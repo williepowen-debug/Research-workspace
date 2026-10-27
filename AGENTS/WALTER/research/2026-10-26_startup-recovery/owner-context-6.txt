@@ -1,0 +1,192 @@
+
+FILE: AGENTS/VULCAN/STATUS.md
+# VULCAN — STATUS
+
+**Last Updated:** 2026-10-26T14:27:16-04:00 — Will-requested missed-news sweep [KB-300..307]. Material live-record additions: Nebius executed Citi facility, PG&E pipeline/deferrals, Micron original roadmap; qualified Bloom first-power/TSMC/China NAND and regulatory process. **15/25 unchanged; S5 4, two events, one fired channel.** `reports/2026-10-26_news-sweep/REPORT.md`; earlier financing report remains valid. No live-price/off-cadence refresh,new monitor or trade.
+
+**Startup:** 30 packets consumed, named correction receipts clear; no forecasts due. EDGAR collection fresh October 26 but **GOOGL/META 10-Q models FAIL**, windows UNGRADEABLE. GOOGL method + KB-096 issuance studies remain due October 26 and unfinished; this financing commission does not re-date them. Pull withheld for foreign dirty paths; push pending missing GitHub credentials. Codex native list/read tools now verified; truncated discovery cannot establish BROCK/WATT absence, and file delivery is not consumption. No live market-price refresh.
+
+**CoreWeave maintained evidence:** `CRWV/README.md` → `MAINTENANCE.md`; editable company `CRWV/KB.tsv` and broader `workbook/KB_GENERAL.tsv`, generated combined `workbook/KB.tsv`. October 20 archive holds 86 frozen copies and initial extracts; original source dates/specialist authority apply. Current interpretation/corrections: `CRWV/2026-10-20_analysis.md`, KB-246/247, `CRWV/CORRECTIONS.md`. Most June 30 net debt was recourse; current cash runway, imminent default and valuation are not established. Company cash bridge and contract rights remain incomplete; interest-loss shorthand qualified, five falsifiers unchanged. Four later intake packets assessed in the boot audit without a fresh grade.
+
+**Class:** Market-agent (AI-capex/semi/memory → systemic risk) · **Spawnable by:** PROME or Will · **Maturity:** **L4** (DAEDALUS `FLEET_MAP.tsv` since 2026-09-05; Last_scored 2026-09-17, `7bfee0060`; ⚠️ DAEDALUS PR#7 RE-SCORED 2026-10-01, L4/H held — never sent to this desk, reported in its 10/08 refresh packet; refresh 10/08 also held L4/H)
+
+> ## 📖 WHERE THINGS LIVE (navigation reconciled October 20; evidence retains its own date)
+> | Surface | Holds | Boot path? |
+> |---|---|---|
+> | **`STATUS.md`** (this file) | **Canonical for SCORE, BAND STATE, FIRED-COUNT, current live read, owed items** | **YES — read whole** |
+> | `CHANNEL_DETAIL.md` | Cold evidence §F onward. Superseded §A–E moved October 15 to `archive/CHANNEL_DETAIL_ARCHIVE_2026-09_A-D.md` and `_E.md`; STATUS remains state authority | No — on demand, per channel |
+> | `THESIS.md` · `workbook/EXIT_PROTOCOL.md` | Stage tables · the kill rail | No — closeout reads |
+> | `reports/2026-10-20_catchup/REPORT.md` · `CRWV/2026-10-20_analysis.md` | Latest dated research synthesis and company analysis; source qualifications apply | No |
+> | `archive/` | Frozen history (STATUS/SCRATCH/NEXUS archives, resolved PREDICTIONS) | No |
+>
+> ⚠️ **Rule 17:** `CHANNEL_DETAIL.md` is OFF the boot path. A watch or owed action written there does not travel; put it here, in `PREDICTIONS.tsv`, or in `docket/CATALYSTS.tsv`.
+
+---
+
+## CONVERGENCE MATRIX (universal 5-pt + local state)
+
+| # | Channel | Score (1–5) | Local state | Independence | Key signal [src, date] | Upgrade trigger |
+|---|---|:---:|---|---|---|---|
+| **S1** | AI-capex concentration | **3 🟠** | 🆕 **10/23 slot 7 (holdings 10/22): Mag-7 34.0060%, breadth −1.04pp — YELLOW; both red legs moved further away again; the 10/22 rout was mega-cap selling with the rest of the index rising (REST +0.47pp 1d) [KB-279].** **YELLOW held, NOT FIRED.** | S1+S3+S5 share ONE root; count it once | Mag-7 34.0060% [SPY fund weight, holdings 10/22, slot 7]; breadth RSP−SPY 63d −1.04pp [10/22, 28.8 pctile] | **≥40% AND breadth ≤ −7.5pp**, OR hyperscaler capex **cut** YoY |
+| **S2** | Memory cycle | **2 🟡** | October 26 sweep [KB-302/304]: Micron original October 21 slide 16 rejects4F2 on cost/complexity; directional6F2/3D path. Reported China NAND upgrades may add bits/wafer; approvals/output unresolved. No new contract/order-cut leg; October 28–29 test unchanged. | Not purely independent (an AI-capex roll pulls memory) | Micron October 21 original slide 16; Reuters October 21 issuer-statement relay | Contract **−25% QoQ sustained** |
+| **S3** | AI-capex → power demand | **3 🟠** | October 26 sweep [KB-301/303/306]: PG&E Sept pipeline 12,870 MW versus separate 174 MW online since 2024; capital deferrals beyond initial 1.8 GW. No named firm-capacity removal. Nebius/Bloom first-block readiness qualified, not commissioned compute. NERC registry proposal not enforceable curtailment. | Shares S1's root | PG&E October 22 SEC slides6/capital plan; Nebius FAQ; NERC October 21 petition | Grid-side refusal or curtailment that removes FIRM capacity from a contracted DC build |
+
+FILE: AGENTS/WAL/STATUS.md
+# WAL STATUS
+
+**Last Updated: 2026-10-22 12:30 ET — catch-up, L171 frame freeze, desk sweep, court checks, text cleanup, Q3 thesis fold, re-score rule pre-registered, DAEDALUS D:L793 fixes (Will, interactive).** Thesis **v2.4** / EV **$75.96** / PT **$52–76** / weights / composite **13/25** unchanged. The Q3 evidence is now folded into THESIS and WEAKNESSES as a dated, no-re-mark entry (CHANGELOG 2026-10-22). The re-score is deliberately held until the Q3 10-Q, because the $99M appraisal gates Bear-medium. KB **257 rows / 20 groups**.
+
+*Text cleanup 10/22: this file was rewritten with normal spacing and the superseded history paragraphs (10/19–10/21 headers, prior price lines, coordination and closeout receipts) were moved out. The exact prior text is at `archive/STATUS_before-cleanup_2026-10-22.md` (sha256 028d625a…6eff); earlier history at `archive/STATUS_before-Q3-stage1_2026-10-19.md`.*
+
+## BOTTOM LINE (2026-10-22)
+
+Q3 went against the credit bear: no new office problem loans, losses 30bps, reserves 118% of non-paying loans. What is left of the bear rests on **the $99M appraisal**, which the release, deck and call never mentioned, and on the foreclosed-property / early-warning build (OREO +$39M, special mention +$81M). **The Q3 10-Q (EDGAR ≥ Mon 10/26, statutory Mon 11/9) is the one carrier that decides it.** How each 10-Q outcome moves the weights is now **pre-registered** in `Q3_10Q_RESCORE_RULE_2026-10-22.md`: a cure fires the Bear-medium kill (16 → 8); still non-paying or unmentioned trims it 16 → 12; a partial write-down holds 16; a majority loss raises it 16 → 20. Until then v2.4 stands unchanged.
+
+## TODAY (10/22)
+
+| Item | State | Source |
+|---|---|---|
+| Q3 10-Q | **Not on EDGAR** at 11:10 ET; no new 8-K since 10/19. Effective earliest Mon 10/26; statutory Mon 11/9 | EDGAR CIK 1212545; KB-217 |
+| L171 10-Q frame | **FROZEN 10/22**: dated §8 note, no cell changed. Pre-filing anchors: deck Office $272.75M; release classified total $1,091M = nonaccrual $485M + classified accruing $441M + OREO $165M ⇒ 10-Q classified loans expected ~$926M; NCO 30bps; coverage 118.43%; $99M silent in release, deck and call ⇒ graded off the 10-Q, NO-VERDICT if silent, never benign | `Q3_10Q_GRADING_FRAME_2026-09-24.md` §8 |
+| Insider filings | Ten 10/19 Form 4s = 10/15 cash-settled RSU vestings at $74.35 (holdings unchanged) + one director DSU grant. No open-market buy or sell; V4 unchanged | KB-252 |
+| Sell-side | Stephens PT **$94 → $88**, Overweight kept, on the 11–12% NII guide. **B2, single source** (WALTER SIG-W-20261022-011 citing Investing.com), not independently confirmed; base mismatch vs MarketBeat's 7/23 Stephens $95. An earlier 10/22 line here said "no target changes found"; that was wrong (the signal landed 11:13:52 ET, after this desk's last inbox listing) | KB-253 |
+| Cantor / Stupin courts | Remand of WAL's guaranty claims to LA Superior 25STCV24263 **and** stay relief **both GRANTED 8/24**. WAL filed a §523 nondischargeability suit vs the Stupins 9/15 (8:26-ap-01096); the Stupins moved to dismiss 10/16; **hearing Wed 12/9** | `research/2026-10-22_court-checks.md`; KB-254/255 |
+| Jefferies / LAM | Jefferies FQ3 10-Q (filed 10/9) never mentions WAL; a second Point Bonita fraud (Radiant/Sapphire, English High Court). NY index numbers still unknown (NYSCEF blocks automation; Will-side browser search offered) | KB-256/257 |
+| Comps | ZION (SIG-W-20261021-009), EGBN (SIG-W-20261021-013), HBAN/VLY/SSB (SIG-W-20261022-011) change no WAL cell; REGINALD owns the cohort | — |
+| Housekeeping | Desk sweep → `research/2026-10-22_desk-sweep.md`. Inbox and inbox/WALTER empty when re-listed after processing 011; corrections check rc 0 | — |
+
+**Price (10/22 intraday, fetch.py ~11:06 ET): $75.82 (+0.36%)** — SPOT vs EV **−0.18%** (delta/EV 75.96); buffer to 81.90 **+8.02%** (delta/spot). Settled 10/21 close **75.55** (yfinance = Nasdaq, REGINALD 10/22 boot); KRE $71.74 (+1.58%) live. Reaction session (yfinance closes): WAL 10/19 73.63 → 10/20 75.30; KRE 69.26 → 70.62. KB-251/252.
+
+## JUDGMENT
+
+Q3 credit actuals weaken the near-term bear: NCO 30bps, Office classified $272.75M (provisional), coverage 118%. Earnings and capital are mixed: NIM improved, but costs, mortgage, guidance and tangible book need qualification. The $99M appraisal was not identified in the release, deck or call: unknown, not benign. No demonstrated expectations gap. A ledger invalidation is not a silent score change; the post-Q3 re-score waits for the 10-Q.
+
+## Q3 FROZEN-FRAME GRADES
+
+FILE: AGENTS/WALTER/STATUS.md
+# WALTER STATUS
+**Updated:** 2026-10-26T23:50:23Z — full session-end closeout;12cards today, BOARD1725. Boot remains PARTIAL; obligations and publication evidence: LAST_COMPLETION.md.
+
+## BOTTOM LINE
+
+Brazil remains severe local repricing; a broad forced unwind is unproved. LIQUID's closing vendor observations show Brazil weakness alongside resilient sampled US credit/banks; event-day funding/spread readings remained unavailable at its18:56ET pull. Accepted domestic bond buybacks settleOctober27; fund contract mechanisms are not demonstrated cash calls. Twelve BOARD cards capture today's news and bounded unwind search. Full closeout continuity is reconciled; startup, pending-source and lifecycle limits remain explicit in LAST_COMPLETION.md.
+
+## DATED MARKET OBSERVATIONS
+
+| Object | Observation and limit |
+|---|---|
+| Evening owner evidence (October26, owner pulls17:35–18:57ET) | LIQUID vendor EWZ−19.82%,HYG+0.19%,LQD+0.16%,KRE+0.37%; not spread/flow measurements. Accepted domestic buybacksR$14.807B settleOctober27; current UBR call unproved. Credit/funding frontierOctober23 at18:56ET. VULCAN original-access upgrade is owner-selected sections, full reconciliation incomplete. Sources: research/2026-10-26_final/OWNER-REVIEW.md. |
+| Brazil unwind search (October26 13:44–13:47ET) | Anonymous manager reports local stop-loss amplification; no named fund/margin-call liquidation verified. Mixed carry pattern: yen weaker, peso stronger, US credit ETFs positive. NYFed afternoon repo accepted$5M, not a seizure finding. B3 wider price bands are not margin hikes. Card012/evidence: research/2026-10-26_unwind-search/REPORT.md. |
+| Morning news (October 26, underlying clocks retained) | Meta $35B offering package plus unestablished $60B future program; SpaceX ~$40B conditional GPU lease; Anthropic public IPO reported, original prospectus unread. B3 halt confirmed; Reuters local equity/FX/CDS stress is dated intraday, not a forced-sale finding. Cards 001–004. |
+| Labor/energy/diplomacy (October 26 releases) | Microsoft voluntary offer, realized exits unknown; EQT–Range all-stock merger, >$50B combined EV not Range purchase price; Tehran regional contact not a settlement, Yemen military claims attributed. Cards 005–007. |
+| Data/tape (October 26, intraday or release period named) | Vendor SP500 +0.73%, Nasdaq +0.98%, VIX 18.36, KRE +0.52%, WAL +0.16%, JBLU −13.88%. Dallas current production 15.8 vs 29.5/orders 9.3 vs 30.7, input prices 55.3 vs 52.2. ifo 90.2 secondary; September CFNAI +0.07 corroborated by FRED; components secondary/full primary release table inaccessible. Cards 008–011. |
+| Bookmark verification (10/25 retrieval; underlying dates retained) | Cards019–031: GMO notices10/23–25; Python advisories10/23; CISA catalog2026.10.23; Jubilee/FQM Apr–Jun; ICSG10/14 forecast; CalPERS12/31→6/30; weather runs through10/25 12Z; Moody's10/23; MetaQ3; NYFedQ2 and historical counterexample2019Q2. These are evidence/basis updates, not fresh prices or owner grades. |
+| Bookmark source review (10/25 retrieval, underlying dates retained) | GMO fourth notice10/24; Bun/Envoy advisories10/23; White House order10/22; Oracle$1B over4years10/23. Jubilee costs referApr–Jun2026, announced9/14. KFF2026 family worker$7,471,+$621/~9%; total$28,303,+5%. JetBlue10/22 excerpt:2031 loyalty-backed bonds~40c versus~80c beginningOct, secondary TRACE attribution. No fresh market quote or full Bloomberg-body clearance. |
+| Sunday verification (retrieved 10/25; observations remain dated) | FRED HY 340 / CCC 1340 bp / VIXCLS 19.03 / SOFR-IORB0 bp [10/22];T5YIFR2.20 [10/23]. Vendor10/23 KRE 72.46,WAL 76.12,^VIX19.45. Cboe SKEW 151.80 [10/23];Cushing 27.594M [w/e10/16]. No new fire in completed checks; Brent identity/official settles and other coverage limits in THRESHOLD-SCAN.md. These are dated observations, not Sunday trading quotes. |
+| Close and evening (10/23; vendor 20:38Z, after the 16:00 close, not settles) | KRE 72.46 (+0.07%), WAL 76.12 (−0.72%, REG-T-02 fired state, re-entry, exit 0 of 3 at 81.90), ZION 66.20, ^VIX 19.45 (+2.21%, no safety net), HYG 77.05, SPY 759.97 (−0.52%); BZZ26 116.62 (+3.05%, contract name truncated by the probe; BRENT confirms BZZ26 is the reference to 10/30), CLZ26 103.17 (+3.72%): boundary #1 2.9% away, watch only. AAA 10/23: regular $4.2926 (month ago $4.4744), diesel $6.3172 ($6.5217) (042). Rated-CCC basket (XCCC 10/22): 0% AI, ~5.9% software, ~16.5% cable/telecom (040). FRED unchanged (HY 340 [10/22]). Evidence `research/2026-10-23_evening/`. |
+| Iran and oil (10/23 afternoon; vendor 18:35–18:39Z intraday, not settles) | BZZ26 116.71 (+3.13%, probe name truncated), CLZ26 103.26 (+3.81%); boundary #1 2.8% away = near-trigger WATCH. WH 10/22 written line: no attack before the midterms; Barrack 10/23 envoy tape; FALCON pre-11/3 ~12% [EST] (`PROME/inbox/2026-10-23_from-FALCON_sig024-strike-timing-grade.md`). Rosatom ~135 staff at Bushehr [10/11]; evacuation CLAIM-ONLY. Tape: KRE 72.56 (+0.21%), WAL 76.49 (REG-T-02 fired state, re-entry), ^VIX 19.89 (+4.52%, no safety net), HYG 77.04, FLG 10.38 (−9.27%), GC=F 4,015 (−1.12%), ^TNX 4.99, XU100 −0.92%. FRED unchanged (HY 340 [10/22]). Evidence `research/2026-10-23_afternoon/`. |
+| Credit (10/22 observation, FRED first-published, pulled 10/23 14:27Z) | HY 340 (+13), CCC 1,340 (+33), BB 210, B 346, IG 89 [10/22]; HY effective yield 8.14%. REG-T-04 (>350 x3) 10bp away (2.9%): near-trigger watch (015). RED-FT-02 / REG-T-03 fired state held. VIXCLS 19.03 [10/22] = RED-FT-06 exit 1 of 5 (RED owns). SOFR 3.90 minus IORB 3.90 = 0bp [10/22]. Long-run context and analogs: `research/2026-10-23_morning/HY_SPREAD_DEEP_DIVE.md`. |
+| Banks and tape (10/23 intraday, vendor 14:27Z, not closes) | FLG $10.35 (-9.57%) after Q3 (005); FCNCA +7.13% and FHB -4.17% after Q3 (012); WAL $75.28 (-1.81%, REG-T-02 fired state, re-entry, exit 0 of 3); ZION $65.65 (-1.11%); KRE $71.80 (-0.84%); SPY -0.68%; ^VIX 20.07 (+5.47%, about +1 point, no safety net); HYG $76.89. ZION premarket bars were unavailable at boot (FLASH leg UNKNOWN then). |
+| Data (10/23, primaries) | S&P Global flash PMI October: manufacturing 56.0 (55.9), services 57.9 (58.8), composite 57.6 (58.4); selling prices fastest since August 2022 (010). Michigan final October 48.0 (prelim 46.3); 1-year 4.7%, long-run 3.5% (014). France flash composite 48.4 (51.1), manufacturing 49.3 (011, French release); Germany flash not read. AmEx Q3 reserve release, NWO 1.8% (009). |
+| Oil (10/23 intraday 12:3xZ, not settles) | BZ=F rolled December to January on 10/23 (BZ=F = BZF27 110.28); BZZ26 114.98 (+1.2%), CLZ26 101.26 (+1.3%) (006). Boundary #8 stays on December legs until 11/02. |
+| Chips and Asia (10/22 close; 10/23 Asia intraday 04:39Z) | Vendor closes 10/22: SOX 10,731.98 (−6.72%), SMH $523.35, AMD $507.93 (−8.10%), MU $856.49 (−6.26%), NVDA $212.21 (−4.40%), QQQ $704.47 (−2.86%), NDX 28,958.69, SPY $763.96 (−1.18%), CRWV $55.60 (−10.1%, low $54.85 15:45 ET), AMZN $250.38 (−4.56%). Asia 10/23 intraday: Nikkei 62,238 (−1.06%), Kospi 5,486 (−0.86%, −21% from 10/06), SK Hynix +2.21%; USD/JPY 156.89 (158.13 prior). Japan Sept core CPI 2.1% (CNBC/Xinhua; primary not read). T5YIFR 2.19 [10/22]. Boundary #8 est. ≈$39.75 Dec legs overnight, not a settle. FRED HY/CCC/VIXCLS/DGS10 for 10/22 unpublished at 11:27Z. |
+| Cyber (10/22 night) | All nine CYPHER WAVE-2026-10 rows NOT-FIRED (CYPHER first session). CISA KEV v2026.10.21: PHP2Shell CVEs absent; 0 banking-software entries of 1,754. NVD new CVEs Q3 2026 37,712 vs Q3 2025 12,207 (API re-pull just before 047, stamped 2026-10-23T01:45:57Z). Quest DGX 8-K 8.01 06:53 ET 10/22; DGX $243.28 (+1.82%) vendor close, confounded by same-day earnings. Oracle 5Y CDS 314bp [10/22, DTCC] is PROME's read. |
+| Rates and Europe (10/22 close) | US 10-year 4.95% (−3.75%, about −19bp), 5-year 4.77%, 30-year 5.29% vendor 20:19Z; FRED DGS10 5.13 [10/21]; TLT +1.87%. Reuters intraday: US 10-year 4.994%; France 10-year 5.06% (high 5.1415%, highest since July 2002), above US 10-year first since 2013 (031). HANS's i-i basis governs; not graded by WALTER. |
+| Banks and funding (10/22 close) | Vendor closes: KRE $72.41 (+2.53%), WAL $76.67 (+1.48%, REG-T-02 fired state, re-entry, exit 0 of 3), FISV $50.82, FIS $38.29, JKHY $161.80 (each about +5%). H.4.1 [Wed 10/21]: primary credit $9.169B (avg $8.935B, −$2.377B), reserves $2.970T, TGA avg $952B (+$68.6B) (034). VIX 18.90 (+13.3%) vendor close; no safety net. |
+| Banks (10/22 afternoon) | Vendor 16:04Z intraday, not closes: KRE $71.85 (+1.74%), WAL $76.42 (+1.15%, REG-T-02 fired state, re-entry, exit 0 of 3 at 81.90). Owner answers to Will's 005: REGINALD BANK-ABSENT about 0.6 (012); CREED says the CRE channel is the 10-year rate, not HY spreads (015). Q3 problem loans up at 6 of 6 banks read, reserve coverage down at 5 of 5 (REGINALD, descriptive). Discount-window primary credit $11.044B [Wed 10/14]; H.4.1 tonight 16:30 ET, REGINALD descriptive lines above about $12.9B notable, above about $15.7B outlier. FLG Q3 Friday 06:00 ET. |
+
+FILE: AGENTS/WATT/STATUS.md
+# WATT — STATUS
+
+**Record maintained:** 2026-10-23 01:04 EDT — D:L789 touch: L546 float graded DONE, AEOLUS interchange test run (KB177–180); RBP carried; inbox drained. Prior record 2026-10-22 09:54 EDT (D:L717/L650). **Observation cutoff:** PJM tape complete October 15–22 plus October 23 through 00:50 EPT; board and EIA-930 demand read 00:59 ET October 23; EIA-930 interchange September 14–21 pulled 01:0x ET October 23; DOE index and Inside Lines feed last read 08:34–08:36 ET October 22; board, DOE index and Inside Lines feed read 08:34–08:36 ET October 22; outage forecast executed October 22; gas quote 08:33 ET October 22 (NG=F $2.782). Auction result July 14; IRAS order October 9; RBP order September 29; generator order October 15. No fresh all-issuer guidance census. **P1/P2/P3/P4 = 3/5/4/2; composite 14/20 (was 16/20; P1 5→3 forced by the D:L717 letter).**
+**Class:** market-agent, grid stress → wholesale price → industrial/data-center cost. **Maturity:** L4, ConfH (DAEDALUS September 5); spawnable by Will/PROME. Historical records and operating explanations: `archive/2026-10-20_before-sweep/` byte-exact snapshots and manifest; earlier status archives retained. Whole-read budget32,550B; measured by checks.
+
+## CONVERGENCE MATRIX
+
+| # | Channel | Score (1–5) | Local state | Independence | Key signal | Upgrade trigger |
+|---|---|:---:|---|---|---|---|
+|P1|Stress→price|3|De-escalated 5→3 October 22 on the registered letter (L717 MET): October 15–21 clear on every limb|Outage-season root; backup authority shares event root|202-26-50 lapsed October 16 unrenewed; no new PJM 202(c); only postings 105575 Capacity Advisory (not EEA-class) and 105576 local warning; 0 of 2,008 prints ≥$1,000, window max $471.98 October 16 [KB173/174]. October 22 complete day max $79.98, 0 ≥$500 despite the 71.5 GW outage forecast [KB179]|RED letter re-fire (≥$1,000 for 2+ consecutive 5-min AND posting or demand ≥97% of trailing peak) or EEA2+ → 5, as on October 7 |
+|P2|Structural capacity cost|5|Three at-cap clears/two shortfalls remain historical fact; prospective shortfall disputed by IMM scenario. IRAS core rejected; RBP suspended to February 28, 2027, subject to proceedings|P2/P3 share demand-forecast root; not independent confirmations|28/29$325/MWday=100%owncap,6831MWshort [PJMJuly14]. IRAS rejectedOct9/readOct12, WATT10MISS, DoorB~50% [KB140/141]|December 2026 29/30 BRA below cap AND queues drain for thesis-kill; exact day and cost allocation unresolved |
+|P3|Data-center demand|4 HELD|July 31 funding discriminator held; forward load-realization confidence weaker after IMM demand counterevidence. Current active-queue limb UNKNOWN|Shares P2 load forecast; site execution reports not independent demand proof|IMM tracks 4,016.9 MW cancelled/delayed projects, not an adopted PJM forecast [KB165]. Cycle 1 Phase I 168.6 GW is generation, not total active queue [KB159]. Nuclear uprates planned from 2028; not online [KB166/167]|ACTIVE queue>2x forecastpeak OR IPPload-growthguide RAISED. No evidence for5; do not replace total withcycle-only |
+|P4|Gas→power|2|NOT-FIRED; positive power-window proxy, no direction inference|Shares P1 price root; gas basis remains unmeasured|Oct 15–19onpeak49.7217,n958; Oct 20NG=F2.970→HR7spark+28.93/HR8+25.96 [KB161]|Negative3+sessions on consistentbasis; proxy is not matched daily settlements |
+
+**Composite 14/20** transparent arithmetic 3+5+4+2. The P1 move is the letter executing on a clear seven-day window, not a judgment that the shoulder-season fragility is gone: October 13 RED and the September 17 EEA2 remain historical fires. No deploy-posture change or security mispricing measurement.
+
+## NEWS / NEW DATA — primary reads October 20 (KB165–172)
+
+**Demand counterevidence:** The Market Monitor's September 25 filing identifies **4,016.9 MW cancelled OR delayed** as of September 21, about **42% of 9,481 MW forecast growth**, not total data-center load. Scenario 3 shortfall **3,055 MW** versus historical auction **6,831.3 MW** is a sensitivity, not PJM's revised forecast. IIR/public-data tracking; monitor lacks EDC project-level adjustments, and WATT did not independently verify projects. P3 stays4 on its registered funding discriminator, with weaker forward realization confidence. Generation-queue attrition is a different population.
+
+**Supply response:** Google/Constellation October6: **890 MW new uprates**, first expected2028,20-yearPPA; separate **2,700 MW existing-fleet** agreement not new supply. Amazon/Constellation September30: **690 MW total includes190 MW new**, planned2030–32. Issuer announcements, no contracts/permits or deliveredMW inspected. Not immediate2026/27relief, not an adopted IRAS cost rule, and no nameplate subtraction from UCAPshortfall.
+
+**Policy and clocks:** September29RBPorder accepts for filing but suspends to **February28,2027**, subject torefund/furtherproceedings. No September30procurementstart. PrimaryOctober22MCagenda9am-noon confirms consultation onsection205revisions. October29refile/October21motionanswerdates remain secondaryleads awaiting primarydocuments. **Next2029/30BRA is December2026 perPJM, not WATT's old~mid2027**; exactday/latestcalendarunverified. October21FERCAD26-8conference10am–2:40pmEDT is an agenda, not ruling. ER24-2045October15generatororder requires60daycompliance and laterCycle3effectiveness; not data-center ride-through law or immediatequeueclearance.
+
+**Backdrop and current read:** EIAOctober6forecast/inputcutoffOct1primarychecked:2026US11hubmean$52/MWh,PJM+41%YoY;2027USmean$49. Forecasts, not spotprices; noOct13–14information incorporated. FreshPJMthrough22:45:$30.82latest,max$315.14,n273,0observedRED;unverified/partialday,21:15missing. Fullreport:`reports/2026-10-20_NEWS_SWEEP.md`. Priorhistoricalcorrections/sourcewalls below remainbinding.
+
+## LIVE READS AND CORRECTIONS
+
+**P1 (graded October 22, KB173/174):** complete October 15–21 tape n=2,008 of 2,016; zero ≥$1,000, zero ≥$500; daily max 268.62/471.98/387.92/295.18/380.98/315.14/257.81 dollars/MWh. Missing October 15 10:35, 22:20; October 20 21:15; October 21 12:05, 15:10, 15:20, 15:40, 22:00 — no two adjacent, so no hidden RED run. Board ids 105577–105640 invalid/unavailable (cannot distinguish unissued from withdrawn); Inside Lines feed newest operations update is the October 16 Capacity Advisory for October 19. Same-day outage forecasts 70.2 GW October 21, 71.5 GW October 22 (planned 48.4, maintenance 12.7, forced 10.4), 57.3–69.2 GW October 23–28: forecasts, not live availability. October 22 complete day n=285 of 288 (missing 09:40, 15:05, 15:15, none adjacent): max $79.98 at 07:30 EPT, 0 ≥$500 [KB179]. October 23 through 00:50 EPT: latest $29.03, max $39.93; demand 88.7% of 24h peak at 04Z; board one routine local warning (105478), 0 emergency-class. Captures: `sources/2026-10-22/`; report `reports/2026-10-22_DOCKET-L717-P1-retest-L650-grade.md`.
+
+
+FILE: AGENTS/YEYOU/STATUS.md
+# YEYOU — STATUS
+
+**Updated:** 2026-08-20 (FIRST EVER REVIEW PASS — Will-ruled "watermark YEYOU at today and spawn it"; DAEDALUS set *DEFAULT* watermark `fdb466786` + spawned) | **Runtime:** Claude Code session, teams-mode spawn | **Phase:** 1 (digest-to-PROME only)
+
+> Review agent (meta). Exempt from domain-agent sections (Convergence Matrix / EXIT / TRADE). Dashboard = `reviews/REVIEW_LOG.tsv`.
+
+---
+
+## 2026-08-20 — First review pass (the machinery is now switched ON)
+
+**Queue:** 143 commits since watermark `fdb466786`, touching **21 agents** (boot.py estimated 45 at spawn-brief time; the day kept running). Reviewed range: `fdb466786..66ba48964`. origin/master advanced to `bbc21a2cd` (+13 commits) *during* the pass — those stay queued for the next pass; watermarks were advanced only to `66ba48964`, the last commit actually reviewed.
+
+**Agents reviewed: 21 of 21 in queue** — WALTER(34c), HAWK(21), SAM(19), BOND(16), OSPREY(12), PROME(11), TERRY(10), CREED(9), FALCON(9), DAEDALUS(7), + 11 inbound-packet-only dirs (LIQUID, REGINALD, BRENT, BROCK, HENRY, HOMER, MARCO, ORACLE, RED, SHADE, VIOLET). Zero agents deferred.
+
+**Findings: 13 (🔴 0 · 🟠 3 · 🟡 10 · ⚪ 0) + 12 PASS rows.** Ledger = `reviews/REVIEW_LOG.tsv` rows YEY-001..013 + YEY-P01..P12.
+
+| Sev | Agent | One line |
+|---|---|---|
+| 🟠 | PROME | DOCKET.tsv: 2 rows dropped the artifact-pointer column (6→5 fields) in `13c87b95e`+`1f74f4516` — rail no longer uniformly parseable |
+| 🟠 | FALCON | STATUS 253 lines > own hard 250 cap (improved 261→253, still over at close) |
+| 🟠 | YEYOU | own checklist §F contradicts root carve-out ① — literal reading = ~15 false 🔴 this pass |
+| 🟡 | HAWK | STATUS 148 vs own ≤120 target (improving) |
+| 🟡 | TERRY | STATUS 509 lines, +53 this session, NO cap in own charter (structural gap → DAEDALUS) |
+| 🟡×3 | SAM | v2.0 CANDIDATE not in CHANGELOG (vs own v1.8 precedent) · RED-packet commit subject omits recipient (carve-out ① format) · STATUS has no Updated stamp at all |
+| 🟡×4 | HENRY/LIQUID/MARCO/RED | inbox backlogs 71/59/36/27 unprocessed (47/22/23/21 pre-8/17); LIQUID's pile contains a Will-ruled ACTION packet |
+| 🟡 | YEYOU | checklist still says "You are GLM" + references retired HERMES |
+
+**Honest coverage statement — what this pass did NOT do:**
+- **Factual/analytical claims were NOT verified** (charter: mechanical layer only; RAV/Codex own the deep half). No price, filing, or thesis judgment was ruled on.
+- **Line-by-line prose reading of every changed file was NOT done** for the largest diffs (SAM 2,363 insertions, WALTER 682, FALCON 786…). Coverage was: full commit→path hygiene map of all 143 commits; TSV schema uniformity on all 27 changed ledgers; STATUS caps vs each agent's OWN charter; thesis-change-vs-CHANGELOG on all 5 agents with thesis edits; cross-ref existence on all 291 paths referenced in added lines; inbox aging fleet-wide; freshness headers spot-checked on 8 desks. Contradiction-hunting inside long prose bodies is deeper than this pass went.
+
+FILE: AGENTS/YURI/STATUS.md
+# YURI STATUS
+
+**Last Updated: 2026-10-21** — Will-launched Claude Code owner session (Opus 5.5, `claude-opus-5-5`); session 20:49→22:54 ET (closed out at Will's word 22:53 ET): PROME five-item order, completion pass, YUR-005/006 registration, sweep and follow-ups, a key-file reconciliation (22:20 ET) and long searches (22:29 ET). Closeout receipt: `research/2026-10-21_session-closeout-receipt.json`. Report: `research/2026-10-21_L432-read-and-actor-update.md` §1–10. Packets to PROME ×3 and WALTER ×4 (on origin). Prior session 2026-10-12 (Codex).
+
+**▶ WORKING LIST (read at boot): `research/2026-10-21_SWEEP_owed-list.md`**: Will-requested sweep of owed, incomplete and stale items, 2026-10-21; row `state` cells track progress.
+
+**Class:** Market (feeder/intent; never proposes trades) · **Byte budget:** 32,550 B (rotate at ≥75%) · **Convergence handle `Score (1–5)`: 2**, unchanged at 2026-10-21 (no mobilisation declaration; a fourth custodial seizure-list decree and a US rapprochement track are running at the same time). The Russian government now primary-confirms a **partial 500,000-tonne diesel-export permission effective 10 October**, with government-coordinated contracting; signed lift number/annex and delivered increment remain UNKNOWN. Mobilisation YUR-004 remains OPEN, NOT-DECIDED · PERIMETER PARTIAL (structurally unreadable gaps only) after the missed 16 October checkpoint was backfilled on 21 October. Historical seizure grade YUR-003 remains MISS as made on 2 October; ЕГРЮЛ shows no title move through 22.10. New rows YUR-005 (diesel exemption, p=0.60) and YUR-006 (fifth list amendment, p=0.70). Report: `research/2026-10-21_L432-read-and-actor-update.md`.
+
+## Live intent-reads (`workbook/INTENT_LEDGER.tsv` is canonical; this table mirrors it)
+
+| Row | Claim | Resolve_by | Reading | Status |
+|---|---|---|---|---|
+| YUR-001 (ex DOCKET L432) | Mobilisation decision after the 9/20 Duma vote | 2026-09-21 | NOT-DECIDED · PERIMETER PARTIAL (window 09-19→09-25, 2026-09-25 re-read) — **reading preserved verbatim on VOID** | **VOID (superseded prospectively by YUR-004 on Will's WQ-293 word 2026-09-26; reading preserved verbatim; not scored).** Grade of record: `research/2026-09-25_L432_YUR-001_GRADE.md` (`0abe3353c`). |
+| YUR-003 (ex DOCKET L434) | Nestlé/Auchan external management converts to a SALE by 2026-10-02 | 2026-10-02 | **NOT-DECIDED · PERIMETER COMPLETE-AT-TITLE** (YURI 2026-10-02 15:46 UTC): pravo pres block through № 712 — three Decree-302 list amendments (№ 661 · № 674 · № 689) all CUSTODIAL by title; 0 disposal titles for the four companies at either primary; kremlin.ru 200 with UA, 0 relevant hits; issuer corroboration (Nestlé "no change of ownership", Auchan Retail Russia "will fully continue commercial activity"). Scanned bodies named as unchecked fallback. | **MISS 2026-10-02.** Grade memo: `research/2026-10-02_L434_YUR-003_GRADE.md`. |
+| YUR-004 | Public declaration of mobilisation 2026-10-02 → 2026-10-31 | 2026-10-31 (backfills through 11/02) | NOT-DECIDED · PERIMETER PARTIAL (YURI 2026-10-21 review + completion pass 2026-10-22T01:24–01:30Z): acts dated 10/02→10/15 read (10/12: 19 complete PDF bodies; 10/21: 20 new acts to №752, all generic/substantive bodies read) + Kremlin bodies to 21.10 incl. the 23 formerly excluded stories, 0 declarations. Residual gaps are structurally unreadable only: mil.ru UNREACHABLE (01:28Z), listing gaps №728/729/731/735/737/739 and unpublished acts NOT-FOUND. Record: `research/2026-10-21_L432-read-and-actor-update.md` §1, §8.1. | OPEN. **10/21 backfill of the missed 10/16 checkpoint:** 20 new acts to №752 (15.10) plus 14 Kremlin bodies to 21.10, 0 declarations, perimeter PARTIAL on structurally unreadable gaps only (report §8.1). Next read Fri 10/23; no early MISS. |
+| YUR-F01 | Desk self-falsifier: ≥3 cross-channel marginal actor calls by 2026-10-24 | 2026-10-24 | **0 of 3 at 2026-10-21**; one unclaimed candidate named for DAEDALUS (report §5). 1–2-call branch answered to PROME as (a) marginal-value review, Will may supersede. **Expected 10/24 outcome: zero-call branch ⇒ retire/re-merge proposal, Will rules.** | OPEN (DAEDALUS grades) |
+| YUR-005 | Government extends the producer diesel export ban past 31.10 (postpones №954 ¶2(г) start of 01.11; quota inside prohibition counts) — YURI p=0.60 | 2026-11-02 | NOT-DECIDED at registration 10/21 on the complete public government perimeter 28.09→21.10 (110 resolutions titled, only №1252 fuel; 146/146 orders opened, none fuel) | OPEN (registered 10/21 on Will's word) |
+| YUR-006 | A further Decree-302 list amendment after №738, signed ≥16.10 and published ≤15.11 — YURI p=0.70 | 2026-11-15 | NOT-DECIDED · PARTIAL at registration 10/21 (listing tops at №752) | OPEN (registered 10/21 on Will's word) |
+
+**L433 (Suwałki-Gap exercise) is NOT this desk's.** HAWK outright; its 9/25 grade (UNDETERMINED, `42ce71cc6`) stands; not re-checked this session.
+
+## Current instrument answers
+- **2026-10-21 actor update (primary, report §2–4):**
+  - **Указ №738 (15.10)** is the 4th Decree-302 list amendment since 17.09. It adds 9 custodial interests (Tarkett ×5, Ontex, Menshen ×2, Kappa Rus, a Sonoco-named holder) under new manager УК "ЦЕНТР КАПИТАЛ", with no disposal clause. Parent verification: see the completion pass below.
+  - **Указ №750 (15.10)** amends the 2012 consent gate (№1285) for strategic JSCs and their subsidiaries. Its only change is a new foreign-law-obligation trigger (see sweep follow-ups below).
+  - **Kremlin 21.10:** Putin says diesel tankers are readied, the first 40,000 t "in two to three days", with financing open, and offers fertilizer "in large quantity" to the US market. Ushakov says Russia is "in principle ready" for RU–US–UA talks "in the 10s of November". Other points: a US citizen (Hubbard) pardoned and handed over at Pulkovo; a possible RU–CN–US leaders' meeting at APEC Shenzhen is "not rejected" by any capital.
+  - **Kremlin 16.10, command post:** Putin says the border security zone is not to be made the subject of possible peace negotiations; the published transcript stops before the "autumn-winter tasks" segment. **19.10:** Putin backed Mishustin's proposed cabinet changes (names not published).
+  - **Diesel context (WALTER):** Novak 14.10, "could" reach 3.5 Mt/month by year-end. This is conditional and contradicts his own 300 kt / 500 kt / 1 Mt path, so it is logged as intent, not a row. Cargo signals (Leruo → Manaus, Dolunay → Alanya, SIG-W-20261021-004) are BRENT/OSPREY's.
+  - No new diesel act on government entries 10.10→17.10 (titled + all 28 untitled orders). The №954 ¶2(г) producer diesel exemption starts 01.11 unless postponed (YUR-005); the ¶2(в) EAEU exemption ends 31.10.
+  - L509 is overtaken (YUR-004 has been registered since 10/02). WALTER's "LIFTED ban" framing is corrected by packet.

@@ -1,0 +1,307 @@
+{
+  "health": [
+    [
+      "OK",
+      "last_run 2026-10-26T20:15:39Z (1 missed weekday runs, 0 calendar days)"
+    ],
+    [
+      "OK",
+      "news search items saved: 194 (trailing median 179 over 10 batches)"
+    ]
+  ],
+  "new": [
+    {
+      "feed": "newsweep",
+      "key": "news:NEW_ALERT:data/2026-10-26/news.json",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "(per-item agents field)"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "1 NEW_ALERT item(s) \u2014 read data/2026-10-26/news.json",
+      "label": "1 NEW_ALERT",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:NEW_WATCH:data/2026-10-26/news.json",
+      "band": null,
+      "gate": "INFO",
+      "owners": [
+        "(per-item agents field)"
+      ],
+      "info_cc": [],
+      "precedence": "ROUTINE",
+      "raw": "6 NEW_WATCH item(s) \u2014 read data/2026-10-26/news.json",
+      "label": "6 NEW_WATCH",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:d1f5dac5b43a",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Russian Diesel Exports Rise After US Fuel Supply Deal and Quotas - Global Banking & Finance Review",
+      "label": "WATCH_HIT [BRENT:'Russia diesel export'; BRENT:'US diesel export']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:7652575d202c",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Experts warn Trump's diesel export ban could cut supply and hit Texas refineries - The Cool Down",
+      "label": "WATCH_HIT [BRENT:'Trump diesel export']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:cfde7ba36a4a",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Russian diesel exports plummeted by 75% following attacks on oil refineries - UkrMedia News",
+      "label": "WATCH_HIT [BRENT:'Russia diesel export']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:9a1fc2fdea84",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "SHADE"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Group 1001 Insurance Names George Haj as Chief Communications Officer - The Joplin Globe",
+      "label": "WATCH_HIT [SHADE:'Group 1001 Insurance']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:7dc5a8515645",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "LABOR"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "\u201cThere are no layoffs associated with these quiet weeks, and employees will return in the new year\u201d: Fender responds to rumours of layoffs after WARN notice - G",
+      "label": "WATCH_HIT [LABOR:'WARN notice layoffs']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:a466e7bb97ac",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "HAWK",
+        "OSPREY"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Sheskharis terminal in Russia's Novorossiysk suspends operations after drone attack \u2013 Reuters - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430 \u043f\u0440\u0430\u0432\u0434\u0430",
+      "label": "WATCH_HIT [HAWK:'Sheskharis oil terminal'; OSPREY:'Sheskharis']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:730dc0883881",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "HAWK",
+        "OSPREY"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Russia's Black Sea's Sheskharis terminal halts loadings after drone attack, sources say - Reuters",
+      "label": "WATCH_HIT [HAWK:'Sheskharis oil terminal'; OSPREY:'Sheskharis']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:fbabe911a0f2",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "HANS"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Dutch TTF Gas Nov '26 Futures Price History - Barchart.com",
+      "label": "WATCH_HIT [HANS:'Dutch gas price']",
+      "onset": true
+    }
+  ],
+  "suppressed": [
+    {
+      "feed": "fred",
+      "key": "fred:UMCSENT:orange",
+      "band": "orange",
+      "gate": "INFO",
+      "owners": [
+        "HENRY"
+      ],
+      "info_cc": [],
+      "precedence": "ROUTINE",
+      "raw": "UMCSENT UMich sentiment=48.1 [orange]",
+      "label": "",
+      "onset": false
+    },
+    {
+      "feed": "fred",
+      "key": "fred:MORTGAGE30US:red",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "PROME"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "MORTGAGE30US 30yr mortgage rate %=7.32 [red]",
+      "label": "",
+      "onset": false
+    },
+    {
+      "feed": "fred",
+      "key": "fred:BAMLH0A0HYM2:red",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "LIQUID",
+        "PROME"
+      ],
+      "info_cc": [
+        "HENRY"
+      ],
+      "precedence": "IMMEDIATE",
+      "raw": "BAMLH0A0HYM2 HY OAS bps=338.0 [red]",
+      "label": "X1-trigger breach (credit-bear arm)",
+      "onset": false
+    },
+    {
+      "feed": "fred",
+      "key": "fred:BAMLH0A0HYM2:red",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "LIQUID",
+        "PROME"
+      ],
+      "info_cc": [
+        "HENRY"
+      ],
+      "precedence": "IMMEDIATE",
+      "raw": "BAMLH0A0HYM2 HY OAS=338bps [red] >=280 X1-trigger breach (LIQUID half of X1; sustain-check owner LIQUID; BROCK wrapper-half must also fire)",
+      "label": "X1-trigger breach (credit-bear arm)",
+      "onset": false
+    },
+    {
+      "feed": "edgar_8k",
+      "key": "edgar:WAL_2026_10_19_2_02_9_01_",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "WAL",
+        "REGINALD"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "WAL 2026-10-19 ['2.02', '9.01']",
+      "label": "critical 8-K [regional_bank]",
+      "onset": false
+    },
+    {
+      "feed": "edgar_8k",
+      "key": "edgar:EGBN_2026_10_21_2_02_7_01_9_01_",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "REGINALD"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "EGBN 2026-10-21 ['2.02', '7.01', '9.01']",
+      "label": "critical 8-K [regional_bank]",
+      "onset": false
+    },
+    {
+      "feed": "edgar_8k",
+      "key": "edgar:ZION_2026_10_19_2_02_9_01_",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "REGINALD"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "ZION 2026-10-19 ['2.02', '9.01']",
+      "label": "critical 8-K [regional_bank]",
+      "onset": false
+    },
+    {
+      "feed": "edgar_8k",
+      "key": "edgar:VLY_2026_10_22_2_02_9_01_",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "REGINALD"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "VLY 2026-10-22 ['2.02', '9.01']",
+      "label": "critical 8-K [regional_bank]",
+      "onset": false
+    },
+    {
+      "feed": "edgar_8k",
+      "key": "edgar:FLG_2026_10_23_2_02_7_01_9_01_",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "FLG",
+        "REGINALD"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "FLG 2026-10-23 ['2.02', '7.01', '9.01']",
+      "label": "critical 8-K [regional_bank]",
+      "onset": false
+    },
+    {
+      "feed": "edgar_8k",
+      "key": "edgar:META_2026_10_21_1_01_2_02_8_01_9_01_",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "VULCAN",
+        "HENRY"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "META 2026-10-21 ['1.01', '2.02', '8.01', '9.01']",
+      "label": "critical 8-K [hyperscaler_ai]",
+      "onset": false
+    }
+  ]
+}

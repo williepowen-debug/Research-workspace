@@ -1,0 +1,127 @@
+X-BOOKMARK scan — Will's new bookmarks
+================================================================
+
+Fetched 32 new bookmark ID(s) in this scan segment; see the review/coverage receipt below.
+
+[NEW bookmarks to ROUTE — 32]  source: x-bookmark  (Will-originated — do not kill on Novelty without reading the body)
+
+  1. 2114867216105578816  @business  2026-10-26T23:50:11.000Z  [DIG: link, pointer]
+     │ Anthropic Warns of Existential Risks, Liability and Slowing Sales https://t.co/hgJNUbOdxg
+     🔗 https://www.bloomberg.com/news/articles/2026-10-26/anthropic-warns-of-existential-risk-liability-and-slowing-sales?taid=6adfe733d939c80001d99647&utm_campaign=trueanthem&utm_content=business&utm_medium=social&utm_source=twitter
+
+  2. 2114785608312967621  @KobeissiLetter  2026-10-26T18:25:54.000Z  [DIG: media]
+     │ Brazil's 10Y Government Bond Yield is now pushing 16%!  That's a +300 basis point gain in a single day.  That would be like US mortgage rates going from 7% to 10% in a single day. https://t.co/OmSum6vZmK https://t.co/VLtALSCU3X
+     🖼  photo: https://pbs.twimg.com/media/HVk6OMQXkAAGkNu.jpg
+
+  3. 2114811695218692436  @LayoffAI  2026-10-26T20:09:34.000Z  [DIG: media]
+     │ SKYDANCE'S FIRST BIG MEMO: TAKE THE BUYOUT, OR COME IN 5 DAYS A WEEK  Similar to Microsoft earlier today, except this one comes with a Return to Office mandate (other silent layoff that doesn't always show up in headlines).  From co-CEOs David Ellison and Ynon Kreiz:  "we recognize that not everyone will see their future here" Those who qualify get "personalized details and terms" and "a window to decide whether to accept this one-time offer."  The target: more than $6B in annual cost savings.  As @Amanda_Goodall notes, huge layoffs are expected to be part of it.
+     🖼  photo: https://pbs.twimg.com/media/HVlRZFuWsAA-slU.png
+
+  4. 2114782227246498123  @FloppyBenchAI  2026-10-26T18:12:28.000Z
+     │ Microsoft is offering 39 weeks of salary,  the 2 next stock vests and 6 months of cobra to up to 60.000 employees (~27% of their total workforce) in a effort to reduce expenses after AI productivity gains.
+
+  5. 2114794682035343709  @FalconFeedsio  2026-10-26T19:01:57.000Z  [DIG: media]
+     │ 🚨 Ransomware Alert 🚨  The Gentlemen ransomware group has added 38 new victims to their dark web portal. https://t.co/HPEkfVnpEI
+     🖼  photo: https://pbs.twimg.com/media/HVlCffrbIAAR5GU.jpg
+     🖼  photo: https://pbs.twimg.com/media/HVlCi4saEAEmfer.jpg
+
+  6. 2114835063963828372  @financialjuice  2026-10-26T21:42:25.000Z
+     │ OpenAI: Our system has recently demonstrated that the exponential time hypothesis is false - website
+
+  7. 2114797550733561939  @nickgerli1  2026-10-26T19:13:21.000Z  [DIG: media, link]
+     │ One of the biggest downtown housing crashes in America is happening right now in Nashville, TN.  Condo owners are liquidating. And people who bought near the peak are selling at $300k+ losses.  The previous condo owner bought it for $1.15 million in March 2024.  And just sold it for $825,000 this month.  That's a $325,000 loss (-28%) in just 2.5 years. And that's before realtor commissions and other expenses.  And this downturn will likely continue, as Downtown Nashville has the biggest supply pile-up of any dowtown area in America. (inventory 110% above normal).  In fact, typical values in Nashville 37203 already down 11.2% from peak, but clearly are dropping more in some cases.   Meaning condo sellers are facing an enormous amount of competition, with more price cuts likely coming in 2027.  Good news if you're looking to scoop up a discounted condo. Bad news if you bought near the peak.   To see our forecast for your ZIP, go here: https://t.co/kaQQjtRPF8
+     🖼  photo: https://pbs.twimg.com/media/HVlD3DbW8AEq-x9.png
+     🔗 https://www.reventure.app/map/WAxwklIfgI
+
+  8. 2114813975229784464  @Polymarket  2026-10-26T20:18:37.000Z
+     │ JUST IN: Intel to acquire Israeli quantum computing startup Classiq. — Bloomberg
+
+  9. 2114828665796366414  @unusual_whales  2026-10-26T21:17:00.000Z
+     │ Trump has said Norwegian immigrants are not welcome in the United States because the Nobel committee, based in the capital Oslo, has not awarded him a Peace Prize, per Reuters
+
+  10. 2114803959089303970  @rdd147  2026-10-26T19:38:49.000Z
+     │ Yikes. Anthropic just pulled the exact accounting trick that companies did in 2000 bubble for IPO.  They hid all their expenses via convertible notes redeemable at IPO. $108 billion worth.  Dotcom firms often paid suppliers, ad agencies, lawyers and even landlords with stock or equity to save cash. AOL swapped shares for services and ads (e.g., Homestore, DrKoop). Telecom suppliers like Lucent, Cisco and Nortel used vendor financing, sometimes with equity or warrants, to drive equipment sales.
+
+  11. 2114804766434115900  @MTSlive  2026-10-26T19:42:02.000Z
+     │ SITUATION DETECTED: Anthropic recently delayed pre-training a new frontier base model for over a month to give itself time to ramp up security and prevent the model's weights from being stolen.
+
+  12. 2114811216510300317  @Nostre_damus  2026-10-26T20:07:39.000Z
+     │ Iran says can open the strait in 4-5 days if U.S. meets conditions at the request of Saudi Arabia, Turkey &amp; Pakistan   Just in time
+
+  13. 2114778104077910337  @OilHeadlineNews  2026-10-26T17:56:05.000Z
+     │ SAUDI ARABIA REPORTEDLY OFFERS HOUTHIS $1 BLN IN IRAN-BROKERED DEAL TO HALT ATTACKS – ISRAEL HAYOM
+
+  14. 2114804068728357299  @FirstSquawk  2026-10-26T19:39:15.000Z
+     │ IRAN IS OPEN TO A SHORTER US PROPOSAL TIMELINE IF CONDITIONS ARE MET - STATE TV
+
+  15. 2114803328807026869  @OilHeadlineNews  2026-10-26T19:36:19.000Z
+     │ US AND CANADA NEGOTIATE RELIEF FROM STEEL AND AUTO TARIFFS  The US and Canada are reportedly negotiating a deal to ease tariffs on Canadian steel and automobiles, potentially before the November 3 midterm elections.
+
+  16. 2114800884509200642  @WarMonitor3  2026-10-26T19:26:36.000Z
+     │ Jordan has just bombed Southern Syria Islamic extremist hideouts who were involved in the terrorist attack last week on the Greek Church.
+
+  17. 2114438070632149446  @HormuzLetter  2026-10-25T19:24:55.000Z
+     │ BREAKING: US and Israel are heading toward a joint military campaign against Iran that may start in the coming days, and is expected to go beyond strikes on the nuclear, missile and energy programs to target ports and other facilities, per multiple US officials to i24NEWS.
+
+  18. 2114775282460586013  @RT_com  2026-10-26T17:44:52.000Z  [DIG: media]
+     │ ENORMOUS rig CAPSIZES and SINKS off Gabon’s coast in dramatic footage   RIG SLOWLY LOSES STABILITY before GOING DARK and DISAPPEARING BENEATH SEA  110 RESCUED, 1 KILLED and 4 MISSING https://t.co/SvMmcps6YP
+     🖼  video: https://pbs.twimg.com/amplify_video_thumb/2114775204421353473/img/tp4mjYeLljs59wL3.jpg
+
+  19. 2114773678638641475  @MTSlive  2026-10-26T17:38:30.000Z
+     │ SITUATION DETECTED: Keystone confirmed that an attacker breached its website and stole customer data on ~26,000 buyers, as well as the permanent WebAuth key used to verify genuine devices.
+
+  20. 2114697804555636839  @unusual_whales  2026-10-26T12:37:00.000Z
+     │ Only 2.2% of mortgaged homes are underwater, per Goldman Sachs.  In 2008, it was roughly 1 in 4.
+
+  21. 2114748370954985906  @Amanda_Goodall  2026-10-26T15:57:56.000Z  [DIG: media]
+     │ $MSFT offers 60,000 employees a voluntary exit.  60K Y’all!!   First time this has ever been offered at Microsoft and it will affect employees in India, The United States, Canada, and the UK at level 70 or below…   Employees find out in a few hours if they are being targeted for this.   This just makes me think that H127 layoffs sound intense. Is this a pre-layoff round?   Also makes me wonder if they changed some scheduled layoffs due to be called out by @VP. Peace offering? 🤔 Timing is just interesting.   More to come.
+     🖼  photo: https://pbs.twimg.com/media/HVkYb1zbIAAYlJ8.jpg
+
+  22. 2114742518713921577  @negligible_cap  2026-10-26T15:34:41.000Z
+     │ *MICROSOFT TO OFFER BUYOUTS TO 60,000 WORKERS IN LATEST COST CUT  This is 27% of $MSFT's entire workforce
+
+  23. 2114552626608009384  @zerohedge  2026-10-26T03:00:07.000Z  [DIG: link, pointer]
+     │ "The Tail Is Wagging The Dog": 0DTE Traders Now Suppress S&amp;P Volatility More Than Dealer Gamma https://t.co/DFQHa0twq9
+     🔗 https://www.zerohedge.com/markets/tail-wagging-dog-0dte-traders-now-suppress-sp-volatility-more-dealer-gamma
+
+  24. 2114548038660157690  @ReutersBiz  2026-10-26T02:41:53.000Z  [DIG: link]
+     │ Japanese companies are moving to pay compensation to users following waves of cyberattacks that have disrupted internet services and raised concerns about economic stability. More here: https://t.co/zQ8DMPqSgS
+     🔗 https://reut.rs/4zObwCN
+
+  25. 2114455149670228337  @KobeissiLetter  2026-10-25T20:32:47.000Z  [DIG: media]
+     │ The US junk bond market is under severe pressure:  The effective yield on US CCC-rated and lower-rated high-yield corporate bonds is up to 18.0%, its highest level since the 2020 pandemic.  This figure has surged +500 basis points over the last 6 months, marking its largest 6-month increase since the 2022 bear market.  For perspective, this yield peaked at 45.0% during the 2008 Financial Crisis.  Meanwhile, credit spreads for CCC-rated and lower corporate bonds over Treasuries are up to 13.4%, the widest gap since July 2020.  Over the last 6 months, this gauge has risen +464 basis points, surpassing the 2022 bear market peak of 12.8%.  Cracks are widening beneath the surface of the credit market.
+     🖼  photo: https://pbs.twimg.com/media/HVeqNP_XIAArL0B.jpg
+
+  26. 2114412761254093168  @TheHackersNews  2026-10-25T17:44:20.000Z  [DIG: media, link]
+     │ ‼️ WARNING - A researcher just dropped a report on Tailscale SSH flaws — one compromised device could get root on others, and there’s NO PATCH yet.  In lab tests, SSH port forwarding enabled privilege escalation and lateral movement across already-permitted devices.  Tailscale says a fix is coming.  Read - https://t.co/0wcJTvDoxV
+     🖼  photo: https://pbs.twimg.com/media/HVfnMezbQAAS0J_.jpg
+     🔗 https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html
+
+  27. 2114403563199778975  @HormuzLetter  2026-10-25T17:07:47.000Z
+     │ BREAKING: Pentagon prepares every major US military base to operate for at least 90 days without outside electricity, fuel, water or supplies, anticipating a major war that could cripple power grids, break global supply chains and threaten critical infrastructure on US soil, per Fox News.  The plans include portable nuclear reactors, large-scale battery storage and microgrids able to disconnect installations from the civilian electrical grid entirely.
+
+  28. 2114361192080973940  @The_Cyber_News  2026-10-25T14:19:25.000Z  [DIG: media, link]
+     │ ‼️  Tailscale SSH Flaws Could Let Hackers Gain Root Access Across Servers   Details: https://t.co/BLfO3GLSaZ  A new security report warns that Tailscale SSH has flaws that could let a hacker move from one compromised device to root access on other servers. Tailscale SSH lets approved devices log in to each other over a private network. The report lists 11 findings in five groups.  They cover Tailscale’s SSH server, its serve and app connector features, the DERP relay client, and headscale, an open-source server that manages Tailscale networks.  The researcher tested Tailscale 1.104.2 and headscale 0.29.5 between October 22 and October 24, 2026. The most serious group involves Tailscale SSH. Its SSH server runs inside tailscaled, a background program with full root privileges on the machine.  #cybersecuritynews
+     🖼  photo: https://pbs.twimg.com/media/HVe4Svxa8AEs7XI.jpg
+     🔗 https://cybersecuritynews.com/tailscale-ssh-flaws/
+
+  29. 2114353369481461799  @LeadingReport  2026-10-25T13:48:20.000Z
+     │ Pentagon prepares major U.S. milıtary bases to operate for 90 days without outside support, including civilian power grids and global supply chains, per Fox News.
+
+  30. 2114411395320307877  @harris_edouard  2026-10-25T17:38:55.000Z
+     │ Been hearing major banks have been prepping this way for the past several months as well https://t.co/ZXEGIE0CjA
+
+  31. 2114407402611077335  @WBC24News  2026-10-25T17:23:03.000Z  [DIG: media]
+     │ Possible ammonia tank explosion reported at a seafood processing facility in Newport, Oregon, with evacuations underway. https://t.co/qsPbnER8lE
+     🖼  photo: https://pbs.twimg.com/media/HVfiU0fW4AAYp8q.jpg
+
+  32. 2114127244801286494  @TheInsiderPaper  2026-10-24T22:49:48.000Z  [DIG: media]
+     │ JUST IN - Explosion reported at Quaker Oats factory in Cedar Rapids, Iowa  https://t.co/waXUhu9ybt
+     🖼  video: https://pbs.twimg.com/amplify_video_thumb/2114121009720664064/img/3HF156evQP81sxwr.jpg
+
+
+Bookmark receipt — 2026-10-27T00:33:17Z
+Fetched 32 item(s); review is not yet recorded.
+Returned traversal complete through its recorded head check; this is not owner consumption or a remote snapshot guarantee.
+Latest head check: 2026-10-27T00:33:16Z
+After routing: create --review-template <new-file.json>, fill read states/dispositions, then --mark --review <file.json>.

@@ -1,0 +1,192 @@
+
+FILE: AGENTS/CORAL/STATUS.md
+# CORAL — Florida Real Estate Stress Monitor
+## Comprehensive Florida Agent | 10 pillars (real estate · insurance · banks · migration · tourism · fiscal · labor · climate)
+
+**Last Updated:** 2026-10-21 23:1x ET (Wed, **coral-1021b**, PROME prome-56 commission **DOCKET L784** — FEMA cost shift and Florida; Will 22:46 ET): ⭐ **L784 delivered → `research/2026-10-21_L784_fema-cost-shift-florida.md`** — no FEMA letter exists in public (POLITICO 10/20 read: remarks on a recording + an internal 10/15 memo, PRESS-ORIGINAL); written blueprint = FEMA Review Council report 5/7/26 (PRIMARY: PA indicator $1.94→$2.99, PA share 50% floor needs Congress). **FL exposure:** EPR Fund **$163.1M (9/1)** vs reserves **$16.2B**; Citizens and FHCF **$0 direct** (FEMA pays no insured loss); first test = **FL's Isaias DR request (PA 15 / IA 8 counties, ~10/15), pending — hard check 10/30**. **Inbox:** PROME WQ-475 RULED A consumed → OQ §A2 now the ruled letter (identity = data date of one build; current series from reading #11; **9/13 stand-down STANDS**). Prior: 10/21 22:13 ET (coral-1021, reading #10 + L227 → § V; header verbatim → § W0) · 10/15 → § U · 10/9 → § T.
+
+**File map (read-cap split 2026-09-02; rotated 2026-09-28):** **`STATUS.md`** = state, colours, live levels, every owed action (boot-read whole) · **`STATUS_DETAIL.md`** = evidence rows, sources, vintages, basis caveats — **§ "2026-09-28 session evidence"** for today; § "2026-09-13 STATUS hot-surface blocks — ROTATED" holds the 9/13 blocks verbatim (crc `5ff2d9aa`) · **`archive/STATUS_SESSIONS_20260721-20260823.md`** = session narrative 7/17→8/23. **State disagreement ⇒ this file wins; provenance disagreement ⇒ `STATUS_DETAIL.md` wins; either is a defect to fix.** · **`TRADE.md`** = DECLARED FLAT (9/28) · **`tools/bkcy/`** = bankruptcy instrument.
+
+---
+
+## THESIS RAILS — "The Coral Bleaching"
+
+Mechanism, rails, timing gates → `thesis/THESIS.md` v1.1. **Household/condo stress confirmed; bank-loss transmission NOT confirmed.** Falsify grade **2026-11-15**, baseline **1.5 of 6**, pre-registered rule (≥4 ⇒ 🟡 candidate · 2–3 ⇒ hold · ≤1 ⇒ 🟠 unqualified; no rewording at grading). **Directional notes for 11/15 (not grades) → `STATUS_DETAIL.md` § P.**
+
+---
+
+## SIGNAL DASHBOARD — HOT (state + level + vintage). Evidence → `STATUS_DETAIL.md`
+
+| Channel | Level (dated) | Status |
+|---|---|---|
+| **🟠 MSI supply-side leg** | **Reading #10 (Parcl data date 10/20; tile build 2026-10-21T09:11Z): 4-of-5 > 6.00** — Tampa **7.22** · Punta Gorda 6.31 · North Port 6.35 · Lakeland 6.16; **Cape Coral 5.88 (< 5.90, first sub-band value on any CORAL reading)** ⇒ re-fire reading fails, clock at zero; stand-down N/A (leg 🟠). Storm-unflagged (S2 not met; window closed). ✅ **Instrument basis RULED (WQ-475 A, Will 10/21 22:46 ET) → OQ §A2**: identity = data date of one build; current series from #11; 9/13 stands. Stood down 9/13; letter → OQ §A; evidence § V1 | 🟠 |
+| FL foreclosure — H1 cumulative | #1 of 50, **0.27%** (ATTOM, 7/17) — ⚠️ not refreshed since 7/17 | 🔴 |
+| FL REO completions | FL Q1 **1,014, +108% YoY**; nat'l H1 +33% | 🟠 |
+| Condo/TH median (**mix**) | **$293.5K, −1.8% YoY (Sep)**; avg **$470.5K, +8.6%** (right tail fattening); sales **7,179, −0.1%**; 3Q median $295K flat, sales +3.1% | 🟡 |
+| Condo realization / velocity | orig-list **93.3% vs 92.1%**; contract **65d vs 77d** (Sep) — both FIRMER, 2nd straight month | 🟡 |
+| **FL statewide SF, constant-quality** | **+1.68% YoY SA (Jul, FMHPI FL)** — excludes condo/co-op/PUD, conforming only | 🟡 |
+| SF median (**mix**) | **$415K, +1.2% YoY (Sep)**; 4.4 mo; sales **−3.5%**; new pendings **−7.6%** (2nd negative month) | 🟡 |
+| Condo inventory (statewide) | **7.7 mo (Sep; 9.1 a year ago)**; active listings 60,367, −9.0% — ⚠️ trailing-12 sales denominator | 🟡 |
+| Condo inventory (metro) | Miami-Dade **12.3 mo (Sep)** — median $417,090 −0.69% · inventory 11,706 −7.24% · sales 909 vs 904 · contract 67d vs 75d · cash 49.4% (MIAMI REALTORS 10/16, via HOMER, re-read at primary 10/21; Aug 12.1 as published, no MoM inference) · Broward **9.9** · Palm Beach **6.7** (Aug, not refreshed) — ⚠️ PB's prior 8.2 (Apr) basis unverified, no trend asserted | 🟠 |
+| **Redfin sellers-vs-buyers (Sep, modelled buyers; snapshot 10/07)** | Miami **158.9%, #1 of 50, +37.1pp YoY**, condo-led, on **modelled buyers −25.0%** vs actual pendings −2.7% / closings −3.6%. ⭐ **Refuter checked 10/21: MIAMI REALTORS Sept Miami-Dade CONDO sales +1% (909 vs 904) ⇒ the −25% is NOT corroborated** (perimeter: condo leg vs Redfin all-residential) ⇒ Miami #1 = model swing. Orlando uncorroborated 2nd month → § U4 | 🟠 |
+| SE-FL vintage (30+yr) pending $/sf | **$313, −9%** — ⚠️ STALE since 7/13 | 🟠 |
+
+FILE: AGENTS/CREED/STATUS.md
+# CREED STATUS
+
+**Updated:** 2026-10-22 (Thu) 17:35 ET — **evening addendum:** WQ-494 settled (Trepp PARKED; **RSNRES adopted as `VX-8.01`**, `KB-074`; ABS-EE after the October print; pension route added). No score moved. EARLIER 13:46 ET — **sweep follow-up** (Will 13:19): read-cap rotations (STATUS/CHANGELOG/SCOREBOARD under 70%) · **`registry/PREREG_2026-11_TREPP_PRINT.md` written (October print decides `T-01a`)** · PREREG_2026-10 F2 graded NOT TRIGGERED · KB 064–073 · VX 4.04/7.03/10.01/10.03 refreshed. No score moved. EARLIER 13:17 ET — **Will-directed sweep, six fixes** (THESIS row 2 + COVERAGE lanes 2/3/6 to September; SCRATCH refi block; PRED-002 note; CLAUDE.md archive path + trap 3; test C1; `MAINTENANCE.md` 10/22). No score moved. EARLIER 12:25 ET — **Will-launched boot + CRE leg of Will's 005 (HY widening → CRE?)**: securitized CRE spreads **held** through 10/16 (CREFC, PRIMARY-READ); the refinancing cost rose via the **10y**, not junk spreads; commercial mREITs −16.6%/21 sessions (1.6th pct since 2021) but only −4.3pp vs agency mREITs = **rate-type, not credit-type**; Ladder Q3 book value up. KB 60 → **63**. **No band, score, trigger or prediction moved; 27/45.** Record: `research/2026-10-22_HY_TO_CRE_REFI_READ.md`. PRIOR: 2026-10-21 (Wed) ~23:05 ET — **WQ-472 bounded catch-up** (Will 22:46 ET: *"Approve 472 A …"*; PROME prome-56 spawn; dark 10/01 → 10/21). Drain **37/37** every sender · **Trepp September graded: office DQ 12.16 = `T-01a` LEG 1 of 2 (not a fire; October decides); office SS 16.85, `T-01b` not fired** · S8a re-anchored **−11.48pp TR [10/21 close]** · DOCKET L723 pre-read (450 5th St NW, auction 10/28) · cases 137 → **154** · KB 56 → **60**. **No band, score, trigger or prediction moved; 27/45.** Record: `catchups/2026-10-21.md`. PRIOR: 2026-10-01 (Thu) early — the 9/30 → 10/01 night session (case ledger v4, loss-holder map, S8a 9/30); record `catchups/2026-09-30.md` §⑨–⑩. *(The full prior header chain lives in git history of this line and in `catchups/`.)*
+**Status:** 🟠 **ELEVATED** (re-checked 2026-10-21) — base case *selective CRE recognition accelerating* **HOLDS.** Convergence **27/45 (60.0%)** — S8a 2 → 4, **Will-ruled 2026-09-28** (WQ-303). ⚠️ Caveat travels: the S8a fire was rate-led (10y 4.38 → 5.18% official [9/24]; 5.15% ^TNX proxy [10/21]). ⚠️ **Broad CRE-to-bank transmission is not confirmed** (`T-03` not fired; next test FDIC Q3 QBP ~late Nov).
+**Tier:** 2 (spawned-as-needed). **Cadence declared EVENT-DRIVEN 2026-09-26** (PROME packet). Do not spawn without explicit Will permission.
+**Owner:** CREED after boot; PROME owns future topology/migration decisions only with Will approval.
+**▶ 🔴 FIRE IN FORCE — `CREED-T-08a` (S8a, VNQ vs SPY 3-mo TOTAL-RETURN `< −10`), effective 9/24, adjudicated 9/26.** A rate fire first (10y 4.38 → 5.18% on the original window; FOMC +25bp 9/16). ✅ S8a = 4 (Will, 9/28; held 9/30). 🆕 **Re-anchored 2026-10-21: 10/21 close −11.48pp TR (10/20 −9.15 TR / −12.02 price-only); 11 of 14 sessions 10/01–10/20 below −10; 10-session σ to 10/20 1.01pp.** The 10/20 → 10/21 step = −1.35 end move + −0.98 window roll. 10y 5.15% (^TNX 10/21 close, proxy). ⚠️ yfinance's 10/21 VNQ bar was intermittent (2 of 4 pulls; $91.49 matches `fetch.py`). Record: `registry/CREED_T_FIRED_LOG.tsv` · `VX-CREED-7.01`.
+**▶ 🔴 PRIOR FIRES:** `CREED-T-02` (S2, effective June, fired 8/20) — **spent**; Aug 81% and Sep 68% shares are not re-fires (re-checked 2026-10-21). `CREED-T-06b` (SREIT gate, effective 4/29, fired 8/27) — **S6 HELD at 3, Will-ruled**; count still 1 after a positive-controlled census (never written as corroborated beyond that census).
+**▶ NOT FIRED:** 🆕 **`T-01a` office DQ 12.16 [Trepp Sep] — LEG 1 OF 2: the clock has started; October decides** (October print ~early Nov; fires only at ≥ 12.01; graded on `registry/PREREG_2026-10_TREPP_PRINT.md` §6). ⚠️ `threshold_scan` prints `T-01a` as TRIPPED because it compares one print to the band and does not model the sustain-2 leg — graded at primary as leg 1, not a fire. · `T-01b` office SS **16.85 [Sep]**, 115bp away, moved away 5bp · `T-03` level leg suspended; Q2 not fired (Q3 QBP ~late Nov) · `T-08b` not re-graded (cohort census not re-run, UNAVAILABLE as current).
+**▶ PREDICTIONS (re-checked 2026-10-21: none due; `PRED-001` office DQ >12 for 2 prints is at 1 of 2 after September, resolves by 12/31; Kernel-pinned row untouched) — 9/29 evening: `PRED-006` RESOLVED-FALSE (30%, Brier 0.09; MBA life +$7,830M < +$10.0B) · `PRED-010` PARTIAL, not scored (Will) → mean Brier 0.279, n=6, 4/6 correct side.** Earlier (9/28, WQ-304 option B): `PRED-CREED-004` **HIT** (60%, GPMT review 9/23, Brier 0.16) · `PRED-CREED-007` **MISS** (15%, S8a fired, Brier 0.7225) — graded on CREED's own ledger; **mean Brier 0.30625 → 0.37375 (n=4, 2/4 correct side)**. 🆕 **9/29: `PRED-CREED-005` HIT** (70%, ARI dissolution approved — For 72,217,727 / Against 799,088 / Abstain 439,400, 8-K Item 5.07 same day; Brier 0.09) → **mean Brier 0.317, n=5, 3/5 correct side.** Not Kernel-pinned — no divergence on this row. First-distribution amount/dates NOT yet declared. ⚠️ **The Kernel ledger still shows both OPEN until a Gate C sitting settles them** (no live window; carve-out ④ inactive) — a stated divergence, not an error.
+**▶ ANALYSES 9/26 (evening; ⚠️ RaDD, Horton and 10 Prospect readings superseded by the 2026-10-21 addenda in both property files):** `research/2026-09-26_CRE_VULNERABILITY_MAP.md` (refinancing ≫ cash flow; AMTB label corrected) · `research/2026-09-26_REGINALD_TOP3_PROPERTY_TEST.md` (3 anchor fixes adopted by REGINALD; 3 CREED claims corrected). Detail → catch-up §⑧.
+**▶ 🆕 NANO BANC (failed 9/25) — DELIVERED 9/27, NO LETTER MOVES:** `analysis/2026-09-27_nano-banc-collateral-read.md`. Retained ≈ $215M (9/22 base), likely ≈ $190M of loans (INFERRED); named credits are litigated, several SECOND liens, Inland Empire/LA County retail + medical office + small MF. Cites REGINALD's ≈ $120M ≈ 17% desk scenario. 🆕 **2026-10-21: the retained-pool allocation is now REGINALD's ≈ $70–90M ≈ 32–42%** (FDIC bid summary ~10/08: Pools A and D retained, B 82.30% / C 80.17%; the old 51–56% zero-adjustment scenario is superseded; REGINALD's 10/09 report §2 is canonical; the P&A may never give loan-level detail — DEWEY 10/14). FDIC sale comp registered as **DOCKET L515** (check-by 2027-06-25); **record lien position**; most likely NOT a T-06 member. `KB-CREED-041` (CMBS severity comps) / `042`.
+**▶ NEXT SESSION:** 🔴 **DOCKET L723 — Wed 10/28 450 5th St NW auction:** grade below `research/2026-10-21_L723_450-FIFTH-NW_PREREAD.md` §5 (PROME reads the outcome; CREED's launch is Will's word) · **Trepp October DQ (~early Nov) decides `T-01a`** (leg 2 needs ≥ 12.01; `PRED-CREED-001` is Kernel-pinned — never edit its row without Will) · Trepp October SS (~mid-Nov) · FDIC Q3 QBP ~late Nov (`T-03`, DOCKET L514) · Nano P&A / sale (L515) · mREIT Q3 cohort census (VX-10.x UNAVAILABLE until re-run) · 3000 Post Oak B18/C9 September 10-D losses (SCRATCH). Earlier list → `catchups/2026-09-30.md`.
+---
+
+## Instrument state — re-stamped 2026-10-21 (WQ-472). One row per live instrument; UNAVAILABLE = not refreshed this session, with the reason.
+
+| Instrument | Value [as-of] | State 2026-10-21 |
+|---|---|---|
+| VX 1.01–1.06 Trepp DQ by type | office 12.16 · overall 8.02 · MF 8.04 (HOMER's) · retail 6.58 · lodging 6.18 · industrial 1.14 [Sep] | ✅ REFRESHED (PRIMARY-READ) |
+| VX 2.01–2.03 Trepp SS + spread | office 16.85 · overall 11.49 · spread 4.69 [Sep] | ✅ REFRESHED |
+| VX 3.01 / 3.04 / 3.05 maturity | mat-adj 9.66 · NPMB share 68% [Sep] · $ series stays $3.96B [Jul] | ✅ REFRESHED · 3.05 UNAVAILABLE for Aug–Sep: no $ total printed in the text read |
+| VX 3.02 hard maturities 2026 | $76.6B [9/26] | CARRIED — the full-year cohort; Oct cohort ($4.7B) logged as KB-058, a different perimeter |
+| VX 3.03 total maturities | >$100B [Morningstar DBRS, 7/27] | UNAVAILABLE as current — not refreshed since 7/27 |
+| VX 4.01–4.03 FDIC QBP | 2.48 · 145.6 · 1.44 [Q2] | CARRIED — Q2 is the latest print; Q3 QBP ~late Nov |
+| VX 4.04 OZK special mention | SM $303M (−$313M), crit+class $995M (−22%), OREO $420M (+43%) [Q3, OZK desk] | ✅ REFRESHED 10/22 (cited, OZK-owned) · ORANGE → YELLOW · KB-073 |
+| VX 5.01 forced-sale cluster | [8/27] | UNAVAILABLE as current — not re-assessed |
+| VX 5.02 ARI clearing price | 99.7% [4/24 close] | CARRIED — a closed event |
+| VX 5.03 fund gates | 1 [9/26 census] | UNAVAILABLE as current — census not re-run; Two Sigma (10/16) is not a gate |
+| VX 6.01 MF term default | HOMER-graded | HOMER's instrument |
+
+FILE: AGENTS/CRUISE/STATUS.md
+# CRUISE — STATUS
+
+*Last updated: **2026-10-25 23:45 ET** — PROME-authorized stale-file Phase2 repairs and bounded price/cancellation checks. Source dates remain distinct; full result: `research/2026-10-25_stale_sweep_phase2/RESULT.md`.*
+
+**SESSION CLOSED AT WILL'S REQUEST (October 25).** Research stops here. PROME independently verified the main `25caf23ae` repairs; **full sweep acceptance remains pending two local follow-ups**, explicitly deferred under its stop instruction. Resume from `inbox/2026-10-25_from-PROME_stale-sweep-final-two-fixes.md`: fix VX04 Source's malformed `phase 2` evidence path, then supersede the historical zero-count wording in the Consumer/Gulf dashboard row. The accepted current VX04 is YELLOW(2); no fresh owner research or rule change is needed. Closeout receipt: `research/2026-10-25_closeout.md`.
+
+## October 25 — Stale-file repairs and missed Gulf trigger
+
+- Live VX03 operating/causal evidence and VX05 financing access/basis claims reconciled to existing primary work; KB successor links repaired, including five invalid CURRENT statuses. WATCH remains 3/no card; forecasts and thresholds unchanged.
+- **Newly recovered historical event:** NCL Sky September 9 Piraeus-to-Middle-East itinerary cancellation, operator statement reported August 5. One identified itinerary triggers existing **VX04 GREEN(1) → YELLOW(2)**. Original guest letter not directly recovered; B2 reporting, exact-send-date and full-basket/denominator limits remain explicit. Delayed detection, not a new October cancellation. No measured fare, profit or port-spending loss inferred.
+- **October 23 closes:** CCL $26.11 / RCL $276.48 / NCLH $15.10, raw Yahoo prices retrieved October 25 ET. CCL −23.18% versus fixed raw $33.99 ⇒ ORANGE(3) held. Same-vendor adapters agree. CRU11 October 19 interim stays dated and ungraded.
+- CCL completed watch frozen; current operator/tape/source labels corrected. R0 approval versus unverified root implementation, signed-band ambiguity/VX02 re-spec, actual liquidity, port-source limits and WQ504/L815 remain open. No helpers, new program, trade or future-event completion.
+
+## October 25 — Four-port publication pass complete
+
+| Newly recovered evidence | Interpretation / limit |
+|---|---|
+| **Canaveral FY2026 multi-day movements 9,176,706 vs 8,602,047 (+6.68%); September +15.60%** | Actual staff statistical attachment recovered from October 28 public agenda before meeting. Includes embarking/debarking/transit, not unique travelers. Calls +5.44% FY; no berth-day or fare inference. KB-CRU-190 |
+| **Miami September 653,705 vs 549,218 (+19.0%); Jan–Sep +25.8%** | October 18-prepared GMCVB port-sourced monthly table now recovered; definition split unavailable. Matched calendar periods, not final FY2026. Annual source reconciliation remains open. KB-CRU-191/194 |
+| **Galveston Jan–Sep passenger turns 2,809,406 (+8.8%), 3.7% below budget** | Calls +7.4%; December year-end, source turn label retained. New Orleans current counts not recovered from checked public finance/board routes; older CY2025 is not FY2026. KB-CRU-192/193 |
+| **RCL/NCLH earnings readiness confirmed** | Frozen RCL card unchanged. Companion `research/2026-10-25_ports/EARNINGS_READINESS.md` carries actual-cash/drawability, deposits/OCF, capacity/pricing and implied-Q4 distinctions; CADENCE links it. Dates unchanged; no early grade. |
+
+**So what:** three distinct port comparisons still show physical growth; they do not identify demand versus added capacity, realized fares, profit or employment. No combined port index, trade or score change. Full definitions, source table, missing periods and arithmetic: `research/2026-10-25_ports/RESULT.md`.
+
+## October 25 — Published-evidence catch-up (PROME direction c093e462c)
+
+| Finding | Consequence / limit |
+|---|---|
+| **New contract detail: drawings above $2,486M require Amendment 3 §1.05(a)/(b) collateral steps** | Full nominal $2,801M commitment is not certified drawable capacity. Completion evidence unresolved; no breach inferred. KB-CRU-188; `research/2026-10-25_catchup/RESULT.md` |
+| **NCL current 50%-off advertising verified; UBS promotion-led bookings report remains secondary** | Official offer October 23–26 is real, but advertised reference prices need not be realized sales. No measured fare collapse or new Caribbean-contagion finding. KB-CRU-183/184 |
+
+FILE: AGENTS/CYPHER/STATUS.md
+# CYPHER STATUS
+
+**Last Updated: 2026-10-23 17:1x ET — WALTER 041/044/045 + 5 inbox packets processed: GitLab CVE-2026-110264 (CVSS 10, no-login code execution, patched 10/21, not exploited) and Node.js CVE-2026-111497 ledgered as DISCLOSED, off-root, KEV-watched; Korea 16-firm breach upgraded to CONFIRMED on CYPHER's own read of the FSC release; 4 leak claims triaged; no escalation row fired.** Earlier 10/23 (15:1x ET): KITEWORKS CONFIRMED AFFECTED by PHP2Shell (P1 victim check 11/06); CYP-03/04 registered; CHOKEPOINT MAP built (32 rows, Will option A), boot.py leg 9 (8-K 8.01 cyber) + drill suite repaired 29/29, Comodo/Java question answered (FL-CYP-20), Oracle CVE-2026-91403 folded into CYB-INC-009, CYB-INC-024 (Anthropic/AISI Mythos 5 test incident).** Evidence records: `research/2026-10-23_evening-intake-record.md` (this session) · `research/2026-10-23_chokepoint-map.md` · `research/2026-10-23_news-sweep-and-relay-pattern.md` · `research/2026-10-22_first-session-verification-record.md`.
+
+> ~~FIRST-LIVE-SESSION BANNER~~ — **SPENT 2026-10-22.** `FIRST_SESSION.md` items 1–8 done or carried as listed under § First-session record. Normal boot from here.
+
+## Current judgment
+
+**WAVE-2026-10 is open and reads MECHANICAL so far (Log4Shell-shaped). Not one of the nine escalation rows has fired (rows 1-8 re-checked 2026-10-23; workbook brought current 15:5x ET: KB-CYP-022..031, CYB-INC-025, VX evidence, EXIT_PROTOCOL context note).** PHP2Shell (CVE-2026-109618 / -109619) is **ATTEMPTS-ONLY**. Exploitation attempts are confirmed: AWS MadPot from 10/17, before the 10/21 disclosure, and watchTowr honeypots since 10/21; Bitdefender and Huntress telemetry see none, and Sansec says public exploits fail on a default PHP install (vendor claims). No named organisation has a confirmed successful compromise. The Dutch NCSC is "investigating first signals of successful misuse" (primary, page unchanged since 10/22 16:01 CEST at the 10/23 07:3x ET re-read) and names no victim. **New reach (primary, 10/23):** Palo Alto says PAN-OS, Panorama and WildFire WF-500 are affected; hotfixes due 10/26–10/30, Panorama / WF-500 "ETA: TBD"; no exploitation known against its products. **That is weak evidence, not an all-clear.** Pre-disclosure exploitation plus a low-footprint exploit (KB-CYP-012) is the MOVEit shape, where victims surfaced at +14 days. The prior from five past waves is mechanical for banks (KB-CYP-001: 0 of 5 caused a run, a failure or a central payment outage).
+
+| Gauge | Reading (2026-10-22; re-checked 2026-10-23) | Canonical |
+|---|---|---|
+| Escalation rows, WAVE-2026-10 | **9 of 9 NOT-FIRED** (row 5 adjudicated NOT-FIRED on the NYDFS 10/22 letter, routine patch guidance) | `workbook/ESCALATION_WATCH.tsv` |
+| Convergence composite | **21/40 raw · 15/40 shared-root-adjusted** (PHP2Shell root counted once across VX-CYP-02/03/06); broad YELLOW, no vector above 3 | `workbook/VX.tsv` |
+| Transmission map | 19 mechanisms: **7 CONFIRMED** (FL-CYP-06 ICBC FS and FL-CYP-18 NotPetya exclusions flipped tonight), 7 NOT-OBSERVED, 2 MODELED, 3 UNTESTED | `workbook/FLOW.tsv` |
+| Incident ledger | 31 rows: every seed re-verified at a named source; 021–031 added 10/23 (SBI and Korea PRIMARY-VERIFIED; GitLab 026 and Node.js 027 DISCLOSED at primary; 028–031 leak claims, 3 UNANCHORED) | `workbook/INCIDENTS.tsv` |
+| Predictions | **CYP-01** incidents escalate (8-K Item 1.05 ≥ 6 in Nov–Dec 2026) **30%**; **CYP-02** a named US bank / CU / core vendor compromised via a wave vector by 2027-01-31 **15%** (both Will's view, desk odds); **CYP-03** MSP-route bank/CU disclosure by 2026-12-31 **15%**; **CYP-04** new KEV CVE in MOVEit / GoAnywhere / Cleo / Kiteworks by 2027-04-30 **35%** (both from the chokepoint map, registered on Will's word 10/23 14:59 ET) | `workbook/PREDICTIONS.tsv` |
+| R1 two-way flip | Toward MOVEit: row 1 or 3 FIRES on or before 2026-11-20. Toward Log4Shell: rows 1, 3, 4 all NOT-FIRED at 11/20 with dated re-checks 11/13–11/20 | `workbook/EXIT_PROTOCOL.md` |
+
+## Chokepoint map (new 2026-10-23; canonical `workbook/CHOKEPOINTS.tsv`, method `research/2026-10-23_chokepoint-map.md`)
+
+| Reading | Value |
+|---|---|
+| Rows | 32: cores 6, digital banking 3, CU/data vendors 2, file transfer 4, MSP tools 2, identity / endpoint / cloud 3, FMUs and networks 7, ring-one finance-ops vendors 4, perimeter appliances 1 |
+| Wave_Touch | CONFIRMED 2 (ConnectWise / Storm-0940 + Axcient PHP portal fix, CHK-16; **Kiteworks affected by PHP2Shell, CHK-15**) · CONFIRMED-OFF-WAVE 1 (TruStage) · POSSIBLE 3 (PAN-OS PHP2Shell; GoAnywhere and Cleo Java tails) · NONE-KNOWN 11 · UNKNOWN-STACK 15 |
+| First match | Today's wave touches the map at its EDGES (perimeter appliances, MSP layer, file-transfer Java tails), not at a core or a market utility: fits MECHANICAL, except that the MSP channel is a confirmed live compromise with a late-surfacing victim shape |
+| Strongest deductions | File-transfer products are the repeat door (~1 mass exploitation a year, several pre-advisory); market-plumbing cyber hits land one ring OUT (ICBC FS, ION), and ring one's biggest node is Broadridge (21 of 25 primary dealers, VIA-SEARCH) |
+| Predictions | CYP-03 and CYP-04 REGISTERED 10/23 (see gauge table) |
+| **Kiteworks — answered 10/23 15:0x ET** | **Affected.** Own advisory (upd 10/22 12:30 PDT): PHP2Shell lets "an unauthenticated attacker ... achieve remote code execution"; Critical Update 9.5.3 "immediately"; **no exploitation statement either way**. File transfer + PHP attempts from 10/17 before disclosure + a Sept federal tip-off = the MOVEit-shaped combination, now confirmed as REACH, not as compromise. P1 victim check **2026-11-06**; REGINALD and GIBBS told (P2) |
+
+
+FILE: AGENTS/DAEDALUS/STATUS.md
+# DAEDALUS STATUS
+
+**Last Updated: 2026-10-24 — Will's research-depth, restart and shared-write investigation completed (Codex).** Pre-sweep STATUS preserved verbatim at `archive/STATUS_2026-10-23_before_sweep.md` (crc32 300895856).
+
+**Current judgment:** the architecture is coherent; current-state reconciliation and maintenance have lagged new builds. Preserve evidence and rules, reduce recovery ambiguity, and repair specific tooling gaps. Assessment: `runs/2026-10-20_ORGANIZATION_REVIEW.md`. **Recorded grade L4/M retained**, current bounded PR8 row re-cut October21; no L5 adjudication; AEOLUS whole profile refreshed October 21. Authority remains own directory/root scripts; other desks require express scope and idle target.
+
+Prior STATUS is preserved byte-for-byte at `archive/2026-10-20_ORGANIZATION_CLEANUP/STATUS.md.before`; original line/block hashes and all moved destinations: `runs/2026-10-20_CLEANUP_MOVEMENT_RECEIPT.json`. Historical next-work dates there do not supersede this page. Current continuation/recovery: `HANDOFF.md`.
+
+## Current work and next actions
+
+**October 24 investigation complete:** `runs/2026-10-24_RESTART_REVIEW/REPORT.md` and pinned measurements. DEWEY already has three research depths, but cold/thesis selection follows an unconditional context read; OTTO already permits a shorter specific-task startup. Five named prose sets measured; actual time/token savings unmeasured. L796/WQ-517 delivery-check defect reproduced in four isolated cases; PROME's concurrent perimeter repair not certified or edited. Existing trial/deferrals preserved; owner clarification and bounded restart comparison remain proposals, not standing work.
+
+**October 24 boot:** required whole reads completed; approvals WQ-506/507/508 recovered. Boot and inbox dispositions: `runs/2026-10-24_BOOT_ORIENTATION.json`. L816 acknowledged: October 30 L499 wording follow-up; PROME encodes, DAEDALUS owns the vocabulary/source text. No implementation started.
+
+October20 follow-through: scorecard/MARCO check complete; L736 writer repair reviewed; EVOLUTION rotated verbatim below stop threshold. That partial detection is superseded by October21 PR8/Staleness6 disposition records; the October20 record remains historical.
+
+00. **Done 2026-10-23: ISHM built** (US industrial / manufacturing-cycle desk, Tier-2, print-driven).
+    - **Path to the build:** WALTER's proposal → DAEDALUS review, four fixes, v2 cleared 09:31 ET (`design/2026-10-23_INDUSTRIALS_DESK_PROPOSAL_REVIEW.md`) → WQ-506 RULED APPROVE A (Will 09:35 ET, "yes approved go ahead") → named ISHM (Will 09:36–09:37 ET).
+    - **Commits:** scaffold `080fbc7d6` (18 files; 37/37 drills; 3/3 mutations caught; real boot rc 1, all true positives) and catalysts + DATA_ROUTES `b7ea7e120` (32 rows, 20 PRIMARY; ISM and S&P Global calendars blocked, so SECONDARY).
+    - **Registration:** ROSTER Tier-2 by PROME `10d1de252`; SUMMONS_LEDGERS registered by PROME; FLEET_MAP L0/M + directory committed; `corrections_boot_check ISHM` rc 0.
+    - **Packets:** WATT ASK (grid-equipment figure — WATT's charter does not claim it, its KB reads it; PAT-189) and CARL INFO (four seams), both committed.
+    - **Build record:** `builds/ISHM_BUILD_2026-10-23.md`.
+    - **Still open:** WATT reply; (bellwether earnings + J1 GDP/trade rows landed, 39 catalyst rows total); WALTER domain code + routing row (Will's sign-off); **WQ-507** (Will: shared surfaces + HENRY's `<47` trigger); first live session (PROME spawns).
+0b2. **Done 2026-10-23: Harness Audit #3 + WQ-508.** Delta re-test with 4 Opus readers (`runs/2026-10-23_HARNESS_AUDIT_3.md`, `cf0569f2a`): 139 lines re-tested (34 FIXED by owners), 132 new findings, 0 HIGH git weakening. The 10/08 batch had never reached a WQ row. **WQ-508 RULED APPROVE** (Will 10:27 ET, "ok approved"): R0 A (signal = external item via WALTER; a desk's own packet goes direct). 38 per-desk packets delivered; own lines + RAV charter + ISHM applied. **Direct apply (Will 10:39 ET):** 35 idle desks edited by DAEDALUS (f4149bf51 · 4da79f1ee · d3488e641), packets marked APPLIED. **Pending:** WALTER + TERRY apply their own (live, doorbelled); PROME's 23 lines at L817 (Sun 10/25); PROME's root insertions (R0 sentence, A-B01, A-B03) with a DAEDALUS counterexample read of the A-B01 record before insertion; A09 deferred. Sweep clock stays July 7 until the batch is applied.
+0a. **Done 2026-10-23: CYPHER registration closed.** FLEET_MAP L2/M (`57d0ffca1`); `corrections_boot_check CYPHER` now evaluates — rc 1 on COR-20261022-48, which is CYPHER's to receipt.
+0. **Done 2026-10-22: bank-cluster desk review** (Will-commissioned 11:16 ET) — four Opus readers, 82 findings, 10 cross-cutting (X1 no dated falsification after Q3 at 3 of 4 desks; X4 boots blind to `inbox/WALTER/`). `runs/2026-10-22_BANK_DESK_REVIEW/REPORT.md`; packet `PROME/inbox/2026-10-22_from-DAEDALUS_bank-cluster-desk-review.md`. Two time-sensitive items (FLG surprise threshold, WAL unprocessed signal) consumed by PROME 11:27 ET. Full packet CONSUMED by PROME 11:3x ET (verified at artifacts): X1+X4+X8 → DOCKET L793 (2026-10-29, PROME verifies at each desk's first wake after my X5/X6 batch); X7 → WQ-484 to Will, rec A — **RULED A by Will 12:11 ET in this session ("yes make OZK and WAL report into REGINALD"), PROME recorded it and applied `_NETWORK.md` L86–87 as directed edges (8ebc7e0a7, verified on origin); my batch adds a REGINALD consume/ACK step for OZK/WAL output**; REGINALD 10/13 outbox gap confirmed, late-consume record `PROME/inbox/processed/2026-10-22_PROME_late-consume_REGINALD-2026-10-13-outbox-packets.md`. FLEET_MAP rows re-cut, levels unchanged. **X5/X6 batch DELIVERED 12:2x ET by Will's direction (12:26 ET, "direct the agents directly"):** four inbox packets 888fe9a50 + doorbells to reginald-c1/ozk-0b/wal-b5/flg-45 + PROME informed; desks report to PROME citing L793; consumption not yet observed. **Still owed from it:** carry the lesson that a completion record goes to `PROME/inbox/`, not only the outbox; also carry WQ-485 A (Will 12:10 ET: ARGUS once per day at the last Standard closeout; contract classifies only PENDING foreign paths) where it touches desk text; fleet-tool fixes DONE 2026-10-22 (8b1012baf: ledger_staleness rule 11 + self-flag, selftest 40/40, 877-surface diff 0 flips; read_cap_check locative-top + enumeration chain + leading-verb step, selftest 131/131, heuristic fleet diff only WAL MEMORY.md added); NEW owed: `scripts/claim_check.py` counts an unsupported-suffix path as a clean file (HAWK reader C repro). Own doc-retirement checkpoint DONE early (41d249ce5: 11 moved, 16 kept, README). Scorecard (window ends Fri 10/23) and YUR-F01 (YURI can still make calls through 10/24) NOT run early — grading before the window closes would grade an incomplete window. **Desk L793 results verified at artifacts:** WAL 1d4d4210a, REGINALD f8405c6f2/55bcf6317 (+3 prediction drafts; DAEDALUS advised approve D1/D3, revise D2; Will approved all three 13:36 ET → REG-28/29/30, WQ-489 RECORD, verified at boot 18:1x ET), FLG b0987a2a5; OZK L793 CLOSED 4e31e34d3 (all four desks done; ⚠️ side effect of my batch: all four charters now past the 75% rotation trigger — OZK 31,456 B (97%), WAL 28,994, FLG 28,795, REGINALD 24,887 — hot/cold charter split owed at each desk's next round, packeted to PROME; recommended to Will that desk predictions need no per-row approval unless a trade or gate depends on them — awaiting his word; open residue: FLG post-Q3 kill-rail re-derivation, WAL charter items awaiting Will in-window, OZK SCENARIOS price ranges, READS rows with PROME) under the normal Will-visible batch.
+0b. **Done 2026-10-22 evening: CYPHER built** (cyber → markets desk; Will 17:04 ET to WALTER, name 18:19/18:2x ET, Tier-2 18:2x ET to DAEDALUS). Scaffold `18770981e` (14 files); build record `builds/CYPHER_BUILD_2026-10-22.md`; 22/22 boot.py drills, real boot rc 1 (one true positive). Registration changelist → `PROME/inbox/2026-10-22_from-DAEDALUS_CYPHER-built-registration-changelist.md`; routing boundaries → WALTER inbox; both doorbelled. **DONE 2026-10-23 (item 0a):** FLEET_MAP row + directory regen after PROME's ROSTER row; `corrections_boot_check CYPHER` now evaluates. Owner boundary packets deferred to CYPHER's first session by charter (named deferral). **Parity pass (Will 18:4x ET):** VX.tsv (9 vectors, UNSCORED by design) + FLOW.tsv (19 mechanisms from DEWEY) + shipped `scripts/test_boot.py` (25 tests, mutation-checked) + charter split to 22,775 B (70%); build record §5. WALTER's CYPHER routing LIVE — 57dfdc4da verified on origin (ROUTING_TABLE v0.45 `CYBER` row, FORMAT_SPEC v0.26).
+1. **Next: HOMER whole-profile refresh**, followed by WAL, BROCK, CREED, REGINALD, FALCON and MIDAS. AEOLUS (10/21) and HAWK (10/22, `runs/2026-10-22_HAWK_REFRESH.md`, owner packet in HAWK inbox; no independent final reader yet) are complete; seven of the accepted nine remain. Preserve full read/review scope and the CREED launch restriction.
+2. **Completed work:** October 20 organization cleanup, October 21 PR8/Staleness6 bounded maintenance, check-register review and RED duplication census. Do not repeat these as unfinished work. Delivery: `runs/2026-10-21_DELIVERY.md`; cleanup: `runs/2026-10-20_ORGANIZATION_CLEANUP.md`.
+3. **Owner follow-through:** L530, L628 and L748 are installed; CATO's L628 applied-result read remains pending. AEOLUS owner repairs are separately packeted, not completed by its profile refresh. Calendar tooling remains on-demand.
+
+FILE: AGENTS/FALCON/STATUS.md
+# FALCON STATUS
+
+**Updated:** 2026-10-26 17:36 EDT / 21:36 UTC, market-close sweep requested by Will. Runtime OpenAI GPT-6 / Codex; local session 01a17940-33df-7271-9eb4-3e42db57b396. [Evening evidence/report](reports/2026-10-26_evening-sweep.md). [Prior dashboard preserved verbatim](domain/sources/STATUS_before_2026-10-26_evening.md).
+
+**Closeout review:** 2026-10-26; supporting thesis/EXIT/VX references reconciled to this dashboard. Research cutoff remains 17:36 EDT; no new source claims added by the file review.
+
+## Current marks and authority
+
+| State | Disposition / evidence date |
+|---|---|
+| B / C / D | **1 / 14 / 85 HELD.** No new registered rung met. Last full weekly review October 21; next October 28. Convergence **43/50** retained, seven ceiling vectors limit sensitivity. Today's recovery of an old bulker sinking is not a new attack or tanker fire |
+| D75→85 | FIRED September 28 on FAL-05 route(c); immutable letter in EXIT_PROTOCOL archive. Cannot fire twice |
+| Production rung D 85→92 | REGISTERED October 1, WQ-355; ARMED, NOT FIRED. Counting source must establish hostile strike on Gulf-ally production-class facility from September 29. Pipelines/pumps/export terminals/refineries/offices OUT. Shaybah October 21 intercepted, debris outside perimeter, operations unaffected on MoE statement; later pumping/Yanbu claims do not establish a new facility hit |
+| Ship losses | **5 confirmed**, Cape Dao contest resolved October 26. Class(i)=1 dhow; class(ii)=2 Cape Dao/GFS PRIDE; class(iii-B)=2 Kylo/Riesco; class(iii-A)=0. IMO fetched today now says Sunk; NAVAREA 403/26 reports wreck and cancels 380/26. Bulker identity retained despite NAVAREA oil-tanker typo. WQ-431 existing class(ii) HOLD applies, no new re-mark. IMO 120 incidents/24 fatalities is a separate dataset, header October 22, not current-day count |
+| FAL-06 | OPEN at 70%, resolves November 5. Tests NET Gulf-ally crude/condensate supply; no new force majeure, qualifying production outage or vendor national-export failure established. Required dated search ON November 5. Route hit or single-terminal halt alone cannot fire it |
+| FAL-07 | OPEN at 65%, qualifying US offensive strike on Iran October 22–December 31. Sirik counterstrike and LUCAS shootdown are unverified claims; no qualifying US statement/two major-wire confirmations recovered. Failed resolution search January 2, 2027 if not confirmed earlier |
+| GATE-FALCON-001 | LIVE, next review October 28. Last current-vintage touch October 23: leg 2 NOT MET (8,200 vs 4,615); legs 1/3 previously fired. No new verified Houthi shipping enforcement event established this sweep; Al-Faw report has UNKNOWN cause. JMIC 108 relay is not a substitute for the primary or gate letter |
+| L229 permanent route | **LAPSED / NOT VERIFIED AS AGREED at market close.** Official Oman October 26 says temporary outline and political implementation obstacles; no joint/dual permanent agreement recovered. Outer-edge arithmetic October 25, October 26 resolution day. Public-evidence grade, not knowledge of private talks. No physical reopening or mark change. PROME owns docket; BRENT owns BRT-30 |
+| WARRISK | L807 attempt/declare DONE today. All 5 quotes EXPIRED; Bab CANNOT-FIRE, paid-data pointer retained. Historical September 24 Hormuz 6–9 / Yanbu ~3 = 2–3x, not a current matched spread. No new comparable quote recovered; data date/expiry unchanged |
+| FLOW | L807 DONE: 16 records conserved as 4 current unique FALCON + 11 frozen HAWK + 1 superseded duplicate 04. Original row strings preserved; historical numerical examples are not October 26 observations |
+| Casualty ratchet | RED recorded-killed rate-step: September 27–October 26 **24** vs **7** August 28–September 26, **3.43x**. Incomplete reporting, not full theater toll. Injury comparison not graded anew: prior approximate 70 and unknown cells prevent a firm ratio. CAS-036 adds 2 state-reported October 25 debris injuries; killed/missing UNKNOWN. No newly confirmed military-class fatality in reviewed evidence |
+| EXIT / prices | Thesis-kill 0/7; last indicator posture 7/8, bypass current condition UNKNOWN. EXIT rewrite triggers not newly met. BRENT owns oil/flow/official settlements; HENRY VIX; LIQUID credit. No live FALCON settle clock; step 12b no-op. Trade construction TERRY; no trade or Will decision proposed |
+
+## Evening changes — source clocks kept separate
+
+| Object | Verified change / unresolved limb |
+|---|---|
+| Cape Dao | Existing September 23 incident, VI-0036; newer hydro wreck notice issued October 24 plus today's IMO Sunk fetch resolves prior contest. Lloyd's List October 26 dates sinking October 14; exact date remains trade-source attribution. No new total-loss hull added |
+| Outbound tanker | VI-0083: UKMTO 182-26 RELAYED, incident October 23 0839 UTC, published October 26; unknown projectile reportedly disabled vessel, crew safe. Own PDF 403. Identity/damage/environment unresolved; separate from 181-26 Limah October 22 |
+| Northern Gulf fire | VI-0084: UKMTO 183-26 RELAYED third-party vessel-fire report October 26, 63 NM SE Al-Faw; time/cause/crew/damage/environment unknown. No hostile attribution or sinking inferred; not automatically SOYIA October 20 |

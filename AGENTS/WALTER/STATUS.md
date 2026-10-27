@@ -1,14 +1,15 @@
 # WALTER STATUS
-**Updated:** 2026-10-26T23:50:23Z — full session-end closeout;12cards today, BOARD1725. Boot remains PARTIAL; obligations and publication evidence: LAST_COMPLETION.md.
+**Updated:** 2026-10-27T00:45:16Z — startup recovery and one correction; BOARD1726. Boot PARTIAL; duties/approvals/evidence in LAST_COMPLETION.md.
 
 ## BOTTOM LINE
 
-Brazil remains severe local repricing; a broad forced unwind is unproved. LIQUID's closing vendor observations show Brazil weakness alongside resilient sampled US credit/banks; event-day funding/spread readings remained unavailable at its18:56ET pull. Accepted domestic bond buybacks settleOctober27; fund contract mechanisms are not demonstrated cash calls. Twelve BOARD cards capture today's news and bounded unwind search. Full closeout continuity is reconciled; startup, pending-source and lifecycle limits remain explicit in LAST_COMPLETION.md.
+WALTER is running with existing duties and approvals recovered. One SEC-backed closing-date correction is committed; the ten-transfer sample is selected, with grading still separate. Main Git, Research-Intake and X access succeeded. Brazil remains severe local repricing with broad forced transmission unproved; October26 US credit/funding data still absent from the pull. Fourteen regular packets, three DEWEY returns,32staged bookmarks and stale reading attestation prevent a complete-startup claim. Exact work and source limits: LAST_COMPLETION.md.
 
 ## DATED MARKET OBSERVATIONS
 
 | Object | Observation and limit |
 |---|---|
+| Startup scan (October26 ET; pull October27 UTC) | HY338 / CCC1356bp / VIXCLS19.45 [October23]; SOFR-IORB+2bp matchedOctober23; T5YIFR2.21 [October26]. Vendor regular-sessionOctober26 KRE72.73/WAL75.44/VIX18.39. FT11 matchedOctober16→23 preconditions not met. No new fire in completed checks; HANS daily/settlement/census limits: research/2026-10-26_startup-recovery/THRESHOLD-SCAN.md. |
 | Evening owner evidence (October26, owner pulls17:35–18:57ET) | LIQUID vendor EWZ−19.82%,HYG+0.19%,LQD+0.16%,KRE+0.37%; not spread/flow measurements. Accepted domestic buybacksR$14.807B settleOctober27; current UBR call unproved. Credit/funding frontierOctober23 at18:56ET. VULCAN original-access upgrade is owner-selected sections, full reconciliation incomplete. Sources: research/2026-10-26_final/OWNER-REVIEW.md. |
 | Brazil unwind search (October26 13:44–13:47ET) | Anonymous manager reports local stop-loss amplification; no named fund/margin-call liquidation verified. Mixed carry pattern: yen weaker, peso stronger, US credit ETFs positive. NYFed afternoon repo accepted$5M, not a seizure finding. B3 wider price bands are not margin hikes. Card012/evidence: research/2026-10-26_unwind-search/REPORT.md. |
 | Morning news (October 26, underlying clocks retained) | Meta $35B offering package plus unestablished $60B future program; SpaceX ~$40B conditional GPU lease; Anthropic public IPO reported, original prospectus unread. B3 halt confirmed; Reuters local equity/FX/CDS stress is dated intraday, not a forced-sale finding. Cards 001–004. |
@@ -55,7 +56,7 @@ Signal/news routing and receiving-layer readiness. Domain agents own evidence, g
 
 ## NETWORK AWARENESS
 
-Registry headers reviewed before this summary at2026-10-26T23:50:23Z;49mirror rows retained. PROME 2026-10-25, BROCK 2026-10-25, BRENT 2026-10-26, LIQUID 2026-10-26, HAWK 2026-10-25, NEXUS 2026-10-23, WALTER 2026-10-26, VIOLET 2026-10-21, TERRY 2026-10-25, MIDAS 2026-10-25, VULCAN 2026-10-26, FALCON 2026-10-26. These are owner documentation dates, not current market inputs or liveness. Available native discovery is partial; unseen owners remain UNKNOWN. Today12signals,48handoff records, one cluster_mediating signal; no five-signal network peak. Recipient evidence and current duties are retained only in LAST_COMPLETION.md and its dated receipt.
+Registry refreshed from owner lead headers at2026-10-27T00:45:16Z;49mirror rows retained. PROME 2026-10-25, BROCK 2026-10-25, BRENT 2026-10-26, LIQUID 2026-10-26, HAWK 2026-10-25, NEXUS 2026-10-23, WALTER 2026-10-27, VIOLET 2026-10-19, TERRY 2026-10-25, VULCAN 2026-10-26, MIDAS 2026-10-25, FALCON 2026-10-26. These are documentation dates, not market freshness or liveness. Native discovery is partial; unseen owners remain UNKNOWN. One correction/two handoffs written this startup; BOARD1726. No cluster-mediated peak in this startup. Current duties/publication only in LAST_COMPLETION.md.
 
 ## Active LIAISON channels
 

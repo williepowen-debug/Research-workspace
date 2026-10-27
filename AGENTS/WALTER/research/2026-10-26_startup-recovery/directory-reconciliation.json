@@ -1,0 +1,11 @@
+{
+  "directories_without_mirror": [
+    "CATO",
+    "_archive"
+  ],
+  "mirror_without_directory": [
+    "DARWIN",
+    "HERMES"
+  ],
+  "limit": "Directory differences are candidates, not missing fleet membership; roster classifications govern."
+}

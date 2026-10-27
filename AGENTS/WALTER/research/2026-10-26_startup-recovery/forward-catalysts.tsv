@@ -1,0 +1,2 @@
+date	window	event	bear_signal	bull_signal	red_threshold	priority	status	notes
+2026-10-31	near	RED-25 re-review: DEWEY permutation p on PREM-MID (DR-3) - grade when DEWEY or CARL runs it; re-review date if not run	p <0.10 with negative sign in the factor-residual cuts => RED-25 WRONG, CARL's convergence reading gains real support	p >0.30 in every C0/C1/C2 cut => RED-25 CORRECT	RED-25 (workbook/PREDICTIONS.tsv)	low	pending	Registered 2026-10-01 S49b. If still unrun 10/31: push-date-with-reason or ask DEWEY (seed 7, 20,000 shuffles, its own recipe).

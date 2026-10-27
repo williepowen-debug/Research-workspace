@@ -1,0 +1,191 @@
+
+FILE: AGENTS/FERT/STATUS.md
+# FERT — Status
+
+**Domain:** Fertilizer supply/price/policy → food-CPI transmission → CF Industries positioning
+**Class:** Market domain — EVENT-DRIVEN SPECIALIST (wakes on named triggers; no standing daily desk)
+**Last real data refresh:** 2026-10-21 08:56–08:57 ET (WQ-184 due-row spawn, PROME `af287aee`, Opus; DOCKET L576 + GATES G5: DTN 10/21 first-party, IPL outcome, Q4 sulfur, potash triage — `KB-FERT-079`…`082`) · 2026-10-15 08:05–08:07 ET (crash-recovery spawn, PROME `prome-73`, Opus: DTN 10/14 + BLS Sep re-verified first-party; IPL award still NOT public, `KB-FERT-078`) · 2026-10-14 23:46–23:58 ET (WQ-184 due-row spawn `prome-8e`, GATES G3/G5 + DOCKET L576/L577: `KB-FERT-069`…`077` — items in What Changed) · Prior: 2026-10-09 AM (`KB-FERT-067`)
+**Session wall clock:** 2026-10-21 08:55 Wednesday (boot.py) · connection lost ~09:00 ET mid-session, edits verified intact on resume 09:00 ET · prior 2026-10-15 08:03 Thursday
+**Situation Tier:** 🟡 MONITORING — **retail MAP $981 / DAP $937 [DTN 10/21, wk Oct 12–16]**, sixth straight MAP rise; G5 NOT FIRED 10-of-10, **$19** short, ~1.9 months at the 10-week pace. India booked only **~410,000 t of 1.7 Mt** [AFC w/e 16.10] — Chinese sellers refused ~$320–325/mt FOB netbacks; award price not stated. Producer-side squeeze (Q4 Tampa sulfur unsettled; Mosaic South Fort Meade idled), not rock (flat $170.0/mt). Nitrogen dead (IPL counters ~$352–356/mt CFR, award not public). China adding export volume (G3 NOT FIRED). Food at home −0.07% (Sep). Pink Sheet label corrections 10/07 + expired futures rows → `archive/STATUS_rotated_2026-10-15.md`.
+
+> **Rebuild note.** The FROZEN 2026-03-20 STATUS is archived at `archive/STATUS_2026-03-20_FROZEN.md` — historical only. Every price cell below is benchmark + unit + date + source. **"Urea" alone is not a price.** Grading record: `PROME/research/2026-08-16_fert-revival-assessment.md`.
+
+---
+
+## Price Panel — benchmark-split (never one row called "urea")
+
+| Benchmark (full name) | Unit | Level | As-of | Source authority |
+|---|---|---|---|---|
+| DTN retail urea, US national avg | **$/ton** | **$674** (+$2 w/w; +13% YoY) | data wk Oct 12–16 2026 | PRIMARY-publisher — DTN 10/21/26, pulled first-party 10/21 08:56 ET |
+| NOLA granular urea barge FOB | **$/st** | **"$430"** on Oct 9 [The Pacific's Daily Brief 10/14, secondary] · **"$430s"** midweek w/c 9/28 [Profercy 10/02] · **$450–455** wk to 9/25 [Green Markets] — intermittent headline levels, not a weekly series. 🧊 Advanced Turf $385–410 = FROZEN 8/7 vintage | Oct 9 · w/c 9/28 · wk to 9/25/26 | MIRROR (secondary) · PRIMARY headline — Profercy 10/02 · Green Markets `KB-FERT-047` |
+| India CFR, **lowest OFFER per coast** (IPL 1.7 Mt tender, closed 10/07) | **$/mt CFR** (basis **STATED** by AFC 10/12) | **$352.10 east** (Millennium, 60,000 t) / **$356.25 west** (Aditya Birla, 350,000 t); ranges E $352.10–465, W $356.25–416.50; 25 companies, ~5.3 Mt gross. **IPL countered at these L1s** [secondary 10/14]. **Outcome [AFC w/e 16.10, pub 10/19, single MIRROR]: India "secured approximately 410,000 MT" of 1.7 Mt; awarded CFR NOT STATED** — INFERRED ≤ the counters (`KB-FERT-080`) | offers 10/07/26 · counters 10/14 | MIRROR — AFC weekly w/e 10/9 (pub 10/12) + Bloomberg via Business Standard 10/9 (`KB-FERT-067`) |
+| World Bank Pink Sheet urea, **prill spot FOB Middle East** (series name "Urea, E. Europe"; WB definition since Mar-2022) | **$/mt** | **$407.5** (Sep) ← $390.0 (Aug) ← $400.0 (Jul) ← **$856.9** (Apr) | monthly, Sep 2026 | PRIMARY — WB Pink Sheet, pub 10/2/26, read 10/07 |
+| Urea granular FOB **Middle East** (AFC weekly) | **$/mt** | **$470–480** (carried; ~$465 late Sep per Global Agriculture 10/12) | w/e 9/18/26 | MIRROR — AFC weekly `KB-FERT-053` |
+| Urea granular **CFR Brazil** (AFC weekly) · China **prilled FOB** | **$/mt** | Brazil offers **$480–485** / bids $450–470 [AFC w/e 10/9] · China prilled **~$372** FOB [Global Agriculture 10/12] · China netback from the IPL offers **~$320** FOB [AFC] | w/e 10/9/26 · 10/12/26 | MIRROR — AFC weekly (pub 10/12) · Global Agriculture 10/12 |
+| India **DAP** CFR (AFC weekly) | **$/mt** | **$890–905** ("previous reported range") | w/e 10/9/26 | MIRROR — AFC weekly (pub 10/12) |
+| DTN retail **DAP**, US national avg | **$/ton** | **$937** (**+$3 w/w**; +2% YoY) | data wk **Oct 12–16 2026** | PRIMARY-publisher — DTN 10/21/26, pulled first-party 10/21 |
+| DTN retail **MAP**, US national avg | **$/ton** | **$981** (**+$2 w/w, +0.20%**; +5% YoY) — **binding leg on G5** | data wk **Oct 12–16 2026** | PRIMARY-publisher — DTN 10/21/26, pulled first-party 10/21 |
+| DTN retail **potash**, US national avg *(triage-depth row)* | **$/ton** | **$503** (+3% YoY) | data wk Oct 12–16 2026 | PRIMARY-publisher — DTN 10/21/26 |
+| DTN retail **anhydrous** | $/ton | **$987** (+$10 w/w; +18% YoY) | data wk Oct 12–16 2026 | PRIMARY-publisher — DTN 10/21/26 |
+| DTN retail UAN28 / UAN32 / 10-34-0 | $/ton | **$441** / **$486** / **$702** (−$1 / +$1 / $0 w/w; ≥5% m/m per DTN: UAN32 +6%, UAN28 +5%, anhydrous +5%) | data wk Oct 12–16 2026 | PRIMARY-publisher — DTN 10/21/26 |
+| NOLA **DAP** barge FOB | $/st | 🧊 $795–798 — FROZEN 8/7 vintage, no free successor. Nearest free phosphate $/st: Central Florida DAP/MAP $840/st [Green Markets 9/18]; NOLA **TSP** $675–$695/st FOB [Green Markets 9/25] — DIFFERENT benchmarks, not NOLA DAP prints | 8/7/26 · 9/18 · 9/25/26 | MIRROR — Advanced Turf 8/10 · PRIMARY headline — Green Markets |
+| NOLA **MAP** barge FOB | $/st | 🧊 $775–785 — FROZEN 8/7 vintage | 8/7/26 | MIRROR — Advanced Turf 8/10/26 |
+
+FILE: AGENTS/FLG/STATUS.md
+# FLG STATUS
+
+**Last Updated:** 2026-10-23 08:4x ET Friday — **Q3-2026 PRINT GRADED (DOCKET L522 print leg, PROME prome-03 spawn).** Prior: 10/22 13:30 ET fix pass + 11:3x ET 8-K sweep (both rotated verbatim to `archive/STATUS_ARCHIVE_2026-10-23.md`, crc32 `a54fa420`) · 10/21 wave 2 · 10/01 T-08 fire grade · 08/28 first live session.
+
+✅ **FIRST-LIVE-SESSION BANNER STRUCK.** The build banner said every figure here was MIRROR-grade — extracted from REGINALD, never pulled by FLG. **That is no longer true.** FLG pulled its own EDGAR primary this session (10-Q Q2-2026, Flagstar Bank N.A., acc `0000910073-26-000068`, filed 2026-08-06) and re-verified the load-bearing figures first-hand. `CLAUDE.md § FIRST LIVE SESSION` is **SPENT 2026-08-28**. ⚠️ **One residual, named not hidden:** the MDRM-level MI3 cells were **not** re-pulled at FFIEC CDR and stay MIRROR-grade — `MI3_FLG.tsv` marks this per row.
+
+**Class:** Market domain — print-driven single-name specialist · **Level:** L3 (DAEDALUS bank review 10/22: "L3/M — holds") · **Thesis:** `THESIS.md` **v1.0.3 — THESIS OF RECORD** (v1.0 authored 8/28; corrections-only amendment 10/22)
+
+---
+
+## 🔴 SESSION 2026-10-23 — Q3-2026 PRINT READ AGAINST THE FROZEN FRAME (PROME prome-03 spawn, DOCKET L522)
+
+**Primary:** 8-K acc `0000910073-26-000080` (Items 2.02/7.01/9.01; exhibits EX-99.1 release, EX-99.2 deck, 104 only — **no exclusions-register event**). Frame sha `cb686b26…` re-hashed: **unchanged**. Full grade: `reports/2026-10-23_Q3-2026_PRINT_GRADE.md`. **Call (08:00 ET) UNREAD** — no transcript reachable; replay to 10/27. Inbox: PROTOCOL.md only, 0 packets, 0 WALTER signals.
+
+| Frame item | Print (release/deck, PRIMARY unless *derived*) | Grade on the frame's letter | KB |
+|---|---|---|---|
+| **A** provision / ACL | Provision **$76M** (Q2 $18M); gross CO **$84M**, NCO $74M; ACL **$869M flat**; FY2026 provision guide **$90–140M → $160–170M** | ">$62M or guide >$140M" **FIRES → for the mechanism** (attribution leads with *rates*, CEO names rent regulation). "Provision ≥ gross CO" does **not** fire (1.11×). ACL up/down rows do not fire (flat). No freeze quantification | 086, 090 |
+| **A** coverage | $869M / $2,817M = **30.85%** *(derived, release basis)* vs 31.04% | New series low via the NAL denominator. **FLG-02 PREVIEW → HIT; graded at the 10-Q** | 086 |
+| **B** non-accrual | NAL HFI **$2,817M** (+$17M); par payoffs **$1.2B, 35% substandard** (MF $837M, 39%) | "NAL ≥ $2,800M" **FIRES → for the stance** (smallest size). Formation, buyer financing, payoff split: **not disclosed** (rules 4, 6, 7) | 086, 088 |
+| **C** FDM | Not in release or deck | Rule 1 — wait for the 10-Q | — |
+| **D** buyback | **~$216M in Q3** *(derived, treasury stock)*, $250M completed early Oct; CET1 13.16% → **12.38%** | "≥ $125M" **FIRES → against the path below 300%, for "capital returned while reserve drawn down"**. SR 07-1 ESTIMATE 334.7% (numerator held) / ~320–322% (numerator proxy) — Call Report grades | 089 |
+| **E** exhibits | EX-99.1/99.2/104 | Clean | 091 |
+| **F** context | MF HFI **$25,948M** (−$983M); NYC RR C&C $4,402M, deck now splits it (SM+SS DSCR 1.14×, NAL 0.74×; weighted 0.99× *derived*); criticized+classified **+$670M** | FLG-03 PREVIEW → HIT. DSCR rule **not graded** (combined row no longer printed) | 087 |
+| **Routing NOTE** | adj EPS **$0.01** vs ~$0.07 (incl. $22M one-time tax benefit; pre-tax −$10M) · revenue $530M · EPS guide $0.40–0.50 → **$0.10–0.15** · NII guide midpoint −$87.5M | **R1, R3, R4, R5 FIRE; R2 does not (by $1M).** TERRY + PROME route owed — this spawn may write only the PROME packet, so the TERRY context rides in the PROME memo | 090, 091 |
+
+**No threshold, band, prediction letter, kill cell or score moved.** FLG owns zero live gates; nothing the print touched is a gate. **Price:** $11.44 [fetch.py 08:37 ET, as-of 10/22 close, stale pre-market] — not a thesis input.
+
+**Owed (carried from the rotated 10/22 blocks, still open):** EXIT_PROTOCOL re-derivation in both directions + THESIS fold-in of KB-071/073/081/082 **and now KB-086..091** → by the 10-Q (~11/9) · READS.tsv boot-read declaration → PROME's file, asked 10/22 · provision basis (release vs Call Report RI-B) → Call Report 11/14 · **routes owed from today:** TERRY (surprise, NOT-FIRED context), LIQUID + REGINALD (capital ratios moved: CET1 −78bp) — pending PROME's word on sending.
+
+## 🔴 START HERE — the thesis moved, and the headline number is still not the actionable one
+
+FILE: AGENTS/GIBBS/STATUS.md
+# GIBBS STATUS
+
+**Last Updated: 2026-10-23 08:44 EDT — AXP Q3 print read (DOCKET L779), Claude Code / Claude Opus 5.5, PROME spawn prome-03.**
+
+> FIRST-LIVE-SESSION banner struck 2026-10-21. The registration ask (item 5) is closed: PROME confirmed 10/23 that `docket/CATALYSTS.tsv` is in SUMMONS_LEDGERS (the boot gate's BD-02 check read the AXP row that morning).
+
+## Current judgment
+
+**Q1 (industry-wide or regional-only?)** — What large and regional banks share this quarter is rate-cycle deposit repricing and the booking of already-reserved CRE losses. Interest-bearing deposit costs rose at all 10 large firms with a same-line read (+2 to +11bp) and at all 4 cohort banks REGINALD read (+2 to +15bp): INDUSTRY-WIDE on the cost leg. AXP, the 16th firm, went the other way (GIBBS-derived cost about -9bp QoQ) but on a different basis and a different funding model (online savings/CDs behind a card book), so it is untagged and does not change the read. CRE charge-offs rose at BAC, WFC, USB, PNC as at CFG, but BAC and WFC reserves and nonperformers fell (recognition). Stress-type signals (reserve build plus rising nonperformers) show at one large bank: PNC CRE.
+**Q2 (is large-bank lending to non-bank finance transmitting?)** — Not measured where disclosed: USB NDFI $50B criticized <1%; FITB $14.3B criticized 44bp, down 10bp. Open item: Goldman provision $102M→$368M on unattributed wholesale-loan impairments. JPM/WFC/C = BROCK's figure, attribution INSUFFICIENT. Eight firms (now incl. AXP) disclose nothing in the 8-K.
+No thresholds, predictions, grades or book (WQ-426).
+
+| Work item | Owner state |
+|---|---|
+| Four-item read | **Q3 census complete: 64 slots (16 issuers x 4).** 44 measured (10 with one leg UNAVAILABLE), 20 UNAVAILABLE with reason (10 call-only NII guides incl. AXP; 8 no NDFI line incl. AXP; C and SCHW no CRE split; AXP no CRE book — structural, will not resolve), 0 pending. Tags 14 INDUSTRY-WIDE · 3 REGIONAL-ONLY · 47 NOT-YET-DETERMINABLE. |
+| AXP Q3 (10/23) | SEC 8-K 0000004962-26-000405 (accepted 11:00:36Z) EX-99.1/99.2 + IR presentation read. Call 08:30 ET: transcript NOT reachable at write time (Quartr paid, KB-GIB-014); NII-guide leg UNAVAILABLE. Card credit = CARL's figure (pointer only). |
+| Exclusions register | AXP enforcement event logged KB-GIB-017: OCC $350M AML penalty + Fed/OCC cease-and-desist orders 10/08, no asset cap; Q3 legal-matters item -$400M pretax. Flagged to PROME 10/23. |
+| Perimeter | 16/16 CIKs; Q2 assets 16/16 verified (AXP 308.2 re-checked at Q3 EX-99.2); Q3 assets 16/16 (AXP $310.3B). BK desk key vs SEC ticker BNY unchanged pending named handling. |
+| NDFI one figure | BROCK confirmed JPM/WFC/C 10/21 (KB-GIB-012). AXP has no NDFI line, so nothing to reconcile; BROCK note delivered 10/23. CFG baseline gap is BROCK/REGINALD's (KB-GIB-011). |
+| CYPHER seam | Boundary confirmed 10/23 (KB-GIB-023): CYPHER owns the cyber event, GIBBS the large-bank consequence. Charter exclusions-register owner cell updated 10/23 (C4, PROME-verified). |
+| Peer packets | Delivered 10/23 08:44 ET on PROME's word (carve-out ①): CYPHER boundary reply · REGINALD AXP read + census · BROCK AXP no-NDFI note. Outbox copies kept as sender record. |
+| Falsification | EXIT_PROTOCOL re-derived 2026-10-21; R0 review 2026-11-15 unchanged. |
+
+## Decisive observations (Q3 vs Q2 2026, SEC 8-K exhibits; rows in workbook/READS.tsv)
+
+| Read | Figures |
+|---|---|
+| Deposit cost | JPM 2.11→2.18% · BAC 1.98→2.03 · C 2.71→2.76 · STT 2.45→2.49 · BNY 2.33→2.43 · PNC 1.91→1.98 · USB 2.15→2.22 · COF 2.91→2.94 · TFC 2.10→2.12 · FITB 2.13→2.24; AXP derived about 3.25→3.16 (deposit interest $1,276M→$1,242M, different basis); cohort CFG +5 · MTB +10 · WAL +2 · ZION +15bp |
+| CRE | NCO BAC $2M→$105M · WFC $16M→$107M · USB $13M→$42M · PNC $21M→$32M; PNC CRE ACL $1,035M→$1,085M and NPL $464M→$559M; FITB CRE nonaccrual $94M→$141M; WFC office nonaccrual $2,225M→$1,876M |
+| Custody deposits | NTRS avg IB −3.1%, NIB −5.4% (period-end −7.9%/−14.4%); BNY avg −0.94%, period-end −9.5% vs elevated 6/30 → LIQUID |
+
+FILE: AGENTS/HANS/STATUS.md
+# HANS STATUS.md
+**Updated:** 2026-10-22 (Thu, ~20:45 ET) — **hans-1022, Will-spawned catch-up to live:** WALTER `-031`/`-028` processed · `T-10` graded 10/22 on i-i (OAT **through the 5.00 RED tier**) · **France bond-market deep dive** (swap, CDS, curve, bills, auctions) · TTF/storage/Bund/BTP/UK/US refreshed · workbook pass (FLOW-4/6, KILL_TREE C-4, PREDICTIONS, ML-481/482). *10/21 session:* Boot + Europe news catch-up · full registry re-grade · inbox drained (37 + 4) · `HNS-07` 65% → 30% · KILL_TREE re-graded · 20 expired KB rows cleared · test suite 149/149 · **France TPI read + `HNS-10`/`HNS-11` registered before Moody's** · France sovereign memo · **`HNS-09` rules frozen and mechanised before 10/28** · UK Budget groundwork · RULE #1c reworded (WQ-469, Will in-session). *Prior STATUS verbatim → `workbook/STATUS_ROTATED_2026-10-21.md`.*
+**Boot 10/22:** rc1 (attention) · R1 corrections rc=0 · HEAD = origin (not pulled: foreign dirty tree, none mine) · **inbox: 2 of 2 WALTER signals processed on Will's word**, logged in `board_log.tsv`; KB-HANS-140–141. I own **`EUROPE_MACRO`** (BOND = time-critical backup). **UK leg: MINE.**
+
+---
+
+## 🔴 CARRY FORWARD — the live consequences through **10/21**. **Narrative → `SESSION_LOG.md`** · verbatim → `workbook/`
+
+- 🔴 **FRANCE IS THE STRESS, AND IT IS FRANCE-SPECIFIC. `T-10` OPEN AND DEEPENING: OAT 5.13 / Bund 3.38 / spread 174.6bp [i-i close 10/22]** — 137.4 [10/16] → 142.3 → 150.8 → 157.5 → **174.6 (+17.1 in one session, +37bp in 4)**. TE cross-check 5.076 / 3.3311 = 174.5bp, so the LEVEL agrees; the day's COMPOSITION does not (OAT +14 i-i vs +7.6 TE, Bund −3 vs −9.5): both legs widened it, never quote one split. 🔴 **OAT is THROUGH the 5.00 RED tier of `VX-HANS-3.07`** (Reuters intraday high 5.1415, highest since Jul 2002, via WALTER `-031`). **OAT above the US 10Y (TE 4.959) for the first time since 2013, but ~70% of that crossover is the US rally on the AI-stock selloff: it does NOT measure French stress.** **`HNS-10` (≥175.0) is 0.4bp short — NOT hit.** French banks 10/22 (Yahoo): **BNP −4.9%, SocGen −4.5%, CA −2.5%**; Europe-600 banks ETF (EXV1) −3.6%. `KB-140`. Exit clock 0/5. Drivers: 10/17 cost-of-living riots (**550k Interior / 800k CGT**, ~1,800 arrests), a **€54bn-savings 2027 budget** in a minority Assembly, deficit guided −5.4% vs −5.1% target. 🔴 **MOODY'S REVIEW FRI 10/23 (Aa3, negative outlook)** — a one-notch cut leaves France investment grade and ECB-eligible (secondary). **Italy did NOT follow at LEVEL:** BTP 4.602 (~flat); BTP–Bund ~116 → ~127bp by the **Bund rally alone** — read the level, not the spread. 🔑 **No ECB backstop (TPI) under this spread** (`KB-126`/`127`, `research/2026-10-21_FRANCE_TPI_BACKSTOP.md`). France passes the letter of the eligibility test (June 'effective action', secondary), but TPI exits when tensions are 'due to country fundamentals', and Lagarde says the solution 'lies at home in France'. **The contagion test is Italy.** 📄 **Full France memo → `research/2026-10-21_FRANCE_SOVEREIGN_MEMO.md`** (`KB-128`–`132`).
+  - 🔑 **10/22 deep dive** → `research/2026-10-22_FRANCE_BOND_MARKET_DEEP_DIVE.md` (`KB-144`–`148`). **It is France cheapening, not Germany richening:** OAT–swap +40bp in 4 sessions (125 → 165bp), Bund–swap flat (~−12 → −10). **Credit, not just supply:** 5Y CDS ~57 → ~88bp since 9/26, **above Italy (67)**. **The stress is in the 5–7Y belly** (the 2027 election window), not the long end. FR 3M bill 2.77 = 13bp under the 2.90 MLF ceiling, not broken. Auctions still clear ~2–3×. **Allianz framework: 174.6 = top of the 150–175 'France-centred' band; ECB operational steps need BTP ~150 (now ~127), TPI ~200.** Moody's: ING base case A1 **stable**; the risk is A1 **negative**.
+  - Holders: non-residents 57.5%, rising as the ECB's share falls.
+  - A Moody's cut to A1 *converges* with Fitch/S&P A+.
+  - **The far cliff is 2027:** Le Pen ~35% in first-round polls, Cassation ruling by early January.
+  - Into the US: bank equity (live) and dollar funding (unmeasured). ⚠️ LIQUID's 10/01 "no US-funding transmission" read is **not re-checked** since the spread widened ~18bp.
+- 🔴 **`HNS-07` (EU storage ≥80% by 11/01) RE-MARKED 65% → 30%** at checkpoint 2, evaluated late on gas-day-10/14 data only: required pace 0.324 pp/d > season-best 0.3107 (rule a) **and** DEWEY's DR-4 rerun (76.5–77.9%) + my pace (~77.4%) both land MISS (rule b). **Not resolved — grades on the 11/01 gas day.** Post-checkpoint (not in the grade): **gas day 10/20 = the season's FIRST net-withdrawal day**; 74.58% needed 0.452 pp/d for 12 days; **gas day 10/21: 74.62%, +0.04pp → now ~0.49 pp/d needed.** Rule (c) count **1 of 5** for the 10/25 checkpoint.
+- 🔴 **INFLATION BROADENING ON BOTH SIDES OF THE CHANNEL — the "energy-only" read is under pressure, not falsified.** EA Sept FINAL (Eurostat 10/16): **headline 3.8%** (Aug 3.2), energy **18.9%**, **core 2.5% → `T-16` 1 of 2** (2nd = Oct FINAL **11/18**; the 11/04 flash cannot complete it). UK Sept (ONS 10/21, secondaries): **3.5% vs 3.4% consensus**, **core 2.8%** (Aug 2.6 — first move since `T-17` was registered, 0.2 under watch), **services 3.7%** (3.4). UK unemployment 4.7%, faster wages (TE 10/20).
+- 🟠 **ECB 10/29: HOLD is consensus; DECEMBER hike ~87% priced** (secondary, ~10/20). `T-04` (≥2.75) stays NOT-MET into 10/29 on that pricing. **BoE 11/5: 25bp hike priced** (press). **NL election 10/29**, same day as the ECB.
+- 🟠 **UK long end retreated before the 10/28 Budget:** 30Y **5.73** (TE 10/22) = **27bp under `T-13`**, now below the 5.75 pre-alert; 10Y **5.34** = 16bp under `T-06`. They fell on the 10/21 CPI beat, then on 10/22 money moved out of euro-area debt into gilts (TE). **The UK is a haven leg of the French move, not a casualty.** Bank-tax reports hit Lloyds −2.3% / NatWest −2.1% (10/15–16). 📄 **Groundwork → `research/2026-10-21_UK_BUDGET_GROUNDWORK.md`** (`KB-135`–`139`).
+  - Chancellor **Healey**. Headroom £23.6bn (OBR, March) → ~£11–12bn (private estimates).
+  - Borrowing is **+£6.0bn vs the OBR** YTD (ONS 10/21), so expect an upward remit revision. **Read the long-gilt line first.**
+  - The BoE's gilt sales are paused to ~Apr-27.
+  - ⚠️ **`T-13` is a watch, not an LDI break point:** buffers are sized for 250bp, against 2022's +140bp.
+- 🟠 **TTF 90.30 on named `TTFX26` [last trade 10/22 ~11:00 ET, thin], +3.3% d/d, highest close of the episode on this feed.** `T-07` L1+L2 OPEN, **L3 (€100) ~10.7% away**. Drivers (secondary): Norway **Kårstø unplanned outage 10/13**, Qatar force majeure into Nov/early Dec (Edison: early Dec; Shell: full Ras Laffan repair ~Q1-27). 🔴 **X26 expires 10/29 — roll inside 8 days; never grade a rung across the roll** (owed #26 by 10/26). Citi still Q4 base €56 (demand destruction) — **a named dissent.**
+- 🔴 **EUROPEAN BANK SHARES HAVE SOLD OFF, AND NOT JUST IN FRANCE** (Yahoo closes 9/18 → 10/20): SX7E **−8.0%** (288.26 [10/21]) · Deutsche **−14.5%** · Intesa −10.2% · UniCredit −8.6% · Santander −6.3% · French banks 9/21 → 10/20: BNP −11.1%, SocGen **−15.0%**, Crédit Agricole −13.3% — **vs Euro Stoxx 50 −1.8%.** Cause NOT established. `T-14` NOT fired (no named warning). `VX-5.01` stays GREEN only because its bands need a further ~17% fall. **BNP Q3 on 10/28 is the first test** → `KB-121`; routed to REGINALD + LIQUID 10/21.
+- 🟡 **`T-15` NOT-MET on both legs (graded 10/21):** (a) the principal is silent, and the REPORTED direction has reversed to restoration (Yanbu loadings resumed, full November volumes, both secondary; `KB-122`). (b) **Now measured monthly:** Sept HICP energy +4.0% m/m vs Brent +16.1% m/m. Energy rose LESS than crude, the opposite of the decoupling the leg tests. Next: Oct flash HICP 11/04.
+- 🟠 **`thesis/KILL_TREE.md` RE-GRADED 10/21:** C-1 (Bund term premium) **WEAKENED, no longer load-bearing.** France's spread isn't tight, the euro weakened, and the kill rows were blind because each was conditioned on a RISING Bund. C-2 survived (`HNS-06` HIT, ISM 54.5). C-3 is heading for its kill (`HNS-07` 30%). C-4 holds, plus a new sovereign–bank row.
+- 🟡 **Germany: ZEW fell to 28.1 in Oct from 34.7** (lowest in 3 months; Wambach: energy prices cutting real incomes). Aug industrial production +2.0% m/m, orders −10.6% m/m (Destatis via TE). Flash PMIs due ~10/23 (date not confirmed at S&P). **`T-02` (>52) stays the live state** — the growth leg is dead; this is the first soft print against that.
+- 🔴 **`T-14`'s SILENCE MEANS LESS THAN IT LOOKS.** ESRB `report202602` (primary 9/19): identified bank exposure to PE/private credit **€4bn**, *"far below the figures implied by supervisory intelligence"*; leverage *"cannot be computed from existing data"*. **`T-14` NOT fired**; leg (b) waits for a supervisor to NAME institutions, downstream of being able to SEE the exposure. **Q3 bank results start: BNP 10/28** → `HNS-09` window; owed #28 definitions are now **past due**. → `KB-HANS-090`–`092`
+- 🔑 **`HNS-09` 70% basis:** euro-area banks are **NET DEBTORS** to NBFI ⇒ FUNDING is the dominant route; ⛔ it does **NOT** bound the credit channel (gross NBFI exposure ~10% of SI assets). FSR **€62.5bn drawn** ≠ ESRB **€4bn identified** — two perimeters, never merged.
+- 🔴 **AGSI: a REJECTED KEY RETURNS HTTP 200 + AN EMPTY ARRAY** — `fetch_eu` discriminates; quirk-dependent, re-check 2026-12-19 (owed #22). → `KB-HANS-095`
+
+FILE: AGENTS/HAWK/STATUS.md
+# HAWK STATUS
+
+**Updated:** October 25, 2026, 15:45 EDT. Codex / OpenAI GPT-6 identity exposed; serving variant UNKNOWN. Thread `01a173d6-38cc-7de3-9a0b-fd12caf682cc`. Root/local instructions explicitly read. No trade book. No mark, band, probability or registered prediction letter changed.
+
+**Repair outcome:** Will's key-file update request implemented: **9 of 19 findings repaired; 10 advanced with named residuals.** Full evidence/dispositions: `research/2026-10-25_repairs.md`; original audit and validation receipt in `audits/`. Pending tariff definition is already registered as **WQ-521**, exact L778 draft consumed by PROME, ruling pending. Other band alternatives and the November observation candidate remain drafts only.
+
+## Current cross-war read
+
+Willingness/route risk remains plausible; net lost crude and the fraction of price due to premium are UNMEASURED. Russia refining/products and Gulf hull/route exposure stay separate. Owner evidence through October 23: OSPREY 5/5/3, ~30% EST; FALCON B1/C14/D85, production rung not fired. No pooled barrel loss or current price quoted.
+
+Official October 22 pre-midterm no-strike pledge remains the latest verified written line; envoy comments do not supersede it. IRGC ship/mine and Yanbu fire claims remain unconfirmed. Limah October 22 sailed onward. CAPE DAO contested; FALCON losses 4 confirmed + 1 contested on its own population. Late WALTER October 24/25 interceptions do not establish oil-asset damage; originating coalition release unrecovered. KB460 consumed, source committed by WALTER `f35a4b297`, filing complete.
+
+All insurance quotes exceed ten days; Bab CANNOT-FIRE. FALCON's September 28 WC Saudi origin-premium falsifier fired on hull willingness, not measured production loss. October 26 Gulf re-pull remains with FALCON, Black Sea with OSPREY. Both aggregate fingerprints agree with reviewed inputs; this certifies bytes, not current quotes or semantic truth.
+
+## Material corrections
+
+| Item | Current state / remaining gap |
+|---|---|
+| Europe | Six-rung native review completed October 25; October 17 Romanian primary response integrated. Article4 June 18–October 25 negative and complete current legal/mandate negatives remain unverified. ORANGE historical carry; no current all-clear. Next residual review October 26; 45-day backstop November 2. |
+| Sulphur / acid | Historical ruled RED retained on delivered-Kolwezi basis. Ivanhoe October 8 Q3 ~$900/t and September ~$950/t are MINE-GATE net realizations; cannot verify that delivered threshold. Current matched delivered price UNMEASURED. KB461/462. |
+| METI | BRENT October 1 primary read consumed: August Kuwait/Qatar Japanese receipts nonzero after July zero. Stockpiling/transit attribution UNKNOWN; not normalized Hormuz flows. KB464. |
+| EU listings | Council confirms October 12 adoption; formal-adoption wait closed. Full legal annex remains missing; not a full sectoral-package audit. KB465. |
+| Canada | Section338 stacks on Section232 for LISTED goods. Passenger cars/light trucks/parts remain absent per MARCO attachment mapping; HAWK has not independently re-extracted it. Current VX Status now matches the caveat. |
+| US–China | MOFCOM January10 extension announcement is official; separate November 9–10 implementing clocks not all verified changed. TRADE01 ORANGE. |
+| Endpoint buffers | FLOW16/20 current helium/fab and fuel/cargo outcomes explicitly UNMEASURED. July/August absorption is history; power reserve percentage is not inventory days. |
+
+## Forecasts, tests and existing decisions
+
+| Item | State / next action |
+|---|---|
+
+FILE: AGENTS/HENRY/STATUS.md
+# HENRY STATUS
+
+**Last owner update:** 2026-10-22 19:3x ET, PROME-spawned wake for DOCKET L787 (put-wall close test; Claude Code, Opus 5.5, model ID `claude-opus-5-5`; native session ID not exposed). Gamma `--both` 19:27 ET from the 16:00 ET close; tape 19:26–19:31 ET; Cboe `_SPX` close fields 19:28 ET; Treasury par and FRED 19:3x ET. Prior owner record (10/22 09:5x ET, L769) preserved verbatim at `research/2026-10-22_L787/STATUS-before.md`; it points back to the 10/21 and 10/19 records.
+
+## VIEW
+
+**DOCKET L787 graded: SPX closed at 7,663.43 (−1.21%), 13.43 points ABOVE the ~7,650 break line. The put wall is TESTED, not broken — the same state as the 09:53 ET read.** Two sources agree on the close: Cboe's own `_SPX` quote (close 7,663.43, low 7,637.36, prior close 7,757.17) and the vendor daily bar. SPX did trade under 7,650 intraday (low 7,637.36 at 15:02 ET; 99 one-minute closes under 7,650 between 10:32 and 15:50 ET) and recovered into the bell, so the test was real and the break did not happen on the close. Dealer gamma deepened: NEGATIVE at both horizons, −$40.5B / −$54.2B per 1% (from −$29.0B / −$39.3B at 09:53), with spot 78–85 points under a flip band that held at 7,742–7,748. **The put wall moved down with spot, from 7,750 to 7,650 at both horizons**, so the wall now sits on the old break line. **The selloff was concentrated, not broad:** QQQ −2.86%, XLK −3.29%, SOXX −6.79%, while equal-weight RSP rose +0.73% and staples, utilities, health care and financials all rose; the 10Y fell 17bp to 4.96% (Treasury par) and KRE rose +2.53%. Credit did not lead it (HY 327bp [FRED 10/21], down 6bp). **Nothing new routed via WALTER: the registered condition's state is unchanged (TESTED).** No probability, threshold or trade changed.
+
+## DOCKET L787 — PUT-WALL CLOSE TEST, GRADED 2026-10-22 19:3x ET
+
+| Test (as written 09:53 ET, 2bc07ba9c) | Line | Observed at the 16:00 ET close | Result |
+|---|---|---|---|
+| Break at BOTH horizons | cash close < ~7,650 | 7,663.43 (Cboe `_SPX` close; vendor `^GSPC` bar 7,663.43, last 1-min bar 15:59 ET 7,663.45) | **NOT MET** (+13.43 pts) |
+| 14d band 7,650–7,750 | inside = tested | 7,663.43, inside the band, 13 pts above its floor | **TESTED** (unchanged) |
+| 35d band 7,700–7,750 | below floor, above 7,650 = tested | 7,663.43, 37 pts under the band floor (already under it at 09:53) | **TESTED** (unchanged) |
+| Intraday range (not the letter's test) | — | low 7,637.36 at 15:02 ET; high 7,702.94 at 10:03 ET | pierced 7,650 intraday, recovered |
+
+**Grade: put wall TESTED, NOT BROKEN, at both horizons; state unchanged from 09:53 ET ⇒ no new WALTER signal.** Figures: `research/2026-10-22_L787/close_ohlc.txt`, `gamma_both_close.txt`. **TERRY's L803 trigger (SPX cash close < 7,650) is not met on the same figure**; HENRY's close equals PROME's 7,663.43 orientation figure, so no TERRY packet was needed.
+
+## GEX / GAMMA REGIME — OCTOBER 22 CLOSE (gamma `--both` 19:27 ET)
+
+| Horizon / Cboe chain | Spot input | Flip | Net GEX per 1% | Put wall | Call wall |
+|---|---:|---:|---:|---:|---:|
+| 14d / 3,410 contracts | 7,663.43 (Cboe close) | ~7,742 (spot −78) | −$40.5B | 7,650 clean (+19% over #2) | 7,800 clean |
+| 35d / 7,219 contracts | same | ~7,748 (spot −85) | −$54.2B | 7,650 near-tie (7%) → band 7,650–7,700 | 8,000 clean |
+
+**Cross-horizon check:** NEGATIVE both; put wall **7,650 PUBLISHED** at both horizons (35d as the band 7,650–7,700); call wall WITHHELD (7,800 vs 8,000). **09:53 ET read (superseded):** flip ~7,745/~7,750, −$29.0B/−$39.3B, put wall 7,750 as bands 7,650–7,750 / 7,700–7,750 (`research/2026-10-22_L769/gamma_both_postopen.txt`; `PUBLISHED.tsv` keeps one row per metric per date, so its 10/22 flip/GEX rows now carry the close values). Free-tier estimates on assumed dealer positioning; dollar magnitudes are assumption-dependent; the sign and the flip are the robust reads. ES December traded 7,706 at 19:21 ET in the evening session (vendor; a next-session bar, not a settle). **Cascade proxy (own calc, not a fund's trigger):** SPX 7,663.43 is under its 50-day average 7,703.0, so layer 2's (short-term CTA) proxy condition is met; it was above it (7,757 vs ~7,705) on 10/21. Layer 1 (vol-control, VIX > 23–24) dormant at 19.03. 200-day 7,283.7. **Operating Dashboard refreshed** at the same URL (`https://claude.ai/code/artifact/ebb53cd8-c46a-4edd-b278-068791225a35`, version 4, published 19:3x ET).
+
+## VOL REGIME / TAPE INPUTS — OCTOBER 22 CLOSE (vendor, pulled 19:26–19:31 ET)

@@ -1,0 +1,18 @@
+{
+  "window": [
+    "2026-10-16",
+    "2026-10-23"
+  ],
+  "delta_bp": {
+    "DGS30": "-10.00",
+    "DGS20": "-10.00",
+    "DGS10": "-9.00",
+    "DGS5": "-7.00",
+    "DGS2": "-5.00",
+    "T10YIE": "-1.00"
+  },
+  "delta5_fly_bp": "-1.00",
+  "precondition_30y": false,
+  "butterfly_alternative": false,
+  "basis": "registered first-published FRED endpoint values, integer bp; latest matched H15 endpoint October23"
+}
