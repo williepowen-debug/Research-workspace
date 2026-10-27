@@ -1,0 +1,65 @@
+{
+  "graded_at": "2026-10-26T21:08:06-04:00",
+  "obs_date": "2026-10-23",
+  "M-03": {
+    "grade": "HIT",
+    "direction": "DOWN",
+    "from": 78,
+    "to": 74,
+    "mechanism": "RESOLUTION-UNVERIFIED",
+    "run": [
+      "4.96",
+      "5.00"
+    ],
+    "edge": "5.07",
+    "successor": "NOT_REGISTERED"
+  },
+  "L13": {
+    "cell": 5,
+    "value": "2.66",
+    "up_run": 0,
+    "down_run": 0,
+    "earliest_fire_cell": 10
+  },
+  "L16": {
+    "cell": 4,
+    "HY_bp": 338,
+    "CCC_bp": 1356,
+    "BB_bp": 206,
+    "B_bp": 343,
+    "IG_bp": 91,
+    "up_run": 0,
+    "down_run": 0,
+    "earliest_fire_cell": 7
+  },
+  "M-04b": {
+    "anchor": "19.45",
+    "up": "22.45",
+    "down": "16.45",
+    "anchor_is_run_cell": false
+  },
+  "M-08b": {
+    "B_anchor": 343,
+    "CCC_anchor": 1356,
+    "BB_anchor": 206,
+    "up": [
+      358,
+      1416
+    ],
+    "down": [
+      328,
+      1296
+    ],
+    "BB_mechanism": [
+      216,
+      196
+    ],
+    "anchor_is_run_cell": false
+  },
+  "split": [
+    20,
+    47,
+    33
+  ],
+  "vintage_comparison": "first-published equals latest on all overlapping returned cells; not a global revision claim"
+}

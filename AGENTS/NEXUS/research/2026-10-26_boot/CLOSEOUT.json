@@ -1,0 +1,20 @@
+{
+  "observed_at": "2026-10-26T21:15:14-04:00",
+  "tier": "STANDARD",
+  "boot": "PARTIAL",
+  "fleet_paths": 73,
+  "late_movers": [],
+  "late_disposition": "Explicitly deferred to existing L554 proper pass; no new matrix conclusion.",
+  "model_dependency": "3 Opus digest readers unavailable; no substitute",
+  "promotion": "none",
+  "other_dirty_owner": "CARL; untouched; no pull",
+  "checks": {
+    "read_cap": "PASS; owned below75%; LAST_COMPLETION24226B",
+    "weekday": "PASS;6 initial plus3 after edits",
+    "state_and_source": "PASS; exact decimals/vintages and owner-state alignment",
+    "scoped_diff_check": "PASS; NEXUS plus own PROME packet",
+    "global_diff_check": "CARL BOARD_LOG trailing tabs observed, not changed by NEXUS",
+    "orphan_check": "Own PROME packet included; CARL dirty paths untouched",
+    "residue": "18 retained dated-history rows; RESIDUE_CHECK.tsv"
+  }
+}

@@ -1,0 +1,434 @@
+{
+  "DGS10": {
+    "read_at": "2026-10-26T21:04:32-04:00",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10",
+    "rows": [
+      {
+        "observation_date": "2026-10-08",
+        "DGS10": "5.22"
+      },
+      {
+        "observation_date": "2026-10-09",
+        "DGS10": "5.24"
+      },
+      {
+        "observation_date": "2026-10-12",
+        "DGS10": ""
+      },
+      {
+        "observation_date": "2026-10-13",
+        "DGS10": "5.21"
+      },
+      {
+        "observation_date": "2026-10-14",
+        "DGS10": "5.19"
+      },
+      {
+        "observation_date": "2026-10-15",
+        "DGS10": "5.10"
+      },
+      {
+        "observation_date": "2026-10-16",
+        "DGS10": "5.09"
+      },
+      {
+        "observation_date": "2026-10-19",
+        "DGS10": "5.15"
+      },
+      {
+        "observation_date": "2026-10-20",
+        "DGS10": "5.12"
+      },
+      {
+        "observation_date": "2026-10-21",
+        "DGS10": "5.13"
+      },
+      {
+        "observation_date": "2026-10-22",
+        "DGS10": "4.96"
+      },
+      {
+        "observation_date": "2026-10-23",
+        "DGS10": "5.00"
+      }
+    ]
+  },
+  "DFII10": {
+    "read_at": "2026-10-26T21:04:32-04:00",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DFII10",
+    "rows": [
+      {
+        "observation_date": "2026-10-08",
+        "DFII10": "2.87"
+      },
+      {
+        "observation_date": "2026-10-09",
+        "DFII10": "2.91"
+      },
+      {
+        "observation_date": "2026-10-12",
+        "DFII10": ""
+      },
+      {
+        "observation_date": "2026-10-13",
+        "DFII10": "2.88"
+      },
+      {
+        "observation_date": "2026-10-14",
+        "DFII10": "2.84"
+      },
+      {
+        "observation_date": "2026-10-15",
+        "DFII10": "2.78"
+      },
+      {
+        "observation_date": "2026-10-16",
+        "DFII10": "2.74"
+      },
+      {
+        "observation_date": "2026-10-19",
+        "DFII10": "2.80"
+      },
+      {
+        "observation_date": "2026-10-20",
+        "DFII10": "2.77"
+      },
+      {
+        "observation_date": "2026-10-21",
+        "DFII10": "2.76"
+      },
+      {
+        "observation_date": "2026-10-22",
+        "DFII10": "2.64"
+      },
+      {
+        "observation_date": "2026-10-23",
+        "DFII10": "2.66"
+      }
+    ]
+  },
+  "BAMLH0A0HYM2": {
+    "read_at": "2026-10-26T21:04:32-04:00",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2",
+    "rows": [
+      {
+        "observation_date": "2026-10-08",
+        "BAMLH0A0HYM2": "3.15"
+      },
+      {
+        "observation_date": "2026-10-09",
+        "BAMLH0A0HYM2": "3.11"
+      },
+      {
+        "observation_date": "2026-10-12",
+        "BAMLH0A0HYM2": "3.11"
+      },
+      {
+        "observation_date": "2026-10-13",
+        "BAMLH0A0HYM2": "3.16"
+      },
+      {
+        "observation_date": "2026-10-14",
+        "BAMLH0A0HYM2": "3.25"
+      },
+      {
+        "observation_date": "2026-10-15",
+        "BAMLH0A0HYM2": "3.23"
+      },
+      {
+        "observation_date": "2026-10-16",
+        "BAMLH0A0HYM2": "3.31"
+      },
+      {
+        "observation_date": "2026-10-19",
+        "BAMLH0A0HYM2": "3.29"
+      },
+      {
+        "observation_date": "2026-10-20",
+        "BAMLH0A0HYM2": "3.33"
+      },
+      {
+        "observation_date": "2026-10-21",
+        "BAMLH0A0HYM2": "3.27"
+      },
+      {
+        "observation_date": "2026-10-22",
+        "BAMLH0A0HYM2": "3.40"
+      },
+      {
+        "observation_date": "2026-10-23",
+        "BAMLH0A0HYM2": "3.38"
+      }
+    ]
+  },
+  "BAMLH0A3HYC": {
+    "read_at": "2026-10-26T21:04:32-04:00",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A3HYC",
+    "rows": [
+      {
+        "observation_date": "2026-10-08",
+        "BAMLH0A3HYC": "12.52"
+      },
+      {
+        "observation_date": "2026-10-09",
+        "BAMLH0A3HYC": "12.53"
+      },
+      {
+        "observation_date": "2026-10-12",
+        "BAMLH0A3HYC": "12.53"
+      },
+      {
+        "observation_date": "2026-10-13",
+        "BAMLH0A3HYC": "12.67"
+      },
+      {
+        "observation_date": "2026-10-14",
+        "BAMLH0A3HYC": "12.82"
+      },
+      {
+        "observation_date": "2026-10-15",
+        "BAMLH0A3HYC": "12.78"
+      },
+      {
+        "observation_date": "2026-10-16",
+        "BAMLH0A3HYC": "12.97"
+      },
+      {
+        "observation_date": "2026-10-19",
+        "BAMLH0A3HYC": "13.10"
+      },
+      {
+        "observation_date": "2026-10-20",
+        "BAMLH0A3HYC": "13.27"
+      },
+      {
+        "observation_date": "2026-10-21",
+        "BAMLH0A3HYC": "13.07"
+      },
+      {
+        "observation_date": "2026-10-22",
+        "BAMLH0A3HYC": "13.40"
+      },
+      {
+        "observation_date": "2026-10-23",
+        "BAMLH0A3HYC": "13.56"
+      }
+    ]
+  },
+  "BAMLH0A2HYB": {
+    "read_at": "2026-10-26T21:04:32-04:00",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A2HYB",
+    "rows": [
+      {
+        "observation_date": "2026-10-08",
+        "BAMLH0A2HYB": "3.15"
+      },
+      {
+        "observation_date": "2026-10-09",
+        "BAMLH0A2HYB": "3.10"
+      },
+      {
+        "observation_date": "2026-10-12",
+        "BAMLH0A2HYB": "3.10"
+      },
+      {
+        "observation_date": "2026-10-13",
+        "BAMLH0A2HYB": "3.17"
+      },
+      {
+        "observation_date": "2026-10-14",
+        "BAMLH0A2HYB": "3.29"
+      },
+      {
+        "observation_date": "2026-10-15",
+        "BAMLH0A2HYB": "3.26"
+      },
+      {
+        "observation_date": "2026-10-16",
+        "BAMLH0A2HYB": "3.35"
+      },
+      {
+        "observation_date": "2026-10-19",
+        "BAMLH0A2HYB": "3.36"
+      },
+      {
+        "observation_date": "2026-10-20",
+        "BAMLH0A2HYB": "3.38"
+      },
+      {
+        "observation_date": "2026-10-21",
+        "BAMLH0A2HYB": "3.32"
+      },
+      {
+        "observation_date": "2026-10-22",
+        "BAMLH0A2HYB": "3.46"
+      },
+      {
+        "observation_date": "2026-10-23",
+        "BAMLH0A2HYB": "3.43"
+      }
+    ]
+  },
+  "BAMLH0A1HYBB": {
+    "read_at": "2026-10-26T21:04:32-04:00",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A1HYBB",
+    "rows": [
+      {
+        "observation_date": "2026-10-08",
+        "BAMLH0A1HYBB": "1.94"
+      },
+      {
+        "observation_date": "2026-10-09",
+        "BAMLH0A1HYBB": "1.88"
+      },
+      {
+        "observation_date": "2026-10-12",
+        "BAMLH0A1HYBB": "1.88"
+      },
+      {
+        "observation_date": "2026-10-13",
+        "BAMLH0A1HYBB": "1.91"
+      },
+      {
+        "observation_date": "2026-10-14",
+        "BAMLH0A1HYBB": "1.99"
+      },
+      {
+        "observation_date": "2026-10-15",
+        "BAMLH0A1HYBB": "1.97"
+      },
+      {
+        "observation_date": "2026-10-16",
+        "BAMLH0A1HYBB": "2.03"
+      },
+      {
+        "observation_date": "2026-10-19",
+        "BAMLH0A1HYBB": "2.00"
+      },
+      {
+        "observation_date": "2026-10-20",
+        "BAMLH0A1HYBB": "2.02"
+      },
+      {
+        "observation_date": "2026-10-21",
+        "BAMLH0A1HYBB": "1.98"
+      },
+      {
+        "observation_date": "2026-10-22",
+        "BAMLH0A1HYBB": "2.10"
+      },
+      {
+        "observation_date": "2026-10-23",
+        "BAMLH0A1HYBB": "2.06"
+      }
+    ]
+  },
+  "BAMLC0A0CM": {
+    "read_at": "2026-10-26T21:04:32-04:00",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLC0A0CM",
+    "rows": [
+      {
+        "observation_date": "2026-10-08",
+        "BAMLC0A0CM": "0.82"
+      },
+      {
+        "observation_date": "2026-10-09",
+        "BAMLC0A0CM": "0.83"
+      },
+      {
+        "observation_date": "2026-10-12",
+        "BAMLC0A0CM": "0.83"
+      },
+      {
+        "observation_date": "2026-10-13",
+        "BAMLC0A0CM": "0.83"
+      },
+      {
+        "observation_date": "2026-10-14",
+        "BAMLC0A0CM": "0.84"
+      },
+      {
+        "observation_date": "2026-10-15",
+        "BAMLC0A0CM": "0.84"
+      },
+      {
+        "observation_date": "2026-10-16",
+        "BAMLC0A0CM": "0.85"
+      },
+      {
+        "observation_date": "2026-10-19",
+        "BAMLC0A0CM": "0.87"
+      },
+      {
+        "observation_date": "2026-10-20",
+        "BAMLC0A0CM": "0.87"
+      },
+      {
+        "observation_date": "2026-10-21",
+        "BAMLC0A0CM": "0.88"
+      },
+      {
+        "observation_date": "2026-10-22",
+        "BAMLC0A0CM": "0.89"
+      },
+      {
+        "observation_date": "2026-10-23",
+        "BAMLC0A0CM": "0.91"
+      }
+    ]
+  },
+  "VIXCLS": {
+    "read_at": "2026-10-26T21:04:32-04:00",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=VIXCLS",
+    "rows": [
+      {
+        "observation_date": "2026-10-08",
+        "VIXCLS": "15.41"
+      },
+      {
+        "observation_date": "2026-10-09",
+        "VIXCLS": "14.84"
+      },
+      {
+        "observation_date": "2026-10-12",
+        "VIXCLS": "15.21"
+      },
+      {
+        "observation_date": "2026-10-13",
+        "VIXCLS": "15.27"
+      },
+      {
+        "observation_date": "2026-10-14",
+        "VIXCLS": "16.87"
+      },
+      {
+        "observation_date": "2026-10-15",
+        "VIXCLS": "16.46"
+      },
+      {
+        "observation_date": "2026-10-16",
+        "VIXCLS": "19.99"
+      },
+      {
+        "observation_date": "2026-10-19",
+        "VIXCLS": "18.44"
+      },
+      {
+        "observation_date": "2026-10-20",
+        "VIXCLS": "17.31"
+      },
+      {
+        "observation_date": "2026-10-21",
+        "VIXCLS": "16.68"
+      },
+      {
+        "observation_date": "2026-10-22",
+        "VIXCLS": "19.03"
+      },
+      {
+        "observation_date": "2026-10-23",
+        "VIXCLS": "19.45"
+      }
+    ]
+  }
+}
