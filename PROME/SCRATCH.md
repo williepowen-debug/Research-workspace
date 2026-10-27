@@ -3,6 +3,8 @@
 
 ## ★ NEXT SESSION — START HERE
 
+**October26 FERT return consumed:** [receipt](reports/2026-10-26_fert-consumption.md). L758 October ERS read RESOLVED; owner transmission test not firing. L579 CPI input corrected to November10 08:30ET; November15 re-look remains pending. October28 checks and November5 China primary-basis check retained. Potash flags accepted at triage depth; source limits remain. Local commits only; remote sync deferred on foreign dirty paths.
+
 **October26 ISHM first return consumed:** [receipt](reports/2026-10-26_ishm-consumption/RECORD.md). First session delivered with named carries; READS attestation registered/checks pass; ROSTER now reflects already-ruled ISHM<47 ownership. HENRY pointers/WATT reply remain owed. Tuesday durables08:30ET and Richmond10:00–10:10ET prepared in owner release plan; no future observations or new gates inferred.
 
 **October26 NEXUS return consumed:** [receipt](reports/2026-10-26_nexus-consumption/RECORD.md). L832 numerical leg delivered; full fleet pass remains pending at October27 L554 with runtime/model dependency. L836 brief-repair consumption CLOSED. L555 rollup, WQ519 examples and FLG follow-through remain owed. GATES L16 count/reset mirrored without changing the letter or review date.
