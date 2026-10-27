@@ -1,0 +1,1305 @@
+{
+  "purpose": "One-time preservation of untracked WALTER market-data cache observations before computer switch, authorized by Will October 26, 2026. No new research or refreshed data.",
+  "comparison": "Canonical JSON object/list equality against committed JSON subtrees in the corresponding research-session directories at comparison_commit; not a proof of unique information across all repository formats. Unmatched payloads preserved conservatively. Duplicate values stored once; every original cache path and timestamp retained. Original JSON whitespace is not preserved.",
+  "limitations": "Historical vendor/source cache values, not independently validated facts or live prices. Cache timestamps do not prove publication vintage. Existing owner caveats and grades govern. No cookie/time-zone databases, environment credentials or ignored/private files included. Original files left unchanged.",
+  "comparison_commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+  "summary": {
+    "already_committed": 105,
+    "preserved_payload": 1,
+    "duplicate_preserved_payload": 2,
+    "interpretation": "All market observation payloads already exist in committed evidence. The sole unmatched distinct payload is FRED frequency metadata, repeated in three cache files; preserved once for completeness."
+  },
+  "sources": [
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-12_reboot/.cache/eia_petroleum_stoc_wstk_W_EPC0_SAX_YCUOK_MBBL_2.json",
+      "original_file_sha256": "1a0079e81e24dd2aa9dfda7c5f5b83c6b6ea3ce8dd5ab642d30ad53679940515",
+      "cache_timestamp": 1791823971.9618177,
+      "payload_sha256": "8d492e8cea38f7e1e09357ef6a6b554d841d23ddd44ef0d58d6f5278201ef9fb",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-12_reboot/observations.json",
+        "json_pointer": "/Cushing"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-12_reboot/.cache/fred_BAMLH0A0HYM2_12.json",
+      "original_file_sha256": "afaaa71a219a4d3ca73d970004eb60d7ba0e530e44a2ebed4fcd21a5a0c55848",
+      "cache_timestamp": 1791823969.5359867,
+      "payload_sha256": "c06e395ce93dd127b4d11a731e425c014fc9743ea773dbf13b25239a38b41f0e",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-12_reboot/observations.json",
+        "json_pointer": "/BAMLH0A0HYM2"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-12_reboot/.cache/fred_BAMLH0A3HYC_12.json",
+      "original_file_sha256": "5e553fe28367fc64dad5355edc47a69aeefb9e1344db01c733e6b83bd22f6701",
+      "cache_timestamp": 1791823969.1043818,
+      "payload_sha256": "fd669b20a805e98d2a93ebd70c3508b9dfb84904b3abc88674748f093b6943c6",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-12_reboot/observations.json",
+        "json_pointer": "/BAMLH0A3HYC"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-12_reboot/.cache/fred_DFII10_12.json",
+      "original_file_sha256": "e0a320b2ac5b1bb3e2cca3d936c59facf7b24cc1b3eadfe805788cb7f592e6ad",
+      "cache_timestamp": 1791823969.8615718,
+      "payload_sha256": "897b195ed867e8c5ba9b1f75a95bea7a659ae6a0f0b5de7e0fc016f9e2dffddd",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-12_reboot/observations.json",
+        "json_pointer": "/DFII10"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-12_reboot/.cache/fred_DGS10_12.json",
+      "original_file_sha256": "fa36f4710da2414acf721ff6aa9fdbfbb2dc8915fef9140aa233fe4053ed203b",
+      "cache_timestamp": 1791823969.692463,
+      "payload_sha256": "634e04ad43851a9fbfb8b04cee944551c2c2b7f9be595c0eae3569228fec8847",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-12_reboot/observations.json",
+        "json_pointer": "/DGS10"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-12_reboot/.cache/fred_DGS20_12.json",
+      "original_file_sha256": "37869db9cd0b6ce0a4ed91f042cfb898b1fad4847d61f4e9f75ef028af8153eb",
+      "cache_timestamp": 1791823969.666471,
+      "payload_sha256": "79fbd72f2ecde6f35b13be2b0a9e127a8455f725e53a46388e763d36ddfd0477",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-12_reboot/observations.json",
+        "json_pointer": "/DGS20"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-12_reboot/.cache/fred_DGS2_12.json",
+      "original_file_sha256": "2d4f1e876049411395a265922ba381232afc8b80399c9e43ea77b15cd0b859ec",
+      "cache_timestamp": 1791823969.3835711,
+      "payload_sha256": "256e9fad206668fdf66df907bcd5cbee53a789b0fc6421d529f8be758dbc36ed",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-12_reboot/observations.json",
+        "json_pointer": "/DGS2"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-12_reboot/.cache/fred_DGS30_12.json",
+      "original_file_sha256": "52803b83f926c7966166762f2e987024a1967016cdccccb40e659c6394a0cbc4",
+      "cache_timestamp": 1791823970.1556826,
+      "payload_sha256": "e2275cc394cc88aa40bde0321fe2c2ddd7cc070b23865111c4359859b001d2a3",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-12_reboot/observations.json",
+        "json_pointer": "/DGS30"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-12_reboot/.cache/fred_DGS5_12.json",
+      "original_file_sha256": "5110a64f2699da4ae281a2604216650911a361020da4f5eb42fc39a9cc5a9c28",
+      "cache_timestamp": 1791823969.4660225,
+      "payload_sha256": "e6045edcf66503989f5f12e70d5b9f97fa59f25aa0175dd7318dfb433cc5159b",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-12_reboot/observations.json",
+        "json_pointer": "/DGS5"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-12_reboot/.cache/fred_ICSA_12.json",
+      "original_file_sha256": "f4b30492591c1541fa497295baf7418f62c4e0e039e32dd05d82750e9b7954dd",
+      "cache_timestamp": 1791823969.034324,
+      "payload_sha256": "cd24c25fc591d6c0e219c9c479e1cd190c554779ecf972b6f4b6f312509eb978",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-12_reboot/observations.json",
+        "json_pointer": "/ICSA"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-12_reboot/.cache/fred_IORB_12.json",
+      "original_file_sha256": "57cc8ecf8c23bf5903cbaa6630e95819efc449404867a44d9ee3913374b58004",
+      "cache_timestamp": 1791823969.392733,
+      "payload_sha256": "88fabd66bc933a5a8705475f01836715ffcd1b91df42ab60926125f1f70e6c89",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-12_reboot/observations.json",
+        "json_pointer": "/IORB"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-12_reboot/.cache/fred_SOFR_12.json",
+      "original_file_sha256": "6d7a8d34297be3dccc12b68e2a71e4757a218f12bc45891838da6499eed7cda2",
+      "cache_timestamp": 1791823969.3692122,
+      "payload_sha256": "3daed9da9dfa1c8bcc3dd9d55856d99c07d52167dcf6f56553e734c3c5d99138",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-12_reboot/observations.json",
+        "json_pointer": "/SOFR"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-12_reboot/.cache/fred_T10YIE_12.json",
+      "original_file_sha256": "6e749778855798fe7aefcf36048e8ad16614837d90d6336105f91e36a5b27193",
+      "cache_timestamp": 1791823969.719318,
+      "payload_sha256": "c5b6615c5c1c873d07f385f5fcdf11698d2379106f9038cb10af178036284808",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-12_reboot/observations.json",
+        "json_pointer": "/T10YIE"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-12_reboot/.cache/fred_T5YIFR_12.json",
+      "original_file_sha256": "d97fbfa9766972c79d9cc400e6dff06aea0eacd5108fb095e590c5b86be9e7d8",
+      "cache_timestamp": 1791823969.1523793,
+      "payload_sha256": "3942483980f80e6bbb64173cf12666ab5e0e68204d61ac7575686dc76fafadd3",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-12_reboot/observations.json",
+        "json_pointer": "/T5YIFR"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-12_reboot/.cache/fred_VIXCLS_12.json",
+      "original_file_sha256": "45fc3fe374dd646ccda38c26a1a9a5731fc3d43903a46366e2cc489ba6eded6f",
+      "cache_timestamp": 1791823969.037138,
+      "payload_sha256": "16c1327cbeb296401f1099f55301a18073d8f34e5959c50ad9c709e6882bf10c",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-12_reboot/observations.json",
+        "json_pointer": "/VIXCLS"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-12_reboot/.cache/prices_BZZ26.NYM_CLX26.NYM_CLZ26.NYM_EURUSD_X_HOX26.NYM_HOZ26.NYM_KRE_OZK_QQQ_RBX26.NYM_RBZ26.NYM_TTFX26.NYM_USO_WAL__VIX.json",
+      "original_file_sha256": "bf47a3888f8c08688c16a58f48138c3d6d2c916e76ca3439c6a2ffcef8eec6cc",
+      "cache_timestamp": 1791823976.488238,
+      "payload_sha256": "d95494dd753839415b31471ae1006d5d365b499568acbb8e43cbfeb28501dd69",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-12_reboot/observations.json",
+        "json_pointer": "/prices"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-16_codex-boot/.cache/eia_petroleum_stoc_wstk_W_EPC0_SAX_YCUOK_MBBL_2.json",
+      "original_file_sha256": "dbb56161a27c7998fd3af321ff495245f4ac6ba68bedd746d6507e1667b5aa0c",
+      "cache_timestamp": 1792168279.146135,
+      "payload_sha256": "43749b57e60cddd279c5c5c786c03a546626efdc9f65fca6efef9a7ed44c81ab",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-16_codex-boot/observations.json",
+        "json_pointer": "/Cushing"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-16_codex-boot/.cache/fred_BAMLH0A0HYM2_12.json",
+      "original_file_sha256": "0e57b1a75220cadaf046297420c3b6960877b66a52eaa6636e786fe213f4a354",
+      "cache_timestamp": 1792168267.7116265,
+      "payload_sha256": "152a8b870406f8da0ca093aa9fb47604bc0ccff388e25b60a2603eb7fa14c21c",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-16_codex-boot/observations.json",
+        "json_pointer": "/BAMLH0A0HYM2"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-16_codex-boot/.cache/fred_BAMLH0A3HYC_12.json",
+      "original_file_sha256": "06d2e5a6719f90531146798be7b62bdb0891a1acda4a15bf6258e333025412a0",
+      "cache_timestamp": 1792168267.5794551,
+      "payload_sha256": "1420327bed2411e9f5bb80a80e8dc37f7cfd51457b2d7881ab5de56866ad751d",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-16_codex-boot/observations.json",
+        "json_pointer": "/BAMLH0A3HYC"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-16_codex-boot/.cache/fred_DFII10_12.json",
+      "original_file_sha256": "85723e706db43ab30914dcf6f118af722db05964e7c671afef9c177ac5c9f5f3",
+      "cache_timestamp": 1792168270.6825147,
+      "payload_sha256": "82f69795fd6037d5292e4037aca453db3a154d0a83ae4e6cdc06221a14703391",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-16_codex-boot/observations.json",
+        "json_pointer": "/DFII10"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-16_codex-boot/.cache/fred_DGS10_12.json",
+      "original_file_sha256": "ff1152ff8713580317de079b612bf3f7baefbc04175d0ac3ab04af32e3d00dba",
+      "cache_timestamp": 1792168272.7334833,
+      "payload_sha256": "f778385bfbbad40c668368223f672ca33d7592455f67e43464b2e9cd3bbd482e",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-16_codex-boot/observations.json",
+        "json_pointer": "/DGS10"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-16_codex-boot/.cache/fred_DGS20_12.json",
+      "original_file_sha256": "7f0aaeea2cac561b3a3856854550ba94cd7fceba74170930290cb7b5fce84446",
+      "cache_timestamp": 1792168269.6801562,
+      "payload_sha256": "c42a1914d2520b638592c8bfb46e3cff40f0b0cd0708892ce138a2709b16bb02",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-16_codex-boot/observations.json",
+        "json_pointer": "/DGS20"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-16_codex-boot/.cache/fred_DGS2_12.json",
+      "original_file_sha256": "bebb5ade447225a7e6df4a5d069a717ff08d5c406ea427245af01177e637c29b",
+      "cache_timestamp": 1792168269.2769935,
+      "payload_sha256": "72a12e9fef6fe7ee95163c98b83fa46342811cc551a518fb5b10e5c866aeba7b",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-16_codex-boot/observations.json",
+        "json_pointer": "/DGS2"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-16_codex-boot/.cache/fred_DGS30_12.json",
+      "original_file_sha256": "aaf5658b437fe0f8301231f9902ac9909a3bc8f4b6b8b8d393a2e8887aa3ae76",
+      "cache_timestamp": 1792168269.8698857,
+      "payload_sha256": "6d9c3147cbe7740c5d655ce8b14d6a96f3022d18ebf906265b3d4231e95255aa",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-16_codex-boot/observations.json",
+        "json_pointer": "/DGS30"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-16_codex-boot/.cache/fred_DGS5_12.json",
+      "original_file_sha256": "fb990da028406aab1334331747ceff7f5b08fb43977c4f384f3ad3ee16491eb6",
+      "cache_timestamp": 1792168269.7060578,
+      "payload_sha256": "a0a3874913dfa8a74251cd1db224153bb335d5aad567324e326a3bb4c8c94793",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-16_codex-boot/observations.json",
+        "json_pointer": "/DGS5"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-16_codex-boot/.cache/fred_ICSA_12.json",
+      "original_file_sha256": "46e04affdaff02c6b2b703b81309f2da77b63ea683b42b6b4004f18892ed827a",
+      "cache_timestamp": 1792168267.7776253,
+      "payload_sha256": "035ecce4b6a02504ca03c7e32c0ddb28274448a0247356945dee20b8bf2fa023",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-16_codex-boot/observations.json",
+        "json_pointer": "/ICSA"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-16_codex-boot/.cache/fred_IORB_12.json",
+      "original_file_sha256": "249fa4d15a1ef3611a5a917f52d7d5b99ce6ee278f35bd506579b5689b9d46ad",
+      "cache_timestamp": 1792168268.59997,
+      "payload_sha256": "e4a062f167847e8e94a765262a2eb6c51f33ebc9fbb1957e475de863dc86b47d",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-16_codex-boot/observations.json",
+        "json_pointer": "/IORB"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-16_codex-boot/.cache/fred_SOFR_12.json",
+      "original_file_sha256": "7483da627b0a71dbeeb09b620a2b10bcaa1533539b8cdaf954382e07f72ab7af",
+      "cache_timestamp": 1792168270.1285827,
+      "payload_sha256": "72b901a0dfc8472be261b035a51ea49a1b72751b7a70bb45eb5f105b45b4017d",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-16_codex-boot/observations.json",
+        "json_pointer": "/SOFR"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-16_codex-boot/.cache/fred_T10YIE_12.json",
+      "original_file_sha256": "47513fc377ed78486cb7ed5925083292a314946f99f6d7176588920a0c673621",
+      "cache_timestamp": 1792168272.5952318,
+      "payload_sha256": "16748339669bc464b58203f93385902fc97ef57dec997e395cd662078f7789be",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-16_codex-boot/observations.json",
+        "json_pointer": "/T10YIE"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-16_codex-boot/.cache/fred_T5YIFR_12.json",
+      "original_file_sha256": "9c63632f010b6040524097431b895f48e5551c039cb567dd463c88ff2c26881b",
+      "cache_timestamp": 1792168269.1568587,
+      "payload_sha256": "5a75563d23c1ad92a2ef7e309ff58b3430cd5c9ffe0573a451fb85ddc0931886",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-16_codex-boot/observations.json",
+        "json_pointer": "/T5YIFR"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-16_codex-boot/.cache/fred_VIXCLS_12.json",
+      "original_file_sha256": "7934abbbd2e416649940ae2a84a558a3d63969beb7e876d6ea98ea7b117aca21",
+      "cache_timestamp": 1792168267.806848,
+      "payload_sha256": "461d6733224994489174a40c02202291f74ad07bdbaf1a6bc1a6eb1a826567f1",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-16_codex-boot/observations.json",
+        "json_pointer": "/VIXCLS"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-16_codex-boot/.cache/prices_BZZ26.NYM_CLX26.NYM_CLZ26.NYM_EURUSD_X_HOX26.NYM_HOZ26.NYM_KRE_OZK_QQQ_RBX26.NYM_RBZ26.NYM_TTFX26.NYM_USO_WAL__VIX.json",
+      "original_file_sha256": "91c2127417091a32aaaa761d8acbc0e8690c32f4d282b571d083db42d1f93f04",
+      "cache_timestamp": 1792168274.3733537,
+      "payload_sha256": "09574c69a266dfa63bb1146e22abf66d4d0ee6fb6a67f37a3851e9315b70eb40",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-16_codex-boot/observations.json",
+        "json_pointer": "/prices"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-16_finish/.cache/eia_petroleum_stoc_wstk_W_EPC0_SAX_YCUOK_MBBL_2.json",
+      "original_file_sha256": "622949894c6101a25e5313377c168f0e4d048f2b8f97cfda6321d52b8f24c7ee",
+      "cache_timestamp": 1792171142.0381174,
+      "payload_sha256": "43749b57e60cddd279c5c5c786c03a546626efdc9f65fca6efef9a7ed44c81ab",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-16_codex-boot/observations.json",
+        "json_pointer": "/Cushing"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-16_finish/.cache/fred_BAMLH0A0HYM2_12.json",
+      "original_file_sha256": "201fc43fb39e7aa00c5f0f8a1346ddd30f16f6ebd7f86ad6e0009b2de2b98c03",
+      "cache_timestamp": 1792171142.0001054,
+      "payload_sha256": "152a8b870406f8da0ca093aa9fb47604bc0ccff388e25b60a2603eb7fa14c21c",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-16_codex-boot/observations.json",
+        "json_pointer": "/BAMLH0A0HYM2"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-16_finish/.cache/fred_BAMLH0A3HYC_12.json",
+      "original_file_sha256": "b3e2977139b5c65907037564602ea69435afa90156f6e49bb2171d35037c80d3",
+      "cache_timestamp": 1792171145.5842066,
+      "payload_sha256": "1420327bed2411e9f5bb80a80e8dc37f7cfd51457b2d7881ab5de56866ad751d",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-16_codex-boot/observations.json",
+        "json_pointer": "/BAMLH0A3HYC"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-16_finish/.cache/fred_DFII10_12.json",
+      "original_file_sha256": "c5eaafba438ce15b5ece17d4c44a9652599f578638dcdcd8c6c570ea824bc908",
+      "cache_timestamp": 1792171140.0536816,
+      "payload_sha256": "82f69795fd6037d5292e4037aca453db3a154d0a83ae4e6cdc06221a14703391",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-16_codex-boot/observations.json",
+        "json_pointer": "/DFII10"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-16_finish/.cache/fred_DGS10_12.json",
+      "original_file_sha256": "97a5748803468c8411fec87632fb5314999d1e313857f281ce8585d050cd5a40",
+      "cache_timestamp": 1792171137.944339,
+      "payload_sha256": "f778385bfbbad40c668368223f672ca33d7592455f67e43464b2e9cd3bbd482e",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-16_codex-boot/observations.json",
+        "json_pointer": "/DGS10"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-16_finish/.cache/fred_DGS20_12.json",
+      "original_file_sha256": "c8c98afc67f9d9685a36965f226b9835b63d48f1ed62ea504187ec7ec5616d87",
+      "cache_timestamp": 1792171138.3927019,
+      "payload_sha256": "c42a1914d2520b638592c8bfb46e3cff40f0b0cd0708892ce138a2709b16bb02",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-16_codex-boot/observations.json",
+        "json_pointer": "/DGS20"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-16_finish/.cache/fred_DGS2_12.json",
+      "original_file_sha256": "fa23bdb2b0a1b16b39a3b6b0d8743025aea88f38ca656379309bbd58853e3794",
+      "cache_timestamp": 1792171137.6687863,
+      "payload_sha256": "72a12e9fef6fe7ee95163c98b83fa46342811cc551a518fb5b10e5c866aeba7b",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-16_codex-boot/observations.json",
+        "json_pointer": "/DGS2"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-16_finish/.cache/fred_DGS30_12.json",
+      "original_file_sha256": "9ef6c165cd810999b6b2a13f0c1aa384ee36eb6d29cf07ad53ad4bcca223c25c",
+      "cache_timestamp": 1792171139.2051122,
+      "payload_sha256": "6d9c3147cbe7740c5d655ce8b14d6a96f3022d18ebf906265b3d4231e95255aa",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-16_codex-boot/observations.json",
+        "json_pointer": "/DGS30"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-16_finish/.cache/fred_DGS5_12.json",
+      "original_file_sha256": "34b4afc9cbf7a890d6185f30fd08aeb09703259f2fc89603f1531ca4c3a8d37a",
+      "cache_timestamp": 1792171140.5368233,
+      "payload_sha256": "a0a3874913dfa8a74251cd1db224153bb335d5aad567324e326a3bb4c8c94793",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-16_codex-boot/observations.json",
+        "json_pointer": "/DGS5"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-16_finish/.cache/fred_ICSA_12.json",
+      "original_file_sha256": "3b1a0df6883a041b762f9d3f7d982bdf887fbb10b7231337555d770d47e60015",
+      "cache_timestamp": 1792171136.9543233,
+      "payload_sha256": "035ecce4b6a02504ca03c7e32c0ddb28274448a0247356945dee20b8bf2fa023",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-16_codex-boot/observations.json",
+        "json_pointer": "/ICSA"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-16_finish/.cache/fred_IORB_12.json",
+      "original_file_sha256": "ae28f52fdf380750c4d213d108133235feacb1412e72eb03b18c5870367cee7c",
+      "cache_timestamp": 1792171137.3968766,
+      "payload_sha256": "e4a062f167847e8e94a765262a2eb6c51f33ebc9fbb1957e475de863dc86b47d",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-16_codex-boot/observations.json",
+        "json_pointer": "/IORB"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-16_finish/.cache/fred_SOFR_12.json",
+      "original_file_sha256": "f3ed5a30b7a3313ae6f899c65c23093d2c283cd72be7cfb675758a90821f3949",
+      "cache_timestamp": 1792171137.5377588,
+      "payload_sha256": "72b901a0dfc8472be261b035a51ea49a1b72751b7a70bb45eb5f105b45b4017d",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-16_codex-boot/observations.json",
+        "json_pointer": "/SOFR"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-16_finish/.cache/fred_T10YIE_12.json",
+      "original_file_sha256": "0ac7e5689f4d7a9f2305a41b80bc3966a195f3ccbed2ebb66416d5032ff56640",
+      "cache_timestamp": 1792171139.558335,
+      "payload_sha256": "16748339669bc464b58203f93385902fc97ef57dec997e395cd662078f7789be",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-16_codex-boot/observations.json",
+        "json_pointer": "/T10YIE"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-16_finish/.cache/fred_T5YIFR_12.json",
+      "original_file_sha256": "72b9ff21facfcbc05f8bee6e10ef73533aabfd6f56c247204a7c62955eed62cb",
+      "cache_timestamp": 1792171137.1079779,
+      "payload_sha256": "5a75563d23c1ad92a2ef7e309ff58b3430cd5c9ffe0573a451fb85ddc0931886",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-16_codex-boot/observations.json",
+        "json_pointer": "/T5YIFR"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-16_finish/.cache/fred_VIXCLS_12.json",
+      "original_file_sha256": "ffeb91aeb7cd1759fbdbbacf69c1b9a704088dd6177795bfaeff12260a805e4c",
+      "cache_timestamp": 1792171139.8918047,
+      "payload_sha256": "461d6733224994489174a40c02202291f74ad07bdbaf1a6bc1a6eb1a826567f1",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-16_codex-boot/observations.json",
+        "json_pointer": "/VIXCLS"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-16_finish/.cache/prices_BZZ26.NYM_CLX26.NYM_CLZ26.NYM_EURUSD_X_HOX26.NYM_HOZ26.NYM_KRE_OZK_QQQ_RBX26.NYM_RBZ26.NYM_TTFX26.NYM_USO_WAL__VIX.json",
+      "original_file_sha256": "4df5af39b5d417e480db29d9a16c00c51a7f1e8f1e12fce2f269e89bab351341",
+      "cache_timestamp": 1792171147.1226425,
+      "payload_sha256": "6e52aeb4304b16da06beb7b8927571b0df4dda17b8cad4caa4e43765b3d96608",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-16_finish/observations.json",
+        "json_pointer": "/prices"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-16_finish/credit-cache/fred_BAMLH0A2HYB_750.json",
+      "original_file_sha256": "14971155320218677394f497196e5385ee95ea2e12b2f734cbb27b3ddbb0b1c4",
+      "cache_timestamp": 1792171258.612202,
+      "payload_sha256": "d5096bc086c650eebf920b3796925268211dd538af076fa798ff48d5b010673f",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-16_finish/credit-funding.json",
+        "json_pointer": "/BAMLH0A2HYB"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-16_finish/credit-cache/fred_IORB_750.json",
+      "original_file_sha256": "480952e2e0a71903d4b0fa08bf9a3b1da94fa7de6a1f092f79b6b6817f3512d4",
+      "cache_timestamp": 1792171256.194193,
+      "payload_sha256": "7c1afb8b90b970b8acf0fe60dbda18c3520075d77d272ef9217a6b3bb43b55e1",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-16_finish/credit-funding.json",
+        "json_pointer": "/IORB"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-16_finish/credit-cache/fred_RPONTTLD_750.json",
+      "original_file_sha256": "597a0e1c92fe6cd676f129356a7215f7385ba74ebb6cc6af709695a89a53ac88",
+      "cache_timestamp": 1792171258.2364914,
+      "payload_sha256": "b23bfbff4f0cadc3356ba392fc3a539fb52e6fdf5179177505ef1c653fb185fa",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-16_finish/credit-funding.json",
+        "json_pointer": "/RPONTTLD"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-16_finish/credit-cache/fred_SOFR75_750.json",
+      "original_file_sha256": "307cd183027269a22214dbf1d392451b99726de56af287e111c7ce99985aaa81",
+      "cache_timestamp": 1792171249.190728,
+      "payload_sha256": "99c4232d99a996ab81662272d0755434d938ea311b0bc3030e21bc731344e573",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-16_finish/credit-funding.json",
+        "json_pointer": "/SOFR75"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-16_finish/credit-cache/fred_SOFR99_750.json",
+      "original_file_sha256": "13a8d8cb398bf96d65303141339e66790c39c0b7e2f2ca355fbb5d9d21eca3c5",
+      "cache_timestamp": 1792171255.7686448,
+      "payload_sha256": "822ae8f2fc9d7a8583c6c792e69b74b4bd29a107f9273ba60224ff6349b5d594",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-16_finish/credit-funding.json",
+        "json_pointer": "/SOFR99"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-16_finish/hans-cache/prices_EURUSD_X_TTFX26.NYM.json",
+      "original_file_sha256": "713005b39e9c9f86b0b32588aca7e8f743f6fadfa16d6e831479900276cc3e74",
+      "cache_timestamp": 1792171153.5451329,
+      "payload_sha256": "0169d9553357b4c941b736206d74be72de79dae2242714f74a0562ed82815ccc",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-16_finish/hans-observations.json",
+        "json_pointer": "/prices"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-19_afternoon/.cache/eia_petroleum_stoc_wstk_W_EPC0_SAX_YCUOK_MBBL_3.json",
+      "original_file_sha256": "029eddeb3d8b6a68b4ff8e7dcb3e3a9f8d2413a2bdf042e22a44b650d0f8be4d",
+      "cache_timestamp": 1792435109.9829035,
+      "payload_sha256": "29629169607b8e680759e2d4faed371d9c078cdf9a5245bc93f3335e3cd95d12",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-19_afternoon/source-refresh.json",
+        "json_pointer": "/results/CUSHING/data"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-19_afternoon/.cache/fred_BAMLC0A0CM_12.json",
+      "original_file_sha256": "344d0175a1d365a5776dfe647329f1917f2af811f8a95480703b5d9293e5be6e",
+      "cache_timestamp": 1792435073.064504,
+      "payload_sha256": "bab06ed25f569848c15473b717d6b0232d37a854d4c2826b588cf36a42a2082a",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-19_afternoon/source-refresh.json",
+        "json_pointer": "/results/BAMLC0A0CM/data"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-19_afternoon/.cache/fred_BAMLH0A3HYC_12.json",
+      "original_file_sha256": "bfca4972cb4e1741b4114bbdc66b0cfdfee316fb911baf7831ddeda0e49dbc10",
+      "cache_timestamp": 1792435073.1349769,
+      "payload_sha256": "00f236f5bd958a1c229ae685c347d3ab004442155951c2ca34f713649a9ff106",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-19_afternoon/source-refresh.json",
+        "json_pointer": "/results/BAMLH0A3HYC/data"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-19_afternoon/.cache/fred_DGS10_12.json",
+      "original_file_sha256": "d4afbd8975d77d0d38c8912707e920a363b1feeaa4061a2be3fc3262615b94c7",
+      "cache_timestamp": 1792435073.4813237,
+      "payload_sha256": "fc9ad2e7e3b1e6fab9ff8d240d20275aced52912b4c69de4f0085342a1fee59e",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-19_afternoon/source-refresh.json",
+        "json_pointer": "/results/DGS10/data"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-19_afternoon/.cache/fred_DGS20_12.json",
+      "original_file_sha256": "1f1af04adcde04e5195dda7f74ab3d66e78115e7054aaa249a57f123db44de3a",
+      "cache_timestamp": 1792435073.3616683,
+      "payload_sha256": "8b764ce1284b24081e92edcc6b86a29ba1ee1a59051fc290c72cf8f045f947e2",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-19_afternoon/source-refresh.json",
+        "json_pointer": "/results/DGS20/data"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-19_afternoon/.cache/fred_DGS2_12.json",
+      "original_file_sha256": "dd36010312d9a0c544d1ef6c1d058dd2f6ff58b3cea472f4d377e439d76a9ba6",
+      "cache_timestamp": 1792435073.3311656,
+      "payload_sha256": "7c35e060436254966bc64ea2afdd85390310784e2a087ae94af854a4f23dd810",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-19_afternoon/source-refresh.json",
+        "json_pointer": "/results/DGS2/data"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-19_afternoon/.cache/fred_DGS30_12.json",
+      "original_file_sha256": "bb41543680c28d6ddba930ca7e1f535554c565463dc8c5cfd4ba6bbbb228f50f",
+      "cache_timestamp": 1792435077.8452716,
+      "payload_sha256": "98dd84a2f6bf4efb3a39ac4d2a81f65d2927e9f8ecca48e3dc96365d32e113b6",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-19_afternoon/source-refresh.json",
+        "json_pointer": "/results/DGS30/data"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-19_afternoon/.cache/fred_DGS5_12.json",
+      "original_file_sha256": "daad022299d92a58880602691ecb0f7850b6a2f2d507d01f6466f451544eaa31",
+      "cache_timestamp": 1792435083.589381,
+      "payload_sha256": "05ebbe490ea164fddd017fd431904563371ece786dbbe0a3038ab33861842d16",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-19_afternoon/source-refresh.json",
+        "json_pointer": "/results/DGS5/data"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-19_afternoon/.cache/fred_ICSA_12.json",
+      "original_file_sha256": "6c67923e2ec27a9ffbfd59cd75b3c3b09f4a7696cc2bc8417967a1453b9e5764",
+      "cache_timestamp": 1792435082.9485695,
+      "payload_sha256": "035ecce4b6a02504ca03c7e32c0ddb28274448a0247356945dee20b8bf2fa023",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-16_codex-boot/observations.json",
+        "json_pointer": "/ICSA"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-19_afternoon/.cache/fred_IORB_12.json",
+      "original_file_sha256": "b48b646f84737883df54c3a304b12eb722b77e7213cff9d3006932cca7746b84",
+      "cache_timestamp": 1792435073.0208247,
+      "payload_sha256": "9ae3d8cb02e552f8573ce4920482d31f76431ab60fa2e262129e410574989ba0",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-19_afternoon/source-refresh.json",
+        "json_pointer": "/results/IORB/data"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-19_afternoon/.cache/fred_SOFR_12.json",
+      "original_file_sha256": "df39c469fd55fdd10b10c8867d22cb0a46c03d23ce96452cbee84f3545d86738",
+      "cache_timestamp": 1792435073.0491693,
+      "payload_sha256": "47c273a18e6e22339bb0baa137ccf368a5531727dd347834c5408dd982fa6506",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-19_afternoon/source-refresh.json",
+        "json_pointer": "/results/SOFR/data"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-19_afternoon/.cache/fred_T10YIE_12.json",
+      "original_file_sha256": "845fd64dbf3a6fd2d0fe9e2352c8e58a4bbcba59094f1cc5ddd15382a40e6c7a",
+      "cache_timestamp": 1792435073.583041,
+      "payload_sha256": "652c1032c35f21dfbbeef599e88e1eee98273ead6efc2ed315739e7fc3eaf324",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-19_afternoon/source-refresh.json",
+        "json_pointer": "/results/T10YIE/data"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-19_afternoon/.cache/fred_T5YIFR_12.json",
+      "original_file_sha256": "745bc5a41aa4d91e67219af19450ea38801c4b60ea39fef1b46c896b4e584240",
+      "cache_timestamp": 1792435073.0931551,
+      "payload_sha256": "4a2ce6525e7b54b29f1eed32cac29491a637273d2b97709384e14291f0cfb726",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-19_afternoon/source-refresh.json",
+        "json_pointer": "/results/T5YIFR/data"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-19_afternoon/.cache/fred_VIXCLS_12.json",
+      "original_file_sha256": "4dad9a7c934291abae2421a01e3a7925396dab78f70371f10885bbc4535102e7",
+      "cache_timestamp": 1792435073.0735958,
+      "payload_sha256": "ba3853837758c4c3220f27a93e1bc769a10d6e3b9fcb7aef81943e9f3ce8254a",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-19_afternoon/source-refresh.json",
+        "json_pointer": "/results/VIXCLS/data"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-19_afternoon/.cache/fred_meta_BAMLH0A0HYM2.json",
+      "original_file_sha256": "ea403962a25f23bf7740a5b7a17bb24776b105232b0d7f4e6906f48183f7a8b9",
+      "cache_timestamp": 1792435073.440389,
+      "payload_sha256": "a1c6151db996406b6bbdee88e456f85c30168f3380f4638dae1b569e6a968c3a",
+      "disposition": "preserved_payload"
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-19_afternoon/.cache/fredv_BAMLH0A0HYM2_first-published_2026-10-01_2026-09-17_9999-12-31_12.json",
+      "original_file_sha256": "d24bca1aaa07b912a2320606217b89525b54d213f5d27c852ca19d7643811bfa",
+      "cache_timestamp": 1792435084.5315135,
+      "payload_sha256": "06afbcc002f4b9ef418ab1fd99135c1f605e4f52c4bf2e8204a52b09de26b47a",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-19_afternoon/source-refresh.json",
+        "json_pointer": "/results/HY_FIRST_PUBLISHED/data"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-19_afternoon/hans-cache/prices_EURUSD_X_TTFX26.NYM.json",
+      "original_file_sha256": "e6b40eb066535f71faf81e3f9bda4d37fd3e80db3009e23c282b4864ddb44be4",
+      "cache_timestamp": 1792435261.8642445,
+      "payload_sha256": "dd47d96fcd3e948f3d4349e4f0e5880cda5e715deeaf01dade1486f27e3d805e",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-19_afternoon/hans-observations.json",
+        "json_pointer": "/prices"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-19_resume/.cache/eia_petroleum_stoc_wstk_W_EPC0_SAX_YCUOK_MBBL_3.json",
+      "original_file_sha256": "1a44df8f4b55a34c35022707a7f19c411faed06cc1a11d2bb46d638b5877acaa",
+      "cache_timestamp": 1792426289.5845065,
+      "payload_sha256": "29629169607b8e680759e2d4faed371d9c078cdf9a5245bc93f3335e3cd95d12",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-19_afternoon/source-refresh.json",
+        "json_pointer": "/results/CUSHING/data"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-19_resume/.cache/fred_BAMLC0A0CM_12.json",
+      "original_file_sha256": "306bf78d32bf53a8bdf76656f71b6fee9a243cb05eb9da749c70e09c3ad54fe0",
+      "cache_timestamp": 1792426274.7085752,
+      "payload_sha256": "bab06ed25f569848c15473b717d6b0232d37a854d4c2826b588cf36a42a2082a",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-19_afternoon/source-refresh.json",
+        "json_pointer": "/results/BAMLC0A0CM/data"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-19_resume/.cache/fred_BAMLC0A4CBBB_12.json",
+      "original_file_sha256": "22466c17ed909673661950eecb3149211411a2899be6b46ce20d8b48586ad6e5",
+      "cache_timestamp": 1792426348.1007771,
+      "payload_sha256": "37e6ace8bfd177d852a6296a739873727d59d382378623ee3ef3eaef2845a989",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-19_resume/credit-latest.json",
+        "json_pointer": "/BAMLC0A4CBBB"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-19_resume/.cache/fred_BAMLH0A0HYM2_12.json",
+      "original_file_sha256": "69e3df4e901df651a669e76058663f3c81b771ba8d8958bc7a461a45e0a46694",
+      "cache_timestamp": 1792426353.3220232,
+      "payload_sha256": "ff7316f436294f1853bfd3907027784ac3f0328b380dbb7f57028aa05e3a2054",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-19_resume/credit-latest.json",
+        "json_pointer": "/BAMLH0A0HYM2"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-19_resume/.cache/fred_BAMLH0A1HYBB_12.json",
+      "original_file_sha256": "4706a8d6097f2e404dacc435a87c0265a39854a7d95aa854704613d6cc6a2bc5",
+      "cache_timestamp": 1792426350.1626763,
+      "payload_sha256": "9f8b000ca4c3d4100d4d4527a99b4dadd8b3a062f1cb78bbb031bd4830f6acb5",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-19_resume/credit-latest.json",
+        "json_pointer": "/BAMLH0A1HYBB"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-19_resume/.cache/fred_BAMLH0A2HYB_12.json",
+      "original_file_sha256": "308e768cfcf6de8571877964268397fd34e6b4f9edae0a7022d87ffa8b35ae76",
+      "cache_timestamp": 1792426350.57508,
+      "payload_sha256": "b2c38b6ca75564f6a7e5bd2e2830cf16b8b7416116207e49df0c4db9d6cc0a12",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-19_resume/credit-latest.json",
+        "json_pointer": "/BAMLH0A2HYB"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-19_resume/.cache/fred_BAMLH0A3HYC_12.json",
+      "original_file_sha256": "8c070a4e9d55f83362c481f9058beecc523bba8e21ff65e02372b4cb78926413",
+      "cache_timestamp": 1792426274.6984847,
+      "payload_sha256": "00f236f5bd958a1c229ae685c347d3ab004442155951c2ca34f713649a9ff106",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-19_afternoon/source-refresh.json",
+        "json_pointer": "/results/BAMLH0A3HYC/data"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-19_resume/.cache/fred_DGS10_12.json",
+      "original_file_sha256": "d1a0dc396881284a991229f499d047b0306a8f0707eabb6fae841c1d9ad1ac11",
+      "cache_timestamp": 1792426275.968684,
+      "payload_sha256": "fc9ad2e7e3b1e6fab9ff8d240d20275aced52912b4c69de4f0085342a1fee59e",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-19_afternoon/source-refresh.json",
+        "json_pointer": "/results/DGS10/data"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-19_resume/.cache/fred_DGS20_12.json",
+      "original_file_sha256": "2397096de1308ac41291d68b804fc631f1e40022f92f74753a333c3261ec90d1",
+      "cache_timestamp": 1792426275.2156043,
+      "payload_sha256": "8b764ce1284b24081e92edcc6b86a29ba1ee1a59051fc290c72cf8f045f947e2",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-19_afternoon/source-refresh.json",
+        "json_pointer": "/results/DGS20/data"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-19_resume/.cache/fred_DGS2_12.json",
+      "original_file_sha256": "e27d2279441b02af0fefb14b1af6e0c48a7b7657771d1868f653d77517d94467",
+      "cache_timestamp": 1792426277.4989944,
+      "payload_sha256": "7c35e060436254966bc64ea2afdd85390310784e2a087ae94af854a4f23dd810",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-19_afternoon/source-refresh.json",
+        "json_pointer": "/results/DGS2/data"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-19_resume/.cache/fred_DGS30_12.json",
+      "original_file_sha256": "482491fadbb65ea2abefc38fc9263c0dec9f102730dbba3ffed0e00365c70234",
+      "cache_timestamp": 1792426274.7881691,
+      "payload_sha256": "98dd84a2f6bf4efb3a39ac4d2a81f65d2927e9f8ecca48e3dc96365d32e113b6",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-19_afternoon/source-refresh.json",
+        "json_pointer": "/results/DGS30/data"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-19_resume/.cache/fred_DGS5_12.json",
+      "original_file_sha256": "c96c5649029db1947a811c4b17fea90a5505bc39073b03f309f6dcbeb3f3cd8a",
+      "cache_timestamp": 1792426276.805016,
+      "payload_sha256": "05ebbe490ea164fddd017fd431904563371ece786dbbe0a3038ab33861842d16",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-19_afternoon/source-refresh.json",
+        "json_pointer": "/results/DGS5/data"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-19_resume/.cache/fred_ICSA_12.json",
+      "original_file_sha256": "84c1f5f1fd889b2430bc2a9003372d8371523ab66274fa03f75065814feb476c",
+      "cache_timestamp": 1792426275.4554603,
+      "payload_sha256": "035ecce4b6a02504ca03c7e32c0ddb28274448a0247356945dee20b8bf2fa023",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-16_codex-boot/observations.json",
+        "json_pointer": "/ICSA"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-19_resume/.cache/fred_IORB_12.json",
+      "original_file_sha256": "eb41317f32de6d3e1d22f28d321eb4b66d9c920a2273c1c77bfde76d4f10128f",
+      "cache_timestamp": 1792426274.7360919,
+      "payload_sha256": "9ae3d8cb02e552f8573ce4920482d31f76431ab60fa2e262129e410574989ba0",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-19_afternoon/source-refresh.json",
+        "json_pointer": "/results/IORB/data"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-19_resume/.cache/fred_SOFR_12.json",
+      "original_file_sha256": "947a310e98604b70f847a0ef532d720151f38caa8cb1b86344e302e4608e2555",
+      "cache_timestamp": 1792426278.6186006,
+      "payload_sha256": "47c273a18e6e22339bb0baa137ccf368a5531727dd347834c5408dd982fa6506",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-19_afternoon/source-refresh.json",
+        "json_pointer": "/results/SOFR/data"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-19_resume/.cache/fred_T10YIE_12.json",
+      "original_file_sha256": "cc7ee78b39a88e7d114b27985d68f9a66dc3c4f9fae54fd849173dc4b36b81da",
+      "cache_timestamp": 1792426279.2271025,
+      "payload_sha256": "652c1032c35f21dfbbeef599e88e1eee98273ead6efc2ed315739e7fc3eaf324",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-19_afternoon/source-refresh.json",
+        "json_pointer": "/results/T10YIE/data"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-19_resume/.cache/fred_T5YIFR_12.json",
+      "original_file_sha256": "38c1ddf96e4f2314da11be63995bef51c7318e5c0fc0ed04a28a8c3bcb277494",
+      "cache_timestamp": 1792426274.676411,
+      "payload_sha256": "4a2ce6525e7b54b29f1eed32cac29491a637273d2b97709384e14291f0cfb726",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-19_afternoon/source-refresh.json",
+        "json_pointer": "/results/T5YIFR/data"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-19_resume/.cache/fred_VIXCLS_12.json",
+      "original_file_sha256": "9159eeaf80c2b69f1c264deb82a494e6150e94b3dde3319a76237edc26ebe317",
+      "cache_timestamp": 1792426274.7726746,
+      "payload_sha256": "ba3853837758c4c3220f27a93e1bc769a10d6e3b9fcb7aef81943e9f3ce8254a",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-19_afternoon/source-refresh.json",
+        "json_pointer": "/results/VIXCLS/data"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-19_resume/.cache/fred_meta_BAMLH0A0HYM2.json",
+      "original_file_sha256": "85a77804f60676805f6feb116ea6d68ca2b0776f7f7ee94377c56d341cdb8509",
+      "cache_timestamp": 1792426279.096948,
+      "payload_sha256": "a1c6151db996406b6bbdee88e456f85c30168f3380f4638dae1b569e6a968c3a",
+      "disposition": "duplicate_preserved_payload"
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-19_resume/.cache/fredv_BAMLH0A0HYM2_first-published_2026-10-01_2026-09-17_9999-12-31_12.json",
+      "original_file_sha256": "305b68c8fa5a0277919e3d0ce92169c160d34b030232ed8cb3a01256bbf6c223",
+      "cache_timestamp": 1792426281.14863,
+      "payload_sha256": "06afbcc002f4b9ef418ab1fd99135c1f605e4f52c4bf2e8204a52b09de26b47a",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-19_afternoon/source-refresh.json",
+        "json_pointer": "/results/HY_FIRST_PUBLISHED/data"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-21_boot/.cache/eia_petroleum_stoc_wstk_W_EPC0_SAX_YCUOK_MBBL_3.json",
+      "original_file_sha256": "1f9c4b9c93787beb738771c94e6da1a92d85d40e0b72e06c53a41af937f04ba1",
+      "cache_timestamp": 1792587139.7359338,
+      "payload_sha256": "29629169607b8e680759e2d4faed371d9c078cdf9a5245bc93f3335e3cd95d12",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-19_afternoon/source-refresh.json",
+        "json_pointer": "/results/CUSHING/data"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-21_boot/.cache/fred_BAMLC0A0CM_12.json",
+      "original_file_sha256": "7785cd8fbcdbdf13c6023530d251f1eb124c4b5cd22d2e25ce9a04712dd0ee2b",
+      "cache_timestamp": 1792587139.1646726,
+      "payload_sha256": "fd26d58bfdd8af9eeb8a5598a125a98ae85e50a10a065b7bc326fdf90d473d1c",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-21_boot/source-refresh.json",
+        "json_pointer": "/results/BAMLC0A0CM/data"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-21_boot/.cache/fred_BAMLH0A3HYC_12.json",
+      "original_file_sha256": "1bc65f2544809bd0b86dc9d32bf05491bbff2b57cf4b7db7ccc4ad9e7aa9a53c",
+      "cache_timestamp": 1792587139.1730618,
+      "payload_sha256": "c762b4e005982c7951315eadb3e9781a539fe7e395d85efde6e0f88ced75d2a1",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-21_boot/source-refresh.json",
+        "json_pointer": "/results/BAMLH0A3HYC/data"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-21_boot/.cache/fred_DGS10_12.json",
+      "original_file_sha256": "d2bdb403f56f7e3b47ea12ee09deaaaa07640cace63ea43a8d20518636028a76",
+      "cache_timestamp": 1792587139.371736,
+      "payload_sha256": "705f0badedee538da57867b42aeeb2c8f465be6d103e77444a54178adafd9137",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-21_boot/source-refresh.json",
+        "json_pointer": "/results/DGS10/data"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-21_boot/.cache/fred_DGS20_12.json",
+      "original_file_sha256": "a6d8d107ed7916224d039ec489781a4339563d864b7c28b633d777611a2337d3",
+      "cache_timestamp": 1792587139.3662076,
+      "payload_sha256": "4263134e4833ec855ccf1ecc10387c6135be7d7995c689eb77d89ea62247047f",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-21_boot/source-refresh.json",
+        "json_pointer": "/results/DGS20/data"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-21_boot/.cache/fred_DGS2_12.json",
+      "original_file_sha256": "d055dc548a2c0b80f36f0c1b68b1bcb2be7ca157408d367bb3f70acac2dc7ae8",
+      "cache_timestamp": 1792587139.5378122,
+      "payload_sha256": "c1f37d143498e0a52ea4f4b057ee3421752afcc56e8f34a1b6787fedfdfe142a",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-21_boot/source-refresh.json",
+        "json_pointer": "/results/DGS2/data"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-21_boot/.cache/fred_DGS30_12.json",
+      "original_file_sha256": "5520f41ba040bb37405fff862a0d7559bbf9ac1159ab1ba825191f0bbbbfb251",
+      "cache_timestamp": 1792587139.2135923,
+      "payload_sha256": "34223180620a78a4f4f966bee9bf78d24dc99f03b874b676f44985c2fddfdb39",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-21_boot/source-refresh.json",
+        "json_pointer": "/results/DGS30/data"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-21_boot/.cache/fred_DGS5_12.json",
+      "original_file_sha256": "0e94a336b0ee081cf1425916ff77e29c257e0d86e63e53f8d5e5a86c417f7cf9",
+      "cache_timestamp": 1792587139.4187527,
+      "payload_sha256": "c8d8aeae825b23cfa11427cb3699327a3e5a8025b8a91dc2f12bfa1bf4a1f532",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-21_boot/source-refresh.json",
+        "json_pointer": "/results/DGS5/data"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-21_boot/.cache/fred_ICSA_12.json",
+      "original_file_sha256": "9392c9099283531e7df8e70517568f14f626cc4478396ce2cd18009a76127fc8",
+      "cache_timestamp": 1792587139.172666,
+      "payload_sha256": "035ecce4b6a02504ca03c7e32c0ddb28274448a0247356945dee20b8bf2fa023",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-16_codex-boot/observations.json",
+        "json_pointer": "/ICSA"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-21_boot/.cache/fred_IORB_12.json",
+      "original_file_sha256": "ff13685153bee22b6c912cca343b3786154a470c54ec061c6a3729947854eb69",
+      "cache_timestamp": 1792587139.1141624,
+      "payload_sha256": "6ca6fd94c959720410be796792ae67b52c23aac639a6cefc2bcb80caccd07c4c",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-21_boot/source-refresh.json",
+        "json_pointer": "/results/IORB/data"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-21_boot/.cache/fred_SOFR_12.json",
+      "original_file_sha256": "a18d50c0f4ee21c96dcab32d4fdc0851ba11738a6a80a4c8a8b7202502066480",
+      "cache_timestamp": 1792587139.1217098,
+      "payload_sha256": "6bf348bea36f6699f4a7f0b20c7b27e12cd21530d41f9b38dc8527ac58ebda1d",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-21_boot/source-refresh.json",
+        "json_pointer": "/results/SOFR/data"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-21_boot/.cache/fred_T10YIE_12.json",
+      "original_file_sha256": "08758318a8ca84f34e4498bd3bd66a8e5523b038966593913df072225a10e2f5",
+      "cache_timestamp": 1792587139.4273357,
+      "payload_sha256": "03d3817ab93f35b7ccb34f3b663a97c90f75ac6598569f8c6edd60e497e4f8c5",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-21_boot/source-refresh.json",
+        "json_pointer": "/results/T10YIE/data"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-21_boot/.cache/fred_T5YIFR_12.json",
+      "original_file_sha256": "885c64581a82966981db13d126e68d335c349b8a1b848d19ad52ab74ed46f465",
+      "cache_timestamp": 1792587139.1029034,
+      "payload_sha256": "6fee1b962bc4856e40fb4a20bae259f1c4fd9b09cc6aa3098bc81dc659bbbf23",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-21_boot/source-refresh.json",
+        "json_pointer": "/results/T5YIFR/data"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-21_boot/.cache/fred_VIXCLS_12.json",
+      "original_file_sha256": "200c9facd6320ab82435efbf1bee504998a00572dcaf7b218d90957d5ad4b0c8",
+      "cache_timestamp": 1792587139.0565248,
+      "payload_sha256": "8c085ec475b3a110e0f90933355ff6de3e08b17b06c6183ba0b458e07ae73e2e",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-21_boot/source-refresh.json",
+        "json_pointer": "/results/VIXCLS/data"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-21_boot/.cache/fred_meta_BAMLH0A0HYM2.json",
+      "original_file_sha256": "2354121b91475ca232f7a0547ad4ce2c2b614e0edd9977f18e8985da22025582",
+      "cache_timestamp": 1792587139.5419524,
+      "payload_sha256": "a1c6151db996406b6bbdee88e456f85c30168f3380f4638dae1b569e6a968c3a",
+      "disposition": "duplicate_preserved_payload"
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-21_boot/.cache/fredv_BAMLH0A0HYM2_first-published_2026-10-01_2026-09-17_9999-12-31_12.json",
+      "original_file_sha256": "a7445ba3597b1075ec473e92e4f7026b989cd32ef84cda50130fe74f0db7b39f",
+      "cache_timestamp": 1792587140.1951594,
+      "payload_sha256": "f92be45924d918732bb7987023b9a0a0cb153931ff8cef1162123bf2c09b02e4",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-21_boot/source-refresh.json",
+        "json_pointer": "/results/HY_FIRST_PUBLISHED/data"
+      }
+    },
+    {
+      "source_path": "AGENTS/WALTER/research/2026-10-21_boot/hans-cache/prices_EURUSD_X_TTFX26.NYM.json",
+      "original_file_sha256": "9dc2c0fc07326f2119641685a1767f9208dce7c1893be91adfb9db3301d22477",
+      "cache_timestamp": 1792587266.6081507,
+      "payload_sha256": "7d4ec72beca29cd87226316820e6da3e9e82af7adea87e0ac38530b20a31c14d",
+      "disposition": "already_committed",
+      "existing_evidence": {
+        "commit": "9b2185deaf4b73026041273c0e8ee0ba255e6e88",
+        "path": "AGENTS/WALTER/research/2026-10-21_boot/hans-observations.json",
+        "json_pointer": "/prices"
+      }
+    }
+  ],
+  "preserved_payloads": {
+    "a1c6151db996406b6bbdee88e456f85c30168f3380f4638dae1b569e6a968c3a": {
+      "period_days": 1.4,
+      "frequency_short": "D"
+    }
+  },
+  "excluded_runtime_files": [
+    "AGENTS/WALTER/research/2026-10-26_unwind-search/.cache/cookies.db",
+    "AGENTS/WALTER/research/2026-10-26_unwind-search/.cache/tkr-tz.db"
+  ]
+}
