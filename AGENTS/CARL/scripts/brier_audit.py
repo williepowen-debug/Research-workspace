@@ -12,16 +12,15 @@ WHAT IT MEASURES
                 forecasts are worse than knowing nothing but the base rate —
                 the single most important number in this report.
   Calibration   binned forecast-vs-actual.
-  Decomposition Murphy: BS = Reliability - Resolution + Uncertainty.
+  Grouped-bin decomposition applies to bin-mean forecasts; raw score reported separately.
 
 THE METHODOLOGICAL PROBLEM, STATED UP FRONT
   `PREDICTIONS.tsv` Confidence holds the CURRENT/at-resolution value, not the
   ex-ante one.  CARL re-marks confidence as evidence arrives (CRL-03 ran
   90 -> 72 before resolving MISSED; CRL-11 85 -> 83).  Scoring the at-resolution
-  number therefore **FLATTERS** the record: losers were trimmed before they
-  resolved.  Where an earlier mark is recoverable from Notes, this script scores
-  BOTH bases and reports the gap.  Treat the as-recorded score as a CEILING on
-  true skill, not an estimate of it.
+  number can flatter the record. This legacy tool also reports a maximum-prior-
+  mark heuristic from Notes. That heuristic does not identify the earliest dated
+  mark, and is not the fleet's WQ-112 scoring or first-call reconstruction.
 
 CONVENTIONS
   CONFIRMED -> 1.0 · MISSED -> 0.0 · MIXED -> 0.5 (stated, not obvious).
@@ -35,7 +34,6 @@ Usage:
 """
 
 import argparse
-import csv
 import re
 import sys
 from pathlib import Path
@@ -52,13 +50,27 @@ WAS = re.compile(r"was\s+(\d{2})")
 
 
 def load(path):
-    rows = list(csv.reader(path.open(newline="", encoding="utf-8"), delimiter="\t"))
-    hdr = rows[0]
-    idx = {k: i for i, k in enumerate(hdr)}
+    # Canonical PREDICTIONS.tsv is a line-oriented TSV with literal quotation
+    # marks in prose, not CSV-quoted fields. Match the consistency reader.
+    lines = [(n, line.split("\t")) for n, line in
+             enumerate(path.read_text(encoding="utf-8").splitlines(), 1)
+             if line.strip() and not line.startswith("#")]
+    if not lines or lines[0][1][0] != "Pred_ID":
+        raise ValueError("missing Pred_ID header")
+    hdr = lines[0][1]
+    idx = {k.strip(): i for i, k in enumerate(hdr)}
+    required = {"Pred_ID", "Status", "Confidence", "Notes", "Date_Made",
+                "Date_Resolved", "Prediction"}
+    if required - idx.keys():
+        raise ValueError(f"missing columns: {', '.join(sorted(required - idx.keys()))}")
     out = []
-    for r in rows[1:]:
-        if len(r) <= idx["Status"]:
-            continue
+    seen = set()
+    for line_no, r in lines[1:]:
+        if len(r) != len(hdr) or not re.fullmatch(r"CRL-\d+", r[0]):
+            raise ValueError(f"invalid prediction row at line {line_no}")
+        if r[0] in seen:
+            raise ValueError(f"duplicate prediction ID: {r[0]}")
+        seen.add(r[0])
         st = r[idx["Status"]].strip().upper()
         if st not in OUTCOME:
             continue
@@ -87,10 +99,12 @@ def brier(fs, os_):
 
 
 def decompose(fs, os_, bins):
-    """Murphy decomposition: BS = REL - RES + UNC."""
+    """Decompose the score of bin-mean forecasts, not the raw forecasts."""
     n = len(fs)
     base = sum(os_) / n
-    unc = base * (1 - base)
+    # Population variance also handles this diagnostic's fractional MIXED=0.5
+    # convention; base*(1-base) is valid only for binary outcomes.
+    unc = sum((o - base) ** 2 for o in os_) / n
     rel = res = 0.0
     for lo, hi in bins:
         grp = [(f, o) for f, o in zip(fs, os_) if lo <= f < hi]
@@ -124,11 +138,12 @@ def report(rows, label, key):
 
     bins = [(0.0, 0.55), (0.55, 0.65), (0.65, 0.75), (0.75, 0.85), (0.85, 1.01)]
     rel, res, unc, _ = decompose(fs, os_, bins)
-    print(f"\n  Murphy decomposition:  BS = REL - RES + UNC")
+    print(f"\n  Grouped-bin decomposition: bin-mean BS = REL - RES + UNC")
     print(f"    Reliability (lower=better, 0=perfectly calibrated)  {rel:.4f}")
     print(f"    Resolution  (higher=better, discrimination)         {res:.4f}")
     print(f"    Uncertainty (base-rate variance, irreducible)       {unc:.4f}")
     print(f"    check: {rel:.4f} - {res:.4f} + {unc:.4f} = {rel - res + unc:.4f}")
+    print(f"    raw-score minus bin-mean score: {bs - (rel - res + unc):+.4f}; grouping can change the score")
 
     print(f"\n  CALIBRATION BY BAND")
     print(f"    {'band':<12} {'n':>2}  {'mean fcst':>9}  {'actual':>7}  {'gap':>7}   ids")
@@ -149,11 +164,17 @@ def main():
     ap.add_argument("--tsv", default=str(DEFAULT_TSV))
     args = ap.parse_args()
     path = Path(args.tsv)
-    rows = load(path)
+    try:
+        rows = load(path)
+    except (OSError, ValueError) as exc:
+        print(f"CANNOT RUN Brier diagnostic: {exc}", file=sys.stderr)
+        return 2
     if not rows:
         raise SystemExit("no resolved predictions found")
 
     print(f"\nCARL BRIER AUDIT — source {path}")
+    print("LEGACY DIAGNOSTIC ONLY — not the fleet's WQ-112 score or a verified first-call reconstruction.")
+    print("The Notes heuristic chooses a maximum prior mark, not the earliest dated mark; missing values fall back to recorded.")
     print(f"Resolved predictions scored: {len(rows)}")
     print(f"Convention: CONFIRMED=1.0 · MISSED=0.0 · MIXED=0.5 · legacy pre-TSV EXCLUDED (survivorship)")
 
@@ -170,17 +191,16 @@ def main():
         if r["f_exante"] is None:
             r["f_exante"] = r["f_recorded"]
     bs_e, bss_e, mf_e, _ = report(
-        ex, f"BASIS B — BEST-RECOVERABLE EX-ANTE ({n_rec}/{len(ex)} recovered from Notes; rest fall back to recorded)",
+        ex, f"BASIS B — MAXIMUM-PRIOR-MARK HEURISTIC ({n_rec}/{len(ex)} from Notes; rest fall back to recorded; NOT verified ex-ante)",
         "f_exante")
 
     print(f"\n{'=' * 74}\n  THE GAP\n{'=' * 74}")
-    print(f"  Brier as-recorded {bs_r:.4f}  vs  ex-ante {bs_e:.4f}   ({bs_e - bs_r:+.4f})")
+    print(f"  Brier as-recorded {bs_r:.4f}  vs  Notes heuristic {bs_e:.4f}   ({bs_e - bs_r:+.4f})")
     print(f"  Mean forecast     {mf_r:.1%}      vs  {mf_e:.1%}")
     print(f"  Actual hit rate   {base:.1%}")
-    print(f"\n  If ex-ante is WORSE, the recorded score is flattered by mid-life trimming:")
-    print(f"  losers were marked down before they resolved. Treat BASIS A as a CEILING")
-    print(f"  on true skill. Only {n_rec} of {len(ex)} ex-ante marks are recoverable, so B is")
-    print(f"  itself a partial reconstruction, not the true ex-ante record.\n")
+    print(f"\n  A gap under this heuristic does not establish the dated first-call score.")
+    print(f"  {n_rec} of {len(ex)} rows have a Notes-derived prior; the remainder fall back")
+    print(f"  to recorded. Neither basis replaces the fleet scoreboard or a dated-mark audit.\n")
     print(f"  ⚠️  N = {len(rows)}. TERRY's paper-book spec sets N>=10 as the MINIMUM before")
     print(f"      scoring acts on anything. This is directional, not significant.\n")
 

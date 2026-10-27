@@ -1,7 +1,7 @@
 # CARL Scripts Build Plan
 **Created:** 2026-04-13
 **Modeled on:** SAM/scripts/ and REGINALD/scripts/ architecture
-**Status:** PLAN — not yet built
+**Status:** HISTORICAL April 13 design, preserved below. Core scripts now exist; `boot.py` is the actual sequence. Legacy threshold screens are diagnostics, not registered gates. This plan does not commission unfinished helpers or dependency installation.
 
 ---
 

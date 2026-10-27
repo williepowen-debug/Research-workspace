@@ -1,5 +1,5 @@
 # CARL Sub-Agent Team
-**Parent freshness audit observed2026-10-12:** no child data refresh or launch this session. Live-ledger scanner flags23/52declared ledgers (11otherTSVs outside perimeter); DATA clocks unchanged. Dated child predictions/deferrals remain for owner gates; historical roster-state labels below retain their printed vintages.
+**Parent freshness audit observed2026-10-26:** no child data refresh or launch this session. The canonical scanner is now wired into boot.py; these are genuine inherited age flags, not new data. Live-ledger scanner flags23/52declared ledgers (11otherTSVs outside perimeter); DATA clocks unchanged. Dated child predictions/deferrals remain for owner gates; historical roster-state labels below retain their printed vintages.
 
 
 **Parent audit September16:** No subagents launched or child ledgers refreshed. PHAN’s September10 WQ-209 delivery is completed (not still awaiting the September8 gate); next print gate is in the canonical docket. Other roster snapshots below retain their stated data dates. NFIB and housing evidence refreshed at parent STATUS only;16 child ledgers remain flagged by the staleness scan. Historical header archived.

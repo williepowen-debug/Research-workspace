@@ -1,3 +1,5 @@
+> **Historical liaison conventions (May 2026).** Current routing and delivery follow root CLAUDE.md, MESSAGING/CROSS_SESSION_MESSAGING.md and CARL/CLAUDE.md. HERMES references and Will-copy instructions below are historical. They do not disable current inbox packets or verified runtime channels.
+
 # CARL ↔ WALTER liaison channel
 
 **Purpose:** Async dialog between CARL (consumer-stress domain) and WALTER (BOARD signal router) about *what should be routed*. Not the routing itself — the meta-conversation about routing rules, edge cases, calibration.

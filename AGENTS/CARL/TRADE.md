@@ -1,5 +1,5 @@
 # ⛔ RETIRED — CARL TRADE.md
-**Status:** RETIRED (Jun 26, maintenance session). Live positions in FORGE/; thesis expression via REGINALD/OZK/HENRY. This stub pre-dates the v2.5.1 multi-vector framework and is no longer maintained.
+**Status:** RETIRED (Jun 26, maintenance session). Position truth is Will/broker direct; `FORGE/STATUS.md` is a dated mirror; thesis expression via REGINALD/OZK/HENRY. This stub pre-dates the v2.5.1 multi-vector framework and is no longer maintained.
 
 > **2026-07-31 — RESOLVED SAME DAY: Will ruled SKIP the purchase; passive docket watch instead** *(file remains retired; kept as the durable record):*
 > **PACER purchase: Doc 54, D.D.C. 1:24-cv-02460 (AFT v. MOHELA), filed 7/17/26, ~$0.30 — SKIPPED (Will, 7/31 eve).** Rationale: CRL-14 retired → successor CRL-28 is litigation-independent (CFPB-complaint instrument), so nothing gates on the settlement question anymore; the extension-vs-merits-schedule answer surfaces FREE on the docket within weeks (minute order or next ~60-day JSR), and the case is actively mirrored by advocacy orgs (Protect Borrowers posted Doc 50; RECAP has 50/52/53). **Watch mechanism: dated docket row (first check ~8/14, CARL CATALYSTS.tsv) — free CourtListener docket-text pull, no auth.** Buy-it-after-all trigger, pre-registered: a future claim that needs to TIME something against discovery resuming (none exists today).
@@ -37,7 +37,7 @@ CARL **holds no direct positions.** Live FORGE positions in CARL-adjacent names 
 | OZK puts | OZK |
 | TLT puts | HENRY / BOND |
 
-See `/FORGE/STATUS.md` + `/FORGE/PORTFOLIO.md` for live state.
+This position/owner table is historical, not a holdings assertion. Position truth is Will/broker direct; `FORGE/STATUS.md` is the dated export mirror. `FORGE/PORTFOLIO.md` is a frozen February 2026 snapshot.
 
 ---
 

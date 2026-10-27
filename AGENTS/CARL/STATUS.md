@@ -1,5 +1,5 @@
 # CARL STATUS
-**Updated:** 2026-10-26 23:13 ET, news sweep: auto affordability strain versus resilient selected-bank/card spending. **53/70 v2.6.6 unchanged.** L786 source grades and seven pending paper fills preserved; rows retain their own observation dates.
+**Updated:** 2026-10-26, consumer news read and subsequent file audit. **53/70 v2.6.6 unchanged.** L786 source grades and seven pending paper fills preserved; rows retain their observation dates.
 **Overall:** 🔴 CRITICAL under the registered score; evidence mixed (regular gas easing versus diesel up, tighter Fed, CCC widening, historical SCF strain and improving credit at some issuers). **The full-thesis kill is NOT one more card-stock decline:** v2.6.6 needs claims <220K for 8 weeks AND two quarterly declines in Page 14 card flow into 90+ totaling ≥100bp in one vintage. Q2's flow path 7.13→7.10→6.97% fell only 16bp, so the floor is unmet (letter + mandatory shadow grade, divergence → Will: THESIS rider 1). V1 needs stock <12% for two quarters; 12.92% has not started that clock. V16 holds 4; drop-back reset to 0 of 2 on 10/02; next print October NFP 11/06.
 
 **Startup / evidence:** instruction receipt at `domain/sources/2026-10-26_startup-recovery/STARTUP_RECEIPT.md`; L786 work supersedes its deferrals. Grade and source perimeter: `research/2026-10-26_L786/ALLY_RITM_GRADE.md`.
@@ -7,6 +7,8 @@
 **Scope finding (10/12):** concentrated credit/affordability stress remains supported; current broad spending collapse and “both cohorts converging downward” are not established. BofA September realized spending grows across cohorts (selected, nominal sample); Michigan intentions weaken unevenly. The “60% fragile” share is an assumption, not measured here. Score53/70 is a registered-rule tally, not14 independent confirmations or a substitute for this evidence.
 
 **Peer intake (10/26):** ISHM owns manufacturing/freight figures; no industrial re-grade here. FERT’s lower 2027 food forecast does not establish input-cost causation or lower bills. October CPI calendar corrected to **11/10 08:30 ET**, independently checked at BLS. Consumer consequence and limits: `research/2026-10-26_L786/PEER_INTAKE.md`; score unchanged.
+
+**File audit (10/26):** four functional scripts repaired; nine false-open tasks closed. I3 answered DECLINE; DR1 remains partial. Child freshness (23 flags), eight malformed TSVs and overdue owner work stay open. Evidence/next actions: `research/2026-10-26_file-audit/REPORT.md`. No forecast or fill change.
 
 **History:** `status_archive/` and `archive/2026-09-16_closeout/STATUS.md`; never cite archived observations as current.
 

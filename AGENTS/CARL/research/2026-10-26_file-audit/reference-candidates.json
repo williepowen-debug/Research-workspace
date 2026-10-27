@@ -1,0 +1,224 @@
+[
+  {
+    "path": "AGENTS/CARL/ROADMAP_THREADS.md",
+    "line": 15,
+    "reference": "AGENTS/TERRY/inbox/2026-10-10_from-CARL_TRY-FIRE-002-CRL-21-read-KEEP-DORMANT.md",
+    "surface_state": "ACTIVE_CANDIDATE"
+  },
+  {
+    "path": "AGENTS/CARL/ROADMAP_THREADS.md",
+    "line": 45,
+    "reference": "thesis/REVISION_LEDGER.md/.tsv",
+    "surface_state": "ACTIVE_CANDIDATE"
+  },
+  {
+    "path": "AGENTS/CARL/SPAWN_PROTOCOL.md",
+    "line": 45,
+    "reference": "domain/sources/[topic].md",
+    "surface_state": "ACTIVE_CANDIDATE"
+  },
+  {
+    "path": "AGENTS/CARL/ROADMAP.md",
+    "line": 97,
+    "reference": "PROME/inbox/2026-09-17_from-CARL_crash-recovery-closeout.md",
+    "surface_state": "ACTIVE_CANDIDATE"
+  },
+  {
+    "path": "AGENTS/CARL/LAST_COMPLETION.md",
+    "line": 7,
+    "reference": "outbox/2026-08-03_to-PROME_...",
+    "surface_state": "ACTIVE_CANDIDATE"
+  },
+  {
+    "path": "AGENTS/CARL/CLAUDE.md",
+    "line": 110,
+    "reference": "handoff_RED/COUNTER_LOG",
+    "surface_state": "ACTIVE_CANDIDATE"
+  },
+  {
+    "path": "AGENTS/CARL/thesis/KILL_RULE_RESPEC_2026-08-15.md",
+    "line": 234,
+    "reference": "thesis/THESIS.md:397-398",
+    "surface_state": "ACTIVE_CANDIDATE"
+  },
+  {
+    "path": "AGENTS/CARL/thesis/CARL_BOOK_DESIGN.md",
+    "line": 84,
+    "reference": "AGENTS/REGINALD/inbox/2026-07-24_from-CARL_syf-cof-ally-boundary-i-may-have-invented-this-conflict.md",
+    "surface_state": "ACTIVE_CANDIDATE"
+  },
+  {
+    "path": "AGENTS/CARL/thesis/CHANGELOG.md",
+    "line": 339,
+    "reference": "AGENTS/CARL/inbox/processed/2026-09-10_from-PROME_WQ-182-RULED-...md",
+    "surface_state": "ACTIVE_CANDIDATE"
+  },
+  {
+    "path": "AGENTS/CARL/thesis/CHANGELOG.md",
+    "line": 355,
+    "reference": "scripts/asmade_audit.py CARL",
+    "surface_state": "ACTIVE_CANDIDATE"
+  },
+  {
+    "path": "AGENTS/CARL/thesis/CHANGELOG.md",
+    "line": 782,
+    "reference": "domain/sources/2026-07-18_q2-earnings-prep.md",
+    "surface_state": "ACTIVE_CANDIDATE"
+  },
+  {
+    "path": "AGENTS/CARL/outbox/2026-06-22_to-PROME_drop-separate-clones-migration.md",
+    "line": 4,
+    "reference": "PROME/PATHSPEC_MIGRATION_STATUS.md",
+    "surface_state": "ACTIVE_CANDIDATE"
+  },
+  {
+    "path": "AGENTS/CARL/outbox/2026-06-22_to-PROME_drop-separate-clones-migration.md",
+    "line": 16,
+    "reference": "PROME/PATHSPEC_MIGRATION_STATUS.md",
+    "surface_state": "ACTIVE_CANDIDATE"
+  },
+  {
+    "path": "AGENTS/CARL/handoff_RED/README.md",
+    "line": 14,
+    "reference": "AGENTS/CARL/red_team/",
+    "surface_state": "ACTIVE_CANDIDATE"
+  },
+  {
+    "path": "AGENTS/CARL/handoff_RED/README.md",
+    "line": 15,
+    "reference": "AGENTS/CARL/red_team/",
+    "surface_state": "ACTIVE_CANDIDATE"
+  },
+  {
+    "path": "AGENTS/CARL/handoff_RED/README.md",
+    "line": 16,
+    "reference": "AGENTS/CARL/red_team/",
+    "surface_state": "ACTIVE_CANDIDATE"
+  },
+  {
+    "path": "AGENTS/CARL/handoff_RED/README.md",
+    "line": 17,
+    "reference": "AGENTS/CARL/red_team/",
+    "surface_state": "ACTIVE_CANDIDATE"
+  },
+  {
+    "path": "AGENTS/CARL/scripts/BUILD_PLAN.md",
+    "line": 219,
+    "reference": "AGENTS/CARL/scripts/.fred_api_key",
+    "surface_state": "ACTIVE_CANDIDATE"
+  },
+  {
+    "path": "AGENTS/CARL/handoff_WALTER/README.md",
+    "line": 28,
+    "reference": "AGENTS/WALTER/handoff_CARL/LIAISON.md",
+    "surface_state": "ACTIVE_CANDIDATE"
+  },
+  {
+    "path": "AGENTS/CARL/handoff_WALTER/LIAISON.md",
+    "line": 221,
+    "reference": "AGENTS/CARL/DATA_RELEASE_CALENDAR.md",
+    "surface_state": "ACTIVE_CANDIDATE"
+  },
+  {
+    "path": "AGENTS/CARL/handoff_WALTER/LIAISON.md",
+    "line": 280,
+    "reference": "AGENTS/CARL/DATA_RELEASE_CALENDAR.md",
+    "surface_state": "ACTIVE_CANDIDATE"
+  },
+  {
+    "path": "AGENTS/CARL/handoff_WALTER/LIAISON.md",
+    "line": 308,
+    "reference": "AGENTS/WALTER/design/JOINT_PROPOSAL_2026-05-05_walter_sections.md",
+    "surface_state": "ACTIVE_CANDIDATE"
+  },
+  {
+    "path": "AGENTS/CARL/handoff_WALTER/LIAISON.md",
+    "line": 308,
+    "reference": "AGENTS/CARL/design/JOINT_PROPOSAL_2026-05-05_carl_sections.md",
+    "surface_state": "ACTIVE_CANDIDATE"
+  },
+  {
+    "path": "AGENTS/CARL/handoff_WALTER/LIAISON.md",
+    "line": 325,
+    "reference": "AGENTS/CARL/design/JOINT_PROPOSAL_2026-05-05_carl_sections.md",
+    "surface_state": "ACTIVE_CANDIDATE"
+  },
+  {
+    "path": "AGENTS/CARL/handoff_WALTER/LIAISON.md",
+    "line": 325,
+    "reference": "AGENTS/WALTER/design/JOINT_PROPOSAL_2026-05-05_walter_sections.md",
+    "surface_state": "ACTIVE_CANDIDATE"
+  },
+  {
+    "path": "AGENTS/CARL/sub_agents/PHAN/PASSES.md",
+    "line": 63,
+    "reference": "AGENTS/ FORGE/ PROME/",
+    "surface_state": "ACTIVE_CANDIDATE"
+  },
+  {
+    "path": "AGENTS/CARL/sub_agents/POP/STATUS.md",
+    "line": 68,
+    "reference": "AGENTS/POP",
+    "surface_state": "ACTIVE_CANDIDATE"
+  },
+  {
+    "path": "AGENTS/CARL/sub_agents/PHAN/outbox/2026-09-11_PHAN-to-CARL_gap-closure-flow06-restored.md",
+    "line": 126,
+    "reference": "workbook/REGULATORY.tsv",
+    "surface_state": "ACTIVE_CANDIDATE"
+  },
+  {
+    "path": "AGENTS/CARL/sub_agents/PHAN/outbox/2026-09-11_PHAN-to-CARL_gap-closure-flow06-restored.md",
+    "line": 127,
+    "reference": "workbook/PREDICTIONS.tsv",
+    "surface_state": "ACTIVE_CANDIDATE"
+  },
+  {
+    "path": "AGENTS/CARL/sub_agents/PHAN/outbox/2026-09-11_PHAN-to-CARL_sec2-rebuild-delivered.md",
+    "line": 107,
+    "reference": "workbook/PROVIDER.tsv",
+    "surface_state": "ACTIVE_CANDIDATE"
+  },
+  {
+    "path": "AGENTS/CARL/sub_agents/PHAN/outbox/2026-09-11_PHAN-to-CARL_pm-domain-sweep.md",
+    "line": 36,
+    "reference": "AGENTS/ FORGE/ PROME/",
+    "surface_state": "ACTIVE_CANDIDATE"
+  },
+  {
+    "path": "AGENTS/CARL/sub_agents/PHAN/outbox/2026-09-11_PHAN-to-CARL_pm-domain-sweep.md",
+    "line": 54,
+    "reference": "handoff_RED/COUNTER_LOG",
+    "surface_state": "ACTIVE_CANDIDATE"
+  },
+  {
+    "path": "AGENTS/CARL/sub_agents/PHAN/outbox/2026-09-11_PHAN-to-CARL_pm-domain-sweep.md",
+    "line": 78,
+    "reference": "workbook/COCKROACH.tsv",
+    "surface_state": "ACTIVE_CANDIDATE"
+  },
+  {
+    "path": "AGENTS/CARL/sub_agents/PHAN/outbox/2026-09-10_PHAN-to-CARL_dossier-pass.md",
+    "line": 6,
+    "reference": "workbook/PREDICTIONS.tsv",
+    "surface_state": "ACTIVE_CANDIDATE"
+  },
+  {
+    "path": "AGENTS/CARL/sub_agents/PHAN/outbox/2026-09-10_PHAN-to-CARL_dossier-pass.md",
+    "line": 39,
+    "reference": "handoff_RED/COUNTER_LOG",
+    "surface_state": "ACTIVE_CANDIDATE"
+  },
+  {
+    "path": "AGENTS/CARL/sub_agents/PHAN/outbox/2026-09-10_PHAN-to-CARL_dossier-pass.md",
+    "line": 160,
+    "reference": "workbook/PREDICTIONS.tsv",
+    "surface_state": "ACTIVE_CANDIDATE"
+  },
+  {
+    "path": "AGENTS/CARL/sub_agents/PHAN/inbox/2026-09-11_from-CARL_dispositions-leg2-is-UNTESTED-not-weakly-met-and-the-instrument-is-frozen-at-both-ends.md",
+    "line": 88,
+    "reference": "handoff_RED/COUNTER_LOG",
+    "surface_state": "ACTIVE_CANDIDATE"
+  }
+]

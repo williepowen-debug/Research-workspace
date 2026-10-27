@@ -1,0 +1,100 @@
+{
+  "regression-repairs": {
+    "exit_code": 0,
+    "command": [
+      ".venv/bin/python3",
+      "AGENTS/CARL/scripts/test_audit_repairs.py",
+      "-v"
+    ],
+    "output_file": "regression-repairs.txt"
+  },
+  "board-regression": {
+    "exit_code": 0,
+    "command": [
+      ".venv/bin/python3",
+      "AGENTS/CARL/scripts/test_board_gap.py"
+    ],
+    "output_file": "board-regression.txt"
+  },
+  "consistency": {
+    "exit_code": 0,
+    "command": [
+      ".venv/bin/python3",
+      "AGENTS/CARL/scripts/consistency_check.py"
+    ],
+    "output_file": "consistency.txt"
+  },
+  "roadmap": {
+    "exit_code": 0,
+    "command": [
+      "python3",
+      "AGENTS/CARL/scripts/roadmap_index.py",
+      "--check"
+    ],
+    "output_file": "roadmap.txt"
+  },
+  "corrections": {
+    "exit_code": 0,
+    "command": [
+      "python3",
+      "scripts/corrections_boot_check.py",
+      "CARL"
+    ],
+    "output_file": "corrections.txt"
+  },
+  "read-cap": {
+    "exit_code": 0,
+    "command": [
+      "python3",
+      "scripts/read_cap_check.py",
+      "--agent",
+      "CARL"
+    ],
+    "output_file": "read-cap.txt"
+  },
+  "ledger-staleness": {
+    "exit_code": 1,
+    "command": [
+      "python3",
+      "scripts/ledger_staleness.py",
+      "CARL",
+      "--quiet"
+    ],
+    "output_file": "ledger-staleness.txt"
+  },
+  "board-closeout": {
+    "exit_code": 0,
+    "command": [
+      ".venv/bin/python3",
+      "AGENTS/CARL/scripts/board_gap.py",
+      "--closeout"
+    ],
+    "output_file": "board-closeout.txt"
+  },
+  "brier-diagnostic": {
+    "exit_code": 0,
+    "command": [
+      ".venv/bin/python3",
+      "AGENTS/CARL/scripts/brier_audit.py"
+    ],
+    "output_file": "brier-diagnostic.txt"
+  },
+  "weekday": {
+    "exit_code": 0,
+    "command": [
+      "python3",
+      "scripts/claim_check.py",
+      "--check",
+      "weekday",
+      "AGENTS/CARL/STATUS.md",
+      "AGENTS/CARL/docket/CATALYSTS.tsv",
+      "AGENTS/CARL/docket/CALENDAR.md",
+      "AGENTS/CARL/SCRATCH.md"
+    ],
+    "output_file": "weekday.txt"
+  },
+  "python-AST": {
+    "files": 24,
+    "errors": []
+  }
+}

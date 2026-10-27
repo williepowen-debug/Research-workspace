@@ -1,0 +1,83 @@
+
+CARL BRIER AUDIT — source /home/willi/Research-workspace/AGENTS/CARL/thesis/PREDICTIONS.tsv
+LEGACY DIAGNOSTIC ONLY — not the fleet's WQ-112 score or a verified first-call reconstruction.
+The Notes heuristic chooses a maximum prior mark, not the earliest dated mark; missing values fall back to recorded.
+Resolved predictions scored: 11
+Convention: CONFIRMED=1.0 · MISSED=0.0 · MIXED=0.5 · legacy pre-TSV EXCLUDED (survivorship)
+
+  ID       STATUS      f(rec)  f(ex-ante)  outcome   prediction
+  CRL-01   MISSED         75%           —      0.0   Gas pump peak stress Mar 14-21 with Brent $84
+  CRL-03   MISSED         90%         90%      0.0   Fannie MF DQ breaches 0.80% (GFC peak)
+  CRL-04   CONFIRMED      88%         97%      1.0   Student loan 90+ DQ breaches 10%
+  CRL-07   MISSED         80%         85%      0.0   FL UI exhaustion wave triggers DQ spike
+  CRL-08   MISSED         28%         92%      0.0   Gas pump prices hit $4.50+ national avg
+  CRL-09   MISSED         75%         75%      0.0   JOLTS March ratio drops below 0.88 (from 0.91 Feb)
+  CRL-11   MISSED         85%         85%      0.0   Hires rate stays at or below 3.2% through Q2 2026 JOLTS data
+  CRL-16   MISSED         60%         60%      0.0   Regional bank Q2 2026 earnings show SB-related provision increases >25
+  CRL-18   CONFIRMED      60%           —      1.0   Q1 2026 GDP second estimate (May 28 BEA) revises advance 2.0% downward
+  CRL-19   MIXED          70%           —      0.5   March 2026 monthly Core PCE YoY (release ~May 30) accelerates from Feb
+  CRL-24   MISSED         60%           —      0.0   Axis A (unsecured/monoline) crystallizes H2-2026: SYF Q2 2026 card NCO
+
+==========================================================================
+  BASIS A — AS RECORDED (confidence at/near resolution)   (N = 11)
+==========================================================================
+  Brier score              0.3918   (0 perfect · 0.25 = always saying 50%)
+  Climatology (base-rate)  0.1529   'always forecast 23%'
+  BRIER SKILL SCORE        -1.563   *** NEGATIVE — worse than knowing only the base rate ***
+  Mean forecast            70.1%
+  Actual hit rate          22.7%
+  OVERCONFIDENCE           +47.4%   (mean forecast minus actual)
+
+  Grouped-bin decomposition: bin-mean BS = REL - RES + UNC
+    Reliability (lower=better, 0=perfectly calibrated)  0.2710
+    Resolution  (higher=better, discrimination)         0.0317
+    Uncertainty (base-rate variance, irreducible)       0.1529
+    check: 0.2710 - 0.0317 + 0.1529 = 0.3922
+    raw-score minus bin-mean score: -0.0003; grouping can change the score
+
+  CALIBRATION BY BAND
+    band          n  mean fcst   actual      gap   ids
+    0-55%       1       28%       0%     +28%   CRL-08
+    55-65%       3       60%      33%     +27%   CRL-16,CRL-18,CRL-24
+    65-75%       1       70%      50%     +20%   CRL-19
+    75-85%       3       77%       0%     +77%   CRL-01,CRL-07,CRL-09  <-- worst
+    85-101%       3       88%      33%     +54%   CRL-03,CRL-04,CRL-11  <-- worst
+
+==========================================================================
+  BASIS B — MAXIMUM-PRIOR-MARK HEURISTIC (7/11 from Notes; rest fall back to recorded; NOT verified ex-ante)   (N = 11)
+==========================================================================
+  Brier score              0.4679   (0 perfect · 0.25 = always saying 50%)
+  Climatology (base-rate)  0.1529   'always forecast 23%'
+  BRIER SKILL SCORE        -2.061   *** NEGATIVE — worse than knowing only the base rate ***
+  Mean forecast            77.2%
+  Actual hit rate          22.7%
+  OVERCONFIDENCE           +54.5%   (mean forecast minus actual)
+
+  Grouped-bin decomposition: bin-mean BS = REL - RES + UNC
+    Reliability (lower=better, 0=perfectly calibrated)  0.3468
+    Resolution  (higher=better, discrimination)         0.0196
+    Uncertainty (base-rate variance, irreducible)       0.1529
+    check: 0.3468 - 0.0196 + 0.1529 = 0.4801
+    raw-score minus bin-mean score: -0.0122; grouping can change the score
+
+  CALIBRATION BY BAND
+    band          n  mean fcst   actual      gap   ids
+    55-65%       3       60%      33%     +27%   CRL-16,CRL-18,CRL-24
+    65-75%       1       70%      50%     +20%   CRL-19
+    75-85%       2       75%       0%     +75%   CRL-01,CRL-09  <-- worst
+    85-101%       5       90%      20%     +70%   CRL-03,CRL-04,CRL-07,CRL-08,CRL-11  <-- worst
+
+==========================================================================
+  THE GAP
+==========================================================================
+  Brier as-recorded 0.3918  vs  Notes heuristic 0.4679   (+0.0761)
+  Mean forecast     70.1%      vs  77.2%
+  Actual hit rate   22.7%
+
+  A gap under this heuristic does not establish the dated first-call score.
+  7 of 11 rows have a Notes-derived prior; the remainder fall back
+  to recorded. Neither basis replaces the fleet scoreboard or a dated-mark audit.
+
+  ⚠️  N = 11. TERRY's paper-book spec sets N>=10 as the MINIMUM before
+      scoring acts on anything. This is directional, not significant.
+

@@ -8,6 +8,12 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-10-26 — L786 status receipt and file-audit reconciliation (no score change)
+
+**Late change-log receipt for L786:** CRL-21 OPEN → STUCK was implemented in result 5b18d5a88 on October 26. The NCO branch failed; the matched FY2025/26-versus-FY2023 vintage loss comparison was unavailable in the reviewed primaries. Confidence 25%, Q3 window and operative instrument are unchanged; no hit/miss or scoring. WQ-161 mass-neutrality proof is in the canonical row. The next November 6 source check is not a forecast extension. This paragraph records the earlier change rather than making a new grade.
+
+**File audit:** no forecast cell, threshold, probability or outcome changed. Canonical header now names the actual October 26 event/source check. PREDICTIONS_MIRROR’s CRL-05 claim that the void cost a good Brier row was stale; corrected to the September 24 withdrawal (the undated 20% is not a valid first-call mark;75% governs). Revision-ledger counts explicitly dated historical; later events remain unclassified in the diagnostic candidate. No official score is inferred from brier_audit.py. CRL-25 Notes/mirror now flag BROCK’s September 3 retirement of the predecessor instrument; CARL’s unscored OPEN pointer is administratively unreconciled and retains every operative field pending disposition.
+
 ## 2026-10-21 — CRL-29 first grade NO VERDICT; Q3 prints cut CRL-31 50→1%, CRL-20 35→1%, CRL-12 20→1% (no version bump, no score change)
 
 **Session:** CARL catch-up (PROME-spawned prome-56, wave 3; Will 21:56 ET authorization). Card `domain/sources/2026-10-21_catchup/CATCHUP_READ.md`.
@@ -779,7 +785,7 @@ KB-345 gas $4 cross · KB-346 SYF Q2 · KB-347 ALLY Q2 · KB-348 COF Q2 · KB-34
 ### PREDICTIONS
 - **CRL-22 re-specified v2 (Will-approved), conf 60→55.** POLLY primary-verify (SV-POLLY-2026-07-18-01, EDGAR) found the v1 H2-weighted-avg legs (UNH ≥85.4% / ELV ≥88.3% over Q1+150bps) are **seasonality artifacts** — UNH's own FY26 guide (88.1%±25bps vs H1 avg ~85.3%) implies H2 ~90.9%, so the trigger fires mechanically in ANY year; simultaneously the FY guide IMPROVED 88.8→88.1 = stress mechanism NOT corroborated. Old: H2 weighted-avg level legs. New: **guide-revision-direction legs** (UNH RAISES FY26 MCR guide >88.1%±25 / ELV RAISES FY26 BCR guide >90.2%), V28 RAF AND-gate unchanged. v1 legs retired-not-failed (spec error, not a thesis event). Conf-trim reason: UNH guide-improvement is live counter-evidence. Baseline conflict resolved same pass: Q1 83.9% CORRECT; press "lowest MCR in 8 qtrs" refuted vs 8-K.
 - **CRL-06 (CONFIRMED 7/16) — Q2 actuals annotated:** ATTOM H1 (rel 7/16, HOMER primary-verified): Q2 clears 70K on starts (~82-88K) AND filings (115,714), NOT REO (~14K) = 2nd consec qtr on the defining metric. REO-conversion sub-watch RESOLVED same print: conversion ACCELERATING (timeline 563d lowest since 2013; June REO +23% YoY reaccel) — cure-and-delay hypothesis dropped.
-- **CRL-24/21/20/12/23 — pre-registered fire/hold lines staged** in `domain/sources/2026-07-18_q2-earnings-prep.md` for the 7/21 four-name cluster (SYF 6:00am / ALLY 7:30am / DHI pre-open / COF 4:05pm AMC; PHM 7/22; AXP 7/24 — dates IR-confirmed, docket corrected).
+- **CRL-24/21/20/12/23 — pre-registered fire/hold lines staged** in `archive/2026-07-18_q2-earnings-prep.md` for the 7/21 four-name cluster (SYF 6:00am / ALLY 7:30am / DHI pre-open / COF 4:05pm AMC; PHM 7/22; AXP 7/24 — dates IR-confirmed, docket corrected).
 - **CRL-26 (gas $4.00 by 7/20):** pending at $3.992 (7/18 boot); STATUS mirror row added (consistency_check.py Phase-1 first live catch).
 - **CRL-10 (62% unchanged):** DEWEY fork reconciled vs KB-333 — no collision; three-channel food decomposition canonized (KB-339). DTN 7/15 flip-check: no fertilizer re-arm at retail.
 

@@ -4,10 +4,11 @@ CARL Threshold Monitor
 Pulls live market prices (yfinance) and economic data (FRED) and compares
 against CARL consumer-stress thesis thresholds.
 
-Thresholds sourced from CARL VX.tsv + STATUS.md key thresholds table.
+Legacy diagnostic screens. Levels are not registered prediction/vector gates;
+VX.tsv is frozen. A screen crossing cannot establish credit deterioration.
 
 Color key:
-  BREACHED  = threshold crossed, thesis confirming or risk escalating
+  BREACHED  = legacy screen crossed; no registered thesis grade
   WARNING   = within 5% of threshold
 
 Usage:
@@ -20,7 +21,7 @@ import os
 import sys
 import urllib.request
 import urllib.parse
-from datetime import datetime
+from datetime import datetime, timezone
 
 try:
     import yfinance as yf
@@ -59,11 +60,11 @@ FRED_BASE = "https://api.stlouisfed.org/fred/series/observations"
 
 MARKET_THRESHOLDS = [
     # Consumer credit canaries
-    ("SYF",  "below",  25.0, "thesis",  "SYF crisis — NCO blowout territory"),
-    ("SYF",  "below",  30.0, "thesis",  "SYF acute stress — NCO >6% likely"),
-    ("ALLY", "below",  25.0, "thesis",  "ALLY auto credit crisis"),
-    ("ALLY", "below",  30.0, "thesis",  "ALLY stress — subprime auto deterioration"),
-    ("DFS",  "below",  90.0, "thesis",  "DFS stress — CC charge-offs rising"),
+    ("SYF",  "below",  25.0, "thesis",  "SYF legacy price screen below $25"),
+    ("SYF",  "below",  30.0, "thesis",  "SYF legacy price screen — no NCO inference"),
+    ("ALLY", "below",  25.0, "thesis",  "ALLY legacy price screen below $25"),
+    ("ALLY", "below",  30.0, "thesis",  "ALLY legacy price screen below $30"),
+    ("DFS",  "below",  90.0, "thesis",  "DFS legacy price screen below $90"),
     ("COF",  "below", 120.0, "thesis",  "COF stress — subprime CC deterioration"),
     # Homebuilders (K-shape: LEN stressed, TOL resilient)
     ("LEN",  "below", 100.0, "thesis",  "LEN entry-level builder crisis"),
@@ -162,11 +163,17 @@ def get_prices(symbols):
         for sym in symbols:
             try:
                 info = tickers.tickers[sym].info
-                price = info.get("regularMarketPrice") or info.get("previousClose")
+                current = info.get("regularMarketPrice")
+                price = current or info.get("previousClose")
                 prev = info.get("previousClose") or info.get("regularMarketPreviousClose")
                 if price:
                     chg = ((price - prev) / prev * 100) if prev else 0
-                    prices[sym] = {"price": price, "prev": prev, "chg": chg}
+                    stamp = info.get("regularMarketTime") if current else None
+                    prices[sym] = {
+                        "price": price, "prev": prev, "chg": chg,
+                        "basis": "regularMarketPrice" if current else "previousClose fallback",
+                        "asof_utc": datetime.fromtimestamp(stamp, timezone.utc).isoformat() if stamp else None,
+                    }
             except Exception:
                 pass
     except Exception as e:
@@ -283,6 +290,8 @@ def emoji_for(clas, status):
 
 def fmt_value(value, series_id=None):
     """Format a numeric value contextually."""
+    if series_id == "BAMLH0A0HYM2":
+        return f"{value * 100:.1f}"  # FRED percentage points -> displayed bp
     if series_id and series_id in ("ICSA", "CCSA"):
         return f"{value:,.0f}"
     if abs(value) > 1000:
@@ -303,7 +312,7 @@ def print_alerts(alerts, header):
         lev_str = fmt_value(a["level"], a.get("ticker"))
         src = f" ({a['date']})" if a.get("date") else ""
         print(f"  {e} {a['ticker']:<16} {val_str:>12}  (level {lev_str}, {a['dist']:+.1f}%){src}")
-        print(f"              {a['label']}")
+        print(f"              LEGACY SCREEN ONLY: {a['label']}; no registered grade")
 
 
 # ---------------------------------------------------------------------------
@@ -321,6 +330,7 @@ def main():
     if not json_mode:
         print(f"\n{'='*72}")
         print(f"  CARL Threshold Monitor \u2014 {now}")
+        print("  LEGACY DIAGNOSTIC — screens are not registered gates or thesis confirmations")
         print(f"{'='*72}")
 
     # --- Market data ---
@@ -340,16 +350,22 @@ def main():
     market_alerts = check_market_thresholds(prices)
     fred_alerts = check_fred_thresholds(fred_data)
     all_alerts = market_alerts + fred_alerts
+    missing_market = sorted(set(all_syms) - prices.keys())
+    missing_fred = sorted(s for s in fred_series
+                          if not fred_data.get(s) or "error" in fred_data[s][0])
+    incomplete = bool(missing_market or missing_fred)
 
     if json_mode:
         output = {
             "timestamp": now,
+            "diagnostic_only": True,
+            "coverage": {"missing_market": missing_market, "missing_fred": missing_fred},
             "alerts": all_alerts,
             "prices": {s: prices[s] for s in sorted(prices)},
             "fred": {s: fred_data[s] for s in sorted(fred_data)},
         }
         print(json.dumps(output, indent=2))
-        return 0
+        return 1 if incomplete else 0
 
     # --- Display alerts ---
     breaches_thesis = [a for a in all_alerts if a["status"] == "BREACHED" and a["class"] == "thesis"]
@@ -357,13 +373,16 @@ def main():
     breaches_stress = [a for a in all_alerts if a["status"] == "BREACHED" and a["class"] == "stress"]
     warnings = [a for a in all_alerts if a["status"] == "WARNING"]
 
-    print_alerts(breaches_risk, "\U0001f534 RISK BREACHES (bad for thesis)")
-    print_alerts(breaches_thesis, "\U0001f7e2 THESIS CONFIRMING BREACHES")
-    print_alerts(breaches_stress, "\U0001f7e0 STRUCTURAL STRESS BREACHES")
+    print_alerts(breaches_risk, "LEGACY RISK SCREENS — diagnostic only")
+    print_alerts(breaches_thesis, "LEGACY PRICE/DATA SCREENS — not thesis confirmation")
+    print_alerts(breaches_stress, "LEGACY CONTEXT SCREENS — diagnostic only")
     print_alerts(warnings, "\u26a0\ufe0f  NEAR THRESHOLDS (within 5%)")
 
     if not any([breaches_thesis, breaches_risk, breaches_stress, warnings]):
-        print(f"\n  \u2705 No threshold breaches or warnings.")
+        print("\n  No screen crossings among available observations; missing inputs remain unassessed.")
+    if incomplete:
+        print(f"  WARNING: INCOMPLETE DATA — missing market: {', '.join(missing_market) or 'none'}; "
+              f"missing FRED: {', '.join(missing_fred) or 'none'}")
 
     # --- Consumer credit canaries ---
     print(f"\n  CONSUMER CREDIT CANARIES")
@@ -373,7 +392,8 @@ def main():
         p = prices.get(sym)
         if p:
             arrow = "\U0001f7e2" if p["chg"] >= 0 else "\U0001f534"
-            print(f"  {arrow} {sym:<8} ${p['price']:>10.2f}  ({p['chg']:+.2f}%)")
+            print(f"  {arrow} {sym:<8} ${p['price']:>10.2f}  ({p['chg']:+.2f}%) "
+                  f"[{p.get('basis', 'UNKNOWN basis')}; asof {p.get('asof_utc') or 'UNKNOWN'}]")
 
     # --- Homebuilders (K-shape) ---
     print(f"\n  HOMEBUILDER K-SHAPE")
@@ -385,10 +405,11 @@ def main():
             arrow = "\U0001f7e2" if p["chg"] >= 0 else "\U0001f534"
             tag = ""
             if sym == "LEN":
-                tag = " (entry-level, margin 15.2%)"
+                tag = " (entry-level; no live margin observation)"
             elif sym == "TOL":
-                tag = " (luxury, margin 26.5%)"
-            print(f"  {arrow} {sym:<8} ${p['price']:>10.2f}  ({p['chg']:+.2f}%){tag}")
+                tag = " (luxury; no live margin observation)"
+            print(f"  {arrow} {sym:<8} ${p['price']:>10.2f}  ({p['chg']:+.2f}%){tag} "
+                  f"[{p.get('basis', 'UNKNOWN basis')}; asof {p.get('asof_utc') or 'UNKNOWN'}]")
 
     # --- FRED latest values ---
     print(f"\n  FRED LATEST VALUES")
@@ -421,6 +442,8 @@ def main():
                     diff = num - prior
                     if sid in ("ICSA", "CCSA"):
                         prior_str = f"  (prior {fmt_value(prior, sid)}, {diff:+,.0f})"
+                    elif sid == "BAMLH0A0HYM2":
+                        prior_str = f"  (prior {fmt_value(prior, sid)}, {diff * 100:+.1f} bp)"
                     else:
                         prior_str = f"  (prior {fmt_value(prior, sid)}, {diff:+.2f})"
                 except (ValueError, KeyError):
@@ -439,12 +462,14 @@ def main():
         if p:
             arrow = "\U0001f7e2" if p["chg"] >= 0 else "\U0001f534"
             if sym.startswith("^"):
-                print(f"  {arrow} {sym:<10} {p['price']:>10.2f}  ({p['chg']:+.2f}%)")
+                print(f"  {arrow} {sym:<10} {p['price']:>10.2f}  ({p['chg']:+.2f}%) "
+                      f"[{p.get('basis', 'UNKNOWN basis')}; asof {p.get('asof_utc') or 'UNKNOWN'}]")
             else:
-                print(f"  {arrow} {sym:<10} ${p['price']:>9.2f}  ({p['chg']:+.2f}%)")
+                print(f"  {arrow} {sym:<10} ${p['price']:>9.2f}  ({p['chg']:+.2f}%) "
+                      f"[{p.get('basis', 'UNKNOWN basis')}; asof {p.get('asof_utc') or 'UNKNOWN'}]")
 
     print()
-    return 0
+    return 1 if incomplete else 0
 
 
 if __name__ == "__main__":

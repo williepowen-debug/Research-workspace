@@ -1,0 +1,314 @@
+[
+  {
+    "file": "AGENTS/CARL/thesis/PREDICTIONS.tsv",
+    "id": "CRL-10",
+    "status": "OPEN",
+    "window": "Q4 2026",
+    "confidence": "1% (was 8 - 2026-10-15 SEPTEMBER-CPI RE-GRADE, two-number rule; was 62 - 2026-09-11 REACHABILITY RE-GRADE; arithmetic in Notes) | AS-MADE 70% [2026-05-03] RE-DERIVED 2026-09-10, verified at STATUS @ba402e60f; EARLIEST RECORDED, not provably as-made - Date_Made 2026-03-31 PRECEDES the first STATUS appearance. The ledger chain had lost this step. DAEDALUS H2 as-made audit.",
+    "columnarity_ok": true
+  },
+  {
+    "file": "AGENTS/CARL/thesis/PREDICTIONS.tsv",
+    "id": "CRL-12",
+    "status": "OPEN",
+    "window": "FY2026 (reported Jan 2027)",
+    "confidence": "1% (was 20 - 2026-10-21 Q3 REACHABILITY RE-GRADE; was 55) | AS-MADE 77% [2026-04-02] RE-DERIVED 2026-09-10, verified at STATUS @3e4b234ba; AS-MADE - the STATUS blob date EQUALS Date_Made. The ledger chain had lost this step. DAEDALUS H2 as-made audit.",
+    "columnarity_ok": true
+  },
+  {
+    "file": "AGENTS/CARL/thesis/PREDICTIONS.tsv",
+    "id": "CRL-13",
+    "status": "OPEN",
+    "window": "Oct 1 2026 = FIRST-TRANCHE read (full pop into Q1 2027)",
+    "confidence": "75% | AS-MADE 70% [2026-04-07] RE-DERIVED 2026-09-10, verified at STATUS @c876257f0; AS-MADE (blob 1d after Date_Made); ledger sat ABOVE the as-made. The ledger chain had lost this step. DAEDALUS H2 as-made audit.",
+    "columnarity_ok": true
+  },
+  {
+    "file": "AGENTS/CARL/thesis/PREDICTIONS.tsv",
+    "id": "CRL-15",
+    "status": "OPEN",
+    "window": "Q4 2026",
+    "confidence": "35% (was 65 \u2014 MONOTONICITY FIX)",
+    "columnarity_ok": true
+  },
+  {
+    "file": "AGENTS/CARL/thesis/PREDICTIONS.tsv",
+    "id": "CRL-20",
+    "status": "OPEN",
+    "window": "Q1 2027 earnings season",
+    "confidence": "1% (was 35 - 2026-10-21 Q3 REACHABILITY RE-GRADE; was 45 - DEWEY C3 masking-duration base rates) | AS-MADE 75% [2026-05-01] RE-DERIVED 2026-09-10, verified at STATUS @656c41795; AS-MADE - the STATUS blob date EQUALS Date_Made. The ledger chain had lost this step. DAEDALUS H2 as-made audit.",
+    "columnarity_ok": true
+  },
+  {
+    "file": "AGENTS/CARL/thesis/PREDICTIONS.tsv",
+    "id": "CRL-21",
+    "status": "STUCK",
+    "window": "Q3 2026 (Jul-Sep)",
+    "confidence": "25% (was 60) - leg-1 failed 7/21, NCO leg unreachable inside the Q3-2026 window",
+    "columnarity_ok": true
+  },
+  {
+    "file": "AGENTS/CARL/thesis/PREDICTIONS.tsv",
+    "id": "CRL-22",
+    "status": "OPEN",
+    "window": "Q1 2027 (FY26 final membership + 2027 OEP data both in; reachability re-checked after EVERY quarterly print)",
+    "confidence": "60% (re-spec v3; v2 was 45 \u2014 NOT inherited, this is an honest confidence for a DIFFERENT claim)",
+    "columnarity_ok": true
+  },
+  {
+    "file": "AGENTS/CARL/thesis/PREDICTIONS.tsv",
+    "id": "CRL-23",
+    "status": "OPEN",
+    "window": "DHI Q1 FY27 print (Jan 2027) + PHM Q1 FY27 print (Apr 2027)",
+    "confidence": "45% (was 70)",
+    "columnarity_ok": true
+  },
+  {
+    "file": "AGENTS/CARL/thesis/PREDICTIONS.tsv",
+    "id": "CRL-25",
+    "status": "OPEN",
+    "window": "Q3 2026 (BROCK monitors gate count)",
+    "confidence": "N/A \u2014 BROCK's count",
+    "columnarity_ok": true
+  },
+  {
+    "file": "AGENTS/CARL/thesis/PREDICTIONS.tsv",
+    "id": "CRL-28",
+    "status": "OPEN",
+    "window": "Oct 1 2026 - Sep 30 2027 (rolling 60-day test; earliest realistic confirm ~Dec 2026, the first-payment wave)",
+    "confidence": "50%",
+    "columnarity_ok": true
+  },
+  {
+    "file": "AGENTS/CARL/thesis/PREDICTIONS.tsv",
+    "id": "CRL-29",
+    "status": "OPEN",
+    "window": "First grade ~2026-10-20 (Q3 consumer-credit checkpoint); re-check at the ~Nov Q3 HHDC",
+    "confidence": "30% \u2014 **PRICED AS A CONJUNCTION, DELIBERATELY LOW.** Band A is stock-down AND loss-rate-up, so P(A) \u2264 min of the legs. Cut below a coin flip because the FRESH evidence leans BAND B: EART extension rates run 5.13-5.96% and rose on three consecutive filings across 4 of 4 deals (OTTO panel, 8/28), which is the extension channel this test was built to detect. OTTO cautions n=1 full seasonal cycle so \"extensions rising\" is not yet separable from \"extensions rising as they did last year\" \u2014 hence 30, not lower.",
+    "columnarity_ok": true
+  },
+  {
+    "file": "AGENTS/CARL/thesis/PREDICTIONS.tsv",
+    "id": "CRL-30",
+    "status": "OPEN",
+    "window": "through 2027:Q2 (resolves at the 2027:Q2 HHDC release, ~Aug 2027)",
+    "confidence": "25%",
+    "columnarity_ok": true
+  },
+  {
+    "file": "AGENTS/CARL/thesis/PREDICTIONS.tsv",
+    "id": "CRL-31",
+    "status": "OPEN",
+    "window": "Q1 2027 earnings season (Jan-Mar 2027; reachability re-checked after EVERY quarterly print)",
+    "confidence": "1% (was 50 - 2026-10-21 Q3 REACHABILITY RE-GRADE: SYF and COF fail the first qualifying quarter, so at most ALLY can complete a 2-quarter run; <2 names possible) | carried mark history: 50% from CRL-27 2026-09-10 post-strike mark",
+    "columnarity_ok": true
+  },
+  {
+    "file": "AGENTS/CARL/sub_agents/DOC/workbook/PREDICTIONS.tsv",
+    "id": "DOC-P02",
+    "status": "TRACKING",
+    "window": "Sept 2026 (KFF annual release)",
+    "confidence": "75%",
+    "columnarity_ok": true
+  },
+  {
+    "file": "AGENTS/CARL/sub_agents/DOC/workbook/PREDICTIONS.tsv",
+    "id": "DOC-P05",
+    "status": "TRACKING",
+    "window": "Q3 2026 (annual Gallup West Health survey; KFF ongoing polls)",
+    "confidence": "60%",
+    "columnarity_ok": true
+  },
+  {
+    "file": "AGENTS/CARL/sub_agents/DOC/workbook/PREDICTIONS.tsv",
+    "id": "DOC-P08",
+    "status": "TRACKING",
+    "window": "Through November 2026 (KFF monthly polls)",
+    "confidence": "80%",
+    "columnarity_ok": true
+  },
+  {
+    "file": "AGENTS/CARL/sub_agents/DOC/workbook/PREDICTIONS.tsv",
+    "id": "DOC-P09",
+    "status": "TRACKING",
+    "window": "H1 2027 (first biannual review cycle: Q1-Q2 2027)",
+    "confidence": "70%",
+    "columnarity_ok": true
+  },
+  {
+    "file": "AGENTS/CARL/sub_agents/DOC/workbook/PREDICTIONS.tsv",
+    "id": "DOC-P10",
+    "status": "TRACKING",
+    "window": "Q3 advance estimate (rel Oct 30 2026)",
+    "confidence": "65%",
+    "columnarity_ok": true
+  },
+  {
+    "file": "AGENTS/CARL/sub_agents/GIG/workbook/PREDICTIONS.tsv",
+    "id": "GIG-P02",
+    "status": "TRACKING",
+    "window": "Q2-Q3 2026",
+    "confidence": "50%",
+    "columnarity_ok": true
+  },
+  {
+    "file": "AGENTS/CARL/sub_agents/GIG/workbook/PREDICTIONS.tsv",
+    "id": "GIG-P04",
+    "status": "TRACKING",
+    "window": "H2 2026",
+    "confidence": "65%",
+    "columnarity_ok": true
+  },
+  {
+    "file": "AGENTS/CARL/sub_agents/GIG/workbook/PREDICTIONS.tsv",
+    "id": "GIG-P07",
+    "status": "TRACKING",
+    "window": "EOY 2026",
+    "confidence": "60%",
+    "columnarity_ok": true
+  },
+  {
+    "file": "AGENTS/CARL/sub_agents/PHAN/workbook/PREDICTIONS.tsv",
+    "id": "PHAN-P01",
+    "status": "OPEN",
+    "window": "H2 2026",
+    "confidence": "25%",
+    "columnarity_ok": true
+  },
+  {
+    "file": "AGENTS/CARL/sub_agents/PHAN/workbook/PREDICTIONS.tsv",
+    "id": "PHAN-P03",
+    "status": "OPEN",
+    "window": "EOY 2026",
+    "confidence": "98%",
+    "columnarity_ok": true
+  },
+  {
+    "file": "AGENTS/CARL/sub_agents/PHAN/workbook/PREDICTIONS.tsv",
+    "id": "PHAN-P04",
+    "status": "OPEN",
+    "window": "2026",
+    "confidence": "12%",
+    "columnarity_ok": true
+  },
+  {
+    "file": "AGENTS/CARL/sub_agents/PHAN/workbook/PREDICTIONS.tsv",
+    "id": "PHAN-P05",
+    "status": "OPEN",
+    "window": "Q3-Q4 2026",
+    "confidence": "15%",
+    "columnarity_ok": true
+  },
+  {
+    "file": "AGENTS/CARL/sub_agents/PHAN/workbook/PREDICTIONS.tsv",
+    "id": "PHAN-P07",
+    "status": "OPEN",
+    "window": "2026",
+    "confidence": "88%",
+    "columnarity_ok": true
+  },
+  {
+    "file": "AGENTS/CARL/sub_agents/POLLY/workbook/PREDICTIONS.tsv",
+    "id": "POLLY-P01",
+    "status": "TRACKING",
+    "window": "2026-Q4 to 2027-Q4",
+    "confidence": "70%",
+    "columnarity_ok": true
+  },
+  {
+    "file": "AGENTS/CARL/sub_agents/POLLY/workbook/PREDICTIONS.tsv",
+    "id": "POLLY-P02",
+    "status": "TRACKING \u2014 TREND BELOW PACE",
+    "window": "2026-Q4",
+    "confidence": "55%",
+    "columnarity_ok": true
+  },
+  {
+    "file": "AGENTS/CARL/sub_agents/POLLY/workbook/PREDICTIONS.tsv",
+    "id": "POLLY-P03",
+    "status": "TRACKING \u2014 STRONG",
+    "window": "2026-Q4",
+    "confidence": "85%",
+    "columnarity_ok": true
+  },
+  {
+    "file": "AGENTS/CARL/sub_agents/POLLY/workbook/PREDICTIONS.tsv",
+    "id": "POLLY-P04",
+    "status": "TRACKING",
+    "window": "2026-Q4 OE results (reported Jan 2027)",
+    "confidence": "75%",
+    "columnarity_ok": true
+  },
+  {
+    "file": "AGENTS/CARL/sub_agents/POLLY/workbook/PREDICTIONS.tsv",
+    "id": "POLLY-P05",
+    "status": "TRACKING \u2014 STRONG, H1 COMPLETE",
+    "window": "2026-Q4 (full-year earnings)",
+    "confidence": "90%",
+    "columnarity_ok": true
+  },
+  {
+    "file": "AGENTS/CARL/sub_agents/POLLY/workbook/PREDICTIONS.tsv",
+    "id": "POLLY-P06",
+    "status": "TRACKING",
+    "window": "2026-Q4",
+    "confidence": "55%",
+    "columnarity_ok": true
+  },
+  {
+    "file": "AGENTS/CARL/sub_agents/POLLY/workbook/PREDICTIONS.tsv",
+    "id": "POLLY-P07",
+    "status": "TRACKING",
+    "window": "2026-Q4",
+    "confidence": "60%",
+    "columnarity_ok": true
+  },
+  {
+    "file": "AGENTS/CARL/sub_agents/POLLY/workbook/PREDICTIONS.tsv",
+    "id": "POLLY-P08",
+    "status": "TRACKING",
+    "window": "2027 (next IRC study expected)",
+    "confidence": "65%",
+    "columnarity_ok": true
+  },
+  {
+    "file": "AGENTS/CARL/sub_agents/POP/workbook/PREDICTIONS.tsv",
+    "id": "POP-P03",
+    "status": "TRACKING",
+    "window": "Q3 2026 (by Sept 30)",
+    "confidence": "15% (was 70)",
+    "columnarity_ok": true
+  },
+  {
+    "file": "AGENTS/CARL/sub_agents/POP/workbook/PREDICTIONS.tsv",
+    "id": "POP-P05",
+    "status": "TRACKING",
+    "window": "Full year 2026",
+    "confidence": "70%",
+    "columnarity_ok": true
+  },
+  {
+    "file": "AGENTS/CARL/sub_agents/POP/workbook/PREDICTIONS.tsv",
+    "id": "POP-P06",
+    "status": "TRACKING",
+    "window": "Q4 2026 (by Dec 31)",
+    "confidence": "55% (was 50 \u2014 MONOTONICITY FIX, see Notes)",
+    "columnarity_ok": true
+  },
+  {
+    "file": "AGENTS/CARL/sub_agents/POP/workbook/PREDICTIONS.tsv",
+    "id": "POP-P07",
+    "status": "TRACKING",
+    "window": "Q1 2027 (SBCS release)",
+    "confidence": "70%",
+    "columnarity_ok": true
+  },
+  {
+    "file": "AGENTS/CARL/sub_agents/POP/workbook/PREDICTIONS.tsv",
+    "id": "POP-P08",
+    "status": "TRACKING",
+    "window": "H2 2026",
+    "confidence": "70%",
+    "columnarity_ok": true
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "files": 830,
+  "bytes": 42693538,
+  "python_files": 23,
+  "AST_errors": [],
+  "dependencies": {
+    "requests": true,
+    "bs4": true,
+    "yfinance": true,
+    "fredapi": false,
+    "pdfminer": true,
+    "pdfplumber": true,
+    "fitz": false,
+    "pandas": true
+  },
+  "active_text_files": 193,
+  "merge_marker_candidates": [],
+  "scope": "Recursive CARL inventory including child cards/ledgers and historical evidence; Python AST all scripts; active file semantic sampling and targeted link review, not a proof every historical sentence is current."
+}

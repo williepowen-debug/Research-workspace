@@ -1,0 +1,200 @@
+[
+  {
+    "path": "AGENTS/CARL/workbook/VX.tsv",
+    "header_columns": 12,
+    "bad_rows": [
+      {
+        "line": 16,
+        "columns": 11,
+        "id": "VX-CARL-3.01"
+      },
+      {
+        "line": 17,
+        "columns": 11,
+        "id": "VX-CARL-3.02"
+      },
+      {
+        "line": 85,
+        "columns": 11,
+        "id": "VX-CARL-MACRO-03"
+      },
+      {
+        "line": 86,
+        "columns": 11,
+        "id": "VX-CARL-MACRO-04"
+      },
+      {
+        "line": 87,
+        "columns": 11,
+        "id": "VX-CARL-MACRO-09"
+      },
+      {
+        "line": 88,
+        "columns": 11,
+        "id": "VX-CARL-HSG-01"
+      },
+      {
+        "line": 100,
+        "columns": 11,
+        "id": "VX-CARL-MACRO-05"
+      },
+      {
+        "line": 108,
+        "columns": 11,
+        "id": "VX-CARL-GAS-01"
+      }
+    ]
+  },
+  {
+    "path": "AGENTS/CARL/sub_agents/PHAN/workbook/ML.tsv",
+    "header_columns": 21,
+    "bad_rows": [
+      {
+        "line": 3,
+        "columns": 19,
+        "id": "ML-PHAN-01"
+      }
+    ]
+  },
+  {
+    "path": "AGENTS/CARL/sub_agents/PHAN/workbook/PROVIDER.tsv",
+    "header_columns": 11,
+    "bad_rows": [
+      {
+        "line": 11,
+        "columns": 10,
+        "id": "Affirm"
+      },
+      {
+        "line": 14,
+        "columns": 10,
+        "id": "Affirm"
+      }
+    ]
+  },
+  {
+    "path": "AGENTS/CARL/sub_agents/DOC/workbook/ML.tsv",
+    "header_columns": 18,
+    "bad_rows": [
+      {
+        "line": 2,
+        "columns": 13,
+        "id": "ML-DOC-01"
+      },
+      {
+        "line": 3,
+        "columns": 6,
+        "id": ""
+      }
+    ]
+  },
+  {
+    "path": "AGENTS/CARL/sub_agents/POP/workbook/ML.tsv",
+    "header_columns": 17,
+    "bad_rows": [
+      {
+        "line": 19,
+        "columns": 16,
+        "id": "ML-POP-17"
+      },
+      {
+        "line": 20,
+        "columns": 16,
+        "id": "ML-POP-18"
+      },
+      {
+        "line": 21,
+        "columns": 16,
+        "id": "ML-POP-19"
+      },
+      {
+        "line": 22,
+        "columns": 16,
+        "id": "ML-POP-20"
+      },
+      {
+        "line": 23,
+        "columns": 16,
+        "id": "ML-POP-21"
+      },
+      {
+        "line": 24,
+        "columns": 16,
+        "id": "ML-POP-22"
+      },
+      {
+        "line": 25,
+        "columns": 16,
+        "id": "ML-POP-23"
+      }
+    ]
+  },
+  {
+    "path": "AGENTS/CARL/sub_agents/GIG/workbook/FLOW.tsv",
+    "header_columns": 13,
+    "bad_rows": [
+      {
+        "line": 3,
+        "columns": 12,
+        "id": "FLOW-GIG-02"
+      }
+    ]
+  },
+  {
+    "path": "AGENTS/CARL/sub_agents/GIG/workbook/VX.tsv",
+    "header_columns": 16,
+    "bad_rows": [
+      {
+        "line": 4,
+        "columns": 15,
+        "id": "VX-GIG-1.03"
+      },
+      {
+        "line": 5,
+        "columns": 15,
+        "id": "VX-GIG-1.04"
+      },
+      {
+        "line": 6,
+        "columns": 15,
+        "id": "VX-GIG-2.01"
+      },
+      {
+        "line": 7,
+        "columns": 15,
+        "id": "VX-GIG-2.02"
+      },
+      {
+        "line": 8,
+        "columns": 15,
+        "id": "VX-GIG-2.03"
+      },
+      {
+        "line": 14,
+        "columns": 15,
+        "id": "VX-GIG-4.01"
+      }
+    ]
+  },
+  {
+    "path": "AGENTS/CARL/sub_agents/GIG/workbook/ML.tsv",
+    "header_columns": 18,
+    "bad_rows": [
+      {
+        "line": 24,
+        "columns": 17,
+        "id": "ML-GIG-23"
+      },
+      {
+        "line": 25,
+        "columns": 17,
+        "id": "ML-GIG-24"
+      },
+      {
+        "line": 26,
+        "columns": 17,
+        "id": "ML-GIG-25"
+      }
+    ]
+  }
+]

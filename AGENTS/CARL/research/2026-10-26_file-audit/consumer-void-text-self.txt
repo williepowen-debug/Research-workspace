@@ -1,0 +1,12 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  SELF mode: 333 files under AGENTS/CARL/ (processed/ + archive/ still excluded — historical by design). Nothing outside your own dir is scanned.
+
+  ── value · superseded void COSTS a good Brier row → current claim WITHDRAWN
+     ✓ no consumer carries a superseded value.
+
+  ✓ clean — no surface under AGENTS/CARL/ carries the superseded value unqualified. (Scanned the whole dir, not just STATUS/THESIS.)
+==================================================================
+

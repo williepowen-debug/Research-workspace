@@ -1,0 +1,17 @@
+test_canonical_reader_is_used_and_findings_preserved (__main__.BootLedgerTests.test_canonical_reader_is_used_and_findings_preserved) ... ok
+test_empty_failure_and_timeout_are_not_clean (__main__.BootLedgerTests.test_empty_failure_and_timeout_are_not_clean) ... ok
+test_filter_keeps_failure_and_attaches_only_own_section (__main__.BootLedgerTests.test_filter_keeps_failure_and_attaches_only_own_section) ... ok
+test_comment_header_and_literal_unbalanced_quote_do_not_merge_rows (__main__.PredictionReaderTests.test_comment_header_and_literal_unbalanced_quote_do_not_merge_rows) ... ok
+test_fractional_outcomes_and_grouping_are_not_binary_uncertainty (__main__.PredictionReaderTests.test_fractional_outcomes_and_grouping_are_not_binary_uncertainty) ... ok
+test_live_ledger_agrees_with_raw_resolved_id_set (__main__.PredictionReaderTests.test_live_ledger_agrees_with_raw_resolved_id_set) ... ok
+test_malformed_or_duplicate_rows_fail_loudly (__main__.PredictionReaderTests.test_malformed_or_duplicate_rows_fail_loudly) ... ok
+test_unresolved_and_unscored_states_stay_excluded (__main__.PredictionReaderTests.test_unresolved_and_unscored_states_stay_excluded) ... ok
+test_quoted_prose_does_not_swallow_subsequent_events (__main__.RevisionWriterTests.test_quoted_prose_does_not_swallow_subsequent_events) ... ok
+test_missing_inputs_are_not_a_clean_no_breach_result (__main__.ThresholdDisplayTests.test_missing_inputs_are_not_a_clean_no_breach_result) ... ok
+test_oas_percentage_point_input_is_displayed_in_basis_points (__main__.ThresholdDisplayTests.test_oas_percentage_point_input_is_displayed_in_basis_points) ... ok
+test_previous_close_fallback_has_unknown_quote_time (__main__.ThresholdDisplayTests.test_previous_close_fallback_has_unknown_quote_time) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.005s
+
+OK

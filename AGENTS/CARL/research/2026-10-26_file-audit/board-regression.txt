@@ -1,0 +1,31 @@
+board_gap regression tests
+  ✅ plain: got=True want=True
+  ✅ annotated (ACTION): got=True want=True
+  ✅ annotated (lead): got=True want=True
+  ✅ bold markup: got=True want=True
+  ✅ comma list: got=True want=True
+  ✅ slash list: got=True want=True
+  ✅ 'and' list: got=True want=True
+  ✅ info-only excluded: got=False want=False
+  ✅ info-only no-arrow: got=False want=False
+  ✅ other desk only: got=False want=False
+  🔴 BOARD GAP CHECK CANNOT RUN — /tmp/tmpxqws6pde/nope.md does not exist.
+  ⛔ This is NOT 'no gap'. Failing closed.
+  ✅ missing INDEX fails closed: got=2 want=2
+  🔴 BOARD GAP CHECK CANNOT RUN — /tmp/tmpxqws6pde/empty.md is empty.
+  ⛔ This is NOT 'no gap'. Failing closed.
+  ✅ empty INDEX fails closed: got=2 want=2
+  BOARD whole-INDEX gap — CARL unconditional INDEX scan (delivery mail is a separate lane)
+  --------------------------------------------------------------------
+  INDEX rows: 0   ledger: 996   unrecorded: 0
+  🔴 INDEX parsed to ZERO signal rows — the format changed or the file is
+     truncated. ⛔ This is NOT 'no gap'. Failing closed.
+  ✅ zero parsed rows fails closed: got=2 want=2
+  BOARD whole-INDEX gap — CARL unconditional INDEX scan (delivery mail is a separate lane)
+  --------------------------------------------------------------------
+  INDEX rows: 1753   ledger: 996   unrecorded: 757
+  🟠 757 unrecorded, NONE with action:[CARL] — backlog, not an owed action.
+      oldest: SIG-W-20260817-004   newest: SIG-W-20261025-024
+  ✅ live INDEX returns 0 or 1 (never 2): got=True want=True
+
+ALL PASS

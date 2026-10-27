@@ -81,7 +81,7 @@ One window · one benchmark · back-of-envelope look-back, **not a backtest** ·
 - **Equity expression on these three → CARL**, on the consumer-cohort thesis. **Credit-instrument expression → REGINALD.**
 - **Neither opens a position in these three without notifying the other in-session.** If REGINALD objects, the name is OUT until Will adjudicates.
 - ⚠️ **ALLY is the genuinely dual-surface name and CARL defers hardest there** — REGINALD's STATUS tracks it inside the bank-print week (7/21 WAL+OZK+ALLY), so they have live coverage regardless of the CLAUDE.md text. **If REGINALD wants ALLY out, it's out.**
-- **Routed 2026-07-24** → `AGENTS/REGINALD/inbox/2026-07-24_from-CARL_syf-cof-ally-boundary-i-may-have-invented-this-conflict.md`. Three-way ruling requested (agree / agree-except-ALLY / disagree); silence past REGINALD's next session reads as agree, per the reply-only-if convention. **Until ruled, the names stay BLOCKED in the sleeve.**
+- **Routed 2026-07-24** → `AGENTS/REGINALD/inbox/processed/2026-07-24_from-CARL_syf-cof-ally-boundary-i-may-have-invented-this-conflict.md`. Three-way ruling requested (agree / agree-except-ALLY / disagree); silence past REGINALD's next session reads as agree, per the reply-only-if convention. **Until ruled, the names stay BLOCKED in the sleeve.**
 
 ---
 

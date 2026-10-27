@@ -1,0 +1,31 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/CARL/   (processed/ + archive/ excluded everywhere — historical by design)
+
+  ── value · superseded 0.0400 → current 0.5625
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (1131)
+        AGENTS/WALTER/SESSION_LOG.md:2807  [0.04]  (needle <5 sig digits)
+           > **🔴 LIVE LEVELS — 2026-08-12 ~19:00Z / 15:00 ET, ~1 HOUR BEFORE THE BELL ⇒ INTRADAY, NOT SETTLES. Do not grade any close off this block.**
+        AGENTS/WALTER/SESSION_LOG.md:2914  [0.04]  (needle <5 sig digits)
+           > **🔴 LIVE LEVELS — 2026-08-13, own pull 22:09Z / 6:09 PM ET, and LABELLED UNDER THE CLAUSE SHIPPED TODAY rather than by date.** **✅ VALID C
+        AGENTS/VULCAN/board_log.tsv:44  [0.04]  (needle <5 sig digits)
+           2026-10-02T16:06ET	SIG-W-20261001-014	noted	INBOX_WALTER	Not VULCAN domain. XLU's 126d corr with SPY = 0.04 (1st pctile since 1999), 0.27 wi
+        AGENTS/SAM/STATUS_ARCHIVE.md:143  [0.04]  (needle <5 sig digits)
+           **① ⚪ CFTC JPY Aug-18 vintage (rel 8/21 15:30 ET, post-reversal vintage #3) — B0 NO-VERDICT again, but the tilt flipped: shorts are RE-ADDIN
+        AGENTS/LIQUID/board_log.tsv:138  [0.04]  (needle <5 sig digits)
+           2026-08-20T23:27:19Z	SIG-W-20260819-001	info-only	INBOX_WALTER	KOSPI -5.4% and halted on a US memory selloff while HANG SENG flat (-0.04%) -
+        AGENTS/HENRY/board_log.tsv:218  [0.04]  (needle <5 sig digits)
+           2026-08-23T19:37	SIG-W-20260819-001	acted	INBOX_WALTER	KOSPI -5.42% intraday and halted while HANG SENG SAT FLAT (-0.04%) -- the discriminat
+        AGENTS/HENRY/board_log.tsv:221  [0.04]  (needle <5 sig digits)
+           2026-08-23T19:37	SIG-W-20260819-033	acted	INBOX_WALTER	🔑 THE ASK WAS MINE AND I DID IT. A tweet said 'the Fed reveals US stock valuations ar
+        AGENTS/HENRY/board_log.tsv:458  [0.04]  (needle <5 sig digits)
+           2026-10-02T08:39	SIG-W-20261001-014	info-only	INBOX_WALTER	XLU-SPX 6m corr 0.04 (Lighthouse, secondary). No HENRY line.
+        … +1123 more 🟠 hit(s) on [0.04] across 331 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+     🟡 in MAIL, point-in-time — usually no action (18: BRENT, CORAL, HENRY, LABOR, REGINALD, TERRY, VIOLET, WAL, ZHAO)
+     🟢 cleared: marker-adjacent / next to new value / frozen file (37)  [--show-handled to audit]
+
+  🟠 1131 CANDIDATE(s), zero certified-stale. A 🟠 is a prompt to LOOK, never a packet: confirm same series AND unit at the hit, then re-run with --unit/--series for the 🔴 verdict.
+==================================================================
+

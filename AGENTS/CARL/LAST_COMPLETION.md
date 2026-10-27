@@ -1,3 +1,5 @@
+> **HISTORICAL — August 3, 2026.** This is not the current completion or decision list. Read STATUS.md, SCRATCH.md and dated delivery receipts for current work. The original record below is preserved.
+
 ## COMPLETION — CARL — 2026-08-03
 STATUS: ✅ DONE
 CHANGED: thesis/{THESIS.md v2.6.4, CHANGELOG.md, PREDICTIONS.tsv}, STATUS.md, SCRATCH.md, ROADMAP.md, MEMORY.md, TEAM.md, NEXUS_BRIEF.md, workbook/KB.tsv (+373/374/375), docket/{CATALYSTS.tsv, CALENDAR.md}, sub_agents/{DOC,GIG,PHAN,POLLY,POP,META}/inbox/ (NEW ×6 + boot-card wiring), outbox/ (OTTO spec via PROME), 2 packets → processed/. Commits 913a94a40 + 5a4e5f210, NOT pushed.

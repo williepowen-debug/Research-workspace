@@ -1,0 +1,30 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  SELF mode: 331 files under AGENTS/CARL/ (processed/ + archive/ still excluded — historical by design). Nothing outside your own dir is scanned.
+
+  ── value · superseded 0.0400 → current 0.5625
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (9)
+        AGENTS/CARL/domain/sources/2026-10-12_followup/sofi-q2-text.txt:1  [0.04]  (needle <5 sig digits)
+           sofi-20260630 bazadebezolkohpepadr="614392313" 0001818874 12/31 2026 Q2 false http://fasb.org/us-gaap/2026#AvailableForSaleSecuritiesDebtSec
+        AGENTS/CARL/domain/sources/2026-10-26_startup-recovery/boot-monitor-output.txt:93  [0.04]  (needle <5 sig digits)
+           🔴 ^TNX             4.99  (-0.04%)
+        AGENTS/CARL/research/2026-10-15_L708/VERDICT.md:20  [0.04]  (needle <5 sig digits)
+           | JBLU | 2.66 | 3.62% | −0.54 | −1.10 | −0.61 | −0.24 | −0.04 | −1.01 | −2.46 | **3/7** | 2/7 |
+        AGENTS/CARL/scripts/data/CONSUMER_PULSE.tsv:13  [0.04]  (needle <5 sig digits)
+           2026-04-13	DRCCLACBS	CC DQ Rate (%)	2025-10-01	2.94	2.98	-0.0400	-1.34	3.08	-4.55	GREEN
+        AGENTS/CARL/scripts/data/CONSUMER_PULSE.tsv:15  [0.04]  (needle <5 sig digits)
+           2026-04-13	BAMLH0A0HYM2	HY OAS (% spread)	2026-04-10	2.94	2.9	0.0400	1.38			GREEN
+        AGENTS/CARL/scripts/data/CONSUMER_PULSE.tsv:281  [0.04]  (needle <5 sig digits)
+           2026-10-01	BAMLH0A0HYM2	HY OAS (% spread)	2026-09-30	3.12	3.08	0.0400	1.30			YELLOW
+        AGENTS/CARL/status_archive/STATUS_ARCHIVE_2026-08.md:219  [0.04]  (needle <5 sig digits)
+           | Subprime Auto 60+ DQ | ⛔ **SELF-CORRECTION, SAME SESSION, ~40 MINUTES LATER — MY FIRST READ TONIGHT WAS WRONG AND IT WAS WRONG IN THE ADVE
+        AGENTS/CARL/workbook/KB.tsv:397  [0.04]  (needle <5 sig digits)
+           KB-CARL-400	2026-09-01	CREDIT	ABS_seasoning_ramp_vs_cycle_discriminator	THE YOUNG AND MATURE SUBPRIME AUTO POOLS GAVE OPPOSITE JULY ANSWERS 
+        … +1 more 🟠 hit(s) on [0.04] across 6 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+     🟢 cleared: marker-adjacent / next to new value / frozen file (5)  [--show-handled to audit]
+
+  🟠 9 CANDIDATE(s), zero certified-stale. A 🟠 is a prompt to LOOK, never a packet: confirm same series AND unit at the hit, then re-run with --unit/--series for the 🔴 verdict.
+==================================================================
+

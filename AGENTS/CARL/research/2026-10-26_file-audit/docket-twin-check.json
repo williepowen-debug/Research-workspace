@@ -1,0 +1,7 @@
+{
+  "events": 25,
+  "missing_twin": [],
+  "method": "Each canonical TSV date+event must appear together in the human calendar; review reciprocal event count separately.",
+  "calendar_dated_rows": 25,
+  "reciprocal_event_count_matches": true
+}

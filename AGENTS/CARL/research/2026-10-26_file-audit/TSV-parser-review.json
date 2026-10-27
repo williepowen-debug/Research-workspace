@@ -1,0 +1,203 @@
+[
+  {
+    "path": "AGENTS/CARL/workbook/VX.tsv",
+    "raw_bad_rows": 8,
+    "csv_header_columns": 12,
+    "csv_bad_rows": [
+      {
+        "logical_row": 15,
+        "columns": 11,
+        "id": "VX-CARL-3.01"
+      },
+      {
+        "logical_row": 16,
+        "columns": 11,
+        "id": "VX-CARL-3.02"
+      },
+      {
+        "logical_row": 84,
+        "columns": 11,
+        "id": "VX-CARL-MACRO-03"
+      },
+      {
+        "logical_row": 85,
+        "columns": 11,
+        "id": "VX-CARL-MACRO-04"
+      },
+      {
+        "logical_row": 86,
+        "columns": 11,
+        "id": "VX-CARL-MACRO-09"
+      },
+      {
+        "logical_row": 87,
+        "columns": 11,
+        "id": "VX-CARL-HSG-01"
+      },
+      {
+        "logical_row": 99,
+        "columns": 11,
+        "id": "VX-CARL-MACRO-05"
+      },
+      {
+        "logical_row": 107,
+        "columns": 11,
+        "id": "VX-CARL-GAS-01"
+      }
+    ],
+    "csv_error": "",
+    "disposition": "PRESERVE_FROZEN_OR_OWNER_HISTORY; parser contract and missing-field placement require owner review"
+  },
+  {
+    "path": "AGENTS/CARL/sub_agents/PHAN/workbook/ML.tsv",
+    "raw_bad_rows": 1,
+    "csv_header_columns": 21,
+    "csv_bad_rows": [
+      {
+        "logical_row": 2,
+        "columns": 19,
+        "id": "ML-PHAN-01"
+      }
+    ],
+    "csv_error": "",
+    "disposition": "PRESERVE_FROZEN_OR_OWNER_HISTORY; parser contract and missing-field placement require owner review"
+  },
+  {
+    "path": "AGENTS/CARL/sub_agents/PHAN/workbook/PROVIDER.tsv",
+    "raw_bad_rows": 2,
+    "csv_header_columns": 11,
+    "csv_bad_rows": [
+      {
+        "logical_row": 3,
+        "columns": 10,
+        "id": "Affirm"
+      },
+      {
+        "logical_row": 6,
+        "columns": 10,
+        "id": "Affirm"
+      }
+    ],
+    "csv_error": "",
+    "disposition": "PRESERVE_FROZEN_OR_OWNER_HISTORY; parser contract and missing-field placement require owner review"
+  },
+  {
+    "path": "AGENTS/CARL/sub_agents/DOC/workbook/ML.tsv",
+    "raw_bad_rows": 2,
+    "csv_header_columns": 18,
+    "csv_bad_rows": [
+      {
+        "logical_row": 2,
+        "columns": 13,
+        "id": "ML-DOC-01"
+      }
+    ],
+    "csv_error": "",
+    "disposition": "PRESERVE_FROZEN_OR_OWNER_HISTORY; parser contract and missing-field placement require owner review"
+  },
+  {
+    "path": "AGENTS/CARL/sub_agents/POP/workbook/ML.tsv",
+    "raw_bad_rows": 7,
+    "csv_header_columns": 17,
+    "csv_bad_rows": [
+      {
+        "logical_row": 18,
+        "columns": 16,
+        "id": "ML-POP-17"
+      },
+      {
+        "logical_row": 19,
+        "columns": 16,
+        "id": "ML-POP-18"
+      },
+      {
+        "logical_row": 20,
+        "columns": 16,
+        "id": "ML-POP-19"
+      },
+      {
+        "logical_row": 21,
+        "columns": 16,
+        "id": "ML-POP-20"
+      },
+      {
+        "logical_row": 22,
+        "columns": 16,
+        "id": "ML-POP-21"
+      },
+      {
+        "logical_row": 23,
+        "columns": 16,
+        "id": "ML-POP-22"
+      },
+      {
+        "logical_row": 24,
+        "columns": 16,
+        "id": "ML-POP-23"
+      }
+    ],
+    "csv_error": "",
+    "disposition": "PRESERVE_FROZEN_OR_OWNER_HISTORY; parser contract and missing-field placement require owner review"
+  },
+  {
+    "path": "AGENTS/CARL/sub_agents/GIG/workbook/FLOW.tsv",
+    "raw_bad_rows": 1,
+    "csv_header_columns": 13,
+    "csv_bad_rows": [
+      {
+        "logical_row": 3,
+        "columns": 12,
+        "id": "FLOW-GIG-02"
+      }
+    ],
+    "csv_error": "",
+    "disposition": "PRESERVE_FROZEN_OR_OWNER_HISTORY; parser contract and missing-field placement require owner review"
+  },
+  {
+    "path": "AGENTS/CARL/sub_agents/GIG/workbook/VX.tsv",
+    "raw_bad_rows": 6,
+    "csv_header_columns": 16,
+    "csv_bad_rows": [
+      {
+        "logical_row": 4,
+        "columns": 15,
+        "id": "VX-GIG-1.03"
+      },
+      {
+        "logical_row": 5,
+        "columns": 15,
+        "id": "VX-GIG-1.04"
+      },
+      {
+        "logical_row": 6,
+        "columns": 15,
+        "id": "VX-GIG-2.01"
+      },
+      {
+        "logical_row": 7,
+        "columns": 15,
+        "id": "VX-GIG-2.02"
+      },
+      {
+        "logical_row": 8,
+        "columns": 15,
+        "id": "VX-GIG-2.03"
+      },
+      {
+        "logical_row": 14,
+        "columns": 15,
+        "id": "VX-GIG-4.01"
+      }
+    ],
+    "csv_error": "",
+    "disposition": "PRESERVE_FROZEN_OR_OWNER_HISTORY; parser contract and missing-field placement require owner review"
+  },
+  {
+    "path": "AGENTS/CARL/sub_agents/GIG/workbook/ML.tsv",
+    "raw_bad_rows": 3,
+    "csv_header_columns": null,
+    "csv_bad_rows": [],
+    "csv_error": "'\t' expected after '\"'",
+    "disposition": "PRESERVE_FROZEN_OR_OWNER_HISTORY; parser contract and missing-field placement require owner review"
+  }
+]

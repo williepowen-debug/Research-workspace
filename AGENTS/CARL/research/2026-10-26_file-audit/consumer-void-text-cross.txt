@@ -1,0 +1,12 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/CARL/   (processed/ + archive/ excluded everywhere — historical by design)
+
+  ── value · superseded void COSTS a good Brier row → current claim WITHDRAWN
+     ✓ no consumer carries a superseded value.
+
+  ✓ clean — every consumer is current or has it flagged superseded.
+==================================================================
+

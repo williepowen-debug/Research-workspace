@@ -1,0 +1,37 @@
+{
+  "observed_local_date": "2026-10-27",
+  "cutoff_strictly_before": "2026-08-28",
+  "age_basis": "First-add Git author date in ET, current parent research/domain source paths",
+  "candidates": [
+    {
+      "path": "AGENTS/CARL/domain/sources/ally/RECLASSIFICATION_AUDIT_FY2025.md",
+      "first_add_local": "2026-04-17",
+      "age_days": 193,
+      "disposition": "RETAIN",
+      "basis": "Live KB223 analytical reference; checked in current workbook."
+    },
+    {
+      "path": "AGENTS/CARL/domain/sources/SYF_COF_Q1_2026.md",
+      "first_add_local": "2026-04-29",
+      "age_days": 181,
+      "disposition": "RETAIN",
+      "basis": "CRL-12 OPEN with FY2026 resolver still pending."
+    },
+    {
+      "path": "AGENTS/CARL/domain/sources/2026-05_NYFed_HHDC_2026Q1_condensed_brief.md",
+      "first_add_local": "2026-07-12",
+      "age_days": 107,
+      "disposition": "RETAIN",
+      "basis": "Live frozen HHDC Q2 card section1 baseline."
+    },
+    {
+      "path": "AGENTS/CARL/research/2026-08-27_auto_outflow_split_registration_CHG-RED-049.md",
+      "first_add_local": "2026-08-27",
+      "age_days": 61,
+      "disposition": "RETAIN",
+      "basis": "Now61 calendar days at October27 closeout, but CRL-29 remains OPEN and the frozen registration is a pending-prediction artifact."
+    }
+  ],
+  "unresolved": [],
+  "retired": []
+}

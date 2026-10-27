@@ -1,0 +1,12 @@
+{
+  "basis": "Pre-audit committed HEAD versus working tree; all registered fields except Notes must be identical",
+  "rows": 31,
+  "changes": [
+    {
+      "id": "CRL-25",
+      "field": "Notes"
+    }
+  ],
+  "operative_fields_unchanged": true,
+  "baseline_prediction_commit": "5b18d5a884483999defc7eae98071b4a8812639e"
+}

@@ -1,0 +1,9 @@
+{
+  "before_sha256": "3259501cb0086e0c522b9ab32173efc7f9b4e9dfa3976719ec2950213e01e859",
+  "before_crc32": "67e50c26",
+  "before_image": "revision-ledger-before.tsv",
+  "after_sha256": "a573fdb327f79b08c4b422cbd8282bd1503e6b1c039be0be06c49a72a546c0a7",
+  "after_logical_events": 151,
+  "unclassified": 4,
+  "scope": "Deterministic census regeneration only. Historical September24 prose/counts and original bytes retained. No forecast, probability, gate, score or hand classification changed."
+}

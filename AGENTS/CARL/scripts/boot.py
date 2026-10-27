@@ -45,8 +45,8 @@ BOOT_SEQUENCE = [
     # runs it without --warn-only, where exit 1 is the gate before commit.
     ("Consistency Check (A/B/D/E/F/G)", "consistency_check.py", ["--quiet", "--warn-only"], "CONSISTENCY", False),
     # BOARD gap (2026-09-11): CARL is BOARD_CONSUMPTION_SPEC §3.5 pull-complete
-    # EXEMPT, so WALTER never delivers to inbox/WALTER/ — that lane is empty BY
-    # CONSTRUCTION and the whole-INDEX diff is CARL's SOLE WALTER CHANNEL.
+    # EXEMPT from routine delivery. Section 3.5.8 still permits action asks in
+    # inbox/WALTER/. Empty delivery mail does not replace the whole-INDEX check.
     # ⛔ Runs UNCONDITIONALLY and exits NONZERO on any unrecorded action:[CARL]
     # id — deliberately NOT --warn-only, unlike consistency_check: an owed signal
     # someone else is waiting on is a FAILURE, not a finding.
@@ -58,7 +58,7 @@ BOOT_SEQUENCE = [
     # the step and nothing FAILED when it did not. See board_gap.py header.
     # Two action:[CARL] signals were missed that way (9/01, 9/10), found only when
     # PROME read CARL's ledgers from outside. [[finding_mechanize_the_cap_not_the_ritual]]
-    ("BOARD Gap (sole WALTER channel)", "board_gap.py", [], "BOARD GAP", False),
+    ("BOARD Gap (unconditional INDEX scan)", "board_gap.py", [], "BOARD GAP", False),
 ]
 
 # Key markers to show in collapsed mode.
@@ -135,24 +135,28 @@ def run_script(label, script_path, args, timeout=90):
         return False, f"  ERROR: {e}", elapsed
 
 
-LIVE_LEDGERS = [
-    ("KB.tsv",           "workbook/KB.tsv",          30),
-    ("ABS_BASELINE.tsv", "workbook/ABS_BASELINE.tsv", 30),
-]
-
-
 def check_ledger_staleness():
-    """Warn if live ledgers haven't been updated within threshold days."""
-    import os
-    alerts = []
-    for label, rel_path, warn_days in LIVE_LEDGERS:
-        p = CARL_DIR / rel_path
-        if not p.exists():
-            continue
-        age_days = (time.time() - os.path.getmtime(p)) / 86400
-        if age_days > warn_days:
-            alerts.append(f"  ⚠️  LEDGER STALE: {label} — {int(age_days)}d since last update (>{warn_days}d threshold)")
-    return alerts
+    """Use the canonical reader's content clocks, frozen state and perimeter.
+
+    This is advisory at boot. Unavailable/failed checks remain visible; they
+    must never be represented as a clean result or a filesystem-age verdict.
+    """
+    checker = WORKSPACE / "scripts" / "ledger_staleness.py"
+    if not checker.is_file():
+        return ["  ⚠️  LEDGER CHECK CANNOT RUN: canonical reader missing"]
+    try:
+        result = subprocess.run(
+            [str(VENV_PYTHON), str(checker), "CARL", "--quiet"],
+            capture_output=True, text=True, timeout=60, cwd=str(WORKSPACE),
+        )
+    except (OSError, subprocess.TimeoutExpired) as exc:
+        return [f"  ⚠️  LEDGER CHECK CANNOT RUN: {exc}"]
+    lines = (result.stdout + "\n" + result.stderr).strip().splitlines()
+    if result.returncode and not lines:
+        return [f"  ⚠️  LEDGER CHECK CANNOT CERTIFY: exit {result.returncode}, no output"]
+    if result.returncode not in (0, 1):
+        lines.insert(0, f"  ⚠️  LEDGER CHECK CANNOT CERTIFY: exit {result.returncode}")
+    return lines
 
 
 def collapse_output(output):

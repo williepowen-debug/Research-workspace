@@ -1,17 +1,11 @@
 #!/usr/bin/env python3
-"""BOARD whole-INDEX gap check — CARL's SOLE WALTER CHANNEL.
+"""BOARD whole-INDEX gap check — unconditional even when delivery mail is empty.
 
-⛔ WHY THIS IS A SCRIPT AND NOT A BOOT-CARD SENTENCE
-CARL is on BOARD_CONSUMPTION_SPEC §3.5 "pull-complete recipient exemption", so
-WALTER does NOT deliver to AGENTS/CARL/inbox/WALTER/. That lane is empty BY
-CONSTRUCTION. §3.5.6 states the consequence verbatim:
+CARL has the BOARD_CONSUMPTION_SPEC section 3.5 pull-complete exemption.
+Section 3.5.8 also permits action asks through inbox/WALTER/; that lane has run
+since September 11. An empty delivery lane cannot certify no unconsumed BOARD
+work. This script checks logged IDs, not substantive signal consideration.
 
-    "delivered_but_unconsumed reading zero for CARL/RED/PROME is not evidence of
-     consumption; it is a definitional consequence of the exemption."
-
-So the whole-INDEX diff is the only channel, and — the spec's words again —
-skipping it is "silent by construction": for an exempt recipient a skipped scan
-and a clean scan are indistinguishable on every surface either side keeps.
 RED lost two action signals to exactly this on 2026-08-12; CARL lost two on
 2026-09-10/09-01 and found out only because PROME read CARL's ledgers from the
 outside. A remembered ritual does not survive that. [[finding_mechanize_the_cap_not_the_ritual]]
@@ -138,7 +132,7 @@ def main():
         if "CARL" in action:
             action_gap.append((sig, prec, summary))
 
-    print("  BOARD whole-INDEX gap — CARL's SOLE WALTER channel (§3.5 exempt: lane is unfed)")
+    print("  BOARD whole-INDEX gap — CARL unconditional INDEX scan (delivery mail is a separate lane)")
     print("  " + "-" * 68)
     print(f"  INDEX rows: {total}   ledger: {len(have)}   unrecorded: {len(unrecorded)}")
 

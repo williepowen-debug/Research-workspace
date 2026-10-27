@@ -41,6 +41,7 @@ Usage (from repo root):
 REPRICE rows are classified by rule; every other class comes from OVERRIDES below,
 which is hand judgement and is the part a reviewer should attack.
 """
+import csv
 import re
 import subprocess
 import sys
@@ -257,7 +258,8 @@ def main():
     head = ["date", "commit", "pred_id", "event", "old", "new", "delta_pp", "commit_subject"]
     if cls:
         head += ["class", "initiator", "thesis_dir", "benefit_scored", "benefit_firstcall", "note"]
-    print("\t".join(head))
+    writer = csv.writer(sys.stdout, delimiter="\t", lineterminator="\n")
+    writer.writerow(head)
     out = []
     prev = {}
     for h, date, subj in commits():
@@ -295,7 +297,7 @@ def main():
             out.append(list(m[:8]) + list(m[8]))
         out.sort(key=lambda r: r[0])  # stable: TSV order kept within a date
     for row in out:
-        print("\t".join(row))
+        writer.writerow(row)
     print(f"# {len(out)} events", file=sys.stderr)
 
 

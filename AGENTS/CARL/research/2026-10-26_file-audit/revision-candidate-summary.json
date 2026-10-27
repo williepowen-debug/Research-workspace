@@ -1,0 +1,49 @@
+{
+  "rows": 151,
+  "class_counts": {
+    "REGISTRATION": 31,
+    "ANNOTATION": 18,
+    "RESOLUTION": 8,
+    "REPRICE": 45,
+    "WINDOW": 7,
+    "DISPOSITION": 12,
+    "RESPEC": 8,
+    "RECORD-CORRECTION": 18,
+    "UNCLASSIFIED": 4
+  },
+  "unclassified": [
+    {
+      "date": "2026-10-01",
+      "commit": "2288ba032",
+      "pred_id": "CRL-08",
+      "event": "STATUS",
+      "old": "OPEN",
+      "new": "MISSED"
+    },
+    {
+      "date": "2026-10-01",
+      "commit": "2288ba032",
+      "pred_id": "CRL-27",
+      "event": "STATUS",
+      "old": "OPEN",
+      "new": "RETIRED"
+    },
+    {
+      "date": "2026-10-01",
+      "commit": "0f8444c60",
+      "pred_id": "CRL-17",
+      "event": "STATUS",
+      "old": "OPEN",
+      "new": "NO-VERDICT"
+    },
+    {
+      "date": "2026-10-26",
+      "commit": "5b18d5a88",
+      "pred_id": "CRL-21",
+      "event": "STATUS",
+      "old": "OPEN",
+      "new": "STUCK"
+    }
+  ],
+  "scope": "Deterministic current census from committed prediction history; canonical TSV repaired to match this candidate. Original September24 classified baseline and bytes preserved. Later status-event benefit is not adjudicated; existing provisional rule labels are not official scores."
+}
