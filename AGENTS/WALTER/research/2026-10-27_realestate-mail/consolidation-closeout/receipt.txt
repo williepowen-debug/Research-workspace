@@ -1,7 +1,7 @@
 {
   "status": "PASS",
   "findings": [],
-  "as_of": "2026-10-27T17:28:39Z",
+  "as_of": "2026-10-27T17:30:25Z",
   "origin_ref": "1d472905694214adad9d98db985961530b408c08",
   "delivery_scope": "20261027",
   "delivered": 156,

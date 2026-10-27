@@ -6,7 +6,7 @@ Terminology correction: the previous 965 were retained emails, not 965 verified 
 
 No new signal, handoff, owner grade, research commission, trade, recurring filter or external send. Previous 041/042 and seven authored handoffs remain qualified. Article-level relevance/verification and original source gaps are not cleared by consolidation; 294 is an email count. All old approvals, duty and source-search limits below remain. Telegram stays retired. Full maintenance debt remains due; this bounded mailbox continuation does not discharge it.
 
-Exact-path local persistence pending; foreign shared changes preclude pull/push. Prior commit/publication and delivery/consumption proof remain separate. No new Will decision.
+Consolidation commit bbfd1fc74 is local; routine publication is coordinated. Foreign shared changes preclude pull/push. Prior commit/publication and delivery/consumption proof remain separate. No new Will decision.
 
 ## PRESERVED PRIOR DUTY / APPROVAL RECORD
 
@@ -113,7 +113,7 @@ Startup recovery only; boot PARTIAL. No new dispatch or consumption. Routine pus
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-27T17:28:39Z",
+  "as_of": "2026-10-27T17:30:25Z",
   "next_review": "2026-10-27",
   "publication": [
     {
@@ -130,6 +130,11 @@ Startup recovery only; boot PARTIAL. No new dispatch or consumption. Routine pus
       "commit": "0a8557a07da5951b8db8418d5c5a0a8344693e7c",
       "state": "published",
       "note": "Real estate curation, two cards and seven authored handoffs committed locally; foreign shared changes and coordinated-push rule defer publication."
+    },
+    {
+      "commit": "bbfd1fc748e200190ec6ff9085eb2d431b18d49c",
+      "state": "pending",
+      "note": "Approved local newsletter consolidation, aggregate conservation/mutation proof and coordinator packet committed. Private index/backup remain local and gitignored; routine publication coordinated."
     }
   ],
   "delivery": {
@@ -169,7 +174,7 @@ Startup recovery only; boot PARTIAL. No new dispatch or consumption. Routine pus
     "12": "Corrected email-count versus signal-value framing; STATUS/session reflect actual 294-email remainder and three highlights.",
     "14": "No new model/helper or domain launch, memory/spec change, collector or recurring filter. Prior source/approval gaps retained.",
     "15": "Consolidation source transfer and exact Trash IDs manually checked; broad boot, lifecycle and full narrative debt remain unresolved.",
-    "16": "Current consolidation exact-path commit pending; no pull/push with foreign shared edits. Previous source/handoff publication reconciled from updated origin ref; no recipient incorporation claim.",
+    "16": "Main consolidation exact-path commit bbfd1fc748e200190ec6ff9085eb2d431b18d49c complete; routine publication pending with foreign shared changes. No WALTER pull/push. Previous seven handoffs origin-proven and reconciled; no recipient incorporation claim.",
     "ledger": "Route/delivery/batch record real work. No artificial kill_log/REGISTRY/threshold/correction/doorbell refresh; why-not recorded in commit body.",
     "telegram": "Will retired WALTER Telegram October 27. Project disabled and launcher flags removed, existing tests 29/29 PASS. Own config/charter/memory committed; shared launcher scripts remain PROME commit custody, packet authored. Boot-basis charter hash now requires review; no automatic re-attestation.",
     "11": "No new signal or handoff. BM-20261027-10 closed 965 source-transfer records, not article-level research clearance. Prior seven delivery rows reconciled after updated origin proof.",
