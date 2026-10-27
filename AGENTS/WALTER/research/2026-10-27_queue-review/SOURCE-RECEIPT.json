@@ -1,0 +1,12 @@
+{
+  "observed_at": "2026-10-27T18:28:41.128740+00:00",
+  "scope": "20 requested Gmail FULL messages returned in exact saved queue order; bodies available; no mailbox mutation",
+  "count": 20,
+  "all_queue_label": true,
+  "all_parent_label": true,
+  "highlights_among_queue": 2,
+  "unread_among_queue": 20,
+  "raw_private_path": "debug/realestate-review-2026-10-27/queue-live-1414.json",
+  "raw_sha256": "72963b5c67c48975966c44cc15863429408de0c1f709d9f478d6bc435621bc59",
+  "plain_text_bytes": 272944
+}

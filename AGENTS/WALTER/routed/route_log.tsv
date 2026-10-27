@@ -1783,3 +1783,27 @@ Date	Signal_ID	Origin	Summary	Precedence	To	Info	Confidence
 2026-10-27T17:57:05Z	SIG-W-20261027-046	Gmail / issuer and attributed research sources	UDR–Apollo apartment venture: announced equity terms, conditional close	PRIORITY	HOMER	CREED,REGINALD,CARL,RED	0.99
 2026-10-27T17:57:05Z	SIG-W-20261027-047	Gmail / issuer and attributed research sources	CBRE Q3: sales and leasing revenue growth does not establish transaction volumes	PRIORITY	CREED	REGINALD,RED	0.98
 2026-10-27T17:57:05Z	SIG-W-20261027-048	Gmail / issuer and attributed research sources	Chicago tenant rollover: whole-loan exposure and two attributed distress cases	PRIORITY	CREED	REGINALD,RED	0.9
+2026-10-27T18:37:11Z	SIG-W-20261027-049	Gmail / original and attributed sources	Four current casino loans soften the lodging cash-flow aggregate	PRIORITY	CREED	REGINALD,CARL,RED	0.88
+2026-10-27T18:37:11Z	SIG-W-20261027-050	Gmail / original and attributed sources	Natick refinancing access comes with cash-in and higher expected interest	PRIORITY	CREED	REGINALD,GIBBS,RED	0.88
+2026-10-27T18:37:11Z	SIG-W-20261027-051	Gmail / original and attributed sources	Washington lender-controlled sale clears at $50.35 million; seller identity uncertain	PRIORITY	CREED	REGINALD,HANS,RED	0.88
+2026-10-27T18:37:11Z	SIG-W-20261027-052	Gmail / original and attributed sources	OZK supplies $132.7 million floating-rate Culver City construction financing	PRIORITY	OZK	HOMER,REGINALD,CREED	0.93
+2026-10-27T18:37:11Z	SIG-W-20261027-053	Gmail / original and attributed sources	Manhattan leasing improves while asking-rent and national inferences stay bounded	PRIORITY	CREED	REGINALD,RED	0.88
+2026-10-27T18:37:11Z	SIG-W-20261027-054	Gmail / original and attributed sources	CBRE call transcript narrows the previously unread 2027 forecast	PRIORITY	CREED	REGINALD,VULCAN,RED	0.78
+2026-10-27T18:37:11Z	SIG-W-20261027-055	Gmail / original and attributed sources	Illinois Center auction is known; reported debt bases remain unreconciled	PRIORITY	CREED	REGINALD,RED	0.45
+2026-10-27T18:37:11Z	SIG-W-20261027-056	Gmail / original and attributed sources	S2 reports $1.2 billion of workouts and termination of 12 foreclosures	PRIORITY	HOMER	CREED,BROCK,REGINALD,RED	0.94
+2026-10-27T18:37:11Z	SIG-W-20261027-057	Gmail / original and attributed sources	New Manhattan lab foreclosure complaint concerns an older maturity default	PRIORITY	CREED	REGINALD,ZHAO,RED	0.83
+2026-10-27T18:37:11Z	SIG-W-20261027-058	Gmail / original and attributed sources	700 Sixth Street transfers through a note purchase and deed-in-lieu	PRIORITY	CREED	SHADE,REGINALD,GIBBS,RED	0.83
+2026-10-27T18:37:11Z	SIG-W-20261027-059	Gmail / original and attributed sources	RAD portfolio auction dates have passed; results remain unverified	PRIORITY	HOMER	CREED,BROCK,CORAL,RED	0.78
+2026-10-27T18:37:11Z	SIG-W-20261027-060	Gmail / original and attributed sources	True Food enters Chapter 11; financing remains a conditional commitment	PRIORITY	CARL	CREED,CORAL,RED	0.94
+2026-10-27T18:37:11Z	SIG-W-20261027-061	Gmail / original and attributed sources	Gartner survey: limited major AI value so far, alongside rising funding	PRIORITY	VULCAN	HENRY,LABOR,RED	0.94
+2026-10-27T18:37:11Z	SIG-W-20261027-062	Gmail / original and attributed sources	Treasury proposal is not a finalized blanket institutional-homebuyer ban	PRIORITY	HOMER	CORAL,CARL,RED	0.98
+2026-10-27T18:37:11Z	SIG-W-20261027-063	Gmail / original and attributed sources	Site-selector survey separates project announcements from groundbreakings	PRIORITY	WATT,VULCAN	ISHM,LABOR,RED	0.88
+2026-10-27T18:37:11Z	SIG-W-20261027-064	Gmail / original and attributed sources	Apartment supply moves toward weaker demand; South rents still lag	PRIORITY	HOMER	CORAL,CREED,CARL,RED	0.88
+2026-10-27T18:37:11Z	SIG-W-20261027-065	Gmail / original and attributed sources	Sun Belt starts contraction is a historical peak comparison, not current monthly collapse	PRIORITY	HOMER	CORAL,MARCO,CREED,RED	0.85
+2026-10-27T18:37:11Z	SIG-W-20261027-066	Gmail / original and attributed sources	Insurer lending averages rise, but mix and data-center denominators remain unresolved	PRIORITY	SHADE,CREED	BROCK,VULCAN,RED	0.78
+2026-10-27T18:37:11Z	SIG-W-20261027-067	Gmail / original and attributed sources	Outdoor-storage rent story combines AI staging demand with long-period supply constraints	PRIORITY	CREED,VULCAN	ISHM,WATT,RED	0.78
+2026-10-27T18:37:11Z	SIG-W-20261027-068	Gmail / original and attributed sources	Blackstone platform, development pipeline and equity spending are different measures	PRIORITY	VULCAN	BROCK,WATT,CREED,RED	0.85
+2026-10-27T18:37:11Z	SIG-W-20261027-069	Gmail / original and attributed sources	Florida source leads pair demand counterevidence with construction constraints	PRIORITY	CORAL	HOMER,CREED,REGINALD,VULCAN,WATT,RED	0.45
+2026-10-27T18:37:11Z	SIG-W-20261027-070	Gmail / original and attributed sources	New CRE financing leads show activity, without proving broad funding health	PRIORITY	CREED,BROCK,LIQUID	REGINALD,RED	0.45
+2026-10-27T18:37:11Z	SIG-W-20261027-071	Gmail / original and attributed sources	Lake Meadows investor-exit lawsuit is an allegation, not a loan default	PRIORITY	HOMER	CREED,BROCK,RED	0.45
+2026-10-27T18:37:11Z	SIG-W-20261027-072	Gmail / original and attributed sources	Industrial leasing and office hiring plans are distinct demand leads	PRIORITY	CREED,ISHM	VULCAN,LABOR,RED	0.45

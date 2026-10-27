@@ -1,0 +1,805 @@
+[
+  {
+    "key": "lodging-composition",
+    "title": "Four current casino loans soften the lodging cash-flow aggregate",
+    "emails": [
+      8,
+      13
+    ],
+    "action": [
+      "CREED"
+    ],
+    "info": [
+      "REGINALD",
+      "CARL",
+      "RED"
+    ],
+    "body": "Trepp's October 5 analysis reports a $92.18 billion securitized lodging population. Removing four current casino loans totaling $12.01 billion changes the balance-weighted median cash-flow change since underwriting from -1.7% to -8.1%; nonperformance rises from 5.98% to 6.87%.\n\nThis is composition evidence, not four casino defaults. Two loans lack post-securitization financials, so their debt yields still use securitization cash flow. Trepp's full article and tables were read; underlying loan records were not independently replicated. The comparison is since underwriting, not annual hotel revenue growth.\n\nCREED ACTION: incorporate this composition limit in existing lodging coverage. It does not establish bank losses or a new threshold fire.",
+    "sources": [
+      "https://www.trepp.com/trepptalk/four-las-vegas-casino-loans-lodging-cash-flow"
+    ],
+    "confidence": 0.88,
+    "domain": "BANK_CRE",
+    "cluster": "BANK_COLLATERAL",
+    "cases": [],
+    "signal_id": "SIG-W-20261027-049",
+    "board_path": "BOARD/SIG-W-20261027-049-lodging-composition.md",
+    "entities": [
+      "Trepp",
+      "Las-Vegas",
+      "Bellagio",
+      "Cosmopolitan"
+    ],
+    "timestamp": "2026-10-27T18:37:11Z"
+  },
+  {
+    "key": "natick-refinancing",
+    "title": "Natick refinancing access comes with cash-in and higher expected interest",
+    "emails": [
+      13
+    ],
+    "action": [
+      "CREED"
+    ],
+    "info": [
+      "REGINALD",
+      "GIBBS",
+      "RED"
+    ],
+    "body": "CREFC's October 6 Natick summary describes a proposed $400 million, five-year, interest-only mortgage at an expected 6.95% coupon. Proceeds plus about $37.2 million sponsor equity would retire $430 million outstanding debt, fund reserves and pay costs. The newsletter's $505 million is original principal, not current payoff; not all equity is principal paydown.\n\nExpected annual interest is $27.8 million, versus $18.806 million on the original $505 million at 3.724%: derived +47.8%. This compares with ORIGINAL terms, not modified current debt service. Closing and final coupon remain unverified. CREFC identifies Bank of America/JPMorgan as originators with effective 5% vertical retention.\n\nCREED ACTION: add the cash-in/coupon mechanics to existing Natick coverage (20261008-031). No new default or realized lender-loss claim.",
+    "sources": [
+      "https://staff.crefc.org/cre/content/News/Items/Research_and_Data/2026/CRE_Securitized_Debt_Update_10_6_26.aspx"
+    ],
+    "confidence": 0.88,
+    "domain": "BANK_CRE",
+    "cluster": "BANK_COLLATERAL",
+    "cases": [
+      "Natick Mall, Natick MA"
+    ],
+    "signal_id": "SIG-W-20261027-050",
+    "board_path": "BOARD/SIG-W-20261027-050-natick-refinancing.md",
+    "entities": [
+      "Natick-Mall",
+      "Brookfield",
+      "GGP",
+      "Bank-of-America",
+      "JPMorgan"
+    ],
+    "timestamp": "2026-10-27T18:37:11Z"
+  },
+  {
+    "key": "commercial-national-bank-sale",
+    "title": "Washington lender-controlled sale clears at $50.35 million; seller identity uncertain",
+    "emails": [
+      6
+    ],
+    "action": [
+      "CREED"
+    ],
+    "info": [
+      "REGINALD",
+      "HANS",
+      "RED"
+    ],
+    "body": "A buyer-hosted Washington Business Journal report dated October 20 quotes Taicoon's CEO describing a $50.35 million lender-controlled acquisition of the Commercial National Bank building, 700 14th Street NW / 1420 New York Avenue NW. DekaBank held the note; new financing is about $32 million from Bank SinoPac.\n\nThe report expressly leaves the seller's exact identity unclear. An LLC in Paramount's care bought for $183 million in 2013; Elecor says it serves only as property manager. Do not repeat the newsletter's unqualified seller attribution. Historical purchase-price decline does not measure lender loss; current debt and original deed/court records are unread.\n\nCREED ACTION: reconcile this named clearing case in existing coverage. HANS receives the European-lender connection as context; no measured DekaBank loss is established.",
+    "sources": [
+      "https://taicoonllc.com/news/dc-investor-acquires-historic-bank-building-near-white-house"
+    ],
+    "confidence": 0.88,
+    "domain": "BANK_CRE",
+    "cluster": "BANK_COLLATERAL",
+    "cases": [
+      "Commercial National Bank Building, 700 14th Street NW / 1420 New York Avenue NW, Washington DC"
+    ],
+    "signal_id": "SIG-W-20261027-051",
+    "board_path": "BOARD/SIG-W-20261027-051-commercial-national-bank-sale.md",
+    "entities": [
+      "Taicoon",
+      "Commercial-National-Bank-Building",
+      "DekaBank",
+      "Bank-SinoPac"
+    ],
+    "timestamp": "2026-10-27T18:37:11Z"
+  },
+  {
+    "key": "ozk-elevenoneeleven",
+    "title": "OZK supplies $132.7 million floating-rate Culver City construction financing",
+    "emails": [
+      7
+    ],
+    "action": [
+      "OZK"
+    ],
+    "info": [
+      "HOMER",
+      "REGINALD",
+      "CREED"
+    ],
+    "body": "Berkadia's October 20 arranger release identifies Bank OZK as provider of a five-year, floating-rate $132.7 million construction loan for Lincoln Property/McCourt's ElevenOneEleven at 11111 Jefferson Boulevard, Culver City. The project has 344 apartments, including 52 affordable units, and about 2,000 square feet of retail; construction is prospective.\n\nThis establishes named financing, not funded outstanding draws, a new nonperforming loan or collateral impairment. October 20 is the arranger's publication date, not an independently verified closing date. No loan agreement, draw schedule, leverage or guarantee terms were read.\n\nOZK ACTION: reconcile the named commitment against existing construction-exposure coverage. No new research commission or owner-grade change.",
+    "sources": [
+      "https://www.berkadia.com/news/elevenoneeleven-culver-city-ca-financed-by-berkadia-2026/"
+    ],
+    "confidence": 0.93,
+    "domain": "BANK_CRE",
+    "cluster": "BANK_COLLATERAL",
+    "cases": [],
+    "signal_id": "SIG-W-20261027-052",
+    "board_path": "BOARD/SIG-W-20261027-052-ozk-elevenoneeleven.md",
+    "entities": [
+      "OZK",
+      "Bank-OZK",
+      "ElevenOneEleven",
+      "Culver-City",
+      "Lincoln-Property",
+      "McCourt"
+    ],
+    "timestamp": "2026-10-27T18:37:11Z"
+  },
+  {
+    "key": "manhattan-office-demand",
+    "title": "Manhattan leasing improves while asking-rent and national inferences stay bounded",
+    "emails": [
+      1
+    ],
+    "action": [
+      "CREED"
+    ],
+    "info": [
+      "REGINALD",
+      "RED"
+    ],
+    "body": "Colliers' Q3 2026 Manhattan report shows 10.06 million square feet leased in Q3 and 32.86 million year to date. Availability fell 0.6 percentage point to 12.4%; average asking rent was $78.36 per square foot, up 0.4% quarter on quarter.\n\nThis adds borough-level demand counterevidence to existing national office coverage. Availability is not vacancy, asking rent is not effective realized rent, and Manhattan is not the national market. The publisher page was read; full lease constituents were not reconstructed. The email's separate 345 North Morgan/OZK payoff item is already 041, with original payoff evidence still unread.\n\nCREED ACTION: integrate the local counterevidence without extrapolating a nationwide recovery.",
+    "sources": [
+      "https://www.colliers.com/en/research/new-york/nyc-q3-2026-manhattan-office-report"
+    ],
+    "confidence": 0.88,
+    "domain": "BANK_CRE",
+    "cluster": "BANK_COLLATERAL",
+    "cases": [],
+    "signal_id": "SIG-W-20261027-053",
+    "board_path": "BOARD/SIG-W-20261027-053-manhattan-office-demand.md",
+    "entities": [
+      "Colliers",
+      "Manhattan",
+      "New-York"
+    ],
+    "timestamp": "2026-10-27T18:37:11Z"
+  },
+  {
+    "key": "cbre-call-forecast",
+    "title": "CBRE call transcript narrows the previously unread 2027 forecast",
+    "emails": [
+      3
+    ],
+    "action": [
+      "CREED"
+    ],
+    "info": [
+      "REGINALD",
+      "VULCAN",
+      "RED"
+    ],
+    "body": "Secondary full-call transcripts of CBRE's October 22 earnings Q&A attribute retrades, canceled sales and refinancing substitution to management. Giamartino expects CBRE\u2019s capital markets business roughly flat from Q4 into the first half of 2027, with second-half stabilization conditional on conditions settling.\n\nThis narrows 047's call-source gap but does not turn a forecast into realized transaction volume. Issuer audio/official transcript were not read. The earningscalls.dev wrapper has inconsistent headline financial figures; only the identified Q&A passages are used. Revenue figures remain those on 047's SEC release, not this wrapper. The forecasts concern capital markets, not a blanket delay of every property transaction or AI project.\n\nCREED ACTION: retain the management expectation with its secondary-transcript and conditional limits in existing coverage.",
+    "sources": [
+      "https://www.aol.com/articles/cbre-cbre-q3-2026-earnings-155900000.html",
+      "https://earningscalls.dev/transcripts/cbre-group-inc_cbre_earnings_call_transcript_2026-10-22"
+    ],
+    "confidence": 0.78,
+    "domain": "BANK_CRE",
+    "cluster": "BANK_COLLATERAL",
+    "cases": [],
+    "signal_id": "SIG-W-20261027-054",
+    "board_path": "BOARD/SIG-W-20261027-054-cbre-call-forecast.md",
+    "entities": [
+      "CBRE",
+      "Giamartino",
+      "Sulentic"
+    ],
+    "timestamp": "2026-10-27T18:37:11Z"
+  },
+  {
+    "key": "illinois-center-basis",
+    "title": "Illinois Center auction is known; reported debt bases remain unreconciled",
+    "emails": [
+      6
+    ],
+    "action": [
+      "CREED"
+    ],
+    "info": [
+      "REGINALD",
+      "RED"
+    ],
+    "body": "The delivered October 21 Trepp email reports Illinois Center's $239.48 million mortgage split into $92.1 million, $92.1 million and $55.28 million pieces; it also warns that a prior REO classification was premature. Existing CASE-CREED-153 and 20261020-008 already carry the November 12 auction calendar and an unverified $285.7 million current-debt figure versus $260 million original principal.\n\nThese may be different principal, balance or judgment bases. No original trustee/court record was read, so neither figure silently supersedes the other. The auction remains prospective, not a completed foreclosure sale; original article body access was incomplete.\n\nCREED ACTION: reconcile the named amount/status discrepancy in existing case coverage. This is a source-basis update, not another auction alert or an established correction of the owner's debt figure.",
+    "sources": [
+      "https://crenews.com/2026/10/20/chicagos-illinois-center-office-property-heading-to-foreclosure-auction/"
+    ],
+    "confidence": 0.45,
+    "domain": "BANK_CRE",
+    "cluster": "BANK_COLLATERAL",
+    "cases": [
+      "Illinois Center, Chicago IL [CASE-CREED-153]"
+    ],
+    "signal_id": "SIG-W-20261027-055",
+    "board_path": "BOARD/SIG-W-20261027-055-illinois-center-basis.md",
+    "entities": [
+      "Illinois-Center",
+      "Chicago"
+    ],
+    "timestamp": "2026-10-27T18:37:11Z"
+  },
+  {
+    "key": "s2-workouts",
+    "title": "S2 reports $1.2 billion of workouts and termination of 12 foreclosures",
+    "emails": [
+      10
+    ],
+    "action": [
+      "HOMER"
+    ],
+    "info": [
+      "CREED",
+      "BROCK",
+      "REGINALD",
+      "RED"
+    ],
+    "body": "S2's release, dated October 13 and posted October 20, reports completed modifications/refinancings across 26 multifamily properties, 8,223 units and about $1.2 billion loan balance. Twelve foreclosure proceedings were terminated in connection with the modifications.\n\nAn unnamed 531-unit North Dallas property received a maturity-default waiver and extension to July 2031 after principal paydown and accrued payments; related guarantor litigation was to be dismissed. Transactions were funded with the initial closing of a continuation vehicle.\n\nThis is issuer-reported workout counterevidence, not $1.2 billion realized losses, 12 still-open foreclosures or proof of full investor recovery. Lenders, property-by-property terms and amended agreements remain unread; no named property is invented for the case feed.\n\nHOMER ACTION: reconcile the October rescue with existing S2 distress coverage; no automatic severity or recovery grade.",
+    "sources": [
+      "https://s2cp.com/s2-capital-completes-loan-modifications-and-refinancings-across-26-asset-12-billion-multifamily-portfolio/"
+    ],
+    "confidence": 0.94,
+    "domain": "BANK_CRE",
+    "cluster": "BANK_COLLATERAL",
+    "cases": [],
+    "signal_id": "SIG-W-20261027-056",
+    "board_path": "BOARD/SIG-W-20261027-056-s2-workouts.md",
+    "entities": [
+      "S2-Capital",
+      "North-Dallas"
+    ],
+    "timestamp": "2026-10-27T18:37:11Z"
+  },
+  {
+    "key": "manhattan-lab-foreclosure",
+    "title": "New Manhattan lab foreclosure complaint concerns an older maturity default",
+    "emails": [
+      10
+    ],
+    "action": [
+      "CREED"
+    ],
+    "info": [
+      "REGINALD",
+      "ZHAO",
+      "RED"
+    ],
+    "body": "Bisnow's October 14 full report attributes to a Quinlan complaint a foreclosure effort on the 320 West 31st Street leasehold. The original mortgage was $54 million; claimed debt including interest/charges is $65.9 million. Reported extended maturity was August 18, 2025, with a September 2025 default notice. Bank of China assigned the loan on September 17, 2026.\n\nThe new October development is litigation, not a newly occurring default or a $65.9 million realized loss. The original complaint, assignment and city records were not read. The leasehold and planned life-science redevelopment do not establish a completed occupied lab.\n\nCREED ACTION: reconcile the named event in existing case coverage. ZHAO receives the Chinese-bank assignment connection; no residual Bank of China exposure is established.",
+    "sources": [
+      "https://www.bisnow.com/news/new-york/office/foreclosure-cannon-hill-quinlan-development-life-sciences"
+    ],
+    "confidence": 0.83,
+    "domain": "BANK_CRE",
+    "cluster": "BANK_COLLATERAL",
+    "cases": [
+      "320 West 31st Street leasehold, New York NY"
+    ],
+    "signal_id": "SIG-W-20261027-057",
+    "board_path": "BOARD/SIG-W-20261027-057-manhattan-lab-foreclosure.md",
+    "entities": [
+      "320-West-31st-Street",
+      "Quinlan",
+      "Bank-of-China"
+    ],
+    "timestamp": "2026-10-27T18:37:11Z"
+  },
+  {
+    "key": "700-sixth-transfer",
+    "title": "700 Sixth Street transfers through a note purchase and deed-in-lieu",
+    "emails": [
+      14
+    ],
+    "action": [
+      "CREED"
+    ],
+    "info": [
+      "SHADE",
+      "REGINALD",
+      "GIBBS",
+      "RED"
+    ],
+    "body": "Bisnow's October 6 full report describes Assembly/FitzWalter's acquisition of 700 Sixth Street NW through a note purchase and deed-in-lieu. It distinguishes $140 million 2019 origination, $145.8 million reported latest balance and $79.5 million note purchase price. Principal is the reported insurance lender; Citi supplied $54.2 million acquisition financing.\n\nThose three debt/price figures have different meanings. Their difference is not a certified accounting loss, and the Citi loan is new acquisition financing rather than Citi's share of the old distressed loan. Original deeds, settlement allocations and lender recognition records were not read.\n\nCREED ACTION: integrate the named distressed transfer. SHADE/GIBBS receive insurer/new-bank-financing context without an owner loss or capital grade.",
+    "sources": [
+      "https://www.bisnow.com/news/washington-dc/office/office-building-near-capital-one-arena-sells-deed-in-lieu-of-foreclosure"
+    ],
+    "confidence": 0.83,
+    "domain": "BANK_CRE",
+    "cluster": "BANK_COLLATERAL",
+    "cases": [
+      "700 Sixth Street NW, Washington DC"
+    ],
+    "signal_id": "SIG-W-20261027-058",
+    "board_path": "BOARD/SIG-W-20261027-058-700-sixth-transfer.md",
+    "entities": [
+      "700-Sixth-Street-NW",
+      "Assembly",
+      "FitzWalter",
+      "Principal",
+      "Citi"
+    ],
+    "timestamp": "2026-10-27T18:37:11Z"
+  },
+  {
+    "key": "rad-auction-scope",
+    "title": "RAD portfolio auction dates have passed; results remain unverified",
+    "emails": [
+      14
+    ],
+    "action": [
+      "HOMER"
+    ],
+    "info": [
+      "CREED",
+      "BROCK",
+      "CORAL",
+      "RED"
+    ],
+    "body": "The delivered October 8 newsletter and Bisnow's October 6 report identify a proposed auction of 46 Philadelphia-area homes associated with RAD Diversified. The reported bidding window was October 13-15. It is past as of this October 27 review; actual sales, proceeds and unsold properties were not established.\n\nThe auctioneer release was opened but complete later-body retrieval timed out. Investor fraud allegations and fundraising totals are not realized losses or sale proceeds. No unsupported mapping of all 46 homes into individual distressed-loan cases is made. CORAL receives the Florida sponsor connection, not a claim these homes are in Florida.\n\nHOMER ACTION: reconcile the past scheduled disposal with existing RAD exposure coverage, preserving outcome UNKNOWN; no new polling or monitor commissioned.",
+    "sources": [
+      "https://www.bisnow.com/news/philadelphia/multifamily/auction-scheduled-for-philly-properties-from-reit-accused-of-fraud-scheme",
+      "https://www.prnewswire.com/news-releases/tranzon-alderfer-to-auction-46-philadelphia-area-homes-bidding-starts-at-25-000--302898763.html"
+    ],
+    "confidence": 0.78,
+    "domain": "BANK_CRE",
+    "cluster": "BANK_COLLATERAL",
+    "cases": [],
+    "signal_id": "SIG-W-20261027-059",
+    "board_path": "BOARD/SIG-W-20261027-059-rad-auction-scope.md",
+    "entities": [
+      "RAD-Diversified",
+      "Philadelphia",
+      "Tranzon"
+    ],
+    "timestamp": "2026-10-27T18:37:11Z"
+  },
+  {
+    "key": "true-food-reorganization",
+    "title": "True Food enters Chapter 11; financing remains a conditional commitment",
+    "emails": [
+      14
+    ],
+    "action": [
+      "CARL"
+    ],
+    "info": [
+      "CREED",
+      "CORAL",
+      "RED"
+    ],
+    "body": "True Food Kitchen's October 5 issuer release reports a voluntary Chapter 11 filing after 12 restaurant closures on October 4, with 34 restaurants continuing. About $20 million of debtor-in-possession financing is a commitment subject to court approval, not cash independently proven received.\n\nBisnow's October 6 full report identifies lease exits including Miami. This is a consumer/retail tenant event, not proof of broad restaurant-demand collapse or landlord losses. Court motions, specific property debt and recoveries were not read. No company-default row is mislabeled as a named CRE collateral case.\n\nCARL ACTION: integrate the dated tenant failure and qualified financing bridge in existing consumer coverage. CORAL receives the Miami lease-exit connection.",
+    "sources": [
+      "https://www.prnewswire.com/news-releases/true-food-kitchen-initiates-voluntary-chapter-11-proceedings-to-position-business-for-long-term-success-302898002.html",
+      "https://www.bisnow.com/news/national/retail/true-food-bankruptcy-lease-exits-oprah-winfrey"
+    ],
+    "confidence": 0.94,
+    "domain": "CONSUMER_CREDIT",
+    "cluster": "CONSUMER_STAGFLATION",
+    "cases": [],
+    "signal_id": "SIG-W-20261027-060",
+    "board_path": "BOARD/SIG-W-20261027-060-true-food-reorganization.md",
+    "entities": [
+      "True-Food-Kitchen",
+      "Miami"
+    ],
+    "timestamp": "2026-10-27T18:37:11Z"
+  },
+  {
+    "key": "gartner-ai-value",
+    "title": "Gartner survey: limited major AI value so far, alongside rising funding",
+    "emails": [
+      5
+    ],
+    "action": [
+      "VULCAN"
+    ],
+    "info": [
+      "HENRY",
+      "LABOR",
+      "RED"
+    ],
+    "body": "Gartner's October 19 release reports that 13% of CIO respondents describe significant or transformational enterprise AI value so far. Its 2027 agenda survey covered 2,002 CIOs/technology executives in May-July 2026. The same release says AI funding is increasing; 58% face pressure for cost improvement and 51% expect AI to increase technology ownership cost. Forty percent expect IT headcount growth in 2027.\n\nThese are self-reported outcomes and expectations, not audited returns, realized layoffs or measured hyperscaler capex cuts. The author's prediction of lower future AI usage is her inference; it is not Gartner's observed result. Only 31% report pilot stopping rules and 17% production abandonment rules.\n\nVULCAN ACTION: integrate the survey in existing enterprise-value/demand coverage with the rising-funding counterevidence. LABOR receives the employment-expectation distinction; no new trigger grade.",
+    "sources": [
+      "https://www.gartner.com/en/newsroom/press-releases/2026-10-19-gartner-survey-finds-only-13-percent-of-cios-say-their-enterprise-has-realized-significant-or-transformational-value-from-ai"
+    ],
+    "confidence": 0.94,
+    "domain": "AI_CAPEX",
+    "cluster": "AI_INFRA_CAPEX",
+    "cases": [],
+    "signal_id": "SIG-W-20261027-061",
+    "board_path": "BOARD/SIG-W-20261027-061-gartner-ai-value.md",
+    "entities": [
+      "Gartner",
+      "CIO",
+      "AI"
+    ],
+    "timestamp": "2026-10-27T18:37:11Z"
+  },
+  {
+    "key": "treasury-investor-rule",
+    "title": "Treasury proposal is not a finalized blanket institutional-homebuyer ban",
+    "emails": [
+      2
+    ],
+    "action": [
+      "HOMER"
+    ],
+    "info": [
+      "CORAL",
+      "CARL",
+      "RED"
+    ],
+    "body": "Treasury's October 22 primary release describes proposed implementing regulations under the ROAD to Housing Act. The statute's general purchase restriction begins January 7, 2027; the large-investor definition includes direct/indirect investment control over at least 350 single-family homes, not strictly more than 350.\n\nThe release identifies excepted purchases including build-to-rent, renovate-to-rent and homeownership programs. Its NPRM proposes standards and safe harbors; it is not a finalized blanket prohibition on all institutional purchases. This qualifies the newsletter's external summary; no prior WALTER claim was found to supersede. No realized price/demand effect or legal-compliance determination is established.\n\nHOMER ACTION: preserve proposal/statute/effective-date/exception distinctions in existing housing-policy coverage.",
+    "sources": [
+      "https://home.treasury.gov/news/press-releases/sb0665"
+    ],
+    "confidence": 0.98,
+    "domain": "MACRO_INFLATION",
+    "cluster": "CONSUMER_STAGFLATION",
+    "cases": [],
+    "signal_id": "SIG-W-20261027-062",
+    "board_path": "BOARD/SIG-W-20261027-062-treasury-investor-rule.md",
+    "entities": [
+      "Treasury",
+      "ROAD-to-Housing-Act"
+    ],
+    "timestamp": "2026-10-27T18:37:11Z"
+  },
+  {
+    "key": "guild-power-execution",
+    "title": "Site-selector survey separates project announcements from groundbreakings",
+    "emails": [
+      11
+    ],
+    "action": [
+      "WATT",
+      "VULCAN"
+    ],
+    "info": [
+      "ISHM",
+      "LABOR",
+      "RED"
+    ],
+    "body": "The Site Selectors Guild's October 14 account ranks power availability as a location factor for 79%, with workforce and geopolitics each 50%. Thirty-five percent of members report fewer announced projects ultimately breaking ground than a year earlier. Data centers lead reported site-selection activity at 67%.\n\nThis is consultant-survey evidence of execution friction, not a count of canceled projects, delivered megawatts or issuer capex cuts. The opened page does not establish the newsletter's 72-respondent denominator. The separate 31-to-66 GW forecast was not reverified. Fewer groundbreakings cannot be attributed entirely to power; the account also identifies financing and construction costs.\n\nWATT/VULCAN ACTION: integrate this bounded execution evidence in existing power/buildout coverage. ISHM/LABOR receive manufacturing/workforce context; no new grade.",
+    "sources": [
+      "https://siteselectorsguild.com/2026-site-selection-strategy/"
+    ],
+    "confidence": 0.88,
+    "domain": "POWER_GRID",
+    "cluster": "AI_INFRA_CAPEX",
+    "cases": [],
+    "signal_id": "SIG-W-20261027-063",
+    "board_path": "BOARD/SIG-W-20261027-063-guild-power-execution.md",
+    "entities": [
+      "Site-Selectors-Guild",
+      "WATT",
+      "VULCAN"
+    ],
+    "timestamp": "2026-10-27T18:37:11Z"
+  },
+  {
+    "key": "realpage-quarterly",
+    "title": "Apartment supply moves toward weaker demand; South rents still lag",
+    "emails": [
+      14
+    ],
+    "action": [
+      "HOMER"
+    ],
+    "info": [
+      "CORAL",
+      "CREED",
+      "CARL",
+      "RED"
+    ],
+    "body": "RealPage's October 6 Q3 update reports annual conventional-apartment absorption near 304,800 and completions near 318,000; occupancy is 95.4%. Same-store effective asking rents rose 0.9% year over year to $1,915. The South remains negative.\n\nThis supports qualified stabilization, not a nationwide recovery: demand is far below the above-780,000 Q2 2025 peak, and Q3 absorption of about 69,800 was below the seasonal decade average. These vendor population/window measures differ from Yardi advertised rents, Apartment List concession prevalence and the newsletter's separate year-to-date chart. No household rent-bill or bank loss inference follows.\n\nHOMER ACTION: reconcile the source-specific demand/supply/rent counterevidence in existing multifamily coverage; CORAL receives the regional split.",
+    "sources": [
+      "https://www.realpage.com/analytics/3q-2026-us-data-update/"
+    ],
+    "confidence": 0.88,
+    "domain": "MACRO_INFLATION",
+    "cluster": "CONSUMER_STAGFLATION",
+    "cases": [],
+    "signal_id": "SIG-W-20261027-064",
+    "board_path": "BOARD/SIG-W-20261027-064-realpage-quarterly.md",
+    "entities": [
+      "RealPage",
+      "South",
+      "San-Antonio"
+    ],
+    "timestamp": "2026-10-27T18:37:11Z"
+  },
+  {
+    "key": "sunbelt-starts",
+    "title": "Sun Belt starts contraction is a historical peak comparison, not current monthly collapse",
+    "emails": [
+      12
+    ],
+    "action": [
+      "HOMER"
+    ],
+    "info": [
+      "CORAL",
+      "MARCO",
+      "CREED",
+      "RED"
+    ],
+    "body": "Marcus & Millichap's May 2026 outlook describes early-2026 multifamily starts roughly 75% below the 2022 peak, alongside slowing employment/migration. Commercial Observer's October 13 discussion applies that supply cycle to the Sun Belt.\n\nThe 75% comparison is historical through early 2026, not a current monthly or year-over-year fall and not completed units falling 75%. Forecasts of later delivery declines and rent recovery are conditional; weaker renter demand may offset lower new supply. CoStar-vintage projected calendar-year deliveries cannot be spliced into RealPage's rolling completed-unit sample. The source pages were read at the reported scope; no constituent construction census was reproduced.\n\nHOMER ACTION: reconcile the starts-versus-completions timing with existing supply coverage. MARCO receives the migration-demand qualification; no guaranteed 2028 rent boom.",
+    "sources": [
+      "https://www.marcusmillichap.com/research/research-brief/2026/05/research-brief-multifamily-outlook",
+      "https://commercialobserver.com/2026/10/sun-belt-multifamily-market-2027-2028/"
+    ],
+    "confidence": 0.85,
+    "domain": "MACRO_INFLATION",
+    "cluster": "CONSUMER_STAGFLATION",
+    "cases": [],
+    "signal_id": "SIG-W-20261027-065",
+    "board_path": "BOARD/SIG-W-20261027-065-sunbelt-starts.md",
+    "entities": [
+      "Marcus-and-Millichap",
+      "Commercial-Observer",
+      "Sun-Belt"
+    ],
+    "timestamp": "2026-10-27T18:37:11Z"
+  },
+  {
+    "key": "insurer-leverage-basis",
+    "title": "Insurer lending averages rise, but mix and data-center denominators remain unresolved",
+    "emails": [
+      16
+    ],
+    "action": [
+      "SHADE",
+      "CREED"
+    ],
+    "info": [
+      "BROCK",
+      "VULCAN",
+      "RED"
+    ],
+    "body": "The October 6 newsletter attributes to MSCI an H1 2026 insurer origination LTV of 62.7%, up 2.5 percentage points, versus 65.9% across lenders. GlobeSt's October 1 full report quotes the researcher warning that loan-mix changes can raise averages without conclusively demonstrating greater risk-taking. The underlying MSCI dataset was not reached.\n\nThe newsletter's claim that 30% of insurer real-estate lending went to data centers last year remains primary-unverified. That purported flow denominator is not 30% of insurer total assets, CRE stock or mortgage holdings. Its $940 billion 2024 mortgage/CMBS stock also differs from a $960 billion 2025 projection. No causal underwriting or broad insurer-loss conclusion is established.\n\nSHADE/CREED ACTION: reconcile the attributed average and source limits in existing insurance/CRE coverage; do not adopt the stronger headline causality.",
+    "sources": [
+      "https://www.globest.com/2026/10/01/rising-ltvs-reflect-a-market-moving-beyond-the-lending-crunch/",
+      "https://www.credaily.com/briefs/life-insurers-take-on-riskier-cre-loans-as-ltvs-climb/"
+    ],
+    "confidence": 0.78,
+    "domain": "INSURANCE_SHADOW",
+    "cluster": "PC_STRESS",
+    "cases": [],
+    "signal_id": "SIG-W-20261027-066",
+    "board_path": "BOARD/SIG-W-20261027-066-insurer-leverage-basis.md",
+    "entities": [
+      "MSCI",
+      "GlobeSt",
+      "Life-Insurers"
+    ],
+    "timestamp": "2026-10-27T18:37:11Z"
+  },
+  {
+    "key": "ios-staging-demand",
+    "title": "Outdoor-storage rent story combines AI staging demand with long-period supply constraints",
+    "emails": [
+      2
+    ],
+    "action": [
+      "CREED",
+      "VULCAN"
+    ],
+    "info": [
+      "ISHM",
+      "WATT",
+      "RED"
+    ],
+    "body": "The October 27 newsletter reports national industrial outdoor-storage rents up 32% since 2021, versus above 110% since 2020 across eight port-linked markets. It links AI construction staging needs and proposed conversion of over 200 Manassas acres to data centers. These are different samples and periods; conversions are prospective, not already removed supply.\n\nWSJ reporting was partially recovered through Apple News and a fuller publisher syndication; neither underlying CBRE/DAT nor Alterra dataset was independently read. All rent gains cannot be attributed to AI. Brookfield's $1.2 billion Peakstone acquisition was already completed May 6 according to its issuer release, not a fresh pending deal.\n\nCREED/VULCAN ACTION: integrate the qualified staging/supply channel in existing industrial/buildout coverage, retaining underlying-data and attribution limits.",
+    "sources": [
+      "https://www.credaily.com/briefs/industrial-outdoor-storage-rents-climb-32-on-data-center-boom/",
+      "https://apple.news/AtP94bJWfTaG-dCKMNbYUzA",
+      "https://bam.brookfield.com/press-releases/brookfield-completes-acquisition-peakstone-realty-trust"
+    ],
+    "confidence": 0.78,
+    "domain": "AI_CAPEX",
+    "cluster": "AI_INFRA_CAPEX",
+    "cases": [],
+    "signal_id": "SIG-W-20261027-067",
+    "board_path": "BOARD/SIG-W-20261027-067-ios-staging-demand.md",
+    "entities": [
+      "IOS",
+      "CBRE",
+      "Manassas",
+      "Brookfield",
+      "Peakstone"
+    ],
+    "timestamp": "2026-10-27T18:37:11Z"
+  },
+  {
+    "key": "blackstone-platform-bases",
+    "title": "Blackstone platform, development pipeline and equity spending are different measures",
+    "emails": [
+      10
+    ],
+    "action": [
+      "VULCAN"
+    ],
+    "info": [
+      "BROCK",
+      "WATT",
+      "CREED",
+      "RED"
+    ],
+    "body": "The newsletter's July-based $200 billion Blackstone data-center figure includes debt/construction and is not an equity check. Bloomberg's original was restricted. Blackstone's midyear primary instead describes a $165 billion global platform including construction plus about $160 billion future development pipeline; these are separate dated perimeters, not an independently reconciled update to the July figure.\n\nIts August Pattern Recognition leasing forecast mixes signed year-to-date activity and expected balance. None establishes delivered capacity, all equity funded, or contracted revenue collected. Original financing agreements and the $200 billion reconciliation remain unread.\n\nVULCAN ACTION: maintain the stock/pipeline/financing distinctions in existing Blackstone buildout coverage. This does not establish a capex cut, insurer exposure amount or new investment thesis.",
+    "sources": [
+      "https://www.blackstone.com/insights/article/2026-mid-year-investment-perspectives/",
+      "https://www.blackstone.com/pattern-recognition/"
+    ],
+    "confidence": 0.85,
+    "domain": "AI_CAPEX",
+    "cluster": "AI_INFRA_CAPEX",
+    "cases": [],
+    "signal_id": "SIG-W-20261027-068",
+    "board_path": "BOARD/SIG-W-20261027-068-blackstone-platform-bases.md",
+    "entities": [
+      "Blackstone",
+      "QTS"
+    ],
+    "timestamp": "2026-10-27T18:37:11Z"
+  },
+  {
+    "key": "florida-source-roundup",
+    "title": "Florida source leads pair demand counterevidence with construction constraints",
+    "emails": [
+      3,
+      4,
+      6,
+      8,
+      9,
+      10,
+      11,
+      14,
+      16
+    ],
+    "action": [
+      "CORAL"
+    ],
+    "info": [
+      "HOMER",
+      "CREED",
+      "REGINALD",
+      "VULCAN",
+      "WATT",
+      "RED"
+    ],
+    "body": "Delivered October newsletters contain these distinct Florida leads, not independently replicated datasets:\n\n* Miami office: asking rents +10% and vacancy down 90 basis points in one CBRE-attributed series; another reports +8.4%, $68.50 and availability 14.6%. Do not merge series or vacancy/availability.\n* Orlando multifamily: construction down 65.9% from a 2023 peak and about 6,400 absorption; original period/population unread.\n* South Florida industrial pipeline reportedly down 42% to 3 million square feet, with power constraints attributed; not proven canceled AI demand.\n* Citadel Miami construction reportedly restarted after county safety sign-off following the rig collapse; permits unread.\n* Trepp's $3.27 billion Isaias figure is securitized debt exposure in a modeled path, not damage or losses.\n* Named capital-flow context: Related Ross $64 million Boca office portfolio; Woodfield Plaza $90.3 million; Brasswater two Palm Beach hotels $48.04 million; Aurelian Coral Gables $81 million construction; BKM/Kayne Orlando 543,000 square feet at reported 95% leased. Brasswater's $58.25 million line also covers other hotels.\n\nCORAL ACTION: disposition these dated, attributed geographic leads against existing coverage. Original reports/transactions remain source gaps; no FL market grade or new study commissioned.",
+    "sources": [
+      "https://www.globest.com/2026/10/15/class-a-drives-record-office-rent-growth-in-miami/",
+      "https://www.credaily.com/briefs/miami-dade-office-rents-rise-8-4-as-availability-falls/",
+      "https://www.credaily.com/briefs/orlando-multifamily-rebounds-as-construction-falls-65-9/",
+      "https://www.bisnow.com/news/south-florida/industrial/miami-broward-industrial-warehouse-development-construction-slowdown",
+      "https://www.bisnow.com/news/national/construction-development/after-rig-collapse-citadel-hq-project-resumes-with-safety-protocol-update",
+      "https://www.credaily.com/briefs/hurricane-isaias-hits-3-27b-of-florida-securitized-cre-debt/"
+    ],
+    "confidence": 0.45,
+    "domain": "BANK_CRE",
+    "cluster": "BANK_COLLATERAL",
+    "cases": [],
+    "signal_id": "SIG-W-20261027-069",
+    "board_path": "BOARD/SIG-W-20261027-069-florida-source-roundup.md",
+    "entities": [
+      "Miami",
+      "Orlando",
+      "Boca-Raton",
+      "Palm-Beach",
+      "Citadel",
+      "Isaias"
+    ],
+    "timestamp": "2026-10-27T18:37:11Z"
+  },
+  {
+    "key": "cre-funding-leads",
+    "title": "New CRE financing leads show activity, without proving broad funding health",
+    "emails": [
+      10,
+      11
+    ],
+    "action": [
+      "CREED",
+      "BROCK",
+      "LIQUID"
+    ],
+    "info": [
+      "REGINALD",
+      "RED"
+    ],
+    "body": "Delivered October 14/15 newsletters report three distinct financing observations: Castlelake's debut roughly $1.1 billion CRE-CLO backed by 26 loans; Rithm/Genesis's $375 million multifamily securitization alongside $637 million origination; and September US CLO issuance $41.1 billion with AAA spreads about 122 basis points.\n\nThese are attributed newsletter figures only: original deal documents, collateral/vintage, spread basis and comparison periods were not read. CLO issuance is not interchangeable with CRE-CLO issuance; origination, issuance and capital committed are different quantities. This is evidence to reconcile, not proof of a funding shutdown, healthy borrower credit or independently corroborating witnesses.\n\nCREED/BROCK ACTION: disposition the named CRE collateral/fund-financing leads in existing coverage. LIQUID ACTION: retain the separate CLO issuance/spread basis before using it as funding evidence. No new study, grade or recurring monitor.",
+    "sources": [
+      "https://www.credaily.com/briefs/castlelake-enters-cre-clo-market-with-1-1b-bridge-loan-deal/",
+      "https://www.credaily.com/briefs/rithms-genesis-closes-375m-multifamily-securitization/",
+      "https://www.credaily.com/briefs/u-s-clo-issuance-slips-to-41-1b-as-aaa-spreads-tighten/"
+    ],
+    "confidence": 0.45,
+    "domain": "FUNDING_LIQUIDITY",
+    "cluster": "PC_STRESS",
+    "cases": [],
+    "signal_id": "SIG-W-20261027-070",
+    "board_path": "BOARD/SIG-W-20261027-070-cre-funding-leads.md",
+    "entities": [
+      "Castlelake",
+      "Rithm",
+      "Genesis",
+      "CLO"
+    ],
+    "timestamp": "2026-10-27T18:37:11Z"
+  },
+  {
+    "key": "lake-meadows-exit",
+    "title": "Lake Meadows investor-exit lawsuit is an allegation, not a loan default",
+    "emails": [
+      9
+    ],
+    "action": [
+      "HOMER"
+    ],
+    "info": [
+      "CREED",
+      "BROCK",
+      "RED"
+    ],
+    "body": "The delivered October 16 newsletter links a Bisnow report that an investor is suing Antheus Capital over an allegedly blocked exit from the 1,869-unit Lake Meadows property in Chicago. The summary describes a $30.5 million stake and the investor's claimed roughly $70 million June valuation.\n\nThe complaint and linked full article were not read. The valuation is a party's assertion, not an independently marked NAV, redemption payment or realized recovery. A disputed investor exit is not by itself a mortgage payment default or proof all investors are gated. This does not establish a named CRE loan-distress event for the case field.\n\nHOMER ACTION: disposition the attributed ownership/liquidity dispute against existing multifamily coverage. CREED/BROCK receive fund/valuation context. No new property study or legal conclusion.",
+    "sources": [
+      "https://www.bisnow.com/news/chicago/multifamily/owner-of-nearly-1-900-unit-chicago-property-faces-lawsuit-from-investors"
+    ],
+    "confidence": 0.45,
+    "domain": "BANK_CRE",
+    "cluster": "BANK_COLLATERAL",
+    "cases": [],
+    "signal_id": "SIG-W-20261027-071",
+    "board_path": "BOARD/SIG-W-20261027-071-lake-meadows-exit.md",
+    "entities": [
+      "Lake-Meadows",
+      "Antheus-Capital",
+      "Chicago"
+    ],
+    "timestamp": "2026-10-27T18:37:11Z"
+  },
+  {
+    "key": "industrial-office-demand-leads",
+    "title": "Industrial leasing and office hiring plans are distinct demand leads",
+    "emails": [
+      2
+    ],
+    "action": [
+      "CREED",
+      "ISHM"
+    ],
+    "info": [
+      "VULCAN",
+      "LABOR",
+      "RED"
+    ],
+    "body": "The October 27 delivered newsletter separately reports new industrial leases returning to a prior peak as renewals fall; about 202.6 million square feet of warehouse leasing in Q3; and a Newmark survey in which 60% of office occupiers expect headcount growth.\n\nOriginal brokerage datasets, survey sample and full linked articles were not read. Gross leasing, new leases, renewals and net absorption are different measures; occupier intentions are not realized hiring. Data-center-linked activity cannot establish broad end-demand recovery. These source leads complement, rather than replace, ISHM's freight/order evidence and CREED's existing office sample comparisons.\n\nCREED/ISHM ACTION: disposition the industrial demand leads within existing coverage; CREED owns the office-space side. LABOR receives only the employment-expectation qualification. No new aggregate grade or economic forecast.",
+    "sources": [
+      "https://irei.com/news/new-u-s-industrial-leases-return-to-prior-peak-renewals-drop/",
+      "https://www.bisnow.com/news/national/industrial/data-centers-fuel-busiest-industrial-market-since-2022",
+      "https://www.credaily.com/briefs/newmark-60-of-office-occupiers-expect-headcount-growth/"
+    ],
+    "confidence": 0.45,
+    "domain": "INDUSTRIAL_CYCLE",
+    "cluster": "BANK_COLLATERAL",
+    "cases": [],
+    "signal_id": "SIG-W-20261027-072",
+    "board_path": "BOARD/SIG-W-20261027-072-industrial-office-demand-leads.md",
+    "entities": [
+      "Newmark",
+      "Industrial-Leasing",
+      "Office-Occupiers"
+    ],
+    "timestamp": "2026-10-27T18:37:11Z"
+  }
+]
