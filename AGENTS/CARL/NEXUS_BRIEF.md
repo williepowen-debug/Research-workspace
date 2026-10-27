@@ -4,7 +4,7 @@
 **Domain:** U.S. consumer financial stress and household transmission; ISHM owns manufacturing/freight, REGINALD bank credit.
 **Thesis version:** v2.6.6
 **Recent thesis pivot:** broad-collapse claim further challenged by PNC/Velera activity (10/26); auto affordability and thin young-adult buffers coexist with spending growth.
-**As of:** 2026-10-26 23:20 ET | STATUS commit: `9bb25c528`
+**As of:** 2026-10-27 00:08 ET | STATUS commit: `3b19dcd53`
 **Position:** No capital authority; seven paper exits decided, actual next-open fills pending. No performance claim.
 
 ## CROSS-DOMAIN
@@ -21,6 +21,7 @@
 | TERRY | Dated CRL-21 evidence-grade packet in TERRY inbox; all seven CARL paper exits decided after 10/26 close. | Existing follow-through | Missing vintage input cannot activate a capital clause. Actual paper execution requires 10/27 opening quotes; no new construction request. |
 | PROME / NEXUS | L786 source reviews, 11 signal assessments, 3 scoped correction NO-OPs and GDP/PCE prep persisted at 5b18d5a88. | Owner result | Receipt gap cleared; remaining observations have dated homes. PROME explicitly acknowledged reading that L786 result; the separate news-sweep packet has no consumption receipt yet. |
 | NEXUS / ISHM / FERT | ISHM boundary/result and FERT L758 read under PROME's bounded addition; consumer consequence in PEER_INTAKE.md. | Bounded intake | Freight spending is not volume; regional prices are not CPI. Lower 2027 food inflation forecast has no demonstrated input-cost attribution and does not imply lower household bills. No CARL re-grade. |
+| PROME / NEXUS | CARL file audit: I3 standing line declined; SYF Q3 DR1 descriptive leg consumed; 23 child-ledger flags remain. | Existing owner work | No current gate uses debt-buyer recoveries. SYF cohort ratio is scale only, no causal 50 bp grade; COF/BFH still due November 13. No child refresh or score change. Report: research/2026-10-26_file-audit/REPORT.md. |
 
 **WAITING FOR:**
 
@@ -69,4 +70,4 @@
 | 11/06 | Original issuer source checkpoint; payrolls separately | CRL-21 input recovery, RITM filing notes; V16 |
 | 11/10 08:30 ET | October CPI | BLS-verified date; CRL-10 level/path conditions unchanged |
 
-**Closeout limits:** consistency 0 hard / 6 soft; read-cap heuristic flags a grep-only ledger, charter coverage unassessed; 23 child-age flags unchanged. Runtime OpenAI Codex, exact model UNKNOWN; Claude-native hooks unavailable. PROME explicitly acknowledged reading result 5b18d5a88 and delivery ee1cb82fa. Its bounded closeout ask is answered by a dated receipt; closeout remains partial for stated coverage limits. News sweep result 9bb25c528 is complete; read-cap closeout remains partial. STATUS rotation reached 22,639 bytes, with obligations preserved. New packet and TERRY consumption remain unverified.
+**Closeout limits:** October 26–27 file audit repaired code/operating defects and nine false-open tasks. Consistency 0 hard / 6 soft; read-cap passes seven detected surfaces, charter/composite coverage unassessed. Operational closeout remains PARTIAL: 23 inherited child-age flags and eight TSV defects, overdue owner work and future opening quotes remain explicit. No probability, score, instrument threshold or paper fill changed. Runtime OpenAI Codex, exact model UNKNOWN. L786 result 5b18d5a88 consumption was acknowledged; separate news/audit/TERRY consumption remains unverified. Audit result 3b19dcd53.
