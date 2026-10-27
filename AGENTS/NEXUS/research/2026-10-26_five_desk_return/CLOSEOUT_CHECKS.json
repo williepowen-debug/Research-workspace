@@ -1,0 +1,57 @@
+{
+  "observed_at": "2026-10-26T23:07:26-04:00",
+  "tier": "LIGHT",
+  "bounded_assignment": "CLOSED OUT",
+  "separate_Will_session": "PRESERVED; no lifecycle termination/archive",
+  "controls": {
+    "read_cap": {
+      "rc": 0,
+      "summary": [
+        "READ-CAP-RESULT v1 mode=agent rc=0 assessed=1 desk=NEXUS reads=80 over_budget=0 over_cap=0 manifest_defects=0 advisories=1 generated_flagged=0 rotation_due=3 active_decisions_over_budget=0 charter_mode=unspecified charter_reads=0 owner_notices=0 owner_notices_over_budget=0 charter_bytes=32068"
+      ],
+      "stderr": ""
+    },
+    "weekday": {
+      "rc": 0,
+      "summary": [
+        "CLAIM-CHECK \u2713 3 file(s) clean [weekday]"
+      ],
+      "stderr": ""
+    },
+    "orphan": {
+      "rc": 0,
+      "summary": [
+        "\u26a0\ufe0f  uncommitted files outside AGENTS/NEXUS/:",
+        "     [likely YOURS] AGENTS/VULCAN/NEXUS_BRIEF.md",
+        "     [likely YOURS] PROME/inbox/2026-10-26_from-NEXUS_bounded-followthrough-closeout.md",
+        "     [likely YOURS] PROME/inbox/processed/2026-10-26_from-NEXUS_five-desk-delta-and-Tuesday-prep.md",
+        "     [not yours]    AGENTS/BOND/inbox/2026-10-26_from-VULCAN_KB096-primary-inventory.md"
+      ],
+      "stderr": ""
+    },
+    "scoped_whitespace": {
+      "rc": 0,
+      "summary": [],
+      "stderr": ""
+    },
+    "published_research_ancestry": {
+      "rc": 0,
+      "summary": [],
+      "stderr": ""
+    }
+  },
+  "late_metadata": [
+    {
+      "path": "AGENTS/VULCAN/STATUS.md",
+      "commit": "dd78aa8d15c6feb9c121b7ee67694bf10a61521f",
+      "at": "2026-10-26T23:05:06-04:00",
+      "disposition": "DEFERRED \u2014 outside receipt-only closeout; no source review or grade inferred"
+    }
+  ],
+  "full_review": "2026-10-23; required BOOT6 unperformed/Opus mapping unavailable",
+  "Tuesday": "PREPARED, not resolved",
+  "read_cap_bytes": {
+    "STATUS.md": 24371,
+    "LAST_COMPLETION.md": 24240
+  }
+}
