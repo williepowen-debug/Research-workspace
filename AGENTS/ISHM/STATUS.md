@@ -8,7 +8,7 @@
 
 **A selective factory upturn is real in the data; broad end-demand durability remains unproved.** September orders and real output grew. October S&P/Dallas/Philadelphia composition warns that a strong headline can coexist with slower orders, more safety stocks and price pressure. New York order strength and broad September rail gains are counterevidence to a national rollover call. AAR reports 17/20 growing carload categories; ATA truck tonnage improved in September but its full quarter declined. Equipment values also reflect price, automation mix, replacement and tariff timing. No R1 flip or new capital trigger has fired.
 
-Canonical evidence: `workbook/PRINTS.tsv` (**48 rows**) and `research/2026-10-26_first-session/REPORT.md`. Current eight-company checklists: `companies/README.md`; frozen historical panels and metadata: `data/README.md`. Build result and calibration limits: `research/2026-10-26_buildout/REPORT.md`. News findings and source clocks: `research/2026-10-26_news-sweep/REPORT.md`.
+Canonical evidence: `workbook/PRINTS.tsv` (**48 rows**) and `research/2026-10-26_first-session/REPORT.md`. Current eight-company checklists: `companies/README.md`; frozen historical panels and metadata: `data/README.md`. Build result and calibration limits: `research/2026-10-26_buildout/REPORT.md`. News findings and source clocks: `research/2026-10-26_news-sweep/REPORT.md`; documentation reconciliation: `research/2026-10-26_news-sweep/DOCUMENTATION_AUDIT.md`.
 
 | Gauge | Current observation and basis | Consequence |
 |---|---|---|
@@ -60,7 +60,7 @@ Intake: eight WALTER signals assessed, including three late October 27 UTC IDs (
 
 Boot tests: initial 37 pass, final 39 pass after message/fixture repair. Live boot all seven FRED series current, print enums valid, no overdue consumed keyed row; one new date gap is explicit (AAR monthly edition day UNKNOWN). Expected REVIEW for tomorrow's catalysts and UNKNOWN equity thermometer. Reader manifest now certifies ATTESTED after PROME registration. Current checks are in the news-sweep record; detailed first-session checks and Git receipts remain in its dated closeout record.
 
-Late WALTER handoff archival is pending its sender commit: three locally observed packets are not yet tracked. ISHM committed their dispositions but did not stage the sender's originals; WALTER notified, follow-up at the October 27 dependency check.
+Late WALTER handoff filing is complete: sender commit e2bf11adfc persisted all three originals after ISHM had integrated their dispositions. ISHM then archived the three packets and repaired KB source pointers; eight WALTER dispositions are recorded. This closes filing, without upgrading the source limits or changing the cycle judgment.
 
 Food-plant operations context remains source-limited: separate Newport/Cedar Rapids reports do not establish a shared cause or quantified lost output. No aggregate manufacturing/food-price consequence is graded; source limits and dispositions are in the news-sweep report.
 
