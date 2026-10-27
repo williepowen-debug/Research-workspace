@@ -50,3 +50,5 @@ Put inseparable multi-metal work in [shared](../shared/README.md), once, and lin
 - [Sunday October 25 catch-up and assignment reconciliation](../shared/research/2026-10-25_sunday-catch-up.md) — dated prices, source limits, completed PRD3 correction and next owner work.
 
 - [October 26 Nornickel nine-month issuer read](../shared/research/2026-10-26_nornickel-9M-L701.md) — Q3 Pt/Pd above fixed pace tests, unchanged guidance and rounding/source limits.
+
+- [October 26 close snapshot](../shared/research/2026-10-26_close-snapshot.md) — latest completed fund prices, provisional named futures and existing band levels; no new scoring rule.

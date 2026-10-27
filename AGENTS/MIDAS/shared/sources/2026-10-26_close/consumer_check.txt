@@ -1,0 +1,25 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/MIDAS/   (processed/ + archive/ excluded everywhere — historical by design)
+
+  ── PPLT d200 October26 latest versusOctober23 prior, same percent series · superseded -18.98 → current -20.09
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (4)
+        AGENTS/WALTER/research/2026-10-25_boot/owner-headers.txt:952  [18.98]
+           **Boot/update Sunday October 25, 2026 (Codex, Will-directed):** [catch-up](shared/research/2026-10-25_sunday-catch-up.md). Network boot rc 1
+        AGENTS/WALTER/research/2026-10-25_boot/owner-headers.txt:986  [18.98]
+           | I2 | Platinum / palladium | **2** (would-be 4) | PALL red 10/22, PPLT orange; one root with silver | Industrial plus precious/supply roots
+        AGENTS/WALTER/research/2026-10-26_boot/owner-context-2.txt:247  [18.98]
+           **Boot/update Sunday October 25, 2026 (Codex, Will-directed):** [catch-up](shared/research/2026-10-25_sunday-catch-up.md). Network boot rc 1
+        AGENTS/WALTER/research/2026-10-26_startup-recovery/owner-context-3.txt:183  [18.98]
+           **Boot/update Sunday October 25, 2026 (Codex, Will-directed):** [catch-up](shared/research/2026-10-25_sunday-catch-up.md). Network boot rc 1
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (2)
+        AGENTS/CORAL/sources/redfin/redfin_buyers_sellers_FL_metros_thru_2026-08.csv:444  [18.98]  (no unit/series context on line)
+           2026-09-03,Monthly,2021-10-01,2021-10-31,Metro,"Fort Lauderdale, FL metro area",Townhouse,Seller's Market,1490,-6.89,1208,-31.37,1.23,32.46,
+        AGENTS/CORAL/sources/redfin/redfin_buyers_sellers_FL_metros_thru_2026-08.csv:881  [18.98]  (no unit/series context on line)
+           2026-09-03,Monthly,2017-05-01,2017-05-31,Metro,"Jacksonville, FL metro area",Single Family Residential,Buyer's Market,7764,3.95,9143,-10.48,
+
+  🔴 4 stale consumer reference(s). Send each owner a packet with the refreshed value — do NOT edit their files.
+==================================================================
+

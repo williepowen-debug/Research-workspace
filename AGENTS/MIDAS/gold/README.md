@@ -72,3 +72,5 @@ Put inseparable multi-metal work in [shared](../shared/README.md), once, and lin
 - [October 25 joined session findings and early signals](research/2026-10-25_session-synthesis.md) — entry point to history, cross-assets, official buying, conflict and the current bottom check; preserves the distinction between hints and confirmation.
 
 - [October 26 certified gold settlement review](research/2026-10-26_certified-settlement-review.md) — wrong-month comparison explained; certification still missing, scoring rules preserved.
+
+- [October 26 close snapshot](../shared/research/2026-10-26_close-snapshot.md) — latest completed fund prices, provisional named futures and existing band levels; no new scoring rule.

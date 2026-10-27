@@ -57,3 +57,5 @@ Operations, implementation and preserved historical archives are classified sepa
 - [Gold versus equities, Treasuries and oil](research/2026-10-25_gold-versus-equities-bonds-oil.md) — October 25 cross-asset extension; matched dates, return bases, historical cases and changing relationships.
 
 - [October 26 Nornickel nine-month issuer read](research/2026-10-26_nornickel-9M-L701.md) — production/guidance and fixed pace tests. [Shared evidence bundle](sources/2026-10-26_L701-settlement/); gold certification review linked from its gold index.
+
+- [October 26 close snapshot](research/2026-10-26_close-snapshot.md) — requested prices/holdings/rates and first platinum red crossing; [raw evidence](sources/2026-10-26_close/).

@@ -1,0 +1,41 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  SELF mode: 339 files under AGENTS/MIDAS/ (processed/ + archive/ still excluded — historical by design). Nothing outside your own dir is scanned.
+
+  ── PPLT d200 current versus dated historical readings · superseded -18.98 → current -20.09
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (12)
+        AGENTS/MIDAS/NEXUS_BRIEF.md:31  [18.98]
+           - **HAWK/HENRY:** PALL d200 −27.26% red, PPLT −18.98% orange October 23. Nornickel issuer 9M due October 26, frozen setup at `palladium/rese
+        AGENTS/MIDAS/NEXUS_BRIEF.md:36  [18.98]
+           Platinum: PLF27 **Jan 2027 $1,576.90/oz [Oct 22]**; PPLT **$14.05, −1.06% [Oct 23]**, d200 −18.98%, orange. Auto-demand headwind; Monday Rus
+        AGENTS/MIDAS/OPEN_ITEMS.md:12  [18.98]
+           **Sunday October 25, 2026 reconciliation:** New PROME PRD3 wording correction applied to current TRADE/STATUS/NEXUS: gold failed to hedge eq
+        AGENTS/MIDAS/STATUS.md:25  [18.98]
+           **Boot/update Sunday October 25, 2026 (Codex, Will-directed):** [catch-up](shared/research/2026-10-25_sunday-catch-up.md). Network boot rc 1
+        AGENTS/MIDAS/THESIS.md:77  [18.98]
+           **October 25 carried context:** October 23 PPLT $14.05/-1.06% and PALL $18.94/-0.94%; 200-session deviations -18.98%/-27.26%, trend levels 3
+        AGENTS/MIDAS/analysis/2026-10-25_before-targeted-review_NEXUS_BRIEF.md:23  [18.98]
+           - **HAWK/HENRY:** PALL d200 −27.26% red, PPLT −18.98% orange October 23. Nornickel issuer 9M due October 26, frozen setup at `palladium/rese
+        AGENTS/MIDAS/analysis/2026-10-25_before-targeted-review_NEXUS_BRIEF.md:28  [18.98]
+           Platinum: PLF27 **Jan 2027 $1,576.90/oz [Oct 22]**; PPLT **$14.05, −1.06% [Oct 23]**, d200 −18.98%, orange. Auto-demand headwind; Monday Rus
+        AGENTS/MIDAS/analysis/2026-10-25_before-targeted-review_THESIS.md:71  [18.98]
+           **October 25 carried context:** October 23 PPLT $14.05/-1.06% and PALL $18.94/-0.94%; 200-session deviations -18.98%/-27.26%, trend levels 3
+        AGENTS/MIDAS/shared/research/2026-10-25_sunday-catch-up.md:25  [18.98]
+           | Platinum PPLT | $14.05 | −1.06% | −5.20% | d200 −18.98%, T level 3; weak auto-demand thesis retained; Russian output test next |
+        AGENTS/MIDAS/shared/research/2026-10-26_close-snapshot.md:13  [18.98]
+           | Platinum (PPLT) | $13.83 | -1.57% | **New post-approval red trend crossing**: d200 -20.09%, versus -18.98% Friday. |
+        AGENTS/MIDAS/workbook/FLOW.tsv:5  [18.98]
+           FL-MIDAS-04	I2	auto+industrial demand + SA/Russia supply	PGM price	industrial + supply-shock tell	Close update 2026-10-26: PPLT 13.83/−1.57 
+        AGENTS/MIDAS/workbook/VX.tsv:5  [18.98]
+           VX-MIDAS-I2	I2	PGMs (Pt/Pd, auto+industrial+supply)	Close update 2026-10-26: PPLT 13.83/−1.57 percent, PALL 18.94/flat; d200−20.09/−27.07,T4
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (1)
+        AGENTS/MIDAS/shared/research/2026-10-25_sunday-catch-up.md:37  [18.98]  (no unit/series context on line)
+           | d200 / trend level | −24.99% / 4 | −18.98% / 3 | −27.26% / 4 |
+     🟡 in MAIL, point-in-time — usually no action (1: MIDAS)
+     🟢 cleared: marker-adjacent / next to new value / frozen file (1)  [--show-handled to audit]
+
+  🔴 12 stale reference(s) on YOUR OWN surfaces. You are the owner: fix them in place this session — no packet, nobody else to tell. Fix by PATTERN, not by the line list above (a line-targeted sweep left a hit on the highest-blast-radius surface three times in one night).
+==================================================================
+

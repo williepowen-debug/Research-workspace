@@ -1,8 +1,8 @@
 # MIDAS — TRADE
 # LIVE ledger.
-Last real data refresh: 2026-10-23 (latest held completed fund close; holdings/real yields October 22).
-Last attention check: 2026-10-25
-Content reconciliation: 2026-10-25; no fresh market pull or broker reconciliation in this review.
+Last real data refresh: 2026-10-26 (completed funds, primary bullion/real yields; futures26 diagnostic and guard-qualified23).
+Last attention check: 2026-10-26
+Content reconciliation: 2026-10-26 requested close snapshot; no new broker-position reconciliation.
 
 ## Current scope and status
 
@@ -14,10 +14,10 @@ The former July/August updates, superseded attribution bands and August "trigger
 
 | Channel | Evidence through the actual source dates | Current implication |
 |---|---|---|
-| Gold M1 | GLD $366.61 October 23, 20/60-session closing low; July low $364.96 intact. Primary bullion 1,045.64 tonnes October 22, day −11.98. October 9–22 real yields −27 bp/DXY −0.59%, GLD −4.05%. | Early supportive hints exist, adverse price/flow evidence dominates. No new entry proposal. M1=4 pending certified October 22/23 settlement at the existing $4,050/2.40 rule; vendor futures bars do not certify it. |
-| Silver M2 | SLV $48.72 October 23, 200-session deviation −24.99%, diagnostic trend 4. Named December GSR 73.82 October 22. | Actual M2=1 during the unscored floor. No current GSR-under-75 proposal rule is installed; that row belonged to the archived candidate concepts. |
-| Copper I1 | CPER $39.06 October 23; LME 273,750 tonnes/+17.2% versus its rolling median. Teck October 24 confirms Highland Valley strike/reduced capacity, output loss unknown. | I1=1. A supply interruption does not establish Chinese demand recovery or arm a copper expression. |
-| PGMs I2 | PPLT $14.05 and PALL $18.94 October 23; trend deviations −18.98%/−27.26%, diagnostic levels 3/4. Nornickel October 26 result not yet observed. | Actual I2=2, would-be 4; supply-tightening-only remains weakened. Use the existing preregistration, no premature production/outage grade. |
+| Gold M1 | PRIMARY issuer GLD$367.82,+0.33%, bullion 1040.80 t/−0.85 t October 26; real 10Y2.66%, flat. Friday bullion1041.65 t now held, −3.99 t. | Small price rebound with continued quantity reduction; no entry proposal. M1=4, certified December-settlement source still missing. |
+| Silver M2 | SLV$48.66 October 26, d200−24.96%, T4/C1/S1; binding GSR74.29 October 23, newest diagnostic74.32 October 26. | ActualM2=1 before the November 1 floor; no source substitution or old GSR-under75 proposal re-armed. |
+| Copper I1 | CPER$39.39,+0.84% October 26; LME272975 t/+17.14% versus233025 t median. Teck loss remains unknown. | I1=1; daily gain and modest inventory draw do not identify demand recovery. |
+| PGMs I2 | PPLT$13.83/PALL$18.94 October 26, d200−20.09/−27.07%, both T4/C1/S1. Pt first post-approval red crossing today. PRIMARY Nornickel Q3 above pace, guidance unchanged; MEDIA future-maintenance caveat retained. | ActualI2=2/would-be 4, shared root with silver. New Pt line adds no extra composite point; no current supply-disruption fire or trade. |
 
 Actual composite **4/1/1/2 = 8/20**; counterfactual **13/20**, one shared root. Silver/PGM scoring floor is November 1 at 21:40 ET; qualifying post-approval crossings and then-current levels govern. These levels are diagnostics, not trade orders.
 
@@ -33,12 +33,12 @@ The October 20 outlook uses GLD $379.69 on October 19, with LOW-confidence ASSUM
 
 | Existing line | Latest evidence held | Limit |
 |---|---|---|
-| One-month downside: GLD close **< $360.71** | $366.61 October 23 | Latest held close is above the line. |
-| One-month upside: GLD close **> $391.08** | $366.61 October 23 | Latest held close is below the line. |
-| Three-month accumulation: trust **< 1,035.70 tonnes** | 1,045.64 tonnes October 22 | Latest held quantity is above the line; Friday quantity unavailable. |
-| Three-month rates: real 10Y **≥ 3.00% on 5 consecutive Treasury prints** | 2.64% October 22 | Latest held print is below the line; no Friday print inferred. |
-| Three-month dollar: DXY **≥ 105 on 5 consecutive closes** | 101.81 October 23, vendor mirror | Latest held close is below the line. |
-| Three-month selling: a **second LIQUIDATION-class day by November 5 AND cumulative tonnes ≤ −20 since September 30** | October 22 classified case; quantity change since September 30 −10.06 tonnes | Friday classification unavailable without matched issuer/rate data. Missing data do not establish zero flow or no second event. |
+| One-month downside: GLD close **< $360.71** | $367.82 October 26 | Latest held close is above the line. |
+| One-month upside: GLD close **> $391.08** | $367.82 October 26 | Latest held close is below the line. |
+| Three-month accumulation: trust **< 1,035.70 tonnes** | 1,040.80 tonnes October 26 | Latest held quantity is above the line. |
+| Three-month rates: real 10Y **≥ 3.00% on 5 consecutive Treasury prints** | 2.66% October 26 | Latest held print is below the line. |
+| Three-month dollar: DXY **≥ 105 on 5 consecutive closes** | 101.96 October 26, vendor daily mirror | Latest held close is below the line. |
+| Three-month selling: a **second LIQUIDATION-class day by November 5 AND cumulative tonnes ≤ −20 since September 30** | October 22 classified case retained; quantity change sinceSeptember30 −14.90 tonnes atOctober26 | This requested price refresh does not rerun frozen-letter classifications; quantities alone do not establish a second LIQUIDATION event. |
 
 If any existing three-month invalidation fires, the standing action is to withdraw the positive lean to neutral and report to PROME/TERRY. This review does not grade an unobserved day or reanchor the outlook.
 
@@ -58,6 +58,6 @@ For the historical August analysis only: canonical univariate unexplained share 
 
 ## Sources and next existing review
 
-[Joined session synthesis](gold/research/2026-10-25_session-synthesis.md), [current bottom evidence](gold/research/2026-10-25_bottom-evidence-check.md), [Sunday catch-up](shared/research/2026-10-25_sunday-catch-up.md), [frozen WQ-451 letter, section 5](gold/research/2026-10-23_WQ451-decomposition-letter.md), [predictions](workbook/PREDICTIONS.tsv) and [Nornickel preregistration](palladium/research/2026-10-23_nornickel-9M-read-setup.md). Friday prices are vendor mirrors; primary bullion/rates end October 22 and CFTC October 20. No new source vintage or broker refresh is implied by the review date.
+[Joined session synthesis](gold/research/2026-10-25_session-synthesis.md), [current bottom evidence](gold/research/2026-10-25_bottom-evidence-check.md), [Sunday catch-up](shared/research/2026-10-25_sunday-catch-up.md), [frozen WQ-451 letter, section 5](gold/research/2026-10-23_WQ451-decomposition-letter.md), [predictions](workbook/PREDICTIONS.tsv) and [Nornickel preregistration](palladium/research/2026-10-23_nornickel-9M-read-setup.md). Latest requested snapshot: `shared/research/2026-10-26_close-snapshot.md`; completed funds/primary bullion/rates endOctober26, CFTC remainsOctober20. No broker-position refresh.
 
-Certified gold settlement remains UNRESOLVED; M1 draft disposition WQ-522 is registered/not ruled, not an active forecast. Existing Nornickel October 26 and forecast/calendar obligations continue; no new cadence, score, threshold, trade construction or execution.
+Certified gold settlement remains UNRESOLVED; M1 draft disposition WQ-522 is registered/not ruled, not an active forecast. Nornickel October 26 issuer read is complete; existing forecast/calendar obligations continue; no new cadence, score, threshold, trade construction or execution.
