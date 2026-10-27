@@ -3,6 +3,8 @@
 
 ## ★ NEXT SESSION — START HERE
 
+**October 26 FERT domain audit consumed:** [receipt](reports/2026-10-26_fert-domain-audit-consumption.md), owner 7c9f2fb5c. Cross-product margin inference withdrawn; bands unchanged. CF baseline, physical flows and affordability are ranked build recommendations, not commissioned work. KB/group/READS debt retained. Read acceptance conditions before new build assignments; existing wakes remain. Later MIDAS close-refresh and CARL news-sweep packets await intake.
+
 **October 26 five-desk review COMPLETE:** [final record](reports/2026-10-26_five-desk-review.md#final-disposition-of-this-review). NEXUS 69ad87b85 synthesis accepted and explicit bounded closeout e874a490e received; CARL accepted/answered 0dbf1c3ff. Both PROME follow-up touches resolved from actual replies. Tomorrow observations and reader/source limitations remain, as do separate late CYPHER/VULCAN intake packets. No full PROME session closeout claimed.
 
 **October 26 five-desk follow-through delivered:** NEXUS 69ad87b85 accepted; [review](reports/2026-10-26_five-desk-review.md). WQ-519 examples now linked in its pending row; probabilities unchanged. Tuesday L554/L555 grades/rollup and FLG consumption remain, full review still October 23 with reader dependency. CARL return accepted and closeout answered; NEXUS closeout asked, receipt pending. FERT next monthly wake L844 November 24 registered.
