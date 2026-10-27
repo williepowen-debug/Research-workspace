@@ -8,6 +8,27 @@ the task box to enable Resume. Resume opens the selected runtime's saved-session
 picker in its terminal. The app stays open for more launches; closing it leaves
 the agent windows running.
 
+Choose a **category** on the left, or **All agents**. Search narrows the current
+category. Click an agent's name for details and use its checkbox to include it
+in a batch. Checked agents stay selected across categories and searches; the
+selection count includes hidden agents. **Clear selection** removes all checks.
+
+For multiple agents, choose each agent's runtime and optional task in its
+details, then click **Review selected**. The preview lists every checked agent,
+runtime, and task; **Cancel** starts nothing. **Launch selected** starts new
+conversations in separate windows. Startup requests are handled one at a time,
+while the opened conversations run together. A failure is shown in the results
+and does not prevent the remaining agents from starting. Successful agents are
+unchecked; unsuccessful or cancelled agents stay checked, with no automatic
+retry. Runtime/task choices last while this app window is open.
+
+**Start this agent** and **Resume this agent** act only on the highlighted
+agent, regardless of checkboxes. Batch launching starts new conversations;
+resume continues through the individual saved-session picker. **Stop remaining**
+cancels requests that have not started. The current request may finish. Closing
+the launcher cancels queued requests; it never closes opened agent
+terminals. Reopen the launcher to load an updated interface.
+
 The app uses native Windows Forms with no extra UI package installation. It
 requires Windows PowerShell, WSL, and Windows Terminal. Missing setup is shown
 in the list/details and checked again on each launch. Hover over a long status
@@ -145,10 +166,12 @@ PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover \
 
 Tests use isolated projects and fake CLI executables; they never call a model.
 For an opt-in native Windows control/screenshot check, run
-`python3 scripts/agents_gui.py --smoke-test`. For a full GUI Start-button test
-through Windows Terminal using only a fake CLI, run
+`python3 scripts/agents_gui.py --smoke-test`. For a full GUI batch-preview and launch test
+through Windows Terminal using only fake CLIs, run
 `python3 scripts/tests/probe_agents_gui.py`. Both open and close test windows;
 they leave their evidence under the printed local cache or temporary directory.
+The batch probe checks cancellation, mixed runtimes and separate tasks, two
+concurrent fake CLI processes, and continuation after a missing-folder failure.
 Dry-run checks paths, required startup files, and executable presence, not account
 access, model availability, full runtime behavior, or whether another owner is
 running. A real Windows Terminal-to-WSL test passed with a harmless fake CLI,

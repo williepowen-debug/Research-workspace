@@ -1,9 +1,7 @@
 param([Parameter(Mandatory=$true)][string]$DataFile, [switch]$SmokeTest)
 $ErrorActionPreference = 'Stop'
 trap {
-    if (-not $SmokeTest) {
-        [void][System.Windows.Forms.MessageBox]::Show($_.Exception.Message,'Agent Launcher')
-    }
+    if (-not $SmokeTest) {[void][System.Windows.Forms.MessageBox]::Show($_.Exception.Message,'Agent Launcher')}
     Write-Error $_ -ErrorAction Continue
     exit 2
 }
@@ -11,142 +9,247 @@ Add-Type -AssemblyName System.Windows.Forms
 Add-Type -AssemblyName System.Drawing
 [System.Windows.Forms.Application]::EnableVisualStyles()
 $data = Get-Content -LiteralPath $DataFile -Raw | ConvertFrom-Json
-$script:busy = $false
-$script:process = $null
-$script:selected = $null
-$script:resultFile = $null
-$script:started = $null
-$bg = [Drawing.Color]::FromArgb(242,244,248)
-$ink = [Drawing.Color]::FromArgb(29,40,57)
-$muted = [Drawing.Color]::FromArgb(87,100,120)
-$accent = [Drawing.Color]::FromArgb(42,91,164)
-$form = New-Object Windows.Forms.Form
-$form.Text = 'Agent Launcher'
-$form.ClientSize = New-Object Drawing.Size(880,630)
-$form.MinimumSize = New-Object Drawing.Size(896,669)
-$form.StartPosition = 'CenterScreen'
-$form.BackColor = $bg
-$form.ForeColor = $ink
-$form.Font = New-Object Drawing.Font('Segoe UI',10)
-$form.AutoScaleMode = 'Dpi'
-
+$script:busy=$false; $script:process=$null; $script:selected=$null
+$script:loading=$false; $script:filtering=$false
+$script:checked=@{}; $script:settings=@{}
+$script:queue=New-Object Collections.Queue
+$script:active=$null; $script:completed=0; $script:failed=0
+foreach ($entry in $data.agents) {
+    $script:settings[$entry.name]=@{runtime=$entry.default_runtime;task=$null}
+}
+$bg=[Drawing.Color]::FromArgb(242,244,248)
+$ink=[Drawing.Color]::FromArgb(29,40,57)
+$muted=[Drawing.Color]::FromArgb(87,100,120)
+$accent=[Drawing.Color]::FromArgb(42,91,164)
+$form=New-Object Windows.Forms.Form
+$form.Text='Agent Launcher'; $form.ClientSize=New-Object Drawing.Size(1100,660)
+$form.MinimumSize=New-Object Drawing.Size(1116,699)
+$form.StartPosition='CenterScreen'; $form.BackColor=$bg; $form.ForeColor=$ink
+$form.Font=New-Object Drawing.Font('Segoe UI',10); $form.AutoScaleMode='Dpi'
 function Label($text,$x,$y,$width,$height,$size=10) {
-    $c = New-Object Windows.Forms.Label
+    $c=New-Object Windows.Forms.Label
     $c.Text=$text; $c.SetBounds($x,$y,$width,$height)
-    $c.Font=New-Object Drawing.Font('Segoe UI',$size)
-    $form.Controls.Add($c)
+    $c.Font=New-Object Drawing.Font('Segoe UI',$size); $form.Controls.Add($c)
     return $c
 }
 function Button($text,$x,$y,$width) {
-    $c = New-Object Windows.Forms.Button
-    $c.Text=$text; $c.SetBounds($x,$y,$width,42)
+    $c=New-Object Windows.Forms.Button
+    $c.Text=$text; $c.SetBounds($x,$y,$width,40)
     $c.FlatStyle='Flat'; $c.FlatAppearance.BorderSize=0
     $c.BackColor=[Drawing.Color]::White; $c.ForeColor=$ink
     $c.Cursor='Hand'; $form.Controls.Add($c)
     return $c
 }
-$title=Label 'Your agent desk' 26 20 650 40 23
-$subtitle=Label 'Choose an agent. Open a conversation. Get to work.' 28 65 800 30
+$title=Label 'Your agent desk' 24 18 900 42 23
+$subtitle=Label 'Browse a category. Check agents to launch together.' 26 65 1000 26
 $subtitle.ForeColor=$muted
-$searchLabel=Label 'Search agents' 28 111 330 25
+$categoryLabel=Label 'Categories' 26 111 224 26
+$categories=New-Object Windows.Forms.ListBox
+$categories.SetBounds(26,145,224,435); $categories.BorderStyle='None'
+$categories.IntegralHeight=$false; $categories.DrawMode='OwnerDrawFixed'; $categories.ItemHeight=46
+$categories.DisplayMember='Display'; $form.Controls.Add($categories)
+[void]$categories.Items.Add([pscustomobject]@{Name='';Display='All agents'})
+foreach ($g in ($data.agents | Select-Object -ExpandProperty group -Unique)) {
+    [void]$categories.Items.Add([pscustomobject]@{Name=$g;Display=$g})
+}
+$categories.Add_DrawItem({
+    param($sender,$e)
+    if ($e.Index -lt 0) {return}
+    $e.DrawBackground()
+    $rect=New-Object Drawing.Rectangle(($e.Bounds.X+9),$e.Bounds.Y,($e.Bounds.Width-16),$e.Bounds.Height)
+    [Windows.Forms.TextRenderer]::DrawText($e.Graphics,$sender.Items[$e.Index].Display,$sender.Font,$rect,$e.ForeColor,([Windows.Forms.TextFormatFlags]::WordBreak -bor [Windows.Forms.TextFormatFlags]::VerticalCenter))
+    $e.DrawFocusRectangle()
+})
+$searchLabel=Label 'Search in category' 270 111 220 26
 $search=New-Object Windows.Forms.TextBox
-$search.SetBounds(28,139,330,30); $form.Controls.Add($search)
-$list=New-Object Windows.Forms.ListBox
-$list.SetBounds(28,181,330,370); $list.IntegralHeight=$false
+$search.SetBounds(270,145,220,30); $form.Controls.Add($search)
+$list=New-Object Windows.Forms.CheckedListBox
+$list.SetBounds(270,186,220,334); $list.IntegralHeight=$false
 $list.BorderStyle='None'; $list.Font=New-Object Drawing.Font('Segoe UI',11)
-$list.DisplayMember='Display'; $list.Anchor='Top,Bottom,Left'
-$form.Controls.Add($list)
-$count=Label '' 28 562 330 26
-$count.ForeColor=$muted; $count.Anchor='Bottom,Left'
-$name=Label 'Select an agent' 388 111 460 38 21
-$purpose=Label '' 390 157 458 56 11
+$list.CheckOnClick=$false; $list.DisplayMember='Display'; $form.Controls.Add($list)
+$count=Label '' 270 532 220 45
+$count.ForeColor=$muted
+$batch=Button 'Review selected (0)' 270 582 220
+$batch.BackColor=$accent; $batch.ForeColor=[Drawing.Color]::White
+$clear=Button 'Clear selection' 26 582 224
+$name=Label 'Select an agent' 520 107 554 38 21
+$purpose=Label '' 522 151 550 52 11
 $purpose.ForeColor=$muted
-$group=Label '' 390 216 458 24
+$group=Label '' 522 206 550 24
 $group.ForeColor=$muted
-$runtimeLabel=Label 'Run with' 390 255 458 25
+$runtimeLabel=Label 'Run this agent with' 522 242 550 25
 $runtime=New-Object Windows.Forms.ComboBox
-$runtime.SetBounds(390,284,458,32); $runtime.DropDownStyle='DropDownList'
-$runtime.Anchor='Top,Left,Right'; $form.Controls.Add($runtime)
-$taskLabel=Label 'Optional task for a new conversation' 390 332 458 25
+$runtime.SetBounds(522,271,550,32); $runtime.DropDownStyle='DropDownList'
+$form.Controls.Add($runtime)
+$taskLabel=Label 'Optional task for this agent' 522 313 550 25
 $task=New-Object Windows.Forms.TextBox
-$task.SetBounds(390,363,458,92); $task.Multiline=$true; $task.AcceptsReturn=$true
-$task.ScrollBars='Vertical'; $task.Anchor='Top,Left,Right'; $form.Controls.Add($task)
-$start=Button 'Start new' 390 474 220
-$start.BackColor=$accent; $start.ForeColor=[Drawing.Color]::White
-$resume=Button 'Resume...' 626 474 222
-$hint=Label 'Resume opens your saved-conversation picker.' 390 528 458 28
+$task.SetBounds(522,343,550,75); $task.Multiline=$true; $task.AcceptsReturn=$true
+$task.ScrollBars='Vertical'; $form.Controls.Add($task)
+$start=Button 'Start this agent' 522 432 265
+$resume=Button 'Resume this agent...' 803 432 269
+$hint=Label 'Use checkboxes for a batch; Start and Resume use the highlighted agent.' 522 480 550 35 9
 $hint.ForeColor=$muted
-$status=Label 'Each conversation opens in its own terminal window.' 390 563 458 55
-$status.ForeColor=$muted; $status.Anchor='Bottom,Left,Right'
-foreach ($control in @($name,$purpose,$group,$runtimeLabel,$taskLabel,$hint)) {$control.Anchor='Top,Left,Right'}
+$status=Label 'Ready. Each conversation opens in its own terminal.' 522 519 550 25 9
+$status.ForeColor=$muted
+$results=New-Object Windows.Forms.TextBox
+$results.SetBounds(522,550,550,72); $results.Multiline=$true; $results.ReadOnly=$true
+$results.ScrollBars='Vertical'; $results.BackColor=[Drawing.Color]::White
+$results.Font=New-Object Drawing.Font('Segoe UI',9); $form.Controls.Add($results)
+$stop=Button 'Stop remaining' 26 582 224
+$stop.Visible=$false
+foreach ($control in @($name,$purpose,$group,$runtimeLabel,$runtime,$taskLabel,$task,$hint,$status,$results)) {$control.Anchor='Top,Left,Right'}
 $tooltip=New-Object Windows.Forms.ToolTip
-$tooltip.SetToolTip($task,'For Start new only. To resume with a new task, open the conversation first.')
+$tooltip.SetToolTip($list,'Click a name for details. Click its checkbox, or press Space, to include it in a batch.')
+$tooltip.SetToolTip($task,'Saved for this agent while the app is open. Applies only to new conversations.')
 
 function Update-Buttons {
     $ready=($null -ne $script:selected -and -not $script:busy)
     $start.Enabled=$ready
     $resume.Enabled=($ready -and [string]::IsNullOrWhiteSpace($task.Text))
-    $search.Enabled=-not $script:busy; $list.Enabled=-not $script:busy
     $runtime.Enabled=($ready -and $script:selected.kind -ne 'cato')
-    $task.Enabled=-not $script:busy
+    $task.Enabled=$ready
+    $search.Enabled=-not $script:busy; $list.Enabled=-not $script:busy; $categories.Enabled=-not $script:busy
+    $batch.Enabled=($script:checked.Count -gt 0 -and -not $script:busy)
+    $batch.Text='Review selected ('+$script:checked.Count+')'
+    $clear.Enabled=($script:checked.Count -gt 0 -and -not $script:busy)
+    $clear.Visible=-not $script:busy; $stop.Visible=$script:busy
+    $stop.Enabled=($script:queue.Count -gt 0)
+    $count.Text=[string]$list.Items.Count+' shown / '+$script:checked.Count+' selected overall'
+}
+function Save-Settings {
+    if ($script:loading -or $null -eq $script:selected) {return}
+    $value='sol'
+    if ($runtime.Text -eq 'Claude') {$value='claude'}
+    if ($runtime.Text -eq 'Codex Astra') {$value='astra'}
+    $script:settings[$script:selected.name]=@{runtime=$value;task=$task.Text}
+    Update-Buttons
 }
 function Select-Agent {
-    if ($null -eq $list.SelectedItem) {
-        $script:selected=$null; $name.Text='No matching agents'; $purpose.Text='Try another name or topic.'
-        $group.Text=''; $runtime.Items.Clear(); Update-Buttons; return
-    }
-    $script:selected=$list.SelectedItem.Entry
-    $name.Text=$script:selected.name; $purpose.Text=$script:selected.purpose
-    $group.Text=$script:selected.group
-    $runtime.Items.Clear()
-    if ($script:selected.kind -eq 'cato') {
-        [void]$runtime.Items.Add('Codex Astra'); $runtime.SelectedIndex=0
-    } else {
-        [void]$runtime.Items.Add('Codex Sol'); [void]$runtime.Items.Add('Claude')
-        $runtime.SelectedIndex=0
-        if ($script:selected.default_runtime -eq 'claude') {$runtime.SelectedIndex=1}
-    }
-    $status.Text='Each conversation opens in its own terminal window.'
-    if ($script:selected.error) {$status.Text=$script:selected.error}
-    $tooltip.SetToolTip($status,$status.Text)
-    $tooltip.SetToolTip($name,$script:selected.folder)
-    Update-Buttons
+    if ($script:filtering) {return}
+    $script:loading=$true
+    try {
+        $runtime.Items.Clear()
+        if ($null -eq $list.SelectedItem) {
+            $script:selected=$null; $name.Text='No matching agents'; $purpose.Text='Try another name or category.'
+            $group.Text=''; $task.Text=''; return
+        }
+        $script:selected=$list.SelectedItem.Entry
+        $name.Text=$script:selected.name; $purpose.Text=$script:selected.purpose; $group.Text=$script:selected.group
+        $setting=$script:settings[$script:selected.name]
+        if ($script:selected.kind -eq 'cato') {
+            [void]$runtime.Items.Add('Codex Astra'); $runtime.SelectedIndex=0
+        } else {
+            [void]$runtime.Items.Add('Codex Sol'); [void]$runtime.Items.Add('Claude'); $runtime.SelectedIndex=0
+            if ($setting.runtime -eq 'claude') {$runtime.SelectedIndex=1}
+        }
+        $task.Text=[string]$setting.task
+        $status.Text='Ready. Each conversation opens in its own terminal.'
+        if ($script:selected.error) {$status.Text=$script:selected.error}
+        $tooltip.SetToolTip($status,$status.Text); $tooltip.SetToolTip($name,$script:selected.folder)
+    } finally {$script:loading=$false; Update-Buttons}
 }
 function Filter-Agents {
     $previous=$null
     if ($script:selected) {$previous=$script:selected.name}
-    $query=$search.Text.Trim()
-    $list.BeginUpdate(); $list.Items.Clear()
-    foreach ($entry in $data.agents) {
-        $haystack=$entry.name+' '+$entry.purpose+' '+$entry.group
-        if ($haystack.IndexOf($query,[StringComparison]::OrdinalIgnoreCase) -ge 0) {
-            $display=$entry.name
-            if ($entry.error) {$display+='  (check setup)'}
-            [void]$list.Items.Add([pscustomobject]@{Display=$display;Entry=$entry})
+    $query=$search.Text.Trim(); $category=''
+    if ($categories.SelectedItem) {$category=$categories.SelectedItem.Name}
+    $script:filtering=$true
+    $list.BeginUpdate()
+    try {
+        $list.Items.Clear()
+        foreach ($entry in $data.agents) {
+            $haystack=$entry.name+' '+$entry.purpose+' '+$entry.group
+            if (($category -eq '' -or $category -eq $entry.group) -and $haystack.IndexOf($query,[StringComparison]::OrdinalIgnoreCase) -ge 0) {
+                $display=$entry.name
+                if ($entry.error) {$display+=' (check setup)'}
+                [void]$list.Items.Add([pscustomobject]@{Display=$display;Entry=$entry},$script:checked.ContainsKey($entry.name))
+            }
         }
-    }
-    $list.EndUpdate(); $count.Text=[string]$list.Items.Count+' agents'
-    if ($list.Items.Count -gt 0) {
-        $list.SelectedIndex=0
-        for ($i=0;$i -lt $list.Items.Count;$i++) {
-            if ($list.Items[$i].Entry.name -eq $previous) {$list.SelectedIndex=$i;break}
+        if ($list.Items.Count -gt 0) {
+            $list.SelectedIndex=0
+            for ($i=0;$i -lt $list.Items.Count;$i++) {
+                if ($list.Items[$i].Entry.name -eq $previous) {$list.SelectedIndex=$i;break}
+            }
         }
-    } else {Select-Agent}
+    } finally {$list.EndUpdate();$script:filtering=$false}
+    Select-Agent
 }
-function Begin-Launch($action) {
-    if ($script:busy -or $null -eq $script:selected) {return}
-    $script:busy=$true; Update-Buttons
+function Request-For($entry,$action) {
+    $setting=$script:settings[$entry.name]
+    $text=$null
+    if (-not [string]::IsNullOrWhiteSpace($setting.task)) {$text=$setting.task}
+    return @{name=$entry.name;runtime=$setting.runtime;action=$action;task=$text}
+}
+function Selected-Requests {
+    foreach ($entry in $data.agents) {
+        if ($script:checked.ContainsKey($entry.name)) {Request-For $entry 'new'}
+    }
+}
+function Preview-Text($items) {
+    $lines=New-Object Collections.Generic.List[string]
+    foreach ($item in $items) {
+        $label=@{sol='Codex Sol';claude='Claude';astra='Codex Astra'}[$item.runtime]
+        $lines.Add($item.name+'  |  '+$label)
+        if ($item.task) {$lines.Add('Task: '+$item.task)} else {$lines.Add('Task: follow the agent startup instructions')}
+        $lines.Add('')
+    }
+    return $lines -join "`r`n"
+}
+function Confirm-Batch($items) {
+    $dialog=New-Object Windows.Forms.Form
+    $dialog.Text='Review selected agents'; $dialog.ClientSize=New-Object Drawing.Size(650,440)
+    $dialog.StartPosition='CenterParent'; $dialog.Font=$form.Font; $dialog.BackColor=$bg
+    $dialog.FormBorderStyle='FixedDialog'; $dialog.MaximizeBox=$false; $dialog.MinimizeBox=$false
+    $heading=New-Object Windows.Forms.Label
+    $heading.Text='Start '+$items.Count+' new conversations in separate windows'; $heading.SetBounds(20,20,610,30)
+    $preview=New-Object Windows.Forms.TextBox
+    $preview.Multiline=$true; $preview.ReadOnly=$true; $preview.ScrollBars='Vertical'
+    $preview.SetBounds(20,60,610,305); $preview.Text=Preview-Text $items
+    $launch=New-Object Windows.Forms.Button
+    $launch.Text='Launch selected'; $launch.SetBounds(430,382,200,38); $launch.DialogResult='OK'
+    $cancel=New-Object Windows.Forms.Button
+    $cancel.Text='Cancel'; $cancel.SetBounds(280,382,130,38); $cancel.DialogResult='Cancel'
+    $dialog.Controls.AddRange(@($heading,$preview,$launch,$cancel)); $dialog.CancelButton=$cancel
+    # Enter does not start a batch implicitly; the launch button must be chosen.
+    $answer=$dialog.ShowDialog($form); $dialog.Dispose()
+    return $answer -eq [Windows.Forms.DialogResult]::OK
+}
+function Log-Result($text) {
+    $results.AppendText($text+"`r`n")
+    $results.SelectionStart=$results.TextLength; $results.ScrollToCaret()
+}
+function Begin-Requests($items) {
+    if ($script:busy -or $items.Count -eq 0) {return}
+    $script:busy=$true; $script:completed=0; $script:failed=0
+    $results.Clear(); $script:queue.Clear()
+    foreach ($item in $items) {$script:queue.Enqueue($item)}
+    Start-Next
+}
+function Finish-Current($ok,$message) {
+    $prefix='Opened'
+    if (-not $ok) {$prefix='Not confirmed';$script:failed++} else {
+        $script:checked.Remove($script:active.name)
+    }
+    Log-Result ($prefix+' - '+$script:active.name+': '+$message)
+    $script:completed++; $script:active=$null; $script:process=$null
+}
+function Start-Next {
+    if ($script:queue.Count -eq 0) {
+        $script:busy=$false
+        $status.Text='Finished: '+$script:completed+' attempted, '+$script:failed+' not confirmed. See results below.'
+        $saved=$status.Text
+        Filter-Agents
+        $status.Text=$saved
+        Update-Buttons
+        return
+    }
+    $script:active=$script:queue.Dequeue()
+    Update-Buttons
     try {
         $id=[Guid]::NewGuid().ToString('N')
         $request=Join-Path $data.directory ($id+'.json')
         $script:resultFile=Join-Path $data.directory ($id+'.result.json')
-        $runtimeName='sol'
-        if ($runtime.Text -eq 'Claude') {$runtimeName='claude'}
-        if ($runtime.Text -eq 'Codex Astra') {$runtimeName='astra'}
-        $taskText=$null
-        if (-not [string]::IsNullOrWhiteSpace($task.Text)) {$taskText=$task.Text}
-        @{name=$script:selected.name;runtime=$runtimeName;action=$action;task=$taskText} |
-            ConvertTo-Json | Set-Content -LiteralPath $request -Encoding UTF8
+        $script:active | ConvertTo-Json | Set-Content -LiteralPath $request -Encoding UTF8
         # Fixed paths are quoted as Windows argv. User task text stays in JSON.
         $values=@('-d',$data.distro,'-u',$data.user,'--exec',$data.python,$data.bridge,'--launch',($data.linux_directory+'/'+$id+'.json'))
         # WSL's option parser needs unquoted switches. Quote only values that
@@ -167,10 +270,21 @@ function Begin-Launch($action) {
         $script:outputRead=$script:process.StandardOutput.ReadToEndAsync()
         $script:errorRead=$script:process.StandardError.ReadToEndAsync()
         $script:started=[DateTime]::UtcNow
-        $status.ForeColor=$muted; $status.Text='Opening '+$script:selected.name+'...'
-    } catch {
-        $status.Text=$_.Exception.Message; $script:busy=$false; Update-Buttons
+        $status.Text='Opening '+$script:active.name+'; '+$script:queue.Count+' remaining...'
+    } catch {Finish-Current $false $_.Exception.Message; Start-Next}
+}
+function Stop-Remaining {
+    while ($script:queue.Count -gt 0) {
+        $item=$script:queue.Dequeue()
+        Log-Result ('Cancelled - '+$item.name+': not started')
     }
+    if ($script:busy) {$status.Text='Remaining agents cancelled. The current request may still finish.'}
+    Update-Buttons
+}
+function Begin-Launch($action) {
+    if ($script:busy -or $null -eq $script:selected) {return}
+    if ($action -eq 'resume' -and -not [string]::IsNullOrWhiteSpace($task.Text)) {return}
+    Begin-Requests @(Request-For $script:selected $action)
 }
 $timer=New-Object Windows.Forms.Timer
 $timer.Interval=200
@@ -179,54 +293,85 @@ $timer.Add_Tick({
     try {
         if (Test-Path -LiteralPath $script:resultFile) {
             $result=Get-Content -LiteralPath $script:resultFile -Raw | ConvertFrom-Json
-            $status.Text=$result.message
-            $status.ForeColor=$muted
-            if (-not $result.ok) {$status.ForeColor=[Drawing.Color]::FromArgb(155,52,43)}
-            $script:busy=$false; Update-Buttons
-            $tooltip.SetToolTip($status,$status.Text)
+            Finish-Current $result.ok $result.message
+            Start-Next
         } elseif ($script:process.HasExited -or ([DateTime]::UtcNow-$script:started).TotalSeconds -gt 40) {
-            $status.Text='Startup was not confirmed. Check the agent window before trying again.'
+            $message='Startup was not confirmed. Check its terminal before trying again.'
             if ($script:process.HasExited) {
                 $detail=($script:errorRead.Result+' '+$script:outputRead.Result).Trim()
-                if ($detail) {$status.Text=$detail}
+                if ($detail) {$message=$detail}
             }
-            $tooltip.SetToolTip($status,$status.Text)
-            $script:busy=$false; Update-Buttons
+            Finish-Current $false $message
+            Start-Next
         }
-    } catch {$status.Text=$_.Exception.Message; $script:busy=$false; Update-Buttons}
+    } catch {Finish-Current $false $_.Exception.Message; Start-Next}
 })
 $search.Add_TextChanged({Filter-Agents})
+$categories.Add_SelectedIndexChanged({Filter-Agents})
 $list.Add_SelectedIndexChanged({Select-Agent})
-$task.Add_TextChanged({
-    $hint.Text='Resume opens your saved-conversation picker.'
-    if (-not [string]::IsNullOrWhiteSpace($task.Text)) {$hint.Text='Clear the task box to resume an existing conversation.'}
+$list.Add_ItemCheck({
+    param($sender,$e)
+    if ($script:filtering) {return}
+    $key=$list.Items[$e.Index].Entry.name
+    if ($e.NewValue -eq [Windows.Forms.CheckState]::Checked) {$script:checked[$key]=$true} else {$script:checked.Remove($key)}
     Update-Buttons
+})
+$runtime.Add_SelectedIndexChanged({Save-Settings})
+$task.Add_TextChanged({Save-Settings})
+$clear.Add_Click({$script:checked.Clear();Filter-Agents})
+$stop.Add_Click({Stop-Remaining})
+$batch.Add_Click({
+    $items=@(Selected-Requests)
+    if ($items.Count -gt 0 -and (Confirm-Batch $items)) {Begin-Requests $items}
 })
 $start.Add_Click({Begin-Launch 'new'})
 $resume.Add_Click({Begin-Launch 'resume'})
+$form.Add_FormClosing({
+    if ($script:busy -and $script:queue.Count -gt 0) {
+        Stop-Remaining
+    }
+})
 $form.Add_FormClosed({$timer.Stop();$timer.Dispose()})
-Filter-Agents
+$categories.SelectedIndex=0
 $timer.Start()
 if ($SmokeTest) {
     $form.Add_Shown({
         try {
             $search.Text='CATO'
             if ($runtime.Text -ne 'Codex Astra' -or $runtime.Enabled) {throw 'CATO policy UI failed'}
-            $search.Text='CARL'
-            if ($runtime.Items.Count -ne 2) {throw 'Runtime selection failed'}
-            $task.Text='Test task'
+            $list.SetItemChecked(0,$true)
+            $search.Text='CARL'; $runtime.SelectedIndex=1; $task.Text='Only CARL receives this task'
             if ($resume.Enabled) {throw 'Resume must refuse task text'}
-            $task.Clear(); $search.Text='no-such-agent-987654'
-            if ($start.Enabled -or $resume.Enabled) {throw 'Empty search still launches'}
-            $search.Clear(); $search.Text='CARL'
+            $list.SetItemChecked(0,$true)
+            $categories.SelectedIndex=2; $search.Clear()
+            if ($list.Items.Count -eq 0) {throw 'Category is empty'}
+            foreach ($item in $list.Items) {
+                if ($item.Entry.group -ne $categories.SelectedItem.Name) {throw 'Category contains another group'}
+            }
+            if ($script:checked.Count -ne 2) {throw 'Filtering lost checked agents'}
+            $items=@(Selected-Requests)
+            if ($items.Count -ne 2 -or (Preview-Text $items) -notmatch 'Codex Astra') {throw 'Preview lost a hidden selection'}
+            $carl=@($items | Where-Object {$_.name -eq 'CARL'})[0]
+            if ($carl.runtime -ne 'claude' -or $carl.task -ne 'Only CARL receives this task') {throw 'Per-agent settings were lost'}
+            $categories.SelectedIndex=0; $search.Text='CARL'
+            if ($runtime.Text -ne 'Claude' -or $task.Text -ne $carl.task) {throw 'Settings did not restore'}
+            $search.Text='no-such-agent-987654'
+            if ($start.Enabled -or $resume.Enabled -or -not $batch.Enabled) {throw 'Empty search/hidden batch behavior failed'}
+            $clear.PerformClick()
+            if ($script:checked.Count -ne 0 -or $batch.Enabled) {throw 'Clear selection failed'}
+            $script:queue.Enqueue(@{name='NOT_STARTED_TEST'})
+            Stop-Remaining
+            if ($script:queue.Count -ne 0 -or $results.Text -notmatch 'Cancelled - NOT_STARTED_TEST') {throw 'Stop remaining failed'}
+            $results.Clear()
+            $search.Clear(); $categories.SelectedIndex=2; $search.Text='CARL'
+            $list.SetItemChecked(0,$true); $list.SetItemChecked(1,$true); $list.SetItemChecked(2,$true)
             $form.Refresh()
             $bitmap=New-Object Drawing.Bitmap($form.Width,$form.Height)
             $form.DrawToBitmap($bitmap,(New-Object Drawing.Rectangle(0,0,$form.Width,$form.Height)))
             $bitmap.Save((Join-Path $data.directory 'preview.png')); $bitmap.Dispose()
-            @{ok=$true;checks='Native form, search, runtime policy, task/resume exclusion, empty selection'} |
-                ConvertTo-Json | Set-Content (Join-Path $data.directory 'smoke.json')
+            @{ok=$true;checks='Categories, retained selection, per-agent runtime/task, hidden preview, CATO, resume, empty search, clear, stop remaining'} | ConvertTo-Json | Set-Content -Encoding UTF8 (Join-Path $data.directory 'smoke.json')
         } catch {
-            @{ok=$false;error=$_.Exception.Message} | ConvertTo-Json | Set-Content (Join-Path $data.directory 'smoke.json')
+            @{ok=$false;error=$_.Exception.Message} | ConvertTo-Json | Set-Content -Encoding UTF8 (Join-Path $data.directory 'smoke.json')
         } finally {$form.Close()}
     })
 }
