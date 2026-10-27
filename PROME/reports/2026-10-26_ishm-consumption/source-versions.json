@@ -1,0 +1,27 @@
+[
+  {
+    "path": "AGENTS/ISHM/STATUS.md",
+    "sha256": "1aeab57674ae8fc639f67a999dd317903c9ecfefaa69e29e2903744ae9e4f971",
+    "last_commit": "a5e8b9f7c1f292079c1248084d6ee427f79eed88"
+  },
+  {
+    "path": "AGENTS/ISHM/FIRST_SESSION.md",
+    "sha256": "4c64e461f4186020257a1c530af43f3ea2fbde1b17f15c21ad576e1bd8f8aa4f",
+    "last_commit": "a5e8b9f7c1f292079c1248084d6ee427f79eed88"
+  },
+  {
+    "path": "AGENTS/ISHM/NEXUS_BRIEF.md",
+    "sha256": "1a702217de5be576c3c233fff55e134fd44ee9200f59b03a7539fd02e4811249",
+    "last_commit": "ed3f1846706bc95154adfa92084e746f9b6bd871"
+  },
+  {
+    "path": "AGENTS/ISHM/RELEASE_PREP_2026-10-27.md",
+    "sha256": "4922c015ea377b95c3b422ab3fd34f853b2b7c38f8ea2546a15a8bb83f75149d",
+    "last_commit": "a5e8b9f7c1f292079c1248084d6ee427f79eed88"
+  },
+  {
+    "path": "AGENTS/ISHM/research/2026-10-26_first-session/REPORT.md",
+    "sha256": "dc877616075c4947046b02ee03105d9b99dee82129da570ffbb358c786f75b2c",
+    "last_commit": "a5e8b9f7c1f292079c1248084d6ee427f79eed88"
+  }
+]

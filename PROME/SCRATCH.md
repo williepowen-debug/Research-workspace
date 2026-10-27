@@ -3,6 +3,8 @@
 
 ## ★ NEXT SESSION — START HERE
 
+**October26 ISHM first return consumed:** [receipt](reports/2026-10-26_ishm-consumption/RECORD.md). First session delivered with named carries; READS attestation registered/checks pass; ROSTER now reflects already-ruled ISHM<47 ownership. HENRY pointers/WATT reply remain owed. Tuesday durables08:30ET and Richmond10:00–10:10ET prepared in owner release plan; no future observations or new gates inferred.
+
 **October26 NEXUS return consumed:** [receipt](reports/2026-10-26_nexus-consumption/RECORD.md). L832 numerical leg delivered; full fleet pass remains pending at October27 L554 with runtime/model dependency. L836 brief-repair consumption CLOSED. L555 rollup, WQ519 examples and FLG follow-through remain owed. GATES L16 count/reset mirrored without changing the letter or review date.
 
 **October26 HEARTBEAT refreshed:** [35th-base acceptance record](plans/2026-10-26_heartbeat-35th-rebase-PLAN.md); root HEARTBEAT now folds all four prior amendments and the dated Brazil, private-credit, AI-financing, energy and metals returns. Prior text archived verbatim; final independent read zero defects (two reads total). No owner grade, threshold, trade permission or standing restriction changed. This completes the requested synthesis rebase only; remaining obligations below persist.

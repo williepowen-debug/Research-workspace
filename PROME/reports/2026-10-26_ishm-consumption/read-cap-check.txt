@@ -1,0 +1,25 @@
+READ-CAP [ISHM] — cap 54,250 B · budget 32,550 B (60%) · ALL % BELOW ARE OF BUDGET (the number every verdict grades; ≥100% = over) · perimeter: DECLARED in PROME/registry/READS.tsv — 10 cap-bearing (whole/programmatic) measured, 4 declared-not-counted (scoped/grep/summary), 29 manifest row(s) for this desk; 0 of the measured are MEMBERS of 2 cap-bearing CLASS row(s), each measured per member (rule 16); ATTESTED by the desk itself
+  ✅ CLAUDE.md                            23,257 B    71% of budget    (whole · ISHM:root-rules)
+      ↳ 70–75% BAND — rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 473 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. ⚠️ Headroom to the trigger: 1,155 B.
+  ✅ AGENTS/ISHM/CLAUDE.md                22,534 B    69% of budget    (whole · ISHM:local-charter)
+  ✅ PROME/COMPLETION_SPEC.md             18,579 B    57% of budget    (whole · ISHM:runtime-and-delivery)
+  ✅ AGENTS/ISHM/STATUS.md                 8,571 B    26% of budget    (whole · ISHM:Boot-5 · ALSO read whole by NEXUS:6)
+  ✅ USER.md                               8,458 B    26% of budget    (whole · ISHM:Boot-2)
+  ✅ AGENTS/ISHM/DATA_ROUTES.md            7,697 B    24% of budget    (whole · ISHM:before-data-pull)
+  ✅ AGENTS/ISHM/FIRST_SESSION.md          7,397 B    23% of budget    (whole · ISHM:Boot-5-conditional)
+  ✅ AGENTS.md                             5,756 B    18% of budget    (whole · ISHM:explicit-root-read)
+  ✅ AGENTS/ISHM/PERIMETER.tsv             2,060 B     6% of budget    (whole · ISHM:boot-card-1)
+  ✅ AGENTS/ISHM/inbox/PROTOCOL.md         1,545 B     5% of budget    (whole · ISHM:Boot-4)
+  ▣ AGENTS/ISHM/inbox/*.md                       declared `whole` · CLASS row — cap-bearing PER MEMBER (rule 16 ruling 2026-09-24): 0 member(s) measured, 0 over budget, 0 over the CAP; 1 member(s) also matched by another manifest row, graded there  (ISHM:Boot-4-conditional-top-level)
+  ▣ AGENTS/ISHM/inbox/WALTER/*.md             —  declared `whole` · CLASS row matched 0 files today (5 files matched historically) — correctly quiet, not counted  (ISHM:Boot-4-conditional-WALTER)
+  ◦ docs/GIT_WORKTREE_PROCEDURES.md     3,185 B  declared `scoped` — not cap-bearing, not counted  (ISHM:before-pull-or-commit)
+  ◦ PROME/ORCHESTRATION_PLAYBOOK.md    50,032 B  declared `scoped` — not cap-bearing, not counted  (ISHM:Runtime-mechanics)
+  ◦ AGENTS/ISHM/boot.py                22,493 B  declared `summary` — not cap-bearing, not counted  (ISHM:Boot-3)
+  ◦ scripts/corrections_boot_check.py  53,658 B  declared `summary` — not cap-bearing, not counted  (ISHM:Boot-3b)
+  ℹ️ ADVISORY: CLASS row `AGENTS/ISHM/inbox/WALTER/*.md` (ISHM:Boot-4-conditional-WALTER) declared `whole` matched 0 files today (5 files matched historically) — correctly quiet, not counted
+✅ READ-CAP 0 [ISHM]: every CAP-BEARING read in this desk's ATTESTED manifest is under budget (10 measured, 4 declared-not-counted). Perimeter = the desk's own declaration, not a scan.
+  ℹ️  charter AGENTS/ISHM/CLAUDE.md = 22,534 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+  ✉️  OWNER-DIRECTED NOTICE [ISHM] (READ_CAP rule 15): 1 file(s) under AGENTS/ISHM/ that OTHER desks' declared boot reads load WHOLE — counted in THOSE readers' perimeters, NOT in this desk's totals or rc. The bytes are this desk's to rotate (rule 4); a breach here is also turning the READER's check red.
+     ✅ AGENTS/ISHM/NEXUS_BRIEF.md            7,921 B    24% of budget  under 75% of budget  ← read whole by NEXUS:6
+ℹ️  READ-CAP ADVISORY [ISHM]: 1 reading(s) this check will NOT adjudicate (above). ⛔ These do NOT affect rc — the declaration is the reader's, and a refusal to adjudicate cannot be a blocking verdict (severity split 2026-09-14, L354).
+READ-CAP-RESULT v1 mode=agent rc=0 assessed=1 desk=ISHM reads=10 over_budget=0 over_cap=0 manifest_defects=0 advisories=1 generated_flagged=0 rotation_due=0 active_decisions_over_budget=0 charter_mode=unspecified charter_reads=0 owner_notices=1 owner_notices_over_budget=0 charter_bytes=22534

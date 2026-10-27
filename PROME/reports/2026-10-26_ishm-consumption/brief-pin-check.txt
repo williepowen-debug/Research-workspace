@@ -1,0 +1,2 @@
+BRIEF-PIN 0 OK: 1 brief(s) checked against amendment 11 (pin-follows-STATUS-HEAD) — OK-PINNED 1. A PASS proves the pin, never the brief's content; UNPINNED briefs are not A11-checked.
+  ✅ ISHM      OK-PINNED       pin a5e8b9f7c1f292079c1248084d6ee427f79eed88 = STATUS HEAD

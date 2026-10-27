@@ -1,0 +1,102 @@
+[
+  [
+    "READ",
+    "ISHM",
+    "CLAUDE.md",
+    "RETIRED-2026-10-26",
+    "ISHM:CLAUDE.md-Boot-1",
+    "DAEDALUS",
+    "2026-10-23",
+    "Root canon, explicit bounded read per the spawn card (not injected when spawned from PROME's cwd). Builder-declared by DAEDALUS (ISHM built 2026-10-23, WQ-506; DAEDALUS message to PROME 11:1x ET after the ISHM architecture check); transcribed by PROME (registrar) 2026-10-23 11:07 ET. ISHM has had ZERO sessions; its own ATTESTATION is owed at its first session (FIRST_SESSION.md item 10) \u2014 until then the perimeter is builder-declared, not reader-attested. Superseded by ISHM own October26 declaration at 095e00bd2; historical builder row retained."
+  ],
+  [
+    "READ",
+    "ISHM",
+    "AGENTS.md",
+    "RETIRED-2026-10-26",
+    "ISHM:CLAUDE.md-Boot-1",
+    "DAEDALUS",
+    "2026-10-23",
+    "Explicit read per the spawn card. Builder-declared by DAEDALUS (ISHM built 2026-10-23, WQ-506; DAEDALUS message to PROME 11:1x ET after the ISHM architecture check); transcribed by PROME (registrar) 2026-10-23 11:07 ET. ISHM has had ZERO sessions; its own ATTESTATION is owed at its first session (FIRST_SESSION.md item 10) \u2014 until then the perimeter is builder-declared, not reader-attested. Superseded by ISHM own October26 declaration at 095e00bd2; historical builder row retained."
+  ],
+  [
+    "READ",
+    "ISHM",
+    "USER.md",
+    "RETIRED-2026-10-26",
+    "ISHM:CLAUDE.md-Boot-2",
+    "DAEDALUS",
+    "2026-10-23",
+    "Charter boot step 2: read in full every boot (\u00a7 No expiry nagging). Builder-declared by DAEDALUS (ISHM built 2026-10-23, WQ-506; DAEDALUS message to PROME 11:1x ET after the ISHM architecture check); transcribed by PROME (registrar) 2026-10-23 11:07 ET. ISHM has had ZERO sessions; its own ATTESTATION is owed at its first session (FIRST_SESSION.md item 10) \u2014 until then the perimeter is builder-declared, not reader-attested. Superseded by ISHM own October26 declaration at 095e00bd2; historical builder row retained."
+  ],
+  [
+    "READ",
+    "ISHM",
+    "AGENTS/ISHM/CLAUDE.md",
+    "RETIRED-2026-10-26",
+    "ISHM:CLAUDE.md-Boot-1",
+    "DAEDALUS",
+    "2026-10-23",
+    "The charter itself. Builder-declared by DAEDALUS (ISHM built 2026-10-23, WQ-506; DAEDALUS message to PROME 11:1x ET after the ISHM architecture check); transcribed by PROME (registrar) 2026-10-23 11:07 ET. ISHM has had ZERO sessions; its own ATTESTATION is owed at its first session (FIRST_SESSION.md item 10) \u2014 until then the perimeter is builder-declared, not reader-attested. Superseded by ISHM own October26 declaration at 095e00bd2; historical builder row retained."
+  ],
+  [
+    "READ",
+    "ISHM",
+    "AGENTS/ISHM/STATUS.md",
+    "RETIRED-2026-10-26",
+    "ISHM:CLAUDE.md-Boot-1",
+    "DAEDALUS",
+    "2026-10-23",
+    "Boot step 1 read. Builder-declared by DAEDALUS (ISHM built 2026-10-23, WQ-506; DAEDALUS message to PROME 11:1x ET after the ISHM architecture check); transcribed by PROME (registrar) 2026-10-23 11:07 ET. ISHM has had ZERO sessions; its own ATTESTATION is owed at its first session (FIRST_SESSION.md item 10) \u2014 until then the perimeter is builder-declared, not reader-attested. Superseded by ISHM own October26 declaration at 095e00bd2; historical builder row retained."
+  ],
+  [
+    "READ",
+    "ISHM",
+    "AGENTS/ISHM/PERIMETER.tsv",
+    "RETIRED-2026-10-26",
+    "ISHM:CLAUDE.md-Boot-1",
+    "DAEDALUS",
+    "2026-10-23",
+    "Boot step 1 read (eight frozen bellwethers). Builder-declared by DAEDALUS (ISHM built 2026-10-23, WQ-506; DAEDALUS message to PROME 11:1x ET after the ISHM architecture check); transcribed by PROME (registrar) 2026-10-23 11:07 ET. ISHM has had ZERO sessions; its own ATTESTATION is owed at its first session (FIRST_SESSION.md item 10) \u2014 until then the perimeter is builder-declared, not reader-attested. Superseded by ISHM own October26 declaration at 095e00bd2; historical builder row retained."
+  ],
+  [
+    "READ",
+    "ISHM",
+    "AGENTS/ISHM/FIRST_SESSION.md",
+    "RETIRED-2026-10-26",
+    "ISHM:CLAUDE.md-Boot-1",
+    "DAEDALUS",
+    "2026-10-23",
+    "Read whole while the STATUS banner reads UNSPENT; retires with the banner. Builder-declared by DAEDALUS (ISHM built 2026-10-23, WQ-506; DAEDALUS message to PROME 11:1x ET after the ISHM architecture check); transcribed by PROME (registrar) 2026-10-23 11:07 ET. ISHM has had ZERO sessions; its own ATTESTATION is owed at its first session (FIRST_SESSION.md item 10) \u2014 until then the perimeter is builder-declared, not reader-attested. Superseded by ISHM own October26 declaration at 095e00bd2; historical builder row retained."
+  ],
+  [
+    "READ",
+    "ISHM",
+    "AGENTS/ISHM/boot.py",
+    "RETIRED-2026-10-26",
+    "ISHM:CLAUDE.md-Boot-3",
+    "DAEDALUS",
+    "2026-10-23",
+    "Programmatic: output consumed, script not read; it reads workbook/*.tsv and docket/CATALYSTS.tsv itself. Builder-declared by DAEDALUS (ISHM built 2026-10-23, WQ-506; DAEDALUS message to PROME 11:1x ET after the ISHM architecture check); transcribed by PROME (registrar) 2026-10-23 11:07 ET. ISHM has had ZERO sessions; its own ATTESTATION is owed at its first session (FIRST_SESSION.md item 10) \u2014 until then the perimeter is builder-declared, not reader-attested. Superseded by ISHM own October26 declaration at 095e00bd2; historical builder row retained."
+  ],
+  [
+    "BASIS",
+    "ISHM",
+    "AGENTS/ISHM/CLAUDE.md",
+    "boot-defining",
+    "ISHM:CLAUDE.md-Boot-1",
+    "DAEDALUS",
+    "2026-10-23",
+    "Charter: boot card + sequence. Builder-declared by DAEDALUS (ISHM built 2026-10-23, WQ-506; DAEDALUS message to PROME 11:1x ET after the ISHM architecture check); transcribed by PROME (registrar) 2026-10-23 11:07 ET. ISHM has had ZERO sessions; its own ATTESTATION is owed at its first session (FIRST_SESSION.md item 10) \u2014 until then the perimeter is builder-declared, not reader-attested."
+  ],
+  [
+    "BASIS",
+    "ISHM",
+    "AGENTS/ISHM/boot.py",
+    "boot-defining",
+    "ISHM:CLAUDE.md-Boot-3",
+    "DAEDALUS",
+    "2026-10-23",
+    "Desk boot script (desk root). Builder-declared by DAEDALUS (ISHM built 2026-10-23, WQ-506; DAEDALUS message to PROME 11:1x ET after the ISHM architecture check); transcribed by PROME (registrar) 2026-10-23 11:07 ET. ISHM has had ZERO sessions; its own ATTESTATION is owed at its first session (FIRST_SESSION.md item 10) \u2014 until then the perimeter is builder-declared, not reader-attested."
+  ]
+]

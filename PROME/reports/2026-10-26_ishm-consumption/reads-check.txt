@@ -1,0 +1,21 @@
+READS [ISHM] — budget 32,550 B · cap 54,250 B · perimeter: 12 cap-bearing + 4 declared-not-bearing = 16 live read(s) (+8 RETIRED, not measured) · basis 4 surface(s) · manifest ATTESTED 2026-10-26 by ISHM itself
+  ⚠️  MODE IS A SELF-ASSERTED CLAIM — 2 over-budget read(s) are excluded from the verdict BY DECLARATION, not by measurement. Verify each against its boot step before quoting rc:
+       · PROME/ORCHESTRATION_PLAYBOOK.md (50,032 B) declared `scoped` at ISHM:Runtime-mechanics by ISHM
+       · scripts/corrections_boot_check.py (53,658 B) declared `summary` at ISHM:Boot-3b by ISHM
+  ✅ CLAUDE.md                                               23,257 B    71% of budget   (whole, ISHM:root-rules)
+  ✅ AGENTS/ISHM/CLAUDE.md                                   22,534 B    69% of budget   (whole, ISHM:local-charter)
+  ✅ PROME/COMPLETION_SPEC.md                                18,579 B    57% of budget   (whole, ISHM:runtime-and-delivery)
+  ✅ AGENTS/ISHM/STATUS.md                                    8,571 B    26% of budget   (whole, ISHM:Boot-5)
+  ✅ USER.md                                                  8,458 B    26% of budget   (whole, ISHM:Boot-2)
+  ✅ AGENTS/ISHM/DATA_ROUTES.md                               7,697 B    24% of budget   (whole, ISHM:before-data-pull)
+  ✅ AGENTS/ISHM/FIRST_SESSION.md                             7,397 B    23% of budget   (whole, ISHM:Boot-5-conditional)
+  ✅ AGENTS.md                                                5,756 B    18% of budget   (whole, ISHM:explicit-root-read)
+  ✅ AGENTS/ISHM/PERIMETER.tsv                                2,060 B     6% of budget   (whole, ISHM:boot-card-1)
+  ✅ AGENTS/ISHM/inbox/PROTOCOL.md                            1,545 B     5% of budget   (whole, ISHM:Boot-4)
+  ✅ AGENTS/ISHM/inbox/*.md                                  1 files  largest 1,545 B (5%) = AGENTS/ISHM/inbox/PROTOCOL.md  total 1,545 B  (whole, ISHM:Boot-4-conditional-top-level)
+  ⇢  AGENTS/ISHM/inbox/WALTER/*.md                          0 files     conditional class row — no match today under existing dir AGENTS/ISHM/inbox/WALTER/; the read fires only when a file lands, so it measures nothing until then (whole, ISHM:Boot-4-conditional-WALTER)
+  ·  docs/GIT_WORKTREE_PROCEDURES.md                          3,185 B   scoped       (ISHM:before-pull-or-commit)
+  ·  PROME/ORCHESTRATION_PLAYBOOK.md                         50,032 B   scoped       (ISHM:Runtime-mechanics)  ❓ 154% of budget — not a breach (scoped). RULE-8 QUESTION FOR THE OWNER: if this step was downgraded from a whole read, a split or dated re-trigger is still owed; if the surface is a cold index by design, nothing is owed.
+  ·  AGENTS/ISHM/boot.py                                     22,493 B   summary      (ISHM:Boot-3)
+  ·  scripts/corrections_boot_check.py                       53,658 B   summary      (ISHM:Boot-3b)  ℹ️  165% of budget — cold/on-demand class, NOT a cap breach and nothing owed ON CAP GROUNDS (READ_CAP.md 'what binds'). ⚠️ Protocol accuracy is a SEPARATE axis this tool cannot grade — read the row's notes before concluding nothing is owed.
+✅ READS-CAP 0 [ISHM]: all 12 cap-bearing read(s) under budget, in a manifest ISHM itself attested complete on 2026-10-26. This grades the DECLARATION, not the desk — a wrong declaration yields a wrong verdict.
