@@ -123,3 +123,26 @@ The only dirty path was `PROME/state/argus_review.json`. Its changed top-level f
 The destination needs the repository's normal arrival/pull protocol. Launcher code travels through Git; local wrappers/desktop shortcuts and personal preferences do not. No production saved-groups file existed at `/mnt/c/Users/willi/AppData/Local/ResearchAgentLauncher/groups.json` when checked, so no saved group transfer was owed from that path. No local cache, session, credential, or backup was added to Git. Continuity now names this bounded handoff residue; other surviving approvals remain unchanged.
 
 Closeout checks: orphan advisory returned 0 and identified only PROME's review metadata outside CATO. Verified existence/readability and read-cap success for `AGENTS/CATO/AGENTS.md`, `AGENTS/CATO/CHARTER.md`, `AGENTS/CATO/CONTINUITY.md`, `CLAUDE.md`, `USER.md`, and `AGENTS.md` (six actual startup files). Weekday check passed on the readable `PROME/DOCKET.tsv`, `PROME/GATES.tsv`, `PROME/WILL_QUEUE.md`, CATO `CONTINUITY.md`, and this report (five actual files). No ledger, memory, or consumer-figure checks were triggered. Only the changed handoff resume point and this evidence record require a final CATO commit.
+
+### October 27 — Other-agent publication and closeout verification
+
+Will asked to check the other agents before switching machines. Fresh `git fetch origin` at HEAD/origin `e6711c6a7` showed ahead/behind `0/0`. `git rev-list --branches --not --remotes=origin --count` returned **0**, so no commit reachable from any local branch was missing from the fetched origin refs. The shared index was empty; the only dirty path remained `PROME/state/argus_review.json`. This covers this Research-workspace checkout, not unrelated repositories, ignored/machine-local files, or live terminal presence.
+
+Inspected the named owners' recent closeout receipts (PROME inbox, processed BRENT receipt, WALTER LAST_COMPLETION) and confirmed their delivery commits as ancestors of origin/master:
+
+| Owner | Published commit checked | Recorded disposition |
+|---|---|---|
+| CARL | c153585eb | Session closed; inherited operational gaps and future quotes remain pending. |
+| ISHM | 056f8e253 | Explicit final owner closeout; next release handoff preserved. |
+| MIDAS | 23eb9d413 | Will-requested closeout; future work and source limits preserved. |
+| FERT | 34e223abd | Session explicitly closed. Its receipt's then-unconfirmed remote publication is now directly verified. |
+| CYPHER | f87794b7e | Session closed and work published; app archive attempt failed, so app archival is not asserted. |
+| NEXUS | f5b1ab02b | Session explicitly closed; existing later wakes/intake remain pending. |
+| WALTER | f6a43ddc2 | Session explicitly closed; declared Gmail work delivered, boot/intake carry remains PARTIAL. |
+| VULCAN | cb76e23e0 | Final closeout delivered; source/denominator limits retained. |
+| BRENT | 442ec6f3784cebd83531a5a0b527b52664b4bbc9 | Final handoff/STATUS published; owner closeout packet inspected at its processed path. |
+| PROME | ef7b600c2 | Closeout/research delivery published; pending intake and excluded review-bookkeeping residue remain. |
+
+PROME's standard closeout report distinguishes explicit owner receipts from historical idle/presence inference; its earlier pre-publication wording is superseded here only for Git publication, verified at actual commit ancestry. Research completeness, recipient consumption, app archival, and current OS process termination are not inferred from publication or clean owner paths. No other agent file was edited, committed, discarded, or booted. No notification/send was authorized or made. The sole remaining machine-handoff action is unchanged: PROME must disposition and publish its local review bookkeeping before the shared working tree can be called fully clean. CATO's recorded resume point remains applicable.
+
+Checks for this follow-up: verified readable and weekday-clean `PROME/DOCKET.tsv`, `PROME/GATES.tsv`, `PROME/WILL_QUEUE.md`, and this report (four actual inputs); orphan advisory rc0 identified only PROME's metadata. Scoped diff check passed, shared index empty, and no conditional startup/ledger/memory/consumer check was triggered.
