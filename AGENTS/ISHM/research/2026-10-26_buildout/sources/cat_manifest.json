@@ -1,0 +1,5 @@
+{
+  "key": "CAT_correct",
+  "url": "https://www.caterpillar.com/en/news/corporate-press-releases/h/2q26-results-caterpillar-inc.html",
+  "error": "HTTPSConnectionPool(host='www.caterpillar.com', port=443): Read timed out. (read timeout=35)"
+}

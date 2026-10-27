@@ -16,7 +16,7 @@ Prepared October 26, before either release. **No October 27 actual or forecast i
 | Computers/electronics shipments | $34.233B vs July $34.230B | Domestic factory production/shipments differ from imported servers |
 | Electrical/appliances/components shipments | $18.686B vs July $18.538B | Keep shipments and orders separate |
 
-All table values are **nominal, seasonally adjusted USD**, August reference month, revised October 2 except full-report first observations. Source: [full M3](https://www.census.gov/manufacturing/m3/prel/pdf/s-i-o.pdf), Tables 1/2 and Table 5 p10; frozen extracts in sources/m3_tables.txt. Advance August core shipments **$84.998B, +0.6%** and orders **$87.629B** are historical, not the current baseline. Never compare September first print with an unlabeled old advance baseline.
+All table values are **nominal, seasonally adjusted USD**, August reference month, revised October 2 except full-report first observations. Source: [full M3](https://www.census.gov/manufacturing/m3/prel/pdf/s-i-o.pdf), Tables 1/2 and Table 5 p10; frozen extracts in research/2026-10-26_first-session/sources/m3_tables.txt. Advance August core shipments **$84.998B, +0.6%** and orders **$87.629B** are historical, not the current baseline. Never compare September first print with an unlabeled old advance baseline.
 
 1. ISHM verifies September reference month and October 27 publication date on the issuer PDF.
 2. ISHM saves the release and retrieval clock, with source URL and hash.
@@ -30,6 +30,8 @@ All table values are **nominal, seasonally adjusted USD**, August reference mont
 **Interpretation:** a headline driven by aircraft/defense is not broad private-equipment demand. Core strength alongside shipments supports actual equipment buying; nominal growth still requires price/mix caution. A core miss alone does not invalidate imported GPU/server capex. A one-month decline is not the proposed two-month contraction band. No new threshold or prediction is authorized here.
 
 **J1 completion clocks:** October 29 08:30 ET BEA Q3 advance, real equipment and information-processing investment; November 4 08:30 ET FT-900 September computer/accessory imports. August imports were $59.356B versus $61.392B July, SA nominal (Exhibit 8, October 6 release). Quarter-match July–September M3/import aggregates to Q3 BEA; never join a September monthly rate to Q2 annualized GDP as if contemporaneous. Preserve any BEA revisions and price basis. Imported content cannot be read as a domestic M3 share.
+
+**Recovered BEA comparison baseline:** Q2 2026 real equipment +13.4%, information processing +7.6%, computers −6.7% q/q SAAR, September 30 revised vintage. Table 5.3.1 lines 9/10/11 in the saved Section 5 workbook; `data/EQUIPMENT_QUARTERLY.tsv` preserves history. Use the Q2 revision in the October 29 release when comparing Q3. This baseline does not complete the current-quarter test.
 
 ## 10:00–10:10 ET — October Richmond manufacturing survey
 
@@ -45,7 +47,7 @@ All table values are **nominal, seasonally adjusted USD**, August reference mont
 1. ISHM verifies October reference month and records any September revision.
 2. ISHM separates current orders/shipments from six-month expectations and price-growth measures.
 3. ISHM records the composite and all three components in PRINTS notes and the synthesis.
-4. ISHM updates the same-month regional breadth description. ISHM does not average unlike headline indexes.
+4. ISHM compares October new orders with NY 23.2, Philadelphia 4.3, Kansas City 3 and Dallas 9.3 SA diffusion points. The saved panel is currently 4/5 with its aggregate UNKNOWN. Record Richmond and any revisions in a new dated vintage before reporting full October breadth; do not overwrite the October 26 snapshot. ISHM does not average unlike headline indexes.
 5. ISHM re-dates the consumed catalyst to November 24, preserving 10:00–10:10 ET.
 6. ISHM routes labor/price consequences to LABOR/CARL and material cycle changes to the remaining consequence owners.
 

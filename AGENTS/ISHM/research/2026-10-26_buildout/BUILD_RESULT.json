@@ -1,0 +1,49 @@
+{
+  "region_rows": 1974,
+  "regional_complete_months": 268,
+  "first_complete_month": "2004-06-01",
+  "last_complete_month": "2026-09-01",
+  "regional_latest": [
+    {
+      "NY": 2.0,
+      "PHILLY": 29.2,
+      "RICHMOND": -6.0,
+      "KC": 24.0,
+      "DALLAS": 30.7,
+      "Regions_Observed": 5,
+      "Negative_Regions": 1.0,
+      "Coverage": "COMPLETE",
+      "Ref_Period": "2026-09"
+    },
+    {
+      "NY": 23.2,
+      "PHILLY": 4.3,
+      "RICHMOND": "UNKNOWN",
+      "KC": 3.0,
+      "DALLAS": 9.3,
+      "Regions_Observed": 4,
+      "Negative_Regions": "UNKNOWN",
+      "Coverage": "PARTIAL",
+      "Ref_Period": "2026-10"
+    }
+  ],
+  "hard_months": 1293,
+  "hard_series": 14,
+  "equipment_quarters": 317,
+  "BEA_latest": [
+    {
+      "Ref_Period": "2026Q2",
+      "NONRES-EQUIPMENT_QOQ_SAAR": 13.4,
+      "INFORMATION-PROCESSING_QOQ_SAAR": 7.6,
+      "COMPUTERS_QOQ_SAAR": -6.7,
+      "INDUSTRIAL-EQUIPMENT_QOQ_SAAR": 27.0,
+      "NONRES-EQUIPMENT_REAL_LEVEL": 1598303.0,
+      "INFORMATION-PROCESSING_REAL_LEVEL": 789690.0,
+      "COMPUTERS_REAL_LEVEL": 364198.0,
+      "INDUSTRIAL-EQUIPMENT_REAL_LEVEL": 287539.0
+    }
+  ],
+  "calibration_rows": 24,
+  "controls": "missing-region panel and calendar-gap refusal controls PASS; five latest regional new-order source checks PASS",
+  "partial_october_withheld": true
+}

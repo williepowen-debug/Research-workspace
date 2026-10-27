@@ -35,3 +35,10 @@ The STATUS banner is spent under this checklist's “done or carried by name (ow
 | 9 | PARTIAL, carried by name/date | Three physical-series candidates with monthly descriptive frequencies; two-print event counts/recent/ex-COVID sensitivity owed. ISMorders-inventory and same-month regional bands remain uncalibrated. ISHM November 2; weekly rail calibration November 4. PROME registration only after Will ruling; no new active band |
 | 10 | DONE declaration / registrar pending | Builder READS rows present; read_cap_check rc2 NOT ATTESTED. ISHM attestation plus extra read-path declarations delivered to PROME/inbox; PROME registers and rechecks, follow-up October 27. No manifest clean claim before registrar action |
 | 11 | DONE at closeout | NEXUS_BRIEF first write is the final owner write-back, pinned after the final STATUS commit. The closeout receipt records exact pin-check result; delivery memo preserves outstanding dependencies |
+
+
+## Same-day follow-up — file-library build
+
+The table above preserves the first-session disposition. Subsequent October 26 work closed several named carries: all five regional histories and 268 complete same-month panels recovered; BEA Q2 equipment detail recovered; two-month persistence counts and recent/pandemic-excluded sensitivities built; remaining four company earnings read (PRINTS now 42 rows). PROME registered the READS attestation and corrected the ROSTER trigger clause; `read_cap_check --agent ISHM` now certifies rc 0 ATTESTED. FERT accepted its boundary and records consumption of the original packet.
+
+Remaining: long ISM/S&P component and first-release history, weekly AAR calibration, broad J2 independent-cycle sample, Q3 equipment / September import releases, aligned equity returns, WATT acceptance and HENRY's two charter-pointer repairs. Owners and dates are in STATUS; details in `research/2026-10-26_buildout/REPORT.md`. No new band registered and no extra company added.

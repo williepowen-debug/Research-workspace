@@ -1,0 +1,64 @@
+[
+  {
+    "key": "PH_latest",
+    "url": "https://investors.parker.com/sec-filings/all-sec-filings/content/0000076334-26-000082/exhibit991q4fy26.htm",
+    "status": 200,
+    "bytes": 530710,
+    "sha256": "8290fc0e973121861eae62605eec73de0ae3b3ba2a6cc0160ab318253dcf9081",
+    "retrieved_at": "2026-10-27T02:15:30.990796+00:00",
+    "links": []
+  },
+  {
+    "key": "EMR_latest",
+    "url": "https://ir.emerson.com/news-events/press-releases/detail/642/emerson-reports-third-quarter-2026-results-raises-2026-outlook",
+    "status": 200,
+    "bytes": 266284,
+    "sha256": "84bd740592e0c2985165616c0ee5b07ab47442ea2edce59925aac3f1e1aadd6d",
+    "retrieved_at": "2026-10-27T02:15:31.000348+00:00",
+    "links": [
+      [
+        "Historical Data",
+        "/stock-data/historical-data"
+      ],
+      [
+        "Download as PDF",
+        "https://ir.emerson.com/_assets/_39b9c4b55c1314921bb642cd27956a1b/emerson/news/2026-08-04_Emerson_Reports_Third_Quarter_2026_Results_Raises__642.pdf"
+      ],
+      [
+        "Presentation PDF",
+        "https://ir.emerson.com/_assets/_39b9c4b55c1314921bb642cd27956a1b/emerson/db/938/10242/presentation/Emerson+2026+Q3+Earnings+Presentation.pdf"
+      ],
+      [
+        "10-Q HTML",
+        "https://ir.emerson.com/sec-filings/all-sec-filings/content/0000032604-26-000043/emr-20260630.htm"
+      ],
+      [
+        "https://www.prnewswire.com/news-releases/emerson-reports-third-quarter-2026-results-raises-2026-outlook-302842664.html",
+        "https://www.prnewswire.com/news-releases/emerson-reports-third-quarter-2026-results-raises-2026-outlook-302842664.html"
+      ]
+    ]
+  },
+  {
+    "key": "DE_latest",
+    "url": "https://www.sec.gov/Archives/edgar/data/315189/000110465926098904/de-20260820xex99d1.htm",
+    "status": 200,
+    "bytes": 2115656,
+    "sha256": "3f6ae2d03778ba08a8bc46ace29c439c4367d0601c75982142995b60e9748993",
+    "retrieved_at": "2026-10-27T02:15:31.822839+00:00",
+    "links": []
+  },
+  {
+    "key": "DE_latest_ir",
+    "url": "https://www.deere.com/en-us/our-company/newsroom/2026/aug20-deere-reports-third-quarter-net-income",
+    "status": 404,
+    "bytes": 108300,
+    "sha256": "4345c6bc992e149db86a56a12173aa658bb512d5e53604632ce2fa3f35b0f12d",
+    "retrieved_at": "2026-10-27T02:15:29.759592+00:00",
+    "links": []
+  },
+  {
+    "key": "CAT_latest",
+    "url": "https://www.caterpillar.com/en/news/corporate-press-releases/h/caterpillar-reports-second-quarter-2026-results.html",
+    "error": "HTTPSConnectionPool(host='www.caterpillar.com', port=443): Read timed out. (read timeout=35)"
+  }
+]

@@ -37,3 +37,17 @@ The build table above is a dated access record. This update is the current route
 | FRED histories | All seven boot series current; full Cass mirror starts2016; returned ICEBAMLH0A0HYM2 startsOctober 27,2023 despite requested1996 start | J2 sample restricted to completeNovember 2023–September 2026 months. Broader-cycle credit base rate unavailable from returned route; no invented long history |
 
 Use repository `.venv/bin/python3` for PDF/HTML/Excel analysis. System Python lacks pandas, bs4 and pdfminer here; boot/tests use the standard library and run with `python3`. Source captures are frozen research inputs, not a new collector or recurring monitor.
+
+
+## Library remeasurement — later October 26, 2026
+
+This supersedes the earlier same-day “not recovered” results only where stated. See `research/2026-10-26_buildout/sources/regions_manifest.json`, `SNAPSHOTS.json` in that build directory, and `data/SOURCES.tsv`.
+
+| Route | Measured result | Use / remaining limit |
+|---|---|---|
+| NY / Philadelphia / Dallas / KC historical data | All four primary CSV/Excel downloads HTTP 200; combined with saved Richmond XLSX | Five-region current-SA new-order panel recovered, 268 complete months. Long ISM/S&P components are a separate unresolved gap |
+| BEA equipment | Correct `apps.bea.gov/national/Release/XLS/Survey/Section5All_xls.xlsx` returned HTTP 200; workbook publication September 30 | Tables 5.3.1 / 5.3.6, nonresidential lines 9/10/11/13 recovered. Detailed Q2 baseline is available; Q3 still awaits October 29 |
+| PH / EMR / DE latest earnings | Issuer-hosted PH exhibit, EMR release and SEC DE exhibit HTTP 200, texts saved | All eight standing company files now have an accepted latest earnings read. Deere dynamic next-event body/time still unresolved |
+| CAT Q2 results PDF | Primary issuer PDF read through available web tool; local requests timed out | PRIMARY-VERIFIED web read with page locators in CAT_WEB_READ.md. No local raw PDF claimed. Stop repeated failed downloads; saved extraction note is the audit trail |
+
+Reproducer and checks use repository `.venv/bin/python3` (pandas, openpyxl and xlrd available); boot and drills use standard-library `python3`. No new software dependency was installed. Exact BEA retrieval second was not logged; the manifest distinguishes that unknown clock from inventory creation time.

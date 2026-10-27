@@ -13,3 +13,6 @@
 Registration requirements still owed: joint/persistence event frequencies, at least two reference choices, pandemic/recent-window sensitivity, exact instrument and adjustment basis, frozen anchor/date if used, publication/observation clocks, tie convention and revision treatment. Proposed bands use strict `<0`/`<−5` or `>0`; ties do not qualify; two **prints**, not two sessions. Default proposed revision policy GRADE-AT-PUBLICATION with STAND-WITH-ANNOTATION, subject to the final letter Will approves. No band is already fired or represented as active.
 
 ISM <47 is the inherited primary-release trigger, strict inequality at issuer's published precision, one first-published monthly headline, GRADE-AT-PUBLICATION. September 54.5 is NOT-FIRED. Recipients on a fire: LABOR and PROME; HENRY informed in the same session. No survey substitute grades that trigger.
+
+
+**Later October 26 follow-up:** this is the initial proposal snapshot. The full five-region panel and two-month/recent/pandemic-excluded comparisons have since been built in `data/CALIBRATION.tsv`; see `research/2026-10-26_buildout/REPORT.md` (desk-root paths). Those access/descriptive-count gaps are closed. First-published validation, weekly rail, recovery-side and joint-event calibration remain unresolved; no candidate is registered by this follow-up.

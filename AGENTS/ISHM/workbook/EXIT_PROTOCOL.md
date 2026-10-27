@@ -1,6 +1,6 @@
 # ISHM — EXIT PROTOCOL
 
-**Kill rail re-derived: 2026-10-26** — first ISHM owner session. The inherited ISM trigger remains registered. R1 observations and proposed bands below are analytical tests, not newly approved capital gates. Current evidence: research/2026-10-26_first-session/REPORT.md; calibration: BASE_RATES.md and THRESHOLD_PROPOSALS.md in that directory.
+**Kill rail re-derived: 2026-10-26** — first ISHM owner session. The inherited ISM trigger remains registered. R1 observations and proposed bands below are analytical tests, not newly approved capital gates. Current evidence: research/2026-10-26_first-session/REPORT.md; calibration: BASE_RATES.md and THRESHOLD_PROPOSALS.md in that directory, plus data/CALIBRATION.tsv and research/2026-10-26_buildout/REPORT.md (paths relative to the desk root).
 
 ## R0 — does the dedicated desk earn its cost?
 
@@ -29,7 +29,7 @@ ISHM owns **ISM Manufacturing headline <47**, WQ-507 A, Will October 23. Instrum
 |---|---|---|
 | Domestic equipment | M3 nondefense capital-goods orders/shipments excluding aircraft; computers/electronics and electrical/appliance/component categories separately. Healthy demand reading: orders and shipments rise in a comparable reference period, with price/mix limitations explicit | August full report October 2: orders $87.640B, +1.6% m/m; shipments $84.960B, +0.5%, SA nominal. September advance October 27 08:30 ET, full successor November 3 10:00 ET |
 | Imported equipment | FT-900 Exhibit 8 computers plus computer accessories; retain exact component definitions. Healthy reading: quarter aggregate rises versus preceding quarter on matched nominal basis; real comparison requires appropriate import-price deflators | August $59.356B vs July $61.392B, −3.3164% m/m nominal SA; October 6 release. September detail November 4 08:30 ET; advance goods trade cannot substitute for category detail |
-| Economy-wide real equipment | BEA NIPA real nonresidential equipment and information-processing-equipment growth, with table/line locator and q/q SAAR basis | Q3 advance October 29 08:30 ET; second estimate November 25. Q2 headline GDP PDF retrieved but detailed equipment table not recovered: no Q2 equipment rate invented |
+| Economy-wide real equipment | BEA NIPA real nonresidential equipment and information-processing-equipment growth, with table/line locator and q/q SAAR basis | Q3 advance October 29 08:30 ET; second estimate November 25. Q2 baseline recovered: equipment +13.4%, information processing +7.6%, computers −6.7% q/q SAAR; September 30 revised primary, Table 5.3.1 lines 9/10/11. Q3 remains unpublished at cutoff |
 
 **FROM mixed/incomplete J1:** three quarter-aligned legs showing contraction in domestic orders/shipments, imported hardware and real information-processing investment would supply a demand-warning packet to VULCAN. Rationale for conjunction: domestic M3 omits much imported GPU/server equipment; all three are required to avoid a domestic-only false alarm. The joint event base rate is not measured, so this is **not a registered gate** and cannot carry a thesis verdict. Conversely, rising imports and real BEA equipment alongside flat domestic M3 support the import-confound explanation, not a falsification. Mixed signs = mixed; missing source/quarter coverage = CANNOT-FIRE for a complete paired verdict. No AI-specific allocation without additional evidence. Never add domestic orders to gross imports as a dollar capex total.
 
@@ -46,3 +46,7 @@ Base rate completed on the available sample, with scope restriction: **26/30** n
 ## Governance
 
 No prediction rows added. Current prediction authority is not inferred from research authorization (PROME/AUTONOMY.md Tier 2; charter prediction rule). Proposed bands remain with PROME for Will's decision only after calibration is complete. Every sustained condition names its print count; missing data never scores benign. Detailed registration requirements remain STRICT_TEXT.md §7 and market-agent.md §3; no capital or trade execution follows from this file.
+
+## October 26 library follow-up
+
+Five primary regional histories and BEA equipment detail are now recovered. Two-consecutive-month research counts, recent-window and pandemic-excluded sensitivities are in `data/CALIBRATION.tsv` and `research/2026-10-26_buildout/REPORT.md` (desk-root paths). These current-vintage comparisons close the descriptive persistence carry only. Weekly AAR, first-release validation, recovery-side and joint-event calibration remain owed; none of these counts registers a band or fires a thesis flip.

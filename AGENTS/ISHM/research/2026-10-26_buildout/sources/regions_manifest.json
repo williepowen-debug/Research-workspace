@@ -1,0 +1,34 @@
+[
+  {
+    "file": "ny_history.csv",
+    "url": "https://www.newyorkfed.org/medialibrary/media/survey/empire/data/esms_seasonallyadjusted_diffusion.csv",
+    "status": 200,
+    "bytes": 36351,
+    "retrieved_at": "2026-10-27T02:15:51.966467+00:00",
+    "sha256": "33c525e5bd0a5179fa8cd232fc7135e20597684ab21b0abbe88b74777a4fa45e"
+  },
+  {
+    "file": "dallas_history.xls",
+    "url": "https://www.dallasfed.org/~/media/Documents/research/surveys/tmos/documents/index_sa.xls",
+    "status": 200,
+    "bytes": 71806,
+    "retrieved_at": "2026-10-27T02:15:51.980321+00:00",
+    "sha256": "5066e40b8047a5e608573dd3034492681c20f2b873f0b632aa221f10fac84fc7"
+  },
+  {
+    "file": "philly_history.csv",
+    "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/MBOS/Historical-Data/Diffusion-Indexes/bos_dif.csv?sc_lang=en",
+    "status": 200,
+    "bytes": 77915,
+    "retrieved_at": "2026-10-27T02:15:51.971977+00:00",
+    "sha256": "2174bcdf922395ff10627fdd143e8da5aafa951b4679f1228f410af9ccfd3873"
+  },
+  {
+    "file": "kc_history.xlsx",
+    "url": "https://www.kansascityfed.org/documents/20083/Copy_of_2026Oct22historicalmfg.xlsx",
+    "status": 200,
+    "bytes": 130512,
+    "retrieved_at": "2026-10-27T02:15:51.599722+00:00",
+    "sha256": "d1ffdcb8ef92105544e1a2af6ca02b4b5e9e7f16e7ba9d3316e7d05e7b7ee0ca"
+  }
+]

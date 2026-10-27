@@ -1,0 +1,28 @@
+# FROZEN 2026-10-26 — historical current-vintage panel; live release truth is workbook/PRINTS.tsv.
+# Research candidate counts only; no new threshold registered. FULL/RECENT10Y/EX-PANDEMIC use the same variable and revision basis.
+# Persistence unit is monthly observations, not agent sessions. EX-PANDEMIC removesMarch2020-June2021 and does not join across the gap. Episode starts may be left-censored at sample start.
+Metric	Sample	Start	End	Rule	Months	Monthly_Hits	eligible_pairs	qualifying_pairs	pair_frequency_pct	episode_starts	Basis
+CORE-CAPEX-YOY	FULL	1993-02-01	2026-08-01	y/y < 0% for 2 monthly observations	403	132	402	108	26.8656716	13	current vintage, descriptive; not first-publication event probability
+CORE-CAPEX-YOY	FULL	1993-02-01	2026-08-01	y/y < -5% for 2 monthly observations	403	57	402	46	11.4427861	7	current vintage, descriptive; not first-publication event probability
+CORE-CAPEX-YOY	RECENT10Y	2016-10-01	2026-08-01	y/y < 0% for 2 monthly observations	119	44	118	39	33.0508475	4	current vintage, descriptive; not first-publication event probability
+CORE-CAPEX-YOY	RECENT10Y	2016-10-01	2026-08-01	y/y < -5% for 2 monthly observations	119	9	118	7	5.93220339	1	current vintage, descriptive; not first-publication event probability
+CORE-CAPEX-YOY	EX-PANDEMIC	1993-02-01	2026-08-01	y/y < 0% for 2 monthly observations	387	123	385	99	25.7142857	13	current vintage, descriptive; not first-publication event probability
+CORE-CAPEX-YOY	EX-PANDEMIC	1993-02-01	2026-08-01	y/y < -5% for 2 monthly observations	387	51	385	40	10.3896104	7	current vintage, descriptive; not first-publication event probability
+CASS-SHIP-YOY	FULL	2017-01-01	2026-09-01	y/y < 0% for 2 monthly observations	117	70	116	65	56.0344828	4	current vintage, descriptive; not first-publication event probability
+CASS-SHIP-YOY	FULL	2017-01-01	2026-09-01	y/y < -5% for 2 monthly observations	117	36	116	27	23.2758621	6	current vintage, descriptive; not first-publication event probability
+CASS-SHIP-YOY	RECENT10Y	2017-01-01	2026-09-01	y/y < 0% for 2 monthly observations	117	70	116	65	56.0344828	4	current vintage, descriptive; not first-publication event probability
+CASS-SHIP-YOY	RECENT10Y	2017-01-01	2026-09-01	y/y < -5% for 2 monthly observations	117	36	116	27	23.2758621	6	current vintage, descriptive; not first-publication event probability
+CASS-SHIP-YOY	EX-PANDEMIC	2017-01-01	2026-09-01	y/y < 0% for 2 monthly observations	101	63	99	58	58.5858586	4	current vintage, descriptive; not first-publication event probability
+CASS-SHIP-YOY	EX-PANDEMIC	2017-01-01	2026-09-01	y/y < -5% for 2 monthly observations	101	30	99	21	21.2121212	6	current vintage, descriptive; not first-publication event probability
+RAIL-CARLOADS-MONTHLY-YOY	FULL	2001-01-01	2026-07-01	y/y < 0% for 2 monthly observations	307	158	306	121	39.5424837	22	current vintage, descriptive; not first-publication event probability
+RAIL-CARLOADS-MONTHLY-YOY	FULL	2001-01-01	2026-07-01	y/y < -5% for 2 monthly observations	307	62	306	48	15.6862745	6	current vintage, descriptive; not first-publication event probability
+RAIL-CARLOADS-MONTHLY-YOY	RECENT10Y	2016-10-01	2026-07-01	y/y < 0% for 2 monthly observations	118	60	117	44	37.6068376	9	current vintage, descriptive; not first-publication event probability
+RAIL-CARLOADS-MONTHLY-YOY	RECENT10Y	2016-10-01	2026-07-01	y/y < -5% for 2 monthly observations	118	24	117	16	13.6752137	2	current vintage, descriptive; not first-publication event probability
+RAIL-CARLOADS-MONTHLY-YOY	EX-PANDEMIC	2001-01-01	2026-07-01	y/y < 0% for 2 monthly observations	291	146	289	109	37.716263	22	current vintage, descriptive; not first-publication event probability
+RAIL-CARLOADS-MONTHLY-YOY	EX-PANDEMIC	2001-01-01	2026-07-01	y/y < -5% for 2 monthly observations	291	51	289	38	13.1487889	6	current vintage, descriptive; not first-publication event probability
+REGIONAL-NEW-ORDER-BREADTH	FULL	2004-06-01	2026-09-01	>= 3/5 negative regions for 2 complete monthly panels	268	92	267	74	27.7153558	11	primary current-vintage five-region panel; no national growth/probability mapping
+REGIONAL-NEW-ORDER-BREADTH	FULL	2004-06-01	2026-09-01	>= 4/5 negative regions for 2 complete monthly panels	268	61	267	43	16.1048689	9	primary current-vintage five-region panel; no national growth/probability mapping
+REGIONAL-NEW-ORDER-BREADTH	RECENT10Y	2016-10-01	2026-09-01	>= 3/5 negative regions for 2 complete monthly panels	120	49	119	42	35.2941176	4	primary current-vintage five-region panel; no national growth/probability mapping
+REGIONAL-NEW-ORDER-BREADTH	RECENT10Y	2016-10-01	2026-09-01	>= 4/5 negative regions for 2 complete monthly panels	120	35	119	29	24.3697479	4	primary current-vintage five-region panel; no national growth/probability mapping
+REGIONAL-NEW-ORDER-BREADTH	EX-PANDEMIC	2004-06-01	2026-09-01	>= 3/5 negative regions for 2 complete monthly panels	252	89	250	72	28.8	10	primary current-vintage five-region panel; no national growth/probability mapping
+REGIONAL-NEW-ORDER-BREADTH	EX-PANDEMIC	2004-06-01	2026-09-01	>= 4/5 negative regions for 2 complete monthly panels	252	58	250	41	16.4	8	primary current-vintage five-region panel; no national growth/probability mapping

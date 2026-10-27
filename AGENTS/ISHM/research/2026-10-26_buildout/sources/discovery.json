@@ -1,0 +1,243 @@
+[
+  {
+    "key": "ny_data",
+    "url": "https://www.newyorkfed.org/survey/empire/empiresurvey_overview.html",
+    "status": 200,
+    "bytes": 132051,
+    "sha256": "97b7434ff46f679375f669e7d05377e2476c00336a08ecf08768daddf648ac87",
+    "retrieved_at": "2026-10-27T02:14:42.084674+00:00",
+    "links": [
+      [
+        "Download the full report",
+        "/medialibrary/media/survey/empire/empire2026/2026_10_empire-state-manufacturing-survey.pdf"
+      ],
+      [
+        "report",
+        "/medialibrary/media/survey/empire/empire2026/esms_2026_01.pdf"
+      ],
+      [
+        "report",
+        "/medialibrary/media/survey/empire/empire2026/esms_2026_02.pdf"
+      ],
+      [
+        "report",
+        "/medialibrary/media/survey/empire/empire2026/2026-03-empire-state-manufacturing-survey.pdf"
+      ],
+      [
+        "report",
+        "/medialibrary/media/survey/empire/empire2026/2026-04-empire-state-manufacturing-survey.pdf"
+      ],
+      [
+        "report",
+        "/medialibrary/media/survey/empire/empire2026/2026_05_empire-state-manufacturing-survey.pdf"
+      ],
+      [
+        "report",
+        "/medialibrary/media/survey/empire/empire2026/2026-06-empire-state-manufacturing-survey.pdf"
+      ],
+      [
+        "report",
+        "/medialibrary/media/survey/empire/empire2026/2026_07-empire-state-manufacturing-survey.pdf"
+      ],
+      [
+        "report",
+        "/medialibrary/media/survey/empire/empire2026/2026_08_empire-state-manufacturing-survey.pdf"
+      ],
+      [
+        "report",
+        "/medialibrary/media/survey/empire/empire2026/2026_09-empire-state-manufacturing-survey.pdf"
+      ],
+      [
+        "report",
+        "/medialibrary/media/survey/empire/empire2026/2026_10_empire-state-manufacturing-survey.pdf"
+      ],
+      [
+        "Latest Report including charts of diffusion indexes",
+        "/medialibrary/media/survey/empire/empire2026/2026_10_empire-state-manufacturing-survey.pdf"
+      ],
+      [
+        "csv",
+        "/medialibrary/media/survey/empire/data/esms_seasonallyadjusted_diffusion.csv"
+      ],
+      [
+        "csv",
+        "/medialibrary/media/survey/empire/data/esms_notseasonallyadjusted_diffusion.csv"
+      ],
+      [
+        "csv",
+        "/medialibrary/media/survey/empire/data/esms_seasonallyadjusted_allseries.csv"
+      ],
+      [
+        "csv",
+        "/medialibrary/media/survey/empire/data/esms_notseasonallyadjusted_allseries.csv"
+      ],
+      [
+        "csv",
+        "/medialibrary/media/survey/empire/data/seasonalc.csv"
+      ]
+    ]
+  },
+  {
+    "key": "dallas_data",
+    "url": "https://www.dallasfed.org/research/surveys/tmos/data",
+    "status": 200,
+    "bytes": 36926,
+    "sha256": "2b09f30276d034c67bf96f05a0163861cad7cb01e22e3d789aba189914a4bcb7",
+    "retrieved_at": "2026-10-27T02:14:42.007415+00:00",
+    "links": [
+      [
+        "Unadjusted",
+        "/~/media/Documents/research/surveys/tmos/documents/index.xls"
+      ],
+      [
+        "Seasonally adjusted",
+        "/~/media/Documents/research/surveys/tmos/documents/index_sa.xls"
+      ],
+      [
+        "Unadjusted",
+        "/~/media/Documents/research/surveys/tmos/documents/alldata.xls"
+      ],
+      [
+        "Seasonally adjusted",
+        "/~/media/Documents/research/surveys/tmos/documents/alldata_sa.xls"
+      ],
+      [
+        "Current report",
+        "/research/surveys/tmos/2026/2610"
+      ],
+      [
+        "Results table",
+        "/research/surveys/tmos/2026/2610/2610summ"
+      ]
+    ]
+  },
+  {
+    "key": "philly_data",
+    "url": "https://www.philadelphiafed.org/surveys-and-data/regional-economic-analysis/manufacturing-business-outlook-survey",
+    "status": 200,
+    "bytes": 279143,
+    "sha256": "1de2f56f0c6e9d7bcbbdeed45968cd507cc52fe458ddac2c60f8f51cedec1cc6",
+    "retrieved_at": "2026-10-27T02:14:42.247956+00:00",
+    "links": [
+      [
+        "CSV",
+        "/-/media/FRBP/Assets/Surveys-And-Data/MBOS/Historical-Data/Data-Series/bos_history.csv?sc_lang=en"
+      ],
+      [
+        "XLS",
+        "/-/media/FRBP/Assets/Surveys-And-Data/MBOS/Historical-Data/Data-Series/bos_historyx.xls?sc_lang=en"
+      ],
+      [
+        "TXT",
+        "/-/media/FRBP/Assets/Surveys-And-Data/MBOS/Historical-Data/Data-Series/bos_historyt.txt?sc_lang=en"
+      ],
+      [
+        "CSV",
+        "/-/media/FRBP/Assets/Surveys-And-Data/MBOS/Historical-Data/Diffusion-Indexes/bos_dif.csv?sc_lang=en"
+      ],
+      [
+        "XLS",
+        "/-/media/FRBP/Assets/Surveys-And-Data/MBOS/Historical-Data/Diffusion-Indexes/bos_difx.xls?sc_lang=en"
+      ],
+      [
+        "TXT",
+        "/-/media/FRBP/Assets/Surveys-And-Data/MBOS/Historical-Data/Diffusion-Indexes/bos_dift.txt?sc_lang=en"
+      ]
+    ]
+  },
+  {
+    "key": "kc_data",
+    "url": "https://www.kansascityfed.org/surveys/manufacturing-survey/",
+    "status": 200,
+    "bytes": 3223482,
+    "sha256": "99a939e9c65234e7982a174200b581ed01803373b3001f9cac1e82a24ddf5947",
+    "retrieved_at": "2026-10-27T02:14:44.844982+00:00",
+    "links": [
+      [
+        "",
+        "/ten/2026-jackson-hole-economic-policy-symposium-explores-financial-innovation-centers-instant-payments/"
+      ],
+      [
+        "2026 Jackson Hole Symposium Explores Financial Innovation, Instant Payments",
+        "/ten/2026-jackson-hole-economic-policy-symposium-explores-financial-innovation-centers-instant-payments/"
+      ],
+      [
+        "Jackson Hole 2026",
+        "/research/jackson-hole-economic-symposium/2026/"
+      ],
+      [
+        "",
+        "/ten/2026-jackson-hole-economic-policy-symposium-explores-financial-innovation-centers-instant-payments/"
+      ],
+      [
+        "2026 Jackson Hole Symposium Explores Financial Innovation, Instant Payments",
+        "/ten/2026-jackson-hole-economic-policy-symposium-explores-financial-innovation-centers-instant-payments/"
+      ],
+      [
+        "Jackson Hole 2026",
+        "/research/jackson-hole-economic-symposium/2026/"
+      ]
+    ]
+  },
+  {
+    "key": "bea_gdp_page",
+    "url": "https://www.bea.gov/news/2026/gdp-third-estimate-industries-corporate-profits-state-gdp-and-state-personal-income-2nd",
+    "status": 200,
+    "bytes": 77935,
+    "sha256": "433a999da880f65e98726dff9260f83fd119bf946d9bcb3873a9978ae75281fd",
+    "retrieved_at": "2026-10-27T02:14:42.588680+00:00",
+    "links": [
+      [
+        "Survey of Current Business",
+        "https://apps.bea.gov/scb/issues/2026/09-september/0926-nea-annual-update.htm"
+      ],
+      [
+        "key source data and assumptions table",
+        "/sites/default/files/2026-09/gdpkeysource-2q26-3rd.xlsx"
+      ],
+      [
+        "Full Release",
+        "/sites/default/files/2026-09/gdp2q26-3rd.pdf"
+      ],
+      [
+        "Historical Comparisons",
+        "/sites/default/files/2026-09/hist2q26-3rd.xlsx"
+      ],
+      [
+        "Vintage History",
+        "/sites/default/files/2026-09/gdp-gdi-vintage-history.xlsx"
+      ],
+      [
+        "Key source data and assumptions",
+        "/sites/default/files/2026-09/gdpkeysource-2q26-3rd.xlsx"
+      ]
+    ]
+  },
+  {
+    "key": "DE_calendar",
+    "url": "https://investor.deere.com/news-and-events/events-and-presentations/default.aspx",
+    "status": 404,
+    "bytes": 90834,
+    "sha256": "443e1b4053227d4906726e929a8d44e8fec8a67622bcc84d4938148ac0337a2e",
+    "retrieved_at": "2026-10-27T02:14:43.334366+00:00",
+    "links": [
+      [
+        "Historical Stock Price",
+        "/stock/default.aspx#section=historical"
+      ],
+      [
+        "Historical Stock Price",
+        "/stock/default.aspx#section=historical"
+      ],
+      [
+        "Historical Stock Price",
+        "/stock/default.aspx#section=historical"
+      ]
+    ]
+  },
+  {
+    "key": "CAT_q2",
+    "url": "https://www.caterpillar.com/en/news/corporate-press-releases/h/caterpillar-reports-second-quarter-2026-results.html",
+    "error": "HTTPSConnectionPool(host='www.caterpillar.com', port=443): Read timed out. (read timeout=35)"
+  }
+]

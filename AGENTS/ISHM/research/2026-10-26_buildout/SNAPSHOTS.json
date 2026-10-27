@@ -1,0 +1,97 @@
+{
+  "evidence_cutoff": "2026-10-26 America/New_York",
+  "retrieval_clocks": "Use sources/regions_manifest.json and sources/extra_manifest.json. Exact BEA retrieval second UNKNOWN; retrieved October 26 ET. CAT primary web read only, not a local raw PDF.",
+  "files": [
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_buildout/sources/CAT_WEB_READ.md",
+      "bytes": 1145,
+      "sha256": "6e071297d14fb413690709afc6da953a55bb66371917082c9bde8389f7f05fe8"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_buildout/sources/DE_latest.txt",
+      "bytes": 52507,
+      "sha256": "352e025e67c0c20ee1d9be544dd5bdc47fcb40c642d46d56d0567e7fc6941a06"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_buildout/sources/EMR_latest.txt",
+      "bytes": 25199,
+      "sha256": "60b0af9e4e2c959886fe8cd897da05f3085ed13841b03df4ed3671dd78d90b4c"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_buildout/sources/PH_latest.txt",
+      "bytes": 25672,
+      "sha256": "0d9e7f5a42d996aa13a8569fe6105db4f5b35ff5c2dabc20032c6e31cc968731"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_buildout/sources/bea_gdp_page.txt",
+      "bytes": 16579,
+      "sha256": "8c98671082e7ec9cadad2d3f9da249b3773d0c7ffb778c8526aec1d3b8b725e7"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_buildout/sources/bea_section5.xlsx",
+      "bytes": 1817983,
+      "sha256": "d13478cb5b76edb812848aaace2b52b510fe8daed6944f65373c155d2edb91f9"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_buildout/sources/cat_manifest.json",
+      "bytes": 242,
+      "sha256": "2670f990934ed72bcdbb5ec44d4bc0ffa7f8136d4f55e4f63d3116ab1f34e818"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_buildout/sources/dallas_data.txt",
+      "bytes": 5260,
+      "sha256": "1e04e209ff6c1ac91cad61b0f0b182d3027a0d4a27b122a4fbec2a18749a31c6"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_buildout/sources/dallas_history.xls",
+      "bytes": 71806,
+      "sha256": "5066e40b8047a5e608573dd3034492681c20f2b873f0b632aa221f10fac84fc7"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_buildout/sources/discovery.json",
+      "bytes": 7899,
+      "sha256": "b8b749835f7693dadc969f99f2a9e54ec0d1cff2f97d93990908ae7a05a6a80e"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_buildout/sources/extra_manifest.json",
+      "bytes": 2567,
+      "sha256": "dbf49edc0d01663273d57ce3d25329382c41cea694918e8b12cdc217027bff08"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_buildout/sources/kc_data.txt",
+      "bytes": 10496,
+      "sha256": "f2765efdbab03efeb173aee10b4f4622cda98d8eabed186fab3b7aac849ede67"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_buildout/sources/kc_history.xlsx",
+      "bytes": 130512,
+      "sha256": "d1ffdcb8ef92105544e1a2af6ca02b4b5e9e7f16e7ba9d3316e7d05e7b7ee0ca"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_buildout/sources/ny_data.txt",
+      "bytes": 12518,
+      "sha256": "d5908b7bcf1c547222e0f91af89fe6cfe1954d0fee4f275c103587a273ba3a9a"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_buildout/sources/ny_history.csv",
+      "bytes": 36351,
+      "sha256": "33c525e5bd0a5179fa8cd232fc7135e20597684ab21b0abbe88b74777a4fa45e"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_buildout/sources/philly_data.txt",
+      "bytes": 4998,
+      "sha256": "9a0716c2f8f3efeeabeb6854cb2e328d2f8fc7e27efb94d861fe58197f16196a"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_buildout/sources/philly_history.csv",
+      "bytes": 77915,
+      "sha256": "2174bcdf922395ff10627fdd143e8da5aafa951b4679f1228f410af9ccfd3873"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_buildout/sources/regions_manifest.json",
+      "bytes": 1333,
+      "sha256": "714bcca5c4d65aa535f3870c2085a1f4f4eed169e7ccccbbcfb6fc413e415ea4"
+    }
+  ],
+  "failed_responses": "Challenge shell and two Deere 404 captures moved to /tmp/ishm-buildout-failed-*; failed attempts retained in source manifests; successful routes supersede them."
+}

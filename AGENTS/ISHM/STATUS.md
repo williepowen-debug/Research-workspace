@@ -1,6 +1,6 @@
 # ISHM STATUS
 
-**Last updated: 2026-10-26 — first ISHM owner session, OpenAI Codex.** Evidence cutoff October 26 ET; release clocks retain their own dates. Runtime/session proof: `research/2026-10-26_first-session/BOOT_RECEIPT.md`.
+**Last updated: 2026-10-26 — owner file-library build, OpenAI Codex.** Evidence cutoff October 26 ET; release clocks retain their own dates. Runtime/session proof: `research/2026-10-26_first-session/BOOT_RECEIPT.md`.
 
 > **FIRST-LIVE-SESSION BANNER — SPENT WITH NAMED CARRIES (2026-10-26).** All eleven items are done or carried by owner/date in FIRST_SESSION.md. Source and calibration gaps remain explicit; this is not a fully calibrated desk.
 
@@ -8,20 +8,20 @@
 
 **A selective factory upturn is real in the data; broad end-demand durability remains unproved.** September orders and real output grew. October S&P/Dallas/Philadelphia composition warns that a strong headline can coexist with slower orders, more safety stocks and price pressure. New York order strength and recovering freight are counterevidence to a national rollover call. No R1 flip or new capital trigger has fired.
 
-Canonical evidence: `workbook/PRINTS.tsv` (**37 rows**) and `research/2026-10-26_first-session/REPORT.md`. The frozen-eight current earnings checklist is `research/2026-10-26_first-session/BELLWETHERS.md`.
+Canonical evidence: `workbook/PRINTS.tsv` (**42 rows**) and `research/2026-10-26_first-session/REPORT.md`. Current eight-company checklists: `companies/README.md`; frozen historical panels and metadata: `data/README.md`. Build result and calibration limits: `research/2026-10-26_buildout/REPORT.md`.
 
 | Gauge | Current observation and basis | Consequence |
 |---|---|---|
-| ISM Manufacturing, September, October 1 primary first publication | Headline 54.5, orders 55.3, inventories 48.6, production 56.7, employment 52.7; adjusted activity diffusion points. Prices 77.9 NSA | Orders minus inventories+6.7 points; raw stocks contract, customers' inventories 41.6 NSA. No aggregate overhang finding |
-| Registered ISM <47 trigger | **NOT-FIRED**, September 54.5; owner ISHM, WQ-507 A; first-published primary, GRADE-AT-PUBLICATION | Strict<47 routes LABOR/PROME; HENRY informed. HENRY's two charter pointers still require its repair |
+| ISM Manufacturing, September, October 1 primary first publication | Headline 54.5, orders 55.3, inventories 48.6, production 56.7, employment 52.7; adjusted activity diffusion points. Prices 77.9 NSA | Orders minus inventories +6.7 points; raw stocks contract, customers' inventories 41.6 NSA. No aggregate overhang finding |
+| Registered ISM <47 trigger | **NOT-FIRED**, September 54.5; owner ISHM, WQ-507 A; first-published primary, GRADE-AT-PUBLICATION | Strict <47 routes LABOR/PROME; HENRY informed. HENRY's two charter pointers still require its repair |
 | S&P September final, October 1 primary | **55.9**, SA diffusion level; September flash 57.0 is historical secondary and superseded | Issuer names government/tech, AI equipment and safety stocks; original flash issuer not recovered. No use of 57.0 as current |
 | S&P October flash, October 23 primary | **56.0**, SA; output 55.8 vs 56.2. Factory orders/output growth slowed; jobs/stocks/delivery delays supported headline | Provisional; successor final November 2 (calendar still secondary). Composite services orders cannot stand for factory orders |
-| Regional breadth | October NY 25.5, Philadelphia 20.9, KC 11, Dallas 13.4; September Richmond−2, issuer SA diffusion levels | Different headline instruments and months; no synthetic national average. Richmond October release is next |
-| Hard output, September, Fed October 16 primary | TotalIP+0.7%m/m, manufacturing +0.3%; Q3 manufacturing +0.7%SAAR. Utilities+3.5%, autos/parts−3.0%m/m | Real factory output growing slowly. November 24 annual revision changes base to 2022; preserve vintage |
-| Core equipment, August, full M3 October 2 primary revised | Orders**$87.640 B, +1.6%m/m**; shipments**$84.960 B, +0.5%**; nominal SA. Advance shipments+0.6% superseded | New September release must be compared with its own revised August, not old advance |
-| J1 imported leg, August, FT-900 October 6 primary | Computer/accessory imports**$59.356 B** vs July$61.392 B, derived−3.3164%m/m; nominal SA | Domestic M3 omits imported GPU/server purchases; scope differs. Q3 BEA real equipment leg pendingOctober 29; September importsNovember 4. J1 complete verdict **CANNOT-FIRE** |
-| J2 carried volumes | SeptemberCass shipments+1.9%y/y, two-year−3.6%; week October 17 US rail carloads+3.5%, intermodal+12.6%y/y; issuer NSA | Recovering volumes oppose a broad collapse call. ACT September final 19,172 net orders,−7%y/y, has regulatory/orderboard confound |
-| J2 base rate | AvailableNovember 2023–September 2026 sample:26/30 eligible freight-down months ≤25 bp trailing 3 mHY widening; strict≤0 bp 18/30. ARTIFACT-VERIFIED mirror analysis | One overlapping freight episode, not 30 independent cycles; forward/sensitivity counts in BASE_RATES.md. No credit/recession probability inferred; LIQUID/RED own verdict |
+| Regional breadth | Same-month new orders: September 1/5 negative; October NY 23.2, Philadelphia 4.3, KC 3, Dallas 9.3, Richmond UNKNOWN. Issuer SA current-vintage diffusion points | 268 complete monthly panels recovered; October aggregate withheld until Richmond. No synthetic national output average |
+| Hard output, September, Fed October 16 primary | Total IP +0.7% m/m, manufacturing +0.3%; Q3 manufacturing +0.7% SAAR. Utilities +3.5%, autos/parts −3.0% m/m | Real factory output growing slowly. November 24 annual revision changes base to 2022; preserve vintage |
+| Core equipment, August, full M3 October 2 primary revised | Orders **$87.640 B, +1.6% m/m**; shipments **$84.960 B, +0.5%**; nominal SA. Advance shipments +0.6% superseded | New September release must be compared with its own revised August, not old advance |
+| J1 imported leg, August, FT-900 October 6 primary | Computer/accessory imports **$59.356 B** vs July $61.392 B, derived −3.3164% m/m; nominal SA | Domestic M3 omits imported GPU/server purchases; scope differs. Q2 BEA real equipment +13.4%, information processing +7.6% q/q SAAR, September 30 revised primary; Q3 pending October 29, September imports November 4. J1 complete verdict **CANNOT-FIRE** |
+| J2 carried volumes | September Cass shipments +1.9% y/y, two-year −3.6%; week October 17 US rail carloads +3.5%, intermodal +12.6% y/y; issuer NSA | Recovering volumes oppose a broad collapse call. ACT September final 19,172 net orders,−7% y/y, has regulatory/orderboard confound |
+| J2 base rate | Available November 2023–September 2026 sample: 26/30 eligible freight-down months ≤25 bp trailing 3-month HY widening; strict ≤0 bp 18/30. ARTIFACT-VERIFIED mirror analysis | One overlapping freight episode, not 30 independent cycles; forward/sensitivity counts in BASE_RATES.md. No credit/recession probability inferred; LIQUID/RED own verdict |
 | Mechanism score | **18/35 raw**; shared-root grouping **13/25**; seven mechanism vectors, two overlap reductions | Five groups still share demand/capex exposure; not independent probability estimates. Equity thermometer UNKNOWN, display-only and excluded |
 | Predictions / book | Zero prediction rows; TRADE.md remains FROZEN no-book | No forecast registration, sizing or execution |
 
@@ -29,12 +29,12 @@ All source URLs, reference periods, release dates, SA/NSA, vintages and grades a
 
 ## October 27 actions
 
-**Read `RELEASE_PREP_2026-10-27.md` before the prints.** The two dates are rechecked at the issuers; no actual values for October27 are asserted.
+**Read `RELEASE_PREP_2026-10-27.md` before the prints.** The two dates are rechecked at the issuers; no actual values for October 27 are asserted.
 
 | Time ET | Release | What changes the read |
 |---|---|---|
 | **08:30** | Census September advance durables | Separate headline aircraft/defense from core orders/shipments; log revisions; read computer/electrical categories. Domestic J1 leg only |
-| **10:00–10:10** | Richmond October manufacturing | September baseline composite−2, orders−6, shipments−5, jobs+7. Check current orders/shipments before expectations; diffusion points, not output percentages |
+| **10:00–10:10** | Richmond October manufacturing | September baseline composite −2, orders −6, shipments −5, jobs +7. Check current orders/shipments before expectations; diffusion points, not output percentages |
 | October 29 08:30 | BEA Q3 advance equipment | Quarter-matched real equipment leg; do not pair a monthly September rate with Q2 annualized GDP |
 | November 2 | October ISM and S&P final | Inherited <47 grade at ISM; opposite R1 composition observations at S&P final. Date precision in docket |
 | November 4 08:30 | FT-900 September | Computer/accessory import detail completes monthly pair; do not substitute advance aggregate goods trade |
@@ -43,18 +43,18 @@ All source URLs, reference periods, release dates, SA/NSA, vintages and grades a
 
 | Owner | Named dependency | Date / next authorized touch |
 |---|---|---|
-| ISHM | Survey-band history, complete same-month regional panel, two-print physical-band event counts and recent/ex-COVID sensitivity | November 2; weekly rail calibration November 4. Three physical candidates are descriptive only; no new registered band |
+| ISHM | Long ISM/S&P components, first-release validation and recovery/joint-event calibration | November 2; 24 current-vintage two-month sensitivity comparisons completed in data/CALIBRATION.tsv, not registered bands. Weekly AAR calibration November 4 |
 | ISHM / LIQUID / RED | Existing broader HY history / independent freight episodes | November 13 review; no new collector or capital-credit gate |
-| ISHM | BEA equipment detail; original September flash primary not recovered, so current final governs | Equipment October 29; no repeated work owed on a superseded flash |
-| HENRY / WATT; ISHM follows | HENRY<47 pointer repair; WATT confirms grid-figure custody | October 27 follow-up; no recipient acceptance inferred |
-| PROME | Transcribe ISHM READS attestation; correct outdated ISHM ROSTER descriptive trigger clause | October 27 follow-up. Manifest currently returns rc 2 NOT ATTESTED; physical STATUS size is separately within budget |
+| ISHM | Q3 BEA equipment; original September flash primary not recovered, so current final governs | Q2 detail recovered; Q3 October 29; no repeated work owed on a superseded flash |
+| HENRY / WATT; ISHM follows | HENRY <47 pointer repair; WATT confirms grid-figure custody | October 27 follow-up; no recipient acceptance inferred |
+| PROME registrar dependency | CLOSED: reader attestation registered and ROSTER trigger clause corrected | read_cap_check returns rc 0 ATTESTED on October 26; HENRY pointer repairs remain separate |
 | ISHM | Deere dynamic event body/time; four October reporters' next-quarter advisories | November 6 calendar audit / Deere November 12; dates not invented |
 | ISHM / HENRY consequence | Aligned industrial-equity event-return panel | October 29; thermometer UNKNOWN until observed |
 | ISHM / PROME coordination | Pull deferred while foreign dirty paths exist | Recheck at closeout; commits path-scoped. Delivery/notification/consumption are separate states |
 
-Intake: five WALTER delivered signals assessed (three integrated, two INFO logged); hardware-import chart keeps endpoint/deflator/vintage limits. PROME WQ-507 packet is already encoded and receives a no-change disposition. Thirteen boundary-owner packets plus WALTER/PROME packets are the durable handoff; replies remain pending.
+Intake: five WALTER delivered signals assessed (three integrated, two INFO logged); hardware-import chart keeps endpoint/deflator/vintage limits. PROME WQ-507 packet is already encoded and receives a no-change disposition. Thirteen boundary-owner packets plus WALTER/PROME packets are the durable handoff; FERT accepted its farm-input boundary and consumed the original packet. Other recipient replies remain pending.
 
-Boot tests: initial 37 pass, final 39 pass after message/fixture repair. Live boot all seven FRED series current, print enums valid, no overdue consumed keyed row; expected REVIEW for tomorrow's catalysts and UNKNOWN equity thermometer. Read-cap manifest cannot certify until PROME registers the reader attestation. Detailed checks and Git receipts are in the dated closeout record.
+Boot tests: initial 37 pass, final 39 pass after message/fixture repair. Live boot all seven FRED series current, print enums valid, no overdue consumed keyed row; expected REVIEW for tomorrow's catalysts and UNKNOWN equity thermometer. Reader manifest now certifies ATTESTED after PROME registration. Detailed checks and Git receipts are in the dated closeout record.
 
 ## BOTTOM LINE
 
