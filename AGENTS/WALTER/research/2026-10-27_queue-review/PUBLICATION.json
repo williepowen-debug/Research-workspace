@@ -1,0 +1,15 @@
+{
+  "as_of": "2026-10-27T18:43:06Z",
+  "origin": "2155605179593d30258a4a88a529d0017c41b801",
+  "main_publication": {
+    "commit": "9d2492d61feb79c128f3b83051425b7763dd08ee",
+    "state": "pending",
+    "note": "24 new cards / 82 packets; locally committed, foreign dirty tree prohibits push."
+  },
+  "day_handoffs": 254,
+  "day_proven": 172,
+  "new_handoffs": 82,
+  "new_proven": 0,
+  "native_consumption": "UNKNOWN",
+  "push_performed": false
+}

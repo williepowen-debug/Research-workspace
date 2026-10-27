@@ -1,0 +1,334 @@
+{
+  "as_of": "2026-10-27T18:40:38Z",
+  "rows": 49,
+  "reviews": [
+    {
+      "agent": "PROME",
+      "updated": "2026-10-27",
+      "status": "GREEN",
+      "outcome": "Header-only metadata; owner band retained; no grade or liveness inference",
+      "explicit_header": true
+    },
+    {
+      "agent": "CARL",
+      "updated": "2026-10-26",
+      "status": "RED",
+      "outcome": "Header-only metadata; owner band retained; no grade or liveness inference",
+      "explicit_header": true
+    },
+    {
+      "agent": "REGINALD",
+      "updated": "2026-10-23",
+      "status": "ORANGE",
+      "outcome": "Header-only metadata; owner band retained; no grade or liveness inference",
+      "explicit_header": true
+    },
+    {
+      "agent": "WAL",
+      "updated": "2026-10-22",
+      "status": "ORANGE",
+      "outcome": "Header-only metadata; owner band retained; no grade or liveness inference",
+      "explicit_header": true
+    },
+    {
+      "agent": "SAM",
+      "updated": "2026-10-20",
+      "status": "ORANGE",
+      "outcome": "Header-only metadata; owner band retained; no grade or liveness inference",
+      "explicit_header": true
+    },
+    {
+      "agent": "RED",
+      "updated": "2026-10-22",
+      "status": "ORANGE",
+      "outcome": "Header-only metadata; owner band retained; no grade or liveness inference",
+      "explicit_header": true
+    },
+    {
+      "agent": "BROCK",
+      "updated": "2026-10-25",
+      "status": "ORANGE",
+      "outcome": "Header-only metadata; owner band retained; no grade or liveness inference",
+      "explicit_header": true
+    },
+    {
+      "agent": "BRENT",
+      "updated": "2026-10-26",
+      "status": "RED",
+      "outcome": "Header-only metadata; owner band retained; no grade or liveness inference",
+      "explicit_header": false
+    },
+    {
+      "agent": "LIQUID",
+      "updated": "2026-10-26",
+      "status": "YELLOW",
+      "outcome": "Header-only metadata; owner band retained; no grade or liveness inference",
+      "explicit_header": true
+    },
+    {
+      "agent": "HENRY",
+      "updated": "2026-10-22",
+      "status": "RED",
+      "outcome": "Header-only metadata; owner band retained; no grade or liveness inference",
+      "explicit_header": true
+    },
+    {
+      "agent": "LABOR",
+      "updated": "2026-10-22",
+      "status": "ORANGE",
+      "outcome": "Header-only metadata; owner band retained; no grade or liveness inference",
+      "explicit_header": true
+    },
+    {
+      "agent": "HAWK",
+      "updated": "2026-10-25",
+      "status": "RED",
+      "outcome": "Header-only metadata; owner band retained; no grade or liveness inference",
+      "explicit_header": true
+    },
+    {
+      "agent": "NEXUS",
+      "updated": "2026-10-26",
+      "status": "YELLOW",
+      "outcome": "Header-only metadata; owner band retained; no grade or liveness inference",
+      "explicit_header": false
+    },
+    {
+      "agent": "WALTER",
+      "updated": "2026-10-27",
+      "status": "YELLOW",
+      "outcome": "Header-only metadata; owner band retained; no grade or liveness inference",
+      "explicit_header": true
+    },
+    {
+      "agent": "VIOLET",
+      "updated": "2026-10-19",
+      "status": "ORANGE",
+      "outcome": "Header-only metadata; owner band retained; no grade or liveness inference",
+      "explicit_header": true
+    },
+    {
+      "agent": "YEYOU",
+      "updated": "2026-08-20",
+      "status": "RETIRED",
+      "outcome": "Header-only metadata; owner band retained; no grade or liveness inference",
+      "explicit_header": true
+    },
+    {
+      "agent": "RAV",
+      "outcome": "No STATUS; retained registry authority/vintage"
+    },
+    {
+      "agent": "ZHAO",
+      "updated": "2026-10-22",
+      "status": "YELLOW",
+      "outcome": "Header-only metadata; owner band retained; no grade or liveness inference",
+      "explicit_header": true
+    },
+    {
+      "agent": "HANS",
+      "updated": "2026-10-22",
+      "status": "ORANGE",
+      "outcome": "Header-only metadata; owner band retained; no grade or liveness inference",
+      "explicit_header": true
+    },
+    {
+      "agent": "MARCO",
+      "updated": "2026-10-25",
+      "status": "ELEVATED",
+      "outcome": "Header-only metadata; owner band retained; no grade or liveness inference",
+      "explicit_header": true
+    },
+    {
+      "agent": "SHADE",
+      "updated": "2026-10-21",
+      "status": "ORANGE",
+      "outcome": "Header-only metadata; owner band retained; no grade or liveness inference",
+      "explicit_header": true
+    },
+    {
+      "agent": "OTTO",
+      "updated": "2026-10-25",
+      "status": "RED2",
+      "outcome": "Header-only metadata; owner band retained; no grade or liveness inference",
+      "explicit_header": false
+    },
+    {
+      "agent": "BOND",
+      "updated": "2026-10-20",
+      "status": "ORANGE",
+      "outcome": "Header-only metadata; owner band retained; no grade or liveness inference",
+      "explicit_header": false
+    },
+    {
+      "agent": "ORACLE",
+      "updated": "2026-10-22",
+      "status": "GREEN",
+      "outcome": "Header-only metadata; owner band retained; no grade or liveness inference",
+      "explicit_header": false
+    },
+    {
+      "agent": "FERT",
+      "updated": "2026-10-26",
+      "status": "YELLOW",
+      "outcome": "Header-only metadata; owner band retained; no grade or liveness inference",
+      "explicit_header": false
+    },
+    {
+      "agent": "ATHENA",
+      "updated": "2026-03-14",
+      "status": "GREEN",
+      "outcome": "Header-only metadata; owner band retained; no grade or liveness inference",
+      "explicit_header": false
+    },
+    {
+      "agent": "CRUISE",
+      "updated": "2026-10-25",
+      "status": "RED",
+      "outcome": "Header-only metadata; owner band retained; no grade or liveness inference",
+      "explicit_header": true
+    },
+    {
+      "agent": "DARWIN",
+      "outcome": "No STATUS; retained registry authority/vintage"
+    },
+    {
+      "agent": "OZK",
+      "updated": "2026-10-22",
+      "status": "YELLOW",
+      "outcome": "Header-only metadata; owner band retained; no grade or liveness inference",
+      "explicit_header": true
+    },
+    {
+      "agent": "CORAL",
+      "updated": "2026-10-21",
+      "status": "RED",
+      "outcome": "Header-only metadata; owner band retained; no grade or liveness inference",
+      "explicit_header": true
+    },
+    {
+      "agent": "CREED",
+      "updated": "2026-10-22",
+      "status": "ORANGE",
+      "outcome": "Header-only metadata; owner band retained; no grade or liveness inference",
+      "explicit_header": true
+    },
+    {
+      "agent": "BARON",
+      "outcome": "No STATUS; retained registry authority/vintage"
+    },
+    {
+      "agent": "HERMES",
+      "outcome": "No STATUS; retained registry authority/vintage"
+    },
+    {
+      "agent": "SENTRY",
+      "updated": "2026-05-09",
+      "status": "YELLOW",
+      "outcome": "Header-only metadata; owner band retained; no grade or liveness inference",
+      "explicit_header": true
+    },
+    {
+      "agent": "DEWEY",
+      "outcome": "No STATUS; retained registry authority/vintage"
+    },
+    {
+      "agent": "TERRY",
+      "updated": "2026-10-25",
+      "status": "ORANGE",
+      "outcome": "Header-only metadata; owner band retained; no grade or liveness inference",
+      "explicit_header": false
+    },
+    {
+      "agent": "DAEDALUS",
+      "updated": "2026-10-24",
+      "status": "GREEN",
+      "outcome": "Header-only metadata; owner band retained; no grade or liveness inference",
+      "explicit_header": true
+    },
+    {
+      "agent": "AEOLUS",
+      "updated": "2026-10-21",
+      "status": "RED",
+      "outcome": "Header-only metadata; owner band retained; no grade or liveness inference",
+      "explicit_header": true
+    },
+    {
+      "agent": "WATT",
+      "updated": "2026-10-23",
+      "status": "RED",
+      "outcome": "Header-only metadata; owner band retained; no grade or liveness inference",
+      "explicit_header": false
+    },
+    {
+      "agent": "VULCAN",
+      "updated": "2026-10-26",
+      "status": "ORANGE",
+      "outcome": "Header-only metadata; owner band retained; no grade or liveness inference",
+      "explicit_header": true
+    },
+    {
+      "agent": "MIDAS",
+      "updated": "2026-10-26",
+      "status": "YELLOW",
+      "outcome": "Header-only metadata; owner band retained; no grade or liveness inference",
+      "explicit_header": false
+    },
+    {
+      "agent": "OSPREY",
+      "updated": "2026-10-23",
+      "status": "YELLOW",
+      "outcome": "Header-only metadata; owner band retained; no grade or liveness inference",
+      "explicit_header": true
+    },
+    {
+      "agent": "FALCON",
+      "updated": "2026-10-26",
+      "status": "RED",
+      "outcome": "Header-only metadata; owner band retained; no grade or liveness inference",
+      "explicit_header": true
+    },
+    {
+      "agent": "HOMER",
+      "updated": "2026-10-19",
+      "status": "RED",
+      "outcome": "Header-only metadata; owner band retained; no grade or liveness inference",
+      "explicit_header": false
+    },
+    {
+      "agent": "FLG",
+      "updated": "2026-10-23",
+      "status": "YELLOW",
+      "outcome": "Header-only metadata; owner band retained; no grade or liveness inference",
+      "explicit_header": true
+    },
+    {
+      "agent": "YURI",
+      "updated": "2026-10-21",
+      "status": "YELLOW",
+      "outcome": "Header-only metadata; owner band retained; no grade or liveness inference",
+      "explicit_header": true
+    },
+    {
+      "agent": "GIBBS",
+      "updated": "2026-10-23",
+      "status": "\u2014",
+      "outcome": "Header-only metadata; owner band retained; no grade or liveness inference",
+      "explicit_header": true
+    },
+    {
+      "agent": "CYPHER",
+      "updated": "2026-10-26",
+      "status": "\u2014",
+      "outcome": "Header-only metadata; owner band retained; no grade or liveness inference",
+      "explicit_header": true
+    },
+    {
+      "agent": "ISHM",
+      "updated": "2026-10-26",
+      "status": "\u2014",
+      "outcome": "Header-only metadata; owner band retained; no grade or liveness inference",
+      "explicit_header": true
+    }
+  ]
+}

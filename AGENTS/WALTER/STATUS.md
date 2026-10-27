@@ -1,18 +1,17 @@
 # WALTER STATUS
-**Updated:** 2026-10-27T18:12:51Z — session closed for reboot; LIGHT requested by Will. Resume and duty limits: LAST_COMPLETION.md.
+**Updated:** 2026-10-27T18:40:38Z — approved 20-email review complete; full narrative refresh with explicit boot/maintenance gaps. Duty and publication truth: LAST_COMPLETION.md.
 
 ## BOTTOM LINE
 
-Real estate Gmail folder now 48 emails: 20 Research Queue and 28 Reference; three Research Highlights preserved. Another 245 newsletter containers consolidated to preserved local notes then Trash; one receipt refiled. Six source-qualified cards 043–048 saved; owner integration remains unverified. Scope/evidence: research/2026-10-27_realestate-processing/RESULT.md. Prior 965/294 counts describe emails, not verified signals. No owner grade.
+All 20 queued real estate email bodies reviewed, including secondary leads. Twenty-four new or expanded source-qualified cards cover refinancing mechanics, workouts, named property transfers, housing counterevidence, AI value realization and power constraints. Five cards retain unconfirmed original-source leads; original datasets, court/servicing records and five paid continuations remain explicit gaps. Report: research/2026-10-27_queue-review/EMAIL-REVIEW.md. No owner grade or fresh-market clearance.
 
-Telegram retired by Will October 27; operator replies and urgent alerts use the active session. Current implementation/custody: LAST_COMPLETION.md.
-
-Instructions, current work and approvals recovered. Root pull is up to date. Intake sync lacks GitHub authentication and X refresh failed; no IDs marked. Twenty-one ordinary packets and three DEWEY returns remain pending integration. Completed checks establish no new fire; incomplete European/settlement/census coverage stays explicit. Existing Gmail research and 34 source leads preserved.
+Mailbox left unchanged: the saved queue/reference structure and highlights remain. Telegram stays retired; replies/alerts use the active session. Full boot, inbox/DEWEY integration, stale READS attestation, lifecycle/retirement adjudication and earlier approval conditions remain at LAST_COMPLETION.md.
 
 ## DATED MARKET OBSERVATIONS
 
 | Object | Observation and limit |
 |---|---|
+| Approved queue review (October 27; source dates retained) | All 20 delivered bodies; 27 selected historical images; 399 decision rows including source gaps. New cards 049–072, no threshold scan or new market prices. BOARD 1797. Primary/source qualifications: research/2026-10-27_queue-review/EMAIL-REVIEW.md. |
 | Startup October 27 (retrieved this session; source dates differ) | HY338 / CCC1356 bp [October23]; VIXCLS18.39 and Cboe SKEW150.97 [October26]; SOFR-IORB+3 bp [October26]. VIX exit3/5, no new fire in completed checks. Current vendor tape intraday, not closes. Remaining scope: research/2026-10-27_startup/THRESHOLD-SCAN.md. |
 | Gmail source processing (October 27 UTC; underlying dates retained) | Joint Broadcom financing release October 26, MainStreet September earnings, Iowa historical 2024 loans, Forge preserved October 15 filing facts, Dutch multiyear plan and JetBlue October 26 release checked at stated scope. Trepp office-rate conflict, current balances and unread methods remain qualified. No fresh market-price/threshold-family clearance. Evidence: research/2026-10-27_gmail-processing/REVIEW.md; first-pass evidence retained. |
 | Bookmark source checks (October 27 UTC) | CISA v2026.10.26 lists both PHP root CVEs (added October 26); no named victim. Anthropic June 30 note carrying value $108.566B and H1 noncash charge $72.388B are different from cash burn/IPO redemption. Tailscale vendor release target October 27 is conditional, no shipped version asserted. Sources/limits: research/2026-10-26_bookmarks/REVIEW.md. No new market-price or threshold-family clearance. |
@@ -66,7 +65,7 @@ Signal/news routing and receiving-layer readiness. Domain agents own evidence, g
 
 ## NETWORK AWARENESS
 
-REGISTRY's 49 existing rows checked against current owner lead metadata at 2026-10-27T15:06:44Z before this refresh; 44 STATUS files present, none missing from the mirror. Prior bands and owner dates retained; no new grade, roster classification, liveness or consumption inference. Full 40-line context is captured but not manually read whole. CATO remains manual-only under ROSTER. Full-fleet visibility unavailable; owners UNKNOWN without verified evidence. Doctor's oldest unconsumed ACTION is 8 days by routed timestamp, not a finding of neglect. Duties: LAST_COMPLETION.md.
+REGISTRY's 49 existing rows reviewed against current available owner headers at 2026-10-27T18:40:38Z before this regeneration; 44 STATUS files captured. Prior bands and unestablished header dates retained. No roster classification, domain grade, liveness or consumption inference. Source context extraction is distinct from a complete manually read filter perimeter; full boot remains partial. Thread-local verification helpers all returned explicit closeout receipts. Full-fleet visibility remains UNKNOWN. Owner metadata evidence: research/2026-10-27_queue-review/registry-review.json.
 
 ## Active LIAISON channels
 
@@ -87,7 +86,7 @@ CARL,RED,REGINALD and BRENT remain DORMANT/ARCHIVED/CLOSED; no active turn or ca
 **BYPASS + SAFETY NET:** FILTER_SPEC §Pre-Gate owns FLASH bypass (even duplicates); ROUTING_OVERLAYS §Safety Net Auto-Upgrades owns thresholds/operators. IMMEDIATE is only the floor, per Will’s October16 ruling. This status summary cannot redefine a threshold.
 - WAL/ZION premarket gap-down >5%, KRE intraday drop >3%, or Iran kinetic-interdiction of a US naval vessel → FLASH.
 - Safety-net HY/VIX/convergence/liquidity/correlation triggers → FLASH pre-gate; preserve the convergence flag and exact OVERLAYS detection basis.
-- Will explicit FLASH/IMMEDIATE flag → FILTER_SPEC bypass; Telegram alert plus durable BOARD/delivery records, unavailable tool carried as a gap.
+- Will explicit FLASH/IMMEDIATE flag → FILTER_SPEC bypass; Active-session alert plus durable BOARD/delivery records, unavailable tool carried as a gap.
 
 **🔴 KILL-ON-SIGHT — NATO/RUSSIA PHRASINGS (registered 2026-09-18; loaded here 2026-09-19 as an INTAKE guard).** ⚠️ **Sweep result first, so this is not mistaken for a repair: all five are ABSENT from WALTER's lane** — `grep -rln` over `BOARD/` (994 signals) + `AGENTS/WALTER/` for each literal plus loosened variants; **three near-miss hits inspected individually and all three are unrelated** (£120bn = BoE APF held-to-maturity gilts `SIG-W-20260917-005`; >\$120bn = AI data-centre off-balance-sheet SPVs `SIG-W-20260627-033`; "22-year-old" = a casualty's age `SIG-W-20260906-001`). **No output was truncated.** ⇒ **These are FORWARD guards on intake, not retro-fixes.** ⚠️ **Limit, stated: this greps the phrasings AS WORDED — the same false CLAIM in different words is invisible to it.**
 
