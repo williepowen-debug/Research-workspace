@@ -1,0 +1,20 @@
+{
+  "scope": [
+    "THESIS.md",
+    "OPEN_ITEMS.md",
+    "TRADE.md",
+    "workbook/KB.tsv",
+    "METALS_CATALOG.tsv"
+  ],
+  "recycling_test_in_live_thesis_open_trade": "Not found",
+  "qualification": "Held balance reports include recycling; not a claim of novel source discovery. Historical raw PDFs not exhaustively searched.",
+  "valterra_q3_current_integration": "Not found in current thesis/KB before this pre-read",
+  "adopted_new_tasks": false,
+  "frozen_hashes_unchanged": {
+    "workbook/PREDICTIONS.tsv": "67775106a453b5e1503c2c8b3fb3f1948355954e529583858db68b2e21c463aa",
+    "CLAUDE.md": "612756081ee84f0750908c6daed066b6cb2f8c39c07999827ab3fb2a2cceb198",
+    "palladium/research/2026-10-23_nornickel-9M-read-setup.md": "af8232d1df1da7bbaac7e2d3f9f40a8efa68ae293e0e8d639d94fcdecb24b2b6",
+    "gold/research/2026-10-23_WQ451-decomposition-letter.md": "c41c635417f40e66b963ce33a903ab6b5225a93e59977e3a84c8f7df62e316ea"
+  },
+  "source_hashes": "PASS"
+}

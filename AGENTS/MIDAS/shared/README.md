@@ -59,3 +59,5 @@ Operations, implementation and preserved historical archives are classified sepa
 - [October 26 Nornickel nine-month issuer read](research/2026-10-26_nornickel-9M-L701.md) — production/guidance and fixed pace tests. [Shared evidence bundle](sources/2026-10-26_L701-settlement/); gold certification review linked from its gold index.
 
 - [October 26 close snapshot](research/2026-10-26_close-snapshot.md) — requested prices/holdings/rates and first platinum red crossing; [raw evidence](sources/2026-10-26_close/).
+
+- [Precious-metals research candidates](research/2026-10-26_precious-metals-research-gaps.md) — bounded coverage check, primary pointers and proposed next questions.

@@ -1,0 +1,26 @@
+[
+  {
+    "file": "valterra_q3.html",
+    "url": "https://www.valterraplatinum.com/media_centre/valterra-platinum-limited-production-report-for-the-third-quarter-ending-30-september-2026/",
+    "retrieved_at": "2026-10-27T03:24:28.995134+00:00",
+    "status": 200,
+    "bytes": 94645,
+    "sha256": "a5727e858c2076ab83b7dc9d3c47c61afec7b79048b717735cc7f3a8737c7675"
+  },
+  {
+    "file": "wgc_q2_supply.html",
+    "url": "https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-q2-2026/supply",
+    "retrieved_at": "2026-10-27T03:24:28.995933+00:00",
+    "status": 200,
+    "bytes": 91895,
+    "sha256": "01fbece3c45780782459b19b45431a0c973e1625eefabaea4170c33fa71d7d8e"
+  },
+  {
+    "file": "jm_2026_pgm.html",
+    "url": "https://matthey.com/media/2026/johnson-matthey-publishes-2026-pgm-market-report1",
+    "retrieved_at": "2026-10-27T03:24:28.997174+00:00",
+    "status": 200,
+    "bytes": 130600,
+    "sha256": "2e2da6d1e42de979c7a5a099113ca5ceab32c5903ad91d902ee14ad5b907e7d2"
+  }
+]

@@ -52,3 +52,5 @@ Put inseparable multi-metal work in [shared](../shared/README.md), once, and lin
 - [Sunday October 25 catch-up and assignment reconciliation](../shared/research/2026-10-25_sunday-catch-up.md) — dated prices, source limits, completed PRD3 correction and next owner work.
 
 - [October 26 close snapshot](../shared/research/2026-10-26_close-snapshot.md) — latest completed fund prices, provisional named futures and existing band levels; no new scoring rule.
+
+- [Precious-metals research candidates](../shared/research/2026-10-26_precious-metals-research-gaps.md) — recycling supply and mine/refinery timing; recommendations, not adopted tasks.
