@@ -1,0 +1,286 @@
+false
+0000930245
+0000930245
+2026-10-22
+2026-10-22
+iso4217:USD
+xbrli:shares
+iso4217:USD
+xbrli:shares
+UNITED
+STATES
+SECURITIES
+AND EXCHANGE COMMISSION
+Washington,
+DC 20549
+FORM
+8-K
+CURRENT
+REPORT
+Pursuant
+to Section 13 or 15(d) of the Securities Exchange Act of 1934
+Date
+of Report (Date of earliest event reported):
+October 22, 2026
+AGASSI
+SPORTS ENTERTAINMENT CORP.
+(Exact
+Name of Registrant as Specified in its Charter)
+Nevada
+000-24970
+88-0203976
+(State
+or Other Jurisdiction
+of
+    Incorporation)
+(Commission
+File
+    Number)
+(IRS
+Employer
+Identification
+    No.)
+1120
+                                            N. Town Center Dr #160
+Las
+    Vegas
+,
+NV
+89144
+(Address
+    of Principal Executive Offices)
+(Zip
+    Code)
+Registrant’s
+telephone number, including area code:
+(702)
+400-4005
+Check
+the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under
+any of the following provisions (
+see
+General Instruction A.2. below):
+☐
+Written communications
+    pursuant to Rule 425 under the Securities Act (17 CFR 230.425)
+☐
+Soliciting material pursuant
+    to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)
+☐
+Pre-commencement communications
+    pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))
+☐
+Pre-commencement communications
+    pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e 4(c))
+Securities
+registered pursuant to Section 12(b) of the Act: None.
+Indicate
+by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405
+of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (§240.12b-2 of this chapter).
+Emerging
+growth company
+☐
+If
+an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying
+with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐
+Item
+5.02. Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of
+Certain Officers.
+(d)
+Director Appointment
+Effective
+on October 22, 2026, the Board of Directors of Agassi Sports Entertainment Corp. (the “
+Company
+”, “
+we
+”
+and “
+us
+”), increased the number of members of its Board of Directors to three, and appointed Mr. Clive G. Brookes
+as a member of the Board of Directors of the Company and as Chairman of the newly formed Audit Committee, Nominating and Corporate Governance
+Committee and Compensation Committee of the Board of Directors (see
+Item 8.01
+, below).
+The
+Board of Directors determined that Mr. Brookes was “
+independent
+” pursuant to the rules of the Nasdaq Capital Market
+and pursuant to Rule 10A-3(b)(1) under the Securities Exchange Act of 1934, as amended.
+Mr.
+Brookes is not party to any material plan, contract or arrangement (whether or not written) with the Company and there are no arrangements
+or understandings between Mr. Brookes and any other person pursuant to which Mr. Brookes was selected to serve as a director of the Company,
+nor is Mr. Brookes a participant in any related party transaction required to be reported pursuant to Item 404(a) of Regulation S-K.
+There
+are no family relationships between any director or executive officer of the Company, including Mr. Brookes.
+Mr.
+Brookes will be entitled to receive compensation from time to time as approved by the Board of Directors of the Company; provided that
+the Company does not currently have any fixed compensation for directors. Mr. Brookes is also entitled to participate in the Company’s
+equity incentive plans in effect and as amended from time to time.
+Biographical
+information for Mr. Brookes is provided below:
+Clive
+G. Brookes, age 72
+Clive
+G. Brookes has more than 25 years of experience in Canadian capital markets, public company management and the mineral exploration sector.
+Since 1990, he has served as President of Sunrise Communications Ltd., a private company providing management services to public companies.
+Since August 2018, he has served as President, Chief Executive Officer and a director of Atoro Capital Corp., a capital pool company
+listed on the NEX board of the TSX Venture Exchange (NEX:TTO.H), where he also serves on the audit committee. Since June 2023, he has
+served as President and a director of Goldcana Resources Inc., a mineral exploration company listed on the Canadian Securities Exchange
+(CSE:GC), where he also serves as Chief Executive Officer, Secretary and an audit committee member. Mr. Brookes has served as a director
+of HIRE Technologies Inc., a staffing, recruitment and human resources technology company, since November 2023, and as an independent
+director of Quarterback Resources Inc., a mineral exploration company listed on the Canadian Securities Exchange (CSE:QB), since February
+2025. He also chairs Quarterback’s audit committee. Since 2008, Mr. Brookes has served as a director of Goldzone Exploration, Inc.,
+a private company. His prior positions include Chairman, President and Chief Executive Officer of Juggernaut Exploration Ltd.; Chief
+Financial Officer, Secretary and a director of EnerGulf Resources Inc.; and Chief Financial Officer and a director of Candelaria Mining
+Corp. Mr. Brookes holds a Bachelor of Commerce degree from the University of British Columbia.
+The
+Board believes that Mr. Brookes’ experience in public company management, financial reporting, regulatory compliance and corporate
+governance qualifies him to serve as a director of the Company.
+(e)
+Compensatory Arrangements
+On
+or around October 23, 2026, the Company entered into indemnification agreements, in substantially the form attached as
+Exhibit
+10.1
+to this Current Report on Form 8-K (the “
+Indemnification
+Agreements
+”), with each director serving on the Company’s Board of Directors and each officer of the Company
+(each, an “
+Indemnitee
+”).
+Each
+Indemnification Agreement provides that the Company will indemnify the applicable Indemnitee, to the fullest extent permitted by applicable
+law and subject to the agreement’s conditions and exclusions, against expenses, including reasonable attorneys’ fees, judgments,
+fines and amounts paid in settlement actually and reasonably incurred in connection with covered proceedings arising by reason of the
+Indemnitee’s service to the Company or service at the Company’s request to another enterprise. Covered proceedings include
+threatened, pending or completed civil, criminal, administrative, legislative or investigative proceedings, including proceedings brought
+by or in the right of the Company, subject to the limitations applicable to such proceedings. The agreements also provide for indemnification
+of reasonable expenses incurred as a witness or other nonparty participant in a covered proceeding and for contribution in certain circumstances.
+The
+Company must advance reasonable expenses incurred in connection with covered proceedings, generally within 30 days after receipt of a
+written request reasonably evidencing those expenses, subject to the agreements’ conditions and exclusions. Each Indemnitee undertakes
+to repay amounts advanced to the extent ultimately determined by a court of competent jurisdiction, after exhaustion of any appeals taken,
+not to be indemnifiable. The agreements establish procedures for determining entitlement to indemnification, address the defense and
+settlement of covered proceedings, and provide for judicial enforcement of indemnification and advancement rights. Reasonable enforcement
+expenses are subject to advancement, with ultimate indemnification generally available to the extent the Indemnitee is successful.
+The
+agreements exclude, subject to their terms and applicable law, duplicate payments, disgorgement of short-swing profits under Section
+16(b) of the Securities Exchange Act of 1934, certain compensation reimbursements and clawbacks, certain proceedings initiated by the
+Indemnitee without prior board authorization, and payments prohibited by applicable law. An exclusion from ultimate indemnification does
+not, by itself, preclude lawful advancement of defense expenses, subject to the agreements’ repayment requirements.
+The
+rights provided by the agreements are in addition to other indemnification and advancement rights available to the Indemnitees. The Company’s
+obligations extend to service beginning when each Indemnitee first held a covered position and continue after that service ends for so
+long as the Indemnitee may be subject to a covered proceeding or related enforcement action. The agreements bind the Company’s
+successors and require a successor to all or substantially all of its business or assets expressly to assume its obligations. The Company
+also agrees to use commercially reasonable efforts to obtain and maintain directors’ and officers’ liability insurance. The
+agreements are governed by Nevada law and provide for enforcement in specified Nevada courts.
+The
+foregoing description is qualified in its entirety by reference to the full text of the form of Indemnification Agreement filed as
+Exhibit
+10.1
+to this report, which is incorporated herein by reference.
+On
+October 22, 2026, the Board of Directors approved the adoption of a Policy for the Recovery of Erroneously Awarded Incentive Based Compensation
+(the “
+Clawback Policy
+”), with an effective date of October 22, 2026, in order to comply with the final clawback rules
+adopted by the SEC under Section 10D and Rule 10D-1 of the Securities Exchange Act of 1934, as amended (“
+Rule 10D-1
+”),
+and the listing standards, as set forth in the Nasdaq Listing Rule 5608 (the “
+Final Clawback Rules
+”).
+The
+Clawback Policy provides for the mandatory recovery of erroneously awarded incentive-based compensation from current and former executive
+officers as defined in Rule 10D-1 (“
+Covered Officers
+”) of the Company in the event that the Company is required to
+prepare an accounting restatement, in accordance with the Final Clawback Rules. The recovery of such compensation applies regardless
+of whether a Covered Officer engaged in misconduct or otherwise caused or contributed to the requirement of an accounting restatement.
+Under the Clawback Policy, the Board of Directors will recoup from the Covered Officers erroneously awarded incentive compensation received
+within a lookback period of the three completed fiscal years preceding the date on which the Company is required to prepare an accounting
+restatement.
+The
+foregoing summary of the Clawback Policy does not purport to be complete and is qualified in its entirety by reference to the full text
+of the Clawback Policy, a copy of which is attached hereto as
+Exhibit 99.4
+, to this Current Report on Form 8-K and
+incorporated herein by reference.
+Item 5.05. Amendments to the Registrant’s
+Code of Ethics, or Waiver of a Provision of the Code of Ethics.
+The information
+regarding the adoption of the Company’s Code of Ethical Business Conduct as described in
+Item 8.01
+, below, is incorporated
+by reference into this
+Item 5.05
+to the extent required by
+Item 5.05
+of Form 8-K.
+Item
+8.01. Other Events.
+Adoption
+of Committee Charters
+On
+October 22, 2026, the Board of Directors adopted charters for a Compensation Committee, Audit Committee, and Nominating and Corporate
+Governance Committee of the Board of Directors. The foregoing are attached
+as
+Exhibits
+99.1-99.3
+to this Current Report on Form 8-K, and will be posted on the Company’s website
+at agassisports.com.
+As
+discussed above, the sole member and Chairman of each committee is currently Clive G. Brookes, who was appointed to the Board of Directors
+on October 22, 2026.
+Adoption
+of Insider Trading Policy and Code of Ethical Business Conduct
+Also on October 22,
+2026, the Board of Directors adopted a Code of Ethical Business Conduct, which establishes standards of ethical conduct applicable to
+the Company’s directors, officers, employees, and, where applicable, agents and representatives (and which replaced any prior
+code of ethics which had previously been adopted by the Board of Directors) and an insider trading policy The foregoing are attached
+as
+Exhibits 14.1
+and
+19.1
+, respectively,
+to
+this Current Report on Form 8-K.
+Item
+9.01. Financial Statements and Exhibits.
+(d)
+Exhibits.
+Exhibit
+    No.
+Description
+10.1
+Form of Agassi Entertainment Corp. Indemnification Agreement
+14.1
+Code of Ethical Business Conduct
+19.1
+Policy on Insider Trading
+99.1
+Compensation Committee Charter of the Board of Directors
+99.2
+Audit Committee Charter of the Board of Directors
+99.3
+Nominating and Corporate Governance Committee of the Charter of the Board of Directors
+99.4
+Agassi Sports Entertainment Corp. Policy for the Recovery of Erroneously Awarded Incentive-Based Compensation
+104
+Inline XBRL for the cover page of this Current Report
+    on Form 8-K
+SIGNATURES
+Pursuant
+to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by
+the undersigned hereunto duly authorized.
+Agassi Sports Entertainment Corp.
+By:
+/s/ Ronald
+    S. Boreta
+Date: October 26, 2026
+Name:
+Ronald S. Boreta
+Title:
+Chief Executive Officer

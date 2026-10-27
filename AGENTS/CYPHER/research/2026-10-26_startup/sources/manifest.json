@@ -1,0 +1,76 @@
+[
+  {
+    "name": "kev.json",
+    "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+    "status": 200,
+    "bytes": 1810928,
+    "sha256": "653c72ea869cbca7a9198b5e17b97bef516b67494e89bb919a9639d4eedbfa13"
+  },
+  {
+    "name": "gmo-fourth.html",
+    "url": "https://group.gmo/info/alert/20261024/",
+    "error": "The read operation timed out"
+  },
+  {
+    "name": "gmo-fifth.html",
+    "url": "https://internet.gmo/news/article/250/",
+    "error": "The read operation timed out"
+  },
+  {
+    "name": "gmo-disclosure.pdf",
+    "url": "https://internet.gmo/ir/pdf/irlibrary/gmointernet_j_disclose_20261023.pdf",
+    "status": 200,
+    "bytes": 288005,
+    "sha256": "e1986d97052fc7e32cfc7d9e57897e8b39fa12f9125f1d04e92f377b5a512399"
+  },
+  {
+    "name": "brotli.yaml",
+    "url": "https://raw.githubusercontent.com/pypa/advisory-database/main/vulns/brotli/PYSEC-2026-4322.yaml",
+    "status": 200,
+    "bytes": 2318,
+    "sha256": "71b23c04a75f1db548ac15ae52038193d118b59835dec390a99f5806cf12594b"
+  },
+  {
+    "name": "brotlicffi.yaml",
+    "url": "https://raw.githubusercontent.com/pypa/advisory-database/main/vulns/brotlicffi/PYSEC-2026-4323.yaml",
+    "status": 200,
+    "bytes": 2336,
+    "sha256": "ffdcbe0775165d252a2715d3035f37c38587f419c01f464af94f1f192d0b1ea7"
+  },
+  {
+    "name": "bun.json",
+    "url": "https://api.github.com/repos/oven-sh/bun/security-advisories/GHSA-663w-cv8g-jj2p",
+    "status": 200,
+    "bytes": 4670,
+    "sha256": "96d78fa30c0cdba1036b688497004f2fdbdf836db0c91991ce6d66f6b5176b29"
+  },
+  {
+    "name": "envoy.json",
+    "url": "https://api.github.com/repos/envoyproxy/envoy/security-advisories/GHSA-3wvj-j6qm-62mr",
+    "status": 200,
+    "bytes": 3145,
+    "sha256": "5fe6a782eeea350ff6b6c146ff91b20058a072da26d6a768dbdd93afbcebac6d"
+  },
+  {
+    "name": "connectwise.html",
+    "url": "https://www.connectwise.com/company/trust/advisories",
+    "status": 200,
+    "bytes": 301713,
+    "sha256": "6fdf46b7886733ee20431af75ff7bc4672f70c6dffa1b121cea9ace7e8accb0b"
+  },
+  {
+    "name": "connectwise-status.json",
+    "url": "https://status.connectwise.com/api/v2/incidents.json",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "aasp-submissions.json",
+    "url": "https://data.sec.gov/submissions/CIK0000930245.json",
+    "status": 200,
+    "bytes": 58326,
+    "sha256": "edc88b20bdf62659c0ec05ff533c147259446ff0aa58b04c90fc527a99a96e31"
+  },
+  {
+    "note": "Large raw responses retained outside Git at /tmp/cypher-2026-10-26-source-cache. Exact decisive KEV and ConnectWise excerpts are persisted beside this manifest. GMO fourth notice read through web tool at https://group.gmo/info/alert/20261024/ although shell fetch timed out. GMO fifth notice timed out through both routes and remains ARTIFACT-VERIFIED from WALTER, not independently read."
+  }
+]

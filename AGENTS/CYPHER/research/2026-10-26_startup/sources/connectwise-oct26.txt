@@ -1,0 +1,24 @@
+Source: https://www.connectwise.com/company/trust/advisories
+Retrieved: 2026-10-26T22:47:17-04:00
+
+Update: Monday, October 26, 2026 at 14:00 UTC
+Cloud Backup investigation and restoration update
+As previously reported, we identified unauthorized access to application credentials associated with Cloud Backup, formerly SkyKick.
+Our teams and independent specialists continue restoration, testing and security validation.
+We continue preparing for phased partner onboarding and will provide an update as soon as partners can begin restoring data from existing backups.
+What partners can expect
+Backup restoration access first.
+We are first enabling a process for partners to restore data from existing backups.
+Full service re-enrollment to follow.
+We will then begin phased re-enrollment, supported by step-by-step instructions, video tutorials and webinars to help partners re-establish service and verify successful operation.
+Previously published findings and partner guidance remain current.
+Keep affected application connections disabled until ConnectWise provides instructions that apply to your service.
+Infrastructure restoration does not mean all partner capabilities are available. We will share confirmed availability and any changes to anticipated timing through the Trust Center.
+Investigation and monitoring continue alongside restoration. Existing backup archives remain encrypted, isolated and preserved, with no indication of compromise. We have no indication that other ConnectWise products, services or offerings are impacted by this incident.
+Reviewing individual Microsoft 365 environments remains essential. Continue using the
+technical investigation and remediation guide
+and
+technical webinars
+for your own and managed customer environments.
+We recognize the continued disruption to your business and customers and remain focused on restoring service safely.
+Our next daily update will be published by October 27 at 14:00 UTC. We will communicate significant developments sooner.

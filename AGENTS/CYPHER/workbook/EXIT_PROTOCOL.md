@@ -36,3 +36,7 @@ Two rails. **R0** asks whether the desk should exist, and is unusual here becaus
 ## Rules (blueprint §4 — cite, don't restate)
 
 Every `AND` in a kill states the state it fires FROM. No threshold already breached at write time. A falsification leg names a positively-measured instrument. A retraction is a claim and gets graded like one.
+
+## R1 context note — 2026-10-26 (registered flips unchanged)
+
+CISA KEV v2026.10.26 lists both PHP2Shell root CVEs (dateAdded 10/26): row 2 FIRED, VX-CYP-06 4/5. Composite 22/40 raw and 16/40 after counting the PHP2Shell cluster once. CONFIRMED now describes root-flaw exploitation; no named organisation is supplied by KEV. Row 2 alone does not satisfy the R1 named-victim test in row 1 or 3, so no SYSTEMIC-WATCH flip is recorded. Other owner rows retain their actual check dates; the full re-check remains due 10/29. Evidence: `research/2026-10-26_startup/RECORD.md#kev`.

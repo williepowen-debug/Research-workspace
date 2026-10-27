@@ -1,0 +1,164 @@
+Source: https://blog.google/security/protecting-chrome-and-android-users-from-compromised-emudhra-intermediate-ca-certificates/?hl=zh-cn
+
+Protecting Chrome and Android Users from Compromised eMudhra Intermediate CA Certificates
+Skip to main content
+Security
+Protecting Chrome and Android Users from Compromised eMudhra Intermediate CA Certificates
+[]
+Preferences
+Global (English)
+Africa (English)
+Australia (English)
+Brasil (Português)
+Canada (English)
+Canada (Français)
+Česko (Čeština)
+Deutschland (Deutsch)
+España (Español)
+France (Français)
+Greece (Ελληνικά)
+India (English)
+Indonesia (Bahasa Indonesia)
+Ireland (English)
+Italia (Italiano)
+日本 (日本語)
+대한민국 (한국어)
+Latinoamérica (Español)
+Malaysia (English)
+الشرق الأوسط وشمال أفريقيا (اللغة العربية)
+MENA (English)
+Nederlands (Nederland)
+New Zealand (English)
+Polska (Polski)
+Portugal (Português)
+România (Română)
+Sverige (Svenska)
+ประเทศไทย (ไทย)
+Türkiye (Türkçe)
+台灣 (中文)
+Links
+Images
+RSS feed
+x.com
+Facebook
+LinkedIn
+Mail
+Copy link
+Chrome Security
+Protecting Chrome and Android Users from Compromised eMudhra Intermediate CA Certificates
+Oct 20, 2026
+|
+x.com
+Facebook
+LinkedIn
+Mail
+Copy link
+Chrome and Android Security Teams
+Share
+x.com
+Facebook
+LinkedIn
+Mail
+Copy link
+On Saturday, October 17, 2026, at 18:05 UTC, the Chrome Root Program received a report from a security researcher regarding the compromise of private keys associated with eight eMudhra subordinate Certification Authority (CA) certificates. The private keys for these certificates were generated with insufficient randomness (i.e., weak cryptographic entropy), enabling anyone to forge trusted HTTPS certificates to impersonate any website against clients that have not yet removed trust in those CAs.
+At 19:45 UTC, Chrome completed corroborating the findings and landed a
+CRLSet
+update blocking the Subject Public Key Info (SPKI) hashes of the affected intermediate CAs. Because this CRLSet update blocks by SPKI, Chrome users were immediately protected against all certificates sharing those keys, without requiring a browser update or restart. Android devices and Googlebooks received an equivalent update through Google Play Services around 22:00 UTC on Monday. While the majority of Android devices have already received this update, users can also trigger an immediate update by restarting their device.
+Because no TLS certificates chaining to these six intermediate CAs were logged to Certificate Transparency (CT) before our blocking action, no fraudulent certificates issued by these CAs could have been used against CT-enforcing clients. This includes Chrome, which enforces CT for all publicly trusted certificates by default. This also includes Android applications that target the latest SDK version or have otherwise opted in to CT enforcement.
+Following the initial block, the Chrome Root Program also took several additional steps to protect the broader ecosystem:
+We have reviewed and confirmed that no other keys included in our root stores share the same failure mode with weak entropy.
+Following our initial block, we have been coordinating with other browser vendors, root store operators, and software maintainers to support ecosystem-wide remediation.
+We have worked to ensure that CT logs have been updated to reject certificates chaining to these compromised CAs to prevent risk to the CT ecosystem.
+To support other consumers of the Chrome Root Store that do not consume CRLSet updates, we have also removed
+emSign ECC Root CA - G3
+(the root certificate that signed the compromised CA certificates) from the Chrome Root Store. Some legitimate certificates chaining to this root will cease to function in Chrome as a result, and eMudhra has committed to working with impacted subscribers to migrate customers off of the impacted root. This root removal is expected to be released for all devices
+relying
+on the Chrome Root Store Tuesday morning, October 27, 2026 PDT, and sooner on prerelease channels like Chrome Canary and Chrome Beta.
+To avoid breakage, website operators with certificates chaining to emSign ECC Root CA - G3 must immediately acquire and install a new TLS certificate from another PKI hierarchy included in the
+Chrome Root Store
+.
+Inclusion in the Chrome Root Store requires that a CA Owner continuously demonstrate the technical competence and operational rigor necessary to protect Chrome users. Due to the seriousness of this incident, the Chrome Root Program is closely investigating the ongoing inclusion of eMudhra's remaining CA certificates in the Chrome Root Store and will share further updates in public forums (e.g., the
+Common CA Database Public list
+) as our evaluation progresses.
+Posted in:
+Android Security
+Chrome Security
+Related stories
+Chrome Security
+Chrome Now Warns Before Insecure HTTP Connections
+By
+          
+            
+            Joe DeBlasio, Eric Trouton, Chris Thompson, Serena Chen, Mustafa Emre Acer, and Carlos Joan Rafael Ibarra Lopez, from Chrome's Secure Web and Networking Team
+Chrome Security
+Our latest defenses against evolving web scams
+By
+          
+            
+            Jasika Bawa
+Android Security
+New Android protections to help keep you safe from mobile scams
+By
+          
+            
+            Alberto Pastor Nieto
+          
+            & 
+            Shaifali Bhandari
+Android Security
+Android's Next-Gen Enclave for On-Device AI
+By
+          
+            
+            Irene Ang
+          
+            & 
+            Helen Jiang
+Chrome
+Chrome's Response to Recent ccTLD Registry Hijacks
+Following recent third-party domain hijacks affecting the .gh, .sl, and .as country-code top-level domains (ccTLDs), Chrome immediately blocked unauthorized HTTPS certif…
+By
+          
+            
+            Chrome Secure Web and Networking Team
+Android Security
+6 ways Advanced Protection on Android keeps you safe
+By
+          
+            
+            Il-Sung Lee
+Privacy
+Terms
+Help
+More of Google
+Google Products
+Global (English)
+Africa (English)
+Australia (English)
+Brasil (Português)
+Canada (English)
+Canada (Français)
+Česko (Čeština)
+Deutschland (Deutsch)
+España (Español)
+France (Français)
+Greece (Ελληνικά)
+India (English)
+Indonesia (Bahasa Indonesia)
+Ireland (English)
+Italia (Italiano)
+日本 (日本語)
+대한민국 (한국어)
+Latinoamérica (Español)
+Malaysia (English)
+الشرق الأوسط وشمال أفريقيا (اللغة العربية)
+MENA (English)
+Nederlands (Nederland)
+New Zealand (English)
+Polska (Polski)
+Portugal (Português)
+România (Română)
+Sverige (Svenska)
+ประเทศไทย (ไทย)
+Türkiye (Türkçe)
+台灣 (中文)

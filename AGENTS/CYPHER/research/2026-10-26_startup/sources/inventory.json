@@ -1,0 +1,92 @@
+[
+  {
+    "file": "aasp-8k.txt",
+    "bytes": 13311,
+    "sha256": "5320742f27703b32cd4ebb3f6573159eb8452f27ee579bac43f52e535d5bc3cc"
+  },
+  {
+    "file": "aasp-submissions.json",
+    "bytes": 58326,
+    "sha256": "edc88b20bdf62659c0ec05ff533c147259446ff0aa58b04c90fc527a99a96e31"
+  },
+  {
+    "file": "brotli.yaml",
+    "bytes": 2318,
+    "sha256": "71b23c04a75f1db548ac15ae52038193d118b59835dec390a99f5806cf12594b"
+  },
+  {
+    "file": "brotlicffi.yaml",
+    "bytes": 2336,
+    "sha256": "ffdcbe0775165d252a2715d3035f37c38587f419c01f464af94f1f192d0b1ea7"
+  },
+  {
+    "file": "bun.json",
+    "bytes": 4670,
+    "sha256": "96d78fa30c0cdba1036b688497004f2fdbdf836db0c91991ce6d66f6b5176b29"
+  },
+  {
+    "file": "chrome-google.txt",
+    "bytes": 6725,
+    "sha256": "3950061593e3de3d26e43bfbcd2bb05b19c79dd1390436feb9b179909627bcb2"
+  },
+  {
+    "file": "connectwise-oct26.txt",
+    "bytes": 2004,
+    "sha256": "b06fd0ee09726f777d0e33a6b9d2d521df322f4b50cc29a5f8a4213254949ce4"
+  },
+  {
+    "file": "efts-105.json",
+    "bytes": 13460,
+    "sha256": "a43a799b423aed489e2d9d173bee172afb444d288dc7bdb2155bc36ff92a20d8"
+  },
+  {
+    "file": "efts-connectwise.json",
+    "bytes": 1118,
+    "sha256": "a57a80a5baec4e51caefc89da834efa8412e2b8cb22800ec9f9dc924a8a17276"
+  },
+  {
+    "file": "emudhra-oct26.txt",
+    "bytes": 14299,
+    "sha256": "d1e39cf89a1ea5e1eb9b42b6735fa663ed377ffb6bc322d9eab4d498fbbd3fb9"
+  },
+  {
+    "file": "envoy.json",
+    "bytes": 3145,
+    "sha256": "5fe6a782eeea350ff6b6c146ff91b20058a072da26d6a768dbdd93afbcebac6d"
+  },
+  {
+    "file": "gmo-disclosure.pdf",
+    "bytes": 288005,
+    "sha256": "e1986d97052fc7e32cfc7d9e57897e8b39fa12f9125f1d04e92f377b5a512399"
+  },
+  {
+    "file": "gmo-disclosure.txt",
+    "bytes": 5491,
+    "sha256": "6e9a364d9b2e64cc658d86ba429a7d12991f25279f277164c74959106035fb0b"
+  },
+  {
+    "file": "guidewire-ca.json",
+    "bytes": 5560,
+    "sha256": "35726fddea51e206863acab1cbf7946c2909aa3ea4e449f23c59c464e2af0f6e"
+  },
+  {
+    "file": "huntress.txt",
+    "bytes": 40645,
+    "sha256": "2bca2d6d86cf06faadb9f00e844c8744bd0954db4de4bd1e25a68cdcbd9a4918"
+  },
+  {
+    "file": "kev-excerpt.json",
+    "bytes": 5618,
+    "sha256": "add450a9beb9f7d95623397e5381d003f2c3186c4f7ec0b1f8f1a4396f7bfa05"
+  },
+  {
+    "file": "manifest.json",
+    "bytes": 2849,
+    "sha256": "b9e7e7fd0c97a5d19ebe6cce5876442420af415261e1b826b08df2ca1eb56b0a"
+  },
+  {
+    "file": "microsoft-storm.txt",
+    "bytes": 34352,
+    "sha256": "40f286405055fa16e31f5f0301da7ec89d6d54a01dac4e2cc072081a67ab0ddb"
+  }
+]
