@@ -1,67 +1,64 @@
 # CARL SCRATCH
-**Last session:** 2026-10-26 22:50 ET, OpenAI Codex; exact model UNKNOWN; thread 01a17ae9-24b4-78c1-91a5-e6d407a3bd6a.
-**Type:** Will's bounded CARL L786 assignment. Original startup/approval receipt is preserved under domain/sources/2026-10-26_startup-recovery/.
+**Last session:** 2026-10-26 23:18 ET; OpenAI Codex, exact model UNK2026-10-26 23:18 ETN; existing thread 01a17ae9-24b4-78c1-91a5-e6d407a3bd6a.
+**Type:** Will-requested CARL news sweep after L786 delivery/closeout. Scope is consumer evidence, not another desk's assignment or a full backlog drain.
 
-**PRIORITY-1:** **2026-10-27 — obtain actual regular-session opening quotes and complete the seven ALREADY-DECIDED paper exits.** No fill at a 10/26 mark; all rows remain OPEN until actual quotes. Then execute the saved **10/29 08:30 ET GDP/PCE** read. No live capital action.
+**PRIORITY-1:** **10/27 regular open: actual quotes for seven already-decided paper exits.** No future fills. Then read publisher-confirmed October confidence (10:00 ET) and EIA's next gasoline/diesel release; existing GDP/PCE plan follows 10/29 08:30 ET.
 
 ---
 
 ## CHANGES SINCE LAST SESSION
-- Startup had preserved eleven BOARD reads and three corrections as deferred. L786 has now assessed them, recorded transitions/source limits and filed consumed delivery copies.
-- Source review disproved the handoff's claim that ALLY's Q3 exhibits contained comparable-vintage curves. This was an instrument/publication problem, not a chart-reading step still left undone.
-- RITM printed10/23; owned GNMA 60+ rose 30bp QoQ, while PLS fell 40bp. The primary cohort table is now read.
-- This work started with clean Git status and `git pull --rebase` reporting already up to date. Other desks subsequently changed their own files; none swept or edited here.
+- New-to-CARL PNC/Velera activity is counterevidence to broad consumer collapse. Both have selected panels and distinct definitions.
+- Edmunds Q3 rollover burden and young-adult buffer comparisons show constrained flexibility. Gartner's new October 26 headline uses August fieldwork.
+- EIA October 19 regular gas fell while diesel rose; not live October 26 quotes. Page names next releaseOctober 27.
+- Late WALTER Canada tariff-talks packet was read and Reuters independently opened: negotiation is not enacted relief.
 
 ## WHAT HAPPENED
-1. ALLY source grade: complete 29-image presentation inspection, rendered credit tables, supplement, Q2 origination-year table, SEC inventory and AART alternative checked. CRL-21 OPEN→STUCK; no fabricated 50bp comparator, confidence cut or outcome score.
-2. RITM release/supplement read COMPLETE. Directional GNMA deterioration, mixed cohorts and causal/accounting limits retained; CRL-20 remainsOPEN at 1%.
-3. All seven paper rows marked to fresh 10/26 daily bars; EXIT decisions recorded after close for 10/27 opening quotes. Actual fills PENDING; original entry fields and every row preserved.
-4. Eleven acted ledger transitions, ten WALTER copies plus three PROME gap notices filed; three correction copies scoped NO-OP. Michigan final/KFF worker-cost/AXP consumer counter-evidence integrated as KB542–545. No peer/child grade.
-5. GDP/PCE10/29 date verified at BEA; pre-release baseline and two-way reading plan saved. Source pack 97members verified with SHA-256; result and scope receipt in research/2026-10-26_L786/RESULT.md.
-
-6. PROME’s bounded addition consumed: ISHM boundary/result and FERT L758; no score change. CPI date repaired to 11/10 08:30 ET in both live calendars after independent BLS verification. Four peer/coordination packets filed; PEER_INTAKE.md retains consequence limits.
+1. Nine substantive source families assessed; 14 atomic KB facts added (546–559), source snapshots/text/hash manifest saved.
+2. STATUS current judgment and relevant rows updated; score 53/70 and every prediction/instrument unchanged. Existing paper entries/fills unchanged.
+3. One contiguous seven-row process block moved verbatim off STATUS's whole-read path, crc32 ff407123. STATUS 22,639 bytes, below the 22,785 stop. Dates/contracts remain in docket/predictions; archived detail names its read trigger. Audit: STATUS_ROTATION.json.
+4. Publisher-confirmed confidence/EIA checks added to both calendars. Existing October 29/November6 follow-through preserved.
+5. Append-only assessment transitions for SIG-W-20261021-019 and SIG-W-20261027-015. The latter sender copy was uncommitted at intake; it was not moved or committed on WALTER's behalf.
 
 ## STATUS CHANGES
 | Item | Change |
 |---|---|
-| CRL-21 | OPEN→STUCK; 25% historical mark and original Q3 question/window unchanged, unscored |
-| CRL-20 / CRL-31 | Both remain OPEN at 1%; RITM evidence added, no reprice |
-| Paper PS-0001..0007 | EXIT decisions complete; updated unrealized marks, no close fills; sevenOPEN |
-| Michigan | Preliminary replaced by final sentiment 48.0/current 46.7/expectations 48.8; inflation expectations unchanged 4.7/3.5 |
-| Other consumer facts | RITM owned GNMA 60+6.1%; KFF worker contribution$7471; AXP affluent rate1.8% |
-| Score |53/70 v2.6.6 unchanged; 12 OPEN predictions plus CRL-21 STUCK |
+| Evidence balance | Spending resilience and concentrated affordability strain coexist; no broad-collapse confirmation |
+| Fuel references | National EIA 10/19 regular 4.284/diesel 6.276, released 10/20; distinct from AAA registered instrument |
+| Forecasts / scores / paper | No new forecast, probability change, score change or paper fill |
+| L786 | Result 5b18d5a88, delivery ee1cb82fa, closeout receipt 0dbf1c3ff preserved; PROME acknowledged exact research consumption |
 
 ---
 
 ## NEXT SESSION SHOULD
-
-### IMMEDIATE (next 24hrs)
-- **10/27:** fill the seven existing paper exits from actual quotes. LONG sells bid, SHORT covers ask; actual-open fallback carries adverse 15bp. No future quote = no fill. PAPER_DISPOSITION.md gives per-row reasons.
-- Generic inbox remains outside this assignment; do not infer completion from zero BOARD action gaps.
+### IMMEDIATE (next 24 hours)
+- **10/27:** actual seven paper fills using bid/ask or adverse 15 bp on actual opening prints. Rules/reasons in research/2026-10-26_L786/PAPER_DISPOSITION.md.
+- **10/27:** confidence 10:00 ET and EIA update per canonical docket. Check observation dates and revisions; survey expectations are not outlays.
+- Incoming sender copies remain distinct from persisted delivery. Generic mail below remains unreviewed outside the sweep; no whole-inbox claim.
 
 ### UPCOMING (this week)
-- **10/28:** existing FOMC V12 count; STUE/AFT/Carvana obligations retained, not worked here. STUE assignment remains PROME's.
-- **10/29 08:30 ET:** GDP/PCE descriptive read under GDP_PCE_OCT29_PREP.md. Read revisions first; separate monthly consumption from quarterly annualized growth; no cohort-convergence inference from aggregate data. EART September remains its own existing read.
-- **10/30:** WQ-516 I3 answer remains due, not commissioned as standing research and not handled under L786.
+- **10/28:** existing FOMC/STUE/AFT/Carvana work retained; no child assignment expanded. STUE assignment remains PROME's.
+- **10/29 08:30 ET:** execute saved GDP_PCE_OCT29_PREP.md; EART September separately remains due.
+- **10/30:** WQ-516 I3 answer remains due; not newly commissioned as standing research.
 
 ### UPCOMING (next 2 weeks)
-- **11/06:** original ALLY/RITM Q3 filing/curve source checkpoint, CRL-21 STUCK remains unscored; original forecast window NOT extended. V16 NFP separately remains scheduled 11/06.
-- **11/10 08:30 ET:** October CPI, independently verified at BLS; inferred 11/12 superseded.
-- Existing Russia diesel 11/04, PHAN/POLLY 11/12, DR1 11/13, rating actions 11/15 and retail 11/17 remain unchanged.
+- **11/06:** original ALLY/RITM source checkpoint; CRL-21 remains STUCK/unscored, no forecast extension. V16 NFP separate.
+- **11/10 08:30 ET:** October CPI; other Russia-diesel 11/04, PHAN/POLLY 11/12, DR1 11/13, ratings 11/15 and retail 11/17 unchanged.
 
-### BACKLOG (no deadline)
-- Fintech WQ228 review, CRL-25 and child due grades remain existing work outside the user's L786 scope; no silent retirement.
-- VX-RED-009 fraud count and REVISION_LEDGER regeneration still pending from prior handoff.
-- 731 non-action BOARD IDs remain a historical backlog. No claim all signals were reviewed.
-- 23 child-ledger age flags remain; board_log is grep-only. Read-cap heuristic flags its bytes, not an actual whole-read instruction; no architecture repair performed.
+### BACKLOG (no new deadline)
+- Fintech WQ228 review remains due/unperformed, with its existing docket row. CRL-25/child grades, VX-RED-009 and REVISION_LEDGER remain existing work, not completed here.
+- BOARD's unrecorded non-action history is not a completed read. Twenty-three inherited child-ledger age flags remain; no fake refresh.
+- Read-cap still guesses lookup-only board_log as a whole read; explicit-read charter coverage remains unassessed.
 
 ---
 
-## OUTBOX (dated delivery packets)
+## OUTBOX
 | File | Recipient | State |
 |---|---|---|
-| PROME/inbox/2026-10-26_from-CARL_L786-owner-grades-and-oct29-prep.md | PROME | Committed ee1cb82fa; fresh-fetch push confirmed. PROME explicitly acknowledged reading the exact result and delivery in this thread. |
-| AGENTS/TERRY/inbox/2026-10-26_from-CARL_CRL21-STUCK-L786-evidence-grade.md | TERRY | Analytical grade/limit packet required by existing thread; no capital action or new construction ask |
+| AGENTS/WALTER/inbox/2026-10-26_from-CARL_consumer-news-sweep.md | WALTER | Authored for existing dedupe/routing; commit/notification and consumption reported separately |
+| PROME/inbox/2026-10-26_from-CARL_consumer-news-sweep.md | PROME | Dated outcome/limits, exact result SHA inserted after research commit |
+| PROME/inbox/2026-10-26_from-CARL_L786-owner-grades-and-oct29-prep.md | PROME | ee1cb82fa; remote confirmed; exact-artifact consumption acknowledged |
+| PROME/inbox/2026-10-26_from-CARL_L786-closeout-receipt.md | PROME | 0dbf1c3ff; explicit prior closeout ask answered PARTIAL, no session termination claim |
+| AGENTS/TERRY/inbox/2026-10-26_from-CARL_CRL21-STUCK-L786-evidence-grade.md | TERRY | Prior analytical grade/limit packet; consumption unverified |
 
 ## INBOX (remaining generic mail; one line per packet)
 | File | State |
@@ -75,42 +72,46 @@
 | 2026-10-23_from-PROME_WQ516-I3-debt-buyer-recoveries-question.md | Read at startup for authority only; answer due10/30 remains outside L786 work |
 | 2026-10-24_from-PROME_WQ516-I3-one-added-question-which-decision.md | Read at startup for authority only; answer due10/30 remains outside L786 work |
 | 2026-10-25_from-DEWEY_syf-q3-and-meta-review-correction.md | Read for L786 relevance; L567 FDM commission and meta-review remain separate, not consumed here |
+| SIG-W-20261027-015.md (WALTER lane) | Read/acted; sender copy uncommitted at intake, left for sender persistence; source independently read |
 
 ---
 
-## WORKBOOK HEALTH
-Filesystem mtime is not a freshness claim.
-| TSV | Lines | Last modified | State |
+## WORKBOOK | ABS_BASELINE.tsv | 74 | 2026-07-11 14:15 | FROZEN/reference; no real-data refresh |
+| BNPL_STRESS.tsv | 61 | 2026-06-27 21:25 | FROZEN/reference; no real-data refresh |
+| FLOW.tsv | 26 | 2026-06-27 21:25 | FROZEN/reference; no real-data refresh |
+| KB.tsv | 556 | 2026-10-26 23:15 | LIVE/event-driven; facts 546–559 added |
+| SCHEMA.tsv | 17 | 2026-07-25 21:06 | Schema/reference |
+| STATE_DIFFUSION.tsv | 64 | 2026-06-27 21:25 | FROZEN/reference; no real-data refresh |
+| TRENDS.tsv | 41 | 2026-06-27 21:25 | FROZEN/reference; no real-data refresh |
+| VX.tsv | 122 | 2026-07-11 14:15 | FROZEN/reference; no real-data refresh |
+Mtime is a filesystem timestamp, not a real-data freshness claim.
+| TSV | Lines | Last modified ET | State |
 |---|---|---|---|
-| ABS_BASELINE.tsv | 74 | 2026-07-11 14:15 ET | FROZEN/reference, no real-data refresh |
-| BNPL_STRESS.tsv | 61 | 2026-06-27 21:25 ET | FROZEN/reference, no real-data refresh |
-| FLOW.tsv | 26 | 2026-06-27 21:25 ET | FROZEN/reference, no real-data refresh |
-| KB.tsv | 542 | 2026-10-26 22:36 ET | LIVE/event-driven; KB542–545 consumer facts added |
-| SCHEMA.tsv | 17 | 2026-07-25 21:06 ET | Schema/reference |
-| STATE_DIFFUSION.tsv | 64 | 2026-06-27 21:25 ET | FROZEN/reference, no real-data refresh |
-| TRENDS.tsv | 41 | 2026-06-27 21:25 ET | FROZEN/reference, no real-data refresh |
-| VX.tsv | 122 | 2026-07-11 14:15 ET | FROZEN/reference, no real-data refresh |
+| ABS_BASELINE.tsv | 74 | 2026-07-11 14:15 | FROZEN/reference; no real-data refresh |
+| BNPL_STRESS.tsv | 61 | 2026-06-27 21:25 | FROZEN/reference; no real-data refresh |
+| FLOW.tsv | 26 | 2026-06-27 21:25 | FROZEN/reference; no real-data refresh |
+| KB.tsv | 556 | 2026-10-26 23:15 | LIVE/event-driven; facts 546–559 added |
+| SCHEMA.tsv | 17 | 2026-07-25 21:06 | Schema/reference |
+| STATE_DIFFUSION.tsv | 64 | 2026-06-27 21:25 | FROZEN/reference; no real-data refresh |
+| TRENDS.tsv | 41 | 2026-06-27 21:25 | FROZEN/reference; no real-data refresh |
+| VX.tsv | 122 | 2026-07-11 14:15 | FROZEN/reference; no real-data refresh |
 
 ---
 
 ## URGENT
-- No Will decision required by this review. The missing ALLY comparator and unavailable next-session quotes are explicit external observations, not permissions.
+No new Will decision or capital authority. Missing ALLY comparator and future paper quotes remain explicit external observations.
 
 ## CLOSEOUT RECEIPT
-| Obligation | Result / scope |
+| Obligation | Result / remaining scope |
 |---|---|
-| Consistency | rc 0, zero hard/six soft after canonical/mirror changes |
-| BOARD + corrections | rc 0 action-gap and missing-correction checks ; 11 substantive receipt transitions, 3 terminal scoped NO-OPs; duplicate history intentional and audited |
-| Roadmap / docket | Index rebuilt and checked; TSV/calendar event-set equality hand-checked; partial issuer event retained with next source checkpoint |
-| Read-cap | rc 1 on grep-only board_log guessed as whole-read; charter explicitly says lookup only, no CARL READS declaration. Not a comprehensive PASS. STATUS below 75% trigger; no fresh rotation claimed |
-| Propagation | Three Michigan preliminary metrics scanned across peers/self; candidates only, zero certified stale. No packets on unverified numeric coincidences; dated historical preliminary records retained |
-| Retirement | Same three anchors rechecked/retained, zero retired; current source bundle verified 97members |
-| Memory / TEAM | No new transferable lesson or child refresh; no auto-memory mutation or fake TEAM freshness |
-| Git | Exact authored path commits only; remote delivery requires actual safe-push fresh-fetch receipt in session output |
+| Consistency | rc 0, zero hard/six inherited soft; no forecast change |
+| Docket/roadmap | Generated index check passed; canonical calendar pairs checked after two additions |
+| BOARD/corrections | Two substantive transitions; corrections 0 missing. Actual renewed BOARD assertion below; counts do not certify substantive review |
+| Read-cap | rc 1 on lookup-only ledger heuristic; charter coverage unassessed. Real STATUS rotation reached 22,639 bytes below 70%; crc and obligation triggers audited |
+| Consumer propagation | Four scans retained. Eight raw certified gas hits were dated BRENT research/before-images/explicit carried snapshots; no wrong-current claim found. Other hits historical or different series. Fresh fuel context routes via WALTER, no blind peer edits |
+| Retirement / memory / TEAM | Same three live/pending anchors rechecked; no retirements, transferable-memory mutation or child refresh |
+| Git | Exact authored paths only; dirty foreign files left alone, pull deferred. Remote confirmation and notification acceptance reported from actual results |
 
-BOARD scan run, 0 new since SIG-W-20261027-001, 995 logged
+BOARD scan run, 4 new since SIG-W-20261027-015, 996 logged
 
-Research reading and paper disposition decisions delivered; overall completion remains PARTIAL for unobservable ALLY input and future actual paper fills. No claim of full thesis resolution or completed paper execution.
-
-## L786 CLOSEOUT ASK / RECEIPT
-PROME’s explicit bounded closeout ask was received in this existing thread after its acknowledgment of result 5b18d5a88 and delivery ee1cb82fa. Recheck observed 2026-10-26 22:55 ET: own files clean, brief pin equals STATUS HEAD 5b18d5a88, BOARD assertion unchanged, weekday check clean. Read-cap rc 1 remains the documented grep-only board_log heuristic; explicit-read charter coverage remains unassessed. STATUS 24,183 bytes is below the 75% trigger with 229 bytes headroom, and was not rotated. Orphan scan found only other sessions’ authored work outside CARL; nothing swept. Research/persistence finished; closeout remains PARTIAL for documented coverage limits. Future 10/27 fills, 10/29 releases and 11/06 source checkpoint stay in the existing docket. No new research, launch or lifecycle shutdown authorized or performed. Dated PROME closeout receipt records this answer; no assertion that other Will work or the session has terminated.
+News sweep complete; closeout remains PARTIAL for documented read-cap/charter coverage. Earlier L786 unavailable observations are preserved. Claude-native hooks, pdftotext and PyMuPDF unavailable; browser/requests and installed pdfplumber worked.

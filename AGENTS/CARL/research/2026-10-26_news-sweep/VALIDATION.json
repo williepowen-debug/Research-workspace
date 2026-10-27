@@ -1,0 +1,12 @@
+{
+  "new_KB_rows": 14,
+  "existing_KB_bytes_preserved": true,
+  "new_source_files_hashed": 13,
+  "docket_calendar_equal": true,
+  "docket_events": 25,
+  "prediction_and_paper_bytes_preserved": true,
+  "rotated_contiguous_rows": 7,
+  "rotation_crc_recomputed": true,
+  "STATUS_bytes": 22639,
+  "new_forecasts": 0
+}

@@ -1,0 +1,19 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  SELF mode: 315 files under AGENTS/CARL/ (processed/ + archive/ still excluded — historical by design). Nothing outside your own dir is scanned.
+
+  ── EIA weekly on-highway diesel · superseded 6.179 → current 6.276
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (3)
+        AGENTS/CARL/board_log.tsv:63  [6.179]  (no unit/series context on line)
+           2026-10-15T12:13Z	SIG-W-20261014-014	acted	INBOX_WALTER	Full lane+BOARD read. EIA diesel 10/12 $6.179 (-0.020 w/w, +2.514 y/y); FedEx ground
+        AGENTS/CARL/domain/sources/2026-10-15_September-CPI-read.md:69  [6.179]  (no unit/series context on line)
+           - **Diesel** (SIG-W-20261014-014): EIA on-highway 10/12 $6.179 (−$0.020 w/w, +$2.514 y/y); FedEx ground surcharge 28.75% (10/12–18) vs 29.25
+        AGENTS/CARL/thesis/PREDICTIONS.tsv:13  [6.179]  (no unit/series context on line)
+           CRL-10	2026-03-31	Food CPI YoY exceeds 4.0%	1% (was 8 - 2026-10-15 SEPTEMBER-CPI RE-GRADE, two-number rule; was 62 - 2026-09-11 REACHABILITY
+     🟢 cleared: marker-adjacent / next to new value / frozen file (2)  [--show-handled to audit]
+
+  🟠 3 CANDIDATE(s), zero certified-stale. A 🟠 is a prompt to LOOK, never a packet: confirm same series AND unit at the hit, then re-run with --unit/--series for the 🔴 verdict.
+==================================================================
+

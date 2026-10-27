@@ -1,5 +1,5 @@
 # CARL ROADMAP — "Where are we"
-**Updated:** 2026-10-26 (L786 only): ALLY source review complete, CRL-21 STUCK; RITM Q3 read; seven paper exits decided for valid10/27 quotes; receipt gap reconciled; GDP/PCE10/29 preparation saved. No score change.
+**Updated:** 2026-10-26: L786 persisted; follow-on consumer news sweep integrated; no score change. Existing approvals and dated execution/source obligations preserved.
 
 ⛔ **STRUCTURE CHANGED 2026-09-05 (Will-directed structural read-cap fix).** This file was **51,744 B = 1.57× the 32,550 B budget**, and **61% of it was the OPEN THREADS table** — **28 genuinely-open threads at ~865 B each.** ⚠️ **Rotation could not fix that: the content was LIVE, not residue** (measured — closed-rows-mis-filed were only **6%**), which is the same finding STUE produced on its own surface the same day.
 **THE FIX — read-mode, not byte-trim:** the per-thread **Status narrative** now lives in **`ROADMAP_THREADS.md`** (**grep it, NEVER read it whole**); this file carries a **GENERATED index**. **Edit threads in `ROADMAP_THREADS.md`, then `python3 AGENTS/CARL/scripts/roadmap_index.py --rebuild`.** `--check` fails closed on drift and is a closeout gate.
@@ -113,3 +113,5 @@ September24 eve (stale-record fix, Will-directed): **4 threads closed, each veri
 October12: scope review completed late (domain/sources/2026-10-12_scope-review.md); Michigan/CCB/CCL/Census/BofA integrated, SCFdenominator resolved, tariffCanadian-tail repaired;KB507–517. No childlaunch or forecastchange. WQ3997ecommandfields encoded. Retirement disposition in source report; no broad-macro collapse inferred.
 
 October26 L786: owner review completed with source limits; CRL-21 is STUCK, not still UNREVIEWED. RITM release/supplement read complete. Paper disposition decisions complete, actual next-open fills remain dated work. Seven aged receipt gaps plus four newer reads assessed; three correction copies scoped NO-OP. Source grades, paper execution rule and GDP/PCE baseline at research/2026-10-26_L786/. Unrelated threads and owner approvals preserved.
+
+October26 news sweep: eight source families integrated as KB546–558, including older October catch-up evidence; limits in research/2026-10-26_news-sweep/REPORT.md. Added publisher-confirmed confidence and EIA checks to the existing calendar. No new forecast, child commission or capital action.

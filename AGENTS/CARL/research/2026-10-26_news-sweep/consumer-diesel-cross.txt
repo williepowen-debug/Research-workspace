@@ -1,0 +1,30 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/CARL/   (processed/ + archive/ excluded everywhere — historical by design)
+
+  ── EIA weekly on-highway diesel · superseded 6.179 → current 6.276
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (17)
+        AGENTS/BRENT/NEXUS_BRIEF.md:29  [6.179]  (no unit/series context on line)
+           | HENRY / CARL / TERRY / PROME | WALTER 014 primary-checked: EIA October 12 gasoline 4.331 / diesel 6.179 USD/gal, both eased WoW; posted Oc
+        AGENTS/BRENT/board_log.tsv:593  [6.179]  (no unit/series context on line)
+           2026-10-14 14:14 EDT	SIG-W-20261014-014	acted	INBOX_WALTER	Direct EIA/FedEx primary bodies saved: October12diesel6.179/gas4.331 and lagged g
+        AGENTS/WALTER/research/2026-10-14_three-thread-verification/REPORT.md:21  [6.179]  (no unit/series context on line)
+           [EIA](https://www.eia.gov/petroleum/gasdiesel/), posted October14, observes October12 US on-highway diesel at$6.179/gallon, −$0.020 week/wee
+        AGENTS/WALTER/research/2026-10-14_three-thread-verification/SIG-W-20261014-014-diesel-retail-relief-fedex-surcharge-pass-through.md:29  [6.179]  (no unit/series context on line)
+           EIA's October14 posting observes October12 US on-highway diesel$6.179/gallon,−$0.020w/w,+$2.514y/y; September28/October5 were$6.382/$6.199. 
+        AGENTS/NEXUS/research/2026-10-23_full_pass/DIGEST_R1.md:185  [6.179]  (no unit/series context on line)
+           (a cont.) Isaias: AEOLUS gives insured loss $1–4.5bn (SECONDARY) and "No DR (EM-3655-FL …)". CORAL gives OIR 46,509 claims / ~$582M (10/15, 
+        AGENTS/BRENT/thesis/CHANGELOG.md:33  [6.179]  (no unit/series context on line)
+           Will approved the recommended maintenance/review. Direct EIAOctober14 posting now supplies October12retail gasoline4.331/diesel6.179USDgal; 
+        AGENTS/BRENT/demand_destruction/DEMAND_COMPOSITE.md:16  [6.179]  (no unit/series context on line)
+           | **US retail diesel / gasoline** (EIA direct primary) | Diesel **$6.179/gal**, gasoline **$4.331/gal**, down$0.020/$0.023 fromOctober5 | [C
+        AGENTS/BRENT/research/2026-10-20_eia-oct15-evaluation/archive-table14.csv:65  [6.179]  (no unit/series context on line)
+           "On-Highway Diesel Fuel","5.313","5.348","5.257","5.454","5.652","5.599","5.967","6.285","6.529","6.382","6.199","6.179"
+        … +9 more 🟠 hit(s) on [6.179] across 16 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+     🟢 cleared: marker-adjacent / next to new value / frozen file (1)  [--show-handled to audit]
+
+  🟠 17 CANDIDATE(s), zero certified-stale. A 🟠 is a prompt to LOOK, never a packet: confirm same series AND unit at the hit, then re-run with --unit/--series for the 🔴 verdict.
+==================================================================
+

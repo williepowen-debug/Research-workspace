@@ -1,0 +1,54 @@
+{
+  "before_bytes": 24183,
+  "new_evidence_draft_bytes": 24576,
+  "after_bytes": 22639,
+  "block_crc32": "ff407123",
+  "verbatim_recomputed": true,
+  "destination_boot_read": false,
+  "boot_ownership_audit": [
+    {
+      "item": "Auto test readiness",
+      "destination": "AGENTS/CARL/status_archive/2026-10-26_L786-obligations.md",
+      "trigger": "Existing CARL boot ROADMAP index / corresponding docket or prediction; read archived detail on working that named thread",
+      "preserved": true
+    },
+    {
+      "item": "V16",
+      "destination": "AGENTS/CARL/status_archive/2026-10-26_L786-obligations.md",
+      "trigger": "Existing CARL boot ROADMAP index / corresponding docket or prediction; read archived detail on working that named thread",
+      "preserved": true
+    },
+    {
+      "item": "Fintech consumer feed (WQ228)",
+      "destination": "AGENTS/CARL/status_archive/2026-10-26_L786-obligations.md",
+      "trigger": "Existing CARL boot ROADMAP index / corresponding docket or prediction; read archived detail on working that named thread",
+      "preserved": true
+    },
+    {
+      "item": "Source gaps",
+      "destination": "AGENTS/CARL/status_archive/2026-10-26_L786-obligations.md",
+      "trigger": "Existing CARL boot ROADMAP index / corresponding docket or prediction; read archived detail on working that named thread",
+      "preserved": true
+    },
+    {
+      "item": "DEWEY commissions",
+      "destination": "AGENTS/CARL/status_archive/2026-10-26_L786-obligations.md",
+      "trigger": "Existing CARL boot ROADMAP index / corresponding docket or prediction; read archived detail on working that named thread",
+      "preserved": true
+    },
+    {
+      "item": "**Next dated work**",
+      "destination": "AGENTS/CARL/status_archive/2026-10-26_L786-obligations.md",
+      "trigger": "Existing CARL boot ROADMAP index / corresponding docket or prediction; read archived detail on working that named thread",
+      "preserved": true
+    },
+    {
+      "item": "Routing",
+      "destination": "AGENTS/CARL/status_archive/2026-10-26_L786-obligations.md",
+      "trigger": "Existing CARL boot ROADMAP index / corresponding docket or prediction; read archived detail on working that named thread",
+      "preserved": true
+    }
+  ],
+  "retrigger": "Every STATUS append; read_cap_check at each closeout; next session October27",
+  "claims": "No full-read saving claimed for the charter heuristic; obligation block leaves whole boot path, with named triggers and canonical dated homes retained."
+}

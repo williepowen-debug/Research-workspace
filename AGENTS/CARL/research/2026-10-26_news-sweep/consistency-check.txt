@@ -1,0 +1,41 @@
+
+==============================================================================
+  CARL CONSISTENCY CHECK — A mirror · B score · D instrument · E monotonicity · F bias · G failure-shape
+==============================================================================
+  Canonical : thesis/PREDICTIONS.tsv (12 OPEN / 31 total)
+  Mirror    : PREDICTIONS_MIRROR.md '## PREDICTIONS' Open table (12 rows)
+  Ledgers   : 70 instrument-declared rows across CARL + sub-agents
+              scanned: CARL, DOC, GIG, PHAN, POLLY, POP
+
+  ✅ CHECK A — predictions mirror (PREDICTIONS.tsv ↔ PREDICTIONS_MIRROR.md) — clean.
+
+  ✅ CHECK B — convergence score (THESIS matrix ↔ STATUS mirror ↔ histogram) — clean.
+       verified: 14 THESIS vectors vs 14 STATUS mirror rows vs 3 histogram buckets; total 53/70; 1 current-score assertion site(s) agree
+
+  CHECK D — instrument declaration (does each OPEN row name what resolves it?)
+  SEV   ROW              FINDING
+  --------------------------------------------------------------------------
+  ⚠️  SOFT CRL-29           Instrument threshold clause not parseable as <op><value> (Check E will skip it): 'Band A loss rate ≥+0.77pp AND stock down'
+
+  ✅ CHECK E — cross-ledger threshold monotonicity (parent + sub-agents) — clean.
+       coverage: 55/70 rows comparable (13 qualitative, 2 no-confidence) across 54 distinct series
+       1 pair(s) compared across 1 multi-threshold series: sba :: 7(a) default rate (2)
+
+  ✅ CHECK F — bias tripwire (position-linked confidence behaviour) — clean.
+       positions: 7 open across 2 prediction(s) (CRL-20, CRL-31)
+       no confidence changed vs the previous commit — F3/F4 asserted nothing
+
+  CHECK G — registration-time failure-shape lint
+  SEV   ROW              FINDING
+  --------------------------------------------------------------------------
+  ⚠️  SOFT CRL-13           G3 CONFIDENCE 75% ≥75% with no justification token. The 75-85% band went 0-for-2 ex-ante (Brier audit) — but note CRL-04 at 98% HIT, which is why this is advisory. Add [LEVEL-CONTINUATION] or [MECHANICAL] to Notes, or cut it. [ADVISORY — this rule measured ~50% precision on CARL's own resolved record; it fires on hits as often as misses]
+  ⚠️  SOFT CRL-20           G5 NO NUMERIC BAR: prediction states no threshold — unfalsifiable by vagueness. This is the CRL-07 shape (cut 85→40 by the Brier audit). [ADVISORY — this rule measured ~50% precision on CARL's own resolved record; it fires on hits as often as misses]
+  ⚠️  SOFT CRL-22           G1 CONJUNCTION: two+ thresholds joined by AND. P(A∧B) ≤ min(P(A),P(B)) — price it as a conjunction or split it. This is the CRL-24 shape (registered at 60%, MISSED). [TIER 1 — 1/1 precision on the resolved record]
+  ⚠️  SOFT CRL-23           G1 CONJUNCTION: two+ thresholds joined by AND. P(A∧B) ≤ min(P(A),P(B)) — price it as a conjunction or split it. This is the CRL-24 shape (registered at 60%, MISSED). [TIER 1 — 1/1 precision on the resolved record]
+  ⚠️  SOFT CRL-25           G5 NO NUMERIC BAR: prediction states no threshold — unfalsifiable by vagueness. This is the CRL-07 shape (cut 85→40 by the Brier audit). [ADVISORY — this rule measured ~50% precision on CARL's own resolved record; it fires on hits as often as misses]
+       scanned 12 OPEN predictions · 0 newly registered · 5 carrying at least one failure shape
+       tiering (validated on CARL's N=10 resolved record): G1 conjunction 1/1 · G2 revision-prone 2/2 = TIER 1, gate on new registrations · G3/G4/G5 ~50% = ADVISORY, they do not discriminate
+
+  SUMMARY: 0 hard, 6 soft
+  (soft-only — no hard drift)
+

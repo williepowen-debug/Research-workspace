@@ -1,0 +1,47 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/CARL/   (processed/ + archive/ excluded everywhere — historical by design)
+
+  ── EIA regular weekly gasoline · superseded 4.331 → current 4.284
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (8)
+        AGENTS/BRENT/research/2026-10-20_eia-oct15-evaluation/REPORT.md:7  [4.331]
+           1. **High pump prices persist without the registered volume response.** EIA regular-all-formulations gasoline is$4.331/gal onOctober12 versu
+        AGENTS/BRENT/research/2026-10-20_eia-oct15-evaluation/before/demand_destruction__TRACKER.md:41  [4.331]
+           > | 4 | **GASREGW > $4.00** | **$4.331/gal**, October12 observation [CONF EIA October14 posting, direct primary read; re-verified 10/15, unc
+        AGENTS/BRENT/research/2026-10-20_eia-oct15-evaluation/before/routine-eia-2026-10-15.md:42  [4.331]
+           **Retail gasoline (GASREGW):** already captured and recorded on the October14 operational follow-up — **$4.331/gal, week of Oct 12, 2026** [
+        AGENTS/BRENT/research/2026-10-20_eia-oct15-evaluation/before/routine-eia-2026-10-15.md:53  [4.331]
+           | 4 | GASREGW > $4.00 | **$4.331/gal, Oct 12 observation** [CONF, already recorded 10/14; re-verified, unchanged] | 🟢 Above the line. No new
+        AGENTS/BRENT/demand_destruction/data/eia_2026-10-15.md:44  [4.331]
+           **Retail gasoline (GASREGW):** already captured and recorded on the October14 operational follow-up — **$4.331/gal, week of Oct 12, 2026** [
+        AGENTS/BRENT/demand_destruction/data/eia_2026-10-15.md:55  [4.331]
+           | 4 | GASREGW > $4.00 | **$4.331/gal, Oct 12 observation** [CONF, already recorded 10/14; re-verified, unchanged] | 🟢 Above the line. No new
+        AGENTS/BRENT/demand_destruction/data/eia_2026-10-21.md:44  [4.331]
+           **Retail gasoline (GASREGW):** **NOT AVAILABLE this run** — FRED (`fredgraph.csv?id=GASREGW`) returned a site-wide scheduled-maintenance pag
+        AGENTS/BRENT/demand_destruction/data/eia_2026-10-21.md:55  [4.331]
+           | 4 | GASREGW > $4.00 | **$4.331/gal, Oct 12 observation** [CONF, carried — FRED under scheduled maintenance this run, could not re-verify] 
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (16)
+        AGENTS/BRENT/board_log.tsv:593  [4.331]  (no unit/series context on line)
+           2026-10-14 14:14 EDT	SIG-W-20261014-014	acted	INBOX_WALTER	Direct EIA/FedEx primary bodies saved: October12diesel6.179/gas4.331 and lagged g
+        AGENTS/BOND/data/auction_history_prome-spawned.csv:130  [4.331]  (no unit/series context on line)
+           2024-03-13,30Y,Bond,True,False,2024-03-15,2054-02-15,912810TX6,22000000000,22000030500,4.331,2.47,3061000000,3685400000,15223796800,0,0.1391
+        AGENTS/BRENT/thesis/CHANGELOG.md:33  [4.331]  (no unit/series context on line)
+           Will approved the recommended maintenance/review. Direct EIAOctober14 posting now supplies October12retail gasoline4.331/diesel6.179USDgal; 
+        AGENTS/BRENT/demand_destruction/DEMAND_COMPOSITE.md:16  [4.331]  (no unit/series context on line)
+           | **US retail diesel / gasoline** (EIA direct primary) | Diesel **$6.179/gal**, gasoline **$4.331/gal**, down$0.020/$0.023 fromOctober5 | [C
+        AGENTS/BRENT/thesis/prediction_notes/BRT-31.md:20  [4.331]  (no unit/series context on line)
+           First week NON-QUALIFYING: exact four-week WGFUPUS2 comparison−0.3959714211930791%, qualifying streak0. Price checkOctober12$4.331 versusOct
+        AGENTS/BRENT/research/2026-10-20_eia-oct15-evaluation/archive-table14.csv:54  [4.331]  (no unit/series context on line)
+           "  Regular","4.096","4.079","4.006","4.049","4.085","4.071","4.157","4.319","4.478","4.465","4.354","4.331"
+        AGENTS/BRENT/research/2026-10-20_eia-oct15-evaluation/before/demand_destruction__TRACKER.md:101  [4.331]  (no unit/series context on line)
+           | 2026-10-09 | $4.331 (Oct12 retail, recorded 10/14) | −0.4% [CONF, first BRT-31 window print] | — (not this routine's pull) | — (not this r
+        AGENTS/BRENT/research/2026-10-20_eia-oct15-evaluation/before/NEXUS_BRIEF.md:14  [4.331]  (no unit/series context on line)
+           | HENRY / CARL / TERRY / PROME | WALTER014 primary-checked: EIAOctober12gasoline4.331/diesel6.179USDgal, both easedWoW; postedOctober14. Fed
+        … +8 more 🟠 hit(s) on [4.331] across 15 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+     🟢 cleared: marker-adjacent / next to new value / frozen file (10)  [--show-handled to audit]
+
+  🔴 8 stale consumer reference(s). Send each owner a packet with the refreshed value — do NOT edit their files.
+==================================================================
+

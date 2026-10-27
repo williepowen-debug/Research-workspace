@@ -1,0 +1,139 @@
+[
+  {
+    "file": "sources/gartner.html",
+    "url": "https://www.gartner.com/en/newsroom/press-releases/2026-10-26-gartner-marketing-survey-finds-nearly-60-percent-of-us-consumers-have-less-to-spend-this-holiday-season",
+    "retrieved_at": "2026-10-27T03:03:49.157545+00:00",
+    "status": 403,
+    "final_url": "https://www.gartner.com/en/newsroom/press-releases/2026-10-26-gartner-marketing-survey-finds-nearly-60-percent-of-us-consumers-have-less-to-spend-this-holiday-season",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 10518
+  },
+  {
+    "file": "sources/edmunds.html",
+    "url": "https://www.edmunds.com/car-news/Q3-2026-negative-equity-report.html",
+    "retrieved_at": "2026-10-27T03:03:49.159166+00:00",
+    "status": 403,
+    "final_url": "https://www.edmunds.com/car-news/Q3-2026-negative-equity-report.html",
+    "content_type": "text/html",
+    "bytes": 16274
+  },
+  {
+    "file": "sources/pnc.html",
+    "url": "https://www.pnc.com/en/about-pnc/media/economic-reports/consumer-health-check/consumer-health-check-2026-october.html",
+    "retrieved_at": "2026-10-27T03:03:49.160411+00:00",
+    "status": 200,
+    "final_url": "https://www.pnc.com/en/about-pnc/media/economic-reports/consumer-health-check/consumer-health-check-2026-october.html",
+    "content_type": "text/html;charset=utf-8",
+    "bytes": 186347,
+    "sha256": "60e1709848ef6d76bb3428569af53e3fa8420cfe9ace148e1f83a4a4680f5b62"
+  },
+  {
+    "file": "sources/pnc.pdf",
+    "url": "https://www.pnc.com/content/dam/pnc-com/pdf/aboutpnc/EconomicReports/consumer_health_check/PNC_Consumer_Health_Check_October_2026.pdf",
+    "retrieved_at": "2026-10-27T03:03:49.161566+00:00",
+    "status": 200,
+    "final_url": "https://www.pnc.com/content/dam/pnc-com/pdf/aboutpnc/EconomicReports/consumer_health_check/PNC_Consumer_Health_Check_October_2026.pdf",
+    "content_type": "application/pdf",
+    "bytes": 968972,
+    "sha256": "819facbbcad6a15c0b2768a1dea2b538f4d9ff1fdaeb52bb19572a853837d956"
+  },
+  {
+    "file": "sources/velera.pdf",
+    "url": "https://res.cloudinary.com/drlz1sm4h/image/upload/v1792085535/Velera_Payments_Index_OCT_26_ae82811c22.pdf",
+    "retrieved_at": "2026-10-27T03:03:49.162644+00:00",
+    "status": 200,
+    "final_url": "https://res.cloudinary.com/drlz1sm4h/image/upload/v1792085535/Velera_Payments_Index_OCT_26_ae82811c22.pdf",
+    "content_type": "application/pdf",
+    "bytes": 2190681,
+    "sha256": "c56d621813411d989acfbaeb24001ccf0ab59ee76d81558f56ca388bdca83ed3"
+  },
+  {
+    "file": "sources/cox.html",
+    "url": "https://www.coxautoinc.com/insights/sept-2026-cai/",
+    "retrieved_at": "2026-10-27T03:03:49.164691+00:00",
+    "status": 200,
+    "final_url": "https://www.coxautoinc.com/insights/sept-2026-cai/",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 373397,
+    "sha256": "e92c4559345661df8f6db2b6f8e1078142f1d709ff5cc35d7a95ccaea8aef432"
+  },
+  {
+    "file": "sources/eia.html",
+    "url": "https://www.eia.gov/petroleum/gasdiesel/",
+    "retrieved_at": "2026-10-27T03:03:49.324429+00:00",
+    "status": 200,
+    "final_url": "https://www.eia.gov/petroleum/gasdiesel/",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 114590,
+    "sha256": "d018434696cbe8461c74bac31b36da773af866336c8423ede85875d7445f8b7a"
+  },
+  {
+    "file": "sources/conference-board.html",
+    "url": "https://www.conference-board.org/topics/consumer-confidence",
+    "retrieved_at": "2026-10-27T03:03:49.395898+00:00",
+    "status": 200,
+    "final_url": "https://www.conference-board.org/topics/consumer-confidence/",
+    "content_type": "text/html;charset=UTF-8",
+    "bytes": 333502,
+    "sha256": "3870240240d3a703f3d38da3112e23a3f576cbb883e6e14afc88f27d7acc57fa"
+  },
+  {
+    "file": "sources/nrf.html",
+    "url": "https://nrf.com/media-center/press-releases/nrf-forecasts-2026-holiday-sales-growth-as-consumers-remain-resilient",
+    "retrieved_at": "2026-10-27T03:03:49.423757+00:00",
+    "status": 200,
+    "final_url": "https://nrf.com/media-center/press-releases/nrf-forecasts-2026-holiday-sales-growth-as-consumers-remain-resilient",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 315887,
+    "sha256": "766abe38410f2f74fecaed034572741ba70ecdc31c9e750e8c72908513364df7"
+  },
+  {
+    "file": "sources/florida-oir.html",
+    "url": "https://content.govdelivery.com/accounts/FLOIR/bulletins/42bd577",
+    "retrieved_at": "2026-10-27T03:03:49.434975+00:00",
+    "status": 200,
+    "final_url": "https://content.govdelivery.com/accounts/FLOIR/bulletins/42bd577",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 30032,
+    "sha256": "4835d5f58f653ebd792ff71ff043754df1350ca26319672336f94f80c56001ef"
+  },
+  {
+    "file": "sources/crs-attempt.pdf",
+    "url": "https://www.congress.gov/crs_external_products/IF/PDF/IF13335/IF13335.1.pdf",
+    "retrieved_at": "2026-10-27T03:03:49.497416+00:00",
+    "status": 200,
+    "final_url": "https://www.congress.gov/crs_external_products/IF/PDF/IF13335/IF13335.1.pdf",
+    "content_type": "application/pdf",
+    "bytes": 537503,
+    "sha256": "f435025ccc2ef16862080ddc0c0d0445842d32ae543a4f77ce500459fab0219b"
+  },
+  {
+    "file": "sources/pnc.txt",
+    "derived_from": "sources/pnc.pdf",
+    "bytes": 28455,
+    "sha256": "88fde3fbcfdf2ac90f67c30ad46d6a061f08921d2fe63c270b8d35a8e0b29ebd",
+    "method": "installed pdfplumber; source PDF retained"
+  },
+  {
+    "file": "sources/velera.txt",
+    "derived_from": "sources/velera.pdf",
+    "bytes": 25689,
+    "sha256": "a9580ff5c1cabdcaca8cfe35cc43231ac5628967295ce4a9cd7b723e2486b292",
+    "method": "installed pdfplumber; source PDF retained"
+  },
+  {
+    "file": "sources/crs-attempt.txt",
+    "derived_from": "sources/crs-attempt.pdf",
+    "bytes": 11416,
+    "sha256": "3aec1bfce9d31770e2f2fb403471fb3ca9eebf89c65168435c88aaeaa1815b2f",
+    "method": "installed pdfplumber; source PDF retained"
+  },
+  {
+    "file": "sources/reuters-canada.html",
+    "url": "https://www.aol.com/articles/exclusive-us-canada-working-deal-192957000.html",
+    "status": 200,
+    "retrieved_at": "2026-10-27T03:15:22.046517+00:00",
+    "bytes": 798729,
+    "sha256": "139a0a7c7e5f7b23c56390d8f73b6a79e1b51baaaa089714b99e230a6738838c"
+  }
+]

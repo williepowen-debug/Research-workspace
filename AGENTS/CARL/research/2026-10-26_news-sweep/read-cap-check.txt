@@ -1,0 +1,27 @@
+READ-CAP [CARL] — cap 54,250 B · budget 32,550 B (60%) · ALL % BELOW ARE OF BUDGET (the number every verdict grades; ≥100% = over) · perimeter: 2 boot section(s) in CLAUDE.md, 35 'read' line(s) scanned (2 on-demand/grep + 0 SCOPED-read token(s) excluded by marker; 0 list item(s) inherited the parent line's read verb, L530), 8 whole-read file(s) found; boot.py-internal reads and prose outside the boot section NOT seen (heuristic — READS.tsv replaces it)
+  🟠 board_log.tsv                        36,838 B   113% of budget  over budget (readable, no headroom)  (boot-step line 74)
+      ↳ rule 5 STOP is <70% of budget (22,785 B): REMOVE 14,054 MORE B to finish rotating. ⛔ Stopping at the 75% TRIGGER is not finishing — that band re-breaches on the next append (PAT-055 regrowth), which is why rule 5 has two thresholds.
+  ✅ STATUS.md                            22,639 B    70% of budget    (boot-step line 65 · ALSO read whole by NEXUS:6)
+  ✅ ROADMAP.md                           21,405 B    66% of budget    (boot-step line 76)
+  ✅ TEAM.md                              14,352 B    44% of budget    (boot-step line 67)
+  ✅ SPAWN_PROTOCOL.md                    13,461 B    41% of budget    (boot-step line 67)
+  ✅ MEMORY.md                            12,324 B    38% of budget    (boot-step line 64)
+  ✅ SCRATCH.md                           10,216 B    31% of budget    (boot-step line 63)
+  ✅ workbook/SCHEMA.tsv                   4,211 B    13% of budget    (boot-step line 66)
+⚠️  READ-CAP [CARL] — READ THIS BEFORE ACTING ON THE FINDING BELOW. The perimeter is the CHARTER HEURISTIC, not a declaration: this check GUESSED which files this desk reads at boot, by matching a `.md`/`.tsv` token on a line containing 'read' inside the boot section.
+   ⛔ FIRST QUESTION, BEFORE ANY TRIM: is the flagged file actually READ AT BOOT? A match on a CLOSEOUT step, a script invocation, or a file merely NAMED in the boot section is a FALSE BREACH — measured live 2026-09-14 on a desk whose match was a step self-labelled '(closeout, not boot)'.
+   ⇒ If it is NOT a boot read, this finding is VOID and nothing is owed; declare the file in PROME/registry/READS.tsv so no later run repeats the guess. ⛔ NEVER trim a live contract to satisfy a guessed perimeter.
+⚠️  READ-CAP 1 [CARL]: 1 boot-mandated read(s) over budget, 0 over the CAP itself. Remedy = two-state rotation (verbatim, crc-stamped, to archive/) or hot/cold split — per surface, owner's choice of HOW. ⛔ Never raise the budget: the read cap is not ours to move.
+   ⛔ AND DO NOT TRY TO REWRITE ALREADY-COMPRESSED TEXT UNDER: a tightening pass over settled prose RELIABLY ADDS bytes (measured +242 B and +451 B on two real attempts) because the compression is already gone and all a re-read adds is the disambiguation it notices. Only MOVING text out removes them — rotate, or collapse several verbose pointers into ONE terse index; both are mechanical, a rewrite is not. (RED 2026-09-12: a reword DOES gain on a first draft you wrote an hour ago and have not yet compressed — +584 B there — but it hits a content floor, and rotation is what clears budget.)
+   ℹ️  IF A FLAGGED FILE IS NOT ACTUALLY READ WHOLE, the fix may be your CHARTER'S
+      WORDING, not the file. This scanner keys on LITERAL phrases; a semantically exact
+      paraphrase does NOT match (BROCK wrote 'never whole' and stayed flagged).
+      Phrases that EXCLUDE a file: 'on demand', 'on-demand', 'grep', 'cold', 'by id', 'per-agent', 'do not read', 'never read', 'not a boot read', 'read per-agent'.
+      Phrases that mark a PART read: 'header', 'section', 'the top', 'first/last N',
+      'only the', 'just the', 'rows ', 'lines ', 'table', 'summary'.
+      ⛔ The matcher is deliberately LITERAL and fail-closed. Say the exact words — or
+      declare the file in PROME/registry/READS.tsv, which supersedes this heuristic.
+  ℹ️  charter AGENTS/CARL/CLAUDE.md = 48,517 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+  ✉️  OWNER-DIRECTED NOTICE [CARL] (READ_CAP rule 15): 1 file(s) under AGENTS/CARL/ that OTHER desks' declared boot reads load WHOLE — counted in THOSE readers' perimeters, NOT in this desk's totals or rc. The bytes are this desk's to rotate (rule 4); a breach here is also turning the READER's check red.
+     ✅ AGENTS/CARL/NEXUS_BRIEF.md            7,341 B    23% of budget  under 75% of budget  ← read whole by NEXUS:6
+READ-CAP-RESULT v1 mode=agent rc=1 assessed=1 desk=CARL reads=8 over_budget=1 over_cap=0 manifest_defects=0 advisories=0 generated_flagged=0 rotation_due=1 active_decisions_over_budget=0 charter_mode=unspecified charter_reads=0 owner_notices=1 owner_notices_over_budget=0 charter_bytes=48517
