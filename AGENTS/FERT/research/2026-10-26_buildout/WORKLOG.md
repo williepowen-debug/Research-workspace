@@ -25,3 +25,13 @@ Evidence is saved under sources/ as retrieved; browser extracts are labelled ext
 ## Resume points
 
 Follow `DATA_ROUTES.md` and `companies/CF/Q3_PREP.md` at the existing named wakes. Start with China official/YTD and CF Q3/commitment detail, then country import composition and crop-specific affordability. Initial baselines are complete; domain-wide coverage is still partial. This record does not promise unattended execution between sessions.
+
+## Final closeout — requested by Will
+
+The operator asked to document the initial interpretation and close this session. `reports/2026-10-26_closeout.md` records the distinction between 989 data rows and independent evidence, the current judgment, and resume points. No new market read or gate grade.
+
+PROME has now consumed build commit 0ab3db312 on a bounded basis: hashes, seven table shapes/counts and CF additive EBITDA verified. Its consumption report is `PROME/reports/2026-10-26_fert-build-consumption.md`. This supersedes the earlier UNKNOWN consumption and pending-transcription notes above: 24 read rows were transcribed, but declaration remains PARTIAL/UNKNOWN because BASIS rows are missing and the optional correction-receipt file is absent. Owner correction and exact provisional potash affected-ID mapping remain for the existing maintenance wake, as expressly requested by PROME. No missing receipt was fabricated.
+
+PROME could not reproduce the extractor because pandas import failed in its runtime. FERT rechecked successful imports and saved exact interpreter/package paths and versions in ENVIRONMENT.json; DATA_ROUTES and the report now qualify environment claims. No package installed. All source values and baseline counts remain unchanged.
+
+The maintenance packet was read, logged as deferred and filed in processed/; the inbox receipt holds the resume pointer. Local commits and verified Codex notification complete this session's persistence/delivery work; other owners' dirty paths keep pull/push deferred. A notification acceptance is not consumption of the new closeout packet.

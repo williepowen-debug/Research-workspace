@@ -5,12 +5,19 @@
   "recipient_identity_evidence": "read_thread returned PROME cwd and Boot PROME for Monday night title before send",
   "transport": "mcp__codex_tui__send_message_to_thread",
   "notification": "accepted; tool returned recipient threadId with isError=false",
-  "consumption": "UNKNOWN; no artifact-version acknowledgment observed",
+  "consumption": "PROME bounded acceptance of 0ab3db312: source hashes, seven table counts/shapes and CF additive EBITDA; full extractor reproduction unverified.",
   "peer_packets": [
     "AGENTS/CARL/inbox/2026-10-26_from-FERT_farm-cost-baseline.md",
     "AGENTS/HENRY/inbox/2026-10-26_from-FERT_intermediate-price-baseline.md"
   ],
   "orphan_check": "PASS for FERT-authored packets; other-owner dirty paths flagged to PROME in the delivery notice",
   "push": "deferred under dirty-owner worktree rule",
-  "consumer_check": "No new numeric supersession of a market/gate figure; only dated baseline additions and KB lifecycle metadata. No new consumer scan required."
+  "consumer_check": "No new numeric supersession of a market/gate figure; only dated baseline additions and KB lifecycle metadata. No new consumer scan required.",
+  "consumption_receipt": "PROME/reports/2026-10-26_fert-build-consumption.md",
+  "packet_current_path": "PROME/inbox/processed/2026-10-26_from-FERT_approved-domain-build.md",
+  "owner_closeout": "Will explicitly requested documentation and session closeout.",
+  "maintenance_packet": "AGENTS/FERT/inbox/processed/2026-10-26_from-PROME_build-acceptance-and-registry-corrections.md",
+  "maintenance_status": "Deferred to existing maintenance wake as PROME requested; read declaration BASIS/optional file semantics and potash mapping IDs remain owed.",
+  "final_closeout_packet": "PROME/inbox/2026-10-26_from-FERT_session-closeout.md",
+  "final_closeout_consumption": "UNKNOWN"
 }

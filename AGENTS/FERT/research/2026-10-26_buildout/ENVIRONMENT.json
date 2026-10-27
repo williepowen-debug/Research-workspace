@@ -1,0 +1,26 @@
+{
+  "observed_at": "2026-10-27T03:59:24.431767+00:00",
+  "runtime": "FERT Codex",
+  "executable": "/home/willi/Research-workspace/.venv/bin/python",
+  "python_version": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "packages": {
+    "pandas": {
+      "version": "3.0.3",
+      "module_path": "/home/willi/Research-workspace/.venv/lib/python3.12/site-packages/pandas/__init__.py"
+    },
+    "bs4": {
+      "version": "4.14.3",
+      "module_path": "/home/willi/Research-workspace/.venv/lib/python3.12/site-packages/bs4/__init__.py"
+    },
+    "openpyxl": {
+      "version": "3.1.5",
+      "module_path": "/home/willi/Research-workspace/.venv/lib/python3.12/site-packages/openpyxl/__init__.py"
+    },
+    "pdfminer": {
+      "version": "20260107",
+      "module_path": "/home/willi/Research-workspace/.venv/lib/python3.12/site-packages/pdfminer/__init__.py"
+    }
+  },
+  "scope": "Imports succeeded in this FERT runtime; does not establish another runtime or a clean-environment reconstruction. No package installed.",
+  "prome_rerun": "PROME consumption report states pandas import failure; independent full reproduction unverified."
+}
