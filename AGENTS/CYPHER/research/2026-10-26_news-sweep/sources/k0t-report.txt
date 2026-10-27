@@ -1,0 +1,599 @@
+Source: https://www.group-ib.com/blog/stray-cat-network-edge/
+Retrieved: 2026-10-26T23:08:55-04:00
+
+Stray Cat, Open Doors: How k0t Wanders Through the Network Edge | Group-IB Blog
+Report an incident
+Get 24/7 incident response assistance from our global team
+APAC:
++65 3159 4398
+EU & NA:
++31 20 890 55 59
+MEA:
++971 4 540 6400
+LATAM:
++56 2 275 473 79
+Products
+The Unified Risk Platform
+Prevent breaches, fraud, and brand abuse with intelligence-driven solutions powered by a single platform
+Integrations
+Enhance your portfolio by integrating Group-IB solutions
+Products
+Threat Intelligence
+Attack Surface Management
+Fraud Protection
+Digital Risk Protection
+Managed XDR
+Business Email Protection
+Cyber Fraud Intelligence
+Platform
+Cloud Security Posture
+Management
+Free Tools
+Email Protection Audit Program
+Messages and Files Encryption
+Network Protection Assessment
+Malware Reports
+Integrations
+Enhance your portfolio by integrating
+                    Group-IB solutions
+Learn more
+Services
+Services Retainer
+From emergency support to strategic resilience in one agreement
+Learn more
+Assessment
+Incident Response Readiness Assessment
+Penetration Testing
+Vulnerability Assessment
+Red Teaming
+Purple Teaming
+Compromise Assessment
+AI Red Teaming
+SOC Assessment
+Tabletop Exercises
+Development
+SOC Consulting
+Threat Landscape
+Response
+Incident Response
+Incident Response Retainer
+Digital Forensics
+Regional Threat Readiness Program
+Training
+Training for Technical Specialists
+Management Masterclasses
+Hi-Tech Crime Investigation
+Cyber Investigation
+Investigation Subscription
+Solutions
+Solutions by Role
+CISO
+Head of Fraud
+Head of Brand Protection
+Head of Threat Intelligence
+SOC Manager
+Security Analyst
+Solutions by Use Case
+Data Leak Detection
+Ransomware Protection
+Phishing and Scam Protection
+Bot Protection
+Business Email Protection
+Dark Web and Deep Web Monitoring
+Building CTI Program
+Vulnerability Management
+Supply Chain Attacks
+Network Security
+Data Center Security
+Solutions by Industry
+Law Enforcement
+Regulatory Compliance
+Retail and e-Commerce
+Crypto Industry
+Governments
+Telecom and Service Providers
+Online Gambling and Betting
+Financial Services
+Insurance Sector
+OT/ICS Cybersecurity
+Manufacturing Industry
+Small and Medium Business
+Oil and Gas
+SaaS
+Energy and Utility
+Healthcare
+Solutions by Role
+CISO
+Head of Fraud
+Head of Brand Protection
+Head of Threat Intelligence
+SOC Manager
+Security Analyst
+Outrunning ransomware
+Ransomware spreads quickly across networks, exploiting vulnerabiliti...
+Explore solutions
+Data Leaks
+Implement proven secure data practices along with a comprehen...
+Explore solutions
+Dark Web Monitoring
+Effectively safeguard your business assets against unseen risks...
+Explore solutions
+Subscription Plans
+Resources
+The world of cybersecurity in one place
+Discover our resource center
+Discover our resource center
+AI Cybersecurity Hub
+Your guide to AI innovation, adoption, and acceleration in cybersecurity
+Research Hub
+Success Stories
+Knowledge Hub
+Certificates
+Webinars
+Masked Actors
+Podcasts
+Investigations
+FAQ
+Ransomware Notes
+Cybercrime Fighters Club
+Before Fraud Transacts
+Modern fraud isn't an event. It's an industrialised campaign that begins weeks before the payment.
+                          The transaction is where fraud ends, not where it happens. This paper shows how to disrupt the campaign weeks before the payment, not document it after.
+Learn more
+AI Cybersecurity Hub
+Your guide to AI innovation, adoption, and acceleration in cybersecurity
+Learn more
+Blog
+Company
+About Group-IB
+Team
+CERT-GIB
+Careers
+Internship
+Academic Alliance
+Sustainability
+Media Center
+Contact
+Partners
+Partner Program
+MSSP and MDR Partner Program
+Technology Partners
+Partner Locator
+Subscription Plans
+Blog
+Report an incident
+Talk to sales
+Sign in
+Sign in
+Share this article
+Found it interesting? Don't hesitate to share it to wow your friends or colleagues
+← Blog
+Share this article
+Found it interesting? Don't hesitate to share it to wow your friends or colleagues
+Tsai Shun Ling
+Cyber Intelligence Analyst
+Nikolay Kichatov
+Cyber Intelligence Analyst
+KT Gan
+Co-founder and CEO, NyxLab
+Chris Au
+CTO, NyxLab
+Stray Cat, Open Doors: How k0t Wanders Through the Network Edge
+Group-IB and NyxLab expose threat actor k0t's large-scale campaign exploiting FortiGate, FortiWeb, and Palo Alto GlobalProtect edge devices to harvest credentials, establish persistent access and exfiltrate data
+October 21, 2026 ·
+min to read · Threat Intelligence
+Account Compromise
+Brute-forcing
+Compromised credentials
+Vulnerability exploitation
+Introduction
+Group-IB
+Threat Intelligence
+, together with NyxLab, collaborated on a joint investigation on a campaign involving widespread exploitation of network edge devices. This joint-investigation effort has managed to uncover indications that this may be connected to the FortiBleed cluster seen earlier this year in June as well as the exposure of adversarial tooling as well as discovery of Tactics, Techniques and Procedures (TTPs) employed by the threat actor known as ‘k0t’. Notable among the observed TTPs is the exploitation of vulnerabilities in network devices such as FortiGate Firewalls and Palo Alto GlobalProtect to gain initial access. Artifacts from this investigation also indicate that operators in this campaign have obtained access to numerous organizations worldwide, and have attempted to further compromise some victims, resulting in persistent remote access and data exfiltration.
+From our investigation we also note victim overlaps with several ransomware groups such as Qilin and The Gentlemen, suggesting a possible relationship with ransomware operators or an Initial Access Broker (IAB) role However at this point of the investigation, the relationship between the campaign operators and these ransomware groups, including any direct affiliation, is still unconfirmed.
+Due to the large amount of technical information acquired over the course of this investigation, we will be publishing an additional in-depth technical report at a later time.
+Key discoveries
+Large-scale campaign involving vulnerability exploitation and brute-forcing of exposed network devices
+More than 70,000 exposed credentials associated with network devices, LDAP dumps etc. which were not linked to any other threat actors, including the previously reported FortiBleed cluster
+Persistent access to corporate networks via OpenConnect VPN as well as installation of Remote Monitoring and Management (RMM) tools as well as AdaptixC2
+Artifacts and ransomware overlaps indicate that this may be an Initial Access operation undertaken by Brokers with association with various ransomware groups.
+Who may find this blog interesting:
+Cybersecurity analysts and corporate security teams
+Threat intelligence specialists
+Network security specialists
+Cyber investigators
+Computer Emergency Response Teams (CERT)
+Group-IB Threat Intelligence Portal: k0t
+Group-IB customers can access our
+Threat Intelligence portal
+for more information about this threat actor.
+Victimology
+Victims we have observed in this campaign are global and from a wide range of industries. This lack of specificity is likely due to the operators’ chosen reconnaissance approach targeting exposed devices such as FortiGate and FortiWeb firewalls, Palo Alto GlobalProtect etc. as such, any analysis done based on the distribution of victims observed in this campaign is likely a reflection of less than ideally configured network devices that are vulnerable to being discovered using public network scanning tools. We also note that many of the FortiGate compromises are dated between February 2026 and June 2026, a stark overlap in timeline with the widely reported FortiBleed campaign.
+Since victim identifiers observed vary from public domains and email addresses to internal IPs, exact victim attribution cannot be verified for the entirety of the observed victim list. However, we note some number of  unique domains mentioned in adversarial operational data, and estimate this to be the lower bound of actual victim organizations affected by this campaign.
+Of these unique domains, we note the following geographical distribution.
+The Asia Pacific and Latin America regions account for the largest share of unique domains identified in the available dataset. However, this distribution should not be interpreted as evidence of deliberate regional targeting. It may instead reflect the geographic distribution of exposed devices identified through public scanning and access-data services.
+Attack Chain
+Reconnaissance is conducted through public scanning tools rather than target-specific research. Using the attack-surface search engines like FOFA and ZoomEye, the operators enumerate internet-facing VPN and firewall appliances in bulk, filtering candidates by product and exposure to assemble large target lists of potentially vulnerable edge devices. The operators then attempt to gain initial access by attempting to exploit vulnerabilities in the exposed appliances or perform brute force attacks. On successful attack additional credential harvesting is performed at the compromised device, and connection to the targets are achieved via OpenConnect VPN connection. At this stage, majority of the devices seen being targeted are Fortinet firewalls and Palo Alto GlobalProtect devices/portals.
+Figure 1. General attack chain observed by campaign operators.
+Once initial access has been gained, the operators continue their intrusion via hands-on-keyboard attacks, undertaking discovery activities, performing additional credential theft and attempting to escalate toward domain-administrator control. To ensure they retain access, they establish persistence by deploying remote-management agents such as MeshAgents to control compromised devices from a central MeshCentral server, as well as other more commonly abused Remote Monitoring and Management (RMM) tools such as Atera. Many organizations that have been successfully compromised by the operators in this campaign had data exfiltrated, and have also been listed by various ransomware groups such as
+Qilin
+and
+The Gentlemen
+.
+Reconnaissance
+k0t appears to select potential targets by enumerating exposed network appliances at scale rather than researching individual organizations. His stated geographic priorities begin with the United States and Canada, followed by European countries and selected APAC markets. The product and location of an exposed device therefore appear to matter more than the industry of the organization operating it, consistent with the broad range of victims observed in this campaign.
+Attack-surface search engines are central to this approach. In a public forum post, k0t sought either a premium FOFA account or someone who could retrieve IP addresses from FOFA, ZoomEye and Censys on request. He later reported finding partners for FOFA and ZoomEye (Figure 2). He also sought bulk results in ip:port format so that target lists could be processed by automated tools.
+Figure 2. k0t requests a premium FOFA account or on-demand IP exports from FOFA, ZoomEye and Censys. In a follow-up post, he says he has found partners for FOFA and ZoomEye.
+GlobalProtect portals are the most prominent target in the observed searches. k0t searched for login-page, response-content and certificate characteristics, first in North America and then across Europe and APAC. These broad searches could yield large lists of candidate portals, which he requested in a format suitable for automated checking. He also showed interest in FortiWeb and FortiGate systems, while searches for SonicWall SMA1000 management consoles suggest an additional area of interest. OPNsense appears among the products he checked, and his vulnerability monitoring extended to Cisco ISE. Current available evidence does not indicate a successful SMA1000 compromise by k0t.
+k0t did not rely on one source of target data. Besides search-engine exports, public forum posts show him using and endorsing underground services that supply bulk, product-filtered IP lists, which included AccessTracker and FortiSSL. Such services give him another way to obtain candidate devices when a direct search-engine export is unavailable. k0t was also observed participating in a public thread offering Fortinet access, showing interest in ready-made access. However there was no clear indication if any credential was received or used. Once gathered, candidate addresses were sorted by country and combined into lists for further checking.
+Figure 3. Under the aliases “Member19” and “CryptoFeel,” the intruder left reviews of test runs of a service that provides IP lists of network devices for use in future attacks.
+His own checkers provided another layer of validation. An OPNsense checker compared multiple indicators found on a web panel, including certificate and login-page characteristics, to reduce false positives. A separate FortiGate scanner also tested the reachability of management and SSH services on common and alternative ports. Together with geographic sorting, these tools turned large collections of potential targets into smaller sets for assessment. The following Initial Access section describes the Fortinet and GlobalProtect techniques; discovery of a host alone does not mean it was attacked. Public forum activity also indicates an interest in improving attack automation and tracking newly disclosed vulnerabilities.
+Initial Access
+FortiGate Security Scanner
+Initial access into victims’ corporate networks via FortiGate and FortiWeb devices is achieved primarily via a custom script. This script is self-named ‘FortiGate Security Scanner’ (with the filename ‘fort[.]py and ‘fortnew[.]py’) and is used by the operators to exploit CVE-2025-64446 (for FortiWeb services) as well as brute-forcing (as a fall-back method) exposed Fortinet devices. An additional identifier of ‘BH’ was also contained within the script under the field ‘SCRIPT_DEV’. At this point of the investigations however, we have not been able to identify this developer and determine their relationship with k0t.
+SCRIPT_DEV = "BH"
+SCRIPT_LOGO = "FortiGate Security Scanner"
+SCRIPT_VER = "2025-12-08"
+The tool is built for volume and is executed entirely from the command line, it ingests target ip:port (or ip:port:user:pass) as lines within a .txt file, and runs a configurable worker thread pool (the default is 10 although the operator has been observed to run 50 worker threads), and tags each target’s country from a bundled GeoIP database. It carries a hardcoded exclusion list covering the CIS region and other jurisdictions, but this filter can be disabled with the ‘–no-exclude’ flag. We also note that there are several victims from the excluded nations list being compromised using this tool, indicating that this operator may have used this tool in the ‘–no-exclude’ mode.
+CVE-2025-64446 Exploitation
+For every device in the target list, the tool first attempts to gain initial access via the exploitation of CVE-2025-64446, a relative path traversal vulnerability affecting Fortinet FortiWeb that may allow an unauthenticated attacker to execute administrative commands through crafted HTTP or HTTPS requests. For each responsive target appliance it issues a crafted request to the ‘/api/v2.0/cmdb/system/admin%3f/../../../../../cgi-bin/fwbcgi’ endpoint. This request contains a forged CGIINFO header that impersonates the built-in admin account ‘prof_admin’, and uses that access to create a new local administrator.
+For every device in the target list, the tool first attempts to gain initial access via the exploitation of CVE-2025-64446, a relative path traversal vulnerability affecting Fortinet FortiWeb that may allow an unauthenticated attacker to execute administrative commands through crafted HTTP or HTTPS requests. For each responsive target appliance it issues a crafted request to the ‘/api/v2.0/cmdb/system/admin%3f/../../../../../cgi-bin/fwbcgi’ endpoint. This request contains a forged CGIINFO header that impersonates the built-in admin account ‘prof_admin’, and uses that access to create a new local administrator.
+This forged account is given a random eight-character username and an identical password, the prof_admin profile, and a trusted-host range of 0.0.0.0/0 which grants unrestricted administrative access from any source address. When this process is completed, the tool then validates the new credentials over the REST API before proceeding. FortiGate devices are not vulnerable to this exploit, but will be attacked via brute-forcing.
+Brute-Forcing
+When validation of the newly created account fails, the tool falls back to credential brute-forcing against the FortiGate REST API. When run with a ‘-comb’ flag, the script generates a list of username and login credentials by combining a hardcoded list with an operator supplied wordlist. The resulting wordlist contains common username and passwords such as:
+Usernames
+admin
+fortinet
+fgtsecure
+sysadmin
+etc.
+Passwords
+admin
+fortigate
+F0rt!n3t123
+P@ssw0rd123
+etc.
+When a FortiGate lockout response (“code 2”) is detected, the target will be placed in a dictionary called ‘blocked_hosts’ and no further attempts against that host will be attempted for 60 seconds. After this 60 seconds have elapsed, the blocked host will be removed from ‘blocked_hosts’ and added to a retry queue. We would like to note that 60s is the default administrator lockout time for a FortiGate firewall, which indicates that the developer of this tool possesses significant technical knowledge about the FortiGate appliances.
+On a successful authentication attempt after vulnerability exploitation or brute-forcing, and if the ‘–parse-configs’ flag is set, the tool downloads the appliance configuration and decrypts its stored secrets locally, using the default FortiOS AES key, to recover LDAP/Active Directory bound credentials, administrator and local-user credentials, and other configuration data. The ‘default FortiOS AES key’ is a known weakness tracked under CVE-2019-6693. Its associated fix is the addition of ‘private-data-encryption’ option to override the usage of this default AES key; if not toggled explicitly, the affected device will fall back to using this known key.
+PAN-OS GlobalProtect Exploitation
+Threat Intelligence analysts have also observed the exploitation of CVE-2026-0257, an authentication bypass vulnerability affecting GlobalProtect portals and gateways on vulnerable PAN-OS configurations where authentication-override cookies and the relevant certificate configuration are enabled, to gain initial access. The operator makes use of a tool (filename ‘exploit_2026_0257[.]py’) with the self-declared descriptor/name ‘CVE-2026-0257 PAN-OS GlobalProtect Scanner + VPN Connect’,  written by a developer named ‘BeiDou’.
+#CVE-2026-0257 PAN-OS GlobalProtect Scanner + VPN Connect
+#Coded by ./BeiDou
+The exploit entails the use of authentication-override cookie forgery, where a forged cookie is created by encrypting the string ‘admin;;Windows;;[TIMESTAMP];0.0.0.0’ (where [TIMESTAMP] is the current UNIX timestamp) with a public key extracted from the target’s TLS certificate. This forged cookie with an empty password is submitted to the GlobalProtect endpoint ‘/ssl-vpn/login.esp’.
+A vulnerable device would decrypt this payload using its private key and check for the appropriate session format, but does not validate that the cookie itself is legitimate. Such a device would respond to this forged request and be flagged by the tool for further exploitation. For every vulnerable device, the forged cookie is written into a temporary file, and used to establish a vpn connection via OpenConnect. This is achieved by creating and running a temporary shell script on the operator’s own device.
+connect_script = f"""#!/bin/bash
+(echo '{operator_sudo_password}'; cat {cookie_file.name}) | \
+sudo -S openconnect --protocol=gp --user={username} \
+--usergroup=portal:portal-userauthcookie --os=win --background \
+{servercert_flag} {url}
+rm -f {cookie_file.name}
+When run in a –vuln mode, the operator can skip through the mass-scanning process and will be presented with a window for target selection to establish VPN connection.
+Figure 4. Console interface of CVE-2026-0257 PAN-OS GlobalProtect Scanner + VPN Connect tool in the –vuln mode. The tool lists vulnerable targets available from a .txt file for the operator’s selection to attempt compromise.
+This is ostensibly meant to be used on targets where cookies (either forged or stolen via other means) are already obtained.
+Post Exploitation
+Once initial access has been obtained, the operators have been observed abusing several administrator/pentesting tools to further compromise their victim’s corporate environments. These tools have been observed to be deployed via hands-on-keyboard attacks although an AI pentesting tool was observed to be present among the operator’s exposed tooling, we do not have evidence of its actual deployment against their victims and was likely still in development. Administrator/Pentesting tools observed include:
+NetExec
+– The operators have been observed using NetExec extensively to perform malicious actions in their victim’s environments. These include, but are not limited to:
+Enumeration of SMB hosts, anti-virus inventory, LDAP domain admin groups, files and folders
+Extracting secrets from SAM, LSA, LSASS, DPAPI
+Remote execution of commands via ‘atexec’ or ‘smbexec’
+SoftPerfect
+– We have observed the usage of SoftPerfect for discovery, enumerating shares, hosts and services
+Impacket
+– Various Impacket scripts by the operators in order to:
+GetUserSPNs – to extract service-account Kerberos hashes
+secretsdump – authenticate as a domain controller using stolen hashes to extract credentials
+noPac
+– This tool was used to exploit CVE-2021-42278 and CVE-2021-42287 to escalate to Domain Admin and dump domain credentials
+Kerbrute
+– Used for password-spraying and brute-forcing attacks against the domain controller
+PetitPotam
+– Seen used to coerce domain controllers into authenticating to the operator’s relay listener (-pipe all), feeding the NTLM-relay-to-ADCS certificate-theft chain that yields the DC machine hash.
+Mimikatz
+– Seen used to dump cleartext passwords and NTLM hashes from LSASS.
+Artifacts also suggest that subsets of the initial access obtained have been consolidated for other operators (for division of labour), and potentially to be sold to ransomware groups.
+Persistence
+Within the operator’s exposed tooling, we have observed a large variety of persistence techniques and utilities being abused. As was mentioned in previous sections, the operators made use of OpenConnect to establish a foothold on many exposed corporate networks. However, beyond OpenConnect, we have also observed the abuse of MeshAgents (controlled via a MeshCentral panel) as well as AdaptixC2, and many other commonly abused RMM tools such as Atera, Teramind, AnyDesk and ngrok.
+MeshCentral
+MeshCentral is a legitimate, open-source web-based remote-management platform that has been abused in this campaign to maintain persistent remote access to a compromised endpoint. A central server, called MeshCentral, hosts an administrative web console, with corresponding MeshAgents which are installed on endpoints connecting to that server over HTTPS/WebSocket, giving whoever has access to the MeshCentral server full remote control of each device. Access via MeshCentral includes remote desktop, terminal shell, file transfer etc.
+Figure 5. k0t’s MeshCentral login page at mesh[.]buttruyen[.]com.
+Compromised devices are grouped into “device groups” corresponding to the compromised corporations, and are divided among three operator accounts. At the time of analysis, we were able to determine 28 active device groups, which contained 84 compromised devices in total beaconing back to the MeshCentral server at mesh[.]buttruyen[.]com. Artifacts also showed 100 other device groups which have since been removed. Notably, the server held no server-side files, indicating the agents were used for live interactive access only (shell and RDP relay) rather than for data transfer, which was handled separately by Rclone.
+While the MeshCentral server was located at mesh[.]buttruyen[.]com, the MeshAgents are hosted on another domain, agent[.]afahimsa[.]top. This is likely an attempt by the operators to lower the likelihood of researchers discovering their C2 MeshCentral server. The MeshCentral server is configured with agentAutoApprove, agentAutoCreateDevice, IgnoreAgentHashCheck and agentInviteCodes options enabled so that each successful installation would automatically result in the compromised device being automatically enrolled into the console without any operator intervention.
+AdaptixC2
+AdaptixC2 is an open-source, modular post-exploitation and adversary-emulation framework consisting of a Go-based team server and a Qt operator client. In this campaign, the operators used it as an additional command-and-control (C2) channel alongside MeshCentral. Windows agents generated through the team server communicate over HTTPS and provide remote shell access, file transfer, tunnelling, and payload execution.
+Build notes and a deployment guide recovered from the operators’ tooling exposed details of their AdaptixC2 configuration. The guide instructed the operators to compile AdaptixC2 from its public repository, generate a default self-signed OpenSSL certificate, and edit profile.json to set the listening interface, team-server port, endpoint, and operator accounts. The observed profile retained the default port 4321, used /endpoint as the team-server endpoint, and contained two operator accounts, operator1 and operator2. The operators also created listeners using the following URIs:
+/update
+/api/v1/check
+/uri.php
+Operators also loaded the AdaptixC2 Extension-Kit, which is a collection of scripts designed to add essential utilities, and had also compiled AdaptixC2 agents as Windows executables.
+The resulting team server was reachable at hxxps://64[.]94[.]85[.]14:4321/endpoint, however, access was restricted to the operators’ source addresses, which likely explains why the service did not appear in internet-wide scan data. The TLS certificate retained the default subject O=Internet Widgits Pty Ltd. Third-party sources also classified the IP address as malicious, supporting our assessment that it hosted active C2 infrastructure.
+AdaptixC2 agents were staged on separate infrastructure and delivered as a fake software installer named clear-thinking_61.92.4_INSTALL.exe. We have observed operators using PowerShell scripts to retrieve these agents from hxxp://162[.]33[.]178[.]213:8888/ and hxxps://sthyjk[.]com:8443/ using curl commands. Both locations pointed to the same host, to which an additional domain, alknene[.]shop, also resolved.
+The beacons were configured to communicate with:
+64[.]94[.]85[.]14:4321
+168[.]100[.]11[.]99
+Which were hosted by BitLaunch (AS399629), an anonymous VPS provider that accepts cryptocurrency, as were other infrastructure seen in this campaign. The associated domains were registered through Namecheap.
+Operator organization
+Available evidence associated with the identified MeshCentral and AdaptixC2 infrastructure indicates the likely involvement of multiple operators, suggesting a collaborative operation rather than activity conducted by a single threat actor.  From our investigations into this cluster, we have preliminarily identified the following aliases to be associated with this activity:
+k0t – Likely to be one of the main operators in this campaign
+CryptoFeel – Potentially an alias of k0t
+Scrooge/ScroogeMcDuck – Likely a collaborator, and potentially another alias, several tools seen are likely to have been acquired by Scrooge
+Developers mentioned in this report have not been linked directly to the campaign’s operations, and are potentially free-lance developers used by multiple threat actors. As investigations continue, we expect to learn more about how this campaign is managed and organized. Additional information will be provided in updates as they become available.
+Conclusion
+In the few victims that the operators have managed to compromise sufficiently, we have observed data exfiltration via the cloud storage utility Rclone into Wasabi S3 buckets and MEGA cloud drives. Many victims seen in this campaign have also been observed to be later listed by ransomware groups, Qilin and the Gentlemen, on their Data Leak Sites (DLS). However, as of now, we have not yet been able to confirm the relationships between k0t and these ransomware groups, but current evidence suggests that the operators are likely to be acting as Initial Access Brokers (IABs).
+We have compared the compromised credentials from this activity with that associated with the previously reported FortiBleed cluster and found a negligible overlap in compromised data. This aligns with reports that many operators are likely to be involved in the FortiBleed activity cluster, suggesting that this may be a separate dataset, operator subset, or related access operation within the broader FortiBleed-related activity. Organisations are advised to act on ensuring that any vulnerabilities mentioned in this report are appropriately remedied. Additional information from our ongoing investigations into this activity, including additional technical details, will be included in a further report which will be released in due time.
+Context for Organizations within the Asia-Pacific region
+Accounts originating from the Asia-Pacific region account for 37.6% of the unique domains identified in the campaign dataset, the largest regional share in this investigation. This distribution should not be interpreted as proof of deliberate regional targeting because it may reflect the geographic distribution of exposed or inadequately configured edge devices discovered through public scanning services.
+For organisations within the Asia-Pacific, the practical priority is exposure-led rather than sector-led: identify internet-facing FortiGate, FortiWeb and GlobalProtect systems; verify patch and configuration status; restrict management access; review administrative and VPN authentication; and assess whether credentials stored on or accessible through these appliances require rotation.
+Comparison with the Previously Reported FortiBleed Activity
+The comparison below distinguishes confirmed observations from analytical assessment. Public descriptions of FortiBleed differ in scope, so the table uses Fortinet’s June 2026 assessment for the previously reported activity and this investigation’s evidence for the k0t cluster.
+Comparison area
+Previously reported FortiBleed activity
+k0t cluster described in this report
+Primary scope
+A Fortinet-focused credential and access campaign affecting FortiGate administrative and VPN access.
+A broader edge-device operation involving FortiGate, FortiWeb and Palo Alto GlobalProtect.
+Initial access
+Fortinet assessed the reported activity as involving credential reuse and brute-force techniques rather than a newly disclosed Fortinet vulnerability.
+Observed methods include FortiGate brute-forcing, exploitation of CVE-2025-64446 against FortiWeb, and exploitation of CVE-2026-0257 against vulnerable GlobalProtect configurations.
+Credential data
+Public reporting described a large dataset of FortiGate administrative and SSL VPN credentials.
+More than 70,000 exposed credentials and related data, including network-device credentials and LDAP dumps, were identified.
+Post-compromise activity
+Public reporting concentrated primarily on credential exposure and unauthorised access risk.
+Observed activity extended to credential theft, Active Directory discovery and privilege escalation, persistent access through RMM and C2 tooling, and data exfiltration.
+Dataset relationship
+Reference dataset.
+Comparison identified negligible overlap with the previously reported FortiBleed credential data.
+Assessment
+A credential-focused campaign targeting exposed Fortinet devices.
+Assessed with moderate confidence as associated with broader FortiBleed-related activity. The evidence does not establish that the same operators controlled both datasets.
+The association remains an analytical assessment and does not establish that the same operators controlled both datasets.
+NyxLab Defender Perspective
+The following points translate the campaign evidence into defensive priorities. They are derived from the artifacts described in this report and should not be read as confirmation that every behaviour occurred in every victim environment.
+Why detection can be difficult
+The intrusion begins on edge appliances where endpoint detection and response telemetry may not be available. Subsequent access through VPN services and legitimate remote-management tools may resemble authorised administrative activity unless network, identity, appliance and endpoint telemetry are correlated.
+The use of dual-use tools, including OpenConnect, MeshCentral, Atera, AnyDesk and Rclone, means detections should consider execution context, installation source, operator account, destination infrastructure and timing rather than relying only on tool names.
+Threat-hunting priorities
+Edge appliances: review unexpected local administrator creation, configuration exports, trusted-host changes, repeated authentication failures, lockout-and-retry patterns, and administration from unusual source addresses.
+VPN and identity: review GlobalProtect and other VPN sessions for unusual client characteristics, atypical access paths, newly observed source infrastructure, and accounts used outside normal administrative patterns.
+Windows and Active Directory: hunt for NetExec, Impacket, noPac, Kerbrute, PetitPotam and Mimikatz activity, including credential dumping, service-account Kerberos requests, remote execution, and abnormal domain-controller authentication.
+Persistence and command and control: identify unauthorised MeshAgent, MeshCentral, AdaptixC2, Atera, Teramind, AnyDesk and ngrok installations or communications, and validate whether each instance has an approved owner and business purpose.
+Exfiltration: investigate unexpected Rclone execution and transfers to cloud-storage services, including Wasabi S3 and MEGA, particularly when preceded by credential access or broad file enumeration.
+Business and incident-response implications
+A compromise of an internet-facing security appliance should be treated as a potential enterprise credential compromise, not only as an appliance-patching event. Because configuration data may contain LDAP, Active Directory, administrator and local-user secrets, responders should assess downstream identity exposure, rotate affected credentials, revoke active sessions where applicable, and review subsequent access across the environment.
+Immediate actions for exposed organisations
+Confirm the external exposure and patch status of FortiGate, FortiWeb and Palo Alto GlobalProtect systems, and remove management interfaces from direct internet access where operationally possible.
+Review appliance administrator accounts and recent configuration changes, and investigate any account or trusted-host setting that cannot be linked to an authorised change.
+Rotate credentials stored on, bound to or administered through potentially affected appliances, prioritising privileged, LDAP and Active Directory accounts.
+Search for the network indicators and file hashes in this report, while recognising that the absence of an IOC match does not rule out compromise.
+Preserve appliance, VPN, authentication, endpoint, DNS, proxy and firewall telemetry before retention periods expire, and correlate events across these sources to reconstruct
+Recommendations
+Readers who wish to check if they are compromised by this activity can contact Group-IB and/or NyxLab for additional information.  Organizations that have identified signs of compromise, such as unauthorized access to FortiGate or other edge appliances, exposed configuration files, or suspicious use of LDAP/AD bind accounts, can engage
+Group-IB Incident Response
+for investigation, containment and remediation. Please contact us via the following channels:
+Group-IB contact form
+NyxLab:
+[email protected]
+Network Hardening –
+threat actors in this campaign relied heavily on discovery of network devices via public tools which are followed by attempts at brute-forcing
+Place network management consoles within an internal network and restrict access to trusted administrative networks or VPN connections. This reduces their exposure to internet-wide scanning and requires threat actors to first gain access to the internal network.
+Refrain from using common passwords. Organizations are advised to change default passwords as soon as they can and refrain from using passwords which are commonly used in brute-forcing attacks
+Increasing login lockout time can also deter threat actors from successfully carrying out a brute-forcing attack. Multiple failed attempts resulting in login lockout status should also be investigated by analysts
+Maintain continuous visibility into internet-facing assets.
+Group-IB Attack Surface Management
+can identify unintentionally exposed administrative panels, VPN portals, and other management interfaces, allowing organizations to remediate unintended exposure before threat actors discover it.
+Patch Management –
+The operators in this campaign targeted vulnerabilities in network devices for initial access. k0t in particular has also been active on underground forums looking to acquire tools for similar exploits targeting common network devices (such fortigate, cisco, sonicwall etc.) as well as Windows privilege escalation
+Ensure that devices in your organization are patched in a timely manner, prioritising internet facing network devices. Proper prioritization of vulnerabilities according to their impact and severity will also help custodians manage limited resources towards remediating more severe vulnerabilities
+Frequent vulnerability scanning and asset discovery should also be conducted to discover unknown vulnerabilities that persist in the organization
+Protect Stored Appliance Secrets –
+In this campaign, the operators downloaded FortiGate configuration files after gaining access and decrypted them offline to recover the credentials stored inside, including LDAP and Active Directory bind accounts, administrator accounts, local users and other configuration data. Because this decryption is performed against a copy of the configuration held by the operator, it is not detectable on the appliance itself and cannot be prevented by access control alone; the protection must be applied to the stored secrets.
+Enable the ‘private-data-encryption’ setting on FortiGate appliances and supply an operator-defined key. FortiGate configuration files are encrypted with a default, publicly known AES key unless this setting is explicitly enabled. If it is not toggled on, the appliance falls back to the known key and any obtained configuration can be decrypted by anyone who holds it. This is tracked as CVE-2019-6693 and is the specific weakness the operators in this campaign exploited at scale.
+Treat any FortiGate whose configuration has been exposed as a credential disclosure event, not only as an appliance compromise. Configuration data commonly contains LDAP and Active Directory bind passwords in a recoverable form. Rotate every credential referenced in an affected configuration, including service and bind accounts that may not appear in routine password rotation schedules.
+Audit LDAP and directory bind accounts used by edge appliances. These accounts are frequently service accounts with broad read access to the directory, are rarely covered by MFA, and are often excluded from routine password rotation. Where the appliance supports it, use a dedicated low-privilege bind account rather than a domain administrator or equivalent.
+Enforce Strict MFA –
+Apply Multi-Factor Authentication universally to all accounts where applicable to minimize the threat of stolen plaintext passwords.
+Enhance Threat Detection and Response –
+Organizations should maintain visibility across endpoint, network, identity, and other relevant telemetry to identify malicious activity following the compromise of internet-facing appliances.
+Group-IB Managed XDR
+together with
+Group-IB Threat Intelligence
+can help organizations correlate suspicious activity with known threat actor infrastructure, TTPs, and indicators associated with this campaign.
+Monitor for abnormal authentication activity, credential access, privilege escalation, and lateral movement following access through VPN or edge appliances.
+Detect unauthorized or unusual use of remote administration and command-and-control tools, including RMM software and other dual-use utilities.
+Correlate endpoint, network, and identity telemetry to identify activity that may appear legitimate when individual events are reviewed in isolation.
+Use threat intelligence to enrich detections with relevant indicators, infrastructure, and TTPs associated with k0t and related activity.
+Rotate potentially compromised credentials –
+if there is any reasonable suspicion that an account has been compromised (via listing on compromised accounts or observation of suspicious behavior etc.) rotate credentials for the affected accounts, or delete the accounts if not in use.
+Compromise Monitoring –
+Group-IB have obtained information regarding compromised victim accounts. Such compromised information will be available on the
+‘Compromises’ module on TAP
+.
+Keep your organization’s assets up to date. Such feeds rely on positive identification of your organization’s assets within the discovered collection of compromised accounts, keeping such asset lists up to date whenever possible will decrease the likelihood of a failed notification to a positive hit
+MITRE ATT&CK
+T1596.005
+k0t abused public network scanning services/directories (such as FOFA and ZoomEye) to discover exposed network devices for exploitation
+T1583.001
+k0t has been observed using Namecheap to acquire domains for their campaigns
+T1588.005
+k0t frequented known underground forums advertising interest in acquiring vulnerability exploits and/or
+T1583.004
+k0t have been observed utilising BitLaunch (AS399629), an anonymous VPS provider that accepts cryptocurrency to acquire servers used in their operations
+T1588.002
+Tool sharing was observed among k0t and their associates
+T1583.006
+k0t acquired accounts for numerous web services such as Wasabi S3 buckets and MEGA cloud storage for exfiltration
+T1190
+Operators exploited public-facing FortiWeb and GlobalProtect services to gain initial access.
+T1078.003
+Operators used local administrator accounts for access.
+T1059.001
+PowerShell scripts were used extensively to result in installation of AdaptixC2 agent/beacon
+T1053.005
+k0t made extensive use of NetExec’s built-in atexec (which uses the Windows Task Scheduler service) execution method for remote execution
+T1569.002
+k0t made extensive use of NetExec’s built-in smbexec (which uses the Windows Service Control Manager over SMB) execution method for remote execution
+T1133
+After gaining initial access to FortiGate/FortiWeb and GlobalProtect devices, connection is established via OpenConnect between the compromised device and adversarial devices
+T1136.001
+After gaining initial access to FortiGate/FortiWeb devices, new local administrator accounts were created
+T1068
+The noPac exploit tool was utilized to escalate privileges to Domain Admin by chaining CVE-2021-42278 (sAMAccountName spoofing) and CVE-2021-42287 (Kerberos PAC confusion).
+T1550.004
+Attackers exploited CVE-2026-0257 by using forged cookies to authenticate with Palo Alto GlobalProtect devices
+T1550.002
+Operators authenticated to a domain controller using a stolen password hash
+T1003.006
+Operators used noPac to obtain domain-level privileges and facilitate credential extraction.
+T1558.003
+Operators used GetUserSPNs to extract service-account Kerberos hashes
+T1003.004
+Operators used NetExec to extract LSA secrets, including stored service, machine and automatic-logon credentials.
+T1003.001
+Operators dumped credentials from the memory of the Windows login process using NetExec
+T1110.003
+Using lists of common passwords associated with Fortinet devices, the operator conducted password-spraying across multiple devices at once
+T1003.002
+Operators used NetExec to dump the Security Account Manager database from compromised Windows hosts.
+T1187
+Operators coerced domain controllers into authenticating to an attacker-controlled machine so the authentication could be relayed onward
+T1069.002
+NetExec was used to enumerate LDAP domain admin groups
+T1083
+Operators swept file servers and every reachable workstation for documents
+T1046
+Operators swept internal subnets for live hosts, open ports and service versions
+T1135
+Operators enumerated SMB shares and permissions across every reachable host in each victim network
+T1018
+Operators enumerated domain-joined computers from Active Directory and identified the domain controllers in each victim network
+T1518.001
+Using NetExec via the SMB protocol, operators enumerated security software for discovery
+T1602.002
+Once access has been obtained to network devices, operators dumped configuration data associated with those devices
+T1219
+Operators abused a wide array of remote access tools, these included: Atera, Teramind, AnyDesk, ngrok as well as MeshCentral/MeshAgents and AdaptixC2
+T1567.002
+Exfiltration was observed utilizing Rclone to exfiltrate data to Wasabi S3 buckets and MEGA cloud drives
+Indicators of Compromise (IOCs)
+Network IOCs
+MeshCentral C2
+mesh[.]buttruyen[.]com
+62[.]60[.]131[.]43
+Meshcentral[.]girydsfsggvb[.]com
+62[.]60[.]135[.]64
+MeshAgent payload hosting
+hxxps://agent[.]afahimsa[.]top/meshagents?id=4&meshid=DSZSDHzU1YSP83eNnHzSUfPPt5MFUC3UadztK7UJWbWttVfTo$auq8StiVu0p6ND&installflags=0
+hxxp://193[.]149[.]187[.]81:1287/1.exe
+AdaptixC2 server
+64.94.85.14
+168.100.11.99
+AdaptixC2 download
+hxxp://162[.]33[.]178[.]213:8888/clear-thinking_61.92.4_INSTALL.exe
+hxxps://sthyjk[.]com:8443/clear-thinking_61.92.4_INSTALL.exe
+Development & tool staging  Server
+162[.]33[.]179[.]249
+193[.]24[.]123[.]162
+193[.]149[.]176[.]50
+Nezha dashboard C2
+radesashar[.]com
+Potential scanning infrastructure
+193[.]169[.]194[.]21
+File Hashes
+5318f29ef434341d989d543b14fd2a48
+6546801898d0b32f5050f49c5302f0366d630cc9
+158215c7371e868f3d0c7fd2e92f05026a8678a3635629d89bd6042ee543278a
+20dc8f1b8a313336c14e03bcb71ff6c8
+e2c96e603323d8fc7c08678b793d56554faa6914
+1d1b76d30a69aa39b224053481483156f82dde026edd6f5d964f6e03f5f04a6d
+032473db4d66748eab524effe57a661d
+b686a811ad89671fbdb448d65f79488d2e562265
+4db6bea4c1e4bce5020039def4087a073f4753a6b297b2832c19c10423ac842d
+13367fbba4344de87de418ab17de76f0
+f05daaf66b200672d679a5ced8b67d4b48a4906e
+552d0096f60c36a35c6096b3e4b38d743c29f8c56f3862fa3b7ef06c932e2a21
+197f2621c80da7974c56d2ff1921e994
+e47a2b7ca6a8c009962871dbb667d128ad6b6162
+f9e95af4cda14dd5596c452a1a698f60412a7b2a9540321ee2a10b3bcbbd2a0e
+6f5d18157425aa9697913ae1310f588f
+bfd864ec0e6bd912f932e4f3ed80687736ee16e8
+39c4decc4881ec02a47cd01c0fd8c3030527b466124ad03c6f99cfaa0ba0b72e
+0dc1af7cfd336a7f075228defc730082
+b39cf70a0194d32e00d7812c29ae1d6add77b823
+808145ec3351569083fda27a910ebdf9e054e8ca42e40c021af5d6712c2ab87c
+DISCLAIMER
+: All technical information, including malware analysis, indicators of compromise and infrastructure details provided in this publication, is shared solely for defensive cybersecurity and research purposes. Group-IB and NyxLab do not endorse or permit any unauthorized or offensive use of the information contained herein. The data and conclusions represent Group-IB’s analytical assessmentThe data and conclusions represent the joint analytical assessment of Group-IB and NyxLab based on available evidence and are intended to help organizations detect, prevent, and respond to cyber threats.
+Group-IB and NyxLab expressly disclaim liability for any misuse of the information provided. Organizations and readers are encouraged to apply this intelligence responsibly and in compliance with all applicable laws and regulations.
+This blog may reference legitimate third-party services such as Telegram and others, solely to illustrate cases where threat actors have abused or misused these platforms.
+This material is provided for informational purposes, prepared jointly by Group-IB and NyxLab as part of their collaborative investigation, and reflects recently identified threat activity.
+All trademarks referenced herein are the property of their respective owners and are used solely for informational purposes, without any implication of affiliation or sponsorship.
+Share this article
+Found it interesting? Don't hesitate to share it to wow your friends or colleagues
+Tsai Shun Ling
+Cyber Intelligence Analyst
+Nikolay Kichatov
+Cyber Intelligence Analyst
+KT Gan
+Co-founder and CEO, NyxLab
+Chris Au
+CTO, NyxLab
+More posts
+October 22, 2026
+Inside SiriusQT: A Seriously Skilled RAT
+October 20, 2026
+The Checker You Pay For
+October 14, 2026
+KGB RAT: A Fully Undetectable Windows Trojan Built to Spy, Steal, and Terrorize
+View all
+The latest Cyber Threat Trends and Insights
+Stay ahead with our latest research and insights. Subscribe today.
+Table of contents
+Resources
+Research Hub
+Knowledge Hub
+Webinars
+Podcasts
+TOP Investigations
+Ransomware Notes
+AI Cyberseciruty Hub
+Products
+Threat Intelligence
+Fraud Protection
+Managed XDR
+Attack Surface Management
+Digital Risk Protection
+Business Email Protection
+Cyber Fraud Intelligence Platform
+Unified Risk Platform
+Integrations
+Partners
+Partner Program
+MSSP and MDR Partner Program
+Technology Partners
+Partner Locator
+Company
+About Group-IB
+Team
+CERT-GIB
+Careers
+Internship
+Academic Aliance
+Sustainability
+Media Center
+Contact
+Subscription plans
+Services
+Resource Center
+Subscribe to stay up to date with the latest cyber threat trends
+Contact
+APAC:
++65 3159 3798
+EU & NA:
++31 20 226 90 90
+MEA:
++971 4 568 1785
+[email protected]
+© 2003 – 2026 Group-IB is a global leader in the fight against cybercrime, protecting customers around the world by preventing breaches, eliminating fraud and protecting brands.
+Terms of Use
+Cookie Policy
+Privacy Policy

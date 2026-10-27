@@ -1,0 +1,35 @@
+READ-CAP [CYPHER] — cap 54,250 B · budget 32,550 B (60%) · ALL % BELOW ARE OF BUDGET (the number every verdict grades; ≥100% = over) · perimeter: DECLARED in PROME/registry/READS.tsv — 14 cap-bearing (whole/programmatic) measured, 13 declared-not-counted (scoped/grep/summary), 28 manifest row(s) for this desk; 6 of the measured are MEMBERS of 2 cap-bearing CLASS row(s), each measured per member (rule 16); ATTESTED by the desk itself
+  ✅ AGENTS/CYPHER/CLAUDE.md              24,314 B    75% of budget    (whole · CYPHER:SPAWNED-CARD-1)
+      ↳ 70–75% BAND — rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 1,530 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. ⚠️ Headroom to the trigger: 98 B.
+  ✅ AGENTS/CYPHER/STATUS.md              24,090 B    74% of budget    (whole · CYPHER:BOOT-4 · ALSO read whole by NEXUS:6)
+      ↳ 70–75% BAND — rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 1,306 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. ⚠️ Headroom to the trigger: 322 B.
+  ✅ CLAUDE.md                            23,257 B    71% of budget    (whole · CYPHER:BOOT-1)
+      ↳ 70–75% BAND — rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 473 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. ⚠️ Headroom to the trigger: 1,155 B.
+  ✅ PROME/COMPLETION_SPEC.md             18,579 B    57% of budget    (whole · CYPHER:SPAWNED-CARD-4)
+  ✅ AGENTS/CYPHER/workbook/ESCALATION_WATCH.tsv   13,266 B    41% of budget    (whole · CYPHER:SPAWNED-CARD-1)
+  ✅ AGENTS/CYPHER/DATA_ROUTES.md          5,539 B    17% of budget    (whole · CYPHER:BOOT-5)
+  ✅ AGENTS/CYPHER/inbox/PROTOCOL.md       2,474 B     8% of budget    (whole · CYPHER:BOOT-3)
+  ✅ AGENTS/CYPHER/FIRST_SESSION.md        2,182 B     7% of budget    (whole · CYPHER:BOOT-4)
+  ▣ AGENTS/CYPHER/inbox/*.md                     declared `whole` · CLASS row — cap-bearing PER MEMBER (rule 16 ruling 2026-09-24): 0 member(s) measured, 0 over budget, 0 over the CAP; 1 member(s) also matched by another manifest row, graded there  (CYPHER:BOOT-3)
+  ▣ AGENTS/CYPHER/inbox/WALTER/*.md              declared `whole` · CLASS row — cap-bearing PER MEMBER (rule 16 ruling 2026-09-24): 6 member(s) measured, 0 over budget, 0 over the CAP, largest 6,244 B (19% of budget)  (CYPHER:BOOT-3)
+      6 member(s) all under 70% of budget (<22,785 B)
+  ◦ docs/GIT_WORKTREE_PROCEDURES.md     3,185 B  declared `scoped` — not cap-bearing, not counted  (CYPHER:BOOT-1)
+  ◦ PROME/ORCHESTRATION_PLAYBOOK.md    50,032 B  declared `scoped` — not cap-bearing, not counted  (CYPHER:SPAWNED-CARD-4)
+  ◦ AGENTS/CYPHER/workbook/INCIDENTS.tsv 73,293 B  declared `summary` — not cap-bearing, not counted  (CYPHER:BOOT-2)
+  ◦ AGENTS/CYPHER/workbook/VX.tsv      12,871 B  declared `summary` — not cap-bearing, not counted  (CYPHER:BOOT-2)
+  ◦ AGENTS/CYPHER/workbook/FLOW.tsv    10,850 B  declared `summary` — not cap-bearing, not counted  (CYPHER:BOOT-2)
+  ◦ AGENTS/CYPHER/workbook/PREDICTIONS.tsv  8,707 B  declared `summary` — not cap-bearing, not counted  (CYPHER:BOOT-2)
+  ◦ AGENTS/CYPHER/workbook/KB.tsv      36,837 B  declared `summary` — not cap-bearing, not counted  (CYPHER:BOOT-2)
+  ◦ AGENTS/CYPHER/docket/CATALYSTS.tsv  9,248 B  declared `summary` — not cap-bearing, not counted  (CYPHER:BOOT-2)
+  ◦ AGENTS/CYPHER/TRADE.md                886 B  declared `summary` — not cap-bearing, not counted  (CYPHER:BOOT-2)
+  ◦ AGENTS/WALTER/registry/CORRECTIONS.tsv 52,960 B  declared `summary` — not cap-bearing, not counted  (CYPHER:BOOT-2b)
+  ◦ AGENTS/CYPHER/registry/corrections_receipts.tsv    601 B  declared `summary` — not cap-bearing, not counted  (CYPHER:BOOT-2b)
+  ◦ AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md142,106 B  declared `scoped` — not cap-bearing, not counted  (CYPHER:BOOT-3)
+  ◦ AGENTS/CYPHER/board_log.tsv        14,754 B  declared `grep` — not cap-bearing, not counted  (CYPHER:BOOT-3)
+✅ READ-CAP 0 [CYPHER]: every CAP-BEARING read in this desk's ATTESTED manifest is under budget (14 measured, 13 declared-not-counted). Perimeter = the desk's own declaration, not a scan.
+  ℹ️  charter AGENTS/CYPHER/CLAUDE.md = 24,314 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+  ✉️  OWNER-DIRECTED NOTICE [CYPHER] (READ_CAP rule 15): 1 file(s) under AGENTS/CYPHER/ that OTHER desks' declared boot reads load WHOLE — counted in THOSE readers' perimeters, NOT in this desk's totals or rc. The bytes are this desk's to rotate (rule 4); a breach here is also turning the READER's check red.
+     ✅ AGENTS/CYPHER/NEXUS_BRIEF.md          6,693 B    21% of budget  under 75% of budget  ← read whole by NEXUS:6
+READ-CAP-RESULT v1 mode=agent rc=0 assessed=1 desk=CYPHER reads=14 over_budget=0 over_cap=0 manifest_defects=0 advisories=0 generated_flagged=0 rotation_due=0 active_decisions_over_budget=0 charter_mode=unspecified charter_reads=0 owner_notices=1 owner_notices_over_budget=0 charter_bytes=24314
+
+Recorded return code: 0

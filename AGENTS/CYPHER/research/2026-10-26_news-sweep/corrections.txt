@@ -1,0 +1,4 @@
+  INFO 1 dead-at-cap with no receipt from this desk: COR-20260925-13 — 0 NAMED (still BLOCKING until receipted, WQ-254 D4(a)) · 1 ALL-row (broadcast expired: no warn, no block)
+CORRECTIONS-CHECK 0 OK: 0 unreceipted NAMED rows for CYPHER (register 107 row(s), 0 ALL-warn, 1 ALL-row(s) past cap unreceipted = broadcast expired, not an obligation; receipts on file: 2) — PASS covers the register at /home/willi/Research-workspace/AGENTS/WALTER/registry/CORRECTIONS.tsv and this desk's receipts file, nothing else (it does not prove a receipt's action was correct or that the correction was applied)
+
+Recorded return code: 0

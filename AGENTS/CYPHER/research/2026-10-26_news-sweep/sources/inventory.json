@@ -1,0 +1,112 @@
+[
+  {
+    "file": "checkpoint-roundup.txt",
+    "bytes": 10958,
+    "sha256": "97e25b7708890589558acf76831d9eb50d228a5539d623efb2dbe79c2deb1f5c"
+  },
+  {
+    "file": "commonwealth-claim.txt",
+    "bytes": 7885,
+    "sha256": "285da51d040feb22246d727802dd614f7625f0d9ccd99d630efbb8544f97b4bb"
+  },
+  {
+    "file": "delivered-packets-read.json",
+    "bytes": 1119,
+    "sha256": "1509f061c474e1ab275d563ca821f9c521bb873ba4b6fca09496d7c68071c298"
+  },
+  {
+    "file": "delta-claim.txt",
+    "bytes": 8144,
+    "sha256": "83e42b27f82b6501dea7ff5f09a21738b8fe750fd0751b38c2e1c484e2bb5b8d"
+  },
+  {
+    "file": "delta-home.txt",
+    "bytes": 1316,
+    "sha256": "2dc08dba1dda3b37e0e57ba76c29d5688a14431cd54a1aad2101be4b62e17b9c"
+  },
+  {
+    "file": "finzly-home.txt",
+    "bytes": 12240,
+    "sha256": "ae7a1006457e60b5ea4b4c1fa774a565e8737dbecb0d0e519f4ff3022bc41e2e"
+  },
+  {
+    "file": "google-current-bulletins-excerpt.txt",
+    "bytes": 8657,
+    "sha256": "d2c47d82989e0e84199d01066955bad31a24ba60aca4a9f4b347c635bd658c27"
+  },
+  {
+    "file": "google-php-guidance.txt",
+    "bytes": 20605,
+    "sha256": "fc507ff55d824f7147fa6af191cb8cf033292bcceff5a3d9c5f3345859e06925"
+  },
+  {
+    "file": "honeypot-report.md",
+    "bytes": 27787,
+    "sha256": "39d683daf91f1679bc6eec136020a56a2ae44a0075492feb3f77aa456b2cbb77"
+  },
+  {
+    "file": "k0t-report.txt",
+    "bytes": 50491,
+    "sha256": "5dfd27d1ad0115308d4acb894051a5112032f1d80568e6b730fc48c9bd14fd3a"
+  },
+  {
+    "file": "manifest.json",
+    "bytes": 7444,
+    "sha256": "baf34ceed27ac453b5f1ea24bc504b5746d8ed7d5a8d0bfb7a3a742091dbffc3"
+  },
+  {
+    "file": "mercury-case.txt",
+    "bytes": 8624,
+    "sha256": "94bf9db3bdb0bb0b71368e830281ce051d4bbffa52ac3085819b348c1ee49d7a"
+  },
+  {
+    "file": "pan-0257.txt",
+    "bytes": 23157,
+    "sha256": "df26e832a09fe0c016a9ce43e9829125606ca1aa6464d149d98002aa556bcc3c"
+  },
+  {
+    "file": "pan-product-status.txt",
+    "bytes": 30151,
+    "sha256": "40cba85cca0ab242591d1d3ae85ed365bede23573ef7a13b3c5efd36cbcefe24"
+  },
+  {
+    "file": "powerfunding-claim.txt",
+    "bytes": 7955,
+    "sha256": "7e3e1e6212967e71eb54378aae62d7ab2ca79b96abc32d4d85090a2f93b7accd"
+  },
+  {
+    "file": "powerfunding-home.txt",
+    "bytes": 4005,
+    "sha256": "dc487431aff65425f4a14e9a04b93cf4255d623732910c806fdb66112e82d392"
+  },
+  {
+    "file": "socradar-ai.txt",
+    "bytes": 42814,
+    "sha256": "d0d63da9d4a5fca9f412b5a84c20a1706bb79bfd7ba9f83c35466ee0d3c97146"
+  },
+  {
+    "file": "sophos-correction.txt",
+    "bytes": 17762,
+    "sha256": "eb083c659a63e67c4b30574c914b8e218590980a457b36ebecf2504bbf6947ab"
+  },
+  {
+    "file": "source-access-notes.md",
+    "bytes": 1797,
+    "sha256": "07d46f606b2510fb3d5455d3607f4dfbfeecdc3d728345464ff647969be6a9fe"
+  },
+  {
+    "file": "tailscale-update.txt",
+    "bytes": 5612,
+    "sha256": "205f30c47723ae89ba650efb3c5d27e9c914ff256b66ad052570418d438f7a22"
+  },
+  {
+    "file": "unit42-ai.txt",
+    "bytes": 24469,
+    "sha256": "614834c524a3e86dd3d75fcc00d3e32094ffecc09b764f212ccfd917690b612d"
+  },
+  {
+    "file": "unit42-retraction.txt",
+    "bytes": 37553,
+    "sha256": "bd334260f45f100d77818e7ea96cfc0a6780dba644eeec85bd210051b9256357"
+  }
+]

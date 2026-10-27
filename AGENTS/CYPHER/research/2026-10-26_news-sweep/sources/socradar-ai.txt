@@ -1,0 +1,1095 @@
+Source: https://socradar.io/blog/inc-gentlemen-ransomware-ai-infrastructure/
+
+INC and The Gentlemen Ransomware: Exposed AI Infrastructure
+Skip to content
+Is your PHP version at risk of PHP2Shell RCE?
+Check Free Now
+Blog
+Trainings
+Request a Demo
+Login
+EN
+English
+Español
+Products
+Solutions
+Use Cases
+Plans & Pricing
+Resources
+Free Tools
+Company
+Dark Web Report
+Start for Free
+Platform modules
+Cyber Threat Intelligence
+Threat hunting and threat actor tracking with behavioral analytics.
+Advanced Dark Web Monitoring
+Detect credentials and sensitive data leaked on dark web markets, forums & Telegram.
+Attack Surface Management
+Discover your assets with a hacker mindset. Continuously map and monitor exposure.
+Brand Protection
+Actionable alerts against phishing, impersonation and brand abuse.
+Supply Chain Intelligence
+Detect compromised vendors and evaluate your entire supply network's posture.
+Unified platforms
+Agentic Threat Intelligence
+AI agents that autonomously hunt, analyze, and respond to threats, continuously and at machine speed.
+Extended Threat Intelligence
+Threat intelligence enriched with EASM, Brand Protection, and Dark Web Radar. Five modules, one platform.
+Start today
+Try SOCRadar free.
+Full platform access. No credit card. Instant onboarding in under 2 minutes.
+Start for Free
+Browse All Modules
+SOCRadar MCP Server
+Query your live platform data in plain language.
+SOCRadar AI Agents
+Specialist agents, each built for one security job.
+SOCRadar APIs
+Integrate, automate, or build on SOCRadar intelligence.
+Integrations
+Automate and operationalize your security operations with 100+ platform integrations.
+Customer Stories
+Hear SOCRadar's impressive achievements from our clients.
+From Chaos to Clarity
+Learn how leading security teams transformed their threat intelligence operations.
+Professional Services
+Consulting and expert services to operationalize threat intelligence from day one.
+Use Cases
+Industries
+Roles
+Phishing Domain Detection
+Spot lookalike domains before campaigns launch.
+Credential Leak Monitoring
+Catch exposed passwords across the dark web.
+Ransomware Defense
+Track the groups and IOCs targeting your sector.
+Third-Party Risk
+Watch your vendors' exposure continuously.
+Attack Surface Discovery
+Map every internet-facing asset you own.
+Executive Protection
+Track impersonation and leaks targeting your leadership.
+Brand Impersonation Takedown
+Remove fake sites and profiles abusing your brand.
+Payment Fraud Detection
+Surface compromised cards and cash-out infrastructure.
+Vulnerability Intelligence
+Prioritize patching with exploited-in-the-wild context.
+Dark Web Exposure
+See what the underground already knows about you.
+Financial Services
+Fraud, leaks, and regulatory exposure in one view.
+Healthcare
+Protect patient data and connected systems.
+Government & Defense
+Nation-grade monitoring for critical missions.
+Retail & E-Commerce
+Stop brand abuse and card fraud at the source.
+Energy & Utilities
+Monitor threats against critical infrastructure and OT.
+Technology & SaaS
+Protect your platform, tenants and release pipeline.
+CISO
+The full risk picture, board-ready.
+SOC Analyst
+Faster triage with enriched context.
+Security Operations
+Pivot from indicator to adversary.
+Threat Intelligence Analyst
+Curated intel mapped to your assets and sector.
+Fraud & Payments Team
+Card, account and mule activity from the dark web.
+MSSPs
+Multi-tenant intelligence across your client base.
+Vulnerability Management
+Exploit context to rank what actually gets attacked.
+Reports
+Country Reports
+Regional threat landscapes and geopolitical context.
+Industry Reports
+Sector-specific attack trends and intelligence.
+Dark Web Reports
+Exposure findings from forums and markets.
+Whitepapers
+In-depth technical research briefs.
+Solution Briefs
+How the platform solves key challenges.
+Learn & explore
+Webinars
+Expert sessions, live and recorded.
+SOCRadar University
+Free learning paths for threat-intel teams.
+MCP for Cybersecurity
+Model Context Protocol for security AI.
+Glossary
+Cyber Threat Intelligence terminology.
+Compliance
+Certifications and security posture.
+Radar
+Dark Web Index
+Leaked Large Databases
+Major Cyber Attacks
+Major AI Cyber Attacks
+Critical Vulnerabilities
+Financial Data Breaches
+SOCRadar Blog
+Threat research, dark web insights, and cybersecurity news from our team, fresh every week.
+Read the Blog
+Latest Report
+October 2026
+AI Identity Exposure Report 2026
+Read the Report
+Start here
+Intelligence Search
+One query across every free tool: domains, IPs, hashes, CVEs and actors.
+FortiBleed Check
+New
+Check whether your FortiGate devices appear in the leaked configuration set.
+Vulnerability & Risk
+CVE Intelligence
+Search known-exploited vulnerabilities by CVE, vendor, product, severity and remediation status.
+External Attack Surface
+Discover subdomains, technologies, exposed services and vulnerabilities from the outside.
+Threat Intelligence
+Dark Web Report
+Popular
+Scan your domain for dark web exposure, stealer logs, credential leaks and hacker mentions.
+Ransomware Intelligence
+Track ransomware groups, victims and leaked data in real time.
+IOC Radar
+Search IPs, domains, hashes and CVEs across threat intelligence reports.
+DDoS Intelligence
+Monitor live DDoS attack campaigns, botnet infrastructure and flood sources.
+Threat Reports
+Analyse threats by country, industry or domain with an on-demand report.
+Security Operations
+SOC Incident Toolkit
+Investigation tooling for phishing, malware and account breach, with indicator lookup.
+Threat Actor Database
+APT groups and ransomware gangs: profiles, MITRE ATT&CK mappings, IOCs and YARA rules.
+Campaigns
+Track active attack campaigns with indicators, targeted sectors and MITRE ATT&CK mappings.
+wp2shell Check
+Check if your WordPress site is exposed to the wp2shell batch-route SQL injection.
+php2shell Checker
+Identify the PHP version behind your site and check its exposure to the php2shell core RCEs.
+Free tool
+Dark Web Report
+Scan the dark web to prevent your leaks from turning into real risks. Instant results, no account needed.
+Get Your Free Report
+View all free tools →
+Company
+About Us
+Our mission, values, and threat-intel approach.
+Careers
+Open roles and life at SOCRadar.
+Press
+Releases, media coverage, and brand assets.
+Contact Us
+Talk to sales, support, or partnerships.
+Programs
+Events
+Conferences, meetups, and live sessions.
+Cybersecurity Training
+Upskill your SOC and security team.
+Partners
+Partner Program
+Overview of how to partner with us.
+Value-Added Resellers
+MSSPs
+Technology Alliances
+Partner program
+Become a partner.
+Join 316 MSSPs, resellers, and technology allies delivering SOCRadar threat intelligence to customers worldwide.
+Become a Partner
+Explore partnership options →
+Products
+Cyber Threat Intelligence
+Threat hunting and threat actor tracking with behavioral analytics.
+Advanced Dark Web Monitoring
+Detect credentials and sensitive data leaked on dark web markets, forums & Telegram.
+Attack Surface Management
+Discover your assets with a hacker mindset. Continuously map and monitor exposure.
+Brand Protection
+Actionable alerts against phishing, impersonation and brand abuse.
+Supply Chain Intelligence
+Detect compromised vendors and evaluate your entire supply network's posture.
+Agentic Threat Intelligence
+AI agents that autonomously hunt, analyze, and respond to threats, continuously and at machine speed.
+Extended Threat Intelligence
+Threat intelligence enriched with EASM, Brand Protection, and Dark Web Radar. Five modules, one platform.
+Browse All Modules
+Solutions
+SOCRadar MCP Server
+Query your live platform data in plain language.
+SOCRadar AI Agents
+Specialist agents, each built for one security job.
+SOCRadar APIs
+Integrate, automate, or build on SOCRadar intelligence.
+Integrations
+Automate and operationalize your security operations with 100+ platform integrations.
+Customer Stories
+Hear SOCRadar's impressive achievements from our clients.
+From Chaos to Clarity
+Learn how leading security teams transformed their threat intelligence operations.
+Professional Services
+Consulting and expert services to operationalize threat intelligence from day one.
+Use Cases
+Phishing Domain Detection
+Spot lookalike domains before campaigns launch.
+Credential Leak Monitoring
+Catch exposed passwords across the dark web.
+Ransomware Defense
+Track the groups and IOCs targeting your sector.
+Third-Party Risk
+Watch your vendors' exposure continuously.
+Attack Surface Discovery
+Map every internet-facing asset you own.
+Executive Protection
+Track impersonation and leaks targeting your leadership.
+Brand Impersonation Takedown
+Remove fake sites and profiles abusing your brand.
+Payment Fraud Detection
+Surface compromised cards and cash-out infrastructure.
+Vulnerability Intelligence
+Prioritize patching with exploited-in-the-wild context.
+Dark Web Exposure
+See what the underground already knows about you.
+Financial Services
+Fraud, leaks, and regulatory exposure in one view.
+Healthcare
+Protect patient data and connected systems.
+Government & Defense
+Nation-grade monitoring for critical missions.
+Retail & E-Commerce
+Stop brand abuse and card fraud at the source.
+Energy & Utilities
+Monitor threats against critical infrastructure and OT.
+Technology & SaaS
+Protect your platform, tenants and release pipeline.
+CISO
+The full risk picture, board-ready.
+SOC Analyst
+Faster triage with enriched context.
+Security Operations
+Pivot from indicator to adversary.
+Threat Intelligence Analyst
+Curated intel mapped to your assets and sector.
+Fraud & Payments Team
+Card, account and mule activity from the dark web.
+MSSPs
+Multi-tenant intelligence across your client base.
+Vulnerability Management
+Exploit context to rank what actually gets attacked.
+Plans & Pricing
+Resources
+Country Reports
+Regional threat landscapes and geopolitical context.
+Industry Reports
+Sector-specific attack trends and intelligence.
+Dark Web Reports
+Exposure findings from forums and markets.
+Whitepapers
+In-depth technical research briefs.
+Solution Briefs
+How the platform solves key challenges.
+Webinars
+Expert sessions, live and recorded.
+SOCRadar University
+Free learning paths for threat-intel teams.
+MCP for Cybersecurity
+Model Context Protocol for security AI.
+Glossary
+Cyber Threat Intelligence terminology.
+Compliance
+Certifications and security posture.
+Dark Web Index
+Leaked Large Databases
+Major Cyber Attacks
+Major AI Cyber Attacks
+Critical Vulnerabilities
+Financial Data Breaches
+Free Tools
+Intelligence Search
+One query across every free tool: domains, IPs, hashes, CVEs and actors.
+FortiBleed Check
+New
+Check whether your FortiGate devices appear in the leaked configuration set.
+CVE Intelligence
+Search known-exploited vulnerabilities by CVE, vendor, product, severity and remediation status.
+External Attack Surface
+Discover subdomains, technologies, exposed services and vulnerabilities from the outside.
+Dark Web Report
+Popular
+Scan your domain for dark web exposure, stealer logs, credential leaks and hacker mentions.
+Ransomware Intelligence
+Track ransomware groups, victims and leaked data in real time.
+IOC Radar
+Search IPs, domains, hashes and CVEs across threat intelligence reports.
+DDoS Intelligence
+Monitor live DDoS attack campaigns, botnet infrastructure and flood sources.
+Threat Reports
+Analyse threats by country, industry or domain with an on-demand report.
+SOC Incident Toolkit
+Investigation tooling for phishing, malware and account breach, with indicator lookup.
+Threat Actor Database
+APT groups and ransomware gangs: profiles, MITRE ATT&CK mappings, IOCs and YARA rules.
+Campaigns
+Track active attack campaigns with indicators, targeted sectors and MITRE ATT&CK mappings.
+wp2shell Check
+Check if your WordPress site is exposed to the wp2shell batch-route SQL injection.
+php2shell Checker
+Identify the PHP version behind your site and check its exposure to the php2shell core RCEs.
+View all free tools →
+Company
+About Us
+Our mission, values, and threat-intel approach.
+Careers
+Open roles and life at SOCRadar.
+Press
+Releases, media coverage, and brand assets.
+Contact Us
+Talk to sales, support, or partnerships.
+Events
+Conferences, meetups, and live sessions.
+Cybersecurity Training
+Upskill your SOC and security team.
+Partner Program
+Overview of how to partner with us.
+Value-Added Resellers
+MSSPs
+Technology Alliances
+Explore partnership options →
+Dark Web Report
+Start for Free
+Blog
+Trainings
+Request a Demo
+Login
+English
+Español
+Home
+›
+Blog
+›
+Cyber Security Report
+›
+INC and The Gentlemen Ransomware: Exposed AI Infrastructure
+Oct 20, 2026
+Updated
+Oct 23, 2026
+18 Mins Read
+Summarize with:
+INC and The Gentlemen Ransomware: Exposed AI Infrastructure
+SOCRadar Threat Research Unit (STRU) has uncovered an AI-driven intrusion ecosystem run by affiliates of the
+INC Ransomware
+and
+The Gentlemen Ransomware
+groups. A single publicly accessible command-and-control server exposed the operators’ AI session databases, their central knowledge base and the source code of
+Phantom
+, a new “Autonomous Red Team Kill Chain Framework”. Configuration files, logs and credentials inside that server led STRU to six more exposed adversary-controlled servers.
+The operators exploited edge and remote-access systems at scale, including FortiClient EMS, SimpleHelp, cPanel and VPN gateways. They used AI-managed knowledge bases to track victims, stolen credentials and campaign progress. The servers also held 46 custom
+INC
+encryptor builds staged for an October 1, 2026 deployment, evidence of a live victim encryption, and a branded extortion package for a case listed by
+The Gentlemen
+.
+The campaign came to light in late September 2026 after OPSEC failures left the operators’ source code, credentials and AI session logs exposed. Their recorded AI spending exceeds $23,000.
+This post summarizes the findings, TTPs and IOCs; the complete technical analysis is available in the
+full whitepaper
+.
+Key Takeaways
+AI is the operational core:
+Operators ran intrusions through OpenCode with OpenRouter-hosted commercial models, logging 8,257 messages across 133 sessions; recorded AI API spending exceeds $23,920
+Ransomware deployment wave staged:
+46 INC encryptor binaries were built for six victims and packed for an October 1, 2026 deployment; a September 30 SimpleHelp screenshot shows live encryption on a victim workstation
+Edge devices exploited at scale (per operator records):
+FortiClient EMS (CVE-2026-35616, 2,236 targets, 108 created admins, 4,140 managed endpoints), SimpleHelp (CVE-2024-57727, 242 unique IP addresses impacted) and cPanel (CVE-2026-41940, 49+ claimed breaches)
+Custom arsenal exposed:
+The Phantom framework, WormGPT-labelled MCP servers, Ghost C2, RevSocks, a Quick Heal/Seqrite BYOVD killer and exfiltration tooling were recovered in source and binary form
+Victimology:
+62 named organizations, 36 of them in the United States, led by industrial/manufacturing (16.1%) and healthcare (14.5%)
+At a Glance
+Attribute
+Details
+Actors
+Affiliates operating with INC Ransomware (MITRE G1032, GOLD IONIC) and The Gentlemen Ransomware
+Discovery
+Late September 2026, through exposed open directories on adversary servers
+Infrastructure
+Seven exposed servers, heavily hosted on AS267784 (Flyservers S.A.)
+AI stack
+OpenCode, OpenRouter (anthropic/claude-opus-4.6, moonshotai/kimi-k3), WormGPT persona prompts and MCP servers, persistent knowledge base
+Custom tooling
+Phantom, Ghost C2, RevSocks, QuickLine (Athena/Mythic), Quick Heal/Seqrite killer, rks3, BackupConsole/BackupAgent
+Exploited CVEs
+CVE-2026-35616, CVE-2024-57727, CVE-2026-41940 (actively exploited per operator records); more attempted or developed
+Payloads
+46 INC encryptor builds for six victims; The Gentlemen extortion and vishing package
+Victims
+62 named organizations; 36 in the United States
+Operator profile
+Russian-speaking, active mainly 06:00 to 14:00 UTC
+How the Infrastructure Was Discovered
+The investigation began with an exposed command-and-control server at
+45.227.254[.]43
+, whose open directories held the operators’ knowledge base, AI session logs and the Phantom source code. Configuration files, logs and credentials on this host led STRU to six more adversary servers, most hosted on AS267784 (Flyservers S.A.).
+Ecosystem overview
+Server
+Role
+45.227.254[.]43
+Initial AI node: knowledge base, OpenCode history, Phantom source and per-victim workspaces
+45.227.254[.]45
+Development and deployment hub: partner package, C2 builds and case data
+45.227.254[.]84
+Operator workstation: Windows VM, SimpleHelp console and staged INC encryptors
+179.60.149[.]68
+Staging and network pivot node
+89.185.83[.]8
+Ghost C2 and credential harvesting tooling
+138.124.113[.]210
+Ghost C2 control panel
+77.110.109[.]248
+RevSocks reverse SOCKS5 host
+The operation timeline spans from Ghost C2 activity in mid-July to live encryption on September 30, 2026.
+Operation timeline
+AI as the Co-Operator
+STRU assesses with high confidence that the ecosystem’s defining trait is an AI-executed, human-approved operating structure. The human operator directs and approves, while the AI stack (OpenCode as the interface, OpenRouter-hosted models, the Phantom skill library and a persistent knowledge base) plans reconnaissance, selects techniques, generates commands, triages stolen data and drafts reports.
+Tooling overview
+STRU analyzed 8,257 messages across 133 OpenCode sessions alongside three knowledge base iterations:
+Human approval loop:
+Each campaign started with a victim-specific master prompt, and the AI waited for the operator’s approval before every step under the directive “coordinate every action with me”
+Commercial models, not uncensored ones:
+The models were standard commercial LLMs; “WormGPT” was only a persona prompt. When models refused, the operator rewrote requests as “Authorized Red Team Assessment Request” templates instead of switching models
+Operator profile:
+Russian-speaking operators, most active between 06:00 and 14:00 UTC, who used the AI for stealth decisions, tool debugging and OPSEC
+Funding:
+A live check on October 5, 2026 found two active, paid OpenRouter accounts, one of them nearly exhausted after $23,920 in spending
+OpenRouter API key usage by the threat actors at the time of observation
+This reliance on AI memory became the operation’s weakness: the knowledge bases and session logs form a complete evidence trail of the campaign.
+Modus Operandi
+Initial Access Through Edge Devices
+The operators gained initial access by exploiting public-facing edge devices at scale, then moved laterally and escalated toward
+ransomware
+deployment, a methodology that aligns with tactics frequently observed in INC Ransomware intrusions, including the FortiBleed campaign previously analyzed by STRU. According to operator records, which are not independently verified:
+FortiClient EMS (CVE-2026-35616):
+2,236 targets, 108 created admin accounts and 4,140 managed endpoints; the operators planted backdoor admins and pushed payloads to endpoints through modified VPN connection scripts
+SimpleHelp (CVE-2024-57727):
+Scans of 4,922 servers yielded 427 admin passwords, with 242 unique IP addresses impacted; stolen MSP technician credentials opened access to every client those technicians managed
+cPanel (CVE-2026-41940):
+49+ claimed breaches of small hosting providers, used as a springboard to the email and webmail servers they host
+Other gateways:
+Ivanti, Citrix, SonicWall and OpenVPN devices were also evaluated, with three recorded compromises
+FortiClient claim chain record in the knowledge base
+FOFA scan results and exploitation records in the knowledge base
+CVE
+Target
+Status
+CVE-2024-57727
+SimpleHelp path traversal
+Actively exploited at scale (operator-reported counts)
+CVE-2026-35616
+FortiClient EMS auth bypass
+Actively exploited (operator-reported counts)
+CVE-2026-41940
+cPanel/WHM auth bypass
+Actively exploited (operator-reported counts)
+CVE-2020-1472 (ZeroLogon)
+Windows Netlogon
+Attempted
+CVE-2026-0300
+PAN-OS User-ID auth portal BoF (0-day)
+Attempted; delivery without confirmed code execution
+CVE-2021-1675 (PrintNightmare)
+Windows Print Spooler
+Attempted, failed
+CVE-2025-59718
+FortiGate SAML SSO bypass
+Attempted, failed
+CVE-2024-49112 (LDAPNightmare)
+Windows LDAP
+Attempted; not exploitable in the operator’s setup
+CVE-2023-27532
+Veeam Backup Service
+Not used (operator-reported counts)
+CVE-2021-42278/42287 (noPac)
+Windows AD
+Attempted, failed
+CVE-2026-41089
+Windows Netlogon (NetpLogonPutUnicodeString)
+Developed and lab-tested; victim use not established
+CVE-2026-15409
+SonicWall SMA1000
+Staged for targeting; no confirmed compromise
+CVE-2026-63030
+WordPress (wp2shell)
+Developed; use not established
+CVE-2025-62215
+agentgenerator target
+Developed; use not established
+CVE-2026-42208 / CVE-2026-9082
+LiteLLM SQLi / Drupal SQLi
+Developed or referenced; use not established
+CVE-2025-66568 / CVE-2025-66567
+SAML XML-parser bypass (XSW)
+Referenced
+Inside the Victim Network
+Once inside, the operators followed a recurring lifecycle: enumerate the domain, escalate to domain admin where possible, harvest credentials with stealer tooling, prioritize finance, HR, legal and executive files, and collect them over reverse-SOCKS tunnels. Credential reuse was the main force multiplier; in one case, a single reused password unlocked the VPN, servers, RMM, backup and security management platforms at once. Security products were impaired with a BYOVD killer and loader-level evasion, although the operators’ own logs record mixed results against enterprise EDRs.
+The Operator Arsenal
+The exposed servers held the operators’ custom tooling in source and binary form:
+Phantom:
+A modular “Autonomous Red Team Kill Chain Framework” with 18 skill modules, an autopilot and its own agents, which disguise themselves as Windows Update components
+WormGPT-MCP:
+32 MCP servers connecting the AI to tooling from reconnaissance to extortion, including a ransom-ops server with negotiation and pricing tools
+Ghost C2:
+Three generations of polymorphic implants communicating over HTTPS through Cloudflare, Telegram or DNS
+RevSocks:
+A reverse SOCKS5 framework used to pivot inside victim networks and stage exfiltration
+Supporting tools:
+A Cloudflare-fronted Mythic agent (QuickLine), a Quick Heal/Seqrite killer abusing the Zemana driver, and the rks3 and BackupAgent exfiltration tools
+A separate delivery service supports
+phishing
+through malicious Word templates and HTML smuggling, persisting through a scheduled task named RealtekAudioSvc; its only recorded campaign was an internal self-test.
+Phantom agent lifecycle
+INC Ransomware Deployment
+INC Ransomware is a Rust-based RaaS tracked since August 2023 (
+G1032
+). The operators prepared 46 INC encryptor builds for six victims, each personalized with its own key and victim identifier, covering Windows and Linux. The Windows encryptor stops backup and database processes and services, deletes shadow copies through direct driver calls instead of vssadmin, appends the .INC extension and drops INC-README.txt notes that point victims to a Tor chat portal.
+Binaries prepared for victims with their names in directories (“P” files)
+Three per-victim packages were packed on September 30, 2026 for a deployment wave on October 1, and crew chat confirms the timing (“tomorrow at 6 Moscow time, right?”). Deployment against these targets is unconfirmed, but a SimpleHelp screenshot from September 30 shows the encryptor running on a victim workstation.
+Rocket.Chat messages between operators, screenshot taken by OpenCode
+SimpleHelp screenshot taken from a victim environment by the operator
+The Extortion Playbook
+AI-authored extortion records reveal a data-centric playbook that prefers data extortion over encryption. The operators estimate what a victim can pay from its own stolen financials, map compliance and customer data for leverage, send masked proof samples, and open with text-only emails to owners or executives without a price. Pressure then escalates through scripted vishing calls, customers and partners, regulators and finally publication, with 24 to 72 hour deadlines. Payment was planned in Monero, but no wallet or payment record was recovered.
+Timeline of the cases
+Aidon:
+A EUR 15M demand was cut to EUR 4M/2.5M after the operator realized it had targeted the wrong parent company; the firm later appeared on INC’s leak site, though the link to this contact is not established
+Leo Schachter Diamonds:
+A four-message extortion set signed “The Gentlemen” with a vishing plan; the victim is listed on The Gentlemen’s leak blog
+Trulite Glass & Aluminum Solutions:
+A look-alike site, trulitesupport[.]com, warned the victim’s customers of the breach to pressure the company, linking to its INC leak post
+Healthcare network:
+A 24-hour deadline with a AUD 3M to 8M price band
+Customer-facing extortion page “Security Incident Notice” on trulitesupport[.]com
+Attribution and Operating Model
+Evidence ties the infrastructure to both brands. For
+The Gentlemen Ransomware
+, the Leo Schachter Diamonds case contains full group branding, a four-stage extortion progression and a vishing outline. For
+INC Ransomware
+, the link goes beyond branding: 46 custom encryptors decrypt the INC ransom note, three INC leak site victims (Aidon, Trulite and City of Princeton, TX) match internal case files, and chat logs from an onion INC administration panel and Rocket.Chat list the packages staged for October 1.
+The operators also used FOFA API accounts tied to smilefacesec[@]gmail[.]com for scanning. Cross-referencing this address with the SOCRadar Threat Hunting module shows it was used to register a BreachForums account under the username “sm4l1st123”.
+A partner onboarding guide (README_PARTNER.md) on 45.227.254[.]45 describes handing Phantom, OpenCode, the knowledge base and WormGPT-
+MCP servers
+to external operators, advertising “35 MCP servers”, “55+ tools” and “9K+ CVE PoC”.
+STRU assesses with high confidence that the hosts served as an active intrusion-development and operational workbench, with Phantom functioning as an operator-centric framework. Confidence in a formal dual-brand alliance is low, while confidence in a shared operational environment used by operators across both groups is moderate-to-high. The most plausible structure is a dedicated tooling and infrastructure provider supporting various partners across the ransomware ecosystem.
+Victimology
+STRU graded 62 named organizations by the depth of observed activity: 4 publicly listed for extortion (L5), 4 at the encryption or extortion stage (L4), 14 with domain-level compromise (L3), 28 with a foothold or access (L2) and 12 at reconnaissance only (L1). The United States accounts for 36 of the 62.
+Geographic distribution of victims
+By sector, industrial, manufacturing and energy organizations lead (16.1%), followed by healthcare and pharma (14.5%). Among 35 classifiable targets, 27 had revenues of $250M or less and 8 exceeded $250M, with small businesses reached through a managed service provider alongside larger organizations compromised through independent vectors.
+Sector distribution of victims
+Revenue distribution of victims
+Recommendations
+Patch FortiClient EMS, Fortinet and SonicWall gateways, remove internet access to management interfaces, and review EMS for unauthorized admins or modified VPN connection scripts
+Harden MSP and RMM environments with MFA, IP allowlists and dedicated admin accounts, and require the same controls from third-party MSPs
+Inventory remote-access tools such as SimpleHelp, MeshCentral and N-central, patch them, restrict their use and block unauthorized software
+Patch Zerologon, retire Windows Server 2008 R2 domain controllers, deploy LAPS and gMSAs, enforce admin tiering and audit replication permissions and AAD Connect accounts
+Protect backups with immutable or air-gapped storage and isolate and patch Veeam consoles
+Enable EDR tamper protection, enforce vulnerable driver blocklists and alert on security service deletion or interruption
+Monitor outbound transfers to cloud storage and limit tools such as restic or rclone to authorized endpoints
+Block remote Office template loading and HTML smuggling, and train staff to recognize vishing
+Prepare data extortion response with retained IR services, legal and notification templates, and monitoring of
+typosquatting
+domains and leak sites
+Isolate hypervisors, ESXi hosts and central file servers from user networks
+Detection and Hunting
+EMS and gateway anomalies:
+New privileged EMS accounts (sysadmin, fct_svc_*, ems_monitor_*), VPN profile changes, missing audit logs and forged client-certificate headers
+Initial access and staging:
+Office downloading remote .dotm templates, script-styled URLs serving PowerShell, curl or certutil spawned by Office or browsers, and a scheduled task named RealtekAudioSvc
+C2 and tunneling:
+RevSocks, Chisel or Ligolo traffic patterns, Python beacons with TLS verification disabled, mTLS panel URIs and DNS queries to the listed domains
+AD and credential abuse:
+Replication requests from non-DC hosts, reads of shadow-copied ntds.dit, spikes in RC4 Kerberos service tickets and Netlogon secure channel anomalies
+Lateral movement:
+Unauthorized RMM agents, scripts or remote sessions outside change windows, and Remote Registry started just before RDP is enabled
+Defense impairment:
+Zemana driver loads paired with Quick Heal/Seqrite service termination or file deletion
+Exfiltration:
+restic or rclone execution, large archives and bulk uploads to external object storage
+Encryption:
+Restart Manager sessions from non-installer processes, \\.\X: volume opens followed by IOCTL 0x53C028, mass renames to .INC and INC-README.txt files
+Brand misuse:
+Look-alike domains hosting notification pages that point customers to extortion blogs
+For the full technical breakdown, including tooling internals, the encryptor analysis and extended IOCs,
+download the complete whitepaper
+.
+MITRE ATT&CK Mapping
+Tactic
+Technique
+Procedure
+Reconnaissance
+T1595.002
+Vulnerability Scanning
+FOFA-style lists of EMS, SimpleHelp, mail and VPN hosts
+Reconnaissance
+T1591
+Gather Victim Org Information
+OSINT dossiers on revenue, ownership and leverage
+Resource Development
+T1583.001
+Domains
+Look-alike customer-notice and delivery domains
+Resource Development
+T1587.001
+Malware
+Phantom, Ghost, loaders and security-tool killer, built with AI assistance
+Resource Development
+T1588.002
+Tool
+Mythic/Athena, Sliver, Ligolo-ng, Chisel, NetExec, BloodHound
+Initial Access
+T1190
+Exploit Public-Facing Application
+FortiClient EMS, SimpleHelp, cPanel and mail-server exploits
+Initial Access
+T1133
+External Remote Services
+FortiVPN and SonicWall NetExtender access
+Initial Access
+T1078
+Valid Accounts
+Captured or reused domain and VPN credentials
+Initial Access
+T1566.001
+Spearphishing Attachment
+Template-injection .dotm and LNK-in-ZIP lures
+Initial Access
+T1566.004
+Spearphishing Voice
+Vishing scripts for calls to victim staff
+Execution
+T1059.001
+PowerShell
+Stage-two loader and persistence variants
+Execution
+T1059.006
+Python
+svc.py implant and PyInstaller/Nuitka agents
+Execution
+T1204.002
+Malicious File
+Lure document or LNK launches stage one
+Execution
+T1072
+Software Deployment Tools
+N-central panel pushes encryptor builds to endpoints
+Persistence
+T1136
+Create Account
+EMS backdoor super-admin and a created domain-admin account
+Persistence
+T1053.005
+Scheduled Task
+RealtekAudioSvc task for svc.py
+Defense Impairment
+T1685
+Disable or Modify Tools
+Quick Heal/Seqrite killer with Zemana driver
+Defense Impairment
+T1070.006
+Timestomp
+INC quiet mode restores last-write times
+Defense Evasion
+T1036
+Masquerading
+Realtek, Windows Update and WUServiceHost names on implants
+Defense Evasion
+T1027.006
+HTML Smuggling
+Invoice page builds a LNK-in-ZIP blob in the browser
+Credential Access
+T1003.006
+DCSync
+DCSync-format account output for one victim
+Credential Access
+T1003.003
+NTDS
+Shadow-copy ntds.dit dumps in several cases
+Credential Access
+T1558.003
+Kerberoasting
+Service-ticket extraction in several domains
+Credential Access
+T1555.003
+Credentials from Web Browsers
+Stealer output with thousands of browser entries
+Credential Access
+T1056.002
+GUI Input Capture
+Fake lock screen captures the user password
+Credential Access
+T1110
+Brute Force
+RDP, SSH, cPanel and OWA spraying
+Discovery
+T1087.002
+Domain Account
+LDAP and BloodHound collection
+Discovery
+T1135
+Network Share Discovery
+SMB share and file-tree listings
+Discovery
+T1083
+File and Directory Discovery
+Encryptor traversal with FindFirstFileW/FindNextFileW
+Discovery
+T1057
+Process Discovery
+Toolhelp snapshot behind the encryptor proc option
+Lateral Movement
+T1021.002
+SMB/Windows Admin Shares
+NetExec admin-success relations
+Lateral Movement
+T1021.001
+Remote Desktop Protocol
+RDP enabled through Remote Registry
+Lateral Movement
+T1210
+Exploitation of Remote Services
+Zerologon against two domain controllers
+Collection
+T1074.001
+Local Data Staging
+SQL and mail proof builders; staged exports
+Collection
+T1114.001
+Local Email Collection
+4,481 EML files in the luxury-goods case
+Collection
+T1005
+Data from Local System
+Finance, HR and legal file selection lists
+Command and Control
+T1071.001
+Web Protocols
+Ghost, Phantom and Athena HTTPS configurations
+Command and Control
+T1090
+Proxy
+Reverse-proxy templates, Worker relay, SOCKS5
+Command and Control
+T1572
+Protocol Tunneling
+Ligolo, Chisel and RevSocks tunnels
+Command and Control
+T1219
+Remote Access Software
+SimpleHelp, MeshCentral and N-central agents
+Command and Control
+T1105
+Ingress Tool Transfer
+curl/certutil retrieval of stage-two payloads
+Exfiltration
+T1567.002
+Exfiltration to Cloud Storage
+Restic uploads to object storage
+Impact
+T1486
+Data Encrypted for Impact
+INC builds; one victim screenshot shows live encryption
+Impact
+T1489
+Service Stop
+serv option stops services by mask
+Impact
+T1490
+Inhibit System Recovery
+Shadow-copy removal through IOCTL 0x0053C028
+Impact
+T1657
+Financial Theft
+Extortion letters, pricing and customer notice pages
+Indicators of Compromise (IOCs)
+For the extended IOC list, visit the
+SOCRadar platform
+.
+Type
+Indicator
+Note
+IP
+45.227.254[.]43
+OpenCode / KB / Phantom
+IP
+179.60.149[.]68
+Staging / pivot
+IP
+45.227.254[.]45
+Build and deployment hub
+IP
+45.227.254[.]84
+Kali / VM host
+IP
+77.110.109[.]248
+RevSocks host
+IP
+89.185.83[.]8
+Ghost / delivery
+IP
+138.124.113[.]210
+Ghost panel
+Domain
+system-strategy[.]org
+Ghost / Phantom redirector zone
+Domain
+iquickline[.]com
+Phantom / Athena C2 zone
+Domain
+mcgrawney[.]com
+Phantom redirector zone
+Domain
+driverupdate[.]app
+Retired C2 zone
+Domain
+stackpathcloud[.]com
+Retired C2 zone
+Domain
+cloud-update[.]live
+MeshCentral C2 front
+Domain
+bossprotect[.]com
+Mail / phishing domain
+Domain
+trulitesupport[.]com
+Look-alike customer-notice page
+Domain
+incblog[.]su
+INC leak-site mirror (note)
+Onion
+incpaykabjqc2mtdxq6c23nqh4x6m5dkps5fr6vgdkgzp5njssx6qkid[.]onion
+INC payment portal (note)
+Onion
+incblog6qu4y4mm4zvw5nrmue6qbwtgjsxpw6b7ixzssu36tsajldoad[.]onion
+INC leak site (note)
+Onion
+incblog4uttkxd6b4grii6k2qcj2tn5k37seep5xto3dlghyqla7u7qd[.]onion
+INC site snapshot
+Onion
+incadmd42ytgp4hwkejirji4m6pcbacazoeic7fc5sd27nr7it5ajyqd[.]onion
+INC dashboard / chat (VM screenshot)
+Onion
+z26qmezqaixjp3k6spvdpool4us6m3ei453f7wgl7gouojmp2ttkdgad[.]onion
+Legacy Rocket.Chat hidden service
+URL / path
+/assets/js/analytics.js
+Disguised loader path
+SHA-256
+ffca6aa96572743200f9f0040a3e435766f6d7c15d6a4c72045a0cbb4db72eb4
+INC build A
+SHA-256
+0ae4447d755593ee1931170d4187a07a29bf0690179acc39b7400a4c65cd07c5
+INC build B
+SHA-256
+14b711bd51096796ac6b38c30e3cced197831092956a4c6ff8d1f5ebb4432212
+INC build C
+SHA-256
+ec4ba1d570601eaa1474ab7cfffafcff218a717e44e8d2d22ed0573676b0463e
+INC kit 1, Windows
+SHA-256
+ca02f60942a43d8f8b973baa3231df1f8c26328750baa2ed8d4cf07335084ebb
+INC kit 2, Windows
+SHA-256
+ffd47c59a9960a293002c4fff481f613892599191356589eb7b6950ef7465918
+INC kit 3, Windows
+SHA-256
+70f28e18e7f4083cd542e6bff6b2682f3876c5ef4bcf4323aa22a6d03d4a8a82
+INC kit 1, Linux
+SHA-256
+7ad718a530a2913f775e62c656060af79ffde5c1f2c04138bcc068142f162a20
+INC kit 2, Linux
+SHA-256
+4286e7035096d002a0f90aca19b93504d7c69354cf0c76eb8b3c93bae2b7885a
+INC kit 3, Linux
+Frequently Asked Questions
+What did SOCRadar uncover about INC and The Gentlemen ransomware affiliates?
+SOCRadar Threat Research Unit uncovered seven exposed adversary-controlled servers used by affiliates operating with
+INC Ransomware
+and The Gentlemen Ransomware. The servers held AI session databases, a central knowledge base, the Phantom framework, C2 tooling, 46 INC encryptor builds and a branded extortion package for a case listed by The Gentlemen.
+How did the attackers use AI in their operations?
+The operators ran intrusions through OpenCode with commercial models hosted on OpenRouter, using a “WormGPT” persona prompt and MCP servers. The AI planned reconnaissance, generated commands, triaged data and drafted extortion material, while a human operator approved each step. When models refused, the operator rewrote requests as authorized red team assessments instead of switching models.
+Which vulnerabilities did the INC and The Gentlemen affiliates exploit?
+Operator records show active exploitation of FortiClient EMS (CVE-2026-35616), SimpleHelp (CVE-2024-57727) and cPanel/WHM (CVE-2026-41940), plus follow-on use of the Roundcube flaw CVE-2025-49113. ZeroLogon, PrintNightmare, noPac, a PAN-OS User-ID flaw and a FortiGate SAML bypass were attempted, and several other CVEs were developed or staged.
+What is the Phantom framework?
+Phantom is a modular “Autonomous Red Team Kill Chain Framework” built by the operators, with 18 SKILL modules, a routing engine, an autopilot orchestrator and Python and Go agents. It integrates with OpenCode so the AI can select techniques and task remote agents. Its agent masquerades as Windows Update components and calls back to api.iquickline[.]com.
+Is The Gentlemen Ransomware allied with INC Ransomware?
+STRU rates confidence in a formal dual-brand alliance as low. Confidence that operators of both groups used a shared operational environment is moderate-to-high, and the most plausible structure is a dedicated tooling and infrastructure provider supporting several ransomware partners.
+Which organizations were targeted?
+The records name 62 organizations, 36 of them in the United States, with industrial, manufacturing and energy (16.1%) and healthcare and pharma (14.5%) the most targeted sectors. Four organizations reached public extortion listings and 14 suffered domain-level compromise.
+Is patching edge devices enough to defend against these affiliates?
+Patching FortiClient EMS, SimpleHelp, cPanel and VPN gateways closes the main entry points, but the operators also relied on stolen and reused credentials and on access already planted in EMS and RMM tools. Defenders should also hunt for rogue EMS admins and modified VPN on_connect scripts, rotate credentials, enforce MFA on RMM and VPN access and protect backups.
+ST
+SOCRadar Threat Research Unit (STRU)
+Free dark web report
+Is your domain/email exposed?
+Get Your Free Report
+Table of content.
+−
+INC and The Gentlemen Ransomware: Exposed AI Infrastructure
+Key Takeaways
+At a Glance
+How the Infrastructure Was Discovered
+AI as the Co-Operator
+Modus Operandi
+Attribution and Operating Model
+Victimology
+Recommendations
+Detection and Hunting
+MITRE ATT&CK Mapping
+Indicators of Compromise (IOCs)
+Frequently Asked Questions
+Related articles.
+2026 SANS CTI Survey Report: Key Findings on CTI’s Influence Gap
+Jul 1, 2026
+The Quarry: Inside the PhaaS Operation Behind Hundreds of IRS and SSA Phishing Campaigns
+Jun 15, 2026
+How Dark Data Leaves Security Teams One Step Behind
+May 21, 2026
+The Alarming Rise of Cyber Threats in the NFT and Cryptocurrency Space
+May 29, 2025
+SANS 2025 Cyber Threat Intelligence (CTI) Survey: Navigating Uncertainty in Today’s Threat Landscape
+May 22, 2025
+See your digital assets through a hacker's eyes.
+Scan in 7 Seconds
+Related articles.
+Jul 1, 2026
+2026 SANS CTI Survey Report: Key Findings on CTI’s Influence Gap
+Jun 15, 2026
+The Quarry: Inside the PhaaS Operation Behind Hundreds of IRS and SSA Phishing Campaigns
+May 21, 2026
+How Dark Data Leaves Security Teams One Step Behind
+May 29, 2025
+The Alarming Rise of Cyber Threats in the NFT and Cryptocurrency Space
+Intelligence in your inbox every Thursday.
+Join 30,000+ security professionals reading SOCRadar research.
+Subscribe
+Extended threat intelligence platform. Outside-in visibility across the surface, deep, and dark web, for defenders who need to act before threats land.
+Get the SOCRadar brief every Thursday.
+New threat research, vulnerability alerts, and dark web trends, read by 30,000+ security professionals.
+Subscribe
+No spam. Unsubscribe any time.
+Platform
+Extended Threat Intelligence
+Agentic Threat Intelligence
+Cyber Threat Intelligence
+Advanced Dark Web Monitoring
+Attack Surface Management
+Brand Protection
+Supply Chain Intelligence
+SOCRadar MCP Server
+SOCRadar AI Agents
+SOCRadar APIs
+All Modules
+Plans & Pricing
+Partners
+Partner Program
+Managed Security Service Providers
+Value-Added Resellers
+Technology Alliances
+Integrations
+Modules
+Threat Hunting
+Tactical Intelligence
+Operational Intelligence
+Identity & Access Intelligence
+Vulnerability Intelligence
+Digital Footprint
+Vulnerability Detection
+DNS Monitoring
+SSL Certificates Monitoring
+Executive Protection
+Fraud Protection
+Integrated Takedown
+Third-Party Companies
+Use Cases
+Financial Services
+Healthcare & Pharmaceutical
+Public Sector & Defense
+Retail & E-Commerce
+Energy & Critical Infrastructure
+Technology & SaaS
+For MSSPs & MDR
+Professional Services
+Radar
+Dark Web Index
+Leaked Large Databases
+Major Cyber Attacks
+Major AI Cyber Attacks
+Critical Vulnerabilities
+Financial Data Breaches
+Resources
+Blog
+Reports
+Webinars
+On-Demand Webinars
+Whitepapers
+Solution Briefs
+Customer Stories
+Glossary
+Free Tools
+Dark Web Report
+Industry Threat Landscape Report
+Country Threat Landscape Report
+External Threat Assessment Report
+External Attack Surface
+IOC Radar
+Campaigns
+SOC Tools
+php2shell Checker
+Company
+About Us
+Careers
+Events
+Press
+Brand Guidelines
+Contact Us
+Request a Demo
+Trust & Security
+Trust Center
+Security Center
+Vulnerability Reporting
+Security Hall of Fame
+Compliance
+Offices
+Newark, Delaware
+HQ
+254 Chapman Rd, Ste 208, Newark, Delaware 19702
+Istanbul
+Türkiye
+London
+United Kingdom
+Madrid
+Spain
+Dubai
+United Arab Emirates
+São Paulo
+Brazil
+Tokyo
+Japan
+Bangalore
+India
+All addresses and contacts
+4.7
+/5
+★★★★★
+★★★★★
+© 2026 SOCRadar Cyber Intelligence Inc. All rights reserved.
+Privacy Policy
+Information Security Policy
+Terms of Service
+Non-Disclosure Agreement
+Cookies and measurement
+We use necessary cookies to run the site. Analytics and advertising tags wait for your choice. You can change this later.
+Privacy policy
+Reject optional
+Accept all

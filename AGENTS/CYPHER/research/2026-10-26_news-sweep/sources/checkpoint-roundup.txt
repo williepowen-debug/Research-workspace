@@ -1,0 +1,390 @@
+Source: https://research.checkpoint.com/2026/26th-october-threat-intelligence-report/
+Retrieved: 2026-10-26T23:08:55-04:00
+
+26th October – Threat Intelligence Report - Check Point Research
+CONTACT US
+DISCLOSURE POLICY
+CHECKPOINT.COM
+UNDER ATTACK?
+Latest Publications
+CPR Podcast Channel
+AI Research
+Intelligence Reports
+Resources
+ThreatCloud AI
+Threat Intelligence & Research
+Zero Day Protection
+Sandblast File Analysis
+About Us
+SUBSCRIBE
+SUBSCRIBE
+FILTER BY YEAR
+2026
+2025
+2024
+2023
+2022
+2021
+2020
+2019
+2018
+2017
+2016
+26th October – Threat Intelligence Report
+October 26, 2026
+https://research.checkpoint.com/2026/26th-october-threat-intelligence-report/
+For the latest discoveries in cyber research for the week of 26th October, please download our
+Threat Intelligence Bulletin.
+TOP ATTACKS AND BREACHES
+Japanese cloud hosting provider Onamae Desktop Cloud has
+confirmed
+a cyberattack in which intruders compromised its infrastructure and installed malware on customer servers. More than 26,000 servers were potentially affected. The provider began shutting down customer environments on October 21 to contain the intrusion and prevent further unauthorized activity.
+India’s state-run State Bank of India, serving more than 500 million customers,
+disclosed
+a data breach after 3,897 customer records appeared online. The exposed information reportedly included contact details, residential addresses, birth dates, bank profiles, loan records, and identity-verification documents. The bank reported no disruption to core services.
+WordPress backup developer TeamUpdraft has
+suffered
+a cyberattack after intruders accessed its website and potentially exposed customer information and management-service connection keys. Attackers subsequently abused compromised UpdraftCentral keys to install backdoors on WordPress websites during an 18-hour campaign on October 18 and 19.
+LiteLLM, a widely used open-source AI gateway,
+confirmed
+an October 21 supply-chain attack in which attackers used stolen developer tokens to publish malicious packages and Docker images. The compromised version 1.107.0 was designed to steal cloud credentials and AI service secrets, with attackers subsequently testing stolen AWS credentials.
+AI THREATS
+Check Point Research
+uncovered
+how AI-enabled antidetect browsers allow operators to manage thousands of deceptive accounts while evading platform safeguards. Tools including Kameleo, AdsPower, and MultiLogin facilitate account takeovers, financial fraud, and automated distribution of AI-generated content, supporting large-scale influence operations across social media platforms.
+Researchers
+observed
+affiliates of INC and The Gentlemen ransomware groups using AI agents to conduct human-approved cyberattacks. The operation targeted 62 organizations by exploiting remote-access systems and compromised credentials. Victims were concentrated in the manufacturing, energy, healthcare, and pharmaceutical sectors, primarily in the United States.
+Researchers
+analyzed
+a cybercriminal operation that used multiple AI assistants to plan and execute different types of malicious activity. The attacker relied on AI-generated scripts and reconnaissance reports to develop attack capabilities. Exposed operational records revealed how AI tools supported campaign planning, technical execution, and adaptation across different targets.
+VULNERABILITIES AND PATCHES
+Critical PHP vulnerabilities CVE-2026-109618 and CVE-2026-109619 have been
+used
+in widespread exploitation attempts that could enable remote code execution. Attack traffic reportedly increased from thousands to millions of attempts following disclosure. As of October 23, approximately 97.5% of publicly visible PHP instances did not indicate patched versions.
+Check Point IPS provides protection against this threat
+(PHP Remote Code Execution (CVE-2026-109618, CVE-2026-109619, CVE-2026-115560((
+Oracle has
+released
+its October 2026 Critical Patch Update, addressing 1,209 unique vulnerabilities through 1,295 security patches across 33 product families. The update includes 95 critical CVEs and affects widely deployed enterprise products, including Fusion Middleware, E-Business Suite, MySQL, and Java SE.
+GitLab has
+fixed
+CVE-2026-110264, a critical vulnerability with a CVSS score of 10.0 affecting Community and Enterprise Editions. The integer overflow flaw could allow unauthenticated attackers to execute arbitrary code remotely on affected servers. The vulnerability affects versions before 18.11.13 and several 19.x releases.
+A critical privilege-escalation vulnerability, CVE-2026-114625,
+affects
+on-premises Arista VeloCloud Orchestrator deployments. The flaw carries a CVSS score of 9.4 and allows authenticated users, including those with read-only access, to obtain operator-level permissions. Successful exploitation can expose restricted management functions, and the vulnerability has been exploited in attacks.
+THREAT INTELLIGENCE REPORTS
+Check Point Research has
+profiled
+Aokigahara, a newly identified infostealer targeting credentials and session data associated with AI applications, developer tools, and cloud platforms. Targeted applications include Claude, ChatGPT Desktop, Cursor, and GitHub Copilot. Stolen information may include authentication tokens, account credentials, and other sensitive application data.
+Researchers
+revealed
+that U.S. federal investigators suspect an executive at a ransomware negotiation company assisted the ShinyHunters extortion group in operating its victim disclosure website. The site reportedly listed nearly 100 organizations between May and October 2026.
+Researchers
+mapped
+Lazarus’s Operation FlashHole, a cyberespionage campaign targeting organizations in South Korea’s software, construction, and telecommunications equipment sectors. Attackers used tailored phishing messages and fraudulent portfolio websites to deliver malware. The campaign exploited trusted financial-security software to execute malicious components.
+Researchers have
+uncovered
+a large-scale campaign by threat actor k0t targeting Fortinet FortiGate, FortiWeb, and Palo Alto Networks GlobalProtect devices. Attackers exploited vulnerabilities and weak credentials to establish persistent access and steal information. The operation exposed more than 70,000 credentials and showed possible connections to ransomware groups.
+GO UP
+BACK TO ALL POSTS
+POPULAR POSTS
+Check Point Research Publications
+Global Cyber Attack Reports
+Threat Research
+“The Turkish Rat” Evolved Adwind in a Massive Ongoing Phishing Campaign
+Check Point Research Publications
+Global Cyber Attack Reports
+Security Report
+Threat Research
+2024’s Cyber Battleground Unveiled: Escalating Ransomware Epidemic, the Evolution of Cyber Warfare Tactics and strategic use of AI in defense – Insights from Check Point’s Latest Security Report
+Global Cyber Attack Reports
+8th May – Threat Intelligence Report
+BLOGS AND PUBLICATIONS
+Check Point Research Publications
+Global Cyber Attack Reports
+Threat Research
+February 17, 2020
+“The Turkish Rat” Evolved Adwind in a Massive Ongoing Phishing Campaign
+Check Point Research Publications
+Global Cyber Attack Reports
+Threat Research
+January 22, 2020
+The 2020 Cyber Security Report
+Global Cyber Attack Reports
+December 15, 2021
+StealthLoader Malware Leveraging Log4Shell
+Publications
+Global cyber attack reports
+Research publications
+IPS advisories
+Check point blog
+Demos
+Tools
+Sandblast file analysis
+ThreatCloud
+Threat Intelligence
+Zero day protection
+Live threat map
+About Us
+Contact Us
+Let’s get in touch
+Subscribe for cpr blogs, news and more
+Subscribe Now
+© 1994-2026 Check Point Software Technologies LTD. All rights reserved.
+Property of
+CheckPoint.com
+Privacy Policy
+SUBSCRIBE TO CYBER INTELLIGENCE REPORTS
+First Name
+Last Name
+Country
+—Please choose an option—
+China
+India
+United States
+Indonesia
+Brazil
+Pakistan
+Nigeria
+Bangladesh
+Russia
+Japan
+Mexico
+Philippines
+Vietnam
+Ethiopia
+Egypt
+Germany
+Iran
+Turkey
+Democratic Republic of the Congo
+Thailand
+France
+United Kingdom
+Italy
+Burma
+South Africa
+South Korea
+Colombia
+Spain
+Ukraine
+Tanzania
+Kenya
+Argentina
+Algeria
+Poland
+Sudan
+Uganda
+Canada
+Iraq
+Morocco
+Peru
+Uzbekistan
+Saudi Arabia
+Malaysia
+Venezuela
+Nepal
+Afghanistan
+Yemen
+North Korea
+Ghana
+Mozambique
+Taiwan
+Australia
+Ivory Coast
+Syria
+Madagascar
+Angola
+Cameroon
+Sri Lanka
+Romania
+Burkina Faso
+Niger
+Kazakhstan
+Netherlands
+Chile
+Malawi
+Ecuador
+Guatemala
+Mali
+Cambodia
+Senegal
+Zambia
+Zimbabwe
+Chad
+South Sudan
+Belgium
+Cuba
+Tunisia
+Guinea
+Greece
+Portugal
+Rwanda
+Czech Republic
+Somalia
+Haiti
+Benin
+Burundi
+Bolivia
+Hungary
+Sweden
+Belarus
+Dominican Republic
+Azerbaijan
+Honduras
+Austria
+United Arab Emirates
+Israel
+Switzerland
+Tajikistan
+Bulgaria
+Hong Kong (China)
+Serbia
+Papua New Guinea
+Paraguay
+Laos
+Jordan
+El Salvador
+Eritrea
+Libya
+Togo
+Sierra Leone
+Nicaragua
+Kyrgyzstan
+Denmark
+Finland
+Slovakia
+Singapore
+Turkmenistan
+Norway
+Lebanon
+Costa Rica
+Central African Republic
+Ireland
+Georgia
+New Zealand
+Republic of the Congo
+Palestine
+Liberia
+Croatia
+Oman
+Bosnia and Herzegovina
+Puerto Rico
+Kuwait
+Moldov
+Mauritania
+Panama
+Uruguay
+Armenia
+Lithuania
+Albania
+Mongolia
+Jamaica
+Namibia
+Lesotho
+Qatar
+Macedonia
+Slovenia
+Botswana
+Latvia
+Gambia
+Kosovo
+Guinea-Bissau
+Gabon
+Equatorial Guinea
+Trinidad and Tobago
+Estonia
+Mauritius
+Swaziland
+Bahrain
+Timor-Leste
+Djibouti
+Cyprus
+Fiji
+Reunion (France)
+Guyana
+Comoros
+Bhutan
+Montenegro
+Macau (China)
+Solomon Islands
+Western Sahara
+Luxembourg
+Suriname
+Cape Verde
+Malta
+Guadeloupe (France)
+Martinique (France)
+Brunei
+Bahamas
+Iceland
+Maldives
+Belize
+Barbados
+French Polynesia (France)
+Vanuatu
+New Caledonia (France)
+French Guiana (France)
+Mayotte (France)
+Samoa
+Sao Tom and Principe
+Saint Lucia
+Guam (USA)
+Curacao (Netherlands)
+Saint Vincent and the Grenadines
+Kiribati
+United States Virgin Islands (USA)
+Grenada
+Tonga
+Aruba (Netherlands)
+Federated States of Micronesia
+Jersey (UK)
+Seychelles
+Antigua and Barbuda
+Isle of Man (UK)
+Andorra
+Dominica
+Bermuda (UK)
+Guernsey (UK)
+Greenland (Denmark)
+Marshall Islands
+American Samoa (USA)
+Cayman Islands (UK)
+Saint Kitts and Nevis
+Northern Mariana Islands (USA)
+Faroe Islands (Denmark)
+Sint Maarten (Netherlands)
+Saint Martin (France)
+Liechtenstein
+Monaco
+San Marino
+Turks and Caicos Islands (UK)
+Gibraltar (UK)
+British Virgin Islands (UK)
+Aland Islands (Finland)
+Caribbean Netherlands (Netherlands)
+Palau
+Cook Islands (NZ)
+Anguilla (UK)
+Wallis and Futuna (France)
+Tuvalu
+Nauru
+Saint Barthelemy (France)
+Saint Pierre and Miquelon (France)
+Montserrat (UK)
+Saint Helena, Ascension and Tristan da Cunha (UK)
+Svalbard and Jan Mayen (Norway)
+Falkland Islands (UK)
+Norfolk Island (Australia)
+Christmas Island (Australia)
+Niue (NZ)
+Tokelau (NZ)
+Vatican City
+Cocos (Keeling) Islands (Australia)
+Pitcairn Islands (UK)
+Email
+We value your privacy!
+BFSI uses cookies on this site. We use cookies to enable faster and easier experience for you. By continuing to visit this website you agree to our use of cookies.
+ACCEPT
+REJECT

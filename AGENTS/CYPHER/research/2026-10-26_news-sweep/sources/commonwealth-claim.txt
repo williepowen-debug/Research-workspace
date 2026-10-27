@@ -1,0 +1,216 @@
+Source: https://www.yazoul.net/intel/claim/2026-10-24-commonwealth-community-bank-ransomware-claim-by-qilin-oct-2026/
+
+Commonwealth Community Bank Ransomware Claim by Qilin (Oct 2026)
+yazoul
+Dark web intel
+Advisory
+Intel
+News
+Malware
+More
+Breaches
+Learn
+Research
+Latest Threats
+Dashboard
+RSS Feed
+Advisory
+Intel
+News
+Malware
+Breaches
+Learn
+Research
+Latest Threats
+Dashboard
+Updated 1d ago
+Intel
+QILIN
+Delta Electric Power Association Ransomware Claim by Qilin (Oct 2026)
+1d ago
+News
+CVE-2026-107083
+Weekly Threat Roundup: VeloCloud Exploit, Camel Bugs (Oct 19–25)
+2d ago
+Malware
+67 samples
+Agent Tesla
+2d ago
+Advisory
+CVSS 9.2
+Brotli decoder overflow leaks memory, RCE risk (CVE-2026-111497) [PoC]
+5d ago
+Breaches
+70K accounts
+Assurance Retraite
+1w ago
+Learn
+MITRE ATT&CK Framework Explained (Enterprise and SOC Use Cases)
+1w ago
+Intel
+QILIN
+Mountain Rheumatology Ransomware Claim by Qilin (Oct 2026)
+1d ago
+News
+CVE-2026-110447
+CISA KEV adds Collabora Online and Arista VeloCloud bug
+3d ago
+Malware
+100 samples
+Formbook
+2d ago
+Advisory
+CVSS 9.9
+VeloCloud Orchestrator privilege escalation exploited in the wild (CVE-2026-114625)
+5d ago
+Breaches
+117K accounts
+Gîtes de France
+1w ago
+Learn
+Cloud Misconfigurations That Lead to Data Breaches (Multi-Cloud Analysis)
+1mo ago
+Intel
+QILIN
+NELHA Ransomware Claim by Qilin - October 2026
+1d ago
+News
+CVE-2026-96652
+CISA KEV adds Plex2Shell, Siemens, SiteGuard flaws
+6d ago
+Malware
+100 samples
+INC Ransom
+2d ago
+Advisory
+CVSS 9.8
+PHP OOM handler RCE exploited in the wild (CVE-2026-109618) [PoC]
+6d ago
+Breaches
+559K accounts
+Crunchbase
+1w ago
+Learn
+AWS Security Best Practices 2026 (Real Misconfiguration Examples)
+1mo ago
+Intel
+QILIN
+Power Funding Ransomware Claim by Qilin (Oct 2026)
+1d ago
+News
+CVE-2026-105133
+AhsayCBS bugs exploited for web shells, new fixes out
+1w ago
+Malware
+100 samples
+Mirai
+2d ago
+Home
+/
+Intel
+/
+Commonwealth Community Bank Ransomware Claim by Qilin (Oct 2026)
+Critical
+Saturday, October 24, 2026
+Unverified
+Commonwealth Community Bank Ransomware Claim by Qilin (Oct 2026)
+By
+Yazoul AI
+· automated
+Unverified dark web claim.
+This report is based on a post observed on a dark web forum. Yazoul Security has not independently verified the authenticity of this claim.
+Leak Site Screenshot
+Screenshot captured at time of discovery. Image blurred to protect victim PII.
+×
+Claim Summary
+On or around October 24, 2026, the ransomware group tracked as qilin allegedly listed Commonwealth Community Bank (domain:
+www.cwcbankhb.com
+), a US-based financial services organization, on its dark web leak site. According to the threat actor, the bank was added to the group’s victim roster on that date. The claim provides no stated data volume, no sample files, and no description of the allegedly exfiltrated information. At the time of writing, Yazoul Security has not independently confirmed that any breach occurred, nor has the organization publicly acknowledged the claim. The listing remains an unverified assertion by the threat actor and should be treated as such.
+Threat Actor Profile
+qilin
+is a ransomware operation that has been active since approximately 2022 and is widely assessed by researchers as a rebrand or successor to earlier groups in the same lineage. The group is known for double extortion tactics: it purportedly steals data before deploying encryption and then threatens publication to pressure victims into payment. Public reporting has linked qilin to a broad range of victims across healthcare, manufacturing, and financial services, and the group has been observed using both commodity and custom tooling.
+Specific tooling attributed to qilin in public research includes Cobalt Strike for command and control, various legitimate remote monitoring and management tools for initial access and lateral movement, and custom encryptors. The group has historically favored exploiting exposed VPN appliances and valid credentials. Note that for this particular claim, no tooling details, indicators of compromise, or technical artifacts have been published, and no public research specific to this incident is available. Any YARA or detection guidance referenced in our broader intel library should be validated against your own environment before deployment.
+Alleged Data Exposure
+The threat actor claims to have exfiltrated data from Commonwealth Community Bank but has not disclosed the volume, the data categories, or any proof-of-compromise samples on the listing as observed. This absence of detail is notable. Ransomware groups frequently post thin listings early and add “proof” later, or use vague claims to increase pressure. Without samples or a stated scope, there is no reliable basis to assess what, if anything, was taken. We are deliberately not reproducing any data samples, credentials, or access details, and none were provided in the source material.
+Potential Impact
+If the claim is accurate, a financial institution could face exposure of customer records, internal communications, or operational data, with regulatory, reputational, and customer-trust consequences. Financial services firms are subject to sector-specific breach notification and supervisory obligations. However, given the unverified nature of the claim and the lack of supporting evidence, the actual impact is unknown. Groups routinely exaggerate scale and data sensitivity to pressure victims, so claims should be discounted until corroborated.
+What to Watch For
+A public statement from Commonwealth Community Bank or its regulators confirming or denying the incident.
+Addition of data samples or a stated data volume to the leak site listing.
+Filing of breach notifications with state or federal authorities.
+Any observed service disruptions at the organization.
+Reuse of qilin infrastructure or tactics against other regional financial institutions.
+Disclaimer
+This report is based solely on an unverified claim posted by a ransomware group on its leak site. Nothing in this article has been independently verified by Yazoul Security. The organization has not been confirmed as a victim, and the threat actor’s assertions may be inaccurate, exaggerated, or fabricated. Do not treat this listing as confirmation of a breach. For verified incident information, consult the organization directly or official regulatory channels.
+Editorial note:
+This article was generated by Yazoul AI, an automated pipeline, from the public sources it cites.
+    It was not reviewed by a person before publication. See our
+methodology
+for sourcing and corrections.
+High-impact breach
+Severity
+10.0
+Actor
+10.0
+Industry
+9.0
+Claim Risk Profile
+Target
+Commonwealth Community Bank
+Threat Actor
+qilin
+View all 114 claims →
+Claim Details
+Post Date
+Oct 24, 2026
+Copy as Image
+Share:
+Copied!
+Never miss a threat intelligence alert
+Get real-time security alerts delivered to your preferred platform.
+Telegram
+LinkedIn
+Mastodon
+Bluesky
+Related Claims
+Critical
+Oct 26
+Ransomware Claim: Power Funding
+Power Funding — qilin
+Critical
+Oct 14
+Ransomware Claim: The Golden Legacy Financing
+The Golden Legacy Financing — qilin
+Critical
+Oct 7
+Ransomware Claim: BNYH
+BNYH — qilin
+Critical
+Oct 6
+Ransomware Claim: J&D Financial
+J&D Financial — qilin
+Get Security Alerts
+Subscribe to receive security alerts in your inbox.
+Subscribe
+I agree to receive the newsletter and have read the
+Privacy Policy
+.
+A project by
+Yazoul Security
+Privacy Policy
+·
+Methodology
+Never Miss a Critical Alert
+CVE advisories, breach reports, and threat intel — delivered daily to your inbox.
+Subscribe
+I agree to receive the newsletter and have read the
+Privacy Policy
+.
+No thanks
+Search across all sites
+ESC
+We use privacy-focused analytics (PostHog, hosted in the EU) to understand how the site is used. Nothing is loaded until you accept. No ads, no tracking across other sites. You can accept, reject, or read our
+Privacy Policy
+.
+Reject
+Accept

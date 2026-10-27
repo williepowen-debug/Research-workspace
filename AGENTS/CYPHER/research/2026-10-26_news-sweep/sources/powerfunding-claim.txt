@@ -1,0 +1,218 @@
+Source: https://www.yazoul.net/intel/claim/2026-10-26-power-funding-ransomware-claim-by-qilin-oct-2026/
+
+Power Funding Ransomware Claim by Qilin (Oct 2026)
+yazoul
+Dark web intel
+Advisory
+Intel
+News
+Malware
+More
+Breaches
+Learn
+Research
+Latest Threats
+Dashboard
+RSS Feed
+Advisory
+Intel
+News
+Malware
+Breaches
+Learn
+Research
+Latest Threats
+Dashboard
+Updated 1d ago
+Intel
+QILIN
+Delta Electric Power Association Ransomware Claim by Qilin (Oct 2026)
+1d ago
+News
+CVE-2026-107083
+Weekly Threat Roundup: VeloCloud Exploit, Camel Bugs (Oct 19–25)
+2d ago
+Malware
+67 samples
+Agent Tesla
+2d ago
+Advisory
+CVSS 9.2
+Brotli decoder overflow leaks memory, RCE risk (CVE-2026-111497) [PoC]
+5d ago
+Breaches
+70K accounts
+Assurance Retraite
+1w ago
+Learn
+MITRE ATT&CK Framework Explained (Enterprise and SOC Use Cases)
+1w ago
+Intel
+QILIN
+Mountain Rheumatology Ransomware Claim by Qilin (Oct 2026)
+1d ago
+News
+CVE-2026-110447
+CISA KEV adds Collabora Online and Arista VeloCloud bug
+3d ago
+Malware
+100 samples
+Formbook
+2d ago
+Advisory
+CVSS 9.9
+VeloCloud Orchestrator privilege escalation exploited in the wild (CVE-2026-114625)
+5d ago
+Breaches
+117K accounts
+Gîtes de France
+1w ago
+Learn
+Cloud Misconfigurations That Lead to Data Breaches (Multi-Cloud Analysis)
+1mo ago
+Intel
+QILIN
+NELHA Ransomware Claim by Qilin - October 2026
+1d ago
+News
+CVE-2026-96652
+CISA KEV adds Plex2Shell, Siemens, SiteGuard flaws
+6d ago
+Malware
+100 samples
+INC Ransom
+2d ago
+Advisory
+CVSS 9.8
+PHP OOM handler RCE exploited in the wild (CVE-2026-109618) [PoC]
+6d ago
+Breaches
+559K accounts
+Crunchbase
+1w ago
+Learn
+AWS Security Best Practices 2026 (Real Misconfiguration Examples)
+1mo ago
+Intel
+QILIN
+Power Funding Ransomware Claim by Qilin (Oct 2026)
+1d ago
+News
+CVE-2026-105133
+AhsayCBS bugs exploited for web shells, new fixes out
+1w ago
+Malware
+100 samples
+Mirai
+2d ago
+Home
+/
+Intel
+/
+Power Funding Ransomware Claim by Qilin (Oct 2026)
+Critical
+Monday, October 26, 2026
+Unverified
+Power Funding Ransomware Claim by Qilin (Oct 2026)
+By
+Yazoul AI
+· automated
+Unverified dark web claim.
+This report is based on a post observed on a dark web forum. Yazoul Security has not independently verified the authenticity of this claim.
+Leak Site Screenshot
+Screenshot captured at time of discovery. Image blurred to protect victim PII.
+×
+Claim Summary
+The ransomware group tracked as
+qilin
+has allegedly listed Power Funding, a United Kingdom-based financial services organization operating at
+www.powerfundingltd.com
+, on its dark web leak site. According to the threat actor, the attack was purportedly carried out on 26 October 2026. The group claims to have exfiltrated data from the victim, though the specific data volume is listed as undisclosed and no sample data categories have been publicly described.
+This claim remains entirely unverified. Power Funding has not publicly confirmed the incident, and no independent security researchers or incident response firms have corroborated the threat actor’s assertions at the time of writing. The listing should be treated as an allegation only.
+Threat Actor Profile
+Qilin is a ransomware operation that has been active since approximately 2022 and is widely assessed by security researchers as a ransomware-as-a-service (RaaS) affiliate model. The group is also tracked under alternate names including “Agenda” by some vendors. Public reporting has linked Qilin affiliates to double extortion tactics, in which data is allegedly stolen before encryption and then used as leverage for payment demands.
+Qilin has been associated with attacks across multiple sectors, with healthcare, manufacturing, and financial services among those reportedly targeted. The group’s affiliates are believed to have used a range of initial access techniques documented in public research, including exploitation of known vulnerabilities in edge devices and VPN appliances, as well as valid credential abuse. Specific tooling attributed to this campaign against Power Funding is not publicly available, and no YARA rules or detection signatures specific to this incident have been released. Organizations should rely on general ransomware detection guidance and threat hunting for known Qilin TTPs rather than incident-specific indicators.
+Alleged Data Exposure
+The threat actor claims to have obtained data from Power Funding, but the leak site entry provides no data volume figure and no description of the categories of information allegedly taken. No samples, screenshots, or proof-of-compromise artifacts have been publicly reported in connection with this listing. Given the financial services context, any purported exposure would theoretically raise concerns around client records, financial documentation, and internal communications, but none of this has been substantiated. We are not reproducing or linking to any leaked material.
+Potential Impact
+If the claim is accurate, a financial services firm could face regulatory scrutiny under UK data protection and financial conduct frameworks, potential client notification obligations, and reputational harm. Operational disruption from encryption, if it occurred, could affect lending or funding workflows. However, these are hypothetical consequences contingent on verification. Ransomware groups frequently exaggerate scope, inflate data volumes, and occasionally list victims based on incomplete or recycled information to pressure payment.
+What to Watch For
+Any official statement from Power Funding or its regulators confirming or denying an incident.
+Independent confirmation from incident response firms or breach notification services.
+Updates to the leak site entry, such as added samples or revised data claims, which may indicate escalation.
+Signs of credential stuffing or phishing targeting Power Funding clients, a common follow-on risk.
+Monitoring of Qilin affiliate activity for related UK financial sector targeting.
+Disclaimer
+This report is based solely on an unverified claim published by a ransomware threat actor. Yazoul Security has not independently verified the attack, the data theft, or any details of the listing. Nothing in this article should be treated as confirmation of a breach. The organization named has not been confirmed as a victim, and the threat actor’s claims may be inaccurate, exaggerated, or fabricated. Readers should await official confirmation before drawing conclusions.
+Editorial note:
+This article was generated by Yazoul AI, an automated pipeline, from the public sources it cites.
+    It was not reviewed by a person before publication. See our
+methodology
+for sourcing and corrections.
+High-impact breach
+Severity
+10.0
+Actor
+10.0
+Industry
+9.0
+Claim Risk Profile
+Target
+Power Funding
+Threat Actor
+qilin
+View all 114 claims →
+Claim Details
+Post Date
+Oct 26, 2026
+Copy as Image
+Share:
+Copied!
+Never miss a threat intelligence alert
+Get real-time security alerts delivered to your preferred platform.
+Telegram
+LinkedIn
+Mastodon
+Bluesky
+Related Claims
+Critical
+Oct 24
+Ransomware Claim: Commonwealth Community Bank
+Commonwealth Community Bank — qilin
+Critical
+Oct 14
+Ransomware Claim: The Golden Legacy Financing
+The Golden Legacy Financing — qilin
+Critical
+Oct 7
+Ransomware Claim: BNYH
+BNYH — qilin
+Critical
+Oct 6
+Ransomware Claim: J&D Financial
+J&D Financial — qilin
+Get Security Alerts
+Subscribe to receive security alerts in your inbox.
+Subscribe
+I agree to receive the newsletter and have read the
+Privacy Policy
+.
+A project by
+Yazoul Security
+Privacy Policy
+·
+Methodology
+Never Miss a Critical Alert
+CVE advisories, breach reports, and threat intel — delivered daily to your inbox.
+Subscribe
+I agree to receive the newsletter and have read the
+Privacy Policy
+.
+No thanks
+Search across all sites
+ESC
+We use privacy-focused analytics (PostHog, hosted in the EU) to understand how the site is used. Nothing is loaded until you accept. No ads, no tracking across other sites. You can accept, reject, or read our
+Privacy Policy
+.
+Reject
+Accept

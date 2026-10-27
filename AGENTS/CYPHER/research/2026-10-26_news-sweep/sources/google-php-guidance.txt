@@ -1,0 +1,460 @@
+Source: https://cloud.google.com/blog/products/identity-security/responding-to-core-php-vulnerabilities-cve-2026-109618-cve-2026-109619
+
+Responding to core PHP vulnerabilities CVE-2026-109618 and CVE-2026-109619 | Google Cloud Blog
+Jump to Content
+Cloud
+Blog
+Contact sales
+Get started for free
+Cloud
+Blog
+Solutions & technology
+AI & Machine Learning
+API Management
+Application Development
+Application Modernization
+Chrome Enterprise
+Compute
+Containers & Kubernetes
+Data Analytics
+Databases
+DevOps & SRE
+Maps & Geospatial
+Security
+Security & Identity
+Threat Intelligence
+Infrastructure
+Infrastructure Modernization
+Networking
+Productivity & Collaboration
+SAP on Google Cloud
+Storage & Data Transfer
+Sustainability
+Ecosystem
+IT Leaders
+Industries
+Financial Services
+Healthcare & Life Sciences
+Manufacturing
+Media & Entertainment
+Public Sector
+Retail
+Supply Chain
+Telecommunications
+Partners
+Startups & SMB
+Training & Certifications
+Inside Google Cloud
+Google Cloud Next & Events
+Google Cloud Consulting
+Google Maps Platform
+Google Workspace
+Developers & Practitioners
+Transform with Google Cloud
+Contact sales
+Get started for free
+Security & Identity
+Responding to core PHP vulnerabilities CVE-2026-109618 and CVE-2026-109619
+October 21, 2026
+Chris Betz
+CISO, Google Cloud
+Raluca Ada Popa
+Head of Gemini Security, Google DeepMind
+Try Gemini today
+The front door to AI in the workplace
+Try now
+Editor's note
+: This blog was updated
+on Oct. 23, 2026 at 3:20 p.m. PDT, with additional guidance from Mandiant Consulting
+on monitoring, patching, and remediation. We have previously updated the blog on
+Oct. 22, 2026, with revised guidance for Security Command Center and Cloud Armor, and on
+Oct. 21, 2026
+.
+PHP and Wiz Research disclosed today two critical vulnerabilities in the core PHP language runtime that can expose applications to unauthenticated remote code execution and memory disclosure. Wiz used a mix of models to identify and help remediate these vulnerabilities.
+Notably, Gemini 4 Argon made an invaluable contribution to finding the vulnerability, exploit development, attack detection, and validation of the patch.
+While Google Cloud itself is not vulnerable, users of PHP running on Google Cloud may be vulnerable
+.
+At Google Cloud, we understand the severity of these vulnerabilities, and are sharing guidance to help our customers take immediate action to secure their applications.
+Vulnerability background
+PHP is a widely-used, server-side scripting language that powers many websites, content management systems, and web applications. On Oct. 21, 2026, CVE.org assigned the vulnerabilities as CVE-2026-109618 and CVE-2026-109619.
+The official Common Vulnerability Scoring System (CVSS) base severity score for each of the PHP flaws has been determined as Critical, a severity of 9.2. Generally, this ranking means that threat actors can crash and hijack the affected system, and can easily steal, alter, and wipe its data — although mitigating circumstances can make it harder to exploit the flaw.
+CVE-2026-109618
+: Out-of-memory handling can interrupt PHP while internal request data is only partially initialized. Request cleanup may then treat the invalid data as valid.
+CVE-2026-109619
+: Request-owned internal state can survive after its backing memory has been freed. A later request handled by the same worker may use that stale state before normal initialization resets it.
+Vulnerable versions
+: All versions of PHP from 5.4 through 8.5.11
+Patched in
+: PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35
+Not patched
+: The PHP project is not releasing fixes for PHP 8.1 or earlier, which have reached
+end of life
+.
+Fix
+:
+CVE-2026-109618 (
+GHSA-w8hw-w9fx-j79w
+) and CVE-2026-109619 (
+GHSA-6wmf-4rv5-p3rp
+):
+Announcement
+: PHP has published a
+security advisory
+on these two vulnerabilities.
+Wiz Research has
+published a detailed description
+of the research and the coordinated disclosure process.
+Update PHP and redeploy your applications
+We urge all customers running PHP applications on Google Cloud to immediately update to PHP 8.2 or newer, and redeploy their services using a patched version.
+This applies specifically to applications deployed on:
+App Engine standard environment
+: Supported runtimes are patched automatically. If you are on PHP 8.1 or earlier, upgrade to PHP 8.2 or newer and redeploy.
+App Engine flexible environment
+: Redeploy your PHP runtimes using a supported runtime. If you are using a custom runtime, update your PHP dependencies to a patched version and redeploy your application.
+Cloud Run
+: If automatic base image updates are not enabled, or you deploy your own container image, rebuild with a patched version of PHP and redeploy.
+Google Kubernetes Engine (GKE)
+: Update your container images with a patched version of PHP and redeploy your pods.
+Google Cloud Marketplace
+: If you run a Marketplace solution that includes PHP, such as a content management system or LAMP stack, apply the update from the solution provider or update PHP directly.
+Automatic patches for serverless platforms
+Google Cloud is rolling out updated serverless base images for all supported PHP versions on App Engine Standard, App Engine Flexible, Cloud Run, Cloud Run function, and Cloud Functions for Firebase.
+What this means for you:
+App Engine standard environment
+(PHP 8.2 and newer): Applications are updated automatically. No action is required.
+App Engine flexible environment
+(all PHP versions): Applications are not updated automatically. Redeploy your application as soon as possible to PHP 8.2 and newer.
+Cloud Run functions
+(PHP 8.2 and newer): Functions with automatic base image updates enabled are updated automatically. Functions without automatic base image updates enabled must be redeployed.
+Cloud Run
+(PHP 8.2 and newer): Services with automatic base image updates enabled are updated automatically. Services built without automatic base image updates must be rebuilt and redeployed to pick up the patched runtime.
+Important considerations:
+Unsupported runtimes will not be patched
+. The upstream PHP project is not backporting these fixes to PHP 8.1 or earlier. Applications on PHP 5.5, PHP 7.2, PHP 7.3, PHP 7.4, or PHP 8.1 remain vulnerable and must be upgraded to PHP 8.2 or newer. See the following runtime support schedules for serverless lifecycle dates:
+Google App Engine Standard
+Google App Engine Flexible
+Cloud Run
+Cloud Run functions
+Container images you build yourself are your responsibility
+. If you have deployed your own container image to Cloud Run or App Engine Flexible (such as with a custom runtime), rebuild it with a patched version of PHP and redeploy.
+Capture memory forensics before restarting suspect hosts
+:
+If a server shows signs of active probing or anomalous
+PHPSESSID
+cookies, capture worker memory before patching or rebooting, as restarting workers permanently destroys volatile heap evidence.
+Restart the actual web-serving SAPI (including supervisor-managed workers)
+:
+Upgrading packages on disk leaves vulnerable
+libphp.so
+or
+php-fpm
+binaries resident in running worker processes. Explicitly restart
+php8.x-fpm
+,
+apache2
+/
+httpd
+,
+frankenphp
+, or
+lsws
+.
+Do not wait on volunteer third-party RPM mirrors:
+The PHP security team noted that third-party mirrors may lag behind coordinated disclosure; use official distro security repositories (verify via
+apt-get changelog php-fpm
+or
+rpm -q --changelog php-fpm | grep -E "CVE-2026-109618|CVE-2026-109619"
+) or official source builds.
+Audit and mitigate enterprise edge and management infrastructure
+: Inventory all edge, gateway, management, storage, and security systems, which frequently embed PHP in administrative control planes or core OS modules. As vendors continue disclosing vulnerabilities, coordinate immediately with manufacturers to apply emergency firmware updates or approved temporary workarounds.
+Mitigating CVE-2026-109618 and CVE-2026-109619 with Cloud Armor
+Cloud Armor
+has issued recommended mitigations that use
+Cloud Armor managed rules
+. Customers with active managed rules do not need to take action; protection against these vulnerabilities is applied automatically.
+If you have not yet deployed Cloud Armor managed rules, doing so now can still help you mitigate these vulnerabilities. The Cloud Armor managed rules protections are
+available now
+through automatically-updated threat intelligence rulesets.
+These rules are intended to help protect your internet-facing PHP applications and services that use global or regional application load balancers. Follow these steps to deploy the rules immediately as a frontline defense-in-depth mitigation while your vulnerability management program updates and verifies all vulnerable PHP instances in your environment.
+1. Deploying stable managed rules in enforce mode for automatic updates:
+To protect your workloads,
+follow this guide
+to enable the
+File Upload
+and
+RFI
+categories. We recommend that you
+configure all ruleset categories in the stable version in enforced mode.
+2. Mitigate risk on request bodies that exceed configured inspection limits
+:
+Create a rule
+in your security policies to help ensure that no uninspected or unnecessarily large content reaches your backends. This is important for these CVEs, because threat actors may use large payloads to trigger out-of-memory conditions.
+Verifying WAF rule safety for your application and consuming telemetry
+Consult our
+Cloud Armor best practices guide
+and account for
+service limitations
+to minimize risk and optimize performance.
+Cloud Armor mitigations serve solely as compensating controls in your layered defense to reduce immediate exposure. Upgrading PHP to a fixed version and redeploying services is required to fully resolve these vulnerabilities.
+Monitoring and auditing
+Google Cloud and Wiz are currently supporting customers with active monitoring, auditing, and runtime detection across its native security offerings. Customers can use:
+On-Demand Scanning API
+to manually scan images stored locally on your computer or remotely in Artifact Registry. Customers using
+Artifact Analysis
+will be notified of these vulnerabilities on both new and existing artifacts to identify at-risk workloads.
+Security Command Center
+to monitor workloads and identify externally exposed instances affected by these two CVEs.
+External exposure
+: Enable the
+External Exposure service
+with the EXTERNALLY_EXPOSED_RCE_VULNERABILITY scanning module to detect exposed PHP workloads across Compute Engine, GKE, and Cloud Run.  Findings show the Google Cloud native path across load balancers, Cloud Armor policies, and firewall rules to help you verify WAF coverage and block untrusted firewall access while patching.
+Vulnerability assessment:
+Enable
+Vulnerability Assessment
+for your organization or projects to find out if your Compute Engine VMs, GKE nodes, and container workloads are running PHP versions vulnerable to PHP2Shell.
+Threat Detection
+: Enable Container Threat Detection for GKE and Cloud Run Threat detection to monitor your workloads for intrusions.
+Google Security Operations
+now has 23 new curated detections added to the Mandiant Frontline Threats rule pack. We recommend verifying that this rule pack is enabled and reviewing your detections to assess any potential impact to your environment.
+Enterprise Plus customers can additionally use the Emerging Threat Center and search for “GLOBAL.26.015” for further details. Enterprise plus customers who have enabled the Threat Hunt Agent in Public Preview can also perform a hunt on GLOBAL.26.015 from the Emerging Threats Center.
+Wiz
+customers can refer to the Wiz Threat Intel Center advisory for PHP2Shell, which includes built-in coverage for agentless and runtime vulnerability detection, exploitation detection via Wiz Defend and Sensor, and automatic response policies, alongside remediation and threat hunting guidance. More information is available
+here
+on response steps with Wiz.
+Additionally, Mandiant Threat Defense is actively supporting customers by monitoring curated detections in Google Security Operations and hunting for evidence of intrusion activity related to this campaign.
+Patching and remediation
+The PHP security release has been published. You should update PHP across every server environment, container image, and deployment pipeline. In addition:
+As part of Wiz's zero-day response commitment,
+WizOS PHP images
+are available at zero billable units for all customers for the next 60 days. WizOS PHP base images, both standard Alpine-hardened and FIPS-compliant builds, are already patched against CVE-2026-109618 and CVE-2026-109619, built from source.
+Wiz customers can use the Green Agent to translate the PHP2Shell Threat Intel advisory into resource-tailored remediation guidance, including prescribing the correct PHP patch versions, identifying the right WAF mitigations, recommending opportunities to swap in for hardened WizOS PHP images, and suggesting enabling runtime blocking where there are gaps.
+Prepatch PHP runtime hardening
+If you can not upgrade every binary immediately, apply the following settings in your master startup php.ini or static FPM pool configuration (
+php_admin_value
+/
+php_admin_flag
+) and restart all workers.
+Loading...
+; === 1. Neutralize CVE-2026-109619 Stale Pointer Producers ===
+; PERMANENTLY disable session upload progress unless your application explicitly uses
+; upload progress tracking.
+session.upload_progress.enabled = 0
+
+
+; On PHP <8.5.12: prevent fatal errors from storing request-owned backtrace pointers
+fatal_error_backtraces = 0
+
+
+; === 2. Neutralize CVE-2026-109618 OOM Bailout & Multipart Amplification ===
+; TEMPORARY pre-patch stopgap: remove the per-request PHP OOM longjmp() failure path.
+; IMPORTANT: Pair with cgroup/container MemoryMax= (NOT ulimit -v / RLIMIT_AS), and
+; revert to a finite memory_limit once PHP 8.5.12 / 8.4.27 / 8.3.36 / 8.2.35 is
+; installed.
+memory_limit = -1
+
+
+; PERMANENTLY enforce conservative upload and input complexity bounds to collapse the
+; 390x nested empty-filename $_FILES heap amplifier (Karasawa2025 PoC):
+post_max_size = 8M
+upload_max_filesize = 4M
+max_input_nesting_level = 16
+max_input_vars = 250
+max_file_uploads = 10
+max_multipart_body_parts = 100
+; IMPORTANT: If the service does not accept file uploads at all, disable them outright:
+; file_uploads = Off
+
+
+; === 3. Defense-in-Depth Runtime Hygiene ===
+; PERMANENTLY implement these PHP hygiene measures.
+expose_php = Off
+display_errors = Off
+display_startup_errors = Off
+log_errors = On
+Put all settings in the main
+php.ini
+file
+:
+Avoid defining per-request settings in
+.htaccess
+or web server configurations. Warnings triggered while loading these temporary settings run too early and can activate vulnerable code paths. Moving all options into the global
+php.ini
+can prevent this.
+Restart workers after each request (
+pm.max_requests = 1
+)
+:
+Certain attacks require reusing a worker process across multiple requests. Setting
+pm.max_requests = 1
+in
+www.conf
+forces worker processes to reset after every request, blocking multi-step memory attacks.
+Hiding error messages is not enough
+:
+Simply setting
+display_errors = Off
+does not fully block memory leak attacks. Modern exploits can extract sensitive memory directly through extra-large session cookies or specific error pages, even when standard error display is disabled.
+Edge proxy and WAF controls
+Because RFC 1867 multipart parsing occurs before script execution, reverse proxies and WAFs serve as critical frontline defenses. To defend against recent PoCs, edge controls should focus on mitigating four key evasion techniques:
+Block
+multipart/form-data
+on non-upload routes
+:
+Block multipart requests where file uploads are not needed. Ensure WAF regexes match commas and whitespace before
+boundary=
+(e.g.,
+(?i)^\s*multipart/form-data(?:[\s,;]|$)
+) to prevent delimiter evasion in PHP's RFC 1867 parser.
+Reject chunked transfer encoding and restrict body complexity
+:
+Reject
+Transfer-Encoding: chunked
+POST requests, enforce
+client_max_body_size 8m;
+, block deeply nested bracket field names (
+name\s*=\s*"?[^"\r\n]*(\[[^\]]*\]){8,}
+), and cap headers per multipart part (
+<= 128
+) to prevent heap amplification.
+Enforce strict cookie format and body size limits
+:
+Block
+PHPSESSID
+cookies containing null bytes or non-alphanumeric characters outside
+^[A-Za-z0-9,-]{22,256}$
+. Enforce strict request body size caps on non-upload routes to stop large multipart padding that bypasses WAF inspection windows.
+Enforce ingress restrictions
+:
+Limit ingress to vulnerable or unpatched public resources only from WAF. Consider additional network ingress restrictions or taking vulnerable web servers offline until patched.
+Operating system sandboxing and detections
+Because native use-after-free execution runs inside the worker process — allowing RCE payloads to bypass PHP security settings — robust operating system containment and network monitoring remain critical across
+both
+pre-patch and post-patch phases.
+Read-only web roots and systemd/container Cgroup limits
+:
+Execute PHP workers using a dedicated unprivileged account with read-only access across all document roots (via
+ProtectSystem=strict
+in systemd or
+readOnlyRootFilesystem: true
+in Kubernetes) alongside
+NoNewPrivileges=yes
+.
+Limit total worker memory using cgroups (e.g.,
+MemoryMax=2G
+) instead of
+LimitAS=
+or
+ulimit -v
+, which cause
+mmap()
+to return
+NULL
+and trigger the vulnerable out-of-memory path.
+Block network connections and restrict process execution
+:
+Block outbound internet access from PHP servers using network security rules to stop attackers from downloading malicious files or creating remote shells. Additionally, use process security controls or runtime monitoring to prevent PHP from executing command-line shell tools like
+/bin/sh
+,
+curl
+, or
+wget
+.
+What to hunt for
+Detection Layer
+High-Signal Indicator to Alert On
+Why It Matters / Evasion Caveat
+Outbound HTTP / WAF Egress Logs
+Set-Cookie: PHPSESSID= headers > 256 bytes
+or match regex:
+PHPSESSID=[A-Za-z0-9%,_-]{257,}
+Typical PHPSESSID cookies are between 22 and 256 bytes. Catches Heartbleed-style heap leaks (up to 800 KB).
+IMPORTANT: Include '%' in regexes as leaked pointers are URL-encoded (%XX) by php_url_encode().
+Web Server Access Logs (Apache / NGINX)
+Bursts of 50–150 concurrent persistent
+'OPTIONS * HTTP/1.1'
+keep-alive connections OR slow-chunked multipart POSTs
+Detects Apache mpm_prefork worker-pool fencing (PreforkParking) and slow HTTP chunk streaming used to pin a single free worker for multi-request heap reuse.
+Web Application / HTTP
+Repeated
+'.php/'
+URI segments (e.g.,
+/index.php/index.php/...
+) returning HTTP 404
+Detects Karasawa2025's cookie-less ext/phar OOB heap leak in HTTP 404 bodies.
+Web Application / HTTP
+Rapid interleaved HTTP 500/200 POST bursts against the same endpoint
+Detects blind pointer-comparison (*ptr) memory disclosure which leaks memory byte-by-byte without emitting anomalous response cookies.
+EDR / auditd Process Telemetry
+Child processes (e.g.,
+sh
+,
+bash
+,
+curl
+,
+wget
+,
+nc
+,
+python,chmod
+) spawned by
+php-fpm
+,
+httpd
+,
+apache2
+, or
+frankenphp
+(UID
+www-data
+)
+Catches
+zif_system
+/
+zif_passthru
+RCE payloads. Note: Karasawa2025 & LyesH4ck chain
+zif_passthru
++
+_zend_bailout
+to return output in HTTP 200 with ZERO
+SIGSEGV
+crashes and ZERO
+error.log
+entries.
+Host Application Telemetry
+Spikes in FastCGI / PHP-FPM worker respawns (
+SIGSEGV
+exit code 139) or core dumps
+Catches failed heap shaping attempts and memory alignment probes that fail before reaching the clean bailout path
+We will continue to monitor the situation closely and provide further updates and guidance as necessary. For the most current information and detailed steps, please refer to the
+Google Cloud security bulletin
+.
+Posted in
+Security & Identity
+Related articles
+AI infrastructure
+Hardware-backed security at global scale: Confidential G4 with NVIDIA Blackwell is GA
+By Meghna Sreenivasan • 4-minute read
+Security & Identity
+Announcing Wiz Runtime Sensor add-on for GKE: Turnkey threat detection for Kubernetes
+By Daniel L’Hommedieu • 5-minute read
+Security & Identity
+Modernizing perimeter security: Scalable perimeters with VPC Service Controls
+By Pratik Bhangale • 5-minute read
+Security & Identity
+Cloud CISO Perspectives: New Gemini Notebook can help CISOs and policymakers prepare for PQC
+By Stephanie Kiel • 8-minute read
+Footer Links
+Follow us
+Google Cloud
+Google Cloud Products
+Privacy
+Terms
+Cookies management controls
+Help
+Language
+‪English‬
+‪Deutsch‬
+‪Français‬
+‪한국어‬
+‪日本語‬

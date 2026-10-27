@@ -1,0 +1,613 @@
+Source: https://security.paloaltonetworks.com/CVE-2026-0257
+Retrieved: 2026-10-26T23:08:55-04:00
+
+CVE-2026-0257 PAN-OS: GlobalProtect Authentication Bypass Vulnerabilities
+Security advisories
+Report vulnerabilities
+Bug Bounty
+Get support
+Subscribe
+RSS feed
+Login
+Palo Alto Networks Security Advisories
+/
+CVE-2026-0257
+CVE-2026-0257 PAN-OS: GlobalProtect Authentication Bypass Vulnerabilities
+Urgency
+HIGHEST
+0
+4
+7
+9
+10
+Severity
+7.8 ·
+HIGH
+Exploit Maturity
+ATTACKED
+Response Effort
+MODERATE
+Recovery
+AUTOMATIC
+Value Density
+DIFFUSE
+Attack Vector
+NETWORK
+Attack Complexity
+LOW
+Attack Requirements
+NONE
+Automatable
+NO
+User Interaction
+NONE
+Product Confidentiality
+LOW
+Product Integrity
+NONE
+Product Availability
+NONE
+Privileges Required
+NONE
+Subsequent Confidentiality
+HIGH
+Subsequent Integrity
+HIGH
+Subsequent Availability
+NONE
+CVE
+JSON
+CSAF
+Published
+2026-05-13
+Updated
+2026-06-03
+Discovered
+internally
+Description
+Authentication bypass vulnerabilities in the GlobalProtect portal and gateway of Palo Alto Networks PAN-OS® software allows the attacker to bypass security restrictions and establish an unauthorized VPN connection.
+Panorama and Cloud NGFW are not impacted by these issues.
+Product Status
+Versions
+Affected
+Unaffected
+Cloud NGFW
+None
+All
+PAN-OS 12.1
+< 12.1.4-h6
+< 12.1.7
+>= 12.1.4-h6
+>= 12.1.7
+PAN-OS 11.2
+< 11.2.4-h17
+< 11.2.7-h14
+< 11.2.10-h7
+< 11.2.12
+>= 11.2.4-h17
+>= 11.2.7-h14
+>= 11.2.10-h7
+>= 11.2.12
+PAN-OS 11.1
+< 11.1.4-h33
+< 11.1.6-h32
+< 11.1.7-h6
+< 11.1.10-h25
+< 11.1.13-h5
+< 11.1.15
+>= 11.1.4-h33
+>= 11.1.6-h32
+>= 11.1.7-h6
+>= 11.1.10-h25
+>= 11.1.13-h5
+>= 11.1.15
+PAN-OS 10.2
+< 10.2.7-h34
+< 10.2.10-h36
+< 10.2.13-h21
+< 10.2.16-h7
+< 10.2.18-h6
+>= 10.2.7-h34
+>= 10.2.10-h36
+>= 10.2.13-h21
+>= 10.2.16-h7
+>= 10.2.18-h6
+Prisma Access 11.2.0
+< 11.2.7-h13*
+>= 11.2.7-h13*
+Prisma Access 10.2.0
+< 10.2.10-h36*
+>= 10.2.10-h36*
+* Prisma Access is being actively upgraded for all the customers as per the upgrade schedule shared with the customers.
+Required Configuration for Exposure
+This issue affects firewalls with GlobalProtect portal or gateway configured when authentication override cookies are enabled and a specific certificate configuration exists. To check if authentication cookies are enabled follow the steps below:
+On the Portal:
+1. Navigate to
+Network
+>
+GlobalProtect
+>
+Portals
+in the management interface.
+2. Click on your
+Portal Name
+and go to the
+Agent
+tab.
+3. Click on your
+Agent Configuration
+profile.
+4. Go to the
+Authentication
+tab.
+5.
+Generate cookie for authentication override
+or
+Accept cookie for authentication override
+options are checked.
+On the Gateway:
+1. Navigate to
+Network
+>
+GlobalProtect
+>
+Gateways
+in the management interface.
+2. Click on your
+Gateway Name
+and go to the
+Agent
+tab.
+3. Click on your
+Client Settings
+profile.
+4. Go to the
+Authentication Override
+tab.
+5.
+Accept cookie for authentication override
+option is checked.
+Severity:
+HIGH, Suggested Urgency:
+HIGHEST
+CVSS-BT:
+7.8 /
+CVSS-B:
+7.8 (
+CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:N/VA:N/SC:H/SI:H/SA:N/E:A/AU:N/R:A/V:D/RE:M/U:Red
+)
+Exploitation Status
+Palo Alto Networks has become aware of limited exploit attempts on unpatched PAN-OS devices without mitigations applied.
+Weakness Type and Impact
+CWE-565 Reliance on Cookies without Validation and Integrity Checking
+CAPEC-114 Authentication Abuse
+Solution
+Version
+Minor Version
+Suggested Solution
+Cloud NGFW All
+No action needed.
+PAN-OS 12.1
+12.1.5 through 12.1.6
+Upgrade to 12.1.7 or later.
+12.1.2 through 12.1.4-h*
+Upgrade to 12.1.4-h6 or 12.1.7 or later.
+PAN-OS 11.2
+11.2.11 or later
+Upgrade to 11.2.12 or later.
+11.2.8 through 11.2.10-h*
+Upgrade to 11.2.10-h7 or 11.2.12 or later.
+11.2.5 through 11.2.7-h*
+Upgrade to 11.2.7-h14 or 11.2.12 or later.
+11.2.0 through 11.2.4-h*
+Upgrade to 11.2.4-h17 or 11.2.12 or later.
+PAN-OS 11.1
+11.1.14 or later
+Upgrade to 11.1.15 or later.
+11.1.11 through 11.1.13-h*
+Upgrade to 11.1.13-h5 or 11.1.15 or later.
+11.1.8 through 11.1.10-h*
+Upgrade to 11.1.10-h25 or 11.1.15 or later.
+11.1.7 through 11.1.7-h*
+Upgrade to 11.1.7-h6 or 11.1.15 or later.
+11.1.5 through 11.1.6-h*
+Upgrade to 11.1.6-h32 or 11.1.15 or later.
+11.1.0 through 11.1.4-h*
+Upgrade to 11.1.4-h33 or 11.1.15 or later.
+PAN-OS 10.2
+10.2.17 through 10.2.18-h*
+Upgrade to 10.2.18 or 10.2.18-h6 or later.
+10.2.14 through 10.2.16-h*
+Upgrade to 10.2.16-h7 or 10.2.18-h6 or later.
+10.2.11 through 10.2.13-h*
+Upgrade to 10.2.13-h21 or 10.2.18-h6 or later.
+10.2.8 through 10.2.10-h*
+Upgrade to 10.2.10-h36 or 10.2.18-h6 or later.
+10.2.0 through 10.2.7-h*
+Upgrade to 10.2.7-h34 or 10.2.18-h6 or later.
+All older
+unsupported
+PAN-OS versions
+Upgrade to a supported fixed version.
+Prisma Access 10.2
+10.2.0 through 10.2.10-h*
+Upgrade to 10.2.10-h36 or later.
+Prisma Access 11.2
+11.2.0 through 11.2.7-h*
+Upgrade to 11.2.7-h13 or later.
+Note
+: With this fix, if the firewall is configured to use an authentication override cookie for the GlobalProtect Portal or Gateway, it will regenerate the cookie using a more secure method. Therefore, GP users will need to re-authenticate after a PAN-OS upgrade, even if a valid cookie is present. This is a one time requirement. Once they re-authenticate after the upgrade, the authentication override cookie and its validity will work as they do today.
+Workarounds and Mitigations
+Customers can mitigate the risk of this issue by taking any of the following actions:
+Use a dedicated certificate for
+Authentication Override cookies:
+Generate a new certificate exclusively for authentication override cookies and store it securely. Do not reuse the portal or gateway certificate, and do not share this certificate with other features or users.
+Disable Authentication Override:
+Uncheck the Authentication Override options (for generating and accepting cookies) in the GlobalProtect portal and gateway configuration.
+Acknowledgments
+Palo Alto Networks thanks our internal security research teams for discovering and reporting this issue.
+Frequently Asked Questions
+Q.
+Do I need to upgrade all GlobalProtect components at the same time?
+Yes. For environments relying on authentication override cookies, all GlobalProtect portals and gateways (both internal and external) that generate or accept cookies should be upgraded in accordance with the versions listed in the
+Product Status
+table. This ensures you avoid authentication cookie compatibility issues between portals and gateways that may occur if the fix is only partially applied across the environment.
+Q.
+What if I have a hybrid Prisma Access deployment?
+You must upgrade all on-premises next-generation firewalls (NGFWs) in your hybrid Prisma Access deployment to the fixed PAN-OS versions listed in the
+Product Status
+table. This is necessary to maintain authentication cookie compatibility between your on-premises components and the Prisma Access cloud environment.
+Q.
+How can I temporarily maintain authentication cookie compatibility between upgraded and non-upgraded GlobalProtect components during a phased upgrade?
+If you are performing a phased upgrade in a mixed-version environment, you can temporarily disable strict cookie HMAC validation on upgraded firewalls using the following CLI commands:
+# set global-protect enable-auth-override-cookie-hmac no
+This reverts the upgraded firewall to legacy cookie behavior and prevents user authentication failures during the transition. Once all GlobalProtect portals and gateways in your environment have been successfully upgraded to a fixed version, you must re-enable strict HMAC validation to fully enforce the security enhancements provided in this advisory:
+# set global-protect enable-auth-override-cookie-hmac yes
+Q.
+Why did the severity change for this advisory?
+Under the CVSS v4.0 standard, the advisory evaluates two distinct metrics: the Base Score and the Threat Score.
+The overall severity rating is tied directly to the Threat Score, which adjusts dynamically based on real-world threat intelligence. This score increases when proof-of-concept (PoC) exploits are publicly disclosed or when active attacks targeting the vulnerability are observed in the wild.
+The Base Score remains unchanged, as it is calculated strictly from the static technical characteristics and theoretical impact of the vulnerability.
+Q.
+If an authentication cookie certificate was previously used for other services, can I continue to use it for authentication override if I remove it from those other services?
+No. If a certificate was previously utilized for other functions, you must generate a new certificate dedicated solely to GlobalProtect authentication override cookies to ensure proper security isolation.
+Q.
+Are there any IoCs associated with threat activity?
+Please refer to the Unit42 Threat Brief (
+https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/
+) for the latest information.
+CPEs
+cpe:2.3:o:palo_alto_networks:pan-os:12.1.6:*:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:12.1.5:*:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:12.1.4:h5:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:12.1.4:h3:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:12.1.4:h2:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:12.1.4:-:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:12.1.3:*:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:12.1.2:*:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.2.11:*:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.2.10:h6:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.2.10:h5:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.2.10:h4:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.2.10:h3:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.2.10:h2:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.2.10:h1:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.2.10:-:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.2.9:*:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.2.8:*:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.2.7:h12:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.2.7:h11:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.2.7:h10:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.2.7:h8:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.2.7:h7:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.2.7:h4:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.2.7:h3:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.2.7:h2:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.2.7:h1:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.2.7:-:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.2.6:*:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.2.5:*:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.2.4:h15:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.2.4:h14:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.2.4:h12:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.2.4:h11:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.2.4:h10:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.2.4:h9:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.2.4:h8:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.2.4:h7:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.2.4:h6:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.2.4:h5:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.2.4:h4:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.2.4:h3:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.2.4:h2:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.2.4:h1:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.2.4:-:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.2.3:*:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.2.2:*:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.2.1:*:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.2.0:*:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.14:*:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.13:h3:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.13:h2:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.13:h1:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.13:-:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.12:*:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.11:*:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.10:h21:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.10:h12:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.10:h10:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.10:h9:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.10:h7:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.10:h5:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.10:h4:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.10:h1:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.10:-:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.9:*:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.8:*:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.6:h29:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.6:h25:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.6:h23:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.6:h22:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.6:h21:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.6:h20:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.6:h19:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.6:h18:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.6:h17:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.6:h14:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.6:h10:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.6:h7:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.6:h6:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.6:h4:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.6:h3:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.6:h2:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.6:h1:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.6:-:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.5:*:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.4:h32:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.4:h27:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.4:h25:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.4:h18:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.4:h17:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.4:h15:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.4:h13:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.4:h12:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.4:h11:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.4:h10:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.4:h9:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.4:h8:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.4:h7:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.4:h6:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.4:h5:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.4:h4:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.4:h3:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.4:h2:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.4:h1:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.4:-:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.3:*:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.2:*:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.1:*:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:11.1.0:*:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.18:h5:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.18:h1:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.18:-:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.17:*:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.16:h6:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.16:h4:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.16:h1:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.16:-:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.15:*:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.14:*:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.13:h18:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.13:h16:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.13:h15:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.13:h10:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.13:h7:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.13:h5:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.13:h4:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.13:h3:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.13:h2:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.13:h1:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.13:-:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.12:*:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.11:*:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.10:h31:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.10:h30:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.10:h27:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.10:h26:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.10:h23:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.10:h21:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.10:h18:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.10:h17:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.10:h14:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.10:h13:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.10:h12:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.10:h11:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.10:h10:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.10:h9:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.10:h8:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.10:h7:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.10:h6:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.10:h5:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.10:h4:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.10:h3:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.10:h2:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.10:h1:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.10:-:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.9:*:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.8:*:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.7:h32:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.7:h24:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.7:h23:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.7:h22:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.7:h21:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.7:h20:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.7:h19:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.7:h18:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.7:h17:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.7:h16:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.7:h15:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.7:h14:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.7:h13:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.7:h12:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.7:h11:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.7:h10:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.7:h9:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.7:h8:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.7:h7:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.7:h6:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.7:h5:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.7:h4:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.7:h3:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.7:h2:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.7:h1:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.7:-:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.6:*:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.5:*:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.4:*:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.3:*:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.2:*:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.1:*:*:*:*:*:*:*
+cpe:2.3:o:palo_alto_networks:pan-os:10.2.0:*:*:*:*:*:*:*
+Show More
+Show Less
+CPE Applicability
+cpe:2.3:o:palo_alto_networks:pan-os:*:*:*:*:*:*:*:*
+is vulnerable
+from (including)12.1.0
+and
+up to (excluding)12.1.7
+OR
+cpe:2.3:o:palo_alto_networks:pan-os:*:*:*:*:*:*:*:*
+is vulnerable
+from (including)12.1.4
+and
+up to (excluding)12.1.4-h6
+OR
+cpe:2.3:o:palo_alto_networks:pan-os:*:*:*:*:*:*:*:*
+is vulnerable
+from (including)11.2.0
+and
+up to (excluding)11.2.12
+OR
+cpe:2.3:o:palo_alto_networks:pan-os:*:*:*:*:*:*:*:*
+is vulnerable
+from (including)11.2.10
+and
+up to (excluding)11.2.10-h7
+OR
+cpe:2.3:o:palo_alto_networks:pan-os:*:*:*:*:*:*:*:*
+is vulnerable
+from (including)11.2.7
+and
+up to (excluding)11.2.7-h14
+OR
+cpe:2.3:o:palo_alto_networks:pan-os:*:*:*:*:*:*:*:*
+is vulnerable
+from (including)11.2.4
+and
+up to (excluding)11.2.4-h17
+OR
+cpe:2.3:o:palo_alto_networks:pan-os:*:*:*:*:*:*:*:*
+is vulnerable
+from (including)11.1.0
+and
+up to (excluding)11.1.15
+OR
+cpe:2.3:o:palo_alto_networks:pan-os:*:*:*:*:*:*:*:*
+is vulnerable
+from (including)11.1.13
+and
+up to (excluding)11.1.13-h5
+OR
+cpe:2.3:o:palo_alto_networks:pan-os:*:*:*:*:*:*:*:*
+is vulnerable
+from (including)11.1.10
+and
+up to (excluding)11.1.10-h25
+OR
+cpe:2.3:o:palo_alto_networks:pan-os:*:*:*:*:*:*:*:*
+is vulnerable
+from (including)11.1.7
+and
+up to (excluding)11.1.7-h6
+OR
+cpe:2.3:o:palo_alto_networks:pan-os:*:*:*:*:*:*:*:*
+is vulnerable
+from (including)11.1.6
+and
+up to (excluding)11.1.6-h32
+OR
+cpe:2.3:o:palo_alto_networks:pan-os:*:*:*:*:*:*:*:*
+is vulnerable
+from (including)11.1.4
+and
+up to (excluding)11.1.4-h33
+OR
+cpe:2.3:o:palo_alto_networks:pan-os:*:*:*:*:*:*:*:*
+is vulnerable
+from (including)10.2.18
+and
+up to (excluding)10.2.18-h6
+OR
+cpe:2.3:o:palo_alto_networks:pan-os:*:*:*:*:*:*:*:*
+is vulnerable
+from (including)10.2.16
+and
+up to (excluding)10.2.16-h7
+OR
+cpe:2.3:o:palo_alto_networks:pan-os:*:*:*:*:*:*:*:*
+is vulnerable
+from (including)10.2.13
+and
+up to (excluding)10.2.13-h21
+OR
+cpe:2.3:o:palo_alto_networks:pan-os:*:*:*:*:*:*:*:*
+is vulnerable
+from (including)10.2.10
+and
+up to (excluding)10.2.10-h36
+OR
+cpe:2.3:o:palo_alto_networks:pan-os:*:*:*:*:*:*:*:*
+is vulnerable
+from (including)10.2.7
+and
+up to (excluding)10.2.7-h34
+or
+cpe:2.3:o:palo_alto_networks:prisma_access:*:*:*:*:*:*:*:*
+is vulnerable
+from (including)10.2.10
+and
+up to (excluding)10.2.10-h36
+OR
+cpe:2.3:o:palo_alto_networks:prisma_access:*:*:*:*:*:*:*:*
+is vulnerable
+from (including)11.2.7
+and
+up to (excluding)11.2.7-h13
+Timeline
+2026-06-03
+Added section for FAQs
+2026-05-29
+Updated exploitation status.
+2026-05-28
+Updated the Fix release timeline for 12.1.7.
+2026-05-28
+Updated the Fix release timeline for 11.1.15, 11.1.7-h6, 11.2.4-h17 and 11.2.12.
+2026-05-20
+Updated the Fix release timeline for 10.2.7-h34.
+2026-05-16
+Updated the Fix release timeline for 10.2.13-h21.
+2026-05-15
+Updated the Fix release timeline for 12.1.4-h6.
+2026-05-15
+Updated the Fix release timeline for 11.2.7-h14 and 11.2.10-h7.
+2026-05-14
+Updated the Fix release timeline for 10.2.16-h7.
+2026-05-13
+Initial publication.
+Terms of use
+Privacy
+Product Security Assurance and Vulnerability Disclosure Policy
+Report vulnerabilities
+Manage subscriptions
+© 2026 Palo Alto Networks, Inc. All rights reserved.

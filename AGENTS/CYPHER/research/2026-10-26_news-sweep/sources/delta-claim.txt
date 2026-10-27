@@ -1,0 +1,213 @@
+Source: https://www.yazoul.net/intel/claim/2026-10-26-delta-electric-power-association-ransomware-claim-by-qilin-oct-2026/
+
+Delta Electric Power Association Ransomware Claim by Qilin (Oct 2026)
+yazoul
+Dark web intel
+Advisory
+Intel
+News
+Malware
+More
+Breaches
+Learn
+Research
+Latest Threats
+Dashboard
+RSS Feed
+Advisory
+Intel
+News
+Malware
+Breaches
+Learn
+Research
+Latest Threats
+Dashboard
+Updated 1d ago
+Intel
+QILIN
+Delta Electric Power Association Ransomware Claim by Qilin (Oct 2026)
+1d ago
+News
+CVE-2026-107083
+Weekly Threat Roundup: VeloCloud Exploit, Camel Bugs (Oct 19–25)
+2d ago
+Malware
+67 samples
+Agent Tesla
+2d ago
+Advisory
+CVSS 9.2
+Brotli decoder overflow leaks memory, RCE risk (CVE-2026-111497) [PoC]
+5d ago
+Breaches
+70K accounts
+Assurance Retraite
+1w ago
+Learn
+MITRE ATT&CK Framework Explained (Enterprise and SOC Use Cases)
+1w ago
+Intel
+QILIN
+Mountain Rheumatology Ransomware Claim by Qilin (Oct 2026)
+1d ago
+News
+CVE-2026-110447
+CISA KEV adds Collabora Online and Arista VeloCloud bug
+3d ago
+Malware
+100 samples
+Formbook
+2d ago
+Advisory
+CVSS 9.9
+VeloCloud Orchestrator privilege escalation exploited in the wild (CVE-2026-114625)
+5d ago
+Breaches
+117K accounts
+Gîtes de France
+1w ago
+Learn
+Cloud Misconfigurations That Lead to Data Breaches (Multi-Cloud Analysis)
+1mo ago
+Intel
+QILIN
+NELHA Ransomware Claim by Qilin - October 2026
+1d ago
+News
+CVE-2026-96652
+CISA KEV adds Plex2Shell, Siemens, SiteGuard flaws
+6d ago
+Malware
+100 samples
+INC Ransom
+2d ago
+Advisory
+CVSS 9.8
+PHP OOM handler RCE exploited in the wild (CVE-2026-109618) [PoC]
+6d ago
+Breaches
+559K accounts
+Crunchbase
+1w ago
+Learn
+AWS Security Best Practices 2026 (Real Misconfiguration Examples)
+1mo ago
+Intel
+QILIN
+Power Funding Ransomware Claim by Qilin (Oct 2026)
+1d ago
+News
+CVE-2026-105133
+AhsayCBS bugs exploited for web shells, new fixes out
+1w ago
+Malware
+100 samples
+Mirai
+2d ago
+Home
+/
+Intel
+/
+Delta Electric Power Association Ransomware Claim by Qilin (Oct 2026)
+Low
+Monday, October 26, 2026
+Unverified
+Delta Electric Power Association Ransomware Claim by Qilin (Oct 2026)
+By
+Yazoul AI
+· automated
+Unverified dark web claim.
+This report is based on a post observed on a dark web forum. Yazoul Security has not independently verified the authenticity of this claim.
+Claim Summary
+The Qilin ransomware group has allegedly added Delta Electric Power Association, a US energy and utilities organization (deltaepa.com), to its dark web leak site. According to the threat actor, the attack occurred on October 26, 2026. The group has not disclosed the volume of data it purportedly holds, and no data samples or proof-of-compromise artifacts have been publicly described in the listing data reviewed by Yazoul Security.
+This claim remains entirely unverified. At the time of writing, there is no independent confirmation that a breach occurred, that data was exfiltrated, or that the organization has engaged with the threat actor. Ransomware operators frequently post victims prematurely, sometimes based on limited initial access rather than confirmed exfiltration.
+Threat Actor Profile
+qilin
+is a ransomware-as-a-service (RaaS) operation that has been active since approximately 2022 and is widely assessed by researchers as a rebrand or successor of the earlier BlackCat/ALPHV and, by some accounts, Agenda lineage. Qilin has targeted a broad range of sectors globally, with notable emphasis on healthcare, manufacturing, and critical infrastructure.
+Public reporting on Qilin indicates the group commonly employs double extortion tactics, exfiltrating data before encryption to pressure victims. Known tooling referenced in third-party research includes Cobalt Strike for post-exploitation, various credential-dumping utilities, and legitimate remote monitoring and management (RMM) tools for lateral movement. The group has been observed exploiting exposed VPN appliances and valid credentials as initial access vectors.
+Note: The intelligence feed accompanying this claim lists the group’s total known victims as unknown and its tools as unknown, and cites no public research references. This is a data gap in the source feed, not an indication that the group is inactive or low-capability. Analysts should treat Qilin as an established, operationally mature threat actor based on broader industry reporting, while acknowledging the specific feed lacks corroborating detail.
+Alleged Data Exposure
+The leak site listing does not specify a data volume, data categories, or provide samples. The “Claimed Data” field is listed as not applicable and the volume as undisclosed. Because no proof-of-compromise has been described, the scope of any alleged exposure is unknown. Claims of this nature should not be treated as evidence that customer records, operational technology data, or employee information were accessed.
+Potential Impact
+If the claim is accurate, a US electric power association could face risks including operational disruption, exposure of member or customer information, regulatory scrutiny from energy sector oversight bodies, and reputational harm. Energy utilities are attractive targets due to the criticality of service and the sensitivity of grid-adjacent data. However, these are hypothetical risks contingent on the claim being substantiated.
+What to Watch For
+Official statements from Delta Electric Power Association confirming or denying an incident.
+Regulatory or industry notifications from energy sector bodies.
+Appearance of the organization’s data on the leak site, which would raise confidence in the claim.
+Any reported operational impacts to member utilities or grid services.
+Organizations in the energy sector should review detection coverage for Cobalt Strike beacon activity, unusual RMM tool installations, and anomalous VPN authentication patterns. Where available, YARA rules targeting Qilin ransomware binaries and Cobalt Strike configurations can support hunting; consult your threat intelligence provider for current signatures.
+Disclaimer
+This report is based solely on an unverified claim posted to a ransomware group’s leak site. Yazoul Security has not independently verified the attack, the data exposure, or the threat actor’s assertions. Ransomware groups routinely exaggerate or misrepresent claims to pressure victims. Nothing in this report should be construed as confirmation of a breach. Readers should await official confirmation before drawing conclusions.
+Editorial note:
+This article was generated by Yazoul AI, an automated pipeline, from the public sources it cites.
+    It was not reviewed by a person before publication. See our
+methodology
+for sourcing and corrections.
+Significant claim
+Severity
+2.5
+Actor
+10.0
+Industry
+8.0
+Claim Risk Profile
+Target
+Delta Electric Power Association
+Threat Actor
+qilin
+View all 114 claims →
+Claim Details
+Post Date
+Oct 26, 2026
+Copy as Image
+Share:
+Copied!
+Never miss a threat intelligence alert
+Get real-time security alerts delivered to your preferred platform.
+Telegram
+LinkedIn
+Mastodon
+Bluesky
+Related Claims
+Low
+Oct 26
+Ransomware Claim: Natural Energy Laboratory of Hawaii Authority
+Natural Energy Laboratory of Hawaii Authority — qilin
+Low
+Oct 18
+Ransomware Claim: Pengurusan Aset Air Berhad
+Pengurusan Aset Air Berhad — qilin
+Low
+Oct 15
+Ransomware Claim: Hocon Gas
+Hocon Gas — qilin
+Low
+Oct 13
+Ransomware Claim: Comisión Municipal de Agua Potable y Alcantarillado de Victoria
+Comisión Municipal de Agua Potable y Alcantarillado de Victoria — qilin
+Get Security Alerts
+Subscribe to receive security alerts in your inbox.
+Subscribe
+I agree to receive the newsletter and have read the
+Privacy Policy
+.
+A project by
+Yazoul Security
+Privacy Policy
+·
+Methodology
+Never Miss a Critical Alert
+CVE advisories, breach reports, and threat intel — delivered daily to your inbox.
+Subscribe
+I agree to receive the newsletter and have read the
+Privacy Policy
+.
+No thanks
+Search across all sites
+ESC
+We use privacy-focused analytics (PostHog, hosted in the EU) to understand how the site is used. Nothing is loaded until you accept. No ads, no tracking across other sites. You can accept, reject, or read our
+Privacy Policy
+.
+Reject
+Accept

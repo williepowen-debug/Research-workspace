@@ -1,0 +1,186 @@
+[
+  {
+    "file": "unit42-retraction.txt",
+    "url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
+    "retrieved_at": "2026-10-26T23:08:55-04:00",
+    "status": 200,
+    "raw_bytes": 339407,
+    "raw_sha256": "02e782ee0b9dd51361e7344d2b9eaf3266647ddafb54d636fb4525bb8e54569d",
+    "saved_bytes": 37553,
+    "saved_sha256": "bd334260f45f100d77818e7ea96cfc0a6780dba644eeec85bd210051b9256357"
+  },
+  {
+    "file": "sophos-correction.txt",
+    "url": "https://www.sophos.com/en-us/blog/proof-of-concept-exploit-released-for-php-vulnerabilities-109618-109619",
+    "retrieved_at": "2026-10-26T23:08:55-04:00",
+    "status": 200,
+    "raw_bytes": 732776,
+    "raw_sha256": "391b9958b89bf200d8d9723225951eefe84952563da7ededd8092d2ec6840be1",
+    "saved_bytes": 17762,
+    "saved_sha256": "eb083c659a63e67c4b30574c914b8e218590980a457b36ebecf2504bbf6947ab"
+  },
+  {
+    "file": "pan-product-status.txt",
+    "url": "https://security.paloaltonetworks.com/CVE-2026-109618",
+    "retrieved_at": "2026-10-26T23:08:55-04:00",
+    "status": 200,
+    "raw_bytes": 68185,
+    "raw_sha256": "61d65482d6bdcd9872275f2819ff1858644d431ff65824f88ad4841e295efc18",
+    "saved_bytes": 30151,
+    "saved_sha256": "40cba85cca0ab242591d1d3ae85ed365bede23573ef7a13b3c5efd36cbcefe24"
+  },
+  {
+    "file": "pan-0257.txt",
+    "url": "https://security.paloaltonetworks.com/CVE-2026-0257",
+    "retrieved_at": "2026-10-26T23:08:55-04:00",
+    "status": 200,
+    "raw_bytes": 54480,
+    "raw_sha256": "d365e98f4deda459ddfa5b34ca49c2cd7652facc3853f82bacade78c2a280a4d",
+    "saved_bytes": 23157,
+    "saved_sha256": "df26e832a09fe0c016a9ce43e9829125606ca1aa6464d149d98002aa556bcc3c"
+  },
+  {
+    "file": "tailscale-update.txt",
+    "url": "https://tailscale.com/ssh-investigation-update",
+    "retrieved_at": "2026-10-26T23:08:55-04:00",
+    "status": 200,
+    "raw_bytes": 124558,
+    "raw_sha256": "9f0a5c5bc3701a850a548a1e4e3a6aa43a7c266d1b3fff893f81eedea6d59527",
+    "saved_bytes": 5612,
+    "saved_sha256": "205f30c47723ae89ba650efb3c5d27e9c914ff256b66ad052570418d438f7a22"
+  },
+  {
+    "file": "mercury-case.txt",
+    "url": "https://tailscale.com/customers/mercury",
+    "retrieved_at": "2026-10-26T23:08:55-04:00",
+    "status": 200,
+    "raw_bytes": 115034,
+    "raw_sha256": "191ac5dfb8d2e06be4e3077426942e90c2fb0e9c45ab62d005399d479ca2dfde",
+    "saved_bytes": 8624,
+    "saved_sha256": "94bf9db3bdb0bb0b71368e830281ce051d4bbffa52ac3085819b348c1ee49d7a"
+  },
+  {
+    "file": "k0t-report.txt",
+    "url": "https://www.group-ib.com/blog/stray-cat-network-edge/",
+    "retrieved_at": "2026-10-26T23:08:55-04:00",
+    "status": 200,
+    "raw_bytes": 177328,
+    "raw_sha256": "0f982ddf79e8f7c9d4c40ab27cc67a465bd67c9bfc90bc16f6a46a6a7174af1f",
+    "saved_bytes": 50491,
+    "saved_sha256": "5dfd27d1ad0115308d4acb894051a5112032f1d80568e6b730fc48c9bd14fd3a"
+  },
+  {
+    "file": "honeypot-report.md",
+    "url": "https://raw.githubusercontent.com/0x4D31/honeypot-data/main/reports/php2shell/2026-10-24-confirmed-rce.md",
+    "retrieved_at": "2026-10-26T23:08:55-04:00",
+    "status": 200,
+    "raw_bytes": 27787,
+    "raw_sha256": "39d683daf91f1679bc6eec136020a56a2ae44a0075492feb3f77aa456b2cbb77",
+    "saved_bytes": 27787,
+    "saved_sha256": "39d683daf91f1679bc6eec136020a56a2ae44a0075492feb3f77aa456b2cbb77"
+  },
+  {
+    "file": "checkpoint-roundup.txt",
+    "url": "https://research.checkpoint.com/2026/26th-october-threat-intelligence-report/",
+    "retrieved_at": "2026-10-26T23:08:55-04:00",
+    "status": 200,
+    "raw_bytes": 192359,
+    "raw_sha256": "3b577d4d931770301db5f7dbc08a6f065cc3dc0cb63bdf62dc39fcb08e3d4300",
+    "saved_bytes": 10958,
+    "saved_sha256": "97e25b7708890589558acf76831d9eb50d228a5539d623efb2dbe79c2deb1f5c"
+  },
+  {
+    "file": "google-php-bulletin.txt",
+    "url": "https://docs.cloud.google.com/support/bulletins",
+    "retrieved_at": "2026-10-26T23:08:55-04:00",
+    "status": 200,
+    "raw_bytes": 732318,
+    "raw_sha256": "a77cf00f6c491119b4de18ff3421794e917332564c52c367c4ac4f154ec9386e",
+    "saved_bytes": 268059,
+    "saved_sha256": "f7a1be0ed552fd9d8b0755dc8824ada2c88e0044cb967f4902d63eb96729232b"
+  },
+  {
+    "file": "warren-fed.pdf",
+    "url": "https://www.banking.senate.gov/imo/media/doc/20261023lettertofedtorescindunsafeunsoundmemo.pdf",
+    "retrieved_at": "2026-10-26T23:08:55-04:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "warren-occ-fdic.pdf",
+    "url": "https://www.banking.senate.gov/imo/media/doc/20261023lettertooccandfdictorescindunsafeunsoundrule.pdf",
+    "retrieved_at": "2026-10-26T23:08:55-04:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "delta-home.txt",
+    "url": "https://www.deltaepa.com/",
+    "retrieved_at": "2026-10-26T23:08:55-04:00",
+    "status": 200,
+    "raw_bytes": 75766,
+    "raw_sha256": "1b07057c00065d4e2cdc0a2a27a0b16fd9b451a6d89fe4c5e1cdfe2bef96b705",
+    "saved_bytes": 1316,
+    "saved_sha256": "2dc08dba1dda3b37e0e57ba76c29d5688a14431cd54a1aad2101be4b62e17b9c"
+  },
+  {
+    "file": "powerfunding-home.txt",
+    "url": "https://www.powerfundingltd.com/",
+    "retrieved_at": "2026-10-26T23:08:55-04:00",
+    "status": 200,
+    "raw_bytes": 22076,
+    "raw_sha256": "56e95d13a49a0d4d9acdd8d737c4fd91124e9997db9b9c42ebc49feb41167bf8",
+    "saved_bytes": 4005,
+    "saved_sha256": "dc487431aff65425f4a14e9a04b93cf4255d623732910c806fdb66112e82d392"
+  },
+  {
+    "file": "socradar-ai.txt",
+    "url": "https://socradar.io/blog/inc-gentlemen-ransomware-ai-infrastructure/",
+    "bytes": 283416,
+    "raw_sha256": "31704b1c08d07364b50a7f829c4f20720985781d2cad96aa2cc07c60d410ed72"
+  },
+  {
+    "file": "unit42-ai.txt",
+    "url": "https://unit42.paloaltonetworks.com/ai-assisted-cybercrime-analysis/",
+    "bytes": 265906,
+    "raw_sha256": "a030fa6745fc4c1d23554bb3a2dfd3d63e8c4b4b963822a893efe1d1900bf50d"
+  },
+  {
+    "file": "google-php-guidance.txt",
+    "url": "https://cloud.google.com/blog/products/identity-security/responding-to-core-php-vulnerabilities-cve-2026-109618-cve-2026-109619",
+    "bytes": 322237,
+    "raw_sha256": "71d57fe221434f055f741956459edec99e3d62803f4e86fbafcbe21e8753bb4e"
+  },
+  {
+    "file": "finzly-home.txt",
+    "url": "https://finzly.com/",
+    "raw_sha256": "96ac5dae5d2d8b3fecb0d896387fde5898ba065691f1d1353f9d8052a300f39a",
+    "bytes": 12240
+  },
+  {
+    "file": "finzly-claim.txt",
+    "url": "https://socradar.io/data-breach/finzly-corp-n0n-ransomware-2026/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "commonwealth-claim.txt",
+    "url": "https://www.yazoul.net/intel/claim/2026-10-24-commonwealth-community-bank-ransomware-claim-by-qilin-oct-2026/",
+    "raw_sha256": "3e54fd44e179ed2b0e9d5fe9038936582957bb5a80ef820d5227054dc087d44c",
+    "bytes": 7885
+  },
+  {
+    "file": "powerfunding-claim.txt",
+    "url": "https://www.yazoul.net/intel/claim/2026-10-26-power-funding-ransomware-claim-by-qilin-oct-2026/",
+    "raw_sha256": "82b6ea00e37b0cefec1021d582c8caad86f3d98d8bfc22b4c1c50835c652ec85",
+    "bytes": 7955
+  },
+  {
+    "file": "delta-claim.txt",
+    "url": "https://www.yazoul.net/intel/claim/2026-10-26-delta-electric-power-association-ransomware-claim-by-qilin-oct-2026/",
+    "raw_sha256": "d2ed62778619789ff232a9903680d0af907954e4baf0439f2d60df957f48b1ac",
+    "bytes": 8144
+  },
+  {
+    "file": "citi-notice.pdf",
+    "url": "https://www.mass.gov/doc/2026-1769-citibank-na/download",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

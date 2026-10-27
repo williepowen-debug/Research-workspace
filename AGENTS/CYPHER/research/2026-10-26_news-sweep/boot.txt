@@ -1,0 +1,50 @@
+==========================================================================
+  ⏰ WALL CLOCK: 2026-10-26 23:28 Monday — never hand-write a time; copy this line
+  CYPHER BOOT — staleness · predictions · catalysts · watch · incidents · matrix/map · KEV · 8-K 1.05 · 8-K 8.01
+==========================================================================
+
+--- 1. ledger staleness (workbook + TRADE.md) ---
+perimeter [CYPHER]: 7 ledger(s) scanned; 2 TSV(s) NOT scanned by this pass: docket/CATALYSTS.tsv, registry/corrections_receipts.tsv
+trade perimeter: 1 agent(s) with a matching trade surface graded; 0 agent(s) matched NO trade surface and are NOT certified by this pass
+  ✓ quiet (alert-contract: this check prints only when stale or misconfigured)
+
+--- 2. predictions-due (OPEN rows past Resolve_By) ---
+  ✓ none due — 4 row(s), 4 OPEN scanned on Resolve_By
+
+--- 3. catalysts-due (docket/CATALYSTS.tsv: today · ≤2d · past) ---
+  ⚠️ in 1d: 2026-10-27 [P2] ConnectWise Cloud Backup daily restoration update (vendor: 1
+  ⚠️ in 1d: 2026-10-27 [P2] Chrome Root Store v43 removes emSign ECC Root G3 (eMudhra) —
+  ⚠️ in 2d: 2026-10-28 [P2] Tailscale SSH patched-client and advisory check (target end 
+  (20 row(s) scanned; window 2d)
+
+--- 4. escalation watch (Class 2 tokens · 7-day re-check) ---
+  ✓ every open row checked within 7d — 9 row(s)
+  ◉ WAVE-2026-10: FIRED 1 · NOT-FIRED 8
+  ℹ️ WAVE-2026-10: 1 FIRED row(s) — each needs its consequence-owner packet (row Notes)
+
+--- 5. incidents (enums · 14-day re-check of unconfirmed rows) ---
+  ✓ enums valid; no REPORTED/ATTEMPTS-ONLY row older than 14d — 45 row(s)
+
+--- 6. convergence matrix + transmission map (scores · tokens · orphans) ---
+  ✓ every vector scored and every flow row valid — Total 22/40 (raw; report the shared-root-adjusted total beside it)
+  (9 vector(s), 8 MECHANISM; 20 flow row(s); Total 22/40 (raw; report the shared-root-adjusted total beside it))
+
+--- 7. CISA KEV (watched CVEs on live rows) ---
+  ⚠️ KEV LISTED: CVE-2026-109618 (dateAdded 2026-10-26) — rows: CYB-INC-007. FIRED CANDIDATE: the owner sets State and sends the P1 packet; the machine never writes
+  ⚠️ KEV LISTED: CVE-2026-109619 (dateAdded 2026-10-26) — rows: CYB-INC-007. FIRED CANDIDATE: the owner sets State and sends the P1 packet; the machine never writes
+  ⚠️ KEV LISTED: CVE-2026-114625 (dateAdded 2026-10-23) — rows: CYB-INC-014. FIRED CANDIDATE: the owner sets State and sends the P1 packet; the machine never writes
+  (7 key(s) vs KEV v2026.10.26 released 2026-10-26T22:24:24.6101Z, 1758 entries; source LIVE https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json)
+
+--- 8. SEC 8-K Item 1.05 (material cyber incidents) ---
+  ⚠️ 8-K Item 1.05 2026-10-26: Agassi Sports Entertainment Corp.  (AASP)  (CIK 0000930245) — read it: bank, core/digital vendor, or a wave CVE?
+  (19 Item 1.05 8-K(s) in 2026-06-28..2026-10-26; listing filings since 2026-10-19; source LIVE https://efts.sec.gov/LATEST/search-index)
+
+--- 9. SEC 8-K Item 8.01 cyber terms (NON-material disclosures) ---
+  ⚠️ 8-K 8.01 cyber-term 2026-10-22: QUEST DIAGNOSTICS INC  (DGX)  (CIK 0001022079) — read it: real incident or boilerplate? bank/vendor?
+  ⚠️ 8-K 8.01 cyber-term 2026-10-22: OLD DOMINION FREIGHT LINE, INC.  (ODFL)  (CIK 0000878927) — read it: real incident or boilerplate? bank/vendor?
+  (466 cyber-term 8-K(s) in 2026-06-28..2026-10-26; items filter {8.01, 7.01, 9.01}; listing since 2026-10-19; source LIVE https://efts.sec.gov/LATEST/search-index. A quiet leg = no NON-material cyber 8-K matched, not 'no incident')
+
+==========================================================================
+  CYPHER boot: REVIEW — work the flagged items before new research.
+
+Recorded return code: 1
