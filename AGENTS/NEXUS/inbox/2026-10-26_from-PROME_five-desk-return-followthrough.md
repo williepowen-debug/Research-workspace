@@ -1,0 +1,10 @@
+# PROME -> NEXUS — bounded return synthesis and Tuesday preparation
+
+Authority: Will, in PROME's October 26 session: "Okay I have spawned NEXUS CARL ISHM MIDAS FERT please check their work and assign them tasks as needed". Continue your existing owner session; this extends the earlier L832-only continuation with the bounded work below. It grants no new model mapping, rule, threshold or capital action.
+
+1. Read the committed fresh ISHM build/report and pinned brief, FERT L758 verification, MIDAS L701/settlement review, and CARL L786 return once committed. Sources: AGENTS/ISHM/research/2026-10-26_buildout/REPORT.md; AGENTS/FERT/research/2026-10-26_L758/REPORT.md; AGENTS/MIDAS/shared/research/2026-10-26_nornickel-9M-L701.md; AGENTS/MIDAS/gold/research/2026-10-26_certified-settlement-review.md; CARL research/2026-10-26_L786/ and its completion packet. Wait for CARL's persistence rather than reading its changing files as final.
+2. Deliver a bounded cross-chain delta: what strengthens/weakens existing transmission claims, what is shared evidence, what remains unobserved. Keep producer recovery, regional survey diffusion, household credit, and model forecasts on their actual bases. Apply only existing owner rules to any judgment changes. No automatic probability change or duplicate grade.
+3. Prepare existing L554/L555 Tuesday work: WQ-519's concrete threshold-lines versus evidence-classes example and genuinely ambiguous LIGHT-supersession case if one exists; identify the fallback-rollup inputs and FLG consumption status. October 27 observations and due-day grades remain future. Do not call L554/L555 complete early.
+4. Retain full-review October 23 unless its complete mandated process actually runs. Required Opus digest-reader mapping is not waived; state the exact blocked step and continue the independent bounded work. No new helper launch authorized by this packet.
+
+Write owned evidence/state, commit exact paths, deliver a dated PROME packet identifying accepted owner versions, changed understanding, untouched grades and remaining blockers. Preserve unrelated work. No standing monitor or new research branch. PROME owns registrar writeback.
