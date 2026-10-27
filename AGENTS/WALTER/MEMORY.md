@@ -8,6 +8,8 @@
 ---
 ## Feedback
 
+- [2026-10-27, Will direct] **Retire WALTER's Telegram connection.** Plugin disabled; launch flags removed; reply/alert duties now use the active Will session under CLAUDE.md Rule 12. Older Telegram auto-memory is historical for WALTER; no reconnection task.
+
 - [2026-10-22, Will direct] **Keep feeding DEWEY research.** Will likes the WALTER→DEWEY results (8 commissions 10/22) and wants WALTER to keep looking for threads every sitting. Standing authority, told after; cap 3 self-initiated per sitting and 5 queued; trades, paid data, new feeds or desks still need his word. Review each return (one figure at primary, conflict check vs owner records) before routing. → `design/SIGNAL_PROCESSING_CHECKLIST.md` Phase 2.8/2.8b v0.53
 
 - [2026-10-20, Will approved CATO recommendations] **Bookmark check-ins lead with findings; reconcile publication before reporting it.** Apply `design/X_BOOKMARKS_WORKFLOW.md` at saved-batch boundaries: prioritize consequential reading without skipping bodies/images, make material gaps conditional/owned, disposition timely desk work and report downstream use only from existing evidence.

@@ -1,0 +1,47 @@
+diff --git a/scripts/AGENT_LAUNCHER.md b/scripts/AGENT_LAUNCHER.md
+index e0ee04b13..68e10519b 100644
+--- a/scripts/AGENT_LAUNCHER.md
++++ b/scripts/AGENT_LAUNCHER.md
+@@ -106,8 +106,8 @@ Without Windows Terminal, use `--same-window`; there is no silent fallback.
+   CYPHER retains its explicit Claude model from the command sheet.
+ - CATO keeps its existing **Astra / workspace-write / on-request** policy.
+   `--sol` and `--claude` are rejected for CATO instead of changing its policy.
+-- WALTER retains its Claude Telegram channel option in new and resume modes.
+-  Running WALTER in Codex does not establish Telegram connectivity.
++- WALTER's Telegram connection was retired by Will on October 27, 2026.
++  New and resumed sessions launch without Telegram channel flags.
+ - CARL's specialists use their nested folders. Project folders and startup files
+   are checked; the launcher never creates missing desks or substitutes another.
+ - The configuration contains the command sheet's 50 distinct targets plus CATO.
+diff --git a/scripts/agents.json b/scripts/agents.json
+index d2eb25c97..a69bcc8a0 100644
+--- a/scripts/agents.json
++++ b/scripts/agents.json
+@@ -15,11 +15,7 @@
+       "purpose": "Signal intake and routing.",
+       "group": "System, research, and trading",
+       "kind": "fleet",
+-      "default_runtime": "sol",
+-      "claude_args": [
+-        "--channels",
+-        "plugin:telegram@claude-plugins-official"
+-      ]
++      "default_runtime": "sol"
+     },
+     {
+       "name": "CATO",
+diff --git a/scripts/tests/test_agents_launcher.py b/scripts/tests/test_agents_launcher.py
+index 6c0d6b8f3..784989d45 100644
+--- a/scripts/tests/test_agents_launcher.py
++++ b/scripts/tests/test_agents_launcher.py
+@@ -188,8 +188,8 @@ class LauncherTests(unittest.TestCase):
+         self.assertEqual(len(entries), 51)
+         for action in ('new', 'resume'):
+             walter = agents.build_plan(entries['WALTER'], 'claude', action)
+-            self.assertIn('--channels', walter.argv)
+-            self.assertIn('plugin:telegram@claude-plugins-official', walter.argv)
++            self.assertNotIn('--channels', walter.argv)
++            self.assertNotIn('plugin:telegram@claude-plugins-official', walter.argv)
+             self.assertNotIn('--channels', agents.build_plan(entries['WALTER'], 'sol', action).argv)
+         for name in ('STUE', 'POLLY', 'DOC', 'GIG', 'PHAN', 'POP'):
+             plan = agents.build_plan(entries[name], 'sol', 'new')

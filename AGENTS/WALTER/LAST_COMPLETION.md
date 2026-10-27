@@ -2,13 +2,17 @@
 
 Updated 2026-10-27T15:06:44Z. Current session `01a17de0-aa39-7342-b6f6-18ed9406cd23`; instruction/approval recovery DONE, full boot PARTIAL.
 
+## TELEGRAM RETIREMENT — October 27
+
+Will authorized removal. WALTER plugin disabled, local configure/reply hook removed, launcher flags removed, charter and memory updated. Active-session replies/alerts replace Telegram duties. Official Anthropic documentation still supports Telegram channels; no blanket ban established. Evidence: `research/2026-10-27_telegram-retirement/RESULT.md`. Shared launcher files await PROME commit under root custody; no outgoing tool message or automatic push. Other access/backlog duties below remain.
+
 ## CURRENT STARTUP RESULT
 
 Root pull completed (Already up to date). Doctor zero HIGH / three MED. All 21 ordinary inbox packets and three DEWEY returns read; integration and consumption remain pending. Registry lead metadata reviewed. FRED/EIA/vendor/Cboe scan completed at the scopes in `research/2026-10-27_startup/THRESHOLD-SCAN.md`; no new fire established in completed checks, no full-market clearance.
 
 ## CURRENT GAPS AND FOLLOW-UP
 
-Research-Intake pull failed for missing HTTPS GitHub authentication; local snapshot ends October 23, cannot override the previous October 26 evidence. X token refresh failed, no IDs marked. Telegram reply/chat and full-fleet census unavailable; `bdata` absent. Independent internal work can continue. Readiness UNKNOWN, never DARK. Reauthorization/authentication repair remains pending; no alternative messaging transport attempted.
+Research-Intake pull failed for missing HTTPS GitHub authentication; local snapshot ends October 23, cannot override the previous October 26 evidence. X token refresh failed, no IDs marked. Telegram deliberately retired by Will October 27; no reconnection/reply obligation. Full-fleet census unavailable; `bdata` absent. Independent internal work can continue. Readiness UNKNOWN, never DARK. Reauthorization/authentication repair remains pending; no alternative messaging transport attempted.
 
 First work: integrate pending correction/source packets and DEWEY QA before intake marks. Full filter context/catalyst and 48h-ledger extraction, remaining HANS daily/official oil settlement/census legs, lifecycle/retirement and stale READS attestation remain open. Registry rotation-tier debt retained. No blanket consumed declaration. See the dated BOOT-RECEIPT for every executed/incomplete startup duty.
 
@@ -97,7 +101,7 @@ Startup recovery only; boot PARTIAL. No new dispatch or consumption. Routine pus
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-27T15:06:44Z",
+  "as_of": "2026-10-27T15:18:40Z",
   "next_review": "2026-10-27",
   "publication": [
     {
@@ -139,6 +143,10 @@ Startup recovery only; boot PARTIAL. No new dispatch or consumption. Routine pus
       {
         "path": "AGENTS/WALTER/research/2026-10-27_startup/prior-LAST_COMPLETION.md",
         "sha256": "edfa61cea9c73801da0476397d350a560f9aec51f98ff7b670b6e1ef4d72afa6"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-27_telegram-retirement/RESULT.md",
+        "sha256": "8746478ec273108f204d214224a728d75b8af389e02d5752269d03a48fd43d23"
       }
     ]
   },
@@ -157,7 +165,8 @@ Startup recovery only; boot PARTIAL. No new dispatch or consumption. Routine pus
     "14": "MEMORY prior durable findings retained; light narrative deferred",
     "15": "current receipt and all predecessor obligations/approvals preserved",
     "16": "exact-path local commit, coordinated routine push deferred",
-    "ledger": "REGISTRY lead metadata refreshed. No new dispatch, KILL, delivery, correction, doorbell, research commission or batch disposition occurred; no artificial ledger refresh. Corrections scan and partial threshold review actually executed; oldest uninstrumented/source gaps remain explicit."
+    "ledger": "REGISTRY lead metadata refreshed. No new dispatch, KILL, delivery, correction, doorbell, research commission or batch disposition occurred; no artificial ledger refresh. Corrections scan and partial threshold review actually executed; oldest uninstrumented/source gaps remain explicit.",
+    "telegram": "Will retired WALTER Telegram October 27. Project disabled and launcher flags removed, existing tests 29/29 PASS. Own config/charter/memory committed; shared launcher scripts remain PROME commit custody, packet authored. Boot-basis charter hash now requires review; no automatic re-attestation."
   }
 }
 END_CLOSEOUT_RECEIPT -->

@@ -1,3 +1,7 @@
+## 2026-10-27T15:17:58Z — LIGHT closeout — full deferred — Telegram retired by Will
+
+Disabled WALTER plugin and local Telegram configure/reply-hook entries; removed launcher channel flags and adjusted existing launcher assertions/docs. Charter Rule 12 and FLASH alert route now use the active Will session; old Telegram obligations superseded. Official Anthropic channel docs still list Telegram; no blanket ban found. Exact source/limits: research/2026-10-27_telegram-retirement/RESULT.md. Shared scripts remain PROME commit custody; authored packet requests it. No external message, token revocation, other-desk change, market scan or new research scope. Earlier full-boot/backlog gaps retained.
+
 ## 2026-10-27T15:06:44Z — LIGHT closeout — full deferred — startup recovery
 
 Root/local instruction, memory and approval recovery; root pull Already up to date. Read 21 ordinary packets and three DEWEY returns, no integration/moves/consumption. FRED/EIA/vendor/Cboe checks at saved source dates; no new fire established in completed scope. Intake pull fails HTTPS GitHub authentication, X refresh fails; no marks. Registry 49 existing rows checked before NETWORK, prior grades retained. Boot remains PARTIAL: filter/context, European/settlement/census, lifecycle/retirement and stale READS work preserved. WQ503/WQ508 and frozen closed WQ515 sample unchanged. No message, doorbell, launch, new commission, monitor, trade or autonomous push. Evidence research/2026-10-27_startup/BOOT-RECEIPT.md. MEMORY durable rules unchanged; light narrative deferred.

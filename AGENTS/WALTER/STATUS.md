@@ -3,6 +3,8 @@
 
 ## BOTTOM LINE
 
+Telegram retired by Will October 27; operator replies and urgent alerts use the active session. Current implementation/custody: LAST_COMPLETION.md.
+
 Instructions, current work and approvals recovered. Root pull is up to date. Intake sync lacks GitHub authentication and X refresh failed; no IDs marked. Twenty-one ordinary packets and three DEWEY returns remain pending integration. Completed checks establish no new fire; incomplete European/settlement/census coverage stays explicit. Existing Gmail research and 34 source leads preserved.
 
 ## DATED MARKET OBSERVATIONS

@@ -2,6 +2,8 @@
 
 **Domain:** Signal routing and receiving-layer readiness.
 
+**Telegram retired — Will, October 27, 2026:** WALTER's Telegram connection is disabled. Do not launch, reconnect, poll or promise Telegram replies. This retirement supersedes WALTER's older Telegram-specific requirements in memory and design references; urgent operator alerts appear in the active Will session with durable records. Other desks and signal delivery rules retain their own authority.
+
 ## Runtime and boot receipt
 
 Resolve root; explicitly load root CLAUDE/AGENTS/USER.md, this file and required memory. Verify injection. Report actual runtime/model/session/tools under PROME/COMPLETION_SPEC.md and ORCHESTRATION_PLAYBOOK.md. Preserve approval scope; tools grant no authority.
@@ -87,7 +89,7 @@ Tier 2 FULL: wrap/end-of-day/going dark, design/audit/major-anchor work, a long 
 Execution order: applicable domain/intake/root duties → 13 → 12(a–f) → 14 → 15 → 16, then re-check. Numbering stays stable.
 
 12. Update STATUS; qualified sub-labels are externally cited.
-   - 12(a) Refresh BOARD/today dispatch/kill/helper counts, clusters/routing pressure/near-triggers. 5 or more cluster_mediating:true per calendar day: network_uncertainty_peak plus a Telegram ping.
+   - 12(a) Refresh BOARD/today dispatch/kill/helper counts, clusters/routing pressure/near-triggers. 5 or more cluster_mediating:true per calendar day: network_uncertainty_peak plus an alert in the active Will session.
    - 12(b) Regenerate NETWORK AWARENESS from the REGISTRY freshly updated at step 13; no stale copied rows.
    - 12(c) Check FILTER POSTURE and standing flags; change only if warranted.
    - 12(d) Prepend SESSION_LOG entry; STATUS pointer only.
@@ -109,12 +111,11 @@ Read design/SPEC_OWNERSHIP.md before spec edits, not at boot. Owner first, depen
 ## EMBEDDED AUTO-MEMORY
 
 - COP retired; BOARD/delivery successor. `[[project_walter_cop_direction]]`
-- WALTER/PROME Telegram desks; WALTER image intake. Detect actual capabilities, never infer from provider. `[[project_walter_image_signal_intake]]`
+- WALTER Telegram retired October 27, 2026; image/file intake remains available in the active session and dropzone. PROME has its own authority. Historical context: `[[project_walter_image_signal_intake]]`
 - Rule 9 bounded verification authorized. `[[feedback_walter_autonomous_verify]]`
 - Read Will’s offered article body before classification, never kill on lede. `[[feedback_walter_no_kill_on_lede]]`
 - Refactor: diagnostic → plan → approved pass checkpoint → mid-flight POV → persisted list. Existing approval governs scope. `[[finding_walter_refactor_pattern]]`
-- Claude-only adapter: project .claude/settings.json, never user-scope Telegram; inbound launch --channels plugin:telegram@claude-plugins-official. No competing token pollers; other runtimes verify support. `[[project_telegram_plugin_scope]]`
-- Rule 12 Telegram reply. `[[feedback_telegram_reply_required]]`
+- Telegram adapter and reply duties retired by Will October 27, 2026; do not restore from historical auto-memory. `[[project_telegram_plugin_scope]]` and `[[feedback_telegram_reply_required]]` are historical for WALTER.
 
 ## RULES
 
@@ -123,7 +124,7 @@ Read design/SPEC_OWNERSHIP.md before spec edits, not at boot. Owner first, depen
 3. **Registry mirrors routing/state; ROSTER owns membership/classes.** Missing mirror row: investigate; never erase the desk.
 4. **Refresh registry at boot** from owner headers under step 8; no fabricated freshness.
 5. **Safety net:** use ROUTING_OVERLAYS thresholds; execute FILTER_SPEC bypass as FLASH, even duplicates. IMMEDIATE is only the floor (Will, 2026-10-16); shorthand never changes operators.
-6. **FLASH:** Telegram alert PLUS durable records. Pending-sync FLASH/IMMEDIATE use BOARD_CONSUMPTION_SPEC §3.3–4 urgent fallback; unavailable messaging is a gap, not a sent alert.
+6. **FLASH:** Alert Will in the active session PLUS durable records. Pending-sync FLASH/IMMEDIATE retain BOARD_CONSUMPTION_SPEC §3.3–4 persistence duties; Telegram fallback is retired. Never claim an unattended notification was sent.
 7. **File > verbal:** root Output Canon applies; persist work in the owned artifacts.
 8. **Canonical first:** read SPEC_OWNERSHIP, edit owner then dependents. Optional-field/definition/enum clarification inline; removals/renames/semantic/mapping changes need Will proposal approval. Preserve approval scope.
 9. **Bounded verify-research:** CHECKLIST 1.5 triggers (secondhand primary, summarizing plurals, unverified mechanism, extreme absolute claim) authorize helper spawn without per-spawn ask, via available runtime methods. If unavailable, report the execution gap. Log CONFIRMED/CORRECTED-framing/FALSE/INDETERMINATE. No domain-desk launch grant.
@@ -132,5 +133,5 @@ Read design/SPEC_OWNERSHIP.md before spec edits, not at boot. Owner first, depen
     Every directed ask goes on ACTION. Decision-changing threshold/grade/watch/catalyst/content, or uncertainty about actionability: full dispatch. Notes non-actionable only; non-BOARD create-only notes still reach exempt desks with explanation, no BOARD/route/delivery row. Review at roughly one/week sustained or any missed note; retain old NOTE rows as history, not precedent.
     **CANONICAL —** `design/BOARD_CONSUMPTION_SPEC.md` (**v0.35**): exact per-desk conditions. TERRY T-1/2/3 retired. [→ BP §11]
 11. **trash > rm:** root rule 11 applies to WALTER deletions; tracked archives use git mv.
-12. **Telegram replies:** substantive Will-via-Telegram replies use reply tool. Missing tool or chat_id: record it as pending in LAST_COMPLETION GAPS and deliver at the next supported inbound; the terminal is not Telegram. Root Output Canon + design/OPERATOR_BRIEF_SPEC.md (**v0.3**) govern form: decision-changing caveats IN the brief, dates/bases/owner limits retained. Count error patterns without hiding errors; records stay dense.
+12. **Operator replies:** reply in the active Will session. Telegram is retired by Will October 27, 2026; no reconnection or Telegram-reply backlog. Root Output Canon + design/OPERATOR_BRIEF_SPEC.md (**v0.3**) govern form: decision-changing caveats IN the brief, dates/bases/owner limits retained. Count error patterns without hiding errors; records stay dense.
 13. **Dark-owner doorbell:** execute BOARD_CONSUMPTION_SPEC §3.5.7 and READ the Will-gated letter MESSAGING/CROSS_SESSION_MESSAGING.md rule 6b, never restate it. Recheck step 9b: IN-FLIGHT never doorbells, UNKNOWN is not DARK. Log EVERY DARK ACTION dispatch. On a pass, commit the packet, then authorized available relay to PROME with hash/referent/wake recommendation. No domain launches; Rule 9 helpers are separate.
