@@ -60,6 +60,8 @@ Intake: eight WALTER signals assessed, including three late October 27 UTC IDs (
 
 Boot tests: initial 37 pass, final 39 pass after message/fixture repair. Live boot all seven FRED series current, print enums valid, no overdue consumed keyed row; one new date gap is explicit (AAR monthly edition day UNKNOWN). Expected REVIEW for tomorrow's catalysts and UNKNOWN equity thermometer. Reader manifest now certifies ATTESTED after PROME registration. Current checks are in the news-sweep record; detailed first-session checks and Git receipts remain in its dated closeout record.
 
+Late WALTER handoff archival is pending its sender commit: three locally observed packets are not yet tracked. ISHM committed their dispositions but did not stage the sender's originals; WALTER notified, follow-up at the October 27 dependency check.
+
 Food-plant operations context remains source-limited: separate Newport/Cedar Rapids reports do not establish a shared cause or quantified lost output. No aggregate manufacturing/food-price consequence is graded; source limits and dispositions are in the news-sweep report.
 
 ## BOTTOM LINE
