@@ -1,0 +1,36 @@
+HEARTBEAT.md  15602 B (wc -c)  85 lines (wc -l)  crc32 263967634  crc32-no-final-nl 3024148069
+PROME/archive/HEARTBEAT_PREREBASE_SNAPSHOT_2026-10-26.md  24637 B (wc -c)  65 lines (wc -l)  crc32 1668453558  crc32-no-final-nl 2073173809
+PROME/HEARTBEAT_COLD.md  558110 B (wc -c)  1207 lines (wc -l)  crc32 3917170914  crc32-no-final-nl 394766122
+
+IDENTICAL  PROME/reports/2026-10-26_heartbeat-rebase/before.md  PROME/archive/HEARTBEAT_PREREBASE_SNAPSHOT_2026-10-26.md
+
+IDENTICAL  PROME/reports/2026-10-26_heartbeat-rebase/candidate.md  HEARTBEAT.md
+
+CLAIM-CHECK ✓ 1 file(s) clean [weekday]
+
+PASS: all explicit repository pointers resolve.
+
+PASS: cold-file SHA unchanged.
+
+PASS: exact generated book line.
+
+/tmp/heartbeat35-channel-1.txt  495 B (wc -c)  1 lines (wc -l)  crc32 3035244851  crc32-no-final-nl 4009587920
+
+/tmp/heartbeat35-channel-2.txt  446 B (wc -c)  1 lines (wc -l)  crc32 105869349  crc32-no-final-nl 4138682985
+
+/tmp/heartbeat35-channel-3.txt  516 B (wc -c)  1 lines (wc -l)  crc32 2815737662  crc32-no-final-nl 3170054088
+
+/tmp/heartbeat35-channel-4.txt  478 B (wc -c)  1 lines (wc -l)  crc32 1352624187  crc32-no-final-nl 2507372380
+
+/tmp/heartbeat35-channel-5.txt  477 B (wc -c)  1 lines (wc -l)  crc32 4257210693  crc32-no-final-nl 3530706742
+
+/tmp/heartbeat35-channel-6.txt  495 B (wc -c)  1 lines (wc -l)  crc32 3723433417  crc32-no-final-nl 3976425539
+
+/tmp/heartbeat35-channel-7.txt  485 B (wc -c)  1 lines (wc -l)  crc32 1235456957  crc32-no-final-nl 3317596362
+
+/tmp/heartbeat35-channel-8.txt  494 B (wc -c)  1 lines (wc -l)  crc32 2796098961  crc32-no-final-nl 438863497
+
+Eight channel paragraphs measured including pointers.
+
+
+Amendment instrument: ('advisory', 'HEARTBEAT amendment chain (<4)', True, 'chain at 0 amendment(s)', 'HEARTBEAT.md Cadence section + PROME/HEARTBEAT_COLD.md §C (re-base = plan + blind reads -> archive verbatim; PROME-standard since 2026-08-23, AUTONOMY change-log — no Will approval step)')

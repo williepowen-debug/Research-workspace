@@ -1,0 +1,160 @@
+{
+  "basis": "File versions read for October 26 synthesis; owner reports retain their own source/retrieval dates. Candidate plan/archive are planned outputs, not evidence.",
+  "sources": [
+    {
+      "path": "AGENTS/BRENT/STATUS.md",
+      "sha256": "35b76b27bb8098544bd85b4583b8db1747dac6570f7b9d69f2987a6bf0de845c",
+      "last_commit": "442ec6f3784cebd83531a5a0b527b52664b4bbc9"
+    },
+    {
+      "path": "AGENTS/BRENT/audits/2026-10-26_key-file-review/REPORT.md",
+      "sha256": "094c0a906c5b984286c45797357faffcdf4b635bd8905d3867f6c8bf031620ad",
+      "last_commit": "0706a7a8bde8d2a594dcebff9f8d2464eb3160dc"
+    },
+    {
+      "path": "AGENTS/BROCK/STATUS.md",
+      "sha256": "d66508dd9072bb1880bd35982c8d3d786c3e1b490377225b165efc1aee383ef4",
+      "last_commit": "84e7a03c1290751df4941f09b3e9d33028fe6a58"
+    },
+    {
+      "path": "AGENTS/BROCK/research/2026-10-25_three-followups/REPORT.md",
+      "sha256": "124116e2175a8871aab5ba7bae68f3d6128fcbbc6d11f66697340cfc83e8e260",
+      "last_commit": "1cb7f4a4bc7e06e6b13fce899664b093e14f43c8"
+    },
+    {
+      "path": "AGENTS/DEWEY/output/2026-10-23_ccc-concentration-optimum-altice.md",
+      "sha256": "6da76c1ae4494c8280aa0d30afaf53085d24ca8ec09e3229207dfeda8b1addd9",
+      "last_commit": "a4d44b7edafc9074faeacfa25dc8f2178ae7f6e3"
+    },
+    {
+      "path": "AGENTS/FALCON/reports/2026-10-26_evening-sweep.md",
+      "sha256": "edd36d8a70142949403979bd7514d179aba7b1f8274ac60058ee4fa999733cbe",
+      "last_commit": "2615938222e8407e381f7e4f4c5b7fae11069a64"
+    },
+    {
+      "path": "AGENTS/HENRY/STATUS.md",
+      "sha256": "cc87af7b9fc3ef29df69ce7faa6210cca29fc55b794a67087f3084f09e634063",
+      "last_commit": "89639c89d355e75aa3c0055e4dfa340a19330828"
+    },
+    {
+      "path": "AGENTS/LIQUID/STATUS.md",
+      "sha256": "51ae70203a63dc29bb46d7439a652322b04a76cd07f768684a01b6cd9234715e",
+      "last_commit": "16cb439012416dbee127086eea8165ecda5c8ea7"
+    },
+    {
+      "path": "AGENTS/LIQUID/research/2026-10-26_brazil-feasibility-execution/REPORT.md",
+      "sha256": "1e829a103c23605760dc855affed6f60c3fb11286c882b1a607430dececdc4b1",
+      "last_commit": "545b21e7202dcc70bfa1253b7aa96474ec6abed3"
+    },
+    {
+      "path": "AGENTS/MIDAS/STATUS.md",
+      "sha256": "e0338a8021bf548e9e32ddcfab52e4369e62a30a5e53d0e5e69ffe5b622a6f31",
+      "last_commit": "7cf4de68ab3e1f457b0d3ae6098102ca1fa3395e"
+    },
+    {
+      "path": "AGENTS/MIDAS/gold/research/2026-10-25_session-synthesis.md",
+      "sha256": "010f52c39a3f0ee3cf520309c4c77931a8375c674192811c37dc7df372af503d",
+      "last_commit": "ab253ae503d868b899bd97ac9ce7b9751925d739"
+    },
+    {
+      "path": "AGENTS/REGINALD/STATUS.md",
+      "sha256": "24467fe44bc5a62647ea7361913ac523e4cc65ac134cd266e4a6a5d73a45b200",
+      "last_commit": "8452f2af7b08b8204e06793c675da08ac58d2f6b"
+    },
+    {
+      "path": "AGENTS/REGINALD/registry/NOTES.md",
+      "sha256": "0f890fc9c3bc32eeb3e8355cdb23739011cfcabec3359dac163461866e9aeeec",
+      "last_commit": "8452f2af7b08b8204e06793c675da08ac58d2f6b"
+    },
+    {
+      "path": "AGENTS/SAM/STATUS.md",
+      "sha256": "ebf6a313929d687a18799e1a3d689cc89cab549a5f6c068bbc20bedf9b1841ed",
+      "last_commit": "0055442a8bb10b071db331d0b063a22d6b35195e"
+    },
+    {
+      "path": "AGENTS/TERRY/setups/QQQ_nov20-690-670P_gamma-negative-putwall_2026-10-22.md",
+      "sha256": "1aba57cc576704b0ffb9b4b6cbd481bef59f2a9a99d4d49bde07ba0d7869c46d",
+      "last_commit": "3aed021c86b3457587165e26e4bc1ca38a3c9f58"
+    },
+    {
+      "path": "AGENTS/VULCAN/reports/2026-10-26_financing/REPORT.md",
+      "sha256": "4decaac6c5950bba65bd6f9738835ba158bec1949cc5361b5fbbe2704ef13e73",
+      "last_commit": "594ff5c3928b914067f53a1c97419e2507e283a2"
+    },
+    {
+      "path": "AGENTS/VULCAN/reports/2026-10-26_news-sweep/REPORT.md",
+      "sha256": "12ca6ab344da5f001298a0d986e1158cc8f03285aced4b9e41ba3751f8036806",
+      "last_commit": "dd60c12470cd5017de39c56bf05749e9bb3bc644"
+    },
+    {
+      "path": "FORGE/STATUS.md",
+      "sha256": "81bf6e37a8a943645b3e60071b98bb799c3e71b081a423d50e1dffd8cc9b25ad",
+      "last_commit": "ec5a7058bfdf7decb9047d40743517fff9b35227"
+    },
+    {
+      "path": "PROME/DOCKET.tsv",
+      "sha256": "43e63ead793b9a528bad40cec480a725ca2bdc163d0f913f8a73b7d17aa986a3",
+      "last_commit": "35267e7524fbafe181c5636de4a8e4d2e4cc5b63"
+    },
+    {
+      "path": "PROME/GATES.tsv",
+      "sha256": "377add3adb8ae2d1b530f969b818a96ef03246d4640bd0ed0a10c65ab98c9a9f",
+      "last_commit": "71c197742c5c877c94930deb2990029bc5ec49d8"
+    },
+    {
+      "path": "PROME/HEARTBEAT_COLD.md",
+      "sha256": "5648192fb1487c586e89ffc77cab5ef55a5cb3b4f159aa638acc63eb90ec2a00",
+      "last_commit": "6eb4ed3235bc4bc8dcec7e145e31a3d47ef93253"
+    },
+    {
+      "path": "PROME/SCRATCH.md",
+      "sha256": "89fbd1f1df3db9dd199efb520ce58d23d5c753ebde8cbc0beeb8b00c00b3274d",
+      "last_commit": "5419756f66102b6fa5e103ab4a893a0d24e84c2a"
+    },
+    {
+      "path": "PROME/WILL_QUEUE.md",
+      "sha256": "3492764a0feb31ea38b89643b324616490d0c3d4b91dfdf0ef8d91d7f0865b03",
+      "last_commit": "493b376fbc87d36697cb3e25539b60c4c68d4873"
+    },
+    {
+      "path": "PROME/data/2026-10-23_broker-activity-TRANSCRIPTION.md",
+      "sha256": "e184e1bc3506e1f2436f650847518ad4900a3fb159bba435423292e9fd007689",
+      "last_commit": "0ef3f5b68d01b01b4cde3a7a05310d97e9e597b3"
+    },
+    {
+      "path": "PROME/reports/2026-10-26_night-boot-dashboard.txt",
+      "sha256": "b401770dce760e784b82ff79d4fe6b46260d901f71dd92d7905e01e380107ef6",
+      "last_commit": "5419756f66102b6fa5e103ab4a893a0d24e84c2a"
+    },
+    {
+      "path": "PROME/reports/2026-10-26_night-boot-gate.txt",
+      "sha256": "1796ab849300ce4c9152de4609a2612c4b2a2ff741e91dfe35b284e991c6debb",
+      "last_commit": "5419756f66102b6fa5e103ab4a893a0d24e84c2a"
+    },
+    {
+      "path": "PROME/reports/2026-10-26_resume-consumption.md",
+      "sha256": "3d420e0e0ec10589d07d4646b5c5473e597beb237e4b8f7d8dcb91c76c90dd06",
+      "last_commit": "b8e4fcb0c82355f2b4bf7028a2a6882e56579c87"
+    },
+    {
+      "path": "PROME/tools/measure.py",
+      "sha256": "7b642a43d89e74d81b2a713dc442b42fafdb375fb877409a976f21ff339e43d4",
+      "last_commit": "b14f7b6f72ee834366610bcb9c25b6202795d003"
+    },
+    {
+      "path": "USER.md",
+      "sha256": "cf1ccc03a1aec9ab27d5c8bdcb99555be7d976fe18cc53798dda3ccc18f70299",
+      "last_commit": "463c3e4570b54a22d24145196e6cb5d64fb19f90"
+    },
+    {
+      "path": "PROME/state/CALENDAR.md",
+      "sha256": "0f244a0ad4883c6300685379f88e6205382668a1a0d4cbbed4977034307b8f1e",
+      "last_commit": "35267e7524fbafe181c5636de4a8e4d2e4cc5b63"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-10-25_WQ515-prospective-selection-rule.md",
+      "sha256": "920d7943c632655942e7b65bf0ae5ef1c67658e72db126b0bad76cc4f5a953d9",
+      "last_commit": "2a9e9cb1768db1b19b6cf161bbd535359c57cb87"
+    }
+  ]
+}
