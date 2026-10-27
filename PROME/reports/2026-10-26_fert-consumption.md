@@ -15,3 +15,7 @@ Acceptance before edit: preserve all physical docket positions; change only L579
 Git: foreign CARL, ISHM and MIDAS paths observed dirty; no pull, stash or push attempted. Local commit only; remote sync remains pending.
 
 Validation: exact-field invariant PASS; docket physical-line stability PASS; generated calendar freshness PASS; whitespace check PASS. Declared residue: existing calendar budget advisory remains; docket row-cap mechanism is dormant. These checks do not establish independent review of this receipt.
+
+## Later October 26 verification — supersedes the estimated next date above
+
+FERT packet 89a3b7636 supplies the named USDA release calendar, matching historical forecast vintages and file-download schedule. PROME read the saved named calendar row and checked the historical midpoint cells; the release day is October 23 (11:00 am scheduled; actual upload clock UNKNOWN). PROME independently opened ERS product downloads: next update **November 24**, replacing November 25 EST. Input-cost causation remains NOT ESTABLISHED. Full receipt: `PROME/reports/2026-10-26_five-desk-review.md`.
