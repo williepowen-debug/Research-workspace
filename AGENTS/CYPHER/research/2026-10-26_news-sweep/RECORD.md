@@ -66,10 +66,10 @@ Warren's 10/23 letters to Fed and OCC/FDIC were read as primary PDF text through
 
 ## Continuity and delivery
 
-- Six actual delivered packets receive six board_log rows. Self-directed research still creates no invented BOARD IDs. Source filing waits for WALTER to commit its authored handoffs; receiver does not sweep its untracked files. WALTER receives sourced event/claim/correction fragments for its own dedupe/routing.
+- Six actual delivered packets receive six board_log rows. Self-directed research still creates no invented BOARD IDs. Source filing was held until WALTER committed its authored handoffs; integration ab1893453 preceded all six filing moves in 5b20570b4. Receiver did not sweep untracked sender files. WALTER receives sourced event/claim/correction fragments for its own dedupe/routing.
 - Existing Chrome post-rollout test and ConnectWise 10/27 14:00 UTC update retained. New Tailscale follow-up 10/28 checks release target after end 10/27 (vendor timezone unstated). Grouped financial/utility claim review 10/29 shares the already-registered wave check, avoiding a new daily cadence.
 - New Finzly row is within the existing approved chokepoint map, not a new framework or assertion of bank vulnerability. Roster, ownership, capital and prediction approvals unchanged.
-- STATUS updated; NEXUS brief folds after final STATUS commit. Source snapshots and manifest kept in this folder; direct fetch failures and web-only primary reads named. No research helpers spawned.
+- STATUS updated; NEXUS brief was refreshed in 5b20570b4 after the STATUS commit ab1893453. Subsequent documentation reconciliation re-pins it after the final STATUS commit. Source snapshots and manifest kept in this folder; direct fetch failures and web-only primary reads named. No research helpers spawned.
 - Pull/push remain deferred because other owners' work is dirty. Commits use only exact CYPHER paths and self-authored inbox packets.
 
 ## Deliveries received during the sweep
@@ -88,3 +88,11 @@ The source packets' BOARD dates are UTC October27; this receiver session/read da
 ## Verification / incoming persistence checkpoint
 
 Six incoming handoffs are now tracked; example source commit `f8c56e64b` for SIG-W-20261027-002. Receiver integration is committed before moving delivered sources to processed. Final boot remains rc 1 for adjudicated catalog/text-search candidates and dated catalysts, no failed leg; corrections/read-cap/weekday checks pass. All TSV widths and intended-key changes checked. Scores/thresholds unchanged, so no scalar consumer replacement scan needed; new supplier/case context is delivered by packet.
+
+## Will-directed documentation reconciliation — 2026-10-26 23:38 ET
+
+- Verified persisted inventory: 45 incidents, 61 KB claims, 33 chokepoints, nine watch rows and six filed WALTER deliveries. Existing recipient packets were already committed in 60b6b176e; filing/brief commit 5b20570b4. Notification acceptance remains distinct from recipient consumption.
+- Updated VX-01/-02/-04/-05/-06 with bounded sweep assessments and source pointers. Scores unchanged: unconfirmed bank/vendor/utility claims do not meet confirmation bands; Keystone device-auth-key theft does not establish deployed poisoned devices or signing-key theft; PHP retractions do not undo KEV membership. Raw/adjusted composite remains 22/40 and 16/40. Other rows retain their actual vintages.
+- Updated FLOW-14/-17 rationale, without changing any mechanism state. AI-assisted attack logs do not measure exploitation-speed change; the Chrome pre-release check does not complete the post-rollout breakage test. Twenty mechanisms remain 7 CONFIRMED, 7 NOT-OBSERVED, 2 MODELED and 4 UNTESTED.
+- Corrected the PAN catalyst's obsolete WF-500-affected/TBD description to the current not-affected table; retained the 10/30 remaining-branch check. Added Park24 issuer retrieval and MICSA identity/primary-source verification to the existing 10/29 review. ConnectWise and Chrome remain paired on 10/27; Tailscale check 10/28 and Keystone expected erasure check 11/03 retained.
+- No new research, score threshold, prediction, trade or approval created in this reconciliation. Validation checks TSV widths/keys, before/after changes and composite arithmetic; read-cap, corrections and brief-pin checks close the writeback. Pull/push still deferred under the dirty-owner stop.

@@ -1,6 +1,6 @@
 # CYPHER STATUS
 
-**Last Updated: 2026-10-26 23:18 ET — six new WALTER deliveries consumed during broad news sweep. Finzly payment-vendor claim and one community-bank claim remain unconfirmed; Tailscale SSH vendor release targeted end 10/27. Unit 42 and Sophos PHP victim claims corrected at primary; one Schwab tracker entity mapping marked FALSE. Incident ledger 45 rows; chokepoint map 33. No additional watch fire or score change: 1 FIRED, 8 NOT-FIRED; 22/40 raw, 16/40 adjusted. Evidence: `research/2026-10-26_news-sweep/RECORD.md`.**
+**Last Updated: 2026-10-26 23:38 ET — news sweep and workbook reconciliation complete. Six WALTER deliveries consumed; 45 incidents, 61 KB claims, 33 chokepoints. Finzly/community-bank claims remain unconfirmed; Tailscale release target conditional. VX and FLOW rationales reconciled; PAN catalyst corrected; Park24/MICSA follow-ups joined 10/29. No additional watch fire or score change: 1 FIRED, 8 NOT-FIRED; 22/40 raw, 16/40 adjusted. Evidence: `research/2026-10-26_news-sweep/RECORD.md`.**
 
 > ~~FIRST-LIVE-SESSION BANNER~~ — **SPENT 2026-10-22.** `FIRST_SESSION.md` items 1–8 done or carried as listed under § First-session record. Normal boot from here.
 
@@ -12,7 +12,7 @@
 |---|---|---|
 | Escalation rows, WAVE-2026-10 | **1 FIRED (row 2); 8 NOT-FIRED**. Row 4 manually re-checked 10/26; other dates remain in the ledger | `workbook/ESCALATION_WATCH.tsv` |
 | Convergence composite | **22/40 raw · 16/40 shared-root-adjusted** (PHP2Shell VX-02/03/06 cluster counts once at maximum 4); VX-CYP-06 ORANGE under its existing KEV band | `workbook/VX.tsv` |
-| Transmission map | 20 mechanisms: **7 CONFIRMED**, 7 NOT-OBSERVED, 2 MODELED, 4 UNTESTED; corrected inventory count, no FLOW-state changes | `workbook/FLOW.tsv` |
+| Transmission map | 20 mechanisms: **7 CONFIRMED**, 7 NOT-OBSERVED, 2 MODELED, 4 UNTESTED; 10/26 bounded FLOW-14/-17 review, no state changes | `workbook/FLOW.tsv` |
 | Incident ledger | 45 rows after 10/26 sweep: Tailscale/k0t/AI-ransomware evidence, qualified bank/vendor/utility claims and one FALSE entity mapping added (033–045). Finzly 037 remains REPORTED | `workbook/INCIDENTS.tsv` |
 | Predictions | **CYP-01** incidents escalate (8-K Item 1.05 ≥ 6 in Nov–Dec 2026) **30%**; **CYP-02** a named US bank / CU / core vendor compromised via a wave vector by 2027-01-31 **15%** (both Will's view, desk odds); **CYP-03** MSP-route bank/CU disclosure by 2026-12-31 **15%**; **CYP-04** new KEV CVE in MOVEit / GoAnywhere / Cleo / Kiteworks by 2027-04-30 **35%** (both from the chokepoint map, registered on Will's word 10/23 14:59 ET) | `workbook/PREDICTIONS.tsv` |
 | R1 two-way flip | Toward MOVEit: row 1 or 3 FIRES on or before 2026-11-20. Toward Log4Shell: rows 1, 3, 4 all NOT-FIRED at 11/20 with dated re-checks 11/13–11/20 | `workbook/EXIT_PROTOCOL.md` |
