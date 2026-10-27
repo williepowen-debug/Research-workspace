@@ -2,7 +2,7 @@
 
 **Status:** 🟠 Root-flaw exploitation trigger FIRED; named-bank/systemic consequence not established by this check.
 **Domain:** Cyber event evidence, classification and escalation; consequence owners retain all money judgments.
-**As of:** 2026-10-26 22:57 ET | STATUS commit: `f76f7ef9b5ecb735f89537d5406f3331c5a12d22`
+**As of:** 2026-10-26 23:30 ET | STATUS commit: `ab1893453736c051596507b43a6ba2197f4930d6`
 **POSITION:** N/A — declared no-book surface; no trade execution or new capital approval.
 
 ## CROSS-DOMAIN
@@ -18,6 +18,13 @@
 | VULCAN | Brotli CYB-INC-027 same CVE reaches Bun/Envoy/Python bindings; four primary advisories own-read, KEV v2026.10.26 absent | P2 | AI-found flaw/dependency trend, not extra independent incidents or a confirmed exploitation finding |
 | DAEDALUS / NEXUS / PROME / WALTER | Composite 22/40 raw, 16/40 adjusted replaces 21/40, 15/40; PHP cluster counted once at max 4 | P3 | Refresh live references; preserve dated as-made evidence. Full primary wave re-check remains due 10/29 |
 
+| WALTER / LIQUID / REGINALD / GIBBS / PROME | Finzly (037) REPORTED extortion claim; vendor role primary-verified. One separate US community-bank claim (036) unconfirmed; older Citi notice (040) indexed only, direct PDF blocked | P2 | Finzly common payment-supplier channel (new CHK-33); no confirmed rail/customer compromise or wave-vector link |
+| WALTER / VULCAN / PROME | Tailscale (033) vendor-confirmed conditional privilege escalation, release target end 10/27; k0t (034) credential campaign and SOCRadar (035) human-approved AI attack evidence | P2 | No arbitrary unauthenticated compromise, no 70,000-firm or 62-encrypted-victim inference |
+| PROME / SAM / OTTO | Park24 (043) JPY3,000/customer compensation via Reuters, original issuer notice unread, no population/aggregate; separate from GMO | P2 | Japan/car-sharing consequence, no common PHP root established |
+| PROME / WALTER | Keystone (044) CONFIRMED/ARTIFACT-VERIFIED issuer article: device-auth key and customer data taken; signing/private/recovery keys separate, no on-chain theft reported | P2 | Crypto trust-chain consequence NO-OWNER; destruction/erasure announced, not verified; expected erasure update 11/03 |
+| WALTER | FALSE Schwab entity mapping (041): Swiss timber-company Akira claim mis-mapped to schwab.com. Unit42 PHP CVE victim-link retracted; Sophos success claim corrected | P2 | Avoid laundering false financial-victim evidence; no broad Schwab or PHP all-clear |
+| VULCAN (source via WALTER 004) | Anthropic S-1 excerpt: >1-month preventive pre-training delay to harden weight security | P2 context | Actual prevention delay, not successful weight theft, capex cut or quantified revenue loss; CYPHER KB-059 |
+
 **WAITING FOR:**
 
 | From | Input | Expected by | Why it matters | How it changes my view |
@@ -31,10 +38,11 @@
 
 ## VIEW
 
-- CISA KEV moves the PHP root from ATTEMPTS-ONLY to confirmed exploitation. It does not supply a bank-victim census or a loss figure.
-- Registered score: 22/40 raw, 16/40 adjusted; VX-06 ORANGE. Other vectors retain actual previous vintages; this is not a full fresh victim survey.
-- ConnectWise still presents an open restoration and tenant-persistence channel. Bounded financial-institution search found no qualifying named consequence; reporting/indexing can lag.
-- Tuesday Chrome rollout remains a prospective availability test. GMO is a separate confirmed trading-cloud incident, with unknown total loss and no established link to either root.
+- CISA confirms PHP root exploitation; row 2 remains the only fired wave row, composite 22/40 raw and 16/40 adjusted. No newly established named wave-rooted bank compromise.
+- Finzly is the strongest newly mapped financial-supplier lead, but its breach/access-secret claim is unconfirmed; bank-customer and payment-rail harm are not established.
+- Tailscale adds a dated remote-access release check with authorization/configuration prerequisites. New edge and AI-ransomware reports describe real mechanisms with mixed stages and limited actor attribution.
+- Keystone reports device-authentication key theft, a future counterfeit-device risk distinct from wallet signing keys; crypto consequence has no standing owner. Park24 is separate Japan compensation context.
+- Primary source retractions, controlled honeypot scope and the false Schwab entity join constrain the damage narrative. Six late WALTER deliveries consumed; 38-profile card is one claim family, not 38 confirmed breaches.
 
 ## CALIBRATION
 
@@ -55,7 +63,9 @@
 | Date | Event | Threshold / Signal |
 |---|---|---|
 | 2026-10-27 | ConnectWise update; Chrome G3 root removal | Confirmed availability / attributable bank-payment-trading outage |
-| 2026-10-29 | Full wave re-check; DEWEY 008R | Named primary evidence and actual watch-state changes |
+| 2026-10-28 | Tailscale patched-client/advisory check | Actual release and configuration scope; target was end 10/27, timezone unspecified |
+| 2026-10-29 | Full wave re-check; DEWEY 008R; financial/utility claim review | Named primary evidence and actual watch-state changes |
+| 2026-11-03 | Keystone expected erasure update | Dated issuer completion/delay statement, not independent deletion/destruction proof |
 | 2026-10-30 | PAN-OS last patch ETA; GMO procedures | Fix availability/exploitation; replacement/payment terms |
 | 2026-11-04 | PHP disclosure +14-day analogue | Named victims / material filings |
 | 2026-11-06 | Kiteworks victim test; GMO claims procedure; Capcom re-check | Own dated catalyst instruments |
@@ -63,4 +73,4 @@
 | 2026-11-18 | Equity persistence | Consequence-owner grade |
 | 2026-11-20 | R1 flip | Named-compromise or in-window quiet-check conditions in EXIT_PROTOCOL |
 
-Evidence: `research/2026-10-26_startup/RECORD.md`. Startup pull/push deferred under dirty-owner stop. Native coordination notices accepted for PROME/VULCAN/WALTER; recipient consumption remains unverified.
+Evidence: `research/2026-10-26_news-sweep/RECORD.md` and `research/2026-10-26_startup/RECORD.md`. Startup pull/push deferred under dirty-owner stop. Native coordination notices accepted for PROME/VULCAN/WALTER; recipient consumption remains unverified.
