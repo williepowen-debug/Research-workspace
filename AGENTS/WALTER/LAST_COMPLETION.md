@@ -104,6 +104,11 @@ Startup recovery only; boot PARTIAL. No new dispatch or consumption. Routine pus
       "commit": "f6a43ddc229c73d2f9e8512d6e1138874879b5e2",
       "state": "published",
       "note": "Prior continuity commit verified against the updated origin ref; current startup commit pending creation/publication."
+    },
+    {
+      "commit": "640c71c86e530d3edd0b46b94bc2522bd9c371aa",
+      "state": "pending",
+      "note": "Current startup persistence, routine coordinated push deferred."
     }
   ],
   "delivery": {
