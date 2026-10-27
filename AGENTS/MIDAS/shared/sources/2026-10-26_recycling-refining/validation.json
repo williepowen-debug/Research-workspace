@@ -1,0 +1,21 @@
+{
+  "raw_capture_hashes": "PASS",
+  "captured_files": [
+    "sibanye_h1.html",
+    "umicore_h1.html",
+    "valterra_rns.html",
+    "silver_survey.pdf"
+  ],
+  "TSV_shape": "PASS",
+  "frozen_files": "PASS (calculate.py)",
+  "generated_views": "PASS",
+  "scope": "No numerical figure superseded; no consumer replacement scan required. Six KB entries, two completed research passes. No code/production/test edits.",
+  "missing_capabilities": "Certified gold settlement source remains unavailable; no CME reprobe. No new research dependency missing.",
+  "remaining_data_limits": [
+    "October global realized recycling not held",
+    "Comparable Pt/Pd recycling split and constant acquisition perimeter unavailable in selected processor reports",
+    "No matched audited Valterra inventory bridge or quantified permanent-loss share",
+    "No full South African producer census",
+    "Nornickel future-maintenance primary briefing still unheld"
+  ]
+}

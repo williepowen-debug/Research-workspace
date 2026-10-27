@@ -75,4 +75,6 @@ Put inseparable multi-metal work in [shared](../shared/README.md), once, and lin
 
 - [October 26 close snapshot](../shared/research/2026-10-26_close-snapshot.md) — latest completed fund prices, provisional named futures and existing band levels; no new scoring rule.
 
-- [Precious-metals research candidates](../shared/research/2026-10-26_precious-metals-research-gaps.md) — recycling supply and mine/refinery timing; recommendations, not adopted tasks.
+- [Precious-metals research candidates](../shared/research/2026-10-26_precious-metals-research-gaps.md) — recycling supply and mine/refinery timing; original recommendations, now executed in the reports below.
+
+- [October 26 recycling supply test](../shared/research/2026-10-26_recycling-supply-test.md) — source-model sensitivities and actual processor evidence; completed at Will's request.

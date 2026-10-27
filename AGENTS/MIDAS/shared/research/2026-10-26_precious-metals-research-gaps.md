@@ -1,5 +1,7 @@
 # Precious-metals research additions worth considering
 
+**Follow-through October 26: Will said “Okay lets do these two now”; both bounded passes are complete at [recycling](2026-10-26_recycling-supply-test.md) and [Valterra](2026-10-26_SA-refinery-pipeline.md). The recommendation below is preserved as the coverage audit before authorization.**
+
 **October 26, 2026, Will asked what is not already integrated.** This is a bounded coverage check and recommendation, not adoption of a new channel, monitor, forecast, threshold or research schedule. Existing prices, scoring and frozen letters remain unchanged.
 
 The core topics are already covered or explicitly recorded as gaps: rates/dollar, central-bank buying, investor quantities/positioning, silver physical availability and solar thrifting, China auto demand/substitution, Russian supply, fund/inventory/lease data and certified gold settlement. Recommending those again as new work would duplicate the register. The following two additions have better incremental value.
@@ -28,4 +30,4 @@ This complements Nornickel's catch-up production and keeps a refinery-maintenanc
 
 Prioritise one bounded recycling check, followed by the producer/refinery comparison. Options/dealer-positioning research is absent too, but reliable positioning inference and clean instrument identity would make it a more expensive first addition; no gamma level or options mechanism was accepted here. No standalone options assignment, peer task, new calendar obligation or paid source is created.
 
-Raw primary pages and retrieval hashes: `../sources/2026-10-26_coverage-gaps/`. Local coverage audit: THESIS/OPEN_ITEMS/TRADE plus canonical KB, catalog and current source registers; this is not a claim to have searched every historical raw PDF. Existing dated source gaps and scheduled work remain in their current homes. These recommendations await Will's choice; this document does not register an operator decision or ask for a ruling.
+Raw primary pages and retrieval hashes: `../sources/2026-10-26_coverage-gaps/`. Local coverage audit: THESIS/OPEN_ITEMS/TRADE plus canonical KB, catalog and current source registers; this is not a claim to have searched every historical raw PDF. Existing dated source gaps and scheduled work remain in their current homes. At the time of this audit the recommendations awaited Will's choice. His subsequent authorization and the completed results are linked above; no ruling is pending for these two passes.

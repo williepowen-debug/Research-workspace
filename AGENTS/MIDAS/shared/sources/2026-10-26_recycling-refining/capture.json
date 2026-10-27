@@ -1,0 +1,34 @@
+[
+  {
+    "file": "sibanye_h1.html",
+    "url": "https://www.sec.gov/Archives/edgar/data/1786909/000162828026059701/form6-kh137.htm",
+    "status": 200,
+    "retrieved_utc": "2026-10-27T03:37:50.804268+00:00",
+    "bytes": 4006088,
+    "sha256": "df435bc686c4b0d2a71565d2084401e6b5128e9d49281c0e863831be74dbaea2"
+  },
+  {
+    "file": "umicore_h1.html",
+    "url": "https://www.umicore.de/en/media/half-year-results-2026/",
+    "status": 200,
+    "retrieved_utc": "2026-10-27T03:37:53.114686+00:00",
+    "bytes": 162677,
+    "sha256": "7b1b767eaa899da04901bb2847e75cdc17c250e20f0e579e95e308fd631ffe23"
+  },
+  {
+    "file": "valterra_rns.html",
+    "url": "https://www.investegate.co.uk/announcement/rns/valterra-platinum-limited--valt/third-quarter-production-report/9837887",
+    "status": 200,
+    "retrieved_utc": "2026-10-27T03:37:54.159294+00:00",
+    "bytes": 237292,
+    "sha256": "5568c4660950b7b829fbe0356214c23442f5ef65b0b9ad317bfddd1fabd515b8"
+  },
+  {
+    "file": "silver_survey.pdf",
+    "url": "https://silverinstitute.org/wp-content/uploads/2026/04/World-Silver-Survey-2026.pdf",
+    "status": 200,
+    "retrieved_utc": "2026-10-27T03:37:55.024552+00:00",
+    "bytes": 15262541,
+    "sha256": "dc7a35277822a20498319fc6737f17b9e8f8fa93e5ce49b6a6565967ae220383"
+  }
+]

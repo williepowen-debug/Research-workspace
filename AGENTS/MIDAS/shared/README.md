@@ -61,3 +61,7 @@ Operations, implementation and preserved historical archives are classified sepa
 - [October 26 close snapshot](research/2026-10-26_close-snapshot.md) — requested prices/holdings/rates and first platinum red crossing; [raw evidence](sources/2026-10-26_close/).
 
 - [Precious-metals research candidates](research/2026-10-26_precious-metals-research-gaps.md) — bounded coverage check, primary pointers and proposed next questions.
+
+- [October 26 recycling supply test](research/2026-10-26_recycling-supply-test.md) — source-model sensitivities and actual processor evidence; completed at Will's request.
+
+- [Valterra mine/refinery comparison](research/2026-10-26_SA-refinery-pipeline.md) — mine output, refinery timing, inventory draw and Q4 requirements versus Nornickel.

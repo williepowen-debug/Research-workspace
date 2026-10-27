@@ -1,0 +1,1341 @@
+Third Quarter Production Report | Company Announcement | Investegate
+Welcome
+Articles
+About
+Contact Us
+Help
+Home
+Companies
+Advanced search
+Archive
+Meetings
+UK Newswire
+New
+Login
+Register
+Third Quarter Production Report
+Summary by AI
+BETA
+Close X
+Valterra Platinum Limited reported a decrease in total PGM production for the third quarter ending September 30, 2026, with metal-in-concentrate down 6% to 804,300 ounces, primarily due to safety stoppages impacting own-mined volumes and lower purchase of concentrate volumes. Refined PGM production saw a significant 41% decrease to 576,900 ounces due to the re-phasing of processing maintenance and stock counts. Despite these challenges, the company maintained its 2026 production guidance of 3.0-3.4 million ounces and noted that cash operating unit costs are expected to be at the upper end of the R19,000-R20,000 per PGM ounce range. The company also highlighted the conclusion of two new purchase of concentrate agreements with Tharisa plc, enhancing margins and processing infrastructure utilization. Safety remains a priority, with efforts to strengthen leadership and controls following a fatality in July.
+Disclaimer*
+Valterra Platinum Limited
+23 October 2026
+Valterra Platinum Limited
+(Incorporated in the Republic of South Africa)
+(Registration number: 1946/022452/06)
+JSE Share Code: VAL
+LSE Share Code: VALT
+JSE Debt Issuer Code: VALI
+ISIN: ZAE000013181
+Tax number: 9575104717
+("The Company" or "Valterra Platinum")
+23 October 2026
+PRODUCTION REPORT FOR THE THIRD QUARTER ENDING 30 SEPTEMBER 2026
+Craig Miller, CEO of Valterra Platinum, said:
+"Ensuring that our employees return home safely every day is our highest priority. The tragic loss of our colleague, Ms. Olwethu Kutta, at the Amandelbult Tumela Mine in July is unacceptable, and our thoughts are with her family, friends, and colleagues. We remain unwavering in our commitment to preventing a recurrence and have launched an immediate call to action to strengthen safety leadership and controls across the business, supported by an independent review from industry-leading safety specialists. The findings and recommendations from these processes are being implemented across our operations as we continue to strengthen our safety culture and pursue our goal of zero harm.
+"Own-mined M&C production was lower during the quarter, primarily reflecting company-wide safety stoppages undertaken following the fatalities in the first half of the year, to reinforce safety leadership and critical controls across the business. A strong performance at Mototolo partially offset the lower production. Refined production reflected the planned re-phasing of processing maintenance and annual stock counts into the third quarter, supporting a more balanced distribution of refined production across the year.
+"We achieved another important strategic milestone during the quarter through the conclusion of two new purchase of concentrate agreements with Tharisa plc. These agreements further enhance the margins generated from our third-party processing portfolio while supporting utilisation of our processing infrastructure, reinforcing the value and competitive advantage of our integrated processing platform.
+"Looking ahead, production remains on track to be delivered within our 2026 guidance range, and we remain focused on operating safely, executing with discipline and delivering sustainable value for all our stakeholders."
+Resilient performance amid safety and operational headwinds
+•
+Safety performance
+- One work-related fatality at Amandelbult in July. The total recordable injury frequency rate (TRIFR) at 1.45 per million hours at own operations improved by 5% compared to the prior period.
+•
+Total PGM production
+(expressed as 5E+Au metal-in-concentrate (M&C)) decreased by 6% to 804,300 ounces, driven by lower own-mined volumes and by weaker purchase of concentrate (POC) volumes.
+•
+Own-mined PGM production
+decreased by 5% to 511,900 ounces, primarily driven by the impact of safety stoppages, at Amandelbult. A strong performance at Mototolo partially offset the lower production at Mogalakwena and Unki.
+•
+Purchase of PGM concentrate (POC)
+decreased by 7% to 292,400 ounces, reflecting reduced volumes from various third-party producers.
+•
+Refined PGM production (excluding tolling)
+decreased by 41% to 576,900 ounces, primarily due to the re-phasing of scheduled processing maintenance and annual stock counts from the first to the third quarter. Year-to-date refined production for the nine months ended September 2026 remained broadly in line with the prior year.
+•
+PGM sales volumes
+decreased by 27% to 683,300 ounces, driven by lower refined production, partially offset by a drawdown of refined inventory. Year-to-date sales volumes for the nine months ended September 2026 remained in line with the prior year, this period normalizes for the change in timing of the processing maintenance.
+•
+Guidance for 2026 remains unchanged
+, with M&C and refined production expected to be between 3.0-3.4 million ounces. Cash operating unit costs are expected
+to be at or around the upper end of the guided range of R19,000-R20,000 per PGM ounce
+, driven by inflationary pressures on key consumables, including fuel, drill steel, chemicals and certain explosives, associated with the ongoing Middle East conflict, coupled with the impact of the safety-related stoppages on production volumes. Mitigation initiatives remain in place through operational efficiencies, disciplined cost management and procurement interventions. The targeted all-in sustaining cost (AISC) remains at approximately US$1,050 per 3E ounce.
+REVIEW OF THE QUARTER
+Q3 2026
+Q3 2026
+YTD 2026
+Valterra Platinum
+Q3
+Q2
+Q1
+Q4
+Q3
+vs
+vs
+YTD
+YTD
+vs
+PGM Production Report - Q3 2026
+2026
+2026
+2026
+2025
+2025
+Q3 2025
+Q2 2026
+2026
+2025
+YTD 2025
+M&C PGM production
+(1)
+804.3
+775.4
+743.5
+880.2
+855.1
+(6) %
+4 %
+2,323.2
+2,320.4
+-    %
+Own-mined volume
+(2)
+511.9
+525.7
+486.2
+594.6
+539.6
+(5) %
+(3) %
+1,523.7
+1,465.7
+4 %
+Purchase of concentrate
+(3)
+292.4
+249.7
+257.3
+285.6
+315.5
+(7) %
+17 %
+799.5
+854.7
+(6)%
+Refined PGM production
+576.9
+963.5
+778.5
+1,039.4
+981.5
+(41)%
+(40)%
+2,318.8
+2,372.6
+(2)%
+Base metals (tonnes)
+(4)
+7,119
+10,634
+9,725
+11,511
+10,427
+(32)%
+(33)%
+27,478
+27,623
+(1) %
+Dry chrome produced (kt)
+277
+279
+269
+283
+258
+7 %
+(1) %
+825
+587
+41 %
+PGM sales volumes
+(5)
+683.3
+945.6
+791.4
+1,042.1
+936.8
+(27)%
+(28)%
+2,420.3
+2,412.1
+-    %
+Dry chrome sales volumes (kt)
+(6)
+260
+346
+207
+242
+258
+1 %
+(25)%
+814
+572
+42%
+Numbers are independently rounded and minor variances might be present when performing additions, subtractions and calculations.
+1
+M&C refers to metal in concentrate. Ounces refer to troy ounces. PGMs consists of 5E + gold (platinum, palladium, rhodium, ruthenium and iridium plus gold)
+2
+PGM production from Mogalakwena, Amandelbult, Mototolo, Unki and 50% attributable production from joint operation Modikwa
+3
+PGM production from third parties and 50% purchased from joint operation Modikwa
+4
+Base metals consists of Nickel and Copper
+5
+Refined and sales volumes owned by Valterra Platinum referencing its annual guidance i.e. excluding toll refining volumes
+6
+Dry chrome sales refers to 40.5% UG2 chrome concentrate.
+Overview - Q3 2026 performance vs prior period Q3 2025
+Safety performance
+Regrettably, we experienced a fatal incident at our Amandelbult Tumela Mine in July 2026.
+Ms. Olwethu Kutta
+, lost her life in a fall-of-ground incident while conducting a planned workover inspection. In response, we implemented a company-wide call to action to strengthen critical safety controls, reinforce frontline risk management and enhance leadership engagement and verification across our operations. We remain resolute in our commitment to learning from incidents to prevent recurrence and have engaged leading external safety specialists to review our safety practices. While the loss of life remains our overriding concern, broader safety indicators improved during the quarter, with the total recordable injury frequency rate (TRIFR) at own operations decreasing by 5% to 1.45 per million hours worked.
+Total M&C PGM production
+Total PGM production in Q3 2026 decreased by 6% to 804,300 ounces compared to the prior period, primarily driven by a 5% decrease in own-mined production and by a 7% decrease in POC volumes.
+PGM production from own mines
+Own-mined production decreased by 5% to 511,900 ounces compared to the prior period, mainly due to lower output from Amandelbult, Mogalakwena and Unki, partially offset by higher production at Mototolo.
+•
+Mogalakwena's PGM production decreased by 4% to 217,600 ounces, primarily reflecting lower milling throughput following the expiry of the Baobab concentrator lease at the end of 2025, consistent with the planned milling profile for 2026. Ore tonnes increased in line with the pit sequence, which also supported an improved head grade, while recovery was impacted by the processing of a different ore blend compared to the prior period.  Consistent with our value-over-volume approach, we continued to optimise feed grades through the strategic blending of low-grade ore stockpiles.
+•
+Amandelbult PGM production decreased by 10% to 137,900 ounces, reflecting the impact of Section 54 regulatory and self-imposed safety stoppages across the mine, following the fatal incident at Tumela mine. Operational performance recovered progressively during the latter part of the quarter as compliance measures were implemented and operations resumed. By quarter-end, the operation had returned to steady state production, supporting an expected step-up in output in the fourth quarter.
+•
+Mototolo's PGM production increased by 7% to 70,800 ounces, reflecting strong performance from the Borwa shaft and the continued ramp-up of the Der Brochen shaft. The increase was further supported by higher milling throughput and an improved head grade.
+•
+Unki's PGM production declined by 12% to 50,600 ounces, primarily due to lower head grades as mining progressed into planned lower-grade areas of the orebody with higher internal waste dilution, together with lower milling throughput associated with planned plant maintenance.
+•
+Modikwa PGM production (50% own-mined) decreased by 5% to 35,000 ounces, driven by lower concentrator recoveries, reduced head grades and marginally lower milling volumes. Recoveries were impacted by the treatment of weathered open-pit ore, while operational disruptions affected grades and throughput during the quarter.
+Purchases of PGM concentrate
+Purchase of concentrate volumes decreased by 7% to 292,400 ounces, reflecting reduced volumes from various third-party producers, as well as lower production at Modikwa.
+Refined PGM production
+Refined PGM production (excluding tolling) decreased by 41% to 576,900 ounces, reflecting the re-phasing of the processing maintenance and stock counts from the first to the third quarter of the year. As a result, year-to-date refined production for the nine months ended September 2026 remained broadly in line with the prior year, with both periods reflecting the impact of planned maintenance and stock count activities. Processing operations were fully ramped up by the end of August, with refined production returning to unconstrained run rates during September.
+Base metal and chrome production
+Nickel production decreased by 39% to 3,825 tonnes and copper production decreased by 22% to 3,294 tonnes, driven by
+the re-phasing of
+scheduled processing maintenance and stock counts
+to the third quarter of the year.
+Total dry 40.5% UG2 chrome concentrate production for the quarter increased by 7% to 277,000 tonnes, mainly due to the restoration of Amandelbult to stable production levels and improved chrome yields, partially offset by lower chrome production at Mototolo.
+PGM sales volumes and realised basket price
+PGM sales volumes decreased by 27% to 683,300 ounces, driven by lower refined production during the quarter, partially offset by a drawdown of refined inventory. Year-to-date sales volumes for the nine months ended September 2026 remained in line with the prior year
+, this period normalizes for the change in timing of the processing maintenance.
+The average realised basket price was R38,815/PGM ounce, or US$2,383/PGM ounce, representing year-on-year increases of 15% in rand terms and 24% in dollar terms. Although major PGM prices moderated quarter-on-quarter amid weaker automotive sales and broader macroeconomic concerns, they remained well above prior-year levels. Minor PGMs, particularly iridium and ruthenium, continued to outperform, supported by robust demand from emerging technology applications.
+Guidance for 2026
+Guidance for 2026 remains unchanged, with M&C and refined production expected to be between 3.0-3.4 million ounces. Cash operating unit costs are expected to be at or around the upper end of the guided range of R19,000-R20,000 per PGM ounce, assuming current macroeconomic and commodity market conditions persist for the remainder of the year. Cost pressures are primarily related to key consumables, including fuel, drill steel, chemicals and certain explosives, associated with the ongoing Middle East conflict, together with the impact of safety-related stoppages on production volumes. Mitigation initiatives remain in place through operational efficiencies, disciplined cost management and procurement interventions. The targeted all-in sustaining cost (AISC) remains at approximately US$1,050 per 3E ounce.
+Q3 2026
+Q3 2026
+YTD 2026
+Valterra Platinum
+Q3
+Q2
+Q1
+Q4
+Q3
+vs
+vs
+YTD
+YTD
+vs
+PGM Production Report - Q3 2026
+2026
+2026
+2026
+2025
+2025
+Q3 2025
+Q2 2026
+2026
+2025
+YTD 2025
+Safety
+Fatalities - own managed operations
+number
+1
+2
+1
+0
+1
+-   %
+(50) %
+4
+2
+100  %
+Total recordable case frequency rate (TRCFR)
+/million hrs
+1.45
+1.41
+1.91
+1.42
+1.53
+(5)%
+3   %
+1.58
+1.52
+4  %
+Mined production
+PGM ounces produced
+(1)
+000 ounces
+511.9
+525.7
+486.2
+594.6
+539.6
+(5)%
+(3) %
+1,523.7
+1,465.7
+4 %
+Platinum
+000 ounces
+231.7
+240.9
+221.2
+271.2
+246.4
+(6)%
+(4) %
+693.9
+660.5
+5  %
+Palladium
+000 ounces
+185.4
+188.7
+176.3
+214.0
+192.7
+(4)%
+(2)    %
+550.4
+546.3
+1  %
+Rhodium
+000 ounces
+29.0
+29.6
+26.6
+33.4
+30.8
+(6)%
+(2)    %
+85.4
+77.6
+10 %
+Other PGMs
+000 ounces
+65.8
+66.5
+62.1
+76.0
+69.7
+(6)%
+(1)    %
+194.0
+181.3
+7  %
+Tonnes milled
+000 tonnes
+6,130
+6,019
+5,857
+6,563
+6,331
+(3)%
+2   %
+18,005
+17,852
+1  %
+4E head grade
+(2)
+g/t
+2.99
+3.04
+2.95
+3.14
+3.02
+(1)%
+(2)    %
+3.00
+2.94
+2  %
+Mogalakwena
+PGM ounces produced
+(1)
+000 ounces
+217.6
+228.9
+212.3
+260.8
+225.7
+(4)%
+(5)    %
+658.8
+687.0
+(4) %
+Platinum
+000 ounces
+91.8
+98.8
+90.0
+110.2
+96.3
+(5)%
+(7)    %
+280.6
+291.1
+(4) %
+Palladium
+000 ounces
+100.6
+104.4
+97.6
+121.0
+103.1
+(2)%
+(4)    %
+302.6
+316.5
+(4) %
+Rhodium
+000 ounces
+6.0
+6.2
+5.6
+7.0
+6.2
+(3)%
+(3)    %
+17.9
+19.0
+(6) %
+Other PGMs
+000 ounces
+19.2
+19.5
+19.1
+22.6
+20.1
+(4)%
+(2)    %
+57.7
+60.4
+(4) %
+Tonnes milled
+000 tonnes
+3,555
+3,454
+3,439
+3,753
+3,623
+(2)%
+3   %
+10,449
+10,905
+(4) %
+4E head grade
+(2)
+g/t
+2.48
+2.56
+2.42
+2.71
+2.45
+1   %
+(3)    %
+2.48
+2.47
+-    %
+Amandelbult
+PGM ounces produced
+(1)
+000 ounces
+137.9
+151.3
+122.8
+174.5
+153.1
+(10)%
+(9) %
+412.1
+309.1
+33 %
+Platinum
+000 ounces
+68.7
+76.0
+61.7
+87.5
+76.9
+(11)%
+(10) %
+206.5
+156.1
+32 %
+Palladium
+000 ounces
+32.9
+35.3
+28.7
+40.5
+35.8
+(8)%
+(7) %
+96.8
+72.1
+34 %
+Rhodium
+000 ounces
+12.7
+13.9
+11.2
+16.1
+14.2
+(11)%
+(9) %
+37.9
+28.2
+34 %
+Other PGMs
+000 ounces
+23.6
+26.1
+21.2
+30.4
+26.2
+(10)%
+(10)%
+70.9
+52.7
+35 %
+Tonnes milled
+000 tonnes
+947
+1,032
+855
+1,170
+1,085
+(13)%
+(8)%
+2,833
+2,222
+27 %
+4E head grade
+(2)
+g/t
+4.47
+4.43
+4.45
+4.37
+4.41
+1 %
+1%
+4.45
+4.33
+3   %
+Mototolo
+PGM ounces produced
+(1)
+000 ounces
+70.8
+58.7
+68.2
+71.0
+66.2
+7   %
+21%
+197.6
+199.8
+(1)    %
+Platinum
+000 ounces
+32.7
+27.3
+31.9
+32.8
+30.6
+7   %
+20%
+91.9
+92.4
+(1)    %
+Palladium
+000 ounces
+20.3
+16.6
+19.4
+20.1
+18.9
+7   %
+22%
+56.4
+57.0
+(1)    %
+Rhodium
+000 ounces
+5.7
+4.7
+5.5
+5.7
+5.4
+6   %
+21%
+15.9
+16.2
+(2)    %
+Other PGMs
+000 ounces
+12.1
+10.1
+11.4
+12.4
+11.3
+7   %
+20%
+33.4
+34.2
+(2)    %
+Tonnes milled
+000 tonnes
+687
+610
+651
+683
+646
+6   %
+13%
+1,948
+1,880
+4   %
+4E head grade
+(2)
+g/t
+3.26
+3.04
+3.25
+3.19
+3.22
+1   %
+7 %
+3.19
+3.29
+(3)    %
+Unki
+PGM ounces produced
+(1)
+000 ounces
+50.6
+51.8
+51.7
+54.7
+57.5
+(12)%
+(2)    %
+154.0
+165.0
+(7)    %
+Platinum
+000 ounces
+23.4
+23.9
+24.0
+25.6
+26.6
+(12)%
+(2)    %
+71.3
+75.9
+(6)    %
+Palladium
+000 ounces
+19.2
+19.7
+19.5
+20.7
+21.7
+(12)%
+(3)    %
+58.4
+62.9
+(7)    %
+Rhodium
+000 ounces
+2.2
+2.3
+2.2
+2.4
+2.5
+(12)%
+(4)    %
+6.7
+7.0
+(4)    %
+Other PGMs
+000 ounces
+5.8
+5.9
+6.0
+6.0
+6.7
+(13)%
+(2)    %
+17.6
+19.2
+(8)    %
+Tonnes milled
+000 tonnes
+619
+622
+641
+627
+653
+(5)%
+-    %
+1,881
+1,932
+(3)    %
+4E head grade
+(2)
+g/t
+2.98
+3.03
+3.08
+3.21
+3.28
+(9)%
+(2)    %
+3.03
+3.22
+(6)    %
+Modikwa joint operation (VP share)
+(3)
+PGM ounces produced
+(1)
+000 ounces
+35.0
+35.0
+31.2
+33.6
+37.0
+(5)%
+-  %
+101.2
+104.8
+(3)    %
+Platinum
+000 ounces
+15.1
+14.9
+13.6
+15.1
+15.9
+(5)%
+1 %
+43.6
+44.9
+(3)    %
+Palladium
+000 ounces
+12.4
+12.7
+11.1
+11.7
+13.3
+(7)%
+(2) %
+36.2
+37.8
+(4)    %
+Rhodium
+000 ounces
+2.4
+2.5
+2.1
+2.2
+2.6
+(8)%
+(4) %
+7.0
+7.3
+(4)    %
+Other PGMs
+000 ounces
+5.1
+4.9
+4.4
+4.6
+5.2
+(2)%
+4%
+14.4
+14.8
+(3)    %
+Tonnes milled
+000 tonnes
+321
+301
+271
+330
+324
+(1)%
+7 %
+894
+913
+(2)    %
+4E head grade
+(2)
+g/t
+3.74
+3.90
+3.89
+3.50
+3.81
+(2)%
+(4)%
+3.84
+3.86
+(1)    %
+Purchase of concentrate (POC)
+PGM ounces produced
+(1)
+000 ounces
+292.4
+249.7
+257.3
+285.6
+315.5
+(7)%
+17 %
+799.5
+854.7
+(6)    %
+Platinum
+000 ounces
+130.6
+110.1
+117.8
+129.4
+139.4
+(6)%
+19 %
+358.5
+379.4
+(6)    %
+Palladium
+000 ounces
+60.8
+53.5
+54.8
+60.3
+67.3
+(10)%
+14 %
+169.1
+187.4
+(10)   %
+Rhodium
+000 ounces
+17.9
+14.6
+15.4
+16.8
+19.1
+(6)%
+23 %
+47.9
+51.2
+(6)    %
+Other PGMs
+000 ounces
+83.1
+71.5
+69.3
+79.1
+89.7
+(7)%
+16 %
+224.0
+236.7
+(5)    %
+Q3 2026
+Q3 2026
+YTD 2026
+Valterra Platinum
+Q3
+Q2
+Q1
+Q4
+Q3
+vs
+vs
+YTD
+YTD
+vs
+PGM Production Report - Q3 2026
+2026
+2026
+2026
+2025
+2025
+Q3 2025
+Q2 2026
+2026
+2025
+YTD 2025
+Refined production owned
+PGM ounces refined
+000 ounces
+576.9
+963.5
+778.5
+1,039.4
+981.5
+(41)%
+(40)%
+2,318.8
+2,372.6
+(2)  %
+Platinum
+000 ounces
+259.2
+486.9
+354.7
+490.6
+440.3
+(41)%
+(47)%
+1,100.8
+1,065.4
+3  %
+Palladium
+000 ounces
+187.7
+285.1
+234.0
+326.7
+310.4
+(40)%
+(34)%
+706.7
+738.6
+(4) %
+Rhodium
+000 ounces
+31.5
+57.6
+41.5
+63.2
+61.6
+(49)%
+(45)%
+130.6
+144.9
+(10)%
+Other PGMs
+000 ounces
+98.5
+133.9
+148.3
+158.9
+169.2
+(42)%
+(26)%
+380.7
+423.7
+(10)%
+Nickel
+tonnes
+3,825
+6,425
+5,880
+7,098
+6,226
+(39)%
+(40)%
+16,129
+16,795
+(4) %
+Copper
+tonnes
+3,294
+4,209
+3,845
+4,413
+4,201
+(22)%
+(22)%
+11,348
+10,828
+5 %
+UG2 chrome concentrate
+(4)
+000 tonnes
+277
+279
+269
+283
+258
+7  %
+(1) %
+825
+587
+41 %
+Toll refining
+PGM ounces refined
+000 ounces
+209.2
+189.8
+226.4
+257.3
+215.7
+(3) %
+10 %
+625.4
+617.9
+1 %
+Platinum
+000 ounces
+122.3
+113.2
+132.4
+152.5
+128.4
+(5) %
+8  %
+367.8
+367.3
+-  %
+Palladium
+000 ounces
+65.3
+58.8
+68.4
+80.2
+67.4
+(3) %
+11 %
+192.4
+191.6
+-  %
+Rhodium
+000 ounces
+19.5
+15.8
+23.2
+21.8
+17.3
+13 %
+23 %
+58.5
+51.4
+14 %
+Gold
+000 ounces
+2.1
+2.0
+2.4
+2.8
+2.5
+(16)%
+5 %
+6.7
+7.6
+(12)%
+Sales volume from production
+PGM ounces
+000 ounces
+683.3
+945.6
+791.4
+1,042.1
+936.8
+(27)%
+(28)%
+2,420.3
+2,412.1
+-  %
+Platinum
+000 ounces
+295.1
+453.2
+365.8
+516.8
+411.7
+(28)%
+(35)%
+1,114.1
+1,035.0
+8 %
+Palladium
+000 ounces
+214.7
+278.5
+236.0
+309.5
+297.9
+(28)%
+(23)%
+729.2
+737.0
+(1) %
+Rhodium
+000 ounces
+34.1
+50.0
+44.3
+63.9
+56.8
+(40)%
+(32)%
+128.4
+140.2
+(8) %
+Other PGMs
+000 ounces
+139.4
+163.9
+145.3
+151.9
+170.4
+(18)%
+(15)%
+448.6
+499.9
+(10)%
+UG2 chrome concentrate
+(4)
+000 tonnes
+260
+346
+207
+242
+258
+1 %
+(25)%
+814
+572
+42 %
+Realised metal, FX and basket prices
+Platinum
+(US$/oz)
+1,726
+1,966
+2,249
+1,683
+1,392
+24 %
+(12) %
+1,996
+1,165
+71 %
+Palladium
+(US$/oz)
+1,315
+1,452
+1,695
+1,388
+1,157
+14 %
+(9) %
+1,490
+1,055
+41 %
+Rhodium
+(US$/oz)
+8,438
+10,014
+9,788
+7,831
+6,125
+38 %
+(16) %
+9,518
+5,519
+72 %
+Iridium
+(US$/oz)
+7,720
+7,139
+6,459
+4,484
+4,287
+80 %
+8 %
+7,070
+4,101
+72 %
+Ruthenium
+(US$/oz)
+1,583
+1,479
+1,437
+904
+799
+98 %
+7 %
+1,500
+626
+140%
+Gold
+(US$/oz)
+4,239
+4,429
+4,947
+4,212
+3,528
+20 %
+(4) %
+4,581
+3,225
+42 %
+Chrome
+(5)
+(US$/t)
+255
+260
+270
+252
+280
+(9) %
+(2) %
+261
+257
+2  %
+Average FX achieved on sales
+ZAR/US$
+16.27
+16.51
+16.35
+17.13
+17.64
+(8) %
+(1) %
+16.39
+18.12
+(10)%
+US$ realised basket price
+(/PGM oz)
+2,383
+2,710
+2,911
+2,269
+1,916
+24 %
+(12)%
+2,683
+1,672
+60 %
+ZAR realised basket price
+(/PGM oz)
+38,815
+44,708
+47,529
+38,723
+33,654
+15 %
+(13)%
+43,967
+29,970
+47 %
+Numbers are independently rounded and minor variances might be present when performing additions, subtractions and calculations.
+¹   M&C refers to metal in concentrate. Ounces refer to troy ounces. PGMs consists of 5E + gold (platinum, palladium, rhodium, ruthenium and iridium plus gold)
+²   4E: the grade measured as the combined content of: platinum, palladium, rhodium and gold, excludes tolled material. Minor metals are excluded due to variability
+³   Modikwa is a 50% joint operation. The 50% equity share of production is presented under 'Own mined' production. Valterra Platinum purchases the remaining 50% of production, which is presented under 'Purchase of concentrate'
+4
+UG2 Chrome concentrate refers to 40.5% UG2 chrome concentrate in dry tonnes
+5
+Realised 40.5% UG2 chrome concentrate price which reflects a weighted average of various incoterm sales
+The information contained in this announcement has not been audited by the Company's auditors
+JSE equity sponsor:
+Merrill Lynch South Africa (Pty) Ltd t/a BofA Securities
+JSE debt sponsor:
+The Standard Bank of South Africa Limited
+For further information, please contact:
+Company Secretary:
+Fiona Edmundson
+fiona.edmundson@valterraplatinum.com
+Investors:
+Leroy Mnguni
+leroy.mnguni@valterraplatinum.com
+Marcela Grochowina
+marcela.grochowina@valterraplatinum.com
+Media:
+Cindy Maneveld
+cindy.maneveld@valterraplatinum.com
+ABOUT VALTERRA PLATINUM
+Valterra Platinum is one of the world's leading integrated producers of platinum group metals (PGMs) with a primary listing on the Johannesburg Stock Exchange and a secondary listing on the London Stock Exchange. We operate world class, long-life mines and the industry's most efficient processing assets, responsibly mining, smelting, and refining PGMs and associated co-products from operations located in South Africa and Zimbabwe. With integrated marketing hubs in London, Singapore and Shanghai, we deliver tailored solutions for our customers. We continue to integrate sustainability into everything we do, invest in our mining and processing capabilities and advance market development initiatives to grow and commercialise new demand segments. We make a meaningful impact in the communities where we operate and remain committed to delivering consistent and superior returns to shareholders. Guided by our purpose of unearthing value to better our world, we are committed to zero harm, disciplined capital allocation and delivery on our value-accretive strategic priorities.
+This information is provided by RNS, the news service of the London Stock Exchange. RNS is approved by the Financial Conduct Authority to act as a Primary Information Provider in the United Kingdom. Terms and conditions relating to the use and distribution of this information may apply. For further information, please contact
+rns@lseg.com
+or visit
+www.rns.com
+.
+RNS may use your IP address to confirm compliance with the terms and conditions, to analyse how you engage with the information contained in this communication, and to share such analysis on an anonymised basis with others as part of our commercial services. For further information about how RNS and the London Stock Exchange use the personal data you provide us, please see our
+Privacy Policy
+.
+END
+AI Summary Disclaimer BETA
+×
+The content you are viewing has been generated or assisted by artificial intelligence (AI). While efforts are made to ensure accuracy and clarity, AI-generated text may contain inaccuracies, outdated information, or subjective interpretations. This content is intended for general informational purposes only and should not be considered professional advice or factual confirmation.
+We encourage you to independently verify any information provided, especially if it will be relied upon for making decisions or taking action. Any reliance you place on this material is strictly at your own risk. The AI system that produced this content cannot assess the specifics of individual circumstances, and results may vary based on context and individual needs.
+Companies
+Valterra Platinum Limited (VALT)
+UK 100
+FTSE quotes
+by TradingView
+▶
+🔊
+Latest directors dealings
+9 hours ago
+Colefax Group
+10 hours ago
+Hays
+10 hours ago
+Aberdeen Group plc
+11 hours ago
+Tapir Holdings Ltd
+11 hours ago
+Bunzl
+All directors dealings today
+All intraday prices are subject to a delay of fifteen (15) minutes.
+Investegate takes no responsibility for the accuracy of the information within this site.
+The announcements are supplied by the denoted source. Queries about the content of an announcement should be directed to the source. Investegate reserves the right to publish a filtered set of announcements. NAV, EMM/EPT, Rule 8 and FRN Variable Rate Fix announcements are filtered from this site.
+© 2026 Investor Meet Company Ltd
+Privacy and Cookie Policy
+Terms
+Acceptable Use Policy
+Investors
+Advertise with Us
+Our other sites
+Investor Meet Company
+Bookbuild
+This website is for Private Investors*
+I am a Private Investor
+*A
+Private Investor
+is a recipient of the information who meets all of the conditions set out below, the recipient:
+Obtains access to the information in a personal capacity;
+Is not required to be regulated or supervised by a body concerned with the regulation or supervision of investment or financial services;
+Is not currently registered or qualified as a professional securities trader or investment adviser with any national or state exchange, regulatory authority, professional association or recognised professional body;
+Does not currently act in any capacity as an investment adviser, whether or not they have at some time been qualified to do so;
+Uses the information solely in relation to the management of their personal funds and not as a trader to the public or for the investment of corporate funds;
+Does not distribute, republish or otherwise provide any information or derived works to any third party in any manner or use or process information or derived works for any commercial purposes.
+Please note, this site uses cookies. Some of the cookies are essential for parts of the site to operate and have already been set. You may delete and block all cookies from this site, but if you do, parts of the site may not work. To find out more about the cookies used on Investegate and how you can manage them, see our Privacy and Cookie Policy
+To continue using Investegate, please confirm that you are a private investor as well as agreeing to our
+Privacy and Cookie Policy
+&
+Terms
+.
+Create an Account
+Create your FREE account to receive personalised announcements, watchlists, market updates, investment insights and new features.
+Sign Up
+Log In
+Personalise your experience
+Tell us a little about yourself to receive personalised content, announcements and relevant investment opportunities.
+Complete Profile

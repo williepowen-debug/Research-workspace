@@ -1,0 +1,202 @@
+{
+  "models": {
+    "JM_Pd_May14_koz": {
+      "primary_2025": 6589,
+      "primary_2026F": 6032,
+      "recycling_2025": 3135,
+      "recycling_2026F": 3427,
+      "demand_2025": 10140,
+      "demand_2026F": 9245,
+      "balance_2025": -416,
+      "balance_2026F": 214,
+      "recycling_growth": 292.0,
+      "recycling_growth_pct": 9.314194577352472,
+      "primary_change": -557.0,
+      "demand_change": -895.0,
+      "flat_recycling_balance_sensitivity": -78.0,
+      "balance_recomputed_from_rounded_rows": 214
+    },
+    "JM_Pt_May14_koz": {
+      "primary_2025": 5557,
+      "primary_2026F": 5455,
+      "recycling_2025": 1547,
+      "recycling_2026F": 1576,
+      "demand_2025": 8019,
+      "demand_2026F": 7402,
+      "balance_2025": -915,
+      "balance_2026F": -371,
+      "recycling_growth": 29.0,
+      "recycling_growth_pct": 1.874595992243051,
+      "primary_change": -102.0,
+      "demand_change": -617.0,
+      "flat_recycling_balance_sensitivity": -400.0,
+      "balance_recomputed_from_rounded_rows": -371
+    },
+    "WPIC_Pt_Sept9_koz": {
+      "primary_2025": 5561,
+      "primary_2026F": 5551,
+      "recycling_2025": 1669,
+      "recycling_2026F": 1802,
+      "demand_2025": 8671,
+      "demand_2026F": 7089,
+      "balance_2025": -1440,
+      "balance_2026F": 265,
+      "recycling_growth": 133.0,
+      "recycling_growth_pct": 7.9688436189334935,
+      "primary_change": -10.0,
+      "demand_change": -1582.0,
+      "flat_recycling_balance_sensitivity": 132.0,
+      "balance_recomputed_from_rounded_rows": 264
+    },
+    "Silver_April_Moz": {
+      "primary_2025": 846.6,
+      "primary_2026F": 844.1,
+      "recycling_2025": 197.6,
+      "recycling_2026F": 211.3,
+      "hedging_2025": 44.7,
+      "hedging_2026F": 10.0,
+      "official_2025": 1.5,
+      "official_2026F": 1.0,
+      "demand_2025": 1130.6,
+      "demand_2026F": 1112.6,
+      "balance_2025": -40.3,
+      "balance_2026F": -46.3,
+      "recycling_growth": 13.7,
+      "recycling_growth_pct": 6.933198380566802,
+      "primary_change": -2.5,
+      "demand_change": -18.0,
+      "flat_recycling_balance_sensitivity": -60.0,
+      "balance_recomputed_from_rounded_rows": -46.2
+    }
+  },
+  "valterra": {
+    "unit": "koz, 5E+Au except individual Pt/Pd; owned refined and sales exclude tolling",
+    "Q3_2026": {
+      "M_and_C": 804.3,
+      "own_mined": 511.9,
+      "POC": 292.4,
+      "refined": 576.9,
+      "sales": 683.3,
+      "Pt_refined": 259.2,
+      "Pd_refined": 187.7,
+      "Pt_sales": 295.1,
+      "Pd_sales": 214.7,
+      "toll_refined": 209.2,
+      "YoY_pct": {
+        "M_and_C": -5.940825634428721,
+        "own_mined": -5.133432171979244,
+        "POC": -7.321711568938193,
+        "refined": -41.22261844116149,
+        "sales": -27.060204953031597,
+        "Pt_refined": -41.13104701339996,
+        "Pd_refined": -39.529639175257735
+      },
+      "sales_minus_owned_refined_proxy": 106.4,
+      "Pt_sales_minus_owned_refined_proxy": 35.9,
+      "Pd_sales_minus_owned_refined_proxy": 27.0
+    },
+    "Q3_2025": {
+      "M_and_C": 855.1,
+      "own_mined": 539.6,
+      "POC": 315.5,
+      "refined": 981.5,
+      "sales": 936.8,
+      "Pt_refined": 440.3,
+      "Pd_refined": 310.4
+    },
+    "nine_months_2026": {
+      "M_and_C": 2323.2,
+      "own_mined": 1523.7,
+      "POC": 799.5,
+      "refined": 2318.8,
+      "sales": 2420.3,
+      "Pt_refined": 1100.8,
+      "Pd_refined": 706.7,
+      "Pt_sales": 1114.1,
+      "Pd_sales": 729.2,
+      "YoY_pct": {
+        "M_and_C": 0.12066885019824168,
+        "own_mined": 3.9571535784949172,
+        "POC": -6.458406458406459,
+        "refined": -2.267554581471803,
+        "sales": 0.33995273827784916,
+        "Pt_refined": 3.32269570114511,
+        "Pd_refined": -4.318981857568373
+      },
+      "sales_minus_owned_refined_proxy": 101.5,
+      "Pt_sales_minus_owned_refined_proxy": 13.3,
+      "Pd_sales_minus_owned_refined_proxy": 22.5
+    },
+    "nine_months_2025": {
+      "M_and_C": 2320.4,
+      "own_mined": 1465.7,
+      "POC": 854.7,
+      "refined": 2372.6,
+      "sales": 2412.1,
+      "Pt_refined": 1065.4,
+      "Pd_refined": 738.6
+    },
+    "Q4_required_to_guidance": {
+      "refined": {
+        "low": 681.2,
+        "mid": 881.2,
+        "high": 1081.2
+      },
+      "M_and_C": {
+        "low": 676.8,
+        "mid": 876.8,
+        "high": 1076.8
+      }
+    }
+  },
+  "sibanye": {
+    "period": "H1 2026 versus H1 2025; ounces recycled and sold excluding mixed scrap; consolidation differs",
+    "gold_2025": 63992,
+    "gold_2026": 95188,
+    "five_PGM_2025": 155375,
+    "five_PGM_2026": 194926,
+    "silver_2025": 932712,
+    "silver_2026": 2498226,
+    "total_2025": 1152079,
+    "total_2026": 2788340,
+    "silver_share_of_total_ounce_growth_pct": 95.67630103021462
+  },
+  "gold": {
+    "unit": "tonnes; WGC estimated Q2 2026 versus Q2 2025",
+    "recycling_2025": 346.7,
+    "recycling_2026": 326.1,
+    "change_t": -20.6,
+    "change_pct": -5.94173637150274
+  },
+  "wpic_actual": {
+    "unit": "koz; WPIC September9 estimates of Q2 2026 realized period",
+    "recycling": 466,
+    "recycling_prior_year": 429,
+    "auto": 374,
+    "auto_prior_year": 319,
+    "jewellery": 68,
+    "jewellery_prior_year": 90,
+    "industrial": 23,
+    "industrial_prior_year": 20,
+    "note": "Components round to 465, not headline 466; preserve published rounding."
+  },
+  "inherited_sources_sha256": {
+    "sources/2026-10-12_thesis-test/jm_may2026_report.pdf": "3a4229d81282070548eeae6e078c6a99fd2fa3dcf816d185ecf26168d4a3d39d",
+    "sources/2026-10-12_thesis-test/wpic_q2_2026.pdf": "19b45110ca2df81472eac92510c21836ac1e1e36c51368ea9bbec82a1c9331aa",
+    "shared/sources/2026-10-26_coverage-gaps/wgc_q2_supply.html": "01fbece3c45780782459b19b45431a0c973e1625eefabaea4170c33fa71d7d8e",
+    "shared/sources/2026-10-26_coverage-gaps/valterra_q3.html": "a5727e858c2076ab83b7dc9d3c47c61afec7b79048b717735cc7f3a8737c7675",
+    "shared/sources/2026-10-26_L701-settlement/issuer_full.pdf": "babcb62ff06dcde82050813425b5cb316323362e6127fbd9b1965c88960e5aa8"
+  },
+  "frozen_sha256": {
+    "workbook/PREDICTIONS.tsv": "67775106a453b5e1503c2c8b3fb3f1948355954e529583858db68b2e21c463aa",
+    "CLAUDE.md": "612756081ee84f0750908c6daed066b6cb2f8c39c07999827ab3fb2a2cceb198",
+    "palladium/research/2026-10-23_nornickel-9M-read-setup.md": "af8232d1df1da7bbaac7e2d3f9f40a8efa68ae293e0e8d639d94fcdecb24b2b6",
+    "gold/research/2026-10-23_WQ451-decomposition-letter.md": "c41c635417f40e66b963ce33a903ab6b5225a93e59977e3a84c8f7df62e316ea"
+  },
+  "visual_review": [
+    "JM printed p6",
+    "WPIC printed pp19-20",
+    "Silver printed p9 / PDF page11"
+  ],
+  "boundary": "All flat-recycling figures are ceteris-paribus sensitivities, not new forecasts. No blending models or adding closed-loop returns."
+}
