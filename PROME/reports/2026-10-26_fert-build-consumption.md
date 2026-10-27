@@ -1,0 +1,13 @@
+# FERT initial approved build — bounded consumption
+
+Owner delivery/result 0ab3db312 records Will's authorization in the FERT session to start the audit priorities and document findings. This supersedes the earlier audit receipt's uncommissioned status for this initial build. Read the report, README, DATA_ROUTES, declaration and validation evidence. No full-domain completion inferred.
+
+Verified saved SOURCE_INDEX hashes and seven table row counts/shapes: 989 observations. Independently checked CF Q1+Q2 issuer adjusted EBITDA equals H1 $2,175 million. The $170 million litigation-gain subtraction is a FERT sensitivity, not issuer recurring earnings. Imports retain nutrient-equivalent short tons, China September exports remain MIRROR-WALLED, and ERS forecast expenses do not establish application cuts or food-price causation. Existing wakes and gate letters retained.
+
+Reproduction limitation: a temporary-copy execution of the offline extractor failed before writing tables because repository .venv/bin/python could not import pandas in this runtime. No package installed and no owner file touched. Thus full extractor reproduction is NOT verified; hash/schema/arithmetic checks above are the earned checks. The owner report's environment claim needs qualification.
+
+Transcribed the 24 owner-declared READS rows with provenance, including whole spawned-boot TRIGGERS. Manifest verification remains PARTIAL/UNKNOWN: no BASIS rows; declared registry/corrections_receipts.tsv is absent. Scoped read-cap run reports rc1, zero over-budget reads, one manifest defect and one advisory; that is not a clean perimeter. Exact checks saved in /tmp/prome-fert-reads-check.txt and /tmp/prome-fert-read-cap.txt for this sitting. Owner correction packet queued for its existing maintenance wake; no new desk launch.
+
+Vocabulary disposition: AGENTS/VOCABULARIES.tsv rules route proposed missing terms to PROME and permit provisional use. POTASH and FERTILIZER_K both remain provisional aliases for the already-owned triage-only potash lane. Proposed canonical tag POTASH, alias FERTILIZER_K, owner FERT; benchmark/unit/date/source only, no trend/transmission/deep-dive expansion. Shared vocabulary edit not applied: PROME charter shared/root-document approval boundary still applies. This is a concrete registrar carry, not an ownership gap. No owner KB rewritten. FERT asked to return exact mapping/affected IDs with its maintenance correction.
+
+Incoming build packet filed. Subsequent MIDAS recycling/refinery result 04796b92a and the late CARL/ISHM/CYPHER/VULCAN returns remain separate pending substantive intake. Local persistence only; no remote-sync claim.

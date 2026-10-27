@@ -1,5 +1,7 @@
 # SCRATCH.md — Ephemeral Session State
 
+**October26 FERT approved build consumed:** [receipt](reports/2026-10-26_fert-build-consumption.md). Initial baselines now authorized/built; earlier uncommissioned audit status superseded for this work. READS ingested but partial: BASIS/absent receipt-path corrections returned to owner. Potash alias proposal remains a shared-vocabulary carry, triage only. Extractor reproduction blocked by missing pandas here; bounded hash/schema/arithmetic checks passed. Latest MIDAS recycling/refinery packet remains pending.
+
 **October26 MIDAS close refresh consumed:** [receipt](reports/2026-10-26_midas-close-refresh-consumption.md). Saved-close arithmetic verifies new platinum −20% trend crossing; actual8/20 and counterfactual13/20 unchanged. GLD Monday quantity −0.85t and real10Y2.66% verified in saved primary files. November1 21:40ET floor retained; gold certified-settlement gap open. Late CARL/ISHM news sweeps and CYPHER/VULCAN packets remain separate pending intake.
 **Updated:** 2026-10-26 checkpoint on Will’s request; unfinished working session and PARTIAL obligations retained.
 
