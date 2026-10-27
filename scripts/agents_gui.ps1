@@ -80,7 +80,17 @@ public static class LauncherWindowTheme {
     [DllImport("dwmapi.dll")]
     public static extern int DwmSetWindowAttribute(IntPtr window, int attribute, ref int value, int size);
 }
+public static class LauncherTestDeadline {
+    public static System.Threading.Timer Start(int milliseconds) {
+        return new System.Threading.Timer(_ => {
+            Console.Error.WriteLine("Native UI test timed out; its own process is closing.");
+            Environment.Exit(124);
+        }, null, milliseconds, System.Threading.Timeout.Infinite);
+    }
+}
 '@
+$testDeadline=$null
+if ($SmokeTest -or $data.test_mode) {$testDeadline=[LauncherTestDeadline]::Start(45000)}
 $form=New-Object Windows.Forms.Form
 $form.Text='Agent Launcher'; $form.ClientSize=New-Object Drawing.Size(1160,780)
 $form.MinimumSize=New-Object Drawing.Size(1176,819)
@@ -242,6 +252,138 @@ $tooltip.SetToolTip($usePreset,'Fill the highlighted agent instructions with thi
 $tooltip.SetToolTip($presetActions,'Apply the preset to all selected agents, including agents hidden by a filter.')
 foreach ($input in @($savedGroups,$search,$runtime,$preset,$task,$results,$categories,$list)) {Style-Input $input}
 foreach ($menu in @($groupMenu,$presetMenu)) {Style-Menu $menu}
+# Give each stage its own page; state lives outside the page controls.
+$tabs=New-Object Windows.Forms.TabControl
+$tabs.SetBounds(24,108,1112,578); $tabs.Anchor='Top,Bottom,Left,Right'
+$tabs.DrawMode='OwnerDrawFixed'; $tabs.ItemSize=New-Object Drawing.Size(205,38); $tabs.SizeMode='Fixed'
+$form.Controls.Add($tabs)
+$pages=@{}
+foreach ($key in @('Agents','Selected','Instructions','Activity')) {
+    $page=New-Object Windows.Forms.TabPage
+    $page.Name=$key; $page.Text=$key; $page.BackColor=$bg; $page.ForeColor=$ink
+    if ($key -eq 'Selected') {$page.Text='Selected & groups'}
+    [void]$tabs.TabPages.Add($page); $pages[$key]=$page
+}
+# Inactive TabPages initially use a small default size. Establish their real
+# bounds before anchoring children, otherwise their first display stretches twice.
+foreach ($page in $tabs.TabPages) {$page.Bounds=$tabs.DisplayRectangle}
+$tabs.ItemSize=New-Object Drawing.Size(([int](($tabs.Width-8)/4)),38)
+# Changing native tab metrics inside SizeChanged feeds back into its layout.
+# Resize the headers once after a user drag instead of inside that event.
+$form.Add_ResizeEnd({$tabs.ItemSize=New-Object Drawing.Size(([int](($tabs.Width-8)/4)),38)})
+$tabs.Add_DrawItem({
+    param($sender,$e)
+    $fill=$surface; $text=$muted
+    if ($sender.SelectedIndex -eq $e.Index) {$fill=$selection; $text=$accent}
+    $brush=New-Object Drawing.SolidBrush($fill)
+    try {$e.Graphics.FillRectangle($brush,$e.Bounds)} finally {$brush.Dispose()}
+    [Windows.Forms.TextRenderer]::DrawText($e.Graphics,$sender.TabPages[$e.Index].Text,$sender.Font,$e.Bounds,$text,([Windows.Forms.TextFormatFlags]::HorizontalCenter -bor [Windows.Forms.TextFormatFlags]::VerticalCenter -bor [Windows.Forms.TextFormatFlags]::NoPrefix))
+})
+function Place($control,$parent,$x,$y,$width,$height,$anchor='Top,Left') {
+    $control.Anchor='Top,Left'; $parent.Controls.Add($control)
+    $control.SetBounds($x,$y,$width,$height); $control.Anchor=$anchor
+}
+Place $categoryLabel $pages.Agents 16 16 220 26
+Place $categories $pages.Agents 16 50 220 410 'Top,Bottom,Left'
+Place $searchLabel $pages.Agents 260 16 252 26
+Place $search $pages.Agents 260 50 252 30
+$searchScope=Label 'Browse by category, or search all agents.' 0 0 1 1 9
+Place $searchScope $pages.Agents 260 88 252 34
+$searchScope.ForeColor=$muted
+Place $list $pages.Agents 260 130 252 330 'Top,Bottom,Left'
+Place $count $pages.Agents 260 472 252 24 'Bottom,Left'
+Place $name $pages.Agents 548 16 520 38 'Top,Left,Right'
+Place $purpose $pages.Agents 550 66 518 60 'Top,Left,Right'
+Place $group $pages.Agents 550 134 518 28 'Top,Left,Right'
+Place $runtimeLabel $pages.Agents 550 194 518 25 'Top,Left,Right'
+Place $runtime $pages.Agents 550 224 518 32 'Top,Left,Right'
+$taskSummary=Label '' 0 0 1 1 10
+Place $taskSummary $pages.Agents 550 278 518 54 'Top,Left,Right'
+$taskSummary.ForeColor=$muted
+$editInstructions=Button 'Edit instructions...' 0 0 1
+Place $editInstructions $pages.Agents 550 344 518 40 'Top,Left,Right'
+Place $start $pages.Agents 550 406 250 40
+Place $resume $pages.Agents 812 406 256 40 'Top,Right'
+Place $hint $pages.Agents 550 460 518 42 'Top,Left,Right'
+
+Place $savedLabel $pages.Selected 16 16 500 26
+Place $savedGroups $pages.Selected 16 50 500 32
+Place $loadGroup $pages.Selected 528 46 140 40
+Place $groupActions $pages.Selected 680 46 140 40
+$groupHint=Label 'Groups remember agents and runtimes. Click an agent below to edit its instructions.' 0 0 1 1 10
+Place $groupHint $pages.Selected 16 102 1052 36 'Top,Left,Right'
+$groupHint.ForeColor=$muted
+Place $selectionLabel $pages.Selected 16 148 1052 26 'Top,Left,Right'
+Place $chips $pages.Selected 16 184 1052 310 'Top,Bottom,Left,Right'
+$chips.FlowDirection='TopDown'; $chips.WrapContents=$false; $chips.BackColor=$bg
+
+$instructionAgentLabel=Label 'Agent' 0 0 1 1
+Place $instructionAgentLabel $pages.Instructions 20 16 650 26
+$instructionAgent=New-Object Windows.Forms.ComboBox
+$instructionAgent.DropDownStyle='DropDownList'
+foreach ($entry in $data.agents) {[void]$instructionAgent.Items.Add($entry.name)}
+Style-Input $instructionAgent
+Place $instructionAgent $pages.Instructions 20 50 650 32 'Top,Left,Right'
+$instructionRuntimeLabel=Label 'Runtime' 0 0 1 1
+Place $instructionRuntimeLabel $pages.Instructions 700 16 368 26 'Top,Right'
+$instructionRuntime=New-Object Windows.Forms.ComboBox
+$instructionRuntime.DropDownStyle='DropDownList'; Style-Input $instructionRuntime
+Place $instructionRuntime $pages.Instructions 700 50 368 32 'Top,Right'
+Place $presetLabel $pages.Instructions 20 108 1048 26 'Top,Left,Right'
+Place $preset $pages.Instructions 20 142 650 32 'Top,Left,Right'
+Place $usePreset $pages.Instructions 684 138 172 40 'Top,Right'
+$presetActions.Text='Manage...'
+Place $presetActions $pages.Instructions 868 138 200 40 'Top,Right'
+$savePreset=$presetMenu.Items.Add('Save these instructions as a preset...')
+$deletePreset=$presetMenu.Items.Add('Delete selected custom preset...')
+Place $taskLabel $pages.Instructions 20 202 1048 26 'Top,Left,Right'
+Place $task $pages.Instructions 20 234 1048 190 'Top,Bottom,Left,Right'
+$instructionStart=Button 'New conversation' 0 0 1
+Place $instructionStart $pages.Instructions 20 444 260 40 'Bottom,Left'
+$instructionResume=Button 'Resume conversation...' 0 0 1
+Place $instructionResume $pages.Instructions 296 444 260 40 'Bottom,Left'
+$instructionHint=Label 'Instructions apply to a new conversation. Clear them to enable Resume.' 0 0 1 1 9
+Place $instructionHint $pages.Instructions 20 494 1048 26 'Bottom,Left,Right'
+$instructionHint.ForeColor=$muted
+
+$activityHint=Label 'Recent launches on this machine. Startup confirmation does not mean an agent is still working.' 0 0 1 1 10
+Place $activityHint $pages.Activity 20 16 1048 36 'Top,Left,Right'
+$activityHint.ForeColor=$muted
+$historyList=New-Object Windows.Forms.ListBox
+$historyList.DisplayMember='Display'; $historyList.IntegralHeight=$false
+Style-Input $historyList
+Place $historyList $pages.Activity 20 66 354 324 'Top,Bottom,Left'
+$historyDetail=New-Object Windows.Forms.TextBox
+$historyDetail.Multiline=$true; $historyDetail.ReadOnly=$true; $historyDetail.ScrollBars='Vertical'
+Style-Input $historyDetail
+Place $historyDetail $pages.Activity 390 66 678 324 'Top,Bottom,Left,Right'
+$historyOpen=Button 'Go to this agent' 0 0 1
+Place $historyOpen $pages.Activity 20 404 354 40 'Bottom,Left'
+$latestLabel=Label 'Latest batch details' 0 0 1 1 9
+Place $latestLabel $pages.Activity 390 404 678 26 'Bottom,Left,Right'
+$latestLabel.ForeColor=$muted
+Place $results $pages.Activity 390 436 678 80 'Bottom,Left,Right'
+$results.Visible=$true
+
+# The small footer is shared; the selection list itself has its own page.
+$tray.Height=76
+Place $status $tray 24 8 650 22 'Top,Left,Right'
+$selectedLink=New-Object Windows.Forms.LinkLabel
+$selectedLink.LinkColor=$accent; $selectedLink.VisitedLinkColor=$accent; $selectedLink.ActiveLinkColor=$accent
+Place $selectedLink $tray 24 42 150 26
+Place $clear $tray 180 36 96 30
+$details.Text='View activity'
+Place $details $tray 300 42 150 26
+Place $batch $tray 856 26 280 40 'Top,Right'
+Place $stop $tray 700 26 144 40 'Top,Right'
+$subtitle.Text='Find agents, prepare their work, and review launches on separate tabs.'
+$form.KeyPreview=$true
+$form.Add_KeyDown({
+    param($sender,$e)
+    if ($e.Control -and $e.KeyCode -eq [Windows.Forms.Keys]::F -and -not $script:busy) {
+        $tabs.SelectedTab=$pages.Agents; $search.Focus(); $search.SelectAll(); $e.SuppressKeyPress=$true
+    }
+})
 $form.Add_Shown({
     # Older Windows builds can decline the title-bar hint; controls stay themed.
     try {
@@ -252,13 +394,19 @@ $form.Add_Shown({
 })
 
 function Set-DetailsVisible($visible) {
-    if ($results.Visible -eq $visible) {return}
-    $delta=130; if (-not $visible) {$delta=-130}
-    $height=$form.ClientSize.Height+$delta
-    $form.MinimumSize=New-Object Drawing.Size($form.MinimumSize.Width,($form.MinimumSize.Height+$delta))
-    $form.ClientSize=New-Object Drawing.Size($form.ClientSize.Width,$height)
-    $results.Visible=$visible
-    $details.Text='Show launch details'; if ($visible) {$details.Text='Hide launch details'}
+    if ($visible) {$tabs.SelectedTab=$pages.Activity} else {$tabs.SelectedTab=$pages.Agents}
+}
+function Focus-Agent($agentName,$page='Instructions') {
+    if ($script:busy) {return}
+    $script:filtering=$true
+    try {$categories.SelectedIndex=0; $search.Clear()} finally {$script:filtering=$false}
+    Filter-Agents
+    for ($i=0;$i -lt $list.Items.Count;$i++) {
+        if ($list.Items[$i].Entry.name -eq $agentName) {
+            $list.SelectedIndex=$i; Select-Agent; $tabs.SelectedTab=$pages[$page]; return
+        }
+    }
+    $status.Text='This agent is no longer configured: '+$agentName
 }
 function Refresh-SelectionTray {
     # Rebuild only when membership changes, so task edits never steal chip focus.
@@ -276,21 +424,40 @@ function Refresh-SelectionTray {
                 $chips.Controls.Add($empty)
             }
             foreach ($entry in $members) {
-                $chip=New-Object LauncherButton
-                $chip.Text=$entry.name+'  x'; $chip.Tag=$entry.name
-                $chip.AutoSize=$true; $chip.Height=34; $chip.FlatStyle='Flat'
-                Style-Button $chip
-                $chip.ForeColor=$accent; $chip.Cursor='Hand'
-                $chip.Margin=New-Object Windows.Forms.Padding(0,0,8,0)
-                $chip.AccessibleName='Remove '+$entry.name+' from selection'
-                $tooltip.SetToolTip($chip,'Remove '+$entry.name+' from the batch selection')
-                $chip.Add_Click({param($sender,$e) $script:checked.Remove([string]$sender.Tag); Filter-Agents})
-                $chips.Controls.Add($chip)
+                $card=New-Object Windows.Forms.Panel
+                $card.Tag=$entry.name; $card.BackColor=$surface; $card.Size=New-Object Drawing.Size(($chips.ClientSize.Width-24),76)
+                $card.Margin=New-Object Windows.Forms.Padding(0,0,0,10)
+                $edit=New-Object LauncherButton
+                $edit.Text=$entry.name; $edit.Tag=$entry.name; $edit.SetBounds(10,12,170,48)
+                Style-Button $edit; $edit.ForeColor=$accent
+                $edit.AccessibleName='Edit '+$entry.name+' instructions'
+                $edit.Add_Click({param($sender,$e) Focus-Agent ([string]$sender.Tag)})
+                $card.Controls.Add($edit)
+                $summary=New-Object Windows.Forms.Label
+                $summary.Name='Summary'; $summary.SetBounds(200,10,($card.Width-280),56); $summary.Anchor='Top,Left,Right'
+                $summary.ForeColor=$muted; $card.Controls.Add($summary)
+                $remove=New-Object LauncherButton
+                $remove.Text='x'; $remove.Tag=$entry.name; $remove.SetBounds(($card.Width-58),18,40,36); $remove.Anchor='Top,Right'
+                Style-Button $remove; $remove.AccessibleName='Remove '+$entry.name+' from selection'
+                $tooltip.SetToolTip($remove,'Remove only '+$entry.name+' from the selection')
+                $remove.Add_Click({param($sender,$e) $script:checked.Remove([string]$sender.Tag); Filter-Agents})
+                $card.Controls.Add($remove); $chips.Controls.Add($card)
             }
         } finally {$chips.ResumeLayout()}
     }
-    foreach ($chip in $chips.Controls) {$chip.Enabled=-not $script:busy}
+    foreach ($card in $chips.Controls) {
+        $card.Enabled=-not $script:busy
+        if ($card -is [Windows.Forms.Panel]) {
+            $setting=$script:settings[[string]$card.Tag]
+            $label=@{sol='Codex Sol';claude='Claude';astra='Codex Astra'}[$setting.runtime]
+            $text='Default startup instructions'
+            if (-not [string]::IsNullOrWhiteSpace($setting.task)) {$text=($setting.task -replace '\s+',' ')}
+            if ($text.Length -gt 110) {$text=$text.Substring(0,107)+'...'}
+            $card.Controls['Summary'].Text=$label+"`r`n"+$text
+        }
+    }
 }
+$chips.Add_SizeChanged({foreach ($card in $chips.Controls) {if ($card -is [Windows.Forms.Panel]) {$card.Width=[Math]::Max(400,$chips.ClientSize.Width-24)}}})
 
 # Groups are personal preferences; never commands, tasks, or a fleet roster.
 $script:groups=@(); $script:groupsVersion=''; $script:groupsHealthy=$true
@@ -299,6 +466,10 @@ if ($SmokeTest -or $data.test_mode) {
     $preferencesFolder=Join-Path ([IO.Path]::GetTempPath()) ('AgentLauncherTest-'+[Guid]::NewGuid().ToString('N'))
 }
 $script:groupsPath=Join-Path $preferencesFolder 'groups.json'
+$script:presetPath=Join-Path $preferencesFolder 'presets.json'
+$script:historyPath=Join-Path $preferencesFolder 'history.json'
+$script:customPresets=@(); $script:presetVersion=''; $script:presetsHealthy=$true
+$script:history=@()
 function Read-Groups {
     $text=''
     if ([IO.File]::Exists($script:groupsPath)) {$text=[IO.File]::ReadAllText($script:groupsPath)}
@@ -448,11 +619,135 @@ function Rename-SavedGroup($value) {
     Refresh-Groups; $savedGroups.Text=$value
     $status.Text='Renamed group to '+$value+'.'
 }
-$presets=@(
+$builtInPresets=@(
     @{name='Orient and report status';text='Follow your startup instructions. Recover current work, approvals, and unresolved conditions. Give Will a short status and suggested next step. Do not begin unassigned work.'},
     @{name='Continue approved work';text='Follow your startup instructions and recover the current assignment, existing approvals, and unresolved conditions. Continue only work already authorized and currently in scope. Preserve all approval conditions; ask Will if the applicable assignment or authority is unclear. Report the result and next stopping point.'},
     @{name='Prepare handoff';text='Follow your startup instructions and recover current work and approvals. Prepare your normal handoff and closeout for the existing assignment. Preserve unfinished work, blockers, approval conditions, and a clear resume point. Do not start new research or unrelated pending work.'}
 )
+function Validate-LocalRecords($document,$kind) {
+    if ($document.version -ne 1 -or $document.$kind -isnot [Array]) {throw ('Unsupported '+$kind+' file format. The original file was kept.')}
+    $seen=@{}
+    foreach ($item in $document.$kind) {
+        if ($kind -eq 'presets') {
+            if ($item.name -isnot [string] -or [string]::IsNullOrWhiteSpace($item.name) -or $item.name.Length -gt 60 -or $item.name -match '[\x00-\x1f]' -or $seen.ContainsKey($item.name) -or $item.text -isnot [string] -or [string]::IsNullOrWhiteSpace($item.text) -or $item.text.Length -gt 32767) {throw 'Invalid or duplicate custom preset. The original file was kept.'}
+            if (@($builtInPresets | Where-Object {$_.name -eq $item.name}).Count -gt 0) {throw 'A custom preset uses a built-in name. The original file was kept.'}
+            $seen[$item.name]=$true
+        } else {
+            $timestamp=[DateTimeOffset]::MinValue
+            if ($item.name -isnot [string] -or $item.name -notmatch '^[A-Z][A-Z0-9_-]*$' -or $item.runtime -notin @('sol','claude','astra') -or $item.action -notin @('new','resume') -or $item.outcome -notin @('Opened','Not confirmed','Cancelled') -or $item.message -isnot [string] -or $item.task -isnot [string] -or -not [DateTimeOffset]::TryParse([string]$item.time,[ref]$timestamp)) {throw 'Invalid launch history. The original file was kept.'}
+        }
+    }
+}
+function Read-LocalRecords($path,$kind) {
+    $text=''; $records=@()
+    if ([IO.File]::Exists($path)) {
+        $text=[IO.File]::ReadAllText($path)
+        if (-not $text.Trim()) {throw ('The '+$kind+' file is empty. It was kept.')}
+        $document=$text | ConvertFrom-Json
+        Validate-LocalRecords $document $kind
+        $records=@($document.$kind)
+    }
+    return @{text=$text;records=$records}
+}
+function Write-LocalRecords($path,$kind,$items,$expected,$append=$false) {
+    $hash=[Security.Cryptography.SHA256]::Create()
+    $key=[BitConverter]::ToString($hash.ComputeHash([Text.Encoding]::UTF8.GetBytes($path))).Replace('-',''); $hash.Dispose()
+    $mutex=New-Object Threading.Mutex($false,('Local\AgentLauncherRecords-'+$key)); $locked=$false
+    try {
+        try {$locked=$mutex.WaitOne(1500)} catch [Threading.AbandonedMutexException] {$locked=$true}
+        if (-not $locked) {throw 'Another launcher is saving. Try again shortly.'}
+        $current=Read-LocalRecords $path $kind
+        if (-not $append -and $current.text -cne $expected) {throw 'Custom presets changed in another window. Reload them before saving.'}
+        $records=@($items)
+        if ($append) {$records=@(@($current.records)+@($items) | Select-Object -Last 100)}
+        $document=@{version=1}; $document[$kind]=$records
+        Validate-LocalRecords $document $kind
+        [void][IO.Directory]::CreateDirectory([IO.Path]::GetDirectoryName($path))
+        $text=$document | ConvertTo-Json -Depth 8
+        $temporary=$path+'.'+[Guid]::NewGuid().ToString('N')+'.tmp'
+        [IO.File]::WriteAllText($temporary,$text,(New-Object Text.UTF8Encoding($false)))
+        if ([IO.File]::Exists($path)) {[IO.File]::Replace($temporary,$path,($path+'.previous'))} else {[IO.File]::Move($temporary,$path)}
+        return @{text=$text;records=$records}
+    } finally {
+        if ($locked) {$mutex.ReleaseMutex()}; $mutex.Dispose()
+    }
+}
+function Refresh-Presets {
+    $previous=$preset.Text
+    $script:presets=@($builtInPresets)+@($script:customPresets)
+    $preset.Items.Clear()
+    foreach ($item in $script:presets) {[void]$preset.Items.Add($item.name)}
+    $preset.SelectedIndex=0
+    if ($preset.Items.Contains($previous)) {$preset.SelectedItem=$previous}
+}
+function Reload-CustomPresets {
+    try {
+        $saved=Read-LocalRecords $script:presetPath 'presets'
+        $script:customPresets=@($saved.records); $script:presetVersion=$saved.text; $script:presetsHealthy=$true
+        Refresh-Presets
+    } catch {
+        $script:presetsHealthy=$false
+        $status.Text='Custom presets could not be read; built-in presets still work.'
+        Log-Result ($_.Exception.Message+' File: '+$script:presetPath)
+        Refresh-Presets
+    }
+}
+function Save-CustomPreset($presetName) {
+    $presetName=$presetName.Trim()
+    if (-not $script:presetsHealthy) {throw 'Reload or repair the custom preset file before saving. It has been kept.'}
+    if ([string]::IsNullOrWhiteSpace($task.Text)) {throw 'Enter instructions before saving a custom preset.'}
+    if (@($builtInPresets | Where-Object {$_.name -eq $presetName}).Count -gt 0) {throw 'Built-in presets cannot be replaced. Choose a different name.'}
+    if (@($script:customPresets | Where-Object {$_.name -eq $presetName}).Count -gt 0) {
+        if (-not (& $script:confirmChange ('Replace the saved instructions in '+$presetName+'?') 'Save preset')) {return}
+    }
+    $items=@(@($script:customPresets | Where-Object {$_.name -ne $presetName})+@{name=$presetName;text=$task.Text})
+    $saved=Write-LocalRecords $script:presetPath 'presets' $items $script:presetVersion
+    $script:customPresets=@($saved.records); $script:presetVersion=$saved.text
+    Refresh-Presets; $preset.SelectedItem=$presetName
+    $status.Text='Saved preset '+$presetName+'. Apply it explicitly before launching.'
+}
+function Delete-CustomPreset {
+    $presetName=$preset.Text
+    if (@($script:customPresets | Where-Object {$_.name -eq $presetName}).Count -ne 1) {throw 'Choose a custom preset to delete. Built-in presets are kept.'}
+    if (-not (& $script:confirmChange ('Delete custom preset '+$presetName+'? Current instructions will stay.') 'Delete preset')) {return}
+    $items=@($script:customPresets | Where-Object {$_.name -ne $presetName})
+    $saved=Write-LocalRecords $script:presetPath 'presets' $items $script:presetVersion
+    $script:customPresets=@($saved.records); $script:presetVersion=$saved.text
+    Refresh-Presets; $status.Text='Deleted saved preset. Current instructions were kept.'
+}
+function Select-History {
+    $historyOpen.Enabled=($null -ne $historyList.SelectedItem -and -not $script:busy)
+    if ($null -eq $historyList.SelectedItem) {$historyDetail.Text='Launches will appear here after you start a conversation.'; return}
+    $record=$historyList.SelectedItem.Record
+    $label=@{sol='Codex Sol';claude='Claude';astra='Codex Astra'}[$record.runtime]
+    $text=$record.task; if (-not $text) {$text='Follow the agent startup instructions'}
+    $historyDetail.Text=$record.name+' | '+$label+' | '+$record.action+"`r`n"+$record.time+"`r`n`r`n"+$record.outcome+': '+$record.message+"`r`n`r`nInstructions:`r`n"+$text+"`r`n`r`nThis is a launch record, not a live work-status report."
+}
+function Refresh-History {
+    $historyList.BeginUpdate()
+    try {
+        $historyList.Items.Clear()
+        for ($i=$script:history.Count-1;$i -ge 0;$i--) {
+            $record=$script:history[$i]
+            $time=([DateTimeOffset]::Parse($record.time)).LocalDateTime.ToString('MMM d HH:mm')
+            [void]$historyList.Items.Add([pscustomobject]@{Display=$time+'  '+$record.name+' - '+$record.outcome;Record=$record})
+        }
+        if ($historyList.Items.Count -gt 0) {$historyList.SelectedIndex=0}
+    } finally {$historyList.EndUpdate()}
+    Select-History
+}
+function Record-Launch($request,$outcome,$message) {
+    $record=@{time=[DateTimeOffset]::Now.ToString('o');name=$request.name;runtime=$request.runtime;action=$request.action;task=[string]$request.task;outcome=$outcome;message=[string]$message}
+    try {
+        # Merge under the file mutex so concurrent launcher windows keep both records.
+        $saved=Write-LocalRecords $script:historyPath 'history' @($record) '' $true
+        $script:history=@($saved.records)
+    } catch {
+        $script:history=@(@($script:history)+$record | Select-Object -Last 100)
+        Log-Result ('Launch history not saved: '+$_.Exception.Message)
+    }
+    Refresh-History
+}
 function Apply-Preset($toChecked) {
     if ($script:busy -or $preset.SelectedIndex -lt 0) {return}
     $names=@()
@@ -473,6 +768,10 @@ function Update-Buttons {
     $ready=($null -ne $script:selected -and -not $script:busy)
     $start.Enabled=$ready
     $resume.Enabled=($ready -and [string]::IsNullOrWhiteSpace($task.Text))
+    $instructionStart.Enabled=$start.Enabled; $instructionResume.Enabled=$resume.Enabled
+    $editInstructions.Enabled=$ready
+    $instructionAgent.Enabled=-not $script:busy
+    $instructionRuntime.Enabled=($ready -and $script:selected.kind -ne 'cato')
     $runtime.Enabled=($ready -and $script:selected.kind -ne 'cato')
     $task.Enabled=$ready
     $search.Enabled=-not $script:busy; $list.Enabled=-not $script:busy; $categories.Enabled=-not $script:busy
@@ -483,6 +782,9 @@ function Update-Buttons {
     $clear.Visible=-not $script:busy; $stop.Visible=$script:busy
     $stop.Enabled=($script:queue.Count -gt 0)
     $count.Text=[string]$list.Items.Count+' shown / '+$script:checked.Count+' selected'
+    $selectedLink.Text=[string]$script:checked.Count+' selected - view'
+    $pages.Selected.Text='Selected & groups ('+$script:checked.Count+')'
+    $selectionLabel.Text=[string]$script:checked.Count+' selected agents - name to edit, x to remove'
     $savedGroups.Enabled=-not $script:busy; $loadGroup.Enabled=-not $script:busy
     $saveGroup.Enabled=($script:checked.Count -gt 0 -and -not $script:busy -and $script:groupsHealthy)
     $saveAsGroup.Enabled=$saveGroup.Enabled
@@ -491,8 +793,18 @@ function Update-Buttons {
     $deleteGroup.Enabled=(-not $script:busy -and $script:groupsHealthy)
     $preset.Enabled=-not $script:busy; $usePreset.Enabled=$ready
     $batchPreset.Enabled=($script:checked.Count -gt 0 -and -not $script:busy)
-    $presetActions.Enabled=$batchPreset.Enabled
+    $presetActions.Enabled=-not $script:busy
+    $savePreset.Enabled=($ready -and $script:presetsHealthy -and -not [string]::IsNullOrWhiteSpace($task.Text))
+    $deletePreset.Enabled=(-not $script:busy -and $script:presetsHealthy -and @($script:customPresets | Where-Object {$_.name -eq $preset.Text}).Count -eq 1)
     Refresh-SelectionTray
+    $taskSummary.Text='Instructions: default agent startup'
+    if (-not [string]::IsNullOrWhiteSpace($task.Text)) {
+        $text=($task.Text -replace '\s+',' ')
+        if ($text.Length -gt 115) {$text=$text.Substring(0,112)+'...'}
+        $taskSummary.Text='Instructions: '+$text
+    }
+    $tooltip.SetToolTip($taskSummary,$task.Text)
+    $historyOpen.Enabled=($null -ne $historyList.SelectedItem -and -not $script:busy)
 }
 function Save-Settings {
     if ($script:loading -or $null -eq $script:selected) {return}
@@ -500,6 +812,7 @@ function Save-Settings {
     if ($runtime.Text -eq 'Claude') {$value='claude'}
     if ($runtime.Text -eq 'Codex Astra') {$value='astra'}
     $script:settings[$script:selected.name]=@{runtime=$value;task=$task.Text}
+    if ($instructionRuntime.SelectedIndex -ne $runtime.SelectedIndex) {$instructionRuntime.SelectedIndex=$runtime.SelectedIndex}
     Update-Buttons
 }
 function Select-Agent {
@@ -509,7 +822,7 @@ function Select-Agent {
         $runtime.Items.Clear()
         if ($null -eq $list.SelectedItem) {
             $script:selected=$null; $name.Text='No matching agents'; $purpose.Text='Try another name or category.'
-            $group.Text=''; $task.Text=''; return
+            $group.Text=''; $task.Text=''; $instructionAgent.SelectedIndex=-1; $instructionRuntime.Items.Clear(); return
         }
         $script:selected=$list.SelectedItem.Entry
         $name.Text=$script:selected.name; $purpose.Text=$script:selected.purpose; $group.Text=$script:selected.group
@@ -521,23 +834,30 @@ function Select-Agent {
             if ($setting.runtime -eq 'claude') {$runtime.SelectedIndex=1}
         }
         $task.Text=[string]$setting.task
+        $instructionAgent.SelectedItem=$script:selected.name
+        $instructionRuntime.Items.Clear()
+        foreach ($item in $runtime.Items) {[void]$instructionRuntime.Items.Add($item)}
+        $instructionRuntime.SelectedIndex=$runtime.SelectedIndex
         $status.Text='Ready. Each conversation opens in its own terminal.'
         if ($script:selected.error) {$status.Text=$script:selected.error}
         $tooltip.SetToolTip($status,$status.Text); $tooltip.SetToolTip($name,$script:selected.folder)
     } finally {$script:loading=$false; Update-Buttons}
 }
 function Filter-Agents {
+    if ($script:filtering) {return}
     $previous=$null
     if ($script:selected) {$previous=$script:selected.name}
     $query=$search.Text.Trim(); $category=''
     if ($categories.SelectedItem) {$category=$categories.SelectedItem.Name}
+    $searchScope.Text='Browsing the selected category'
+    if ($query) {$searchScope.Text='Searching all agents (Ctrl+F)'}
     $script:filtering=$true
     $list.BeginUpdate()
     try {
         $list.Items.Clear()
         foreach ($entry in $data.agents) {
             $haystack=$entry.name+' '+$entry.purpose+' '+$entry.group
-            if (($category -eq '' -or $category -eq $entry.group) -and $haystack.IndexOf($query,[StringComparison]::OrdinalIgnoreCase) -ge 0) {
+            if (($query -ne '' -or $category -eq '' -or $category -eq $entry.group) -and $haystack.IndexOf($query,[StringComparison]::OrdinalIgnoreCase) -ge 0) {
                 $display=$entry.name
                 if ($entry.error) {$display+=' (check setup)'}
                 [void]$list.Items.Add([pscustomobject]@{Display=$display;Entry=$entry},$script:checked.ContainsKey($entry.name))
@@ -601,6 +921,7 @@ function Log-Result($text) {
 function Begin-Requests($items) {
     if ($script:busy -or $items.Count -eq 0) {return}
     $script:busy=$true; $script:completed=0; $script:failed=0
+    $tabs.SelectedTab=$pages.Activity
     $results.Clear(); $script:queue.Clear()
     foreach ($item in $items) {$script:queue.Enqueue($item)}
     Start-Next
@@ -611,12 +932,13 @@ function Finish-Current($ok,$message) {
         $script:checked.Remove($script:active.name)
     }
     Log-Result ($prefix+' - '+$script:active.name+': '+$message)
+    Record-Launch $script:active $prefix $message
     $script:completed++; $script:active=$null; $script:process=$null
 }
 function Start-Next {
     if ($script:queue.Count -eq 0) {
         $script:busy=$false
-        $status.Text='Finished: '+$script:completed+' attempted, '+$script:failed+' not confirmed. See launch details.'
+        $status.Text='Finished: '+$script:completed+' attempted, '+$script:failed+' not confirmed. See Activity.'
         $saved=$status.Text
         Filter-Agents
         $status.Text=$saved
@@ -657,6 +979,7 @@ function Stop-Remaining {
     while ($script:queue.Count -gt 0) {
         $item=$script:queue.Dequeue()
         Log-Result ('Cancelled - '+$item.name+': not started')
+        Record-Launch $item 'Cancelled' 'Cancelled before startup'
     }
     if ($script:busy) {$status.Text='Remaining agents cancelled. The current request may still finish.'}
     Update-Buttons
@@ -697,7 +1020,15 @@ $list.Add_ItemCheck({
     Update-Buttons
 })
 $runtime.Add_SelectedIndexChanged({Save-Settings})
+$instructionRuntime.Add_SelectedIndexChanged({
+    if (-not $script:loading -and $instructionRuntime.SelectedIndex -ge 0) {$runtime.SelectedIndex=$instructionRuntime.SelectedIndex}
+})
+$instructionAgent.Add_SelectionChangeCommitted({Focus-Agent ([string]$instructionAgent.SelectedItem)})
 $task.Add_TextChanged({Save-Settings})
+$editInstructions.Add_Click({$tabs.SelectedTab=$pages.Instructions})
+$selectedLink.Add_LinkClicked({$tabs.SelectedTab=$pages.Selected})
+$historyList.Add_SelectedIndexChanged({Select-History})
+$historyOpen.Add_Click({if ($historyList.SelectedItem) {Focus-Agent $historyList.SelectedItem.Record.name 'Agents'}})
 $clear.Add_Click({$script:checked.Clear();Filter-Agents})
 $stop.Add_Click({Stop-Remaining})
 $batch.Add_Click({
@@ -706,6 +1037,8 @@ $batch.Add_Click({
 })
 $start.Add_Click({Begin-Launch 'new'})
 $resume.Add_Click({Begin-Launch 'resume'})
+$instructionStart.Add_Click({Begin-Launch 'new'})
+$instructionResume.Add_Click({Begin-Launch 'resume'})
 $form.Add_FormClosing({
     if ($script:busy -and $script:queue.Count -gt 0) {
         Stop-Remaining
@@ -726,10 +1059,19 @@ $groupActions.Add_Click({Update-Buttons; $groupMenu.Show($groupActions,(New-Obje
 $deleteGroup.Add_Click({Delete-Group})
 $usePreset.Add_Click({Apply-Preset $false})
 $batchPreset.Add_Click({Apply-Preset $true})
-$presetActions.Add_Click({$presetMenu.Show($presetActions,(New-Object Drawing.Point(0,$presetActions.Height)))})
-$details.Add_LinkClicked({Set-DetailsVisible (-not $results.Visible)})
-foreach ($p in $presets) {[void]$preset.Items.Add($p.name)}
-$preset.SelectedIndex=0
+$savePreset.Add_Click({
+    try {
+        $value=Ask-GroupName 'Save these instructions as a preset' ''
+        if ($null -ne $value) {Save-CustomPreset $value}
+    } catch {$status.Text=$_.Exception.Message;$tooltip.SetToolTip($status,$status.Text)}
+})
+$deletePreset.Add_Click({try {Delete-CustomPreset} catch {$status.Text=$_.Exception.Message}})
+$reloadPresets=$presetMenu.Items.Add('Reload saved presets')
+$reloadPresets.Add_Click({Reload-CustomPresets; Update-Buttons})
+$presetActions.Add_Click({Update-Buttons; $presetMenu.Show($presetActions,(New-Object Drawing.Point(0,$presetActions.Height)))})
+$preset.Add_SelectedIndexChanged({Update-Buttons})
+$details.Add_LinkClicked({Set-DetailsVisible $true})
+Reload-CustomPresets
 $categories.SelectedIndex=0
 try {Read-Groups; Refresh-Groups} catch {
     $script:groupsHealthy=$false
@@ -737,11 +1079,18 @@ try {Read-Groups; Refresh-Groups} catch {
     Log-Result ($_.Exception.Message+' File: '+$script:groupsPath)
     Set-DetailsVisible $true
 }
+try {$saved=Read-LocalRecords $script:historyPath 'history'; $script:history=@($saved.records)} catch {
+    $status.Text='Saved activity could not be read. The original file was kept.'
+    Log-Result ($_.Exception.Message+' File: '+$script:historyPath)
+}
+Refresh-History
 Update-Buttons
 $timer.Start()
 if ($SmokeTest) {
+    function Test-Step($name) {[IO.File]::WriteAllText((Join-Path $data.directory 'test-stage.txt'),$name)}
     $form.Add_Shown({
         try {
+            Test-Step 'Initial selection and policy'
             $search.Text='CATO'
             if ($runtime.Text -ne 'Codex Astra' -or $runtime.Enabled) {throw 'CATO policy UI failed'}
             $list.SetItemChecked(0,$true)
@@ -764,19 +1113,20 @@ if ($SmokeTest) {
             if ($start.Enabled -or $resume.Enabled -or -not $batch.Enabled) {throw 'Empty search/hidden batch behavior failed'}
             $clear.PerformClick()
             if ($script:checked.Count -ne 0 -or $batch.Enabled) {throw 'Clear selection failed'}
-            $script:queue.Enqueue(@{name='NOT_STARTED_TEST'})
+            $script:queue.Enqueue(@{name='NOT_STARTED_TEST';runtime='sol';action='new';task=''})
             Stop-Remaining
             if ($script:queue.Count -ne 0 -or $results.Text -notmatch 'Cancelled - NOT_STARTED_TEST') {throw 'Stop remaining failed'}
             $results.Clear()
             $search.Clear(); $categories.SelectedIndex=2; $search.Text='CARL'
             $list.SetItemChecked(0,$true); $list.SetItemChecked(1,$true); $list.SetItemChecked(2,$true)
+            Test-Step 'Group persistence and validation'
             # Save/reload real preference files in an isolated Windows temp folder.
             $savedGroups.Text='Consumer review'; $saveGroup.PerformClick()
             if (-not [IO.File]::Exists($script:groupsPath)) {throw ('Group save failed: '+$status.Text)}
             $original=[IO.File]::ReadAllText($script:groupsPath)
             if ($original -match 'Only CARL receives') {throw 'Group persisted task text'}
             $clear.PerformClick(); $script:settings['CARL'].runtime='sol'
-            $script:groups=@(); Read-Groups; Refresh-Groups; $loadGroup.PerformClick()
+            $script:groups=@(); Read-Groups; Refresh-Groups; $tabs.SelectedTab=$pages.Selected; $loadGroup.PerformClick()
             if ($script:checked.Count -ne 3 -or $script:settings['CARL'].runtime -ne 'claude') {throw 'Saved group failed to reload'}
             $failed=$false
             try {Apply-Group @{name='Invalid';members=@(@{name='CARL';runtime='sol'},@{name='MISSING_TEST';runtime='sol'})}} catch {$failed=$true}
@@ -801,7 +1151,8 @@ if ($SmokeTest) {
             $saved=@($script:groups); Write-Groups @()
             if ($script:groups.Count -ne 0) {throw 'Deleting last group failed'}
             Write-Groups $saved; Refresh-Groups
-            $search.Text='CARL'; $task.Clear()
+            Test-Step 'Built-in presets'
+            $search.Text='CARL'; $task.Clear(); $tabs.SelectedTab=$pages.Instructions
             $preset.SelectedIndex=0; $usePreset.PerformClick()
             if ($task.Text -ne $presets[0].text -or $resume.Enabled) {throw 'Current-agent preset failed'}
             $task.Text+=' Editable detail.'
@@ -840,56 +1191,147 @@ if ($SmokeTest) {
             try {Rename-SavedGroup 'Existing group'} catch {$failed=$true}
             if (-not $failed -or [IO.File]::ReadAllText($script:groupsPath) -cne $before) {throw 'Rename overwrote another group'}
             Rename-SavedGroup 'Consumer review'
-            # Selection chips include hidden agents and remove only their target.
-            $search.Text='no-such-agent-987654'
-            if ($chips.Controls.Count -ne $script:checked.Count) {throw 'Tray lost hidden agents'}
-            $remove=$chips.Controls[0]; $removedName=[string]$remove.Tag
-            $beforeCount=$script:checked.Count
-            $beforeTask=$script:settings[$removedName].task
-            $remove.PerformClick()
-            if ($script:checked.ContainsKey($removedName) -or $script:checked.Count -ne ($beforeCount-1) -or $script:settings[$removedName].task -cne $beforeTask) {throw 'Chip removal changed other selection or settings'}
+            Test-Step 'Search, selected editing, and tab state'
+            # Searching crosses categories; clearing restores category browsing.
+            $tabs.SelectedTab=$pages.Agents; $categories.SelectedIndex=2; $search.Text='MIDAS'
+            if (@($list.Items | Where-Object {$_.Entry.name -eq 'MIDAS'}).Count -ne 1 -or $searchScope.Text -notmatch 'all agents') {throw 'Global search missed an agent outside the category'}
+            $search.Clear()
+            if ($categories.SelectedIndex -ne 2) {throw 'Clearing search changed the browsed category'}
+            foreach ($item in $list.Items) {if ($item.Entry.group -ne $categories.SelectedItem.Name) {throw 'Clearing search did not restore category browsing'}}
+            # Selected names navigate; only their separate x removes membership.
+            $search.Text='no-such-agent-987654'; $tabs.SelectedTab=$pages.Selected
+            if ($chips.Controls.Count -ne $script:checked.Count) {throw 'Selected page lost hidden agents'}
+            $card=$chips.Controls[0]; $agentName=[string]$card.Tag
+            $beforeCount=$script:checked.Count; $beforeTask=$script:settings[$agentName].task
+            $card.Controls[0].PerformClick()
+            if ($tabs.SelectedTab -ne $pages.Instructions -or $script:selected.name -ne $agentName -or $script:checked.Count -ne $beforeCount -or -not $script:checked.ContainsKey($agentName) -or $task.Text -cne $beforeTask) {throw 'Selected-name navigation lost membership or settings'}
+            $task.Text='A distinct edited instruction for '+$agentName
+            $instructionRuntime.SelectedIndex=1
+            if ($runtime.Text -ne 'Claude' -or $script:settings[$agentName].runtime -ne 'claude') {throw 'Instructions runtime did not synchronize'}
+            foreach ($page in $tabs.TabPages) {$tabs.SelectedTab=$page}
+            if ($script:settings[$agentName].task -cne $task.Text -or $script:checked.Count -ne $beforeCount) {throw 'Tab switching lost preparation state'}
+            $tabs.SelectedTab=$pages.Selected; $card.Controls[2].PerformClick()
+            if ($script:checked.ContainsKey($agentName) -or $script:checked.Count -ne ($beforeCount-1) -or $script:settings[$agentName].task -notmatch 'distinct edited instruction') {throw 'Remove changed another selection or discarded instructions'}
+            # Tab navigation is allowed during a queue; editing remains disabled.
+            $script:queue.Enqueue(@{name='QUEUED_TEST';runtime='sol';action='new';task=''})
             $script:busy=$true; Update-Buttons
-            foreach ($chip in $chips.Controls) {if ($chip.Enabled) {throw 'Selection chip enabled during launch'}}
-            $script:busy=$false; Update-Buttons
-            # Details expand/collapse without losing form size or hiding the tray.
-            $height=$form.ClientSize.Height
-            Set-DetailsVisible $true
-            if (-not $results.Visible -or $results.Bottom -gt $tray.Top) {throw 'Expanded launch details overlap selection tray'}
-            Set-DetailsVisible $false
-            if ($results.Visible -or $form.ClientSize.Height -ne $height) {throw 'Details toggle changed collapsed form size'}
+            foreach ($page in $tabs.TabPages) {$tabs.SelectedTab=$page}
+            foreach ($card in $chips.Controls) {if ($card.Enabled) {throw 'Selected controls enabled during launch'}}
+            if ($task.Enabled -or $instructionRuntime.Enabled -or $instructionStart.Enabled -or $script:queue.Count -ne 1) {throw 'Busy tab switch changed queue or enabled editing'}
+            $script:queue.Clear(); $script:busy=$false; Update-Buttons
+            Test-Step 'Custom presets'
+            # Custom presets persist separately, remain editable, and preserve built-ins.
+            Focus-Agent 'CARL'; $task.Text="A custom literal instruction.`r`nSecond line."
+            $groupBefore=[IO.File]::ReadAllText($script:groupsPath)
+            Save-CustomPreset 'My recurring instruction'
+            $presetBefore=[IO.File]::ReadAllText($script:presetPath)
+            if ([IO.File]::ReadAllText($script:groupsPath) -cne $groupBefore) {throw 'Custom preset changed saved groups'}
+            $script:customPresets=@(); Reload-CustomPresets
+            $preset.SelectedItem='My recurring instruction'; $task.Clear(); $usePreset.PerformClick()
+            if ($task.Text -notmatch 'Second line' -or $resume.Enabled) {throw 'Saved custom preset did not apply'}
+            $failed=$false
+            try {Save-CustomPreset $builtInPresets[0].name} catch {$failed=$true}
+            if (-not $failed -or [IO.File]::ReadAllText($script:presetPath) -cne $presetBefore) {throw 'Custom save overwrote a built-in preset'}
+            [IO.File]::WriteAllText($script:presetPath,$presetBefore+"`r`n")
+            $failed=$false
+            try {Save-CustomPreset 'Concurrent write'} catch {$failed=$true}
+            if (-not $failed -or [IO.File]::ReadAllText($script:presetPath) -cne ($presetBefore+"`r`n")) {throw 'Concurrent preset write was overwritten'}
+            Reload-CustomPresets
+            [IO.File]::WriteAllText($script:presetPath,'{broken'); Reload-CustomPresets
+            $failed=$false
+            try {Save-CustomPreset 'Refuse corrupt'} catch {$failed=$true}
+            if (-not $failed -or $script:presetsHealthy -or [IO.File]::ReadAllText($script:presetPath) -cne '{broken') {throw 'Corrupt custom presets were overwritten'}
+            [IO.File]::WriteAllText($script:presetPath,$presetBefore); Reload-CustomPresets
+            $preset.SelectedItem='My recurring instruction'
+            $script:confirmChange={param($message,$title) return $false}
+            $task.Text='Changed wording'; Save-CustomPreset 'My recurring instruction'; Delete-CustomPreset
+            if ([IO.File]::ReadAllText($script:presetPath) -cne $presetBefore) {throw 'Cancelled preset overwrite/delete changed disk'}
+            $script:confirmChange={param($message,$title) return $true}
+            Save-CustomPreset 'My recurring instruction'
+            if ($script:customPresets[0].text -cne 'Changed wording') {throw 'Confirmed preset update failed'}
+            Delete-CustomPreset
+            if ($script:customPresets.Count -ne 0 -or $task.Text -cne 'Changed wording') {throw 'Deleting final preset discarded current instructions'}
+            $script:confirmChange=$normalConfirm
+            Test-Step 'History persistence and retention'
+            # History merges current disk records and bounds storage, without launches.
+            $request=@{name='CARL';runtime='sol';action='new';task='Exact history task'}
+            Record-Launch $request 'Opened' 'Fixture CLI process acknowledged'
+            $other=@{time=[DateTimeOffset]::Now.ToString('o');name='CATO';runtime='astra';action='resume';task='';outcome='Not confirmed';message='Other window fixture'}
+            [void](Write-LocalRecords $script:historyPath 'history' @($other) '' $true)
+            Record-Launch $request 'Cancelled' 'Fixture cancelled before startup'
+            $saved=Read-LocalRecords $script:historyPath 'history'
+            if (@($saved.records | Where-Object {$_.message -eq 'Other window fixture'}).Count -ne 1 -or @($saved.records | Where-Object {$_.task -eq 'Exact history task'}).Count -ne 2) {throw 'History merge lost another window or task text'}
+            $many=@(1..103 | ForEach-Object {@{time=[DateTimeOffset]::Now.ToString('o');name='CARL';runtime='sol';action='new';task='';outcome='Opened';message=('Fixture '+$_)}})
+            $saved=Write-LocalRecords $script:historyPath 'history' $many '' $true
+            if ($saved.records.Count -ne 100 -or $saved.records[0].message -ne 'Fixture 4') {throw 'History retention failed'}
+            $script:history=@($saved.records); Refresh-History
+            if ($historyList.Items.Count -ne 100 -or $historyDetail.Text -notmatch 'not a live work-status report') {throw 'History display overstates startup or loses records'}
+            $historyBefore=$saved.text
+            [IO.File]::WriteAllText($script:historyPath,'{broken')
+            Record-Launch $request 'Not confirmed' 'Fixture failed startup'
+            if ([IO.File]::ReadAllText($script:historyPath) -cne '{broken' -or $results.Text -notmatch 'Launch history not saved') {throw 'Corrupt history was overwritten or hidden'}
+            [IO.File]::WriteAllText($script:historyPath,$historyBefore)
+            $saved=Read-LocalRecords $script:historyPath 'history'; $script:history=@($saved.records); Refresh-History
+            $tabs.SelectedTab=$pages.Activity
+            $beforeCount=$script:checked.Count; $beforeTask=$script:settings['CARL'].task
+            $historyOpen.PerformClick()
+            if ($tabs.SelectedTab -ne $pages.Agents -or $script:selected.name -ne 'CARL' -or $script:checked.Count -ne $beforeCount -or $script:settings['CARL'].task -cne $beforeTask) {throw 'History navigation changed preparation state'}
+            Test-Step 'Page bounds and resize'
+            # Activity has its own page; errors reveal it without growing the window.
+            $tabs.SelectedTab=$pages.Agents; $height=$form.ClientSize.Height
             Log-Result 'Not confirmed - ISOLATED_TEST: fixture error'
-            if (-not $results.Visible) {throw 'Launch error did not reveal details'}
-            Set-DetailsVisible $false; $results.Clear()
-            $categories.SelectedIndex=0; $search.Clear()
-            for ($i=0;$i -lt $list.Items.Count;$i++) {if ($list.Items[$i].Entry.name -eq 'CARL') {$list.SelectedIndex=$i;break}}
-            foreach ($control in $form.Controls) {
-                if ($control.Visible -and $control -ne $tray -and $control.Bottom -gt $tray.Top) {throw ('Control overlaps selection tray: '+$control.Text)}
-                if ($control.Visible -and $control.Right -gt $form.ClientSize.Width) {throw ('Control exceeds form width: '+$control.Text)}
+            if ($tabs.SelectedTab -ne $pages.Activity -or $form.ClientSize.Height -ne $height) {throw 'Launch error failed to reveal Activity'}
+            $results.Clear(); Focus-Agent 'CARL' 'Agents'
+            foreach ($page in $tabs.TabPages) {
+                Test-Step ('Bounds: '+$page.Name)
+                $tabs.SelectedTab=$page
+                foreach ($control in $page.Controls) {
+                    if ($control.Visible -and ($control.Right -gt $page.ClientSize.Width -or $control.Bottom -gt $page.ClientSize.Height)) {throw ('Page control exceeds bounds: '+$page.Name+' / '+$control.Text+' / '+$control.Bounds.ToString()+' / page '+$page.ClientSize.ToString())}
+                }
             }
-            # Resize once; anchored controls must retain separation and visibility.
             $width=$form.ClientSize.Width
+            Test-Step 'Grow window'
             $form.ClientSize=New-Object Drawing.Size(($width+160),$form.ClientSize.Height)
-            if ($start.Right -ge $resume.Left -or $preset.Right -ge $usePreset.Left -or $chips.Right -ge $batch.Left) {throw 'Resized controls overlap'}
+            $resizeEnd=[Windows.Forms.Form].GetMethod('OnResizeEnd',([Reflection.BindingFlags]::Instance -bor [Reflection.BindingFlags]::NonPublic))
+            [void]$resizeEnd.Invoke($form,@([EventArgs]::Empty))
+            Test-Step 'Check resized controls'
+            $tabs.SelectedTab=$pages.Instructions
+            if ($preset.Right -ge $usePreset.Left) {throw 'Resized instruction controls overlap'}
+            Test-Step 'Restore window size'
             $form.ClientSize=New-Object Drawing.Size($width,$form.ClientSize.Height)
+            [void]$resizeEnd.Invoke($form,@([EventArgs]::Empty))
             $retained=@($script:checked.Keys)
+            Test-Step 'Full selection overflow'
             foreach ($entry in $data.agents) {$script:checked[$entry.name]=$true}
-            Update-Buttons; $chips.PerformLayout()
-            if ($chips.Controls.Count -ne $data.agents.Count -or $chips.DisplayRectangle.Width -le $chips.ClientSize.Width) {throw 'Full selection does not scroll in tray'}
+            $tabs.SelectedTab=$pages.Selected; Update-Buttons; $chips.PerformLayout()
+            if ($chips.Controls.Count -ne $data.agents.Count -or $chips.DisplayRectangle.Height -le $chips.ClientSize.Height) {throw 'Full selection does not scroll on Selected page'}
             $script:checked.Clear(); Update-Buttons
-            if ($chips.Controls.Count -ne 1 -or $chips.Controls[0] -isnot [Windows.Forms.Label] -or $batch.Enabled) {throw 'Empty tray state failed'}
+            if ($chips.Controls.Count -ne 1 -or $chips.Controls[0] -isnot [Windows.Forms.Label] -or $batch.Enabled) {throw 'Empty selection state failed'}
             foreach ($key in $retained) {$script:checked[$key]=$true}
             Filter-Agents
             if (@(Get-ChildItem -LiteralPath $data.directory -Filter '*.claimed').Count -ne 0) {throw 'Saving/loading/presets started an agent'}
-            $status.Text='Ready. Review your selected agents in the tray below.'
+            Test-Step 'Screenshots'
+            $status.Text='Ready. Use the tabs to choose agents, prepare instructions, and review activity.'
+            $tabs.SelectedTab=$pages.Agents
             $form.Refresh()
             $bitmap=New-Object Drawing.Bitmap($form.Width,$form.Height)
             $form.DrawToBitmap($bitmap,(New-Object Drawing.Rectangle(0,0,$form.Width,$form.Height)))
             $bitmap.Save((Join-Path $data.directory 'preview.png')); $bitmap.Dispose()
-            @{ok=$true;checks='Categories, retained selection, per-agent runtime/task, hidden preview, CATO, resume, empty search, clear, stop remaining, saved groups, atomic persistence, concurrent/corrupt-file refusal, task presets, group rename/collision, hidden selection chips/removal, busy controls, expandable/error details, layout bounds and resize'} | ConvertTo-Json | Set-Content -Encoding UTF8 (Join-Path $data.directory 'smoke.json')
+            foreach ($page in $tabs.TabPages) {
+                $tabs.SelectedTab=$page; $form.Refresh()
+                $bitmap=New-Object Drawing.Bitmap($form.Width,$form.Height)
+                $form.DrawToBitmap($bitmap,(New-Object Drawing.Rectangle(0,0,$form.Width,$form.Height)))
+                $bitmap.Save((Join-Path $data.directory ($page.Name+'.png'))); $bitmap.Dispose()
+            }
+            @{ok=$true;checks='Categories, retained selection, per-agent runtime/task, hidden preview, CATO, resume, empty search, clear, stop remaining, saved groups, atomic persistence, concurrent/corrupt-file refusal, task presets, group rename/collision, global search/category restore, selected-name navigation and separate removal, tab state/busy queue preservation, custom preset persistence/corruption/concurrency/confirmation, bounded history merging/corruption, Activity errors, page bounds and resize'} | ConvertTo-Json | Set-Content -Encoding UTF8 (Join-Path $data.directory 'smoke.json')
         } catch {
+            $bitmap=New-Object Drawing.Bitmap($form.Width,$form.Height)
+            $form.DrawToBitmap($bitmap,(New-Object Drawing.Rectangle(0,0,$form.Width,$form.Height)))
+            $bitmap.Save((Join-Path $data.directory 'failed.png')); $bitmap.Dispose()
             @{ok=$false;error=$_.Exception.Message} | ConvertTo-Json | Set-Content -Encoding UTF8 (Join-Path $data.directory 'smoke.json')
         } finally {$form.Close()}
     })
 }
 [void]$form.ShowDialog()
 $form.Dispose()
+if ($testDeadline) {$testDeadline.Dispose()}

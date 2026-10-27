@@ -68,8 +68,9 @@ $probeDeadline=[DateTime]::UtcNow.AddSeconds(50)
 $probe.Add_Tick({
     if (-not $script:busy -or [DateTime]::UtcNow -gt $probeDeadline) {
         @{busy=$script:busy;status=$status.Text;results=$results.Text;checked=$script:checked.Count;
-          cancel_verified=$script:cancelVerified;preview=$script:previewSeen} |
-          ConvertTo-Json | Set-Content -Encoding UTF8 (Join-Path $data.directory 'ui-result.json')
+          cancel_verified=$script:cancelVerified;preview=$script:previewSeen;
+          page=$tabs.SelectedTab.Name;history=@($script:history);history_file=$script:historyPath} |
+          ConvertTo-Json -Depth 8 | Set-Content -Encoding UTF8 (Join-Path $data.directory 'ui-result.json')
         $probe.Stop();$script:queue.Clear();$form.Close()
     }
 })
@@ -78,7 +79,7 @@ $form.Add_Shown({
     $list.SetItemChecked(0,$true);$list.SetItemChecked(1,$true);$list.SetItemChecked(2,$true)
     $list.SelectedIndex=2; $runtime.SelectedIndex=1; $task.Text='Only the second agent receives this task.'
     $dialogProbe.Start(); $batch.PerformClick()
-    $script:cancelVerified=(-not $script:busy -and $script:queue.Count -eq 0 -and $results.TextLength -eq 0)
+    $script:cancelVerified=(-not $script:busy -and $script:queue.Count -eq 0 -and $results.TextLength -eq 0 -and $script:history.Count -eq 0)
     $script:choice='Launch selected'; $batch.PerformClick()
     $probe.Start()
 })
@@ -102,6 +103,19 @@ try:
     assert 'Not confirmed - MISSING_TEST' in ui['results'], ui
     assert 'Opened - LAUNCHER_TEST' in ui['results'] and 'Opened - SECOND_TEST' in ui['results'], ui
     assert ui['checked'] == 1, ui  # Only the failed agent remains checked.
+    assert ui['page'] == 'Activity', ui
+    assert len(ui['history']) == 3, ui  # Preview cancellation creates no launch record.
+    records = {record['name']: record for record in ui['history']}
+    assert records['LAUNCHER_TEST']['outcome'] == 'Opened', ui
+    assert records['MISSING_TEST']['outcome'] == 'Not confirmed', ui
+    assert records['SECOND_TEST']['outcome'] == 'Opened', ui
+    assert records['LAUNCHER_TEST']['runtime'] == 'sol', ui
+    assert records['SECOND_TEST']['runtime'] == 'claude', ui
+    assert records['LAUNCHER_TEST']['task'] == task, ui
+    assert records['SECOND_TEST']['task'] == 'Only the second agent receives this task.', ui
+    history_file = Path(subprocess.check_output(['wslpath', '-u', ui['history_file']], text=True).strip())
+    saved_history = json.loads(history_file.read_text(encoding='utf-8-sig'))
+    assert saved_history['history'] == ui['history'], 'Launch history was not persisted'
     assert 'Codex Sol' in ui['preview'] and 'Claude' in ui['preview'], ui
     assert task.replace('\n', '\r\n') in ui['preview'].replace('\r\n', '\n').replace('\n', '\r\n'), ui
     captures = [json.loads((p / 'capture.json').read_text()) for p in (projects[0], projects[2])]
@@ -113,6 +127,6 @@ try:
     assert not any((p / 'exited').exists() for p in (projects[0], projects[2])), 'Both agents must still be running together'
     assert len(list(base.glob('*.claimed'))) == 3, 'Cancel or double click dispatched extra requests'
     (base / 'proof.json').write_text(json.dumps(dict(ok=True, ui=ui, captures=captures), indent=2))
-    print('PASS: real preview cancel/confirm, 3 queued requests, independent Sol/Claude tasks, continued after missing folder, 2 concurrent fake CLIs, 1 retained error.')
+    print('PASS: real preview cancel/confirm, 3 queued requests, independent Sol/Claude tasks, continued after missing folder, 2 concurrent fake CLIs, 1 retained error, Activity page, and 3 exact persisted launch records.')
 finally:
     release.touch()  # The harmless terminal windows exit automatically.
