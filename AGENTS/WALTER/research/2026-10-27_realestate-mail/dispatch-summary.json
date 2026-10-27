@@ -1,0 +1,39 @@
+{
+  "timestamp": "2026-10-27T16:04:05Z",
+  "signals": 2,
+  "handoffs": 7,
+  "rows": [
+    {
+      "signal_id": "SIG-W-20261027-041",
+      "slug": "ozk-morgan-reported-refinancing",
+      "board_path": "BOARD/SIG-W-20261027-041-ozk-morgan-reported-refinancing.md",
+      "handoffs": [
+        "AGENTS/OZK/inbox/WALTER/SIG-W-20261027-041.md",
+        "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-041.md",
+        "AGENTS/CREED/inbox/WALTER/SIG-W-20261027-041.md"
+      ]
+    },
+    {
+      "signal_id": "SIG-W-20261027-042",
+      "slug": "rental-concessions-separate-series",
+      "board_path": "BOARD/SIG-W-20261027-042-rental-concessions-separate-series.md",
+      "handoffs": [
+        "AGENTS/HOMER/inbox/WALTER/SIG-W-20261027-042.md",
+        "AGENTS/CORAL/inbox/WALTER/SIG-W-20261027-042.md",
+        "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-042.md",
+        "AGENTS/CREED/inbox/WALTER/SIG-W-20261027-042.md"
+      ]
+    }
+  ],
+  "paths": [
+    "BOARD/SIG-W-20261027-041-ozk-morgan-reported-refinancing.md",
+    "AGENTS/OZK/inbox/WALTER/SIG-W-20261027-041.md",
+    "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-041.md",
+    "AGENTS/CREED/inbox/WALTER/SIG-W-20261027-041.md",
+    "BOARD/SIG-W-20261027-042-rental-concessions-separate-series.md",
+    "AGENTS/HOMER/inbox/WALTER/SIG-W-20261027-042.md",
+    "AGENTS/CORAL/inbox/WALTER/SIG-W-20261027-042.md",
+    "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-042.md",
+    "AGENTS/CREED/inbox/WALTER/SIG-W-20261027-042.md"
+  ]
+}

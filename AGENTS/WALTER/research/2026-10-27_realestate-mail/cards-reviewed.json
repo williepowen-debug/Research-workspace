@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "ozk-morgan-reported-refinancing",
+    "title": "Reported Chicago refinancing may remove a legacy OZK exposure; payoff primary remains unread",
+    "domain": "BANK_CRE",
+    "cluster": "BANK_COLLATERAL",
+    "action": ["OZK"],
+    "info": ["REGINALD", "CREED", "RED"],
+    "confidence": 0.78,
+    "entities": ["OZK", "Bank-OZK", "Sterling-Bay", "DekaBank", "345-North-Morgan", "Chicago", "HAVI"],
+    "sources": ["https://finance.yahoo.com/real-estate/articles/sterling-bay-lands-79m-refi-180000559.html", "https://crenews.com/2026/10/26/sterling-bay-secures-79mln-loan-against-chicago-office-building/"],
+    "body": "The October 27 Trepp newsletter reports $79 million of DekaBank financing on Sterling Bay's 345 North Morgan office in Chicago, intended to pay off the recently matured $70 million Bank OZK construction loan. The Real Deal's October 23 report, syndicated by Yahoo, attributes the transaction to Crain's reporting from county records. CRE Direct repeats the same source chain; these are not independent confirmations.\n\nThis is useful contrary evidence against treating the roughly $70 million as continuing extended exposure: OZK's GEOGRAPHY/EXPOSURE_MAP.md still lists an August 2026 extension. The recorded mortgage, satisfaction/release, closing statement and bank cash recovery were not read. Reported refinancing is stronger than a financing proposal, but does not certify full payoff, zero loss or the amount OZK ultimately recovered.\n\nA source conflict also survives: Trepp gives HAVI's lease end as March 2038; TRD says March 2039 and dates 94% leasing to earlier in 2026. Do not promote either into a verified closing-day occupancy/lease record.\n\nOZK ACTION: reconcile the existing exposure row against this reported takeout and retain primary-payoff uncertainty. No forced rewrite, thesis grade, trade or new monitoring assignment. REGINALD and CREED receive the bank/collateral context; no distress-case classification is asserted from an ordinary refinancing alone."
+  },
+  {
+    "slug": "rental-concessions-separate-series",
+    "title": "Rental concessions: easing RealPage usage and rising Apartment List prevalence measure different populations",
+    "domain": "BANK_CRE",
+    "cluster": "BANK_COLLATERAL",
+    "action": ["HOMER", "CORAL"],
+    "info": ["REGINALD", "CARL", "CREED", "RED"],
+    "confidence": 0.98,
+    "entities": ["RealPage", "Apartment-List", "Florida", "Orlando", "Miami", "Austin"],
+    "sources": ["https://www.realpage.com/analytics/us-concessions-september-2026/", "https://www.realpage.com/analytics/market-concessions-september-2026/", "https://www.apartmentlist.com/research/concession-rate-methodology"],
+    "body": "RealPage's October 20 primary release reports September 2026 incentives on 14.5% of stabilized U.S. units, versus 17% in May. The average incentive where offered was 11.1%, about 5.8 free weeks on a twelve-month lease. That is discount depth among concessions, not an 11.1% reduction across the entire rental stock. Occupancy was 95.2%; same-store effective rents rose 1.5% year over year. This is improving usage breadth alongside persistent discount depth, not proof of a national turning point.\n\nApartment List's October 22 methodology introduces a different measure: properties on its platform advertising new-lease incentives worth at least one month's rent. September prevalence was 31.3% nationally, versus 25.4% a year earlier; Austin was 57.4%. It uses text interpretation of advertised offers. Do not splice this property-level, thresholded measure into RealPage's stabilized-unit series or HOMER's separate Zillow series.\n\nRealPage's October 26 regional release adds Florida counterevidence: usage fell in 14 of 17 markets; Orlando declined 5.4 percentage points to 15.4%, Miami 3.2 points to 12.5%. Austin's RealPage usage was 33.1%, illustrating the population mismatch with Apartment List. Regional usage improvement does not establish a bank-loss reversal.\n\nHOMER ACTION: reconcile these dated observations and separate definitions within existing multifamily coverage. CORAL ACTION: incorporate the Florida breadth evidence with the retained deep-discount caveat. No owner band, score or trigger is changed; no collector or recurring monitor is authorized."
+  }
+]

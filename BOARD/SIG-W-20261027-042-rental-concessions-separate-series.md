@@ -1,0 +1,37 @@
+---
+signal_id: SIG-W-20261027-042
+date: '2026-10-27'
+timestamp: '2026-10-27T16:04:05Z'
+dispatched: '2026-10-27T16:04:05Z'
+source: WALTER
+origin: ['https://www.realpage.com/analytics/us-concessions-september-2026/', 'https://www.realpage.com/analytics/market-concessions-september-2026/',
+  'https://www.apartmentlist.com/research/concession-rate-methodology']
+domain: BANK_CRE
+cluster: BANK_COLLATERAL
+action: [HOMER, CORAL]
+info: [REGINALD, CARL, CREED, RED]
+precedence: PRIORITY
+signal_type: research
+confidence: 0.98
+confidence_language: confirmed
+entities: [RealPage, Apartment-List, Florida, Orlando, Miami, Austin]
+resources: 1
+safety_net: clear
+event_window: closed
+word_count: 222
+dispatch_note: Will-directed Gmail signal processing; retrieved source scope and access
+  limits only. No owner grade, new study or trade. Publication, delivery and consumption
+  remain separate.
+---
+# Rental concessions: easing RealPage usage and rising Apartment List prevalence measure different populations
+
+RealPage's October 20 primary release reports September 2026 incentives on 14.5% of stabilized U.S. units, versus 17% in May. The average incentive where offered was 11.1%, about 5.8 free weeks on a twelve-month lease. That is discount depth among concessions, not an 11.1% reduction across the entire rental stock. Occupancy was 95.2%; same-store effective rents rose 1.5% year over year. This is improving usage breadth alongside persistent discount depth, not proof of a national turning point.
+
+Apartment List's October 22 methodology introduces a different measure: properties on its platform advertising new-lease incentives worth at least one month's rent. September prevalence was 31.3% nationally, versus 25.4% a year earlier; Austin was 57.4%. It uses text interpretation of advertised offers. Do not splice this property-level, thresholded measure into RealPage's stabilized-unit series or HOMER's separate Zillow series.
+
+RealPage's October 26 regional release adds Florida counterevidence: usage fell in 14 of 17 markets; Orlando declined 5.4 percentage points to 15.4%, Miami 3.2 points to 12.5%. Austin's RealPage usage was 33.1%, illustrating the population mismatch with Apartment List. Regional usage improvement does not establish a bank-loss reversal.
+
+HOMER ACTION: reconcile these dated observations and separate definitions within existing multifamily coverage. CORAL ACTION: incorporate the Florida breadth evidence with the retained deep-discount caveat. No owner band, score or trigger is changed; no collector or recurring monitor is authorized.
+
+Evidence: AGENTS/WALTER/research/2026-10-27_realestate-mail/SOURCES.md
+Sources: https://www.realpage.com/analytics/us-concessions-september-2026/; https://www.realpage.com/analytics/market-concessions-september-2026/; https://www.apartmentlist.com/research/concession-rate-methodology

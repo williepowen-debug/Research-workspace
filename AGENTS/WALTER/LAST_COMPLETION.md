@@ -1,3 +1,15 @@
+# WALTER continuation — real estate mailbox review
+
+Updated 2026-10-27T16:07:22Z. Bounded mailbox curation DONE; broad boot remains PARTIAL.
+
+Will authorized research-value review and deletion in Markets/Real Estate. Exact 1,152-message scope: 183 moved to Trash (163 duplicates, 19 irrelevant/promotions, one specifically integrated recap), four account records refiled, 965 unique research sources/leads retained; three Research Highlights. Final label counts and exact Trash IDs independently verified. No permanent deletion, external send, unread mutation, filter or unsubscribe. Private audit is gitignored; public result: research/2026-10-27_realestate-mail/RESULT.md.
+
+New cards 20261027-041/042, seven handoffs: reported Chicago OZK takeout remains primary-unverified; RealPage/Apartment List concession definitions and Florida evidence source-checked. Two bounded Rule9 verification helpers returned read-only; no domain launch. No owner grade, exposure rewrite, trade or new recurring research scope. Every email body fetched; unique unresolved links retained rather than declared irrelevant or fully integrated.
+
+Exact-path local persistence pending; routine publication remains Will-coordinated, foreign shared changes prevent pull/push. Writing/committing does not prove delivery or incorporation. Three full-deferred light breadcrumbs are now due for full narrative maintenance; this admin/source-curation continuation does not clear the debt. All predecessor approvals and pending duties below remain, including WQ503, WQ508 and closed/ungraded WQ515. Telegram stays retired. No new decision requested.
+
+## PRESERVED PRIOR DUTY / APPROVAL RECORD
+
 # WALTER completion — startup recovery October 27
 
 Updated 2026-10-27T15:06:44Z. Current session `01a17de0-aa39-7342-b6f6-18ed9406cd23`; instruction/approval recovery DONE, full boot PARTIAL.
