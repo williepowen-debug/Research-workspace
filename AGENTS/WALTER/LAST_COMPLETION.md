@@ -1,10 +1,10 @@
 # WALTER — approved queue review completed
 
-Updated 2026-10-27T18:40:38Z. Instruction/approval recovery retained; full boot remains PARTIAL. All 20 Research Queue delivered email bodies read, including secondary leads; 27 selected historical commentary images inspected. Five paid continuations remain unread. No mailbox mutation, read-status change, send, domain-owner launch, grade, trade, paid access or recurring monitor.
+Updated 2026-10-27T18:45:15Z. Instruction/approval recovery retained; full boot remains PARTIAL. All 20 Research Queue delivered email bodies read, including secondary leads; 27 selected historical commentary images inspected. Five paid continuations remain unread. No mailbox mutation, read-status change, send, domain-owner launch, grade, trade, paid access or recurring monitor.
 
-Twenty-four new or expanded source-qualified cards 049–072 and 82 create-only handoffs saved/committed at 9d2492d61feb79c128f3b83051425b7763dd08ee. Source and outcome register: research/2026-10-27_queue-review/EMAIL-REVIEW.md; FINAL-DISPOSITIONS.tsv has 399 rows: 38 DISPATCH (merged into 24 cards), 252 NOTE, 30 DUP, 7 FOLD, 72 NO-ACTION. These are accounting units, not independent signals. Parent source batches20/297 and decision batches390/9 all CLOSED. Three bounded Rule9 verifiers returned explicit closeout receipts; no helper has pending work. Five new cards deliberately carry unconfirmed source leads; other confidence/source limits travel individually.
+Twenty-four new or expanded source-qualified cards 049–072 and 82 create-only handoffs saved/committed at 9d2492d61feb79c128f3b83051425b7763dd08ee. Source and outcome register: research/2026-10-27_queue-review/EMAIL-REVIEW.md; FINAL-DISPOSITIONS.tsv has 399 rows: 38 DISPATCH (merged into 24 cards), 252 NOTE, 30 DUP, 7 FOLD, 72 NO-ACTION. These are accounting units, not independent signals. Parent source batches 20 / 297 and decision batches 390 / 9 all CLOSED. Three bounded Rule 9 verifiers returned explicit closeout receipts; no helper has pending work. Five new cards deliberately carry unconfirmed source leads; other confidence/source limits travel individually.
 
-Fresh origin fetch established the prior real-estate main/handoff commits; all previous 172 October27 handoffs are publication-proven and reconciled. New82 remain pending publication at this observation; foreign shared scripts prevent WALTER pull/push. Incorporation remains UNKNOWN. No repeat routing for absent acknowledgment. Exact new publication and selected-check evidence follows in the sole receipt below.
+Fresh origin fetch established the prior real-estate main/handoff commits; all previous 172 October 27 handoffs are publication-proven and reconciled. All new 82 are now origin-proven at 2026-10-27T18:45:15Z through the shared sync; foreign shared scripts prevented WALTER pull/push. Incorporation remains UNKNOWN. No repeat routing for absent acknowledgment. Exact new publication and selected-check evidence follows in the sole receipt below.
 
 Full narrative refresh updates owner-header REGISTRY before NETWORK, affected STATUS, SESSION_LOG and MEMORY. It clears four narrative deferrals, not broader duties. Full scan/context, ordinary inbox/DEWEY integration, Intake/X access rechecks, fleet readiness, stale READS/boot-basis attestation, rotation-tier and lifecycle/retirement adjudication remain incomplete. No broad market clearance. Current-source retirement check retains the review/evidence pointers; no general archive decision. Telegram remains retired. No new Will decision; WQ-503/508/515 and older approval/source-search conditions below stay intact. Prior reboot/mailbox setup record preserved verbatim in research/2026-10-27_queue-review/prior-LAST_COMPLETION.md.
 
@@ -113,7 +113,7 @@ Startup recovery only; boot PARTIAL. No new dispatch or consumption. Routine pus
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-27T18:40:38Z",
+  "as_of": "2026-10-27T18:45:15Z",
   "next_review": "2026-10-28",
   "publication": [
     {
@@ -168,15 +168,15 @@ Startup recovery only; boot PARTIAL. No new dispatch or consumption. Routine pus
     },
     {
       "commit": "9d2492d61feb79c128f3b83051425b7763dd08ee",
-      "state": "pending",
-      "note": "24 new cards / 82 packets; locally committed, foreign dirty tree prohibits push."
+      "state": "published",
+      "note": "24 cards /82 packets now origin-proven through shared sync; no WALTER push."
     }
   ],
   "delivery": {
     "signal_date": "20261027",
     "total": 254,
-    "delivered": 172,
-    "note": "Prior172 origin-proven; new0/82 origin-proven; incorporation UNKNOWN"
+    "delivered": 254,
+    "note": "All254 proven; new82 published through shared sync. Incorporation UNKNOWN."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
@@ -199,7 +199,11 @@ Startup recovery only; boot PARTIAL. No new dispatch or consumption. Routine pus
       },
       {
         "path": "AGENTS/WALTER/research/2026-10-27_queue-review/RESULT.md",
-        "sha256": "8de92b76902a0a7e995db04ecfd528ab33402db60af1af9bd668677a6a1d4e15"
+        "sha256": "a72ffde262579df8f62bb585d4d2bf7cb35528f9108b4a2e991a8fd207aa5c49"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-27_queue-review/PUBLICATION-FINAL.json",
+        "sha256": "d74b2f2217b58166190d5e3cca416738fdddb11325638139c8caa9d9bf32aaa3"
       }
     ]
   },
@@ -217,14 +221,14 @@ Startup recovery only; boot PARTIAL. No new dispatch or consumption. Routine pus
     "12": "Affected STATUS and full narrative refreshed; BALANCED/CLOSED held; no market-price refresh. Four narrative deferrals cleared, full-boot duties not cleared.",
     "14": "MEMORY session note refreshed; no new durable standing rule or fleet auto-memory. Three Rule9 helpers explicitly closed.",
     "15": "Prior duties/approvals preserved. Boot basis/READS/rotation, ordinary inbox/DEWEY, Intake/X access recheck and lifecycle remain partial. No general source retirement claim.",
-    "16": "Main committed locally; new82 pending origin; prior172 proven. Own exact paths only; foreign scripts exclude push.",
+    "16": "Main research committed and origin-proven; all254 day packets reconciled including new82. No WALTER push/stash/foreign edit. Current continuity persistence remains separate.",
     "ledger": "24 route rows /82 delivery rows /30 real novelty-kill rows recorded; REGISTRY owner headers refreshed. No threshold fire, dark-owner event or correction-class dispatch; no artificial event-ledger timestamps.",
     "telegram": "Will retired WALTER Telegram October 27. Project disabled and launcher flags removed, existing tests 29/29 PASS. Own config/charter/memory committed; shared launcher scripts remain PROME commit custody, packet authored. Boot-basis charter hash now requires review; no automatic re-attestation.",
     "11": "24 cards049\u2013072 /82 create-only handoffs; BM13/14/15/16 CLOSED20/297/390/9. Five unconfirmed cards preserve source limits.",
     "mailbox": "All20 queue bodies read; no labels, read status, Trash, filters, sends or other mailbox mutation. Five paid continuations unread.",
     "helpers": "Three bounded Rule9 verifiers completed and explicitly closed; no owner launch, no pending helper work.",
     "root.retirement": "Bounded review retains current source pointers and historical charts; no general archive or lifecycle clearance.",
-    "checks": "Receipt/caps/archive/weekday/version/memory pass; READS UNKNOWN from stale attestation; boot basis REVIEW; rotation-tier retained. Final doctor0HIGH/85MED:82 unpublished packets + existing consumption backlog/lifecycle/frozen-shape. Current FULL header matches completed narrative;0 stacked deferrals. Nudge commit-time warnings for actual kill/registry edits close after persistence; other event ledgers unchanged because no new events."
+    "checks": "Receipt/caps/archive/weekday/version/memory pass; READS UNKNOWN from stale attestation, boot basis REVIEW, rotation-tier retained. Prior85MED doctor included82 pending packets now resolved by fresh origin proof; existing backlog/lifecycle/frozen-shape remain. No broad boot or market clearance."
   }
 }
 END_CLOSEOUT_RECEIPT -->
