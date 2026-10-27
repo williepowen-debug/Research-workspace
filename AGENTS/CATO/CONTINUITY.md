@@ -23,4 +23,4 @@
 
 ## Machine handoff
 
-CATO closes only its own work. Other desks and PROME had active uncommitted work at the October 26 CATO reboot; CATO's delivery does not establish a completed machine handoff. Wait for other sessions to finish/push before switching, then follow root Git startup rules.
+**October 27 switch check:** CATO's launcher work is complete and published; [handoff evidence](runs/2026-10-26_2115_agent-launcher.md#october-27--machine-switch-closeout) records the verification. The sole remaining dirty path at the check was PROME's `state/argus_review.json`, review bookkeeping excluded from CATO delivery. PROME owns its disposition and publication before a fully clean machine handoff. No CATO implementation remains; orient and await Will. On the destination machine, follow root Git startup rules; local launcher shortcuts/preferences require their machine-local setup.
