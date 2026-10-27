@@ -1,0 +1,29 @@
+{
+  "commit": "25492ab9bbb860b30905c264a5a9494b86da4cd5",
+  "paths": [
+    "BOARD/SIG-W-20261027-020-trepp-q3-credit-recap.md",
+    "BOARD/SIG-W-20261027-021-wells-fargo-center-south-note-sale.md",
+    "BOARD/SIG-W-20261027-022-seniors-housing-maturity-cohort.md",
+    "BOARD/SIG-W-20261027-023-florida-office-transactions.md",
+    "BOARD/SIG-W-20261027-024-sf-office-ai-recovery-context.md",
+    "BOARD/SIG-W-20261027-025-jbi-data-center-credit-dispersion.md",
+    "BOARD/SIG-W-20261027-026-texas-data-center-permitting-context.md",
+    "BOARD/SIG-W-20261027-027-pjm-planned-data-maintenance.md",
+    "BOARD/SIG-W-20261027-028-insurance-related-party-teaser.md",
+    "BOARD/INDEX.md",
+    "AGENTS/WALTER/routed/route_log.tsv",
+    "AGENTS/WALTER/routed/delivery_log.tsv",
+    "AGENTS/WALTER/registry/BATCH_MANIFEST.tsv",
+    "AGENTS/WALTER/research/2026-10-26_gmail/REVIEW.md",
+    "AGENTS/WALTER/research/2026-10-26_gmail/cards-reviewed.json",
+    "AGENTS/WALTER/research/2026-10-26_gmail/content-dispositions.tsv",
+    "AGENTS/WALTER/research/2026-10-26_gmail/content-map.json",
+    "AGENTS/WALTER/research/2026-10-26_gmail/dispatch-summary.json",
+    "AGENTS/WALTER/research/2026-10-26_gmail/finish_gmail.py",
+    "AGENTS/WALTER/research/2026-10-26_gmail/native-discovery.json",
+    "AGENTS/WALTER/research/2026-10-26_gmail/search-inventory.json",
+    "AGENTS/WALTER/research/2026-10-26_gmail/selected-email-texts.json",
+    "AGENTS/WALTER/research/2026-10-26_gmail/write_reviewed_cards.py"
+  ],
+  "publication": "pending verification"
+}

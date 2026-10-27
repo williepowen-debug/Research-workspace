@@ -1,0 +1,30 @@
+[
+  {
+    "check": "doctor",
+    "rc": 37,
+    "tail": [
+      "\u2717 37 item(s) need attention (HIGH/MED). See punch-list above."
+    ]
+  },
+  {
+    "check": "basis",
+    "rc": 0,
+    "tail": [
+      "BOOT BASIS MATCH: 29 declared paths; execution not certified"
+    ]
+  },
+  {
+    "check": "reads",
+    "rc": 2,
+    "tail": [
+      "\u2753 READS-CAP UNKNOWN [WALTER]: 26 cap-bearing row(s) checked, but WALTER attested on a date its own boot protocol has since moved past \u2014 this is a partial perimeter, never a clean bill."
+    ]
+  },
+  {
+    "check": "read-cap",
+    "rc": 0,
+    "tail": [
+      "READ-CAP-RESULT v1 mode=agent rc=0 assessed=1 desk=WALTER reads=49 over_budget=0 over_cap=0 manifest_defects=0 advisories=0 generated_flagged=1 rotation_due=1 active_decisions_over_budget=0 charter_mode=unspecified charter_reads=0 owner_notices=0 owner_notices_over_budget=0 charter_bytes=23645"
+    ]
+  }
+]

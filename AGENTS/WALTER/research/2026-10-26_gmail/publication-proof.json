@@ -1,0 +1,64 @@
+{
+  "observed_at": "2026-10-27T03:56:28Z",
+  "origin": "77b131be7ee699a909585d0e3985e21033378f75",
+  "publication": [
+    {
+      "commit": "25492ab9bbb860b30905c264a5a9494b86da4cd5",
+      "state": "published"
+    },
+    {
+      "commit": "bb182dd93c7d91e4b111608e5d7127e5574ea14b",
+      "state": "published"
+    },
+    {
+      "commit": "c8581b43eae3c899685abeeeff26e29f9bef0769",
+      "state": "published"
+    },
+    {
+      "commit": "250cffb7ef1fa50e380c6bf315602a4708d6eff7",
+      "state": "published"
+    },
+    {
+      "commit": "98cb4d182ce2aec6ef53e259eed6424ebf82e7b4",
+      "state": "published"
+    },
+    {
+      "commit": "038d88b7e0362e4e847631031cb036df2427e3ca",
+      "state": "published"
+    },
+    {
+      "commit": "5901e6a984c3b2dfc1786c7a8db51ce42ceef593",
+      "state": "published"
+    },
+    {
+      "commit": "09c7204cd1f823daa7fc0afbf8b56e19dca7a029",
+      "state": "published"
+    },
+    {
+      "commit": "e5a16426132d2d5c018db8427afdb9d13ab6530a",
+      "state": "published"
+    },
+    {
+      "commit": "42471c4c04ef3f8aa00f0f8f0bd6c33e21ca9f3d",
+      "state": "published"
+    },
+    {
+      "commit": "c9e2a5bf86526caa538cf879991bc6c36b23a86f",
+      "state": "published"
+    },
+    {
+      "commit": "f31b12ded642370e2f9a83acd9b31b501e19eaca",
+      "state": "published"
+    },
+    {
+      "commit": "c8cf54fcbd53e76295215bfe9d653a682a1858f5",
+      "state": "published"
+    }
+  ],
+  "day_delivery_total": 95,
+  "day_delivery_proven": 95,
+  "new_handoffs": 34,
+  "push_invoked": false,
+  "recipient_consumption": "UNKNOWN",
+  "scope": "Fresh fetch; committed path proof distinct from incorporation."
+}
