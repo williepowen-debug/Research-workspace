@@ -2,8 +2,8 @@
 
 **Status:** S1 3 / S2 2 / S3 3 / S4 3 / S5 4 = **15/25**, unchanged. One fired channel, S5; two events (Firmus and Volta under Will's B choice). WQ-464 retains 4.
 **Domain:** AI-capex / semiconductor / memory systemic transmission; shared demand root counted once.
-**As of:** 2026-10-26T19:51:11-04:00 | **STATUS commit:** 7aad4bb53
-**Variant:** FULL. Documentation closeout only; no market refresh. Local workflow repair retained; Will canceled the formal trial and savings assessment. No new monitor, recurring procedure or trade. Research-time savings remain unmeasured. STATUS/THESIS/EXIT unchanged. October 26 sweep KB-300..307 and financing report remain valid; original source captures and caveats retained. Native pointer notifications were accepted; recipient consumption remains unverified. Prior cleanup 053631ed2 push confirmed; final closeout persistence follows.
+**As of:** 2026-10-26T22:45:20-04:00 | **STATUS commit:** 7aad4bb53
+**Variant:** FULL. Startup recovery and two ISHM handoffs [KB-308]; no market refresh or new trigger. Historical Q2 real-equipment baseline has no AI-specific allocation, and nominal domestic orders/imports do not supply a completed real Q3 test. STATUS/THESIS/EXIT unchanged. Prior financing/news-sweep evidence and all source caveats retained. Workflow repair retained; trial and savings assessment canceled. Existing research residuals remain unfinished and due October 26. Delivery and consumption remain distinct.
 
 ## CROSS-DOMAIN
 
@@ -16,6 +16,7 @@
 | ZHAO / HAWK | China NAND process upgrades reported with issuer comments to Reuters; full licenses/output unresolved. TSMC rare-earth substitutions reported, no measured lost output. Tech relay extension claim lacks instrument; November 10 clocks unchanged. Treasury October 26 outbound rule proposed. | KB-304/305/307; ZHAO packet |
 | VIOLET | No new capex cut, useful-life event, concentration sample or repricing claim. Payer/borrower and delivery risks remain mixed. No new threshold or volatility assertion. | KB-300..307 |
 | TERRY | Prior PASS retained; no new trade idea/card requested by this sweep. | KB-288 |
+| ISHM | Two J1 handoffs consumed: Q2 equipment +13.4%, information processing +7.6%, computers -6.7% q/q SAAR, September 30 revised BEA vintage. Owner report inspected; original XLS not independently read. No AI allocation or additive chained components; domestic/import/real pairing awaits owner outputs. | KB-308; late-startup report |
 
 ## VIEW
 

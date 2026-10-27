@@ -1,4 +1,18 @@
-> # ⛔ 2026-10-26T19:51:11-04:00 — READ THIS BLOCK FIRST. Will-directed final closeout.
+> # ⛔ 2026-10-26T22:45:20-04:00 — READ THIS BLOCK FIRST. Will-launched Codex startup recovery.
+
+▶ START HERE: Existing GOOGL cadence-method and KB-096 issuance studies remain unfinished and due October 26; startup does not re-date or complete them. Resume ordinary authorized research. Will retained the workflow repair and canceled its formal trial/savings assessment. Current receipt: reports/2026-10-26_late-startup.md.
+
+RECONCILE 3c1feb0203e36e46e1440779bf2e46d89db6357d8221b96b4d4154b209e6c960 STATUS UNCHANGED: two ISHM handoffs supply a historical owner baseline, with no AI-specific current-quarter conclusion or trigger; 15/25, S5 4, two events and existing obligations/caveats stand. No market refresh.
+RECONCILE 3c1feb0203e36e46e1440779bf2e46d89db6357d8221b96b4d4154b209e6c960 THESIS UNCHANGED: domestic/import pairing and real/nominal separation are evidence limits, not a changed channel stage, verdict or resolver; no new causal assertion.
+RECONCILE 3c1feb0203e36e46e1440779bf2e46d89db6357d8221b96b4d4154b209e6c960 EXIT UNCHANGED: no guide, concentration, memory-quarter or financing-structure kill leg changed; October 28–29 resolver and November 15 backstop retained without a cosmetic date bump.
+
+- Root/local instructions explicitly read; OpenAI Codex, exact variant UNKNOWN, native task 01a17b3b-73d7-7242-be11-0eafc3501e62 verified. Shell/Git/Python/venv and native list/read work; no required executable missing. Truncated discovery cannot establish fleet absence; messaging exact pair untested, consumption unverified. No delegates.
+- Boot rc2: existing GOOGL/META 10-Q model failures and thin annual histories remain UNGRADEABLE. No forecasts due; schema/score/corrections/retained series pass. EDGAR freshness check is offline, not a fresh sweep.
+- Two ISHM packets integrated as KB-308 and moved to processed; reply preserves its existing J1 definitions. No WALTER packets pending. Existing owner print dates are collection/delivery duties, not duplicate VULCAN monitors. HAWK/LIQUID historical rows already consumed; CYPHER persistence remains owner-controlled.
+- WQ-441 B retrospective/Volta-only and secondary-sourced; WQ-464 B retains S5 at 4. No capital approval, score-5 ruling or original-forecast HIT implied. TERRY PASS remains in force.
+- Startup pull deferred for foreign dirty work; no foreign work staged or stashed. Git ls-remote now succeeds and matched local HEAD at observation; old HTTPS-auth outage not carried as current. Commit/push verification follows execution, without a recursive receipt-only rewrite. Standard PROME delivery and ISHM consumption reply saved; no recipient acknowledgment claimed.
+
+> # ⛔ 2026-10-26T19:51:11-04:00 — prior block. Will-directed final closeout.
 
 ▶ START HERE: Workflow repair retained for normal use. Will canceled the formal trial, savings assessment and related reporting requirement; older pending-trial notes below are superseded. Resume ordinary authorized research. GOOGL/META date-model failures and GOOGL-method/KB-096 studies remain unresolved, due October 26 as recorded; no completion or re-date implied.
 
