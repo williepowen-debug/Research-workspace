@@ -1,0 +1,1 @@
+✅ TABLE-CHECK ok 7 file(s), no over-celled rows

@@ -1,0 +1,38 @@
+{
+  "tables": {
+    "rc": 0,
+    "log": "PROME/reports/2026-10-27_closeout-checks/tables.txt"
+  },
+  "done_rows": {
+    "rc": 0,
+    "log": "PROME/reports/2026-10-27_closeout-checks/done_rows.txt"
+  },
+  "wq_ledger": {
+    "rc": 0,
+    "log": "PROME/reports/2026-10-27_closeout-checks/wq_ledger.txt"
+  },
+  "orchestration": {
+    "rc": 0,
+    "log": "PROME/reports/2026-10-27_closeout-checks/orchestration.txt"
+  },
+  "orphan": {
+    "rc": 0,
+    "log": "PROME/reports/2026-10-27_closeout-checks/orphan.txt"
+  },
+  "weekday": {
+    "rc": 0,
+    "log": "PROME/reports/2026-10-27_closeout-checks/weekday.txt"
+  },
+  "firetime": {
+    "rc": 1,
+    "log": "PROME/reports/2026-10-27_closeout-checks/firetime.txt"
+  },
+  "read_cap": {
+    "rc": 0,
+    "log": "PROME/reports/2026-10-27_closeout-checks/read_cap.txt"
+  },
+  "ledger_nudge": {
+    "rc": 0,
+    "log": "PROME/reports/2026-10-27_closeout-checks/ledger_nudge.txt"
+  }
+}

@@ -1,0 +1,22 @@
+⚠️  uncommitted files outside PROME/:
+     [not yours]    AGENTS/CATO/runs/2026-10-26_2115_agent-launcher.md
+     [not yours]    AGENTS/NEXUS/LAST_COMPLETION.md
+     [not yours]    AGENTS/NEXUS/PREDICTIONS_MONITOR.md
+     [not yours]    AGENTS/NEXUS/STATUS.md
+     [not yours]    AGENTS/NEXUS/research/2026-10-26_full_pass/RECORD.md
+     [not yours]    AGENTS/NEXUS/research/2026-10-26_full_pass/REPORT.md
+     [not yours]    AGENTS/WALTER/LAST_COMPLETION.md
+     [not yours]    AGENTS/WALTER/SESSION_LOG.md
+     [not yours]    AGENTS/WALTER/STATUS.md
+     [not yours]    AGENTS/WALTER/research/2026-10-27_gmail-processing/checks/doctor-final.txt
+     [not yours]    AGENTS/WALTER/research/2026-10-27_gmail-processing/closeout/
+     [not yours]    AGENTS/WALTER/research/2026-10-27_gmail-processing/handoff-commits.json
+     [not yours]    AGENTS/WALTER/research/2026-10-27_gmail-processing/main-commit.json
+     [not yours]    AGENTS/WALTER/research/2026-10-27_gmail-processing/publication-proof.json
+     [not yours]    memory/2026-10-27.md
+     [not yours]    scripts/AGENT_LAUNCHER.md
+     [not yours]    scripts/agents_gui.ps1
+     [not yours]    scripts/tests/probe_agents_gui.py
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.
