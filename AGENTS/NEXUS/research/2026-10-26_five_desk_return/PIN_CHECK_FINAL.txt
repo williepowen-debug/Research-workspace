@@ -1,0 +1,31 @@
+BRIEF-PIN 0 OK: 30 brief(s) checked against amendment 11 (pin-follows-STATUS-HEAD) — OK-PINNED 16 · OK-SAME-COMMIT 11 · UNPINNED 3. A PASS proves the pin, never the brief's content; UNPINNED briefs are not A11-checked.
+  ✅ AEOLUS    OK-SAME-COMMIT  brief and STATUS last committed together in 9a44b6756
+  ⚠️ BOND      UNPINNED        no STATUS hash in the first 40 header lines — A11 not checkable; A10 fallback: brief commit 2e1117ae4 is BEFORE STATUS HEAD 45f4bcd09
+  ✅ BRENT     OK-PINNED       pin 442ec6f3784cebd83531a5a0b527b52664b4bbc9 = STATUS HEAD
+  ✅ BROCK     OK-PINNED       pin 84e7a03c1 = STATUS HEAD
+  ✅ CARL      OK-PINNED       pin 5b18d5a88 = STATUS HEAD
+  ⚠️ CORAL     UNPINNED        no STATUS hash in the first 40 header lines — A11 not checkable; A10 fallback: brief commit c81370260 is BEFORE STATUS HEAD fab5ea780
+  ✅ CYPHER    OK-PINNED       pin b562466d3 = STATUS HEAD (uncommitted edits present — mid-closeout; graded on committed state)
+  ✅ FALCON    OK-PINNED       pin c7db415a0 = STATUS HEAD
+  ✅ GIBBS     OK-PINNED       pin 6d1d9df51 = STATUS HEAD
+  ✅ HAWK      OK-PINNED       pin 3841fe06c = STATUS HEAD
+  ✅ HENRY     OK-SAME-COMMIT  brief and STATUS last committed together in 89639c89d
+  ✅ HOMER     OK-SAME-COMMIT  brief and STATUS last committed together in 454435973
+  ✅ ISHM      OK-PINNED       pin 7a09d09962aa88467632c27419b22146470c568e = STATUS HEAD
+  ✅ LABOR     OK-PINNED       pin 9ce83bd08 = STATUS HEAD
+  ✅ LIQUID    OK-PINNED       pin 16cb439012416dbee127086eea8165ecda5c8ea7 = STATUS HEAD
+  ✅ MARCO     OK-PINNED       pin f63a97bbe = STATUS HEAD
+  ✅ MIDAS     OK-SAME-COMMIT  brief and STATUS last committed together in f791674aa
+  ✅ ORACLE    OK-SAME-COMMIT  brief and STATUS last committed together in fc881e9ba
+  ✅ OSPREY    OK-SAME-COMMIT  brief and STATUS last committed together in 3bac20f15
+  ✅ OTTO      OK-PINNED       pin 63cb6063e9130d8d870d86e61d5a18aee02963a6 = STATUS HEAD
+  ✅ RED       OK-SAME-COMMIT  brief and STATUS last committed together in 3a90bd9a5
+  ✅ REGINALD  OK-PINNED       pin 8452f2af7 = STATUS HEAD
+  ✅ SAM       OK-PINNED       pin 0055442a8 = STATUS HEAD
+  ✅ SHADE     OK-SAME-COMMIT  brief and STATUS last committed together in 07531f341
+  ✅ VIOLET    OK-SAME-COMMIT  brief and STATUS last committed together in ab213a649
+  ✅ VULCAN    OK-PINNED       pin 7aad4bb53 = STATUS HEAD
+  ✅ WAL       OK-PINNED       pin 1d4d4210adbcdfbea6a3d3c363d80e0fa36415dc = STATUS HEAD
+  ⚠️ WATT      UNPINNED        no STATUS hash in the first 40 header lines — A11 not checkable; A10 fallback: brief commit df2ba78c0 is AFTER STATUS HEAD 96a6c8a12
+  ✅ YURI      OK-SAME-COMMIT  brief and STATUS last committed together in 942f5fbe3
+  ✅ ZHAO      OK-SAME-COMMIT  brief and STATUS last committed together in a0e0c7fb8

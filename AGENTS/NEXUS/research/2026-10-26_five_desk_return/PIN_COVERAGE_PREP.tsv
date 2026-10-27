@@ -1,0 +1,31 @@
+desk	checker_snapshot	literal_header_class	qualification
+AEOLUS	OK-SAME-COMMIT	B	A hash present; B field absent; C field present with pointer/promise, per schema4.4.
+BOND	UNPINNED	B	A hash present; B field absent; C field present with pointer/promise, per schema4.4.
+BRENT	OK-PINNED	A	A hash present; B field absent; C field present with pointer/promise, per schema4.4.
+BROCK	OK-PINNED	A	A hash present; B field absent; C field present with pointer/promise, per schema4.4.
+CARL	OK-PINNED	A	Final committed brief7ff73230f pins STATUS5b18d5a88; early one-commit lag preserved only in PIN_CHECK_PREP.txt, not a schema fallback.
+CORAL	UNPINNED	C	A hash present; B field absent; C field present with pointer/promise, per schema4.4.
+CYPHER	OK-PINNED	A	A hash present; B field absent; C field present with pointer/promise, per schema4.4.
+FALCON	OK-PINNED	A	A hash present; B field absent; C field present with pointer/promise, per schema4.4.
+GIBBS	OK-PINNED	A	A hash present; B field absent; C field present with pointer/promise, per schema4.4.
+HAWK	OK-PINNED	A	A hash present; B field absent; C field present with pointer/promise, per schema4.4.
+HENRY	OK-SAME-COMMIT	B	A hash present; B field absent; C field present with pointer/promise, per schema4.4.
+HOMER	OK-SAME-COMMIT	B	A hash present; B field absent; C field present with pointer/promise, per schema4.4.
+ISHM	OK-PINNED	A	New brief read whole; pin7a09d0996 matches accepted owner STATUS.
+LABOR	OK-PINNED	A	A hash present; B field absent; C field present with pointer/promise, per schema4.4.
+LIQUID	OK-PINNED	A	A hash present; B field absent; C field present with pointer/promise, per schema4.4.
+MARCO	OK-PINNED	A	A hash present; B field absent; C field present with pointer/promise, per schema4.4.
+MIDAS	OK-SAME-COMMIT	B	A hash present; B field absent; C field present with pointer/promise, per schema4.4.
+ORACLE	OK-SAME-COMMIT	C	A hash present; B field absent; C field present with pointer/promise, per schema4.4.
+OSPREY	OK-SAME-COMMIT	C	A hash present; B field absent; C field present with pointer/promise, per schema4.4.
+OTTO	OK-PINNED	A	A hash present; B field absent; C field present with pointer/promise, per schema4.4.
+RED	OK-SAME-COMMIT	B	Bold prose about same-commit pinning has no named hash field; B, not C.
+REGINALD	OK-PINNED	A	A hash present; B field absent; C field present with pointer/promise, per schema4.4.
+SAM	OK-PINNED	A	A hash present; B field absent; C field present with pointer/promise, per schema4.4.
+SHADE	OK-SAME-COMMIT	C	A hash present; B field absent; C field present with pointer/promise, per schema4.4.
+VIOLET	OK-SAME-COMMIT	C	A hash present; B field absent; C field present with pointer/promise, per schema4.4.
+VULCAN	OK-PINNED	A	A hash present; B field absent; C field present with pointer/promise, per schema4.4.
+WAL	OK-PINNED	A	A hash present; B field absent; C field present with pointer/promise, per schema4.4.
+WATT	UNPINNED	A	Actual hash under STATUS source commit wording; checker UNPINNED does not mean absent hash.
+YURI	OK-SAME-COMMIT	C	A hash present; B field absent; C field present with pointer/promise, per schema4.4.
+ZHAO	OK-SAME-COMMIT	B	A hash present; B field absent; C field present with pointer/promise, per schema4.4.

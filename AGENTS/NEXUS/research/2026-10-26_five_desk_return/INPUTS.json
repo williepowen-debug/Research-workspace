@@ -1,0 +1,102 @@
+{
+  "observed_at": "2026-10-26T22:54:32-04:00",
+  "accepted_owner_versions": [
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_buildout/REPORT.md",
+      "commit": "7a09d09962aa88467632c27419b22146470c568e",
+      "sha256": "99cc3ea416c3ebfc67273d38d912857eb6683f17ddddbc57e92aaaaed6625fc7",
+      "read": "committed artifact; no final claim from working tree"
+    },
+    {
+      "path": "AGENTS/ISHM/NEXUS_BRIEF.md",
+      "commit": "bcad52a08f4bfc371aa807babc1153c8e74e84f8",
+      "sha256": "4bd5b90189e30dd68bfbc8f3d802eb7b18933e9429f2266393bdb0c9d5fa8bb0",
+      "read": "committed artifact; no final claim from working tree"
+    },
+    {
+      "path": "AGENTS/FERT/research/2026-10-26_L758/REPORT.md",
+      "commit": "89a3b76365ce79dca63367af7c9b24d30a676913",
+      "sha256": "c4bd4caa62132297d7de0586e6be4d131c261f2e6466abfbabb576c726dd4c23",
+      "read": "committed artifact; no final claim from working tree"
+    },
+    {
+      "path": "AGENTS/MIDAS/shared/research/2026-10-26_nornickel-9M-L701.md",
+      "commit": "f791674aa1523cd9b977f4c7f7adc32e699aabd3",
+      "sha256": "a00a39b5511ca9deb65eef2e995184e573c8b3d79bb9bef741609ae785d0a356",
+      "read": "committed artifact; no final claim from working tree"
+    },
+    {
+      "path": "AGENTS/MIDAS/gold/research/2026-10-26_certified-settlement-review.md",
+      "commit": "f791674aa1523cd9b977f4c7f7adc32e699aabd3",
+      "sha256": "b1741b22e1cc6555ecd70e1e304779cf15d694431a9221616e6b8e8ddfae03a2",
+      "read": "committed artifact; no final claim from working tree"
+    },
+    {
+      "path": "AGENTS/CARL/research/2026-10-26_L786/RESULT.md",
+      "commit": "5b18d5a884483999defc7eae98071b4a8812639e",
+      "sha256": "abfe426ca1b5b352eab83fc85292ff0355c0a99321d2e560bf9c95dad9fddc98",
+      "read": "committed artifact; no final claim from working tree"
+    },
+    {
+      "path": "AGENTS/CARL/research/2026-10-26_L786/ALLY_RITM_GRADE.md",
+      "commit": "5b18d5a884483999defc7eae98071b4a8812639e",
+      "sha256": "86c65769c979b328c5ca998e9dc5b5a54530e5a08ecdc191db213b9b20e03d4a",
+      "read": "committed artifact; no final claim from working tree"
+    },
+    {
+      "path": "AGENTS/CARL/research/2026-10-26_L786/PAPER_DISPOSITION.md",
+      "commit": "5b18d5a884483999defc7eae98071b4a8812639e",
+      "sha256": "ea9369afdb51efa2b4b21486a79c41850c153daeea444c2f54d3ba377d473d93",
+      "read": "committed artifact; no final claim from working tree"
+    },
+    {
+      "path": "AGENTS/CARL/research/2026-10-26_L786/GDP_PCE_OCT29_PREP.md",
+      "commit": "5b18d5a884483999defc7eae98071b4a8812639e",
+      "sha256": "c447e9abe13700bffc22507228c1fd0adcdfda722379b5f036351d0f9c6fedcd",
+      "read": "committed artifact; no final claim from working tree"
+    },
+    {
+      "path": "AGENTS/CARL/research/2026-10-26_L786/PEER_INTAKE.md",
+      "commit": "5b18d5a884483999defc7eae98071b4a8812639e",
+      "sha256": "b6061501fbb051a161a64ef7397e36e76ac5e1b7e86c137d8eab537877649abf",
+      "read": "committed artifact; no final claim from working tree"
+    },
+    {
+      "path": "PROME/inbox/2026-10-26_from-CARL_L786-owner-grades-and-oct29-prep.md",
+      "commit": "ee1cb82fab5d8e2806f979b4ba33801ef211ef37",
+      "sha256": "e323cdaafccafc87c74f86dced748eecf4a5815fcce3185c8b0486fbbb19b01c",
+      "read": "committed artifact; final CARL brief/packet consumed after persistence"
+    },
+    {
+      "path": "AGENTS/CARL/NEXUS_BRIEF.md",
+      "commit": "7ff73230f39e3620d0d310162bd8d2e69e4318ec",
+      "sha256": "dc7b495e00b55b98f886d6465e10187e7b91236f66bfbc71145675925a55b7b4",
+      "read": "committed artifact; final CARL brief/packet consumed after persistence"
+    }
+  ],
+  "Tuesday_inputs_not_a_due_day_rollup": [
+    {
+      "path": "AGENTS/NEXUS/brief_fallback_log.tsv",
+      "sha256": "7acb13940eb42ed56c9e06e87c1e21d816a3e0bc3303db5ed15639194f98e233",
+      "commit": "b45f488a2b4014fd4bd3e5f1f1012807967863d1"
+    },
+    {
+      "path": "AGENTS/NEXUS/brief_health.md",
+      "sha256": "396b0e46a005c3d31a43ec03745abe9403ba6e116096e7116c2302f56dd8dcab",
+      "commit": "83e6fe3665243773e4041b3faeaf3113f4aa4457"
+    },
+    {
+      "path": "AGENTS/NEXUS/BRIEFS_MAP.md",
+      "sha256": "91d69460979b17cc197bed0e2bcf2209b24318a1844468b4b5b94ddae760eefd",
+      "commit": "8a66a0c57f59a7b2de67d360e8f57dc5c08f4275"
+    },
+    {
+      "path": "AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md",
+      "sha256": "a08569886d28461462a906d34e2da28133e4e5cbfa379d6487d1f892b1d6a4d6",
+      "commit": "f6e88eb2a22213179f8821f99d626d9eb150c2a6"
+    }
+  ],
+  "FLG_brief_exists": false,
+  "CARL_completion_packet": "CONSUMED at committed ee1cb82fa after waiting; owner grade report5b18d5a88 and final brief7ff73230f agree",
+  "final_observed_at": "2026-10-26T22:58:32-04:00"
+}
