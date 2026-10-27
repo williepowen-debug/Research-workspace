@@ -67,8 +67,8 @@ Every price cell you write = **benchmark + unit + date + source tag**. A row nam
 | Benchmark (say it in full) | Unit | Cadence | Source (verified reachable, assessment §4a) |
 |---|---|---|---|
 | DTN retail urea, national avg | $/ton | weekly | DTN Progressive Farmer weekly article |
-| NOLA granular urea barge, FOB | **$/st** | weekly | Advanced Turf *US Fertilizer Market Summary* PDF — best free NOLA source |
-| Urea FOB Egypt futures (JF) | $/mt | daily | CME / Barchart |
+| NOLA granular urea barge, FOB | **$/st** | weekly | Historical Advanced Turf PDF; T5 retired pending replacement under WQ-257. Current source limits → workbook/INSTRUMENT_GAPS.md |
+| Urea FOB Egypt futures (JF) | $/mt | daily | CME / Barchart — verify current access; historical reachability is not a live feed |
 | India CFR, **awarded** tender | $/mt | episodic | Profercy Insights · Fertilizer Daily — awarded price = the true global clearing level |
 | World Bank Pink Sheet urea FOB | $/mt | monthly | Pink Sheet — the base-rating backbone (10+ yr history) |
 | DAP / MAP retail, national avg | $/ton | weekly | DTN weekly |
@@ -94,7 +94,7 @@ Every price cell you write = **benchmark + unit + date + source tag**. A row nam
 
 **First live triage — done:** the Section 338 Canada +50% tariffs (effective 2026-08-19) exclude potash; CBP's enumeration carries zero Chapter 31 lines (`KB-FERT-030`). Live potash triage cells sit in STATUS § Named Blind Spots.
 
-Rules: **(a)** never compare across benchmarks without saying so; **(b)** DTN retail LAGS international by weeks — international series are the leading edge for any transmission timing (assessment method note); **(c)** tender figures: verify the article's own dateline **and the dateline of the source it cites** before use — a 2024 Argus piece surfaced as 2026 data during the assessment (two traps, §6), and on 2026-10-01 Fertilizer Daily's **2026-dated** RCF articles were found carrying that same 2024-10-03 Argus item as their source (`KB-FERT-048`): a correct dateline on the relay does not date the figure; **(d)** source-authority token on load-bearing figures (`PRIMARY`/`MIRROR`/`MIRROR-WALLED`, STATE_VOCABULARY Class 6); bls.gov/sec.gov direct fetches 403 to this box's fetcher — use alternate hosts, and per `finding_blocked_mirror_is_not_an_unreachable_primary` never record them as unavailable.
+Rules: **(a)** never compare across benchmarks without saying so; **(b)** DTN retail LAGS international by weeks — international series are the leading edge for any transmission timing (assessment method note); **(c)** tender figures: verify the article's own dateline **and the dateline of the source it cites** before use — a 2024 Argus piece surfaced as 2026 data during the assessment (two traps, §6), and on 2026-10-01 Fertilizer Daily's **2026-dated** RCF articles were found carrying that same 2024-10-03 Argus item as their source (`KB-FERT-048`): a correct dateline on the relay does not date the figure; **(d)** source-authority token on load-bearing figures (`PRIMARY`/`MIRROR`/`MIRROR-WALLED`, STATE_VOCABULARY Class 6); source access is client/session-specific (prior bls.gov/sec.gov fetches returned 403; SEC primaries were browser-reachable 2026-10-26). Verify current access, use supported alternates, and per `finding_blocked_mirror_is_not_an_unreachable_primary` never record them as unavailable.
 
 ---
 

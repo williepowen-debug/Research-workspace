@@ -1,0 +1,520 @@
+{
+  "read_at": "2026-10-27T03:12:24.797245+00:00",
+  "files": [
+    {
+      "path": "AGENTS/FERT/CLAUDE.md",
+      "bytes": 20384
+    },
+    {
+      "path": "AGENTS/FERT/STATUS.md",
+      "bytes": 22739
+    },
+    {
+      "path": "AGENTS/FERT/TRADE.md",
+      "bytes": 5498
+    },
+    {
+      "path": "AGENTS/FERT/archive/CLAUDE_2026-03_SUPERSEDED.md",
+      "bytes": 14491
+    },
+    {
+      "path": "AGENTS/FERT/archive/STATUS_2026-03-20_FROZEN.md",
+      "bytes": 6247
+    },
+    {
+      "path": "AGENTS/FERT/archive/STATUS_rotated_2026-10-15.md",
+      "bytes": 1405
+    },
+    {
+      "path": "AGENTS/FERT/archive/STATUS_whatchanged_2026-09-05_ROTATED.md",
+      "bytes": 4508
+    },
+    {
+      "path": "AGENTS/FERT/archive/STATUS_whatchanged_2026-09-09_ROTATED.md",
+      "bytes": 5278
+    },
+    {
+      "path": "AGENTS/FERT/archive/STATUS_whatchanged_2026-10-01_ROTATED.md",
+      "bytes": 4640
+    },
+    {
+      "path": "AGENTS/FERT/archive/STATUS_whatchanged_2026-10-07_ROTATED.md",
+      "bytes": 1108
+    },
+    {
+      "path": "AGENTS/FERT/archive/STATUS_whatchanged_2026-10-09_ROTATED.md",
+      "bytes": 1806
+    },
+    {
+      "path": "AGENTS/FERT/archive/STATUS_whatchanged_2026-10-15_ROTATED.md",
+      "bytes": 1595
+    },
+    {
+      "path": "AGENTS/FERT/archive/STATUS_whatchanged_2026-10-21_ROTATED.md",
+      "bytes": 2178
+    },
+    {
+      "path": "AGENTS/FERT/archive/TRIGGERS_notes_rotated_2026-10-07.md",
+      "bytes": 7000
+    },
+    {
+      "path": "AGENTS/FERT/archive/TRIGGERS_notes_rotated_2026-10-15.md",
+      "bytes": 7859
+    },
+    {
+      "path": "AGENTS/FERT/archive/TRIGGERS_notes_rotated_2026-10-21.md",
+      "bytes": 7391
+    },
+    {
+      "path": "AGENTS/FERT/board_log.tsv",
+      "bytes": 19873
+    },
+    {
+      "path": "AGENTS/FERT/boot.py",
+      "bytes": 5675
+    },
+    {
+      "path": "AGENTS/FERT/inbox/PROTOCOL.md",
+      "bytes": 2480
+    },
+    {
+      "path": "AGENTS/FERT/inbox/RECEIPT.md",
+      "bytes": 1923
+    },
+    {
+      "path": "AGENTS/FERT/inbox/WALTER/processed/SIG-W-20260828-036-britain-had-its-worst-harvest-in-over-40-years-and-farmers-warn-of-food-shortages-within-months.md",
+      "bytes": 1801
+    },
+    {
+      "path": "AGENTS/FERT/inbox/WALTER/processed/SIG-W-20260910-014.md",
+      "bytes": 953
+    },
+    {
+      "path": "AGENTS/FERT/inbox/WALTER/processed/SIG-W-20260910-020.md",
+      "bytes": 889
+    },
+    {
+      "path": "AGENTS/FERT/inbox/WALTER/processed/SIG-W-20260928-011.md",
+      "bytes": 619
+    },
+    {
+      "path": "AGENTS/FERT/inbox/WALTER/processed/SIG-W-20261007-005.md",
+      "bytes": 2166
+    },
+    {
+      "path": "AGENTS/FERT/inbox/WALTER/processed/SIG-W-20261008-027.md",
+      "bytes": 2542
+    },
+    {
+      "path": "AGENTS/FERT/inbox/WALTER/processed/SIG-W-20261008-033.md",
+      "bytes": 4835
+    },
+    {
+      "path": "AGENTS/FERT/inbox/WALTER/processed/SIG-W-20261012-030.md",
+      "bytes": 2694
+    },
+    {
+      "path": "AGENTS/FERT/inbox/WALTER/processed/SIG-W-20261014-026.md",
+      "bytes": 2300
+    },
+    {
+      "path": "AGENTS/FERT/inbox/WALTER/processed/SIG-W-20261015-016-handoff.md",
+      "bytes": 532
+    },
+    {
+      "path": "AGENTS/FERT/inbox/WALTER/processed/SIG-W-20261016-004-handoff.md",
+      "bytes": 678
+    },
+    {
+      "path": "AGENTS/FERT/inbox/WALTER/processed/SIG-W-20261019-003.md",
+      "bytes": 770
+    },
+    {
+      "path": "AGENTS/FERT/inbox/WALTER/processed/SIG-W-20261019-019.md",
+      "bytes": 2785
+    },
+    {
+      "path": "AGENTS/FERT/inbox/WALTER/processed/SIG-W-20261020-024.md",
+      "bytes": 1896
+    },
+    {
+      "path": "AGENTS/FERT/inbox/WALTER/processed/SIG-W-20261021-017.md",
+      "bytes": 2991
+    },
+    {
+      "path": "AGENTS/FERT/inbox/WALTER/processed/SIG-W-20261021-026.md",
+      "bytes": 1672
+    },
+    {
+      "path": "AGENTS/FERT/inbox/WALTER/processed/SIG-W-20261021-031.md",
+      "bytes": 2501
+    },
+    {
+      "path": "AGENTS/FERT/inbox/WALTER/processed/SIG-W-20261025-005.md",
+      "bytes": 2908
+    },
+    {
+      "path": "AGENTS/FERT/inbox/WALTER/processed/SIG-W-20261025-021.md",
+      "bytes": 2608
+    },
+    {
+      "path": "AGENTS/FERT/inbox/processed/2026-08-16_from-PROME_revival-assessment-packet.md",
+      "bytes": 3057
+    },
+    {
+      "path": "AGENTS/FERT/inbox/processed/2026-08-17_from-DAEDALUS_ledger-staleness-rc-contract-revised-bootpy-updated.md",
+      "bytes": 1287
+    },
+    {
+      "path": "AGENTS/FERT/inbox/processed/2026-08-17_from-PROME_WILL-RULING-gates-G5-G3-RATIFIED-registered-G1-G2-held-G4-declined.md",
+      "bytes": 2160
+    },
+    {
+      "path": "AGENTS/FERT/inbox/processed/2026-08-22_from-PROME_s338-live-and-new-0908-canadian-counter-tariffs.md",
+      "bytes": 3914
+    },
+    {
+      "path": "AGENTS/FERT/inbox/processed/2026-08-28_from-DAEDALUS_one-directional-gate-link-and-scannable-disagree.md",
+      "bytes": 1387
+    },
+    {
+      "path": "AGENTS/FERT/inbox/processed/2026-09-02_from-MARCO_your-potash-exclusion-now-rests-on-a-primary-read-Ch31-carries-zero-lines.md",
+      "bytes": 2971
+    },
+    {
+      "path": "AGENTS/FERT/inbox/processed/2026-09-02_from-PROME_canada-counter-tariffs-9-8-corrected-at-the-primary-CA27.6B-three-tiers-338-plus-232-perimeter.md",
+      "bytes": 2300
+    },
+    {
+      "path": "AGENTS/FERT/inbox/processed/2026-09-04_from-PROME_WQ-176-leg-1-CONFIRM-the-400B-condition-summary-for-FERT-G3.md",
+      "bytes": 1792
+    },
+    {
+      "path": "AGENTS/FERT/inbox/processed/2026-09-05_from-DAEDALUS_first-profile-built-why-your-L3-gate-stands-and-a-trigger-that-fired-with-nobody-home.md",
+      "bytes": 3414
+    },
+    {
+      "path": "AGENTS/FERT/inbox/processed/2026-09-05_from-PROME_your-G3-confirm-flipped-the-actor-India-offers-vs-China-offers-into-India-cell-HELD-re-confirm-under-400B.md",
+      "bytes": 1229
+    },
+    {
+      "path": "AGENTS/FERT/inbox/processed/2026-09-17_from-DAEDALUS_gate-basis-sweep-1-G5-OPERATOR-MISMATCH-base-rate-on-the-forbidden-instrument.md",
+      "bytes": 1691
+    },
+    {
+      "path": "AGENTS/FERT/inbox/processed/2026-09-25_from-PROME_declare-cadence-and-watch-terms-WQ-295.md",
+      "bytes": 2138
+    },
+    {
+      "path": "AGENTS/FERT/inbox/processed/2026-09-26_from-PROME_WQ-257-RULED-option-A-ratified.md",
+      "bytes": 700
+    },
+    {
+      "path": "AGENTS/FERT/inbox/processed/2026-10-01_from-PROME_WQ-351-G5-clarification-ENCODED.md",
+      "bytes": 1321
+    },
+    {
+      "path": "AGENTS/FERT/inbox/processed/2026-10-01_from-WALTER_R3-watch-for-verdicts.md",
+      "bytes": 1326
+    },
+    {
+      "path": "AGENTS/FERT/inbox/processed/2026-10-08_from-DAEDALUS_sweeps-gatebasis2-falsif4-prose1.md",
+      "bytes": 1690
+    },
+    {
+      "path": "AGENTS/FERT/inbox/processed/2026-10-08_from-PROME_G5-clarified-letter-needs-its-owner-home-in-TRIGGERS-T4.md",
+      "bytes": 1376
+    },
+    {
+      "path": "AGENTS/FERT/inbox/processed/2026-10-14_from-PROME_G3-G5-L576-L577-wake-brief.md",
+      "bytes": 4222
+    },
+    {
+      "path": "AGENTS/FERT/inbox/processed/2026-10-15_from-PROME_crash-recovery-G3-G5-L576-L577.md",
+      "bytes": 4189
+    },
+    {
+      "path": "AGENTS/FERT/inbox/processed/2026-10-21_from-PROME_WQ466-RULED-C-labelled-inference.md",
+      "bytes": 888
+    },
+    {
+      "path": "AGENTS/FERT/inbox/processed/2026-10-22_from-DEWEY_screwworm-beef-food-cpi.md",
+      "bytes": 665
+    },
+    {
+      "path": "AGENTS/FERT/inbox/processed/2026-10-23_from-DAEDALUS_WQ508-harness-audit-lines.md",
+      "bytes": 3613
+    },
+    {
+      "path": "AGENTS/FERT/inbox/processed/2026-10-26_from-ISHM_first-session-boundary.md",
+      "bytes": 1113
+    },
+    {
+      "path": "AGENTS/FERT/inbox/processed/SIG-W-20260626-029.md",
+      "bytes": 977
+    },
+    {
+      "path": "AGENTS/FERT/inbox/processed/SIG-W-20260706-008.md",
+      "bytes": 602
+    },
+    {
+      "path": "AGENTS/FERT/outbox/2026-09-02_to-PROME_g5-g3-graded-not-fired-phosphate-momentum-collapse.md",
+      "bytes": 7850
+    },
+    {
+      "path": "AGENTS/FERT/outbox/2026-09-05_to-PROME_T11-pink-sheet-check-and-drain.md",
+      "bytes": 19736
+    },
+    {
+      "path": "AGENTS/FERT/outbox/2026-09-15_from-FERT_G3-china-quota-floor-re-read-DOCKET-L204.md",
+      "bytes": 17373
+    },
+    {
+      "path": "AGENTS/FERT/outbox/2026-09-17_from-FERT_L310-G5-9-16-grade-plus-DAEDALUS-ASK-disposition.md",
+      "bytes": 13693
+    },
+    {
+      "path": "AGENTS/FERT/outbox/2026-09-22_from-FERT_L398-source-disposition.md",
+      "bytes": 6489
+    },
+    {
+      "path": "AGENTS/FERT/reports/2026-10-21_self-sweep.md",
+      "bytes": 9167
+    },
+    {
+      "path": "AGENTS/FERT/reports/2026-10-26_startup.md",
+      "bytes": 8467
+    },
+    {
+      "path": "AGENTS/FERT/research/2026-10-26_L758/REPORT.md",
+      "bytes": 7424
+    },
+    {
+      "path": "AGENTS/FERT/research/2026-10-26_L758/consumer-cross.txt",
+      "bytes": 7343
+    },
+    {
+      "path": "AGENTS/FERT/research/2026-10-26_L758/consumer-self.txt",
+      "bytes": 6868
+    },
+    {
+      "path": "AGENTS/FERT/research/2026-10-26_L758/current-cpi.csv",
+      "bytes": 33723
+    },
+    {
+      "path": "AGENTS/FERT/research/2026-10-26_L758/documentation.html",
+      "bytes": 49622
+    },
+    {
+      "path": "AGENTS/FERT/research/2026-10-26_L758/documentation.txt",
+      "bytes": 13088
+    },
+    {
+      "path": "AGENTS/FERT/research/2026-10-26_L758/forecast-vintages-2027.csv",
+      "bytes": 8828
+    },
+    {
+      "path": "AGENTS/FERT/research/2026-10-26_L758/history-cpi.csv",
+      "bytes": 2133242
+    },
+    {
+      "path": "AGENTS/FERT/research/2026-10-26_L758/manifest.json",
+      "bytes": 3399
+    },
+    {
+      "path": "AGENTS/FERT/research/2026-10-26_L758/overview.html",
+      "bytes": 48605
+    },
+    {
+      "path": "AGENTS/FERT/research/2026-10-26_L758/overview.txt",
+      "bytes": 6838
+    },
+    {
+      "path": "AGENTS/FERT/research/2026-10-26_L758/revision-history.html",
+      "bytes": 41567
+    },
+    {
+      "path": "AGENTS/FERT/research/2026-10-26_L758/summary.html",
+      "bytes": 51419
+    },
+    {
+      "path": "AGENTS/FERT/research/2026-10-26_L758/summary.txt",
+      "bytes": 15868
+    },
+    {
+      "path": "AGENTS/FERT/research/2026-10-26_L758/usda-schedule-oct19-26.html",
+      "bytes": 154348
+    },
+    {
+      "path": "AGENTS/FERT/research/2026-10-26_L758/usda-schedule-oct19-26.txt",
+      "bytes": 11354
+    },
+    {
+      "path": "AGENTS/FERT/research/2026-10-26_L758/usda-schedule-oct23.html",
+      "bytes": 145951
+    },
+    {
+      "path": "AGENTS/FERT/research/2026-10-26_L758/usda-schedule.html",
+      "bytes": 152610
+    },
+    {
+      "path": "AGENTS/FERT/workbook/EXIT_PROTOCOL.md",
+      "bytes": 11889
+    },
+    {
+      "path": "AGENTS/FERT/workbook/FLOW.tsv",
+      "bytes": 6728
+    },
+    {
+      "path": "AGENTS/FERT/workbook/GATE_GRADES.md",
+      "bytes": 12582
+    },
+    {
+      "path": "AGENTS/FERT/workbook/INSTRUMENT_GAPS.md",
+      "bytes": 5681
+    },
+    {
+      "path": "AGENTS/FERT/workbook/KB.tsv",
+      "bytes": 112818
+    },
+    {
+      "path": "AGENTS/FERT/workbook/PREDICTIONS.tsv",
+      "bytes": 19134
+    },
+    {
+      "path": "AGENTS/FERT/workbook/SCHEMA.tsv",
+      "bytes": 1322
+    },
+    {
+      "path": "AGENTS/FERT/workbook/TRIGGERS.tsv",
+      "bytes": 20085
+    },
+    {
+      "path": "AGENTS/FERT/workbook/VX.tsv",
+      "bytes": 15557
+    },
+    {
+      "path": "AGENTS/FERT/workbook/board_log.tsv",
+      "bytes": 3130
+    }
+  ],
+  "kb": {
+    "rows": 89,
+    "statuses": {
+      "SUPERSEDED": 33,
+      "STALE": 4,
+      "ACTIVE": 49,
+      "CORRECTED": 3
+    },
+    "groups": {
+      "FERTILIZER_N": 34,
+      "CHINA_POLICY": 6,
+      "PHOSPHATE": 15,
+      "FOOD_CPI": 9,
+      "QATAR": 1,
+      "POTASH": 11,
+      "FERTILIZER_P": 10,
+      "FERTILIZER_K": 1,
+      "META": 2
+    },
+    "active_overdue": [
+      {
+        "id": "KB-FERT-021",
+        "stale_by": "2026-10-15",
+        "entity": "Morocco OCP / US phosphate imports"
+      },
+      {
+        "id": "KB-FERT-037",
+        "stale_by": "2026-10-15",
+        "entity": "China 2026 urea export quota - '5-5.5 Mt' claim RESOLVED as a category error (5th sighting)"
+      },
+      {
+        "id": "KB-FERT-042",
+        "stale_by": "2026-10-21",
+        "entity": "T12 phosphate cost-push \u2014 SECOND SOURCE obtained (sulfur contract)"
+      },
+      {
+        "id": "KB-FERT-046",
+        "stale_by": "2026-10-07",
+        "entity": "potash (TRIAGE DEPTH ONLY - Will-ruled 2026-08-18)"
+      },
+      {
+        "id": "KB-FERT-047",
+        "stale_by": "2026-10-09",
+        "entity": "NOLA granular urea barge FOB \u2014 Green Markets Nitrogen Posts 9/25 (LEVEL quoted in the free headline)"
+      },
+      {
+        "id": "KB-FERT-053",
+        "stale_by": "2026-10-09",
+        "entity": "International urea \u2014 AFC weekly w/e 2026-09-18"
+      },
+      {
+        "id": "KB-FERT-054",
+        "stale_by": "2026-10-07",
+        "entity": "Processed phosphates \u2014 AFC weekly w/e 2026-09-18"
+      },
+      {
+        "id": "KB-FERT-055",
+        "stale_by": "2026-10-08",
+        "entity": "India IPL urea import tender \u2014 1.7 Mt, bids 2026-10-07"
+      },
+      {
+        "id": "KB-FERT-056",
+        "stale_by": "2026-10-15",
+        "entity": "European nitrogen economics + ammonia"
+      },
+      {
+        "id": "KB-FERT-065",
+        "stale_by": "2026-10-15",
+        "entity": "China urea export regime \u2014 fourth quota round (for T10)"
+      },
+      {
+        "id": "KB-FERT-067",
+        "stale_by": "2026-10-15",
+        "entity": "India IPL urea tender (1.7 Mt) \u2014 10/07 OFFERS READ, lowest per coast"
+      },
+      {
+        "id": "KB-FERT-069",
+        "stale_by": "2026-10-21",
+        "entity": "GATE-FERT-G5 grade \u2014 9th consecutive NOT FIRED \u00b7 DTN 10/14 print (first-party) \u00b7 FERT-12 MISS"
+      },
+      {
+        "id": "KB-FERT-070",
+        "stale_by": "2026-10-21",
+        "entity": "potash (TRIAGE DEPTH ONLY - Will-ruled 2026-08-18)"
+      },
+      {
+        "id": "KB-FERT-071",
+        "stale_by": "2026-10-21",
+        "entity": "India IPL urea tender (1.7 Mt) \u2014 CFR basis STATED; counters at L1 reported; AWARD not public"
+      },
+      {
+        "id": "KB-FERT-075",
+        "stale_by": "2026-10-21",
+        "entity": "Phosphate margin inputs \u2014 Q4 Tampa sulfur + US producer curtailment (T12)"
+      },
+      {
+        "id": "KB-FERT-078",
+        "stale_by": "2026-10-21",
+        "entity": "India IPL urea tender (1.7 Mt) \u2014 AWARD still NOT public 2026-10-15 08:06 ET (offer-validity day); crash-recovery re-verification receipt"
+      }
+    ],
+    "active_without_review_date": [
+      "KB-FERT-011",
+      "KB-FERT-016",
+      "KB-FERT-017",
+      "KB-FERT-048",
+      "KB-FERT-052",
+      "KB-FERT-057",
+      "KB-FERT-058",
+      "KB-FERT-066",
+      "KB-FERT-068",
+      "KB-FERT-077"
+    ]
+  },
+  "scope": {
+    "history_and_processed_counted_in_inventory": true,
+    "active_overdue_does_not_make_every_dated_fact_false": true,
+    "pdf_and_source_access_is_per_client": true
+  }
+}

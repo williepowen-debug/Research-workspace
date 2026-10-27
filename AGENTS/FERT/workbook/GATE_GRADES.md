@@ -1,6 +1,6 @@
 # FERT — Registered gate grade history
 
-**LIVE — Last real data refresh: 2026-10-15** (crash-recovery re-verification 08:05–08:07 ET of the 10/14 print and the G3 state; no grade moved) · 2026-10-14 (10/14 print appended + 10-print rate cut; GATE-FERT-G3 section added with the 6th re-read, 2026-10-14 23:57 ET, for GATES review_by 10/15) | Staleness sweep: 2026-10-15 · prior: 2026-10-07 (10/7 print + 9-print cut)
+**LIVE — Last real data refresh: 2026-10-21** (G5 October 21 DTN grade already recorded below; G3 last read October 14). **Hygiene: 2026-10-26** — header and next-review metadata repaired; no new print or gate grade.
 **Split out of `STATUS.md` 2026-09-15** (read-cap remedy, hot/cold split). STATUS carries the **current** grade and the rate; this file carries the **print-by-print history**. GATE letters are never restated here. **Letter homes:** `GATE-FERT-G5` → `workbook/TRIGGERS.tsv` row **T4** (`Why_It_Wakes_You` cell, encoded 2026-10-09 verbatim from the GATES cell — closes the circular pointer DAEDALUS Gate-Basis #2 ② found; PROME re-points the GATES cell); `GATE-FERT-G3` → `PROME/GATES.tsv` (unchanged).
 
 ## GATE-FERT-G5 — DTN retail DAP **or** MAP > $1,000/ton ($/ton, DTN Progressive Farmer weekly)
@@ -74,7 +74,7 @@ Fifth consecutive MAP up-print (+$5 w/w); DAP flat ($934 = $934) after last week
 
 **Re-verified 2026-10-15 08:05 ET** (crash-recovery spawn, PROME `prome-73`; the 10/14 session died uncommitted): first-party curl of the same dtnpf.com article, HTTP 200, 183,078 B, JSON-LD datePublished 2026-10-14T13:18Z — table row Oct 5-9 2026 reads DAP 934 · MAP 979 · potash 502 · urea 672 · 10-34-0 702 · anhydrous 977 · UAN28 442 · UAN32 485, all eight matching `KB-FERT-069`. Grade unchanged: **NOT FIRED**.
 
-**Next grade: 2026-10-21 DTN weekly** (T4 wake; owner-set `review_by` for `G:GATE-FERT-G5`; find the slug on the dtnpf.com crops index, then curl the article). *(Prior: 2026-10-14 — met by the 10/14 grade above.)*
+**Next grade: 2026-10-28 DTN weekly** (T4 wake; owner-set `review_by` for `G:GATE-FERT-G5`; find the slug on the dtnpf.com crops index, then curl the article). *(Prior next-date 2026-10-21 was met by the already-recorded 10/21 grade above.)*
 
 ---
 
