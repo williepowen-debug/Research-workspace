@@ -1,0 +1,435 @@
+{
+  "version": 1,
+  "agents": [
+    {
+      "name": "PROME",
+      "path": "PROME",
+      "purpose": "Coordination, decisions, and final synthesis.",
+      "group": "System, research, and trading",
+      "kind": "fleet",
+      "default_runtime": "sol"
+    },
+    {
+      "name": "WALTER",
+      "path": "AGENTS/WALTER",
+      "purpose": "Signal intake and routing.",
+      "group": "System, research, and trading",
+      "kind": "fleet",
+      "default_runtime": "sol",
+      "claude_args": [
+        "--channels",
+        "plugin:telegram@claude-plugins-official"
+      ]
+    },
+    {
+      "name": "CATO",
+      "path": "AGENTS/CATO",
+      "purpose": "Independent advice on system direction, productivity, and reliability.",
+      "group": "System, research, and trading",
+      "kind": "cato",
+      "default_runtime": "astra"
+    },
+    {
+      "name": "DAEDALUS",
+      "path": "AGENTS/DAEDALUS",
+      "purpose": "Agent architecture, structure, and lifecycle.",
+      "group": "System, research, and trading",
+      "kind": "fleet",
+      "default_runtime": "sol"
+    },
+    {
+      "name": "NEXUS",
+      "path": "AGENTS/NEXUS",
+      "purpose": "Cross-agent synthesis and contradictions.",
+      "group": "System, research, and trading",
+      "kind": "fleet",
+      "default_runtime": "sol"
+    },
+    {
+      "name": "RED",
+      "path": "AGENTS/RED",
+      "purpose": "Adversarial review and thesis challenges.",
+      "group": "System, research, and trading",
+      "kind": "fleet",
+      "default_runtime": "sol"
+    },
+    {
+      "name": "DEWEY",
+      "path": "AGENTS/DEWEY",
+      "purpose": "Focused, source-backed research.",
+      "group": "System, research, and trading",
+      "kind": "fleet",
+      "default_runtime": "sol"
+    },
+    {
+      "name": "TERRY",
+      "path": "AGENTS/TERRY",
+      "purpose": "Trade construction and risk structure; Will approves trades.",
+      "group": "System, research, and trading",
+      "kind": "fleet",
+      "default_runtime": "sol"
+    },
+    {
+      "name": "LABOR",
+      "path": "AGENTS/LABOR",
+      "purpose": "Employment, claims, hiring, and workforce stress.",
+      "group": "Consumers, employment, and housing",
+      "kind": "fleet",
+      "default_runtime": "sol"
+    },
+    {
+      "name": "CARL",
+      "path": "AGENTS/CARL",
+      "purpose": "Consumer credit, spending, and household stress.",
+      "group": "Consumers, employment, and housing",
+      "kind": "fleet",
+      "default_runtime": "sol"
+    },
+    {
+      "name": "STUE",
+      "path": "AGENTS/CARL/sub_agents/STUE",
+      "purpose": "Federal student-loan stress; CARL specialist.",
+      "group": "Consumers, employment, and housing",
+      "kind": "fleet",
+      "default_runtime": "sol"
+    },
+    {
+      "name": "POLLY",
+      "path": "AGENTS/CARL/sub_agents/POLLY",
+      "purpose": "Insurance affordability and market stress; CARL specialist.",
+      "group": "Consumers, employment, and housing",
+      "kind": "fleet",
+      "default_runtime": "sol"
+    },
+    {
+      "name": "DOC",
+      "path": "AGENTS/CARL/sub_agents/DOC",
+      "purpose": "Healthcare costs and medical debt; CARL specialist.",
+      "group": "Consumers, employment, and housing",
+      "kind": "fleet",
+      "default_runtime": "sol"
+    },
+    {
+      "name": "GIG",
+      "path": "AGENTS/CARL/sub_agents/GIG",
+      "purpose": "Gig-economy saturation and worker stress; CARL specialist.",
+      "group": "Consumers, employment, and housing",
+      "kind": "fleet",
+      "default_runtime": "sol"
+    },
+    {
+      "name": "PHAN",
+      "path": "AGENTS/CARL/sub_agents/PHAN",
+      "purpose": "Phantom debt and shadow credit; CARL specialist.",
+      "group": "Consumers, employment, and housing",
+      "kind": "fleet",
+      "default_runtime": "sol"
+    },
+    {
+      "name": "POP",
+      "path": "AGENTS/CARL/sub_agents/POP",
+      "purpose": "Small-business stress; CARL specialist.",
+      "group": "Consumers, employment, and housing",
+      "kind": "fleet",
+      "default_runtime": "sol"
+    },
+    {
+      "name": "OTTO",
+      "path": "AGENTS/OTTO",
+      "purpose": "Auto-industry fraud and credit stress.",
+      "group": "Consumers, employment, and housing",
+      "kind": "fleet",
+      "default_runtime": "sol"
+    },
+    {
+      "name": "HOMER",
+      "path": "AGENTS/HOMER",
+      "purpose": "Housing-market conditions.",
+      "group": "Consumers, employment, and housing",
+      "kind": "fleet",
+      "default_runtime": "sol"
+    },
+    {
+      "name": "MARCO",
+      "path": "AGENTS/MARCO",
+      "purpose": "Population movement, migration, and visitor flows.",
+      "group": "Consumers, employment, and housing",
+      "kind": "fleet",
+      "default_runtime": "sol"
+    },
+    {
+      "name": "CRUISE",
+      "path": "AGENTS/CRUISE",
+      "purpose": "Cruise operators, demand, and financial health.",
+      "group": "Consumers, employment, and housing",
+      "kind": "fleet",
+      "default_runtime": "sol"
+    },
+    {
+      "name": "REGINALD",
+      "path": "AGENTS/REGINALD",
+      "purpose": "Regional-bank stress synthesis.",
+      "group": "Banks, property, and private credit",
+      "kind": "fleet",
+      "default_runtime": "sol"
+    },
+    {
+      "name": "OZK",
+      "path": "AGENTS/OZK",
+      "purpose": "Bank OZK.",
+      "group": "Banks, property, and private credit",
+      "kind": "fleet",
+      "default_runtime": "sol"
+    },
+    {
+      "name": "WAL",
+      "path": "AGENTS/WAL",
+      "purpose": "Western Alliance.",
+      "group": "Banks, property, and private credit",
+      "kind": "fleet",
+      "default_runtime": "sol"
+    },
+    {
+      "name": "FLG",
+      "path": "AGENTS/FLG",
+      "purpose": "Flagstar and its commercial-property exposure.",
+      "group": "Banks, property, and private credit",
+      "kind": "fleet",
+      "default_runtime": "sol"
+    },
+    {
+      "name": "CREED",
+      "path": "AGENTS/CREED",
+      "purpose": "National commercial real estate and CMBS.",
+      "group": "Banks, property, and private credit",
+      "kind": "fleet",
+      "default_runtime": "sol"
+    },
+    {
+      "name": "CORAL",
+      "path": "AGENTS/CORAL",
+      "purpose": "Florida economic and property-risk convergence.",
+      "group": "Banks, property, and private credit",
+      "kind": "fleet",
+      "default_runtime": "sol"
+    },
+    {
+      "name": "BROCK",
+      "path": "AGENTS/BROCK",
+      "purpose": "Private credit and business development companies.",
+      "group": "Banks, property, and private credit",
+      "kind": "fleet",
+      "default_runtime": "sol"
+    },
+    {
+      "name": "SHADE",
+      "path": "AGENTS/SHADE",
+      "purpose": "Private-equity and insurance funding links.",
+      "group": "Banks, property, and private credit",
+      "kind": "fleet",
+      "default_runtime": "sol"
+    },
+    {
+      "name": "LIQUID",
+      "path": "AGENTS/LIQUID",
+      "purpose": "Funding markets and financial plumbing.",
+      "group": "Funding, macro, and global markets",
+      "kind": "fleet",
+      "default_runtime": "sol"
+    },
+    {
+      "name": "BOND",
+      "path": "AGENTS/BOND",
+      "purpose": "Rates, Treasury markets, and credit spreads.",
+      "group": "Funding, macro, and global markets",
+      "kind": "fleet",
+      "default_runtime": "sol"
+    },
+    {
+      "name": "HENRY",
+      "path": "AGENTS/HENRY",
+      "purpose": "Macro releases, market structure, and positioning.",
+      "group": "Funding, macro, and global markets",
+      "kind": "fleet",
+      "default_runtime": "sol"
+    },
+    {
+      "name": "VIOLET",
+      "path": "AGENTS/VIOLET",
+      "purpose": "Volatility and its transmission to markets.",
+      "group": "Funding, macro, and global markets",
+      "kind": "fleet",
+      "default_runtime": "sol"
+    },
+    {
+      "name": "ORACLE",
+      "path": "AGENTS/ORACLE",
+      "purpose": "Prediction-market evidence.",
+      "group": "Funding, macro, and global markets",
+      "kind": "fleet",
+      "default_runtime": "sol"
+    },
+    {
+      "name": "SAM",
+      "path": "AGENTS/SAM",
+      "purpose": "Japan, the Bank of Japan, and carry trades.",
+      "group": "Funding, macro, and global markets",
+      "kind": "fleet",
+      "default_runtime": "sol"
+    },
+    {
+      "name": "ZHAO",
+      "path": "AGENTS/ZHAO",
+      "purpose": "China and capital flows.",
+      "group": "Funding, macro, and global markets",
+      "kind": "fleet",
+      "default_runtime": "sol"
+    },
+    {
+      "name": "HANS",
+      "path": "AGENTS/HANS",
+      "purpose": "Europe and its financial transmission channels.",
+      "group": "Funding, macro, and global markets",
+      "kind": "fleet",
+      "default_runtime": "sol"
+    },
+    {
+      "name": "HAWK",
+      "path": "AGENTS/HAWK",
+      "purpose": "Cross-war geopolitical synthesis.",
+      "group": "Geopolitics and cyber",
+      "kind": "fleet",
+      "default_runtime": "sol"
+    },
+    {
+      "name": "FALCON",
+      "path": "AGENTS/FALCON",
+      "purpose": "Iran and Gulf war theater.",
+      "group": "Geopolitics and cyber",
+      "kind": "fleet",
+      "default_runtime": "sol"
+    },
+    {
+      "name": "OSPREY",
+      "path": "AGENTS/OSPREY",
+      "purpose": "Russia and Ukraine war theater.",
+      "group": "Geopolitics and cyber",
+      "kind": "fleet",
+      "default_runtime": "sol"
+    },
+    {
+      "name": "BARON",
+      "path": "AGENTS/BARON",
+      "purpose": "Political-financial networks and policy beneficiaries.",
+      "group": "Geopolitics and cyber",
+      "kind": "fleet",
+      "default_runtime": "sol"
+    },
+    {
+      "name": "CYPHER",
+      "path": "AGENTS/CYPHER",
+      "purpose": "Cyber incidents and market consequences.",
+      "group": "Geopolitics and cyber",
+      "kind": "fleet",
+      "default_runtime": "sol",
+      "claude_args": [
+        "--model",
+        "claude-opus-5-5"
+      ]
+    },
+    {
+      "name": "BRENT",
+      "path": "AGENTS/BRENT",
+      "purpose": "Oil and energy markets.",
+      "group": "Energy, metals, and infrastructure",
+      "kind": "fleet",
+      "default_runtime": "sol"
+    },
+    {
+      "name": "MIDAS",
+      "path": "AGENTS/MIDAS",
+      "purpose": "Gold, silver, and industrial metals.",
+      "group": "Energy, metals, and infrastructure",
+      "kind": "fleet",
+      "default_runtime": "sol"
+    },
+    {
+      "name": "VULCAN",
+      "path": "AGENTS/VULCAN",
+      "purpose": "AI investment and the semiconductor cycle.",
+      "group": "Energy, metals, and infrastructure",
+      "kind": "fleet",
+      "default_runtime": "sol"
+    },
+    {
+      "name": "WATT",
+      "path": "AGENTS/WATT",
+      "purpose": "Electricity-market stress.",
+      "group": "Energy, metals, and infrastructure",
+      "kind": "fleet",
+      "default_runtime": "sol"
+    },
+    {
+      "name": "AEOLUS",
+      "path": "AGENTS/AEOLUS",
+      "purpose": "Weather, climate, and economic transmission.",
+      "group": "Energy, metals, and infrastructure",
+      "kind": "fleet",
+      "default_runtime": "sol"
+    },
+    {
+      "name": "FERT",
+      "path": "AGENTS/FERT",
+      "purpose": "Fertilizer and food-security signals.",
+      "group": "Energy, metals, and infrastructure",
+      "kind": "fleet",
+      "default_runtime": "sol"
+    },
+    {
+      "name": "ARCHITECT",
+      "path": "~/FFB-RESEARCH",
+      "purpose": "FFB research project.",
+      "group": "Separate projects",
+      "kind": "project",
+      "default_runtime": "sol",
+      "prompt": "Boot up as ARCHITECT. Follow BOOTSTRAP.md and AGENTS.md exactly and return the Agent boot report.",
+      "required": [
+        "BOOTSTRAP.md",
+        "AGENTS.md"
+      ]
+    },
+    {
+      "name": "VIRGIL",
+      "path": "WILL/private/fellowship",
+      "purpose": "Fellowship preparation project.",
+      "group": "Separate projects",
+      "kind": "project",
+      "default_runtime": "sol",
+      "prompt": "You are VIRGIL. Read this project's AGENTS.md and CLAUDE.md if present, then its required startup and handoff files. Recover current work and approvals and report any missing startup instructions.",
+      "required": [
+        "CLAUDE.md"
+      ]
+    },
+    {
+      "name": "CAREER",
+      "path": "~/career-launch",
+      "purpose": "Career-launch materials and handoff.",
+      "group": "Separate projects",
+      "kind": "project",
+      "default_runtime": "sol",
+      "prompt": "Read the project instructions and HANDOFF.md. Continue the career project from its current handoff and existing approvals.",
+      "required": [
+        "CLAUDE.md",
+        "HANDOFF.md"
+      ]
+    },
+    {
+      "name": "ZION",
+      "path": "AGENTS/ZION",
+      "purpose": "Legacy bank-desk command from the original sheet.",
+      "group": "Legacy reference",
+      "kind": "fleet",
+      "default_runtime": "sol"
+    }
+  ]
+}
