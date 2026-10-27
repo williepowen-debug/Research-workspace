@@ -1,0 +1,335 @@
+{
+  "as_of": "2026-10-27T04:28:20Z",
+  "rows": 49,
+  "review": [
+    {
+      "agent": "PROME",
+      "old_updated": "2026-10-25",
+      "updated": "2026-10-27",
+      "status": "GREEN",
+      "result": "Lead header reviewed; prior status band retained, no grade inference"
+    },
+    {
+      "agent": "CARL",
+      "old_updated": "2026-10-26",
+      "updated": "2026-10-26",
+      "status": "RED",
+      "result": "Lead header reviewed; prior status band retained, no grade inference"
+    },
+    {
+      "agent": "REGINALD",
+      "old_updated": "2026-10-23",
+      "updated": "2026-10-23",
+      "status": "ORANGE",
+      "result": "Lead header reviewed; prior status band retained, no grade inference"
+    },
+    {
+      "agent": "WAL",
+      "old_updated": "2026-10-22",
+      "updated": "2026-10-22",
+      "status": "ORANGE",
+      "result": "Lead header reviewed; prior status band retained, no grade inference"
+    },
+    {
+      "agent": "SAM",
+      "old_updated": "2026-10-20",
+      "updated": "2026-10-20",
+      "status": "ORANGE",
+      "result": "Lead header reviewed; prior status band retained, no grade inference"
+    },
+    {
+      "agent": "RED",
+      "old_updated": "2026-10-22",
+      "updated": "2026-10-22",
+      "status": "ORANGE",
+      "result": "Lead header reviewed; prior status band retained, no grade inference"
+    },
+    {
+      "agent": "BROCK",
+      "old_updated": "2026-10-25",
+      "updated": "2026-10-25",
+      "status": "ORANGE",
+      "result": "Lead header reviewed; prior status band retained, no grade inference"
+    },
+    {
+      "agent": "BRENT",
+      "old_updated": "2026-10-26",
+      "updated": "2026-10-26",
+      "status": "RED",
+      "result": "Lead header reviewed; prior status band retained, no grade inference"
+    },
+    {
+      "agent": "LIQUID",
+      "old_updated": "2026-10-26",
+      "updated": "2026-10-26",
+      "status": "YELLOW",
+      "result": "Lead header reviewed; prior status band retained, no grade inference"
+    },
+    {
+      "agent": "HENRY",
+      "old_updated": "2026-10-22",
+      "updated": "2026-10-22",
+      "status": "RED",
+      "result": "Lead header reviewed; prior status band retained, no grade inference"
+    },
+    {
+      "agent": "LABOR",
+      "old_updated": "2026-10-22",
+      "updated": "2026-10-22",
+      "status": "ORANGE",
+      "result": "Lead header reviewed; prior status band retained, no grade inference"
+    },
+    {
+      "agent": "HAWK",
+      "old_updated": "2026-10-25",
+      "updated": "2026-10-25",
+      "status": "RED",
+      "result": "Lead header reviewed; prior status band retained, no grade inference"
+    },
+    {
+      "agent": "NEXUS",
+      "old_updated": "2026-10-26",
+      "updated": "2026-10-26",
+      "status": "YELLOW",
+      "result": "Lead header reviewed; prior status band retained, no grade inference"
+    },
+    {
+      "agent": "WALTER",
+      "old_updated": "2026-10-27",
+      "updated": "2026-10-27",
+      "status": "YELLOW",
+      "result": "Lead header reviewed; prior status band retained, no grade inference"
+    },
+    {
+      "agent": "VIOLET",
+      "old_updated": "2026-10-21",
+      "updated": "2026-10-21",
+      "status": "ORANGE",
+      "result": "Lead header reviewed; prior status band retained, no grade inference"
+    },
+    {
+      "agent": "YEYOU",
+      "old_updated": "2026-08-20",
+      "updated": "2026-08-20",
+      "status": "RETIRED",
+      "result": "Lead header reviewed; prior status band retained, no grade inference"
+    },
+    {
+      "agent": "RAV",
+      "result": "No STATUS; prior metadata retained"
+    },
+    {
+      "agent": "ZHAO",
+      "old_updated": "2026-10-22",
+      "updated": "2026-10-22",
+      "status": "YELLOW",
+      "result": "Lead header reviewed; prior status band retained, no grade inference"
+    },
+    {
+      "agent": "HANS",
+      "old_updated": "2026-10-22",
+      "updated": "2026-10-22",
+      "status": "ORANGE",
+      "result": "Lead header reviewed; prior status band retained, no grade inference"
+    },
+    {
+      "agent": "MARCO",
+      "old_updated": "2026-10-25",
+      "updated": "2026-10-25",
+      "status": "ELEVATED",
+      "result": "Lead header reviewed; prior status band retained, no grade inference"
+    },
+    {
+      "agent": "SHADE",
+      "old_updated": "2026-10-21",
+      "updated": "2026-10-21",
+      "status": "ORANGE",
+      "result": "Lead header reviewed; prior status band retained, no grade inference"
+    },
+    {
+      "agent": "OTTO",
+      "old_updated": "2026-10-25",
+      "updated": "2026-10-25",
+      "status": "RED2",
+      "result": "Lead header reviewed; prior status band retained, no grade inference"
+    },
+    {
+      "agent": "BOND",
+      "old_updated": "2026-10-20",
+      "updated": "2026-10-20",
+      "status": "ORANGE",
+      "result": "Lead header reviewed; prior status band retained, no grade inference"
+    },
+    {
+      "agent": "ORACLE",
+      "old_updated": "2026-10-21",
+      "updated": "2026-10-22",
+      "status": "GREEN",
+      "result": "Lead header reviewed; prior status band retained, no grade inference"
+    },
+    {
+      "agent": "FERT",
+      "old_updated": "2026-10-26",
+      "updated": "2026-10-26",
+      "status": "YELLOW",
+      "result": "Lead header reviewed; prior status band retained, no grade inference"
+    },
+    {
+      "agent": "ATHENA",
+      "old_updated": "2026-03-14",
+      "updated": "2026-03-14",
+      "status": "GREEN",
+      "result": "Lead header reviewed; prior status band retained, no grade inference"
+    },
+    {
+      "agent": "CRUISE",
+      "old_updated": "2026-10-25",
+      "updated": "2026-10-25",
+      "status": "RED",
+      "result": "Lead header reviewed; prior status band retained, no grade inference"
+    },
+    {
+      "agent": "DARWIN",
+      "result": "No STATUS; prior metadata retained"
+    },
+    {
+      "agent": "OZK",
+      "old_updated": "2026-10-22",
+      "updated": "2026-10-22",
+      "status": "YELLOW",
+      "result": "Lead header reviewed; prior status band retained, no grade inference"
+    },
+    {
+      "agent": "CORAL",
+      "old_updated": "2026-10-21",
+      "updated": "2026-10-21",
+      "status": "RED",
+      "result": "Lead header reviewed; prior status band retained, no grade inference"
+    },
+    {
+      "agent": "CREED",
+      "old_updated": "2026-10-22",
+      "updated": "2026-10-22",
+      "status": "ORANGE",
+      "result": "Lead header reviewed; prior status band retained, no grade inference"
+    },
+    {
+      "agent": "BARON",
+      "result": "No STATUS; prior metadata retained"
+    },
+    {
+      "agent": "HERMES",
+      "result": "No STATUS; prior metadata retained"
+    },
+    {
+      "agent": "SENTRY",
+      "old_updated": "2026-05-09",
+      "updated": "2026-05-09",
+      "status": "YELLOW",
+      "result": "Lead header reviewed; prior status band retained, no grade inference"
+    },
+    {
+      "agent": "DEWEY",
+      "result": "No STATUS; prior metadata retained"
+    },
+    {
+      "agent": "TERRY",
+      "old_updated": "2026-10-25",
+      "updated": "2026-10-25",
+      "status": "ORANGE",
+      "result": "Lead header reviewed; prior status band retained, no grade inference"
+    },
+    {
+      "agent": "DAEDALUS",
+      "old_updated": "2026-10-24",
+      "updated": "2026-10-24",
+      "status": "GREEN",
+      "result": "Lead header reviewed; prior status band retained, no grade inference"
+    },
+    {
+      "agent": "AEOLUS",
+      "old_updated": "2026-10-21",
+      "updated": "2026-10-21",
+      "status": "RED",
+      "result": "Lead header reviewed; prior status band retained, no grade inference"
+    },
+    {
+      "agent": "WATT",
+      "old_updated": "2026-10-23",
+      "updated": "2026-10-23",
+      "status": "RED",
+      "result": "Lead header reviewed; prior status band retained, no grade inference"
+    },
+    {
+      "agent": "VULCAN",
+      "old_updated": "2026-10-26",
+      "updated": "2026-10-26",
+      "status": "ORANGE",
+      "result": "Lead header reviewed; prior status band retained, no grade inference"
+    },
+    {
+      "agent": "MIDAS",
+      "old_updated": "2026-10-26",
+      "updated": "2026-10-26",
+      "status": "YELLOW",
+      "result": "Lead header reviewed; prior status band retained, no grade inference"
+    },
+    {
+      "agent": "OSPREY",
+      "old_updated": "2026-10-23",
+      "updated": "2026-10-23",
+      "status": "YELLOW",
+      "result": "Lead header reviewed; prior status band retained, no grade inference"
+    },
+    {
+      "agent": "FALCON",
+      "old_updated": "2026-10-26",
+      "updated": "2026-10-26",
+      "status": "RED",
+      "result": "Lead header reviewed; prior status band retained, no grade inference"
+    },
+    {
+      "agent": "HOMER",
+      "old_updated": "2026-10-19",
+      "updated": "2026-10-19",
+      "status": "RED",
+      "result": "Lead header reviewed; prior status band retained, no grade inference"
+    },
+    {
+      "agent": "FLG",
+      "old_updated": "2026-10-23",
+      "updated": "2026-10-23",
+      "status": "YELLOW",
+      "result": "Lead header reviewed; prior status band retained, no grade inference"
+    },
+    {
+      "agent": "YURI",
+      "old_updated": "2026-10-21",
+      "updated": "2026-10-21",
+      "status": "YELLOW",
+      "result": "Lead header reviewed; prior status band retained, no grade inference"
+    },
+    {
+      "agent": "GIBBS",
+      "old_updated": "2026-10-23",
+      "updated": "2026-10-23",
+      "status": "\u2014",
+      "result": "Lead header reviewed; prior status band retained, no grade inference"
+    },
+    {
+      "agent": "CYPHER",
+      "old_updated": "2026-10-26",
+      "updated": "2026-10-26",
+      "status": "\u2014",
+      "result": "Lead header reviewed; prior status band retained, no grade inference"
+    },
+    {
+      "agent": "ISHM",
+      "old_updated": "2026-10-26",
+      "updated": "2026-10-26",
+      "status": "\u2014",
+      "result": "Lead header reviewed; prior status band retained, no grade inference"
+    }
+  ],
+  "scope": "Existing 49 rows, lead metadata only. Missing STATUS rows retained. ROSTER classification unchanged; CATO explicitly manual-only and ineligible for signal routing."
+}

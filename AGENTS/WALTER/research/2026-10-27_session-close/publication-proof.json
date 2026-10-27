@@ -1,0 +1,519 @@
+{
+  "as_of": "2026-10-27T04:29:15Z",
+  "origin": "f5b1ab02bf02907f8d07ed37e204c77b56d1aabc",
+  "commits": [
+    {
+      "commit": "25492ab9bbb860b30905c264a5a9494b86da4cd5",
+      "state": "published"
+    },
+    {
+      "commit": "bb182dd93c7d91e4b111608e5d7127e5574ea14b",
+      "state": "published"
+    },
+    {
+      "commit": "c8581b43eae3c899685abeeeff26e29f9bef0769",
+      "state": "published"
+    },
+    {
+      "commit": "250cffb7ef1fa50e380c6bf315602a4708d6eff7",
+      "state": "published"
+    },
+    {
+      "commit": "98cb4d182ce2aec6ef53e259eed6424ebf82e7b4",
+      "state": "published"
+    },
+    {
+      "commit": "038d88b7e0362e4e847631031cb036df2427e3ca",
+      "state": "published"
+    },
+    {
+      "commit": "5901e6a984c3b2dfc1786c7a8db51ce42ceef593",
+      "state": "published"
+    },
+    {
+      "commit": "09c7204cd1f823daa7fc0afbf8b56e19dca7a029",
+      "state": "published"
+    },
+    {
+      "commit": "e5a16426132d2d5c018db8427afdb9d13ab6530a",
+      "state": "published"
+    },
+    {
+      "commit": "42471c4c04ef3f8aa00f0f8f0bd6c33e21ca9f3d",
+      "state": "published"
+    },
+    {
+      "commit": "c9e2a5bf86526caa538cf879991bc6c36b23a86f",
+      "state": "published"
+    },
+    {
+      "commit": "f31b12ded642370e2f9a83acd9b31b501e19eaca",
+      "state": "published"
+    },
+    {
+      "commit": "c8cf54fcbd53e76295215bfe9d653a682a1858f5",
+      "state": "published"
+    },
+    {
+      "commit": "20401877a8480ddd3db8f357362969c4d00c65aa",
+      "state": "published"
+    },
+    {
+      "commit": "3fc439a0b66f6e4f7f98c906fe5ff6afec0c0592",
+      "state": "published"
+    },
+    {
+      "commit": "726ae27de66ac76b64b152d1048b4b6f744d91b2",
+      "state": "published"
+    },
+    {
+      "commit": "22591a862e749b13709689e379287fc6d359c9d6",
+      "state": "published"
+    },
+    {
+      "commit": "7451a92d6af380808ea6d5dbfe62f1ac718452db",
+      "state": "published"
+    }
+  ],
+  "paths": [
+    {
+      "path": "BOARD/SIG-W-20261027-020-trepp-q3-credit-recap.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/CREED/inbox/WALTER/SIG-W-20261027-020.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/HOMER/inbox/WALTER/SIG-W-20261027-020.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-020.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/BROCK/inbox/WALTER/SIG-W-20261027-020.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261027-020.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "BOARD/SIG-W-20261027-021-wells-fargo-center-south-note-sale.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/CREED/inbox/WALTER/SIG-W-20261027-021.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-021.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/BROCK/inbox/WALTER/SIG-W-20261027-021.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261027-021.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "BOARD/SIG-W-20261027-022-seniors-housing-maturity-cohort.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/HOMER/inbox/WALTER/SIG-W-20261027-022.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/CREED/inbox/WALTER/SIG-W-20261027-022.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-022.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "BOARD/SIG-W-20261027-023-florida-office-transactions.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/CORAL/inbox/WALTER/SIG-W-20261027-023.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-023.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/BROCK/inbox/WALTER/SIG-W-20261027-023.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/CREED/inbox/WALTER/SIG-W-20261027-023.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "BOARD/SIG-W-20261027-024-sf-office-ai-recovery-context.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/CREED/inbox/WALTER/SIG-W-20261027-024.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261027-024.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-024.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "BOARD/SIG-W-20261027-025-jbi-data-center-credit-dispersion.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261027-025.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/BROCK/inbox/WALTER/SIG-W-20261027-025.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/SHADE/inbox/WALTER/SIG-W-20261027-025.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261027-025.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261027-025.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20261027-025.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "BOARD/SIG-W-20261027-026-texas-data-center-permitting-context.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261027-026.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/WATT/inbox/WALTER/SIG-W-20261027-026.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/AEOLUS/inbox/WALTER/SIG-W-20261027-026.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/HOMER/inbox/WALTER/SIG-W-20261027-026.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "BOARD/SIG-W-20261027-027-pjm-planned-data-maintenance.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/WATT/inbox/WALTER/SIG-W-20261027-027.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261027-027.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "BOARD/SIG-W-20261027-028-insurance-related-party-teaser.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/SHADE/inbox/WALTER/SIG-W-20261027-028.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/BROCK/inbox/WALTER/SIG-W-20261027-028.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261027-028.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "BOARD/SIG-W-20261027-029-broadcom-anthropic-63b-committed-structure.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/BROCK/inbox/WALTER/SIG-W-20261027-029.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261027-029.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/GIBBS/inbox/WALTER/SIG-W-20261027-029.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261027-029.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261027-029.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20261027-029.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "BOARD/SIG-W-20261027-030-mainstreet-q3-credit-and-funding.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-030.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/BROCK/inbox/WALTER/SIG-W-20261027-030.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261027-030.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "BOARD/SIG-W-20261027-031-blackjack-remaining-multifamily-maturity.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/HOMER/inbox/WALTER/SIG-W-20261027-031.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/CORAL/inbox/WALTER/SIG-W-20261027-031.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/CREED/inbox/WALTER/SIG-W-20261027-031.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-031.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/BROCK/inbox/WALTER/SIG-W-20261027-031.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261027-031.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "BOARD/SIG-W-20261027-032-forge-atlanta-primary-restatement-grace.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/CREED/inbox/WALTER/SIG-W-20261027-032.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-032.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/BROCK/inbox/WALTER/SIG-W-20261027-032.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "BOARD/SIG-W-20261027-033-american-equity-iowa-loan-source-upgrade.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/SHADE/inbox/WALTER/SIG-W-20261027-033.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/BROCK/inbox/WALTER/SIG-W-20261027-033.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261027-033.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "BOARD/SIG-W-20261027-034-trepp-newmark-refinance-basis.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/CREED/inbox/WALTER/SIG-W-20261027-034.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/HOMER/inbox/WALTER/SIG-W-20261027-034.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-034.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/BROCK/inbox/WALTER/SIG-W-20261027-034.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261027-034.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "BOARD/SIG-W-20261027-035-cre-values-distress-sale-denominators.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/CREED/inbox/WALTER/SIG-W-20261027-035.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/HOMER/inbox/WALTER/SIG-W-20261027-035.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/BROCK/inbox/WALTER/SIG-W-20261027-035.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-035.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261027-035.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "BOARD/SIG-W-20261027-036-townlane-fund-two-commitments.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/CREED/inbox/WALTER/SIG-W-20261027-036.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/BROCK/inbox/WALTER/SIG-W-20261027-036.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/HOMER/inbox/WALTER/SIG-W-20261027-036.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261027-036.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "BOARD/SIG-W-20261027-037-sunbeam-florida-self-funding-plans.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/CORAL/inbox/WALTER/SIG-W-20261027-037.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/HOMER/inbox/WALTER/SIG-W-20261027-037.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/CREED/inbox/WALTER/SIG-W-20261027-037.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-037.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "BOARD/SIG-W-20261027-038-openai-google-distribution-primary.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261027-038.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261027-038.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/BROCK/inbox/WALTER/SIG-W-20261027-038.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261027-038.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20261027-038.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/WATT/inbox/WALTER/SIG-W-20261027-038.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "BOARD/SIG-W-20261027-039-dutch-staffing-plan-not-realized-ai-losses.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/HANS/inbox/WALTER/SIG-W-20261027-039.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/LABOR/inbox/WALTER/SIG-W-20261027-039.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261027-039.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "BOARD/SIG-W-20261027-040-jetblue-q3-primary-liquidity-counterevidence.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261027-040.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/CARL/inbox/WALTER/SIG-W-20261027-040.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/CORAL/inbox/WALTER/SIG-W-20261027-040.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/BROCK/inbox/WALTER/SIG-W-20261027-040.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261027-040.md",
+      "on_origin_or_history": true
+    },
+    {
+      "path": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261027-040.md",
+      "on_origin_or_history": true
+    }
+  ],
+  "signals": 21,
+  "handoffs": 88,
+  "limit": "Fresh fetch; original handoff path history proves publication if a recipient later moved it. No semantic incorporation inferred."
+}

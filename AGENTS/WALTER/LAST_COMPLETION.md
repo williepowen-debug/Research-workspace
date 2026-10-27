@@ -1,12 +1,14 @@
-# WALTER completion — Gmail signal processing / October 27 UTC
+# WALTER completion — session closed / October 27 UTC
 
-Updated 2026-10-27T04:18:56Z. LIGHT routing checkpoint — full deferred; boot remains PARTIAL.
+Updated 2026-10-27T04:29:15Z. FULL narrative closeout at Will’s request; session CLOSED, boot remains PARTIAL.
 
 ## STATUS
 
-Gmail source-processing pass complete at the declared disposition scope: 89 content items, 12 new cards and 54 create-only handoffs; 34 explicit source leads remain. Boot stays PARTIAL. Runtime OpenAI GPT-6/Codex; exact variant UNKNOWN; session 01a17b72-6396-7253-b3a6-ddaa2015851e. No trade, new monitor, paid access, research commission or desk launch.
+Session CLOSED at Will’s request. Gmail work complete at the declared disposition scope: 21 cards/88 handoffs across both passes; second pass 89 content items, 12 cards/54 handoffs, 34 explicit source leads. FULL narrative maintenance completed; boot stays PARTIAL. Runtime OpenAI GPT-6/Codex; exact variant UNKNOWN; session 01a17b72-6396-7253-b3a6-ddaa2015851e. No trade, new monitor, paid access, research commission or desk launch.
 
 ## CHANGED
+
+Closeout updates STATUS, MEMORY, SESSION_LOG, REGISTRY and this receipt. Existing 49 owner-header rows reviewed before NETWORK regeneration; no roster/classification or owner grade change. Two LIGHT narrative deferrals cleared. Exact 21 ordinary/3 DEWEY pending inventory saved; no new consumption declaration.
 
 SIG-W-20261027-029–040, 54 new recipient packets, generated INDEX, route/delivery/batch ledgers and research/2026-10-27_gmail-processing/. BOARD 1753 → 1765. BM-20261027-06 CLOSED 89/89: 16 DISPATCH content items merged into 12 cards; 14 DUP, 34 NOTE, 14 NO-ACTION, 11 FOLD. Gmail search/read only; no mailbox changes or sends.
 
@@ -16,10 +18,10 @@ Primary verification supports the $63 billion Broadcom/Anthropic SPV structure w
 
 ## GAPS
 
-- Current Gmail scope is a targeted sender/date pass, not the full mailbox. The second pass adds 12 source-qualified cards, but 34 items remain explicit NOTE leads; full magazine/models/charts, selected paid bodies, original servicing/MSCI records and other named source gaps remain unverified. Iowa exam historical loans and the OpenAI distribution post are now source-read at the stated scope, not blanket clearance of other insurance/OpenAI items. All 21 ordinary inbox packets were read for triage but not integrated/moved/declared consumed. No fresh complete four-family scan, broad filter context, Intake sync/marks, X scan, DEWEY QA, registry refresh or general lifecycle/retirement adjudication in this processing pass.
-- Main pull/push remains deferred for foreign dirty work. Prior nine Gmail cards/34 handoffs remain publication-proven. Coordinated sync completed during final verification. Fresh fetch at 2026-10-27T04:21:26Z proves all five new publication commits and all 66 dispatch paths. Reconciliation advances all 54 new rows; UTC-day cohort 149/149 delivered, zero orphans. Recipient incorporation remains UNKNOWN. No WALTER push or live tool notification; developer instruction prohibits messaging others without explicit instruction. Native discovery is partial/truncated, no DARK inference. Delivery is proven separately from semantic incorporation.
+- Current Gmail scope is a targeted sender/date pass, not the full mailbox. The second pass adds 12 source-qualified cards, but 34 items remain explicit NOTE leads; full magazine/models/charts, selected paid bodies, original servicing/MSCI records and other named source gaps remain unverified. Iowa exam historical loans and the OpenAI distribution post are now source-read at the stated scope, not blanket clearance of other insurance/OpenAI items. All 21 ordinary inbox packets were read for triage but not integrated/moved/declared consumed. No fresh complete four-family scan, broad filter context, Intake sync/marks, X scan, DEWEY QA or general lifecycle/retirement adjudication in this closeout. Registry lead metadata and NETWORK were refreshed; this does not refresh market data or owner grades.
+- Pull/push remains deferred while foreign work is dirty. WALTER’s source/routing commits are published; final continuity commit publication is separate. Prior nine Gmail cards/34 handoffs remain publication-proven. Coordinated sync completed during final verification. Fresh fetch at 2026-10-27T04:21:26Z proves all five new publication commits and all 66 dispatch paths. Reconciliation advances all 54 new rows; UTC-day cohort 149/149 delivered, zero orphans. Recipient incorporation remains UNKNOWN. No WALTER push or live tool notification; developer instruction prohibits messaging others without explicit instruction. Native discovery is partial/truncated, no DARK inference. Delivery is proven separately from semantic incorporation.
 
-- Original 14 regular packets / 3 DEWEY returns remain pending; new ordinary packets added while this session ran. Exact current top-level pending snapshot: research/2026-10-26_bookmarks/pending-inbox.json (21 regular at its recorded clock; not a fixed future count). Two CYPHER e95ea6efd packets are separately consumed with declarations; later four CYPHER sweep packets remain source/routing duties. New MIDAS close-band packet and ISHM/BRENT/CARL returns retain their owner qualifications. Bookmarks are no longer pending: all34 exact IDs marked, no staged IDs left at final check. Material source gaps remain in FOLLOW-UP.md. Research-Intake10 diagnostic keys remain unmarked pending source/correction packet dispositions. No whole-inbox/full-boot clearance.
+- Original 14 regular packets / 3 DEWEY returns remain pending; new ordinary packets added while this session ran. Exact closeout pending snapshot: research/2026-10-27_session-close/pending-inbox.json (21 ordinary packets and 3 DEWEY returns at its recorded clock; scaffolds excluded, not a fixed future count). Two CYPHER e95ea6efd packets are separately consumed with declarations; later four CYPHER sweep packets remain source/routing duties. New MIDAS close-band packet and ISHM/BRENT/CARL returns retain their owner qualifications. Bookmarks are no longer pending: all34 exact IDs marked, no staged IDs left at final check. Material source gaps remain in FOLLOW-UP.md. Research-Intake10 diagnostic keys remain unmarked pending source/correction packet dispositions. No whole-inbox/full-boot clearance.
 
 - General lifecycle adjudication remains overdue: last complete October 10. Candidate generator returned359/1725, not reviewed tags; cadence not reset. Retirement candidate inventory reviewed but complete per-file live-reference/pending-event proof not established; no archive/retirement clearance. Existing older corrections/consumer adjudications remain open below.
 - READS perimeter attestation stale; full-run exact result in checks.json. No silent PROME-owned attestation edit. Boot basis/current bytes versus actual execution are separate. Full cross-owner first40-line/filter context, broad RED catalyst extraction, current HANS daily legs/HANS-T-12 and official Brent qualifying-settle counts (latest matched FT-11 window now checked; older windows not re-adjudicated) remain incomplete/UNINSTRUMENTED; partial eligible coverage cannot clear registries. ORCH_INFLIGHT read whole; native discovery reviewed only to available partial coverage; no whole-fleet absence/DARK claim.
@@ -67,14 +69,66 @@ CYBER BOARD cluster remainsMISC (WQ501) pending any approved proposal; VX-CYP ta
 
 ## CLOSEOUT RECEIPT
 
-LIGHT routing checkpoint — full deferred. Source processing is complete at the stated disposition scope; 34 leads remain source-limited. All new dispatch paths are publication-proven; boot remains PARTIAL. No new Will decision.
+FULL narrative closeout at Will’s request. Session CLOSED; boot remains PARTIAL. Both Gmail passes are publication-proven, with 34 source leads and earlier duties retained. No new Will decision. Final continuity publication remains separately checkable.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-27T04:21:26Z",
+  "as_of": "2026-10-27T04:29:15Z",
   "next_review": "2026-10-27",
   "publication": [
+    {
+      "commit": "25492ab9bbb860b30905c264a5a9494b86da4cd5",
+      "state": "published"
+    },
+    {
+      "commit": "bb182dd93c7d91e4b111608e5d7127e5574ea14b",
+      "state": "published"
+    },
+    {
+      "commit": "c8581b43eae3c899685abeeeff26e29f9bef0769",
+      "state": "published"
+    },
+    {
+      "commit": "250cffb7ef1fa50e380c6bf315602a4708d6eff7",
+      "state": "published"
+    },
+    {
+      "commit": "98cb4d182ce2aec6ef53e259eed6424ebf82e7b4",
+      "state": "published"
+    },
+    {
+      "commit": "038d88b7e0362e4e847631031cb036df2427e3ca",
+      "state": "published"
+    },
+    {
+      "commit": "5901e6a984c3b2dfc1786c7a8db51ce42ceef593",
+      "state": "published"
+    },
+    {
+      "commit": "09c7204cd1f823daa7fc0afbf8b56e19dca7a029",
+      "state": "published"
+    },
+    {
+      "commit": "e5a16426132d2d5c018db8427afdb9d13ab6530a",
+      "state": "published"
+    },
+    {
+      "commit": "42471c4c04ef3f8aa00f0f8f0bd6c33e21ca9f3d",
+      "state": "published"
+    },
+    {
+      "commit": "c9e2a5bf86526caa538cf879991bc6c36b23a86f",
+      "state": "published"
+    },
+    {
+      "commit": "f31b12ded642370e2f9a83acd9b31b501e19eaca",
+      "state": "published"
+    },
+    {
+      "commit": "c8cf54fcbd53e76295215bfe9d653a682a1858f5",
+      "state": "published"
+    },
     {
       "commit": "20401877a8480ddd3db8f357362969c4d00c65aa",
       "state": "published"
@@ -100,50 +154,62 @@ LIGHT routing checkpoint — full deferred. Source processing is complete at the
     "signal_date": "20261027",
     "total": 149,
     "delivered": 149,
-    "note": "Previous 95 plus new 54 publication-proven. No recipient incorporation claim."
+    "note": "Both Gmail passes 88 handoffs within UTC-day total 149; all publication-proven, incorporation not inferred."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
     "evidence": [
       {
+        "path": "AGENTS/WALTER/research/2026-10-27_session-close/publication-proof.json",
+        "sha256": "9b6e14a52670bff729d64d04b23b19700d464a9a919b50d94c6527f05bf61071"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-27_session-close/owner-headers.json",
+        "sha256": "d9086fd26f6ea322f700d5f81220d193881a460c4181229f8aaa391472dd0bae"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-27_session-close/registry-review.json",
+        "sha256": "9d71b965738fe4365a4988ddc44a348a4aa677323f09d0d9e11bc85a3722d9d1"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-27_session-close/pending-inbox.json",
+        "sha256": "4f1958304bb57d863fa9a41f237addcddb6979eb2e634fd7e7ce418fbc073dd5"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-27_session-close/retirement-review.json",
+        "sha256": "46d1cb1d98e1a42b78e6ff481950983b737fa28cd700fefa9f64e4e57a9866fc"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-27_session-close/LAST_COMPLETION-before.md",
+        "sha256": "c94dfdfccd7b8fb393f55eb0dc1cf08bc450eec095a6554ceaa01cf6cf9ed5ee"
+      },
+      {
         "path": "AGENTS/WALTER/research/2026-10-27_gmail-processing/REVIEW.md",
         "sha256": "4e50413a3c275ef0b4842299e7f17de1c21a973bf8ebfe98aa5408f9f16b4fd3"
       },
       {
-        "path": "AGENTS/WALTER/research/2026-10-27_gmail-processing/content-dispositions.tsv",
-        "sha256": "91c85efbbf9e9448d85c0abec42f0b7a19241a211f36b19f80ac5b64e9226932"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-10-27_gmail-processing/publication-proof.json",
-        "sha256": "ebcd52d3d79f3c4686b47ba8172bc2766c0446b1e29c9e667d7bdcbb29d2e67e"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-10-27_gmail-processing/LAST_COMPLETION-before.md",
-        "sha256": "fcc4657b2a8179887ff24e48780d8436f2cea90496315e749439b8189ddd764f"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-10-27_gmail-processing/checks/invariants.json",
-        "sha256": "5b7d3f1d8246d7238a54a7ebbac6efea9670ecaaa3716e952a77411c38caf6b3"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-10-27_gmail-processing/CLOSEOUT-REVIEW.md",
-        "sha256": "ab0bce0ff6fff0cc57911d3bf913ecd478efe4069977d7f10322ad8d7bf0593b"
+        "path": "AGENTS/WALTER/research/2026-10-27_session-close/RECEIPT.md",
+        "sha256": "dcff056ed291c8abde5f1ca3cfebf3e9ad61d45f06a8131727858e8ca10c39ea"
       }
     ]
   },
   "procedure": {
-    "tier": "light",
+    "tier": "full",
     "boot": "PARTIAL",
-    "session": "Ongoing Will-launched Gmail work",
-    "full": "deferred"
+    "session": "CLOSED at Will\u2019s request",
+    "full": "Narrative maintenance complete; two LIGHT deferrals cleared. Pending research/boot obligations retained."
   },
   "manual_duties": {
-    "11": "12 cards/54 handoffs; 89 dispositions; exact commit scopes retained.",
-    "Tier1": "Affected observations and bottom line refreshed; no broad registry/network refresh or market scan.",
-    "15": "Earlier duties/approvals preserved, exact predecessor saved; WQ515 closed/ungraded.",
-    "retirement": "New source artifacts are current; older retirement/lifecycle review remains incomplete.",
-    "16": "Five exact-path source/routing commits proven by fresh origin/path checks; 54 rows reconciled, zero orphans. WALTER invoked no push. Continuity reconciliation committed separately.",
-    "ledger": "No fire/correction/doorbell/commission; event ledgers unchanged. Broad registry and MEMORY narrative deferred under LIGHT."
+    "11": "No new dispatch; both Gmail passes 21 cards/88 handoffs preserved, all manifests closed.",
+    "13": "Existing 49 owner rows reviewed before NETWORK; missing/special/retired metadata preserved, no grade/liveness inference.",
+    "12(a,b)": "BOARD 1765; source observations retain clocks; network regenerated after registry. No fresh market-price scan.",
+    "12(c)": "BALANCED baseline, standing flags and existing conditional catalyst rules retained; no fresh market/posture clearance.",
+    "12(d,e)": "FULL closeout and closed-session entry prepended, BOTTOM LINE retained as source-qualified result; clears two LIGHT deferrals.",
+    "14": "MEMORY latest session note refreshed; prior note copied verbatim to SESSION_LOG. No new standing rule/auto-memory or spec change.",
+    "15": "All prior approvals, source-search rulings, WQ515 closed/ungraded selection and pending duties preserved; exact predecessor saved.",
+    "retirement": "Current Gmail evidence retained; older eligibility/lifecycle adjudication remains incomplete, no archive clearance.",
+    "16": "Source/routing commits verified by fresh origin/path proof. Final continuity exact-path commit; no foreign-work mutation or autonomous push.",
+    "ledger": "REGISTRY refreshed this closeout; no new route or KILL/fire/correction/doorbell/commission/batch event, so corresponding ledgers unchanged. Six existing MED and stale READS retained; selected-check scopes in RECEIPT.md."
   }
 }
 END_CLOSEOUT_RECEIPT -->

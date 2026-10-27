@@ -1,9 +1,9 @@
 # WALTER STATUS
-**Updated:** 2026-10-27T04:18:56Z — Will-directed Gmail source processing; 12 new cards, BOARD 1765. Boot remains PARTIAL; duties: LAST_COMPLETION.md.
+**Updated:** 2026-10-27T04:28:20Z — session closed at Will’s request; Gmail research preserved, BOARD 1765. Boot remains PARTIAL; duties: LAST_COMPLETION.md.
 
 ## BOTTOM LINE
 
-Gmail source processing identifies a committed AI financing structure with supplier residual-value support, worsening MainStreet credit measures and two named CRE refinancing cases. Primary sources also qualify the historical insurance loans, prospective Dutch staffing plan and JetBlue financing bridge. Selective fundraising, operating and transaction-share counterevidence remains visible. Source limits and unfinished boot duties remain explicit in LAST_COMPLETION.md.
+Session closed at Will’s request. Both Gmail passes preserve 21 source-qualified signals across AI financing, bank credit, CRE and insurance, including counterevidence and historical/prospective distinctions. Thirty-four source leads and earlier boot/inbox/maintenance duties remain explicit in LAST_COMPLETION.md. No new market scan or owner-grade change accompanies this closeout.
 
 ## DATED MARKET OBSERVATIONS
 
@@ -53,7 +53,7 @@ Signal/news routing and receiving-layer readiness. Domain agents own evidence, g
 - ISHM final/flash source qualification and five exact recipient dispositions: `research/2026-10-26_ishm-intake-receipt/REVIEW.md`; current comparison unchanged, hardware vintage limits retained.
 - Sole current obligation/approval/decision list and publication receipt: `LAST_COMPLETION.md`.
 - WQ-508 harness-audit lines applied 2026-10-23 (E04, U-W1, U-W2, U-W3, U-W5; Will confirmed in the WALTER terminal 10:5x ET); packet `inbox/2026-10-23_from-DAEDALUS_WQ508-harness-audit-lines.md`.
-- Current closeout evidence: `research/2026-10-26_final/`; research: `research/2026-10-26_morning/` and `research/2026-10-26_unwind-search/`; prior partial boot preserved at `research/2026-10-16_codex-boot/BOOT-RECEIPT.md`.
+- Current closeout evidence: `research/2026-10-27_session-close/`; Gmail source processing: `research/2026-10-27_gmail-processing/`; earlier research: `research/2026-10-26_final/`; research: `research/2026-10-26_morning/` and `research/2026-10-26_unwind-search/`; prior partial boot preserved at `research/2026-10-16_codex-boot/BOOT-RECEIPT.md`.
 - Bookmark authentication/read/mark evidence: `MARK-RECEIPT.txt`, `bookmark-review.json` and `REVIEW.md` in the bookmark evidence directory. Credentials remain ignored/machine-local.
 - VULCAN intake recommendation: `outbox/REQ-PROME-20261016-vulcan-intake-design.md`; no collector deployment inferred.
 - Manual freight/source watch: `research/tanker-cost-watch/WATCH.md`, `STATE.csv`, `REVIEWS.tsv`.
@@ -61,7 +61,7 @@ Signal/news routing and receiving-layer readiness. Domain agents own evidence, g
 
 ## NETWORK AWARENESS
 
-REGISTRY's 49 existing rows reviewed from owner lead headers before this regeneration at 2026-10-27T03:30:26Z; roster membership/classes unchanged. Nonstandard RED/VIOLET/HOMER dates manually resolved against the captured headers. Header review dates are not market-data dates, current liveness or completed inbox consumption. CYBER claims reach CYPHER, consequence judgments stay with domain owners; no bank exposure list. Native cross-runtime visibility remains partial; unseen owners UNKNOWN. Duties and proof: LAST_COMPLETION.md.
+REGISTRY's 49 existing rows reviewed from owner lead metadata before regeneration at 2026-10-27T04:28:20Z. PROME now records actual closeout; FERT, MIDAS and CYPHER retain their updated owner-header qualifications. Existing mirror bands are retained without a new grade inference; header dates are not market-data clocks, current liveness or inbox consumption. CATO remains manual-only under ROSTER, without signal-routing eligibility. Native fleet visibility remains partial; unseen owners UNKNOWN. Duties and proof: LAST_COMPLETION.md.
 
 ## Active LIAISON channels
 

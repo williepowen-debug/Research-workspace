@@ -1,0 +1,17 @@
+⚠️  uncommitted files outside AGENTS/WALTER/:
+     [not yours]    HEARTBEAT.md
+     [not yours]    PROME/HANDOFF.md
+     [not yours]    PROME/SCRATCH.md
+     [not yours]    PROME/STATUS.md
+     [not yours]    PROME/registry/WQ_LEDGER.crc
+     [not yours]    PROME/registry/WQ_LEDGER.tsv
+     [not yours]    PROME/reports/2026-10-27_closeout-checks/
+     [not yours]    PROME/reports/2026-10-27_standard-closeout.md
+     [not yours]    PROME/state/CALENDAR.md
+     [not yours]    PROME/state/ORCH_INFLIGHT.md
+     [not yours]    PROME/state/ORCH_LOG.tsv
+     [not yours]    PROME/state/argus_review.json
+     [not yours]    memory/2026-10-27.md
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.
