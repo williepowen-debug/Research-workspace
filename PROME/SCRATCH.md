@@ -3,6 +3,8 @@
 
 ## ★ NEXT SESSION — START HERE
 
+**October 26 MIDAS return consumed:** [receipt](reports/2026-10-26_midas-consumption.md). L701 Nornickel issuer read RESOLVED; production above fixed pace, guidance unchanged. Certified December gold settlement for October 22/23 remains missing: authenticated exchange/broker final-settlement record required. Contract mismatch explained; actual score 8/20 unchanged. Frozen forecasts and October 30/November 2 clocks retained; no CME reprobe or new feed.
+
 **October26 FERT return consumed:** [receipt](reports/2026-10-26_fert-consumption.md). L758 October ERS read RESOLVED; owner transmission test not firing. L579 CPI input corrected to November10 08:30ET; November15 re-look remains pending. October28 checks and November5 China primary-basis check retained. Potash flags accepted at triage depth; source limits remain. Local commits only; remote sync deferred on foreign dirty paths.
 
 **October26 ISHM first return consumed:** [receipt](reports/2026-10-26_ishm-consumption/RECORD.md). First session delivered with named carries; READS attestation registered/checks pass; ROSTER now reflects already-ruled ISHM<47 ownership. HENRY pointers/WATT reply remain owed. Tuesday durables08:30ET and Richmond10:00–10:10ET prepared in owner release plan; no future observations or new gates inferred.
