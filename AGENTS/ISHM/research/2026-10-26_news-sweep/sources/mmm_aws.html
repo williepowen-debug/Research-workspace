@@ -1,0 +1,1020 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+<!-- begin spin_special_output(head_start) -->
+<script type="text/javascript" src="js/jquery.js" wd_script_id="jquery.js" nonce="Njk0MDk4NDRmY2UyMzc2MGI0ODUzMWQ5MzVjY2FlMWFmMDIyMzYyNQ=="></script>
+<script type="text/javascript" wd_script_id="view_printable_script" nonce="Njk0MDk4NDRmY2UyMzc2MGI0ODUzMWQ5MzVjY2FlMWFmMDIyMzYyNQ==">
+	function view_printable() {
+		var loc = window.location;
+		var sep = (loc.search == "") ? "?" : "&";
+		var url = loc.protocol+"//"+loc.host+loc.pathname+loc.search+sep+"printable"+loc.hash;
+		window.open(url, "_blank", "");
+	}
+</script>
+<link href="thirdparty/font-awesome/css/font-awesome.min.css" type="text/css" rel="stylesheet" wd_script_id="font-awesome.min.css">
+<script type="text/javascript" src="js/wd_pdf_fallback.js" wd_script_id="wd_pdf_fallback.js" nonce="Njk0MDk4NDRmY2UyMzc2MGI0ODUzMWQ5MzVjY2FlMWFmMDIyMzYyNQ=="></script>
+<style type="text/css" wd_script_id="toolbar_style" nonce="Njk0MDk4NDRmY2UyMzc2MGI0ODUzMWQ5MzVjY2FlMWFmMDIyMzYyNQ==">
+			div.wd_toolbar {
+				border-top: 1px solid #cccccc;
+				border-bottom: 1px solid #cccccc;
+				margin: 15px 0px 15px 0px;
+				padding: 5px;
+				line-height: 1;
+			}
+			div.wd_toolbar-page {
+				clear: both;
+			}
+			div.wd_toolbar ul.wd_tools {
+				display: inline-block;
+				width: 100%;
+				margin: 0;
+				padding: 5px 0;
+			}
+			div.wd_toolbar ul.wd_tools li.wd_tool {
+				display: block;
+				list-style-type: none;
+				margin-right: 5px;
+				padding: 0;
+				float: right;
+			}
+			span.wd_tool_icon > a:link,
+			span.wd_tool_icon > a:visited {
+				border-radius: 2px;
+				display: inline-block;
+				width: 30px;
+				height: 30px;
+				box-sizing: border-box;
+				margin: 0;
+				padding: 7px;
+				font-size: 16px;
+				line-height: 1;
+				text-align: center;
+				color: #ffffff;
+				background-color: #767676;
+			} 
+			span.wd_tool_icon > a:hover {
+				color: #ffffff;
+				background-color: #666666;
+				text-decoration: none;
+			}
+			div.wd_toolbar ul.wd_tools li.wd_tool-addthis {
+				float: left;
+			}
+		</style>
+<link href="css/wd_wcag.css" type="text/css" rel="stylesheet" wd_script_id="wd_wcag.css">
+<script type="text/javascript" src="js/jquery-webdriver.js" wd_script_id="jquery-webdriver.js" nonce="Njk0MDk4NDRmY2UyMzc2MGI0ODUzMWQ5MzVjY2FlMWFmMDIyMzYyNQ=="></script>
+<script type="text/javascript" src="js/webdriver.js" wd_script_id="webdriver.js" nonce="Njk0MDk4NDRmY2UyMzc2MGI0ODUzMWQ5MzVjY2FlMWFmMDIyMzYyNQ=="></script>
+<script type="text/javascript" src="js/wd_resize.js" wd_script_id="wd_resize.js" nonce="Njk0MDk4NDRmY2UyMzc2MGI0ODUzMWQ5MzVjY2FlMWFmMDIyMzYyNQ=="></script>
+<script type="text/javascript" wd_script_id="format_news_script" nonce="Njk0MDk4NDRmY2UyMzc2MGI0ODUzMWQ5MzVjY2FlMWFmMDIyMzYyNQ==">
+(function($) {
+	webDriver.formatNews = function() {
+		var $news = $(this);
+		var print_url = $news.attr("wd_print_url");
+		$news.find("table").each(function() {
+			var $table = $(this);
+			var $parent = $table.parent();
+			if ($parent.innerWidth() < $table.outerWidth()) {
+				if ($parent.hasClass("wd_news_table")) {
+					$parent.find(".fullscreen-button").show();
+				} else {
+					var $btn = $("<button>View News Release Full Screen</button>")
+						.addClass("fullscreen-button")
+						.on("click", function() {
+							if (print_url)
+								window.open(print_url, "_blank", "");
+							else
+								view_printable();
+						})
+					;
+
+					var $div = $("<div></div>)")
+						.addClass("wd_news_table")
+						.css("overflow-x", "auto")
+						.append($btn)
+					;
+
+					$table.replaceWith($div);
+					$div.append($table);
+				}
+			} else {
+				if ($parent.hasClass("wd_news_table"))
+					$parent.find(".fullscreen-button").hide();
+			}
+		});
+	}
+})(webDriver.jQuery);
+</script>
+<style type="text/css" wd_script_id="template detail:newsfeed_releases:site style" nonce="Njk0MDk4NDRmY2UyMzc2MGI0ODUzMWQ5MzVjY2FlMWFmMDIyMzYyNQ==">.wd_title {
+	font-size: 1.3em;
+	font-weight: bold;
+}
+.wd_subtitle {
+	font-weight: bold;
+}
+table.wd_extimagetable {
+	border-style: none; 
+	border-spacing:0px;
+	clear: right; 
+	float: right; 
+}
+td.wd_extimagecell {
+	text-align: right; 
+	margin: 0px 0px 5px 5px;
+	padding:0px;
+}
+td.wd_extimagecell img {
+	padding-left:10px;
+	padding-bottom:10px;
+	border-style: none; 
+}
+blockquote.wd_pullquote {
+	font-style: italic;
+	width:200px;
+	margin:0 0 20px 20px;
+	line-height: 1.8em;
+	float: right;
+	clear: right;
+}
+blockquote.wd_pullquote:before {
+	content: "“ ";
+	font-size: xx-large;
+}
+blockquote.wd_pullquote:after {
+	content: " ”";
+	font-size: xx-large;
+	float: right;
+}
+.fullscreen-button {
+	border: 1px solid #d1d1d1;
+	background: #e3e3e3 url(images/webdriver/view_full_screen_button_background.png) no-repeat;
+	padding: 3px 3px 3px 30px;
+	margin: 5px 0px 5px 0px;
+	color: #727272;
+	width: 220px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.wd_contact {
+	margin: 1em 0;
+}
+.wd_release_data {
+	margin: 1em 0;
+}
+.wd_caption {
+	text-align: center;
+	font-size: 0.72em;
+	font-style: italic;
+	margin: 1em 0 0 0;
+}
+</style>
+<style type="text/css" wd_script_id="featureboxes_style" nonce="Njk0MDk4NDRmY2UyMzc2MGI0ODUzMWQ5MzVjY2FlMWFmMDIyMzYyNQ==">
+		.wd_featurebox_icon {
+			display: inline;
+		}
+		.wd_featurebox_icon img {
+			vertical-align: middle;
+		}
+		div.wd_featurebox_group div.wd_tabs_wrapper {
+			border: none;
+			border-bottom: 1px solid #E1E1E1;
+			padding: 0 0 5px 0;
+		}
+		div.wd_featurebox_group div.wd_featurebox {
+			border: none;
+			padding: 8px 0 0 0;
+		}
+		div.wd_featurebox_group li.wd_tab {
+			float: none;
+			color: #666666;
+		}
+		div.wd_featurebox_group li.wd_tab-active {
+			border: none;
+			background-color: transparent;
+			color: #000000;
+			font-weight: bold;
+		}
+		div.wd_featurebox_group li.wd_tab-inactive {
+			cursor: auto;
+		}
+	</style>
+
+<!-- end spin_special_output(head_start) -->
+
+	<meta http-equiv="X-UA-Compatible" content="IE=EDGE">
+
+	<title>3M and AWS collaborate to advance optical connectivity innovation - Oct 21, 2026</title>
+	
+ <meta name="keywords" content="" />
+ <meta name="description" content="" />
+ <meta name="twitter:card" content="summary" />
+ <meta name="twitter:title" content="3M and AWS collaborate to advance optical connectivity innovation" />
+ <meta name="twitter:description" content="AWS is investing in 3M's Expanded Beam Optical technology for its data center infrastructure SAINT PAUL, Minn., Oct. 21, 2026 /PRNewswire/ -- 3M (NYSE: MMM) and Amazon Web Services (AWS) today..." />
+ <meta name="twitter:image" content="https://mmx.prnewswire.com/media/MS1399097/3M-Logo.jpg?id=OA3031794&amp;p=twitter" />
+ <meta property="og:site_name" content="3M News Center" />
+ <meta property="og:url" content="https://news.3m.com/2026-10-21-3M-and-AWS-collaborate-to-advance-optical-connectivity-innovation" />
+ <meta property="og:title" content="3M and AWS collaborate to advance optical connectivity innovation" />
+ <meta property="og:description" content="AWS is investing in 3M's Expanded Beam Optical technology for its data center infrastructure SAINT PAUL, Minn., Oct. 21, 2026 /PRNewswire/ -- 3M (NYSE: MMM) and Amazon Web Services (AWS) today..." />
+ <meta name="image" property="og:image" content="https://mmx.prnewswire.com/media/MS1399097/3M-Logo.jpg?id=OA3031794&amp;p=facebook" />
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+			<!-- PRODUCTION SECURTI.AI COOKIE CONSENT SCRIPT -->
+		<script>
+			(function() {
+				var s = document.createElement('script');
+				s.src = 'https://cdn-prod.securiti.ai/consent/cookie-consent-sdk-loader.js';
+				s.setAttribute('data-tenant-uuid', '0638aaa2-354a-44c0-a777-ea4db9f7bf8a');
+				s.setAttribute('data-domain-uuid', '2d55da96-d5f5-4bf9-93a4-e5b5b24c2be5');
+				s.setAttribute('data-backend-url', 'https://app.securiti.ai');
+				s.setAttribute('data-skip-css', 'false');
+				s.defer = true;
+				var parent_node = document.head || document.body;
+				parent_node.appendChild(s);
+			})()
+		</script>
+		<!-- END PRODUCTION SECURTI.AI COOKIE CONSENT SCRIPT -->
+	
+	
+	<!-- UTAG DATA -->
+
+	
+	<script type="text/javascript">
+		// Set standard page data
+		var utag_data = {
+			"page_name": "Press Releases",
+			"page_type": "content",
+			"site_section": "Press Releases",
+		};
+	</script>
+	<!-- END UTAG DATA -->
+
+	<script src=https://tags.tiqcdn.com/utag/3m/offp-ccpa/prod/utag.sync.js></script>
+
+	<meta http-equiv="cleartype" content="on">
+	<meta http-equiv="format-detection" content="telephone=no">
+	<meta http-equiv="imagetoolbar" content="no">
+	<link rel="shortcut icon" type="image/ico" href="images/unicorn/favicon.ico" />
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="images/unicorn/3M_Bookmark_Icon_57x57.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="60x60" href="images/unicorn/3M_Bookmark_Icon_60x60.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/unicorn/3M_Bookmark_Icon_72x72.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="images/unicorn/3M_Bookmark_Icon_76x76.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/unicorn/3M_Bookmark_Icon_114x114.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="images/unicorn/3M_Bookmark_Icon_120x120.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/unicorn/3M_Bookmark_Icon_144x144.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="images/unicorn/3M_Bookmark_Icon_152x152.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="180x180" href="images/unicorn/3M_Bookmark_Icon_180x180.png" />
+
+	<link rel="stylesheet" href="css/gsn.css">
+	<link rel="stylesheet" href="css/phoenix.css">
+	<link rel="stylesheet" href="css/fuze.css">
+	<link rel="stylesheet" media="print" href="css/fuze-print.css">
+	<!-- <script type="text/javascript" src="js/fuzeSettings.js"></script> -->
+	<!-- Underscore -->
+	<script src="https://cdn.jsdelivr.net/npm/underscore@1.13.7/underscore-umd-min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+	
+	<link rel="stylesheet" type="text/css" href="css/wdcontent.css">
+	<link rel="alternate" href="https://news.3m.com/press-releases?pagetemplate=rss" type="application/rss+xml" title="3M News Center">
+<!-- begin spin_special_output(head_end) -->
+<link rel="canonical" href="https://news.3m.com/2026-10-21-3M-and-AWS-collaborate-to-advance-optical-connectivity-innovation" />
+<!-- end spin_special_output(head_end) -->
+</head>
+
+<body class="MMM--bodyContain wd_pageid_20295 wd_item_page wd_item_125127">
+
+	<div class="MMM--skipMenu" id="top">
+		<ul class="MMM--skipList">
+			<li><a href="#pageContent">Go to Page Content</a></li>
+			<li><a href="#js-searchBar">Go to Search</a></li>
+			<li><a href="#contactInfo">Go to Contact Information</a></li>
+		</ul>
+	</div>
+	<div id="js-bodyWrapper" class="MMM--themeWrapper">
+		<div class="m-dropdown-list_overlay"></div>
+		<nav class="m-nav">
+			<div class="is-header_container h-fitWidth m-header_container">
+				<div class="m-header">
+					<a class="is-3MLogo m-header_logo l-smallMarginRight h-linkNoUnderline l-centerVertically" href="https://www.3m.com/" title="3M in the United States"><img class="h-onDesktop m-header_logoImg" src="images/unicorn/Logo.svg" alt="Desktop 3M Logo" /><img class="h-notOnDesktop l-img" src="images/unicorn/Logo_mobile.png" alt="Mobile 3M Logo" /></a>
+
+					<!-- <div class="m-header_search l-smallMarginRight">
+						<form id="typeahead-root" class="h-fitHeight" action="https://www.3m.com/3M/en_US/company-us/search/"><input class="m-header_searchbar h-fitWidth h-fitHeight l-centerVertically is-searchbar" id="js-searchBar" name="Ntt" type="search" placeholder="Search" aria-label="Search" /><button class="m-header_searchbutton" type="submit" value="Search"><i class="MMM--icn MMM--icn_search color--white" aria-label="Search"></i></button></form>
+					</div> -->
+
+				
+
+				</div>
+				<div class="m-header_overlay"></div>
+			</div>
+
+			<div class="is-dropdown h-hidden m-navbar_container">
+				<div class="m-navbar_overlay h-fitHeight h-notOnMobile is-overlay h-notOnDesktop"></div>
+				<div class="m-navbar">
+					<div class="m-navbar_level-1 js-navbar_level-1">
+						<div class="m-navbar_localization l-centerVertically">
+							<a href="#" class="link--dark l-centerVertically is-localeToggle" target="_self">US - EN
+								<i class="MMM--icn MMM--icn_localizationGlobe l-centerVertically m-navbar_localGlobe" style="padding-left: 5px;"></i>
+								<i class="MMM--icn MMM--icn_down_arrow h-onDesktop" style="padding-left: 10px; font-size: 11px;"></i></a>
+						</div>
+						<div id="js-gsnMenu" class="m-navbar_nav">
+					
+							<div class="m-navbar_localOverlay is-localePopUp h-hidden">
+								<div class="m-navbar_localPopup m-navbar_popup font--standard" aria-modal="true">
+									<button class="m-navbar-localClose m-btn--close color--silver is-close h-notOnDesktop" aria-label="Close"><i class="MMM--icn MMM--icn_close"></i></button>
+									<div class="wd_langnav_link"><a href="https://news.3m.com.br">Brazil (Brasil) - Português</a></div>
+									<div class="wd_langnav_link"><a href="https://news.3mcanada.ca/">Canada - English</a></div>
+									<div class="wd_langnav_link"><a href="https://presse.3mcanada.ca/">Canada - Français</a></div>
+									<div class="wd_langnav_link"><a href="https://news.3mfrance.fr/">France - Français</a></div>
+									<div class="wd_langnav_link"><a href="https://news.3mdeutschland.de/">Germany (Deutschland) - Deutsch</a></div>
+									<div class="wd_langnav_link"><a href="https://news.3mcompany.jp/">Japan (日本) - 日本語</a></div>
+									<div class="wd_langnav_link"><a href="https://news.3m.co.kr/">Korea (대한민국) - 한국어</a></div>
+									<div class="wd_langnav_link"><a href="https://news.3m.com.cn/">Mainland China (中国大陆) - 简体中文</a></div>
+									<div class="wd_langnav_link"><a href="https://news.3m.com.mx/">Mexico (México) - Español</a></div>
+									<div class="wd_langnav_link"><a href="https://news.3m.co.uk/">United Kingdom - English</a></div>
+								</div>
+								<div class="m-overlay h-onDesktop is-close"></div>
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+
+		</nav>
+
+		<div class="MMM--site-bd">
+			<div class="MMM--grids" id="pageContent">
+
+				<div class="MMM--siteNav wd_mediaroom-nav-wrap">
+
+					<!-- Breadcrumbs -->
+					<div class="MMM--breadcrumbs_theme">
+						<ol class="MMM--breadcrumbs-list" itemscope="" itemtype="https://schema.org/BreadcrumbList">
+	<li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem"><a href="https://www.3m.com/3M/en_US/company-us/" itemprop="item" target="_self"><span itemprop="name">3M United States</span></a><i class="MMM--icn MMM--icn_breadcrumb"></i>
+	<meta itemprop="position">
+</li>
+	<li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem"><a href="https://news.3m.com/news-center" itemprop="item" target="_self"><span itemprop="name">3M News Center</span></a><i class="MMM--icn MMM--icn_breadcrumb"></i>
+	<meta itemprop="position">
+</li>
+<li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+	<a href="https://news.3m.com/press-releases" target="_self" class="nav" itemprop="item">
+		<span itemprop="name">
+			Press Releases		</span>
+	</a>
+	<meta itemprop="position">
+</li>
+</ol>
+					</div>
+
+					<!-- MediaRoom Nav -->
+					<div class="wd_mediaroom-nav wd_desktop">
+						<div class="wd_left">
+														<h1 class="wd_main_header">3M News Center <span class="header_descriptor"> - Press Releases</span></h1>
+															<ul class="wd_nav" role="menubar">
+<li class="m-navbar_listItem"><a class="is-navbar_link wd_m-navbar_link " href="https://news.3m.com/news-center" target="_self">News Center</a></li>
+<li class="m-navbar_listItem active"><a class="is-navbar_link wd_m-navbar_link " href="https://news.3m.com/press-releases" target="_self">Press Releases</a></li>
+
+<li class="m-navbar_listItem"><a class="is-navbar_link wd_m-navbar_link " href="https://news.3m.com/3M-stories" target="_self">3M Stories</a></li>
+<li class="m-navbar_listItem"><a class="is-navbar_link wd_m-navbar_link " href="https://news.3m.com/CES" target="_self">3M at CES</a></li>
+<li class="m-navbar_listItem"><a class="is-navbar_link wd_m-navbar_link " href="https://news.3m.com/in-the-news" target="_self">In the News</a></li>
+<li class="m-navbar_listItem"><a class="is-navbar_link wd_m-navbar_link wd_has-children" href="#" target="_self">Resources<i class="MMM--icn MMM--icn_down_arrow h-onDesktop" style="padding-left: 10px; font-size: 11px;"></i><i class="MMM--icn MMM--icn_up_arrow h-onDesktop" style="padding-left: 10px; font-size: 11px;"></i></a><ul class="wd_subnav" >
+
+
+<li class="l-dropdown-list" role="menuitem"><a class="MMM--basicLink" href="https://news.3m.com/media-gallery" target="_self">Media Gallery</a></li>
+
+
+
+
+<li class="l-dropdown-list" role="menuitem"><a class="MMM--basicLink" href="https://news.3m.com/email-alerts" target="_self">Email Alerts</a></li>
+
+
+
+
+<li class="l-dropdown-list" role="menuitem"><a class="MMM--basicLink" href="https://news.3m.com/newsletter" target="_self">Newsletter</a></li>
+
+
+</ul>
+
+
+</li>
+</ul>
+						</div>
+						<div class="wd_right">
+							<div class="wd_subscribe"><p class="more"><a href="index.php?s=20300">Subscribe</a></p></div>
+							<div class="wd_social-icons">
+								<ul>
+									<li><a class="m-footer-socialIcn" href="https://twitter.com/3M" target="_blank" title="Twitter"><i class="MMM--socialIcn MMM--socialIcn_twitter color--darkslategrey"><span class="m-footer-socialIcn--outline"></span></i><span class="sr-only">Takes you to 3m's x.com page</span></a></li>
+									<li><a class="m-footer-socialIcn" href="https://www.linkedin.com/company/3m" target="_blank" title="LinkedIn"><i class="MMM--socialIcn MMM--socialIcn_linkedin color--darkslategrey"><span class="m-footer-socialIcn--outline"></span></i><span class="sr-only">Takes you to 3m's LinkedIn page</span></a></li>
+									<li><a class="m-footer-socialIcn" href="https://www.youtube.com/c/3MCorporate" target="_blank" title="YouTube"><i class="MMM--socialIcn MMM--socialIcn_youtube color--darkslategrey"><span class="m-footer-socialIcn--outline"></span></i><span class="sr-only">Takes you to 3m's youtube channel</span></a></li>
+									<li><a class="m-footer-socialIcn" href="https://www.facebook.com/3M" target="_blank" title="Facebook"><i class="MMM--socialIcn MMM--socialIcn_facebook color--darkslategrey"><span class="m-footer-socialIcn--outline"></span></i><span class="sr-only">Takes you to 3m's Facebook page</span></a></li>
+									<li><a class="m-footer-socialIcn" href="https://www.instagram.com/3m/" target="_blank" title="Instagram"><i class="MMM--socialIcn MMM--socialIcn_instagram color--darkslategrey"><span class="m-footer-socialIcn--outline"></span></i><span class="sr-only">Takes you to 3m's Instagram page</span></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="wd_mediaroom-nav wd_mobile">
+						<a class="m-navbar_loginBtn link--dark m-navbar_profileBtn" href="#" target="_self">3M News Center<i class="MMM--icn MMM--icn_down_arrow h-onMobile" style="padding-left: 10px; font-size: 11px;"></i><i class="MMM--icn MMM--icn_up_arrow h-onMobile" style="padding-left: 10px; font-size: 11px;"></i></a>
+						<div class="wd_mobile-nav-wrap">
+								<ul class="wd_mobile-nav" role="menubar">
+<li class="m-navbar_listItem"><a class="is-navbar_link wd_m-navbar_link " href="https://news.3m.com/news-center" target="_self">News Center</a></li>
+<li class="m-navbar_listItem active"><a class="is-navbar_link wd_m-navbar_link " href="https://news.3m.com/press-releases" target="_self">Press Releases</a></li>
+
+<li class="m-navbar_listItem"><a class="is-navbar_link wd_m-navbar_link " href="https://news.3m.com/3M-stories" target="_self">3M Stories</a></li>
+<li class="m-navbar_listItem"><a class="is-navbar_link wd_m-navbar_link " href="https://news.3m.com/CES" target="_self">3M at CES</a></li>
+<li class="m-navbar_listItem"><a class="is-navbar_link wd_m-navbar_link " href="https://news.3m.com/in-the-news" target="_self">In the News</a></li>
+<li class="m-navbar_listItem"><a class="is-navbar_link wd_m-navbar_link wd_has-children" href="#" target="_self">Resources<i class="MMM--icn MMM--icn_down_arrow h-onDesktop"style="padding-left: 10px; font-size: 11px;"></i><i class="MMM--icn MMM--icn_up_arrow h-onDesktop"style="padding-left: 10px; font-size: 11px;"></i></a><ul class="wd_mobile-subnav" >
+
+
+<li class="l-dropdown-list" role="menuitem"><a class="MMM--basicLink" href="https://news.3m.com/media-gallery" target="_self">Media Gallery</a></li>
+
+
+
+
+<li class="l-dropdown-list" role="menuitem"><a class="MMM--basicLink" href="https://news.3m.com/email-alerts" target="_self">Email Alerts</a></li>
+
+
+
+
+<li class="l-dropdown-list" role="menuitem"><a class="MMM--basicLink" href="https://news.3m.com/newsletter" target="_self">Newsletter</a></li>
+
+
+</ul>
+
+
+</li>
+</ul>
+						</div>
+					</div>
+					<!-- END MediaRoom Nav -->
+
+				</div>
+
+									<div class="wd_content-wrapper">
+						<div class="wd_content">
+							<!-- Main Content Area -->
+															<div class="wd_back"><a href="https://news.3m.com/press-releases">Back to Press Releases</a></div>
+
+								
+								<script type="text/javascript">
+									$(document).ready(function() {
+										$('#wd_topics-menu').appendTo('.wd_article-additional .wd_other-topics');
+									});
+								</script>
+
+							<div id="wd_printable_content" class="fr-view">
+<div class="wd_newsfeed_releases-detail">
+<div class="wd_content-wrap wd_relative">
+<div class="wd_article-body">
+<div class="wd_title wd_language_left">3M and AWS collaborate to advance optical connectivity innovation</div>
+
+<div class="wd_toolbar wd_toolbar-detail"><ul class="wd_tools"><li class="wd_tool wd_tool-print"><span class="wd_tool_icon"><a onclick="view_printable(); return false;" rel="nofollow" aria-describedby="newwindow-note" href="#print" title="Print current page. "><span class="fa fa-print"></span><span class="wd_sr-only wd_sr-only-focusable">Print current page. </span></a></span></li><li class="wd_tool wd_tool-email"><span class="wd_tool_icon"><a onclick="window.location.href = 'mailto:?subject=3M%20and%20AWS%20collaborate%20to%20advance%20optical%20connectivity%20innovation%20-%20Oct%2021%2C%202026&amp;body='+encodeURIComponent(window.location.href);return false;" href="#email" title="Send current page by email."><span class="fa fa-envelope"></span><span class="wd_sr-only wd_sr-only-focusable">Send current page by email.</span></a></span></li><li class="wd_tool wd_tool-rss"><span class="wd_tool_icon"><a href="https://news.3m.com/rss?rsspage=20295" title="Get the RSS feed for this page. "><span class="fa fa-rss"></span><span class="wd_sr-only wd_sr-only-focusable">Get the RSS feed for this page. </span></a></span></li><li class="wd_tool wd_tool-pdf"><span class="wd_tool_icon"><a href="https://news.3m.com/2026-10-21-3M-and-AWS-collaborate-to-advance-optical-connectivity-innovation?asPDF=1" rel="nofollow" onclick="return wd_download_pdf(this);" title="Download current pages PDF."><span class="fa fa-file-pdf-o"></span><span class="wd_sr-only wd_sr-only-focusable">Download current pages PDF.</span></a></span></li><li class="wd_tool wd_tool-socialshare_facebook"><span class="wd_tool_icon">
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fnews.3m.com%2Findex.php%3Fs%3D20295%26item%3D125127" target="_blank" title="Facebook Share" style="background-color:#4267B2;">
+                    <span class="fa fa-facebook"></span>
+		    <span class="wd_sr-only wd_sr-only-focusable">Share current page on facebook. </span>
+                    </a>
+                </span></li><li class="wd_tool wd_tool-socialshare_linkedin"><span class="wd_tool_icon">
+                    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fnews.3m.com%2Findex.php%3Fs%3D20295%26item%3D125127" target="_blank" title="Linkedin Share" style="background-color:#0077B5;">
+                    <span class="fa fa-linkedin"></span>
+		    <span class="wd_sr-only wd_sr-only-focusable">Share on Linkedin.</span>
+                    </a>
+                </span></li><li class="wd_tool wd_tool-socialshare_twitter"><span class="wd_tool_icon">
+                    <a href="https://twitter.com/share?url=https%3A%2F%2Fnews.3m.com%2Findex.php%3Fs%3D20295%26item%3D125127" target="_blank" title="Twitter Share" style="background-color:#000;">
+                    <span class="fa fa-twitter"></span>
+		    <span class="wd_sr-only wd_sr-only-focusable">Share current page on X</span>
+                    </a>
+                </span></li></ul></div>
+
+
+
+			
+		
+
+			
+		
+
+<style type="text/css">
+
+
+/* Style Definitions */
+span.prnews_span
+{
+font-size:8pt;
+font-family:"Arial";
+color:black;
+}
+a.prnews_a
+{
+color:blue;
+}
+li.prnews_li
+{
+font-size:8pt;
+font-family:"Arial";
+color:black;
+}
+p.prnews_p
+{
+font-size:0.62em;
+font-family:"Arial";
+color:black;
+margin:0in;
+}
+
+
+					span.prnews_span{
+						font-size:inherit;
+						font-family:inherit;
+					}
+					li.prnews_li{
+						font-size: inherit;
+						font-family: inherit;           
+					}
+					p.prnews_p{
+						font-size: inherit;
+						font-family: inherit;           
+					}
+				
+					div.PRN_ImbeddedAssetReference{
+						display: none;
+					}
+					div[id^="prni_dvprne"]{
+						display: none;
+					}
+				</style>
+
+<div class="wd_body wd_news_body fr-view" wd_resize="formatNews" wd_print_url="https://news.3m.com/2026-10-21-3M-and-AWS-collaborate-to-advance-optical-connectivity-innovation?printable=1"><p><i>AWS is investing in 3M&#39;s Expanded Beam Optical technology for its data center infrastructure</i></p>
+
+<p><span class="legendSpanClass">SAINT PAUL, Minn.</span>, <span class="legendSpanClass">Oct. 21, 2026</span> /<a href="http://www.prnewswire.com/" target="_blank">PRNewswire</a>/ -- <a href="https://edge.prnewswire.com/c/link/?t=0&amp;l=en&amp;o=4803189-1&amp;h=3252448480&amp;u=http%3A%2F%2F3m.com%2F&amp;a=3M" rel="nofollow" target="_blank">3M</a>&nbsp;(NYSE: MMM) and&nbsp;<a href="https://edge.prnewswire.com/c/link/?t=0&amp;l=en&amp;o=4803189-1&amp;h=1409505185&amp;u=https%3A%2F%2Furldefense.com%2Fv3%2F__https%3A%2Faws.amazon.com%2F__%3B!!PE_DKl_c!COLP92Xpx5H0LLfmTUPjUCSYzGf71t9m7S84-uUxWZQzdWaJ3PwbBLiFRirwGpncqhLW8K4AyLFb%24&amp;a=Amazon+Web+Services" rel="nofollow" target="_blank">Amazon Web Services</a> (AWS) today announced an expanded strategic collaboration. AWS plans to deploy and scale 3M&#39;s Expanded Beam Optical (EBO) platform for its data center infrastructure. Together, the two leading American companies will advance co-innovation and investment in optical connectivity and the critical infrastructure needed for next-generation super intelligence (SI), also known as artificial intelligence (AI).&nbsp;</p>
+
+<p>&quot;AWS&#39;s adoption of 3M&#39;s EBO platform demonstrates the potential of our optical connectivity technology to meet the performance demands of next-generation data center infrastructure,&quot; said Wendy Bauer, Group President of 3M&#39;s Transportation and Electronics Business Group. &quot;By combining AWS&#39;s infrastructure expertise and scale with 3M&#39;s innovation and materials science capabilities, we can accelerate EBO deployment, advance our transformation and strengthen U.S. innovation and investment.&quot;&nbsp;</p>
+
+<p>&quot;Our work with 3M reinforces our commitment to supporting good jobs here in the U.S.,&quot; said Jens Gruenkemeir, Vice President of Supply Chain &amp; Procurement at Amazon. &quot;Beyond powering the services people use every day, from online banking and hospital data records to streaming entertainment and retail purchases, our data center investments are unlocking economic opportunities in the communities where we invest and across the supply chain, including the hundreds of jobs being supported by 3M as a result of its collaboration with Amazon.&quot; &nbsp;&nbsp;</p>
+
+<p>The collaboration and related investments are expected to strengthen the U.S. economy by supporting more than 500 jobs directly and indirectly, including the creation of more than 100 new roles through 2027 across Minnesota, Texas and Wisconsin. These planned roles will support customer co-innovation, technology advancement and supply chain development across 3M&#39;s optical networking portfolio and help accelerate industrywide adoption through collaboration with partners.&nbsp;</p>
+
+<p>3M expects to contribute nearly $0.5 billion to the U.S. economy through its optical connectivity business. This investment will accelerate innovation in optical networking and fiber termination, enable commercialization at scale and drive adoption across the data center industry.</p>
+
+<p>The collaboration builds on 3M&#39;s announcement earlier this year that it will double production capacity at its Menomonie, Wisconsin, manufacturing facility, and is expected to support U.S. manufacturing partners involved in equipment and production scale-up throughout the supply chain.</p>
+
+<p><b>Forward-Looking Statements</b></p>
+
+<p>Certain statements in this release are considered &quot;forward-looking statements&quot; under the federal securities laws, including the Private Securities Litigation Reform Act of 1995, as amended, and are intended to enjoy the protection of those laws. Forward-looking statements may appear throughout this release and are typically identified by the words &quot;aim,&quot; &quot;anticipate,&quot; &quot;believe,&quot; &quot;can,&quot; &quot;continue,&quot; &quot;could,&quot; &quot;estimate,&quot; &quot;evaluate,&quot; &quot;expect,&quot; &quot;forecast,&quot; &quot;future,&quot; &quot;goal,&quot; &quot;guidance,&quot; &quot;impact,&quot; &quot;initial,&quot; &quot;intend,&quot; &quot;likely,&quot; &quot;may,&quot; &quot;outlook,&quot; &quot;plan,&quot; &quot;possible,&quot; &quot;potential,&quot; &quot;predict,&quot; &quot;probable,&quot; &quot;project,&quot; &quot;seek,&quot; &quot;should,&quot; &quot;strategy,&quot; &quot;target,&quot; &quot;will,&quot; &quot;would,&quot; and other words that are similar to, or have the opposite meanings of, those words. Forward-looking statements speak only as of the date they are made, 3M assumes no duty to update those statements, and readers are cautioned not to place undue reliance on any of those statements. Forward-looking statements are based on certain assumptions and expectations of future events and trends that are subject to risks and uncertainties, including those described in Part I, Item 1A, &quot;Risk Factors&quot; of 3M&#39;s Form 10-K for the year ended December 31, 2025.</p>
+
+<p><b>About 3M</b></p>
+
+<p>3M (NYSE: MMM) is focused on transforming industries around the world by applying science and creating innovative, customer-focused solutions. Our multidisciplinary team is working to solve tough customer problems by leveraging diverse technology platforms, differentiated capabilities, global footprint and operational excellence. Discover how 3M is shaping the future at <a href="https://edge.prnewswire.com/c/link/?t=0&amp;l=en&amp;o=4803189-1&amp;h=1184344556&amp;u=http%3A%2F%2Fwww.3m.com%2Fnews&amp;a=3M.com%2Fnews" rel="nofollow" target="_blank">3M.com/news</a>.</p>
+
+<p><b>Contacts</b></p>
+
+<p><b>3M Investor Contact:</b><br />
+Diane Farrow, 612-202-2449</p>
+
+<p><b>3M Media Contact:</b><br />
+<a href="mailto:3MNews@mmm.com" rel="nofollow" target="_blank">3MNews@mmm.com</a>&nbsp;</p>
+
+<div class="PRN_ImbeddedAssetReference" id="DivAssetPlaceHolder6400">
+<p><img alt="3M" src="https://mmx.prnewswire.com/media/MS1399097/3M-Logo.jpg?id=OA3031794" title="3M" /></p>
+</div>
+
+<p>&nbsp;</p>
+
+<div class="PRN_ImbeddedAssetReference" id="DivAssetPlaceHolder0">&nbsp;</div>
+
+<p>&nbsp;</p>
+</div>
+
+
+</div>
+
+<div class="wd_article-additional">
+<div class="wd_other-topics">
+<h3>Other Topics</h3>
+</div>
+
+
+</div>
+</div>
+
+
+<!-- ITEMDATE: 2026-10-21 10:28:00 EDT -->
+
+</div>
+</div>						</div><!-- END CONTENT -->
+					</div><!-- END CONTENT-WRAPPER -->
+									<div class="wd_bottom-style wd_featurebox-wrap wd_gray-background wd_flex-wrap">
+						<div class="wd_contains-contact"><div class="wd_featureboxes_contact wd_featureboxes-vertical fr-view">
+<div id="wd_featurebox-standard_3514" class="wd_featurebox_container wd_featurebox-standard"><div class="wd_featurebox_title">Contact Media Relations</div><div class="wd_featurebox"><p><a href="mailto:3Mnews@mmm.com">Contact Media Email</a><br />
+&nbsp;</p>
+<!--<p>Media Hotline:&nbsp;651-733-8805<br />
+&nbsp;</p>-->
+
+<p>These contacts are intended only for the media. If you are not a member of the media, please call 1-888-3M HELPS (1-888-364-3577).<br />
+&nbsp;</p>
+
+<p>We will get back to you within one business day.</p>
+</div></div></div>
+</div>
+						<div class="wd_contains-alerts"><div class="wd_featureboxes_alerts wd_featureboxes-vertical fr-view">
+<div id="wd_featurebox-standard_3516" class="wd_featurebox_container wd_featurebox-standard"><div class="wd_featurebox_title">Email Alerts</div><div class="wd_featurebox"><p>Subscribe to receive automatic updates via email for 3M news &amp; stories.</p>
+
+<p class="more"><a href="email-alerts">Subscribe</a></p>
+</div></div></div>
+</div>
+					</div>
+				
+
+			</div> <!-- End id='pageContent' -->
+		</div>
+
+		<div class="m-footer">
+			<div class="m-footer_socialContainer">
+				<div class="m-footer_heading link--dark h-notOnTablet h-notOnMobile">Follow Us</div>
+				<ul class="m-footer-social">
+
+					<li>
+						<a class="m-footer-socialIcn" href="https://twitter.com/3M" title="Twitter" target="_blank">
+							<i class="MMM--socialIcn MMM--socialIcn_twitter color--iconGray"><span class="m-footer-socialIcn--outline"></span></i></a>
+					</li>
+
+					<li>
+						<a class="m-footer-socialIcn" href="https://www.linkedin.com/company/3m" title="LinkedIn" target="_blank">
+							<i class="MMM--socialIcn MMM--socialIcn_linkedin color--iconGray"><span class="m-footer-socialIcn--outline"></span></i></a>
+					</li>
+
+					<li>
+						<a class="m-footer-socialIcn" href="https://www.youtube.com/c/3MCorporate" title="YouTube" target="_blank">
+							<i class="MMM--socialIcn MMM--socialIcn_youtube color--iconGray"><span class="m-footer-socialIcn--outline"></span></i></a>
+					</li>
+
+					<li>
+						<a class="m-footer-socialIcn" href="https://www.facebook.com/3M" title="Facebook" target="_blank">
+							<i class="MMM--socialIcn MMM--socialIcn_facebook color--iconGray"><span class="m-footer-socialIcn--outline"></span></i></a>
+					</li>
+
+					<li>
+						<a class="m-footer-socialIcn" href="https://www.instagram.com/3m/" title="Instagram" target="_blank">
+							<i class="MMM--socialIcn MMM--socialIcn_instagram color--iconGray"><span class="m-footer-socialIcn--outline"></span></i></a>
+					</li>
+
+				</ul>
+
+			</div>
+			<div class="MMM--clear"></div>
+			<!-- 			<ul class="m-footer_categories">
+
+				<li class="m-footer_category">
+					<a id="about_ftr" role="none" class="m-footer_expHead link--dark is-expandable" tabindex="-1" target="_self">Our Company</a>
+					<ul id="about_ftr--links" class="m-footer-expLinks" aria-labelledby="about_ftr">
+						<li class="m-footer-link">
+							<a href="https://www.3m.comhttps://www.3m.com/3M/en_US/company-us/about-3m/" title="About 3M" class="link--dark" target="_self">About 3M</a>
+						</li>
+						<li class="m-footer-link">
+							<a href="https://www.3m.comhttps://www.3m.com/3M/en_US/careers-us/" title="3M Careers" class="link--dark" target="_self">3M Careers</a>
+						</li>
+						<li class="m-footer-link">
+							<a href="https://investors.3m.com/ir-home/default.aspx" title="Investor Relations" class="link--dark" target="_self">Investor Relations</a>
+						</li>
+						<li class="m-footer-link">
+							<a href="https://www.3m.comhttps://www.3m.com/3M/en_US/company-us/partners-suppliers/" title="Partners &amp; Suppliers" class="link--dark" target="_self">Partners &amp; Suppliers</a>
+						</li>
+						<li class="m-footer-link">
+							<a href="https://www.3m.comhttps://www.3m.com/3M/en_US/sustainability-us/" title="Sustainability" class="link--dark" target="_self">Sustainability</a>
+						</li>
+						<li class="m-footer-link">
+							<a href="https://www.3m.comhttps://www.3m.com/3M/en_US/gives-us/" title="3Mgives" class="link--dark" target="_self">3Mgives</a>
+						</li>
+						<li class="m-footer-link">
+							<a href="https://www.3m.comhttps://www.3m.com/3M/en_US/ethics-compliance/" title="Ethics &amp; Compliance" class="link--dark" target="_self">Ethics &amp; Compliance</a>
+						</li>
+					</ul>
+				</li>
+
+				<li class="m-footer_category">
+					<a id="news_ftr" role="none" class="m-footer_expHead link--dark is-expandable" tabindex="-1" target="_self">News</a>
+					<ul id="news_ftr--links" class="m-footer-expLinks" aria-labelledby="news_ftr">
+						<li class="m-footer-link">
+							<a href="https://news.3m.com/news-center" title="News Center" class="link--dark" target="_self">News Center</a>
+						</li>
+						<li class="m-footer-link">
+							<a href="https://news.3m.com/press-releases" title="Press Releases" class="link--dark" target="_self">Press Releases</a>
+						</li>
+					</ul>
+				</li>
+
+				<li class="m-footer_category">
+					<a id="reg_ftr" role="none" class="m-footer_expHead link--dark is-expandable" tabindex="-1" target="_self">Regulatory</a>
+					<ul id="reg_ftr--links" class="m-footer-expLinks" aria-labelledby="reg_ftr">
+						<li class="m-footer-link">
+							<a href="https://www.3m.comhttps://www.3m.com/3M/en_US/company-us/SDS-search/" title="SDS, RDS, More Regulatory &amp; Compliance Information" class="link--dark" target="_self">SDS, RDS, More Regulatory &amp; Compliance Information</a>
+						</li>
+						<li class="m-footer-link">
+							<a href="https://www.3m.comhttps://www.3m.com/3M/en_US/company-us/transport-information-search/" title="Transport Information Search" class="link--dark" target="_self">Transport Information Search</a>
+						</li>
+						<li class="m-footer-link">
+							<a href="https://www.3m.comhttps://www.3m.com/3M/en_US/company-us/regulatory-information/cpsia-certificate-search/" title="CPSIA Certification Search" class="link--dark" target="_self">CPSIA Certification Search</a>
+						</li>
+						<li class="m-footer-link">
+							<a href="https://www.3m.comhttps://www.3m.com/3M/en_US/company-us/lithium-battery-test-summary-report-search/" title="Lithium Battery UN 38.3 Test Summary Search" class="link--dark" target="_self">Lithium Battery UN 38.3 Test Summary Search</a>
+						</li>
+						<li class="m-footer-link">
+							<a href="https://www.3m.comhttps://www.3m.com/3M/en_US/suppliers-direct/supplier-requirements/contract-provisions/" title="Transparency in Supply Chains and Modern Slavery Disclosures" class="link--dark" target="_self">Transparency in Supply Chains and Modern Slavery Disclosures</a>
+						</li>
+						<li class="m-footer-link">
+							<a href="https://www.3m.comhttps://www.3m.com/3M/en_US/company-us/product-ingredients/" title="US Ingredient Communication" class="link--dark" target="_self">US Ingredient Communication</a>
+						</li>
+					</ul>
+				</li>
+
+				<li class="m-footer_category">
+					<a id="help" role="none" class="m-footer_expHead link--dark is-expandable" tabindex="-1" target="_self">Help</a>
+					<ul id="help--links" class="m-footer-expLinks" aria-labelledby="help">
+						<li class="m-footer-link">
+							<a href="https://www.3m.comhttps://www.3m.com/3M/en_US/company-us/help-center/" title="Help Center" class="link--dark" target="_self">Help Center</a>
+						</li>
+						<li class="m-footer-link">
+							<a href="https://www.3m.comhttps://www.3m.com/3M/en_US/company-us/site-map/" title="Site Map" class="link--dark" target="_self">Site Map</a>
+						</li>
+					</ul>
+				</li>
+			</ul> -->
+
+			<div class="m-footer_legal">
+
+				<div class="m-footer_legal--logo">
+					<a class="h-linkNoUnderline" href="https://www.3M.com/" target="_self">
+						<img src="images/unicorn/Logo_mobile.png" alt="3M Logo">
+					</a>
+				</div>
+
+				<div>
+					<div class="m-footer_legalLinks">
+						<a href="https://www.3m.com/3M/en_US/company-us/legal-information/" class="m-footer_legalLink" title="Legal" target="_self">Legal</a>
+						<div class="m-footer_legalSpan">|</div><a href="https://www.3m.com/3M/en_US/company-us/privacy-policy/" class="m-footer_legalLink" title="Privacy" target="_self">Privacy</a>
+						<div class="m-footer_legalSpan">|</div>
+						<a href="/3M/en_US/company-us/hipaa-privacy/" class="m-footer_legalLink" title="HIPAA Privacy" aria-label="HIPAA Privacy" target="_self">HIPAA Privacy</a>
+						<div class="m-footer_legalSpan">|</div><a href="https://www.3m.com/3M/en_US/company-us/dmca-copyright-policy/" class="m-footer_legalLink" title="DMCA" target="_self">DMCA</a>
+						<div class="m-footer_legalSpan">|</div><a href="https://www.3m.com/3M/en_US/company-us/accessibility-statement/" class="m-footer_legalLink" title="Accessibility Statement" target="_self">Accessibility Statement</a>
+						<div class="m-footer_legalSpan">|</div><a href="javascript:void(0);" onclick="showConsentPreferencesPopup()" class="MMM--icn_privacy m-footer_legalLink privacy-choices" target="_self">Your Privacy Choices</a>
+						<div class="m-footer_legalSpan">|</div>
+						<a class="m-footer_legalLink cmp-revoke-consent" href="#" title="Cookie Preferences" aria-label="Cookie Preferences" onclick="showConsentPreferencesPopup()">Manage Cookie Preferences</a>
+					</div>
+					<div class="m-footer_copyRight">© 3M
+						2026. All Rights Reserved.</div>
+				</div>
+			</div>
+
+			<div class="m-footer_disclosure"> The brands listed above are trademarks of 3M. </div>
+			<div class="MMM--clear"></div>
+		</div>
+	</div>
+
+	<script src="js/domReady.js"></script>
+	<script src="js/require_config.js"></script>
+	<script src="js/modernizr.min.js"></script>
+	 <!-- <script src="js/fuze.js"></script>  -->
+	<script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js"></script>
+
+	<!-- <script>
+		//- REQUIRED: Site and Page Settings
+		SETTINGS.LOCALE = "en_US";
+		SETTINGS.APP_VERSION = "2.87.0";
+	</script> -->
+
+	<!-- MediaRoom Specific -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+
+			//Navigation (Ours)
+			$('.wd_nav .wd_has-children').click(function(e) {
+				e.preventDefault();
+				$(this).toggleClass('wd_active');
+				$(this).siblings('.wd_subnav').toggleClass('show');
+			});
+
+			$('.wd_mediaroom-nav.wd_mobile a.m-navbar_loginBtn').click(function(e) {
+				e.preventDefault();
+				$(this).toggleClass('wd_active');
+				$(this).siblings('.wd_mobile-nav-wrap').toggleClass('wd_active');
+			});
+
+			$('.wd_m-navbar_link.wd_has-children').click(function(e) {
+				e.preventDefault();
+				$(this).toggleClass('wd_active');
+				$(this).siblings('.wd_mobile-subnav').toggleClass('wd_active');
+			});
+
+			//Pagination
+			$('.wd_page_menu li.wd_page_prev span, .wd_page_menu li.wd_page_prev a').html('<i class="fa fa-caret-left" aria-hidden="true"></i>');
+			$('.wd_page_menu li.wd_page_next span, .wd_page_menu li.wd_page_next a').html('<i class="fa fa-caret-right" aria-hidden="true"></i>');
+
+			//Wrap Selects
+			$('#wd_printable_content select').wrap('<div class="wd_select-wrap"></div>');
+			//Wrap Text in Buttons
+			$('#wd_printable_content button[type=submit]').wrapInner('<span></span>');
+
+			//Toolbar - Add Share Text
+			$('.wd_tools').prepend('<span class="wd_share">Share:</span>');
+
+			//Move toolbar
+							$('.wd_toolbar.wd_toolbar-detail').insertBefore('#wd_printable_content');
+				$('.wd_back, .wd_toolbar.wd_toolbar-detail').wrapAll('<div class="wd_detail-tools"></div>');
+			
+			//Gallery Categories
+			
+			//Stories FB Position
+			$('.wd_articles-teaser .item').each(function() {
+				var storyLink = $(this).find('.item_name a').attr('href');
+				$(this).find('img').unwrap();
+				//$(this).find('.item_name a').unwrap();
+				$(this).find('.item_date, .item_name, .item_summary').wrapAll('<div class="wd_article-text"></div>');
+				$(this).wrap('<a class="wd_item-link" href="' + storyLink + '"></a>');
+			});
+
+			//News Headlines FB - Move Publication
+			$('.wd_news_headlines-teaser .item').each(function() {
+				$(this).find('.item_publication').insertBefore($(this).find('.item_name'));
+			});
+
+			//Featured Featurebox - Wrap link around the title and image
+			$('.wd_featureboxes_featured #wd_featurebox-standard_3512').each(function() {
+				var fbLink = $(this).find('.wd_imagetable a').attr('href');
+				$(this).find('.wd_imagetable img').unwrap();
+				$(this).find('.wd_featurebox_title, .wd_featurebox').wrapAll('<a class="wd_item-link" href="' + fbLink + '"></a>');
+			});
+
+		
+
+
+			//Featured Coverage - Move FB Title
+			$('.wd_featureboxes_featured_coverage .wd_featurebox_container').each(function() {
+				$(this).find('.wd_featurebox_title').insertAfter($(this).find('.wd_imagetable'));
+			});
+
+			$('.wd_pageid_20328 .item').each(function() {
+				if ($('.wd_imagetable[align="left"]', this)[0]) {
+					$('> *', this).wrapAll("<div></div>");
+					$('> *', this).wrapAll("<div class='item-inner-wrap'></div>");
+					$('.item-inner-wrap', this).prepend($('.wd_imagetable img', this));
+					$('.wd_imagetable', this).remove();
+				}
+			});
+
+			//Move Labels in Subscribe FB & Email Alerts
+			$('.wd_form_field').each(function() {
+				var labelText = $(this).find('.wd_form_field_label label').text();
+				$(this).find('.wd_form_field_input input[type="text"]').attr('placeholder', labelText);
+			});
+			$('.wd_form_field_input input[type="text"]').parent().parent().addClass('wd_hide-label');
+
+			$('#subscribe_form_1').append('<div class="wd_subscribe-options"><span><a href="index.php?s=20300">Customize</a></span><span><a href="http://stage.mediaroom.com/3m/index.php?s=20300&unsub=1&hide_page_content=1">Unsubscribe</a></span></div>');
+			$('.wd_pageid_20308 .wd_toolbar.wd_toolbar-main').insertAfter($('.wd_bottom-style'));
+			$('.wd_pageid_20327 .wd_toolbar.wd_toolbar-main').insertAfter($('.wd_bottom-style'));
+
+			$('.wd_pageid_20327 .wd_category_3195 .item, .wd_pageid_20327 .wd_category_3196 .item').each(function(){
+				$(this).prepend($('.item_name', this));
+				$('>*:not(.item_name)', this).wrapAll('<div class="item_content_wrapper" />');
+			});
+			// toggle expand items on /ces-2025
+			$('.wd_pageid_20327 .wd_category_3195 .item_name, .wd_pageid_20327 .wd_category_3196 .item_name').on('click', function(){
+				$(this).parents('.item').toggleClass('expand');
+			});
+
+			// Add role="presentation" to the tables on quarterly results pages if the current URL includes the text "Quarter"
+			if (window.location.href.indexOf("Quarter") > -1) {
+				$('.wd_pageid_20295 table').attr('role', 'presentation');
+				$('.wd_pageid_20295 table').attr('aria-hidden', 'true');
+			};
+
+			$('.wd_newsfeed_releases-detail table').each(function() {
+				$(this).attr('role', 'presentation');
+			});
+
+			// Recaptcha Response Label
+
+			$('label[for="g-recaptcha-response"]').each(function() {
+				$(this).text('Please check the box to confirm you are not a robot.');
+			});
+
+			// Add alt text to subscribe link image icon
+			$('.wd_subscribe_link').each(function() {
+				$(this).find('.wd_subscribe_icon img').attr('alt', '');
+			});
+
+
+			//Open and close the Locale Popup by toggling the class 'h-hidden'
+
+			$('.is-localeToggle').on('click', function(e) {
+				e.preventDefault();
+				$('.is-localePopUp').removeClass('h-hidden');
+			});
+
+			//Close the locale if is-close is clicked
+			$('.is-close').on('click', function() {
+				$('.is-localePopUp').addClass('h-hidden');
+			});
+
+			// Start WCAG
+
+			//Change the div tags to h2 tags for detail article titles
+			$('.wd_article-body .wd_title').each(function() {
+				var titleText = $(this).text();
+				$(this).replaceWith('<h2 class="wd_title wd_language_left">' + titleText + '</h2>');
+			});
+
+			//For the gallery overlay links add sr-only text to indicate that the link opens the gallery carousel
+			var galleryAssets = setInterval(function() {
+				if ($('.wd_carousel .wd_gallery_asset a').length) {
+					$('.wd_carousel .wd_gallery_asset').each(function() {
+						$(this).find('.wd_icon_overlay a').append('<span class="sr-only">Link opens the current image within the image gallery</span>');
+					});
+					clearInterval(galleryAssets);
+				}
+			}, 1000);
+
+			var masonryAssets = setInterval(function() {
+				if ($('.wd_asset_inline a').length) {
+					$('.wd_asset_inline .wd_icon_overlay').each(function() {
+						$(this).find('a').append('<span class="sr-only">Link opens the current image within the image gallery</span>');
+					});
+					clearInterval(masonryAssets);
+				}
+			}, 1000);
+
+			//Featured Coverage - Wrap link around the title and image
+			$('.wd_featureboxes_featured_coverage #wd_featurebox-standard_3515').each(function() {
+				var fbLink = $(this).find('.wd_imagetable a').attr('href');
+				$(this).find('.wd_imagetable img').unwrap();
+				$(this).find('.wd_featurebox_title, .wd_imagetable').wrapAll('<a class="wd_item-link" href="' + fbLink + '"></a>');
+			});
+
+			// 3M Stories - Wrap the image and title in a link 
+			$('.wd_articles .wd_item').each(function() {
+				var articleLink = $(this).find('.wd_thumbnail > a').attr('href');
+				$(this).find('.wd_thumbnail img').unwrap();
+				$(this).find('.wd_title a').contents().unwrap();
+				$(this).find('.wd_item_wrapper').wrapAll('<a class="wd_item-link" href="' + articleLink + '"></a>');
+			});
+
+			//Gallery - Wrap the thumbnail and item wrapper in the respective link for the item
+			$(' .wd_gallery .wd_item').each(function() {
+				var galleryLink = $(this).find('.wd_gallery_item').attr('href');
+				$(this).find('.wd_gallery_item img').unwrap();
+				$(this).find('.wd_title a').contents().unwrap();
+				$(this).find('.wd_thumbnail, .wd_title').wrapAll('<a class="wd_item-link" href="' + galleryLink + '"></a>');
+			})
+			
+			
+
+			//If a link has a target="_blank" attribute, add an aria label with the text {page name} - Opens in a new window
+			$('a[target="_blank"]').each(function() {
+				var pageName = $(this).text();
+				if (pageName != null) {
+					$(this).attr('aria-label', pageName + ' - Opens in a new window');
+				}
+				else {
+					$(this).attr('aria-label', 'Link opens in a new window');
+				}
+				
+			});
+
+			// add breadcrumb attribute for google bots
+			$('.MMM--breadcrumbs-list [itemprop="itemListElement"]').each(function(index) {
+				$(this).find('[itemprop="position"]').attr('content', index + 1);
+			});
+
+
+
+
+
+
+
+			
+
+		}); //END Document Ready
+
+
+	</script>
+	<script type="text/javascript">
+		(function(a, b, c, d) {
+			a = '//tags.tiqcdn.com/utag/3m/offp-ccpa/prod/utag.js';
+			b = document;
+			c = 'script';
+			d = b.createElement(c);
+			d.src = a;
+			d.type = 'text/java' + c;
+			d.async = true;
+			a = b.getElementsByTagName(c)[0];
+			a.parentNode.insertBefore(d, a);
+		})();
+	</script>
+
+<!-- begin spin_special_output(body_end) -->
+<script wd_script_id="piwik_tracking_code"></script><span id="newwindow-note" class="sr-only">(opens in a new window)</span>
+<!-- end spin_special_output(body_end) -->
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a50e7af99f87983f',t:'MTc5MzA3MDM0MA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+
+</html>

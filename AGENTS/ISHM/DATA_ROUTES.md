@@ -51,3 +51,10 @@ This supersedes the earlier same-day “not recovered” results only where stat
 | CAT Q2 results PDF | Primary issuer PDF read through available web tool; local requests timed out | PRIMARY-VERIFIED web read with page locators in CAT_WEB_READ.md. No local raw PDF claimed. Stop repeated failed downloads; saved extraction note is the audit trail |
 
 Reproducer and checks use repository `.venv/bin/python3` (pandas, openpyxl and xlrd available); boot and drills use standard-library `python3`. No new software dependency was installed. Exact BEA retrieval second was not logged; the manifest distinguishes that unknown clock from inventory creation time.
+
+
+## News-sweep remeasurement — October 26, 2026
+
+ATA September tonnage, AMT machine/cutting-tool articles, AAR October overview/PDF, four district Beige Books, 3M/AWS and Minnesota's 3M notice are reachable by ordinary GET; source manifests are in `research/2026-10-26_news-sweep/sources/`. AMT's article is present in public HTML `ng-state` JSON even when a generic renderer returns only its title; the extracted body is saved separately. ACT's correct trailer blog is `/resources/blog/state-of-industry-u.s.-trailers-blog`; guessed `/trailer-orders` or `/trailers` failures do not establish source absence. Mutable pages contain old preliminary/June sections: the October 23 current lead governs.
+
+AAR October edition's exact publication day remains UNKNOWN; preserve the print-date REVIEW and do not substitute retrieval day. ATA related-link card dated October 26 pointed to a September 11, 2024 Trends body; rejected as a current update. ATA preliminary final-check date uses the issuer first-Friday rule, not an individually announced date; full report access remains subscription-based. No paid history or recurring collector added.

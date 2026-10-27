@@ -1,0 +1,14 @@
+Lane	Discovery	Disposition
+Manufacturing surveys	ISM/S&P and October regional releases	Existing accepted rows; October27 Richmond not yet released
+Freight physical demand	ATA September; AAR October RIO; ACT trailers; IATA latest	New ATA/AAR/ACT context; no September IATA issuer actual found
+Machinery and consumables	AMT USMTO August and USCTI cutting tools	Integrated values with unit/price/mix limits
+CAT	Issuer corporate news index and October15 advisories	Workforce/leadership notices; earnings October29 unchanged
+DE	Issuer-targeted October orders/layoff search	No new primary demand event accepted; search absence is not proof of none
+PH	Issuer-targeted October manufacturing search and accepted fiscalQ4 release	Methodology duplicate; November5 comparison retained
+EMR	Corporate newsroom / October8 cooling-product item	Product availability only, no demand/order amount accepted
+GE	October20 earnings / issuer search	Duplicate accepted earnings; overseas capacity plan not US realized output
+HON	October22 issuer earnings / October news query	Duplicate accepted earnings; no extra synchronized-cycle observation
+MMM	October21 issuer AWS announcement / October19 state WARN notice	Integrated forward optical plans and old-announced restructuring
+UNP	October22 earnings / issuer weekly traffic search	Earnings duplicate; AAR universe/period remains separate
+Rejected source clocks	ATA October26 related-link card versus 2024 article body	Do not promote old body from current card/index date
+Rejected aggregate layoffs	Third-party WARN manufacturing totals	Partial coverage/date differences; no national payroll inference

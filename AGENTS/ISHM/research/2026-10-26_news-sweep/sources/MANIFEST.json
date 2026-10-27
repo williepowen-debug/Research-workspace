@@ -1,0 +1,636 @@
+[
+  {
+    "key": "ata",
+    "url": "https://www.trucking.org/news-insights/ata-truck-tonnage-index-rose-08-september",
+    "retrieved_at": "2026-10-27T03:02:55.938409+00:00",
+    "status": 200,
+    "final_url": "https://www.trucking.org/news-insights/ata-truck-tonnage-index-rose-08-september",
+    "bytes": 131496,
+    "sha256": "9665b64510a3133724d7656e20a7dcd5abf58c4aa13b824b382464a619dc2e99",
+    "extract_bytes": 3350,
+    "relevant_links": [
+      {
+        "text": "ATA American Trucking Trends 2026",
+        "href": "/news-insights/ata-american-trucking-trends-2026"
+      }
+    ]
+  },
+  {
+    "key": "amt_cutting",
+    "url": "https://www.amtonline.org/article/august-2026-us-cutting-tool-shipments-totaled-278-6m-up-32-2-from-august-2025",
+    "retrieved_at": "2026-10-27T03:02:55.939148+00:00",
+    "status": 200,
+    "final_url": "https://www.amtonline.org/article/august-2026-us-cutting-tool-shipments-totaled-278-6m-up-32-2-from-august-2025",
+    "bytes": 186369,
+    "sha256": "e2ec8e971678bdf50b9985337c7b657c193876b76f5e2c6ba42cef72bdf0d5a0",
+    "extract_bytes": 80,
+    "relevant_links": []
+  },
+  {
+    "key": "beige_summary",
+    "url": "https://www.federalreserve.gov/monetarypolicy/beigebook202610-summary.htm",
+    "retrieved_at": "2026-10-27T03:02:55.942062+00:00",
+    "status": 200,
+    "final_url": "https://www.federalreserve.gov/monetarypolicy/beigebook202610-summary.htm",
+    "bytes": 88889,
+    "sha256": "51f21e289f676d2e698915424577d01f36d739e51a3b8785f09d10054996b3f8",
+    "extract_bytes": 10251,
+    "relevant_links": [
+      {
+        "text": "October 2026",
+        "href": "/monetarypolicy/beigebook202610.htm"
+      },
+      {
+        "text": "PDF",
+        "href": "/monetarypolicy/files/BeigeBook_20261014.pdf"
+      },
+      {
+        "text": "About This Publication",
+        "href": "/monetarypolicy/beigebook202610.htm"
+      },
+      {
+        "text": "National Summary",
+        "href": "/monetarypolicy/beigebook202610-summary.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of Boston",
+        "href": "/monetarypolicy/beigebook202610-boston.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of New York",
+        "href": "/monetarypolicy/beigebook202610-new-york.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of Philadelphia",
+        "href": "/monetarypolicy/beigebook202610-philadelphia.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of Cleveland",
+        "href": "/monetarypolicy/beigebook202610-cleveland.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of Richmond",
+        "href": "/monetarypolicy/beigebook202610-richmond.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of Atlanta",
+        "href": "/monetarypolicy/beigebook202610-atlanta.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of Chicago",
+        "href": "/monetarypolicy/beigebook202610-chicago.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of St. Louis",
+        "href": "/monetarypolicy/beigebook202610-st-louis.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of Minneapolis",
+        "href": "/monetarypolicy/beigebook202610-minneapolis.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of Kansas City",
+        "href": "/monetarypolicy/beigebook202610-kansas-city.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of Dallas",
+        "href": "/monetarypolicy/beigebook202610-dallas.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of San Francisco",
+        "href": "/monetarypolicy/beigebook202610-san-francisco.htm"
+      }
+    ]
+  },
+  {
+    "key": "beige_atlanta",
+    "url": "https://www.federalreserve.gov/monetarypolicy/beigebook202610-atlanta.htm",
+    "retrieved_at": "2026-10-27T03:02:55.943745+00:00",
+    "status": 200,
+    "final_url": "https://www.federalreserve.gov/monetarypolicy/beigebook202610-atlanta.htm",
+    "bytes": 88710,
+    "sha256": "61ef5b07038f59a4647bed7cfd1642605f849ff90b0bc8ed4cc2fd22309a9b82",
+    "extract_bytes": 10233,
+    "relevant_links": [
+      {
+        "text": "October 2026",
+        "href": "/monetarypolicy/beigebook202610.htm"
+      },
+      {
+        "text": "PDF",
+        "href": "/monetarypolicy/files/BeigeBook_20261014.pdf"
+      },
+      {
+        "text": "About This Publication",
+        "href": "/monetarypolicy/beigebook202610.htm"
+      },
+      {
+        "text": "National Summary",
+        "href": "/monetarypolicy/beigebook202610-summary.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of Boston",
+        "href": "/monetarypolicy/beigebook202610-boston.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of New York",
+        "href": "/monetarypolicy/beigebook202610-new-york.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of Philadelphia",
+        "href": "/monetarypolicy/beigebook202610-philadelphia.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of Cleveland",
+        "href": "/monetarypolicy/beigebook202610-cleveland.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of Richmond",
+        "href": "/monetarypolicy/beigebook202610-richmond.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of Atlanta",
+        "href": "/monetarypolicy/beigebook202610-atlanta.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of Chicago",
+        "href": "/monetarypolicy/beigebook202610-chicago.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of St. Louis",
+        "href": "/monetarypolicy/beigebook202610-st-louis.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of Minneapolis",
+        "href": "/monetarypolicy/beigebook202610-minneapolis.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of Kansas City",
+        "href": "/monetarypolicy/beigebook202610-kansas-city.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of Dallas",
+        "href": "/monetarypolicy/beigebook202610-dallas.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of San Francisco",
+        "href": "/monetarypolicy/beigebook202610-san-francisco.htm"
+      }
+    ]
+  },
+  {
+    "key": "beige_richmond",
+    "url": "https://www.federalreserve.gov/monetarypolicy/beigebook202610-richmond.htm",
+    "retrieved_at": "2026-10-27T03:02:55.944952+00:00",
+    "status": 200,
+    "final_url": "https://www.federalreserve.gov/monetarypolicy/beigebook202610-richmond.htm",
+    "bytes": 87934,
+    "sha256": "ba3eaae7ffd296dfb276ce2345e81208c6c7d128628f51aa918dac371e797662",
+    "extract_bytes": 9502,
+    "relevant_links": [
+      {
+        "text": "October 2026",
+        "href": "/monetarypolicy/beigebook202610.htm"
+      },
+      {
+        "text": "PDF",
+        "href": "/monetarypolicy/files/BeigeBook_20261014.pdf"
+      },
+      {
+        "text": "About This Publication",
+        "href": "/monetarypolicy/beigebook202610.htm"
+      },
+      {
+        "text": "National Summary",
+        "href": "/monetarypolicy/beigebook202610-summary.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of Boston",
+        "href": "/monetarypolicy/beigebook202610-boston.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of New York",
+        "href": "/monetarypolicy/beigebook202610-new-york.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of Philadelphia",
+        "href": "/monetarypolicy/beigebook202610-philadelphia.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of Cleveland",
+        "href": "/monetarypolicy/beigebook202610-cleveland.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of Richmond",
+        "href": "/monetarypolicy/beigebook202610-richmond.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of Atlanta",
+        "href": "/monetarypolicy/beigebook202610-atlanta.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of Chicago",
+        "href": "/monetarypolicy/beigebook202610-chicago.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of St. Louis",
+        "href": "/monetarypolicy/beigebook202610-st-louis.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of Minneapolis",
+        "href": "/monetarypolicy/beigebook202610-minneapolis.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of Kansas City",
+        "href": "/monetarypolicy/beigebook202610-kansas-city.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of Dallas",
+        "href": "/monetarypolicy/beigebook202610-dallas.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of San Francisco",
+        "href": "/monetarypolicy/beigebook202610-san-francisco.htm"
+      }
+    ]
+  },
+  {
+    "key": "beige_chicago",
+    "url": "https://www.federalreserve.gov/monetarypolicy/beigebook202610-chicago.htm",
+    "retrieved_at": "2026-10-27T03:02:56.253005+00:00",
+    "status": 200,
+    "final_url": "https://www.federalreserve.gov/monetarypolicy/beigebook202610-chicago.htm",
+    "bytes": 88207,
+    "sha256": "fa7db9f5e67e41515cd296062097846d7f0db5abaf4355e436ee5a3ec6126593",
+    "extract_bytes": 9774,
+    "relevant_links": [
+      {
+        "text": "October 2026",
+        "href": "/monetarypolicy/beigebook202610.htm"
+      },
+      {
+        "text": "PDF",
+        "href": "/monetarypolicy/files/BeigeBook_20261014.pdf"
+      },
+      {
+        "text": "About This Publication",
+        "href": "/monetarypolicy/beigebook202610.htm"
+      },
+      {
+        "text": "National Summary",
+        "href": "/monetarypolicy/beigebook202610-summary.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of Boston",
+        "href": "/monetarypolicy/beigebook202610-boston.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of New York",
+        "href": "/monetarypolicy/beigebook202610-new-york.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of Philadelphia",
+        "href": "/monetarypolicy/beigebook202610-philadelphia.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of Cleveland",
+        "href": "/monetarypolicy/beigebook202610-cleveland.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of Richmond",
+        "href": "/monetarypolicy/beigebook202610-richmond.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of Atlanta",
+        "href": "/monetarypolicy/beigebook202610-atlanta.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of Chicago",
+        "href": "/monetarypolicy/beigebook202610-chicago.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of St. Louis",
+        "href": "/monetarypolicy/beigebook202610-st-louis.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of Minneapolis",
+        "href": "/monetarypolicy/beigebook202610-minneapolis.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of Kansas City",
+        "href": "/monetarypolicy/beigebook202610-kansas-city.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of Dallas",
+        "href": "/monetarypolicy/beigebook202610-dallas.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of San Francisco",
+        "href": "/monetarypolicy/beigebook202610-san-francisco.htm"
+      }
+    ]
+  },
+  {
+    "key": "beige_dallas",
+    "url": "https://www.federalreserve.gov/monetarypolicy/beigebook202610-dallas.htm",
+    "retrieved_at": "2026-10-27T03:02:56.293650+00:00",
+    "status": 200,
+    "final_url": "https://www.federalreserve.gov/monetarypolicy/beigebook202610-dallas.htm",
+    "bytes": 89111,
+    "sha256": "5cde3bfff2609904357007842bb0d391b5f3b7784c76c5e9511998cb364ae99e",
+    "extract_bytes": 10598,
+    "relevant_links": [
+      {
+        "text": "October 2026",
+        "href": "/monetarypolicy/beigebook202610.htm"
+      },
+      {
+        "text": "PDF",
+        "href": "/monetarypolicy/files/BeigeBook_20261014.pdf"
+      },
+      {
+        "text": "About This Publication",
+        "href": "/monetarypolicy/beigebook202610.htm"
+      },
+      {
+        "text": "National Summary",
+        "href": "/monetarypolicy/beigebook202610-summary.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of Boston",
+        "href": "/monetarypolicy/beigebook202610-boston.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of New York",
+        "href": "/monetarypolicy/beigebook202610-new-york.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of Philadelphia",
+        "href": "/monetarypolicy/beigebook202610-philadelphia.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of Cleveland",
+        "href": "/monetarypolicy/beigebook202610-cleveland.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of Richmond",
+        "href": "/monetarypolicy/beigebook202610-richmond.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of Atlanta",
+        "href": "/monetarypolicy/beigebook202610-atlanta.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of Chicago",
+        "href": "/monetarypolicy/beigebook202610-chicago.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of St. Louis",
+        "href": "/monetarypolicy/beigebook202610-st-louis.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of Minneapolis",
+        "href": "/monetarypolicy/beigebook202610-minneapolis.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of Kansas City",
+        "href": "/monetarypolicy/beigebook202610-kansas-city.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of Dallas",
+        "href": "/monetarypolicy/beigebook202610-dallas.htm"
+      },
+      {
+        "text": "Federal Reserve Bank of San Francisco",
+        "href": "/monetarypolicy/beigebook202610-san-francisco.htm"
+      }
+    ]
+  },
+  {
+    "key": "aar_rio",
+    "url": "https://www.aar.org/rail-industry-overview/",
+    "retrieved_at": "2026-10-27T03:02:56.336410+00:00",
+    "status": 200,
+    "final_url": "https://www.aar.org/rail-industry-overview/",
+    "bytes": 328261,
+    "sha256": "02e348f3ce74a8858f13cf08c0d7f8daea852747262aa7cd2912e29aadcb3f71",
+    "extract_bytes": 8466,
+    "relevant_links": [
+      {
+        "text": "THIS MONTH\u2019S PDF",
+        "href": "https://www.aar.org/wp-content/uploads/2026/10/AAR-RIO-October-2026-FINAL.pdf"
+      },
+      {
+        "text": "",
+        "href": "https://www.aar.org/wp-content/uploads/2026/10/PE-RIO-SEPT-Intermodal.png.webp"
+      },
+      {
+        "text": "",
+        "href": "https://www.aar.org/wp-content/uploads/2026/10/PE-RIO-Sept-YoY-Commodity-scaled.png.webp"
+      },
+      {
+        "text": "September",
+        "href": "https://www.aar.org/wp-content/uploads/2026/09/AAR-RIO-September-2026-FINAL.pdf"
+      },
+      {
+        "text": "August",
+        "href": "https://www.aar.org/wp-content/uploads/2026/08/AAR-RIO-August-2026-Final.pdf"
+      },
+      {
+        "text": "July",
+        "href": "https://www.aar.org/wp-content/uploads/2026/07/AAR-RIO-JULY-6-2026-FINAL.pdf"
+      },
+      {
+        "text": "June",
+        "href": "https://www.aar.org/wp-content/uploads/2026/06/AAR-RIO-JUNE-5-2026-FINAL.pdf"
+      },
+      {
+        "text": "May",
+        "href": "https://www.aar.org/wp-content/uploads/2026/05/AAR-RIO-MAY-8-2026-FINAL.pdf"
+      },
+      {
+        "text": "April",
+        "href": "https://www.aar.org/wp-content/uploads/2026/04/AAR-RIO-APR-3-2026.pdf"
+      },
+      {
+        "text": "March",
+        "href": "https://www.aar.org/wp-content/uploads/2026/03/AAR-RIO-MAR-6-2026-FINAL.pdf"
+      },
+      {
+        "text": "February",
+        "href": "https://www.aar.org/wp-content/uploads/2026/02/AAR-RIO-FEB-6-2026-FINAL.pdf"
+      },
+      {
+        "text": "January",
+        "href": "https://www.aar.org/wp-content/uploads/2026/01/AAR-RIO-JAN-9-2026-FINAL.pdf"
+      },
+      {
+        "text": "October",
+        "href": "https://www.aar.org/wp-content/uploads/2024/10/AAR-RIO-October-7-FINAL.pdf"
+      },
+      {
+        "text": "August",
+        "href": "https://www.aar.org/wp-content/uploads/2024/08/AAR-RIO-August-8-2024-Final.pdf"
+      }
+    ]
+  },
+  {
+    "key": "amt_secondary_locator",
+    "url": "https://www.americanmachinist.com/news/news/55411347/machine-tool-demand-continues-to-grow-us-manufacturing-technology-orders-report-august-2026",
+    "retrieved_at": "2026-10-27T03:02:56.465230+00:00",
+    "status": 200,
+    "final_url": "https://www.americanmachinist.com/news/news/55411347/machine-tool-demand-continues-to-grow-us-manufacturing-technology-orders-report-august-2026",
+    "bytes": 198705,
+    "sha256": "74ac3189f536ce0b9dde181c365e9f7fe90018fc6fd5f09981d83b06d7c727eb",
+    "extract_bytes": 5062,
+    "relevant_links": []
+  },
+  {
+    "key": "emr_product",
+    "url": "https://www.emerson.com/en/corporate/news",
+    "retrieved_at": "2026-10-27T03:02:56.466765+00:00",
+    "status": 200,
+    "final_url": "https://www.emerson.com/en/corporate/news",
+    "bytes": 643998,
+    "sha256": "abed11edec24692ee32cc31d564ec353f7c0322ffecab0e49d2a8e0dbb719108",
+    "extract_bytes": 24660,
+    "relevant_links": [
+      {
+        "text": "Financial Emerson Schedules Fourth Quarter and Full Year 2026 Earnings Release and Conference Call",
+        "href": "/en/corporate/news/2026/q4-2026-webcast-advisory"
+      },
+      {
+        "text": "Product Emerson\u2019s New Flow Measurement Solution Improves Data Center Reliability, Efficiency and Upt",
+        "href": "/en/corporate/news/2026/emersons-new-flow-measurement-improves-data-center-reliability"
+      },
+      {
+        "text": "Enterprise Emerson Selected by Logtek AS to Accelerate Upstream Exploration",
+        "href": "/en/corporate/news/2026/emerson-selected-by-logtek-as-to-accelerate-upstream-exploration"
+      },
+      {
+        "text": "Product Emerson\u2019s New Gas Analyzer Offers World\u2019s First Hybrid Device Certified for Hazardous Areas",
+        "href": "/en/corporate/news/2026/emersons-new-gas-analyzer-first-hybrid-device-for-hazardous-areas"
+      },
+      {
+        "text": "Enterprise Emerson to Build New Automation Solutions Service Center in Qatar",
+        "href": "/en/corporate/news/2026/emerson-to-build-new-automation-solutions-service-center-qatar"
+      },
+      {
+        "text": "Financial Emerson Reports Third Quarter 2026 Results; Raises 2026 Outlook",
+        "href": "/en/corporate/news/2026/emerson-reports-third-quarter-2026-results-raises-2026-outlook"
+      },
+      {
+        "text": "Financials Emerson Schedules Fourth Quarter and Full Year 2026 Earnings Release and Conference Call ",
+        "href": "/en/corporate/news/2026/q4-2026-webcast-advisory"
+      },
+      {
+        "text": "Measurement Instrumentation Emerson\u2019s New Flow Measurement Solution Improves Data Center Reliability",
+        "href": "/en/corporate/news/2026/emersons-new-flow-measurement-improves-data-center-reliability"
+      },
+      {
+        "text": "Software Emerson Selected by Logtek AS to Accelerate Upstream Exploration Norway-based subsurface da",
+        "href": "/en/corporate/news/2026/emerson-selected-by-logtek-as-to-accelerate-upstream-exploration"
+      },
+      {
+        "text": "Measurement Instrumentation Emerson\u2019s New Gas Analyzer Offers World\u2019s First Hybrid Device Certified ",
+        "href": "/en/corporate/news/2026/emersons-new-gas-analyzer-first-hybrid-device-for-hazardous-areas"
+      },
+      {
+        "text": "Software Emerson Expands Life Sciences Scheduling Software to Optimize Quality Control Lab Testing D",
+        "href": "/en/corporate/news/2026/emerson-expands-life-sciences-scheduling-software"
+      },
+      {
+        "text": "Measurement Instrumentation Emerson\u2019s New Advanced Magnetic Flow Meters Improve Reliability, Increas",
+        "href": "/en/corporate/news/2026/emersons-new-advanced-magnetic-flow-meters-improve-reliability"
+      },
+      {
+        "text": "New Facilities Emerson to Build New Automation Solutions Service Center in Qatar New facility expand",
+        "href": "/en/corporate/news/2026/emerson-to-build-new-automation-solutions-service-center-qatar"
+      },
+      {
+        "text": "Measurement Instrumentation Emerson Simplifies Liquid Analysis to Improve Operational Efficiency Ros",
+        "href": "/en/corporate/news/2026/emerson-simplifies-liquid-analysis-improve-operational-efficiency"
+      },
+      {
+        "text": "Sustainability Emerson Selected to Automate Europe\u2019s First Greenfield Facility Dedicated to Sustaina",
+        "href": "/en/corporate/news/2026/emerson-selected-to-automate-europes-first-greenfield-facility"
+      },
+      {
+        "text": "Software Emerson Updates Turbomachinery Protection and Asset Health Monitoring for Safer Operations ",
+        "href": "/en/corporate/news/2026/emerson-updates-turbomachinery-protection-asset-health"
+      },
+      {
+        "text": "Measurement Instrumentation Emerson\u2019s Advanced Measurement Instrumentation Selected by Equinor to Op",
+        "href": "/en/corporate/news/2026/emerson-advanced-measurement-instrumentation-selected-by-equinor"
+      },
+      {
+        "text": "LNG Emerson to Automate BP-Operated Shah Deniz Compression Project BP extends collaboration with Eme",
+        "href": "/en/corporate/news/2026/emerson-to-automate-bp-operated-shah-deniz-compression-project"
+      },
+      {
+        "text": "Edge Analytics Emerson Brings Enhanced AI Capability and Streamlined Application Deployment to the I",
+        "href": "/en/corporate/news/2026/emerson-brings-enhanced-ai-capability-to-the-industrial-edge"
+      },
+      {
+        "text": "Operational Excellence Emerson Introduces Digital High-Temperature, High-Pressure pH/ORP Sensor for ",
+        "href": "/en/corporate/news/2026/emerson-introduces-digital-high-temperature-sensor"
+      },
+      {
+        "text": "Leadership Emerson Appoints Rudy Sengupta as Senior Vice President, Chief Technology and AI Officer ",
+        "href": "/en/corporate/news/2026/emerson-appoints-new-senior-vice-president-chief-technology-and-ai-officer"
+      },
+      {
+        "text": "Financials Emerson Reports Third Quarter 2026 Results; Raises 2026 Outlook Aug 4, 2026 READ MORE",
+        "href": "/en/corporate/news/2026/emerson-reports-third-quarter-2026-results-raises-2026-outlook"
+      },
+      {
+        "text": "Data Centers Emerson\u2019s Integrated Automation Portfolio Fast-Tracks AI-Scale Data Centers DeltaV Auto",
+        "href": "/en/corporate/news/2026/emersons-integrated-automation-portfolio-ai-scale-data-centers"
+      },
+      {
+        "text": "Chemical New Emerson Motorized Control Valve Reduces Offshore Chemical Injection Costs for Refinerie",
+        "href": "/en/corporate/news/2026/new-emerson-motorized-control-valve-reduces-injection-costs"
+      },
+      {
+        "text": "AI Emerson Expands Ovation AI Portfolio with New Intelligent Agents New Ovation AI Agents enable ope",
+        "href": "/en/corporate/news/2026/emerson-expands-ovation-ai-portfolio-with-new-intelligent-agents"
+      },
+      {
+        "text": "Measurement Instrumentation Emerson Expands Flame Detection Portfolio for Broader Application Flexib",
+        "href": "/en/corporate/news/2026/emerson-expands-flame-detection-portfolio-rosemount-965"
+      },
+      {
+        "text": "Operational Excellence The End of the Efficiency Plateau As Emerson\u2019s Dave Denison explains in his l",
+        "href": "/en/corporate/news/2026/the-end-of-the-efficiency-plateau"
+      }
+    ]
+  },
+  {
+    "key": "cat_news",
+    "url": "https://www.caterpillar.com/en/news/corporate-press-releases.html",
+    "retrieved_at": "2026-10-27T03:02:56.514740+00:00",
+    "status": 200,
+    "final_url": "https://www.caterpillar.com/en/news/corporate-press-releases.html",
+    "bytes": 802586,
+    "sha256": "d47d06901a79514d70b412d669e59a868ed8c694aaa92bd39a052da1e4ec209e",
+    "extract_bytes": 25435,
+    "relevant_links": [
+      {
+        "text": "2026-10-15 Caterpillar Inc. to Announce Third-Quarter 2026 Financial Results on October 29 October 1",
+        "href": "/en/news/corporate-press-releases/h/caterpillar-to-announce-3Q-2026-financial-results-on-oct-29.html"
+      },
+      {
+        "text": "2026-10-15 Caterpillar Inc. to Announce Third-Quarter 2026 Financial Results on October 29 October 1",
+        "href": "/en/news/corporate-press-releases/h/caterpillar-to-announce-3Q-2026-financial-results-on-oct-29.html"
+      },
+      {
+        "text": "2026-10-14 Caterpillar Inc. Maintains Dividend October 14, 2026 View Release View",
+        "href": "/en/news/corporate-press-releases/h/caterpillar-maintains-dividend-october-14-2026.html"
+      },
+      {
+        "text": "2026-07-07 Caterpillar Expands Mining Technology Capabilities with Skycatch Acquisition July 07, 202",
+        "href": "/en/news/corporate-press-releases/h/072026-mining-technology-expansion.html"
+      }
+    ]
+  }
+]

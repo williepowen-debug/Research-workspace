@@ -1,0 +1,87 @@
+[
+  {
+    "key": "amt_usmto",
+    "url": "https://amtonline.org/article/rally-in-machinery-orders-extends-onto-the-heels-of-imts-2026",
+    "retrieved_at": "2026-10-27T03:05:39.837966+00:00",
+    "status": 200,
+    "final_url": "https://amtonline.org/article/rally-in-machinery-orders-extends-onto-the-heels-of-imts-2026",
+    "bytes": 200518,
+    "sha256": "5ee81806c864b0e28b07b3eac78fb2dd0161321118bea6be475be61333b591bd",
+    "extraction": "public HTML ng-state article body; no authenticated request",
+    "article_links": [],
+    "extract_bytes": 4694
+  },
+  {
+    "key": "aar_rio_pdf",
+    "url": "https://www.aar.org/wp-content/uploads/2026/10/AAR-RIO-October-2026-FINAL.pdf",
+    "retrieved_at": "2026-10-27T03:05:39.838468+00:00",
+    "status": 200,
+    "final_url": "https://www.aar.org/wp-content/uploads/2026/10/AAR-RIO-October-2026-FINAL.pdf",
+    "bytes": 438238,
+    "sha256": "bfdb6dfd9bd4b8013ba9729ffa163f87132029f8209a69331ebe1fd352aacc29",
+    "extract_bytes": 7466
+  },
+  {
+    "key": "mmm_warn",
+    "url": "https://mn.gov/deed/assets/2026-warn-3m-company_tcm1045-772233.pdf",
+    "retrieved_at": "2026-10-27T03:05:39.839225+00:00",
+    "status": 200,
+    "final_url": "https://mn.gov/deed/assets/2026-warn-3m-company_tcm1045-772233.pdf",
+    "bytes": 59244,
+    "sha256": "3fafc652e9fb5c74789eb86ee7491247804ec1cf4bfe6ce8914ee50cbd0197ed",
+    "extract_bytes": 2071
+  },
+  {
+    "key": "mmm_aws",
+    "url": "https://news.3m.com/2026-10-21-3M-and-AWS-collaborate-to-advance-optical-connectivity-innovation",
+    "retrieved_at": "2026-10-27T03:05:39.843242+00:00",
+    "status": 200,
+    "final_url": "https://news.3m.com/2026-10-21-3M-and-AWS-collaborate-to-advance-optical-connectivity-innovation",
+    "bytes": 52323,
+    "sha256": "5f196a5479dba8131b00f158ca15f1cfab456be2685b3e814c595b7147ebc8d7",
+    "article_links": [],
+    "extract_bytes": 5856
+  },
+  {
+    "key": "act_dealers",
+    "url": "https://www.actresearch.net/solutions/dealers-leasing",
+    "retrieved_at": "2026-10-27T03:05:40.063786+00:00",
+    "status": 200,
+    "final_url": "https://www.actresearch.net/solutions/dealers-leasing",
+    "bytes": 95865,
+    "sha256": "43b3619c27e434d64caa10d8f7e805d7092244c5099c71c47bc1de146c273dcd",
+    "article_links": [
+      {
+        "text": "U.S. trailer net orders",
+        "href": "https://www.actresearch.net/reports-data/state-of-the-industry-reports/u.s.-trailer-market"
+      },
+      {
+        "text": "Proprietary commercial vehicle, freight, trailer, and used equipment market data",
+        "href": "https://www.actresearch.net/act-proprietary-data"
+      }
+    ],
+    "extract_bytes": 15246
+  },
+  {
+    "key": "act_trailer_blog",
+    "url": "https://www.actresearch.net/resources/blog/trailers",
+    "retrieved_at": "2026-10-27T03:05:40.359584+00:00",
+    "status": 404,
+    "final_url": "https://www.actresearch.net/resources/blog/trailers",
+    "bytes": 61071,
+    "sha256": "2678ebf3f88e08cab6fb78f46cbde43ebf62ee663d66e0e8a7ec4bfd98925080",
+    "article_links": [],
+    "extract_bytes": 1046
+  },
+  {
+    "key": "ata_trends",
+    "url": "https://www.trucking.org/news-insights/ata-releases-latest-edition-american-trucking-trends",
+    "retrieved_at": "2026-10-27T03:05:40.361553+00:00",
+    "status": 200,
+    "final_url": "https://www.trucking.org/news-insights/ata-releases-latest-edition-american-trucking-trends",
+    "bytes": 130766,
+    "sha256": "e237ed6513a15c18a7f6d5acf7a4ce4aa3dcc8142bbef9405dc4ce65953c25d7",
+    "article_links": [],
+    "extract_bytes": 3277
+  }
+]

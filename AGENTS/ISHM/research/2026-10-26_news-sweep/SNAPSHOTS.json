@@ -1,0 +1,206 @@
+{
+  "cutoff": "2026-10-26 America/New_York",
+  "notes": "Retrieval clocks UTC in source manifests; inventory hashes saved bytes and extracted text separately. AMT hydrated text comes from the public HTML ng-state body. Guessed ACT 404 moved to /tmp; failure remains in EXTRA_MANIFEST. ATA Trends 2024 retained as rejected date-mismatch evidence. No historical data/ panel overwritten.",
+  "files": [
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_news-sweep/sources/ACT_MANIFEST.json",
+      "bytes": 264,
+      "sha256": "a0406dea1dca31a7a9337f95e588db01821350f79966765b0f8c73301157a179"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_news-sweep/sources/EXTRA_MANIFEST.json",
+      "bytes": 3533,
+      "sha256": "cb4fc6abf82e3a601b2cf407522e572565b210082292b76bd12b163de53fcd1b"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_news-sweep/sources/MANIFEST.json",
+      "bytes": 24675,
+      "sha256": "72c7ca3e95193ba144b5478b68feb1e08c624f2693394a14c1e4bd02bf86692f"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_news-sweep/sources/aar_rio.html",
+      "bytes": 328261,
+      "sha256": "02e348f3ce74a8858f13cf08c0d7f8daea852747262aa7cd2912e29aadcb3f71"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_news-sweep/sources/aar_rio.txt",
+      "bytes": 8466,
+      "sha256": "85bc03d630b4ff9de0b3290a6fd8b76fe8dc29a43b77175a20ff0d4f765c13f0"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_news-sweep/sources/aar_rio_pdf.pdf",
+      "bytes": 438238,
+      "sha256": "bfdb6dfd9bd4b8013ba9729ffa163f87132029f8209a69331ebe1fd352aacc29"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_news-sweep/sources/aar_rio_pdf.txt",
+      "bytes": 7466,
+      "sha256": "19002b8576d8a67a2a8aef6bfd2d3b22aefda44ccc8e595cbb8fc32bf4b4bb13"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_news-sweep/sources/act_dealers.html",
+      "bytes": 95865,
+      "sha256": "43b3619c27e434d64caa10d8f7e805d7092244c5099c71c47bc1de146c273dcd"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_news-sweep/sources/act_dealers.txt",
+      "bytes": 15246,
+      "sha256": "0f0854d1df0408ff4a9f35219fd73bfa83b497fcbf635123ba1d09204d8f07da"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_news-sweep/sources/act_trailers.html",
+      "bytes": 79437,
+      "sha256": "6af4fd9d24208e7f805a40b1d45ff83f8d0674345dcf15f16b8c9d56a66455b0"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_news-sweep/sources/act_trailers.txt",
+      "bytes": 7508,
+      "sha256": "7fd43d580efbcda776badad17d58ba1d53651126ebaea34ae8235cb113aa941c"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_news-sweep/sources/amt_cutting.html",
+      "bytes": 186369,
+      "sha256": "e2ec8e971678bdf50b9985337c7b657c193876b76f5e2c6ba42cef72bdf0d5a0"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_news-sweep/sources/amt_cutting.txt",
+      "bytes": 80,
+      "sha256": "94fe9b78a6693585b8dfa887159a5b8dcfdfea89e01609109550f9ab31776c7e"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_news-sweep/sources/amt_cutting_hydrated.txt",
+      "bytes": 4739,
+      "sha256": "0ec4e06297dc7545439598b763a1efa262cd079002f8c48e42506a4f62b6d9eb"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_news-sweep/sources/amt_secondary_locator.html",
+      "bytes": 198705,
+      "sha256": "74ac3189f536ce0b9dde181c365e9f7fe90018fc6fd5f09981d83b06d7c727eb"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_news-sweep/sources/amt_secondary_locator.txt",
+      "bytes": 5062,
+      "sha256": "3380f84a37d40ee4181756bca14a7f8e7890f1b95941f808eb34232990abfe9d"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_news-sweep/sources/amt_usmto.html",
+      "bytes": 200518,
+      "sha256": "5ee81806c864b0e28b07b3eac78fb2dd0161321118bea6be475be61333b591bd"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_news-sweep/sources/amt_usmto.txt",
+      "bytes": 4694,
+      "sha256": "d2e2e1eb4b64040e717fba03a5ba1bf97e25378348ad5b9e6354c2848338d982"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_news-sweep/sources/ata.html",
+      "bytes": 131496,
+      "sha256": "9665b64510a3133724d7656e20a7dcd5abf58c4aa13b824b382464a619dc2e99"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_news-sweep/sources/ata.txt",
+      "bytes": 3350,
+      "sha256": "b4ffa71df9f30ebcfc5144bfb8eac38c4c4009d6552fb41048a872a6a25b1e09"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_news-sweep/sources/ata_trends.html",
+      "bytes": 130766,
+      "sha256": "e237ed6513a15c18a7f6d5acf7a4ce4aa3dcc8142bbef9405dc4ce65953c25d7"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_news-sweep/sources/ata_trends.txt",
+      "bytes": 3277,
+      "sha256": "15202395848adeab3d87b4d501f2d17cb8b3e4c00359b138ebfff874553c1dd4"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_news-sweep/sources/beige_atlanta.html",
+      "bytes": 88710,
+      "sha256": "61ef5b07038f59a4647bed7cfd1642605f849ff90b0bc8ed4cc2fd22309a9b82"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_news-sweep/sources/beige_atlanta.txt",
+      "bytes": 10233,
+      "sha256": "7fe29010da9ad110226ceebd7dca7918d0159fb289e9ff8fa5883e47cf026ff2"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_news-sweep/sources/beige_chicago.html",
+      "bytes": 88207,
+      "sha256": "fa7db9f5e67e41515cd296062097846d7f0db5abaf4355e436ee5a3ec6126593"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_news-sweep/sources/beige_chicago.txt",
+      "bytes": 9774,
+      "sha256": "c56b5dfe2c35c079d2e27bd8402e61c53be0c26260fa4ac972df4b5eb9103182"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_news-sweep/sources/beige_dallas.html",
+      "bytes": 89111,
+      "sha256": "5cde3bfff2609904357007842bb0d391b5f3b7784c76c5e9511998cb364ae99e"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_news-sweep/sources/beige_dallas.txt",
+      "bytes": 10598,
+      "sha256": "4441363e8760ba90af21bd369aec9afd6780bb63a64761ddf98004f1ce9f37d5"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_news-sweep/sources/beige_richmond.html",
+      "bytes": 87934,
+      "sha256": "ba3eaae7ffd296dfb276ce2345e81208c6c7d128628f51aa918dac371e797662"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_news-sweep/sources/beige_richmond.txt",
+      "bytes": 9502,
+      "sha256": "bd0c9ece805e124abade15c1ce1818900da241e0fa0fa1e092601d1191cdc8e7"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_news-sweep/sources/beige_summary.html",
+      "bytes": 88889,
+      "sha256": "51f21e289f676d2e698915424577d01f36d739e51a3b8785f09d10054996b3f8"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_news-sweep/sources/beige_summary.txt",
+      "bytes": 10251,
+      "sha256": "4c266c8d123c02fce77a81b0b8fbccd79be39308a8e826b57953b75f926cd54c"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_news-sweep/sources/cat_news.html",
+      "bytes": 802586,
+      "sha256": "d47d06901a79514d70b412d669e59a868ed8c694aaa92bd39a052da1e4ec209e"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_news-sweep/sources/cat_news.txt",
+      "bytes": 25435,
+      "sha256": "c846cd7d6b8eec1f07e8cb1ac022ddc31eb3f84ee1bda4f99c78486e0d08082a"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_news-sweep/sources/emr_product.html",
+      "bytes": 643998,
+      "sha256": "abed11edec24692ee32cc31d564ec353f7c0322ffecab0e49d2a8e0dbb719108"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_news-sweep/sources/emr_product.txt",
+      "bytes": 24660,
+      "sha256": "d8173f279ebab27bf32a0fec15480277300f005062d197485eccce116548d2c7"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_news-sweep/sources/mmm_aws.html",
+      "bytes": 52323,
+      "sha256": "5f196a5479dba8131b00f158ca15f1cfab456be2685b3e814c595b7147ebc8d7"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_news-sweep/sources/mmm_aws.txt",
+      "bytes": 5856,
+      "sha256": "cf1abf05f76821ef396e12fc21f5073c5a37535a09066ecd61ae79950e9db499"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_news-sweep/sources/mmm_warn.pdf",
+      "bytes": 59244,
+      "sha256": "3fafc652e9fb5c74789eb86ee7491247804ec1cf4bfe6ce8914ee50cbd0197ed"
+    },
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_news-sweep/sources/mmm_warn.txt",
+      "bytes": 2071,
+      "sha256": "53f98e14a0413690a124bc67144f785ae390f63dbf51555d3581998e3f7cbeb0"
+    }
+  ]
+}

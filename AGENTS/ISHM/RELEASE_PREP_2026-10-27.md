@@ -2,6 +2,8 @@
 
 Prepared October 26, before either release. **No October 27 actual or forecast is asserted.** Recheck the issuer schedule and release dateline at the next boot. Current desk evidence: research/2026-10-26_first-session/REPORT.md. Data ledger: workbook/PRINTS.tsv. Mechanism tests: workbook/EXIT_PROTOCOL.md.
 
+**News-sweep context:** AAR September breadth (17/20 categories positive) is stronger recovery evidence; ATA's improved September still leaves Q3 tonnage down. AMT machine-order values reflect automation/aerospace mix; ACT explicitly cites tariff-related trailer-order anticipation. At durables, prioritize delivered core shipments and category breadth. At Richmond, distinguish current orders/shipments from data-center/aerospace pockets in the older October 14 Beige Book (contacts through October 5). Details: `research/2026-10-26_news-sweep/REPORT.md`.
+
 ## 08:30 ET — September advance durable goods
 
 [Primary Census schedule](https://www.census.gov/manufacturing/m3/release_schedule.html) and [August advance report](https://www.census.gov/manufacturing/m3/adv/pdf/durgd.pdf) both confirm October 27 at 08:30 ET. [Advance PDF endpoint](https://www.census.gov/manufacturing/m3/adv/pdf/durgd.pdf) is mutable: archive the September PDF before later releases overwrite it. Full September M3 successor: November 3 at 10:00 ET.

@@ -1,0 +1,541 @@
+Newsroom
+Skip to content
+Automation Systems
+Discrete Automation
+Final Control
+Measurement Instrumentation
+Test & Measurement
+PRODUCTS & SOFTWARE
+Asset Performance Management
+Distributed Control Systems
+Manufacturing Execution Systems
+Safety Instrumented Systems
+SCADA Systems
+BRANDS
+AMS
+DeltaV
+Guardian
+Ovation™
+PACSystems
+PRODUCTS & SOFTWARE
+Control Power Solutions
+Electrical & Lighting
+Electrical Actuators & Drives
+Feeding
+Handling
+Industrial Hardware
+Industrial Sensors & Switches
+Industrial Software
+Marine Controls
+Pneumatics
+Pressure Regulators
+Valves
+BRANDS
+Afag
+ASCO
+AVENTICS
+Movicon
+PACSystems
+TESCOM
+Topworx
+PRODUCTS & SOFTWARE
+Actuators
+Regulators
+Valve Software
+Valve, Actuator & Regulator Instrumentation
+Valves
+View All Products
+FEATURED SOLUTIONS
+Blue Hydrogen Valves
+Common Applications
+Fugitive Emissions
+LNG Valves
+Mining & Metals
+Nuclear Valves
+Power Generation
+Tank Storage
+View All Solutions
+BRANDS
+Bettis
+Fisher
+Vanessa
+View All Brands
+INSTRUMENTS
+Corrosion & Erosion Monitoring
+Density & Viscosity
+Flame & Gas Detection
+Flow Measurement
+Gas Analysis
+Industrial Wireless Technology
+Level Measurement
+Liquid Analysis
+Pressure Measurement
+Temperature Measurement
+SYSTEMS & SOLUTIONS
+CEMS
+Marine Solutions
+Process Gas Analytical Systems
+Process Liquid Analytical Systems
+Tank Gauging Systems
+View All Systems & Solutions
+BRANDS
+Flexim
+Micro Motion
+Plantweb Insight
+Rosemount
+Roxar
+View All Emerson Brands
+PRODUCTS
+Digital Multimeters
+GPIB & Instrument Control
+LCR Meters
+NI Data Acquisition
+NI Software
+NI Vector Signal Analyzers
+NI Vector Signal Transceivers
+Oscilloscopes and Digitizers
+Software Defined Radios
+Source Measure Units
+Switches
+BRANDS
+NI CompactDAQ
+NI CompactRIO
+NI FlexRIO
+NI LabVIEW
+NI PXI
+NI SystemLink
+Academic & Research
+Aerospace & Defense
+Automotive & Transportation
+Chemical
+Data Centers
+Electronics & Semiconductors
+Factory Automation
+Food & Beverage
+Life Sciences
+Marine
+Mining
+Oil & Gas
+Packaging
+Power
+Pulp & Paper
+Water & Wastewater
+Contact Us
+Education Services & Training
+Lifecycle Services
+MyTraining
+Security Notifications
+Software & Drivers
+Project Services
+Trust Center
+About Us
+Careers
+Expertise
+Investors
+News & Events
+Sustainability
+Awards & Recognition
+History
+Integrity & Ethics
+Leadership
+Our Brands
+Our Purpose, Causes & Values
+Ventures
+Explore All Opportunities
+Life at Emerson
+Students & Graduate Opportunities
+Boundless Automation
+Cybersecurity
+Hydrogen Value Chain
+Industrial Sustainability
+Lithium Value Chain
+Operational Excellence
+Original Equipment Manufacturer (OEM)
+Events & Presentations
+Financial News
+Financials
+Email Alerts
+Resources
+Stock Info
+Information Request
+Emerson Exchange
+Insights
+Media Resources
+Newsroom
+Integrity & Responsible Sourcing
+Our People
+Planet
+Contact Us
+Our Brands
+Newsroom
+hidden
+Press Releases
+Insights
+In The News
+Media Resources
+Featured News
+Financial
+Emerson Schedules Fourth Quarter and Full Year 2026 Earnings Release and Conference Call
+Product
+Emerson’s New Flow Measurement Solution Improves Data Center Reliability, Efficiency and Uptime
+Enterprise
+Emerson Selected by Logtek AS to Accelerate Upstream Exploration
+Product
+Emerson’s New Gas Analyzer Offers World’s First Hybrid Device Certified for Hazardous Areas
+Enterprise
+Emerson to Build New Automation Solutions Service Center in Qatar
+Financial
+Emerson Reports Third Quarter 2026 Results; Raises 2026 Outlook
+Browse by Topic
+AI
+Analytics
+Autonomous
+Customer Collaboration
+Cybersecurity
+Data
+Data Centers
+Digital Transformation
+Edge Analytics
+Edge Computing
+Energy Transition
+Intelligent Field
+Life Sciences
+LNG
+Measurement Instrumentation
+Metals and Mining
+OT IT Collaboration
+Power
+Software
+Sustainability
+Latest Press Releases
+Enterprise
+Financial
+Product
+View All
+Financials
+Emerson Schedules Fourth Quarter and Full Year 2026 Earnings Release and Conference Call
+Oct 14, 2026
+READ MORE
+Measurement Instrumentation
+Emerson’s New Flow Measurement Solution Improves Data Center Reliability, Efficiency and Uptime
+Rosemount 8795 applies decades of critical infrastructure insights to data center cooling systems
+Oct 8, 2026
+READ MORE
+Software
+Emerson Selected by Logtek AS to Accelerate Upstream Exploration
+Norway-based subsurface data company chooses Aspen Geolog to automate subsurface workflows and accelerate upstream decision making
+Oct 6, 2026
+READ MORE
+Measurement Instrumentation
+Emerson’s New Gas Analyzer Offers World’s First Hybrid Device Certified for Hazardous Areas
+Rosemount QX1400 provides multicomponent measurement in a single analyzer for continuous emissions monitoring, natural gas quality and other mission-critical regulated applications
+Oct 1, 2026
+READ MORE
+Software
+Emerson Expands Life Sciences Scheduling Software to Optimize Quality Control Lab Testing
+DeltaV Real-Time Scheduling software update optimizes quality control labs’ scheduling to improve efficiency, flexibility
+Sep 29, 2026
+READ MORE
+Measurement Instrumentation
+Emerson’s New Advanced Magnetic Flow Meters Improve Reliability, Increase Uptime and Ease Troubleshooting
+Rosemount 9000 Series Magnetic Flow Meter portfolio delivers diagnostic insights to detect issues earlier and maintain accurate flow measurement
+Sep 21, 2026
+READ MORE
+New Facilities
+Emerson to Build New Automation Solutions Service Center in Qatar
+New facility expands Emerson footprint across the region
+Sep 21, 2026
+READ MORE
+Measurement Instrumentation
+Emerson Simplifies Liquid Analysis to Improve Operational Efficiency
+Rosemount 105P Standard Liquid Panel Systems speed water quality measurement installation with configurable, pre-engineered designs
+Sep 17, 2026
+READ MORE
+Sustainability
+Emerson Selected to Automate Europe’s First Greenfield Facility Dedicated to Sustainable Aviation Fuel
+Integrated control and safety system reduces project risk and enables safe, efficient operations
+Sep 15, 2026
+READ MORE
+Software
+Emerson Updates Turbomachinery Protection and Asset Health Monitoring for Safer Operations
+AMS 6500 ATG version 5.0 and AMS Machine Works version 2.4 software enable continuous data streaming for deeper startup and shutdown analytics
+Sep 8, 2026
+READ MORE
+Measurement Instrumentation
+Emerson’s Advanced Measurement Instrumentation Selected by Equinor to Optimize Operations, Accelerate Development
+Broad measurement portfolio to enhance reliable and efficient operations across global energy assets
+Aug 24, 2026
+READ MORE
+LNG
+Emerson to Automate BP-Operated Shah Deniz Compression Project
+BP extends collaboration with Emerson to maximize gas recovery and processing efficiency.
+Aug 13, 2026
+READ MORE
+Edge Analytics
+Emerson Brings Enhanced AI Capability and Streamlined Application Deployment to the Industrial Edge
+PACEdge software platform simplifies IIoT application development, deployment and administration
+Aug 11, 2026
+READ MORE
+Operational Excellence
+Emerson Introduces Digital High-Temperature, High-Pressure pH/ORP Sensor for Harsh Process Conditions
+Rosemount 350A helps simplify commissioning and improve measurement reliability with plug-and-play connectivity and onboard diagnostics
+Aug 6, 2026
+READ MORE
+Leadership
+Emerson Appoints Rudy Sengupta as Senior Vice President, Chief Technology and AI Officer
+Emerson (NYSE: EMR) today announced that Rudy Sengupta, Vice President and General Manager of Test and Analytics Software at Emerson Test &
+Measurement, has been appointed Senior Vice President, Chief Technology and AI Officer, effective August 15, 2026. He succeeds Peter Zornio, who will
+retire December 31, 2026 after two decades with Emerson.
+Aug 4, 2026
+READ MORE
+Financials
+Emerson Reports Third Quarter 2026 Results; Raises 2026 Outlook
+Aug 4, 2026
+READ MORE
+Data Centers
+Emerson’s Integrated Automation Portfolio Fast-Tracks AI-Scale Data Centers
+DeltaV Automation Platform for Data Centers delivers precision control, industrial reliability and project expertise to accelerate time-to-compute
+Aug 3, 2026
+READ MORE
+Chemical
+New Emerson Motorized Control Valve Reduces Offshore Chemical Injection Costs for Refineries
+TESCOM RC-X motorized injection rate control valve supports accurate, repeatable injection of offshore chemicals, reducing downtime and chemical waste
+Jul 30, 2026
+READ MORE
+AI
+Emerson Expands Ovation AI Portfolio with New Intelligent Agents
+New Ovation AI Agents enable operators to resolve complex issues in a fraction of the time for faster, smarter plant operations
+Jul 27, 2026
+READ MORE
+Measurement Instrumentation
+Emerson Expands Flame Detection Portfolio for Broader Application Flexibility
+New flameproof model adds hazardous-location certification to Rosemount 965 Flame Detector with QuadSense technology and factory-calibrated-for-life operation
+Jul 22, 2026
+READ MORE
+Insights
+View All
+Industrial Automation  and AI
+How AI-Powered Automation Unlocks LNG's Clean Energy Potential
+Enable offshore LNG at scale with AI automation. Monitor extreme conditions remotely and safely with real-time control.
+Jul 15, 2026
+READ MORE
+Automation Operations
+Accelerating Drug Launches: How Digitalized Manufacturing Shortens Time-to-Market
+Transform pharma manufacturing with digital technologies that reduce time-to-market and improve flexibility.
+Jul 9, 2026
+READ MORE
+Safety  and Productivity
+Predictive Analytics and Wireless Sensors: How Emerson Reduces Unplanned Downtime and Safety Incidents
+Prevent downtime and safety incidents. Emerson's wireless sensors predict equipment failures before they happen.
+Jul 6, 2026
+READ MORE
+Industrial Automation  and AI
+How AI-Powered Digital Twin Technology Enables Real-Time, Risk-Free Testing for Energy Operations
+Test operational changes risk-free. Learn how Emerson's digital twin technology lets energy companies innovate safely in real-time.
+Jun 29, 2026
+READ MORE
+Industrial Automation  and AI
+Genentech Shortens Plant Deployment By 60% With Modular Emerson Automation Platform
+Deploy faster. Genentech cuts plant timelines 60% with Emerson's modular platform and compliance-focused validation.
+Jun 22, 2026
+READ MORE
+Industrial Automation  and AI
+Automation Innovation Delivers Boundless Opportunities for Life Sciences Industry
+Streamline life sciences operations with automation that speeds drug development and enables flexible manufacturing.
+Jun 16, 2026
+READ MORE
+Automation Operations
+The OT Edge: How Distributed Control Unlocks Autonomous Operations
+Explore how distributed control decouples the OT edge and enables autonomous operations across your enterprise.
+Jun 11, 2026
+READ MORE
+Digital Transformation
+Embedded Digital Twins: Transforming Power Without the Risk
+Transform your power operations safely. Test innovations and optimize performance in real-time without risking downtime.
+Jun 8, 2026
+READ MORE
+Digital Transformation
+GSK Hamilton's Digital Twin Journey
+Save time and costs. Learn how GSK's digital twin simulator cut commissioning hours and generated production savings.
+Jun 5, 2026
+READ MORE
+Digital Transformation
+Unbounded Data, Boundless Power Operations
+Modernize your grid with automation that unifies data across renewables, storage and operations.
+Jun 4, 2026
+READ MORE
+Cybersecurity
+Protect to Thrive: How Manufacturers Can Meet Growing Cybersecurity Threats
+Protect your manufacturing assets and enable secure digital transformation with a structured cybersecurity strategy.
+Jun 2, 2026
+READ MORE
+Software Solutions
+How CPS Energy Modernized Gas SCADA to Improve Reliability and Cybersecurity
+Explore CPS Energy's modern gas SCADA: enhanced cybersecurity, real-time reliability, and critical infrastructure protection.
+May 26, 2026
+READ MORE
+Safety  and Productivity
+How Emerson Automation Accelerates Oil And Gas Production in the Permian Basin
+Maximize Permian production safely. Emerson's automation and remote monitoring accelerate LNG expansion and efficiency.
+May 18, 2026
+READ MORE
+Cybersecurity
+7 Risk-Based Cybersecurity Best Practices for Power and Water Suppliers
+Learn cybersecurity best practices for power and water utilities to protect critical infrastructure and minimize downtime.
+May 12, 2026
+READ MORE
+Digital Transformation
+Colgate-Palmolive Pursues Net Zero Carbon Target with Emerson’s Smart Sensor Technology for Compressed Air Monitoring
+Achieve net zero goals and operational efficiency at scale. Colgate cuts energy 15% with Emerson's smart air sensors.
+May 4, 2026
+READ MORE
+Safety  and Productivity
+Remote Offshore Operations: How Real-Time Data and Automation Enable Safer, Efficient Production
+See how Emerson's automation and real-time data empower offshore teams to remotely operate production facilities.
+Apr 30, 2026
+READ MORE
+Cybersecurity
+Managing Cyber Risk and Threats: Returning to Foundational Principles
+Learn five foundational actions to reduce cyber risk and protect your manufacturing operations from emerging threats.
+Apr 21, 2026
+READ MORE
+Digital Transformation
+How Top Performing Companies Drive Competitive Advantage Through Digital Transformation
+Drive your business performance with digital transformation rooted in strategy, people and proven expertise.
+Apr 20, 2026
+READ MORE
+Lifecycle Management
+Why Integrating Real-Time Pipeline Monitoring is Critical
+See how real-time monitoring and advanced leak detection can prevent pipeline incidents before they occur.
+Apr 15, 2026
+READ MORE
+Cybersecurity
+How Industrial-Strength Security Protects the Industrial Internet of Things
+Explore Emerson's four-zone security framework for protecting Industrial IoT in manufacturing.
+Apr 7, 2026
+READ MORE
+Industrial Automation  and AI
+How AI-Powered Automation Helped Biogen, Syzygy and Tesla Scale Innovation
+See how AI automation drives scale: Biogen, Syzygy, Tesla reduce costs, emissions and accelerate innovation together.
+Apr 2, 2026
+READ MORE
+Industrial Automation  and AI
+Fujifilm Fast-Tracks America's Largest Cell Culture Contract Development and Manufacturing Organization
+Explore Emerson's automation powering Fujifilm's Holly Springs CDMO: faster production, operational consistency, scale.
+Mar 30, 2026
+READ MORE
+Digital Transformation
+Additive Manufacturing Accelerates Industrial Innovation: How 3D Printing Reduces Design Cycles by 85%
+Harness 3D printing to reduce product design cycles and accelerate industrial innovation with additive manufacturing.
+Mar 26, 2026
+READ MORE
+People  and Culture
+Emerson Sustainability and Decarbonization: Turning Corporate Goals Into Climate Action
+See how Emerson translates corporate climate goals into decarbonization action across customers and operations.
+Mar 16, 2026
+READ MORE
+People  and Culture
+A Shared Journey: How Three Emerson Leaders Are Building a Culture of Allyship and Inclusion
+Meet Emerson leaders who champion allyship and inclusion to build authentic workplace culture.
+Mar 10, 2026
+READ MORE
+People  and Culture
+How Emerson’s Sustainability Advocates Drive Customer Impact: Meet Rada Petrovan
+Discover how Emerson's sustainability champions help customers decarbonize operations and build clean energy infrastructure.
+Mar 4, 2026
+READ MORE
+Emerson in the News
+View All
+Operational Excellence
+The End of the Efficiency Plateau
+As Emerson’s Dave Denison explains in his latest article for Hydrocarbon Engineering magazine, oil and gas companies can unlock enterprise wide efficiency by adopting centralized, cloud enabled engineering platforms that replicate best practices across sites, simplify configuration management, and improve troubleshooting.
+Read On Hydrocarbon Engineering
+Digital Transformation
+To Drive Improved Digital Transformation, Don’t Forget About the Process
+As Emerson systems and software expert Erik Lindhjem recently wrote in Control Engineering, organizations can measurably extend asset life, optimize inventory and reallocate personnel to higher-value tasks just by modernizing basic maintenance procedures and encouraging collaboration between reliability and operations teams.
+Read On Control Engineering
+Operational Excellence
+Mining’s Smart Shift to Predictive Maintenance
+As Emerson’s Romeu Kleinubing explains in his latest article for Global Mining Review, mine operators understand that they need ways to anticipate equipment failures, both to intervene early and to eliminate unplanned site outages that can cost hundreds of thousands or millions of dollars per day. To achieve these objectives, vibration sensors and monitoring systems have become indispensable. Emerson offers the most accurate and reliable intelligent field devices on the market, enabling predictive maintenance that operators can rely on to reduce downtime, ensure safety, and increase operating efficiency, revolutionizing how mines manage their equipment and assets.
+Read On Global Mining Review
+Sustainability
+The Connected Future of Hydropower Generation
+As he detailed in a recent article for POWER magazine, Emerson’s Matt Roberts says today’s most productive hydroelectric sites have discovered that better visibility and control are critical to efficient operation and long-term success.
+Read On POWER
+Operational Excellence
+Manage Operations, Not Servers: The SaaS Approach to SCADA
+As Emerson consultant Douglas Kinnaird explains in his recent article for Control Engineering, software-as-a-service (SaaS) SCADA solutions offer manufacturers — especially those with lean staffing and limited IT support — with the best of all worlds: increased productivity, flexibility and performance, and reduced overhead.
+Read On Control Engineering
+Digital Transformation
+How to Leverage Digital Twins for Asset Lifecycle Optimization
+The latest article for Control Engineering by Emerson’s Zachary Sample explains that as access to and use of digital twin simulations has become more common, teams around the globe are seeing dramatic benefits in the cost and schedule of their project execution.
+Read On Control Engineering
+Pharmaceutical
+Moving Toward the Autonomous Lab of the Future—and What’s Possible Today
+As Emerson life sciences expert Michalle Adkins recently wrote in Pharmaceutical Processing World, while a fully autonomous lab may still be several years away, industry leaders today are beginning to seriously consider what’s possible technologically, and how to invest
+Read On Pharmaceutical Processing World
+Operational Excellence
+Uncovering Better Data—Driven Insights to Protect Giant Mining Shovels in the Field
+In his recent article for Global Mining Review, Emerson industry expert Romeu Kleinubing explores in depth how modern vibration monitoring technologies translate machine data into actionable insights, helping mining teams prevent breakdowns and keeping electric rope shovels – part of the backbone of the industry – working hard. Emerson’s intelligent field devices feature the easiest to read and understand dashboards in the industry, designed to help local operators or remote technicians quickly diagnose shovel health issues before they impact production.
+Read On Global Mining Review
+Digital Transformation
+How Edge Technology is Expanding from a Collection of Hardware to Realize its Full Platform Potential
+In his recent article for Smart Industry, Claudio Fayad, chief technology officer of Emerson’s Aspen Technology business, explains how making the most of the edge means looking at it from a different perspective. The evolving edge environment is a building block for a complete redefinition of the industrial edge. It’s not just a buzzword, says Fayad, but rather an architecture born of new technologies—many of which originated in the cloud. All of this ties into Emerson’s focus on designing the most flexible, scalable software-centric, AI-powered architectures available on the market today.
+Read On Smart Industry
+Cybersecurity
+Strengthening Cybersecurity through Collaboration
+As Emerson’s Emily Affare recently wrote in POWER magazine, cybersecurity is critical because a successful attack could damage equipment, cause an unanticipated outage, or create safety risks for personnel and the public.
+Read On POWER
+Cybersecurity
+Leveraging Practical Cybersecurity Steps to Safeguard Energy Operations
+In his recent article for Hydrocarbon Engineering magazine, Emerson’s Alexandre Peixoto, business director for industrial control systems, offers practical strategies for implementing new enterprise cybersecurity programs when time, resources and expertise are at a premium.
+Read On Hydrocarbon Engineering
+Sustainability
+The Smarter the Wind Turbine, the Stronger the Grid
+Thomas Andersen, vice president of renewable technologies at Emerson, writes in his latest article for Windpower Engineering & Development that companies expanding into wind power are turning to common platforms using fit-for-purpose green energy software portfolios that provide centralized SCADA software and wind turbine condition monitoring systems.
+Read On Windpower Engineering  Development
+Pharmaceutical
+Cybersecurity Strategies for the Life Sciences Industry
+As Emerson’s Michalle Adkins and Alexandre Peixoto explain in their article for Pharma Manufacturing, many life sciences companies are embracing cutting-edge cybersecurity solutions by leveraging innovation, collaboration and automation expertise to stay ahead of evolving threats and gain a competitive edge.
+Read On Pharma Manufacturing
+Pharmaceutical
+The Role of Smart Automation in Gene Therapy Manufacturing
+In an article for Pharmaceutical Processing World, Emerson’s Kristel Biehler writes that strategic automation systems can enable seamless technology transfer and scalability where cell and gene therapy manufacturers face unique challenges in ramping up production while maintaining quality and compliance.
+Read On Pharmaceutical Processing World
+Operational Excellence
+Why MES is an Automation Cornerstone in the Processing Industries
+As Nathan Pettus, president of Emerson’s process systems and solutions business, explains in his recent article for Automation World, manufacturing execution system (MES) software is a critical link between control, asset maintenance and enterprise systems because it can manage manual and automated workflows so effectively.
+Read On Automation World
+Cybersecurity
+Leading the Charge on Solar Cybersecurity
+In her article for North American Clean Energy, Emerson’s Emily Thomas, director, shared services, explains how it is not only possible, but relatively easy to implement a remote security operations center to work in tandem with standard remote operations centers commonly found in renewable energy systems.
+Aug 13, 2025
+READ MORE
+Operational Excellence
+Need a Condition Monitoring Program to Thrive? Start by Planning
+In his article for Plant Engineering, Emerson’s Romeu Kleinubing explains why implementing a condition monitoring system is a critical strategy for any organization looking to compete in an increasingly complex global marketplace.
+Aug 11, 2025
+READ MORE
+Generative AI
+Generative AI at the Edge
+As Emerson’s Rick Kephart writes in Power Magazine, localized intelligence will reshape energy operations, enabling edge-based generative artificial intelligence models to deliver precision, agility and control at every layer of power operations.
+Read On POWER
+Sustainability
+Achieving Excellence across Mixed Wind Fleets with Purpose-Built Software
+A recent article in North American Clean Energy magazine by Thomas Andersen, vice president of renewable technologies for Emerson’s systems and software business, explains how many companies expanding their wind energy resources are reducing complexity with fit-for-purpose software platforms.
+Read On North American Clean Energy
+Digital Transformation
+Emerson Unveils ‘Project Beyond’ to Build the Enterprise Operations Platform of the Future
+This recap of Emerson Exchange 2025 by ARC Advisory Group explains how the company’s Boundless Automation vision is bringing sensing controls, software, data and AI together in a new unified architecture dubbed ‘Project Beyond’ that will work across a range of platforms, domains and disciplines to shape the future of industrial automation.
+Jul 27, 2025
+READ MORE
+Media Contacts
+Company
+Products & Services
+Company Contacts
+News media seeking to contact the Emerson global headquarters team or its world region and country spokespersons should email
+EmersonPR@fleishman.com
+Please provide a brief summary of your request, your deadline and a mobile phone number where you can be reached.
+For news media seeking information about Emerson's products and services, click on the Products & Services tab shown above.
+For all other inquiries or requests, please call the Emerson global headquarters at +1 314-553-2000 for referral to the appropriate person or office.
+Find Us on Social
