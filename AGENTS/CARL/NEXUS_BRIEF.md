@@ -4,7 +4,7 @@
 **Domain:** U.S. consumer financial stress and household transmission; ISHM owns manufacturing/freight, REGINALD bank credit.
 **Thesis version:** v2.6.6
 **Recent thesis pivot:** broad-collapse claim further challenged by PNC/Velera activity (10/26); auto affordability and thin young-adult buffers coexist with spending growth.
-**As of:** 2026-10-27 00:08 ET | STATUS commit: `3b19dcd53`
+**As of:** 2026-10-27 00:13 ET | STATUS commit: `3b19dcd53`
 **Position:** No capital authority; seven paper exits decided, actual next-open fills pending. No performance claim.
 
 ## CROSS-DOMAIN
@@ -71,3 +71,7 @@
 | 11/10 08:30 ET | October CPI | BLS-verified date; CRL-10 level/path conditions unchanged |
 
 **Closeout limits:** October 26–27 file audit repaired code/operating defects and nine false-open tasks. Consistency 0 hard / 6 soft; read-cap passes seven detected surfaces, charter/composite coverage unassessed. Operational closeout remains PARTIAL: 23 inherited child-age flags and eight TSV defects, overdue owner work and future opening quotes remain explicit. No probability, score, instrument threshold or paper fill changed. Runtime OpenAI Codex, exact model UNKNOWN. L786 result 5b18d5a88 consumption was acknowledged; separate news/audit/TERRY consumption remains unverified. Audit result 3b19dcd53.
+
+**Session close:** Will explicitly requested closeout; no further research this session. Final check evidence and remaining owner work are saved in the dated session receipt.
+
+**Late intake:** JetBlue Q3 signal SIG-W-20261027-040 is deferred to October27 next CARL session; primary verification and incorporation remain outstanding. No inference from the relay changes this brief’s thesis or score.

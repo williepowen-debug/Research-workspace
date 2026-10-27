@@ -1,0 +1,98 @@
+{
+  "consistency": {
+    "command": [
+      ".venv/bin/python3",
+      "AGENTS/CARL/scripts/consistency_check.py",
+      "--quiet"
+    ],
+    "exit_code": 0,
+    "output": "\n  \u2705 CHECK A \u2014 predictions mirror (PREDICTIONS.tsv \u2194 PREDICTIONS_MIRROR.md) \u2014 clean.\n\n  \u2705 CHECK B \u2014 convergence score (THESIS matrix \u2194 STATUS mirror \u2194 histogram) \u2014 clean.\n       verified: 14 THESIS vectors vs 14 STATUS mirror rows vs 3 histogram buckets; total 53/70; 1 current-score assertion site(s) agree\n\n  CHECK D \u2014 instrument declaration (does each OPEN row name what resolves it?)\n  SEV   ROW              FINDING\n  --------------------------------------------------------------------------\n  \u26a0\ufe0f  SOFT CRL-29           Instrument threshold clause not parseable as <op><value> (Check E will skip it): 'Band A loss rate \u2265+0.77pp AND stock down'\n\n  \u2705 CHECK E \u2014 cross-ledger threshold monotonicity (parent + sub-agents) \u2014 clean.\n       coverage: 55/70 rows comparable (13 qualitative, 2 no-confidence) across 54 distinct series\n       1 pair(s) compared across 1 multi-threshold series: sba :: 7(a) default rate (2)\n\n  \u2705 CHECK F \u2014 bias tripwire (position-linked confidence behaviour) \u2014 clean.\n       positions: 7 open across 2 prediction(s) (CRL-20, CRL-31)\n       no confidence changed vs the previous commit \u2014 F3/F4 asserted nothing\n\n  CHECK G \u2014 registration-time failure-shape lint\n  SEV   ROW              FINDING\n  --------------------------------------------------------------------------\n  \u26a0\ufe0f  SOFT CRL-13           G3 CONFIDENCE 75% \u226575% with no justification token. The 75-85% band went 0-for-2 ex-ante (Brier audit) \u2014 but note CRL-04 at 98% HIT, which is why this is advisory. Add [LEVEL-CONTINUATION] or [MECHANICAL] to Notes, or cut it. [ADVISORY \u2014 this rule measured ~50% precision on CARL's own resolved record; it fires on hits as often as misses]\n  \u26a0\ufe0f  SOFT CRL-20           G5 NO NUMERIC BAR: prediction states no threshold \u2014 unfalsifiable by vagueness. This is the CRL-07 shape (cut 85\u219240 by the Brier audit). [ADVISORY \u2014 this rule measured ~50% precision on CARL's own resolved record; it fires on hits as often as misses]\n  \u26a0\ufe0f  SOFT CRL-22           G1 CONJUNCTION: two+ thresholds joined by AND. P(A\u2227B) \u2264 min(P(A),P(B)) \u2014 price it as a conjunction or split it. This is the CRL-24 shape (registered at 60%, MISSED). [TIER 1 \u2014 1/1 precision on the resolved record]\n  \u26a0\ufe0f  SOFT CRL-23           G1 CONJUNCTION: two+ thresholds joined by AND. P(A\u2227B) \u2264 min(P(A),P(B)) \u2014 price it as a conjunction or split it. This is the CRL-24 shape (registered at 60%, MISSED). [TIER 1 \u2014 1/1 precision on the resolved record]\n  \u26a0\ufe0f  SOFT CRL-25           G5 NO NUMERIC BAR: prediction states no threshold \u2014 unfalsifiable by vagueness. This is the CRL-07 shape (cut 85\u219240 by the Brier audit). [ADVISORY \u2014 this rule measured ~50% precision on CARL's own resolved record; it fires on hits as often as misses]\n       scanned 12 OPEN predictions \u00b7 0 newly registered \u00b7 5 carrying at least one failure shape\n       tiering (validated on CARL's N=10 resolved record): G1 conjunction 1/1 \u00b7 G2 revision-prone 2/2 = TIER 1, gate on new registrations \u00b7 G3/G4/G5 ~50% = ADVISORY, they do not discriminate\n\n  SUMMARY: 0 hard, 6 soft\n  (soft-only \u2014 no hard drift)\n\n"
+  },
+  "roadmap": {
+    "command": [
+      "python3",
+      "AGENTS/CARL/scripts/roadmap_index.py",
+      "--check"
+    ],
+    "exit_code": 0,
+    "output": "ROADMAP-INDEX \u2713 live index block matches regeneration byte-for-byte (22 thread(s))\n"
+  },
+  "read_cap": {
+    "command": [
+      "python3",
+      "scripts/read_cap_check.py",
+      "--agent",
+      "CARL"
+    ],
+    "exit_code": 0,
+    "output": "READ-CAP [CARL] \u2014 cap 54,250 B \u00b7 budget 32,550 B (60%) \u00b7 ALL % BELOW ARE OF BUDGET (the number every verdict grades; \u2265100% = over) \u00b7 perimeter: 2 boot section(s) in CLAUDE.md, 35 'read' line(s) scanned (4 on-demand/grep + 0 SCOPED-read token(s) excluded by marker; 0 list item(s) inherited the parent line's read verb, L530), 7 whole-read file(s) found; boot.py-internal reads and prose outside the boot section NOT seen (heuristic \u2014 READS.tsv replaces it)\n  \u2705 STATUS.md                            22,897 B    70% of budget    (boot-step line 65 \u00b7 ALSO read whole by NEXUS:6)\n      \u21b3 70\u201375% BAND \u2014 rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 113 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. \u26a0\ufe0f Headroom to the trigger: 1,515 B.\n  \u2705 ROADMAP.md                           19,594 B    60% of budget    (boot-step line 76)\n  \u2705 TEAM.md                              14,454 B    44% of budget    (boot-step line 67)\n  \u2705 SPAWN_PROTOCOL.md                    13,461 B    41% of budget    (boot-step line 67)\n  \u2705 MEMORY.md                            12,602 B    39% of budget    (boot-step line 64)\n  \u2705 SCRATCH.md                            9,988 B    31% of budget    (boot-step line 63)\n  \u2705 workbook/SCHEMA.tsv                   4,211 B    13% of budget    (boot-step line 66)\n\u2705 READ-CAP 0 [CARL]: every boot-mandated read this check found is under budget (7 file(s)). \u26a0\ufe0f PERIMETER IS THE CHARTER HEURISTIC \u2014 this desk has no declaration in PROME/registry/READS.tsv, so this is 'clean within what the scan found', NOT a clean bill. 29 of 37 desks delegate boot to a file it cannot see.\n  \u2139\ufe0f  charter AGENTS/CARL/CLAUDE.md = 48,327 B \u2014 OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here\n  \u2709\ufe0f  OWNER-DIRECTED NOTICE [CARL] (READ_CAP rule 15): 1 file(s) under AGENTS/CARL/ that OTHER desks' declared boot reads load WHOLE \u2014 counted in THOSE readers' perimeters, NOT in this desk's totals or rc. The bytes are this desk's to rotate (rule 4); a breach here is also turning the READER's check red.\n     \u2705 AGENTS/CARL/NEXUS_BRIEF.md            9,702 B    30% of budget  under 75% of budget  \u2190 read whole by NEXUS:6\nREAD-CAP-RESULT v1 mode=agent rc=0 assessed=1 desk=CARL reads=7 over_budget=0 over_cap=0 manifest_defects=0 advisories=0 generated_flagged=0 rotation_due=0 active_decisions_over_budget=0 charter_mode=unspecified charter_reads=0 owner_notices=1 owner_notices_over_budget=0 charter_bytes=48327\n"
+  },
+  "corrections": {
+    "command": [
+      "python3",
+      "scripts/corrections_boot_check.py",
+      "CARL"
+    ],
+    "exit_code": 0,
+    "output": "CORRECTIONS-CHECK 0 OK: 0 unreceipted NAMED rows for CARL (register 107 row(s), 0 ALL-warn, 0 ALL-row(s) past cap unreceipted = broadcast expired, not an obligation; receipts on file: 39) \u2014 PASS covers the register at /home/willi/Research-workspace/AGENTS/WALTER/registry/CORRECTIONS.tsv and this desk's receipts file, nothing else (it does not prove a receipt's action was correct or that the correction was applied)\n"
+  },
+  "orphan": {
+    "command": [
+      "bash",
+      "scripts/orphan_check.sh",
+      "CARL"
+    ],
+    "exit_code": 0,
+    "output": "\u26a0\ufe0f  uncommitted files outside AGENTS/CARL/:\n     [not yours]    AGENTS/CATO/runs/2026-10-26_2115_agent-launcher.md\n     [not yours]    AGENTS/WALTER/registry/BATCH_MANIFEST.tsv\n     [not yours]    AGENTS/WALTER/research/2026-10-27_gmail-processing/\n\n\u2139\ufe0f  The [not yours] entries are someone else's work \u2014 do NOT commit them.\n   Flag to PROME (or Will) rather than sweeping them into your commit.\n"
+  },
+  "weekday": {
+    "command": [
+      "python3",
+      "scripts/claim_check.py",
+      "--check",
+      "weekday",
+      "AGENTS/CARL/STATUS.md",
+      "AGENTS/CARL/docket/CATALYSTS.tsv",
+      "AGENTS/CARL/docket/CALENDAR.md"
+    ],
+    "exit_code": 0,
+    "output": "CLAIM-CHECK \u2713 3 file(s) clean [weekday]\n"
+  },
+  "board": {
+    "command": [
+      ".venv/bin/python3",
+      "AGENTS/CARL/scripts/board_gap.py",
+      "--closeout"
+    ],
+    "exit_code": 0,
+    "output": "BOARD scan run, 0 new since SIG-W-20261027-040, 997 logged\n"
+  },
+  "child_freshness": {
+    "command": [
+      "python3",
+      "scripts/ledger_staleness.py",
+      "CARL",
+      "--quiet"
+    ],
+    "exit_code": 1,
+    "output": "\u26a0\ufe0f  [CARL] 23 stale ledger(s) behind STATUS: COST_DRIVER.tsv (+77d behind), COVERAGE.tsv (+77d behind), ML.tsv (+77d behind), PREDICTIONS.tsv (+77d behind), VX.tsv (+77d behind), DRIVER_ECONOMICS.tsv (+77d behind), FLOW.tsv (+77d behind), ML.tsv (+77d behind), PLATFORM.tsv (+77d behind), PREDICTIONS.tsv (+77d behind), VX.tsv (+77d behind), COCKROACH.tsv (+46d behind, UNATTENDED (attention 46d)), PREDICTIONS.tsv (+46d behind), REGULATORY.tsv (+46d behind, UNATTENDED (attention 46d)), CARRIER.tsv (+77d behind), ML.tsv (+77d behind), PREDICTIONS.tsv (+77d behind), STATE_MARKET.tsv (+77d behind), VX.tsv (+77d behind), CASCADE.tsv (+75d behind, UNATTENDED (attention 78d)), EXPECTED_SIGNALS_TRACKER.md (+52d behind, UNATTENDED (attention 78d)), SERVICER.tsv (+52d behind, UNATTENDED (attention 78d)), TIMELINE.tsv (+52d behind, UNATTENDED (attention 78d))\n  perimeter [CARL]: 52 ledger(s) scanned; 13 TSV(s) NOT scanned by this pass: board/BOARD_LOG.tsv, board/BOARD_STAGING_2026-07-18.tsv, book/PAPER_SLEEVE.tsv, docket/CATALYSTS.tsv (+9 more)\n"
+  },
+  "brief_pin": {
+    "command": [
+      "python3",
+      "scripts/brief_pin_check.py",
+      "CARL"
+    ],
+    "exit_code": 0,
+    "output": "BRIEF-PIN 0 OK: 1 brief(s) checked against amendment 11 (pin-follows-STATUS-HEAD) \u2014 OK-PINNED 1. A PASS proves the pin, never the brief's content; UNPINNED briefs are not A11-checked.\n  \u2705 CARL      OK-PINNED       pin 3b19dcd53 = STATUS HEAD\n"
+  },
+  "observed_at": "2026-10-27T00:11:53.240128-04:00",
+  "late_signal": {
+    "signal": "SIG-W-20261027-040",
+    "disposition": "deferred",
+    "review_date": "2026-10-27",
+    "source_persistence": "sender files uncommitted at observation; not staged by CARL",
+    "source_scope": "Relay stub read; primary source read deferred with research."
+  },
+  "read_cap_band_disposition": "STATUS22,897 B is below the75% trigger. Earlier news rotation reached22,639 B below70% and was completed before the separate audit added substantive findings; no new rotation initiated for this closeout."
+}
