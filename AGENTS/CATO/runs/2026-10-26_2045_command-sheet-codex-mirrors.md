@@ -1,6 +1,10 @@
 # Command sheet: Codex Sol alternatives
 
-**Disposition:** COMPLETE, October 26, 2026, 20:45 ET. Will requested an in-place update to his Downloads Word command sheet. No remaining implementation action; orient and await Will. Existing research approvals and resume points are unchanged.
+**Current disposition:** COMPLETE, October 26, 2026, 20:52 ET. Will subsequently authorized reorganizing the sheet as suggested. The rewritten launch guide is installed, with the complete pre-reorganization sheet preserved in a linked historical archive. No remaining implementation action; orient and await Will. Existing research approvals and resume points are unchanged. Author checks only; visual Word rendering and live agent boots remain unassessed.
+
+## October 26, 20:45 ET — Sol mirrors
+
+Will requested an in-place update to his Downloads Word command sheet. The following records the first delivered version, now preserved in the historical archive.
 
 - Updated `/mnt/c/Users/willi/Downloads/Claude Code Commands Reference.docx`; preserved the original as `Claude Code Commands Reference - before Codex mirrors.docx` in the same folder. The approved installer verified source hashes before replacement and verified both saved files afterwards.
 - Added 58 labeled Sol alternatives covering 50 distinct target folders, including repeated command locations. Commands use `gpt-6.1-sol` and `--dangerously-bypass-approvals-and-sandbox`, as requested in the preceding exchange. Explicit startup prompts load local instructions; CARL child desks keep their nested directories. ARCHITECT and the separate career/fellowship projects retain project-specific startup prompts.
@@ -12,3 +16,13 @@
 - Root orphan advisory surfaced other owners' work, preserved. Weekday check passed after existence/readability verification for `PROME/DOCKET.tsv`, `PROME/GATES.tsv`, and `PROME/WILL_QUEUE.md`; report checked separately before commit. No startup, ledger, memory, or consumer-figure changes occurred, so those conditional checks do not apply. Git delivery receipt is supplied in-session.
 
 Prepared/installed by CATO (author work). Utility scripts and detailed command manifest were temporary under `/tmp`; the edited DOCX and its backup are the durable user artifacts.
+
+## October 26, 20:52 ET — Reorganized launch guide
+
+Will approved the proposed structure: launch reference first; domain groups; CARL specialists together; separate projects; troubleshooting appendix; historical material archived. Installed the rewrite at the original Downloads path. Archive: `Claude Code Commands Reference - historical archive 2026-10-26.docx`, byte-identical to the previous delivered version. The earlier pre-mirror backup remains intact.
+
+- Consolidated the original 50 unique targets into one entry each, plus CATO's existing launcher: 51 entries. Added a clickable contents list with 63 internal links, Word heading styles for navigation, grouped agent cards, shaded command blocks, and page-number footer. Preserved the complete old sheet in the archive instead of dropping historical notes, variants, or assignments.
+- Each ordinary entry has complete Claude and Codex Sol new-session commands. CATO retains `launch.sh`/Astra and its approval policy. Resume examples use verified local CLI flags, separate WALTER/Telegram and CATO cases, and distinguish resuming saved conversations from attaching to a running tmux terminal. Existing Claude tmux wrappers were replaced with direct commands in the main guide; optional tmux instructions are in the appendix. Folder absence for VIRGIL and ZION remains explicit; ZION is a legacy reference, not an inferred active desk. Existing CREED permission condition retained.
+- Author validation: ZIP integrity; all seven XML/relationship parts parse; all internal link destinations exist; one heading per target and exact original unique-target coverage; all 113 command blocks extracted from the final document match the generated commands and pass `bash -n`. Inspected installed `codex resume --help` and the relevant `claude --help` flags; CATO launcher inspected rather than executed. No end-to-end agent launch, Word rendering, or independent acceptance claimed. These checks establish document structure and command syntax, not measured usability gains.
+- Installer checked the original hash before replacement, kept the historical archive, and verified saved document/archive bytes. Final SHA-256: `699bb04284171cacdb8baf2ab8875ba7f053ee9056b4f7e8824ec07dd71fdbb2`. Local Downloads artifacts are not Git publications; only this continuing report is committed. No continuity change is needed because the task is complete and the resume point is unchanged.
+- Repeated root orphan/Git accounting for this new delivery; other owners' work remains untouched. Weekday check inputs: readable `PROME/DOCKET.tsv`, `PROME/GATES.tsv`, `PROME/WILL_QUEUE.md`, and this changed report. No startup, memory, ledger, or consumer-figure edits occurred. Delivery receipt and any shared-push passengers are reported in-session.
