@@ -1,0 +1,24 @@
+# Independent NEXUS HEAVY cold read
+
+Stamped 2026-10-26T23:50:27-04:00. Read-only Codex/OpenAI review, explicitly selected gpt-6.1-sol; session identity /root/coldreader. Repository root and root CLAUDE.md, AGENTS.md, USER.md, COMPLETION_SPEC plus local CLAUDE.md explicitly consulted. No repo edits, Git mutations, research, sends or other helpers.
+
+## Ranked findings
+
+1. MEDIUM — Output Canon readability violation survives the rewrite. LAST_COMPLETION.md lines 7–17, OBLIGATIONS.md throughout, RECORD.md final paragraph, and portions of THRESHOLDS.md/SELF_LETTER_AUDIT.md glue words and figures together. Examples: `Tier2HANS`, `fivecells/L16 fourcells,runs0/0`, `noautomaticrenewal`, `completek0`, `onequalifyingbank`, `RemainingNEXUS:10/27L554/L751`, `oldDOWNdead`, `Bundalternativei-i3.38`. These are new active prose, not immutable source payloads. Root Output Canon explicitly prohibits glued words as byte-budget compression. Fix by inserting ordinary spaces and expanding tokens where necessary; keep archived payload bytes untouched. All caps currently have room, and long-form companions have no need for this compression.
+
+2. LOW/MEDIUM — THRESHOLDS.md `LABOR continuing claims` row loses the existing operator and direction. Source pinned LABOR STATUS (9ce83bd08), row 42: v7 drop needed **<1,750K ×4**, MET on 10/8; run six on 10/22, record-only. Inventory instead gives bare `1.75M gap22K/1.26%` with generic `Owner persistence/rule applies`; STATUS proximity context likewise `CC1.728M vs1.75M`. This can be read as a near upward stress trigger, while the supplied owner test is an already-met downward relief test. Fix with the exact `<1.750M ×4` operator, already-MET/record-only state and no inferred upward re-fire. Preserve numerical distance if useful, labelled distance to historical relief boundary. This does not undermine the seven-market-line literal alert, which stands independently.
+
+3. LOW — CONFIRMED.md C36 successor sentence says `minimum close0.25` after describing 30Y yield branches5.05/5.10. The cited historical source STATUS_COLD.md line240 makes clear **0.25 is Kalshi Sept-hike probability**, exactly25%, not a Treasury close. Fix with `minimum session-close Sept-hike probability25% [8/14], exactly on the strict <25% activation threshold; activation never occurred`. NO-VERDICT and historical date remain unchanged. This is an inherited ambiguity, not a newly discovered wrong grade.
+
+## Verified / material caveats
+
+- STATUS is104 lines/22,160B, below200 lines and22,785B; LAST entire file/current block3,880B; REPORT4,073B, both below6KB. PRED20,531B, CONFIRMED11,655B, MAP19,146B.
+- Exact archive payload validation PASS: STATUS_COLD H24=24,371B, CRC32 44040f42; LAST archive=23,836B, CRC32 3e0ad645. Markers excluded; original newline retained. All three digest reconstructions match original byte counts and SHA256, and all six individual part hashes/bytes match DIGEST_INDEX.
+- INPUTS has67 committed inputs, including30 briefs; every pinned commit blob matches its recorded bytes and SHA256. Dirty owner drafts were not used to counter the reviewed evidence.
+- No double grade found: GRADE_CHECK has zero new cells/log appends; L13 fivecells/runs0/0; L16 fourcells/runs0/0. Earliest possible new completions are correctly cell10 andcell7. M03 78→74 is explicitly historical/applied once across STATUS, PREDL15, CONFIRMED, RECORD and REPORT; ongoing number withdrawn with no successor. M06/M10 remain withdrawn. C35/C36 do not gain a new promotion.
+- Root/class/desk distinction is maintained: nine desks share one repricing evidence class; one established root for the scoped broad-US-break consequence; separate local causes do not automatically receive US-break votes. Seven market proximity lines suffice for the unchanged literal alert, independently of class count. No unsupported systemic-convergence alert found.
+- Source age and instrument limits survive the operator report: US credit cells predate Brazil event; bank-loss census incomplete; private/offshore calls unknown; comparable current oil flow missing; old owner evidence not refreshed by reading. No material overstrong absence claim found in the reviewed current synthesis.
+- Numeric/mechanism distinction retained for M03, L13, L16, M04b/M08b, oil certification and loan-transfer marks. Tuesday publication/rollup, FLG brief, C35 control/T7 disposition/T24 identity, M09/M06 and later letter dates remain hot in STATUS/LAST/PRED/OBLIGATIONS. The archives are preserved history, not the only obligation home.
+- Review assesses files at the observed version. Parent closeout controls, final receipt and later concurrent owner changes remain parent responsibilities; the pending LAST block correctly does not claim completed persistence.
+
+Review CLOSED. Only authorized output is /tmp/nexus-full-coldread.md.

@@ -1,0 +1,614 @@
+{
+  "captured": "2026-10-26T23:45:36-04:00",
+  "inputs": [
+    {
+      "path": "AGENTS/AEOLUS/NEXUS_BRIEF.md",
+      "owner_commit": "9a44b67563368e79557fa995c6068e2ea72300c1",
+      "commit_time": "2026-10-21T22:36:11-04:00",
+      "committed_sha256": "b8a22ff3cb578be5475308101f5fc0a78e08d86670b77e30a8d06edaa616500d",
+      "bytes": 4837,
+      "dirty_at_capture": "",
+      "parent_depth": "whole by assigned digest reader; late docs by parent"
+    },
+    {
+      "path": "AGENTS/BOND/NEXUS_BRIEF.md",
+      "owner_commit": "2e1117ae46c8351306c34f192ca883b98ce9383e",
+      "commit_time": "2026-10-20T14:07:08-04:00",
+      "committed_sha256": "f3fbc491c1ebedf7dc1d8cfcca652dcbdef05812e5e1ff92db4866317d28319c",
+      "bytes": 2689,
+      "dirty_at_capture": "",
+      "parent_depth": "whole by assigned digest reader; late docs by parent"
+    },
+    {
+      "path": "AGENTS/BRENT/NEXUS_BRIEF.md",
+      "owner_commit": "0bf154bbb3b8231c98e9a2ab83d9f9af6583c062",
+      "commit_time": "2026-10-26T19:00:37-04:00",
+      "committed_sha256": "32e5134697fbb4382dfa785a3d81cec2a2424be5f20727e6a1edce091dbf2bf0",
+      "bytes": 24242,
+      "dirty_at_capture": "",
+      "parent_depth": "whole by assigned digest reader; late docs by parent"
+    },
+    {
+      "path": "AGENTS/BROCK/NEXUS_BRIEF.md",
+      "owner_commit": "f38506b0df666d6e1945ac130375d8f4d7b17203",
+      "commit_time": "2026-10-25T17:24:02-04:00",
+      "committed_sha256": "cba09c63bbf3b7198e604965a0b4faa343d6621af396c0743c064bd667e1c2d5",
+      "bytes": 15739,
+      "dirty_at_capture": "",
+      "parent_depth": "whole by assigned digest reader; late docs by parent"
+    },
+    {
+      "path": "AGENTS/CARL/NEXUS_BRIEF.md",
+      "owner_commit": "442c9022d82b179a160a0fcd9f956f6ca1c089ba",
+      "commit_time": "2026-10-26T23:20:44-04:00",
+      "committed_sha256": "5eff6137ef961b551e09bb9579d82d01b7d6e1f963fa4bc75b9c6a38a6b1e257",
+      "bytes": 9334,
+      "dirty_at_capture": "",
+      "parent_depth": "whole by assigned digest reader; late docs by parent"
+    },
+    {
+      "path": "AGENTS/CORAL/NEXUS_BRIEF.md",
+      "owner_commit": "c81370260dce4f9c445c1eda1a5c3271c940933b",
+      "commit_time": "2026-10-21T23:01:24-04:00",
+      "committed_sha256": "1322df954abee5ad13b005b2ba9bb4d5c02b288f47df59a5fd062ff65769f0ae",
+      "bytes": 11897,
+      "dirty_at_capture": "",
+      "parent_depth": "whole by assigned digest reader; late docs by parent"
+    },
+    {
+      "path": "AGENTS/CYPHER/NEXUS_BRIEF.md",
+      "owner_commit": "277ccced2cde92577e89acf00d4cf8f53baaee68",
+      "commit_time": "2026-10-26T23:41:33-04:00",
+      "committed_sha256": "5f9ce8f84979a2518089b9de14791692518b05d5559cbe33b2c868e35ea9a0d0",
+      "bytes": 9257,
+      "dirty_at_capture": "",
+      "parent_depth": "whole by assigned digest reader; late docs by parent"
+    },
+    {
+      "path": "AGENTS/FALCON/NEXUS_BRIEF.md",
+      "owner_commit": "d45d27a477d37a03b95338ba7893fdd3cf00f387",
+      "commit_time": "2026-10-26T17:51:22-04:00",
+      "committed_sha256": "112b65af90fdb1ef85f041236af969edace7c731883d407056df91c9b57770d1",
+      "bytes": 5528,
+      "dirty_at_capture": "",
+      "parent_depth": "whole by assigned digest reader; late docs by parent"
+    },
+    {
+      "path": "AGENTS/GIBBS/NEXUS_BRIEF.md",
+      "owner_commit": "77b40a47fc0b436cd1055ef26bc5db3f4fae383a",
+      "commit_time": "2026-10-23T08:44:57-04:00",
+      "committed_sha256": "ccd82e09b528333e1b2ada9f125c6fb59fbb1e12a0b154d7ecfd8158b7486a73",
+      "bytes": 3605,
+      "dirty_at_capture": "",
+      "parent_depth": "whole by assigned digest reader; late docs by parent"
+    },
+    {
+      "path": "AGENTS/HAWK/NEXUS_BRIEF.md",
+      "owner_commit": "dc2fef1f0bf6f353e5358bd73c50512a26db073d",
+      "commit_time": "2026-10-25T16:03:45-04:00",
+      "committed_sha256": "0b641b5a2c21c5cac7ae0891664b80eb3cad8130c6789afe5640f46f846da890",
+      "bytes": 4349,
+      "dirty_at_capture": "",
+      "parent_depth": "whole by assigned digest reader; late docs by parent"
+    },
+    {
+      "path": "AGENTS/HENRY/NEXUS_BRIEF.md",
+      "owner_commit": "89639c89d355e75aa3c0055e4dfa340a19330828",
+      "commit_time": "2026-10-22T19:39:33-04:00",
+      "committed_sha256": "2590bd27dbffe42628c0056c840ceabff3b4f9a2269c3198a20eda84f837c39b",
+      "bytes": 2171,
+      "dirty_at_capture": "",
+      "parent_depth": "whole by assigned digest reader; late docs by parent"
+    },
+    {
+      "path": "AGENTS/HOMER/NEXUS_BRIEF.md",
+      "owner_commit": "454435973e43a4c6936b9210939d2d05e8d8d49b",
+      "commit_time": "2026-10-19T13:24:17-04:00",
+      "committed_sha256": "744e2a7bde1f988af8380e74db69f622a2ab863bb9ef2a4eab031483d4d164aa",
+      "bytes": 13447,
+      "dirty_at_capture": "",
+      "parent_depth": "whole by assigned digest reader; late docs by parent"
+    },
+    {
+      "path": "AGENTS/ISHM/NEXUS_BRIEF.md",
+      "owner_commit": "2bd172b13c37dd709ea9010ca7bfd2c448384b67",
+      "commit_time": "2026-10-26T23:41:51-04:00",
+      "committed_sha256": "44ec3fcce47ce0ffc2f6f727a50f3fe218e654e152c01d3dd634e09ca469f3db",
+      "bytes": 10070,
+      "dirty_at_capture": "",
+      "parent_depth": "whole by assigned digest reader; late docs by parent"
+    },
+    {
+      "path": "AGENTS/LABOR/NEXUS_BRIEF.md",
+      "owner_commit": "5c8d84a90b33ed5e5255aece77deb605e1acaae7",
+      "commit_time": "2026-10-22T09:55:03-04:00",
+      "committed_sha256": "c80e9f8d0aada579e5d90406208ad30fc7eace1a48a6884decccb18cae8878b9",
+      "bytes": 17448,
+      "dirty_at_capture": "",
+      "parent_depth": "whole by assigned digest reader; late docs by parent"
+    },
+    {
+      "path": "AGENTS/LIQUID/NEXUS_BRIEF.md",
+      "owner_commit": "f6ebff204b799c33918a16e182a361cb7d88fb16",
+      "commit_time": "2026-10-26T19:48:11-04:00",
+      "committed_sha256": "2c1225f2e762baa5f39eab45edfa53d6e8ac94f91ee15ad3655c310117036d37",
+      "bytes": 17267,
+      "dirty_at_capture": "",
+      "parent_depth": "whole by assigned digest reader; late docs by parent"
+    },
+    {
+      "path": "AGENTS/MARCO/NEXUS_BRIEF.md",
+      "owner_commit": "12870a75b970ac7ac44eb0082fce4df1c3343f39",
+      "commit_time": "2026-10-25T23:37:37-04:00",
+      "committed_sha256": "6d5fc42b11c439ed9bd6818b0f0ef733873ede677ebfd9118ff20d993876a129",
+      "bytes": 13687,
+      "dirty_at_capture": "",
+      "parent_depth": "whole by assigned digest reader; late docs by parent"
+    },
+    {
+      "path": "AGENTS/MIDAS/NEXUS_BRIEF.md",
+      "owner_commit": "e96c5971b4f8cce81e5e7e7dddec087e7aac61df",
+      "commit_time": "2026-10-26T23:44:52-04:00",
+      "committed_sha256": "721c8e29e2f7de4f3b94530463aa1e2a2dd3ffb16b4fde4298fbaf19de6971d2",
+      "bytes": 11663,
+      "dirty_at_capture": "",
+      "parent_depth": "whole by assigned digest reader; late docs by parent"
+    },
+    {
+      "path": "AGENTS/ORACLE/NEXUS_BRIEF.md",
+      "owner_commit": "fc881e9ba09450b7091aad6d00e5d130a2b5196c",
+      "commit_time": "2026-10-21T22:29:57-04:00",
+      "committed_sha256": "0a031fb0854eae59afb4fa2af1e633715a40a8ddb490c9d22129869f1f275602",
+      "bytes": 4059,
+      "dirty_at_capture": "",
+      "parent_depth": "whole by assigned digest reader; late docs by parent"
+    },
+    {
+      "path": "AGENTS/OSPREY/NEXUS_BRIEF.md",
+      "owner_commit": "3bac20f15960ae389bf17da3910cb2b53cc9baa4",
+      "commit_time": "2026-10-23T01:09:15-04:00",
+      "committed_sha256": "1997f144693bf83272d96d429c2534ec18162de22bfdc25f9ba589b44f975a5a",
+      "bytes": 21495,
+      "dirty_at_capture": "",
+      "parent_depth": "whole by assigned digest reader; late docs by parent"
+    },
+    {
+      "path": "AGENTS/OTTO/NEXUS_BRIEF.md",
+      "owner_commit": "767673fd6ef9649c1756d5ff2464ba2e336b78b1",
+      "commit_time": "2026-10-25T23:34:00-04:00",
+      "committed_sha256": "86ddaffefc2fef2ce5d22a8dc199e8f9688051c1d659dd8406f8b4d244175f63",
+      "bytes": 13530,
+      "dirty_at_capture": "",
+      "parent_depth": "whole by assigned digest reader; late docs by parent"
+    },
+    {
+      "path": "AGENTS/RED/NEXUS_BRIEF.md",
+      "owner_commit": "3a90bd9a57ec0558035a18f7265eac677ec18f44",
+      "commit_time": "2026-10-22T11:36:00-04:00",
+      "committed_sha256": "e1fd0419407b512e25d12b79662bc819d9cc842145049fe4a5cec8f59831e140",
+      "bytes": 12054,
+      "dirty_at_capture": "",
+      "parent_depth": "whole by assigned digest reader; late docs by parent"
+    },
+    {
+      "path": "AGENTS/REGINALD/NEXUS_BRIEF.md",
+      "owner_commit": "9f02404858541b10246d5b8c4ab437c4154b7755",
+      "commit_time": "2026-10-23T17:12:45-04:00",
+      "committed_sha256": "3083fb52d70c2892497ab13f82a9c8ed9ac313c322f9818ba7e07e68b472de8a",
+      "bytes": 18221,
+      "dirty_at_capture": "",
+      "parent_depth": "whole by assigned digest reader; late docs by parent"
+    },
+    {
+      "path": "AGENTS/SAM/NEXUS_BRIEF.md",
+      "owner_commit": "b613efeef280b8c220350722c06d88b5ae182d64",
+      "commit_time": "2026-10-20T15:22:17-04:00",
+      "committed_sha256": "6fc7278a361828e0de6b3adcef1c37636ed15318d3eb2f15315a5d6c80f6be32",
+      "bytes": 5753,
+      "dirty_at_capture": "",
+      "parent_depth": "whole by assigned digest reader; late docs by parent"
+    },
+    {
+      "path": "AGENTS/SHADE/NEXUS_BRIEF.md",
+      "owner_commit": "07531f3416978421219f248643295f6fc14a4310",
+      "commit_time": "2026-10-21T22:17:28-04:00",
+      "committed_sha256": "6e31b03f4536c695bdcbb15bad1d1c35b6d46ad797f90c8caf79ece1c24f0c92",
+      "bytes": 8069,
+      "dirty_at_capture": "",
+      "parent_depth": "whole by assigned digest reader; late docs by parent"
+    },
+    {
+      "path": "AGENTS/VIOLET/NEXUS_BRIEF.md",
+      "owner_commit": "ab213a6497d3d0711e606a2f599dede6eb8413e7",
+      "commit_time": "2026-10-21T22:16:19-04:00",
+      "committed_sha256": "3fbc60ea72deabe30c46198db9e98717cc36a238494b2e707f4cab54a8dedc4d",
+      "bytes": 3451,
+      "dirty_at_capture": "",
+      "parent_depth": "whole by assigned digest reader; late docs by parent"
+    },
+    {
+      "path": "AGENTS/VULCAN/NEXUS_BRIEF.md",
+      "owner_commit": "cb76e23e0e6700e464f136dc555e104b5b57fccb",
+      "commit_time": "2026-10-26T23:40:42-04:00",
+      "committed_sha256": "d48579c1b266a35559277e0e5dbd60fa87059edaf61cd70bbfe07aed9d413399",
+      "bytes": 11036,
+      "dirty_at_capture": "",
+      "parent_depth": "whole by assigned digest reader; late docs by parent"
+    },
+    {
+      "path": "AGENTS/WAL/NEXUS_BRIEF.md",
+      "owner_commit": "7e7d852eaeb14b7f32f3d355e5621789ed61c748",
+      "commit_time": "2026-10-22T12:31:03-04:00",
+      "committed_sha256": "213f481916f3edcb1eccff5f057b8822cfd801ff526495d0d116e76b6f3a4152",
+      "bytes": 4628,
+      "dirty_at_capture": "",
+      "parent_depth": "whole by assigned digest reader; late docs by parent"
+    },
+    {
+      "path": "AGENTS/WATT/NEXUS_BRIEF.md",
+      "owner_commit": "df2ba78c0e78d003c50c77f5be2e9e3efdbbf659",
+      "commit_time": "2026-10-23T01:06:18-04:00",
+      "committed_sha256": "b1312678bffabf5d73317151bb5590232ba001f56b365af9712983652cff4c95",
+      "bytes": 8315,
+      "dirty_at_capture": "",
+      "parent_depth": "whole by assigned digest reader; late docs by parent"
+    },
+    {
+      "path": "AGENTS/YURI/NEXUS_BRIEF.md",
+      "owner_commit": "942f5fbe33a36f78ca0b5135fc616d4122fe4b8c",
+      "commit_time": "2026-10-21T22:55:01-04:00",
+      "committed_sha256": "2eef6b4c797284e4619167788acd6341c15cfa36d95c6a1880db7aee4ae770a8",
+      "bytes": 12017,
+      "dirty_at_capture": "",
+      "parent_depth": "whole by assigned digest reader; late docs by parent"
+    },
+    {
+      "path": "AGENTS/ZHAO/NEXUS_BRIEF.md",
+      "owner_commit": "a0e0c7fb8e0ff6083747c77d046d245ed5bbaace",
+      "commit_time": "2026-10-22T13:35:57-04:00",
+      "committed_sha256": "238ecb740de53acf43569318105c4ef1c4e59519011e5ed82f4d4d71abac51bb",
+      "bytes": 22585,
+      "dirty_at_capture": "",
+      "parent_depth": "whole by assigned digest reader; late docs by parent"
+    },
+    {
+      "path": "AGENTS/AEOLUS/STATUS.md",
+      "owner_commit": "9a44b67563368e79557fa995c6068e2ea72300c1",
+      "commit_time": "2026-10-21T22:36:11-04:00",
+      "committed_sha256": "7ffcac51d699b6d85af9cbe4f1be99f5e415df6ced7bc60cb9137552a81ea0d5",
+      "bytes": 23185,
+      "dirty_at_capture": "",
+      "parent_depth": "scoped load-bearing owner sections; complete HANS active Tier2"
+    },
+    {
+      "path": "AGENTS/BOND/STATUS.md",
+      "owner_commit": "45f4bcd09d88a0144ff09f09d97dc479235e036f",
+      "commit_time": "2026-10-20T15:16:54-04:00",
+      "committed_sha256": "ae19857a4c1877138b054822b68c6ebf2e0bfdaace4d7e8e5a603b5387be8646",
+      "bytes": 10657,
+      "dirty_at_capture": "",
+      "parent_depth": "scoped load-bearing owner sections; complete HANS active Tier2"
+    },
+    {
+      "path": "AGENTS/BRENT/STATUS.md",
+      "owner_commit": "442ec6f3784cebd83531a5a0b527b52664b4bbc9",
+      "commit_time": "2026-10-26T19:00:20-04:00",
+      "committed_sha256": "35b76b27bb8098544bd85b4583b8db1747dac6570f7b9d69f2987a6bf0de845c",
+      "bytes": 22777,
+      "dirty_at_capture": "",
+      "parent_depth": "scoped load-bearing owner sections; complete HANS active Tier2"
+    },
+    {
+      "path": "AGENTS/BROCK/STATUS.md",
+      "owner_commit": "84e7a03c1290751df4941f09b3e9d33028fe6a58",
+      "commit_time": "2026-10-25T16:57:53-04:00",
+      "committed_sha256": "d66508dd9072bb1880bd35982c8d3d786c3e1b490377225b165efc1aee383ef4",
+      "bytes": 22622,
+      "dirty_at_capture": "",
+      "parent_depth": "scoped load-bearing owner sections; complete HANS active Tier2"
+    },
+    {
+      "path": "AGENTS/CARL/STATUS.md",
+      "owner_commit": "9bb25c528a5c5e7bf1ff245080193571a9cb4413",
+      "commit_time": "2026-10-26T23:20:00-04:00",
+      "committed_sha256": "ee17154f1fcf75e81013957faccd83a495fe1327c7aa54a5ace75161e414c946",
+      "bytes": 22639,
+      "dirty_at_capture": "",
+      "parent_depth": "scoped load-bearing owner sections; complete HANS active Tier2"
+    },
+    {
+      "path": "AGENTS/CORAL/STATUS.md",
+      "owner_commit": "fab5ea780435eb083f86373b7f4368f11f5c39dc",
+      "commit_time": "2026-10-21T23:03:02-04:00",
+      "committed_sha256": "9df8e83da0caede9c129e492f50fe1cf2e1e79f1a7605089c23dc3a1c5ea268d",
+      "bytes": 28250,
+      "dirty_at_capture": "",
+      "parent_depth": "scoped load-bearing owner sections; complete HANS active Tier2"
+    },
+    {
+      "path": "AGENTS/CREED/STATUS.md",
+      "owner_commit": "e328b2559895466b933f220a1267de4426072372",
+      "commit_time": "2026-10-22T17:54:15-04:00",
+      "committed_sha256": "0b0bca7b18d32a4e71d45d0b6b60bded5979bddbe947a322bdee836fc596620b",
+      "bytes": 22279,
+      "dirty_at_capture": "",
+      "parent_depth": "scoped load-bearing owner sections; complete HANS active Tier2"
+    },
+    {
+      "path": "AGENTS/CRUISE/STATUS.md",
+      "owner_commit": "2c9263802f8141a80d997551be6d0211c1497b7d",
+      "commit_time": "2026-10-25T23:46:23-04:00",
+      "committed_sha256": "866e9ba2a0f7d4d127df97476a0d962eef5e21acf388d0d44b006ad00e928268",
+      "bytes": 20373,
+      "dirty_at_capture": "",
+      "parent_depth": "scoped load-bearing owner sections; complete HANS active Tier2"
+    },
+    {
+      "path": "AGENTS/CYPHER/STATUS.md",
+      "owner_commit": "645c63501a181be50a330d60cf4902a031b0de4a",
+      "commit_time": "2026-10-26T23:41:04-04:00",
+      "committed_sha256": "472ca643e6cf9c9491bf66bbc81f13042e534f8ce87c82a41d7c9cf2f0337c3a",
+      "bytes": 24064,
+      "dirty_at_capture": "",
+      "parent_depth": "scoped load-bearing owner sections; complete HANS active Tier2"
+    },
+    {
+      "path": "AGENTS/FALCON/STATUS.md",
+      "owner_commit": "c7db415a0557858a58852acc5a19daa65073608d",
+      "commit_time": "2026-10-26T17:50:51-04:00",
+      "committed_sha256": "e99f534ec2c680c005991b502d70c8abb5b3a80801e3d2c0756f407bd91735a8",
+      "bytes": 10316,
+      "dirty_at_capture": "",
+      "parent_depth": "scoped load-bearing owner sections; complete HANS active Tier2"
+    },
+    {
+      "path": "AGENTS/FERT/STATUS.md",
+      "owner_commit": "0ab3db312968c2cf44e871d01f6561a6cebaeb3f",
+      "commit_time": "2026-10-26T23:44:33-04:00",
+      "committed_sha256": "e80d3afab6231ad9762d117f1cdb72897b1f79d3d18443f4977492d4517a3a15",
+      "bytes": 22523,
+      "dirty_at_capture": "",
+      "parent_depth": "scoped load-bearing owner sections; complete HANS active Tier2"
+    },
+    {
+      "path": "AGENTS/FLG/STATUS.md",
+      "owner_commit": "8e0f96cae613c2e49a93bf114742988c4262ee5c",
+      "commit_time": "2026-10-23T08:44:25-04:00",
+      "committed_sha256": "1cd7951c2093a27f6842521d2d9296ff1043665c3aa00a45be79886dbe5397ca",
+      "bytes": 19709,
+      "dirty_at_capture": "",
+      "parent_depth": "scoped load-bearing owner sections; complete HANS active Tier2"
+    },
+    {
+      "path": "AGENTS/GIBBS/STATUS.md",
+      "owner_commit": "6d1d9df514de125a94737a66570351e53b370d3f",
+      "commit_time": "2026-10-23T08:44:50-04:00",
+      "committed_sha256": "643f6a35e72183120240858298d40957b73f5a03dee633369c883c7012b25799",
+      "bytes": 6167,
+      "dirty_at_capture": "",
+      "parent_depth": "scoped load-bearing owner sections; complete HANS active Tier2"
+    },
+    {
+      "path": "AGENTS/HANS/STATUS.md",
+      "owner_commit": "ff21bfa0133d3d3c293dc97bb52e478d9ea4efc0",
+      "commit_time": "2026-10-22T22:34:46-04:00",
+      "committed_sha256": "bf4f4233a416d1b7357c2c7e7e8d7d06ff14ed39e639d5f78b76f20ee7aafe9f",
+      "bytes": 22125,
+      "dirty_at_capture": "",
+      "parent_depth": "scoped load-bearing owner sections; complete HANS active Tier2"
+    },
+    {
+      "path": "AGENTS/HAWK/STATUS.md",
+      "owner_commit": "3841fe06cdf51097c872b11e9a2c0cd46202d055",
+      "commit_time": "2026-10-25T15:46:50-04:00",
+      "committed_sha256": "83faa5ae573d2bf320a4ca647968f14cb6562908e9d8d1ab11b984047f3a6f79",
+      "bytes": 9281,
+      "dirty_at_capture": "",
+      "parent_depth": "scoped load-bearing owner sections; complete HANS active Tier2"
+    },
+    {
+      "path": "AGENTS/HENRY/STATUS.md",
+      "owner_commit": "89639c89d355e75aa3c0055e4dfa340a19330828",
+      "commit_time": "2026-10-22T19:39:33-04:00",
+      "committed_sha256": "cc87af7b9fc3ef29df69ce7faa6210cca29fc55b794a67087f3084f09e634063",
+      "bytes": 14165,
+      "dirty_at_capture": "",
+      "parent_depth": "scoped load-bearing owner sections; complete HANS active Tier2"
+    },
+    {
+      "path": "AGENTS/HOMER/STATUS.md",
+      "owner_commit": "454435973e43a4c6936b9210939d2d05e8d8d49b",
+      "commit_time": "2026-10-19T13:24:17-04:00",
+      "committed_sha256": "483233a4dd5e1f2ad46d6fbd892b35e1c85edcfe2d988295a06d802692b025f4",
+      "bytes": 22157,
+      "dirty_at_capture": "",
+      "parent_depth": "scoped load-bearing owner sections; complete HANS active Tier2"
+    },
+    {
+      "path": "AGENTS/ISHM/STATUS.md",
+      "owner_commit": "0dbba244d11634da886bdd8327f884c4e7e85c7e",
+      "commit_time": "2026-10-26T23:34:57-04:00",
+      "committed_sha256": "a6328abb227ad659aee145e2233f3ea5e6ac1f6ca83aef29f65be71b3027e9ed",
+      "bytes": 11561,
+      "dirty_at_capture": "",
+      "parent_depth": "scoped load-bearing owner sections; complete HANS active Tier2"
+    },
+    {
+      "path": "AGENTS/LABOR/STATUS.md",
+      "owner_commit": "9ce83bd085d2b5833c41e8d84cc8d007aa5a0d68",
+      "commit_time": "2026-10-22T09:54:19-04:00",
+      "committed_sha256": "47429fc3a9c5c6460010bd64bd70f2df71c738533e90237c82f18585b583924d",
+      "bytes": 21869,
+      "dirty_at_capture": "",
+      "parent_depth": "scoped load-bearing owner sections; complete HANS active Tier2"
+    },
+    {
+      "path": "AGENTS/LIQUID/STATUS.md",
+      "owner_commit": "16cb439012416dbee127086eea8165ecda5c8ea7",
+      "commit_time": "2026-10-26T19:47:55-04:00",
+      "committed_sha256": "51ae70203a63dc29bb46d7439a652322b04a76cd07f768684a01b6cd9234715e",
+      "bytes": 24317,
+      "dirty_at_capture": "",
+      "parent_depth": "scoped load-bearing owner sections; complete HANS active Tier2"
+    },
+    {
+      "path": "AGENTS/MARCO/STATUS.md",
+      "owner_commit": "f63a97bbe7eb12e49f7a3a57cb0329ddbfad7a7c",
+      "commit_time": "2026-10-25T23:34:07-04:00",
+      "committed_sha256": "f865ec50523573775a3f87d3058a00a1fd4fd2de817da0121d2fd7a344d08db7",
+      "bytes": 23742,
+      "dirty_at_capture": "",
+      "parent_depth": "scoped load-bearing owner sections; complete HANS active Tier2"
+    },
+    {
+      "path": "AGENTS/MIDAS/STATUS.md",
+      "owner_commit": "e96c5971b4f8cce81e5e7e7dddec087e7aac61df",
+      "commit_time": "2026-10-26T23:44:52-04:00",
+      "committed_sha256": "c2e6f00690a43b84eb00733037a6004ac2ce9f2a91aac457aabb574a3774ef9d",
+      "bytes": 20791,
+      "dirty_at_capture": "",
+      "parent_depth": "scoped load-bearing owner sections; complete HANS active Tier2"
+    },
+    {
+      "path": "AGENTS/ORACLE/STATUS.md",
+      "owner_commit": "fc881e9ba09450b7091aad6d00e5d130a2b5196c",
+      "commit_time": "2026-10-21T22:29:57-04:00",
+      "committed_sha256": "76c4bf268e6548062fb9683a6bad7662d0220d297b6bfd16b8183b35dadbedc5",
+      "bytes": 22323,
+      "dirty_at_capture": "",
+      "parent_depth": "scoped load-bearing owner sections; complete HANS active Tier2"
+    },
+    {
+      "path": "AGENTS/OSPREY/STATUS.md",
+      "owner_commit": "3bac20f15960ae389bf17da3910cb2b53cc9baa4",
+      "commit_time": "2026-10-23T01:09:15-04:00",
+      "committed_sha256": "7d1e4ea8408be0f56676b5149cacdd53831ef68d41d4d569a0f73308934281be",
+      "bytes": 30912,
+      "dirty_at_capture": "",
+      "parent_depth": "scoped load-bearing owner sections; complete HANS active Tier2"
+    },
+    {
+      "path": "AGENTS/OTTO/STATUS.md",
+      "owner_commit": "63cb6063e9130d8d870d86e61d5a18aee02963a6",
+      "commit_time": "2026-10-25T23:16:05-04:00",
+      "committed_sha256": "1d15102e901b93c3c8d00cf844306e80de1a1b5e356b37d3089b612e43c0de5f",
+      "bytes": 23681,
+      "dirty_at_capture": "",
+      "parent_depth": "scoped load-bearing owner sections; complete HANS active Tier2"
+    },
+    {
+      "path": "AGENTS/OZK/STATUS.md",
+      "owner_commit": "957d4bcebb639fb31482302f34b71849db99a752",
+      "commit_time": "2026-10-22T14:12:30-04:00",
+      "committed_sha256": "1bf1fedb3f4e40033c27d955f4fbd641a50ea7a839309a9bdf82ec93074e8980",
+      "bytes": 19550,
+      "dirty_at_capture": "",
+      "parent_depth": "scoped load-bearing owner sections; complete HANS active Tier2"
+    },
+    {
+      "path": "AGENTS/RED/STATUS.md",
+      "owner_commit": "3a90bd9a57ec0558035a18f7265eac677ec18f44",
+      "commit_time": "2026-10-22T11:36:00-04:00",
+      "committed_sha256": "9b14a603c8e1cdda089bdb293415067997f6a4ae280b38858b52dfef803bc3fa",
+      "bytes": 19027,
+      "dirty_at_capture": "",
+      "parent_depth": "scoped load-bearing owner sections; complete HANS active Tier2"
+    },
+    {
+      "path": "AGENTS/REGINALD/STATUS.md",
+      "owner_commit": "8452f2af7b08b8204e06793c675da08ac58d2f6b",
+      "commit_time": "2026-10-23T17:02:35-04:00",
+      "committed_sha256": "24467fe44bc5a62647ea7361913ac523e4cc65ac134cd266e4a6a5d73a45b200",
+      "bytes": 25569,
+      "dirty_at_capture": "",
+      "parent_depth": "scoped load-bearing owner sections; complete HANS active Tier2"
+    },
+    {
+      "path": "AGENTS/SAM/STATUS.md",
+      "owner_commit": "0055442a8bb10b071db331d0b063a22d6b35195e",
+      "commit_time": "2026-10-20T15:22:11-04:00",
+      "committed_sha256": "ebf6a313929d687a18799e1a3d689cc89cab549a5f6c068bbc20bedf9b1841ed",
+      "bytes": 16145,
+      "dirty_at_capture": "",
+      "parent_depth": "scoped load-bearing owner sections; complete HANS active Tier2"
+    },
+    {
+      "path": "AGENTS/SHADE/STATUS.md",
+      "owner_commit": "07531f3416978421219f248643295f6fc14a4310",
+      "commit_time": "2026-10-21T22:17:28-04:00",
+      "committed_sha256": "5b5f56ae068e77f05a9322737fd0779d1366828c7f23ae58f02a74bf92470ebf",
+      "bytes": 22642,
+      "dirty_at_capture": "",
+      "parent_depth": "scoped load-bearing owner sections; complete HANS active Tier2"
+    },
+    {
+      "path": "AGENTS/TERRY/STATUS.md",
+      "owner_commit": "0c29eacacad1dd8391cb6d3a715afae4f3d7af25",
+      "commit_time": "2026-10-25T13:29:28-04:00",
+      "committed_sha256": "0f808b1b4dfc98fe45b72b39864d6a156b7136301c695af5f131f18f7734e573",
+      "bytes": 24232,
+      "dirty_at_capture": "",
+      "parent_depth": "scoped load-bearing owner sections; complete HANS active Tier2"
+    },
+    {
+      "path": "AGENTS/VIOLET/STATUS.md",
+      "owner_commit": "ab213a6497d3d0711e606a2f599dede6eb8413e7",
+      "commit_time": "2026-10-21T22:16:19-04:00",
+      "committed_sha256": "36c5f56a0b2bcdbe282e138973b96f28968d4eb78e9daac924cdbb7e3ad3c6dc",
+      "bytes": 9701,
+      "dirty_at_capture": "",
+      "parent_depth": "scoped load-bearing owner sections; complete HANS active Tier2"
+    },
+    {
+      "path": "AGENTS/VULCAN/STATUS.md",
+      "owner_commit": "00f36db08ad1f4a1bead89c14927a67a0bffc35c",
+      "commit_time": "2026-10-26T23:39:47-04:00",
+      "committed_sha256": "760ea5e00db3003e71cfbf6c607147363f511684cba529d370a56544065b0f67",
+      "bytes": 23807,
+      "dirty_at_capture": "",
+      "parent_depth": "scoped load-bearing owner sections; complete HANS active Tier2"
+    },
+    {
+      "path": "AGENTS/WAL/STATUS.md",
+      "owner_commit": "1d4d4210adbcdfbea6a3d3c363d80e0fa36415dc",
+      "commit_time": "2026-10-22T12:30:54-04:00",
+      "committed_sha256": "59f568d37e228f1288c1cc67ea475134794955aabe14cb191557c1abc0ddaca9",
+      "bytes": 14961,
+      "dirty_at_capture": "",
+      "parent_depth": "scoped load-bearing owner sections; complete HANS active Tier2"
+    },
+    {
+      "path": "AGENTS/WATT/STATUS.md",
+      "owner_commit": "96a6c8a1287724e3c998800db77da6788aad169a",
+      "commit_time": "2026-10-23T01:05:56-04:00",
+      "committed_sha256": "c5e8b28003702361c3e66b0bc85f46851f07375f9e5fe7f25081464f33234d63",
+      "bytes": 16113,
+      "dirty_at_capture": "",
+      "parent_depth": "scoped load-bearing owner sections; complete HANS active Tier2"
+    },
+    {
+      "path": "AGENTS/YURI/STATUS.md",
+      "owner_commit": "942f5fbe33a36f78ca0b5135fc616d4122fe4b8c",
+      "commit_time": "2026-10-21T22:55:01-04:00",
+      "committed_sha256": "db7aea4e9a0f28ccd31163f14ee8617d048b6abd6ee14dcb3cd2fe33738a0a62",
+      "bytes": 19153,
+      "dirty_at_capture": "",
+      "parent_depth": "scoped load-bearing owner sections; complete HANS active Tier2"
+    },
+    {
+      "path": "AGENTS/ZHAO/STATUS.md",
+      "owner_commit": "a0e0c7fb8e0ff6083747c77d046d245ed5bbaace",
+      "commit_time": "2026-10-22T13:35:57-04:00",
+      "committed_sha256": "6bdc4e2171fa339a8e0cadd785f8f9a7f4164790cdb076a0fc46735506d94d64",
+      "bytes": 22775,
+      "dirty_at_capture": "",
+      "parent_depth": "scoped load-bearing owner sections; complete HANS active Tier2"
+    }
+  ],
+  "reader_snapshot": "ab1893453736c051596507b43a6ba2197f4930d6",
+  "late_parent_consume": [
+    "CYPHER final brief277ccced2/STATUS645c63501: documentation,1/8 and22/16unchanged",
+    "ISHM0dbba244d: documentation/filing only,48prints/cycle unchanged",
+    "VULCAN00f36db08: actual security pretraining delay, distinctness unknown,no contract change/no new fire"
+  ]
+}

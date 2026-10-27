@@ -86,3 +86,19 @@ date	agent	cause	note
 2026-10-23	LIQUID	stale	UNPINNED, brief b20fb4fa9 before STATUS HEAD c121a9eec (10/22 19:41 ET); raw STATUS read for the 10/22 gate grades (076 W2 first fire, >320 run 6 VERIFIED, H.4.1 primary credit 9.169B); 6th consecutive pass with the brief behind STATUS.
 2026-10-23	BROCK	stale	STALE-PIN 5 STATUS commits behind (brief 10/15, STATUS 10/23 17:05); raw STATUS read for the CRMT 8th bridge (STD 11/01), BRK-31 5-of-11 and WQ-511 BDC table; brief forward table mostly past.
 2026-10-23	BOND	stale	UNPINNED (A10 fallback: brief 2e1117ae4 before STATUS HEAD 45f4bcd09); brief and STATUS both 10/20 while DGS10 fell 17bp on 10/22 (M-03 DOWN cell 1 of 2 read at FRED myself); desk dark since 10/20, not a brief defect.
+2026-10-26	DIGEST	digest	Full fleet review: 3 independent fresh-context gpt-6.1-sol readers, Will explicitly selected;30 whole briefs including HAWK. DIGEST_INDEX.json source returns; final pins16/11/3unpin, literal17A7B6C. Stale owner dates BOND/HENRY/SAM/HOMER/ORACLE/VIOLET/YURI/SHADE/AEOLUS; no brief over budget.
+2026-10-26	BOND	uncertainty	Full fleet review: REGINALD names rates attribution uncertainty; direct owner STATUS read, ACM does not cover10/22–23; current data absent, not pin defect.
+2026-10-26	HENRY	uncertainty	Full fleet review: REGINALD rates/credit uncertainty; direct owner gamma/market STATUS read; no10/23/26gamma or ACM grade.
+2026-10-26	BRENT	uncertainty	Full fleet review: HAWK names physical loss/premium uncertainty; direct current owner throughput/official-settlement qualification read.
+2026-10-26	VIOLET	stale	Full fleet review: Owner/brief10/21; past10/22official close has no supplied return. Raw owner read does not refresh data.
+2026-10-26	ORACLE	stale	Full fleet review: Daily cadence missed; owner10/21and brief same-commit; old odds remain dated, no independent odds acquired.
+2026-10-26	SAM	stale	Full fleet review: Owner10/20; OIS age expired10/24and past events not shown; raw read, not new carry grade.
+2026-10-26	YURI	stale	Full fleet review: Owner10/21; past10/23/24checks not returned; raw actor terms read, no early outcome.
+2026-10-26	SHADE	stale	Full fleet review: Owner10/21and past10/23resolver unshown; raw current rails read; no cohort-loss absence inferred.
+2026-10-26	HOMER	stale	Full fleet review: Owner10/19and elapsed catalysts; raw live housing source sections read, no implicit current refresh.
+2026-10-26	FLG	stale	Full fleet review: Brief absent; WQ520L838due10/27. Raw load-bearing Q3 owner evidence, no writing launch.
+2026-10-26	FERT	stale	Full fleet review: No brief duty; raw L758/current G5/domain-audit evidence; structural absence, not quality defect.
+2026-10-26	CRUISE	stale	Full fleet review: Brief-less live specialist; raw owner10/25ports/cash-access correction, no new grade.
+2026-10-26	OZK	stale	Full fleet review: Brief-less specialist; raw LOW/Q3 owner evidence, no broad-bank-loss inference.
+2026-10-26	CREED	stale	Full fleet review: Brief-less live context; existing10/22HY-to-CRE owner report read, no owner launch.
+2026-10-26	HANS	stale	Full fleet review: Active Tier2 without brief; whole10/22STATUS read including France/funding gap; past Moody/storage grades unshown, not quiet.

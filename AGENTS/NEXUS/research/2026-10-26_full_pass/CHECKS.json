@@ -1,0 +1,60 @@
+{
+  "read_cap": {
+    "rc": 0,
+    "file": "READ_CAP_CHECK.txt"
+  },
+  "corrections": {
+    "rc": 0,
+    "file": "CORRECTIONS_CHECK.txt"
+  },
+  "weekday": {
+    "rc": 0,
+    "file": "WEEKDAY_CHECK.txt"
+  },
+  "whitespace": {
+    "rc": 0,
+    "file": "WHITESPACE_CHECK.txt"
+  },
+  "orphan": {
+    "rc": 0,
+    "file": "ORPHAN_CHECK.txt"
+  },
+  "pin": {
+    "rc": 0,
+    "file": "PIN_CHECK.txt"
+  },
+  "crc": {
+    "passed": true,
+    "status_crc": "44040f42",
+    "last_crc": "3e0ad645"
+  },
+  "caps": {
+    "STATUS.md": {
+      "bytes": 22587,
+      "lines": 106
+    },
+    "LAST_COMPLETION.md": {
+      "bytes": 3898,
+      "lines": 19
+    },
+    "REPORT.md": {
+      "bytes": 4321,
+      "lines": 20
+    }
+  },
+  "residue": {
+    "patterns": [
+      "74% post-fire mark",
+      "CYPHER 9 of 9 NOT-FIRED",
+      "producer ban expires 10/31",
+      "Full fleet pass incomplete",
+      "Full fleet review remains 10/23"
+    ],
+    "result": "Old hits in CRC STATUS_COLD preimage and dated original research/handoffs are RETAINED-HISTORY. Current STATUS/PRED/CONFIRMED/MAP/REPORT carry the new states. Literal old matches are not a live claim merely because a scanner flags a cold preimage."
+  },
+  "consumer": {
+    "cross_agent": "No stale matching consumers",
+    "self": "STATUS_COLD historical preimage flagged; verified historical section/caption and CRC, retained unchanged. No live residue; no third-party stale owner packet owed."
+  },
+  "run_at": "2026-10-26T23:54:07-04:00"
+}

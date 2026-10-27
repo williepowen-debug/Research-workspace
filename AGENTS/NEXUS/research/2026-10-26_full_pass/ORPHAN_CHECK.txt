@@ -1,0 +1,100 @@
+⚠️  uncommitted files outside AGENTS/NEXUS/:
+     [likely YOURS] AGENTS/RED/inbox/2026-10-26_from-NEXUS_full-review-real-contradictions.md
+     [likely YOURS] PROME/inbox/2026-10-26_from-NEXUS_full-fleet-review-proximity-alert-and-Tuesday-return.md
+     [not yours]    AGENTS/AEOLUS/inbox/WALTER/SIG-W-20261027-026.md
+     [not yours]    AGENTS/BROCK/inbox/WALTER/SIG-W-20261027-020.md
+     [not yours]    AGENTS/BROCK/inbox/WALTER/SIG-W-20261027-021.md
+     [not yours]    AGENTS/BROCK/inbox/WALTER/SIG-W-20261027-023.md
+     [not yours]    AGENTS/BROCK/inbox/WALTER/SIG-W-20261027-025.md
+     [not yours]    AGENTS/BROCK/inbox/WALTER/SIG-W-20261027-028.md
+     [not yours]    AGENTS/CARL/CLAUDE.md
+     [not yours]    AGENTS/CARL/LAST_COMPLETION.md
+     [not yours]    AGENTS/CARL/PREDICTIONS_MIRROR.md
+     [not yours]    AGENTS/CARL/ROADMAP.md
+     [not yours]    AGENTS/CARL/ROADMAP_THREADS.md
+     [not yours]    AGENTS/CARL/TEAM.md
+     [not yours]    AGENTS/CARL/TRADE.md
+     [not yours]    AGENTS/CARL/book/README.md
+     [not yours]    AGENTS/CARL/docket/CALENDAR.md
+     [not yours]    AGENTS/CARL/docket/CATALYSTS.tsv
+     [not yours]    AGENTS/CARL/handoff_WALTER/README.md
+     [not yours]    AGENTS/CARL/inbox/WALTER/processed/SIG-W-20261027-015.md
+     [not yours]    AGENTS/CARL/inbox/processed/2026-10-23_from-DAEDALUS_ISHM-built-seams-with-CARL-INFO.md
+     [not yours]    AGENTS/CARL/inbox/processed/2026-10-23_from-DAEDALUS_WQ508-harness-audit-lines.md
+     [not yours]    AGENTS/CARL/inbox/processed/2026-10-23_from-DEWEY_research-history-meta-review.md
+     [not yours]    AGENTS/CARL/inbox/processed/2026-10-23_from-PROME_WQ516-I3-debt-buyer-recoveries-question.md
+     [not yours]    AGENTS/CARL/inbox/processed/2026-10-24_from-PROME_WQ516-I3-one-added-question-which-decision.md
+     [not yours]    AGENTS/CARL/inbox/processed/2026-10-25_from-DEWEY_syf-q3-and-meta-review-correction.md
+     [not yours]    AGENTS/CARL/research/2026-10-26_file-audit/
+     [not yours]    AGENTS/CARL/scripts/BUILD_PLAN.md
+     [not yours]    AGENTS/CARL/scripts/board_gap.py
+     [not yours]    AGENTS/CARL/scripts/boot.py
+     [not yours]    AGENTS/CARL/scripts/brier_audit.py
+     [not yours]    AGENTS/CARL/scripts/revision_ledger.py
+     [not yours]    AGENTS/CARL/scripts/test_audit_repairs.py
+     [not yours]    AGENTS/CARL/scripts/thresholds.py
+     [not yours]    AGENTS/CARL/thesis/CARL_BOOK_DESIGN.md
+     [not yours]    AGENTS/CARL/thesis/CHANGELOG.md
+     [not yours]    AGENTS/CARL/thesis/PREDICTIONS.tsv
+     [not yours]    AGENTS/CARL/thesis/REVISION_LEDGER.md
+     [not yours]    AGENTS/CARL/workbook/KB.tsv
+     [not yours]    AGENTS/CORAL/inbox/WALTER/SIG-W-20261027-023.md
+     [not yours]    AGENTS/CREED/inbox/WALTER/SIG-W-20261027-020.md
+     [not yours]    AGENTS/CREED/inbox/WALTER/SIG-W-20261027-021.md
+     [not yours]    AGENTS/CREED/inbox/WALTER/SIG-W-20261027-022.md
+     [not yours]    AGENTS/CREED/inbox/WALTER/SIG-W-20261027-023.md
+     [not yours]    AGENTS/CREED/inbox/WALTER/SIG-W-20261027-024.md
+     [not yours]    AGENTS/HENRY/inbox/WALTER/SIG-W-20261027-025.md
+     [not yours]    AGENTS/HOMER/inbox/WALTER/SIG-W-20261027-020.md
+     [not yours]    AGENTS/HOMER/inbox/WALTER/SIG-W-20261027-022.md
+     [not yours]    AGENTS/HOMER/inbox/WALTER/SIG-W-20261027-026.md
+     [not yours]    AGENTS/ISHM/inbox/2026-10-26_from-CARL_four-seams-confirmed.md
+     [not yours]    AGENTS/LIQUID/inbox/WALTER/SIG-W-20261027-020.md
+     [not yours]    AGENTS/LIQUID/inbox/WALTER/SIG-W-20261027-021.md
+     [not yours]    AGENTS/LIQUID/inbox/WALTER/SIG-W-20261027-025.md
+     [not yours]    AGENTS/LIQUID/inbox/WALTER/SIG-W-20261027-028.md
+     [not yours]    AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-020.md
+     [not yours]    AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-021.md
+     [not yours]    AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-022.md
+     [not yours]    AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-023.md
+     [not yours]    AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-024.md
+     [not yours]    AGENTS/SHADE/inbox/WALTER/SIG-W-20261027-025.md
+     [not yours]    AGENTS/SHADE/inbox/WALTER/SIG-W-20261027-028.md
+     [not yours]    AGENTS/VIOLET/inbox/WALTER/SIG-W-20261027-025.md
+     [not yours]    AGENTS/VULCAN/inbox/WALTER/SIG-W-20261027-024.md
+     [not yours]    AGENTS/VULCAN/inbox/WALTER/SIG-W-20261027-025.md
+     [not yours]    AGENTS/VULCAN/inbox/WALTER/SIG-W-20261027-026.md
+     [not yours]    AGENTS/VULCAN/inbox/WALTER/SIG-W-20261027-027.md
+     [not yours]    AGENTS/WALTER/registry/BATCH_MANIFEST.tsv
+     [not yours]    AGENTS/WALTER/research/2026-10-26_gmail/
+     [not yours]    AGENTS/WALTER/routed/delivery_log.tsv
+     [not yours]    AGENTS/WALTER/routed/route_log.tsv
+     [not yours]    AGENTS/WATT/inbox/WALTER/SIG-W-20261027-026.md
+     [not yours]    AGENTS/WATT/inbox/WALTER/SIG-W-20261027-027.md
+     [not yours]    BOARD/INDEX.md
+     [not yours]    BOARD/SIG-W-20261027-020-trepp-q3-credit-recap.md
+     [not yours]    BOARD/SIG-W-20261027-021-wells-fargo-center-south-note-sale.md
+     [not yours]    BOARD/SIG-W-20261027-022-seniors-housing-maturity-cohort.md
+     [not yours]    BOARD/SIG-W-20261027-023-florida-office-transactions.md
+     [not yours]    BOARD/SIG-W-20261027-024-sf-office-ai-recovery-context.md
+     [not yours]    BOARD/SIG-W-20261027-025-jbi-data-center-credit-dispersion.md
+     [not yours]    BOARD/SIG-W-20261027-026-texas-data-center-permitting-context.md
+     [not yours]    BOARD/SIG-W-20261027-027-pjm-planned-data-maintenance.md
+     [not yours]    BOARD/SIG-W-20261027-028-insurance-related-party-teaser.md
+     [not yours]    PROME/inbox/2026-10-26_from-CARL_WQ516-I3-debt-buyer-line-DECLINE.md
+     [not yours]    scripts/AGENT_LAUNCHER.md
+     [not yours]    scripts/agents_gui.ps1
+     [not yours]    scripts/agents_gui.py
+     [not yours]    scripts/install_agents.py
+     [not yours]    scripts/tests/probe_agents_gui.py
+     [not yours]    scripts/tests/test_agents_launcher.py
+
+🔴 THE FLAGGED FILES LOOK LIKE PACKETS YOU AUTHORED.
+   If you do not commit them they never reach the recipient, and the recipient
+   is never told anything was sent. Committing files you authored into another
+   agent's inbox is the ONE sanctioned exception to the pathspec rule.
+
+   git add <paths> && git commit <paths> -m "NEXUS -> <recipient>: <what>"
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.

@@ -1,0 +1,59 @@
+[
+  {
+    "reader": 1,
+    "part": "DIGEST_R1_A.md",
+    "bytes": 23969,
+    "sha256": "d909d9f191b7542b5e3de4b1cbf96ed956a668e3d421f26560ab436d30ecef82"
+  },
+  {
+    "reader": 1,
+    "part": "DIGEST_R1_B.md",
+    "bytes": 19117,
+    "sha256": "0d9504c20f5863b9dcc5a519354a38ca6808b7825acd4fe4337c8f6e5b6649c4"
+  },
+  {
+    "reader": 1,
+    "original_bytes": 43086,
+    "original_sha256": "be06a3347674c8de43be7273a3d35027738c14d2addbb519ba10c6358886b4b0",
+    "closed": true,
+    "model": "gpt-6.1-sol"
+  },
+  {
+    "reader": 2,
+    "part": "DIGEST_R2_A.md",
+    "bytes": 23837,
+    "sha256": "84668fa4a2526a9e550c704936c52345a2dbf54e64536f971c5bbfbd3446dc4d"
+  },
+  {
+    "reader": 2,
+    "part": "DIGEST_R2_B.md",
+    "bytes": 11788,
+    "sha256": "26184c1d3062b95269a4a44c1a8d3b5be942f1b0fad1d9515cbe88db98b978b7"
+  },
+  {
+    "reader": 2,
+    "original_bytes": 35625,
+    "original_sha256": "020369d3cb8d931e1a8e55e437a931f056d9b12fa161489b096c4796be87136b",
+    "closed": true,
+    "model": "gpt-6.1-sol"
+  },
+  {
+    "reader": 3,
+    "part": "DIGEST_R3_A.md",
+    "bytes": 23918,
+    "sha256": "204a6c837f9ea96e330fc74d0188c7b9bfbbf9cd447bdf1bb8139d1b1cb91c0d"
+  },
+  {
+    "reader": 3,
+    "part": "DIGEST_R3_B.md",
+    "bytes": 12776,
+    "sha256": "d650dba73f9f59753296421451b758c54c23bb069d893ed5da42be93ef544ce0"
+  },
+  {
+    "reader": 3,
+    "original_bytes": 36694,
+    "original_sha256": "c4e4bdce77231784e1aa4badcc67a8dd1a5ecd1e9db43b0226302fb7d6771ce0",
+    "closed": true,
+    "model": "gpt-6.1-sol"
+  }
+]

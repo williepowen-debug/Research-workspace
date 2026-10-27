@@ -1,0 +1,118 @@
+{
+  "basis": "first-published",
+  "series": "BAMLC0A0CM",
+  "rows": [
+    {
+      "date": "2026-10-23",
+      "value": "0.91",
+      "first_published": "2026-10-23"
+    },
+    {
+      "date": "2026-10-22",
+      "value": "0.89",
+      "first_published": "2026-10-22"
+    },
+    {
+      "date": "2026-10-21",
+      "value": "0.88",
+      "first_published": "2026-10-21"
+    },
+    {
+      "date": "2026-10-20",
+      "value": "0.87",
+      "first_published": "2026-10-20"
+    },
+    {
+      "date": "2026-10-19",
+      "value": "0.87",
+      "first_published": "2026-10-19"
+    },
+    {
+      "date": "2026-10-16",
+      "value": "0.85",
+      "first_published": "2026-10-16"
+    },
+    {
+      "date": "2026-10-15",
+      "value": "0.84",
+      "first_published": "2026-10-15"
+    },
+    {
+      "date": "2026-10-14",
+      "value": "0.84",
+      "first_published": "2026-10-14"
+    },
+    {
+      "date": "2026-10-13",
+      "value": "0.83",
+      "first_published": "2026-10-13"
+    },
+    {
+      "date": "2026-10-12",
+      "value": "0.83",
+      "first_published": "2026-10-12"
+    },
+    {
+      "date": "2026-10-09",
+      "value": "0.83",
+      "first_published": "2026-10-09"
+    },
+    {
+      "date": "2026-10-08",
+      "value": "0.82",
+      "first_published": "2026-10-08"
+    },
+    {
+      "date": "2026-10-07",
+      "value": "0.82",
+      "first_published": "2026-10-07"
+    },
+    {
+      "date": "2026-10-06",
+      "value": "0.83",
+      "first_published": "2026-10-06"
+    },
+    {
+      "date": "2026-10-05",
+      "value": "0.84",
+      "first_published": "2026-10-05"
+    },
+    {
+      "date": "2026-10-02",
+      "value": "0.85",
+      "first_published": "2026-10-02"
+    },
+    {
+      "date": "2026-10-01",
+      "value": "0.86",
+      "first_published": "2026-10-01"
+    },
+    {
+      "date": "2026-09-30",
+      "value": "0.84",
+      "first_published": "2026-09-30"
+    },
+    {
+      "date": "2026-09-29",
+      "value": "0.84",
+      "first_published": "2026-09-29"
+    },
+    {
+      "date": "2026-09-28",
+      "value": "0.83",
+      "first_published": "2026-09-28"
+    }
+  ],
+  "request": {
+    "series_id": "BAMLC0A0CM",
+    "output_type": 4,
+    "observation_start": "2026-08-21",
+    "realtime_start": "2026-08-07",
+    "realtime_end": "9999-12-31",
+    "limit": 20
+  },
+  "short": false,
+  "missing": [],
+  "under_limit": false,
+  "label": "BAMLC0A0CM"
+}

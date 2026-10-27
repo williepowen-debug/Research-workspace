@@ -1,0 +1,14 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  SELF mode: 192 files under AGENTS/NEXUS/ (processed/ + archive/ still excluded — historical by design). Nothing outside your own dir is scanned.
+
+  ── value · superseded CYPHER 9 of 9 NOT-FIRED → current CYPHER 1 FIRED / 8 NOT-FIRED
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (1)
+        AGENTS/NEXUS/STATUS_COLD.md:1881  [CYPHER 9 of 9 NOT-FIRED]
+           HY <260 ×2 `GATE-HY-REKILL` (340, 80bp away) · LIQ-079 NOT ARMED · LIQ-07 coupling not observed · M-06 withdrawn · WATT P1 5 → 3 · T-SHADE-0
+
+  🔴 1 stale reference(s) on YOUR OWN surfaces. You are the owner: fix them in place this session — no packet, nobody else to tell. Fix by PATTERN, not by the line list above (a line-targeted sweep left a hit on the highest-blast-radius surface three times in one night).
+==================================================================
+

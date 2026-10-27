@@ -1,0 +1,118 @@
+{
+  "basis": "first-published",
+  "series": "VIXCLS",
+  "rows": [
+    {
+      "date": "2026-10-23",
+      "value": "19.45",
+      "first_published": "2026-10-23"
+    },
+    {
+      "date": "2026-10-22",
+      "value": "19.03",
+      "first_published": "2026-10-22"
+    },
+    {
+      "date": "2026-10-21",
+      "value": "16.68",
+      "first_published": "2026-10-21"
+    },
+    {
+      "date": "2026-10-20",
+      "value": "17.31",
+      "first_published": "2026-10-20"
+    },
+    {
+      "date": "2026-10-19",
+      "value": "18.44",
+      "first_published": "2026-10-19"
+    },
+    {
+      "date": "2026-10-16",
+      "value": "19.99",
+      "first_published": "2026-10-16"
+    },
+    {
+      "date": "2026-10-15",
+      "value": "16.46",
+      "first_published": "2026-10-15"
+    },
+    {
+      "date": "2026-10-14",
+      "value": "16.87",
+      "first_published": "2026-10-14"
+    },
+    {
+      "date": "2026-10-13",
+      "value": "15.27",
+      "first_published": "2026-10-13"
+    },
+    {
+      "date": "2026-10-12",
+      "value": "15.21",
+      "first_published": "2026-10-12"
+    },
+    {
+      "date": "2026-10-09",
+      "value": "14.84",
+      "first_published": "2026-10-09"
+    },
+    {
+      "date": "2026-10-08",
+      "value": "15.41",
+      "first_published": "2026-10-08"
+    },
+    {
+      "date": "2026-10-07",
+      "value": "15.08",
+      "first_published": "2026-10-07"
+    },
+    {
+      "date": "2026-10-06",
+      "value": "15.01",
+      "first_published": "2026-10-06"
+    },
+    {
+      "date": "2026-10-05",
+      "value": "15.52",
+      "first_published": "2026-10-05"
+    },
+    {
+      "date": "2026-10-02",
+      "value": "15.31",
+      "first_published": "2026-10-02"
+    },
+    {
+      "date": "2026-10-01",
+      "value": "16.39",
+      "first_published": "2026-10-01"
+    },
+    {
+      "date": "2026-09-30",
+      "value": "16.34",
+      "first_published": "2026-09-30"
+    },
+    {
+      "date": "2026-09-29",
+      "value": "16.04",
+      "first_published": "2026-09-29"
+    },
+    {
+      "date": "2026-09-28",
+      "value": "16.07",
+      "first_published": "2026-09-28"
+    }
+  ],
+  "request": {
+    "series_id": "VIXCLS",
+    "output_type": 4,
+    "observation_start": "2026-08-21",
+    "realtime_start": "2026-08-07",
+    "realtime_end": "9999-12-31",
+    "limit": 20
+  },
+  "short": false,
+  "missing": [],
+  "under_limit": false,
+  "label": "VIXCLS"
+}

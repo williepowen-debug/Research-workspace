@@ -1,0 +1,13 @@
+{
+  "at": "2026-10-26T23:35:49-04:00",
+  "STATUS": {
+    "bytes": 24371,
+    "crc32": "44040f42",
+    "home": "STATUS_COLD.md#H24"
+  },
+  "LAST": {
+    "bytes": 23836,
+    "crc32": "3e0ad645",
+    "home": "AGENTS/NEXUS/archive/LAST_COMPLETION_COLD_2026-10-26.md"
+  }
+}

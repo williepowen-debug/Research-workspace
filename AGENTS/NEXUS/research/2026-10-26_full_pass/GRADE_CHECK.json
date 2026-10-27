@@ -1,0 +1,112 @@
+{
+  "read_at": "2026-10-26T23:40:25-04:00",
+  "frontier": {
+    "DGS10": {
+      "date": "2026-10-23",
+      "value": "5",
+      "first_published": "2026-10-26"
+    },
+    "DFII10": {
+      "date": "2026-10-23",
+      "value": "2.66",
+      "first_published": "2026-10-26"
+    },
+    "BAMLH0A2HYB": {
+      "date": "2026-10-23",
+      "value": "3.43",
+      "first_published": "2026-10-23"
+    },
+    "VIXCLS": {
+      "date": "2026-10-23",
+      "value": "19.45",
+      "first_published": "2026-10-23"
+    },
+    "BAMLH0A3HYC": {
+      "date": "2026-10-23",
+      "value": "13.56",
+      "first_published": "2026-10-23"
+    },
+    "T10YIE": {
+      "date": "2026-10-26",
+      "value": "2.34",
+      "first_published": "2026-10-26"
+    },
+    "BAMLH0A0HYM2": {
+      "date": "2026-10-23",
+      "value": "3.38",
+      "first_published": "2026-10-23"
+    },
+    "BAMLC0A0CM": {
+      "date": "2026-10-23",
+      "value": "0.91",
+      "first_published": "2026-10-23"
+    },
+    "ICSA": {
+      "date": "2026-10-17",
+      "value": "194000",
+      "first_published": "2026-10-22"
+    },
+    "BAMLH0A1HYBB": {
+      "date": "2026-10-23",
+      "value": "2.06",
+      "first_published": "2026-10-23"
+    }
+  },
+  "vendor_returns": {
+    "KRE": {
+      "date": "2026-10-26",
+      "close": 72.73,
+      "return_pct": "0.372619376207562793265249800"
+    },
+    "SPY": {
+      "date": "2026-10-26",
+      "close": 765.37,
+      "return_pct": "0.710554363988052159953682400"
+    },
+    "QQQ": {
+      "date": "2026-10-26",
+      "close": 712.2,
+      "return_pct": "1.107325383304940374787052800"
+    },
+    "RSP": {
+      "date": "2026-10-26",
+      "close": 217.29,
+      "return_pct": "0.346356331393737877528401200"
+    },
+    "IWM": {
+      "date": "2026-10-26",
+      "close": 276.99,
+      "return_pct": "0.449682683590208522212148700"
+    },
+    "HYG": {
+      "date": "2026-10-26",
+      "close": 77.2,
+      "return_pct": "0.194678780012978585334198600"
+    },
+    "LQD": {
+      "date": "2026-10-26",
+      "close": 104.02,
+      "return_pct": "0.163697640828117477130476600"
+    }
+  },
+  "split": [
+    20,
+    47,
+    33
+  ],
+  "L13_cells": 5,
+  "L13_runs": [
+    0,
+    0
+  ],
+  "L16_cells": 4,
+  "L16_runs": [
+    0,
+    0
+  ],
+  "M03": "CLOSED DOWN 78\u219274 previously applied; current number withdrawn, no successor",
+  "new_qualified_cells": 0,
+  "grading_log_appends": 0,
+  "M05_fired": false,
+  "L17_postanchor_cells": 0
+}

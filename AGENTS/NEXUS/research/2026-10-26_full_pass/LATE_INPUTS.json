@@ -1,0 +1,31 @@
+{
+  "at": "2026-10-26T23:53:09-04:00",
+  "inputs": [
+    {
+      "path": "AGENTS/FERT/STATUS.md",
+      "commit": "0ab3db312968c2cf44e871d01f6561a6cebaeb3f",
+      "sha256": "e80d3afab6231ad9762d117f1cdb72897b1f79d3d18443f4977492d4517a3a15"
+    },
+    {
+      "path": "AGENTS/FERT/reports/2026-10-26_buildout.md",
+      "commit": "0ab3db312968c2cf44e871d01f6561a6cebaeb3f",
+      "sha256": "4ead27ce93dc878957e32682c8c30c64b060bcc4eed9132be80e36a12519cce5"
+    },
+    {
+      "path": "AGENTS/MIDAS/STATUS.md",
+      "commit": "e96c5971b4f8cce81e5e7e7dddec087e7aac61df",
+      "sha256": "c2e6f00690a43b84eb00733037a6004ac2ce9f2a91aac457aabb574a3774ef9d"
+    },
+    {
+      "path": "AGENTS/MIDAS/shared/research/2026-10-26_recycling-supply-test.md",
+      "commit": "e96c5971b4f8cce81e5e7e7dddec087e7aac61df",
+      "sha256": "e9b21e139819c82a54835e55f20af57f8239c9699e17907de1106c8d5679b787"
+    },
+    {
+      "path": "AGENTS/MIDAS/shared/research/2026-10-26_SA-refinery-pipeline.md",
+      "commit": "e96c5971b4f8cce81e5e7e7dddec087e7aac61df",
+      "sha256": "e44997230eec5c0bd5c81cc67ed1f75b79e8f13d58559a7446d4e27f498be76a"
+    }
+  ],
+  "independent_coldread_of_late_additions": false
+}

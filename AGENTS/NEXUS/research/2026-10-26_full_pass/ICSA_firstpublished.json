@@ -1,0 +1,118 @@
+{
+  "basis": "first-published",
+  "series": "ICSA",
+  "rows": [
+    {
+      "date": "2026-10-17",
+      "value": "194000",
+      "first_published": "2026-10-22"
+    },
+    {
+      "date": "2026-10-10",
+      "value": "199000",
+      "first_published": "2026-10-15"
+    },
+    {
+      "date": "2026-10-03",
+      "value": "197000",
+      "first_published": "2026-10-08"
+    },
+    {
+      "date": "2026-09-26",
+      "value": "197000",
+      "first_published": "2026-10-01"
+    },
+    {
+      "date": "2026-09-19",
+      "value": "197000",
+      "first_published": "2026-09-24"
+    },
+    {
+      "date": "2026-09-12",
+      "value": "196000",
+      "first_published": "2026-09-17"
+    },
+    {
+      "date": "2026-09-05",
+      "value": "206000",
+      "first_published": "2026-09-10"
+    },
+    {
+      "date": "2026-08-29",
+      "value": "206000",
+      "first_published": "2026-09-03"
+    },
+    {
+      "date": "2026-08-22",
+      "value": "203000",
+      "first_published": "2026-08-27"
+    },
+    {
+      "date": "2026-08-15",
+      "value": "206000",
+      "first_published": "2026-08-20"
+    },
+    {
+      "date": "2026-08-08",
+      "value": "209000",
+      "first_published": "2026-08-13"
+    },
+    {
+      "date": "2026-08-01",
+      "value": "199000",
+      "first_published": "2026-08-06"
+    },
+    {
+      "date": "2026-07-25",
+      "value": "197000",
+      "first_published": "2026-07-30"
+    },
+    {
+      "date": "2026-07-18",
+      "value": "187000",
+      "first_published": "2026-07-23"
+    },
+    {
+      "date": "2026-07-11",
+      "value": "208000",
+      "first_published": "2026-07-16"
+    },
+    {
+      "date": "2026-07-04",
+      "value": "215000",
+      "first_published": "2026-07-09"
+    },
+    {
+      "date": "2026-06-27",
+      "value": "215000",
+      "first_published": "2026-07-02"
+    },
+    {
+      "date": "2026-06-20",
+      "value": "215000",
+      "first_published": "2026-06-25"
+    },
+    {
+      "date": "2026-06-13",
+      "value": "226000",
+      "first_published": "2026-06-18"
+    },
+    {
+      "date": "2026-06-06",
+      "value": "229000",
+      "first_published": "2026-06-11"
+    }
+  ],
+  "request": {
+    "series_id": "ICSA",
+    "output_type": 4,
+    "observation_start": "2026-01-09",
+    "realtime_start": "2025-12-26",
+    "realtime_end": "9999-12-31",
+    "limit": 20
+  },
+  "short": false,
+  "missing": [],
+  "under_limit": false,
+  "label": "Initial Claims"
+}
