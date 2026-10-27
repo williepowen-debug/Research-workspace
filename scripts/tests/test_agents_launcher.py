@@ -27,6 +27,8 @@ def module(name, filename):
 
 agents = module('personal_agents_test', 'agents.py')
 installer = module('personal_agents_installer_test', 'install_agents.py')
+sys.modules['agents'] = agents
+gui = module('personal_agents_gui_test', 'agents_gui.py')
 
 
 class LauncherTests(unittest.TestCase):
@@ -66,6 +68,46 @@ class LauncherTests(unittest.TestCase):
     def cli(self, *args, env=None):
         return subprocess.run([sys.executable, str(SCRIPTS / 'agents.py'), '--config', str(self.config), '--same-window', *args],
                               env=env or self.env, text=True, capture_output=True, timeout=15)
+
+    def gui_request(self, **values):
+        (self.base / 'context.json').write_text(json.dumps({'config': str(self.config), 'path': self.env['PATH']}))
+        request = self.base / (str(time.time_ns()) + '.json')
+        request.write_text(json.dumps(dict(name='FIXTURE', runtime='sol', action='new', task=None, **values)), encoding='utf-8-sig')
+        return request
+
+    def test_gui_click_routes_literal_task_and_request_is_single_use(self):
+        task = 'Unicode café; $(never-run) "quotes"\nsecond line'
+        request = self.gui_request()
+        request.write_text(json.dumps(dict(name='FIXTURE', runtime='claude', action='new', task=task)), encoding='utf-8-sig')
+        with patch.dict(os.environ, self.env), patch.object(agents, 'open_window', return_value=0) as launch:
+            self.assertEqual(gui.launch_request(request), 0)
+            self.assertEqual(gui.launch_request(request), 2)
+        self.assertEqual(launch.call_count, 1)
+        plan = launch.call_args.args[0]
+        self.assertEqual(plan.runtime, 'claude')
+        self.assertTrue(plan.argv[-1].endswith(task))
+        self.assertTrue(json.loads(request.with_suffix('.result.json').read_text())['ok'])
+
+    def test_gui_revalidates_config_and_returns_errors_without_launch(self):
+        request = self.gui_request()
+        self.config.write_text('{"version":1,"agents":[]}')
+        with patch.dict(os.environ, self.env), patch.object(agents, 'open_window') as launch:
+            self.assertEqual(gui.launch_request(request), 2)
+        launch.assert_not_called()
+        self.assertFalse(json.loads(request.with_suffix('.result.json').read_text())['ok'])
+
+    def test_gui_resume_policy_and_window_failure(self):
+        request = self.gui_request()
+        request.write_text(json.dumps(dict(name='FIXTURE', runtime='sol', action='resume', task='Do not discard me')))
+        with patch.dict(os.environ, self.env), patch.object(agents, 'open_window') as launch:
+            self.assertEqual(gui.launch_request(request), 2)
+            launch.assert_not_called()
+        request = self.gui_request()
+        request.write_text(json.dumps(dict(name='FIXTURE', runtime='sol', action='resume', task=None)))
+        with patch.dict(os.environ, self.env), patch.object(agents, 'open_window', side_effect=agents.LaunchError('No window')) as launch:
+            self.assertEqual(gui.launch_request(request), 2)
+        self.assertIn('resume', launch.call_args.args[0].argv)
+        self.assertEqual(json.loads(request.with_suffix('.result.json').read_text())['message'], 'No window')
 
     def test_real_dispatch_preserves_cwd_and_literal_task(self):
         marker = self.base / 'must not exist'
@@ -331,6 +373,28 @@ class InstallerTests(unittest.TestCase):
 
     def plans(self):
         return installer.shortcut_files(self.root, self.home, self.desktop, 'Ubuntu', 'willi')
+
+    def test_gui_upgrade_backs_up_only_the_known_menu_and_is_idempotent(self):
+        for suffix in ('.py', '.ps1'):
+            (self.root / ('scripts/agents_gui' + suffix)).write_text('fixture')
+        old = self.plans()
+        new = installer.shortcut_files(self.root, self.home, self.desktop, 'Ubuntu', 'willi', gui=True)
+        previous = {old[1][0]: old[1][1]}
+        with contextlib.redirect_stdout(io.StringIO()):
+            installer.install(old)
+            installer.install(new, previous)
+            installer.install(new, previous)
+        self.assertEqual((self.desktop / 'Agent Launcher.cmd.terminal-menu.bak').read_bytes(), old[1][1].encode())
+        encoded = new[1][1].split('-EncodedCommand ')[1].split('\r\n')[0]
+        decoded = base64.b64decode(encoded).decode('utf-16le')
+        self.assertIn('agents_gui.py', decoded)
+        self.assertIn('CreateNoWindow=$true', decoded)
+        self.assertIn('RedirectStandardOutput=$true', decoded)
+        self.assertIn('WaitForExit()', decoded)
+        new[1][0].write_text('User customization')
+        with self.assertRaisesRegex(ValueError, 'Existing file differs'):
+            installer.install(new, previous)
+        self.assertEqual(new[1][0].read_text(), 'User customization')
 
     def test_portable_wrapper_and_desktop_contents_and_idempotent_install(self):
         files = self.plans()
