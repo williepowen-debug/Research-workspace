@@ -23,6 +23,7 @@ import shutil
 import signal
 import subprocess
 import sys
+import textwrap
 import time
 import uuid
 
@@ -330,21 +331,67 @@ def open_window(plan: Plan, timeout: float = 10) -> int:
                       f'Request: {request.parent}')
 
 
+def paint(text: str, tone: str = 'accent') -> str:
+    """Use the terminal's own palette; keep redirected/plain output escape-free."""
+    if not sys.stdout.isatty() or os.environ.get('TERM') == 'dumb' or 'NO_COLOR' in os.environ:
+        return text
+    codes = {'accent': '36', 'strong': '1', 'muted': '2', 'warning': '33'}
+    return f'\033[{codes[tone]}m{text}\033[0m'
+
+
+def menu_width() -> int:
+    return max(20, min(86, shutil.get_terminal_size((80, 24)).columns) - 4)
+
+
+def menu_text(text: str, tone: str | None = None, indent: int = 2) -> None:
+    prefix = ' ' * indent
+    wrapped = textwrap.fill(text, width=menu_width() + 2, initial_indent=prefix,
+                            subsequent_indent=prefix, break_long_words=False, break_on_hyphens=False)
+    print(paint(wrapped, tone) if tone else wrapped)
+
+
+def menu_header(title: str, subtitle: str) -> None:
+    print()
+    menu_text(title, 'strong')
+    menu_text(subtitle, 'muted')
+    print('  ' + paint('-' * menu_width(), 'muted'))
+
+
+def menu_choice(key: str, title: str, detail: str = '') -> None:
+    prefix = f'  {key:>2}  '
+    lines = textwrap.wrap(title, width=max(14, menu_width() - 4),
+                          break_long_words=False, break_on_hyphens=False) or ['']
+    print(paint(prefix, 'accent') + lines[0])
+    for line in lines[1:]:
+        print(' ' * len(prefix) + line)
+    if detail:
+        menu_text(detail, 'muted', indent=6)
+
+
+def runtime_label(runtime: str) -> str:
+    return {'sol': 'Codex Sol', 'astra': 'Codex Astra', 'claude': 'Claude'}[runtime]
+
+
 def show_agents(entries: list[dict], root: Path = ROOT) -> None:
-    print('AGENT LAUNCHER\n')
+    groups = list(dict.fromkeys(e['group'] for e in entries))
+    title = groups[0] if len(groups) == 1 else 'All agents'
+    menu_header(title, 'Choose a number or type an agent name.')
     group = None
     for index, entry in enumerate(entries, 1):
         if entry['group'] != group:
             group = entry['group']
-            print(group)
-        missing = '' if resolve_folder(entry['path'], root).is_dir() else ' [folder missing]'
-        print(f'  {index:2}. {entry["name"]:<10} {entry["purpose"]}{missing}')
-    print('\nChoose a number or name. Q quits. Defaults: Sol; CATO uses Astra.')
+            if len(groups) > 1:
+                print()
+                menu_text(group, 'strong')
+        missing = '' if resolve_folder(entry['path'], root).is_dir() else '  [folder missing]'
+        menu_choice(str(index), entry['name'] + missing, entry['purpose'])
+    print()
+    menu_text('B  Back to groups    Q  Quit', 'muted')
 
 
 def ask(prompt: str) -> str:
     try:
-        answer = input(prompt).strip()
+        answer = input('\n  ' + paint(prompt, 'accent')).strip()
     except (EOFError, KeyboardInterrupt):
         raise Cancelled from None
     if answer.lower() in ('q', 'quit', 'exit'):
@@ -352,52 +399,73 @@ def ask(prompt: str) -> str:
     return answer
 
 
-def choose_agent(entries: list[dict]) -> dict:
+def choose_agent(entries: list[dict], same_window: bool = False) -> dict:
     groups = list(dict.fromkeys(entry['group'] for entry in entries))
-    print('AGENT LAUNCHER\nType an agent name, or choose a group:\n')
-    for index, group in enumerate(groups, 1):
-        print(f'  {index}. {group}')
-    print('\nA = All agents, Q = Quit')
     shown = None
+    redraw = True
     while True:
-        answer = ask('\nAgent or group: ' if shown is None else '\nAgent (B = Back): ').upper()
+        if redraw:
+            if shown is None:
+                menu_header('Agent Launcher', 'Choose an agent by name, or browse a group.')
+                for index, group in enumerate(groups, 1):
+                    menu_choice(str(index), group)
+                print()
+                menu_text('A  All agents    Q  Quit', 'muted')
+                menu_text('Agents run in this window.' if same_window else 'Each agent opens in its own window.', 'muted')
+            else:
+                show_agents(shown)
+            redraw = False
+        answer = ask('Agent or group > ' if shown is None else 'Agent > ').upper()
         for entry in entries:
             if entry['name'] == answer:
                 return entry
         if shown is not None and answer.isdigit() and 1 <= int(answer) <= len(shown):
             return shown[int(answer) - 1]
         if shown is not None and answer == 'B':
-            return choose_agent(entries)
+            shown, redraw = None, True
+            continue
         if shown is None:
             if answer == 'A':
                 shown = entries
             elif answer.isdigit() and 1 <= int(answer) <= len(groups):
                 shown = [e for e in entries if e['group'] == groups[int(answer) - 1]]
             if shown is not None:
-                show_agents(shown)
+                redraw = True
                 continue
-        print('Choose a listed number or agent name, or Q to quit.')
+        menu_text('Choose a listed number or agent name, or Q to quit.', 'warning')
 
 
 def choose_runtime(entry: dict) -> str:
     if entry['kind'] == 'cato':
         return 'astra'
     default = entry['default_runtime']
+    menu_header(entry['name'] + ' / Runtime', entry['purpose'])
+    menu_choice('S', 'Codex Sol', 'Default' if default == 'sol' else '')
+    menu_choice('C', 'Claude', 'Default' if default == 'claude' else '')
+    print()
+    menu_text(f'Enter  Use {runtime_label(default)}    Q  Quit', 'muted')
     while True:
-        value = ask(f'Runtime: [Enter] {default.upper()}, C = Claude, S = Sol: ').lower()
+        value = ask('Runtime > ').lower()
         if not value: return default
         if value in ('c', 'claude'): return 'claude'
         if value in ('s', 'sol'): return 'sol'
-        print('Choose C, S, or Enter.')
+        menu_text('Choose C, S, or Enter.', 'warning')
 
 
-def choose_action() -> str:
-    print('If this agent is already running, return to its existing terminal.')
+def choose_action(entry: dict, runtime: str, same_window: bool = False) -> str:
+    destination = 'This terminal window' if same_window else 'New, separate terminal window'
+    menu_header(entry['name'] + ' / ' + runtime_label(runtime), destination)
+    menu_choice('1', 'Start a new session', 'Load startup instructions and current duties.')
+    print()
+    menu_choice('2', 'Resume a saved session', 'Choose a conversation from the session picker.')
+    print()
+    menu_text('Already running? Return to its existing window.', 'muted')
+    menu_text('Q  Quit without launching', 'muted')
     while True:
-        value = ask('1 = Start new session, 2 = Resume saved session, Q = Quit: ').lower()
+        value = ask('Action > ').lower()
         if value in ('1', 'new'): return 'new'
         if value in ('2', 'resume'): return 'resume'
-        print('Choose 1, 2, or Q.')
+        menu_text('Choose 1, 2, or Q.', 'warning')
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -435,7 +503,7 @@ def main(argv: list[str] | None = None) -> int:
                 else:
                     if not sys.stdin.isatty():
                         raise LaunchError('Open an interactive terminal for the menu, or give an agent name and --new/--resume.')
-                    entry = choose_agent(entries)
+                    entry = choose_agent(entries, args.same_window)
                 runtime = args.runtime
                 if runtime is None and not args.agent:
                     runtime = choose_runtime(entry)
@@ -444,7 +512,7 @@ def main(argv: list[str] | None = None) -> int:
                     if args.dry_run:
                         action = 'new'
                     elif sys.stdin.isatty():
-                        action = choose_action()
+                        action = choose_action(entry, runtime or entry['default_runtime'], args.same_window)
                     else:
                         raise LaunchError('Specify --new or --resume outside an interactive terminal.')
                 plan = build_plan(entry, runtime, action, args.task)

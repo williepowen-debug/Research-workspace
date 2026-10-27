@@ -7,6 +7,12 @@ its name and runtime. The menu stays open for the next selection. Q closes the
 launcher menu without stopping the agent windows. No session starts until you
 choose an action. Windows Terminal and WSL are required for the default mode.
 
+The menu uses bold headings, subtle cyan option numbers, muted hints, and
+word wrapping sized to the terminal. Runtime and new/resume choices have their
+own clear panels. It inherits your terminal's theme without changing settings.
+Use `NO_COLOR=1 agents` for plain text; redirected output and basic terminals
+automatically omit color codes. Restart an already-open launcher to load updates.
+
 ```bash
 agents                         # persistent menu; separate agent windows
 agents carl                    # choose new/resume; open a new window on Sol
