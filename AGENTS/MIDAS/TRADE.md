@@ -2,7 +2,7 @@
 # LIVE ledger.
 Last real data refresh: 2026-10-26 (completed funds, primary bullion/real yields; futures26 diagnostic and guard-qualified23).
 Last attention check: 2026-10-26
-Content reconciliation: 2026-10-26 requested close snapshot; no new broker-position reconciliation.
+Content reconciliation: 2026-10-26 close snapshot and authorized recycling/refinery research; no new broker-position reconciliation.
 
 ## Current scope and status
 
@@ -11,6 +11,8 @@ Content reconciliation: 2026-10-26 requested close snapshot; no new broker-posit
 The former July/August updates, superseded attribution bands and August "trigger fired" candidate row are preserved verbatim in [the pre-review snapshot](analysis/2026-10-25_before-targeted-review_TRADE.md). They are historical evidence, not current entries, targets, position sizes or management instructions. Historical weekly fire count 1/4 remains in THESIS; no old trigger is re-armed by this cleanup.
 
 ## Current research relevant to construction
+
+**October 26 supply-context integration:** [Recycling test](shared/research/2026-10-26_recycling-supply-test.md) and [Valterra comparison](shared/research/2026-10-26_SA-refinery-pipeline.md) temper scarcity claims. Palladium’s JM model depends materially on scrap recovery; WPIC’s separate platinum surplus survives a flat-recycling sensitivity, while silver’s April deficit deepens. These are fixed-input sensitivities, not new forecasts. Valterra’s Q3 refinery drop is mainly maintenance timing, with nine-month sales flat and platinum refining up; mine stoppages and Q4 delivery remain risks. Neither report supplies a trade trigger or changes the inherited unfreeze condition.
 
 | Channel | Evidence through the actual source dates | Current implication |
 |---|---|---|
