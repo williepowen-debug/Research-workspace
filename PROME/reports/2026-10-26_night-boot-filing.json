@@ -1,0 +1,22 @@
+[
+  {
+    "source": "PROME/inbox/2026-10-26_from-BRENT_final-closeout.md",
+    "destination": "PROME/inbox/processed/2026-10-26_from-BRENT_final-closeout.md",
+    "sha256": "bf901004747e6325840d1688a9ca3aa3d77fdcdef94c5cfc4d1c0103e7887c99"
+  },
+  {
+    "source": "PROME/inbox/2026-10-26_from-LIQUID_feasible-research-completion.md",
+    "destination": "PROME/inbox/processed/2026-10-26_from-LIQUID_feasible-research-completion.md",
+    "sha256": "f58078af113b391ad7350e71c3d3cfa9172becc9f0a0f8416749cd78c93c1e76"
+  },
+  {
+    "source": "PROME/inbox/2026-10-26_from-LIQUID_workbook-followthrough-complete.md",
+    "destination": "PROME/inbox/processed/2026-10-26_from-LIQUID_workbook-followthrough-complete.md",
+    "sha256": "5a16208027e5a5fa6b415f651929c76c2809ff22f6e45da84dc75556afed22fc"
+  },
+  {
+    "source": "PROME/inbox/2026-10-26_from-WALTER_full-closeout.md",
+    "destination": "PROME/inbox/processed/2026-10-26_from-WALTER_full-closeout.md",
+    "sha256": "b02fec94dc696fdfff3c3dda63a6d47babcee86e2db756f62c75c109c0fb7fb9"
+  }
+]

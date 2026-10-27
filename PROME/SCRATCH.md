@@ -3,6 +3,8 @@
 
 ## ★ NEXT SESSION — START HERE
 
+**October26 20:24 ET full boot:** [night-boot receipt](reports/2026-10-26_night-boot.md). Four checkpoint packets reconciled and filed; LIQUID's current brief/STATUS pin and frozen ledgers verified, NEXUS consumption still pending. Full mechanical boot passes; queue-aging, fleet coverage and maintenance keep overall PARTIAL. Existing session limits and approved ARCC/FOMC/HTGC plus WQ515 boundaries below remain; pre-event BROCK expectations read, no outcomes invented. New WALTER startup-recovery work is foreign and preserved. This is a boot receipt, not completed closeout.
+
 **Checkpoint closeout — October26, 20:06 ET:** latest research correction and evaluation boundaries committed/pushed as `b8e4fcb0c`; [existing synthesis](reports/2026-10-26_resume-consumption.md) is the substantive entry point. HANDOFF already points here; no duplicate account or restart reassessment.
 **Resume work:** complete the approved ARCC/FOMC/HTGC updates and one Experiment A assessment; finish WQ-515 at its existing selection/24-hour grading boundaries. Prioritize consequential changed understanding; no outcomes invented while events remain future, no new work from uncertainty alone.
 **Arrivals retained:** inbox census found four packets: BRENT final closeout, LIQUID feasible-research completion, LIQUID workbook-followthrough completion and WALTER full closeout. LIQUID’s substantive Brazil evidence is already folded; WALTER’s qualified closeout was read. Packets remain in inbox for remaining receipt/disposition/filing, not falsely marked fully reconciled. BRENT reports Will-requested closeout; LIQUID workbook completion needs artifact verification. Existing READS/ORCH flags remain pending.
