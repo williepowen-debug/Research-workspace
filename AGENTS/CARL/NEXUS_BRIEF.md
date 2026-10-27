@@ -4,7 +4,7 @@
 **Domain:** U.S. consumer financial stress and household transmission; ISHM owns manufacturing/freight, REGINALD bank credit.
 **Thesis version:** v2.6.6
 **Recent thesis pivot:** ungraded ALLY image follow-up → CRL-21 STUCK on missing matched-vintage input (10/26); no hit/miss.
-**As of:** 2026-10-26 22:52 ET | STATUS commit: `5b18d5a88`
+**As of:** 2026-10-26 22:56 ET | STATUS commit: `5b18d5a88`
 **Position:** No capital authority; seven paper exits decided, actual next-open fills pending. No performance claim.
 
 ## CROSS-DOMAIN
@@ -64,4 +64,4 @@
 | 11/06 | Original issuer source checkpoint; payrolls separately | CRL-21 input recovery, RITM filing notes; V16 |
 | 11/10 08:30 ET | October CPI | BLS-verified date; CRL-10 level/path conditions unchanged |
 
-**Closeout limits:** consistency 0 hard / 6 soft; read-cap heuristic flags a grep-only ledger, charter coverage unassessed; 23 child-age flags unchanged. Runtime OpenAI Codex, exact model UNKNOWN; Claude-native hooks unavailable. Dated packets establish authored delivery, not consumption or lifecycle closure.
+**Closeout limits:** consistency 0 hard / 6 soft; read-cap heuristic flags a grep-only ledger, charter coverage unassessed; 23 child-age flags unchanged. Runtime OpenAI Codex, exact model UNKNOWN; Claude-native hooks unavailable. PROME explicitly acknowledged reading result 5b18d5a88 and delivery ee1cb82fa. Its bounded closeout ask is answered by a dated receipt; closeout remains partial for stated coverage limits. TERRY consumption is unverified.
