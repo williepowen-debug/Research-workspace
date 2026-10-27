@@ -1,5 +1,7 @@
 # SCRATCH.md — Ephemeral Session State
 
+**October26 NEXUS full review consumed:** [receipt](reports/2026-10-26_nexus-full-review-consumption.md). Full-review date now October26; Will-selected Sol readers resolve the prior task-specific reader dependency. Literal proximity alert MET, one repricing class; split20/47/33 unchanged. M03 current number withdrawn, historical78→74 preserved; November5 L631 now M01/M05/M07. Tuesday grades/rollup and named source/resolver carries remain due. Earlier bounded-return paragraphs below are historical and superseded on full-review status.
+
 **October26 FERT approved build consumed:** [receipt](reports/2026-10-26_fert-build-consumption.md). Initial baselines now authorized/built; earlier uncommissioned audit status superseded for this work. READS ingested but partial: BASIS/absent receipt-path corrections returned to owner. Potash alias proposal remains a shared-vocabulary carry, triage only. Extractor reproduction blocked by missing pandas here; bounded hash/schema/arithmetic checks passed. Latest MIDAS recycling/refinery packet remains pending.
 
 **October26 MIDAS close refresh consumed:** [receipt](reports/2026-10-26_midas-close-refresh-consumption.md). Saved-close arithmetic verifies new platinum −20% trend crossing; actual8/20 and counterfactual13/20 unchanged. GLD Monday quantity −0.85t and real10Y2.66% verified in saved primary files. November1 21:40ET floor retained; gold certified-settlement gap open. Late CARL/ISHM news sweeps and CYPHER/VULCAN packets remain separate pending intake.
