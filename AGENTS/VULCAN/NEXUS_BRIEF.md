@@ -2,8 +2,8 @@
 
 **Status:** S1 3 / S2 2 / S3 3 / S4 3 / S5 4 = **15/25**, unchanged. One fired channel, S5; two events (Firmus and Volta under Will's B choice). WQ-464 retains 4.
 **Domain:** AI-capex / semiconductor / memory systemic transmission; shared demand root counted once.
-**As of:** 2026-10-26T23:06:09-04:00 | **STATUS commit:** dd78aa8d1
-**Variant:** FULL. Will-directed residual studies: GOOGL method and primary USD issuance inventory finished; exact market-wide matched denominator remains INCOMPLETE. Historical filing-bound failure retained; no predictive GOOGL 10-Q interval or new sweep cadence. No market refresh, trigger, score or trade change. Source limits and prior financing/news evidence retained.
+**As of:** 2026-10-26T23:40:18-04:00 | **STATUS commit:** 00f36db08
+**Variant:** FULL. Final closeout at Will's request. Primary Anthropic pretraining security delay integrated with dates/model/distinctness and contract-effect limits; 11 late packets consumed. Google method and USD inventory remain complete; exact market-wide denominator remains INCOMPLETE. No new market refresh, trigger, score, trade, monitor or research commission.
 
 ## CROSS-DOMAIN
 
@@ -20,6 +20,8 @@
 | ISHM | Two J1 handoffs consumed: Q2 equipment +13.4%, information processing +7.6%, computers -6.7% q/q SAAR, September 30 revised BEA vintage. Owner report inspected; original XLS not independently read. No AI allocation or additive chained components; domestic/import/real pairing awaits owner outputs. | KB-308; late-startup report |
 
 ## VIEW
+
+Closeout context: Anthropic original S-1 discloses a recent pretraining delay exceeding one month for model-weight security. Dates/model and distinctness versus prior pauses are unspecified; no named compute-contract change or verified theft is established. Existing safety/demand gate remains NOT FIRED and pause count unchanged [KB-316]. Source-qualified capability/alternative-compute and cyber reports do not establish current AI-demand displacement or provider losses.
 
 Long-tenor parent borrowing is measured: $132B gross registered USD notes, $54.25B at original maturity of at least twenty years. Successful funding counters a universal capital-closure claim, but gross principal cannot become AI spending, net duration supply or a measured Treasury-yield impact. A public five-name, unspecified-cutoff maturity mix is not the exact market-wide denominator this four-name test requires. That component remains incomplete. Prior Nebius/PG&E/Micron conclusions and shared-demand-root discipline remain valid.
 

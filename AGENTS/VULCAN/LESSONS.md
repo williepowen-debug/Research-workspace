@@ -70,3 +70,5 @@
 
 | L-78 | 2026-10-26 | A historical minimum can be broken by the next filing. GOOGL expanding-minimum misses 3/30 rolling tests; same-quarter conditioning misses 3/24. Retire the predictive promise without hiding FAIL, fitting an offset or manufacturing a new sweep schedule. Calendar coverage is not forecasting skill. | KB-309; CADENCE_METHOD.md; CADENCE_ROLLING.tsv |
 | L-79 | 2026-10-26 | Original maturity share is not market share, modified duration, AI allocation or causal yield impact. Match cutoff, cohort and instrument denominator; keep missing market-wide data incomplete rather than closing the study with a similar publisher percentage. General-corporate proceeds do not quantify refinancing. | KB-310..312; ISSUANCE.md |
+
+| L-80 | 2026-10-26 | A disclosed recent operating delay has no independent event count until dates and distinctness are established. Anthropic security-delay language does not supply a named compute-contract change, theft or capex cut; retain the live gate and historical count. | KB-316; original S-1; WALTER SIG-W-20261027-004 |
