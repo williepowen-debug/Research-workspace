@@ -1,5 +1,6 @@
 """Behavior tests for the personal launcher; never invoke a real agent/model."""
 import contextlib
+import base64
 import importlib.util
 import io
 import json
@@ -63,7 +64,7 @@ class LauncherTests(unittest.TestCase):
                         PYTHONDONTWRITEBYTECODE='1')
 
     def cli(self, *args, env=None):
-        return subprocess.run([sys.executable, str(SCRIPTS / 'agents.py'), '--config', str(self.config), *args],
+        return subprocess.run([sys.executable, str(SCRIPTS / 'agents.py'), '--config', str(self.config), '--same-window', *args],
                               env=env or self.env, text=True, capture_output=True, timeout=15)
 
     def test_real_dispatch_preserves_cwd_and_literal_task(self):
@@ -164,20 +165,20 @@ class LauncherTests(unittest.TestCase):
 
     def test_menu_uses_selected_runtime_and_resume(self):
         with patch.object(agents.sys.stdin, 'isatty', return_value=True), \
-             patch('builtins.input', side_effect=['fixture', 'c', '2']), \
+             patch('builtins.input', side_effect=['fixture', 'c', '2', 'q']), \
              patch.object(agents, 'validate_plan'), patch.object(agents, 'execute', return_value=0) as run, \
              contextlib.redirect_stdout(io.StringIO()):
-            rc = agents.main(['--config', str(self.config)])
+            rc = agents.main(['--config', str(self.config), '--same-window'])
         self.assertEqual(rc, 0)
         self.assertEqual(run.call_args.args[0].runtime, 'claude')
         self.assertEqual(run.call_args.args[0].action, 'resume')
 
     def test_group_menu_and_cancellation(self):
-        for answers, expected_calls in [(['1', '1', '', '1'], 1), (['q'], 0), (['fixture', 'q'], 0)]:
+        for answers, expected_calls in [(['1', '1', '', '1', 'q'], 1), (['q'], 0), (['fixture', 'q'], 0)]:
             with patch.object(agents.sys.stdin, 'isatty', return_value=True), \
                  patch('builtins.input', side_effect=answers), patch.object(agents, 'validate_plan'), \
                  patch.object(agents, 'execute', return_value=0) as run, contextlib.redirect_stdout(io.StringIO()):
-                rc = agents.main(['--config', str(self.config)])
+                rc = agents.main(['--config', str(self.config), '--same-window'])
             self.assertEqual(rc, 0)
             self.assertEqual(run.call_count, expected_calls)
 
@@ -196,7 +197,7 @@ class LauncherTests(unittest.TestCase):
         release = self.base / 'release'
         env = dict(self.env, WAIT_FOR_RELEASE=str(release))
         proc = subprocess.Popen([sys.executable, str(SCRIPTS / 'agents.py'), '--config', str(self.config),
-                                 'fixture', '--new'], env=env, stdout=subprocess.PIPE,
+                                 'fixture', '--new', '--same-window'], env=env, stdout=subprocess.PIPE,
                                 stderr=subprocess.PIPE, text=True, start_new_session=True)
         try:
             deadline = time.monotonic() + 5
@@ -227,6 +228,92 @@ class LauncherTests(unittest.TestCase):
         result = self.cli('fixture', '--new', env=dict(self.env, XDG_CACHE_HOME=str(cache)))
         self.assertEqual(result.returncode, 2)
         self.assertFalse(self.capture.exists())
+
+    def test_window_command_has_new_window_title_and_encoded_paths(self):
+        plan = agents.build_plan(self.entry, None, 'new', 'do not interpret ; & $()')
+        request = self.base / "space ' ; &" / 'request.json'
+        with patch.object(agents.shutil, 'which', side_effect=lambda name: name), \
+             patch.dict(os.environ, {'WSL_DISTRO_NAME': 'Ubuntu'}):
+            command = agents.window_command(plan, request)
+        self.assertIn('-EncodedCommand', command)
+        script = base64.b64decode(command[-1]).decode('utf-16le')
+        self.assertIn('-w new new-tab', script)
+        self.assertIn('FIXTURE - Codex Sol', script)
+        self.assertIn('--suppressApplicationTitle', script)
+        self.assertIn('--exec', script)  # WSL's bare -- still goes through the default shell.
+        self.assertNotIn(str(request), script)
+        self.assertNotIn('do not interpret', script)
+
+    def test_window_handoff_exact_task_lock_and_single_use(self):
+        task = 'quotes " \' ; & $(touch nope)\nnext line'
+        plan = agents.build_plan(self.entry, None, 'new', task)
+        requested = []
+        def command(_plan, request):
+            requested.append(request)
+            return ['fake-terminal']
+        real_run = subprocess.run
+        def transport(cmd, **kwargs):
+            self.assertEqual(cmd, ['fake-terminal'])
+            result = real_run([sys.executable, str(SCRIPTS / 'agents.py'), '--window-request', str(requested[-1])],
+                              env=self.env, capture_output=True, text=True, timeout=5)
+            self.assertEqual(result.returncode, 0, result.stderr)
+            return subprocess.CompletedProcess(cmd, 0, '', '')
+        with patch.dict(os.environ, self.env), patch.object(agents, 'window_command', side_effect=command), \
+             patch.object(agents.subprocess, 'run', side_effect=transport), contextlib.redirect_stdout(io.StringIO()):
+            self.assertEqual(agents.open_window(plan), 0)
+        capture = json.loads(self.capture.read_text())
+        self.assertEqual(capture['args'][-1], 'Read HANDOFF.md.\n\nWill\'s task: ' + task)
+        self.assertEqual(capture['cwd'], str(self.project))
+        replay = real_run([sys.executable, str(SCRIPTS / 'agents.py'), '--window-request', str(requested[-1])],
+                          env=self.env, text=True, capture_output=True)
+        self.assertEqual(replay.returncode, 2)
+        self.assertIn('already claimed', replay.stderr)
+
+    def test_window_errors_and_missing_ack_are_not_success(self):
+        plan = agents.build_plan(self.entry, None, 'new')
+        for result, expected in [(subprocess.CompletedProcess([], 7, '', 'launch failure'), 'failed'),
+                                 (subprocess.CompletedProcess([], 0, '', ''), 'not confirmed')]:
+            with patch.dict(os.environ, self.env), patch.object(agents, 'window_command', return_value=['fake']), \
+                 patch.object(agents.subprocess, 'run', return_value=result):
+                with self.assertRaisesRegex(agents.LaunchError, expected):
+                    agents.open_window(plan, timeout=.01)
+
+    def test_window_child_lock_refusal_is_reported(self):
+        plan = agents.build_plan(self.entry, None, 'new')
+        requested = []
+        def command(_plan, request):
+            requested.append(request)
+            return ['fake']
+        real_run = subprocess.run
+        def transport(cmd, **kwargs):
+            # Another launch can acquire the folder after the menu precheck.
+            with agents.session_lock(plan, self.base / 'cache/research-agent-launcher'):
+                result = real_run([sys.executable, str(SCRIPTS / 'agents.py'), '--window-request', str(requested[-1])],
+                                  env=self.env, capture_output=True, text=True, timeout=5)
+                self.assertEqual(result.returncode, 2)
+            return subprocess.CompletedProcess(cmd, 0, '', '')
+        with patch.dict(os.environ, self.env), patch.object(agents, 'window_command', side_effect=command), \
+             patch.object(agents.subprocess, 'run', side_effect=transport):
+            with self.assertRaisesRegex(agents.LaunchError, 'already owns'):
+                agents.open_window(plan)
+        self.assertFalse(self.capture.exists())
+
+    def test_default_menu_returns_after_launch_and_error(self):
+        choices = ['fixture', '', '1', 'fixture', 'c', '2', 'q']
+        with patch.object(agents.sys.stdin, 'isatty', return_value=True), \
+             patch('builtins.input', side_effect=choices), patch.object(agents, 'validate_plan'), \
+             patch.object(agents, 'execute') as inline, \
+             patch.object(agents, 'open_window', side_effect=[agents.LaunchError('window failed'), 0]) as windows, \
+             contextlib.redirect_stdout(io.StringIO()), contextlib.redirect_stderr(io.StringIO()):
+            self.assertEqual(agents.main(['--config', str(self.config)]), 0)
+        self.assertEqual(windows.call_count, 2)
+        inline.assert_not_called()
+
+    def test_missing_windows_transport_refuses_without_inline_fallback(self):
+        plan = agents.build_plan(self.entry, None, 'new')
+        with patch.object(agents.shutil, 'which', return_value=None):
+            with self.assertRaisesRegex(agents.LaunchError, '--same-window'):
+                agents.window_command(plan, self.base / 'request.json')
 
 
 class InstallerTests(unittest.TestCase):

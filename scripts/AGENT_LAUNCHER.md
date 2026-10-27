@@ -2,15 +2,20 @@
 
 Open a WSL terminal and run `agents`, or double-click **Agent Launcher.cmd** on
 the Windows desktop. Choose an agent, runtime, and **new** or **resume**.
-No model/session starts until you choose an action. Use one terminal per agent.
+The selected agent opens in a **separate Windows Terminal window**, titled with
+its name and runtime. The menu stays open for the next selection. Q closes the
+launcher menu without stopping the agent windows. No session starts until you
+choose an action. Windows Terminal and WSL are required for the default mode.
 
 ```bash
-agents                         # menu
-agents carl                    # CARL, choose new or resume; default Sol
+agents                         # persistent menu; separate agent windows
+agents carl                    # choose new/resume; open a new window on Sol
 agents carl --claude            # CARL on Claude, choose new or resume
 agents stue --sol --new         # start STUE on Sol
 agents polly --resume           # choose a saved POLLY Codex conversation
 agents cato --new               # existing CATO Astra launcher
+agents carl --same-window       # use this terminal instead
+agents --same-window            # menu; run here and return after the agent exits
 agents carl --dry-run           # inspect the command; start nothing
 agents --list                  # configured names and missing folders
 ```
@@ -25,6 +30,12 @@ The task is passed as text after the startup instructions, never evaluated as
 shell code. Resume opens the selected runtime's own session picker; it never
 guesses the newest session. If the agent is already running, return to that
 terminal. For a detached tmux terminal, use `tmux ls` and `tmux attach -t NAME`.
+
+Named commands such as `agents carl --new` return after the new window
+acknowledges its CLI process. This confirms process startup, not login or a
+completed agent boot. If window startup fails or is not confirmed, the launcher
+reports it and never retries automatically; inspect the named window first.
+Without Windows Terminal, use `--same-window`; there is no silent fallback.
 
 ## Defaults and scope
 
@@ -43,7 +54,8 @@ terminal. For a detached tmux terminal, use `tmux ls` and `tmux attach -t NAME`.
   or grant of launch authority. Existing restrictions, including CREED's manual
   permission condition, remain with their owners.
 
-The launcher holds a local file lock while its interactive child CLI runs.
+Each agent window holds a local file lock while its interactive child CLI runs.
+The menu process does not own that lock and can close independently.
 Two launcher windows cannot simultaneously open the same resolved folder, even
 with different runtimes or names. This does **not** detect manually opened
 sessions, a Codex task that outlives its terminal, other launchers, or sessions
@@ -62,6 +74,9 @@ restart occurs. A failed command is reported with its exit code, never retried.
 - `scripts/install_agents.py`: creates the local shortcuts; starts no agents.
 - `~/.local/bin/agents`: machine-local shortcut, outside Git.
 - `~/.cache/research-agent-launcher/`: local lock files (or under `XDG_CACHE_HOME`).
+- `windows/` under that cache: single-use window requests and startup/exit
+  receipts. Requests include the command/task text, are private to the user,
+  and are not synced through Git. A claimed request is never replayed.
 
 Repository paths in the configuration are relative to the checkout. Separate
 projects use `~/...`, resolved against the current user's home. Configuration
@@ -102,5 +117,10 @@ PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover \
 Tests use isolated projects and fake CLI executables; they never call a model.
 Dry-run checks paths, required startup files, and executable presence, not account
 access, model availability, full runtime behavior, or whether another owner is
-running. Installation verification checks file contents; it does not prove a
-Windows desktop click works. Live use is the next observation.
+running. A real Windows Terminal-to-WSL test passed with a harmless fake CLI,
+including an interactive terminal and exact special-character path/task transfer.
+The first test exposed WSL shell parsing; the final route uses `wsl.exe --exec`
+to bypass that shell. Live model/account startup remains the next observation.
+
+Windows Terminal behavior uses Microsoft's documented
+[`-w new`, titles, and `--suppressApplicationTitle`](https://learn.microsoft.com/en-us/windows/terminal/command-line-arguments).

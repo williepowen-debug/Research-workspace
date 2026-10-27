@@ -8,9 +8,11 @@ No process-name/cwd/quiet-Git heuristic is treated as proof an owner is absent.
 from __future__ import annotations
 
 import argparse
+import base64
 from contextlib import contextmanager
-from dataclasses import dataclass
+from dataclasses import dataclass, asdict
 import fcntl
+import getpass
 import hashlib
 import json
 import os
@@ -21,6 +23,8 @@ import shutil
 import signal
 import subprocess
 import sys
+import time
+import uuid
 
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG = Path(__file__).with_name('agents.json')
@@ -195,9 +199,9 @@ def session_lock(plan: Plan, state_dir: Path | None = None):
         os.close(fd)
 
 
-def execute(plan: Plan) -> int:
+def execute(plan: Plan, *, state_dir: Path | None = None, on_started=None) -> int:
     validate_plan(plan)
-    with session_lock(plan):
+    with session_lock(plan, state_dir):
         print(f'{plan.name} | {plan.runtime.upper()} | {plan.action} session\nFolder: {plan.cwd}', flush=True)
         print('Sessions opened outside this launcher are not checked.', flush=True)
         # Inherit the terminal; do not pipe model output or turn this into a daemon.
@@ -206,11 +210,124 @@ def execute(plan: Plan) -> int:
             old_int = signal.signal(signal.SIGINT, lambda *_: None)
             old_term = signal.signal(signal.SIGTERM, lambda *_: child.terminate())
             try:
+                if on_started is not None:
+                    on_started(child.pid)
                 code = child.wait()
             finally:
                 signal.signal(signal.SIGINT, old_int)
                 signal.signal(signal.SIGTERM, old_term)
         return code if code >= 0 else 128 - code
+
+
+def window_title(plan: Plan) -> str:
+    return plan.name + ' - ' + {'sol': 'Codex Sol', 'astra': 'Codex Astra', 'claude': 'Claude'}[plan.runtime]
+
+
+def window_command(plan: Plan, request: Path) -> list[str]:
+    """Windows argv are data, never a CMD program containing the user's task.
+
+    PowerShell starts the Windows app alias on the Windows side. A hex-encoded
+    Python bootstrap keeps paths/semicolons out of Terminal's command parser.
+    Only paths cross the command line; potentially long task text stays in JSON.
+    """
+    powershell = shutil.which('powershell.exe')
+    if not powershell or not shutil.which('wt.exe'):
+        raise LaunchError('Windows Terminal/PowerShell is unavailable. Use --same-window on this machine.')
+    distro = os.environ.get('WSL_DISTRO_NAME')
+    if not distro:
+        raise LaunchError('The WSL distribution is unknown. Use --same-window.')
+    script = str(Path(__file__).resolve())
+    bootstrap = (f'import runpy,sys;sys.argv=[{script!r},"--window-request",{str(request)!r}];'
+                 f'runpy.run_path({script!r},run_name="__main__")')
+    win_args = ['-w', 'new', 'new-tab', '--title', window_title(plan), '--suppressApplicationTitle',
+                'wsl.exe', '-d', distro, '-u', getpass.getuser(), '--exec', sys.executable,
+                '-c', "exec(bytes.fromhex('" + bootstrap.encode().hex() + "'))"]
+    # list2cmdline handles Windows argv quoting; single-quote doubling handles
+    # the outer PowerShell literal. No interpolated PowerShell expressions.
+    argument_line = subprocess.list2cmdline(win_args).replace("'", "''")
+    ps = ("$ErrorActionPreference='Stop';try {Start-Process -FilePath 'wt.exe' "
+          f"-ArgumentList '{argument_line}' -ErrorAction Stop | Out-Null;exit 0"
+          "} catch {[Console]::Error.WriteLine($_.Exception.Message);exit 1}")
+    encoded = base64.b64encode(ps.encode('utf-16le')).decode('ascii')
+    return [powershell, '-NoLogo', '-NoProfile', '-NonInteractive', '-EncodedCommand', encoded]
+
+
+def write_receipt(path: Path, value: dict) -> None:
+    temporary = path.with_suffix('.tmp')
+    temporary.write_text(json.dumps(value))
+    os.replace(temporary, path)
+
+
+def run_window_request(request: Path) -> int:
+    """One requested window owns the child process/lock, never the menu."""
+    receipt = request.with_name('receipt.json')
+    try:
+        # A request is single-use even after its CLI exits. Never replay a wake.
+        with request.with_name('claimed').open('x'):
+            pass
+        data = json.loads(request.read_text())
+        p = data['plan']
+        plan = Plan(p['name'], Path(p['cwd']), p['runtime'], p['action'], p['argv'],
+                    [Path(f) for f in p['required']])
+        # Restore command lookup, not the caller's entire environment/credentials.
+        os.environ['PATH'] = data['path']
+        code = execute(plan, state_dir=Path(data['state_dir']),
+                       on_started=lambda pid: write_receipt(receipt, {'state': 'started', 'pid': pid}))
+        write_receipt(receipt, {'state': 'exited', 'exit_code': code})
+    except FileExistsError:
+        print('This window request was already claimed; no second agent started.', file=sys.stderr)
+        return 2
+    except (LaunchError, OSError, ValueError, KeyError, TypeError) as exc:
+        write_receipt(receipt, {'state': 'error', 'message': str(exc)})
+        print(f'Launcher: {exc}', file=sys.stderr)
+        code = 2
+    if code and sys.stdin.isatty():
+        print(f'Agent window exited with code {code}.')
+        try:
+            input('Press Enter to close this window. ')
+        except (EOFError, KeyboardInterrupt):
+            pass
+    return code
+
+
+def open_window(plan: Plan, timeout: float = 10) -> int:
+    validate_plan(plan)
+    state_dir = cache_folder()
+    # Refuse known overlap before opening an unnecessary window. This is only
+    # a precheck; the new-window worker acquires the authoritative local lock.
+    with session_lock(plan, state_dir):
+        pass
+    request = state_dir / 'windows' / uuid.uuid4().hex / 'request.json'
+    command = window_command(plan, request)  # validate transport before persisting a request
+    request.parent.mkdir(parents=True, mode=0o700)
+    p = asdict(plan)
+    p['cwd'] = str(plan.cwd)
+    p['required'] = [str(f) for f in plan.required]
+    with request.open('x') as stream:
+        os.chmod(request, 0o600)
+        json.dump({'plan': p, 'path': os.environ.get('PATH', ''), 'state_dir': str(state_dir)}, stream)
+    try:
+        result = subprocess.run(command, capture_output=True, text=True, timeout=15)
+    except subprocess.TimeoutExpired as exc:
+        raise LaunchError(f'Window request timed out; inspect {window_title(plan)} before retrying. Request: {request.parent}') from exc
+    if result.returncode:
+        raise LaunchError(f'Window request failed ({result.returncode}): {result.stderr.strip() or result.stdout.strip()}')
+    receipt = request.with_name('receipt.json')
+    deadline = time.monotonic() + timeout
+    while time.monotonic() < deadline:
+        if receipt.exists():
+            status = json.loads(receipt.read_text())
+            if status.get('state') == 'error':
+                raise LaunchError(f'Agent window could not start: {status["message"]}')
+            if status.get('state') == 'exited' and status.get('exit_code'):
+                raise LaunchError(f'Agent window exited with code {status["exit_code"]}; inspect that window.')
+            if status.get('state') in ('started', 'exited'):
+                print(f'Opened {window_title(plan)} in a separate window.\n'
+                      'CLI process acknowledged; login and agent boot are not verified.')
+                return 0
+        time.sleep(.05)
+    raise LaunchError(f'Window requested but startup is not confirmed. Inspect {window_title(plan)} before retrying. '
+                      f'Request: {request.parent}')
 
 
 def show_agents(entries: list[dict], root: Path = ROOT) -> None:
@@ -292,46 +409,63 @@ def main(argv: list[str] | None = None) -> int:
     actions = parser.add_mutually_exclusive_group()
     actions.add_argument('--new', action='store_const', const='new', dest='action')
     actions.add_argument('--resume', action='store_const', const='resume', dest='action')
+    windows = parser.add_mutually_exclusive_group()
+    windows.add_argument('--same-window', action='store_true', help='Run here instead of opening a new window.')
+    windows.add_argument('--new-window', action='store_true', help='Open a separate Windows Terminal window (default).')
     parser.add_argument('--task', help='Task to append after startup instructions (new sessions only).')
     parser.add_argument('--list', action='store_true', help='List configured agents without launching.')
     parser.add_argument('--dry-run', action='store_true', help='Validate and print the command without running it; defaults to new.')
     parser.add_argument('--config', type=Path, default=CONFIG, help='Use another launch configuration.')
+    parser.add_argument('--window-request', type=Path, help=argparse.SUPPRESS)
     args = parser.parse_args(argv)
+    if args.window_request:
+        return run_window_request(args.window_request)
     try:
         entries = load_config(args.config)
         if args.list:
             show_agents(entries)
             return 0
-        if args.agent:
-            entry = next((e for e in entries if e['name'] == args.agent.upper()), None)
-            if entry is None:
-                raise LaunchError(f'Unknown agent {args.agent!r}. Use agents --list.')
-        else:
-            if not sys.stdin.isatty():
-                raise LaunchError('Open an interactive terminal for the menu, or give an agent name and --new/--resume.')
-            entry = choose_agent(entries)
-        runtime = args.runtime
-        if runtime is None and not args.agent:
-            runtime = choose_runtime(entry)
-        action = args.action
-        if action is None:
-            if args.dry_run:
-                action = 'new'
-            elif sys.stdin.isatty():
-                action = choose_action()
-            else:
-                raise LaunchError('Specify --new or --resume outside an interactive terminal.')
-        plan = build_plan(entry, runtime, action, args.task)
-        validate_plan(plan)
-        if args.dry_run:
-            print(f'DRY RUN — {plan.name}, {plan.runtime}, {plan.action}; no session started.\n'
-                  f'cd {shlex.quote(str(plan.cwd))} && {shlex.join(plan.argv)}\n'
-                  'Checked: folder, required startup files, executable on PATH. '
-                  'Not checked: login, model access, running owners, or live boot.')
-            return 0
-        return execute(plan)
+        menu = not args.agent and sys.stdin.isatty() and not args.dry_run
+        while True:
+            try:
+                if args.agent:
+                    entry = next((e for e in entries if e['name'] == args.agent.upper()), None)
+                    if entry is None:
+                        raise LaunchError(f'Unknown agent {args.agent!r}. Use agents --list.')
+                else:
+                    if not sys.stdin.isatty():
+                        raise LaunchError('Open an interactive terminal for the menu, or give an agent name and --new/--resume.')
+                    entry = choose_agent(entries)
+                runtime = args.runtime
+                if runtime is None and not args.agent:
+                    runtime = choose_runtime(entry)
+                action = args.action
+                if action is None:
+                    if args.dry_run:
+                        action = 'new'
+                    elif sys.stdin.isatty():
+                        action = choose_action()
+                    else:
+                        raise LaunchError('Specify --new or --resume outside an interactive terminal.')
+                plan = build_plan(entry, runtime, action, args.task)
+                validate_plan(plan)
+                if args.dry_run:
+                    print(f'DRY RUN — {plan.name}, {plan.runtime}, {plan.action}; no session started.\n'
+                          f'Destination: {"this window" if args.same_window else "new Windows Terminal window"}\n'
+                          f'cd {shlex.quote(str(plan.cwd))} && {shlex.join(plan.argv)}\n'
+                          'Checked: folder, required startup files, executable on PATH. '
+                          'Not checked: window transport, login, model access, running owners, or live boot.')
+                    return 0
+                code = execute(plan) if args.same_window else open_window(plan)
+                if not menu:
+                    return code
+                print('\nReady to open another agent window.\n')
+            except (LaunchError, OSError) as exc:
+                if not menu:
+                    raise
+                print(f'Launcher: {exc}\n', file=sys.stderr)
     except Cancelled:
-        print('\nNo agent started.')
+        print('\nLauncher closed. Existing agent windows keep running.')
         return 0
     except (LaunchError, OSError) as exc:
         print(f'Launcher: {exc}', file=sys.stderr)
