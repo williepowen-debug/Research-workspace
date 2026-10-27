@@ -1,0 +1,25 @@
+row_kind	reader	path	mode	source_boot_step	declared_by	declared_on	notes
+READ	FERT	CLAUDE.md	whole	FERT:startup explicit load	FERT	2026-10-26	Read whole; root/local instruction perimeter explicitly recovered in this Codex session.
+READ	FERT	AGENTS.md	whole	FERT:startup explicit load	FERT	2026-10-26	Read whole; root/local instruction perimeter explicitly recovered in this Codex session.
+READ	FERT	USER.md	whole	FERT:startup explicit load	FERT	2026-10-26	Read whole; root/local instruction perimeter explicitly recovered in this Codex session.
+READ	FERT	PROME/COMPLETION_SPEC.md	whole	FERT:startup explicit load	FERT	2026-10-26	Read whole; root/local instruction perimeter explicitly recovered in this Codex session.
+READ	FERT	AGENTS/FERT/CLAUDE.md	whole	FERT:startup explicit load	FERT	2026-10-26	Read whole; root/local instruction perimeter explicitly recovered in this Codex session.
+READ	FERT	PROME/ORCHESTRATION_PLAYBOOK.md	scoped	FERT:runtime selection	FERT	2026-10-26	Runtime mechanics section, not entire playbook.
+READ	FERT	AGENTS/FERT/STATUS.md	whole	FERT:BOOT-4	FERT	2026-10-26	
+READ	FERT	AGENTS/FERT/workbook/TRIGGERS.tsv	whole	FERT:SPAWNED-MODE-1	FERT	2026-10-26	Explicit boot card mandates the whole register when coordinator-spawned. The whole-read mode must coexist with the script-summary path declaration and takes priority for cap review.
+READ	FERT	AGENTS/FERT/inbox/PROTOCOL.md	whole	FERT:BOOT-3	FERT	2026-10-26	
+READ	FERT	AGENTS/FERT/inbox/RECEIPT.md	whole	FERT:BOOT-3	FERT	2026-10-26	Current receipt workflow read before drain.
+READ	FERT	AGENTS/FERT/inbox/*.md	whole	FERT:BOOT-3 conditional	FERT	2026-10-26	Pending incoming packets; processed archives excluded. PROTOCOL and RECEIPT also separately declared; reader should deduplicate concrete paths.
+READ	FERT	AGENTS/FERT/inbox/WALTER/*.md	whole	FERT:BOOT-3b conditional	FERT	2026-10-26	Only pending WALTER items; processed archives excluded.
+READ	FERT	AGENTS/FERT/board_log.tsv	grep	FERT:BOOT-3b	FERT	2026-10-26	Check consumed signal IDs and append own receipts; not whole-read at every boot.
+READ	FERT	AGENTS/FERT/workbook/*.tsv	summary	FERT:BOOT-2 ledger/prediction/trigger reader	FERT	2026-10-26	Scripts compute bounded findings; full rows do not enter boot context. Research reads are scoped separately on demand; whole research tables are not routine boot inputs.
+READ	FERT	AGENTS/FERT/data/*.tsv	summary	FERT:BOOT-2 ledger/prediction/trigger reader	FERT	2026-10-26	Scripts compute bounded findings; full rows do not enter boot context. Research reads are scoped separately on demand; whole research tables are not routine boot inputs.
+READ	FERT	AGENTS/FERT/companies/CF/*.tsv	summary	FERT:BOOT-2 ledger/prediction/trigger reader	FERT	2026-10-26	Scripts compute bounded findings; full rows do not enter boot context. Research reads are scoped separately on demand; whole research tables are not routine boot inputs.
+READ	FERT	AGENTS/FERT/TRADE.md	summary	FERT:BOOT-2 trade staleness	FERT	2026-10-26	Existing frozen trade read by staleness script; only verdict enters boot context.
+READ	FERT	AGENTS/FERT/workbook/LEDGER_GLOB	summary	FERT:BOOT-2 ledger reader	FERT	2026-10-26	Parsed path declarations, not whole file contents in boot output.
+READ	FERT	AGENTS/WALTER/registry/CORRECTIONS.tsv	summary	FERT:BOOT-2b	FERT	2026-10-26	Corrections reader emits applicable finding/quiet summary; on a named correction read its exact source packet.
+READ	FERT	AGENTS/FERT/registry/corrections_receipts.tsv	summary	FERT:BOOT-2b	FERT	2026-10-26	Corrections reader emits applicable finding/quiet summary; on a named correction read its exact source packet.
+READ	FERT	docs/GIT_WORKTREE_PROCEDURES.md	whole	FERT:BOOT-1 / closeout	FERT	2026-10-26	Required before pull/commit; read in full this session.
+READ	FERT	AGENTS/DAEDALUS/BLUEPRINTS/STATE_VOCABULARY.md	scoped	FERT:conditional token writing	FERT	2026-10-26	Read applicable class definitions; no assumption of whole read at normal boot.
+READ	FERT	AGENTS/VOCABULARIES.tsv	scoped	FERT:conditional KB writing	FERT	2026-10-26	NETWORK_GROUPS/schema section before writes; full KB never mandatory boot read.
+ATTESTATION	FERT	AGENTS/FERT/CLAUDE.md	manifest-complete	FERT:BOOT-1..6 and explicit runtime preamble	FERT	2026-10-26	Owner enumeration of prescribed boot and conditional closeout reads after reading charter/boot.py/ledger_staleness/corrections mechanisms. Does not claim all ad hoc research or fleet presence. Registry ingestion pending PROME. New README/company/raw source files are on-demand research, not boot requirements.

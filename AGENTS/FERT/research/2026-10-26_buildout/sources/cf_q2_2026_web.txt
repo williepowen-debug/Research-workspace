@@ -1,0 +1,261 @@
+www.sec.gov (https://www.sec.gov/Archives/edgar/data/1324404/000132440426000017/cf-08052026_ex991xearnings.htm)
+citeturn24view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.sec.gov/Archives/edgar/data/1324404/000132440426000017/cf-08052026_ex991xearnings.htm","lineno":null}); Total lines: 865
+L0: EX-99.1 2 cf-08052026_ex991xearnings.htm EX-99.1 Document
+L1: 
+L2: 【0†Image: cflogoa.jpg】
+L3: 
+L4:  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+L5:  |  |  |  | 2375 Waterview Drive
+L6:  |  |  |  | Northbrook, IL 60062
+L7:  |  |  |  | www.cfindustries.com
+L8: 
+L9: CF Industries Holdings, Inc. Reports First Half 2026 Net Earnings of $1.34 Billion, Adjusted EBITDA of $2.18 Billion
+L10: 
+L11: Strong Operations: Production Achieved 98% of Available Ammonia Capacity
+L12: 
+L13: Global Nitrogen Supply-Demand Fundamentals Remain Constructive into 2027
+L14: Blue Point One Receives Permits, Construction Commencing in August
+L15: 
+L16: NORTHBROOK, Ill.—August 5, 2026—CF Industries Holdings, Inc. (NYSE: CF), a leading global manufacturer of hydrogen and nitrogen products, today announced results for the first half and second quarter ended June 30, 2026.
+L17: 
+L18: Highlights
+L19: •First half 2026 net earnings(1) of $1.34 billion, or $8.71 per diluted share, EBITDA(2) of $2.17 billion, and adjusted EBITDA(2) of $2.18 billion. First half 2026 financial results include a gain of approximately $170 million from a litigation settlement
+L20: 
+L21: •Second quarter 2026 net earnings of $727 million, or $4.73 per diluted share, EBITDA of $1.17 billion, and adjusted EBITDA of $1.19 billion
+L22: •Trailing twelve months net cash from operating activities of $2.98 billion; free cash flow(3) of $1.82 billion for same period, which includes cash inflows and outflows associated with the Blue Point One joint venture
+L23: 
+L24: •Repurchased 2.0 million shares for $230 million during the second quarter of 2026
+L25: 
+L26: •Declared quarterly dividend of $0.60 per share of common stock in July 2026, a 20% increase over prior quarterly dividend
+L27: •In July 2026, received permits necessary to commence construction at Blue Point Complex in August
+L28: “The CF Industries team operated safely and delivered excellent operational results despite rapidly changing customer dynamics,” said Chris Bohn, president and chief executive officer, CF Industries Holdings, Inc. “We believe the Company is positioned extremely well in the near- and longer-term, with our premium-grade North American asset base, disciplined strategic growth opportunities, including Blue Point, and strong balance sheet.
+L29: As a result, we believe CF Industries will continue to generate substantial free cash flow, enabling us to build on our strong track record of investing in high-return initiatives and returning capital to shareholders through share repurchases and our increased quarterly dividend.”
+L30: Operations Overview
+L31: 
+L32: The Company’s trailing twelve-month recordable incident rate was 0.16 incidents per 200,000 work hours as of June 30, 2026.
+L33: 
+L34: Gross ammonia production for the first half and second quarter of 2026 was approximately 4.9 million and 2.4 million tons, respectively. Year-to-date, the Company has operated at a 98% utilization rate of available ammonia capacity.(4)
+L35: The Company expects gross ammonia production for the full year 2026 to be approximately 9.5 million tons, which includes the impact of the ongoing outage at the Yazoo City, Mississippi, Complex as a result of an incident that occurred in November 2025.
+L36: 
+L37:     1
+L38: 
+L39: * * *
+L40: Management expects the Yazoo City Complex to resume ammonia, ammonium nitrate solution, nitric acid, urea ammonium nitrate solution (UAN) and urea liquor production during the first half of 2027. The Company is finalizing cost estimates for restoration of operations at the facility and expects a substantial portion of the cost will be covered by insurance. The Yazoo City Complex carbon capture and sequestration project is proceeding as scheduled and is expected to start up in 2028.
+L41: Financial Results Overview
+L42: 
+L43: First Half 2026 Financial Results
+L44: For the first half of 2026, net earnings attributable to common stockholders were $1.34 billion, or $8.71 per diluted share, EBITDA was $2.17 billion, and adjusted EBITDA was $2.18 billion. These results compare to first half of 2025 net earnings attributable to common stockholders of $698 million, or $4.20 per diluted share, EBITDA of $1.37 billion, and adjusted EBITDA of $1.41 billion. First half 2026 financial results include a gain of approximately $170 million from a litigation settlement.
+L45: Net sales in the first half of 2026 were $4.21 billion compared to $3.55 billion in the first half of 2025. Average selling prices for the first half of 2026 were higher than in the first half of 2025 due to a tight global nitrogen supply-demand balance, which was further tightened by supply disruptions related to the conflict with Iran.
+L46: Sales volumes were 11% lower in the first half of 2026 than in the first half of 2025 due primarily to lower UAN, ammonium nitrate (AN), and ammonia sales, partially offset by higher granular urea and other sales. Excluding the impact of lost product availability from the Company’s Yazoo City Complex, sales volumes in the first half of 2026 were approximately 5% lower than the first half of 2025.
+L47: Cost of sales for the first half of 2026 was higher compared to the first half of 2025 due primarily to higher maintenance costs, including the extended outage at the Company’s Yazoo City Complex, and higher realized natural gas costs, including the impact of realized derivatives, partially offset by the impact of lower sales volumes.
+L48: The average cost of natural gas, including the impact of realized derivatives, reflected in the Company’s cost of sales was $4.01 per MMBtu in the first half of 2026 compared to the average cost of natural gas in cost of sales of $3.52 per MMBtu in the first half of 2025.
+L49: 
+L50: Second Quarter 2026 Financial Results
+L51: For the second quarter of 2026, net earnings attributable to common stockholders were $727 million, or $4.73 per diluted share, EBITDA was $1.17 billion, and adjusted EBITDA was $1.19 billion. These results compare to second quarter of 2025 net earnings attributable to common stockholders of $386 million, or $2.37 per diluted share, EBITDA of $757 million, and adjusted EBITDA of $761 million.
+L52: Net sales in the second quarter of 2026 were $2.22 billion compared to $1.89 billion in the second quarter of 2025. Average selling prices were higher for all segments in the second quarter of 2026 compared to the second quarter of 2025 due to a tight global nitrogen supply-demand balance, which was further tightened by supply disruptions related to the conflict with Iran.
+L53: Sales volumes were 15% lower in the second quarter of 2026 compared to the second quarter of 2025 due primarily to lower UAN, AN and ammonia sales, partially offset by higher granular urea and other sales. Excluding the impact of lost product availability from the Company’s Yazoo City Complex, sales volumes in the second quarter of 2026 were approximately 9% lower than the second quarter of 2025.
+L54: Cost of sales for the second quarter of 2026 was lower compared to the second quarter of 2025 due primarily to the impact of lower sales volumes, partially offset by higher maintenance costs, including the extended outage at the Company’s Yazoo City Complex.
+L55: The average cost of natural gas, including the impact of realized derivatives, reflected in the Company’s cost of sales was $3.37 per MMBtu in the second quarter of 2026 compared to the average cost of natural gas in cost of sales of $3.36 per MMBtu in the second quarter of 2025.
+L56: 
+L57: Capital Management
+L58: On April 8, 2025, CF Industries announced that it formed a joint venture (Blue Point One joint venture) with JERA Co., Inc. (JERA) and Mitsui & Co., Ltd. (Mitsui) for the construction, production and offtake of low-carbon ammonia. CF Industries holds 40% ownership, JERA holds 35% ownership, and Mitsui holds 25% ownership in the joint venture, with the joint venture funded by the equity partners according to their ownership percentages.
+L59: 
+L60:     2
+L61: 
+L62: * * *
+L63: CF Industries consolidates the Blue Point One joint venture in its consolidated financial statements, with the combined 60% interest owned by JERA and Mitsui recorded as noncontrolling interests. CF Industries’ consolidated financial statements at June 30, 2026, included the cash held by the joint venture, capital contributions from the joint venture equity partners and the capital expenditures of the joint venture.
+L64: 
+L65: Cash and Cash Equivalents
+L66: As of June 30, 2026, CF Industries had cash and cash equivalents of $2.48 billion, of which $341 million was held by the Blue Point One joint venture.
+L67: 
+L68: Capital Expenditures
+L69: 
+L70: Capital expenditures in the second quarter and first half of 2026 were $271 million and $494 million, respectively, of which $78 million and $143 million, respectively, was attributable to the Blue Point One joint venture.
+L71:  |  |  |  |  |  |  |  |  |  |  |
+L72:  | Three months ended June 30, 2026  |  | Six months ended June 30, 2026
+L73:  | (in millions)
+L74: Total Capital Expenditures  | $  | 271   |  |  | $  | 494   |
+L75: CF Industries Existing Operations (100% attributable to CF Industries)  | 146   |  |  | 278   |
+L76: Total Blue Point One Joint Venture (40% attributable to CF Industries)  | 78   |  |  | 143   |
+L77: Blue Point Common Facilities (100% attributable to CF Industries)  | 39   |  |  | 59   |
+L78: Capitalized Interest  | 8   |  |  | 14   |
+L79: Reflecting the consolidation of the Blue Point One joint venture into CF Industries’ financial statements, management projects capital expenditures for full year 2026 will be approximately $1.3 billion, of which approximately $550 million is related to activities within the Company’s existing network and approximately $600 million is related to total estimated capital expenditures in 2026 of the Blue Point One joint venture, which will be funded by each joint venture partner according to their ownership percentage.
+L80: The Company expects to have approximately $150 million in capital expenditures in 2026 related to its wholly owned Blue Point common facilities. For the full year, management projects capital expenditures for CF Industries, excluding the portion of capital expenditures funded by JERA and Mitsui, to be approximately $950 million.
+L81: Additionally, the Company expects to record approximately $40 million of capitalized interest as capital expenditures. Interest expense will be reduced by a corresponding amount.
+L82: 
+L83: Share Repurchase Program
+L84: The Company repurchased 2.2 million shares for $245 million during the first half of 2026, which includes the repurchase of 2.0 million shares for $230 million during the second quarter of 2026. Since CF Industries commenced its current $2 billion share repurchase program in October 2025, the Company has repurchased 5.6 million shares for approximately $523 million. As of June 30, 2026, approximately $1.48 billion remains under the program, which expires in December 2029.
+L85: 
+L86: CHS Inc. Distribution
+L87: On July 31, 2026, the Board of Managers of CF Industries Nitrogen, LLC approved a semi-annual distribution payment to CHS Inc. of $246 million for the distribution period ended June 30, 2026. The distribution was paid on July 31, 2026.
+L88: 
+L89: Nitrogen Market Outlook
+L90: 
+L91: Global nitrogen prices increased from mid-February 2026 into the second quarter of 2026 as the conflict with Iran further tightened an already constrained global supply-demand balance during the peak Northern Hemisphere
+L92: 
+L93:     3
+L94: 
+L95: * * *
+L96: application season. By the end of the second quarter, seasonal declines in Northern Hemisphere demand and expectations for returning Middle East supply pushed nitrogen prices back to pre-conflict levels.
+L97: 
+L98: Based on global production disruptions in 2026 and supportive grain stocks-to-use ratios, management expects nitrogen supply to remain constrained and demand to remain constructive through the end of 2026 and into 2027.
+L99: Ongoing geopolitical risks for major nitrogen exporters: CF Industries estimates that the conflict with Iran has reduced Middle East traded nitrogen supply by approximately 4.0 to 4.5 million metric tons of urea and approximately 1 million metric tons of ammonia to date.
+L100: Management expects supply from the region, which typically accounts for 25-30% of globally traded ammonia and 35-40% of globally traded urea, to remain below pre-conflict levels due to continued hostilities, uncertainty around transit through the Strait of Hormuz, and the time required to restore production facilities. The Company also expects higher shipping costs from the region to persist over the longer term.
+L101: Production from nitrogen facilities in Russia also remains at risk from the ongoing Russia-Ukraine war. Management believes nitrogen producers in the Middle East and Russia will face an enduring geopolitical risk premium that adds cost and uncertainty to product distribution.
+L102: European production economics remain challenged: European natural gas prices have increased significantly in recent months due to liquefied natural gas supply uncertainty, persistent heat waves, and gas storage levels below the five-year average. The Company believes current natural gas prices will further pressure marginal European nitrogen production and support the global clearing price needed to meet demand.
+L103: Chinese urea exports in second-half 2026: Management expects steady Chinese urea exports from July through October 2026. Export quotas and price floors introduced in May 2026 remain in effect, although they have been revised. The Company projects 4-6 million metric tons of Chinese urea exports in 2026, with actual volumes dependent on government policy, domestic pricing, and the strength of fall restocking demand.
+L104: Demand recovery: Lower nitrogen prices entering the second half of 2026 are expected to support strong demand into 2027. India, Southeast Asia, and other regions that may have deferred purchases earlier in the year are expected to import urea at or above second-half 2025 levels. Brazilian urea imports are also projected to be robust in the second half of 2026 following lower urea import demand in the first half of 2026 due to operating domestic capacity, product substitution, and local credit constraints.
+L105: Steady demand in North America: Based on strong uptake of the Company’s ammonia and UAN fill programs in July 2026 as well as inventory in the North American nitrogen channel projected to be lower than average, management believes nitrogen demand in North America for the 2027 growing season will be firm.
+L106: The Company continues to expect the global nitrogen supply-demand balance to tighten over the long term, as capacity additions under construction are not projected to keep pace with demand growth over the next four years. Additionally, the cost of building new nitrogen capacity has increased in other regions with low-cost natural gas, which raises management’s mid-cycle EBITDA expectations for the Company.
+L107: 
+L108: Strategic Initiatives Update
+L109: 
+L110: Blue Point One Joint Venture with JERA and Mitsui
+L111: The Blue Point One joint venture is constructing at CF Industries’ Blue Point Complex in Modeste, Louisiana, an autothermal reforming ammonia production facility with a carbon dioxide (CO2) dehydration and compression unit to prepare captured CO2 for transportation and sequestration, and CF Industries will build scalable infrastructure to supply the ammonia production facility with services, including production storage and vessel loading. In July 2026, the State of Louisiana and the U.S.
+L112: Army Corps of Engineers issued permits required for civil construction activities for the ammonia plant and common infrastructure. Permitted construction is commencing in August.
+L113: Courtright Diesel Exhaust Fluid (DEF) FEED Study
+L114: 
+L115: CF Industries has signed an agreement with thyssenkrupp Uhde for a front-end engineering and engineering design (FEED) study for the construction of a new urea liquor upgrade plant at its Courtright, Ontario, Complex. The project, if a positive final investment decision (FID) is reached, is expected to add incremental DEF capacity of more than 400,000 tons per year. FID is expected in 2027.
+L116: 
+L117: ___________________________________________________
+L118: (1)Certain items recognized during the first half of 2026 impacted the Company’s financial results and their comparability to the prior year period. See the table accompanying this release for a summary of these items.
+L119: 
+L120:     4
+L121: 
+L122: * * *
+L123: (2)EBITDA is defined as net earnings attributable to common stockholders plus interest expense—net, income taxes and depreciation and amortization. See reconciliations of EBITDA and adjusted EBITDA to the most directly comparable GAAP measures in the tables accompanying this release.
+L124: (3)Free cash flow is defined as net cash provided by operating activities, less capital expenditures and distributions to noncontrolling interests plus contributions from noncontrolling interests. See reconciliation of free cash flow to the most directly comparable GAAP measure in the table accompanying this release.
+L125: (4)Available ammonia capacity represents CF Industries’ average annual gross ammonia capacity of its manufacturing network as described in the Company’s 2025 Form 10-K less the average annual gross ammonia capacity of its Yazoo City Complex, which management currently expects will resume operations in the first half of 2027.
+L126: 
+L127:     5
+L128: 
+L129: * * *
+L130: Consolidated Results
+L131:  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+L132:  | Three months ended
+L133:  June 30,  |  | Six months ended
+L134:  June 30,
+L135:  | 2026  |  | 2025  |  | 2026  |  | 2025
+L136:  | (dollars in millions, except per share and per MMBtu amounts)
+L137: Net sales  | $  | 2,222   |  |  | $  | 1,890   |  |  | $  | 4,208   |  |  | $  | 3,553   |
+L138: Cost of sales  | 1,077   |  |  | 1,135   |  |  | 2,317   |  |  | 2,226   |
+L139: Gross margin  | $  | 1,145   |  |  | $  | 755   |  |  | $  | 1,891   |  |  | $  | 1,327   |
+L140:  |  |  |  |  |  |  |
+L141: Gross margin percentage  | 51.5   | %  |  | 39.9   | %  |  | 44.9   | %  |  | 37.3   | %
+L142:  |  |  |  |  |  |  |
+L143: Net earnings attributable to common stockholders  | $  | 727   |  |  | $  | 386   |  |  | $  | 1,342   |  |  | $  | 698   |
+L144:  |  |  |  |  |  |  |
+L145:  |  |  |  |  |  |  |
+L146: Net earnings per diluted share  | 4.73   |  |  | 2.37   |  |  | 8.71   |  |  | 4.20   |
+L147:  |  |  |  |  |  |  |
+L148:  |  |  |  |  |  |  |
+L149: EBITDA(1)  | $  | 1,166   |  |  | $  | 757   |  |  | $  | 2,174   |  |  | $  | 1,374   |
+L150: Adjusted EBITDA(1)  | 1,192   |  |  | 761   |  |  | 2,175   |  |  | 1,405   |
+L151:  |  |  |  |  |  |  |
+L152: Sales volume by product tons (000s)  | 4,252   |  |  | 5,021   |  |  | 8,935   |  |  | 10,025   |
+L153:  |  |  |  |  |  |  |
+L154: Natural gas supplemental data (per MMBtu):  |  |  |  |  |  |  |
+L155: Natural gas costs in cost of sales(2)  | $  | 3.37   |  |  | $  | 3.36   |  |  | $  | 4.22   |  |  | $  | 3.53   |
+L156: Realized derivatives gain in cost of sales(3)  | —   |  |  | —   |  |  | (0.21)  |  |  | (0.01)  |
+L157: Cost of natural gas used for production in cost of sales  | $  | 3.37   |  |  | $  | 3.36   |  |  | $  | 4.01   |  |  | $  | 3.52   |
+L158:  |  |  |  |  |  |  |
+L159:  |  |  |  |  |  |  |
+L160: Average daily market price of natural gas at the Henry Hub  | $  | 2.93   |  |  | $  | 3.16   |  |  | $  | 3.91   |  |  | $  | 3.71   |
+L161:  |  |  |  |  |  |  |
+L162:  |  |  |  |  |  |  |
+L163: Unrealized net mark-to-market (gain) loss on natural gas derivatives  | $  | (2)  |  |  | $  | —   |  |  | $  | (5)  |  |  | $  | 2   |
+L164:  |  |  |  |  |  |  |
+L165: Depreciation and amortization  | 215   |  |  | 232   |  |  | 443   |  |  | 453   |
+L166: Capital expenditures(4)  | 271   |  |  | 245   |  |  | 494   |  |  | 377   |
+L167:  |  |  |  |  |  |  |
+L168: Production volume by product tons (000s):  |  |  |  |  |  |  |
+L169: Ammonia(5)  | 2,397   |  |  | 2,557   |  |  | 4,854   |  |  | 5,174   |
+L170: Granular urea  | 1,270   |  |  | 1,182   |  |  | 2,421   |  |  | 2,292   |
+L171: UAN (32%)(6)  | 1,642   |  |  | 1,725   |  |  | 3,167   |  |  | 3,581   |
+L172: AN  | 135   |  |  | 341   |  |  | 240   |  |  | 663   |
+L173: _______________________________________________________________________________
+L174: 
+L175: (1)See reconciliations of EBITDA and adjusted EBITDA to the most directly comparable GAAP measures in the tables accompanying this release.
+L176: 
+L177: (2)Includes the cost of natural gas used for production and related transportation that is included in cost of sales during the period under the first-in, first-out inventory cost method.
+L178: (3)Includes realized gains and losses on natural gas derivatives settled during the period. Excludes unrealized mark-to-market gains and losses on natural gas derivatives.
+L179: 
+L180: (4)For the three and six months ended June 30, 2026, includes $78 million and $143 million, respectively, attributable to the Blue Point One joint venture.
+L181: 
+L182: (5)Gross ammonia production, including amounts subsequently upgraded on-site into granular urea, UAN, or AN.
+L183: (6)UAN product tons assume a 32% nitrogen content basis for production volume.
+L184: 
+L185:     6
+L186: 
+L187: * * *
+L188: 
+L189: Ammonia Segment
+L190: CF Industries’ ammonia segment produces anhydrous ammonia (ammonia), which is the base product that the Company manufactures, containing 82 percent nitrogen and 18 percent hydrogen. The results of the ammonia segment consist of sales of ammonia to external customers for its nitrogen content as a fertilizer, in emissions control and in other industrial applications. In addition, the Company upgrades ammonia into other nitrogen products such as granular urea, UAN and AN.
+L191:  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+L192:  | Three months ended
+L193:  June 30,  |  | Six months ended
+L194:  June 30,
+L195:  | 2026  |  | 2025  |  | 2026  |  | 2025
+L196:  | (dollars in millions, except per ton amounts)
+L197: Net sales  | $  | 586   |  |  | $  | 491   |  |  | $  | 1,213   |  |  | $  | 1,011   |
+L198: Cost of sales  | 357   |  |  | 355   |  |  | 757   |  |  | 689   |
+L199: Gross margin  | $  | 229   |  |  | $  | 136   |  |  | $  | 456   |  |  | $  | 322   |
+L200:  |  |  |  |  |  |  |
+L201: Gross margin percentage  | 39.1   | %  |  | 27.7   | %  |  | 37.6   | %  |  | 31.8   | %
+L202:  |  |  |  |  |  |  |
+L203: Sales volume by product tons (000s)  | 865   |  |  | 1,087   |  |  | 1,968   |  |  | 2,233   |
+L204: Sales volume by nutrient tons (000s)(1)  | 708   |  |  | 891   |  |  | 1,613   |  |  | 1,831   |
+L205:  |  |  |  |  |  |  |
+L206: Average selling price per product ton  | $  | 677   |  |  | $  | 452   |  |  | $  | 616   |  |  | $  | 453   |
+L207: Average selling price per nutrient ton(1)  | 828   |  |  | 551   |  |  | 752   |  |  | 552   |
+L208:  |  |  |  |  |  |  |
+L209:  |  |  |  |  |  |  |
+L210:  |  |  |  |  |  |  |
+L211:  |  |  |  |  |  |  |
+L212: Adjusted gross margin(2):  |  |  |  |  |  |  |
+L213: Gross margin  | $  | 229   |  |  | $  | 136   |  |  | $  | 456   |  |  | $  | 322   |
+L214: Depreciation and amortization  | 60   |  |  | 52   |  |  | 121   |  |  | 100   |
+L215: Unrealized net mark-to-market (gain) loss on natural gas derivatives  | (1)  |  |  | —   |  |  | (2)  |  |  | 1   |
+L216: Adjusted gross margin  | $  | 288   |  |  | $  | 188   |  |  | $  | 575   |  |  | $  | 423   |
+L217: Adjusted gross margin as a percent of net sales  | 49.1   | %  |  | 38.3   | %  |  | 47.4   | %  |  | 41.8   | %
+L218:  |  |  |  |  |  |  |
+L219: Gross margin per product ton  | $  | 265   |  |  | $  | 125   |  |  | $  | 232   |  |  | $  | 144   |
+L220: Gross margin per nutrient ton(1)  | 323   |  |  | 153   |  |  | 283   |  |  | 176   |
+L221: Adjusted gross margin per product ton  | 333   |  |  | 173   |  |  | 292   |  |  | 189   |
+L222: Adjusted gross margin per nutrient ton(1)  | 407   |  |  | 211   |  |  | 356   |  |  | 231   |
+L223: _______________________________________________________________________________
+L224: 
+L225: (1)Nutrient tons represent the tons of nitrogen within the product tons.
+L226: (2)Adjusted gross margin, adjusted gross margin as a percent of net sales and adjusted gross margin per product ton and per nutrient ton are non-GAAP financial measures. Adjusted gross margin is defined as gross margin excluding depreciation and amortization and unrealized net mark-to-market (gain) loss on natural gas derivatives.
+L227: A reconciliation of adjusted gross margin, adjusted gross margin as a percent of net sales and adjusted gross margin per product ton and per nutrient ton to gross margin, the most directly comparable GAAP measure, is provided in the table above. See “Note Regarding Non-GAAP Financial Measures” in this release.
+L228: Comparison of first half 2026 to first half 2025:
+L229: 
+L230: •Ammonia sales volumes for 2026 were lower than 2025 due primarily to lower global demand for ammonia in the production of phosphate fertilizers and lower supply availability due to planned maintenance.
+L231: 
+L232: •Ammonia average selling prices increased for 2026 compared to 2025 due to a tight global nitrogen supply-demand balance, which was further tightened by supply disruptions related to the conflict with Iran.
+L233: •Ammonia adjusted gross margin per ton increased for 2026 compared to 2025 due primarily to higher average selling prices partially offset by higher maintenance costs and higher realized natural gas costs.
+L234: 
+L235:     7
+L236: 
+L237: * * *
+L238: 
+L239: Granular Urea Segment
+L240: 
+L241: CF Industries’ granular urea segment produces granular urea, which contains 46 percent nitrogen. Produced from ammonia and CO2, it has the highest nitrogen content of any of the Company’s solid nitrogen products.
+L242:  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+L243:  | Three months ended
+L244:  June 30,  |  | Six months ended
+L245:  June 30,
+L246:  | 2026  |  | 2025  |  | 2026  |  | 2025
+L247:  | (dollars in millions, except per ton amounts)
+L248: Net sales  | $  | 759   |  |  | $  | 547   |  |  | $  | 1,349   |  |  | $  | 986   |
+L249: Cost of sales  | 282   |  |  | 268   |  |  | 617   |  |  | 534   |
+L250: Gross margin  | $  | 477   |  |  | $  | 279   |  |  | $  | 732   |  |  | $  | 452   |
+L251:  |  |  |  |  |  |  |
+L252: Gross margin percentage  | 62.8   | %  |  | 51.0   | %  |  | 54.3   | %  |  | 45.8   | %
+L253:  |  |  |  |  |  |  |
+L254: Sales volume by product tons (000s)  | 1,280   |  |  | 1,188   |  |  | 2,571   |  |  | 2,313   |
+L255: Sales volume by nutrient tons (000s)(1)  | 589   |  |  | 548   |  |  | 1,183   |  |  | 1,065   |
+L256:  |  |  |  |  |  |  |
+L257: Average selling price per product ton  | $  | 593   |  |  | $  | 460   |  |  | $  | 525   |  |  | $  | 426   |
+

@@ -1,0 +1,819 @@
+{
+  "id" : "tpd5-muue",
+  "name" : "Fertilizer Imports and Exports-Nutrient",
+  "assetType" : "dataset",
+  "attribution" : "U.S. Census Bureau and The Fertilizer Institute",
+  "attributionLink" : "https://usatrade.census.gov/",
+  "averageRating" : 0,
+  "category" : "Fertilizer",
+  "createdAt" : 1715879715,
+  "description" : "This dataset includes U.S fertilizer trade volumes (i.e., imports and exports) at the customs district level. Fertilizer commodity values are converted to nutrient-equivalent tons (i.e., nitrogen, phosphorus, and potassium) using conversion factors from The Fertilizer Institute.",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "domainCName" : "agtransport.usda.gov",
+  "downloadCount" : 673,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 40574452,
+  "provenance" : "official",
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1715883156,
+  "publicationGroup" : 19526833,
+  "publicationStage" : "published",
+  "rowsUpdatedAt" : 1791394555,
+  "rowsUpdatedBy" : "aiqt-4thn",
+  "tableId" : 19526864,
+  "totalTimesRated" : 0,
+  "viewCount" : 6835,
+  "viewLastModified" : 1791394342,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1728568973,
+    "reviewedAutomatically" : false,
+    "state" : "approved",
+    "submissionId" : 6576465,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1728394881,
+    "targetAudience" : "public",
+    "workflowId" : 531,
+    "reviewer" : {
+      "id" : "aiqt-4thn",
+      "displayName" : "Jesse Gastelle"
+    },
+    "submissionDetails" : {
+      "permissionType" : "read"
+    },
+    "submissionOutcomeApplication" : {
+      "endedAt" : 1728568973,
+      "failureCount" : 0,
+      "startedAt" : 1728568973,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "fmgb-fw72",
+      "displayName" : "P. Austin Hunt"
+    }
+  }, {
+    "message" : "The `strict_permissions` flag must be on to enable internal approvals.",
+    "state" : "unsubmittable",
+    "targetAudience" : "internal",
+    "workflowId" : 4623
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 592731459,
+    "name" : "Date",
+    "dataTypeName" : "calendar_date",
+    "description" : "Month and year of trade movement.",
+    "fieldName" : "date",
+    "position" : 1,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 152617245,
+    "cachedContents" : {
+      "non_null" : "216595",
+      "largest" : "2026-08-01T00:00:00.000",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2025-04-01T00:00:00.000",
+        "count" : "1380"
+      }, {
+        "item" : "2026-05-01T00:00:00.000",
+        "count" : "1350"
+      }, {
+        "item" : "2025-03-01T00:00:00.000",
+        "count" : "1349"
+      }, {
+        "item" : "2026-06-01T00:00:00.000",
+        "count" : "1324"
+      }, {
+        "item" : "2021-04-01T00:00:00.000",
+        "count" : "1318"
+      }, {
+        "item" : "2025-05-01T00:00:00.000",
+        "count" : "1314"
+      }, {
+        "item" : "2026-03-01T00:00:00.000",
+        "count" : "1310"
+      }, {
+        "item" : "2024-04-01T00:00:00.000",
+        "count" : "1302"
+      }, {
+        "item" : "2019-04-01T00:00:00.000",
+        "count" : "1287"
+      }, {
+        "item" : "2022-06-01T00:00:00.000",
+        "count" : "1280"
+      }, {
+        "item" : "2021-03-01T00:00:00.000",
+        "count" : "1280"
+      }, {
+        "item" : "2022-04-01T00:00:00.000",
+        "count" : "1280"
+      }, {
+        "item" : "2026-04-01T00:00:00.000",
+        "count" : "1278"
+      }, {
+        "item" : "2022-03-01T00:00:00.000",
+        "count" : "1276"
+      }, {
+        "item" : "2018-04-01T00:00:00.000",
+        "count" : "1270"
+      }, {
+        "item" : "2024-05-01T00:00:00.000",
+        "count" : "1267"
+      }, {
+        "item" : "2020-05-01T00:00:00.000",
+        "count" : "1266"
+      }, {
+        "item" : "2021-05-01T00:00:00.000",
+        "count" : "1261"
+      }, {
+        "item" : "2017-05-01T00:00:00.000",
+        "count" : "1254"
+      }, {
+        "item" : "2019-03-01T00:00:00.000",
+        "count" : "1248"
+      } ],
+      "smallest" : "2010-01-01T00:00:00.000",
+      "count" : "216595",
+      "cardinality" : "216595"
+    },
+    "format" : {
+      "view" : "date_shortmonthy"
+    }
+  }, {
+    "id" : 592731460,
+    "name" : "Month",
+    "dataTypeName" : "number",
+    "description" : "Month starting from 1 to 12 with 1 representing January, 2 February, etc.",
+    "fieldName" : "month",
+    "position" : 2,
+    "renderTypeName" : "number",
+    "tableColumnId" : 152617246,
+    "cachedContents" : {
+      "non_null" : "216595",
+      "largest" : "12",
+      "null" : "0",
+      "top" : [ {
+        "item" : "4",
+        "count" : "20510"
+      }, {
+        "item" : "5",
+        "count" : "20378"
+      }, {
+        "item" : "3",
+        "count" : "20266"
+      }, {
+        "item" : "6",
+        "count" : "19151"
+      }, {
+        "item" : "7",
+        "count" : "18225"
+      }, {
+        "item" : "8",
+        "count" : "18051"
+      }, {
+        "item" : "2",
+        "count" : "17960"
+      }, {
+        "item" : "1",
+        "count" : "17397"
+      }, {
+        "item" : "9",
+        "count" : "16405"
+      }, {
+        "item" : "10",
+        "count" : "16264"
+      }, {
+        "item" : "11",
+        "count" : "16055"
+      }, {
+        "item" : "12",
+        "count" : "15933"
+      } ],
+      "smallest" : "1",
+      "count" : "216595",
+      "cardinality" : "216595"
+    },
+    "format" : { }
+  }, {
+    "id" : 592731461,
+    "name" : "Quarter",
+    "dataTypeName" : "number",
+    "description" : "Quarter (1,2,3,4) of trade movement.",
+    "fieldName" : "quarter",
+    "position" : 3,
+    "renderTypeName" : "number",
+    "tableColumnId" : 152617247,
+    "cachedContents" : {
+      "non_null" : "216595",
+      "largest" : "4",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2",
+        "count" : "60039"
+      }, {
+        "item" : "1",
+        "count" : "55623"
+      }, {
+        "item" : "3",
+        "count" : "52681"
+      }, {
+        "item" : "4",
+        "count" : "48252"
+      } ],
+      "smallest" : "1",
+      "count" : "216595",
+      "cardinality" : "216595"
+    },
+    "format" : { }
+  }, {
+    "id" : 592731458,
+    "name" : "Year",
+    "dataTypeName" : "number",
+    "description" : "\t Calendar year since 2010.",
+    "fieldName" : "year",
+    "position" : 4,
+    "renderTypeName" : "number",
+    "tableColumnId" : 152617244,
+    "cachedContents" : {
+      "non_null" : "216595",
+      "largest" : "2026",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2025",
+        "count" : "14364"
+      }, {
+        "item" : "2021",
+        "count" : "14291"
+      }, {
+        "item" : "2024",
+        "count" : "13990"
+      }, {
+        "item" : "2022",
+        "count" : "13824"
+      }, {
+        "item" : "2020",
+        "count" : "13518"
+      }, {
+        "item" : "2019",
+        "count" : "13490"
+      }, {
+        "item" : "2018",
+        "count" : "13418"
+      }, {
+        "item" : "2017",
+        "count" : "13267"
+      }, {
+        "item" : "2023",
+        "count" : "12702"
+      }, {
+        "item" : "2016",
+        "count" : "12555"
+      }, {
+        "item" : "2015",
+        "count" : "12419"
+      }, {
+        "item" : "2014",
+        "count" : "12281"
+      }, {
+        "item" : "2013",
+        "count" : "12117"
+      }, {
+        "item" : "2012",
+        "count" : "11911"
+      }, {
+        "item" : "2011",
+        "count" : "11754"
+      }, {
+        "item" : "2010",
+        "count" : "10865"
+      }, {
+        "item" : "2026",
+        "count" : "9829"
+      } ],
+      "smallest" : "2010",
+      "count" : "216595",
+      "cardinality" : "216595"
+    },
+    "format" : {
+      "noCommas" : "true"
+    }
+  }, {
+    "id" : 592731450,
+    "name" : "Trade Direction",
+    "dataTypeName" : "text",
+    "description" : "Imports or Exports.",
+    "fieldName" : "direction",
+    "position" : 5,
+    "renderTypeName" : "text",
+    "tableColumnId" : 152617006,
+    "cachedContents" : {
+      "non_null" : "216595",
+      "largest" : "Import",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Export",
+        "count" : "126947"
+      }, {
+        "item" : "Import",
+        "count" : "89648"
+      } ],
+      "smallest" : "Export",
+      "count" : "216595",
+      "cardinality" : "216595"
+    },
+    "format" : { }
+  }, {
+    "id" : 592731451,
+    "name" : "Trade Type",
+    "dataTypeName" : "text",
+    "description" : "All imports are classified as \"imports for consumption.\" This is a measure of merchandise that enters consumption channels immediately after being cleared through Customs. Exports are either \"domestic exports\" or \"foreign exports.\" Domestic exports include goods created/changed in the United States. Foreign exports are re-exports.",
+    "fieldName" : "type",
+    "position" : 6,
+    "renderTypeName" : "text",
+    "tableColumnId" : 152617005,
+    "cachedContents" : {
+      "non_null" : "216595",
+      "largest" : "Foreign",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Domestic",
+        "count" : "111102"
+      }, {
+        "item" : "Consumption",
+        "count" : "89648"
+      }, {
+        "item" : "Foreign",
+        "count" : "15845"
+      } ],
+      "smallest" : "Consumption",
+      "count" : "216595",
+      "cardinality" : "216595"
+    },
+    "format" : { }
+  }, {
+    "id" : 592731452,
+    "name" : "HS Code",
+    "dataTypeName" : "number",
+    "description" : "Harmonized System (HS) code used to classify trade product.",
+    "fieldName" : "hs",
+    "position" : 7,
+    "renderTypeName" : "number",
+    "tableColumnId" : 152617004,
+    "cachedContents" : {
+      "non_null" : "216595",
+      "largest" : "3105900010",
+      "null" : "0",
+      "top" : [ {
+        "item" : "3105200000",
+        "count" : "62535"
+      }, {
+        "item" : "3105590000",
+        "count" : "16113"
+      }, {
+        "item" : "3105600000",
+        "count" : "14868"
+      }, {
+        "item" : "3105300000",
+        "count" : "12138"
+      }, {
+        "item" : "3102100000",
+        "count" : "10521"
+      }, {
+        "item" : "3104200000",
+        "count" : "10052"
+      }, {
+        "item" : "2834210000",
+        "count" : "9708"
+      }, {
+        "item" : "3105400000",
+        "count" : "8972"
+      }, {
+        "item" : "3105400010",
+        "count" : "8822"
+      }, {
+        "item" : "3102210000",
+        "count" : "7183"
+      }, {
+        "item" : "3105510000",
+        "count" : "6828"
+      }, {
+        "item" : "2814100000",
+        "count" : "6155"
+      }, {
+        "item" : "3104300000",
+        "count" : "5975"
+      }, {
+        "item" : "3102300000",
+        "count" : "5783"
+      }, {
+        "item" : "3102100010",
+        "count" : "5735"
+      }, {
+        "item" : "3102800000",
+        "count" : "5530"
+      }, {
+        "item" : "2814200000",
+        "count" : "4642"
+      }, {
+        "item" : "3102500000",
+        "count" : "3799"
+      }, {
+        "item" : "2809200010",
+        "count" : "3370"
+      }, {
+        "item" : "2809200020",
+        "count" : "2546"
+      } ],
+      "smallest" : "2809200010",
+      "count" : "216595",
+      "cardinality" : "216595"
+    },
+    "format" : {
+      "noCommas" : "true"
+    }
+  }, {
+    "id" : 592731453,
+    "name" : "Commodity Name",
+    "dataTypeName" : "text",
+    "description" : "Name of fertilizer commodity, as defined by The Fertilizer Institute.",
+    "fieldName" : "tfi_name",
+    "position" : 8,
+    "renderTypeName" : "text",
+    "tableColumnId" : 152617003,
+    "cachedContents" : {
+      "non_null" : "216595",
+      "largest" : "Wet Process Phosphoric Acid",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Chemical Mixtures",
+        "count" : "100344"
+      }, {
+        "item" : "Monoammonium Phosphate & Other",
+        "count" : "19132"
+      }, {
+        "item" : "Urea (Solid)",
+        "count" : "16256"
+      }, {
+        "item" : "Diammonium Phosphate",
+        "count" : "12138"
+      }, {
+        "item" : "Potassium Muriate",
+        "count" : "12050"
+      }, {
+        "item" : "Potassium Nitrate",
+        "count" : "9708"
+      }, {
+        "item" : "Ammonium Sulfate",
+        "count" : "7183"
+      }, {
+        "item" : "Anhydrous Ammonia",
+        "count" : "6155"
+      }, {
+        "item" : "Potassium Sulfate",
+        "count" : "5975"
+      }, {
+        "item" : "Ammonium Nitrate",
+        "count" : "5783"
+      }, {
+        "item" : "UAN",
+        "count" : "5530"
+      }, {
+        "item" : "Aqua Ammonia",
+        "count" : "4642"
+      }, {
+        "item" : "Sodium Nitrate",
+        "count" : "3799"
+      }, {
+        "item" : "Wet Process Phosphoric Acid",
+        "count" : "3370"
+      }, {
+        "item" : "Super Phosphoric Acid",
+        "count" : "2546"
+      }, {
+        "item" : "Normal Superphosphates",
+        "count" : "759"
+      }, {
+        "item" : "Potassium Sodium Nitrate",
+        "count" : "706"
+      }, {
+        "item" : "Concentrated Superphosphates",
+        "count" : "519"
+      } ],
+      "smallest" : "Ammonium Nitrate",
+      "count" : "216595",
+      "cardinality" : "216595"
+    },
+    "format" : { }
+  }, {
+    "id" : 592731454,
+    "name" : "Customs District",
+    "dataTypeName" : "text",
+    "description" : "Customs district of arrival (import) or departure (export).",
+    "fieldName" : "district",
+    "position" : 9,
+    "renderTypeName" : "text",
+    "tableColumnId" : 152617002,
+    "cachedContents" : {
+      "non_null" : "216595",
+      "largest" : "WILMINGTON, NC",
+      "null" : "0",
+      "top" : [ {
+        "item" : "LOS ANGELES, CA",
+        "count" : "18387"
+      }, {
+        "item" : "SAN FRANCISCO, CA",
+        "count" : "13474"
+      }, {
+        "item" : "NEW YORK CITY, NY",
+        "count" : "13425"
+      }, {
+        "item" : "DETROIT, MI",
+        "count" : "12832"
+      }, {
+        "item" : "SEATTLE, WA",
+        "count" : "11635"
+      }, {
+        "item" : "TAMPA, FL",
+        "count" : "10887"
+      }, {
+        "item" : "BUFFALO, NY",
+        "count" : "9593"
+      }, {
+        "item" : "MIAMI, FL",
+        "count" : "9417"
+      }, {
+        "item" : "OGDENSBURG, NY",
+        "count" : "8211"
+      }, {
+        "item" : "PEMBINA, ND",
+        "count" : "8095"
+      }, {
+        "item" : "HOUSTON-GALVESTON, TX",
+        "count" : "7642"
+      }, {
+        "item" : "LAREDO, TX",
+        "count" : "7597"
+      }, {
+        "item" : "SAVANNAH, GA",
+        "count" : "7583"
+      }, {
+        "item" : "NEW ORLEANS, LA",
+        "count" : "7135"
+      }, {
+        "item" : "NORFOLK, VA",
+        "count" : "6841"
+      }, {
+        "item" : "GREAT FALLS, MT",
+        "count" : "6414"
+      }, {
+        "item" : "SAN DIEGO, CA",
+        "count" : "5595"
+      }, {
+        "item" : "CHARLESTON, SC",
+        "count" : "4736"
+      }, {
+        "item" : "BALTIMORE, MD",
+        "count" : "4504"
+      }, {
+        "item" : "DULUTH, MN",
+        "count" : "4191"
+      } ],
+      "smallest" : "ANCHORAGE, AK",
+      "count" : "216595",
+      "cardinality" : "216595"
+    },
+    "format" : { }
+  }, {
+    "id" : 592731455,
+    "name" : "Country",
+    "dataTypeName" : "text",
+    "description" : "Origin country (import) or destination country (export).",
+    "fieldName" : "country",
+    "position" : 10,
+    "renderTypeName" : "text",
+    "tableColumnId" : 152617001,
+    "cachedContents" : {
+      "non_null" : "216595",
+      "largest" : "ZIMBABWE",
+      "null" : "0",
+      "top" : [ {
+        "item" : "CANADA",
+        "count" : "61295"
+      }, {
+        "item" : "MEXICO",
+        "count" : "21432"
+      }, {
+        "item" : "CHINA",
+        "count" : "11372"
+      }, {
+        "item" : "GERMANY",
+        "count" : "7224"
+      }, {
+        "item" : "NETHERLANDS",
+        "count" : "7166"
+      }, {
+        "item" : "ISRAEL",
+        "count" : "7002"
+      }, {
+        "item" : "JAPAN",
+        "count" : "6446"
+      }, {
+        "item" : "AUSTRALIA",
+        "count" : "6319"
+      }, {
+        "item" : "RUSSIA",
+        "count" : "4682"
+      }, {
+        "item" : "BELGIUM",
+        "count" : "4541"
+      }, {
+        "item" : "UNITED KINGDOM",
+        "count" : "4320"
+      }, {
+        "item" : "BRAZIL",
+        "count" : "4070"
+      }, {
+        "item" : "KOREA, SOUTH",
+        "count" : "3543"
+      }, {
+        "item" : "SPAIN",
+        "count" : "3297"
+      }, {
+        "item" : "CHILE",
+        "count" : "3070"
+      }, {
+        "item" : "INDIA",
+        "count" : "2921"
+      }, {
+        "item" : "TRINIDAD AND TOBAGO",
+        "count" : "2616"
+      }, {
+        "item" : "DOMINICAN REPUBLIC",
+        "count" : "2509"
+      }, {
+        "item" : "TAIWAN",
+        "count" : "2503"
+      }, {
+        "item" : "ECUADOR",
+        "count" : "2396"
+      } ],
+      "smallest" : "AFGHANISTAN",
+      "count" : "216595",
+      "cardinality" : "216595"
+    },
+    "format" : { }
+  }, {
+    "id" : 592731456,
+    "name" : "Nutrient",
+    "dataTypeName" : "text",
+    "description" : "Type of nutrient-Nitrogen, Phosphorus, or Potassium. ",
+    "fieldName" : "nutrient",
+    "position" : 11,
+    "renderTypeName" : "text",
+    "tableColumnId" : 152617000,
+    "cachedContents" : {
+      "non_null" : "216595",
+      "largest" : "Potassium",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Nitrogen",
+        "count" : "103991"
+      }, {
+        "item" : "Potassium",
+        "count" : "56327"
+      }, {
+        "item" : "Phosphorus",
+        "count" : "56277"
+      } ],
+      "smallest" : "Nitrogen",
+      "count" : "216595",
+      "cardinality" : "216595"
+    },
+    "format" : { }
+  }, {
+    "id" : 592731457,
+    "name" : "Quantity",
+    "dataTypeName" : "number",
+    "description" : "Quantity of trade converted to tons. ",
+    "fieldName" : "short_tons",
+    "position" : 12,
+    "renderTypeName" : "number",
+    "tableColumnId" : 152616999,
+    "cachedContents" : {
+      "non_null" : "216595",
+      "largest" : "391652.749",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0.088",
+        "count" : "2015"
+      }, {
+        "item" : "0.132",
+        "count" : "2015"
+      }, {
+        "item" : "0.254",
+        "count" : "2015"
+      }, {
+        "item" : "0.507",
+        "count" : "1981"
+      }, {
+        "item" : "0.265",
+        "count" : "1878"
+      }, {
+        "item" : "1.587",
+        "count" : "1633"
+      }, {
+        "item" : "2.381",
+        "count" : "1529"
+      }, {
+        "item" : "4.564",
+        "count" : "1443"
+      }, {
+        "item" : "0.176",
+        "count" : "1393"
+      }, {
+        "item" : "5.071",
+        "count" : "1385"
+      }, {
+        "item" : "2.646",
+        "count" : "1367"
+      }, {
+        "item" : "0.529",
+        "count" : "1315"
+      }, {
+        "item" : "1.764",
+        "count" : "1261"
+      }, {
+        "item" : "1.014",
+        "count" : "1241"
+      }, {
+        "item" : "4.817",
+        "count" : "1234"
+      }, {
+        "item" : "1.676",
+        "count" : "1234"
+      }, {
+        "item" : "2.513",
+        "count" : "1234"
+      }, {
+        "item" : "0.794",
+        "count" : "1016"
+      }, {
+        "item" : "10.141",
+        "count" : "1005"
+      }, {
+        "item" : "9.634",
+        "count" : "999"
+      } ],
+      "smallest" : "0.088",
+      "count" : "216595",
+      "cardinality" : "216595"
+    },
+    "format" : {
+      "precision" : "0"
+    }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "metadata" : {
+    "custom_fields" : {
+      "Publishing" : {
+        "Publishing Schedule" : "Monthly"
+      },
+      "Scope" : {
+        "Temporal Unit" : "Month",
+        "Geographic Unit" : "Region"
+      }
+    },
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+  },
+  "owner" : {
+    "id" : "fmgb-fw72",
+    "displayName" : "P. Austin Hunt",
+    "screenName" : "P. Austin Hunt",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula" ]
+  },
+  "query" : { },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "fmgb-fw72",
+    "displayName" : "P. Austin Hunt",
+    "screenName" : "P. Austin Hunt",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula" ]
+  },
+  "tags" : [ "fertilizer", "trade", "exports", "imports" ],
+  "flags" : [ "default", "federated", "internalToPublicFederatedView", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}

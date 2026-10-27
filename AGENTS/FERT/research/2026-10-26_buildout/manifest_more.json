@@ -1,0 +1,50 @@
+[
+  {
+    "file": "ams_metadata.json",
+    "url": "https://agtransport.usda.gov/api/views/tpd5-muue.json",
+    "status": 200,
+    "bytes": 20604,
+    "sha256": "5732edd472c93ac8cad15f9f703430eeecec653b96434600bcc5d74ddc65b569",
+    "read_at": "2026-10-27T03:29:18.849855+00:00"
+  },
+  {
+    "file": "ams_latest.json",
+    "url": "https://agtransport.usda.gov/resource/tpd5-muue.json?%24select=max%28date%29%2Ccount%28%2A%29",
+    "status": 200,
+    "bytes": 58,
+    "sha256": "229d67dbaf2c6a78e13b476eea894a824818561d432f9bbab14cdef4d7588fea",
+    "read_at": "2026-10-27T03:29:18.932077+00:00"
+  },
+  {
+    "file": "ams_types.json",
+    "url": "https://agtransport.usda.gov/resource/tpd5-muue.json?%24select=direction%2Ctype%2Ccount%28%2A%29&%24group=direction%2Ctype",
+    "status": 200,
+    "bytes": 178,
+    "sha256": "221d73c878087c7734862ffe987d66cd2496919dca5fbe79bf2d18c068d8ef82",
+    "read_at": "2026-10-27T03:29:19.039877+00:00"
+  },
+  {
+    "file": "bls_WPU01.json",
+    "url": "https://api.bls.gov/publicAPI/v1/timeseries/data/WPU01?startyear=2025&endyear=2026",
+    "status": 200,
+    "bytes": 3706,
+    "sha256": "95019e6150ad5a467943bca039b0478fdd6a10aeeba28055598fb9bc65f7bb8a",
+    "read_at": "2026-10-27T03:29:18.776631+00:00"
+  },
+  {
+    "file": "bls_WPU02.json",
+    "url": "https://api.bls.gov/publicAPI/v1/timeseries/data/WPU02?startyear=2025&endyear=2026",
+    "status": 200,
+    "bytes": 3706,
+    "sha256": "c68703ec9d32db556ddda65487722482bb81fe2dd2628e19f83751b859b13a52",
+    "read_at": "2026-10-27T03:29:18.650704+00:00"
+  },
+  {
+    "file": "bls_WPU0651.json",
+    "url": "https://api.bls.gov/publicAPI/v1/timeseries/data/WPU0651?startyear=2025&endyear=2026",
+    "status": 200,
+    "bytes": 3708,
+    "sha256": "bd8420e17fa9b3fb97322fbcbbb83f6b38595dbe67b76cd9a78258a275c7f0d6",
+    "read_at": "2026-10-27T03:29:18.819273+00:00"
+  }
+]

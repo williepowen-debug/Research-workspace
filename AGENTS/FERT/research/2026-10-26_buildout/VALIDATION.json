@@ -1,0 +1,24 @@
+{
+  "tables": {
+    "companies/CF/OPERATING_HISTORY.tsv": 320,
+    "data/US_FERTILIZER_IMPORTS.tsv": 525,
+    "data/FARM_ECONOMICS.tsv": 36,
+    "data/INTERMEDIATE_PRICES.tsv": 99,
+    "data/CHINA_UREA_EXPORTS.tsv": 1,
+    "data/RELATIVE_NUTRIENTS.tsv": 6,
+    "workbook/SUPPLY_EVENTS.tsv": 2,
+    "workbook/KB.tsv": 96,
+    "workbook/TRIGGERS.tsv": 13,
+    "registry/READS_DECLARATION.tsv": 24
+  },
+  "total_new_observations": 989,
+  "hashed_source_files": 25,
+  "source_hashes": "PASS",
+  "tsv_shapes_unique_ids": "PASS",
+  "active_past_deadlines": 0,
+  "status_bytes": 22523,
+  "links": "PASS",
+  "issuer_reconciliation": "PASS in build_baselines.py",
+  "read_cap_perimeter": "heuristic pending PROME registry ingestion",
+  "git_sync": "deferred: dirty other-owner worktree"
+}

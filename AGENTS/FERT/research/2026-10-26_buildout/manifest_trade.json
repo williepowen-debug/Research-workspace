@@ -1,0 +1,7 @@
+{
+  "file": "ams_imports_2025_2026.json",
+  "url": "https://agtransport.usda.gov/resource/tpd5-muue.json?%24select=date%2Chs%2Ctfi_name%2Cnutrient%2Csum%28short_tons%29+as+nutrient_short_tons&%24where=date+%3E%3D+%272025-01-01T00%3A00%3A00%27+AND+direction%3D%27Import%27+AND+type%3D%27Consumption%27+AND+nutrient+in+%28%27Nitrogen%27%2C%27Phosphorus%27%29&%24group=date%2Chs%2Ctfi_name%2Cnutrient&%24order=date%2Chs&%24limit=10000",
+  "status": 200,
+  "sha256": "8835e9b6dd77e27ee1b63e907db34a8b26d19f720956654b1aa135c223defb7c",
+  "read_at": "2026-10-27T03:29:36.268237+00:00"
+}

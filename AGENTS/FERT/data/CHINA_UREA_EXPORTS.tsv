@@ -1,0 +1,4 @@
+# Last real data refresh: 2026-10-26
+# Maintenance: DATA_ROUTES.md; source observation dates are row-specific.
+month	geography	product	value	unit	state	source_authority	published	source	locator	note
+2026-09	China; all destinations	Urea	2450400	metric product tons	MEASURED	MIRROR-WALLED	2026-10-20; 2026-10-23	china_mysteel_20261020.html; china_sci_sina_20261023.html	Longzhong opening export statistic; SCI opening September export statistic	Reported statistic, not primary-verified. 245.04 ten-thousand tons multiplied by 10000. Official Customs portal: requests TLS failure and browser timeout. Two publishers can share one Customs input. Not allocation, ship tracking, product destination arrival or verified YTD.

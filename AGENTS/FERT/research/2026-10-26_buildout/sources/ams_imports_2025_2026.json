@@ -1,0 +1,525 @@
+[{"date":"2025-01-01T00:00:00.000","hs":"2809200010","tfi_name":"Wet Process Phosphoric Acid","nutrient":"Phosphorus","nutrient_short_tons":"405.364"}
+,{"date":"2025-01-01T00:00:00.000","hs":"2809200020","tfi_name":"Super Phosphoric Acid","nutrient":"Phosphorus","nutrient_short_tons":"1.543"}
+,{"date":"2025-01-01T00:00:00.000","hs":"2814100000","tfi_name":"Anhydrous Ammonia","nutrient":"Nitrogen","nutrient_short_tons":"141787.554"}
+,{"date":"2025-01-01T00:00:00.000","hs":"2814200000","tfi_name":"Aqua Ammonia","nutrient":"Nitrogen","nutrient_short_tons":"672.230"}
+,{"date":"2025-01-01T00:00:00.000","hs":"2834210000","tfi_name":"Potassium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"456.025"}
+,{"date":"2025-01-01T00:00:00.000","hs":"3102100010","tfi_name":"Urea (Solid)","nutrient":"Nitrogen","nutrient_short_tons":"261952.598"}
+,{"date":"2025-01-01T00:00:00.000","hs":"3102210000","tfi_name":"Ammonium Sulfate","nutrient":"Nitrogen","nutrient_short_tons":"32086.380"}
+,{"date":"2025-01-01T00:00:00.000","hs":"3102300000","tfi_name":"Ammonium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"9311.608"}
+,{"date":"2025-01-01T00:00:00.000","hs":"3102500000","tfi_name":"Sodium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"88.715"}
+,{"date":"2025-01-01T00:00:00.000","hs":"3102800000","tfi_name":"UAN","nutrient":"Nitrogen","nutrient_short_tons":"57733.883"}
+,{"date":"2025-01-01T00:00:00.000","hs":"3103110000","tfi_name":"Concentrated Superphosphates","nutrient":"Phosphorus","nutrient_short_tons":"35245.922"}
+,{"date":"2025-01-01T00:00:00.000","hs":"3103190000","tfi_name":"Normal Superphosphates","nutrient":"Phosphorus","nutrient_short_tons":"106.262"}
+,{"date":"2025-01-01T00:00:00.000","hs":"3105200000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"1237.982"}
+,{"date":"2025-01-01T00:00:00.000","hs":"3105200000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"2372.798"}
+,{"date":"2025-01-01T00:00:00.000","hs":"3105300000","tfi_name":"Diammonium Phosphate","nutrient":"Nitrogen","nutrient_short_tons":"27744.282"}
+,{"date":"2025-01-01T00:00:00.000","hs":"3105300000","tfi_name":"Diammonium Phosphate","nutrient":"Phosphorus","nutrient_short_tons":"70902.055"}
+,{"date":"2025-01-01T00:00:00.000","hs":"3105400010","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Nitrogen","nutrient_short_tons":"18394.733"}
+,{"date":"2025-01-01T00:00:00.000","hs":"3105400010","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Phosphorus","nutrient_short_tons":"86956.917"}
+,{"date":"2025-01-01T00:00:00.000","hs":"3105400050","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Nitrogen","nutrient_short_tons":"23.644"}
+,{"date":"2025-01-01T00:00:00.000","hs":"3105400050","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Phosphorus","nutrient_short_tons":"111.774"}
+,{"date":"2025-01-01T00:00:00.000","hs":"3105510000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"8.202"}
+,{"date":"2025-01-01T00:00:00.000","hs":"3105510000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"15.718"}
+,{"date":"2025-01-01T00:00:00.000","hs":"3105590000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"44.710"}
+,{"date":"2025-01-01T00:00:00.000","hs":"3105590000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"85.695"}
+,{"date":"2025-01-01T00:00:00.000","hs":"3105600000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"234.658"}
+,{"date":"2025-01-01T00:00:00.000","hs":"3105600000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"449.767"}
+,{"date":"2025-01-01T00:00:00.000","hs":"3105900010","tfi_name":"Potassium Sodium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"31.393"}
+,{"date":"2025-02-01T00:00:00.000","hs":"2809200010","tfi_name":"Wet Process Phosphoric Acid","nutrient":"Phosphorus","nutrient_short_tons":"166.669"}
+,{"date":"2025-02-01T00:00:00.000","hs":"2809200020","tfi_name":"Super Phosphoric Acid","nutrient":"Phosphorus","nutrient_short_tons":"356.488"}
+,{"date":"2025-02-01T00:00:00.000","hs":"2814100000","tfi_name":"Anhydrous Ammonia","nutrient":"Nitrogen","nutrient_short_tons":"110329.326"}
+,{"date":"2025-02-01T00:00:00.000","hs":"2814200000","tfi_name":"Aqua Ammonia","nutrient":"Nitrogen","nutrient_short_tons":"1824.530"}
+,{"date":"2025-02-01T00:00:00.000","hs":"2834210000","tfi_name":"Potassium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"377.475"}
+,{"date":"2025-02-01T00:00:00.000","hs":"3102100010","tfi_name":"Urea (Solid)","nutrient":"Nitrogen","nutrient_short_tons":"316818.289"}
+,{"date":"2025-02-01T00:00:00.000","hs":"3102210000","tfi_name":"Ammonium Sulfate","nutrient":"Nitrogen","nutrient_short_tons":"20925.327"}
+,{"date":"2025-02-01T00:00:00.000","hs":"3102300000","tfi_name":"Ammonium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"6891.020"}
+,{"date":"2025-02-01T00:00:00.000","hs":"3102500000","tfi_name":"Sodium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"92.418"}
+,{"date":"2025-02-01T00:00:00.000","hs":"3102800000","tfi_name":"UAN","nutrient":"Nitrogen","nutrient_short_tons":"82376.949"}
+,{"date":"2025-02-01T00:00:00.000","hs":"3103110000","tfi_name":"Concentrated Superphosphates","nutrient":"Phosphorus","nutrient_short_tons":"31960.155"}
+,{"date":"2025-02-01T00:00:00.000","hs":"3103190000","tfi_name":"Normal Superphosphates","nutrient":"Phosphorus","nutrient_short_tons":"1.543"}
+,{"date":"2025-02-01T00:00:00.000","hs":"3105200000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"2636.152"}
+,{"date":"2025-02-01T00:00:00.000","hs":"3105200000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"5052.628"}
+,{"date":"2025-02-01T00:00:00.000","hs":"3105300000","tfi_name":"Diammonium Phosphate","nutrient":"Nitrogen","nutrient_short_tons":"42197.682"}
+,{"date":"2025-02-01T00:00:00.000","hs":"3105300000","tfi_name":"Diammonium Phosphate","nutrient":"Phosphorus","nutrient_short_tons":"107838.524"}
+,{"date":"2025-02-01T00:00:00.000","hs":"3105400010","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Nitrogen","nutrient_short_tons":"9601.143"}
+,{"date":"2025-02-01T00:00:00.000","hs":"3105400010","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Phosphorus","nutrient_short_tons":"45387.217"}
+,{"date":"2025-02-01T00:00:00.000","hs":"3105400050","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Nitrogen","nutrient_short_tons":"26.675"}
+,{"date":"2025-02-01T00:00:00.000","hs":"3105400050","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Phosphorus","nutrient_short_tons":"126.104"}
+,{"date":"2025-02-01T00:00:00.000","hs":"3105510000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"748.690"}
+,{"date":"2025-02-01T00:00:00.000","hs":"3105510000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"1434.987"}
+,{"date":"2025-02-01T00:00:00.000","hs":"3105590000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"6031.973"}
+,{"date":"2025-02-01T00:00:00.000","hs":"3105590000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"11561.283"}
+,{"date":"2025-02-01T00:00:00.000","hs":"3105600000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"221.564"}
+,{"date":"2025-02-01T00:00:00.000","hs":"3105600000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"424.665"}
+,{"date":"2025-02-01T00:00:00.000","hs":"3105900010","tfi_name":"Potassium Sodium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"35.804"}
+,{"date":"2025-03-01T00:00:00.000","hs":"2809200010","tfi_name":"Wet Process Phosphoric Acid","nutrient":"Phosphorus","nutrient_short_tons":"85.12"}
+,{"date":"2025-03-01T00:00:00.000","hs":"2809200020","tfi_name":"Super Phosphoric Acid","nutrient":"Phosphorus","nutrient_short_tons":"178.244"}
+,{"date":"2025-03-01T00:00:00.000","hs":"2814100000","tfi_name":"Anhydrous Ammonia","nutrient":"Nitrogen","nutrient_short_tons":"230239.026"}
+,{"date":"2025-03-01T00:00:00.000","hs":"2814200000","tfi_name":"Aqua Ammonia","nutrient":"Nitrogen","nutrient_short_tons":"2046.529"}
+,{"date":"2025-03-01T00:00:00.000","hs":"2834210000","tfi_name":"Potassium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"1698.484"}
+,{"date":"2025-03-01T00:00:00.000","hs":"3102100010","tfi_name":"Urea (Solid)","nutrient":"Nitrogen","nutrient_short_tons":"515916.928"}
+,{"date":"2025-03-01T00:00:00.000","hs":"3102210000","tfi_name":"Ammonium Sulfate","nutrient":"Nitrogen","nutrient_short_tons":"44123.839"}
+,{"date":"2025-03-01T00:00:00.000","hs":"3102300000","tfi_name":"Ammonium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"33495.722"}
+,{"date":"2025-03-01T00:00:00.000","hs":"3102500000","tfi_name":"Sodium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"331.224"}
+,{"date":"2025-03-01T00:00:00.000","hs":"3102800000","tfi_name":"UAN","nutrient":"Nitrogen","nutrient_short_tons":"70200.745"}
+,{"date":"2025-03-01T00:00:00.000","hs":"3103110000","tfi_name":"Concentrated Superphosphates","nutrient":"Phosphorus","nutrient_short_tons":"14172.4"}
+,{"date":"2025-03-01T00:00:00.000","hs":"3103190000","tfi_name":"Normal Superphosphates","nutrient":"Phosphorus","nutrient_short_tons":"24.912"}
+,{"date":"2025-03-01T00:00:00.000","hs":"3105200000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"3033.114"}
+,{"date":"2025-03-01T00:00:00.000","hs":"3105200000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"5813.474"}
+,{"date":"2025-03-01T00:00:00.000","hs":"3105300000","tfi_name":"Diammonium Phosphate","nutrient":"Nitrogen","nutrient_short_tons":"9252.327"}
+,{"date":"2025-03-01T00:00:00.000","hs":"3105300000","tfi_name":"Diammonium Phosphate","nutrient":"Phosphorus","nutrient_short_tons":"23644.836"}
+,{"date":"2025-03-01T00:00:00.000","hs":"3105400010","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Nitrogen","nutrient_short_tons":"8252.916"}
+,{"date":"2025-03-01T00:00:00.000","hs":"3105400010","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Phosphorus","nutrient_short_tons":"39013.792"}
+,{"date":"2025-03-01T00:00:00.000","hs":"3105400050","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Nitrogen","nutrient_short_tons":"15.278"}
+,{"date":"2025-03-01T00:00:00.000","hs":"3105400050","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Phosphorus","nutrient_short_tons":"72.223"}
+,{"date":"2025-03-01T00:00:00.000","hs":"3105510000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"62.303"}
+,{"date":"2025-03-01T00:00:00.000","hs":"3105510000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"119.414"}
+,{"date":"2025-03-01T00:00:00.000","hs":"3105590000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"4674.148"}
+,{"date":"2025-03-01T00:00:00.000","hs":"3105590000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"8958.783"}
+,{"date":"2025-03-01T00:00:00.000","hs":"3105600000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"192.067"}
+,{"date":"2025-03-01T00:00:00.000","hs":"3105600000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"368.129"}
+,{"date":"2025-03-01T00:00:00.000","hs":"3105900010","tfi_name":"Potassium Sodium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"43.739"}
+,{"date":"2025-04-01T00:00:00.000","hs":"2809200020","tfi_name":"Super Phosphoric Acid","nutrient":"Phosphorus","nutrient_short_tons":"148.922"}
+,{"date":"2025-04-01T00:00:00.000","hs":"2814100000","tfi_name":"Anhydrous Ammonia","nutrient":"Nitrogen","nutrient_short_tons":"137488.635"}
+,{"date":"2025-04-01T00:00:00.000","hs":"2814200000","tfi_name":"Aqua Ammonia","nutrient":"Nitrogen","nutrient_short_tons":"938.763"}
+,{"date":"2025-04-01T00:00:00.000","hs":"2834210000","tfi_name":"Potassium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"3383.232"}
+,{"date":"2025-04-01T00:00:00.000","hs":"3102100010","tfi_name":"Urea (Solid)","nutrient":"Nitrogen","nutrient_short_tons":"369080.724"}
+,{"date":"2025-04-01T00:00:00.000","hs":"3102210000","tfi_name":"Ammonium Sulfate","nutrient":"Nitrogen","nutrient_short_tons":"50967.926"}
+,{"date":"2025-04-01T00:00:00.000","hs":"3102300000","tfi_name":"Ammonium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"6769.159"}
+,{"date":"2025-04-01T00:00:00.000","hs":"3102500000","tfi_name":"Sodium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"1730.539"}
+,{"date":"2025-04-01T00:00:00.000","hs":"3102800000","tfi_name":"UAN","nutrient":"Nitrogen","nutrient_short_tons":"106599.195"}
+,{"date":"2025-04-01T00:00:00.000","hs":"3103110000","tfi_name":"Concentrated Superphosphates","nutrient":"Phosphorus","nutrient_short_tons":"19995.506"}
+,{"date":"2025-04-01T00:00:00.000","hs":"3103190000","tfi_name":"Normal Superphosphates","nutrient":"Phosphorus","nutrient_short_tons":"21.605"}
+,{"date":"2025-04-01T00:00:00.000","hs":"3105200000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"2772.000"}
+,{"date":"2025-04-01T00:00:00.000","hs":"3105200000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"5313.004"}
+,{"date":"2025-04-01T00:00:00.000","hs":"3105300000","tfi_name":"Diammonium Phosphate","nutrient":"Nitrogen","nutrient_short_tons":"22068.399"}
+,{"date":"2025-04-01T00:00:00.000","hs":"3105300000","tfi_name":"Diammonium Phosphate","nutrient":"Phosphorus","nutrient_short_tons":"56397.021"}
+,{"date":"2025-04-01T00:00:00.000","hs":"3105400010","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Nitrogen","nutrient_short_tons":"685.693"}
+,{"date":"2025-04-01T00:00:00.000","hs":"3105400010","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Phosphorus","nutrient_short_tons":"3241.452"}
+,{"date":"2025-04-01T00:00:00.000","hs":"3105400050","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Nitrogen","nutrient_short_tons":"165.511"}
+,{"date":"2025-04-01T00:00:00.000","hs":"3105400050","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Phosphorus","nutrient_short_tons":"782.419"}
+,{"date":"2025-04-01T00:00:00.000","hs":"3105510000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"26.720"}
+,{"date":"2025-04-01T00:00:00.000","hs":"3105510000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"51.213"}
+,{"date":"2025-04-01T00:00:00.000","hs":"3105590000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"46.562"}
+,{"date":"2025-04-01T00:00:00.000","hs":"3105590000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"89.244"}
+,{"date":"2025-04-01T00:00:00.000","hs":"3105600000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"233.203"}
+,{"date":"2025-04-01T00:00:00.000","hs":"3105600000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"446.977"}
+,{"date":"2025-04-01T00:00:00.000","hs":"3105900010","tfi_name":"Potassium Sodium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"12.168"}
+,{"date":"2025-05-01T00:00:00.000","hs":"2809200020","tfi_name":"Super Phosphoric Acid","nutrient":"Phosphorus","nutrient_short_tons":"57.1"}
+,{"date":"2025-05-01T00:00:00.000","hs":"2814100000","tfi_name":"Anhydrous Ammonia","nutrient":"Nitrogen","nutrient_short_tons":"136174.372"}
+,{"date":"2025-05-01T00:00:00.000","hs":"2814200000","tfi_name":"Aqua Ammonia","nutrient":"Nitrogen","nutrient_short_tons":"867.286"}
+,{"date":"2025-05-01T00:00:00.000","hs":"2834210000","tfi_name":"Potassium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"3156.375"}
+,{"date":"2025-05-01T00:00:00.000","hs":"3102100010","tfi_name":"Urea (Solid)","nutrient":"Nitrogen","nutrient_short_tons":"293871.176"}
+,{"date":"2025-05-01T00:00:00.000","hs":"3102210000","tfi_name":"Ammonium Sulfate","nutrient":"Nitrogen","nutrient_short_tons":"27651.821"}
+,{"date":"2025-05-01T00:00:00.000","hs":"3102300000","tfi_name":"Ammonium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"7210.811"}
+,{"date":"2025-05-01T00:00:00.000","hs":"3102500000","tfi_name":"Sodium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"142.859"}
+,{"date":"2025-05-01T00:00:00.000","hs":"3102800000","tfi_name":"UAN","nutrient":"Nitrogen","nutrient_short_tons":"60960.742"}
+,{"date":"2025-05-01T00:00:00.000","hs":"3103110000","tfi_name":"Concentrated Superphosphates","nutrient":"Phosphorus","nutrient_short_tons":"11518.941"}
+,{"date":"2025-05-01T00:00:00.000","hs":"3103190000","tfi_name":"Normal Superphosphates","nutrient":"Phosphorus","nutrient_short_tons":"17.857"}
+,{"date":"2025-05-01T00:00:00.000","hs":"3105200000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"2306.913"}
+,{"date":"2025-05-01T00:00:00.000","hs":"3105200000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"4421.589"}
+,{"date":"2025-05-01T00:00:00.000","hs":"3105300000","tfi_name":"Diammonium Phosphate","nutrient":"Nitrogen","nutrient_short_tons":"9665.428"}
+,{"date":"2025-05-01T00:00:00.000","hs":"3105300000","tfi_name":"Diammonium Phosphate","nutrient":"Phosphorus","nutrient_short_tons":"24700.540"}
+,{"date":"2025-05-01T00:00:00.000","hs":"3105400010","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Nitrogen","nutrient_short_tons":"788.512"}
+,{"date":"2025-05-01T00:00:00.000","hs":"3105400010","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Phosphorus","nutrient_short_tons":"3727.527"}
+,{"date":"2025-05-01T00:00:00.000","hs":"3105400050","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Nitrogen","nutrient_short_tons":"86.091"}
+,{"date":"2025-05-01T00:00:00.000","hs":"3105400050","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Phosphorus","nutrient_short_tons":"406.972"}
+,{"date":"2025-05-01T00:00:00.000","hs":"3105510000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"3367.513"}
+,{"date":"2025-05-01T00:00:00.000","hs":"3105510000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"6454.399"}
+,{"date":"2025-05-01T00:00:00.000","hs":"3105590000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"84.656"}
+,{"date":"2025-05-01T00:00:00.000","hs":"3105590000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"162.261"}
+,{"date":"2025-05-01T00:00:00.000","hs":"3105600000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"214.553"}
+,{"date":"2025-05-01T00:00:00.000","hs":"3105600000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"411.228"}
+,{"date":"2025-05-01T00:00:00.000","hs":"3105900010","tfi_name":"Potassium Sodium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"16.931"}
+,{"date":"2025-06-01T00:00:00.000","hs":"2809200010","tfi_name":"Wet Process Phosphoric Acid","nutrient":"Phosphorus","nutrient_short_tons":"459.531"}
+,{"date":"2025-06-01T00:00:00.000","hs":"2809200020","tfi_name":"Super Phosphoric Acid","nutrient":"Phosphorus","nutrient_short_tons":"86.421"}
+,{"date":"2025-06-01T00:00:00.000","hs":"2814100000","tfi_name":"Anhydrous Ammonia","nutrient":"Nitrogen","nutrient_short_tons":"142867.709"}
+,{"date":"2025-06-01T00:00:00.000","hs":"2814200000","tfi_name":"Aqua Ammonia","nutrient":"Nitrogen","nutrient_short_tons":"861.944"}
+,{"date":"2025-06-01T00:00:00.000","hs":"2834210000","tfi_name":"Potassium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"1068.687"}
+,{"date":"2025-06-01T00:00:00.000","hs":"3102100010","tfi_name":"Urea (Solid)","nutrient":"Nitrogen","nutrient_short_tons":"128949.569"}
+,{"date":"2025-06-01T00:00:00.000","hs":"3102210000","tfi_name":"Ammonium Sulfate","nutrient":"Nitrogen","nutrient_short_tons":"14156.006"}
+,{"date":"2025-06-01T00:00:00.000","hs":"3102300000","tfi_name":"Ammonium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"7529.494"}
+,{"date":"2025-06-01T00:00:00.000","hs":"3102500000","tfi_name":"Sodium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"72.665"}
+,{"date":"2025-06-01T00:00:00.000","hs":"3102800000","tfi_name":"UAN","nutrient":"Nitrogen","nutrient_short_tons":"60234.805"}
+,{"date":"2025-06-01T00:00:00.000","hs":"3103190000","tfi_name":"Normal Superphosphates","nutrient":"Phosphorus","nutrient_short_tons":"2.866"}
+,{"date":"2025-06-01T00:00:00.000","hs":"3105200000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"1916.035"}
+,{"date":"2025-06-01T00:00:00.000","hs":"3105200000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"3672.405"}
+,{"date":"2025-06-01T00:00:00.000","hs":"3105300000","tfi_name":"Diammonium Phosphate","nutrient":"Nitrogen","nutrient_short_tons":"564.692"}
+,{"date":"2025-06-01T00:00:00.000","hs":"3105300000","tfi_name":"Diammonium Phosphate","nutrient":"Phosphorus","nutrient_short_tons":"1443.100"}
+,{"date":"2025-06-01T00:00:00.000","hs":"3105400010","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Nitrogen","nutrient_short_tons":"918.622"}
+,{"date":"2025-06-01T00:00:00.000","hs":"3105400010","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Phosphorus","nutrient_short_tons":"4342.575"}
+,{"date":"2025-06-01T00:00:00.000","hs":"3105400050","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Nitrogen","nutrient_short_tons":"29.465"}
+,{"date":"2025-06-01T00:00:00.000","hs":"3105400050","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Phosphorus","nutrient_short_tons":"139.288"}
+,{"date":"2025-06-01T00:00:00.000","hs":"3105510000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"27.646"}
+,{"date":"2025-06-01T00:00:00.000","hs":"3105510000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"52.989"}
+,{"date":"2025-06-01T00:00:00.000","hs":"3105590000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"41.005"}
+,{"date":"2025-06-01T00:00:00.000","hs":"3105590000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"78.596"}
+,{"date":"2025-06-01T00:00:00.000","hs":"3105600000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"298.021"}
+,{"date":"2025-06-01T00:00:00.000","hs":"3105600000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"571.207"}
+,{"date":"2025-06-01T00:00:00.000","hs":"3105900010","tfi_name":"Potassium Sodium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"39.683"}
+,{"date":"2025-07-01T00:00:00.000","hs":"2809200020","tfi_name":"Super Phosphoric Acid","nutrient":"Phosphorus","nutrient_short_tons":"79.477"}
+,{"date":"2025-07-01T00:00:00.000","hs":"2814100000","tfi_name":"Anhydrous Ammonia","nutrient":"Nitrogen","nutrient_short_tons":"144031.925"}
+,{"date":"2025-07-01T00:00:00.000","hs":"2814200000","tfi_name":"Aqua Ammonia","nutrient":"Nitrogen","nutrient_short_tons":"717.877"}
+,{"date":"2025-07-01T00:00:00.000","hs":"2834210000","tfi_name":"Potassium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"2269.481"}
+,{"date":"2025-07-01T00:00:00.000","hs":"3102100010","tfi_name":"Urea (Solid)","nutrient":"Nitrogen","nutrient_short_tons":"48291.631"}
+,{"date":"2025-07-01T00:00:00.000","hs":"3102210000","tfi_name":"Ammonium Sulfate","nutrient":"Nitrogen","nutrient_short_tons":"17754.905"}
+,{"date":"2025-07-01T00:00:00.000","hs":"3102300000","tfi_name":"Ammonium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"13368.083"}
+,{"date":"2025-07-01T00:00:00.000","hs":"3102500000","tfi_name":"Sodium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"86.422"}
+,{"date":"2025-07-01T00:00:00.000","hs":"3102800000","tfi_name":"UAN","nutrient":"Nitrogen","nutrient_short_tons":"78757.493"}
+,{"date":"2025-07-01T00:00:00.000","hs":"3103110000","tfi_name":"Concentrated Superphosphates","nutrient":"Phosphorus","nutrient_short_tons":"65577.899"}
+,{"date":"2025-07-01T00:00:00.000","hs":"3103190000","tfi_name":"Normal Superphosphates","nutrient":"Phosphorus","nutrient_short_tons":"9.700"}
+,{"date":"2025-07-01T00:00:00.000","hs":"3105200000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"3120.951"}
+,{"date":"2025-07-01T00:00:00.000","hs":"3105200000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"5981.816"}
+,{"date":"2025-07-01T00:00:00.000","hs":"3105300000","tfi_name":"Diammonium Phosphate","nutrient":"Nitrogen","nutrient_short_tons":"649.018"}
+,{"date":"2025-07-01T00:00:00.000","hs":"3105300000","tfi_name":"Diammonium Phosphate","nutrient":"Phosphorus","nutrient_short_tons":"1658.603"}
+,{"date":"2025-07-01T00:00:00.000","hs":"3105400010","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Nitrogen","nutrient_short_tons":"586.143"}
+,{"date":"2025-07-01T00:00:00.000","hs":"3105400010","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Phosphorus","nutrient_short_tons":"2770.855"}
+,{"date":"2025-07-01T00:00:00.000","hs":"3105400050","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Nitrogen","nutrient_short_tons":"7.518"}
+,{"date":"2025-07-01T00:00:00.000","hs":"3105400050","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Phosphorus","nutrient_short_tons":"35.538"}
+,{"date":"2025-07-01T00:00:00.000","hs":"3105510000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"16.402"}
+,{"date":"2025-07-01T00:00:00.000","hs":"3105510000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"31.440"}
+,{"date":"2025-07-01T00:00:00.000","hs":"3105590000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"30.821"}
+,{"date":"2025-07-01T00:00:00.000","hs":"3105590000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"59.074"}
+,{"date":"2025-07-01T00:00:00.000","hs":"3105600000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"210.718"}
+,{"date":"2025-07-01T00:00:00.000","hs":"3105600000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"403.876"}
+,{"date":"2025-07-01T00:00:00.000","hs":"3105900010","tfi_name":"Potassium Sodium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"33.687"}
+,{"date":"2025-08-01T00:00:00.000","hs":"2809200010","tfi_name":"Wet Process Phosphoric Acid","nutrient":"Phosphorus","nutrient_short_tons":"446.436"}
+,{"date":"2025-08-01T00:00:00.000","hs":"2809200020","tfi_name":"Super Phosphoric Acid","nutrient":"Phosphorus","nutrient_short_tons":"202.163"}
+,{"date":"2025-08-01T00:00:00.000","hs":"2814100000","tfi_name":"Anhydrous Ammonia","nutrient":"Nitrogen","nutrient_short_tons":"221972.010"}
+,{"date":"2025-08-01T00:00:00.000","hs":"2814200000","tfi_name":"Aqua Ammonia","nutrient":"Nitrogen","nutrient_short_tons":"679.802"}
+,{"date":"2025-08-01T00:00:00.000","hs":"2834210000","tfi_name":"Potassium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"3192.180"}
+,{"date":"2025-08-01T00:00:00.000","hs":"3102100010","tfi_name":"Urea (Solid)","nutrient":"Nitrogen","nutrient_short_tons":"138662.862"}
+,{"date":"2025-08-01T00:00:00.000","hs":"3102210000","tfi_name":"Ammonium Sulfate","nutrient":"Nitrogen","nutrient_short_tons":"15899.321"}
+,{"date":"2025-08-01T00:00:00.000","hs":"3102300000","tfi_name":"Ammonium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"8518.779"}
+,{"date":"2025-08-01T00:00:00.000","hs":"3102500000","tfi_name":"Sodium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"84.833"}
+,{"date":"2025-08-01T00:00:00.000","hs":"3102800000","tfi_name":"UAN","nutrient":"Nitrogen","nutrient_short_tons":"28732.724"}
+,{"date":"2025-08-01T00:00:00.000","hs":"3103190000","tfi_name":"Normal Superphosphates","nutrient":"Phosphorus","nutrient_short_tons":"2.204"}
+,{"date":"2025-08-01T00:00:00.000","hs":"3105200000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"11397.929"}
+,{"date":"2025-08-01T00:00:00.000","hs":"3105200000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"21846.032"}
+,{"date":"2025-08-01T00:00:00.000","hs":"3105300000","tfi_name":"Diammonium Phosphate","nutrient":"Nitrogen","nutrient_short_tons":"464.888"}
+,{"date":"2025-08-01T00:00:00.000","hs":"3105300000","tfi_name":"Diammonium Phosphate","nutrient":"Phosphorus","nutrient_short_tons":"1188.047"}
+,{"date":"2025-08-01T00:00:00.000","hs":"3105400010","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Nitrogen","nutrient_short_tons":"5484.807"}
+,{"date":"2025-08-01T00:00:00.000","hs":"3105400010","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Phosphorus","nutrient_short_tons":"25928.182"}
+,{"date":"2025-08-01T00:00:00.000","hs":"3105400050","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Nitrogen","nutrient_short_tons":"16.369"}
+,{"date":"2025-08-01T00:00:00.000","hs":"3105400050","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Phosphorus","nutrient_short_tons":"77.382"}
+,{"date":"2025-08-01T00:00:00.000","hs":"3105510000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"13.360"}
+,{"date":"2025-08-01T00:00:00.000","hs":"3105510000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"25.607"}
+,{"date":"2025-08-01T00:00:00.000","hs":"3105590000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"38.758"}
+,{"date":"2025-08-01T00:00:00.000","hs":"3105590000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"74.285"}
+,{"date":"2025-08-01T00:00:00.000","hs":"3105600000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"171.034"}
+,{"date":"2025-08-01T00:00:00.000","hs":"3105600000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"327.819"}
+,{"date":"2025-08-01T00:00:00.000","hs":"3105900010","tfi_name":"Potassium Sodium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"43.739"}
+,{"date":"2025-09-01T00:00:00.000","hs":"2809200020","tfi_name":"Super Phosphoric Acid","nutrient":"Phosphorus","nutrient_short_tons":"58.643"}
+,{"date":"2025-09-01T00:00:00.000","hs":"2814100000","tfi_name":"Anhydrous Ammonia","nutrient":"Nitrogen","nutrient_short_tons":"136900.202"}
+,{"date":"2025-09-01T00:00:00.000","hs":"2814200000","tfi_name":"Aqua Ammonia","nutrient":"Nitrogen","nutrient_short_tons":"696.057"}
+,{"date":"2025-09-01T00:00:00.000","hs":"2834210000","tfi_name":"Potassium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"134.263"}
+,{"date":"2025-09-01T00:00:00.000","hs":"3102100010","tfi_name":"Urea (Solid)","nutrient":"Nitrogen","nutrient_short_tons":"101104.731"}
+,{"date":"2025-09-01T00:00:00.000","hs":"3102210000","tfi_name":"Ammonium Sulfate","nutrient":"Nitrogen","nutrient_short_tons":"16247.475"}
+,{"date":"2025-09-01T00:00:00.000","hs":"3102300000","tfi_name":"Ammonium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"7677.943"}
+,{"date":"2025-09-01T00:00:00.000","hs":"3102500000","tfi_name":"Sodium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"79.719"}
+,{"date":"2025-09-01T00:00:00.000","hs":"3102800000","tfi_name":"UAN","nutrient":"Nitrogen","nutrient_short_tons":"37896.535"}
+,{"date":"2025-09-01T00:00:00.000","hs":"3103110000","tfi_name":"Concentrated Superphosphates","nutrient":"Phosphorus","nutrient_short_tons":"17645.778"}
+,{"date":"2025-09-01T00:00:00.000","hs":"3103190000","tfi_name":"Normal Superphosphates","nutrient":"Phosphorus","nutrient_short_tons":"0.661"}
+,{"date":"2025-09-01T00:00:00.000","hs":"3105200000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"1009.672"}
+,{"date":"2025-09-01T00:00:00.000","hs":"3105200000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"1935.205"}
+,{"date":"2025-09-01T00:00:00.000","hs":"3105300000","tfi_name":"Diammonium Phosphate","nutrient":"Nitrogen","nutrient_short_tons":"3008.577"}
+,{"date":"2025-09-01T00:00:00.000","hs":"3105300000","tfi_name":"Diammonium Phosphate","nutrient":"Phosphorus","nutrient_short_tons":"7688.590"}
+,{"date":"2025-09-01T00:00:00.000","hs":"3105400010","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Nitrogen","nutrient_short_tons":"3482.175"}
+,{"date":"2025-09-01T00:00:00.000","hs":"3105400010","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Phosphorus","nutrient_short_tons":"16461.193"}
+,{"date":"2025-09-01T00:00:00.000","hs":"3105400050","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Nitrogen","nutrient_short_tons":"79.663"}
+,{"date":"2025-09-01T00:00:00.000","hs":"3105400050","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Phosphorus","nutrient_short_tons":"376.592"}
+,{"date":"2025-09-01T00:00:00.000","hs":"3105510000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"13.625"}
+,{"date":"2025-09-01T00:00:00.000","hs":"3105510000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"26.114"}
+,{"date":"2025-09-01T00:00:00.000","hs":"3105590000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"50.530"}
+,{"date":"2025-09-01T00:00:00.000","hs":"3105590000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"96.850"}
+,{"date":"2025-09-01T00:00:00.000","hs":"3105600000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"122.619"}
+,{"date":"2025-09-01T00:00:00.000","hs":"3105600000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"235.026"}
+,{"date":"2025-09-01T00:00:00.000","hs":"3105900010","tfi_name":"Potassium Sodium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"25.044"}
+,{"date":"2025-10-01T00:00:00.000","hs":"2814100000","tfi_name":"Anhydrous Ammonia","nutrient":"Nitrogen","nutrient_short_tons":"157330.016"}
+,{"date":"2025-10-01T00:00:00.000","hs":"2814200000","tfi_name":"Aqua Ammonia","nutrient":"Nitrogen","nutrient_short_tons":"754.840"}
+,{"date":"2025-10-01T00:00:00.000","hs":"2834210000","tfi_name":"Potassium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"1537.681"}
+,{"date":"2025-10-01T00:00:00.000","hs":"3102100010","tfi_name":"Urea (Solid)","nutrient":"Nitrogen","nutrient_short_tons":"88300.387"}
+,{"date":"2025-10-01T00:00:00.000","hs":"3102210000","tfi_name":"Ammonium Sulfate","nutrient":"Nitrogen","nutrient_short_tons":"15297.230"}
+,{"date":"2025-10-01T00:00:00.000","hs":"3102300000","tfi_name":"Ammonium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"28537.852"}
+,{"date":"2025-10-01T00:00:00.000","hs":"3102500000","tfi_name":"Sodium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"40.212"}
+,{"date":"2025-10-01T00:00:00.000","hs":"3102800000","tfi_name":"UAN","nutrient":"Nitrogen","nutrient_short_tons":"36098.976"}
+,{"date":"2025-10-01T00:00:00.000","hs":"3103110000","tfi_name":"Concentrated Superphosphates","nutrient":"Phosphorus","nutrient_short_tons":"23135.238"}
+,{"date":"2025-10-01T00:00:00.000","hs":"3103190000","tfi_name":"Normal Superphosphates","nutrient":"Phosphorus","nutrient_short_tons":"5.511"}
+,{"date":"2025-10-01T00:00:00.000","hs":"3105200000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"969.464"}
+,{"date":"2025-10-01T00:00:00.000","hs":"3105200000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"1858.134"}
+,{"date":"2025-10-01T00:00:00.000","hs":"3105300000","tfi_name":"Diammonium Phosphate","nutrient":"Nitrogen","nutrient_short_tons":"122.224"}
+,{"date":"2025-10-01T00:00:00.000","hs":"3105300000","tfi_name":"Diammonium Phosphate","nutrient":"Phosphorus","nutrient_short_tons":"312.350"}
+,{"date":"2025-10-01T00:00:00.000","hs":"3105400010","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Nitrogen","nutrient_short_tons":"3413.908"}
+,{"date":"2025-10-01T00:00:00.000","hs":"3105400010","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Phosphorus","nutrient_short_tons":"16138.479"}
+,{"date":"2025-10-01T00:00:00.000","hs":"3105400050","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Nitrogen","nutrient_short_tons":"46.197"}
+,{"date":"2025-10-01T00:00:00.000","hs":"3105400050","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Phosphorus","nutrient_short_tons":"218.389"}
+,{"date":"2025-10-01T00:00:00.000","hs":"3105510000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"10.979"}
+,{"date":"2025-10-01T00:00:00.000","hs":"3105510000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"21.044"}
+,{"date":"2025-10-01T00:00:00.000","hs":"3105590000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"3989.612"}
+,{"date":"2025-10-01T00:00:00.000","hs":"3105590000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"7646.759"}
+,{"date":"2025-10-01T00:00:00.000","hs":"3105600000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"125.267"}
+,{"date":"2025-10-01T00:00:00.000","hs":"3105600000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"240.097"}
+,{"date":"2025-10-01T00:00:00.000","hs":"3105900010","tfi_name":"Potassium Sodium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"10.583"}
+,{"date":"2025-11-01T00:00:00.000","hs":"2809200020","tfi_name":"Super Phosphoric Acid","nutrient":"Phosphorus","nutrient_short_tons":"79.477"}
+,{"date":"2025-11-01T00:00:00.000","hs":"2814100000","tfi_name":"Anhydrous Ammonia","nutrient":"Nitrogen","nutrient_short_tons":"139262.980"}
+,{"date":"2025-11-01T00:00:00.000","hs":"2814200000","tfi_name":"Aqua Ammonia","nutrient":"Nitrogen","nutrient_short_tons":"850.809"}
+,{"date":"2025-11-01T00:00:00.000","hs":"2834210000","tfi_name":"Potassium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"2051.267"}
+,{"date":"2025-11-01T00:00:00.000","hs":"3102100010","tfi_name":"Urea (Solid)","nutrient":"Nitrogen","nutrient_short_tons":"77074.023"}
+,{"date":"2025-11-01T00:00:00.000","hs":"3102210000","tfi_name":"Ammonium Sulfate","nutrient":"Nitrogen","nutrient_short_tons":"25286.506"}
+,{"date":"2025-11-01T00:00:00.000","hs":"3102300000","tfi_name":"Ammonium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"21012.419"}
+,{"date":"2025-11-01T00:00:00.000","hs":"3102500000","tfi_name":"Sodium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"178.134"}
+,{"date":"2025-11-01T00:00:00.000","hs":"3102800000","tfi_name":"UAN","nutrient":"Nitrogen","nutrient_short_tons":"71300.585"}
+,{"date":"2025-11-01T00:00:00.000","hs":"3103190000","tfi_name":"Normal Superphosphates","nutrient":"Phosphorus","nutrient_short_tons":"13.669"}
+,{"date":"2025-11-01T00:00:00.000","hs":"3105200000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"1007.686"}
+,{"date":"2025-11-01T00:00:00.000","hs":"3105200000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"1931.406"}
+,{"date":"2025-11-01T00:00:00.000","hs":"3105300000","tfi_name":"Diammonium Phosphate","nutrient":"Nitrogen","nutrient_short_tons":"1329.386"}
+,{"date":"2025-11-01T00:00:00.000","hs":"3105300000","tfi_name":"Diammonium Phosphate","nutrient":"Phosphorus","nutrient_short_tons":"3397.317"}
+,{"date":"2025-11-01T00:00:00.000","hs":"3105400010","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Nitrogen","nutrient_short_tons":"8803.288"}
+,{"date":"2025-11-01T00:00:00.000","hs":"3105400010","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Phosphorus","nutrient_short_tons":"41615.554"}
+,{"date":"2025-11-01T00:00:00.000","hs":"3105400050","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Nitrogen","nutrient_short_tons":"25.342"}
+,{"date":"2025-11-01T00:00:00.000","hs":"3105400050","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Phosphorus","nutrient_short_tons":"119.798"}
+,{"date":"2025-11-01T00:00:00.000","hs":"3105510000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"28.174"}
+,{"date":"2025-11-01T00:00:00.000","hs":"3105510000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"54.002"}
+,{"date":"2025-11-01T00:00:00.000","hs":"3105590000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"47.356"}
+,{"date":"2025-11-01T00:00:00.000","hs":"3105590000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"90.764"}
+,{"date":"2025-11-01T00:00:00.000","hs":"3105600000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"168.919"}
+,{"date":"2025-11-01T00:00:00.000","hs":"3105600000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"323.761"}
+,{"date":"2025-11-01T00:00:00.000","hs":"3105900010","tfi_name":"Potassium Sodium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"32.805"}
+,{"date":"2025-12-01T00:00:00.000","hs":"2809200010","tfi_name":"Wet Process Phosphoric Acid","nutrient":"Phosphorus","nutrient_short_tons":"536.913"}
+,{"date":"2025-12-01T00:00:00.000","hs":"2809200020","tfi_name":"Super Phosphoric Acid","nutrient":"Phosphorus","nutrient_short_tons":"55.556"}
+,{"date":"2025-12-01T00:00:00.000","hs":"2814100000","tfi_name":"Anhydrous Ammonia","nutrient":"Nitrogen","nutrient_short_tons":"134773.336"}
+,{"date":"2025-12-01T00:00:00.000","hs":"2814200000","tfi_name":"Aqua Ammonia","nutrient":"Nitrogen","nutrient_short_tons":"813.178"}
+,{"date":"2025-12-01T00:00:00.000","hs":"2834210000","tfi_name":"Potassium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"3724.441"}
+,{"date":"2025-12-01T00:00:00.000","hs":"3102100010","tfi_name":"Urea (Solid)","nutrient":"Nitrogen","nutrient_short_tons":"147205.342"}
+,{"date":"2025-12-01T00:00:00.000","hs":"3102210000","tfi_name":"Ammonium Sulfate","nutrient":"Nitrogen","nutrient_short_tons":"11681.199"}
+,{"date":"2025-12-01T00:00:00.000","hs":"3102300000","tfi_name":"Ammonium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"8633.253"}
+,{"date":"2025-12-01T00:00:00.000","hs":"3102500000","tfi_name":"Sodium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"939.698"}
+,{"date":"2025-12-01T00:00:00.000","hs":"3102800000","tfi_name":"UAN","nutrient":"Nitrogen","nutrient_short_tons":"73597.623"}
+,{"date":"2025-12-01T00:00:00.000","hs":"3103190000","tfi_name":"Normal Superphosphates","nutrient":"Phosphorus","nutrient_short_tons":"86.421"}
+,{"date":"2025-12-01T00:00:00.000","hs":"3105200000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"1451.478"}
+,{"date":"2025-12-01T00:00:00.000","hs":"3105200000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"2782.000"}
+,{"date":"2025-12-01T00:00:00.000","hs":"3105300000","tfi_name":"Diammonium Phosphate","nutrient":"Nitrogen","nutrient_short_tons":"254.368"}
+,{"date":"2025-12-01T00:00:00.000","hs":"3105300000","tfi_name":"Diammonium Phosphate","nutrient":"Phosphorus","nutrient_short_tons":"650.054"}
+,{"date":"2025-12-01T00:00:00.000","hs":"3105400010","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Nitrogen","nutrient_short_tons":"3738.991"}
+,{"date":"2025-12-01T00:00:00.000","hs":"3105400010","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Phosphorus","nutrient_short_tons":"17675.231"}
+,{"date":"2025-12-01T00:00:00.000","hs":"3105400050","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Nitrogen","nutrient_short_tons":"35.649"}
+,{"date":"2025-12-01T00:00:00.000","hs":"3105400050","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Phosphorus","nutrient_short_tons":"168.521"}
+,{"date":"2025-12-01T00:00:00.000","hs":"3105510000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"78.309"}
+,{"date":"2025-12-01T00:00:00.000","hs":"3105510000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"150.091"}
+,{"date":"2025-12-01T00:00:00.000","hs":"3105590000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"52.380"}
+,{"date":"2025-12-01T00:00:00.000","hs":"3105590000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"100.399"}
+,{"date":"2025-12-01T00:00:00.000","hs":"3105600000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"1980.722"}
+,{"date":"2025-12-01T00:00:00.000","hs":"3105600000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"3796.378"}
+,{"date":"2025-12-01T00:00:00.000","hs":"3105900010","tfi_name":"Potassium Sodium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"22.046"}
+,{"date":"2026-01-01T00:00:00.000","hs":"2809200010","tfi_name":"Wet Process Phosphoric Acid","nutrient":"Phosphorus","nutrient_short_tons":"283.933"}
+,{"date":"2026-01-01T00:00:00.000","hs":"2809200020","tfi_name":"Super Phosphoric Acid","nutrient":"Phosphorus","nutrient_short_tons":"309.420"}
+,{"date":"2026-01-01T00:00:00.000","hs":"2814100000","tfi_name":"Anhydrous Ammonia","nutrient":"Nitrogen","nutrient_short_tons":"178996.360"}
+,{"date":"2026-01-01T00:00:00.000","hs":"2814200000","tfi_name":"Aqua Ammonia","nutrient":"Nitrogen","nutrient_short_tons":"869.512"}
+,{"date":"2026-01-01T00:00:00.000","hs":"2834210000","tfi_name":"Potassium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"902.946"}
+,{"date":"2026-01-01T00:00:00.000","hs":"3102100010","tfi_name":"Urea (Solid)","nutrient":"Nitrogen","nutrient_short_tons":"240570.781"}
+,{"date":"2026-01-01T00:00:00.000","hs":"3102210000","tfi_name":"Ammonium Sulfate","nutrient":"Nitrogen","nutrient_short_tons":"26746.945"}
+,{"date":"2026-01-01T00:00:00.000","hs":"3102300000","tfi_name":"Ammonium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"10304.957"}
+,{"date":"2026-01-01T00:00:00.000","hs":"3102500000","tfi_name":"Sodium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"177.957"}
+,{"date":"2026-01-01T00:00:00.000","hs":"3102800000","tfi_name":"UAN","nutrient":"Nitrogen","nutrient_short_tons":"91027.527"}
+,{"date":"2026-01-01T00:00:00.000","hs":"3103110000","tfi_name":"Concentrated Superphosphates","nutrient":"Phosphorus","nutrient_short_tons":"16175.804"}
+,{"date":"2026-01-01T00:00:00.000","hs":"3103190000","tfi_name":"Normal Superphosphates","nutrient":"Phosphorus","nutrient_short_tons":"23.589"}
+,{"date":"2026-01-01T00:00:00.000","hs":"3105200000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"4393.718"}
+,{"date":"2026-01-01T00:00:00.000","hs":"3105200000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"8421.301"}
+,{"date":"2026-01-01T00:00:00.000","hs":"3105300000","tfi_name":"Diammonium Phosphate","nutrient":"Nitrogen","nutrient_short_tons":"12217.452"}
+,{"date":"2026-01-01T00:00:00.000","hs":"3105300000","tfi_name":"Diammonium Phosphate","nutrient":"Phosphorus","nutrient_short_tons":"31222.379"}
+,{"date":"2026-01-01T00:00:00.000","hs":"3105400010","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Nitrogen","nutrient_short_tons":"3186.437"}
+,{"date":"2026-01-01T00:00:00.000","hs":"3105400010","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Phosphorus","nutrient_short_tons":"15063.154"}
+,{"date":"2026-01-01T00:00:00.000","hs":"3105400050","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Nitrogen","nutrient_short_tons":"2.668"}
+,{"date":"2026-01-01T00:00:00.000","hs":"3105400050","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Phosphorus","nutrient_short_tons":"12.61"}
+,{"date":"2026-01-01T00:00:00.000","hs":"3105510000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"0.396"}
+,{"date":"2026-01-01T00:00:00.000","hs":"3105510000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"0.762"}
+,{"date":"2026-01-01T00:00:00.000","hs":"3105590000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"4783.407"}
+,{"date":"2026-01-01T00:00:00.000","hs":"3105590000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"9168.199"}
+,{"date":"2026-01-01T00:00:00.000","hs":"3105600000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"167.727"}
+,{"date":"2026-01-01T00:00:00.000","hs":"3105600000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"321.479"}
+,{"date":"2026-01-01T00:00:00.000","hs":"3105900010","tfi_name":"Potassium Sodium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"22.928"}
+,{"date":"2026-02-01T00:00:00.000","hs":"2809200010","tfi_name":"Wet Process Phosphoric Acid","nutrient":"Phosphorus","nutrient_short_tons":"32.739"}
+,{"date":"2026-02-01T00:00:00.000","hs":"2809200020","tfi_name":"Super Phosphoric Acid","nutrient":"Phosphorus","nutrient_short_tons":"43.211"}
+,{"date":"2026-02-01T00:00:00.000","hs":"2814100000","tfi_name":"Anhydrous Ammonia","nutrient":"Nitrogen","nutrient_short_tons":"165794.082"}
+,{"date":"2026-02-01T00:00:00.000","hs":"2814200000","tfi_name":"Aqua Ammonia","nutrient":"Nitrogen","nutrient_short_tons":"633.931"}
+,{"date":"2026-02-01T00:00:00.000","hs":"2834210000","tfi_name":"Potassium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"2937.392"}
+,{"date":"2026-02-01T00:00:00.000","hs":"3102100010","tfi_name":"Urea (Solid)","nutrient":"Nitrogen","nutrient_short_tons":"369190.756"}
+,{"date":"2026-02-01T00:00:00.000","hs":"3102210000","tfi_name":"Ammonium Sulfate","nutrient":"Nitrogen","nutrient_short_tons":"25570.306"}
+,{"date":"2026-02-01T00:00:00.000","hs":"3102300000","tfi_name":"Ammonium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"14218.522"}
+,{"date":"2026-02-01T00:00:00.000","hs":"3102500000","tfi_name":"Sodium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"399.653"}
+,{"date":"2026-02-01T00:00:00.000","hs":"3102800000","tfi_name":"UAN","nutrient":"Nitrogen","nutrient_short_tons":"101558.201"}
+,{"date":"2026-02-01T00:00:00.000","hs":"3103110000","tfi_name":"Concentrated Superphosphates","nutrient":"Phosphorus","nutrient_short_tons":"12423.541"}
+,{"date":"2026-02-01T00:00:00.000","hs":"3103190000","tfi_name":"Normal Superphosphates","nutrient":"Phosphorus","nutrient_short_tons":"1.102"}
+,{"date":"2026-02-01T00:00:00.000","hs":"3105200000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"2038.261"}
+,{"date":"2026-02-01T00:00:00.000","hs":"3105200000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"3906.665"}
+,{"date":"2026-02-01T00:00:00.000","hs":"3105300000","tfi_name":"Diammonium Phosphate","nutrient":"Nitrogen","nutrient_short_tons":"53261.745"}
+,{"date":"2026-02-01T00:00:00.000","hs":"3105300000","tfi_name":"Diammonium Phosphate","nutrient":"Phosphorus","nutrient_short_tons":"136113.349"}
+,{"date":"2026-02-01T00:00:00.000","hs":"3105400010","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Nitrogen","nutrient_short_tons":"3475.507"}
+,{"date":"2026-02-01T00:00:00.000","hs":"3105400010","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Phosphorus","nutrient_short_tons":"16429.665"}
+,{"date":"2026-02-01T00:00:00.000","hs":"3105400050","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Nitrogen","nutrient_short_tons":"0.606"}
+,{"date":"2026-02-01T00:00:00.000","hs":"3105400050","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Phosphorus","nutrient_short_tons":"2.866"}
+,{"date":"2026-02-01T00:00:00.000","hs":"3105510000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"45.372"}
+,{"date":"2026-02-01T00:00:00.000","hs":"3105510000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"86.961"}
+,{"date":"2026-02-01T00:00:00.000","hs":"3105590000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"107.673"}
+,{"date":"2026-02-01T00:00:00.000","hs":"3105590000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"206.374"}
+,{"date":"2026-02-01T00:00:00.000","hs":"3105600000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"296.961"}
+,{"date":"2026-02-01T00:00:00.000","hs":"3105600000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"569.180"}
+,{"date":"2026-02-01T00:00:00.000","hs":"3105900010","tfi_name":"Potassium Sodium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"39.154"}
+,{"date":"2026-03-01T00:00:00.000","hs":"2809200010","tfi_name":"Wet Process Phosphoric Acid","nutrient":"Phosphorus","nutrient_short_tons":"391.078"}
+,{"date":"2026-03-01T00:00:00.000","hs":"2809200020","tfi_name":"Super Phosphoric Acid","nutrient":"Phosphorus","nutrient_short_tons":"385.809"}
+,{"date":"2026-03-01T00:00:00.000","hs":"2814100000","tfi_name":"Anhydrous Ammonia","nutrient":"Nitrogen","nutrient_short_tons":"170553.084"}
+,{"date":"2026-03-01T00:00:00.000","hs":"2814200000","tfi_name":"Aqua Ammonia","nutrient":"Nitrogen","nutrient_short_tons":"759.738"}
+,{"date":"2026-03-01T00:00:00.000","hs":"2834210000","tfi_name":"Potassium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"2731.988"}
+,{"date":"2026-03-01T00:00:00.000","hs":"3102100010","tfi_name":"Urea (Solid)","nutrient":"Nitrogen","nutrient_short_tons":"640599.565"}
+,{"date":"2026-03-01T00:00:00.000","hs":"3102210000","tfi_name":"Ammonium Sulfate","nutrient":"Nitrogen","nutrient_short_tons":"30118.991"}
+,{"date":"2026-03-01T00:00:00.000","hs":"3102300000","tfi_name":"Ammonium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"39196.941"}
+,{"date":"2026-03-01T00:00:00.000","hs":"3102500000","tfi_name":"Sodium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"230.691"}
+,{"date":"2026-03-01T00:00:00.000","hs":"3102800000","tfi_name":"UAN","nutrient":"Nitrogen","nutrient_short_tons":"76449.167"}
+,{"date":"2026-03-01T00:00:00.000","hs":"3103110000","tfi_name":"Concentrated Superphosphates","nutrient":"Phosphorus","nutrient_short_tons":"14178.484"}
+,{"date":"2026-03-01T00:00:00.000","hs":"3103190000","tfi_name":"Normal Superphosphates","nutrient":"Phosphorus","nutrient_short_tons":"35.274"}
+,{"date":"2026-03-01T00:00:00.000","hs":"3105200000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"2207.838"}
+,{"date":"2026-03-01T00:00:00.000","hs":"3105200000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"4231.692"}
+,{"date":"2026-03-01T00:00:00.000","hs":"3105300000","tfi_name":"Diammonium Phosphate","nutrient":"Nitrogen","nutrient_short_tons":"40941.115"}
+,{"date":"2026-03-01T00:00:00.000","hs":"3105300000","tfi_name":"Diammonium Phosphate","nutrient":"Phosphorus","nutrient_short_tons":"104627.296"}
+,{"date":"2026-03-01T00:00:00.000","hs":"3105400010","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Nitrogen","nutrient_short_tons":"7760.020"}
+,{"date":"2026-03-01T00:00:00.000","hs":"3105400010","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Phosphorus","nutrient_short_tons":"36683.730"}
+,{"date":"2026-03-01T00:00:00.000","hs":"3105400050","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Nitrogen","nutrient_short_tons":"37.831"}
+,{"date":"2026-03-01T00:00:00.000","hs":"3105400050","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Phosphorus","nutrient_short_tons":"178.839"}
+,{"date":"2026-03-01T00:00:00.000","hs":"3105510000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"38.626"}
+,{"date":"2026-03-01T00:00:00.000","hs":"3105510000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"74.031"}
+,{"date":"2026-03-01T00:00:00.000","hs":"3105590000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"770.118"}
+,{"date":"2026-03-01T00:00:00.000","hs":"3105590000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"1476.059"}
+,{"date":"2026-03-01T00:00:00.000","hs":"3105600000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"179.368"}
+,{"date":"2026-03-01T00:00:00.000","hs":"3105600000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"343.788"}
+,{"date":"2026-03-01T00:00:00.000","hs":"3105900010","tfi_name":"Potassium Sodium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"52.029"}
+,{"date":"2026-04-01T00:00:00.000","hs":"2809200010","tfi_name":"Wet Process Phosphoric Acid","nutrient":"Phosphorus","nutrient_short_tons":"365.482"}
+,{"date":"2026-04-01T00:00:00.000","hs":"2809200020","tfi_name":"Super Phosphoric Acid","nutrient":"Phosphorus","nutrient_short_tons":"246.917"}
+,{"date":"2026-04-01T00:00:00.000","hs":"2814100000","tfi_name":"Anhydrous Ammonia","nutrient":"Nitrogen","nutrient_short_tons":"140415.446"}
+,{"date":"2026-04-01T00:00:00.000","hs":"2814200000","tfi_name":"Aqua Ammonia","nutrient":"Nitrogen","nutrient_short_tons":"799.818"}
+,{"date":"2026-04-01T00:00:00.000","hs":"2834210000","tfi_name":"Potassium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"1474.714"}
+,{"date":"2026-04-01T00:00:00.000","hs":"3102100010","tfi_name":"Urea (Solid)","nutrient":"Nitrogen","nutrient_short_tons":"419052.761"}
+,{"date":"2026-04-01T00:00:00.000","hs":"3102210000","tfi_name":"Ammonium Sulfate","nutrient":"Nitrogen","nutrient_short_tons":"28221.274"}
+,{"date":"2026-04-01T00:00:00.000","hs":"3102300000","tfi_name":"Ammonium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"26232.106"}
+,{"date":"2026-04-01T00:00:00.000","hs":"3102500000","tfi_name":"Sodium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"65.080"}
+,{"date":"2026-04-01T00:00:00.000","hs":"3102800000","tfi_name":"UAN","nutrient":"Nitrogen","nutrient_short_tons":"72264.973"}
+,{"date":"2026-04-01T00:00:00.000","hs":"3103110000","tfi_name":"Concentrated Superphosphates","nutrient":"Phosphorus","nutrient_short_tons":"20262.728"}
+,{"date":"2026-04-01T00:00:00.000","hs":"3103190000","tfi_name":"Normal Superphosphates","nutrient":"Phosphorus","nutrient_short_tons":"47.178"}
+,{"date":"2026-04-01T00:00:00.000","hs":"3105200000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"3033.646"}
+,{"date":"2026-04-01T00:00:00.000","hs":"3105200000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"5814.487"}
+,{"date":"2026-04-01T00:00:00.000","hs":"3105300000","tfi_name":"Diammonium Phosphate","nutrient":"Nitrogen","nutrient_short_tons":"3899.465"}
+,{"date":"2026-04-01T00:00:00.000","hs":"3105300000","tfi_name":"Diammonium Phosphate","nutrient":"Phosphorus","nutrient_short_tons":"9965.301"}
+,{"date":"2026-04-01T00:00:00.000","hs":"3105400010","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Nitrogen","nutrient_short_tons":"432.878"}
+,{"date":"2026-04-01T00:00:00.000","hs":"3105400010","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Phosphorus","nutrient_short_tons":"2046.327"}
+,{"date":"2026-04-01T00:00:00.000","hs":"3105400050","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Nitrogen","nutrient_short_tons":"5.457"}
+,{"date":"2026-04-01T00:00:00.000","hs":"3105400050","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Phosphorus","nutrient_short_tons":"25.794"}
+,{"date":"2026-04-01T00:00:00.000","hs":"3105510000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"14.419"}
+,{"date":"2026-04-01T00:00:00.000","hs":"3105510000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"27.636"}
+,{"date":"2026-04-01T00:00:00.000","hs":"3105590000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"1215.628"}
+,{"date":"2026-04-01T00:00:00.000","hs":"3105590000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"2329.953"}
+,{"date":"2026-04-01T00:00:00.000","hs":"3105600000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"381.089"}
+,{"date":"2026-04-01T00:00:00.000","hs":"3105600000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"730.428"}
+,{"date":"2026-04-01T00:00:00.000","hs":"3105900010","tfi_name":"Potassium Sodium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"19.753"}
+,{"date":"2026-05-01T00:00:00.000","hs":"2809200010","tfi_name":"Wet Process Phosphoric Acid","nutrient":"Phosphorus","nutrient_short_tons":"784.536"}
+,{"date":"2026-05-01T00:00:00.000","hs":"2809200020","tfi_name":"Super Phosphoric Acid","nutrient":"Phosphorus","nutrient_short_tons":"456.025"}
+,{"date":"2026-05-01T00:00:00.000","hs":"2814100000","tfi_name":"Anhydrous Ammonia","nutrient":"Nitrogen","nutrient_short_tons":"172967.386"}
+,{"date":"2026-05-01T00:00:00.000","hs":"2814200000","tfi_name":"Aqua Ammonia","nutrient":"Nitrogen","nutrient_short_tons":"802.712"}
+,{"date":"2026-05-01T00:00:00.000","hs":"2834210000","tfi_name":"Potassium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"2643.559"}
+,{"date":"2026-05-01T00:00:00.000","hs":"3102100010","tfi_name":"Urea (Solid)","nutrient":"Nitrogen","nutrient_short_tons":"133138.918"}
+,{"date":"2026-05-01T00:00:00.000","hs":"3102210000","tfi_name":"Ammonium Sulfate","nutrient":"Nitrogen","nutrient_short_tons":"22547.342"}
+,{"date":"2026-05-01T00:00:00.000","hs":"3102300000","tfi_name":"Ammonium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"5525.075"}
+,{"date":"2026-05-01T00:00:00.000","hs":"3102500000","tfi_name":"Sodium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"58.378"}
+,{"date":"2026-05-01T00:00:00.000","hs":"3102800000","tfi_name":"UAN","nutrient":"Nitrogen","nutrient_short_tons":"43967.529"}
+,{"date":"2026-05-01T00:00:00.000","hs":"3103190000","tfi_name":"Normal Superphosphates","nutrient":"Phosphorus","nutrient_short_tons":"6.172"}
+,{"date":"2026-05-01T00:00:00.000","hs":"3105200000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"3205.606"}
+,{"date":"2026-05-01T00:00:00.000","hs":"3105200000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"6144.083"}
+,{"date":"2026-05-01T00:00:00.000","hs":"3105300000","tfi_name":"Diammonium Phosphate","nutrient":"Nitrogen","nutrient_short_tons":"4221.095"}
+,{"date":"2026-05-01T00:00:00.000","hs":"3105300000","tfi_name":"Diammonium Phosphate","nutrient":"Phosphorus","nutrient_short_tons":"10787.250"}
+,{"date":"2026-05-01T00:00:00.000","hs":"3105400010","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Nitrogen","nutrient_short_tons":"781.603"}
+,{"date":"2026-05-01T00:00:00.000","hs":"3105400010","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Phosphorus","nutrient_short_tons":"3694.854"}
+,{"date":"2026-05-01T00:00:00.000","hs":"3105400050","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Nitrogen","nutrient_short_tons":"0.121"}
+,{"date":"2026-05-01T00:00:00.000","hs":"3105400050","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Phosphorus","nutrient_short_tons":"0.573"}
+,{"date":"2026-05-01T00:00:00.000","hs":"3105510000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"5.159"}
+,{"date":"2026-05-01T00:00:00.000","hs":"3105510000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"9.888"}
+,{"date":"2026-05-01T00:00:00.000","hs":"3105590000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"51.192"}
+,{"date":"2026-05-01T00:00:00.000","hs":"3105590000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"98.117"}
+,{"date":"2026-05-01T00:00:00.000","hs":"3105600000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"428.976"}
+,{"date":"2026-05-01T00:00:00.000","hs":"3105600000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"822.202"}
+,{"date":"2026-05-01T00:00:00.000","hs":"3105900010","tfi_name":"Potassium Sodium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"8.641"}
+,{"date":"2026-06-01T00:00:00.000","hs":"2809200010","tfi_name":"Wet Process Phosphoric Acid","nutrient":"Phosphorus","nutrient_short_tons":"155.955"}
+,{"date":"2026-06-01T00:00:00.000","hs":"2809200020","tfi_name":"Super Phosphoric Acid","nutrient":"Phosphorus","nutrient_short_tons":"109.57"}
+,{"date":"2026-06-01T00:00:00.000","hs":"2814100000","tfi_name":"Anhydrous Ammonia","nutrient":"Nitrogen","nutrient_short_tons":"113168.457"}
+,{"date":"2026-06-01T00:00:00.000","hs":"2814200000","tfi_name":"Aqua Ammonia","nutrient":"Nitrogen","nutrient_short_tons":"739.920"}
+,{"date":"2026-06-01T00:00:00.000","hs":"2834210000","tfi_name":"Potassium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"1675.490"}
+,{"date":"2026-06-01T00:00:00.000","hs":"3102100010","tfi_name":"Urea (Solid)","nutrient":"Nitrogen","nutrient_short_tons":"50521.690"}
+,{"date":"2026-06-01T00:00:00.000","hs":"3102210000","tfi_name":"Ammonium Sulfate","nutrient":"Nitrogen","nutrient_short_tons":"4093.814"}
+,{"date":"2026-06-01T00:00:00.000","hs":"3102300000","tfi_name":"Ammonium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"5898.781"}
+,{"date":"2026-06-01T00:00:00.000","hs":"3102500000","tfi_name":"Sodium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"1281.150"}
+,{"date":"2026-06-01T00:00:00.000","hs":"3102800000","tfi_name":"UAN","nutrient":"Nitrogen","nutrient_short_tons":"55768.418"}
+,{"date":"2026-06-01T00:00:00.000","hs":"3103110000","tfi_name":"Concentrated Superphosphates","nutrient":"Phosphorus","nutrient_short_tons":"27888.950"}
+,{"date":"2026-06-01T00:00:00.000","hs":"3103190000","tfi_name":"Normal Superphosphates","nutrient":"Phosphorus","nutrient_short_tons":"31.746"}
+,{"date":"2026-06-01T00:00:00.000","hs":"3105200000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"1278.594"}
+,{"date":"2026-06-01T00:00:00.000","hs":"3105200000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"2450.635"}
+,{"date":"2026-06-01T00:00:00.000","hs":"3105300000","tfi_name":"Diammonium Phosphate","nutrient":"Nitrogen","nutrient_short_tons":"411.117"}
+,{"date":"2026-06-01T00:00:00.000","hs":"3105300000","tfi_name":"Diammonium Phosphate","nutrient":"Phosphorus","nutrient_short_tons":"1050.632"}
+,{"date":"2026-06-01T00:00:00.000","hs":"3105400010","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Nitrogen","nutrient_short_tons":"8407.151"}
+,{"date":"2026-06-01T00:00:00.000","hs":"3105400010","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Phosphorus","nutrient_short_tons":"39742.906"}
+,{"date":"2026-06-01T00:00:00.000","hs":"3105400050","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Nitrogen","nutrient_short_tons":"18.430"}
+,{"date":"2026-06-01T00:00:00.000","hs":"3105400050","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Phosphorus","nutrient_short_tons":"87.127"}
+,{"date":"2026-06-01T00:00:00.000","hs":"3105510000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"20.900"}
+,{"date":"2026-06-01T00:00:00.000","hs":"3105510000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"40.058"}
+,{"date":"2026-06-01T00:00:00.000","hs":"3105590000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"29.895"}
+,{"date":"2026-06-01T00:00:00.000","hs":"3105590000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"57.298"}
+,{"date":"2026-06-01T00:00:00.000","hs":"3105600000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"481.092"}
+,{"date":"2026-06-01T00:00:00.000","hs":"3105600000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"922.096"}
+,{"date":"2026-06-01T00:00:00.000","hs":"3105900010","tfi_name":"Potassium Sodium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"10.758"}
+,{"date":"2026-07-01T00:00:00.000","hs":"2809200020","tfi_name":"Super Phosphoric Acid","nutrient":"Phosphorus","nutrient_short_tons":"158.181"}
+,{"date":"2026-07-01T00:00:00.000","hs":"2814100000","tfi_name":"Anhydrous Ammonia","nutrient":"Nitrogen","nutrient_short_tons":"103827.615"}
+,{"date":"2026-07-01T00:00:00.000","hs":"2814200000","tfi_name":"Aqua Ammonia","nutrient":"Nitrogen","nutrient_short_tons":"694.051"}
+,{"date":"2026-07-01T00:00:00.000","hs":"2834210000","tfi_name":"Potassium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"1619.779"}
+,{"date":"2026-07-01T00:00:00.000","hs":"3102100010","tfi_name":"Urea (Solid)","nutrient":"Nitrogen","nutrient_short_tons":"136538.777"}
+,{"date":"2026-07-01T00:00:00.000","hs":"3102210000","tfi_name":"Ammonium Sulfate","nutrient":"Nitrogen","nutrient_short_tons":"11141.145"}
+,{"date":"2026-07-01T00:00:00.000","hs":"3102300000","tfi_name":"Ammonium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"10361.824"}
+,{"date":"2026-07-01T00:00:00.000","hs":"3102500000","tfi_name":"Sodium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"80.601"}
+,{"date":"2026-07-01T00:00:00.000","hs":"3102800000","tfi_name":"UAN","nutrient":"Nitrogen","nutrient_short_tons":"53001.180"}
+,{"date":"2026-07-01T00:00:00.000","hs":"3103110000","tfi_name":"Concentrated Superphosphates","nutrient":"Phosphorus","nutrient_short_tons":"26353.058"}
+,{"date":"2026-07-01T00:00:00.000","hs":"3105200000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"846.968"}
+,{"date":"2026-07-01T00:00:00.000","hs":"3105200000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"1623.362"}
+,{"date":"2026-07-01T00:00:00.000","hs":"3105300000","tfi_name":"Diammonium Phosphate","nutrient":"Nitrogen","nutrient_short_tons":"240.282"}
+,{"date":"2026-07-01T00:00:00.000","hs":"3105300000","tfi_name":"Diammonium Phosphate","nutrient":"Phosphorus","nutrient_short_tons":"614.054"}
+,{"date":"2026-07-01T00:00:00.000","hs":"3105400010","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Nitrogen","nutrient_short_tons":"7374.309"}
+,{"date":"2026-07-01T00:00:00.000","hs":"3105400010","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Phosphorus","nutrient_short_tons":"34860.378"}
+,{"date":"2026-07-01T00:00:00.000","hs":"3105400050","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Nitrogen","nutrient_short_tons":"28.858"}
+,{"date":"2026-07-01T00:00:00.000","hs":"3105400050","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Phosphorus","nutrient_short_tons":"136.422"}
+,{"date":"2026-07-01T00:00:00.000","hs":"3105510000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"2.381"}
+,{"date":"2026-07-01T00:00:00.000","hs":"3105510000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"4.564"}
+,{"date":"2026-07-01T00:00:00.000","hs":"3105590000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"10.716"}
+,{"date":"2026-07-01T00:00:00.000","hs":"3105590000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"20.536"}
+,{"date":"2026-07-01T00:00:00.000","hs":"3105600000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"128.572"}
+,{"date":"2026-07-01T00:00:00.000","hs":"3105600000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"246.435"}
+,{"date":"2026-07-01T00:00:00.000","hs":"3105900010","tfi_name":"Potassium Sodium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"19.931"}
+,{"date":"2026-08-01T00:00:00.000","hs":"2809200020","tfi_name":"Super Phosphoric Acid","nutrient":"Phosphorus","nutrient_short_tons":"221.454"}
+,{"date":"2026-08-01T00:00:00.000","hs":"2814100000","tfi_name":"Anhydrous Ammonia","nutrient":"Nitrogen","nutrient_short_tons":"118361.330"}
+,{"date":"2026-08-01T00:00:00.000","hs":"2814200000","tfi_name":"Aqua Ammonia","nutrient":"Nitrogen","nutrient_short_tons":"700.955"}
+,{"date":"2026-08-01T00:00:00.000","hs":"2834210000","tfi_name":"Potassium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"3923.364"}
+,{"date":"2026-08-01T00:00:00.000","hs":"3102100010","tfi_name":"Urea (Solid)","nutrient":"Nitrogen","nutrient_short_tons":"112133.852"}
+,{"date":"2026-08-01T00:00:00.000","hs":"3102210000","tfi_name":"Ammonium Sulfate","nutrient":"Nitrogen","nutrient_short_tons":"13740.726"}
+,{"date":"2026-08-01T00:00:00.000","hs":"3102300000","tfi_name":"Ammonium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"12631.383"}
+,{"date":"2026-08-01T00:00:00.000","hs":"3102500000","tfi_name":"Sodium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"1551.347"}
+,{"date":"2026-08-01T00:00:00.000","hs":"3102800000","tfi_name":"UAN","nutrient":"Nitrogen","nutrient_short_tons":"34165.262"}
+,{"date":"2026-08-01T00:00:00.000","hs":"3103110000","tfi_name":"Concentrated Superphosphates","nutrient":"Phosphorus","nutrient_short_tons":"44060.191"}
+,{"date":"2026-08-01T00:00:00.000","hs":"3103190000","tfi_name":"Normal Superphosphates","nutrient":"Phosphorus","nutrient_short_tons":"3.969"}
+,{"date":"2026-08-01T00:00:00.000","hs":"3105200000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"2050.166"}
+,{"date":"2026-08-01T00:00:00.000","hs":"3105200000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"3929.484"}
+,{"date":"2026-08-01T00:00:00.000","hs":"3105300000","tfi_name":"Diammonium Phosphate","nutrient":"Nitrogen","nutrient_short_tons":"6232.837"}
+,{"date":"2026-08-01T00:00:00.000","hs":"3105300000","tfi_name":"Diammonium Phosphate","nutrient":"Phosphorus","nutrient_short_tons":"15928.359"}
+,{"date":"2026-08-01T00:00:00.000","hs":"3105400010","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Nitrogen","nutrient_short_tons":"596.811"}
+,{"date":"2026-08-01T00:00:00.000","hs":"3105400010","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Phosphorus","nutrient_short_tons":"2821.297"}
+,{"date":"2026-08-01T00:00:00.000","hs":"3105400050","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Nitrogen","nutrient_short_tons":"0.121"}
+,{"date":"2026-08-01T00:00:00.000","hs":"3105400050","tfi_name":"Monoammonium Phosphate & Other","nutrient":"Phosphorus","nutrient_short_tons":"0.573"}
+,{"date":"2026-08-01T00:00:00.000","hs":"3105510000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"1314.703"}
+,{"date":"2026-08-01T00:00:00.000","hs":"3105510000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"2519.848"}
+,{"date":"2026-08-01T00:00:00.000","hs":"3105590000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"420.112"}
+,{"date":"2026-08-01T00:00:00.000","hs":"3105590000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"805.216"}
+,{"date":"2026-08-01T00:00:00.000","hs":"3105600000","tfi_name":"Chemical Mixtures","nutrient":"Nitrogen","nutrient_short_tons":"153.312"}
+,{"date":"2026-08-01T00:00:00.000","hs":"3105600000","tfi_name":"Chemical Mixtures","nutrient":"Phosphorus","nutrient_short_tons":"293.843"}
+,{"date":"2026-08-01T00:00:00.000","hs":"3105900010","tfi_name":"Potassium Sodium Nitrate","nutrient":"Nitrogen","nutrient_short_tons":"19.930"}]

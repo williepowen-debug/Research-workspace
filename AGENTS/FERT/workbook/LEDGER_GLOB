@@ -1,0 +1,4 @@
+# Owned ledgers, including approved October26 research baselines outside workbook.
+workbook/*.tsv
+data/*.tsv
+companies/CF/*.tsv

@@ -1,0 +1,5 @@
+# Last real data refresh: 2026-10-26
+# Maintenance: DATA_ROUTES.md; source observation dates are row-specific.
+event_id	evidence_date	facility	product	event_kind	restart_window	affected_capacity	capacity_unit	capacity_state	source_authority	source	locator	note
+CF-YAZOO	2026-05-06	Yazoo City, Mississippi	Ammonia and upgraded nitrogen products	restart guidance	Late Q4 2026 at earliest		product short tons/year	UNKNOWN	PRIMARY	cf_q1_2026.html	Operations overview; Yazoo City restart paragraph	One facility, two guidance vintages. No aggregate capacity loss inferred; available utilization excludes site. Latest dated guidance controls the expectation, not proof of actual restart.
+CF-YAZOO	2026-08-05	Yazoo City, Mississippi	Ammonia and upgraded nitrogen products	restart guidance	First half 2027		product short tons/year	UNKNOWN	PRIMARY	cf_q2_2026.html	Operations overview; Yazoo City restart paragraph	One facility, two guidance vintages. No aggregate capacity loss inferred; available utilization excludes site. Latest dated guidance controls the expectation, not proof of actual restart.

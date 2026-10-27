@@ -2,9 +2,9 @@
 
 **Domain:** Fertilizer supply/price/policy → food-CPI transmission → CF Industries positioning
 **Class:** Market domain — EVENT-DRIVEN SPECIALIST (wakes on named triggers; no standing daily desk)
-**Last real data refresh:** 2026-10-26 (T2 October ERS, Mosaic primary corroboration, dated China reread; KB-FERT-083…087). **Last price refresh:** 2026-10-21 (DTN, KB-FERT-079). Older refresh provenance → archive/STATUS_whatchanged_2026-10-21_ROTATED.md.
+**Last real data refresh:** 2026-10-26 (CF, AMS imports, ERS farm estimates, BLS PPI and reported China exports; reports/2026-10-26_buildout.md). **Last price refresh:** 2026-10-21 (DTN, KB-FERT-079). Underlying vintages differ; DATA_ROUTES.md.
 **Startup recovery:** 2026-10-26 (Codex; reports/2026-10-26_startup.md). T2 consumed; 9 packets drained; WQ-466 C encoded; WQ-508 already applied.
-**Session wall clock:** 2026-10-26 23:07 Monday (boot.py).
+**Session wall clock:** 2026-10-26 23:35 Monday (boot.py).
 **Situation Tier:** 🟡 MONITORING — **retail MAP $981 / DAP $937 [DTN 10/21, wk Oct 12–16]**, sixth straight MAP rise; G5 NOT FIRED 10-of-10, **$19** short, ~1.9 months at the 10-week pace. India booked only **~410,000 t of 1.7 Mt** [AFC w/e 16.10] — Chinese sellers refused ~$320–325/mt FOB netbacks; award price not stated. Producer-side squeeze (Q4 Tampa sulfur unsettled; Mosaic South Fort Meade idled), not rock (flat $170.0/mt). Nitrogen dead (IPL counters ~$352–356/mt CFR, award not public). China adding export volume (G3 NOT FIRED). Food at home −0.07% (Sep). Pink Sheet label corrections 10/07 + expired futures rows → `archive/STATUS_rotated_2026-10-15.md`.
 
 > **Rebuild note.** The FROZEN 2026-03-20 STATUS is archived at `archive/STATUS_2026-03-20_FROZEN.md` — historical only. Every price cell below is benchmark + unit + date + source. **"Urea" alone is not a price.** Grading record: `PROME/research/2026-08-16_fert-revival-assessment.md`.
@@ -71,7 +71,7 @@
 
 ## Current Work — 2026-10-26
 
-- **Domain audit:** operating spine works; CF fundamentals, physical flows and affordability coverage are incomplete. Invalid ammonia/urea margin withdrawn; China quota basis qualified; FLOW restoration eligibility clarified. Full findings and build priorities → `reports/2026-10-26_domain-audit.md`.
+- **Approved domain build:** 989 rows across CF, US imports, China reported exports, farm economics, PPI, supply events and relative N/P. CF adjusted EBITDA retains the $170 million Q1 litigation gain; Yazoo guidance moved to H1 2027. China September exports reported at 2.4504 Mt, not primary-verified. Navigation / maintenance → `README.md`, `DATA_ROUTES.md`; findings → `reports/2026-10-26_buildout.md`.
 - **L758:** release day October 23 verified; 2027 FAH forecast 1.8% → 1.0%, input causation unestablished. Next ERS November 24. Sources → `research/2026-10-26_L758/REPORT.md`.
 
 Prior session notes → `archive/STATUS_whatchanged_2026-10-21_ROTATED.md` and earlier rotations.
@@ -120,4 +120,4 @@ Canonical register → `CLAUDE.md` §Exclusions. Live state only:
 
 ## BOTTOM LINE
 
-Phosphate remains the live fertilizer channel; the last DTN price grade was October 21, and no new market price or gate grade is claimed in this audit. The file domain is incomplete: CF operating fundamentals, realized fertilizer flows and farm affordability need stronger coverage, while an invalid ammonia-cost versus urea-price comparison has been withdrawn. The October ERS revision does not establish input-cost transmission, and the China quota basis plus phosphate-pathway attribution remain unresolved. Next registered work is **October 28 DTN/tender/sulfur**, followed by **November 4–5 CF/China**; the audit recommends prioritizing CF fundamentals, then physical flows.
+The first approved build adds CF fundamentals, actual US imports and farm/intermediate-price evidence. CF earnings improved despite lower volume, but its adjusted EBITDA retains the $170 million Q1 settlement; China September exports of 2.4504 Mt remain a reported Customs figure, not primary-verified. Crop affordability and fertilizer-to-food causation remain unresolved. The last DTN grade is October 21; gates are unchanged. Next work: **October 28 DTN/tender/sulfur**, **November 3 monthly sources**, then **November 4–5 CF/China**.

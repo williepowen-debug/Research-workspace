@@ -1,0 +1,71 @@
+[
+  {
+    "name": "census_imports_variables.json",
+    "url": "https://api.census.gov/data/timeseries/intltrade/imports/hs/variables.json",
+    "error": "HTTPSConnectionPool(host='api.census.gov', port=443): Read timed out. (read timeout=25)",
+    "read_at": "2026-10-27T03:23:35.446502+00:00"
+  },
+  {
+    "name": "ers_farm_files.html",
+    "url": "https://ers.usda.gov/data-products/farm-income-and-wealth-statistics/data-files-us-and-state-level-farm-income-and-wealth-statistics",
+    "final_url": "https://ers.usda.gov/data-products/farm-income-and-wealth-statistics/data-files-us-and-state-level-farm-income-and-wealth-statistics",
+    "http": 200,
+    "bytes": 65380,
+    "sha256": "e595e83285b2493b419797447e8bb5f96748eec2a1664265a0aa34f938722ca6",
+    "read_at": "2026-10-27T03:23:10.532371+00:00"
+  },
+  {
+    "name": "cf_q2_2026.html",
+    "url": "https://www.sec.gov/Archives/edgar/data/1324404/000132440426000017/cf-08052026_ex991xearnings.htm",
+    "final_url": "https://www.sec.gov/Archives/edgar/data/1324404/000132440426000017/cf-08052026_ex991xearnings.htm",
+    "http": 200,
+    "bytes": 718353,
+    "sha256": "1182ce27a2a08d414bad17696254a7654f9c540077a6f6a6bf9c416dce63bd47",
+    "read_at": "2026-10-27T03:23:10.404427+00:00"
+  },
+  {
+    "name": "cn_association.html",
+    "url": "https://www.chinanzxh.com/",
+    "final_url": "https://www.chinanzxh.com/",
+    "http": 200,
+    "bytes": 218820,
+    "sha256": "563f5332eebace973aed13f8425f8a7fbd929aa536f7a12f611770621c2d5a65",
+    "read_at": "2026-10-27T03:23:11.745098+00:00"
+  },
+  {
+    "name": "cf_q1_2026.html",
+    "url": "https://www.sec.gov/Archives/edgar/data/1324404/000132440426000011/cf-05062026_ex991xearnings.htm",
+    "final_url": "https://www.sec.gov/Archives/edgar/data/1324404/000132440426000011/cf-05062026_ex991xearnings.htm",
+    "http": 200,
+    "bytes": 520031,
+    "sha256": "46989357d45de56b7bc409f550a8bc91d35e491d55275527ba16086dffbafaa2",
+    "read_at": "2026-10-27T03:25:15.924151+00:00"
+  },
+  {
+    "name": "ers_farm_20260903.zip",
+    "url": "https://ers.usda.gov/media/29517/september-3-2026-release.zip",
+    "final_url": "https://ers.usda.gov/media/29517/september-3-2026-release.zip",
+    "http": 200,
+    "bytes": 6232337,
+    "sha256": "90df42fe47981e9b6291ec7c3589603a544c1408b26b3b2d8c7fe8046b4bf245",
+    "read_at": "2026-10-27T03:25:16.556121+00:00"
+  },
+  {
+    "name": "ams_trade_sample.json",
+    "url": "https://agtransport.usda.gov/resource/tpd5-muue.json?$limit=5",
+    "final_url": "https://agtransport.usda.gov/resource/tpd5-muue.json?$limit=5",
+    "http": 200,
+    "bytes": 1325,
+    "sha256": "eb498a4ae4f52883b7241ff82ddc9a4bf65da8dc47162110dee7f0ed619dfa65",
+    "read_at": "2026-10-27T03:25:16.228211+00:00"
+  },
+  {
+    "name": "census_imports_sample.json",
+    "url": "https://api.census.gov/data/timeseries/intltrade/imports/hs?get=I_COMMODITY,I_COMMODITY_SDESC,GEN_QY1_MO,UNIT_QY1,GEN_VAL_MO&time=2026-08&I_COMMODITY=3102100000",
+    "final_url": "https://api.census.gov/data/missing_key.html",
+    "http": 200,
+    "bytes": 8531,
+    "sha256": "c2f4687e09b80676de7f68dec92ebea395209616dbc6f895520e547c5f68c0f5",
+    "read_at": "2026-10-27T03:25:16.088140+00:00"
+  }
+]

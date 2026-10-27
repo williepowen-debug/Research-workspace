@@ -1,0 +1,323 @@
+# Last real data refresh: 2026-10-26
+# Maintenance: DATA_ROUTES.md; source observation dates are row-specific.
+period	segment	metric	value	unit	state	published	source	locator	note
+2026-Q1	Consolidated	net_sales	1986.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[2]/row[4] Net sales	
+2025-Q1	Consolidated	net_sales	1663.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[2]/row[4] Net sales	
+2026-Q1	Consolidated	cost_of_sales	1240.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[2]/row[5] Cost of sales	
+2025-Q1	Consolidated	cost_of_sales	1091.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[2]/row[5] Cost of sales	
+2026-Q1	Consolidated	gross_margin	746.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[2]/row[6] Gross margin	
+2025-Q1	Consolidated	gross_margin	572.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[2]/row[6] Gross margin	
+2026-Q1	Consolidated	gross_margin_percent	37.6	percent	MEASURED	2026-05-06	cf_q1_2026.html	table[2]/row[8] Gross margin percentage	
+2025-Q1	Consolidated	gross_margin_percent	34.4	percent	MEASURED	2026-05-06	cf_q1_2026.html	table[2]/row[8] Gross margin percentage	
+2026-Q1	Consolidated	net_earnings_common	615.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[2]/row[10] Net earnings attributable to common stockholders	
+2025-Q1	Consolidated	net_earnings_common	312.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[2]/row[10] Net earnings attributable to common stockholders	
+2026-Q1	Consolidated	diluted_eps	3.98	USD/share	MEASURED	2026-05-06	cf_q1_2026.html	table[2]/row[13] Net earnings per diluted share	
+2025-Q1	Consolidated	diluted_eps	1.85	USD/share	MEASURED	2026-05-06	cf_q1_2026.html	table[2]/row[13] Net earnings per diluted share	
+2026-Q1	Consolidated	ebitda	1008.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[2]/row[16] EBITDA(1)	
+2025-Q1	Consolidated	ebitda	617.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[2]/row[16] EBITDA(1)	
+2026-Q1	Consolidated	issuer_adjusted_ebitda	983.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[2]/row[17] Adjusted EBITDA(1)	
+2025-Q1	Consolidated	issuer_adjusted_ebitda	644.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[2]/row[17] Adjusted EBITDA(1)	
+2026-Q1	Consolidated	sales_volume	4683.0	thousand product short tons	MEASURED	2026-05-06	cf_q1_2026.html	table[2]/row[19] Sales volume by product tons (000s)	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2025-Q1	Consolidated	sales_volume	5004.0	thousand product short tons	MEASURED	2026-05-06	cf_q1_2026.html	table[2]/row[19] Sales volume by product tons (000s)	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2026-Q1	Consolidated	gas_before_realized_hedges	4.95	USD/MMBtu	MEASURED	2026-05-06	cf_q1_2026.html	table[2]/row[22] Natural gas costs in cost of sales(2)	
+2025-Q1	Consolidated	gas_before_realized_hedges	3.69	USD/MMBtu	MEASURED	2026-05-06	cf_q1_2026.html	table[2]/row[22] Natural gas costs in cost of sales(2)	
+2026-Q1	Consolidated	gas_realized_derivative_effect	-0.38	USD/MMBtu	MEASURED	2026-05-06	cf_q1_2026.html	table[2]/row[23] Realized derivatives gain in cost of sales(3)	
+2025-Q1	Consolidated	gas_realized_derivative_effect	-0.01	USD/MMBtu	MEASURED	2026-05-06	cf_q1_2026.html	table[2]/row[23] Realized derivatives gain in cost of sales(3)	
+2026-Q1	Consolidated	gas_in_cost_of_sales_including_realized_hedges	4.57	USD/MMBtu	MEASURED	2026-05-06	cf_q1_2026.html	table[2]/row[24] Cost of natural gas used for production in cost of sales	
+2025-Q1	Consolidated	gas_in_cost_of_sales_including_realized_hedges	3.68	USD/MMBtu	MEASURED	2026-05-06	cf_q1_2026.html	table[2]/row[24] Cost of natural gas used for production in cost of sales	
+2026-Q1	Consolidated	period_average_henry_hub	4.9	USD/MMBtu	MEASURED	2026-05-06	cf_q1_2026.html	table[2]/row[27] Average daily market price of natural gas at the Henry Hub	
+2025-Q1	Consolidated	period_average_henry_hub	4.28	USD/MMBtu	MEASURED	2026-05-06	cf_q1_2026.html	table[2]/row[27] Average daily market price of natural gas at the Henry Hub	
+2026-Q1	Consolidated	depreciation_amortization	228.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[2]/row[32] Depreciation and amortization	
+2025-Q1	Consolidated	depreciation_amortization	221.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[2]/row[32] Depreciation and amortization	
+2026-Q1	Consolidated	capital_expenditures	223.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[2]/row[33] Capital expenditures(4)	
+2025-Q1	Consolidated	capital_expenditures	132.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[2]/row[33] Capital expenditures(4)	
+2026-Q1	Consolidated	ammonia_production	2457.0	thousand product short tons	MEASURED	2026-05-06	cf_q1_2026.html	table[2]/row[36] Ammonia(5)	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2025-Q1	Consolidated	ammonia_production	2617.0	thousand product short tons	MEASURED	2026-05-06	cf_q1_2026.html	table[2]/row[36] Ammonia(5)	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2026-Q1	Consolidated	granular_urea_production	1151.0	thousand product short tons	MEASURED	2026-05-06	cf_q1_2026.html	table[2]/row[37] Granular urea	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2025-Q1	Consolidated	granular_urea_production	1110.0	thousand product short tons	MEASURED	2026-05-06	cf_q1_2026.html	table[2]/row[37] Granular urea	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2026-Q1	Consolidated	uan_32pct_production	1525.0	thousand product short tons	MEASURED	2026-05-06	cf_q1_2026.html	table[2]/row[38] UAN (32%)(6)	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2025-Q1	Consolidated	uan_32pct_production	1856.0	thousand product short tons	MEASURED	2026-05-06	cf_q1_2026.html	table[2]/row[38] UAN (32%)(6)	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2026-Q1	Consolidated	an_production	105.0	thousand product short tons	MEASURED	2026-05-06	cf_q1_2026.html	table[2]/row[39] AN	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2025-Q1	Consolidated	an_production	322.0	thousand product short tons	MEASURED	2026-05-06	cf_q1_2026.html	table[2]/row[39] AN	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2026-Q1	Consolidated	operating_cash_flow	496.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[11]/row[30] Net cash provided by operating activities	
+2025-Q1	Consolidated	operating_cash_flow	586.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[11]/row[30] Net cash provided by operating activities	
+2026-Q1	Consolidated	noncontrolling_contributions	117.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[11]/row[54] Contributions from noncontrolling interests	
+2025-Q1	Consolidated	noncontrolling_contributions	0.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[11]/row[54] Contributions from noncontrolling interests	
+2026-Q1	Consolidated	noncontrolling_distributions_signed	-201.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[11]/row[55] Distributions to noncontrolling interests	
+2025-Q1	Consolidated	noncontrolling_distributions_signed	-129.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[11]/row[55] Distributions to noncontrolling interests	
+2026-Q1	Consolidated	treasury_stock_cash_flow_signed	-28.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[11]/row[56] Purchases of treasury stock	
+2025-Q1	Consolidated	treasury_stock_cash_flow_signed	-444.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[11]/row[56] Purchases of treasury stock	
+2026-Q1	Ammonia	net_sales	627.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[3]/row[4] Net sales	
+2025-Q1	Ammonia	net_sales	520.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[3]/row[4] Net sales	
+2026-Q1	Ammonia	cost_of_sales	400.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[3]/row[5] Cost of sales	
+2025-Q1	Ammonia	cost_of_sales	334.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[3]/row[5] Cost of sales	
+2026-Q1	Ammonia	gross_margin	227.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[3]/row[6] Gross margin	
+2025-Q1	Ammonia	gross_margin	186.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[3]/row[6] Gross margin	
+2026-Q1	Ammonia	gross_margin_percent	36.2	percent	MEASURED	2026-05-06	cf_q1_2026.html	table[3]/row[8] Gross margin percentage	
+2025-Q1	Ammonia	gross_margin_percent	35.8	percent	MEASURED	2026-05-06	cf_q1_2026.html	table[3]/row[8] Gross margin percentage	
+2026-Q1	Ammonia	sales_volume	1103.0	thousand product short tons	MEASURED	2026-05-06	cf_q1_2026.html	table[3]/row[10] Sales volume by product tons (000s)	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2025-Q1	Ammonia	sales_volume	1146.0	thousand product short tons	MEASURED	2026-05-06	cf_q1_2026.html	table[3]/row[10] Sales volume by product tons (000s)	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2026-Q1	Ammonia	realized_selling_price	568.0	USD/product short ton	MEASURED	2026-05-06	cf_q1_2026.html	table[3]/row[13] Average selling price per product ton	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2025-Q1	Ammonia	realized_selling_price	454.0	USD/product short ton	MEASURED	2026-05-06	cf_q1_2026.html	table[3]/row[13] Average selling price per product ton	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2026-Q1	Granular urea	net_sales	590.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[4]/row[4] Net sales	
+2025-Q1	Granular urea	net_sales	439.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[4]/row[4] Net sales	
+2026-Q1	Granular urea	cost_of_sales	335.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[4]/row[5] Cost of sales	
+2025-Q1	Granular urea	cost_of_sales	266.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[4]/row[5] Cost of sales	
+2026-Q1	Granular urea	gross_margin	255.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[4]/row[6] Gross margin	
+2025-Q1	Granular urea	gross_margin	173.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[4]/row[6] Gross margin	
+2026-Q1	Granular urea	gross_margin_percent	43.2	percent	MEASURED	2026-05-06	cf_q1_2026.html	table[4]/row[8] Gross margin percentage	
+2025-Q1	Granular urea	gross_margin_percent	39.4	percent	MEASURED	2026-05-06	cf_q1_2026.html	table[4]/row[8] Gross margin percentage	
+2026-Q1	Granular urea	sales_volume	1291.0	thousand product short tons	MEASURED	2026-05-06	cf_q1_2026.html	table[4]/row[10] Sales volume by product tons (000s)	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2025-Q1	Granular urea	sales_volume	1125.0	thousand product short tons	MEASURED	2026-05-06	cf_q1_2026.html	table[4]/row[10] Sales volume by product tons (000s)	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2026-Q1	Granular urea	realized_selling_price	457.0	USD/product short ton	MEASURED	2026-05-06	cf_q1_2026.html	table[4]/row[13] Average selling price per product ton	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2025-Q1	Granular urea	realized_selling_price	390.0	USD/product short ton	MEASURED	2026-05-06	cf_q1_2026.html	table[4]/row[13] Average selling price per product ton	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2026-Q1	UAN	net_sales	583.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[5]/row[4] Net sales	
+2025-Q1	UAN	net_sales	470.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[5]/row[4] Net sales	
+2026-Q1	UAN	cost_of_sales	333.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[5]/row[5] Cost of sales	
+2025-Q1	UAN	cost_of_sales	328.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[5]/row[5] Cost of sales	
+2026-Q1	UAN	gross_margin	250.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[5]/row[6] Gross margin	
+2025-Q1	UAN	gross_margin	142.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[5]/row[6] Gross margin	
+2026-Q1	UAN	gross_margin_percent	42.9	percent	MEASURED	2026-05-06	cf_q1_2026.html	table[5]/row[8] Gross margin percentage	
+2025-Q1	UAN	gross_margin_percent	30.2	percent	MEASURED	2026-05-06	cf_q1_2026.html	table[5]/row[8] Gross margin percentage	
+2026-Q1	UAN	sales_volume	1671.0	thousand product short tons	MEASURED	2026-05-06	cf_q1_2026.html	table[5]/row[10] Sales volume by product tons (000s)	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2025-Q1	UAN	sales_volume	1875.0	thousand product short tons	MEASURED	2026-05-06	cf_q1_2026.html	table[5]/row[10] Sales volume by product tons (000s)	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2026-Q1	UAN	realized_selling_price	349.0	USD/product short ton	MEASURED	2026-05-06	cf_q1_2026.html	table[5]/row[13] Average selling price per product ton	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2025-Q1	UAN	realized_selling_price	251.0	USD/product short ton	MEASURED	2026-05-06	cf_q1_2026.html	table[5]/row[13] Average selling price per product ton	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2026-Q1	AN	net_sales	58.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[6]/row[4] Net sales	
+2025-Q1	AN	net_sales	101.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[6]/row[4] Net sales	
+2026-Q1	AN	cost_of_sales	69.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[6]/row[5] Cost of sales	
+2025-Q1	AN	cost_of_sales	85.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[6]/row[5] Cost of sales	
+2026-Q1	AN	gross_margin	-11.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[6]/row[6] Gross margin	
+2025-Q1	AN	gross_margin	16.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[6]/row[6] Gross margin	
+2026-Q1	AN	gross_margin_percent	-19.0	percent	MEASURED	2026-05-06	cf_q1_2026.html	table[6]/row[8] Gross margin percentage	
+2025-Q1	AN	gross_margin_percent	15.8	percent	MEASURED	2026-05-06	cf_q1_2026.html	table[6]/row[8] Gross margin percentage	
+2026-Q1	AN	sales_volume	130.0	thousand product short tons	MEASURED	2026-05-06	cf_q1_2026.html	table[6]/row[10] Sales volume by product tons (000s)	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2025-Q1	AN	sales_volume	328.0	thousand product short tons	MEASURED	2026-05-06	cf_q1_2026.html	table[6]/row[10] Sales volume by product tons (000s)	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2026-Q1	AN	realized_selling_price	446.0	USD/product short ton	MEASURED	2026-05-06	cf_q1_2026.html	table[6]/row[13] Average selling price per product ton	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2025-Q1	AN	realized_selling_price	308.0	USD/product short ton	MEASURED	2026-05-06	cf_q1_2026.html	table[6]/row[13] Average selling price per product ton	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2026-Q1	Other	net_sales	128.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[7]/row[4] Net sales	
+2025-Q1	Other	net_sales	133.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[7]/row[4] Net sales	
+2026-Q1	Other	cost_of_sales	103.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[7]/row[5] Cost of sales	
+2025-Q1	Other	cost_of_sales	78.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[7]/row[5] Cost of sales	
+2026-Q1	Other	gross_margin	25.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[7]/row[6] Gross margin	
+2025-Q1	Other	gross_margin	55.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[7]/row[6] Gross margin	
+2026-Q1	Other	gross_margin_percent	19.5	percent	MEASURED	2026-05-06	cf_q1_2026.html	table[7]/row[8] Gross margin percentage	
+2025-Q1	Other	gross_margin_percent	41.4	percent	MEASURED	2026-05-06	cf_q1_2026.html	table[7]/row[8] Gross margin percentage	
+2026-Q1	Other	sales_volume	488.0	thousand product short tons	MEASURED	2026-05-06	cf_q1_2026.html	table[7]/row[10] Sales volume by product tons (000s)	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2025-Q1	Other	sales_volume	530.0	thousand product short tons	MEASURED	2026-05-06	cf_q1_2026.html	table[7]/row[10] Sales volume by product tons (000s)	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2026-Q1	Other	realized_selling_price	262.0	USD/product short ton	MEASURED	2026-05-06	cf_q1_2026.html	table[7]/row[13] Average selling price per product ton	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2025-Q1	Other	realized_selling_price	251.0	USD/product short ton	MEASURED	2026-05-06	cf_q1_2026.html	table[7]/row[13] Average selling price per product ton	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2026-03-31	Consolidated	long_term_debt	3216.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[10]/row[34] Long-term debt	Point-in-time balance, not a period flow; cash includes consolidated JV cash.
+2026-Q2	Consolidated	net_sales	2222.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[4] Net sales	
+2025-Q2	Consolidated	net_sales	1890.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[4] Net sales	
+2026-H1	Consolidated	net_sales	4208.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[4] Net sales	
+2025-H1	Consolidated	net_sales	3553.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[4] Net sales	
+2026-Q2	Consolidated	cost_of_sales	1077.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[5] Cost of sales	
+2025-Q2	Consolidated	cost_of_sales	1135.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[5] Cost of sales	
+2026-H1	Consolidated	cost_of_sales	2317.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[5] Cost of sales	
+2025-H1	Consolidated	cost_of_sales	2226.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[5] Cost of sales	
+2026-Q2	Consolidated	gross_margin	1145.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[6] Gross margin	
+2025-Q2	Consolidated	gross_margin	755.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[6] Gross margin	
+2026-H1	Consolidated	gross_margin	1891.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[6] Gross margin	
+2025-H1	Consolidated	gross_margin	1327.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[6] Gross margin	
+2026-Q2	Consolidated	gross_margin_percent	51.5	percent	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[8] Gross margin percentage	
+2025-Q2	Consolidated	gross_margin_percent	39.9	percent	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[8] Gross margin percentage	
+2026-H1	Consolidated	gross_margin_percent	44.9	percent	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[8] Gross margin percentage	
+2025-H1	Consolidated	gross_margin_percent	37.3	percent	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[8] Gross margin percentage	
+2026-Q2	Consolidated	net_earnings_common	727.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[10] Net earnings attributable to common stockholders	
+2025-Q2	Consolidated	net_earnings_common	386.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[10] Net earnings attributable to common stockholders	
+2026-H1	Consolidated	net_earnings_common	1342.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[10] Net earnings attributable to common stockholders	
+2025-H1	Consolidated	net_earnings_common	698.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[10] Net earnings attributable to common stockholders	
+2026-Q2	Consolidated	diluted_eps	4.73	USD/share	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[13] Net earnings per diluted share	
+2025-Q2	Consolidated	diluted_eps	2.37	USD/share	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[13] Net earnings per diluted share	
+2026-H1	Consolidated	diluted_eps	8.71	USD/share	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[13] Net earnings per diluted share	
+2025-H1	Consolidated	diluted_eps	4.2	USD/share	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[13] Net earnings per diluted share	
+2026-Q2	Consolidated	ebitda	1166.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[16] EBITDA(1)	
+2025-Q2	Consolidated	ebitda	757.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[16] EBITDA(1)	
+2026-H1	Consolidated	ebitda	2174.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[16] EBITDA(1)	
+2025-H1	Consolidated	ebitda	1374.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[16] EBITDA(1)	
+2026-Q2	Consolidated	issuer_adjusted_ebitda	1192.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[17] Adjusted EBITDA(1)	
+2025-Q2	Consolidated	issuer_adjusted_ebitda	761.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[17] Adjusted EBITDA(1)	
+2026-H1	Consolidated	issuer_adjusted_ebitda	2175.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[17] Adjusted EBITDA(1)	
+2025-H1	Consolidated	issuer_adjusted_ebitda	1405.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[17] Adjusted EBITDA(1)	
+2026-Q2	Consolidated	sales_volume	4252.0	thousand product short tons	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[19] Sales volume by product tons (000s)	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2025-Q2	Consolidated	sales_volume	5021.0	thousand product short tons	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[19] Sales volume by product tons (000s)	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2026-H1	Consolidated	sales_volume	8935.0	thousand product short tons	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[19] Sales volume by product tons (000s)	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2025-H1	Consolidated	sales_volume	10025.0	thousand product short tons	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[19] Sales volume by product tons (000s)	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2026-Q2	Consolidated	gas_before_realized_hedges	3.37	USD/MMBtu	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[22] Natural gas costs in cost of sales(2)	
+2025-Q2	Consolidated	gas_before_realized_hedges	3.36	USD/MMBtu	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[22] Natural gas costs in cost of sales(2)	
+2026-H1	Consolidated	gas_before_realized_hedges	4.22	USD/MMBtu	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[22] Natural gas costs in cost of sales(2)	
+2025-H1	Consolidated	gas_before_realized_hedges	3.53	USD/MMBtu	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[22] Natural gas costs in cost of sales(2)	
+2026-Q2	Consolidated	gas_realized_derivative_effect	0.0	USD/MMBtu	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[23] Realized derivatives gain in cost of sales(3)	
+2025-Q2	Consolidated	gas_realized_derivative_effect	0.0	USD/MMBtu	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[23] Realized derivatives gain in cost of sales(3)	
+2026-H1	Consolidated	gas_realized_derivative_effect	-0.21	USD/MMBtu	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[23] Realized derivatives gain in cost of sales(3)	
+2025-H1	Consolidated	gas_realized_derivative_effect	-0.01	USD/MMBtu	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[23] Realized derivatives gain in cost of sales(3)	
+2026-Q2	Consolidated	gas_in_cost_of_sales_including_realized_hedges	3.37	USD/MMBtu	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[24] Cost of natural gas used for production in cost of sales	
+2025-Q2	Consolidated	gas_in_cost_of_sales_including_realized_hedges	3.36	USD/MMBtu	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[24] Cost of natural gas used for production in cost of sales	
+2026-H1	Consolidated	gas_in_cost_of_sales_including_realized_hedges	4.01	USD/MMBtu	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[24] Cost of natural gas used for production in cost of sales	
+2025-H1	Consolidated	gas_in_cost_of_sales_including_realized_hedges	3.52	USD/MMBtu	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[24] Cost of natural gas used for production in cost of sales	
+2026-Q2	Consolidated	period_average_henry_hub	2.93	USD/MMBtu	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[27] Average daily market price of natural gas at the Henry Hub	
+2025-Q2	Consolidated	period_average_henry_hub	3.16	USD/MMBtu	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[27] Average daily market price of natural gas at the Henry Hub	
+2026-H1	Consolidated	period_average_henry_hub	3.91	USD/MMBtu	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[27] Average daily market price of natural gas at the Henry Hub	
+2025-H1	Consolidated	period_average_henry_hub	3.71	USD/MMBtu	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[27] Average daily market price of natural gas at the Henry Hub	
+2026-Q2	Consolidated	depreciation_amortization	215.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[32] Depreciation and amortization	
+2025-Q2	Consolidated	depreciation_amortization	232.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[32] Depreciation and amortization	
+2026-H1	Consolidated	depreciation_amortization	443.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[32] Depreciation and amortization	
+2025-H1	Consolidated	depreciation_amortization	453.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[32] Depreciation and amortization	
+2026-Q2	Consolidated	capital_expenditures	271.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[33] Capital expenditures(4)	
+2025-Q2	Consolidated	capital_expenditures	245.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[33] Capital expenditures(4)	
+2026-H1	Consolidated	capital_expenditures	494.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[33] Capital expenditures(4)	
+2025-H1	Consolidated	capital_expenditures	377.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[33] Capital expenditures(4)	
+2026-Q2	Consolidated	ammonia_production	2397.0	thousand product short tons	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[36] Ammonia(5)	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2025-Q2	Consolidated	ammonia_production	2557.0	thousand product short tons	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[36] Ammonia(5)	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2026-H1	Consolidated	ammonia_production	4854.0	thousand product short tons	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[36] Ammonia(5)	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2025-H1	Consolidated	ammonia_production	5174.0	thousand product short tons	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[36] Ammonia(5)	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2026-Q2	Consolidated	granular_urea_production	1270.0	thousand product short tons	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[37] Granular urea	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2025-Q2	Consolidated	granular_urea_production	1182.0	thousand product short tons	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[37] Granular urea	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2026-H1	Consolidated	granular_urea_production	2421.0	thousand product short tons	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[37] Granular urea	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2025-H1	Consolidated	granular_urea_production	2292.0	thousand product short tons	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[37] Granular urea	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2026-Q2	Consolidated	uan_32pct_production	1642.0	thousand product short tons	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[38] UAN (32%)(6)	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2025-Q2	Consolidated	uan_32pct_production	1725.0	thousand product short tons	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[38] UAN (32%)(6)	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2026-H1	Consolidated	uan_32pct_production	3167.0	thousand product short tons	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[38] UAN (32%)(6)	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2025-H1	Consolidated	uan_32pct_production	3581.0	thousand product short tons	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[38] UAN (32%)(6)	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2026-Q2	Consolidated	an_production	135.0	thousand product short tons	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[39] AN	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2025-Q2	Consolidated	an_production	341.0	thousand product short tons	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[39] AN	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2026-H1	Consolidated	an_production	240.0	thousand product short tons	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[39] AN	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2025-H1	Consolidated	an_production	663.0	thousand product short tons	MEASURED	2026-08-05	cf_q2_2026.html	table[2]/row[39] AN	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2026-Q2	Consolidated	operating_cash_flow	878.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[11]/row[31] Net cash provided by operating activities	
+2025-Q2	Consolidated	operating_cash_flow	563.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[11]/row[31] Net cash provided by operating activities	
+2026-H1	Consolidated	operating_cash_flow	1374.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[11]/row[31] Net cash provided by operating activities	
+2025-H1	Consolidated	operating_cash_flow	1149.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[11]/row[31] Net cash provided by operating activities	
+2026-Q2	Consolidated	noncontrolling_contributions	116.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[11]/row[52] Contributions from noncontrolling interests	
+2025-Q2	Consolidated	noncontrolling_contributions	235.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[11]/row[52] Contributions from noncontrolling interests	
+2026-H1	Consolidated	noncontrolling_contributions	233.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[11]/row[52] Contributions from noncontrolling interests	
+2025-H1	Consolidated	noncontrolling_contributions	235.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[11]/row[52] Contributions from noncontrolling interests	
+2026-Q2	Consolidated	noncontrolling_distributions_signed	0.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[11]/row[53] Distributions to noncontrolling interests	
+2025-Q2	Consolidated	noncontrolling_distributions_signed	0.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[11]/row[53] Distributions to noncontrolling interests	
+2026-H1	Consolidated	noncontrolling_distributions_signed	-201.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[11]/row[53] Distributions to noncontrolling interests	
+2025-H1	Consolidated	noncontrolling_distributions_signed	-129.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[11]/row[53] Distributions to noncontrolling interests	
+2026-Q2	Consolidated	treasury_stock_cash_flow_signed	-225.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[11]/row[54] Purchases of treasury stock	
+2025-Q2	Consolidated	treasury_stock_cash_flow_signed	-216.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[11]/row[54] Purchases of treasury stock	
+2026-H1	Consolidated	treasury_stock_cash_flow_signed	-253.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[11]/row[54] Purchases of treasury stock	
+2025-H1	Consolidated	treasury_stock_cash_flow_signed	-660.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[11]/row[54] Purchases of treasury stock	
+2026-Q2	Ammonia	net_sales	586.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[3]/row[4] Net sales	
+2025-Q2	Ammonia	net_sales	491.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[3]/row[4] Net sales	
+2026-H1	Ammonia	net_sales	1213.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[3]/row[4] Net sales	
+2025-H1	Ammonia	net_sales	1011.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[3]/row[4] Net sales	
+2026-Q2	Ammonia	cost_of_sales	357.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[3]/row[5] Cost of sales	
+2025-Q2	Ammonia	cost_of_sales	355.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[3]/row[5] Cost of sales	
+2026-H1	Ammonia	cost_of_sales	757.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[3]/row[5] Cost of sales	
+2025-H1	Ammonia	cost_of_sales	689.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[3]/row[5] Cost of sales	
+2026-Q2	Ammonia	gross_margin	229.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[3]/row[6] Gross margin	
+2025-Q2	Ammonia	gross_margin	136.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[3]/row[6] Gross margin	
+2026-H1	Ammonia	gross_margin	456.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[3]/row[6] Gross margin	
+2025-H1	Ammonia	gross_margin	322.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[3]/row[6] Gross margin	
+2026-Q2	Ammonia	gross_margin_percent	39.1	percent	MEASURED	2026-08-05	cf_q2_2026.html	table[3]/row[8] Gross margin percentage	
+2025-Q2	Ammonia	gross_margin_percent	27.7	percent	MEASURED	2026-08-05	cf_q2_2026.html	table[3]/row[8] Gross margin percentage	
+2026-H1	Ammonia	gross_margin_percent	37.6	percent	MEASURED	2026-08-05	cf_q2_2026.html	table[3]/row[8] Gross margin percentage	
+2025-H1	Ammonia	gross_margin_percent	31.8	percent	MEASURED	2026-08-05	cf_q2_2026.html	table[3]/row[8] Gross margin percentage	
+2026-Q2	Ammonia	sales_volume	865.0	thousand product short tons	MEASURED	2026-08-05	cf_q2_2026.html	table[3]/row[10] Sales volume by product tons (000s)	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2025-Q2	Ammonia	sales_volume	1087.0	thousand product short tons	MEASURED	2026-08-05	cf_q2_2026.html	table[3]/row[10] Sales volume by product tons (000s)	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2026-H1	Ammonia	sales_volume	1968.0	thousand product short tons	MEASURED	2026-08-05	cf_q2_2026.html	table[3]/row[10] Sales volume by product tons (000s)	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2025-H1	Ammonia	sales_volume	2233.0	thousand product short tons	MEASURED	2026-08-05	cf_q2_2026.html	table[3]/row[10] Sales volume by product tons (000s)	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2026-Q2	Ammonia	realized_selling_price	677.0	USD/product short ton	MEASURED	2026-08-05	cf_q2_2026.html	table[3]/row[13] Average selling price per product ton	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2025-Q2	Ammonia	realized_selling_price	452.0	USD/product short ton	MEASURED	2026-08-05	cf_q2_2026.html	table[3]/row[13] Average selling price per product ton	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2026-H1	Ammonia	realized_selling_price	616.0	USD/product short ton	MEASURED	2026-08-05	cf_q2_2026.html	table[3]/row[13] Average selling price per product ton	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2025-H1	Ammonia	realized_selling_price	453.0	USD/product short ton	MEASURED	2026-08-05	cf_q2_2026.html	table[3]/row[13] Average selling price per product ton	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2026-Q2	Granular urea	net_sales	759.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[4]/row[4] Net sales	
+2025-Q2	Granular urea	net_sales	547.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[4]/row[4] Net sales	
+2026-H1	Granular urea	net_sales	1349.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[4]/row[4] Net sales	
+2025-H1	Granular urea	net_sales	986.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[4]/row[4] Net sales	
+2026-Q2	Granular urea	cost_of_sales	282.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[4]/row[5] Cost of sales	
+2025-Q2	Granular urea	cost_of_sales	268.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[4]/row[5] Cost of sales	
+2026-H1	Granular urea	cost_of_sales	617.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[4]/row[5] Cost of sales	
+2025-H1	Granular urea	cost_of_sales	534.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[4]/row[5] Cost of sales	
+2026-Q2	Granular urea	gross_margin	477.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[4]/row[6] Gross margin	
+2025-Q2	Granular urea	gross_margin	279.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[4]/row[6] Gross margin	
+2026-H1	Granular urea	gross_margin	732.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[4]/row[6] Gross margin	
+2025-H1	Granular urea	gross_margin	452.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[4]/row[6] Gross margin	
+2026-Q2	Granular urea	gross_margin_percent	62.8	percent	MEASURED	2026-08-05	cf_q2_2026.html	table[4]/row[8] Gross margin percentage	
+2025-Q2	Granular urea	gross_margin_percent	51.0	percent	MEASURED	2026-08-05	cf_q2_2026.html	table[4]/row[8] Gross margin percentage	
+2026-H1	Granular urea	gross_margin_percent	54.3	percent	MEASURED	2026-08-05	cf_q2_2026.html	table[4]/row[8] Gross margin percentage	
+2025-H1	Granular urea	gross_margin_percent	45.8	percent	MEASURED	2026-08-05	cf_q2_2026.html	table[4]/row[8] Gross margin percentage	
+2026-Q2	Granular urea	sales_volume	1280.0	thousand product short tons	MEASURED	2026-08-05	cf_q2_2026.html	table[4]/row[10] Sales volume by product tons (000s)	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2025-Q2	Granular urea	sales_volume	1188.0	thousand product short tons	MEASURED	2026-08-05	cf_q2_2026.html	table[4]/row[10] Sales volume by product tons (000s)	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2026-H1	Granular urea	sales_volume	2571.0	thousand product short tons	MEASURED	2026-08-05	cf_q2_2026.html	table[4]/row[10] Sales volume by product tons (000s)	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2025-H1	Granular urea	sales_volume	2313.0	thousand product short tons	MEASURED	2026-08-05	cf_q2_2026.html	table[4]/row[10] Sales volume by product tons (000s)	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2026-Q2	Granular urea	realized_selling_price	593.0	USD/product short ton	MEASURED	2026-08-05	cf_q2_2026.html	table[4]/row[13] Average selling price per product ton	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2025-Q2	Granular urea	realized_selling_price	460.0	USD/product short ton	MEASURED	2026-08-05	cf_q2_2026.html	table[4]/row[13] Average selling price per product ton	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2026-H1	Granular urea	realized_selling_price	525.0	USD/product short ton	MEASURED	2026-08-05	cf_q2_2026.html	table[4]/row[13] Average selling price per product ton	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2025-H1	Granular urea	realized_selling_price	426.0	USD/product short ton	MEASURED	2026-08-05	cf_q2_2026.html	table[4]/row[13] Average selling price per product ton	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2026-Q2	UAN	net_sales	613.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[5]/row[4] Net sales	
+2025-Q2	UAN	net_sales	610.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[5]/row[4] Net sales	
+2026-H1	UAN	net_sales	1196.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[5]/row[4] Net sales	
+2025-H1	UAN	net_sales	1080.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[5]/row[4] Net sales	
+2026-Q2	UAN	cost_of_sales	263.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[5]/row[5] Cost of sales	
+2025-Q2	UAN	cost_of_sales	340.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[5]/row[5] Cost of sales	
+2026-H1	UAN	cost_of_sales	596.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[5]/row[5] Cost of sales	
+2025-H1	UAN	cost_of_sales	668.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[5]/row[5] Cost of sales	
+2026-Q2	UAN	gross_margin	350.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[5]/row[6] Gross margin	
+2025-Q2	UAN	gross_margin	270.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[5]/row[6] Gross margin	
+2026-H1	UAN	gross_margin	600.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[5]/row[6] Gross margin	
+2025-H1	UAN	gross_margin	412.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[5]/row[6] Gross margin	
+2026-Q2	UAN	gross_margin_percent	57.1	percent	MEASURED	2026-08-05	cf_q2_2026.html	table[5]/row[8] Gross margin percentage	
+2025-Q2	UAN	gross_margin_percent	44.3	percent	MEASURED	2026-08-05	cf_q2_2026.html	table[5]/row[8] Gross margin percentage	
+2026-H1	UAN	gross_margin_percent	50.2	percent	MEASURED	2026-08-05	cf_q2_2026.html	table[5]/row[8] Gross margin percentage	
+2025-H1	UAN	gross_margin_percent	38.1	percent	MEASURED	2026-08-05	cf_q2_2026.html	table[5]/row[8] Gross margin percentage	
+2026-Q2	UAN	sales_volume	1391.0	thousand product short tons	MEASURED	2026-08-05	cf_q2_2026.html	table[5]/row[10] Sales volume by product tons (000s)	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2025-Q2	UAN	sales_volume	1902.0	thousand product short tons	MEASURED	2026-08-05	cf_q2_2026.html	table[5]/row[10] Sales volume by product tons (000s)	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2026-H1	UAN	sales_volume	3062.0	thousand product short tons	MEASURED	2026-08-05	cf_q2_2026.html	table[5]/row[10] Sales volume by product tons (000s)	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2025-H1	UAN	sales_volume	3777.0	thousand product short tons	MEASURED	2026-08-05	cf_q2_2026.html	table[5]/row[10] Sales volume by product tons (000s)	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2026-Q2	UAN	realized_selling_price	441.0	USD/product short ton	MEASURED	2026-08-05	cf_q2_2026.html	table[5]/row[13] Average selling price per product ton	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2025-Q2	UAN	realized_selling_price	321.0	USD/product short ton	MEASURED	2026-08-05	cf_q2_2026.html	table[5]/row[13] Average selling price per product ton	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2026-H1	UAN	realized_selling_price	391.0	USD/product short ton	MEASURED	2026-08-05	cf_q2_2026.html	table[5]/row[13] Average selling price per product ton	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2025-H1	UAN	realized_selling_price	286.0	USD/product short ton	MEASURED	2026-08-05	cf_q2_2026.html	table[5]/row[13] Average selling price per product ton	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2026-Q2	AN	net_sales	71.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[6]/row[4] Net sales	
+2025-Q2	AN	net_sales	117.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[6]/row[4] Net sales	
+2026-H1	AN	net_sales	129.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[6]/row[4] Net sales	
+2025-H1	AN	net_sales	218.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[6]/row[4] Net sales	
+2026-Q2	AN	cost_of_sales	75.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[6]/row[5] Cost of sales	
+2025-Q2	AN	cost_of_sales	92.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[6]/row[5] Cost of sales	
+2026-H1	AN	cost_of_sales	144.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[6]/row[5] Cost of sales	
+2025-H1	AN	cost_of_sales	177.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[6]/row[5] Cost of sales	
+2026-Q2	AN	gross_margin	-4.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[6]/row[6] Gross margin	
+2025-Q2	AN	gross_margin	25.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[6]/row[6] Gross margin	
+2026-H1	AN	gross_margin	-15.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[6]/row[6] Gross margin	
+2025-H1	AN	gross_margin	41.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[6]/row[6] Gross margin	
+2026-Q2	AN	gross_margin_percent	-5.6	percent	MEASURED	2026-08-05	cf_q2_2026.html	table[6]/row[8] Gross margin percentage	
+2025-Q2	AN	gross_margin_percent	21.4	percent	MEASURED	2026-08-05	cf_q2_2026.html	table[6]/row[8] Gross margin percentage	
+2026-H1	AN	gross_margin_percent	-11.6	percent	MEASURED	2026-08-05	cf_q2_2026.html	table[6]/row[8] Gross margin percentage	
+2025-H1	AN	gross_margin_percent	18.8	percent	MEASURED	2026-08-05	cf_q2_2026.html	table[6]/row[8] Gross margin percentage	
+2026-Q2	AN	sales_volume	129.0	thousand product short tons	MEASURED	2026-08-05	cf_q2_2026.html	table[6]/row[10] Sales volume by product tons (000s)	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2025-Q2	AN	sales_volume	378.0	thousand product short tons	MEASURED	2026-08-05	cf_q2_2026.html	table[6]/row[10] Sales volume by product tons (000s)	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2026-H1	AN	sales_volume	259.0	thousand product short tons	MEASURED	2026-08-05	cf_q2_2026.html	table[6]/row[10] Sales volume by product tons (000s)	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2025-H1	AN	sales_volume	706.0	thousand product short tons	MEASURED	2026-08-05	cf_q2_2026.html	table[6]/row[10] Sales volume by product tons (000s)	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2026-Q2	AN	realized_selling_price	550.0	USD/product short ton	MEASURED	2026-08-05	cf_q2_2026.html	table[6]/row[13] Average selling price per product ton	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2025-Q2	AN	realized_selling_price	310.0	USD/product short ton	MEASURED	2026-08-05	cf_q2_2026.html	table[6]/row[13] Average selling price per product ton	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2026-H1	AN	realized_selling_price	498.0	USD/product short ton	MEASURED	2026-08-05	cf_q2_2026.html	table[6]/row[13] Average selling price per product ton	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2025-H1	AN	realized_selling_price	309.0	USD/product short ton	MEASURED	2026-08-05	cf_q2_2026.html	table[6]/row[13] Average selling price per product ton	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2026-Q2	Other	net_sales	193.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[7]/row[4] Net sales	
+2025-Q2	Other	net_sales	125.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[7]/row[4] Net sales	
+2026-H1	Other	net_sales	321.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[7]/row[4] Net sales	
+2025-H1	Other	net_sales	258.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[7]/row[4] Net sales	
+2026-Q2	Other	cost_of_sales	100.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[7]/row[5] Cost of sales	
+2025-Q2	Other	cost_of_sales	80.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[7]/row[5] Cost of sales	
+2026-H1	Other	cost_of_sales	203.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[7]/row[5] Cost of sales	
+2025-H1	Other	cost_of_sales	158.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[7]/row[5] Cost of sales	
+2026-Q2	Other	gross_margin	93.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[7]/row[6] Gross margin	
+2025-Q2	Other	gross_margin	45.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[7]/row[6] Gross margin	
+2026-H1	Other	gross_margin	118.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[7]/row[6] Gross margin	
+2025-H1	Other	gross_margin	100.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[7]/row[6] Gross margin	
+2026-Q2	Other	gross_margin_percent	48.2	percent	MEASURED	2026-08-05	cf_q2_2026.html	table[7]/row[8] Gross margin percentage	
+2025-Q2	Other	gross_margin_percent	36.0	percent	MEASURED	2026-08-05	cf_q2_2026.html	table[7]/row[8] Gross margin percentage	
+2026-H1	Other	gross_margin_percent	36.8	percent	MEASURED	2026-08-05	cf_q2_2026.html	table[7]/row[8] Gross margin percentage	
+2025-H1	Other	gross_margin_percent	38.8	percent	MEASURED	2026-08-05	cf_q2_2026.html	table[7]/row[8] Gross margin percentage	
+2026-Q2	Other	sales_volume	587.0	thousand product short tons	MEASURED	2026-08-05	cf_q2_2026.html	table[7]/row[10] Sales volume by product tons (000s)	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2025-Q2	Other	sales_volume	466.0	thousand product short tons	MEASURED	2026-08-05	cf_q2_2026.html	table[7]/row[10] Sales volume by product tons (000s)	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2026-H1	Other	sales_volume	1075.0	thousand product short tons	MEASURED	2026-08-05	cf_q2_2026.html	table[7]/row[10] Sales volume by product tons (000s)	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2025-H1	Other	sales_volume	996.0	thousand product short tons	MEASURED	2026-08-05	cf_q2_2026.html	table[7]/row[10] Sales volume by product tons (000s)	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2026-Q2	Other	realized_selling_price	329.0	USD/product short ton	MEASURED	2026-08-05	cf_q2_2026.html	table[7]/row[13] Average selling price per product ton	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2025-Q2	Other	realized_selling_price	268.0	USD/product short ton	MEASURED	2026-08-05	cf_q2_2026.html	table[7]/row[13] Average selling price per product ton	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2026-H1	Other	realized_selling_price	299.0	USD/product short ton	MEASURED	2026-08-05	cf_q2_2026.html	table[7]/row[13] Average selling price per product ton	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2025-H1	Other	realized_selling_price	259.0	USD/product short ton	MEASURED	2026-08-05	cf_q2_2026.html	table[7]/row[13] Average selling price per product ton	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
+2026-06-30	Consolidated	long_term_debt	3216.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[10]/row[34] Long-term debt	Point-in-time balance, not a period flow; cash includes consolidated JV cash.

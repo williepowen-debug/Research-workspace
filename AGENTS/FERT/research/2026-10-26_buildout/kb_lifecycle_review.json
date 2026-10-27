@@ -1,0 +1,168 @@
+[
+  {
+    "id": "KB-FERT-011",
+    "old_status": "ACTIVE",
+    "new_status": "ACTIVE",
+    "review_by": "2026-11-10",
+    "reason": "Recheck the mutable data hole/plant status at the existing CPI or physical-flow wake; no new verification claimed."
+  },
+  {
+    "id": "KB-FERT-016",
+    "old_status": "ACTIVE",
+    "new_status": "CONFIRMED",
+    "review_by": "",
+    "reason": "Dated base-rate or source-contamination receipt; historical validity only, not a current-market claim."
+  },
+  {
+    "id": "KB-FERT-017",
+    "old_status": "ACTIVE",
+    "new_status": "CONFIRMED",
+    "review_by": "",
+    "reason": "Dated base-rate or source-contamination receipt; historical validity only, not a current-market claim."
+  },
+  {
+    "id": "KB-FERT-021",
+    "old_status": "ACTIVE",
+    "new_status": "STALE",
+    "reason": "Dated evidence retained; current conditions require reread. This is not a finding that the historical observation was false."
+  },
+  {
+    "id": "KB-FERT-037",
+    "old_status": "ACTIVE",
+    "new_status": "STALE",
+    "reason": "Dated evidence retained; current conditions require reread. This is not a finding that the historical observation was false."
+  },
+  {
+    "id": "KB-FERT-042",
+    "old_status": "ACTIVE",
+    "new_status": "STALE",
+    "reason": "Dated evidence retained; current conditions require reread. This is not a finding that the historical observation was false."
+  },
+  {
+    "id": "KB-FERT-046",
+    "old_status": "ACTIVE",
+    "new_status": "STALE",
+    "reason": "Dated evidence retained; current conditions require reread. This is not a finding that the historical observation was false."
+  },
+  {
+    "id": "KB-FERT-047",
+    "old_status": "ACTIVE",
+    "new_status": "STALE",
+    "reason": "Dated evidence retained; current conditions require reread. This is not a finding that the historical observation was false."
+  },
+  {
+    "id": "KB-FERT-048",
+    "old_status": "ACTIVE",
+    "new_status": "STALE",
+    "review_by": "",
+    "reason": "Historical tender-search/price receipt, not a standing current condition."
+  },
+  {
+    "id": "KB-FERT-052",
+    "old_status": "ACTIVE",
+    "new_status": "CONFIRMED",
+    "review_by": "",
+    "reason": "Dated base-rate or source-contamination receipt; historical validity only, not a current-market claim."
+  },
+  {
+    "id": "KB-FERT-053",
+    "old_status": "ACTIVE",
+    "new_status": "STALE",
+    "reason": "Dated evidence retained; current conditions require reread. This is not a finding that the historical observation was false."
+  },
+  {
+    "id": "KB-FERT-054",
+    "old_status": "ACTIVE",
+    "new_status": "STALE",
+    "reason": "Dated evidence retained; current conditions require reread. This is not a finding that the historical observation was false."
+  },
+  {
+    "id": "KB-FERT-055",
+    "old_status": "ACTIVE",
+    "new_status": "SUPERSEDED",
+    "reason": "KB-FERT-080 (later tender outcome; retain invitation as historical)"
+  },
+  {
+    "id": "KB-FERT-056",
+    "old_status": "ACTIVE",
+    "new_status": "STALE",
+    "reason": "Dated evidence retained; current conditions require reread. This is not a finding that the historical observation was false."
+  },
+  {
+    "id": "KB-FERT-057",
+    "old_status": "ACTIVE",
+    "new_status": "STALE",
+    "review_by": "",
+    "reason": "Historical tender-search/price receipt, not a standing current condition."
+  },
+  {
+    "id": "KB-FERT-058",
+    "old_status": "ACTIVE",
+    "new_status": "CONFIRMED",
+    "review_by": "",
+    "reason": "Dated base-rate or source-contamination receipt; historical validity only, not a current-market claim."
+  },
+  {
+    "id": "KB-FERT-065",
+    "old_status": "ACTIVE",
+    "new_status": "STALE",
+    "reason": "Dated evidence retained; current conditions require reread. This is not a finding that the historical observation was false."
+  },
+  {
+    "id": "KB-FERT-066",
+    "old_status": "ACTIVE",
+    "new_status": "ACTIVE",
+    "review_by": "2026-11-05",
+    "reason": "Recheck the mutable data hole/plant status at the existing CPI or physical-flow wake; no new verification claimed."
+  },
+  {
+    "id": "KB-FERT-067",
+    "old_status": "ACTIVE",
+    "new_status": "SUPERSEDED",
+    "reason": "KB-FERT-071/080 (explicit CFR basis and later outcome)"
+  },
+  {
+    "id": "KB-FERT-068",
+    "old_status": "ACTIVE",
+    "new_status": "CONFIRMED",
+    "review_by": "",
+    "reason": "Dated base-rate or source-contamination receipt; historical validity only, not a current-market claim."
+  },
+  {
+    "id": "KB-FERT-069",
+    "old_status": "ACTIVE",
+    "new_status": "SUPERSEDED",
+    "reason": "KB-FERT-079 (newer DTN print)"
+  },
+  {
+    "id": "KB-FERT-070",
+    "old_status": "ACTIVE",
+    "new_status": "SUPERSEDED",
+    "reason": "KB-FERT-082 (newer triage receipt; older compound event facts remain historical)"
+  },
+  {
+    "id": "KB-FERT-071",
+    "old_status": "ACTIVE",
+    "new_status": "SUPERSEDED",
+    "reason": "KB-FERT-080 (later outcome; offers/counters remain historical)"
+  },
+  {
+    "id": "KB-FERT-075",
+    "old_status": "ACTIVE",
+    "new_status": "SUPERSEDED",
+    "reason": "KB-FERT-081/084 (later sulfur/issuer evidence; settlement still unresolved)"
+  },
+  {
+    "id": "KB-FERT-077",
+    "old_status": "ACTIVE",
+    "new_status": "CONFIRMED",
+    "review_by": "",
+    "reason": "Dated base-rate or source-contamination receipt; historical validity only, not a current-market claim."
+  },
+  {
+    "id": "KB-FERT-078",
+    "old_status": "ACTIVE",
+    "new_status": "SUPERSEDED",
+    "reason": "KB-FERT-080 (booked volume subsequently reported; awarded price still unstated)"
+  }
+]

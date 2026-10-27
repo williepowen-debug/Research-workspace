@@ -1,0 +1,310 @@
+www.sec.gov (https://www.sec.gov/Archives/edgar/data/1324404/000132440426000017/cf-08052026_ex991xearnings.htm)
+citeturn28view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.sec.gov/Archives/edgar/data/1324404/000132440426000017/cf-08052026_ex991xearnings.htm","lineno":650}); Total lines: 865
+L529:     14
+L530: 
+L531: * * *
+L532: 
+L533: CF INDUSTRIES HOLDINGS, INC.
+L534: 
+L535: SELECTED FINANCIAL INFORMATION
+L536: 
+L537: CONDENSED CONSOLIDATED BALANCE SHEETS
+L538:  |  |  |  |  |  |  |  |  |  |  |
+L539:  | (unaudited)  |  |
+L540:  | June 30,
+L541: 2026  |  | December 31,
+L542: 2025
+L543:  |  |  |
+L544:  | (in millions)
+L545: Assets  |  |  |
+L546: Current assets:  |  |  |
+L547: Cash and cash equivalents (amount related to variable interest entity (VIE)—2026: $341, 2025: $130)  | $  | 2,480   |  |  | $  | 1,982   |
+L548:  |  |  |
+L549: Accounts receivable—net  | 718   |  |  | 488   |
+L550: Inventories  | 415   |  |  | 383   |
+L551:  |  |  |
+L552: Prepaid income taxes  | 99   |  |  | 105   |
+L553:  |  |  |
+L554: Other current assets (amount related to VIE—2026: $6, 2025: $1)  | 40   |  |  | 27   |
+L555: Total current assets  | 3,752   |  |  | 2,985   |
+L556: Property, plant and equipment—net (amount related to VIE—2026: $504, 2025: $361)  | 6,758   |  |  | 6,715   |
+L557: Investment in affiliate  | 36   |  |  | 32   |
+L558: Goodwill  | 2,492   |  |  | 2,493   |
+L559: Intangible assets—net  | 460   |  |  | 473   |
+L560: Operating lease right-of-use assets (amount related to VIE—2026: $1, 2025: $0)  | 385   |  |  | 410   |
+L561: Other assets (amount related to VIE—2026: $17, 2025: $1)  | 1,216   |  |  | 980   |
+L562: Total assets  | $  | 15,099   |  |  | $  | 14,088   |
+L563:  |  |  |
+L564: Liabilities and Equity  |  |  |
+L565: Current liabilities:  |  |  |
+L566:  |  |  |
+L567: Accounts payable and accrued expenses (amount related to VIE—2026: $51, 2025: $52)  | $  | 642   |  |  | $  | 681   |
+L568:  |  |  |
+L569: Customer advances  | 11   |  |  | 77   |
+L570: Current operating lease liabilities (amount related to VIE—2026: $1, 2025: $0)  | 104   |  |  | 110   |
+L571:  |  |  |
+L572: Other current liabilities  | 15   |  |  | 19   |
+L573: Total current liabilities  | 772   |  |  | 887   |
+L574: Long-term debt  | 3,216   |  |  | 3,215   |
+L575: Deferred income taxes  | 841   |  |  | 869   |
+L576: Operating lease liabilities  | 293   |  |  | 311   |
+L577: Supply contract liability  | 679   |  |  | 694   |
+L578: Other liabilities (amount related to VIE—2026: $1, 2025: $1)  | 378   |  |  | 337   |
+L579: Equity:  |  |  |
+L580: Stockholders’ equity  | 5,748   |  |  | 4,838   |
+L581: Noncontrolling interests  | 3,172   |  |  | 2,937   |
+L582: Total equity  | 8,920   |  |  | 7,775   |
+L583: Total liabilities and equity  | $  | 15,099   |  |  | $  | 14,088   |
+L584:     15
+L585: 
+L586: * * *
+L587: 
+L588: CF INDUSTRIES HOLDINGS, INC.
+L589: 
+L590: SELECTED FINANCIAL INFORMATION
+L591: 
+L592: CONSOLIDATED STATEMENTS OF CASH FLOWS
+L593: 
+L594: (unaudited)
+L595:  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+L596:  | Three months ended
+L597:  June 30,  |  | Six months ended
+L598:  June 30,
+L599:  | 2026  |  | 2025  |  | 2026  |  | 2025
+L600:  | (in millions)
+L601: Operating Activities:  |  |  |  |  |  |  |
+L602: Net earnings  | $  | 869   |  |  | $  | 492   |  |  | $  | 1,545   |  |  | $  | 843   |
+L603: Adjustments to reconcile net earnings to net cash provided by operating activities:  |  |  |  |  |  |  |
+L604: Depreciation and amortization  | 215   |  |  | 232   |  |  | 443   |  |  | 453   |
+L605: Deferred income taxes  | (13)  |  |  | (12)  |  |  | (25)  |  |  | (38)  |
+L606: Stock-based compensation expense  | 9   |  |  | 12   |  |  | 20   |  |  | 22   |
+L607:  |  |  |  |  |  |  |
+L608: Unrealized net (gain) loss on natural gas derivatives  | (2)  |  |  | —   |  |  | (5)  |  |  | 2   |
+L609: Asset impairment  | 23   |  |  | —   |  |  | 23   |  |  | —   |
+L610: Loss on disposal of property, plant and equipment  | 7   |  |  | —   |  |  | 9   |  |  | 1   |
+L611:  |  |  |  |  |  |  |
+L612:  |  |  |  |  |  |  |
+L613:  |  |  |  |  |  |  |
+L614:  |  |  |  |  |  |  |
+L615:  |  |  |  |  |  |  |
+L616: Insurance recoveries—property damage  | —   |  |  | —   |  |  | (25)  |  |  | —   |
+L617:  |  |  |  |  |  |  |
+L618: Loss on sale of Ince facility  | —   |  |  | —   |  |  | —   |  |  | 23   |
+L619: Undistributed earnings of affiliate—net of taxes  | 3   |  |  | (2)  |  |  | (3)  |  |  | (6)  |
+L620: Changes in assets and liabilities:  |  |  |  |  |  |  |
+L621:  |  |  |  |  |  |  |
+L622: Accounts receivable—net  | 6   |  |  | (1)  |  |  | (233)  |  |  | (178)  |
+L623: Inventories  | (30)  |  |  | 37   |  |  | (28)  |  |  | (6)  |
+L624: Accrued and prepaid income taxes  | (167)  |  |  | 6   |  |  | (23)  |  |  | 95   |
+L625: Accounts payable and accrued expenses  | 9   |  |  | (12)  |  |  | (66)  |  |  | 4   |
+L626: Customer advances  | (121)  |  |  | (209)  |  |  | (66)  |  |  | (86)  |
+L627: Other—net  | 70   |  |  | 20   |  |  | (192)  |  |  | 20   |
+L628: Net cash provided by operating activities  | 878   |  |  | 563   |  |  | 1,374   |  |  | 1,149   |
+L629: Investing Activities:  |  |  |  |  |  |  |
+L630: Additions to property, plant and equipment  | (271)  |  |  | (245)  |  |  | (494)  |  |  | (377)  |
+L631: Proceeds from sale of property, plant and equipment  | 1   |  |  | 4   |  |  | 1   |  |  | 6   |
+L632: Proceeds from sale of Ince facility  | —   |  |  | —   |  |  | —   |  |  | 4   |
+L633:  |  |  |  |  |  |  |
+L634:  |  |  |  |  |  |  |
+L635:  |  |  |  |  |  |  |
+L636: Insurance proceeds for property, plant and equipment  | 25   |  |  | —   |  |  | 25   |  |  | —   |
+L637: Purchase of emission credits  | (4)  |  |  | (1)  |  |  | (6)  |  |  | (1)  |
+L638:  |  |  |  |  |  |  |
+L639:  |  |  |  |  |  |  |
+L640: Net cash used in investing activities  | (249)  |  |  | (242)  |  |  | (474)  |  |  | (368)  |
+L641: Financing Activities:  |  |  |  |  |  |  |
+L642:  |  |  |  |  |  |  |
+L643:  |  |  |  |  |  |  |
+L644:  |  |  |  |  |  |  |
+L645:  |  |  |  |  |  |  |
+L646:  |  |  |  |  |  |  |
+L647:  |  |  |  |  |  |  |
+L648: Dividends paid on common stock  | (77)  |  |  | (81)  |  |  | (155)  |  |  | (167)  |
+L649: Contributions from noncontrolling interests  | 116   |  |  | 235   |  |  | 233   |  |  | 235   |
+L650: Distributions to noncontrolling interests  | —   |  |  | —   |  |  | (201)  |  |  | (129)  |
+L651: Purchases of treasury stock  | (225)  |  |  | (216)  |  |  | (253)  |  |  | (660)  |
+L652: Proceeds from issuances of common stock under employee stock plans  | —   |  |  | —   |  |  | 1   |  |  | 1   |
+L653:  |  |  |  |  |  |  |
+L654: Cash paid for shares withheld for taxes  | —   |  |  | —   |  |  | (10)  |  |  | (13)  |
+L655:  |  |  |  |  |  |  |
+L656: Net cash used in financing activities  | (186)  |  |  | (62)  |  |  | (385)  |  |  | (733)  |
+L657: Effect of exchange rate changes on cash and cash equivalents  | (5)  |  |  | 21   |  |  | (17)  |  |  | 24   |
+L658: Increase in cash and cash equivalents  | 438   |  |  | 280   |  |  | 498   |  |  | 72   |
+L659: Cash and cash equivalents at beginning of period  | 2,042   |  |  | 1,406   |  |  | 1,982   |  |  | 1,614   |
+L660: Cash and cash equivalents at end of period  | $  | 2,480   |  |  | $  | 1,686   |  |  | $  | 2,480   |  |  | $  | 1,686   |
+L661:     16
+L662: 
+L663: * * *
+L664: 
+L665: CF INDUSTRIES HOLDINGS, INC.
+L666: 
+L667: SELECTED FINANCIAL INFORMATION
+L668: 
+L669: NON-GAAP DISCLOSURE ITEMS
+L670: 
+L671: Reconciliation of net cash provided by operating activities (GAAP measure) to free cash flow (non-GAAP measure):
+L672: Free cash flow is defined as net cash provided by operating activities, as stated in the consolidated statements of cash flows, reduced by capital expenditures and distributions to noncontrolling interests plus contributions from noncontrolling interests.
+L673: The Company has presented free cash flow because management uses this measure and believes it is useful to investors, as an indication of the strength of the Company and its ability to generate cash and to evaluate the Company’s cash generation ability relative to its industry competitors. It should not be inferred that the entire free cash flow amount is available for discretionary expenditures.
+L674:  |  |  |  |  |  |  |  |  |  |  |
+L675:  | Twelve months ended  June 30,
+L676:  | 2026  |  | 2025
+L677:  | (in millions)
+L678: Net cash provided by operating activities  | $  | 2,977   |  |  | $  | 2,500   |
+L679: Capital expenditures(1)  | (1,067)  |  |  | (713)  |
+L680: Distributions to noncontrolling interests  | (376)  |  |  | (293)  |
+L681: Contributions from noncontrolling interests  | 289   |  |  | 235   |
+L682: Free cash flow  | $  | 1,823   |  |  | $  | 1,729   |
+L683: _______________________________________________________________________________
+L684: (1)For the twelve months ended June 30, 2026 and June 30, 2025, includes $360 million and $90 million, respectively, attributable to the Blue Point One joint venture.
+L685: 
+L686:     17
+L687: 
+L688: * * *
+L689: 
+L690: CF INDUSTRIES HOLDINGS, INC.
+L691: 
+L692: SELECTED FINANCIAL INFORMATION
+L693: 
+L694: NON-GAAP DISCLOSURE ITEMS (CONTINUED)
+L695: Reconciliation of net earnings attributable to common stockholders and net earnings attributable to common stockholders per ton (GAAP measures) to EBITDA, EBITDA per ton, adjusted EBITDA and adjusted EBITDA per ton (non-GAAP measures), as applicable:
+L696: EBITDA is defined as net earnings attributable to common stockholders plus interest expense—net, income taxes and depreciation and amortization. Other adjustments include the elimination of the portion of interest income (expense)—net and the portion of depreciation and amortization that are included in noncontrolling interests, and loan fee amortization that is included in both interest and amortization.
+L697: The Company has presented EBITDA and EBITDA per ton because management uses these measures to track performance and believes that they are frequently used by securities analysts, investors and other interested parties in the evaluation of companies in the industry.
+L698: Adjusted EBITDA is defined as EBITDA adjusted with the selected items as summarized in the table below. The Company has presented adjusted EBITDA and adjusted EBITDA per ton because management uses these measures, and believes they are useful to investors, as supplemental financial measures in the comparison of year-over-year performance.
+L699:  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+L700:  | Three months ended
+L701:  June 30,  |  | Six months ended
+L702:  June 30,
+L703:  | 2026  |  | 2025  |  | 2026  |  | 2025
+L704:  | (in millions)
+L705: Net earnings  | $  | 869   |  |  | $  | 492   |  |  | $  | 1,545   |  |  | $  | 843   |
+L706: Less: Net earnings attributable to noncontrolling interests  | (142)  |  |  | (106)  |  |  | (203)  |  |  | (145)  |
+L707: Net earnings attributable to common stockholders  | 727   |  |  | 386   |  |  | 1,342   |  |  | 698   |
+L708: Interest expense—net  | 24   |  |  | 19   |  |  | 43   |  |  | 39   |
+L709: Income tax provision  | 224   |  |  | 143   |  |  | 392   |  |  | 229   |
+L710: Depreciation and amortization  | 215   |  |  | 232   |  |  | 443   |  |  | 453   |
+L711: Less other adjustments:  |  |  |  |  |  |  |
+L712: Interest income—net in noncontrolling interests  | —   |  |  | —   |  |  | 1   |  |  | —   |
+L713: Depreciation and amortization in noncontrolling interests  | (24)  |  |  | (22)  |  |  | (46)  |  |  | (43)  |
+L714: Loan fee amortization(1)  | —   |  |  | (1)  |  |  | (1)  |  |  | (2)  |
+L715: EBITDA  | 1,166   |  |  | 757   |  |  | 2,174   |  |  | 1,374   |
+L716: Unrealized net mark-to-market (gain) loss on natural gas derivatives  | (2)  |  |  | —   |  |  | (5)  |  |  | 2   |
+L717:  |  |  |  |  |  |  |
+L718:  |  |  |  |  |  |  |
+L719: Loss (gain) on foreign currency transactions  | 2   |  |  | (3)  |  |  | 5   |  |  | (1)  |
+L720: Less: Gain (loss) on foreign currency transactions in noncontrolling interests  | —   |  |  | 6   |  |  | (1)  |  |  | 6   |
+L721: Asset impairment  | 23   |  |  | —   |  |  | 23   |  |  | —   |
+L722: Insurance recoveries—property damage  | —   |  |  | —   |  |  | (25)  |  |  | —   |
+L723: Loss on sale of Ince facility  | —   |  |  | —   |  |  | —   |  |  | 23   |
+L724: Blue Point One joint venture development costs(2)  | 3   |  |  | 1   |  |  | 4   |  |  | 1   |
+L725:  |  |  |  |  |  |  |
+L726:  |  |  |  |  |  |  |
+L727:  |  |  |  |  |  |  |
+L728:  |  |  |  |  |  |  |
+L729:  |  |  |  |  |  |  |
+L730:  |  |  |  |  |  |  |
+L731:  |  |  |  |  |  |  |
+L732:  |  |  |  |  |  |  |
+L733:  |  |  |  |  |  |  |
+L734:  |  |  |  |  |  |  |
+L735:  |  |  |  |  |  |  |
+L736:  |  |  |  |  |  |  |
+L737:  |  |  |  |  |  |  |
+L738:  |  |  |  |  |  |  |
+L739:  |  |  |  |  |  |  |
+L740:  |  |  |  |  |  |  |
+L741:  |  |  |  |  |  |  |
+L742:  |  |  |  |  |  |  |
+L743:  |  |  |  |  |  |  |
+L744:  |  |  |  |  |  |  |
+L745:  |  |  |  |  |  |  |
+L746: Total adjustments  | 26   |  |  | 4   |  |  | 1   |  |  | 31   |
+L747: Adjusted EBITDA  | $  | 1,192   |  |  | $  | 761   |  |  | $  | 2,175   |  |  | $  | 1,405   |
+L748:  |  |  |  |  |  |  |
+L749: Net sales  | $  | 2,222   |  |  | $  | 1,890   |  |  | $  | 4,208   |  |  | $  | 3,553   |
+L750: Sales volume by product tons (000s)  | 4,252   |  |  | 5,021   |  |  | 8,935   |  |  | 10,025   |
+L751:  |  |  |  |  |  |  |
+L752: Net earnings attributable to common stockholders per ton  | $  | 170.98   |  |  | $  | 76.88   |  |  | $  | 150.20   |  |  | $  | 69.63   |
+L753: EBITDA per ton  | $  | 274.22   |  |  | $  | 150.77   |  |  | $  | 243.31   |  |  | $  | 137.06   |
+L754: Adjusted EBITDA per ton  | $  | 280.34   |  |  | $  | 151.56   |  |  | $  | 243.42   |  |  | $  | 140.15   |
+L755: ____________________________________________________________________________
+L756:     18
+L757: 
+L758: * * *
+L759: 
+L760: (1)Loan fee amortization is included in both interest expense—net and depreciation and amortization.
+L761: 
+L762: (2)Represents 40% of Blue Point One joint venture costs related to the construction of the low-carbon ammonia production facility at our Blue Point Complex, which excludes the portion attributable to the noncontrolling interests.
+L763: 
+L764:     19
+L765: 
+L766: * * *
+L767: 
+L768: CF INDUSTRIES HOLDINGS, INC.
+L769: 
+L770: SELECTED FINANCIAL INFORMATION
+L771: 
+L772: ITEMS AFFECTING COMPARABILITY OF RESULTS
+L773: For the three months ended June 30, 2026 and 2025, we reported net earnings attributable to common stockholders of $727 million and $386 million, respectively. For the six months ended June 30, 2026 and 2025, we reported net earnings attributable to common stockholders of $1.34 billion and $698 million, respectively. Certain items affected the comparability of our financial results for the three and six months ended June 30, 2026 and 2025.
+L774: The following table outlines these items that affected the comparability of our financial results for these periods.
+L775:  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+L776:  |  |  |  |  |  |  |  |  |  |  |
+L777:  | Three months ended
+L778: June 30,  |  | Six months ended
+L779: June 30,
+L780:  | 2026  |  | 2025  |  | 2026  |  | 2025
+L781:  | Pre-Tax  | After-Tax  |  | Pre-Tax  | After-Tax  |  | Pre-Tax  | After-Tax  |  | Pre-Tax  | After-Tax
+L782:  | (in millions)
+L783:  |  |  |  |  |  |  |  |  |  |  |
+L784: Unrealized net mark-to-market (gain) loss on natural gas derivatives(1)  | $  | (2)  |  | $  | (2)  |  |  | $  | —   |  | $  | —   |  |  | $  | (5)  |  | $  | (4)  |  |  | $  | 2   |  | $  | 1   |
+L785:  |  |  |  |  |  |  |  |  |  |  |
+L786:  |  |  |  |  |  |  |  |  |  |  |
+L787: Loss (gain) on foreign currency transactions(2)(3)  | 2   |  | 1   |  |  | (3)  |  | (3)  |  |  | 5   |  | 4   |  |  | (1)  |  | (3)  |
+L788: Loss on sale of Ince facility(4)  | —   |  | —   |  |  | —   |  | —   |  |  | —   |  | —   |  |  | 23   |  | 21   |
+L789: Yazoo City incident:  |  |  |  |  |  |  |  |  |  |  |
+L790: Asset impairment  | 23   |  | 18   |  |  | —   |  | —   |  |  | 23   |  | 18   |  |  | —   |  | —   |
+L791:  |  |  |  |  |  |  |  |  |  |  |
+L792:  |  |  |  |  |  |  |  |  |  |  |
+L793:  |  |  |  |  |  |  |  |  |  |  |
+L794:  |  |  |  |  |  |  |  |  |  |  |
+L795: Insurance recoveries—property damage  | —   |  | —   |  |  | —   |  | —   |  |  | (25)  |  | (19)  |  |  | —   |  | —   |
+L796: Insurance recoveries—business interruption  | (50)  |  | (38)  |  |  | —   |  | —   |  |  | (50)  |  | (38)  |  |  | —   |  | —   |
+L797: Litigation settlement gain  | —   |  | —   |  |  | —   |  | —   |  |  | (170)  |  | (129)  |  |  | —   |  | —   |
+L798: 45Q tax credits(2)  | (19)  |  | (19)  |  |  | —   |  | —   |  |  | (43)  |  | (43)  |  |  | —   |  | —   |
+L799: Blue Point One joint venture development costs(2)(3)  | 7   |  | 7   |  |  | 2   |  | 2   |  |  | 9   |  | 9   |  |  | 2   |  | 2   |
+L800:  |  |  |  |  |  |  |  |  |  |  |
+L801:  |  |  |  |  |  |  |  |  |  |  |
+L802:  |  |  |  |  |  |  |  |  |  |  |
+L803:  |  |  |  |  |  |  |  |  |  |  |
+L804:  |  |  |  |  |  |  |  |  |  |  |
+L805:  |  |  |  |  |  |  |  |  |  |  |
+L806:  |  |  |  |  |  |  |  |  |  |  |
+L807:  |  |  |  |  |  |  |  |  |  |  |
+L808:  |  |  |  |  |  |  |  |  |  |  |
+L809:  |  |  |  |  |  |  |  |  |  |  |
+L810:  |  |  |  |  |  |  |  |  |  |  |
+L811:  |  |  |  |  |  |  |  |  |  |  |
+L812:  |  |  |  |  |  |  |  |  |  |  |
+L813:  |  |  |  |  |  |  |  |  |  |  |
+L814:  |  |  |  |  |  |  |  |  |  |  |
+L815:  |  |  |  |  |  |  |  |  |  |  |
+L816:  |  |  |  |  |  |  |  |  |  |  |
+L817:  |  |  |  |  |  |  |  |  |  |  |
+L818:  |  |  |  |  |  |  |  |  |  |  |
+L819:  |  |  |  |  |  |  |  |  |  |  |
+L820:  |  |  |  |  |  |  |  |  |  |  |
+L821:  |  |  |  |  |  |  |  |  |  |  |
+L822:  |  |  |  |  |  |  |  |  |  |  |
+L823:  |  |  |  |  |  |  |  |  |  |  |
+L824:  |  |  |  |  |  |  |  |  |  |  |
+L825:  |  |  |  |  |  |  |  |  |  |  |
+L826:  |  |  |  |  |  |  |  |  |  |  |
+L827:  |  |  |  |  |  |  |  |  |  |  |
+L828:  |  |  |  |  |  |  |  |  |  |  |
+L829:  |  |  |  |  |  |  |  |  |  |  |
+L830:  |  |  |  |  |  |  |  |  |  |  |
+L831:  |  |  |  |  |  |  |  |  |  |  |
+L832:  |  |  |  |  |  |  |  |  |  |  |
+L833:  |  |  |  |  |  |  |  |  |  |  |
+L834:  |  |  |  |  |  |  |  |  |  |  |
+L835:  |  |  |  |  |  |  |  |  |  |  |
+

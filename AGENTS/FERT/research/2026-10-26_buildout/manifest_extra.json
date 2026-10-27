@@ -1,0 +1,44 @@
+[
+  {
+    "file": "china_sci_sina_20261023.html",
+    "url": "https://finance.sina.com.cn/money/future/roll/2026-10-23/doc-iniweuqu1940238.shtml",
+    "status": 200,
+    "bytes": 107300,
+    "sha256": "6e269280a425e478f63e31d4376f3e324bd0b638f2b7a1c86b7fa23616dfa2df",
+    "read_at": "2026-10-27T03:32:06.275143+00:00"
+  },
+  {
+    "file": "china_mysteel_20261020.html",
+    "url": "https://www.mysteel.com/oilchem/a/26102011/9DA83D7C2DEFDF99.html",
+    "status": 200,
+    "bytes": 112888,
+    "sha256": "86221dd129981e32f0c1b65c328d878f684e11feb5f3d5a5b5ecbb1c728df5e8",
+    "read_at": "2026-10-27T03:32:05.007631+00:00"
+  },
+  {
+    "file": "china_customs_portal.html",
+    "url": "https://stats.customs.gov.cn/",
+    "error": "HTTPSConnectionPool(host='stats.customs.gov.cn', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1000)')))"
+  },
+  {
+    "file": "china_guangdong.html",
+    "url": "https://www.gdsflxh.com/",
+    "error": "HTTPSConnectionPool(host='www.gdsflxh.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))"
+  },
+  {
+    "file": "bls_ppi_table9.pdf",
+    "url": "https://www.bls.gov/web/ppi/ppitable09.pdf",
+    "status": 403,
+    "bytes": 1325,
+    "sha256": "800d534cf2eb3ac530b7435574ff3021b0cff177b2bf2e8e440ffc265878a43e",
+    "read_at": "2026-10-27T03:32:03.996524+00:00"
+  },
+  {
+    "file": "cf_20260630_10q.html",
+    "url": "https://www.sec.gov/Archives/edgar/data/1324404/000132440426000019/cf-20260630.htm",
+    "status": 403,
+    "bytes": 4818,
+    "sha256": "57abfccc8cc500640cd1236c436a6bdb5ffe45c80f9ba8377fe38b770474ccf9",
+    "read_at": "2026-10-27T03:32:04.020242+00:00"
+  }
+]

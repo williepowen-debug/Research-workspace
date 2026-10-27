@@ -1,0 +1,105 @@
+cf-20260630 (https://www.sec.gov/Archives/edgar/data/1324404/000132440426000019/cf-20260630.htm)
+citeturn36view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"turn34view1","lineno":1298}); Total lines: 2773
+L1288: In order to satisfy the remaining plan liabilities, including the cost to purchase the annuity contract and distribute the lump sum payments, in July 2026, we made a cash contribution of $6 million to the plan.
+L1289: In the third quarter of 2026, we will remeasure the projected benefit obligation and plan assets for this plan and we expect to recognize a non-cash pre-tax pension settlement loss of approximately $7 million, based on current interest rates, reflecting the unamortized net unrecognized postretirement benefit costs related to the settled obligations, with a corresponding offset to accumulated other comprehensive loss.
+L1290: 
+L1291: Dividends
+L1292: On July 8, 2026, the Board declared a quarterly dividend of $0.60 per common share, representing an increase from the quarterly dividend of $0.50 per common share that was declared and paid in the second quarter of 2026. The dividend will be paid on August 31, 2026 to stockholders of record as of August 14, 2026.
+L1293: 
+L1294: Blue Point Permitting Matter
+L1295: On July 21, 2026, Rural Roots Louisiana, Mount Triumph Baptist Church and Pastor Harry Joseph, Sr. (collectively, the “Plaintiffs”), filed a lawsuit against the U.S. Army Corps of Engineers (the “Corps”) seeking a preliminary injunction to suspend the final permits issued to the Company in connection with construction of the Blue Point complex and to rescind the Corps’ final effects determination of no adverse effects until a hearing may be heard on the merits.
+L1296: The Corps and the Company have filed motions in opposition and a hearing on Plaintiffs’ preliminary injunction motion is scheduled for August. The matter is ongoing and we cannot currently predict its final outcome.
+L1297: 24
+L1298: 
+L1299: * * *
+L1300: 
+L1301: 【0†Table of Contents】
+L1302: 
+L1303: CF INDUSTRIES HOLDINGS, INC.
+L1304: 
+L1305: ITEM 2.    MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS.
+L1306:         You should read the following discussion and analysis in conjunction with our annual consolidated financial statements and related notes and our discussion and analysis of financial condition and results of operations that were included in our Annual Report on Form 10-K for the fiscal year ended December 31, 2025, filed with the Securities and Exchange Commission (SEC) on February 25, 2026, as well as Item 1. Financial Statements in Part I of this Quarterly Report on Form 10-Q.
+L1307: All references to “CF Holdings,” “we,” “us,” “our” and “the Company” refer to CF Industries Holdings, Inc. and its subsidiaries, except where the context makes clear that the reference is to CF Industries Holdings, Inc. only and not its subsidiaries. All references to “CF Industries” refer to CF Industries, Inc., a 100% owned subsidiary of CF Industries Holdings, Inc. References to tons refer to short tons.
+L1308: Notes referenced in this discussion and analysis refer to the notes to our unaudited interim consolidated financial statements in Item 1. Financial Statements in Part I of this Quarterly Report on Form 10-Q. The following is an outline of the discussion and analysis included herein:
+L1309: •Overview of CF Holdings
+L1310: 
+L1311: •Market Conditions and Current Developments
+L1312: 
+L1313: •Financial Executive Summary
+L1314: 
+L1315: •Items Affecting Comparability of Results
+L1316: 
+L1317: •Consolidated Results of Operations
+L1318: 
+L1319: •Operating Results by Business Segment
+L1320: 
+L1321: •Liquidity and Capital Resources
+L1322: 
+L1323: •Critical Accounting Estimates
+L1324: 
+L1325: •Recent Accounting Pronouncements
+L1326: 
+L1327: •Forward-Looking Statements
+L1328: 
+L1329: Overview of CF Holdings
+L1330: 
+L1331: Our Company
+L1332: Our mission is to provide clean energy to feed and fuel the world sustainably. With our employees focused on safe and reliable operations, environmental stewardship, and disciplined capital and corporate management, we are on a path to decarbonize our ammonia production network – the world’s largest – to enable low-carbon hydrogen and nitrogen products for energy, fertilizer, emissions abatement, and other industrial activities.
+L1333: Our value chain consists of manufacturing complexes in the United States, Canada and the United Kingdom, an extensive storage, transportation and distribution network in North America, and logistics capabilities enabling a global reach. In July 2025, we completed a significant decarbonization project at our Donaldsonville, Louisiana, complex to enable the production of ammonia with a lower carbon intensity than that of ammonia produced through traditional processes (“low-carbon ammonia”).
+L1334: Additionally, we are executing further decarbonization projects in our existing network and constructing a greenfield low-carbon ammonia plant at our Blue Point complex to drive our strategy to leverage our unique capabilities to accelerate the world’s transition to clean energy.
+L1335: Our principal customers are cooperatives, retailers, independent fertilizer distributors, traders, wholesalers and industrial users. Our core product is anhydrous ammonia (ammonia), which contains 82% nitrogen and 18% hydrogen. Products derived from ammonia, or upgraded products, that are most often used as nitrogen fertilizers include granular urea, urea ammonium nitrate solution (UAN) and ammonium nitrate (AN).
+L1336: AN is also used extensively by the commercial explosives industry as a component of explosives. Upgraded products that are sold primarily to industrial customers include diesel exhaust fluid (DEF), urea liquor, nitric acid and aqua ammonia.
+--------------------------------------------------------------------------------
+Table 9. Producer price indexes for commodity and service groupings and individual items, Sept. 2026 (https://www.bls.gov/web/ppi/ppitable09.pdf)
+citeturn36view1 [wordlim: 200] Crawled: today; Content type: application/pdf; Number of pages: 53; Source: open({"ref_id":"turn34view2","lineno":1212}); Total lines: 4494
+L1197@P13: Antidepressants. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 06 3802031 12/09 208.208 208.208 208.208 208.208 208.208
+L1198@P13: Other psychotherapeutics, including tranquilizers. . . . . . . . . . . . . . . . . . . . 06 3802032 12/09 214.541 214.541 214.541 214.541 214.541
+L1199@P13: Anticonvulsants. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 06 380204 12/09 233.250 233.250 233.250 233.250 –
+L1200@P13: Other central nervous system and sense organs. . . . . . . . . . . . . . . . . . . . . . . 06 380205 12/09 231.337 231.337 231.467 231.467 231.467
+L1201@P13: Pharmaceuticals acting on the cardiovascular system. . . . . . . . . . . . . . . . . . . . 06 3803 06/01 434.292 432.153 436.170 436.157 436.192
+L1202@P13: Other cardiovascular preparations. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 06 380305 12/09 333.452 333.644 338.110 338.110 338.110
+L1203@P13: Pharmaceuticals acting on the respiratory system. . . . . . . . . . . . . . . . . . . . . . . . 06 3804 06/01 196.641 196.641 197.017 197.017 197.017
+L1204@P13: Antihistamines and bronchodilators, including antiasthmatics. . . . . . . . . . . 06 380402 12/07 126.356 126.356 126.356 126.356 126.356
+L1205@P13: Other respiratory preparations. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 06 380403 12/07 193.679 193.679 194.471 194.471 194.471
+L1206@P13: Other respiratory preparations, over-the-counter. . . . . . . . . . . . . . . . . . . . . 06 380403OC 12/07 136.293 136.293 136.293 136.293 136.293
+L1207@P13: See footnotes at end of table.
+L1208@P13-14: 14Table 9. Producer price indexes for commodity and service groupings and individual items, not seasonally
+L1209@P14: adjusted — Continued
+L1210@P14: [September 2026, Index base 1982=100, unless otherwise indicated]
+L1211@P14: Title
+L1212@P14: Commodity code Other
+L1213@P14: index
+L1214@P14: base
+L1215@P14: Unadjusted index1
+L1216@P14: Group
+L1217@P14: code Item code May2026
+L1218@P14: June
+L1219@P14: 2026p
+L1220@P14: July
+L1221@P14: 2026p
+L1222@P14: Aug.
+L1223@P14: 2026p
+L1224@P14: Sept.
+L1225@P14: 2026p
+L1226@P14: Other respiratory preparations, prescription. . . . . . . . . . . . . . . . . . . . . . . . . . 06 380403RX 12/07 190.466 190.466 192.225 192.225 –
+L1227@P14: Pharmaceuticals acting on the digestive or the genito-urinary systems. . . . 06 3805 06/01 187.319 187.319 182.432 182.432 182.432
+L1228@P14: Other digestive or genito-urinary preparations. . . . . . . . . . . . . . . . . . . . . . . . . 06 380503 12/09 135.204 135.204 135.204 135.204 135.204
+L1229@P14: Other digestive or genito-urinary preparations, prescription. . . . . . . . . . . 06 380503RX 06/01 199.869 199.869 199.869 199.869 199.869
+L1230@P14: Pharmaceuticals acting on the skin. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 06 3806 06/01 185.233 185.233 185.233 185.233 185.233
+L1231@P14: Other pharmaceutical preparations acting on the skin. . . . . . . . . . . . . . . . . . 06 380603 12/09 127.572 127.572 127.572 127.572 127.572
+L1232@P14: Anti-acne preparations. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 06 380606 12/09 86.962 86.962 86.962 86.962 86.962
+L1233@P14: Vitamin, nutrient, and hematinic preparations. . . . . . . . . . . . . . . . . . . . . . . . . . . . 06 3807 06/01 161.308 161.308 164.208 164.289 164.288
+L1234@P14: Multivitamins. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 06 380702 12/09 128.588 128.588 128.588 128.588 128.588
+L1235@P14: Other vitamins and nutrients. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 06 380703 12/09 141.617 141.617 141.688 141.801 141.799
+L1236@P14: Pharmaceuticals affecting parasitic and infective diseases. . . . . . . . . . . . . . . . 06 3808 06/01 283.275 283.274 283.290 283.293 283.293
+L1237@P14: Broad and medium spectrum antibiotics. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 06 380802 12/09 171.403 171.403 171.403 171.403 171.403
+L1238@P14: Systemic antivirals. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 06 380803 12/09 209.185 209.176 209.319 209.341 209.341
+L1239@P14: Other parasitic and infective diseases. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 06 380804 12/09 219.722 219.722 219.722 219.722 219.722
+L1240@P14: Fats and oils, inedible. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 06 4 496.811 517.195 522.557 504.687 507.262
+L1241@P14: Fats and oils, inedible. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 06 41 496.811 517.195 522.557 504.687 507.262
+L1242@P14: Fats and oils, inedible. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 06 4101 496.811 517.195 522.557 504.687 507.262
+L1243@P14: Soybean oil, processed for inedible purposes. . . . . . . . . . . . . . . . . . . . . . . . . . 06 410131 06/95 309.862 322.315 326.160 313.565 315.715
+L1244@P14: Crude soybean oil, degummed, made from soybeans crushed in the
+L1245@P14: same establishment. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 06 4101311 12/07 223.610 237.008 251.184 240.613 241.058
+L1246@P14: Soybean oil, all other types. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 06 4101312 12/07 157.134 159.258 150.373 145.394 147.537
+
