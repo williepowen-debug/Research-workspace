@@ -1,16 +1,18 @@
 # WALTER startup recovery — October 26 ET / October 27 UTC
 
-Updated 2026-10-27T00:45:16Z. Will-launched WALTER, OpenAI GPT-6/Codex; serving variant UNKNOWN. Session01a17ac3-4566-7932-99fb-216ed19152b0.
+Updated 2026-10-27T02:11:10Z. Follow-up to the existing Will-launched WALTER startup; session 01a17ac3-4566-7932-99fb-216ed19152b0. OpenAI GPT-6 / Codex; serving variant UNKNOWN.
 
 ## STATUS
 
-PARTIAL startup with exact execution/read/source gaps; existing duties and approvals recovered. One corrective dispatch completed, not an empty-inbox/full-lifecycle/market-clearance claim. LIGHT closeout; one full-deferred breadcrumb. Evidence: research/2026-10-26_startup-recovery/.
+PARTIAL startup with exact execution/read/source gaps; existing duties and approvals recovered. One corrective dispatch completed, not an empty-inbox/full-lifecycle/market-clearance claim. LIGHT closeout; two full-deferred breadcrumbs since the prior FULL. Evidence: research/2026-10-26_startup-recovery/.
 
 ## CHANGED
 
-SIG-W-20261027-001 corrects EART2026-4 closing August 31, not August 28; additive original banner, generated INDEX, R1 union row, route log and 2 create-only handoffs in 4d2453c1d. BOARD 1725→1726. WQ-515 10/10 selected; single closure-list packet saved to PROME. REGISTRY/header-derived NETWORK, dated US scan, FALCON owner census guard, session/continuity updated. No source packet moved or intake/bookmark marked; original 14 regular/3 DEWEY remain. Prior completion/STATUS/MEMORY/anchor preserved beside this receipt. No trade, collector, monitor, owner/helper launch or new research authority.
+SIG-W-20261027-001 corrects EART2026-4 closing August 31, not August 28; additive original banner, generated INDEX, R1 union row, route log and 2 create-only handoffs in 4d2453c1d. BOARD 1725→1726. WQ-515 10/10 selected; single closure-list packet saved to PROME. REGISTRY/header-derived NETWORK, dated US scan, FALCON owner census guard, session/continuity updated. Initial startup moved no source packet; the later ISHM packet is now consumed and filed. No intake/bookmark marks; original 14 regular / 3 DEWEY remain. Prior completion/STATUS/MEMORY/anchor preserved beside this receipt. No trade, collector, monitor, owner/helper launch or new research authority.
 
 ## RESULT
+
+ISHM follow-up: consumed its new first-session intake packet; preserved source/vintage and hardware comparability qualifications. Current WALTER October flash 56.0 versus September final 55.9 was already correct; no historical flash correction or R1 row. Five exact owner dispositions verified (3 INTEGRATE / 2 LOG) against committed processed files and board_log, not a whole-desk audit. Review: research/2026-10-26_ishm-intake-receipt/REVIEW.md. No new research, signal or market observation.
 
 Main Git pull and Research-Intake fast-forward now succeed; prior failures discharged by actual operations. X scan succeeds:32 IDs staged,3 read attempts, head00:33:16ZOctober 27,0 marked. No claim they were fully read. Intake last run October 26 20:15:39Z, diagnostic10 NEW keys; processing/marks remain gated to inbox dispositions.
 
@@ -20,7 +22,7 @@ Correction 4d2453c1d and both handoffs plus the selection packet are published, 
 
 ## GAPS
 
-- 14 regular inbox packets and 3 DEWEY returns remain pending; exact paths in research/2026-10-26_startup-recovery/pending-inbox.json. All 17 packet bodies were read this startup; none was moved or declared wholly consumed. EART's closing-date leg is resolved in SIG-W-20261027-001; the same packet's pricing/Ally deltas remain pending. MARCO migration/MIA and CRUISE cancellation corrections, OTTO source/bank-loss updates, VULCAN's eight-theme news sweep, FALCON maritime/diplomacy routing and LIQUID buyback/fund returns still require dispositions. FALCON's five confirmed old losses now lead WALTER's anchor; this is no new tanker loss or full-sweep reset. DEWEY source QA/Route-as backstops are unfinished. New external intake remains unmarked: 10 diagnostic keys and 32 staged bookmark IDs, with link/image review and exact-ID dispositions incomplete. No source failure is converted into a kill or a clean board.
+- 14 regular inbox packets and 3 DEWEY returns remain pending; exact paths in research/2026-10-26_startup-recovery/pending-inbox.json. All 17 original packet bodies were read in the initial startup; those original packets were not moved or declared wholly consumed. The later ISHM clarification is separately consumed and filed. EART's closing-date leg is resolved in SIG-W-20261027-001; the same packet's pricing/Ally deltas remain pending. MARCO migration/MIA and CRUISE cancellation corrections, OTTO source/bank-loss updates, VULCAN's eight-theme news sweep, FALCON maritime/diplomacy routing and LIQUID buyback/fund returns still require dispositions. FALCON's five confirmed old losses now lead WALTER's anchor; this is no new tanker loss or full-sweep reset. DEWEY source QA/Route-as backstops are unfinished. New external intake remains unmarked: 10 diagnostic keys and 32 staged bookmark IDs, with link/image review and exact-ID dispositions incomplete. No source failure is converted into a kill or a clean board.
 
 - General lifecycle adjudication remains overdue: last complete October 10. Candidate generator returned359/1725, not reviewed tags; cadence not reset. Retirement candidate inventory reviewed but complete per-file live-reference/pending-event proof not established; no archive/retirement clearance. Existing older corrections/consumer adjudications remain open below.
 - READS perimeter attestation stale; full-run exact result in checks.json. No silent PROME-owned attestation edit. Boot basis/current bytes versus actual execution are separate. Full cross-owner first40-line/filter context, broad RED catalyst extraction, current HANS daily legs/HANS-T-12 and official Brent qualifying-settle counts (latest matched FT-11 window now checked; older windows not re-adjudicated) remain incomplete/UNINSTRUMENTED; partial eligible coverage cannot clear registries. ORCH_INFLIGHT read whole; native discovery reviewed only to available partial coverage; no whole-fleet absence/DARK claim.
@@ -69,7 +71,7 @@ LIGHT startup continuity; boot PARTIAL, no current market or recipient-consumpti
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-27T00:48:48Z",
+  "as_of": "2026-10-27T02:11:10Z",
   "next_review": "2026-10-27",
   "publication": [
     {
@@ -97,6 +99,14 @@ LIGHT startup continuity; boot PARTIAL, no current market or recipient-consumpti
       {
         "path": "AGENTS/WALTER/research/2026-10-26_startup-recovery/publication-proof.json",
         "sha256": "7fa3306c7b3e010890ef82ab81e967701399c9420425ec125d874fc58e062236"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-26_ishm-intake-receipt/REVIEW.md",
+        "sha256": "7f6fa96061de151633b08c67800a4ef76e195a263e6fec6a27f95f9bd0eee0e0"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-26_ishm-intake-receipt/source-and-consumption.json",
+        "sha256": "fabd30554017df519fe44b493b81111512b52c2dcf691fb84454ba4d16045c3c"
       }
     ]
   },
@@ -109,8 +119,8 @@ LIGHT startup continuity; boot PARTIAL, no current market or recipient-consumpti
   },
   "manual_duties": {
     "11": "One correction/two handoffs, R1 same commit; no multi-item triage or new manifest.",
-    "Tier1": "Affected US observations/census guard refreshed; full-deferred breadcrumb.",
-    "15": "Prior duties/approvals retained; WQ-515 selection discharged, grading remains.",
+    "Tier1": "ISHM source/vintage guard applied; current numeric comparison unchanged. One newly arrived source packet consumed, byte-preserving move and declaration. Two full-deferred breadcrumbs.",
+    "15": "ISHM explicit asks discharged; prior14regular/3DEWEY/32bookmarks and other approvals retained.",
     "16": "Correction/list published through shared sync, fresh fetch/path proof; delivery ledger reconciled 2/2. WALTER invoked no push; later continuity commit remains separate."
   },
   "root_duties": {
@@ -118,7 +128,7 @@ LIGHT startup continuity; boot PARTIAL, no current market or recipient-consumpti
     "consumer": "Date correction union targets covered via R1/two handoffs; no foreign state edited; full consumer scan remains pending.",
     "weekday": "New card checked before first commit; required closeout checker follows.",
     "memory": "Prior98-line local memory preserved; light defers narrative; no new auto-memory.",
-    "ledger": "Route/delivery/correction/sample ledgers changed in correction commit; no artificial fire rows."
+    "ledger": "No new BOARD/KILL/fire/batch row owed for one owner clarification; source consume declaration and affected registry row updated."
   }
 }
 END_CLOSEOUT_RECEIPT -->

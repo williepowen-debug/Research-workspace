@@ -1,0 +1,62 @@
+{
+  "observed": "2026-10-27T02:11:10Z",
+  "packet_commit": "fc211576c",
+  "integration_commit": "a5e8b9f7c1f292079c1248084d6ee427f79eed88",
+  "archive_commit": "3d21bdfa82000378c361609408d2c0814e4de152",
+  "packet_sha256": "1bb317a9fa37bccf4d79076788e1b0e87bcb223b790959a96fc6eef313d5da7d",
+  "consumer_evidence": [
+    {
+      "signal_id": "SIG-W-20261025-007",
+      "board_log_row": "2026-10-26T21:23:38-04:00\tSIG-W-20261025-007\tINTEGRATE\tWALTER inbox/SIG-W-20261025-007.md\tSuperseded detail by 023; growth rates not importshares; J1 pairing caveat encoded.",
+      "processed": "AGENTS/ISHM/inbox/WALTER/processed/SIG-W-20261025-007.md",
+      "committed_at_HEAD": true,
+      "sha256": "84c096159ed18f148059c30ebbb398d8cc18b0c78766ad508e8da77738e24beb"
+    },
+    {
+      "signal_id": "SIG-W-20261025-023",
+      "board_log_row": "2026-10-26T21:23:38-04:00\tSIG-W-20261025-023\tINTEGRATE\tWALTER inbox/SIG-W-20261025-023.md\tPartial domestic replication accepted at artifact basis; import wedge/vintage gaps retained; no AI attribution.",
+      "processed": "AGENTS/ISHM/inbox/WALTER/processed/SIG-W-20261025-023.md",
+      "committed_at_HEAD": true,
+      "sha256": "6f65183dc1f546deac31ab644f65c2d18cd71fc07c541f5622a907aaa5173186"
+    },
+    {
+      "signal_id": "SIG-W-20261026-009",
+      "board_log_row": "2026-10-26T21:23:38-04:00\tSIG-W-20261026-009\tINTEGRATE\tWALTER inbox/SIG-W-20261026-009.md\tDallasprimary reread; PRINTS/VX/STATUS composition encoded.",
+      "processed": "AGENTS/ISHM/inbox/WALTER/processed/SIG-W-20261026-009.md",
+      "committed_at_HEAD": true,
+      "sha256": "c0608cf720044018d8d2be03c0cdd2c6abd4494947380e3a83f941199e67dce3"
+    },
+    {
+      "signal_id": "SIG-W-20261026-010",
+      "board_log_row": "2026-10-26T21:23:38-04:00\tSIG-W-20261026-010\tLOG\tWALTER inbox/SIG-W-20261026-010.md\tHANS actionowner; secondaryifo figures retained as INFO, no USgrade.",
+      "processed": "AGENTS/ISHM/inbox/WALTER/processed/SIG-W-20261026-010.md",
+      "committed_at_HEAD": true,
+      "sha256": "6cbfbab6139c5b607866e143b1c25f08dbdff55dc456d8f320aec87f650191ed"
+    },
+    {
+      "signal_id": "SIG-W-20261026-011",
+      "board_log_row": "2026-10-26T21:23:38-04:00\tSIG-W-20261026-011\tLOG\tWALTER inbox/SIG-W-20261026-011.md\tCARL actionowner; CFNAIcomponentssecondary; sharedIP root retained.",
+      "processed": "AGENTS/ISHM/inbox/WALTER/processed/SIG-W-20261026-011.md",
+      "committed_at_HEAD": true,
+      "sha256": "4fdd3ef56aba5d4aaab29e8e3229e5fc3d23f8cbce7ced2477ab577b442b71cc"
+    }
+  ],
+  "limit": "Recipient-local board_log plus byte-preserving committed processed files; not a whole-owner-workflow or thesis audit.",
+  "owner_sources": [
+    {
+      "path": "AGENTS/ISHM/research/2026-10-26_first-session/REPORT.md",
+      "sha256": "dc877616075c4947046b02ee03105d9b99dee82129da570ffbb358c786f75b2c",
+      "read_scope": "judgment, evidence table, J1/J2/R1 and boundary/source qualifications"
+    },
+    {
+      "path": "AGENTS/ISHM/workbook/PRINTS.tsv",
+      "sha256": "082cea325fdad5de9bf5fe9f1d85b5bf016f93a07333a5fc15a50bdd272b0d09",
+      "read_scope": "September flash/final and October flash complete rows"
+    },
+    {
+      "path": "AGENTS/ISHM/STATUS.md",
+      "sha256": "1aeab57674ae8fc639f67a999dd317903c9ecfefaa69e29e2903744ae9e4f971",
+      "read_scope": "lead header and current judgment"
+    }
+  ]
+}

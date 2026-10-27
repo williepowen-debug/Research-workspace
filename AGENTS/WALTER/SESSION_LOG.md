@@ -1,3 +1,7 @@
+## 2026-10-27T02:11:10Z — LIGHT closeout — ISHM intake; full deferred
+
+Consumed one newly arrived ISHM packet with exact byte-preserving move and declaration. Applied source/vintage guard; current September final comparison already correct. Verified five owner board_log/processed dispositions (3 INTEGRATE, 2 LOG). No BOARD/R1/market/threshold change, no new intake marks. Original 14 regular / 3 DEWEY / 32 bookmarks remain pending. Second full-deferred breadcrumb after the prior FULL. Evidence: research/2026-10-26_ishm-intake-receipt/.
+
 ## 2026-10-27T00:45:16Z — LIGHT closeout — startup recovery; full deferred
 
 One SEC-backed correction, BOARD1725→1726;2handoffs, WQ51510/10selected/ungraded. Main/Intake/X access recovered. No source packets moved or marks. Boot PARTIAL:14regular/3DEWEY/32bookmarks, READS and source/context/lifecycle duties. Source/approval detail and manual evidence: research/2026-10-26_startup-recovery/. Prior FULL narrative remains history; current duties only LAST_COMPLETION.md. This is one full-deferred breadcrumb; no earlier debt silently cleared.

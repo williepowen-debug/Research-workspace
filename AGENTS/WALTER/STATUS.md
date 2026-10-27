@@ -1,5 +1,5 @@
 # WALTER STATUS
-**Updated:** 2026-10-27T00:45:16Z — startup recovery and one correction; BOARD1726. Boot PARTIAL; duties/approvals/evidence in LAST_COMPLETION.md.
+**Updated:** 2026-10-27T02:11:10Z — ISHM intake qualification integrated; no new market observation or signal. BOARD 1726; boot PARTIAL. Current duties: LAST_COMPLETION.md.
 
 ## BOTTOM LINE
 
@@ -46,6 +46,7 @@ Signal/news routing and receiving-layer readiness. Domain agents own evidence, g
 
 ## STATE POINTERS
 
+- ISHM final/flash source qualification and five exact recipient dispositions: `research/2026-10-26_ishm-intake-receipt/REVIEW.md`; current comparison unchanged, hardware vintage limits retained.
 - Sole current obligation/approval/decision list and publication receipt: `LAST_COMPLETION.md`.
 - WQ-508 harness-audit lines applied 2026-10-23 (E04, U-W1, U-W2, U-W3, U-W5; Will confirmed in the WALTER terminal 10:5x ET); packet `inbox/2026-10-23_from-DAEDALUS_WQ508-harness-audit-lines.md`.
 - Current closeout evidence: `research/2026-10-26_final/`; research: `research/2026-10-26_morning/` and `research/2026-10-26_unwind-search/`; prior partial boot preserved at `research/2026-10-16_codex-boot/BOOT-RECEIPT.md`.
@@ -56,7 +57,7 @@ Signal/news routing and receiving-layer readiness. Domain agents own evidence, g
 
 ## NETWORK AWARENESS
 
-Registry refreshed from owner lead headers at2026-10-27T00:45:16Z;49mirror rows retained. PROME 2026-10-25, BROCK 2026-10-25, BRENT 2026-10-26, LIQUID 2026-10-26, HAWK 2026-10-25, NEXUS 2026-10-23, WALTER 2026-10-27, VIOLET 2026-10-19, TERRY 2026-10-25, VULCAN 2026-10-26, MIDAS 2026-10-25, FALCON 2026-10-26. These are documentation dates, not market freshness or liveness. Native discovery is partial; unseen owners remain UNKNOWN. One correction/two handoffs written this startup; BOARD1726. No cluster-mediated peak in this startup. Current duties/publication only in LAST_COMPLETION.md.
+Affected ISHM mirror refreshed before this summary at 2026-10-27T02:11:10Z; 49 rows retained. ISHM first owner-session header is dated October 26; its five named WALTER dispositions are evidenced, not a whole-fleet freshness claim. Other header dates retain the prior startup review; native cross-runtime coverage remains partial and unseen owners UNKNOWN. BOARD 1726; no new dispatch in this follow-up. Duties and publication evidence: LAST_COMPLETION.md.
 
 ## Active LIAISON channels
 
