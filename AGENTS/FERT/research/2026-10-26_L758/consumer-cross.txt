@@ -1,0 +1,61 @@
+FROZEN 2026-10-26 — point-in-time diagnostic, not maintained; do not cite matches as current claims.
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/FERT/   (processed/ + archive/ excluded everywhere — historical by design)
+
+  ── ERS next release · superseded 2026-11-25 → current 2026-11-24
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (15)
+        AGENTS/RED/STATUS.md:45  [2026-11-25]
+           **Canonical: `registry/FALSIFICATION_TRIGGERS.tsv` (12 rows; columns per `workbook/SCHEMA.tsv`, never counted in prose).** `boot.py` evaluat
+        AGENTS/HENRY/domain/ECON_CALENDAR.md:7  [2026-11-25]
+           **Window verified:** 2026-10-22 → 2026-11-25, rebuilt 2026-10-21 ~21:10 ET at the agency calendars (BLS October and November 2026 schedule l
+        AGENTS/RED/reports/2026-10-21_self-sweep.md:32  [2026-11-25]
+           | 20 | **FT-10 outcome watch:** VIXCLS 19.99 [10/16] missed the ≥20 outcome line by 0.01. The row stays UNRESOLVED to ~11/25. Nothing is bro
+        AGENTS/RED/registry/TRIGGER_OUTCOMES.tsv:14  [2026-11-25]
+           RED-FT-10	2026-10-14	COMMITTED (spec 2026-08-27)	~2026-11-25 (30 FRED VIXCLS obs)	VIXCLS at fire: 10/14 obs pending on FRED (^VIX 16.87 clos
+        AGENTS/BROCK/research/2026-10-09_GATE-BRK-OTIC_draft-letter.md:49  [2026-11-25]
+           | Q4-2026 offer (SC TO-I) | 11/26/25 · 2/27/26 · 5/26/26 · 8/26/26; issuer: next window "expected in December 2026" | ~Wed 2026-11-25 – earl
+        AGENTS/DAEDALUS/upgrades/PRODUCTION_REVIEW_2026-09-17_READER_R4_theaters_commod.md:250  [2026-11-25]
+           - **PATTERNS candidate:** *A negative-existence guard needs a window, not a floor — a floor alone lets a dark desk cure the guard after the 
+        AGENTS/DAEDALUS/upgrades/PRODUCTION_REVIEW_2026-09-17_READER_R4_theaters_commod.md:408  [2026-11-25]
+           | **FERT-12** | **YES** — "DTN retail MAP… **does NOT print above $975/ton in ANY** weekly article published 2026-09-09 → 2026-11-25" | **YE
+        AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/prome_class10_sample.txt:95  [2026-11-25]
+           514	2026-11-25	FDIC Q3-2026 QUARTERLY BANKING PROFILE — first QBP carrying the Nano Banc failure (the largest of six 2026 failures, $736M; f
+        AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/class10_raw.tsv:35  [2026-11-25]
+           AGENTS/RED/registry/TRIGGER_OUTCOMES.tsv:14	RED-FT-10	2026-10-14	COMMITTED (spec 2026-08-27)	~2026-11-25 (30 FRED VIXCLS obs)	VIXCLS at fire
+        AGENTS/CREED/workbook/KB.tsv:27  [2026-11-25]
+           KB-CREED-022	2026-08-27	BANK_TRANSMISSION	US banks, CRE asset quality (FDIC Q2-2026 QBP)	FDIC Q2-2026 QBP (pub 2026-08-25) shows bank CRE as
+        AGENTS/CREED/workbook/KB.tsv:28  [2026-11-25]
+           KB-CREED-023	2026-08-27	BANK_TRANSMISSION	US banks, CRE recognition composition by asset-size class (FDIC Q2-2026)	*** THE HEADLINE IMPROVEM
+        AGENTS/CREED/workbook/KB.tsv:29  [2026-11-25]
+           KB-CREED-024	2026-08-27	INSTRUMENT_AUDIT	VX-CREED-4.01 / CREED-T-03 registered baseline	*** THE 3.40% BASELINE ON THIS DESK'S MOST DECISION-
+        AGENTS/CREED/workbook/KB.tsv:31  [2026-11-25]
+           KB-CREED-026	2026-08-27	INSTRUMENT_AUDIT	The FDIC non-owner-occupied CRE PDNA series (>$250B) -- it EXISTS, and it is published EPISODICALLY
+        PROME/plans/2026-09-27_nano-banc-failure-investigation-PLAN.md:55  [2026-11-25]
+           **D. PROME** — DOCKET rows: Fed OIG MLR (~2027-03-25, PENDING, owner REGINALD) · FDIC retained-asset disposition (undated → `on-FDIC-publish
+        PROME/reports/2026-09-27_nano-banc-failure-SYNTHESIS.md:62  [2026-11-25]
+           | DOCKET **L514** | FDIC Q3-2026 QBP — first print carrying the failure; REGINALD + CREED (`CREED-T-03`) read one print | REGINALD/CREED | ~
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (11)
+        AGENTS/SAM/docket/CATALYSTS.tsv:24  [2026-11-25]  (dated TSV row (2026-11-25) — HISTORY-ROW candidate: a time-series capture holds the value AS OF its date; a refresh would corrupt the series)
+           2026-11-25	JGB 40Y auction — descriptive only	BTC, accepted amount, cutoff yield vs the 40Y's own series	NO FIRM/SOFT grade (ruling 2026-09-
+        AGENTS/SAM/reports/2026-10-20_subagents/snapshot/CATALYSTS.tsv:23  [2026-11-25]  (dated TSV row (2026-11-25) — HISTORY-ROW candidate: a time-series capture holds the value AS OF its date; a refresh would corrupt the series)
+           2026-11-25	JGB 40Y auction — descriptive only	BTC, accepted amount, cutoff yield vs the 40Y's own series	NO FIRM/SOFT grade (ruling 2026-09-
+        AGENTS/LIQUID/workbook/GATE079_CALENDAR_EXCLUDED.tsv:13  [2026-11-25]  (dated TSV row (2026-11-25) — HISTORY-ROW candidate: a time-series capture holds the value AS OF its date; a refresh would corrupt the series)
+           2026-11-25	Wed	month-end 2026-11-30
+        AGENTS/ISHM/docket/CATALYSTS.tsv:7  [2026-11-25]  (dated TSV row (2026-10-29) — HISTORY-ROW candidate: a time-series capture holds the value AS OF its date; a refresh would corrupt the series)
+           2026-10-29	[GDP-EQUIP] BEA Q3 2026 GDP advance estimate (08:30 ET) — equipment / information-processing investment	Read data/EQUIPMENT_QUART
+        AGENTS/ISHM/docket/CATALYSTS.tsv:17  [2026-11-25]  (dated TSV row (2026-11-12) — HISTORY-ROW candidate: a time-series capture holds the value AS OF its date; a refresh would corrupt the series)
+           2026-11-12	Deere fiscal-Q 4 date check: has Deere announced its release date?	Deere IR / newsroom; aggregators estimate Wed 2026-11-25 pre-m
+        AGENTS/ISHM/docket/CATALYSTS.tsv:27  [2026-11-25]  (dated TSV row (2026-11-25) — HISTORY-ROW candidate: a time-series capture holds the value AS OF its date; a refresh would corrupt the series)
+           2026-11-25	[DGORDER] Census advance durable goods + core capex, Oct 2026 (08:30 ET)	As 10/27	J1 leg 1	P1	ISHM/VULCAN/HENRY	census.gov M3 rel
+        AGENTS/CATO/runs/2026-10-23_l628-result/ledgers/ISHM.tsv:18  [2026-11-25]  (dated TSV row (2026-11-25) — HISTORY-ROW candidate: a time-series capture holds the value AS OF its date; a refresh would corrupt the series)
+           2026-11-25	[DGORDER] Census advance durable goods + core capex, Oct 2026 (08:30 ET)	As 10/27	J1 leg 1	P1	ISHM/VULCAN/HENRY	census.gov M3 rel
+        AGENTS/CATO/runs/2026-10-23_l628-result/ledgers/ISHM.tsv:35  [2026-11-25]  (dated TSV row (2026-10-29) — HISTORY-ROW candidate: a time-series capture holds the value AS OF its date; a refresh would corrupt the series)
+           2026-10-29	[GDP-EQUIP] BEA Q3 2026 GDP advance estimate (08:30 ET) — equipment / information-processing investment	Nonresidential equipment 
+        … +3 more 🟠 hit(s) on [2026-11-25] across 7 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+
+  🔴 15 stale consumer reference(s). Send each owner a packet with the refreshed value — do NOT edit their files.
+==================================================================
+

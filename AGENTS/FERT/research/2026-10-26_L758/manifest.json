@@ -1,0 +1,79 @@
+[
+  {
+    "name": "overview",
+    "url": "https://www.ers.usda.gov/data-products/food-price-outlook",
+    "final_url": "https://www.ers.usda.gov/data-products/food-price-outlook",
+    "status": 200,
+    "bytes": 48605,
+    "retrieved_at": "2026-10-27T02:33:08.219244+00:00",
+    "sha256": "cd6977ee16b1dabcd7a1ff6e9cc8570c0521066aebbebeab5430fba98f2e9625"
+  },
+  {
+    "name": "summary",
+    "url": "https://www.ers.usda.gov/data-products/food-price-outlook/summary-findings",
+    "final_url": "https://www.ers.usda.gov/data-products/food-price-outlook/summary-findings",
+    "status": 200,
+    "bytes": 51419,
+    "retrieved_at": "2026-10-27T02:33:08.255427+00:00",
+    "sha256": "b220f56b771429f4db39c4817640510f109a0ac7ef48ae48e4f0d34bd55b2e4a"
+  },
+  {
+    "name": "documentation",
+    "url": "https://www.ers.usda.gov/data-products/food-price-outlook/documentation",
+    "final_url": "https://www.ers.usda.gov/data-products/food-price-outlook/documentation",
+    "status": 200,
+    "bytes": 49622,
+    "retrieved_at": "2026-10-27T02:33:08.236683+00:00",
+    "sha256": "03f6c9e4f4e6231e26cbbb32205efc9f6c3df373598565441199f459ead87773"
+  },
+  {
+    "name": "revision-history",
+    "url": "https://www.ers.usda.gov/data-products/food-price-outlook/update-and-revision-history",
+    "final_url": "https://www.ers.usda.gov/data-products/food-price-outlook/update-and-revision-history",
+    "status": 200,
+    "bytes": 41567,
+    "retrieved_at": "2026-10-27T02:33:08.249141+00:00",
+    "sha256": "2f56b4cbb131c1031a4808ec971c3d02debddc6d541e35f0ff65d832bb0f333a"
+  },
+  {
+    "name": "usda-schedule",
+    "url": "https://www.usda.gov/about-usda/reports-and-data/agency-reports",
+    "final_url": "https://www.usda.gov/about-usda/reports-and-data/agency-reports",
+    "status": 200,
+    "bytes": 152610,
+    "retrieved_at": "2026-10-27T02:33:08.374581+00:00",
+    "sha256": "fb1977e2c7901c3c14a52a1df220967f0212c507125a52f3e78f7e24af68219f"
+  },
+  {
+    "name": "current-cpi.csv",
+    "url": "https://www.ers.usda.gov/media/6460/changes-in-consumer-price-indexes-2024-through-2027.csv?v=70575",
+    "status": 200,
+    "bytes": 33723,
+    "retrieved_at": "2026-10-27T02:33:28.742821+00:00",
+    "sha256": "6f9746634862309d4e96352c9e6f759f22d9ffd2a2fdfcb83751bedb66ab37d1"
+  },
+  {
+    "name": "history-cpi.csv",
+    "url": "https://www.ers.usda.gov/media/6464/historical-consumer-price-index-cpi-forecast-series.csv?v=71962",
+    "status": 200,
+    "bytes": 2133242,
+    "retrieved_at": "2026-10-27T02:33:29.061460+00:00",
+    "sha256": "c12f8b91d08a8f683093ad4b38108a74bb802d9eb51b94e538efa6b3e7a0c897"
+  },
+  {
+    "name": "usda-schedule-oct23.html",
+    "url": "https://www.usda.gov/about-usda/reports-and-data/agency-reports?field_publish_date_value%5Bmin%5D=2026-10-23&field_publish_date_value%5Bmax%5D=2026-10-23",
+    "status": 200,
+    "bytes": 145951,
+    "retrieved_at": "2026-10-27T02:33:53.714687+00:00",
+    "sha256": "0a8d9adcce3374bb9c09e159583c71cba39275df49e065728e3204b07eb172a2"
+  },
+  {
+    "name": "usda-schedule-oct19-26.html",
+    "url": "https://www.usda.gov/about-usda/reports-and-data/agency-reports?field_publish_date_value%5Bmin%5D=2026-10-19&field_publish_date_value%5Bmax%5D=2026-10-26",
+    "status": 200,
+    "bytes": 154348,
+    "retrieved_at": "2026-10-27T02:34:19.681612+00:00",
+    "sha256": "2f189bbd6e68cf72bab1f0306bd6ebcc440569e4e0b38c741ec0c32402ad9f3f"
+  }
+]

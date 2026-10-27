@@ -1,0 +1,178 @@
+Food Price Outlook | Economic Research Service
+Skip to main content
+Skip to main content
+An official website of the United States government
+Here’s how you know
+Here’s how you know
+Official websites use .gov
+A
+.gov
+website belongs to an official government organization in the United States.
+Secure .gov websites use HTTPS
+A
+lock
+(
+Lock
+Locked padlock icon
+) or
+https://
+means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.
+Economic Research Service
+U.S. DEPARTMENT OF AGRICULTURE
+Menu
+Topics
+Data
+Access the Data
+Access and analyze data sets, maps, charts and graphs.
+Browse All Data
+Data by Type
+Access the Data
+Charts
+Downloadable Data Files
+Queryable Data Applications
+Maps
+Data by Topic
+Explore the Data Repository
+Animal Products
+Crops
+Farm Bill
+Farm Economy
+Farm Practices & Management
+Food & Nutrition Assistance
+Food Choices & Health
+Food Markets & Prices
+Food Safety
+International Markets & U.S. Trade
+Natural Resources & Environment
+Rural Economy & Population
+Analysis
+Understand the Research
+Get insights and objective analysis from experts in the field.
+Browse All Analysis
+Research Reports
+Published Papers from ERS
+Outlook Reports
+Agricultural Outlooks and Projections
+Amber Waves
+The Economics of Food, Farming, Natural Resources, and Rural Amer…
+Charts of Note
+Fast facts on U.S. agriculture
+Newsroom
+Newsroom
+See what's new and what's trending from ERS.
+Visit the Newsroom
+Events
+Trending Topics
+Contact ERS Press Office
+Subject Specialists
+Amber Waves
+Calendar
+About
+Careers
+Contact Us
+Search
+Breadcrumb
+Home
+Data Products
+Food Price Outlook
+Food Price Outlook
+Updated:
+10/23/2026
+Contact:
+Hayden Stewart
+,
+Diansheng Dong
+or
+Wilson Sinclair
+In this section
+Food Price Outlook
+Summary Findings
+Documentation
+Update and Revision History
+Food Price Environment: Interactive Visualization
+The ERS Food Price Outlook (FPO) provides data on food prices and forecasts annual food price changes up to 18 months in the future. On a monthly basis, ERS forecasts the annual percentage change in food prices for the current year and, beginning in July each year, for the following year. Forecasts are based on the most recent Bureau of Labor Statistics (BLS) Consumer Price Index (CPI) and Producer Price Index (PPI) data available at the time of release.
+The all-items CPI measures the average change over time in prices paid by urban consumers for a representative market basket of consumer goods and services. The CPI for food is the component of the all-items CPI measuring the changes in retail food prices. ERS examines changes in the CPI for food and constructs forecasts of the CPI for food. Changes in the structures of food and agricultural economies add complexity to forecasting the CPI for food. However, these forecasts provide important signals to farmers, processors, wholesalers, consumers, and policymakers.
+ERS also analyzes and forecasts the PPI for farm-level agricultural and wholesale food markets. Like the CPI, the PPI measures price changes over time; however, instead of changes in retail prices, the PPI measures the average change in prices paid to domestic producers for their output. The PPI represents data for nearly every industry in the goods-producing sector of the economy. Changes in farm-level and wholesale-level food PPIs are of particular interest in forecasting food CPIs.
+ERS typically releases its monthly CPI and PPI forecast updates on the 25th of the month; however, if the 25th falls on a weekend or a holiday, the monthly update will be published earlier. In addition to these monthly updates, ERS also maintains a record of its previous forecasts. Previous CPI and PPI forecasts are available in the “Historical Data” file.
+ERS periodically updates and improves FPO forecasting methods. In 2023, ERS replaced a methodology in use since 2011 with a new methodology. Tables in the “Consumer Price Index,” “Producer Price Index,” and “Historical Data” files—as well as the Summary Findings—have been constructed based on the revised methodology since 2023.
+For more information on FPO forecasting methods as well as differences between previous and current methods, see the 2022 ERS report,
+Time-Series Methods for Forecasting and Modeling Uncertainty in the Food Price Outlook
+.
+For years prior to 2023, the FPO historical forecast series shows the point estimates and forecast intervals that would have been produced in each month based on the data available at the time and the current methods.
+Monthly forecasts based on the previous methodology are also available as originally published in the “Archived Data” file. Archived CPI forecasts are available going back to 2003 and archived PPI forecasts are available going back to 2014. Users are reminded that the Historical Data series and the archived forecasts are not comparable due to changes in forecasting methods.
+Watch an overview
+of the data and analysis available from the Food Price Outlook data product, including highlights of its uses, and a demonstration of how to find the data.
+File Downloads
+Consumer Price Index
+Changes in Consumer Price Indexes, 2024 through 2027
+Download (XLSX, 13.04 KB)
+|
+Download (CSV, 32.93 KB)
+Last Updated 10/23/2026
+Next Update 11/24/2026
+Annual percent changes in selected Consumer Price Indexes, 1974 through 2025
+Download (XLSX, 19.48 KB)
+|
+Download (CSV, 32.57 KB)
+Last Updated 5/22/2026
+Next Update 5/25/2027
+Producer Price Index
+Changes in Producer Price Indexes, 2024 through 2027
+Download (XLSX, 12.04 KB)
+|
+Download (CSV, 15.42 KB)
+Last Updated 10/23/2026
+Next Update 11/24/2026
+Annual percent changes in selected Producer Price Indexes, 1974 through 2025
+Download (XLSX, 18.02 KB)
+|
+Download (CSV, 27.49 KB)
+Last Updated 5/22/2026
+Next Update 5/25/2027
+Historical Data
+Historical Consumer Price Index (CPI) forecast series
+Download (XLSX, 289.99 KB)
+|
+Download (CSV, 2.03 MB)
+Last Updated 10/23/2026
+Next Update 11/24/2026
+Historical Producer Price Index (PPI) forecast series
+Download (XLSX, 238.09 KB)
+|
+Download (CSV, 1.25 MB)
+Last Updated 10/23/2026
+Next Update 11/24/2026
+Archived Data
+Consumer Price Index (CPI) forecasts, previously published estimates
+Download (XLSX, 90.29 KB)
+|
+Download (CSV, 1020.06 KB)
+Last Updated 9/25/2023
+Producer Price Index (PPI) forecasts, previously published estimates
+Download (XLSX, 47.09 KB)
+|
+Download (CSV, 308.99 KB)
+Last Updated 9/25/2023
+We’d welcome your feedback!
+Would you be willing to answer a few quick questions about your experience?
+Yes, I’ll give feedback
+Return to top
+ERS Links
+Accessibility
+Careers
+Contact Us
+Help
+Information Quality
+Privacy Policy
+Site Map
+USDA Links
+FOIA
+Non-Discrimination Statement
+Plain Writing
+Report Fraud
+USDA.gov
+USA.gov
+White House.gov
+ERS E-newsletters
+Subscribe
+Economic Research Service

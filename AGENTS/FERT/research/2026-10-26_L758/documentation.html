@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+<noscript><style>form.antibot > * { display: none !important; } form.antibot noscript { display: block !important; }</style>
+</noscript><meta name="description" content="Documentation and methodological issues for ERS&#039;s food price forecasts. ERS regularly updates food price forecasts for the short-term period." />
+<link rel="canonical" href="http://www.ers.usda.gov/data-products/food-price-outlook/documentation" />
+<meta name="Generator" content="Drupal 11 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="google-site-verification" content="gWMZ-j8KBKzSJytO2xaxEcmizd4UT6Ng04GlyACWD-c" />
+<link rel="icon" href="/themes/custom/uswds_ers/favicon.ico" type="image/vnd.microsoft.icon" />
+
+  <title>Food Price Outlook - Documentation | Economic Research Service</title>
+  <link rel="stylesheet" media="all" href="/core/modules/system/css/components/align.module.css?tnb98u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/container-inline.module.css?tnb98u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/clearfix.module.css?tnb98u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/hidden.module.css?tnb98u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/js.module.css?tnb98u" />
+<link rel="stylesheet" media="all" href="/themes/custom/uswds_ers/package/dist/css/uswds.css?tnb98u" />
+<link rel="stylesheet" media="all" href="/themes/custom/uswds_ers/assets/stylesheets/custom.css?tnb98u" />
+
+  <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/3892","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"dataLayer":{"page":{"nid":"3892","chartId":"","pubId":"","title":"Food Price Outlook - Documentation","date":"2026-08-25","type":"Basic Page","series":"","authors":["Hayden Stewart","Diansheng Dong","Wilson Sinclair"],"division":"FED","breadcrumbs":["Data Products","Food Price Outlook","Documentation"],"pageName":"","siteSectionSecondLevel":"","siteSectionThirdLevel":"","siteSectionFourthLevel":""}},"csp":{"nonce":"uORRYEysdZmG8YmNUFaT-Q"},"user":{"uid":0,"permissionsHash":"6098fea00c5b73e7308eddae5d9abb80b7227c6555765be781c5aa4f4d699378"}}</script>
+<script src="/core/assets/vendor/once/once.min.js?v=1.0.1"></script>
+<script src="/core/misc/drupalSettingsLoader.js?v=11.4.11"></script>
+<script src="/core/misc/drupal.js?v=11.4.11"></script>
+<script src="/core/misc/drupal.init.js?v=11.4.11"></script>
+<script src="/modules/custom/ers_blocks/js/AppMeasurement.js?v=2.26.0.3"></script>
+<script src="/modules/custom/ers_blocks/js/VisitorAPI.js?v=5.5.0.1"></script>
+<script src="/modules/custom/ers_blocks/js/adobeAnalyticsUsdaErs.js?v=1.0.2"></script>
+<script src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=USDA&amp;subagency=ERS" async id="_fed_an_ua_tag"></script>
+<script src="/modules/custom/ers_blocks/js/google_analytics_ers.js?v=1.0.1"></script>
+
+    <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-MK4SCKB6');</script>
+  <!-- End Google Tag Manager -->
+  </head>
+<body>
+<a href="#main-content" class="usa-sr-only focusable">
+  Skip to main content
+</a>
+
+  <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+<!-- Skip link -->
+<a class="usa-skipnav" href="#main-content">Skip to main content</a>
+
+<!-- Official Website Banner -->
+<section class="usa-banner" aria-label="Official website of the United States government">
+	<div class="usa-accordion">
+		<header class="usa-banner__header">
+			<div class="usa-banner__inner">
+				<div class="grid-col-auto">
+					<img aria-hidden="true" class="usa-banner__header-flag" src="/themes/custom/uswds_ers/package/dist/img//us_flag_small.png" alt="" />
+				</div>
+				<div class="grid-col-fill tablet:grid-col-auto" aria-hidden="true">
+					<p class="usa-banner__header-text"> An official website of the United States government </p>
+					<p class="usa-banner__header-action">Here’s how you know</p>
+				</div>
+				<button type="button" class="usa-accordion__button usa-banner__button" aria-expanded="false" aria-controls="gov-banner-default-default">
+					<span class="usa-banner__button-text">Here’s how you know</span>
+				</button>
+			</div>
+		</header>
+		<div class="usa-banner__content usa-accordion__content" id="gov-banner-default-default">
+			<div class="grid-row grid-gap-lg">
+				<div class="usa-banner__guidance tablet:grid-col-6">
+					<img class="usa-banner__icon usa-media-block__img" src="/themes/custom/uswds_ers/package/dist/img//icon-dot-gov.svg" role="img" alt="" aria-hidden="true" />
+					<div class="usa-media-block__body">
+						<p>
+							<strong>Official websites use .gov</strong>
+							<br />A <strong>.gov</strong> website belongs to an official government organization in the United States.
+						</p>
+					</div>
+				</div>
+				<div class="usa-banner__guidance tablet:grid-col-6">
+					<img class="usa-banner__icon usa-media-block__img" src="/themes/custom/uswds_ers/package/dist/img//icon-https.svg" role="img" alt="" aria-hidden="true" />
+					<div class="usa-media-block__body">
+						<p>
+							<strong>Secure .gov websites use HTTPS</strong>
+							<br />A <strong>lock</strong> ( <span class="icon-lock">
+								<svg xmlns="http://www.w3.org/2000/svg" width="52" height="64" viewBox="0 0 52 64" class="usa-banner__lock-image" role="img" aria-labelledby="banner-lock-description-default" focusable="false">
+									<title id="banner-lock-title-default">Lock</title>
+									<desc id="banner-lock-description-default">Locked padlock icon</desc>
+									<path fill="#000000" fill-rule="evenodd" d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z" />
+								</svg>
+							</span>) or <strong>https://</strong> means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Site alert -->
+	<section id="site-alert">
+		
+	</section>
+
+<!-- Overlay -->
+<div class="usa-overlay"></div>
+
+<!-- Header & Navigation -->	
+<header class="usa-header usa-header--extended">
+	<div class="usa-navbar">
+		<div class="usa-logo" id="logo">
+			<a href="/">
+				<div class="grid-row flex-align-center grid-gap-1 desktop:grid-gap-2">
+					<div class="grid-col-auto">
+						<img class="width-6 tablet:width-7 desktop:width-8" src="/themes/custom/uswds_ers/logo.svg" alt="U.S. Department of Agriculture logo">
+					</div>
+					<div class="grid-col-fill">
+						<em class="usa-logo__text margin-bottom-05 font-sans-sm tablet:font-sans-md desktop:font-sans-lg">Economic Research Service</em>
+						<span class="font-sans-3xs tablet:font-sans-2xs desktop:font-sans-xs display-block">U.S. DEPARTMENT OF AGRICULTURE</span>
+					</div>
+				</div>
+			</a>
+		</div>
+		<button type="button" class="usa-menu-btn">Menu</button>
+	</div>
+	<nav aria-label="Primary navigation" class="usa-nav">
+		<div class="usa-nav__inner">
+			<button type="button" class="usa-nav__close">
+				<img src="/themes/custom/uswds_ers/package/dist/img//usa-icons/close.svg" role="img" alt="">
+			</button>
+			<ul class="usa-nav__primary usa-accordion">
+									<li class="usa-nav__primary-item">
+						<a href="/topics" class="usa-nav__link simple-link">Topics</a>
+					</li>
+																					<li class="usa-nav__primary-item">
+						<button type="button" class="usa-accordion__button usa-nav__link" aria-expanded="false" aria-controls="extended-mega-nav-section-2">
+							<span>Data</span>
+						</button>
+						<div id="extended-mega-nav-section-2" class="usa-nav__submenu usa-megamenu" hidden="">
+							<div class="grid-row grid-gap-4">
+								<div class="usa-col">
+									  <div>
+    
+
+<div  id="block-navdatacolumn1" class="block block-block-content block-block-content6dbf8ad9-725a-4bf7-a060-c8d76690c5b7">
+	
+						<p class="hide-mobile hide-tablet margin-top-1 margin-bottom-0 font-sans-xl text-bold text-primary-dark">Access the Data</p>
+							<p class="hide-mobile hide-tablet line-height-sans-3">Access and analyze data sets, maps, charts and graphs.</p>
+							<a href="/data-products" class="usa-button margin-top-2 desktop:margin-top-0">Browse All Data</a>
+			</div>
+  </div>
+
+								</div>
+								<div class="usa-col">
+									  <div>
+    
+
+<ul  id="block-navdatacolumn2" class="usa-nav__submenu-list block block-block-content block-block-contenta6258f45-9115-46d5-8c89-26b57c9843bd">
+	
+						<li class="usa-nav__submenu-item desktop:border-bottom">
+				<p class="desktop:margin-bottom-1 text-bold font-sans-sm">Data by Type</p>
+				<p class="hide-mobile hide-tablet margin-top-0 font-sans-3xs line-height-sans-3">Access the Data</p>
+			</li>
+																																																																																						<li class="usa-nav__submenu-item">
+					<a href="/data-products?type=charts">Charts</a>
+				</li>
+												<li class="usa-nav__submenu-item">
+					<a href="/data-products?type=downloadable-data-files">Downloadable Data Files</a>
+				</li>
+												<li class="usa-nav__submenu-item">
+					<a href="/data-products?type=queryable-data-applications">Queryable Data Applications</a>
+				</li>
+												<li class="usa-nav__submenu-item">
+					<a href="/data-products?type=maps">Maps</a>
+				</li>
+																</ul>
+  </div>
+
+								</div>
+								<div class="usa-col">
+									  <div>
+    
+
+<ul  id="block-navdatacolumn3" class="usa-nav__submenu-list block block-block-content block-block-content1f045922-8309-408f-b4be-bac727e100ee">
+	
+						<li class="usa-nav__submenu-item desktop:border-bottom">
+				<p class="desktop:margin-bottom-1 text-bold font-sans-sm">Data by Topic</p>
+				<p class="hide-mobile hide-tablet margin-top-0 font-sans-3xs line-height-sans-3">Explore the Data Repository</p>
+			</li>
+																																																																																						<li class="usa-nav__submenu-item">
+					<a href="/data-products?topic=animal-products">Animal Products</a>
+				</li>
+												<li class="usa-nav__submenu-item">
+					<a href="/data-products?topic=crops">Crops</a>
+				</li>
+												<li class="usa-nav__submenu-item">
+					<a href="/data-products?topic=farm-bill">Farm Bill</a>
+				</li>
+												<li class="usa-nav__submenu-item">
+					<a href="/data-products?topic=farm-economy">Farm Economy</a>
+				</li>
+												<li class="usa-nav__submenu-item">
+					<a href="/data-products?topic=farm-practices-management">Farm Practices &amp; Management</a>
+				</li>
+												<li class="usa-nav__submenu-item">
+					<a href="/data-products?topic=food-nutrition-assistance">Food &amp; Nutrition Assistance</a>
+				</li>
+												<li class="usa-nav__submenu-item">
+					<a href="/data-products?topic=food-choices-health">Food Choices &amp; Health</a>
+				</li>
+												<li class="usa-nav__submenu-item">
+					<a href="/data-products?topic=food-markets-prices">Food Markets &amp; Prices</a>
+				</li>
+												<li class="usa-nav__submenu-item">
+					<a href="/data-products?topic=food-safety">Food Safety</a>
+				</li>
+												<li class="usa-nav__submenu-item">
+					<a href="/data-products?topic=international-markets-us-trade">International Markets &amp; U.S. Trade</a>
+				</li>
+												<li class="usa-nav__submenu-item">
+					<a href="/data-products?topic=natural-resources-environment">Natural Resources &amp; Environment</a>
+				</li>
+												<li class="usa-nav__submenu-item">
+					<a href="/data-products?topic=rural-economy-population">Rural Economy &amp; Population</a>
+				</li>
+																</ul>
+  </div>
+
+								</div>
+								<div class="usa-col">
+									
+								</div>
+							</div>
+						</div>
+					</li>
+																	<li class="usa-nav__primary-item">
+						<button type="button" class="usa-accordion__button usa-nav__link" aria-expanded="false" aria-controls="extended-mega-nav-section-3">
+							<span>Analysis</span>
+						</button>
+						<div id="extended-mega-nav-section-3" class="usa-nav__submenu usa-megamenu" hidden="">
+							<div class="grid-row grid-gap-4">
+								<div class="usa-col">
+									  <div>
+    
+
+<div  id="block-navanalysiscolumn1" class="block block-block-content block-block-content527ff1ec-28bc-4743-9a72-47e9278baf50">
+	
+						<p class="hide-mobile hide-tablet margin-top-1 margin-bottom-0 font-sans-xl text-bold text-primary-dark">Understand the Research</p>
+							<p class="hide-mobile hide-tablet line-height-sans-3">Get insights and objective analysis from experts in the field.</p>
+							<a href="/publications" class="usa-button margin-top-2 desktop:margin-top-0">Browse All Analysis</a>
+			</div>
+  </div>
+
+								</div>
+								<div class="usa-col">
+									  <div>
+    
+
+<ul  id="block-navanalysiscolumn2" class="usa-nav__submenu-list block block-block-content block-block-content7b2f9f6c-f2fe-4753-b31b-4745e75857fd">
+	
+																																																																																													<li class="usa-nav__submenu-item desktop:border-left-05 desktop:border-primary-dark">
+					<a href="/publications?series=research-reports" class="desktop:margin-bottom-1" >
+													<span class="display-block text-bold font-sans-sm">Research Reports</span>
+																			<span class="display-block hide-mobile hide-tablet font-sans-3xs">Published Papers from ERS</span>
+											</a>
+				</li>
+																				<li class="usa-nav__submenu-item desktop:border-left-05 desktop:border-primary-dark">
+					<a href="/publications?series=outlook-reports" class="desktop:margin-bottom-1" >
+													<span class="display-block text-bold font-sans-sm">Outlook Reports</span>
+																			<span class="display-block hide-mobile hide-tablet font-sans-3xs">Agricultural Outlooks and Projections</span>
+											</a>
+				</li>
+																</ul>
+  </div>
+
+								</div>
+								<div class="usa-col">
+									  <div>
+    
+
+<ul  id="block-navanalysiscolumn3" class="usa-nav__submenu-list block block-block-content block-block-content25ac9f29-ebd7-4817-a39f-1f0ec033f7e5">
+	
+																																																																																													<li class="usa-nav__submenu-item desktop:border-left-05 desktop:border-primary-dark">
+					<a href="/amber-waves" class="desktop:margin-bottom-1" >
+													<span class="display-block text-bold font-sans-sm">Amber Waves</span>
+																			<span class="display-block hide-mobile hide-tablet font-sans-3xs">The Economics of Food, Farming, Natural Resources, and Rural Amer…</span>
+											</a>
+				</li>
+																				<li class="usa-nav__submenu-item desktop:border-left-05 desktop:border-primary-dark">
+					<a href="/data-products/charts-of-note" class="desktop:margin-bottom-1" >
+													<span class="display-block text-bold font-sans-sm">Charts of Note</span>
+																			<span class="display-block hide-mobile hide-tablet font-sans-3xs">Fast facts on U.S. agriculture</span>
+											</a>
+				</li>
+																</ul>
+  </div>
+
+								</div>
+								<div class="usa-col">
+									
+								</div>
+							</div>
+						</div>
+					</li>
+																	<li class="usa-nav__primary-item">
+						<button type="button" class="usa-accordion__button usa-nav__link" aria-expanded="false" aria-controls="extended-mega-nav-section-4">
+							<span>Newsroom</span>
+						</button>
+						<div id="extended-mega-nav-section-4" class="usa-nav__submenu usa-megamenu" hidden="">
+							<div class="grid-row grid-gap-4">
+								<div class="usa-col">
+									  <div>
+    
+
+<div  id="block-navnewsroomcolumn1" class="block block-block-content block-block-contentde5cb6af-9c19-490e-8175-c54d1ed8cf62">
+	
+						<p class="hide-mobile hide-tablet margin-top-1 margin-bottom-0 font-sans-xl text-bold text-primary-dark">Newsroom</p>
+							<p class="hide-mobile hide-tablet line-height-sans-3">See what&#039;s new and what&#039;s trending from ERS.</p>
+							<a href="/newsroom" class="usa-button margin-top-2 desktop:margin-top-0">Visit the Newsroom</a>
+			</div>
+  </div>
+
+								</div>
+								<div class="usa-col">
+									  <div>
+    
+
+<ul  id="block-navnewsroomcolumn2" class="usa-nav__submenu-list block block-block-content block-block-contenta63a75ba-34d2-41c6-a3bf-b2bd78a408f3">
+	
+																																																																																													<li class="usa-nav__submenu-item desktop:border-left-05 desktop:border-primary-dark">
+					<a href="/newsroom/events" class="desktop:margin-bottom-1" >
+													<span class="display-block text-bold font-sans-sm">Events</span>
+																	</a>
+				</li>
+																				<li class="usa-nav__submenu-item desktop:border-left-05 desktop:border-primary-dark">
+					<a href="/newsroom/trending-topics" class="desktop:margin-bottom-1" >
+													<span class="display-block text-bold font-sans-sm">Trending Topics</span>
+																	</a>
+				</li>
+																				<li class="usa-nav__submenu-item desktop:border-left-05 desktop:border-primary-dark">
+					<a href="/newsroom/contact-ers-press-office" class="desktop:margin-bottom-1" >
+													<span class="display-block text-bold font-sans-sm">Contact ERS Press Office</span>
+																	</a>
+				</li>
+																</ul>
+  </div>
+
+								</div>
+								<div class="usa-col">
+									  <div>
+    
+
+<ul  id="block-navnewsroomcolumn3" class="usa-nav__submenu-list block block-block-content block-block-content13c6d10a-517b-44e4-8ddf-b1ad696370f2">
+	
+																																																																																													<li class="usa-nav__submenu-item desktop:border-left-05 desktop:border-primary-dark">
+					<a href="/subject-specialists" class="desktop:margin-bottom-1" >
+													<span class="display-block text-bold font-sans-sm">Subject Specialists</span>
+																	</a>
+				</li>
+																</ul>
+  </div>
+
+								</div>
+								<div class="usa-col">
+									
+								</div>
+							</div>
+						</div>
+					</li>
+													<li class="usa-nav__primary-item">
+						<a href="/amber-waves" class="usa-nav__link simple-link">Amber Waves</a>
+					</li>
+							</ul>
+			<div class="usa-nav__secondary">
+				  <div>
+    
+
+<ul  id="block-navsecondarylinks" class="usa-nav__secondary-links block block-block-content block-block-content3edf4787-d591-4248-a272-95444cfb5711">
+	
+																																																																																																																								<li class="usa-nav__secondary-item">
+						<a href="/calendar">Calendar</a>
+					</li>
+																<li class="usa-nav__secondary-item">
+						<a href="/about-ers">About</a>
+					</li>
+																<li class="usa-nav__secondary-item">
+						<a href="/about-ers/careers-at-ers">Careers</a>
+					</li>
+																<li class="usa-nav__secondary-item">
+						<a href="/contact-us">Contact Us</a>
+					</li>
+																								</ul>
+  </div>
+
+				<section aria-label="Search component">
+					<form class="usa-search usa-search--small " role="search" method="GET" action="https://search.ers.usda.gov/search">
+						<input name="affiliate" type="hidden" value="ers" aria-hidden="true">
+						<label class="usa-sr-only" for="search-field">Search</label>
+						<input class="usa-input" id="search-field" type="search" name="query">
+						<button class="usa-button" type="submit">
+							<img src="/themes/custom/uswds_ers/package/dist/img//usa-icons-bg/search--white.svg" class="usa-search__submit-icon" alt="Search">
+						</button>
+					</form>
+				</section>
+			</div>
+		</div>
+	</nav>
+</header>
+
+<!-- Main content -->
+<main id="main-content">
+
+	<!-- Highlighted -->
+						<div class="grid-container-desktop-lg">
+				<div data-drupal-messages-fallback class="hidden"></div>
+
+
+			</div>
+			
+	<!-- Help -->
+						<div class="grid-container-desktop-lg">
+				
+			</div>
+			
+	<!-- Breadcrumbs -->
+						<section id="breadcrumbs" class="grid-container-desktop-lg">
+				  <div>
+    <div id="block-uswds-ers-breadcrumbs" class="block block-system block-system-breadcrumb-block">
+  
+    
+          <nav class="usa-breadcrumb" role="navigation" aria-labelledby="system-breadcrumb">
+        <h2 id="system-breadcrumb" class="usa-sr-only">Breadcrumb</h2>
+        <ol class="usa-breadcrumb__list">
+                            <li class="usa-breadcrumb__list-item">
+                                            <a href="/" class="usa-breadcrumb__link"><span>Home</span></a>
+                                    </li>
+                            <li class="usa-breadcrumb__list-item">
+                                            <a href="/data-products" class="usa-breadcrumb__link"><span>Data Products</span></a>
+                                    </li>
+                            <li class="usa-breadcrumb__list-item">
+                                            <a href="/data-products/food-price-outlook" class="usa-breadcrumb__link"><span>Food Price Outlook</span></a>
+                                    </li>
+                            <li class="usa-breadcrumb__list-item">
+                                            <span>Documentation</span>
+                                    </li>
+                    </ol>
+    </nav>
+
+  </div>
+
+  </div>
+
+			</section>
+			
+	<!-- Hero full width -->
+			<div id="hero">
+			  <div>
+    
+
+<div  id="block-hero-default" class="padding-y-5 margin-bottom-4 bg-primary-darker text-white block block-ers-blocks block-hero-default">
+	
+			<div class="grid-container-desktop-lg">
+			<!-- h1 -->
+			<h1 class="desktop:font-heading-2xl section-heading-gold margin-top-0">Food Price Outlook - Documentation</h1>
+
+			<!-- Page Info -->
+			<ul id="pageInfo" class="usa-list usa-list--unstyled padding-top-1" aria-label="More information">
+				<li class="tablet:display-inline margin-right-2"><strong>Updated:</strong> 8/25/2026</li>
+				<li class="tablet:display-inline"><strong>Contact:</strong>
+																																			<a class="text-white" href="/authors/ers-staff-directory/hayden-stewart">Hayden Stewart</a>, 
+																																													<a class="text-white" href="/authors/ers-staff-directory/diansheng-dong">Diansheng Dong</a>																																													or <a class="text-white" href="/authors/ers-staff-directory/wilson-sinclair">Wilson Sinclair</a>																														</li>
+			</ul>
+		</div>
+	</div>
+  </div>
+
+		</div>
+	
+	<!-- Content full width -->
+	
+	<!-- Content grid container -->
+	
+	<!-- Sidebar and Content -->
+			<div class="grid-container-desktop-lg">
+			<div class="grid-row grid-gap-3">
+
+				<!-- Left Column -->
+									<div class="desktop:grid-col-3">
+																		<div class="usa-accordion top-1 margin-bottom-3">
+							<div class="usa-accordion__heading"><button type="button" class="usa-accordion__button" aria-expanded="true" aria-controls="sectionNavigation">In this section</button></div>
+							<div id="sectionNavigation" class="usa-accordion__content padding-x-1">
+								<nav class="margin-top-4" aria-label="Secondary navigation">
+									  
+
+  
+      <ul class="usa-sidenav">
+              
+                          
+                          
+        
+                          
+        <li class="usa-sidenav__item expanded dropdown active active-trail first last">
+          <a href="/data-products/food-price-outlook" class="link usa-current" data-drupal-link-system-path="node/3740">Food Price Outlook</a>
+                        
+      <ul class="usa-sidenav__sublist">
+              
+                          
+                          
+        
+        
+        <li class="usa-sidenav__item first">
+          <a href="/data-products/food-price-outlook/summary-findings" class="link" data-drupal-link-system-path="node/3947">Summary Findings</a>
+                  </li>
+              
+                          
+                          
+        
+                          
+        <li class="usa-sidenav__item active active-trail">
+          <a href="/data-products/food-price-outlook/documentation" class="link usa-current is-active" data-drupal-link-system-path="node/3892" aria-current="page">Documentation</a>
+                  </li>
+              
+                          
+                          
+        
+        
+        <li class="usa-sidenav__item">
+          <a href="/data-products/food-price-outlook/update-and-revision-history" class="link" data-drupal-link-system-path="node/3838">Update and Revision History</a>
+                  </li>
+              
+                          
+                          
+        
+        
+        <li class="usa-sidenav__item last">
+          <a href="/data-products/food-price-outlook/food-price-environment-interactive-visualization" class="link" data-drupal-link-system-path="node/4067">Food Price Environment: Interactive Visualization</a>
+                  </li>
+          </ul>
+  
+                  </li>
+          </ul>
+  
+
+
+
+
+								</nav>
+							</div>
+						</div>
+											</div>
+				
+				<!-- Right Column -->
+				<div class="desktop:grid-col-fill">
+					    <div id="block-uswds-ers-content" class="block block-system block-system-main-block">
+  
+    
+      <article data-history-node-id="3892">
+
+  
+    
+
+  
+  <div>
+    
+	<div class="usa-prose">
+		<p><strong>This page provides information on:</strong></p>
+<ul>
+<li data-list-item-id="e36bc303b4cfb13933168624143508e91"><a href="#forecasts" class="usa-link">How ERS Forecasts the Consumer Price Index (CPI) and Producer Price Index (PPI) for Food</a></li>
+<li data-list-item-id="ea5da2c84b2ffbf2aaee61bc7ae6bdd57"><a href="#prior_methods" data-anchor="#prior_methods" class="usa-link">Prior Methods for Forecasting the CPI and PPI for Food</a></li>
+<li data-list-item-id="e6b16d5a1d4ba6b61f1f4e808cf0762c8"><a href="#background" class="usa-link">Background on the CPI for Food</a></li>
+<li data-list-item-id="e483dfd5824d2d8517a3e684a669bfc6a"><a href="#research" class="usa-link">Food Price Related Issues and Research</a></li>
+<li data-list-item-id="e03b2c980f0d3e892b2f50e51dfb7ae07"><a href="#citation" class="usa-link">Recommended Citation</a></li>
+</ul>
+<h2 id="forecasts">How ERS forecasts the Consumer Price Index (CPI) and Producer Price Index (PPI) for Food</h2>
+<p>ERS generates 95 percent forecast intervals (i.e., confidence intervals) using time-series forecasting models selected based on how well the models suit each food price category. The mid point of these intervals represents the most likely annual price increase, while the upper and lower bounds reflect uncertainty around these forecasts. As more data become available, the forecasts become more accurate and the span of the forecast intervals shrinks.</p>
+<p>The ERS report, <a href="/publications/104490" class="usa-link">Time-Series Methods for Forecasting and Modeling Uncertainty in the Food Price Outlook</a>, describes updates to ERS's forecasting methodology implemented in 2023, along with a comparison to prior methods (August 2022).</p>
+<p>Note: CPI and PPI data collection was suspended for a period of time during Fall 2025 due to a Federal government shutdown, causing CPI data to be unavailable for October 2025. ERS used a time series regression model to estimate values for the missing CPI data. See the Food Price Outlook's <a href="/data-products/food-price-outlook/update-and-revision-history" data-entity-type="node" data-entity-uuid="f8e7d4a6-c1c0-4fe7-bb0c-54794f8d8338" data-entity-substitution="canonical" title="Food Price Outlook - Update and Revision History" class="usa-link">Update and Revision History</a> (January 23, 2026) for more information.</p>
+<h2 id="prior_methods">Prior Methods for Forecasting the CPI and PPI for Food</h2>
+<p><a href="/publications/47624" class="usa-link">How USDA Forecasts Retail Food Price Inflation</a></p>
+<p>This ERS report provides a detailed outline of ERS's forecasting methodology used from 2011 through 2023, along with measures to test the precision of the estimates (May 2015).</p>
+<p><a href="/publications/47335" class="usa-link">Retail Food Price Forecasting at ERS</a></p>
+<p>This ERS report describes ERS's forecasting process, methodology, and performance from 1984 to 1997 (June 2000).</p>
+<h2 id="background">Background on the CPI for Food</h2>
+<p>The Consumer Price Index (CPI) is the principal indicator of consumer price changes in the U.S. economy. The CPI measures the average prices paid by urban consumers for a defined market basket of goods and services, including food. Changes in the CPI are widely used to measure price inflation (changes in the general price level) in the U.S. economy.</p>
+<p>The food-at-home CPI indicates changes in retail food prices and is closely followed by industry analysts, food market participants, and policymakers. Many current and proposed policies are evaluated and updated based on CPI measures. To contribute to the analysis of government and commercial decision-makers, ERS forecasts changes in the CPI for all food, food at home, food away from home, and for individual food categories.</p>
+<p>Changes in consumer preferences and costs within the food system can influence food prices. The relationships among these market forces typically differ across food categories. Researchers at ERS not only produce forecasts of the CPI, but also analyze the impact of economic factors on changes in each CPI.</p>
+<p>On a monthly basis, ERS updates and provides annual food price forecasts for up to 18 months, based on a time-series-econometrics forecasting approach. ERS uses monthly U.S. Department of Labor, Bureau of Labor Statistics' indexes to forecast all food, food away from home, food at home, and 15 food-at-home categories.</p>
+<h2 id="research">Food Price Related Issues and Research</h2>
+<p>ERS economists conduct research on a variety of topics directly related to the U.S. food supply chain and distribution system. This research provides a better understanding of issues such as price analysis, market competitiveness, price transmission, and retail behavior.</p>
+<p><a href="/publications/103812" class="usa-link">Quantifying Consumer Welfare Impacts of Higher Meat Prices During the COVID-19 Pandemic</a></p>
+<p>While the U.S. food system has been largely able to maintain operations and provide consumers with the variety of foods they desire since the Coronavirus (COVID-19) pandemic began, U.S. households faced sharply higher food prices for many staple items, especially meat in 2020. In this study, U.S. households’ meat purchases at retail stores for at-home consumption during the COVID-19 pandemic are examined and compared with those before the virus outbreak (April 2022).</p>
+<p><a href="/publications/103177" class="usa-link">COVID-19 Working Paper: COVID-19 and the U.S. Meat and Poultry Supply Chains</a></p>
+<p>This working paper outlines the impacts of COVID-19 on U.S. meat and poultry supply chains in 2020, describing how the industry reacted to the onset of the COVID-19 pandemic and adapted during the ongoing crisis (February 2022).</p>
+<p><a href="/amber-waves/2021/march/retail-food-price-inflation-in-2020-outpaced-historical-average-by-75-percent" data-entity-type="node" data-entity-uuid="9c56bcf4-d8b4-405a-9290-6458d491453d" data-entity-substitution="canonical" title="Retail Food Price Inflation in 2020 Outpaced Historical Average by 75 Percent" class="usa-link">“Retail Food Price Inflation in 2020 Outpaced Historical Average by 75 Percent”</a></p>
+<p>Grocery store food prices increased by 3.5 percent, on average, from 2019 to 2020. Prices for every major food-at-home category except fresh fruits increased in 2020. The most significant food price increases of 2020 occurred in the spring, as the first wave of coronavirus cases occurred in the United States. The uncertain nature of the coronavirus pandemic makes it challenging to predict food prices for 2021 (March 2021).</p>
+<p><a href="/amber-waves/2019/june/americans-still-can-meet-fruit-and-vegetable-dietary-guidelines-for-2-10-2-60-per-day" data-entity-type="node" data-entity-uuid="8b6b5849-5143-4ad0-902a-908e01c6aa9f" data-entity-substitution="canonical" title="Americans Still Can Meet Fruit and Vegetable Dietary Guidelines for $2.10-$2.60 per Day" class="usa-link">“Americans Still Can Meet Fruit and Vegetable Dietary Guidelines for $2.10-$2.60 per Day”</a></p>
+<p>ERS researchers calculated the average cost to consume 157 fresh and processed fruits and vegetables by adjusting for inedible parts and losses that may occur in cooking. A greater share of vegetables (77 percent) than fruits (47 percent) cost less than 80 cents per cup equivalent (June 2019).</p>
+<p><a href="/publications/92932" class="usa-link">Factors Impacting Grocery Store Deflation: A Closer Look at Prices in 2016 and 2017</a></p>
+<p>An analysis of the recent drop in grocery prices, their effects on the overall food economy, and how they may affect future food-at-home price inflation for consumers (April 2019).</p>
+<p><a href="/amber-waves/2019/march/grocery-store-prices-rose-for-the-first-time-in-3-years-in-2018" data-entity-type="node" data-entity-uuid="944f5c39-b547-45b9-a123-42ed1c609e61" data-entity-substitution="canonical" title="Grocery Store Prices Rose for the First Time in 3 Years in 2018" class="usa-link">“Grocery Store Prices Rose for the First Time in 3 Years in 2018”</a></p>
+<p>Average grocery store prices rose 0.4 percent in 2018. With the exception of eggs (up 10.8 percent) and fish and seafood (up 2.1 percent), prices for major food categories rose at rates of 1.1 percent or less (March 2019).’</p>
+<p><a href="/amber-waves/2018/august/monitoring-trends-in-retail-prices-and-farm-shares-of-food-products" data-entity-type="node" data-entity-uuid="a1564e04-0329-404c-807f-82d4a8518ec1" data-entity-substitution="canonical" title="Monitoring Trends in Retail Prices and Farm Shares of Food Products" class="usa-link">“Monitoring Trends in Retail Prices and Farm Shares of Food Products”</a></p>
+<p>Farm share—the ratio of what farmers receive for a food commodity to what consumers pay for the food product in grocery stores—varies by product and over time. Commodity prices and food marketing costs can rise and fall independently, causing swings in farm share (August 2018).</p>
+<p><a href="/amber-waves/2018/july/five-decades-of-price-swings-for-food-and-other-consumer-spending-categories" data-entity-type="node" data-entity-uuid="723c6e30-2a59-470d-a2e4-2e0fb94ce12b" data-entity-substitution="canonical" title="Five Decades of Price Swings for Food and Other Consumer Spending Categories" class="usa-link">“Five Decades of Price Swings for Food and Other Consumer Spending Categories”</a></p>
+<p>Year-to-year price volatility has moderated since the 1970s for housing and food, but transportation prices continue to be volatile (July 2018).</p>
+<p><a href="/amber-waves/2017/august/since-2009-restaurant-prices-have-generally-risen-faster-than-grocery-store-prices" data-entity-type="node" data-entity-uuid="a103f225-7855-4752-825b-6640fb8f0410" data-entity-substitution="canonical" title="Since 2009, Restaurant Prices Have Generally Risen Faster Than Grocery Store Prices" class="usa-link">“Since 2009, Restaurant Prices Have Generally Risen Faster Than Grocery Store Prices”</a></p>
+<p>Between 2009 and 2016, restaurant prices grew at an average annual rate of 2.5 percent, while grocery store food prices rose by an average of 1.4 percent per year (August 2017).</p>
+<p><a href="/amber-waves/2017/march/consumers-paid-less-for-grocery-store-foods-in-2016-than-in-2015" data-entity-type="node" data-entity-uuid="32d99c60-e870-4e10-92d5-1e6bec21f3e5" data-entity-substitution="canonical" title="Consumers Paid Less for Grocery Store Foods in 2016 Than in 2015" class="usa-link">"Consumers Paid Less for Grocery Store Foods in 2016 Than in 2015"</a></p>
+<p>The year 2016 marked the first time in nearly 50 years that grocery store (food-at-home) prices were lower than those in the previous year. In 2016, retail food prices decreased by 1.3 percent, as many food categories—beef and veal, pork, poultry, eggs, and dairy—experienced declining year-over-year prices (March 2017).</p>
+<p><a href="/amber-waves/2016/may/retail-food-price-inflation-varies-geographically" data-entity-type="node" data-entity-uuid="9937a7d7-0eea-4c50-a2b8-ccc5c4c24aa8" data-entity-substitution="canonical" title="Retail Food Price Inflation Varies Geographically" class="usa-link">"Retail Food Price Inflation Varies Geographically"</a></p>
+<p>Between 2006 and 2015, food prices in supermarkets, supercenters, convenience stores, and other retailers rose 25.5 percent nationally, at a time when overall inflation rose 17.6 percent. Retail food price inflation, however, varies by geographic location. For example, over the same 10-year period, retail food prices rose 34.4 percent in Pittsburgh but 17.4 percent in Detroit. Several factors account for variations in food price inflation across major metropolitan statistical areas (MSAs), including differences in consumer tastes and preferences, shifts in transportation and retail costs, and consumers’ changing income levels (May 2016).</p>
+<p><a href="/publications/45168" class="usa-link">How Transportation Costs Affect Fresh Fruit and Vegetable Prices</a></p>
+<p>This report examines the ways that fuel prices are transmitted to wholesale produce prices via transportation costs. Specifically, it focuses on marketing costs for asparagus, cantaloupes, table grapes, oranges, bell peppers, and tomatoes. Results of the study indicate that transportation costs significantly increase the costs of marketing these produce items as well as increase their wholesale price. The impact of fuel prices on produce prices depends on a number of factors, including the distance between wholesale markets and the source of the produce, the method of transportation, the importance and timing of imports, and commodity-specific factors such as perishability. Overall, as fuel prices rise, so do wholesale produce prices and the margins between farm and wholesale prices (November 2013).</p>
+<p><a href="/publications/44679" class="usa-link">Are Healthy Foods Really More Expensive? It Depends on How You Measure the Price</a></p>
+<p>Most Americans consume diets that do not meet Federal dietary recommendations. A common explanation is that healthier foods are more expensive than less healthy foods. To investigate this assumption, the authors compared prices of healthy and less healthy foods (defined as foods that are high in saturated fat, added sugar, and/or sodium, or that contribute little to meeting dietary recommendations) using three different price metrics: the price of food energy ($/calorie), the price of edible weight ($/100 edible grams), and the price of an average portion ($/average portion). They also calculated the cost of meeting the recommendations for each food group. For all metrics except the price of food energy, the authors found that healthy foods cost less than less healthy foods (May 2012).</p>
+<p><a href="/publications/44815" class="usa-link">How Retail Beef and Bread Prices Respond to Changes in Ingredient and Input Costs</a></p>
+<p>The extent to which cost changes pass through a vertically organized production process depends on the value added by each producer in the chain as well as a number of other organizational and marketing factors at each stage of production. Using 36 years of monthly Bureau of Labor Statistics price indices data (1972-2008), ERS modeled pass-through behavior for beef and bread, two retail food items with different levels of processing. To allow for the presence of structural breaks in the underlying long-term relationships between price series, both farm-to-wholesale and wholesale-to-retail price responses were modeled. Broad differences in price behavior were found not only between food categories—retail beef prices respond more to farm-price changes than do retail bread prices—but also across stages in the supply chain. For both bread and beef, the pass-through from wholesale to retail was weaker than that from farm to wholesale (February 2011).</p>
+<h2 id="citation">Recommended Citation</h2>
+<p>U.S. Department of Agriculture (USDA), Economic Research Service (ERS). <em>Food Price Outlook</em>.</p>
+	</div>
+
+  </div>
+
+</article>
+
+  </div>
+
+
+				</div>
+			</div>
+		</div>
+	
+	<!-- Chart Detail -->
+	
+	<!-- AW Article -->
+	
+	<!-- Content full width 2 -->
+			<div>
+			  <div>
+    
+    
+<div id="ers-csat-survey-invite"  id="block-ers-csat-survey-invite" class="display-none margin-top-5 block block-ers-csat-survey block-ers-csat-survey-invite">
+	
+			
+
+		<!-- Template: ers-csat-survey-invite-banner -->
+		<template id="ers-csat-survey-invite-banner">
+			<div class="padding-y-3 desktop:padding-y-8" style="background-position:center; background-size:cover; background-image: url('/media/4065/bg22.jpg');">
+				<div class="grid-container-desktop-lg">
+					<div class="grid-row grid-gap-3">
+						<div class="tablet:grid-col-5 margin-bottom-2">
+							<div class="bg-white shadow-5 height-full padding-3">
+																	<h2 class="font-heading-xl section-heading-gold margin-top-0">We’d welcome your feedback!</h2>
+																									<p class="usa-prose">Would you be willing to answer a few quick questions about your experience?</p>
+																									<p class="margin-bottom-0">
+										<a class="usa-button usa-button--accent-cool" href="/survey?destination=/data-products/food-price-outlook/documentation">Yes, I’ll give feedback</a>
+									</p>
+															</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</template>
+
+	</div>
+  </div>
+
+		</div>
+	
+</main>
+
+<!-- Footer -->
+<footer class="usa-footer usa-footer--big">
+	<div class="grid-container usa-footer__return-to-top">
+		<a href="#">Return to top</a>
+	</div>
+	<div class="usa-footer__primary-section">
+		<div class="grid-container">
+			<div class="grid-row grid-gap">
+				<div class="tablet:grid-col-8">
+					<nav class="usa-footer__nav" aria-label="Footer navigation">
+						<div class="grid-row grid-gap-4">
+							<div class="mobile-lg:grid-col-6 desktop:grid-col-3">
+								  <div>
+    
+
+<div  id="block-erslinks" class="usa-footer__primary-content usa-footer__primary-content--collapsible block block-block-content block-block-contentf13f7333-6453-4473-81d8-3036e35013d4">
+	
+						
+			<h4 class="usa-footer__primary-link">ERS Links</h4>
+							<ul class="usa-list usa-list--unstyled">
+																																																																																																																																																						<li class="usa-footer__secondary-link">
+							<a href="/help/accessibility">Accessibility</a>
+						</li>
+																				<li class="usa-footer__secondary-link">
+							<a href="/about-ers/careers-at-ers">Careers</a>
+						</li>
+																				<li class="usa-footer__secondary-link">
+							<a href="/contact-us">Contact Us</a>
+						</li>
+																				<li class="usa-footer__secondary-link">
+							<a href="/help">Help</a>
+						</li>
+																				<li class="usa-footer__secondary-link">
+							<a href="/about-ers/policies-and-standards/information-quality">Information Quality</a>
+						</li>
+																				<li class="usa-footer__secondary-link">
+							<a href="/privacy">Privacy Policy</a>
+						</li>
+																				<li class="usa-footer__secondary-link">
+							<a href="/index/sitemap.xml">Site Map</a>
+						</li>
+																														</ul>
+			</div>
+  </div>
+
+							</div>
+							<div class="mobile-lg:grid-col-6 desktop:grid-col-3">
+								  <div>
+    
+
+<div  id="block-usdalinks" class="usa-footer__primary-content usa-footer__primary-content--collapsible block block-block-content block-block-content58ec706d-11bf-4052-9069-258798fc676b">
+	
+						
+			<h4 class="usa-footer__primary-link">USDA Links</h4>
+							<ul class="usa-list usa-list--unstyled">
+																																																																																																																																																						<li class="usa-footer__secondary-link">
+							<a href="/freedom-of-information-act">FOIA</a>
+						</li>
+																				<li class="usa-footer__secondary-link">
+							<a href="https://www.usda.gov/non-discrimination-statement" rel="noopener noreferrer" class="usa-link--external" target="_blank">Non-Discrimination Statement</a>
+						</li>
+																				<li class="usa-footer__secondary-link">
+							<a href="https://www.usda.gov/plain-writing" rel="noopener noreferrer" class="usa-link--external" target="_blank">Plain Writing</a>
+						</li>
+																				<li class="usa-footer__secondary-link">
+							<a href="https://usdaoig.oversight.gov/" rel="noopener noreferrer" class="usa-link--external" target="_blank">Report Fraud</a>
+						</li>
+																				<li class="usa-footer__secondary-link">
+							<a href="https://www.usda.gov/" rel="noopener noreferrer" class="usa-link--external" target="_blank">USDA.gov</a>
+						</li>
+																				<li class="usa-footer__secondary-link">
+							<a href="https://www.usa.gov/" rel="noopener noreferrer" class="usa-link--external" target="_blank">USA.gov</a>
+						</li>
+																				<li class="usa-footer__secondary-link">
+							<a href="https://www.whitehouse.gov/" rel="noopener noreferrer" class="usa-link--external" target="_blank">White House.gov</a>
+						</li>
+																														</ul>
+			</div>
+  </div>
+
+							</div>
+							<div class="mobile-lg:grid-col-6 desktop:grid-col-3">
+								
+							</div>
+							<div class="mobile-lg:grid-col-6 desktop:grid-col-3">
+								
+							</div>
+						</div>
+					</nav>
+				</div>
+				<div class="tablet:grid-col-4">
+					  <div>
+    
+
+<div  id="block-footersignup" class="usa-sign-up block block-block-content block-block-content39783e6f-aae9-40d1-9627-10ef8db98ed3">
+	
+						<h3 class="usa-sign-up__heading">ERS E-newsletters</h3>
+							<a href="https://visitor.r20.constantcontact.com/manage/optin?v=001CPZXBN9FC9oQmIu-TWkaLC06vEWBMy1Q" class="usa-button usa-link--external" rel="noopener noreferrer" target="_blank">Subscribe</a>
+			</div>
+  </div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="usa-footer__secondary-section">
+		<div class="grid-container">
+			<div class="grid-row grid-gap">
+				<div class="usa-footer__logo grid-row mobile-lg:grid-col-6 mobile-lg:grid-gap-2">
+					<div class="mobile-lg:grid-col-auto">
+						<img class="usa-footer__logo-img width-8" src="/themes/custom/uswds_ers/logo.svg" alt="U.S. Department of Agriculture logo" />
+					</div>
+					<div class="mobile-lg:grid-col-auto">
+						<p class="usa-footer__logo-heading">Economic Research Service</p>
+					</div>
+				</div>
+				<div class="usa-footer__contact-links mobile-lg:grid-col-6">
+					  <div>
+    
+
+<div  id="block-footersociallinks" class="usa-footer__social-links grid-row grid-gap-1 block block-block-content block-block-content203b4224-078b-4f64-b252-631eece03f7d">
+	
+																																																																																																																																																																																																																																																																																																																								<div class="grid-col-auto">
+						<a class="usa-social-link" href="https://x.com/USDA_ERS" target="_blank" rel="noopener noreferrer">
+							<img class="usa-social-link__icon" src="/themes/custom/uswds_ers/package/dist/img/usa-icons/x.svg" alt="x logo" />
+						</a>
+					</div>
+																												<div class="grid-col-auto">
+						<a class="usa-social-link" href="https://www.linkedin.com/company/usda-economic-research-service/" target="_blank" rel="noopener noreferrer">
+							<img class="usa-social-link__icon" src="/themes/custom/uswds_ers/package/dist/img/usa-icons/linkedin.svg" alt="LinkedIn logo" />
+						</a>
+					</div>
+																																																</div>
+  </div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<!-- Analytics -->
+  <div>
+    
+
+<div  id="block-uswds-ers-googleanalyticsdap" class="block block-ers-blocks block-google-analytics-dap">
+	
+			
+	</div><div id="block-uswds-ers-googleanalyticsers" class="block block-ers-blocks block-google-analytics-ers">
+  
+    
+      
+  </div>
+
+
+<div  id="block-uswds-ers-adobeanalytics" class="block block-ers-blocks block-adobe-analytics">
+	
+			
+	</div>
+
+<div  id="block-uswds-ers-googlesiteverification" class="block block-ers-blocks block-google-site-verification">
+	
+			
+	</div>
+  </div>
+
+  </div>
+
+
+<script src="/modules/custom/ers_csat_survey/js/ers_csat_survey_invite.js?v=1"></script>
+<script src="/themes/custom/uswds_ers/package/dist/js/uswds.min.js?v=3.12.0"></script>
+
+</body>
+</html>

@@ -1,0 +1,133 @@
+Consumer Price Index item,Month of forecast,Year of forecast,Year being forecast,Attribute,Forecast percent change
+All food,9,2026,2027,Lower bound of forecast interval,-2.7
+All food,9,2026,2027,Midpoint of forecast interval,2
+All food,9,2026,2027,Upper bound of forecast interval,7
+All food,10,2026,2027,Lower bound of forecast interval,-2.5
+All food,10,2026,2027,Midpoint of forecast interval,1.7
+All food,10,2026,2027,Upper bound of forecast interval,6.2
+Food away from home,9,2026,2027,Lower bound of forecast interval,0.2
+Food away from home,9,2026,2027,Midpoint of forecast interval,2.6
+Food away from home,9,2026,2027,Upper bound of forecast interval,5.1
+Food away from home,10,2026,2027,Lower bound of forecast interval,0.7
+Food away from home,10,2026,2027,Midpoint of forecast interval,2.8
+Food away from home,10,2026,2027,Upper bound of forecast interval,5
+Food at home,9,2026,2027,Lower bound of forecast interval,-5
+Food at home,9,2026,2027,Midpoint of forecast interval,1.8
+Food at home,9,2026,2027,Upper bound of forecast interval,9.2
+Food at home,10,2026,2027,Lower bound of forecast interval,-5.2
+Food at home,10,2026,2027,Midpoint of forecast interval,1
+Food at home,10,2026,2027,Upper bound of forecast interval,7.5
+"Meats, poultry, and fish",9,2026,2027,Lower bound of forecast interval,-4.8
+"Meats, poultry, and fish",9,2026,2027,Midpoint of forecast interval,2.5
+"Meats, poultry, and fish",9,2026,2027,Upper bound of forecast interval,10.8
+"Meats, poultry, and fish",10,2026,2027,Lower bound of forecast interval,-4.5
+"Meats, poultry, and fish",10,2026,2027,Midpoint of forecast interval,2.4
+"Meats, poultry, and fish",10,2026,2027,Upper bound of forecast interval,10.1
+Meats,9,2026,2027,Lower bound of forecast interval,-8.7
+Meats,9,2026,2027,Midpoint of forecast interval,1.1
+Meats,9,2026,2027,Upper bound of forecast interval,11.7
+Meats,10,2026,2027,Lower bound of forecast interval,-8.7
+Meats,10,2026,2027,Midpoint of forecast interval,0.3
+Meats,10,2026,2027,Upper bound of forecast interval,10
+Beef and veal,9,2026,2027,Lower bound of forecast interval,-7.7
+Beef and veal,9,2026,2027,Midpoint of forecast interval,4.7
+Beef and veal,9,2026,2027,Upper bound of forecast interval,18.9
+Beef and veal,10,2026,2027,Lower bound of forecast interval,-8.8
+Beef and veal,10,2026,2027,Midpoint of forecast interval,2.4
+Beef and veal,10,2026,2027,Upper bound of forecast interval,15.5
+Pork,9,2026,2027,Lower bound of forecast interval,-8.1
+Pork,9,2026,2027,Midpoint of forecast interval,0.5
+Pork,9,2026,2027,Upper bound of forecast interval,10.1
+Pork,10,2026,2027,Lower bound of forecast interval,-8
+Pork,10,2026,2027,Midpoint of forecast interval,0
+Pork,10,2026,2027,Upper bound of forecast interval,8.9
+Other meats,9,2026,2027,Lower bound of forecast interval,-5.8
+Other meats,9,2026,2027,Midpoint of forecast interval,-0.3
+Other meats,9,2026,2027,Upper bound of forecast interval,5.9
+Other meats,10,2026,2027,Lower bound of forecast interval,-5.9
+Other meats,10,2026,2027,Midpoint of forecast interval,-0.5
+Other meats,10,2026,2027,Upper bound of forecast interval,5
+Poultry,9,2026,2027,Lower bound of forecast interval,-5.4
+Poultry,9,2026,2027,Midpoint of forecast interval,1.5
+Poultry,9,2026,2027,Upper bound of forecast interval,8.8
+Poultry,10,2026,2027,Lower bound of forecast interval,-5.5
+Poultry,10,2026,2027,Midpoint of forecast interval,0.9
+Poultry,10,2026,2027,Upper bound of forecast interval,7.9
+Fish and seafood,9,2026,2027,Lower bound of forecast interval,-3.8
+Fish and seafood,9,2026,2027,Midpoint of forecast interval,1.3
+Fish and seafood,9,2026,2027,Upper bound of forecast interval,6.6
+Fish and seafood,10,2026,2027,Lower bound of forecast interval,-2.3
+Fish and seafood,10,2026,2027,Midpoint of forecast interval,2.5
+Fish and seafood,10,2026,2027,Upper bound of forecast interval,7.6
+Eggs,9,2026,2027,Lower bound of forecast interval,-30.3
+Eggs,9,2026,2027,Midpoint of forecast interval,0.8
+Eggs,9,2026,2027,Upper bound of forecast interval,47.8
+Eggs,10,2026,2027,Lower bound of forecast interval,-29.5
+Eggs,10,2026,2027,Midpoint of forecast interval,-0.8
+Eggs,10,2026,2027,Upper bound of forecast interval,41.1
+Dairy products,9,2026,2027,Lower bound of forecast interval,-5
+Dairy products,9,2026,2027,Midpoint of forecast interval,1.5
+Dairy products,9,2026,2027,Upper bound of forecast interval,8.4
+Dairy products,10,2026,2027,Lower bound of forecast interval,-6.5
+Dairy products,10,2026,2027,Midpoint of forecast interval,-0.6
+Dairy products,10,2026,2027,Upper bound of forecast interval,5.6
+Fats and oils,9,2026,2027,Lower bound of forecast interval,-9.8
+Fats and oils,9,2026,2027,Midpoint of forecast interval,3.4
+Fats and oils,9,2026,2027,Upper bound of forecast interval,19
+Fats and oils,10,2026,2027,Lower bound of forecast interval,-9.5
+Fats and oils,10,2026,2027,Midpoint of forecast interval,1.9
+Fats and oils,10,2026,2027,Upper bound of forecast interval,15.2
+Fruits and vegetables,9,2026,2027,Lower bound of forecast interval,-4.1
+Fruits and vegetables,9,2026,2027,Midpoint of forecast interval,1.2
+Fruits and vegetables,9,2026,2027,Upper bound of forecast interval,7
+Fruits and vegetables,10,2026,2027,Lower bound of forecast interval,-3.2
+Fruits and vegetables,10,2026,2027,Midpoint of forecast interval,1.7
+Fruits and vegetables,10,2026,2027,Upper bound of forecast interval,7.1
+Fresh fruits and vegetables,9,2026,2027,Lower bound of forecast interval,-4.9
+Fresh fruits and vegetables,9,2026,2027,Midpoint of forecast interval,1.4
+Fresh fruits and vegetables,9,2026,2027,Upper bound of forecast interval,8.2
+Fresh fruits and vegetables,10,2026,2027,Lower bound of forecast interval,-4.7
+Fresh fruits and vegetables,10,2026,2027,Midpoint of forecast interval,1.3
+Fresh fruits and vegetables,10,2026,2027,Upper bound of forecast interval,7.6
+Fresh fruits,9,2026,2027,Lower bound of forecast interval,-4.5
+Fresh fruits,9,2026,2027,Midpoint of forecast interval,2.3
+Fresh fruits,9,2026,2027,Upper bound of forecast interval,9.6
+Fresh fruits,10,2026,2027,Lower bound of forecast interval,-3.7
+Fresh fruits,10,2026,2027,Midpoint of forecast interval,2.7
+Fresh fruits,10,2026,2027,Upper bound of forecast interval,9.6
+Fresh vegetables,9,2026,2027,Lower bound of forecast interval,-9.3
+Fresh vegetables,9,2026,2027,Midpoint of forecast interval,-0.5
+Fresh vegetables,9,2026,2027,Upper bound of forecast interval,9.2
+Fresh vegetables,10,2026,2027,Lower bound of forecast interval,-8.9
+Fresh vegetables,10,2026,2027,Midpoint of forecast interval,-0.6
+Fresh vegetables,10,2026,2027,Upper bound of forecast interval,8.4
+Processed fruits and vegetables,9,2026,2027,Lower bound of forecast interval,-2.2
+Processed fruits and vegetables,9,2026,2027,Midpoint of forecast interval,2.8
+Processed fruits and vegetables,9,2026,2027,Upper bound of forecast interval,8
+Processed fruits and vegetables,10,2026,2027,Lower bound of forecast interval,-1.8
+Processed fruits and vegetables,10,2026,2027,Midpoint of forecast interval,2.9
+Processed fruits and vegetables,10,2026,2027,Upper bound of forecast interval,7.7
+Sugar and sweets,9,2026,2027,Lower bound of forecast interval,-2.1
+Sugar and sweets,9,2026,2027,Midpoint of forecast interval,3.4
+Sugar and sweets,9,2026,2027,Upper bound of forecast interval,9.3
+Sugar and sweets,10,2026,2027,Lower bound of forecast interval,-0.8
+Sugar and sweets,10,2026,2027,Midpoint of forecast interval,4.3
+Sugar and sweets,10,2026,2027,Upper bound of forecast interval,9.8
+Cereals and bakery products,9,2026,2027,Lower bound of forecast interval,-4.8
+Cereals and bakery products,9,2026,2027,Midpoint of forecast interval,2.4
+Cereals and bakery products,9,2026,2027,Upper bound of forecast interval,10.3
+Cereals and bakery products,10,2026,2027,Lower bound of forecast interval,-5.8
+Cereals and bakery products,10,2026,2027,Midpoint of forecast interval,0.7
+Cereals and bakery products,10,2026,2027,Upper bound of forecast interval,7.5
+Nonalcoholic beverages,9,2026,2027,Lower bound of forecast interval,-2.9
+Nonalcoholic beverages,9,2026,2027,Midpoint of forecast interval,2.6
+Nonalcoholic beverages,9,2026,2027,Upper bound of forecast interval,8.5
+Nonalcoholic beverages,10,2026,2027,Lower bound of forecast interval,-0.7
+Nonalcoholic beverages,10,2026,2027,Midpoint of forecast interval,4.4
+Nonalcoholic beverages,10,2026,2027,Upper bound of forecast interval,9.7
+Other foods,9,2026,2027,Lower bound of forecast interval,-5.9
+Other foods,9,2026,2027,Midpoint of forecast interval,1.5
+Other foods,9,2026,2027,Upper bound of forecast interval,9.6
+Other foods,10,2026,2027,Lower bound of forecast interval,-4.2
+Other foods,10,2026,2027,Midpoint of forecast interval,0.7
+Other foods,10,2026,2027,Upper bound of forecast interval,5.8

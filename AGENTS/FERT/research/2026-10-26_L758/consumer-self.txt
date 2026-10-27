@@ -1,0 +1,73 @@
+FROZEN 2026-10-26 — point-in-time diagnostic, not maintained; do not cite matches as current claims.
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  SELF mode: 32 files under AGENTS/FERT/ (processed/ + archive/ still excluded — historical by design). Nothing outside your own dir is scanned.
+
+  ── ERS next release · superseded 2026-11-25 → current 2026-11-24
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (29)
+        AGENTS/FERT/research/2026-10-26_L758/consumer-cross.txt:9  [2026-11-25]
+           AGENTS/RED/STATUS.md:45  [2026-11-25]
+        AGENTS/FERT/research/2026-10-26_L758/consumer-cross.txt:11  [2026-11-25]
+           AGENTS/HENRY/domain/ECON_CALENDAR.md:7  [2026-11-25]
+        AGENTS/FERT/research/2026-10-26_L758/consumer-cross.txt:12  [2026-11-25]
+           **Window verified:** 2026-10-22 → 2026-11-25, rebuilt 2026-10-21 ~21:10 ET at the agency calendars (BLS October and November 2026 schedule l
+        AGENTS/FERT/research/2026-10-26_L758/consumer-cross.txt:13  [2026-11-25]
+           AGENTS/RED/reports/2026-10-21_self-sweep.md:32  [2026-11-25]
+        AGENTS/FERT/research/2026-10-26_L758/consumer-cross.txt:15  [2026-11-25]
+           AGENTS/RED/registry/TRIGGER_OUTCOMES.tsv:14  [2026-11-25]
+        AGENTS/FERT/research/2026-10-26_L758/consumer-cross.txt:16  [2026-11-25]
+           RED-FT-10	2026-10-14	COMMITTED (spec 2026-08-27)	~2026-11-25 (30 FRED VIXCLS obs)	VIXCLS at fire: 10/14 obs pending on FRED (^VIX 16.87 clos
+        AGENTS/FERT/research/2026-10-26_L758/consumer-cross.txt:17  [2026-11-25]
+           AGENTS/BROCK/research/2026-10-09_GATE-BRK-OTIC_draft-letter.md:49  [2026-11-25]
+        AGENTS/FERT/research/2026-10-26_L758/consumer-cross.txt:18  [2026-11-25]
+           | Q4-2026 offer (SC TO-I) | 11/26/25 · 2/27/26 · 5/26/26 · 8/26/26; issuer: next window "expected in December 2026" | ~Wed 2026-11-25 – earl
+        AGENTS/FERT/research/2026-10-26_L758/consumer-cross.txt:19  [2026-11-25]
+           AGENTS/DAEDALUS/upgrades/PRODUCTION_REVIEW_2026-09-17_READER_R4_theaters_commod.md:250  [2026-11-25]
+        AGENTS/FERT/research/2026-10-26_L758/consumer-cross.txt:21  [2026-11-25]
+           AGENTS/DAEDALUS/upgrades/PRODUCTION_REVIEW_2026-09-17_READER_R4_theaters_commod.md:408  [2026-11-25]
+        AGENTS/FERT/research/2026-10-26_L758/consumer-cross.txt:24  [2026-11-25]
+           514	2026-11-25	FDIC Q3-2026 QUARTERLY BANKING PROFILE — first QBP carrying the Nano Banc failure (the largest of six 2026 failures, $736M; f
+        AGENTS/FERT/research/2026-10-26_L758/consumer-cross.txt:26  [2026-11-25]
+           AGENTS/RED/registry/TRIGGER_OUTCOMES.tsv:14	RED-FT-10	2026-10-14	COMMITTED (spec 2026-08-27)	~2026-11-25 (30 FRED VIXCLS obs)	VIXCLS at fire
+        AGENTS/FERT/research/2026-10-26_L758/consumer-cross.txt:27  [2026-11-25]
+           AGENTS/CREED/workbook/KB.tsv:27  [2026-11-25]
+        AGENTS/FERT/research/2026-10-26_L758/consumer-cross.txt:29  [2026-11-25]
+           AGENTS/CREED/workbook/KB.tsv:28  [2026-11-25]
+        AGENTS/FERT/research/2026-10-26_L758/consumer-cross.txt:31  [2026-11-25]
+           AGENTS/CREED/workbook/KB.tsv:29  [2026-11-25]
+        AGENTS/FERT/research/2026-10-26_L758/consumer-cross.txt:33  [2026-11-25]
+           AGENTS/CREED/workbook/KB.tsv:31  [2026-11-25]
+        AGENTS/FERT/research/2026-10-26_L758/consumer-cross.txt:35  [2026-11-25]
+           PROME/plans/2026-09-27_nano-banc-failure-investigation-PLAN.md:55  [2026-11-25]
+        AGENTS/FERT/research/2026-10-26_L758/consumer-cross.txt:37  [2026-11-25]
+           PROME/reports/2026-09-27_nano-banc-failure-SYNTHESIS.md:62  [2026-11-25]
+        AGENTS/FERT/research/2026-10-26_L758/consumer-cross.txt:40  [2026-11-25]
+           AGENTS/SAM/docket/CATALYSTS.tsv:24  [2026-11-25]  (dated TSV row (2026-11-25) — HISTORY-ROW candidate: a time-series capture holds the value
+        AGENTS/FERT/research/2026-10-26_L758/consumer-cross.txt:42  [2026-11-25]
+           AGENTS/SAM/reports/2026-10-20_subagents/snapshot/CATALYSTS.tsv:23  [2026-11-25]  (dated TSV row (2026-11-25) — HISTORY-ROW candidate: a time
+        AGENTS/FERT/research/2026-10-26_L758/consumer-cross.txt:44  [2026-11-25]
+           AGENTS/LIQUID/workbook/GATE079_CALENDAR_EXCLUDED.tsv:13  [2026-11-25]  (dated TSV row (2026-11-25) — HISTORY-ROW candidate: a time-series ca
+        AGENTS/FERT/research/2026-10-26_L758/consumer-cross.txt:46  [2026-11-25]
+           AGENTS/ISHM/docket/CATALYSTS.tsv:7  [2026-11-25]  (dated TSV row (2026-10-29) — HISTORY-ROW candidate: a time-series capture holds the value
+        AGENTS/FERT/research/2026-10-26_L758/consumer-cross.txt:48  [2026-11-25]
+           AGENTS/ISHM/docket/CATALYSTS.tsv:17  [2026-11-25]  (dated TSV row (2026-11-12) — HISTORY-ROW candidate: a time-series capture holds the valu
+        AGENTS/FERT/research/2026-10-26_L758/consumer-cross.txt:49  [2026-11-25]
+           2026-11-12	Deere fiscal-Q 4 date check: has Deere announced its release date?	Deere IR / newsroom; aggregators estimate Wed 2026-11-25 pre-m
+        AGENTS/FERT/research/2026-10-26_L758/consumer-cross.txt:50  [2026-11-25]
+           AGENTS/ISHM/docket/CATALYSTS.tsv:27  [2026-11-25]  (dated TSV row (2026-11-25) — HISTORY-ROW candidate: a time-series capture holds the valu
+        AGENTS/FERT/research/2026-10-26_L758/consumer-cross.txt:52  [2026-11-25]
+           AGENTS/CATO/runs/2026-10-23_l628-result/ledgers/ISHM.tsv:18  [2026-11-25]  (dated TSV row (2026-11-25) — HISTORY-ROW candidate: a time-serie
+        AGENTS/FERT/research/2026-10-26_L758/consumer-cross.txt:54  [2026-11-25]
+           AGENTS/CATO/runs/2026-10-23_l628-result/ledgers/ISHM.tsv:35  [2026-11-25]  (dated TSV row (2026-10-29) — HISTORY-ROW candidate: a time-serie
+        AGENTS/FERT/research/2026-10-26_L758/consumer-cross.txt:56  [2026-11-25]
+           … +3 more 🟠 hit(s) on [2026-11-25] across 7 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies not
+        AGENTS/FERT/workbook/PREDICTIONS.tsv:15  [2026-11-25]
+           FERT-12	2026-09-05	DTN retail MAP, US national average, does NOT print above $975/ton in ANY weekly DTN Progressive Farmer article published
+     🟡 in MAIL, point-in-time — usually no action (1: FERT)
+     🟢 cleared: marker-adjacent / next to new value / frozen file (9)  [--show-handled to audit]
+
+  🔴 29 stale reference(s) on YOUR OWN surfaces. You are the owner: fix them in place this session — no packet, nobody else to tell. Fix by PATTERN, not by the line list above (a line-targeted sweep left a hit on the highest-blast-radius surface three times in one night).
+==================================================================
+

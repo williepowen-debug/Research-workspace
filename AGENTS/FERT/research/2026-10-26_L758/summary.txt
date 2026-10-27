@@ -1,0 +1,233 @@
+Food Price Outlook - Summary Findings | Economic Research Service
+Skip to main content
+Skip to main content
+An official website of the United States government
+Here’s how you know
+Here’s how you know
+Official websites use .gov
+A
+.gov
+website belongs to an official government organization in the United States.
+Secure .gov websites use HTTPS
+A
+lock
+(
+Lock
+Locked padlock icon
+) or
+https://
+means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.
+Economic Research Service
+U.S. DEPARTMENT OF AGRICULTURE
+Menu
+Topics
+Data
+Access the Data
+Access and analyze data sets, maps, charts and graphs.
+Browse All Data
+Data by Type
+Access the Data
+Charts
+Downloadable Data Files
+Queryable Data Applications
+Maps
+Data by Topic
+Explore the Data Repository
+Animal Products
+Crops
+Farm Bill
+Farm Economy
+Farm Practices & Management
+Food & Nutrition Assistance
+Food Choices & Health
+Food Markets & Prices
+Food Safety
+International Markets & U.S. Trade
+Natural Resources & Environment
+Rural Economy & Population
+Analysis
+Understand the Research
+Get insights and objective analysis from experts in the field.
+Browse All Analysis
+Research Reports
+Published Papers from ERS
+Outlook Reports
+Agricultural Outlooks and Projections
+Amber Waves
+The Economics of Food, Farming, Natural Resources, and Rural Amer…
+Charts of Note
+Fast facts on U.S. agriculture
+Newsroom
+Newsroom
+See what's new and what's trending from ERS.
+Visit the Newsroom
+Events
+Trending Topics
+Contact ERS Press Office
+Subject Specialists
+Amber Waves
+Calendar
+About
+Careers
+Contact Us
+Search
+Breadcrumb
+Home
+Data Products
+Food Price Outlook
+Summary Findings
+Food Price Outlook - Summary Findings
+Updated:
+10/23/2026
+Contact:
+Hayden Stewart
+,
+Diansheng Dong
+or
+Wilson Sinclair
+In this section
+Food Price Outlook
+Summary Findings
+Documentation
+Update and Revision History
+Food Price Environment: Interactive Visualization
+Food Price Outlook, 2026
+This page summarizes the October 2026 Food Price Outlook forecasts, which incorporate the September 2026 Consumer Price Index and Producer Price Index numbers.
+See the
+Overview page
+for Consumer Price Index and Producer Price Index datasets that include recent price changes and forecasts of price changes for all categories discussed in this summary.
+See the
+Food Price Environment: Interactive Visualization
+page for interactive charts that illustrate how food prices have changed over the years and other aspects of the food price environment including food spending by U.S. households.
+Consumer Price Index for Food (not seasonally adjusted)
+The all-items Consumer Price Index (CPI), a measure of economy-wide inflation, increased 0.6 percent from August 2026 to September 2026. It was up 3.7 percent from September 2025.
+The CPI for all food increased 0.1 percent from August 2026 to September 2026. Food prices in September 2026 were 2.5 percent higher than in September 2025.
+The level of food price inflation varied depending on whether the food was purchased for consumption at home and away from home:
+The food-away-from-home (restaurant and other foodservice purchases) CPI increased 0.2 percent from August 2026 to September 2026 and was 3.5 percent higher than in September 2025.
+The food-at-home (grocery store or supermarket food purchases) CPI increased 0.1 percent from August 2026 to September 2026 and was 1.8 percent higher than in September 2025.
+Rates of price change for the 15 food-at-home categories examined in the Food Price Outlook varied widely. Average prices increased from August 2026 to September 2026 for 11 of these categories, were unchanged for 1 category, and decreased for 3 categories. Three categories experienced a large price swing, defined as a 1-month price increase or decrease of at least 1.0 percent. From August 2026 to September 2026, beef and veal prices fell by 1.3 percent while fresh fruit prices rose by 2.0 percent and egg prices rose by 1.0 percent.
+Economic Research Service (ERS) October 2026 Forecast
+During the previous 20 years (2006−25), prices for all food increased 3.0 percent per year, on average. In
+2026, prices for all food are forecast to increase 2.8 percent,
+with a forecast interval of 2.6 to 3.1 percent.
+In 2027, prices for all food are forecast to increase 1.7 percent,
+with a forecast interval of -2.5 to 6.2 percent.
+Food-away-from-home prices increased at an average rate of 3.5 percent per year during the same period (2006−25).
+In 2026, food-away-from-home prices are forecast to increase 3.5 percent,
+with a forecast interval of 3.4 to 3.7 percent.
+In 2027, food-away-from-home prices are forecast to increase 2.8 percent,
+with a forecast interval of 0.7 to 5.0 percent.
+Food-at-home prices increased by an average of 2.6 percent per year between 2006 and 2025.
+In 2026, food-at-home prices are forecast to increase 2.3 percent,
+with a forecast interval of 1.9 to 2.7 percent.
+In 2027, food-at-home prices are forecast to increase 1.0 percent,
+with a forecast interval of -5.2 to 7.5 percent.
+The
+Food Price Outlook
+tracks and forecasts the annual percentage change in calendar-year average food prices. Average prices across all months of one year are compared with average prices across all months of the previous year. Forecasting methods are based entirely on statistical models that are fitted to recent trends in the data. These methods are used to generate forecast intervals. Discussions of price changes focus on the midpoint of these intervals. The lower and upper bounds of the forecast intervals are also reported to reflect the level of uncertainty. For a summary of forecasting methods used in the
+Food Price Outlook
+, see the article
+ERS Refines Forecasting Methods in
+Food Price Outlook
+.
+CPI Forecasts for 15 Food-at-Home Categories
+In 2026, among the 15 food-at-home categories examined in the Food Price Outlook, prices for 7 categories are forecast to grow faster than their 20-year historical average rate of growth. These include beef and veal, fish and seafood, fresh fruits, fresh vegetables, processed fruits and vegetables, sugar and sweets, and nonalcoholic beverages. Prices for five other food-at-home categories are forecast to grow slower than their 20-year historical average rate of growth. These include pork, other meats, poultry, cereal and bakery products, and other foods. Prices for eggs, dairy products, and fats and oils are forecast to decline in 2026 compared to 2025.
+Beef and veal prices decreased by 1.3 percent from August 2026 to September 2026 but were 3.5 percent higher in September 2026 than in September 2025. Based on
+ERS Livestock and Meat Domestic Data
+and the
+ERS Livestock, Dairy, and Poultry Outlook
+reports, federally inspected beef production has been lower in most months of 2026 than it was during the same months of 2025. Beef production is expected to remain below year-ago levels through the end of 2026.
+Beef and veal prices are forecast to increase 8.7 percent in 2026,
+with a forecast interval of 7.4 to 10.1 percent.
+In September 2026, pork prices were unchanged from August 2026 and down 0.7 percent from September 2025.
+Pork prices are forecast to increase 1.0 percent in 2026,
+with a forecast interval of 0.2 to 1.9 percent.
+Poultry prices rose 0.4 percent from August 2026 to September 2026 and were 1.1 percent higher in September 2026 than in September 2025.
+Poultry prices are forecast to increase 1.2 percent in 2026,
+with a forecast interval of 0.5 to 1.9 percent.
+Egg prices increased 1.0 percent from August 2026 to September 2026 but were 20.6 percent lower in September 2026 than in September 2025. An ongoing outbreak of Highly Pathogenic Avian Influenza (HPAI) that began in 2022 has caused egg prices to increase by reducing egg-layer flocks and egg production. Retail egg prices increased 32.2 percent in 2022, 1.4 percent in 2023, 8.5 percent in 2024, and 21.9 percent in 2025. However, USDA is projecting an increase in egg production in 2026 over 2025. There were fewer new detections of HPAI during the first quarter of calendar year 2026 than there were during the first quarter of calendar year 2025. Moreover, as discussed in April’s ERS
+ERS Livestock, Dairy, and Poultry Outlook
+, the availability of replacement pullets has been sufficient in 2026 to cover both regular flock turnover and unpredictable HPAI-related losses.
+Egg prices are forecast to decrease 29.3 percent in 2026,
+with a forecast interval of -31.6 to -26.7 percent.
+Retail dairy prices decreased by 0.9 percent from August 2026 to September 2026 and were 0.7 percent lower in September 2026 than in September 2025. USDA projects milk production will increase in 2026 over 2025 driven by growth in the size of the dairy herd and increased milk output per cow. Increases in milk output are expected to put downward pressure on prices for some key dairy products, including cheese, despite strong domestic and export demand for U.S. dairy products.
+Prices for dairy products are forecast to decrease 0.4 percent in 2026,
+with a forecast interval of -0.8 to 0.1 percent.
+Retail fresh fruit prices increased by 2.0 percent from August 2026 to September 2026 and were 4.9 percent higher in September 2026 than in September 2025.
+Prices for fresh fruits are forecast to increase 2.9 percent in 2026,
+with a forecast interval of 2.1 to 3.7 percent.
+Retail fresh vegetable prices increased by 0.2 percent from August 2026 to September 2026 and were 2.8 percent higher in September 2026 than in September 2025.
+Prices for fresh vegetables are forecast to increase 5.8 percent in 2026,
+with a forecast interval of 4.8 to 6.8 percent.
+Prices for sugar and sweets increased by 0.1 percent from August 2026 to September 2026 and were 5.5 percent higher in September 2026 than in September 2025. Prices have increased primarily for candy and chewing gum, a subcomponent of the CPI for sugars and sweets that includes most types of chocolate candy.
+Prices for sugar and sweets are forecast to increase by 6.5 percent in 2026,
+with a forecast interval of 5.9 to 7.0 percent.
+Nonalcoholic beverage prices increased by 0.9 percent from August 2026 to September 2026 and were 3.8 percent higher in September 2026 than in September 2025. Nonalcoholic beverages include carbonated and noncarbonated drinks as well as coffee and tea. Retail coffee prices have increased faster than retail prices for other types of nonalcoholic beverages. Retail coffee prices were 7.1 percent higher in September 2026 than in September 2025.
+Prices for nonalcoholic beverages are forecast to increase by 4.4 percent in 2026,
+with a forecast interval of 3.9 to 4.9 percent.
+Producer Price Index for Food (not seasonally adjusted)
+A Producer Price Index (PPI) resembles a CPI in that a PPI reflects price changes over time. However, instead of retail prices, a PPI provides a measure of the average prices paid to domestic producers for their output. PPIs are reported for nearly every industry in the goods-producing sector of the economy. Three major PPI commodity groups are of interest to food markets: (1) unprocessed foodstuffs and feedstuffs, (2) processed foods and feeds, and (3) finished consumer foods. The farm-level and wholesale-level prices of commodities in these groups give a general sense of price movements across various stages of production in the U.S. food supply chain.
+The PPIs are typically far more volatile than the CPIs, which are further down the supply chain. Price volatility decreases as products move from the farm to the wholesale sector to the retail sector. Because of multiple processing stages in the U.S. food system, the CPI typically lags movements in the PPI. The PPI is thus a useful tool for understanding what may soon happen to the CPI.
+ERS does not forecast industry-level PPIs for unprocessed, processed, and finished foods and feeds. However, these prices have historically shown a strong correlation with the all-food and food-at-home CPIs.
+PPI Forecasts for 13 Farm-level and Wholesale-level Categories
+From January 2026 through July 2026, farm-level cattle prices were higher than in the same months of 2025. Since then, prices have declined for 4 consecutive months. They fell 4.4 percent from August 2026 to September 2026 and were 7.6 percent lower in September 2026 than in September 2025. Despite these recent price decreases,
+ERS forecasts farm-level cattle prices to increase by 5.8 percent in 2026,
+with a forecast interval of 3.6 to 8.3 percent. Wholesale beef prices increased 2.6 percent from August 2026 to September 2026 but were 3.6 percent lower in September 2026 than in September 2025.
+Wholesale beef prices are forecast to increase by 8.8 percent in 2026,
+with a forecast interval of 4.8 percent to 13.5 percent.
+Prices for farm-level eggs increased 163.1 percent in 2022, decreased 28.3 percent in 2023, increased 43.1 percent in 2024, and increased 31.6 percent in 2025, primarily due to the spread of HPAI and reductions in egg production. However, U.S. egg production is recovering. Farm-level egg prices fell 39.7 percent from August 2026 to September 2026 and were 75.3 percent lower in September 2026 than in September 2025.
+Farm-level egg prices are forecast to decrease by 81.2 percent in 2026,
+with a forecast interval of -83.3 percent to -77.4 percent.
+Prices for farm-level milk decreased 9.2 percent from August 2026 to September 2026 and were 11.8 percent lower in September 2026 than in September 2025.
+Prices for farm-level milk are forecast to decrease 10.5 percent in 2026,
+with a forecast interval of -13.4 percent to -7.0 percent.
+Prices for farm-level fruits increased 8.6 percent from August 2026 to September 2026 and were 9.1 percent higher in September 2026 than in September 2025. Farm-level fruit prices can increase and decrease from one month to the next month based on weather, production, seasonality, and other factors.
+ERS forecasts that farm-level fruit prices will decrease by 2.1 percent in 2026,
+with a forecast interval of -5.0 percent to 1.2 percent.
+Prices for farm-level fresh vegetables increased 37.3 percent from August 2026 to September 2026 and were 29.6 percent higher in September 2026 than in September 2025. Farm-level vegetable prices, like farm-level fruit prices, can undergo large swings based on weather, production, seasonality, and other factors.
+ERS forecasts that farm-level vegetable prices will increase 21.2 percent in 2026,
+with a forecast interval of 14.1 percent to 30.6 percent.
+Prices for farm-level wheat increased 10.2 percent from August 2026 to September 2026 and were 49.8 percent higher in September 2026 than in September 2025. Farm-level wheat prices have increased in recent months with a large projected decline in U.S. wheat output, as reported in the June 2026
+Wheat Outlook
+report.
+In 2026, farm-level wheat prices are forecast to increase 22.6 percent,
+with a forecast interval of 17.3 to 29.0 percent.
+For official USDA farm-level price forecasts, see the
+World Agricultural Supply and Demand Estimates at a Glance
+report. For additional information, detailed explanations, and analyses of farm-level prices, see ERS outlook publications including the
+Livestock, Dairy, and Poultry
+,
+Oil Crops
+,
+Wheat
+,
+Fruit and Tree Nuts
+, and
+Vegetables and Pulses
+reports.
+See the
+Overview page
+for Consumer Price Index and Producer Price Index datasets that include recent price changes and forecasts of price changes for all categories discussed in this summary.
+We’d welcome your feedback!
+Would you be willing to answer a few quick questions about your experience?
+Yes, I’ll give feedback
+Return to top
+ERS Links
+Accessibility
+Careers
+Contact Us
+Help
+Information Quality
+Privacy Policy
+Site Map
+USDA Links
+FOIA
+Non-Discrimination Statement
+Plain Writing
+Report Fraud
+USDA.gov
+USA.gov
+White House.gov
+ERS E-newsletters
+Subscribe
+Economic Research Service
