@@ -2,6 +2,13 @@
 
 Read only entries relevant to Will's current assignment. This is historical evidence and retained authority, not an automatic task queue. Moved from CONTINUITY.md on October 1, 2026; pre-move record at `c8a8fb86a969688c4b8e9ee25b130770d40be0c2`. Current resume point: [CONTINUITY.md](CONTINUITY.md). Dates and owner states below are last-checked observations, not fresh verification. Moving a record neither closes a finding nor revokes its approval.
 
+## October 26 direction and retained advice
+
+- **PROME reporting / restart:** [Continuing record](runs/2026-10-26_1738_workflow-review-and-restart.md#october-26-evening--research-first-output-and-adopted-next-direction). WQ-526 assessment closed; retain provisionally, net efficiency and process survival unproven. Conclusion4778e15e0/continuation35267e752 inspected; 17 packet bytes verified, saved refresh checked; no full tool trace or independent implementation acceptance. Earlier missing-release concern superseded by documented parent STOP ACK, not native-transport verification. WQ-525 installed; one improved synthesis observed. Will adopted the latest-evidence Brazil correction and continuation direction; correction CLOSED in inspected report/SCRATCH at b8e4fcb0c, preserving paid-cash uncertainty and evaluation boundaries. No automatic review/new trial.
+- **LIQUID organization:** [Advice](runs/2026-10-26_1941_liquid-objectives-organization.md), published050515cab. Keep six STATUS sections; short direction in §1, only owed list §3; reduce changing IDENTITY state without deleting decision rules; retain calendar twins/NEXUS consumer contract. Bound public-source search at evidence frontier. Owner-edit authorization/delivery and implementation unverified; no CATO owner edit or send.
+- **VULCAN documentation:** [Proposed repair](runs/2026-10-26_1738_workflow-review-and-restart.md#vulcan-documentation-review). Local reconciliation/receipt-only closeout improvement proposed; authorization and implementation unverified. Prior checker observation is inspection, not isolated testing; NEXUS version contract/root rules remain outside local repair.
+- **Three-desk carry:** [Completion advice](runs/2026-10-25_2058_three-desk-data-catchup.md#october-25-completion-update--useful-distinctions-and-miami-correction) retains coordination-only verification and unconfirmed Miami correction consumption; no equivalent rereview commissioned.
+
 ## October 24 topic map and retained dispositions
 
 [Pre-closeout continuity](CONTINUITY_2026-10-24_ARCHIVE.md) preserves the complete previous startup record verbatim, including all approvals and unresolved limits; it is history, not a current assignment. This table supplies targeted entry points. Older cases were not freshly audited during closeout.
