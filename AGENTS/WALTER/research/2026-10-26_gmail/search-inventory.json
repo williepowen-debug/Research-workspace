@@ -1,0 +1,1484 @@
+{
+  "query": "after:2026/10/19 -in:spam -in:trash -category:social; selected research senders specified in REVIEW.md",
+  "result_count": 211,
+  "traversal_complete": true,
+  "items": [
+    {
+      "id": "1a17a4e158699654",
+      "date": "2026-10-26T22:21:39+00:00",
+      "from": "Bloomberg noreply@news.bloomberg.com",
+      "subject": "Anthropic’s big day — and warning",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a17a4e158699654"
+    },
+    {
+      "id": "1a179fe0dfa168a7",
+      "date": "2026-10-26T20:54:01+00:00",
+      "from": "Coffee and a Mike coffeeandamike@substack.com",
+      "subject": "New Podcast with Clem Chambers",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a179fe0dfa168a7"
+    },
+    {
+      "id": "1a179e7b6d320640",
+      "date": "2026-10-26T13:29:50-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - zion bank",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a179e7b6d320640"
+    },
+    {
+      "id": "1a179bf3657ec0c3",
+      "date": "2026-10-26T15:45:03-04:00",
+      "from": "Trepp trepptalk@trepp.com",
+      "subject": "New Research from Trepp: Your Q3 2026 CRE and CMBS Recap",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a179bf3657ec0c3"
+    },
+    {
+      "id": "1a179b1bfc6ae56f",
+      "date": "2026-10-26T15:30:26-04:00",
+      "from": "Commercial Observer Events rsvp@commercialobserver.com",
+      "subject": "The Robots Are Coming, and Other AI-Related Observations From the Experts",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a179b1bfc6ae56f"
+    },
+    {
+      "id": "1a1798ad7747782f",
+      "date": "2026-10-26T18:48:09+00:00",
+      "from": "Maxim Smith greatmanpodcast+what-i-did-this-week@substack.com",
+      "subject": "Hard Work, Planning, Building, and Electrical (Weeks 168 & 169)",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a1798ad7747782f"
+    },
+    {
+      "id": "1a17961b016dd36f",
+      "date": "2026-10-26T18:03:21+00:00",
+      "from": "Bloomberg Businessweek noreply@news.bloomberg.com",
+      "subject": "Mark Zuckerberg’s personal finance dilemma",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a17961b016dd36f"
+    },
+    {
+      "id": "1a179170c2d74edc",
+      "date": "2026-10-26T16:41:55+00:00",
+      "from": "Bisnow News news@publications.bisnow.com",
+      "subject": "10 National Stories You'll Be Talking About This Week",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a179170c2d74edc"
+    },
+    {
+      "id": "1a178cad08e17db1",
+      "date": "2026-10-26T10:18:34-05:00",
+      "from": "National Mortgage News leaders@oe.arizent.com",
+      "subject": "Register Now: Gary Pzegeo on the Fed's Next Move",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a178cad08e17db1"
+    },
+    {
+      "id": "1a178c9fec8e992b",
+      "date": "2026-10-26T08:17:46-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - Regional Bank",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a178c9fec8e992b"
+    },
+    {
+      "id": "1a178c22744fa305",
+      "date": "2026-10-26T11:09:12-04:00",
+      "from": "Lonnie Hendry lonnie_hendry@trepp.com",
+      "subject": "Webinar Invite | CMBS Maturities, Interest Rates, & Multifamily",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a178c22744fa305"
+    },
+    {
+      "id": "1a178bfe351879cf",
+      "date": "2026-10-26T08:06:43-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - Distressed asset",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a178bfe351879cf"
+    },
+    {
+      "id": "1a178b42f0e934b9",
+      "date": "2026-10-26T14:52:21+00:00",
+      "from": "The Unicus Investor contrarianunicus@substack.com",
+      "subject": "Hyperscalers: Day Two in Texas: Vlog Day 2",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a178b42f0e934b9"
+    },
+    {
+      "id": "1a178ab51cd240f4",
+      "date": "2026-10-26T14:43:47+00:00",
+      "from": "Michael Burry michaeljburry@substack.com",
+      "subject": "[Abridged] Foundations: The Fate of the S&P 500’s Worst Stocks, the Y2K Analogue, and Time for Small Caps?",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a178ab51cd240f4"
+    },
+    {
+      "id": "1a1789eca969dbc9",
+      "date": "2026-10-26T10:30:34-04:00",
+      "from": "Commercial Observer rsvp@commercialobserver.com",
+      "subject": "Agenda Announced: Join GSA, Rudin, JLL & More Next Week at State of Office Forum",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a1789eca969dbc9"
+    },
+    {
+      "id": "1a178973ef475979",
+      "date": "2026-10-26T08:22:20-06:00",
+      "from": "\"pjm@lists.pjm.com\" pjm@lists.pjm.com",
+      "subject": "[Action Required] Fall Daylight Savings Time Notification for Nov. 1 for Markets Gateway",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a178973ef475979"
+    },
+    {
+      "id": "1a1788f2f6004ef0",
+      "date": "2026-10-26T07:13:30-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - Commercial real estate",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a1788f2f6004ef0"
+    },
+    {
+      "id": "1a1788a511d92faa",
+      "date": "2026-10-26T07:08:12-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - CRE",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a1788a511d92faa"
+    },
+    {
+      "id": "1a1788578db90134",
+      "date": "2026-10-26T07:02:54-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - Japanese bond market",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a1788578db90134"
+    },
+    {
+      "id": "1a1785ef036053f9",
+      "date": "2026-10-26T06:20:49-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - Valley National Bancrop",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a1785ef036053f9"
+    },
+    {
+      "id": "1a17857cae018dc4",
+      "date": "2026-10-26T06:13:01-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - KRE",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a17857cae018dc4"
+    },
+    {
+      "id": "1a178570eb99c589",
+      "date": "2026-10-26T13:11:54+00:00",
+      "from": "Bloomberg noreply@news.bloomberg.com",
+      "subject": "Breaking News: Anthropic Files for IPO to Become First Frontier AI Lab to List",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a178570eb99c589"
+    },
+    {
+      "id": "1a17854a57d69d1d",
+      "date": "2026-10-26T06:09:35-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - bank ozk",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a17854a57d69d1d"
+    },
+    {
+      "id": "1a1784ce235858b1",
+      "date": "2026-10-26T06:01:06-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - western alliance",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a1784ce235858b1"
+    },
+    {
+      "id": "1a178373304f5eb2",
+      "date": "2026-10-26T12:32:35+00:00",
+      "from": "Business Analytics Review businessanalytics@substack.com",
+      "subject": "The Decoupling: Why OpenAI Just Handed the Keys to Google Cloud",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a178373304f5eb2"
+    },
+    {
+      "id": "1a1781b907917957",
+      "date": "2026-10-26T12:06:36+00:00",
+      "from": "FT Edit FT@newsletters.ft.com",
+      "subject": "The Maga outcast",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a1781b907917957"
+    },
+    {
+      "id": "1a1780418f98ddc9",
+      "date": "2026-10-26T11:39:34+00:00",
+      "from": "Compounding Dividends compoundingdividends@substack.com",
+      "subject": "A Fresh Look at Our Dividend Portfolio",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a1780418f98ddc9"
+    },
+    {
+      "id": "1a177fc73c6d3c96",
+      "date": "2026-10-26T11:33:15+00:00",
+      "from": "The CRE Rundown by Trepp therundown@trepp.com",
+      "subject": "It's Alive! San Francisco's Office Market Rises From the Dead",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a177fc73c6d3c96"
+    },
+    {
+      "id": "1a177bf102f29ecd",
+      "date": "2026-10-26T10:23:27+00:00",
+      "from": "\"J.C. Bruce \" jcbruce@substack.com",
+      "subject": "Here’s why we can’t let bullies and fear-mongers have their way this election",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a177bf102f29ecd"
+    },
+    {
+      "id": "1a177b138f11edb9",
+      "date": "2026-10-26T10:11:01+00:00",
+      "from": "Bloomberg noreply@news.bloomberg.com",
+      "subject": "Lula stages a comeback",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a177b138f11edb9"
+    },
+    {
+      "id": "1a1766232ffe183d",
+      "date": "2026-10-26T04:00:45+00:00",
+      "from": "Business Analytics Review businessanalytics@substack.com",
+      "subject": "Freemium:Out-of-Distribution (OOD) Detection",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a1766232ffe183d"
+    },
+    {
+      "id": "1a175eb385ae5236",
+      "date": "2026-10-26T01:55:11+00:00",
+      "from": "The CRE Rundown by Trepp therundown@trepp.com",
+      "subject": "It's Alive! San Francisco's Office Market Rises From the Dead",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a175eb385ae5236"
+    },
+    {
+      "id": "1a1758e3f83c8678",
+      "date": "2026-10-26T00:12:14+00:00",
+      "from": "Michael Burry michaeljburry@substack.com",
+      "subject": "Pricing Update - There will be NO Pricing/ Rate Increase November 1",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a1758e3f83c8678"
+    },
+    {
+      "id": "1a17580438880ef9",
+      "date": "2026-10-25T23:58:19+00:00",
+      "from": "Bloomberg noreply@news.bloomberg.com",
+      "subject": "Breaking News: Brazil’s Datafolha Projects Lula as Election Winner",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a17580438880ef9"
+    },
+    {
+      "id": "1a1757d943e72fbf",
+      "date": "2026-10-25T23:55:07+00:00",
+      "from": "JunkBondInvestor from JunkBondInvest junkbondinvestor@substack.com",
+      "subject": "Credit Weekly: Rated BB, Priced Like Something Else",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a1757d943e72fbf"
+    },
+    {
+      "id": "1a1756966359ec5e",
+      "date": "2026-10-25T23:14:52+00:00",
+      "from": "\"Eltoro | Harry Colt\" eltoromarketinsights@substack.com",
+      "subject": "#43 Weekly Update - Up 111% Ready For Volatility - The One Place Portfolios - All Signal Point to One Way",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a1756966359ec5e"
+    },
+    {
+      "id": "1a17559386e7ece5",
+      "date": "2026-10-25T23:07:21+00:00",
+      "from": "\"Eltoro | Harry Colt\" eltoromarketinsights+forecast@substack.com",
+      "subject": "[Resent With Fix] #43 Weekly Update - Up 111% Ready For Volatility - The One Place Portfolios - All Signal Point t…",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a17559386e7ece5"
+    },
+    {
+      "id": "1a17495a7f9485ac",
+      "date": "2026-10-25T19:41:36+00:00",
+      "from": "Lighthouse Macro lighthousemacro@substack.com",
+      "subject": "Outside Money",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a17495a7f9485ac"
+    },
+    {
+      "id": "1a174788ce42c272",
+      "date": "2026-10-25T12:10:19-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - HOA failure",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a174788ce42c272"
+    },
+    {
+      "id": "1a173cacbe8c9bf6",
+      "date": "2026-10-25T09:00:31-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - Nevada HOA",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a173cacbe8c9bf6"
+    },
+    {
+      "id": "1a1739d6b28aabfe",
+      "date": "2026-10-25T08:10:58-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - Distressed asset",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a1739d6b28aabfe"
+    },
+    {
+      "id": "1a173975e60dadec",
+      "date": "2026-10-25T08:04:22-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - Regional Bank",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a173975e60dadec"
+    },
+    {
+      "id": "1a1736694c1dc48c",
+      "date": "2026-10-25T07:11:04-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - Commercial real estate",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a1736694c1dc48c"
+    },
+    {
+      "id": "1a17363942dcc912",
+      "date": "2026-10-25T07:07:47-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - Japanese bond market",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a17363942dcc912"
+    },
+    {
+      "id": "1a1735ebcc2e269f",
+      "date": "2026-10-25T07:02:30-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - CRE",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a1735ebcc2e269f"
+    },
+    {
+      "id": "1a1733ddf2f1d459",
+      "date": "2026-10-25T13:23:02+00:00",
+      "from": "\"Michael W. Green from Yes, I give a fig... thoughts on markets from Michael Green\" michaelwgreen@substack.com",
+      "subject": "Number Go Up",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a1733ddf2f1d459"
+    },
+    {
+      "id": "1a173379c861ba0e",
+      "date": "2026-10-25T06:19:46-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - Valley National Bancrop",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a173379c861ba0e"
+    },
+    {
+      "id": "1a173316c3204c24",
+      "date": "2026-10-25T06:13:01-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - bank ozk",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a173316c3204c24"
+    },
+    {
+      "id": "1a1732aaa4356c77",
+      "date": "2026-10-25T06:05:37-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - western alliance",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a1732aaa4356c77"
+    },
+    {
+      "id": "1a1732632c3da66d",
+      "date": "2026-10-25T06:00:44-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - KRE",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a1732632c3da66d"
+    },
+    {
+      "id": "1a17314fa7cc24a9",
+      "date": "2026-10-25T12:41:44+00:00",
+      "from": "The Unicus Investor contrarianunicus@substack.com",
+      "subject": "Hyperscalers: Our Unicus Research Team Is On The Road - Intro Vlog Day 1",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a17314fa7cc24a9"
+    },
+    {
+      "id": "1a17306e7b755022",
+      "date": "2026-10-25T12:10:35+00:00",
+      "from": "Compounding Quality qualitycompounding@substack.com",
+      "subject": "Lessons From FICO’s Collapse",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a17306e7b755022"
+    },
+    {
+      "id": "1a172ec12c0afe2a",
+      "date": "2026-10-25T11:56:32+00:00",
+      "from": "\"Kris Abdelmessih from moontower: a stoner dad explains options trading to his kids\" moontower@substack.com",
+      "subject": "a market-maker for ants",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a172ec12c0afe2a"
+    },
+    {
+      "id": "1a172b82d47f7d85",
+      "date": "2026-10-25T11:00:31+00:00",
+      "from": "Bloomberg Businessweek noreply@news.bloomberg.com",
+      "subject": "Bw Reads: Win or lose, Bibi endures",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a172b82d47f7d85"
+    },
+    {
+      "id": "1a1729fe6ab267ae",
+      "date": "2026-10-25T10:30:20+00:00",
+      "from": "\"J.C. Bruce \" jcbruce@substack.com",
+      "subject": "WEEKLY WRAP: Florida races tighten as Election Day draws near",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a1729fe6ab267ae"
+    },
+    {
+      "id": "1a16fdc4d3222991",
+      "date": "2026-10-24T21:34:39+00:00",
+      "from": "Michael Burry michaeljburry@substack.com",
+      "subject": "Foundations: The Fate of the S&P 500’s Worst Stocks, the Y2K Analogue, and Time for Small Caps?",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a16fdc4d3222991"
+    },
+    {
+      "id": "1a16fa078b6ab74d",
+      "date": "2026-10-24T20:34:26+00:00",
+      "from": "\"The Unicus Investor: Pre-Mortem Edition\" contrarianunicus+pre-mortem@substack.com",
+      "subject": "The $2 Billion Insurance Failure and the Private Equity Firm Golden Gate Capital: The Rise of Insurance Companies’…",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a16fa078b6ab74d"
+    },
+    {
+      "id": "1a16f806750e70ea",
+      "date": "2026-10-24T13:00:48-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - zion bank",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a16f806750e70ea"
+    },
+    {
+      "id": "1a16e7d4ca406461",
+      "date": "2026-10-24T08:17:47-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - Regional Bank",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a16e7d4ca406461"
+    },
+    {
+      "id": "1a16e70acaff75ed",
+      "date": "2026-10-24T08:03:59-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - Distressed asset",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a16e70acaff75ed"
+    },
+    {
+      "id": "1a16e4cedd8c52eb",
+      "date": "2026-10-24T13:02:05+00:00",
+      "from": "The Substack Post post+the-weekender@substack.com",
+      "subject": "“You just need to pretend to be an important person”",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a16e4cedd8c52eb"
+    },
+    {
+      "id": "1a16e3e1e2ad1128",
+      "date": "2026-10-24T07:08:46-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - Commercial real estate",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a16e3e1e2ad1128"
+    },
+    {
+      "id": "1a16e3c0fe47a987",
+      "date": "2026-10-24T07:06:31-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - CRE",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a16e3c0fe47a987"
+    },
+    {
+      "id": "1a16e385eddae381",
+      "date": "2026-10-24T07:02:29-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - Japanese bond market",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a16e385eddae381"
+    },
+    {
+      "id": "1a16e0e483eb602d",
+      "date": "2026-10-24T06:16:31-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - KRE",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a16e0e483eb602d"
+    },
+    {
+      "id": "1a16e095b61d6c7d",
+      "date": "2026-10-24T06:11:08-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - Valley National Bancrop",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a16e095b61d6c7d"
+    },
+    {
+      "id": "1a16e06fec211ca1",
+      "date": "2026-10-24T06:08:34-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - western alliance",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a16e06fec211ca1"
+    },
+    {
+      "id": "1a16de3f36c924cc",
+      "date": "2026-10-24T12:30:17+00:00",
+      "from": "Financial Times invites-offers@mail.ft.com",
+      "subject": "Final chance to get your first year for $299",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a16de3f36c924cc"
+    },
+    {
+      "id": "1a16de0d34edaf17",
+      "date": "2026-10-24T12:23:27+00:00",
+      "from": "Lighthouse Macro lighthousemacro@substack.com",
+      "subject": "Hiking Into a Drain",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a16de0d34edaf17"
+    },
+    {
+      "id": "1a16dde57bfcd89e",
+      "date": "2026-10-24T12:13:37+00:00",
+      "from": "Coffee and a Mike coffeeandamike@substack.com",
+      "subject": "New Podcast with George Gammon",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a16dde57bfcd89e"
+    },
+    {
+      "id": "1a16da14a093f665",
+      "date": "2026-10-24T11:15:33+00:00",
+      "from": "Compounding Dividends compoundingdividends@substack.com",
+      "subject": "Best Buys October 2026",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a16da14a093f665"
+    },
+    {
+      "id": "1a16d91dd5d5d5c5",
+      "date": "2026-10-24T11:00:34+00:00",
+      "from": "Bloomberg Businessweek noreply@news.bloomberg.com",
+      "subject": "Podcast: Let them eat steak",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a16d91dd5d5d5c5"
+    },
+    {
+      "id": "1a16d6b8c8c34a24",
+      "date": "2026-10-24T10:02:09+00:00",
+      "from": "\"J.C. Bruce \" jcbruce@substack.com",
+      "subject": "ASK THE BIRD: Are voting machines safe to use in this election? I’ve heard rumors",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a16d6b8c8c34a24"
+    },
+    {
+      "id": "1a16d244f96bed9c",
+      "date": "2026-10-24T09:00:12+00:00",
+      "from": "FT Edit FT@newsletters.ft.com",
+      "subject": "You love a walk in the dark",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a16d244f96bed9c"
+    },
+    {
+      "id": "1a16ced9066be873",
+      "date": "2026-10-24T08:01:04+00:00",
+      "from": "Bloomberg Weekend noreply@news.bloomberg.com",
+      "subject": "‘They’re the dumbest they’ll ever be’",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a16ced9066be873"
+    },
+    {
+      "id": "1a16ac8be9b8a664",
+      "date": "2026-10-23T22:01:28+00:00",
+      "from": "Bloomberg noreply@news.bloomberg.com",
+      "subject": "AI bears are gathering",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a16ac8be9b8a664"
+    },
+    {
+      "id": "1a16a59c8f22b7a1",
+      "date": "2026-10-23T13:00:29-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - zion bank",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a16a59c8f22b7a1"
+    },
+    {
+      "id": "1a16a4c4a2774dbe",
+      "date": "2026-10-23T19:45:47+00:00",
+      "from": "Bloomberg subscriptions@message.bloomberg.com",
+      "subject": "Why do we steal things from restaurants?",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a16a4c4a2774dbe"
+    },
+    {
+      "id": "1a16a42cd3064be5",
+      "date": "2026-10-23T13:35:24-06:00",
+      "from": "\"pjm@lists.pjm.com\" pjm@lists.pjm.com",
+      "subject": "[Outage] Maintenance to Markets Gateway, Data Miner, SCED, and ASO in Prod. on October 27 from 2:50 p.m. - 5:00 p.m. EPT",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a16a42cd3064be5"
+    },
+    {
+      "id": "1a16a3e171570d7d",
+      "date": "2026-10-23T15:30:16-04:00",
+      "from": "Commercial Observer Events rsvp@commercialobserver.com",
+      "subject": "RXR Shares Its Approach to Residential Development and Urban Housing",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a16a3e171570d7d"
+    },
+    {
+      "id": "1a16a2e276d2918a",
+      "date": "2026-10-23T12:12:51-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - HOA failure",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a16a2e276d2918a"
+    },
+    {
+      "id": "1a169dee7c41ba52",
+      "date": "2026-10-23T13:45:33-04:00",
+      "from": "Commercial Observer Events rsvp@commercialobserver.com",
+      "subject": "Virtual Event: How to Use AI Agents in Real Estate - Get a Live Guide",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a169dee7c41ba52"
+    },
+    {
+      "id": "1a16984a7aa5c4c1",
+      "date": "2026-10-23T16:07:35+00:00",
+      "from": "Bloomberg Businessweek noreply@news.bloomberg.com",
+      "subject": "The November Issue: Women’s sports",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a16984a7aa5c4c1"
+    },
+    {
+      "id": "1a16962166676701",
+      "date": "2026-10-23T15:27:13+00:00",
+      "from": "Unusual Whales Newsletter unusualwhales@substack.com",
+      "subject": "Options Flow Filters: Keeping It Simple is OK!",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a16962166676701"
+    },
+    {
+      "id": "1a1694f1bde8938c",
+      "date": "2026-10-23T08:09:13-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - Regional Bank",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a1694f1bde8938c"
+    },
+    {
+      "id": "1a1694b21a5951aa",
+      "date": "2026-10-23T08:04:53-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - Distressed asset",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a1694b21a5951aa"
+    },
+    {
+      "id": "1a169304e6ea273b",
+      "date": "2026-10-23T10:35:25-04:00",
+      "from": "Commercial Observer rsvp@commercialobserver.com",
+      "subject": "12 Days Away: Join IBM, GSA, JLL & More at State of Office Forum - 11.4",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a169304e6ea273b"
+    },
+    {
+      "id": "1a1691a92e6793a1",
+      "date": "2026-10-23T07:11:51-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - Commercial real estate",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a1691a92e6793a1"
+    },
+    {
+      "id": "1a16916d690c922d",
+      "date": "2026-10-23T07:07:46-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - CRE",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a16916d690c922d"
+    },
+    {
+      "id": "1a16916b9eff2e85",
+      "date": "2026-10-23T07:07:38-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - Japanese bond market",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a16916b9eff2e85"
+    },
+    {
+      "id": "1a168dcce5d41730",
+      "date": "2026-10-23T06:04:23-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - bank ozk",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a168dcce5d41730"
+    },
+    {
+      "id": "1a168dc14351f585",
+      "date": "2026-10-23T09:03:33-04:00",
+      "from": "Trepp trepptalk@trepp.com",
+      "subject": "PODCAST | Hike or Rate Spike? Fed's Next Move, 245 Park's Second Act, & Chicago Office Foreclosure",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a168dc14351f585"
+    },
+    {
+      "id": "1a168db38c0794c4",
+      "date": "2026-10-23T06:02:39-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - western alliance",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a168db38c0794c4"
+    },
+    {
+      "id": "1a168d999c34d514",
+      "date": "2026-10-23T06:00:52-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - KRE",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a168d999c34d514"
+    },
+    {
+      "id": "1a1688e5ba8563f3",
+      "date": "2026-10-23T11:38:41+00:00",
+      "from": "The CRE Rundown by Trepp therundown@trepp.com",
+      "subject": "Seniors Housing Faces $2.24B of Hard Maturities Through 2027",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a1688e5ba8563f3"
+    },
+    {
+      "id": "1a16877bb772365f",
+      "date": "2026-10-23T11:13:53+00:00",
+      "from": "Bloomberg noreply@news.bloomberg.com",
+      "subject": "Volatility reigns",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a16877bb772365f"
+    },
+    {
+      "id": "1a1686ef15d09f28",
+      "date": "2026-10-22T11:02:39+00:00",
+      "from": "Kontrarian Korner kontrariankorner@substack.com",
+      "subject": "The CIA Files - Part 24",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a1686ef15d09f28"
+    },
+    {
+      "id": "1a1686bbdc137a9c",
+      "date": "2026-10-23T11:00:13+00:00",
+      "from": "FT Edit FT@newsletters.ft.com",
+      "subject": "A shot of normality",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a1686bbdc137a9c"
+    },
+    {
+      "id": "1a168459a5000784",
+      "date": "2026-10-23T10:03:31+00:00",
+      "from": "\"J.C. Bruce \" jcbruce+guest-commentary@substack.com",
+      "subject": "Donalds holds $33 million cash advantage over Jolly in final weeks of Florida governor’s race",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a168459a5000784"
+    },
+    {
+      "id": "1a166f4ae8c744a3",
+      "date": "2026-10-23T04:01:02+00:00",
+      "from": "Business Analytics Review businessanalytics@substack.com",
+      "subject": "Freemium: How Claude's Computer Use API Changes Desktop Automation",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a166f4ae8c744a3"
+    },
+    {
+      "id": "1a1659dc8e9be3fa",
+      "date": "2026-10-22T21:56:38+00:00",
+      "from": "Bloomberg noreply@news.bloomberg.com",
+      "subject": "Hedge funds bet bearish",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a1659dc8e9be3fa"
+    },
+    {
+      "id": "1a1658a5f831915a",
+      "date": "2026-10-22T21:35:11+00:00",
+      "from": "Lighthouse Macro lighthousemacro@substack.com",
+      "subject": "The Bottom of the Stack",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a1658a5f831915a"
+    },
+    {
+      "id": "1a165657ef6d4e46",
+      "date": "2026-10-22T13:55:12-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - zion bank",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a165657ef6d4e46"
+    },
+    {
+      "id": "1a1654f0dad41bb2",
+      "date": "2026-10-22T16:30:23-04:00",
+      "from": "Commercial Observer Events rsvp@commercialobserver.com",
+      "subject": "Sustainability Innovation Equals Improved Building Performance: Forum",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a1654f0dad41bb2"
+    },
+    {
+      "id": "1a1654bc49364c25",
+      "date": "2026-10-22T20:26:43+00:00",
+      "from": "Coffee and a Mike coffeeandamike@substack.com",
+      "subject": "New Podcast Lt. Col Karen Kwiatkowski",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a1654bc49364c25"
+    },
+    {
+      "id": "1a1650a7a0bb9ffc",
+      "date": "2026-10-22T19:12:59+00:00",
+      "from": "\"J.C. Bruce \" jcbruce@substack.com",
+      "subject": "Who tried to hide the Hope Florida grand jury’s report? Now we know. Also, Republicans withdraw their suit to bloc…",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a1650a7a0bb9ffc"
+    },
+    {
+      "id": "1a164e0dc11bb971",
+      "date": "2026-10-22T14:30:20-04:00",
+      "from": "Commercial Observer newsletter@mail.commercialobserver.com",
+      "subject": "The Sit-Down: Williams Equities' Michael T. Cohen, Robert Getreu and Andrew Roos",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a164e0dc11bb971"
+    },
+    {
+      "id": "1a164dbd580cde28",
+      "date": "2026-10-22T18:22:01+00:00",
+      "from": "Unusual Whales Newsletter unusualwhales@substack.com",
+      "subject": "Gamma Giveth, and Gamma Taketh Away: Trading Futures with GEX",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a164dbd580cde28"
+    },
+    {
+      "id": "1a164cf7a85211eb",
+      "date": "2026-10-22T18:11:15+00:00",
+      "from": "Bloomberg Businessweek noreply@news.bloomberg.com",
+      "subject": "How the Houthis became a global menace",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a164cf7a85211eb"
+    },
+    {
+      "id": "1a164b85715a7c1d",
+      "date": "2026-10-22T17:02:29+00:00",
+      "from": "Substack on@substack.com",
+      "subject": "Model Behavior: Rick Rubin",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a164b85715a7c1d"
+    },
+    {
+      "id": "1a1648a76f6114f7",
+      "date": "2026-10-22T16:55:15+00:00",
+      "from": "Michael Burry michaeljburry@substack.com",
+      "subject": "Compression, The End of Moats",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a1648a76f6114f7"
+    },
+    {
+      "id": "1a1643451fcc0fd7",
+      "date": "2026-10-22T15:21:52+00:00",
+      "from": "Substack no-reply@substack.com",
+      "subject": "\"Ray Dalio says we’re past the point of no return\" and 4 more",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a1643451fcc0fd7"
+    },
+    {
+      "id": "1a1642cf3c958aa3",
+      "date": "2026-10-22T15:03:45+00:00",
+      "from": "Maxim Smith greatmanpodcast@substack.com",
+      "subject": "This Cycle Failed...Here’s How I’d Do It All Over Again",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a1642cf3c958aa3"
+    },
+    {
+      "id": "1a1642c6827b63e2",
+      "date": "2026-10-22T08:13:14-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - Distressed asset",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a1642c6827b63e2"
+    },
+    {
+      "id": "1a16422c965751aa",
+      "date": "2026-10-22T08:02:42-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - Regional Bank",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a16422c965751aa"
+    },
+    {
+      "id": "1a163f865a45512b",
+      "date": "2026-10-22T07:16:24-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - CRE",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a163f865a45512b"
+    },
+    {
+      "id": "1a163f6d380ff634",
+      "date": "2026-10-22T09:14:25-05:00",
+      "from": "National Mortgage News leaders@oe.arizent.com",
+      "subject": "Gary Pzegeo analyzes the Federal Reserve meeting",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a163f6d380ff634"
+    },
+    {
+      "id": "1a163f37dc472499",
+      "date": "2026-10-22T07:11:03-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - Commercial real estate",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a163f37dc472499"
+    },
+    {
+      "id": "1a163ed1850f30aa",
+      "date": "2026-10-22T07:04:04-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - Japanese bond market",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a163ed1850f30aa"
+    },
+    {
+      "id": "1a163c9e9b135e0f",
+      "date": "2026-10-22T06:25:38-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - Valley National Bancrop",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a163c9e9b135e0f"
+    },
+    {
+      "id": "1a163bf00ce13da8",
+      "date": "2026-10-22T06:13:44-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - western alliance",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a163bf00ce13da8"
+    },
+    {
+      "id": "1a163b9f0f24edc6",
+      "date": "2026-10-22T06:08:12-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - bank ozk",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a163b9f0f24edc6"
+    },
+    {
+      "id": "1a163af4b6274dd0",
+      "date": "2026-10-22T12:56:29+00:00",
+      "from": "Bloomberg subscriptions@message.bloomberg.com",
+      "subject": "Final reminder: 60% off ends soon",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a163af4b6274dd0"
+    },
+    {
+      "id": "1a16371a2c7055b3",
+      "date": "2026-10-22T11:49:13+00:00",
+      "from": "Substack no-reply@substack.com",
+      "subject": "junkbondinvestor, Unicus Research, and Michael Burry posted new notes",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a16371a2c7055b3"
+    },
+    {
+      "id": "1a16369cd66d000f",
+      "date": "2026-10-22T11:39:33+00:00",
+      "from": "\"Kris Abdelmessih from moontower: a stoner dad explains options trading to his kids\" moontower@substack.com",
+      "subject": "the “rewind” tail hedge",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a16369cd66d000f"
+    },
+    {
+      "id": "1a16367c8fee7c5d",
+      "date": "2026-10-22T11:33:14+00:00",
+      "from": "\"J.C. Bruce \" jcbruce@substack.com",
+      "subject": "On the ballot: Will Florida remain the nation’s -- and the world’s --death penalty capital?",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a16367c8fee7c5d"
+    },
+    {
+      "id": "1a16364639dc3da7",
+      "date": "2026-10-22T11:34:45+00:00",
+      "from": "The CRE Rundown by Trepp therundown@trepp.com",
+      "subject": "UDR, Apollo to Form $2Bln Apartment Venture",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a16364639dc3da7"
+    },
+    {
+      "id": "1a163457b4132936",
+      "date": "2026-10-22T11:00:11+00:00",
+      "from": "FT Edit FT@newsletters.ft.com",
+      "subject": "Plot twist",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a163457b4132936"
+    },
+    {
+      "id": "1a1633c2d0c91eb8",
+      "date": "2026-10-22T10:50:24+00:00",
+      "from": "\"The Unicus Investor: Pre-Mortem Edition\" contrarianunicus+pre-mortem@substack.com",
+      "subject": "The Long-Duration Shell Game: Insurance Has Broken This Way 5X Before - PART I",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a1633c2d0c91eb8"
+    },
+    {
+      "id": "1a160703ffa7aaee",
+      "date": "2026-10-21T21:48:46+00:00",
+      "from": "Bloomberg noreply@news.bloomberg.com",
+      "subject": "America’s new debt buyers",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a160703ffa7aaee"
+    },
+    {
+      "id": "1a16046cbc47e3bf",
+      "date": "2026-10-21T14:03:32-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - zion bank",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a16046cbc47e3bf"
+    },
+    {
+      "id": "1a1600773cd5487b",
+      "date": "2026-10-21T19:53:35+00:00",
+      "from": "Melody Wright from M3_Melody Substack m3melody@substack.com",
+      "subject": "Toil and Trouble",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a1600773cd5487b"
+    },
+    {
+      "id": "1a15f6d351003c88",
+      "date": "2026-10-21T13:05:54-04:00",
+      "from": "Commercial Observer Events rsvp@commercialobserver.com",
+      "subject": "The South Florida Real Estate Market Leans Evermore on the Wealthy",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a15f6d351003c88"
+    },
+    {
+      "id": "1a15f43027d09e74",
+      "date": "2026-10-21T09:19:49-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - Nevada HOA",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a15f43027d09e74"
+    },
+    {
+      "id": "1a15f41657feeabf",
+      "date": "2026-10-21T16:17:51+00:00",
+      "from": "Bloomberg Businessweek noreply@news.bloomberg.com",
+      "subject": "The coveted “Made in China” label",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a15f41657feeabf"
+    },
+    {
+      "id": "1a15f0c023a96d5e",
+      "date": "2026-10-21T08:19:44-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - Regional Bank",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a15f0c023a96d5e"
+    },
+    {
+      "id": "1a15f062152fa8b7",
+      "date": "2026-10-21T08:13:17-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - Distressed asset",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a15f062152fa8b7"
+    },
+    {
+      "id": "1a15ed6257cd8aff",
+      "date": "2026-10-21T07:20:54-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - Commercial real estate",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a15ed6257cd8aff"
+    },
+    {
+      "id": "1a15ed4f940d3cd5",
+      "date": "2026-10-21T07:19:37-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - CRE",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a15ed4f940d3cd5"
+    },
+    {
+      "id": "1a15ecc8ffb31087",
+      "date": "2026-10-21T07:10:26-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - Japanese bond market",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a15ecc8ffb31087"
+    },
+    {
+      "id": "1a15ebdfc83b53eb",
+      "date": "2026-10-21T13:54:21+00:00",
+      "from": "\"The Unicus Investor: Pre-Mortem Edition\" contrarianunicus+pre-mortem@substack.com",
+      "subject": "High Frequency Trading, Distorted Reality, and Gluttonous A.I Capex",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a15ebdfc83b53eb"
+    },
+    {
+      "id": "1a15ea385feb2723",
+      "date": "2026-10-21T06:25:36-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - KRE",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a15ea385feb2723"
+    },
+    {
+      "id": "1a15ea0526e7c580",
+      "date": "2026-10-21T06:22:07-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - bank ozk",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a15ea0526e7c580"
+    },
+    {
+      "id": "1a15e9d2ef7587de",
+      "date": "2026-10-21T13:18:41+00:00",
+      "from": "Bloomberg subscriptions@message.bloomberg.com",
+      "subject": "Why AI data centers are so expensive",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a15e9d2ef7587de"
+    },
+    {
+      "id": "1a15e9b88b318ec5",
+      "date": "2026-10-21T06:16:53-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - Valley National Bancrop",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a15e9b88b318ec5"
+    },
+    {
+      "id": "1a15e8ed89cb703e",
+      "date": "2026-10-21T06:03:01-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - western alliance",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a15e8ed89cb703e"
+    },
+    {
+      "id": "1a15e85a44223334",
+      "date": "2026-10-21T12:52:09+00:00",
+      "from": "Lighthouse Macro lighthousemacro@substack.com",
+      "subject": "The Second Round",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a15e85a44223334"
+    },
+    {
+      "id": "1a15e7077a81988a",
+      "date": "2026-10-21T12:27:36+00:00",
+      "from": "Coffee and a Mike coffeeandamike@substack.com",
+      "subject": "New Podcast with Charlie Garcia",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a15e7077a81988a"
+    },
+    {
+      "id": "1a15e48ee4f5d192",
+      "date": "2026-10-21T11:45:44+00:00",
+      "from": "\"Kris Abdelmessih from moontower: a stoner dad explains options trading to his kids\" moontower@substack.com",
+      "subject": "like morning sex on doomsday",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a15e48ee4f5d192"
+    },
+    {
+      "id": "1a15e421dc44e055",
+      "date": "2026-10-21T11:31:55+00:00",
+      "from": "Compounding Dividends compoundingdividends@substack.com",
+      "subject": "Buy-Hold-Sell List Update October 2026",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a15e421dc44e055"
+    },
+    {
+      "id": "1a15e3ef895fc26b",
+      "date": "2026-10-21T11:35:47+00:00",
+      "from": "The CRE Rundown by Trepp therundown@trepp.com",
+      "subject": "Chicago Office Loans Face Lease Rollover Risk Ahead of Maturity",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a15e3ef895fc26b"
+    },
+    {
+      "id": "1a15e17e2e205c80",
+      "date": "2026-10-21T10:53:01+00:00",
+      "from": "Bloomberg noreply@news.bloomberg.com",
+      "subject": "Mega merger",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a15e17e2e205c80"
+    },
+    {
+      "id": "1a15df3854c331fa",
+      "date": "2026-10-21T10:02:22+00:00",
+      "from": "\"J.C. Bruce \" jcbruce@substack.com",
+      "subject": "Grifter-in-Chief doesn’t just sock it to billionaires--he’s gouging his red-hatters, too",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a15df3854c331fa"
+    },
+    {
+      "id": "1a15caa43b50139b",
+      "date": "2026-10-21T04:01:31+00:00",
+      "from": "Business Analytics Review businessanalytics@substack.com",
+      "subject": "Freemium: Knowledge Distillation for SLMs",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a15caa43b50139b"
+    },
+    {
+      "id": "1a15c207b4659106",
+      "date": "2026-10-21T01:41:27+00:00",
+      "from": "Jakob Sanderson from Thinking About Thinking jakobsanderson@substack.com",
+      "subject": "Stuck in the Middle: A Step-by-Step Retrospective of the Chris Ballard Era",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a15c207b4659106"
+    },
+    {
+      "id": "1a15bae235570c4b",
+      "date": "2026-10-20T23:38:15+00:00",
+      "from": "Lighthouse Macro lighthousemacro@substack.com",
+      "subject": "Housing Hullabaloo",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a15bae235570c4b"
+    },
+    {
+      "id": "1a15b95bc35cd950",
+      "date": "2026-10-20T23:04:14+00:00",
+      "from": "\"J.C. Bruce \" jcbruce@substack.com",
+      "subject": "BREAKING NEWS: Courts say ‘no’ to Republican coverup of Hope Florida report and ads",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a15b95bc35cd950"
+    },
+    {
+      "id": "1a15b56d687c6d60",
+      "date": "2026-10-20T22:02:58+00:00",
+      "from": "Bloomberg noreply@news.bloomberg.com",
+      "subject": "‘Buy everything AI’ is over",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a15b56d687c6d60"
+    },
+    {
+      "id": "1a15b32c0cc57b00",
+      "date": "2026-10-20T14:23:34-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - zion bank",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a15b32c0cc57b00"
+    },
+    {
+      "id": "1a15afd0810cc9f1",
+      "date": "2026-10-20T20:24:37+00:00",
+      "from": "Coffee and a Mike coffeeandamike@substack.com",
+      "subject": "New Podcast with Matt Smith",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a15afd0810cc9f1"
+    },
+    {
+      "id": "1a15aeb95860065d",
+      "date": "2026-10-20T20:05:47+00:00",
+      "from": "Bloomberg noreply@news.bloomberg.com",
+      "subject": "Breaking News: SpaceX Profit, Revenue Trounce Estimates",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a15aeb95860065d"
+    },
+    {
+      "id": "1a159f85da82aa83",
+      "date": "2026-10-20T15:38:34+00:00",
+      "from": "Jakob Sanderson from Thinking About Thinking jakobsanderson@substack.com",
+      "subject": "Post-Week 6 Waiver Priority List",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a159f85da82aa83"
+    },
+    {
+      "id": "1a159def71764562",
+      "date": "2026-10-20T08:12:26-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - Regional Bank",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a159def71764562"
+    },
+    {
+      "id": "1a159da813a05814",
+      "date": "2026-10-20T08:07:33-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - Distressed asset",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a159da813a05814"
+    },
+    {
+      "id": "1a159b9605de308c",
+      "date": "2026-10-20T10:31:15-04:00",
+      "from": "Commercial Observer rsvp@commercialobserver.com",
+      "subject": "2 Weeks Away: Join Nomura, Starwood Capital Group, Bank of America & More at Finance Forum on 11.3",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a159b9605de308c"
+    },
+    {
+      "id": "1a159a471a7ac631",
+      "date": "2026-10-20T07:08:30-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - Commercial real estate",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a159a471a7ac631"
+    },
+    {
+      "id": "1a159a47155aab43",
+      "date": "2026-10-20T07:08:31-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - Japanese bond market",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a159a47155aab43"
+    },
+    {
+      "id": "1a159a43d56e30d3",
+      "date": "2026-10-20T07:08:17-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - CRE",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a159a43d56e30d3"
+    },
+    {
+      "id": "1a159a14bce9cf20",
+      "date": "2026-10-20T14:02:12+00:00",
+      "from": "JunkBondInvestor from JunkBondInvest junkbondinvestor@substack.com",
+      "subject": "CoreWeave ($CRWV): $34 Billion of Equity and Bonds Yielding 15%...How? (Part 1)",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a159a14bce9cf20"
+    },
+    {
+      "id": "1a159a0d0960d9b0",
+      "date": "2026-10-20T08:04:33-06:00",
+      "from": "\"pjm@lists.pjm.com\" pjm@lists.pjm.com",
+      "subject": "[Outage] Maintenance to Markets Gateway, Data Miner, SCED, and ASO in Prod. on October 22 from 2:50 p.m. - 5:00 p.m. EPT",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a159a0d0960d9b0"
+    },
+    {
+      "id": "1a159870b3d8d606",
+      "date": "2026-10-20T13:36:23+00:00",
+      "from": "Bloomberg subscriptions@message.bloomberg.com",
+      "subject": "Offer ends soon: Get Bloomberg for 60% off",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a159870b3d8d606"
+    },
+    {
+      "id": "1a15976a9103a28d",
+      "date": "2026-10-20T06:18:29-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - western alliance",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a15976a9103a28d"
+    },
+    {
+      "id": "1a159708d58d51fc",
+      "date": "2026-10-20T06:11:50-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - bank ozk",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a159708d58d51fc"
+    },
+    {
+      "id": "1a15969328e20c98",
+      "date": "2026-10-20T09:03:48-04:00",
+      "from": "Trepp trepptalk@trepp.com",
+      "subject": "PODCAST | Multifamily Value-Add, Development, and Opportunity with Barrett Linburg, Savoy",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a15969328e20c98"
+    },
+    {
+      "id": "1a159539713b0e96",
+      "date": "2026-10-20T12:32:34+00:00",
+      "from": "Business Analytics Review businessanalytics@substack.com",
+      "subject": "Automated Financial Variance and Budget vs. Actual Commentary Generator",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a159539713b0e96"
+    },
+    {
+      "id": "1a159192bc8f5c71",
+      "date": "2026-10-20T11:36:23+00:00",
+      "from": "The CRE Rundown by Trepp therundown@trepp.com",
+      "subject": "Deeper Dive Shows Outlier Impacting Credit Metrics",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a159192bc8f5c71"
+    },
+    {
+      "id": "1a158f9a00add130",
+      "date": "2026-10-20T11:01:49+00:00",
+      "from": "Bloomberg noreply@news.bloomberg.com",
+      "subject": "AI fears roar back",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a158f9a00add130"
+    },
+    {
+      "id": "1a158f904ceeeb80",
+      "date": "2026-10-20T11:00:46+00:00",
+      "from": "Kontrarian Korner kontrariankorner@substack.com",
+      "subject": "Kontrarian Korner 162 - Grant Williams",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a158f904ceeeb80"
+    },
+    {
+      "id": "1a158f8d9806d640",
+      "date": "2026-10-20T11:00:12+00:00",
+      "from": "FT Edit FT@newsletters.ft.com",
+      "subject": "When work doesn’t pay",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a158f8d9806d640"
+    },
+    {
+      "id": "1a158d82fe58f8e0",
+      "date": "2026-10-20T10:03:51+00:00",
+      "from": "\"J.C. Bruce \" jcbruce@substack.com",
+      "subject": "Republicans want Hope Florida story silenced and to jail anyone who dares talk about it. We’re talking about it.",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a158d82fe58f8e0"
+    },
+    {
+      "id": "1a1562e76ad783e6",
+      "date": "2026-10-19T22:00:38+00:00",
+      "from": "Bloomberg noreply@news.bloomberg.com",
+      "subject": "Germany’s Russia warning",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a1562e76ad783e6"
+    },
+    {
+      "id": "1a1560fef44a85ba",
+      "date": "2026-10-19T21:27:25+00:00",
+      "from": "Bloomberg noreply@news.bloomberg.com",
+      "subject": "Exclusive: Eric Schmidt’s 1% Anthropic Stake Set to Pay Massive Windfall",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a1560fef44a85ba"
+    },
+    {
+      "id": "1a155c11a8986428",
+      "date": "2026-10-19T13:01:20-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - zion bank",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a155c11a8986428"
+    },
+    {
+      "id": "1a155bfd54dbec9c",
+      "date": "2026-10-19T19:59:29+00:00",
+      "from": "Coffee and a Mike coffeeandamike@substack.com",
+      "subject": "New Podcast with Laks Ganapathi",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a155bfd54dbec9c"
+    },
+    {
+      "id": "1a155701ff7a8ca0",
+      "date": "2026-10-19T14:32:51-04:00",
+      "from": "Trepp Webinar Invite trepptalk@trepp.com",
+      "subject": "Interest Rates, CMBS Maturities, & Multifamily Bifurcation",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a155701ff7a8ca0"
+    },
+    {
+      "id": "1a15544c80a91ed9",
+      "date": "2026-10-19T17:45:28+00:00",
+      "from": "Bloomberg noreply@news.bloomberg.com",
+      "subject": "Exclusive: Merz Warns Europe That It’s Underestimating the Russian Threat",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a15544c80a91ed9"
+    },
+    {
+      "id": "1a1551f71b02e1db",
+      "date": "2026-10-19T11:04:44-06:00",
+      "from": "\"pjm@lists.pjm.com\" pjm@lists.pjm.com",
+      "subject": "[Outage] Maintenance to Markets Gateway and Stale Data in Prod. on October 21 from 2:45 p.m. - 6:00 p.m. EPT",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a1551f71b02e1db"
+    },
+    {
+      "id": "1a15504936b42ec2",
+      "date": "2026-10-19T16:35:25+00:00",
+      "from": "Bisnow News news@publications.bisnow.com",
+      "subject": "10 National Stories You'll Be Talking About This Week",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a15504936b42ec2"
+    },
+    {
+      "id": "1a155006cac6d0a8",
+      "date": "2026-10-19T12:30:53-04:00",
+      "from": "Commercial Observer rsvp@commercialobserver.com",
+      "subject": "Register Now: Jonathan Pollack Joins Commercial Observer's Finance Forum - Limited Seats Remaining",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a155006cac6d0a8"
+    },
+    {
+      "id": "1a154ecb4e1da56b",
+      "date": "2026-10-19T09:09:20-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - Nevada HOA",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a154ecb4e1da56b"
+    },
+    {
+      "id": "1a154e022eb9842e",
+      "date": "2026-10-19T15:55:32+00:00",
+      "from": "\"The Unicus Investor: Pre-Mortem Edition\" contrarianunicus+pre-mortem@substack.com",
+      "subject": "The Weekly Market Breakdown",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a154e022eb9842e"
+    },
+    {
+      "id": "1a154be80e4130c8",
+      "date": "2026-10-19T08:18:52-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - Regional Bank",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a154be80e4130c8"
+    },
+    {
+      "id": "1a154ae4a5920d33",
+      "date": "2026-10-19T08:01:10-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - Distressed asset",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a154ae4a5920d33"
+    },
+    {
+      "id": "1a15497f760c6784",
+      "date": "2026-10-19T14:36:42+00:00",
+      "from": "Bloomberg noreply@news.bloomberg.com",
+      "subject": "Breaking News: Saudis Scrap In-Person Attendance for Flagship Investment Event",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a15497f760c6784"
+    },
+    {
+      "id": "1a1548ef756eb479",
+      "date": "2026-10-19T14:24:33+00:00",
+      "from": "The Unicus Investor contrarianunicus@substack.com",
+      "subject": "Hyperscalers: Special Early Bird Pricing to Confidential Insights Members",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a1548ef756eb479"
+    },
+    {
+      "id": "1a154895a21126e6",
+      "date": "2026-10-19T14:12:01+00:00",
+      "from": "The Unicus Investor contrarianunicus+tracking-the-cre-with-melody-wright@substack.com",
+      "subject": "Industrial Delinquency Doubled. Guess Who Lends to CRE? The Insurers.",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a154895a21126e6"
+    },
+    {
+      "id": "1a1547c6e1cf917b",
+      "date": "2026-10-19T07:06:43-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - Japanese bond market",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a1547c6e1cf917b"
+    },
+    {
+      "id": "1a1547a1ebcc77e2",
+      "date": "2026-10-19T07:04:11-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - CRE",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a1547a1ebcc77e2"
+    },
+    {
+      "id": "1a154799bd0ca040",
+      "date": "2026-10-19T07:03:37-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - Commercial real estate",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a154799bd0ca040"
+    },
+    {
+      "id": "1a15460c71447e73",
+      "date": "2026-10-19T06:36:30-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - Valley National Bancrop",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a15460c71447e73"
+    },
+    {
+      "id": "1a1545a15ea8899e",
+      "date": "2026-10-19T06:29:11-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - KRE",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a1545a15ea8899e"
+    },
+    {
+      "id": "1a15451c7f198520",
+      "date": "2026-10-19T13:13:24+00:00",
+      "from": "Michael Burry michaeljburry@substack.com",
+      "subject": "Abridged Version Foundations: Performance in the Next Bear Market & the Caldera Under S. Park & Wall",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a15451c7f198520"
+    },
+    {
+      "id": "1a15444d6c89fc1a",
+      "date": "2026-10-19T06:05:59-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - western alliance",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a15444d6c89fc1a"
+    },
+    {
+      "id": "1a1544267e44bc8b",
+      "date": "2026-10-19T06:03:19-07:00",
+      "from": "Google Alerts googlealerts-noreply@google.com",
+      "subject": "Google Alert - bank ozk",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a1544267e44bc8b"
+    },
+    {
+      "id": "1a153f7dd1d6449b",
+      "date": "2026-10-19T11:39:33+00:00",
+      "from": "Compounding Dividends compoundingdividends@substack.com",
+      "subject": "💸 Financing the AI Buildout",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a153f7dd1d6449b"
+    },
+    {
+      "id": "1a153f795756ba4b",
+      "date": "2026-10-19T11:41:36+00:00",
+      "from": "The CRE Rundown by Trepp therundown@trepp.com",
+      "subject": "Trouble Brewing in Denver Multifamily Sector?",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a153f795756ba4b"
+    },
+    {
+      "id": "1a153d248000e347",
+      "date": "2026-10-19T11:00:10+00:00",
+      "from": "FT Edit FT@newsletters.ft.com",
+      "subject": "Africa’s growing pains",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a153d248000e347"
+    },
+    {
+      "id": "1a153c5a1bcd218e",
+      "date": "2026-10-19T10:47:02+00:00",
+      "from": "Bloomberg noreply@news.bloomberg.com",
+      "subject": "Trump-Zelenskyy rift widens",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a153c5a1bcd218e"
+    },
+    {
+      "id": "1a151e94dc77c68d",
+      "date": "2026-10-19T02:06:43+00:00",
+      "from": "Bloomberg noreply@news.bloomberg.com",
+      "subject": "Breaking News: China’s Growth Rebounds to 4.5%, Puts Annual Target Within Reach",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a151e94dc77c68d"
+    },
+    {
+      "id": "1a151c858d752715",
+      "date": "2026-10-19T01:29:02+00:00",
+      "from": "Lighthouse Macro lighthousemacro@substack.com",
+      "subject": "The Fourth Rotation",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a151c858d752715"
+    },
+    {
+      "id": "1a151c7c96b2fbe5",
+      "date": "2026-10-19T01:20:18+00:00",
+      "from": "\"Eltoro | Harry Colt\" eltoromarketinsights@substack.com",
+      "subject": "#42 Weekly Update - The InsidersHub Is Live - SPY 765 shelf - Oil map before Tuesday",
+      "url": "https://mail.google.com/mail/u/?authuser=williepowen%40gmail.com#all/1a151c7c96b2fbe5"
+    }
+  ]
+}

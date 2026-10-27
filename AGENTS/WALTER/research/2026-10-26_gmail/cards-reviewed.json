@@ -1,0 +1,251 @@
+[
+  {
+    "slug": "trepp-q3-credit-recap",
+    "title": "Trepp Q3 recap adds delinquent balances and hard-maturity context",
+    "domain": "BANK_CRE",
+    "cluster": "BANK_COLLATERAL",
+    "action": [
+      "CREED"
+    ],
+    "info": [
+      "HOMER",
+      "REGINALD",
+      "BROCK",
+      "LIQUID",
+      "RED"
+    ],
+    "confidence": 0.94,
+    "body": "Trepp's October 26 Q3 2026 email reports delinquent CMBS balances of $48.65B, up 11.64% year to date; this is balance growth, not an 11.64% delinquency rate. Through September, transfers to special servicing totaled $24.38B and resolutions $18.71B. These are gross flows, not a reconciled ending stock. The email reports $78.1B of private-label hard maturities by end-2027; full magazine tables, start date and cohort construction were not reviewed. Its Treasury-above-5.2% statement describes the quarter, not a current yield.\n\nCREED ACTION: retain these source-qualified balance/flow figures in existing refinancing context. No threshold or cohort grade follows from this recap. HOMER INFO receives the multifamily overlap; no new MF rate is supplied. REGINALD/BROCK/LIQUID receive market-side context, with no named-bank loss or broad transmission finding. Trepp's full underlying QDR remains a source gap; reconcile scope before combining the $78.1B with other maturity totals.",
+    "sources": [
+      "gmail:1a179bf3657ec0c3",
+      "https://www.trepp.com/research-and-insights"
+    ],
+    "entities": [
+      "Trepp",
+      "CMBS"
+    ]
+  },
+  {
+    "slug": "wells-fargo-center-south-note-sale",
+    "title": "Los Angeles office loan sale confirmed; reported price is not a measured bank loss",
+    "domain": "BANK_CRE",
+    "cluster": "BANK_COLLATERAL",
+    "action": [
+      "CREED"
+    ],
+    "info": [
+      "REGINALD",
+      "BROCK",
+      "LIQUID",
+      "RED"
+    ],
+    "confidence": 0.9,
+    "case": [
+      "Wells Fargo Center South, 355 South Grand Ave, Los Angeles CA"
+    ],
+    "body": "Newmark's October 19 release confirms a loan sale to New Age 355, a Kam Sang affiliate, secured by the 45-story Wells Fargo Center South. The broker describes the loan as $290M and occupancy at roughly 42%; it does not disclose the transaction price or seller identity. CRE Direct's October 23 report and Trepp's October 26 email report $115M consideration. This is a debt transaction, not a completed building sale or newly dated borrower default.\n\nThe $290M description is not established as current unpaid balance, and $115M is not a disclosed seller carrying value or realized loss. Do not infer a roughly 60% bank-loss severity, or Wells Fargo exposure from the building name. Broader reference checks found borrower financial-statement snippets using a different outstanding balance; a full current reconciliation was not performed.\n\nCREED ACTION: record the named note-sale event with confirmed transaction/reported-price labels. REGINALD/BROCK/LIQUID INFO: seller and final loss holder remain unidentified. No comparable bank-pool mark or system-wide loss estimate follows.",
+    "sources": [
+      "https://www.nmrk.com/insights/press-releases/newmark-arranges-discounted-sale-of-290-million-loan-secured-by-wells-fargo-center-south-in-downtown-los-angeles",
+      "https://crenews.com/2026/10/23/290mln-loan-on-l-a-office-tower-sells-for-115mln/",
+      "gmail:1a177fc73c6d3c96"
+    ],
+    "entities": [
+      "Wells-Fargo-Center-South",
+      "Kam-Sang",
+      "Newmark"
+    ]
+  },
+  {
+    "slug": "seniors-housing-maturity-cohort",
+    "title": "Seniors-housing maturity risk is mostly agency-backed and still performing",
+    "domain": "BANK_CRE",
+    "cluster": "BANK_COLLATERAL",
+    "action": [
+      "HOMER"
+    ],
+    "info": [
+      "CREED",
+      "REGINALD",
+      "CARL",
+      "RED"
+    ],
+    "confidence": 0.97,
+    "case": [
+      "The Point at Rockridge, Oakland CA",
+      "Corinthians Retirement Community, Carrollton TX"
+    ],
+    "body": "Trepp's October 23 primary study covers $2.2385B across 156 seniors-housing loans reaching modeled hard maturity November 2026\u2013December 2027. Agency loans comprise 95.23%; 1.75% is delinquent. Foreclosure/REO loans are excluded, so the low rate is not an all-sector clearance. In the November\u2013December 2026 cohort, $140.2M across 19 loans remains current; 47.47% of balance has debt yield below 6%, a refinancing screen rather than observed default.\n\nTwo named delinquent loans concentrate the observed distress: $33.4M Point at Rockridge, FREMF 2019-KC06, extended to February 2027 and paying under modified terms; $5.7M Corinthians Retirement Community, FHMS KS09, 60 days delinquent. These are existing conditions reported in the study, not newly established default dates.\n\nHOMER ACTION: retain this agency-heavy maturity cohort within existing housing-credit coverage. CREED INFO receives the two named cases. Owner classification governs any healthcare-versus-housing boundary; no new watch or score is registered.",
+    "sources": [
+      "https://www.trepp.com/trepptalk/seniors-housing-faces-2.24-billion-in-hard-maturities-through-2027",
+      "gmail:1a1688e5ba8563f3"
+    ],
+    "entities": [
+      "Trepp",
+      "Fannie-Mae",
+      "Freddie-Mac",
+      "Point-at-Rockridge",
+      "Corinthians-Retirement-Community"
+    ]
+  },
+  {
+    "slug": "florida-office-transactions",
+    "title": "Florida office deals show price resets alongside available acquisition financing",
+    "domain": "BANK_CRE",
+    "cluster": "BANK_COLLATERAL",
+    "action": [
+      "CORAL"
+    ],
+    "info": [
+      "REGINALD",
+      "BROCK",
+      "CREED",
+      "RED"
+    ],
+    "confidence": 0.81,
+    "body": "Trepp's October 26 email reports One Boca Place sold for $78.88M, with $82.1M City National Bank of Florida financing, compared with a $76.35M 2014 purchase. Loan proceeds exceeding the reported price do not establish loan-to-value; appraisal, reserves, capex and facility terms were not reviewed.\n\nThe same email reports 200 East Broward Blvd sold for $69.7M versus $81.5M in 2017, with $63.4M BridgeInvest financing and a planned $20M improvement program. October 22 Commercial Observer and October 23 Commercial Property Executive support the sale/renovation direction; public deeds and loan documents were not fetched. Reported 235,211 office square feet and 447,253 total square feet describe different perimeters; do not merge price-per-foot bases.\n\nCORAL ACTION: incorporate the two Florida transactions as source-qualified valuation/financing context. A price below a prior purchase is not proof of lender loss, foreclosure or a sale below current loan balance. Financing availability counters a universal funding-freeze narrative. No new named-bank exposure study is commissioned.",
+    "sources": [
+      "gmail:1a177fc73c6d3c96",
+      "https://commercialobserver.com/2026/10/grover-corlew-fort-lauderdale-tower-banyan-tree-200-east-broward/",
+      "https://www.commercialsearch.com/news/grover-corlew-makes-70m-fort-lauderdale-buy/"
+    ],
+    "entities": [
+      "One-Boca-Place",
+      "City-National-Bank-of-Florida",
+      "BridgeInvest",
+      "200-East-Broward"
+    ]
+  },
+  {
+    "slug": "sf-office-ai-recovery-context",
+    "title": "San Francisco leasing recovery is counterevidence to uniform office deterioration",
+    "domain": "BANK_CRE",
+    "cluster": "BANK_COLLATERAL",
+    "action": [
+      "CREED"
+    ],
+    "info": [
+      "VULCAN",
+      "REGINALD",
+      "RED"
+    ],
+    "confidence": 0.78,
+    "role": "counter_evidence",
+    "body": "Trepp's October 26 CRE Rundown attributes to Cushman & Wakefield 4.4M square feet of AI-company leasing in San Francisco during Q1\u2013Q3 2026, versus 2.1M in full-year 2025. It attributes to Savills a Q3 availability rate of 27.2%, down from 33.6% a year earlier, and asking rent of $70.31 per square foot, up 5.1% year over year. The original broker reports and lease documents were not read. Different measures are preserved: availability is not vacancy, asking rent is not effective rent, and YTD volume is compared with a full year.\n\nCREED ACTION: retain the dated recovery claim as geographically limited counterevidence. AI tenant concentration may tie recovery to the same financing cycle; that is an interpretation, not a quantified default forecast. Substantial availability remains. VULCAN INFO receives physical leasing demand, with no compute-capex commitment inferred. No inference about broad CRE-to-bank transmission or owner grades follows.",
+    "sources": [
+      "gmail:1a177fc73c6d3c96"
+    ],
+    "entities": [
+      "San-Francisco",
+      "Savills",
+      "Cushman-and-Wakefield"
+    ]
+  },
+  {
+    "slug": "jbi-data-center-credit-dispersion",
+    "title": "Data-center bond dispersion may expose AI financing risk hidden by the broad index",
+    "domain": "FUNDING_LIQUIDITY",
+    "cluster": "AI_INFRA_CAPEX",
+    "action": [
+      "LIQUID"
+    ],
+    "info": [
+      "BROCK",
+      "SHADE",
+      "VULCAN",
+      "HENRY",
+      "VIOLET",
+      "RED"
+    ],
+    "confidence": 0.72,
+    "body": "JunkBondInvestor's October 25 Credit Weekly email reports data-center HY bond spreads widening roughly 136bp since mid-September. It estimates $46B face value, roughly 3% of HY, implying only about 4bp of index contribution under its rough weighting. It reports larger widening for CoreWeave-linked landlords than lower-beta names. This is the author's cohort analysis; constituents, weights, spread convention, valuation timestamp and chart data were not independently reproduced. Cash spreads are not CDS, and widening is not a new default or cash-flow impairment.\n\nIts broad CCC reference of 1,127bp does not match LIQUID's later October 23 owner observation of 1,356bp. Do not replace the owner series or grade a registered trigger from the newsletter. Technical supply/positioning and credit/funding risk remain competing explanations.\n\nLIQUID ACTION: retain the cohort observation in existing breadth/AI-financing interpretation with the unverified-method qualification. VULCAN INFO receives capex-sustainability implications; BROCK/SHADE receive credit/holder context. No new trigger, study or holder exposure is established. Existing overlap: SIG-W-20261020-010 already supplied a dated tenant cohort; SIG-W-20261023-019 supplied a different HY decomposition. This author's cohort/weight claim supplements those records; it is not independent confirmation of their method.",
+    "sources": [
+      "gmail:1a1757d943e72fbf",
+      "https://www.junkbondinvestor.com/",
+      "AGENTS/LIQUID/STATUS.md"
+    ],
+    "entities": [
+      "JunkBondInvestor",
+      "CoreWeave",
+      "HY-Data-Center-Bonds"
+    ]
+  },
+  {
+    "slug": "texas-data-center-permitting-context",
+    "title": "Texas site-tour leads resolve to an older permitting suit; no shutdown established",
+    "domain": "AI_CAPEX",
+    "cluster": "AI_INFRA_CAPEX",
+    "action": [
+      "VULCAN",
+      "WATT"
+    ],
+    "info": [
+      "AEOLUS",
+      "HOMER",
+      "RED"
+    ],
+    "confidence": 0.88,
+    "body": "Unicus's October 26 email leads to Environmental Integrity Project's September 21 plaintiff statement: a suit challenges Vantage/VoltaGrid permits at Omicron Drive and Rogers Road in San Antonio. The plaintiff identifies 405 MW of dedicated gas generation plus 455 MW of diesel backup. These are separate capacity figures; the newsletter's combined 455 MW description is not adopted as gas capacity. The lawsuit is a September event resurfacing in a current tour. Allegations and requested construction/operating relief are not adjudicated findings or an effective shutdown. No current court order was reviewed.\n\nThe email separately relays Cloudburst's proposed 1.2 GW/706-acre site and $14.5B plan. Municipal approval records, project capacity/financing documents, water permit and full paid vlog were not reviewed. These remain leads, not committed spending or measured water demand.\n\nVULCAN ACTION: retain the qualified siting-risk context in existing coverage. WATT ACTION: distinguish on-site gas from backup capacity in existing power-demand interpretation. AEOLUS/HOMER INFO receive water/residential siting context; no new investigation is commissioned.",
+    "sources": [
+      "https://environmentalintegrity.org/news/environmental-groups-sue-illegal-data-center-power-plant-projects-in-san-antonio/",
+      "https://contrarianunicus.substack.com/p/hyperscalers-day-two-in-texas-vlog",
+      "gmail:1a178b42f0e934b9"
+    ],
+    "entities": [
+      "Vantage",
+      "VoltaGrid",
+      "Omicron-Drive",
+      "Rogers-Road",
+      "Cloudburst"
+    ]
+  },
+  {
+    "slug": "pjm-planned-data-maintenance",
+    "title": "PJM warns of planned stale data October 27; preserve the extra DST hour",
+    "domain": "POWER_GRID",
+    "cluster": "MISC",
+    "action": [
+      "WATT"
+    ],
+    "info": [
+      "VULCAN",
+      "RED"
+    ],
+    "confidence": 0.98,
+    "body": "PJM's October 23 email schedules production maintenance October 27, 14:50\u201317:00 Eastern Prevailing Time. It warns of up to 45 minutes of tool outage, stale Data Miner/PJM Now/Data Viewer/PJM.com observations, and possible manual economic dispatch. This is a planned maintenance notice, not an observed grid emergency, cyberattack or realized generation loss. The email alone does not prove maintenance occurred or completed.\n\nA separate October 26 notice flags the additional hour during the November 1 daylight-saving transition. The tool's repeated-hour handling must be preserved when interpreting hourly observations.\n\nWATT ACTION: retain these dated source-availability qualifications in existing PJM interpretation. A stale dashboard cell in the announced window cannot establish a fresh emergency or an all-clear. No automation, collector change or new market watch is authorized by this routing.",
+    "sources": [
+      "gmail:1a16a42cd3064be5",
+      "gmail:1a178973ef475979"
+    ],
+    "precedence": "ROUTINE",
+    "entities": [
+      "PJM",
+      "Data-Miner",
+      "Markets-Gateway"
+    ]
+  },
+  {
+    "slug": "insurance-related-party-teaser",
+    "title": "Insurance newsletter supplies related-party leads; underlying exam remains unread",
+    "domain": "INSURANCE_SHADOW",
+    "cluster": "PC_STRESS",
+    "action": [
+      "SHADE"
+    ],
+    "info": [
+      "BROCK",
+      "LIQUID",
+      "RED"
+    ],
+    "confidence": 0.52,
+    "body": "Unicus's October 24 email excerpt claims American Equity lent $580.3M to Brookfield-related borrowers within roughly six months of its 2024 acquisition, attributing the amount to an Iowa examination. The same excerpt relays a Capitol Forum Vermont-captive surplus adjustment. WALTER read the complete delivered excerpt, not the full subscription article, Iowa examination or original Capitol Forum report. A targeted search found a syndicator repeating the same article; that is not independent confirmation. The excerpt does not identify the captive clearly enough to attach its numbers to an insurer.\n\nSHADE already holds American Equity/captive-financing mechanism material. Its existing source files do not establish these specific figures. PHL/Golden Gate historical coverage already exists on BOARD; the newsletter title does not establish a new $2B failure in October 2026.\n\nSHADE ACTION: retain these explicitly unverified leads within existing insurer-wrapper coverage. Do not adopt the amounts, grade solvency, or infer a new failure without the named underlying records. No new study, paid access or monitoring commission.",
+    "sources": [
+      "gmail:1a16fa078b6ab74d",
+      "AGENTS/SHADE/domain/sources/02_CAPTIVE_REINSURANCE_XOL_FORENSICS.md"
+    ],
+    "entities": [
+      "American-Equity",
+      "Brookfield",
+      "Vermont"
+    ]
+  }
+]

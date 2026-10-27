@@ -1,0 +1,90 @@
+n	email_n	part	gmail_id	title	disposition	ref	reason
+1	1	1	1a179bf3657ec0c3	Trepp Q3 CMBS balances/servicing/maturities	DISPATCH	SIG-W-20261027-020	Full email text reviewed; cited source and verification limits travel on the card.
+2	2	1	1a177fc73c6d3c96	San Francisco AI office recovery	DISPATCH	SIG-W-20261027-024	Full email text reviewed; cited source and verification limits travel on the card.
+3	2	2	1a177fc73c6d3c96	One Boca Place purchase/financing	DISPATCH	SIG-W-20261027-023	Full email text reviewed; cited source and verification limits travel on the card.
+4	2	3	1a177fc73c6d3c96	Dryden Luxury Living sale/concessions	NOTE	REVIEW.md#remaining-leads	Qualified pointer only: original linked article/filing/video or chart not reviewed; no actionable event adopted.
+5	2	4	1a177fc73c6d3c96	200 East Broward purchase/financing	DISPATCH	SIG-W-20261027-023	Full email text reviewed; cited source and verification limits travel on the card.
+6	2	5	1a177fc73c6d3c96	Wells Fargo Center South note sale	DISPATCH	SIG-W-20261027-021	Full email text reviewed; cited source and verification limits travel on the card.
+7	2	6	1a177fc73c6d3c96	One Atlantic Center lease downsizing	NOTE	REVIEW.md#remaining-leads	Qualified pointer only: original linked article/filing/video or chart not reviewed; no actionable event adopted.
+8	2	7	1a177fc73c6d3c96	TreppMCP product advertisement	NO-ACTION	REVIEW.md#source-quality	Promotional, keyword collision, technical-price commentary or no concrete relevant event in delivered text.
+9	2	8	1a177fc73c6d3c96	TPPI Q2 pricing analysis pointer	NOTE	REVIEW.md#remaining-leads	Qualified pointer only: original linked article/filing/video or chart not reviewed; no actionable event adopted.
+10	2	9	1a177fc73c6d3c96	TreppWire episode430 pointer	NOTE	REVIEW.md#remaining-leads	Qualified pointer only: original linked article/filing/video or chart not reviewed; no actionable event adopted.
+11	3	1	1a1688e5ba8563f3	Seniors-housing maturity cohort / Point at Rockridge / Corinthians	DISPATCH	SIG-W-20261027-022	Full email text reviewed; cited source and verification limits travel on the card.
+12	3	2	1a1688e5ba8563f3	Brandywine Solaris sale	NOTE	REVIEW.md#remaining-leads	Qualified pointer only: original linked article/filing/video or chart not reviewed; no actionable event adopted.
+13	3	3	1a1688e5ba8563f3	Bricks at Perimeter Center sale	NOTE	REVIEW.md#remaining-leads	Qualified pointer only: original linked article/filing/video or chart not reviewed; no actionable event adopted.
+14	3	4	1a1688e5ba8563f3	Rice Lake Square sale	NOTE	REVIEW.md#remaining-leads	Qualified pointer only: original linked article/filing/video or chart not reviewed; no actionable event adopted.
+15	3	5	1a1688e5ba8563f3	Opa-locka cold-storage purchase	NOTE	REVIEW.md#remaining-leads	Qualified pointer only: original linked article/filing/video or chart not reviewed; no actionable event adopted.
+16	3	6	1a1688e5ba8563f3	Lakeview Innovation Center financing	NOTE	REVIEW.md#remaining-leads	Qualified pointer only: original linked article/filing/video or chart not reviewed; no actionable event adopted.
+17	3	7	1a1688e5ba8563f3	TPPI Q2 pricing analysis pointer	NOTE	REVIEW.md#remaining-leads	Qualified pointer only: original linked article/filing/video or chart not reviewed; no actionable event adopted.
+18	3	8	1a1688e5ba8563f3	TreppWire episode430 pointer	NOTE	REVIEW.md#remaining-leads	Qualified pointer only: original linked article/filing/video or chart not reviewed; no actionable event adopted.
+19	4	1	1a168dc14351f585	TreppWire episode430 pointer	FOLD	Same episode430 promotion already in emails2/3; podcast itself not played.	Retain context/basis limits; no new verified event or threshold.
+20	5	1	1a1757d943e72fbf	JBI data-center credit dispersion analysis	DISPATCH	SIG-W-20261027-025	Full email text reviewed; cited source and verification limits travel on the card.
+21	6	1	1a16fa078b6ab74d	American Equity related-party lending claim	DISPATCH	SIG-W-20261027-028	Full email text reviewed; cited source and verification limits travel on the card.
+22	6	2	1a16fa078b6ab74d	Unidentified Vermont captive surplus claim	DISPATCH	SIG-W-20261027-028	Full email text reviewed; cited source and verification limits travel on the card.
+23	6	3	1a16fa078b6ab74d	Lindberg historical failure reference	NOTE	REVIEW.md#remaining-leads	Qualified pointer only: original linked article/filing/video or chart not reviewed; no actionable event adopted.
+24	6	4	1a16fa078b6ab74d	PHL Variable / Golden Gate historical reference	FOLD	Historical PHL/Golden Gate BOARD20260521-021 and20260928-024; no new October failure established.	Retain context/basis limits; no new verified event or threshold.
+25	6	5	1a16fa078b6ab74d	A-Cap South Carolina action reference	NOTE	REVIEW.md#remaining-leads	Qualified pointer only: original linked article/filing/video or chart not reviewed; no actionable event adopted.
+26	7	1	1a178b42f0e934b9	Vantage/VoltaGrid Omicron/Rogers Road permitting suit	DISPATCH	SIG-W-20261027-026	Full email text reviewed; cited source and verification limits travel on the card.
+27	7	2	1a178b42f0e934b9	Cloudburst proposed site / approval / water lead	DISPATCH	SIG-W-20261027-026	Full email text reviewed; cited source and verification limits travel on the card.
+28	8	1	1a178373304f5eb2	OpenAI/Google Cloud partnership teaser	NOTE	REVIEW.md#remaining-leads	Qualified pointer only: original linked article/filing/video or chart not reviewed; no actionable event adopted.
+29	9	1	1a1788a511d92faa	MainStreet Bancshares Q3 remediation lead	NOTE	REVIEW.md#remaining-leads	Qualified pointer only: original linked article/filing/video or chart not reviewed; no actionable event adopted.
+30	9	2	1a1788a511d92faa	Northeast/Mid-Atlantic transactions roundup pointer	NOTE	REVIEW.md#remaining-leads	Qualified pointer only: original linked article/filing/video or chart not reviewed; no actionable event adopted.
+31	9	3	1a1788a511d92faa	Data-center local restrictions pointer	NOTE	REVIEW.md#remaining-leads	Qualified pointer only: original linked article/filing/video or chart not reviewed; no actionable event adopted.
+32	9	4	1a1788a511d92faa	Southeast transactions roundup pointer	NOTE	REVIEW.md#remaining-leads	Qualified pointer only: original linked article/filing/video or chart not reviewed; no actionable event adopted.
+33	9	5	1a1788a511d92faa	Pensacola/Mobile expansion and Gulf Shores golf pointer	NOTE	REVIEW.md#remaining-leads	Qualified pointer only: original linked article/filing/video or chart not reviewed; no actionable event adopted.
+34	9	6	1a1788a511d92faa	Pacific Seafood Newport fire	DUP	SIG-W-20261027-019: Pacific Seafood event/date, AP source-read card.	Same named event; no headline-only source upgrade inferred.
+35	9	7	1a1788a511d92faa	Youth conflict-resolution grant acronym collision	NO-ACTION	REVIEW.md#source-quality	Promotional, keyword collision, technical-price commentary or no concrete relevant event in delivered text.
+36	9	8	1a1788a511d92faa	UK CRE lending/refinancing survey pointer	NOTE	REVIEW.md#remaining-leads	Qualified pointer only: original linked article/filing/video or chart not reviewed; no actionable event adopted.
+37	9	9	1a1788a511d92faa	AI-adoption ROI article	NOTE	REVIEW.md#remaining-leads	Qualified pointer only: original linked article/filing/video or chart not reviewed; no actionable event adopted.
+38	9	10	1a1788a511d92faa	LEGO skeleton acronym collision	NO-ACTION	REVIEW.md#source-quality	Promotional, keyword collision, technical-price commentary or no concrete relevant event in delivered text.
+39	9	11	1a1788a511d92faa	Wells Fargo job listing	NO-ACTION	REVIEW.md#source-quality	Promotional, keyword collision, technical-price commentary or no concrete relevant event in delivered text.
+40	10	1	1a178bfe351879cf	Korea oil-company bad-bank proposal pointer	NOTE	REVIEW.md#remaining-leads	Qualified pointer only: original linked article/filing/video or chart not reviewed; no actionable event adopted.
+41	10	2	1a178bfe351879cf	China Cinda valuation article	NOTE	REVIEW.md#remaining-leads	Qualified pointer only: original linked article/filing/video or chart not reviewed; no actionable event adopted.
+42	10	3	1a178bfe351879cf	Everton/Friedkin sale speculation	NOTE	REVIEW.md#remaining-leads	Qualified pointer only: original linked article/filing/video or chart not reviewed; no actionable event adopted.
+43	10	4	1a178bfe351879cf	Icahn Trump Plaza historical site sale	NOTE	REVIEW.md#remaining-leads	Qualified pointer only: original linked article/filing/video or chart not reviewed; no actionable event adopted.
+44	10	5	1a178bfe351879cf	Airtable acquisition low-quality republisher	NOTE	REVIEW.md#remaining-leads	Qualified pointer only: original linked article/filing/video or chart not reviewed; no actionable event adopted.
+45	11	1	1a1784ce235858b1	Western Alliance Q3 valuation commentary	NOTE	REVIEW.md#remaining-leads	Qualified pointer only: original linked article/filing/video or chart not reviewed; no actionable event adopted.
+46	11	2	1a1784ce235858b1	Rubio Europe western-alliance phrase collision	NO-ACTION	REVIEW.md#source-quality	Promotional, keyword collision, technical-price commentary or no concrete relevant event in delivered text.
+47	11	3	1a1784ce235858b1	WAL technical-price commentary	NO-ACTION	REVIEW.md#source-quality	Promotional, keyword collision, technical-price commentary or no concrete relevant event in delivered text.
+48	11	4	1a1784ce235858b1	Trump Russia grand-bargain commentary	NO-ACTION	REVIEW.md#source-quality	Promotional, keyword collision, technical-price commentary or no concrete relevant event in delivered text.
+49	11	5	1a1784ce235858b1	Russia NATO historical-context commentary	NO-ACTION	REVIEW.md#source-quality	Promotional, keyword collision, technical-price commentary or no concrete relevant event in delivered text.
+50	11	6	1a1784ce235858b1	ICC Sakharov-prize western-alliance phrase collision	NO-ACTION	REVIEW.md#source-quality	Promotional, keyword collision, technical-price commentary or no concrete relevant event in delivered text.
+51	12	1	1a17854a57d69d1d	Bank OZK Q3 valuation commentary	NOTE	REVIEW.md#remaining-leads	Qualified pointer only: original linked article/filing/video or chart not reviewed; no actionable event adopted.
+52	12	2	1a17854a57d69d1d	Bank OZK Arena volleyball collision	NO-ACTION	REVIEW.md#source-quality	Promotional, keyword collision, technical-price commentary or no concrete relevant event in delivered text.
+53	13	1	1a17495a7f9485ac	Outside Money macro/capex/funding framework	FOLD	Existing AI capex/Meta and credit coverage; author framework, no new verified observation or gate.	Retain context/basis limits; no new verified event or threshold.
+54	14	1	1a16de0d34edaf17	Hiking Into a Drain liquidity/crypto framework	FOLD	Existing reserve/credit coverage; author liquidity heuristic and crypto flows not independently reproduced.	Retain context/basis limits; no new verified event or threshold.
+55	15	1	1a17a4e158699654	Anthropic IPO/financing warning	DUP	SIG-W-20261027-003: original Anthropic sections already source-qualified.	Same named event; no headline-only source upgrade inferred.
+56	15	2	1a17a4e158699654	Anthropic cloud-channel revenue mix	NOTE	REVIEW.md#remaining-leads	Qualified pointer only: original linked article/filing/video or chart not reviewed; no actionable event adopted.
+57	15	3	1a17a4e158699654	Goldman hedge-fund tech-selling attribution	NOTE	REVIEW.md#remaining-leads	Qualified pointer only: original linked article/filing/video or chart not reviewed; no actionable event adopted.
+58	15	4	1a17a4e158699654	JetBlue loss outlook/advisers	NOTE	REVIEW.md#remaining-leads	Qualified pointer only: original linked article/filing/video or chart not reviewed; no actionable event adopted.
+59	15	5	1a17a4e158699654	Microsoft voluntary buyout offer	DUP	SIG-W-20261026-005 and SIG-W-20261027-006: voluntary offer, not realized exits.	Same named event; no headline-only source upgrade inferred.
+60	15	6	1a17a4e158699654	Universal Music potential go-private talks	NOTE	REVIEW.md#remaining-leads	Qualified pointer only: original linked article/filing/video or chart not reviewed; no actionable event adopted.
+61	15	7	1a17a4e158699654	Meta equity-funding headline	DUP	SIG-W-20261026-001: authorized/launched/future financing amounts distinguished.	Same named event; no headline-only source upgrade inferred.
+62	15	8	1a17a4e158699654	Starlink dependence opinion	NOTE	REVIEW.md#remaining-leads	Qualified pointer only: original linked article/filing/video or chart not reviewed; no actionable event adopted.
+63	15	9	1a17a4e158699654	Dutch government AI jobs headline	NOTE	REVIEW.md#remaining-leads	Qualified pointer only: original linked article/filing/video or chart not reviewed; no actionable event adopted.
+64	15	10	1a17a4e158699654	Anthropic computing-cost headline	NOTE	REVIEW.md#remaining-leads	Qualified pointer only: original linked article/filing/video or chart not reviewed; no actionable event adopted.
+65	15	11	1a17a4e158699654	Broadcom Anthropic financing headline	NOTE	REVIEW.md#remaining-leads	Qualified pointer only: original linked article/filing/video or chart not reviewed; no actionable event adopted.
+66	15	12	1a17a4e158699654	DoorDash Instacart takeover headline	NOTE	REVIEW.md#remaining-leads	Qualified pointer only: original linked article/filing/video or chart not reviewed; no actionable event adopted.
+67	15	13	1a17a4e158699654	Intel Classiq acquisition headline	DUP	SIG-W-20261027-008: primary Intel agreement, conditional closing.	Same named event; no headline-only source upgrade inferred.
+68	15	14	1a17a4e158699654	Former Blackstone executive CRE fundraise headline	NOTE	REVIEW.md#remaining-leads	Qualified pointer only: original linked article/filing/video or chart not reviewed; no actionable event adopted.
+69	15	15	1a17a4e158699654	Brazil-election market-pricing opinion	NOTE	REVIEW.md#remaining-leads	Qualified pointer only: original linked article/filing/video or chart not reviewed; no actionable event adopted.
+70	15	16	1a17a4e158699654	Apple foldable-screen complaint headline	NOTE	REVIEW.md#remaining-leads	Qualified pointer only: original linked article/filing/video or chart not reviewed; no actionable event adopted.
+71	16	1	1a179170c2d74edc	Blackstone real-estate markdown/data-center headline	NOTE	REVIEW.md#remaining-leads	Qualified pointer only: original linked article/filing/video or chart not reviewed; no actionable event adopted.
+72	16	2	1a179170c2d74edc	Distressed sales 26% headline	NOTE	REVIEW.md#remaining-leads	Qualified pointer only: original linked article/filing/video or chart not reviewed; no actionable event adopted.
+73	16	3	1a179170c2d74edc	Blackstone multifamily special-servicing headline	NOTE	REVIEW.md#remaining-leads	Qualified pointer only: original linked article/filing/video or chart not reviewed; no actionable event adopted.
+74	16	4	1a179170c2d74edc	Large-bank CRE losses headline	NOTE	REVIEW.md#remaining-leads	Qualified pointer only: original linked article/filing/video or chart not reviewed; no actionable event adopted.
+75	16	5	1a179170c2d74edc	AssetAlign advertisement	NO-ACTION	REVIEW.md#source-quality	Promotional, keyword collision, technical-price commentary or no concrete relevant event in delivered text.
+76	16	6	1a179170c2d74edc	Two Sigma real-estate retreat headline	DUP	SIG-W-20261016-036: Two Sigma retreat already on BOARD.	Same named event; no headline-only source upgrade inferred.
+77	16	7	1a179170c2d74edc	Developer $19M error/8.4M SF headline	NOTE	REVIEW.md#remaining-leads	Qualified pointer only: original linked article/filing/video or chart not reviewed; no actionable event adopted.
+78	16	8	1a179170c2d74edc	OZK real-estate book shrinkage headline	NOTE	REVIEW.md#remaining-leads	Qualified pointer only: original linked article/filing/video or chart not reviewed; no actionable event adopted.
+79	16	9	1a179170c2d74edc	Infrastructure building-performance advertisement	NO-ACTION	REVIEW.md#source-quality	Promotional, keyword collision, technical-price commentary or no concrete relevant event in delivered text.
+80	16	10	1a179170c2d74edc	CoreWeave debt headline	NOTE	REVIEW.md#remaining-leads	Qualified pointer only: original linked article/filing/video or chart not reviewed; no actionable event adopted.
+81	16	11	1a179170c2d74edc	Brookfield/Pretium personnel headline	NOTE	REVIEW.md#remaining-leads	Qualified pointer only: original linked article/filing/video or chart not reviewed; no actionable event adopted.
+82	16	12	1a179170c2d74edc	Andy Ansin self-funded projects headline	NOTE	REVIEW.md#remaining-leads	Qualified pointer only: original linked article/filing/video or chart not reviewed; no actionable event adopted.
+83	16	13	1a179170c2d74edc	Stadium-district advertisement	NO-ACTION	REVIEW.md#source-quality	Promotional, keyword collision, technical-price commentary or no concrete relevant event in delivered text.
+84	16	14	1a179170c2d74edc	Newmark $179B refinancing-risk headline	NOTE	REVIEW.md#remaining-leads	Qualified pointer only: original linked article/filing/video or chart not reviewed; no actionable event adopted.
+85	16	15	1a179170c2d74edc	AI brokerage advertisement	NO-ACTION	REVIEW.md#source-quality	Promotional, keyword collision, technical-price commentary or no concrete relevant event in delivered text.
+86	17	1	1a16fdc4d3222991	Burry broken/busted-stocks historical breadth teaser	NOTE	REVIEW.md#remaining-leads	Qualified pointer only: original linked article/filing/video or chart not reviewed; no actionable event adopted.
+87	18	1	1a178973ef475979	PJM November1 repeated-hour DST notice	DISPATCH	SIG-W-20261027-027	Full email text reviewed; cited source and verification limits travel on the card.
+88	19	1	1a16a42cd3064be5	PJM October27 planned maintenance/stale-data notice	DISPATCH	SIG-W-20261027-027	Full email text reviewed; cited source and verification limits travel on the card.
+89	20	1	1a178c22744fa305	Trepp October29 14:00 ET webinar invitation	NOTE	REVIEW.md#remaining-leads	Qualified pointer only: original linked article/filing/video or chart not reviewed; no actionable event adopted.
