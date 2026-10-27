@@ -4,7 +4,8 @@ Read only entries relevant to Will's current assignment. This is historical evid
 
 ## October 27 program opportunities
 
-- **Ordinary programs and agent work:** [Initial candidates](runs/2026-10-27_1440_program-opportunities.md). Recommend the existing saved-research-reader idea, then a read-only repository/setup view; reuse existing evidence-preparation and check tools before new pipelines. Advice only, no build/scheduling/owner-edit approval. Current tool operation and savings unverified; retired Helm, paused Decision Deck, and existing DEWEY integration/trials remain separate. Orient and await Will.
+- **Research reader:** Will wants it built and requested the plan first. [Partial plan/checkpoint](runs/2026-10-27_1440_program-opportunities.md#partial-reader-plan--saved-before-further-work) preserves inspected three-desk locations, initial scope, and unresolved renderer/filter/UI/test choices. Plan unfinished; no reader implementation. Will prioritized Git delivery because usage was low. Resume by completing the plan, preserving build intent.
+- **Other programs and agent work:** [Initial candidates](runs/2026-10-27_1440_program-opportunities.md). Repository/setup view, evidence-preparation entrypoint, and existing-check view remain proposals with no build/scheduling/owner-edit approval. Current operation and savings unverified; retired Helm, paused Decision Deck, and existing DEWEY integration/trials remain separate.
 
 ## October 26 direction and retained advice
 

@@ -188,8 +188,8 @@ class LauncherTests(unittest.TestCase):
         self.assertEqual(len(entries), 51)
         for action in ('new', 'resume'):
             walter = agents.build_plan(entries['WALTER'], 'claude', action)
-            self.assertIn('--channels', walter.argv)
-            self.assertIn('plugin:telegram@claude-plugins-official', walter.argv)
+            self.assertNotIn('--channels', walter.argv)
+            self.assertNotIn('plugin:telegram@claude-plugins-official', walter.argv)
             self.assertNotIn('--channels', agents.build_plan(entries['WALTER'], 'sol', action).argv)
         for name in ('STUE', 'POLLY', 'DOC', 'GIG', 'PHAN', 'POP'):
             plan = agents.build_plan(entries[name], 'sol', 'new')

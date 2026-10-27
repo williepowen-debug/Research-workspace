@@ -15,11 +15,7 @@
       "purpose": "Signal intake and routing.",
       "group": "System, research, and trading",
       "kind": "fleet",
-      "default_runtime": "sol",
-      "claude_args": [
-        "--channels",
-        "plugin:telegram@claude-plugins-official"
-      ]
+      "default_runtime": "sol"
     },
     {
       "name": "CATO",

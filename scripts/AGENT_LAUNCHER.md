@@ -106,8 +106,8 @@ Without Windows Terminal, use `--same-window`; there is no silent fallback.
   CYPHER retains its explicit Claude model from the command sheet.
 - CATO keeps its existing **Astra / workspace-write / on-request** policy.
   `--sol` and `--claude` are rejected for CATO instead of changing its policy.
-- WALTER retains its Claude Telegram channel option in new and resume modes.
-  Running WALTER in Codex does not establish Telegram connectivity.
+- WALTER's Telegram connection was retired by Will on October 27, 2026.
+  New and resumed sessions launch without Telegram channel flags.
 - CARL's specialists use their nested folders. Project folders and startup files
   are checked; the launcher never creates missing desks or substitutes another.
 - The configuration contains the command sheet's 50 distinct targets plus CATO.
