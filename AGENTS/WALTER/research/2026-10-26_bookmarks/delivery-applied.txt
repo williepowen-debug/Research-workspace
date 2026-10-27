@@ -1,0 +1,27 @@
+delivery_log rows: 5515
+  pending -> delivered (in origin/master tree, or in origin/master HISTORY): 0
+  REAL ORPHANS (origin/master has NEVER seen the path, left untouched): 59
+    row 5458: AGENTS/CYPHER/inbox/WALTER/SIG-W-20261027-002.md
+    row 5459: AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-002.md
+    row 5460: AGENTS/SHADE/inbox/WALTER/SIG-W-20261027-002.md
+    row 5461: AGENTS/VULCAN/inbox/WALTER/SIG-W-20261027-002.md
+    row 5462: AGENTS/LIQUID/inbox/WALTER/SIG-W-20261027-003.md
+    row 5463: AGENTS/BROCK/inbox/WALTER/SIG-W-20261027-003.md
+    row 5464: AGENTS/VULCAN/inbox/WALTER/SIG-W-20261027-003.md
+    row 5465: AGENTS/HENRY/inbox/WALTER/SIG-W-20261027-003.md
+    row 5466: AGENTS/VULCAN/inbox/WALTER/SIG-W-20261027-004.md
+    row 5467: AGENTS/CYPHER/inbox/WALTER/SIG-W-20261027-004.md
+    row 5468: AGENTS/HENRY/inbox/WALTER/SIG-W-20261027-004.md
+    row 5469: AGENTS/VIOLET/inbox/WALTER/SIG-W-20261027-004.md
+    row 5470: AGENTS/WATT/inbox/WALTER/SIG-W-20261027-004.md
+    row 5471: AGENTS/VULCAN/inbox/WALTER/SIG-W-20261027-005.md
+    row 5472: AGENTS/HENRY/inbox/WALTER/SIG-W-20261027-005.md
+    row 5473: AGENTS/VIOLET/inbox/WALTER/SIG-W-20261027-005.md
+    row 5474: AGENTS/WATT/inbox/WALTER/SIG-W-20261027-005.md
+    row 5475: AGENTS/LABOR/inbox/WALTER/SIG-W-20261027-006.md
+    row 5476: AGENTS/VULCAN/inbox/WALTER/SIG-W-20261027-006.md
+    row 5477: AGENTS/HOMER/inbox/WALTER/SIG-W-20261027-007.md
+    … and 39 more
+
+nothing to do.
+⚠️  but 59 row(s) remain UNRESOLVED (59 orphan / 0 unknown) — exit 1.

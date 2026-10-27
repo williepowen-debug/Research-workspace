@@ -1,0 +1,5 @@
+delivery_log rows: 5515
+  pending -> delivered (in origin/master tree, or in origin/master HISTORY): 59
+  REAL ORPHANS (origin/master has NEVER seen the path, left untouched): 0
+
+DRY RUN — nothing written. Re-run with --apply to write.

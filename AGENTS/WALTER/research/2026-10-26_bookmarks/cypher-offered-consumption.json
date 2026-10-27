@@ -1,0 +1,72 @@
+{
+  "checked_at": "2026-10-27T03:32:31Z",
+  "scope": "six specifically offered owner dispositions only; no recipient audit",
+  "items": [
+    {
+      "signal": "SIG-W-20261027-002",
+      "board_log_commit": "ab1893453",
+      "rows": [
+        "2026-10-26T23:26:39-04:00\tSIG-W-20261027-002\tnoted\tINBOX_WALTER\tAlready integrated owner CISA fire, 007 and watch row2. Independent WALTER source agrees. No new event, deadline or composite regrade."
+      ],
+      "move_commit": "5b20570b4",
+      "processed_path": "AGENTS/CYPHER/inbox/WALTER/processed/SIG-W-20261027-002.md",
+      "processed_sha256": "1ee8dc03fc03db172f51dce7426663724d439947942f2512e2116eadfc088f07",
+      "consumption_evidenced": true
+    },
+    {
+      "signal": "SIG-W-20261027-004",
+      "board_log_commit": "ab1893453",
+      "rows": [
+        "2026-10-26T23:26:39-04:00\tSIG-W-20261027-004\tnoted\tINBOX_WALTER\tKB-CYP-059; S-1 excerpt artifact read: >1 month preventive training delay, no successful weight theft. VULCAN timing consequence, no incident manufactured."
+      ],
+      "move_commit": "5b20570b4",
+      "processed_path": "AGENTS/CYPHER/inbox/WALTER/processed/SIG-W-20261027-004.md",
+      "processed_sha256": "878121269e16367a91cabe805a93b36ec1a497be98310295bb64458fce9266cb",
+      "consumption_evidenced": true
+    },
+    {
+      "signal": "SIG-W-20261027-009",
+      "board_log_commit": "ab1893453",
+      "rows": [
+        "2026-10-26T23:26:39-04:00\tSIG-W-20261027-009\tacted\tINBOX_WALTER\t38 profiles in one shared actor-claim family, not 38 confirmed breaches. ImmoVia Hausverwaltung -> FOLDED REPORTED, no verified financial/chokepoint consequence; no source check commissioned; Grundbaulabor Trier -> FOLDED REPORTED, no verified financial/chokepoint consequence; no source check commissioned; Radiology profile screenshot 1 cell 3 (title unresolved) -> FOLDED REPORTED, no verified financial/chokepoint consequence; no source check commissioned; SuperScale -> FOLDED REPORTED, no verified financial/chokepoint consequence; no source check commissioned; Mercantile Investment Corporation Bolivia S.A. (MICSA) -> INTEGRATE CYB-INC-045 financial-identity claim, UNANCHORED; Mann Group -> FOLDED REPORTED, no verified financial/chokepoint consequence; no source check commissioned; Some S.r.l. -> FOLDED REPORTED, no verified financial/chokepoint consequence; no source check commissioned; Trade Union Co -> FOLDED REPORTED, no verified financial/chokepoint consequence; no source check commissioned; Groupe AC Environnement -> FOLDED REPORTED, no verified financial/chokepoint consequence; no source check commissioned; SAP Latin America/Caribbean (as claimed) -> FOLDED REPORTED, no verified financial/chokepoint consequence; no source check commissioned; Lydenburg Toyota -> FOLDED REPORTED, no verified financial/chokepoint consequence; no source check commissioned; WANG / IX Tech WANG (as shown) -> FOLDED REPORTED, no verified financial/chokepoint consequence; no source check commissioned; Unisa Shoes -> FOLDED REPORTED, no verified financial/chokepoint consequence; no source check commissioned; Acodafe -> FOLDED REPORTED, no verified financial/chokepoint consequence; no source check commissioned; Betopia Group -> FOLDED REPORTED, no verified financial/chokepoint consequence; no source check commissioned; Malmsten -> FOLDED REPORTED, no verified financial/chokepoint consequence; no source check commissioned; Zinkan Enterprises -> FOLDED REPORTED, no verified financial/chokepoint consequence; no source check commissioned; Belmont Resorts -> FOLDED REPORTED, no verified financial/chokepoint consequence; no source check commissioned; PurePerfection -> FOLDED REPORTED, no verified financial/chokepoint consequence; no source check commissioned; EPMMQ / EPMMOP Quito (label/domain mismatch) -> FOLDED REPORTED, no verified financial/chokepoint consequence; no source check commissioned; Atlas Stamping Manufacturing -> FOLDED REPORTED, no verified financial/chokepoint consequence; no source check commissioned; WIKA Beton -> FOLDED REPORTED, no verified financial/chokepoint consequence; no source check commissioned; StarImage -> FOLDED REPORTED, no verified financial/chokepoint consequence; no source check commissioned; Grupo Sanirent -> FOLDED REPORTED, no verified financial/chokepoint consequence; no source check commissioned; Farmacias911 -> FOLDED REPORTED, no verified financial/chokepoint consequence; no source check commissioned; SoftwareOne Turkey (as claimed) -> FOLDED REPORTED, no verified financial/chokepoint consequence; no source check commissioned; Epic Health -> FOLDED REPORTED, no verified financial/chokepoint consequence; no source check commissioned; Incomelec -> FOLDED REPORTED, no verified financial/chokepoint consequence; no source check commissioned; ASL Insaat -> FOLDED REPORTED, no verified financial/chokepoint consequence; no source check commissioned; Surexport -> FOLDED REPORTED, no verified financial/chokepoint consequence; no source check commissioned; Northwest Micro Systems -> FOLDED REPORTED, no verified financial/chokepoint consequence; no source check commissioned; Vietnam Airlines -> FOLDED REPORTED, no verified financial/chokepoint consequence; no source check commissioned; Serit CC -> FOLDED REPORTED, no verified financial/chokepoint consequence; no source check commissioned; Marie Kruses Skole -> FOLDED REPORTED, no verified financial/chokepoint consequence; no source check commissioned; United Rolls -> FOLDED REPORTED, no verified financial/chokepoint consequence; no source check commissioned; Pac Production -> FOLDED REPORTED, no verified financial/chokepoint consequence; no source check commissioned; Zehren and Associates -> FOLDED REPORTED, no verified financial/chokepoint consequence; no source check commissioned; Spontini -> FOLDED REPORTED, no verified financial/chokepoint consequence; no source check commissioned; SAP LAC/SoftwareOne Turkey regional identities not global-company breaches. Source figures are profile claims, not measured losses."
+      ],
+      "move_commit": "5b20570b4",
+      "processed_path": "AGENTS/CYPHER/inbox/WALTER/processed/SIG-W-20261027-009.md",
+      "processed_sha256": "eecb59530a9dbacfcf455a5cd0d0e814d9e2420a2b07219f883b8f0d2b73c5d9",
+      "consumption_evidenced": true
+    },
+    {
+      "signal": "SIG-W-20261027-010",
+      "board_log_commit": "ab1893453",
+      "rows": [
+        "2026-10-26T23:26:39-04:00\tSIG-W-20261027-010\tacted\tINBOX_WALTER\tPark24 -> CYB-INC-043 REPORTED/SECONDARY, Reuters syndicated body own-read, issuer unread. JPY3000 per customer, no population/aggregate. GMO folds into 032; no common root."
+      ],
+      "move_commit": "5b20570b4",
+      "processed_path": "AGENTS/CYPHER/inbox/WALTER/processed/SIG-W-20261027-010.md",
+      "processed_sha256": "16dae725b2e0c6013616acc8f0094634d25ccb69117cafb68c506ccabba1f842",
+      "consumption_evidenced": true
+    },
+    {
+      "signal": "SIG-W-20261027-011",
+      "board_log_commit": "ab1893453",
+      "rows": [
+        "2026-10-26T23:26:39-04:00\tSIG-W-20261027-011\tacted\tINBOX_WALTER\tKeystone -> CYB-INC-044 CONFIRMED/ARTIFACT-VERIFIED issuer article via WALTER. Device-auth key separate from wallet/signing keys; no on-chain theft reported. Records not people; destruction/erasure announced, not verified complete; PROME NO-OWNER flag."
+      ],
+      "move_commit": "5b20570b4",
+      "processed_path": "AGENTS/CYPHER/inbox/WALTER/processed/SIG-W-20261027-011.md",
+      "processed_sha256": "99998c3ba18150b45a0967a177d78ccd9c40b70e225ed55c7658afbe78ca536e",
+      "consumption_evidenced": true
+    },
+    {
+      "signal": "SIG-W-20261027-012",
+      "board_log_commit": "ab1893453",
+      "rows": [
+        "2026-10-26T23:26:39-04:00\tSIG-W-20261027-012\tacted\tINBOX_WALTER\tFold into 033; own Tailscale issuer read agrees. End10/27 release conditional on testing; main-branch fixes not numbered release. No extra incident, unauthenticated arbitrary access or configuration change."
+      ],
+      "move_commit": "5b20570b4",
+      "processed_path": "AGENTS/CYPHER/inbox/WALTER/processed/SIG-W-20261027-012.md",
+      "processed_sha256": "1de3d1fe1fde1848583fa6d4a66ecc2a45dca899cb60c570c58a7edb57e4f7bb",
+      "consumption_evidenced": true
+    }
+  ]
+}

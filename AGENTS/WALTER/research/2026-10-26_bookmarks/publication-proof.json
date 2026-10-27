@@ -1,0 +1,469 @@
+{
+  "checked_at": "2026-10-27T03:32:31Z",
+  "origin": "72a1d9e9c156d066f09ab6ff9f85858fc28a9996",
+  "paths": [
+    {
+      "path": "BOARD/SIG-W-20261027-002-php2shell-kev-owner-fire.md",
+      "origin_sha256": "bbceab3d7c8673dedab1f5270e8edc6c07603ad1d58cc140ff595b8de63801d6",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/CYPHER/inbox/WALTER/SIG-W-20261027-002.md",
+      "origin_sha256": "1ee8dc03fc03db172f51dce7426663724d439947942f2512e2116eadfc088f07",
+      "local_bytes_match": false,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-002.md",
+      "origin_sha256": "cd9297ba921b6e0b191f99643affba22c1514adfb75010e0a54ba21c3ccb556c",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/SHADE/inbox/WALTER/SIG-W-20261027-002.md",
+      "origin_sha256": "cd9297ba921b6e0b191f99643affba22c1514adfb75010e0a54ba21c3ccb556c",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261027-002.md",
+      "origin_sha256": "cd9297ba921b6e0b191f99643affba22c1514adfb75010e0a54ba21c3ccb556c",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "BOARD/SIG-W-20261027-003-anthropic-note-carrying-value.md",
+      "origin_sha256": "02212e09426b2a47a5aac46939564d9887af792a88c22a848034c880cdbea64e",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261027-003.md",
+      "origin_sha256": "8625221c21de2d91d6e4d8bc76d8d12958fc48ee9c52b323cb3401079821087a",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/BROCK/inbox/WALTER/SIG-W-20261027-003.md",
+      "origin_sha256": "8625221c21de2d91d6e4d8bc76d8d12958fc48ee9c52b323cb3401079821087a",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261027-003.md",
+      "origin_sha256": "df2670ef9d7065c396e2597172d990a007cf1c3ee1839460f6b047a2bbe84786",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261027-003.md",
+      "origin_sha256": "df2670ef9d7065c396e2597172d990a007cf1c3ee1839460f6b047a2bbe84786",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "BOARD/SIG-W-20261027-004-anthropic-security-training-delay.md",
+      "origin_sha256": "bb33f26eb4132582b148a2855eaf09b1f897cd45d7c6fa4ddcb245e62c5818ab",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261027-004.md",
+      "origin_sha256": "e4b1a48df330ca67968ffb18b17e4fae8c998a135abe1aed9dca412895733b1a",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/CYPHER/inbox/WALTER/SIG-W-20261027-004.md",
+      "origin_sha256": "878121269e16367a91cabe805a93b36ec1a497be98310295bb64458fce9266cb",
+      "local_bytes_match": false,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261027-004.md",
+      "origin_sha256": "878121269e16367a91cabe805a93b36ec1a497be98310295bb64458fce9266cb",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20261027-004.md",
+      "origin_sha256": "878121269e16367a91cabe805a93b36ec1a497be98310295bb64458fce9266cb",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/WATT/inbox/WALTER/SIG-W-20261027-004.md",
+      "origin_sha256": "878121269e16367a91cabe805a93b36ec1a497be98310295bb64458fce9266cb",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "BOARD/SIG-W-20261027-005-openai-eth-research-claim.md",
+      "origin_sha256": "eab1207c442a4fd2a64da6a8315dc5f5b9d2d745729fcd3324b892929dddb064",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261027-005.md",
+      "origin_sha256": "bc81f520cd4f0030a7bf36536ffca08f4dcae42162b7408bac01ec24e76bdfaf",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261027-005.md",
+      "origin_sha256": "c4f47281fd4024cbb3a4a0bc2c9e2a5a46cf20207d273c62b0626cec23d57e80",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20261027-005.md",
+      "origin_sha256": "c4f47281fd4024cbb3a4a0bc2c9e2a5a46cf20207d273c62b0626cec23d57e80",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/WATT/inbox/WALTER/SIG-W-20261027-005.md",
+      "origin_sha256": "c4f47281fd4024cbb3a4a0bc2c9e2a5a46cf20207d273c62b0626cec23d57e80",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "BOARD/SIG-W-20261027-006-white-collar-exit-offers.md",
+      "origin_sha256": "9222e194d06edd02cd0c917c958d4d85cc2fcc696fd3b761d642635ff36b4cbd",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/LABOR/inbox/WALTER/SIG-W-20261027-006.md",
+      "origin_sha256": "d27cb185241cde58c5d1425698b94732cb16b577153bcee2ec2f8d52b1053fa0",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261027-006.md",
+      "origin_sha256": "ae8a42966041c13d93994e9c813fe9f8a0f23a950aba2fc1d068ef925f5c5a09",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "BOARD/SIG-W-20261027-007-housing-resale-equity-bases.md",
+      "origin_sha256": "95e99346483c160aaac6a8dea3606650d25ee7110bfb4fe64148a14504a9da68",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/HOMER/inbox/WALTER/SIG-W-20261027-007.md",
+      "origin_sha256": "c773e1c3acb62df6b2c6a393c5004f761d36ded88a641503e3fd1832604586cd",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-007.md",
+      "origin_sha256": "7d186d5f13b2aeb8cc4809558b63aa0a7561410ba34ed84ef7b881b677213168",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "BOARD/SIG-W-20261027-008-intel-classiq-agreement.md",
+      "origin_sha256": "689ae113b2cebdb51cd8f4bd72f32e1e595445a614663f0a119853a99d88d2b1",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261027-008.md",
+      "origin_sha256": "ed0ef50d5abd55d02471028e414cbfbafec449899a159087f459dad3ada6e795",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261027-008.md",
+      "origin_sha256": "80ed208968216a3992336c97536fcd07d82d240f3ad0de9dadf58d5feff2c755",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "BOARD/SIG-W-20261027-009-gentlemen-38-claims.md",
+      "origin_sha256": "b8a2c7d8b44c618c766190d7bd6c8c92590af41f2a9f3b6dcd4222782ae25fd4",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/CYPHER/inbox/WALTER/SIG-W-20261027-009.md",
+      "origin_sha256": "eecb59530a9dbacfcf455a5cd0d0e814d9e2420a2b07219f883b8f0d2b73c5d9",
+      "local_bytes_match": false,
+      "state": "on-origin"
+    },
+    {
+      "path": "BOARD/SIG-W-20261027-010-japan-cyber-compensation.md",
+      "origin_sha256": "71a53ac61ee6c881c0058a2b7914b6540f08edd490f1d5efe9744e015f4ed468",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/CYPHER/inbox/WALTER/SIG-W-20261027-010.md",
+      "origin_sha256": "16dae725b2e0c6013616acc8f0094634d25ccb69117cafb68c506ccabba1f842",
+      "local_bytes_match": false,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/SAM/inbox/WALTER/SIG-W-20261027-010.md",
+      "origin_sha256": "d8e14510878d6570fd538563ebce5ad513a04b530274436d3e6e512989b6ea34",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261027-010.md",
+      "origin_sha256": "d8e14510878d6570fd538563ebce5ad513a04b530274436d3e6e512989b6ea34",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/OTTO/inbox/WALTER/SIG-W-20261027-010.md",
+      "origin_sha256": "d8e14510878d6570fd538563ebce5ad513a04b530274436d3e6e512989b6ea34",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/SHADE/inbox/WALTER/SIG-W-20261027-010.md",
+      "origin_sha256": "d8e14510878d6570fd538563ebce5ad513a04b530274436d3e6e512989b6ea34",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-010.md",
+      "origin_sha256": "d8e14510878d6570fd538563ebce5ad513a04b530274436d3e6e512989b6ea34",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261027-010.md",
+      "origin_sha256": "d8e14510878d6570fd538563ebce5ad513a04b530274436d3e6e512989b6ea34",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "BOARD/SIG-W-20261027-011-keystone-authentication-key.md",
+      "origin_sha256": "9e26ab79c02b04c26562afc02a9b527884056d541dd3f5b0187e63bad53d009c",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/CYPHER/inbox/WALTER/SIG-W-20261027-011.md",
+      "origin_sha256": "99998c3ba18150b45a0967a177d78ccd9c40b70e225ed55c7658afbe78ca536e",
+      "local_bytes_match": false,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/SHADE/inbox/WALTER/SIG-W-20261027-011.md",
+      "origin_sha256": "3da94f90e846eb353d460de2d7efb74db060776fde75b8955a260d03505ac227",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-011.md",
+      "origin_sha256": "3da94f90e846eb353d460de2d7efb74db060776fde75b8955a260d03505ac227",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261027-011.md",
+      "origin_sha256": "3da94f90e846eb353d460de2d7efb74db060776fde75b8955a260d03505ac227",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "BOARD/SIG-W-20261027-012-tailscale-vendor-remediation.md",
+      "origin_sha256": "d5569f347bab8459293ec9e2678e67ada054ea5046334a122ac49663a8411324",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/CYPHER/inbox/WALTER/SIG-W-20261027-012.md",
+      "origin_sha256": "1de3d1fe1fde1848583fa6d4a66ecc2a45dca899cb60c570c58a7edb57e4f7bb",
+      "local_bytes_match": false,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-012.md",
+      "origin_sha256": "aff328f078a4e9f94d00a77050348452ebae3230a3eab28027265b894022d7c5",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/SHADE/inbox/WALTER/SIG-W-20261027-012.md",
+      "origin_sha256": "aff328f078a4e9f94d00a77050348452ebae3230a3eab28027265b894022d7c5",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261027-012.md",
+      "origin_sha256": "aff328f078a4e9f94d00a77050348452ebae3230a3eab28027265b894022d7c5",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "BOARD/SIG-W-20261027-013-hormuz-conditional-timeline.md",
+      "origin_sha256": "d545022369d850945f8ba84560e2a7e90b2500fc51d0ee0a5fca879d477fa428",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/FALCON/inbox/WALTER/SIG-W-20261027-013.md",
+      "origin_sha256": "e548b49011e01f752030069841e8cb1d0def6c686bad1f3c3aab2d33f4d317f1",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261027-013.md",
+      "origin_sha256": "03412d48d12a051623adb5a08a58de45749abb5c69cb8acf49314c6a41bc287b",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/HAWK/inbox/WALTER/SIG-W-20261027-013.md",
+      "origin_sha256": "03412d48d12a051623adb5a08a58de45749abb5c69cb8acf49314c6a41bc287b",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "BOARD/SIG-W-20261027-014-jordan-syria-airstrikes.md",
+      "origin_sha256": "f690d20da28414a86f65ac140809dfebdb89d0448830cee4c34bd49d895067e3",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/HAWK/inbox/WALTER/SIG-W-20261027-014.md",
+      "origin_sha256": "1beb5a5c973a28e4d49d6f9db09fca18648170d2d81173091947135dd42751ad",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/FALCON/inbox/WALTER/SIG-W-20261027-014.md",
+      "origin_sha256": "3c0ca2061db45c5f30b2b6bf6bbb756f3fb1bb5e71837ba33b757c1f134e3b36",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "BOARD/SIG-W-20261027-015-canada-us-tariff-talks.md",
+      "origin_sha256": "e1f449ea71bfcd9dcf8696b631b90b81acc831b0eb249073970df8c465039190",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/CARL/inbox/WALTER/SIG-W-20261027-015.md",
+      "origin_sha256": "ae3fc62f2ac329323effbbb58018750e092ae034e8f071707687768223f8bfea",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261027-015.md",
+      "origin_sha256": "46872e084212d001267c5a453b7ae0511e2896482b5f8bec4845d41c7b1ab279",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-015.md",
+      "origin_sha256": "46872e084212d001267c5a453b7ae0511e2896482b5f8bec4845d41c7b1ab279",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/MARCO/inbox/WALTER/SIG-W-20261027-015.md",
+      "origin_sha256": "46872e084212d001267c5a453b7ae0511e2896482b5f8bec4845d41c7b1ab279",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/ISHM/inbox/WALTER/SIG-W-20261027-015.md",
+      "origin_sha256": "46872e084212d001267c5a453b7ae0511e2896482b5f8bec4845d41c7b1ab279",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/OTTO/inbox/WALTER/SIG-W-20261027-015.md",
+      "origin_sha256": "46872e084212d001267c5a453b7ae0511e2896482b5f8bec4845d41c7b1ab279",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "BOARD/SIG-W-20261027-016-borr-prospector5-gabon.md",
+      "origin_sha256": "a54666ed14e6b657cfd9ce7af50a98498ccedc0591568b6a6f456876aa90db05",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261027-016.md",
+      "origin_sha256": "8cf1a38d976a9d04d020b2d1c0e921237f505a9c448f1add3f3f68bb5209b85d",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/HAWK/inbox/WALTER/SIG-W-20261027-016.md",
+      "origin_sha256": "97bb83d9ce067bc443c4367067fd3212fb3edf2e7399e7b1d4ece101a74eded9",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "BOARD/SIG-W-20261027-017-fortress-base-resilience.md",
+      "origin_sha256": "f1d5fa738efe8c21de161a38bfbc3d9dac04642916cb052853ebc1ab7dbcda48",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/HAWK/inbox/WALTER/SIG-W-20261027-017.md",
+      "origin_sha256": "b0a380c3845a0d96cacfc47e1222728ce54e93b3de60c6139a733cb0d18a91c4",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/WATT/inbox/WALTER/SIG-W-20261027-017.md",
+      "origin_sha256": "b0a380c3845a0d96cacfc47e1222728ce54e93b3de60c6139a733cb0d18a91c4",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/ISHM/inbox/WALTER/SIG-W-20261027-017.md",
+      "origin_sha256": "069aabbb6c2b90cc5ec03899817160ae7e1085203504e902834afdd62fd6929c",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "BOARD/SIG-W-20261027-018-0dte-countertrend-source-gap.md",
+      "origin_sha256": "d1dd9e6005ebbb5d4515e2c5cee1b2d4807a6c51d235f7cc317a9d53badbf9ec",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261027-018.md",
+      "origin_sha256": "e4706a6b8eafd879aceafedcaea2273cd6ba96bfd4b0629996fbd74253107eb7",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261027-018.md",
+      "origin_sha256": "b20af70c8ceee3cfe46d6548b1650e6e4c9005050ad0eee18507370ea217c6bf",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20261027-018.md",
+      "origin_sha256": "b20af70c8ceee3cfe46d6548b1650e6e4c9005050ad0eee18507370ea217c6bf",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "BOARD/SIG-W-20261027-019-food-plant-fires.md",
+      "origin_sha256": "cd1dbf9fed6f9fe0ccbf70895bf805f464b0d93d5e5fecc7358a443847d5888d",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    },
+    {
+      "path": "AGENTS/ISHM/inbox/WALTER/SIG-W-20261027-019.md",
+      "origin_sha256": "1044e0c433c55e0f59bab7b2913e437bcc8c7a3c812ae526b4ccb91eddfa3c40",
+      "local_bytes_match": true,
+      "state": "on-origin"
+    }
+  ],
+  "scope": "18authored BOARD bodies plus59self-authored handoffs only; origin history recognizes recipient moves, not semantic consumption"
+}

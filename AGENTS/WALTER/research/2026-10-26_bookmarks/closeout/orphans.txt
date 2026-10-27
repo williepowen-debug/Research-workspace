@@ -1,0 +1,13 @@
+⚠️  uncommitted files outside AGENTS/WALTER/:
+     [not yours]    AGENTS/CYPHER/NEXUS_BRIEF.md
+     [not yours]    AGENTS/CYPHER/inbox/WALTER/processed/SIG-W-20261027-002.md
+     [not yours]    AGENTS/CYPHER/inbox/WALTER/processed/SIG-W-20261027-004.md
+     [not yours]    AGENTS/CYPHER/inbox/WALTER/processed/SIG-W-20261027-009.md
+     [not yours]    AGENTS/CYPHER/inbox/WALTER/processed/SIG-W-20261027-010.md
+     [not yours]    AGENTS/CYPHER/inbox/WALTER/processed/SIG-W-20261027-011.md
+     [not yours]    AGENTS/CYPHER/inbox/WALTER/processed/SIG-W-20261027-012.md
+     [not yours]    AGENTS/FERT/research/2026-10-26_buildout/
+     [not yours]    AGENTS/NEXUS/research/2026-10-26_full_pass/
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.

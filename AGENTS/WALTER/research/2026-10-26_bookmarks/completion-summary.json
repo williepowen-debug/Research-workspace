@@ -1,0 +1,19 @@
+{
+  "bookmarks_reviewed": 34,
+  "fully_read": 14,
+  "partly_read": 20,
+  "unread": 0,
+  "new_board_records": 18,
+  "new_handoffs": 59,
+  "new_handoffs_on_origin": 59,
+  "cypher_consumptions_evidenced": 6,
+  "other_consumption": "UNKNOWN / partial except separately evidenced",
+  "head_checked_at": "2026-10-27T03:19:03Z",
+  "head_new_items": 0,
+  "scan_incomplete": false,
+  "startup": "PARTIAL",
+  "full_selected_check_state": "UNKNOWN (stale READS attestation)",
+  "final_receipt": "PASS",
+  "doctor_high": 0,
+  "doctor_med": 3
+}

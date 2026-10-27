@@ -1,18 +1,19 @@
 # WALTER STATUS
-**Updated:** 2026-10-27T02:11:10Z — ISHM intake qualification integrated; no new market observation or signal. BOARD 1726; boot PARTIAL. Current duties: LAST_COMPLETION.md.
+**Updated:** 2026-10-27T03:30:26Z — Will-directed bookmark review and source verification; BOARD 1744. Boot remains PARTIAL; current duties: LAST_COMPLETION.md.
 
 ## BOTTOM LINE
 
-WALTER is running with existing duties and approvals recovered. One SEC-backed closing-date correction is committed; the ten-transfer sample is selected, with grading still separate. Main Git, Research-Intake and X access succeeded. Brazil remains severe local repricing with broad forced transmission unproved; October26 US credit/funding data still absent from the pull. Fourteen regular packets, three DEWEY returns,32staged bookmarks and stale reading attestation prevent a complete-startup claim. Exact work and source limits: LAST_COMPLETION.md.
+Thirty-four saved bookmarks have explicit source-qualified dispositions. CISA confirms PHP2Shell exploitation without a named victim or bank loss. Anthropic's note carrying value is not a cash-redemption amount; its training delay is a disclosed operational event. Hormuz timing remains conditional. The later Japan stockpiling post concerns a planned November 2 preparedness request. Source-access limits and unfinished startup/lifecycle duties remain explicit in LAST_COMPLETION.md; no broad market or fleet all-clear.
 
 ## DATED MARKET OBSERVATIONS
 
 | Object | Observation and limit |
 |---|---|
+| Bookmark source checks (October 27 UTC) | CISA v2026.10.26 lists both PHP root CVEs (added October 26); no named victim. Anthropic June 30 note carrying value $108.566B and H1 noncash charge $72.388B are different from cash burn/IPO redemption. Tailscale vendor release target October 27 is conditional, no shipped version asserted. Sources/limits: research/2026-10-26_bookmarks/REVIEW.md. No new market-price or threshold-family clearance. |
 | Startup scan (October26 ET; pull October27 UTC) | HY338 / CCC1356bp / VIXCLS19.45 [October23]; SOFR-IORB+2bp matchedOctober23; T5YIFR2.21 [October26]. Vendor regular-sessionOctober26 KRE72.73/WAL75.44/VIX18.39. FT11 matchedOctober16→23 preconditions not met. No new fire in completed checks; HANS daily/settlement/census limits: research/2026-10-26_startup-recovery/THRESHOLD-SCAN.md. |
 | Evening owner evidence (October26, owner pulls17:35–18:57ET) | LIQUID vendor EWZ−19.82%,HYG+0.19%,LQD+0.16%,KRE+0.37%; not spread/flow measurements. Accepted domestic buybacksR$14.807B settleOctober27; current UBR call unproved. Credit/funding frontierOctober23 at18:56ET. VULCAN original-access upgrade is owner-selected sections, full reconciliation incomplete. Sources: research/2026-10-26_final/OWNER-REVIEW.md. |
 | Brazil unwind search (October26 13:44–13:47ET) | Anonymous manager reports local stop-loss amplification; no named fund/margin-call liquidation verified. Mixed carry pattern: yen weaker, peso stronger, US credit ETFs positive. NYFed afternoon repo accepted$5M, not a seizure finding. B3 wider price bands are not margin hikes. Card012/evidence: research/2026-10-26_unwind-search/REPORT.md. |
-| Morning news (October 26, underlying clocks retained) | Meta $35B offering package plus unestablished $60B future program; SpaceX ~$40B conditional GPU lease; Anthropic public IPO reported, original prospectus unread. B3 halt confirmed; Reuters local equity/FX/CDS stress is dated intraday, not a forced-sale finding. Cards 001–004. |
+| Morning news (October 26, underlying clocks retained) | Meta $35B offering package plus unestablished $60B future program; SpaceX ~$40B conditional GPU lease; Anthropic public IPO reported; original prospectus was unread at that morning dispatch, later source access/selected-section checks supersede that access limit (bookmark review). B3 halt confirmed; Reuters local equity/FX/CDS stress is dated intraday, not a forced-sale finding. Cards 001–004. |
 | Labor/energy/diplomacy (October 26 releases) | Microsoft voluntary offer, realized exits unknown; EQT–Range all-stock merger, >$50B combined EV not Range purchase price; Tehran regional contact not a settlement, Yemen military claims attributed. Cards 005–007. |
 | Data/tape (October 26, intraday or release period named) | Vendor SP500 +0.73%, Nasdaq +0.98%, VIX 18.36, KRE +0.52%, WAL +0.16%, JBLU −13.88%. Dallas current production 15.8 vs 29.5/orders 9.3 vs 30.7, input prices 55.3 vs 52.2. ifo 90.2 secondary; September CFNAI +0.07 corroborated by FRED; components secondary/full primary release table inaccessible. Cards 008–011. |
 | Bookmark verification (10/25 retrieval; underlying dates retained) | Cards019–031: GMO notices10/23–25; Python advisories10/23; CISA catalog2026.10.23; Jubilee/FQM Apr–Jun; ICSG10/14 forecast; CalPERS12/31→6/30; weather runs through10/25 12Z; Moody's10/23; MetaQ3; NYFedQ2 and historical counterexample2019Q2. These are evidence/basis updates, not fresh prices or owner grades. |
@@ -46,6 +47,8 @@ Signal/news routing and receiving-layer readiness. Domain agents own evidence, g
 
 ## STATE POINTERS
 
+- Bookmark reading/source limits: `research/2026-10-26_bookmarks/REVIEW.md`, `HEAD-REVIEW.md` and `FOLLOW-UP.md`; no source failure becomes a factual all-clear.
+
 - ISHM final/flash source qualification and five exact recipient dispositions: `research/2026-10-26_ishm-intake-receipt/REVIEW.md`; current comparison unchanged, hardware vintage limits retained.
 - Sole current obligation/approval/decision list and publication receipt: `LAST_COMPLETION.md`.
 - WQ-508 harness-audit lines applied 2026-10-23 (E04, U-W1, U-W2, U-W3, U-W5; Will confirmed in the WALTER terminal 10:5x ET); packet `inbox/2026-10-23_from-DAEDALUS_WQ508-harness-audit-lines.md`.
@@ -57,7 +60,7 @@ Signal/news routing and receiving-layer readiness. Domain agents own evidence, g
 
 ## NETWORK AWARENESS
 
-Affected ISHM mirror refreshed before this summary at 2026-10-27T02:11:10Z; 49 rows retained. ISHM first owner-session header is dated October 26; its five named WALTER dispositions are evidenced, not a whole-fleet freshness claim. Other header dates retain the prior startup review; native cross-runtime coverage remains partial and unseen owners UNKNOWN. BOARD 1726; no new dispatch in this follow-up. Duties and publication evidence: LAST_COMPLETION.md.
+REGISTRY's 49 existing rows reviewed from owner lead headers before this regeneration at 2026-10-27T03:30:26Z; roster membership/classes unchanged. Nonstandard RED/VIOLET/HOMER dates manually resolved against the captured headers. Header review dates are not market-data dates, current liveness or completed inbox consumption. CYBER claims reach CYPHER, consequence judgments stay with domain owners; no bank exposure list. Native cross-runtime visibility remains partial; unseen owners UNKNOWN. Duties and proof: LAST_COMPLETION.md.
 
 ## Active LIAISON channels
 

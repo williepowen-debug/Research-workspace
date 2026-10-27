@@ -1,5 +1,7 @@
 # Bookmark review — October 26 ET / October 27 UTC
 
+Combined completion:34 exact IDs reviewed/marked (32 here +2 in [HEAD-REVIEW](HEAD-REVIEW.md)); final fresh head03:19:03Z returned0new.14 fully read,20 partly read,0 unread.18 new BOARD bodies and59new handoffs are on origin (publication-proof.json); six offered CYPHER dispositions and committed processed copies verified (cypher-offered-consumption.json). Other recipient incorporation remains separately qualified.
+
 Will-directed review of stage1ab5bbb3f5f34833bfc83fbdd384545b. Saved head was October27 00:33:16Z; no fresh head claim here. All32 IDs have an explicit disposition. Ten attached photos inspected; two source videos not authenticated/transcribed. Reading labels concern actual material read, not download success or factual truth.
 
 18 new BOARD records include one urgent CYPHER incoming event outside the bookmarks. Publication, delivery and recipient incorporation remain separately evidenced. All material source gaps remain in [FOLLOW-UP](FOLLOW-UP.md). No trades, autonomous domain launches, studies or new collectors.
