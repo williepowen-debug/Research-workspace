@@ -1,0 +1,97 @@
+[
+  {
+    "key": "iowa-aeilic",
+    "url": "https://iid.iowa.gov/media/817/download",
+    "status": 200,
+    "bytes": 254232,
+    "path": "AGENTS/WALTER/research/2026-10-27_gmail-processing/sources/iowa-aeilic.pdf",
+    "sha256": "36ea0ead527ac7ce755851c658d0d12e89b5900bf012fbf74ec4f6eb229a844a",
+    "extraction": "pdftotext unavailable; relevant pages read through browser PDF text"
+  },
+  {
+    "key": "bofa-broadcom",
+    "url": "https://newsroom.bankofamerica.com/content/newsroom/press-releases/2026/10/bank-of-america--blackstone--citi-and-morgan-stanley-announce-la.html",
+    "final_url": "https://newsroom.bankofamerica.com/content/newsroom/press-releases/2026/10/bank-of-america--blackstone--citi-and-morgan-stanley-announce-la.html",
+    "status": 200,
+    "bytes": 110320,
+    "retrieved_at": "2026-10-27T04:08:50.008708+00:00",
+    "path": "AGENTS/WALTER/research/2026-10-27_gmail-processing/sources/bofa-broadcom.html",
+    "sha256": "172a7ef5529d55ad89a2f79fe4252746233814dd191ec47ce8cb147f0f0e01b0"
+  },
+  {
+    "key": "openai-google",
+    "url": "https://openai.com/index/openai-models-google-cloud/",
+    "final_url": "https://openai.com/index/openai-models-google-cloud/",
+    "status": 403,
+    "bytes": 9875,
+    "retrieved_at": "2026-10-27T04:08:47.584902+00:00"
+  },
+  {
+    "key": "trepp-qdr",
+    "url": "https://www.trepp.com/trepptalk/q3-2026-quarterly-data-review",
+    "final_url": "https://www.trepp.com/trepptalk/q3-2026-quarterly-data-review",
+    "status": 200,
+    "bytes": 121027,
+    "retrieved_at": "2026-10-27T04:08:47.709442+00:00",
+    "path": "AGENTS/WALTER/research/2026-10-27_gmail-processing/sources/trepp-qdr.html",
+    "sha256": "505cea4a2464b04ad1cf5c90d6e56022427fe67d6237c8c64fb33b568e294a51"
+  },
+  {
+    "key": "trepp-qdr-gate",
+    "url": "https://www.trepp.com/qdr-q3-2026",
+    "final_url": "https://www.trepp.com/qdr-q3-2026",
+    "status": 200,
+    "bytes": 43560,
+    "retrieved_at": "2026-10-27T04:08:47.636781+00:00",
+    "path": "AGENTS/WALTER/research/2026-10-27_gmail-processing/sources/trepp-qdr-gate.html",
+    "sha256": "b923af11e4604240b7ec77892bbbabd1eafd25d9a85119e0f6418a5c8b71fdc2"
+  },
+  {
+    "key": "newmark-refinance",
+    "url": "https://www.nmrk.com/insights/thought-leadership/179-billion-in-low-rate-cre-debt-faces-a-higher-rate-refinance",
+    "final_url": "https://www.nmrk.com/insights/thought-leadership/179-billion-in-low-rate-cre-debt-faces-a-higher-rate-refinance",
+    "status": 403,
+    "bytes": 25,
+    "retrieved_at": "2026-10-27T04:08:47.579536+00:00"
+  },
+  {
+    "key": "mnsb-mirror",
+    "url": "https://www.stocktitan.net/sec-filings/MNSB/8-k-main-street-bancshares-inc-reports-material-event-10483fa1ac8a.html",
+    "final_url": "https://www.stocktitan.net/sec-filings/MNSB/8-k-main-street-bancshares-inc-reports-material-event-10483fa1ac8a.html",
+    "status": 200,
+    "bytes": 795367,
+    "retrieved_at": "2026-10-27T04:08:47.801237+00:00",
+    "path": "AGENTS/WALTER/research/2026-10-27_gmail-processing/sources/mnsb-mirror.html",
+    "sha256": "580faaf433616d7fd7d8baafa98d4256a1d4e205b188e83cd465bc72794bd987"
+  },
+  {
+    "key": "webstar-submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001645155.json",
+    "final_url": "https://data.sec.gov/submissions/CIK0001645155.json",
+    "status": 200,
+    "bytes": 17885,
+    "retrieved_at": "2026-10-27T04:08:47.928597+00:00",
+    "path": "AGENTS/WALTER/research/2026-10-27_gmail-processing/sources/webstar-submissions.json",
+    "sha256": "e46d5790ab5ccb41ad32245d99931423bb805f2c01838ddf737d6634af23f12f"
+  },
+  {
+    "key": "mnsb-submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001693577.json",
+    "final_url": "https://data.sec.gov/submissions/CIK0001693577.json",
+    "status": 200,
+    "bytes": 83361,
+    "retrieved_at": "2026-10-27T04:08:47.862278+00:00",
+    "path": "AGENTS/WALTER/research/2026-10-27_gmail-processing/sources/mnsb-submissions.json",
+    "sha256": "8d574720ed799c7e83730ab86b1d5744f985e81661f16582eacd59b7dc90f243"
+  },
+  {
+    "key": "townlane-release",
+    "url": "https://finance.yahoo.com/real-estate/articles/town-lane-raises-1-9-120100841.html",
+    "final_url": "https://finance.yahoo.com/real-estate/articles/town-lane-raises-1-9-120100841.html",
+    "status": 200,
+    "bytes": 981782,
+    "retrieved_at": "2026-10-27T04:08:48.294481+00:00",
+    "path": "AGENTS/WALTER/research/2026-10-27_gmail-processing/sources/townlane-release.html",
+    "sha256": "6d5f67ad40fb1aee2e6a7015bab00ba4182e44d1f93d58086d4049cd65a5e123"
+  }
+]

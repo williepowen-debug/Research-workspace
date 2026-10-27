@@ -1,0 +1,213 @@
+{
+  "timestamp": "2026-10-27T04:13:28Z",
+  "signals": 12,
+  "handoffs": 54,
+  "rows": [
+    {
+      "signal_id": "SIG-W-20261027-029",
+      "slug": "broadcom-anthropic-63b-committed-structure",
+      "board_path": "BOARD/SIG-W-20261027-029-broadcom-anthropic-63b-committed-structure.md",
+      "handoffs": [
+        "AGENTS/BROCK/inbox/WALTER/SIG-W-20261027-029.md",
+        "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261027-029.md",
+        "AGENTS/GIBBS/inbox/WALTER/SIG-W-20261027-029.md",
+        "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261027-029.md",
+        "AGENTS/HENRY/inbox/WALTER/SIG-W-20261027-029.md",
+        "AGENTS/VIOLET/inbox/WALTER/SIG-W-20261027-029.md"
+      ]
+    },
+    {
+      "signal_id": "SIG-W-20261027-030",
+      "slug": "mainstreet-q3-credit-and-funding",
+      "board_path": "BOARD/SIG-W-20261027-030-mainstreet-q3-credit-and-funding.md",
+      "handoffs": [
+        "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-030.md",
+        "AGENTS/BROCK/inbox/WALTER/SIG-W-20261027-030.md",
+        "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261027-030.md"
+      ]
+    },
+    {
+      "signal_id": "SIG-W-20261027-031",
+      "slug": "blackjack-remaining-multifamily-maturity",
+      "board_path": "BOARD/SIG-W-20261027-031-blackjack-remaining-multifamily-maturity.md",
+      "handoffs": [
+        "AGENTS/HOMER/inbox/WALTER/SIG-W-20261027-031.md",
+        "AGENTS/CORAL/inbox/WALTER/SIG-W-20261027-031.md",
+        "AGENTS/CREED/inbox/WALTER/SIG-W-20261027-031.md",
+        "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-031.md",
+        "AGENTS/BROCK/inbox/WALTER/SIG-W-20261027-031.md",
+        "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261027-031.md"
+      ]
+    },
+    {
+      "signal_id": "SIG-W-20261027-032",
+      "slug": "forge-atlanta-primary-restatement-grace",
+      "board_path": "BOARD/SIG-W-20261027-032-forge-atlanta-primary-restatement-grace.md",
+      "handoffs": [
+        "AGENTS/CREED/inbox/WALTER/SIG-W-20261027-032.md",
+        "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-032.md",
+        "AGENTS/BROCK/inbox/WALTER/SIG-W-20261027-032.md"
+      ]
+    },
+    {
+      "signal_id": "SIG-W-20261027-033",
+      "slug": "american-equity-iowa-loan-source-upgrade",
+      "board_path": "BOARD/SIG-W-20261027-033-american-equity-iowa-loan-source-upgrade.md",
+      "handoffs": [
+        "AGENTS/SHADE/inbox/WALTER/SIG-W-20261027-033.md",
+        "AGENTS/BROCK/inbox/WALTER/SIG-W-20261027-033.md",
+        "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261027-033.md"
+      ]
+    },
+    {
+      "signal_id": "SIG-W-20261027-034",
+      "slug": "trepp-newmark-refinance-basis",
+      "board_path": "BOARD/SIG-W-20261027-034-trepp-newmark-refinance-basis.md",
+      "handoffs": [
+        "AGENTS/CREED/inbox/WALTER/SIG-W-20261027-034.md",
+        "AGENTS/HOMER/inbox/WALTER/SIG-W-20261027-034.md",
+        "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-034.md",
+        "AGENTS/BROCK/inbox/WALTER/SIG-W-20261027-034.md",
+        "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261027-034.md"
+      ]
+    },
+    {
+      "signal_id": "SIG-W-20261027-035",
+      "slug": "cre-values-distress-sale-denominators",
+      "board_path": "BOARD/SIG-W-20261027-035-cre-values-distress-sale-denominators.md",
+      "handoffs": [
+        "AGENTS/CREED/inbox/WALTER/SIG-W-20261027-035.md",
+        "AGENTS/HOMER/inbox/WALTER/SIG-W-20261027-035.md",
+        "AGENTS/BROCK/inbox/WALTER/SIG-W-20261027-035.md",
+        "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-035.md",
+        "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261027-035.md"
+      ]
+    },
+    {
+      "signal_id": "SIG-W-20261027-036",
+      "slug": "townlane-fund-two-commitments",
+      "board_path": "BOARD/SIG-W-20261027-036-townlane-fund-two-commitments.md",
+      "handoffs": [
+        "AGENTS/CREED/inbox/WALTER/SIG-W-20261027-036.md",
+        "AGENTS/BROCK/inbox/WALTER/SIG-W-20261027-036.md",
+        "AGENTS/HOMER/inbox/WALTER/SIG-W-20261027-036.md",
+        "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261027-036.md"
+      ]
+    },
+    {
+      "signal_id": "SIG-W-20261027-037",
+      "slug": "sunbeam-florida-self-funding-plans",
+      "board_path": "BOARD/SIG-W-20261027-037-sunbeam-florida-self-funding-plans.md",
+      "handoffs": [
+        "AGENTS/CORAL/inbox/WALTER/SIG-W-20261027-037.md",
+        "AGENTS/HOMER/inbox/WALTER/SIG-W-20261027-037.md",
+        "AGENTS/CREED/inbox/WALTER/SIG-W-20261027-037.md",
+        "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-037.md"
+      ]
+    },
+    {
+      "signal_id": "SIG-W-20261027-038",
+      "slug": "openai-google-distribution-primary",
+      "board_path": "BOARD/SIG-W-20261027-038-openai-google-distribution-primary.md",
+      "handoffs": [
+        "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261027-038.md",
+        "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261027-038.md",
+        "AGENTS/BROCK/inbox/WALTER/SIG-W-20261027-038.md",
+        "AGENTS/HENRY/inbox/WALTER/SIG-W-20261027-038.md",
+        "AGENTS/VIOLET/inbox/WALTER/SIG-W-20261027-038.md",
+        "AGENTS/WATT/inbox/WALTER/SIG-W-20261027-038.md"
+      ]
+    },
+    {
+      "signal_id": "SIG-W-20261027-039",
+      "slug": "dutch-staffing-plan-not-realized-ai-losses",
+      "board_path": "BOARD/SIG-W-20261027-039-dutch-staffing-plan-not-realized-ai-losses.md",
+      "handoffs": [
+        "AGENTS/HANS/inbox/WALTER/SIG-W-20261027-039.md",
+        "AGENTS/LABOR/inbox/WALTER/SIG-W-20261027-039.md",
+        "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261027-039.md"
+      ]
+    },
+    {
+      "signal_id": "SIG-W-20261027-040",
+      "slug": "jetblue-q3-primary-liquidity-counterevidence",
+      "board_path": "BOARD/SIG-W-20261027-040-jetblue-q3-primary-liquidity-counterevidence.md",
+      "handoffs": [
+        "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261027-040.md",
+        "AGENTS/CARL/inbox/WALTER/SIG-W-20261027-040.md",
+        "AGENTS/CORAL/inbox/WALTER/SIG-W-20261027-040.md",
+        "AGENTS/BROCK/inbox/WALTER/SIG-W-20261027-040.md",
+        "AGENTS/BRENT/inbox/WALTER/SIG-W-20261027-040.md",
+        "AGENTS/HENRY/inbox/WALTER/SIG-W-20261027-040.md"
+      ]
+    }
+  ],
+  "paths": [
+    "BOARD/SIG-W-20261027-029-broadcom-anthropic-63b-committed-structure.md",
+    "AGENTS/BROCK/inbox/WALTER/SIG-W-20261027-029.md",
+    "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261027-029.md",
+    "AGENTS/GIBBS/inbox/WALTER/SIG-W-20261027-029.md",
+    "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261027-029.md",
+    "AGENTS/HENRY/inbox/WALTER/SIG-W-20261027-029.md",
+    "AGENTS/VIOLET/inbox/WALTER/SIG-W-20261027-029.md",
+    "BOARD/SIG-W-20261027-030-mainstreet-q3-credit-and-funding.md",
+    "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-030.md",
+    "AGENTS/BROCK/inbox/WALTER/SIG-W-20261027-030.md",
+    "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261027-030.md",
+    "BOARD/SIG-W-20261027-031-blackjack-remaining-multifamily-maturity.md",
+    "AGENTS/HOMER/inbox/WALTER/SIG-W-20261027-031.md",
+    "AGENTS/CORAL/inbox/WALTER/SIG-W-20261027-031.md",
+    "AGENTS/CREED/inbox/WALTER/SIG-W-20261027-031.md",
+    "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-031.md",
+    "AGENTS/BROCK/inbox/WALTER/SIG-W-20261027-031.md",
+    "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261027-031.md",
+    "BOARD/SIG-W-20261027-032-forge-atlanta-primary-restatement-grace.md",
+    "AGENTS/CREED/inbox/WALTER/SIG-W-20261027-032.md",
+    "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-032.md",
+    "AGENTS/BROCK/inbox/WALTER/SIG-W-20261027-032.md",
+    "BOARD/SIG-W-20261027-033-american-equity-iowa-loan-source-upgrade.md",
+    "AGENTS/SHADE/inbox/WALTER/SIG-W-20261027-033.md",
+    "AGENTS/BROCK/inbox/WALTER/SIG-W-20261027-033.md",
+    "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261027-033.md",
+    "BOARD/SIG-W-20261027-034-trepp-newmark-refinance-basis.md",
+    "AGENTS/CREED/inbox/WALTER/SIG-W-20261027-034.md",
+    "AGENTS/HOMER/inbox/WALTER/SIG-W-20261027-034.md",
+    "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-034.md",
+    "AGENTS/BROCK/inbox/WALTER/SIG-W-20261027-034.md",
+    "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261027-034.md",
+    "BOARD/SIG-W-20261027-035-cre-values-distress-sale-denominators.md",
+    "AGENTS/CREED/inbox/WALTER/SIG-W-20261027-035.md",
+    "AGENTS/HOMER/inbox/WALTER/SIG-W-20261027-035.md",
+    "AGENTS/BROCK/inbox/WALTER/SIG-W-20261027-035.md",
+    "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-035.md",
+    "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261027-035.md",
+    "BOARD/SIG-W-20261027-036-townlane-fund-two-commitments.md",
+    "AGENTS/CREED/inbox/WALTER/SIG-W-20261027-036.md",
+    "AGENTS/BROCK/inbox/WALTER/SIG-W-20261027-036.md",
+    "AGENTS/HOMER/inbox/WALTER/SIG-W-20261027-036.md",
+    "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261027-036.md",
+    "BOARD/SIG-W-20261027-037-sunbeam-florida-self-funding-plans.md",
+    "AGENTS/CORAL/inbox/WALTER/SIG-W-20261027-037.md",
+    "AGENTS/HOMER/inbox/WALTER/SIG-W-20261027-037.md",
+    "AGENTS/CREED/inbox/WALTER/SIG-W-20261027-037.md",
+    "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-037.md",
+    "BOARD/SIG-W-20261027-038-openai-google-distribution-primary.md",
+    "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261027-038.md",
+    "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261027-038.md",
+    "AGENTS/BROCK/inbox/WALTER/SIG-W-20261027-038.md",
+    "AGENTS/HENRY/inbox/WALTER/SIG-W-20261027-038.md",
+    "AGENTS/VIOLET/inbox/WALTER/SIG-W-20261027-038.md",
+    "AGENTS/WATT/inbox/WALTER/SIG-W-20261027-038.md",
+    "BOARD/SIG-W-20261027-039-dutch-staffing-plan-not-realized-ai-losses.md",
+    "AGENTS/HANS/inbox/WALTER/SIG-W-20261027-039.md",
+    "AGENTS/LABOR/inbox/WALTER/SIG-W-20261027-039.md",
+    "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261027-039.md",
+    "BOARD/SIG-W-20261027-040-jetblue-q3-primary-liquidity-counterevidence.md",
+    "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261027-040.md",
+    "AGENTS/CARL/inbox/WALTER/SIG-W-20261027-040.md",
+    "AGENTS/CORAL/inbox/WALTER/SIG-W-20261027-040.md",
+    "AGENTS/BROCK/inbox/WALTER/SIG-W-20261027-040.md",
+    "AGENTS/BRENT/inbox/WALTER/SIG-W-20261027-040.md",
+    "AGENTS/HENRY/inbox/WALTER/SIG-W-20261027-040.md"
+  ]
+}

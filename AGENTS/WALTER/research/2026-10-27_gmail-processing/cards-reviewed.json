@@ -1,0 +1,335 @@
+[
+  {
+    "slug": "broadcom-anthropic-63b-committed-structure",
+    "title": "Broadcom supports equipment residual value in $63 billion Anthropic financing structure",
+    "domain": "PRIVATE_CREDIT",
+    "cluster": "AI_INFRA_CAPEX",
+    "action": [
+      "BROCK",
+      "LIQUID"
+    ],
+    "info": [
+      "GIBBS",
+      "VULCAN",
+      "HENRY",
+      "VIOLET",
+      "RED"
+    ],
+    "confidence": 0.99,
+    "entities": [
+      "Broadcom",
+      "Anthropic",
+      "Blackstone",
+      "Bank-of-America",
+      "Citigroup",
+      "Morgan-Stanley"
+    ],
+    "sources": [
+      "https://newsroom.bankofamerica.com/content/newsroom/press-releases/2026/10/bank-of-america--blackstone--citi-and-morgan-stanley-announce-la.html"
+    ],
+    "body": "The partners' October 26, 16:15 ET joint release confirms a $63 billion SPV transaction with committed financing to buy Broadcom accelerators and networking equipment for lease to Anthropic, with deliveries expected from calendar 2027. Bank of America, Citi and Morgan Stanley arrange the first lien; Blackstone is sole provider of the committed second-lien portion. Broadcom supplies residual value support equivalent to the first-lien financing amount.\n\nThis is evidence that large financing commitments remain available, alongside a supplier-linked risk channel: the chip supplier supports equipment value in the customer-financing vehicle. It is not proof that $63 billion has been funded, retained by the named banks or guaranteed against every loss. Tranche sizes, distribution/retention, collateral valuation, support triggers and lease economics are not disclosed in the release. Previously announced compute capacity must not be counted again as wholly incremental capacity.\n\nBROCK ACTION: incorporate the disclosed structure and unresolved loss allocation into existing AI/private-credit coverage, with GIBBS INFO for the bank comparison/NDFI join. LIQUID ACTION: retain committed-versus-funded and supplier-support distinctions in existing financing-availability coverage. VULCAN INFO receives capex sustainability context; no capex cut, default, owner gate or new monitoring project is declared."
+  },
+  {
+    "slug": "mainstreet-q3-credit-and-funding",
+    "title": "MainStreet Q3: nonperforming loans rise while margin and funding mix improve",
+    "domain": "BANK_CRE",
+    "cluster": "BANK_COLLATERAL",
+    "action": [
+      "REGINALD"
+    ],
+    "info": [
+      "BROCK",
+      "LIQUID",
+      "RED"
+    ],
+    "confidence": 0.99,
+    "entities": [
+      "MainStreet-Bancshares",
+      "MainStreet-Bank",
+      "MNSB"
+    ],
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/1693577/000143774926033461/ex_990544.htm"
+    ],
+    "body": "MainStreet's October 26 earnings release reports September 30 nonperforming loans of $91.996 million, versus $23.386 million a year earlier; nonaccrual/gross loans 4.71% versus 1.29%; allowance/NPL coverage 21.68% versus 80.52%. Its stated CRE concentration is 374.44% of bank capital versus 356.02%, using non-owner-occupied, multifamily and construction loans. These are whole-book NPL figures, not a disclosed $92 million CRE-only loss.\n\nQ3 net provision was $1.929 million ($2.323 million for loans less a $0.394 million release for unfunded commitments); annualized net charge-offs/average loans 0.34% versus 0.04%. Counterevidence: net interest income rose to $18.776 million and FTE margin to 3.55%. The release's funding table shows core customer funding at 79.0%, with brokered/listing sources $349.207 million versus $542.471 million at June 30. Deposits were $1.924 billion, down 0.5% sequentially and up 6.2% yearly.\n\nREGINALD ACTION: integrate this new named-bank print within existing credit/funding comparison, keeping the quarterly flow, year-over-year stock comparison and issuer definitions separate. This card does not add a scored watchlist name, commission a new study or establish a named-property case. BROCK/LIQUID INFO: no NDFI split, run or funding seizure is established."
+  },
+  {
+    "slug": "blackjack-remaining-multifamily-maturity",
+    "title": "Blackjack apartment maturity reaches special servicing; remaining loan reported at $517.7 million",
+    "domain": "BANK_CRE",
+    "cluster": "BANK_COLLATERAL",
+    "action": [
+      "HOMER",
+      "CORAL"
+    ],
+    "info": [
+      "CREED",
+      "REGINALD",
+      "BROCK",
+      "LIQUID",
+      "RED"
+    ],
+    "confidence": 0.88,
+    "entities": [
+      "Blackstone",
+      "Blackjack-Portfolio",
+      "Barclays",
+      "Morgan-Stanley",
+      "Morningstar-Credit"
+    ],
+    "case": [
+      "Blackjack Portfolio loan, six-property multifamily pool US",
+      "Hue Watercolor Place, Bradenton FL",
+      "Aslan on the River, Jonesboro GA",
+      "WestOaks, San Antonio TX area",
+      "Alexan 20th Street Station, Denver CO",
+      "Ascent South Lake Union, Seattle WA",
+      "Marlowe South Lake Union, Seattle WA"
+    ],
+    "sources": [
+      "https://www.bisnow.com/news/national/multifamily/blackstone-sun-belt-special-servicing"
+    ],
+    "body": "Bisnow's October 20 report, attributing servicing information to Morningstar Credit, says Blackstone's Blackjack Portfolio missed its October 9 maturity and entered special servicing. The reported remaining balance is $517.7 million across six properties/1,842 units, after approximately 60% paydown of the original $1.3 billion, 21-property/6,671-unit loan. Do not describe $1.3 billion as the current balance or realized loss.\n\nThe remaining collateral includes Hue Watercolor Place in Bradenton, Aslan on the River in Jonesboro, WestOaks near San Antonio, Alexan 20th Street Station in Denver, and Ascent/Marlowe South Lake Union in Seattle. Morningstar's quoted analyst says remaining cash flow exceeds underwriting. This supports a maturity/refinancing case, not proof that operating income has collapsed across all six assets. Barclays and Morgan Stanley were reported originators; current retention and final loss holders are unidentified.\n\nHOMER ACTION: integrate the source-qualified multifamily maturity case in existing coverage. CORAL ACTION: retain the Bradenton leg with the same pool-wide limitations. CREED INFO receives the named-case feed. The exposed article body was read; the original servicer record, deal identifier, current payoff and post-October 20 outcome remain unverified. No owner grade or lender-loss estimate follows."
+  },
+  {
+    "slug": "forge-atlanta-primary-restatement-grace",
+    "title": "Forge Atlanta filing confirms unpaid modification amounts and lender grace; restatement concerns 2024",
+    "domain": "BANK_CRE",
+    "cluster": "BANK_COLLATERAL",
+    "action": [
+      "CREED"
+    ],
+    "info": [
+      "REGINALD",
+      "BROCK",
+      "RED"
+    ],
+    "confidence": 0.97,
+    "entities": [
+      "Webstar-Technology-Group",
+      "Forge-Atlanta",
+      "McCall-Railroad",
+      "Urbantec"
+    ],
+    "case": [
+      "Forge Atlanta land, Ted Turner Drive and Whitehall Street SW, Atlanta GA"
+    ],
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/1645155/000149315226047641/form10-ka.htm",
+      "https://www.bisnow.com/news/atlanta/commercial-real-estate/forge-atlanta-developer-admits-19m-accounting-error-falls-further-behind-on-loan"
+    ],
+    "body": "Webstar's October 20 second 10-K amendment preserves October 15 disclosures and says it primarily restores iXBRL, rather than announcing another restatement. Note 12 corrects December 2024 liabilities from $1.101605 million to $19.777773 million, principally an $18.676168 million equity-linked derivative liability. The affected comparative year is 2024, inside the FY2025 report; this is not a new $19 million cash loss or newly discovered property debt.\n\nThe Forge Atlanta section identifies a $33.7 million seller-financed land note to McCall Railroad. It records April 1 default, a May 27 modification extending maturity to October 1, unpaid scheduled interest/fees, and lender-granted grace with duration undetermined. The issuer says the lender has not informed it of default under the modified note. Bisnow's October 20 lender-lawyer account also says no current default declaration. Thus retain both payment stress and grace; do not claim a new foreclosure or undisclosed bank loss.\n\nCREED ACTION: integrate the named land/refinancing case with filing date and source limitations. The proposed 8.4 million SF project is not completed collateral value. Current outcome after the preserved October 15 disclosure is unknown. REGINALD/BROCK INFO receive transmission context only; no identified bank exposure or new investigation is asserted."
+  },
+  {
+    "slug": "american-equity-iowa-loan-source-upgrade",
+    "title": "Iowa exam confirms $580.3 million of 2024 American Equity loans; current exposure unproved",
+    "domain": "INSURANCE_SHADOW",
+    "cluster": "PC_STRESS",
+    "action": [
+      "SHADE"
+    ],
+    "info": [
+      "BROCK",
+      "LIQUID",
+      "RED"
+    ],
+    "confidence": 0.99,
+    "entities": [
+      "American-Equity-Investment-Life",
+      "Brookfield",
+      "Brookfield-Securitization-CFO",
+      "BIP-REU-Holdings"
+    ],
+    "sources": [
+      "https://iid.iowa.gov/media/817/download"
+    ],
+    "body": "Source upgrade to SIG-W-20261027-028: Iowa's examination of American Equity Investment Life Insurance Company as of December 31, 2023, report dated June 6, 2025, records two loans in its subsequent-events section, printed page 16. Brookfield Securitization CFO Inc. borrowed $415.3 million on June 28, 2024, maturing June 28, 2034. BIP REU Holdings (2016) LP borrowed $165 million effective December 30, 2024; Brookfield Corporation guarantees that loan, whose stated April 30, 2025 maturity can be extended. The sum is $580.3 million.\n\nAcquisition occurred May 2, 2024. These two dates do not substantiate the newsletter's compressed 'within about six months' framing for the full amount: the second loan originated nearly eight months afterward. Origination totals do not establish October 2026 outstanding balances, nonperformance or a fresh solvency event. The short loan's repayment/extension outcome was not established.\n\nSHADE ACTION: replace the earlier source-access uncertainty for these two historical originations with the exam evidence in existing related-party coverage, while retaining current-balance and outcome gaps. BROCK/LIQUID INFO receive the verified historical financing link. The teaser's unidentified Vermont surplus claim and historical failure analogies remain separately unverified; this exam does not validate them."
+  },
+  {
+    "slug": "trepp-newmark-refinance-basis",
+    "title": "Trepp and Newmark refinancing screens use different cohorts; Trepp office rate conflicts with monthly print",
+    "domain": "BANK_CRE",
+    "cluster": "BANK_COLLATERAL",
+    "action": [
+      "CREED"
+    ],
+    "info": [
+      "HOMER",
+      "REGINALD",
+      "BROCK",
+      "LIQUID",
+      "RED"
+    ],
+    "confidence": 0.94,
+    "entities": [
+      "Trepp",
+      "Newmark",
+      "CMBS"
+    ],
+    "sources": [
+      "https://www.trepp.com/trepptalk/q3-2026-quarterly-data-review",
+      "https://www.bisnow.com/news/national/capital-markets/newmark-179b-low-rate-real-estate-loans-face-refinancing-risk"
+    ],
+    "body": "Trepp's October 26 public QDR preview adds $61.1 billion of private-label CMBS hard maturities in calendar 2027, including $22.2 billion office. Its dated rate screen says 75% of maturing class-A office loans require fresh equity versus 61% class-B/C, using a 10-year Treasury reaching 5.23% on October 9. Full model/cohort tables remain behind the magazine-access form. This is not a current Treasury quote.\n\nImportant source conflict: the preview says office delinquency 12.33%; the September monthly value already carried by CREED is 12.16%. Do not replace that monthly series or fire a threshold from an unexplained recap figure. SIG-W-20261027-020's $78.1 billion 'by end-2027' email total has a different stated window from calendar-2027 $61.1 billion; an exact bridge is unproved.\n\nSeparately, Bisnow October 16 attributes to Newmark $179 billion of low-rate fixed-rate securitized debt maturing through 2028, with 78% of the relevant debt carrying coupons below the then-current Treasury benchmark. Original Newmark access failed. That screen is not a forecast of $179 billion defaults.\n\nCREED ACTION: retain cohort/window distinctions and flag the office-rate conflict within existing source reconciliation. Other desks receive context only. No grade, threshold fire or summing of incompatible totals is authorized by these recaps."
+  },
+  {
+    "slug": "cre-values-distress-sale-denominators",
+    "title": "CRE recognition is uneven: Blackstone fund marks diverge and distress sales lose market share",
+    "domain": "BANK_CRE",
+    "cluster": "BANK_COLLATERAL",
+    "action": [
+      "CREED",
+      "HOMER"
+    ],
+    "info": [
+      "BROCK",
+      "REGINALD",
+      "VULCAN",
+      "RED"
+    ],
+    "confidence": 0.9,
+    "role": "counter_evidence",
+    "entities": [
+      "Blackstone",
+      "MSCI",
+      "Bisnow"
+    ],
+    "sources": [
+      "https://www.bisnow.com/news/national/capital-markets/blackstone-writes-down-real-estate-values-but-remains-bullish-on-data-centers",
+      "https://www.bisnow.com/news/national/capital-markets/distressed-sales-jump-26-driven-by-discounted-apartment-deals"
+    ],
+    "body": "Bisnow October 22 reports Blackstone Q3 opportunistic real-estate values down 3.2% quarterly and 4% over twelve months, versus core-plus gains of 1.6% and 4.3%. It distinguishes older funds' markdowns from gains in newer vintages. These are fund-strategy marks, not a 3.2% fall in every property or an across-the-board bank collateral mark. The original earnings exhibit was not reviewed in this pass.\n\nBisnow October 19 attributes to MSCI $13.2 billion of distressed sales in the first nine months, up 26.4%, while nondistressed sales rose 50.3%. Distress represented 2.4% of total volume and 1.5% in Q3. Multifamily distress sales grew 62.8%; industrial grew 167.6% but reached only $375 million, less than 1% of industrial volume. Original MSCI definitions/tables remain unread. Rising distress dollars coexist with a falling transaction share; neither statistic measures the stock of troubled loans.\n\nCREED ACTION: retain strategy/vintage dispersion and denominator counterevidence in existing CRE recognition coverage. HOMER ACTION: retain the attributed multifamily transaction evidence with its volume/cohort limits. BROCK/REGINALD/VULCAN INFO: no verified forced-sale cascade, named-bank loss or system-wide asset-price move follows."
+  },
+  {
+    "slug": "townlane-fund-two-commitments",
+    "title": "Town Lane closes $1.9 billion CRE Fund II: selective capital availability counterevidence",
+    "domain": "BANK_CRE",
+    "cluster": "BANK_COLLATERAL",
+    "action": [
+      "CREED"
+    ],
+    "info": [
+      "BROCK",
+      "HOMER",
+      "VULCAN",
+      "RED"
+    ],
+    "confidence": 0.98,
+    "role": "counter_evidence",
+    "entities": [
+      "Town-Lane",
+      "Town-Lane-Real-Estate-Opportunities-Fund-II",
+      "Tyler-Henritze"
+    ],
+    "sources": [
+      "https://finance.yahoo.com/real-estate/articles/town-lane-raises-1-9-120100841.html"
+    ],
+    "body": "Town Lane's October 26 issuer release, syndicated by Business Wire/Yahoo, announces the final close of Real Estate Opportunities Fund II at its $1.9 billion hard cap, above a $1.5 billion target and versus $1.25 billion for Fund I in 2024. The money is investor commitments, not demonstrated cash deployment, leverage capacity or liquidity available to troubled borrowers today.\n\nThe US mandate spans sectors and the capital stack; stated themes include senior housing, necessity retail, small-format industrial and powered-shell data centers. This is a selective fundraising counterexample to a universal capital-closure narrative. It is not Blackstone fundraising: founder Tyler Henritze previously worked there. One successful manager does not establish industry-wide subscriptions, redemption coverage or clearing asset values.\n\nCREED ACTION: integrate the dated final-close evidence into existing CRE capital-availability context, preserving commitments versus deployment. BROCK/HOMER/VULCAN INFO receive relevant strategy overlap without a recipient-directed new research ask."
+  },
+  {
+    "slug": "sunbeam-florida-self-funding-plans",
+    "title": "Sunbeam reports self-funded Florida phases; financing choice is a local counterexample",
+    "domain": "BANK_CRE",
+    "cluster": "BANK_COLLATERAL",
+    "action": [
+      "CORAL"
+    ],
+    "info": [
+      "HOMER",
+      "CREED",
+      "REGINALD",
+      "RED"
+    ],
+    "confidence": 0.9,
+    "role": "counter_evidence",
+    "entities": [
+      "Sunbeam-Properties",
+      "Andy-Ansin",
+      "Miramar-Cove",
+      "Isle-of-Dreams"
+    ],
+    "sources": [
+      "https://www.bisnow.com/news/national/capital-markets/andy-ansin-sunbeam-miramar-cove-north-bay-village"
+    ],
+    "body": "In Bisnow's October 18 interview, Andy Ansin says Sunbeam will use family capital for at least the initial phases of Miramar Cove and Isle of Dreams in Florida. The reported $1 billion Miramar Cove first phase is under construction, with foundation work underway on two apartment buildings. The North Bay Village tower is a future plan, with groundbreaking targeted by end-2027.\n\nThis is developer-attributed financing intent and reported construction progress, not an audited $1 billion expenditure or independently verified debt-free group balance sheet. Miramar phase-two financing is undecided and may include debt or outside equity. The article supports a local mechanism for proceeding despite expensive borrowing, alongside reduced near-term reliance on bank construction credit. It does not demonstrate that ordinary developers can finance at the same terms or that Florida demand and returns are secure.\n\nCORAL ACTION: retain the specific funding-choice counterexample in existing Florida development coverage. HOMER/CREED/REGINALD INFO receive sector and bank-demand context. Neither project is tagged as a distressed case because the read article establishes no qualifying distress event."
+  },
+  {
+    "slug": "openai-google-distribution-primary",
+    "title": "OpenAI confirms Google Cloud distribution; existing cloud commitments can pay for access",
+    "domain": "AI_CAPEX",
+    "cluster": "AI_INFRA_CAPEX",
+    "action": [
+      "VULCAN"
+    ],
+    "info": [
+      "LIQUID",
+      "BROCK",
+      "HENRY",
+      "VIOLET",
+      "WATT",
+      "RED"
+    ],
+    "confidence": 0.99,
+    "entities": [
+      "OpenAI",
+      "Google-Cloud",
+      "Microsoft",
+      "Model-Garden"
+    ],
+    "sources": [
+      "https://openai.com/index/openai-models-google-cloud/"
+    ],
+    "body": "OpenAI's October 21 announcement confirms a partnership bringing its models and Codex workflows into Google Cloud Model Garden, transacted through Google Cloud Marketplace. Customers can draw down existing Google Cloud spend commitments for purchases. The announcement describes general availability as planned in coming weeks and says Microsoft remains its primary cloud partner.\n\nThis upgrades the newsletter teaser to an issuer-confirmed distribution event. It does not disclose incremental capex, contracted compute volumes, revenue shares, training infrastructure purchases, booked sales or realized enterprise productivity. Marketplace consumption of existing spend commitments is not automatically incremental aggregate cloud demand. An unannounced exclusive infrastructure migration must not be inferred from model distribution.\n\nVULCAN ACTION: integrate the distribution/commitment mechanism within existing AI demand and capex sustainability coverage, retaining the October 21 announcement date and future rollout qualification. LIQUID/BROCK INFO receive financing-demand context; other recipients receive the capex transmission overlap. No capex cut, owner gate or new research direction is declared."
+  },
+  {
+    "slug": "dutch-staffing-plan-not-realized-ai-losses",
+    "title": "Dutch staffing plan estimates 25,000 FTE over years; AI savings detail remains prospective",
+    "domain": "EUROPE_MACRO",
+    "cluster": "CONSUMER_STAGFLATION",
+    "action": [
+      "HANS",
+      "LABOR"
+    ],
+    "info": [
+      "VULCAN",
+      "RED"
+    ],
+    "confidence": 0.99,
+    "entities": [
+      "Netherlands",
+      "Dutch-Civil-Service",
+      "Eric-van-der-Burg"
+    ],
+    "sources": [
+      "https://www.rijksoverheid.nl/actueel/nieuws/2026/10/26/kabinet-werkt-aan-slagvaardige-overheid-eenvoudiger-slimmer-en-kleiner"
+    ],
+    "body": "The Dutch government's October 26 statement targets savings of EUR900 million in 2027, rising to EUR3.5 billion from 2035. It estimates a reduction of 25,000 full-time equivalents spread over multiple years, with police and defense among exemptions. Detailed goals and savings plans for using AI to improve productivity are due in Q1 2027. The wider program also includes simplification, IT standardization, reduced office space and strategic choices about government tasks.\n\nThe 25,000 figure is a prospective staffing estimate, not observed layoffs or measured jobs already replaced by AI. Neither the entire reduction nor realized savings can be causally assigned to AI from this announcement.\n\nHANS ACTION: retain the official plan and implementation horizon in existing European fiscal/labor coverage. LABOR ACTION: retain announcement-versus-realized and FTE-versus-headcount distinctions in existing AI labor evidence. VULCAN INFO receives an adoption-intent signal with no disclosed compute purchase, capex or quantified productivity outcome. No new tracking project or owner grade is created."
+  },
+  {
+    "slug": "jetblue-q3-primary-liquidity-counterevidence",
+    "title": "JetBlue Q3 primary: wider net loss, stronger revenue and qualified financing bridge",
+    "domain": "FUNDING_LIQUIDITY",
+    "cluster": "MISC",
+    "action": [
+      "LIQUID",
+      "CARL",
+      "CORAL"
+    ],
+    "info": [
+      "BROCK",
+      "BRENT",
+      "HENRY",
+      "RED"
+    ],
+    "confidence": 0.99,
+    "entities": [
+      "JetBlue",
+      "JBLU",
+      "Fort-Lauderdale"
+    ],
+    "sources": [
+      "https://investor.jetblue.com/news/news-details/2026/JetBlue-Announces-Third-Quarter-2026-Results/default.aspx"
+    ],
+    "body": "JetBlue's October 26 primary earnings release reports Q3 net loss $257 million versus $143 million a year earlier, despite revenue $2.812 billion, up 21.1%. Adjusted operating margin improved to -3.9% from -4.1%, while GAAP operating margin fell to -5.1% from -4.3%; basis matters. Q3 fuel averaged $3.91/gallon, up 57%.\n\nQuarter-end liquidity was $2.2 billion INCLUDING a $600 million undrawn facility. An additional $250 million aircraft-backed financing is expected in Q4 subject to funding mechanics; it is not established as cash received. FY adjusted operating-margin guidance remains negative, -4.5% to -6.5%; positive free cash flow in 2028 is a target. The issuer reports Fort Lauderdale revenue per seat-mile up nearly 15% on capacity growth above 65%.\n\nLIQUID ACTION: incorporate the dated issuer liquidity/funding counterevidence alongside existing creditor-stress coverage; adviser identities and executable TRACE bond marks remain separate source gaps. CARL ACTION: retain resilient unit revenue alongside persistent losses and fuel pressure. CORAL ACTION: retain the specific Florida expansion leg without treating capacity as realized local spending. Other desks receive context. October 27's 10:00 ET call remains future; no default, adviser appointment or solvency clearance follows from this release."
+  }
+]

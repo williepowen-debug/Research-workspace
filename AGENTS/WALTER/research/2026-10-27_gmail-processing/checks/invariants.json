@@ -1,0 +1,7 @@
+{
+  "signals": 12,
+  "handoffs": 54,
+  "content_items": 89,
+  "checks": "YAML, directed asks, exact paths, recipient separation, unique delivery pairs and content IDs PASS",
+  "source_limits": "Manual review remains in REVIEW.md; source fetch is not whole-source reading."
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "key": "jetblue-q3",
+    "url": "https://investor.jetblue.com/news/news-details/2026/JetBlue-Announces-Third-Quarter-2026-Results/default.aspx",
+    "status": 403,
+    "retrieved_at": "2026-10-27T04:15:55.700489+00:00"
+  },
+  {
+    "key": "dutch-government",
+    "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/10/26/kabinet-werkt-aan-slagvaardige-overheid-eenvoudiger-slimmer-en-kleiner",
+    "status": 200,
+    "retrieved_at": "2026-10-27T04:15:56.131731+00:00",
+    "path": "AGENTS/WALTER/research/2026-10-27_gmail-processing/sources/dutch-government.html",
+    "sha256": "c65bb5fadcaaa42b37c49cdd22cc22ecf88238aa8b20344564df76978334a275",
+    "bytes": 255218
+  }
+]
