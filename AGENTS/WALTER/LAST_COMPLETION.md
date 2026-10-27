@@ -4,9 +4,9 @@ Updated 2026-10-27T17:59:25Z. Will-approved mailbox workflow DONE; full boot rem
 
 294 email records reduced to 48 active real estate messages: 20 Research Queue and 28 Reference, all three Highlights preserved. 245 newsletter containers moved to reversible Trash after lossless source capture; one personal receipt refiled to Receipts. Exact294 message-label/read-status read-back PASS. No permanent delete, read-status change, filter or external send. Current private worklist: debug/realestate-review-2026-10-27/index.html. The original965-source ZIP/library remains an unchanged snapshot. Source/navigation units (4,181) and duplicate blocks (147) are preservation accounting, not verified signals.
 
-Six source-qualified cards043–048 and16 self-authored create-only handoffs saved. Nine bounded research units accounted in BM12; all4,181 text units NOTE-preserved in BM11. Both closed. Three read-only verification helpers completed under Rule9; no domain-owner/CREED launch. Vendor/model, original-servicer, dated-event and conditional-close limits travel with the cards. Older sources were consolidated, not declared fully integrated or worthless. Evidence: research/2026-10-27_realestate-processing/RESULT.md and SOURCES.md.
+Six source-qualified cards 043–048 and 16 self-authored create-only handoffs saved. Nine bounded research units accounted in BM12; all 4,181 text units NOTE-preserved in BM11. Both closed. Three read-only verification helpers completed under Rule9; no domain-owner/CREED launch. Vendor/model, original-servicer, dated-event and conditional-close limits travel with the cards. Older sources were consolidated, not declared fully integrated or worthless. Evidence: research/2026-10-27_realestate-processing/RESULT.md and SOURCES.md.
 
-New routing is written locally; committing, publication and recipient incorporation are separate. Existing Oct27 prior156 handoffs are publication-proven; new16 require origin proof. Foreign shared launcher/script changes preclude pull/push; WALTER will exact-path commit owned work. No new Will decision, trade, research commission or paid access. Telegram stays retired. Broad full-maintenance debt, boot/intake/X/fleet/READS/lifecycle duties and previous approvals remain below. Bounded mailbox work does not discharge them.
+New routing and source records are committed locally (main f85f712b7); publication and recipient incorporation remain separate. Existing Oct27 prior 156 handoffs are publication-proven; new 16 require origin proof. Foreign shared launcher/script changes preclude pull/push; WALTER exact-path committed owned work; foreign files remain untouched. No new Will decision, trade, research commission or paid access. Telegram stays retired. Broad full-maintenance debt, boot/intake/X/fleet/READS/lifecycle duties and previous approvals remain below. Bounded mailbox work does not discharge them.
 
 ## PRESERVED PRIOR DUTY / APPROVAL RECORD
 
@@ -113,7 +113,7 @@ Startup recovery only; boot PARTIAL. No new dispatch or consumption. Routine pus
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-27T18:01:21Z",
+  "as_of": "2026-10-27T18:01:45Z",
   "next_review": "2026-10-27",
   "publication": [
     {
@@ -155,13 +155,18 @@ Startup recovery only; boot PARTIAL. No new dispatch or consumption. Routine pus
       "commit": "df6a5241038c71709beb798442ec42ac9c26635c",
       "state": "pending",
       "note": "Authored research/coordinator packet committed; origin proof and recipient incorporation separate."
+    },
+    {
+      "commit": "f85f712b71d80a41ace9380ef06063770337dbe2",
+      "state": "pending",
+      "note": "Main mailbox/source records committed; private index and backup remain machine-local. Routine publication coordinated."
     }
   ],
   "delivery": {
     "signal_date": "20261027",
     "total": 172,
     "delivered": 156,
-    "note": "Prior156 origin-proven; new16 locally authored, not yet origin-proven. No recipient incorporation claim."
+    "note": "Prior156 origin-proven; new 16 locally authored, not yet origin-proven. No recipient incorporation claim."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
@@ -194,7 +199,7 @@ Startup recovery only; boot PARTIAL. No new dispatch or consumption. Routine pus
     "12": "Affected STATUS and session breadcrumb refreshed. Full registry/network/MEMORY narrative remains due; no grade refresh.",
     "14": "Three read-only Rule9 verification helpers returned. No domain/CREED launch, research commission, paid access, trade, filter or live external send.",
     "15": "Source preservation, exact294-ID labels/readstate and protected highlights manually checked. Whole-owner integration, gated sources, lifecycle/READS/inbox duties not cleared.",
-    "16": "All16 recipient packets and coordinator packet committed with exact paths; main owned-source persistence next. Foreign scripts excluded, no pull/push. Receipt/consumption separate.",
+    "16": "Main owned records committed f85f712b7, all16 recipient packets and coordinator packet committed. Foreign scripts excluded, no pull/push. New publication/consumption separate.",
     "ledger": "Real route/delivery/batch events recorded. No kill or trigger fire, correction of WALTER claim, doorbell or full owner refresh; no artificial kill_log/REGISTRY/event-ledger timestamps.",
     "telegram": "Will retired WALTER Telegram October 27. Project disabled and launcher flags removed, existing tests 29/29 PASS. Own config/charter/memory committed; shared launcher scripts remain PROME commit custody, packet authored. Boot-basis charter hash now requires review; no automatic re-attestation.",
     "11": "Six qualified cards043\u2013048,16 create-only packets; BM11 closed4181 NOTE preservation units, BM12 closed9 research units. Declaration followed initial enumeration; timing limit explicit.",
