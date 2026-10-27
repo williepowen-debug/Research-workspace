@@ -1,0 +1,5 @@
+{
+  "state": "LIVE \u2014 4/15 cells through obs10/23; HY338 breaks UP; both runs0. Anchor329/1310 unchanged; split20/47/33 HELD. Next check10/27; earliest fire cell7, not5. \u00b7 hist\u2192GATES_STATE_HISTORY_2026-10-26_nexus",
+  "last_checked": "2026-10-26 PROME verified NEXUS 8a66a0c57 numerical/source receipts; L16 cell4 qualified, runs reset. Full fleet pass remains incomplete. See PROME/reports/2026-10-26_nexus-consumption/RECORD.md.",
+  "review_by": "2026-10-27 (L751 publication check remains due; after obs10/23 reset, cell5 cannot fire; earliest new completion cell7. NEXUS 8a66a0c57)."
+}

@@ -3,6 +3,8 @@
 
 ## ★ NEXT SESSION — START HERE
 
+**October26 NEXUS return consumed:** [receipt](reports/2026-10-26_nexus-consumption/RECORD.md). L832 numerical leg delivered; full fleet pass remains pending at October27 L554 with runtime/model dependency. L836 brief-repair consumption CLOSED. L555 rollup, WQ519 examples and FLG follow-through remain owed. GATES L16 count/reset mirrored without changing the letter or review date.
+
 **October26 HEARTBEAT refreshed:** [35th-base acceptance record](plans/2026-10-26_heartbeat-35th-rebase-PLAN.md); root HEARTBEAT now folds all four prior amendments and the dated Brazil, private-credit, AI-financing, energy and metals returns. Prior text archived verbatim; final independent read zero defects (two reads total). No owner grade, threshold, trade permission or standing restriction changed. This completes the requested synthesis rebase only; remaining obligations below persist.
 
 **October26 20:24 ET full boot:** [night-boot receipt](reports/2026-10-26_night-boot.md). Four checkpoint packets reconciled and filed; LIQUID's current brief/STATUS pin and frozen ledgers verified, NEXUS consumption still pending. Full mechanical boot passes; queue-aging, fleet coverage and maintenance keep overall PARTIAL. Existing session limits and approved ARCC/FOMC/HTGC plus WQ515 boundaries below remain; pre-event BROCK expectations read, no outcomes invented. New WALTER startup-recovery work is foreign and preserved. This is a boot receipt, not completed closeout.

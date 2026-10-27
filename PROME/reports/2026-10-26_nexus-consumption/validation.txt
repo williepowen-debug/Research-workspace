@@ -1,0 +1,5 @@
+PASS: exact prior state/review text archived; gate state <=220 characters.
+PASS: only gate state/last_checked/review_by prose changed; October27 date and all rule columns unchanged.
+PASS: only DOCKET L554/L751/L832/L836 state cells changed; six fields and line positions preserved; L555 unchanged.
+PASS: saved first-published values checked against owner grade in source-check.json.
+Calendar regenerated; longstanding over-budget advisory remains, no scope expansion. Docket row-cap mechanism dormant; line-stability check passed.
