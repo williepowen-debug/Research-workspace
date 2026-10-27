@@ -2,6 +2,10 @@
 
 Read only entries relevant to Will's current assignment. This is historical evidence and retained authority, not an automatic task queue. Moved from CONTINUITY.md on October 1, 2026; pre-move record at `c8a8fb86a969688c4b8e9ee25b130770d40be0c2`. Current resume point: [CONTINUITY.md](CONTINUITY.md). Dates and owner states below are last-checked observations, not fresh verification. Moving a record neither closes a finding nor revokes its approval.
 
+## October 27 program opportunities
+
+- **Ordinary programs and agent work:** [Initial candidates](runs/2026-10-27_1440_program-opportunities.md). Recommend the existing saved-research-reader idea, then a read-only repository/setup view; reuse existing evidence-preparation and check tools before new pipelines. Advice only, no build/scheduling/owner-edit approval. Current tool operation and savings unverified; retired Helm, paused Decision Deck, and existing DEWEY integration/trials remain separate. Orient and await Will.
+
 ## October 26 direction and retained advice
 
 - **PROME reporting / restart:** [Continuing record](runs/2026-10-26_1738_workflow-review-and-restart.md#october-26-evening--research-first-output-and-adopted-next-direction). WQ-526 assessment closed; retain provisionally, net efficiency and process survival unproven. Conclusion4778e15e0/continuation35267e752 inspected; 17 packet bytes verified, saved refresh checked; no full tool trace or independent implementation acceptance. Earlier missing-release concern superseded by documented parent STOP ACK, not native-transport verification. WQ-525 installed; one improved synthesis observed. Will adopted the latest-evidence Brazil correction and continuation direction; correction CLOSED in inspected report/SCRATCH at b8e4fcb0c, preserving paid-cash uncertainty and evaluation boundaries. No automatic review/new trial.
