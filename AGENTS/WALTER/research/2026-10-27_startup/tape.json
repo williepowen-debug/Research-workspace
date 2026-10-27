@@ -1,0 +1,44 @@
+{
+  "KRE": {
+    "price": 72.44,
+    "prev": 72.73,
+    "change_pct": -0.39,
+    "name": "Regional Banks ETF",
+    "volume": 3258145,
+    "asof": "2026-10-27",
+    "prev_asof": "2026-10-26",
+    "contract_month": null,
+    "contract_basis": "name-cut-confirmed-by-longName-at-31:'State Street SPDR S&P Regional '",
+    "instrument_type": "ETF",
+    "is_future": false,
+    "contract_symbol": null
+  },
+  "WAL": {
+    "price": 75.4,
+    "prev": 75.44,
+    "change_pct": -0.05,
+    "name": "Western Alliance",
+    "volume": 61588,
+    "asof": "2026-10-27",
+    "prev_asof": "2026-10-26",
+    "contract_month": null,
+    "contract_basis": "name-cut-inferred-from-width-at-31:'Western Alliance Bancorporation'",
+    "instrument_type": "EQUITY",
+    "is_future": false,
+    "contract_symbol": null
+  },
+  "^VIX": {
+    "price": 17.63,
+    "prev": 18.39,
+    "change_pct": -4.13,
+    "name": "VIX",
+    "volume": 0,
+    "asof": "2026-10-27",
+    "prev_asof": "2026-10-26",
+    "contract_month": null,
+    "contract_basis": "name-carries-no-month:'CBOE Volatility Index' (instrumentType='INDEX')",
+    "instrument_type": "INDEX",
+    "is_future": false,
+    "contract_symbol": null
+  }
+}

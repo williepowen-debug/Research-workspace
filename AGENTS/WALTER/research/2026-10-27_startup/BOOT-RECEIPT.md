@@ -1,0 +1,29 @@
+# WALTER startup and recovery receipt
+
+As of 2026-10-27T15:06:44Z. **PARTIAL boot; instruction and approval recovery completed.** This receipt distinguishes current execution from the prior session and leaves unfinished operations pending.
+
+Runtime: OpenAI GPT-6-based Codex; exact serving variant UNKNOWN. Session `01a17de0-aa39-7342-b6f6-18ed9406cd23`. Git root `/home/willi/Research-workspace`, launched from `AGENTS/WALTER`. Root CLAUDE.md, AGENTS.md, USER.md and local CLAUDE.md explicitly loaded, with MEMORY, STATUS, Iran anchor and LAST_COMPLETION. No intermediate or WALTER-local AGENTS.md exists; supplied instructions and root AGENTS.md both apply. COMPLETION_SPEC runtime selection and playbook Runtime mechanics loaded. No Claude instruction-loader/hook assumption.
+
+Available: shell, Git, Python venv, web, connected applications, direct Codex thread read/message tools and thread-local collaboration. No Telegram reply tool/chat, full cross-runtime fleet census or `bdata` executable. No helper or owner launched; no message, doorbell, trade, external send or new research program.
+
+| Startup duty | Actual execution / remaining limit |
+|---|---|
+| 0 | Root tree clean outside old WALTER untracked caches; `git pull --rebase` returned Already up to date. No stash or foreign-path edit. |
+| 0.5 | Doctor: zero HIGH, three MED: 96 deliveries >2 days without consumption evidence (16 ACTION / 80 INFO, oldest ACTION 8 days by routed timestamp); lifecycle review 17 days old, 3 days overdue; frozen sample 20261027-001 block-YAML header warning. No frozen bytes changed. Delivery backlog does not establish neglect/liveness. |
+| 1–4 / 6 | STATUS, Iran anchor, MEMORY, completion/carries, registry and complete routing/overlay specs read. Iran full sweep October 22 / next around October 29 retained; no full re-verification. Cape Dao owner correction already present in anchor, not a new attack. |
+| 6b/6c | All 48 owner IDs and suppression/owner fire ledgers read; RED scan hash matched. FRED, EIA, vendor and Cboe checks executed; exact FT-11 window checked. THRESHOLD-SCAN.md records scope and gaps. No new fire established in completed checks; HANS daily/settlements/cohort coverage incomplete. |
+| 7 | BOARD overview 1765 matches STATUS and doctor. Filter boot instructions read; owner lead metadata reviewed; 40-line context captured but NOT manually read whole. Full filter context, forward-catalyst/48h-log extraction and relevant signal body/companion reads remain incomplete. No market-clearance claim. |
+| 7b/7d/7g | Event window CLOSED. All 21 ordinary packets and three DEWEY returns read whole, no moves or consumption declarations. Integration/primary QA/Route-as backstops pending. Intake marks remain gated. Retired cron/phone feeds stay retired. |
+| 7e | Research-Intake pull FAILED: HTTPS GitHub username/authentication unavailable. Local diagnostic only: last run October 23 18:52:35Z, 152 news items, five NEW diagnostic keys, eight suppressed keys; two missed weekday runs by tool at this clock, not >2. Local snapshot is stale relative to prior session's successfully synced October 26 snapshot. No marks or collector-death inference. |
+| 7f | Dropzone scanner: zero regular content files. |
+| 7h | Will-launched X scan FAILED: token refresh failed, exit 1, no IDs marked. Existing staged IDs empty; previous successful 34-ID dispositions stay historical. New bookmarks cannot be cleared. No reauthorization/browser session started. |
+| 8–9 | 49 existing registry rows reviewed against owner lead headers; 44 STATUS files present, no STATUS-bearing desk missing a registry row. Existing retired/special/missing rows retained; CATO still manual-only. No membership/owner-grade inference. Two dormant LIAISON paths found; no ACTIVE channel in manifest. Sole REQ read: October 16 VULCAN intake design, 11 calendar days old, awaiting coordinator disposition; no >14-day alarm or deployment implied. |
+| 9a | Correction checker: 0 unreceipted named rows. Does not certify semantic application or close pending inbox corrections. |
+| 9b | ORCH_INFLIGHT read with omitted display segment recovered; no complete runtime fleet census. Owners UNKNOWN absent verified current evidence. Oldest unconsumed ACTION age basis is routed/delivery evidence, not authored-activity proof. No DARK verdict or doorbell. |
+| Perimeter | Boot basis matches 29 declared paths. READS attestation remains STALE (October 23, root amended October 24), verdict UNKNOWN. Registry and PROME ORCH view in rotation tier; no cap increase or PROME-owned edit. Broad manual context/retirement/lifecycle work not discharged by checks. |
+
+Current recovery order: pending correction/source packet integration and DEWEY QA before external marks; then remaining full scan/filter/context and lifecycle/retirement duties. The 34 Gmail source leads remain bounded leads, not commissions. Preserve October 16 source-search stopping rules; no repeated discretionary failed searches without changed evidence.
+
+Approvals checked: WQ-503 remains OPEN (existing remove/leave header choice); WQ-508 bounded applied lines remain approved; WQ-515 selection closed 10/10, no substitution or grading, tenth recipient-read delay ends October 28 00:38:30Z (October 27 20:38 EDT), PROME's approved reader owns grading. Existing DEWEY standing recommendation/commission limits remain in the checklist; no commission or domain launch exercised. Unattended sweeps remain declined; no new monitor, paid access or collector approval.
+
+Continuity is saved locally under exact WALTER paths. Routine WALTER push remains coordinated under BOARD_CONSUMPTION_SPEC §7, so no autonomous push. Written, committed, published, delivered and consumed remain separate. This receipt does not replace the existing open source/approval list in LAST_COMPLETION.

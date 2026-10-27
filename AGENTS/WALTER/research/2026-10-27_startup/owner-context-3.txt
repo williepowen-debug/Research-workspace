@@ -1,0 +1,302 @@
+AGENTS/CREED/STATUS.md
+# CREED STATUS
+
+**Updated:** 2026-10-22 (Thu) 17:35 ET — **evening addendum:** WQ-494 settled (Trepp PARKED; **RSNRES adopted as `VX-8.01`**, `KB-074`; ABS-EE after the October print; pension route added). No score moved. EARLIER 13:46 ET — **sweep follow-up** (Will 13:19): read-cap rotations (STATUS/CHANGELOG/SCOREBOARD under 70%) · **`registry/PREREG_2026-11_TREPP_PRINT.md` written (October print decides `T-01a`)** · PREREG_2026-10 F2 graded NOT TRIGGERED · KB 064–073 · VX 4.04/7.03/10.01/10.03 refreshed. No score moved. EARLIER 13:17 ET — **Will-directed sweep, six fixes** (THESIS row 2 + COVERAGE lanes 2/3/6 to September; SCRATCH refi block; PRED-002 note; CLAUDE.md archive path + trap 3; test C1; `MAINTENANCE.md` 10/22). No score moved. EARLIER 12:25 ET — **Will-launched boot + CRE leg of Will's 005 (HY widening → CRE?)**: securitized CRE spreads **held** through 10/16 (CREFC, PRIMARY-READ); the refinancing cost rose via the **10y**, not junk spreads; commercial mREITs −16.6%/21 sessions (1.6th pct since 2021) but only −4.3pp vs agency mREITs = **rate-type, not credit-type**; Ladder Q3 book value up. KB 60 → **63**. **No band, score, trigger or prediction moved; 27/45.** Record: `research/2026-10-22_HY_TO_CRE_REFI_READ.md`. PRIOR: 2026-10-21 (Wed) ~23:05 ET — **WQ-472 bounded catch-up** (Will 22:46 ET: *"Approve 472 A …"*; PROME prome-56 spawn; dark 10/01 → 10/21). Drain **37/37** every sender · **Trepp September graded: office DQ 12.16 = `T-01a` LEG 1 of 2 (not a fire; October decides); office SS 16.85, `T-01b` not fired** · S8a re-anchored **−11.48pp TR [10/21 close]** · DOCKET L723 pre-read (450 5th St NW, auction 10/28) · cases 137 → **154** · KB 56 → **60**. **No band, score, trigger or prediction moved; 27/45.** Record: `catchups/2026-10-21.md`. PRIOR: 2026-10-01 (Thu) early — the 9/30 → 10/01 night session (case ledger v4, loss-holder map, S8a 9/30); record `catchups/2026-09-30.md` §⑨–⑩. *(The full prior header chain lives in git history of this line and in `catchups/`.)*
+**Status:** 🟠 **ELEVATED** (re-checked 2026-10-21) — base case *selective CRE recognition accelerating* **HOLDS.** Convergence **27/45 (60.0%)** — S8a 2 → 4, **Will-ruled 2026-09-28** (WQ-303). ⚠️ Caveat travels: the S8a fire was rate-led (10y 4.38 → 5.18% official [9/24]; 5.15% ^TNX proxy [10/21]). ⚠️ **Broad CRE-to-bank transmission is not confirmed** (`T-03` not fired; next test FDIC Q3 QBP ~late Nov).
+**Tier:** 2 (spawned-as-needed). **Cadence declared EVENT-DRIVEN 2026-09-26** (PROME packet). Do not spawn without explicit Will permission.
+**Owner:** CREED after boot; PROME owns future topology/migration decisions only with Will approval.
+**▶ 🔴 FIRE IN FORCE — `CREED-T-08a` (S8a, VNQ vs SPY 3-mo TOTAL-RETURN `< −10`), effective 9/24, adjudicated 9/26.** A rate fire first (10y 4.38 → 5.18% on the original window; FOMC +25bp 9/16). ✅ S8a = 4 (Will, 9/28; held 9/30). 🆕 **Re-anchored 2026-10-21: 10/21 close −11.48pp TR (10/20 −9.15 TR / −12.02 price-only); 11 of 14 sessions 10/01–10/20 below −10; 10-session σ to 10/20 1.01pp.** The 10/20 → 10/21 step = −1.35 end move + −0.98 window roll. 10y 5.15% (^TNX 10/21 close, proxy). ⚠️ yfinance's 10/21 VNQ bar was intermittent (2 of 4 pulls; $91.49 matches `fetch.py`). Record: `registry/CREED_T_FIRED_LOG.tsv` · `VX-CREED-7.01`.
+**▶ 🔴 PRIOR FIRES:** `CREED-T-02` (S2, effective June, fired 8/20) — **spent**; Aug 81% and Sep 68% shares are not re-fires (re-checked 2026-10-21). `CREED-T-06b` (SREIT gate, effective 4/29, fired 8/27) — **S6 HELD at 3, Will-ruled**; count still 1 after a positive-controlled census (never written as corroborated beyond that census).
+**▶ NOT FIRED:** 🆕 **`T-01a` office DQ 12.16 [Trepp Sep] — LEG 1 OF 2: the clock has started; October decides** (October print ~early Nov; fires only at ≥ 12.01; graded on `registry/PREREG_2026-10_TREPP_PRINT.md` §6). ⚠️ `threshold_scan` prints `T-01a` as TRIPPED because it compares one print to the band and does not model the sustain-2 leg — graded at primary as leg 1, not a fire. · `T-01b` office SS **16.85 [Sep]**, 115bp away, moved away 5bp · `T-03` level leg suspended; Q2 not fired (Q3 QBP ~late Nov) · `T-08b` not re-graded (cohort census not re-run, UNAVAILABLE as current).
+**▶ PREDICTIONS (re-checked 2026-10-21: none due; `PRED-001` office DQ >12 for 2 prints is at 1 of 2 after September, resolves by 12/31; Kernel-pinned row untouched) — 9/29 evening: `PRED-006` RESOLVED-FALSE (30%, Brier 0.09; MBA life +$7,830M < +$10.0B) · `PRED-010` PARTIAL, not scored (Will) → mean Brier 0.279, n=6, 4/6 correct side.** Earlier (9/28, WQ-304 option B): `PRED-CREED-004` **HIT** (60%, GPMT review 9/23, Brier 0.16) · `PRED-CREED-007` **MISS** (15%, S8a fired, Brier 0.7225) — graded on CREED's own ledger; **mean Brier 0.30625 → 0.37375 (n=4, 2/4 correct side)**. 🆕 **9/29: `PRED-CREED-005` HIT** (70%, ARI dissolution approved — For 72,217,727 / Against 799,088 / Abstain 439,400, 8-K Item 5.07 same day; Brier 0.09) → **mean Brier 0.317, n=5, 3/5 correct side.** Not Kernel-pinned — no divergence on this row. First-distribution amount/dates NOT yet declared. ⚠️ **The Kernel ledger still shows both OPEN until a Gate C sitting settles them** (no live window; carve-out ④ inactive) — a stated divergence, not an error.
+**▶ ANALYSES 9/26 (evening; ⚠️ RaDD, Horton and 10 Prospect readings superseded by the 2026-10-21 addenda in both property files):** `research/2026-09-26_CRE_VULNERABILITY_MAP.md` (refinancing ≫ cash flow; AMTB label corrected) · `research/2026-09-26_REGINALD_TOP3_PROPERTY_TEST.md` (3 anchor fixes adopted by REGINALD; 3 CREED claims corrected). Detail → catch-up §⑧.
+**▶ 🆕 NANO BANC (failed 9/25) — DELIVERED 9/27, NO LETTER MOVES:** `analysis/2026-09-27_nano-banc-collateral-read.md`. Retained ≈ $215M (9/22 base), likely ≈ $190M of loans (INFERRED); named credits are litigated, several SECOND liens, Inland Empire/LA County retail + medical office + small MF. Cites REGINALD's ≈ $120M ≈ 17% desk scenario. 🆕 **2026-10-21: the retained-pool allocation is now REGINALD's ≈ $70–90M ≈ 32–42%** (FDIC bid summary ~10/08: Pools A and D retained, B 82.30% / C 80.17%; the old 51–56% zero-adjustment scenario is superseded; REGINALD's 10/09 report §2 is canonical; the P&A may never give loan-level detail — DEWEY 10/14). FDIC sale comp registered as **DOCKET L515** (check-by 2027-06-25); **record lien position**; most likely NOT a T-06 member. `KB-CREED-041` (CMBS severity comps) / `042`.
+**▶ NEXT SESSION:** 🔴 **DOCKET L723 — Wed 10/28 450 5th St NW auction:** grade below `research/2026-10-21_L723_450-FIFTH-NW_PREREAD.md` §5 (PROME reads the outcome; CREED's launch is Will's word) · **Trepp October DQ (~early Nov) decides `T-01a`** (leg 2 needs ≥ 12.01; `PRED-CREED-001` is Kernel-pinned — never edit its row without Will) · Trepp October SS (~mid-Nov) · FDIC Q3 QBP ~late Nov (`T-03`, DOCKET L514) · Nano P&A / sale (L515) · mREIT Q3 cohort census (VX-10.x UNAVAILABLE until re-run) · 3000 Post Oak B18/C9 September 10-D losses (SCRATCH). Earlier list → `catchups/2026-09-30.md`.
+---
+
+## Instrument state — re-stamped 2026-10-21 (WQ-472). One row per live instrument; UNAVAILABLE = not refreshed this session, with the reason.
+
+| Instrument | Value [as-of] | State 2026-10-21 |
+|---|---|---|
+| VX 1.01–1.06 Trepp DQ by type | office 12.16 · overall 8.02 · MF 8.04 (HOMER's) · retail 6.58 · lodging 6.18 · industrial 1.14 [Sep] | ✅ REFRESHED (PRIMARY-READ) |
+| VX 2.01–2.03 Trepp SS + spread | office 16.85 · overall 11.49 · spread 4.69 [Sep] | ✅ REFRESHED |
+| VX 3.01 / 3.04 / 3.05 maturity | mat-adj 9.66 · NPMB share 68% [Sep] · $ series stays $3.96B [Jul] | ✅ REFRESHED · 3.05 UNAVAILABLE for Aug–Sep: no $ total printed in the text read |
+| VX 3.02 hard maturities 2026 | $76.6B [9/26] | CARRIED — the full-year cohort; Oct cohort ($4.7B) logged as KB-058, a different perimeter |
+| VX 3.03 total maturities | >$100B [Morningstar DBRS, 7/27] | UNAVAILABLE as current — not refreshed since 7/27 |
+| VX 4.01–4.03 FDIC QBP | 2.48 · 145.6 · 1.44 [Q2] | CARRIED — Q2 is the latest print; Q3 QBP ~late Nov |
+| VX 4.04 OZK special mention | SM $303M (−$313M), crit+class $995M (−22%), OREO $420M (+43%) [Q3, OZK desk] | ✅ REFRESHED 10/22 (cited, OZK-owned) · ORANGE → YELLOW · KB-073 |
+| VX 5.01 forced-sale cluster | [8/27] | UNAVAILABLE as current — not re-assessed |
+| VX 5.02 ARI clearing price | 99.7% [4/24 close] | CARRIED — a closed event |
+| VX 5.03 fund gates | 1 [9/26 census] | UNAVAILABLE as current — census not re-run; Two Sigma (10/16) is not a gate |
+| VX 6.01 MF term default | HOMER-graded | HOMER's instrument |
+| VX 7.01 S8a | −11.48pp TR [10/21 close] | ✅ REFRESHED (live, s8a_relative.py) |
+| VX 7.02 / 7.03 / 8.01 | narrative [7/27] / Savills Q3: Chicago 36.9, Boston-Cambridge 28.1 [Q3] / no adopted aggregate | 7.03 ✅ REFRESHED 10/22 (KB-065) · 7.02 UNAVAILABLE · 8.01 ✅ ADOPTED 10/22 (Will): bank CRE modifications performing $10.66B / troubled $4.13B [Jun-26], down from Jun-25; Jun/Dec only; no band (KB-074) |
+| VX 9.01 MBA book flow | +$13.9B [Q2] | CARRIED — Q2 latest; Q3 ~Dec |
+| VX 9.02 Green Street CPPI | GAP | UNAVAILABLE — paywalled |
+| VX 9.03 office vacancy | CBRE 18.3% [Q2] | CARRIED — CBRE Q3 NOT PUBLISHED as of 10/22; context C&W 19.8% / JLL 21.5% / Colliers 17.7%, all positive absorption (KB-064) |
+| VX 10.01–10.04 mREIT cohort | 4/11 cuts [re-checked 10/22]; erosion in 4 names [Q2] | 10.01/10.03 ✅ REFRESHED 10/22 (KB-072) · 10.04 UNAVAILABLE until Q3 prints (LADR only, KB-063) |
+| VX 10.05 insurer migration | $8.7B ARI→Athene; MBA life Q2 [9/29] | CARRIED — Q2 latest |
+| `threshold_scan` / `creed_selfcheck` / corrections check | run 2026-10-21 | scan: 5 comparable (T-01a shows TRIPPED = leg 1, graded) · selfcheck 0 findings · corrections rc 0 |
+
+## Catch-ups → `catchups/INDEX.md` (hot/cold split 2026-09-26)
+
+AGENTS/BARON/STATUS.md
+
+
+AGENTS/HERMES/STATUS.md
+
+
+AGENTS/SENTRY/STATUS.md
+# SENTRY — Status
+
+> ⛔ **DORMANT — RETIREMENT BANNER, dated 2026-09-24 (WQ-256 (d), Will verbatim *"Approve WQ-264 and WQ-256 with your recs"*, 08:50 ET; written by PROME as registrar — no live owner).** This desk has been human-idle since 2026-06-02 and DORMANT since 2026-06-27 (`PROME/ROSTER.md` is the class of record; this banner changes no class). Its RSS/CI signal pipeline was killed; **the TODO/ROADMAP items in this directory are HISTORICAL and must NOT be executed — rebuilding the pipeline is a Will ruling, not a task.** Do not launch, task or audit this desk as a fleet agent. Live signal routing is WALTER's (`AGENTS/WALTER/`). Last real commit: `58c9e02aa` 2026-05-09.
+
+**Agent:** SENTRY | **Domain:** Cross-domain signal synthesis
+**State:** 🟢 OPERATIONAL (Phase 1) — pipeline live with 2 feeds + 15-entry CIK watchlist (REGINALD-thesis-aligned); CI verified end-to-end 5/9 20:45 UTC (commit `d1a789f4`)
+**Last Updated:** 2026-05-09 (Saturday evening — CIK watchlist expansion 1→15)
+
+---
+
+## Key State
+
+**Active theses being tracked:**
+- Scenario D dominant (82%) — credit cascade, war escalation, demand destruction
+- Credit transmission: LABOR → CARL → REGINALD → repricing
+- Energy shock: HAWK → BRENT → HENRY (demand destruction)
+- Japan carry unwind: SAM → LIQUID
+- PE-insurer cascade: BROCK → SHADE → LIQUID
+
+**Open questions:**
+- Will HY OAS <280 sustained kill credit stress thesis?
+- Does eSLR reform mask or solve Treasury auction stress?
+- Is APO $130+ sustainable or dead cat bounce?
+
+**Recent signals of note:**
+- BOND refreshed May 5 — thesis softened (17/35)
+- WALTER active — cluster taxonomy built
+- Brent $110+ — war premium intact
+
+**Currently demanding attention:**
+- **22:00 UTC scheduled cron tonight** — last unknown for Phase 1 pipeline. Manual dispatch verified 20:45 UTC (commit `d1a789f4`); scheduled cadence (`0 10,22 * * *`) registration still unproven.
+- **CIK watchlist expansion DONE 5/9 PM** — 14 new entries (Tier 1 live bank puts: WAL/HBAN/EGBN/FITB/FLG/SSB/ZION; Tier 2 peer cluster: CFG/KEY/MTB/PNC/RF; Tier 3 PE/credit: APO/ARES). 15 total with OZK. End-to-end verified 30/30 positive + 3/3 negative.
+- 5/10 morning briefing — substrate now flowing as feeds tick; fleet-name density should be materially higher.
+- SEC EDGAR include_types filter — tune after first week's signal/noise observed
+- Will pinging fleet agents to add Key State headers per `references/key_state_spec.md`
+- `scripts/fetch_feeds.py` has no committed test file — extract to `scripts/test_fetch_feeds.py` (polish item; logged in TODO).
+
+---
+
+## Capability State
+
+AGENTS/DEWEY/STATUS.md
+
+
+AGENTS/TERRY/STATUS.md
+# TERRY STATUS
+
+> ## ★ CURRENT STATE — 2026-10-25 13:28 EDT · Will-launched TERRY, OpenAI GPT-6 / Codex; exact variant UNKNOWN. **$0 MOVED · NO ORDER · NO APPROVAL, TRIGGER, SIZE OR SCORE CHANGED.**
+> - **Inbox 3 consumed:** DEWEY correction noted; PRD1–3 corrections applied to the current Oracle card, regional-put VIEW and GLD card; prior claims struck below. ORCL remains **APPROVED NOT-FIRED**, conditional on an issuer-verified FQ2 date. FAQ index points to 12/14; direct FAQ/events reads do not verify it. Two prior ~8-day release lags cannot bound verification timing. Evidence: `research/2026-10-25_boot/ORACLE_DATE.md`.
+> - **Regional-put VIEW corrected:** 11.76% is an **equal-decline, original-cost-at-expiry scenario**, excluding time value/volatility, not a necessary profit condition. KRE frequencies **4.9% / 9.0% endpoints, 19.1% within 39 sessions** are overlapping-window observations, not book-profit probabilities. The 57-session rate fit (R² 0.13) supplies neither a required rate move nor a universal bank-put falsifier. GLD's offset value for the bearish-option book is **unestablished**; no position action follows from the equity-stress sample.
+> - **WQ-493 A encoded prospectively:** template § 8b and CALIBRATION header require event, deadline, resolution basis and one labelled probability before the outcome; row at card write, Brier grade at deadline. Trigger forecasting only; no sizing grant, back-filled probabilities or new backtesting. Existing 2 forecast rows unchanged.
+> - **Carried ledger repair independently verified (bounded):** IDEA IDs now reach A/G/H; full compound IDs preserved. Read 2 accepted 5586d2e20: normal IDEA INDEX/TRADE_BOOK structure coverage; 118 tests, no blockers or policy change. Broader limits in acceptance. `research/2026-10-25_boot/LEDGER_GUARD_ACCEPTANCE.md` and REPORT.md. Paper book: 4 OPEN rows marked after network retry; weekend option quotes are screening-only with UNKNOWN quote timestamps, retrieval clock is not proof of freshness.
+> - **Continuity:** HYG approval WQ-513 A unchanged; earliest REG-T-04 confirmation remains 10/27 close on the prior owner reading. Monday 10/26 quote refresh and supplied-fill reconciliation remain future work. OP-SCALE 11/7 carries prior N = 2 distinct closed agent-proposed positions, R ≥ 4 live refusals, not re-graded today. KRE/QQQ page asset 404 repair remains unverified: this runtime exposes no tool for those Claude artifact IDs; saved page/data sources retained.
+> - **Hygiene:** BOARD scan run, 0 new since `SIG-W-20261023-045`, 0 logged. R1: 0 unreceipted NAMED corrections. Raw `inbox/WILL/`: 0 new. Runtime/session, checks, cutoff and PROME delivery: `research/2026-10-25_boot/REPORT.md`.
+
+> ## HISTORICAL STATE — 2026-10-24 Sat 14:5x ET (block written; clock from `date`) · PROME spawn (WQ-513/514 workstream, laptop). Model: Claude Opus 5.5 (`claude-opus-5-5`), Claude Code. **$0 MOVED · NO ORDER · NO GATE, THRESHOLD OR SCORE MOVED.**
+> - **Rulings encoded (inbox 3 consumed → `processed/`):** `IDEA-CREDIT-HYG-BDC-OCT23` leg (a) HYG Jan-15 77/74P ×4 ≤ $1.00 **APPROVED NOT-FIRED** (WQ-513 A; HTGC not approved; REG-T-04 340 [10/22], earliest fire 10/27 close, then a green HYG day by 11/13). `IDEA-ORCL-PUTSPREAD-OCT23` Dec-18 115/100P ×1 ≤ $4.40 **APPROVED NOT-FIRED** (WQ-514 A), line 7 source qualifications restored (leases NOT YET on the balance sheet; OpenAI ≈ half = S&P estimate). 🟠 **ORCL FQ2 date unannounced at Oracle IR (10/24)**; IR-verified pattern = ~8 days' notice (12/2 → 12/10/2025; 9/2 → 9/10/2026), ~~so the approval's condition likely cannot be met before the 11/20 window end~~ — WITHDRAWN October 25 PRD1: release lags do not bound FAQ/events publication; condition unchanged. Day-colour source on both cards: `fetch.py price` close vs prior close. DEWEY meta-review: noted; HYG card reads LIQUID's I1 CCC composition at a fire.
+> - **Regional-put cluster VIEW** (`research/2026-10-24_regional-put-cluster/VIEW.md`): 10 Fidelity lines, 28 contracts, basis **$4,646.62** (11.65% of the 10/22 account), forward risk $1,563 at 10/22 marks (9.3× the $500 default; X1 CLOSED). ~~Breakeven = **11.76% uniform fall**~~ — CORRECTED October 25 PRD2: equal-decline, original-cost-at-expiry scenario, one path among many; KRE base rate 4.9% (19 sessions) / 9.0% (39), 2006+. Both paths weak: rates fit R² 0.13 (puts gain on a RISING 10-year; a falling 10-year is a qualified rates-scenario falsifier, not a universal bank-put falsifier) and credit BANK-ABSENT. Nearest refuter: KRE reclaims $72.74 (10/23 close $72.46).
+> - **GLD rails card `MGMT-GLD-SHARES-OCT24`:** 25 sh, $9,165.25 at the $366.61 10/23 close (23.0% of account); MIDAS lines in dollars (1-month < $360.71 is −1.61% away = −$147.50); hold / trim 5 / trim 12 / exit / add 1 as Will's choices, none recommended; ~~not a put-book hedge (2 of 12)~~ — WITHDRAWN October 25 PRD3: the sample tests long-equity protection; hedge value for this bearish-option book is unestablished.
+> - **Hygiene:** BOARD scan run, 0 new action-line signals naming TERRY since `SIG-W-20261023-045` (no newer signal on BOARD), 0 logged. Rotations: SETUPS 7 terminal rows → `archive/SETUPS_ARCHIVE_2026-10-24.tsv` (25,639 → 22,423 B); STATUS 10/22 blocks → `archive/STATUS_ARCHIVE_2026-10-24.md`. **OP-SCALE (11/7), restated from the rotated 10/22 block:** N = 2 distinct closed agent-proposed positions, R ≥ 4 live refusals. Owed: `ledger_sweep.py` IDEA- prefix in checks A/G/H (10/23 note; IDEA rows aligned by hand today). 10/23 FORGE reconcile and option marks: Monday.
+
+> ## HISTORICAL STATE — 2026-10-23 Fri 18:3x ET (closeout, from `date`) · Will-launched, 2nd session 13:13 ET + PROME prome-03 asks. Model: Claude Opus 5.5 (`claude-opus-5-5`), Claude Code. **$0 MOVED BY TERRY · NO ORDER · NO GATE, THRESHOLD OR SCORE MOVED.**
+> - **KRE/QQQ research (Will-led; `research/2026-10-23_KRE-QQQ-report/FINDINGS_2026-10-23_pm.md`):** book pays only on a joint fall (to 11/13: flat −$1,693, both rally −$3,032, MODEL); 2006+ episodes 0 of 13 joint ≥5% falls in 40 sessions (1985+ stand-ins 1 of 17, 0 of 15: 2021-11-23); banks-led (today's class) both higher after 40 sessions 5 of 7; equal-weight 2024+ base rate both down 13.4% / both up 33.0%; Nov-2021 replay: signs lit on the shock day, not before; regionals lead financials; money-center/private credit fall.
+> - **REGINALD answer (consumed, applied 19:0x ET):** KRE **−0.4% to −1.3% per +10 bp by window, weak outside the last 4 weeks** (10/22 mostly print relief); A1/A2 **no forward edge 2006–2026** ⇒ shown as regime tiles; NDFI concentrated: CUBI 20.0% / CFG 10.7% / OZK 8.6% / WAL 7.5%.
+> - **Divergence map 8JAPSUTSqPQL4nEGtSPc6h (page v7):** watch + REGINALD relabel, FOMC 10/28 checkpoint, base rates. 🔴 **OPEN DEFECT:** every dataset file uploaded after this morning returns 404 on page load (runs doc 20:54 / 20:59 / 22:54 UTC, old addresses still 404 two hours on ⇒ not a delay); re-uploaded and re-pointed 22:56 UTC, no load since; cause UNKNOWN.
+> - **Put-wall:** T1 FIRED 10/23 close (SPX 7,623.61). **Inbox 7 consumed:** `IDEA-CREDIT-HYG-BDC-OCT23` (HYG Jan-15 77/74P ×4 rec, $405.20; alt HTGC 16P ×5) + `IDEA-ORCL-PUTSPREAD-OCT23` (Dec-18 115/100P, $441.30) filed NOT-FIRED (WQ-509/499); RSP/IEF/FXY re-graded (all hit trigger + colour 10/23, all fail debit caps; RSP spent, IEF/FXY armed); WQ-508 lines applied (B44/D17 deferred 11/06); VULCAN ideas PASS.
+> - **Hygiene:** BOARD scan run, 0 new action-line signals naming TERRY since `SIG-W-20261022-016` (through `SIG-W-20261023-045`), 0 logged. Ledger sweep CLEAN; 10/20 block rotated (index below).
+
+> ## HISTORICAL STATE — 2026-10-23 Fri 13:2x ET (block written; clock from `date`) · Will-launched TERRY (second session 13:13 ET) + PROME prome-03 booking request. Model: Claude Opus 5.5 (`claude-opus-5-5`), Claude Code. **$0 MOVED BY TERRY · NO ORDER · NO GATE, THRESHOLD OR SCORE MOVED.** Root rule #10 booking of Will's own fills (source `PROME/data/2026-10-23_broker-activity-TRANSCRIPTION.md`; arithmetic `research/2026-10-23_broker-booking/NOTE.md`):
+> - **`IDEA-QQQ-PUTWALL-OCT22` → FIRED / LIVE ×2 by Will's hand, ahead of T1** (SPX 7,629.53 intraday, no qualifying close): Nov-20 690/670P, net $936.70 = max loss; harvest ≥ $10.00 · kill SPX close ≥ 7,750 ×2 · time stop 11/13. With QQQ Oct-26 710P ×1 + 705P ×2 (new, $861.33) it is **ONE Nasdaq-downside bet, basis $2,255.69**. Paper `PB-0008` `lane=real`.
+> - **USO realized +$777.81 to +$822.81 DERIVED** (5 sh +$233.47 · Oct-30 165C 1 of 2 +$398.66–$443.66, lot choice · Oct-23 163C +$145.68 → `MGMT-USO163C-OCT23` CLOSED). AAPL 1 sh +$323.00. FLG Mar-27 10P ×4 @ $0.52 = OPEN order, not booked.
+
+> ## HISTORICAL STATE — 2026-10-23 Fri 13:05 ET (block written; clock from `date`) · Will-launched TERRY, conversational desk session from 08:57 ET. Model: Claude Opus 5.5 (`claude-opus-5-5`), Claude Code. **$0 MOVED · NO ORDER · NO CARD FIRED · NO GATE, THRESHOLD OR SCORE MOVED.**
+> - **Flagstar (FLG) Q3 print** (FLG packet consumed → `processed/`): perspective + 2024 NYCB comparison verified at EDGAR (8-Ks `0000910073-24-000031`, `0001193125-24-053449`, `0001193125-24-061476`); comparison sent to FLG as an INFO packet (`3bbd9ee13`). Idea menu, NOT a card: Jul-16-2027 10P ×3 ≤ $256.95 (also Mar-27 10P, Jan-28 12P); no entry on the 10/23 gap-down red day. `research/2026-10-23_FLG-Q3-perspective.md`; SETUPS `CAND-FLG-JUL27-10P` CONDITIONAL - NO CARD.
+> - **KRE vs QQQ divergence** (Will-led research): 20-day correlation −0.24 (2nd percentile since 2024), divergences trend rather than oscillate, rebalancing between put legs lost to holding in the trend (MODEL), timing checklist (cheap vol + stretched up + green day + dated event). Now a watch window (VXN 90th / VIX 93rd percentile at the 10/22 close). Report https://claude.ai/artifact/GEqqMLyMMJieo4t2NpeJQq · map https://claude.ai/artifact/8JAPSUTSqPQL4nEGtSPc6h · working folder `research/2026-10-23_KRE-QQQ-report/`. SETUPS `CAND-KRE-QQQ-SEESAW` NO TRADE. Will: Fidelity options Level 2 (spreads unverified).
+> - **NOT PERFORMED (Will closed out at 13:04 ET):** ① PROME prome-03's 12:4x ET ask to re-grade RSP / FXY / IEF / VST and the QQQ put-wall T1 on this desk's resolvers — note sent to PROME; ② DAEDALUS WQ-508 harness-audit lines (packet left UNCONSUMED in `inbox/`, read in full; deferred to next session, note sent to DAEDALUS).
+> - **Hygiene:** BOARD scan run, 0 new action-line signals naming TERRY since `SIG-W-20261022-016` (through `SIG-W-20261023-019`), 0 logged (`SIG-W-20261023-002` info-only, read). R1 rc 0. Paper book marked at boot. Raw `inbox/WILL/` 0 new.
+
+> ## ⤵️ **2026-10-22 blocks (19:38 ET prome-e7 + 13:36 ET prome-25) ROTATED 2026-10-24 → `archive/STATUS_ARCHIVE_2026-10-24.md`** (pre-rotation lines 20–31, crc32 `bdd9b915`, 4,721 B — verbatim, contiguous, body only). ⛔ No live state moved — legs listed in the archive header.
+
+> ## ⤵️ **2026-10-20 Codex block ROTATED 2026-10-23 → `archive/STATUS_ARCHIVE_2026-10-23.md`** (pre-rotation lines 26–33, crc32 `9f6867a1`, 3,493 B — verbatim, contiguous, body only). ⛔ No live state moved — legs listed in the archive header.
+
+> ## ⤵️ **2026-10-14 blocks (21:07 ET prome-8e + 14:27 EDT Codex closeout) ROTATED 2026-10-22 → `archive/STATUS_ARCHIVE_2026-10-22.md`** (pre-rotation lines 25–37, crc32 `78147cce`, 4,357 B — verbatim, contiguous, body only). ⛔ No live state moved — legs listed in the archive header.
+
+> ### 📏 DECLARED SIZE CAP (DAEDALUS YEY-004, declared 2026-08-23 from POST-ARCHIVE measured density — see § at the foot of this block)
+
+AGENTS/DAEDALUS/STATUS.md
+# DAEDALUS STATUS
+
+**Last Updated: 2026-10-24 — Will's research-depth, restart and shared-write investigation completed (Codex).** Pre-sweep STATUS preserved verbatim at `archive/STATUS_2026-10-23_before_sweep.md` (crc32 300895856).
+
+**Current judgment:** the architecture is coherent; current-state reconciliation and maintenance have lagged new builds. Preserve evidence and rules, reduce recovery ambiguity, and repair specific tooling gaps. Assessment: `runs/2026-10-20_ORGANIZATION_REVIEW.md`. **Recorded grade L4/M retained**, current bounded PR8 row re-cut October21; no L5 adjudication; AEOLUS whole profile refreshed October 21. Authority remains own directory/root scripts; other desks require express scope and idle target.
+
+Prior STATUS is preserved byte-for-byte at `archive/2026-10-20_ORGANIZATION_CLEANUP/STATUS.md.before`; original line/block hashes and all moved destinations: `runs/2026-10-20_CLEANUP_MOVEMENT_RECEIPT.json`. Historical next-work dates there do not supersede this page. Current continuation/recovery: `HANDOFF.md`.
+
+## Current work and next actions
+
+**October 24 investigation complete:** `runs/2026-10-24_RESTART_REVIEW/REPORT.md` and pinned measurements. DEWEY already has three research depths, but cold/thesis selection follows an unconditional context read; OTTO already permits a shorter specific-task startup. Five named prose sets measured; actual time/token savings unmeasured. L796/WQ-517 delivery-check defect reproduced in four isolated cases; PROME's concurrent perimeter repair not certified or edited. Existing trial/deferrals preserved; owner clarification and bounded restart comparison remain proposals, not standing work.
+
+**October 24 boot:** required whole reads completed; approvals WQ-506/507/508 recovered. Boot and inbox dispositions: `runs/2026-10-24_BOOT_ORIENTATION.json`. L816 acknowledged: October 30 L499 wording follow-up; PROME encodes, DAEDALUS owns the vocabulary/source text. No implementation started.
+
+October20 follow-through: scorecard/MARCO check complete; L736 writer repair reviewed; EVOLUTION rotated verbatim below stop threshold. That partial detection is superseded by October21 PR8/Staleness6 disposition records; the October20 record remains historical.
+
+00. **Done 2026-10-23: ISHM built** (US industrial / manufacturing-cycle desk, Tier-2, print-driven).
+    - **Path to the build:** WALTER's proposal → DAEDALUS review, four fixes, v2 cleared 09:31 ET (`design/2026-10-23_INDUSTRIALS_DESK_PROPOSAL_REVIEW.md`) → WQ-506 RULED APPROVE A (Will 09:35 ET, "yes approved go ahead") → named ISHM (Will 09:36–09:37 ET).
+    - **Commits:** scaffold `080fbc7d6` (18 files; 37/37 drills; 3/3 mutations caught; real boot rc 1, all true positives) and catalysts + DATA_ROUTES `b7ea7e120` (32 rows, 20 PRIMARY; ISM and S&P Global calendars blocked, so SECONDARY).
+    - **Registration:** ROSTER Tier-2 by PROME `10d1de252`; SUMMONS_LEDGERS registered by PROME; FLEET_MAP L0/M + directory committed; `corrections_boot_check ISHM` rc 0.
+    - **Packets:** WATT ASK (grid-equipment figure — WATT's charter does not claim it, its KB reads it; PAT-189) and CARL INFO (four seams), both committed.
+    - **Build record:** `builds/ISHM_BUILD_2026-10-23.md`.
+    - **Still open:** WATT reply; (bellwether earnings + J1 GDP/trade rows landed, 39 catalyst rows total); WALTER domain code + routing row (Will's sign-off); **WQ-507** (Will: shared surfaces + HENRY's `<47` trigger); first live session (PROME spawns).
+0b2. **Done 2026-10-23: Harness Audit #3 + WQ-508.** Delta re-test with 4 Opus readers (`runs/2026-10-23_HARNESS_AUDIT_3.md`, `cf0569f2a`): 139 lines re-tested (34 FIXED by owners), 132 new findings, 0 HIGH git weakening. The 10/08 batch had never reached a WQ row. **WQ-508 RULED APPROVE** (Will 10:27 ET, "ok approved"): R0 A (signal = external item via WALTER; a desk's own packet goes direct). 38 per-desk packets delivered; own lines + RAV charter + ISHM applied. **Direct apply (Will 10:39 ET):** 35 idle desks edited by DAEDALUS (f4149bf51 · 4da79f1ee · d3488e641), packets marked APPLIED. **Pending:** WALTER + TERRY apply their own (live, doorbelled); PROME's 23 lines at L817 (Sun 10/25); PROME's root insertions (R0 sentence, A-B01, A-B03) with a DAEDALUS counterexample read of the A-B01 record before insertion; A09 deferred. Sweep clock stays July 7 until the batch is applied.
+0a. **Done 2026-10-23: CYPHER registration closed.** FLEET_MAP L2/M (`57d0ffca1`); `corrections_boot_check CYPHER` now evaluates — rc 1 on COR-20261022-48, which is CYPHER's to receipt.
+0. **Done 2026-10-22: bank-cluster desk review** (Will-commissioned 11:16 ET) — four Opus readers, 82 findings, 10 cross-cutting (X1 no dated falsification after Q3 at 3 of 4 desks; X4 boots blind to `inbox/WALTER/`). `runs/2026-10-22_BANK_DESK_REVIEW/REPORT.md`; packet `PROME/inbox/2026-10-22_from-DAEDALUS_bank-cluster-desk-review.md`. Two time-sensitive items (FLG surprise threshold, WAL unprocessed signal) consumed by PROME 11:27 ET. Full packet CONSUMED by PROME 11:3x ET (verified at artifacts): X1+X4+X8 → DOCKET L793 (2026-10-29, PROME verifies at each desk's first wake after my X5/X6 batch); X7 → WQ-484 to Will, rec A — **RULED A by Will 12:11 ET in this session ("yes make OZK and WAL report into REGINALD"), PROME recorded it and applied `_NETWORK.md` L86–87 as directed edges (8ebc7e0a7, verified on origin); my batch adds a REGINALD consume/ACK step for OZK/WAL output**; REGINALD 10/13 outbox gap confirmed, late-consume record `PROME/inbox/processed/2026-10-22_PROME_late-consume_REGINALD-2026-10-13-outbox-packets.md`. FLEET_MAP rows re-cut, levels unchanged. **X5/X6 batch DELIVERED 12:2x ET by Will's direction (12:26 ET, "direct the agents directly"):** four inbox packets 888fe9a50 + doorbells to reginald-c1/ozk-0b/wal-b5/flg-45 + PROME informed; desks report to PROME citing L793; consumption not yet observed. **Still owed from it:** carry the lesson that a completion record goes to `PROME/inbox/`, not only the outbox; also carry WQ-485 A (Will 12:10 ET: ARGUS once per day at the last Standard closeout; contract classifies only PENDING foreign paths) where it touches desk text; fleet-tool fixes DONE 2026-10-22 (8b1012baf: ledger_staleness rule 11 + self-flag, selftest 40/40, 877-surface diff 0 flips; read_cap_check locative-top + enumeration chain + leading-verb step, selftest 131/131, heuristic fleet diff only WAL MEMORY.md added); NEW owed: `scripts/claim_check.py` counts an unsupported-suffix path as a clean file (HAWK reader C repro). Own doc-retirement checkpoint DONE early (41d249ce5: 11 moved, 16 kept, README). Scorecard (window ends Fri 10/23) and YUR-F01 (YURI can still make calls through 10/24) NOT run early — grading before the window closes would grade an incomplete window. **Desk L793 results verified at artifacts:** WAL 1d4d4210a, REGINALD f8405c6f2/55bcf6317 (+3 prediction drafts; DAEDALUS advised approve D1/D3, revise D2; Will approved all three 13:36 ET → REG-28/29/30, WQ-489 RECORD, verified at boot 18:1x ET), FLG b0987a2a5; OZK L793 CLOSED 4e31e34d3 (all four desks done; ⚠️ side effect of my batch: all four charters now past the 75% rotation trigger — OZK 31,456 B (97%), WAL 28,994, FLG 28,795, REGINALD 24,887 — hot/cold charter split owed at each desk's next round, packeted to PROME; recommended to Will that desk predictions need no per-row approval unless a trade or gate depends on them — awaiting his word; open residue: FLG post-Q3 kill-rail re-derivation, WAL charter items awaiting Will in-window, OZK SCENARIOS price ranges, READS rows with PROME) under the normal Will-visible batch.
+0b. **Done 2026-10-22 evening: CYPHER built** (cyber → markets desk; Will 17:04 ET to WALTER, name 18:19/18:2x ET, Tier-2 18:2x ET to DAEDALUS). Scaffold `18770981e` (14 files); build record `builds/CYPHER_BUILD_2026-10-22.md`; 22/22 boot.py drills, real boot rc 1 (one true positive). Registration changelist → `PROME/inbox/2026-10-22_from-DAEDALUS_CYPHER-built-registration-changelist.md`; routing boundaries → WALTER inbox; both doorbelled. **DONE 2026-10-23 (item 0a):** FLEET_MAP row + directory regen after PROME's ROSTER row; `corrections_boot_check CYPHER` now evaluates. Owner boundary packets deferred to CYPHER's first session by charter (named deferral). **Parity pass (Will 18:4x ET):** VX.tsv (9 vectors, UNSCORED by design) + FLOW.tsv (19 mechanisms from DEWEY) + shipped `scripts/test_boot.py` (25 tests, mutation-checked) + charter split to 22,775 B (70%); build record §5. WALTER's CYPHER routing LIVE — 57dfdc4da verified on origin (ROUTING_TABLE v0.45 `CYBER` row, FORMAT_SPEC v0.26).
+1. **Next: HOMER whole-profile refresh**, followed by WAL, BROCK, CREED, REGINALD, FALCON and MIDAS. AEOLUS (10/21) and HAWK (10/22, `runs/2026-10-22_HAWK_REFRESH.md`, owner packet in HAWK inbox; no independent final reader yet) are complete; seven of the accepted nine remain. Preserve full read/review scope and the CREED launch restriction.
+2. **Completed work:** October 20 organization cleanup, October 21 PR8/Staleness6 bounded maintenance, check-register review and RED duplication census. Do not repeat these as unfinished work. Delivery: `runs/2026-10-21_DELIVERY.md`; cleanup: `runs/2026-10-20_ORGANIZATION_CLEANUP.md`.
+3. **Owner follow-through:** L530, L628 and L748 are installed; CATO's L628 applied-result read remains pending. AEOLUS owner repairs are separately packeted, not completed by its profile refresh. Calendar tooling remains on-demand.
+4. **Dated work:** scorecard October 23; YUR-F01 October 24 (interpretation acceptance still owed); backlog/document-retirement dispositions October 25. Existing queue clocks and original misses remain visible in `sweeps/REGISTRY.tsv`.
+
+## Delivered work and remaining owner dependencies
+
+| Item | Current state / next actor |
+|---|---|
+| **L548 / L628 summons fix** | INSTALLED by PROME748388a3a; live SHA85fb63ac matches reviewed after hash. Owner reports16 targeted pass and972 full-suite tests with known8 failures/2 errors. CATO applied-result read requested, not yet certified. |
+| **L530 / L538** | L530 owner-notice patch installed by PROME October20 (`b0db526d7`, owner reports127 selftests); canonical docket resolved. L538 external exemption previously verified. Older apply-ready paragraphs are historical. β read-cap≥95% headroom line remains separate work; its former L530 installation dependency is now satisfied, not its build. |
+| **Calendar coverage** | Built/reviewed; PROME triaged as-ofOctober21:5 MATCHED,74 UNMATCHED,332 UNASSESSED. Mostly internal calendar checks; unmatched is not a missing-market-event count. Owner keeps on-demand advisory, deliberately not wired into boot. |
+| **L748 timestamp repair** | Rebased over L736 at25a79bddf;83 tests pass; isolated three-file package `builds/l748_time_2026-10-20/RESULT.md`;13 new+36 writer+27 closeout tests pass. INSTALLED by PROME `2b1aa69a8`; all three live after-hashes verified October21. Owner reports 83 tests pass and four exact-key invalidations; original historical times remain UNKNOWN. Receipt: `inbox/2026-10-21_from-PROME_L748-installed-RECEIPT.md`. |
+
+AGENTS/AEOLUS/STATUS.md
+# AEOLUS STATUS
+
+**Last Updated:** 2026-10-21 22:3x ET (**PROME catch-up spawn, wave 2** — 11 days dark 10/10→10/21; whole-inbox drain 10/10, DAEDALUS 8 dispositions, DOCKET L650 C3 reconcile, read-cap attestation, live re-anchor; KB-206…212). Prior: 10/10 12:34 ET (Will-directed El Niño re-point). Full rebuild 9/28 (`archive/STATUS_ARCHIVE_2026-09-18_full.md`).
+**Status:** 🔴🔴 **C5 — Rhine below its record low at both gauges 34 straight days (9/18→10/21), still FIRED.** 🔴 **C6 — Mead 1,037.18 ft [10/20], 2.18 ft above Hoover 1,035; the Oct 24-Month Study low 1,007.73 ft (Jul 2027) FIRES leg 2 the day the Lower Basin deal is executed (1,010 line); NOT FIRED today (1,000 line).** 🟡 C1 — Isaias loss $1–4.5bn, no DR.
+**Class:** Market-agent (climate → economy) · **Self-level:** L2
+**Session 10/21:** inbox 4 direct + 6 WALTER drained · KB-206…213. Prior 10/9–10: KB-177…205, AEO-13.
+
+> Data is primary-sourced and dated below. Per Critical Rule #3, verify against the primaries (CPC/NHC/USBR/WSV/ACP/NIFC/NWPS) before any trade use. No naked numbers.
+> **STATUS budget: 32,550 B (`READ_CAP.md`) · <250 lines.** Measure with `PROME/tools/measure.py`. **Rulings that still govern:** `wksst9120.for` is the sole weekly ENSO figure (KB-088) — **CPC discussion prose quotes the RELATIVE monthly index; never label it "weekly" (KB-181)** · §C6 "USBR's path projects a breach" is SATISFIED-AT-WRITE-TIME, never a live leg · **SLOTS ≠ TRANSITS** · grade Rhine on **UNROUNDED** means only · Mississippi stored on **UTC-day** daily means (KB-159) · **NHC intensity is graded in KNOTS as stated (5-kt steps) — never a mph→kt conversion.**
+
+---
+## CONVERGENCE MATRIX
+
+| # | Channel | Score (1–5) | Local state | Independence | Key Signal | Upgrade Trigger |
+|---|---|:--:|---|---|---|---|
+| C1 | Insurance / reinsurance | **2 🟡** (held) | Isaias graded NOT FIRED 10/9 (Cat 2 landfall); no Gulf/FL system since | El Niño root (suppress) | **ACE 18.63 = 16.91%** of to-date normal [10/22 00Z], 3rd-lowest of 60 · Josephine (AL10, subtropical, 55 kt, off New England, no US threat) · cat-bond spread 4.57% [9/25] | Re-arms on the next Gulf/FL system |
+| C2 | Agriculture / food | **2 🟡** | El Niño crop: **SOUTHERN AFRICA MAIZE** (2027 harvest) | drought root shared w/ C4; **Hormuz fertilizer = a second, non-ENSO root for the same harvest (KB-209) — count the shortfall once** | SA corn USDA 16.50 MMT placeholder (no reading yet) · Aus wheat −10.3% vs 5-yr [10/9] · UN: Hormuz fertilizer plan unactivated, 'miss the planting season' risk (10/14) | **→3:** first SA reading (CEC 10/27 intentions / USDA 11/10) ≤−15% OR Aus ≤−15% |
+| C3 | Energy demand | **2 🟡** | WINTER heating; shoulder season, no weather-driven stress | El Niño root (w/ C1/C6) | PJM 10/13–14 EEA-1 **supply-driven** (load 108 GW, ~61 GW outages — WATT); 9/17 EEA2 had no weather cause (KB-208) · L650: 7/2 peak record only on PJM's preliminary unrestricted basis (KB-206) · Henry Hub NGX26 **$2.77** (last trade 10/21 22:18 ET, evening session, NOT a settle; $3.22 on 10/9) | **→3:** a DJF 30-day MidAtl/ENC HDD window ≥0% vs 1991-2020 (Will-ruled 10/10) OR EEA2+ with a weather cause |
+| C4 | Property / physical | **2 🟡** | peril leg cool; **loss leg = Isaias $1–4.5bn, far below >$10B** | partly independent (fire = drought; Isaias = SAME event as C1, count once) | Isaias: Cotality $2–3bn · Verisk $1–2bn · KCC $3bn · RMS $2.5–4.5bn (SECONDARY, KB-210); Gallagher Re Jan–Sep global $92bn = −29% vs 10-yr · NIFC PL 2 [10/9; not re-read] | Q3 cat tally ≥110% OR a >$10B insured cat OR PL ≥4 |
+| **C5** | Supply chain / logistics | **5 🔴🔴** | 🔴🔴 **FIRED-ON-LETTER since 9/28 — no exit through 10/21** | **European basin = its own root** (Rhine + Danube counted ONCE); Panama = ENSO root (w/ C6) — not contributing | **Kaub 12.885 / 19.240 / 15.146 cm vs 25 · Duisburg 137.323 / 138.385 / 138.844 vs 153 [10/19–21]** · Contargo Kaub €1,075 / Ruhrort €675 (unchanged since 10/8) | **Exit:** the same 3-day test failing (WSV estimate ~10/24 = instantaneous only) |
+| C6 | Water scarcity / allocation | **4 🔴** | 🔴 Mead at its window low; Oct 24MS path below 1,035 from Nov, 12-mo low 1,007.73 | El Niño Western-hydrology root; **Powell↔Mead ONE system** | **Mead 1,037.18 [10/20], 2.18 ft above 1,035** · Powell **3,520.77** [10/20], 10.77 above 3,510 · LB implementing agreement **unexecuted** (SECONDARY 10/21) | **→5:** see §C6 — leg 2 flips to the 1,010 line on execution |
+
+**Composite: 17/30 · range 1–5 · moved 10/10→10/21: 0 · fired 1/6.** Conservation: 2+2+2+2+5+4 = 17 = published; one verdict cell FIRED (C5). *(Vintage: C3's score is the 10/10 winter re-point — the earlier "9/18 vintage" qualifier was stale and is removed, DAEDALUS refresh item 8.)*
+> The scalar stays impeached (disposition 8/21); the four-figure form carries the information. ⚠️ **C5 at 5 is driven by ONE root** (Central-European drought) — a reader must not add the Danube as a second witness. ⚠️ **Isaias is ONE event for C1 and C4** — a loss estimate moves one leg, never both.
+
+---
+## 🔴 UPGRADE TRIGGERS — live rules
+
+### C1 — Isaias graded 2026-10-09: **NOT FIRED** (landfall near Destin 0130Z 10/10 at **90 kt** / 971 mb, Cat 2; letter ≥96 kt at landfall — KB-189, L627). C1 held at 2 by the rule pre-committed at `30d0ab065`. **Exit leg 2 stays LIVE to 11/30.** Operational intensity governs — a post-season TCR revision is logged as history, **never a re-grade**. The trigger **re-arms on the next Gulf/FL system**. Grade table → `archive/STATUS_ARCHIVE_2026-10-10_C1-isaias-grade.md`. **10/21: no Gulf/FL system 10/9–10/21 (49 outlooks); Isaias post-landfall loss $1–4.5bn (KB-210); no DR.**
+**VEHICLE trigger (TRADE.md, L-47 — boot-visible here):** long RNR arms on *a Gulf/FL major landfall OR a credible Gulf/FL track* → **same-session packet to TERRY**. Armed by Isaias 10/6–8; packet missed, **late notice 10/10**; domain conviction 1/5 (no hardening). Re-arms on the next Gulf/FL system.
+
+### C5 →5 — 🔴🔴 **FIRED ON ITS LETTER 2026-09-28 · STILL FIRED 10/21**
+**Kaub daily mean ≤25 cm AND Duisburg-Ruhrort ≤153 cm on the 3 MOST RECENT COMPLETE days** (unrounded, ≥90/96 readings). Levels = WSV `NNW` record lows (2018-10-22/23), FROZEN. **Exit = the same test failing.**
+
+| Date | Kaub (≤25?) | n | Duisburg (≤153?) | n |
+|---|---|---|---|---|
+| 10/19 | **12.885 ✅** | ≥95 | **137.323 ✅** | ≥95 |
+| 10/20 | **19.240 ✅** | ≥95 | **138.385 ✅** | ≥95 |
+| 10/21 | **15.146 ✅** | ≥95 | **138.844 ✅** | ≥95 |
+
+
+AGENTS/WATT/STATUS.md
+# WATT — STATUS
+
+**Record maintained:** 2026-10-23 01:04 EDT — D:L789 touch: L546 float graded DONE, AEOLUS interchange test run (KB177–180); RBP carried; inbox drained. Prior record 2026-10-22 09:54 EDT (D:L717/L650). **Observation cutoff:** PJM tape complete October 15–22 plus October 23 through 00:50 EPT; board and EIA-930 demand read 00:59 ET October 23; EIA-930 interchange September 14–21 pulled 01:0x ET October 23; DOE index and Inside Lines feed last read 08:34–08:36 ET October 22; board, DOE index and Inside Lines feed read 08:34–08:36 ET October 22; outage forecast executed October 22; gas quote 08:33 ET October 22 (NG=F $2.782). Auction result July 14; IRAS order October 9; RBP order September 29; generator order October 15. No fresh all-issuer guidance census. **P1/P2/P3/P4 = 3/5/4/2; composite 14/20 (was 16/20; P1 5→3 forced by the D:L717 letter).**
+**Class:** market-agent, grid stress → wholesale price → industrial/data-center cost. **Maturity:** L4, ConfH (DAEDALUS September 5); spawnable by Will/PROME. Historical records and operating explanations: `archive/2026-10-20_before-sweep/` byte-exact snapshots and manifest; earlier status archives retained. Whole-read budget32,550B; measured by checks.
+
+## CONVERGENCE MATRIX
+
+| # | Channel | Score (1–5) | Local state | Independence | Key signal | Upgrade trigger |
+|---|---|:---:|---|---|---|---|
+|P1|Stress→price|3|De-escalated 5→3 October 22 on the registered letter (L717 MET): October 15–21 clear on every limb|Outage-season root; backup authority shares event root|202-26-50 lapsed October 16 unrenewed; no new PJM 202(c); only postings 105575 Capacity Advisory (not EEA-class) and 105576 local warning; 0 of 2,008 prints ≥$1,000, window max $471.98 October 16 [KB173/174]. October 22 complete day max $79.98, 0 ≥$500 despite the 71.5 GW outage forecast [KB179]|RED letter re-fire (≥$1,000 for 2+ consecutive 5-min AND posting or demand ≥97% of trailing peak) or EEA2+ → 5, as on October 7 |
+|P2|Structural capacity cost|5|Three at-cap clears/two shortfalls remain historical fact; prospective shortfall disputed by IMM scenario. IRAS core rejected; RBP suspended to February 28, 2027, subject to proceedings|P2/P3 share demand-forecast root; not independent confirmations|28/29$325/MWday=100%owncap,6831MWshort [PJMJuly14]. IRAS rejectedOct9/readOct12, WATT10MISS, DoorB~50% [KB140/141]|December 2026 29/30 BRA below cap AND queues drain for thesis-kill; exact day and cost allocation unresolved |
+|P3|Data-center demand|4 HELD|July 31 funding discriminator held; forward load-realization confidence weaker after IMM demand counterevidence. Current active-queue limb UNKNOWN|Shares P2 load forecast; site execution reports not independent demand proof|IMM tracks 4,016.9 MW cancelled/delayed projects, not an adopted PJM forecast [KB165]. Cycle 1 Phase I 168.6 GW is generation, not total active queue [KB159]. Nuclear uprates planned from 2028; not online [KB166/167]|ACTIVE queue>2x forecastpeak OR IPPload-growthguide RAISED. No evidence for5; do not replace total withcycle-only |
+|P4|Gas→power|2|NOT-FIRED; positive power-window proxy, no direction inference|Shares P1 price root; gas basis remains unmeasured|Oct 15–19onpeak49.7217,n958; Oct 20NG=F2.970→HR7spark+28.93/HR8+25.96 [KB161]|Negative3+sessions on consistentbasis; proxy is not matched daily settlements |
+
+**Composite 14/20** transparent arithmetic 3+5+4+2. The P1 move is the letter executing on a clear seven-day window, not a judgment that the shoulder-season fragility is gone: October 13 RED and the September 17 EEA2 remain historical fires. No deploy-posture change or security mispricing measurement.
+
+## NEWS / NEW DATA — primary reads October 20 (KB165–172)
+
+**Demand counterevidence:** The Market Monitor's September 25 filing identifies **4,016.9 MW cancelled OR delayed** as of September 21, about **42% of 9,481 MW forecast growth**, not total data-center load. Scenario 3 shortfall **3,055 MW** versus historical auction **6,831.3 MW** is a sensitivity, not PJM's revised forecast. IIR/public-data tracking; monitor lacks EDC project-level adjustments, and WATT did not independently verify projects. P3 stays4 on its registered funding discriminator, with weaker forward realization confidence. Generation-queue attrition is a different population.
+
+**Supply response:** Google/Constellation October6: **890 MW new uprates**, first expected2028,20-yearPPA; separate **2,700 MW existing-fleet** agreement not new supply. Amazon/Constellation September30: **690 MW total includes190 MW new**, planned2030–32. Issuer announcements, no contracts/permits or deliveredMW inspected. Not immediate2026/27relief, not an adopted IRAS cost rule, and no nameplate subtraction from UCAPshortfall.
+
+**Policy and clocks:** September29RBPorder accepts for filing but suspends to **February28,2027**, subject torefund/furtherproceedings. No September30procurementstart. PrimaryOctober22MCagenda9am-noon confirms consultation onsection205revisions. October29refile/October21motionanswerdates remain secondaryleads awaiting primarydocuments. **Next2029/30BRA is December2026 perPJM, not WATT's old~mid2027**; exactday/latestcalendarunverified. October21FERCAD26-8conference10am–2:40pmEDT is an agenda, not ruling. ER24-2045October15generatororder requires60daycompliance and laterCycle3effectiveness; not data-center ride-through law or immediatequeueclearance.
+
+**Backdrop and current read:** EIAOctober6forecast/inputcutoffOct1primarychecked:2026US11hubmean$52/MWh,PJM+41%YoY;2027USmean$49. Forecasts, not spotprices; noOct13–14information incorporated. FreshPJMthrough22:45:$30.82latest,max$315.14,n273,0observedRED;unverified/partialday,21:15missing. Fullreport:`reports/2026-10-20_NEWS_SWEEP.md`. Priorhistoricalcorrections/sourcewalls below remainbinding.
+
+## LIVE READS AND CORRECTIONS
+
+**P1 (graded October 22, KB173/174):** complete October 15–21 tape n=2,008 of 2,016; zero ≥$1,000, zero ≥$500; daily max 268.62/471.98/387.92/295.18/380.98/315.14/257.81 dollars/MWh. Missing October 15 10:35, 22:20; October 20 21:15; October 21 12:05, 15:10, 15:20, 15:40, 22:00 — no two adjacent, so no hidden RED run. Board ids 105577–105640 invalid/unavailable (cannot distinguish unissued from withdrawn); Inside Lines feed newest operations update is the October 16 Capacity Advisory for October 19. Same-day outage forecasts 70.2 GW October 21, 71.5 GW October 22 (planned 48.4, maintenance 12.7, forced 10.4), 57.3–69.2 GW October 23–28: forecasts, not live availability. October 22 complete day n=285 of 288 (missing 09:40, 15:05, 15:15, none adjacent): max $79.98 at 07:30 EPT, 0 ≥$500 [KB179]. October 23 through 00:50 EPT: latest $29.03, max $39.93; demand 88.7% of 24h peak at 04Z; board one routine local warning (105478), 0 emergency-class. Captures: `sources/2026-10-22/`; report `reports/2026-10-22_DOCKET-L717-P1-retest-L650-grade.md`.
+
+**DOE:** 202-26-50 lapsed per its October 13–16 term; order page last modified October 14 14:44, docket ends at PJM Exhibit A of October 14; DOE 2026 index newest order still 202-26-50 at 08:34 ET October 22. Bounded public-index negative. **PJM October 15 retrospective says large-load backup authority was not used to date**, covering October 13–14 [KB158]; no claim after October 15; para E reports still unavailable. PJM says ninth authorization in 2026.
+
+**Historical September 17 correction:** posting105532 explicitly EEA2,14:00–22:00BGE/DOM/PEPCO [primary re-readOct20]. KB122 “no EEA2found” withdrawn; **historical C1 MET** from overlap with dated KB121consecutiveREDtimings17:05–17:10/18:20–20:05. Raw5-minreplay unavailable (retentionelapsed, originalcapture not located); confidence limit travels. No live emergency now, no namedbackup-use/loadshedding inferred. KILL_MEMO C1never-observed history obsolete; thresholds unchanged, correction flagged toPROME. WATT02horizonSept7 predates event; grades unchanged [KB160]. **Interchange test (AEOLUS 9/28 hand-back) run October 23 [KB177]:** on the 9/16–17 afternoons PJM imported from TVA (−404/−246 MW) and the south-5 group, exported to MISO (+3,034/+2,161 MW) but less than 9/15 (+4,343), net interchange +742/−34 MW. No export surge into the hotter neighbours: export pull NOT SUPPORTED as an incremental driver; outage-driven read stands. ⚠️ EIA-930 pair flows do not reconcile to total interchange (+3.2 to +6.2 GW gap per afternoon): directions and day-over-day changes only.
+
+**P2:** cap/short evidence unchanged; **197FERC61,019Oct9** rejects integratedIRAS/BYONC, acceptsdefinition/registry effectiveOct12 with30daycompliance. Removes proposed tariff burden, not physical/contract costs; no observed cost socialization. EL26-67responseNov16,answersDec16; qualifyingsection205filing can suspend affectedrespondent duty. No comprehensive newFERCfiling census this sweep. WATT08~50%OPENJune30,2027;WATT09OPENouterNov30.
+
+**P3:** 617PhaseIprojects/168.6GWgenerationnameplate vs811initialapplications/~220GWintake. Currenttransition remainder unmeasured: **current totalactivequeue and its ratio UNKNOWN**; old~250 GW/1.56x withdrawn from current use. 168.6/160.451=1.051x is cycle-only sensitivity on older2027forecast, not triad. Signed49GWunbuilt is separate; never add historical30GWremainder. **Generation attrition is not cancelled data-center demand.** FirstEIT3projects1660 MWstorage+455 MWgasuprate,plannedmid2029; acceptance≠online/firmcapacity [KB159]. Carried demand-side bases remain~32GWfirmcoincidentpeak vs~55GWutility-reportedaggregate, never netted/averaged; July 31demanddiscriminator supports4, not newguidanceraised.
+
+**Execution leads:** Amazon reportedpower-readiness+earlypayment reinforces existingdelay/carrymechanism, no measuredstock/idleperiod/loss/capexcut. Amazon disputes companywideforecastabsence and describes routine staging. Privateemails/recording uninspected; WALTER publisherbodyverification reliedon. Loughton firmgridrights/removal/substitution unknown; withdrawalsecondary. PortsPike4.25GWcommittedIT/3.8optionIT/10.37requestedgridload/10.17grossgeneration are fourpopulations, not energizedrights/netload [KB162].
+
+
+AGENTS/VULCAN/STATUS.md
+# VULCAN — STATUS
+
+**Last Updated:** 2026-10-26T23:02:16-04:00 — Will-directed GOOGL method and KB-096 issuance studies [KB-309..312]. Google predictive minimum retired, legacy FAIL retained; primary four-parent USD notes $132B gross, $54.25B at original maturity >=20y (41.10% within cohort). Exact market-wide matched denominator still INCOMPLETE; no measured AI allocation or Treasury-yield impact. **15/25 unchanged; S5 4, two events, one fired channel.** Earlier financing and news-sweep reports remain valid; no price/off-cadence refresh or trade. Closeout intake 2026-10-26T23:39:29-04:00: Anthropic original security-related pretraining delay verified [KB-316], without a named compute-contract change or new fire.
+
+**Startup / method state:** Latest recovery: `reports/2026-10-26_late-startup.md`; two ISHM handoffs integrated. Google 10-Q predictive bound RETIRED; historical failure printed beside a descriptive quarter-close advisory. META 10-Q model still FAILS; thin annual models remain UNGRADEABLE. Issuer-confirmed earnings dates govern their own events, not filing dates. No forecasts due or named corrections outstanding. Startup pull withheld for foreign dirty work. GitHub access recovered and startup commit 98c2da2f9 was confirmed on origin; this study persistence follows its actual receipt. Codex native list/read verified; fleet absence and recipient consumption unverified.
+
+**CoreWeave maintained evidence:** `CRWV/README.md` → `MAINTENANCE.md`; editable company `CRWV/KB.tsv` and broader `workbook/KB_GENERAL.tsv`, generated combined `workbook/KB.tsv`. October 20 archive holds 86 frozen copies and initial extracts; original source dates/specialist authority apply. Current interpretation/corrections: `CRWV/2026-10-20_analysis.md`, KB-246/247, `CRWV/CORRECTIONS.md`. Most June 30 net debt was recourse; current cash runway, imminent default and valuation are not established. Company cash bridge and contract rights remain incomplete; interest-loss shorthand qualified, five falsifiers unchanged. Four later intake packets assessed in the boot audit without a fresh grade.
+
+**Class:** Market-agent (AI-capex/semi/memory → systemic risk) · **Spawnable by:** PROME or Will · **Maturity:** **L4** (DAEDALUS `FLEET_MAP.tsv` since 2026-09-05; Last_scored 2026-09-17, `7bfee0060`; ⚠️ DAEDALUS PR#7 RE-SCORED 2026-10-01, L4/H held — never sent to this desk, reported in its 10/08 refresh packet; refresh 10/08 also held L4/H)
+
+> ## 📖 WHERE THINGS LIVE (navigation reconciled October 20; evidence retains its own date)
+> | Surface | Holds | Boot path? |
+> |---|---|---|
+> | **`STATUS.md`** (this file) | **Canonical for SCORE, BAND STATE, FIRED-COUNT, current live read, owed items** | **YES — read whole** |
+> | `CHANNEL_DETAIL.md` | Cold evidence §F onward. Superseded §A–E moved October 15 to `archive/CHANNEL_DETAIL_ARCHIVE_2026-09_A-D.md` and `_E.md`; STATUS remains state authority | No — on demand, per channel |
+> | `THESIS.md` · `workbook/EXIT_PROTOCOL.md` | Stage tables · the kill rail | No — closeout reads |
+> | `reports/2026-10-20_catchup/REPORT.md` · `CRWV/2026-10-20_analysis.md` | Latest dated research synthesis and company analysis; source qualifications apply | No |
+> | `archive/` | Frozen history (STATUS/SCRATCH/NEXUS archives, resolved PREDICTIONS) | No |
+>
+> ⚠️ **Rule 17:** `CHANNEL_DETAIL.md` is OFF the boot path. A watch or owed action written there does not travel; put it here, in `PREDICTIONS.tsv`, or in `docket/CATALYSTS.tsv`.
+
+---
+
+## CONVERGENCE MATRIX (universal 5-pt + local state)
+
+| # | Channel | Score (1–5) | Local state | Independence | Key signal [src, date] | Upgrade trigger |
+|---|---|:---:|---|---|---|---|
+| **S1** | AI-capex concentration | **3 🟠** | 🆕 **10/23 slot 7 (holdings 10/22): Mag-7 34.0060%, breadth −1.04pp — YELLOW; both red legs moved further away again; the 10/22 rout was mega-cap selling with the rest of the index rising (REST +0.47pp 1d) [KB-279].** **YELLOW held, NOT FIRED.** | S1+S3+S5 share ONE root; count it once | Mag-7 34.0060% [SPY fund weight, holdings 10/22, slot 7]; breadth RSP−SPY 63d −1.04pp [10/22, 28.8 pctile] | **≥40% AND breadth ≤ −7.5pp**, OR hyperscaler capex **cut** YoY |
+| **S2** | Memory cycle | **2 🟡** | October 26 sweep [KB-302/304]: Micron original October 21 slide 16 rejects4F2 on cost/complexity; directional6F2/3D path. Reported China NAND upgrades may add bits/wafer; approvals/output unresolved. No new contract/order-cut leg; October 28–29 test unchanged. | Not purely independent (an AI-capex roll pulls memory) | Micron October 21 original slide 16; Reuters October 21 issuer-statement relay | Contract **−25% QoQ sustained** |
+| **S3** | AI-capex → power demand | **3 🟠** | October 26 sweep [KB-301/303/306]: PG&E Sept pipeline 12,870 MW versus separate 174 MW online since 2024; capital deferrals beyond initial 1.8 GW. No named firm-capacity removal. Nebius/Bloom first-block readiness qualified, not commissioned compute. NERC registry proposal not enforceable curtailment. | Shares S1's root | PG&E October 22 SEC slides6/capital plan; Nebius FAQ; NERC October 21 petition | Grid-side refusal or curtailment that removes FIRM capacity from a contracted DC build |
+| **S4** | Supply-chain / geopolitics | **3 🟠** | October 26 sweep [KB-304/305/307]: reported China NAND upgrades/TSMC rare-earth substitution add two-sided supply evidence. No quantified lost output/new enacted equipment cutoff. Treasury outbound rule PROPOSED; Nov10 clocks unchanged pending ZHAO October 27. | **The only cleanly independent root** | Reuters October 21/22,qualified; Treasury October 26 proposed rule | Equipment ban / fab-level cutoff, OR Taiwan kinetic |
+| **S5** | AI-infra financing *(core since 8/3)* | **4 🔴** | October 26 sweep [KB-300]: Nebius entered$3.5B Citi secured facility,364 days,SOFR+275 rising to 350bp. Draws unknown; contractual step-up not launch flex. Funding-access counterevidence with refinancing risk. S5 remains4,n=2 (Firmus+Volta under B). | **PARTIALLY independent:** the structure/regulatory leg fires regardless of capex; the ROI leg shares S1's root | Nebius October 22 issuer release; WQ-464 retains 4 | New issue flexes **+150bp or PULLED**, OR a **2nd jurisdiction** writes an IG threshold into a utility tariff, OR a developer **fails to post** mandated collateral |
+
+**Composite: 15/25 — unchanged 10/16, re-confirmed 10/21 (L782: no new S5 event).** Volta cleared inside the original A test. Will selected B on 10/20 (2bb3f6474), so S5 has two events; WQ-464 RULED B 10/21: S5 stays 4. This is a retrospective baseline selection, not an original-forecast HIT. 10/16's selloff (QQQ −2.5%, CRWV −11.9%) is equity and secondary credit; no rule moved. ⚠️ S5's ROI leg shares S1's root — counted once by construction. · **S1 3 · S2 2 · S3 3 · S4 3 · S5 4**
+
+> ⚠️ *The per-channel arithmetic line is **machine-read** by `scripts/validate_workbook.py` (boot leg 7) against `workbook/VX.tsv` and the matrix. Do not delete or reformat it.* *(The denominator changed on 8/3: 12/20 and 15/25 are both 60%.)*
+
+*(The 10/02 lesson **"breadth moved, the band did not"** → `CHANNEL_DETAIL.md` §F verbatim. It still holds: grade the RUNWAY to each leg, not the YELLOW label.)*
+
+**Independence note:** an AI-capex ROI disappointment drives S1, S3 and S5 at once, so count that root ONCE. S4 is the only cleanly independent root.

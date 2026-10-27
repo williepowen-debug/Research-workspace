@@ -1,0 +1,105 @@
+{
+  "as_of": "2026-10-27T15:03:51.644902+00:00",
+  "inventory": {
+    "AGENTS/WALTER/inbox": [
+      {
+        "path": "AGENTS/WALTER/inbox/2026-10-25_from-CRUISE_correction-zero-cancellation-count.md",
+        "sha256": "b17bc9e311681d5bd9a0dc79ead76dc06dee26abbdfd4ebe55e06f283b39d317"
+      },
+      {
+        "path": "AGENTS/WALTER/inbox/2026-10-25_from-CRUISE_external-cruise-source-intake.md",
+        "sha256": "2869c6a00a8a4ab05f2883f3a1081ccdcc211bec05c2d7fa8d75dba317b2cf39"
+      },
+      {
+        "path": "AGENTS/WALTER/inbox/2026-10-25_from-CRUISE_port-count-source-intake.md",
+        "sha256": "cd053059f2efa7679630d45cdabeff3ce4c6b721f8cd11c23c06b7d636f7c0dd"
+      },
+      {
+        "path": "AGENTS/WALTER/inbox/2026-10-25_from-MARCO_MIA-Spirit-correction-capacity.md",
+        "sha256": "9119b4c487a9c736f5720ba2a88d7b765889aa86af0361259e0e6d1a00febeef"
+      },
+      {
+        "path": "AGENTS/WALTER/inbox/2026-10-25_from-MARCO_farm-labor-h2a-canada-news.md",
+        "sha256": "a4d68f213f7b9c7db4a385441d7ce0c59a45d56fb41cf445d784447139805942"
+      },
+      {
+        "path": "AGENTS/WALTER/inbox/2026-10-25_from-MARCO_stale-sweep-corrections.md",
+        "sha256": "11d3b5ebf1487ba33d7ccb6d81600193d5700fc482e9f419a24ffc14c32b4be3"
+      },
+      {
+        "path": "AGENTS/WALTER/inbox/2026-10-26_from-BRENT_source-006-integrated-official-energy.md",
+        "sha256": "2340a11334d73b583797634b7ff3a2b7c81d10bedb1d03d668b71b0dfd2741b7"
+      },
+      {
+        "path": "AGENTS/WALTER/inbox/2026-10-26_from-CARL_consumer-news-sweep.md",
+        "sha256": "cc3ae2088f28dab9e02d94db395352e81788c20a144ce0f651ea803360e04cf5"
+      },
+      {
+        "path": "AGENTS/WALTER/inbox/2026-10-26_from-CYPHER_claim-entity-corrections.md",
+        "sha256": "180ea38f7c498fb5bf809536dba985b1d141919fb1a747e94abce81b6a38de53"
+      },
+      {
+        "path": "AGENTS/WALTER/inbox/2026-10-26_from-CYPHER_financial-supplier-claims-sweep.md",
+        "sha256": "b5cf93e69d745690f17875f8c34702f352414b7d6c4ef9145a88b3f110038a45"
+      },
+      {
+        "path": "AGENTS/WALTER/inbox/2026-10-26_from-CYPHER_php-corrections-tailscale-edge.md",
+        "sha256": "0698cd96e98ce702a8235ae3948f1b29e2e432572bc0547ff2f8364ff619da5d"
+      },
+      {
+        "path": "AGENTS/WALTER/inbox/2026-10-26_from-CYPHER_policy-context-not-supervisory-fire.md",
+        "sha256": "00e1611815b9f319d4d4d482752db28cc92f617385e57920fadbf6ed9a635353"
+      },
+      {
+        "path": "AGENTS/WALTER/inbox/2026-10-26_from-FALCON_evening-census-and-new-maritime-reports.md",
+        "sha256": "e9c709cd1fc079175e70d2aab0057aa6ad753b111e910285ada9bc9a8cc37c54"
+      },
+      {
+        "path": "AGENTS/WALTER/inbox/2026-10-26_from-ISHM_news-sweep-evidence-and-intake.md",
+        "sha256": "ac6ee55970cf5614419bf7a9bcff7bf3142b4d635f43418f611f685ce9acd146"
+      },
+      {
+        "path": "AGENTS/WALTER/inbox/2026-10-26_from-LIQUID_brazil-close-and-participant-source.md",
+        "sha256": "2848973bb398b91117828c663a41a6f82bfcaa681508a74c4e740f14ba3f95c4"
+      },
+      {
+        "path": "AGENTS/WALTER/inbox/2026-10-26_from-LIQUID_buybacks-contract-and-1900-completion.md",
+        "sha256": "ad960f459538b6d3fb784c0772b70c07db6c11003dd880a454fd7f0f1b0a662e"
+      },
+      {
+        "path": "AGENTS/WALTER/inbox/2026-10-26_from-MIDAS_close-prices-platinum-crossing.md",
+        "sha256": "9a2e881669c4a38def1907a50ef6f7a9d36140c22927899e2567d6b18e8cfe90"
+      },
+      {
+        "path": "AGENTS/WALTER/inbox/2026-10-26_from-VULCAN_missed-news-sweep.md",
+        "sha256": "7b21b66f2e6270ff6e195c8b54e4c99bb3fcce48cd0895de15d07c13ea0b8680"
+      },
+      {
+        "path": "AGENTS/WALTER/inbox/SIG-OTTO-WALTER-20261025-catchup-primary-context-and-bridge8.md",
+        "sha256": "7f07f4c5f1c87f8246de48124984868a21ba28224b29247788ea8865afb54f98"
+      },
+      {
+        "path": "AGENTS/WALTER/inbox/SIG-OTTO-WALTER-20261025-financing-terms-and-eart-date-correction.md",
+        "sha256": "bcdb71b5fa6d3d6bb673bc5f4bbd61e9cc852126830c6949efb9491624fb9981"
+      },
+      {
+        "path": "AGENTS/WALTER/inbox/SIG-OTTO-WALTER-20261025-stale-file-corrections-and-negative-equity.md",
+        "sha256": "c112cb10d140727a9aa5faa536ebbb0250810c0e0fe6e78e6dc640d91cd58f79"
+      }
+    ],
+    "AGENTS/WALTER/inbox/DEWEY": [
+      {
+        "path": "AGENTS/WALTER/inbox/DEWEY/2026-10-25_hawk-01-helium-semiconductor-deliveries_handoff.md",
+        "sha256": "f37c0f59f3cc5beae3553f50138d9fa12ed5bcadc14bb88112237aa11dbb9cb0"
+      },
+      {
+        "path": "AGENTS/WALTER/inbox/DEWEY/2026-10-25_hawk-02-taiwan-fuel-buffer-cargoes_handoff.md",
+        "sha256": "348118139494a755ecf8b03bd86a0b8a4190e247ced5ab47a922b5c05f82f565"
+      },
+      {
+        "path": "AGENTS/WALTER/inbox/DEWEY/2026-10-25_hawk-03-marine-war-risk-prices-coverage_handoff.md",
+        "sha256": "a1267cd2315353bd3d896cc8afb9b611d5e9361028eab49587c5cca9e4f3525c"
+      }
+    ]
+  }
+}

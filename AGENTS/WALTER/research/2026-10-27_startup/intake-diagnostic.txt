@@ -1,0 +1,30 @@
+RESEARCH-INTAKE scan — 2026-10-27 15:03Z
+================================================================
+
+[health]
+  OK   last_run 2026-10-23T18:52:35Z (2 missed weekday runs, 3 calendar days)
+  OK   news search items saved: 152 (trailing median 190 over 10 batches)
+
+[NEW breaches to ROUTE — 5]  (onset; push per §3, tag source: RESEARCH-INTAKE)
+  ROUTINE   INFO   -> VIOLET cc SAM  [VIX positioning]
+      cftc_cot VIX lev-money net=1105 [orange] (net-long vol / de-risking regime)
+  PRIORITY  ACTION -> (per-item agents field)  [1 NEW_ALERT]
+      1 NEW_ALERT item(s) — read data/2026-10-23/news.json
+  ROUTINE   INFO   -> (per-item agents field)  [2 NEW_WATCH]
+      2 NEW_WATCH item(s) — read data/2026-10-23/news.json
+  PRIORITY  ACTION -> BRENT  [WATCH_HIT [BRENT:'White House diesel export'; BRENT:'90-day diesel']]
+      White House Considers 90-Day Diesel Export Ban As Prices Surge - Motor1.com
+  ROUTINE   INFO   -> HENRY,BRENT,SAM  [DEVELOPMENT [known entity Hormuz + escalation qualifier]]
+      Ship attacks in Strait of Hormuz hit record high in October - Reuters
+
+[suppressed — still-true, already seen — 8]  (do NOT re-push)
+  fred:UMCSENT:orange  (UMCSENT UMich sentiment=48.1 [orange])
+  fred:MORTGAGE30US:red  (MORTGAGE30US 30yr mortgage rate %=7.32 [red])
+  fred:BAMLH0A0HYM2:red  (BAMLH0A0HYM2 HY OAS bps=340.0 [red])
+  fred:BAMLH0A0HYM2:red  (BAMLH0A0HYM2 HY OAS=340bps [red] >=280 X1-trigger breach (LIQUID half )
+  edgar:EGBN_2026_10_21_2_02_7_01_9_01_  (EGBN 2026-10-21 ['2.02', '7.01', '9.01'])
+  edgar:ZION_2026_10_19_2_02_9_01_  (ZION 2026-10-19 ['2.02', '9.01'])
+  edgar:VLY_2026_10_22_2_02_9_01_  (VLY 2026-10-22 ['2.02', '9.01'])
+  edgar:META_2026_10_21_1_01_2_02_8_01_9_01_  (META 2026-10-21 ['1.01', '2.02', '8.01', '9.01'])
+
+After routing the NEW breaches, run:  python3 tools/intake_scan.py --mark

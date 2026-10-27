@@ -1,0 +1,275 @@
+{
+  "as_of": "2026-10-27T15:04:44.399060+00:00",
+  "FRED": {
+    "BAMLH0A0HYM2": {
+      "rows": [
+        {
+          "date": "2026-10-23",
+          "value": "3.38",
+          "first_published": "2026-10-23"
+        },
+        {
+          "date": "2026-10-22",
+          "value": "3.4",
+          "first_published": "2026-10-22"
+        },
+        {
+          "date": "2026-10-21",
+          "value": "3.27",
+          "first_published": "2026-10-21"
+        },
+        {
+          "date": "2026-10-20",
+          "value": "3.33",
+          "first_published": "2026-10-20"
+        },
+        {
+          "date": "2026-10-19",
+          "value": "3.29",
+          "first_published": "2026-10-19"
+        },
+        {
+          "date": "2026-10-16",
+          "value": "3.31",
+          "first_published": "2026-10-16"
+        }
+      ],
+      "short": false,
+      "error": null
+    },
+    "BAMLH0A3HYC": {
+      "rows": [
+        {
+          "date": "2026-10-23",
+          "value": "13.56",
+          "first_published": "2026-10-23"
+        },
+        {
+          "date": "2026-10-22",
+          "value": "13.4",
+          "first_published": "2026-10-22"
+        },
+        {
+          "date": "2026-10-21",
+          "value": "13.07",
+          "first_published": "2026-10-21"
+        },
+        {
+          "date": "2026-10-20",
+          "value": "13.27",
+          "first_published": "2026-10-20"
+        },
+        {
+          "date": "2026-10-19",
+          "value": "13.1",
+          "first_published": "2026-10-19"
+        },
+        {
+          "date": "2026-10-16",
+          "value": "12.97",
+          "first_published": "2026-10-16"
+        }
+      ],
+      "short": false,
+      "error": null
+    },
+    "VIXCLS": {
+      "rows": [
+        {
+          "date": "2026-10-26",
+          "value": "18.39",
+          "first_published": "2026-10-26"
+        },
+        {
+          "date": "2026-10-23",
+          "value": "19.45",
+          "first_published": "2026-10-23"
+        },
+        {
+          "date": "2026-10-22",
+          "value": "19.03",
+          "first_published": "2026-10-22"
+        },
+        {
+          "date": "2026-10-21",
+          "value": "16.68",
+          "first_published": "2026-10-21"
+        },
+        {
+          "date": "2026-10-20",
+          "value": "17.31",
+          "first_published": "2026-10-20"
+        },
+        {
+          "date": "2026-10-19",
+          "value": "18.44",
+          "first_published": "2026-10-19"
+        }
+      ],
+      "short": false,
+      "error": null
+    },
+    "ICSA": {
+      "rows": [
+        {
+          "date": "2026-10-17",
+          "value": "194000",
+          "first_published": "2026-10-22"
+        },
+        {
+          "date": "2026-10-10",
+          "value": "199000",
+          "first_published": "2026-10-15"
+        },
+        {
+          "date": "2026-10-03",
+          "value": "197000",
+          "first_published": "2026-10-08"
+        },
+        {
+          "date": "2026-09-26",
+          "value": "197000",
+          "first_published": "2026-10-01"
+        },
+        {
+          "date": "2026-09-19",
+          "value": "197000",
+          "first_published": "2026-09-24"
+        },
+        {
+          "date": "2026-09-12",
+          "value": "196000",
+          "first_published": "2026-09-17"
+        }
+      ],
+      "short": false,
+      "error": null
+    },
+    "SOFR": {
+      "rows": [
+        {
+          "date": "2026-10-26",
+          "value": "3.93",
+          "first_published": "2026-10-27"
+        },
+        {
+          "date": "2026-10-23",
+          "value": "3.92",
+          "first_published": "2026-10-26"
+        },
+        {
+          "date": "2026-10-22",
+          "value": "3.9",
+          "first_published": "2026-10-23"
+        },
+        {
+          "date": "2026-10-21",
+          "value": "3.88",
+          "first_published": "2026-10-22"
+        },
+        {
+          "date": "2026-10-20",
+          "value": "3.88",
+          "first_published": "2026-10-21"
+        },
+        {
+          "date": "2026-10-19",
+          "value": "3.87",
+          "first_published": "2026-10-20"
+        }
+      ],
+      "short": false,
+      "error": null
+    },
+    "IORB": {
+      "rows": [
+        {
+          "date": "2026-10-27",
+          "value": "3.9",
+          "first_published": "2026-10-26"
+        },
+        {
+          "date": "2026-10-26",
+          "value": "3.9",
+          "first_published": "2026-10-23"
+        },
+        {
+          "date": "2026-10-25",
+          "value": "3.9",
+          "first_published": "2026-10-23"
+        },
+        {
+          "date": "2026-10-24",
+          "value": "3.9",
+          "first_published": "2026-10-23"
+        },
+        {
+          "date": "2026-10-23",
+          "value": "3.9",
+          "first_published": "2026-10-22"
+        },
+        {
+          "date": "2026-10-22",
+          "value": "3.9",
+          "first_published": "2026-10-21"
+        }
+      ],
+      "short": false,
+      "error": null
+    },
+    "T5YIFR": {
+      "rows": [
+        {
+          "date": "2026-10-26",
+          "value": "2.21",
+          "first_published": "2026-10-26"
+        },
+        {
+          "date": "2026-10-23",
+          "value": "2.2",
+          "first_published": "2026-10-23"
+        },
+        {
+          "date": "2026-10-22",
+          "value": "2.19",
+          "first_published": "2026-10-22"
+        },
+        {
+          "date": "2026-10-21",
+          "value": "2.34",
+          "first_published": "2026-10-21"
+        },
+        {
+          "date": "2026-10-20",
+          "value": "2.31",
+          "first_published": "2026-10-20"
+        },
+        {
+          "date": "2026-10-19",
+          "value": "2.32",
+          "first_published": "2026-10-19"
+        }
+      ],
+      "short": false,
+      "error": null
+    }
+  },
+  "VIX_exit_run": 3,
+  "FT11": {
+    "window": [
+      "2026-10-16",
+      "2026-10-23"
+    ],
+    "delta_bp": {
+      "DGS30": "-10.00",
+      "DGS20": "-10.00",
+      "DGS10": "-9.00",
+      "DGS5": "-7.00",
+      "DGS2": "-5.00",
+      "T10YIE": "-1.00"
+    },
+    "delta5_fly_bp": "-1.00",
+    "precondition_30y": false,
+    "butterfly_alternative": false
+  }
+}
