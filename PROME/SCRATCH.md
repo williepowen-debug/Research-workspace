@@ -3,6 +3,10 @@
 
 ## ★ NEXT SESSION — START HERE
 
+**October 26 five-desk review COMPLETE:** [final record](reports/2026-10-26_five-desk-review.md#final-disposition-of-this-review). NEXUS 69ad87b85 synthesis accepted and explicit bounded closeout e874a490e received; CARL accepted/answered 0dbf1c3ff. Both PROME follow-up touches resolved from actual replies. Tomorrow observations and reader/source limitations remain, as do separate late CYPHER/VULCAN intake packets. No full PROME session closeout claimed.
+
+**October 26 five-desk follow-through delivered:** NEXUS 69ad87b85 accepted; [review](reports/2026-10-26_five-desk-review.md). WQ-519 examples now linked in its pending row; probabilities unchanged. Tuesday L554/L555 grades/rollup and FLG consumption remain, full review still October 23 with reader dependency. CARL return accepted and closeout answered; NEXUS closeout asked, receipt pending. FERT next monthly wake L844 November 24 registered.
+
 **October 26 CARL accepted:** L786 review RESOLVED; explicit closeout receipt 0dbf1c3ff reports bounded research/persistence done with declared limits. Future observations have PROME wakes L841 October 27 paper fills, L842 October 29 GDP/PCE, L843 November 6 issuer sources. CRL-21 remains STUCK/unscored; no fabricated fills. NEXUS bounded return still in progress.
 
 **October 26 five-desk review:** [receipt](reports/2026-10-26_five-desk-review.md). NEXUS L832 assigned scope RESOLVED (ea274f610); full fleet review still October 23, Tuesday L554/L555 remain. ISHM library accepted with calibration limits and tomorrow release plan. FERT next ERS date corrected to November 24. NEXUS bounded synthesis/Tuesday prep and CARL final L786 plus peer intake assigned in 28fe117f3; returns and explicit closeout answers pending. MIDAS gold certification gap remains.

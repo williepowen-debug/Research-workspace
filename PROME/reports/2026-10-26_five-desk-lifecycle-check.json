@@ -1,0 +1,93 @@
+{
+  "inventory": {
+    "complete": true,
+    "session_ids": [
+      "01a17ae0-02f3-71a1-872c-b97fb47537e5",
+      "01a17ae9-24b4-78c1-91a5-e6d407a3bd6a"
+    ],
+    "expected_keys": [
+      "75bb7e1ea7c72edf0a620165f2730d540e25ff22080d9d0a9bee24cf7e698f3f",
+      "38c9b67a4a30153632f13d3b5ebe36b2719a48dbd0be321658d4eff0a98b215a",
+      "38af74a61d709002f1fb90bab41f6bf165a3f28e6bb4fe73f901388f7ae42628",
+      "0c5d078de8a4cd3aac58c76a6588c220012643e7f3657e63325a4d2829a9fffe"
+    ],
+    "observed_at": "2026-10-27T03:09:43.468206+00:00",
+    "evidence": "All tool calls in this five-desk review: two existing-owner assignments and explicit closeout asks/answers; native list/read/send plus committed receipts. Restricted to these two sessions, not fleet completeness. Includes malformed receipt records retained as original obligations by the reader and resolved by corrected events; ask/resolution events are not spawns."
+  },
+  "current": [
+    {
+      "key": "38af74a61d709002f1fb90bab41f6bf165a3f28e6bb4fe73f901388f7ae42628",
+      "date": "2026-10-26",
+      "desk": "NEXUS",
+      "touch": "1",
+      "state": "ASKED_RECEIPT",
+      "detail": "ask: Native explicit closeout request after accepted 69ad87b85 synthesis. | receipt: e874a490e: PROME/inbox/processed/2026-10-26_from-NEXUS_bounded-followthrough-closeout.md; native reply CLOSED OUT with full-review/reader/boot-ordering limits retained. | resolution event 7a5ccd19ced9650d8dc8eb94aca4d303814499dfc5d71067f474fd2633684e7c",
+      "session_id": "01a17ae0-02f3-71a1-872c-b97fb47537e5",
+      "owner": "PROME",
+      "touch_at": "2026-10-27T02:47:46.417632+00:00",
+      "events": [
+        "80d899d5fb562616b9609f79ea73f59d71239bc5b2d71c11a3f8d9fc6ee5c61d",
+        "7a5ccd19ced9650d8dc8eb94aca4d303814499dfc5d71067f474fd2633684e7c"
+      ],
+      "resolved_at": "2026-10-27T03:09:43.252489+00:00",
+      "population": "current"
+    },
+    {
+      "key": "75bb7e1ea7c72edf0a620165f2730d540e25ff22080d9d0a9bee24cf7e698f3f",
+      "date": "2026-10-26",
+      "desk": "CARL",
+      "touch": "1",
+      "state": "ASKED_RECEIPT",
+      "detail": "ask: Native explicit closeout ask after ee1cb82fa return. | receipt: 0dbf1c3ff: PROME/inbox/processed/2026-10-26_from-CARL_L786-closeout-receipt.md; native answer PARTIAL with read-cap/source/future-observation limits, no pending persistence step. | resolution event 57139d172585337b4702e2607fdf8dfaefb746f4b1fd2c185a5c148a780acc50",
+      "session_id": "01a17ae9-24b4-78c1-91a5-e6d407a3bd6a",
+      "owner": "PROME",
+      "touch_at": "2026-10-27T02:47:46.717305+00:00",
+      "events": [
+        "0f8ac99ae5b43d7be6ce914e0f7ca52945df604cf51bd6aa9ad44805e21c13da",
+        "57139d172585337b4702e2607fdf8dfaefb746f4b1fd2c185a5c148a780acc50"
+      ],
+      "resolved_at": "2026-10-27T03:09:43.029063+00:00",
+      "population": "current"
+    },
+    {
+      "key": "38c9b67a4a30153632f13d3b5ebe36b2719a48dbd0be321658d4eff0a98b215a",
+      "date": "2026-10-26",
+      "desk": "CARL",
+      "touch": "3-CLOSEOUT-RECEIPT",
+      "state": "ASKED_RECEIPT",
+      "detail": "ask: Native explicit closeout ask after ee1cb82fa return. | receipt: 0dbf1c3ff: PROME/inbox/processed/2026-10-26_from-CARL_L786-closeout-receipt.md; native answer PARTIAL with read-cap/source/future-observation limits, no pending persistence step. | resolution event 57139d172585337b4702e2607fdf8dfaefb746f4b1fd2c185a5c148a780acc50",
+      "session_id": "01a17ae9-24b4-78c1-91a5-e6d407a3bd6a",
+      "owner": "PROME",
+      "touch_at": "2026-10-27T02:57:20.174416+00:00",
+      "events": [
+        "57139d172585337b4702e2607fdf8dfaefb746f4b1fd2c185a5c148a780acc50"
+      ],
+      "resolved_at": "2026-10-27T03:09:43.029063+00:00",
+      "population": "current"
+    },
+    {
+      "key": "0c5d078de8a4cd3aac58c76a6588c220012643e7f3657e63325a4d2829a9fffe",
+      "date": "2026-10-26",
+      "desk": "NEXUS",
+      "touch": "3-CLOSEOUT-RECEIPT",
+      "state": "ASKED_RECEIPT",
+      "detail": "ask: Native explicit closeout request after accepted 69ad87b85 synthesis. | receipt: e874a490e: PROME/inbox/processed/2026-10-26_from-NEXUS_bounded-followthrough-closeout.md; native reply CLOSED OUT with full-review/reader/boot-ordering limits retained. | resolution event 7a5ccd19ced9650d8dc8eb94aca4d303814499dfc5d71067f474fd2633684e7c",
+      "session_id": "01a17ae0-02f3-71a1-872c-b97fb47537e5",
+      "owner": "PROME",
+      "touch_at": "2026-10-27T03:08:56.661021+00:00",
+      "events": [
+        "7a5ccd19ced9650d8dc8eb94aca4d303814499dfc5d71067f474fd2633684e7c"
+      ],
+      "resolved_at": "2026-10-27T03:09:43.252489+00:00",
+      "population": "current"
+    }
+  ],
+  "retained_issues": [
+    "resolution b8aef3ebb65597b46d590a7ec1c25d870a60263fb575dc780d913c4da3140ccd: identity mismatch for d6faa93bc0c5158c4e4c4c607f0c6d486d62889bcedb986a1effc6c235507b93; UNKNOWN",
+    "resolution b66b889ea8bd2711a7aa43a119a0d22ea7b0e313539a7ddf1e110ecbf3ae2eea: identity mismatch for c889bcf330644ea665f050d40f8bbb718cb47dda7d9e616d8d2c35f5959e2e06; UNKNOWN",
+    "resolution bc4bc2b42f2ee276686cc61b2a1582e5ccdf5fb39755b7464abe3f424b872331: identity mismatch for e7cf490512355447f3f6581ce72191a29555f0d3b694bfb9a6cd4d04930f06df; UNKNOWN",
+    "resolution 38c9b67a4a30153632f13d3b5ebe36b2719a48dbd0be321658d4eff0a98b215a: unknown/non-original target 0f8ac99ae5b43d7be6ce914e0f7ca52945df604cf51bd6aa9ad44805e21c13da; UNKNOWN",
+    "resolution 0c5d078de8a4cd3aac58c76a6588c220012643e7f3657e63325a4d2829a9fffe: unknown/non-original target 80d899d5fb562616b9609f79ea73f59d71239bc5b2d71c11a3f8d9fc6ee5c61d; UNKNOWN"
+  ],
+  "limits": "Attributed records, not receipt authentication or fleet liveness."
+}
