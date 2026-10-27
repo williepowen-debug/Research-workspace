@@ -25,3 +25,10 @@ Pending receipt slots are resolved below when observed; an unfilled slot is not 
 - Record check passed:37 unique Series/Ref_Period/Vintage keys; all required first-session families and four earnings; unprefixed catalyst header; STATUS first-session banner spent.
 - Consumer cross-scan broad57 needle was noncertifying (6049 candidates). Qualified manufacturing-PMI scan flags two dated historical flash references (WALTER proposal, HENRY September24 sweep). Both preserve valid historical57.0; recipients receive final55.9 context, never a request to rewrite history. Self scan contains the original checklist, old builder snapshot (now FROZEN), unrelated sample counts and source data; no current unqualified flash remains.
 - No foreign dirty work remains at the last precommit inventory other than self-authored inbox packets. That observation does not retroactively authorize the deferred startup pull. Safe-push/pull decisions are rechecked at closeout.
+
+## Persistence and coordination receipts
+
+- Main owner-state commit `a5e8b9f7c1f292079c1248084d6ee427f79eed88`; all37 rows and tests persisted before intake archival.
+- Sixteen self-authored packet commits: exact recipient/path/hash records in local-commits.json. Root carve-out1; no other-owner canonical file staged.
+- 2026-10-26T22:08:19-04:00: native Codex tool accepted coordination notices to verified PROME/CARL/WALTER sessions. Exact IDs in NOTIFICATIONS.json. Acceptance is not consumption; no reply requested. Other owners remain discovery/consumption UNKNOWN, not DARK.
+- Five WALTER files archived by git mv after integration commit; PROME WQ-507 packet NO-OP disposition because builder already encoded the ruling. No duplicate trigger or altered threshold.

@@ -1,0 +1,11 @@
+{
+  "observed_at": "2026-10-26T22:08:19-04:00",
+  "mechanism": "native Codex send_message_to_thread",
+  "receipts": {
+    "PROME": "01a17abd-8e89-73e3-b9db-ed26d0b2f3c0",
+    "CARL": "01a17ae9-24b4-78c1-91a5-e6d407a3bd6a",
+    "WALTER": "01a17ac3-4566-7932-99fb-216ed19152b0"
+  },
+  "result": "tool accepted all three notices; recipient consumption and lifecycle closeout not established",
+  "other_recipients": "bounded discovery not evidence of DARK; no writing launch or blanket message attempted"
+}

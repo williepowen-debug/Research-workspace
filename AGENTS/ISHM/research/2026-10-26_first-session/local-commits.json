@@ -1,0 +1,102 @@
+[
+  {
+    "kind": "owner-state",
+    "commit": "a5e8b9f7c1f292079c1248084d6ee427f79eed88"
+  },
+  {
+    "kind": "packet",
+    "recipient": "HENRY",
+    "path": "AGENTS/HENRY/inbox/2026-10-26_from-ISHM_first-session-boundary.md",
+    "commit": "911d94ac3b31ae7ade2911f27073521ee54c2644"
+  },
+  {
+    "kind": "packet",
+    "recipient": "CARL",
+    "path": "AGENTS/CARL/inbox/2026-10-26_from-ISHM_first-session-boundary.md",
+    "commit": "c6f85a627b99ecb131d880bc8166d81e44178bc4"
+  },
+  {
+    "kind": "packet",
+    "recipient": "LABOR",
+    "path": "AGENTS/LABOR/inbox/2026-10-26_from-ISHM_first-session-boundary.md",
+    "commit": "17e1f9073b6934a6ab3177cf7d8a8ac05c84a335"
+  },
+  {
+    "kind": "packet",
+    "recipient": "HAWK",
+    "path": "AGENTS/HAWK/inbox/2026-10-26_from-ISHM_first-session-boundary.md",
+    "commit": "69b2643cda9ab05c453410060dd2af85f6242d49"
+  },
+  {
+    "kind": "packet",
+    "recipient": "OTTO",
+    "path": "AGENTS/OTTO/inbox/2026-10-26_from-ISHM_first-session-boundary.md",
+    "commit": "43be308916f8979f617e1f794313208a5aa24764"
+  },
+  {
+    "kind": "packet",
+    "recipient": "FERT",
+    "path": "AGENTS/FERT/inbox/2026-10-26_from-ISHM_first-session-boundary.md",
+    "commit": "faefd69ac513a37ed98095f1971d1db0ff815ab7"
+  },
+  {
+    "kind": "packet",
+    "recipient": "HANS",
+    "path": "AGENTS/HANS/inbox/2026-10-26_from-ISHM_first-session-boundary.md",
+    "commit": "8712926f82c034cf9d2b8f9ee218b1e025f1aafe"
+  },
+  {
+    "kind": "packet",
+    "recipient": "VULCAN",
+    "path": "AGENTS/VULCAN/inbox/2026-10-26_from-ISHM_first-session-boundary.md",
+    "commit": "1207c9e0075dc81e9f107bfd7f88d624cfd5d7f5"
+  },
+  {
+    "kind": "packet",
+    "recipient": "LIQUID",
+    "path": "AGENTS/LIQUID/inbox/2026-10-26_from-ISHM_first-session-boundary.md",
+    "commit": "9afa3b7a8770baa2b79bf5f9461061730abe42ff"
+  },
+  {
+    "kind": "packet",
+    "recipient": "RED",
+    "path": "AGENTS/RED/inbox/2026-10-26_from-ISHM_first-session-boundary.md",
+    "commit": "d0585d31e04923752de9136a668f71dc0a5f37ef"
+  },
+  {
+    "kind": "packet",
+    "recipient": "REGINALD",
+    "path": "AGENTS/REGINALD/inbox/2026-10-26_from-ISHM_first-session-boundary.md",
+    "commit": "a2aad93bcf090948ee056c06e8f657d21cc409e1"
+  },
+  {
+    "kind": "packet",
+    "recipient": "GIBBS",
+    "path": "AGENTS/GIBBS/inbox/2026-10-26_from-ISHM_first-session-boundary.md",
+    "commit": "41b141adf8aa03a788cffd1aa97e9d596260d956"
+  },
+  {
+    "kind": "packet",
+    "recipient": "WATT",
+    "path": "AGENTS/WATT/inbox/2026-10-26_from-ISHM_first-session-boundary.md",
+    "commit": "073a8830a9b9fd433b96a0c1c4d6889fe89532c0"
+  },
+  {
+    "kind": "packet",
+    "recipient": "WALTER",
+    "path": "AGENTS/WALTER/inbox/2026-10-26_from-ISHM_first-session-intake-dispositions.md",
+    "commit": "fc211576cdeb2d68c3447fc4f3e55530970f0c59"
+  },
+  {
+    "kind": "packet",
+    "recipient": "PROME",
+    "path": "PROME/inbox/2026-10-26_from-ISHM_READS-attestation-and-boundary-gaps.md",
+    "commit": "095e00bd2383940bc6324d89d51c47813ae5d8d5"
+  },
+  {
+    "kind": "packet",
+    "recipient": "PROME",
+    "path": "PROME/inbox/2026-10-26_from-ISHM_first-session-completion.md",
+    "commit": "3c9c1031778fddc385c1cffc315734d26914fece"
+  }
+]
