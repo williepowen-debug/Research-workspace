@@ -1,0 +1,112 @@
+[
+  {
+    "name": "issuer_news_index",
+    "url": "https://nornickel.com/news-and-media/press-releases-and-news/",
+    "status": 403,
+    "bytes": 300,
+    "sha256": "a44732195feb056828cc16b72daee0b72642e2bbfb506845ca02db90650d20d6",
+    "retrieved_at": "2026-10-27T02:16:48.643112+00:00"
+  },
+  {
+    "name": "issuer_results_index",
+    "url": "https://nornickel.com/investors/reports-and-results/current-results/",
+    "status": 403,
+    "bytes": 300,
+    "sha256": "d800eb12b91c3e51da9fa9a8876ac97f801c4d551c066e20affd4a379240f2ae",
+    "retrieved_at": "2026-10-27T02:16:49.026793+00:00"
+  },
+  {
+    "name": "issuer_ru_news_index",
+    "url": "https://nornickel.ru/news-and-media/press-releases-and-news/",
+    "status": 403,
+    "bytes": 300,
+    "sha256": "1f7a99f8ff40b82fc7ba26980b2328ff1767b5ed73bb9e5bf1680f9f129f4b76",
+    "retrieved_at": "2026-10-27T02:16:49.399376+00:00"
+  },
+  {
+    "name": "issuer_release",
+    "url": "https://nornickel.com/news-and-media/press-releases-and-news/nornickel-announces-production-results-for-9m2026/",
+    "status": 200,
+    "bytes": 138667,
+    "sha256": "17cde8206191c741aca99a698a85a0e2cdb086fe8a9d378b03c8c0c286ff6bd2",
+    "retrieved_at": "2026-10-27T02:17:10.188533+00:00",
+    "method": "curl_cffi public GET"
+  },
+  {
+    "name": "issuer_ru_release",
+    "url": "https://nornickel.ru/news-and-media/press-releases-and-news/proizvodstvennye-rezultaty-za-9-mesyatsev-2026-goda/",
+    "status": 404,
+    "bytes": 175985,
+    "sha256": "76678facd9573847e195be70931eecbd79d028d891f3d81fe522eb89ef118afc",
+    "retrieved_at": "2026-10-27T02:17:11.608612+00:00",
+    "method": "curl_cffi public GET"
+  },
+  {
+    "name": "issuer_full",
+    "url": "https://nornik-upload.storage.yandexcloud.net/iblock/906/9061490e18f866495b02a564aaaabf82/nornickel_production_results_3q_2026_eng_fin_full.pdf",
+    "status": 200,
+    "bytes": 110670,
+    "sha256": "babcb62ff06dcde82050813425b5cb316323362e6127fbd9b1965c88960e5aa8",
+    "retrieved_at": "2026-10-27T02:18:29.679226+00:00",
+    "method": "curl_cffi public GET"
+  },
+  {
+    "name": "broker_20261023",
+    "url": "https://www.eoption.com/market-review-october-23-2026/",
+    "status": 200,
+    "bytes": 198383,
+    "sha256": "14dfa3261ca423fe49989f6fc873c067c4a5dceb871ecb4d44ab53fa95d82b5e",
+    "retrieved_at": "2026-10-27T02:18:31.023212+00:00",
+    "method": "curl_cffi public GET"
+  },
+  {
+    "name": "broker_20261022",
+    "url": "https://www.eoption.com/market-review-october-22-2026/",
+    "status": 200,
+    "bytes": 213451,
+    "sha256": "692b9d1be5d464cf0acb08db8e621badd0cf9c623a0895ec7d155203c1b08b7b",
+    "retrieved_at": "2026-10-27T02:18:32.182934+00:00",
+    "method": "curl_cffi public GET"
+  },
+  {
+    "name": "treasury_real",
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_real_yield_curve&field_tdr_date_value=2026&page&_format=csv",
+    "status": 200,
+    "bytes": 7422,
+    "sha256": "152f2dc41c0a15301b0538f4e63b40ee007d68eaabc1634358b3797cdb473fe4",
+    "retrieved_at": "2026-10-27T02:18:32.830308+00:00",
+    "method": "curl_cffi public GET"
+  },
+  {
+    "name": "issuer_h1",
+    "url": "https://nornickel.com/news-and-media/press-releases-and-news/nornickel-announces-production-results-for-1h2026/",
+    "status": 200,
+    "sha256": "a40914f3c208b984839c74d670305340b27aa0cea286a3d0e22223ce6489921c",
+    "bytes": 139190,
+    "retrieved_at": "2026-10-27T02:19:26.767352+00:00"
+  },
+  {
+    "name": "issuer_h1_full",
+    "url": "https://nornik-upload.storage.yandexcloud.net/iblock/9f2/9f281df9f30d854f9ff98e521e839eae/nornickel_production_results_1n_2026_eng_full.pdf",
+    "status": 200,
+    "sha256": "4cd631feeb345a74440ea029e2f0816eca7486c890695fd299109d43d56bce9d",
+    "bytes": 108392,
+    "retrieved_at": "2026-10-27T02:19:27.805051+00:00"
+  },
+  {
+    "name": "ap_contracts_20261022",
+    "url": "https://raymondjames.websol.barchart.com/?module=topNews&region=US&selected=news&storyID=8322284&symbol=",
+    "status": 200,
+    "bytes": 69572,
+    "sha256": "5c3d6cfec5e872d91a123c5774443a31cad9d49a17c31461d736a5b6d579a725",
+    "retrieved_at": "2026-10-27T02:20:20.062857+00:00"
+  },
+  {
+    "name": "reuters_future_overhaul",
+    "url": "https://mining.com.au/nornickel-says-furnace-overhaul-may-cut-2027-28-metals-output/",
+    "status": 200,
+    "bytes": 210355,
+    "sha256": "e6e1f1f67343ad6dd61ecb057a0c26b3c4d6007e1ffbfc52246c6d2a826b2f13",
+    "retrieved_at": "2026-10-27T02:20:22.171257+00:00"
+  }
+]

@@ -1,0 +1,15 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  SELF mode: 321 files under AGENTS/MIDAS/ (processed/ + archive/ still excluded — historical by design). Nothing outside your own dir is scanned.
+
+  ── October22 gold contract identity; historical records retained · superseded 4042.80 → current 4060.40
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (1)
+        AGENTS/MIDAS/shared/sources/2026-10-26_L701-settlement/ap_contracts_20261022.txt:103  [4042.8]  (no unit/series context on line)
+           4042.80
+     🟢 cleared: marker-adjacent / next to new value / frozen file (17)  [--show-handled to audit]
+
+  🟠 1 CANDIDATE(s), zero certified-stale. A 🟠 is a prompt to LOOK, never a packet: confirm same series AND unit at the hit, then re-run with --unit/--series for the 🔴 verdict.
+==================================================================
+

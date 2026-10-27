@@ -1,0 +1,80 @@
+{
+  "nornickel": {
+    "palladium": {
+      "unit": "thousand troy ounces (koz)",
+      "q3_reported": 736,
+      "q2_reported": 590,
+      "nine_month_reported": 1934,
+      "h1_original_issuer": 1199,
+      "q3_from_rounded_totals": 735,
+      "reported_minus_residual": 1,
+      "qoq_percent": 24.74576271186441,
+      "guidance_2026": [
+        2415,
+        2465
+      ],
+      "q4_required": [
+        481,
+        531
+      ],
+      "registered_upper_pace_boundary": 634,
+      "both_methods_above_registered_pace": true,
+      "guidance_change": "UNCHANGED"
+    },
+    "platinum": {
+      "unit": "thousand troy ounces (koz)",
+      "q3_reported": 192,
+      "q2_reported": 145,
+      "nine_month_reported": 472,
+      "h1_original_issuer": 281,
+      "q3_from_rounded_totals": 191,
+      "reported_minus_residual": 1,
+      "qoq_percent": 32.41379310344828,
+      "guidance_2026": [
+        616,
+        636
+      ],
+      "q4_required": [
+        144,
+        164
+      ],
+      "registered_upper_pace_boundary": 178,
+      "both_methods_above_registered_pace": true,
+      "guidance_change": "UNCHANGED"
+    }
+  },
+  "gold": [
+    {
+      "date": "10/22/2026",
+      "contract": "COMEX gold December 2026 (GCZ26)",
+      "reported_settlement_usd_per_oz": 4060.4,
+      "source_status": "MIRROR, Hammerstone commentary hosted by eOption; not certified",
+      "primary_treasury_real_10y_percent": 2.64,
+      "price_minus_4050_usd_per_oz": 10.4,
+      "numerical_conjunction_if_certified": false,
+      "certified_grade": "UNRESOLVED"
+    },
+    {
+      "date": "10/23/2026",
+      "contract": "COMEX gold December 2026 (GCZ26)",
+      "reported_settlement_usd_per_oz": 4007.9,
+      "source_status": "MIRROR, Hammerstone commentary hosted by eOption; not certified",
+      "primary_treasury_real_10y_percent": 2.66,
+      "price_minus_4050_usd_per_oz": -42.1,
+      "numerical_conjunction_if_certified": true,
+      "certified_grade": "UNRESOLVED"
+    }
+  ],
+  "gold_contract_identity": {
+    "date": "2026-10-22",
+    "october_contract_last_usd_per_oz": 4042.8,
+    "december_contract_last_usd_per_oz": 4060.4,
+    "source": "AP table hosted by Raymond James/Barchart; column Last, not settlement certification"
+  },
+  "preserved_sha256": {
+    "workbook/PREDICTIONS.tsv": "67775106a453b5e1503c2c8b3fb3f1948355954e529583858db68b2e21c463aa",
+    "CLAUDE.md": "612756081ee84f0750908c6daed066b6cb2f8c39c07999827ab3fb2a2cceb198",
+    "palladium/research/2026-10-23_nornickel-9M-read-setup.md": "af8232d1df1da7bbaac7e2d3f9f40a8efa68ae293e0e8d639d94fcdecb24b2b6",
+    "gold/research/2026-10-23_WQ451-decomposition-letter.md": "c41c635417f40e66b963ce33a903ab6b5225a93e59977e3a84c8f7df62e316ea"
+  }
+}

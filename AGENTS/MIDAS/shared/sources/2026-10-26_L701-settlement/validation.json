@@ -1,0 +1,16 @@
+{
+  "workbook/PREDICTIONS.tsv": "BYTE_IDENTICAL",
+  "CLAUDE.md": "BYTE_IDENTICAL",
+  "palladium/research/2026-10-23_nornickel-9M-read-setup.md": "BYTE_IDENTICAL",
+  "gold/research/2026-10-23_WQ451-decomposition-letter.md": "BYTE_IDENTICAL",
+  "independent_arithmetic": "PASS",
+  "scores": "4/1/1/2 = 8/20, unchanged",
+  "pdf_tables": "Page3 of 9M and H1 visually inspected",
+  "production_tests": "No production-code edits; no test suite needed",
+  "consumer_check": "Cross-agent: zero certified stale; self: raw AP October-row candidate is correctly preserved source, not an adopted December quote.",
+  "source_access": "No CME URL in retrieval manifest; no new paid feed or periodic task.",
+  "raw_hashes": "All successful response files match access.json SHA-256.",
+  "report_local_links": "PASS",
+  "weekday_and_read_cap": "PASS (read-cap heuristic perimeter only)",
+  "scope": "PROME DOCKET not edited; frozen forecast/rules/setup unchanged."
+}

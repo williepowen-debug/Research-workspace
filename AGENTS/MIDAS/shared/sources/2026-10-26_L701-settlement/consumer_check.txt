@@ -1,0 +1,12 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/MIDAS/   (processed/ + archive/ excluded everywhere — historical by design)
+
+  ── October22 gold wrongly compared across delivery months; December test only · superseded 4042.80 → current 4060.40
+     🟢 cleared: marker-adjacent / next to new value / frozen file (8)  [--show-handled to audit]
+
+  ✓ clean — every consumer is current or has it flagged superseded.
+==================================================================
+

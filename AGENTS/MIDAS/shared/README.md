@@ -55,3 +55,5 @@ Operations, implementation and preserved historical archives are classified sepa
 - [Sunday October 25 catch-up and assignment reconciliation](research/2026-10-25_sunday-catch-up.md) — dated prices, source limits, completed PRD3 correction and next owner work.
 
 - [Gold versus equities, Treasuries and oil](research/2026-10-25_gold-versus-equities-bonds-oil.md) — October 25 cross-asset extension; matched dates, return bases, historical cases and changing relationships.
+
+- [October 26 Nornickel nine-month issuer read](research/2026-10-26_nornickel-9M-L701.md) — production/guidance and fixed pace tests. [Shared evidence bundle](sources/2026-10-26_L701-settlement/); gold certification review linked from its gold index.

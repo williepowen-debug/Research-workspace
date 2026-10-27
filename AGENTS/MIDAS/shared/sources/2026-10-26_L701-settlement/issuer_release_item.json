@@ -1,0 +1,107 @@
+{
+  "name": "Nornickel announces production results for 9М2026",
+  "code": "nornickel-announces-production-results-for-9m2026",
+  "detailPageUrl": null,
+  "newsShortTitle": {
+    "value": "Nornickel announces production results for 9М2026",
+    "description": ""
+  },
+  "newsPriority": {
+    "value": "Да",
+    "xmlId": "yes"
+  },
+  "newsSource": {
+    "value": "Пресс-релизы / Press releases",
+    "xmlId": "releases"
+  },
+  "newsSocialServices": null,
+  "newsSubject": [
+    {
+      "value": "Корпоративные новости / Corporate news",
+      "xmlId": "corporate-news"
+    }
+  ],
+  "environment": {
+    "value": "",
+    "xmlId": ""
+  },
+  "newsInside": {
+    "value": "",
+    "xmlId": ""
+  },
+  "newsInsideText": {
+    "value": "",
+    "description": ""
+  },
+  "newsAuthor": {
+    "value": "",
+    "description": ""
+  },
+  "newsAuthorText": {
+    "value": "",
+    "description": ""
+  },
+  "newsAboutCompany": {
+    "value": "Да",
+    "xmlId": "yes"
+  },
+  "newsAboutCompanyText": {
+    "value": "",
+    "description": ""
+  },
+  "newsFile": [
+    {
+      "link": "https://nornik-upload.storage.yandexcloud.net/iblock/906/9061490e18f866495b02a564aaaabf82/nornickel_production_results_3q_2026_eng_fin_full.pdf",
+      "origName": "nornickel-production-results-3q-2026-eng-fin-full.pdf",
+      "name": "nornickel-production-results-3q-2026-eng-fin-full",
+      "size": "108.08 Kb",
+      "type": "pdf"
+    }
+  ],
+  "newsShowSmiContacts": {
+    "value": "Да",
+    "xmlId": "yes"
+  },
+  "newsShowPressServiceContacts": {
+    "value": "",
+    "xmlId": ""
+  },
+  "newsShowInvestorsContacts": {
+    "value": "Да",
+    "xmlId": "yes"
+  },
+  "newsExternalLink": {
+    "value": "",
+    "description": ""
+  },
+  "newsExternalID": {
+    "value": "",
+    "description": ""
+  },
+  "redirectEnRu": {
+    "name": "«Норникель» объявляет итоги производственной деятельности за 9М 2026 г.",
+    "code": "nornikel-obyavlyaet-itogi-proizvodstvennoy-deyatelnosti-za-9m-2026-g",
+    "detailPageUrl": "/news-and-media/press-releases-and-news/nornikel-obyavlyaet-itogi-proizvodstvennoy-deyatelnosti-za-9m-2026-g/",
+    "pageName": ""
+  },
+  "sended": {
+    "value": "Y",
+    "xmlId": "SENDED_Y"
+  },
+  "sendEmail": {
+    "value": "",
+    "xmlId": ""
+  },
+  "showInInnovation": {
+    "value": "",
+    "xmlId": ""
+  },
+  "detailText": "<p><strong>Moscow, 26&nbsp;October 2026</strong>&nbsp;— Nornickel, the world’s largest producer of&nbsp;palladium and a&nbsp;major producer of&nbsp;nickel, platinum and copper, announces preliminary consolidated production results for the third quarter and nine months of&nbsp;2026.</p>\r\n\r\n<p><strong>First Vice-President&nbsp;— Chief Operating Officer, Evgeniy Fedorov commented on&nbsp;the operating results,</strong></p>\r\n<p>«In&nbsp;9M&nbsp;2026&nbsp;we achieved higher nickel output compared to&nbsp;the same period of&nbsp;last year by&nbsp;increasing raw material processing volumes. Meanwhile, production of&nbsp;platinum-group metals saw a&nbsp;slight year-on-year decline, primarily due to&nbsp;a&nbsp;high base effect from the corresponding period of&nbsp;last year.</p>\r\n\r\n<p>Copper output remained almost unchanged, even though the Zabaykalsky Division increased its metal production as&nbsp;a&nbsp;result of&nbsp;higher ore extraction volumes and a&nbsp;higher metal content in&nbsp;the ore.</p>\r\n\r\n<p>To&nbsp;ensure production continuity, we&nbsp;are upgrading our fleet of&nbsp;mining equipment by&nbsp;acquiring machinery from new suppliers. We&nbsp;are collaborating with BELAZ to&nbsp;develop and mass-produce underground mining equipment. Factory tests are currently underway for the newest underground complex of&nbsp;machines for rock loading and transporting.</p>\r\n\r\n<p>A&nbsp;mechanized tunnelling complex Norda has begun excavation at&nbsp;the Taimyrsky Mine in&nbsp;Norilsk. The technology eliminates the need for drill-and-blast excavation. This reduces vibration impacts on&nbsp;the rock mass and prevents blast-related damage to&nbsp;the surrounding rock.</p>\r\n\r\n<p>In&nbsp;addition, the large-scale environmental Sulphur Program continues its ramp-up to&nbsp;design capacity. Since its launch in&nbsp;late 2023, more than 1.5 million tones of&nbsp;sulpfur dioxide emissions have been captured at&nbsp;Nadezhda Plant, including 640 thousand tones in&nbsp;the first nine months of&nbsp;this year. Under the federal Clean Air project, total captured emissions are expected to&nbsp;reach at&nbsp;least 735 thousand tones in&nbsp;2026.</p>\r\n\r\n<p>As&nbsp;part of&nbsp;our <a href=\"/news-and-media/press-releases-and-news/nornikel-konsolidiruet-proizvodstvo-dragotsennykh-metallov-v-monchegorske/\">production chain reconfiguration aimed</a> at&nbsp;consolidating precious metals output within the chemical-metallurgical facility at&nbsp;Kola site, commissioning has been successfully completed.</p>\r\n\r\n<p><strong>The company reiterates its <a href=\"/news-and-media/press-releases-and-news/nornickel-announces-production-results-for-1h2026/\">previously announced production</a> guidance for FY2026».</strong></p>",
+  "activeFrom": 1793008800,
+  "previewText": "",
+  "previewPicture": null,
+  "pageName": {
+    "value": "",
+    "description": ""
+  }
+}

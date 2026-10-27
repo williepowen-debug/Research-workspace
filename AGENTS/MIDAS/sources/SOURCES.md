@@ -67,3 +67,9 @@ PRIMARY SPDRhistoricalarchive accessed at api.spdrgoldshares.com/api/v1/historic
 | Westmetall LME copper stock table | MIRROR, works | `westmetall.com/en/markdaten.php?action=table&field=LME_Cu_stock`; business-daily; same source as `metals_watch.py`. |
 | Yahoo `history(period=…)` | intermittent | Returned `NoneType` chart once on 10/23; `yf.download(start=…, end=…)` worked. Retry with the explicit-range call. |
 | guardian-gold.com.au market summaries | timed out | 300 s fetch timeout on 10/23; its "settled" figure stays unverified. |
+
+## October 26 L701 and gold-source review
+
+Nornickel PRIMARY English release content is in the HTML's embedded `App.components.news-detail.item`, including the issuer's cloud-hosted full PDF. Ordinary index GETs returned 403; the installed curl_cffi public GET obtained the canonical release and linked October26/July27 PDFs. Page3 tables rendered with installed pypdfium2 and visually checked; `pdftoppm` unavailable, no install needed. Full retrieval hashes, raw responses and rounding reconciliation: `../shared/sources/2026-10-26_L701-settlement/`. The H1 issuer Pd1199koz differs from summing rounded608+590; no invented restatement.
+
+Gold contract identity is now reconciled: MIRROR AP/RaymondJames/Barchart October22 named rows show October delivery4042.80USD/oz and December4060.40USD/oz, field Last. Hammerstone/eOption editorial reports label December4060.40/4007.90 settled on October22/23, but the broker disclaims authorship/endorsement: not a certified broker statement. PRIMARY Treasury raw CSV verifies real10Y2.64/2.66% on those dates. Certified settlement remains missing; no CME endpoint re-probed and no standing feed/spend introduced. Exact missing-record fields and conditional arithmetic: `../gold/research/2026-10-26_certified-settlement-review.md`. These are dated access facts, not a blanket certification of future availability.

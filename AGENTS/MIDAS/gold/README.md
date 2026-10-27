@@ -70,3 +70,5 @@ Put inseparable multi-metal work in [shared](../shared/README.md), once, and lin
 - [Current check for evidence of a gold bottom](research/2026-10-25_bottom-evidence-check.md) — refreshed prices, issuer holdings, positioning, rates/dollar response and equity protection; source lags and small samples retained.
 
 - [October 25 joined session findings and early signals](research/2026-10-25_session-synthesis.md) — entry point to history, cross-assets, official buying, conflict and the current bottom check; preserves the distinction between hints and confirmation.
+
+- [October 26 certified gold settlement review](research/2026-10-26_certified-settlement-review.md) — wrong-month comparison explained; certification still missing, scoring rules preserved.

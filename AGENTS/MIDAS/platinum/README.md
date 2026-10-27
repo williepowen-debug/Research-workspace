@@ -48,3 +48,5 @@ Put new platinum-specific writeups in `platinum/research/` and supporting captur
 Put inseparable multi-metal work in [shared](../shared/README.md), once, and link it from every relevant metal. Existing `analysis/`, `reports/` and `sources/` paths remain valid for scripts, frozen references and peer citations. Add new artifacts to [METALS_CATALOG.tsv](../METALS_CATALOG.tsv) and this index. Do not create separate copies of STATUS, forecast ledgers, source registers or shared datasets.
 
 - [Sunday October 25 catch-up and assignment reconciliation](../shared/research/2026-10-25_sunday-catch-up.md) — dated prices, source limits, completed PRD3 correction and next owner work.
+
+- [October 26 Nornickel nine-month issuer read](../shared/research/2026-10-26_nornickel-9M-L701.md) — Q3 Pt/Pd above fixed pace tests, unchanged guidance and rounding/source limits.
