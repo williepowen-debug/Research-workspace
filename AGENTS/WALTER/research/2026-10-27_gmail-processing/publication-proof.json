@@ -1,357 +1,357 @@
 {
-  "as_of": "2026-10-27T04:17:48Z",
-  "origin": "c153585eb1c4be668dbc6dbbe0124627e4723115",
+  "as_of": "2026-10-27T04:21:26Z",
+  "origin": "e9a2fd411dc4c2267f862a7423f9007f0fdf8df2",
   "commits": [
     {
       "commit": "20401877a8480ddd3db8f357362969c4d00c65aa",
-      "state": "pending"
+      "state": "published"
     },
     {
       "commit": "3fc439a0b66f6e4f7f98c906fe5ff6afec0c0592",
-      "state": "pending"
+      "state": "published"
     },
     {
       "commit": "726ae27de66ac76b64b152d1048b4b6f744d91b2",
-      "state": "pending"
+      "state": "published"
     },
     {
       "commit": "22591a862e749b13709689e379287fc6d359c9d6",
-      "state": "pending"
+      "state": "published"
     },
     {
       "commit": "7451a92d6af380808ea6d5dbfe62f1ac718452db",
-      "state": "pending"
+      "state": "published"
     }
   ],
   "paths": [
     {
       "path": "BOARD/SIG-W-20261027-029-broadcom-anthropic-63b-committed-structure.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "6306ea094c0c92a9222808dc288392dee8544e77c9ccf246dba76d740c6a4af7"
     },
     {
       "path": "AGENTS/BROCK/inbox/WALTER/SIG-W-20261027-029.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "01390f15bdaed2d37e507757c4ca09651703dd48915d6421b5abc3440e4de173"
     },
     {
       "path": "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261027-029.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "85b9f6ca79c4c41e4fcadeb87c775bd68f845d7cb5b790967638e75870831d76"
     },
     {
       "path": "AGENTS/GIBBS/inbox/WALTER/SIG-W-20261027-029.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "6dbb4864482054bebf5b53256db548c4359a519c128b0132cfab7534d912f58e"
     },
     {
       "path": "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261027-029.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "6dbb4864482054bebf5b53256db548c4359a519c128b0132cfab7534d912f58e"
     },
     {
       "path": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261027-029.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "6dbb4864482054bebf5b53256db548c4359a519c128b0132cfab7534d912f58e"
     },
     {
       "path": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20261027-029.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "6dbb4864482054bebf5b53256db548c4359a519c128b0132cfab7534d912f58e"
     },
     {
       "path": "BOARD/SIG-W-20261027-030-mainstreet-q3-credit-and-funding.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "7a4d6c4b78bc64761e2bd4160f699a7031ffc31dcd535a6cda74c9265ec89bb5"
     },
     {
       "path": "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-030.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "bebbc94f84fd9289d9390f11684c961d894237d58772731dcd374c3ab6822b2c"
     },
     {
       "path": "AGENTS/BROCK/inbox/WALTER/SIG-W-20261027-030.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "9e79c9a6ca411a3f08e5d27dd0b9ce78d51de69fad08306c54f41467793f891e"
     },
     {
       "path": "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261027-030.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "9e79c9a6ca411a3f08e5d27dd0b9ce78d51de69fad08306c54f41467793f891e"
     },
     {
       "path": "BOARD/SIG-W-20261027-031-blackjack-remaining-multifamily-maturity.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "9f84a71b4cf23c02cbba24380548d30c4bbc8d1e8a760c4f7835c7739f112e92"
     },
     {
       "path": "AGENTS/HOMER/inbox/WALTER/SIG-W-20261027-031.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "0f0d2a02a6c8557304be6ec334b4cd887541cc374270f6b903e4347ff7eaa2c8"
     },
     {
       "path": "AGENTS/CORAL/inbox/WALTER/SIG-W-20261027-031.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "a12059ecf1fbc14bb57f34dfcb5c16081338624aacdf62fff754bf00edaec70d"
     },
     {
       "path": "AGENTS/CREED/inbox/WALTER/SIG-W-20261027-031.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "4add8cb03492bae81f5b37ff1d3b8aa49aebce9adfea0f28c9b7e910d6e240cf"
     },
     {
       "path": "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-031.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "4add8cb03492bae81f5b37ff1d3b8aa49aebce9adfea0f28c9b7e910d6e240cf"
     },
     {
       "path": "AGENTS/BROCK/inbox/WALTER/SIG-W-20261027-031.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "4add8cb03492bae81f5b37ff1d3b8aa49aebce9adfea0f28c9b7e910d6e240cf"
     },
     {
       "path": "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261027-031.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "4add8cb03492bae81f5b37ff1d3b8aa49aebce9adfea0f28c9b7e910d6e240cf"
     },
     {
       "path": "BOARD/SIG-W-20261027-032-forge-atlanta-primary-restatement-grace.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "0c201caae81280864eaead1ad5a29e75a6860fd55e308b3ada2e453f26a88393"
     },
     {
       "path": "AGENTS/CREED/inbox/WALTER/SIG-W-20261027-032.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "da6780b9ba397f496f319b2c8644ec845175fae07f277e9295bd81f514f70561"
     },
     {
       "path": "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-032.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "bbf9a8cc60246f06bdbba425d8bd8773686e3b7b7a17880e5ff7d32e8f75e5b5"
     },
     {
       "path": "AGENTS/BROCK/inbox/WALTER/SIG-W-20261027-032.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "bbf9a8cc60246f06bdbba425d8bd8773686e3b7b7a17880e5ff7d32e8f75e5b5"
     },
     {
       "path": "BOARD/SIG-W-20261027-033-american-equity-iowa-loan-source-upgrade.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "41bdef938c18b9e80d4a1f2fb48c4dd4d9fc646c871eeeba8980c35969e53f5e"
     },
     {
       "path": "AGENTS/SHADE/inbox/WALTER/SIG-W-20261027-033.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "5697bd071de00213d2cfc9719aa26bee68302502b33ba7c9c1277c13cf41f716"
     },
     {
       "path": "AGENTS/BROCK/inbox/WALTER/SIG-W-20261027-033.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "769062c30f7dbaf3516aa418b1bff345df21fd7d1dee7dfd2d9d17662a2f8495"
     },
     {
       "path": "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261027-033.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "769062c30f7dbaf3516aa418b1bff345df21fd7d1dee7dfd2d9d17662a2f8495"
     },
     {
       "path": "BOARD/SIG-W-20261027-034-trepp-newmark-refinance-basis.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "0a4de50b2fcf34c75795408983dd04e81c3623b8e3e199d80cd89190a54762aa"
     },
     {
       "path": "AGENTS/CREED/inbox/WALTER/SIG-W-20261027-034.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "6b933d1702d515b7b99eefca339aafdb19c03cc957016493f0ab6bdbd6b8c0b8"
     },
     {
       "path": "AGENTS/HOMER/inbox/WALTER/SIG-W-20261027-034.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "cd3456d8ddf9ce830e9a5625f17b19d22c82e9d061891e6fb50d7f2d247a5f13"
     },
     {
       "path": "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-034.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "cd3456d8ddf9ce830e9a5625f17b19d22c82e9d061891e6fb50d7f2d247a5f13"
     },
     {
       "path": "AGENTS/BROCK/inbox/WALTER/SIG-W-20261027-034.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "cd3456d8ddf9ce830e9a5625f17b19d22c82e9d061891e6fb50d7f2d247a5f13"
     },
     {
       "path": "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261027-034.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "cd3456d8ddf9ce830e9a5625f17b19d22c82e9d061891e6fb50d7f2d247a5f13"
     },
     {
       "path": "BOARD/SIG-W-20261027-035-cre-values-distress-sale-denominators.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "22237b1fbd946d076cdd227a815a5450b578aa2886bd6f714a5a84a7ed5128f3"
     },
     {
       "path": "AGENTS/CREED/inbox/WALTER/SIG-W-20261027-035.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "7177fd24494ba8623ed6e39e1718fcc0d188e309baa18330a7102947cc2ddee2"
     },
     {
       "path": "AGENTS/HOMER/inbox/WALTER/SIG-W-20261027-035.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "8a05ffd5ff1e4e33d17e197cd8b94d1c88d78e789927c4f696c4a690bad1de21"
     },
     {
       "path": "AGENTS/BROCK/inbox/WALTER/SIG-W-20261027-035.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "7d4710be945cbadfbfac3e3153a050afe0ebe3c637f4ff0dcd390ba23e92fce6"
     },
     {
       "path": "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-035.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "7d4710be945cbadfbfac3e3153a050afe0ebe3c637f4ff0dcd390ba23e92fce6"
     },
     {
       "path": "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261027-035.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "7d4710be945cbadfbfac3e3153a050afe0ebe3c637f4ff0dcd390ba23e92fce6"
     },
     {
       "path": "BOARD/SIG-W-20261027-036-townlane-fund-two-commitments.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "54ad1e888e8466a6abedfa640316e94aa9ec728fc10ca9771e0cdd394e7adcd6"
     },
     {
       "path": "AGENTS/CREED/inbox/WALTER/SIG-W-20261027-036.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "310aa30bb7edb8c75e61c812276539e2fd3262b04a77e63577e605ce0401f9a7"
     },
     {
       "path": "AGENTS/BROCK/inbox/WALTER/SIG-W-20261027-036.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "6b2fe5e97004dcd8e1c6c5eb26082e322c04a6f9f6bf0d9f97291cc828b9b7d8"
     },
     {
       "path": "AGENTS/HOMER/inbox/WALTER/SIG-W-20261027-036.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "6b2fe5e97004dcd8e1c6c5eb26082e322c04a6f9f6bf0d9f97291cc828b9b7d8"
     },
     {
       "path": "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261027-036.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "6b2fe5e97004dcd8e1c6c5eb26082e322c04a6f9f6bf0d9f97291cc828b9b7d8"
     },
     {
       "path": "BOARD/SIG-W-20261027-037-sunbeam-florida-self-funding-plans.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "4a8dab1dd70d3b1b908607bc8e74b939b4b34739aba0807974046c9a895fa708"
     },
     {
       "path": "AGENTS/CORAL/inbox/WALTER/SIG-W-20261027-037.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "cece659ac5858f178753630288cf13a066ca7a1cc07d1af41e4cee1d34373881"
     },
     {
       "path": "AGENTS/HOMER/inbox/WALTER/SIG-W-20261027-037.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "d267e54fa23afdb1d854487b59f311885fcdacd4c5b5a1ea468dc99e1f376391"
     },
     {
       "path": "AGENTS/CREED/inbox/WALTER/SIG-W-20261027-037.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "d267e54fa23afdb1d854487b59f311885fcdacd4c5b5a1ea468dc99e1f376391"
     },
     {
       "path": "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-037.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "d267e54fa23afdb1d854487b59f311885fcdacd4c5b5a1ea468dc99e1f376391"
     },
     {
       "path": "BOARD/SIG-W-20261027-038-openai-google-distribution-primary.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "59df7c558937ed2695146fe3cc83b57e266f7b4cff8dd13c7625ed3db00970d8"
     },
     {
       "path": "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261027-038.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "dc3827a122c77040f339fb4592ef49f97bbb7f0c5bc65ae9474a5de757c8b6d6"
     },
     {
       "path": "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261027-038.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "74ebcbe6ff6638f3ad5f132ff1060030f4e04b0d7de937d2dfb1f4cd7d75f22f"
     },
     {
       "path": "AGENTS/BROCK/inbox/WALTER/SIG-W-20261027-038.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "74ebcbe6ff6638f3ad5f132ff1060030f4e04b0d7de937d2dfb1f4cd7d75f22f"
     },
     {
       "path": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261027-038.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "74ebcbe6ff6638f3ad5f132ff1060030f4e04b0d7de937d2dfb1f4cd7d75f22f"
     },
     {
       "path": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20261027-038.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "74ebcbe6ff6638f3ad5f132ff1060030f4e04b0d7de937d2dfb1f4cd7d75f22f"
     },
     {
       "path": "AGENTS/WATT/inbox/WALTER/SIG-W-20261027-038.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "74ebcbe6ff6638f3ad5f132ff1060030f4e04b0d7de937d2dfb1f4cd7d75f22f"
     },
     {
       "path": "BOARD/SIG-W-20261027-039-dutch-staffing-plan-not-realized-ai-losses.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "38ae234dae1bd17c1eca7a70ce82680cb5e801c0ef89c0595759c3abb21692cb"
     },
     {
       "path": "AGENTS/HANS/inbox/WALTER/SIG-W-20261027-039.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "c29d6f9ccc8db194dfb1d420f52d4f25531615fea77f67abf2cb952baadeae4e"
     },
     {
       "path": "AGENTS/LABOR/inbox/WALTER/SIG-W-20261027-039.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "74355eccdffa0568881f34ef63b911ea242fb3a2cd362864d0ecffc175a730c4"
     },
     {
       "path": "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261027-039.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "d6fda5f478ff6279fe9a5afe52307f59c796f506b9a379d557175792b109d198"
     },
     {
       "path": "BOARD/SIG-W-20261027-040-jetblue-q3-primary-liquidity-counterevidence.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "e6e7f7543b1ae758387d633696ccb6be1c2fcf9816fd4427e4e38acf1045737c"
     },
     {
       "path": "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261027-040.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "7d32a949b4415a6bae4629fcf8b6b79daac13de22275c22736b3990cb35485d7"
     },
     {
       "path": "AGENTS/CARL/inbox/WALTER/SIG-W-20261027-040.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "0d3055d270802e56e0af0d88b98570f812627fa5abd5ef4a9b1418a71fdcf300"
     },
     {
       "path": "AGENTS/CORAL/inbox/WALTER/SIG-W-20261027-040.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "5603b32a7d000473862d3834460b3c4151470ec0f437989980c406cd160afcf5"
     },
     {
       "path": "AGENTS/BROCK/inbox/WALTER/SIG-W-20261027-040.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "cccc1a0d5b82be8f9c857db1db0fe3b06cee9479acc892f54743cb29d3be781e"
     },
     {
       "path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261027-040.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "cccc1a0d5b82be8f9c857db1db0fe3b06cee9479acc892f54743cb29d3be781e"
     },
     {
       "path": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261027-040.md",
-      "on_origin": false,
+      "on_origin": true,
       "sha256": "cccc1a0d5b82be8f9c857db1db0fe3b06cee9479acc892f54743cb29d3be781e"
     }
   ],

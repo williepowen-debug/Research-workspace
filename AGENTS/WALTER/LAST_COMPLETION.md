@@ -17,7 +17,7 @@ Primary verification supports the $63 billion Broadcom/Anthropic SPV structure w
 ## GAPS
 
 - Current Gmail scope is a targeted sender/date pass, not the full mailbox. The second pass adds 12 source-qualified cards, but 34 items remain explicit NOTE leads; full magazine/models/charts, selected paid bodies, original servicing/MSCI records and other named source gaps remain unverified. Iowa exam historical loans and the OpenAI distribution post are now source-read at the stated scope, not blanket clearance of other insurance/OpenAI items. All 21 ordinary inbox packets were read for triage but not integrated/moved/declared consumed. No fresh complete four-family scan, broad filter context, Intake sync/marks, X scan, DEWEY QA, registry refresh or general lifecycle/retirement adjudication in this processing pass.
-- Main pull/push remains deferred for foreign dirty work. Prior nine Gmail cards/34 handoffs remain publication-proven. New 12 cards/54 handoffs are committed; fresh origin proof currently shows all five new publication commits pending, zero of 66 dispatch paths on origin. Reconcile left 54 never-on-origin paths unchanged: these are committed pending-publication packets, not lost local files. No delivery/incorporation is claimed. No WALTER push or live tool notification; developer instruction prohibits messaging others without explicit instruction. Native discovery is partial/truncated, no DARK inference. Recheck publication at coordinated sync, then reconcile counts separately.
+- Main pull/push remains deferred for foreign dirty work. Prior nine Gmail cards/34 handoffs remain publication-proven. Coordinated sync completed during final verification. Fresh fetch at 2026-10-27T04:21:26Z proves all five new publication commits and all 66 dispatch paths. Reconciliation advances all 54 new rows; UTC-day cohort 149/149 delivered, zero orphans. Recipient incorporation remains UNKNOWN. No WALTER push or live tool notification; developer instruction prohibits messaging others without explicit instruction. Native discovery is partial/truncated, no DARK inference. Delivery is proven separately from semantic incorporation.
 
 - Original 14 regular packets / 3 DEWEY returns remain pending; new ordinary packets added while this session ran. Exact current top-level pending snapshot: research/2026-10-26_bookmarks/pending-inbox.json (21 regular at its recorded clock; not a fixed future count). Two CYPHER e95ea6efd packets are separately consumed with declarations; later four CYPHER sweep packets remain source/routing duties. New MIDAS close-band packet and ISHM/BRENT/CARL returns retain their owner qualifications. Bookmarks are no longer pending: all34 exact IDs marked, no staged IDs left at final check. Material source gaps remain in FOLLOW-UP.md. Research-Intake10 diagnostic keys remain unmarked pending source/correction packet dispositions. No whole-inbox/full-boot clearance.
 
@@ -36,7 +36,7 @@ No new decision. Existing WQ-503 remove/leave choice remains open; do not manufa
 
 ## FOLLOW-UP
 
-0. Gmail: first-pass nine cards/34 handoffs publication-proven; second-pass 12 cards/54 handoffs committed pending coordinated publication at the recorded fresh fetch. Recheck the exact new paths/commits and run delivery reconciliation after sync. Recipient incorporation remains separate. Maintain 34 explicit source leads and card-specific current-balance/method/access gaps; no repeat routing solely for absent acknowledgment. The bounded processing authorization does not commission a standing monitor or new domain study.
+0. Gmail: first-pass nine cards/34 handoffs publication-proven; second-pass 12 cards/54 handoffs now publication-proven by fresh path/ancestry evidence and reconciled. Recipient incorporation remains separate. Maintain 34 explicit source leads and card-specific current-balance/method/access gaps; no repeat routing solely for absent acknowledgment. The bounded processing authorization does not commission a standing monitor or new domain study.
 1. At next WALTER boot, disposition the pending correction/source packets before external intake marks; complete DEWEY return QA/Route-as backstops. Priority source cases explicitly named in pending-inbox/owner-review. New ordinary incoming packets remain pending unless specifically logged consumed.
 2. WQ-515/L828 SELECTION CLOSED 10/10 in dispatch order, no skipping/substitution/grading. Tenth SIG-W-20261027-001 at 00:38:30Z; its recipient-read delay ends October 28 00:38:30Z (October 27 20:38EDT). Single list saved to PROME/inbox/2026-10-26_from-WALTER_WQ515-ten-transfers-selection-closed.md. Canonical 10 rows/source / BOARD/handoff hashes retained in research/2026-10-26_WQ515/transfers.tsv. All 10 selections and the single list are now published; fresh origin/path proof retained. Recipient records UNKNOWN until evidenced; approved PROME reader owns grading. No extra sample.
 3. October 27: existing LIQUID event-day credit/funding publications and Brazil settlement/retained-LFT outcomes; no automatic polling promised. REGINALD >350×3 remains owner-defined; last known338[October 23], own witness0/3, earliest possible October 26–28 if actual prints qualify. No prior earliest-run claim overrides new owner data.
@@ -67,40 +67,40 @@ CYBER BOARD cluster remainsMISC (WQ501) pending any approved proposal; VX-CYP ta
 
 ## CLOSEOUT RECEIPT
 
-LIGHT routing checkpoint — full deferred. Source processing is complete at the stated disposition scope; 34 leads remain source-limited. Publication pending and boot PARTIAL are explicit. No new Will decision.
+LIGHT routing checkpoint — full deferred. Source processing is complete at the stated disposition scope; 34 leads remain source-limited. All new dispatch paths are publication-proven; boot remains PARTIAL. No new Will decision.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-27T04:18:56Z",
+  "as_of": "2026-10-27T04:21:26Z",
   "next_review": "2026-10-27",
   "publication": [
     {
       "commit": "20401877a8480ddd3db8f357362969c4d00c65aa",
-      "state": "pending"
+      "state": "published"
     },
     {
       "commit": "3fc439a0b66f6e4f7f98c906fe5ff6afec0c0592",
-      "state": "pending"
+      "state": "published"
     },
     {
       "commit": "726ae27de66ac76b64b152d1048b4b6f744d91b2",
-      "state": "pending"
+      "state": "published"
     },
     {
       "commit": "22591a862e749b13709689e379287fc6d359c9d6",
-      "state": "pending"
+      "state": "published"
     },
     {
       "commit": "7451a92d6af380808ea6d5dbfe62f1ac718452db",
-      "state": "pending"
+      "state": "published"
     }
   ],
   "delivery": {
     "signal_date": "20261027",
     "total": 149,
-    "delivered": 95,
-    "note": "Prior 95 proven; 54 new committed packets pending publication. No consumption claim."
+    "delivered": 149,
+    "note": "Previous 95 plus new 54 publication-proven. No recipient incorporation claim."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
@@ -115,7 +115,7 @@ LIGHT routing checkpoint — full deferred. Source processing is complete at the
       },
       {
         "path": "AGENTS/WALTER/research/2026-10-27_gmail-processing/publication-proof.json",
-        "sha256": "5a07a38b4b5963d555f1e1b86370a2d851746774409c1fbbe5f6ddf4e72edfb2"
+        "sha256": "ebcd52d3d79f3c4686b47ba8172bc2766c0446b1e29c9e667d7bdcbb29d2e67e"
       },
       {
         "path": "AGENTS/WALTER/research/2026-10-27_gmail-processing/LAST_COMPLETION-before.md",
@@ -127,7 +127,7 @@ LIGHT routing checkpoint — full deferred. Source processing is complete at the
       },
       {
         "path": "AGENTS/WALTER/research/2026-10-27_gmail-processing/CLOSEOUT-REVIEW.md",
-        "sha256": "97dc13280729d268a1f19a0b53788b3d9bc8a86edc84a96193c924579839949b"
+        "sha256": "ab0bce0ff6fff0cc57911d3bf913ecd478efe4069977d7f10322ad8d7bf0593b"
       }
     ]
   },
@@ -142,7 +142,7 @@ LIGHT routing checkpoint — full deferred. Source processing is complete at the
     "Tier1": "Affected observations and bottom line refreshed; no broad registry/network refresh or market scan.",
     "15": "Earlier duties/approvals preserved, exact predecessor saved; WQ515 closed/ungraded.",
     "retirement": "New source artifacts are current; older retirement/lifecycle review remains incomplete.",
-    "16": "Five exact-path commits; fresh origin proves pending publication. No push into foreign dirty work.",
+    "16": "Five exact-path source/routing commits proven by fresh origin/path checks; 54 rows reconciled, zero orphans. WALTER invoked no push. Continuity reconciliation committed separately.",
     "ledger": "No fire/correction/doorbell/commission; event ledgers unchanged. Broad registry and MEMORY narrative deferred under LIGHT."
   }
 }
