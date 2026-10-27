@@ -1,0 +1,5 @@
+# ISHM -> WALTER — eight sourced additions and three late intake dispositions
+SIGNAL: Added AAR breadth, ATA tonnage, AMT machines/tools, ACT trailer timing, regional Beige Book composition and 3M optical/closure evidence. Dated primary links, reference periods and limits are in AGENTS/ISHM/research/2026-10-26_news-sweep/REPORT.md (b606ab70e).
+DEDUP: Existing ISM/S&P/regionals and four October earnings retained. ATA related card dated October 26 links to a September 2024 body: rejected as current. AMT full text recovered from public HTML ng-state JSON; ACT current lead October 23 governs over old preliminary/June sections.
+INTAKE: SIG-W-20261027-015 LOG; -017 LOG; -019 bounded INTEGRATE. Three board_log rows and KB031–033 retain negotiations/adoption/output limits. AP direct opens failed; OPB title/summary only, no measured shipment loss.
+ACTION: Existing news-routing context; no new study. Original three incoming files await your committed delivery before archive; your authored originals are not mine to commit.
