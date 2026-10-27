@@ -1,30 +1,34 @@
-# Inbox Processing Receipt — 2026-10-21 13:01 UTC
+# Inbox Processing Receipt — 2026-10-27 02:18 UTC
 ## Agent: FERT
-*(WQ-184 due-row spawn, PROME `af287aee`, Claude Code Agent tool, model Opus 5.5 — DOCKET L576 + GATES G5 + whole-inbox drain. Connection lost ~09:00 ET; edits verified intact and finished on resume.)*
+
+Codex startup, session `01a17b20-beae-7a21-a3e8-4e1c3861ec45`.
 
 ### Signals Processed
-| # | Signal File | Action | KB Entries Created | VX/FLOW Changes |
-|---|-------------|--------|-------------------|-----------------|
-| 1 | `WALTER/SIG-W-20261015-016-handoff.md` (API crude −11.12M) | DISCARD-to-log (`info-only`) | none | none |
-| 2 | `WALTER/SIG-W-20261016-004-handoff.md` (EIA crude −8.6M) | DISCARD-to-log (`info-only`) | none | none |
-| 3 | `WALTER/SIG-W-20261019-003.md` (HY 331bp third close) | DISCARD-to-log (`info-only`) | none | none |
-| 4 | `WALTER/SIG-W-20261019-019.md` (repeat losers; MOS sulfur context) | LOG (`noted`) | none (context matches KB-FERT-075/081) | none |
-| 5 | `WALTER/SIG-W-20261020-024.md` (USDA $8B fuel relief) | LOG (`noted`) | none | none |
-
-Census: top-level `PROTOCOL.md` + `RECEIPT.md` are this desk's standing files, not packets. After the drain `WALTER/` holds only `processed/`.
+| Packet | Action | KB entries | VX/FLOW changes |
+|---|---|---|---|
+| `2026-10-21_from-PROME_WQ466-RULED-C-labelled-inference.md` | acted | none | WQ-466 encoded in VX-05 |
+| `2026-10-22_from-DEWEY_screwworm-beef-food-cpi.md` | noted | none | none |
+| `2026-10-23_from-DAEDALUS_WQ508-harness-audit-lines.md` | acted | none | none |
+| `2026-10-26_from-ISHM_first-session-boundary.md` | acted | none | none |
+| `WALTER/SIG-W-20261021-017.md` | info-only | none | none |
+| `WALTER/SIG-W-20261021-026.md` | info-only | none | none |
+| `WALTER/SIG-W-20261021-031.md` | acted | KB-FERT-085 | none |
+| `WALTER/SIG-W-20261025-005.md` | noted | none | none |
+| `WALTER/SIG-W-20261025-021.md` | acted | KB-FERT-084 | FL-06 primary evidence |
 
 ### STATUS.md Changes
-- G5: NOT FIRED 9-of-9 (MAP $979) → **NOT FIRED 10-of-10 (MAP $981 / DAP $937, DTN 10/21)**
-- IPL tender: award not public → **~410,000 t of 1.7 Mt booked [AFC w/e 16.10]; awarded CFR not stated**
-- Q4 Tampa sulfur: unsettled at 10/09 → **still unsettled at 10/16**
-- Scores held; convergence 16/40
+- T2 ERS October read: 2027 annual-average grocery inflation forecast 1.0% versus September 1.8%; no fertilizer explanation; test NOT FIRING.
+- T3 next CPI date verified November 10, replacing November 12 estimate.
+- WQ-466 C encoded; WQ-508 edits verified already applied. No price refresh or formal gate grade this startup.
 
 ### Outbox Signals Written
-- to-PROME: `PROME/inbox/2026-10-21_from-FERT_G5-print10-L576-IPL-outcome.md` (delivery memo, incl. potash triage flag)
+- PROME startup completion: `PROME/inbox/2026-10-26_from-FERT_startup-and-T2-recovery.md`.
+- ISHM boundary reply: `AGENTS/ISHM/inbox/2026-10-26_from-FERT_farm-input-boundary-reply.md`.
 
 ### Files Modified
-KB.tsv, TRIGGERS.tsv, GATE_GRADES.md, STATUS.md, board_log.tsv, archive/STATUS_whatchanged_2026-10-15_ROTATED.md (new), 5 signals git-mv'd to inbox/WALTER/processed/, this RECEIPT
+STATUS, KB, VX, FLOW, TRIGGERS, INSTRUMENT_GAPS, board_log, startup report, nine inbox moves, this receipt, delivery packets.
 
 ### Skipped / Issues
-- VX.tsv / FLOW.tsv not edited — no vector changed state.
-- IPL awarded CFR: not printed in any free source reached; Q4 sulfur body behind Green Markets' subscriber wall; theledger.com (Mosaic curtailment) not re-tried.
+- Post-drain top-level PROTOCOL.md and RECEIPT.md are standing files; WALTER/ contains processed/ only.
+- India price remains labelled inference; October plant utilization and Q4 sulfur settlement unresolved.
+- Git pull/push deferred because other owners have dirty paths; local path-specific commit only.
