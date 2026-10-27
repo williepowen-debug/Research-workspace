@@ -35,7 +35,7 @@ entries = [dict(name=name, path='~/' + os.path.relpath(project, Path.home()),
 config = base / 'agents.json'
 config.write_text(json.dumps(dict(version=1, agents=entries)))
 (base / 'context.json').write_text(json.dumps(dict(config=str(config), path=str(binpath) + os.pathsep + os.environ['PATH'])))
-data = dict(agents=[dict(entry, folder=str(project), error='') for entry, project in zip(entries, projects)],
+data = dict(test_mode=True, agents=[dict(entry, folder=str(project), error='') for entry, project in zip(entries, projects)],
             directory=gui.windows_path(base), linux_directory=str(base), distro=os.environ['WSL_DISTRO_NAME'],
             user=getpass.getuser(), python=sys.executable, bridge=str(Path(gui.__file__).resolve()))
 snapshot = base / 'catalogue.json'

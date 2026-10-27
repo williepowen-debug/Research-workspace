@@ -22,8 +22,8 @@ $ink=[Drawing.Color]::FromArgb(29,40,57)
 $muted=[Drawing.Color]::FromArgb(87,100,120)
 $accent=[Drawing.Color]::FromArgb(42,91,164)
 $form=New-Object Windows.Forms.Form
-$form.Text='Agent Launcher'; $form.ClientSize=New-Object Drawing.Size(1100,660)
-$form.MinimumSize=New-Object Drawing.Size(1116,699)
+$form.Text='Agent Launcher'; $form.ClientSize=New-Object Drawing.Size(1100,720)
+$form.MinimumSize=New-Object Drawing.Size(1116,759)
 $form.StartPosition='CenterScreen'; $form.BackColor=$bg; $form.ForeColor=$ink
 $form.Font=New-Object Drawing.Font('Segoe UI',10); $form.AutoScaleMode='Dpi'
 function Label($text,$x,$y,$width,$height,$size=10) {
@@ -102,6 +102,168 @@ $tooltip=New-Object Windows.Forms.ToolTip
 $tooltip.SetToolTip($list,'Click a name for details. Click its checkbox, or press Space, to include it in a batch.')
 $tooltip.SetToolTip($task,'Saved for this agent while the app is open. Applies only to new conversations.')
 
+# Saved groups toolbar and editable task presets.
+foreach ($c in @($categoryLabel,$categories,$searchLabel,$search,$list,$count,$batch,$clear,$name,$purpose,$group,$runtimeLabel,$runtime,$stop)) {$c.Top+=54}
+$taskLabel.Top=429; $task.Top=453; $task.Height=70
+$start.Top=537; $resume.Top=537; $hint.Top=585; $status.Top=623
+$results.Top=650; $results.Height=50
+$savedLabel=Label 'Saved groups' 26 110 120 28
+$savedGroups=New-Object Windows.Forms.ComboBox
+$savedGroups.SetBounds(150,105,360,32); $savedGroups.DropDownStyle='DropDown'; $form.Controls.Add($savedGroups)
+$loadGroup=Button 'Load' 526 102 100
+$saveGroup=Button 'Save selected' 640 102 170
+$deleteGroup=Button 'Delete group' 824 102 150
+$presetLabel=Label 'Task preset' 522 365 550 23
+$preset=New-Object Windows.Forms.ComboBox
+$preset.SetBounds(522,391,300,30); $preset.DropDownStyle='DropDownList'; $form.Controls.Add($preset)
+$usePreset=Button 'Use here' 832 387 110
+$batchPreset=Button 'Use for checked' 952 387 120
+$tooltip.SetToolTip($savedGroups,'Choose a saved group, or type a name and Save selected. Groups save agents and runtimes; task text stays in this window.')
+$tooltip.SetToolTip($usePreset,'Put this preset into the highlighted agent task box; you can edit it before launch.')
+$tooltip.SetToolTip($batchPreset,'Put this preset into every checked agent task box, including hidden selections.')
+
+# Groups are personal preferences; never commands, tasks, or a fleet roster.
+$script:groups=@(); $script:groupsVersion=''; $script:groupsHealthy=$true
+$preferencesFolder=Join-Path ([Environment]::GetFolderPath('LocalApplicationData')) 'ResearchAgentLauncher'
+if ($SmokeTest -or $data.test_mode) {
+    $preferencesFolder=Join-Path ([IO.Path]::GetTempPath()) ('AgentLauncherTest-'+[Guid]::NewGuid().ToString('N'))
+}
+$script:groupsPath=Join-Path $preferencesFolder 'groups.json'
+function Read-Groups {
+    $text=''
+    if ([IO.File]::Exists($script:groupsPath)) {$text=[IO.File]::ReadAllText($script:groupsPath)}
+    $found=@()
+    if ($text) {
+        $value=$text | ConvertFrom-Json
+        if ($value.version -ne 1 -or $value.groups -isnot [Array]) {throw 'Saved groups file has an unsupported format. It was not changed.'}
+        $names=@{}
+        foreach ($g in $value.groups) {
+            if ($g.name -isnot [string] -or [string]::IsNullOrWhiteSpace($g.name) -or $g.name.Length -gt 60 -or $g.name -match '[\x00-\x1f]' -or $names.ContainsKey($g.name)) {throw 'Saved groups contain an invalid or duplicate name. The file was not changed.'}
+            $names[$g.name]=$true
+            if ($g.members -isnot [Array] -or $g.members.Count -eq 0) {throw 'Saved group has no valid member list. The file was not changed.'}
+            $members=@{}
+            foreach ($m in $g.members) {
+                if ($m.name -isnot [string] -or $m.name -notmatch '^[A-Z][A-Z0-9_-]*$' -or $m.runtime -notin @('sol','claude','astra') -or $members.ContainsKey($m.name)) {throw 'Saved group has an invalid or duplicate agent. The file was not changed.'}
+                $members[$m.name]=$true
+            }
+            $found+=$g
+        }
+    } elseif ([IO.File]::Exists($script:groupsPath)) {throw 'Saved groups file is empty. It was not changed.'}
+    $script:groups=@($found); $script:groupsVersion=$text; $script:groupsHealthy=$true
+}
+function Write-Groups($groups) {
+    if (-not $script:groupsHealthy) {throw 'Fix or restore the saved groups file before saving. Your existing file has been preserved.'}
+    $hash=[Security.Cryptography.SHA256]::Create()
+    $key=[BitConverter]::ToString($hash.ComputeHash([Text.Encoding]::UTF8.GetBytes($script:groupsPath))).Replace('-','')
+    $hash.Dispose()
+    $mutex=New-Object Threading.Mutex($false,('Local\AgentLauncherGroups-'+$key))
+    $locked=$false
+    try {
+        try {$locked=$mutex.WaitOne(1500)} catch [Threading.AbandonedMutexException] {$locked=$true}
+        if (-not $locked) {throw 'Another launcher is saving groups. Try again shortly.'}
+        $current=''
+        if ([IO.File]::Exists($script:groupsPath)) {$current=[IO.File]::ReadAllText($script:groupsPath)}
+        if ($current -cne $script:groupsVersion) {throw 'Saved groups changed in another window. Load the current groups before saving again.'}
+        [void][IO.Directory]::CreateDirectory([IO.Path]::GetDirectoryName($script:groupsPath))
+        $items=@(); if ($null -ne $groups) {$items=@($groups)}
+        $text=@{version=1;groups=$items} | ConvertTo-Json -Depth 8
+        $temporary=$script:groupsPath+'.'+[Guid]::NewGuid().ToString('N')+'.tmp'
+        [IO.File]::WriteAllText($temporary,$text,(New-Object Text.UTF8Encoding($false)))
+        if ([IO.File]::Exists($script:groupsPath)) {[IO.File]::Replace($temporary,$script:groupsPath,($script:groupsPath+'.previous'))} else {[IO.File]::Move($temporary,$script:groupsPath)}
+        Read-Groups
+    } finally {
+        if ($locked) {$mutex.ReleaseMutex()}
+        $mutex.Dispose()
+    }
+}
+function Refresh-Groups {
+    $text=$savedGroups.Text
+    $savedGroups.Items.Clear()
+    foreach ($g in $script:groups) {[void]$savedGroups.Items.Add($g.name)}
+    $savedGroups.Text=$text
+}
+function Group-From-Selection($groupName) {
+    $groupName=$groupName.Trim()
+    if (-not $groupName -or $groupName.Length -gt 60 -or $groupName -match '[\x00-\x1f]') {throw 'Enter a group name of 1 to 60 characters.'}
+    $members=@(foreach ($entry in $data.agents) {
+        if ($script:checked.ContainsKey($entry.name)) {
+            @{name=$entry.name;runtime=$script:settings[$entry.name].runtime}
+        }
+    })
+    if ($members.Count -eq 0) {throw 'Check at least one agent before saving a group.'}
+    return @{name=$groupName;members=$members}
+}
+function Apply-Group($g) {
+    # Validate everything before replacing the current selection/settings.
+    foreach ($member in $g.members) {
+        $entry=@($data.agents | Where-Object {$_.name -eq $member.name})
+        if ($entry.Count -ne 1) {throw ('This group includes '+$member.name+', which is no longer configured. Your current selection was kept.')}
+        $allowed=@('sol','claude')
+        if ($entry[0].kind -eq 'cato') {$allowed=@('astra')}
+        if ($member.runtime -notin $allowed) {throw ('Unsupported saved runtime for '+$member.name+'. Your current selection was kept.')}
+    }
+    $script:checked.Clear()
+    foreach ($member in $g.members) {
+        $script:checked[$member.name]=$true
+        $script:settings[$member.name].runtime=$member.runtime
+    }
+    $categories.SelectedIndex=0; $search.Clear(); Filter-Agents
+    $status.Text='Loaded '+$g.name+'. Review selected when ready.'
+}
+# Confirmation is injectable only by the isolated native control tests.
+$script:confirmChange={param($message,$title)
+    return [Windows.Forms.MessageBox]::Show($message,$title,'YesNo','Question','Button2') -eq 'Yes'
+}
+function Save-Group {
+    try {
+        $g=Group-From-Selection $savedGroups.Text
+        if (@($script:groups | Where-Object {$_.name -eq $g.name}).Count -gt 0) {
+            if (-not (& $script:confirmChange ('Replace the saved agents and runtimes in '+$g.name+'?') 'Save group')) {return}
+        }
+        Write-Groups @(@($script:groups | Where-Object {$_.name -ne $g.name})+$g)
+        Refresh-Groups; $savedGroups.Text=$g.name
+        $status.Text='Saved '+$g.name+'. Groups remember agents and runtimes.'
+    } catch {$status.Text=$_.Exception.Message;$tooltip.SetToolTip($status,$status.Text)}
+}
+function Load-Group {
+    try {
+        Read-Groups; Refresh-Groups
+        $matches=@($script:groups | Where-Object {$_.name -eq $savedGroups.Text.Trim()})
+        if ($matches.Count -ne 1) {throw 'Choose a saved group to load.'}
+        Apply-Group $matches[0]
+    } catch {$status.Text=$_.Exception.Message;$tooltip.SetToolTip($status,$status.Text)}
+}
+function Delete-Group {
+    try {
+        $matches=@($script:groups | Where-Object {$_.name -eq $savedGroups.Text.Trim()})
+        if ($matches.Count -ne 1) {throw 'Choose a saved group to delete.'}
+        if (-not (& $script:confirmChange ('Delete saved group '+$matches[0].name+'?') 'Delete group')) {return}
+        Write-Groups @($script:groups | Where-Object {$_.name -ne $matches[0].name})
+        $savedGroups.Text='';Refresh-Groups
+        $status.Text='Saved group deleted. No agent or conversation was removed.'
+    } catch {$status.Text=$_.Exception.Message;$tooltip.SetToolTip($status,$status.Text)}
+}
+$presets=@(
+    @{name='Orient and report status';text='Follow your startup instructions. Recover current work, approvals, and unresolved conditions. Give Will a short status and suggested next step. Do not begin unassigned work.'},
+    @{name='Continue approved work';text='Follow your startup instructions and recover the current assignment, existing approvals, and unresolved conditions. Continue only work already authorized and currently in scope. Preserve all approval conditions; ask Will if the applicable assignment or authority is unclear. Report the result and next stopping point.'},
+    @{name='Prepare handoff';text='Follow your startup instructions and recover current work and approvals. Prepare your normal handoff and closeout for the existing assignment. Preserve unfinished work, blockers, approval conditions, and a clear resume point. Do not start new research or unrelated pending work.'}
+)
+function Apply-Preset($toChecked) {
+    if ($script:busy -or $preset.SelectedIndex -lt 0) {return}
+    $names=@()
+    if ($toChecked) {$names=@($script:checked.Keys)} elseif ($script:selected) {$names=@($script:selected.name)}
+    if ($names.Count -eq 0) {return}
+    $text=$presets[$preset.SelectedIndex].text
+    $replace=@($names | Where-Object {-not [string]::IsNullOrWhiteSpace($script:settings[$_].task) -and $script:settings[$_].task -cne $text})
+    if ($replace.Count -gt 0) {
+        $message='Replace existing task text for: '+($replace -join ', ')+'?'
+        if (-not (& $script:confirmChange $message 'Apply task preset')) {return}
+    }
+    foreach ($key in $names) {$script:settings[$key].task=$text}
+    Select-Agent
+    $status.Text='Preset applied to '+$names.Count+' agent(s). Edit the task text as needed.'
+}
+
 function Update-Buttons {
     $ready=($null -ne $script:selected -and -not $script:busy)
     $start.Enabled=$ready
@@ -115,6 +277,11 @@ function Update-Buttons {
     $clear.Visible=-not $script:busy; $stop.Visible=$script:busy
     $stop.Enabled=($script:queue.Count -gt 0)
     $count.Text=[string]$list.Items.Count+' shown / '+$script:checked.Count+' selected overall'
+    $savedGroups.Enabled=-not $script:busy; $loadGroup.Enabled=-not $script:busy
+    $saveGroup.Enabled=($script:checked.Count -gt 0 -and -not $script:busy -and $script:groupsHealthy)
+    $deleteGroup.Enabled=(-not $script:busy -and $script:groupsHealthy)
+    $preset.Enabled=-not $script:busy; $usePreset.Enabled=$ready
+    $batchPreset.Enabled=($script:checked.Count -gt 0 -and -not $script:busy)
 }
 function Save-Settings {
     if ($script:loading -or $null -eq $script:selected) {return}
@@ -332,7 +499,20 @@ $form.Add_FormClosing({
     }
 })
 $form.Add_FormClosed({$timer.Stop();$timer.Dispose()})
+$saveGroup.Add_Click({Save-Group})
+$loadGroup.Add_Click({Load-Group})
+$deleteGroup.Add_Click({Delete-Group})
+$usePreset.Add_Click({Apply-Preset $false})
+$batchPreset.Add_Click({Apply-Preset $true})
+foreach ($p in $presets) {[void]$preset.Items.Add($p.name)}
+$preset.SelectedIndex=0
 $categories.SelectedIndex=0
+try {Read-Groups; Refresh-Groups} catch {
+    $script:groupsHealthy=$false
+    $status.Text='Cannot read saved groups. See results below.'
+    Log-Result ($_.Exception.Message+' File: '+$script:groupsPath)
+}
+Update-Buttons
 $timer.Start()
 if ($SmokeTest) {
     $form.Add_Shown({
@@ -365,11 +545,74 @@ if ($SmokeTest) {
             $results.Clear()
             $search.Clear(); $categories.SelectedIndex=2; $search.Text='CARL'
             $list.SetItemChecked(0,$true); $list.SetItemChecked(1,$true); $list.SetItemChecked(2,$true)
+            # Save/reload real preference files in an isolated Windows temp folder.
+            $savedGroups.Text='Consumer review'; $saveGroup.PerformClick()
+            if (-not [IO.File]::Exists($script:groupsPath)) {throw ('Group save failed: '+$status.Text)}
+            $original=[IO.File]::ReadAllText($script:groupsPath)
+            if ($original -match 'Only CARL receives') {throw 'Group persisted task text'}
+            $clear.PerformClick(); $script:settings['CARL'].runtime='sol'
+            $script:groups=@(); Read-Groups; Refresh-Groups; $loadGroup.PerformClick()
+            if ($script:checked.Count -ne 3 -or $script:settings['CARL'].runtime -ne 'claude') {throw 'Saved group failed to reload'}
+            $failed=$false
+            try {Apply-Group @{name='Invalid';members=@(@{name='CARL';runtime='sol'},@{name='MISSING_TEST';runtime='sol'})}} catch {$failed=$true}
+            if (-not $failed -or $script:checked.Count -ne 3 -or $script:settings['CARL'].runtime -ne 'claude') {throw 'Stale group partially changed settings'}
+            $failed=$false
+            try {Apply-Group @{name='Invalid';members=@(@{name='CATO';runtime='sol'})}} catch {$failed=$true}
+            if (-not $failed) {throw 'Saved group changed CATO policy'}
+            # Simulate another window committing after this one read the file.
+            [IO.File]::WriteAllText($script:groupsPath,$original+"`r`n")
+            $failed=$false
+            try {Write-Groups $script:groups} catch {$failed=$true}
+            if (-not $failed -or [IO.File]::ReadAllText($script:groupsPath) -cne ($original+"`r`n")) {throw 'Concurrent group update was overwritten'}
+            Read-Groups; Write-Groups $script:groups
+            # Invalid/empty preference files must remain intact.
+            foreach ($bad in @('{broken','')) {
+                [IO.File]::WriteAllText($script:groupsPath,$bad)
+                $failed=$false
+                try {Read-Groups} catch {$failed=$true}
+                if (-not $failed -or [IO.File]::ReadAllText($script:groupsPath) -cne $bad) {throw 'Corrupt preference file was not preserved'}
+            }
+            [IO.File]::WriteAllText($script:groupsPath,$original); Read-Groups
+            $saved=@($script:groups); Write-Groups @()
+            if ($script:groups.Count -ne 0) {throw 'Deleting last group failed'}
+            Write-Groups $saved; Refresh-Groups
+            $search.Text='CARL'; $task.Clear()
+            $preset.SelectedIndex=0; $usePreset.PerformClick()
+            if ($task.Text -ne $presets[0].text -or $resume.Enabled) {throw 'Current-agent preset failed'}
+            $task.Text+=' Editable detail.'
+            if ($script:settings['CARL'].task -notmatch 'Editable detail') {throw 'Preset text was not editable'}
+            foreach ($key in @($script:checked.Keys)) {$script:settings[$key].task=''}
+            Select-Agent; $preset.SelectedIndex=1; $batchPreset.PerformClick()
+            foreach ($key in $script:checked.Keys) {
+                if ($script:settings[$key].task -ne $presets[1].text) {throw 'Checked-agent preset failed'}
+            }
+            $task.Clear(); $preset.SelectedIndex=2; $usePreset.PerformClick()
+            if ($task.Text -ne $presets[2].text) {throw 'Handoff preset failed'}
+            # Exercise both answers through the real handlers without pausing the test.
+            $normalConfirm=$script:confirmChange
+            $script:confirmChange={param($message,$title) return $false}
+            $task.Text='Keep my wording'; $preset.SelectedIndex=0; $usePreset.PerformClick()
+            if ($task.Text -ne 'Keep my wording') {throw 'Cancelled preset replaced task text'}
+            $before=[IO.File]::ReadAllText($script:groupsPath)
+            $saveGroup.PerformClick(); $deleteGroup.PerformClick()
+            if ([IO.File]::ReadAllText($script:groupsPath) -cne $before) {throw 'Cancelled group edit changed disk'}
+            $script:confirmChange={param($message,$title) return $true}
+            $usePreset.PerformClick()
+            if ($task.Text -ne $presets[0].text) {throw 'Confirmed preset replacement failed'}
+            $runtime.SelectedIndex=0; $saveGroup.PerformClick()
+            if ($script:groups[0].members[0].runtime -ne 'sol') {throw 'Confirmed saved-group update failed'}
+            $deleteGroup.PerformClick()
+            if ($script:groups.Count -ne 0) {throw 'Confirmed group deletion failed'}
+            $savedGroups.Text='Consumer review'; $saveGroup.PerformClick()
+            $script:confirmChange=$normalConfirm
+
+            if (@(Get-ChildItem -LiteralPath $data.directory -Filter '*.claimed').Count -ne 0) {throw 'Saving/loading/presets started an agent'}
+            $status.Text='Saved groups and editable task presets are ready.'
             $form.Refresh()
             $bitmap=New-Object Drawing.Bitmap($form.Width,$form.Height)
             $form.DrawToBitmap($bitmap,(New-Object Drawing.Rectangle(0,0,$form.Width,$form.Height)))
             $bitmap.Save((Join-Path $data.directory 'preview.png')); $bitmap.Dispose()
-            @{ok=$true;checks='Categories, retained selection, per-agent runtime/task, hidden preview, CATO, resume, empty search, clear, stop remaining'} | ConvertTo-Json | Set-Content -Encoding UTF8 (Join-Path $data.directory 'smoke.json')
+            @{ok=$true;checks='Categories, retained selection, per-agent runtime/task, hidden preview, CATO, resume, empty search, clear, stop remaining, saved groups, atomic persistence, concurrent/corrupt-file refusal, task presets'} | ConvertTo-Json | Set-Content -Encoding UTF8 (Join-Path $data.directory 'smoke.json')
         } catch {
             @{ok=$false;error=$_.Exception.Message} | ConvertTo-Json | Set-Content -Encoding UTF8 (Join-Path $data.directory 'smoke.json')
         } finally {$form.Close()}

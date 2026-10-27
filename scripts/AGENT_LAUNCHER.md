@@ -13,6 +13,27 @@ category. Click an agent's name for details and use its checkbox to include it
 in a batch. Checked agents stay selected across categories and searches; the
 selection count includes hidden agents. **Clear selection** removes all checks.
 
+To save a group, check its agents, choose their runtimes, type a name in
+**Saved groups**, and click **Save selected**. Choose that name and click
+**Load** next time. Loading restores the checked agents and their runtimes;
+it starts nothing. Saving an existing name or deleting a group asks first.
+Groups store agent names and runtimes. Task text remains in the current app
+window, and loading a group preserves those current task edits.
+
+The **Task preset** dropdown offers **Orient and report status**, **Continue
+approved work**, and **Prepare handoff**. Choose **Use here** for the highlighted
+agent or **Use for checked** for every checked agent, including hidden ones.
+The preset fills the task box so you can edit it before launch. Replacing
+existing task text asks first. These prompts retain existing assignment and
+approval conditions; choosing a preset starts nothing.
+
+Saved groups persist for this Windows account at
+`%LOCALAPPDATA%\ResearchAgentLauncher\groups.json`; they are local preferences
+and do not sync through Git. The previous valid version is retained as
+`groups.json.previous` when saving over an existing file. If another app window
+saved changes first, use **Load** to refresh before saving again. An unreadable
+preferences file is preserved and reported; the normal launcher still works.
+
 For multiple agents, choose each agent's runtime and optional task in its
 details, then click **Review selected**. The preview lists every checked agent,
 runtime, and task; **Cancel** starts nothing. **Launch selected** starts new
