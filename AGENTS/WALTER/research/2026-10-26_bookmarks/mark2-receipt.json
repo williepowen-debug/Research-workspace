@@ -1,0 +1,21 @@
+{
+  "kind": "marked",
+  "checked_at": "2026-10-27T03:18:39Z",
+  "items": 2,
+  "scan": {
+    "checked_at": "2026-10-27T03:14:43Z",
+    "head_checked_at": "2026-10-27T03:14:43Z",
+    "head_checked_this_run": true,
+    "incomplete": false,
+    "attempts": 3
+  },
+  "review_recorded": true,
+  "read_counts": {
+    "fully_read": 2
+  },
+  "dispositions": {
+    "NO-ACTION": 2
+  },
+  "follow_ups": [],
+  "requests": []
+}

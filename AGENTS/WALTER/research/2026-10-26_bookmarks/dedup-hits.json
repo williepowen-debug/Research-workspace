@@ -1,0 +1,275 @@
+{
+  "Anthropic": [
+    {
+      "path": "BOARD/SIG-W-20261023-037-openai-cuts-round-target-to-1point25tn-pre-money-from-1point4tn-pitched-up-to-30b-uae-coatue-deadline-oct30-ft-plus-bbb-minus-below-90-chart-unsourced-VULCAN.md",
+      "matches": [
+        "entities: [\"OpenAI\", \"FT\", \"BlackRock\", \"MGX\", \"Morgan-Stanley\", \"Dragoneer\", \"Coatue\", \"Anthropic\", \"Gunjan-Banerji\"]",
+        "| **OpenAI valuation** | Target **$1.4T \u2192 $1.25T pre-money** (\u2248 $1.28T post-money if the full $30B raises). $1.4T was pitched to backers including BlackRock and MGX; Morgan Stanley and Dragoneer showed it to private-wealth clients (FT-reviewed documents). Round **up to $30B**, UAE investors and Coatue leading or in talks, **commit deadline 10/30**, could close below $30B. FT reason: some backers prefer to wait for Anthropic's IPO; \"indigestion\" after earlier cheques | FT 10/22 via TFN, 24/7 Wall St, CNBC/TechCrunch; FT not fetched. Vehicle (primary, secondary or pre-IPO bridge) not specified |"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261015-024-us-close-10-15-regional-banks-led-recovery-on-asia-circuit-breaker-day-SP500-plus0point31-KRE-plus1point77-WAL-plus3point02-VIX-16point46-transmission-did-not-propagate.md",
+      "matches": [
+        "The US session CLOSED higher on the day **Asia had its first dual-circuit-breaker since 2026-07-29** (KOSPI \u22128%, Nikkei \u22124%, TAIEX \u22123.4% per SIG-W-20261015-002; EOD foreign-flow quantification in SIG-W-20261015-021). **The Asian-tape stress did not propagate to US regional-bank credit, US broad equity or US VIX by the US close.** QQQ's slight red tells the whole decline landed on AI-cohort names (consistent with Anthropic growth decel per SIG-W-20261015-018 and CRWV credit scare per -005/-017/-023), not a cross-sector repricing.",
+        "- SIG-W-20261015-018 \u2014 Anthropic growth decel 45% QoQ (AI-cohort channel)."
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261008-044-broadcom-early-talks-30-50B-debt-for-openai-chips-separate-from-anthropic-60B-trendforce-dc-power-plus31pct-open-42B-basis-question-on-006-BROCK-VULCAN.md",
+      "matches": [
+        "entities: [\"Broadcom\", \"OpenAI\", \"Anthropic\", \"Blackstone\", \"Apollo\", \"TrendForce\", \"data-center power demand\"]",
+        "# Broadcom is in early talks to arrange $30B\u201350B+ of debt for OpenAI's custom chips, a separate deal from the ~$60B Anthropic package. TrendForce has data-centre power demand up 31% in 2026. One basis question on `-006`'s $42B is open."
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261023-028-cyber-wave-oct23-php-cve-2026-115560-unlikely-rce-no-emergency-fix-ruby-regex-bugs-behind-four-gitlab-rces-cloudflare-ceo-more-severe-flaws-mythos-5-aisi-incident-verified-by-cypher-CYPHER.md",
+      "matches": [
+        "origin: \"Will's X bookmarks batch BM-20261023-05 items 46, 53 (PHP), 22 (Ruby/GitLab), 31, 49 (Cloudflare), 27 (Bloomberg Anthropic exec), 48 (Axios banks), 43 (MTSlive bank AI agents), 44 (Achiam commentary), 37, 50, 54 (Mythos 5); plus CYPHER packet inbox/2026-10-23_from-CYPHER_anthropic-aisi-mythos5-incident-pointer.md (12:4x ET). php.net/archive/2026.php read at source by WALTER 10/23; Cloudflare Reuters piece not found by search; THN, Bloomberg, Axios not read.\"",
+        "entities: [\"PHP\", \"CVE-2026-115560\", \"CVE-2026-109619\", \"Ruby\", \"GitLab\", \"Cloudflare\", \"Matthew-Prince\", \"Anthropic\", \"UK-AISI\", \"Mythos-5\", \"Axios\", \"Schwab\"]"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261022-046-officials-on-ai-cyber-risk-to-banks-fdic-hill-wont-rule-out-agent-driven-deposit-run-occ-gould-dodges-who-pays-twice-bowman-ai-accelerates-flaws-bessent-you-should-sacks-pushes-back-CYPHER-REGINALD.md",
+      "matches": [
+        "| 4/7 | **Bessent and Fed Chair Powell** | Unannounced Treasury meeting with Citi, Morgan Stanley, BofA, Wells, Goldman CEOs on Anthropic's Mythos | several outlets |"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261021-023-ai-infra-tape-oct20-21-anthropic-wsj-draft-ipo-figures-conflict-reuters-smci-preannounce-beat-nextdc-power-delay-crwv-bonds-VULCAN.md",
+      "matches": [
+        "entities: [\"Anthropic\", \"SMCI\", \"NextDC\", \"CoreWeave\"]",
+        "# AI-infra tape October20-21: WSJ-reported Anthropic draft-IPO figures (conflict with earlier Reuters read); Super Micro pre-announces $18.5-19.5B vs $14.5-15.5B guide; NextDC guidance cut on project/power delay; CoreWeave 2031s ~79.5c"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261022-037-railway-cloud-platform-breach-customer-secrets-decrypted-deploys-paused-says-series-targets-ai-inference-keys-barchart-hardens-axios-agents-claim-CYPHER.md",
+      "matches": [
+        "entities: [\"Railway\", \"OpenCode\", \"OpenAI\", \"Anthropic\", \"OpenRouter\", \"Axios\", \"Barchart\", \"Jason-Clinton\"]",
+        "- Railway \"believe[s] this is part of a series of attacks recently targeting platform companies with the aim of compromising AI inference providers\" (OpenAI, Anthropic, OpenRouter class: usage is billed by API key). **No other company is named; the series is Railway's belief.**"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261016-008-anthropic-june-bbplus-disclosure-and-ipo-expectations.md",
+      "matches": [
+        "entities: [Anthropic, Broadcom, KBRA]",
+        "# SIG-W-20261016-008 \u2014 Anthropic: June BB+ rating newly reported; junior exposure and disclosure limits matter more than recycled financing totals"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261008-045-RESOLVED-006-holds-broadcom-up-to-42B-convertible-notes-for-anthropic-tpu-lease-separate-from-60B-bank-package-42B-senior-tranche-no-source-links-them.md",
+      "matches": [
+        "origin: [\"CNBC 2026-10-01 (Reuters review of Anthropic IPO prospectus), read\", \"Implicator (citing the prospectus, Broadcom 10-Q and Bloomberg), read\", \"Bloomberg $60B package (reported via Implicator/TrendForce; not read)\"]",
+        "entities: [\"Broadcom\", \"Anthropic\", \"convertible notes\", \"TPU lease\", \"Blackstone\", \"Broadcom 10-Q\"]"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261015-021-korea-eod-foreign-flows-kospi-foreigners-neg3point6B-sk-hynix-neg830M-15-cons-sess-samsung-neg1point1B-5-cons-sess-taiwan-neg9point3B-largest-ever.md",
+      "matches": [
+        "2. **The multi-session streaks** (SK Hynix 15, Samsung 5) argue for a structural reposition out of memory-exposed names, which couples to the US AMD/MU/SNDK/STX/WDC premarket -3%-to-4% in SIG-W-20261015-018 (Anthropic growth decel).",
+        "- **HENRY (info):** US market structure / vol \u2014 pair this with the AMD/MU/SNDK/STX/WDC premarket -3%-to-4% from the Anthropic signal (-018); the Asian memory-flow tape is the upstream signature."
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261015-018-anthropic-revenue-45pct-qoq-16point8B-slowing-from-triple-digits-85pct-gaap-gm-11pct-adj-opex-margin.md",
+      "matches": [
+        "entities: [Anthropic]",
+        "# SIG-W-20261015-018 \u2014 Anthropic quarterly revenue reportedly +45% QoQ to $16.8B (slowing from triple-digit QoQ prior quarter); 85% gross margin is GAAP (not adjusted), 11% positive operating margin at 3Q is ADJUSTED (per EdLudlow source), raising concerns about reported $2T valuation target and broader AI valuations"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261018-001-microsoft-drops-anchor-tenancy-at-nscale-loughton-uk-pre-ipo-grid-power-2030s-not-a-neocloud-walkaway-MS-cuts-AMD-GPU-units-character-ai-chapter-11-VULCAN.md",
+      "matches": [
+        "| 1 | MSFT exits Nscale Loughton anchor tenancy | CONFIRMED as a Telegraph report | Reuters/Bloomberg relays 10/18. No $ value; ~23,000 Nvidia chips single-sourced. No grid power at the site until the 2030s (relays). Nscale: relationship \"strong and long-term\", a \"London-wide grid issue\", no impact on other contracts. MSFT: no comment. Nscale IPO up to ~$3B; MSFT + Anthropic ~85% of contracts. |"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261014-021-anthropic-below-2t-is-a-thin-synthetic-perp-price-not-a-valuation-last-round-965b.md",
+      "matches": [
+        "origin: [\"Hyperliquid public info API, pulled 00:24Z October 15\", \"liquid.trade product description\", \"Orrick (Anthropic counsel) Series H announcement, May 29 2026\"]",
+        "entities: [\"Anthropic\", \"Hyperliquid\", \"EntropyIO\", \"io:ANTH\", \"Liquid\"]"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261008-024-AI-infra-financing-WSJ-broadcom-50B-is-OPENAI-chip-separate-from-60B-anthropic-oracle-off-balance-sheet-chip-lease-SPV-spacex-40B-not-30yr-ABS-firmus-IPO-struggles-APLD-VULCAN-BROCK.md",
+      "matches": [
+        "entities: [\"Broadcom\", \"OpenAI\", \"Apollo\", \"Blackstone\", \"Oracle\", \"Goldman-Sachs\", \"SpaceX\", \"Nvidia\", \"Pimco\", \"Meta-Hyperion-Beignet\", \"Paramount\", \"Firmus\", \"Applied-Digital\", \"Wolfspeed\", \"Anthropic\"]",
+        "dispatch_note: Financing leg -> BROCK (PRIVATE_CREDIT) per the AI-capex substance-vs-financing carve-out; VULCAN on substance, same lines as -006. Updates -006: its open question (is the ~$60B syndicate the Anthropic facility?) now has a reported answer, and the WSJ $50B is a different deal. Not a correction: -006 flagged the link as inferred."
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261008-038-openai-told-investors-annualized-revenue-about-50B-end-sept-vs-70B-circulating-counting-basis-gap-traded-as-weakness-AI-infra-names-fall-3-to-8pct-VULCAN.md",
+      "matches": [
+        "entities: [\"OpenAI\", \"Anthropic\", \"CoreWeave\", \"Oracle\", \"Micron\", \"Broadcom\", \"Nvidia\", \"Vistra\", \"Nasdaq Composite\"]",
+        "- **FT (paywalled; via secondary relays \u2014 not read at the FT):** OpenAI ~$50B annualized at end-Sept vs ~$70B circulating last month. Per the relays the gap is **revenue recognition** (Anthropic counts cloud-partner resale; OpenAI does not), **not lost sales**."
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261010-009-ai-infra-gpu-collateral-lenders-want-bigger-nvidia-guarantees-banks-underwrite-3-4yr-vs-nvidia-10yr-asia-banks-3point8B-gpu-loans-ft-nvidia-insurer-talks-RELAY-burry-vs-nvidia-useful-life-VULCAN-BROCK.md",
+      "matches": [
+        "entities: [\"Nvidia\", \"GPU-collateral\", \"residual-value-guarantee\", \"Impax\", \"TCW\", \"CoreWeave\", \"Broadcom\", \"Anthropic\", \"GMI-Cloud\", \"Zankore\", \"PaleBlueDot\", \"UOB\", \"Citi\", \"Howden-Re\", \"Michael-Burry\", \"Silicon-Data\", \"useful-life\"]",
+        "- Precedents in the piece: CoreWeave's **$8.5B** facility (first investment-grade GPU-backed loan, rated **A3** on Meta's contract); Broadcom backstopping **>80% of a $35B** Anthropic structure."
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261013-013-volta-underwriting-order-not-cleared-financing.md",
+      "matches": [
+        "entities: [\"Volta-Infrastructure\", \"JPMorgan\", \"Goldman-Sachs\", \"Apollo\", \"Anthropic\"]",
+        "Bloomberg\u2019s October13 original-reporting excerpt attributes$1.3bn bank underwriting versus$3.7bn GPU financing excluded from that underwriting to people familiar. Semafor\u2019s complete October13 article reports expected pricing later this week at least11%, an Apollo$1.5bn order and allocations still being discussed. Rate relief is reportedly conditional on Anthropic attaining investment-grade status. Company/loan-document confirmation is absent."
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261023-035-cyber-oct23-php2shell-palo-alto-fixes-from-oct26-citrix-no-fix-date-27-oct-unconfirmed-aslr-beaumont-railway-100k-is-a-ceiling-anthropic-openssh-pwc-vendor-ransomware-ai-CYPHER.md",
+      "matches": [
+        "origin: \"Will's X bookmarks batch BM-20261023-07 items 1 (@IntCyberDigest PHP2Shell/ASLR), 3 (@IntCyberDigest Anthropic/OpenSSH), 4 (@TheHackersNews ransomware-AI), 7 (@TheHackersNews Railway), 12 (@Reuters PwC). Rule 9 helper verify-B (read-only, Sonnet) 10/23 ~19:55-20:00Z: Palo Alto advisory, Citrix CTX697263, Beaumont Mastodon (raw API), anthropic.com/research/attack-surface-reduction, blog.railway.com preliminary report, THN, Reuters syndications; most pages via WebFetch summaries (quotes as summarized); doublepulsar.com 403. Evidence AGENTS/WALTER/research/2026-10-23_late-boot/verify-B.md\"",
+        "entities: [\"PHP2Shell\", \"CVE-2026-109618\", \"CVE-2026-109619\", \"Palo-Alto-Networks\", \"PAN-OS\", \"Panorama\", \"Citrix\", \"NetScaler\", \"CTX697263\", \"Kevin-Beaumont\", \"Anthropic\", \"OpenSSH\", \"ML-DSA-44\", \"SOCRadar\", \"INC-ransomware\", \"The-Gentlemen\", \"SimpleHelp\", \"FortiClient-EMS\", \"cPanel\", \"Railway\", \"PwC\", \"Everest\"]"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261008-006-ai-infra-week-anthropic-ipo-filing-125B-TPU-lease-42B-broadcom-convertible-60B-blackstone-syndicate-ares-573B-loop-finland-google-halt-stargate-wi-grid-2029-samsung-prelim-today-VULCAN-BROCK.md",
+      "matches": [
+        "origin: [\"Anthropic IPO filing as reported 2026-10-01 (Tradingpedia/Forbes Brasil/AI Weekly relays of Reuters/Bloomberg)\", \"@rdd147 2026-10-06 (bookmark)\", \"@burrytracker 2026-10-06 (Ares report via Burry)\", \"CNBC 2026-10-07 (Google Finland)\", \"TechRadar (Oracle/OpenAI Wisconsin)\", \"The Information via @rohanpaul_ai 2026-10-06\", \"@rdd147 2026-10-06 quoting a Fitch data-center CMBS presale\", \"TrendForce/RESEARCH-INTAKE 2026-10-07 (Samsung preview, Nanya)\"]",
+        "entities: [\"Anthropic\", \"Broadcom\", \"Blackstone\", \"Ares\", \"Google\", \"Oracle\", \"OpenAI Stargate\", \"Microsoft\", \"Samsung Electronics\", \"Nanya Technology\", \"Data-center CMBS\"]"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261020-023-datacenter-listing-statuses-and-new-financing-leads.md",
+      "matches": [
+        "Vitro issuer text dated October5, posted October6, defers its REIT IPO to2027 for market conditions/higher rates while preserving intent; the PSE disclosure was read through a third-party mirror. Elice completed its IPO; Bloomberg indexed reporting says shares fell as much as32% in early October20 Korean trading from90,500won. This is a secondary-price outcome, not refused financing or a verified close. Nscale investors reportedly favor$16\u201319B versus a roughly$30B target: indexed Bloomberg relays, not accepted pricing. Separately, updated Reuters October19 reporting cites its own source on talks for a second roughly$45B Anthropic facility agr",
+        "Sources: offered post2112354422336483485 and entire attached chart read. [Vitro issuer-text mirror](https://www.pesobility.com/action/pse-disc?fId=1974229); [Reuters updated syndication](https://www.aol.com/articles/nscale-anthropic-talks-45-billion-193754000.html); [Elice Bloomberg indexed report](https://uk.finance.yahoo.com/news/data-center-firm-elice-plunges-001344051.html). Exact source/read limits and prior BOARD IDs: AGENTS/WALTER/research/2026-10-20_bookmark-batches/batch8/verify-datacenters.md. CORRECTED-FRAMING. PARTLY_READ underlying source set; missing native filings/wire bodies are explicit in SOURCE-READS.md#datacenters. No quot"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261015-023-GATE-LIQ-069-L4-FIRED-10-14-crwv-raw-close-neg15point46pct-plus-fred-hy-316-to-325-plus9bp-gate-stays-2-of-2-count-unchanged.md",
+      "matches": [
+        "- **NEXUS (info):** AI-credit convergence flag \u2014 gate-registered fire sits beside Anthropic growth decel (-018) and Korea EOD foreign flows (-021); letters that read AI-INFRA_CAPEX convergence may key on it."
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261014-010-CORRECTION-ornn-anthropic-blended-price-method.md",
+      "matches": [
+        "entities: [\"Ornn\", \"Anthropic\"]",
+        "corrects: \"EXTERNAL: @zerohedge October14 Anthropic all-time-low price framing; constant-basket/nominal implication unverified\""
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261013-027-anthropic-internal-coding-output-not-paid-inference-roi.md",
+      "matches": [
+        "entities: [\"Anthropic\", \"Scion\", \"Antique\"]",
+        "# Anthropic reports rapid internal code growth and source-control efficiency; paid inference economics remain unmeasured"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261026-003-anthropic-public-ipo-filing-reported-terms-and-primary-access-gap.md",
+      "matches": [
+        "entities: [\"Anthropic\", \"ANT\", \"Nasdaq\"]",
+        "# Anthropic publicly files for its IPO; proceeds and valuation remain unset, full prospectus still unread by WALTER"
+      ]
+    }
+  ],
+  "Skydance": [
+    {
+      "path": "BOARD/SIG-W-20261025-009-oracle-partner-commitment-four-years.md",
+      "matches": [
+        "The bookmarked zerohedge joke about partner-funded consumption/Skydance is not evidence of a specific circular transaction. This announcement is a sales-enablement commitment, not a new hyperscaler datacenter capex guide, funded balance or incremental quarterly cash spend."
+      ]
+    }
+  ],
+  "Gentlemen": [
+    {
+      "path": "BOARD/SIG-W-20261023-035-cyber-oct23-php2shell-palo-alto-fixes-from-oct26-citrix-no-fix-date-27-oct-unconfirmed-aslr-beaumont-railway-100k-is-a-ceiling-anthropic-openssh-pwc-vendor-ransomware-ai-CYPHER.md",
+      "matches": [
+        "entities: [\"PHP2Shell\", \"CVE-2026-109618\", \"CVE-2026-109619\", \"Palo-Alto-Networks\", \"PAN-OS\", \"Panorama\", \"Citrix\", \"NetScaler\", \"CTX697263\", \"Kevin-Beaumont\", \"Anthropic\", \"OpenSSH\", \"ML-DSA-44\", \"SOCRadar\", \"INC-ransomware\", \"The-Gentlemen\", \"SimpleHelp\", \"FortiClient-EMS\", \"cPanel\", \"Railway\", \"PwC\", \"Everest\"]",
+        "| **Ransomware affiliates used AI agents** | The Hacker News 10/23 (Ravie Lakshmanan) on SOCRadar research | Two groups, **INC and The Gentlemen**. 8,257 messages across 133 sessions (the article does not call them \"AI sessions\"); about 62 organizations targeted, 4 on leak sites. Exploited SimpleHelp CVE-2024-57727, FortiClient EMS CVE-2026-35616, cPanel/WHM CVE-2026-41940. **No victim named; finance not a listed sector** |"
+      ]
+    }
+  ],
+  "ETH": [],
+  "Nashville": [
+    {
+      "path": "BOARD/SIG-W-20261014-006-redfin-september-seller-buyer-gap-miami.md",
+      "matches": [
+        "entities: [\"Redfin\", \"Miami\", \"Nashville\", \"Houston\"]",
+        "Redfin October14 report estimates928,892 buyers and1,510,784 sellers in September, a62.6% seller surplus, record within its2013-onward history.41 of50 large metros are buyer markets; Miami158.9%, Nashville152.3%, Houston134.6%. Buyer numbers are modelled from search/matching, sellers active listings; both seasonally adjusted and revisable. Buyer-market definition requires >10% seller surplus. Current report\u2019s August comparator56.9% differs from the earlier published58% that owners hold; preserve source vintage, do not silently restack it. This is a new September monthly delta, distinct from pending/closed sales and August LasVegas signals. It"
+      ]
+    }
+  ],
+  "Classiq": [],
+  "Norway": [],
+  "Keystone": [],
+  "underwater": [
+    {
+      "path": "BOARD/SIG-W-20261009-002-trepp-september-primary-office-dq-12point16-overall-8point02-highest-since-nov-2020-multifamily-8point04-CREED-T-01a-leg1-CREED-HOMER.md",
+      "matches": [
+        "corrects_direction: \"HOLDS: the relay's 12.2% is Trepp's 12.16% rounded; leg-1-only reading, not-a-record and REG-T-07 distance all stand\"",
+        "dispatch_note: \"Primary upgrade of -1008-002 (relay 12.2%, 1dp). Not a correction of sign or direction: the relay rounded 12.16 to 12.2. CREED owns T-01a and pre-registered this print (registry/PREREG_2026-10_TREPP_PRINT.md); WALTER does not grade it. HOMER owns multifamily (CREED-T-05 is HOMER-owned). No band, gate or trade changed.\""
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261002-021-blue-owl-Q3-OCIC-16-8pct-OTIC-39pct-requests-vs-5pct-cap-OCIC-3rd-consecutive-sub-100pct-on-issuer-letter-GATE-BRK-R2-a-CANDIDATE-requests-easing.md",
+      "matches": [
+        "verdict: \"Blue Owl Q3 tenders (shareholder letters filed with SEC 10/02): OCIC ($35.1B) $3.1B requests = 16.8% of shares vs a 5% cap, ~30% satisfied, its THIRD consecutive capped quarter (Q1 21.9%, Q2 18.8%); OTIC ($5B) $1.1B = 39%, ~13% satisfied (Q1 40.4%, Q2 38.1%). OCIC sits at 2 in BROCK's GATE-BRK-R2 (a) count, so this issuer-stated 3rd sub-100% quarter is a FIRE CANDIDATE for BROCK to adjudicate. Direction: requests are EASING at OCIC (21.9 -> 18.8 -> 16.8%) and mostly RESUBMISSIONS per Blue Owl; OWL +2.2%.\"",
+        "**So what:** Blue Owl is still turning away most of the investors who want out, for a **third straight quarter**, across ~$4.2B of requests. That is exactly what BROCK's gate was built to catch. **But the direction is easing, not worsening:** OCIC requests fell from 21.9% to 18.8% to 16.8%, Blue Owl says **most requests are investors resubmitting tenders that weren't filled**, and the market read it as relief (**OWL $9.15, +2.2%**, at 14:33 ET; Reuters headline: \"withdrawal requests slow as private credit turmoil eases\"). **Both readings are true at once:** the gate measures persistence of the queue, and the trend measures its size."
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261010-005-fed-SCF-2025-19point6pct-of-families-behind-on-a-loan-payment-vs-12point2-in-2022-highest-since-2010-survey-not-2007-atlanta-140K-filings-are-5-counties-793K-payroll-claim-UNSUPPORTED-CARL.md",
+      "matches": [
+        "# Fed's 2025 Survey of Consumer Finances: 19.6% of families fell behind on a loan payment in the past year, up from 12.2% in 2022 \u2014 the most since the 2010 survey (not \"since 2007\"). Atlanta's 140,000 eviction filings are five counties, not the city",
+        "**1. The survey (CARL action).** Federal Reserve SCF 2025 report (scf26.pdf, released Fri 10/9): families with debt are asked *\"whether they have been behind in any of their loan payments in the preceding year\"* (mortgages count). **19.6% in 2025 vs 12.2% in 2022; 8.2% were 60+ days late.** \u26a0\ufe0f **\"Highest since 2007\" (Rattner) is WRONG:** the Fed says families are more likely to be behind *\"than at any point since the 2010 survey\"* \u2014 so 2010 was higher \u2014 and the report's own body text also says *\"or since 2016\"*, an internal inconsistency. \u26a0\ufe0f Whether 19.6% is a share of ALL families or of families WITH DEBT is not settled \u2014 read the table befo"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261023-003-japan-september-core-cpi-2-1-first-above-boj-target-in-nine-months-in-line-yen-156-89-nikkei-down-on-chip-rout-not-cpi-SAM.md",
+      "matches": [
+        "dispatch_note: \"The bookmark says the Nikkei crashed 2.2% because inflation came in above target. The print was in line, and outlets tie the fall to the US chip rout (see 002). SAM owns the BOJ read.\"",
+        "**Markets (vendor, 04:39Z, intraday):** USD/JPY 156.89 vs 158.13 prior, about 0.8% yen strength. Nikkei 225 62,238.21 (-1.06%); CNBC had -1.4% earlier in the session. \u26d4 The bookmark's \"Nikkei crashes 2.2% after inflation came in above target\" and \"\u00a525.85 trillion wiped out\" are unverified, and the causal link is unsupported: the print matched forecasts, and outlets tie the fall to the US semiconductor selloff spreading into Asia (SIG-W-20261023-002)."
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261008-002-trepp-september-office-cmbs-dq-12point2-relay-second-highest-not-record-CREED-T-01a-leg1-CREED-grade-on-PREREG.md",
+      "matches": [
+        "# Trepp September office CMBS delinquency ~12.2% (relay) \u2014 second-highest ever, NOT a record; CREED-T-01a can only start leg 1",
+        "**The figure:** Wolf Street (10/5), relayed by ZeroHedge (10/6), reports Trepp's **September 2026 office CMBS delinquency rate at 12.2%**, described as \"the **second highest ever, behind only January 2026 (12.3%)**\" and ~1.5pp above the GFC peak. Prior print: **August 12.00%** (Trepp, published 9/1; CREED graded NOT FIRED because the band is strict >12)."
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261023-039-CORRECTION-to-033-coreweave-is-not-ccc-rated-ai-builders-about-17pct-is-the-hy-yield-proxy-sleeve-not-rated-ccc-rated-ccc-ai-share-near-zero-ccc-widening-cable-telecom-led-LIQUID-REGINALD-BROCK-VULCAN.md",
+      "matches": [
+        "| \"Everything else\" | JetBlue, FMC, cable/telecom | JetBlue and FMC are **not in the rated CCC basket**; cable/telecom/media is ~16.5% of it (Optimum/CSC 2.2% capped, Altice France 2.0%, Uniti 1.8%) |"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261019-009-homer-nine-read-housing-mf-cohort-and-counterevidence.md",
+      "matches": [
+        "|1 [Trepp10/16](https://www.trepp.com/trepptalk/cre-clo-multifamily-delinquency-2021-2022) |93 floating-rate MF loans/$3.95B,securitized2021\u201322,CA/TX/NY/FL/GA:12.2% balance/80.2% delinquency.93.8% of performing balance WITH latest reported NCF coverage <1x. |Selected reporting subset, NOT all apartments.48loans report paired coverage; latest-share denominator is different. Cash-flow dates unspecified; cannot isolate higher interest from changed cash flow. No imminent-default/bank-loss grade. |",
+        "|4 [Zillow10/15,September](https://www.zillow.com/research/september-2026-rent-report/) |Demand index+19.2%YoY,MF+10.1%; MFrent+2.2%YoY,flatMoM; concessions39.6%. |Counter-evidence to tenant-demand collapse. Platform demand/asking rent not leases, effective rent, NOI or debt coverage.49/50metro positive cannot grade ApartmentList100city band; no old-level splice. |"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261023-040-dewey-rated-ccc-basket-zero-ai-16point5pct-cable-telecom-optimum-going-concern-4point12b-due-apr-2027-chapter-11-prep-reported-weak-few-names-explain-widening-unknown-LIQUID-REGINALD.md",
+      "matches": [
+        "| Largest telecom names | Optimum/CSC 2.2% (capped), Altice France 2.0%, Uniti 1.8%, iHeart 1.6%, Brightspeed 1.6%, Altice International 1.5% | same |"
+      ]
+    },
+    {
+      "path": "BOARD/SIG-W-20261012-008-CORRECTION-external-scf-income-wealth-period-mean-median.md",
+      "matches": [
+        "These are cross-sectional groups, not the same families followed over time. The transcript\u2019s asset-funded spending/forced-selling explanations are not established by these tables. Existing debt19.6%/12.2% and8.2% are duplicates; their denominator remains unsettled."
+      ]
+    }
+  ],
+  "0DTE": [],
+  "Tailscale": [
+    {
+      "path": "BOARD/SIG-W-20261022-025-black-october-cyber-wave-verified-ledger-no-confirmed-php2shell-breach-japan-only-bank-shutdowns-no-insurer-statement-60m-certs-and-pip-compromised-FALSE-SHADE-REGINALD.md",
+      "matches": [
+        "entities: [\"PHP2Shell\", \"CISA-KEV\", \"eMudhra\", \"emSign\", \"Mozilla\", \"Tailscale\", \"LiteLLM\", \"OVHcloud\", \"Railway\", \"KSMBD\", \"CrowdStrike\", \"Cloudflare\", \"Black-October\"]",
+        "| eMudhra (Indian certificate authority) | **Mostly confirmed** | Eight intermediate keys had tiny private values, all below 256, one equal to 4 (Mozilla bug 2083449; found 10/17). Mozilla and Chrome blocked them 10/17; Apple 10/19 and Microsoft 10/20 per secondaries. Mozilla pulled emSign ECC Root G3 about 10/20; Chrome removes it 10/27. **\"60M certificates can't be trusted\" is FALSE:** 60M is lifetime issuance; eMudhra says the eight keys issued none and Google finds none in CT logs; about 30,000 certificates under G3 need migration. Tailscale bulletin TS-2026-013: update to 1.104.2+ |"
+      ]
+    }
+  ],
+  "military90": [],
+  "Gabon": [],
+  "Newport": [],
+  "Quaker": []
+}

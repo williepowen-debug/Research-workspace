@@ -1,0 +1,11 @@
+X-BOOKMARK scan — Will's new bookmarks
+================================================================
+
+Fetched 0 new bookmark ID(s) in this scan segment; see the review/coverage receipt below.
+
+Bookmark receipt — 2026-10-27T03:19:03Z
+No new items returned in this traversal segment.
+Returned traversal complete through its recorded head check; this is not owner consumption or a remote snapshot guarantee.
+Latest head check: 2026-10-27T03:19:03Z
+[NEW bookmarks — 0]  (no new IDs in this segment; see coverage above)
+

@@ -1,0 +1,20 @@
+X-BOOKMARK scan — Will's new bookmarks
+================================================================
+
+Fetched 2 new bookmark ID(s) in this scan segment; see the review/coverage receipt below.
+
+[NEW bookmarks to ROUTE — 2]  source: x-bookmark  (Will-originated — do not kill on Novelty without reading the body)
+
+  1. 2114865182904295899  @gregorykennedy  2026-10-26T23:42:06.000Z
+     │ BREAKING: DocuSign says it may lay off up to 162,000 employees. https://t.co/TCQUmtnHKq
+
+  2. 2114864983008018834  @InsiderWN  2026-10-26T23:41:18.000Z
+     │ #BREAKING: Japanese Minister Hosono issues emergency request urging citizens to stockpile food and water.
+
+
+Bookmark receipt — 2026-10-27T03:14:43Z
+Fetched 2 item(s); review is not yet recorded.
+Returned traversal complete through its recorded head check; this is not owner consumption or a remote snapshot guarantee.
+Latest head check: 2026-10-27T03:14:43Z
+After routing: create --review-template <new-file.json>, fill read states/dispositions, then --mark --review <file.json>.
+

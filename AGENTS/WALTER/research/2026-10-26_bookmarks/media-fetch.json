@@ -1,0 +1,48 @@
+[
+  {
+    "item": 2,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "item": 3,
+    "path": "AGENTS/WALTER/research/2026-10-26_bookmarks/item-03-photo-1.jpg",
+    "bytes": 371287
+  },
+  {
+    "item": 5,
+    "path": "AGENTS/WALTER/research/2026-10-26_bookmarks/item-05-photo-1.jpg",
+    "bytes": 199553
+  },
+  {
+    "item": 5,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "item": 7,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "item": 21,
+    "path": "AGENTS/WALTER/research/2026-10-26_bookmarks/item-21-photo-1.jpg",
+    "bytes": 169149
+  },
+  {
+    "item": 25,
+    "path": "AGENTS/WALTER/research/2026-10-26_bookmarks/item-25-photo-1.jpg",
+    "bytes": 76924
+  },
+  {
+    "item": 26,
+    "path": "AGENTS/WALTER/research/2026-10-26_bookmarks/item-26-photo-1.jpg",
+    "bytes": 213885
+  },
+  {
+    "item": 28,
+    "path": "AGENTS/WALTER/research/2026-10-26_bookmarks/item-28-photo-1.jpg",
+    "bytes": 191588
+  },
+  {
+    "item": 31,
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

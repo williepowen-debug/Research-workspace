@@ -1,0 +1,21 @@
+{
+  "schema": 2,
+  "staged_at": 1793070883.3671243,
+  "items": [
+    {
+      "id": "2114865182904295899",
+      "disposition": "NO-ACTION",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2114864983008018834",
+      "disposition": "NO-ACTION",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    }
+  ],
+  "stage_id": "2a3f8ca3ac774742900b2c1a669bcbe3"
+}

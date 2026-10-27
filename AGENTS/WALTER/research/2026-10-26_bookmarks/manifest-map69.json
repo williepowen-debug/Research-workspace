@@ -1,0 +1,523 @@
+[
+  {
+    "item": 1,
+    "post": 1,
+    "id": "2114867216105578816",
+    "disposition": "FOLD",
+    "ref": "SIG-W-20261027-003; Bloomberg introduction rescued, full article still gated. Original S-1 selected risks and financial sections read. Growth-rate warning is prospective, not observed contraction."
+  },
+  {
+    "item": 2,
+    "post": 2,
+    "id": "2114785608312967621",
+    "disposition": "FOLD",
+    "ref": "SIG-W-20261026-004; SIG-W-20261026-012; Full TVC chart inspected: close 15.871%, change +2.939 percentage points; distinct from CDS, mortgages and matched closes. Existing Brazil event is better sourced; exact security identity remains unknown."
+  },
+  {
+    "item": 3,
+    "post": 3,
+    "id": "2114811695218692436",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261027-006; Image is a designed summary, not original memo. AWN full secondary body read; no realized-exit count. Merger savings are not a payroll/job-loss count."
+  },
+  {
+    "item": 4,
+    "post": 4,
+    "id": "2114782227246498123",
+    "disposition": "FOLD",
+    "ref": "SIG-W-20261027-006; Offer already exists in 1026-005; saved incremental severance terms not verified in public official text. No 60,000 completed layoffs."
+  },
+  {
+    "item": 5,
+    "post": 6,
+    "id": "2114835063963828372",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261027-005; Official research announcement ETH section read. Proof/formalization and external academic acceptance not reviewed; practical compute/crypto effects unestablished."
+  },
+  {
+    "item": 6,
+    "post": 7,
+    "id": "2114797550733561939",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261027-007; Full resale screenshot read. Property ZIP37219 differs from post ZIP37203. Closing/mortgage record and metro inventory baseline not independently recovered."
+  },
+  {
+    "item": 7,
+    "post": 8,
+    "id": "2114813975229784464",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261027-008; Full Intel primary confirms agreement, H1 2027 conditional closing and no disclosed price. Not a completed acquisition or quantified compute-demand change."
+  },
+  {
+    "item": 8,
+    "post": 9,
+    "id": "2114828665796366414",
+    "disposition": "NO-ACTION",
+    "ref": "REVIEW.md#norway; Reuters full body via Investing.com read: rally rhetoric; no indication of adopted immigration policy. No instrument, quantified labor-supply effect or fresh geopolitical action. Retained for an actual policy change."
+  },
+  {
+    "item": 9,
+    "post": 10,
+    "id": "2114803959089303970",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261027-003; Selected original S-1 sections distinguish fair-value carrying balance from principal and disclose IPO share conversion; no evidence of a $108B cash redemption or accounting fraud. Full bridge/terms incomplete."
+  },
+  {
+    "item": 10,
+    "post": 11,
+    "id": "2114804766434115900",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261027-004; Complete original filing paragraph confirms >one-month pre-training delay for security enhancements. It does not report actual weight theft or capex cancellation."
+  },
+  {
+    "item": 11,
+    "post": 12,
+    "id": "2114811216510300317",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261027-013; Conditional shortened timeline, not agreed or implemented. Full secondary short body read; original broadcast not recovered."
+  },
+  {
+    "item": 12,
+    "post": 13,
+    "id": "2114778104077910337",
+    "disposition": "FOLD",
+    "ref": "SIG-W-20261027-013; Original Israel Hayom full reporting body read. Offer/payment attributed to anonymous sources; official did not confirm a transfer. No ceasefire/throughput change inferred."
+  },
+  {
+    "item": 13,
+    "post": 14,
+    "id": "2114804068728357299",
+    "disposition": "FOLD",
+    "ref": "SIG-W-20261027-013; Same conditional state-TV timeline family as12. Two relay accounts are not independent confirmation; source broadcast unread."
+  },
+  {
+    "item": 14,
+    "post": 15,
+    "id": "2114803328807026869",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261027-015; Full Reuters via AOL read. Negotiations possible before November3 are not agreement, statutory tariff change or effective relief."
+  },
+  {
+    "item": 15,
+    "post": 16,
+    "id": "2114800884509200642",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261027-014; Full updated Reuters via JPost body read. Airstrike story is distinct from arrests; Jordan coordination assertion and Syrian casualty report separately attributed."
+  },
+  {
+    "item": 16,
+    "post": 17,
+    "id": "2114438070632149446",
+    "disposition": "FOLD",
+    "ref": "SIG-W-20261027-013; Saved post read; full i24 original not recovered. October25 unofficial strike-timing report does not replace October22 WH policy or establish an attack. Full guard corpus checked."
+  },
+  {
+    "item": 17,
+    "post": 18,
+    "id": "2114775282460586013",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261027-016; Full October26 issuer release read:110 safe/five unaccounted. Wire/post one-dead/four-missing retained separately. Video not authenticated/transcribed; cause/output unknown. Gabon, not Hormuz."
+  },
+  {
+    "item": 18,
+    "post": 19,
+    "id": "2114773678638641475",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261027-011; Full official Keystone article recovered via FX article blocks, including records, key scope, customer timing, shipping and deletion completion conditions."
+  },
+  {
+    "item": 19,
+    "post": 20,
+    "id": "2114697804555636839",
+    "disposition": "FOLD",
+    "ref": "SIG-W-20261027-007; Post read, original Goldman table not located.2.2%/25% historical comparison lacks matching denominator/vintage; potential counterevidence retained as unverified."
+  },
+  {
+    "item": 20,
+    "post": 21,
+    "id": "2114748370954985906",
+    "disposition": "DUP",
+    "ref": "SIG-W-20261026-005; Official Coleman image inspected in full; announcement, four countries and level<=70 already routed. Count and future-layoff extrapolation are not official realized exits."
+  },
+  {
+    "item": 21,
+    "post": 22,
+    "id": "2114742518713921577",
+    "disposition": "DUP",
+    "ref": "SIG-W-20261026-005; Same reported eligible60,000/27% count already qualified in005. No additional realized-exit observation."
+  },
+  {
+    "item": 22,
+    "post": 23,
+    "id": "2114552626608009384",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261027-018; Premium ZeroHedge and Bloomberg Law introductions read; full Bloomberg/UBS note and relative effect method remain inaccessible. Qualified lead, no causal/magnitude certification."
+  },
+  {
+    "item": 23,
+    "post": 24,
+    "id": "2114548038660157690",
+    "disposition": "FOLD",
+    "ref": "SIG-W-20261027-010; Full Reuters syndication read after direct redirect401. GMO duplicates CYB-INC-032; separate Park24 \u00a53,000 event saved in supplemental batch02. Park24 issuer notice missing."
+  },
+  {
+    "item": 24,
+    "post": 25,
+    "id": "2114455149670228337",
+    "disposition": "DUP",
+    "ref": "SIG-W-20261022-016; SIG-W-20261023-019; Full chart inspected.18% CCC effective yield already verified18.01[Oct20]/17.82[Oct21];13.4% OAS matches1340[Oct22], superseded by owner1356[Oct23]. Same ICE basket, not two witnesses/new print."
+  },
+  {
+    "item": 25,
+    "post": 26,
+    "id": "2114412761254093168",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261027-012; Full THN body and vendor investigation update read; researcher current response, scope/summary read. Detailed reproduction/source diffs not audited. Vendor targetOct27 is not shipped patch."
+  },
+  {
+    "item": 26,
+    "post": 27,
+    "id": "2114403563199778975",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261027-017; Underlying news body read, department memo403. Proposed90-day resilience planning is not a dated war forecast or measured commissioning."
+  },
+  {
+    "item": 27,
+    "post": 28,
+    "id": "2114361192080973940",
+    "disposition": "FOLD",
+    "ref": "SIG-W-20261027-012; Full article/image read, same11-finding Tailworm report as26. Vendor update adds remediation status. No independent exploit reproduction/full technical audit."
+  },
+  {
+    "item": 28,
+    "post": 29,
+    "id": "2114353369481461799",
+    "disposition": "FOLD",
+    "ref": "SIG-W-20261027-017; Same Fox source family as27; underlying department memo unread, not a second witness."
+  },
+  {
+    "item": 29,
+    "post": 30,
+    "id": "2114411395320307877",
+    "disposition": "NO-ACTION",
+    "ref": "SIG-W-20261027-017; Full FX quoted post read. Anonymous bank-preparation hearsay supplies no institution, plan, event or financial observation; retained as unattributed context, not declared false."
+  },
+  {
+    "item": 30,
+    "post": 31,
+    "id": "2114407402611077335",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261027-019; Full saved smoke image and AP event body read; updated OPB summary available, full updated body not exposed. Officials say tanks stable/no nearby contamination; no ammonia-tank explosion established."
+  },
+  {
+    "item": 31,
+    "post": 32,
+    "id": "2114127244801286494",
+    "disposition": "FOLD",
+    "ref": "SIG-W-20261027-019; Full AP short event body read; source video not authenticated/transcribed. No injuries; cause/output/restart not known. Capacity is not measured lost production."
+  },
+  {
+    "item": 32,
+    "post": 5,
+    "claim": 1,
+    "id": "2114794682035343709",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261027-009; ImmoVia Hausverwaltung; actor claim only, date2026-10-26; no duplicate found"
+  },
+  {
+    "item": 33,
+    "post": 5,
+    "claim": 2,
+    "id": "2114794682035343709",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261027-009; Grundbaulabor Trier; actor claim only, date2026-10-26; no duplicate found"
+  },
+  {
+    "item": 34,
+    "post": 5,
+    "claim": 3,
+    "id": "2114794682035343709",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261027-009; Radiology profile screenshot 1 cell 3 (title unresolved); actor claim only, date2026-10-26; no duplicate found"
+  },
+  {
+    "item": 35,
+    "post": 5,
+    "claim": 4,
+    "id": "2114794682035343709",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261027-009; SuperScale; actor claim only, date2026-10-26; no duplicate found"
+  },
+  {
+    "item": 36,
+    "post": 5,
+    "claim": 5,
+    "id": "2114794682035343709",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261027-009; Mercantile Investment Corporation Bolivia S.A. (MICSA); actor claim only, date2026-10-26; no duplicate found"
+  },
+  {
+    "item": 37,
+    "post": 5,
+    "claim": 6,
+    "id": "2114794682035343709",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261027-009; Mann Group; actor claim only, date2026-10-26; no duplicate found"
+  },
+  {
+    "item": 38,
+    "post": 5,
+    "claim": 7,
+    "id": "2114794682035343709",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261027-009; Some S.r.l.; actor claim only, date2026-10-26; no duplicate found"
+  },
+  {
+    "item": 39,
+    "post": 5,
+    "claim": 8,
+    "id": "2114794682035343709",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261027-009; Trade Union Co; actor claim only, date2026-10-26; no duplicate found"
+  },
+  {
+    "item": 40,
+    "post": 5,
+    "claim": 9,
+    "id": "2114794682035343709",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261027-009; Groupe AC Environnement; actor claim only, date2026-10-26; no duplicate found"
+  },
+  {
+    "item": 41,
+    "post": 5,
+    "claim": 10,
+    "id": "2114794682035343709",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261027-009; SAP Latin America/Caribbean (as claimed); actor claim only, date2026-10-26; no duplicate found"
+  },
+  {
+    "item": 42,
+    "post": 5,
+    "claim": 11,
+    "id": "2114794682035343709",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261027-009; Lydenburg Toyota; actor claim only, date2026-10-26; no duplicate found"
+  },
+  {
+    "item": 43,
+    "post": 5,
+    "claim": 12,
+    "id": "2114794682035343709",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261027-009; WANG / IX Tech WANG (as shown); actor claim only, date2026-10-26; no duplicate found"
+  },
+  {
+    "item": 44,
+    "post": 5,
+    "claim": 13,
+    "id": "2114794682035343709",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261027-009; Unisa Shoes; actor claim only, date2026-10-26; no duplicate found"
+  },
+  {
+    "item": 45,
+    "post": 5,
+    "claim": 14,
+    "id": "2114794682035343709",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261027-009; Acodafe; actor claim only, date2026-10-26; no duplicate found"
+  },
+  {
+    "item": 46,
+    "post": 5,
+    "claim": 15,
+    "id": "2114794682035343709",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261027-009; Betopia Group; actor claim only, date2026-10-26; no duplicate found"
+  },
+  {
+    "item": 47,
+    "post": 5,
+    "claim": 16,
+    "id": "2114794682035343709",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261027-009; Malmsten; actor claim only, date2026-10-26; no duplicate found"
+  },
+  {
+    "item": 48,
+    "post": 5,
+    "claim": 17,
+    "id": "2114794682035343709",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261027-009; Zinkan Enterprises; actor claim only, date2026-10-26; no duplicate found"
+  },
+  {
+    "item": 49,
+    "post": 5,
+    "claim": 18,
+    "id": "2114794682035343709",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261027-009; Belmont Resorts; actor claim only, date2026-10-26; no duplicate found"
+  },
+  {
+    "item": 50,
+    "post": 5,
+    "claim": 19,
+    "id": "2114794682035343709",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261027-009; PurePerfection; actor claim only, date2026-10-26; no duplicate found"
+  },
+  {
+    "item": 51,
+    "post": 5,
+    "claim": 20,
+    "id": "2114794682035343709",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261027-009; EPMMQ / EPMMOP Quito (label/domain mismatch); actor claim only, date2026-10-26; no duplicate found"
+  },
+  {
+    "item": 52,
+    "post": 5,
+    "claim": 21,
+    "id": "2114794682035343709",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261027-009; Atlas Stamping Manufacturing; actor claim only, date2026-10-26; no duplicate found"
+  },
+  {
+    "item": 53,
+    "post": 5,
+    "claim": 22,
+    "id": "2114794682035343709",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261027-009; WIKA Beton; actor claim only, date2026-10-26; no duplicate found"
+  },
+  {
+    "item": 54,
+    "post": 5,
+    "claim": 23,
+    "id": "2114794682035343709",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261027-009; StarImage; actor claim only, date2026-10-26; no duplicate found"
+  },
+  {
+    "item": 55,
+    "post": 5,
+    "claim": 24,
+    "id": "2114794682035343709",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261027-009; Grupo Sanirent; actor claim only, date2026-10-26; no duplicate found"
+  },
+  {
+    "item": 56,
+    "post": 5,
+    "claim": 25,
+    "id": "2114794682035343709",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261027-009; Farmacias911; actor claim only, date2026-10-26; no duplicate found"
+  },
+  {
+    "item": 57,
+    "post": 5,
+    "claim": 26,
+    "id": "2114794682035343709",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261027-009; SoftwareOne Turkey (as claimed); actor claim only, date2026-10-26; no duplicate found"
+  },
+  {
+    "item": 58,
+    "post": 5,
+    "claim": 27,
+    "id": "2114794682035343709",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261027-009; Epic Health; actor claim only, date2026-10-26; no duplicate found"
+  },
+  {
+    "item": 59,
+    "post": 5,
+    "claim": 28,
+    "id": "2114794682035343709",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261027-009; Incomelec; actor claim only, date2026-10-26; no duplicate found"
+  },
+  {
+    "item": 60,
+    "post": 5,
+    "claim": 29,
+    "id": "2114794682035343709",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261027-009; ASL Insaat; actor claim only, date2026-10-26; no duplicate found"
+  },
+  {
+    "item": 61,
+    "post": 5,
+    "claim": 30,
+    "id": "2114794682035343709",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261027-009; Surexport; actor claim only, date2026-10-26; no duplicate found"
+  },
+  {
+    "item": 62,
+    "post": 5,
+    "claim": 31,
+    "id": "2114794682035343709",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261027-009; Northwest Micro Systems; actor claim only, date2026-10-26; no duplicate found"
+  },
+  {
+    "item": 63,
+    "post": 5,
+    "claim": 32,
+    "id": "2114794682035343709",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261027-009; Vietnam Airlines; actor claim only, date2026-10-26; no duplicate found"
+  },
+  {
+    "item": 64,
+    "post": 5,
+    "claim": 33,
+    "id": "2114794682035343709",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261027-009; Serit CC; actor claim only, date2026-10-26; no duplicate found"
+  },
+  {
+    "item": 65,
+    "post": 5,
+    "claim": 34,
+    "id": "2114794682035343709",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261027-009; Marie Kruses Skole; actor claim only, date2026-10-26; no duplicate found"
+  },
+  {
+    "item": 66,
+    "post": 5,
+    "claim": 35,
+    "id": "2114794682035343709",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261027-009; United Rolls; actor claim only, date2026-10-26; no duplicate found"
+  },
+  {
+    "item": 67,
+    "post": 5,
+    "claim": 36,
+    "id": "2114794682035343709",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261027-009; Pac Production; actor claim only, date2026-10-26; no duplicate found"
+  },
+  {
+    "item": 68,
+    "post": 5,
+    "claim": 37,
+    "id": "2114794682035343709",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261027-009; Zehren and Associates; actor claim only, date2026-10-26; no duplicate found"
+  },
+  {
+    "item": 69,
+    "post": 5,
+    "claim": 38,
+    "id": "2114794682035343709",
+    "disposition": "DISPATCH",
+    "ref": "SIG-W-20261027-009; Spontini; actor claim only, date2026-10-26; no duplicate found"
+  }
+]

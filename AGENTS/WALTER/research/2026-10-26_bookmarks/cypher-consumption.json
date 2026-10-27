@@ -1,0 +1,18 @@
+[
+  {
+    "file": "2026-10-26_from-CYPHER_P1-PHP2Shell-KEV-fired.md",
+    "source_commit": "e95ea6efd",
+    "sha256": "c9ee11fb75eab01b034dfc1dc1ad50cff86cfd59d73bbe84cb6f034ac70a2951",
+    "consumed_at": "2026-10-27T03:22:00Z",
+    "disposition": "INTEGRATE",
+    "home": "SIG-W-20261027-002"
+  },
+  {
+    "file": "2026-10-26_from-CYPHER_connectwise-restoration-chrome-check.md",
+    "source_commit": "e95ea6efd",
+    "sha256": "e8701d71216099aec6d791dce43016d5b3824ce0d7b0a88d42cfd2832f3b8265",
+    "consumed_at": "2026-10-27T03:22:00Z",
+    "disposition": "INTEGRATE",
+    "home": "SIG-W-20261027-002"
+  }
+]
