@@ -1,0 +1,59 @@
+{
+  "checked_at": "2026-10-27T17:58:54.228Z",
+  "scope": 294,
+  "active_realestate": 48,
+  "research_queue": 20,
+  "reference": 28,
+  "highlights": 3,
+  "trashed": 245,
+  "receipt_refiled": 1,
+  "exact_id_label_verification": "PASS",
+  "read_status_preserved": true,
+  "errors": [],
+  "counts": [
+    {
+      "id": "Label_17",
+      "name": "Markets/Real Estate",
+      "type": "user",
+      "messageListVisibility": "show",
+      "labelListVisibility": "labelShow",
+      "messagesTotal": 48,
+      "messagesUnread": 47,
+      "threadsTotal": 48,
+      "threadsUnread": 47
+    },
+    {
+      "id": "Label_27",
+      "name": "Markets/Real Estate/Research Queue",
+      "type": "user",
+      "messageListVisibility": "show",
+      "labelListVisibility": "labelShow",
+      "messagesTotal": 20,
+      "messagesUnread": 20,
+      "threadsTotal": 20,
+      "threadsUnread": 20
+    },
+    {
+      "id": "Label_28",
+      "name": "Markets/Real Estate/Reference",
+      "type": "user",
+      "messageListVisibility": "show",
+      "labelListVisibility": "labelShow",
+      "messagesTotal": 28,
+      "messagesUnread": 27,
+      "threadsTotal": 28,
+      "threadsUnread": 27
+    },
+    {
+      "id": "Label_26",
+      "name": "Markets/Real Estate/Research Highlights",
+      "type": "user",
+      "messageListVisibility": "show",
+      "labelListVisibility": "labelShow",
+      "messagesTotal": 3,
+      "messagesUnread": 3,
+      "threadsTotal": 3,
+      "threadsUnread": 3
+    }
+  ]
+}

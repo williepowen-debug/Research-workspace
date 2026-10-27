@@ -1,0 +1,9 @@
+# Remaining real estate mail — result
+
+Will approved proceeding with Research Queue / Reference / source consolidation. Starting scope: 294 emails. Result: 48 active real estate emails, comprising 20 Research Queue and 28 Reference. All three Research Highlights survive. One personal payment receipt refiled to Receipts; 245 newsletter email containers moved to reversible Gmail Trash after complete captured-text reconstruction and fresh protection checks. No starred messages or attachments in the 294 checked records. Read status preserved; no filters, sends, unsubscribe or permanent deletion.
+
+The 19 report emails remain Reference. October material was separated into unresolved source questions, dated context and locally preserved digest containers. Older commentary/roundups remain searchable locally, including unverified material. Source preservation does not establish owner integration or claim accuracy. Six source-qualified cards (043–048), containing nine research units, are saved with 16 create-only recipient packets. Owner judgment and actual incorporation remain separate from authored routing.
+
+Current private worklist: `AGENTS/WALTER/debug/realestate-review-2026-10-27/index.html`. Conservation proof, all 294 dispositions, 4,181 source/navigation units and 147 repeated blocks remain beside it. Prior immutable 965-source index and restore-tested ZIP remain under `debug/realestate-library-2026-10-27/`. The numbers describe containers and preserved text, not verified signals.
+
+Checks: full text reconstruction for each of the 294 sources; fresh Gmail protections; actual generated JavaScript queue/reference/all counts and positive/negative search with Node DOM stub. No browser visual-rendering claim. Final message-label/read-state comparison and counts are recorded in `mailbox-receipt.json` after read-back. Source qualifications and access gaps: SOURCES.md. Full boot/maintenance duties and old approvals remain in LAST_COMPLETION.md.

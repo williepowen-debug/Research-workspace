@@ -1,0 +1,89 @@
+{
+  "timestamp": "2026-10-27T17:57:05Z",
+  "signals": 6,
+  "handoffs": 16,
+  "rows": [
+    {
+      "signal_id": "SIG-W-20261027-043",
+      "slug": "trepp-seasoned-pool-correction",
+      "board_path": "BOARD/SIG-W-20261027-043-trepp-seasoned-pool-correction.md",
+      "handoffs": [
+        "AGENTS/CREED/inbox/WALTER/SIG-W-20261027-043.md",
+        "AGENTS/HOMER/inbox/WALTER/SIG-W-20261027-043.md",
+        "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-043.md"
+      ]
+    },
+    {
+      "signal_id": "SIG-W-20261027-044",
+      "slug": "denver-watchlist-current-loans",
+      "board_path": "BOARD/SIG-W-20261027-044-denver-watchlist-current-loans.md",
+      "handoffs": [
+        "AGENTS/HOMER/inbox/WALTER/SIG-W-20261027-044.md",
+        "AGENTS/CREED/inbox/WALTER/SIG-W-20261027-044.md",
+        "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-044.md"
+      ]
+    },
+    {
+      "signal_id": "SIG-W-20261027-045",
+      "slug": "cred-iq-modeled-refi-equity",
+      "board_path": "BOARD/SIG-W-20261027-045-cred-iq-modeled-refi-equity.md",
+      "handoffs": [
+        "AGENTS/HOMER/inbox/WALTER/SIG-W-20261027-045.md",
+        "AGENTS/CREED/inbox/WALTER/SIG-W-20261027-045.md",
+        "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-045.md"
+      ]
+    },
+    {
+      "signal_id": "SIG-W-20261027-046",
+      "slug": "udr-apollo-conditional-jv",
+      "board_path": "BOARD/SIG-W-20261027-046-udr-apollo-conditional-jv.md",
+      "handoffs": [
+        "AGENTS/HOMER/inbox/WALTER/SIG-W-20261027-046.md",
+        "AGENTS/CREED/inbox/WALTER/SIG-W-20261027-046.md",
+        "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-046.md"
+      ]
+    },
+    {
+      "signal_id": "SIG-W-20261027-047",
+      "slug": "cbre-revenue-volume-bases",
+      "board_path": "BOARD/SIG-W-20261027-047-cbre-revenue-volume-bases.md",
+      "handoffs": [
+        "AGENTS/CREED/inbox/WALTER/SIG-W-20261027-047.md",
+        "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-047.md"
+      ]
+    },
+    {
+      "signal_id": "SIG-W-20261027-048",
+      "slug": "chicago-office-rollover-cases",
+      "board_path": "BOARD/SIG-W-20261027-048-chicago-office-rollover-cases.md",
+      "handoffs": [
+        "AGENTS/CREED/inbox/WALTER/SIG-W-20261027-048.md",
+        "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-048.md"
+      ]
+    }
+  ],
+  "paths": [
+    "BOARD/SIG-W-20261027-043-trepp-seasoned-pool-correction.md",
+    "AGENTS/CREED/inbox/WALTER/SIG-W-20261027-043.md",
+    "AGENTS/HOMER/inbox/WALTER/SIG-W-20261027-043.md",
+    "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-043.md",
+    "BOARD/SIG-W-20261027-044-denver-watchlist-current-loans.md",
+    "AGENTS/HOMER/inbox/WALTER/SIG-W-20261027-044.md",
+    "AGENTS/CREED/inbox/WALTER/SIG-W-20261027-044.md",
+    "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-044.md",
+    "BOARD/SIG-W-20261027-045-cred-iq-modeled-refi-equity.md",
+    "AGENTS/HOMER/inbox/WALTER/SIG-W-20261027-045.md",
+    "AGENTS/CREED/inbox/WALTER/SIG-W-20261027-045.md",
+    "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-045.md",
+    "BOARD/SIG-W-20261027-046-udr-apollo-conditional-jv.md",
+    "AGENTS/HOMER/inbox/WALTER/SIG-W-20261027-046.md",
+    "AGENTS/CREED/inbox/WALTER/SIG-W-20261027-046.md",
+    "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-046.md",
+    "BOARD/SIG-W-20261027-047-cbre-revenue-volume-bases.md",
+    "AGENTS/CREED/inbox/WALTER/SIG-W-20261027-047.md",
+    "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-047.md",
+    "BOARD/SIG-W-20261027-048-chicago-office-rollover-cases.md",
+    "AGENTS/CREED/inbox/WALTER/SIG-W-20261027-048.md",
+    "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-048.md"
+  ]
+}

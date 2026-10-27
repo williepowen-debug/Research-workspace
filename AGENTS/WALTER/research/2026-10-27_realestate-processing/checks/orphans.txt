@@ -1,0 +1,30 @@
+⚠️  uncommitted files outside AGENTS/WALTER/:
+     [not yours]    AGENTS/CREED/inbox/WALTER/SIG-W-20261027-043.md
+     [not yours]    AGENTS/CREED/inbox/WALTER/SIG-W-20261027-044.md
+     [not yours]    AGENTS/CREED/inbox/WALTER/SIG-W-20261027-045.md
+     [not yours]    AGENTS/CREED/inbox/WALTER/SIG-W-20261027-046.md
+     [not yours]    AGENTS/CREED/inbox/WALTER/SIG-W-20261027-047.md
+     [not yours]    AGENTS/CREED/inbox/WALTER/SIG-W-20261027-048.md
+     [not yours]    AGENTS/HOMER/inbox/WALTER/SIG-W-20261027-043.md
+     [not yours]    AGENTS/HOMER/inbox/WALTER/SIG-W-20261027-044.md
+     [not yours]    AGENTS/HOMER/inbox/WALTER/SIG-W-20261027-045.md
+     [not yours]    AGENTS/HOMER/inbox/WALTER/SIG-W-20261027-046.md
+     [not yours]    AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-043.md
+     [not yours]    AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-044.md
+     [not yours]    AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-045.md
+     [not yours]    AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-046.md
+     [not yours]    AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-047.md
+     [not yours]    AGENTS/REGINALD/inbox/WALTER/SIG-W-20261027-048.md
+     [not yours]    BOARD/INDEX.md
+     [not yours]    BOARD/SIG-W-20261027-043-trepp-seasoned-pool-correction.md
+     [not yours]    BOARD/SIG-W-20261027-044-denver-watchlist-current-loans.md
+     [not yours]    BOARD/SIG-W-20261027-045-cred-iq-modeled-refi-equity.md
+     [not yours]    BOARD/SIG-W-20261027-046-udr-apollo-conditional-jv.md
+     [not yours]    BOARD/SIG-W-20261027-047-cbre-revenue-volume-bases.md
+     [not yours]    BOARD/SIG-W-20261027-048-chicago-office-rollover-cases.md
+     [not yours]    scripts/AGENT_LAUNCHER.md
+     [not yours]    scripts/agents.json
+     [not yours]    scripts/tests/test_agents_launcher.py
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.

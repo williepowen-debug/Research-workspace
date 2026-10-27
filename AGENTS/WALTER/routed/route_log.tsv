@@ -1777,3 +1777,9 @@ Date	Signal_ID	Origin	Summary	Precedence	To	Info	Confidence
 2026-10-27T04:13:28Z	SIG-W-20261027-040	Gmail / issuer and attributed research sources	JetBlue Q3 primary: wider net loss, stronger revenue and qualified financing bridge	PRIORITY	LIQUID,CARL,CORAL	BROCK,BRENT,HENRY,RED	0.99
 2026-10-27T16:04:05Z	SIG-W-20261027-041	Gmail / issuer and attributed research sources	Reported Chicago refinancing may remove a legacy OZK exposure; payoff primary remains unread	PRIORITY	OZK	REGINALD,CREED,RED	0.78
 2026-10-27T16:04:05Z	SIG-W-20261027-042	Gmail / issuer and attributed research sources	Rental concessions: easing RealPage usage and rising Apartment List prevalence measure different populations	PRIORITY	HOMER,CORAL	REGINALD,CARL,CREED,RED	0.98
+2026-10-27T17:57:05Z	SIG-W-20261027-043	Gmail / issuer and attributed research sources	Trepp reverses lending-quality inference after excluding seasoned pool	PRIORITY	CREED,HOMER	REGINALD,CARL,RED	0.88
+2026-10-27T17:57:05Z	SIG-W-20261027-044	Gmail / issuer and attributed research sources	Denver watchlist stress: most flagged balance remains current	PRIORITY	HOMER	CREED,REGINALD,CARL,RED	0.97
+2026-10-27T17:57:05Z	SIG-W-20261027-045	Gmail / issuer and attributed research sources	CRED iQ estimates future multifamily equity needs, not current defaults	PRIORITY	HOMER	CREED,REGINALD,CARL,RED	0.96
+2026-10-27T17:57:05Z	SIG-W-20261027-046	Gmail / issuer and attributed research sources	UDR–Apollo apartment venture: announced equity terms, conditional close	PRIORITY	HOMER	CREED,REGINALD,CARL,RED	0.99
+2026-10-27T17:57:05Z	SIG-W-20261027-047	Gmail / issuer and attributed research sources	CBRE Q3: sales and leasing revenue growth does not establish transaction volumes	PRIORITY	CREED	REGINALD,RED	0.98
+2026-10-27T17:57:05Z	SIG-W-20261027-048	Gmail / issuer and attributed research sources	Chicago tenant rollover: whole-loan exposure and two attributed distress cases	PRIORITY	CREED	REGINALD,RED	0.9

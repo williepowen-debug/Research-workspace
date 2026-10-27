@@ -1,3 +1,7 @@
+## 2026-10-27T17:59:25Z — LIGHT continuation — full deferred — remaining real estate mail
+
+Will approved the proposed Research Queue / Reference workflow. All 294 sources accounted: 20 Queue, 28 Reference, 245 containers in reversible Trash, one receipt preserved in Receipts; all three Highlights and read status preserved, exact 294-ID read-back PASS. Full text reconstructed in 4,181 navigation units, 147 repeated blocks; these are not verified claims. Six qualified cards 043–048 / nine research units / 16 create-only packets; three bounded Rule 9 helpers returned. No domain launch, trade, filter, send or paid access. Evidence: research/2026-10-27_realestate-processing/. Full maintenance, partial boot, source gaps and approval carries retained. Foreign scripts dirty, pull/push deferred; publication and consumption separate.
+
 ## 2026-10-27T17:27:11Z — LIGHT continuation — real estate newsletter consolidation
 
 Corrected retained-email versus valuable-signal framing. Will explicitly approved a local searchable link/text index before trashing roundup newsletters. Conserved 965 records with ZIP restore/hash equality; moved 671 emails to Trash and verified all exact IDs; Gmail now 294, highlights three. Script and aggregate evidence: research/2026-10-27_realestate-mail/CONSOLIDATION.md. Private bodies/catalog/index/backup remain gitignored. No new research signal, owner handoff, model/helper launch, collector, filter, trade or external send. Broad boot/full maintenance debt and earlier approvals/gaps preserved.
