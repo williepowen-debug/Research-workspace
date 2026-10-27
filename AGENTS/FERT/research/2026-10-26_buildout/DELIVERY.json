@@ -1,0 +1,16 @@
+{
+  "artifact_commit": "0ab3db312968c2cf44e871d01f6561a6cebaeb3f",
+  "packet": "PROME/inbox/2026-10-26_from-FERT_approved-domain-build.md",
+  "recipient_thread": "01a17abd-8e89-73e3-b9db-ed26d0b2f3c0",
+  "recipient_identity_evidence": "read_thread returned PROME cwd and Boot PROME for Monday night title before send",
+  "transport": "mcp__codex_tui__send_message_to_thread",
+  "notification": "accepted; tool returned recipient threadId with isError=false",
+  "consumption": "UNKNOWN; no artifact-version acknowledgment observed",
+  "peer_packets": [
+    "AGENTS/CARL/inbox/2026-10-26_from-FERT_farm-cost-baseline.md",
+    "AGENTS/HENRY/inbox/2026-10-26_from-FERT_intermediate-price-baseline.md"
+  ],
+  "orphan_check": "PASS for FERT-authored packets; other-owner dirty paths flagged to PROME in the delivery notice",
+  "push": "deferred under dirty-owner worktree rule",
+  "consumer_check": "No new numeric supersession of a market/gate figure; only dated baseline additions and KB lifecycle metadata. No new consumer scan required."
+}
