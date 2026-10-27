@@ -1,0 +1,21 @@
+# CARL L786 result
+
+As of 2026-10-26 22:50 ET. Will assigned ALLY vintage-loss evidence, RITM, paper disposition, receipt gap, and October 29 GDP/PCE preparation. PROME added bounded ISHM/FERT intake and a consumer calendar repair; no other desk’s research was performed. No child launched, capital moved, new forecast registered or score rule changed.
+
+| Assignment | Completed work | Remaining observation |
+|---|---|---|
+| ALLY vintage-loss grade | All 29 Q3 presentation images reviewed; NCO two-quarter leg fails. Matched FY2025/26-versus-FY2023 +50bp vintage comparison not recovered from primaries; CRL-21 OPEN→STUCK, 25% historical mark retained, no score. Prior claim that curves were present in the exhibits withdrawn. | Original-source checkpoint11/06. Missing/unpublished input prevents a substantive vintage verdict; no window extension or substitute instrument installed. |
+| RITM | Q3 release, SEC exhibit and 48-page supplement read. Owned GNMA 60+ DQ 5.8→6.1%, other cohorts mixed; accounting-cushion causality/all-Newrez confirmation not established. CRL-20 remains 1%. | Q3 filing notes if published,11/06 source checkpoint. |
+| Paper sleeve | All seven exits DECIDED; fresh10/26 daily-bar marks and reasons recorded, original entries preserved. | Market closed: no actual 10/27 opening quote yet. All seven remain OPEN with blank close fields; actual conservative fills pending10/27. |
+| Receipt gap | Eleven deferred→acted assessments recorded with caveats and append-only history. Ten WALTER copies and three PROME notices filed. Three correction audits ended scoped NO-OP. | No unrecorded CARL action in the BOARD scan. Other generic mail preserved outside this assignment. |
+| GDP/PCE | BEA date independently verified10/29 08:30ET. August-vintage inputs archived, revision controls and two-way interpretation plan written before release. | Actual September/Q3 data releases10/29. |
+
+Files: ALLY_RITM_GRADE.md; PAPER_DISPOSITION.md; RECEIPT_RECONCILIATION.md; GDP_PCE_OCT29_PREP.md; SOURCE_MANIFEST.json and SOURCE_EVIDENCE.zip. The zip retains 97 primary/source/screenshot/metadata members, all verified by SHA-256. Loose originals are preserved under /tmp/carl-L786-sources-preserved; the committed zip is the durable copy. Internal source paths named in reports refer to members of this bundle. CORRECTION_AUDIT.json is also retained outside the zip for direct scope inspection.
+
+Checks already executed: consistency without warn-only0hard/6soft; BOARD0owed; corrections0unreceipted; roadmap index rebuilt/checked. Canonical docket/calendar event pairs hand-checked after two updates, one completed Michigan row pruned and one dated next-open paper row added. Propagation scans covered all three replaced Michigan preliminary metrics, cross-agent and self; results are candidate-only, no certified stale hit. Historical dated preliminary records were retained; new brief uses the final.
+
+Read-cap returns1 because its undeclared heuristic treats board_log.tsv (36,090 bytes) as a whole read; CARL CLAUDE5b.1 explicitly makes it lookup/grep-only. The checker itself says not to trim on a false perimeter. No instruction/manifest architecture was changed in this bounded research session. STATUS remains below its 75% rotation trigger; no current rotation claimed. The48,517-byte charter explicit-read cost remains unassessed by that checker. These are disclosed limits, not a comprehensive read-cap pass. Twenty-three child-ledger age flags remain unchanged; no child freshness was laundered. No new memory lesson or superseded threshold required a memory/threshold propagation mutation.
+
+Retirement recheck retained the same three live/pending research anchors; zero moves. Delivery is established only by the actual path-scoped commits and fresh-fetch safe-push receipt, never by this prose. Dated PROME/TERRY packets report the result; consumption remains unverified unless the recipients actually read them.
+
+Bounded follow-through: `PEER_INTAKE.md` records ISHM ownership and FERT’s input-causation limit, with no score change. October CPI corrected to November 10, 08:30 ET in the consumer calendars after independent BLS verification; unrelated November 12 events retained. Four additional read packets filed.

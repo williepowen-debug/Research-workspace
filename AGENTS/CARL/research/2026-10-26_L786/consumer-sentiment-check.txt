@@ -1,0 +1,61 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/CARL/   (processed/ + archive/ excluded everywhere — historical by design)
+
+  ── value · superseded 46.3 → current 48.0
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (162)
+        AGENTS/HENRY/board_log.tsv:45  [46.3]  (needle <5 sig digits)
+           2026-07-01T23:05-04:00	SIG-W-20260627-033	acted	INBOX_WALTER	DEWEY EDGAR-verified: AI-infra circular/vendor-financing structure PRIMARY-CONF
+        AGENTS/OZK/THESIS.md:29  [46.3]  (needle <5 sig digits)
+           **59% re-default rate:** Of $78.3M in formally modified loans through Q3 2025, $46.3M subsequently went nonaccrual [KB-OZK-097]. More than h
+        AGENTS/CORAL/STATUS_DETAIL.md:431  [46.3]  (needle <5 sig digits)
+           | North Port | 6.27 | **6.34** | +0.07 | ✅ | 11,919 | 46.3% |
+        AGENTS/MIDAS/OPEN_ITEMS.md:75  [46.3]  (needle <5 sig digits)
+           PRIMARY World Silver Survey2026 printedp9 confirms2026F PV151.0Moz/−19%, industrial639.6Moz/−3%, deficit46.3Moz and mine844.1Moz/−0.3%. Apri
+        AGENTS/MIDAS/THESIS.md:50  [46.3]  (needle <5 sig digits)
+           | Supply/physical liquidity | PRIMARY April2026F deficit46.3Moz; mine844.1Moz (−0.3%). PRIMARY COMEX activity10/9 registered102.757633Moz, e
+        AGENTS/MIDAS/THESIS.md:54  [46.3]  (needle <5 sig digits)
+           **October12 bounded thesis test:** total-London-depletion thesis WEAKENED by PRIMARY September28985t/+1.95%; available-supply tightness UNCH
+        AGENTS/WALTER/routed/route_log.tsv:206  [46.3]  (needle <5 sig digits)
+           2026-05-11T23:25:00Z	SIG-W-20260511-042	WALTER image-batch 2026-05-11 — @Kalshi citing Redfin; verify via Redfin Feb 2026 + March 2026 follo
+        AGENTS/WALTER/research/2026-10-08_broad-sweep/verify_bookmarks.md:21  [46.3]  (needle <5 sig digits)
+           | 12 | CNBC 10/7: diesel up 68% since the start of the Iran war per AAA | **CONFIRMED (CNBC piece dated 10/6)** | CNBC: $3.76 on **Feb 27** 
+        … +154 more 🟠 hit(s) on [46.3] across 104 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+     🟡 in MAIL, point-in-time — usually no action (1: BOND)
+     🟢 cleared: marker-adjacent / next to new value / frozen file (36)  [--show-handled to audit]
+
+  🟠 162 CANDIDATE(s), zero certified-stale. A 🟠 is a prompt to LOOK, never a packet: confirm same series AND unit at the hit, then re-run with --unit/--series for the 🔴 verdict.
+==================================================================
+
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  SELF mode: 319 files under AGENTS/CARL/ (processed/ + archive/ still excluded — historical by design). Nothing outside your own dir is scanned.
+
+  ── value · superseded 46.3 → current 48.0
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (20)
+        AGENTS/CARL/board/BOARD_LOG.tsv:287  [46.3]  (needle <5 sig digits)
+           SIG-W-20260511-042	2026-05-11	BANK_COLLATERAL	PRIORITY	REFERRED		2026-06-08	→REGINALD: Redfin Feb 629,808 more sellers than buyers (46.3% ga
+        AGENTS/CARL/domain/sources/2026-10-12_catchup/michigan-oct-prelim-extract.txt:1  [46.3]  (needle <5 sig digits)
+           Surveys of Consumers Home Tables Charts Reports Contact Data Site Preliminary Results for October 2026 Oct Sep Oct M-M Y-Y 2026 2026 2025 Ch
+        AGENTS/CARL/domain/sources/2026-10-12_catchup/scf26.txt:642  [46.3]  (needle <5 sig digits)
+           46.3
+        AGENTS/CARL/domain/sources/2026-10-12_scope-review.md:12  [46.3]  (needle <5 sig digits)
+           | [Michigan October preliminary](https://www.sca.isr.umich.edu/), October9, October survey; [special report](https://data.sca.isr.umich.edu/
+        AGENTS/CARL/research/2026-10-26_L786/consumer-current-check.txt:24  [46.3]  (needle <5 sig digits)
+           - NEW October preliminaryMichigan release: https://www.sca.isr.umich.edu/ primary46.3 sentiment,44.7current,47.3expectations. Currentconditi
+        AGENTS/CARL/research/2026-10-26_L786/consumer-expectations-check.txt:16  [46.3]  (needle <5 sig digits)
+           - NEW October preliminaryMichigan release: https://www.sca.isr.umich.edu/ primary46.3 sentiment,44.7current,47.3expectations. Currentconditi
+        AGENTS/CARL/research/2026-10-26_L786/consumer-expectations-check.txt:45  [46.3]  (needle <5 sig digits)
+           - NEW October preliminaryMichigan release: https://www.sca.isr.umich.edu/ primary46.3 sentiment,44.7current,47.3expectations. Currentconditi
+        AGENTS/CARL/research/2026-10-26_L786/consumer-sentiment-check.txt:11  [46.3]  (needle <5 sig digits)
+           AGENTS/OZK/THESIS.md:29  [46.3]  (needle <5 sig digits)
+        … +12 more 🟠 hit(s) on [46.3] across 8 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+     🟢 cleared: marker-adjacent / next to new value / frozen file (6)  [--show-handled to audit]
+
+  🟠 20 CANDIDATE(s), zero certified-stale. A 🟠 is a prompt to LOOK, never a packet: confirm same series AND unit at the hit, then re-run with --unit/--series for the 🔴 verdict.
+==================================================================
+

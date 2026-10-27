@@ -65,3 +65,8 @@ Per `CARL_BOOK_DESIGN.md` §6 — all four required over ≥2 quarters, and **#2
 4. Brier score improved or held.
 
 **Kill:** any bias-tripwire event surviving RED challenge, or a REGINALD boundary dispute Will adjudicates twice.
+
+
+## October26, 2026 — disposition receipt
+
+L786 decisions: EXIT all seven existing rows at valid October27 next-open quotes. The five CRL-31 rows lost a reachable antecedent; the two CRL-20 exits are explicit paper-owner judgment after adverse issuer evidence. No new minimum-confidence rule or formal CRL-20/31 resolution. Rows remain OPEN until a valid contemporaneous fill; no close/P&L realization backdated to the earnings date. Ledger marks are October26 daily bars, not next-open fills. Actual quotes and conservative execution rule: research/2026-10-26_L786/PAPER_DISPOSITION.md. Zero new closed rows; graduation and scoring remain blocked by small N and antecedent concentration.

@@ -1,5 +1,5 @@
 # CARL ROADMAP — "Where are we"
-**Updated:** 2026-10-21 (PROME catch-up wave 3): CRL-29 first grade NO VERDICT; Q3 issuer legs read, CRL-31/20/12 cut to 1%; CRL-21 vintage leg owed 10/26. Score 53/70 unchanged.
+**Updated:** 2026-10-26 (L786 only): ALLY source review complete, CRL-21 STUCK; RITM Q3 read; seven paper exits decided for valid10/27 quotes; receipt gap reconciled; GDP/PCE10/29 preparation saved. No score change.
 
 ⛔ **STRUCTURE CHANGED 2026-09-05 (Will-directed structural read-cap fix).** This file was **51,744 B = 1.57× the 32,550 B budget**, and **61% of it was the OPEN THREADS table** — **28 genuinely-open threads at ~865 B each.** ⚠️ **Rotation could not fix that: the content was LIVE, not residue** (measured — closed-rows-mis-filed were only **6%**), which is the same finding STUE produced on its own surface the same day.
 **THE FIX — read-mode, not byte-trim:** the per-thread **Status narrative** now lives in **`ROADMAP_THREADS.md`** (**grep it, NEVER read it whole**); this file carries a **GENERATED index**. **Edit threads in `ROADMAP_THREADS.md`, then `python3 AGENTS/CARL/scripts/roadmap_index.py --rebuild`.** `--check` fails closed on drift and is a closeout gate.
@@ -24,7 +24,7 @@ Persistent state-of-CARL tracker across sessions. SCRATCH = "what to do next ses
 | # | Thread | Next Step | Last Touched |
 |---|--------|-----------|--------------|
 | 1 | **🟠 Brent series-identifier defect — a LABEL is owed on every published Brent level** | **Stamp series+venue on every Brent level CARL publishes** (13 sites carry the unlabelled figure; the 4 load-bearing ones are annotated, the rest a… | 2026-08-20 |
-| 2 | **🟡 TERRY TRY-FIRE-002 — premise ANSWERED 10/10 (KEEP DORMANT); CRL-21 vintage-leg grade owed at the Q3 pri… | **Grade the CRL-21 vintage-projection leg at the Q3 issuer prints (docket ~10/20, not IR-confirmed) and packet TERRY with the result either way**;… | 2026-10-21 |
+| 2 | **🟡 TERRY TRY-FIRE-002 — premise ANSWERED 10/10 (KEEP DORMANT); CRL-21 vintage-leg grade owed at the Q3 pri… | **11/06: check original ALLY/RITM Q3 filing/curve sources; no forecast window extension. CRL-21 status/limits delivered to TERRY. Paper executions… | 2026-10-26 |
 | 3 | **Three DEWEY deep-research commissions (Will-approved 7/31) — ALL 3 DELIVERED; DR-3 SCORED 10/01 (kill NOT… | **DR-3 delivered 10/01 (DEWEY e648c590e) and SCORED by CARL the same session (KB-CARL-502):** kill NOT fired. The trade-down half of the cohort axi… | 2026-10-01 |
 | 4 | **DAEDALUS STATUS two-state PILOT (WATT/HENRY/CARL)** | **Execute rotation in the post-HHDC session** (deliberate: tomorrow's print supersedes many dashboard rows — rotating after integration avoids doub… | 2026-08-10 |
 | 5 | **GIG-P03/P06 re-instrumentation (structural data gap)** | Decide: re-spec onto a published series (platform-disclosed driver earnings/ride — Lyft publishes +8% YoY), re-date to the annual Gridwise cadence,… | 2026-08-10 |
@@ -111,3 +111,5 @@ September24 eve (stale-record fix, Will-directed): **4 threads closed, each veri
 **Rotation September16:** recheck this surface on any append and every closeout; hard review October1. Thirty-five generated open threads retained unchanged; no thread dropped to achieve the byte target.
 
 October12: scope review completed late (domain/sources/2026-10-12_scope-review.md); Michigan/CCB/CCL/Census/BofA integrated, SCFdenominator resolved, tariffCanadian-tail repaired;KB507–517. No childlaunch or forecastchange. WQ3997ecommandfields encoded. Retirement disposition in source report; no broad-macro collapse inferred.
+
+October26 L786: owner review completed with source limits; CRL-21 is STUCK, not still UNREVIEWED. RITM release/supplement read complete. Paper disposition decisions complete, actual next-open fills remain dated work. Seven aged receipt gaps plus four newer reads assessed; three correction copies scoped NO-OP. Source grades, paper execution rule and GDP/PCE baseline at research/2026-10-26_L786/. Unrelated threads and owner approvals preserved.

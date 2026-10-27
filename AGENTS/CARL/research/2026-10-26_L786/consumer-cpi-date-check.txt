@@ -1,0 +1,43 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  SELF mode: 301 files under AGENTS/CARL/ (processed/ + archive/ still excluded — historical by design). Nothing outside your own dir is scanned.
+
+  ── October CPI date · superseded 11/12 → current 11/10
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (12)
+        AGENTS/CARL/NEXUS_BRIEF.md:66  [11/12]
+           |11/12| October CPI | CRL-10 level vs path |
+        AGENTS/CARL/ROADMAP_THREADS.md:40  [11/12]
+           | **🟠 BaaS / sponsor-bank consumer-credit feed — DEFINED 10/12; REGINALD agreement/Q3 follow-through pending** | **WQ228 remains REGINALD-ow
+        AGENTS/CARL/STATUS.md:123  [11/12]
+           | **Next dated work** | **10/27 paper exits: actual next-open quotes required; no fabricated fills.** FOMC/STUE/AFT/Carvana10/28; **GDP + Se
+        AGENTS/CARL/TEAM.md:48  [11/12]
+           | **PHAN** | `PHAN/DOSSIER.md` (CLAUDE/STATUS FROZEN w/ Klarna-refuted warning) | **Sep 10** (WQ-209 ad-hoc spawn — Will `APPROVE` 2026-09-1
+        AGENTS/CARL/domain/sources/2026-10-26_startup-recovery/STARTUP_RECEIPT.md:32  [11/12]
+           | New dated watch | PROME DOCKET L797: beef CPI / USDA at 11/10, scenario arithmetic not forecast; source caveats retained. Date conflicts w
+        AGENTS/CARL/domain/sources/2026-10-26_startup-recovery/STARTUP_RECEIPT.md:33  [11/12]
+           | Near-term docket | Past 10/22 claims (LABOR) and 10/23 Michigan remain UNREVIEWED, next review 10/27. Existing 10/28 Fed/STUE/AFT/Carvana;
+        AGENTS/CARL/status_archive/STATUS_before_2026-10-12_catchup.md:108  [11/12]
+           | **ARMED for next wake (10/10 drain closeout)** | ① **THESIS-SCOPE REVIEW missed 10/05, not run 10/10; owed** (re-date via PROME). New inpu
+        AGENTS/CARL/sub_agents/PHAN/DOSSIER.md:28  [11/12]
+           **🔴 FLOW-PHAN-06 trigger = ACTIVE** (restored 9/11 — the 9/10 PARTIAL was a **period-basis error**: a quarterly trigger tested on an FY aggr
+        AGENTS/CARL/sub_agents/PHAN/DOSSIER.md:50  [11/12]
+           | **Is longer-term BNPL already in the aggregates?** (~$16B of ~$29B BNPL central) | PHAN | 2026-07-28 (DEWEY C4) | 🔻 **OPEN — top research 
+        AGENTS/CARL/sub_agents/PHAN/DOSSIER.md:58  [11/12]
+           | **FLOW-PHAN-06 → re-instrument onto NCO growth?** | **CARL** | 2026-09-11 | ⏳ CARL taking it to the ~11/12 gate (spec change, needs a sitt
+        AGENTS/CARL/thesis/CHANGELOG.md:332  [11/12]
+           > ⛔ **REVERSED 2026-09-11 — THE 9/10 DOWNGRADE WAS A PERIOD-BASIS ERROR AND FLOW-PHAN-06 IS RESTORED TO `ACTIVE` (trigger leg).** PHAN self-
+        AGENTS/CARL/workbook/KB.tsv:455  [11/12]
+           KB-CARL-458	2026-09-11	BNPL	Affirm_Quarterly_Provisions	Affirm quarterly provision growth YoY, CARL-verified at SEC XBRL companyconcept (CIK
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (1)
+        AGENTS/CARL/board_log.tsv:44  [11/12]  (dated TSV row (2026-10-10T16:44Z) — HISTORY-ROW candidate: a time-series capture holds the value AS OF its date; a refresh would corrupt the series)
+           2026-10-10T16:44Z	2026-10-08_from-DAEDALUS_sweeps-gatebasis2-falsif4-prose1	deferred	INBOX_DIRECT	Falsification #4 lines answered in STATUS 
+     🟡 in MAIL, point-in-time — usually no action (3: CARL)
+     🟢 cleared: marker-adjacent / next to new value / frozen file (2)  [--show-handled to audit]
+
+  🔴 12 stale reference(s) on YOUR OWN surfaces. You are the owner: fix them in place this session — no packet, nobody else to tell. Fix by PATTERN, not by the line list above (a line-targeted sweep left a hit on the highest-blast-radius surface three times in one night).
+==================================================================
+
+
+CARL adjudication: one certified substantive old October-CPI date was the pre-fold NEXUS_BRIEF and is replaced by the final fold. Other red candidates are PHAN/feed dates, explicit dated startup/history and archived state; they are not the October-CPI calendar. Live docket and calendar now match the independently read BLS row. No peer packet warranted for another event sharing November 12.

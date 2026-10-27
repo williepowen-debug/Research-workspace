@@ -1,0 +1,61 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/CARL/   (processed/ + archive/ excluded everywhere — historical by design)
+
+  ── value · superseded 47.3 → current 48.8
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (122)
+        AGENTS/ORACLE/STATUS.md:76  [47.3]  (needle <5 sig digits)
+           | End-2026 upper 4.25% / ≥4.5% | PM | 47.3 / 41.8 | 40.9 / 50.3 | −13.7 / +12.6 | $6.9M event | ⚠️ thin books |
+        AGENTS/ORACLE/STATUS.md:81  [47.3]  (needle <5 sig digits)
+           | Sept CPI `>3.5` / `>3.6` / `>3.7` | Kalshi | 78.0 / 36.5m / 13.5m | 82.0m / 46.0 / 15.0m | — | 37.4K / 47.3K / 17.1K OI | |
+        AGENTS/WALTER/research/2026-10-19_afternoon/VIX_History.csv:7604  [47.3]  (needle <5 sig digits)
+           03/10/2020,49.680000,55.660000,43.560000,47.300000
+        AGENTS/WALTER/research/2026-10-12_boot/transcript-3-economy-verify.md:10  [47.3]  (needle <5 sig digits)
+           - NEW October preliminaryMichigan release: https://www.sca.isr.umich.edu/ primary46.3 sentiment,44.7current,47.3expectations. Currentconditi
+        AGENTS/WALTER/research/2026-10-19_resume/VIX_History.csv:7604  [47.3]  (needle <5 sig digits)
+           03/10/2020,49.680000,55.660000,43.560000,47.300000
+        AGENTS/WALTER/research/2026-10-21_boot/VIX_History.csv:7604  [47.3]  (needle <5 sig digits)
+           03/10/2020,49.680000,55.660000,43.560000,47.300000
+        AGENTS/DEWEY/output/2026-10-22_reserve-coverage-decline-base-rate.md:245  [47.3]  (needle <5 sig digits)
+           | same | C&D by workout time | **12.3%** (<6 months) → 47.3% (12–18m) → 63.5% (2–3 yrs) → **72.2%** (>3 yrs); 44% took >2 yrs | same | same,
+        AGENTS/SAM/research/outputs/2026-09-14_stale-sweep/nippon-q1.pdf.txt:185  [47.3]  (needle <5 sig digits)
+           +47.3
+        … +114 more 🟠 hit(s) on [47.3] across 73 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+     🟡 in MAIL, point-in-time — usually no action (1: CORAL)
+     🟢 cleared: marker-adjacent / next to new value / frozen file (16)  [--show-handled to audit]
+
+  🟠 122 CANDIDATE(s), zero certified-stale. A 🟠 is a prompt to LOOK, never a packet: confirm same series AND unit at the hit, then re-run with --unit/--series for the 🔴 verdict.
+==================================================================
+
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  SELF mode: 319 files under AGENTS/CARL/ (processed/ + archive/ still excluded — historical by design). Nothing outside your own dir is scanned.
+
+  ── value · superseded 47.3 → current 48.8
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (19)
+        AGENTS/CARL/domain/sources/2026-10-12_catchup/michigan-oct-prelim-extract.txt:1  [47.3]  (needle <5 sig digits)
+           Surveys of Consumers Home Tables Charts Reports Contact Data Site Preliminary Results for October 2026 Oct Sep Oct M-M Y-Y 2026 2026 2025 Ch
+        AGENTS/CARL/domain/sources/2026-10-12_scope-review.md:12  [47.3]  (needle <5 sig digits)
+           | [Michigan October preliminary](https://www.sca.isr.umich.edu/), October9, October survey; [special report](https://data.sca.isr.umich.edu/
+        AGENTS/CARL/research/2026-10-26_L786/consumer-current-check.txt:24  [47.3]  (needle <5 sig digits)
+           - NEW October preliminaryMichigan release: https://www.sca.isr.umich.edu/ primary46.3 sentiment,44.7current,47.3expectations. Currentconditi
+        AGENTS/CARL/research/2026-10-26_L786/consumer-expectations-check.txt:10  [47.3]  (needle <5 sig digits)
+           | End-2026 upper 4.25% / ≥4.5% | PM | 47.3 / 41.8 | 40.9 / 50.3 | −13.7 / +12.6 | $6.9M event | ⚠️ thin books |
+        AGENTS/CARL/research/2026-10-26_L786/consumer-expectations-check.txt:11  [47.3]  (needle <5 sig digits)
+           AGENTS/ORACLE/STATUS.md:81  [47.3]  (needle <5 sig digits)
+        AGENTS/CARL/research/2026-10-26_L786/consumer-expectations-check.txt:12  [47.3]  (needle <5 sig digits)
+           | Sept CPI `>3.5` / `>3.6` / `>3.7` | Kalshi | 78.0 / 36.5m / 13.5m | 82.0m / 46.0 / 15.0m | — | 37.4K / 47.3K / 17.1K OI | |
+        AGENTS/CARL/research/2026-10-26_L786/consumer-expectations-check.txt:13  [47.3]  (needle <5 sig digits)
+           AGENTS/WALTER/research/2026-10-19_afternoon/VIX_History.csv:7604  [47.3]  (needle <5 sig digits)
+        AGENTS/CARL/research/2026-10-26_L786/consumer-expectations-check.txt:14  [47.3]  (needle <5 sig digits)
+           03/10/2020,49.680000,55.660000,43.560000,47.300000
+        … +11 more 🟠 hit(s) on [47.3] across 5 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+     🟢 cleared: marker-adjacent / next to new value / frozen file (3)  [--show-handled to audit]
+
+  🟠 19 CANDIDATE(s), zero certified-stale. A 🟠 is a prompt to LOOK, never a packet: confirm same series AND unit at the hit, then re-run with --unit/--series for the 🔴 verdict.
+==================================================================
+

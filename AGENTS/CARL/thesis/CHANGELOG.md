@@ -2117,3 +2117,12 @@ VX-CARL-SL-05 (Borrowers in Default), VX-CARL-SL-06 (Treasury Transfer), VX-CARL
 ---
 
 *This document is the audit trail for thesis evolution. Log every change with what/why/old→new. Read when assessing conviction or reviewing prediction calibration.*
+
+
+## 2026-10-26 — L786 owner grades, receipt reconciliation and October 29 preparation
+
+- CRL-21 OPEN → STUCK, not resolved or scored: NCO leg failed on Q2; complete Q3 presentation-image review found no matched FY2025/26 versus FY2023 vintage-loss curve for the +50 bp OR-leg. Prior claim that those curves were in EX-99.2/99.3 withdrawn.25% historical mark, original question/window/thresholds and outcome mapping preserved; WQ-161 mass-neutrality proof written into the row. Next source checkpoint11/06 is not a window extension. No capital consequence inferred.
+- RITM Q3 release/supplement read: owned GNMA 60+ DQ 5.8→6.1% (+30 bp), while PLS 12.4→12.0%; current total owned 3.5%. Directional subgroup warning, not causal proof of modification-accounting expiry or a pre-specified whole-Newrez confirm. CRL-20 staysOPEN at 1%; no score/threshold change.
+- All seven existing paper rows receive EXIT decisions after10/26 close, for valid10/27 next-open quotes; remainOPEN with blank close fields until filled. Fresh daily-bar marks are unrealized only; original entries/losses retained. No live trades or new positions.
+- Eleven BOARD disposition transitions from startup deferral to bounded action; terminal correction scope audits and processed filing recorded in research/2026-10-26_L786/RECEIPT_RECONCILIATION.md. No peer-owned grade or generic-inbox drain.
+- GDP/PCE date independently confirmed10/29 08:30 ET; pre-release August-vintage baseline and two-way descriptive reading plan saved at research/2026-10-26_L786/GDP_PCE_OCT29_PREP.md. No new forecast or automatic score gate. Score53/70 v 2.6.6 unchanged.

@@ -1,0 +1,23 @@
+{
+  "time": "2026-10-27T02:37:39+00:00",
+  "transitions": [
+    "SIG-W-20261022-021",
+    "SIG-W-20261023-009",
+    "SIG-W-20261023-010",
+    "SIG-W-20261023-014",
+    "SIG-W-20261023-029",
+    "SIG-W-20261023-038",
+    "SIG-W-20261023-042",
+    "SIG-W-20261025-013",
+    "SIG-W-20261026-009",
+    "SIG-W-20261026-011",
+    "SIG-W-20261027-001"
+  ],
+  "missing": [],
+  "unintended_duplicate_increments": [],
+  "baseline_repeated_ids": {
+    "SIG-W-20261012-007": 2,
+    "SIG-W-20261012-008": 2
+  },
+  "new_repeated_ids_are_intentional_append_only_disposition_history": true
+}

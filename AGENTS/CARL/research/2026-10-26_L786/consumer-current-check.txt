@@ -1,0 +1,61 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/CARL/   (processed/ + archive/ excluded everywhere — historical by design)
+
+  ── value · superseded 44.7 → current 46.7
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (96)
+        AGENTS/SHADE/2026-08-04_athene-q2-m11-grade-card.md:185  [44.7]  (needle <5 sig digits)
+           | **Q1'26** (furn. 5/15/26) | **T+123** | T+80 | T+80 | T+75 | *(not in set)* | 78.33 | **+44.7bp** | **+43 to +48** |
+        AGENTS/SHADE/board_log.tsv:59  [44.7]  (needle <5 sig digits)
+           2026-08-13T17:05:00Z	M11-DUAL-GRADE-FINAL-2026-08-13_athene-q2	acted	GRADE_CARD	*** BOTH LEGS FINAL-GRADED BY REAL-SHADE (first real session
+        AGENTS/SHADE/board_log.tsv:69  [44.7]  (needle <5 sig digits)
+           2026-08-13T18:30:00Z	RULED-BATCH-3-SUPPLY-ADJUSTED-CANARY-BUILT	acted	INSTRUMENT_BUILD	*** RULING OF RECORD: PROME/proposals/2026-08-13_priv
+        AGENTS/OZK/SCENARIOS.md:163  [44.7]  (needle <5 sig digits)
+           Bear case needs EPS ~$5.00 at 6x → **$30** (-33% from $44.70).
+        AGENTS/OZK/SCENARIOS.md:169  [44.7]  (needle <5 sig digits)
+           ⏹️ **DEAD SURFACE — the per-position EV tables below price legs that NO LONGER EXIST (dated-tag 2026-08-23).** The May-15 lines expired 2026
+        AGENTS/OZK/SCENARIOS.md:175  [44.7]  (needle <5 sig digits)
+           **Intrinsic values at $44.70, cost basis ~$4.05 (last add Mar 24).**
+        AGENTS/CORAL/STATUS_DETAIL.md:1106  [44.7]  (needle <5 sig digits)
+           - **Discontinuity — the current series reproduces none of CORAL's recorded readings** (recorded page value → current-series value on the sam
+        AGENTS/WALTER/research/2026-10-12_boot/transcript-3-economy-verify.md:10  [44.7]  (needle <5 sig digits)
+           - NEW October preliminaryMichigan release: https://www.sca.isr.umich.edu/ primary46.3 sentiment,44.7current,47.3expectations. Currentconditi
+        … +88 more 🟠 hit(s) on [44.7] across 61 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+     🟡 in MAIL, point-in-time — usually no action (2: SHADE)
+     🟢 cleared: marker-adjacent / next to new value / frozen file (8)  [--show-handled to audit]
+
+  🟠 96 CANDIDATE(s), zero certified-stale. A 🟠 is a prompt to LOOK, never a packet: confirm same series AND unit at the hit, then re-run with --unit/--series for the 🔴 verdict.
+==================================================================
+
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  SELF mode: 319 files under AGENTS/CARL/ (processed/ + archive/ still excluded — historical by design). Nothing outside your own dir is scanned.
+
+  ── value · superseded 44.7 → current 46.7
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (19)
+        AGENTS/CARL/domain/sources/2026-10-12_catchup/michigan-oct-prelim-extract.txt:1  [44.7]  (needle <5 sig digits)
+           Surveys of Consumers Home Tables Charts Reports Contact Data Site Preliminary Results for October 2026 Oct Sep Oct M-M Y-Y 2026 2026 2025 Ch
+        AGENTS/CARL/domain/sources/2026-10-12_catchup/scf26.txt:2560  [44.7]  (needle <5 sig digits)
+           44.7
+        AGENTS/CARL/domain/sources/2026-10-12_catchup/scf26.txt:2706  [44.7]  (needle <5 sig digits)
+           of debt in 2025, with 44.7 percent of families reporting a credit card balance after their last pay-
+        AGENTS/CARL/domain/sources/2026-10-12_scope-review.md:12  [44.7]  (needle <5 sig digits)
+           | [Michigan October preliminary](https://www.sca.isr.umich.edu/), October9, October survey; [special report](https://data.sca.isr.umich.edu/
+        AGENTS/CARL/research/2026-09-16_key-file-audit/crop0926.txt:569  [44.7]  (needle <5 sig digits)
+           New Mexico .......:        43.0              56.0              36.9              44.7
+        AGENTS/CARL/research/2026-09-16_key-file-audit/crop0926.txt:634  [44.7]  (needle <5 sig digits)
+           New Mexico ......:    36.9      44.7     793        591         537         61.0       50.0
+        AGENTS/CARL/research/2026-10-26_L786/consumer-current-check.txt:10  [44.7]  (needle <5 sig digits)
+           | **Q1'26** (furn. 5/15/26) | **T+123** | T+80 | T+80 | T+75 | *(not in set)* | 78.33 | **+44.7bp** | **+43 to +48** |
+        AGENTS/CARL/research/2026-10-26_L786/consumer-current-check.txt:11  [44.7]  (needle <5 sig digits)
+           AGENTS/SHADE/board_log.tsv:59  [44.7]  (needle <5 sig digits)
+        … +11 more 🟠 hit(s) on [44.7] across 6 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+     🟢 cleared: marker-adjacent / next to new value / frozen file (3)  [--show-handled to audit]
+
+  🟠 19 CANDIDATE(s), zero certified-stale. A 🟠 is a prompt to LOOK, never a packet: confirm same series AND unit at the hit, then re-run with --unit/--series for the 🔴 verdict.
+==================================================================
+
