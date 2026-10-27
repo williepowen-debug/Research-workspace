@@ -1,6 +1,6 @@
-# WALTER continuation — remaining real estate mail processed
+# WALTER — session closed, light reboot handoff
 
-Updated 2026-10-27T17:59:25Z. Will-approved mailbox workflow DONE; full boot remains PARTIAL.
+Updated 2026-10-27T18:12:51Z. Session CLOSED at Will’s request; LIGHT closeout for reboot. Full boot remains PARTIAL and full maintenance remains due. Resume guide: research/2026-10-27_light-reboot/REBOOT.md.
 
 294 email records reduced to 48 active real estate messages: 20 Research Queue and 28 Reference, all three Highlights preserved. 245 newsletter containers moved to reversible Trash after lossless source capture; one personal receipt refiled to Receipts. Exact294 message-label/read-status read-back PASS. No permanent delete, read-status change, filter or external send. Current private worklist: debug/realestate-review-2026-10-27/index.html. The original965-source ZIP/library remains an unchanged snapshot. Source/navigation units (4,181) and duplicate blocks (147) are preservation accounting, not verified signals.
 
@@ -113,7 +113,7 @@ Startup recovery only; boot PARTIAL. No new dispatch or consumption. Routine pus
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-27T18:01:45Z",
+  "as_of": "2026-10-27T18:12:51Z",
   "next_review": "2026-10-27",
   "publication": [
     {
@@ -160,6 +160,11 @@ Startup recovery only; boot PARTIAL. No new dispatch or consumption. Routine pus
       "commit": "f85f712b71d80a41ace9380ef06063770337dbe2",
       "state": "pending",
       "note": "Main mailbox/source records committed; private index and backup remain machine-local. Routine publication coordinated."
+    },
+    {
+      "commit": "f89ec50a588e5ee03524e46ff5993e073edaf35d",
+      "state": "pending",
+      "note": "Prior continuity committed. Current light-closeout persistence is separate."
     }
   ],
   "delivery": {
@@ -182,13 +187,17 @@ Startup recovery only; boot PARTIAL. No new dispatch or consumption. Routine pus
       {
         "path": "AGENTS/WALTER/research/2026-10-27_realestate-processing/mailbox-receipt.json",
         "sha256": "a3f3f50fc89dd2e43c8db8f5a47783c2d6a9c5c1e6ac6f6b421b56960cff861e"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-27_light-reboot/REBOOT.md",
+        "sha256": "802cc86d785a383cc67e021fb535da1cfe7e294e8673bb9124b3084a1f998df4"
       }
     ]
   },
   "procedure": {
     "tier": "light",
     "boot": "PARTIAL",
-    "session": "Approved remaining294-email workflow complete at stated source-processing scope; broad full-maintenance/boot debt retained."
+    "session": "CLOSED at Will request; LIGHT closeout for planned reboot. Resume approved email/signal queue; full maintenance remains due."
   },
   "manual_duties": {
     "0": "Foreign shared scripts dirty; no pull/push or stash in this continuation. Actual root/local/runtime instruction loading preserved from startup; no full-boot claim.",
@@ -198,8 +207,8 @@ Startup recovery only; boot PARTIAL. No new dispatch or consumption. Routine pus
     "13": "Prior registry owner headers preserved; no owner grade or status changed. Full refresh remains prior-duty scope.",
     "12": "Affected STATUS and session breadcrumb refreshed. Full registry/network/MEMORY narrative remains due; no grade refresh.",
     "14": "Three read-only Rule9 verification helpers returned. No domain/CREED launch, research commission, paid access, trade, filter or live external send.",
-    "15": "Source preservation, exact294-ID labels/readstate and protected highlights manually checked. Whole-owner integration, gated sources, lifecycle/READS/inbox duties not cleared.",
-    "16": "Main owned records committed f85f712b7, all16 recipient packets and coordinator packet committed. Foreign scripts excluded, no pull/push. New publication/consumption separate.",
+    "15": "Will requested LIGHT before reboot. Queue/source limits and earlier approvals recovered; full maintenance debt explicitly retained. No new research or mailbox action in closeout.",
+    "16": "Previous work locally committed; light-closeout exact-path commit next. Foreign CATO/launcher work excludes pull/push. Latest16 delivery remains unproven at local origin; no incorporation claim.",
     "ledger": "Real route/delivery/batch events recorded. No kill or trigger fire, correction of WALTER claim, doorbell or full owner refresh; no artificial kill_log/REGISTRY/event-ledger timestamps.",
     "telegram": "Will retired WALTER Telegram October 27. Project disabled and launcher flags removed, existing tests 29/29 PASS. Own config/charter/memory committed; shared launcher scripts remain PROME commit custody, packet authored. Boot-basis charter hash now requires review; no automatic re-attestation.",
     "11": "Six qualified cards043\u2013048,16 create-only packets; BM11 closed4181 NOTE preservation units, BM12 closed9 research units. Declaration followed initial enumeration; timing limit explicit.",
