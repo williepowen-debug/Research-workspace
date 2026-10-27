@@ -1,77 +1,123 @@
 # CARL SCRATCH
-**Last session:** 2026-10-22 ~02:49 UTC (22:49 ET 10/21), PROME-spawned Claude Code desk session (Opus 5.5), catch-up wave 3 (prome-56; Will 21:56 ET authorization).
-**Type:** Whole-inbox drain + BOARD gap close + the 10/20 due rows (CRL-29 first grade, Q3 SYF/ALLY/COF) + docket 14-day check. No trade, no threshold/band/score-rule move; 53/70 v2.6.6 unchanged.
+**Last session:** 2026-10-26 21:18 ET (UTC 2026-10-27T01:18:21+00:00)
+**Type:** Will-requested Codex startup, instruction loading and duty/approval recovery. No new research direction, trade, threshold, probability or score change.
 
-**PRIORITY-1:** **Mon 2026-10-26 — CRL-21 formal Q3 resolution: grade the vintage-loss OR-leg** (ALLY FY2025/26 vs FY2023 at comparable seasoning; ALLY's EX-99.2/99.3 curves are images — read them or use ABS CNL curves) + RITM Q3 (CRL-20 leg). Same day: fintech feed (WQ228). Then Thu 10/29 September PCE + Q3 GDP (the broad-spending test) and EART September (V2).
+**PRIORITY-1:** **2026-10-27 — review UNREVIEWED 10/26 duties:** CRL-21 ALLY vintage-loss OR-leg at comparable seasoning, RITM Q3 leg, fintech-feed source/REGINALD agreement. Existing authority persists; startup did not grade these.
 
 ---
 
-## CHANGES SINCE LAST SESSION (10/15 → 10/21)
-- 8 WALTER action signals + WATT + 2 PROME gap packets landed while dark; PROME's boot gate flagged 6 aged ≥2 days. All drained this session.
-- Q3 SYF/ALLY/COF printed 10/20 (8-K 2.02). September PPI printed 10/15. HY 331bp 10/16 completed RED-FT-02/REG-T-03 3/3 (theirs).
-- 10/20 docket rows went past due unworked (desk dark): CRL-29, Q3 prints, STUE, AFT v. ED, Russia diesel.
-- FRED in maintenance all of 10/21 night: every FRED cell UNAVAILABLE.
+## CHANGES SINCE LAST SESSION
+- Last research synthesis remains 10/21 22:50 ET. Since then Michigan final, Q3 card/health-cost data and industrial/consumer-context packets arrived; boot found ten action-addressed INDEX receipt gaps.
+- 10/22 claims and 10/23 Michigan docket dates passed unintegrated; next primary review 10/27. No unfinished row pruned.
+- FRED reachable at this boot (unlike last handoff). Monitoring caches updated; values remain candidate evidence with published source dates, not fresh dashboard claims.
+- Root startup pull deferred: NEXUS dirty at preflight; ISHM also dirty later. No foreign work touched. Cross-runtime presence/transport UNKNOWN.
 
 ## WHAT HAPPENED
-1. **Drain:** 8 lane signals (all `acted`) + 3 BOARD info (`noted`: HY 331, Car-Mart reprieve, Edmunds) logged in BOTH ledgers; 11 files `git mv`'d to processed/. `board_gap` 0 owed.
-2. **PPI verified at BLS API:** FD +1.343% m/m SA, +6.338% y/y; core ex-FET +0.488% / +5.042%; gasoline +20.28%. KB-538.
-3. **CRL-29 first grade = PANEL NO VERDICT** (C1–C5, nine SEC certificates re-fetched, exact decimal): stock ROSE in 5 of 6 months. Null; 30% unchanged; packet to RED. KB-536.
-4. **Q3 issuers:** SYF NCO 4.79% (−64bp QoQ), COF card 3.98% (−73bp), ALLY auto 1.89% (+32bp). **CRL-31 50→1%, CRL-20 35→1%, CRL-12 20→1%** (reachability, two-number rule). CRL-21 vintage leg UNREVIEWED → 10/26. KB-537.
-5. OTTO subprime panel/funding/Ally (KB-539) and cost-context items (KB-540) integrated; scope finding re-tested (card §7): concentrated stress supported, broad collapse NOT established.
-6. Docket: GDP+PCE re-dated 10/30→**10/29** (BEA verified); FOMC 10/28, claims 10/22, Carvana 10/28 added; 4 past-due rows re-dated UNREVIEWED; CRL-29 row pruned into the HHDC row.
-7. 6 corrections receipted (2 APPLIED, 4 NO-OP); STATUS rotated (26,462 → 22,769 B, archive sha 0a2577812c9e).
+1. Resolved Git root and explicitly read root CLAUDE/AGENTS/USER, full local CLAUDE and boot surfaces. Local/intermediate AGENTS.md absent on disk. Runtime: OpenAI Codex; exact model UNKNOWN; session 01a17ae9-24b4-78c1-91a5-e6d407a3bd6a.
+2. Full boot ran 32.1s: seven scripts OK; BOARD initially FAIL on ten action receipt gaps. Both owned ledgers now have eleven dated deferrals (ten INDEX gaps plus EART closing-date correction), review 10/27; no primary grade claimed.
+3. Three corrections receipted DEFERRED to 10/27 after reading; applications remain pending. Standalone BOARD now 995 logged / 731 unrecorded / zero unrecorded CARL actions; receipt is not integration.
+4. Recovered WQ-151/182/183/227/228/287/288 and WQ-516 I3 boundaries. ISHM owns industrial cycle; CARL consumer-cost read only. Saved detailed source/authority receipt and monitor output under domain/sources/2026-10-26_startup-recovery/.
 
 ## STATUS CHANGES
 | Item | Change |
 |---|---|
-| CRL-29 | OPEN ungraded → first grade NO VERDICT (30% unchanged) |
-| CRL-31 / CRL-20 / CRL-12 | 50→1% / 35→1% / 20→1% |
-| Issuer credit row | August monthly → Q3 2026 quarterly |
-| PPI row | NEW (September) |
-| Gas / diesel / Brent / HY | AAA 10/21 $4.264, FL $4.020; diesel $6.317 (same as 10/15, possible stale parse); BZ=F $110.21 eve (contract UNKNOWN); HY 331 (10/16) |
-| KB | 535 → 540 rows (536–540) |
-| Scores | 53/70, v2.6.6, 13 OPEN — unchanged |
+| Dashboard | Added stale-snapshot / startup notice; research vintage 10/21 preserved |
+| Score / predictions | 53/70 v2.6.6; 13 OPEN — unchanged, not re-assessed |
+| BOARD receipts | 984 → 995, all additions deferred to 10/27 |
+| Correction receipts | Three new DEFERRED entries; missing-receipt count 3 → 0, not application completion |
+| Script caches | 48 retrieved rows across four caches; no promotion to canonical claims |
 
 ---
 
 ## NEXT SESSION SHOULD
 
-### IMMEDIATE (by 10/23)
-- Thu 10/22: claims (LABOR's, reference only). Fri 10/23: UMich October final (1Y 4.7 / 5-10Y 3.5 / sentiment 46.3 prelim).
+### IMMEDIATE (next 24hrs)
+- **10/27:** grade the 10/26 CRL-21/RITM/fintech obligations above; preserve release/filing and comparable-seasoning distinctions. CRL-25 Q3 window also elapsed; reconcile BROCK's owner count rather than inventing a parent grade.
+- **10/27:** primary-integrate eleven deferred BOARD reads and apply/scoped-NO-OP the three corrections. Michigan final must replace preliminary only after verification; KFF worker contribution and total premium remain distinct.
+- **10/27:** generic inbox triage and remaining child due flags (DOC-P02/P05, POP-P03, GIG-P02; existing GIG-P03/P06 structural instrument gap); no autonomous child takeover. STUE assignment remains PROME reconciliation.
 
 ### UPCOMING (this week)
-- Mon 10/26: CRL-21 vintage leg + RITM; fintech feed. Paper sleeve: PS-0001..0007 antecedents now ~1% — decide disposition under TERRY paper rules (no capital).
-- Wed 10/28: FOMC (V12 count); STUE + AFT v. ED re-dated (UNREVIEWED; STUE assignment is PROME's); Carvana Q3 (context).
-- Thu 10/29: Q3 GDP + **September PCE/saving rate** (broad-spending test); EART September 10-D (V2 deep tier).
+- **10/28:** FOMC V12 count; STUE ES-01/04/06 and AFT v. ED UNREVIEWED carry; Carvana context.
+- **10/29:** Q3 GDP + September PCE/saving rate (broad-spending test), DOC-P10 and EART September V2 deep tier.
+- **10/30:** WQ-516 I3 answer: existing row/cadence/source/want/decline plus decision informed. No new research/backtest commissioned; not yet standing.
+- **10/31:** Section 122 review. Paper PS-0001..0007 antecedents still near-dead from prior grade; disposition remains due, no capital.
 
 ### UPCOMING (next 2 weeks)
-- 10/31 Sec-122 · 11/04 Russia diesel (OSPREY/BRENT) · 11/06 October NFP (V16) · 11/12 October CPI (CRL-10) · 11/13 DR1 · 11/15 ABS rating actions · 11/17 retail.
+- **11/04:** Russia diesel (OSPREY/BRENT). **11/06:** October NFP (V16). **11/10 vs own 11/12:** CPI date conflict between new beef-watch L797 and own inferred docket; verify primary schedule first. **11/12:** PHAN/POLLY window. **11/13:** DR1 refresh.
 
-### BACKLOG
-- VX-RED-009 auto-fraud count to RED (owed since 10/20, not done).
-- REVISION_LEDGER.tsv regeneration (stops 9/24).
-- board_log.tsv reads 82% in read_cap_check but is grep-only per CLAUDE 5b.1 (checker heuristic counts it whole); not rotated.
-- ~600 unrecorded INFO BOARD rows (no action:[CARL]) — backlog, not owed.
+### BACKLOG (no deadline)
+- VX-RED-009 auto-fraud count to RED still owed from 10/20; REVISION_LEDGER.tsv stops 9/24.
+- 731 unrecorded non-action INDEX rows remain; no substantive review inferred from a clean action-gap check.
+- 23/52 declared child ledgers stale; eleven other TSVs outside scan. Do not advance child freshness without owner refresh. ABS_BASELINE already frozen, not a live stale ledger.
+- Read-cap checker has no CARL READS.tsv declaration; charter 48,517 B explicit runtime read outside its perimeter. board_log.tsv grep-only warning retained; no structural repair authorized by boot.
 
 ---
 
-## OUTBOX (this session)
-| File | To | Summary |
-|---|---|---|
-| AGENTS/RED/inbox/2026-10-21_from-CARL_crl29-first-grade-no-verdict.md | RED | CRL-29 panel NO VERDICT; ASK none |
-| PROME/inbox/2026-10-21_from-CARL_catchup-wave3.md | PROME | delivery memo + COMPLETION |
+## OUTBOX (0 new packets)
+No external message or recipient-consumption claim. Startup artifacts are in CARL's own tree. Prior authored RED/PROME delivery receipts remain in Git and the prior handoff; no re-send.
 
-## INBOX (0 live items at 22:49 ET 10/21)
-All 11 filed to processed/ with ledger rows (lane-descending count = 0).
+## INBOX (22 live items; substantive work retained)
+| File | State / next action |
+|---|---|
+| 2026-10-22_from-DEWEY_genius-stablecoin-deposit-flight.md | UNREVIEWED; normal boot did not drain generic inbox; triage 2026-10-27 |
+| 2026-10-22_from-DEWEY_screwworm-beef-food-cpi.md | UNREVIEWED; normal boot did not drain generic inbox; triage 2026-10-27 |
+| 2026-10-22_from-PROME_L784-FEMA-cost-shift-household-aid-lane-INFO.md | UNREVIEWED; normal boot did not drain generic inbox; triage 2026-10-27 |
+| 2026-10-23_from-DAEDALUS_ISHM-built-seams-with-CARL-INFO.md | UNREVIEWED; normal boot did not drain generic inbox; triage 2026-10-27 |
+| 2026-10-23_from-DAEDALUS_WQ508-harness-audit-lines.md | UNREVIEWED; normal boot did not drain generic inbox; triage 2026-10-27 |
+| 2026-10-23_from-DEWEY_research-history-meta-review.md | UNREVIEWED; normal boot did not drain generic inbox; triage 2026-10-27 |
+| 2026-10-23_from-PROME_WQ516-I3-debt-buyer-recoveries-question.md | Read for authority recovery; answer owed by 10/30; not standing research |
+| 2026-10-24_from-PROME_BOARD-ledger-gap-SIG-W-20261022-021.md | UNREVIEWED; normal boot did not drain generic inbox; triage 2026-10-27 |
+| 2026-10-24_from-PROME_WQ516-I3-one-added-question-which-decision.md | Read for authority recovery; answer owed by 10/30; not standing research |
+| 2026-10-25_from-DEWEY_syf-q3-and-meta-review-correction.md | UNREVIEWED; normal boot did not drain generic inbox; triage 2026-10-27 |
+| 2026-10-25_from-PROME_BOARD-ledger-gap-six-additional-aged-signals.md | UNREVIEWED; normal boot did not drain generic inbox; triage 2026-10-27 |
+| 2026-10-26_from-PROME_boot-board-receipt-gap.md | Read; addressed by dated ledger deferrals; primary integration remains pending |
+| WALTER/SIG-W-20261023-009.md | Reviewed; deferred to 2026-10-27; primary integration pending; retained delivery copy |
+| WALTER/SIG-W-20261023-010.md | Reviewed; deferred to 2026-10-27; primary integration pending; retained delivery copy |
+| WALTER/SIG-W-20261023-014.md | Reviewed; deferred to 2026-10-27; primary integration pending; retained delivery copy |
+| WALTER/SIG-W-20261023-029.md | Reviewed; deferred to 2026-10-27; primary integration pending; retained delivery copy |
+| WALTER/SIG-W-20261023-038.md | Reviewed; deferred to 2026-10-27; primary integration pending; retained delivery copy |
+| WALTER/SIG-W-20261023-042.md | Reviewed; deferred to 2026-10-27; primary integration pending; retained delivery copy |
+| WALTER/SIG-W-20261025-013.md | Reviewed; deferred to 2026-10-27; primary integration pending; retained delivery copy |
+| WALTER/SIG-W-20261026-009.md | Reviewed; deferred to 2026-10-27; primary integration pending; retained delivery copy |
+| WALTER/SIG-W-20261026-011.md | Reviewed; deferred to 2026-10-27; primary integration pending; retained delivery copy |
+| WALTER/SIG-W-20261027-001.md | Reviewed; deferred to 2026-10-27; primary integration pending; retained delivery copy |
+
+---
 
 ## WORKBOOK HEALTH
-| TSV | Lines | Last write | State |
+Filesystem timestamps below are not data freshness.
+| TSV | Lines | Last modified | State |
 |---|---|---|---|
-| KB.tsv | 537 | 2026-10-21 22:42 ET | LIVE/event-driven |
-| ABS_BASELINE.tsv | 74 | 2026-07-11 | FROZEN/reference (boot flags 102d — frozen by banner) |
-| VX / BNPL_STRESS / FLOW / STATE_DIFFUSION / TRENDS | 122 / 61 / 26 / 64 / 41 | 2026-06/07 | FROZEN/reference |
+| ABS_BASELINE.tsv | 74 | 2026-07-11 14:15 ET | FROZEN/reference; no data refresh |
+| BNPL_STRESS.tsv | 61 | 2026-06-27 21:25 ET | FROZEN/reference; no data refresh |
+| FLOW.tsv | 26 | 2026-06-27 21:25 ET | FROZEN/reference; no data refresh |
+| KB.tsv | 538 | 2026-10-21 22:50 ET | LIVE/event-driven; real facts not refreshed (10/21 vintage) |
+| SCHEMA.tsv | 17 | 2026-07-25 21:06 ET | Schema/reference |
+| STATE_DIFFUSION.tsv | 64 | 2026-06-27 21:25 ET | FROZEN/reference; no data refresh |
+| TRENDS.tsv | 41 | 2026-06-27 21:25 ET | FROZEN/reference; no data refresh |
+| VX.tsv | 122 | 2026-07-11 14:15 ET | FROZEN/reference; no data refresh |
 
-## CHECKPOINT RECEIPT
-- 13d board_gap --closeout (verbatim, rc 0): "BOARD scan run, 12 new since SIG-W-20261021-019, 984 logged" — counts receipts since a cursor, not the backlog; action owed = 0.
-- 13c retirement sweep: 3 candidates, all RETAINED, 0 retired (domain/sources/2026-10-21_catchup/retirement-sweep.json).
-- See PROME memo COMPLETION block and the commit message for the check list (consistency 0 hard / 6 soft · corrections rc 0 · board_gap 0 owed · roadmap --check clean · read-cap rc 0, STATUS 22,769 B).
+---
+
+## URGENT
+- No new Will decision. Existing 10/26 work is UNREVIEWED with next review 10/27; research authority persists.
+
+## CLOSEOUT RECEIPT
+| Obligation | Result / scope |
+|---|---|
+| Git pull | DEFERRED: foreign dirty paths; no stash/pull performed |
+| Full boot | Seven scripts OK; BOARD initially FAIL; raw output saved |
+| BOARD standalone + assertion | rc 0; 995 logged, 731 non-action backlog; eleven dated deferrals are not primary integration |
+| Corrections | rc 0 receipt coverage; three DEFERRED applications owed 10/27 |
+| Consistency | rc 0, zero hard / six soft; no probabilities changed |
+| Roadmap | --check rc 0, 31 threads; no thread mutation, so no rebuild required |
+| Read-cap | rc 0 within heuristic perimeter; grep-only ledger warning, undeclared charter explicit-read gap retained |
+| Weekday / orphan | Weekday check rc 0 on three canonical dated files; orphan check advisory: foreign NEXUS/ISHM/PROME paths not staged |
+| Retirement | Three >60-day candidates retained with checked live/pending anchors; zero retired; JSON receipt saved |
+| Consumer propagation / memory | Not applicable: no figure superseded, no new memory lesson; no child refresh, TEAM data clocks unchanged |
+| Ledger nudge | STATUS change is startup/staleness metadata only. Event-driven KB unchanged; no fake data refresh |
+| Persistence | Commit/push receipts are in actual session output; no remote delivery claimed before fresh-fetch confirmation |
+
+BOARD scan run, 0 new since SIG-W-20261027-001, 995 logged
+
+Startup recovery and handoff persisted; substantive research remains pending. Hygiene limitations: 23 stale child-ledger flags and read-cap coverage gap retained. No Claude-native capability or cross-runtime handoff certified.

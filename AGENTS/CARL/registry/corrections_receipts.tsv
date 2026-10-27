@@ -37,3 +37,6 @@ receipt_date	correction_id	action	note
 2026-10-22T02:47Z	COR-20261015-22	NO-OP	scope=CARL never carried 325bp as the first HY cell over 320. STATUS HY row (10/21) states 325/323/331 as the three-close run only; 
 2026-10-22T02:47Z	COR-20261016-02	NO-OP	scope=CARL carries no Kansas bank-failure claim (grep STATUS, NEXUS_BRIEF, KB 10/21). Bank failures are REGINALD's; 
 2026-10-22T02:47Z	COR-20261021-10	NO-OP	scope=CARL never carried the superseded Oct-22 Car-Mart deadline. The 10/21 ledger note records the corrected Nov-1 date; 
+2026-10-27T01:14Z	COR-20261022-40	DEFERRED	review=2026-10-27; Full correction read at startup. Reconcile any live FINRA ranking consumers before adoption; September is second-highest, June is record; no new margin-debt grade.
+2026-10-27T01:14Z	COR-20261022-48	DEFERRED	review=2026-10-27; Full correction read at startup. Audit CARL live consumers before applying or scoped NO-OP; preserve unsupported cyber-detail withdrawals and weakened certificate mitigant; no bank compromise or consumer grade inferred.
+2026-10-27T01:14Z	COR-20261027-01	DEFERRED	review=2026-10-27; Full correction and lane copy read. Reconcile EART 2026-4 August 31 closing versus August 28 filing at own claim surfaces; no current funding-access grade. UTC dispatch date is next day relative to ET.

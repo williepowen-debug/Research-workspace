@@ -1,0 +1,26 @@
+{
+  "observed_at": "2026-10-26T21:17:08.028092-04:00",
+  "age_basis": "first-add Git commit date; local calendar cutoff strictly before 2026-08-27",
+  "retained": [
+    {
+      "path": "domain/sources/ally/RECLASSIFICATION_AUDIT_FY2025.md",
+      "basis": "live workbook/KB.tsv KB-CARL-223 reference checked"
+    },
+    {
+      "path": "domain/sources/SYF_COF_Q1_2026.md",
+      "basis": "CRL-12 OPEN, FY2026 resolver still pending"
+    },
+    {
+      "path": "domain/sources/2026-05_NYFed_HHDC_2026Q1_condensed_brief.md",
+      "basis": "thesis/HHDC_Q2_2026_GRADING_CARD.md section 1 live baseline"
+    }
+  ],
+  "not_eligible": [
+    {
+      "path": "research/2026-08-27_auto_outflow_split_registration_CHG-RED-049.md",
+      "basis": "60 calendar days, not >60; also CRL-29 OPEN pending artifact"
+    }
+  ],
+  "retired": [],
+  "unresolved": []
+}
