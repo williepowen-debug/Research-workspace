@@ -17,15 +17,111 @@ $script:active=$null; $script:completed=0; $script:failed=0
 foreach ($entry in $data.agents) {
     $script:settings[$entry.name]=@{runtime=$entry.default_runtime;task=$null}
 }
-$bg=[Drawing.Color]::FromArgb(242,244,248)
-$ink=[Drawing.Color]::FromArgb(29,40,57)
-$muted=[Drawing.Color]::FromArgb(87,100,120)
-$accent=[Drawing.Color]::FromArgb(42,91,164)
+$bg=[Drawing.Color]::FromArgb(11,23,42)
+$surface=[Drawing.Color]::FromArgb(21,39,63)
+$raised=[Drawing.Color]::FromArgb(32,54,87)
+$ink=[Drawing.Color]::FromArgb(245,249,255)
+$muted=[Drawing.Color]::FromArgb(178,196,217)
+$accent=[Drawing.Color]::FromArgb(101,238,224)
+$selection=[Drawing.Color]::FromArgb(23,70,83)
+$border=[Drawing.Color]::FromArgb(54,82,109)
+# Keep the native checked-list keyboard/events, painting only its appearance.
+Add-Type -ReferencedAssemblies System.Windows.Forms,System.Drawing -TypeDefinition @'
+using System;
+using System.Drawing;
+using System.Runtime.InteropServices;
+using System.Windows.Forms;
+public class LauncherAgentList : CheckedListBox {
+    public Color AccentColor { get; set; }
+    public Color SelectionColor { get; set; }
+    public Color MutedColor { get; set; }
+    protected override void OnDrawItem(DrawItemEventArgs e) {
+        if (e.Index < 0 || e.Index >= Items.Count) return;
+        bool selected = (e.State & DrawItemState.Selected) != 0;
+        Color background = selected ? SelectionColor : BackColor;
+        using (var brush = new SolidBrush(background)) e.Graphics.FillRectangle(brush, e.Bounds);
+        int box = Math.Max(12, Math.Min(e.Bounds.Height - 6, Font.Height - 1));
+        var bounds = new Rectangle(e.Bounds.Left + 6, e.Bounds.Top + (e.Bounds.Height - box) / 2, box, box);
+        bool check = GetItemChecked(e.Index);
+        if (check) {
+            using (var brush = new SolidBrush(AccentColor)) e.Graphics.FillRectangle(brush, bounds);
+            using (var pen = new Pen(BackColor, Math.Max(2, box / 7f))) {
+                pen.StartCap = pen.EndCap = System.Drawing.Drawing2D.LineCap.Round;
+                e.Graphics.DrawLines(pen, new PointF[] {
+                    new PointF(bounds.Left + box * .22f, bounds.Top + box * .5f),
+                    new PointF(bounds.Left + box * .43f, bounds.Top + box * .72f),
+                    new PointF(bounds.Left + box * .8f, bounds.Top + box * .27f) });
+            }
+        } else {
+            using (var pen = new Pen(MutedColor)) e.Graphics.DrawRectangle(pen, bounds);
+        }
+        var text = new Rectangle(bounds.Right + 8, e.Bounds.Top,
+            Math.Max(0, e.Bounds.Right - bounds.Right - 12), e.Bounds.Height);
+        TextRenderer.DrawText(e.Graphics, GetItemText(Items[e.Index]), Font, text, ForeColor,
+            TextFormatFlags.VerticalCenter | TextFormatFlags.EndEllipsis | TextFormatFlags.NoPrefix);
+        if ((e.State & DrawItemState.Focus) != 0)
+            ControlPaint.DrawFocusRectangle(e.Graphics, e.Bounds, ForeColor, background);
+    }
+}
+public class LauncherButton : Button {
+    protected override void OnPaint(PaintEventArgs e) {
+        if (Enabled) { base.OnPaint(e); return; }
+        // The native disabled text color is nearly black on the navy theme.
+        Color background = Color.FromArgb(11, 23, 42);
+        Color text = Color.FromArgb(137, 158, 182);
+        using (var brush = new SolidBrush(background)) e.Graphics.FillRectangle(brush, ClientRectangle);
+        using (var pen = new Pen(Color.FromArgb(54, 82, 109)))
+            e.Graphics.DrawRectangle(pen, 0, 0, Width - 1, Height - 1);
+        TextRenderer.DrawText(e.Graphics, Text, Font, ClientRectangle, text,
+            TextFormatFlags.HorizontalCenter | TextFormatFlags.VerticalCenter | TextFormatFlags.NoPrefix);
+    }
+}
+public static class LauncherWindowTheme {
+    [DllImport("dwmapi.dll")]
+    public static extern int DwmSetWindowAttribute(IntPtr window, int attribute, ref int value, int size);
+}
+'@
 $form=New-Object Windows.Forms.Form
 $form.Text='Agent Launcher'; $form.ClientSize=New-Object Drawing.Size(1160,780)
 $form.MinimumSize=New-Object Drawing.Size(1176,819)
 $form.StartPosition='CenterScreen'; $form.BackColor=$bg; $form.ForeColor=$ink
 $form.Font=New-Object Drawing.Font('Segoe UI',10); $form.AutoScaleMode='Dpi'
+$iconPath=Join-Path $PSScriptRoot 'assets\agent-launcher.ico'
+if (Test-Path -LiteralPath $iconPath) {$form.Icon=New-Object Drawing.Icon($iconPath)}
+function Style-Button($control,$primary=$false) {
+    $control.UseVisualStyleBackColor=$false; $control.FlatStyle='Flat'
+    $control.FlatAppearance.BorderSize=1; $control.FlatAppearance.BorderColor=$border
+    $control.BackColor=$raised; $control.ForeColor=$ink
+    $control.FlatAppearance.MouseOverBackColor=[Drawing.Color]::FromArgb(45,71,107)
+    $control.FlatAppearance.MouseDownBackColor=$selection
+    if ($primary) {
+        $control.BackColor=$accent; $control.ForeColor=$bg
+        $control.FlatAppearance.BorderColor=$accent
+        $control.FlatAppearance.MouseOverBackColor=[Drawing.Color]::FromArgb(142,247,236)
+        $control.FlatAppearance.MouseDownBackColor=[Drawing.Color]::FromArgb(61,214,198)
+    }
+}
+function Style-Input($control) {
+    $control.BackColor=$surface; $control.ForeColor=$ink
+    if ($control -is [Windows.Forms.ComboBox]) {
+        $control.FlatStyle='Flat'; $control.DrawMode='OwnerDrawFixed'
+        $control.Add_DrawItem({
+            param($sender,$e)
+            if ($e.Index -lt 0) {return}
+            $fill=$surface
+            if (($e.State -band [Windows.Forms.DrawItemState]::Selected) -ne 0) {$fill=$selection}
+            $brush=New-Object Drawing.SolidBrush($fill)
+            try {$e.Graphics.FillRectangle($brush,$e.Bounds)} finally {$brush.Dispose()}
+            [Windows.Forms.TextRenderer]::DrawText($e.Graphics,[string]$sender.Items[$e.Index],$sender.Font,$e.Bounds,$ink,([Windows.Forms.TextFormatFlags]::VerticalCenter -bor [Windows.Forms.TextFormatFlags]::NoPrefix))
+            $e.DrawFocusRectangle()
+        })
+    }
+}
+function Style-Menu($menu) {
+    # System rendering honors the explicit colors instead of the light gradient.
+    $menu.RenderMode='System'; $menu.BackColor=$surface; $menu.ForeColor=$ink
+    $menu.ShowImageMargin=$false
+}
 function Label($text,$x,$y,$width,$height,$size=10) {
     $c=New-Object Windows.Forms.Label
     $c.Text=$text; $c.SetBounds($x,$y,$width,$height)
@@ -33,11 +129,10 @@ function Label($text,$x,$y,$width,$height,$size=10) {
     return $c
 }
 function Button($text,$x,$y,$width) {
-    $c=New-Object Windows.Forms.Button
+    $c=New-Object LauncherButton
     $c.Text=$text; $c.SetBounds($x,$y,$width,40)
     $c.UseMnemonic=$false
-    $c.FlatStyle='Flat'; $c.FlatAppearance.BorderSize=0
-    $c.BackColor=[Drawing.Color]::White; $c.ForeColor=$ink
+    Style-Button $c
     $c.Cursor='Hand'; $form.Controls.Add($c)
     return $c
 }
@@ -66,22 +161,26 @@ foreach ($g in ($data.agents | Select-Object -ExpandProperty group -Unique)) {
 $categories.Add_DrawItem({
     param($sender,$e)
     if ($e.Index -lt 0) {return}
-    $e.DrawBackground()
+    $fill=$surface; $text=$muted
+    if (($e.State -band [Windows.Forms.DrawItemState]::Selected) -ne 0) {$fill=$selection; $text=$accent}
+    $brush=New-Object Drawing.SolidBrush($fill)
+    try {$e.Graphics.FillRectangle($brush,$e.Bounds)} finally {$brush.Dispose()}
     $rect=New-Object Drawing.Rectangle(($e.Bounds.X+9),$e.Bounds.Y,($e.Bounds.Width-16),$e.Bounds.Height)
-    [Windows.Forms.TextRenderer]::DrawText($e.Graphics,$sender.Items[$e.Index].Display,$sender.Font,$rect,$e.ForeColor,([Windows.Forms.TextFormatFlags]::WordBreak -bor [Windows.Forms.TextFormatFlags]::VerticalCenter))
+    [Windows.Forms.TextRenderer]::DrawText($e.Graphics,$sender.Items[$e.Index].Display,$sender.Font,$rect,$text,([Windows.Forms.TextFormatFlags]::WordBreak -bor [Windows.Forms.TextFormatFlags]::VerticalCenter))
     $e.DrawFocusRectangle()
 })
 $searchLabel=Label 'Find an agent' 274 111 238 26
 $search=New-Object Windows.Forms.TextBox
 $search.SetBounds(274,145,238,30); $form.Controls.Add($search)
-$list=New-Object Windows.Forms.CheckedListBox
+$list=New-Object LauncherAgentList
+$list.AccentColor=$accent; $list.SelectionColor=$selection; $list.MutedColor=$muted
 $list.SetBounds(274,188,238,424); $list.IntegralHeight=$false
 $list.BorderStyle='None'; $list.Font=New-Object Drawing.Font('Segoe UI',11)
 $list.CheckOnClick=$false; $list.DisplayMember='Display'; $form.Controls.Add($list)
 $count=Label '' 274 622 238 26 9
 $count.ForeColor=$muted
 $tray=New-Object Windows.Forms.Panel
-$tray.Height=110; $tray.Dock='Bottom'; $tray.BackColor=[Drawing.Color]::White
+$tray.Height=110; $tray.Dock='Bottom'; $tray.BackColor=$surface
 $form.Controls.Add($tray)
 $selectionLabel=Label 'Selected agents' 24 10 140 24
 $tray.Controls.Add($selectionLabel)
@@ -90,10 +189,11 @@ $chips.SetBounds(24,42,800,54); $chips.Anchor='Top,Left,Right'
 $chips.WrapContents=$false; $chips.AutoScroll=$true; $tray.Controls.Add($chips)
 $batch=Button 'Review & launch 0 agents' 856 42 280
 $tray.Controls.Add($batch); $batch.Anchor='Top,Right'
-$batch.BackColor=$accent; $batch.ForeColor=[Drawing.Color]::White
+Style-Button $batch $true
 $clear=Button 'Clear all' 170 5 90
 $clear.Height=30; $tray.Controls.Add($clear)
 $name=Label 'Select an agent' 540 107 596 38 21
+$name.ForeColor=$accent
 $purpose=Label '' 542 151 594 48 11
 $purpose.ForeColor=$muted
 $group=Label '' 542 204 594 24
@@ -122,10 +222,11 @@ $status.ForeColor=$muted
 $details=New-Object Windows.Forms.LinkLabel
 $details.Text='Show launch details'; $details.SetBounds(542,640,594,24)
 $details.LinkColor=$accent; $details.ActiveLinkColor=$accent; $form.Controls.Add($details)
+$details.VisitedLinkColor=$accent
 $results=New-Object Windows.Forms.TextBox
 $results.SetBounds(542,674,594,110); $results.Multiline=$true; $results.ReadOnly=$true
 $results.Visible=$false
-$results.ScrollBars='Vertical'; $results.BackColor=[Drawing.Color]::White
+$results.ScrollBars='Vertical'
 $results.Font=New-Object Drawing.Font('Segoe UI',9); $form.Controls.Add($results)
 $stop=Button 'Stop remaining' 856 5 280
 $stop.Height=30; $tray.Controls.Add($stop); $stop.Anchor='Top,Right'
@@ -139,6 +240,16 @@ $tooltip.SetToolTip($task,'Saved for this agent while the app is open. Applies o
 $tooltip.SetToolTip($savedGroups,'Choose a saved group to load it, or use Manage to save or rename one. Groups remember agents and runtimes.')
 $tooltip.SetToolTip($usePreset,'Fill the highlighted agent instructions with this preset, then edit them as needed.')
 $tooltip.SetToolTip($presetActions,'Apply the preset to all selected agents, including agents hidden by a filter.')
+foreach ($input in @($savedGroups,$search,$runtime,$preset,$task,$results,$categories,$list)) {Style-Input $input}
+foreach ($menu in @($groupMenu,$presetMenu)) {Style-Menu $menu}
+$form.Add_Shown({
+    # Older Windows builds can decline the title-bar hint; controls stay themed.
+    try {
+        $dark=1
+        $code=[LauncherWindowTheme]::DwmSetWindowAttribute($form.Handle,20,[ref]$dark,4)
+        if ($code -ne 0) {[void][LauncherWindowTheme]::DwmSetWindowAttribute($form.Handle,19,[ref]$dark,4)}
+    } catch {}
+})
 
 function Set-DetailsVisible($visible) {
     if ($results.Visible -eq $visible) {return}
@@ -165,10 +276,11 @@ function Refresh-SelectionTray {
                 $chips.Controls.Add($empty)
             }
             foreach ($entry in $members) {
-                $chip=New-Object Windows.Forms.Button
+                $chip=New-Object LauncherButton
                 $chip.Text=$entry.name+'  x'; $chip.Tag=$entry.name
                 $chip.AutoSize=$true; $chip.Height=34; $chip.FlatStyle='Flat'
-                $chip.FlatAppearance.BorderSize=0; $chip.BackColor=$bg; $chip.Cursor='Hand'
+                Style-Button $chip
+                $chip.ForeColor=$accent; $chip.Cursor='Hand'
                 $chip.Margin=New-Object Windows.Forms.Padding(0,0,8,0)
                 $chip.AccessibleName='Remove '+$entry.name+' from selection'
                 $tooltip.SetToolTip($chip,'Remove '+$entry.name+' from the batch selection')
@@ -304,14 +416,15 @@ function Delete-Group {
 function Ask-GroupName($title,$initial) {
     $dialog=New-Object Windows.Forms.Form
     $dialog.Text=$title; $dialog.ClientSize=New-Object Drawing.Size(420,140)
-    $dialog.StartPosition='CenterParent'; $dialog.Font=$form.Font; $dialog.BackColor=$bg
+    $dialog.StartPosition='CenterParent'; $dialog.Font=$form.Font; $dialog.BackColor=$bg; $dialog.ForeColor=$ink; $dialog.Icon=$form.Icon
     $dialog.FormBorderStyle='FixedDialog'; $dialog.MaximizeBox=$false; $dialog.MinimizeBox=$false
     $input=New-Object Windows.Forms.TextBox
     $input.SetBounds(20,20,380,30); $input.Text=$initial; $input.MaxLength=60
-    $ok=New-Object Windows.Forms.Button
+    $ok=New-Object LauncherButton
     $ok.Text='Save'; $ok.SetBounds(290,80,110,36); $ok.DialogResult='OK'
-    $cancel=New-Object Windows.Forms.Button
+    $cancel=New-Object LauncherButton
     $cancel.Text='Cancel'; $cancel.SetBounds(170,80,110,36); $cancel.DialogResult='Cancel'
+    Style-Input $input; Style-Button $ok $true; Style-Button $cancel
     $dialog.Controls.AddRange(@($input,$ok,$cancel)); $dialog.AcceptButton=$ok; $dialog.CancelButton=$cancel
     $answer=$dialog.ShowDialog($form); $value=$input.Text.Trim(); $dialog.Dispose()
     if ($answer -eq 'OK') {return $value}
@@ -463,17 +576,18 @@ function Preview-Text($items) {
 function Confirm-Batch($items) {
     $dialog=New-Object Windows.Forms.Form
     $dialog.Text='Review selected agents'; $dialog.ClientSize=New-Object Drawing.Size(650,440)
-    $dialog.StartPosition='CenterParent'; $dialog.Font=$form.Font; $dialog.BackColor=$bg
+    $dialog.StartPosition='CenterParent'; $dialog.Font=$form.Font; $dialog.BackColor=$bg; $dialog.ForeColor=$ink; $dialog.Icon=$form.Icon
     $dialog.FormBorderStyle='FixedDialog'; $dialog.MaximizeBox=$false; $dialog.MinimizeBox=$false
     $heading=New-Object Windows.Forms.Label
     $heading.Text='Start '+$items.Count+' new conversations in separate windows'; $heading.SetBounds(20,20,610,30)
     $preview=New-Object Windows.Forms.TextBox
     $preview.Multiline=$true; $preview.ReadOnly=$true; $preview.ScrollBars='Vertical'
     $preview.SetBounds(20,60,610,305); $preview.Text=Preview-Text $items
-    $launch=New-Object Windows.Forms.Button
+    $launch=New-Object LauncherButton
     $launch.Text='Launch selected'; $launch.SetBounds(430,382,200,38); $launch.DialogResult='OK'
-    $cancel=New-Object Windows.Forms.Button
+    $cancel=New-Object LauncherButton
     $cancel.Text='Cancel'; $cancel.SetBounds(280,382,130,38); $cancel.DialogResult='Cancel'
+    Style-Input $preview; Style-Button $launch $true; Style-Button $cancel
     $dialog.Controls.AddRange(@($heading,$preview,$launch,$cancel)); $dialog.CancelButton=$cancel
     # Enter does not start a batch implicitly; the launch button must be chosen.
     $answer=$dialog.ShowDialog($form); $dialog.Dispose()
