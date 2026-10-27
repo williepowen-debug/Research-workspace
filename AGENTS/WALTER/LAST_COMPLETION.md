@@ -113,7 +113,7 @@ Startup recovery only; boot PARTIAL. No new dispatch or consumption. Routine pus
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-27T15:18:40Z",
+  "as_of": "2026-10-27T16:09:12Z",
   "next_review": "2026-10-27",
   "publication": [
     {
@@ -123,62 +123,62 @@ Startup recovery only; boot PARTIAL. No new dispatch or consumption. Routine pus
     },
     {
       "commit": "640c71c86e530d3edd0b46b94bc2522bd9c371aa",
-      "state": "pending",
+      "state": "published",
       "note": "Current startup persistence, routine coordinated push deferred."
+    },
+    {
+      "commit": "0a8557a07da5951b8db8418d5c5a0a8344693e7c",
+      "state": "pending",
+      "note": "Real estate curation, two cards and seven authored handoffs committed locally; foreign shared changes and coordinated-push rule defer publication."
     }
   ],
   "delivery": {
     "signal_date": "20261027",
-    "total": 149,
+    "total": 156,
     "delivered": 149,
-    "note": "Historical prior cohort; no new signal or handoff this startup, no consumption inferred."
+    "note": "Seven newly authored rows remain pending publication; prior 149 remain origin-proven. No recipient incorporation inferred."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
     "evidence": [
       {
-        "path": "AGENTS/WALTER/research/2026-10-27_startup/BOOT-RECEIPT.md",
-        "sha256": "fec1660859fb0f1cbde4b7949ff5cc885d1ea9498b2cb61e90785760bafe9c21"
+        "path": "AGENTS/WALTER/research/2026-10-27_realestate-mail/RESULT.md",
+        "sha256": "da1b018fd8e09452ca717cf014eec5acce67c31e6b70bc5d726c45a21994d3b3"
       },
       {
-        "path": "AGENTS/WALTER/research/2026-10-27_startup/THRESHOLD-SCAN.md",
-        "sha256": "a1552a02d37666f140d9391907f2b055b3b23e85f954249173a649f50bd1b69b"
+        "path": "AGENTS/WALTER/research/2026-10-27_realestate-mail/SOURCES.md",
+        "sha256": "620339b3bb59222bd3d71423c716191b9cbda2149be52b95a4146b907686a8e5"
       },
       {
-        "path": "AGENTS/WALTER/research/2026-10-27_startup/pending-inbox.json",
-        "sha256": "9a13f73823cf43b57df871db4d48a0cdc3bab6024c288770d5a5e8bdd91d9865"
+        "path": "AGENTS/WALTER/research/2026-10-27_realestate-mail/cards-reviewed.json",
+        "sha256": "0a962d7b4427eff909443b423ec8c21967ff1f8d8a6066c27978cf5b1939ac07"
       },
       {
-        "path": "AGENTS/WALTER/research/2026-10-27_startup/registry-review.json",
-        "sha256": "6f0950e08c7cf588e10c6955816c8b9ce2d98cf17062676a6cc2b7e99943bd79"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-10-27_startup/prior-LAST_COMPLETION.md",
-        "sha256": "edfa61cea9c73801da0476397d350a560f9aec51f98ff7b670b6e1ef4d72afa6"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-10-27_telegram-retirement/RESULT.md",
-        "sha256": "8746478ec273108f204d214224a728d75b8af389e02d5752269d03a48fd43d23"
+        "path": "AGENTS/WALTER/research/2026-10-27_realestate-mail/dispatch-summary.json",
+        "sha256": "8f0128a0c692d025ece4b808ccaad24389e69927f14306dfdb2dc6b6dd43b581"
       }
     ]
   },
   "procedure": {
     "tier": "light",
     "boot": "PARTIAL",
-    "session": "startup recovered; pending duties preserved"
+    "session": "Mailbox curation complete at declared scope; third full-deferred breadcrumb, broader maintenance and prior duties retained."
   },
   "manual_duties": {
     "0": "root pull up to date; no foreign changes",
     "6c": "partial completed scan, dated source and eligible-coverage limits retained",
     "7d/7g": "21 ordinary + 3 DEWEY read, no disposition/consumption",
     "7e/7h": "Intake pull authentication and X refresh failed; no marks",
-    "13": "existing lead metadata checked before NETWORK; no new grade",
-    "12": "dated source row and bottom line; no narrative clearance",
-    "14": "MEMORY prior durable findings retained; light narrative deferred",
-    "15": "current receipt and all predecessor obligations/approvals preserved",
-    "16": "exact-path local commit, coordinated routine push deferred",
-    "ledger": "REGISTRY lead metadata refreshed. No new dispatch, KILL, delivery, correction, doorbell, research commission or batch disposition occurred; no artificial ledger refresh. Corrections scan and partial threshold review actually executed; oldest uninstrumented/source gaps remain explicit.",
-    "telegram": "Will retired WALTER Telegram October 27. Project disabled and launcher flags removed, existing tests 29/29 PASS. Own config/charter/memory committed; shared launcher scripts remain PROME commit custody, packet authored. Boot-basis charter hash now requires review; no automatic re-attestation."
+    "13": "Prior registry owner headers preserved; no owner grade or status changed. Full refresh remains prior-duty scope.",
+    "12": "STATUS and session entry reflect bounded work; broad market/network refresh not claimed.",
+    "14": "Durable MEMORY rules unchanged; no new spec or auto-memory.",
+    "15": "Prior approvals/source/lifecycle work preserved; exact current origin-ref and delivery counts reconciled.",
+    "16": "Exact-path local commit; no pull/push with foreign edits. No on-origin or consumption claim.",
+    "ledger": "Route/delivery/batch record real work. No artificial kill_log/REGISTRY/threshold/correction/doorbell refresh; why-not recorded in commit body.",
+    "telegram": "Will retired WALTER Telegram October 27. Project disabled and launcher flags removed, existing tests 29/29 PASS. Own config/charter/memory committed; shared launcher scripts remain PROME commit custody, packet authored. Boot-basis charter hash now requires review; no automatic re-attestation.",
+    "11": "Two new cards, seven create-only handoffs, actual route/delivery rows. Three manifests closed; email operations separate from four extracted research items.",
+    "mailbox": "1152 exact IDs fetched, 183 Trash IDs independently verified, four account records refiled, 965 kept, three highlights. Private audit gitignored.",
+    "helpers": "Two read-only bounded verification helpers returned; no domain desk launch."
   }
 }
 END_CLOSEOUT_RECEIPT -->
