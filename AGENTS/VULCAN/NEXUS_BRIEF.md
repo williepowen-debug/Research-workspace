@@ -2,8 +2,8 @@
 
 **Status:** S1 3 / S2 2 / S3 3 / S4 3 / S5 4 = **15/25**, unchanged. One fired channel, S5; two events (Firmus and Volta under Will's B choice). WQ-464 retains 4.
 **Domain:** AI-capex / semiconductor / memory systemic transmission; shared demand root counted once.
-**As of:** 2026-10-26T22:45:20-04:00 | **STATUS commit:** 7aad4bb53
-**Variant:** FULL. Startup recovery and two ISHM handoffs [KB-308]; no market refresh or new trigger. Historical Q2 real-equipment baseline has no AI-specific allocation, and nominal domestic orders/imports do not supply a completed real Q3 test. STATUS/THESIS/EXIT unchanged. Prior financing/news-sweep evidence and all source caveats retained. Workflow repair retained; trial and savings assessment canceled. Existing research residuals remain unfinished and due October 26. Delivery and consumption remain distinct.
+**As of:** 2026-10-26T23:06:09-04:00 | **STATUS commit:** dd78aa8d1
+**Variant:** FULL. Will-directed residual studies: GOOGL method and primary USD issuance inventory finished; exact market-wide matched denominator remains INCOMPLETE. Historical filing-bound failure retained; no predictive GOOGL 10-Q interval or new sweep cadence. No market refresh, trigger, score or trade change. Source limits and prior financing/news evidence retained.
 
 ## CROSS-DOMAIN
 
@@ -16,19 +16,20 @@
 | ZHAO / HAWK | China NAND process upgrades reported with issuer comments to Reuters; full licenses/output unresolved. TSMC rare-earth substitutions reported, no measured lost output. Tech relay extension claim lacks instrument; November 10 clocks unchanged. Treasury October 26 outbound rule proposed. | KB-304/305/307; ZHAO packet |
 | VIOLET | No new capex cut, useful-life event, concentration sample or repricing claim. Payer/borrower and delivery risks remain mixed. No new threshold or volatility assertion. | KB-300..307 |
 | TERRY | Prior PASS retained; no new trade idea/card requested by this sweep. | KB-288 |
+| BOND / LIQUID | Four parents: $132B gross USD notes closed in 2026 through October 26, $54.25B >=20y original maturity (41.10% within cohort), 42 tranches. General-corporate proceeds, not AI allocation/net duration/market share. Exact same-cutoff market denominator incomplete; no Treasury-yield causal estimate. | KB-310..312; ISSUANCE.md; source rows in owner packets |
 | ISHM | Two J1 handoffs consumed: Q2 equipment +13.4%, information processing +7.6%, computers -6.7% q/q SAAR, September 30 revised BEA vintage. Owner report inspected; original XLS not independently read. No AI allocation or additive chained components; domestic/import/real pairing awaits owner outputs. | KB-308; late-startup report |
 
 ## VIEW
 
-Omissions changed evidence balance, not scores. Capital can still be arranged and on-site generation can adapt; these challenge a blanket shutdown thesis. PG&E's staged requests and capital deferrals show why planned capacity must not become operating demand. Micron's technology choice cautions against turning a rival's smaller cell into an automatic supply glut. Reported equipment-input dependence adds S4 risk but no observed fab cutoff. All shared AI-buildout effects remain one root.
+Long-tenor parent borrowing is measured: $132B gross registered USD notes, $54.25B at original maturity of at least twenty years. Successful funding counters a universal capital-closure claim, but gross principal cannot become AI spending, net duration supply or a measured Treasury-yield impact. A public five-name, unspecified-cutoff maturity mix is not the exact market-wide denominator this four-name test requires. That component remains incomplete. Prior Nebius/PG&E/Micron conclusions and shared-demand-root discipline remain valid.
 
 ## CALIBRATION
 
-17 predictions registered, 12 resolved, five OPEN; none due at last boot. No grade or trigger changed. S5 remains 4 with two events. Date-model failures at GOOGL/META remain UNGRADEABLE, not repaired by a news sweep. Primary retrieval does not certify a full-document read; reported call/Reuters items remain qualified. NERC/Treasury proposals do not count as enacted operating restrictions.
+17 predictions registered, 12 resolved, five OPEN; none due. No market forecast grade changed. The retrospective GOOGL method study finds 3/30 expanding-minimum and 3/24 same-quarter misses; retiring the predictive bound does not turn FAIL into PASS. Quarter-close advisory coverage is not forecast skill or a new sweep schedule. META still fails separately; annual histories remain thin. Older newsletter 29%/8% is a different unverified cohort/vintage, not a prior observation of this 41.10% inventory. S5 stays 4, two events.
 
 ## NEXT DECISION POINT
 
-October 27 existing ZHAO owner re-check; October 28–29 existing memory/hyperscaler print tests; October 30 scheduled post-close readings. No new cadence or speculative date registered. GOOGL method/KB-096 issuance study remains open/due October 26 separately. Earlier three-financing report remains valid; current cash/prospectus and closing/delivery gaps not erased by these headlines. No Will decision needed.
+October 27 ZHAO owner result; October 28–29 existing memory/hyperscaler tests and rewrite; October 30 post-close slots. The original October 26 row now retains only the exact cutoff-matched issuance-denominator gap; no later date granted. No public matched dollar dataset or licensed deal-data tool available this session. Current cash/prospectus/closing gaps from prior financing work remain separate. No Will decision needed.
 
 ## WATCH (next 2–4 weeks and beyond) — ⏱️ THE CLOCK
 

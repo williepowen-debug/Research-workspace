@@ -1,0 +1,12 @@
+# Two October 26 residual studies — 2026-10-26T22:59:32-04:00
+
+Will explicitly commissioned completion after the financing work left both unfinished. The existing study files now contain the completed method and inventory, with the exact-denominator residual kept explicitly incomplete:
+
+- [GOOGL cadence](../2026-10-20_catchup/CADENCE_METHOD.md): 33 original quarterly observations, 30 expanding prior-only tests, 3 misses. Same-quarter minimum misses 3/24. Retire the earliest-filing bound, retain its FAIL and use an exact quarter-close advisory without a predicted filing date or new sweep cadence. Issuer earnings announcement is not a 10-Q date. 28 tool guards + 7 boot tests passed; live dry-run rc1, no rows appended. META remains a separate unresolved model failure.
+- [KB-096 issuance](../2026-10-20_catchup/ISSUANCE.md): 5 closed deals, 42 tranches, $132B registered parent USD gross notes; $54.25B or 41.10% at original maturity >=20y. Thirty-five prospectus filings classified. Public same-tenor maturity-mix comparison obtained, but an exact cutoff-matched four-name dollar denominator remains unavailable, so exact market share is UNGRADEABLE. General-corporate proceeds, refinancing, foreign-currency issues, equity and leases are separated. No measured AI allocation, net-duration or Treasury-yield effect.
+
+Scores and threshold rules unchanged at 15/25, S5 4, one fired channel/two events. The original catalyst row remains for the exact matched-denominator gap; it is not retired or re-dated. No exact denominator or causal identification is marked acquired. No new research program, paid-data purchase, monitoring schedule or trade. CYPHER's inbound PHP2Shell KEV packet names no impacted lab/neocloud or compute contract, so no VULCAN consequence/fire is established.
+
+Delivery/persistence are separate from research results and recipient consumption. The final Git receipt is reported after execution. Pull remains deferred for foreign dirty work.
+
+Verification: 28 offline tool guards and 7 boot-wiring tests pass; workbook/schema/score reconciliation passes. Full boot retains rc2 for META, while the retired GOOGL diagnostic and broad advisory remain visible. Source archive SHA-256 checks pass for all 205 captured files. Original catalyst date and unresolved denominator are preserved. No source, figure or cadence outside VULCAN is edited. No auto-memory; no same-series figure replaced by the differently scoped inventory; FLOW unchanged because the funding-to-rates hypothesis is already KB-096, not a newly measured pathway.

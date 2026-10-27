@@ -357,6 +357,11 @@ def edgar_sweep():
                          if x["form"] in ("10-K", "20-F", "40-F") and x["report_date"]})
             for form in sorted({x["form"] for x in fl} & EW.PERIODIC):
                 hist = EW.lags(fl, form)
+                if (tick, form) in EW.DESCRIPTIVE_PERIODIC:
+                    state, line = EW.descriptive_calendar_line(tick, form, hist, today, fy)
+                    rc = max(rc, 2 if state in {"STALE", "UNGRADEABLE"} else 1)
+                    out.append(line)
+                    continue
                 verdict, detail = EW.backtest(hist)
                 if verdict != "PASS":
                     # Observation freshness never certifies a forecasting method.

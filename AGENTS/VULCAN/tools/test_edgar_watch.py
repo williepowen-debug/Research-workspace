@@ -151,6 +151,29 @@ try:
 finally:
     E._get = _real
 
+google = [mk("2025-09-30", "2025-10-30"), mk("2026-03-31", "2026-04-30"),
+          mk("2026-06-30", "2026-07-23")]
+calendar_fy = [date(2025, 12, 31)]
+check("calendar advisory opens without a fitted lag",
+      E.descriptive_calendar_watch(google, date(2026, 10, 1), calendar_fy)["state"],
+      "OPEN", "lag minima are descriptive, not an early-filing exclusion")
+check("calendar advisory uses exact September close",
+      E.descriptive_calendar_watch(google, date(2026, 10, 1), calendar_fy)["watch_from"],
+      date(2026, 9, 30), "no median day-spacing drift")
+check("calendar advisory cannot roll through an unfiled quarter",
+      E.descriptive_calendar_watch(google, date(2027, 4, 1), calendar_fy)["state"],
+      "STALE", "keep the missing September filing visible")
+check("calendar advisory refuses an unverified fiscal calendar",
+      E.descriptive_calendar_watch(google, date(2026, 10, 1), [date(2025, 12, 28)])["state"],
+      "UNGRADEABLE", "week-based issuers cannot inherit Google's calendar")
+q3 = google + [mk("2026-09-30", "2026-10-29")]
+check("calendar advisory skips annual December period",
+      E.descriptive_calendar_watch(q3, date(2027, 1, 1), calendar_fy)["watch_from"],
+      date(2027, 3, 31), "no impossible Q4 10-Q")
+check("calendar advisory is not open before the period closes",
+      E.descriptive_calendar_watch(google, date(2026, 9, 29), calendar_fy)["state"],
+      "UPCOMING", "a date model is not manufactured")
+
 # ── report ───────────────────────────────────────────────────────────────────
 print("=" * 74)
 print("  edgar_watch guard falsification")

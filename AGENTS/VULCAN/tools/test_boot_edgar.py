@@ -89,6 +89,30 @@ class FilingBoot(unittest.TestCase):
         self.assertIn('GOOGL 10-Q backtest FAIL', out.getvalue())
         self.assertNotIn('all quiet', out.getvalue())
 
+    def test_google_retirement_keeps_failed_backtest_and_open_advisory(self):
+        self.write({})
+        with self.ledger.open('a', newline='') as f:
+            w = csv.writer(f, delimiter='\t')
+            for end, lag in [('2025-03-31', 24), ('2025-06-30', 25),
+                             ('2025-09-30', 26), ('2026-03-31', 23)]:
+                period = date.fromisoformat(end)
+                w.writerow(['GOOGL', '10-Q', period+timedelta(days=lag), end, '',
+                            self.today.isoformat()+'T12:00:00Z'])
+            w.writerow(['GOOGL', '10-K', '2026-02-01', '2025-12-31', '',
+                        self.today.isoformat()+'T12:00:00Z'])
+        with patch.object(boot, 'EDGAR_SEEN', self.ledger), \
+             patch.object(EW, 'earnings_cadence', return_value=None), \
+             patch.object(EW, 'next_window') as project, \
+             patch.object(boot, 'date') as clock:
+            clock.today.return_value = date(2026, 7, 1)
+            rc, msg = boot.edgar_sweep()
+        self.assertEqual(rc, 1)
+        self.assertIn('historical-min bound RETIRED', msg)
+        self.assertIn('legacy backtest FAIL', msg)
+        self.assertIn('Calendar watch OPEN from 2026-06-30', msg)
+        self.assertIn('filing date UNGRADEABLE', msg)
+        project.assert_not_called()
+
 
 if __name__ == '__main__':
     unittest.main()

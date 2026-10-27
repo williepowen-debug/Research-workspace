@@ -1,0 +1,21 @@
+==============================================================================
+  VULCAN edgar_watch — 1 issuer(s), 2026-10-27T02:56:48Z
+==============================================================================
+
+--- cadence backtest (hold-one-out, zero free parameters) ---
+    GOOGL 10-K  backtest UNGRADEABLE n<4 after hold-out
+    GOOGL 10-Q  backtest FAIL        held-out 2026-06-30->2026-07-23 lag 23d vs earliest-bound 24d (from n=9, med 26d, max 30d)
+
+--- 1. NEW filings (tier <= 2) ---
+  ✓ none
+  (0 filing(s) logged but not surfaced at this tier/date floor)
+
+--- 2. periodic-filing windows (derived from each issuer's OWN history) ---
+    GOOGL 10-K  UNGRADEABLE — n<4 after hold-out (reported, NOT silently downgraded)
+    🔔 GOOGL 10-Q historical-min bound RETIRED; legacy backtest FAIL: held-out 2026-06-30->2026-07-23 lag 23d vs earliest-bound 24d (from n=9, med 26d, max 30d). Calendar watch OPEN from 2026-09-30; observed lag 23..30d, median 25d DESCRIPTIVE ONLY. quarter-close advisory; filing date UNGRADEABLE; no new sweep cadence
+
+--- 3. EARNINGS-RELEASE windows (8-K item 2.02) ---
+    ⚠️ A release is a DIFFERENT EVENT from the periodic filing that follows it.
+    🔔 GOOGL Q EARNINGS 8-K (item 2.02) — period end ~2026-09-29, release window 2026-10-21 … 2026-11-03 (typical 2026-10-24); lag n=13 min 22d med 25d max 35d, basis all-quarters
+
+[--dry-run] 0 row(s) NOT written

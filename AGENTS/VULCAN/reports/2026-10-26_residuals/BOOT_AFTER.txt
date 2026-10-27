@@ -1,0 +1,129 @@
+========================================================================
+  VULCAN BOOT — staleness · predictions · series · catalysts · schema
+========================================================================
+
+--- 1. ledger staleness (workbook + TRADE.md vs STATUS) ---
+perimeter [VULCAN]: 13 ledger(s) scanned; 7 TSV(s) NOT scanned by this pass: MEMORY_CYCLE/S2_FACTS.tsv, MEMORY_CYCLE/S2_PREDICTIONS.tsv, docket/CATALYSTS.tsv, registry/corrections_receipts.tsv (+3 more)
+trade perimeter: 1 agent(s) with a matching trade surface graded; 0 agent(s) matched NO trade surface and are NOT certified by this pass
+  ✓ quiet (alert-contract: output only when stale/misconfigured)
+
+--- 2. predictions-due scan ---
+  none due (or newborn ledger)
+
+--- 3. S2 memory-cycle series (content-vintage) ---
+  ✓ S2 series fresh (3d, 7 rows, last 2026-10-23)
+
+--- 4. S1 Mag-7 concentration series (content-vintage) ---
+  ✓ MAG7 series fresh (4d, 8 rows, holdings as-of 2026-10-22)
+    ⚠️ BAND = YELLOW
+
+--- 5. S4 TSMC monthly-revenue series (content-vintage) ---
+  ✓ S4 series current (22 rows, latest Sep 2026, cum YoY 41.1%, band no-stress)
+
+--- 6. catalyst countdown (dated commitments, all sources) ---
+
+  ℹ️  DOCKET: 18 VULCAN-owned row(s) already in a terminal state (RESOLVED/DONE/…) — not surfaced, counted here so the skip is visible
+  ℹ️  DOCKET: 19 row(s) NAME VULCAN downstream but are owned by another desk — excluded from the countdown, not dropped silently
+  ℹ️  neighbours: 1 row(s) naming VULCAN are already DONE/RESOLVED by their owner — not surfaced
+  ✓ nothing fired unswept in the last 10d (basis=git-commit)
+
+  📅 UPCOMING (≤60d)
+    P2   2026-10-26    0d cal /  0d trd  [CAT] Catch-up residuals: GOOGL cadence method and KB-096 issu
+        ↳ Remaining: acquire exact cutoff-matched US IG 20y+ dollar denominator. GOOGL method and four-parent prim
+    P2   2026-10-27    1d cal /  1d trd  [CAT] ZHAO perimeter-instrument re-check (owner next scheduled
+        ↳ Consume ZHAO owner result: whether BIS affiliates/MOFCOM70 November10 clocks moved by published instrume
+    P1   2026-10-28    2d cal /  2d trd  [CAT] EXIT_PROTOCOL next dated REWRITE — on the FIRST of {the 
+        ↳ Re-grade §4b (both directions are existing STATUS triad rules, no new threshold); write the S1/S5 channe
+    P1   2026-10-28    2d cal /  2d trd  [CAT] HYPERSCALER Q3 CLUSTER (MSFT · GOOGL · META · AMZN) — th
+        ↳ Per name: capex guide direction (RAISE / flat / CUT YoY), after-hours stock reaction to a raise, and any
+    P1   2026-10-28    2d cal /  2d trd  [CAT] SK hynix Q3 (10/28 09:00 KST) + Samsung Q3 full results 
+        ↳ Customer order cuts or demand-destruction language; HBM/DRAM contract commentary; capex plans; any respo
+    P2   2026-10-28    2d cal /  2d trd  [DOCK] [PROME DOCKET] DEWEY — EVIDENCE-PRESERVING XBRL COMPARIS
+    P2   2026-10-29    3d cal /  3d trd  [DOCK] [PROME DOCKET] ELLISON THEME — FIRST CHECKPOINT (the Ell
+    P2   2026-10-29    3d cal /  3d trd  [DOCK] [PROME DOCKET] VULCAN — HYPERSCALER FUNDING GAP UPDATE A
+    P1   2026-10-30    4d cal /  4d trd  [CAT] GPU-rental panel reading 8 — cadence extension (register
+        ↳ Run tools/gpu_panel.py --reading-date 2026-10-30 --input <template filled AT the slot> --write, POST-CLO
+    P1   2026-10-30    4d cal /  4d trd  [CAT] mag7.py POST-CLOSE reading — pre-committed Friday cadenc
+        ↳ Run .venv/bin/python AGENTS/VULCAN/tools/mag7.py FROM THE REPO ROOT (.venv is at root, not in the desk d
+    P1   2026-11-06   11d cal /  9d trd  [CAT] GPU-rental panel reading 9 — cadence extension (register
+        ↳ Run tools/gpu_panel.py --reading-date 2026-11-06 --input <template filled AT the slot> --write, POST-CLO
+    P1   2026-11-06   11d cal /  9d trd  [CAT] mag7.py POST-CLOSE reading — pre-committed Friday cadenc
+        ↳ Run .venv/bin/python AGENTS/VULCAN/tools/mag7.py FROM THE REPO ROOT (.venv is at root, not in the desk d
+    P2   2026-11-08   13d cal /  9d trd  [CAT] VULCAN-13 search venue + dated sweep OWED (DAEDALUS 10/0
+        ↳ Name the search venue(s) and run the dated sweep VULCAN-13's grade needs (S5 financing-structure leg adv
+    P2   2026-11-09   14d cal / 10d trd  [CAT] CFTC Reg 40.3 review period ENDS for NYMEX Submission 26
+        ↳ Did the CFTC APPROVE, DISAPPROVE or further extend? If approved: has CME announced a FIRST TRADE DATE? O
+    P2  ~2026-11-09   14d cal / 10d trd  [CAT] CoreWeave Q3 2026 earnings (MODELED — not announced by C
+        ↳ Backlog, capex, DDTL draws and margins, delay discounts / accepted-capacity share (DDTL 4.0 clause (c)),
+    P2   2026-11-09   14d cal / 10d trd  [DOCK] [PROME DOCKET] VULCAN CHECK ROW — CFTC review deadline o
+    P2   2026-11-10   15d cal / 11d trd  [CAT] BIS AFFILIATES RULE (the '50% rule') re-added to the EAR
+    P2   2026-11-10   15d cal / 11d trd  [CAT] MOFCOM/GAC ANNOUNCEMENT No.70 suspension ends — 公告55/56/
+    P2   2026-11-10   15d cal / 11d trd  [CAT] TSMC October revenue 6-K (monthly) — S4 series reading
+    P2   2026-11-10   15d cal / 11d trd  [DOCK] [PROME DOCKET] 🔴 **CHINESE LEG — MOFCOM/GAC Announcement
+    P2   2026-11-10   15d cal / 11d trd  [DOCK] [PROME DOCKET] 🔴 **US PERIMETER WIDENS BY DEFAULT — BIS 
+    P1   2026-11-13   18d cal / 14d trd  [CAT] GPU-rental panel reading 10 — cadence extension (registe
+    P1   2026-11-13   18d cal / 14d trd  [CAT] mag7.py POST-CLOSE reading — pre-committed Friday cadenc
+    P1   2026-11-15   20d cal / 14d trd  [CAT] EXIT_PROTOCOL rewrite HARD BACKSTOP and VULCAN-13/-15 gr
+    P2  ~2026-11-15   20d cal / 14d trd  [CAT] NVDA Q3 FY27 10-Q — EARLY WATCH for DEWEY T3; modeled fi
+    P1  ~2026-11-15   20d cal / 14d trd  [PRED] VULCAN-13 resolves — S5 INDEPENDENCE TEST — the predicti
+    P1   2026-11-15   20d cal / 14d trd  [PRED] VULCAN-15 resolves — S3 CURTAILABILITY OFFSET STAYS AT Z
+    P2   2026-11-16   21d cal / 15d trd  [CAT] FERC EL26-67 responses due — actual procedural deadline,
+    P1   2026-11-19   24d cal / 18d trd  [CAT] NVDA Q3 FY27 10-Q (ESTIMATED from cadence: Q3 FY26's fil
+    P1  ~2026-11-19   24d cal / 18d trd  [PRED] VULCAN-17 resolves — NVDA GUARANTEE-COMMITMENT LEVEL — O
+    P2   2026-11-19   24d cal / 18d trd  [DOCK] [PROME DOCKET] REQ-DEWEY-20260829-002 TESTS at NVDA's Q3
+    P1   2026-11-20   25d cal / 19d trd  [CAT] GPU-rental panel reading 11 — cadence extension (registe
+    P2   2026-11-20   25d cal / 19d trd  [CAT] NEXTDC AGM — capex-review outcome + M3 update (third-S5-
+    P1   2026-11-20   25d cal / 19d trd  [CAT] mag7.py POST-CLOSE reading — pre-committed Friday cadenc
+    P1   2026-11-27   32d cal / 23d trd  [CAT] GPU-rental panel reading 12 — cadence extension (registe
+    P2   2026-11-27   32d cal / 23d trd  [DOCK] [PROME DOCKET] MOFCOM 公告2024年第46号 CLAUSE 2 — SUSPENSION 
+    P1   2026-11-27   32d cal / 23d trd  [CAT] mag7.py POST-CLOSE reading — pre-committed Friday cadenc
+    P1   2026-12-04   39d cal / 28d trd  [CAT] mag7.py POST-CLOSE reading — pre-committed Friday cadenc
+    P1   2026-12-11   46d cal / 33d trd  [CAT] mag7.py POST-CLOSE reading — pre-committed Friday cadenc
+    P2   2026-12-15   50d cal / 35d trd  [CAT] ORCL $3.3B lessor guarantee — estimated Q2 filing/disclo
+    P2   2026-12-15   50d cal / 35d trd  [CAT] ORCL Q2 FY27 10-Q — thesis-kill LEG 4 reading 1 of 2 (of
+    P1   2026-12-18   53d cal / 38d trd  [CAT] mag7.py POST-CLOSE reading — pre-committed Friday cadenc
+    P1   2026-12-24   59d cal / 42d trd  [CAT] mag7.py POST-CLOSE reading — pre-committed Friday cadenc
+
+  ('~' = modeled/publication-anchored: the DAY IS A PLACEHOLDER or can slip — re-date when announced)
+
+  🔔 NEIGHBOUR-TAGGED, NOT IN YOUR REGISTER — 6 row(s) naming VULCAN in other desks' files
+     (they are LOCAL ANNOTATION — nothing transports them; PAT-063. Read-only scan.)
+    2026-10-16 (-10d) [LIQUID] ✅ FIRED (graded 2026-10-15 12:1x ET) — GATE-LIQ-069 L4 — 10/14 session
+        ↳ AGENTS/LIQUID/workbook/CATALYSTS.tsv  · REGISTRY_REVIEW
+    2026-10-25 (-1d) [HAWK] 
+        ↳ AGENTS/HAWK/workbook/CATALYSTS.tsv
+    2026-11-04 (+9d) [ISHM] [TRADE-COMPUTERS] Census/BEA FT-900 US international trade, Sep 2026 (
+        ↳ AGENTS/ISHM/docket/CATALYSTS.tsv  · FIRM
+    2026-11-18 (+23d) [CYPHER] 20th trading day after 10/21 — row 9 persistence test
+        ↳ AGENTS/CYPHER/docket/CATALYSTS.tsv  · MODELED (~)
+    2026-11-25 (+30d) [ISHM] [DGORDER] Census advance durable goods + core capex, Oct 2026 (08:30 E
+        ↳ AGENTS/ISHM/docket/CATALYSTS.tsv  · FIRM
+    2026-12-23 (+58d) [ISHM] [DGORDER] Census advance durable goods + core capex, Nov 2026 (08:30 E
+        ↳ AGENTS/ISHM/docket/CATALYSTS.tsv  · FIRM
+     ⇒ REGISTER the real ones in docket/CATALYSTS.tsv, or they reach you only by accident.
+
+--- 7. workbook schema conformance (all ledgers) ---
+  ✓ workbook: 13 ledgers clean; VX/STATUS/composite scores reconcile
+    ℹ️  S2_SERIES.tsv: 11 ERR: sentinel(s) — honest failures, NOT schema violations, but a partial run is a FAILED run [L-16/L-20]
+    ℹ️  GPU_SERIES.tsv: 16 ERR: sentinel(s) — honest failures, NOT schema violations, but a partial run is a FAILED run [L-16/L-20]
+
+--- 8. EDGAR filing sweep (S3/S5 event instrument) ---
+  ✓ EDGAR collection fresh (0d, 9240 rows, last swept 2026-10-26)
+    🔔 AMZN Q EARNINGS window OPEN since 2026-10-25 (typical 2026-10-29) — CHECK
+    ⚠️ CRWV 10-K backtest UNGRADEABLE: n<4 after hold-out — window UNGRADEABLE; collection freshness is separate
+    ⚠️ GOOGL 10-K backtest UNGRADEABLE: n<4 after hold-out — window UNGRADEABLE; collection freshness is separate
+    🔔 GOOGL 10-Q historical-min bound RETIRED; legacy backtest FAIL: held-out 2026-06-30->2026-07-23 lag 23d vs earliest-bound 24d (from n=9, med 26d, max 30d). Calendar watch OPEN from 2026-09-30; observed lag 23..30d, median 25d DESCRIPTIVE ONLY. quarter-close advisory; filing date UNGRADEABLE; no new sweep cadence
+    🔔 GOOGL Q EARNINGS window OPEN since 2026-10-21 (typical 2026-10-24) — CHECK
+    ⚠️ META 10-K backtest UNGRADEABLE: n<4 after hold-out — window UNGRADEABLE; collection freshness is separate
+    ⚠️ META 10-Q backtest FAIL: held-out 2026-09-30->2026-10-22 lag 22d vs earliest-bound 30d (from n=7, med 31d, max 32d) — window UNGRADEABLE; collection freshness is separate
+    🔔 MSFT 10-Q WINDOW OPEN since 2026-10-25 (typical 2026-10-27, latest 2026-10-31) — CHECK EDGAR
+    🔔 MSFT Q EARNINGS window OPEN since 2026-10-23 (typical 2026-10-26) — CHECK
+
+--- 9. R1 corrections receipts (was a hand step) ---
+  ✓ CORRECTIONS-CHECK 0 OK: 0 unreceipted NAMED rows for VULCAN (register 107 row(s), 0 ALL-warn, 1 ALL-row(s) past cap unreceipted = broadcast expired, n
+
+--- 10. push landed? (VULCAN commits vs origin/master, local ref) ---
+  ✓ no commit touching VULCAN paths ahead of origin/master (local ref — `git fetch` refreshes it)
+
+========================================================================
+  VULCAN boot: a leg FAILED — check manually, do NOT assume quiet.

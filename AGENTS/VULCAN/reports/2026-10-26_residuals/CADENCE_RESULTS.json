@@ -1,0 +1,112 @@
+{
+  "full_quarterly_observations": 33,
+  "first_period": "2015-09-30",
+  "last_period": "2026-06-30",
+  "chronological_tests": 30,
+  "legacy_min_failures": [
+    {
+      "period_end": "2017-06-30",
+      "filed": "2017-07-25",
+      "accession": "0001652044-17-000026",
+      "prior_n": 5,
+      "actual_lag_days": 25,
+      "legacy_min_days": 29,
+      "legacy_missed_days": 4,
+      "same_quarter_prior_n": 1,
+      "same_quarter_min_days": "",
+      "same_quarter_missed_days": "",
+      "quarter_close_watch_lead_days": 25,
+      "actual_8k_detected_on": "2017-07-24",
+      "actual_8k_lead_days": 1
+    },
+    {
+      "period_end": "2018-03-31",
+      "filed": "2018-04-24",
+      "accession": "0001652044-18-000016",
+      "prior_n": 7,
+      "actual_lag_days": 24,
+      "legacy_min_days": 25,
+      "legacy_missed_days": 1,
+      "same_quarter_prior_n": 2,
+      "same_quarter_min_days": "",
+      "same_quarter_missed_days": "",
+      "quarter_close_watch_lead_days": 24,
+      "actual_8k_detected_on": "2018-04-23",
+      "actual_8k_lead_days": 1
+    },
+    {
+      "period_end": "2026-06-30",
+      "filed": "2026-07-23",
+      "accession": "0001652044-26-000071",
+      "prior_n": 32,
+      "actual_lag_days": 23,
+      "legacy_min_days": 24,
+      "legacy_missed_days": 1,
+      "same_quarter_prior_n": 10,
+      "same_quarter_min_days": 24,
+      "same_quarter_missed_days": 1,
+      "quarter_close_watch_lead_days": 23,
+      "actual_8k_detected_on": "2026-07-22",
+      "actual_8k_lead_days": 1
+    }
+  ],
+  "same_quarter_eligible": 24,
+  "same_quarter_failures": [
+    {
+      "period_end": "2018-09-30",
+      "filed": "2018-10-26",
+      "accession": "0001652044-18-000035",
+      "prior_n": 9,
+      "actual_lag_days": 26,
+      "legacy_min_days": 24,
+      "legacy_missed_days": 0,
+      "same_quarter_prior_n": 3,
+      "same_quarter_min_days": 27,
+      "same_quarter_missed_days": 1,
+      "quarter_close_watch_lead_days": 26,
+      "actual_8k_detected_on": "2018-10-25",
+      "actual_8k_lead_days": 1
+    },
+    {
+      "period_end": "2023-09-30",
+      "filed": "2023-10-25",
+      "accession": "0001652044-23-000094",
+      "prior_n": 24,
+      "actual_lag_days": 25,
+      "legacy_min_days": 24,
+      "legacy_missed_days": 0,
+      "same_quarter_prior_n": 8,
+      "same_quarter_min_days": 26,
+      "same_quarter_missed_days": 1,
+      "quarter_close_watch_lead_days": 25,
+      "actual_8k_detected_on": "2023-10-24",
+      "actual_8k_lead_days": 1
+    },
+    {
+      "period_end": "2026-06-30",
+      "filed": "2026-07-23",
+      "accession": "0001652044-26-000071",
+      "prior_n": 32,
+      "actual_lag_days": 23,
+      "legacy_min_days": 24,
+      "legacy_missed_days": 1,
+      "same_quarter_prior_n": 10,
+      "same_quarter_min_days": 24,
+      "same_quarter_missed_days": 1,
+      "quarter_close_watch_lead_days": 23,
+      "actual_8k_detected_on": "2026-07-22",
+      "actual_8k_lead_days": 1
+    }
+  ],
+  "calendar_watch_cases": 30,
+  "calendar_watch_lead_range_days": [
+    23,
+    34
+  ],
+  "calendar_watch_is_prediction": false,
+  "actual_8k_cases": 30,
+  "actual_8k_is_announced_schedule_backtest": false,
+  "recent_n": 10,
+  "latest_lag_days": 23,
+  "prior_recent_min_days": 24
+}

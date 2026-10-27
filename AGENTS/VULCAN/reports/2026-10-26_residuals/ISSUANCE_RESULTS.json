@@ -1,0 +1,89 @@
+{
+  "scope": "Registered USD parent senior notes closed 2026-01-01 through 2026-10-26 ET; not all AI borrowing",
+  "issuers": [
+    {
+      "issuer": "GOOGL",
+      "gross_usd": "45000000000",
+      "long_20y_usd": "17250000000",
+      "long_share_pct": "38.33333333333333333333333333",
+      "tranches": 17
+    },
+    {
+      "issuer": "MSFT",
+      "gross_usd": "0",
+      "long_20y_usd": "0",
+      "long_share_pct": "NOT_APPLICABLE_NO_OBSERVED_ISSUE",
+      "tranches": 0
+    },
+    {
+      "issuer": "META",
+      "gross_usd": "25000000000",
+      "long_20y_usd": "14000000000",
+      "long_share_pct": "56.00",
+      "tranches": 6
+    },
+    {
+      "issuer": "AMZN",
+      "gross_usd": "62000000000",
+      "long_20y_usd": "23000000000",
+      "long_share_pct": "37.09677419354838709677419355",
+      "tranches": 19
+    }
+  ],
+  "total_usd": "132000000000",
+  "long_20y_usd": "54250000000",
+  "long_share_pct": "41.09848484848484848484848485",
+  "tranches": 42,
+  "deals": [
+    {
+      "issuer": "GOOGL",
+      "issue_date": "2026-02-13",
+      "tranches": 7,
+      "gross_usd": "20000000000",
+      "long_20y_usd": "7250000000",
+      "closing_list_sum_matches_expected": true,
+      "final_cover_amounts_found": true
+    },
+    {
+      "issuer": "GOOGL",
+      "issue_date": "2026-08-10",
+      "tranches": 10,
+      "gross_usd": "25000000000",
+      "long_20y_usd": "10000000000",
+      "closing_list_sum_matches_expected": true,
+      "final_cover_amounts_found": true
+    },
+    {
+      "issuer": "META",
+      "issue_date": "2026-05-04",
+      "tranches": 6,
+      "gross_usd": "25000000000",
+      "long_20y_usd": "14000000000",
+      "closing_list_sum_matches_expected": true,
+      "final_cover_amounts_found": true
+    },
+    {
+      "issuer": "AMZN",
+      "issue_date": "2026-03-13",
+      "tranches": 11,
+      "gross_usd": "37000000000",
+      "long_20y_usd": "14000000000",
+      "closing_list_sum_matches_expected": true,
+      "final_cover_amounts_found": true
+    },
+    {
+      "issuer": "AMZN",
+      "issue_date": "2026-07-09",
+      "tranches": 8,
+      "gross_usd": "25000000000",
+      "long_20y_usd": "9000000000",
+      "closing_list_sum_matches_expected": true,
+      "final_cover_amounts_found": true
+    }
+  ],
+  "prospectus_forms_classified": 35,
+  "exclude_refinancing_from_gross": false,
+  "net_new_borrowing": "UNKNOWN",
+  "ai_allocated_proceeds": "UNKNOWN",
+  "exact_four_name_long_end_market_share": "UNGRADEABLE_NO_EXACT_MATCHED_PUBLIC_DENOMINATOR"
+}

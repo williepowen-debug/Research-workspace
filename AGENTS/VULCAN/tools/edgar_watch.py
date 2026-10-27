@@ -3,6 +3,12 @@
 edgar_watch.py — VULCAN S3/S5 instrument: a PRIMARY filing sweep over the named issuers,
                  plus a CADENCE leg that derives when the next periodic filing can land.
 
+OPERATIVE AMENDMENT, October 26, 2026: GOOGL 10-Q no longer uses a historical
+minimum as an earliest filing bound. Its failed backtest remains visible; its
+calendar-quarter-close advisory has no predicted filing interval or new sweep
+cadence. Other issuer/form policies are unchanged. The original design rationale
+below is historical for this retired bound. Study: reports/2026-10-20_catchup/CADENCE_METHOD.md.
+
 WHY THIS EXISTS (built 2026-08-27, registered as the top build item since 2026-08-21):
 
   S3 and S5 had NO INSTRUMENT AT ALL, and that was a *decision* I made correctly and then
@@ -141,6 +147,11 @@ ISSUERS = [
 
 PERIODIC = {"10-Q", "10-K", "20-F", "40-F"}   # forms with a meaningful reportDate->filed lag
 
+# October 26 method study: GOOGL's expanding minimum missed 3/30 chronological
+# held-outs, including July 2026. Retire its predictive bound; retain diagnostics.
+# This is a desk-boot advisory, not a new scheduled sweep or a repaired forecast.
+DESCRIPTIVE_PERIODIC = {("GOOGL", "10-Q")}
+
 T1 = {"8-K", "10-Q", "10-K", "6-K", "S-1", "S-3", "S-4", "20-F", "40-F", "8-K/A",
       "10-Q/A", "10-K/A", "S-1/A", "S-3/A"}
 T2_PREFIX = ("DEF ", "DEFA", "PRE ", "SC 13D", "SC 13G", "SC TO", "425", "11-K")
@@ -256,6 +267,44 @@ def backtest(hist):
     return ("PASS" if ok else "FAIL",
             f"held-out {held[0]}->{held[1]} lag {held[2]}d vs earliest-bound {w['min']}d "
             f"(from n={w['n']}, med {w['med']}d, max {w['max']}d)")
+
+
+def descriptive_calendar_watch(hist, today, fy_ends):
+    """GOOGL-only quarter-close advisory, without a predicted filing interval.
+
+    Validate the calendar at the source. Do not apply this to week-based issuers,
+    infer a filing date from an earnings date, or roll past an unobserved quarter.
+    A whole subsequent 10-Q period ending without this filing is STALE.
+    """
+    if (len(hist) < 3 or not fy_ends
+            or any((d.month, d.day) != (12, 31) for d in fy_ends)
+            or any((h[0].month, h[0].day) not in {(3, 31), (6, 30), (9, 30)}
+                   for h in hist)):
+        return {"state": "UNGRADEABLE", "detail": "calendar-quarter basis not established"}
+
+    def following(d):
+        return {3: date(d.year, 6, 30), 6: date(d.year, 9, 30),
+                9: date(d.year + 1, 3, 31)}[d.month]
+
+    period = following(max(h[0] for h in hist))
+    state = ("STALE" if today >= following(period) else
+             "OPEN" if today >= period else "UPCOMING")
+    return {"state": state, "watch_from": period,
+            "detail": "quarter-close advisory; filing date UNGRADEABLE; no new sweep cadence"}
+
+
+def descriptive_calendar_line(tick, form, hist, today, fy_ends):
+    watch = descriptive_calendar_watch(hist, today, fy_ends)
+    verdict, detail = backtest(hist)
+    stats = window(hist)
+    empirical = (f"observed lag {stats['min']}..{stats['max']}d, median {stats['med']}d"
+                 if stats else "thin lag history")
+    marker = "🔔" if watch["state"] == "OPEN" else "⚠️"
+    return (watch["state"],
+            f"    {marker} {tick} {form} historical-min bound RETIRED; legacy backtest "
+            f"{verdict}: {detail}. Calendar watch {watch['state']}"
+            f"{(' from ' + str(watch['watch_from'])) if 'watch_from' in watch else ''}; "
+            f"{empirical} DESCRIPTIVE ONLY. {watch['detail']}")
 
 
 def fy_end_candidates(fy_ends, year):
@@ -541,6 +590,12 @@ def main():
             hist = lags(filings, form)
             verdict, detail = backtest(hist)
             bt_lines.append(f"    {tick:<5} {form:<5} backtest {verdict:<11} {detail}")
+            if (tick, form) in DESCRIPTIVE_PERIODIC:
+                state, line = descriptive_calendar_line(tick, form, hist, today, fy_ends)
+                cadence_lines.append(line)
+                if state in {"STALE", "UNGRADEABLE"}:
+                    errors.append(f"ERR:{tick}:{form}:calendar-watch-{state}")
+                continue
             if verdict == "FAIL":
                 errors.append(f"ERR:{tick}:{form}:cadence-backtest-FAILED — {detail}")
                 continue
@@ -602,7 +657,7 @@ def main():
     print(f"  ({suppressed} filing(s) logged but not surfaced at this tier/date floor"
           f"{' — raise --tier or lower --since to see them' if suppressed else ''})")
 
-    print("\n--- 2. periodic-filing windows (derived from each issuer's OWN history) ---")
+    print("\n--- 2. periodic filings (history windows or explicitly descriptive calendar watches) ---")
     for l in cadence_lines or ["  ✓ no periodic filing window open or opening within 21d"]:
         print(l)
 

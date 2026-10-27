@@ -1,0 +1,33 @@
+==========================================================================
+  edgar_watch guard falsification
+==========================================================================
+  ✓ backtest PASS on consistent history
+  ✓ backtest FAILS on an impossibly-early held-out filing
+  ✓ backtest UNGRADEABLE on thin history
+  ✓ window opens at the MINIMUM historical lag
+  ✓ window's minimum is strictly below its median
+  ✓ 10-Q projection SKIPS the fiscal-year quarter
+  ✓ 10-Q projection lands after the FY end
+  ✓ ANNUAL forms are NOT suppressed by the FY guard
+  ✓ stale series is REPORTED stale, not projected
+  ✓ stale result carries how far behind it is
+  ✓ a HEALTHY series is not flagged stale
+  ✓ pre-FY26 history CANNOT identify the 52/53 case -> both candidates
+  ✓ with FY26 filed the anchor is pinned -> FY27 end unique
+  ✓ non-52/53 filer (calendar month-ends) is left alone
+  ✓ MU 10-K window WIDENED across both FY ends when unidentified
+  ✓ the real MU FY26 10-K (filed 2026-10-09) lands INSIDE the widened window
+  ✓ 8-K is tier 1
+  ✓ 10-Q is tier 1
+  ✓ Form 4 is tier 3
+  ✓ UNKNOWN form defaults to SURFACED
+  ✓ ragged feed raises ValueError
+  ✓ missing-field feed raises ValueError
+  ✓ calendar advisory opens without a fitted lag
+  ✓ calendar advisory uses exact September close
+  ✓ calendar advisory cannot roll through an unfiled quarter
+  ✓ calendar advisory refuses an unverified fiscal calendar
+  ✓ calendar advisory skips annual December period
+  ✓ calendar advisory is not open before the period closes
+
+  28 passed, 0 failed
