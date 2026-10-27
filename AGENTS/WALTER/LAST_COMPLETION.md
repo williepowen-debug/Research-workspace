@@ -1,12 +1,12 @@
-# WALTER continuation — real estate mailbox review
+# WALTER continuation — real estate newsletter consolidation
 
-Updated 2026-10-27T16:07:22Z. Bounded mailbox curation DONE; broad boot remains PARTIAL.
+Updated 2026-10-27T17:27:11Z. Will-approved consolidation DONE; broad boot remains PARTIAL.
 
-Will authorized research-value review and deletion in Markets/Real Estate. Exact 1,152-message scope: 183 moved to Trash (163 duplicates, 19 irrelevant/promotions, one specifically integrated recap), four account records refiled, 965 unique research sources/leads retained; three Research Highlights. Final label counts and exact Trash IDs independently verified. No permanent deletion, external send, unread mutation, filter or unsubscribe. Private audit is gitignored; public result: research/2026-10-27_realestate-mail/RESULT.md.
+Terminology correction: the previous 965 were retained emails, not 965 verified signals or independent valuable sources. Will approved preserving unique links/notes in a local index, then trashing newsletters. The index and ZIP preserve all 965 source records; 671 roundup/podcast-pointer emails moved to Trash after conservation checks, leaving 294 emails and three Research Highlights in Gmail. Every selected Trash ID independently verified. Result: research/2026-10-27_realestate-mail/CONSOLIDATION.md. Private index/backup stays gitignored under debug/realestate-library-2026-10-27/.
 
-New cards 20261027-041/042, seven handoffs: reported Chicago OZK takeout remains primary-unverified; RealPage/Apartment List concession definitions and Florida evidence source-checked. Two bounded Rule9 verification helpers returned read-only; no domain launch. No owner grade, exposure rewrite, trade or new recurring research scope. Every email body fetched; unique unresolved links retained rather than declared irrelevant or fully integrated.
+No new signal, handoff, owner grade, research commission, trade, recurring filter or external send. Previous 041/042 and seven authored handoffs remain qualified. Article-level relevance/verification and original source gaps are not cleared by consolidation; 294 is an email count. All old approvals, duty and source-search limits below remain. Telegram stays retired. Full maintenance debt remains due; this bounded mailbox continuation does not discharge it.
 
-Exact-path local persistence pending; routine publication remains Will-coordinated, foreign shared changes prevent pull/push. Writing/committing does not prove delivery or incorporation. Three full-deferred light breadcrumbs are now due for full narrative maintenance; this admin/source-curation continuation does not clear the debt. All predecessor approvals and pending duties below remain, including WQ503, WQ508 and closed/ungraded WQ515. Telegram stays retired. No new decision requested.
+Exact-path local persistence pending; foreign shared changes preclude pull/push. Prior commit/publication and delivery/consumption proof remain separate. No new Will decision.
 
 ## PRESERVED PRIOR DUTY / APPROVAL RECORD
 
@@ -113,7 +113,7 @@ Startup recovery only; boot PARTIAL. No new dispatch or consumption. Routine pus
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-27T16:09:12Z",
+  "as_of": "2026-10-27T17:28:39Z",
   "next_review": "2026-10-27",
   "publication": [
     {
@@ -128,41 +128,37 @@ Startup recovery only; boot PARTIAL. No new dispatch or consumption. Routine pus
     },
     {
       "commit": "0a8557a07da5951b8db8418d5c5a0a8344693e7c",
-      "state": "pending",
+      "state": "published",
       "note": "Real estate curation, two cards and seven authored handoffs committed locally; foreign shared changes and coordinated-push rule defer publication."
     }
   ],
   "delivery": {
     "signal_date": "20261027",
     "total": 156,
-    "delivered": 149,
-    "note": "Seven newly authored rows remain pending publication; prior 149 remain origin-proven. No recipient incorporation inferred."
+    "delivered": 156,
+    "note": "Updated local origin ref proves previous seven handoffs now published; delivery reconciled. Recipient incorporation remains unknown. No new handoff in mailbox consolidation."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
     "evidence": [
       {
+        "path": "AGENTS/WALTER/research/2026-10-27_realestate-mail/CONSOLIDATION.md",
+        "sha256": "4970bb1b46d48abe2ab75353eedf2b9fb0265265e4bca5e47568c29b0e40c3e8"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-27_realestate-mail/consolidation-checks.json",
+        "sha256": "9a335c950595f602eb4377cd0af0cff16d1422f26bae5704fbc3272e4922f424"
+      },
+      {
         "path": "AGENTS/WALTER/research/2026-10-27_realestate-mail/RESULT.md",
-        "sha256": "da1b018fd8e09452ca717cf014eec5acce67c31e6b70bc5d726c45a21994d3b3"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-10-27_realestate-mail/SOURCES.md",
-        "sha256": "620339b3bb59222bd3d71423c716191b9cbda2149be52b95a4146b907686a8e5"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-10-27_realestate-mail/cards-reviewed.json",
-        "sha256": "0a962d7b4427eff909443b423ec8c21967ff1f8d8a6066c27978cf5b1939ac07"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-10-27_realestate-mail/dispatch-summary.json",
-        "sha256": "8f0128a0c692d025ece4b808ccaad24389e69927f14306dfdb2dc6b6dd43b581"
+        "sha256": "1d51db5a8896589e6505bd8b8f62cc2fec1076f1e73ff4f957fd6fc65823788a"
       }
     ]
   },
   "procedure": {
     "tier": "light",
     "boot": "PARTIAL",
-    "session": "Mailbox curation complete at declared scope; third full-deferred breadcrumb, broader maintenance and prior duties retained."
+    "session": "Approved local source consolidation complete; broad full-maintenance and boot debt retained."
   },
   "manual_duties": {
     "0": "root pull up to date; no foreign changes",
@@ -170,14 +166,14 @@ Startup recovery only; boot PARTIAL. No new dispatch or consumption. Routine pus
     "7d/7g": "21 ordinary + 3 DEWEY read, no disposition/consumption",
     "7e/7h": "Intake pull authentication and X refresh failed; no marks",
     "13": "Prior registry owner headers preserved; no owner grade or status changed. Full refresh remains prior-duty scope.",
-    "12": "STATUS and session entry reflect bounded work; broad market/network refresh not claimed.",
-    "14": "Durable MEMORY rules unchanged; no new spec or auto-memory.",
-    "15": "Prior approvals/source/lifecycle work preserved; exact current origin-ref and delivery counts reconciled.",
-    "16": "Exact-path local commit; no pull/push with foreign edits. No on-origin or consumption claim.",
+    "12": "Corrected email-count versus signal-value framing; STATUS/session reflect actual 294-email remainder and three highlights.",
+    "14": "No new model/helper or domain launch, memory/spec change, collector or recurring filter. Prior source/approval gaps retained.",
+    "15": "Consolidation source transfer and exact Trash IDs manually checked; broad boot, lifecycle and full narrative debt remain unresolved.",
+    "16": "Current consolidation exact-path commit pending; no pull/push with foreign shared edits. Previous source/handoff publication reconciled from updated origin ref; no recipient incorporation claim.",
     "ledger": "Route/delivery/batch record real work. No artificial kill_log/REGISTRY/threshold/correction/doorbell refresh; why-not recorded in commit body.",
     "telegram": "Will retired WALTER Telegram October 27. Project disabled and launcher flags removed, existing tests 29/29 PASS. Own config/charter/memory committed; shared launcher scripts remain PROME commit custody, packet authored. Boot-basis charter hash now requires review; no automatic re-attestation.",
-    "11": "Two new cards, seven create-only handoffs, actual route/delivery rows. Three manifests closed; email operations separate from four extracted research items.",
-    "mailbox": "1152 exact IDs fetched, 183 Trash IDs independently verified, four account records refiled, 965 kept, three highlights. Private audit gitignored.",
+    "11": "No new signal or handoff. BM-20261027-10 closed 965 source-transfer records, not article-level research clearance. Prior seven delivery rows reconciled after updated origin proof.",
+    "mailbox": "Will explicitly approved local index before Trash. 965 source records conserved in ZIP/JSON and searchable HTML; CRC/restore/hash checks passed before deleting 671 email containers. Gmail 294, highlights three. Exact 671 IDs verified in Trash.",
     "helpers": "Two read-only bounded verification helpers returned; no domain desk launch."
   }
 }

@@ -1,5 +1,7 @@
 # Real estate mail review — October 27, 2026
 
+Terminology correction after Will's follow-up: the 965 retained items below were emails, not 965 verified signals or independent valuable sources. The first pass was conservative retention and redundancy checking. The subsequent approved consolidation is recorded in `CONSOLIDATION.md`: 671 newsletters transferred to a local searchable library and then trashed, leaving 294 emails in Gmail.
+
 Will authorized research-value review and deletion of unhelpful or already integrated emails in `Markets/Real Estate`.
 
 | Mailbox outcome | Messages |

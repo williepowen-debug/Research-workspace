@@ -1,0 +1,35 @@
+{
+  "scope_messages": 965,
+  "source_records": 965,
+  "consolidate": 671,
+  "keep": 294,
+  "link_mentions": 10379,
+  "link_groups": 8327,
+  "zip_records": 965,
+  "zip_crc": "PASS",
+  "restored_record_equality": "PASS",
+  "protected_trash_candidates": 0,
+  "catalog_sha256": "c6f24d6d1267dc5ac149fd49826be5d4313aef7835b8b95f519eed51aecccd0b",
+  "index_sha256": "8a798ee47688a1e7d83b28e5439a1b0ea166d0dbe8a4ad4f529fb8eb9fd5d280",
+  "backup_sha256": "8d6a3adb8f0be2620b9486e77e776b5f718fd4db269ead54c657056e5e35a825",
+  "trash": {
+    "new_trashed": 671,
+    "new_trash_ids_verified": 671,
+    "all_label_trash_ids": 854,
+    "pagination_complete": true,
+    "missing": []
+  },
+  "gmail_final_counts": {
+    "Markets/Real Estate": 294,
+    "Research Highlights": 3
+  },
+  "ui_runtime_validation": {
+    "runtime": "Node VM with DOM stub; not a real-browser preview",
+    "compile": "PASS",
+    "initial_render": "PASS",
+    "multiword_search": "PASS",
+    "topic_disposition_filters": "PASS",
+    "link_view": "PASS",
+    "html_escaping": "PASS"
+  }
+}

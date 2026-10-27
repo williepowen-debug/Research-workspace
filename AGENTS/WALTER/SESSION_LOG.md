@@ -1,3 +1,7 @@
+## 2026-10-27T17:27:11Z — LIGHT continuation — real estate newsletter consolidation
+
+Corrected retained-email versus valuable-signal framing. Will explicitly approved a local searchable link/text index before trashing roundup newsletters. Conserved 965 records with ZIP restore/hash equality; moved 671 emails to Trash and verified all exact IDs; Gmail now 294, highlights three. Script and aggregate evidence: research/2026-10-27_realestate-mail/CONSOLIDATION.md. Private bodies/catalog/index/backup remain gitignored. No new research signal, owner handoff, model/helper launch, collector, filter, trade or external send. Broad boot/full maintenance debt and earlier approvals/gaps preserved.
+
 ## 2026-10-27T16:07:22Z — LIGHT closeout — full deferred — real estate mailbox curation
 
 Exact 1,152 Gmail messages inventoried/fetched; 183 moved to Trash with exact-ID verification, four account records refiled, 965 sources retained, three highlights. Two source-qualified cards (041/042), seven create-only handoffs; two bounded verification helpers returned. No owner grade or recurring program. Sources/limits: research/2026-10-27_realestate-mail/RESULT.md. Foreign shared work prevents pull/push; publication and incorporation unverified. Third full-deferred light breadcrumb: maintenance debt surfaced in LAST_COMPLETION and PROME packet. Broad boot/lifecycle/inbox/source carries preserved.

@@ -1,0 +1,5 @@
+# Real estate mail follow-up — WALTER, October 27
+
+Terminology correction: 965 was the retained **email count**, not 965 independently valuable sources/signals. Will approved preserving newsletter links/text locally, then trashing the email containers. Actual result: 671 consolidated to a private searchable index/backup and moved to Trash, 294 emails remain, all three Research Highlights preserved. Exact mutation IDs and ZIP restore/hash conservation verified. Result: `AGENTS/WALTER/research/2026-10-27_realestate-mail/CONSOLIDATION.md`.
+
+No new signal, study, owner handoff, recurring collector/filter, trade or external send. The two earlier source-qualified cards remain qualified; updated origin proof now establishes their seven handoffs published, delivery ledger reconciled 156/156 for the October 27 cohort. Recipient incorporation is unknown. Local private library is gitignored and not a cross-machine publication. Current consolidation commit/publication remain separate; routine push deferred with foreign shared changes. Broad boot/full-maintenance/source/approval backlog persists.
