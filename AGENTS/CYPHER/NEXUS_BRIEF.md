@@ -1,67 +1,66 @@
 # CYPHER — NEXUS Brief
 
-**Status:** 🟡 WAVE-2026-10 open, 9 of 9 escalation rows NOT-FIRED (rows 1, 2, 4 re-checked 10/23 17:1x ET); PHP2Shell ATTEMPTS-ONLY (weak evidence, not an all-clear)
-**Domain:** Cyber events that can move money — owns the EVENT (confirmed?, class, dates, escalation state); consequence owners keep the consequence
-**As of:** 2026-10-23 17:1x ET (WALTER 041/044/045: GitLab CVE-2026-110264 and Node.js CVE-2026-111497 DISCLOSED, off-root, KEV-watched; Korea CONFIRMED at the FSC primary; 4 leak claims triaged; no row fired) | STATUS commit: b562466d3
-
----
+**Status:** 🟠 Root-flaw exploitation trigger FIRED; named-bank/systemic consequence not established by this check.
+**Domain:** Cyber event evidence, classification and escalation; consequence owners retain all money judgments.
+**As of:** 2026-10-26 22:57 ET | STATUS commit: `f76f7ef9b5ecb735f89537d5406f3331c5a12d22`
+**POSITION:** N/A — declared no-book surface; no trade execution or new capital approval.
 
 ## CROSS-DOMAIN
 
 **SENDING:**
+
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |---|---|---|---|
-| REGINALD | Off-wave US financial victims CONFIRMED at primaries: River Financial (June ransomware, 8-K Item 1.05 ×5, materiality undetermined); TruStage (CU vendor, partial outage since 7/11, data access undetermined). Row 5 NOT-FIRED (NYDFS letter routine, but it puts vendor PHP exposure in scope for NY banks) | P2 | Single-bank and single-vendor events; neither tied to the wave; grade is REGINALD's |
-| SHADE | Rows 6/7 NOT-FIRED; Microsoft VENDOR attribution of ConnectWise to China-state-aligned Storm-0940 (not governmental); FL-CYP-18 NotPetya war-exclusion contest CONFIRMED | P2 | State-attack exclusion question opens only on a government attribution |
-| VULCAN | Railway (AI-inference-provider "series"), LiteLLM 1.107.0, OVHcloud CLI, ConnectWise: CONFIRMED supply-chain compromises, no named financial victim | P2 | AI-tooling / provider-key exposure trend |
-| LIQUID / BOND | FL-CYP-06 CONFIRMED: ICBC FS 2023 cut a Treasury-clearing participant's connectivity (SEC order 34-101794) and affected settlement of over $9B of Treasury-backed assets (Treasury jy2114); participant-level, not market-wide. CYPHER's earlier "only the BNY debt" line was retracted 10/22 | P3 | Plumbing precedent for a clearing-participant ransomware |
-| PROME / HENRY | Quest Diagnostics (DGX) 8-K Item 8.01 (10/22): unauthorized access to its Quanum LSM ordering and results system, "certain patient records" accessed, not material; not PHP2Shell per Quest. Healthcare is a NO-OWNER class | P2 | Owner decision (PROME); equity grade, confounded with Q3 results the same morning (HENRY) |
-| 11 owners | Boundary confirmations sent 2026-10-22; 5 confirmed as written (GIBBS, WATT, VULCAN, FALCON, BRENT) | P3 | Rows/classes each owner will receive |
-| VULCAN / REGINALD (info via WALTER 041, 045) | Two off-root code-execution flaws the PHP2Shell week: GitLab CVE-2026-110264 (CVSS 10.0, no login, self-managed only, patched 10/21) and Node.js CVE-2026-111497 (high, needs the app to decompress attacker Brotli data, found by OpenAI Codex Security); neither reported exploited, neither in KEV v2026.10.23 | P3 | Developer supply-chain path (VULCAN); no bank named |
-| VULCAN (packet pending Will) | Two October bank-sector campaigns with alleged AI-agent use: Korea 16 financial firms, ~100,000 records (FSC 10/14, PRIMARY-VERIFIED by CYPHER 10/23; same actor and AI role "under investigation"; CrowdStrike ties 2 breaches to the ARTEX AI pentest tool, moderate confidence; CYB-INC-022); CARLIY0S 400+ LatAm financial TARGETS via Claude / Grok / Kimi (Straiker via secondaries; CYB-INC-023). Palo Alto: PHP2Shell reaches PAN-OS and Panorama (PRIMARY 10/23; WF-500 corrected to NOT affected the same day; no exploitation known) | P2 | AI-run exploitation trend; PANW / cyber-vendor read is VULCAN's |
-| REGINALD / GIBBS | **Kiteworks (secure file transfer) confirmed AFFECTED by PHP2Shell** (own advisory upd 10/22: unauthenticated RCE, Critical Update 9.5.3; no exploitation statement). MOVEit-shaped node; victim check 11/06 | P2 (sent 10/23) | A named US bank/CU/core-vendor victim fires row 3 -> P1 |
-| REGINALD / GIBBS / BOND / LIQUID | Chokepoint map (`workbook/CHOKEPOINTS.tsv`, 32 shared suppliers/utilities): deductions — file transfer is the repeat door; market-plumbing cyber hits land one ring out (ICBC FS, ION); Broadridge 21 of 25 primary dealers (search excerpt, unverified) | P2/P3 (sent 10/23) | Their supplier lists; consequence grades stay theirs |
-| PROME (packet pending Will) | NO consequence owner for non-US banks outside Japan / Europe: State Bank of India data loss (Reg. 30 filing 10/21, 3,897 PII records; CYB-INC-021), Korea (CYB-INC-022) | P3 | Owner decision |
+| REGINALD / GIBBS / SHADE / VULCAN / WALTER / PROME | Both PHP2Shell root CVEs in CISA KEV v2026.10.26, dateAdded 10/26; watch row 2 FIRED, CYB-INC-007 CONFIRMED root exploitation | P1 | Existing VX-06 band moves 3 -> 4; no named victim, bank, loss or actor supplied. R1 named-victim flip remains separate. Packets committed e95ea6efd |
+| REGINALD / GIBBS / LIQUID / WALTER / PROME | ConnectWise 10/26 14:00 UTC still preparing partner onboarding; full restoration unconfirmed. No named bank/CU consequence established in bounded primary, SEC and public searches | P2 | MSP supply-chain channel; SEARCH-NOT-FOUND is not absence proof. Financial-services targeting is not a victim count; next primary update 10/27 14:00 UTC |
+| WALTER / PROME / LIQUID | Google still expects Chrome G3-root removal 10/27 morning PDT; post-release check pending. Guidewire CA bulletin resolved 10/24 with no subscription impact found at that update | P2 | Watch public bank/payment/trading-software failures after rollout; no outage inferred from an investigation bulletin |
+| SAM / LIQUID / PROME | GMO hosted trading-cloud intrusion CYB-INC-032 CONFIRMED OFF-WAVE; 26,739 POTENTIAL servers, 70-plus firms THREAT scope; customer unauthorized trades reported | P2 | Japan trading access; total loss/entry/actor unknown. Fifth-notice session warning WALTER ARTIFACT-VERIFIED after primary timeouts. No PHP/eMudhra linkage |
+| VULCAN | Brotli CYB-INC-027 same CVE reaches Bun/Envoy/Python bindings; four primary advisories own-read, KEV v2026.10.26 absent | P2 | AI-found flaw/dependency trend, not extra independent incidents or a confirmed exploitation finding |
+| DAEDALUS / NEXUS / PROME / WALTER | Composite 22/40 raw, 16/40 adjusted replaces 21/40, 15/40; PHP cluster counted once at max 4 | P3 | Refresh live references; preserve dated as-made evidence. Full primary wave re-check remains due 10/29 |
 
 **WAITING FOR:**
+
 | From | Input | Expected by | Why it matters | How it changes my view |
 |---|---|---|---|---|
-| CISA | KEV listing of CVE-2026-109618 / -109619 | Unknown (likely soon) | Row 2 | KEV listing = row 2 FIRED, VX-CYP-06 to ORANGE |
-| Dutch NCSC | Outcome of "first signals of successful misuse" | Unknown ("could take months", NOS) | Row 1 | A named victim on or before 11/20 = MOVEit flip |
-| DEWEY | REQ-008 rerun (008R) | 2026-10-29 | Base rates and watch states | Any row state change |
-| HENRY / VULCAN | Equity persistence read | 2026-11-18 | Row 9 | A cyber-sector gain past 20 trading days or a vector collapse |
-| 6 owners (REGINALD, SHADE, HENRY, LIQUID, BOND, OTTO) | Boundary confirmation | Their next session | Routing | Amendments to the hand-off table |
+| ConnectWise | Service-specific confirmed restore access and re-enrollment | 2026-10-27 14:00 UTC update | Today's restoration not confirmed | Availability verdict changes only on actual service confirmation |
+| Google / named public financial operators | Stable root-rollout confirmation and any attributable outage | 2026-10-27 morning PDT onward | Pre-release read cannot grade post-release breakage | Grade event under existing row-8 and software-only boundaries |
+| Dutch NCSC / victims / IR reports | Named successful PHP2Shell compromise | Unknown; full check 10/29, flip window through 11/20 | KEV confirms exploitation without naming a victim | Row 1 or 3 FIRE can meet the existing R1 flip |
+| DEWEY | REQ-008 rerun | 2026-10-29 | Base rates and watch states | Reconcile primary evidence; no substitute systemic conclusion |
+| HENRY / VULCAN | Equity persistence grade | 2026-11-18 | Thermometer remains owner-graded | Watch row 9 |
+| REGINALD / SHADE / HENRY / BOND | Boundary replies | Their next session | Seven of eleven confirmed (LIQUID/OTTO integrated 10/26) | Owner amendments only on actual replies |
 
 ## VIEW
-- WAVE-2026-10 reads MECHANICAL so far (Log4Shell-shaped): attempts in the millions (Cloudflare), no named successful compromise, CISA had not observed exploitation at its 10/21 alert.
-- The one MOVEit feature it shares is pre-disclosure exploitation (AWS 10/17 vs disclosure 10/21), with a low-footprint exploit, so victims could surface weeks later.
-- Composite 21/40 raw, 15/40 shared-root-adjusted; broad YELLOW, no vector above 3. Unchanged 10/23: three non-US bank-sector incidents are not wave-rooted and the bank bands key on US victims.
-- **Chokepoint map (10/23):** today's threats touch the EDGES of finance's shared suppliers (perimeter appliances, the MSP layer, file-transfer products), not a core processor or market utility. Exception that matters: **Kiteworks is confirmed vulnerable** (file transfer + pre-disclosure PHP attempts = MOVEit shape as reach, not yet as compromise), and the ConnectWise MSP campaign is a confirmed live compromise with a late-surfacing victim shape.
-- Palo Alto (10/23, primary): PAN-OS and Panorama are affected (WF-500 corrected to not affected), a reach into security appliances via the management interface; hotfix ETAs 10/26–10/30; no exploitation known against its products.
-- Same week, off-root: GitLab (CVSS 10, no-login code execution on self-managed servers) and Node.js (Brotli decoder) flaws, both patched 10/21, neither reported exploited; KEV-watched. Google (Hultquist, secondary): PHP2Shell exploitation "not validated" but "may have already begun in a limited fashion".
+
+- CISA KEV moves the PHP root from ATTEMPTS-ONLY to confirmed exploitation. It does not supply a bank-victim census or a loss figure.
+- Registered score: 22/40 raw, 16/40 adjusted; VX-06 ORANGE. Other vectors retain actual previous vintages; this is not a full fresh victim survey.
+- ConnectWise still presents an open restoration and tenant-persistence channel. Bounded financial-institution search found no qualifying named consequence; reporting/indexing can lag.
+- Tuesday Chrome rollout remains a prospective availability test. GMO is a separate confirmed trading-cloud incident, with unknown total loss and no established link to either root.
 
 ## CALIBRATION
-- Conviction: M on "mechanical so far"; L on what +14 to +66 days shows.
-- Diverge from consensus by: social-media "Black October" framing is louder than any confirmed damage; the desk does not adopt it.
-- Cross-agent tension: DEWEY recommended a watch, not a desk (R0 review 2026-12-17). Will's view ("just the beginning") is registered as CYP-01 30% / CYP-02 15% — desk odds, below his framing. Map-derived CYP-03 (MSP-route bank disclosure by 12/31) 15%, CYP-04 (new KEV CVE in a mapped file-transfer product by 2027-04-30) 35%.
-- Uncertain about: whether NCSC's partner signals are real compromises; whether victims name the CVE (CYP-02's strict leg).
-- Failure patterns: "no compromise confirmed" read as all-clear; a viral claim re-ingested after it was refuted. Relay direction (KB-CYP-019): 12 of 13 do-not-relay claims overstated toward alarm, 1 toward reassurance — a selection-biased sample, a direction not a rate; an outlet reporting an agency is a lead, never row-1 evidence.
+
+- **Conviction:** H on CISA listing and the exact vendor update; L on ultimate financial losses and victim scope.
+- **Diverge from market by:** no measured market-consensus comparison this session; do not substitute security rhetoric for damage.
+- **Cross-agent tensions known to me:** DEWEY's cheaper WALTER-watch alternative remains the R0 premise test for 12/17; consequential bank/insurance grades belong to their owners.
+- **Uncertain about:** named victims, bank reach, tenant losses, and post-Tuesday certificate breakage; respective owners REGINALD/GIBBS/SHADE/SAM/LIQUID.
+- **Failure patterns to mind:** catalog exploitation silently becoming a named bank breach; authentication/target/server counts becoming a victim census. Predictions remain in PREDICTIONS.tsv, four OPEN with unchanged approved letters.
 
 ## NEXT DECISION POINT
-- What: R1 two-way flip test for WAVE-2026-10.
-- When: 2026-11-20 (disclosure +30 days); interim 11/04 (MOVEit +14 analogue).
-- What would change my view: row 1 or row 3 FIRES (toward MOVEit); rows 1, 3, 4 all NOT-FIRED with dated re-checks 11/13–11/20 (toward Log4Shell).
 
-## WATCH
+- **What:** ConnectWise confirmed restore access and Chrome removal/disruption check; full wave re-check follows.
+- **When:** 10/27 14:00 UTC ConnectWise; 10/27 morning PDT Chrome; 10/29 all non-terminal watch rows.
+- **What would falsify the trigger:** no service confirmation means restoration remains unconfirmed; no dated post-release observation means Chrome outcome remains ungraded. R1 cannot fire on row 2 alone.
+
+## FORWARD CATALYSTS (next 2–4 weeks)
+
 | Date | Event | Threshold / Signal |
 |---|---|---|
-| 2026-10-27 | Chrome removes eMudhra G3 root (non-browser removals already 10/19–20) | Any finance-software breakage or outage tied to it |
-| 2026-10-29 | DEWEY 008R; 7-day re-check deadline for every open watch row | Any row state change |
-| 2026-10-30 | Last Palo Alto PAN-OS hotfix ETA (Panorama / WF-500 ETA TBD) | Exploitation against Palo Alto products; ETA slip |
-| 2026-10-26 | ConnectWise Cloud Backup restoration | FI naming ConnectWise/MSP as entry route |
-| 2026-11-04 | PHP2Shell +14 days | Named victims; Item 1.05 / 8.01 8-Ks |
-| 2026-11-06 | Kiteworks victim check (P1) | Any organisation naming Kiteworks as breach route |
-| 2026-11-06 | Capcom 11.7M claim re-check (CYB-INC-030) | FALSE if no source beyond the 2020 Ragnar Locker attack |
-| 2026-11-15 | TruStage data-access check | PII finding, AG notice, cost line |
-| 2026-11-18 | Row 9 persistence test | Cyber gain past 20 trading days |
-| 2026-11-20 | R1 flip test | See NEXT DECISION POINT |
+| 2026-10-27 | ConnectWise update; Chrome G3 root removal | Confirmed availability / attributable bank-payment-trading outage |
+| 2026-10-29 | Full wave re-check; DEWEY 008R | Named primary evidence and actual watch-state changes |
+| 2026-10-30 | PAN-OS last patch ETA; GMO procedures | Fix availability/exploitation; replacement/payment terms |
+| 2026-11-04 | PHP disclosure +14-day analogue | Named victims / material filings |
+| 2026-11-06 | Kiteworks victim test; GMO claims procedure; Capcom re-check | Own dated catalyst instruments |
+| 2026-11-15 | TruStage data-access check | Primary scope / costs |
+| 2026-11-18 | Equity persistence | Consequence-owner grade |
+| 2026-11-20 | R1 flip | Named-compromise or in-window quiet-check conditions in EXIT_PROTOCOL |
+
+Evidence: `research/2026-10-26_startup/RECORD.md`. Startup pull/push deferred under dirty-owner stop. Native coordination notices accepted for PROME/VULCAN/WALTER; recipient consumption remains unverified.
