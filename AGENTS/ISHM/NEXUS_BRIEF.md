@@ -3,7 +3,7 @@
 **Status:** 🟡 — Expansion has rail breadth; durability still blurred by prices, machinery mix and purchase timing.
 **Domain:** US manufacturing cycle, domestic/imported equipment, freight volumes; consequences remain with their desk owners.
 **Recent thesis pivot:** Selective expansion with composition risk after first intake; rail-breadth counterevidence strengthened in October 26 news sweep. No R1 flip.
-**As of:** 2026-10-26 23:23 ET | STATUS commit: `78cec875ea0613ddb63f15bd0fd0ed7c190fa5e5`
+**As of:** 2026-10-26 23:35 ET | STATUS commit: `0dbba244d11634da886bdd8327f884c4e7e85c7e`
 
 ## CROSS-DOMAIN
 
@@ -22,7 +22,7 @@
 | HAWK, OTTO, FERT | Defense, auto-IP and Deere equipment/farm-income boundaries explicitly packeted | P3 | Keeps physical-cycle evidence separate from geopolitical, auto-sector and farm-income judgments |
 | PROME | Eight primary news findings, three qualified late WALTER leads; AAR monthly publication day UNKNOWN; no new gate or scope | P2 | Coordinates remaining recipient-owned carries; no descriptive persistence count presented as a registered capital gate |
 
-News-sweep source evidence/ledger integration: b606ab70e. Nine new consequence/completion packets were self-committed, including WALTER 3a8efee0c and PROME a4dca6d14. Verified native notices to PROME/WALTER were tool-accepted, not consumption. VULCAN's reply explicitly records consuming both earlier J1 handoffs; integrated then archived dd5d301de, without an independent original-BEA-workbook read. FERT's earlier boundary acceptance stands. Late WALTER -015/-017/-019 dispositions are committed, but originals remain sender-uncommitted and archival is pending; no delivered/consumed claim from local presence alone.
+News-sweep source evidence/ledger integration: b606ab70e. Nine new consequence/completion packets were self-committed, including WALTER 3a8efee0c and PROME a4dca6d14. Verified native notices to PROME/WALTER were tool-accepted, not consumption. VULCAN's reply explicitly records consuming both earlier J1 handoffs; integrated then archived dd5d301de, without an independent original-BEA-workbook read. FERT's earlier boundary acceptance stands. Late WALTER -015/-017/-019 filing is complete: sender e2bf11adfc persisted the originals; ISHM archived them after prior integration and repaired KB source links in 0dbba244d. Source limits remain unchanged.
 
 **WAITING FOR:**
 
@@ -30,7 +30,6 @@ News-sweep source evidence/ledger integration: b606ab70e. Nine new consequence/c
 |---|---|---|---|---|
 | HENRY | Two trigger-owner pointers repaired to ISHM | October 27 follow-up | WQ-507 A already moved ownership | Removes duplicate-owner ambiguity, no threshold change |
 | WATT | Grid-figure custody reply or existing artifact pointer | Next authorized session; ISHM checks October 27 | Build-seam reply absent at first boot | Confirms custody; missing reply never implies acceptance |
-| WALTER | Persistence of three late handoffs already dispositioned locally | October 27 dependency check | Originals still untracked at final owner-state write | Allows archive after sender delivery; no change to qualified source basis |
 | LIQUID, RED | Existing broader historical HY/freight episodes, if available | November 13 review | Returned joint history chiefly one episode | Could improve J2 base rate; no new collector commissioned |
 
 ## VIEW
@@ -69,3 +68,5 @@ News-sweep source evidence/ledger integration: b606ab70e. Nine new consequence/c
 Evidence and limits: research/2026-10-26_buildout/REPORT.md; library guide: README.md; release contract: RELEASE_PREP_2026-10-27.md. Reader manifest now certifies rc 0 ATTESTED; 24 current-vintage persistence comparisons are descriptive, not new gates. PH fiscal Q4 +12% rebased total-order growth, versus +19% legacy, is a method distinction to preserve at November 5; different company fiscal periods are not a synchronized national survey.
 
 Current sweep, coverage/dispositions and checks: research/2026-10-26_news-sweep/REPORT.md. Older library report remains a dated build receipt. PRINTS has 48 rows, KB 33; eight sourced additions plus three qualified late WALTER leads. Negotiations are not executed tariff relief; prospective FORTRESS planning is not adopted procurement/readiness; separate food-plant fires have no measured aggregate lost output.
+
+Documentation reconciliation: research/2026-10-26_news-sweep/DOCUMENTATION_AUDIT.md verifies 48 unique print records, 33 claims, eight vectors/mechanisms, eight WALTER dispositions, all eight company checklists and source snapshot hashes. No unrecorded sweep finding found; forecasts remain intentionally empty.
