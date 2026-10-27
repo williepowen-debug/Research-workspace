@@ -3,6 +3,8 @@
 
 ## ★ NEXT SESSION — START HERE
 
+**October 26 CARL accepted:** L786 review RESOLVED; explicit closeout receipt 0dbf1c3ff reports bounded research/persistence done with declared limits. Future observations have PROME wakes L841 October 27 paper fills, L842 October 29 GDP/PCE, L843 November 6 issuer sources. CRL-21 remains STUCK/unscored; no fabricated fills. NEXUS bounded return still in progress.
+
 **October 26 five-desk review:** [receipt](reports/2026-10-26_five-desk-review.md). NEXUS L832 assigned scope RESOLVED (ea274f610); full fleet review still October 23, Tuesday L554/L555 remain. ISHM library accepted with calibration limits and tomorrow release plan. FERT next ERS date corrected to November 24. NEXUS bounded synthesis/Tuesday prep and CARL final L786 plus peer intake assigned in 28fe117f3; returns and explicit closeout answers pending. MIDAS gold certification gap remains.
 
 **October 26 MIDAS return consumed:** [receipt](reports/2026-10-26_midas-consumption.md). L701 Nornickel issuer read RESOLVED; production above fixed pace, guidance unchanged. Certified December gold settlement for October 22/23 remains missing: authenticated exchange/broker final-settlement record required. Contract mismatch explained; actual score 8/20 unchanged. Frozen forecasts and October 30/November 2 clocks retained; no CME reprobe or new feed.
