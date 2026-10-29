@@ -709,3 +709,5 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-29T13:28:18-04:00	SIG-W-20261029-034	noted	INBOX_WALTER	Cape Dao resolved SUNK per FALCON (IMO + NAVAREA IX 403/26); FALCON census 5 confirmed losses; not a new attack
 2026-10-29T13:28:18-04:00	SIG-W-20261029-035	noted	INBOX_WALTER	UKMTO vessel fire 9NM N of Khasab 10/29 ~03:00Z; IRGC three-tanker mine claim CLAIM-ONLY; superseded by 037
 2026-10-29T13:28:18-04:00	SIG-W-20261029-037	noted	INBOX_WALTER	Khasab vessel = dhow MSV QUBA sank (NAVAREA IX 417/26 via FALCON), crew safe; not a tanker; census 6; ladder #2 NOT FIRED; no cargo/throughput loss established
+2026-10-29T13:57:42-04:00	2026-10-29_from-HANS_ttf-L3-100-fired-10-28	deferred	INBOX	Arrived at closeout, uncommitted by HANS (not moved). HANS-T-07 L3 fired on vendor TTFX26 100.72 10/28; BRENT action owed next session (gas price leg)
+2026-10-29T13:57:42-04:00	2026-10-29_from-HANS_ttf-L3-addendum-settle-disputed	deferred	INBOX	Addendum: official ICE Endex settle >100 NOT established (98.50 ICE table vs 100.72 vendor); process with parent next session

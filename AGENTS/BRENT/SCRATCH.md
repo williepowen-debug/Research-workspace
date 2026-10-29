@@ -31,5 +31,5 @@
 - None from BRENT. Any SELL on the original VLO share is TERRY's recommendation on an accepted settlement observation, Will's execution. Trade ideas are NOT-FIRED, TERRY constructs; Will decides each. Expiries are Will's (USER.md); no reminders.
 
 ## MAIL STATE
-- Inbox: clear (12 consumed, 12 ledger rows, 12 moved).
+- Inbox: 12 consumed, 12 ledger rows, 12 moved. **Two HANS packets arrived at closeout (TTF HANS-T-07 L3 fired 10/28 on vendor 100.72; addendum: official settle >100 NOT established) — logged DEFERRED, not moved (HANS had not committed them). Process first next session: BRENT is an action recipient on the gas leg.**
 - Outbound this session: PROME (WQ-533 ruled), TERRY (trade ideas). Outbox folder unchanged.
