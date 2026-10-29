@@ -32,7 +32,7 @@
    **FERT extension (deliberate, wider than the template):** this desk logs **one row per item consumed from EVERY sender**, not just the WALTER lane — root-level packets get `source=INBOX_ROOT`. Rationale: the drain that matters here is the whole inbox (a 16-day dark gap left 5 root packets and 1 WALTER signal), and a log that can only see one lane cannot show a reviewer what was left unread.
 4. Read `STATUS.md`. *(The `FROZEN 2026-03-20` first-live-session trigger was spent 2026-08-17 — STATUS is live. Its own banner remains the authority on whether it is live.)*
 5. Execute the task. Write results back (STATUS + workbook). Update BOTTOM LINE.
-6. Closeout per root `CLAUDE.md` §Git Protocol (commit own pathspec, orphan check, auto-push).
+6. Closeout per root `CLAUDE.md` §Git Protocol (commit own pathspec, orphan check, auto-push) — run `closeout_check.py` between commit and push (§GIT).
 
 ---
 
@@ -172,14 +172,18 @@ Root `CLAUDE.md` §Git Protocol owns the rules — cite, don't restate. Pathspec
 
 **Closeout step 1e, FERT form** (added 2026-10-28, Will-approved): FERT has no `CATALYSTS.tsv` or `CALENDAR.md`, so the root recipe's desk paths miss this desk's dated surfaces. Run: `python3 scripts/claim_check.py --check weekday PROME/DOCKET.tsv PROME/GATES.tsv PROME/WILL_QUEUE.md AGENTS/FERT/STATUS.md AGENTS/FERT/workbook/TRIGGERS.tsv AGENTS/FERT/workbook/GATE_GRADES.md AGENTS/FERT/workbook/PREDICTIONS.tsv AGENTS/FERT/workbook/KB.tsv AGENTS/FERT/workbook/GRADING_CARD_*.md` (from repo root). `TRIGGERS.tsv` is the local form of a catalyst calendar.
 
+**Closeout runner** (added 2026-10-28, Will-approved): after committing and before `scripts/safe-push.sh`, run `python3 AGENTS/FERT/closeout_check.py` (repo root). Exit 0 all PASS · 1 LOOK · 2 a step FAILED. Report every LOOK/FAIL and every ✍️ judgement line in the closeout record; a skipped step is reported SKIPPED, never omitted.
+
 ## FILES
 
 | File | Role (role tense — pointers name resolution rules, not values) |
 |---|---|
 | `STATUS.md` | Live state; its own banner is the authority on whether it is live (FROZEN banner ⇒ § FIRST LIVE SESSION applies) |
 | `boot.py` | Boot instrument: wall clock · ledger staleness · predictions-due · triggers-due. Exit 0 quiet / 1 REVIEW / 2 leg failed |
+| `closeout_check.py` · `test_boot.py` | Closeout runner: runs the mechanical closeout steps and prints PASS / LOOK / FAIL by each tool's own verdict marker, then lists the judgement steps it cannot see (does **not** certify a closeout) · falsification tests for `boot.py` and the runner (`python3 AGENTS/FERT/test_boot.py`) |
 | `workbook/TRIGGERS.tsv` | Wake register — the event-driven cadence lives here; its `Next_Check` cells are the resolution rule |
 | `workbook/PREDICTIONS.tsv` | Falsifiable forecasts; Status enum in its header; `Resolve_By` feeds the boot scan |
+| `workbook/PREDICTIONS_SCOREBOARD.md` | Calibration by charter era (March vs re-chartered), Brier on stated confidences, and the §C pre-write checklist — run §C before any new FERT-XX row |
 | `workbook/KB.tsv` | 13-col atomic-claim ledger (schema: `workbook/SCHEMA.tsv`; enums: `AGENTS/VOCABULARIES.tsv`) |
 | `workbook/VX.tsv` · `FLOW.tsv` | Vector states · transmission pathways (re-cut at primaries 2026-08-17; March rows survive only as graded history in PREDICTIONS + archive). VX value cells carry the benchmark the row's NAME and BANDS are on — never a neighbouring benchmark |
 | `workbook/GATE_GRADES.md` | Print-by-print gate grade history + mirrored grading terms (letters canonical in `PROME/GATES.tsv`) |

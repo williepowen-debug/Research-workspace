@@ -54,9 +54,20 @@ def run_alert(cmd):
         print(out)
     if err:
         print(err, file=sys.stderr)
-    if p.returncode not in (0, 1):
+    if p.returncode not in (0, 1) or _crashed(out + "\n" + err):
         return 2
     return 1 if (p.returncode == 1 or "⚠️" in out or "🔴" in out) else 0
+
+
+def _crashed(text):
+    """Did the checker DIE rather than report? A Python traceback exits 1, the
+    same code as a real finding, so the exit code cannot tell them apart; the
+    output can. Added 2026-10-28 after test_boot.py showed a crash graded as
+    REVIEW (HANS closeout_check.py lesson, 2026-09-19)."""
+    low = (text or "").lower()
+    return any(m in low for m in (
+        "traceback (most recent call last)", "modulenotfounderror", "importerror",
+        "can't open file", "syntaxerror", "unrecognized arguments"))
 
 
 def _tsv_rows(path):
@@ -66,13 +77,20 @@ def _tsv_rows(path):
     return list(csv.DictReader(lines, delimiter="\t")), None
 
 
-def dated_scan(path, date_col, label, status_col=None, live_statuses=None):
+def dated_scan(path, date_col, label, status_col=None, live_statuses=None, today=None,
+               skip_prefixes=("RETIRED",)):
     """Generic due-scan: rows whose date_col <= today (optionally filtered to
     live statuses). Returns (rc, [lines]). rc 0 = none due · 1 = due · 2 = error.
-    Null output states its scope (finding_verification_zero_is_ambiguous)."""
+    Null output states its scope (finding_verification_zero_is_ambiguous).
+
+    A live row whose date cell cannot be read prints MALFORMED and counts as
+    REVIEW — before 2026-10-28 it was skipped silently, so an OPEN prediction
+    with a blank or 'TBD' Resolve_By read as "none due" forever (found by
+    test_boot.py). Cells starting with a skip prefix (RETIRED…) are deliberate
+    non-dates and stay skipped. `today` is injectable for tests."""
     if not path.exists():
         return 2, [f"  {label}: {path.name} MISSING — the register this leg certifies does not exist"]
-    today = date.today()
+    today = today or date.today()
     due = []
     try:
         rows, _ = _tsv_rows(path)
@@ -81,13 +99,16 @@ def dated_scan(path, date_col, label, status_col=None, live_statuses=None):
                 if (r.get(status_col) or "").strip().upper().split(" ")[0] not in live_statuses:
                     continue
             raw = (r.get(date_col) or "").strip()
+            rid = (r.get("ID") or "?").strip()
+            what = (r.get("Trigger") or r.get("Prediction") or "").strip()[:60]
+            if raw.upper().startswith(tuple(p.upper() for p in skip_prefixes)):
+                continue
             try:
                 when = datetime.strptime(raw[:10], "%Y-%m-%d").date()
             except ValueError:
+                due.append(f"  MALFORMED: {rid} {date_col}={raw!r} is not YYYY-MM-DD — fix the cell; this row is unscanned")
                 continue
             if when <= today:
-                rid = (r.get("ID") or "?").strip()
-                what = (r.get("Trigger") or r.get("Prediction") or "").strip()[:60]
                 due.append(f"  DUE: {rid} [{raw}] {what}")
     except Exception as e:  # noqa: BLE001
         return 2, [f"  {label}: scan error {type(e).__name__}: {e}"]
