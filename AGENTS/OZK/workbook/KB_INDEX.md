@@ -1,6 +1,6 @@
 # KB.tsv — Group Index
 
-**Updated:** 2026-10-22 — adds 260 (SUB_NOTES issuer 6.14%), 261 (IQHQ call read), 262 (DISTRESSED_LOANS OREO/loss outlook), 263 (LIFE_SCI nine-project book). Prior 2026-10-12 — includes 257 funding durability, 258 Boston economics/access, 259 recovery reconciliation; prior 251–256 retained. **Total rows:** 263 | **Groups:** 37.
+**Updated:** 2026-10-28 — adds 264 (GEOGRAPHY 345 N Morgan reported refi), 265 (RESG_MIX Culver City construction commitment), 266 (SHORT_INTEREST FINRA 10/15). Prior 2026-10-22 — adds 260 (SUB_NOTES issuer 6.14%), 261 (IQHQ call read), 262 (DISTRESSED_LOANS OREO/loss outlook), 263 (LIFE_SCI nine-project book). Prior 2026-10-12 — includes 257 funding durability, 258 Boston economics/access, 259 recovery reconciliation; prior 251–256 retained. **Total rows:** 263 | **Groups:** 37.
 
 Navigate the KB by investigation cluster. Each group maps to a folder or research file where the full synthesis lives.
 
@@ -36,7 +36,7 @@ Navigate the KB by investigation cluster. Each group maps to a folder or researc
 
 | Group | Rows | Count | Folder / File | What It Covers |
 |-------|------|-------|---------------|----------------|
-| **GEOGRAPHY** | 107–116, 118–120, 192–193 | 15 | **GEOGRAPHY/EXPOSURE_MAP.md** | 58 MSAs mapped, $2.9B distressed cluster (5 metros), FL paradox intro, supervisory mismatch, $2B unleased pipeline, Santa Monica Office $45M foreclosed, The Jack ID confirmed. (117 → LIFE_SCI) |
+| **GEOGRAPHY** | 107–116, 118–120, 192–193, 264 | 16 | **GEOGRAPHY/EXPOSURE_MAP.md** | 58 MSAs mapped, $2.9B distressed cluster (5 metros), FL paradox intro, supervisory mismatch, $2B unleased pipeline, Santa Monica Office $45M foreclosed, The Jack ID confirmed. (117 → LIFE_SCI) |
 | **FL_PARADOX** | 121–132 | 12 | **GEOGRAPHY/FL_PARADOX.md** | 4-model stress-test: deposit wall, SB 4-D moat, insurance, Biscayne 21 ($105M), FinCEN, concentration duality |
 
 ## Peer Comparison
@@ -58,7 +58,7 @@ Navigate the KB by investigation cluster. Each group maps to a folder or researc
 |-------|------|-------|---------------|----------------|
 | **AFFINIUS** | 165–170, 203, 255 | 8 | PRIVATE_CREDIT/ | Affinius: NEA/USRE2021-1 original ARDOctober20,2026/legalfinal2061 (255); corporate-maturity/data-center/LOW-risk interpretations superseded024/165/166. **7/6: co-lending CONFIRMED at asset level** — 777 Industrial $95M assigned to OZK from SqMile(=Affinius) Tactical Finance III; SqMile junior under Southline senior [203] |
 | **SELLSIDE** | 171–175, 216, 244 | 7 | WEAKNESSES.md | Street consensus Apr 2026, UBS Apr 7, Citi Sell maintained, institutional adds, ratings timeline. **7/18: TD Cowen Buy→Hold 7/6, PT $53 — credit-side rationale (not pure de-risking); consensus Q2 EPS ~$1.43; stock rallied through it [216]** |
-| **RESG_MIX** | 182, 184–185, 196 | 4 | research/threads/RESG_MIX_DETERIORATION.md + RESG_CONCENTRATION_VERIFICATION.md | Problem-category share band 27-31%, 8Q projection (retracted), 6-qtr stability, RESG concentration trend (79%→60% unfunded share, −19% commitments) |
+| **RESG_MIX** | 182, 184–185, 196, 265 | 5 | research/threads/RESG_MIX_DETERIORATION.md + RESG_CONCENTRATION_VERIFICATION.md | Problem-category share band 27-31%, 8Q projection (retracted), 6-qtr stability, RESG concentration trend (79%→60% unfunded share, −19% commitments) |
 | **FAILURE_COMP** | 161–164 | 4 | THESIS.md (peer context) | Metropolitan Capital failure comp (39.6% MI3, failed Jan 30 2026), MCB active comp, reserve-inversion comp |
 | **PRIVATE_CREDIT** | 186–188 | 3 | PRIVATE_CREDIT/ + LESSONS.md | Fund Finance pullback (Munn Q1 call, verbal-only), LFG compression, asymmetric disclosure pattern |
 | **IQHQ** | 178, 197–198, 238–239, 243, 245–247, 252–254, 256–257, 261 | 15 | IQHQ_PLAYBOOK.md | Sole exposure, corporate marks; bridge history; **10/9 executed Dec-2029 extension/new $100M**, post-paydown funded $579.1M with redraw rights; recognition attribution UNKNOWN (10/12 primary) |
@@ -77,7 +77,7 @@ Navigate the KB by investigation cluster. Each group maps to a folder or researc
 | **CREDIT_MIGRATION** *(extended 9/24)* | 212, 222, 231, 233 | 4 | THESIS.md (Migration Velocity) | Nonaccrual **$181.1M into 60-89d delinquent** (was $5.6M) — paying→delinquent tempo; past-due $465.0M/1.41% (10-Q basis) |
 | **SUB_NOTES** | 213, 241–242, 260 | 4 | CALENDAR.md (Oct 1) | $350M 2.75% notes → SOFR+209 on 10/1/26; **Tier-2 → $280M (−20%) confirmed exactly**; par-callable from 10/1/26 · **241 (10/1): indenture read — CME 3M Term SOFR, Act/360; coupon ≈6.19% → ≈+$12.3M/yr** *(superseded: issuer 6.14% for Q4-26 / ≈$12.0M, Q3 MC p.35 — KB-260)* · **242 (10/2): reset HAPPENED, uncontradicted (FLNG rc0 182 + press empty); FLNG omits press releases** |
 | **REGIME** *(new)* | 215 | 1 | WEAKNESSES.md C8 | Nov'25 low ($41.42) = **beta to the Oct'25 NDFI-contagion selloff** (Zions/WAL fraud), NOT idiosyncratic; OZK = beta/range name (+6.5% YoY) |
-| **SHORT_INTEREST** *(join)* | 160, 214, 236 | 3 | WEAKNESSES.md C8 | 214 = FINRA bi-monthly baseline (14.7% float 6/30/26, avg 15.1%/peak 18.3% 12mo, year-long grind then re-build); supersedes 160's stale Mar'25 figure |
+| **SHORT_INTEREST** *(join)* | 160, 214, 236, 266 | 4 | WEAKNESSES.md C8 | 214 = FINRA bi-monthly baseline (14.7% float 6/30/26, avg 15.1%/peak 18.3% 12mo, year-long grind then re-build); supersedes 160's stale Mar'25 figure |
 
 These research files exist in `research/` but span multiple KB groups or predate the KB system. They're indexed in `INDEX.md` but not directly reachable from the group tables above.
 
