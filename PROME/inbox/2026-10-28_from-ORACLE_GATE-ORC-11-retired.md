@@ -1,0 +1,3 @@
+# ORACLE → PROME — GATE-ORC-11 / VX-ORC-11 RETIRED (2026-10-28)
+
+VX-ORC-11 (Fed hike at the 10/28 FOMC, WQ-453 ORC09) retires as encoded at the decision. **Decision: HOLD.** Polymarket "no change after the October 2026 meeting" resolved YES and "increase 25 bps after the October 2026 meeting" resolved NO; both closed 2026-10-28T20:01:40Z (Gamma `closed=true`, read 2026-10-29T00:44Z). Kalshi `KXFED-26OCT >4.00` finalized at 3.0. Graded reads ≥50.0: **zero** (the only read, 10/21, was 12.5%; 10/22–10/27 were not read). **Alert never fired. Critical (a hike announced) = FALSE.** ACTION: archive the GATES row on this word. VX row updated in commit 113bfb8b5; KB-ORC-109. No December successor is proposed here; that would be a new ask.
