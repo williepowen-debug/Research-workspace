@@ -3,7 +3,7 @@
 **Status:** 🔴 B 1 / C 14 / D 85 HELD at 10/29 weekly review; Bab gate LIVE (leg 2 NOT MET); Iran's Sinokor action from 11/1 is the next watch.
 **Domain:** Iran/Gulf, Hormuz, Houthi/Red Sea and Iraq/PMF theater inputs.
 **Recent thesis pivot:** Crude-premium letter failed via route loss → composition still lacks demonstrated net barrel loss (September 28 / v3.0 October 1); no new pivot.
-**As of:** 2026-10-29 12:20 EDT | STATUS commit: `26f10b0fb` | Evidence cutoff ~13:35 EDT
+**As of:** 2026-10-29 12:20 EDT | STATUS commit: `a83f18891` | Evidence cutoff ~13:45 EDT
 
 ## CROSS-DOMAIN
 
