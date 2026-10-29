@@ -30,13 +30,13 @@
 | OWED-30 buyer-pullback write-up CLOSED · H.R. 5334 read (enacted + waived) · Druzhba check (not reported interrupted) · OWED-51 +21 backfill rows | `domain/energy-strikes/OWED30_BUYER_PULLBACK_WRITEUP_2026-10-29.md` · KB-234…237 · `STRIKES.tsv` | `d84339d95` |
 | SCRATCH handoff current | this file | `55375c6e2`, `c234df32d` |
 
-**Start-here for the next session:** boot normally, then items 1–2 below are the dated ones. The only open item that can bite on 11/2 is **OWED-46** (does Surgut 10/16 count as a refinery? 14/14 without it, 13/14 with). If PROME has not ruled by 11/2, grade L814 on BOTH readings and say so.
+**Start-here for the next session:** boot normally, then items 1–2 below are the dated ones. OWED-46 is CLOSED (Will ruled 10/29 14:02, KB-243; rule in CLAUDE.md §1 Channel 1). On 11/2 grade L814 from the newest QUALIFYING refinery-class row (Ryazan 10/15 unless something newer qualifies); C1 stays 5 unless an independent aggregate prints.
 
 ## ➕ FOLLOW-UP SESSION 10/29 ~13:52–14:05 ET (osprey-5e, Will: "continue working on these")
 | Done | Where | 
 |---|---|
 | WQ-470 X bound at **+92%** from 16 free weekly TD6/TD19 pairs; draft BREAKS (RIO +49% < X; TD17 ceased 12/2025 ⇒ Baltic leg blocks every kill) → back to HAWK | `domain/energy-strikes/WQ470_X_BACKFILL_2026-10-29.md` · KB-238 · WQ470 doc §8 · HAWK packet |
-| **OWED-46 does NOT decide 11/2** (Surgut anchor reaches 14/14 on 10/30; leg B fails anyway). It was never registered at PROME; put to Will in-session | STATUS ACTIVE PM · PROME memo `2026-10-29b_from-OSPREY_…` |
+| **OWED-46 does NOT decide 11/2** (Surgut anchor reaches 14/14 on 10/30; leg B fails anyway). **RULED by Will 14:02 (KB-243): counts only if it makes motor fuel AND its identity is confirmed; Surgut not yet** | STATUS ACTIVE PM · PROME memo `2026-10-29b_from-OSPREY_…` |
 | Druzhba: MOL "no disruption" (KB-240) · Primorsk cause not established, maintenance inferred; Ust-Luga 10/18 fire = probable conflation with PNT (WALTER verify, KB-242) · OWED-51 pass 2 +5 rows, Palkino ≠ Yaroslavl-3 (KB-239) | KB.tsv · STRIKES.tsv |
 **Supersedes above:** NEXT item 3 (X binding) → now WAIT FOR HAWK's four answers. Item 4 Druzhba/Primorsk → done as far as public sources go. Item 6 OWED-51 → remainder is Sept upstream queries + July refinery cross-check. Check the Ust-Luga 10/18 lead at the Palaemon 26 Oct–1 Nov read (11/1).
 
@@ -50,7 +50,7 @@
 6. OWED-51 remainder: Tikhoretsk 2026, 2nd Kaleykino, Unecha, July sweep, Palkino vs Yaroslavl-3 identity.
 
 ## OPEN THREADS / WATCHES
-- 🔴 Refinery tempo: a 14-day quiet with no halt order — distrust it; one strike resets C1 leg A. 🟠 PNT/Primorsk halt cause unknown. Carried: OWED-41 · 42/50 · 43 · 44 · 45 · **46 (decides L814 leg A on 11/2: 14/14 without Surgut, 13/14 with)** · 48 · 51 (remainder). OWED-30 closed 10/29.
+- 🔴 Refinery tempo: a 14-day quiet with no halt order — distrust it; one strike resets C1 leg A. 🟠 PNT/Primorsk halt cause unknown. Carried: OWED-41 · 42/50 · 43 · 44 · 45 · 48 · 51 (remainder). OWED-30 closed 10/29.
 
 ## PREDICTIONS DUE / DECISIONS PENDING
 - **OSP-07 OPEN** (grade ≥11/18). No Will decision open from this desk (WQ-470 held until X is bound).
