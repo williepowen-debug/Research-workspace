@@ -65,3 +65,43 @@ Sensitivity for scale (company's own): **1% of Q3 net yield ≈ $21M of adj. EBI
 - The October 14 ~14–16% annual OCF-decline breakeven was a scenario that incorporated the revolver paydown, not the later $315M commitment increase. It is not an October liquidity estimate or a new trigger.
 - Existing implied-Q4 baseline is $2,500M − $1,198.4M − $874M = $427.6M. At release use actual Q3 and the new FY guide, separate a changed residual from management's explicit Q4 forecast, and check timing/mix before inferring operational deterioration.
 - Full source/financing reconciliation: `research/2026-10-25_catchup/RESULT.md`; no frozen CRU-11 element or RCL grading-card text changed.
+
+---
+
+## Grades — 2026-10-29 (DOCKET L714), from the primary
+
+*Graded 2026-10-29 ~09:1x ET by CRUISE from the 8-K filed 2026-10-29 07:00 ET (EDGAR acceptance 11:00:29Z), acc **0001171843-26-006957**, Ex-99.1. A second 8-K, acc **0001104659-26-119841** (Item 5.02, CFO transition), was read too. **The Q3 10-Q was not filed** when EDGAR's NCLH submissions index was checked at 09:0x ET, so every line that needs the 10-Q is CONDITIONAL on it and is not graded. Derived figures are this desk's arithmetic from release values (KB-CRU-208..213).*
+
+| # | Bar | Reported (primary) | Grade |
+|---|---|---|---|
+| A1 | Q3 CC net yield guide −8.9% | **−6.7% CC** (−6.5% as reported), ~220bp better than guide | **IN BETWEEN.** The beat is larger than the ≤ ~1pt "confirms" bar, but the yield is not at the −6%-or-better "breaks" bar |
+| A2 | Adj EBITDA guide $874M | **$936.8M** (+$62.8M) | beat |
+| A3 | Adj EPS guide $0.90 | **$1.12** (+$0.22); GAAP EPS $1.07 | beat |
+| A4 | What drove the beat | Release: "stronger-than-expected **close-in demand and onboard spend**" plus lower unit costs. Ticket revenue **$1,945.6M, −5.09% YoY**; onboard and other **$1,001.1M, +12.72%**. Per capacity day (gross revenue): ticket **$287.54 vs $319.42, −9.98%**; onboard **$147.95 vs $138.40, +6.91%** | **CONFIRMS the bear read.** The beat came from onboard spend and volume, not from ticket pricing |
+| A5 | Occupancy | **106.5% vs 106.4% (+0.1pt)** on capacity days **+5.43%** | **BREAKS.** Occupancy held, against a −1.54pt fall at Q2 |
+| B1 | FY26 guide | Adj EBITDA **~$2.5B → ~$2.55B** · Adj EPS **~$1.50 → ~$1.70** · CC net yield **~−5% → ~−4.4%** · Adj NCC ex-fuel/day **~−0.25% → ~−0.4%** | **RAISED ⇒ exit rule 1 limb 1 FIRES** (K-shape kill) |
+| B2 | Implied Q4 Adj EBITDA (baseline $427.6M) | Explicit Q4 guide **~$414M**; residual $2,550M − $1,198.4M − $936.8M = **$414.8M** (the two agree) | **A small quiet cut of ~$13M.** The FY raise (+$50M) is smaller than the Q3 beat (+$62.8M). Q4 CC yield guide is unchanged at ~−6.5%; management attributes Q4 mix to the delayed Seven Seas Prestige delivery and cancelled Seven Seas Voyager Suez voyages. The raise is entirely Q3 flow-through |
+| B3 | Net interest: Q3 $180M · FY ~$705M · 2027 $860–880M | Q3 **$170.5M** · FY guide **~$695M** (excludes extinguishment) · 2027 figure **not restated in the release** | Q3/FY lower. The 2027 line is CONDITIONAL on the call transcript or the 10-Q |
+| C1 | Booked-position sentence | "**improved modestly** since the last earnings release but **remains below its optimal range**" | **CONFIRMS on the letter** ("repeated"), with a modest improvement noted |
+| C2 | 2027 | H1: pricing ahead, booked position **below** prior year · H2: pricing ahead, booked **in line** · FY27 net yield **+1% to 2%**, back-half weighted | **MIXED.** Volume confirms (H1 booked below); pricing is not "pressured". The break bar (booked ahead at higher prices) is not met |
+| C3 | Great Stirrup Cay | Great Tides Waterpark opened 9/4; "expected to support stronger demand … over time" | **CONFIRMS.** No quantified effect |
+| C4 | Promotions | "~$100M run-rate savings … guest and crew air optimization and other **tactical changes in promotional offerings**", phasing in through 2028; "more disciplined approach to revenue management"; "base-loading strategy" | **LEANS BREAK** (promotions being pulled back), unquantified |
+| D1 | Liquidity at 9/30 (bar ≥ ~$1.3B) | **Pro forma** for the 10/15 notes and the revolver upsizing: **$2.1B** = cash **$256.5M** + **~$1.8B** revolver availability. The actual 9/30 availability figure, before the pro forma, is not in the release | **CONFIRMS on the pro forma figure.** The actual 9/30 figure is CONDITIONAL on the 10-Q |
+| D2 | $950M notes subsequent event | Closed 10/15 (restated). Revolver **~$2.5B → ~$2.8B in October** | Issue price, premium and loss on extinguishment are CONDITIONAL on the 10-Q |
+| D3 | 9M operating cash flow (bar 9M 2025 $1,630.6M) | **$1,706.4M, +4.64%** | **CONFIRMS** (up) |
+| D4 | Advance ticket sales | Balance **$3,142.0M** at 9/30/26 vs **$3,146.9M** at 9/30/25 (**−0.16% YoY**) on capacity days **+5.43%** in Q3 and **+8.69%** over 9M. The 9M cash-flow line is **−$36.6M** vs **+$13.9M** in 2025. The Q3 balance moved −$509.2M from $3,651.2M at 6/30 | **BREAKS on both limbs.** The balance grew less than capacity, and the 9M change is well below +$13.9M. Deposits are the leading indicator |
+| D5 | 11/17 springing test (free liquidity < $800M) | Pro forma liquidity $2.1B | Far above $800M on the pro forma figure. Actual Free Liquidity on 11/17 is not established (L715) |
+| D6 | Covenant paragraph | Not in the release | CONDITIONAL on the 10-Q |
+| D7 | Maturity schedule | "no significant debt maturities until 2029". Current portion of LTD **$1,135.0M**; total debt **$15.1B**, net debt **$14.8B** | Full schedule CONDITIONAL on the 10-Q |
+| D8 | Ratings | Not in the release | CONDITIONAL on the 10-Q |
+| D9 | Capex | Newbuild-and-growth capex gross: 2027 **~$3.1B**, 2028 **~$1.8B**; 2027 net of export-credit financing **~$1.1B** | ⚠️ A different basis from the bar (10-Q **commitments** $2.9B). Not compared |
+| — | Leverage | Net leverage **5.5x** (Q2: 5.3x) | Climbing. This is one of `VX-CRU-05`'s own listed upgrade triggers |
+| — | 2027 fuel hedges (owed item ④) | **42%** hedged at a blended HFO/MGO **$559/mt** (2026: 48% at $506) | Item ④ hedge leg answered. The Canada exposure leg is not in the release and is CONDITIONAL on the 10-Q |
+
+### E · What the outcome does
+
+- **Exit rule 1 limb 1 FIRED (2026-10-29), on its letter.** NCLH raised its FY26 guide. The K-shape kill applies to `VX-CRU-03`. ⚠️ **The headline and the composition disagree** (`finding_headline_keyed_conditional_inherits_its_composition`). The raise is smaller than the Q3 beat, so implied Q4 fell ~$13M. Ticket revenue per capacity day fell ~10%. Deposits fell YoY on +5.4% capacity. The rule is applied anyway, and the disagreement is recorded here and on the VX row.
+- **`VX-CRU-03`** is re-scored **RED(4) → YELLOW(2)** on the fired rule, the same 4 → 2 treatment exit rule 2 gave `VX-CRU-02`. YELLOW's letter, "mass softening", matches the measured soft points.
+- **`VX-CRU-05`** is **HELD at RED(4)**, because no band letter forces a move. The guidance leg improved (a raise), but the leverage leg worsened (5.3x → 5.5x), and two of the vector's own upgrade triggers were met: leverage climbing off 5.3x, and the advance-ticket build falling again. The two legs point in opposite directions inside one band cell. A re-spec is a residual.
+- **D4 bad ⇒** the guide says to re-run the 18-month model before anything else. D1 (pro forma) and D3 are good. The re-run is **owed, not run this session**. It needs the 10-Q's actual 9/30 availability.
+- **CRU-11** grades on the tape on 11/14, not on these lines. **TERRY** gets the A/B/D outcome by packet the same session.

@@ -1,9 +1,9 @@
-# Inbox Processing Receipt — 2026-10-28 ~23:55 ET
-## Agent: CRUISE — boot catch-up + file sweep
+# Inbox Processing Receipt — 2026-10-29 09:07 ET
+## Agent: CRUISE — PROME-spawned due-row wake (L714) + whole-inbox drain
 
 | Packet | Disposition | KB | State changes |
 |---|---|---|---|
-| WALTER/SIG-W-20261029-009 (RCL Q3) | INTEGRATE — graded from EDGAR primary (L713) | KB-CRU-203..205 | VX-CRU-03/05/02 evidence notes; no re-score |
-| 2026-10-25_from-PROME_stale-sweep-final-two-fixes.md | INTEGRATE — both fixes applied; PROME confirmed DONE 10/28 | KB-CRU-207 | VX-CRU-04 Source path; STATUS Gulf row |
+| 2026-10-28_from-PROME_WQ532-A-RULED-fuel-band-to-observation.md | INTEGRATE — encoded after the NCLH read, as the packet ordered | KB-CRU-214 | VX-CRU-02 → OBSERVATION (no colour, no weight); CADENCE SF13; STATUS bullet |
 
-Inbox top level now holds only PROTOCOL.md and this receipt. WALTER lane empty.
+Census at boot (PROME/tools/inbox_census.py, 09:0x ET): top-level 3 = this packet + standing PROTOCOL.md + RECEIPT.md; WALTER/ 0. The top level now holds only PROTOCOL.md and this receipt.
+Same session (not inbox-driven): DOCKET L714 NCLH Q3 graded (KB-CRU-208..213); VX-CRU-03 4 → 2 on exit rule 1 limb 1; VX-CRU-05 held 4. Outbox: to-TERRY NCLH Q3 A/B/D outcome (information only).
