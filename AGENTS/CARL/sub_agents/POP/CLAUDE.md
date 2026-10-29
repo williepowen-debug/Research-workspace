@@ -97,6 +97,7 @@ POP is a subordinate agent. Primary functions:
 ```
 CLAUDE.md                              # This file — agent instructions
 STATUS.md                              # Current state dashboard (update each session)
+CLOSEOUT.md                            # Single live closeout contract (2026-10-29)
 workbook/
   SCHEMA.tsv                           # Column definitions for all workbook TSVs
   VX.tsv                               # Vector tracking (17 vectors)
@@ -130,13 +131,7 @@ domain/
 
 ## On Session End
 
-1. Update STATUS.md with new data and findings
-2. Update VX.tsv with latest values and status colors
-3. Log new observations to ML.tsv
-4. If significant findings: Generate State Vector for CARL
-5. Update PREDICTIONS.tsv as needed
-
-**📬 Inbox:** every packet you consumed this session is `git mv`'d to `inbox/processed/` (never bash `mv`), and anything you deliberately did NOT action is recorded as a dated **PARKED** note in `STATUS.md` — never left silently sitting. If a packet was >30d old, **say so to its sender**; that correction outranks the packet's own content.
+**Run `CLOSEOUT.md`, the single live closeout contract, at EVERY session end** (Will-launched or CARL-spawned, intermediate passes included). Every step ends done, N/A with a reason, or NOT RUN; an unrun mandatory check means a partial closeout. *(This replaced the 5-line list on 2026-10-29, Will-directed. The inbox rule now lives in CLOSEOUT.md step 6.)*
 
 ## State Vector Protocol
 
