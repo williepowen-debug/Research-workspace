@@ -2,14 +2,14 @@
 
 **Status:** Concentrated bank risk. HY tightened to 318bp [10/27] without REG-T-04 ever firing (peak 340); the widening was BANK-ABSENT and has partly reversed. The 10-year (~5.0%), not HY, moves regionals. Q3: problem loans up at 7 of 10 names, coverage down at 6 of 8 (a weak predictor on DEWEY's base rate); the Florida books hold on every read cell.
 **Domain:** Regional-bank comparison, FHLB advances, hidden CRE and sponsor-bank balance-sheet risk.
-**As of:** 2026-10-28 22:51 ET, Will-launched boot + catch-up (10/28), re-folded after the small-bank borrowing deep dive | STATUS commit: e2be1c817
+**As of:** 2026-10-28 23:06 ET, Will-launched boot + catch-up (10/28), re-folded after the borrowing tests | STATUS commit: 12b8da085
 
 ## CROSS-DOMAIN
 
 **October28 catch-up** (`reports/2026-10-28_boot/REPORT.md`, commit `db025d223`):
 - **HY / REG-T-04 (DOCKET L818): NOT FIRED.** 338 → 330 → 318 [10/23–10/27]; BB and B lead the tightening, so no transmission widening. CCC/HY 4.15× rises on the denominator: no escalation (LIQUID owns re-entry).
 - **SBCF Q3:** FL 8-K cell HOLDS (criticized+classified 2.90% vs ≥3.20%); NPL −15%; an $8.4M reserve on one acquired loan is unexplained. **FL frame: no cell transmits at any of the four names; aggregate PROVISIONAL to the 10-Qs (~11/14).** CORAL consumes.
-- **Funding (LIQUID context):** small-bank borrowings $316.4B SA [w/e 10/14], **+11.8% in 6 weeks** (97.5th pct since 2010) from a low level (4.55% of assets, 18th pct). It mostly funds loan growth, with deposits rising, so it is not a run. A one-week +$9.7B credit-card portfolio step at an unnamed small bank. No KRE forward edge since 2006 (n=5). The tell to watch is deposits turning down (the 2022 pre-SVB pattern) → `reports/2026-10-28_small-bank-borrowing-deep-dive.md`. SOFR−IORB +5 [10/27], 10bp under REG-T-08.
+- **Funding (LIQUID context):** small-bank borrowings $316.4B SA [w/e 10/14], **+11.8% in 6 weeks** (97.5th pct since 2010) from a low level (4.55% of assets, 18th pct). It mostly funds loan growth; ~3/4 of new deposits are core money. Not a run. Raw Q3 change is only +$4.3B (Q3 normally falls ~3.5%), and the late-September rebound (+10.4%) is second only to 2022. No KRE forward edge, and the aggregate 'borrowing up, deposits down' pattern has **no track record** (13 episodes since 1985; the same evening's 'watch deposits' advice is retracted). The per-bank screen is FROZEN for the FDIC Q3 posting (~mid/late Nov) → `reports/2026-10-28_small-bank-borrowing-deep-dive.md` §10–§13.
 - **BaaS (CARL):** Coastal holds ~$447M of Bluevine deposits [9/25] ≈ 9% of its deposits, leaving in 1H27 when Valley closes. Funding, not credit. CARL's WQ-228 join fields accepted.
 - **Nano (L516):** P&A still unposted; DEWEY found no passive route tonight. FDIC-R held the Ontario lien as of 10/2 (one loan). An FDIC inquiry needs Will and is not recommended.
 - **FLG:** a director bought 10,000 shares at $10.14 on 10/27 (Form 4). Ladder RED, −28.8%.
