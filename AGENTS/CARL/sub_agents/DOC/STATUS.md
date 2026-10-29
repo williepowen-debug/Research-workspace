@@ -1,7 +1,7 @@
 # DOC STATUS
 **Last real data refresh:** 2026-10-28 | **Last touched:** 2026-10-28 (real refresh after 79-day gap: Aug/Sep CPI, KFF EHBS 2026, Census 2025, Commonwealth 2026 biennial, KFF cost brief 10/23, Kaufman Hall Aug flash, Mercer/BGH/Aon 2027 projections, GLP-1 employer coverage; two CARL inbox packets processed)
-**Status:** 🟠 ELEVATED. The cost squeeze has moved off the price indexes and onto people. Medical CPI is down to 1.5%, but only because drug prices are falling: hospital prices run +5.2%. Employer premiums rose 5% while workers' share rose 9%. Working-age uninsured is 11.2%, up from 8.9% in 2024. Hospital bad debt is +13% YoY. Two predictions MISSED this session (P02 magnitude; P05 basis defect + no rise).
-**Thesis Confidence:** 78% (was 84%; −6pp for two misses and the corrected care-deferral baseline) | **Phase:** Phase 2-3 (Straining → Deferring). The coverage-loss leg is now measured; the debt-in-collections leg is still unmeasured at bureau level.
+**Status:** 🟠 ELEVATED. The cost squeeze has moved off the price indexes and onto people. Medical CPI is down to 1.5%, but only because drug prices are falling: hospital prices run +5.2%. Employer premiums rose 5% while workers' share rose 9%. Working-age uninsured is 11.2%, up from 8.9% in 2024. Hospital bad debt is +13% YoY. One prediction MISSED this session (P02, on magnitude). P05 is due but unresolved until the Gallup 2026 print (a miss is likely).
+**Thesis Confidence:** 78% (was 84%; −6pp for the P02 miss, the likely P05 miss and the corrected care-deferral baseline) | **Phase:** Phase 2-3 (Straining → Deferring). The coverage-loss leg is now measured; the debt-in-collections leg is still unmeasured at bureau level.
 
 > **Trap discipline this session:** (1) **The dashboard's "36% care deferral (KFF Apr 2026)" was not a 2026 print.** It is KFF's May-2025 Tracking Poll figure, carried forward as a "reprint". KFF's 2026 figure is **28%**, from a different survey, so the change is not a measured decline. Corrected everywhere (ML-DOC-27). (2) The Kaufman Hall margin path (5.6→3.8→1.8%) and the Commonwealth figures come via Becker's/AHA/AJMC, not the primary; they are tagged *secondary* below.
 
@@ -130,10 +130,10 @@ Top 40%: paycheck-deduction squeeze (+9% contribution vs +3.7% wages), 2027 +8�
 | Pred_ID | Prediction | Conf | Timeframe | Status | Notes |
 |---------|-----------|------|-----------|--------|-------|
 | DOC-P01 | ACA enrollment −5%+ full-year 2026; 3M+ more uninsured | 85% | CMS Jan 2027 | STRENGTHENING | Effectuated −12% Feb/Feb; uninsured leg survey-only (Commonwealth 11.2%). |
-| DOC-P02 | KFF EHBS 2026 confirms 9-11% employer cost increase | 0% | Sep 2026 | **MISSED 10/28** | Premium +5%. Direction right, magnitude wrong: the push went to worker share (+9%) and to 2027. |
+| DOC-P02 | KFF EHBS 2026 confirms 9-11% employer cost increase | 75% (as-made) | Sep 2026 | **MISSED 10/28** | Premium +5%. Direction right, magnitude wrong: the push went to worker share (+9%) and to 2027. |
 | DOC-P03 | Medical CPI >4% at least once in 2026 | **3%** ↓ (was 30%) | Any 2026 print | WEAKENING | Sep 1.5%, drug-led decline. Resolves on Dec CPI (Jan 2027). |
 | DOC-P04 | Rural closures >200 since 2010 | 100% | — | CONFIRMED 8/10 | 206 (Chartis 2026). |
-| DOC-P05 | Care deferral approaches 40% | 0% | Q3 2026 | **MISSED 10/28** | KFF 28%, Gallup ~1 in 3 (2025). **Basis defect:** the 36% baseline was 2025-vintage. ⚠️ Instrument cell names Gallup-West Health only, and its 2026 annual is unpublished: if it prints ≥40%, reopen as a grading error. |
+| DOC-P05 | Care deferral approaches 40% | 60% (as-made) | Q3 2026 | ⚠ **DUE-UNRESOLVED** [DATA-NEEDED: Gallup-West Health 2026 annual] | MISSED grade reverted 10/28 (CARL ruling: the named instrument is Gallup only). A miss is very likely (~1 in 3 vs ≥40%). Grade on the Gallup print: ≥40% = CONFIRMED. Basis defect (36% baseline) and successor P12 stand. |
 | DOC-P06 | Medical debt in collections rises visibly H2 2026–H1 2027 | 75% | H1 2027 | STRENGTHENING | Provider bad debt +13% for; HHDC flat against. Q3 HHDC is the next test. |
 | DOC-P07 | Mid-size employers exclude GLP-1 for weight loss in 2027 design | n/a | Q4 2026 | **NO-VERDICT-BY-INSTRUMENT 10/28** (CARL ruling) | 82–84% of 200+ firms already excluded at registration. A change-measure successor may be registered later. |
 | DOC-P08 | Healthcare #1 consumer financial worry through Nov 2026 | 80% | Nov 2026 | TRACKING | KFF: 62% worried; affordability top economic anxiety. Grade after Nov 3. |
@@ -155,7 +155,7 @@ Top 40%: paycheck-deduction squeeze (+9% contribution vs +3.7% wages), 2027 +8�
 | **Tue 2026-11-03** | Midterm elections | DOC-P08 grade window closes |
 | Early-mid Nov 2026 (date unconfirmed) | NY Fed HHDC Q3 2026 | Collections share + average (ML-DOC-29 re-test; DOC-P06) |
 | **Tue 2026-11-10** | Oct CPI | Medical care; hospital services |
-| Nov-Dec 2026 | Gallup-West Health 2026 annual (Jun-Aug field) | DOC-P05 instrument check (≥40% = reopen) |
+| Nov-Dec 2026 | Gallup-West Health 2026 annual (Jun-Aug field) | **DOC-P05 grade** (≥40% = CONFIRMED, else MISSED) |
 | Jan 2027 | HCA/UHS/Tenet Q4 calls | Uninsured share of admissions after 2027 OEP |
 | Year-end 2026 | Mercer/Marsh final 2027 survey | Confirms the +8.2% prelim |
 | **2026-12-31 / 2027-01-01** | OBBBA Medicaid redeterminations + national work requirements | DOC-P09 loader (NE/MT/IA already live per-state) |
@@ -166,7 +166,7 @@ Top 40%: paycheck-deduction squeeze (+9% contribution vs +3.7% wages), 2027 +8�
 ## STATE VECTORS
 
 - SV-DOC-2026-06-08-01/02/03; SV-DOC-2026-07-10-01/02; SV-DOC-2026-08-10-01: prior sessions.
-- **SV-DOC-2026-10-28-01** [ORANGE]: real refresh after the 79-day gap. Two misses (P02, P05). Care-deferral baseline corrected. Coverage cliff measured (11.2%). Provider bad debt +13%. HHDC collections answer to CARL (no signal). P07 resolvability defect.
+- **SV-DOC-2026-10-28-01** [ORANGE]: real refresh after the 79-day gap. P02 MISSED; P05 later reverted to DUE-UNRESOLVED (CARL ruling 21:05). Care-deferral baseline corrected. Coverage cliff measured (11.2%). Provider bad debt +13%. HHDC collections answer to CARL (no signal). P07 resolvability defect.
 - **SV-DOC-2026-10-28-02** [ORANGE]: news sweep. HCA uninsured share 10.5% vs 8.5%; Urban 26.6% medical debt; GLP-1 retreat (WTW 16%); P07 closed NO-VERDICT; P11/P12 registered; COST_DRIVER.tsv FROZEN.
 
 ---
