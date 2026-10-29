@@ -1,125 +1,58 @@
 # LIFE_SCI STATUS
-> **October 12 further approved research:** funding durability and Boston transaction economics saved → `../research/threads/2026-10-12_DURABILITY_DELIVERY.md`. Alewife conditional capacity/loan-funded interest do not certify runway; proposed Boston sale does not certify bank payoff. Existing Q3 collection remains pending. Narrow pointer update only; historical market/stack analysis below not refreshed.
-**Updated:** 2026-10-22 (top banner only: Q3-call life-science book, KB-261/263) · body otherwise 2026-07-06 (staleness sweep: Sterling Bay forced-resolution pattern integrated, monitoring checkpoints resolved, Bluerock TI+ entity correction) | **KB Rows:** 27 (094–095, 117, 137–141, 147–159, 189–191, 194–195, 199) | **Group:** `LIFE_SCI`
+**Updated:** 2026-10-28 — **rebuilt to the Q3-26 print + call** (TODO R2, Will-approved 10/28). Primary: FDIC FLNG 12022 (Q3 MC pp.24–27), FLNG 12019 (10/12 8-K, RaDD extension); call via secondary transcript (`../research/threads/2026-10-22_Q3_CALL_STAGE2_READ.md`). Prior body (Jul-06 vintage: RaDD stack, SD/Boston market tables, Atrium map) → git history of this file; Atrium extraction stays at `../research/threads/ATRIUM_LIFESCI_ASSET_MAP.md`.
+**KB rows:** 094–095, 117, 137–141, 147–159, 189–191, 194–195, 199, 203–209, 250, 261, 263 | **Group:** `LIFE_SCI` | **Nav:** `../workbook/KB_INDEX.md`
 
-> **2026-10-12 RaDD outcome update (L635):** multi-year extension/new capital **executed October 9**. Current balances, paydown/redraw and September as-stabilized appraisal → `../IQHQ_PLAYBOOK.md`; source/grade → `../research/threads/2026-10-12_RADD_BRIDGE_OUTCOME.md`. The immediate maturity-failure catalyst is materially disconfirmed. OZK-09 remains OPEN on missing recognition attribution, not missing execution. **The July market/stack analysis below is historical; no general subdomain refresh performed.**
+## Assessment: 🟠 Still the riskiest asset type in the book; the dated catalyst is gone and the losses now sit in foreclosed property
 
-> **October12 ordered follow-up:** BPRE primary common mark **$317.4M June→$270.6M subsequently**, disclosedAugust28, supersedes H2'25-only statement (no OZK loss inferred). Alewife actual new financing verified, distinct from RaDD capital source. Boston **10 Prospect signed Predicta10,500SF September24**, plannedOctober move-in; replaces zero-lab-leasing description, not a bank payoff. Aimco ruling **UNKNOWN** after official opinion search; full FSX docket inaccessible. Evidence → `../research/threads/2026-10-12_IQHQ_FUNDING_AND_MARKS.md`, workout and Aimco/Affinius artifacts. Remaining old stack table is historical, including contractual versus actually paid interest.
+Two things changed since July. **(1) The RaDD maturity catalyst is removed:** the San Diego loan was extended to **December 2029** on 10/9 with **$100M of fresh sponsor and mezzanine capital**, and the CEO called it "[a] pass credit" on the 10/21 call. **(2) Every other life-science problem loan has been resolved by foreclosure or sale**, so the risk is no longer "will these default" but "what do the foreclosed buildings sell for." Life-science OREO is **$228.0M of the bank's $420M OREO (54%)**, carried at 80–95% of 2025–26 as-is appraisals, and **no OREO sale was priced in Q3**. Management says sales take "several quarters" and that "lab demand is not what it was."
 
-> **2026-10-22 update (Q3 call, secondary transcript; KB-261/263):** OZK has **9 life-science projects** — 5 with leasing, 3 at 98–100% leased, 2 working full-building leases, 1 working a sale that would retire the loan, 1 in a sponsor portfolio sale; **4 of 9 have no leasing** (DERIVED). RaDD: extended to Dec-2029 with $100M fresh capital (10/9), CEO calls it "[a] pass credit", no lease signed, "lab demand is not what it was" — marketing widened to office and non-lab users; future capital contributions anticipated "if needed". Boston 10 Prospect: sale failed, title taken, $37.3M charge-off, OREO $132.0M (Q3 MC). The assessment below is **July vintage** — current read → `research/threads/2026-10-22_Q3_CALL_STAGE2_READ.md`.
+## Life-science book (Q3 call, KB-263)
 
-## Assessment: 🔴 HIGHEST-RISK ASSET TYPE — Sponsor in distress, 3.3% leased, recovery years away
+**9 projects:** 5 have leasing, 3 are 98–100% leased, 2 are working full-building leases, 1 is working a sale that would retire the loan, 1 is in a sponsor portfolio sale. **4 of 9 have no leasing** (DERIVED; RaDD at ~3% leased is one). Pursuits, not closings. Boston 10 Prospect is OREO and likely outside the count (INFERRED).
 
-The bear case lives here. FL is a fortress, office losses are being taken (Boston $72.4M, Santa Monica $5M Q1 26). Life sci — specifically RaDD — is a $915M exposure in a market with 94% downtown vacancy, a sponsor paying 13.5-16.5% rescue capital with PIK mezz accruing $76M in phantom debt, and a structural demand shift (AI, NIH cuts, VC collapse) that makes the original underwriting thesis obsolete. **Historical maturity thesis: RaDD was due Aug 2026; superseded by October 9 extension to December 2029** (re-confirmed from Q1'26 transcript primary 7/4 — the Bisnow "2-yr extension → 2028" claim is REFUTED; funded balance **static at $555M since May 2024, ~21 months of frozen draws**) — bullet maturity is the next discrete catalyst, with **Q2 earnings Jul 21 as dress rehearsal**. National market technically bottoming (23.0%, first decline in 3 years) but JLL says 18.7M SF must exit through distress/conversion by 2030. Recovery is measured in years.
+## Problem credits — how each resolved
 
-**Q1 2026 print (Apr 22):** Three new life-sci-adjacent problem credits added — $269M combined. Life-sci concentration deteriorating broadly, not just at IQHQ.
-
-**Sterling Bay resolution pattern (verified 7/4; CORRECTED 7/6 [KB-OZK-199]):** OZK's two 2026 life-sci resolutions are both Sterling Bay + Harrison Street credits, but they split: **Lincoln Yards** 320K SF = genuine loss realization (foreclosure Mar 2026); **Pacific Center** = **PAR EXIT** — sold to distressed buyer SVP, but Q4'25 Mgmt Comments disclose **full principal repayment on $0.10B funded / $0.27B commitment** (corrects the 7/4 "discounted sale" read; caught via Will-provided external memo, verified in our own Q4 extract). Adverse-selection transaction evidence = Lincoln Yards only (→ `../WEAKNESSES.md` C7 #5, downgraded to one-of-two).
-
-## RaDD Capital Stack
-
-| Layer | Amount | Rate / Terms | Status |
-|-------|--------|-------------|--------|
-| OZK Senior | Current amount → `../IQHQ_PLAYBOOK.md` [10/9] | Redraw/commitment terms → playbook | **Executed to December 2029 with actual additional capital**, disclosed 10/12 primary |
-| Mezzanine (2024) | $75M | 15% PIK — accruing ~$76M by 2026 | Debt growing automatically |
-| IIP Preferred | $270M | 14%+ wtd avg (revolver + preferred) | Senior to all common equity |
-| Bluerock PIK | $246M ($160M @13.5% Dec'27 + $86M @14% Aug'28) | PIK ~$8-9M/qtr accrual | Interest not paid, capitalizing. Holder = **Bluerock Total Income+ (TI+)** interval fund [entity corrected 7/4 — not "Bluerock Homes Trust"]; TI+ also holds ~$488M first-loss equity → **TI+ NAV mark = leading indicator** (→ `../PRIVATE_CREDIT/COUNTERPARTY_WATCH.md`) |
-| IQHQ Equity | ~$950M + $87M reserves | — | $707M marked down across 6 funds |
-| **Total project cost** | **~$2.3B** ($300M over budget) | HR Ratings expects refi to **$1.5B+ debt by 2028** | |
-
-## Q1 2026 New Life-Sci Problem Credits (Apr 22)
-
-| Credit | Outstanding | Tier | Note |
+| Credit | Path | Q3-26 state (9/30) | Loss taken |
 |---|---|---|---|
-| Boston Life Sci | $169M | Substandard accrual | matured Feb 13, 2026 *[corrected 2026-09-24: Boston matured **Feb 13, 2026** (Q1 MC p.24, layout extract); "Dec 18, 2025" is the **Baltimore land** loan — misattributed since Apr by a pdfminer row-adjacency error]*, 91% LTV, 46d PD. **Sponsor CONFIRMED Apr 23: 10 Prospect St / USQ Parcel D2.1 / Magellan + RAS + Cypress + Affinius JV** (MassLandRecords UCC-1 Bk 85169 Pg 222, Jan 29 2026 re-perfection = workout signature). Institutional JV → workout-path probability > note-sale. |
-| Seattle U District Life Sci | $50M | Substandard accrual | Component of $127M combined U District problem. **Signed LOI for recap** = bullish marker. |
-| Chicago Life Sci | $50M | Foreclosed | 68% of May '25 appraisal. Previous short sale failed. |
+| **Boston 10 Prospect / USQ D2.1** (Magellan + RAS + Cypress + Affinius JV) | Matured Feb-26 → nonaccrual Q2 ($169.3M) → $330M sale failed in Q3 → title | **OREO $132.0M** = 80% of Sept-26 as-is | **$37.3M c/o** (22.0% of $169.3M per REGINALD's cohort test). A 10,500 SF lab lease (Predicta, 9/24) did not save the sale |
+| **Seattle U District life sci** (Chapter II) | Substandard Q1 → buyer withdrew → foreclosed Jun-26 | **OREO $48.5M** = 95% of Dec-25 as-is | $3.7M c/o (Q2; paired by the Q2 roster's table order, office $22.3M / life sci $3.7M) |
+| **Chicago 1229 W Concord** (Sterling Bay, Lincoln Yards) | Short sale failed → deed-in-lieu Mar-26 | **OREO $47.5M** = 95% of Jun-26 as-is (−$2.5M in Q2) | loss at transfer not itemized here; carried at 68% of May-25 appraisal at Q1 |
+| **San Carlos life sci** | Special mention → **paid off Q2** | off roster | $14.8M c/o |
+| **Pacific Center** (Sterling Bay, Sorrento Mesa) | Loan sold to SVP Jan-26 | off roster | **par exit** on $100M funded (Q4-25 MC) |
+| **RaDD** (IQHQ, San Diego) | Aug-26 maturity → 45-day bridge → **extended to Dec-2029 (10/9)** | **Pass by elimination**; $579.1M funded / $335.9M unfunded / $915M commitment post-paydown; separate reserve $28.6M; fully funded LTV 50.3% → **68.4%** (Sept-26 as-stabilized) | none named; OZK-09 recognition leg **OPEN/STUCK** → Q3 10-Q ~11/5 |
 
-Full detail + severity math → `../SEVEN_CREDIT_DEEP_DIVE.md`.
+**Sterling Bay pattern (KB-199):** of the two Sterling Bay + Harrison Street life-science credits, one was a real loss (Concord, foreclosed) and one a par exit (Pacific Center).
 
-## RaDD Monitoring Items
+## RaDD — current facts
 
-| Item | Status | Next Check |
-|------|--------|------------|
-| Leasing beyond JCVI (50K SF / 3.3%) | No new signed tenants per Q1 26 call. Rossow (Chief Comm Officer) confirmed RaDD is sole IQHQ exposure. Funded static $555M since May 2024 (~21mo frozen draws) [7/4]. | Ongoing; Q2 call Jul 22 |
-| IQHQ liquidity | $1.4B+ raised in 2025 at distress pricing. Co-founder departed Dec 2024. Aimco suit filed Delaware Chancery Apr 2026 — **no MTD ruling as of 7/4** (likely still in briefing); complaint does NOT name Bluerock. | Docket re-check w/ Q2 prep |
-| BPRE IQHQ mark | **Primary refresh DONE10/12** — June$317.37M common→subsequent$270.61M, −14.73%, disclosedAugust28. Two common share classes; no replacement per-class price. Corporate equity erosion, **not an OZK recognized loss** | Next newer dated mark/cash performance; TERRY/BROCK/Will own trade work, no gate automatically re-armed |
-| **Aug 2026 bullet maturity** | Gleason Q1 26 call: "August is an eternity," framing possible sponsor support. 4-scenario tree in IQHQ_PLAYBOOK: **A-extend 30% / B-substandard 45% / C-takeout 8% / D-foreclose 17%** [re-weighted 7/23, Will-approved]. Weighted EL **~$129M**; pre-registered reads OZK-08/09. | ✅ **Q2 26 earnings RESOLVED Jul 21-22** — OZK-08 **FALSE** (no IQHQ reserve); mgmt: multi-year extension + recap in negotiation, "remain pass-rated", interest from interest reserves, "~92d" → **Q3 call (~Oct 21)** is the next test |
-| OZK impairment | No specific reserve Q1 26 **or Q2 26**. | ✅ **OZK-08 resolved FALSE 7/22** (Brier 0.0784 — the low-prob read verified). Next: **Q3 call ~Oct 21** |
-| Campus at Horton (comp) | **Bounded search DONE 10/12; current occupancy UNRESOLVED** → `../research/threads/2026-10-12_HORTON_BOUNDED_CHECK.md`. Historical credit-bid/severity model not refreshed; no current still-empty inference | Original 10/14 checkpoint, next dated operator/tenant evidence |
+| Item | Value [source] |
+|---|---|
+| Maturity | **December 2029**, executed 10/9 [FLNG 12019 p.2] |
+| New capital | $100M from sponsor + mezzanine lender 10/9; with $87.1M (Jun-24), $8.7M (Sep-24), $9.3M (Nov-24), $82.0M (Jan-25), sponsor and partners have put in **~$1.23B** in total [Q3 MC p.27] |
+| Paydown | fresh $100M + old reserve $21.3M paid down $121.3M; **may be readvanced** |
+| Leasing | ~3.3% (JCVI 50K SF, May-2025); no new lease in Q3 written materials or call; marketing widened to office and non-lab users |
+| Future capital | further contributions anticipated "if needed" (call) |
+| Specific reserve | none named (Q3 written + call) |
+| Old scenario tree | A30/B45/C8/D17, ~$129M EL on $555M — **pre-outcome model record**, not a refreshed forecast → `../IQHQ_PLAYBOOK.md` |
 
-## SD Market Context
+## Mapped credits with no Q3 status
 
-| Metric | Value | Trend |
-|--------|-------|-------|
-| Downtown SD lab vacancy | **94%** | Dead market |
-| SD core vacancy | 26-31% (from 4% in 2021) | 14 consecutive quarters rent decline |
-| Sorrento Mesa | 38.2%, 48% of all SD sublease | Epicenter of spec distress |
-| SD asking rents | $5.34-5.86/SF/mo NNN | Longest decline on record. Effective 20-25% below |
-| SD VC funding | $2.3B (-44.8% YoY) | Startup demand collapsed |
-| New construction | **Zero** in core submarkets | Supply shutoff, but 5-7yr overhang remains |
+Not on the Q3 named substandard/OREO list, so each is **pass or inside the un-itemized $303M special mention — UNKNOWN which**: **Bioterra** (San Diego, Longfellow, $165M commitment, 0% leased Aug-25) · **Portal 405** (San Carlos, $149M, Atrium-graded substandard-accrual) · **777 Industrial** (San Carlos, $95M from Affinius, Atrium as-market $91M) · **Southline Ph I** (SSF, $279.75M). The Q3 10-Q may itemize special mention. Detail → `../research/threads/ATRIUM_LIFESCI_ASSET_MAP.md`.
 
-## OZK SD Portfolio
+## Counterparty and market watch
 
-| Loan | Amount | Status |
-|------|--------|--------|
-| **RaDD** | Current balances → `../IQHQ_PLAYBOOK.md` [10/9] | Extension executed; leasing risk distinct; earlier vacancy figure historical |
-| **Aperture Del Mar** | $475M | 🟢 Pre-leased Neurocrine through 2036 |
-| **Pacific Center** | $265M commit / $100M funded | ⚪ SOLD Q4'25 (TRD reported 1/7/26) to distressed buyer SVP — "largest whole-loan disposition in bank history." **Q4'25 Mgmt Comments: FULL principal repayment on $0.10B funded [primary, confirmed 7/6]** — par exit, no loss; $165M unfunded commitment de-risked [KB-095/199 corrected]. |
-| **Bioterra** | **$165M commit** [corrected 7/6 from "$202M" — old figure ≈ Atrium's $203M as-market VALUE, likely value/loan transposition; KB-209] | 🔴 Vacant (0% leased Aug'25), Longfellow sponsor, orig Nov'22, +1 prior lender. Atrium as-market $203M (81% LTV commit) |
+| Item | State | Next |
+|---|---|---|
+| BPRE (Bluerock) IQHQ mark | June common $317.4M → subsequent $270.6M (−14.73%, disclosed 8/28) — sponsor-equity stress, **not an OZK loss** | next semi-annual filing |
+| Aimco v. IQHQ (Del. Chancery) | ruling **UNKNOWN** as of 10/12 (official-opinion search empty; full docket behind File & ServeXpress) | event-driven |
+| Campus at Horton (comp) | current occupancy **UNRESOLVED** after the 10/12 bounded check | event-driven |
+| Lab market vacancy (SD, Boston) | **Not refreshed since Mar-2026** (SD core 26–31%, Boston 28–34% then). The 10/28 severity-comp refresh covers 2026 transactions | severity refresh |
 
-**🆕 Peninsula/Bay Area assets added 7/6 (Atrium Q4'25 primary — we had never mapped these; full table → `../research/threads/ATRIUM_LIFESCI_ASSET_MAP.md`):**
+## Next
 
-| Loan | OZK Position | Atrium read (Q4'25) |
-|------|--------|--------|
-| **Portal 405** (San Carlos, Menlo+Beacon) | $149M commit (Dec'22; ~$104M funded) | 🔴 as-market ≈ commitment (LTV ~100%); **graded 6.1 Substandard-Accrual by Atrium** — not yet in OZK's substandard table. Top Q2/Q3 migration candidate [KB-204] |
-| **777 Industrial** (San Carlos, Presidio Bay) | **$95M assigned from Square Mile/Affinius** ($118M orig Apr'22) | 🔴 as-market $91M < $95M senior — underwater; **RG6**; = the named OZK↔Affinius co-lending link [KB-203] |
-| **Southline Ph I** (SSF, GSAM+Lane+Beacon) | $279.75M senior (Dec'22; ~$196M funded); SqMile ~$100M junior | 🟡 Best cushion (as-market 61%); Atrium: could outperform the bank's own mark if lease-up lands [KB-205] |
-| **101 South St** (Boynton Yards, Flagship) | OZK-financed | 🟢 FULLY LEASED — healthy-asset calibration [KB-209] |
-| **300 Third Ave** (Waltham, Lincoln Property) | OZK 2020-vintage | 🟢 75% leased — 2020-vintage CAN lease; stress is 2021-22 spec vintage [KB-209] |
-
-## Boston Life Sci
-
-| Item | Status |
-|------|--------|
-| Metro vacancy | **28-34% ATH** (CBRE vs Colliers). Seaport 34.8%. Full-year negative absorption 929K SF |
-| Pipeline | **16.5M SF under construction, only 46.8% preleased** — more vacancy coming |
-| Sullivan Courthouse | $72.4M charged off Q4 2025. 422K SF, fully vacant |
-| **🆕 Boston Life Sci $169M** | Q1 26 substandard, matured Feb 13, 2026 *[corrected 2026-09-24: Boston matured **Feb 13, 2026** (Q1 MC p.24, layout extract); "Dec 18, 2025" is the **Baltimore land** loan — misattributed since Apr by a pdfminer row-adjacency error]*. ✅ Sponsor = 10 Prospect St / USQ D2.1 / Magellan + RAS + Cypress + Affinius JV (UCC-1 re-perfection Jan 29 2026). |
-| Fenway Center ($1B) | IQHQ paused vertical construction Nov 2025 (not an OZK loan — separate lender JPM $165M) |
-| 109 Brookline (285K SF) | Completed 2024, entirely vacant |
-
-## Structural Headwinds
-
-- Biotech VC share: **15% → 7%** (AI crowding out life sci investment)
-- AI-native biotechs use **1/3 less space** per employee
-- NIH cut **$2.3B** in grants (7,800+ cancelled/suspended)
-- M&A hit $240B (+81% YoY) → more sublease near-term from consolidation
-- VC→leasing lag: 12-18 months → recovery demand late 2026 earliest
-- Biomanufacturing boom ($250B+ since 2021) benefits process facilities, NOT spec lab like RaDD
-
-## What Changed
-
-- **Jul 6 (PM2):** Atrium Q4'25 PDF ingested (Will-provided, read from primary — `../raw/Atrium_Life_Science_Reckoning_OZK_2025Q4.pdf`). Three unmapped credits added (Portal 405 / 777 Industrial / Southline) + 2 healthy assets named (101 South St, 300 Third Waltham); Bioterra corrected $202M→$165M; RaDD valuation-dispersion ladder pinned (KB-206, supersedes KB-117); 777 Industrial = named OZK↔Affinius co-lending link (KB-203, BROCK signaled). Full extraction → `../research/threads/ATRIUM_LIFESCI_ASSET_MAP.md`. KB +7 (203-209).
-- **Jul 6:** Staleness-sweep refresh. Sterling Bay forced-resolution pattern added [KB-199]; Lincoln Yards 320K SF (was 284K); Pacific Center sale detail reconciled (mgmt ~par claim vs press-undisclosed); Bluerock entity corrected → TI+ interval fund, NAV-mark leading-indicator wired to COUNTERPARTY_WATCH; monitoring checkpoints resolved (Aimco no-MTD-ruling, no fresh TI+ Q1 mark); RaDD funded static $555M/21mo added; Q2 Jul-21 pre-registered reads (OZK-08/09) linked. KB rows 24 → 27 (194/195/199 added to header).
-- **Apr 23:** Post-Q1 refresh. IQHQ maturity corrected Aug 2028 → Aug 2026 (prior research error). Three new Q1 26 credits integrated: Boston Life Sci $169M, Seattle U Dist $50M, Chicago foreclosed $50M. Aimco suit filing + Bluerock NAV marks added to monitoring.
-- Mar 25 (PM): **Prompt 20 integrated** (Claude + Gemini). 13 new KB rows (147-159). National bottoming, SD rents 14th decline, Sorrento Mesa 38.2%, Boston ATH, Bay Area green shoot, VC/AI crowding, Pacific Center sold, Temple 8 short, HR Ratings RaDD mezz ($1.23B debt, 15% PIK), M&A $240B sublease driver, Boston 16.5M SF pipeline.
-- Mar 25 (AM): Prompt 15 integrated (Claude + Gemini). 5 new KB rows (137-141). RaDD 3.3% leased, IQHQ distress cascade, AI demand shrink.
-
-## What's Needed
-
-- [x] Boston Life Sci $169M sponsor disambiguation — ✅ DONE Apr 23 (10 Prospect / USQ D2.1 / Magellan JV, UCC-1 dispositive [KB-195]; roster + root STATUS reconciled 7/6 after erroneous 7/4 re-open)
-- [ ] Bluerock TI+ NAV marks — ⚠️ **RE-OPENED 2026-08-28.** ✅ checked 7/4: no fresh Q1 mark existed *then*; latest documented remains H2'25 vintage (TI+ −4.4% → $6.28). **The `[x]` was the defect: a negative closed with a tick stops being re-checked, and this one is 55 days old with Q2 fund reporting since elapsed.** A fresh TI+ mark is a leading indicator for RaDD credit. Standing watch → COUNTERPARTY_WATCH.
-- [ ] Aimco v. IQHQ MTD — ⚠️ **RE-OPENED 2026-08-28.** ✅ checked 7/4: no ruling *as of then*; likely still in briefing; complaint does not name Bluerock. **Its own re-check trigger — "with Q2 prep" — FIRED on 7/21 and nobody acted, because the `[x]` made it look settled.** Docket pull owed (courts.delaware.gov, Del. Chancery).
-- [ ] IQHQ next capital raise or asset sale announcement
-- [ ] Horton current occupancy unresolved after completed 10/12 bounded check; original 10/14 disposition retained, evidence path above (no indefinite search).
-- [ ] Any new RaDD lease signing (changes narrative)
-- [ ] Bioterra ($202M) status — leasing or restructuring?
-- [ ] Q2 2026 vacancy data refresh (CBRE/JLL July releases — Q1 April releases were never pulled; get both if possible)
-- [ ] HR Ratings full report on RaDD (primary source for mezz detail)
+- **Q3 10-Q (~11/5):** RaDD reserve/readvance (OZK-09) · special mention by credit (does any mapped life-science credit appear?) · OREO roll-forward (any life-science OREO sale and its price vs carrying = THESIS invalidation 7).
+- An OREO sale price on Boston, Seattle or Chicago is the single most informative print for this subdomain.
 
 ---
 
-**KB Rows:** 094–095, 117, 137–141, 147–159, 189–191, 194–195, 199 | **Group:** `LIFE_SCI` | **Nav:** `../workbook/KB_INDEX.md`
-
-*Findings → `FINDINGS.md` (§Finding 18 for Q1 26) | Scenarios → `../IQHQ_PLAYBOOK.md` | Parent → `../STATUS.md`*
+*Findings → `FINDINGS.md` | Scenario tree → `../IQHQ_PLAYBOOK.md` | Q1 dossiers → `../SEVEN_CREDIT_DEEP_DIVE.md` | Parent → `../STATUS.md`*

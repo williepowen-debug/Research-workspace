@@ -1,6 +1,6 @@
 # KB.tsv — Group Index
 
-**Updated:** 2026-10-28 — adds 264 (GEOGRAPHY 345 N Morgan reported refi), 265 (RESG_MIX Culver City construction commitment), 266 (SHORT_INTEREST FINRA 10/15). Prior 2026-10-22 — adds 260 (SUB_NOTES issuer 6.14%), 261 (IQHQ call read), 262 (DISTRESSED_LOANS OREO/loss outlook), 263 (LIFE_SCI nine-project book). Prior 2026-10-12 — includes 257 funding durability, 258 Boston economics/access, 259 recovery reconciliation; prior 251–256 retained. **Total rows:** 263 | **Groups:** 37.
+**Updated:** 2026-10-28 — adds 264 (GEOGRAPHY 345 N Morgan reported refi), 265 (RESG_MIX Culver City construction commitment), 266 (SHORT_INTEREST FINRA 10/15), 267 (GEOGRAPHY problem-metro share Q3-26). Prior 2026-10-22 — adds 260 (SUB_NOTES issuer 6.14%), 261 (IQHQ call read), 262 (DISTRESSED_LOANS OREO/loss outlook), 263 (LIFE_SCI nine-project book). Prior 2026-10-12 — includes 257 funding durability, 258 Boston economics/access, 259 recovery reconciliation; prior 251–256 retained. **Total rows:** 263 | **Groups:** 37.
 
 Navigate the KB by investigation cluster. Each group maps to a folder or research file where the full synthesis lives.
 
@@ -36,7 +36,7 @@ Navigate the KB by investigation cluster. Each group maps to a folder or researc
 
 | Group | Rows | Count | Folder / File | What It Covers |
 |-------|------|-------|---------------|----------------|
-| **GEOGRAPHY** | 107–116, 118–120, 192–193, 264 | 16 | **GEOGRAPHY/EXPOSURE_MAP.md** | 58 MSAs mapped, $2.9B distressed cluster (5 metros), FL paradox intro, supervisory mismatch, $2B unleased pipeline, Santa Monica Office $45M foreclosed, The Jack ID confirmed. (117 → LIFE_SCI) |
+| **GEOGRAPHY** | 107–116, 118–120, 192–193, 264, 267 | 17 | **GEOGRAPHY/EXPOSURE_MAP.md** | 58 MSAs mapped, $2.9B distressed cluster (5 metros), FL paradox intro, supervisory mismatch, $2B unleased pipeline, Santa Monica Office $45M foreclosed, The Jack ID confirmed. (117 → LIFE_SCI) |
 | **FL_PARADOX** | 121–132 | 12 | **GEOGRAPHY/FL_PARADOX.md** | 4-model stress-test: deposit wall, SB 4-D moat, insurance, Biscayne 21 ($105M), FinCEN, concentration duality |
 
 ## Peer Comparison

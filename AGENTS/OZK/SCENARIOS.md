@@ -1,7 +1,7 @@
 # OZK — Scenario Analysis & Target Prices
-**Created:** 2026-03-23 | **Last Updated:** 2026-10-22 12:4x ET (**Q3 scorecard added; re-weighted under P-OZK-8, Will-approved in the OZK session 12:42 ET** — Bear 20 / Base 50 / Bull 28 / Tail 2, EV $44.41; D:L793 item 2; 4/23 table kept below as record). Earlier 10/22: sub-notes line re-based to the issuer 6.14% / ≈$12.0M. Scenario bodies below are 2026-07-06 vintage; thesis conviction 🟡 LOW, v1.7 → `THESIS.md`
-**Price:** live → `STATUS.md` / boot.py (was $47.52 at the 4/23 reweight; $49.65 at 7/6 sweep) | **TBV:** $47.15 (Q1 26)
-**Short Interest:** ~14-15% float, 12-18 days to cover (KB-OZK-160 last refresh Mar 25 — needs next FINRA pull)
+**Created:** 2026-03-23 | **Last Updated:** 2026-10-28 (currency fixes only; price re-base PROPOSED as P-OZK-9, not encoded) · 2026-10-22 12:4x ET (**Q3 scorecard added; re-weighted under P-OZK-8, Will-approved in the OZK session 12:42 ET** — Bear 20 / Base 50 / Bull 28 / Tail 2, EV $44.41; D:L793 item 2; 4/23 table kept below as record). Earlier 10/22: sub-notes line re-based to the issuer 6.14% / ≈$12.0M. Scenario bodies below are 2026-07-06 vintage; thesis conviction 🟡 LOW, v1.7 → `THESIS.md`
+**Price:** live → `STATUS.md` / boot.py (was $47.52 at the 4/23 reweight; $49.65 at 7/6 sweep; $50.51 close 10/28) | **TBV:** $47.50 (Q3 26; was $47.15 Q1 26)
+**Short Interest:** live → `STATUS.md` (10/15 settlement ~18.6% of float, DTC 9.2, KB-266; the Mar-25 13.81% below is history)
 
 > **Framing note:** Probabilities are scenario weights for position sizing. Post-Q1 reweight: migration-velocity metrics (past-due 10× in 6 months) confirmed the bear case at the leading-indicator layer, but capital buffer demonstrated through the print shrinks tail risk. Direction unchanged; weights shifted.
 
@@ -30,7 +30,7 @@
 | Tail | 3% | **2%** | Capital and PPNR coverage stronger than at 4/23 |
 | **EV** | $38.97 | **$44.41** on the **unchanged** 4/23 price midpoints ($34 / $43 / $56 / $21.50) | ⚠️ The price ranges themselves are **not re-based** (Base was built on EPS $4.75–5.75 and TBV $47.15); re-basing them is a separate step. Live $49.46 (12:24 ET 10/22) sits ≈11% above this EV |
 
-Moves no prediction (OZK-09 45%, A30/B45/C8/D17, ~$129M EL unchanged), no THESIS version (v1.7) and no position; trades stay TERRY → Will. **Owed:** re-base the four price ranges on Q3 EPS/TBV (separate step, not done).
+Moves no prediction (OZK-09 45%, A30/B45/C8/D17, ~$129M EL unchanged), no THESIS version (v1.7) and no position; trades stay TERRY → Will. **Owed:** re-base the four price ranges on Q3 EPS/TBV — **computed 10/28, PROPOSED as P-OZK-9 (EV $44.41 → $48.56), awaiting Will** → `research/threads/2026-10-28_SCENARIOS_PRICE_REBASE.md`. Not encoded here until he rules.
 
 ---
 
@@ -246,8 +246,8 @@ Q1 earnings resolved Apr 21 (not Apr 16). Framework superseded by post-Q1 resolu
 
 | Field | Live source |
 |---|---|
-| Scenario weights / EV | THIS FILE (reweighted 2026-04-23) |
-| Thesis pillars + invalidation | `THESIS.md` **v1.5** *(cell said v1.4 until 2026-08-28 sweep; THESIS.md's own header is canonical, never this table)* |
+| Scenario weights / EV | THIS FILE (re-weighted 2026-10-22, P-OZK-8) |
+| Thesis pillars + invalidation | `THESIS.md` (its own header is canonical for the version, never this table) |
 | Bull-case rebuttals | `WEAKNESSES.md` (C7 RESG-runoff steelman added 2026-07-04) |
 | IQHQ scenario tree (detailed) | `IQHQ_PLAYBOOK.md` |
 | Pre-registered Q2 reads | `workbook/PREDICTIONS.tsv` OZK-05→09 |
@@ -255,4 +255,4 @@ Q1 earnings resolved Apr 21 (not Apr 16). Framework superseded by post-Q1 resolu
 
 ---
 
-*KB evidence: 199 rows | Thesis: `THESIS.md` v1.4 | Weaknesses: `WEAKNESSES.md` (C7 added 2026-07-04) | Version history: `CHANGELOG.md` v1.4*
+*KB evidence → `workbook/KB.tsv` | Thesis → `THESIS.md` | Weaknesses → `WEAKNESSES.md` | Version history → `CHANGELOG.md` (footer tokens removed 10/28: they carried v1.4 / 199 rows long after both moved)*
