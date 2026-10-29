@@ -34,4 +34,19 @@
 
 ## Additions after freeze
 
-*(none)*
+### 2026-10-28 ~23:45 ET — GRADED (DOCKET L713; one day late, desk dark 10/27; carrier SIG-W-20261029-009)
+
+Source: RCL 8-K 2026-10-27 acc 0000884887-26-000042 Ex-99.1, and Q3 10-Q acc 0000884887-26-000044, both read at EDGAR 2026-10-28. No wire summary used.
+
+| # | Line | RCL's own bar (7/28) | Result (figure + source) | Grade |
+|---|---|---|---|---|
+| G1 | Q3 adjusted EPS | $6.26–$6.36 | **$6.57** (GAAP $6.45) — Ex-99.1 | **ABOVE** |
+| G2 | Q3 net yield, CC, YoY | approximately flat | **+0.6% CC** (+0.9% reported); $303.54 CC vs $301.58 — Ex-99.1 p.7 | +0.6pp from 0.0% (no BEAT/MISS word) |
+| G3 | FY26 net yield guide, CC | +1.75% to +2.25% (mid +2.00%) | **approximately +2.1%** | **RAISED** (+0.10pp, inside the old range) |
+| G4 | FY26 adjusted EPS guide | $17.73–$17.87 (mid $17.80) | **$17.85–$17.95** (mid $17.90) | **RAISED** (+$0.10) |
+| G5 | 2027 booking language | "pacing ahead of historical levels, including for itineraries where demand was impacted by geopolitical developments this year" | "while it is still early, 2027 bookings are pacing ahead of historical levels at higher rates"; plus "booking volumes have increased in the mid-teens … bookings for 2027 sailings up in the high teens" since the last call | **STRONGER** (adds "at higher rates" and volume figures; adds a "still early" hedge; drops the geopolitical clause) |
+| G6 | Capital-access ladder | June 30: 29.37% | 9/30: (cash $851M + undrawn revolver ~$6,600M) / total debt incl finance leases $22,872M = **32.58%** — 10-Q debt note | Ladder entry; undrawn is rounded, ±~0.2pp. October adds $400M EDC delayed-draw loan and +$50M revolver. Sandals ~$3B still prospective (close early 2027) |
+| G7 | Q3 fuel expense | $362M (441K mt) | **$347M** (446K mt, $778/mt net of hedges) | **BELOW** |
+
+**What it moves:** exit rule 1 limb 2 — **NOT FIRED** (RCL raised; CCL raised 9/29). `VX-CRU-03` — evidence logged, **no re-score** (per this card, RCL alone cannot move it; re-score after NCLH 10/29). `VX-CRU-02` — cost line only. `CRU-11` — not graded (11/14). KB-CRU-203/204/205.
+
