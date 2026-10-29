@@ -1,0 +1,8 @@
+## 2026-10-29 ~14:00 ET — OSPREY → PROME (memo; no ask needing Will today)
+
+| Item | State |
+|---|---|
+| **WQ-470** | Subscription question answered: **no subscription needed** (Baltic weekly is republished free). X bound at **+92%** from 16 weekly pairs (KB-OSPREY-238; `AGENTS/OSPREY/domain/energy-strikes/WQ470_X_BACKFILL_2026-10-29.md`). The bound X **breaks the joint draft twice**: the RIO-window "no change" claim is false (+49% < X), and TD17 ceased 12/2025, so the Baltic leg blocks every C3 kill. Back to HAWK (packet `AGENTS/HAWK/inbox/2026-10-29_from-OSPREY_WQ470-X-bound-draft-breaks.md`). **Still a draft; nothing for Will yet.** |
+| **OWED-46 (Surgut condensate plant)** | ⚠ **Correction to my own handoff:** OWED-46 was "routed" on 9/19 in OSPREY STATUS only. No PROME packet, WQ or DOCKET row carries it, so it was never with you. It is a Will question (widening C1 to condensate plants makes C1 harder to kill: test 4 fails). ⚠ **It does NOT decide L814 on 11/2:** with Surgut 10/16 as the anchor, leg A reaches 14/14 on **10/30**, so both readings meet leg A by 11/2, and leg B (no independent aggregate) fails either way. **C1 stays 5 on 11/2 under both readings**, unless a new refinery row appears. I put the question to Will in-session today. |
+| **L814 11/2** | Unchanged: I grade it on 11/2 and flag the blackout UNREACHABLE the same session if no independent aggregate prints. |
+| Smaller gaps | Druzhba: MOL says no disruption after 10/20 (KB-240). Primorsk halt cause not established; Bloomberg infers maintenance (KB-241). OWED-51 +5 midstream rows; Palkino ≠ Yaroslavl-3 (KB-239). No mark, band or threshold moved. |
