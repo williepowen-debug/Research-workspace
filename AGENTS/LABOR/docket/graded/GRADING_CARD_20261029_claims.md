@@ -141,6 +141,35 @@ Current **1,728,000** [w/e Oct 10]; `1,750,000 − 1,728,000 = 22,000` inside.
 | §5c CC | `< 1,750,000` / `≥ 1,750,000` — true complement at any precision |
 | §5d R13-c | `rel ≥ 1.15` / `rel < 1.15` — true complement at any precision |
 
-## §9 — GRADE (write 2026-10-29 off this frozen card — never re-read a band)
+## §9 — GRADE (written 2026-10-29 off this frozen card — no band re-read)
 
-*Blank until print. Order: ① regenerate the four §4 quantities on the as-published vintage · ② grade §2 · §5a · §5b · §5c · §5d separately · ③ write into `STATUS.md` (KEY THRESHOLDS, matrix v13 if band C+ or R13-a, score, calendar) · ④ `git mv` to `docket/graded/` and build the 11/5 card the same session.*
+**Primary:** DOL/ETA news release 2026-10-29 08:30 ET, `dol.gov/ui/data.pdf?release=20261029a`, fetched 09:02 ET by `scripts/fetch_primary.py` (bare curl, HTTP 200, 485,984 B, pdf; sha256 `1675cc12…82c7`); text-extracted with pdfminer (venv python — the system python lacks pdfminer, first extract returned UNKNOWN and was re-run, not waved through); embargo line *"8:30 A.M. (Eastern) Thursday, October 29, 2026"* checked; `--expect` 194,000 · 196,750 · 1,701,000 all FOUND verbatim; 53-week SA table read by column. Text saved: `domain/sources/2026-10-29_DOL_UI_claims_release_text.txt`. **FRED cross-check (fredgraph.csv, 09:02 ET):** ICSA obs 2026-10-24 194,000 · obs 2026-10-17 195,000; IC4WSA obs 2026-10-24 196,750; CCSA obs 2026-10-17 1,701,000 · obs 2026-10-10 1,722,000 — agree with DOL. KB-LAB-228.
+
+**Prior-week revision (preserved, as published):** w/e Oct 17 initial **194,000 → 195,000** (+1,000); 4-wk MA w/e Oct 17 **197,750 → 198,000** (+250); CC w/e Oct 10 **1,728,000 → 1,722,000** (−6,000); CC 4-wk MA **1,711,000 → 1,709,500** (−1,500).
+
+**① The four §4 quantities, regenerated on the as-published vintage:**
+
+| Quantity | Card (10/22 vintage) | As-published 10/29 | Moved by |
+|---|---|---|---|
+| `ΔMA` | `(X − 199,000)/4` ⇒ at 194,000: **−1,250** | **−1,250** (`196,750 − 198,000`, DOL "decrease of 1,250 from the previous week's revised average") ✅ exact | nothing — `R` = 199,000 (w/e Sep 26) unrevised |
+| `MA_next` | `(592,000 + 194,000)/4 = 196,500` | **196,750** — window `198,000 + 200,000 + 195,000 + 194,000 = 787,000`, `787,000 / 4 = 196,750` ✅ equals the published MA | the w/e Oct 17 revision (+1,000 ⇒ +250). Column rotted a sixth week; `ΔMA` exact again (L-31) |
+| §5a T-01 bound | `X > 408,000` | **`X > 1,000,000 − 593,000 = 407,000`** | same revision |
+| §5d 52-week MA minimum | 197,750 (w/e Oct 17) | **198,000 (w/e Oct 17, revised)** — lowest of the 52 published MAs before w/e Oct 24 in the 53-week table | same revision |
+
+**② Grades, axis by axis:**
+
+| Axis | Input | Band | Assignment |
+|---|---|---|---|
+| §2 single print | **194,000** (w/e Oct 24) | **B** (186,000–229,000) | **NO ACTION.** Kill B stays **0 of 5** (`194,000 − 185,000 = 9,000` above) |
+| §5a T-01 MA basis | MA **196,750**; bound `X > 407,000` | **T01-a** | **T-01 does NOT fire** (`250,000 − 196,750 = 53,250` below) |
+| §5b v13 `<200,000` run | 194,000 ≤ 199,000 | **V13-a** | run extends on the revised trailing run: w/e Oct 10 200,000 (breaks) · Oct 17 195,000 · Oct 24 194,000 ⇒ **run 2**, record-only, no score change |
+| §5c CC w/e Oct 17 | **1,701,000** < 1,750,000 | **CC-1** | run extends on the revised run: Sep 5 1,717 · Sep 12 1,712 · Sep 19 1,699 · Sep 26 1,714 · Oct 3 1,703 · Oct 10 1,722 · Oct 17 1,701 (thousands) ⇒ **run 7**, record-only (`1,750,000 − 1,701,000 = 49,000` inside) |
+| §5d R13-c | `rel = 196,750 / 198,000 = 0.99369` | **R13-b** (< 1.15) | **no action** — v13 stays **1** |
+
+**Score:** unchanged — v13 1, v7 2, total **27/80**. No §7 route fires (bands A/B ⇒ STATUS only).
+
+**Level facts graded by no band (§4):** the published MA 196,750 is the lowest 4-week MA on FRED's current IC4WSA vintage since **w/e 1969-10-18 (196,250)** — VERIFIED at fredgraph.csv 09:02 ET over 1967–2026; the 2022 low on this vintage is 197,500 (w/e 2022-09-24). ⚠️ A level, not a rate: covered employment is far larger than in 1969, so this is not "the tightest market since 1969," and a benign print is not hawkish fuel (§4). NSA initial 178,851 vs 203,012 a year earlier. IUR 1.1% SA unchanged.
+**Anomaly, recorded not graded:** DOL's state text lists **Illinois at a 13.1% insured unemployment rate** for w/e Oct 10 (10/22 release: Illinois 1.3%). The national unadjusted IUR is 1.0% unchanged and national CC fell, so this is a state-table artifact (INFERRED — a decimal or covered-employment reporting error), not a national signal. Watch whether DOL corrects it next week.
+**WARN:** no registered cohort for w/e Oct 24 (as §4 pre-stated) — nothing attributed.
+
+**③ Written into `STATUS.md`** (header, KEY THRESHOLDS claims + CC rows, matrix v13 + v7 live-state text, EXIT RULES Kill B + break-confirm, calendar) 2026-10-29. **④** card `git mv` → `docket/graded/` this session; 11/5 card built from `TEMPLATE_claims_card.md` this session.

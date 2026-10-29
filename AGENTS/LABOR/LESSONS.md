@@ -44,6 +44,11 @@ LABOR-specific mistake-patterns to avoid. Read at boot (B3); written at closeout
 
 ---
 
+## L-35 — `open(p, 'w').write(open(p).read() + x)` empties the file before it reads it
+
+**2026-10-29, claims grade, read-cap rotation.** Two one-line rotation steps appended to `STATUS_DETAIL.md` with `open('STATUS_DETAIL.md','w').write(open('STATUS_DETAIL.md').read() + rows)`. Python opens the OUTER call first, and `'w'` truncates on open, so the inner `read()` returned an empty string: the cold half (1,455 lines at HEAD, `git show HEAD:… | wc -l`) was replaced by three lines. `git diff --stat` caught it (`1 file changed, … 1477 deletions(-)`) before any commit, and the file was rebuilt from `git show HEAD:` plus the rotated lines taken verbatim from HEAD's STATUS.
+**Rule: read into a variable on its own line, then write — never nest a read of a file inside the write call that opens it. After ANY scripted append, run `git diff --stat` on the file: an append shows insertions only, so a deletion count on an append is the alarm.**
+
 ## L-34 — A release that feeds a registered letter but has no CATALYSTS row is invisible to every check I own, so it is missed SILENTLY, not late
 
 **Bought 2026-10-28, found by accident in a catch-up boot.** September's ISM employment indexes (Mfg 52.7, released ~Oct 1; Svs 50.1, early October) met v3's pre-written drop letter and were **graded three weeks late**. Five LABOR sessions ran in between (10/8, 10/14, 10/15, 10/21, 10/22), every boot check passed, and none saw them. The same defect, same month: September's Florida unemployment rate (T-11, BLS state release) landed un-docketed and was caught only by the 10/21 spine gate, and only because FL UR happens to have a spine token.
