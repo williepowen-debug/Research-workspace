@@ -1,10 +1,20 @@
 # REGINALD — NEXUS Brief
 
-**Status:** Concentrated bank risk. HY 340bp [10/22] is 10bp from REG-T-04 and mostly a BROAD repricing; still BANK-ABSENT on bank instruments (~0.7). On a 57-day fit the 10-year, not HY, moves KRE. Q3: problem loans up at 7 of 10 names read, coverage down at 6 of 8 — holds at CRE-concentrated names, breaks at cleaner ones.
+**Status:** Concentrated bank risk. HY tightened to 318bp [10/27] without REG-T-04 ever firing (peak 340); the widening was BANK-ABSENT and has partly reversed. The 10-year (~5.0%), not HY, moves regionals. Q3: problem loans up at 7 of 10 names, coverage down at 6 of 8 (a weak predictor on DEWEY's base rate); the Florida books hold on every read cell.
 **Domain:** Regional-bank comparison, FHLB advances, hidden CRE and sponsor-bank balance-sheet risk.
-**As of:** 2026-10-23 17:12 ET, owner session CLOSED at Will's request (10/23) | STATUS commit: 8452f2af7
+**As of:** 2026-10-28 22:43 ET, Will-launched boot + catch-up (10/28) | STATUS commit: db025d223
 
 ## CROSS-DOMAIN
+
+**October28 catch-up** (`reports/2026-10-28_boot/REPORT.md`, commit `db025d223`):
+- **HY / REG-T-04 (DOCKET L818): NOT FIRED.** 338 → 330 → 318 [10/23–10/27]; BB and B lead the tightening, so no transmission widening. CCC/HY 4.15× rises on the denominator: no escalation (LIQUID owns re-entry).
+- **SBCF Q3:** FL 8-K cell HOLDS (criticized+classified 2.90% vs ≥3.20%); NPL −15%; an $8.4M reserve on one acquired loan is unexplained. **FL frame: no cell transmits at any of the four names; aggregate PROVISIONAL to the 10-Qs (~11/14).** CORAL consumes.
+- **Funding (LIQUID context):** small-bank borrowings $316.4B SA [w/e 10/14], +3.0% w/w, with deposits and cash up and C&I/NDFI flat: cash-building, not a run. SOFR−IORB +5 [10/27] into month-end, 10bp under REG-T-08.
+- **BaaS (CARL):** Coastal holds ~$447M of Bluevine deposits [9/25] ≈ 9% of its deposits, leaving in 1H27 when Valley closes. Funding, not credit. CARL's WQ-228 join fields accepted.
+- **Nano (L516):** P&A still unposted; DEWEY found no passive route tonight. FDIC-R held the Ontario lien as of 10/2 (one loan). An FDIC inquiry needs Will and is not recommended.
+- **FLG:** a director bought 10,000 shares at $10.14 on 10/27 (Form 4). Ladder RED, −28.8%.
+- **Correction:** CFG $12.852B is March 31, not June 30 (BROCK). My 10/21 row was wrong; KB ML-REG-251.
+
 
 **October23 afternoon (Will):**
 - **Learning review** (`reports/2026-10-23_historical-learning-review.md`): method improved, judgment unproven.
@@ -49,6 +59,8 @@
 
 | To | Signal | Priority | Mechanism |
 |----|--------|----------|-----------|
+| PROME | 10/28 catch-up memo: L818 NOT FIRED, L516 unposted, FL frame provisional (`db025d223`) | 🟠 | Memo + report; no trade, no gate move |
+| CARL · ISHM · DEWEY | WQ-228 joins accepted (`a6caf49aa`) · C&I boundary (`1500962a7`) · FHA/VA pointer + Nano ask (`228cfa31a`; DEWEY answered `41c72f558`) | 🟡 | CARL/ISHM liveness UNKNOWN; packets committed |
 | PROME | 10/23 REG-T-04 bank-lane reading + 10-year falsifier (`012e5c08c`); PROME filed it as consumed on L818 (`c3600e8ed`) | 🟠 | Asks (1)–(2); no trade, no gate move |
 | PROME | 10/22 catch-up packet (`6e3914cb2`) + forum post (`db50f620c`); PROME acknowledged receipt by message | 🟠 | 005 answer, GATE-REG-27, D:L521, HBAN/ZION reads |
 | PROME · OZK | October21 audit packets (`1d84633ca`), consumption unverified | 🟡 | Approved prediction encode, stale coordinator obligations with delivery evidence, coupon consumer carries; no new score or trade |
@@ -72,8 +84,8 @@
 |---|---|---|---|
 | WAL / OZK / FLG owners and existing issuer disclosures | Q3 outcomes, exact funding inputs and loan recovery/recognition | Existing CALENDAR windows | REGINALD owns cross-bank comparison; specialist judgments remain theirs. OZK primary Q3 consumed here; call/filing remain pending. WAL call SECONDARY consumed; exact F3/N pending. |
 | EGBN existing disclosures | Cash, concessions, new funding, retained exposure and incremental recognition for four cases | Existing Q3 read | A disappearing category or extension is not demonstrated repayment; no independent property match yet. |
-| Existing Fed releases / REGINALD | Next weekly persistence/reversal; existing descriptive-watch review | H.4.1 October22 / H.8 October23 | Prior releases read; latest small-bank borrowing partly reverses with deposits up. No new registered monitor |
-| FDIC | Nano P&A; absent at October20 morning observation | Next existing check October27 (L516) | Re-run forensics on actual schedules; January20,2027 bar date; no external send without Will. |
+| Existing Fed releases / REGINALD | Does small-bank borrowing persist after the October14 high? | H.4.1 October29 / H.8 October30 | Prior releases read; latest small-bank borrowing partly reverses with deposits up. No new registered monitor |
+| FDIC | Nano P&A; absent at October28 22:28 ET (page Last Updated 10/19) | Weekly re-check from November3 (L516) | Re-run forensics on actual schedules; January20,2027 bar date; no external send without Will. |
 | PROME / Will | REG-27 shared registration / existing WQ-454.REGT06 ruling | SSB print /before October30 respectively | REG-27 encoded under approved A; PROME shared GATES record pending consumption. REG-07 VOID. REG-T-06 publication basis alone remains Will-owned; as-written CFR governs. |
 | Will / existing FFIEC run | JWT renewal; cohort-selection/completeness | November5 renewal /November7 planned retrieval | Missing bank capable of flipping breadth → UNKNOWN; no silent cohort expansion. |
 | Will / PROME / TERRY | Existing contract ownership/card evidence at FORGE D-74/D-77; structural source→POSITIONS | Existing records only | Broker holdings are not research/trade approval; disposition remains unknown without broker evidence. No expiry reminder. |
