@@ -16,7 +16,7 @@
 1. **FERT nitrogen re-open grading.** The rule keys on India's AWARDED tender price, which free sources never publish, and the NOLA backup series was retired. Options: (a) treat counter-offers as the award, which changes the rule's wording (a gate change); (b) buy a paid feed (spend); (c) keep grading it as a labelled inference. PROME rec: **(c) until the trade is live again.**
 2. **OZK → REGINALD 6.14% packet.** The only live consumer of the superseded 6.19% figure is REGINALD `CALENDAR.md:63`. The other 28 checker hits are other series or commit-log dumps. Rec: **send it.**
 3. **LABOR card capacity.** The JOLTS Sep (freeze 10/27) and NFP Oct (freeze 10/30) cards carry the two legs of the labor thesis's kill rule; ECI (10/23) and Challenger (10/29) are also unbuilt. Rec: **build them today while LABOR is idle,** since cards are pre-registration and need no data.
-4. **Will's hands:** FFIEC login renewal by Thu 11/5 (needed for OZK's Q3 Call Report pull); Quartr re-sign-in (OZK's call transcript).
+4. **Will's hands:** FFIEC login renewal by Thu 11/5 (needed for OZK's Q3 Call Report pull); Quartr re-sign-in (OZK's call transcript). ⚠️ CORRECTED 2026-10-28 (WAL packet, 10/28 catch-up): not a sign-in — the Quartr connector was signed in as Will on 10/28 and refused with "Quartr Pro subscription required" (plan: none); Quartr was DECLINED under WQ-220 (preserved at WQ-298), so no re-sign-in can help and no Will-hands item exists here. WALTER recorded "Quartr needs Pro" 10/23.
 
 ## B. Cheap fixes each desk can do now (PROME rec: direct all)
 - **RED:** receipt the 6 R1 corrections; re-hash the two drifted boot files (CLAUDE.md, corrections_boot_check.py); replace STATUS's stale priorities and its pre-10/20 SELL wording.
