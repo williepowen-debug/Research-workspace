@@ -24,6 +24,7 @@
 | FLOW.tsv | IVF-01 (MIA Sep, DR-1 counts/absence), ENR-01 ($600M–$1.2B retracted), H2A-01 refreshed; banner → 10/28 with per-row note (10 rows re-read, no newer print, not re-dated) |
 | PREDICTIONS.tsv | MAR-11 / MAR-24 Timeframe cells name their resolvers (11/15 OFLC Q4; BTS pull ≥2027-02-01); due-scan now clean except MAR-11 due-soon |
 | FIGURES.md | Session 38 block + §4 retraction row for $600M–$1.2B |
+| VX.tsv (2nd pass, Will: "can we do this now") | GTR-01 Sep −37.2% vs 2024 CRITICAL (KB-GTR-01); REM-02 Guatemala Sep +6.37% (KB-REM-11; Banguat plain URL = stale CDN copy, cache-bust); 2.01/3.01/EMG-01 live re-check, no newer print → STALE BY DESIGN with next print; Census rows 3.04/SBMD-01/TX-04 → STALE BY DESIGN (V2026 ~Dec); banner clock 1 → 10-10; ledger-staleness now ok |
 | MIGRATION_PROXIES | Voter-reg Oct not out; FLDOE next survey Dec–Jan; no append |
 
 ## NEXT SESSION
@@ -31,7 +32,7 @@
 
 ## OPEN THREADS
 - `baselines/mia_airport_reported.tsv` carries duplicate 2026-07/08 rows (pre-existing). Not touched.
-- VX next-oldest live rows (2.01 ICE arrest rate, 3.01 insurance, 3.04, CA-01) date 9/24 — refresh when their sources print.
+- Watch for the next prints on the six STALE BY DESIGN rows (TRAC/ICE month, Insurance.com, IRS Q3 expat notice, Census V2026 ~Dec); clear the tag when each lands.
 - PROME independent recheck of the 10/25 sweep: residues repaired; final acceptance is PROME's.
 
 ## MAIL

@@ -4,7 +4,7 @@
 **Domain:** Population movement — international visitors, workforce displacement and internal migration; Florida primary.
 **Thesis version:** v3.2, unchanged; position none.
 **Recent thesis pivot:** Channel 4 MED-LOW → LOW (9/24); s35 material evidence correction: MIA is Spirit-exposed, not a clean control.
-**As of:** 2026-10-29 00:15 ET (session 38 boot catch-up + workbook refresh: TX-01 re-scored ELEVATED, CA FAIR Plan through Sep, predictions re-armed to named resolvers). **STATUS commit:** folded in the same commit as this brief.
+**As of:** 2026-10-29 00:20 ET (session 38: boot catch-up + two workbook passes — TX-01 ELEVATED, GTR-01 Sep −37.2% vs 2024 CRITICAL, CA FAIR Plan Sep, Guatemala Sep +6.37%). **STATUS commit:** folded in the same commit as this brief.
 
 ---
 
