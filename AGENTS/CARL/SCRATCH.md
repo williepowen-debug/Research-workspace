@@ -24,6 +24,8 @@
 4. Sub-agent passes (Sonnet, bounded): GIG, POLLY, PHAN, POP. DOC handled by direct message. Rulings sent and confirmed applied. Ledger scan after the pass: 0 STALE/UNATT. Detail: TEAM.md header.
 5. Docket rows added: GIG Q3 prints ~11/05, Sweet v. McMahon 11/05, DOC CPI-day 11/10, Gallup-West Health ~12/15 (DOC-P05 resolver), KFF EHBS 2027 (DOC-P11). AFT re-dated 11/23.
 
+6. **Data-refresh pass (Will, 22:04):** AAA gas 10/28 $4.247 (FL $4.009; 24.7¢ above the V5 downgrade line); KBRA Sept nonprime 60+ 6.64%; matrix evidence refreshed for V2/V3/V6/V7/V10/V11/V12/V13/V14 (no score change). Checked and still current: Q2 HHDC; MBA Q2; ATTOM Aug (Sept/Q3 unpublished); NFIB Sept; Oct CPI 11/10. CRL-22 reachability after Q3: Leg A near but unmeasured (ELV Dec-25 baseline missing); Leg C failed Q3 at both issuers (KB-577). STUE card L95 updated (FSA FY24Q4 call data).
+
 ## STATUS CHANGES
 | Item | Change |
 |---|---|

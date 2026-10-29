@@ -20,3 +20,7 @@ Source: `inbox/processed/2026-10-28_from-STUE_CLAUDE-card-fixes-proposed.md` (ST
 | L95 wait-time ratio attribution | APPLY (amended) | Marked attribution UNVERIFIED: not in AFT Doc 50; SERVICER.tsv names the CFPB Ombudsman |
 | L129 bill-failure as-of | APPLY | Oct 30 2023 (ED announcement; AFT Doc 50 ¶120) |
 | Treasury Transfer pilot note | APPLY | Pilot bullet added with PIIDs/BPAs and the re-award watch. CARL verified the five awards at the USAspending API on 10/28 |
+
+## Third item (STUE packet `2026-10-28_from-STUE_FSA-servicer-performance-call-figures-verified.md`, commit de61e0b62)
+
+L95 wait-time ratio: APPLY as proposed. Derivable from FSA Loan Servicer Performance FY2024 Q4 (ED data, not plaintiff-sourced); vintage Jul–Sep 2024 warning added. This supersedes the earlier "attribution UNVERIFIED" wording, which was replaced rather than annotated.
