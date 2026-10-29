@@ -1,6 +1,19 @@
 # MANAGEMENT PROPOSAL — VLO ×1 held share — a price rule vs a policy/event rule
 
-**Current state [MGMT-VLO-SHARE]:** CONDITIONAL — original 1 share only; October 22 leg A NOT FIRED / no notice on TERRY's own source-3 ESTIMATE pull (below); October 20 and 21 NOT FIRED / no notice on BRENT-published source-3 ESTIMATE (October 16/19 on TERRY's own verified pull). Added 2 scope UNKNOWN, prospective proposal unapproved; SCALE TERMINAL.
+**Current state [MGMT-VLO-SHARE]:** CONDITIONAL — original 1 share only; **October 27 and 28 leg A NOTICE (strictly below $95), exit NOT FIRED** — October 27 $94.0224 (source 2, accepted within $0.15 of source 3), October 28 $93.0634 (source 3 ESTIMATE, outside the ±$0.15 band at $90.16); October 23 $97.7840 (CME FINAL, source 1) and October 26 $97.1142 (source 2) no notice; values BRENT-published, not re-pulled by TERRY (grade below, 2026-10-29). Earlier: October 22 leg A NOT FIRED / no notice on TERRY's own source-3 ESTIMATE pull (below); October 20 and 21 NOT FIRED / no notice on BRENT-published source-3 ESTIMATE (October 16/19 on TERRY's own verified pull). Added 2 scope UNKNOWN, prospective proposal unapproved; SCALE TERMINAL.
+
+## Leg-A grade — sessions 2026-10-23 to 2026-10-28 (TERRY, Claude Opus 5.5, Will-launched; written 2026-10-29 ~11:3x ET)
+
+Governing pair HOZ26×42 − CLZ26 (matched December, 10/15–11/19 under WQ-386). Values are BRENT's published figures (packets `inbox/processed/2026-10-26_from-BRENT_oct23-official-december-crack.md`, `inbox/processed/2026-10-28_from-BRENT_VLO-held-december-crack-below-95-notice-estimate.md`; artifacts `AGENTS/BRENT/research/2026-10-28_catchup/vlo-source3/`). TERRY did not re-pull; source (1) CME is IP-blocked from this box (BRENT, 10/28).
+
+| Session | Governing source | USD/bbl | Notice < 95 | Exit < 90.16 |
+|---|---|---:|---|---|
+| Oct 23 | (1) CME FINAL bulletin 205 | 97.7840 | no | no |
+| Oct 26 | (2) vendor daily, within $0.15 of (3) | 97.1142 | no | no |
+| **Oct 27** | (2) vendor daily 94.0224 vs (3) 93.9589, gap 0.0635 | **94.0224** | **NOTICE** (0.9776 below) | NOT FIRED (3.8624 above) |
+| **Oct 28** | (3) ESTIMATE only; (2) row rejected as evening session | **93.0634** | **NOTICE** (1.9366 below) | NOT FIRED (2.9034 above; outside the ±$0.15 UNKNOWN band) |
+
+Notice is information only under the approved letter: no SELL recommendation, no order, no new threshold. The SELL recommendation needs an accepted December reading strictly below $90.16. One original share only; the two added shares keep UNKNOWN scope. 11/18 review (DOCKET) unchanged. Not a reminder to Will (C5 paused).
 
 ## Leg-A observation — session 2026-10-22 (TERRY, Claude Opus 5.5, PROME spawn prome-e7; written 19:3x ET from `date`)
 
