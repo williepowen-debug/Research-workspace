@@ -19,7 +19,13 @@ safety_net: "clear"
 event_window: "closed"
 word_count: 330
 dispatch_note: "WALTER afternoon boot news sweep 10/29 (WebSearch + CBS live blog fetch). Iran pre-dispatch guard run: IRAN_WAR_GUARDS read whole this session (ADD#26 five discriminators, Tasnim mine-claim guard, theater check). Anchor full sweep 10/29 00:38Z. GATE 2 / ladder #2 NOT FIRED: no UKMTO, operator or CENTCOM confirmation of a mine hit or sinking. Delivery and consumption separate."
+status: PARTIALLY-SUPERSEDED
+status_ref: "SIG-W-20261029-037 (FALCON 10/29: Khasab vessel = dhow MSV QUBA, sank, NAVAREA IX 417/26; census 5 -> 6; ladder #2 NOT FIRED)"
+status_date: 2026-10-29
 ---
+
+> ⚠️ **LIFECYCLE TAG `PARTIALLY-SUPERSEDED` applied 2026-10-29 (WALTER, on FALCON's owner resolution).** BROKE: "the loss census (5)" and the unnamed-vessel framing; the Khasab vessel was the dhow MSV QUBA, which sank (SIG-W-20261029-037). WHAT SURVIVES: ladder #2 NOT FIRED; the IRGC three-tanker mine claim stays CLAIM-ONLY and unlinked; all other items.
+
 # Hormuz: UKMTO reports a vessel on fire 9 NM north of Khasab (10/29 ~03:00Z); IRGC claims three tankers hit mines (CLAIM-ONLY); ladder #2 NOT FIRED
 
 **Confirmed by UKMTO (advisory 10/29, event ~03:00 UTC):** the master of a third-party vessel reported a ship **on fire about 9 nautical miles north of Khasab, Oman** (inside the Strait). Vessel **not named**, flag and type not given, crew status unknown, **no damage assessment, no cause stated**; UKMTO classed it "suspicious activity" and told ships to transit with caution. Sources: Anadolu, Newsquawk, CBS live blog 2:59 AM ET. ukmto.org original not read (403 class).
