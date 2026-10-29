@@ -1,7 +1,7 @@
 # ZHAO STATUS
 
 **Updated:** 2026-10-29 (see commit time). **Session: PROME-spawned (prome-90, WQ-184 Tier 1, ~09:00 ET 10/29) — DOCKET L223 GRADED: Plenum communiqué read at Xinhua (KB-214/215).** *(00:10 ET session prome-92: L482 re-check + Plenum look + L0 drain 8. 10/22: drain + Plenum confirm + selloff read.)*
-🧹 **10/29 ~14:00 ET — DESK SWEEP + FIXES (Will-approved; `reports/2026-10-29_DESK_SWEEP.md`):** recurring China data releases had dropped off the calendar after 9/30, so the dark spell went unflagged ⇒ **10 release rows added**, 3 graded rows closed. **September data backfilled** (KB-217): PPI **+5.0%**, exports **+36.3%**, reserves ~$3.40T, gold **+23 t**, CGB **1.63%**. **Three forecasts registered before the November events:** ZHA-19 US clock instrumented **65%** · ZHA-20 China clock **70%** · ZHA-21 NPCSC fiscal figure **12%** (KB-218). Scores unchanged, 28/60.
+🧹 **10/29 ~14:00 ET — DESK SWEEP + FIXES (Will-approved; `reports/2026-10-29_DESK_SWEEP.md`):** recurring China data releases had dropped off the calendar after 9/30, so the dark spell went unflagged ⇒ **10 release rows added**, 3 graded rows closed. **September data backfilled** (KB-217): PPI **+5.0%**, exports **+36.3%**, reserves ~$3.40T, gold **+23 t**, CGB **1.63%**. **Three forecasts registered before the November events:** ZHA-19 US clock instrumented **65%** · ZHA-20 China clock **70%** · ZHA-21 NPCSC fiscal figure **12%** (KB-218). **Step 4 (14:3x): Belgium kill-leg retired → China flow leg; Vectors 6 & 9 now read both directions — the PBOC has held the yuan BACK every month since Dec-2025 (V6 3·A).** Scores unchanged, 28/60 (two-sided shadow 31).
 🟡 **10/29 13:3x ET — KEY-FIGURE REFRESH (Will 'go'): 8 stale rows refreshed; ONE BAND MOVE — HIBOR-SOFR −98 → −122.5bp (GREEN → YELLOW), and USD/HKD 7.846 sits 0.004 from the peg's 7.85 weak edge.** HKMA has not intervened (Aggregate Balance HK$53,999M, no market activity 10/22–29). Vector 7 HELD at 1; rescore if HKMA intervenes. Others unchanged in band (KB-216).
 🏛️ **10/29 — FIFTH PLENUM COMMUNIQUÉ: NO FISCAL FIGURE, NO 15TH-FYP CONTENT (Xinhua 17:42 Beijing = 05:42 ET).** Adopted the Party self-governance decision, as framed. Economy gets one boilerplate sentence — 「用好用足宏观政策，深入挖掘内需潜力……确保完成今年经济社会发展主要目标任务，实现“十五五”良好开局」 — no 财政/国债/赤字/万亿/预算, no 加力/增量. ⇒ ZHA-15's 'saved not withheld' branch gets nothing numeric here; the venue moves to the **NPCSC 11/2–6 (L802)**, whose agenda still has no budget bill. **21st Party Congress set for H2 2027.** Personnel: 李云泽 (ex-NFRA head, removed 4/28) party posts stripped — formalization, not news, but **this desk had never logged his April removal (gap closed, KB-215)**; 张又侠/刘振立 expulsions → HAWK (outbox). Scores unchanged, 28/60.
 📉 **10/22 — SELLOFF, CHINA SIDE: no PBOC / MoF statement; CSRC's measures pre-date it (10/19); yuan unmoved (6.66).** CSI 300 **4,036.30 −1.91%** — **about −19.4% from the 6/22 close peak** (510300 proxy); "bear market" is the intraday-high basis. Broad-index ETF volume **3–13× its 20-day average** (159919 12.7×) ⇒ state buying **INFERRED, not confirmed** (share creations are the test). Pan 10/19: bond-market redemption backstop, plumbing, **no rate/RRR signal** (KB-207). **Plenum 10/26–29 RE-CONFIRMED, agenda Party discipline; NPCSC 25th session set 11/2–6 with NO budget-adjustment item on its proposed agenda** ⇒ both near venues point away from a big fiscal number (KB-206). L482 pre-fetch: still no extension instrument (KB-208). Scores unchanged, 28/60.
@@ -51,7 +51,7 @@
 
 | Metric | Value | Threshold | Status | Record |
 |--------|-------|-----------|--------|--------|
-| USD/CNY | **6.65** (yfinance 10/29 13:31 ET; CNH 6.656) · CFETS fix **6.7147** (10/29, KB-212) — fix **~1% weaker than spot** | >7.30 = 🟠 | 🟢 **CORRECT BUT UNINFORMATIVE** | ★ **Fix set WEAKER than market ⇒ PBOC leans AGAINST the pace of appreciation.** 🔴 Vectors 6 & 9 measure only defence against DEPRECIATION — their 🟢 is uninformative (KB-168). ~9.8% from 7.30 · `VX-2.01` |
+| USD/CNY | **6.65** (yfinance 10/29 13:31 ET; CNH 6.656) · CFETS fix **6.7147** (10/29, KB-212) — fix **~1% weaker than spot** | >7.30 = 🟠 | 🟢 **CORRECT BUT UNINFORMATIVE** | ★ **Fix set WEAKER than market ⇒ PBOC leans AGAINST the pace of appreciation.** Now measured both ways: V6 **3·A**, V9 **2·A** (`VX-2.10/2.11`, KB-219). ~9.8% from 7.30 · `VX-2.01` |
 | USD/KRW | **1,339** (intraday 10/29; 10/28 close 1,326.8) | >1,500 = BoK selling | 🟢 **EASED THROUGH** | **~47 won stronger than 9/18 (1,385.95)**; 161 won from the line. ⚠️ two 8/3 caveats still UNVERIFIED · `VX-2.05`, KB-126/216 |
 | HK Aggregate Balance | **HK$53,999M** (10/29) | <$45B = 🟡 | 🟢 | HKMA API — flat vs 9/18; **no intervention 10/22–29**. 🟡 **USD/HKD 7.8461 = 0.004 from the 7.85 weak side** — at 7.85 HKMA must buy HKD and this balance falls; that is the next tell · `VX-2.03`, KB-216 |
 | 1-mo HIBOR | **2.71494%** (10/29) | — | 🟢 | **−15bp vs 9/18** — cheaper HKD funding = carry pressure on the peg · KB-216 |
@@ -86,30 +86,30 @@
 | 4 | LGFV/Banks | 🟡 2 | **mixed:** NPL Feb'26 🧊 / swap Jun'26 / banks 7/16 |
 | 5 | Property Zombification | 🟠 **4 ↓** | **Sep 30** (tripwire, KB-193) |
 | 5b | Domestic Demand / Broad Activity | 🟠 **3** | RatingDog **Aug**, NBS Aug 31 |
-| 6 | PBOC Defensive Wall | 🟢 1 | yuan **10/29**; LPR **Oct 20** (17th hold) |
+| 6 | PBOC currency management (two-way, `VX-2.10`) | 🟢 1 **(shows 3·A)** | fix-vs-market gap **+0.52%** 10/29 — fix set WEAKER than market every month since Dec-2025; A-side not counted |
 | 7 | HK Peg Channel | 🟢 1 | **10/29** — spread YELLOW, USD/HKD at 7.846; HELD, rescore if HKMA intervenes |
 | 8 | LNG/Energy Shock | 🔴 **4** | HANS 9/4 via BRENT 9/6 — **not live** |
-| 9 | USD/CNY Defense | 🟢 1 | **10/29** |
+| 9 | USD/CNY pressure (two-way, `VX-2.11`) | 🟢 1 **(shows 2·A)** | fix **−1.11%** over 60 fixes 10/29; A-side not counted |
 | 10 | Gulf Recycl. | 🟡 2 | BRENT/HAWK Jul 4 |
 | 11 | Gulf Infra | 🟡 2 | BRENT/HAWK Jul 4 |
 
-> 📄 **Per-vector commentary → `archive/STATUS_COLD_20260918b.md` §ⓙ and `STATUS_COLD_20260918.md` §㉒.** This session: **5b HELD at 3** (RatingDog strength is export-composed); **7 re-measured** onto a real measurement. 🔴 **6 & 9 are one-directional and their 🟢 is uninformative — re-spec owed, NOT done here** (KB-168).
+> 📄 **Per-vector commentary → `archive/STATUS_COLD_20260918b.md` §ⓙ and `STATUS_COLD_20260918.md` §㉒.** This session: **5b HELD at 3** (RatingDog strength is export-composed); **7 re-measured** onto a real measurement. ✅ **6 & 9 RE-SPECIFIED two-directional 10/29 (KB-219)** on the CFETS fixing primary: the score counted in the total is the depreciation-defence (D) side — the UST-selling stress — and A-side intensity is shown, not added (design choice, flagged to Will).
 
-**Total: 28/60 — 🟠 ELEVATED** *(computed FROM the rows, never carried: 5+1+2+2+4+3+1+1+4+1+2+2 = **28** across 12 vectors × 5. 9/18 was 29.)* ⚠️ **The −1 is a pre-registered tripwire applied by its letter** — composition disputes it (KB-193). `[[finding_loadbearing_number_must_be_reproducible]]`
+**Total: 28/60 — 🟠 ELEVATED** *(computed FROM the rows, never carried: 5+1+2+2+4+3+1+1+4+1+2+2 = **28** across 12 vectors × 5. 9/18 was 29.)* **Two-sided shadow total, counting A-side intensity: 31** (V6 3·A, V9 2·A) — not the stress figure. ⚠️ **The −1 is a pre-registered tripwire applied by its letter** — composition disputes it (KB-193). `[[finding_loadbearing_number_must_be_reproducible]]`
 
 ## CROSS-AGENT TRANSMISSION
 
-🔔 **10/29: NEW outbox packet awaits PROME routing** — `outbox/2026-10-29_from-ZHAO_to-VULCAN-WATT-HAWK-HENRY-BRENT_first-truce-instrument-is-ustr-ships-not-the-11-10-clocks.md` (FYI, route list inside). **10/20: outbox packet awaited PROME routing** — `outbox/2026-10-20_from-ZHAO_to-VULCAN-WATT-HAWK-HENRY-BRENT_no-extension-instrument-and-two-new-trade-levers.md`. **10/16: one outbox packet awaited PROME routing** — `outbox/2026-10-16_from-ZHAO_to-MIDAS_minus-41pct-is-June-CRUDE-imports-not-copper.md` (answers MIDAS's 10/12 ask). 9/25 packets routed 9/25; 9/30 MOFCOM packet DECLINED as a duplicate of WALTER SIG-W-20260930-003 (PROME 10/14). **9/18-9/19 transmission history + HANS exchange + OPEN-asks line → COLD_20260925 §ⓕ.** Still owed: `VX` row for the Chinese clock (NEXT #12).
+🔔 **Routing state 10/29 (checked at recipients' inboxes):** 10/29 USTR-ships packet and 10/29 HAWK plenum FYI **delivered**. **NOT relayed, flagged to PROME 10/29:** `outbox/2026-10-20_…_no-extension-instrument-and-two-new-trade-levers.md` (§2 公告48 AI/PV, §3 Graham-Act EO → BRENT) and `outbox/2026-10-16_…_minus-41pct-is-June-CRUDE-imports-not-copper.md` (→ MIDAS). Awaiting routing: 10/29 LIQUID HK-peg FYI, 10/29 kill-leg/V6-V9 FYI. 9/25 routed; 9/30 declined as duplicate. History → COLD_20260925 §ⓕ. Still owed: `VX` row for the Chinese clock (NEXT #12).
 
 ---
 
 ## EXIT RULES
 
-### Thesis Kill → COLD_20260917 §⑨-b · **full section verbatim → COLD_20260918b §ⓟ**
+### Thesis Kill · old letters → COLD_20260917 §⑨-b, COLD_20260918b §ⓟ, COLD_20261029 §ⓒ
 
-**The kill letter, carried live (DAEDALUS 10/8):** *Belgium <10% YoY ×2 AND China >$700B ×3 · fiscal >5% GDP w/ LGFV backstop — neither close.* 🟠 **Belgium-leg re-spec DEFERRED to 2026-10-23** (after ZHA-18 grades; ⛔ never inside the letter that grades it, KB-159) — routed to PROME 10/09.
+**The kill letter — RE-SPECIFIED 2026-10-29 (KB-219; spec `reports/2026-10-29_RESPEC_belgium-kill-leg_and_V6-V9-two-directional.md`).** Killed only when ALL legs meet: **F** China TIC total net flow, trailing-6-month sum **≥ +$2,000M on 2 consecutive releases** (first-published; base rate 1 of 38 windows, never twice) — now **−$71.5B** · **L** China **>$700B on 3 consecutive releases** — now **$590.7B** · **S** fiscal >5% GDP with full LGFV backstop — not met. **Neither close.**
 
-⛔ **The Belgium half of the kill is DEGENERATE and the old framing was backwards:** it read *"Belgium must fall"*; **Belgium must RISE $25.5B not to trigger** (2025 base climbed $425.4B→$481.0B, so a FLAT Jul-26 level prints +4.35% Aug / +1.54% Sep, both under 10%). ⇒ **Record both prints SATISFIED-ON-BASE-EFFECT, not as evidence** — declared in the ZHA-18 letter §2 **before** the print. **✅ Aug print: Belgium +8.74% YoY — recorded SATISFIED-ON-BASE-EFFECT (10/16).** **The full kill still cannot fire** (other leg needs China >$700B ×3; China is $590.7B). `VX-1.04`, KB-159.
+🪦 **Belgium leg RETIRED 2026-10-29:** it separated no states (rho +0.067, n=43) and its YoY fired on its own base; the Aug "1 of 2" tally is VOID. Belgium stays FYI only; it returns only via rho < −0.5 rolling 24m **and** a fresh registration. Old letter + degeneracy paragraph → `archive/STATUS_COLD_20261029.md` §ⓒ (verbatim).
 
 ### Live tripwires
 - **China TIC >$680B for 2 consecutive months** ⇒ the selling was noise. *(Far away — $590.7B.)*
@@ -160,10 +160,10 @@
 
 2. ✅ **DONE 10/9 + 10/20 + 10/29 — instrument re-check: none for either clock** (KB-192, 202, 210); USTR s.301 ships proposal is the first US paper with the 1/9 date. 🔴 **NEXT: 11/2, MUST-RUN 11/9** — read the USTR FINAL notice when it lands; China MoT port-fee mirror (primary unread); locate MOFCOM 公告 39/43/45/47; 公告2025年第72号 primary (46号 cl.2) still owed; WATT T2 read carried.
 3. ✅ **DONE 10/16 — Aug TIC graded (ZHA-18 NO).** 🟠 **NEW: explain the −$12.25B China / +$19.85B Belgium holdings residuals** (Treasury note? ask LIQUID/HANS) · re-score question for Vector 1 · refresh `VX-1.04`/`VX-7.01` (not done 10/16).
-4. 🟠 **Re-spec Vectors 6 & 9 as TWO-DIRECTIONAL** (⛔ next free `VX` id) — both read 🟢 against an actively-managed 4-yr-high yuan. **In daylight, not inside a news sweep** (KB-168).
+4. ✅ **DONE 10/29 — Vectors 6 & 9 two-directional** (`VX-2.10/2.11`, KB-219). Owed: CFETS 16:30 close as the primary market leg (yfinance has 91/922 stale closes); add the fix pull to boot.py.
 5. 🟠 **Primaries owed on the two NEW rows:** ChinaBond for `VX-2.08` (currently a secondary carrier) · **a single-source matched-basis figure for `VX-2.09`** — today's legs are mixed carriers/dates/conventions and **only the DIRECTION is quotable** (KB-171).
 6. 🟠 **PBOC central-parity SERIES** — ✅ first primary read 10/29 (CFETS via Xinhua: 6.7147 vs market 6.6607, KB-212); still owed: a series from `chinamoney.com.cn`, since **the gap between fix and market IS the signal** and one day is not a series.
-7. 🟠 **Re-spec the Belgium kill-leg** as a level/flow test — ⛔ **NOT inside the letter that grades it** (KB-159). **DEFERRED to 2026-10-23** (post ZHA-18 — now UNBLOCKED, ZHA-18 graded 10/16), routed to PROME 10/9.
+7. ✅ **DONE 10/29 — Belgium kill-leg retired, China flow leg F registered** (KB-219).
 8. ✅ **Sep reserves/gold/trade/CPI/PPI backfilled 10/29 (KB-217)** — still owed: GACC tables (primary), Jul/Aug reserves, Sep credit + activity data. **Rest of the sweep's list → `reports/2026-10-29_DESK_SWEEP.md`** (Belgium kill-leg re-spec **6 days late**; V6/9 two-way re-spec; ZHA-05 lapsed window; DAEDALUS D3/D4/D7–D12; CLAUDE.md 25 B from cap).
 9. 🟠 **`KB.tsv` `Stale_By` has NO READER** (30+ rows past due; ~5 lines in `boot.py` §6; ⛔ do NOT bulk-mark SUPERSEDED) · **rolling-5d SOFR basis** for `VX-2.04` (KB-154) · **Vector 8 has no `VX` row** — ⛔ **NOT `VX-ZHAO-8.01`, that id is a FROZEN row; use the next free id** (KB-146/162f).
 10. 🟡 **US-China ag channel unmeasured** (KB-170) · **Korea's two unverified caveats** since 8/3 · ~~CLAUDE.md re-key~~ (landed 9/17 `c6ac32e81`, per DAEDALUS 10/14) · DAEDALUS 10/14 fix-list items 3–7, 9, 10 OWED (maintenance spawn) · **ZHA-10 `Date_Made` defect** · **HK $9.33B June UST sale unlogged** (KB-140).
