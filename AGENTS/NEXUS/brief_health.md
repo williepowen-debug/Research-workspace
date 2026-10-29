@@ -4,6 +4,29 @@
 
 ---
 
+# ROLLUP #6 — 2026-10-28 (DOCKET L555, due Tue 10/27; one day late because the 10/27 L554 wake did not run). Window: rows dated after 2026-09-29 through 2026-10-26 → **32 non-digest rows across 6 passes** (10/01 · 10/08 · 10/14 · 10/19 · 10/23 · 10/26); 6 `digest` rows excluded per legend.
+
+**Cause mix:** `brief-gap` **0** · `convergence` 1 · `uncertainty` 3 · `stale` 28. **`brief-gap` rate = 0/32.**
+**Pin coverage and class, beside that zero (schema §4.4; `scripts/brief_pin_check.py`, run 2026-10-28 ~21:05 ET):** 30 briefs — OK-PINNED 15 · OK-SAME-COMMIT 10 · **STALE-PIN 1 (LABOR, pin 3 STATUS commits behind; LABOR was committing live at the time, so this may be mid-session, not a defect)** · **UNPINNED 4 (BOND, CORAL, ORACLE, WATT — not amendment-11-checkable)**. FLG still has no brief (WQ-520 / DOCKET L838).
+
+| Desk | stale | convergence | uncertainty | brief-gap | Read |
+|---|---:|---:|---:|---:|---|
+| LIQUID | 7 | 0 | 0 | 0 | 🔴 chronic freshness 10/01→10/23 (5 passes); repaired brief consumed 10/26, no row that pass |
+| BROCK | 4 | 1 | 0 | 0 | freshness; repaired brief consumed 10/26 |
+| YURI | 2 | 0 | 0 | 0 | freshness |
+| BOND | 1 | 0 | 1 | 0 | freshness + Type-B rates chase; also UNPINNED |
+| BRENT · HENRY | 0 | 0 | 1 each | 0 | healthy Type-B chase |
+| RED · MIDAS · CORAL · VIOLET · ORACLE · SAM · SHADE · HOMER | 1 each | 0 | 0 | 0 | freshness (10/26 full review: owner dates stale vs Monday) |
+| FLG · FERT · CRUISE · OZK · CREED · HANS | 1 each | 0 | 0 | 0 | **structural** — brief absent or not owed (10/26); not a brief defect |
+
+**Decision rules applied (CLAUDE.md 9a):** ① `brief-gap` 0 — no fix-or-drop conversation. ② **High `stale`: LIQUID (7) and BROCK (4)** — closeout-discipline flags, already acted on: both briefs were repaired and consumed 10/26. No new flag. ③ `uncertainty`/`convergence` (BOND, HENRY, BRENT, BROCK) — healthy, not penalised. ④ Six 10/26 rows are structural (brief-less desks) — 22 of the 28 `stale` rows fall on brief-bearing desks. ⑤ Only LIQUID clears the 6-data-point floor; nothing else is judged per desk.
+
+⚠️ **Why the zero is weak evidence (instrument caveat, new at #6):** `stale` dominated this window (28/32). Under the charter, a figure missing from a STALE brief logs as `stale`, and a direct read of a load-bearing owner artifact logs nothing unless the brief was fresh. So while staleness is this common, a real content gap is mostly recorded under another cause or not at all. **0/32 says no gap was logged; it does not show the briefs were complete.** The brief-gap rate becomes informative only in a window where most briefs are fresh. Across #5 and #6 combined: 1 brief-gap in 49 rows.
+
+**Next: ROLLUP #7 — Tue 2026-11-24** (4 weeks; rides that day's L554 wake, same as L754). Row requested from PROME in the 10/28 wake packet; a new EOF row, never this one re-dated.
+
+---
+
 # ROLLUP #5 — 2026-09-29 (owed since ~9/03 — FIVE consecutive passes; #4 was 8/28). Window: rows dated after 2026-08-28 → 17 rows across 3 passes (2026-09-11, 2026-09-17, 2026-09-29).
 
 **Cause mix:** `brief-gap` 1 · `convergence` 7 · `stale` 9. **`brief-gap` rate = 1/17** — the quality signal.

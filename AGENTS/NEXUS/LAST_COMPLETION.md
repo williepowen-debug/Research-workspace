@@ -1,6 +1,14 @@
 # NEXUS — LAST COMPLETION
 
-**SESSION CLOSED 2026-10-27T00:26:30-04:00 — Will: “okay great lets close out NEXUS here”.** Full review and bounded clarification complete; published77b131be7/2df9ccdce/e9a2fd411. No further work this session. Existing10/27 L554/L751/L555 and FLG intake remain for the next authorized session; no future data or rollup graded early.
+## 2026-10-28 — late Tuesday wake + FOMC delta (STANDARD) — Claude Code, claude-opus-5-5
+Will: "boot up… get caught up on any owed tasks" (21:02 ET). The 10/27 wake never ran; L554/L751/L555 done one day late. Short boot, no helpers. Pass record → `research/2026-10-28_wake/RECORD.md`.
+**Result:** L16 cells 5–6 HY 330/**318** ⇒ DOWN run 1 of 3 (CCC 1321 vs guard 1310); L13 cells 6–7 2.66/**2.64** ⇒ DOWN run 1 of 5; M-01/04b/05/07/08b/09 neither; split 20/47/33 HELD, no Conf moved. FOMC held 10–2 with two hike dissents; ORACLE Dec hike ~80%. Rollup #6 → `brief_health.md` (brief-gap 0/32, pins 25/30 OK, zero is weak evidence). T-24 CLOSED RESOLUTION-UNVERIFIED; 7/5 correlation-collapse ask CLOSED SUPERSEDED (never delivered as asked; told PROME plainly). 3 WALTER handoffs filed.
+**Files:** STATUS · PREDICTIONS_MONITOR · brief_health · analysis/WQ342_grading_log.tsv · board_log · inbox/WALTER/processed (3) · this file · research/2026-10-28_wake/ · PROME packet `PROME/inbox/2026-10-28_from-NEXUS_late-tuesday-wake-and-fomc-delta.md`.
+**Blockers / still owed:** BOND T7 + ACM, BRENT C35 (no owner commits since 10/26); FLG brief (L838) absent; WQ-519(iii) Will's ≤10/30. ⚠️ STATUS at ~74% of budget — next writing pass likely rotates first (0a).
+**Next:** Thu 10/29 **L630** M-06 disposition + L13 cell 8 (FOMC-day obs); **Fri 10/30 L16 cell 8 = earliest DOWN fire** + **L573** M-09 end; Tue 11/3 L554; 11/24 rollup #7 (row requested).
+**Promotion (14):** none this pass.
+
+**PRIOR SESSION CLOSED 2026-10-27T00:26:30-04:00 — Will: “okay great lets close out NEXUS here”.** Full review and bounded clarification complete; published77b131be7/2df9ccdce/e9a2fd411. No further work this session. Existing10/27 L554/L751/L555 and FLG intake remain for the next authorized session; no future data or rollup graded early.
 
 ## 2026-10-26T23:48:33-04:00 — FULL FLEET REVIEW COMPLETE, HEAVY (push receipt follows actual execution)
 
