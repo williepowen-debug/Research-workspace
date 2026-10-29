@@ -1,8 +1,10 @@
 # CARL SCRATCH
-**Last session:** 2026-10-29 09:00–09:10 ET; Claude Code, Opus 5.5 (claude-opus-5-5), agent carl-1029am, spawned by PROME prome-90 (WQ-184 Tier-1 due-row wake: DOCKET L841, L842 + whole-inbox drain).
-**Type:** Bounded PROME wake. No threshold move, no score change, no new-direction build. Boot was PARTIAL (see SKIPPED below).
+**Last session:** 2026-10-29 09:28–09:36 ET; Claude Code, Opus 5.5 (claude-opus-5-5), spawned by PROME prome-90 on WQ-537 A (Will 09:26 ET). Bounded Tier-2 commission, $0. Earlier session today (09:00–09:10, L841/L842 + inbox drain) stands below.
+**Type:** One bounded session: STATUS rotation, CRL-32 letter, cohort instrument, cost pointer. No score, threshold, card or capital move.
 
-**PRIORITY-1:** **Tue 11/03 (before the Dave print Wed 11/04):** rule the new docket row: PHAN shared sub-agent closeout runner (5 decisions) AND reconcile the VX-GIG-3.08 band surfaces (VX row >+50/+100/+200 vs the 8/10 SV "re-cut bands ratified" + >+70% invalidation). A band change is a threshold change: route it accordingly.
+**PRIORITY-1:** **Tue 11/03 (before the Dave print Wed 11/04):** rule the PHAN shared sub-agent runner (5 decisions) AND reconcile the VX-GIG-3.08 band surfaces. A band change is a threshold change: route it accordingly. **Then Wed 11/25 08:30 ET: CRL-32 leg 1** (October saving rate; KILL check on September's revision).
+
+**WQ-537 THIS SESSION (commit 5dc1234ed):** STATUS rotated 26,163 → 22,489 B (69%); CRL-32 OPEN 25% (saving ≤3.8% at 11/25 and 12/23 + real DPI Nov ≤ Sep in the 12/23 vintage; KILL Sept revised ≥4.3%); cohort = Fed DFA deposits/household by income, Q2-26 bottom-40 +1.13% vs top-20 +3.04% YoY (model-allocated, descriptive; next Z.1 12/10 12:00 ET; KB-582); cost = HENRY L775, one figure (Oct CPI-U SA m/m). HHDC Q3 date UNVERIFIED (no NY Fed advisory 10/29). Memo PROME/inbox/2026-10-29_from-CARL_WQ537-buffer-drawdown-letter.md.
 
 ---
 
@@ -31,7 +33,7 @@
 
 ### SKIPPED THIS SESSION (do at the next full boot)
 - boot.py (step 7.0), BOARD diff (step 5), MEMORY/TEAM/ROADMAP/SCHEMA reads, predictions due-scan 7b/7c, ledger_staleness 7d, ROADMAP/TEAM update, research retirement sweep, consumer_check (no figure of CARL's superseded; HOMER's MF figure was received, not superseded by CARL).
-- **STATUS rotation due:** read_cap_check 80% of budget (26,163 B); rule 5 wants 3,379 B more out to reach <70%.
+- STATUS rotation: DONE 10/29 (WQ-537 session), 69% of budget.
 
 ### IMMEDIATE (10/29–10/30)
 - **10/29:** EART September 10-D + SDART/BLAST September (WQ-151) — NOT done this session.
@@ -40,7 +42,7 @@
 
 ### UPCOMING
 - **11/03:** sub-agent runner + GIG band (PRIORITY-1). **11/04:** Uber/DoorDash/Dave prints; FOMC presser transcript; SLOOS (UNVERIFIED). **11/05:** Lyft; Epiq (UNVERIFIED); HHDC Q3; Sweet v. McMahon.
-- **11/06:** NFP (V16 print 1 of 2) + ALLY/RITM checkpoint. **11/10:** CPI (CRL-10) + DOC refresh incl. DOC-P10 grade; NFIB. **11/12:** PHAN gate; Census BFS. **11/13:** DR1 COF/BFH (DEWEY BFH Q3 delivered, deferred here); STUE ES-02; Meritage. **11/23:** AFT.
+- **11/06:** NFP (V16 print 1 of 2) + ALLY/RITM checkpoint. **11/10:** CPI (CRL-10) + DOC refresh incl. DOC-P10 grade; NFIB. **11/12:** PHAN gate; Census BFS. **11/13:** DR1 COF/BFH (DEWEY BFH Q3 delivered, deferred here); STUE ES-02; Meritage. **11/23:** AFT. **11/25:** BEA October PCE/income = CRL-32 leg 1. **12/10:** Z.1/DFA cohort read. **12/23:** BEA November = CRL-32 final grade.
 
 ### BACKLOG
 - Open questions: thesis kill-rule mismatch (since May 3); archive/ convention with PROME. MEMORY dated review 11/01.
@@ -77,7 +79,7 @@ Top-level 0, WALTER lane 0 (inbox_census 09:08 ET).
 | Corrections | PASS, 0 unreceipted |
 | BOARD closeout | rc 0; "BOARD scan run, 6 new since SIG-W-20261029-008, 1012 logged" (receipts since cursor, NOT a full-backlog review) |
 | Claim check (STATUS, docket ×2) | PASS |
-| Read-cap | rc 0; STATUS rotate-tier 80% (rotation owed, above) |
+| Read-cap | rc 0; STATUS rotate-tier 80% at 09:10 → rotated to 69% in the WQ-537 session (5dc1234ed) |
 | Orphans | none [likely YOURS]; 2 [not yours] left alone |
 | Brief pin | refreshed to STATUS HEAD at the final write |
 | Push | NOT RUN by instruction (PROME pushes at its closeout) |

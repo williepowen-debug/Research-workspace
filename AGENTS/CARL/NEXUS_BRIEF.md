@@ -3,8 +3,8 @@
 **Status:** 🔴 v2.6.6 — concentrated household strain; broad spending collapse remains unestablished.
 **Domain:** U.S. consumer financial stress and household transmission; ISHM owns manufacturing/freight, REGINALD bank credit.
 **Thesis version:** v2.6.6
-**Recent thesis pivot:** none. 10/29 BEA: September real PCE flat (+0.015%), real DPI −0.27%, saving rate 3.8% (lowest since Oct 2022) = aggregate buffer drawdown with gasoline the largest nominal line; Q3 real PCE still +3.8% SAAR on July–August, so broad collapse remains unestablished; no cohort split, no letter fired (research/2026-10-29_GDP_PCE/GRADE.md).
-**As of:** 2026-10-29 09:09 ET | STATUS commit: `baa541abc`
+**Recent thesis pivot:** none. 10/29 BEA: September real PCE flat (+0.015%), real DPI −0.27%, saving rate 3.8% (lowest since Oct 2022) = aggregate buffer drawdown with gasoline the largest nominal line; Q3 real PCE still +3.8% SAAR on July–August, so broad collapse remains unestablished; no cohort split, no letter fired (research/2026-10-29_GDP_PCE/GRADE.md). **WQ-537 (Will 10/29): CRL-32 registered at 25% — saving ≤3.8% at the Oct (11/25) and Nov (12/23) prints plus real DPI Nov ≤ Sep = sustained drawdown; cohort leg = Fed DFA deposits by income (model-allocated, descriptive); cost leg = HENRY L775 (one figure). No score move (research/2026-10-29_WQ537/LETTER.md).**
+**As of:** 2026-10-29 09:36 ET | STATUS commit: `5dc1234ed`
 **Position:** No capital authority. Seven paper rows CLOSED 10/28 at the 10/27 opening-print fallback (+$313.57 paper); scoring gates shut, no performance claim.
 
 ## CROSS-DOMAIN
@@ -28,7 +28,7 @@
 
 | From | Input | Expected by | Why it matters | How it changes my view |
 |---|---|---|---|---|
-| BEA | Q3 GDP advance and September income/outlays, including revisions | Thu 10/29 08:30 ET | Next broad-consumption observation | Separate real volume, real income and saving from prices; no cohort inference |
+| BEA | October income/outlays (CRL-32 leg 1, KILL check on September revision); then November 12/23 (final grade) | Wed 11/25 08:30 ET | First grade of the household-buffer letter | First-published saving rate; revisions logged separately; no cohort inference from aggregates |
 | OTTO / SEC | EART September collection month (+ SDART/BLAST) | ~10/29 | Existing V2 deep tier | Apply existing tier/denominator rules; at most qualifying month 1 |
 | STUE / court | AFT v. ED next conference (the 10/28 docket date was wrong; held 10/14) | Mon 11/23 11:00 ET | CRL-13 denominator | Backlog count UNAVAILABLE today; status reports cover IDR/PSLF, not SAVE non-selection |
 | STUE | ES-02 / CRL-28 final MOHELA complaint grade | ~11/13–11/16 | Student-loan servicing stress | Interim 24.8/day below band; NO VERDICT if boundary placements split bands |
@@ -63,7 +63,7 @@
 
 | Date | Event | Threshold / Signal |
 |---|---|---|
-| 10/29 08:30 ET | Q3 GDP + September PCE | Saved GDP_PCE_OCT29_PREP.md; revisions, real income/saving and breadth |
+| 11/25 08:30 ET | October PCE / income (CRL-32 leg 1) | Letter research/2026-10-29_WQ537/LETTER.md; Z.1/DFA cohort read 12/10; final grade 12/23 |
 | ~10/29 | EART September | Existing V2 deep-tier read |
 | 10/30 | WQ228 fintech review; pilot falsifier follow-up | Carried from 10/28 |
 | 11/05 | Sweet v. McMahon hearing (STUE) | Context only |
