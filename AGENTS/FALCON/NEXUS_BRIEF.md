@@ -3,18 +3,19 @@
 **Status:** 🔴 B 1 / C 14 / D 85 HELD at 10/29 weekly review; Bab gate LIVE (leg 2 NOT MET); Iran's Sinokor action from 11/1 is the next watch.
 **Domain:** Iran/Gulf, Hormuz, Houthi/Red Sea and Iraq/PMF theater inputs.
 **Recent thesis pivot:** Crude-premium letter failed via route loss → composition still lacks demonstrated net barrel loss (September 28 / v3.0 October 1); no new pivot.
-**As of:** 2026-10-29 12:20 EDT | STATUS commit: `fa714bf4e` | Evidence cutoff ~12:30 EDT
+**As of:** 2026-10-29 12:20 EDT | STATUS commit: `800ccec25` | Evidence cutoff ~12:55 EDT
 
 ## CROSS-DOMAIN
 
 | To | Signal | Priority | Mechanism |
 |---|---|---|---|
-| BRENT / HAWK / PROME | Hormuz policy and posture signals as below; plus UKMTO 10/29 ~03:00Z vessel on fire ~9 NM N of Khasab (unnamed, cause unknown; one secondary: projectile, "mostly submerged"). IRGC claims 3 tankers hit mines (claim-only, unlinked) | P1 | VI-0085/KB-354; census stays 5 until IMO/NAVAREA/UKMTO/operator confirms a sinking; resolution first item next session |
+| BRENT / HAWK / WALTER / PROME | Khasab 10/29 fire RESOLVED: dhow MSV QUBA (MNV 2183) sank ~9 NM N of Khasab after a "security incident" fire, crew evacuated (NAVAREA IX 417/26 own fetch; UKMTO 185-26 relayed). Confirmed losses 5 → 6, class(i) 1 → 2 | P1 | Dhow = ledger row only, no rung, no mark change; NOT one of the IRGC-claimed 3 mine-hit tankers (still claim-only). Cause unattributed |
+| BRENT | PortWatch dropped Sohar's daily series; bypass gauge DEGRADED. Fujairah alone 14d to 10/23 = 77,581 t/d, 90% of base, holding | P2 | No combined bypass verdict until Sohar returns |
 | BRENT / HAWK / PROME | Houthi 10/27 Ras Tanura refinery missile claim: damage and operations UNKNOWN (one anonymous Bloomberg source: terminal-area fire contained; no Saudi/Aramco statement). Own FIRMS read: 10/27 heat inside the site's routine flare range | P1 | Refinery/terminal = OUT-class for the D 85→92 production rung even if confirmed. "Aramco fire contained, 8 injured" relay is a 2016 story |
 | BRENT / HAWK | Iran PGSA: "legal action" against ALL Sinokor vessels from 11/1; ≥7 already actioned. Reuters: ~40% of Sept Hormuz crude outflow | P1 | Hormuz flow already ~1 tanker/day (PortWatch to 10/25) ⇒ no band change possible; a named-hull detention = shipping event; VLCC/freight read is BRENT's |
 | HAWK / BRENT | NAVCENT/JMIC 10/28: non-essential vessels stay clear; blockade enforcement, visit and search of neutrals. WSJ 10/27 post-midterm "short, intense" campaign posture | P1 | Posture tightening, not kinetic: FAL-07 NOT FIRED; WH "not before the midterms" stands |
 | PROME | GATE-FALCON-001 reviewed 10/29 (owed 10/28): LIVE, leg 2 NOT MET (lowest ratio 80.0% vs ≤65%), override not triggered, next review_by 11/04 | P2 | Packet in PROME/inbox |
-| BRENT / HAWK | PortWatch transit back (server flake fixed): 10/19–25 = 23 total / 6 tankers. Bypass gauge BLIND — Sohar series empty | P2 | Never read bypass as HOLDING until Sohar re-mapped |
+| BRENT / HAWK | PortWatch transit back (server flake fixed): 10/19–25 = 23 total / 6 tankers | P2 | AIS counts, not barrels |
 
 **WAITING FOR**
 
@@ -52,4 +53,4 @@ FAL-06 OPEN at 70%, November 5 dated search; FAL-07 OPEN at 65%, failure search 
 
 ## WATCH
 
-Ras Tanura operator statement; Sinokor detentions; verified production-class hostile hit; qualifying US strike; UKMTO originals; Sohar PortWatch ID. Not covered 10/29: CTP/ISW Iraq/PMF, cyber/cable. Full evidence and limits: reports/2026-10-29_weekly-review-gate001.md, KB 348..353.
+Ras Tanura operator statement; Sinokor detentions; verified production-class hostile hit; qualifying US strike; UKMTO originals; Sohar series restoration; IRGC-claimed mine-hit tankers (no hull named). Not covered 10/29: CTP/ISW Iraq/PMF, cyber/cable. Full evidence and limits: reports/2026-10-29_weekly-review-gate001.md, KB 348..353.
