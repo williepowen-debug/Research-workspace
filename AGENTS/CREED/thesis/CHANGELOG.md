@@ -1,5 +1,14 @@
 # CREED Thesis Changelog
 
+## 2026-10-28 · **`VX-9.02` office-price proxy ADOPTED, WILL-RULED — no score moved, 27/45**
+
+1. **Will ruled** (Will 2026-10-28 23:23 ET, verbatim *"yes adopt the 9.02 proxy"*) on CREED's offer: his 7/21 decision 4 had left `VX-9.02` a GAP with *"revisit if a free proxy appears"*.
+2. **New reading:** Green Street CPPI **office −33% from the 2022 peak** [Sep-2026, via CRE Daily, SECONDARY; office is not in the public release] → **ORANGE** on the −25/−35 decline bands; all-property −0.1% MoM / +4.7% YoY / −12.8% from peak [public release, PRIMARY-READ]. `KB-CREED-089`.
+3. **Same session, evidence moved into the rails (none moves a score):** CBRE Q3 office vacancy 18.2%, absorption slowing to +4.9M sf (S7 row) · gate re-census still 1, forced-sale comps not yet a performing cluster (S6 row) · 3000 Post Oak trust loss $64.78M read at all three 10-Ds · VLY multifamily past-dues to nonaccrual + DEWEY's no-lift base rate (S3 row) · mREIT Q3 partial 4 of 11 (S8b row).
+4. **Surfaces changed:** `workbook/VX.tsv` + `VX_HISTORY.tsv` + `notes/VX_NOTES.md` · `THESIS.md` rows 3/6/7/8a/8b + counter-signals · `COVERAGE.md` lanes 3/4/7/12 · `FLOW.tsv` 01/02/03/06 · `registry/THRESHOLDS.tsv` state notes T-06/T-06b/T-08b (bands untouched) · `scripts/creed_selfcheck.py` DISCLOSED list.
+
+**⚠️ What did NOT change:** no score, band, op, sustain, trigger, prediction confidence or route; S7 stays 2 (the price leg is a value signal, the S7 upgrade needs REIT selloff AND tenant-demand impairment).
+
 ## 2026-10-01 · **Hypothesis 1 REWORDED, WILL-RULED (WQ-356) — no score moved, 27/45**
 
 1. **Will ruled WQ-356** (verbatim *"approved"*, in CREED's session 13:23 ET; row registered by PROME @`63e012091`, verified at the artifact before it was put to him).

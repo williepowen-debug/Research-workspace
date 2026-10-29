@@ -23,8 +23,8 @@ Pins are ROW-scoped (Sitting 2): `PRED-CREED-001/004/007`. **004 and 007 were GR
 6. **3000 Post Oak** B18/C9 September 10-D loss lines unread · **Owed from 10/01:** lender-loss-beyond-price KB rows, holder map · ABS-EE build AFTER the October print · Plaza Continental lien ownership UNKNOWN.
 7. ✅ DONE 10/28: DEWEY two reports integrated (KB-075/076) · COR-20261022-27 receipted · DAEDALUS WQ-508 lines accepted.
 
-## ⚖️ AWAITING WILL — 1 (VX-9.02 proxy, 10/28; the four 10/22 units settled the same day)
-🆕 **(10/28) `VX-9.02` office price index — adopt the free proxy?** Will's 7/21 decision 4 left it a GAP with *"revisit if a free proxy appears"*. One appeared: Green Street's public all-property CPPI (Sep −0.1% MoM / +4.7% YoY, PRIMARY) + office −33% from the 2022 peak (CRE Daily, SECONDARY; office is not in the public release). Adopting would read ORANGE on the −25/−35 bands. CREED's lean: adopt as a SECONDARY-tier proxy with the tier on the cell; Will decides.
+## ⚖️ AWAITING WILL — 0
+✅ **10/28 23:23 ET — ET, verbatim *"yes adopt the 9.02 proxy"*: `VX-9.02` proxy ADOPTED** (office −33% from peak → ORANGE; KB-089). The four 10/22 units settled the same day.
 **Will 17:22** *"Lets move on from it"* → Trepp form PARKED (premise corrected). **Will 17:30** *"okay go ahead now"* on CREED's suggestion → **RSNRES ADOPTED** as `VX-8.01` (paired series, no band; `KB-074`) · **ABS-EE: build AFTER the October print** (CALENDAR) · **pension route ADDED** (CLAUDE.md Route Matrix, info-only → SHADE + PROME; `_NETWORK.md` is PROME's to reflect). Rulings packet: `PROME/inbox/processed/2026-10-22_from-CREED_WQ494-rulings.md` (consumed by PROME). *(Standing offer, not decided: de-date the CLAUDE.md Current Rails S8a line into a pointer to `VX-CREED-7.01`.)*
 **Wording (Will 9/30):** say *"broad CRE-to-bank transmission is not confirmed,"* never *"stress hasn't shown up at banks."*
 
@@ -38,7 +38,7 @@ Will's 005 CRE leg (`8c5ffcfb3`, published as SIG-W-20261022-015) · sweep six f
 ## 🟡 STATE AT HANDOFF
 - **Base case HOLDS; 🟠 ELEVATED; convergence 27/45; broad CRE-to-bank transmission is not confirmed** (next test FDIC Q3 QBP ~late Nov).
 - **Trigger board:** `T-01a` **leg 1 of 2 (12.16 Sep)** · `T-01b` 16.85 · `T-02` spent (Sep 68%) · `T-03` not fired · `T-06b` fired, count 1 · **`T-08a` FIRED 9/24; 10/28 −11.33 TR** · `T-08b` not re-graded. `threshold_scan` prints T-01a TRIPPED (no sustain model) — graded at primary as leg 1. n=12 counts: T-01a 9 · T-01b 8 · T-02 6 · T-03 4 · T-08a 8.
-- **Counts:** VX 34 · KB **86** (10/28) · PRED 11 (3 open) · registry 11 · **cases 165** · evals v2 4 cases (4/4 PASS 10/22).
+- **Counts:** VX 34 · KB **90** (10/28) · PRED 11 (3 open) · registry 11 · **cases 166** · evals v2 4 cases (4/4 PASS 10/22).
 
 ## ⚫ STANDING TRAPS — re-read before writing any number
 

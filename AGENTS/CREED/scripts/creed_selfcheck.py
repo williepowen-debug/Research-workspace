@@ -171,7 +171,7 @@ for line in kb.splitlines():
 BAND = re.compile(r"^\s*([<>]=?)\s*(-?\d+(?:\.\d+)?)\s*%?\s*$")
 DISCLOSED = {"VX-CREED-4.01": "indicative ORANGE held after the 8/27 basis change (see its note)",
              "VX-CREED-9.03": "bands uncalibrated for the CBRE provider (see its note)",
-             "VX-CREED-9.02": "GAP held by Will's 7/21 decision; the cell quotes an UNADOPTED proxy, and its '>-15' bands mean a decline past 15%, which this mechanical read cannot parse (see its note; added 2026-10-28)"}
+             "VX-CREED-9.02": "bands are DECLINE magnitudes ('>-25' = a fall past 25%), which this mechanical read cannot parse; -33 reads ORANGE by intent (proxy adopted by Will 2026-10-28; see its note)"}
 def _trip(op, x, b): return {">": x > b, ">=": x >= b, "<": x < b, "<=": x <= b}[op]
 for line in (R("workbook/VX.tsv") or "").splitlines():
     f = line.split("\t")

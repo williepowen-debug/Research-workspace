@@ -11,6 +11,12 @@ Reverse-chronological log of **structural** changes to CREED's docs, folders, sc
 
 ---
 
+## 2026-10-28 (late) — `VX-9.02` proxy adopted; case vocabulary extended; self-check exception (Will: *"Lets handle/fix these now"*, then Will 2026-10-28 23:23 ET, verbatim *"yes adopt the 9.02 proxy"*)
+- **Instrument:** `VX-9.02` GAP → Green Street CPPI office proxy (SECONDARY-tier; reverts to GAP, never to all-property, if the office figure stops being carried). First CANONICAL `VX_HISTORY` row (2026-09, −33).
+- **`scripts/creed_selfcheck.py`:** `VX-9.02` added to DISCLOSED (its bands are decline magnitudes, which the mechanical read cannot parse). Run immediately after the edit: 0 findings.
+- **`cases/README.md` vocabulary:** + RECEIVERSHIP, FORECLOSED (status) · RECEIVER_APPOINTED (event) · LEASE_UP_FAILURE, EQUITY_PARTNER_EXIT (trigger); MATURITY_DEFAULT and MIXED_USE defined. 88 residual flags dispositioned, 49 cells applied fail-closed.
+- **`VX_HISTORY` Basis labels for VX-9.03** normalized (the pull date had been inside the Basis string, which made two CBRE rows read as different bases to the validator).
+
 ## 2026-10-28 — sweep: one research file retired, two owed-out asks closed, deferred #7 closed (Will: *"please do a sweep for anything old, stale, broken, incomplete, owed, etc."*)
 - `research/2026-08-13_NEWS_SWEEP_PLAN.md` → `archive/` (root data-hygiene retirement rule: >60 days, not boot-read, referenced only by its RESULTS sibling, re-pointed in the same commit).
 - SCRATCH "owed out" (DAEDALUS SEC-UA helper, PROME MACHINE_LOCAL SEC-UA row) CLOSED unsent: a working declared-UA pattern exists (DEWEY `edgar_fetch.py`).
