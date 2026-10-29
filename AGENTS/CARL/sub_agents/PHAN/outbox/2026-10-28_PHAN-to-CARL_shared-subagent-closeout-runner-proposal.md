@@ -76,3 +76,7 @@ It ends by **listing the judgement steps it cannot verify.**
 5. **PHAN's own runner after cut-over:** retire it and keep `PHAN/CLOSEOUT.md` calling the shared one, so there's one implementation, not two.
 
 **Not urgent:** no sub-agent is mid-session. But the next GIG/POLLY/POP/META spawn will close out with no git step, so its work reaches nobody unless CARL's own commit sweeps it.
+
+## Addendum (2026-10-28 ~22:58 ET, same session): rule 5, learned while sending this packet
+
+5. **Scope `--post` to the agent's own commits.** The working tree is shared. Between PHAN's commit and its push, WAL and FERT committed here. `safe-push.sh` then reported `NOT PUSHED: HEAD 27ee3ed4a`, but **that HEAD was WAL's commit; PHAN's (`58f676965`) was already on origin** (verified by content: empty diff on all six paths). PHAN's `--post` then failed on "2 commits ahead", both other sessions'. Fixed: `--post` counts only commits touching the agent's paths and its authored packets (`git log origin/master..HEAD -- <agent dir> 'AGENTS/*/inbox/*from-<AGENT>*'`). The shared runner needs this from day one. Separately, the safe-push behaviour in a shared tree (it verifies whatever HEAD is at check time) is a fleet-tool observation for PROME, not a CARL decision.

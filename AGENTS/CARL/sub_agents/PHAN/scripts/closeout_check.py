@@ -191,12 +191,19 @@ def main():
         dirty = phan_dirty()
         R.local("git · nothing PHAN-authored left uncommitted",
                 dirty == [], dirty or ["clean"] if dirty is not None else ["git status failed"])
+        # ⛔ Scope to PHAN-touching commits. The working tree is SHARED: other sessions commit
+        # here between your commit and your push, so "HEAD ahead of origin" counts THEIR work
+        # (2026-10-28: --post failed on 2 WAL/FERT commits; safe-push's NOT PUSHED named WAL's
+        # HEAD while PHAN's own commit was already on origin).
         rc, out = run(["git", "fetch", "-q", "origin"])
-        rc2, ahead = run(["git", "rev-list", "--count", "origin/master..HEAD"])
-        R.local("git · local commits all on origin/master (fresh fetch)",
-                rc == 0 and rc2 == 0 and ahead.strip() == "0",
-                [f"commits ahead of origin: {ahead.strip() if rc2 == 0 else '?'}",
-                 "the receipt is still safe-push's 'Pushed. CONFIRMED' line"])
+        rc2, ahead = run(["git", "log", "--format=%h %s", "origin/master..HEAD", "--",
+                          REL, "AGENTS/*/inbox/*from-PHAN*", "PROME/inbox/*from-PHAN*"])
+        mine = [l for l in ahead.splitlines() if l.strip()] if rc2 == 0 else ["?"]
+        R.local("git · every PHAN-touching commit is on origin/master (fresh fetch)",
+                rc == 0 and rc2 == 0 and not mine,
+                (mine or ["0 PHAN-touching commits ahead of origin"]) +
+                ["other sessions' unpushed commits are theirs, not PHAN's",
+                 "the receipt is still safe-push's 'Pushed. CONFIRMED' line, or this check"])
         return finish(R)
 
     # ---- PHAN-local mechanical checks --------------------------------------------------------
