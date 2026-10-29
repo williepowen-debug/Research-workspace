@@ -178,7 +178,7 @@ PHAN's frameworks all terminate in one claim: **invisible → visibility arrives
 - **Pathway:** BNPL originator tightens underwriting (headline DQ improves) → lower-quality cohorts routed to ABS trusts → ABS WA FICO declines → provisions grow faster than DQ (leading indicator) → ABS performance worsens as macro pressure hits the tail → structured-credit repricing → LIQUID/REGINALD vectors fire.
 - **Mechanism:** composition masking at the BNPL level mirrors the ALLY auto analog — headline clean, hidden mix downgrade in the ABS structures, provision divergence betraying the loading.
 - **Trigger (provision divergence from DQ headline): ACTIVE**, re-verified at SEC primaries 2026-09-11 — FY26 quarterly provision YoY **+1.8% → +40.0% → +33.5% → +42.5%**, Q4 outpacing Q4 GMV (+36%) by 6.5pp, NCO YoY accelerating monotonically to **+36.9%** while headline 30+ DQ *fell* to 2.5%. ⚠️ **Test this QUARTERLY, never on the FY aggregate** — the FY total (+29.2%) sits below the bar only because Q1 was flat, and reading it that way produced a wrong PARTIAL downgrade on 9/10.
-- **Breakpoint: NOT met.** Leg 1 ✅. **Leg 2 (ABS WA FICO) WEAKLY MET AT BEST** — AFRMT 2026-4/5 (2026-09-09) at **670** vs 672 at AFRMT 2025-1, *but* Grade-A share **rose** 34.8%→36.7% and required CE **fell** at every class, which is the opposite of the routing prediction. Leg 3 ❌ (gas $4.277 vs $4.50). ⛔ Never splice the **amortizing** shelf's 681 (AAST 2026-X1) into the **revolving** master-trust series.
+- **Breakpoint: NOT met.** Leg 1 ✅. **Leg 2 (ABS WA FICO): UNRESOLVABLE (Will 2026-10-28)** — no publisher; the instrument is frozen at both ends. Not a testable leg; do not grade or report it. No re-point, no successor instrument. Leg 3 ❌ (gas $4.277 vs $4.50).
 
 ---
 

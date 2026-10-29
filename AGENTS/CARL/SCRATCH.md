@@ -41,7 +41,7 @@
 ### IMMEDIATE (10/29–10/30)
 - **10/29 08:30 ET:** GDP/PCE grade (prep card saved); DOC-P10 is graded by DOC at its next pass.
 - **10/29:** EART September 10-D + SDART/BLAST September (WQ-151; at most qualifying month 1).
-- **10/30:** WQ-228 fintech review. PROME says date it or decline it; it is still UNPERFORMED. Also the two-state pilot falsifier follow-up to DAEDALUS.
+- **10/30:** WQ-228 CCBX leg. Coastal reports 10/29 pre-market; SoFi leg done 10/28 (KB-574). REGINALD joins owed by 11/13, else close coverage-only. Also the two-state pilot falsifier follow-up to DAEDALUS.
 
 ### UPCOMING (this week / next)
 - **10/31:** Section 122 aftermath. **11/03:** EIA. **11/04:** FOMC presser transcript + Russia diesel. **11/05:** GIG Q3 platform prints (confirm dates); Sweet v. McMahon.
@@ -49,13 +49,13 @@
 - **CRL-22:** UNH/ELV Q3 membership figures are in SV-POLLY-2026-10-28-01; grade at the next CRL-22 check.
 
 ### BACKLOG
-- **Will decision pending (raised 10/28):** FLOW-PHAN-06 leg 2 is frozen at both ends with no publisher (ROADMAP thread 20). Re-point or declare unresolvable.
-- **KB.tsv:** 286 ACTIVE rows are past their Stale_By (186 before Sep 1). Needs a dated review pass; not bulk-staled tonight (conservative default).
-- Five inbox stubs still need canonical-report reads: DEWEY ×2 (screwworm before 11/05 ERS / 11/10 CPI), PROME L784, FERT, ISHM.
+- ✅ **Will ruled 10/28:** FLOW-PHAN-06 leg 2 is UNRESOLVABLE (option b), applied by PHAN in FRAMEWORKS/DOSSIER; ROADMAP thread 20 closed.
+- ✅ **KB review done 10/28:** 284 overdue rows → STALE (not cited as current anywhere; kept as history). KB-372/377 re-dated to their docket rows. 0 ACTIVE rows past Stale_By.
+- ✅ Inbox empty. The five reports were read in full and dispositioned (research/2026-10-28_sweep/INBOX_INTAKE.md): screwworm is a watch (KB-575, ERS 11/05 row); 3 CONTEXT, 1 DECLINE. LABOR T-07 revival noted (INFO).
 - 800 non-action BOARD backlog entries (none action-owed).
 - Open questions: thesis kill-rule mismatch (since May 3, a thesis-level decision); archive/ convention with PROME.
 - STUE card B2 column-strip deferred to STUE's next pass. MEMORY dated review 11/01.
-- POLLY flagged a Hurricane "Isaias" Cat-2 FL landfall 10/9 from a secondary only. Unverified at NHC; AEOLUS/CORAL own it. Do not cite.
+- ✅ Isaias resolved: NHC confirms a major hurricane (peak 105 kt, Oct 6–10); the Cat-2 Panhandle landfall is AEOLUS's grade (KB-576). POLLY-P03 invalidation not met. Final NHC TCR pending.
 
 ---
 
@@ -86,7 +86,7 @@
 | Child ledgers | 0 STALE/UNATT after 10/28 passes; TSV alignment clean |
 
 ## URGENT
-- None. Pending Will decision: PHAN leg-2 re-point (backlog).
+- None. No pending Will decisions.
 
 ## CLOSEOUT RECEIPT
 See the final commit message for this session's gate results (consistency, read-cap, claim, roadmap, brief pin, ledger scan, orphan check). Research retirement: 3 candidates, all RETAINED (live references: PREDICTIONS.tsv, HHDC grading card, COUNTER_LOG). Auto-memory: none authored.

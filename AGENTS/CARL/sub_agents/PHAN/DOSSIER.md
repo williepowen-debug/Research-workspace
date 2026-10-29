@@ -14,7 +14,7 @@
 
 ## CURRENT STATE ADDENDUM - 2026-10-28 (bounded hygiene pass; NOT the Nov-12 gate)
 
-*Table above is the 9/11 state; this addendum is what moved since. Narrative -> `PASSES.md` ('2026-10-28 pass').* Events since 9/10: **0 new consumer-fintech failures** (count holds 3, P04 12%); **Montgomery County PA DA sued MoneyLion + Dave ~9/28/26** (county, NOT state AG - P07 count holds 4 of 5); **NYDFS formal BNPL proposal 7/15/26** (comments closed 9/14; no final rule found) was missing from the ledger, now logged; **1033 NPRM at OIRA since ~8/6/26, unpublished at 10/28**. Coastal 8-K 9/28 = Bluevine sale, not distress. **P01 definition risk:** PYMNTS 74% (2+ providers in 3 mo, pub 7/20/26) is not simultaneous stacking - CARL to rule. No row re-marked or resolved. 9/11 CARL packet processed: leg 2 = UNTESTED; PHAN's 'weakly met' withdrawn. Ledger malformed rows repaired (ML 1, PROVIDER 2; values unchanged).
+*Table above is the 9/11 state; this addendum is what moved since. Narrative -> `PASSES.md` ('2026-10-28 pass').* Events since 9/10: **0 new consumer-fintech failures** (count holds 3, P04 12%); **Montgomery County PA DA sued MoneyLion + Dave ~9/28/26** (county, NOT state AG - P07 count holds 4 of 5); **NYDFS formal BNPL proposal 7/15/26** (comments closed 9/14; no final rule found) was missing from the ledger, now logged; **1033 NPRM at OIRA since ~8/6/26, unpublished at 10/28**. Coastal 8-K 9/28 = Bluevine sale, not distress. **P01 definition risk:** PYMNTS 74% (2+ providers in 3 mo, pub 7/20/26) is not simultaneous stacking - CARL to rule. No row re-marked or resolved. **FLOW-PHAN-06 leg 2 declared UNRESOLVABLE (Will 2026-10-28; no publisher, instrument frozen both ends); leg 1 and the rest of the row unchanged.** 9/11 CARL packet processed; PHAN's 'weakly met' withdrawn. Ledger malformed rows repaired (ML 1, PROVIDER 2; values unchanged).
 
 ## CURRENT STATE — as of 2026-09-11 (3rd ad-hoc pass)
 
@@ -29,7 +29,7 @@
 | Fintech failures (cumulative) | **3** — explicit DID_NOT_APPEAR null | 🟠 unchanged | `COCKROACH.tsv` |
 | Phantom-DTI gap | ~12pp — **NOT refreshed** | 🟠 carried, stale | no HUD/FHA BNPL guidance exists to measure against |
 
-**🔴 FLOW-PHAN-06 trigger = ACTIVE** (restored 9/11 — the 9/10 PARTIAL was a **period-basis error**: a quarterly trigger tested on an FY aggregate). Quarterly provision YoY **+1.8% → +40.0% → +33.5% → +42.5%**, Q4 beating Q4 GMV by 6.5pp; **NCO YoY accelerating monotonically +12.6→+16.5→+22.2→+36.9% while headline DQ FELL** — the stronger evidence, and not in the trigger. ⚠️ **BREAKPOINT NOT MET, do not let ACTIVE travel as breakpoint-fired:** leg 2 (ABS WA FICO) **weakly met at best** — 670 vs 672, but Grade-A share ROSE and CE FELL at every class, opposite the routing prediction; leg 3 (gas >$4.50) not met. ⛔ Never splice the amortizing shelf's 681 into the revolving series. ✅ **ACCEPTED BY CARL 2026-09-11** (`KB-CARL-458`, commit `a585b5ccf`) — CARL re-verified FQ1–FQ3 independently at SEC XBRL and restored the trigger. ⚠️ **FQ4 +42.5% is labelled PHAN-DERIVED, not CARL-verified**: Affirm's fiscal Q4 has no standalone XBRL duration frame, so it exists only by differencing FY against the nine-month. **Two CARL-verified quarters above the bar, not three — do not report three.** CARL is taking the **NCO re-instrumentation** to the ~11/12 gate as a spec change rather than deciding it at closeout. *Detail → `FRAMEWORKS.md` §2.6.*
+**🔴 FLOW-PHAN-06 trigger = ACTIVE** (restored 9/11 — the 9/10 PARTIAL was a **period-basis error**: a quarterly trigger tested on an FY aggregate). Quarterly provision YoY **+1.8% → +40.0% → +33.5% → +42.5%**, Q4 beating Q4 GMV by 6.5pp; **NCO YoY accelerating monotonically +12.6→+16.5→+22.2→+36.9% while headline DQ FELL** — the stronger evidence, and not in the trigger. ⚠️ **BREAKPOINT NOT MET, do not let ACTIVE travel as breakpoint-fired:** leg 2 (ABS WA FICO) **UNRESOLVABLE (Will 2026-10-28)** — no publisher; instrument frozen at both ends; not a testable leg, do not grade or report it; leg 3 (gas >$4.50) not met. ✅ **ACCEPTED BY CARL 2026-09-11** (`KB-CARL-458`, commit `a585b5ccf`) — CARL re-verified FQ1–FQ3 independently at SEC XBRL and restored the trigger. ⚠️ **FQ4 +42.5% is labelled PHAN-DERIVED, not CARL-verified**: Affirm's fiscal Q4 has no standalone XBRL duration frame, so it exists only by differencing FY against the nine-month. **Two CARL-verified quarters above the bar, not three — do not report three.** CARL is taking the **NCO re-instrumentation** to the ~11/12 gate as a spec change rather than deciding it at closeout. *Detail → `FRAMEWORKS.md` §2.6.*
 
 **🔴 Instrument refutation standing at parent (9/10):** NY Fed Liberty Street 8/11 showed CARL's CC 90+ **stock** series rises substantially on charge-off **reporting duration** (40%→80% still-reported at 1yr). CARL closed **CRL-05 `NO-VERDICT-BY-BASIS`** and registered **CRL-30** on the flow rate. ⛔ **Never re-arm anything on 13.74%.**
 
@@ -53,14 +53,14 @@
 | **Closeout protocol rebuild** (no git step; frozen/dead targets) | PHAN | 2026-09-11 | ✅ **DONE 2026-09-11** — §8 |
 | **Is longer-term BNPL already in the aggregates?** (~$16B of ~$29B BNPL central) | PHAN | 2026-07-28 (DEWEY C4) | 🔻 **OPEN — top research item for the ~11/12 gate** |
 | **Consolidated transmission-premise memo → RED** (3 independent hits) | PHAN | 2026-09-11 | 🔻 **OPEN** |
-| **ABS tracking series** (leg 2) | PHAN->WILL | 2026-09-11 | CARL 9/11: STRUCTURALLY UNGRADEABLE (no publisher, instrument frozen both ends); Will decides re-point. Do not re-mark. |
+| **ABS tracking series** (leg 2) | - | 2026-10-28 | ✅ WITHDRAWN - leg 2 UNRESOLVABLE (Will 2026-10-28); nothing to build |
 | **P02 resolve MISS at FY-close** (recommended 9/10) | **CARL** | 2026-09-10 | ⏳ awaiting CARL |
 | **P04 successor proposal** (failure-count measures a legal event, not the mechanism) | PHAN→CARL | 2026-09-11 | 🔻 **OPEN** |
 | **Route CARL→PHAN assignments as inbox packets, not KB Notes** | **CARL/Will** | 2026-09-11 | ⏳ recommended — `FRAMEWORKS.md` §2.8 |
 | **Sub-agent closeout template has no git step** (all 7) | **CARL** | 2026-09-11 | 📤 **packet sent** — I cannot edit sibling agents |
 | **`read_cap_check.py` cannot evaluate sub-agents** (7 invisible) | **DAEDALUS** | 2026-09-11 | 📤 **packet sent** |
 | **FLOW-PHAN-06 → re-instrument onto NCO growth?** | **CARL** | 2026-09-11 | ⏳ CARL taking it to the ~11/12 gate (spec change, needs a sitting) |
-| **⚠️ CARL records ABS WA FICO as "untested since 672"** — the **PM sweep packet fills it** (670, AFRMT 2026-4/5) and is **unprocessed in CARL's inbox** | **CARL** | 2026-09-11 | ⏳ PRIORITY-1 next CARL session |
+| **ABS WA FICO leg 2** | Will | 2026-10-28 | ✅ CLOSED - declared UNRESOLVABLE (Will 2026-10-28); no re-point, no successor instrument |
 
 ---
 
