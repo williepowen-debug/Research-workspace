@@ -1,8 +1,8 @@
 # Ordinary programs that could reduce agent work
 
-## Current disposition — research-reader plan checkpoint
+## Current disposition — first-version reader plan complete
 
-Will selected the research reader, expressed intent to build it, and asked to draft a plan first. Before the plan was finished, Will requested committing and pushing everything because model usage was running low. This is a Git checkpoint, not completed reader implementation or a finished plan. Resume by completing the plan from the draft below; preserve the build intent and do not ask again whether Will wants the reader. Other proposed programs remain unapproved. No implementation or further planning is being started during this checkpoint.
+Will approved completing the reader plan on October 29 alongside the ORACLE launcher preset. The [completed first-version plan](#october-29--completed-first-version-reader-plan) specifies the three-desk Research tab, source-preserving display, document filters, literal search, refresh/concurrency behavior, page sketch, phases and acceptance checks. **Plan complete; reader implementation not started.** Existing build intent survives; the next directed step is implementation, not another opportunity study or a repeat question about whether Will wants it. Other program ideas and Windows wake installation retain their separate approval boundaries.
 
 ## Initial assessment — prior exploration
 
@@ -60,3 +60,89 @@ All local branch reachability was checked. The two September review branches are
 Conclusion: no additional active agent work needs committing or pushing in this checkout. Keep the historical backup and local caches intact. This audit note is the only new CATO change; the reader plan remains unfinished at its saved resume point, and no further planning/research is triggered.
 
 Audit delivery checks: the four actual inputs `PROME/DOCKET.tsv`, `PROME/GATES.tsv`, `PROME/WILL_QUEUE.md`, and this report were verified readable and weekday-clean. Orphan advisory rc0 found only the accounted-for local caches; scoped diff check passed and the shared index was empty. No startup/ledger/memory/consumer-figure change triggered another check. Only this CATO audit note is committed; no other owner's file or branch is changed.
+
+## October 29 — completed first-version reader plan
+
+**Direction and stopping point.** Will approved completing the reader plan alongside implementing ORACLE's launcher preset. Preserve his existing intent to build the reader. This delivery completes the plan; no reader code or dependency is installed in this pass. The next implementation can use the bounded design below without repeating the opportunity study or asking whether Will wants a reader.
+
+**Useful result:** Will opens Research, chooses a desk or searches all three, finds an existing document, and reads its full text without starting a model session. The agents continue researching in their own files. CATO owns the reader; CARL, BROCK and LIQUID retain all analytical content. Success means Will can retrieve and read representative reports in ordinary use; reduced model usage or time savings remain unmeasured until then.
+
+### First version and page sketch
+
+Add a fifth **Research** tab alongside the four existing launcher pages. Use a native split container: document list on the left, read-only text on the right. The divider is resizable; controls use layout containers rather than accumulating manual width calculations. Reading and searching do not change agent selections, launch models, task text, groups, launch history or a running dispatch.
+
+```text
+ Agents | Selected & groups | Instructions | Activity | Research
+ -----------------------------------------------------------------------
+ Desk [All three v]   Type [All documents v]   [Refresh files]
+ Search documents [                            ] [Search] [Clear]
+ -----------------------------------------------------------------------
+ Documents                         | CARL — Household buffer drawdown
+ CARL / Overview                   | AGENTS/CARL/research/.../LETTER.md
+   Current status                  | Read from local files at 15:10
+   Synthesis brief                 | [Find in document] [Copy path]
+ CARL / Research                   | [Zoom -] [Zoom +] [Wrap lines x]
+   Household buffer drawdown       | -----------------------------------
+ BROCK / Reports                   | # CRL-32 — Household buffer ...
+   ...                             | Full original text, including
+ LIQUID / Research                 | headings, caveats, tables and links.
+   ...                             |
+ -----------------------------------------------------------------------
+ 141 documents in this snapshot | Search complete / incomplete with reason
+```
+
+The count and title illustrate the inspected layout; they are not fixed UI constants. The existing launch footer stays distinct from reader controls. Keyboard Tab order, labelled controls, Ctrl+C selection and keyboard document navigation are required. Ctrl+F while Research is active finds within the document; outside Research, preserve the existing Agents search shortcut. Ctrl+plus/minus zooms only the reader when it has focus.
+
+### Documents and filters
+
+A separate small configuration (`scripts/research_sources.json`, proposed) declares desk roots, two overview files and allowed document directories. Do not put document-by-document listings into configuration or add upkeep work for desks.
+
+| Desk | Pinned overview files | Recursive document directories |
+|---|---|---|
+| CARL | STATUS.md, NEXUS_BRIEF.md | research/ |
+| BROCK | STATUS.md, NEXUS_BRIEF.md | research/, reports/ |
+| LIQUID | STATUS.md, NEXUS_BRIEF.md | research/, reports/, audits/ |
+
+Default type is **All documents**; alternatives are Overview, Research, Reports and Audits, derived from the configured location, not a model's classification. Browse `.md` files only in version one. Raw filings, CSV/TSV, PDFs, images and extracted `.txt` sources remain outside search, with the scope stated in the UI. This keeps the list focused on the agents' written work; it does not promise coverage of all evidence or all thesis folders.
+
+Exclude directory components named `archive`, `archives`, `_archive`, `backup`, `backups`, `raw`, `source`, `sources`, `data`, `cache`, `.cache`, `__pycache__`, `.git`, `.venv`, and other dot-directories, case-insensitively. Do not exclude a document solely because its name contains FROZEN: a frozen registration can be relevant research. Do not follow directory symlinks; validate resolved file paths stay under their configured desk/document roots at both discovery and opening. Do not traverse CARL's specialist desks automatically. Explicitly configured overview paths are the only outside-directory exceptions.
+
+Current structure check, not a freshness audit: all six overview files exist; none of these desks has a top-level HANDOFF.md or CONTINUITY.md. The proposed default Markdown scan finds CARL 26, BROCK 47 and LIQUID 62 documents; twelve LIQUID archive/source documents are excluded. Largest included Markdown file is 28,994 bytes; maximum inspected path depth is four components below the desk. Raw text includes files above 1.6 MB, supporting their exclusion from the first version. These are mutable checkout observations, not permanent inventory figures.
+
+Display first Markdown heading as title when recognizable, otherwise filename. Always expose desk, category and full repository-relative path so duplicate titles remain distinguishable. Pin overviews first; sort remaining documents by a valid ISO date prefix from filename or nearest parent directory, descending, then path. Label that field **Path date**, not evidence date; undated files remain visible after dated files. The document's own as-of dates and qualifications remain in its text. Do not infer research freshness from file modification time, a commit date or a filename.
+
+### Display, search, links and refresh
+
+**Rendering decision:** native Windows Forms RichTextBox in read-only, plain-text mode, with a fixed-width font, comfortable font size, selection/copy, zoom and wrap toggle. Load decoded Markdown as text, never as RTF/HTML or executable content. Keep the source characters and line breaks; normalize platform newlines only for display. Headings, table delimiters, caveats, links and code fences remain visible. Default wrap helps prose; turning it off provides horizontal scrolling for wide tables. An explicit Source label makes the tradeoff clear: this is not a fully typeset Markdown page. No custom Markdown parser, embedded browser or new package in version one. A later formatted view is optional, justified by actual reading friction, and must retain this exact-source view.
+
+This choice uses an existing Windows Forms capability; Microsoft's [RichTextBox documentation](https://learn.microsoft.com/en-us/dotnet/desktop/winforms/controls/richtextbox-control-windows-forms) confirms text display, formatting, links, find and scroll support. That establishes available controls, not that this application has implemented or tested the reader.
+
+**Links:** ordinary HTTP(S) URLs recognized by the native control may open in the browser only on explicit click; the handler checks scheme and launches a fixed browser/open operation, never shell command text constructed from a document. Relative Markdown links and reference-style links remain visible and copyable in version one; they are not promised clickable. Copy path copies the actual repository-relative document path. No automatic downloads, image loads, link rewriting or fetches. This limits convenience but preserves all source references without pretending to implement full Markdown navigation.
+
+**Search:** case-insensitive literal substring across title, path and full included document text, restricted to the current desk/type filter. No regular expressions, semantic ranking, summaries or inferred synonyms. Search runs on Enter/Search, not a process per keystroke. Return one row per matching document with a short literal match context; opening jumps to the first match, and Find next/previous navigates occurrences. A query matching only title/path is labelled accordingly. Clear restores browsing. Search does not claim an exhaustive fleet search.
+
+**Refresh and concurrent work:** scan once on first entering Research, and again only on Refresh files. Keep a bounded in-memory snapshot; no persistent research database or copies of analytical content. Read each selected file again when opened. A cheap stat-before/stat-after check detects an overlapping write; if it changes during the read, retain the last complete view and offer Reload rather than showing a partial file. If the displayed file changes later, preserve the reader's place and show a changed-on-disk notice; reload only on request. This notice is a race-detection use of filesystem metadata, not a freshness clock. Metadata cannot guarantee detection of every possible concurrent rewrite; a manual Reload always rereads bytes. Missing/moved files produce a visible state, not an empty successful read; Refresh can rediscover a moved file inside scope.
+
+Read/search operations run asynchronously through the existing Python/WSL bridge pattern with fixed operation names and structured arguments; no user string becomes a shell program. Use a request generation ID so results from an older search cannot replace the current one. Do not occupy the launch queue. Cancellation or navigation leaves a running launch alone. Switching tabs preserves reader filter/query/selection/scroll and prepared launch settings for the current app window. No new personal preference format is needed initially.
+
+Bound reads to 1 MiB per file, depth 12, 1,000 documents and 32 MiB per scan/search. Those limits exceed the inspected reports comfortably. A denied, undecodable, oversized or concurrently changing file is individually labelled; hitting a global/time budget reports **Search incomplete** with the actual inspected count and reason. Never silently truncate a document or present an incomplete scan as no matches. UTF-8 with optional BOM is supported; invalid bytes remain an explicit unreadable state rather than replacement characters silently changing evidence. Missing optional directories are shown as unavailable categories without breaking the other desks.
+
+### Implementation phases and acceptance
+
+1. **Read-only file service:** configuration validation, bounded discovery/open/literal search, explicit incomplete states, immutable response identity and cancellation. Exercise real desk documents plus isolated fixtures; no UI or owner-file writes are necessary for this stage.
+2. **Research tab:** split list/reader, filters, source label, search and find, refresh, zoom/wrap/copy, safe explicit web links and cross-tab state preservation. Reuse current theme and fixed bridge mechanism; retain original launch behavior.
+3. **Delivery and ordinary use:** author tests and native UI checks, exact-path publication, reopen the launcher and try retrieving/reading representative reports. Reader code is CATO author work; obtain any independent command/path-boundary review required by owner rules before presenting that boundary as independently accepted. No new reviewer launch is authorized by this plan alone.
+
+Acceptance examples are concrete, not a new recurring audit:
+
+- Find CARL's `research/2026-10-29_WQ537/LETTER.md` by title and a body-only phrase; preserve its revision/VOID caveat, Unicode, links and complete tables.
+- Open BROCK's `reports/2026-10-21_self-sweep.md` and LIQUID's `reports/2026-09-17_session.md`; preserve long lines, row boundaries and source qualifications. With wrap off, tables can be horizontally scrolled. These are structural fixtures, not claims that those reports are today's best research.
+- Duplicate titles retain distinguishable paths; missing optional files, archives, hidden folders and raw sources follow the declared scope. A newly saved eligible report appears after Refresh without editing a manifest.
+- Quoted text, backticks, dollar signs, Unicode and shell-looking search terms remain literal. A symlink escape and a path changed between listing/opening are refused. Unsupported link schemes cannot execute.
+- Oversized/invalid-UTF-8/unreadable files and scan limits show incomplete coverage; an older asynchronous response cannot overwrite a newer query. A file changed/deleted during reading is handled without a misleading empty success or owner write.
+- A concurrent dummy launch, preset edits, mixed selections and tab switches preserve their existing behavior while research search runs. Existing launcher tests still pass. Use fake CLIs, not research agents, for integration checks.
+- Reopening, resizing and keyboard navigation work on Windows/WSL. No new package, network request or live research process is required to read local documents.
+
+**Stop condition:** plan complete now. Reader implementation remains the next directed task under Will's preserved build intent; no extra study, expanded desk roster, automated research refresh, indexing service or Windows wake installation follows from this delivery. Later quality assessment is ordinary use, not a newly commissioned measurement program.
+
+**Plan evidence and delivery:** startup/input HEAD `65383c309b6ce2a69789a02851a91a6ce49b3c29`; structure/count reads were bounded observations of the concurrently changing local checkout. The actual control locations and bridge entry points were inspected in scripts/agents_gui.ps1 and scripts/agents_gui.py. Representative document headers/table structure were read, not financially re-audited. The native RichTextBox capability was checked in Microsoft documentation; no reader renderer prototype, usability test or savings measurement is claimed. Weekday check passed on the seven verified readable paths PROME/DOCKET.tsv, PROME/GATES.tsv, PROME/WILL_QUEUE.md, AGENTS/CATO/CONTINUITY.md, AGENTS/CATO/TASK_INDEX.md, and the continuing launcher/program-opportunities reports. Read-cap passed on the six actual startup files: CATO AGENTS.md 8,039 B, CHARTER.md 11,436 B, CONTINUITY.md 9,398 B; root CLAUDE.md 24,313 B, USER.md 8,458 B, AGENTS.md 5,756 B. Absent optional CATO desk files were not counted. No STATUS/ledger, memory or superseded shared financial figure changed; conditional ledger/memory/consumer checks do not apply. Only the plan/report and CATO continuity/index change for this assignment. Paired preset implementation has separate evidence in the launcher report.

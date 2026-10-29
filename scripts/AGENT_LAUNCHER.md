@@ -35,7 +35,7 @@ Groups store agent names and runtimes. Task text remains in the current app
 window, and loading a group preserves those current task edits.
 
 The **Instructions preset** dropdown offers **Orient and report status**, **Continue
-approved work**, **Prepare handoff**, and **CATCH-UP**. **Apply** uses the current editing scope:
+approved work**, **Prepare handoff**, **CATCH-UP**, and **ORACLE daily read**. **Apply** uses the current editing scope:
 all selected agents by default, or the individual agent when overriding.
 **Manage...** also offers an explicit apply-to-all-selected action.
 The preset fills the task box so you can edit it before launch. Replacing
@@ -47,6 +47,13 @@ workstreams, drain its inbox, complete authorized owed work, and close out and
 report. It preserves approval conditions and returns new or unclear directions
 to Will. It is an explicit editable preset; ordinary startup and model defaults
 are unchanged.
+
+**ORACLE daily read:** choose ORACLE in the Instructions agent dropdown to edit it
+individually, then apply this preset. It checks missed days, uses an already-logged
+scheduled read when present, grades the daily oil-market rows, and reports state
+changes to PROME. The supplied instructions remain editable; applying the preset
+starts nothing. Use **New conversation** when ready. This is a manual shortcut,
+not a schedule.
 
 **Due work:** list badges show overdue, due-today and undated open docket rows.
 Choose **Due today / overdue** to filter the list (unknown evidence and undated

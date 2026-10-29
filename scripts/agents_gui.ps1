@@ -665,7 +665,8 @@ $builtInPresets=@(
     @{name='Orient and report status';text='Follow your startup instructions. Recover current work, approvals, and unresolved conditions. Give Will a short status and suggested next step. Do not begin unassigned work.'},
     @{name='Continue approved work';text='Follow your startup instructions and recover the current assignment, existing approvals, and unresolved conditions. Continue only work already authorized and currently in scope. Preserve all approval conditions; ask Will if the applicable assignment or authority is unclear. Report the result and next stopping point.'},
     @{name='Prepare handoff';text='Follow your startup instructions and recover current work and approvals. Prepare your normal handoff and closeout for the existing assignment. Preserve unfinished work, blockers, approval conditions, and a clear resume point. Do not start new research or unrelated pending work.'},
-    @{name='CATCH-UP';text='Follow your startup instructions and recover current work, existing approvals, and unresolved conditions. Bring your files and folders current with new data within your approved workstreams. Drain your inbox under your normal owner protocol. Work owed and incomplete items that are already authorized and currently in scope. Preserve existing approval conditions; return new directions or unclear authority to Will. Close out under your normal protocol and report the results, remaining work, and next stopping point. Follow PROME/COMPLETION_SPEC.md for delivery.'}
+    @{name='CATCH-UP';text='Follow your startup instructions and recover current work, existing approvals, and unresolved conditions. Bring your files and folders current with new data within your approved workstreams. Drain your inbox under your normal owner protocol. Work owed and incomplete items that are already authorized and currently in scope. Preserve existing approval conditions; return new directions or unclear authority to Will. Close out under your normal protocol and report the results, remaining work, and next stopping point. Follow PROME/COMPLETION_SPEC.md for delivery.'},
+    @{name='ORACLE daily read';text='ORACLE daily read: boot, run `python3 tools/routine_check.py` and report any NOT READ day, take today''s business-day read (Polymarket and Kalshi `pull --log`, spread tool) unless the scheduled routine already logged one, grade the logged rows on `workbook/V5_NOV110_READS.tsv` against VX-ORC-04 and VX-ORC-12, packet PROME on any state change, then close out.'}
 )
 function Validate-LocalRecords($document,$kind) {
     if ($document.version -ne 1 -or $document.$kind -isnot [Array]) {throw ('Unsupported '+$kind+' file format. The original file was kept.')}
@@ -1696,6 +1697,29 @@ if ($SmokeTest) {
             if (-not $failed -or $data.captured_at -ne $beforeStamp) {throw 'Incomplete refresh replaced good evidence'}
             $data.agents=$originalRows; $data.captured_at=$oldStamp
             $ageSource.SelectedIndex=0; $categories.SelectedIndex=0; Filter-Agents
+            Test-Step 'ORACLE daily read preset'
+            Focus-Agent 'ORACLE'; $task.Text='Keep the prepared ORACLE task'
+            $oracleRuntime=$script:settings['ORACLE'].runtime
+            $carlBefore=$script:settings['CARL'] | ConvertTo-Json -Compress
+            $oracleMembers=@($script:checked.Keys | Sort-Object) -join '|'
+            $oracleHistory=[IO.File]::ReadAllText($script:historyPath)
+            $preset.SelectedItem='ORACLE daily read'
+            if ($task.Text -ne 'Keep the prepared ORACLE task') {throw 'Choosing ORACLE preset changed instructions before Apply'}
+            $oracleConfirm=$script:confirmChange
+            $script:confirmChange={param($message,$title) return $false}
+            $usePreset.PerformClick()
+            if ($task.Text -ne 'Keep the prepared ORACLE task') {throw 'Cancelled ORACLE preset replaced instructions'}
+            $script:confirmChange={param($message,$title) return $true}
+            $usePreset.PerformClick()
+            $script:confirmChange=$oracleConfirm
+            $expectedOracle='ORACLE daily read: boot, run `python3 tools/routine_check.py` and report any NOT READ day, take today''s business-day read (Polymarket and Kalshi `pull --log`, spread tool) unless the scheduled routine already logged one, grade the logged rows on `workbook/V5_NOV110_READS.tsv` against VX-ORC-04 and VX-ORC-12, packet PROME on any state change, then close out.'
+            if ($task.Text -cne $expectedOracle -or $script:settings['ORACLE'].task -cne $expectedOracle) {throw 'ORACLE preset lost supplied wording'}
+            $oracleRequest=Request-For $script:selected 'new'
+            if ($oracleRequest.name -ne 'ORACLE' -or $oracleRequest.task -cne $expectedOracle -or $oracleRequest.runtime -ne $oracleRuntime) {throw 'ORACLE preview task or runtime changed'}
+            if (($script:settings['CARL'] | ConvertTo-Json -Compress) -cne $carlBefore -or (@($script:checked.Keys | Sort-Object) -join '|') -cne $oracleMembers) {throw 'Individual ORACLE preset changed another agent or membership'}
+            if ($script:busy -or $script:process -or $script:queue.Count -ne 0 -or [IO.File]::ReadAllText($script:historyPath) -cne $oracleHistory) {throw 'ORACLE preset started work or recorded a launch'}
+            $task.AppendText(' Editable follow-up.')
+            if ($script:settings['ORACLE'].task -cne ($expectedOracle+' Editable follow-up.')) {throw 'ORACLE preset is not editable'}
             Test-Step 'Page bounds and resize'
             # Activity has its own page; errors reveal it without growing the window.
             $tabs.SelectedTab=$pages.Agents; $height=$form.ClientSize.Height
@@ -1743,7 +1767,7 @@ if ($SmokeTest) {
                 $form.DrawToBitmap($bitmap,(New-Object Drawing.Rectangle(0,0,$form.Width,$form.Height)))
                 $bitmap.Save((Join-Path $data.directory ($page.Name+'.png'))); $bitmap.Dispose()
             }
-            @{ok=$true;checks='Explicit Opus/Fable/Astra/Sol selection and legacy group migration, age thresholds/unknown/future timestamps, retained last launch beyond 100 attempts, failed-launch exclusion, invalid summary refusal, Categories, retained selection, per-agent runtime/task, hidden preview, CATO, resume, empty search, clear, stop remaining, saved groups, atomic persistence, concurrent/corrupt-file refusal, task presets, group rename/collision, global search/category restore, selected-name navigation and separate removal, tab state/busy queue preservation, custom preset persistence/corruption/concurrency/confirmation, bounded history merging/corruption, Activity errors, page bounds and resize'} | ConvertTo-Json | Set-Content -Encoding UTF8 (Join-Path $data.directory 'smoke.json')
+            @{ok=$true;checks='Explicit Opus/Fable/Astra/Sol selection and legacy group migration, age thresholds/unknown/future timestamps, retained last launch beyond 100 attempts, failed-launch exclusion, invalid summary refusal, Categories, retained selection, per-agent runtime/task, hidden preview, CATO, resume, empty search, clear, stop remaining, saved groups, atomic persistence, concurrent/corrupt-file refusal, task presets including exact ORACLE daily-read text/edit/cancel/no-launch, group rename/collision, global search/category restore, selected-name navigation and separate removal, tab state/busy queue preservation, custom preset persistence/corruption/concurrency/confirmation, bounded history merging/corruption, Activity errors, page bounds and resize'} | ConvertTo-Json | Set-Content -Encoding UTF8 (Join-Path $data.directory 'smoke.json')
         } catch {
             $bitmap=New-Object Drawing.Bitmap($form.Width,$form.Height)
             $form.DrawToBitmap($bitmap,(New-Object Drawing.Rectangle(0,0,$form.Width,$form.Height)))
