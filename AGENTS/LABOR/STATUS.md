@@ -1,5 +1,5 @@
 # LABOR STATUS
-**Last Updated:** 2026-10-22 *(PROME-spawned, session 84affa50, WQ-479 A / WQ-184 Tier-1 due-row wake DOCKET L719)* · ✅ **Claims w/e Oct 17 graded off the frozen card + §8a: 194,000, band B, nothing fired** — MA 197,750 (−1,000, arithmetic; lowest since w/e 2022-10-01 on FRED IC4WSA) · w/e Oct 10 revised 199,000 → 200,000, which **cut the v13 `<200,000` run to 1** (record-only) · CC 1,728,000 (run 6, record-only) · R13-c `197,750 / 198,250 = 0.9975 < 1.15` no action. **10/29 card frozen** (0 defects). Score **26/75 unchanged**. *Prior:* 2026-10-21 — C2 decisions batch (R13-c adopted; v7 none; openings no band; v11 not widened). Superseded surfaces → DETAIL § `status-rotated-20261022`.
+**Last Updated:** 2026-10-28 *(Will-launched catch-up boot after a dark week)* · ✅ **Late grade: September ISM employment — Mfg 52.7 + Services 50.1, both >50 the same month ⇒ v3 2 → 1 (letter on the 9/3 card; KB-LAB-223); score 26 → 25/75.** Neither Sep print was ever docketed (BD-23 class) — Oct prints now are, as NOCARD rows (v3 at floor, no return letter). 17 inbox items dispositioned (`board_log.tsv`); no threshold fired; spine FRESH. *Prior:* 2026-10-22 *(PROME-spawned, session 84affa50, WQ-479 A / WQ-184 Tier-1 due-row wake DOCKET L719)* · ✅ **Claims w/e Oct 17 graded off the frozen card + §8a: 194,000, band B, nothing fired** — MA 197,750 (−1,000, arithmetic; lowest since w/e 2022-10-01 on FRED IC4WSA) · w/e Oct 10 revised 199,000 → 200,000, which **cut the v13 `<200,000` run to 1** (record-only) · CC 1,728,000 (run 6, record-only) · R13-c `197,750 / 198,250 = 0.9975 < 1.15` no action. **10/29 card frozen** (0 defects). Score **26/75 unchanged**. *Prior:* 2026-10-21 — C2 decisions batch (R13-c adopted; v7 none; openings no band; v11 not widened). Superseded surfaces → DETAIL § `status-rotated-20261022`.
 **Status:** 🟠 **LOW-FIRE / LOW-HIRE — the flow side turned (JOLTS NET >0 two months).** Claims 194K / MA 197,750 · CC 1,728K (v13 1, v7 2; runs 1 and 6, record-only) · JOLTS hires 5,192K / 3.3% · layoffs rate 1.0% · NFP Sep **+29K** (Jul rev −10K, Aug rev +133K) · U-3 4.2% on LFPR 61.8% · EPOP 59.2%. **Bull-side kill (freeze-thaw v2) did NOT fire 10/2** (needed ≥+177K on the revised bar); LEG A is the open leg again — next draw Nov 6.
 
 > 🔒 **HOT/COLD SPLIT** (2026-09-02): this file is **canonical for every live figure, band, score and open grade**; `STATUS_DETAIL.md` is the cold half — **on demand, NOT a boot read**. 🔒 **TRIMMED 2026-09-29 from 31,125 B:** the pre-trim file is preserved **byte-for-byte** at `STATUS_DETAIL.md` § `status-pretrim-20260929` (blob `d7a0f26`) — every shortened row is there word-for-word; no live figure was dropped. Older rotations: § `hotcold-split-inventory`.
@@ -15,7 +15,7 @@
 |---|--------|-------|---|------------------------|
 | 1 | WARN pipeline | **3** 🟠 | ↓5 | ⚠️ **T-07 unmeasurable since 9/29** (no monthly source; BD-36). Newest cohort: **Oracle Sep round — CA 441 `[CONF EDD]` + WA 359 `[2ND]`, effective 11/13** (claims w/e Nov 14; `800 / 197,000 = 0.4%` of a week — state-level only, L-08). Drop to 2 if claims MA stays <225K (framework lag failed on the cohort) |
 | 2 | Sector cuts | **1** ⚪ | flat | Challenger **Sep 43,281** (Aug 52,881; both <80K) — counter 0 of 2. Re-spike >80K/mo ×2 → restore 4 |
-| 3 | ISM/survey employment | **2** 🟡 | flat | Graded 9/3: Svs Emp **47.8** (2nd mo <50) vs Mfg **51.2** — split. Drop to 1 needs BOTH >50 same month |
+| 3 | ISM/survey employment | **1** ⚪ | ↓1 | ✅ **Graded LATE 10/28 (Sep prints, early Oct): Mfg Emp 52.7 ∧ Svs Emp 50.1 — both >50 same month ⇒ 2 → 1** (9/3 card letter; KB-LAB-223). Svs margin 0.1pt. **No return letter registered** — decide at a self-directed C2 before reading a sub-50 print as signal. Oct prints 11/2 + 11/4 record-only |
 | 4 | JOLTS hire-rate freeze | **2** 🟡 | ↓1 | ✅ **Graded 9/29 on the 9/1 band: Aug NET +122K ⇒ 3 → 2.** Hires rate 3.3% · layoffs 1.0% · quits 1.9%. → 3 on NET ≤0 in a month; → 4 on NET ≤0 ×2 AND hires rate ≤3.2%. Hires >5.5M ×2 → thawed (`5,500 − 5,192 = 308K` away) |
 | 5 | AI displacement | **4** 🔴 | flat | ✅ **Graded 10/1:** Challenger Sep AI **#5, `3,961 / 43,281 = 9.15%`** (Aug 6.5%; #1 YTD 120,136 ≈ 21%). Share leg **2 of 2 MET**; tech leg **FAILS: `165,925 / 107,878 − 1 = +53.8%`** ⇒ conjunction blocks the demote ⇒ **holds at 4.** Demote still needs share <20% ×2 AND tech YTD <+20% in the same read |
 | 6 | Long-term unemployed | **3** 🟠 | flat | Graded 10/2: LT share **27.1%** (1.94M) — over the >27% bar, but the restore's 2nd leg (YoY turning positive **in BLS's own text**) is absent: text says only "essentially unchanged" ⇒ holds 3. Drop to 2 needs <24% ×2 |
@@ -29,7 +29,7 @@
 | 15 | Hormuz hiring freeze | **1** ⚪ | flat | Re-arms only on BRENT demand-destruction Path B |
 | 16 | Temp employment | **1** ⚪ | flat | −6% YoY revives a LAB-01-class call (nowhere near) |
 
-**Total 26/75** (`26/75 = 34.7%`) · 🔴 1 (v5) · 🟠 2 (v1, v6) · 🟡 4 (v3, v4, v7, v8) · ⚪ 8 (v2, v10, v11, v12, v13, v14, v15, v16). v9 merged into v6.
+**Total 25/75** (`25/75 = 33.3%`) · 🔴 1 (v5) · 🟠 2 (v1, v6) · 🟡 3 (v4, v7, v8) · ⚪ 9 (v2, v3, v10, v11, v12, v13, v14, v15, v16). v9 merged into v6.
 
 ---
 
@@ -78,7 +78,7 @@
 
 ---
 
-## EXIT RULES · vintage sweep (C1) run 2026-10-22: 4/4 rails re-read — claims vintage rolled to DOL 10/22 (Kill B + break-confirm re-stamped); Kill A + v2 legs A/B/C stand on the 10/2 CES/CPS + 9/29 JOLTS vintages (no print since)
+## EXIT RULES · vintage sweep (C1) run 2026-10-28: 4/4 rails re-read, no input vintage rolled since 10/22 (no claims/CES/CPS/JOLTS print in the window), nothing re-stamped · prior sweep 2026-10-22: 4/4 rails re-read — claims vintage rolled to DOL 10/22 (Kill B + break-confirm re-stamped); Kill A + v2 legs A/B/C stand on the 10/2 CES/CPS + 9/29 JOLTS vintages (no print since)
 
 - **Kill A:** NFP ≥+200K ×3, revised. 10/2 vintage Jul −10 / Aug +133 / Sep +29 ⇒ 0 of 3. Dormant.
 - **Kill B:** claims ≤185K ×5 clean sessions. 0 of 5 (10/22: 194,000, `9,000` above).
@@ -101,13 +101,15 @@
 | 🔒 Thu 10/15 | Claims w/e Oct 10 199,000 (band B) · KS WARN check SEARCH-NOT-FOUND | rows verbatim → DETAIL § `status-rotated-20261021` |
 | ✅ **Wed 10/21** | C2 batch (DOCKET L720): v13 return letter R13-c · v7 none · openings no band · v11 not widened · FL UR Sep 4.4% | KB-LAB-218/219/220 · 10/22 card amended §8a |
 | ✅ **Thu 10/22** | Claims w/e Oct 17 **194,000** band B · MA 197,750 · CC 1,728,000 · R13-c 0.9975 no action — nothing fired | Card → `docket/graded/GRADING_CARD_20261022_claims.md` §9 · KB-LAB-221/222 |
+| ✅ **Wed 10/28** | Catch-up boot: Sep ISM employment graded late (52.7 / 50.1 ⇒ v3 2 → 1) · 17 inbox items logged (white-collar exit offers AmEx/Microsoft/Skydance — offers and eligibility, not exits; KB-LAB-224) | `board_log.tsv` · KB-LAB-223/224 |
 | 🔴 **Thu 10/29 08:30** | Claims w/e Oct 24 + CC w/e Oct 17 | Card `docket/GRADING_CARD_20261029_claims.md` (frozen 10/22, 0 defects). `(X − 199,000)/4`; T-01 bound `X > 408,000`; band C ⇒ v13 1 → 3; R13-c (§5d) ⇒ v13 1 → 2 at `X ≥ 318,000` on this vintage; v13/v7 runs record-only |
-| 📅 Oct 30 · **Tue Nov 3** · Nov 5 · **Nov 6** · Nov 9 · Dec 11 | **ECI Q3** (card ~Oct 23) · JOLTS Sep (10:00, **confirmed** at the BLS November calendar 10/15; card by 10/27) · Challenger Oct · **NFP Oct (LEG A draw 2 · LAB-18/19 draw 2 · §3g Aug 3rd estimate)** · Canada re-check #2 · **CR expiry — a lapse halts BLS and weekly claims** | CATALYSTS rows carry the letters |
+| 📅 Oct 30 · ~Nov 2 · **Tue Nov 3** · ~Nov 4 · Nov 5 · **Nov 6** · Nov 9 · Dec 11 | **ECI Q3** (card frozen) · ISM Mfg Oct (record-only) · JOLTS Sep (10:00, **confirmed** at the BLS November calendar 10/15; card by 10/27) · ISM Svs Oct (record-only) · Challenger Oct · **NFP Oct (LEG A draw 2 · LAB-18/19 draw 2 · §3g Aug 3rd estimate)** · Canada re-check #2 · **CR expiry — a lapse halts BLS and weekly claims** | CATALYSTS rows carry the letters |
 
 ---
 
 ## NEXT SESSION PICKUP · *prior slates → DETAIL § `status-rotated-20260924`, § `status-pretrim-20260929`*
 
+0a. 🆕 **2026-10-28:** decide whether v3 gets a return letter (both ISM employment <50 same month? base-rate it first, L-15) at a self-directed C2 — until then Oct ISM prints are record-only. 3M Fairmont MN WARN (~62, eff. Dec 18–31; ISHM 10/26) not yet in `docket/WARN_COHORT.tsv` — read the DEED notice first.
 0. ⏰ **ARMED FOR NEXT WAKE (2026-10-21 closeout):** ① **Thu 10/29 claims grade** off `docket/GRADING_CARD_20261029_claims.md` (R13-c is its §5d) + build the 11/5 card the same session. *(10/22 graded: band B, nothing fired.)* ② **Cards FROZEN 10/21 (0 defects):** `docket/GRADING_CARD_20261030_ECI.md` · `_20261103_JOLTS.md` · `_20261105_Challenger.md` · `_20261106_NFP.md` — grade each off its card; on 11/3 write the LEG C result into the NFP card §2.4. ③ **Repair the T-06 row in KEY THRESHOLDS:** it prints `U-3 ≥4.3%` and omits the EPOP OR-leg; the live letter (TRADE.md §1) on the Sep base = U-3 ≥4.4 OR EPOP ≤58.6 (the NFP card uses it). ④ Self-sweep items → `reports/2026-10-21_self-sweep.md`. ⑤ C2-0: LAB-19 enters the stale sweep only if unmoved to ≥2026-11-03. ⑥ BD-37 after the 11/6 `alfred_vintages.py --write`.
 1. ✅ **DONE 10/21 — pickups 2, 8, 9 and 2a** (decisions in the matrix v7/v11/v13 rows and the openings row; basis `domain/sources/2026-10-21_C2_BASE_RATES_PREREG.md`). Old pickup text → DETAIL § `status-rotated-20261021`.
 3. 📅 **Canada re-check #2 Nov 9** (routes in its CATALYSTS row; MN DEED captcha-blocked 10/15). Record `domain/sources/2026-10-08_CANADA_COUNTERTARIFF_RECHECK1.md`.
@@ -124,6 +126,8 @@
 
 ## BOTTOM LINE
 
-**2026-10-22 — New jobless claims fell to 194,000 (week to Oct 17; DOL 10/22), and nothing on my dials moved.** The 4-week average dipped 1,000 to 197,750 — pure arithmetic (a 194,000 week replaced a 198,000 one), but it is the lowest average since early October 2022 on the St. Louis Fed's FRED database (current vintage). People still collecting benefits rose 25,000 to 1,728,000 (week to Oct 10) — more than the seasonal pattern expected, still 22,000 under the line I watch, and no rule reads it. Last week was revised up to exactly 200,000, which ended the "under 200,000" run; that run moves no score. Score **26/75**.
+**2026-10-28 catch-up — no new jobs data landed while the desk was dark (Oct 22–28), but I found one reading I had missed in early October.** In September both of the big purchasing-manager surveys (ISM) showed factories and service firms adding staff on balance — manufacturing 52.7, services 50.1, where 50 is the line between hiring and cutting. My pre-written rule says that when both clear 50 in the same month, the survey warning drops a notch, so it did: score **26 → 25/75**. The services reading cleared the line by only 0.1, so this is a weak all-clear, not a strong one. The week's news was white-collar exit programs (AmEx, Microsoft, Skydance) — offers and eligibility, not people actually gone yet, and too small to show in national claims; October's Challenger report (11/5) is where they would register.
+
+**2026-10-22 — New jobless claims fell to 194,000 (week to Oct 17; DOL 10/22), and nothing on my dials moved.** The 4-week average dipped 1,000 to 197,750 — pure arithmetic (a 194,000 week replaced a 198,000 one), but it is the lowest average since early October 2022 on the St. Louis Fed's FRED database (current vintage). People still collecting benefits rose 25,000 to 1,728,000 (week to Oct 10) — more than the seasonal pattern expected, still 22,000 under the line I watch, and no rule reads it. Last week was revised up to exactly 200,000, which ended the "under 200,000" run; that run moves no score. Score then **26/75**.
 
 Florida's new claims are below a year earlier in every week since at least mid-July (13 of 13 checked; week to Oct 10: 6,014 vs 6,340, ETA 539). **Next — Thu 10/29 claims (card frozen) · Fri 10/30 ECI Q3 (card frozen) · Tue 11/3 JOLTS Sep · Fri 11/6 NFP (LEG A draw 2).**
