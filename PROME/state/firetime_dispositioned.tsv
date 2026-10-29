@@ -15,8 +15,6 @@ AGENTS/DAEDALUS/runs/2026-09-25_INBOX_DISPOSITIONS.md	DATE DRIFT	artifact says 2
 AGENTS/REGINALD/reports/2026-09-27_nano-banc-failure-forensics.md	DATE DRIFT	artifact says 2026-12-24 ('12/24')	2026-10-28	PROME/reports/2026-10-28_firetime-night-boot3-flags-disposition.md
 AGENTS/REGINALD/reports/2026-09-27_nano-banc-failure-forensics.md	DATE DRIFT	artifact says 2026-12-25 ('12/25')	2026-10-28	PROME/reports/2026-10-28_firetime-night-boot3-flags-disposition.md
 AGENTS/CREED/analysis/2026-09-27_nano-banc-collateral-read.md	DEAD POINTER	`reports/2026-09-26_CRE_top3_dossiers/dossier_EGBN.md`	2026-10-28	PROME/reports/2026-10-28_firetime-night-boot3-flags-disposition.md
-AGENTS/DEWEY/output/2026-09-27_nano-banc-primary-documents.md	DEAD POINTER	`reports/2026-09-27_nano-banc-failure-forensics.md`	2026-10-28	PROME/reports/2026-10-28_firetime-night-boot3-flags-disposition.md
-AGENTS/DEWEY/output/2026-09-27_nano-banc-primary-documents.md	DEAD POINTER	`research/2026-09-27_nano-banc-receivership-stupin-recovery.md`	2026-10-28	PROME/reports/2026-10-28_firetime-night-boot3-flags-disposition.md
 AGENTS/DEWEY/output/2026-09-27_nano-banc-primary-documents.md	DATE DRIFT	artifact says 2027-01-18 ('1/18')	2026-10-28	PROME/reports/2026-10-28_firetime-night-boot3-flags-disposition.md
 AGENTS/DEWEY/output/2026-09-27_nano-banc-primary-documents.md	DATE DRIFT	artifact says 2027-01-01 ('01/01')	2026-10-28	PROME/reports/2026-10-28_firetime-night-boot3-flags-disposition.md
 AGENTS/DEWEY/output/2026-09-27_nano-banc-primary-documents.md	DATE DRIFT	artifact says 2027-01-13 ('1/13')	2026-10-28	PROME/reports/2026-10-28_firetime-night-boot3-flags-disposition.md
@@ -40,7 +38,6 @@ AGENTS/DEWEY/output/2026-10-22_reserve-coverage-decline-base-rate.md	DATE DRIFT	
 AGENTS/DEWEY/output/2026-10-22_reserve-coverage-decline-base-rate.md	DATE DRIFT	artifact says 2027-01-23 ('1/23')	2026-10-25	PROME/reports/2026-10-25_firetime-boot-flags-disposition.md
 AGENTS/DEWEY/output/2026-10-22_reserve-coverage-decline-base-rate.md	DATE DRIFT	artifact says 2027-01-03 ('Jan 3')	2026-10-23	PROME/reports/2026-10-22_firetime-boot-flags-disposition.md
 PROME/proposals/2026-10-23_wq513-516-RULED.md	DATE DRIFT	artifact says 2027-01-15 ('Jan-15')	2026-10-23	PROME/reports/2026-10-23_firetime-late-boot-flags-disposition.md
-AGENTS/DEWEY/output/2026-10-23_dewey-research-history-meta-review.md	DEAD POINTER	`research/2026-10-26_WQ515/transfers.tsv`	2026-10-28	PROME/reports/2026-10-28_firetime-night-boot3-flags-disposition.md
 PROME/tools/tests/ACCEPTANCE_closeout_gate_perimeter_pin_2026-10-24.md	DEAD POINTER	`AGENTS/BROCK/new.md`	2026-10-25	PROME/reports/2026-10-25_firetime-boot-flags-disposition.md
 PROME/tools/tests/ACCEPTANCE_closeout_gate_perimeter_pin_2026-10-24.md	DEAD POINTER	`AGENTS/ZED`	2026-10-25	PROME/reports/2026-10-25_firetime-boot-flags-disposition.md
 PROME/tools/tests/ACCEPTANCE_closeout_gate_perimeter_pin_2026-10-24.md	DEAD POINTER	`FORGE/x.md`	2026-10-25	PROME/reports/2026-10-25_firetime-boot-flags-disposition.md
