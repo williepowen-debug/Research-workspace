@@ -94,11 +94,14 @@ Same-load rate of hours ≥$200: 90–100 GW 4.3% vs 0.7%; 100–110 GW 5.1% vs 
 
 **Outages, same-day forecasts, Sep 1–Oct 28** [KB-WATT-187]:
 
-| | 2024 | 2025 | 2026 |
+| October 1–28 mean, GW (total = planned + maintenance + forced exactly) | 2024 | 2025 | 2026 |
 |---|---:|---:|---:|
-| October mean total | 65.7 GW | 64.7 | 67.3 |
-| Planned mean | 32.4 | 30.4 | 30.7 |
-| Forced mean | 7.4 | 9.0 | 11.1 |
+| Total | 65.7 | 64.7 | 67.3 |
+| Planned | 50.3 | 47.8 | 47.0 |
+| Maintenance | 8.4 | 7.6 | 8.7 |
+| Forced | 7.0 | 9.4 | 11.6 |
+
+*Corrected 14:0x ET (KB-WATT-189, caught by WALTER): the first version of this table paired October totals with full Sep 1–Oct 28 component means (planned 32.4/30.4/30.7, forced 7.4/9.0/11.1), so the parts appeared not to sum.*
 
 **Correction of frame:** the autumn maintenance stack is normal and the same every year. "Outage-driven" names the trigger, not the worsening. The 2026 difference is higher demand (+6.1 GW mean) plus more unplanned breakdowns (+2.1 GW vs 2025): about 8 GW less average headroom, before any fleet-size change (not measured).
 
