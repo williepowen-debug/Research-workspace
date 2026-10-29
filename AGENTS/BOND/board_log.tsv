@@ -81,3 +81,17 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-20T12:05:02.103371-04:00	SIG-W-20261019-003	info-only	INBOX_WALTER	KB490;325/323/331>320sequence reproduced;owner consequences,not sizing/fundingseizure.
 2026-10-20T12:05:02.103371-04:00	SIG-W-20261019-010	acted	INBOX_WALTER	KB489/476;corporate netstock down/UST up sameweek;selectiveadjustment,notgrossforcedsales/refusedcapacity.
 2026-10-20T12:05:02.103371-04:00	SIG-W-20261019-014	acted	INBOX_WALTER	KB488;MondayFrancefollowthrough,latestsecondaryscreenclockqualified;no USfundingtransmission or fresh ownerfiregrade.
+2026-10-29T07:43:09-04:00	SIG-W-20261020-020	noted	INBOX_WALTER	Gold-export/TIC framing correction; Aug TIC bond-note +90.9B private/+18.1B official, bills -47.8B; ZHAO owns TIC; no BOND row.
+2026-10-29T07:43:09-04:00	SIG-W-20261020-028	noted	INBOX_WALTER	Mortgage-spread chart non-synchronous; BOND measures PMMS-Treasury same-date (KB-BND-512, 236bp 10/22); not MBS OAS.
+2026-10-29T07:43:09-04:00	SIG-W-20261021-002	acted	INBOX_WALTER	CORRECTION COR-20261021-02 receipted APPLIED; Fukoku plan/MOF 20Y 5.844x/insurer flows logged KB-BND-514; retired channel not revived.
+2026-10-29T07:43:09-04:00	SIG-W-20261021-025	noted	INBOX_WALTER	Superseded by SIG-W-20261022-014 before BOND read it; no row.
+2026-10-29T07:43:09-04:00	SIG-W-20261021-029	noted	INBOX_WALTER	Margin debt/Treasury call activity/CCC yield relayed unverified; BOND CCC OAS from FRED primary instead (KB-BND-510).
+2026-10-29T07:43:09-04:00	SIG-W-20261022-014	acted	INBOX_WALTER	CORRECTION COR-20261022-14 receipted NO-OP: BOND never logged the GENIUS rewards framing.
+2026-10-29T07:43:09-04:00	SIG-W-20261022-031	acted	INBOX_WALTER	France 10Y above US 10Y (vendor/Reuters, not an OAT close) logged as context KB-BND-513; HANS owns spread grade.
+2026-10-29T07:43:09-04:00	SIG-W-20261023-011	acted	INBOX_WALTER	France Oct flash composite PMI 48.4 logged as context KB-BND-513.
+2026-10-29T07:43:09-04:00	SIG-W-20261023-014	noted	INBOX_WALTER	Michigan 1y 4.7%/LR 3.5% expectations; survey not T5YIFR (2.27 [10/28], KB-BND-508).
+2026-10-29T07:43:09-04:00	SIG-W-20261023-026	noted	INBOX_WALTER	Treasury call-over-put skew ~50bp relayed (Kobeissi, unreproduced); options halt; no BOND level adopted.
+2026-10-29T07:43:09-04:00	SIG-W-20261025-017	noted	INBOX_WALTER	Unverified 7bp intraday French spread narrowing; no level adopted.
+2026-10-29T07:43:09-04:00	SIG-W-20261025-028	acted	INBOX_WALTER	Moody's France Aa3/negative affirmed 10/23 (govt primary) logged KB-BND-513.
+2026-10-29T07:43:09-04:00	SIG-W-20261026-004	noted	INBOX_WALTER	Brazil circuit breaker/CDS 151.67bp/auctions cancelled; no US funding contagion measured (SOFR-IORB move is month-end-timed, LIQUID owns).
+2026-10-29T07:43:09-04:00	SIG-W-20261029-001	acted	INBOX_WALTER	FOMC 10/28 hold 10-2 hawkish dissents confirmed at Fed primary by BOND independently (KB-BND-507).

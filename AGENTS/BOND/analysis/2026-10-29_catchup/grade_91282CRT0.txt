@@ -1,0 +1,43 @@
+run 2026-10-29 00:20:41 EDT
+[grade] corpus: 45 FRN row(s) EXCLUDED from the 2Y pool (floating-rate notes are not nominal 2Y)
+[grade] ⚠️ TA_WS returned 250 rows = AT CAP. Its date filter is inoperative; this feed is used for RECENT PRINTS ONLY, never for benchmarks.
+[grade] corpus: 360 rows through 2026-09-24 | +7 newer print(s) overlaid from TA_WS
+==============================================================================
+GRADE — 2026-10-27  5-Year  91282CRT0  $70B  tips=False  reopening=False
+  BTC 2.33 | indirect 60.05% | direct 29.40% | dealer 10.56% | high yield 4.845
+  (percentages are of COMPETITIVE ACCEPTED = $69.262B)
+
+  ROLLING BENCHMARK AUDIT — 5-Year (displayed 2dp)
+    method : trailing-12 SAME-TENOR SAME-TIPS auctions, strictly prior,
+             % of COMPETITIVE ACCEPTED (PD+direct+indirect)
+    window : 2025-10-27 -> 2026-09-23   n=12
+    RAW ROLLING AUDIT: {'ind_min': 54.31002986392078, 'dlr_max': 15.774663284142507, 'btc_min': 2.21, 'p15': 59.41755986431189, 'p15_reopen': None}
+    BTC        median    2.34 | mean    2.33 | min    2.21 | max    2.41
+    indirect%  median   61.56 | mean   63.05 | min   54.31 | max   74.85
+    dealer%    median   12.74 | mean   12.18 | min    8.84 | max   15.77
+
+    ⇒ COMPOSITION-FAILURE test : indirect < 54.31%  AND  dealer > 15.77%
+    ⇒ COVER-MARKER test        : BTC < 2.21 with composition intact
+    ⇒ I' (MATRIX_V2, 8/27)     : indirect < 59.42%  [P15 linear over the same window, STRICT]
+
+  LEG MARGINS vs ROLLING AUDIT (v1.1.4(e)):
+    BTC           2.33   vs median   -0.01   vs mean   -0.00
+    indirect%    60.05   vs median   -1.51   vs mean   -3.00
+    dealer%      10.56   vs median   -2.19   vs mean   -1.62
+  AUDIT ONLY — rounded rolling bars; no registered frozen snapshot supplied.
+  Do not use this audit to set gates or replace the snapshot in force.
+
+  AUDIT COMPARISONS — NOT A REGISTERED GRADE
+    indirect below trailing-12 MIN ? NO  (60.05 vs 54.31, margin +5.74pp)
+    dealer  above trailing-12 MAX ? NO  (10.56 vs 15.77, margin -5.21pp)
+    BTC     below trailing-12 MIN ? NO  (2.33 vs 2.21, margin +0.12)
+    I' indirect below P15 (MATRIX_V2) ? NO  (60.05 vs 59.42, margin +0.63pp)
+       ⚠️ I' is the 🟠 MARKER; a bare I' fire is NOT a thesis kill (WQ-157 leg ①: standalone through
+          2026-09-10, PAIRED with a non-auction mechanism confirmation thereafter).
+
+  NO GATE VERDICT — supply --frozen-bars for the registered grade.
+
+  ⛔ NO TAIL IS COMPUTED OR REPORTED. TreasuryDirect publishes no when-issued yield;
+     a tail is unscoreable from primaries and may never fire a gate (retired 2026-07-28).
+==============================================================================
+RC=0

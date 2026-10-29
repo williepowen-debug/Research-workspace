@@ -101,6 +101,9 @@ import sys
 import urllib.request
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from ta_ws_schema import normalize  # noqa: E402
+
 TD_UPCOMING = "https://www.treasurydirect.gov/TA_WS/securities/upcoming?format=json"
 UA = {"User-Agent": "BOND-research/1.0 (williepowen@gmail.com)"}
 HERE = Path(__file__).resolve().parent
@@ -152,6 +155,15 @@ def fetch_upcoming() -> list[dict]:
             "TreasuryDirect returned 200 with an empty/!list payload. "
             "Treating as a fetch failure -- an empty result here would read as "
             "'nothing scheduled' and silently reproduce the 8/18 blind spot."
+        )
+    data = normalize(data)   # 2026-10 TA_WS field rename — monitors/ta_ws_schema.py
+    if feed_horizon(data) is None:
+        # Rows arrived but NONE carries a parsable date: a schema failure, not a
+        # short horizon. 2026-10-29 this read as "feed sees through NOTHING", rc=0,
+        # over an empty coupon set while the 10/29 7Y sat in the payload.
+        raise RuntimeError(
+            f"TreasuryDirect returned {len(data)} row(s) and none has a parsable "
+            "auctionDate -- schema change, not an empty calendar. Fix ta_ws_schema.py."
         )
     return data
 

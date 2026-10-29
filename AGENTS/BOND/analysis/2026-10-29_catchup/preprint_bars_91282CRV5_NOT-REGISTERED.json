@@ -1,0 +1,14 @@
+{
+  "cusip": "91282CRV5",
+  "auction_date": "2026-10-29",
+  "term": "7-Year",
+  "tips": false,
+  "frozen_on": "2026-10-29",
+  "source": "AGENTS/BOND/analysis/2026-10-29_catchup/grade_91282CRV5.txt (pre-print bars, captured 2026-10-29 00:20:41 ET per transcript line 1, before the 13:00 ET close); LATE vs the registered 10/22-announcement freeze — no session ran 10/21-10/28",
+  "n": 12,
+  "ind_min": 56.65,
+  "dlr_max": 13.14,
+  "btc_min": 2.42,
+  "p15": 57.43,
+  "p15_reopen": null
+}

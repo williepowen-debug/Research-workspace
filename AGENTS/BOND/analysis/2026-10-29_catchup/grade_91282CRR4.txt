@@ -1,0 +1,42 @@
+run 2026-10-29 00:20:35 EDT
+[grade] corpus: 45 FRN row(s) EXCLUDED from the 2Y pool (floating-rate notes are not nominal 2Y)
+[grade] ⚠️ TA_WS returned 250 rows = AT CAP. Its date filter is inoperative; this feed is used for RECENT PRINTS ONLY, never for benchmarks.
+[grade] corpus: 360 rows through 2026-09-24 | +7 newer print(s) overlaid from TA_WS
+==============================================================================
+GRADE — 2026-10-22  5-Year  91282CRR4  $26B  tips=True  reopening=False
+  BTC 2.41 | indirect 62.04% | direct 32.44% | dealer 5.53% | high yield 2.367
+  (percentages are of COMPETITIVE ACCEPTED = $25.677B)
+  ⚠️ TIPS — benchmarked only against prior TIPS of the same tenor.
+
+  ROLLING BENCHMARK AUDIT — 5-Year TIPS (displayed 2dp)
+    method : trailing-12 SAME-TENOR SAME-TIPS auctions, strictly prior,
+             % of COMPETITIVE ACCEPTED (PD+direct+indirect)
+    window : 2023-10-19 -> 2026-06-18   n=12
+    RAW ROLLING AUDIT: {'ind_min': 51.434667901752235, 'dlr_max': 25.416612997083114, 'btc_min': 2.1, 'p15': None, 'p15_reopen': None}
+    BTC        median    2.52 | mean    2.47 | min    2.10 | max    2.62
+    indirect%  median   72.93 | mean   69.94 | min   51.43 | max   79.14
+    dealer%    median    7.22 | mean    9.20 | min    2.33 | max   25.42
+
+    ⇒ COMPOSITION-FAILURE test : indirect < 51.43%  AND  dealer > 25.42%
+    ⇒ COVER-MARKER test        : BTC < 2.10 with composition intact
+    ⇒ I' (MATRIX_V2)           : NOT DEFINED FOR TIPS — registered spec excludes TIPS
+                                 (KB-BND-304; L410 decision 2026-10-01: tool brought to the spec).
+
+  LEG MARGINS vs ROLLING AUDIT (v1.1.4(e)):
+    BTC           2.41   vs median   -0.11   vs mean   -0.06
+    indirect%    62.04   vs median  -10.89   vs mean   -7.90
+    dealer%       5.53   vs median   -1.70   vs mean   -3.67
+  FROZEN BARS — /home/willi/Research-workspace/AGENTS/BOND/registry/auction_bars/2026-10-22_91282CRR4.json; frozen 2026-10-15; source: AGENTS/BOND/analysis/2026-10-15_post-PPI/bars_91282CRR4.txt; KB-BND-466; docket/CATALYSTS.tsv
+  Governing published 2dp bars: {'ind_min': 51.43, 'dlr_max': 25.42, 'btc_min': 2.1, 'p15': None, 'p15_reopen': None, 'n': 12}
+
+  VERDICT
+    indirect below trailing-12 MIN ? NO  (62.04 vs 51.43, margin +10.61pp)
+    dealer  above trailing-12 MAX ? NO  (5.53 vs 25.42, margin -19.89pp)
+    BTC     below trailing-12 MIN ? NO  (2.41 vs 2.10, margin +0.31)
+
+  🟢 CLEAN — no cover marker, no composition failure, both legs inside their bars.
+
+  ⛔ NO TAIL IS COMPUTED OR REPORTED. TreasuryDirect publishes no when-issued yield;
+     a tail is unscoreable from primaries and may never fire a gate (retired 2026-07-28).
+==============================================================================
+RC=0

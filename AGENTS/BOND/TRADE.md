@@ -1,25 +1,25 @@
 # BOND — Trade Recommendations
 
-**Last Updated:** 2026-10-20 catch-up — current evidence and already-recorded approvals reconciled. No new card, threshold or trade proposal.
+**Last Updated:** 2026-10-29 catch-up — evidence refreshed after a nine-day gap; no new card, threshold or trade proposal.
 **Regime:** 🟠 ELEVATED — `thesis/THESIS.md` **v1.2.11** (C-36 TWO-PART, ruled 9/1: policy-path channel alive · term premium drove the July delta) · STATUS carries the same. *(This line read "🟡 WATCH escalating · v1.2.3" until 9/29 — a stale header, not a disagreement.)*
 <!-- bond-state: thesis=v1.2.11; regime=C-36-TWO-PART@2026-09-01; gate_a=MET@2026-09-10; rearm=MET@2026-09-23; add=DECLINED@WQ-280; kill=MET-REC@2026-10-01; posture=APPROVED@WQ-357 -->
 
-**Approval reconciliation October20:** WQ357 SELL remainingTBT5 was RULED APPROVE October15 12:23ET (committed PROME/WILL_QUEUE record), superseding October3 LATER. FORGE October20 still displaysTBT5; no sale fill evidenced. Approval is not execution. TLT82P closedOctober12. WQ280 NO-ADD stands. WQ339 authorized drafting only; WQ360 old put card LAPSED UNAPPROVED October14. USER October20 permits NOT-FIRED ideas through TERRY/Will, not automatic entries; no expiry reminders.
-**Registered predictions:** OPEN1, BND32 (65% October28 2s30s non-steepening;5/6 base), full contract in thesis/PREDICTIONS.tsv. Older resolved tally not restated here.
+**Approval reconciliation October20:** WQ357 SELL remainingTBT5 was RULED APPROVE October15 12:23ET (committed PROME/WILL_QUEUE record), superseding October3 LATER. FORGE reconcile October 22 11:01 ET still shows TBT 5 held, no sell order. Approval is not execution. TLT82P closedOctober12. WQ280 NO-ADD stands. WQ339 authorized drafting only; WQ360 old put card LAPSED UNAPPROVED October14. USER October20 permits NOT-FIRED ideas through TERRY/Will, not automatic entries; no expiry reminders.
+**Registered predictions:** OPEN 0. BND-32 RESOLVED FALSE 10/29 (2s30s steepened +10bp on the 10/28 FOMC vs a 65% non-steepening call); ledger thesis/PREDICTIONS.tsv.
 
 ---
 
-## The view (October20; report is the dated evidence home)
+## The view (October 29; dated evidence home `analysis/2026-10-29_catchup/`)
 
 **Operational letter:** WQ291 kill recommendation remains MET; unusual net inventory is not auction-warehousing proof, funding window UNGRADED, no predictive claim. WQ357 approval is already recorded, with no fill inferred. Existing NO-ADD stands.
 
-**Rates:** October15 rally confirmed by Treasury; Monday partially reversed it through real yields. ACM accounting supports premium compression over October7–16, while expected-rate component rose. Neither decomposition identifies buyback causation. Current source frontiers and statistics → STATUS and `analysis/2026-10-20_catchup/REPORT.md`; this posture surface carries no market marks.
+**Rates:** Rally to 10/22 (10Y 4.96, 30Y 5.29), then the 10/28 hawkish-dissent hold bear-steepened the curve (2Y −3, 30Y +7). ACM 10/16–10/27 premium −15.0bp vs expected +3.5bp; neither decomposition identifies buyback causation.
 
-**Official demand:** Five recorded F2 buybacks OFF-THE-RUN. Completed October15 timing bracket supports a discount to both contemporaneous curves. Released dealer agenda asks about buyback effectiveness/structural demand, without a specific20Y suspension or adopted supply change. November4 remains F1/F3.
+**Official demand:** Six of six F2 buybacks OFF-THE-RUN (10/27 20–30Y: recent share 0.00%, cap filled). Registered 10/21 20Y-R and 10/22 TIPS clean; 10/26 2Y record bid substitution on audit-only grading. F1/F3 resolve at the 11/4 QRA.
 
-**Credit:** Weaker tiers continue deteriorating; current HY lead band remains unmet. ETF/cash co-movement is not synthetic lead. Lagged SIFMA aggregate cannot clear current HY access; pulled-deal census missing. X1 CLOSED/DONT-SIZE stays with its owners. No index trade newly proposed.
+**Credit:** HY 340 [10/22] then 318 [10/27]; CCC 1356 3-year-window high [10/23]. Lead-band letter met one session 10/22 and reverted. Pulled-deal census missing. X1 CLOSED/DONT-SIZE stays with its owners.
 
-**Holdings:** TBT5 shown in FORGE October20; TLT82P closedOctober12. Exact future order/fill status is not inferred from approval or marks. BOND executes nothing.
+**Holdings:** FORGE reconcile 10/22 11:01 ET shows TBT 5 held, no sell order (WQ357 approved 10/15). TLT82P closed 10/12. BOND executes nothing.
 
 ---
 
@@ -85,8 +85,7 @@
 
 ## Next Review — existing obligations only
 
-- October21 20Y grade on frozen October15 bars; use `--frozen-bars AGENTS/BOND/registry/auction_bars/2026-10-21_912810UX4.json` (Git-root-relative); missing snapshot means AUDIT ONLY. No outcome assumed.
-- October22 5Y TIPS (no I'), PMMS and expected next FR2004 publication; freeze month-end nominal bars at announcement.
-- BND32 registered October20; resolve October28 vsOctober27 on primary publication, ceilingNovember3. Calendar/source/vintage contract in ledger.
-- October27 F2; October28 FOMC/UKBudget/VX20 review; October29 ECB; November2 borrowing estimates; November4 QRA F1/F3.
+- 10/29 7Y `91282CRV5` grades AUDIT ONLY (pre-print bars captured, not registrable): `python3 monitors/grade_auction.py --cusip 91282CRV5`.
+- 🔴 11/4–11/8: freeze refunding bars for 3Y 11/9 · 10Y 11/10 · 30Y 11/12 as `registry/auction_bars/<date>_<cusip>.json`, then grade with `--frozen-bars` (Git-root-relative). Without a session in that window the refunding grades AUDIT ONLY.
+- 11/4 QRA F1/F3 and F2 op; 11/12–11/17 freeze the 11/18 20Y and 11/19 10Y TIPS bars.
 - Live holdings/approvals remain FORGE/TERRY/PROME records. No expiry-reminder duty under USER October20.

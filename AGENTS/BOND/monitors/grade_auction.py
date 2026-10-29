@@ -53,6 +53,9 @@ import statistics as st
 import sys
 import urllib.request
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from ta_ws_schema import normalize  # noqa: E402
+
 UA = {"User-Agent": "BOND-research/1.0 (williepowen@gmail.com)"}
 AUCTIONED = ("https://www.treasurydirect.gov/TA_WS/securities/auctioned"
              "?format=json&dateFieldName=auctionDate&startDate={s}&endDate={e}")
@@ -65,7 +68,7 @@ def _get(url):
     with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60) as r:
         if r.status != 200:
             raise RuntimeError(f"HTTP {r.status} from {url[:70]}")
-        return json.load(r)
+        return normalize(json.load(r))   # 2026-10 TA_WS field rename — monitors/ta_ws_schema.py
 
 
 def _f(x):
