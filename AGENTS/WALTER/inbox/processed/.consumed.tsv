@@ -348,3 +348,9 @@ BOND-SIG-008-ANSWERED	2026-09-14T18:51:40Z	WALTER	consumed	BOND answered SIG-W-2
 2026-10-29T00:56:02Z	SIG-OTTO-WALTER-20261025-catchup-primary-context-and-bridge8.md	WALTER	DISPATCH: SIG-W-20261029-006 (BM-20261029-01 item 19); read whole this session, owner limits retained
 2026-10-29T00:56:02Z	SIG-OTTO-WALTER-20261025-financing-terms-and-eart-date-correction.md	WALTER	FOLD: SIG-W-20261027-001 (EART correction) + SIG-W-20261029-006 (pricing) (BM-20261029-01 item 20); read whole this session, owner limits retained
 2026-10-29T00:56:02Z	SIG-OTTO-WALTER-20261025-stale-file-corrections-and-negative-equity.md	WALTER	FOLD: SIG-W-20261029-006 (BM-20261029-01 item 21); read whole this session, owner limits retained
+2026-10-29T15:02:04Z	2026-10-28_from-BROCK_ARCC-MFIC-merger-datum.md	WALTER	DISPATCH: SIG-W-20261029-019 (BM-20261029-03 item 1); read whole this session, owner limits retained
+2026-10-29T15:02:04Z	2026-10-29_from-BROCK_CORRECTION-ARCC-MFIC-close-timing.md	WALTER	FOLD: SIG-W-20261029-019, H1-2027 close carried (BM-20261029-03 item 2); read whole this session
+2026-10-29T15:02:04Z	2026-10-29_from-LIQUID_hy-320-run-reset.md	WALTER	FOLD: SIG-W-20261029-017 (BM-20261029-03 item 3); read whole this session, owner count retained
+2026-10-29T15:02:04Z	2026-10-29_from-MIDAS_handoff-results-gold-exports-copper-acid.md	WALTER	NOTE: owner results on WALTER handoffs, no other recipient (BM-20261029-03 item 4); read whole this session
+2026-10-29T15:02:04Z	2026-10-29_from-SAM_cpi-brazil-carry-replies.md	WALTER	NOTE: owner replies, ASK none; Japan-debt video DEFERRED source pending (BM-20261029-03 item 5); read whole this session
+2026-10-29T15:02:04Z	SIG-OTTO-WALTER-20261028-carvana-sec-investigation-closed.md	WALTER	DISPATCH: SIG-W-20261029-020, WAL action (BM-20261029-03 item 6); read whole this session, owner limits retained
