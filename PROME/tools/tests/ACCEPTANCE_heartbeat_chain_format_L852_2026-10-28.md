@@ -1,0 +1,23 @@
+# ACCEPTANCE — `check_heartbeat_chain()` reads the 35th-base amendment format and fails LOUD on a header it cannot read — 2026-10-28
+
+**Defect (DAEDALUS 10/28 ask ①, DOCKET L852):** `PROME/tools/prome_gate.py` `check_heartbeat_chain()` counts only blocks that start a line as `> **AMENDMENT #N` (or `> ## AMENDMENT #N`) and reads the declared chain only from a header of the form `**Amendments append … Chain: N`. Since the 35th base (6a3e1e364, 2026-10-26) HEARTBEAT writes blocks as `**Amendment N — …:**` and declares the chain as `**Amendment chain: N.**` inside the Base line. The check counted 0 against a chain of 2 and printed ✅ at the 22:07 ET boot (`/tmp/prome-boot-20261028-2206/gate.txt`: "chain at 0 amendment(s)"), with no "header-declared count agrees" because it also could not read the declaration. The same class was repaired once before (2026-08-04 docstring) by widening one regex; the trap re-armed at the next style move because a header the check cannot read is treated as "no cross-check", i.e. silence.
+
+**Conditions written BEFORE the edit (22:2x ET), in the defect's terms — properties, not the symptom:**
+
+- **A1 Ordinary (current style):** on the 35th-base file (two `**Amendment N —` blocks, `**Amendment chain: 2.**`) the check counts 2, reads declared 2, and records PASS "chain at 2 amendment(s) (header-declared count agrees)".
+- **A2 Ordinary (prior style):** on the 34th-base archive snapshot (`PROME/archive/HEARTBEAT_PREREBASE_SNAPSHOT_2026-10-26.md`: four `> **AMENDMENT #N` blocks, `Chain: 4`) the check counts 4, reads 4, and records the n=4 warning exactly as before. The pre-7/31 `> ## AMENDMENT #N` form still counts.
+- **A3 Missing information (the class that bit twice):** a file whose header carries NO chain declaration the check can read records **FAIL / UNVERIFIABLE** naming the two accepted declaration forms — never a confident count, never a silent PASS. A header that declares N≥1 over a file with zero recognisable blocks is the same UNVERIFIABLE, not "chain at 0".
+- **A4 Disagreement:** counted ≠ declared records UNVERIFIABLE and trips on max(counted, declared) (unchanged behaviour, now reachable from both styles).
+- **A5 Overlap:** a file carrying BOTH styles at once (old `> **AMENDMENT #1` block retained, new `**Amendment 2 —` block appended) counts both, i.e. 2, and compares the sum against the declaration.
+- **A6 Wrong owner / false positive:** these lines are NOT blocks: `**Amendment chain: 2.**` (the declaration itself, at line start or mid-line), `**Amendments append …`, a prose sentence containing "amendment 1" mid-line, a `> **AMENDMENT` inside a fenced code block is out of scope (N/A: HEARTBEAT carries no fences; declared, not tested).
+- **A7 Concurrent activity:** N/A — one reader, one file, no writes.
+- **A8 Self-describing message:** the UNVERIFIABLE text names BOTH accepted block forms and BOTH accepted declaration forms, so the next style move prints the rule it broke.
+
+**Tests:** `PROME/tools/tests/test_heartbeat_chain_L852.py` (count by `grep -c 'def test_'`). The helper under test is a pure function `heartbeat_chain_counts(text) -> (counted, declared)` extracted from the check; the check itself is exercised once through `record` capture on the live file.
+
+## Record
+(appended after the edit — IMPLEMENTED · TESTED · INDEPENDENTLY VERIFIED · STILL UNRESOLVED kept separate)
+- IMPLEMENTED 22:2x ET: `PROME/tools/prome_gate.py` — `HB_BLOCK_RE` (three block forms, line-start, `(?!\s*chain)` guard), `HB_DECLARED_RE` (two declaration forms), pure helper `heartbeat_chain_counts(text)`, `check_heartbeat_chain(path=None)`; an unreadable declaration now records FAIL/UNVERIFIABLE naming both accepted form sets (A3, A8); the 8/4 disagreement branch unchanged (A4). The live check at this commit prints `chain at 2 amendment(s) (header-declared count agrees)` (was `chain at 0`).
+- TESTED: `PROME/tools/tests/test_heartbeat_chain_L852.py` — 9 tests (`grep -c 'def test_'`), 9 pass. ⚠️ `pytest` is not installed on this host (laptop) in `.venv` or system python; run through the minimal stand-in runner (scratchpad `minirun.py`: test_* functions, `tmp_path`, `pytest.skip`) — the runner is session-local and not a repo artifact; a later session with pytest re-runs the file as written. A1 ordinary (fixture + live file) · A2 prior style (fixture + the 34th-base archive snapshot, 4/4 warning) · A3 missing information ×2 · A4 disagreement · A5 overlap (both styles summed) · A6 false positives (declaration lines, prose mention, spelled-out number) · A7 N/A (one reader, one file).
+- INDEPENDENTLY VERIFIED: pending one Opus read (gate check, consequential class under WQ-229; reader devises its own counterexamples).
+- STILL UNRESOLVED: none known at implementation.

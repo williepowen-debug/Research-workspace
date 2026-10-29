@@ -1057,55 +1057,79 @@ def check_aged_waits():
            "each hit ⇒ register a PENDING DOCKET row naming the blocking desk (L0 drain-only, cap-counted; WQ-221 rule 3) — never a per-item ask")
 
 
-def check_heartbeat_chain():
+# Accepted HEARTBEAT amendment-block forms, each must START a line (L852 ask ①, 2026-10-28):
+#   pre-7/31   `> ## AMENDMENT #N …`      7/31–34th base  `> **AMENDMENT #N …`
+#   35th base+ `**Amendment N — …:**`     (6a3e1e364, 2026-10-26; no blockquote, no `#`)
+HB_BLOCK_RE = re.compile(r"^(?:>\s*)?(?:#{1,6}\s*|\*\*)?AMENDMENT\s*#?\s*(\d+)\b(?!\s*chain)", re.M | re.I)
+# Accepted header declarations of the chain length:
+#   pre-35th  `**Amendments append … Chain: N`      35th base+  `**Amendment chain: N.**` (inside the Base line)
+HB_DECLARED_RE = re.compile(r"(?:^\*\*Amendments append.*?Chain:\s*(\d+))|(?:\*\*Amendment chain:\s*(\d+))", re.M)
+HB_FORMS = ("blocks: `> ## AMENDMENT #N` · `> **AMENDMENT #N` · `**Amendment N —`; "
+            "declaration: `**Amendments append … Chain: N` · `**Amendment chain: N.**`")
+
+
+def heartbeat_chain_counts(text):
+    """(counted, declared) for a HEARTBEAT text. counted = amendment blocks that start a line in any
+    accepted form; declared = the header's own chain figure, or None when no accepted declaration
+    form is present. Pure; the check decides what None means (UNVERIFIABLE, never a count)."""
+    counted = len(HB_BLOCK_RE.findall(text))
+    m = HB_DECLARED_RE.search(text)
+    declared = int(m.group(1) or m.group(2)) if m else None
+    return counted, declared
+
+
+def check_heartbeat_chain(path=None):
     """HEARTBEAT amendment-chain length vs the ~5 re-base rule (Cadence section).
     The rule lived in prose on 5+ surfaces and in no script until 2026-07-30
     (DAEDALUS FORGE-audit follow-up, gap (a)) — it held at chain=4 on memory,
     twice. Advisory: warn at 4 (plan the re-base), and at >=5 the rule's own
     trip has occurred. [[finding_mechanize_the_cap_not_the_ritual]]
 
-    ⚠️ 2026-08-04 REPAIR — this check was BLIND from the 7/31 re-base until now.
+    ⚠️ 2026-08-04 REPAIR — this check was BLIND from the 7/31 re-base until then.
     v1 matched only `> ## AMENDMENT #N`; the 7/31 re-base changed the house style
     to `> **AMENDMENT #N`, so it counted ZERO against a header that declared
-    "Chain: 2" and printed a confident ✅ PASS. A heading-format change silently
-    disarmed the one mechanism enforcing the re-base rule.
+    "Chain: 2" and printed a confident ✅ PASS.
 
-    Two fixes, because swapping the regex alone would just re-arm the same trap
-    the next time the style moves:
-      (a) match either style (and any future `#`-heading depth);
-      (b) CROSS-CHECK the count against the header's own self-declared
-          "Chain: N". The file states the answer in prose; v1 never read it.
-          Disagreement is not resolvable from inside this check, so it reports
-          UNVERIFIABLE and trips on max(counted, declared) — fail-loud, never a
-          confident number it cannot stand behind.
-    [[finding_test_the_guard_not_just_the_guarded]] · the "return a confident
-    answer where 'cannot evaluate' is the honest one" class (PROME 2026-08-04)."""
-    path = ROOT / "HEARTBEAT.md"
+    ⚠️ 2026-10-28 REPAIR (DAEDALUS ask ①, DOCKET L852; acceptance
+    PROME/tools/tests/ACCEPTANCE_heartbeat_chain_format_L852_2026-10-28.md) — blind AGAIN
+    from the 35th base (6a3e1e364): blocks became `**Amendment N —` and the declaration
+    `**Amendment chain: N.**`; the check counted 0 against 2 and, because it could not read
+    the declaration either, treated "no cross-check" as silence and PASSED. Three fixes:
+      (a) match every accepted block form (HB_BLOCK_RE), (b) read both declaration forms
+      (HB_DECLARED_RE), (c) an UNREADABLE declaration is a FAILED check that names the
+      accepted forms — missing information fails LOUD, never defaults to a count
+      (PROME/tools/tests/README.md category 4). The 8/4 cross-check (disagreement ⇒
+      UNVERIFIABLE on max) is unchanged.
+    [[finding_test_the_guard_not_just_the_guarded]] · [[finding_scan_keyed_on_naming_reads_local_form_as_absence]]"""
+    path = Path(path) if path else ROOT / "HEARTBEAT.md"
     try:
         text = path.read_text(encoding="utf-8")
     except Exception as e:
         record(ADVISE, "HEARTBEAT chain length", False, f"unreadable: {e}", "HEARTBEAT.md")
         return
-    # Either heading style: "> ## AMENDMENT #1 —" (pre-7/31) or "> **AMENDMENT #1 —" (current).
-    counted = len(re.findall(r"^>\s*(?:#{1,6}\s*|\*\*)?AMENDMENT\s*#\d+", text, re.M))
-    # The header states the chain in prose: "... Chain: 2." — v1's missing positive check.
-    m = re.search(r"^\*\*Amendments append.*?Chain:\s*(\d+)", text, re.M)
-    declared = int(m.group(1)) if m else None
+    counted, declared = heartbeat_chain_counts(text)
 
     src = "HEARTBEAT.md Cadence section + PROME/HEARTBEAT_COLD.md §C (re-base = plan + blind reads -> archive verbatim; PROME-standard since 2026-08-23, AUTONOMY change-log — no Will approval step)"
-    if declared is not None and declared != counted:
+    if declared is None:
+        record(ADVISE, "HEARTBEAT amendment chain (<4)", False,
+               f"UNVERIFIABLE — the header declares no chain length this check can read "
+               f"(counted {counted} block(s), which is NOT a verdict). Accepted forms — {HB_FORMS}. "
+               f"Either the header moved format again or the declaration is missing: fix the header, "
+               f"or add the new form to prome_gate.py HB_DECLARED_RE with its acceptance test",
+               src + " · a count without the header's own figure is never trusted")
+        return
+    if declared != counted:
         record(ADVISE, "HEARTBEAT amendment chain (<4)", False,
                f"UNVERIFIABLE — counted {counted} amendment block(s) but the header declares "
-               f"Chain: {declared}. One of them is wrong and this check cannot say which: "
-               f"either the header is stale or the block format moved again (a block must START a line as `> **AMENDMENT #N`). Tripping on the "
+               f"chain {declared}. One of them is wrong and this check cannot say which: "
+               f"either the header is stale or the block format moved again (accepted forms — {HB_FORMS}). Tripping on the "
                f"larger ({max(counted, declared)}) so the re-base rule fails LOUD, not silent",
                src + " · reconcile the header stamp against the blocks before trusting either")
         return
 
     n = counted
     ok = n < 4
-    detail = (f"chain at {n} amendment(s)"
-              + ("" if declared is None else " (header-declared count agrees)")
+    detail = (f"chain at {n} amendment(s) (header-declared count agrees)"
               + ("" if ok else " — re-base rule trips at ~5: plan it into the next substantive session"
                  if n == 4 else " — the ~5 trip HAS OCCURRED: re-base (draft->Will->archive-verbatim) is due"))
     record(ADVISE, "HEARTBEAT amendment chain (<4)", ok, detail, src)
