@@ -1,234 +1,88 @@
 # WAL — Leadership & Board Profile
-> ⚠️ **STALE-VINTAGE 2026-03-31 (bannered 2026-07-25 at promotion).** Pre-dates the Q1 print, the May-12 Investor Day, the Curley resignation (May, B3 FIRED), and the Q2 cycle. Cite only with vintage; refresh-or-keep = owner call at first firming touch. **Since (9/24 pointer):** CEO Vecchione took the board CHAIR 6/10 (KB-WAL-134); V4 = 3/5 RATIFIED (STATUS §CONVERGENCE); zero open-market buys through the 9/17 Form 4s (KB-WAL-193). **Rider 2026-09-28 (audit):** the MI3 "reclassification" premise (:41, :54) is unsupported since the 8/7 MI3 run (THESIS §V1 primary test); Gibbons' title per the Form 4 is **Vice Chair & CBO Deposits** (KB-130), not "VP"; Cat-IV timing → KB-WAL-198 (4Q-average over $100B ~Q3-2027).
-**Last Updated:** 2026-03-31
 
----
-
-## Signal Score: 🟠→🔴 SOPHISTICATED REPOSITIONING (20/20)
-
-Zero insider buying. Coordinated preparation sequence: board risk additions (Dec 2025) → comp restructuring (Dec 2025) → CFO transition (Jan 2026) → Q1 appraisals (Mar 2026) → Q1 earnings (Apr 21). Different from OZK's crude open-market selling — WAL's repositioning is structural and institutionally managed.
-
----
-
-## C-SUITE
-
-### CEO — Kenneth Vecchione
-
-| Detail | Value |
-|--------|-------|
-| Tenure | CEO since 2021 |
-| Prior | CFO, **Apollo Global Management** (2007-2010); CEO, **Encore Capital Group** (2013-2017); CFO, MBNA Corporation |
-| Committees | None (management director) |
-| Key Signal | **Medical leave Dec 2024.** Gibbons dual-hatted CEO+CFO during the exact quarter CRE reclassification accelerated. Governance gap at critical moment. |
-| Insider Activity | Cash-settled RSU settlements. No discretionary buying or selling. |
-
-**Assessment:** Deepest structured/distressed experience on the entire board (Apollo = PE/distressed debt; Encore = distressed consumer debt buyer). Knows what credit stress looks like from the inside. Sits on NO committees. Called Idnani "one of my most reliable and trusted outside advisors" — they have a long advisory relationship predating the hire.
-
-### CFO — Vishal Idnani (effective Jan 2, 2026)
-
-| Detail | Value |
-|--------|-------|
-| Age | 40 |
-| Prior | Managing Director, JPMorgan Financial Institutions Group (~20 years) |
-| Salary | $670,000 initial |
-| Expertise | "Strategic financial matters, capital management, regulatory considerations, transaction execution" |
-| First Earnings | Q4 2025 (Jan 27, 2026) — his first call. Q1 2026 (Apr 21) will be first full quarter. |
-
-**JPM FIG Role:** Advised 50+ regional banks including WAL. FIG is JPM's team that advises banks on M&A, capital raises, regulatory strategy, and crisis management. Public record does NOT specifically link him to SVB/Signature/FRC restructuring advisory, though JPM FIG was centrally involved in all three. His expertise is broader financial advisory, not specifically crisis work.
-
-**Q4 Earnings Guidance:** Allowance at 78bps, expects "low 80s" in 2026. Charge-off guidance 25-30bps. Provision $73M (down $7M QoQ). Tone was growth-oriented, not defensive.
-
-**$100B Threshold Connection:** WAL projects crossing $100B in Q1-Q2 2027. This triggers Category IV enhanced prudential standards: mandatory stress testing, enhanced liquidity requirements, AOCI recognition. Idnani's regulatory expertise maps directly to navigating this transition — and the transition itself forces disclosure of what's currently hidden (MI3, SSFA, AOCI).
-
-**The Question:** Growth hire or preparation hire? The official narrative is growth/$100B. The circumstantial evidence (timing, Gibbons removal, board risk additions, zero buying) suggests preparation for a difficult chapter. His Q4 guidance becomes the benchmark — if Q1 breaks above 30bps NCO or allowance moves above "low 80s," the miss is amplified by his own floor.
-
-### Former CFO — Dale Gibbons (now Vice Chairman, Deposit Initiatives & Innovation)
-
-| Detail | Value |
-|--------|-------|
-| Tenure | CFO from 2003 (22 years). Transitioned Jan 2, 2026. |
-| New Title | Vice Chairman and Chief Banking Officer, Deposit Initiatives and Innovation |
-| New Focus | Corporate trust (WAL Trust Company), business escrow, juris banking, digital assets, HOA banking, consumer digital |
-| Key Signal | Dual-hatted CEO+CFO during Vecchione's Dec 2024 medical leave — the period when CRE reclassification accelerated. Had full visibility into what was being reclassified. |
-
-**Assessment:** "VP Deposit Initiatives and Innovation" is a parking title. HOA banking and digital assets at an $80B bank is not a natural role for a 22-year CFO. Gibbons signed off on every Memo Item 3 reclassification. His departure removes the institutional owner of the hidden CRE narrative. Whether he was moved because he knew too much, disagreed with direction, or simply aged out — the effect is the same: the person who built the reclassification structure is no longer in the CFO seat.
-
-### CRO — Emily Nachlas
-
-| Detail | Value |
-|--------|-------|
-| Tenure | CRO since Sep 2019 (~6.5 years) |
-| Prior | EVP & Director of Enterprise Risk Management, IBERIABANK (New Orleans); Operational Risk & Internal Control Manager, HSBC (2005-2009); Retail Risk Manager, Amegy Bank (2001-2005) |
-| Education | BS Management, Tulane (Freeman School); MBA, University of New Orleans |
-| Scope | Enterprise risk, credit risk, financial risk, strategic risk, compliance, BSA/AML, operational risk, credit review, model risk management |
-| Industry | Member, National Mid-Tier CRO Council (Risk Management Association) |
-
-**Assessment:** Nachlas joined in 2019 and oversaw WAL's evolution through the $50B regulatory threshold. Her background is operational/enterprise risk at mid-tier banks (IBERIABANK, Amegy, HSBC), not structured credit or CRE capital markets. She has never overseen a bank through a CRE credit cycle at WAL's current scale and complexity. The board addition of Starnes (Truist CRO, $500B bank) suggests the board may view internal CRO capability as insufficient for what's coming. Starnes on the board + Nachlas as internal CRO creates a dynamic where the board-level risk expertise significantly exceeds the management-level risk expertise — which is either healthy oversight or a signal of concern about the existing risk function.
-
-### CLO — Jessica Jarvi
-
-| Detail | Value |
-|--------|-------|
-| Title | Chief Legal Officer |
-| Tenure | Joined 2007. Deputy General Counsel since 2013. |
-| Education | BA (honors), University of Arizona; JD, Arizona State University |
-| Scope | Legal, CRA, ESG, D&I initiatives |
-
-**Assessment:** 19 years at WAL, promoted from within. Handles Stupin/Cantor litigation, Portnoy Law investigation, and class action exposure. No public profile in capital markets, structured products, or financial fraud litigation specifically. For a bank with three active fraud vectors, the question is whether in-house counsel has the specialized litigation experience or whether outside counsel is carrying the load.
-
-### Head of Institutional CRE — Ericka LeMaster
-
-| Detail | Value |
-|--------|-------|
-| Title | Head of Institutional Commercial Real Estate |
-| Recent Hire | Todd Popovich added Sep 2025 as MD, Institutional CRE Finance, California (30yr career, former JPM/Wells Fargo) |
-
-**Assessment:** LeMaster runs the CRE book — the core of our thesis. She owns the extend-and-pretend decisions, modification approvals, and the relationship with borrowers on the maturity wall. The Popovich hire (Sep 2025, from JPM/Wells Fargo) into the LA CRE team is notable — adding California CRE expertise right as SoCal/SF stress intensifies. Could be growth (offensive) or workouts (defensive).
-
-### CAO — Jeffrey Ardrey (Retired) → Replacement: Mucha
-
-| Detail | Value |
-|--------|-------|
-| Ardrey | Retired. Two discretionary open-market sales at $64 and $76 before announcement. |
-| Mucha | Replacement. 641 shares sold Feb 2026 — only open-market sale in recent window. New exec selling into drawdown. |
-
-**Assessment:** Ardrey was the only genuine discretionary seller among WAL insiders. Sold at two different price points before his departure was public. Mucha selling 641 shares in Feb 2026 (during the decline from $89) is a small but notable data point — new executives typically hold, not sell, in their first months.
-
----
-
-## BOARD — Dec 2025 Risk Additions
-
-WAL expanded the board from 13 to 15 in December 2025 with two additions explicitly framed around risk and security as the bank approaches $100B.
-
-### Clarke Starnes III (appointed Dec 10, 2025)
-
-| Detail | Value |
-|--------|-------|
-| Prior | **Chief Risk Officer, Truist** (2019-2024); Vice Chairman, Truist Board (2022-2024); CRO, BB&T (2009-2019) |
-| Expertise | Risk, audit, compliance, regulatory management, corporate strategy, capital planning |
-| Distinction | One of the longest-tenured CROs among top 25 US banks |
-
-**Assessment:** 🔴 This is the most significant board addition. You hire a CRO from a $500B bank when you're expecting risk events, not when things are smooth. Starnes oversaw BB&T→Truist merger risk integration — he knows what regulatory scrutiny looks like during transitions. His placement coincides exactly with the CFO swap and comp restructuring. Truist itself had significant CRE exposure during his tenure — he understands the playbook.
-
-### Dr. Michael Papay (appointed Dec 10, 2025)
-
-| Detail | Value |
-|--------|-------|
-| Prior | Former head of Technology Risk and Information Security, American Express |
-| Expertise | Cybersecurity. Advised DHS, Defense, FBI, Federal Reserve. |
-
-**Assessment:** 🟡 Cybersecurity hire is defensible as $100B regulatory preparation (OCC heightened expectations for cyber). Less directly relevant to credit thesis but consistent with the "prepare for enhanced scrutiny" narrative.
-
-### Greta Guggenheim (Director since 2024)
-
-| Detail | Value |
-|--------|-------|
-| Prior | **CEO, TPG RE Finance Trust** (CRE transitional/bridge loans, 2016-2021); MD, Dillon Read Capital Management & UBS (CRE securitization); CIO, Ladder Capital Finance |
-| Education | BA, Swarthmore College; MBA, Wharton |
-| Experience | ~40 years commercial real estate and real estate finance |
-| Committees | **Risk Committee, Finance & Investment Committee** (NOT Audit) |
-
-**Assessment:** 🔴 Guggenheim is the single most relevant board member for the REGINALD thesis. She ran a CRE bridge/transitional loan REIT (TPG RE Finance Trust) — the EXACT same product type as OZK's RESG and WAL's CRE book. She understands CRE maturities, extend-and-pretend, bridge-to-perm failures, and loss severity on transitional loans from the inside. Her placement on Risk (not Audit) means she's advising on risk strategy and portfolio decisions, not auditing the financials. She would see what's in the CRE pipeline before it hits the income statement.
-
-**The gap that matters:** Guggenheim has the expertise to interrogate WAL's CRE book at the deepest level. But she's NOT on the Audit Committee — so her CRE knowledge doesn't directly oversee RSM's audit of CRE provisions and Memo Item 3 classifications. The people who understand the CRE risk (Guggenheim, Vecchione) and the people who oversee the audit (Figuereo, Beach, Segedi) are different people on different committees.
-
----
-
-## OWNERSHIP — INSIDER & MAJOR HOLDERS
-
-| Holder | Shares | % of Company | Type |
-|--------|--------|-------------|------|
-| **William S. Boyd** | 12.74M | **11.54%** | Director Emeritus / Founder |
-| All insiders (aggregate) | ~3-5% | — | Officers & directors (excl. Boyd) |
-| Institutional holders | Majority | ~85-90% | Vanguard, BlackRock, etc. |
-
-**William S. Boyd:** Founder of BankWest of Nevada (predecessor). Director Emeritus. Largest individual holder at 11.54% (~$923M at recent prices). Boyd is also chairman of Boyd Gaming Corporation. His position is legacy/founder — not actively traded. This is passive, long-term ownership, not a signal in either direction.
-
-**Insider ownership ex-Boyd is thin (~3-5%).** Management and directors have limited skin in the game relative to the bank's size and risk profile. Combined with zero insider buying during the decline from $89 to $67, the ownership picture says: insiders don't have enough at stake to be strongly motivated to defend the stock, and they're not putting personal capital to work even at what the street says is a 40% discount to consensus PT ($97.73).
-
----
-
-## AUDIT COMMITTEE (6 members, all independent)
-
-| Member | Role | Key Background | Concern |
-|--------|------|----------------|---------|
-| Juan R. Figuereo, CPA | **Chair** | Former CFO Revlon, NII Holdings, Newell; Arthur Andersen | Strong traditional |
-| Bruce D. Beach, CPA | Member (Board Chair) | 45yr public accounting, AZ CPA firm CEO | Strong traditional |
-| Christopher A. Halmy | Member | **Former CFO, Ally Financial; SVP Global Funding, Bank of America** | Best capital markets expertise on committee |
-| Mary Chris Jammet | Member | Former PM, Legg Mason; Audit Chair, Adams Funds | Portfolio management background |
-| Mary Tuuk Kuras | Member | **Former CRO, Fifth Third Bancorp (2007-2011)** | Risk expertise, JD+MBA |
-| Bryan K. Segedi, CPA | Member | Former Deputy Global Vice Chair of Assurance, EY (30yr) | Strongest audit expertise |
-
-**Critical Gap:** The committee has strong traditional accounting/audit expertise but **limited structured products or distressed debt experience.** The board members with the deepest specialty finance backgrounds — Vecchione (Apollo/Encore) and Greta Guggenheim (TPG Real Estate Finance Trust, CRE structured credit) — are **NOT on the Audit Committee.** Guggenheim sits on Finance & Investment and Risk committees instead. Given WAL's exposure to warehouse lending, capital call facilities, SSFA structures, and NDFI, this is a notable oversight gap.
-
----
-
-## AUDITOR — RSM US LLP
-
-| Detail | Value |
-|--------|-------|
-| Tenure | **32 years** (since 1994) |
-| Tier | Mid-tier (5th largest US firm) |
-| Audit Fees | $4.1M (FY2024) — **40-50% of peers** (ZION/KPMG $9.2M, EWBC/KPMG $6.8M, CMA/EY $8.5M) |
-| PCAOB Deficiency Rate | **41% (2024), 47% (2023)** |
-| SEC Enforcement | $3.75M fine (2022), $950K fine (2019), $17M settlement (2020) |
-
-**PCAOB "Issuer B" — High Confidence = WAL:** 2024 inspection found RSM failed to verify collateral values at a financial institution that purchased collateralized loans at a discount. RSM accepted management's representations without independent testing. This matches WAL's Note Finance division exactly. **100% fail rate on ACL procedures** across 2 audits reviewed in 2024.
-
-**WAL is RSM's outlier client:** WAL at $80B+ is 5x larger than RSM's next-biggest bank client (IBOC ~$15B). WAL's complexity (NDFI, SSFA, warehouse, 3 active fraud vectors) far exceeds RSM's demonstrated bank audit capability.
-
-**Reserve gap with ZION:** Same Stupin/Cantor fraud ring. WAL reserves 30% ($29.6M on $98.5M). ZION charged off 83% ($50M on $60M). RSM signed off on WAL's 30%. EY signed off on ZION's 83%. March 2026 updated appraisals should inform Q1 earnings — if appraisals confirm junior-lien status on distressed SoCal CRE, the 30% reserve collapses.
-
-Full analysis → `FRAUD/AUDITOR_NEXUS.md`, `FRAUD/AUDIT_COMMITTEE.md`
-
----
-
-## INSIDER ACTIVITY SUMMARY
-
-| Actor | Action | Type | Signal |
-|-------|--------|------|--------|
-| Vecchione (CEO) | RSU cash settlements | Mechanical | Neutral |
-| Idnani (CFO) | No activity | — | Too new |
-| Gibbons (ex-CFO) | Transitioned to parking title | Structural | 🔴 |
-| Ardrey (ex-CAO) | Retired + discretionary sells at $64, $76 | Discretionary | 🔴 |
-| Mucha (new CAO) | 641 shares sold Feb 2026 | Open market | 🟠 |
-| Board additions | Starnes (CRO), Papay (cyber) Dec 2025 | Structural | 🔴 |
-| **ALL INSIDERS** | **Zero buying** | — | **🔴** |
-
----
-
-## THE PREPARATION SEQUENCE (Timeline)
-
-| Date | Event | Signal |
-|------|-------|--------|
-| Jul 17, 2025 | Idnani hire announced | JPM FIG advisor → CFO |
-| Oct 2025 | Idnani joins WAL | Overlap/transition period |
-| Dec 2024 | Vecchione medical leave | Gibbons dual-hatted CEO+CFO during MI3 acceleration |
-| Dec 10, 2025 | Starnes + Papay added to board | Risk + cyber specialists |
-| Dec 2025 | Comp restructuring | Cash-settled RSUs + new deferral plan |
-| Jan 2, 2026 | Idnani becomes CFO | Gibbons moved to "deposit initiatives" |
-| Jan 27, 2026 | Q4 earnings (Idnani's first call) | Guided 25-30bps NCO, "low 80s" allowance |
-| Feb 2026 | WAL stock: $89 → begins decline | Analyst downgrades follow in Mar |
-| Mar 2026 | Updated Cantor appraisals due | Results feed Apr 21 earnings |
-| **Apr 21, 2026** | **Q1 earnings — Idnani's first full quarter** | **Kitchen-sink window** |
-| May 12, 2026 | Investor Day (NYC) | Management narrative or strategic repositioning |
-
-**Read together:** Every structural move (new CFO, new board risk specialists, comp restructuring, old CFO removed) was executed in the Oct-Jan window — BEFORE the stock crashed. This is not reactive. It's preparation.
-
----
-
-## OPEN QUESTIONS
-
-1. **Idnani deal history at JPM FIG** — no specific transactions publicly linked. His LinkedIn or conference appearances may reveal more.
-2. **RSM auditor change?** — Will Idnani push for Big 4 transition? An auditor change is itself a signal. The $100B threshold practically requires it.
-3. **Cantor March appraisals** — results determine whether 30% reserve holds or collapses at Q1 earnings.
-4. **Kitchen-sink timing** — Q1 (Apr 21) or Investor Day (May 12)? New CFOs typically act early.
-5. **Guggenheim on Audit Committee?** — Moving the board's deepest CRE/structured credit expert onto the Audit Committee would be a signal of escalating concern.
-6. **Nachlas vs. Starnes dynamic** — Does the board-level CRO (Starnes, $500B bank experience) complement or undermine the internal CRO (Nachlas, mid-tier bank background)? Watch for any CRO transition.
-7. **Boyd position** — Is Boyd (11.54%) locked up or could he sell? Any Form 4 activity? A founder reducing a legacy position would be a major signal.
-8. **Popovich hire intent** — Is the new LA CRE MD (from JPM/Wells, Sep 2025) there for origination or workouts? His deployment tells us whether WAL is still growing CRE or managing the decline.
-9. **DEF 14A proxy (~April 2026)** — Updated audit fees, comp details, any new insider transactions. Key governance document.
-
----
-
-*Cross-references: `FRAUD/AUDITOR_NEXUS.md` (RSM deep dive) | `FRAUD/AUDIT_COMMITTEE.md` (committee analysis) | `sources/INSIDER_SCAN_WAL.md` (insider activity) | `THESIS.md` (insider section)*
+**Last Updated:** 2026-10-28 (refresh of the 3/31 profile; Will: "do all housekeeping now"). The 3/31 text is preserved verbatim at `archive/LEADERSHIP_before-refresh_2026-10-28.md` (sha256 160eb6c4…5ceb); where it conflicts with this file, this file governs.
+**Sources:** 2026 proxy DEF 14A (acc 0001193125-26-170399, filed 4/22; ownership as of 4/13); 8-K Item 5.02 (acc 0001628280-26-033851, filed 5/12); 8-K Item 5.07 annual-meeting results (acc 0001628280-26-042555, filed 6/11); all 71 Form 4s filed 3/31 → 10/28, transaction codes parsed from the filing XML (`scripts/boot.py` parser). Saved: `sources/leadership_2026-10-28/`. Insider evidence rows: KB-128–134, 162, 252, 259.
+**Score:** V4 stays **3/5** (STATUS owns it). The judgment below feeds the post-10-Q re-score; it does not move the score here.
+
+## What changed since March
+
+| March profile said | Since (source) | Read |
+|---|---|---|
+| Zero insider buying | Still **zero open-market purchases** (code P) 3/1 → 10/28 across every Form 4 (KB-128, KB-259) | Holds, now 8 months, at prices $73–83 |
+| Discretionary sellers: Ardrey (ex-CAO), Mucha 641 shares in February | Two non-10b5-1 sales 6/8–6/9: **Gibbons 40,000 at $81.16–82.64 (307,093 → 267,093, −13%)** and **Mucha 5,946 at $81.00 (9,431 → 3,485, −63%)**; Curley Form 144 6/15 for 10,696 shares after leaving. None since (KB-130/131/132/259) | The only discretionary signal of the year. Timing cuts both ways: after the $99M disclosure (5/11), six weeks before a benign Q2 (KB-133) |
+| Curley resignation (B3 fired in May) | 8-K: resigned 5/8 "to pursue another employment opportunity as Chief Executive Officer within the financial services industry" | Stated reason is a promotion elsewhere. The B3 fire rested on timing; the filing gives no credit link |
+| CFO swap = "preparation hire" | Idnani CFO since 1/2/2026; three prints since (Q1 carried the $152.5M fraud charge-off; Q2 and Q3 credit benign; Q3 NCO guide held) | Neither reading proven; no further change |
+| Gibbons "signed off on every Memo Item 3 reclassification"; "parking title" | The MI3 reclassification premise has been unsupported since the 8/7 MI3 run (THESIS §V1). Title per Form 4: **Vice Chair and CBO, Deposits** | The reclassification motive is gone; the June sale remains |
+| Vecchione on no committees; Beach board chair | **Vecchione Chairman, President & CEO from 6/10**; Beach back to Lead Independent Director (KB-134). Proxy lists Vecchione on Finance & Investment | CEO and chair combined since 6/10 |
+| Board 15, with Dec-2025 risk additions | **Board 15 → 13 at the 6/10 meeting:** Howard N. Gould and Mary Tuuk Kuras "not renominated … as part of the Board's refreshment process" (proxy). New Technology & Cybersecurity Committee from 6/10 | Kuras (ex-Fifth Third CRO) was the Audit Committee's risk-officer seat |
+| Guggenheim not on Audit | Proxy: still Finance & Investment + Risk, not Audit | Unchanged |
+| RSM auditor; "will Idnani push for a Big 4 switch?" | **RSM re-ratified for FY2026:** 96,759,728 for / 1,009,265 against (6/10). FY2025 audit fees $4,527,965 vs $3,840,950 FY2024 (+17.9%); total fees $4,886,089 vs $4,125,087 | No auditor change. March's "$4.1M (FY2024) audit fees" was total fees; audit fees alone were $3.84M |
+| ❌ "William S. Boyd 12.74M shares, 11.54%" | **Not in the 2026 proxy.** No Boyd above 5%; Marianne Boyd Johnson (director, Chair of Boyd Gaming) 1,649,910 = 1.52% | RETIRED 10/28: unsupported, March source unrecorded (`workbook/RETIRED_CLAIMS.tsv`) |
+| Insiders ex-Boyd ~3–5% | All directors and executive officers (24 people): 3,001,742 = **2.76%** | Thin, as March said |
+
+**V4 judgment (10/28, for the re-score):** most of what built the March "sophisticated repositioning" reading has weakened. The Curley reason is benign, the auditor and audit chair are unchanged, Q2/Q3 credit was benign, and the MI3 motive is gone. What remains: no open-market buying for eight months, the June sales by the ex-CFO and the chief accounting officer (the two insiders closest to the accounts, neither under a 10b5-1 plan), the CEO/chair combination, and the loss of the Audit Committee's ex-CRO. No new red flag since June. Direction: against the March reading, so a candidate for a lower V4 at the re-score, decided there.
+
+## C-suite (titles per the 10/19 Form 4s; holdings direct, after the 10/15 settlement)
+
+| Officer | Role | Activity 3/31 → 10/28 | Holdings |
+|---|---|---|---|
+| Kenneth Vecchione | Chairman (from 6/10), President & CEO; CEO since 2021 | RSU cash settlements only | 463,178 |
+| Vishal Idnani | CFO since 1/2/2026 (ex-JPMorgan FIG) | RSU only | 11,468 |
+| Dale Gibbons | Vice Chair & CBO, Deposits (CFO 2003–2025) | **Sold 40,000 on 6/9**; otherwise RSU | 267,093 |
+| Emily Nachlas | Chief Risk Officer since 9/2019 | RSU only. Named in the FHLB San Francisco director-election tally (FHLB SF 8-K 10/1); outcome not checked | 16,575 |
+| Lynne Herndon | Chief Credit Officer (spoke to the six credits on the Q2/Q3 calls) | RSU only | 1,880 |
+| Jessica Jarvi | Chief Legal Officer & Secretary; at WAL since 2007 | RSU only | 13,707 |
+| Ben Mucha | Chief Accounting Officer (succeeded Ardrey) | Tax withholding 2,296 on 5/6; **sold 5,946 on 6/8** | 3,485 |
+| Tim Bruckner | CBO, Regional Banking | RSU only | 29,068 |
+| Timothy Boothe | Chief Administration Officer | RSU only | 65,417 |
+| Barbara Kennedy | Chief Human Resources Officer | RSU only | 10,332 |
+| Stephen Curley | Former CBO, National Business Lines; resigned 5/8 | Form 144 6/15 (10,696 shares) | — |
+
+Ericka LeMaster (Head of Institutional CRE) and the Sep-2025 Popovich hire are carried from March, not re-verified.
+
+## Board (13 directors from 6/10/2026; committees as listed in the April proxy)
+
+| Director | Committees | Note |
+|---|---|---|
+| Kenneth A. Vecchione | Finance & Investment | Chairman from 6/10 |
+| Bruce D. Beach | Audit, Compensation, Finance & Investment, Governance, Risk | Lead Independent Director from 6/10 (board chair until then) |
+| Juan R. Figuereo | **Audit (Chair)**, Finance & Investment, Governance | ex-CFO Revlon / NII / Newell |
+| Christopher A. Halmy | Audit, **Finance & Investment (Chair)**, Governance | ex-CFO Ally |
+| Mary Chris Jammet | Audit, Compensation, Risk | ex-Legg Mason PM |
+| Bryan K. Segedi | Audit, Compensation | ex-EY assurance |
+| Greta Guggenheim | Finance & Investment, Risk | ex-CEO TPG RE Finance Trust (CRE bridge lending) |
+| Anthony T. Meola | Finance & Investment, Risk | |
+| Robert P. Latta | **Compensation (Chair)**, Governance, Risk | |
+| Marianne Boyd Johnson | Compensation, Governance | Founding director (1995); Chair of Boyd Gaming since 1/1/2026; 1.52% holder |
+| Donald D. Snyder | Compensation, **Governance (Chair)** | Co-founder |
+| Clarke Starnes III | not parsed | ex-Truist CRO; joined 12/2025 |
+| Dr. Michael Papay | not parsed | ex-AmEx technology risk; joined 12/2025 |
+
+Committee assignments after 6/10 (Kuras's Audit seat, the new Technology & Cybersecurity Committee) are not re-verified. **6/10 vote:** all 13 elected (98,091,907 shares voted = 90.3% of 108,671,534); lowest support Snyder (85.9M for / 4.7M against). **Say-on-pay:** 86,377,579 for / 4,148,326 against (95.4% of votes cast for or against).
+
+## Ownership (proxy, as of 4/13/2026)
+
+| Holder | Shares | % |
+|---|---:|---:|
+| BlackRock | 10,145,727 | 9.34% |
+| The Vanguard Group | 10,045,309 | 9.24% |
+| T. Rowe Price Associates | 7,969,869 | 7.33% |
+| Barrow Hanley Global Investors | 6,450,408 | 5.94% |
+| Invesco | 5,736,263 | 5.28% |
+| Marianne Boyd Johnson | 1,649,910 | 1.52% |
+| All directors and executive officers (24) | 3,001,742 | 2.76% |
+
+13G filings since: 5/6, 5/13, 7/31 (×2), 8/13, 8/14 (not read 10/28). Q3 13Fs ~11/16.
+
+## Auditor — RSM US LLP
+
+Re-ratified for FY2026 (above). Tenure (since 1994), PCAOB inspection history and the "Issuer B" inference are under separate re-verification (KB-071–077 review, 10/28); the analysis lives in `FRAUD/AUDITOR_NEXUS.md` and `FRAUD/AUDIT_COMMITTEE.md` (bannered records).
+
+## Open questions (10/28)
+
+1. Q3 10-Q Item 5(c): any 10b5-1 plan adoptions or terminations in Q3? (Q2: none, KB-162.)
+2. Post-6/10 committee rosters: who took Kuras's Audit seat; who sits on Technology & Cybersecurity.
+3. The FHLB San Francisco director election: was Nachlas elected?
+4. The six 13G / 13G-A filings since May vs the April table: has any 5% holder moved materially?
+
+*Answered from the March list:* auditor change (no, RSM ratified for FY2026); Guggenheim to Audit (no, per the proxy); the proxy (read 10/28); Boyd's position (the 11.54% claim is retired); Q1 timing (history: Q1 carried the $152.5M fraud charge-off).

@@ -179,9 +179,9 @@ One `.md` per signal, written direct into the recipient's `inbox/` and self-comm
 | `Q3_PRINT_GRADING_FRAME_2026-09-24.md` · `Q3_10Q_GRADING_FRAME_2026-09-24.md` | ★ Pre-registered Q3 frames (L170 graded 10/19–10/21; L171 frozen 10/22, awaiting the 10-Q). |
 | `Q3_10Q_RESCORE_RULE_2026-10-22.md` | ★ Will-approved pre-registered weight mapping for the post-10-Q re-score. |
 | `Q2_10Q_READ_2026-08-07.md` · `MI3_FIRST_RUN_2026-08-07.md` | Q2 10-Q primary read (+ its §6 NOT-resolved list) · the first MI3 falsifier run. |
-| `LEADERSHIP.md` · `Q1_2026_ANALYSIS.md` | Insider/leadership record (3/31 vintage; THESIS travels it) · Q1 8-K mining (held from retirement: THESIS travels it). |
+| `LEADERSHIP.md` · `Q1_2026_ANALYSIS.md` | Insider/leadership record (refreshed 10/28; THESIS travels it) · Q1 8-K mining (held from retirement: THESIS travels it). |
 | `FRAUD/` | WAL-lensed fraud corpus. **Live homes (9/24): `FIRST_BRANDS.md` §FOLD (LAM/Jefferies + collateral-perfection screen) and `STUPIN_CRE.md` §FOLD (Cantor).** The rest are bannered records. |
-| `MARKET/` | Technicals snapshots (TRADE_LOG bannered — phantom-strike residue). |
+| `MARKET/` | TRADE_LOG only, bannered (phantom-strike residue); 3/25 charts → `archive/MARKET/`. |
 | `workbook/` | `KB.tsv` + `KB_INDEX.md` + `PREDICTIONS.tsv` (**WAL-01, WAL-02, REG-15**) + `RETIRED_CLAIMS.tsv` + `MI3_SERIES.tsv`. *(Row/group counts de-listed 9/24 — they rotted here at "180 / 16"; INDEX.md mirrors the live count.)* |
 | `sources/` | Primary extracts; `q*/` + `10k_*/` binaries gitignored, `.md` synthesis tracked. |
 | `research/` | WAL-specific research threads (incl. 9/24: catalyst sweep, FRAUD corpus review, Q2 13F aggregate). |

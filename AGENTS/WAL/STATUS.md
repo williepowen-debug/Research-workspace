@@ -1,6 +1,6 @@
 # WAL STATUS
 
-**Last Updated: 2026-10-28 22:58 ET — catch-up and data refresh (Will, interactive): no 10-Q yet, Q3 Call Report not yet filed, KB expiry review, short interest, EDGAR sweep, First Eagle NDFI joinder, inbox drain; `scripts/boot.py` built and wired as boot step 5.** Thesis **v2.4** / EV **$75.96** / PT **$52–76** / weights / composite **13/25** unchanged; nothing graded since 10/22. KB **260 rows / 20 groups**.
+**Last Updated: 2026-10-28 22:58 ET — catch-up and data refresh (Will, interactive): no 10-Q yet, Q3 Call Report not yet filed, KB expiry review, short interest, EDGAR sweep, First Eagle NDFI joinder, inbox drain; `scripts/boot.py` built and wired as boot step 5.** Thesis **v2.4** / EV **$75.96** / PT **$52–76** / weights / composite **13/25** unchanged; nothing graded since 10/22. KB **264 rows / 20 groups**.
 
 *The 10/22 version of this file is preserved verbatim at `archive/STATUS_before-10-28_2026-10-28.md` (sha256 59f568d3…daca9); earlier history at `archive/STATUS_before-cleanup_2026-10-22.md` and `archive/STATUS_before-Q3-stage1_2026-10-19.md`.*
 
@@ -78,7 +78,7 @@ N diagnostics: NIM 3.57%, no N1 breach. Total deposit cost (N2) not printed; the
 | V1b magnitude | 4/5 | Held as prior judgment, not a fresh confirmation. Q3 NCO guide held; $99M appraisal unresolved; favorable coverage vs OREO/SM rise |
 | V2 fraud | 5/5 historical | EXCLUDED from composite. Cantor/legal Q3 details PENDING-10-Q; no implied recovery. Court path 10/22: remand + stay relief granted 8/24, §523 hearing 12/9 |
 | V3 NDFI | 3/5 | Q2 exposure/history remain KB-146/168/230. The Q3 deck slide 23 (preliminary, rounded, HFI + HFS + eligible-loan basis) does not grade the 10-Q 25.9%-of-HFI test. New 10/28: First Eagle SPV $100M lender joinder 10/1 (KB-260) adds to the exposure-up evidence beside Crestline (KB-195). Borrower attribution and current stress unknown |
-| V4 leadership | 3/5 | Held. 10/19 Form 4s routine (KB-252); Form 144 / 13D/G / open-market sweep clean 9/24 → 10/28 (KB-259); LEADERSHIP.md is 3/31 vintage |
+| V4 leadership | 3/5 | Held. 10/19 Form 4s routine (KB-252); Form 144 / 13D/G / open-market sweep clean 9/24 → 10/28 (KB-259). LEADERSHIP.md refreshed 10/28 (KB-261–264): Curley's stated reason is a CEO role elsewhere, RSM re-ratified, board 15 → 13; the March "repositioning" reading has weakened, residual is the June Gibbons/Mucha sales. Score re-judged at the re-score |
 
 Composite 13/25; weights 2/16/45/30/7 unchanged (THESIS owns them). No independent funding/peer/severity baseline built.
 

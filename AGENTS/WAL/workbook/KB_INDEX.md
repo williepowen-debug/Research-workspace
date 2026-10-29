@@ -1,13 +1,13 @@
 # WAL KB Index — generated group navigation
 
-**260 rows | 20 groups | Inventory updated October 28 (258 FINRA October 15 short interest; 259 EDGAR window 9/24-10/28; 260 First Eagle SPV lender joinder).** Source dates/status/expiry govern.
+**264 rows | 20 groups | Inventory updated October 28 (258 FINRA October 15 short interest; 259 EDGAR window 9/24-10/28; 260 First Eagle SPV lender joinder; 261-264 proxy, board and auditor facts).** Source dates/status/expiry govern.
 
 | Group | Rows | IDs |
 |---|---:|---|
 | HIDDEN_CRE | 43 | 001, 002, 003, 004, 005, 006, 007, 090, 091, 098, 099, 108, 109, 110, 111, 112, 113, 114, 127, 140, 141, 142, 145, 150, 151, 154, 155, 163, 164, 165, 166, 167, 169, 170, 181, 182, 183, 216, 218, 236, 238, 248, 249 |
 | SSFA | 14 | 008, 009, 010, 011, 012, 013, 092, 093, 094, 095, 121, 146, 147, 168 |
 | CANTOR_FRAUD | 27 | 014, 015, 016, 017, 018, 019, 020, 021, 022, 081, 082, 083, 123, 137, 143, 148, 201, 202, 203, 204, 205, 206, 207, 208, 227, 254, 255 |
-| INSIDER | 19 | 023, 024, 025, 026, 027, 028, 029, 128, 129, 130, 131, 132, 133, 134, 162, 174, 193, 252, 259 |
+| INSIDER | 22 | 023, 024, 025, 026, 027, 028, 029, 128, 129, 130, 131, 132, 133, 134, 162, 174, 193, 252, 259, 261, 262, 263 |
 | GEOGRAPHIC | 6 | 030, 031, 032, 033, 034, 035 |
 | JEFFERIES | 21 | 036, 037, 038, 039, 040, 060, 066, 084, 085, 086, 124, 135, 136, 144, 152, 153, 177, 186, 210, 256, 257 |
 | NEVADA_GAMING | 5 | 041, 042, 043, 044, 045 |
@@ -17,7 +17,7 @@
 | ANALYST_SIGNALS | 10 | 062, 063, 064, 065, 138, 197, 213, 223, 226, 253 |
 | CRE_MACRO | 6 | 067, 068, 070, 179, 209, 228 |
 | NDFI_PC | 1 | 069 |
-| FRAUD_AUDITOR | 7 | 071, 072, 073, 074, 075, 076, 077 |
+| FRAUD_AUDITOR | 8 | 071, 072, 073, 074, 075, 076, 077, 264 |
 | FRAUD_GENERAL | 6 | 078, 079, 080, 087, 088, 089 |
 | LEADING_CREDIT | 9 | 096, 097, 106, 107, 156, 157, 194, 232, 237 |
 | OWNERSHIP | 4 | 171, 172, 176, 199 |
