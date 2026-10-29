@@ -127,6 +127,34 @@ def _date_matches(raw, date_obj):
     return False
 
 
+def tail_bp_of(lowest_yield, avg_yield):
+    """Tail in bp, rounded to the 0.1bp that 3dp yields can express.
+
+    Raw (lowest - avg) * 100 leaves float residue: a true 5.0bp tail read as
+    5.000000000000004 and tripped the strict `> 5` bar (DAEDALUS L546 class,
+    fixed 2026-10-29; tests: scripts/tests/test_float_ties.py).
+    """
+    return round((lowest_yield - avg_yield) * 100, 1)
+
+
+def classify_status(btc, tail_bp):
+    """Status safety nets. Normal JGB auctions: BTC 3.0-3.5x, tail 0.5-2bp.
+
+    Thresholds are safety nets — real signal is relative to rolling avg,
+    which requires history (future enhancement). The frozen FIRM/SOFT grading
+    bars live in the docket, not here.
+    """
+    if btc < 2.0:
+        return "🔴 BUYER STRIKE"
+    if btc < 2.8 and (tail_bp is not None and tail_bp > 3):
+        return "🟠 Soft demand + quality problem"
+    if btc < 2.8:
+        return "🟠 Soft demand"
+    if tail_bp is not None and tail_bp > 5:
+        return "🟠 Quality problem"
+    return "✅ Orderly"
+
+
 def parse_auction(html, date_obj):
     """
     Parse MOF auction result HTML. Returns dict or None.
@@ -223,21 +251,8 @@ def parse_auction(html, date_obj):
     btc = comp_bids / accepted
     tail_bp = None
     if lowest_yield is not None and avg_yield is not None:
-        tail_bp = (lowest_yield - avg_yield) * 100  # convert % to bp
-
-    # Status classification
-    # Normal JGB auctions: BTC 3.0-3.5x, tail 0.5-2bp
-    # Thresholds are safety nets — real signal is relative to rolling avg,
-    # which requires history (future enhancement).
-    status = "✅ Orderly"
-    if btc < 2.0:
-        status = "🔴 BUYER STRIKE"
-    elif btc < 2.8 and (tail_bp is not None and tail_bp > 3):
-        status = "🟠 Soft demand + quality problem"
-    elif btc < 2.8:
-        status = "🟠 Soft demand"
-    elif tail_bp is not None and tail_bp > 5:
-        status = "🟠 Quality problem"
+        tail_bp = tail_bp_of(lowest_yield, avg_yield)
+    status = classify_status(btc, tail_bp)
 
     return {
         "date": date_obj.strftime("%Y-%m-%d"),

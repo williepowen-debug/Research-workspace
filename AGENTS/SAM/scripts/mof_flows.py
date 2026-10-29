@@ -184,8 +184,8 @@ def fmt_oku_as_usd(oku, usdjpy=150.0):
         return f"~${usd/1e6:+,.0f}M"
 
 
-def append_tsv(rows):
-    """Append rows to TSV idempotently (key: period)."""
+def ledger_periods():
+    """Periods already in the ledger (first-print keys)."""
     existing = set()
     if FLOWS_TSV.exists():
         with open(FLOWS_TSV) as f:
@@ -194,7 +194,13 @@ def append_tsv(rows):
                 parts = line.strip().split("\t")
                 if parts:
                     existing.add(parts[0])
-    else:
+    return existing
+
+
+def append_tsv(rows):
+    """Append rows to TSV idempotently (key: period)."""
+    existing = ledger_periods()
+    if not FLOWS_TSV.exists():
         with open(FLOWS_TSV, "w") as f:
             f.write(TSV_HEADER)
 
@@ -347,27 +353,49 @@ def main():
     # A green light structurally could not fire SAM's own registered signal.
     # This check is deliberately NOT nested inside the `len(rows) >= 4` block and NOT
     # an elif of the 4W ladder: both would re-inherit the blindness being fixed.
+    #
+    # SECOND DEFECT FIXED 2026-10-29 (incident 2026-10-01): MOF can publish two weeks
+    # in one release. Reading rows[-1] only, 9.13~9.19 (-¥1.905T, through the bar) went
+    # unevaluated because 9.20~9.26 arrived beside it. Every week NEW since the last
+    # ledger write is now evaluated. Tests: scripts/tests/test_mof_weekly_bar.py.
     # ---------------------------------------------------------------------
-    week_lt = latest["lt_debt_net"]
+    new_rows = [r for r in rows if r["period"] not in ledger_periods()]
     print(f"\n  WEEKLY ALERT (SAM registered bar: >{fmt_oku_as_yen(-WEEKLY_SELL_BAR)} selling in ONE week)")
     print(f"  {'-'*60}")
-    if -week_lt > WEEKLY_SELL_BAR:
-        print(f"  🟠 WEEKLY SELL BAR TRIPPED — {fmt_oku_as_yen(week_lt)} LT-debt net selling")
-        print(f"     → Registered consequence: signal LIQUID (cross-agent bar) + PROME.")
-        print(f"     ⚠️  Yen-POSITIVE / UST-demand-NEGATIVE direction. ONE week, foreign LT debt")
-        print(f"        GLOBALLY (not USTs-specific).")
-        print(f"     ⛔ Does NOT re-open Channel 1: its re-add bar is a direct foreign-SALES")
-        print(f"        print across >=2 consecutive windows at >=2 institutions.")
-    elif week_lt < 0:
-        print(f"  ⚪ Weekly net selling {fmt_oku_as_yen(week_lt)} — inside the ¥1.5T bar")
+    if new_rows:
+        print(f"  {len(new_rows)} new week(s) since the last ledger write — each evaluated, not just the latest")
+        eval_rows = new_rows
     else:
-        print(f"  🟢 Weekly net buying {fmt_oku_as_yen(week_lt)} — bar not applicable")
+        print(f"  no new week since the last ledger write — latest week shown for reference")
+        eval_rows = [latest]
+    quiet = len(eval_rows) > 8  # first run / long gap: print trips only
+    for r in eval_rows:
+        week_lt = r["lt_debt_net"]
+        if -week_lt > WEEKLY_SELL_BAR and new_rows:
+            print(f"  🟠 WEEKLY SELL BAR TRIPPED — {r['period']}: {fmt_oku_as_yen(week_lt)} LT-debt net selling")
+            if r.get("in_lt_debt_net") is not None:
+                print(f"     Inward JGB leg that week: {fmt_oku_as_yen(r['in_lt_debt_net'])} "
+                      f"(both-legs bar {fmt_oku_as_yen(INWARD_BUY_BAR)}; a bare positive is the modal state)")
+            print(f"     → Registered consequence: signal LIQUID (cross-agent bar) + PROME.")
+            print(f"     ⚠️  Yen-POSITIVE / UST-demand-NEGATIVE direction. ONE week, foreign LT debt")
+            print(f"        GLOBALLY (not USTs-specific).")
+            print(f"     ⛔ Does NOT re-open Channel 1: its re-add bar is a direct foreign-SALES")
+            print(f"        print across >=2 consecutive windows at >=2 institutions.")
+        elif quiet:
+            continue
+        elif -week_lt > WEEKLY_SELL_BAR:
+            print(f"  ⚪ {r['period']}: {fmt_oku_as_yen(week_lt)} — through the bar but ALREADY in the ledger (not new)")
+        elif week_lt < 0:
+            print(f"  ⚪ {r['period']}: weekly net selling {fmt_oku_as_yen(week_lt)} — inside the ¥1.5T bar")
+        else:
+            print(f"  🟢 {r['period']}: weekly net buying {fmt_oku_as_yen(week_lt)} — bar not applicable")
 
     # 4-week and 12-week rolling LT debt
     if len(rows) >= 4:
         last_4 = sum(r["lt_debt_net"] for r in rows[-4:])
         print(f"\n  ROLLING LT-DEBT NET (key repatriation signal)")
         print(f"  {'-'*60}")
+        print(f"  Basis: live CSV values as published today (MOF revises; the ledger keeps the first print)")
         print(f"  4-week rolling:   {fmt_oku_as_yen(last_4)}  {fmt_oku_as_usd(last_4)}")
 
         if len(rows) >= 12:

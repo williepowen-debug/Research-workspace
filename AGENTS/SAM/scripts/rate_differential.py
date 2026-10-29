@@ -67,7 +67,11 @@ def main():
     dates = sorted(set(jgb) & set(ust))
     if not dates:
         print("  🔴 no overlapping dates — NO VERDICT"); return 1
-    rows = [(d, ust[d][0]-jgb[d][0], ust[d][1]-jgb[d][1], ust[d], jgb[d]) for d in dates]
+    # Round to the inputs' published 3dp so a true gap exactly on a bar compares exactly
+    # (float residue made 2.250 read as 2.2499999999999996 — DAEDALUS L546 class;
+    # tests: scripts/tests/test_float_ties.py).
+    rows = [(d, round(ust[d][0]-jgb[d][0], 3), round(ust[d][1]-jgb[d][1], 3), ust[d], jgb[d])
+            for d in dates]
 
     print(f"\n{'='*70}\n  SAM-41 — US-JAPAN RATE DIFFERENTIAL  ({datetime.now():%Y-%m-%d %H:%M})\n{'='*70}")
     print(f"  Bar: 5Y gap < {BAR_5Y}%  OR  10Y gap < {BAR_10Y}%  on {RUN_REQUIRED} CONSECUTIVE closes, by 2026-10-31")
@@ -105,7 +109,7 @@ def main():
         print(f"\n  🟢 no active run.")
 
     # the caveat that decides whether the above is even readable
-    near = [(lab, abs(100*(g-b))) for lab, g, b in (("5Y", cur5, BAR_5Y), ("10Y", cur10, BAR_10Y))]
+    near = [(lab, round(abs(100*(g-b)), 1)) for lab, g, b in (("5Y", cur5, BAR_5Y), ("10Y", cur10, BAR_10Y))]
     tight = [f"{lab} ({d:.1f}bp)" for lab, d in near if d < RESOLUTION_FLOOR_BP]
     if tight:
         print(f"\n  ⚠️  TIGHT MARGIN: {', '.join(tight)} sits within {RESOLUTION_FLOOR_BP:.0f}bp of its bar.")
