@@ -1,4 +1,4 @@
-# OSPREY SCRATCH — 2026-10-29 (Thu) 13:41 ET (from hook clock, final closeout) · osprey-5d · owner session: catch-up + key-file review + overdue research
+# OSPREY SCRATCH — 2026-10-29 (Thu) 13:50 ET (from hook clock, FINAL closeout before Will's reboot) · osprey-5d · owner session: catch-up + key-file review + overdue research
 
 *Rewritten in full (template). The 10/23 SCRATCH is in git history.*
 
@@ -18,6 +18,19 @@
 - Mail 6/6 filed (board_log +6). Packets: HAWK (dictionary confirmed + WQ-470), DAEDALUS (WQ-508), PROME memo. WQ-508 B46 applied to CLAUDE.md.
 - **Key-file review (Will 12:13):** NEXUS_BRIEF rebuilt (stale Sept rows verified closed, then rotated → `archive/NEXUS_BRIEF_ROTATED_2026-10-29.md`); `ANALYSIS_2026-10-29.md`; VX 4 vectors refreshed; **FLOW-OSPREY-06** (US-leverage brake); **THESIS v1.1**; **OSP-07 registered** (60%, refinery strike 10/30–11/15, grade ≥11/18).
 - **Overdue research (Will 13:33):** OWED-30 CLOSED (KB-236) · H.R. 5334 enacted and waived (KB-234) · Druzhba not reported interrupted (KB-235) · OWED-51 +21 backfill rows, worked not closed (KB-237). KB now through 237.
+
+## ✅ FINISHED 10/29 — DO NOT REDO (Will at close, 13:50 ET: "I want to keep what is finished remembered")
+| Done | Where it lives | Commit |
+|---|---|---|
+| Catch-up sweep 10/19→10/29; ledger mark → 10/25; +2 vessel rows; mail 6/6 filed | `STRIKES.tsv` line 2 · KB-224…231 · `board_log.tsv` | `e8f1acaf3` |
+| WQ-470 joint text agreed with HAWK (scope = Russian-port tanker calls; REPRICED / SATISFIED-BY-PROXY / UNMEASURED) | `domain/energy-strikes/WQ470_C3_LIMB2_QUALIFIER_OSPREY-SIDE_2026-10-29.md` §7 · HAWK ack `dce67726e` | `e8f1acaf3`, `fc0837a5f` |
+| HAWK vessel-counting dictionary CONFIRMED · WQ-508 lines accepted + B46 applied · PROME memo | KB-230 · `CLAUDE.md` §5 band line · `PROME/inbox/2026-10-29_from-OSPREY_…` | `fc0837a5f`, `dcc88689f`, `97f4bcff7` |
+| NEXUS_BRIEF rebuilt (Sept carries verified closed, rotated verbatim) · STATUS feed line · ANALYSIS 10/29 | `NEXUS_BRIEF.md` · `archive/NEXUS_BRIEF_ROTATED_2026-10-29.md` · `domain/energy-strikes/ANALYSIS_2026-10-29.md` | `a9f10e6e6`, `5b54402e6` |
+| VX 4 vectors refreshed · FLOW-OSPREY-06 (US-leverage brake) · THESIS v1.1 · OSP-07 registered (60%) | `workbook/VX.tsv` · `workbook/FLOW.tsv` · `thesis/THESIS.md` · `thesis/PREDICTIONS.tsv` · KB-232/233 | `faa44490a` |
+| OWED-30 buyer-pullback write-up CLOSED · H.R. 5334 read (enacted + waived) · Druzhba check (not reported interrupted) · OWED-51 +21 backfill rows | `domain/energy-strikes/OWED30_BUYER_PULLBACK_WRITEUP_2026-10-29.md` · KB-234…237 · `STRIKES.tsv` | `d84339d95` |
+| SCRATCH handoff current | this file | `55375c6e2`, `c234df32d` |
+
+**Start-here for the next session:** boot normally, then items 1–2 below are the dated ones. The only open item that can bite on 11/2 is **OWED-46** (does Surgut 10/16 count as a refinery? 14/14 without it, 13/14 with). If PROME has not ruled by 11/2, grade L814 on BOTH readings and say so.
 
 ## NEXT SESSION (dated, future-verifiable)
 0. **Boot note:** `STRIKES.tsv` line 1 is now the OWED-51 BACKFILL banner; the `swept-complete through:` mark (10/25) is line 2. Read the mark line, not line 1.
