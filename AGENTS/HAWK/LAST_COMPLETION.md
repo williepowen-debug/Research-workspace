@@ -1,5 +1,7 @@
 # HAWK LAST_COMPLETION — 2026-09-21
 
+> 🧊 **FROZEN 2026-10-29 — not maintained; STATUS is canonical, do not cite rows as current.** This is the September 21 session record. Later completion receipts are dated `outbox/*_to-PROME_*` packets; the current state is in STATUS.md / SCRATCH.md.
+
 > ⛔ **2026-09-22 banner:** the "undisclosed claims stay REPORTED forever" rule recorded below is SUPERSEDED — see `research/2026-09-22_covert-claim-rule-revision.md`. This file is a dated 9/21 record, not current state; the 9/22 delivery is the memo in `PROME/inbox/`.
 
 **Spawn:** PROME Tier-1 under WQ-184 outcome ①, DOCKET L432 dated today. **PROME confirmed DARK via `ListAgents` 11:14 ET.** Standing driver ruled by Will 2026-09-05.

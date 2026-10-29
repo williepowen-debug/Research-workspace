@@ -1,6 +1,32 @@
 # Cross-war energy-strike aggregate — HAWK, derived
 
-**Regenerated: 2026-10-29 (~11:55 ET, from session clock).** Latest owner evidence: FALCON October 26 17:36 EDT cutoff; OSPREY committed October 23, plus live uncommitted October 29 ledger edits (see table). WALTER lane October 25–29 read (13 signals plus BOARD-only 034). No fresh HAWK theater sweep. Historical passes below are snapshots, not current grades.
+**Regenerated: 2026-10-29 13:3x ET (from session clock; second pass the same day).** Owner evidence: FALCON committed through ~12:55 EDT October 29 (`800ccec25`, brief `9449e1681`); OSPREY committed October 29 (`e8f1acaf3`, brief `5b54402e6`). WALTER lane October 25–29 read. No fresh HAWK theater sweep. **The first October 29 pass (~11:55 ET) is kept below; its census and OSPREY lines were overtaken within two hours by both owners' own sessions.**
+
+| Owner ledger | Committed head reviewed | Data rows, excluding header |
+|---|---|---|
+| OSPREY STRIKES | `e8f1acaf3` | 161 (+2 since 10/23: KHORYV 10/23, Shabla containership ~10/28) |
+| FALCON facility STRIKES | `8c66d7529` | 41 (no new facility event; newest established September 10) |
+| FALCON VESSELS | `800ccec25` | 85 (+3 since 10/25: VI-0083/0084 relayed UKMTO reports; VI-0085 Khasab) |
+
+**Gulf (FALCON October 29 weekly review, KB-HAWK-478):** B 1 / C 14 / D 85 HELD; no registered trigger met in the week. **Confirmed losses 5 → 6:** the dhow MSV QUBA sank ~9 NM N of Khasab on October 29 after a "security incident" fire, crew evacuated (NAVAREA IX 417/26, FALCON's own fetch). Cause unattributed; not one of the IRGC-claimed mine-hit tankers. GATE-FALCON-001 (Bab) LIVE, leg 2 NOT MET. PortWatch 10/19–25: 23 transits, 6 tankers (AIS counts, not barrels); Sohar series dropped, so the bypass gauge is DEGRADED (Fujairah alone at 90% of base). Ras Tanura 10/27: Houthi claim; one anonymous Bloomberg source says a terminal-area fire was contained; FALCON's own FIRMS heat read is within routine flare range; no Saudi/Aramco statement; OUT-class for the production rung.
+
+**Enforcement channel:** Iran PGSA "legal action" against all Sinokor vessels from **November 1**, at least 7 already actioned (KB-HAWK-473). Share: Reuters (via FALCON) ~40% of September Hormuz crude outflow; Lloyd's List Intelligence (secondary) ~47% of VLCC transits — different measures, not reconciled. FALCON: Hormuz flow already ~1 tanker/day, so no band change is possible from it; a named-hull detention would be a shipping event; the freight read is BRENT's. NAVCENT/JMIC October 28 stay-clear plus visit-and-search of neutrals; WSJ October 27 post-midterm campaign posture — FAL-07 NOT FIRED.
+
+**Russia (OSPREY October 29, KB-HAWK-478):** 5 / 5 / 3 unchanged. **No Ukrainian refinery strike found October 16 → 29**; targets moved to steel and chemical plants under reported US pressure; Zelensky says there is no order to refrain. A lull, not a halt: one strike resets the C1 leg (dated grade November 2). Primorsk paused ~3 days, cause NOT established (BRENT's figure, 3.59 M bpd to 10/18). C3: October 27 passed with no kill; KHORYV and the Shabla containership are non-qualifying. WQ-470 joint text agreed, X unbound.
+
+**Cross-war read [EST]:** for the first time in months the two theaters are moving in opposite directions on the oil channel. **Russia:** refinery-strike pressure has paused (de-escalation by tempo, reversible overnight). **Gulf:** pressure is shifting from strikes to ENFORCEMENT (Sinokor, visit-and-search, stay-clear advice), with US posture building toward a post-midterm window. Neither side shows a newly measured barrel loss. FLOW-19's premium-vs-supply read holds; the enforcement channel is the leg to watch from November 1.
+
+**FLOW-19 / K1:** BRENT October 26 (KB-HAWK-469): K1 input UNMEASURED; the ~14 mb/d / 82% figure is a preliminary relay. No measured fraction of oil price attributable to premium.
+
+**Forecast perimeter:** HAW-22 OPEN, 65% UNCALIBRATED; October window closes October 31; no qualifying candidate (the Khasab dhow is a vessel, Ras Tanura a claim on an excluded class). **undisclosed damage can produce a misleading CONFIRM — a CONFIRM on this letter is a claim about what was DISCLOSED, never about capacity**.
+
+**No double-count:** preserve attacker/target dyad, molecule, asset and loading/departure/transit basis. IRGC mine claims, PGSA enforced vessels, Seoul Economic's seven tankers and FALCON's confirmed losses are separate populations.
+
+---
+
+## October 29 first pass (~11:55 ET) — original text retained
+
+**[first pass] Regenerated: 2026-10-29 (~11:55 ET, from session clock).** Latest owner evidence: FALCON October 26 17:36 EDT cutoff; OSPREY committed October 23, plus live uncommitted October 29 ledger edits (see table). WALTER lane October 25–29 read (13 signals plus BOARD-only 034). No fresh HAWK theater sweep. Historical passes below are snapshots, not current grades.
 
 | Owner ledger | Committed head reviewed | Data rows, excluding header |
 |---|---|---|

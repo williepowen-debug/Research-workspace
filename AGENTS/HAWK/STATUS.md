@@ -13,9 +13,9 @@
 
 ## Reconciliation deltas (owner evidence through FALCON Oct 26 / OSPREY Oct 29 working tree)
 
-- **FALCON (KB-HAWK-468):** B 1 / C 14 / D 85 held; production rung NOT FIRED. Cape Dao confirmed Sunk → **5 confirmed losses** (old September 23 bulker; census, not a new attack). Two RELAYED UKMTO reports: a disabled outbound tanker on Oct 23; a vessel fire off Al-Faw on Oct 26, cause unknown. Saudi pumping-station/airport hits are claims only. L229 permanent corridor LAPSED / NOT VERIFIED AS AGREED. Insurance: all five legs expired; Bab CANNOT-FIRE.
+- **FALCON (KB-HAWK-468):** B 1 / C 14 / D 85 held; production rung NOT FIRED. Cape Dao confirmed Sunk (old September 23 bulker) and, on the October 29 weekly review, the dhow MSV QUBA sank off Khasab (cause unattributed) → **6 confirmed losses** (KB-HAWK-478). Neither is a new tanker loss or a rung fire. Two RELAYED UKMTO reports: a disabled outbound tanker on Oct 23; a vessel fire off Al-Faw on Oct 26, cause unknown. Saudi pumping-station/airport hits are claims only. L229 permanent corridor LAPSED / NOT VERIFIED AS AGREED. Insurance: all five legs expired; Bab CANNOT-FIRE.
 - **WALTER lane Oct 27–29 (claims):** Houthi claim of an Oct 27 Ras Tanura hit, with no Saudi/Aramco confirmation (an asset class excluded from FALCON's production rung and HAW-22). **Iran PGSA legal action against all Sinokor vessels from Nov 1** (KB-HAWK-473; Sinokor ~47% of Hormuz VLCC transits, secondary only). NAVCENT stay-clear advisory Oct 28 (secondary). WSJ: US told Gulf states to prepare for a short, intense post-midterm campaign: posture, not a strike. White House Oct 22 no-strike-before-midterms line stands.
-- **OSPREY:** committed brief Oct 23, 5 / 5 / 3. Live working tree (uncommitted) advances swept-complete to Oct 25 and adds KHORYV (Oct 23, Russia-attributed) and a Shabla containership (Oct 28). Neither is C3-qualifying.
+- **OSPREY (Oct 29, `e8f1acaf3`):** 5 / 5 / 3. **No Ukrainian refinery strike found Oct 16 → 29**: targets moved to steel/chemical plants under reported US pressure, with no halt order (a lull, reversible). Primorsk paused ~3 days, cause unknown. KHORYV and the Shabla containership are non-C3. **Cross-war: the theaters now diverge** — Russia's oil-strike pressure has paused while the Gulf shifts to enforcement.
 - **BRENT (KB-HAWK-469):** K1 input UNMEASURED; ~14 mb/d / 82% is a preliminary relay including offshore transfers, not a current Hormuz rate.
 
 **Double-count check:** Russian refining/products vs Gulf hull/route stay separate. IRGC mine claims (Oct 24, 27), the PGSA's seven enforced Sinokor vessels and Seoul Economic's seven tankers are different claims and are not additive. **Combined oil-risk read:** willingness/route risk is rising on the enforcement channel; net lost crude and the premium's share of price remain UNMEASURED.
@@ -36,7 +36,12 @@ Marks unchanged: VEN GREEN; TWN/TWNMIL/IRAQ/FININFRA YELLOW; TRADE01/TRADE02/COD
 - **Intake:** 11 direct + 13 WALTER + 1 BOARD-only signal, all read and dispositioned (`board_log.tsv`), filed to `processed/`. Inbox clear.
 - **COR-20261025-26:** receipted NO-OP.
 - **Aggregates:** both regenerated; KB-HAWK-468..476 added; CATALYSTS updated (DEWEY 01–03 CONSUMED, C3 PARTIAL, Nov 1 Sinokor row).
-- **ISHM:** defense-capex seam confirmed (no change) in `outbox/2026-10-29_to-ISHM_defense-capex-seam-confirmed.md`. Outbox only; a direct drop into ISHM's inbox needs Will's word.
+- **ISHM:** defense-capex seam confirmed (no change). Dropped into ISHM's inbox on Will's word ("yes two items approved go ahead", 13:28 ET); byte-identical to the outbox copy. ISHM's consumption is unverified.
+- **Housekeeping (Will-approved 13:28 ET):**
+  - FLOW-19/16/20 updated with the Oct 26–29 owner and DEWEY evidence.
+  - Ship-counting dictionary marked owner-confirmed.
+  - LAST_COMPLETION.md frozen.
+  - OPEN_THREADS_2026-07-09 and REMARK_20260628 moved to archive/.
 - **Missed dates recovered:**
   - Oct 26 EURMIL residual review: not done, carried to Nov 2.
   - Oct 28 FLOW-21 tanker-TCE check: not done, carried.

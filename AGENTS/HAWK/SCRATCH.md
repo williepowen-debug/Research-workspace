@@ -8,7 +8,7 @@ No trade book. VEN G; TWN/TWNMIL/IRAQ/FININFRA Y; TRADE01/TRADE02/CODIF/EURMIL O
 
 ## CHANGES SINCE LAST SESSION (Oct 25 → Oct 29)
 
-FALCON census: 5 confirmed losses (Cape Dao sunk; old event). L229 corridor lapsed. Ras Tanura Houthi claim unconfirmed. PGSA vs Sinokor from Nov 1. NAVCENT stay-clear Oct 28. WSJ post-midterm campaign prep (posture). BRENT: K1 UNMEASURED. DEWEY 01–03 returned: helium one fab; Taiwan stock days not public; no matched October war-risk quote. OSPREY live Oct 29: adopted SCOPE for C3.
+FALCON census: 6 confirmed losses (Cape Dao old bulker; MSV QUBA dhow Khasab Oct 29).  OSPREY: no refinery strike since Oct 16 (lull). L229 corridor lapsed. Ras Tanura Houthi claim unconfirmed. PGSA vs Sinokor from Nov 1. NAVCENT stay-clear Oct 28. WSJ post-midterm campaign prep (posture). BRENT: K1 UNMEASURED. DEWEY 01–03 returned: helium one fab; Taiwan stock days not public; no matched October war-risk quote. OSPREY live Oct 29: adopted SCOPE for C3.
 
 ## WHAT I DID THIS SESSION
 
@@ -51,7 +51,7 @@ Full intake (25 items) dispositioned and filed; COR-20261025-26 NO-OP; both aggr
 
 - Inbox and WALTER lane clear at cutoff.
 - Reply to osprey-5d sent by SendMessage at ~12:05 ET; its consumption is unverified.
-- ISHM reply is in the outbox and not delivered.
+- ISHM reply dropped into ISHM's inbox at 13:2x ET on Will's word; consumption unverified.
 - No other outbound packets.
 
 ## PENDING PUSH / GIT

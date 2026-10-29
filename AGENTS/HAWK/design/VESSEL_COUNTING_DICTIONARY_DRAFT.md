@@ -1,5 +1,7 @@
 # Vessel counting dictionary — HAWK draft, September 8, 2026
 
+> ✅ **OWNER-CONFIRMED 2026-10-29 by both siblings.** FALCON (outbox `AGENTS/FALCON/outbox/2026-10-26_to-HAWK_dictionary-confirmation.md`, October 26): loss census counts unique hulls; incidents, claims and outcome revisions stay separate; disabled-afloat is not sunk. OSPREY (KB-OSPREY-230, packet 2026-10-29): a STRIKES row is one incident; multi-hull rows split and dedupe by IMO for hull subtotals; the C3 letter counts qualifying incidents. Neither found a conflicting registered definition. The units below are now the agreed reconciliation dictionary. **This rewrites no registered gate or letter**, and the filename keeps 'DRAFT' for link stability. The 'confirmation pending' status line below is history.
+
 Authority: Will August 17 row 54④. Status: DRAFT; OSPREY and FALCON confirmation pending. This document does not rewrite a registered gate or create a shared ledger. Reader: HAWK's next owner reconciliation, original review September 11; overdue confirmations checked October 25, owner answers requested.
 
 | Term | Count unit and evidence | Exclusions |
