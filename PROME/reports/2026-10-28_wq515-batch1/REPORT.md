@@ -35,14 +35,14 @@ The chain for each transfer is source -> WALTER BOARD card (hop 1) -> ACTION own
 | Pos | Owner | Record used | Commit |
 |---|---|---|---|
 | 1, 2 | BROCK | none found | n/a |
-| 3 | VULCAN | `workbook/KB.tsv` KB-VULCAN-292 and 297; `board_log.tsv` | 03ed29ec0 and 594ff5c39 |
-| 4 | LABOR | `workbook/KB.tsv` KB-LAB-224 | 634928ebf |
-| 5 | BRENT | `research/2026-10-26_energy-review/REPORT.md` section 4 (sha 0df6c120...) | 113332181 |
-| 6 | FALCON | `reports/2026-10-26_saudi-claims-and-L807.md` (sha c2710acb...) | 35bd7d149 |
-| 7 | ISHM | `workbook/KB.tsv` KB-ISH-007, `workbook/PRINTS.tsv` DALLAS row, `STATUS.md` | 0dbba244d (PRINTS b606ab70e) |
+| 3 | VULCAN | `AGENTS/VULCAN/workbook/KB.tsv` KB-VULCAN-292 and 297; `board_log.tsv` | 03ed29ec0 and 594ff5c39 |
+| 4 | LABOR | `AGENTS/LABOR/workbook/KB.tsv` KB-LAB-224 | 634928ebf |
+| 5 | BRENT | `AGENTS/BRENT/research/2026-10-26_energy-review/REPORT.md` section 4 (sha 0df6c120...) | 113332181 |
+| 6 | FALCON | `AGENTS/FALCON/reports/2026-10-26_saudi-claims-and-L807.md` (sha c2710acb...) | 35bd7d149 |
+| 7 | ISHM | `AGENTS/ISHM/workbook/KB.tsv` KB-ISH-007, `AGENTS/ISHM/workbook/PRINTS.tsv` DALLAS row, `STATUS.md` | 0dbba244d (PRINTS b606ab70e) |
 | 8 | HANS | none found | n/a |
 | 9 | SAM | none found | n/a |
-| 10 | CARL | `research/2026-10-26_L786/RECEIPT_RECONCILIATION.md` row 20261027-001 (sha 4fd59eec...) | 5b18d5a88 |
+| 10 | CARL | `AGENTS/CARL/research/2026-10-26_L786/RECEIPT_RECONCILIATION.md` row 20261027-001 (sha 4fd59eec...) | 5b18d5a88 |
 
 How the "none found" rows were established (SEARCH-NOT-FOUND, checked in the owner-declared paths: `board_log`, `STATUS`, KB, `SCRATCH`, `NEXUS_BRIEF`, `research`, `reports`):
 - **BROCK:** its last own commit and last `board_log` and KB change are 2026-10-25 (84e7a03c1). Signals 001 and 002 are still unprocessed in `inbox/WALTER/`.
