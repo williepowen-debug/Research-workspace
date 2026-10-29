@@ -68,3 +68,6 @@ Quick ones PROME does at the next free slot without a sitting: **L591** (one AUD
 
 ## E. What this does not change
 No gate letter, level, operator or consequence moves. No ruling is reversed: § C asks for the word of the one who gave it. Every retired row compacts in place to a tombstone pointing at this record (DOCKET citation convention), so a later reader finds the reason at the line number. The WQ-299 process ceiling still governs execution: this record is a plan, and each kept row still takes its own slot.
+
+## RULING
+**Will, 2026-10-28 22:41 ET, verbatim:** *"530 A approve"* — §§ A–D approved as written; all eight § C rows retired (JANUS re-proposed only if boot reports are again too long to act on). **Executed 22:4x ET by PROME (prome-92 second boot):** 25 retire + 15 merge + 2 split rows compacted in place to tombstones pointing here; verbatim rows archived in `PROME/archive/DOCKET_HISTORY_2026-10-28.md` (crc32 per row); 10 carrier rows re-cut with an `ABSORBS` clause naming every absorbed item; DAEDALUS told by packet that L655/L664 are retired; the generated calendar re-rendered. Live PROME-owned overdue rows after execution: see the calendar's OVERDUE line at the next boot (expected 14 + the quick three: L591 · L640 · L696).
