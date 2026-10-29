@@ -42,3 +42,15 @@
 **A checker's NOT FOUND is a claim about its own reads.** Before sending one out as a correction, ask the author for the URL — memory `finding_negative_reachability_is_a_claim_about_your_request` instance 6.
 
 **Instrument blind spot (recorded 2026-10-23, Quest Diagnostics):** a company that has NOT called an incident material files it under **Item 8.01**, not 1.05 (SEC 2024 guidance). boot.py leg 8 watches 1.05 only, so it stayed quiet at 23:53 ET on 10/22 although Quest had filed an 8.01 cyber 8-K at 06:53 ET that day (CYB-INC-020). Until leg 8 also searches 8.01 for cyber terms, a quiet leg 8 means "no MATERIAL incident filed", never "no cyber incident filed".
+
+## Reader quirks recorded 2026-10-29 (L812 wave re-check)
+
+| Source | Quirk | Do this |
+|---|---|---|
+| mass.gov breach-notice documents (`mass.gov/doc/<id>/download`) | 403 to WebFetch, to curl with a browser UA and to a reader proxy (10/26 and 10/29) | Carry the search excerpt as SECONDARY; say the vendor name and count are unrecovered; never evade the block |
+| Chromium root store (`chromium.googlesource.com/.../chrome_root_store/root_store.md`) | Current file REACHABLE; the commit history (`+log`) needs sign-in (403) | The file proves the current list, not the removal date; pair it with a Google statement for "shipped" |
+| Palo Alto advisories (`security.paloaltonetworks.com/CVE-...`) | REACHABLE by WebFetch; dated revision history at the foot of the page | Read the revision list to date each change; the exploitation sentence carries no date of its own |
+| American Banker (`americanbanker.com/news/...`) | REACHABLE by WebFetch (10/29), full text | Trade press carries operator-quoted service pauses that operator sites do not post: search it for row 8 |
+| ConnectWise trust advisories (`connectwise.com/company/trust/advisories`) | REACHABLE but ~188k characters; WebFetch reads ~100k per call | The newest update is at the top; use `offset` to read on before claiming an absence lower down |
+| Park24 notices (`park24.co.jp`) | Site search returned only news; the issuer notice was not found (10/29) | Carry Jiji / ScanNetSecurity figures as SECONDARY |
+

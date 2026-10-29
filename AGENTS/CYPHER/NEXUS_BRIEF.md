@@ -25,7 +25,7 @@
 | Dream | Correction or retraction | 11/04 | Two earlier firm claims in this wave were withdrawn or corrected | A retraction drops CYB-INC-047 back to a lead |
 | DEWEY | REQ-008 rerun | 10/30 (not out 10/29) | Base rates and watch states | Reconcile; no substitute systemic conclusion |
 | ConnectWise | Restoration completion | 11/04 | Phased restoration only began 10/28 | MSP availability verdict |
-| REGINALD | Boundary reply | Its next session | The last of 11 outstanding | Owner amendments only on an actual reply |
+| REGINALD | Boundary reply | Its next session | 1 of 11 still outstanding | Owner amendments only on an actual reply |
 | HENRY / VULCAN | Equity persistence grade | 2026-11-18 | Row 9 | Owner-graded thermometer |
 
 ## VIEW

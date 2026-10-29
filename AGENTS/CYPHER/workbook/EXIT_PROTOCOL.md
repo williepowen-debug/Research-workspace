@@ -40,3 +40,11 @@ Every `AND` in a kill states the state it fires FROM. No threshold already breac
 ## R1 context note — 2026-10-26 (registered flips unchanged)
 
 CISA KEV v2026.10.26 lists both PHP2Shell root CVEs (dateAdded 10/26): row 2 FIRED, VX-CYP-06 4/5. Composite 22/40 raw and 16/40 after counting the PHP2Shell cluster once. CONFIRMED now describes root-flaw exploitation; no named organisation is supplied by KEV. Row 2 alone does not satisfy the R1 named-victim test in row 1 or 3, so no SYSTEMIC-WATCH flip is recorded. Other owner rows retain their actual check dates; the full re-check remains due 10/29. Evidence: `research/2026-10-26_startup/RECORD.md#kev`.
+
+## R1 context note — 2026-10-29 (L812 re-check; registered flips unchanged)
+
+- **Evidence moved, flip not met.** Palo Alto's own advisory (upd 10/29) states "Active exploitation has been observed targeting the Palo Alto Networks management interface exposed to the internet". Dream (a security firm's own blog, VENDOR CLAIM) reports a PHP2Shell + Fragnesia chain that rooted 24-25 firewalls, with credential extraction at a US government-affiliated network (CYB-INC-047). **No organisation is named**, so row 1 stays NOT-FIRED and the toward-MOVEit flip is not met.
+- **This is the MOVEit precondition.** It is a successful compromise whose victims are not yet public. If a named victim surfaces before 11/20, the flip fires through row 1. Re-check 11/04, including whether Dream corrects its post. Two earlier firm claims in this wave were withdrawn or corrected: Unit 42 on 10/25 and Sophos on 10/22.
+- **Row 8 boundary case:** a US credit union's precautionary ~24h digital-banking pause (CYB-INC-046) was ruled YELLOW under the VX-CYP-02 band registered on 10/22. It is not an R1 input.
+- Composite 22/40 raw, 16/40 adjusted (unchanged). Evidence: `research/2026-10-29_wave-recheck/RECORD.md`.
+

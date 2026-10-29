@@ -78,7 +78,7 @@
 
 - boot.py leg 5 checks Last_Checked only on REPORTED/ATTEMPTS-ONLY rows, so a blank cell on a CONFIRMED row passes silently.
 - Leg 7 repeats already-adjudicated KEV listings each boot (027 and 014 now also repeat).
-- Leg 9 needs a boilerplate filter: Hanmi has hit twice and was boilerplate both times.
+- Leg 9 needs a boilerplate filter: Hanmi has hit twice (10/23, 10/29), both boilerplate.
 - No boot.py edit this session.
 - Row 8 lesson: the 10/23 search missed a same-day trade-press item. A re-check of row 8 should search trade press (American Banker, Banking Dive, CU Today) for "offline"/"precaution", not only operator pages.
 
