@@ -235,3 +235,36 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-20T15:16:02+00:00	SIG-W-20261019-010	noted	INBOX_WALTER	Read at startup; dated peer evidence retained with source/owner caveats; no thesis or trigger grade.
 2026-10-20T15:16:02+00:00	SIG-W-20261019-013	noted	INBOX_WALTER	Read at startup; dated peer evidence retained with source/owner caveats; no thesis or trigger grade.
 2026-10-20T15:31:42+00:00	SIG-W-20261016-039	acted	INBOX_WALTER	Deferred startup read completed: primary Ueda Oct-16 Bangkok transcript kk261020a.pdf and address read; no October-specific guidance established, SAM-42 remains 25%; research/outputs/2026-10-20_sweep/NEWS_SWEEP.md sections 1-2.
+2026-10-29T04:26:36+00:00	SIG-W-20261020-005	info-only	INBOX_WALTER	Korea conditional stabilization tools, not an enacted short ban; regional context only.
+2026-10-29T04:26:36+00:00	SIG-W-20261020-016	noted	INBOX_WALTER	Oct-20 Nikkei/KOSPI closes; equity decline alone does not establish yen carry liquidation (consistent with SAM view).
+2026-10-29T04:26:36+00:00	SIG-W-20261020-021	info-only	INBOX_WALTER	MSCI Indonesia; outside SAM domain.
+2026-10-29T04:26:36+00:00	SIG-W-20261020-026	info-only	INBOX_WALTER	MSCI Turkey; outside SAM domain.
+2026-10-29T04:26:36+00:00	SIG-W-20261020-030	info-only	INBOX_WALTER	Kharg strike-options story unverified; FALCON/HAWK own.
+2026-10-29T04:26:36+00:00	SIG-W-20261020-032	info-only	INBOX_WALTER	Konarak claim contested; FALCON/HAWK own.
+2026-10-29T04:26:36+00:00	SIG-W-20261021-002	noted	INBOX_WALTER	SAM-origin Fukoku 30Y-avoidance withdrawal relayed; already integrated Oct-20 (STATUS CHANNELS, THESIS Pillar 2); receipt COR-20261021-02 APPLIED.
+2026-10-29T04:26:36+00:00	SIG-W-20261021-011	noted	INBOX_WALTER	Tanker location correction; no SAM surface cited it; receipt NO-OP.
+2026-10-29T04:26:36+00:00	SIG-W-20261021-018	noted	INBOX_WALTER	SoftBank equity drawdown; superseded by -022-001 correction.
+2026-10-29T04:26:36+00:00	SIG-W-20261022-001	noted	INBOX_WALTER	SoftBank real Oct-22 close 4,305; no SAM surface cited 4,505; receipt NO-OP.
+2026-10-29T04:26:36+00:00	SIG-W-20261022-002	noted	INBOX_WALTER	Oct-22 Asia selloff (Nikkei about -3%), Brent Dec overnight 111.84; no Japan-led unwind evidence; context for 10/29 STATUS.
+2026-10-29T04:26:36+00:00	SIG-W-20261022-007	info-only	INBOX_WALTER	Iran IRGC claims; claim-only; FALCON owns.
+2026-10-29T04:26:36+00:00	SIG-W-20261022-019	noted	INBOX_WALTER	PHP2Shell precautionary suspensions at MUFG/Mizuho etc; no compromise or settlement-network impact; DEWEY 10/22 packet concurs.
+2026-10-29T04:26:36+00:00	SIG-W-20261022-048	noted	INBOX_WALTER	CYPHER re-verification; no SAM surface affected; receipt NO-OP.
+2026-10-29T04:26:36+00:00	SIG-W-20261023-003	acted	INBOX_WALTER	Sept national core 2.1 / core-core 2.4 verified at e-Stat via cpi_japan.py 10/29; Totan 10/29 11:15 JST Oct 2% Dec 82%; SAM-42 stays 25% as made, no trigger; reply in packet to WALTER 10/29.
+2026-10-29T04:26:36+00:00	SIG-W-20261023-013	noted	INBOX_WALTER	PBOC fix 6.72 strongest since Feb-2023; central-bank week context; no SAM grade.
+2026-10-29T04:26:36+00:00	SIG-W-20261023-024	info-only	INBOX_WALTER	US strike-timing signals; superseded by -031 correction; FALCON owns.
+2026-10-29T04:26:36+00:00	SIG-W-20261023-031	noted	INBOX_WALTER	White House written no-strike-before-midterms line; no SAM surface affected; receipt NO-OP.
+2026-10-29T04:26:36+00:00	SIG-W-20261023-036	noted	INBOX_WALTER	Record October Hormuz ship attacks; oil-in-yen context only, VECTOR-5 not re-evaluated on it.
+2026-10-29T04:26:36+00:00	SIG-W-20261025-001	info-only	INBOX_WALTER	Saudi interceptions; damage not established; BRENT/FALCON own.
+2026-10-29T04:26:36+00:00	SIG-W-20261025-003	noted	INBOX_WALTER	GMO intrusion confirmed; Japan trading-access consequence retained; CYPHER follows procedures 10/30 and 11/06.
+2026-10-29T04:26:36+00:00	SIG-W-20261025-015	deferred	INBOX_WALTER	Japan-debt video lead: transcript inaccessible, source pending; no claim extracted; revisit only if WALTER locates a transcript.
+2026-10-29T04:26:36+00:00	SIG-W-20261025-019	noted	INBOX_WALTER	GMO server scope 26,739 potential; scope not breach count.
+2026-10-29T04:26:36+00:00	SIG-W-20261025-027	deferred	INBOX_WALTER	Japan-debt video: IMF basis check accepted (Japan ratio highest, not dollar amount); spoken argument still unread; source pending.
+2026-10-29T04:26:36+00:00	SIG-W-20261026-004	acted	INBOX_WALTER	Brazil election shock; cross-checked against carry view: yen weakened on the day and CFTC 10/20 net +69,878 LONG yen, no yen-funded unwind signature; reply in packet to WALTER 10/29.
+2026-10-29T04:26:36+00:00	SIG-W-20261026-007	info-only	INBOX_WALTER	Tehran regional delegations; no settlement; FALCON owns.
+2026-10-29T04:26:36+00:00	SIG-W-20261026-008	noted	INBOX_WALTER	US intraday rebound 10/26; Brazil shock without simultaneous US selloff; HENRY owns.
+2026-10-29T04:26:36+00:00	SIG-W-20261026-012	acted	INBOX_WALTER	Brazil stop-loss lead: anonymous testimony kept separate from measured liquidation; BRL/JPY -6.5% vs MXN/JPY +1.4% and USDJPY +0.59% = no broad yen-funding unwind; reply in packet to WALTER 10/29.
+2026-10-29T04:26:36+00:00	SIG-W-20261027-010	noted	INBOX_WALTER	Park24 compensation; separate from GMO; no market consequence measured.
+2026-10-29T04:26:36+00:00	SIG-W-20261029-001	noted	INBOX_WALTER	FOMC 10/28 hold 3.75-4.00, two hike dissents; US leg of the differential stays high (rate_differential 10/28: 5Y gap 2.569, 10Y 2.183).
+2026-10-29T04:26:36+00:00	SIG-W-20261029-002	noted	INBOX_WALTER	Ras Tanura Houthi claim; damage unknown; oil-in-yen context.
+2026-10-29T04:26:36+00:00	SIG-W-20261029-003	noted	INBOX_WALTER	Iran targeting Sinokor fleet from Nov-1; shipping-risk context; FALCON owns.
+2026-10-29T04:26:36+00:00	SIG-W-20261029-013	noted	INBOX_WALTER	Taiwan LNG inventory-days not public; informs SAM reply to HAWK on Japan fuel stocks (Japan inventory also UNMEASURED by SAM).

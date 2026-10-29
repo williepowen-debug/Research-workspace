@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "source_url": "https://www.totan.com/archives/15647",
+  "image_url": "https://www.tokyotanshi.co.jp/wp-content/uploads/image-2090-1030x321.png",
+  "image_sha256": "ec55624d1fac15142292c5c39c4463bbfcee543d776a56af709f81bd26c8dd0d",
+  "evidence_path": "research/outputs/boj-review/2026-10-29_ec55624d1fac15142292c5c39c4463bbfcee543d776a56af709f81bd26c8dd0d/table.png",
+  "quote_as_of": "2026-10-29T11:15:00+09:00",
+  "timezone_basis": "JST assumed from Japanese publisher; image has no zone",
+  "review_method": "SAM visual transcription",
+  "quote_kind": "indicative OTC meeting-to-meeting OIS median",
+  "valid_until": "2026-10-30",
+  "decision_date_source": "BOJ MPM schedule https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm; October 29-30",
+  "step_pct": 0.25,
+  "reviewed_row_count": 5,
+  "rows": [
+    {
+      "meeting_month": "2026-10",
+      "ois_pct": 1.2313,
+      "difference_pct": 0.0041,
+      "incremental_25bp_equivalent_pct": 2,
+      "cumulative_expected_hikes": 0.02,
+      "term_start": "2026-11-02",
+      "term_end": "2026-12-18"
+    },
+    {
+      "meeting_month": "2026-12",
+      "ois_pct": 1.4363,
+      "difference_pct": 0.205,
+      "incremental_25bp_equivalent_pct": 82,
+      "cumulative_expected_hikes": 0.84,
+      "term_start": "2026-12-21",
+      "term_end": "2027-01-22"
+    },
+    {
+      "meeting_month": "2027-01",
+      "ois_pct": 1.5,
+      "difference_pct": 0.0638,
+      "incremental_25bp_equivalent_pct": 26,
+      "cumulative_expected_hikes": 1.09,
+      "term_start": "2027-01-25",
+      "term_end": "2027-03-18"
+    },
+    {
+      "meeting_month": "2027-03",
+      "ois_pct": 1.6388,
+      "difference_pct": 0.1388,
+      "incremental_25bp_equivalent_pct": 56,
+      "cumulative_expected_hikes": 1.65,
+      "term_start": "2027-03-19",
+      "term_end": "2027-04-28"
+    },
+    {
+      "meeting_month": "2027-04",
+      "ois_pct": 1.7113,
+      "difference_pct": 0.0725,
+      "incremental_25bp_equivalent_pct": 29,
+      "cumulative_expected_hikes": 1.94,
+      "term_start": "2027-04-30",
+      "term_end": "2027-06-11"
+    }
+  ],
+  "reviewed_at": "2026-10-29T04:21:42.839424+00:00"
+}
