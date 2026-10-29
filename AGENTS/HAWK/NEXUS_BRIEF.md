@@ -3,7 +3,7 @@
 **Status:** ELEVATED. Willingness/route risk is rising on the ENFORCEMENT channel; net crude loss and the premium's share of the oil price remain UNMEASURED. No mark, band or probability moved.
 **Domain:** Cross-war synthesis and dormant geopolitical book.
 **As of:** October 29, 2026, 13:3x EDT (second pass); owner evidence FALCON `800ccec25` (~12:55 Oct 29), OSPREY `e8f1acaf3` (Oct 29).
-**STATUS commit:** `acd235216`.
+**STATUS commit:** `3474b6473`.
 
 | Consumer | Material result | Limitation |
 |---|---|---|
