@@ -12,18 +12,19 @@
 
 ---
 
-## P1 — Stress → price (the live tripwire) `[stamp 2026-10-20]`
+## P1 — Stress → price (the live tripwire) `[stamp 2026-10-29]`
 
 | Stage | Mechanism | State |
 |---|---|---|
 | 1 | Weather / outage / export pressure changes deliverable supply versus load | Active mechanism beyond summer: October13–14emergency at ordinary~108GWload with~61GWoutages; October19advisory with~72GWoutageforecast [KB148/151/157]. No reserve-erosion attribution from planned outages alone |
 | 2 | Operating constraint → emergency postings | Five tracked capacity episodes throughOct14; September17EEA2 nowverified atposting105532. Prior “two episodes, bothJuly” is historical; historicalC1MET from primaryposting+priorKB121REDtimings, rawreplayunavailable [KB160] |
 | 3 | Deliverable-supply stress → wholesale price | DM2 five-minute operational read is live; October 13 max $2,327.04 with 29 consecutive RED intervals. October 15–21 complete: zero ≥$1,000 in 2,008 prints, max $471.98 October 16. No settlement label; P1 de-escalated 5→3 October 22 on the registered letter [KB148/173/174] |
+| 3a | Year over year: the cushion is thinner at the same load | Sep 1–Oct 28 verified hourly, 2026 vs 2025: hours ≥$500 19 vs 1, ≥$1,000 7 vs 0; median flat ($36.78 vs $34.79), gas flat; hours ≥$200 at 90–100 GW 4.3% vs 0.7%. Firm fleet flat ~181 GW, growth all solar; demand +6.1 GW; October forced outages 7.0/9.4/11.6 GW (2024/25/26) while planned fell. No pricing-rule change found between autumns. One baseline year only [KB186–190; FL-WATT-16; WATT-13] |
 | 3b | Low-load price events: causal alternatives tested | FL10thincommitment and FL13hourlyramp hypotheses REFUTED Aug17 [KB086/087]; causeunexplained. Never inherit a refuted hypothesis as an open mechanism. Subhourly possibility was not directly tested; no successor registered |
 | 4 | Powercost / curtailment authority → operator economics | IRAScore rejectedOct9; emergencyauthorityseparate. DOE202-26-50issuedOct12,termendedOct16,noextensionindexedOct20. PJMOct15states large-loadbackupunusedtodate, coveringOct13–14; no laternegative. Hedge share/cash impact unknown [KB140/152/158] |
 
 **Repricing:** IPP power-generator equities (upside on scarcity), industrial power-cost margin compression, neocloud FCF drag.
-**Confirms/breaks this channel alone:** summer dormancy was a historical channel state, reopened by September/October scarcity. P1 de-escalated to 3 on October 22 after a clear October 15–21 window; the outage season continues (71.5 GW forecast offline October 22), so a RED or EEA2+ re-fire returns it to 5. Historical EEA2/RED overlap on September 17 meets C1 on recorded evidence; no new live emergency or trade inferred.
+**Confirms/breaks this channel alone:** summer dormancy was a historical channel state, reopened by September/October scarcity. P1 de-escalated to 3 on October 22, then re-fired on the letter October 27 (18:50–19:00 EPT, $2,297.21 max, demand 97.9–99.8% of trailing peak, no posting) → 5 on October 29; de-escalation graded on/after November 4. The year-over-year test (stage 3a) moves P1 from a seasonal tripwire toward a structural read: the same maintenance season now produces scarcity more often. Historical EEA2/RED overlap on September 17 meets C1 on recorded evidence; no new live emergency or trade inferred.
 
 > ⚠️ **BAND RE-SPECIFIED 2026-08-17 — the old rule fired on its LETTER and that is preserved, not erased.** The prior band, *"RT LMP >$1,000 sustained 2+ intervals,"* named **no interval length and no instrument**, so the same 8/16 event fires on the 5-min tape (19:50 + 19:55 consecutive ≥$1,000) and cannot fire at all on the verified hourly. **Recorded FIRED-ON-LETTER / MECHANISM-REFUTED.** Replacement, prospective only:
 > **RED = LMP ≥$1,000 sustained 2+ CONSECUTIVE 5-min intervals AND (an emergency-class posting is live OR demand ≥97% of the trailing 24h peak).** Price alone = a **logged transient**, not a band. (L-29, KB-WATT-069.)
