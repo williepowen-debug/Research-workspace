@@ -28,6 +28,8 @@ Written 2026-10-23 before either print (first public: none). Registered at `dock
 | Ambiguous | Cuts limited to phones/PCs | Record; no score change |
 | Override | TrendForce publishes 1Q27 DRAM ≤ 0% | Treat as the 2018 path regardless |
 
+**GRADED 2026-10-29 [KB-326]: Ambiguous (consumer-only), S2 stays 2.** No server order cuts; 4Q DRAM bits guided up at both (hynix +mid-20%, Samsung +mid-to-high teens); no price-down guide; 2027 HBM sold out (Samsung) and LTAs cover >50% of 2027–28 capacity (hynix). Both cite PC/mobile unit declines caused by memory cost, which is the Ambiguous row. No TrendForce 1Q27 forecast found. Since this is not the 2018 path, the working model leans toward the 2021 (shallow) analog, but the unit-decline language keeps it short of a clean bounce. STATUS is canonical.
+
 ## Instrument (basket changed 2026-10-23, Will-approved)
 
 `tools/semi_watch.py` now reports **`memory_core_1mo_pct` = Micron + SanDisk** as the headline memory measure, with hard-disk makers WDC/STX in `hdd_1mo_pct`. The old four-name `memory_1mo_pct` stays as a legacy column so no past reading changes meaning; earlier rows were backfilled from their own per-stock figures [KB-285]. Core vs legacy: 10/16 −14.80% vs −17.91%; 10/23 **−24.09%** vs −25.56%. In August the old basket hid that memory itself was flat to up. `mag7.py`'s layer decomposition still groups WDC/STX with memory (separate tool, not changed).
