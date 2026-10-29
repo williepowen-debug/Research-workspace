@@ -513,3 +513,19 @@ Booked 2026-10-23 13:2x ET from PROME's transcription of Will's Fidelity Pending
 | AAPL 1 share, market | $346.635 | +$346.64 | $23.645 (avg cost) | **+$323.00** |
 
 Not broker-reported realized P/L; mirror bases (FORGE 10/22 capture). Entry rationale for the USO calls is UNRECOVERABLE (construction rule #20); management-only record, no scoring/sample credit, no execution grade (no same-timestamp quotes). A second 163C STC at $4.50 was Verified Canceled. Tags: POSITION_TRUTH_MISSING narrowed. Lesson: the sale captured a gain on a line whose original card never existed — the result says nothing about the entry process.
+
+## October29 — seven held option lines at holding 0; broker bookkeeping only
+
+Booked 2026-10-29 from Will's own Fidelity IRA positions screenshot (~11:2x ET, viewed by TERRY in-session; `research/2026-10-29_ira-snapshot/NOTE.md`). A positions view shows what is held, not how a line left: **sale vs expiry, fill prices and proceeds are UNKNOWN for all seven**, so no realized P/L is derived and nothing is inferred.
+
+| Line | Card | Last recorded basis | Expiry | How closed |
+|---|---|---:|---|---|
+| QQQ Oct-20 719P ×1 | `MGMT-QQQ719P-OCT20` | $277.66 | 10/20 (passed) | UNKNOWN |
+| QQQ Oct-20 715P ×1 | `MGMT-QQQ715P-OCT20` | $200.66 | 10/20 (passed) | UNKNOWN |
+| QQQ Oct-22 715P ×1 | `MGMT-QQQ715P-OCT22` | $432.66 | 10/22 (passed) | UNKNOWN |
+| CRWV Oct-23 56P ×1 | `MGMT-CRWV56P-OCT23` | UNKNOWN on surface | 10/23 (passed) | UNKNOWN |
+| USO Oct-28 165C ×1 | `MGMT-USO165C-OCT28` | UNKNOWN on surface | 10/28 (passed) | UNKNOWN |
+| CMG Oct-30 28P ×1 | `MGMT-CMG28P-OCT30` | UNKNOWN on surface | 10/30 (not reached ⇒ closed before expiry) | UNKNOWN |
+| USO Oct-30 165C ×1 (remaining of 2) | `MGMT-USO165C-OCT30` | $270.66 or $315.66 (lot) | 10/30 (not reached ⇒ closed before expiry) | UNKNOWN |
+
+Management-only lines (construction rule #20); C5 reminders paused by Will 10/20, so no management grade. If Will supplies the activity rows, realized P/L is booked here once. Separately, Will's rebuy of TBT (×10 at the capture, WQ-357) is recorded on `MGMT-DURSHORT-EXIT-WQ291`. Tags: BOOKKEEPING · NO-SCORE.
