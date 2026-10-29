@@ -1,9 +1,9 @@
 # WALTER STATUS
-**Updated:** 2026-10-29T23:45:17Z — LIGHT closeout, session stays open (late boot + evening routing, walter-38). Resume/duties: LAST_COMPLETION.md.
+**Updated:** 2026-10-29T23:49:15Z — evening session CLOSED at Will request; FULL closeout (WALTER only). Resume/duties: LAST_COMPLETION.md.
 
 ## BOTTOM LINE
 
-Late boot and evening 10/29 (Will relaunch 13:45 ET; still open). Cards SIG-W-20261029-039–055 (17): CYPHER bank-software addendum (039) and its NYDFS attribution CORRECTION (043); Will bookmarks Shell Q3, AI-bailout resolution, Pentagon freezer probe (040–042), Polymarket halt, Fars Aramco claim (CLAIM-ONLY, FAL-01 not fired), Wendy's franchisee (045–047); Fiserv in Cl0p's August claim, missed by the fleet (044); Binance suspected hack IMMEDIATE (048) and update (049); after-hours earnings selloff, Amazon capex held at $220B = not a cut (050); Texas data-center pause shelves the Anthropic-tied bond sale (051); Russia diesel ban to year-end with US quotas (052); HENRY negative gamma (053); credit headlines (054); FLDOE breach (055).
+Late boot and evening 10/29 (Will boot 13:45 ET; closed at Will request 19:48 ET). Cards SIG-W-20261029-039–055 (17): CYPHER bank-software addendum (039) and its NYDFS attribution CORRECTION (043); Will bookmarks Shell Q3, AI-bailout resolution, Pentagon freezer probe (040–042), Polymarket halt, Fars Aramco claim (CLAIM-ONLY, FAL-01 not fired), Wendy's franchisee (045–047); Fiserv in Cl0p's August claim, missed by the fleet (044); Binance suspected hack IMMEDIATE (048) and update (049); after-hours earnings selloff, Amazon capex held at $220B = not a cut (050); Texas data-center pause shelves the Anthropic-tied bond sale (051); Russia diesel ban to year-end with US quotas (052); HENRY negative gamma (053); credit headlines (054); FLDOE breach (055).
 
 Lane: WALTER's supplier-phrase test found the intake lane fetched 0 supplier-incident headlines in 98 days; PROME landed two queries (Research-Intake 63a16b4). WATCH_FOR["CYPHER"] waits for CYPHER's adoption; the when:7d recency choice is WALTER's at next tuning. No new threshold fire in completed checks; HY 314 [10/28] near-exit watch unchanged; BZZ26 4.3% below boundary #1 at midday (intraday). Publication and delivery: LAST_COMPLETION.md receipt.
 
@@ -69,7 +69,7 @@ Signal/news routing and receiving-layer readiness. Domain agents own evidence, g
 
 ## NETWORK AWARENESS
 
-REGISTRY reviewed against owner STATUS lead headers at 2026-10-29T14:58:10Z (30 rows), CYPHER and FALCON again in commit f57936c1e (owner headers 12:09 / 12:14 ET), BRENT header unchanged at closeout. Will reported at 12:43 ET that PROME, DEWEY, CATO, FALCON, CYPHER, HAWK and OSPREY were running; ListAgents showed six of them (no CATO). Cross-session messages this session: FALCON (035 resolved, ladder restatement), DEWEY (008R delivered), CYPHER (036 consumed; v0.49 request). Still behind on their own headers: VIOLET (10/19), GIBBS (10/23), YURI (10/21). Not a full liveness census. Consumption backlog >2d: 7 ACTION / 26 INFO across 5 desks (HANS 5 ACTION), owner/PROME side.
+REGISTRY reviewed against owner STATUS lead headers: VIOLET, HANS and WALTER rows refreshed 2026-10-29T23:49:15Z; WATT 17:50Z; CYPHER/FALCON earlier today (f57936c1e); full 30-row review 14:58:10Z. ListAgents at closeout: PROME, CORAL and HENRY live (earlier in the session: WATT, HANS, BRENT, VULCAN, HAWK, ZHAO, CYPHER, OSPREY, FALCON — since closed). CYPHER and FALCON hold open ACTION cards from this session (044, 045, 046, 048, 049, 055); VULCAN 050/051. Still behind on their own headers: GIBBS (10/23), YURI (10/21). Not a full liveness census. Consumption backlog >2d (doctor run at closeout): 2 ACTION / 5 INFO across GIBBS and CATO, owner/PROME side.
 
 ## Active LIAISON channels
 

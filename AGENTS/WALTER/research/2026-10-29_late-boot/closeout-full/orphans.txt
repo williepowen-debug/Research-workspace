@@ -1,0 +1,15 @@
+⚠️  uncommitted files outside AGENTS/WALTER/:
+     [not yours]    AGENTS/CORAL/STATUS.md
+     [not yours]    AGENTS/CORAL/STATUS_DETAIL.md
+     [not yours]    KIMI_BOOT.md
+     [not yours]    PROME/WILL_QUEUE.md
+     [not yours]    PROME/registry/WQ_LEDGER.crc
+     [not yours]    PROME/registry/WQ_LEDGER.tsv
+     [not yours]    PROME/reports/2026-10-29_firetime-boot-flags-disposition.md
+     [not yours]    PROME/reports/2026-10-29_heartbeat-rebase/
+     [not yours]    PROME/state/ORCH_INFLIGHT.md
+     [not yours]    PROME/state/ORCH_LOG.tsv
+     [not yours]    PROME/state/firetime_dispositioned.tsv
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.
