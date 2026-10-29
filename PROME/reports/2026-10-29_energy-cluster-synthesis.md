@@ -45,7 +45,7 @@ It is one shock, in oil, and it has not transmitted — and on VIOLET's evidence
 ## Caveats that travel
 
 - PROME's brief carried "TTF settle >$100"; the correct statement is "traded above €100/MWh intraday 10/28, settle not established" (HANS: vendor 100.72, ICE table 98.50, official settle unread). Corrected to all three desks 15:37 ET; recorded as PROME's error.
-- Energy-sector credit is unobservable from this box (no energy-HY or utility OAS source; single-name CDS filter faulty). "Credit not transmitting" is about broad HY.
+- Energy-sector credit is mostly unobservable from this box (no energy-HY or utility OAS source). LIQUID's addendum (16:52 ET, c95e7e846) fixed the single-name CDS filter (the fault was a 77-name batch print at one upfront on 10/22) and found one clean utility read: NextEra 5Y 64 → 66 bp [10/20 → 10/23], flat; NRG and Vistra are not citable (DTCC does not disseminate upfront direction). One name is not sector coverage; "credit not transmitting" is about broad HY plus that one flat utility print.
 - All equity closes are vendor daily bars (yfinance), not exchange settles; the 10/29 diesel figure is a futures bar after 14:30 ET. **Two desks disagree on 10/29 VIX** (HENRY 16.50 at 16:06 ET vendor; VIOLET 17.20 Cboe delayed 16:15 ET): the Cboe quote is later-timed (the 16:15 ET session close) but still PROVISIONAL, not the archive final — it beats HENRY's on timing only; read as 'up on the day' provisionally; HENRY told, STATUS fix at its next touch; the Cboe archive final (VIOLET's next boot) supersedes both.
 - VIOLET's prior-fire study has n = 13–14 and wide dispersion (VIX −33% to +30% at 20 sessions): weak evidence either way.
 - VLO's cause is secondary-sourced; no filing from any refiner explains 10/27.
