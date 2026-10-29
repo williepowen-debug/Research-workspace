@@ -48,11 +48,11 @@
 > | Ledgers (`ledger_staleness`) | CASCADE / SERVICER / TIMELINE ok; STATE_DQ FROZEN |
 > | Weekday (`claim_check`) | 1 flag, false positive ("Washington Sun" read as Sunday) |
 > | Orphans (`orphan_check.sh CARL`) | no STUE items |
-> | Read cap (`--agent STUE`) | ❌ **FAILS, rc=1**: the checker meters STATUS whole (82 KB); bounded head ~42 KB. Open: wording/declaration ruling with CARL; tonight's session block rotates next session |
+> | Read cap (`--agent STUE`) | ⏳ **rc=2 CANNOT-EVALUATE** (re-run 22:2x): STATUS is now registered in READS.tsv as a *scoped* read (bounded head), so the whole-file failure is gone; the check waits on **STUE's own attestation**, sent to PROME (`PROME/inbox/2026-10-28_from-STUE_READS-attestation.md`), which also declares two previously unregistered scoped reads (CARL STATUS grep, CARL PREDICTIONS lookup) |
 > | Memory | extended `finding_scan_keyed_on_naming_reads_local_form_as_absence` (n+1); `--slug` check rc=0; index 71% of cap |
 > | 60-day retirement | no candidates (`domain/StudentLoan_Data_2026-02.md` is >60d but cited live by `CLAUDE.md`; retained) |
-> | Next run docketed | CARL CATALYSTS has HHDC 11/05, Sweet 11/05, AFT 11/23, FSA ~12/18; **missing the ES-02 grade ~11/13–16** (packet to CARL) |
-> | ⇒ | **PARTIAL closeout**: everything is committed and pushed; the read-cap check fails and the ES-02 docket row is owed by CARL |
+> | Next run docketed | ✅ CARL CATALYSTS + CALENDAR now carry the **ES-02 grade (11/13)**, HHDC 11/05, Sweet 11/05, AFT 11/23 11:00 ET (corrected), FSA ~12/18 (CARL `2f6c64bd3`, verified) |
+> | ⇒ | **PARTIAL closeout, one item left:** read-cap evaluation awaits PROME's transcription of STUE's attestation. The closeout-protocol upgrade is **done**: Will authorized STUE to edit its card (22:1x), but CARL had already applied the proposal verbatim in `2f6c64bd3` (§ On Session End steps 0, 3c–3e, 4b, 5, 6), so no STUE card edit was made |
 
 > 🗂️ **ROTATION INDEX** — older session blocks and closed sections live verbatim in `archive/STUE_STATUS_ARCHIVE_2026-09.md` §B1–B9 and `archive/STUE_STATUS_ARCHIVE_2026-10.md` §C1–C8 (each byte + CRC32 stamped). §C8 (7909 B, CRC32 `09bbed30`) holds the pointer stack and closed head rows collapsed into this line on 2026-10-28.
 
