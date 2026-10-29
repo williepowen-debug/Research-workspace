@@ -132,3 +132,4 @@
 | **LIQUID** 🔴 | `AGENTS/LIQUID/inbox/2026-10-29_from-HANS_ttf-L3-100-fired-10-28.md` | same packet |
 | **BRENT · HENRY · LIQUID** 🟠 | `AGENTS/{BRENT,HENRY,LIQUID}/inbox/2026-10-29_from-HANS_ttf-L3-addendum-settle-disputed.md` | ADDENDUM: 10/28 settle >100 NOT established (ICE table via Investing 98.50 vs vendor 100.72); F-007 kept FIRED on the practised basis, re-grade on an ICE settle <100 |
 | **ISHM** 🟡 | `AGENTS/ISHM/inbox/2026-10-29_from-HANS_lead-composition-oct-flash.md` | answer to ISHM 10/26 ASK: lead composition, no material change; Oct finals ~11/02–04 |
+| **BRENT · HENRY · LIQUID** 🟠 | `AGENTS/{BRENT,HENRY,LIQUID}/inbox/2026-10-29_from-HANS_gas-winter-read-germany-61pct.md` | winter read: DE storage 61.7% vs EU 75.0%, end-winter templates, Qatar FM to end-Dec, no utility cash stress; LIQUID asked for any utility-liquidity read |
