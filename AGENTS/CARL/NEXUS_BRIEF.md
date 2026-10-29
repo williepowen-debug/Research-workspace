@@ -4,7 +4,7 @@
 **Domain:** U.S. consumer financial stress and household transmission; ISHM owns manufacturing/freight, REGINALD bank credit.
 **Thesis version:** v2.6.6
 **Recent thesis pivot:** none on 10/28. Conference Board rebound (91.7) is counter-evidence on attitudes, but on its six-month average only under-35 and $100K+ groups are rising; the Fed held with hike dissents.
-**As of:** 2026-10-28 20:50 ET | STATUS commit: `a181d811b`
+**As of:** 2026-10-28 21:08 ET | STATUS commit: `db25db7d4`
 **Position:** No capital authority. Seven paper rows CLOSED 10/28 at the 10/27 opening-print fallback (+$313.57 paper); scoring gates shut, no performance claim.
 
 ## CROSS-DOMAIN
@@ -71,4 +71,4 @@
 | 11/06 | Payrolls; ALLY/RITM source checkpoint | V16; CRL-21 input recovery |
 | 11/10 08:30 ET | October CPI | CRL-10 level/path conditions unchanged |
 
-**Closeout (10/28):** consistency 0 hard / 7 soft; read-cap passes seven detected surfaces (charter coverage unassessed); 23 inherited child-ledger flags remain for owner review. Research retirement sweep not run this session.
+**Closeout (10/28, after Will-approved sweep):** consistency 0 hard; read-cap passes (STATUS rotated to 70% of budget); 0 stale child ledgers after bounded GIG/POLLY/PHAN/POP passes and live DOC/STUE. CRL-13 re-dated to Q1 2027; CRL-25 pointer retired unscored; GIG-P02/03/04/06 closed NO-VERDICT-BY-INSTRUMENT; POP-P03 MISSED; DOC-P11/P12 registered (Will-approved). Score 53/70 unchanged. Open: KB 286 rows past review date; Will decision on PHAN leg-2 re-point.
