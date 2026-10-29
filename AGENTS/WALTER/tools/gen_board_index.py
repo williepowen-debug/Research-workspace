@@ -110,6 +110,16 @@ def load_signals() -> OrderedDict:
             fm[k] = clean(fm.get(k))
             if not fm.get(k):
                 errors.append(f"{base}: missing `{k}:`")
+        # FORMAT_SPEC v0.22 `kill_strings:` — mandatory on corrections, unenforced 9/24–10/29
+        # (53 misses). HARD error from KILL_STRINGS_ENFORCED_FROM on the `dispatched:` stamp,
+        # so a new correction cannot reach the INDEX without it; older misses are left as-is
+        # (dispatched signals are immutable; walter_doctor counts them).
+        if re.fullmatch(r"""["']?correction["']?""", clean(fm.get("signal_type"))):
+            ks = clean(fm.get("kill_strings"))
+            disp = clean(fm.get("dispatched")).strip("\"'")
+            if disp >= KILL_STRINGS_ENFORCED_FROM and ks in ("", "[]", '""', "''", "null", "~"):
+                errors.append(f"{base}: `signal_type: correction` without `kill_strings:` (FORMAT_SPEC v0.22; "
+                              f"use [\"NONE — <why>\"] when there is no literal)")
         action = listify(fm.get("action") or fm.get("to", ""))
         info = listify(fm.get("info", ""))
         sigs[sid] = dict(
@@ -138,6 +148,7 @@ def load_signals() -> OrderedDict:
 # from_cluster no longer matches the signal's header, or whose to_cluster is not a taxonomy cluster,
 # is a HARD error — a stale re-filing must never silently move or strand a signal.
 RECAT = os.path.join(ROOT, "AGENTS", "WALTER", "registry", "CLUSTER_RECATEGORIZATIONS.tsv")
+KILL_STRINGS_ENFORCED_FROM = "2026-10-29T16:00:00Z"  # same constant as walter_doctor
 RECAT_COLS = ["signal_id", "from_cluster", "to_cluster", "date", "authority", "reason"]
 
 def taxonomy_clusters(path: str = TAXONOMY) -> set[str]:

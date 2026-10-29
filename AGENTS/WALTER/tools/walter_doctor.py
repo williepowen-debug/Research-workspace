@@ -2099,6 +2099,59 @@ def check_dewey_handoff_liveness():
 
 
 
+# 2026-10-29: the old test `^signal_type:\s*correction\s*$` missed the QUOTED form
+# (`signal_type: "correction"`), so 16 correction signals from 10/21 on were never
+# inspected while the check reported "all 132 ... declare a target". One shared test.
+_CORRECTION_TYPE = re.compile(r"""^signal_type:\s*["']?correction["']?\s*$""", re.M)
+
+
+def _is_correction(head: str) -> bool:
+    return bool(_CORRECTION_TYPE.search(head))
+
+
+KILL_STRINGS_ENFORCED_FROM = "2026-10-29T16:00:00Z"  # dispatch-time enforcement start
+
+
+def check_correction_kill_strings():
+    """FORMAT_SPEC v0.22: `kill_strings:` is MANDATORY on every `signal_type: correction`
+    (from 2026-09-24, forward-only, never backfilled). Measured 2026-10-29: 64 of 84
+    correction-class signals since 9/24 lacked it and NOTHING checked — a mandatory field
+    with no check is advisory. Enforcement starts at KILL_STRINGS_ENFORCED_FROM (on the
+    `dispatched:` stamp): a correction dispatched after it without a non-empty value is
+    MED. Earlier misses are COUNTED as INFO, not graded and not backfilled (dispatched
+    signals are immutable; the spec says not backfilled)."""
+    if not BOARD.exists():
+        return [(LOW, "BOARD/ not found — kill_strings check skipped")]
+    new_missing, legacy_missing, ok = [], 0, 0
+    for f in sorted(BOARD.glob("SIG-W-*.md")):
+        if f.name[6:14] < "20260924":
+            continue
+        try:
+            head = f.read_text(encoding="utf-8", errors="replace").split("\n---", 1)[0]
+        except OSError:
+            continue
+        if not _is_correction(head):
+            continue
+        m = re.search(r"^kill_strings:\s*(.*)$", head, flags=re.M)
+        val = m.group(1).strip() if m else ""
+        if val and val not in ("[]", '""', "''", "null", "~"):
+            ok += 1
+            continue
+        d = re.search(r"""^dispatched:\s*["']?([0-9T:\-]+Z)""", head, flags=re.M)
+        stamp = d.group(1) if d else f.name[6:14]
+        if d and stamp >= KILL_STRINGS_ENFORCED_FROM:
+            new_missing.append(f.name[:40])
+        else:
+            legacy_missing += 1
+    out = [(MED, f"{n}...: `signal_type: correction` without `kill_strings:` — mandatory "
+                 f"at dispatch (FORMAT_SPEC v0.22; use [\"NONE — <why>\"] when no literal)")
+           for n in new_missing]
+    out.append((INFO, f"kill_strings since 2026-09-24: {ok} correction(s) carry it; "
+                      f"{legacy_missing} pre-enforcement miss(es) counted, not backfilled "
+                      f"(enforcement from {KILL_STRINGS_ENFORCED_FROM})"))
+    return out
+
+
 def check_correction_target_declared():
     """FORMAT_SPEC v0.15: `signal_type: correction` REQUIRES a non-empty `corrects` field.
 
@@ -2123,7 +2176,7 @@ def check_correction_target_declared():
             head = f.read_text(encoding="utf-8", errors="replace").split("\n---", 1)[0]
         except OSError:
             continue
-        if not re.search(r"^signal_type:\s*correction\s*$", head, flags=re.M):
+        if not _is_correction(head):
             continue
         sid = (re.search(r"^signal_id:\s*(\S+)", head, flags=re.M) or [None, f.name])[1]
         m = re.search(r"^corrects:\s*(.*)$", head, flags=re.M)
@@ -2992,6 +3045,7 @@ CHECKS = [
     ("cluster_review_overdue", check_cluster_review_overdue),
     ("registered_but_unrouted", check_registered_but_unrouted),
     ("correction_target_declared", check_correction_target_declared),
+    ("correction_kill_strings", check_correction_kill_strings),
     ("batch_manifest_open", check_batch_manifest_open),
     ("dispatch_frontmatter", check_dispatch_frontmatter),
     ("action_line_rule", check_action_line_rule),
