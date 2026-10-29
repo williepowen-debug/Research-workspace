@@ -5,10 +5,10 @@
 **October26 FERT approved build consumed:** [receipt](reports/2026-10-26_fert-build-consumption.md). Initial baselines now authorized/built; earlier uncommissioned audit status superseded for this work. READS ingested but partial: BASIS/absent receipt-path corrections returned to owner. Potash alias proposal remains a shared-vocabulary carry, triage only. Extractor reproduction blocked by missing pandas here; bounded hash/schema/arithmetic checks passed. Latest MIDAS recycling/refinery packet remains pending.
 
 **October26 MIDAS close refresh consumed:** [receipt](reports/2026-10-26_midas-close-refresh-consumption.md). Saved-close arithmetic verifies new platinum −20% trend crossing; actual8/20 and counterfactual13/20 unchanged. GLD Monday quantity −0.85t and real10Y2.66% verified in saved primary files. November1 21:40ET floor retained; gold certified-settlement gap open. Late CARL/ISHM news sweeps and CYPHER/VULCAN packets remain separate pending intake.
-**Updated:** 2026-10-27T00:19:46-04:00 actual session closeout; current resume pointer below supersedes earlier restart checkpoints.
+**Updated:** 2026-10-28 21:37 ET actual Standard closeout (prome-92); this ★ NEXT supersedes the October27 pointer below.
 
 ## ★ NEXT SESSION — START HERE
-**Current closeout:** [October27 receipt](reports/2026-10-27_standard-closeout.md) owns the complete pending-inbox census, lifecycle and next-boot priorities. Start normal BOOT; do not resume the earlier checkpoint as an unfinished session. Research sources and dates remain qualified.
+**Current closeout (October28 night, prome-92):** account `memory/2026-10-28.md`; boot receipt `reports/2026-10-28_night-boot.md`. **Start ordinary BOOT.** First acts next boot: ① DAEDALUS's 10/28 packet is CONSUMED (committed by DAEDALUS 504e56cc4 at 21:35 ET, registered as WQ-529 · L851 HOMER wake · L852 asks bundle, L40/L565 annotated, filed to `PROME/inbox/processed/`); ② L852 ask ① first — the gate's heartbeat-chain check is blind to the 35th-base amendment format (acceptance before edit); ③ Thu 10/29 PROME reads: L739 fleet half, L811 ELLISON checkpoint, HENRY/REGINALD/BOND FOMC-day returns; ④ the desk slate held tonight because Will was launching desks himself (CORAL L784 · BROCK L826/L741 · CRUISE L713 · FLG L838 · REGINALD L516/L805/L818 · HENRY L773 · LIQUID L568 · CREED L723 · MARCO L785 · SHADE L781 · DEWEY L834 · ZHAO L482 · HOMER L851) — ListAgents + host ps first; ⑤ Fri 10/30 cluster: WQ-519 (iii) · 504 · 521 · 522 · 490 (QQQ card window ends); WQ-529 RULED 21:51 ET (YURI retirement DECLINED; B re-test L854 stands unless Will says C); NEXUS L751 cell-8 read; WQ-515 cutoff 16:00 ET; CATO L848. WALTER's closeout receipt was not in at PROME's closeout. Research sources and dates remain qualified.
 
 ### Earlier working-session notes — historical checkpoints; unresolved duties survive at their canonical rows
 
@@ -65,7 +65,7 @@
 
 ## Pending Will
 <!-- WILLQ-VIEW BEGIN -->
-- **Pending Will (GENERATED from `PROME/WILL_QUEUE.md` § OPEN by `PROME/tools/willq_view.py` · as-of 2026-10-28 · 19 open, 0 blocked — dated first, blocked last; never hand-edit inside the markers):** WQ-463 (10/9) · WQ-357 (10/14) · WQ-448 (10/17) · WQ-455 (10/20) · WQ-422 (10/23) · WQ-471 (10/24) · WQ-477 (10/27) · WQ-522 (10/30) · WQ-521 (10/30) · WQ-519 (10/30) · WQ-504 (10/30) · WQ-503 (10/30) · WQ-490 (10/30) · WQ-31 (11/1) · WQ-491 (11/2) · WQ-495 (11/5) · WQ-492 (11/6) · WQ-518 (11/13) · WQ-489 (—)
+- **Pending Will (GENERATED from `PROME/WILL_QUEUE.md` § OPEN by `PROME/tools/willq_view.py` · as-of 2026-10-28 · 18 open, 0 blocked — dated first, blocked last; never hand-edit inside the markers):** WQ-463 (10/9) · WQ-357 (10/14) · WQ-448 (10/17) · WQ-455 (10/20) · WQ-422 (10/23) · WQ-471 (10/24) · WQ-477 (10/27) · WQ-522 (10/30) · WQ-521 (10/30) · WQ-519 (10/30) · WQ-504 (10/30) · WQ-490 (10/30) · WQ-31 (11/1) · WQ-491 (11/2) · WQ-495 (11/5) · WQ-492 (11/6) · WQ-518 (11/13) · WQ-489 (—)
 <!-- WILLQ-VIEW END -->
 
 ## Operator card
