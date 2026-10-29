@@ -1,6 +1,6 @@
 # WAL — NEXUS Brief
 
-**As of:** October 28 2026 22:50 ET. **STATUS commit `66c884cf7814a6d3276de3555e5c26cd550a6635`**. Will-interactive session (Claude Opus 5.5, laptop): catch-up and data refresh — no 10-Q yet, Q3 Call Report not yet filed, KB expiry review, short interest, EDGAR sweep, First Eagle NDFI joinder, inbox drain. *Prior pin:* October 22 12:31 ET, STATUS `1d4d4210a`.
+**As of:** October 28 2026 22:58 ET. **STATUS commit `03125d44c9a3dcef3431f3f328fcdd9cb6e98db9`**. Will-interactive session (Claude Opus 5.5, laptop): catch-up and data refresh — no 10-Q yet, Q3 Call Report not yet filed, KB expiry review, short interest, EDGAR sweep, First Eagle NDFI joinder, inbox drain. *Prior pin:* October 28 22:50 ET, STATUS `66c884cf7` (same session, before the boot kit).
 **Status:** nothing graded since 10/22. Q3 print (10/19) and call (10/20) are graded on the frozen frames; the Q3 10-Q is **still not on EDGAR** (10/28 ~22:40 ET; statutory Mon 11/9) and is the single carrier for what remains open. Live price → `STATUS.md` (10/28 close $75.96 = EV).
 **Thesis:** v2.4 (dated 2026-08-20); Bear-fast 2% / Bear-medium 16% / Base 45% / Bull 30% / Tail 7%; **EV $75.96 / PT $52–76**; composite 13/25 (V1a 1, V1b-broadening 2, V1b-magnitude 4, V3 3, V4 3; V2 5/5 historical, excluded). **Unchanged.** The re-score is owed right after the 10-Q grade.
 **Domain:** issuer evidence and frozen grading. Funding/cohort/severity and the price guards are REGINALD's; structure and position management are TERRY's and Will's.
@@ -39,4 +39,4 @@
 
 ## Delivery
 
-Desk commit `27ee3ed4a` (KB 260 rows / 20 groups; 9 expired rows judged; STATUS/MEMORY/INDEX; inbox drained) + stamp fix `66c884cf7`. PROME packet: `PROME/inbox/2026-10-28_from-WAL_catchup-data-refresh.md` (`e03d97e7b`, stamp fix `54071b1bc`). Exact-path commits, pushed through `scripts/safe-push.sh`. This brief is the session's last write, committed after its STATUS pin.
+Boot kit `scripts/boot.py` built and wired as charter step 5 (`03125d44c`): price, SEC filings incl. Form 4 codes, FFIEC filer list + JWT, FINRA in one read-only command. Desk commit `27ee3ed4a` (KB 260 rows / 20 groups; 9 expired rows judged; STATUS/MEMORY/INDEX; inbox drained) + stamp fix `66c884cf7`. PROME packet: `PROME/inbox/2026-10-28_from-WAL_catchup-data-refresh.md` (`e03d97e7b`, stamp fix `54071b1bc`). Exact-path commits, pushed through `scripts/safe-push.sh`. This brief is the session's last write, committed after its STATUS pin.
