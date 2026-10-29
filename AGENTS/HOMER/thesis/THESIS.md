@@ -212,4 +212,6 @@ No other newly resolving print was integrated: **0/5 legs killed**, no criterion
 | **A2** | PMMS **7.32% [10/22]** (ISSUER CSV) | **0 / 4** | NOT FIRED | 82bp above the kill line (≤ 6.50%) |
 | **A3** | no HMI (next 11/17). Builder 8-Ks (context, not the criterion): PHM GM 24.8%, NVR 18.3% cancels 21%, MTH 17.4%, CCS guidance cut | **0 / 3** | NOT FIRED | pending |
 
+**C2 · GSE addendum (same session, news sweep):** Fannie Q3 earnings release (10/28) gives MF serious DQ **0.62% at 9/30** (Q2-end 0.60%) with the MF provision **$446M vs $259M (+72%)**. max(Freddie 0.58, Fannie 0.62) = 0.62 ≥ 0.50 ⇒ **0 / 3, NOT FIRED**. The §2 provision pairing points the same way as the headline this quarter (KB-HOMER-042).
+
 **LITERAL FIRED-COUNT: 0 of 5 legs ⇒ 🔴 holds.** No criterion, level or confidence moved. Evidence: `reports/2026-10-28_catchup-prints.md`; ledgers PIPELINE / MULTIFAMILY / RATES / BUILDER rows dated 2026-10-28.
