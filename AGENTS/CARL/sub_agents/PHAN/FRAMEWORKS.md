@@ -186,7 +186,8 @@ PHAN's frameworks all terminate in one claim: **invisible → visibility arrives
 
 > ⛔ **READ THE STATUS LINE BELOW FIRST.** The block that follows is an **Apr-2026 artifact**, retained verbatim because the DAEDALUS audit designated it a must-carry (*"the best writeup of this fact anywhere in the fleet"*). **Its framing was corrected on 2026-09-11 and is NOT current.**
 >
-> ### ✅ CURRENT STATUS (2026-09-11): **ENJOINED + UNDER RECONSIDERATION — not agency-withdrawn.**
+> ### ✅ CURRENT STATUS (2026-09-11, updated 2026-10-28): **ENJOINED + UNDER RECONSIDERATION — not agency-withdrawn.**
+> **Update 2026-10-28:** the CFPB sent the NPRM *"Personal Financial Data Rights Reconsideration (Section 1033)"* to OIRA (the White House regulatory review office) around **2026-08-06**. Text is not public, and it was **unpublished in the Federal Register at 10/28**. That is the fee-permissive rewrite branch below, now one step from proposal. *(REGULATORY.tsv 2026-08-06 row.)*
 > The CFPB **withdrew its request that the court vacate** Rule 1033 and **reopened the rulemaking** (ANPRM 2025-08-22, comments closed 2025-10-21; reconsideration covers the "representative" definition, **data-access fees**, and the security/privacy cost-benefit). The April-2026 compliance date is **stayed**, not killed. ⚠️ **"EFFECTIVELY DEAD" overstated it: a rewritten, fee-permissive 1033 is a live 2027+ branch** — and a fee-permissive rewrite would weaken phantom-debt visibility *even once effective*. Verified at three independent law-firm secondaries 2026-09-11.
 
 > **CFPB 1033: WHAT HAPPENED (Updated Apr 17)**
@@ -209,7 +210,9 @@ PHAN's frameworks all terminate in one claim: **invisible → visibility arrives
 
 ---
 
-## 2.8 🔻 STRUCTURAL FIX OWED — why this rebuild was 42 days late
+## 2.8 ✅ STRUCTURAL FIX ADOPTED 2026-09-11 — why this rebuild was 42 days late
+
+> ✅ **Option (2), inbox packets, was adopted by CARL on 2026-09-11** (CARL→PHAN packet of that date, line "CARL→PHAN routing: Fixed"; PHAN processed it 2026-10-28, 47 days later). CARL→PHAN assignments now arrive in `inbox/`. The analysis below is kept as the record of why.
 
 The rebuild was assigned in `KB-CARL-367` on **2026-07-31** and discovered on **2026-09-11**, by a gap review rather than by any mechanism. **PHAN had no way to know.** The assignment was written into CARL's KB Notes column; PHAN is dossier-mode, boots only on ad-hoc spawns, and reads its own directory. Three PHAN passes ran in between and none could have caught it.
 
@@ -239,10 +242,12 @@ The rebuild was assigned in `KB-CARL-367` on **2026-07-31** and discovered on **
 | **NCLC court tracker** | Ongoing | EWA "finance charge" rulings (8-court TILA line) |
 | CFPB Rule 1033 status | Ongoing | Open-banking enforcement timeline |
 | FICO | Periodic | BNPL score adoption (FICO 10 / 10 T BNPL) |
-| **Richmond Fed EB** | Periodic | BNPL research — **EB 26-05 key** (KB-CARL-028: BNPL late 34%→41%) |
+| **Richmond Fed EB** | Periodic | BNPL research, **EB 26-05 key** (pay-in-4 $3.02B; aggregates claim, §2.5). ⛔ Not the source of the 34→41% late series, despite `KB-CARL-028` |
+| **LendingTree BNPL Tracker** | Annual late/stacking survey (Mar fielding) + monthly tracker | **Source of the BNPL late-rate band** (34→41→47%) and stacking 63%. Opt-in online, n≈2,000 |
+| **Fed SHED** (*Economic Well-Being of U.S. Households*) | Annual, May (Oct fielding) | BNPL use, **late 26% flat (2025)**, income gradient. Probability panel, n≈13,000. Counter-basis to LendingTree |
 | **New Economy Project** | Ongoing | NYC cash-advance fee tracking ($650M+ drain) |
 | **Chime regulatory tracker** | 2026 | State EWA-law count (12 enacted, ~20 pending) |
 
-**Catalyst cadence:** Affirm FY Q3 ~May, Q4 ~Aug; Klarna quarterly ~mid-quarter-close+6wk. **Next natural refresh trigger:** **Affirm FQ4-2026 earnings CONFIRMED 2026-08-20 after close** (TipRanks/MarketBeat, news sweep 7/10); Klarna Q2 ~mid-Aug. *(Supersedes the earlier "~Aug-13" estimate.)*
+**Catalyst cadence:** Affirm FY Q3 ~May, Q4 ~Aug; Klarna quarterly ~mid-quarter-close+6wk. **Next refresh triggers (confirmed at company releases, 2026-10-28):** **Coastal (CCB) Q3 2026-10-29 before open · Affirm FQ1-27 2026-11-05 after close · Klarna Q3 2026-11-17 before open.** Fed SHED next ~May 2027.
 
 ---

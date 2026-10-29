@@ -85,7 +85,8 @@ PREDICTIONS.tsv	Date_Made	Date	When prediction was created (YYYY-MM-DD)
 PREDICTIONS.tsv	Prediction	String	The prediction statement
 PREDICTIONS.tsv	Confidence	String	Confidence percentage
 PREDICTIONS.tsv	Timeframe	String	Expected resolution window
-PREDICTIONS.tsv	Status	String	TRACKING / CONFIRMED / MISSED / CANCELLED
+PREDICTIONS.tsv	Status	String	OPEN / MIXED / HIT / MISSED (legacy values TRACKING / CONFIRMED / MISSED / CANCELLED; resolution is CARL's)
 PREDICTIONS.tsv	Date_Resolved	Date	When resolved (empty if unresolved)
 PREDICTIONS.tsv	Outcome	String	What actually happened
 PREDICTIONS.tsv	Notes	String	Context
+PREDICTIONS.tsv	Instrument	String	Published series that resolves the row: source :: metric :: threshold (mirrors CARL consistency_check Check D; schema row added 2026-10-28)

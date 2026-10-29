@@ -3,6 +3,7 @@
 > ⛔ **THE PROTOCOL SECTIONS BELOW ARE SUPERSEDED TOO, NOT JUST THE DATA — added 2026-09-11.** A frozen file keeps issuing instructions, and these two have gone wrong in ways that are invisible to a reader who trusts them:
 > - **§"On Session End" step 1 — "Update STATUS.md" — POINTS AT A FROZEN FILE.** `STATUS.md` was frozen by this same 2026-07-10 demotion. The closeout was never updated for it. **Closeout is now `DOSSIER.md` §8**, which also carries the git/commit/push step this section never had.
 > - **§"On Session End" step 2 + §"State Vector Protocol" — the route is PART-DEAD.** They target `../SHARED/state_vectors/incoming/`; **`SHARED/` does not exist.** The working route is an outbox packet at `outbox/` **plus** a delivery copy into `AGENTS/CARL/inbox/` (root carve-out ①, self-committed).
+> - **§"On Session Start" steps 1–5 are SUPERSEDED (added 2026-10-28).** Step 1 "Read STATUS.md" points at a frozen file, and the fleet read-cap check takes it literally (it grades `STATUS.md` instead of the dossier). **Boot is `DOSSIER.md` §8 BOOT.** Step 0 (inbox scan) survives and is restated there.
 > - **§"Key Thresholds" and §"Why This Domain Matters" assert `$400B+` phantom debt — REFUTED** (`KB-CARL-367`: ~$176–216B broad / ~$30–60B credit-only; medical ~85%). Rebuilt framework → `FRAMEWORKS.md`.
 >
 > **Frozen means NOT EDITED — this banner is the maintained correction.** What is still good here: the boot **step 0 inbox scan** (incl. the AGE-IS-A-FINDING rule) and **"PHAN proposes, CARL disposes."**

@@ -27,7 +27,7 @@ YYYY-MM-DD_from-<SENDER>_<short-kebab-subject>.md
 - **Commit your packet** (root `CLAUDE.md` carve-out ①) — an uncommitted packet never arrives and nobody is told.
 - ⚠️ **Boot-cadence honesty: PHAN is **dossier-mode and does not boot on a schedule.** It is spawned ad hoc, and may go a full quarter or more without a session.** If your material is time-critical, **send it to CARL as well and say so in the packet.** This is a real property of the channel, not a disclaimer.
 
-⚠️ **The live rebuild PHAN owns:** phantom debt was **REVISED DOWN 2026-07-31** (DEWEY C4) to a broad **~$176-216B (central ~$195B)** and **credit-only ~$30-60B**; the old *"$150-400B"* range and the *"bottom-60 leverage 20-30% higher than reported"* claim are **retired** (revised band 5-20%). Prefer the CFPB **flow** gap (~$80B/yr accruing vs ~$36B/yr reaching reports, ~2.2x) over any stock estimate. Counter-evidence (Duarte et al. NBER: medical debt adds minimal default-prediction information) is staged to RED.
+✅ **The rebuild PHAN owed is DONE (2026-09-11, `FRAMEWORKS.md`).** For context: phantom debt was **REVISED DOWN 2026-07-31** (DEWEY C4) to a broad **~$176-216B (central ~$195B)** and **credit-only ~$30-60B**; the old *"$150-400B"* range and the *"bottom-60 leverage 20-30% higher than reported"* claim are **retired** (revised band 5-20%). Prefer the CFPB **flow** gap (~$80B/yr accruing vs ~$36B/yr reaching reports, ~2.2x) over any stock estimate. Counter-evidence (Duarte et al. NBER: medical debt adds minimal default-prediction information) is staged to RED.
 
 ## For PHAN
 
