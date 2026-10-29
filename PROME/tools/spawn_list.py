@@ -46,7 +46,7 @@ METHOD (every leg verifiable at the artifact):
 EXIT: 1 when any DARK candidate exists (the gate prints them as ⚠️ lines), else 0. --selftest: 0 pass / 1 fail.
 USAGE: python3 PROME/tools/spawn_list.py [--horizon N] [--tsv] [--as-of YYYY-MM-DD] [--docket PATH|REV:PATH] [--selftest]
 """
-import argparse, datetime as dt, re, subprocess, sys
+import argparse, datetime as dt, hashlib, json, re, subprocess, sys
 from typing import NamedTuple
 from pathlib import Path
 
@@ -68,7 +68,7 @@ CAP_PER_BOOT = 4      # WQ-184 leg ② — informational here; PROME enforces at
 _DV = ROOT / "scripts"
 if str(_DV) not in sys.path:
     sys.path.insert(0, str(_DV))
-from docket_view import state_kind            # noqa: E402  — fail LOUD if it moves; never fall back to a local copy
+from docket_view import state_kind, owner_names   # noqa: E402  — fail LOUD if either moves; never fall back to a local copy
 
 
 COVERED_SELF = re.compile(r"COVERED:[^·|]*\bPROME\b[^·|]*\b(?:L0 SPAWN|SPAWN|SLATED|SLATE)\b", re.I)
@@ -479,17 +479,18 @@ def cadence_selftest() -> int:
     return 0 if ok else 1
 
 
-def list_open(docket_text, today):
-    """Every DOCKET row still OPEN by the SHARED lead-token reading — no spawn-candidacy filter.
+OPEN_SCHEMA, OPEN_VERSION = "spawn_list.open", 1
+OPEN_SCOPE = "DOCKET only — GATES rows are not in this export; 'open' is the shared state_kind reading, no spawn-candidacy filter"
+OPEN_FIELDS = ("key", "line", "date_cell", "due", "approx", "status", "owner_cell", "owner_names", "owner_token",
+               "will_owned", "prome_owned", "state_cell", "covered", "coverage", "spawn_suppressed", "catalyst", "notes")
+_COVERAGE = re.compile(r"COVERED\s*:?\s*([^\u00b7|]*)", re.I)
 
-    This exists because "what is still owed" and "what should PROME spawn" are different
-    questions, and answering the first with the second's machinery is what hid three due rows
-    on 2026-09-13 (DOCKET L368). It is also the query to reach for when preparing a brief:
-    the alternative PROME actually reached for was an ad-hoc substring match that read 77
-    TERMINAL rows as open and put a false premise into a desk's instructions.
 
-    Returns (line_no, date_cell, owner, overdue, description) for open rows only.
-    """
+def open_records(docket_text, today):
+    """Every DOCKET row still OPEN by the SHARED lead-token reading, as full records (contract v1,
+    acceptance PROME/tools/tests/ACCEPTANCE_spawn_list_open_export_2026-10-29.md). Nothing is filtered
+    by coverage or owner — those are FIELDS. `due` = the LAST YYYY-MM-DD in the date cell (a range's END);
+    `status` partitions against `today`: overdue < today == today < future, else undated."""
     out = []
     for i, line in enumerate(docket_text.split("\n"), 1):
         if not line.strip() or line.startswith("#"):
@@ -499,16 +500,83 @@ def list_open(docket_text, today):
             continue
         if state_kind(c[3]) != "PENDING":
             continue
+        c += [""] * (6 - len(c))
         m = DATE.findall(c[0])
         due = m[-1] if m else ""                      # a range's END is the operative date
-        out.append((i, c[0], c[2], due and due <= today.isoformat(), c[1]))
+        t = today.isoformat()
+        status = "undated" if not due else "overdue" if due < t else "today" if due == t else "future"
+        tok = owner_token(c[2])
+        cov = _COVERAGE.search(c[3] + " " + c[5])
+        out.append({"key": f"D:L{i}", "line": i, "date_cell": c[0], "due": due,
+                    "approx": c[0].lstrip().startswith("~"), "status": status,
+                    "owner_cell": c[2], "owner_names": owner_names(c[2]), "owner_token": tok,
+                    "will_owned": tok == "WILL", "prome_owned": tok == "PROME",
+                    "state_cell": c[3], "covered": cov is not None,
+                    "coverage": cov.group(1).strip() if cov else "",
+                    "spawn_suppressed": covered(c[3], c[5]), "catalyst": c[1], "notes": c[5]})
     return out
+
+
+def list_open(docket_text, today):
+    """Every DOCKET row still OPEN by the SHARED lead-token reading — no spawn-candidacy filter.
+
+    This exists because "what is still owed" and "what should PROME spawn" are different
+    questions, and answering the first with the second's machinery is what hid three due rows
+    on 2026-09-13 (DOCKET L368). It is also the query to reach for when preparing a brief:
+    the alternative PROME actually reached for was an ad-hoc substring match that read 77
+    TERMINAL rows as open and put a false premise into a desk's instructions.
+
+    Returns (line_no, date_cell, owner, overdue, description) for open rows only — a projection
+    of open_records(); one reading, two shapes.
+    """
+    return [(r["line"], r["date_cell"], r["owner_cell"], r["status"] in ("overdue", "today"), r["catalyst"])
+            for r in open_records(docket_text, today)]
+
+
+def _cell(v):
+    return "true" if v is True else "false" if v is False else str(v)
+
+
+def export_open(docket_spec: str, today, fmt: str) -> int:
+    """fmt in {'json','tsv','human'}. rc 0 = a successful read (a zero-row result is still rc 0);
+    rc 2 = the docket could not be read — UNKNOWN, printed as an error object (json) or to stderr."""
+    try:
+        text = read_text(docket_spec)
+    except BaseException as e:                      # includes a failed `git show` and a missing file
+        err = f"docket unreadable ({docket_spec}: {type(e).__name__}: {e})"
+        if fmt == "json":
+            print(json.dumps({"schema": OPEN_SCHEMA, "version": OPEN_VERSION, "as_of": today.isoformat(),
+                              "source": docket_spec, "error": err}, ensure_ascii=False))
+        else:
+            print("\u26d4 UNKNOWN — " + err, file=sys.stderr)
+        return 2
+    rows = open_records(text, today)
+    if fmt == "json":
+        print(json.dumps({"schema": OPEN_SCHEMA, "version": OPEN_VERSION, "as_of": today.isoformat(),
+                          "source": docket_spec, "source_sha256": hashlib.sha256(text.encode("utf-8")).hexdigest(),
+                          "scope": OPEN_SCOPE, "count": len(rows), "rows": rows}, ensure_ascii=False))
+        return 0
+    if fmt == "tsv":
+        print("\t".join(OPEN_FIELDS))
+        for r in rows:
+            print("\t".join(_cell(r[f]) for f in OPEN_FIELDS))
+        return 0
+    overdue = sum(1 for r in rows if r["status"] in ("overdue", "today"))
+    print(f"DOCKET open rows (shared lead-token reading) · as-of {today} · "
+          f"{len(rows)} open · {overdue} due or overdue")
+    print("\u26a0\ufe0f  NOT a spawn list — no COVERED filtering. 'Owed' != 'PROME should spawn it'.")
+    for r in rows:
+        print(f"  {'DUE ' if r['status'] in ('overdue', 'today') else '    '}L{r['line']:<4} {r['date_cell']:<24.24} "
+              f"{r['owner_cell'][:26]:<26.26} {r['catalyst'][:64]}")
+    return 0
 
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--horizon", type=int, default=0, help="days ahead (boot 0; closeout 1 weekday / 3 Fri-Sat)")
-    ap.add_argument("--tsv", action="store_true")
+    ap.add_argument("--tsv", action="store_true", help="tab-separated rows (with --open: the v1 export, header row first)")
+    ap.add_argument("--json", action="store_true",
+                    help="with --open: the versioned export object (schema spawn_list.open v1); rc 2 + an error object if the docket is unreadable")
     ap.add_argument("--as-of", help="YYYY-MM-DD: sets today AND bounds the liveness git log (--until)")
     ap.add_argument("--docket", default="PROME/DOCKET.tsv", help="PATH or REV:PATH")
     ap.add_argument("--gates", default="PROME/GATES.tsv", help="PATH or REV:PATH")
@@ -529,15 +597,7 @@ def main():
         return selftest()
     today = dt.date.fromisoformat(a.as_of) if a.as_of else dt.date.today()
     if a.open:
-        rows = list_open(read_text(a.docket), today)
-        overdue = sum(1 for r in rows if r[3])
-        print(f"DOCKET open rows (shared lead-token reading) · as-of {today} · "
-              f"{len(rows)} open · {overdue} due or overdue")
-        print("⚠️  NOT a spawn list — no COVERED filtering. 'Owed' != 'PROME should spawn it'.")
-        for ln, date_cell, owner, is_overdue, desc in rows:
-            print(f"  {'DUE ' if is_overdue else '    '}L{ln:<4} {date_cell:<24.24} "
-                  f"{owner[:26]:<26.26} {desc[:64]}")
-        return 0
+        return export_open(a.docket, today, "json" if a.json else "tsv" if a.tsv else "human")
     live = Liveness(until=(a.as_of + " 23:59") if a.as_of else None)
     # ⛔ THE CADENCE READ MUST NEVER BE ABLE TO KILL THE READER. Found by the failure-path
     # check the spec demands (§5, "preserve the reader's existing exit-code contract"): an
