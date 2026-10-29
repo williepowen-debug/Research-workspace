@@ -8,7 +8,7 @@
 
 **Recent thesis pivot:** v1.0 → v1.0.3 (10/22) — corrections only. Most recent material view shift: concentration read as deterioration → **level-high, trajectory de-risking** (8/20). The live signal is the reserve and the exit channel, not the 327.5% ratio.
 
-**As of:** 2026-10-28 23:03 ET | STATUS commit: `cc219c606` — event-driven desk; this brief stands until the next print or owner session.
+**As of:** 2026-10-28 23:06 ET | STATUS commit: `8883529d8` — event-driven desk; this brief stands until the next print or owner session.
 
 ---
 
