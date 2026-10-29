@@ -70,3 +70,20 @@ Unchanged (5 / 4). No new FERC, BRA or queue primary this pass. Inbox counterevi
 ## Records
 
 KB-WATT-181–185 · VX P1 · STATUS · CLAUDE.md scope line · LESSONS · SCRATCH · board_log. Captures with SHA256: `sources/2026-10-29/capture-manifest.json`.
+
+## Addendum 13:5x ET — is it getting worse? Year-over-year test (Will asked)
+
+Verified hourly PJM-RTO price, September 1–October 28, 2025 vs 2026 (n=1,392 each) [KB-WATT-186]:
+
+| Measure | 2025 | 2026 |
+|---|---:|---:|
+| Median hour $/MWh | 34.79 | 36.78 |
+| Mean $/MWh | 45.43 | 67.30 |
+| Hours ≥$200 / ≥$500 / ≥$1,000 | 10 / 1 / 0 | 52 / 19 / 7 |
+| Worst hour | $691.78 | $3,478.96 |
+| Henry Hub mean | $3.06 | $2.99 |
+| Demand mean / hours >110 GW | 87.6 GW / 45 | 93.7 GW / 190 |
+
+Same-load rate of hours ≥$200: 90–100 GW 4.3% vs 0.7%; 100–110 GW 5.1% vs 3.5%; >110 GW 14% vs 2%.
+
+**Reading:** the typical hour is unchanged and gas is flat, but extreme hours are far more frequent, including at the same demand level. That is a thinner-cushion signature. **Limits:** only one baseline year (the 2024 pull was refused at the archive boundary); about six clustered episodes; ±1 h demand alignment; 2025 outages and any PJM pricing-rule changes not checked; weather not separated from load growth.
