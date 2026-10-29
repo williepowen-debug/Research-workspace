@@ -26,7 +26,8 @@
 | US maritime posture | NAVCENT/JMIC October 28: non-essential vessels stay well clear; extra time for "military blockade enforcement operations"; neutral vessels may face visit and search. Posture tightening, not kinetic |
 | Diplomacy | Conditional 4–5-day reopening offer and reported $1B Saudi→Houthi payment via Tehran: unconfirmed leads only. Vector stays 3 |
 | IRGC mine claim | IRGC 10/29: 3 tankers mined on 'unauthorized southern route' — no names/positions; CENTCOM 10/28 says primary routes cleared. Only UKMTO-confirmed 10/29 casualty is the dhow. CLAIM-ONLY (KB-358) |
-| LNG (Qatar) | Force majeure extended to END-DECEMBER (verified 10/29); exporting "very little" through Hormuz (KB-361) |
+| LNG (Qatar) | Force majeure extended to END-DECEMBER (Edison GME notice 10/27). Flows partial, not zero: Qatari LNG transits resumed 9/28, ~20 tankers in 4 weeks, near a third of prewar at end-September (AIS-incomplete). 2 trains (~17%) out ~3 yr (KB-361/364) |
+| Israel → Iran energy | Kan 10/29 (single report, unnamed source): Israel asked US to clear new Iranian energy targets IF operations resume; no US response. Matters because Israel→South Pars in March drew Iran→Ras Laffan: the direct path to the D 85→92 production rung. Trump same day: end war "very soon" (KB-365) |
 | Sensors | **PortWatch repaired:** server-side HTTP-400 flake on ~half of identical requests → retry added. Transit newest 10/25 = 2 total / 1 tanker, DEEPENING unchanged. **Bypass gauge DEGRADED:** Sohar's whole daily history was dropped upstream by PortWatch (ID unchanged in its port directory, 0 daily rows; Fujairah/Sharjah 2,853 each). Gauge now prints Fujairah per-port and exits 2 (no combined verdict). Fujairah 14d to 10/23: 77,581 t/d = 90% of 60d base, HOLDING (KB-356) |
 
 ## Convergence Matrix
