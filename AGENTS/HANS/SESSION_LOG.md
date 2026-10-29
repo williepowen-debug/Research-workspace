@@ -151,6 +151,15 @@ CATO reviewed the day's work and produced counterexamples against several of thi
 
 **READS.** Attestation filed; the gap was conditional reads (STATE_VOCABULARY, finding_check, mail lanes) and script-internal reads (receipts). STATE_VOCABULARY is over the byte budget — DAEDALUS's file, flagged via PROME.
 
+## 2026-10-29 (Thu) — hans-1029, Will-spawned boot then catch-up after 6 dark days (Will "go" 13:31 ET)
+- **Boot (13:27 ET):** rc1. Report to Will: a week of scheduled events unread; suggested a catch-up order. **One boot claim was wrong:** I called the DAEDALUS WQ-508 packet "applied, no edit owed" from a commit SUBJECT. The packet itself, read later, said the same thing, but only because DAEDALUS had applied the edits; I had not checked `4da79f1ee`. Right answer, unread basis.
+- **TTF L3:** the boot printed X26 99.90 "0.1 under L3". The daily bars showed the 10/28 close was 100.72 on X26 and 100.34 on Z26 — **the alarm had already fired the day before, and the boot's live quote hid it.** Graded on both named contracts so a roll could not fake it. Packets went out. **Then WALTER `-023` produced an ICE table via Investing with the close at 98.50.** Kept FIRED on the practised feed (every T-07 grade since 9/18 used it; switching basis after seeing the answer is a free parameter; canon: FIRED never downgrades). The dispute is recorded at the fire row, and an addendum went to the same three desks. ice.com is Cloudflare-blocked; not evaded.
+- **France:** search engines had nothing on Moody's; the extended search found it. The i-i table gave the whole path, 174.6 → 153.4. WALTER `-028` upgraded the rating outcome to a government primary (French Finance Ministry).
+- **Banks:** BNP and DB PDFs extracted locally in an isolated scratch dir (pdfminer, `-I`). **BNP publishes no group NII line** — the frozen HNS-09 design assumed every bank does. I did NOT sum divisions; the row is INCOMPLETE and owed. DB's guidance cell is a judgement (H2 PCL "similar to H1"); recorded N with the condition that flips it.
+- **Caught by `doc_audit`, not by me:** VX-3.02 and VX-8.02 still carried 10/22 values; KB-140/142/143 ACTIVE with superseded figures; KB-149's own "PEAKED at 174.6" phrasing read as an assertion (rephrased with a history word).
+- **My own defect:** importing the scratch updater for its helper re-ran it, appending 7 duplicate VX notes before a fire-log guard stopped it. Removed 7/7 → `ML-HANS-483`.
+- **Inbox:** 15 of 15, read one at a time, with a `board_log.tsv` row each. ISHM answered with a lead-composition packet. Lagarde stepping down 7 Feb 2027 came only from WALTER `-016`.
+
 ## 2026-10-22 (Thu) — hans-1022, Will-spawned catch-up to live + France bond-market deep dive (the night before Moody's)
 
 **Order of work.** Boot rc1 → two WALTER signals (031 France, 028 Houthi/Yanbu) processed on Will's word, one at a time → `T-10` graded on the i-i close → gas/storage/Bund/BTP/UK refreshed → Will asked "have you examined the French bond market?" — honest answer was **no, only the 10Y benchmark** → deep dive → workbook pass.

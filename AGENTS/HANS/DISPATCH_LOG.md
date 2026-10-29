@@ -115,11 +115,20 @@
 | **PROME** 🟡 | `PROME/inbox/processed/2026-10-21_from-HANS_state-vocabulary-scoped-read.md` | STATE_VOCABULARY boot read → SCOPED (≤27% of budget); READS.tsv edit is PROME's; RULE #1c wording → Will |
 | **REGINALD** 🟠 | `AGENTS/REGINALD/inbox/processed/2026-10-21_from-HANS_euro-bank-equities-selloff.md` | EU bank equities −6 to −15% vs SX5E −1.8% (9/18→10/20), not French-only; T-14 NOT fired; KB-121 |
 | **LIQUID** 🟠 | `AGENTS/LIQUID/inbox/processed/2026-10-21_from-HANS_euro-bank-equities-selloff.md` | same packet; pairs with the 10/21 T-10 US-funding re-ask |
-| **DAEDALUS** 🟡 | `AGENTS/DAEDALUS/inbox/2026-10-21_from-HANS_falsification4-and-hns09-done.md` | falsification #4 KILL_TREE re-grade + HNS-09 definitions/tests discharged (FLEET_MAP gaps); 1c consumer 🔴 on its 10/08 record answered here, no edit asked |
+| **DAEDALUS** 🟡 | `AGENTS/DAEDALUS/inbox/processed/2026-10-21_from-HANS_falsification4-and-hns09-done.md` | falsification #4 KILL_TREE re-grade + HNS-09 definitions/tests discharged (FLEET_MAP gaps); 1c consumer 🔴 on its 10/08 record answered here, no edit asked |
 
 ## 2026-10-22 (hans-1022) — dispatched
 | To | Packet (recipient tree) | What |
 |---|---|---|
 | **PROME** 🔴 | `PROME/inbox/processed/2026-10-22_from-HANS_france-oat-red-tier-174bp-pre-moodys.md` | OAT 5.13 through the 5.00 red tier, OAT–Bund 174.6bp [i-i 10/22], pre-Moody's; Italy flat at level; HNS-10 0.4bp short |
-| **LIQUID** 🔴 | `AGENTS/LIQUID/inbox/2026-10-22_from-HANS_france-oat-red-tier-174bp-pre-moodys.md` | same packet; US-funding re-ask stands |
-| **WALTER** 🟡 | `AGENTS/WALTER/inbox/2026-10-23_from-HANS_owner-values-refresh-10-22.md` | root 1c consumer check: `STATUS.md:19` Europe row carried 10/21 owner values → 10/22 set. TERRY `STATUS.md:7` hit = a dated re-verification receipt (Bund 3.4265 [TE 10/21] at 37ed457a5) — correct history, NO packet. Other 🔴 hits are dated run/boot records — no packet |
+| **LIQUID** 🔴 | `AGENTS/LIQUID/inbox/processed/2026-10-22_from-HANS_france-oat-red-tier-174bp-pre-moodys.md` | same packet; US-funding re-ask stands |
+| **WALTER** 🟡 | `AGENTS/WALTER/inbox/processed/2026-10-23_from-HANS_owner-values-refresh-10-22.md` | root 1c consumer check: `STATUS.md:19` Europe row carried 10/21 owner values → 10/22 set. TERRY `STATUS.md:7` hit = a dated re-verification receipt (Bund 3.4265 [TE 10/21] at 37ed457a5) — correct history, NO packet. Other 🔴 hits are dated run/boot records — no packet |
+
+## 2026-10-29 (hans-1029) — dispatched
+| To | Packet (recipient tree) | What |
+|---|---|---|
+| **BRENT** 🔴 | `AGENTS/BRENT/inbox/2026-10-29_from-HANS_ttf-L3-100-fired-10-28.md` | `T-07` L3 (TTF >€100) FIRED on the 10/28 close, HANS-F-007: X26 100.72 / Z26 100.34 same date; back under 100 intraday 10/29 |
+| **HENRY** 🔴 | `AGENTS/HENRY/inbox/2026-10-29_from-HANS_ttf-L3-100-fired-10-28.md` | same packet |
+| **LIQUID** 🔴 | `AGENTS/LIQUID/inbox/2026-10-29_from-HANS_ttf-L3-100-fired-10-28.md` | same packet |
+| **BRENT · HENRY · LIQUID** 🟠 | `AGENTS/{BRENT,HENRY,LIQUID}/inbox/2026-10-29_from-HANS_ttf-L3-addendum-settle-disputed.md` | ADDENDUM: 10/28 settle >100 NOT established (ICE table via Investing 98.50 vs vendor 100.72); F-007 kept FIRED on the practised basis, re-grade on an ICE settle <100 |
+| **ISHM** 🟡 | `AGENTS/ISHM/inbox/2026-10-29_from-HANS_lead-composition-oct-flash.md` | answer to ISHM 10/26 ASK: lead composition, no material change; Oct finals ~11/02–04 |
