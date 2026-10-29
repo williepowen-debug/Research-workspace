@@ -48,7 +48,7 @@ Role labels declaring what a surface IS, joining the banner family that declares
 | `ARMED` | Gate registered and watching; condition not yet met |
 | `FIRED` | Condition met (carry the date + level: `FIRED 7/28 @ 281bp`) |
 | `NOT-FIRED` | Evaluated, condition not met. **Hyphenated — one spelling.** (Chosen because the blueprint's donor triad, market-agent §4/HENRY, already writes `FIRED / NOT-FIRED`) |
-| `STOOD-DOWN` | Deliberately disarmed (carry the ruling). Distinct from NOT-FIRED |
+| `STOOD-DOWN` | Deliberately disarmed BEFORE any fire (carry the ruling). Distinct from NOT-FIRED. After a fire the condition cell stays `FIRED`; the disarm is written `Response: STOOD-DOWN <ruling>` (see the Response axis below) — reconciled 2026-10-28, guard floor check |
 | `CANNOT-FIRE` | **Evaluated and found UNGRADEABLE: at least one leg has no metric surface / no producer** — distinct from `NOT-FIRED` (tested, condition not met). A conjunctive gate renders `CANNOT-FIRE` if its WEAKEST leg does; per-leg, never per-gate (Falsification #2 L-31; AEOLUS exemplar). Unreachable instrument: `FORGE/PREDICTION_DISCIPLINE.md` § Grading & re-marking, WQ-298 ③ bullet (L499, d3ce34548) |
 | `UNOBSERVABLE` | Spec sound, instrument exists, **the world may never emit the observable** (a disclosure a filer need not make, a print a source stopped publishing) — FORUM-5 deferral, BRK-25 class, DOCKET row 188. Distinct from `CANNOT-FIRE` (we cannot measure) |
 | `CONTESTED` | A leg ANOTHER desk owns is under dispute — not down, not fired; carry the adjudicator + review date (LIQUID X1 / BROCK, DOCKET 8/27 review 2026-09-15). The honest state of a disputed leg is never `CANNOT-FIRE` (PROME 8/27 correction, verified at LIQUID's retraction) |
@@ -61,7 +61,7 @@ Role labels declaring what a surface IS, joining the banner family that declares
   - **`HELD-PENDING-ARBITER` REQUIRES a named arbiter AND a dated review** — same contract as `CONTESTED` above, for the same reason. **An unbounded hold is how a fired gate goes quiet**; a hold past its review date is `FIRED-UNEXECUTED` at PROME's layer and must be escalated, which is exactly what that state's never-leave-standing rule is for.
   - **This does NOT weaken `FIRED-UNEXECUTED`; it gives it a denominator.** `FIRED-UNEXECUTED` = the response was never decided (a defect). `HELD-PENDING-ARBITER` = the response WAS decided — *wait for this named person by this named date*. **The registry could not previously tell a gate nobody acted on from a gate someone deliberately parked, so both read as the same alarm and the real one lost its signal.**
   - Consumers: `prome_gate` reads the LEAD token (unchanged — a `Response` cell is additive and byte-identical where absent) · `will_handbook` counts by it. Desk registries adopt on next-write; the GATES column is PROME's call, as with `Trigger`.
-- **Local richness protected (PAT-015):** HENRY's `CRACKING`/`RE-ARMED`, LIQUID's `DORMANT→TRIGGERED` ladder, and any agent's richer state machine stay canonical in their own files — the registry token is the *cross-agent handle* written beside them, and a re-arm cycle is legitimately `FIRED → STOOD-DOWN → ARMED (re-armed <date>)`.
+- **Local richness protected (PAT-015):** HENRY's `CRACKING`/`RE-ARMED`, LIQUID's `DORMANT→TRIGGERED` ladder, and any agent's richer state machine stay canonical in their own files — the registry token is the *cross-agent handle* written beside them, and a re-arm cycle is legitimately `FIRED` (+ `Response: STOOD-DOWN <ruling>`) → `ARMED (re-armed <date>)`.
 
 ### Class 2 companion family — orchestration trigger prefixes (WQ-184)
 
@@ -154,7 +154,7 @@ For a live workbook ledger whose header comment block declares its publication c
 | `Last attention check: YYYY-MM-DD` *(header KEY line, WQ-148 — Will 2026-09-01 21:09 *"Approve 147 and 148 with your recs"*)* | The THIRD clock of a PAT-044 header: the data clock is old ON PURPOSE and someone provably looked on this date. Canonises four convergent local inventions — FALCON/OSPREY `Last re-pull ATTEMPTED:` · CARL `Last hygiene/no-event check:` · OZK `Last reviewed:` · RED prose (Staleness #4 M2; PAT-011 n+1: when N desks invent one field in N spellings the vocabulary is late) | `ledger_staleness.py` prints `held (attention Nd)` when the attention date is inside the threshold and `stale AND unattended` when it is older or absent; the data clock is never touched. **Forward-only:** owners rename their OWN headers at their next boot; the checker honours the legacy spellings during the soak; a ledger with NO attention line prints unchanged (default byte-identical) — the `unattended` word applies only when a line exists and is older than the threshold. |
 | `PINNED` *(row-level, READ not declared)* | A row byte-frozen by a Kernel submission/accepted event (`native_refs[].path` + `locator` + `raw_record_sha256`) — a THIRD ledger state the two-state rule does not express: LIVE ledger, FROZEN row | Not written by the owner: `--nudge` READS the Kernel record and names pinned rows beside a behind ledger; the remedy becomes *refresh only UNPINNED rows* (MIDAS-06, 8/27 — the nudge was pushing toward a forbidden edit and nothing in the nudge knew) |
 
-⚠️ **Scope: the declaration affects `ledger_staleness.py --nudge` ONLY** (distinct ℹ️ label, not counted behind) — **until WQ-147 (M1, Will 2026-09-01) lands, which extends the same recognition to `--all`**. The declaration is a FORM, not a keyword (PAT-059): `Cadence:`-prefixed, front-loaded (col ≤100), header-block only. *(Rationale + the WARRISK measurement → PROVENANCE.)*
+⚠️ **Scope: the declaration affects `ledger_staleness.py --nudge` ONLY** (distinct ℹ️ label, not counted behind) — **and, since WQ-147 M1 shipped 2026-09-01 (`b5494ecac`), `--all`/`--days` too (declared-quiet ledgers print ℹ️ and are not counted stale)**. The declaration is a FORM, not a keyword (PAT-059): `Cadence:`-prefixed, front-loaded (col ≤100), header-block only. *(Rationale + the WARRISK measurement → PROVENANCE.)*
 
 *Exemption-law cross-ref (ruled 2026-08-22): the declared-exemption law is HOMED at Class 11 — `SCHEDULED`/`EXEMPT-BY-CHARTER` (MINTED 2026-08-28, wiring-sweep ②; enforcement LIVE in `ledger_staleness.py --nudge`, all paths fixture-watched at ship) point there, never restate it.*
 
@@ -179,6 +179,22 @@ Tokens for a catalyst row's date: `FIRM` · `MODELED (~)` · `WINDOW` · `TBD` �
 Emoji beside a priority token is DECORATION ONLY — permitted, but never the machine-read carrier; a parser keys on the `P`-token, and a priority cell containing 🔴 without a `P`-token is the legacy form, not a new-write option.
 
 ⚠️ **Enforcement is FORWARD-ONLY (Will-ruled): new surfaces and next-writes conform; legacy is grandfathered — NO retroactive fleet sweep.** **Template-surface rider (ZHAO `9c5bd623d`):** on a surface whose existing rows are the template for new ones (TSVs, registries), forward-only is defeated by copy-the-neighbour — **conform-on-touch, or conform-now-while-the-author-is-still-holding-it**; prose surfaces exempt. Companion mechanism rule = CHECK_STANDARD §8. *(Rationale → PROVENANCE.)*
+
+### Class 9 extension — glyph register (added 2026-10-28; the registration `USER.md` § Decisions and Attention requires before first use)
+
+| Glyph | Meaning in PROSE (USER.md) | Meaning in SCRIPT OUTPUT (CHECK_STANDARD §8) |
+|---|---|---|
+| ⚖️ | a decision only Will can make (one block per WQ row) | not used |
+| **ATTENTION** + circle | load-bearing fact, no ruling needed | not used |
+| 🟢 🟡 🟠 🔴 | severity only (root Status key); never priority or decoration | severity only |
+| ⛔ | prohibition / kill-on-sight | a blocking rule in a header |
+| ⚠️ | a caveat that must travel with a claim or number | state-dependent degradation on this run; a STANDING caveat prints `NOTE:` (§8 rule 5) |
+| 🧊 | frozen surface | frozen surface |
+| ★ | notable result | notable result |
+| ✅ / ❌ | resolved true / false | verdict line CLEAN / BLOCKING (daedalus_gate, prome_gate) — a DIFFERENT meaning; readers key by context |
+| ⏰ · ❓ · ℹ️ · ✍️ | not in USER.md | daedalus_gate / sweeps_due: DUE · UNKNOWN · informational · declared-by-writer (legacy; retire on next write or register here) |
+
+A new glyph is declared in `USER.md` and added to this table before first use; the two columns may differ by surface and a reader keys by which surface it is on.
 
 ## Class 10 — Assertion-row contract: standing-state rows *(ruling + provenance → `STATE_VOCABULARY_PROVENANCE.md`)*
 
@@ -213,7 +229,7 @@ For the delivery lifecycle of a packet/finding/correction between desks. The lad
 
 **Don't-mints on the record (ruled):** `CREATED` · `READ` · `ANSWERED` · `OWNER-ENCODED` · `UNPROCESSED` (= `DELIVERED` + age; the metric is `delivered_unread`). *(Reasons → PROVENANCE, rotated 2026-09-01.)*
 
-**⚖️ One-breath exemption law (SINGLE HOME — this paragraph; other token families POINT here, never restate):** *a declared exemption must be expressible, or the guard trains its readers to ignore it.* `EXEMPT-PULL` (this class), Class-8 `SCHEDULED`/`EXEMPT-BY-CHARTER` (pending mint, 8/28 register ②), and the roster cadence enum's designed-quiet are ONE law: every guard family needs a token for "correctly quiet," distinct from silence.
+**⚖️ One-breath exemption law (SINGLE HOME — this paragraph; other token families POINT here, never restate):** *a declared exemption must be expressible, or the guard trains its readers to ignore it.* `EXEMPT-PULL` (this class), Class-8 `SCHEDULED`/`EXEMPT-BY-CHARTER` (MINTED 2026-08-28, wiring-sweep ②; defined at Class 8), and the roster cadence enum's designed-quiet are ONE law: every guard family needs a token for "correctly quiet," distinct from silence.
 
 First live exemplar → PROVENANCE (the 2026-08-22 encode-ask packet's own ladder, rotated 2026-09-01).
 
@@ -246,7 +262,22 @@ Report-side twin of CHECK_STANDARD §14; forward-only on NEW surfaces.
 | `SEARCH-NOT-FOUND` | A query returned nothing. **A claim about the SEARCH, never about the world** — the pattern set missed; it does not say the thing is absent (kin in PROVENANCE) |
 | `UNKNOWN` | No check run |
 
+**Same spelling, different cell (added 2026-10-28, guard floor check):** `UNKNOWN` here = no check run on a claim; Class 5 `UNKNOWN` = an unmeasured quantity cell; a gate/closeout verdict `UNKNOWN` = the check cannot certify (CHECK_STANDARD §9 rc 2). Likewise Class 1 `RETIRED` (a surface ended by decision) ≠ CORRECTIONS.tsv `RETIRED` (= `CLOSED-VERIFIED`, Class 11). A reader keys by COLUMN, never by the token alone.
+
 **Upgrade rule (the point of the class):** an ABSENCE claim moves `SEARCH-NOT-FOUND → VERIFIED` **only after** (a) the owner-declared path/identifier for the thing was checked AND (b) any documented fallback location was checked. **A broader grep is NOT an upgrade.** **Neighbour (Class 12):** Class 12 = the KIND of checking; Class 13 = how far THIS session's check went. A Class-13 `VERIFIED` on a repo artifact is Class-12 `ARTIFACT-VERIFIED`, never `PRIMARY-VERIFIED`.
+
+## Class 15 — DAEDALUS register enums (pointer class, added 2026-10-28; local canon lives at each register header, PAT-015 — this class mints no meaning)
+
+| Register / surface | Enum | Canon location |
+|---|---|---|
+| `FLEET_MAP.tsv` Level · Conf | `L0`–`L5`, `RETIRED` · `H / M / L` | `FLEET_MAP.tsv` header comments |
+| `PATTERNS.tsv` Type · Conf | `PATTERN / ANTI` · Admiralty `A1 … C3` | `PATTERNS.tsv` line 2 |
+| `SURFACES.tsv` State | `ENFORCED · ENFORCED-advisory · PARTIAL · OWNED · SCHEDULED · UNMECHANIZED · FROZEN-DECLARED · DEAD-UNBANNERED · UNASSIGNED` | `SURFACES.tsv` line 4 |
+| `CHECKS.tsv` State | invocation-state enum | `CHECKS.tsv` line 3 |
+| `sweeps/REGISTRY.tsv` status | `active / paused` | `REGISTRY.tsv` column comment |
+| gate verdicts (`daedalus_gate.py`) | `CLEAN · DUE · ADVISORY · BLOCKING · UNKNOWN · NOT-APPLICABLE · ENUMERATED · DECLARED` (+ `WITH-DEBT` roll-up) | `design/2026-09-17_DAEDALUS_GATE_SPEC.md` |
+
+Why a pointer class: the charter (`CLAUDE.md` § OUTPUT RULES) requires canonical tokens in these cells, and until 2026-10-28 no class covered them, so the rule could not be followed as written (guard floor check, leg 3). The `CHECKS.tsv` header has owed this registration since 2026-08-03.
 
 ## Enforcement map (who reads these tokens)
 
@@ -261,7 +292,7 @@ Report-side twin of CHECK_STANDARD §14; forward-only on NEW surfaces.
 | 8 (ledger cadence) | `ledger_staleness.py --nudge` (LIVE 2026-08-20 — all paths capable-case watched at ship, incl. the rc-2 no-re-pull-clock path) | Declaring ledgers carry BOTH the token line and the re-pull clock; owners adopt per surface (opt-in), never batch-applied — a wrong declaration silently exempts a rotting ledger from the nudge |
 | 8-ext (SCHEDULED / EXEMPT-BY-CHARTER / PINNED) | `ledger_staleness.py --nudge` (LIVE 2026-08-28 — fixture battery: future/past/unparseable `next_due`, clause/no-clause exemption, bare-prose trap, pinned row, all-quiet, real CREED pins) | Owners declare per surface; PINNED is never declared (read from `AGENTS/*/outbox/kernel/submissions/` + `KERNEL/shadow/events/`); desk cadence class applied by PROME on ROSTER, read by `fleet_triage.py` (post-sweep build) |
 | 2 (CANNOT-FIRE / UNOBSERVABLE / CONTESTED) | `falsification_scan.py` — ⛔ **per-leg CANNOT-FIRE render NOT BUILT** (planned for sweep #3 ~9/14; checked 2026-10-08: 0 occurrences in the script. The earlier "gains" wording was a plan stated as fact for 24 days; owed with the scanner fixes from Falsification #4); `registry_chain_check` leg (a) when built | A conjunctive gate's cell renders the WEAKEST leg's token; `CONTESTED` rows carry adjudicator + review date; `UNOBSERVABLE` rows carry the emitter that may never emit |
-| 9 (marker-role: severity vs priority) | No dedicated enforcer today — reader-side convention + REGISTRATION_CHECKLIST row 15 at build time; the CHECK_STANDARD §8 glyph-vs-count rule (pending encode, sweep-input ⑤b) is the mechanism-side twin | New priority cells/columns carry `P1`/`P2`/`P3` text tokens; colored circles stay severity-only on new writes; legacy grandfathered, healed at natural rewrites — never batch-swept |
+| 9 (marker-role: severity vs priority) | No dedicated enforcer today — reader-side convention + REGISTRATION_CHECKLIST row 15 at build time; CHECK_STANDARD §8 rule 6 (GLYPH-VS-COUNT, RULED 2026-08-21, `0416eaa40`) is the mechanism-side twin | New priority cells/columns carry `P1`/`P2`/`P3` text tokens; colored circles stay severity-only on new writes; legacy grandfathered, healed at natural rewrites — never batch-swept |
 | 10 (assertion-row contract) | ⛔ UNBUILT as script — Staleness Sweep gains a grading leg at run #4 ~9/1 (registered in `sweeps/STALENESS_SWEEP.md` same commit as the class); PROME-lane surfaces enforced by prome_gate extension (PROME's build) | New standing-state rows carry both fields at registration; reconciliations read the completion artifact, never the asserting row; existing rows conform-on-touch (Class 9 template-surface rider applies — TSV rows teach their neighbours) |
 | 6 (source authority) | No dedicated enforcer — reader-side convention; fleet grep for the three tokens on threshold rows is a candidate follow-on | New citations on load-bearing figures carry one of the three tokens; HOMER `workbook/RATES.tsv` is the worked example |
 | 11 (consumption ladder) | No dedicated enforcer today — reader-side convention; `fleet_triage` (post-8/28 build) reads DELIVERED-age as its `delivered_unread` metric; packet audits/write-back watches grep the canonical spellings | New cross-desk packets and watch rows use ladder tokens; "resolved" below `ENCODE-CONFIRMED` is a defect; `CLOSED-VERIFIED` requires the artifact check — both rules travel with the class text |

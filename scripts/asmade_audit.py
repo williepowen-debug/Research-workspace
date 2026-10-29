@@ -54,8 +54,13 @@ def find_ledger(desk):
         if any(x in dp for x in ("/archive","/sub_agents","/sub-agents","/inbox","/outbox")): continue
         for f in fn:
             if f.upper().startswith("PREDICTIONS") and f.endswith(".tsv"): cands.append(os.path.relpath(os.path.join(dp,f),ROOT))
-    pref=[c for c in cands if c.endswith("workbook/PREDICTIONS.tsv")]
-    return (pref or sorted(cands) or [None])[0]
+    # The desk's OWN ledger is AGENTS/<D>/workbook/PREDICTIONS.tsv; a sub-workbook deeper in the tree
+    # (REGINALD research/EGBN/data/workbook/PREDICTIONS.tsv, 4 rows) must never shadow it — os.walk
+    # order did exactly that on 2026-10-28 and the audit read the wrong ledger as REGINALD's.
+    exact=f"AGENTS/{desk}/workbook/PREDICTIONS.tsv"
+    if exact in cands: return exact
+    pref=sorted([c for c in cands if c.endswith("workbook/PREDICTIONS.tsv")], key=lambda c:(c.count("/"),c))
+    return (pref or sorted(cands, key=lambda c:(c.count("/"),c)) or [None])[0]
 
 def read_ledger(path, rev=None):
     if rev:
@@ -73,12 +78,44 @@ def read_ledger(path, rev=None):
     if idc is None: return None,"no ID column"
     return dict(hdr=hdr,rows=rows[1:],idc=idc,cc=cc,dm=dm,st=st),None
 
+def registration_surfaces(desk):
+    """STATUS.md plus every PRE-LEDGER prediction file the desk EVER had (H2 re-spec, 2026-10-28).
+
+    REGINALD's predictions lived in AGENTS/REGINALD/PREDICTIONS.md (born 1c0b3d0cb 2/16, emptied into
+    the TSV 65e054448 3/05) — searching STATUS only produced 12 NOT-FOUNDs there. Paths come from git
+    history (files added at any time, matching PREDICTIONS*.md outside archive/inbox/outbox), so a file
+    deleted since still counts: the audit reads blobs at the registration commit, not the live tree.
+    """
+    surfaces=[f"AGENTS/{desk}/STATUS.md"]
+    r=git("log","--format=","--name-only","--diff-filter=A","--",f"AGENTS/{desk}")
+    seen=set()
+    for path in r.stdout.split("\n"):
+        if not path or path in seen: continue
+        seen.add(path)
+        base=os.path.basename(path)
+        if base.upper().startswith("PREDICTIONS") and base.lower().endswith(".md") \
+           and not any(x in path for x in ("/archive/","/inbox/","/outbox/","/sub_agents/","/sub-agents/")):
+            surfaces.append(path)
+    return surfaces
+
 def earliest_status(desk, pid):
-    r=git("log","--reverse","--format=%H %cs","-S",pid,"--",f"AGENTS/{desk}/STATUS.md")
+    """Earliest-registered confidence for pid across every registration surface; the earliest DATE wins
+    (ties: STATUS first). Returns (date, pct, sha, context) — context is prefixed with the surface
+    basename when it is not STATUS.md."""
+    best=None
+    for surface in registration_surfaces(desk):
+        hit=_earliest_in(desk, pid, surface)
+        if hit[0] is None: continue
+        if best is None or hit[0] < best[0]: best=hit
+    return best if best else (None,None,None,None)
+
+def _earliest_in(desk, pid, surface):
+    tag="" if surface.endswith("/STATUS.md") else f"[{os.path.basename(surface)}] "
+    r=git("log","--reverse","--format=%H %cs","-S",pid,"--",surface)
     for line in r.stdout.split("\n"):
         if not line: continue
         sha,d=line.split(" ")
-        blob=git("show",f"{sha}:AGENTS/{desk}/STATUS.md").stdout
+        blob=git("show",f"{sha}:{surface}").stdout
         tok=re.compile(r"(?<![A-Z0-9-])"+re.escape(pid)+r"(?![\d.])")   # exact ID token: not VX-LAB-15, not LAB-150, not LAB-15.02
         for l in blob.split("\n"):
             mt=tok.search(l)
@@ -89,11 +126,11 @@ def earliest_status(desk, pid):
                 cells=[c.strip() for c in rest.split("|")]
                 for c in cells:
                     mc=re.match(r"^\**\s*(\d{1,3})\s?%\**", c)
-                    if mc: return d, int(mc.group(1)), sha[:9], l.strip()[:140]
+                    if mc: return d, int(mc.group(1)), sha[:9], tag+l.strip()[:140]
                 # non-table registration line ("Adding LAB-12 ... at 60% confidence"): first % after the ID
                 if "|" not in l:
                     m=PCT.search(rest)
-                    if m: return d, int(m.group(1)), sha[:9], l.strip()[:140]
+                    if m: return d, int(m.group(1)), sha[:9], tag+l.strip()[:140]
     return None,None,None,None
 
 def audit(desk, rev=None):
@@ -116,7 +153,7 @@ def audit(desk, rev=None):
         d,pc,sha,ctx=earliest_status(desk,pid)
         dm=r[led["dm"]] if led["dm"] is not None and len(r)>led["dm"] else "?"
         if asmade is None: noc+=1; continue
-        if pc is None: nf+=1; print(f"   NOT-FOUND  {pid:8s} ledger as-made {asmade:3d}% (Date_Made {dm}) — ID never appears with a % in STATUS history"); continue
+        if pc is None: nf+=1; print(f"   NOT-FOUND  {pid:8s} ledger as-made {asmade:3d}% (Date_Made {dm}) — ID never appears with a % in STATUS or pre-ledger PREDICTIONS*.md history"); continue
         if pc==asmade: same+=1
         else:
             mism+=1; print(f"   MISMATCH   {pid:8s} ledger as-made {asmade:3d}% (Date_Made {dm}) vs STATUS earliest {pc:3d}% @{sha} {d} :: {ctx}")

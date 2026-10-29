@@ -1,3 +1,5 @@
+> **Profile refresh write-back 2026-10-28:** whole profile rebuilt (3 readers), FLEET_MAP L3/H; every 8/22 🔴 CLOSED; open residue = threshold-basis audit on the remaining rows, DRAFT-named reports, no charter version field, no reports-to header, MEMORY.md never boot-read, and the L4 trade-leg sentence (owner packet 2026-10-28). Card stays historic; current gaps at FLEET_MAP, current work at HOMER's STATUS.
+
 > **PR8 write-back 2026-10-21:** Section3c CLOSED-VERIFIED: THESIS§8 built October15; independent PR8 read supports L3/M. Former L2/H and sole-surviving-blocker statements below are historical. Current next leg is reading-A trade/consumer adjudication, not another convergence build. Evidence and current scope: `PRODUCTION_REVIEW_2026-10-21.md`.
 
 # HOMER — Upgrade Card

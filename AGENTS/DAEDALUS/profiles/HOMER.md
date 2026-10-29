@@ -1,67 +1,99 @@
-# HOMER — DAEDALUS Comprehension Profile
+# Agent Profile — HOMER (housing: asset market + housing credit structure)
 
-> **⚠️ STALE — trigger verified 2026-10-21:** named calendar/content/owner-state trigger fired; see the per-desk trigger table in PR8. Backlog disposition checkpoint October25; accepted whole-refresh order/scope (~October29 cohort where assigned) and prior body vintage unchanged. Current verified delta: L3 convergence absence refuted: thesis/THESIS.md§8 built October 15;5-point19/25 handle,3independent roots and explicit CARL links. Dated kill rail§§3-9, HOM-01 MISSED early-kill and liveHOM-02, KB_LIVE 38valid11-column rows establish L3 legs. C2 reached its upgrade condition; score deliberately waits formal November 20 grade. Profile FIRED; body August 7 remains historical. Source/evidence: `upgrades/PRODUCTION_REVIEW_2026-10-21.md` and its named reader companion. This annotation supersedes conflicting current-state claims below only on these inspected facts; no whole-profile refresh or grade change is established by the annotation.
+**Profile vintage:** 2026-10-28 (whole-profile refresh; replaces the 2026-08-07 body, preserved verbatim at `profiles/_prior/HOMER_2026-10-28_before_refresh.md`, crc32 1345916504).
 
-> ⚠️ **STALE — TRIGGER FIRED, unserviced (PR#5 2026-09-01):** own DATED REWRITE TRIGGER (:14) fired · :54 CORAL-lock superseded · 25d. Read the FLEET_MAP row (re-cut 2026-09-01) and `upgrades/PRODUCTION_REVIEW_2026-09-01.md` before this body. Refresh checkpoint: **2026-09-15**. *(Bannered by `scripts/profile_clock_check.py` + the PR#5 readers; a banner is a warning, not a fix — PAT-085.)*
+**Built by:** DAEDALUS · **Date:** 2026-10-28 · **Comprehension method:** 3-reader Mode-A fan-out (R1 architecture · R2 ledgers/falsification/guards · R3 flows/consumers/review reconciliation), raw reports at `runs/2026-10-28_HOMER_REFRESH_READERS/`, synthesis `runs/2026-10-28_HOMER_REFRESH.md`.
+**Sources read whole by readers:** `CLAUDE.md`, `STATUS.md`, `LESSONS.md`, `OBLIGATIONS_OTHERS.md`, `NEXUS_BRIEF.md`, `MEMORY.md`, `SCRATCH.md`, `LAST_COMPLETION.md`, `thesis/THESIS.md`, `thesis/PREDICTIONS.tsv`, `tools/rent_breadth.py`, `registry/corrections_receipts.tsv`, all 29 unprocessed `inbox/WALTER/` packets, `docket/CATALYSTS.tsv` (row 3 partial), the card and the 8/22 review. Header-only: the three cold registers, the eight workbook ledger bodies (~556 KB), `board_log.tsv` rows 2–77. **Staleness:** refresh at HOMER's 2026-11-20 formal grade or on a material STATUS/thesis change.
+**Subject state at build:** HOMER not live; last HOMER-authored commit `454435973` 2026-10-19 13:24 ET (Will-requested close). Every later commit under `AGENTS/HOMER/` is a WALTER delivery.
 
-> ⚠️ **SUPERSEDED IN PART — 2026-08-22. READ THE REVIEW FIRST, NOT THIS FILE.**
-> A full Will-directed structure review ran 2026-08-22 (4-reader Mode-A fan-out). Its findings are current;
-> this profile is the **2026-08-07** comprehension layer built against **61 files** (the tree is now 89) and
-> its "Owner-lane flags (ranked)" section is **materially out of date** — five of its 🔴/🟠 flags have since
-> CLOSED (the 94%-multifamily brief residue, the 8.9-vs-8.1 condo contradiction, the SCRATCH:27 superseded
-> bands, the 3 unprocessed inbox packets, and the PR#4 mirror write-back, which HOMER closed 8/22 crediting
-> the packet by name). **What still stands, re-verified 8/22:** the two L3-blocking absences (no convergence
-> handle; no thesis-level kill rail anywhere under any name — AUTHOR-FROM-SCRATCH), and every DO-NOT-TOUCH
-> item below.
-> **Current sources:** `upgrades/HOMER_REVIEW_2026-08-22.md` (synthesis) · `..._READER_REPORTS.md` (evidence
-> + coverage limits) · **`upgrades/HOMER_CARD.md` (the work queue)**.
-> **DATED REWRITE TRIGGER — a banner is a warning, not a fix (`finding_banner_is_a_warning_not_a_fix`):**
-> full delta-refresh owed by **2026-09-05**, or at the next HOMER touch, whichever is first. Refreshing was
-> named as a deliverable in `HOMER_REVIEW_PLAN_2026-08-22.md` §6 and **was NOT done** — caught by
-> `complete_check.py`'s claim walk at the same session's closeout, which is exactly the gap that check exists
-> to find (PAT-101: my closeout certifies COMMITTED, not COMPLETE).
+> A Profile is DAEDALUS's durable understanding of a heavy agent. Section-tasks read the relevant slice of this, not the raw agent; re-read the file before applying any change (PAT-009).
 
-**Built:** 2026-08-07 (first profile — closes "graded twice without a profile"; Mode-A single-reader full read, 61 files) · **Grade at build:** L2 (FLEET_MAP owns it; L3 gated on ONE leg — see below, and the leg is AUTHOR-from-scratch, not extract-and-stamp) · **Class:** Market (promoted from CARL sub-agent 7/12 by git mv, Will-directed same-day, overriding CARL's wait-recommendation; lowest-risk promotion of the set — zero external consumers at promotion) · **Staleness (content-derived):** re-read when THESIS.md gets built (the L3 leg), after the next HOMER session closes the 5 passed resolver dates, or when STATUS's stamp leads this build date >21d.
+---
 
-## Identity in one line
-The fleet's U.S. **national** housing asset-market + housing-credit-structure agent (NOT an FL specialist) — foreclosure pipeline + non-bank servicer stress, multifamily **BOTH books** (GSE and CMBS; ★-ruled primary owner of the Trepp CMBS-MF row and the GSE-vs-CMBS divergence), the **mortgage-specific rate surface** (30Y PMMS, 10Y-FRM spread, FHA-vs-Conv DQ spread — "nobody else owns it"), builders, HPI/inventory, state-level FL/TX — feeding CARL (consumer transmission; CARL retains the K-shape *interpretation*, same pattern as LABOR→CARL), REGINALD (Path C collateral), HENRY (wealth effect), + live edges to LABOR (builder→construction employment) and CREED (couriers the Trepp row, HOMER scores it).
+## 1. Identity
 
-## FL boundary vs CORAL (as actually operated)
-CORAL canonical for the FL statewide headline (state foreclosure rate; statewide condo median/inventory); HOMER cites it and owns the pipeline decomposition (starts/REO/timelines/metro cuts/Miami-Dade). Locked 7/17, both sides record identically. **Lock state 8/7: one HOLDS (H1 foreclosure rate — byte-identical, strengthened by HOMER's accepted rank-vs-level correction on CORAL's row 8/3), one BROKEN** — see flags.
-
-## File anatomy
-| Cluster | Files | Notes |
+| Field | Value | Evidence |
 |---|---|---|
-| Core | `CLAUDE.md` 231 ln — scope seams + **Key Thresholds :76-121 (the strongest dimension)** + a ~26-line FL-band derivation block inside the instructions (excellent content, future THESIS/methods material — do NOT move before THESIS exists, the bands would lose their derivation) · `STATUS.md` 197/250 — 5 signal tables + **MARQUEE OPEN QUESTION :19-43 (the nearest thing to a thesis surface — genuinely strong, rewritten 7/31 when the Q2 GSE prints broke the frame, retirement stated not silently edited — but structurally undatable, a section of a rewritten file)** + labeled BOTTOM LINE · `SCRATCH.md` · `NEXUS_BRIEF.md` (the surface REGINALD/CARL/HENRY read — carries a defect, see flags) · `LESSONS.md` 7 entries Mistake→Rule→Tell (best-in-cohort form; 4 of 7 written 7/31) · `MEMORY.md` thin-by-design | LIVE 7/31 |
-| Workbook (8 ledgers, best-in-cohort two-state hygiene) | `KB.tsv` **FROZEN 7/10** (parent-era; CARL_ID provenance col = a row-ID-stability CONTRACT with CARL's KB) · `KB_LIVE.tsv` 15 rows · `PIPELINE.tsv` 54 (incl. FHA/VA/Ginnie policy-instrument layer) · `MULTIFAMILY.tsv` 41 (Freddie Table-27 split) · `STATE_HSG.tsv` 59 · `BUILDER.tsv` 80 · `RATES.tsv` 11 (**opened 7/31, the ★-ruled rate surface; header self-issues a STALE-FLAG on the 10Y-FRM spread row**) · `PRICING.tsv` 20 (7/31) — ⚠️ **SCHEMA.tsv covers only 6 of 8** (no RATES/PRICING rows) | LIVE 7/31 |
-| Predictions | `thesis/PREDICTIONS.tsv` — **2 rows only, but the discipline is real**: line-1 prose preamble carries the CRL-06/23 parent-retain ruling (deliberate, load-bearing — do not "fix"); HOM-01 INSTRUMENT-BLOCKED (FMHPI June print not out, **primary-verified at Freddie's own page** after a mirror-inference same day); HOM-02 carries an early-kill arm AND an explicit "THE BET AGAINST" section · `reports/2026-07-24_HOM-01-grading-sheet.md` — **pre-print frozen card whose "release delayed/missing" branch was exercised 7/31 and stopped a false CONFIRM** (PAT-053 spirit; never edit post-print) | correctly quiet |
-| Ops | `board_log.tsv` 13 rows (incl. a self-issued AMENDED-SAME-SESSION correction pair — do not collapse) · `docket/CATALYSTS.tsv` 16 rows incl. 2 permanent break-flags + an ★OVERDUE row · outbox **0 sitting** (drained deliberately — see the double-false-delivery lesson) · `state_vectors/` RETIRED channel + `corrected/` retrieval hazard (a valid SV filed there is invisible to CARL's harvest globs) | mixed |
+| One line (HOMER's words) | "Monitor U.S. housing market stress across the foreclosure pipeline, multifamily delinquency (GSE + CMBS books), mortgage rates/demand, builder distress, inventory/pricing dynamics, and state-level housing fragility (FL/TX/NV/CA priority)" — the largest household asset/liability class in the chain | `CLAUDE.md:7` |
+| Class · launch | Market (graded against `market-agent.md`); ACTIVE on ROSTER; on-demand, last session orchestrated on Codex (gpt-6.1-sol) with PROME coordinating the push | `CLAUDE.md:9-10`; `SCRATCH.md:3` |
+| Chain edges (peer, not "reports to") | HOMER → CARL (consumer transmission) · → REGINALD (Path C collateral) · → HENRY (wealth effect, **one-sided: HENRY has never received a HOMER packet and names HOMER nowhere**) · seam with CORAL (FL) | `CLAUDE.md:11`; R3 §2 |
+| Ruled ownerships | Trepp CMBS-MF row + GSE-vs-CMBS divergence + Sun-Belt MF realization (`:26`); the mortgage-specific rate surface PMMS / 10Y-FRM spread / FHA-vs-Conv (`:29`); builder data for CARL's CRL-23 (`:18`, `:277`) | as cited |
+| FL boundary | **"HOMER PUBLISHES NO STATEWIDE FLORIDA FIGURE. CORAL RULES"** (`:35`). HOMER owns FL METRO foreclosure rates and the Miami-Dade condo cut; a statewide condo read is WITHHELD and the source address routed to CORAL (`STATUS.md:93`; LESSONS §29). FL annual/ratio bands are HOMER's, evaluable once a year | `CLAUDE.md:35,96-97,145` |
+| Trade surface | **None**, and no "no book by charter" clause in HOMER's own files; the only no-book statement is PROME's (`GATES.tsv:21` "Moves no capital") | R2 §5, R3 §2 |
 
-## The two L3-blocking absences (both fold into ONE build)
-**No `thesis/THESIS.md`** — the thesis lives in CLAUDE "Transmission Pathways" (8 pathways, no state column) + the MARQUEE. **No convergence handle of any kind** (unlike HENRY — rich labels, no handle — HOMER has *neither*; build local scoring + the 5-pt together). **No thesis-level kill rail in ANY local form** — grep zero hits on every kill-vocabulary term. ⚠️ **The retrofit is AUTHOR-from-scratch — HOMER is the second genuine case after VULCAN, and unlike the 4-of-5 detector artifacts.** A future builder reading only the 8/7 amendment's "never author over a rail that works" caveat might wrongly hunt for an existing rail to stamp: there is none. Per-prediction invalidation is excellent and stays.
+## 2. File anatomy (where the richness lives)
 
-## §3 Invalidation-surface inventory (PAT-088 rows; kinds per PAT-077)
-| Surface | Kind | Vintage rule | State 8/7 |
+Bytes 2026-10-28; budget 32,550 B, rotation trigger 24,412 B, cap 54,250 B. Boot whole-reads are charter steps 2–4 and 8 (`CLAUDE.md:191-204`).
+
+| File | Holds | Boot? | Bytes (% budget) | Note |
+|---|---|---|---|---|
+| `CLAUDE.md` | rules only; Key Thresholds + rung census `:87-149` is the desk's strongest dimension | harness-injected (rule 20 exempt) | 38,671 (119%) | the 10/19 Codex session is the case where the injection premise may not hold |
+| `STATUS.md` | dashboard (values + bands + obligations) + BOTTOM LINE `:158-164` | step 2 | 22,157 (68%) | 628 B under HOMER's own soft line 22,785 B (`CLAUDE.md:212`) |
+| `SCRATCH.md` | session handoff | step 3 | 3,908 | — |
+| `LESSONS.md` | INDEX over 54 lessons in two cold shards; best-in-fleet Mistake→Rule→Tell corpus | step 4 | 23,910 (73%) | **502 B under the rotation trigger**; closeout measures STATUS only |
+| `thesis/PREDICTIONS.tsv` | HOM-xx ledger (2 rows); line-1 preamble carries the CRL-06/23 parent-retain ruling | step 8 "due-scan … for past-trigger rows" | **36,472 (112%)** | a predicate scan over unindexed rows is a whole read; invisible to `read_cap_check` (HOMER has no READS.tsv row) |
+| `thesis/THESIS.md` | **THESIS + THESIS-LEVEL KILL RAIL** — §3 frozen criteria, §4 pre-registered decision rule, §6 defect register, §8 convergence handle, §9 fired-count ledger | not boot-read (`:245`); graded via docket row | 23,077 | the L3 surface the 8/07 profile said did not exist |
+| `NEXUS_BRIEF.md` | VIEW/CALIBRATION/CROSS-DOMAIN + the 17-row DO-NOT-CITE register (`:60-77`), the cross-agent retraction vehicle | read whole by NEXUS, CARL, REGINALD, HENRY | 13,447 | CROSS-DOMAIN first (amendment 12) |
+| `workbook/` (10) | the record: KB_LIVE 71,786 · PRICING 97,910 · MULTIFAMILY 89,022 · PIPELINE 61,902 · BUILDER 58,735 · RATES 53,951 · STATE_HSG 42,491 · KB 30,499 (FROZEN) · SCHEMA · RENT_BREADTH_ROSTER (FROZEN) | header eyeball, step 7 | — | SCHEMA covers all 8 live/frozen data ledgers |
+| `docket/CATALYSTS.tsv` | forward calendar, 45 rows; row 3 is the 39 KB servicer-watch class rail | step 5 awk projection | 120,296 | 40 unresolved rows on 10/28 |
+| `board_log.tsv` | WALTER signal dispositions, grep-class, never rotate | step 9 membership grep | 70,745 | 3 malformed rows `:65-67` |
+| `MEMORY.md` · `OBLIGATIONS_OTHERS.md` · `LAST_COMPLETION.md` (frozen 10/15) · `STATUS_COLD.md` (150,761, crc-pinned) · `LESSONS_COLD*.md` (98,868 crc-pinned; 13,389 append shard) · `reports/` (19 + 5 evidence dirs) · `tools/rent_breadth.py` · `registry/` · `state_vectors/` (retired channel) · `archive/` (22) | not boot-read | — | eight of these are absent from the charter FILES table |
+
+## 3. Per-dimension local representation
+
+| Dimension | Where it lives | Form | Rich? |
 |---|---|---|---|
-| PREDICTIONS.tsv Invalidation col (HOM-01/02 early-kills) | APPEND-ONLY | newest in-cell `>>` stamp | LIVE unfired, 7/31; HOM-01 instrument-blocked, HOM-02 resolver ~mid-Aug |
-| HOM-02 `>> NEWLY DISCOVERED SPEC RISK` block (HUD ML 2026-08 threat to its own numerator) | APPEND-ONLY | in-cell 7/31 | **exemplary** — a documented threat to its own metric, NOT re-spec'd, successor-metric named for use only if it misses |
-| 7/24 HOM-01 grading sheet | STATE (frozen pre-reg card) | "Prepared 7/24, ahead of the print" | correctly frozen; delayed-print branch exercised 7/31 |
-| CLAUDE Key-Thresholds rail (incl. the DISARMED FL-YoY row w/ strikethrough + "do not treat its silence as FL-is-fine") | STATE | inline RETIRED/RE-ANCHORED markers, **no scanner-datable stamp** | LIVE, recently re-derived; carries ONE self-declared unrepaired band (GSE MF — mod-suppressible headline; interim rule "pair every GSE DQ reading with the same filing's provision direction" is what held the Q2 signal) |
-| Thesis-level kill rail | — | — | 🔴 **DOES NOT EXIST — not a detector artifact** |
-| MARQUEE | STATE | STATUS header | strong content, structurally undatable |
-| board_log | EVENT | fires on WALTER dispatch | correctly quiet — but SIG-W-20260802-008 sits at the wire unlogged 5d |
+| Thesis | `THESIS.md` §1–2: ACCUMULATION → CONVERSION, state 🔴; 2 CORE legs (C1 residential conversion, C2 MF realization) + 3 AMPLIFIERS (A1 FHA-bottom, A2 rate, A3 builder) | prose + per-leg table | yes |
+| Convergence / scoring | `THESIS.md` §8 (`:141-171`): **19/25 across 5 legs, 3 independent roots**; A1 co-rooted with C1, A2 feeds CARL V12 (count once); C2's upgrade trigger MET (Trepp 8.04%) but re-scoring deliberately waits for 11/20 | 5-point handle, dated 2026-10-15 | yes |
+| Invalidation / exit | `THESIS.md` §3 FROZEN kill rail (`:34-89`, stamp `Kill rail re-derived: 2026-09-29` line 3, registered `GATE-HOMER-THESIS-KILL`); §4 decision rule (both cores ⇒ FALSIFIED; one ⇒ PARTIAL); §9 fired counts 0/5 | dated, frozen, GATES-mirrored | yes |
+| Thresholds | `CLAUDE.md:87-149` rung census: every level traces to a sourced year or bracket; two Will-ruled re-arms 9/29 (rent breadth, national FC starts); basis discipline across four ATTOM bases | bands with RE-ARMED stamps | yes |
+| Predictions | `thesis/PREDICTIONS.tsv`: HOM-01 MISSED (early-kill) 2026-08-31; HOM-02 OPEN (FHA SA DQ ≥12.00%, 65%, arm 1 of 2 fired 8/13, decider Q3 NDS ~mid-Nov, Resolve_By 2027-02-28). No new row since 7/24 | 11-col ledger with Resolve_By | thin (2 rows) |
+| Cross-agent routing | charter edges `:11`; packets to CARL/REGINALD/CORAL demonstrated (R3 §2); TERRY none since 7/24; HENRY never | packets + brief | partial |
 
-## DO-NOT-TOUCH
-1. `KB.tsv` FROZEN — never append/renumber (row-ID contract with CARL's KB; new rows → KB_LIVE). 2. `state_vectors/corrected/` retrieval hazard — never file anything under state_vectors/. 3. The struck FL-YoY threshold row + DISARM paragraph. 4. The MARQUEE's retired-frame sentence (the retraction vehicle for 3 agents carrying the old frame). 5. archive/ BUILD-VINTAGE banners (decided, recorded — no further pruning). 6. The 7/24 grading sheet post-print. 7. The AMENDED-SAME-SESSION board_log pair. 8. PREDICTIONS line-1 preamble (carries the parent-retain ruling).
+## §3b. Invalidation-surface inventory (what `falsification_scan` and the sweep read)
 
-## Owner-lane flags (ranked)
-🔴 **Broken CORAL lock, intra-file**: STATUS:116 "Statewide = 8.9mo (Apr, CORAL-canonical)" vs STATUS:119 "8.1mo (June)" — both written 7/31, the WRONG figure on the more-read surface; CORAL formally superseded 8.9 on 8/3 (packet unprocessed). STATE_HSG.tsv is correct. One-cell fix + cite refresh. 🔴 **NEXUS_BRIEF:13 still reads "94% multifamily"** — the BANC figure the 7/31 audit corrected to 95.8% on STATUS; the residue survived *inside the audit's own fix pass*, on the cross-agent surface REGINALD reads, 7d (audit scorecard: **6 of 7 items fully fixed, this is the 1 partial**). 🔴 **Five self-registered `Next:` dates passed unworked** (Trepp 8/4 — first row under the CREED-courier arrangement · LGI 8/4 · **PMMS 8/6 — named specifically in HOMER's own 7/31 BOTTOM LINE, and it unblocks HOMER's own STALE-flagged spread row** · GSE condo 8/3 · TX auction 8/3) = **PAT-089 instance 3**; the two-clock `Next:` headers are the working detector — `ledger_staleness` reads all-green because it measures ledgers relative to a STATUS that is itself 7d old (**uniformly-idle agents are invisible to it — real blind spot, flagged for the shared-check register**). 🟠 SCRATCH:27 carries the superseded first-pass FL bands BEFORE the final ones in a boot-read file. 🟠 3 inbox packets unprocessed oldest 8/2 (CORAL's carries the owed 8.1 refresh; PROME's 8/2 dead-path ask is answerable in one line — **the regression was not in a HOMER surface**, grep-verified: only narrative hits). 🟡 SCHEMA rows for RATES/PRICING · no Reports-to/Spawnable-by header · $160B+ MF-wall re-source owed to CREED (carried provisional downstream, 7d) · Amendment-10 ack (HOMER's closeout already conforms; its own 7/31 brief-75-min-behind failure is the demonstrated instance).
+| Surface | Kills / flips what | Stamp (in-content) | Fired-state form | Mechanical reader |
+|---|---|---|---|---|
+| `thesis/THESIS.md` §3–4, §9 | the thesis (5 legs; kill counts per leg) | `Kill rail re-derived: 2026-09-29` (line 3); formal grades 2026-11-20, 2027-02-20 (`:89`) | §9 ledger: 0/5 fired; V5 says 11/20 cannot return FALSIFIED/PARTIAL on cores | `falsification_scan` **since 2026-10-28** (class "kill rail (in-thesis)"); docket row 37; GATES:21 |
+| `thesis/PREDICTIONS.tsv` Invalidation col | HOM-01 (fired 8/31), HOM-02 (arm 1 of 2 fired 8/13) | registered 7/12, 7/24; rulings 8/22 | status cell | fleet tools (consumer_check, asmade_audit) |
+| `docket/CATALYSTS.tsv:3` servicer-watch classes A–G (+Z) | any class ⇒ 🔴 | ratified 8/13, encoded 8/22; last full sweep 2026-09-29 | Class A FIRED 2026-08-07 (UWM Fitch B+), found 9/29 | boot awk only |
+| `MULTIFAMILY.tsv:68` + `RENT_BREADTH_ROSTER.tsv` rent-decline breadth >20/>40/>55% | A3-class band | re-armed 2026-09-29 (Will) | ORANGE 46/100 (Sep); Oct file due ~10/27–31 | **`tools/rent_breadth.py`** (verified both directions) |
+| `PIPELINE.tsv:77` national FC STARTS >100K/130K/175K | band | re-armed 2026-09-29 | below Yellow (Q2 81,935); Q3 ATTOM access UNRESOLVED | none |
+| Dated kills executed: Trepp MF maturity-adjusted (`CATALYSTS.tsv:9`, 2026-10-15); $160B+ MF wall (`MULTIFAMILY.tsv:17`, RETIRED 2026-09-02) | — | — | spent | — |
+| `reports/2026-09-29_PMMS-2026-10-01_PRE-REGISTRATION.md` | pre-registered print card (HOLD fired at 7.28%) | 2026-09-29 | never edited post-print | none |
 
-## Standing strengths (do not "fix")
-**The strongest retraction culture read in the fleet**: on 7/31 alone HOMER retracted its own published headline read, corrected its own multi-week framing error against its own dashboard, found its own kill-list entry had a false reason (traced to a Newsweek/Reventure citation; kill survives on other grounds; routed), and recorded a near-miss that would have falsely CONFIRMED its own open prediction — each with the generalizable rule written ("a number that confirms your own prediction never feels like it needs checking"). The judgment layer is well above the L2 grade; the gaps are structural.
+## 4. Deviations from standard (+ why)
 
-## Corrections applied to the FLEET_MAP row (8/7 PM)
-Row counts were LINE counts (KB_LIVE 15 not 17; board_log 13 not 14). "8 ledgers best-in-cohort hygiene" true for banners but SCHEMA covers 6 of 8. L3 wording tightened: the falsification leg is **author-from-scratch**. CRL-06/23 + promotion residue: CLEAN (both obligations honored, zero drift, both files agree; only benign provenance mentions of the CARL era).
+| Deviation | Verdict |
+|---|---|
+| Kill rail lives INSIDE the thesis file, not in a separate KILL/EXIT file | **better** (one frozen document, GATES-mirrored); was invisible to the fleet scanner until 2026-10-28 |
+| The 11/20 formal-grade cadence is on the thesis rail, docket, GATES and STATUS, not in PREDICTIONS or the charter | **equivalent** by design (`THESIS.md:5`: a HOM-02 resolution is leg evidence, not a thesis grade) |
+| STATUS carries values, bands and obligations only; the retraction register moved to the NEXUS brief's DO-NOT-CITE table | **better** (replaced the old MARQUEE) |
+| `ledger_staleness` boot form measures ledgers relative to STATUS, so a uniformly idle desk reads green (`--abs-floor --abs-days 7` → 7 STALE at 9 days idle) | **debt** (fleet-tool class, PAT-089); HOMER is in that state now |
+| Six LIVE ledgers put `PRIOR HEADER VERBATIM … 2026-10-15` on line 1 beside the current clock; the tool reads two clocks and lets the older govern (−4 d) | **debt**, safe direction; KB_LIVE's line-2 form is the fix pattern |
 
-## Open questions
-Do the CORAL locks get a re-verification cadence (one drifted in 14d with no mechanism that could catch it — consumer_check --self can't see a bare 8.9→8.1)? Is the GSE-MF interim rule (band on a mod-suppressible metric = a band on measurement, not credit) promotable fleet-wide? The uniformly-idle-agent blind spot in ledger_staleness — register in CHECKS.tsv.
+## 5. Load-bearing context / DO NOT TOUCH
+
+1. `workbook/KB.tsv` FROZEN 2026-07-10 — row-ID contract with CARL's KB; 3 short rows (`:14,26,27`) are frozen too: annotate, never rewrite. New rows → `KB_LIVE.tsv`.
+2. `state_vectors/` is the retired SV channel; `corrected/` is a retrieval hazard.
+3. **Frozen thesis criteria and the 11/20 grade** (`THESIS.md:3,86,89`): no criterion reworded, split or merged at grading; C2's handle upgrade is recorded, not re-scored, until 11/20. `Date_Resolved`/`Outcome` stay empty while one arm of a two-arm kill has fired (`STATUS.md:154`).
+4. GSE-MF band letter frozen (WQ-248 C); an ungraded leg above the top rung is correct. Re-levelling any pinned rung = Will-gated RETUNE; rent roster change = re-spec; ratio band annual-only (`CLAUDE.md:112,114,145`).
+5. `board_log.tsv` never rotates; the AMENDED-SAME-SESSION pair at row 13 stays.
+6. `LESSONS_COLD.md` / `STATUS_COLD.md` are crc-pinned; new lessons go to `LESSONS_COLD_2.md`; `LESSONS.md` stays an index.
+7. `PREDICTIONS.tsv` line 1 preamble (CRL-06/23 parent-retain). `LAST_COMPLETION.md` frozen 10/15.
+8. Retired figures stay dead: $160B/$270B MF wall, Trepp maturity-adjusted MF, Google Trends, the old 150/170 KB STATUS tier.
+9. Spread convention: PMMS minus the Wednesday nominal 10Y close, never a same-date-label pairing (`STATUS.md:62`).
+10. The 7/24 HOM-01 grading sheet and the 9/29 PMMS pre-registration card are never edited post-print.
+11. `NEXUS_BRIEF.md` `## VIEW` ceiling is schema-owned and unenforced; do not cut brief content against it.
+
+## 6. Maturity snapshot (references `FLEET_MAP.tsv`; does not restate class)
+
+L3 legs all present and read-verified 2026-10-28: convergence handle (§8), frozen dated kill rail (§3, 2026-09-29), predictions resolving (HOM-01), dated falsification surface. **L4 reading A not met:** no TRADE surface and no "no book by charter" clause in HOMER's own files; consumer leg DEMONSTRATED for CARL, REGINALD, CORAL (R3 §2). A one-line charter clause would complete the third disjunct. Card: `upgrades/HOMER_CARD.md` (every 🔴 from 8/22 CLOSED; open residue = threshold-basis audit on the remaining rows, DRAFT-named reports, no charter version field, no reports-to header, MEMORY.md never boot-read).
+
+## 7. Open questions / comprehension gaps
+
+- **Desk dark since 10/19 with 29 unlogged WALTER packets (19 ACTION) and ~13 passed docket dates** — nothing on PROME's docket wakes HOMER before L545 (11/20). Publication of the passed prints was not web-verified. Routed to PROME 2026-10-28.
+- Whether HOMER should declare its boot reads in `PROME/registry/READS.tsv` (it has no row; the 36,472 B PREDICTIONS read is the case).
+- CORAL-lock re-verification has a rule (LESSONS §28/29) and still no mechanism.
+- THESIS defect register D2/D3/D4 (base windows) open since 9/29 with no dated pull; A2 has no upgrade rung (`THESIS.md:154`).
+- Workbook ledger bodies (~556 KB) and ~35 KB of docket row 3 were not read; row-level claims rest on header lint and targeted reads.

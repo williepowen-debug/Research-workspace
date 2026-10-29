@@ -44,7 +44,7 @@ Any output cap — display (`[:N]` lists) or **scan-scope** (checking only the m
 
 ## 5. On-FAIL, name the owner and the next move
 
-A flag nobody can act on is alert fatigue. Each failure line carries (or the check's header names) the owning surface and the fix path ("restore recipe: MACHINE_LOCAL.md, the row naming the key"). Never a hardcoded pointer that fits only the first key it was written for (env_doctor "FRED row" defect, fixed 8/11). `CHECKS.tsv` gains a per-check on-FAIL column at the next register pass (PAT-084).
+A flag nobody can act on is alert fatigue. Each failure line carries (or the check's header names) the owning surface and the fix path ("restore recipe: MACHINE_LOCAL.md, the row naming the key"). Never a hardcoded pointer that fits only the first key it was written for (env_doctor "FRED row" defect, fixed 8/11). `CHECKS.tsv` carries it in the `On_FAIL (PAT-084)` column (filled at the 2026-08-17 register pass).
 
 ## 6. Failure-direction is chosen, and stated
 
@@ -83,15 +83,17 @@ Scope note: §7's retry rule handles the *transient* half; this section handles 
 - **Consumer half:** verdict = rc-1 OR marker-present (§8 rule 5 keeps the marker channel authoritative; rc agrees with it, never substitutes for it); rc-2 = the check cannot certify its scope — treat as leg failure, never assume quiet. rc-0 alone is never proof of clean.
 - **Contract-change discipline:** revising a shared check's rc contract means editing the producer AND every rc-keyed consumer in ONE batch — a producer-only ship re-creates the 8/16 marker-contract regression class (a stale finding rendering as boot FAILURE on every wired desk). Survey consumers BEFORE changing the contract.
 - Scope: binds new shared checks at build and existing ones at next material edit, per this standard's scope line. §8 rule 3 is the fetch-tool instance of the same principle; this section is the general shared-check form.
+- **rc ≥ 3 (added 2026-10-28):** a producer-declared not-clean state (§8 rule 3: served-but-not-fresh, e.g. `cot_gold.py` rc=3). A consumer reads any rc ≠ 0 as not-clean, and any rc outside {0, 1} with no docstring mapping as cannot-certify.
+- **Harness hooks (added 2026-10-28):** a hook follows the harness's exit semantics (Claude Code: 2 blocks the tool call). A hook-mode always-0 is legal only when declared at the site (§6) AND a §9-conformant non-hook mode (`--selftest` / `--check`) exists.
 
-## 10. Every mechanism declares whether its author's own directory is in scope — default IN — PROVISIONAL (Will-approved 2026-08-17 via self-audit batch ruling; PROME-proposed at the cross-read; ratify-after-first-live-application per the §8 flow)
+## 10. Every mechanism declares whether its author's own directory is in scope — default IN — PROVISIONAL (state 2026-10-28: the first-live-application trigger has occurred — mechanisms have shipped under it since August — and no ratification is recorded; ratification owed via PROME) (Will-approved 2026-08-17 via self-audit batch ruling; PROME-proposed at the cross-read; ratify-after-first-live-application per the §8 flow)
 
 **Canon:** *Every new sweep, enforcement mechanism, check, or scope declaration MUST state whether the author's own directory/surfaces are in scope, and the default is IN. A scope-honesty line ("0 NOT READ", "all X covered") must enumerate the author's own dir as read-or-excluded — silence about self is a scope violation, not a neutral omission.*
 
 - **Why (measured, 2026-08-17 self-audit):** the self-inclusion clause has existed as prose since 7/12 (PAT-050) and held ONLY for the three sweeps it literally names. Every mechanism born since carried the exclusion unnoticed: the byte-tier convention (author's own STATUS at 391% of budget), the SFG sweep (author's own scripts out of scope with two live class-hits), CHECKS.tsv (scope predicate false for the author's own scripts), the closeout battery (never entered the author's charter). A remembered rule does not travel to new mechanisms; a template property does — same move as the messaging-pointer encode.
-- **Retroactive leg:** registered for the ~8/28 fleet wiring sweep (vehicle proposed in PROME's idea-3a packet, pending Will's confirmation of that packet) — audit existing sweep scopes + register readers fleet-wide while every boot surface is already open.
+- **Retroactive leg:** was planned for the 2026-08-28 wiring sweep; no self-inclusion leg is recorded in that run's record (SEARCH-NOT-FOUND 2026-10-28, guard floor check). DAEDALUS cites the run record or re-registers the leg with a date at the next Wiring sweep (⑰ #4, 2026-10-29).
 
-## 11. No register ships without a named reader — PROVISIONAL (Will-approved 2026-08-17 via self-audit batch ruling; PROME-proposed; ratify-after-first-live-application)
+## 11. No register ships without a named reader — PROVISIONAL (state 2026-10-28: the first-live-application trigger has occurred — mechanisms have shipped under it since August — and no ratification is recorded; ratification owed via PROME) (Will-approved 2026-08-17 via self-audit batch ruling; PROME-proposed; ratify-after-first-live-application)
 
 **Canon:** *A register's birth commit names its reading moment — WHO reads it (a person, a boot step, a sweep step, a script) and at WHAT cadence — or the register is born PAT-108 (a writer with no reader). "The owner will consult it" is not a reading moment; a reading moment is an executable or scheduled step that fails visibly when skipped.*
 
@@ -106,12 +108,12 @@ Scope note: §7's retry rule handles the *transient* half; this section handles 
 - Kin: `finding_base_rate_the_threshold_before_building_it` (this is its check-side twin) · §1's alert-fatigue rationale · PAT-116 (output shape is contract).
 - **C5 — SPECIFIED-BUT-NONEXISTENT is the ZEROTH instrument state** *(WQ-254 D1, Will 2026-09-24)*: a method doc written in the imperative is a CAPABILITY CLAIM, so at closeout any doc naming a derived score/metric answers **"does the code exist?"** SPECIFIED-BUT-NONEXISTENT sits UPSTREAM of UNINSTRUMENTED because it *reports* as instrumented. Register = the ⑰ instrument-state taxonomy (`design/2026-08-28_INSTRUMENT_STATE_TAXONOMY.md`). *Instance: ORACLE KB-ORC-074 — a 272-line metrics spec with no code for 67 days; 3 of 5 published sigmas unreachable.*
 
-## 13. The PRIOR-ART LINE — mandatory on new mechanism specs — RULED Batch B (Will, 2026-08-21, record `0416eaa40`; memory-retrieval disposition ①) — PROVISIONAL, ratify-after-first-live-use per the §8 flow (first live use = the next mechanism spec any desk writes)
+## 13. The PRIOR-ART LINE — mandatory on new mechanism specs — RULED Batch B (Will, 2026-08-21, record `0416eaa40`; memory-retrieval disposition ①) — PROVISIONAL (state 2026-10-28: the first-live-application trigger has occurred — mechanisms have shipped under it since August — and no ratification is recorded; ratification owed via PROME), ratify-after-first-live-use per the §8 flow (first live use = the next mechanism spec any desk writes)
 
 **Canon:** *Any new check, guard, threshold mechanism, or process-fix spec carries one line: the SYMPTOM searched against `MEMORY.md` + `memory/auto/INDEX_COLD.md` + `PATTERNS_HOT.md` (grep the bodies, not just the indexes — cold bodies are dark to injection but fully greppable), with either the slug/PAT cited or the words "searched, novel." A spec without the line is incomplete, the same way one without a §3 verification plan is.*
 
 - Scope explicitly EXCLUDES market judgment; the binding moment is **mechanism-design** — not closeout (too late: the fix is already built) and not ambient (2×-ceremony at 33-agent scale, the VULCAN measurement).
-- Enforcement: DAEDALUS checks it at review the way §3 is checked now; `builds/REGISTRATION_CHECKLIST.md` picks it up for new builds.
+- Enforcement: DAEDALUS checks it at review the way §3 is checked now; `builds/REGISTRATION_CHECKLIST.md` row OWED — no §13 / prior-art row found there by grep 2026-10-28 (guard floor check; SEARCH-NOT-FOUND, positive control = the checklist's own PAT-047 row).
 - **Re-open trigger, pre-registered (Batch-A record):** ≥3 false-"searched, novel" claims in a month — problems that HAD a slug — revives the declined cross-index, and the failure evidence tells us what that index must key on.
 - Write-side twin: the `symptoms:` frontmatter line (Batch A, `docs/AUTO_MEMORY.md` §Writing-memory-files) — that rule baits the search this rule mandates.
 

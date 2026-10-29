@@ -350,10 +350,30 @@ def range_end(d, tok):
         return None
 
 
+def partition_files(files):
+    """Split requested paths into (checkable, skipped) — skipped carries (path, reason).
+
+    A path this tool cannot read is NOT a clean file. Before 2026-10-28 check_file() returned
+    [] for a missing path or an unsupported suffix and main() counted it in "N file(s) clean"
+    — HAWK reader C reproduced it on the 10/22 bank-desk review: an unsupported-suffix path
+    passed as clean. PAT-074: a PASS must say what it proves; a skip is printed, never counted.
+    """
+    checkable, skipped = [], []
+    for f in files:
+        p = ROOT / f
+        if not p.is_file():
+            skipped.append((f, "not a file"))
+        elif p.suffix.lower() not in TEXT_SUFFIXES:
+            skipped.append((f, f"unsupported suffix {p.suffix.lower() or '(none)'}"))
+        else:
+            checkable.append(f)
+    return checkable, skipped
+
+
 def check_file(path, checks, year):
     rel = str(pathlib.Path(path))
     p = ROOT / path
-    if not p.is_file() or p.suffix.lower() not in {".md", ".tsv", ".txt", ".py", ".sh", ".json"}:
+    if not p.is_file() or p.suffix.lower() not in TEXT_SUFFIXES:
         return []
     try:
         text = p.read_text(encoding="utf-8", errors="replace")
@@ -471,18 +491,46 @@ SELFTEST = [
 ]
 
 
-def selftest():
+def selftest_partition():
+    """File-collection leg (2026-10-28): a missing path or an unsupported suffix is SKIPPED and
+    printed, never counted clean; a capable supported file still flags; a clean one is clean."""
+    import tempfile
     fails = 0
+    with tempfile.TemporaryDirectory(dir=str(ROOT)) as d:
+        dp = pathlib.Path(d)
+        (dp / "clean.md").write_text("x 9/6 Sun y\n", encoding="utf-8")
+        (dp / "capable.md").write_text("x 9/6 Sat y\n", encoding="utf-8")
+        (dp / "binary.png").write_bytes(b"\x89PNG")
+        rel = lambda n: str((dp / n).relative_to(ROOT))
+        req = [rel("clean.md"), rel("capable.md"), rel("binary.png"), rel("missing.md")]
+        checkable, skipped = partition_files(req)
+        cases = [
+            ("partition: 2 checkable", len(checkable) == 2),
+            ("partition: 2 skipped", len(skipped) == 2),
+            ("skip reason: unsupported suffix .png", any(w.startswith("unsupported suffix .png") for _, w in skipped)),
+            ("skip reason: not a file", any(w == "not a file" for _, w in skipped)),
+            ("capable file flags", len(check_file(rel("capable.md"), {"weekday"}, 2026)) == 1),
+            ("clean file clean", len(check_file(rel("clean.md"), {"weekday"}, 2026)) == 0),
+        ]
+        for name, ok in cases:
+            fails += not ok
+            print(f"  {'\u2713' if ok else '\u2717'} {name}")
+    return fails
+
+
+def selftest():
+    fails = selftest_partition()
     for line, want in SELFTEST:
         got = len(check_text("<selftest>", line, {"weekday"}, 2026))
         ok = got == want
         fails += not ok
         mark = "\u2713" if ok else "\u2717"
         print(f"  {mark} expect {want} got {got}  {line!r}")
+    total = len(SELFTEST) + 6
     if fails:
-        print(f"CLAIM-CHECK SELFTEST \u2717 {fails}/{len(SELFTEST)} case(s) FAILED \u2014 do not trust the weekday check")
+        print(f"CLAIM-CHECK SELFTEST \u2717 {fails}/{total} case(s) FAILED \u2014 do not trust the weekday check")
         return 1
-    print(f"CLAIM-CHECK SELFTEST \u2713 {len(SELFTEST)}/{len(SELFTEST)} cases behaved [weekday]")
+    print(f"CLAIM-CHECK SELFTEST \u2713 {total}/{total} cases behaved [weekday + file-partition]")
     return 0
 
 
@@ -516,7 +564,16 @@ def main():
             expanded.append(f)
     files = expanded
     files = [f for f in files if not any(s in pathlib.Path(f).parts for s in SKIP_DIRS)]
+    files, skipped = partition_files(files)
+    skip_note = ""
+    if skipped:
+        skip_note = f" · {len(skipped)} SKIPPED (not checked): " + "; ".join(f"{f} [{why}]" for f, why in skipped)
     if not files:
+        if skipped:
+            # Every requested path was unreadable by this tool — that is a usage error (rc 2),
+            # never a clean pass: nothing was read.
+            print(f"CLAIM-CHECK ✗ 0 file(s) checked{skip_note}")
+            return 2
         if not a.quiet:
             print("CLAIM-CHECK ✓ nothing to check")
         return 0
@@ -527,13 +584,13 @@ def main():
 
     if not all_flags:
         if not a.quiet:
-            print(f"CLAIM-CHECK ✓ {len(files)} file(s) clean [{','.join(sorted(checks))}]")
+            print(f"CLAIM-CHECK ✓ {len(files)} file(s) clean [{','.join(sorted(checks))}]{skip_note}")
         return 0
 
     by_kind = {}
     for rel, n, kind, msg in all_flags:
         by_kind.setdefault(kind, []).append((rel, n, msg))
-    print(f"CLAIM-CHECK ⚠️  {len(all_flags)} flag(s) across {len(files)} file(s)")
+    print(f"CLAIM-CHECK ⚠️  {len(all_flags)} flag(s) across {len(files)} file(s){skip_note}")
     for kind in sorted(by_kind):
         print(f"\n[{kind}]")
         for rel, n, msg in by_kind[kind]:

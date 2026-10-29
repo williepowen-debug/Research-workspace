@@ -167,6 +167,11 @@ STAMP_LABEL = re.compile(
     r"(20\d{2}-\d{2}-\d{2}|\b\d{1,2}/\d{1,2}(?:/\d{2,4})?\b)", re.I)
 
 
+# A kill rail embedded in the thesis file announces itself by the blueprint §4 stamp (labelled,
+# dated) — "Kill rail re-derived: YYYY-MM-DD" — or a "KILL RAIL" title token beside a labelled stamp.
+IN_THESIS_RAIL = re.compile(r"kill[ -]rail\s+re-?derived:\s*20\d{2}-\d{2}-\d{2}", re.I)
+
+
 def labelled_stamp(text, year_hint=None):
     """Newest date that carries an explicit freshness LABEL. None if the header makes no claim."""
     found = []
@@ -315,9 +320,20 @@ def scan_agent(name, group):
     rows = []
     for rel, cls in surfaces(agent_dir):
         p = agent_dir / rel
-        if tpath and p == tpath:
-            continue                              # the thesis is the reference, not a surface
         head = read(p, HEADER_LINES)
+        if tpath and p == tpath:
+            # The thesis is the reference clock, not a surface — UNLESS the rail lives INSIDE it.
+            # 2026-10-28 (HOMER refresh, reader R2): HOMER's thesis/THESIS.md is titled "THESIS +
+            # THESIS-LEVEL KILL RAIL" and carries the blueprint §4 stamp `Kill rail re-derived:
+            # 2026-09-29` on line 3, frozen and GATES-registered — and this skip dropped it, so the
+            # sweep printed HOMER under "HAS A THESIS, NO SEPARATE FALSIFICATION SURFACE": a false
+            # finding against a satisfied L3 leg (the S2 defect named at Falsification #4). An
+            # in-thesis rail is recognised ONLY by the labelled stamp form (not by prose), and is
+            # graded on that stamp like any other STATE surface.
+            if IN_THESIS_RAIL.search(head):
+                cls = "kill rail (in-thesis)"
+            else:
+                continue
         append_only = bool(APPEND_ONLY.search(rel))
         event_log = bool(EVENT_LOG.search(rel))
         if append_only:
