@@ -3,9 +3,9 @@
 **Status:** 🔴 v2.6.6 — concentrated household strain; broad spending collapse remains unestablished.
 **Domain:** U.S. consumer financial stress and household transmission; ISHM owns manufacturing/freight, REGINALD bank credit.
 **Thesis version:** v2.6.6
-**Recent thesis pivot:** broad-collapse claim further challenged by PNC/Velera activity (10/26); auto affordability and thin young-adult buffers coexist with spending growth.
-**As of:** 2026-10-27 00:13 ET | STATUS commit: `3b19dcd53`
-**Position:** No capital authority; seven paper exits decided, actual next-open fills pending. No performance claim.
+**Recent thesis pivot:** none on 10/28. Conference Board rebound (91.7) is counter-evidence on attitudes, but on its six-month average only under-35 and $100K+ groups are rising; the Fed held with hike dissents.
+**As of:** 2026-10-28 20:42 ET | STATUS commit: `5b86a24b9`
+**Position:** No capital authority. Seven paper rows CLOSED 10/28 at the 10/27 opening-print fallback (+$313.57 paper); scoring gates shut, no performance claim.
 
 ## CROSS-DOMAIN
 
@@ -13,6 +13,7 @@
 
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |---|---|---|---|
+| NEXUS / RED / REGINALD | 10/28 catch-up: FOMC hold 10–2 (two hike dissents, V12 0 of 2); Conference Board Oct 91.7 (+7.5); EIA 10/26 regular $4.269 (−1.5¢) vs diesel $6.352 (+7.6¢, 3rd rise); CCC−B 999bp while HY tightened to 318bp; Carvana Q3 units +39%, fuel and rates about −$200/unit. KB-561–567. | Dark-period catch-up | Attitudes rebounded unevenly; fuel legs diverge; corporate quality split widens. None is a score letter; no loan-performance data in Carvana. |
 | NEXUS / RED | PNC September nominal card spend +6.1% YoY, +5.1% ex gas; lower-income growth faster. Velera credit/debit transaction counts +4.3%/+5.5%. | Will-requested sweep | Selected bank/processor evidence challenges broad collapse. These panels do not measure CARL's assumed bottom 60%; no dismissal of the counterevidence on that basis. KB-546/550/551. |
 | NEXUS / REGINALD | Edmunds Q3 underwater share 29.1% of financed new-car trade-ins versus 28.1% YoY; PNC same-age Gen Z deposit buffer 25 days versus Millennials 32. | Consumer consequence | Financing inflexibility and thin buffers coexist with activity. Different samples/clocks; no matched-vintage default inference, no national fragile share. KB-547–549. |
 | WALTER / NEXUS | EIA October19 regular gasoline fell 4.7 cents weekly; diesel rose 9.7 cents. Gartner October26 holiday release uses August intentions; Canada tariff relief remains talks. | Existing routing | Different fuel channels matter for household costs; no live quote, realized holiday-sales drop or enacted tariff cut. WALTER packet supplies evidence for dedupe/routing, not a new study. |
@@ -27,51 +28,46 @@
 
 | From | Input | Expected by | Why it matters | How it changes my view |
 |---|---|---|---|---|
-| Market quotes / CARL paper ledger | Actual regular-session opening quotes for seven exits | Tue 10/27 | Decisions exist; fills do not | Close paper rows only with actual conservative execution evidence; no thesis score effect |
-| Conference Board | October confidence, revisions and cohort splits | Tue 10/27 10:00 ET | Survey versus outlays | Update intentions only; no automatic score gate |
-| EIA | Next gasoline/diesel release, reference week verified on retrieval | Tue 10/27, publisher date | Consumer fuel split | Context only; EIA does not replace the registered AAA instrument |
-| Fed | FOMC statement | Wed 10/28 | Existing V12 count | Apply unchanged registered un-fire conditions |
-| BEA | Q3 GDP advance and September income/outlays, including revisions | Thu 10/29 08:30 ET | Next broad-consumption observation | Separate real volume, real income and saving from prices and GDP composition; no cohort inference from aggregates |
-| OTTO / SEC | EART September collection month | ~10/29 | Existing V2 deep tier | Apply existing tier/denominator rules; no new grade here |
-| ALLY / RITM original filings | Comparable vintage loss evidence / Q3 filing notes if published | 11/06 source checkpoint | Missing ALLY comparison prevents substantive verdict | Recover actual registered input; no forecast-window extension or proxy substitution |
-| LABOR / BLS | October payrolls | Fri 11/06 | Existing V16 observation | Apply unchanged instrument and count |
+| BEA | Q3 GDP advance and September income/outlays, including revisions | Thu 10/29 08:30 ET | Next broad-consumption observation | Separate real volume, real income and saving from prices; no cohort inference |
+| OTTO / SEC | EART September collection month (+ SDART/BLAST) | ~10/29 | Existing V2 deep tier | Apply existing tier/denominator rules; at most qualifying month 1 |
+| Will | STUE spawn-or-carry decision (STUE not booted since 10/01; ES grades due 10/28 undone) | 10/30 | Student-loan owner grades | No launch without Will's word |
+| Court docket | AFT v. ED 10/28 status conference outcome (CourtListener 403) | 10/30 retry | CRL-13 denominator | No backlog figure inferred |
+| Fed | 10/28 press-conference transcript | 11/04 | Remaining V12 leg | Apply unchanged un-fire conditions |
+| ALLY / RITM original filings | Comparable vintage loss evidence | 11/06 | CRL-21 STUCK | Recover registered input; no extension |
+| LABOR / BLS | October payrolls | Fri 11/06 | V16 print 1 of 2 | Apply unchanged instrument and count |
 
 ## VIEW
 
-- Concentrated auto affordability strain persists: debt rollover limits flexibility, while credit availability remains open. Edmunds' financed trade-ins and Cox's negative-equity component are different populations. Neither resolves ALLY's missing matched-vintage loss test; CRL-21 remains STUCK/unscored.
-- PNC/Velera activity is meaningful counterevidence to broad collapse, including faster lower-income PNC growth. Nominal dollars and transaction counts are not a national real-spending basket; younger credit-union card delinquencies are higher, but their basis cannot be spliced into NY Fed 90+.
-- New holiday headlines do not supply new realized sales. Gartner's October26 release uses August fieldwork; NRF forecasts nominal holiday growth. Price-level burden and household intentions must remain distinct from spending volumes.
-- RITM owned GNMA deterioration and KFF worker premiums retain the earlier evidence of concentrated strain. CRS's October23 student-loan report reinforces classification/servicing limits, not a collections-restart claim. No child refresh or all-borrower conclusion.
-- Registered score stays 53/70. October29 GDP/PCE remains the next aggregate real-spending read; August's baseline and revision controls are saved. Report and dates: research/2026-10-26_news-sweep/REPORT.md.
+- Concentrated strain persists; broad collapse is still not established. October Conference Board rebounded across the present-situation and expectations indexes. Its six-month average rises only for under-35 and $100K+ households, and write-ins on prices, groceries and diesel rose. These are attitudes, not outlays.
+- Fuel channels diverge: regular gasoline is easing slowly while diesel rose for a third week (freight-cost context; no household pass-through coefficient).
+- Corporate credit quality is splitting (CCC−B 999bp vs 962 on 10/16) while broad HY tightens. RED/REGINALD own the thresholds; CARL's L708 found consumer-facing B/CCC names did not lead.
+- Single-name items (True Food Ch.11, JetBlue fuel-driven loss, Carvana unit growth) are context, not breadth evidence.
+- Registered score stays 53/70. The 10/29 GDP/PCE release is the next aggregate real-spending read; prep card saved.
 
 ## CALIBRATION
 
 - **Conviction:** concentrated strain direction MEDIUM-HIGH; broad-collapse timing/level LOW. The score is a registered-rule tally, not independent confirmations.
 - **Diverge from market by:** subprime ABS can worsen while prime cards improve. Neither prime issuer health nor deep-subprime stress measures the whole household population.
-- **Cross-agent tensions known to me:** BofA and now PNC/Velera realized activity challenge survey/concentrated-credit strain as a broad-collapse thesis; ISHM freight-volume counterevidence is compatible with that limit. No new ownership dispute; shared industrial figures cite ISHM PRINTS.tsv.
-- **Uncertain about:** matched ALLY vintage losses; the RITM accounting mechanism; September real spending and saving composition; STUE's existing owner-assignment gap (PROME). No child refresh claimed.
+- **Cross-agent tensions known to me:** BofA, PNC/Velera realized activity and now the Conference Board rebound challenge broad-collapse framing; ISHM freight-volume counterevidence is compatible with that limit.
+- **Uncertain about:** matched ALLY vintage losses; September real spending and saving composition; STUE's owner-assignment and boot gap (Will decision 10/30). No child refresh claimed.
 - **Failure patterns to mind:** seasoning/denominator substitutions and season-crossing QoQ letters. Prediction contracts remain in thesis/PREDICTIONS.tsv; STUCK is unscored.
-- **RED counter-frame:** improving prime cards and realized spending challenge imminent broad collapse; keep cohort limits and the registered falsifiers rather than treating missing data as confirmation.
+- **RED counter-frame:** improving prime cards, realized spending and rebounding confidence challenge imminent broad collapse; keep cohort limits and registered falsifiers.
 
 ## NEXT DECISION POINT
 
-- **What:** finish actual paper execution; read confidence/EIA, then run the saved GDP/PCE plan.
-- **When:** 10/27 regular opening quotes, confidence 10:00 ET and EIA publisher release date; 10/29 08:30 ET GDP/PCE.
-- **What would falsify the trigger:** absent quotes prevent paper fills; no real-spending contraction/breadth means no new broad-collapse confirmation. Neither changes the frozen prediction letters.
+- **What:** run the saved GDP/PCE plan and the EART September V2 read.
+- **When:** 10/29 08:30 ET; EART filing ~month-end.
+- **What would falsify the trigger:** no real-spending contraction or breadth means no new broad-collapse confirmation. Neither changes frozen prediction letters.
 
 ## FORWARD CATALYSTS
 
 | Date | Event | Threshold / Signal |
 |---|---|---|
-| 10/27 | Actual opening quotes; confidence 10:00 ET; EIA update | Existing paper execution; descriptive consumer source checks, no new gate |
-| 10/28 | FOMC | Existing V12 un-fire count |
 | 10/29 08:30 ET | Q3 GDP + September PCE | Saved GDP_PCE_OCT29_PREP.md; revisions, real income/saving and breadth |
 | ~10/29 | EART September | Existing V2 deep-tier read |
-| 11/06 | Original issuer source checkpoint; payrolls separately | CRL-21 input recovery, RITM filing notes; V16 |
-| 11/10 08:30 ET | October CPI | BLS-verified date; CRL-10 level/path conditions unchanged |
+| 10/30 | STUE decision; AFT docket retry; WQ228 review | Carried UNREVIEWED from 10/28 |
+| 11/03–11/04 | EIA weekly; FOMC presser transcript | Fuel context; V12 remaining leg |
+| 11/06 | Payrolls; ALLY/RITM source checkpoint | V16; CRL-21 input recovery |
+| 11/10 08:30 ET | October CPI | CRL-10 level/path conditions unchanged |
 
-**Closeout limits:** October 26–27 file audit repaired code/operating defects and nine false-open tasks. Consistency 0 hard / 6 soft; read-cap passes seven detected surfaces, charter/composite coverage unassessed. Operational closeout remains PARTIAL: 23 inherited child-age flags and eight TSV defects, overdue owner work and future opening quotes remain explicit. No probability, score, instrument threshold or paper fill changed. Runtime OpenAI Codex, exact model UNKNOWN. L786 result 5b18d5a88 consumption was acknowledged; separate news/audit/TERRY consumption remains unverified. Audit result 3b19dcd53.
-
-**Session close:** Will explicitly requested closeout; no further research this session. Final check evidence and remaining owner work are saved in the dated session receipt.
-
-**Late intake:** JetBlue Q3 signal SIG-W-20261027-040 is deferred to October27 next CARL session; primary verification and incorporation remain outstanding. No inference from the relay changes this brief’s thesis or score.
+**Closeout (10/28):** consistency 0 hard / 7 soft; read-cap passes seven detected surfaces (charter coverage unassessed); 23 inherited child-ledger flags remain for owner review. Research retirement sweep not run this session.
