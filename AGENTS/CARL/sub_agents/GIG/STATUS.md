@@ -1,12 +1,11 @@
 # GIG STATUS
 
-**Last Updated:** 2026-10-28 late (catch-up: Q3 print dates confirmed, Waymo Oct footprint, DoorDash gas-relief correction, stale STATUS sections reconciled to the ledgers) · earlier 10/28 (ledger-clearing pass; platform/Dave operating data still 2026-08-10 Q2 vintage) (Q2 platform earnings refresh: Dave/Uber/DoorDash/Lyft all reported Aug 5-6; gas RE-PULLED via CARL tape) | **Status:** 🟠 ELEVATED
+**Last Updated:** 2026-10-29 00:01 ET (closeout rebuilt: `CLOSEOUT.md` + runner; STATUS rotated 30,800 → ~23.5 KB, 6 settled blocks to `archive/STATUS_ARCHIVE_2026-10.md`) · 2026-10-28 late (catch-up: Q3 print dates confirmed, Waymo Oct footprint, DoorDash gas-relief correction, stale STATUS sections reconciled to the ledgers) · earlier 10/28 (ledger-clearing pass; platform/Dave operating data still 2026-08-10 Q2 vintage) (Q2 platform earnings refresh: Dave/Uber/DoorDash/Lyft all reported Aug 5-6; gas RE-PULLED via CARL tape) | **Status:** 🟠 ELEVATED
 
 > **Catch-up note (2026-10-28 late):** ① **Q3 prints are dated:** Uber, DoorDash and Dave on **Wed Nov 4** (Uber call 8:00 ET; DoorDash and Dave after close, calls 4:30 ET), Lyft **Thu Nov 5** (call 5:00 ET) [company notices 10/5, 10/9, 10/23, 10/15; Dave via secondary copy, IR page 403] (ML-GIG-28). ② **Waymo:** public service in San Antonio, San Diego, Tampa (10/14); +~250 sq mi in LA, Nashville, **Orlando**, San Diego, SF Bay (10/27); $5B debt (10/8). **No rides/week or fleet figure published** — last primary 500K/wk (Mar 2026); GIG-P07 still ungradeable on its instrument [waymo.com/blog, fetched 10/28] (ML-GIG-29). ③ **Correction:** DoorDash's US gas relief had fixed end dates (weekly payments 3/23-4/26; Crimson cash back to 6/30); GIG's 8/10 "continuing, not tapering" read is withdrawn; Q3 status unknown until 11/4 (ML-GIG-30, VX-GIG-1.04). ④ Dashboard, liquidity-threshold, prediction and cross-agent tables below were still showing Q1 values and pre-ruling statuses; reconciled to the ledgers this pass.
 
 > **Refresh note (2026-10-28, ledger-clearing pass):** Q3 2026 prints for Dave/Uber/Lyft/DoorDash are NOT on SEC EDGAR as of 10/28 (latest earnings 8-Ks 8/5-8/6), so every platform/Dave value below is the Q2 vintage and carries `[STALE - 2026-08-10]` where it is quoted as a level. **Newly refreshed:** national gas, EIA weekly via FRED: $4.269 (w/e 10/26), re-peaked $4.478 (9/21, $0.022 under the $4.50 Orange band, no breach), easing 4 weeks; diesel $6.352 [EIA/FRED, pulled 10/28]. Lyft 8-K 9/30: $272.5M California misclassification settlement (2016-2020 period; historical liability). FL/TX/CA gas, Gridwise earnings, Waymo/Tesla rows `[STALE - 2026-08-10 or earlier]`. **Predictions:** GIG-P02 DUE-UNRESOLVED (no primary FL-vs-national gig series; context FL unemployment 4.4% vs US 4.2% Sep 2026, BLS via FRED, LABOR-owned); P03/P06 DUE-UNRESOLVED (Gridwise annual only); P04 unreachable; P07 partial (Waymo blog has no rides/fleet). **Ledgers:** DRIVER_ECONOMICS/ML/PLATFORM/PREDICTIONS/VX refreshed (scope in each header); FLOW FROZEN; AV_TRACKER RETIRED; ragged rows realigned (VX 6, ML 3 + 1 blank line, FLOW 1). SV: `state_vectors/SV-GIG-2026-10-28-01.md`.
 
-> **Refresh note (2026-08-10):** Dave Q2 2026 pre-registered re-cut test on VX-GIG-3.08 RESOLVED — provision growth decelerated +151%→+14.3% YoY, confirming mgmt's timing-artifact claim over persistent stress; GIG PROPOSES downgrade CRITICAL→NORMAL (CARL to ratify). Gas RE-BREACHED $4.00 and has HELD since 7/20 (AAA $4.0091 8/10) — VX-GIG-6.01's own re-arm rule triggers, reversing the Jun-22 "receding" read; corroborates CARL-parent V5 Gas Squeeze 3→4 (8/3). Uber/Lyft/DoorDash Q2 supply signals are MIXED, not a clean oversupply confirm: Uber flagged localized driver tightness (India two-wheel, Brazil) despite a record 10.2M aggregate driver/courier count; Lyft supply "historically strong/near all-time highs"; DoorDash continuing ~$50M/qtr gas subsidy. GIG-P03/P06 (Gridwise weekly-$/hourly-$) hit their THIRD consecutive no-print search — marked ⚠ DUE-UNRESOLVED [DATA-NEEDED], recommend re-instrumenting off Gridwise's annual-only cadence. The **AV surface remains Apr-17/Jul-8 vintage** — not touched this pass (no cheap dated trigger surfaced).
 
 ---
 
@@ -56,11 +55,7 @@ Auto/credit delinquency (CARL)
 Bank losses (REGINALD)
 ```
 
-**Squeeze vectors (reconciled Jun-22):**
-1. **Oversupply — CONFIRMED, mechanism intact.** SIGNAL: JOLTS ratio 1.04 (May 2026); the Feb-2026 0.91 inversion has resolved (parent V16 re-anchored 4→3, v2.5.2 Jun-6); LFPR 61.5%. INTERPRETATION: the oversupply mechanism no longer rests on a JOLTS *inversion* — it now rests on the direct supply-surge / AV / extraction legs (see vector 2-4), which the Jun-22 platform data confirms. [Parent STATUS Jun-6; BLS May]
-2. **Gas squeeze — RECEDING.** SIGNAL: peaked ~$4.50 May-11 (EIA wk), now $3.929 national (AAA Jun 22), still +$1.04/gal YoY. INTERPRETATION: 🔴→🟠; the acute pump squeeze is easing, but structurally elevated. FL no longer the gas outlier (leg inverted). [AAA/EIA Jun 22]
-3. **Platform extraction — CONFIRMED.** SIGNAL: Gridwise 2.7× extraction (fares/trip +9.6% YTD vs driver pay/trip +3.6% YTD); take rates +33% (2025). INTERPRETATION: platforms capturing the per-fare growth; drivers absorbing cost increases. [Gridwise May 13]
-4. **AV acceleration — `[STALE — Apr-17 vintage]`.** Waymo 11 cities (Nashville Apr 7 + Lyft partnership), Tesla driverless Austin. Jun-22 SV did not refresh AV — carries UNVERIFIED.
+**Squeeze vectors:** current reads live in the THRESHOLD SIGNALS table and the GAS / PLATFORM sections below; the Jun-22 vector narrative is archived (`archive/STATUS_ARCHIVE_2026-10.md` §2).
 
 ---
 
@@ -90,19 +85,7 @@ Bank losses (REGINALD)
 
 ### Primary Liquidity Signal: Dave loss provisioning (28DPD canary RETIRED)
 
-Dave Inc. (DAVE) reports "28 Days Past Due" (28DPD) on cash advances — **but this metric is survivorship-biased and has been RETIRED as the primary canary** (reconciled 2026-07-10 from Jun-22 SV). Dave underwrites OUT the worst subprime credits (CashAI filtering), so a low/improving 28DPD reflects selection, not population health. **28DPD is now a platform-health indicator only, NOT a bottom-60 delinquency barometer.**
-
-**New primary liquidity signal = provision-for-credit-losses trajectory + ExtraCash portfolio contraction.** *(Table below is the Q1 history that set up the test; the current read is the Q2 RESULT section that follows.)*
-
-| Metric | Q1 2026 | Prior | Read |
-|--------|---------|-------|------|
-| 28DPD | **1.69%** | 1.89% Q4 / 1.70% Q1'25 | Record Q1 low — but optically improved (survivorship). Platform-health only. |
-| Provision for credit losses | **$26.6M** | $10.6M Q1'25 | **+151% YoY** — loss expectations rising even as reported DQ falls. THE signal. |
-| ExtraCash portfolio | **$279.1M** (Mar) | $297.3M (Dec) | −6% QoQ — portfolio contracting. |
-| Net monetization | **5.1%** | — | 4-yr high. |
-| ARPU | **+24% YoY** | — | Revenue growth ≠ borrower health. |
-
-**Interpretation:** The +151% provision spike moves OPPOSITE the improving DQ metric — that divergence is the informative signal. Mgmt attributes the spike to Mar-31 quarter-end timing (intra-week advance peak). **Q2 print (~Aug) is the test:** does the provision spike persist (→ real stress) or revert (→ timing artifact)? New vector VX-GIG-3.08 tracks this (bands `[FLAG: uncertain — Will to review]`). [Dave Q1 2026, PRNewswire May 5; SEC 8-K]
+28DPD is survivorship-biased (CashAI underwrites out the worst credits), so it is a platform-health indicator only. The primary liquidity signal is the loss-provision YoY trajectory (VX-GIG-3.08). Q1 2026 history (+151% YoY spike, mgmt's quarter-end-timing claim) archived in `archive/STATUS_ARCHIVE_2026-10.md` §3; the current read is the Q2 result below.
 
 ### ⚠️ Q2 2026 RESULT — pre-registered re-cut test RESOLVED (2026-08-10)
 
@@ -152,58 +135,19 @@ Dave reported Q2 2026 Aug 5, 2026 (quarter ended Jun 30, 2026). [PRNewswire/8-K 
 
 > **Oct-2026 update (waymo.com/blog, fetched 10/28):** public service opened San Antonio/San Diego/Tampa 10/14; +~250 sq mi across LA, Nashville, Orlando, San Diego, SF Bay 10/27; Las Vegas airport 10/21; $5B term loan 10/8; Toronto (2028) and Madrid in prep. **Two Florida metros (Tampa, Orlando) are now live.** No rides/week, fleet or driver-equivalent figure — the detail below stays STALE.
 
-> ⚠️ **This entire section is Apr-17 vintage.** The Jun-22 refresh did not update AV data. Do not cite as current; carries UNVERIFIED to next spawn. **GIG-P07 (Waymo >10K displaced by EOY) rests entirely on this un-refreshed data.**
-
-**Waymo — 11 Cities as of Apr 7, 2026 `[STALE]`:**
-| City/Region | Status | Notes |
-|-------------|--------|-------|
-| Phoenix | Mature | Original market. Magna production plant doubling. |
-| San Francisco | Mature | -6.9% driver pay YoY |
-| Los Angeles | Active | -4.7% driver pay YoY |
-| Austin | Active | -5.3% driver pay YoY. Tesla also here. |
-| Nashville | Launched Apr 7 | Lyft partnership — Lyft provides fleet services via Flexdrive subsidiary |
-| London | Testing | ~100 vehicles, safety operator aboard, commercial launch 2026H2 |
-
-**Nashville-Lyft partnership significance `[STALE]`:** Waymo chose Lyft over Uber for Nashville; Lyft handles vehicle readiness/charging/depot via Flexdrive. Template for Waymo-as-infrastructure, Lyft-as-operator — Lyft cannibalizes its own human drivers via AV partnerships.
-
-**Waymo trajectory `[STALE]`:** ~500K rides/week, targeting >1M by EOY 2026. At 1M/week ≈ ~8K FT-driver-equivalent displacement (from ~4K). Still <0.1% of 9.7M Uber drivers — trajectory is what matters.
-
-**Tesla driverless `[STALE — Mar 31]`:** Unsupervised (no safety driver) in Austin, geofence 245 sq mi. Expanding to Las Vegas, Dallas by EOY 2026. Only 4-8 vehicles unsupervised currently.
+> Apr-17-vintage detail (Waymo city table with Gridwise AV-city pay impacts, Nashville-Lyft template, 500K→1M trajectory, Tesla Austin) archived in `archive/STATUS_ARCHIVE_2026-10.md` §4. City pay impacts also live in `workbook/DRIVER_ECONOMICS.tsv` (av_driver_pay_impact rows, 2025 vintage).
 
 ---
 
-## GEOGRAPHIC CONCENTRATION (reconciled Jun-22)
+## GEOGRAPHIC CONCENTRATION
 
-| State | Gig Concentration | Gas Price (Jun-22) | Status | Notes |
-|-------|-------------------|-----------|--------|-------|
-| **Florida** | **22%** | **$3.617** (BELOW national) | 🔴 CONVERGENCE (re-based) | Gas leg INVERTED — FL now below national. Convergence re-rests on gig-concentration + UI-cliff, NOT gas. UI Wave-1 cliff NOW (Jun 24). |
-| California | 20% | (not re-priced Jun-22) | 🔴 CRITICAL | Waymo active (SF, LA). |
-| Texas | 18% | (not re-priced Jun-22) | 🟡 SHELTER | Tesla robotaxi Austin. |
-| Illinois | 18% | (not re-priced Jun-22) | 🟠 | |
-
-**FL convergence (re-based Jun-22):** SIGNAL — FL UI **Wave-1 cliff is NOW (Jun 24)**: FL 12-week hard cap (max $275/wk) → Mar 10-24 filers exhaust ~Jun 10-24; no federal EB/EUC bridge = zero replacement income. FL UR 4.8% Apr (highest since 2021, +1.1pp YoY, 532K jobless). **MAGNITUDE CAVEAT:** only ~8% of unemployed Floridians receive UI (lowest recipiency nationally) → **~42,500 active recipients statewide** — a real income cliff but small in absolute terms. INTERPRETATION — the load-bearing transmission is the **gig-supply-surge channel** (Wave-1 exhaustees drive-to-earn → compress per-trip earnings), NOT aggregate UI dollars, and NOT gas (leg inverted). Legislative risk: HB 191 (passed House 81-31 Feb) tightens eligibility further if signed. [BLS Apr 2026; Florida Policy Institute; FloridaJobs.org]
+FL 22% / CA 20% / TX 18% / IL 18% gig concentration (VX-GIG-5.01; state data). FL gas leg INVERTED since Jun-22 (FL below national; last AAA 8/10 $3.862 vs $4.0091). FL now also carries an AV leg (Waymo Tampa + Orlando, Oct 2026). Jun-22 detail (FL UI Wave-1 cliff, ~42.5K recipients, HB 191) archived in `archive/STATUS_ARCHIVE_2026-10.md` §5.
 
 ---
 
-## SUBPRIME AUTO ABS: ALLY K-SHAPE LINK ASSESSMENT *(Apr-17 vintage — not refreshed by Jun-22 SV)*
+## SUBPRIME AUTO ABS LINK
 
-**Context:** ALLY Q1 showed headline clean (retail auto NCO 1.97%, 5 consec quarters improving) but CARL audit flagged composition masking: S-tier share 40→37%, nonprime share 9.7→10.1%, ACL -6%. CARL asks: is subprime ABS showing stress that ALLY near-prime print masks?
-
-**Finding: YES — subprime ABS diverges from ALLY headline**
-
-| Source | Dec 2025 DQ (60+) | Status |
-|--------|-------------------|--------|
-| Santander Consumer (subprime ABS/SDART) | **7.9%** | 🔴 ELEVATED |
-| Bridgecrest (subprime auto) | **7.8%** | 🔴 ELEVATED |
-| Exeter Finance (subprime) | **6.7%** | 🔴 ELEVATED |
-| All-auto 60+ DQ | 1.61% (Dec 2025) | 🟡 |
-| ALLY retail auto NCO | 1.97% (Q1 2026) | 🟢 (HEADLINE) |
-
-**Gap analysis:** Santander subprime at 7.9% 60+ DQ vs ALLY headline 1.97% NCO reflects composition bias, not credit health improvement. ALLY has actively shifted toward S-tier (prime) borrowers, shrinking nonprime exposure — so the "improvement" is selection, not population improvement. Subprime borrowers (where gig workers concentrate) are at 7.9% 60+ vs <2% prime. The population that gig workers live in is in acute stress.
-
-**Platform financing arms:** No direct signal on Uber Fleet/Hertz Flexdrive program showing ABS stress. However: Hertz is ALLY's largest rental fleet customer (Hertz gig program = Uber Express Drive partnership). Weekly rental $150-280 is a FIXED COST for gig drivers, not escapable like a monthly car note. Gas squeeze hits rental drivers harder because they can't defer the payment.
-
-**Gig worker auto concentration estimate:** 52.9% of gig worker auto loans underwater (RP-LABOR-12). With Santander/Bridgecrest/Exeter showing 7.9%/7.8%/6.7% 60+ DQ, and gig workers disproportionately subprime, the visible gig worker auto stress exists in ABS trusts — just not in ALLY's near-prime headline.
+Apr-17 assessment (subprime ABS 60+ DQ Santander 7.9% / Bridgecrest 7.8% / Exeter 6.7%, Dec 2025, vs ALLY 1.97% NCO headline = composition masking) archived in `archive/STATUS_ARCHIVE_2026-10.md` §6. Live ABS reads are CARL-parent (`abs_monitor.py`), not GIG.
 
 ---
 

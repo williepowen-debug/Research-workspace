@@ -1,4 +1,4 @@
-# Last real data refresh: 2026-10-28 (late catch-up: 4 Q3 earnings-date rows + 2 Waymo rows added; DoorDash gas_subsidy_spend note corrected; earlier: Lyft 9/30 settlement 8-K. Newest platform operating data remains Q2 2026 (As_Of 2026-06-30) until the 11/4-11/5 prints)
+# Last real data refresh: 2026-10-28 (late catch-up: 4 Q3 earnings-date rows + 2 Waymo rows added; DoorDash gas_subsidy_spend note corrected; earlier: Lyft 9/30 settlement 8-K. Newest platform operating data remains Q2 2026 (As_Of 2026-06-30) until the 11/4-11/5 prints) · Last hygiene/no-event check: 2026-10-28
 Platform	Metric	Value	Prior	Change	As_Of	Source	Status	Notes
 Uber	active_drivers	9.7M	8.1M	+19% YoY	2025-12-31	Uber Q4 2025 earnings	Y	Rising supply = oversupply pressure when demand flat
 Uber	gross_hourly_median	$21.18		 	2025-12-31	Gridwise 2025 data	G	Gross before expenses. Net ~$15-18 after gas/insurance/maint/deprec

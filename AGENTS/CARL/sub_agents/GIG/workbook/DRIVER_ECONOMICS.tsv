@@ -1,4 +1,4 @@
-# Last real data refresh: 2026-10-28 (SCOPE: 2 national EIA fuel rows; late catch-up adds Waymo FL AV-market row and a no-extension check on DoorDash gas_cashback_program. Gridwise/earnings/state-gas/older AV-impact rows are NOT refreshed: Gridwise publishes annual only, AAA state prints not pulled; those rows carry their own As_Of and are [STALE - as of 2026-08-10 or earlier])
+# Last real data refresh: 2026-10-28 (SCOPE: 2 national EIA fuel rows; late catch-up adds Waymo FL AV-market row and a no-extension check on DoorDash gas_cashback_program. Gridwise/earnings/state-gas/older AV-impact rows are NOT refreshed: Gridwise publishes annual only, AAA state prints not pulled; those rows carry their own As_Of and are [STALE - as of 2026-08-10 or earlier]) · Last hygiene/no-event check: 2026-10-28
 Platform	Market	Metric	Value	Prior	Change	As_Of	Source	Status	Notes
 SECTOR	NATIONAL	gas_national_avg	$4.076	$4.16	-$0.084 since Apr 8	2026-04-17	AAA	R	$4 breakpoint FIRED. Post-ceasefire partial relief. STATUS reconciled.
 SECTOR	Florida	gas_state_avg	$4.093	~$4.02	↑ from prior	2026-04-17	AAA	R	FL ABOVE national avg. FL gig conc 22% highest. UI Wave 2 Apr 26.

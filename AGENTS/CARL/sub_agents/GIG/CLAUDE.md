@@ -114,6 +114,9 @@ workbook/
   ML.tsv                               # Master log (ML-GIG-01..30)
   FLOW.tsv                             # Transmission pathways — FROZEN 2026-10-28 (mechanism ledger; do not cite rows as current)
   PREDICTIONS.tsv                      # Predictions (8 total; only GIG-P07 OPEN as of 2026-10-28)
+CLOSEOUT.md                            # Closeout contract (run every session end)
+scripts/closeout_check.py              # Closeout runner (interim; PHAN-derived, shared-runner proposal at CARL)
+archive/STATUS_ARCHIVE_YYYY-MM.md      # Verbatim STATUS rotations (bytes + CRC32 per block)
 sources/
   RP-LABOR-12_Gig_Economy_Baseline_2026-02-11.md  # Comprehensive baseline (24K+)
 outbox/                                # State Vector deliveries (SV-GIG-*.md) — see SV protocol for go-forward channel
@@ -137,10 +140,7 @@ outbox/                                # State Vector deliveries (SV-GIG-*.md) �
 
 ## On Session End
 
-1. Update STATUS.md
-2. If significant findings: Generate State Vector for CARL
-
-**📬 Inbox:** every packet you consumed this session is `git mv`'d to `inbox/processed/` (never bash `mv`), and anything you deliberately did NOT action is recorded as a dated **PARKED** note in `STATUS.md` — never left silently sitting. If a packet was >30d old, **say so to its sender**; that correction outranks the packet's own content.
+**Run `CLOSEOUT.md` — the single live closeout contract — and its runner `scripts/closeout_check.py`, at EVERY session end** (Will-launched or CARL-spawned, intermediate passes included). Every step ends done, N/A with a reason, or NOT RUN; an unrun mandatory check is a partial closeout. *(Replaced the two-line list 2026-10-28, Will-directed.)*
 
 ## State Vector Protocol
 
