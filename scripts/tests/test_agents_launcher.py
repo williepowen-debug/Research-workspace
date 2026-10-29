@@ -119,7 +119,7 @@ class LauncherTests(unittest.TestCase):
             self.assertEqual(gui.launch_request(request), 2)
         self.assertEqual(launch.call_count, 1)
         plan = launch.call_args.args[0]
-        self.assertEqual(plan.runtime, 'claude')
+        self.assertEqual(plan.runtime, 'opus')
         self.assertTrue(plan.argv[-1].endswith(task))
         self.assertTrue(json.loads(request.with_suffix('.result.json').read_text())['ok'])
 
@@ -170,7 +170,7 @@ class LauncherTests(unittest.TestCase):
         self.assertEqual(result.returncode, 0, result.stderr)
         args = json.loads(self.capture.read_text())['args']
         self.assertIn('--resume', args)
-        self.assertNotIn('--model', args)
+        self.assertEqual(args[args.index('--model') + 1], 'opus')
 
     def test_dry_run_and_list_do_not_dispatch_or_create_locks(self):
         for args in [('fixture', '--dry-run'), ('--list',)]:
@@ -237,8 +237,32 @@ class LauncherTests(unittest.TestCase):
         resume = agents.build_plan(cato, None, 'resume')
         self.assertIn('gpt-6-astra', resume.argv)
         self.assertIn('on-request', resume.argv)
-        for runtime in ('sol', 'claude'):
+        for runtime in ('opus', 'fable', 'claude'):
             with self.assertRaises(agents.LaunchError): agents.build_plan(cato, runtime, 'new')
+
+    def test_explicit_models_new_resume_and_legacy_defaults(self):
+        for runtime, model in [('sol', 'gpt-6.1-sol'), ('astra', 'gpt-6-astra'),
+                               ('opus', 'opus'), ('fable', 'fable')]:
+            for action in ('new', 'resume'):
+                result = self.cli('fixture', '--' + runtime, '--' + action)
+                self.assertEqual(result.returncode, 0, result.stderr)
+                args = json.loads(self.capture.read_text())['args']
+                self.assertEqual(args[args.index('--model') + 1], model)
+                self.assertEqual(args.count('--model'), 1)
+        entries = {e['name']: e for e in agents.load_config(SCRIPTS / 'agents.json')}
+        for runtime in (None, 'claude', 'fable'):
+            self.assertEqual(agents.build_plan(entries['PROME'], runtime, 'new').runtime, 'fable')
+        self.assertEqual(agents.build_plan(entries['PROME'], 'opus', 'new').runtime, 'opus')
+        for action in ('new', 'resume'):
+            args = agents.build_plan(entries['CYPHER'], 'fable', action).argv
+            self.assertEqual(args.count('--model'), 1)
+            self.assertEqual(args[args.index('--model') + 1], 'fable')
+            self.assertNotIn('claude-opus-5-5', args)
+            args = agents.build_plan(entries['CATO'], 'sol', action).argv
+            self.assertIn('gpt-6.1-sol', args)
+            self.assertIn('workspace-write', args)
+            self.assertIn('on-request', args)
+            self.assertNotIn('--dangerously-bypass-approvals-and-sandbox', args)
 
     def test_menu_uses_selected_runtime_and_resume(self):
         with patch.object(agents.sys.stdin, 'isatty', return_value=True), \
@@ -247,7 +271,7 @@ class LauncherTests(unittest.TestCase):
              contextlib.redirect_stdout(io.StringIO()):
             rc = agents.main(['--config', str(self.config), '--same-window'])
         self.assertEqual(rc, 0)
-        self.assertEqual(run.call_args.args[0].runtime, 'claude')
+        self.assertEqual(run.call_args.args[0].runtime, 'opus')
         self.assertEqual(run.call_args.args[0].action, 'resume')
 
     def test_group_menu_and_cancellation(self):
@@ -314,7 +338,8 @@ class LauncherTests(unittest.TestCase):
             command = agents.window_command(plan, request)
         self.assertIn('-EncodedCommand', command)
         script = base64.b64decode(command[-1]).decode('utf-16le')
-        self.assertIn('-w new new-tab', script)
+        self.assertIn('-w new new-tab --profile Ubuntu', script)
+        self.assertIn('wsl.exe -d Ubuntu -u ', script)
         self.assertIn('FIXTURE - Codex Sol', script)
         self.assertIn('--suppressApplicationTitle', script)
         self.assertIn('--exec', script)  # WSL's bare -- still goes through the default shell.
@@ -466,6 +491,59 @@ class InstallerTests(unittest.TestCase):
         self.assertEqual(rc, 0)
         self.assertFalse(self.home.exists())
         self.assertEqual(list(self.desktop.iterdir()), [])
+
+
+class SavedWorkTests(unittest.TestCase):
+    def setUp(self):
+        self.temp = tempfile.TemporaryDirectory(prefix='launcher-git-')
+        self.addCleanup(self.temp.cleanup)
+        self.repo = Path(self.temp.name)
+        self.git('init', '-q')
+
+    def git(self, *args):
+        return subprocess.check_output(['git', '-C', str(self.repo),
+                                        '-c', 'user.name=Launcher fixture',
+                                        '-c', 'user.email=fixture@example.invalid',
+                                        *args], text=True).strip()
+
+    def commit(self, path, subject):
+        target = self.repo / path
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_text(subject)
+        self.git('add', '--', path)
+        self.git('commit', '-qm', subject, '--', path)
+        return self.git('rev-parse', 'HEAD')
+
+    def test_folder_history_excludes_mail_and_child_desks(self):
+        folder = self.repo / 'AGENTS/ONE [desk]'
+        child = folder / 'sub_agents/CHILD'
+        expected = self.commit('AGENTS/ONE [desk]/STATUS.md', 'ONE: saved finding')
+        self.commit('AGENTS/ONE [desk]/inbox/note.md', 'OTHER -> ONE: incoming packet')
+        self.commit('AGENTS/ONE [desk]/outbox/receipt.md', 'ONE: delivery receipt')
+        self.commit('AGENTS/ONE [desk]/sub_agents/CHILD/STATUS.md', 'CHILD: result')
+        self.commit('AGENTS/TWO/STATUS.md', 'TWO: unrelated work')
+        result = gui.saved_work(folder, [child])
+        self.assertEqual(result['revision'], expected)
+        self.assertEqual(result['subject'], 'ONE: saved finding')
+        self.assertEqual(result['state'], 'recorded')
+        self.assertIn('not proof', result['message'])
+        self.assertEqual(gui.saved_work(child, [])['subject'], 'CHILD: result')
+
+    def test_missing_and_no_matching_history_are_distinct(self):
+        self.commit('other.txt', 'Unrelated commit')
+        folder = self.repo / 'new-agent'
+        self.assertEqual(gui.saved_work(folder, [])['state'], 'unavailable')
+        folder.mkdir()
+        self.assertEqual(gui.saved_work(folder, [])['state'], 'none')
+        self.commit('new-agent/inbox/note.md', 'Packet only')
+        self.assertEqual(gui.saved_work(folder, [])['state'], 'none')
+
+    def test_project_root_and_git_failure(self):
+        expected = self.commit('work.md', 'Project work')
+        self.commit('inbox/note.md', 'Project incoming packet')
+        self.assertEqual(gui.saved_work(self.repo, [])['revision'], expected)
+        with patch.object(gui.subprocess, 'run', side_effect=subprocess.TimeoutExpired('git', 5)):
+            self.assertEqual(gui.saved_work(self.repo, [])['state'], 'unavailable')
 
 
 if __name__ == '__main__':

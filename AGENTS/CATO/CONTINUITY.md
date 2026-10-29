@@ -1,10 +1,10 @@
 # CATO — current continuity
 
-**Updated October 29, 2026, system-review and approval reconciliation.** [CHARTER](CHARTER.md) governs authority. Read only the matching [TASK_INDEX](TASK_INDEX.md) entry on follow-up. Saved approvals are not commands to start unrelated work.
+**Updated October 29, 2026, launcher activity/model delivery.** [CHARTER](CHARTER.md) governs authority. Read only the matching [TASK_INDEX](TASK_INDEX.md) entry on follow-up. Saved approvals are not commands to start unrelated work.
 
 ## Resume point
 
-**Launcher startup repaired October 29; Will confirmed it works.** [Continuing report](runs/2026-10-26_2115_agent-launcher.md#october-29--desktop-shortcut-startup-hang-repaired): disconnect GUI-host stdin from hidden desktop wrapper; 30 author tests, failing pre-fix regression, native UI pass and actual shortcut opening. No feature work or agent launch. L848/L853 and reader/pilot approvals remain pending separately; await Will's direction.
+**Launcher activity/model update delivered October 29.** [Continuing report](runs/2026-10-26_2115_agent-launcher.md#october-29--explicit-models-ubuntu-profile-and-activity-delivery): explicit Ubuntu terminal profile, Claude Opus/Fable and Codex Astra/Sol choices, PROME Fable default, per-agent local launch/saved-work dates and age highlights. 34 author tests, native UI and real Windows Terminal/Ubuntu fake-CLI probe pass; actual model/account launch remains Will's next ordinary-use observation. Close/reopen launcher to load updates. Earlier input-hang fix is user-confirmed. No research agent launched. No remaining implementation in this assignment; orient and await Will. L848/L853 and reader/pilot approvals remain separate.
 
 **Recent-system review delivered; await Will's next direction.** [Review at c4c9ef793](runs/2026-10-29_0942_recent-system-review.md): direction improving; prioritize existing L370/L368 owed-work visibility repairs, reconcile DEWEY/VULCAN funding arithmetic and VULCAN's future-time claim. Fidelity trial is encouraging only within observed coverage. No owner edits/sends or new study. **Boot-summary correction:** October 28 packets authorize CATO's ORACLE launcher preset (L848, November 2; exact text received); Windows wake facility (L853, November 9) is scope-only, not build/install approval. Preserve both alongside reader/pilot work; this review starts none. [Approval pointers](TASK_INDEX.md#october-29-system-review-and-launcher-approvals).
 

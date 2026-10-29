@@ -29,6 +29,15 @@ import uuid
 
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG = Path(__file__).with_name('agents.json')
+RUNTIME_LABELS = {'sol': 'Codex Sol', 'astra': 'Codex Astra',
+                  'opus': 'Claude Opus', 'fable': 'Claude Fable', 'claude': 'Claude'}
+
+
+def resolve_runtime(entry: dict, runtime: str | None) -> str:
+    value = runtime or entry['default_runtime']
+    if value == 'claude':
+        return 'fable' if entry['name'] == 'PROME' else 'opus'
+    return value
 
 
 class LaunchError(Exception):
@@ -73,7 +82,7 @@ def load_config(path: Path) -> list[dict]:
         names.add(name)
         if entry['kind'] not in ('fleet', 'cato', 'project'):
             raise LaunchError(f'{name}: unknown startup kind.')
-        if entry['default_runtime'] not in ('sol', 'astra', 'claude'):
+        if entry['default_runtime'] not in RUNTIME_LABELS:
             raise LaunchError(f'{name}: unknown default runtime.')
         for key in ('claude_args', 'required'):
             values = entry.get(key, [])
@@ -101,7 +110,7 @@ def resolve_folder(value: str, root: Path = ROOT, home: Path | None = None) -> P
 def build_plan(entry: dict, runtime: str | None, action: str,
                task: str | None = None, root: Path = ROOT,
                home: Path | None = None) -> Plan:
-    runtime = runtime or entry['default_runtime']
+    runtime = resolve_runtime(entry, runtime)
     if action not in ('new', 'resume'):
         raise LaunchError('Choose new or resume.')
     if action == 'resume' and task is not None:
@@ -110,10 +119,10 @@ def build_plan(entry: dict, runtime: str | None, action: str,
         raise LaunchError('Task text contains a null character.')
     cwd = resolve_folder(entry['path'], root, home)
     name, kind = entry['name'], entry['kind']
-    if runtime not in ('sol', 'astra', 'claude'):
+    if runtime not in ('sol', 'astra', 'opus', 'fable'):
         raise LaunchError(f'Unknown runtime: {runtime}')
-    if kind == 'cato' and runtime != 'astra':
-        raise LaunchError('CATO uses its existing Astra launcher. Omit --sol/--claude.')
+    if kind == 'cato' and runtime not in ('astra', 'sol'):
+        raise LaunchError('CATO uses Codex Astra or Sol with its existing workspace policy.')
     required = [cwd / f for f in entry.get('required', [])]
     if kind in ('fleet', 'cato'):
         required += [root / f for f in ('CLAUDE.md', 'AGENTS.md', 'USER.md')]
@@ -121,14 +130,17 @@ def build_plan(entry: dict, runtime: str | None, action: str,
         required.append(cwd / 'CLAUDE.md')
     if kind == 'cato':
         required += [cwd / f for f in ('AGENTS.md', 'CHARTER.md', 'CONTINUITY.md', 'launch.sh')]
-        if action == 'new':
+        if action == 'new' and runtime == 'astra':
             argv = ['bash', str(cwd / 'launch.sh')]
             if task is not None:
                 argv += ['--', task]
         else:
-            argv = ['codex', 'resume', '--model', 'gpt-6-astra', '--sandbox',
+            argv = ['codex'] + (['resume'] if action == 'resume' else [])
+            argv += ['--model', 'gpt-6-astra' if runtime == 'astra' else 'gpt-6.1-sol', '--sandbox',
                     'workspace-write', '--ask-for-approval', 'on-request',
                     '--add-dir', str(root)]
+            if action == 'new':
+                argv += ['--', task if task is not None else 'Follow your startup instructions. Orient to the current work and approvals, then give Will a short status and suggested next step. Do not begin unassigned work.']
         return Plan(name, cwd, runtime, action, argv, required)
     if kind == 'project':
         prompt = entry['prompt']
@@ -139,12 +151,18 @@ def build_plan(entry: dict, runtime: str | None, action: str,
                   'Report missing dependencies; do not assume Claude-specific tools are available.')
     if task is not None:
         prompt += '\n\nWill\'s task: ' + task
-    if runtime == 'claude':
+    if runtime in ('opus', 'fable'):
         argv = ['claude', '--dangerously-skip-permissions']
         if action == 'resume':
             argv.append('--resume')
-        # Existing runtime-specific model/channel settings travel with both modes.
-        argv += entry.get('claude_args', [])
+        # The user's model selection overrides old configured model flags.
+        extras = iter(entry.get('claude_args', []))
+        for flag in extras:
+            if flag in ('--model', '-m'):
+                next(extras, None)
+            elif not flag.startswith('--model='):
+                argv.append(flag)
+        argv += ['--model', runtime]
         if action == 'new':
             argv += ['--', prompt]
     else:
@@ -221,7 +239,7 @@ def execute(plan: Plan, *, state_dir: Path | None = None, on_started=None) -> in
 
 
 def window_title(plan: Plan) -> str:
-    return plan.name + ' - ' + {'sol': 'Codex Sol', 'astra': 'Codex Astra', 'claude': 'Claude'}[plan.runtime]
+    return plan.name + ' - ' + runtime_label(plan.runtime)
 
 
 def window_command(plan: Plan, request: Path) -> list[str]:
@@ -240,7 +258,7 @@ def window_command(plan: Plan, request: Path) -> list[str]:
     script = str(Path(__file__).resolve())
     bootstrap = (f'import runpy,sys;sys.argv=[{script!r},"--window-request",{str(request)!r}];'
                  f'runpy.run_path({script!r},run_name="__main__")')
-    win_args = ['-w', 'new', 'new-tab', '--title', window_title(plan), '--suppressApplicationTitle',
+    win_args = ['-w', 'new', 'new-tab', '--profile', distro, '--title', window_title(plan), '--suppressApplicationTitle',
                 'wsl.exe', '-d', distro, '-u', getpass.getuser(), '--exec', sys.executable,
                 '-c', "exec(bytes.fromhex('" + bootstrap.encode().hex() + "'))"]
     # list2cmdline handles Windows argv quoting; single-quote doubling handles
@@ -369,7 +387,7 @@ def menu_choice(key: str, title: str, detail: str = '') -> None:
 
 
 def runtime_label(runtime: str) -> str:
-    return {'sol': 'Codex Sol', 'astra': 'Codex Astra', 'claude': 'Claude'}[runtime]
+    return RUNTIME_LABELS[runtime]
 
 
 def show_agents(entries: list[dict], root: Path = ROOT) -> None:
@@ -436,20 +454,25 @@ def choose_agent(entries: list[dict], same_window: bool = False) -> dict:
 
 
 def choose_runtime(entry: dict) -> str:
-    if entry['kind'] == 'cato':
-        return 'astra'
-    default = entry['default_runtime']
+    default = resolve_runtime(entry, None)
     menu_header(entry['name'] + ' / Runtime', entry['purpose'])
     menu_choice('S', 'Codex Sol', 'Default' if default == 'sol' else '')
-    menu_choice('C', 'Claude', 'Default' if default == 'claude' else '')
+    menu_choice('A', 'Codex Astra', 'Default' if default == 'astra' else '')
+    if entry['kind'] != 'cato':
+        menu_choice('O', 'Claude Opus', 'Default' if default == 'opus' else '')
+        menu_choice('F', 'Claude Fable', 'Default' if default == 'fable' else '')
     print()
     menu_text(f'Enter  Use {runtime_label(default)}    Q  Quit', 'muted')
     while True:
         value = ask('Runtime > ').lower()
         if not value: return default
-        if value in ('c', 'claude'): return 'claude'
+        if entry['kind'] != 'cato':
+            if value in ('c', 'claude'): return resolve_runtime(entry, 'claude')
+            if value in ('o', 'opus'): return 'opus'
+            if value in ('f', 'fable'): return 'fable'
+        if value in ('a', 'astra'): return 'astra'
         if value in ('s', 'sol'): return 'sol'
-        menu_text('Choose C, S, or Enter.', 'warning')
+        menu_text('Choose a listed model, or Enter.', 'warning')
 
 
 def choose_action(entry: dict, runtime: str, same_window: bool = False) -> str:
@@ -473,6 +496,9 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument('agent', nargs='?', help='Agent name, e.g. CARL (case-insensitive).')
     runtimes = parser.add_mutually_exclusive_group()
     runtimes.add_argument('--sol', action='store_const', const='sol', dest='runtime')
+    runtimes.add_argument('--astra', action='store_const', const='astra', dest='runtime')
+    runtimes.add_argument('--opus', action='store_const', const='opus', dest='runtime')
+    runtimes.add_argument('--fable', action='store_const', const='fable', dest='runtime')
     runtimes.add_argument('--claude', action='store_const', const='claude', dest='runtime')
     actions = parser.add_mutually_exclusive_group()
     actions.add_argument('--new', action='store_const', const='new', dest='action')

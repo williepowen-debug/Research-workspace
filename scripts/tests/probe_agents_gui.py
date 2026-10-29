@@ -110,13 +110,13 @@ try:
     assert records['MISSING_TEST']['outcome'] == 'Not confirmed', ui
     assert records['SECOND_TEST']['outcome'] == 'Opened', ui
     assert records['LAUNCHER_TEST']['runtime'] == 'sol', ui
-    assert records['SECOND_TEST']['runtime'] == 'claude', ui
+    assert records['SECOND_TEST']['runtime'] == 'opus', ui
     assert records['LAUNCHER_TEST']['task'] == task, ui
     assert records['SECOND_TEST']['task'] == 'Only the second agent receives this task.', ui
     history_file = Path(subprocess.check_output(['wslpath', '-u', ui['history_file']], text=True).strip())
     saved_history = json.loads(history_file.read_text(encoding='utf-8-sig'))
     assert saved_history['history'] == ui['history'], 'Launch history was not persisted'
-    assert 'Codex Sol' in ui['preview'] and 'Claude' in ui['preview'], ui
+    assert 'Codex Sol' in ui['preview'] and 'Claude Opus' in ui['preview'], ui
     assert task.replace('\n', '\r\n') in ui['preview'].replace('\r\n', '\n').replace('\n', '\r\n'), ui
     captures = [json.loads((p / 'capture.json').read_text()) for p in (projects[0], projects[2])]
     assert all(c['tty'] for c in captures), captures
@@ -124,9 +124,10 @@ try:
     assert captures[0]['argv'][-1].endswith(task), captures
     assert captures[1]['argv'][-1].endswith('Only the second agent receives this task.'), captures
     assert 'gpt-6.1-sol' in captures[0]['argv'] and '--dangerously-skip-permissions' in captures[1]['argv'], captures
+    assert captures[1]['argv'][captures[1]['argv'].index('--model') + 1] == 'opus', captures
     assert not any((p / 'exited').exists() for p in (projects[0], projects[2])), 'Both agents must still be running together'
     assert len(list(base.glob('*.claimed'))) == 3, 'Cancel or double click dispatched extra requests'
     (base / 'proof.json').write_text(json.dumps(dict(ok=True, ui=ui, captures=captures), indent=2))
-    print('PASS: real preview cancel/confirm, 3 queued requests, independent Sol/Claude tasks, continued after missing folder, 2 concurrent fake CLIs, 1 retained error, Activity page, and 3 exact persisted launch records.')
+    print('PASS: real preview cancel/confirm, 3 queued requests, independent Sol/Opus tasks, continued after missing folder, 2 concurrent fake CLIs, 1 retained error, Activity page, and 3 exact persisted launch records.')
 finally:
     release.touch()  # The harmless terminal windows exit automatically.

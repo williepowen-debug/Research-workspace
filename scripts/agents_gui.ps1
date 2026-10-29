@@ -32,9 +32,11 @@ using System.Drawing;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 public class LauncherAgentList : CheckedListBox {
+    public override int ItemHeight { get { return Math.Max(44, Font.Height * 2 + 6); } set { } }
     public Color AccentColor { get; set; }
     public Color SelectionColor { get; set; }
     public Color MutedColor { get; set; }
+    public System.Collections.Generic.Dictionary<int, Color> AgeColors = new System.Collections.Generic.Dictionary<int, Color>();
     protected override void OnDrawItem(DrawItemEventArgs e) {
         if (e.Index < 0 || e.Index >= Items.Count) return;
         bool selected = (e.State & DrawItemState.Selected) != 0;
@@ -57,7 +59,8 @@ public class LauncherAgentList : CheckedListBox {
         }
         var text = new Rectangle(bounds.Right + 8, e.Bounds.Top,
             Math.Max(0, e.Bounds.Right - bounds.Right - 12), e.Bounds.Height);
-        TextRenderer.DrawText(e.Graphics, GetItemText(Items[e.Index]), Font, text, ForeColor,
+        Color color = AgeColors.ContainsKey(e.Index) ? AgeColors[e.Index] : ForeColor;
+        TextRenderer.DrawText(e.Graphics, GetItemText(Items[e.Index]), Font, text, color,
             TextFormatFlags.VerticalCenter | TextFormatFlags.EndEllipsis | TextFormatFlags.NoPrefix);
         if ((e.State & DrawItemState.Focus) != 0)
             ControlPaint.DrawFocusRectangle(e.Graphics, e.Bounds, ForeColor, background);
@@ -186,6 +189,7 @@ $list=New-Object LauncherAgentList
 $list.AccentColor=$accent; $list.SelectionColor=$selection; $list.MutedColor=$muted
 $list.SetBounds(274,188,238,424); $list.IntegralHeight=$false
 $list.BorderStyle='None'; $list.Font=New-Object Drawing.Font('Segoe UI',11)
+$list.ItemHeight=44
 $list.CheckOnClick=$false; $list.DisplayMember='Display'; $form.Controls.Add($list)
 $count=Label '' 274 622 238 26 9
 $count.ForeColor=$muted
@@ -290,21 +294,34 @@ Place $search $pages.Agents 260 50 252 30
 $searchScope=Label 'Browse by category, or search all agents.' 0 0 1 1 9
 Place $searchScope $pages.Agents 260 88 252 34
 $searchScope.ForeColor=$muted
-Place $list $pages.Agents 260 130 252 330 'Top,Bottom,Left'
-Place $count $pages.Agents 260 472 252 24 'Bottom,Left'
+$ageSource=New-Object Windows.Forms.ComboBox
+$ageSource.DropDownStyle='DropDownList'; Style-Input $ageSource
+[void]$ageSource.Items.Add('Last launch here'); [void]$ageSource.Items.Add('Last saved work')
+$ageSource.SelectedIndex=0
+Place $ageSource $pages.Agents 260 124 252 30
+$tooltip.SetToolTip($ageSource,'Choose the evidence used for age highlighting. Neither source proves the agent is idle or needs a new session.')
+Place $list $pages.Agents 260 164 252 280 'Top,Bottom,Left'
+$ageLegend=Label 'Amber: 7+ days. Orange: 14+ days. Missing history stays neutral.' 0 0 1 1 9
+$ageLegend.ForeColor=$muted
+Place $ageLegend $pages.Agents 260 450 252 44 'Bottom,Left'
+Place $count $pages.Agents 260 498 252 24 'Bottom,Left'
 Place $name $pages.Agents 548 16 520 38 'Top,Left,Right'
-Place $purpose $pages.Agents 550 66 518 60 'Top,Left,Right'
-Place $group $pages.Agents 550 134 518 28 'Top,Left,Right'
-Place $runtimeLabel $pages.Agents 550 194 518 25 'Top,Left,Right'
-Place $runtime $pages.Agents 550 224 518 32 'Top,Left,Right'
+Place $purpose $pages.Agents 550 62 518 46 'Top,Left,Right'
+Place $group $pages.Agents 550 112 518 24 'Top,Left,Right'
+$recentDetails=New-Object Windows.Forms.TextBox
+$recentDetails.Multiline=$true; $recentDetails.ReadOnly=$true; $recentDetails.ScrollBars='Vertical'
+Style-Input $recentDetails
+Place $recentDetails $pages.Agents 550 144 518 128 'Top,Left,Right'
+Place $runtimeLabel $pages.Agents 550 282 518 25 'Top,Left,Right'
+Place $runtime $pages.Agents 550 310 518 32 'Top,Left,Right'
 $taskSummary=Label '' 0 0 1 1 10
-Place $taskSummary $pages.Agents 550 278 518 54 'Top,Left,Right'
+Place $taskSummary $pages.Agents 550 354 518 40 'Top,Left,Right'
 $taskSummary.ForeColor=$muted
 $editInstructions=Button 'Edit instructions...' 0 0 1
-Place $editInstructions $pages.Agents 550 344 518 40 'Top,Left,Right'
-Place $start $pages.Agents 550 406 250 40
-Place $resume $pages.Agents 812 406 256 40 'Top,Right'
-Place $hint $pages.Agents 550 460 518 42 'Top,Left,Right'
+Place $editInstructions $pages.Agents 550 400 518 40 'Top,Left,Right'
+Place $start $pages.Agents 550 452 250 40
+Place $resume $pages.Agents 812 452 256 40 'Top,Right'
+Place $hint $pages.Agents 550 498 518 30 'Top,Left,Right'
 
 Place $savedLabel $pages.Selected 16 16 500 26
 Place $savedGroups $pages.Selected 16 50 500 32
@@ -359,6 +376,8 @@ Style-Input $historyDetail
 Place $historyDetail $pages.Activity 390 66 678 324 'Top,Bottom,Left,Right'
 $historyOpen=Button 'Go to this agent' 0 0 1
 Place $historyOpen $pages.Activity 20 404 354 40 'Bottom,Left'
+$reloadActivity=Button 'Reload launch history' 0 0 1
+Place $reloadActivity $pages.Activity 20 454 354 40 'Bottom,Left'
 $latestLabel=Label 'Latest batch details' 0 0 1 1 9
 Place $latestLabel $pages.Activity 390 404 678 26 'Bottom,Left,Right'
 $latestLabel.ForeColor=$muted
@@ -449,7 +468,7 @@ function Refresh-SelectionTray {
         $card.Enabled=-not $script:busy
         if ($card -is [Windows.Forms.Panel]) {
             $setting=$script:settings[[string]$card.Tag]
-            $label=@{sol='Codex Sol';claude='Claude';astra='Codex Astra'}[$setting.runtime]
+            $label=@{sol='Codex Sol';claude='Claude (model unrecorded)';astra='Codex Astra';opus='Claude Opus';fable='Claude Fable'}[$setting.runtime]
             $text='Default startup instructions'
             if (-not [string]::IsNullOrWhiteSpace($setting.task)) {$text=($setting.task -replace '\s+',' ')}
             if ($text.Length -gt 110) {$text=$text.Substring(0,107)+'...'}
@@ -470,6 +489,7 @@ $script:presetPath=Join-Path $preferencesFolder 'presets.json'
 $script:historyPath=Join-Path $preferencesFolder 'history.json'
 $script:customPresets=@(); $script:presetVersion=''; $script:presetsHealthy=$true
 $script:history=@()
+$script:lastOpened=@(); $script:historyHealthy=$true
 function Read-Groups {
     $text=''
     if ([IO.File]::Exists($script:groupsPath)) {$text=[IO.File]::ReadAllText($script:groupsPath)}
@@ -484,7 +504,7 @@ function Read-Groups {
             if ($g.members -isnot [Array] -or $g.members.Count -eq 0) {throw 'Saved group has no valid member list. The file was not changed.'}
             $members=@{}
             foreach ($m in $g.members) {
-                if ($m.name -isnot [string] -or $m.name -notmatch '^[A-Z][A-Z0-9_-]*$' -or $m.runtime -notin @('sol','claude','astra') -or $members.ContainsKey($m.name)) {throw 'Saved group has an invalid or duplicate agent. The file was not changed.'}
+                if ($m.name -isnot [string] -or $m.name -notmatch '^[A-Z][A-Z0-9_-]*$' -or $m.runtime -notin @('sol','claude','astra','opus','fable') -or $members.ContainsKey($m.name)) {throw 'Saved group has an invalid or duplicate agent. The file was not changed.'}
                 $members[$m.name]=$true
             }
             $found+=$g
@@ -539,14 +559,16 @@ function Apply-Group($g) {
     foreach ($member in $g.members) {
         $entry=@($data.agents | Where-Object {$_.name -eq $member.name})
         if ($entry.Count -ne 1) {throw ('This group includes '+$member.name+', which is no longer configured. Your current selection was kept.')}
-        $allowed=@('sol','claude')
-        if ($entry[0].kind -eq 'cato') {$allowed=@('astra')}
+        $allowed=@('sol','astra','opus','fable','claude')
+        if ($entry[0].kind -eq 'cato') {$allowed=@('astra','sol')}
         if ($member.runtime -notin $allowed) {throw ('Unsupported saved runtime for '+$member.name+'. Your current selection was kept.')}
     }
     $script:checked.Clear()
     foreach ($member in $g.members) {
         $script:checked[$member.name]=$true
-        $script:settings[$member.name].runtime=$member.runtime
+        $value=$member.runtime
+        if ($value -eq 'claude') {$value='opus'; if ($member.name -eq 'PROME') {$value='fable'}}
+        $script:settings[$member.name].runtime=$value
     }
     $categories.SelectedIndex=0; $search.Clear(); Filter-Agents
     $status.Text='Loaded '+$g.name+'. Review selected when ready.'
@@ -627,27 +649,44 @@ $builtInPresets=@(
 function Validate-LocalRecords($document,$kind) {
     if ($document.version -ne 1 -or $document.$kind -isnot [Array]) {throw ('Unsupported '+$kind+' file format. The original file was kept.')}
     $seen=@{}
-    foreach ($item in $document.$kind) {
+    $items=@($document.$kind)
+    if ($kind -eq 'history' -and $null -ne $document.PSObject.Properties['last_opened']) {
+        if ($document.last_opened -isnot [Array]) {throw 'Invalid last-launch summary. The original file was kept.'}
+        foreach ($last in $document.last_opened) {
+            if ($last.outcome -ne 'Opened') {throw 'Unconfirmed entry in last-launch summary. The original file was kept.'}
+        }
+        $items+=@($document.last_opened)
+    }
+    foreach ($item in $items) {
         if ($kind -eq 'presets') {
             if ($item.name -isnot [string] -or [string]::IsNullOrWhiteSpace($item.name) -or $item.name.Length -gt 60 -or $item.name -match '[\x00-\x1f]' -or $seen.ContainsKey($item.name) -or $item.text -isnot [string] -or [string]::IsNullOrWhiteSpace($item.text) -or $item.text.Length -gt 32767) {throw 'Invalid or duplicate custom preset. The original file was kept.'}
             if (@($builtInPresets | Where-Object {$_.name -eq $item.name}).Count -gt 0) {throw 'A custom preset uses a built-in name. The original file was kept.'}
             $seen[$item.name]=$true
         } else {
             $timestamp=[DateTimeOffset]::MinValue
-            if ($item.name -isnot [string] -or $item.name -notmatch '^[A-Z][A-Z0-9_-]*$' -or $item.runtime -notin @('sol','claude','astra') -or $item.action -notin @('new','resume') -or $item.outcome -notin @('Opened','Not confirmed','Cancelled') -or $item.message -isnot [string] -or $item.task -isnot [string] -or -not [DateTimeOffset]::TryParse([string]$item.time,[ref]$timestamp)) {throw 'Invalid launch history. The original file was kept.'}
+            if ($item.name -isnot [string] -or $item.name -notmatch '^[A-Z][A-Z0-9_-]*$' -or $item.runtime -notin @('sol','claude','astra','opus','fable') -or $item.action -notin @('new','resume') -or $item.outcome -notin @('Opened','Not confirmed','Cancelled') -or $item.message -isnot [string] -or $item.task -isnot [string] -or -not [DateTimeOffset]::TryParse([string]$item.time,[ref]$timestamp)) {throw 'Invalid launch history. The original file was kept.'}
         }
     }
 }
+function Latest-Launches($records) {
+    $latest=@{}
+    foreach ($record in $records) {
+        if ($null -eq $record -or $record.outcome -ne 'Opened') {continue}
+        if (-not $latest.ContainsKey($record.name) -or [DateTimeOffset]::Parse($record.time) -gt [DateTimeOffset]::Parse($latest[$record.name].time)) {$latest[$record.name]=$record}
+    }
+    return @($latest.Values | Sort-Object name)
+}
 function Read-LocalRecords($path,$kind) {
-    $text=''; $records=@()
+    $text=''; $records=@(); $lastOpened=@()
     if ([IO.File]::Exists($path)) {
         $text=[IO.File]::ReadAllText($path)
         if (-not $text.Trim()) {throw ('The '+$kind+' file is empty. It was kept.')}
         $document=$text | ConvertFrom-Json
         Validate-LocalRecords $document $kind
         $records=@($document.$kind)
+        if ($kind -eq 'history') {$lastOpened=@(Latest-Launches (@($document.last_opened)+$records))}
     }
-    return @{text=$text;records=$records}
+    return @{text=$text;records=$records;lastOpened=$lastOpened}
 }
 function Write-LocalRecords($path,$kind,$items,$expected,$append=$false) {
     $hash=[Security.Cryptography.SHA256]::Create()
@@ -659,15 +698,18 @@ function Write-LocalRecords($path,$kind,$items,$expected,$append=$false) {
         $current=Read-LocalRecords $path $kind
         if (-not $append -and $current.text -cne $expected) {throw 'Custom presets changed in another window. Reload them before saving.'}
         $records=@($items)
+        $lastOpened=@()
+        if ($kind -eq 'history') {$lastOpened=@(Latest-Launches (@($current.lastOpened)+@($current.records)+@($items)))}
         if ($append) {$records=@(@($current.records)+@($items) | Select-Object -Last 100)}
         $document=@{version=1}; $document[$kind]=$records
+        if ($kind -eq 'history') {$document['last_opened']=$lastOpened}
         Validate-LocalRecords $document $kind
         [void][IO.Directory]::CreateDirectory([IO.Path]::GetDirectoryName($path))
         $text=$document | ConvertTo-Json -Depth 8
         $temporary=$path+'.'+[Guid]::NewGuid().ToString('N')+'.tmp'
         [IO.File]::WriteAllText($temporary,$text,(New-Object Text.UTF8Encoding($false)))
         if ([IO.File]::Exists($path)) {[IO.File]::Replace($temporary,$path,($path+'.previous'))} else {[IO.File]::Move($temporary,$path)}
-        return @{text=$text;records=$records}
+        return @{text=$text;records=$records;lastOpened=$lastOpened}
     } finally {
         if ($locked) {$mutex.ReleaseMutex()}; $mutex.Dispose()
     }
@@ -719,7 +761,7 @@ function Select-History {
     $historyOpen.Enabled=($null -ne $historyList.SelectedItem -and -not $script:busy)
     if ($null -eq $historyList.SelectedItem) {$historyDetail.Text='Launches will appear here after you start a conversation.'; return}
     $record=$historyList.SelectedItem.Record
-    $label=@{sol='Codex Sol';claude='Claude';astra='Codex Astra'}[$record.runtime]
+    $label=@{sol='Codex Sol';claude='Claude (model unrecorded)';astra='Codex Astra';opus='Claude Opus';fable='Claude Fable'}[$record.runtime]
     $text=$record.task; if (-not $text) {$text='Follow the agent startup instructions'}
     $historyDetail.Text=$record.name+' | '+$label+' | '+$record.action+"`r`n"+$record.time+"`r`n`r`n"+$record.outcome+': '+$record.message+"`r`n`r`nInstructions:`r`n"+$text+"`r`n`r`nThis is a launch record, not a live work-status report."
 }
@@ -742,11 +784,59 @@ function Record-Launch($request,$outcome,$message) {
         # Merge under the file mutex so concurrent launcher windows keep both records.
         $saved=Write-LocalRecords $script:historyPath 'history' @($record) '' $true
         $script:history=@($saved.records)
+        $script:lastOpened=@($saved.lastOpened); $script:historyHealthy=$true
     } catch {
+        $script:historyHealthy=$false
         $script:history=@(@($script:history)+$record | Select-Object -Last 100)
         Log-Result ('Launch history not saved: '+$_.Exception.Message)
     }
     Refresh-History
+    Filter-Agents
+}
+function Launch-For($agentName) {
+    if (-not $script:historyHealthy) {return $null}
+    return @($script:lastOpened | Where-Object {$_.name -eq $agentName} | Select-Object -First 1)[0]
+}
+function Activity-Age($stamp,$now=[DateTimeOffset]::Now) {
+    $parsed=[DateTimeOffset]::MinValue
+    if (-not [DateTimeOffset]::TryParse([string]$stamp,[ref]$parsed)) {return @{label='No record';color=$muted;days=$null}}
+    $age=($now-$parsed).TotalDays
+    if ($age -lt 0) {return @{label='Clock ahead';color=$muted;days=$null}}
+    $days=[int][Math]::Floor($age); $color=$ink; $label='Today'
+    if ($days -gt 0) {$label=[string]$days+'d ago'}
+    if ($days -ge 14) {$color=[Drawing.Color]::FromArgb(255,166,102)}
+    elseif ($days -ge 7) {$color=[Drawing.Color]::FromArgb(245,210,125)}
+    return @{label=$label;color=$color;days=$days}
+}
+function Show-RecentDetails {
+    if ($null -eq $script:selected) {$recentDetails.Clear();return}
+    $entry=$script:selected; $launch=Launch-For $entry.name
+    $launchText='No launch recorded here'
+    if (-not $script:historyHealthy) {$launchText='History unavailable (see Activity)'}
+    elseif ($launch) {
+        $label=@{sol='Codex Sol';claude='Claude (model unrecorded)';astra='Codex Astra';opus='Claude Opus';fable='Claude Fable'}[$launch.runtime]
+        $launchText=([DateTimeOffset]::Parse($launch.time)).LocalDateTime.ToString('MMM d, yyyy HH:mm')+' | '+$label+' | '+$launch.action
+        if ((Activity-Age $launch.time).label -eq 'Clock ahead') {$launchText+=' (clock ahead)'}
+    }
+    $work=$entry.saved_work; $workText='Unavailable'; $commit=''
+    if ($work.state -eq 'recorded') {
+        $workText=([DateTimeOffset]::Parse($work.time)).LocalDateTime.ToString('MMM d, yyyy HH:mm')
+        if ((Activity-Age $work.time).label -eq 'Clock ahead') {$workText+=' (clock ahead)'}
+        $commit="`r`n"+$work.subject+' ['+$work.revision.Substring(0,9)+']'
+    } elseif ($work.message) {$workText=$work.message}
+    $snapshot='when this window opened'
+    if ($data.captured_at) {$snapshot=([DateTimeOffset]::Parse($data.captured_at)).LocalDateTime.ToString('MMM d HH:mm')}
+    $recentDetails.Text='Last launch here: '+$launchText+"`r`nLast saved work: "+$workText+$commit+"`r`n`r`nLaunch history is local; manual and PROME starts may be absent. Saved work is a folder commit, not proof the agent ran. Git checked "+$snapshot+'; reopen to refresh.'
+}
+function Reload-Activity {
+    try {
+        $saved=Read-LocalRecords $script:historyPath 'history'
+        $script:history=@($saved.records); $script:lastOpened=@($saved.lastOpened); $script:historyHealthy=$true
+    } catch {
+        $script:historyHealthy=$false
+        Log-Result ('Launch history unavailable: '+$_.Exception.Message)
+    }
+    Refresh-History; Filter-Agents
 }
 function Apply-Preset($toChecked) {
     if ($script:busy -or $preset.SelectedIndex -lt 0) {return}
@@ -765,14 +855,16 @@ function Apply-Preset($toChecked) {
 }
 
 function Update-Buttons {
+    $ageSource.Enabled=-not $script:busy
+    $reloadActivity.Enabled=-not $script:busy
     $ready=($null -ne $script:selected -and -not $script:busy)
     $start.Enabled=$ready
     $resume.Enabled=($ready -and [string]::IsNullOrWhiteSpace($task.Text))
     $instructionStart.Enabled=$start.Enabled; $instructionResume.Enabled=$resume.Enabled
     $editInstructions.Enabled=$ready
     $instructionAgent.Enabled=-not $script:busy
-    $instructionRuntime.Enabled=($ready -and $script:selected.kind -ne 'cato')
-    $runtime.Enabled=($ready -and $script:selected.kind -ne 'cato')
+    $instructionRuntime.Enabled=$ready
+    $runtime.Enabled=$ready
     $task.Enabled=$ready
     $search.Enabled=-not $script:busy; $list.Enabled=-not $script:busy; $categories.Enabled=-not $script:busy
     $batch.Enabled=($script:checked.Count -gt 0 -and -not $script:busy)
@@ -809,7 +901,8 @@ function Update-Buttons {
 function Save-Settings {
     if ($script:loading -or $null -eq $script:selected) {return}
     $value='sol'
-    if ($runtime.Text -eq 'Claude') {$value='claude'}
+    if ($runtime.Text -eq 'Claude Opus') {$value='opus'}
+    if ($runtime.Text -eq 'Claude Fable') {$value='fable'}
     if ($runtime.Text -eq 'Codex Astra') {$value='astra'}
     $script:settings[$script:selected.name]=@{runtime=$value;task=$task.Text}
     if ($instructionRuntime.SelectedIndex -ne $runtime.SelectedIndex) {$instructionRuntime.SelectedIndex=$runtime.SelectedIndex}
@@ -822,17 +915,19 @@ function Select-Agent {
         $runtime.Items.Clear()
         if ($null -eq $list.SelectedItem) {
             $script:selected=$null; $name.Text='No matching agents'; $purpose.Text='Try another name or category.'
+            $recentDetails.Clear()
             $group.Text=''; $task.Text=''; $instructionAgent.SelectedIndex=-1; $instructionRuntime.Items.Clear(); return
         }
         $script:selected=$list.SelectedItem.Entry
+        Show-RecentDetails
         $name.Text=$script:selected.name; $purpose.Text=$script:selected.purpose; $group.Text=$script:selected.group
         $setting=$script:settings[$script:selected.name]
         if ($script:selected.kind -eq 'cato') {
-            [void]$runtime.Items.Add('Codex Astra'); $runtime.SelectedIndex=0
+            [void]$runtime.Items.Add('Codex Astra'); [void]$runtime.Items.Add('Codex Sol')
         } else {
-            [void]$runtime.Items.Add('Codex Sol'); [void]$runtime.Items.Add('Claude'); $runtime.SelectedIndex=0
-            if ($setting.runtime -eq 'claude') {$runtime.SelectedIndex=1}
+            foreach ($label in @('Codex Sol','Claude Opus','Codex Astra','Claude Fable')) {[void]$runtime.Items.Add($label)}
         }
+        $runtime.SelectedItem=@{sol='Codex Sol';astra='Codex Astra';opus='Claude Opus';fable='Claude Fable'}[$setting.runtime]
         $task.Text=[string]$setting.task
         $instructionAgent.SelectedItem=$script:selected.name
         $instructionRuntime.Items.Clear()
@@ -855,12 +950,22 @@ function Filter-Agents {
     $list.BeginUpdate()
     try {
         $list.Items.Clear()
+        $list.AgeColors.Clear()
         foreach ($entry in $data.agents) {
             $haystack=$entry.name+' '+$entry.purpose+' '+$entry.group
             if (($query -ne '' -or $category -eq '' -or $category -eq $entry.group) -and $haystack.IndexOf($query,[StringComparison]::OrdinalIgnoreCase) -ge 0) {
                 $display=$entry.name
                 if ($entry.error) {$display+=' (check setup)'}
-                [void]$list.Items.Add([pscustomobject]@{Display=$display;Entry=$entry},$script:checked.ContainsKey($entry.name))
+                $launch=Launch-For $entry.name
+                $stamp=$launch.time
+                if ($ageSource.SelectedIndex -eq 1) {$stamp=$entry.saved_work.time}
+                $age=Activity-Age $stamp
+                $ageText=$age.label
+                if ($ageSource.SelectedIndex -eq 0 -and -not $script:historyHealthy) {$ageText='History unavailable'}
+                if ($ageSource.SelectedIndex -eq 1 -and $entry.saved_work.state -eq 'unavailable') {$ageText='History unavailable'}
+                $display+="`n"+$ageText
+                $index=$list.Items.Add([pscustomobject]@{Display=$display;Entry=$entry},$script:checked.ContainsKey($entry.name))
+                $list.AgeColors[$index]=$age.color
             }
         }
         if ($list.Items.Count -gt 0) {
@@ -886,7 +991,7 @@ function Selected-Requests {
 function Preview-Text($items) {
     $lines=New-Object Collections.Generic.List[string]
     foreach ($item in $items) {
-        $label=@{sol='Codex Sol';claude='Claude';astra='Codex Astra'}[$item.runtime]
+        $label=@{sol='Codex Sol';claude='Claude (model unrecorded)';astra='Codex Astra';opus='Claude Opus';fable='Claude Fable'}[$item.runtime]
         $lines.Add($item.name+'  |  '+$label)
         if ($item.task) {$lines.Add('Task: '+$item.task)} else {$lines.Add('Task: follow the agent startup instructions')}
         $lines.Add('')
@@ -1010,6 +1115,8 @@ $timer.Add_Tick({
     } catch {Finish-Current $false $_.Exception.Message; Start-Next}
 })
 $search.Add_TextChanged({Filter-Agents})
+$ageSource.Add_SelectedIndexChanged({Filter-Agents})
+$reloadActivity.Add_Click({Reload-Activity})
 $categories.Add_SelectedIndexChanged({Filter-Agents})
 $list.Add_SelectedIndexChanged({Select-Agent})
 $list.Add_ItemCheck({
@@ -1079,11 +1186,13 @@ try {Read-Groups; Refresh-Groups} catch {
     Log-Result ($_.Exception.Message+' File: '+$script:groupsPath)
     Set-DetailsVisible $true
 }
-try {$saved=Read-LocalRecords $script:historyPath 'history'; $script:history=@($saved.records)} catch {
+try {$saved=Read-LocalRecords $script:historyPath 'history'; $script:history=@($saved.records); $script:lastOpened=@($saved.lastOpened)} catch {
+    $script:historyHealthy=$false
     $status.Text='Saved activity could not be read. The original file was kept.'
     Log-Result ($_.Exception.Message+' File: '+$script:historyPath)
 }
 Refresh-History
+Filter-Agents
 Update-Buttons
 $timer.Start()
 if ($SmokeTest) {
@@ -1092,7 +1201,7 @@ if ($SmokeTest) {
         try {
             Test-Step 'Initial selection and policy'
             $search.Text='CATO'
-            if ($runtime.Text -ne 'Codex Astra' -or $runtime.Enabled) {throw 'CATO policy UI failed'}
+            if ($runtime.Text -ne 'Codex Astra' -or -not $runtime.Enabled -or $runtime.Items.Count -ne 2) {throw 'CATO policy UI failed'}
             $list.SetItemChecked(0,$true)
             $search.Text='CARL'; $runtime.SelectedIndex=1; $task.Text='Only CARL receives this task'
             if ($resume.Enabled) {throw 'Resume must refuse task text'}
@@ -1106,9 +1215,9 @@ if ($SmokeTest) {
             $items=@(Selected-Requests)
             if ($items.Count -ne 2 -or (Preview-Text $items) -notmatch 'Codex Astra') {throw 'Preview lost a hidden selection'}
             $carl=@($items | Where-Object {$_.name -eq 'CARL'})[0]
-            if ($carl.runtime -ne 'claude' -or $carl.task -ne 'Only CARL receives this task') {throw 'Per-agent settings were lost'}
+            if ($carl.runtime -ne 'opus' -or $carl.task -ne 'Only CARL receives this task') {throw 'Per-agent settings were lost'}
             $categories.SelectedIndex=0; $search.Text='CARL'
-            if ($runtime.Text -ne 'Claude' -or $task.Text -ne $carl.task) {throw 'Settings did not restore'}
+            if ($runtime.Text -ne 'Claude Opus' -or $task.Text -ne $carl.task) {throw 'Settings did not restore'}
             $search.Text='no-such-agent-987654'
             if ($start.Enabled -or $resume.Enabled -or -not $batch.Enabled) {throw 'Empty search/hidden batch behavior failed'}
             $clear.PerformClick()
@@ -1127,12 +1236,12 @@ if ($SmokeTest) {
             if ($original -match 'Only CARL receives') {throw 'Group persisted task text'}
             $clear.PerformClick(); $script:settings['CARL'].runtime='sol'
             $script:groups=@(); Read-Groups; Refresh-Groups; $tabs.SelectedTab=$pages.Selected; $loadGroup.PerformClick()
-            if ($script:checked.Count -ne 3 -or $script:settings['CARL'].runtime -ne 'claude') {throw 'Saved group failed to reload'}
+            if ($script:checked.Count -ne 3 -or $script:settings['CARL'].runtime -ne 'opus') {throw 'Saved group failed to reload'}
             $failed=$false
             try {Apply-Group @{name='Invalid';members=@(@{name='CARL';runtime='sol'},@{name='MISSING_TEST';runtime='sol'})}} catch {$failed=$true}
-            if (-not $failed -or $script:checked.Count -ne 3 -or $script:settings['CARL'].runtime -ne 'claude') {throw 'Stale group partially changed settings'}
+            if (-not $failed -or $script:checked.Count -ne 3 -or $script:settings['CARL'].runtime -ne 'opus') {throw 'Stale group partially changed settings'}
             $failed=$false
-            try {Apply-Group @{name='Invalid';members=@(@{name='CATO';runtime='sol'})}} catch {$failed=$true}
+            try {Apply-Group @{name='Invalid';members=@(@{name='CATO';runtime='fable'})}} catch {$failed=$true}
             if (-not $failed) {throw 'Saved group changed CATO policy'}
             # Simulate another window committing after this one read the file.
             [IO.File]::WriteAllText($script:groupsPath,$original+"`r`n")
@@ -1207,7 +1316,7 @@ if ($SmokeTest) {
             if ($tabs.SelectedTab -ne $pages.Instructions -or $script:selected.name -ne $agentName -or $script:checked.Count -ne $beforeCount -or -not $script:checked.ContainsKey($agentName) -or $task.Text -cne $beforeTask) {throw 'Selected-name navigation lost membership or settings'}
             $task.Text='A distinct edited instruction for '+$agentName
             $instructionRuntime.SelectedIndex=1
-            if ($runtime.Text -ne 'Claude' -or $script:settings[$agentName].runtime -ne 'claude') {throw 'Instructions runtime did not synchronize'}
+            if ($runtime.Text -ne 'Claude Opus' -or $script:settings[$agentName].runtime -ne 'opus') {throw 'Instructions runtime did not synchronize'}
             foreach ($page in $tabs.TabPages) {$tabs.SelectedTab=$page}
             if ($script:settings[$agentName].task -cne $task.Text -or $script:checked.Count -ne $beforeCount) {throw 'Tab switching lost preparation state'}
             $tabs.SelectedTab=$pages.Selected; $card.Controls[2].PerformClick()
@@ -1271,11 +1380,52 @@ if ($SmokeTest) {
             Record-Launch $request 'Not confirmed' 'Fixture failed startup'
             if ([IO.File]::ReadAllText($script:historyPath) -cne '{broken' -or $results.Text -notmatch 'Launch history not saved') {throw 'Corrupt history was overwritten or hidden'}
             [IO.File]::WriteAllText($script:historyPath,$historyBefore)
-            $saved=Read-LocalRecords $script:historyPath 'history'; $script:history=@($saved.records); Refresh-History
+            Reload-Activity
             $tabs.SelectedTab=$pages.Activity
             $beforeCount=$script:checked.Count; $beforeTask=$script:settings['CARL'].task
             $historyOpen.PerformClick()
             if ($tabs.SelectedTab -ne $pages.Agents -or $script:selected.name -ne 'CARL' -or $script:checked.Count -ne $beforeCount -or $script:settings['CARL'].task -cne $beforeTask) {throw 'History navigation changed preparation state'}
+            Test-Step 'Model choices and activity ages'
+            Focus-Agent 'PROME' 'Agents'
+            if ($runtime.Text -ne 'Claude Fable') {throw 'PROME default is not Fable'}
+            foreach ($choice in @('Claude Opus','Claude Fable','Codex Astra','Codex Sol')) {
+                $runtime.SelectedItem=$choice
+                if ($instructionRuntime.Text -ne $choice) {throw 'Model controls did not synchronize'}
+            }
+            Focus-Agent 'CATO' 'Instructions'; $instructionRuntime.SelectedItem='Codex Sol'
+            if ($runtime.Text -ne 'Codex Sol' -or $script:settings['CATO'].runtime -ne 'sol') {throw 'CATO Sol choice failed'}
+            $group=@{name='Legacy';members=@(@{name='PROME';runtime='claude'},@{name='CARL';runtime='claude'})}
+            Apply-Group $group
+            if ($script:settings['PROME'].runtime -ne 'fable' -or $script:settings['CARL'].runtime -ne 'opus') {throw 'Legacy Claude group defaults failed'}
+            $now=[DateTimeOffset]::Parse('2026-10-29T12:00:00Z')
+            foreach ($days in @(0,6,7,13,14,30)) {
+                $age=Activity-Age ($now.AddDays(-$days).ToString('o')) $now
+                $expected=$ink
+                if ($days -ge 14) {$expected=[Drawing.Color]::FromArgb(255,166,102)}
+                elseif ($days -ge 7) {$expected=[Drawing.Color]::FromArgb(245,210,125)}
+                if ($age.days -ne $days -or $age.color.ToArgb() -ne $expected.ToArgb()) {throw 'Age threshold failed'}
+            }
+            foreach ($stamp in @('', 'bad', $now.AddDays(1).ToString('o'))) {
+                $age=Activity-Age $stamp $now
+                if ($null -ne $age.days -or $age.color.ToArgb() -ne $muted.ToArgb()) {throw 'Unknown/future age was graded stale'}
+            }
+            $old=@{time=[DateTimeOffset]::Now.AddDays(-15).ToString('o');name='PROME';runtime='claude';action='new';task='';outcome='Opened';message='Old confirmed launch'}
+            [void](Write-LocalRecords $script:historyPath 'history' @($old) '' $true)
+            $saved=Write-LocalRecords $script:historyPath 'history' $many '' $true
+            Reload-Activity
+            if ($saved.records.Count -ne 100 -or (Launch-For 'PROME').message -ne 'Old confirmed launch') {throw 'Rolling history evicted latest launch summary'}
+            $unconfirmed=@{time=[DateTimeOffset]::Now.ToString('o');name='PROME';runtime='fable';action='new';task='';outcome='Not confirmed';message='No acknowledgement'}
+            [void](Write-LocalRecords $script:historyPath 'history' @($unconfirmed) '' $true); Reload-Activity
+            Focus-Agent 'PROME' 'Agents'
+            if ((Launch-For 'PROME').time -ne $old.time -or $recentDetails.Text -notmatch 'model unrecorded') {throw 'Failed launch or legacy model misrepresented'}
+            $beforeTask=$script:settings['PROME'].task; $beforeCount=$script:checked.Count
+            $ageSource.SelectedIndex=1; $ageSource.SelectedIndex=0
+            if ($script:selected.name -ne 'PROME' -or $script:checked.Count -ne $beforeCount -or $script:settings['PROME'].task -cne $beforeTask -or $list.GetItemRectangle(0).Height -lt 40 -or $list.Items[0].Display -notmatch '15d ago') {throw 'Activity source switch lost state or age row height'}
+            $historyBefore=[IO.File]::ReadAllText($script:historyPath)
+            $bad=@{version=1;history=@();last_opened=@($unconfirmed)} | ConvertTo-Json -Depth 6
+            [IO.File]::WriteAllText($script:historyPath,$bad); Reload-Activity
+            if ($script:historyHealthy -or $null -ne (Launch-For 'PROME')) {throw 'Invalid summary retained a freshness claim'}
+            [IO.File]::WriteAllText($script:historyPath,$historyBefore); Reload-Activity
             Test-Step 'Page bounds and resize'
             # Activity has its own page; errors reveal it without growing the window.
             $tabs.SelectedTab=$pages.Agents; $height=$form.ClientSize.Height
@@ -1323,7 +1473,7 @@ if ($SmokeTest) {
                 $form.DrawToBitmap($bitmap,(New-Object Drawing.Rectangle(0,0,$form.Width,$form.Height)))
                 $bitmap.Save((Join-Path $data.directory ($page.Name+'.png'))); $bitmap.Dispose()
             }
-            @{ok=$true;checks='Categories, retained selection, per-agent runtime/task, hidden preview, CATO, resume, empty search, clear, stop remaining, saved groups, atomic persistence, concurrent/corrupt-file refusal, task presets, group rename/collision, global search/category restore, selected-name navigation and separate removal, tab state/busy queue preservation, custom preset persistence/corruption/concurrency/confirmation, bounded history merging/corruption, Activity errors, page bounds and resize'} | ConvertTo-Json | Set-Content -Encoding UTF8 (Join-Path $data.directory 'smoke.json')
+            @{ok=$true;checks='Explicit Opus/Fable/Astra/Sol selection and legacy group migration, age thresholds/unknown/future timestamps, retained last launch beyond 100 attempts, failed-launch exclusion, invalid summary refusal, Categories, retained selection, per-agent runtime/task, hidden preview, CATO, resume, empty search, clear, stop remaining, saved groups, atomic persistence, concurrent/corrupt-file refusal, task presets, group rename/collision, global search/category restore, selected-name navigation and separate removal, tab state/busy queue preservation, custom preset persistence/corruption/concurrency/confirmation, bounded history merging/corruption, Activity errors, page bounds and resize'} | ConvertTo-Json | Set-Content -Encoding UTF8 (Join-Path $data.directory 'smoke.json')
         } catch {
             $bitmap=New-Object Drawing.Bitmap($form.Width,$form.Height)
             $form.DrawToBitmap($bitmap,(New-Object Drawing.Rectangle(0,0,$form.Width,$form.Height)))

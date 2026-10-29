@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import base64
+from datetime import datetime, timezone
 import getpass
 import json
 import os
@@ -20,15 +21,51 @@ def windows_path(path: Path) -> str:
     return subprocess.check_output(['wslpath', '-w', str(path.resolve())], text=True).strip()
 
 
+def saved_work(folder: Path, children: list[Path]) -> dict:
+    """Latest local folder commit, not an attribution or session-liveness claim."""
+    if not folder.is_dir():
+        return {'state': 'unavailable', 'message': 'Folder missing'}
+    try:
+        top = subprocess.run(['git', '-C', str(folder), 'rev-parse', '--show-toplevel'],
+                             capture_output=True, text=True, timeout=5)
+        if top.returncode:
+            return {'state': 'unavailable', 'message': 'Git history unavailable'}
+        root = Path(top.stdout.strip()).resolve()
+        relative = folder.resolve().relative_to(root).as_posix()
+        excludes = [folder / 'inbox', folder / 'outbox'] + children
+        paths = [f':(top,literal){relative}']
+        if relative == '.':
+            paths = [':(top)**']
+        paths += [f':(top,exclude,literal){p.relative_to(root).as_posix()}' for p in excludes]
+        result = subprocess.run(['git', '-C', str(root), 'log', '-1', '--no-show-signature',
+                                 '--format=%H%x00%cI%x00%s', '--', *paths],
+                                capture_output=True, text=True, timeout=5)
+        if result.returncode:
+            return {'state': 'unavailable', 'message': 'Git history could not be read'}
+        if not result.stdout.strip():
+            return {'state': 'none', 'message': 'No saved work found in local Git history'}
+        revision, stamp, subject = result.stdout.rstrip('\n').split('\0', 2)
+        return {'state': 'recorded', 'time': stamp, 'revision': revision,
+                'subject': subject, 'message': 'Local folder commit; not proof the agent ran'}
+    except (OSError, subprocess.SubprocessError, ValueError):
+        return {'state': 'unavailable', 'message': 'Git history could not be read'}
+
+
 def catalogue(config: Path) -> list[dict]:
     rows = []
-    for entry in agents.load_config(config):
+    entries = agents.load_config(config)
+    folders = {e['name']: agents.resolve_folder(e['path']) for e in entries}
+    for entry in entries:
         error = ''
         try:
             agents.validate_plan(agents.build_plan(entry, None, 'new'))
         except agents.LaunchError as exc:
             error = str(exc)
-        rows.append({**entry, 'folder': str(agents.resolve_folder(entry['path'])), 'error': error})
+        folder = folders[entry['name']]
+        children = [p for p in folders.values() if p != folder and p.is_relative_to(folder)]
+        rows.append({**entry, 'default_runtime': agents.resolve_runtime(entry, None),
+                     'folder': str(folder), 'error': error,
+                     'saved_work': saved_work(folder, children)})
     return rows
 
 
@@ -70,7 +107,8 @@ def start_gui(config: Path, smoke_test: bool = False) -> int:
     directory.mkdir(parents=True, mode=0o700)
     context = {'config': str(config.resolve()), 'path': os.environ.get('PATH', '')}
     (directory / 'context.json').write_text(json.dumps(context))
-    data = {'agents': rows, 'directory': windows_path(directory), 'linux_directory': str(directory),
+    data = {'agents': rows, 'captured_at': datetime.now(timezone.utc).isoformat(),
+            'directory': windows_path(directory), 'linux_directory': str(directory),
             'distro': distro, 'user': getpass.getuser(), 'python': sys.executable,
             'bridge': str(Path(__file__).resolve())}
     snapshot = directory / 'catalogue.json'

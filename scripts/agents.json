@@ -7,7 +7,7 @@
       "purpose": "Coordination, decisions, and final synthesis.",
       "group": "System, research, and trading",
       "kind": "fleet",
-      "default_runtime": "sol"
+      "default_runtime": "fable"
     },
     {
       "name": "WALTER",

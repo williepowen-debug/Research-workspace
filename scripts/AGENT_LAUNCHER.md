@@ -1,14 +1,15 @@
 # Agent Launcher
 
 Double-click **Agent Launcher.cmd** on the Windows desktop for the graphical
-app, or run `agents-gui` from WSL. Search by name or topic, select **Codex Sol**
-or **Claude**, then click **Start new** or **Resume...**. CATO keeps its fixed
-**Codex Astra** setting. An optional task applies to a new conversation; clear
+app, or run `agents-gui` from WSL. Search by name or topic, select **Claude Opus**,
+**Claude Fable**, **Codex Astra**, or **Codex Sol**, then start a new conversation
+or resume. PROME defaults to Fable; CATO defaults to Astra and offers Sol as well.
+Other agents retain their Sol default; choose Claude Opus when using Claude. An optional task applies to a new conversation; clear
 the task box to enable Resume. Resume opens the selected runtime's saved-session
 picker in its terminal. The app stays open for more launches; closing it leaves
 the agent windows running.
 
-Choose a **category** on the left, or **All agents**. Search narrows the current
+Choose a **category** on the left, or **All agents**. Search covers all agents; clearing it restores the current
 category. Click an agent's name for details and use its checkbox to include it
 in a batch. Checked agents stay selected across categories and searches; the
 selection count includes hidden agents. **Clear selection** removes all checks.
@@ -59,7 +60,9 @@ process; login and completed agent boot still belong to the agent window.
 For the original terminal menu, run `agents` in WSL. Choose an agent, runtime,
 and **new** or **resume**.
 The selected agent opens in a **separate Windows Terminal window**, titled with
-its name and runtime. The menu stays open for the next selection. Q closes the
+its name and model. The launcher explicitly selects the current WSL distribution
+profile (Ubuntu on Will's machine) and runs the CLI inside that distribution,
+with the configured Linux account and agent folder. The menu stays open for the next selection. Q closes the
 launcher menu without stopping the agent windows. No session starts until you
 choose an action. Windows Terminal and WSL are required for the default mode.
 
@@ -72,7 +75,9 @@ automatically omit color codes. Restart an already-open launcher to load updates
 ```bash
 agents                         # persistent menu; separate agent windows
 agents carl                    # choose new/resume; open a new window on Sol
-agents carl --claude            # CARL on Claude, choose new or resume
+agents carl --opus              # CARL on Claude Opus, choose new or resume
+agents prome --fable            # PROME on Claude Fable
+agents carl --astra --new       # CARL on Codex Astra
 agents stue --sol --new         # start STUE on Sol
 agents polly --resume           # choose a saved POLLY Codex conversation
 agents cato --new               # existing CATO Astra launcher
@@ -99,13 +104,40 @@ completed agent boot. If window startup fails or is not confirmed, the launcher
 reports it and never retries automatically; inspect the named window first.
 Without Windows Terminal, use `--same-window`; there is no silent fallback.
 
+## Activity dates and highlighting
+
+The Agents tab shows the last confirmed **launch here** and the last **saved work**
+commit for the selected agent. Choose which source drives the list highlighting:
+amber at seven elapsed days, orange at fourteen. Missing or unavailable history
+stays neutral; a future timestamp says **Clock ahead**. These colors are browsing
+hints, not a schedule or recommendation to launch an agent.
+
+Launch history is machine-local and only covers this launcher. Manual starts and
+PROME launches may be absent. Failed/cancelled attempts do not update the last
+confirmed launch. Activity keeps the latest 100 attempts plus each agent's latest
+confirmed launch; **Reload launch history** picks up other launcher windows' writes.
+Older Claude history says **model unrecorded** because it did not capture the model.
+
+Saved work means the latest local Git commit touching the agent folder, excluding
+inbox/outbox and configured nested agent folders. It can include another owner's
+changes and does not prove the agent ran or completed research. The details include
+a date, commit subject/hash, and snapshot time. Reopen the launcher to refresh Git
+information. Nothing fetches from the network or scans running sessions.
+
+Close older launcher windows and reopen after this update so all windows use the
+new model choices and history format. Agent terminal sessions can remain open.
+
 ## Defaults and scope
 
 - Codex defaults to **gpt-6.1-sol** with full access and approval prompts disabled.
-- Claude uses `--dangerously-skip-permissions` and the configured model, except
-  CYPHER retains its explicit Claude model from the command sheet.
-- CATO keeps its existing **Astra / workspace-write / on-request** policy.
-  `--sol` and `--claude` are rejected for CATO instead of changing its policy.
+- Claude uses `--dangerously-skip-permissions` and an explicit `--model opus`
+  or `--model fable` for both new and resumed conversations. The selection
+  overrides older configured Claude model flags, including CYPHER's.
+  Legacy `--claude` and saved-group Claude entries resolve to Fable for PROME
+  and Opus for other agents. Existing saved groups with explicit Sol keep Sol.
+- Codex choices explicitly request `gpt-6.1-sol` or `gpt-6-astra`.
+- CATO offers Astra and Sol with **workspace-write / on-request** for both.
+  Claude remains unavailable for CATO; selecting Sol does not broaden permissions.
 - WALTER's Telegram connection was retired by Will on October 27, 2026.
   New and resumed sessions launch without Telegram channel flags.
 - CARL's specialists use their nested folders. Project folders and startup files
