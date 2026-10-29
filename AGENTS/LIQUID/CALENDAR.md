@@ -44,9 +44,9 @@ Swap-line tool/letter WITHHELD; ETF issuer histories recoveredOctober14. Prior f
 | 2026-10-16 | ✅ READ 2026-10-16 ($11.044B [10/14], highest since 4/2023) — Discount-window primary credit — October14 Wednesday point (existing NEXUS T-30 follow-up) | DATA_RELEASE: exact criteria/outcome/source limits in machine row |
 | 2026-10-15 | ✅ GRADED 2026-10-15 — GATE-LIQ-069 existing review (PROME-set successor date) | REGISTRY_REVIEW: exact criteria/outcome/source limits in machine row |
 | 2026-10-16 | ✅ FIRED (graded 2026-10-15 12:1x ET) — GATE-LIQ-069 L4 — 10/14 session HY half (equity half MET: CRWV raw close -15.46%) | REGISTRY_REVIEW: exact criteria/outcome/source limits in machine row |
-| 2026-10-30 | GATE-LIQ-069 review — October30 SET BY PROME October15 | REGISTRY_REVIEW: exact criteria/outcome/source limits in machine row |
-| 2026-10-30 | GATE-LIQ-076 existing review — dealer-positioning amplification | REGISTRY_REVIEW: exact criteria/outcome/source limits in machine row |
-| 2026-10-31 | GATE-LIQ-079 existing review — FIRE-leg bands/base-rate proposal | REGISTRY_REVIEW: exact criteria/outcome/source limits in machine row |
+| 2026-11-05 | REVIEW MOVED to 11/05 by PROME 10/29 00:2x ET (reads recorded 10/29) — GATE-LIQ-069 review — October30 SET BY PROME October15 | REGISTRY_REVIEW: exact criteria/outcome/source limits in machine row |
+| 2026-11-05 | REVIEW MOVED to 11/05 by PROME 10/29 00:2x ET — GATE-LIQ-076 existing review — dealer-positioning amplification | REGISTRY_REVIEW: exact criteria/outcome/source limits in machine row |
+| 2026-11-05 | ✅ BANDS RULED WQ-535 A 2026-10-29 (Will 00:26 ET), encoded in FUNDING_SEIZURE_GATE_SCOPED.md 10/29; review_by 11/05 PROME-set — GATE-LIQ-079 existing review — FIRE-leg bands/base-rate proposal | REGISTRY_REVIEW: exact criteria/outcome/source limits in machine row |
 | 2026-10-16 | ✅ SOURCE RECOVERED 2026-10-19 — CFTC TFF as-of October13 | DATA_RELEASE: exact criteria/outcome/source limits in machine row |
 | 2026-10-19 | ✅ MET 2026-10-19 — HY >320 sustained (10/16 cell), 3-of-3 | REGISTRY_REVIEW: exact criteria/outcome/source limits in machine row |
 | 2026-10-28 | October FOMC decision + UK Budget | CONFIRMED: exact criteria/outcome/source limits in machine row |

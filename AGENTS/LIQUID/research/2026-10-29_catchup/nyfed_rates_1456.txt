@@ -1,0 +1,13 @@
+pulled 2026-10-29T14:55:24 ET; NY Fed Markets API (primary)
+secured/sofr 2026-10-28 3.94 p1 3.89 p25 3.92 p75 3.99 p99 4.02 vol$B 3074 rev 
+secured/sofr 2026-10-27 3.95 p1 3.88 p25 3.94 p75 4.0 p99 4.04 vol$B 3147 rev 
+secured/sofr 2026-10-26 3.93 p1 3.85 p25 3.91 p75 3.98 p99 4.01 vol$B 3086 rev 
+secured/sofr 2026-10-23 3.92 p1 3.85 p25 3.9 p75 3.97 p99 4.0 vol$B 3065 rev 
+secured/sofr 2026-10-22 3.9 p1 3.83 p25 3.88 p75 3.95 p99 3.98 vol$B 2945 rev 
+secured/sofr 2026-10-21 3.88 p1 3.83 p25 3.86 p75 3.93 p99 3.96 vol$B 2942 rev 
+unsecured/effr 2026-10-28 3.88 p1 3.85 p25 3.87 p75 3.89 p99 3.91 vol$B 116 rev 
+unsecured/effr 2026-10-27 3.88 p1 3.85 p25 3.87 p75 3.89 p99 3.94 vol$B 115 rev 
+unsecured/effr 2026-10-26 3.88 p1 3.85 p25 3.88 p75 3.89 p99 3.94 vol$B 109 rev 
+unsecured/effr 2026-10-23 3.88 p1 3.85 p25 3.87 p75 3.89 p99 3.95 vol$B 109 rev 
+unsecured/effr 2026-10-22 3.88 p1 3.85 p25 3.87 p75 3.88 p99 3.92 vol$B 119 rev 
+unsecured/effr 2026-10-21 3.88 p1 3.85 p25 3.88 p75 3.89 p99 3.94 vol$B 110 rev 

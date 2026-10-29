@@ -1,0 +1,22 @@
+  ADOPTED letter (WQ-114, 9/1): 'CCC flat' = |5-sess CCC delta| <= 15bp · 'credit underperforming' = HY OAS +5bp or more on the session
+================================================================================================
+
+  L1  BB>220 while CCC flat
+      BB 184bps [obs 2026-10-28] -> BB>220? NO   (+36bp to the line)
+      CCC 1307bps, 5-sess change +0bp (vs 2026-10-21, CCC's own obs) -> flat? YES
+      => L1 🟢 NOT FIRED   (conjunctive; BB is the binding half)
+
+  L4  cohort equity -15%/session with credit underperforming (ANY ONE name, WQ-170)
+      CRWV        63.93  +7.32%   [session 2026-10-28 vs 2026-10-27, raw close]
+      IREN        28.84  +5.10%   [session 2026-10-28 vs 2026-10-27, raw close]
+      APLD        20.39  +4.51%   [session 2026-10-28 vs 2026-10-27, raw close]
+      NBIS       182.34  +6.96%   [session 2026-10-28 vs 2026-10-27, raw close]
+      ⏳ equity sessions after the latest HY obs ['2026-10-29']: UNGRADEABLE-PENDING-PUBLICATION (not graded)
+      HY OAS session change -4bp [obs 2026-10-28 vs 2026-10-27, prev NYSE session] -> credit underperforming? NO
+      worst name: APLD +4.51%  -> <=-15%? NO
+      => L4 🟢 NOT FIRED   (conjunctive)
+
+  ↪ L2 CoreWeave 5Y CDS  — graded by scripts/crwv_cds_grade.py (DTCC PPD converted quotes; FIRED 9/26)
+  ⛔ L3 AI-infra new-issue concessions — NO_INSTRUMENT (dealer/terminal primary)
+  ⚠️  L5 ORCL fallen-angel ladder — SECONDARY-SOURCED (≥2 independent outlets); primary re-verification NO_INSTRUMENT (L345, 9/29)
+================================================================================================

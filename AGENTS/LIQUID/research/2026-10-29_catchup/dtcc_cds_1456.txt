@@ -1,0 +1,24 @@
+  2026-10-27T18:39Z exp 2031-12-20  5,000,000+ | cpn 100 upfront 0.52pts ~par 112bp (approx) | META PLATFORMS;INC.
+  2026-10-27T19:25Z exp 2029-12-20  5,000,000+ | cpn 100 upfront 0.89pts ~par 130bp (approx) | META PLATFORMS;INC.
+2026-10-28: 1524 SEC credit rows; 5 NEWT for 'META'
+  2026-10-28T12:17Z exp 2031-12-20   1,000,000 | cpn 100 upfront 0.34pts ~par 108bp (approx) | META PLATFORMS;INC.
+  2026-10-28T12:31Z exp 2031-12-20   1,000,000 | cpn 100 upfront 0.34pts ~par 108bp (approx) | META PLATFORMS;INC.
+  2026-10-28T18:44Z exp 2029-12-20  5,000,000+ | cpn 100 upfront 0.60pts ~par 120bp (approx) | META PLATFORMS;INC.
+  2026-10-28T18:44Z exp 2029-12-20  5,000,000+ | cpn 100 upfront 0.60pts ~par 120bp (approx) | META PLATFORMS;INC.
+  2026-10-28T20:27Z exp 2031-12-20  5,000,000+ | spread 115bp (disseminated) | Meta Platforms Inc
+  2026-10-28T19:18Z exp 2031-12-20  5,000,000+ | cpn 100 upfront 7.07pts ~par 269bp (approx) | ORACLE CORPORATION
+  2026-10-28T19:25Z exp 2031-12-20  5,000,000+ | spread 280bp (disseminated) | Oracle Corporation
+  2026-10-28T19:35Z exp 2029-12-20  5,000,000+ | cpn 100 upfront 2.98pts ~par 204bp (approx) | ORACLE CORPORATION
+  2026-10-28T20:17Z exp 2031-12-20      95,000 | cpn 100 upfront 7.83pts ~par 288bp (approx) | ORACLE CORPORATION
+  2026-10-28T20:21Z exp 2031-12-20  5,000,000+ | spread 276bp (disseminated) | Oracle Corporation
+  2026-10-28T20:21Z exp 2031-12-20  5,000,000+ | spread 276bp (disseminated) | Oracle Corporation
+  2026-10-28T20:30Z exp 2031-12-20  5,000,000+ | spread 276bp (disseminated) | Oracle Corporation
+  2026-10-28T20:56Z exp 2031-12-20   3,000,000 | cpn 100 upfront 7.14pts ~par 271bp (approx) | ORACLE CORPORATION
+  2026-10-27T20:24Z exp 2031-12-20   2,000,000 | cpn 500 upfront 16.11pts ~par 1020bp (approx) | COREWEAVE;INC.
+2026-10-28: 1524 SEC credit rows; 6 NEWT for 'COREWEAVE'
+  2026-10-28T18:01Z exp 2031-12-20   1,000,000 | cpn 500 upfront 15.47pts ~par 995bp (approx) | COREWEAVE;INC.
+  2026-10-28T18:52Z exp 2031-12-20  5,000,000+ | cpn 500 upfront 14.47pts ~par 956bp (approx) | COREWEAVE;INC.
+  2026-10-28T18:59Z exp 2030-12-20   2,000,000 | cpn 500 upfront 12.47pts ~par 944bp (approx) | COREWEAVE;INC.
+  2026-10-28T19:03Z exp 2030-12-20   3,000,000 | cpn 500 upfront 11.22pts ~par 893bp (approx) | COREWEAVE;INC.
+  2026-10-28T19:16Z exp 2030-12-20   1,000,000 | cpn 500 upfront 11.22pts ~par 893bp (approx) | COREWEAVE;INC.
+  2026-10-28T19:25Z exp 2029-12-20   2,000,000 | cpn 500 upfront 8.85pts ~par 871bp (approx) | COREWEAVE;INC.

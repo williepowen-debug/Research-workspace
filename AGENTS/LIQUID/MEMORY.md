@@ -2,7 +2,16 @@
 
 ## Session Notes
 
-### CURRENT SESSION — 2026-10-29T00:18:37-04:00 (PROME prome-92 Tier-1 WQ-184 wake; Claude Code / Opus 5.5; markets closed)
+### CURRENT SESSION — 2026-10-29T14:51–15:0x-04:00 (PROME prome-5c catch-up, Will 14:52 ET; Claude Code / Opus 5.5)
+
+- **WQ-535 A encoded:** ruled FIRE legs 3/4 letter transcribed byte-identical (scripted compare vs the PROME ruling record) into `workbook/FUNDING_SEIZURE_GATE_SCOPED.md`; old leg 3/4 text and the "FIRE UNGRADEABLE" instructions replaced, not annotated (KB-LIQ-079, REFERENCE_TABLES, CATALYSTS/CALENDAR). L261 closes on the commit.
+- **WQ-534 B:** swap-line script + letter bannered SHELVED — WITHHELD; no code change (selftest rc 0); re-open only on a live European dollar-funding event. L568 RESOLVED.
+- **Data (first-published 10/28):** HY 314, IG 86, BB 184, B 318, CCC 1,307; SOFR99−IORB +12 [10/28, cal-excluded]; DTCC 5Y 10/28 Meta 108–115, ORCL 269–288, CRWV 956–995. XCCC page 403 (line not refreshed).
+- **Gates:** all five unchanged (HY-REKILL 0-of-2; 069 2-of-2, L1/L4 NOT FIRED; 076 waits W2 10/29 ~16:15 / W1 10/30; 079 NOT ARMED; 072 QUIET). Review dates now 11/05 (069/076/079).
+- **Drain:** 8 top-level + 8 WALTER logged and moved; one reply to HANS (re-open trigger for the shelved swap-line).
+- **NEXT:** grade 076 W2 (as-of 10/21) and W1 (as-of 10/27); ~11/2 October HY issuance; 11/4 buyback end; 11/13 BDC card.
+
+### PRIOR SESSION — 2026-10-29T00:18:37-04:00 (PROME prome-92 Tier-1 WQ-184 wake; Claude Code / Opus 5.5; markets closed)
 
 - **L568:** six WQ-404 READ1 ❌ fixed in ONE pass — conditions `eb956d325` before any edit, result `c84c01cb1` (change note §C). HANS's bidders ≥ 8 history re-verified from ECB `tops.zip` (164 of 1,179; 0 since 2022); one release condition; AC-X2b (4) per-year duplicate + cross-fetch test (selftest 67/67); four dead pointers fixed. IMPLEMENTED + TESTED (author), NOT INDEPENDENTLY VERIFIED, STILL WITHHELD. My own AC fact line said "9 of 12" quarter-end fires; scripted count 11 — corrected in place, marked.
 - **HY >320 run ENDED:** 9 first-published cells 10/14→10/26, reset by 318 [10/27] (KILL_MEMO drill row). INFO to WALTER.

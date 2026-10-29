@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+# ⛔ SHELVED — WITHHELD (WQ-534 RULED B, Will 2026-10-29 00:26 ET, verbatim "534 and 535 approved with your recs";
+#    record PROME/proposals/2026-10-29_wq534-535-RULED.md; DOCKET L568 RESOLVED). No further read. Re-open ONLY on a
+#    live European dollar-funding event. Not for operational use; not to be cited as a reading. Code unchanged;
+#    residue CE-A, CE-B and READ1 ⚠️ stay declared as they are (analysis/2026-10-08_usd-swapline-L568-change-note.md §C).
 """USD swap-line usage — the reachable read on European stress reaching US dollar funding.
 
 WHY (2026-10-01, PROME touch 4, Will "go for the six"): the EUR/USD cross-currency

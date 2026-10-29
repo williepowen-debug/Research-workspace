@@ -9,7 +9,7 @@
 | AI-credit re-arm | KB-LIQ-069 letter; ORCL map sharpens issuer-rating leg, not the gate itself. Energy/sector source gaps remain explicit. |
 | IG rating/spread mismatch | KB-LIQ-072 letter: IG>94 or HY−IG<180, plus its existing event legs. SpaceX leg CANNOT-FIRE. |
 | Dealer conjunction | `DEALER_POSITIONING_NEXUS_WATCH.md`; W2 is named IG-corporate buckets, not an inference that all dealers have no balance-sheet capacity |
-| Funding seizure | `FUNDING_SEIZURE_GATE_SCOPED.md` and `GATE079_CALENDAR_EXCLUDED.tsv`; same-date SOFR99−IORB≥30×2 eligible dates. FIRE bands remain ungradeable pending approved calibration. |
+| Funding seizure | `FUNDING_SEIZURE_GATE_SCOPED.md` and `GATE079_CALENDAR_EXCLUDED.tsv`; same-date SOFR99−IORB≥30×2 eligible dates. FIRE legs 3/4 banded under WQ-535 A (2026-10-29); FIRE gradeable on ARMED non-calendar days. |
 | Funding deviation/drift | `scripts/sofr_dispersion.py`; retired SOFR75≥0 band supplies no reading. Absolute SOFR3.70 is obsolete and not an independent trigger. |
 | Private-credit redemption | BROCK’s `GATE-BRK-R2`, sole owner; retired second-fund count is not a LIQUID trigger |
 | Foreign demand / auctions | `TIC_FRAMEWORK.md`, current BOND auction letter and `STATUS.md`; indirect bid channel is not holder identity. Belgium>500B is bare level only. |
