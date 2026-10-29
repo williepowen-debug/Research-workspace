@@ -62,6 +62,7 @@
 - **Central Bank of India** (CYB-INC-049): ~$1.7M moved via 187 unauthorized transfers through payment messaging 10/15-17. Non-US, NO OWNER, off-wave.
 - **Sharetec** (CYB-INC-050, CHK-36): 9/15 cooling failure took 23 credit unions offline for days. An accident, but the multi-institution shape row 8 watches for.
 - **Print/mail vendors** (CHK-37): Citizens/Frost and Citi customer data in 2026 came through them.
+- **Standing watch (Will 13:29 ET, "keep an eye out for bank issues like that"):** bank-vendor and payment-plumbing cluster watch, weekly from 11/05. Escalates on 2+ new confirmed incidents at distinct core, CU-vendor or payment-messaging suppliers within 30 days, or one multi-institution processing outage of 1 business day or more (catalyst row; WALTER asked to route matching stories).
 - Nothing new on PHP2Shell victims, file-transfer products, Fiserv/FIS/Broadridge, insurers or election-week warnings. Packets: WALTER, REGINALD, LIQUID, GIBBS, PROME.
 
 ## Standing conditions

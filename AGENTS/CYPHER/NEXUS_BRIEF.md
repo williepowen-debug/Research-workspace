@@ -58,6 +58,7 @@
 | 2026-11-03 | Keystone erasure statement | Issuer completion or delay |
 | 2026-11-04 | PHP2Shell +14d; ConnectWise restoration | Named victims; 8-K 1.05; restoration done |
 | 2026-11-05 | Financial-claim pass (036–040, 043) | Victim or regulator confirmation/denial |
+| 2026-11-05 (weekly) | Bank-vendor / payment-plumbing cluster watch (Will 10/29) | 2+ new confirmed supplier incidents in 30 days, or a multi-institution outage of 1+ business day -> P1 REGINALD/LIQUID/PROME |
 | 2026-11-06 | Kiteworks victim check; GMO compensation; Capcom | Own instruments |
 | 2026-11-15 | TruStage data-access window | Primary scope and cost |
 | 2026-11-18 | Row 9 equity persistence | Owner grade |
