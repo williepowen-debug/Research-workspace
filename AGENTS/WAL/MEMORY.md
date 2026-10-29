@@ -2,7 +2,7 @@
 
 **⚠️ Open question:** what the Q3 10-Q says about the $99M life-science appraisal. Release, deck and call were all silent, so it is PENDING-10-Q (never benign). Still not on EDGAR at 2026-10-28 ~22:40 ET; statutory Mon 11/9.
 
-**LAST SESSION (10/28 ~22:36–23:30 ET, Claude Opus 5.5 on the laptop `WilliePOwen`, interactive; Will: "get caught up on any owed tasks or updating data"):**
+**LAST SESSION (10/28 22:36–~22:55 ET, Claude Opus 5.5 on the laptop `WilliePOwen`, interactive; Will: "get caught up on any owed tasks or updating data"):**
 - Boot: not behind origin, so no pull; foreign dirty paths (CARL/PHAN, REGINALD) left untouched. Corrections check rc 0. 10/28 close $75.96 = EV exactly.
 - **EDGAR 9/24 → 10/28:** only the 10/19 8-K and ten 10/19 Form 4s; no 10-Q, 144, 13D/G or open-market trade. Three routes agree; the Form 144 route was positive-controlled (12 historical WAL 144s, newest 6/15) → KB-259.
 - **Q3 Call Report not filed yet:** RSSD 3138146 is absent from FFIEC's 2,643-bank filer list for 9/30; the 9/30 facsimile returns HTTP 500; a 6/30 control re-pull is byte-identical, so the credential works on the laptop. `workbook/MI3_SERIES.tsv` got a `Last attention check` line (data clock not advanced).
