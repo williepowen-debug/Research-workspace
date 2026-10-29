@@ -79,7 +79,12 @@ Healthcare costs are a non-discretionary stress MULTIPLIER on CARL's consumer th
 | GLP-1 coverage retreat | 12% of non-covering firms stopped in past yr; BGH 14% by 2027; Cigna, Starbucks ending | KFF EHBS; BGH; press | Aug-Oct 2026 |
 | Care-deferral baseline corrected | 36% was 2025-vintage; 2026 = 28% (different survey) | KFF | 2026-10-23 |
 | Medicare GLP-1 Bridge | Jul-2026 → Dec-2027, $50 copay, ~$245 net | CMS/KFF | rel 2026-06-30 |
-| OBBBA Medicaid | Refugee/asylee loss Oct 1 2026; redeterminations from Dec 31 2026 | OBBBA | — |
+| OBBBA Medicaid | Refugee/asylee loss Oct 1 2026; work requirements national Jan 1 2027; Montana grace period ended Oct 1 (first state where loss can occur) | OBBBA; Stateline | — |
+| **[NEWS 10/28] Hospitals confirm the cliff** | HCA Q3: uninsured **10.5%** of equivalent admissions vs 8.5%; exchange admissions −19%; ~80% of uninsured growth = exchange drop-offs 1-for-1; ~$400M quarterly hit; ER +5.1%, surgeries down. UHS: exchange −17%, self-pay up similarly | HCA 8-K + call; UHS call | 2026-10-27/28 |
+| **[NEWS 10/28] Medical debt prevalence** | 26.6% of adults report family medical debt (Dec-2025 field); 52% owed to hospitals; 26% of insured | Urban Institute | 2026-10-06 |
+| **[NEWS 10/28] Charity debt relief scaling** | Illinois >$1.4B cumulative; MA $38M/70K (10/26); MI $21M (10/14). Confounds bureau collections data | State releases | Oct 2026 |
+| **[NEWS 10/28] GLP-1 retreat widening** | WTW: 16% of covering employers considering dropping (9% prior yr); 8% steer to cash. Novo ~50% Wegovy list cut Jan 1 2027 | WTW; CNBC | 2026-10-27/28 |
+| **[NEWS 10/28] Commercial cost trend** | UNH commercial benefit trend >11% (specialty drugs, No Surprises Act) | UNH Q3 call | 2026-10-13 |
 
 *Earlier findings (BEA Q1 NIPA, Mercer 2026 +6.7%, Cigna Q1 Rx cost, PBM strategy) live in `workbook/ML.tsv` ML-DOC-14..23.*
 
@@ -128,12 +133,14 @@ Top 40%: paycheck-deduction squeeze (+9% contribution vs +3.7% wages), 2027 +8�
 | DOC-P02 | KFF EHBS 2026 confirms 9-11% employer cost increase | 0% | Sep 2026 | **MISSED 10/28** | Premium +5%. Direction right, magnitude wrong: the push went to worker share (+9%) and to 2027. |
 | DOC-P03 | Medical CPI >4% at least once in 2026 | **3%** ↓ (was 30%) | Any 2026 print | WEAKENING | Sep 1.5%, drug-led decline. Resolves on Dec CPI (Jan 2027). |
 | DOC-P04 | Rural closures >200 since 2010 | 100% | — | CONFIRMED 8/10 | 206 (Chartis 2026). |
-| DOC-P05 | Care deferral approaches 40% | 0% | Q3 2026 | **MISSED 10/28** | KFF 28%, Gallup ~1 in 3. **Basis defect:** the 36% baseline was 2025-vintage. Gallup 2026 annual pending: if it prints ≥38%, record a late divergence; do not re-open. |
+| DOC-P05 | Care deferral approaches 40% | 0% | Q3 2026 | **MISSED 10/28** | KFF 28%, Gallup ~1 in 3 (2025). **Basis defect:** the 36% baseline was 2025-vintage. ⚠️ Instrument cell names Gallup-West Health only, and its 2026 annual is unpublished: if it prints ≥40%, reopen as a grading error. |
 | DOC-P06 | Medical debt in collections rises visibly H2 2026–H1 2027 | 75% | H1 2027 | STRENGTHENING | Provider bad debt +13% for; HHDC flat against. Q3 HHDC is the next test. |
-| DOC-P07 | Mid-size employers exclude GLP-1 for weight loss in 2027 design | 80% | Q4 2026 | ⚠️ **RESOLVABILITY DEFECT** | 82–84% of 200+ firms already excluded at registration, so the bar was met on day one. Re-scope or NO-VERDICT proposed to CARL. |
+| DOC-P07 | Mid-size employers exclude GLP-1 for weight loss in 2027 design | n/a | Q4 2026 | **NO-VERDICT-BY-INSTRUMENT 10/28** (CARL ruling) | 82–84% of 200+ firms already excluded at registration. A change-measure successor may be registered later. |
 | DOC-P08 | Healthcare #1 consumer financial worry through Nov 2026 | 80% | Nov 2026 | TRACKING | KFF: 62% worried; affordability top economic anxiety. Grade after Nov 3. |
-| DOC-P09 | OBBBA redeterminations → 2-5M losses H1 2027 | 70% | H1 2027 | TRACKING | Unchanged. |
+| DOC-P09 | OBBBA redeterminations → 2-5M losses H1 2027 | 70% | H1 2027 | TRACKING | Montana grace ended Oct 1 (first live test); Urban/RWJF 3–7M from work requirements by 2028. |
 | DOC-P10 | Q2-Q3 NIPA shows healthcare-services drag | 65% | **Q3 advance Thu Oct 29 08:30 ET** (corrected from Oct 30) | TRACKING — DUE TOMORROW | Pre-release expectation written 10/28 20:55 ET: health care slower than total services = TRUE; at or above average = MISSED; no line = NO-MEASUREMENT (grade on 2nd est). |
+| **DOC-P11** | KFF EHBS 2027: worker family-contribution growth exceeds wage growth by ≥3pp (successor to P02) | 55% | KFF EHBS Oct 2027 | OPEN (reg 10/28, Will-approved via CARL) | 2026 gap = 5.3pp (+9% vs +3.7%). |
+| **DOC-P12** | KFF Survey of Health Access 2027: skipped care for cost ≥31% (successor to P05, same instrument) | 35% | ~Oct 2027 | OPEN (reg 10/28, Will-approved via CARL) | 2026 = 28%. Wording change → NO-VERDICT-BY-INSTRUMENT. |
 
 *Canonical ledger: `workbook/PREDICTIONS.tsv`. CARL is system of record for CRL-* rows: DOC proposes, CARL disposes.*
 
@@ -148,9 +155,10 @@ Top 40%: paycheck-deduction squeeze (+9% contribution vs +3.7% wages), 2027 +8�
 | **Tue 2026-11-03** | Midterm elections | DOC-P08 grade window closes |
 | Early-mid Nov 2026 (date unconfirmed) | NY Fed HHDC Q3 2026 | Collections share + average (ML-DOC-29 re-test; DOC-P06) |
 | **Tue 2026-11-10** | Oct CPI | Medical care; hospital services |
-| Nov-Dec 2026 | Gallup-West Health 2026 annual (Jun-Aug field) | Late check on DOC-P05 |
+| Nov-Dec 2026 | Gallup-West Health 2026 annual (Jun-Aug field) | DOC-P05 instrument check (≥40% = reopen) |
+| Jan 2027 | HCA/UHS/Tenet Q4 calls | Uninsured share of admissions after 2027 OEP |
 | Year-end 2026 | Mercer/Marsh final 2027 survey | Confirms the +8.2% prelim |
-| **2026-12-31** | OBBBA Medicaid redeterminations + work requirements | DOC-P09 loader (NE/MT/IA already live per-state) |
+| **2026-12-31 / 2027-01-01** | OBBBA Medicaid redeterminations + national work requirements | DOC-P09 loader (NE/MT/IA already live per-state) |
 | Jan 2027 | CMS 2026 effectuated / 2027 OEP report | DOC-P01 resolution |
 
 ---
@@ -159,6 +167,7 @@ Top 40%: paycheck-deduction squeeze (+9% contribution vs +3.7% wages), 2027 +8�
 
 - SV-DOC-2026-06-08-01/02/03; SV-DOC-2026-07-10-01/02; SV-DOC-2026-08-10-01: prior sessions.
 - **SV-DOC-2026-10-28-01** [ORANGE]: real refresh after the 79-day gap. Two misses (P02, P05). Care-deferral baseline corrected. Coverage cliff measured (11.2%). Provider bad debt +13%. HHDC collections answer to CARL (no signal). P07 resolvability defect.
+- **SV-DOC-2026-10-28-02** [ORANGE]: news sweep. HCA uninsured share 10.5% vs 8.5%; Urban 26.6% medical debt; GLP-1 retreat (WTW 16%); P07 closed NO-VERDICT; P11/P12 registered; COST_DRIVER.tsv FROZEN.
 
 ---
 
@@ -182,4 +191,4 @@ Top 40%: paycheck-deduction squeeze (+9% contribution vs +3.7% wages), 2027 +8�
 
 ---
 
-*See workbook/ for the vector registry (VX), master log (ML-DOC-24..30 this session), predictions, cost drivers, coverage. FLOW.tsv FROZEN 2026-08-10.*
+*See workbook/ for the vector registry (VX), master log (ML-DOC-24..30 this session), predictions, cost drivers, coverage. FLOW.tsv FROZEN 2026-08-10; COST_DRIVER.tsv FROZEN 2026-10-28 (STATUS § COST DRIVERS is canonical).*
