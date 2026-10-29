@@ -22,6 +22,8 @@
 
 **13:4x ET addendum (owners' afternoon passes):** FALCON (`26f10b0fb`/`a83f18891`): QatarEnergy LNG force majeure extended to end-December (KB-FALCON-361/364; partial flows, ~a third of prewar Qatari LNG carriers transiting by end-September); Israel reportedly asked the US for permission to strike new Iranian energy facilities IF the campaign resumes — one Kan report, unnamed source, no US response (KB-FALCON-362/365); IRGC three-tanker mine claim still claim-only. OSPREY (`d84339d95`): EO 14436 (Oct 16) implements the Graham Act tariffs (+500% Russian goods; +100% on the top-5 buyers of Russian crude/gas) and WAIVES them in the same order (KB-OSPREY-234); Druzhba: no interruption reported after Tambov. HAWK read (KB-HAWK-482): the US sanctions leg is codified-but-waived — a live legal instrument with zero current collection, the same shape as the suspended China clocks. No change to the oil-risk read.
 
+**13:5x ET closeout addendum (FALCON `be9dfec7c`, KB-FALCON-366..369):** Egypt's parliament authorised support for Saudi defence on Oct 26 (defensive, not deployed; Houthis call it a declaration of war) — FALCON fifth-axis WATCH, and for HAWK a Suez/Bab chokepoint-book watch (Egypt as belligerent-adjacent to the Red Sea route). Houthi–government land clashes near Bab el-Mandeb (~97 killed). A third US carrier group reported. Qatar draft deal disputed, reply ~Oct 31. None is a strike on energy infrastructure or a measured flow loss.
+
 **No double-count:** preserve attacker/target dyad, molecule, asset and loading/departure/transit basis. IRGC mine claims, PGSA enforced vessels, Seoul Economic's seven tankers and FALCON's confirmed losses are separate populations.
 
 ---

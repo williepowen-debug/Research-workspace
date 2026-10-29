@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "recorded_at": "2026-10-29T17:42:26.407989+00:00",
+  "recorded_at": "2026-10-29T17:53:17.106911+00:00",
   "products": {
     "AGENTS/HAWK/domain/energy-strikes/CROSS_WAR_SUMMARY.md": {
-      "sha256": "b0e5caf941082f5d48a1f3d7f23037c0e1a8e0f25a72b5529c3f2b366c090913",
+      "sha256": "50d957f7920bba2937aaefa64224197e02ccbfcfec768ed5f12c710a3e9e1335",
       "inputs": {
         "AGENTS/OSPREY/domain/energy-strikes/STRIKES.tsv": "2e6b1bfeb4b2f6e178b0d168d81108a51ad9d8ca80c273e757538bad0eae6ae4",
         "AGENTS/FALCON/domain/energy-strikes/STRIKES.tsv": "56a079215ee4d8a3791a4aed83a2b2743931e3bae67eb77a82c12e04d1e3bb58",
@@ -11,7 +11,7 @@
         "AGENTS/FALCON/reports/2026-09-16_cross-war-oil-review.md": "2c461cbb97aaef8bf2a5b98ea859f111ecfed0a49cf222566dd53b250a377480",
         "AGENTS/FALCON/domain/vessel-incidents/VESSELS.tsv": "ae0fa02ad43ef6638aeec856186c92829950ec6b3bda817d554a56377f5c0eba",
         "AGENTS/OSPREY/NEXUS_BRIEF.md": "a6d795963e7d3ebfe5c8049e301d04fd5707de2bbb0b7b3ceda1120789400876",
-        "AGENTS/FALCON/NEXUS_BRIEF.md": "f075f7ee35babec79451916edac3fa2436d7fafcc6c311c73bc95a3cd9a76ab3"
+        "AGENTS/FALCON/NEXUS_BRIEF.md": "1958106a5b588ac60dd7ca43484e7ca857f2ca56391df0044321000da3f0d98b"
       }
     },
     "AGENTS/HAWK/domain/war-risk/CROSS_THEATER_WAR_RISK.md": {
@@ -20,7 +20,7 @@
         "AGENTS/OSPREY/workbook/WARRISK.tsv": "7c4396e27a6005d609c95fe47e48c057699397245e8382566393b3e2a2b63584",
         "AGENTS/FALCON/workbook/WARRISK.tsv": "5f1e02ba802f93b180f0fb17a86f372ba767f1ef2531b3a5fa031a4f40ad3ba0",
         "AGENTS/OSPREY/NEXUS_BRIEF.md": "a6d795963e7d3ebfe5c8049e301d04fd5707de2bbb0b7b3ceda1120789400876",
-        "AGENTS/FALCON/NEXUS_BRIEF.md": "f075f7ee35babec79451916edac3fa2436d7fafcc6c311c73bc95a3cd9a76ab3"
+        "AGENTS/FALCON/NEXUS_BRIEF.md": "1958106a5b588ac60dd7ca43484e7ca857f2ca56391df0044321000da3f0d98b"
       }
     }
   }
