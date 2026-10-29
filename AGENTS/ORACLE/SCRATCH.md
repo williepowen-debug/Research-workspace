@@ -39,7 +39,7 @@
 
 ## CARRY-FORWARD
 
-- **Push state (10/28):** commits 113bfb8b5 (ORACLE files) · d2711c1ce (→ PROME packet) · c07deecca (→ BRENT packet). safe-push receipt: `Pushed. CONFIRMED: HEAD c07deecca is on origin/master (fresh fetch).` This SCRATCH receipt edit is its own follow-up commit.
+- **Push state (10/28 final, 21:2x ET):** all ORACLE work pushed; last pre-closeout HEAD 0d769a634 on origin/master. Session commits: 113bfb8b5 · d2711c1ce · c07deecca · 5a0b4182a · review follow-ups + GATE/cadence packets · 07200516a (midterms) · routine + VX-ORC-12 · f9a497d95 (PROME/CATO packets) · 0d769a634 (Windows-trigger note). Windows wake trigger: NOT installed — Will 21:18 ET wants it in the Agent Launcher if anything (note in PROME/inbox).
 - **Concurrent sessions on this box:** PROME's untracked `PROME/reports/2026-10-28_wq515-batch1/` and WALTER's unpushed commit 74da61e47 were present at boot. Path-scoped commits only.
 - **Standing framing (do not re-derive):**
   - Fed: hiked 25bp 9/16 to 3.75–4.00% (KB-ORC-083); HELD 10/28 (KB-ORC-109). Venue-vs-futures only in expected bp at a matched time (KB-ORC-100).
