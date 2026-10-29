@@ -64,6 +64,15 @@ DOC_FLS_ONLY = ("<p>Item 8.01 Other Events. Our audit provider has discovered a 
 ED_ITEMS = {"hits": {"total": {"value": 2}, "hits": [
     {"_source": {"file_date": "2026-10-21", "items": ["5.02", "8.01", "9.01"], "display_names": ["Charter Text Corp"]}},
     {"_source": {"file_date": "2026-10-21", "items": ["1.05", "9.01"], "display_names": ["Real Incident Bank"]}}]}}
+def _rss(*items):
+    body = "".join(f"<item><title>{tt}</title><pubDate>{d}</pubDate></item>" for tt, d in items)
+    return f"<?xml version='1.0'?><rss><channel>{body}</channel></rss>"
+NEWS_OK = _rss(("Alkami Announces Third Quarter Results", "Tue, 20 Oct 2026 12:00:00 GMT"),
+               ("Jack Henry Cyberattack Compromises Client Data", "Tue, 01 Sep 2026 12:00:00 GMT"))
+NEWS_HIT = _rss(("Sharetec Outage Knocks Credit Unions Offline", "Wed, 21 Oct 2026 12:00:00 GMT"),
+                ("Fiserv earnings beat estimates", "Wed, 21 Oct 2026 12:00:00 GMT"),
+                ("Future story Jack Henry breach", "Fri, 30 Oct 2026 12:00:00 GMT"))
+NEWS_EMPTY = _rss()
 TODAY = "2026-10-22"   # the build date: seeded State_As_Of / Last_Checked cells are fresh on it
 
 
@@ -86,6 +95,8 @@ class BootDrills(unittest.TestCase):
                           ("ed_items", ED_ITEMS),
                           ("kev_seen", dict(KEV_OK, vulnerabilities=[{"cveID": "CVE-2026-114625", "dateAdded": "2026-10-23"}]))):
             (cls.fx / f"{name}.json").write_text(json.dumps(obj), encoding="utf-8")
+        for name, body in (("news_ok", NEWS_OK), ("news_hit", NEWS_HIT), ("news_empty", NEWS_EMPTY), ("news_bad", "<rss><oops")):
+            (cls.fx / f"{name}.xml").write_text(body, encoding="utf-8")
         cls.docs = cls.tmp / "docs"
         cls.docs.mkdir()
         (cls.docs / "boiler.htm").write_text(DOC_BOILER, encoding="utf-8")
@@ -120,10 +131,11 @@ class BootDrills(unittest.TestCase):
     def run_boot(self, d, env=None, args=(), today=TODAY):
         e = {k: v for k, v in os.environ.items()
              if k not in ("CYPHER_BOOT_TODAY", "CYPHER_KEV_FILE", "CYPHER_EDGAR_FILE", "CYPHER_EDGAR801_FILE",
-                          "CYPHER_EDGAR801_DOCDIR")}
+                          "CYPHER_EDGAR801_DOCDIR", "CYPHER_NEWS_FILE")}
         e.update({"CYPHER_KEV_FILE": str(self.fx / "kev_ok.json"),
                   "CYPHER_EDGAR_FILE": str(self.fx / "ed_ok.json"),
-                  "CYPHER_EDGAR801_FILE": str(self.fx / "e801_ok.json")})
+                  "CYPHER_EDGAR801_FILE": str(self.fx / "e801_ok.json"),
+                  "CYPHER_NEWS_FILE": str(self.fx / "news_ok.xml")})
         if today:
             e["CYPHER_BOOT_TODAY"] = today
         e.update(env or {})
@@ -299,7 +311,7 @@ class BootDrills(unittest.TestCase):
 
     def test_offline_reports_skipped_legs(self):
         self.assertBoot(self.clean_copy(), 1, "KEV key(s)", "NOT RUN (--offline): 8-K Item 1.05",
-                        "NOT RUN (--offline): 8-K Item 8.01", args=("--offline",))
+                        "NOT RUN (--offline): 8-K Item 8.01", "NOT RUN (--offline): bank-vendor news", args=("--offline",))
 
     # ---- EDGAR 8.01 cyber (leg 9) ---------------------------------------------------------
     def test_801_clean(self):
@@ -328,6 +340,21 @@ class BootDrills(unittest.TestCase):
     def test_801_fetch_fail(self):
         self.assertBoot(self.clean_copy(), 2, "8-K 8.01 cyber: fetch/parse FAILED",
                         env={"CYPHER_EDGAR801_FILE": "/nonexistent.json"})
+
+    # ---- bank-vendor news (leg 10) --------------------------------------------------------
+    def test_news_clean_old_and_body_only_not_listed(self):
+        self.assertBoot(self.clean_copy(), 0, "✓ no bank-vendor incident headline since", "1 matched only in the article body")
+
+    def test_news_headline_hit_listed_body_and_future_not(self):
+        out = self.assertBoot(self.clean_copy(), 1, "bank-vendor news 2026-10-21: Sharetec Outage Knocks Credit Unions Offline",
+                              env={"CYPHER_NEWS_FILE": str(self.fx / "news_hit.xml")})
+        self.assertNotIn("Fiserv earnings", out)          # vendor in headline but no incident word: body-only match, counted not listed
+        self.assertIn("1 matched only in the article body", out)
+        self.assertNotIn("Future story", out)              # dated after TODAY
+
+    def test_news_empty_and_broken_are_fail(self):
+        self.assertBoot(self.clean_copy(), 2, "bank-vendor news: 0 items", env={"CYPHER_NEWS_FILE": str(self.fx / "news_empty.xml")})
+        self.assertBoot(self.clean_copy(), 2, "bank-vendor news: fetch/parse FAILED", env={"CYPHER_NEWS_FILE": str(self.fx / "news_bad.xml")})
 
     # ---- escalation watch ----------------------------------------------------------------
     def test_watch_stale(self):

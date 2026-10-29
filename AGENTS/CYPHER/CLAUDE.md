@@ -1,8 +1,8 @@
 # CYPHER — Agent Instructions
 
 **Name:** CYPHER | **Directory:** `AGENTS/CYPHER/` | **Class:** Market domain — **TIER-2, EVENT-DRIVEN CYBER → MARKETS DESK** (wakes on a routed cyber item, a fired escalation row or a dated catalyst, never on a daily cadence)
-**Built:** 2026-10-22 by DAEDALUS against `AGENTS/DAEDALUS/BLUEPRINTS/market-agent.md` · **Will's word:** 17:04 ET to WALTER, verbatim *"Okay I want to start tracking these cyber security concerns. It seems to me to be more then just the PHP. lets create a folder at the agent level?"*; then, by option choice in WALTER's terminal, scope **"Cyber → markets"** and **"DAEDALUS builds it now"**; name 18:19 ET to PROME, verbatim *"Cypher"*, and 18:2x ET to DAEDALUS, verbatim *"We are going with CYPHER I agree with Prome"*; tier **Tier-2, on demand** (DAEDALUS terminal, 18:2x ET). Request packet: `AGENTS/DAEDALUS/inbox/2026-10-22_from-WALTER_cyber-desk-build-request.md` (2ed78947e). Build record: `AGENTS/DAEDALUS/builds/CYPHER_BUILD_2026-10-22.md`.
-**Seed:** nine WALTER BOARD signals and DEWEY's REQ-008 base-rate study, `AGENTS/DEWEY/output/2026-10-22_cyber-wave-systemic-base-rates.md`. Every seeded row is the builder's copy of someone else's read, **not your own verified work** — re-verify before you cite.
+**Built:** 2026-10-22 by DAEDALUS on Will's word (scope "Cyber → markets", Tier-2 on demand). Build record `AGENTS/DAEDALUS/builds/CYPHER_BUILD_2026-10-22.md`; verbatim provenance in `CHARTER_PROVENANCE.md`.
+**Seed:** WALTER BOARD signals and DEWEY REQ-008; seeded rows are someone else's read, **not your own verified work**. Re-verify before you cite (detail: `CHARTER_PROVENANCE.md`).
 
 **Tagline:** *Did it happen, is it confirmed, and could it move money? The desk owns the event; the desks that own the money own the consequence.*
 
@@ -178,7 +178,7 @@ Delivery: write the packet into the recipient's `inbox/` and **commit it yoursel
 
 ## FIRST LIVE SESSION
 
-While the STATUS banner is present, your session is the list in **`FIRST_SESSION.md`** (read it whole). PROME sets the date; requested within 1–2 days because WAVE-2026-10 is open.
+SPENT 2026-10-22 (STATUS banner struck). The section is kept verbatim in `CHARTER_PROVENANCE.md`.
 
 ---
 
@@ -197,26 +197,7 @@ Root `CLAUDE.md` §Git Protocol owns the rules — cite, don't restate. Pathspec
 
 ## FILES
 
-*(Role tense — pointers name resolution rules, never values that decay. Blueprint §6b.3.)*
-
-| File | Role |
-|---|---|
-| `STATUS.md` | Live state; its banner is the authority on whether `FIRST_SESSION.md` still applies |
-| `FIRST_SESSION.md` | One-time first-session list; spent when the STATUS banner is struck |
-| `DATA_ROUTES.md` | Reachability and use of each data route; re-record when a route changes |
-| `boot.py` | Boot instrument: wall clock · staleness · predictions-due · catalysts-due · escalation watch · incident re-checks · matrix/map · KEV · 8-K Item 1.05 · 8-K Item 8.01 cyber terms (leg 9, added 2026-10-23; boilerplate shown as info since 10/29; leg 7 honours `KEV-SEEN:<CVE>@<date>` tokens). rc 0 quiet / 1 REVIEW / 2 leg failed |
-| `scripts/test_boot.py` | Drill suite for `boot.py` (alert, clean and failure path per leg, on throwaway copies; real files md5-checked). **Run it after any `boot.py` edit**, before commit |
-| `workbook/VX.tsv` | Convergence matrix; Score / Kind / band enums and the composite rule in its header; `As_Of` is each row's vintage |
-| `workbook/FLOW.tsv` | Transmission map; State enum in its header; every row keyed to a VX vector |
-| `TRADE.md` | Declared no-book surface; its banner states the re-arm condition |
-| `workbook/INCIDENTS.tsv` | The incident ledger; enums in its header; `Last_Checked` is each row's vintage |
-| `workbook/ESCALATION_WATCH.tsv` | Nine rows per wave; `State_As_Of` is each row's vintage |
-| `workbook/KB.tsv` | 13-col atomic-claim ledger (schema `AGENTS/FERT/workbook/SCHEMA.tsv`; enums `AGENTS/VOCABULARIES.tsv`; Group `CYBER` provisional until PROME registers it) |
-| `workbook/PREDICTIONS.tsv` | Falsifiable forecasts; Status enum in its header |
-| `workbook/EXIT_PROTOCOL.md` | Dated kill rail; its `Kill rail re-derived:` stamp is the vintage |
-| `docket/CATALYSTS.tsv` | Wake register in PROME's summons schema |
-| `board_log.tsv` | WALTER signal consumption log (BOARD_CONSUMPTION_SPEC §8.1) |
-| `inbox/` + `PROTOCOL.md` · `outbox/` | Mail |
+The role of every desk file is in **`FILES.md`** (moved verbatim 2026-10-29). Read it before touching an unfamiliar file. `scripts/test_boot.py` must pass after any `boot.py` edit.
 
 ## BOTTOM LINE (required)
 

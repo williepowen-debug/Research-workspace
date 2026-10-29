@@ -41,6 +41,13 @@ Legs:
      2026-07-01..10-29: 16 of 16 real incidents alert, incl. SR Bancorp, whose cyber terms sit only in
      its forward-looking paragraph (AGENTS/CYPHER/research/2026-10-29_wave-recheck/BOOT_LEG9_CALIBRATION.md).
 
+  10. bank-vendor news — Google News RSS search over the chokepoint suppliers' names AND incident
+     terms (cyberattack, breach, outage, ransomware, cybersecurity incident), last 30 days as the positive
+     control (0 items = the query is broken, never quiet); items published inside LOOKBACK_DAYS are listed
+     for the owner to read. Covers the press-release-only class that EDGAR legs 8/9 cannot see (Jack
+     Henry 2026-08-31 had no 8-K). Headlines are LEADS, never confirmation (charter guardrail 3).
+     Added 2026-10-29 (Will 13:56 ET).
+
 Combined exit (CHECK_STANDARD §9): 0 quiet · 1 REVIEW · 2 a leg FAILED / cannot certify.
 Flags: --offline skips legs 7-8 and says so (rc 1 — a skipped control is reported, never a pass).
 Tests: AGENTS/CYPHER/scripts/test_boot.py (throwaway copies; real files md5-checked unchanged).
@@ -50,9 +57,11 @@ Drill hooks (never set in a real boot; the header says when they are set):
   CYPHER_EDGAR_FILE=<json>      read the EDGAR search response from a file instead of efts.sec.gov
   CYPHER_EDGAR801_FILE=<json>   same, for leg 9 (one response serves both the control and the recent pull)
   CYPHER_EDGAR801_DOCDIR=<dir>  leg 9 reads each hit's document from <dir>/<file name> instead of sec.gov
+  CYPHER_NEWS_FILE=<rss>        leg 10 reads the RSS feed from a file instead of news.google.com
 """
 
 import csv
+import email.utils
 import html
 import json
 import os
@@ -99,6 +108,16 @@ INCIDENT_DOC_RE = re.compile(
     r"previously disclosed (cybersecurity |cyber )?incident", re.I)
 BOILER_WINDOW = 300
 SEC_ARCHIVE = "https://www.sec.gov/Archives/edgar/data"
+# Leg 10: chokepoint suppliers (CHOKEPOINTS.tsv CORE / DIGITAL-BANKING / CU-VENDOR / MSP-RMM / payment middleware
+# rows) x incident terms. Edit this list when the map gains a bank-facing supplier.
+NEWS_URL = "https://news.google.com/rss/search"
+BANK_VENDORS = ['"Jack Henry"', 'Fiserv', '"FIS Global"', '"Computer Services Inc"', 'Corelation', '"Q2 Holdings"',
+                'Alkami', 'Candescent', 'Finastra', 'TruStage', '"Marquis Software"', 'Sharetec', 'Finzly',
+                '"N-central"', 'ConnectWise', 'Kaseya', 'Sefas', 'SitusAMC', '"core processor"']
+NEWS_TERMS = '(cyberattack OR breach OR outage OR "cybersecurity incident" OR ransomware)'
+NEWS_CONTROL_DAYS = 30
+NEWS_TITLE_INCIDENT_RE = re.compile(r"cyber|breach|outage|ransomware|hack|incident|attack|offline|disrupt|extortion|compromis", re.I)
+NEWS_TITLE_VENDOR_RE = re.compile("|".join(re.escape(v.strip('"')) for v in BANK_VENDORS), re.I)
 USER_AGENT = "CYPHER-Research williepowen@gmail.com"   # SEC requires a contact; fleet form (REGINALD)
 TIMEOUT = 25
 
@@ -548,15 +567,63 @@ def edgar_801():
     return 0, [f"  ✓ no 8.01 cyber-term 8-K since {recent_from}; control population {total} in {CONTROL_DAYS}d", tail]
 
 
+def bank_vendor_news():
+    if OFFLINE:
+        return 1, ["  ⚠️ NOT RUN (--offline): bank-vendor news sweep unchecked — a skipped control is not a pass"]
+    query = f"({' OR '.join(BANK_VENDORS)}) {NEWS_TERMS} when:{NEWS_CONTROL_DAYS}d"
+    path = os.environ.get("CYPHER_NEWS_FILE")
+    try:
+        if path:
+            raw, src = Path(path).read_text(encoding="utf-8"), f"DRILL FILE {path}"
+        else:
+            full = NEWS_URL + "?" + urllib.parse.urlencode({"q": query, "hl": "en-US", "gl": "US", "ceid": "US:en"})
+            req = urllib.request.Request(full, headers={"User-Agent": "Mozilla/5.0 (CYPHER boot leg 10)"})
+            with urllib.request.urlopen(req, timeout=TIMEOUT) as resp:
+                raw = resp.read().decode("utf-8", errors="ignore")
+            src = "LIVE news.google.com/rss/search"
+        import xml.etree.ElementTree as ET
+        items = ET.fromstring(raw).findall(".//item")
+    except Exception as e:  # noqa: BLE001
+        return 2, [f"  🔴 bank-vendor news: fetch/parse FAILED ({type(e).__name__}: {e}) — cannot certify; "
+                   f"do NOT read as 'no stories'. Search trade press by hand"]
+    if not items:
+        return 2, [f"  🔴 bank-vendor news: 0 items in {NEWS_CONTROL_DAYS}d — the positive-control population is empty, so "
+                   f"the QUERY is likely broken (build check found 89 on 2026-10-29). Do NOT read as quiet"]
+    recent_from = TODAY - timedelta(days=LOOKBACK_DAYS)
+    recent, seen, body_only = [], set(), 0
+    for it in items:
+        title = (it.findtext("title") or "?").strip()
+        if not (NEWS_TITLE_VENDOR_RE.search(title) and NEWS_TITLE_INCIDENT_RE.search(title)):
+            body_only += 1          # the search matched the article body, not the headline: counted, not listed
+            continue
+        try:
+            when = email.utils.parsedate_to_datetime(it.findtext("pubDate") or "").date()
+        except (TypeError, ValueError):
+            when = None
+        if when is None:
+            recent.append((date.min, f"  ⚠️ bank-vendor news (undated): {title[:110]} — read it"))
+        elif recent_from <= when <= TODAY and title not in seen:
+            seen.add(title)
+            recent.append((when, f"  ⚠️ bank-vendor news {when}: {title[:110]} — LEAD: confirm at the vendor or victim, then match CHOKEPOINTS"))
+    recent.sort(reverse=True)
+    out = [line for _, line in recent]
+    tail = (f"  ({len(items)} item(s) in {NEWS_CONTROL_DAYS}d for {len(BANK_VENDORS)} supplier names x incident terms; "
+            f"{body_only} matched only in the article body (not listed); headline matches listed since "
+            f"{recent_from}; source {src}. Headlines are leads, never confirmation)")
+    if out:
+        return 1, out + [tail]
+    return 0, [f"  ✓ no bank-vendor incident headline since {recent_from}; control population {len(items)} in {NEWS_CONTROL_DAYS}d", tail]
+
+
 def main():
     print("=" * 74)
     print(f"  ⏰ WALL CLOCK: {datetime.now().strftime('%Y-%m-%d %H:%M %A')} — never hand-write a time; copy this line")
     if _DRILL:
         print(f"  🧪 DRILL CLOCK: date legs evaluate as of {TODAY} (CYPHER_BOOT_TODAY) — NOT a real boot")
-    for v in ("CYPHER_KEV_FILE", "CYPHER_EDGAR_FILE", "CYPHER_EDGAR801_FILE"):
+    for v in ("CYPHER_KEV_FILE", "CYPHER_EDGAR_FILE", "CYPHER_EDGAR801_FILE", "CYPHER_NEWS_FILE"):
         if os.environ.get(v):
             print(f"  🧪 DRILL FILE: {v}={os.environ[v]} — NOT a real boot")
-    print("  CYPHER BOOT — staleness · predictions · catalysts · watch · incidents · matrix/map · KEV · 8-K 1.05 · 8-K 8.01")
+    print("  CYPHER BOOT — staleness · predictions · catalysts · watch · incidents · matrix/map · KEV · 8-K 1.05 · 8-K 8.01 · bank-vendor news")
     print("=" * 74)
     rcs = []
     print("\n--- 1. ledger staleness (workbook + TRADE.md) ---")
@@ -572,7 +639,8 @@ def main():
                       ("6. convergence matrix + transmission map (scores · tokens · orphans)", matrix_and_flow),
                       ("7. CISA KEV (watched CVEs on live rows)", kev),
                       ("8. SEC 8-K Item 1.05 (material cyber incidents)", edgar_105),
-                      ("9. SEC 8-K Item 8.01 cyber terms (NON-material disclosures)", edgar_801)):
+                      ("9. SEC 8-K Item 8.01 cyber terms (NON-material disclosures)", edgar_801),
+                      ("10. bank-vendor news (press-release-only incidents EDGAR cannot see)", bank_vendor_news)):
         print(f"\n--- {title} ---")
         rc, lines = fn()
         print("\n".join(lines))

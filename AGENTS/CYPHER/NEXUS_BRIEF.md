@@ -2,7 +2,7 @@
 
 **Status:** 🟠 One wave trigger FIRED (CISA KEV, 10/26). An unnamed successful compromise is now reported; no named financial victim.
 **Domain:** Cyber event evidence, classification and escalation; consequence owners retain all money judgments.
-**As of:** 2026-10-29 13:54 EDT | STATUS commit: `f1d07f46c64c28de97b3fdabadf4532d4dde548c`
+**As of:** 2026-10-29 14:01 EDT | STATUS commit: `f1d07f46c64c28de97b3fdabadf4532d4dde548c`
 **POSITION:** N/A — declared no-book surface; no trade execution or new capital approval.
 
 ## CROSS-DOMAIN
@@ -30,7 +30,7 @@
 
 ## VIEW
 
-- The MSP route into banks has carried real traffic: an August 2026 N-able N-central flaw, with NYDFS stating impact on "a limited number" of regulated firms (CYB-INC-051). Bank-supplier incidents run at about one a month in 2026 (KB-CYP-076). None is wave-rooted.
+- The MSP route into banks has carried real traffic: an August 2026 N-able N-central flaw (NYDFS 8/11 alert: compromised MSPs used to move into customers' networks; impact on "a limited number" of regulated firms per a NYDFS spokesperson, not the letter) (CYB-INC-051). Bank-supplier incidents run at about one a month in 2026 (KB-CYP-076). None is wave-rooted.
 
 - DEWEY's 10/29 rerun agrees row by row: still Log4Shell-like on outcomes, one step toward MOVEit on a single unnamed vendor claim; a KEV listing does not separate the shapes (KB-CYP-071/072). Fortinet's -20.9% is earnings, not the wave.
 

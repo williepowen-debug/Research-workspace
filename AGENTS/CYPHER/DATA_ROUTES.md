@@ -54,3 +54,7 @@
 | ConnectWise trust advisories (`connectwise.com/company/trust/advisories`) | REACHABLE but ~188k characters; WebFetch reads ~100k per call | The newest update is at the top; use `offset` to read on before claiming an absence lower down |
 | Park24 notices (`park24.co.jp`) | Site search returned only news; the issuer notice was not found (10/29) | Carry Jiji / ScanNetSecurity figures as SECONDARY |
 | New York Post (`nypost.com`, carries Reuters) | WebFetch blocked; curl with a browser User-Agent returns the full body (10/29) | Use curl, strip tags, quote from the body |
+| Google News RSS (`news.google.com/rss/search?q=...`) | REACHABLE by urllib/curl (10/29); `when:30d` operator works; ~60-90 items per 30 days for the supplier query, most matching only in the body | boot.py leg 10; a headline is a LEAD, never confirmation |
+| NYDFS industry letters | 2026 letters use `/industry-guidance/industry-letters/` (hyphens), older ones underscores; WebFetch works, curl 403 | Read via WebFetch |
+| CA AG breach list (`oag.ca.gov/privacy/databreach/list`) | curl with a browser UA works; detail page `.../reports/sb24-NNNNNN` links the notice PDF; PDFs need venv pdfminer | Primary for US breach-notice letters |
+| Jack Henry IR (`ir.jackhenry.com`) | 403 to WebFetch and curl | Read the release via its PR Newswire syndication (e.g. finviz.com/news/...) |

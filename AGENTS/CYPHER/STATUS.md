@@ -66,7 +66,7 @@
 - **Central Bank of India** (CYB-INC-049): ~$1.7M moved via 187 unauthorized transfers through payment messaging 10/15-17. Non-US, NO OWNER, off-wave.
 - **Sharetec** (CYB-INC-050, CHK-36): 9/15 cooling failure took 23 credit unions offline for days. An accident, but the multi-institution shape row 8 watches for.
 - **Print/mail vendors** (CHK-37): Citizens/Frost and Citi customer data in 2026 came through them.
-- **Second pass (bank software, 13:32 ET):** **the MSP route has carried traffic.** An N-able N-central flaw (MSP remote-management tool) was exploited from 7/31, and NYDFS said it was "aware of impact to a limited number of covered entities" (CYB-INC-051, CHK-38). A small NY bank closed its branches about a week citing a vendor flaw (052; the N-central link is unconfirmed). The 10/23 read "little observed traffic" (KB-CYP-020) is revised. Also: Citizens' new CA AG notice, breach 9/10 (053); Sefas named behind Frost's April data (CHK-37); SitusAMC (CHK-39). Base rate ~1 bank-supplier incident a month, 3 in August (KB-CYP-076).
+- **Second pass (bank software, 13:32 ET):** **the MSP route has carried traffic.** An N-able N-central flaw (MSP remote-management tool) was exploited from 7/31, NYDFS warned on 8/11 that attackers use compromised MSPs to move into their customers' networks; a NYDFS spokesperson told American Banker it was "aware of impact to a limited number of covered entities" (CYB-INC-051, CHK-38). A small NY bank closed its branches about a week citing a vendor flaw (052; the N-central link is unconfirmed). The 10/23 read "little observed traffic" (KB-CYP-020) is revised. Also: Citizens' new CA AG notice, breach 9/10 (053); Sefas named behind Frost's April data (CHK-37); SitusAMC (CHK-39). Base rate ~1 bank-supplier incident a month, 3 in August (KB-CYP-076).
 - **Standing watch (Will 13:29 ET, "keep an eye out for bank issues like that"):** bank-vendor and payment-plumbing cluster watch, weekly from 11/05. Escalates on 2+ new confirmed incidents at distinct core, CU-vendor or payment-messaging suppliers within 30 days, or one multi-institution processing outage of 1 business day or more (catalyst row; WALTER asked to route matching stories).
 - Nothing new on PHP2Shell victims, file-transfer products, Fiserv/FIS/Broadridge, insurers or election-week warnings. Packets: WALTER, REGINALD, LIQUID, GIBBS, PROME.
 
@@ -93,12 +93,16 @@
 
 ## Known gaps carried
 
-- **Fixed 2026-10-29 (Will 12:31 ET), drills 33/33** (3 rotted drills repaired; 4 added; mutation-checked):
-  - **Leg 5** now flags a blank or unparsable Last_Checked on ANY live incident row, not only REPORTED/ATTEMPTS-ONLY ones.
-  - **Leg 7** stays quiet on listings the owner has marked `KEV-SEEN:<CVE>@<dateAdded>` in Watch_Keys (007, 014, 027 marked). It re-alerts if the date changes.
-  - **Leg 8** shows hits without Item 1.05 in their EDGAR items as info only (the AASP audit charter).
-  - **Leg 9** reads each hit's document and shows boilerplate as info only. Calibration: `research/2026-10-29_wave-recheck/BOOT_LEG9_CALIBRATION.md` (16 of 16 real incidents still alert, including SR Bancorp, which a simpler rule missed).
-- Row 8 lesson: a re-check must search trade press (American Banker, Banking Dive, CU Today) for "offline"/"precaution", not only operator pages.
+- **Fixed 2026-10-29** (Will 12:31 and 13:56 ET). Drills 36/36; mutation-checked.
+  - **Leg 5:** a live incident row with no date now alerts.
+  - **Leg 7:** listings already marked handled (`KEV-SEEN`) are quiet.
+  - **Leg 8:** hits not filed under Item 1.05 are info only.
+  - **Leg 9:** boilerplate filings are info only (16 of 16 real incidents still alert; `research/2026-10-29_wave-recheck/BOOT_LEG9_CALIBRATION.md`).
+  - **Leg 10, new:** bank-vendor news. Google News headlines naming a chokepoint supplier and an incident word; covers press-release-only disclosures like Jack Henry's. Replaying the 9/3 feed, it catches Jack Henry and Sharetec.
+- **Originals read 10/29.** Jack Henry's full release (PR Newswire copy), now CONFIRMED. The NYDFS 8/11 N-central letter: ⚠️ the "limited number of covered entities" line is a spokesperson quote, not in the letter. The Citizens 9/10 notice: no vendor, no count. A third N-central flaw was added to CISA's list 9/8.
+- **Charter rotated** to 67% of budget: build history to `CHARTER_PROVENANCE.md`, file guide to `FILES.md`, both verbatim.
+- **Not fixable by CYPHER:** MCP servers mtnewswire and definite return "endpoint not found" (server side); Prisma timed out. CYPHER does not depend on any of them.
+- **Search lesson:** a re-check of row 8 must search trade press (American Banker, Banking Dive, CU Times) for "offline"/"precaution", not only operator pages.
 
 ## Dated next
 
