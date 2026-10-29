@@ -93,7 +93,7 @@ Do **not** treat these as current analytical truth:
 
 - ~~`AGENTS/CREED/inbox/2026-02-24_signals.md`~~ — removed 6/28 (triaged → `research/INBOX_TRIAGE_2026-06-21.md`; content in THESIS). Live inbox is `inbox/WALTER/`.
 - `AGENTS/REGINALD/archive/sub-agents/CREED/` — legacy REGINALD sub-agent tree / source archive (moved from `sub-agents/CREED/` by REGINALD 2026-08-13, `a7bae0d06`; path corrected here 2026-10-22)
-- `AGENTS/REITS/` — dormant public-REIT source archive; live REIT tape now belongs to CREED
+- ~~`AGENTS/REITS/`~~ — the dormant public-REIT source archive was **deleted 2026-06-30** (`fbf2569af`; recoverable from git history only). The live REIT tape belongs to CREED (`VX-7.01`, `scripts/s8a_relative.py`)
 
 The legacy tree is useful for mechanism libraries, old source trails, and tracker design. It is not a live dashboard.
 

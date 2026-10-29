@@ -1,5 +1,5 @@
 # CREED News Sweep — RESULTS
-**Date:** 2026-08-13 · **Window:** 2026-07-27 → 2026-08-13 · **Plan:** `2026-08-13_NEWS_SWEEP_PLAN.md`
+**Date:** 2026-08-13 · **Window:** 2026-07-27 → 2026-08-13 · **Plan:** `archive/2026-08-13_NEWS_SWEEP_PLAN.md` (retired 2026-10-28, >60 days, referenced only from here)
 
 **Summary: 10 threads investigated / 2 MEANINGFUL / 0 routed cross-domain / 2 LEADS.** Nothing threshold/band-touching resolved — see §4.
 

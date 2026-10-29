@@ -13,16 +13,16 @@
 | Date | Event | CREED action |
 |---|---|---|
 | **2026-09-29** (Tue) 1:30 pm | Plaza Continental Ch.11 hearing (C.D. Cal. Bankr. 8:26-bk-10986) | ✅ Read 9/29: **UNKNOWN.** A party's caption alone does not establish ownership; RETAINED/SOLD only on a document explicitly tying that party to this lien (Will 9/29). Re-check free copies ~9/30–10/2 |
-| **2026-09-29** (Tue) | ARI liquidation vote (8-K Item 5.07) | ✅ **DONE 9/29 — APPROVED; `PRED-CREED-005` graded HIT** (8-K acc 0001193125-26-407837). Distribution not yet declared. First distribution ~$3.70–4.00 = ~60% ex-date drop = return of capital, NOT a market move — separate the mechanical adjustment when grading |
+| **2026-09-29** (Tue) | ARI liquidation vote (8-K Item 5.07) | ✅ **DONE 9/29 — APPROVED; `PRED-CREED-005` graded HIT** (8-K acc 0001193125-26-407837). 🆕 **Declared 10/9: $4.10 initial liquidating distribution, paid 10/29, ex 10/30 (return of capital); last NYSE day 11/6** (SECONDARY, KB-086). First distribution ~$3.70–4.00 = ~60% ex-date drop = return of capital, NOT a market move — separate the mechanical adjustment when grading |
 | ~~**~wk of 2026-09-28**~~ | MBA Q2-26 CM/MF debt outstanding | ✅ **GRADED 2026-09-29:** `006` RESOLVED-FALSE (life +$7,830M < +$10.0B; Brier 0.09) · `010` RESOLVED-PARTIAL, not scored (Will) |
 | ~~**~2026-10-01**~~ | Trepp September DQ | ✅ **GRADED 2026-10-21** (PREREG_2026-10 §6): office 12.16 = `T-01a` leg 1 of 2 |
 | ~~**~mid-Oct 2026**~~ | Trepp September SS | ✅ **GRADED 2026-10-21**: office SS 16.85, `T-01b` not fired |
-| **2026-10-28** (Wed) 11:00 am | **450 5th St NW (Washington DC) substitute trustee's auction** — DOCKET **L723** | Grade below `research/2026-10-21_L723_450-FIFTH-NW_PREREAD.md` §5 (CASE-CREED-139); moves no band |
+| ~~**2026-10-28** (Wed) 11:00 am~~ ✅ **GRADED 10/28: outcome A — lender took title (WBJ headline, SECONDARY); bid amount unread, no price** | **450 5th St NW (Washington DC) substitute trustee's auction** — DOCKET **L723** | Grade below `research/2026-10-21_L723_450-FIFTH-NW_PREREAD.md` §5 (CASE-CREED-139); moves no band |
 | **~early Nov 2026** | **Trepp October DQ — decides `CREED-T-01a`** (leg 2 needs ≥ 12.01) + `PRED-CREED-001` (Kernel-pinned) | ✅ PREREG written 2026-10-22: `registry/PREREG_2026-11_TREPP_PRINT.md`; grade below its §6; grade at Table 2, 2dp |
 | **after the Trepp October DQ (~early Nov)** | **Build the ABS-EE office lease-before-maturity screen** (Will-approved 2026-10-22 17:30 ET; scope `research/2026-10-22_ABS-EE_LEASE_SCREEN_SCOPE.md`) | ~3–5 h; positive control vs Trepp's LA figures first |
 | **2026-11-12** (Thu) | Illinois Center (Chicago) sheriff foreclosure sale (CASE-CREED-153) | Calendar lead; verify continuance before treating as a clearing event |
-| **~mid/late Oct 2026** | Q3 bank earnings (FLG, EGBN, OZK, VLY) | Property/metro read into REGINALD's bank cohort; the VLY MF-DPD location/type (WQ-311 open unknown) |
-| **~early Nov 2026** | mREIT Q3 results / Q4 dividends | `CREED-T-08b` needs cohort-wide erosion |
+| **~mid/late Oct 2026** | Q3 bank earnings (FLG, EGBN, OZK, VLY) | 🟠 **PARTLY READ (sweep 10/28):** OZK received via the OZK desk (KB-073); FLG received as WALTER SIG-W-20261023-005 (REGINALD-owned, no CREED row). **EGBN and VLY not read by CREED**; the VLY MF-DPD location/type (WQ-311) stays an open unknown — read REGINALD's Q3 notes before any property/metro claim |
+| **10/29 → ~11/7** | mREIT Q3 results / Q4 dividends — **4 of 11 in by 10/28** (KB-086); BXMT 10/29, NREF ~11/5, STWD + ACRE 11/6, RC/GPMT undated | `CREED-T-08b` needs cohort-wide erosion; re-grade when the census completes |
 
 ## ~~Awaiting Will~~ — RULED 2026-09-28 (Will, verbatim *"Approve WQ-303 at 4 and WQ-304 option B"*)
 - ✅ **S8a score → 4** (composite 25 → 27/45). Encoded 9/28.

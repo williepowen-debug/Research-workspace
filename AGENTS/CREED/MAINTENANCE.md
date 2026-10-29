@@ -11,6 +11,12 @@ Reverse-chronological log of **structural** changes to CREED's docs, folders, sc
 
 ---
 
+## 2026-10-28 — sweep: one research file retired, two owed-out asks closed, deferred #7 closed (Will: *"please do a sweep for anything old, stale, broken, incomplete, owed, etc."*)
+- `research/2026-08-13_NEWS_SWEEP_PLAN.md` → `archive/` (root data-hygiene retirement rule: >60 days, not boot-read, referenced only by its RESULTS sibling, re-pointed in the same commit).
+- SCRATCH "owed out" (DAEDALUS SEC-UA helper, PROME MACHINE_LOCAL SEC-UA row) CLOSED unsent: a working declared-UA pattern exists (DEWEY `edgar_fetch.py`).
+- SCRATCH deferred #7 (evals decontamination) removed: done by the 10/22 v2 rebuild.
+- Lesson re-learned (trap #8, n+1): CREED's own 10/28 STATUS edit refreshed the header and three rows and left the FIRE-IN-FORCE line, BOTTOM LINE ③④⑤ and the catch-up pointer on 10/21 state. Caught by the sweep, not by `creed_selfcheck` (file-level by construction). Full list: `catchups/2026-10-28.md` §⑧.
+
 ## 2026-10-22 (evening) — `VX-8.01` gets an aggregate metric; a pension route; ABS-EE scheduled (Will: *"okay go ahead now"*, 17:30 ET)
 
 - **`VX-CREED-8.01` metric definition:** now the FDIC bank CRE modifications series (RSNRES + P3/P9/NARSNRES, nonfarm-nonres), June/December prints only, post-ASU-2022-02 basis. Data file `research/data/2026-10-22_fdic_restructured_nfnr_series.tsv` (62 quarters). History rows added (7, half-yearly, CANONICAL). No band (Will-gated; n=12 at Dec-2028).

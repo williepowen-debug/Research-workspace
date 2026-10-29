@@ -24,7 +24,7 @@ Pins are ROW-scoped (Sitting 2): `PRED-CREED-001/004/007`. **004 and 007 were GR
 7. ✅ DONE 10/28: DEWEY two reports integrated (KB-075/076) · COR-20261022-27 receipted · DAEDALUS WQ-508 lines accepted.
 
 ## ⚖️ AWAITING WILL — 0 (all four 10/22 units settled the same day)
-**Will 17:22** *"Lets move on from it"* → Trepp form PARKED (premise corrected). **Will 17:30** *"okay go ahead now"* on CREED's suggestion → **RSNRES ADOPTED** as `VX-8.01` (paired series, no band; `KB-074`) · **ABS-EE: build AFTER the October print** (CALENDAR) · **pension route ADDED** (CLAUDE.md Route Matrix, info-only → SHADE + PROME; `_NETWORK.md` is PROME's to reflect). Rulings packet: `PROME/inbox/2026-10-22_from-CREED_WQ494-rulings.md`. *(Standing offer, not decided: de-date the CLAUDE.md Current Rails S8a line into a pointer to `VX-CREED-7.01`.)*
+**Will 17:22** *"Lets move on from it"* → Trepp form PARKED (premise corrected). **Will 17:30** *"okay go ahead now"* on CREED's suggestion → **RSNRES ADOPTED** as `VX-8.01` (paired series, no band; `KB-074`) · **ABS-EE: build AFTER the October print** (CALENDAR) · **pension route ADDED** (CLAUDE.md Route Matrix, info-only → SHADE + PROME; `_NETWORK.md` is PROME's to reflect). Rulings packet: `PROME/inbox/processed/2026-10-22_from-CREED_WQ494-rulings.md` (consumed by PROME). *(Standing offer, not decided: de-date the CLAUDE.md Current Rails S8a line into a pointer to `VX-CREED-7.01`.)*
 **Wording (Will 9/30):** say *"broad CRE-to-bank transmission is not confirmed,"* never *"stress hasn't shown up at banks."*
 
 ## ✅ REFI-SCREEN FOLLOW-UP — DONE except Will's two calls (2026-10-22)
@@ -81,7 +81,6 @@ Will's 005 CRE leg (`8c5ffcfb3`, published as SIG-W-20261022-015) · sweep six f
 | 1 | **FOLLOW-THE-POINTER check** (partial) | `threshold_scan` flags a named vector that does not exist, but not a pointer to the WRONG vector or a source that lacks the value. DAEDALUS n=68: ~70% of desk rows have no pointer at all, so this chases a rare failure. |
 | 4 | **DERIVED-VECTOR check** (`Last_Updated ≥ max(inputs)`) | PROME routed the general form to DAEDALUS; coordinate, don't duplicate. `VX-3.05` inherits the gap. |
 | 5 | **PROMISED-REFERENT check** | A surface naming an artifact that does not exist (PROME's 9/29 dead-pointer scan is the manual version). |
-| 7 | **Evals decontamination — STILL UNOWNED** | Traps name ARI/MBA/Trepp/HOMER verbatim, so the VOID rule kills any session applying them. `evals/results.tsv` is now FROZEN (9/29) pending an owner. **Name an owner or it orphans.** |
 | 8 | **Evaluate-and-date the non-scannable triggers** | `T-04`/`T-06`/`T-06b` swept 8/27; **`T-05`/`T-07`/`T-08b` never swept** (T-08b graded 9/26 but not swept). |
 | 9 | **`VX_HISTORY` staleness coverage** | Exempt fleet-wide by the "history" rule. Check ③ now enforces its shape, not its freshness. |
 | 11 | **Cross-desk register vintage audit** | REGINALD's 8/20 ask; `REG-T-07` closed, the rest unaudited. |
@@ -95,12 +94,11 @@ Will's 005 CRE leg (`8c5ffcfb3`, published as SIG-W-20261022-015) · sweep six f
 | 27 | **3000 Post Oak loss basis** (`KB-CREED-046`, `CASE-CREED-001`) | $80M senior → $11.4M net; the vulnerability map's "$64.8M trust loss" is unsourced. Read a servicer remittance report before citing either. |
 | 29 | 🆕 **`cases/` residual flags (88 items, 44 cases)** | Value-mark bases, loss bases, vocab gaps (e.g. receivership). Owed before anyone quotes a value or loss from the ledger. |
 
-*Closed and removed 9/29: #3 band-vs-value predicate (built as check ③) · #15 SCHEMA two-clock header · #22/#23/#28 read-cap items.*
+*Closed and removed 10/28 (sweep): #7 evals decontamination — DONE by the 10/22 v2 rebuild (contamination rule v2, 4/4 PASS; CREED owns it, `evals/README.md` §v2).* *Closed and removed 9/29: #3 band-vs-value predicate (built as check ③) · #15 SCHEMA two-clock header · #22/#23/#28 read-cap items.*
 
 ## 📬 MAIL STATE (10/28; canonical record `board_log.tsv`)
 - **In:** drained 45/45 (DEWEY v2, DAEDALUS WQ-508, 43 WALTER incl. the 10/27 Trepp/Bisnow batch) → `inbox/processed/` + `inbox/WALTER/processed/`. Inbox empty.
 - **Out (10/28):** none. No CREED signal FIRED, so no route is owed.
 
-## 🔵 OWED OUT, NOT YET DONE
-1. **DAEDALUS: the shared SEC-UA fetch-helper** (carried). The 8/27 `.env` location claim needs re-checking: the 9/26 research agent found no `.env` at repo root and used `AGENTS/DEWEY/scripts/edgar_fetch.py`'s declared UA.
-2. **PROME: `MACHINE_LOCAL.md` row** for the SEC UA (flag, don't edit).
+## 🔵 OWED OUT — none open
+*Closed 2026-10-28 (sweep), never sent in two months:* the DAEDALUS shared SEC-UA fetch-helper and the PROME `MACHINE_LOCAL.md` SEC-UA row. **Why closed, not sent:** a working declared-contact UA pattern already exists (`AGENTS/DEWEY/scripts/edgar_fetch.py`: "Research NAME email"), and CREED's 9/26 and 10/28 helpers fetched EDGAR with it without failure. Re-open only on an actual SEC block.
