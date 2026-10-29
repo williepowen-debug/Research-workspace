@@ -776,6 +776,15 @@
       "token": "Schedule O",
       "anchor": "WAL-01\t2026-04-24\tWAL Office classified loans exceed $500M by end of Q3 2026\t25%\tQ2-Q3 2026\t2026-11-15\tOPEN\t\t2026-10-19 Stage1 INVALIDATED (PROVISIONAL): EX99.2 slide 13 Office 25% x classified 1091M=",
       "disposition": "Dated history in the WAL-01 Notes cell: the 2026-08-07 finding that 'Q3 10-Q Schedule O' was VOID (Schedule O is a Call Report schedule) and the 2026-08-20 record of that cite being struck under Will's 8/12 ruling. Not a live claim; identity changed only because the 10/19 Stage-1 note and the 10/22 spacing cleanup edited the same line. Reviewed 2026-10-28; a NEW Schedule O assertion elsewhere is still a finding."
+    },
+    {
+      "identity": "3fe5ee58d4f29f640fa386acc55e4f1b8c4d8c194baa228e98f60eaf767c1784",
+      "kind": "retired",
+      "path": "workbook/KB.tsv",
+      "line_at_review": 77,
+      "token": "100% deficiency rate on allowance",
+      "anchor": "KB-WAL-072\t2026-03-27\tFRAUD_AUDITOR\tRSM_ACL_Deficiency\tRSM had 100% deficiency rate on allowance-for-credit-loss reviews (2 of 2 audits reviewed in PCAOB 2024 inspection). Failed to: independently tes",
+      "disposition": "KB-WAL-072's own Fact cell: the row was SUPERSEDED 2026-10-28 for exactly this misread (Notes carry the correction). History in a superseded row, not a live claim. A NEW assertion of the 100% ACL figure anywhere else is still a finding."
     }
   ],
   "dated_reviews": [
@@ -788,6 +797,11 @@
       "date": "2026-10-28",
       "identity": "de79e893d1665310d7c8888e7e9f2b96dd4f7580abaaff8d62c98b463ba3c63f",
       "reason": "Two multiplicity entries added (WAL-01 Schedule O void/strike history). review_by re-dated 2026-10-19 -> 2026-11-09: the Q3 10-Q grade will edit PREDICTIONS.tsv again and re-key this row; re-review then. The 10 cleared identities from the 10/22 cleanup are left in place (harmless: compare_history counts only new-over-baseline)."
+    },
+    {
+      "date": "2026-10-28",
+      "identity": "KB-WAL-072 retired-pattern hit",
+      "reason": "1 entry added: RETIRED_CLAIMS gained the ACL-100%, Nevada 18-22% and NDFI $1.54T patterns the same day; KB-041/069 hits are excused by their SUPERSEDED marker, AUDITOR_NEXUS by its inline CORRECTED marker, KB-072's long Fact cell is not, so it is baselined. review_by unchanged (2026-11-09)."
     }
   ]
 }

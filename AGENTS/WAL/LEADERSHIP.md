@@ -76,7 +76,7 @@ Committee assignments after 6/10 (Kuras's Audit seat, the new Technology & Cyber
 
 ## Auditor — RSM US LLP
 
-Re-ratified for FY2026 (above). Tenure (since 1994), PCAOB inspection history and the "Issuer B" inference are under separate re-verification (KB-071–077 review, 10/28); the analysis lives in `FRAUD/AUDITOR_NEXUS.md` and `FRAUD/AUDIT_COMMITTEE.md` (bannered records).
+Re-ratified for FY2026 (above); auditor since 1994 (FY25 10-K). Re-verified 10/28 (KB-071–077 review): the March "100% ACL deficiency" figure misread the PCAOB table (ACL 2 reviewed / 0 deficient in 2024, KB-072); "Issuer B = WAL" is unsupported because First Interstate was also an RSM bank client through FY2023 (KB-071). RSM's 2025 inspection: 3 of 17 audits deficient, ACL 3 / 0 (KB-268). Against that, RSM's 2020 quality-control Part II, made public 3/2026, records 38% of audited directors and managers missing required financial-relationship reports (2019, firm-wide; KB-269). FY25 10-K: unqualified opinions, two CAMs (ACL qualitative adjustments, MSR valuation). The March analysis lives in `FRAUD/AUDITOR_NEXUS.md` and `FRAUD/AUDIT_COMMITTEE.md` (bannered records, rider 10/28).
 
 ## Open questions (10/28)
 

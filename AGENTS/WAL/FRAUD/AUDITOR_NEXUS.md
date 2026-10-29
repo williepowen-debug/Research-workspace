@@ -1,5 +1,6 @@
 # WAL Auditor & Gatekeeper Nexus — Complete Findings
 > 📼 **PRE-PRINT RECORD (vintage 2026-03-27; bannered 2026-09-24).** Historical; superseded by the Q1/Q2 10-Q primaries. Do not cite as current: the "three vectors" were two credits (First Brands/Point Bonita = the LAM charge-off, KB-WAL-135/-186; Tricolor exposure never evidenced); the "30% reserve unchanged" became a $26.1M Q1-26 charge-off with $3.5M allowance left (KB-WAL-143/-148); "Issuer B = WAL" is an unconfirmed inference (KB-WAL-071). The failure mode the filings actually name is collateral **perfection** ("lapses in UCC filings", KB-WAL-144), which is not an auditor-verification failure. Live: `STUPIN_CRE.md` / `FIRST_BRANDS.md` §FOLD 2026-09-24.
+> **Rider 2026-10-28 (KB re-verification):** the "100% ACL fail rate" below misreads the PCAOB table (ACL 2 reviewed / 0 deficient in 2024; the 2/2 was long-lived assets — KB-WAL-072 SUPERSEDED). "Issuer B = WAL" is now unsupported, not just unconfirmed: First Interstate BancSystem was also an RSM bank client through FY2023 (KB-WAL-071). Newer: RSM's 2025 inspection 3 of 17 deficient, ACL 3 / 0 (KB-WAL-268); RSM's 2020 quality-control Part II made public 3/2026 (KB-WAL-269); RSM re-ratified for FY2026 (KB-WAL-264).
 **Created:** 2026-03-27
 **Sources:** PCAOB inspection reports, SEC enforcement actions, EDGAR filings, Gotham City Research (Jan 28 2026)
 
@@ -50,7 +51,7 @@ RSM audited a financial institution that purchased collateralized loans at a dis
 
 ### Allowance for Credit Losses (ACL)
 
-PCAOB reviewed ACL in **2 RSM audits** in 2024. **Both had deficiencies.** 100% fail rate on the specific procedure that determines whether WAL's 30% reserve on Stupin (vs ZION's 83% charge-off) is adequate.
+⚠️ *CORRECTED 2026-10-28 — misread: the PCAOB table shows ACL 2 reviewed / 0 with Part I.A deficiencies; the "2 / 2" is the adjacent long-lived-assets row (KB-WAL-072). Original March text, preserved:* PCAOB reviewed ACL in **2 RSM audits** in 2024. **Both had deficiencies.** 100% fail rate on the specific procedure that determines whether WAL's 30% reserve on Stupin (vs ZION's 83% charge-off) is adequate.
 
 ### SEC Enforcement History
 
