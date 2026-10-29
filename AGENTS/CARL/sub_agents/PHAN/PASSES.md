@@ -8,6 +8,34 @@
 
 ---
 
+## 2026-10-28 closeout rebuild (Will-approved: "You have my approval to write PHAN close out and update")
+
+- **Why:** a fleet comparison (background survey, spot-checked at DOC:134/:151, HANS `scripts/closeout_check.py`, BOND `monitors/closeout_run.py`, META:51/58) ranked PHAN's closeout 8th of 9. Gaps: orphan/claim/ledger-staleness/consumer checks absent from the checklist; no NOT RUN rule; push rule out of line with DOC/STUE (Will-launched pushes, CARL-spawned commits only); no automation; no consistency check; no rotation trigger; no docket confirmation; signals not routed to WALTER.
+- **Built:** `CLOSEOUT.md` (WRITE → RUN → COMMIT → PUSH → POST → REPORT, 13 steps; DOC/STUE template + HANS runner rules) and `scripts/closeout_check.py`. **Mechanical, pre-commit:**
+  - dossier cap + 85% rotation trigger
+  - TSV columns + line endings
+  - two-clock headers
+  - inbox re-scan
+  - next docket row
+  - claim_check, orphan_check, ledger_staleness (PHAN glob)
+  - CARL consistency_check Check E
+  - fleet read_cap_check (flags the wrong-file defect as LOOK)
+  - optional consumer_check (`--superseded`) and memory checks (`--memory-slug`)
+
+  `--post` proves nothing PHAN-authored is uncommitted or unpushed. It lists 10 judgement steps it cannot verify.
+- **Falsified before trusting it:** fed a scratch workbook with a wrong-width row, a mixed-ending CRLF file and a renamed clock header; plus a missing script, a traceback that exits 1, and an rc=0 tool without its completion line. **All five tripped.** First real run: 11/11 executed, 0 failed, 2 LOOK (rotation trigger at 97%; read_cap wrong file). **Dogfooding on its own commit then caught a runner bug the falsification set missed:** the shared `run()` helper `.strip()`s output, eating the leading space of git's FIRST porcelain line, so the alphabetically-first dirty PHAN file (`CLAUDE.md`) was invisible. In `--post` that reads an uncommitted file as clean. Fixed by parsing git's raw output. `[[finding_test_the_guard_not_just_the_guarded]]`: the synthetic tests exercised the checks, not the helper they share.
+- **Dossier:** §8 closeout steps 4–12 replaced by a pointer (BOOT 1–3 kept; READS rows sent to PROME still match); footer provenance and one §8.1 history sentence rotated here verbatim. **31,550 → 27,287 B (97% → 83.8%)**, under the new 85% trigger. `CLAUDE.md` banner re-pointed; OWED git-step row updated.
+
+---
+
+## Dossier provenance (rotated verbatim from `DOSSIER.md` footer, 2026-10-28 closeout rebuild)
+
+*PHAN dossier assembled 2026-07-10 by MOLD (DAEDALUS editor), from PHAN's Apr-2026 frozen surfaces. Transcription-with-provenance — no new analysis. Legacy identity surfaces (CLAUDE.md, STATUS.md) frozen same day; COCKROACH.tsv + REGULATORY.tsv stay live. Provenance and refutations per DAEDALUS audit `upgrades/CARL_SUBAGENT_AUDIT_2026-07-10.md`. Predictions dispositioned + FLOW numbering reconciled 2026-07-10 (§9).*
+
+*(Also rotated: §8.1 note that appending a dated section to DOSSIER.md pushed it to 126% of cap on 2026-09-11.)*
+
+---
+
 ## 2026-10-28 CLOSEOUT record (session: boot → PM news sweep → file sweep → workbook refresh)
 
 | §8 step / root obligation | Result |

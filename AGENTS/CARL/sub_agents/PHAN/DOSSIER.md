@@ -62,7 +62,7 @@
 | **P07: does a county DA suit count toward 5 states?** | **CARL** | 2026-10-28 | 📤 packet sent |
 | **BNPL late-rate basis: LendingTree 47% vs Fed SHED 26%** | **CARL** | 2026-10-28 | 📤 packet sent |
 | **FLOW-PHAN-06 → re-instrument onto NCO growth?** | **CARL** | 2026-09-11 | ⏳ CARL at the ~11/12 gate |
-| **Sub-agent closeout git step** | **CARL** | 2026-09-11 | ⏳ partial: STUE + DOC have it; GIG, POLLY, POP, META and `SPAWN_PROTOCOL.md` do not |
+| **Sub-agent closeout git step** | **CARL** | 2026-09-11 | ⏳ partial: STUE, DOC, PHAN (`CLOSEOUT.md` + runner, 10/28) have it; GIG, POLLY, POP, META, `SPAWN_PROTOCOL.md` do not. Shared runner for all 7: not yet proposed |
 | **PHAN rows in `PROME/registry/READS.tsv`** (read-cap check grades frozen `STATUS.md`, not this file) | **PROME** | 2026-10-28 | 📤 packet sent |
 
 *Closed rows (§2 rebuild, closeout rebuild, ABS leg 2, routing rule adopted by CARL 9/11, read-cap script now runs) → `PASSES.md` '2026-10-28 file sweep'.*
@@ -139,7 +139,7 @@ The step *invisible → visibility → sudden adverse repricing* (FLOW-PHAN-01/-
 
 *The **2026-07-10 verdict table** (Apr→7/10 confidences + each row's dispositioning basis) moved to **`PASSES.md`** on 2026-09-11 under the read-cap remedy — grep it there. Current marks are the 9/10 re-mark table below, as amended by the 9/11 P03 move.*
 
-> **⚠️ RE-MARKED 2026-09-10 (2nd ad-hoc pass, live data). Confidence moved on six of seven rows; NONE resolved here — CARL disposes (§8.4). Ledger of record `workbook/PREDICTIONS.tsv` carries the full dated notes.**
+> **⚠️ RE-MARKED 2026-09-10 (2nd ad-hoc pass, live data). Confidence moved on six of seven rows; NONE resolved here — CARL disposes (`CLOSEOUT.md` step 3). Ledger of record `workbook/PREDICTIONS.tsv` carries the full dated notes.**
 >
 > | # | 7/10 | **9/10** | One-line basis |
 > |---|---|---|---|
@@ -190,11 +190,9 @@ Three workbook TSVs are **LIVE append surfaces**: COCKROACH and REGULATORY (DAED
 
 *Moved 2026-09-11 (read-cap). Source table + catalyst cadence live there. **Next catalyst: Affirm FQ1-27 + Klarna Q3-26, ~2026-11-05 to 11-20.***
 
-## 8. Refresh protocol — BOOT and CLOSEOUT. **This is PHAN's only live protocol.**
+## 8. Refresh protocol — BOOT here; CLOSEOUT in **`CLOSEOUT.md`**
 
-> ⛔ **`CLAUDE.md` §"On Session End" is SUPERSEDED (2026-09-11).** Its step 1 points at the frozen `STATUS.md`; its step 2 routes to a `SHARED/` directory that does not exist; and it has **no git step at all**, so a session following it commits nothing and reaches nobody. Use this section. *(The defect is not PHAN-specific — all seven CARL sub-agents share the same skeleton. Routed to CARL 2026-09-11.)*
->
-> **⚠️ Run the CLOSEOUT half at EVERY session end, not just end-of-day** (`[[feedback_intra_day_closeout_discipline]]`). **2026-09-11 ran five passes in one day**; an intermediate pass that skips write-back hands the next one a stale header over newer content.
+> ⛔ **`CLAUDE.md` §"On Session Start" and §"On Session End" are SUPERSEDED** (frozen file; see its banner). **Boot = the three steps below. Closeout = `CLOSEOUT.md`**, with its runner `scripts/closeout_check.py` (both 2026-10-28, Will-approved; they replace this section's old steps 4–12, now in git history). **Run closeout at EVERY session end, including intermediate passes.**
 
 ### BOOT
 
@@ -202,39 +200,20 @@ Three workbook TSVs are **LIVE append surfaces**: COCKROACH and REGULATORY (DAED
 2. **Step-0 inbox scan** — `find inbox -maxdepth 2 -name "*.md" -not -path "*/processed/*" -not -name "README.md"`. Anything present is UNPROCESSED by definition. *(⚠️ The `-not -name "README.md"` matters — `inbox/README.md` is permanent, and without it every scan reports 1 packet and the count stops meaning anything. Caught by running this step against itself, 2026-09-11.)* ⛔ **Use the lane-descending form, never `ls inbox/*.md`** — `inbox/` has sub-lanes (`inbox/WALTER/`), and the flat glob silently excludes a whole live lane. **⚠️ AGE IS A FINDING:** PHAN may go a quarter between sessions, so a packet can sit for weeks while *looking* delivered. **Older than ~30d ⇒ telling the sender outranks actioning the packet.**
 3. **`FRAMEWORKS.md`** when working a framework · **`PASSES.md`** by grep for a specific dated pass. Neither is a boot whole-read.
 
-### CLOSEOUT — write-back
+### CLOSEOUT → **`CLOSEOUT.md`**
 
-4. **Append new events to the live TSVs only** — `workbook/COCKROACH.tsv`, `workbook/REGULATORY.tsv`; new metric readings to `workbook/PROVIDER.tsv` as a NEW row, prefixing the superseded row's Notes. Advance BOTH clocks in the two-clock header, and **record an explicit `DID_NOT_APPEAR` null when a sweep found nothing** — a stale DATA clock is otherwise ambiguous between "no events" and "nobody looked." Do not revive the frozen TSVs.
-5. **Update the as-of stamps** in the CURRENT STATE block, §3 (thresholds) and §6 (superseded). ⛔ **Update CURRENT STATE IN PLACE — do not append a new section to this file** (read cap; §8.1).
-6. **Resolve predictions at CARL, NOT here.** PHAN re-marks confidence and recommends; **CARL disposes.** §4 stays ⚠ UNRESOLVED until CARL records it.
-7. **Route findings to CARL** — an **outbox packet** at `outbox/<date>_PHAN-to-CARL_<subject>.md` **AND** a delivery copy into `AGENTS/CARL/inbox/` (root carve-out ①: a packet you authored into another agent's inbox is yours to commit **and you must**). ⛔ **NOT `../SHARED/`, which does not exist.** ⚠️ **A packet CARL has not graded is not a delivered finding** — say so in the report rather than implying it landed. *(SV files in `state_vectors/` and `outbox/` are historical; new routing is this step.)*
-8. **Inbox RE-scan** — repeat step 2. **The boot scan is a SNAPSHOT**: packets landing mid-session are invisible for the rest of it and nothing re-checks. Advisory, never blocking. *(Pattern borrowed from TERRY and REGINALD, both of which added it after being bitten.)* File consumed packets with **`git mv`** to `inbox/processed/`, never bash `mv`. Anything deliberately not actioned gets a dated **PARKED** note.
-9. **Update the 📌 OWED block** — close what you did, add what you or CARL now owe. **This is the step that would have caught the 42-day §2 miss.**
-10. **Read-cap check** — ⚠️ `read_cap_check.py --agent PHAN` runs but grades the **frozen `STATUS.md`**, never this file (no PHAN rows in `PROME/registry/READS.tsv`; rows sent to PROME 2026-10-28). Its clean verdict says nothing about the dossier. Check locally:
-    ```
-    for f in DOSSIER.md FRAMEWORKS.md PASSES.md; do
-      printf "%-16s %6s B %s\n" "$f" "$(stat -c%s $f)" \
-        "$([ $(stat -c%s $f) -le 32550 ] && echo OK || echo '⛔ OVER 32,550')"; done
-    ```
-    **Only `DOSSIER.md` is a whole-read and therefore capped**; `FRAMEWORKS.md` (read-when-working) and `PASSES.md` (grep) carry no cap claim — measured anyway so drift is visible. **Over cap ⇒ rotate to `PASSES.md`, never delete.**
-11. **Git — the step `CLAUDE.md` never had.** All ops from repo root (`cd "$(git rev-parse --show-toplevel)"`).
-    - **Modified:** `git commit AGENTS/CARL/sub_agents/PHAN/<file> -m "PHAN: <subject>"` — path-scoped, no separate staging.
-    - **New:** `git add <specific files> && git commit <same specific files> -F /tmp/msg.txt` — explicit paths, **never** `git add` a directory.
-    - ⛔ **Never `git reset HEAD`** (shared index — global unstage) and **never `git commit --amend`**.
-    - ⛔ **Never a pathspec-less commit** — it sweeps whatever another session has staged. *(Live on 2026-09-11: PROME had a file staged while PHAN committed.)*
-    - **Subject ≤100 chars**; receipts and figures go in the body (heredoc to a file).
-    - **Push:** `bash scripts/safe-push.sh`. ✅ **The receipt is the line `Pushed. CONFIRMED: HEAD <sha> is on origin/master (fresh fetch).`** — a log tail or a bare `Pushed.` is **not** a receipt. Non-ff ⇒ `git pull --rebase --autostash` after the dirty-path overlap check; **never force**.
-12. **Auto-memory** (only if a transferable lesson was earned) — write/extend under `memory/auto/`, then `python3 scripts/memory_index_check.py --strict --slug <name>` and **self-commit the file** (root carve-out ③ makes this mandatory: an index row pointing at an uncommitted file is worse than no memory).
+WRITE (ledgers, CURRENT STATE, OWED, predictions, routing, inbox, docket, PASSES) → RUN `python3 AGENTS/CARL/sub_agents/PHAN/scripts/closeout_check.py` → COMMIT (explicit paths) → PUSH by session type → `--post` → REPORT (findings · checks run/not run/failed · commit vs verified push).
 
 ### 8.1 Where things live — keep `DOSSIER.md` under the cap
 
 | File | Role | Read mode |
 |---|---|---|
-| **`DOSSIER.md`** | CURRENT STATE · OWED · thresholds · predictions mirror · superseded · this protocol | **whole read — capped 32,550 B** |
+| **`DOSSIER.md`** | CURRENT STATE · OWED · thresholds · predictions mirror · superseded · boot protocol | **whole read — capped 32,550 B** |
+| **`CLOSEOUT.md`** + `scripts/closeout_check.py` | the closeout contract and its runner | read at closeout |
 | **`FRAMEWORKS.md`** | the durable analytical assets (rebuilt §2) | read when working a framework |
 | **`PASSES.md`** | dated pass narratives, newest first | **grep only** |
 
-**Write each pass narrative to `PASSES.md`; update CURRENT STATE in place here.** Appending a dated section to this file is what pushed it to **126% of cap** on 2026-09-11.
+**Write each pass narrative to `PASSES.md`; update CURRENT STATE in place here.**
 
 ---
 
@@ -244,4 +223,4 @@ Three workbook TSVs are **LIVE append surfaces**: COCKROACH and REGULATORY (DAED
 
 ---
 
-*PHAN dossier assembled 2026-07-10 by MOLD (DAEDALUS editor), from PHAN's Apr-2026 frozen surfaces. Transcription-with-provenance — no new analysis. Legacy identity surfaces (CLAUDE.md, STATUS.md) frozen same day; COCKROACH.tsv + REGULATORY.tsv stay live. Provenance and refutations per DAEDALUS audit `upgrades/CARL_SUBAGENT_AUDIT_2026-07-10.md`. Predictions dispositioned + FLOW numbering reconciled 2026-07-10 (§9).*
+*Assembly provenance (2026-07-10, MOLD/DAEDALUS) → `PASSES.md` "Dossier provenance".*
