@@ -1,5 +1,10 @@
 # SHADE SCRATCH — restart handoff
 
+## L781 / L784 / drain — 2026-10-29T07:43:20-04:00 (PROME spawn prome-92, Claude Code, Opus 5.5; closed early at PROME's closeout ask)
+
+**Done:** charter Key Ratios #2/#4 encoded (CLAUDE.md L34–L48, L50–L54; verbatim letter `instruments/KEY_RATIOS_2_4_ADOPTED_LETTER.md`, diff check VERBATIM-OK). DLIC FY25 #2 first reading NOT RED (CEILING 28.6844%, rests on L1). SHADE-R/T v1: DLIC 321.9%/1.62%, AAIA 2,460.4%/4,452.3%. L784 cell → CORAL inbox. CYPHER boundary confirmed. Inbox 15+17 → 0 (board_log +32, `consume:SHADE`). COR-20261022-27/-48 NO-OP receipted. REFERENCE §5 AEL→Brookfield $580.3M verified at the Iowa exam. Record `research/L781_RATIO_ENCODE_AND_FIRST_READINGS_2026-10-29.md`.
+**NOT done (carry):** PROME to rule whether letter §5 (no-double-count) stays (packet said §1–§4); AAIA Key Ratio #2 reading not run (not asked); DC-ABS CUSIP match vs parsed Schedule D (new task, not started); MEMORY rotation (98%) and the rest of the 10/23 owed list (PREDICTIONS.tsv, falsifier, ARI DEFM14A, SVO count) still owed; `T-SHADE-01` not re-assessed. Raw AAIA PDF + parses were in session scratch only (re-fetch: ir.athene.com statutory page, sha256 in the research file).
+
 ## Catch-up wave 1 — 2026-10-21T22:16:31-04:00 (PROME spawn prome-56, Claude Code, Opus 5.5)
 
 **Authority:** Will 2026-10-21 21:56 ET catch-up instruction via PROME (`PROME/plans/2026-10-21_agent-catchup-PLAN.md`), Tier 1 inside the approved L726/L727 workstream. $0, no trade, no threshold or score moved.

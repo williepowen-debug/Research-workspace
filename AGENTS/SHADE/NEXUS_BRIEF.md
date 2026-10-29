@@ -2,7 +2,7 @@
 
 **Status:** 🟠 Structural/latent insurer-wrapper stress; evidence remains partial.
 **Domain:** PE-owned insurer assets, statutory capital, reinsurance and funding transmission.
-**As of:** 2026-10-21T22:16:59-04:00 | **STATUS commit:** same commit as this fold (catch-up wave 1: L726/L727 proposals, inbox 5→0, PROME spawn prome-56)
+**As of:** 2026-10-29T07:43:20-04:00 | **STATUS commit:** same commit as this fold (L781 encode + first readings, L784 cell, inbox 32→0, PROME spawn prome-92)
 **Fold:** LAST canonical write after the final STATUS write of this session (schema Amendment 10). No grade, score or threshold changed this session.
 
 | To | Signal | Priority | Mechanism / boundary |
@@ -27,3 +27,5 @@
 **Prior accepted edition:** `git show 4a34a8922:AGENTS/SHADE/NEXUS_BRIEF.md`, historical. Closeout changes handoff/storage/lifecycle metadata, not research judgments or dates.
 
 **2026-10-21 catch-up (PROME spawn prome-56):** L726 and L727 definitions delivered as proposals for Will's ruling via PROME; nothing computed or graded under them yet. Inbox 5 → 0 (WQ-364 ruling recorded: bloc opacity claim WITHDRAWN, AARe Note 14 gap survives). `T-SHADE-01` not re-assessed since its 10/15 NOT MET — a dated reading. HY 331 [10/16] (>320 ×3) is LIQUID's/RED's/REGINALD's instrument, not a SHADE trigger. WQ-422 Clear Spring documents are Will's hands; not chased. Earlier machine-switch/closeout notes → `git show 5f0abbbbc:AGENTS/SHADE/NEXUS_BRIEF.md`.
+
+**2026-10-29 (prome-92):** Key Ratios #2/#4 now Will-ruled letter in the charter. DLIC FY25 illiquidity NOT RED (FLOOR 9.75%, CEILING 28.68%; rests on the L1 agency category rule — INDETERMINATE without it). SHADE-R v1 DLIC 321.9% / AAIA 2,460.4%; SHADE-T v1 DLIC 1.62% / AAIA 4,452.3% (AAIA cessions to AARe mostly funds-withheld). Diagnostics only, no band, never TSR. FHCF/Citizens bonds $0 at both insurers (CORAL L784). No score or threshold moved; composite 20/30. Record `research/L781_RATIO_ENCODE_AND_FIRST_READINGS_2026-10-29.md`.

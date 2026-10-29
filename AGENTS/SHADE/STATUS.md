@@ -1,6 +1,6 @@
 # SHADE STATUS
 
-**Last Updated:** 2026-10-21T22:16:48-04:00 — PROME spawn prome-56 (catch-up wave 1, Claude Code/Opus 5.5): **L726 illiquidity criterion + unknown rule and L727 TSR method DELIVERED as proposals** (`research/L726_ILLIQUIDITY_BASIS_2026-10-21.md`, `research/L727_TSR_METHOD_2026-10-21.md`); inbox drained 4→0; WQ-364 ruling recorded. No grade, threshold or score changed. Prior: 10/15 L673 grade NOT MET.
+**Last Updated:** 2026-10-29T07:42:51-04:00 — PROME spawn prome-92 (Claude Code/Opus 5.5): **L781 DONE — charter Key Ratios #2/#4 encoded to the Will-ruled letter (WQ-473 A / WQ-474 A); DLIC FY25 illiquidity first reading NOT RED (CEILING 28.68%, rests on L1); SHADE-R/T v1 computed DLIC + AAIA; L784 cell to CORAL; inbox 32→0.** No threshold or score changed. Prior: 10/21 L726/L727 proposals.
 **Prior sessions:** 10/10 L0 drain; 10/1 W1/ARI; 8/28 Delaware Life pause. Historical chain → `archive/STATUS_PRE-ROTATION_2026-10-01.md` (32,462 B, crc32 `8f171d07`, `tail -n +5`) / `archive/STATUS_PRE-ROTATION_2026-08-28.md`.
 
 **Signal Status:** 🟠 **STRUCTURAL / LATENT INSURER-WRAPPER STRESS, ONE vector FIRING (single-name Delaware Life).** **`T-SHADE-01` first prospective grade (10/15, endpoint 10/14 close) = ❌ NOT MET:** 9/24→10/14 RAW wrappers −5.44% vs managers −6.20%, managers fell more; no dig. 10/10 owner fire stays PROVISIONAL, unconfirmed. HY 316 [10/13] (LIQUID: 13 >280), 325 [10/14] read. SHADE tests how insurers absorb, hide, finance or amplify fund stress; no cohort cascade proven.
@@ -21,6 +21,10 @@
 ⛔ **Standing rules:** the session delta lives in `research/`; STATUS carries the verdict and live rails only · never raise the budget · rotate verbatim + crc-verify (**the 10/1 banner was written with the wrong offset and the crc caught it — same 15-B defect as 8/28; run the check, never trust the banner**).
 
 ---
+
+## 0u. 2026-10-29 — L781: RATIOS ENCODED, FIRST READINGS (LIVE RAIL)
+
+**Charter:** Key Ratio #2 = adopted GA Illiquidity Ratio, Key Ratio #4 = TSR UNAVAILABLE + SHADE-R v1 / SHADE-T v1 (no band, never summed). Governing verbatim text `instruments/KEY_RATIOS_2_4_ADOPTED_LETTER.md`. **DLIC FY25 Key Ratio #2: FLOOR 9.7507% · PROXY-INCL 16.5806% · CEILING 28.6844% ⇒ NOT RED** (C $0: no `R` code, no T(b)/R/E documents; L1 agency $1,749.9M > $1,146.0M needed; margin $604M). ⚠️ **Grade rests on L1 (category rule, INFERRED); with L1 struck it is INDETERMINATE.** Encumbrance companion `CF` $1,781.3M / `C` $307.5M. **SHADE-R v1:** DLIC 321.9% · AAIA 2,460.4%. **SHADE-T v1:** DLIC 1.62% · AAIA 4,452.3% (T1 1,635.7% + modco T2 2,816.6%; ⚠️ affiliate cessions to AARe are largely funds-withheld, $66.7B of assets stay at AAIA). AAIA T1/surplus 1,636% reads above Key Ratio #1's >100% critical marker — **read-across flagged, not re-scored** (structure already in the charter's $70.79B figure; composite 20/30 unchanged). **L784:** FHCF $0 / Citizens $0 / FL munis DLIC $9.2M, AAIA $22.9M (+ Space Florida $97.3M, Orlando Health $24.7M outside muni lines) → CORAL. WQ-422 Clear Spring documents not in inbox. Record → `research/L781_RATIO_ENCODE_AND_FIRST_READINGS_2026-10-29.md`.
 
 ## 0t. 2026-10-21 — L726 / L727 DELIVERED AS PROPOSALS (await Will's word via PROME)
 
@@ -135,7 +139,7 @@
 2. 🔴 **`PREDICTIONS.tsv` with confidences AT REGISTRATION + a declared-flat TRADE surface** (DAEDALUS PR6 ask 2) — **OVERDUE since 2026-09-30; LAPSED 10/8; by 2026-10-23.** 🆕 **With it: DAEDALUS Falsification #4 ask 1a — a THESIS-level falsifier for the insurer-wrapper thesis, or a charter line saying why none — by 2026-10-23** (§0n ④).
 3. **MEMORY.md rotation under rule 5** (98% of budget; STOP <22,785 B) — deferred 10/1 and 10/10, nothing appended either day. **LAPSED 10/8; by 2026-10-23.** Carry the promotion candidate: *"the opacity claim was falsified by documents in my own directory."*
 3b. **ARI DEFM14A read** (acc 0001193125-26-119995, 2026-03-23) for a loan-level annex — **LAPSED 10/8; by 2026-10-23.**
-3c. **Illiquidity ABS leg + denominator/perimeter/vintage** for charter ratio #2 — **proposal to PROME; LAPSED 10/8; by 2026-10-23.** Same-audit GA9.75/37.24% vs total6.92/26.42%; formalABS/liquidity distinct. Proposal delivered, approval and30% grade still withheld. 🆕 **10/21: exact criterion + unknown rule DELIVERED (L726 → `research/L726_ILLIQUIDITY_BASIS_2026-10-21.md`); TSR method (L727 → `research/L727_TSR_METHOD_2026-10-21.md`): TSR UNAVAILABLE, SHADE-R/T v1 proposed. Both await Will's word via PROME WQ rows. WQ-422 Clear Spring documents are Will's hands; not chased.**
+3c. **Illiquidity ABS leg + denominator/perimeter/vintage** for charter ratio #2 — **proposal to PROME; LAPSED 10/8; by 2026-10-23.** Same-audit GA9.75/37.24% vs total6.92/26.42%; formalABS/liquidity distinct. Proposal delivered, approval and30% grade still withheld. 🆕 **10/21: exact criterion + unknown rule DELIVERED (L726 → `research/L726_ILLIQUIDITY_BASIS_2026-10-21.md`); TSR method (L727 → `research/L727_TSR_METHOD_2026-10-21.md`): TSR UNAVAILABLE, SHADE-R/T v1 proposed. Both await Will's word via PROME WQ rows. WQ-422 Clear Spring documents are Will's hands; not chased.** ✅ **10/29: RULED A/A, ENCODED + first readings done (§0u, L781).**
 3d. **NAIC SVO override count** — **LAPSED 10/8; by 2026-10-23** (never record zero).
 3e. 🆕 **Guggenheim Universe lead — primary verification** once WALTER pulls the 23-page doc: DLIC Q2 Sch D (in hand) for the "Chicago-street" LLC family, then EquiTrust / Security Benefit statutory (issuer routes first). Assessment 10/10 = ADDS (§0n ③).
 4. **Delaware Life TWG implementation evidence** — issuer9/11 primary PLAN now read; approval/closing still missing. DLIC Q3 Note10/subsequent events before~11/15.
@@ -149,6 +153,6 @@
 
 ## BOTTOM LINE
 
-**[2026-10-21] The two definitions Will's rulings were waiting on are written.** The illiquidity ratio now has an exact test (only legally sale-restricted, redemption-locked or provably unsellable asset-backed paper counts) and a rule for unknowns that grades only when the best and worst case agree; on Delaware Life's FY2025 numbers that rule says INDETERMINATE (9.75% to 32.50%), not a breach. TSR cannot be reproduced from public sources and stays UNAVAILABLE; two plainly named substitutes are proposed. `T-SHADE-01` was not re-assessed this spawn — the 10/15 NOT MET is a dated reading, not a current state.
+**[2026-10-29] The two ruled definitions are now in the charter and have their first readings.** Delaware Life's illiquidity ratio reads NOT RED at year-end 2025 (worst case 28.68% against the 30% line) — but only because agency mortgage pools count as liquid by category; without that rule it stays undecided. Athene's main US insurer leans on its Bermuda affiliate for reinsurance at roughly 16 times its surplus (mostly with the assets kept at home), against 1.6% at Delaware Life; both are diagnostics with no threshold. Neither PE-insurer holds Florida hurricane-fund or Citizens bonds. `T-SHADE-01` was not re-assessed; the 10/15 NOT MET is a dated reading.
 
-Prior bottom-line paragraphs (10/15 grade, 10/12 source pass) → `archive/STATUS_ROTATED_SECTIONS_2026-10-21.md`.
+Prior bottom line (10/21) → `git show HEAD~1:AGENTS/SHADE/STATUS.md`.

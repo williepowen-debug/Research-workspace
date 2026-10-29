@@ -31,9 +31,27 @@ Rule: reference BROCK for fund-level facts with `[CONF BROCK date]`; SHADE adds 
 
 ## Key Ratios (Monitor These)
 1. **Affiliated Reinsurance Ratio** = Reserve credit from affiliates / Total surplus (>100% = critical)
-2. **Illiquidity Ratio** = (Mortgages + Schedule BA + illiquid ABS) / Admitted assets (>30% = red flag)
+2. **Illiquidity Ratio (GA) = (Mortgages + Schedule BA + Confirmed-illiquid ABS) / GA net admitted assets** (>30% = red flag) — **ADOPTED letter, Will-ruled WQ-473 A (2026-10-21 22:46 ET; L1 accepted; prospective only, no retrospective regrade).** Governing text = `instruments/KEY_RATIOS_2_4_ADOPTED_LETTER.md` §A (L726 §1–§5 verbatim, with its terms, line sources and no-double-count rules). Core, verbatim:
+   - A holding is **CONFIRMED-ILLIQUID** only if **at least one** test below is met **by a cited primary record**:
+   - **T — Transfer**: The holding is legally restricted as to sale.
+   - **R — Redemption**: The holding's only route to cash before maturity is redemption from, or distributions by, an underlying vehicle, and that route takes longer than 7 calendar days or is at the manager's discretion.
+   - **E — Executable market**: A primary record shows the holding could not be sold within 7 days at a price near its carrying value.
+   - **L1 — Agency category:** the holding is on Agency lines **1019999999–1049999999** (agency residential/commercial MBS, guaranteed or not/partially guaranteed). ⚠️ This is a **category rule** (agency pools trade in deep dealer markets; INFERRED, not a per-CUSIP market test) — it is listed separately so Will can accept or strike it.
+   **Three published numbers, always together, same filing:**
+   - **FLOOR** = (Mortgages + BA + C) / GA
+   - **PROXY-INCLUSIVE** = (Mortgages + BA + C + P) / GA — a label, never a grade
+   - **CEILING** = (Mortgages + BA + C + P + U) / GA = (Mortgages + BA + all ABS − L) / GA
+   **Grading against the unchanged >30% red flag:**
+   - **RED** only if **FLOOR > 30%**.
+   - **NOT RED** only if **CEILING ≤ 30%**.
+   - Otherwise **INDETERMINATE** — reported as "between FLOOR and CEILING", with two break-even dollar figures: confirmed-illiquid ABS needed to breach, and evidenced-liquid ABS needed to clear. Never rounded into either grade.
+   - **UNAVAILABLE (no reading)** if any of the four terms, the GA denominator or the single-vintage condition is missing.
 3. **Capital Leakage** = Management fees to PE parent + intercompany notes
-4. **TSR Ratio** (Gober's metric) = Higher-risk off-balance-sheet assets / Reported statutory surplus
+**4. TSR — UNAVAILABLE** (creator's method proprietary and not reproducible from public sources; `research/L727_TSR_METHOD_2026-10-21.md`). **In its place SHADE reports two named diagnostics, SHADE-R v1 and SHADE-T v1, each with its components, never summed into one figure and never called TSR. No band or threshold until a calibration set across ≥5 insurers exists.**
+   **Adopted by Will, WQ-474 A (2026-10-21 22:46 ET): no R + T sum.** Governing text = `instruments/KEY_RATIOS_2_4_ADOPTED_LETTER.md` §B (L727 §2 verbatim, component lines R1–R4, T1–T2). Core, verbatim:
+   - **Surplus = Page 3 (Liabilities, Surplus and Other Funds), Line 38 "Totals of Lines 29, 30 and 37" (capital and surplus), Column 1.** Verified label at the DLIC FY2025 annual statement; it is the line the NAIC Note 1 template calls "state basis surplus (Page 3, Line 38)".
+   - **SHADE-R v1 = (R1 + R2 + R3 + R4) / Surplus.** Line numbers verified in the NAIC 2026 instructions (sources below).
+   - **SHADE-T v1 = (T1 + T2) / Surplus.** **Relation to charter Key Ratio #1:** #1's numerator ("reserve credit from affiliates") is T1; SHADE-T adds T2 (modco). Both stay; #1 keeps its existing >100% critical marker.
 5. **FABN Spread** vs traditional insurer spreads (widening = canary)
 
 ## Primary Target: Apollo/Athene
