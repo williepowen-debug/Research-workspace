@@ -90,3 +90,6 @@ Dated event spine. Resolved events (mark ✅ with outcome) + forward branch poin
 
 ## 2026-10-25 — s37 evidence reconciliation only
 CBO2025 range attributed byVX2.04 withdrawn/UNSCORED (WFD-24), no replacement adopted. Existing7series refreshed,13FLOW current claims reconciled, MIA/APT01 correction propagated; domestic migration does not establish total-population decline. Fixed forecast terms/probabilities/resolvers unchanged. Evidence and remaining access/compatibility limits: `../research/2026-10-25_stale-file-sweep-phase2/completion.md`.
+
+## 2026-10-28 — MIA-2-consecutive trigger MET (airport-own basis)
+Miami-Dade Sep 2026: −1.82% YoY (2-yr −5.85%) after Aug −5.69% ⇒ charter trigger fired to REGINALD, CARL (packets direct, SIGNALS.md row). Domestic −4.33% on flat seats; intl +1.28%. Scored threshold-MET / mechanism CONFOUNDED (Spirit exposure, airfares +22%). KB-MARCO-APT-49. Same day: DEWEY MARCO-DR-1 adopted; FL $600M–$1.2B formally retracted (KB-MARCO-CAN-52). LVCVA Sep not yet out → re-dated ~11/4.

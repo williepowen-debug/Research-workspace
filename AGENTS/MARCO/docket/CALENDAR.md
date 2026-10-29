@@ -65,8 +65,7 @@ These entries preserve the read/date stated, including then-pending items. Curre
 
 | Δ | Date | Event | Threshold / Signal | Who |
 |---|------|-------|--------------------|-----|
-| 🟠 | ~Oct 28 | **MIA September Traffic Report** (Miami-Dade PDF, direct URL, double space) | Aug −5.69%. Sep negative ⇒ MIA-2-consecutive FIRES → REGINALD, CARL (**airport-own basis, Will-ruled 9/24**); 404 on10/25; MIA Spirit exposure corrected, caveat mandatory | MARCO, REGINALD, CARL |
-| 🟠 | ~Oct 28 | **LVCVA September** — the Labor Day offset month | **Pre-registered 10/14:** Aug+Sep COMBINED RevPAR YoY negative ⇒ room-$ weakness survives the holiday shift; ≥0 ⇒ calendar artefact | MARCO, CORAL |
+| 🟠 | ~Nov 4 | **LVCVA September** — the Labor Day offset month (not out 10/28; re-dated) | **Pre-registered 10/14:** Aug+Sep COMBINED RevPAR YoY negative ⇒ room-$ weakness survives the holiday shift; ≥0 ⇒ calendar artefact | MARCO, CORAL |
 | 🟠 | Nov 2 | **CA farm disruption persistence review** | Named-grower output/attendance follow-up; local evidence, no national grade | MARCO, LABOR, CARL |
 | 🟡 | Nov 12 | **H-2A court status checkpoint** | Retrieve Oct 22 and scheduled Nov 12 reports; verify later rulings | MARCO, LABOR, CARL |
 | 🟠 | Dec 30 | **H-2A replacement-rule deadline / effective vacatur** | Court docket108; verify rates and transition; back pay contingent | MARCO, LABOR, CARL |

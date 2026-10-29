@@ -1,20 +1,30 @@
-# MARCO SCRATCH — session37 Phase2 stale-file repairs
-**Last Updated:** 2026-10-25 23:37 ET. Will requested session closeout; no new research. Previous substantive writeback:2026-10-25 23:30ET. Will-authorized sweep/report/correct, concrete PROME disposition17abb761d. Existing native window; no helpers/new monitors/programs/trades.
+# MARCO SCRATCH — session 38 boot catch-up
+**Last Updated:** 2026-10-28 23:58 ET. Will: "boot up, get caught up on all owed work and any new data, using live searches."
 
-## CHANGES SINCE
-Phase1b46494136 inventoried386files and16finding groups. Phase2 repaired accepted current-evidence/prose inconsistencies:13FLOW pathways, missedMIA/APT01, unsupported winter dollars/old thesis spine, domestic-vs-total-population logic, docket/calendar/source/index/method residues. CBO2025−290K..−525K range is WITHDRAWN/UNSCORED; no replacement adopted, original history retained.
+## CHANGES SINCE (10/25 → 10/28)
+- DAEDALUS applied the WQ-508 charter lines to MARCO/CLAUDE.md directly (`4da79f1ee`, Will-directed). Reviewed: none contested. Packet filed.
+- DEWEY delivered MARCO-DR-1 (Canadian-Florida spending base) on Will's word.
+- PROME's 10/25 packet named two VX airport-record residues for this session.
+- Five WALTER signals arrived (Canada tariff talks, Sun Belt starts, cruise/PortMiami, RCL Q3, EU gas).
 
 ## WHAT I DID
-Seven existing series refreshed: Sepconstruction employment/wages/ZHVI/Austin/DOM; JanOctTXreceipts; AugBEATravelTTM−$3.125B,ELEVATED. Compared carried points/bases and revisions; no threshold redesign. Saved raw evidence/manifests/calculations/source limits in research/2026-10-25_stale-file-sweep-phase2/. Exact JulyBTS/SeptemberStatCan baseline rows appended from held source evidence. TOUR02/04 missing Confidence field restored EMPTY with original mapping proof; no probability invented. Active TOUR notes superseded, fixed terms unchanged. Historical thesis text preserved in dated companion; original invalidation block remains verbatim and explicitly historical.
-
-## OPEN THREADS / LIMITS
-GoogleTrends429; CentralAmerica matched newest remittance panel unresolved; AEOLUS October15DJF stillUNFETCHED byowner; TOUR05 compatible all-carrier DecFeb schedule denominator unresolved; TOUR06 primary monthlyBrowardTDT unverified. Do not turn these into automated searches. AnnualCensus/approxCTI, OFLCQ3, TX01UNSCORED, CA02local-scope, LASJunJulholes remain dated. DuplicateAPT/1.04 bands, temporal-basis ambiguity, T2G/tool redesign and resolver changes remain outside scope.
+| Item | Result |
+|---|---|
+| WALTER lane | 5 dispositioned in `board_log.tsv` (2 noted, 3 info-only), `git mv` to processed |
+| PROME residues | VX APT-01 Trend re-dated (old May/June text kept as dated history); VX 1.04 Source now says the 10/14 pull did not rewrite the baseline and July rows were appended 10/25 (`f63a97bbe`). Receipt packet sent to PROME |
+| MIA September (live, Miami-Dade PDF) | **−1.82% YoY, −5.85% 2-yr; Aug −5.69% ⇒ MIA-2-consecutive trigger MET.** Domestic −4.33% on seats +0.28% (LF 83.0→79.2%); intl +1.28%. CONFOUNDED. Packets to REGINALD + CARL, SIGNALS.md row. Baseline rows 2026-09 and 2025-09 appended; `KB-APT-49`; APT-01 Current Value prefixed |
+| DEWEY DR-1 | Adopted (absence finding, counts, owner floor). **$600M–$1.2B formally RETRACTED.** `KB-CAN-52`; reply to DEWEY |
+| LVCVA September | NOT published (page newest = ES_Aug2026). Docket re-dated ~11/4 |
+| Live searches | H-2A: secondary reports say the order came Oct 5; primary docket 108 says Oct 2 → keep the primary (`KB-WFD-22`), no change. Canada: talks, no deal; Aug 24 threat of 50% on autos/steel from 1/1/2027 still stands per latest found coverage. Amendment 3: UNF 10/21 50/30/14 (`KB-FLI-05`). Remittances Sep not out (11/2). No late-Oct farm-raid reporting found. StatCan Sep already in record |
 
 ## NEXT SESSION
-Existing docket only: ~10/28MIA/LVCVASeptember;11/2Banxico/CApersistence;11/3FLvote;11/5AZfirstforward grade;11/6CPScontext;11/10ENR02leg2;11/12courtstatus;11/13ID01;~11/15OFLC/BTS/NTTO;11/16/20housing/stateBLS;12/4NovemberCPS;12/30courtdeadline;annualCensuscomponenttest;MAR24firstBTSon/after2027-02-01;Laredo~2027-03-31. No forecast terms/confidences/status/outcomes changed. MAR11/MAR24 due-scan economic-window alerts do not override their publication/first-pull resolver rules.
+11/2 Banxico Sep (CE81) + CA farm persistence · 11/3 FL Amendment 3 vote · ~11/4 LVCVA Sep (Aug+Sep combined RevPAR rule) · 11/5 AZ-01 first grade · 11/6 CPS context · 11/10 ENR-02 leg 2 · 11/12 H-2A court status · ~11/13 ID-01 leg 2 · ~11/15 OFLC Q4 (MAR-11 resolver), NTTO, BTS Aug · 11/16 FL Realtors Oct · 11/20 state BLS · 12/4 Nov CPS (SDL-01) · BTS Sep MIA (~Dec) to show beside the airport count.
 
-## MAIL / COMPLETION
-Phase1/2PROME packets consumed and moved to processed with consumption declarations. WALTER receives correction packet naming unsupportedCBO/range and propagated old-dollar/MIA/transmission premises; delivered is not consumed. No external owner files edited. Other desks dirty: no pull/stash/takeover. Repairs f63a97bbe and final pinned brief09b3ce0ae published; fresh fetch confirmed09b3ce0ae=origin/master. Native Phase2 receipt delivered to PROME. Final session-closeout commit/publication receipt follows separately. No research tool or future-release wait remains running; overall sweep awaits PROME independent recheck. Completion: research/2026-10-25_stale-file-sweep-phase2/completion.md.
+## OPEN THREADS
+- Due-scan flags MAR-11 and MAR-24 as past-window; both have recorded resolvers later (OFLC Q4 file ~11/15; BTS Q3 first pull ≥2027-02-01). Not re-armed in the TSV this session — the Timeframe text still parses as 9/30. Leave or re-word the Timeframe cell at the next prediction pass.
+- `baselines/mia_airport_reported.tsv` carries duplicate 2026-07/08 rows (pre-existing). Not touched.
+- VX.tsv/FLOW.tsv ledger-staleness flags (+66d/+32d) carried; not a refresh session.
+- PROME independent recheck of the 10/25 sweep: residues repaired; final acceptance is PROME's.
 
-## WILL-REQUESTED CLOSEOUT
-Will: “Okay lets close out MARCO here.” Session stopped after handoff/publication. PROME independent recheck is IN PROGRESS, not accepted/closed: latest read reports two smaller airport-record inconsistencies; exact corrective disposition not received here at closeout. PROME notified to save a dated inbox packet for the next authorized session. Do not claim overall sweep completion or consumer uptake. No research/tool/helper/future-release wait running; preserve existing window idle.
+## MAIL
+Inbox empty after processing. Sent: REGINALD, CARL (trigger), DEWEY (DR-1 adopted), PROME (residue receipt). Other desks' dirty files (HOMER, CRUISE): no pull, no stash.

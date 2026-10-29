@@ -3,7 +3,7 @@
 # Route: miami-airport.com/library/pdfdoc/Airport Stats/FY 2025-2026/<Month> 2026 Monthly  Calendar Yr Traffic Report.pdf (DOUBLE space).
 #   2025 months live at the Airport Stats/ ROOT, not an FY folder. ⚠️ The airport_stats.asp INDEX now lists throughAugust2026 (verified10/25); SeptemberPDF404. Earlier Mar/Apr limitation superseded; direct-URL route retained.
 # Parse: identity-checked (total == intl + dom AND == deplaned + enplaned) — pdfminer scrambles column order on this layout.
-# Last real data refresh: 2026-08-01   <- NEWEST DATA MONTH (PAT-044). pulled=2026-09-24
+# Last real data refresh: 2026-09-01   <- NEWEST DATA MONTH (PAT-044). pulled=2026-10-28 (Sep 2026 PDF, FY 2025-2026 folder, direct URL; index also lists it). Sep 2025 PDF filename carries " (002)" suffix at Airport Stats/ ROOT.
 period	total	intl	dom	prior_yr_total	yoy_pct	seats	prior_yr_seats	seats_yoy_pct	stack2y_pct
 2026-01	5088634			5067376	+0.42				
 2026-02	4469495			4442257	+0.61				
@@ -15,3 +15,5 @@ period	total	intl	dom	prior_yr_total	yoy_pct	seats	prior_yr_seats	seats_yoy_pct	
 2026-08	4289986	2044562	2245424	4548858	-5.69	5131464	5341311	-3.93	-6.53
 2025-07	4830328	2307161	2523167	4920287	-1.83				
 2025-08	4548858	2139483	2409375	4589478	-0.89				
+2026-09	3573815	1647207	1926608	3640068	-1.82	4371100	4437245	-1.49	-5.85
+2025-09	3640068	1626318	2013750	3795959	-4.11	4437245	4441220	-0.09	

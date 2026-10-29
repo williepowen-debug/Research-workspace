@@ -1,10 +1,10 @@
 # MARCO — NEXUS Brief
 
-**Status:** 🟠 v3.2 — stale-file repairs complete within source limits; unsupported CBO2025 range withdrawn, no replacement adopted.
+**Status:** 🟠 v3.2 — MIA-2-consecutive trigger MET 10/28 (airport-own, CONFOUNDED); FL $600M–$1.2B formally retracted on DEWEY DR-1.
 **Domain:** Population movement — international visitors, workforce displacement and internal migration; Florida primary.
 **Thesis version:** v3.2, unchanged; position none.
 **Recent thesis pivot:** Channel 4 MED-LOW → LOW (9/24); s35 material evidence correction: MIA is Spirit-exposed, not a clean control.
-**As of:** 2026-10-25 23:37 ET (Will-requested session closeout; no new research). **STATUS commit:** `f63a97bbe`.
+**As of:** 2026-10-28 23:59 ET (session 38 boot catch-up). **STATUS commit:** folded in the same commit as this brief.
 
 ---
 
@@ -14,6 +14,8 @@
 
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |----|--------|----------|---------------------------------------------|
+| **REGINALD, CARL** | **SENT 10/28 s38 — MIA negative 2 consecutive months (airport-own: Aug −5.69%, Sep −1.82%)**, direct packets + SIGNALS.md row | 🟠 | Charter trigger MET; domestic −4.33% on flat seats; threshold-MET / mechanism CONFOUNDED (Spirit, fares +22%) — not a demand verdict |
+| **DEWEY** | **SENT 10/28 — MARCO-DR-1 adopted**; $600M–$1.2B retracted, no dollar figure replaces it (`KB-CAN-52`) | 🟡 | Commission closed |
 | **WALTER** | **SAVED10/25 s37 — stale-sweep attribution/dollar/transmission corrections**, packet `inbox/2026-10-25_from-MARCO_stale-sweep-corrections.md` underWALTER | 🟠 | Withdraw unsupported CBO2025 range; no replacement adopted. Preserve prior MIA route; delivery is not consumption. |
 | **PROME** | **SAVED10/25 Phase2 completion**, `research/2026-10-25_stale-file-sweep-phase2/completion.md`; source/basis/check residuals explicit | 🟡 | Accepted repair set executed; PROME review in progress flags two airport-record details, exact follow-up pending; Will closed this session. |
 | **WALTER** | **SAVED 10/25 s35 — MIA Spirit-free CORRECTION**, domestic seat replacement and LAS Canadian refresh; packet `inbox/2026-10-25_from-MARCO_MIA-Spirit-correction-capacity.md` under WALTER | 🟠 | CORAL STATUS/brief still call MIA the clean tell; route correction to affected consumers. Seats are capacity, not demand or resident visitors. |
@@ -55,7 +57,7 @@
 - **Existing-series refresh:** seven comparable series updated; latest BEA nominalSA Travel actual trailing12months throughAugust shows−$3.125B,ELEVATED. Housing/labor/receipts changes and revisions remain in canonical VX/source_checks; no October observation or bank-loss estimate inferred. GTR429/regional-remittance and TOUR05/06 source gaps remain unresolved.
 
 - **FL demand remains unidentified.** Latest BTS source month is July 2026 (live verified 10/25, ~3-month lag). Scheduled outbound domestic seat replacement June→July: MCO 55.84→76.06%, FLL 66.77→107.70%. FLL July domestic seats/passengers grew; MCO remained below 2025. Net other-airline additions neither prove causal backfill nor uniquely separate demand from supply.
-- **MIA Spirit-free RETRACTED.** Valid NK/MIA summary query endsFebruary 2023; direct GEE and Miami-Dade's own FY seat report show 2025/May 2026 service. Smaller exposure than FLL/MCO, not an unaffected control. The MIA airport-own two-negative-month rule retains its definition; carry the Spirit/capacity caveat. September report still pending; no pre-grade.
+- **MIA Spirit-free RETRACTED.** Valid NK/MIA summary query endsFebruary 2023; direct GEE and Miami-Dade's own FY seat report show 2025/May 2026 service. Smaller exposure than FLL/MCO, not an unaffected control. The MIA airport-own two-negative-month rule retains its definition. **10/28: Sep −1.82% (2-yr −5.85%) ⇒ MET.** Domestic −4.33% with domestic seats +0.28% (LF 83.0→79.2%), intl +1.28%. Spirit/fare caveats travel; BTS Sep (~Dec) to show beside.
 - **LAS Canadian leg measured.** Canadian-airline winter 2025–26 seats −33.22%; latest comparable complete May −31.97%, **NV-01 CRITICAL** on existing bands. April −27.85% broke the sustained ≥30% run. June AC / July Porter filings missing: June/July unscored; prior-month July fill −10.59% is explicitly an estimate. Seats on Canadian routes are not Canadian-resident visitors. No new carrier exit inferred.
 - **Channel 1 quantity remains split; price transmission unproved.** September CPS YoY increase versus August remittance-count decline, with survey reweighting and transaction consolidation unresolved. October 21 CA grower reports show local absence/output disruption; no national shortage or price conclusion. H-2A December 30 court deadline and contingent adjustments remain a separate administrative-cost watch.
 - **Channel 2 remains the strongest transmitting channel**, supported by Canadian travel counts, not an asserted national-dollar collapse. Last winter's smaller capacity is measured; winter 2026–27 realization remains a hypothesis. Canadian land-versus-air test still awaits October; raw versus calendar-adjusted counts stay separate. October 23 tariff changes removed AND added lines; no concluded deal inferred.
@@ -71,17 +73,15 @@
 
 ## NEXT DECISION POINT
 
-**Session closed at Will’s request.** PROME review/follow-up remains pending; existing scheduled observations below are for the next authorized session. No running wait.
-
-- **What:** grade the existing MIA airport-own and LVCVA Aug+Sep combined tests when their September releases exist; MIA's Spirit/capacity caveat travels with the raw grade.
-- **When:** existing ~October 28 observation (date estimated; sources not yet published at 10/25 checks). No running turn waits for it.
-- **What would falsify the trigger:** MIA September nonnegative breaks the two-negative-month condition; LVCVA combined Aug+Sep RevPAR nonnegative fails the pre-registered persistence condition. Capacity arithmetic alone supplies neither verdict.
+- **What:** LVCVA September — Aug+Sep combined RevPAR (pre-registered 10/14); not published 10/28.
+- **When:** ~11/4 (estimated).
+- **What would falsify the trigger:** combined Aug+Sep RevPAR ≥0 ⇒ the August room-dollar decline was a Labor Day calendar artefact.
 
 ## FORWARD CATALYSTS (next 2–4 weeks)
 
 | Date | Catalyst | Link to the view |
 |------|----------|------------------|
-| ~10/28 | MIA/LVCVA September | NEXT DECISION POINT; exact letters in docket |
+| ~11/4 | LVCVA September | NEXT DECISION POINT |
 | 11/2–3 | Banxico / CA farm-persistence check / FL amendment vote | Quantity versus local output and migration-policy risk; owners/bases unchanged |
 | 11/10 | October CPI airline fares | Existing ENR-02 leg 2; Spirit co-driver/national scope retained |
 | 11/12–13 | H-2A court-status checkpoint / StatCan October | Later procedural state; raw and calendar-adjusted ID-01 legs separate |
