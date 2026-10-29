@@ -22,3 +22,18 @@
 - Iran banks: the hits were the June 2026 events (FALCON's theater), not October.
 - Election-week CISA/FBI guidance: no 2026 item found (only the 2022 advisory).
 - Scattered Spider / ShinyHunters: no October 2026 financial victim found. ShinyHunters is the Jack Henry actor (August).
+
+## bank-software-pass
+
+**Second pass, Will's ask 13:32 ET; written 2026-10-29 13:34 EDT.** 8 searches, 3 more verification searches, a CYPHER read of the CA AG breach list and of American Banker 8/17.
+
+| ID | Event | State · basis | Why it matters |
+|---|---|---|---|
+| CYB-INC-051 / CHK-38 | **N-able N-central** (MSP remote-management tool) flaw exploited from 7/31. NYDFS 8/11: "aware of impact to a limited number of covered entities". Huntress: <10 orgs in its base | REPORTED · SECONDARY (AB 8/17; NYDFS letter unread) | **The MSP channel has carried traffic into regulated finance**, which the 10/23 read (KB-CYP-020) missed |
+| CYB-INC-052 | **Sawyer Savings Bank** (NY) closed all four branches about a week from 8/3; CEO: "a vendor vulnerability"; Storm-1175 leak listing. AB links N-central; nobody confirms it | REPORTED · SECONDARY | A bank closure via a vendor route. A breach notice published by 12/31 naming an MSP route would HIT CYP-03 |
+| CYB-INC-053 | **Citizens Bank**: new CA AG notice, breach 9/10/2026, reported 10/19/2026 | REPORTED · PRIMARY for the dates | Distinct from April; route unknown; letter unread |
+| CHK-37 named | **Sefas Innovation** (document vendor) SFTP breach Dec 2025-Apr 2026; ~192-200k Frost customers | SECONDARY | The print/document vendor behind the Frost (and likely Citizens April) data |
+| CHK-39 | **SitusAMC** (mortgage platform) breach Nov 2025; JPM, Citi, MS notified | SECONDARY | A large-bank vendor node the map lacked |
+| KB-CYP-076 | 2026 base rate: ~1 confirmed bank-supplier incident a month, 3 in August | ESTIMATE | The new cluster watch would have fired in August, a real cluster that caused no systemic harm: a fire means look closer |
+
+Not new: Marquis (2025 attack, notices Mar 2026; CHK-10), NCR Voyix 2023 costs ($47M cumulative, $37M insured), Finzly (no update since AB 10/20). Nothing found for Q2, Alkami, Candescent, Finastra, CSI or Corelation, and no October 2026 Zelle/ACH processor outage.

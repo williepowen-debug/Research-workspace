@@ -30,6 +30,8 @@
 
 ## VIEW
 
+- The MSP route into banks has carried real traffic: an August 2026 N-able N-central flaw, with NYDFS stating impact on "a limited number" of regulated firms (CYB-INC-051). Bank-supplier incidents run at about one a month in 2026 (KB-CYP-076). None is wave-rooted.
+
 - DEWEY's 10/29 rerun agrees row by row: still Log4Shell-like on outcomes, one step toward MOVEit on a single unnamed vendor claim; a KEV listing does not separate the shapes (KB-CYP-071/072). Fortinet's -20.9% is earnings, not the wave.
 
 - The wave has moved from "exploited somewhere" (KEV) to "a successful compromise is reported, victim unnamed": a vendor confirms exploitation and one research firm documents a chain against firewalls, including a US government-affiliated network.
