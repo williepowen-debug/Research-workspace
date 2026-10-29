@@ -1,5 +1,15 @@
 # SAM TIMELINE
 
+## 2026-10-29 — Two stress days pass without a yen-funding unwind, and the BOJ is expected to hold while calling 2% reached
+
+SAM was offline October 20–28. Two shocks tested the carry channel in that window. On October 22, Asian equities fell about 3% on an AI and chip selloff, and the yen firmed 0.91% on a 1.66-yen range. That was the largest move of the window, orderly, and short of the fast-move bar; it retraced by October 28. On October 26, Brazil's post-election crash took the real down sharply, and the yen *weakened* (+0.45% USD/JPY). Speculators hold yen net **long** at the CFTC (+69,878 on 10/20), so the short-yen pool that unwound in August 2024 is no longer there to be forced out. Offshore swap funding stays unmeasured.
+
+The October meeting has been priced out: the Totan meeting-OIS showed **2%** for October and **82%** for December at 11:15 JST on October 29, day one of the meeting. Every sourced story (Reuters 10/20 and 10/26, Kyodo 10/21, Nikkei 10/22) points to a hold at 1.25%, with the Outlook Report expected to judge underlying inflation at or near 2%. That would make it a hawkish hold aimed at December. No named official framed October as live, so SAM-42 grades at its as-made 25% on tonight's statement. The BOJ's October purchases ran exactly to schedule; SAM-33's falsifier is un-fired with October complete.
+
+The insurers' half-year plans arrived. Super-long buying is mostly coupon swaps, not net new money. Open foreign-bond books are being trimmed nearly everywhere except Nippon Life, and no insurer named a Treasury sale. Year-end yen assumptions of 155–162 are far from any forced-selling zone. This is orderly reallocation, not the retired repatriation channel returning. The long end eased (30Y 4.028 → 3.941), and the record 20Y auction on October 20 still stands as the demand signal.
+
+**Thesis consequence:** none. v1.7 retired-to-LOW, no successor, book FLAT, no mark change. [Sweep](../../research/outputs/2026-10-29_sweep/NEWS_SWEEP.md) · STATUS for levels.
+
 ## 2026-10-20 — Domestic demand improves while October tightening is priced away
 
 The 20Y auction drew 5.844× cover with a 0.6bp tail: FIRM on the frozen bars, comfortably outside the precision band. The curve had already rallied from its early-October records. BOJ records show only scheduled October 16 purchases; October 19–20 carried no emergency JGB cap. This extends SAM-33's observed un-fired falsifier, not its final grade.

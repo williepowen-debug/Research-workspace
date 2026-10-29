@@ -1,8 +1,8 @@
 # Japanese Life Insurer Tracker
 
-**Last Updated:** October 20, 2026 — Fukoku H2 investment-plan interview integrated; company balance/ESR disclosures remain September 14-reviewed. Latest weekly aggregate is in STATUS and does not identify insurers.
+**Last Updated:** October 29, 2026 — H2 FY2026 investment-plan interviews (Oct 15–26) integrated below; company balance/ESR disclosures remain September 14-reviewed. Latest weekly aggregate is in STATUS and does not identify insurers.
 
-**Current plan correction — October 20:** Fukoku H2 yen bonds **+¥55B**, including **20Y/30Y JGBs**; foreign FY **−¥25B**, predominantly maturity non-reinvestment, hedged balance zero (Reuters interview October 15, rel October 16). This contradicts continuing 30Y avoidance, **not** the historical January exit, and establishes nothing about 40Y or Asahi. Plan ≠ executed sales; no forced-UST or Channel 1 reactivation inference. [Profile](fukoku.md) · [source/scope](../research/outputs/2026-10-20_sweep/NEWS_SWEEP.md#4-fukokus-plan-contradicts-a-carried-mid-size-buyer-strike-claim).
+**Current plans:** see § H2 FY2026 PLANS below (October 29). The October 20 Fukoku correction (30Y avoidance withdrawn) is folded into that table; the earlier text is in git history.
 
 **Purpose:** Dashboard for tracking Big 10 insurer positioning, FY2025 ESR disclosures, and repatriation signals. **Mechanics map** for JGB-loss / ESR / lifer behavior — the cross-border forced-repatriation leg of Channel 1 is now **RETIRED (v1.6, 2026-06-22 — supersedes the "DEFERRED STRUCTURAL BACKSTOP" framing throughout this doc; re-add ONLY on a direct foreign-SALES print across ≥2 windows at ≥2 of {Big-3 mutuals, Norinchukin}, JGB-30Y/ESR = accelerant only)** after 4-of-4 institutions grew US credit; J-ICS still affects domestic duration demand, with the conditional bid described below. *(Body sections below retain the dated DEFERRED-era evidence trail.)*
 
@@ -13,6 +13,23 @@
 **Reactivation requires direct net foreign-credit SALES across ≥2 consecutive disclosure windows at ≥2 of {Nippon Life, Meiji Yasuda, Sumitomo Life, Norinchukin}.** This is the existing June 22 rule. A single announcement, an aggregate MOF flow, a yen threshold, or domestic JGB stress can initiate investigation; none independently reopens the channel. ESR below 200% must be attributed to its cause: M&A capital action is different from market stress. JGB/ESR conditions are accelerants only.
 
 The May/June named-institution evidence disconfirmed the near-term forced-repatriation mechanism. The detailed disclosure table below is historical evidence, not newly refreshed company data. The former “deferred structural backstop” and “any one reopens” rules are superseded and preserved in the before-image archive.
+
+## H2 FY2026 PLANS — October 2026 interviews (REPORTED; PLANS, not executed flows)
+
+Source: SAM sweep `../research/outputs/2026-10-29_sweep/NEWS_SWEEP.md` §5 (Reuters/Jiji/Nikkei interviews Oct 15–26; Reuters 10-major roundup Oct 27). Supersedes the October 20 Fukoku-only line.
+
+| Insurer | Yen bonds / super-long | Open (unhedged) foreign bonds | Hedged / other | FY-end USD/JPY |
+|---|---|---|---|---|
+| Nippon Life | Balance **down** (super-long swaps, ~¥1.1T H1, similar H2) | **Flat to up** — the exception | Hedged **up**, ~half private credit | 160 |
+| Dai-ichi | H2 balance down, FY flat; swaps >¥1T FY | **Cut** | Hedged H2 down (redemptions) | 158 |
+| Meiji Yasuda | Flat H2, FY up; 20Y/30Y buying continues, "30Y at 4% attractive" | **Down** in H2 | US high-grade credit hedged, FY down | 155 |
+| Sumitomo Life | Slightly down; swaps continue | **Down** (some to foreign equities) | Floating/private credit up | 155 |
+| Fukoku | **+¥55B** H2, incl. 20Y/30Y | **Down**, no reinvestment; FX bonds −¥25B FY | Hedged zero | 158 |
+| Asahi | Swaps ~2× H1 pace, mainly 30Y | **Flat** (reversed a planned cut) | — | 155 |
+| Taiju | Flat plan, up to +¥50B | **Down** | Shift from hedged foreign to JGBs | 162 |
+| Taiyo / Japan Post Ins. / Daido | Up / flat / super-long build (headlines) | n/a | n/a | n/a |
+
+**Aggregate (Reuters 10/27):** yen-bond balances down at 4, up at 3, flat at 3; super-long buying is mostly low-to-high-coupon **swaps**, not net new money. **No insurer stated a UST-sale plan.** Year-end yen assumptions of 155–162 are far from the 130–135 mechanical-selling zone. **Channel-1 bearing: reactivation test not met.** The direction (open foreign books trimmed, hedged books rotating to floating/private credit) is consistent with orderly allocation adjustment and with September's executed sector dispositions (−¥288.6B), which still stand. Next hard data: MOF October investor-type (~Nov 10) and Q2 disclosures (late Nov).
 
 ## News since the Q1 check (REPORTED, not disclosures)
 

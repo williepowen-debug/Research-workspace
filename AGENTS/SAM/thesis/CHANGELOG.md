@@ -8,6 +8,11 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-10-29 — TIMELINE: October 20–29 catch-up entry; v1.7 unchanged
+
+**TIMELINE:** new 2026-10-29 block. October 22 Asia selloff (yen +0.91%, orderly) and October 26 Brazil shock (yen weaker) show no yen-funding unwind signature; October BOJ hike priced out (Totan 10/29: Oct 2%, Dec 82%); SAM-33 October purchases on schedule; insurer H2 plans are swap-led with open foreign books trimmed and no stated UST sales.
+**Old view → new view:** no fresh Japan-led carry unwind → unchanged, now tested by two live stress days. Channel 1 retired → unchanged (reactivation test not met by plans). **THESIS.md not edited:** no thesis-level change. Insurer detail → `insurers/TRACKER.md` § H2 FY2026 PLANS.
+
 ## 2026-10-20 (later) — Key-file reconciliation and US-transmission clarification; v1.7 unchanged
 
 **Old → new presentation:** discussion-only US read-through and stale current routing shorthand → explicit separation of gradual buying withdrawal, active US-credit selling, leveraged unwind and common global term-premium repricing. Treasury safety demand can offset selling during equity stress. No current causal attribution, new registered channel, threshold, probability, conviction grade or successor frame. THESIS current routing table supersedes clearly labelled historical notes, including the looser disorder-only Channel1 shorthand. STATUS/STATUS_REFERENCE, the JGB package, TIMELINE, current trade-document pointers, MEMORY handoff and last-write NEXUS synthesis reconciled. The JGB package opening now carries October evidence rather than September24. Corrected the warm-reference claim that 1.25% is below the cited 1.1–2.5% neutral estimate range; being numerically inside does not establish neutral policy. Existing ledger/source gaps remain. Audit receipt → `../reports/2026-10-20_key-file-reconciliation.md`.
