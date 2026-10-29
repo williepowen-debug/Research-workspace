@@ -24,7 +24,7 @@
 1. **11/1:** diesel producer ban 10/31 — extended or lapsed? (KB-229; a lapse starts the C1 companion-tell clock.) Palaemon 26 Oct–1 Nov (~11/1+).
 2. **11/2:** DOCKET L814 C1 grade (leg A from the newest refinery row; leg B) + blackout UNREACHABLE flag to PROME if no independent aggregate prints.
 3. **WQ-470 X binding:** backfill ≥12 weekly TD6/TD19 Worldscale pairs (Baltic Exchange data is subscription-gated: test reachability first; if unreachable, tell PROME, do NOT bind on 3 points). Verify the TD17 spot index (forward assessments suspended).
-4. Carried: Tambov/Druzhba flow notice (KB-209, not checked 10/29) · PNT damage · Primorsk pause cause.
+4. Carried: PNT damage · Primorsk pause cause · Druzhba (not reported interrupted 10/29, KB-235; Slovak/Hungarian sources not searched).
 5. **11/8** §5 re-read · **11/17** C2 earliest re-kill · **11/18** GATE-OSPREY-001 + **OSP-07 grade** (run the pre-registered sweep in the row first).
 6. OWED-51 remainder: Tikhoretsk 2026, 2nd Kaleykino, Unecha, July sweep, Palkino vs Yaroslavl-3 identity.
 
@@ -38,4 +38,4 @@
 - Inbox: clear. WALTER lane: clear (2 → processed). Outbox: packets to HAWK, DAEDALUS, PROME 10/29.
 
 ## PENDING PUSH / GIT
-- Path-scoped commits of AGENTS/OSPREY/ + 3 authored packets (carve-out ①); push via scripts/safe-push.sh.
+- Nothing pending: all OSPREY commits + 3 authored packets pushed 10/29 (last receipt `55375c6e2` before this edit).
