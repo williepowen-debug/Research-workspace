@@ -15,3 +15,15 @@ Owner: PROME (session prome-90, Claude Code, Fable 5.1, desktop; boot 08:50 ET T
 | `AGENTS/BOND/STATUS.md` — DATE DRIFT "2027-01-25 ('1/25')", "2027-01-27 ('1/27')" (line 96) | DONE, true dates, full read of the line: BOND's forward-calendar table row "2027-1/25, 1/27 — GPFG expert report · January FOMC". Desk-owned calendar; the January FOMC is a public schedule date and BOND carries it. No PROME obligation. |
 
 Coverage: 9 date flags + 5 path flags = 14 NEW. Accept all current flags against this receipt; prune the 3 baseline rows the current log no longer reports (disposition "done: pruned"). Persisting flags keep their earlier receipts.
+
+## Pick-up refresh 19:4x ET (prome-5c, same session after /clear; refresh `/tmp/prome-boot-20261029-1051/refresh-equ7ofzd`, stamped 2026-10-29 19:45 ET)
+
+Three NEW flags against the 14:2x baseline (that refresh reported 0 NEW · 62 persisting). Each read in full at its artifact:
+
+| Flag | Disposition |
+|---|---|
+| `PROME/WILL_QUEUE.md` — DEAD POINTER `workbook/VX.tsv` (row WQ-521, line 78) | DONE, pointer form: the cell named HAWK's workbook by its desk-relative path. Rewritten to `AGENTS/HAWK/workbook/VX.tsv` (file present, 86,750 B at 19:4x ET). No claim changed. |
+| `PROME/inbox/processed/2026-09-28_from-BRENT_monday-routine-flags.md` — DATE DRIFT "2026-12-26 ('Dec 26')" (line 6 region) | DONE, not a date: "Dec 26" is Investing.com's contract label for the December-2026 Brent future (`BZZ26`), quoted in BRENT's 9/28 Nov/Dec split note. The checker reads a contract month as a calendar day. Filed packet, unchanged since 5900e752b. |
+| `AGENTS/BRENT/demand_destruction/data/monday_2026-09-28.md` — DATE DRIFT "2026-12-26 ('Dec 26')" (line 23) | DONE, same label in the owner's source table (`contract labeled "Dec 26"` beside `BZZ26`). BRENT-owned, unchanged since ebc3fb7c7; nothing to route. |
+
+Coverage: 1 path flag + 2 date flags = 3 NEW. Accept all current flags against this receipt; prune any baseline row the current log no longer reports. Why these surfaced now and not at 14:2x is UNKNOWN (no allowlist row names them; both BRENT files are a month old) — recorded, not investigated (process ceiling 5 of 5 consumed this session).

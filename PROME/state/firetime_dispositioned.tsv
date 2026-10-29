@@ -4,6 +4,7 @@ AGENTS/REGINALD/CALENDAR.md	DATE DRIFT	artifact says 2027-01-05 ('2027-01-05')	2
 AGENTS/REGINALD/CALENDAR.md	DATE DRIFT	artifact says 2026-12-29 ('12/29')	2026-10-29	PROME/reports/2026-10-29_firetime-boot-flags-disposition.md
 AGENTS/REGINALD/CALENDAR.md	DATE DRIFT	artifact says 2026-12-30 ('12/30')	2026-10-29	PROME/reports/2026-10-29_firetime-boot-flags-disposition.md
 AGENTS/REGINALD/registry/NOTES.md	DATE DRIFT	artifact says 2027-01-05 ('2027-01-05')	2026-10-29	PROME/reports/2026-10-29_firetime-boot-flags-disposition.md
+PROME/WILL_QUEUE.md	DEAD POINTER	`workbook/VX.tsv`	2026-10-29	PROME/reports/2026-10-29_firetime-boot-flags-disposition.md
 PROME/WILL_QUEUE.md	DATE DRIFT	artifact says 2027-01-15 ('Jan-15')	2026-10-23	PROME/reports/2026-10-23_firetime-late-boot-flags-disposition.md
 AGENTS/CORAL/STATUS.md	DATE DRIFT	artifact says 2027-01-04 ('2027-01-04')	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
 AGENTS/AEOLUS/STATUS.md	DATE DRIFT	artifact says 2027-01-05 ('1/5')	2026-10-24	PROME/reports/2026-10-24_firetime-boot-flags-disposition.md
@@ -19,6 +20,8 @@ AGENTS/DEWEY/output/2026-09-27_nano-banc-primary-documents.md	DATE DRIFT	artifac
 AGENTS/DEWEY/output/2026-09-27_nano-banc-primary-documents.md	DATE DRIFT	artifact says 2027-01-01 ('01/01')	2026-10-28	PROME/reports/2026-10-28_firetime-night-boot3-flags-disposition.md
 AGENTS/DEWEY/output/2026-09-27_nano-banc-primary-documents.md	DATE DRIFT	artifact says 2027-01-13 ('1/13')	2026-10-28	PROME/reports/2026-10-28_firetime-night-boot3-flags-disposition.md
 AGENTS/FLG/reports/2026-09-27_WQ312_Q2_workout_rows.md	DATE DRIFT	artifact says 2027-01-19 ('1/19')	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
+PROME/inbox/processed/2026-09-28_from-BRENT_monday-routine-flags.md	DATE DRIFT	artifact says 2026-12-26 ('Dec 26')	2026-10-29	PROME/reports/2026-10-29_firetime-boot-flags-disposition.md
+AGENTS/BRENT/demand_destruction/data/monday_2026-09-28.md	DATE DRIFT	artifact says 2026-12-26 ('Dec 26')	2026-10-29	PROME/reports/2026-10-29_firetime-boot-flags-disposition.md
 AGENTS/OZK/research/threads/2026-10-01_SUBNOTES_RESET.md	DATE DRIFT	artifact says 2027-01-01 ('2027-01-01')	2026-10-26	PROME/reports/2026-10-26_sync-and-boot.md
 AGENTS/OZK/reports/2026-10-21_self-sweep.md	DEAD POINTER	`reports/2026-09-26_CRE_top3_dossiers/q2_OZK.md`	2026-10-29	PROME/reports/2026-10-29_firetime-boot-flags-disposition.md
 AGENTS/OZK/reports/2026-10-21_self-sweep.md	DEAD POINTER	`reports/2026-09-26_CRE_top3_loss_bridge.md`	2026-10-29	PROME/reports/2026-10-29_firetime-boot-flags-disposition.md
