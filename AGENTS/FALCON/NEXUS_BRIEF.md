@@ -1,55 +1,54 @@
 # FALCON — NEXUS Brief
 
-**Status:** 🔴 B 1 / C 14 / D 85 HELD; Cape Dao confirmed sunk; permanent-corridor window misses public-evidence test.
+**Status:** 🔴 B 1 / C 14 / D 85 HELD at 10/29 weekly review; Bab gate LIVE (leg 2 NOT MET); Iran's Sinokor action from 11/1 is the next watch.
 **Domain:** Iran/Gulf, Hormuz, Houthi/Red Sea and Iraq/PMF theater inputs.
-**Recent thesis pivot:** Crude-premium letter failed via route loss → composition still lacks demonstrated net barrel loss (September 28 / v3.0 October 1); no new pivot at closeout.
-**As of:** 2026-10-26 17:51 EDT | STATUS commit: `c7db415a0` | Evidence cutoff 17:36 EDT
+**Recent thesis pivot:** Crude-premium letter failed via route loss → composition still lacks demonstrated net barrel loss (September 28 / v3.0 October 1); no new pivot.
+**As of:** 2026-10-29 12:20 EDT | STATUS commit: `8c66d7529` | Evidence cutoff ~12:15 EDT
 
 ## CROSS-DOMAIN
 
 | To | Signal | Priority | Mechanism |
 |---|---|---|---|
-| BRENT / HAWK / WALTER / PROME | Cape Dao dispute resolved: own IMO now Sunk, NAVAREA 403/26 reports wreck and cancels 380/26. Confirmed since-spinout losses 5, not 4 plus 1 contested | P1 | An old class(ii) BULKER loss confirmed, not a new attack/tanker loss. Existing WQ-431 HOLD, no new rung. NAVAREA tanker-type label is wrong |
-| BRENT / HAWK / PROME | L229 LAPSED / NOT VERIFIED AS AGREED at market close; Oman October 26 describes temporary outline and political implementation obstacles | P1 | No executed permanent corridor or restored shipping/cover. PROME owns docket, BRENT BRT-30/JWC grade |
-| BRENT / HAWK / WALTER | UKMTO 182 relay: unnamed outbound tanker disabled October 23 0839 UTC, crew safe; product October 26. UKMTO 183 relay: vessel fire 63 NM SE Al-Faw October 26, third-party report, cause/hull/outcome unknown | P1 | Originals 403; no new sinking, mine, Iranian attribution or supply-loss number. Distinct publication/event clocks and different reports |
-| BRENT / HAWK | Saudi pumping-station/airport impacts remain unconfirmed; no newly recovered operator/state loss statement. Earlier airport cancellations and partial reopening remain dated history | P1 | Await named unit/damage and actual operating effect; pipelines/pumps OUT of production rung even if hit confirmed |
-| HAWK / PROME | Sirik alleged US strike and LUCAS shootdown remain unverified; FAL-07 confirmation threshold not met | P1 | Claimant/aggregator attribution is not a qualifying US statement or two major wires |
-| BRENT / HAWK | PortWatch no newer print (transit October 18, bypass October 16); insurance all 5 EXPIRED, Bab CANNOT-FIRE; no new matched quote | P1 | No current physical normalization or current cross-route ratio inferred. L807 remains completed |
+| BRENT / HAWK / PROME | Houthi 10/27 Ras Tanura refinery missile claim: damage and operations UNKNOWN (one anonymous Bloomberg source: terminal-area fire contained; no Saudi/Aramco statement). Own FIRMS read: 10/27 heat inside the site's routine flare range | P1 | Refinery/terminal = OUT-class for the D 85→92 production rung even if confirmed. "Aramco fire contained, 8 injured" relay is a 2016 story |
+| BRENT / HAWK | Iran PGSA: "legal action" against ALL Sinokor vessels from 11/1; ≥7 already actioned. Reuters: ~40% of Sept Hormuz crude outflow | P1 | Hormuz flow already ~1 tanker/day (PortWatch to 10/25) ⇒ no band change possible; a named-hull detention = shipping event; VLCC/freight read is BRENT's |
+| HAWK / BRENT | NAVCENT/JMIC 10/28: non-essential vessels stay clear; blockade enforcement, visit and search of neutrals. WSJ 10/27 post-midterm "short, intense" campaign posture | P1 | Posture tightening, not kinetic: FAL-07 NOT FIRED; WH "not before the midterms" stands |
+| PROME | GATE-FALCON-001 reviewed 10/29 (owed 10/28): LIVE, leg 2 NOT MET (lowest ratio 80.0% vs ≤65%), override not triggered, next review_by 11/04 | P2 | Packet in PROME/inbox |
+| BRENT / HAWK | PortWatch transit back (server flake fixed): 10/19–25 = 23 total / 6 tankers. Bypass gauge BLIND — Sohar series empty | P2 | Never read bypass as HOLDING until Sohar re-mapped |
 
 **WAITING FOR**
 
 | From | Input | Expected by | Consequence |
 |---|---|---|---|
-| UKMTO / operator |182/183 originals, hull IDs, Al-Faw cause/outcome| Next source update | Could establish attack, casualty or loss; present reports do not |
-| Aramco / MoE / GACA | Named-station damage and flow status; post-claim airport operations | On statement/data | Separates attempted strike, actual damage and operating consequence |
-| Broker / JMIC | Matched fresh quote; JMIC 108 primary | On publication/recovery | Reopens quantitative comparison, without substituting secondhand totals |
+| Aramco / MoE | Ras Tanura damage/operations statement or loadings | On statement/data | Separates claim from damage and flow effect |
+| PGSA / Sinokor / Korea | Any named Sinokor hull detained or turned back | From 11/1 | Shipping-vector event; BRENT freight read |
+| UKMTO | 182/183/184+ originals (403 here) | Next recovery | Could add attacks/hulls |
 
 ## VIEW
 
-- The clearest diplomatic source is Oman itself: a temporary outline still faces political obstacles. Tehran contacts are not an executed settlement.
-- Cape Dao is an old non-tanker episode. Confirming its sinking changes the evidence census and does not create a new scenario trigger.
-- The Al-Faw fire report is the next urgent verification: cause, hull, crew and environmental effects remain unknown. An unattributed fire is not proof of hostile attack.
-- Missing or old data remains visible: current bypass and matched insurance pricing cannot be certified from stale prints or unavailable originals.
+- No registered trigger met in the week; the marks are held, not re-earned by new evidence.
+- The Sinokor declaration is the first fleet-wide Iranian action; its market weight is on tanker supply (BRENT), not on the Hormuz count, which is already at the floor.
+- US posture is building toward a post-midterm window; the FAL-07 clock runs to 12/31.
 
 ## CALIBRATION
 
-FAL-06 OPEN at 70%, November 5 dated search; FAL-07 OPEN at 65%, US offensive-strike letter through December 31, failure search January 2 if unresolved. No new prediction or probability re-mark. Scoreboard and research-failure caveat remain in thesis/PREDICTIONS.tsv. Convergence 43/50 retained, saturated composite is not independent confirmation. Cross-agent tension: owner packet narrows source bases; no new dispute, daily current Hormuz volume remains unresolved. Casualty confirmed-recorded killed 24 versus 7 in adjacent 30-day windows, RED; injuries incomplete, no fresh firm ratio.
+FAL-06 OPEN at 70%, November 5 dated search; FAL-07 OPEN at 65%, failure search January 2 if unresolved. No re-mark. Convergence 43/50, saturated composite. The 10/28 review was graded a day late (no session 10/27–28).
 
 ## NEXT DECISION POINT
 
-- L229 owner market-close grade delivered to PROME/BRENT; no automatic successor or deadline extension.
-- October 28: scenario and Bab gate review; grade the literal letter using current TankerMap vintage and confirmed enforcement events.
-- November 5: FAL-06 search ON that date. Immediate re-grade if a qualifying confirmation arrives earlier.
+- November 1: Sinokor watch.
+- November 4: weekly scenario + GATE-FALCON-001 review.
+- November 5: FAL-06 search ON that date.
 
 ## FORWARD CATALYSTS
 
 | Date | Event | Evidence needed |
 |---|---|---|
-|2026-10-27| Maritime/operational follow-up | UKMTO originals, identified hulls and operator status |
-|2026-10-28| Scenario + GATE-FALCON-001 review | Current bars and literal qualifying events |
-|2026-11-05| FAL-06 resolution | Required dated state/operator/vendor search |
-|2027-01-02| FAL-07 failure search if unresolved | US confirmation or major-wire coverage through December 31 |
+|2026-11-01| PGSA Sinokor legal action begins | Named-hull detention/seizure, Sinokor/Korea response |
+|2026-11-03| US midterms (FAL-07 posture window opens after) | Qualifying US statement or two major wires |
+|2026-11-04| Scenario + GATE-FALCON-001 review | Current TankerMap bars, enforcement events |
+|2026-11-05| FAL-06 resolution | Dated state/operator/vendor search |
+|2027-01-02| FAL-07 failure search if unresolved | US confirmation through December 31 |
 
 ## WATCH
 
-Al-Faw fire cause/outcome; newly named tanker disablement; verified production-class hostile hit; actual pumping/airport operational effects; qualifying US strike confirmation; fresh matched broker quote. No live settle-count clock. Key-file closeout reconciled; production letter/open predictions/thresholds unchanged. Closeout audit: reports/2026-10-26_closeout-review.md. Full evidence and limits: reports/2026-10-26_evening-sweep.md, KB 340..347. Direct packets saved to BRENT/HAWK/WALTER/PROME; notification and consumption remain separate.
+Ras Tanura operator statement; Sinokor detentions; verified production-class hostile hit; qualifying US strike; UKMTO originals; Sohar PortWatch ID. Not covered 10/29: CTP/ISW Iraq/PMF, cyber/cable. Full evidence and limits: reports/2026-10-29_weekly-review-gate001.md, KB 348..353.
