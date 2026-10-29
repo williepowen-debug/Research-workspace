@@ -25,6 +25,7 @@
 
 ## NEXT SESSION
 
+0. **FIRST LEG (WQ-545 owed, delivered PARTIAL 10/29 16:3x ET):** official 10/29 Cboe finals were unpublished at 16:31 ET. Grade the 10/29 SKEW bar for RED FT-10 and the canary on the official close (quotes: OVX/VIX 3.32 FIRE, VIX 17.20, VVIX 98.01); packet PROME if either differs from the quote read. ⚠️ Cboe CDN now 307-redirects: fetch with redirects followed. KB-VIO-359 corrects KB-VIO-357's novelty framing (canary has fired on 28 days since July, no transmission).
 1. **Official 10/29 closes:** spot SETTLE (backfill.py --spot-only), SKEW bar for RED's FT-10 exit count, and the OVX FIRE re-read.
 2. **BOJ (evening 10/29 ET)** carry-to-vol read; SAM owns substance.
 3. **AMZN/AAPL surface reaction** on the 10/30 close; VULCAN owns substance.

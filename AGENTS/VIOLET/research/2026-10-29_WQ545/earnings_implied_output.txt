@@ -1,0 +1,10 @@
+AMZN spot 245.03 exp 2026-10-30 K 245.0 straddle 19.40 = 7.92% | call IV 1.369 put IV 1.313 | bid/ask c 9.9/9.95 p 9.4/9.55
+AMZN spot 245.03 exp 2026-11-02 K 245.0 straddle 20.70 = 8.45% | call IV 0.925 put IV 0.885 | bid/ask c 10.5/10.7 p 9.95/10.25
+AMZN last 8 post-earnings 1-day moves: [(datetime.date(2026, 7, 30), np.float64(15.32)), (datetime.date(2026, 4, 29), np.float64(0.77)), (datetime.date(2026, 2, 5), np.float64(-5.55)), (datetime.date(2025, 10, 30), np.float64(9.58)), (datetime.date(2025, 7, 31), np.float64(-8.27)), (datetime.date(2025, 5, 1), np.float64(-0.12)), (datetime.date(2025, 2, 6), np.float64(-4.05)), (datetime.date(2024, 10, 31), np.float64(6.19))]
+   median |move| 5.87% mean 6.23%
+AAPL spot 350.27 exp 2026-10-30 K 350.0 straddle 3.63 = 1.04% | call IV 0.178 put IV 0.176 | bid/ask c 1.94/1.98 p 1.66/1.69
+AAPL spot 350.27 exp 2026-11-04 K 350.0 straddle 14.10 = 4.03% | call IV 0.370 put IV 0.364 | bid/ask c 7.2/7.3 p 6.8/6.9
+AAPL last 8 post-earnings 1-day moves: [(datetime.date(2026, 7, 30), np.float64(-7.35)), (datetime.date(2026, 4, 30), np.float64(3.24)), (datetime.date(2026, 1, 29), np.float64(0.46)), (datetime.date(2025, 10, 30), np.float64(-0.38)), (datetime.date(2025, 7, 31), np.float64(-2.5)), (datetime.date(2025, 5, 1), np.float64(-3.74)), (datetime.date(2025, 1, 30), np.float64(-0.67)), (datetime.date(2024, 10, 31), np.float64(-1.33))]
+   median |move| 1.92% mean 2.46%
+^GSPC closes {'2026-10-26': 7676.77, '2026-10-27': 7722.6, '2026-10-28': 7743.98, '2026-10-29': 7707.96}
+QQQ closes {'2026-10-26': 712.2, '2026-10-27': 721.25, '2026-10-28': 725.61, '2026-10-29': 713.69}
