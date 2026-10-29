@@ -9,9 +9,9 @@
 | Item | State |
 |---|---|
 | Book | Nov-20 $40P ×4, mark $0.05 / value $20 at 10/22 11:01 ET (FORGE reconcile). Will approved a sell 10/14 (WQ-428); not evidenced in the 10/22 capture. **Will manages his own expiries — this desk sends no expiry or sell reminders** (USER.md 10/20). Detail → `POSITIONS.md` |
-| Thesis | RESERVOIR v1.7, conviction 🟡 LOW; scenarios Bear 20 / Base 50 / Bull 28 / Tail 2, EV $44.41 (P-OZK-8, 10/22) → `THESIS.md`, `SCENARIOS.md` |
+| Thesis | RESERVOIR v1.7, conviction 🟡 LOW; scenarios Bear 20 / Base 50 / Bull 28 / Tail 2 (P-OZK-8, 10/22), EV **$48.56** on Q3-based prices (P-OZK-9, 10/28) → `THESIS.md`, `SCENARIOS.md` |
 | ⛔ Fence | D1 / OZK-salvage RULED-CLOSED — no re-present, no successor. Any OZK expression is a **new** trade |
-| Candidate ideas on file | **None at 10/22.** At LOW conviction with live $49.46 (12:24 ET) ≈11% above the $44.41 EV, the desk has no idea it would bring; the gap alone is not a trigger |
+| Candidate ideas on file | **None at 10/28.** At LOW conviction with the 10/28 close $50.51 ≈4% above the $48.56 EV (P-OZK-9; was ≈11% above the old $44.41 on 10/22), the desk has no idea it would bring; the gap alone is not a trigger |
 
 ## Candidate-idea route → TERRY (USER.md 2026-10-20, "we can loosen rules for trade ideas")
 

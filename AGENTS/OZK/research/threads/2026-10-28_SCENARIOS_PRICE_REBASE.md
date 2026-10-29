@@ -1,4 +1,4 @@
-# SCENARIOS price-range re-base on Q3-26 EPS/TBV — PROPOSED (P-OZK-9)
+# SCENARIOS price-range re-base on Q3-26 EPS/TBV — APPROVED (P-OZK-9, Will 2026-10-28 22:52 ET, verbatim "P-OZK-9 approved, go ahead"; encoded in `SCENARIOS.md`)
 
 **Date:** 2026-10-28 (OZK, Will-approved work item "1 2 3 all approved go ahead", 22:44 ET; the resulting EV goes back to Will before it is encoded in `SCENARIOS.md`).
 **Owed since:** 2026-10-22 (P-OZK-8 re-weighted the scenarios on the unchanged 4/23 price midpoints $34 / $43 / $56 / $21.50; `SCENARIOS.md` line 31 marked the re-base as a separate step).

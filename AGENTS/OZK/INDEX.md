@@ -80,7 +80,7 @@ For deeper cold-boot orientation after that:
 | `IQHQ_PLAYBOOK.md` | RaDD resolution tree (A/B/C/D), weighted EL ~$129M |
 | `SEVEN_CREDIT_DEEP_DIVE.md` | Drilling into RESG problem credits (11 tracked, $719M) |
 | `WEAKNESSES.md` | Stress-testing the thesis (bull case steelman — C7 = RESG-runoff de-risking) |
-| `SCENARIOS.md` | Probability-weighted outcomes — **Bear 20 / Base 50 / Bull 28 / Tail 2, EV $44.41 (P-OZK-8, Will 10/22)** + Q3 scorecard; price ranges not yet re-based. IQHQ-specific tree → IQHQ_PLAYBOOK |
+| `SCENARIOS.md` | Probability-weighted outcomes — **Bear 20 / Base 50 / Bull 28 / Tail 2 (P-OZK-8, Will 10/22) · prices re-based on Q3, EV $48.56 (P-OZK-9, Will 10/28)** + Q3 scorecard. IQHQ-specific tree → IQHQ_PLAYBOOK |
 
 ### Research — rebuttals (bull case pressure-test)
 | File | Topic |

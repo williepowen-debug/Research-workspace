@@ -1,5 +1,5 @@
 # OZK — Scenario Analysis & Target Prices
-**Created:** 2026-03-23 | **Last Updated:** 2026-10-28 (currency fixes only; price re-base PROPOSED as P-OZK-9, not encoded) · 2026-10-22 12:4x ET (**Q3 scorecard added; re-weighted under P-OZK-8, Will-approved in the OZK session 12:42 ET** — Bear 20 / Base 50 / Bull 28 / Tail 2, EV $44.41; D:L793 item 2; 4/23 table kept below as record). Earlier 10/22: sub-notes line re-based to the issuer 6.14% / ≈$12.0M. Scenario bodies below are 2026-07-06 vintage; thesis conviction 🟡 LOW, v1.7 → `THESIS.md`
+**Created:** 2026-03-23 | **Last Updated:** 2026-10-28 22:5x ET (**P-OZK-9 price re-base encoded, Will-approved 22:52 ET — EV $48.56**; currency fixes) · 2026-10-22 12:4x ET (**Q3 scorecard added; re-weighted under P-OZK-8, Will-approved in the OZK session 12:42 ET** — Bear 20 / Base 50 / Bull 28 / Tail 2, EV $44.41; D:L793 item 2; 4/23 table kept below as record). Earlier 10/22: sub-notes line re-based to the issuer 6.14% / ≈$12.0M. Scenario bodies below are 2026-07-06 vintage; thesis conviction 🟡 LOW, v1.7 → `THESIS.md`
 **Price:** live → `STATUS.md` / boot.py (was $47.52 at the 4/23 reweight; $49.65 at 7/6 sweep; $50.51 close 10/28) | **TBV:** $47.50 (Q3 26; was $47.15 Q1 26)
 **Short Interest:** live → `STATUS.md` (10/15 settlement ~18.6% of float, DTC 9.2, KB-266; the Mar-25 13.81% below is history)
 
@@ -20,17 +20,20 @@
 
 ⚠️ **The 4/23 weights are superseded.** They were set when Q1 had "confirmed the bear at the leading-indicator layer"; Q3 missed every Bear mechanic, met the Base IQHQ leg, and met 3 of 5 Bull mechanics. The 4/23 table is kept verbatim below as a record — do not cite its weights or the $38.97 EV as the desk's view.
 
-## EXPECTED VALUE SUMMARY — CURRENT (P-OZK-8, Will-approved 2026-10-22 12:42 ET, OZK session; verbatim "yes lets please update the weights?")
+## EXPECTED VALUE SUMMARY — CURRENT (weights P-OZK-8, Will 2026-10-22 12:42 ET · prices re-based P-OZK-9, Will 2026-10-28 22:52 ET, verbatim "P-OZK-9 approved, go ahead")
 
-| Scenario | 4/23 | **Current (10/22)** | Why |
-|---|---|---|---|
-| Bear | 55% | **20%** | Its dated mechanics all missed; kept at 20%, not lower, because the appraisal-gated route (OREO $420M untested by sales, NCO "elevated through 2027" per MC p.21) is still open |
-| Base | 30% | **50%** | Management's own guided path — elevated losses as an earnings drag, no capital event — is now the modal outcome |
-| Bull | 12% | **28%** | 3 of 5 own mechanics met, 1 partial |
-| Tail | 3% | **2%** | Capital and PPNR coverage stronger than at 4/23 |
-| **EV** | $38.97 | **$44.41** on the **unchanged** 4/23 price midpoints ($34 / $43 / $56 / $21.50) | ⚠️ The price ranges themselves are **not re-based** (Base was built on EPS $4.75–5.75 and TBV $47.15); re-basing them is a separate step. Live $49.46 (12:24 ET 10/22) sits ≈11% above this EV |
+| Scenario | Weight (P-OZK-8) | Price range (P-OZK-9, Q3-based) | Midpoint | Weighted | Why this weight |
+|---|---|---|---|---|---|
+| Bear | **20%** | **$33–44** | $38.56 | $7.71 | Its dated mechanics all missed; kept at 20% because the appraisal-gated route (OREO $420M untested by sales, NCO "elevated through 2027" per MC p.21) is still open |
+| Base | **50%** | **$43–49** | $46.02 | $23.01 | Management's own guided path — elevated losses as an earnings drag, no capital event — is the modal outcome |
+| Bull | **28%** | **$57–68** | $62.15 | $17.40 | 3 of 5 own mechanics met at Q3, 1 partial |
+| Tail | **2%** | **$18–26** | $22.00 | $0.44 | Capital and PPNR coverage stronger than at 4/23 |
+| **EV** | | | | **$48.56** | 10/28 close $50.51 sits **4.0% above** EV |
 
-Moves no prediction (OZK-09 45%, A30/B45/C8/D17, ~$129M EL unchanged), no THESIS version (v1.7) and no position; trades stay TERRY → Will. **Owed:** re-base the four price ranges on Q3 EPS/TBV — **computed 10/28, PROPOSED as P-OZK-9 (EV $44.41 → $48.56), awaiting Will** → `research/threads/2026-10-28_SCENARIOS_PRICE_REBASE.md`. Not encoded here until he rules.
+**Method (P-OZK-9):** Q3-26 inputs (EPS $1.50, PPNR $261.4M/qtr, TBV $47.50, 108.4M shares, tax 22–23% guided), one 12-month horizon for all four branches, each branch's own multiple band unchanged (Bear 0.70–0.90×, Base 0.85–0.95×, Bull 1.10–1.30×, Tail 0.50–0.65× of end-state TBV). Full derivation, credit-path assumptions and limits → `research/threads/2026-10-28_SCENARIOS_PRICE_REBASE.md`. **Not folded in:** the Base multiple band sits below the market's own ~0.9–1.15× P/TBV range for OZK over the last 12 months; at 0.95–1.05× the EV would be $51.12 (sensitivity only, thread §5).
+*Superseded:* P-OZK-8's EV **$44.41** (10/22, on the unchanged 4/23 midpoints $34 / $43 / $56 / $21.50).
+
+Moves no prediction (OZK-09 45%, A30/B45/C8/D17, ~$129M EL unchanged), no THESIS version (v1.7) and no position; trades stay TERRY → Will.
 
 ---
 
@@ -75,9 +78,9 @@ Net EV: $37.45 → $38.97 (+$1.52). Implied overvaluation vs market: 24% → 22%
 - IQHQ partial writedown ($100-150M) pushes TBV to ~$37-39
 
 **Valuation:**
-- Stressed CRE bank: 0.7-0.9x eroded TBV (~$37-43)
-- **Bear target: $28-35**
-- Deep bear (IQHQ + systemic): $25-28
+- Stressed CRE bank: 0.7-0.9x eroded TBV
+- **Bear target: $33–44** (P-OZK-9, 10/28, 0.70–0.90× a 12-month TBV of $46.76–49.32; was $28-35 on 4/23)
+- Deep bear (IQHQ + systemic): $25-28 *(4/23 vintage, not re-based; the IQHQ leg it assumed was removed by the 10/9 extension — the Tail row carries the systemic case)*
 
 **Why 50%:** 89.7% of construction on interest reserves is administered, not organic. Market reads "low construction noncurrent" as health — it's artifice. Q4 noncurrent spike was the leading edge. Maturity wall is mechanical, not probabilistic.
 
@@ -103,8 +106,8 @@ Net EV: $37.45 → $38.97 (+$1.52). Implied overvaluation vs market: 24% → 22%
 
 **Valuation:**
 - Uncertain CRE bank: 0.85-0.95× TBV
-- **Base target: $40-46**
-- Current $47.52 = top of base range. Limited upside, limited downside.
+- **Base target: $43–49** (P-OZK-9, 10/28, 0.85–0.95× a 12-month TBV of $50.58–51.63; was $40-46 on 4/23)
+- 10/28 close $50.51 sits just above the base range.
 
 ---
 
@@ -122,8 +125,8 @@ Net EV: $37.45 → $38.97 (+$1.52). Implied overvaluation vs market: 24% → 22%
 5. EPS recovers to $5.75-6.25
 
 **Valuation:**
-- Recovering bank: 1.1-1.3× TBV (~$52-60)
-- **Bull target: $52-60**
+- Recovering bank: 1.1-1.3× TBV
+- **Bull target: $57–68** (P-OZK-9, 10/28, 1.10–1.30× a 12-month TBV of $51.48–52.06; was $52-60 on 4/23)
 - Squeeze overshoot: $58-65 temporarily (14-15% SI, 12-18 days to cover)
 
 **This is the loss scenario for puts.** Size to survive a squeeze to $55 without panic. Cross-ref: THESIS.md "What Would Invalidate" §3 (IQHQ cures) + §5 (Fed cuts / structural turn).
@@ -145,7 +148,7 @@ Net EV: $37.45 → $38.97 (+$1.52). Implied overvaluation vs market: 24% → 22%
 5. Forced dilutive equity raise
 
 **Valuation:**
-- **Tail target: $16-24** (0.5-0.65x deeply eroded TBV)
+- **Tail target: $18–26** (P-OZK-9, 10/28, 0.50–0.65× a TBV eroded to $36.69–40.29 before any dilutive raise; was $16-24 on 4/23)
 
 ---
 
