@@ -76,3 +76,22 @@ Marks HELD at B 1 / C 14 / D 85. Composition caveat (THESIS v3.0) unchanged: rou
 
 ## 6. Source limits
 - UKMTO site 403 from this box (184-26+ unread). Seatrade 403. No Aramco/MoE primary. WSJ/Bloomberg via relays. CTP/ISW not read this session ⇒ no Iraq/PMF quiet inference. Search coverage does not establish absence.
+
+## 7. Addendum — later 10/29 passes (12:30–13:45 ET, Will-directed)
+
+| Item | Finding | Record |
+|---|---|---|
+| Khasab fire (UKMTO 185-26) | DHOW MSV QUBA (MNV 2183) sank ~9 NM N Khasab after a "security incident" fire ~03:00Z; crew evacuated. NAVAREA IX 417/26 own fetch (position 26-19.95N 056-16.82E = UKMTO fix) + UKMTO Update 001 (relayed). Cause UNATTRIBUTED. Census 5 → 6, class (i) 1 → 2; class (i) = ledger row only, no rung | VI-0085, KB-354/355, VX-SUNK-01 |
+| IRGC 3-tanker mine claim | Claim-only: no names, positions, times; CENTCOM 10/28 says primary routes cleared; only UKMTO-confirmed 10/29 casualty is the dhow | KB-358 |
+| LEONORA KOSAN | PROBABLE identity of VI-0082 (UKMTO 181-26, LPG tanker, 7 NM NE Limah 10/22); IMO lists 23 Oct, 6 NM NE Limah | KB-359 |
+| Al-Faw fire VI-0084 | Still no name/cause/outcome after 3 days | KB-360 |
+| Iraq/PMF | CTP 10/27: militia drones surveilled US Embassy Baghdad, intercepted, no explosives; 10/28 nothing significant ⇒ PMF discriminator NOT FIRED | KB-357 |
+| Cyber/cables | No in-theater incident found for October | KB-363 |
+| Qatar LNG | FM to end-December (Edison GME notice 10/27); flows partial since 9/28 (~20 tankers/4 wks, ~⅓ prewar end-Sept) | KB-361/364, VX-GASLNG-01 |
+| Israel → Iran energy | Kan 10/29 single report: Israel asked US to clear new Iranian energy targets IF operations resume; no US response; March precedent South Pars → Ras Laffan is the path to the D 85→92 rung | KB-362/365, VX-ISR-01 |
+| Sohar | Series DROPPED upstream (ID unchanged, 0 daily rows); bypass gauge DEGRADED; Fujairah alone 90% of base to 10/23 | KB-356 |
+| VX sweep | All 10 rows re-verified and stamped 10/29 | VX.tsv |
+| New pathway | FLOW-FALCON-05: Iranian administrative enforcement on a named owner's fleet (Sinokor, from 11/1) — ARMED, not fired | FLOW.tsv |
+| WALTER ladder #3/#3b | Restated to WALTER: no FALCON trigger on a grid strike; graded via FAL-07 (NOT FIRED) and GATE-FALCON-001 (LIVE) | SendMessage 10/29 |
+
+Not done: day-by-day 10/27–10/29 gap sweep (LESSONS 2 — topic searches only); TIMELINE.md still ends 9/08 (9/09–10/29 extension carried).
