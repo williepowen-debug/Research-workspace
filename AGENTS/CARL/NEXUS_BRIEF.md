@@ -3,8 +3,8 @@
 **Status:** 🔴 v2.6.6 — concentrated household strain; broad spending collapse remains unestablished.
 **Domain:** U.S. consumer financial stress and household transmission; ISHM owns manufacturing/freight, REGINALD bank credit.
 **Thesis version:** v2.6.6
-**Recent thesis pivot:** none on 10/28. Conference Board rebound (91.7) is counter-evidence on attitudes, but on its six-month average only under-35 and $100K+ groups are rising; the Fed held with hike dissents.
-**As of:** 2026-10-28 22:09 ET | STATUS commit: `db6975682`
+**Recent thesis pivot:** none. 10/29 BEA: September real PCE flat (+0.015%), real DPI −0.27%, saving rate 3.8% (lowest since Oct 2022) = aggregate buffer drawdown with gasoline the largest nominal line; Q3 real PCE still +3.8% SAAR on July–August, so broad collapse remains unestablished; no cohort split, no letter fired (research/2026-10-29_GDP_PCE/GRADE.md).
+**As of:** 2026-10-29 09:09 ET | STATUS commit: `baa541abc`
 **Position:** No capital authority. Seven paper rows CLOSED 10/28 at the 10/27 opening-print fallback (+$313.57 paper); scoring gates shut, no performance claim.
 
 ## CROSS-DOMAIN
