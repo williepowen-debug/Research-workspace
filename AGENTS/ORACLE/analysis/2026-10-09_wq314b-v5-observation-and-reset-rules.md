@@ -132,7 +132,7 @@ The resolution source for this market is Pyth — specifically, the ICE Futures 
 | ⚠️22 which read is the NO record | Clarified: the NO record = the last **counting** read (on or before the pin) plus the close | No |
 | ⚠️31 holiday calendar | **OPEN** (US business day = ? calendar). Moot through 10/30: no NYSE or federal holiday 10/16–10/30 | No |
 | ⚠️34 half-tie rounding | Moot at the venue's precision: Polymarket prints this leg at 0.001 (0.1pp), so no x.x5 half-tie can reach O6's 0.1pp rounding (INFERRED from the printed prices) | No |
-| ⚠️39 gap counting | **OPEN** (strictly-between vs difference). Moot while reads land on consecutive business days. **2026-10-21: it now bites on the label only — see §8.3** | Only if a pull is missed |
+| ⚠️39 gap counting | **RULED 2026-10-21 (WQ-476 GAP = A), encoded 2026-10-28 — see §9.1: strictly between.** *(Superseded text:)* OPEN (strictly-between vs difference). Moot while reads land on consecutive business days. **2026-10-21: it now bites on the label only — see §8.3** | Only if a pull is missed |
 | ⚠️25 switch lowers odds "mechanically" | True only while Dec26 < Nov26. The fail-closed rule stands either way | No |
 
 ---
@@ -167,3 +167,27 @@ Business-day reads: 10/16 (Fri) 20.5 → **no read 10/19 (Mon) or 10/20 (Tue)** 
 
 Under both readings the state is **none**: 13.5 < 40.0. No future fire differs either, because an Alert needs its own last 3 reads each ≥ 40.0 and today's read cannot be one of them. Only the ARMED label differs, so the ledger records both. ⚠️39 stays **OPEN for Will**. ORACLE's recommendation is the strictly-between reading, because it is the letter's own word ("between"). The choice would change a consequence only if a state were fired and a clearing count straddled a gap.
 
+
+## 9. WQ-476 rulings encoded, the 10/22–10/27 gap, and the November pin (2026-10-28)
+
+**ORACLE · 2026-10-28 20:4x ET (from `date`) · Will-launched session, laptop `WilliePOwen`.** Will, verbatim 2026-10-21 22:46 ET: *"Approve 472 A, 473 A, 474 A, 475 A, 476 A"* (PROME packet `inbox/processed/2026-10-21_from-PROME_WQ476-RULED-A.md`). PROME asked for this encode at the 10/22 read; no ORACLE session ran 10/22–10/27, so it lands now.
+
+### 9.1 476.GAP = A — ⚠️39 CLOSED
+
+R2 counts **business days strictly between** two consecutive reads. Applied to §8.3: 10/16 → 10/21 = 2 between ⇒ no restart; the 10/21 read was **run 4, ARMED** (state none, 13.5 < 40.0). The "difference" reading is retired. §7.4 item 39 is closed by this ruling.
+
+### 9.2 476.DEFRES = A — fail-closed
+
+Alert's O8 clearing count (3 qualified reads < 40.0) starts only **after** Critical clears. Reads inside the Critical-clearing run do not count toward Alert's clearing. The touch reading in §8.1 stands (UNRESOLVED touch before Gamma's close; Critical fires only on Gamma YES).
+
+### 9.3 The 10/22–10/27 gap
+
+No ORACLE pull between 2026-10-22T02:22Z and 2026-10-29T00:44Z. Business days strictly between 10/21 and 10/28: **10/22, 10/23, 10/26, 10/27 = 4 > 2 ⇒ R2 restart.** The 10/28 October read (3.6%, liq $46.6K, QUALIFIED) is run 1, disarmed, state none. No fire was possible in the gap that ORACLE could have recorded: reads are live pulls only (O5).
+
+### 9.4 The November pin (§5)
+
+- **Listed** 2026-10-25T04:01:51Z (market id 6172751), matching the n=7 inference in §5.1.
+- **Meaning check** at Gamma 2026-10-29T00:4xZ: the resolution text is identical to October's except the month (strike $110, ICE Futures Europe WTI Pyth CLL Active Month, 1-minute candle High, same Active-Month rule) ⇒ REGIME **`v5-nov26-icewti110`**, stays v5, no ask.
+- **Pinned** in one edit 2026-10-29T00:4xZ: Nov pin + October relabel (drops `war premium`) + `REGIME` bump + MAINTENANCE entry. The October arming series ends here; the 00:44Z October read was its last arming read. No October state was fired, so nothing carries (§8.2).
+- **November entry read** 2026-10-29T00:46Z: **52.5%**, liq $28.6K ⇒ QUALIFIED under O4. ⚠️ Lifetime volume is **$3.4K**: the fetcher's volume floor flags it thin. O4 is a liquidity test, so the read counts, but the price is quoted more than traded. CLOB context since listing: 50.0 → 60.0 → 38.0 → 52.5.
+- **Consequence ahead:** reads on 10/29 and 10/30 each ≥ 40.0 and qualified ⇒ **Alert fires at the 10/30 read.** DOCKET L729's cadence ends 10/30 (until 11/1); November reads after that need a cadence decision from PROME.

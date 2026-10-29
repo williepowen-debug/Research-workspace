@@ -306,3 +306,14 @@ Polymarket slugs **rot**: markets resolve at their end-date and drop off. Every 
 - **Corrected residue claim:** `watchlist.tsv` said "WALTER watch phrase sent". No packet existed, as the transcript and the WALTER inbox both show. The recovery session sent it.
 - **Files:** `scripts/kalshi.py`, `scripts/test_cred_modes.py`, `scripts/test_mid_flag_edge.py`, `watchlist.tsv`, `kalshi_watchlist.tsv`, `workbook/VX.tsv`, `CLAUDE.md` (Kalshi paragraph + FILES row, C4 class, flagged to PROME).
 - **Boot-impact:** on the laptop, `kalshi.py status` now returns rc=3 (unsigned), not an import crash. Read rc=3 as "public data live, signed lane absent on this box". `PROME/MACHINE_LOCAL.md` row 15 still says ORACLE `kalshi.py` "dies at import" (flagged to PROME; PROME-owned).
+
+## 2026-10-28 — v5 Oct→Nov month roll encoded (letter §5/§9.4); Oct FOMC pins retired; ceasefire term structure pinned
+
+- **Trigger:** Will-launched catch-up session (laptop `WilliePOwen`, 20:44 ET 10/28) after ORACLE was dark 10/22–10/27. November $110 listed 2026-10-25T04:01:51Z (id 6172751) and was unpinned for ~3.8 days.
+- **What (one edit, per letter §5.2):** `watchlist.tsv`: Nov $110 pin added with a resolution/entry banner; the Oct pin relabelled (`war premium` key dropped, stays pinned to log its resolution). `tools/disruption_supply_spread.py`: `REGIME` → `v5-nov26-icewti110` (Oct-segment note kept in a comment). Arithmetic unchanged. Last Oct-segment row +84.9 @ 00:44Z; first Nov-segment row +36.0 @ 00:46Z. Selection verified by the tool's own output (`slug=will-wti-reach-110-in-november-2026`).
+- **Meaning check:** Nov resolution text read at Gamma 00:4xZ — identical to Oct except the month (strike $110, ICE Pyth CLL Active Month, 1-min High). Stays v5, no ask.
+- **Other rolls:** Oct FOMC no-change / hike-25 pins → `# RETIRED` resolution records (Gamma `closed=true`, both closed 2026-10-28T20:01:40Z). Added: Fed no-change-at-Dec · ceasefire through 11/30 + 12/31 as `market` rows (the by-date event only surfaces its nearest leg and hid the November cliff) · BOJ Dec hike-25 · Hormuz weekly wk-of-10/12 → wk-of-10/26.
+- **New ledger:** `workbook/V5_NOV110_READS.tsv` (same columns as `V5_OCT110_READS.tsv`).
+- **Residue fixed in-session:** a `pull --log --force` to log the new pins re-logged all 51 existing rows 2 min after the first pull; the 51 duplicates were removed (kept: the 5 new slugs at 00:48Z). `--force` bypasses the double-log guard for EVERY row, not just new ones.
+- **Files:** `watchlist.tsv`, `tools/disruption_supply_spread.py`, `workbook/{ODDS_LOG,KALSHI_ODDS_LOG,DISRUPTION_SUPPLY_SPREAD,HISTORY,VX,KB,V5_OCT110_READS,V5_NOV110_READS}.tsv`, `analysis/2026-10-09_wq314b-…` (§7.4 item 39 marked ruled, §9 added).
+- **Boot-impact:** the next November roll (Nov→Dec, ~11/25 04:0xZ listing) follows the same one-edit rule. November Active-Month switch Dec26→Jan27 at 2026-11-17T01:00Z (INFERRED, R3 applies).
