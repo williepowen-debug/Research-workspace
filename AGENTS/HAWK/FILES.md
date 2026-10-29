@@ -123,3 +123,5 @@ October 25 Will-directed research prompts: `outbox/2026-10-25_to-DEWEY_01-helium
 October 29 additions (existing dated classes, no new tracker): `research/2026-10-31_HAW-20_GRADE_PREP.md` is the HAW-20 leg checklist for the October 31 grade (a checklist, not a grade). `proposals/2026-10-29_C3_scope-cause-qualifier_HAWK-side.md` is HAWK's WQ-470 side, superseded by OSPREY's joint text at `97f4bcff7`. `outbox/2026-10-29_to-ISHM_defense-capex-seam-confirmed.md` is the seam reply; its exact copy was dropped into ISHM's inbox 2026-10-29 on Will's word.
 
 `LAST_COMPLETION.md`: 🧊 FROZEN 2026-10-29. Dated September 21 session record; not maintained. Current completion receipts are dated outbox packets (`outbox/*_to-PROME_*`) and STATUS/SCRATCH. Not retirement-eligible until after November 20 (60-day rule).
+
+October 29 Will-directed checks: `research/2026-10-29_EURMIL_residuals.md` (Europe residual receipt, incl. the Croatia RED (b) defect) and `research/2026-10-29_FLOW21_Q3_TCE.md` (Q3 realized-TCE test; subagent report, DHT figures HAWK-verified). Existing dated-research class.

@@ -4,7 +4,7 @@
 
 | Owner ledger | Committed head reviewed | Data rows, excluding header |
 |---|---|---|
-| OSPREY STRIKES | `e8f1acaf3` | 161 (+2 since 10/23: KHORYV 10/23, Shabla containership ~10/28) |
+| OSPREY STRIKES | `d84339d95` | 182 (+2 current since 10/23: KHORYV 10/23, Shabla ~10/28; +21 HISTORICAL Apr–Aug backfill rows, OWED-51, 13:39 ET — not new events) |
 | FALCON facility STRIKES | `8c66d7529` | 41 (no new facility event; newest established September 10) |
 | FALCON VESSELS | `800ccec25` | 85 (+3 since 10/25: VI-0083/0084 relayed UKMTO reports; VI-0085 Khasab) |
 
@@ -19,6 +19,8 @@
 **FLOW-19 / K1:** BRENT October 26 (KB-HAWK-469): K1 input UNMEASURED; the ~14 mb/d / 82% figure is a preliminary relay. No measured fraction of oil price attributable to premium.
 
 **Forecast perimeter:** HAW-22 OPEN, 65% UNCALIBRATED; October window closes October 31; no qualifying candidate (the Khasab dhow is a vessel, Ras Tanura a claim on an excluded class). **undisclosed damage can produce a misleading CONFIRM — a CONFIRM on this letter is a claim about what was DISCLOSED, never about capacity**.
+
+**13:4x ET addendum (owners' afternoon passes):** FALCON (`26f10b0fb`/`a83f18891`): QatarEnergy LNG force majeure extended to end-December (KB-FALCON-361/364; partial flows, ~a third of prewar Qatari LNG carriers transiting by end-September); Israel reportedly asked the US for permission to strike new Iranian energy facilities IF the campaign resumes — one Kan report, unnamed source, no US response (KB-FALCON-362/365); IRGC three-tanker mine claim still claim-only. OSPREY (`d84339d95`): EO 14436 (Oct 16) implements the Graham Act tariffs (+500% Russian goods; +100% on the top-5 buyers of Russian crude/gas) and WAIVES them in the same order (KB-OSPREY-234); Druzhba: no interruption reported after Tambov. HAWK read (KB-HAWK-482): the US sanctions leg is codified-but-waived — a live legal instrument with zero current collection, the same shape as the suspended China clocks. No change to the oil-risk read.
 
 **No double-count:** preserve attacker/target dyad, molecule, asset and loading/departure/transit basis. IRGC mine claims, PGSA enforced vessels, Seoul Economic's seven tankers and FALCON's confirmed losses are separate populations.
 
