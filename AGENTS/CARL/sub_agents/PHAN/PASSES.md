@@ -8,6 +8,20 @@
 
 ---
 
+## 2026-10-28 PM pass (news/data catch-up, Will-directed; ~1h after the hygiene pass below)
+
+- **Scope:** sweep aimed at what the hygiene pass named as its limits (web search weak on 2026) plus forward calendar. No ledger row re-marked or resolved; CARL disposes.
+- **🔴 NEW, never tracked by PHAN or CARL (grep of PHAN/, CARL STATUS + KB = 0 hits for SHED):** Fed **SHED 2025** (*Report on the Economic Well-Being of U.S. Households in 2025*, pub **2026-05-13**; survey fielded Oct-2025, ~13,000 adults; federalreserve.gov Credit chapter, Table 41). **BNPL users who paid late = 26%, "essentially unchanged from the prior year"**; 64% of late payers charged extra; use 16% of adults (15% prior year). **Income gradient: <$25K 40% · $25–50K 33% · $50–100K 25% · $100K+ 11%.** 29% of users say BNPL was "the only way I could afford it" (40% at <$25K, 15% at $100K+); ~1 in 5 used it for groceries/food delivery.
+  - **Conflict with the series our only RED band rests on:** LendingTree (opt-in online, n=2,060, fielded 3/17–23/26) reads **47% and rising** (+6pp/yr). SHED (probability-based panel, n≈13k, fielded Oct-25) reads **26% and flat**. Level gap 21pp AND trend direction disagree. Windows overlap but are not co-vintaged (SHED Oct-24→Oct-25; LT Mar-25→Mar-26). On the SHED basis the band reads **just over yellow (>25%), under orange (>35%)**: the 🔴 call is a property of the house, not of the borrower. `[[finding_distance_to_a_threshold_is_a_claim_about_its_basis]]`
+  - **What survives either way:** the K-shape gradient (40% vs 11%) is a supportive disaggregation. It is a cross-section, not a trend.
+  - **RED exposure:** `handoff_RED/COUNTER_LOG.md` makes "LendingTree late-rate keeps climbing" a change-my-mind condition; the larger-sample series is not climbing.
+- **LendingTree page re-dated 2026-10-14** (monthly tracker, Oct 2–9/26, n=2,000): **90% of those who asked to waive a BNPL late fee got it waived or reduced**. 47% headline unchanged (still the March fielding). Mild counter: a late payment doesn't necessarily cost the borrower anything.
+- **Calendar (confirmed at company releases):** **Coastal Financial (CCB) Q3-26: 2026-10-29 before open, call 8:00 ET** (release 10/22; no Q3 8-K on EDGAR at 22:15 ET 10/28). This is the open DISTRESS row; CARL docket row 10/30 WQ-228 covers CCB. **Affirm FQ1-27: 2026-11-05 after close** (release 10/05; guide revenue $1.19–1.22B, GMV $13.7–14.0B). **Klarna Q3-26: 2026-11-17 before open, webcast 8:30 ET** (release 10/22). Gate window 11/05–11/20 holds.
+- **Nulls (secondary search, corroborating the hygiene pass):** no 1033 NPRM published; no NYDFS final BNPL rule; no new state-AG EWA/cash-advance action after CO 8/27; no consumer-fintech failure found for Sep–Oct 2026. Senate Banking 5/4/26 bureau letters already logged (SV-PHAN-2026-07-10-01 item 5); PDF 403 on fetch.
+- **Limits:** SHED figures read from the Fed's HTML chapter via a summarizing fetch, not the PDF; prior-year late share given in text only ("essentially unchanged"); 2024 secondary coverage says 24%. Klarna/Coastal dates from wire reprints of company releases.
+
+---
+
 ## 2026-10-28 pass (bounded hygiene, CARL-spawned, Will-approved; 47 days since last)
 
 - **Scope:** ledgers attended (COCKROACH, REGULATORY, PREDICTIONS), malformed rows fixed, 9/11 CARL packet processed. NOT the Nov-12 gate; no row graded.
