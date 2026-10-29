@@ -38,7 +38,7 @@
 
 ## CARRY-FORWARD
 
-- **Push state (10/28):** see the receipt line appended below at closeout.
+- **Push state (10/28):** commits 113bfb8b5 (ORACLE files) · d2711c1ce (→ PROME packet) · c07deecca (→ BRENT packet). safe-push receipt: `Pushed. CONFIRMED: HEAD c07deecca is on origin/master (fresh fetch).` This SCRATCH receipt edit is its own follow-up commit.
 - **Concurrent sessions on this box:** PROME's untracked `PROME/reports/2026-10-28_wq515-batch1/` and WALTER's unpushed commit 74da61e47 were present at boot. Path-scoped commits only.
 - **Standing framing (do not re-derive):**
   - Fed: hiked 25bp 9/16 to 3.75–4.00% (KB-ORC-083); HELD 10/28 (KB-ORC-109). Venue-vs-futures only in expected bp at a matched time (KB-ORC-100).
