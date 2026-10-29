@@ -1,7 +1,7 @@
 # OZK — Agent Index
 **Start here on cold boot.**
 
-**Last updated:** 2026-10-22 — thesis **v1.7** (conviction 🟡 LOW, WQ-483), KB **266 / 37** (10/28 catch-up); Q3 print graded (Stage-1 10/21, Stage-2 10/22); housekeeping sweep → `reports/2026-10-22_self-sweep.md`.
+**Last updated:** 2026-10-22 — thesis **v1.7** (conviction 🟡 LOW, WQ-483), KB **269 / 37** (10/28 catch-up); Q3 print graded (Stage-1 10/21, Stage-2 10/22); housekeeping sweep → `reports/2026-10-22_self-sweep.md`.
 
 **State snapshot** *(numbers live in `STATUS.md` — this is orientation only)*:
 - **Thesis v1.7 RESERVOIR — conviction 🟡 LOW** (re-graded from 🔴🔴 HIGH 10/22, Will-approved WQ-483): RaDD catalyst removed (Dec-2029 extension, fresh $100M); Q2 adverse-selection did not repeat in Q3; residual = OREO/Boston marks untested by sales, an earnings drag not a capital event. → `THESIS.md`, `CHANGELOG.md`
@@ -10,7 +10,7 @@
 - **⚠️ Two facts cold spawns get wrong:** (1) **OZK files Form 10-Q with the FDIC (cert #110), not the SEC** — there is no *SEC* 10-Q, and the FDIC 10-Qs (`raw/Q*_10Q.pdf`) are this desk's best primary. (2) **The 37.6% MI3 "worst in screen" figure is dead** (live 9.35%, rank 5th/14) — never cite it.
 - **Positions: one line** — Fidelity OZK Nov-20 $40P ×4, still held at 10/22 11:01 ET although Will approved selling 10/14 (WQ-428; order status UNKNOWN). TERRY owns the card, Will the order. The Aug-21 puts expired worthless 8/21. ⛔ D1/OZK-salvage ruled closed. → `STATUS.md` §Positions, `POSITIONS.md`
 - **Next dates:** sub-notes call-notice window opens Mon 11/2; **Q3 10-Q ~Thu 11/5** (D:L763 — SM −$313M flow, RaDD reserve, OREO roll-forward); Q3 Call Report ~Nov 1–10 (FFIEC JWT expires 11/5, Will action); Q4 print ~Jan 16–20 2027. Q3 grade → `research/threads/2026-10-21_Q3_PRINT_STAGE1_GRADE.md`, `research/threads/2026-10-22_Q3_CALL_STAGE2_READ.md`.
-- **KB.tsv: 266 rows / 37 groups** (10/28).
+- **KB.tsv: 269 rows / 37 groups** (10/28).
 
 ---
 
@@ -65,7 +65,7 @@ For deeper cold-boot orientation after that:
 | `POSITIONS.md` / `TRADE.md` | Option positions (Nov-20 $40P ×4 held at 10/22 11:01 ET) / trade ideas — **LIVE since 10/22** (§Now + candidate-idea route → TERRY, NOT-FIRED labelled) |
 | `scripts/boot.py` | Boot kit v0.2 — prices, FDIC filings watch, catalysts, standing watch, inbox, staleness |
 | `scripts/flng_watch.py` | FDIC filings watch (cert 110) — rc 0 quiet / 1 new / 2 unknown; `--selftest` |
-| `workbook/KB.tsv` | Evidence database (266 rows / 37 groups as of 2026-10-28) |
+| `workbook/KB.tsv` | Evidence database (269 rows / 37 groups as of 2026-10-28) |
 | `workbook/CALL_REPORT_SERIES.tsv` | **FFIEC Call Report series, 18 quarters** (RSSD 107244) — MI3 both bases, past-due decomposition, NCO, CRE NCO, OREO/NPA. LOG-ONLY source (Z6 never re-grades off it). |
 | `MI3_2025Q3_ADJUDICATION.md` | **L181 verdict** (2025Q3 MI3 step = debt-on-debt book decline; §6.5 layers OBSERVED / INFERRED / NOT EXCLUDED) |
 | `SWEEP_2026-08-28.md` | Will-directed data-integrity sweep (22 findings) |
@@ -154,7 +154,7 @@ For deeper cold-boot orientation after that:
 ### Workbook
 | File | Content |
 |------|---------|
-| `workbook/KB.tsv` | Evidence database — 266 rows / 37 groups (as of 2026-10-28) |
+| `workbook/KB.tsv` | Evidence database — 269 rows / 37 groups (as of 2026-10-28) |
 | `workbook/KB_INDEX.md` | Cluster navigator (all 37 groups indexed; verified 9/24) |
 | `workbook/CALL_REPORT_SERIES.tsv` | FFIEC 18-quarter series (see Core) |
 | `workbook/Q2_2026_SCORING_CARD.md` | Q2'26 Stage-1/Stage-2 grades |

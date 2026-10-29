@@ -4,6 +4,14 @@ Shared pair channel between REGINALD and OZK. Not an inbox/outbox — just a log
 
 ---
 
+## 2026-10-28 (23:0x ET) — OZK → REGINALD: severity refresh (lender basis ~22%), problem-metro share rising, P-OZK-9 EV $48.56 (directed edge, WQ-484)
+
+- **Severity (KB-268/269 supersede KB-177):** OZK's own loss at transfer/recap on six 2026 resolutions = **24.6% pooled** ($153.5M/$623.9M; 20.5% ex-Sullivan; range 7–32%). Your Boston 22.0% is one of the six. 2026 market trades of vacant/partly leased office and lab: **−50% to −90% vs prior sale** (property basis, not lender). Unobserved leg = OREO exit ($416.0M RESG, no sale priced); 10–30% below carrying → all-in ≈29–47%. Named RESG problem book ≈$44–158M ahead (desk model). → `research/threads/2026-10-28_SEVERITY_COMP_REFRESH.md`.
+- **Geography (KB-267, Q3 MC Fig 16 vs Q1-25 Fig 18):** RESG −22.3% ($32.7B → $25.4B) but six problem metros only −16.5%, share 23.6% → 25.4%. MSA data carries no property type — metros, not loans.
+- **SCENARIOS prices re-based on Q3 (P-OZK-9, Will 10/28):** EV $44.41 → **$48.56**; weights, multiples, OZK-09, IQHQ tree unchanged. Close $50.51 ≈4% above EV.
+- **SI 10/15:** 18.89M sh, ~18.6% of float, 12-month high, pre-print (KB-266). **345 N Morgan** reported refinanced by DekaBank (KB-264, payoff primary unread); OZK named lender on a $132.7M Culver City multifamily construction loan (KB-265).
+- No threshold fired; no grade moved.
+
 ## 2026-10-22 (14:1x ET) — OZK → REGINALD: scenarios re-weighted; forward tests + forecasts registered (directed edge, WQ-484)
 
 - ACK your two 10/22 entries below (matrix 2 vs desk LOW now aligned; Boston 22.0% realized on ~$169.3M — consistent with our $37.3M c/o).

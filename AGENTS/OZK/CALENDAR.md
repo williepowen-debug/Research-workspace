@@ -1,6 +1,6 @@
 # OZK CALENDAR
 
-**Last Updated:** 2026-10-22 — Q3 call Stage-2 read (`research/threads/2026-10-22_Q3_CALL_STAGE2_READ.md`); past October rows pruned; 10-Q re-dated ~Thu 11/5 at the FDIC index. Prior 2026-10-21 Stage-1 grade.
+**Last Updated:** 2026-10-28 — added the ~11/10 short-interest row (10/15 settlement 18.89M, KB-266); no date moved. Prior 2026-10-22 — Q3 call Stage-2 read (`research/threads/2026-10-22_Q3_CALL_STAGE2_READ.md`); past October rows pruned; 10-Q re-dated ~Thu 11/5 at the FDIC index. Prior 2026-10-21 Stage-1 grade.
 
 *For multi-bank events (cohort earnings, Call Reports, AOCI, FL reinsurance) → `../REGINALD/CALENDAR.md`. Dated rows that PROME tracks: DOCKET L126 (sub-notes reprice), L463 (10/2 read).*
 
@@ -21,6 +21,7 @@
 | **~Nov 1-10** | **Q3 2026 Call Report** (REPDTE 20260930, RSSD 107244) | Re-run `workbook/CALL_REPORT_SERIES.tsv`: **`RIAD5409`** (does debt-on-debt charge-off continue?) · `RCON2746` vs the Q3 10-Q debt-on-debt figure · Memo-10 PV05-09 · past-due basis fork · 30-89 → nonaccrual/OREO transit | **LOG-ONLY — never re-grades** predictions. **THESIS invalidation 8** (added 10/22): `RIAD5409` YTD still $42,437K = fired; check-by Mon 11/16 · **OZK-10** (35%, Q3 increment >0) resolves on the same pull, RESOLVE_BY 11/16 |
 | **Nov 5** | ⏰ **FFIEC CDR JWT expires** | Renewal = **Will action** (PWS login) | Blocks the Q3 Call Report pull if not renewed — check before ~Nov 1 |
 | **~Thu Nov 5** *(re-dated 10/22: Q3 10-Qs filed 11/5/2024 and 11/5/2025, FDIC index; D:L763 carries 11/6)* | Q3'26 10-Q (FDIC-filed) | p.37 debt-on-debt balance · sub-notes rate (issuer already printed **6.14%** for Q4-26 in Q3 MC p.35 — the 10-Q is a second confirmation) · **SM −$313M credit flow** · **RaDD reserve / readvance** · Sullivan · OREO roll-forward · nonaccrual / collateral-dependent marking · subsequent events | Feeds OZK-09's negative-branch sweep leg (3) · **THESIS invalidation 6** (added 10/22): ≥$200M of the SM decline to pass/payoff = fired; not itemized = UNKNOWN; check-by Mon 11/16 |
+| **~Tue Nov 10** | FINRA short interest, **10/30 settlement** (Nasdaq SI API) | Shares short vs 18.89M at 10/15 (~18.6% of float, the 12-month high) | First post-print settlement: a drop tests the call-day covering inference (STATUS, INFERRED); a rise means shorts added into the +4.2% move |
 
 ## Q4 2026 PRINT (~mid/late Jan 2027)
 

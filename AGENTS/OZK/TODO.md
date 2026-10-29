@@ -1,6 +1,6 @@
 # OZK — Research TODO / Backlog
 
-**Last updated:** 2026-10-22 13:3x ET — **DAEDALUS D:L793 fix batch worked with Will in session:** THESIS invalidation 6–8 added (347d0722e) · Q3 folded into SCENARIOS/WEAKNESSES/PRIVATE_CREDIT (314e84f09) · **P-OZK-8 re-weight applied, Will 12:42 ET** · OZK-10/11/12 registered + boot past-due check · flng_watch baseline → 12022, CALENDAR dup removed, KB_INDEX 210/218/219. **Owed:** re-base SCENARIOS price ranges on Q3 EPS/TBV. Earlier 10/22 — Q3 graded (Stage-1 10/21, Stage-2 10/22); **P-OZK-7 applied: THESIS v1.7, conviction 🟡 LOW (WQ-483)**; housekeeping sweep done (`reports/2026-10-22_self-sweep.md`): G3 and T1 closed. Next: Q3 10-Q ~11/5 (D7). · Prior 2026-10-12 — L690 review/card/Horton bounded leg complete.
+**Last updated:** 2026-10-28 23:0x ET — **catch-up session with Will** ("1 2 3 all approved", 22:44 ET): SCENARIOS prices re-based (**P-OZK-9**, Will 22:52 ET, EV $48.56) · **C4 severity refresh DONE** (KB-268/269 supersede 177) · **R2 GEOGRAPHY + LIFE_SCI rebuilt on Q3** (PRIVATE_CREDIT + INSIDERS remain) · inbox drained · charter hot/cold split (L810) · READS attestation. Prior 2026-10-22 — D:L793 fix batch; P-OZK-7/8 applied.
 **Dated items also live in `CALENDAR.md`; this file is the research queue.**
 **▶ WORK ORDER (L690, Will-approved 10/12):** run the ready Q3 card at L520; review Horton unresolved disposition at original 10/14 checkpoint. Broader reserve-model rebuild **DEFERRED** pending decision-relevant Q3 inputs; no general subdomain refresh.
 
@@ -34,15 +34,15 @@
 | C1 | **Horton current leasing/occupancy evidence** | **Bounded search DONE 10/12; result UNRESOLVED** · original CHECK-BY **10/14** retained | `research/threads/2026-10-12_HORTON_BOUNDED_CHECK.md`: no dated current operator occupancy measure; dated forecast/undated listing/old retail announcements insufficient. Next owner/tenant/city evidence path, no indefinite search |
 | C2 | **SD County Recorder — signed RaDD extension/covenants** | 10/12 403; instrument unread | Issuer establishes 10/9 execution to Dec-2029. Independent recorder number/title, covenants, redraw terms remain UNKNOWN; no claimed Sixth Modification |
 | C3 | **Aimco v. IQHQ** motion/ruling | **Public checks DONE10/12; outcome UNKNOWN** | Official2026 IQHQ/Aimco opinions searches no results; full Chancery docket via **FSX**, access unavailable. CourtConnect is a different court universe; motion existence/case number not verified |
-| C4 | **Severity comp refresh** (KB-OZK-177 bands) | 🟠 stale since 7/31 | Q2-Q3 distressed CRE transactions; Spur deed-in-lieu (9/17) is a new data point |
+| ~~C4~~ | ✅ **DONE 10/28** — KB-268 (2026 market) + KB-269 (OZK lender-basis loss ≈20–25% at transfer) supersede KB-177 → `research/threads/2026-10-28_SEVERITY_COMP_REFRESH.md` | — | Open leg: first OREO sale price (THESIS invalidation 7). Not swept: Baltimore land |
 | C5 | **DONE10/12 — identify/correct Affinius event** | NEA/USRE2021-1 original expected repayment **October20**, legal final **2061** | Original $2.691B warehouse lease ABS, not corporate maturity/default. Original ratings index + SEC holder corroboration; current amendments/payoff UNKNOWN, trustee report sign-in. Narrow October follow-through remains; no automatic default inference |
 
 ## 3. Research threads
 
 | # | Item | Priority | Note |
 |---|---|---|---|
-| R1 | **Re-derive SEVEN_CREDIT's $150-300M reserve-build estimate** on the **Q2 roster** (`research/threads/Q2_2026_10Q_READ.md` §2) + SM concentration (5 credits $529M) | **DEFERRED by L690** | Rebuild only if Q3 supplies decision-relevant new classifications/cash prices/retained balances; not commissioned now. Single-supported since the 37.6% input died; the Q1 roster it used has turned over (Sullivan cured; Chapter I/II + Atlanta foreclosed) |
-| R2 | **Refresh the 4 subdomain STATUS files** — LIFE_SCI · GEOGRAPHY · INSIDERS · PRIVATE_CREDIT (was S2) | 🟠 | All pre-Q2-print; INSIDERS/SELLING got the 9/24 pull only. Largest body of work |
+| R1 | **Re-derive SEVEN_CREDIT's $150-300M reserve-build estimate** on the **Q2 roster** (`research/threads/Q2_2026_10Q_READ.md` §2) + SM concentration (5 credits $529M) | **DEFERRED by L690** | Rebuild only if Q3 supplies decision-relevant new classifications/cash prices/retained balances; not commissioned now. Single-supported since the 37.6% input died; the Q1 roster it used has turned over (Sullivan cured; Chapter I/II + Atlanta foreclosed) Inputs now on file: KB-269 (OZK loss ≈20–25% at transfer) + the 10/28 severity thread §3 (named book ≈$44–158M ahead). |
+| R2 | **Refresh the remaining subdomain STATUS files** — INSIDERS · PRIVATE_CREDIT (GEOGRAPHY + LIFE_SCI ✅ rebuilt 10/28 on Q3) | 🟡 | INSIDERS with the ~11/5 EFR re-pull (D5); PRIVATE_CREDIT after the 10-Q debt-on-debt balance (D7) |
 | R4 | **Does OZK populate MI3 from the debt-on-debt book only?** | 🟡 | MI3 ≡ PV09 every quarter ⇒ zero CRE-purpose ever reported from item 4 |
 | R5 | **Primary BPRE marks/Alewife funding refresh DONE10/12** | Video Q&A access gap remains | June common mark $317.4M, subsequent $270.6M (−14.73%, disclosedAugust28); September30 equity weights5.3%+2.6%. Alewife fundedSeptember28 terms verified. Written replay summary consumed; no video transcript. Source artifact preserves instrument/date/denominator limits. Trade construction remains TERRY/BROCK/Will |
 | R6 | **OZK-04 roster freshness** — its numerator is our own SEVEN_CREDIT roster | 🟡 before Q4 print | Gradeable at the Q4'26 print only if the roster is current |
@@ -67,7 +67,7 @@
 
 ## 5. Standing
 
-- **Short interest** — refresh at each FINRA settlement (Nasdaq API) [KB-214]. Last: **17.60M / ~17.4% float, DTC 13.5 @ 9/30** (pulled 10/22; STATUS carries the token). Next: the 10/15 settlement publishes ~10/27.
+- **Short interest** — refresh at each FINRA settlement (Nasdaq API) [KB-214]. Last: **18.89M / ~18.6% float, DTC 9.2 @ 10/15** (pulled 10/28, KB-266; STATUS carries the token). Next: the 10/30 settlement publishes ~11/10 — the first post-print read.
 - **NDFI-contagion regime** — consume REGINALD/BROCK reads; OZK trades as a beta name (C8).
 - **FDIC filings** — `scripts/flng_watch.py` runs in every boot.
 
