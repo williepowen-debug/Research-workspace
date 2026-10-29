@@ -1,3 +1,5 @@
+> 🗄️ **ARCHIVED 2026-10-28 (Will: "lets unfreeze it if you can fix it"). HISTORY ONLY, NOT INSTRUCTIONS.** This is PHAN's Apr-2026 charter, frozen 2026-07-10 (DAEDALUS sub-agent audit) and banner-corrected until 2026-10-28. Its boot/closeout steps, `SHARED/` route and `$400B+` figure are all superseded or refuted. The live charter is `../CLAUDE.md`. Moved with `git mv`, so `git log --follow` carries its history.
+>
 > ▶ **LIVE ENTRY (2026-10-28): run `python3 AGENTS/CARL/sub_agents/PHAN/scripts/boot_check.py`, then read `DOSSIER.md` (§8 BOOT). Closeout = `CLOSEOUT.md`. Everything below is FROZEN at Apr-2026; only this banner is maintained.**
 >
 > ⛔ DEMOTED TO DOSSIER 2026-07-10 (DAEDALUS audit, Will-approved) — this file is FROZEN at its Apr-2026 vintage; entry surface is DOSSIER.md. WARNING: this file's Klarna narrative was REFUTED at parent (Klarna Q1-2026 profitable, CARL May-14) — do not cite any value here as current.
