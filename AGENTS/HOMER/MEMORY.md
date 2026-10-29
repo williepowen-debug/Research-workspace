@@ -15,7 +15,7 @@
 - **`workbook/KB.tsv` is FROZEN (2026-07-10)** — parent-era canonical KB, ~65 rows, CARL_ID provenance column intact. Do not append to it; do not renumber it. New rows go to `workbook/KB_LIVE.tsv`. The freeze banner is the row-ID-stability contract — breaking it breaks the delegation provenance CARL's own KB still cites.
 - **`state_vectors/corrected/` is a retrieval hazard, not a normal subdirectory.** It holds exactly one withdrawn/superseded SV (SV-HOMER-2026-06-08-01). CARL's old harvest globs (and any future search) do NOT descend into `corrected/` — a valid/live SV must never be filed there. Kept as historical record only; the SV channel itself is retired (see CLAUDE.md).
 - **`archive/` holds pre-promotion build artifacts** (GAP_ANALYSIS.md, REPORT.md, SPAWN1_DATA_REFRESH.md, UPDATE_PLAN.md) — Apr-vintage, already flagged in-file as archive candidates by the 7/10 verification pass. Historical record; no action needed unless a future sweep wants to prune further per the Data Hygiene >60d rule.
-- **`domain/` exists but is empty** — carried over from the pre-promotion structure, no files as of promotion. Leave as-is; a future session may populate it with research/deep-dives per the original CLAUDE.md's Key Files intent.
+- ~~`domain/` exists but is empty~~ — **gone** (verified absent 2026-10-28); research lives in `reports/`.
 
 ## Cross-Agent Facts Worth Remembering
 
@@ -25,5 +25,5 @@
 
 ## Infra — what this box can and cannot reach (as of 2026-09-29)
 
-- **Works:** Freddie `freddiemac.com/pmms/docs/PMMS_history.csv` · Treasury daily par-curve CSV (`home.treasury.gov/...daily-treasury-rates.csv`) · Fannie monthly PDFs (`/media/document/pdf/MMDDYY.pdf`, slow) · ICE First Look pages · SEC EDGAR 8-Ks · attomdata.com.
+- **Works:** Freddie `freddiemac.com/pmms/docs/PMMS_history.csv` · Treasury daily par-curve CSV (`home.treasury.gov/...daily-treasury-rates.csv`) · Fannie monthly PDFs (`/media/document/pdf/MMDDYY.pdf`, slow) · ICE First Look pages · SEC EDGAR 8-Ks · ~~attomdata.com~~ (⚠️ issuer paths returned 403 on 2026-10-19 — try wire copies on PR Newswire/BusinessWire).
 - **Blocked / failing:** MBA (403 site-wide) · S&P press + spglobal (403 — Case-Shiller must come via a secondary) · miamirealtors.com (empty to curl) · therealdeal.com (403 — use CRE Daily / Yahoo syndication) · FRED CSV (HTTP/2 stream errors; retry `--http1.1`, or use the issuer file).

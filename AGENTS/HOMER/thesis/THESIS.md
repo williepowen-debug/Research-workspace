@@ -200,3 +200,16 @@ How this rail's legs map into CARL's convergence matrix. **CARL scores; HOMER fe
 | **A3** | October NAHB HMI **29** (Sep 32); cutters **43%** (38%); incentives **65%** (66%). PRIMARY NAHB HMI page directly fetched after 12:09 ET; issuer schedule 10/19 10:00 ET. Evidence: `reports/2026-10-19_morning_evidence/nahb_live.txt` | **0 / 3** | **NOT FIRED**: 29 <40 | For cutters >45%: NOT MET. Against HMI >=36 AND cutters falling: NOT MET. Explicit cutters rose 5pp; incentive participation eased 1pp. Average explicit cut 6% is a lower bound on total concessions |
 
 No other newly resolving print was integrated: **0/5 legs killed**, no criterion or confidence moved. C1 0/3; C2 CMBS 0/3 and GSE 0/3; A1 remains one of two FHA-quarter declines with all-loans cure YoY ungraded for August; A2 0/4 (10/15 PMMS reread is not another weekly print). ATTOM August and Trepp September SS relays duplicate existing evidence; Galleon is an unverified single-building case. None grades a core kill. **Formal review 2026-11-20, §7 V5 and §8a 19/25 handle unchanged.** Report: `reports/2026-10-19_morning-L725.md`.
+
+### 2026-10-28 — catch-up (prints released 10/20–10/28; mechanical update only)
+
+| Leg | First print integrated | Fired count | Verdict | Frozen cleanest-flip check (§3) |
+|---|---|---|---|---|
+| **C1** | ICE First Look **September** (Business Wire 10/27): FC sales **8.2K, +14.5% YoY**; FC inventory **303K, +37% YoY, +5K MoM**; FC starts 40.0K, **−2.9% YoY** (Aug +29%) | **0 / 3** | NOT FIRED (both YoY legs > 0) | *For* (sales YoY ≥ +20%): **NOT MET** (+14.5%). *Against* (inventory down MoM with sales down MoM): **NOT MET** (inventory +5K, sales +5.4% MoM). ⚠️ New, not a criterion: starts YoY turned negative — the inflow end is cooling while conversion continues |
+| **C2 · CMBS** | none — Trepp October DQ ~11/02 | **0 / 3** | NOT FIRED | pending |
+| **C2 · GSE** | Freddie MF **0.58% Sept** (MVS pub 10/26; Aug 0.64% unrevised). Fannie September NOT YET PUBLISHED (checked 10/28 ~22:48 ET) | **0 / 3** | NOT FIRED — max(Freddie, Fannie) ≥ 0.58% whatever Fannie prints | Freddie's first MoM decline since April; 8bp above 0.50%. One month, mod-suppressible headline |
+| **A1** | none — ICE Mortgage Monitor (Nov) and MBA Q3 NDS pending. ICE First Look: FHA serious DQ −10% since Feb (ICE narrative; not a band basis) | **½ of the first conjunct** (unchanged) | NOT FIRED | pending (Q3 NDS) |
+| **A2** | PMMS **7.32% [10/22]** (ISSUER CSV) | **0 / 4** | NOT FIRED | 82bp above the kill line (≤ 6.50%) |
+| **A3** | no HMI (next 11/17). Builder 8-Ks (context, not the criterion): PHM GM 24.8%, NVR 18.3% cancels 21%, MTH 17.4%, CCS guidance cut | **0 / 3** | NOT FIRED | pending |
+
+**LITERAL FIRED-COUNT: 0 of 5 legs ⇒ 🔴 holds.** No criterion, level or confidence moved. Evidence: `reports/2026-10-28_catchup-prints.md`; ledgers PIPELINE / MULTIFAMILY / RATES / BUILDER rows dated 2026-10-28.

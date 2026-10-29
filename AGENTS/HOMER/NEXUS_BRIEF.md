@@ -1,10 +1,10 @@
 # HOMER — NEXUS Brief
 
-**Status:** 🔴 New Trepp cohort coverage warning; rental-demand counterweight. Nine sweep additions; thesis counts unchanged.
+**Status:** 🔴 Pipeline 882K (ORANGE) while foreclosure starts turn negative YoY; Freddie MF eases to 0.58%; rent breadth falls to YELLOW. Thesis 0/5 killed.
 **Domain:** U.S. housing asset-market + credit-structure — foreclosure pipeline, multifamily (GSE + CMBS books), mortgage-rate surface, builders, pricing/inventory, sub-statewide FL/TX
-**As of:** 2026-10-19 Will-requested final closeout, after final STATUS write, same owner commit. Inbox 0/0; sweep evidence and morning HMI/spread grades unchanged. Routed digest SIG-W-20261019-009 receives the existing sweep; no extra observation. Durable findings KB-HOMER-034–038; evidence-to-ledger mapping → `reports/2026-10-19_documentation-audit.md`. Resume from SCRATCH and the existing docket.
+**As of:** 2026-10-28 ~23:30 ET catch-up session, after the final STATUS write, same owner commit. Prints 10/20–10/28 → `reports/2026-10-28_catchup-prints.md`; 29 WALTER signals → `reports/2026-10-28_catchup-intake.md`; KB-HOMER-039–041.
 
-> ♻️ **ROTATED 2026-09-24** — the pre-rotation brief is preserved byte-for-byte at `archive/NEXUS_BRIEF_2026-09-24_pre-rotation-VERBATIM.md` (crc 267930108).
+> ♻️ **ROTATED 2026-09-24** — the pre-rotation brief is preserved byte-for-byte at `archive/NEXUS_BRIEF_2026-09-24_pre-rotation-VERBATIM.md` (crc 267930108). The 10/19 brief is in git history (`git log -p -- AGENTS/HOMER/NEXUS_BRIEF.md`).
 
 ---
 
@@ -13,45 +13,40 @@
 **SENDING:**
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |----|--------|----------|---------------------------------------------|
-| **REGINALD, BROCK, CREED** | Trepp10/16:2021–22-securitized CRE CLO MF cohort,93loans/$3.95B in five states;12.2% of book/80.2% of delinquency;93.8% of performing balance WITH latest reported cash coverage<1x. Median paired DSCR1.60→0.64x (48 paired reporters) | 🟠 HIGH | Pressure can precede payment default. Selected reporters/unspecified latest dates, not whole-market or bank-loss evidence. Same C2 root, not a new independent signal |
-| **CARL, CORAL, HENRY** | ZillowSeptember: demand index+19.2% YoY, rent1932 +2.7%, MF+2.2%, concessions39.6% (issuer10/15) | 🟡 MED | Rental-demand support is counter-evidence; index not leases, asking rent not effective rent/NOI. Zillow49/50 metros positive does not grade ApartmentList100-city breadth |
-| **CARL, CORAL** | Miami-DadeSeptember:12.3mo condo supply,417090 −0.69%YoY; inventory−7.24%, contracts67vs75days (faster), cash49.4% (issuer10/16) | 🟠 MED | Buyer market, but no blanket worsening. August12.1mo as originally published, not revised MoM comparison. CORAL receives consumer/source refresh packet |
-| **CARL, HENRY** | HUD11(10/8): alternative score-model method from1/1/27, numeric500/580 floors unchanged. HUD12: conditional BTR insurance,5+ cohesive rental units, new or recently built; PDF undated, discovered10/19 | 🟡 LOW | Future model/vintage comparability and conditional financing counterweight. Not current NDS regrade, blanket credit easing or an existing-loan rescue |
-| **REGINALD, CREED** | 🔴 **CMBS MULTIFAMILY DQ 8.04% SEPTEMBER (+35bp), a 2026 high** — Trepp PDF Table 2, pub 10/02 (12-mo-ago 6.59%). MF special servicing **8.54% (+17bp)**, still below its Apr 9.08 peak. ⚠️ Trepp prints no 30-day split by type, so the composition of the rise is unknown. October maturities: MF $877.6M, one $569.2M national portfolio at 5.87% debt yield, current | 🔴 HIGH | Path C: MF collateral stress on the CMBS book hit a 2026 high; this series cures in blocks (May fell 76bp after April) |
-| **REGINALD, CARL, HENRY** | **PMMS 7.40% [10/15]; spread ~221bp** = 7.40 − Wed 10/14 nominal 10Y 5.19 (Fed H.15 PRIMARY; Freddie PRIMARY; FRED MIRROR agrees), **+9bp** vs 212 [10/08]. Replaces 219 provisional. MBA 7.50 [wk 10/9]; MND7.40 [10/19 observed update], after7.33 [10/15], is daily context | 🔴 HIGH | Affordability/refi exits. House Wednesday-close convention, not full survey-window average or MBS OAS. Cause unresolved |
-| **CARL, HENRY** | **Demand down, supply up, at three issuers in one month:** Redfin sellers outnumber buyers **62.6%** (record; buyers 928,892 = record low, modelled) · Redfin pending **−4% MoM** (lowest since spring-2014 ex-Apr-2020) · MBA purchase **−16% YoY** · Realtor.com active **+5.4%**, price-cut share **20.8%** (highest since Oct-2022). NAR EHS **3.99M** Sept (Aug revised ~3.93M) | 🟠 MED | Prices still positive nationally (FMHPI +2.19% Aug; ICE ~flat 3-mo) — volume is adjusting before price |
-| **CARL** | **Cure Rates band UNGRADED for August** — ICE's October Mortgage Monitor did not print the all-loans YoY (level 7.8%, from 8.0%). **FHA cures −37% YoY**; FHA new defaults **−15% YoY**; **GSE new defaults +18%** (largest in 19 months), VA +23% | 🟠 MED | The inflow mix rotated: the FHA bottom improves on inflow while prime/agency inflow worsens. HOM-02 (FHA ≥12% at the Q3 NDS) evidence runs both ways |
-| **CARL, HENRY** | **October NAHB HMI 29 (32), cutters 43% (38), incentives 65% (66)**; current sales 33, expectations 32, traffic 18 (NAHB PRIMARY 10/19). **A3 0/3**, neither directional flip met. Prior LEN/Millrose claim remains unverified at transaction level (10/15 filing check) | 🟠 MED | Demand weaker, incentive participation slightly lower. Explicit price cuts understate total concessions; no CRL-23 margin grade from HMI |
-| **REGINALD** | Texas October **>$1B /46 properties /18 repeats** (CCN 10/06 via TRD/Roddy, SECONDARY); underlying list and MF subtotal unavailable | 🟠 MED | Auction postings, not new distress, completed sales or losses. September $562M MF share does not transfer to October; no borrower/bank map accepted |
-| **CREED** | **Arbor label check CONFIRMED at the 10-Q** — packet in your `inbox/` | 🟡 LOW | One figure for the ABR problem book |
-| **CARL** | 3c handle (`thesis/THESIS.md` §8) unchanged at 19/25; **C2's upgrade trigger is MET** by Trepp 8.04%, re-score at the 11/20 grade per §8a | 🟡 LOW | C2 still reaches V3 as peer evidence only |
-| **REGINALD** | Servicer watch: UWM (Class A FIRED 8/7, Fitch BB- → B+) **removed its own minimum-score overlays on agency loans 10/7** (HousingWire via WALTER) | 🟡 LOW | Credit-box loosening at the largest wholesale lender — a vintage marker, not a stress reading |
+| **CARL, REGINALD** | 🔴 **ICE First Look SEPT** (Business Wire 10/27): 90+/FC **882K** (579K + 303K, HOMER sum) = **ORANGE, 118K from RED (>1M)**; FC inventory 303K **+37% YoY** (highest since early 2019); **FC starts 40.0K, −2.9% YoY — first negative YoY** (Aug +29%); FC sales 8.2K **+14.5% YoY**; DQ 3.66% (+12bp, seasonal) | 🔴 HIGH | V10 / Path C: conversion continues (sales up) while new foreclosure inflow cools (starts down). Cite both halves. C1 0/3, neither flip met |
+| **REGINALD, CREED, CARL** | **Freddie MF DQ 0.58% SEPT** (−6bp, first decline since April; MVS pub 10/26). Fannie Sept NOT YET OUT (10/28). Trepp CMBS MF 8.04% (Sept) still the latest | 🟠 MED | Still 8bp above Red (>0.50%); one month, mod-suppressible. C2 GSE 0/3. V3 stays Fannie-only (Aug 0.57%) |
+| **CARL, CORAL, HENRY** | **Rent-decline breadth 39/100 OCT = YELLOW** (Sep revised 46→45; Jul 56). Apartment List national $1,384, **+0.1% YoY (first positive in 3+ years)**, vacancy 6.96%; 32% of properties ≥1 month free | 🟡 MED | Tenant relief fading; landlord pressure easing at the margin. Three concession measures (RealPage 14.5% of units, Apartment List 32% of properties, Zillow 39.6% of listings) — never splice |
+| **CARL, HENRY** | **Demand weaker again:** NAR pending **66.0 Sept, −7.3% MoM, −11.3% YoY** (all regions); MBA purchase **−18% YoY** (two weeks), ARM share 11.3%; Redfin pending **−14.4% YoY** (4wk to 10/18), all 50 metros down. New-home sales 676K (ns), average price −6.7% YoY (significant) | 🟠 MED | Points to weaker Oct–Nov closings (EHS Sept 3.99M, RED crossed by 10K). ⚠️ 66.0 is below the 69.0 Apr-2020 figure HOMER carried — DERIVED, NAR claims no record |
+| **HENRY, CARL** | **Prices still up nominally, down in real terms:** Case-Shiller national **+2.1% YoY Aug** (Jul 1.9%), 20-City +2.7%; S&P: **15th consecutive real decline**; 5 of 20 metros negative (Seattle −1.96%); Miami +4.24%, Tampa −0.39%. FL Gulf metros −12% to −19% from peak (Zillow, Sept) | 🟡 MED | Wealth effect: nominal equity still rising nationally, eroding in real terms and in Gulf-coast FL metros. No negative-equity wave (KB-HOMER-021) |
+| **REGINALD, CARL** | **PMMS 7.32% [10/22]** (−8bp; issuer CSV); spread **~219bp** (7.32 − 5.13 Wed 10/21, Treasury par curve), −2bp — the 3-week widening ended. MBA 7.37% [wk 10/23]; MND 7.35% [10/28] | 🔴 HIGH | Still RED (>7.0%), 82bp above the A2 kill line. Treasury fell to 4.96–5.05% after 10/21 |
+| **CARL, LABOR** | **Builder Q3 compression broadening:** PHM GM 24.8% (Q2 25.0, incl. ~70bp impairments), orders −6% · NVR 18.3% (21.0), cancels 21% · MTH 17.4%, orders −15%, ASP down on buydowns · CCS cut FY-26 deliveries to 9,350–9,650. Census completions −14.0% YoY (significant) | 🟠 MED | Margins and orders down together; construction pipeline thinning (→ LABOR). CRL-23 PHM leg (≤22.0%) still 280bp away; DHI FQ4 10/29 |
+| **REGINALD, CREED** | MF case feed (WALTER-routed, source limits kept): Blackstone **Blackjack** $517.7M remainder in special servicing after missed 10/09 maturity (cash flow above underwriting per Morningstar) · **S2** ~$1.2B / 26 properties modified, 12 foreclosures terminated · UDR–Apollo JV ~**6% cap** on $2B (close expected 10/29) · CRED iQ: 31% of $136B maturing fixed-rate MF balance needs $6.8B equity (modelled) · MSCI: MF distress sales +62.8% | 🟠 MED | Maturity/refi stress is being worked out, not liquidated, at the top of the stack; core assets clear near 6% caps. Distress dollars up, distress share down |
+| **CARL, REGINALD** | Policy: EO 10/22 (FHFA MI-cancellation pilot for NEW loans only; USDA/VA direct-loan rates) — KB-HOMER-039 · Treasury NPRM: large-investor SF purchase restriction from 2027-01-07, ≥350 homes, BTR exempt — KB-HOMER-040 | 🟡 LOW | No current-rate or existing-loan effect; directives and a proposal |
 
 **WAITING FOR:**
 | From | Input | Expected by | Why it matters | How it changes my view |
 |------|-------|-------------|----------------|------------------------|
-| NAHB | **November HMI** | **Tue Nov 17 10:00 ET** (issuer schedule) | A3 monthly grade | current HMI 29/cutters 43%; kill requires HMI ≥40 ×3; for flip cutters >45% |
-| ICE | **First Look (Sept)** | ~Oct 22–28 | C1 flip; 90+/FC 872K vs RED 1M | FC sales YoY ≥ +20% (for) · inventory down with sales down (against) |
-| Fannie / Freddie | MF serious DQ (Sept) | ~Oct 23–30 | C2 GSE channel; Aug split Freddie 0.64 ↑ / Fannie 0.57 ↓ | a second month of divergence vs re-convergence |
-| ATTOM | Sept monthly / **Q3 report** | next owner check, late October | National quarterly STARTS band (Yellow >100K) | issuer paths 403 and web open failed 10/19: access unresolved, cannot infer unpublished; Q2 retained |
+| Fannie Mae | MF serious DQ (Sept) | from Thu 10/29 | C2 GSE channel | re-convergence with Freddie 0.58% vs a Fannie rise |
+| D.R. Horton | FQ4 (8-K) | Thu 10/29 pre-open | CRL-23 DHI leg; buydown SIZE disclosure | does DHI still disclose average buydown? margin vs 17.5% leg |
+| ATTOM | Sept monthly / **Q3 report** | not out at 10/28 | National quarterly STARTS band (Yellow >100K) | ICE says starts fell YoY in Sept |
+| Trepp | Oct DQ / SS | ~11/02 · ~11/13 | C2 CMBS | MF 8.04% — block cure or hold |
 | MBA | **Q3 NDS** | ~mid-Nov | **HOM-02's decider** | FHA SA ≥12.00% confirms; a 2nd QoQ decline kills it early |
 
 ---
 
 ## VIEW
 
-- **Multifamily credit and for-sale demand still show stress.** Beyond September CMBS MF8.04%, Trepp10/16 now exposes weak debt coverage among reporting performing loans in a narrow2021–22 CRE CLO cohort. Latest cash-flow dates and reporting selection limit the inference; no blanket default forecast.
-- **The rate leg paused at 7.40%, while the house spread widened to ~221bp [10/15]**, from 199 [10/01] and 212 [10/08]. Wednesday-close convention; weekly survey and daily Treasury are different instruments. The 10/19 recomputation replaces provisional 219; it is not a new PMMS print.
-- **Foreclosure pipeline: no new print** (Sept First Look not out). The cure-rate band could not be graded this month; FHA cures are still 37% below a year ago while FHA new defaults fall.
-- **The rental side supports a less uniform story:** platform demand rises and rents grow while distressed floating-rate cohorts struggle. HUD BTR financing could help eligible supply; it is not funding approval.
-- **Prices are not falling nationally — volume is adjusting first.** FMHPI +2.19% YoY (Aug), but July was revised down to +1.89% and ICE's index is flat over three months with >40% of markets falling. The two indices disagree; that divergence is the read.
+- **The foreclosure pipeline is still converting, but the front door is narrowing.** September FC sales +14.5% YoY and inventory +37% YoY, yet FC starts fell 2.9% YoY for the first time. 90+/FC at 882K is ORANGE and 118K from RED. One month of negative starts is not a turn.
+- **Multifamily: CMBS stress at a 2026 high (8.04%, Sept) while the GSE book eased (Freddie 0.58%) and rents stabilized** (breadth 39/100; national rent +0.1% YoY). Workouts (S2, Blackjack) and a ~6% cap JV point to extend-and-modify, not forced sales, for better assets.
+- **Rates eased slightly (7.32%) but demand kept falling:** pending sales −7.3% MoM, purchase apps −18% YoY, Redfin pending −14.4% YoY. Volume is adjusting before price: Case-Shiller still +2.1% nominal.
+- **Builders: margin compression is now broad** (PHM, NVR, MTH, CCS) with orders down; buydowns named but not sized.
 
 ---
 
 ## CALIBRATION
 
 - **Conviction:** direction-H (credit conversion; MF realization) · timing-M · level-M (three bands topped out — PMMS, Freddie MF, EHS — so ladders no longer grade magnitude)
-- **Diverge from market by:** NAR reads September's +1.5% sales as a correction higher; I read Redfin's −4% pending contracts as the leading stage, pointing at weaker October–November closings.
+- **Diverge from market by:** NAR's Yun says rates 'could be topping out' and distressed supply is limited; I read the September foreclosure SALES acceleration and 882K pipeline as conversion still under way, even as starts cool.
 - **Cross-agent tensions:** no new score conflict. Texas secondary has conflicting Dallas office borrower attribution; no lender map accepted. BOND already carries 221bp for the October 15 mortgage spread. Florida statewide remains CORAL-owned. Trepp August securitized Freddie0.80% has unresolved perimeter vs issuer0.64%; issuer number governs. Florida statewide Sept/3Q source found and routed to CORAL; historical August citation demoted.
 - **Uncertain about:** why the mortgage spread widened (lender capacity, MBS spreads or volatility); whether Trepp's MF jump is new 30-day delinquencies (Trepp's prose) or something else (no split printed); whether ICE will print the cure YoY again.
 - **Failure patterns to mind:** three revisions this month would each have left a wrong superlative standing (FMHPI July −0.42pt, Redfin August 57.9 → 56.9, NAR August 3.98 → ~3.93). Carry both vintages; LESSONS §3/§22.
@@ -62,7 +57,7 @@
 |---|---|---|
 | "The $160B (or $270B) 2026 MF maturity wall is Trepp's" | A sponsor quote with a borrowed Trepp label. MBA publishes MF maturities as a **share (13%)**, and the total wall is **shrinking** ($875B, −9%) | `CLAUDE.md` |
 | "$297B MF maturing in 2026" (WSJ-adjacent, 9/24) | Arithmetically 13% × $2.3T — a derived dollar, not an MBA print | `MULTIFAMILY.tsv` 9/24 |
-| "Pending home sales are at the COVID trough" | Trough 69.0; August 71.2 | `PRICING.tsv` |
+| "Pending home sales hit a record low" (Sept 66.0) | NAR claims no record; 66.0 < the 69.0 Apr-2020 figure is HOMER arithmetic on an unre-verified trough | `PRICING.tsv` 10/28 |
 | "Freddie MF: fifth consecutive rise" (July) | It was the third; August is the fourth | `MULTIFAMILY.tsv` 9/24 |
 | "Trepp MF Feb-2026 7.12%" | 7.12% was Oct-2025; Feb was 6.85% | `MULTIFAMILY.tsv` 9/24 |
 | "FL is #1 for foreclosures" **as a level** | Rank, not level: FL 2025 is ~31% below its own 2019 | `CLAUDE.md` |
@@ -80,9 +75,8 @@
 
 ## NEXT DECISION POINT
 
-- **What:** October HMI graded A3 0/3; next decision-relevant prints NRC/PHSI 10/20, PMMS/PHM 10/22, ICE First Look and GSE MF late October. **Formal thesis grade 11/20 unchanged**; core timing constraint and C2 handle trigger remain as recorded.
-- **When:** next owner check on the registered October 20–30 clocks; next HMI November 17.
-- **What would change my view:** Trepp October MF curing back below ~7.2% (a block cure, as in May); PMMS ≤7.00 with the spread narrowing; FHA SA DQ falling a second quarter at the Q3 NDS.
+- **What:** DHI FQ4 and Fannie Sept MF (10/29); ATTOM Q3 STARTS when published; Trepp October (~11/02); **MBA Q3 NDS (~mid-Nov) decides HOM-02**; **formal thesis grade 11/20**.
+- **What would change my view:** a second month of negative FC starts with FC sales slowing (C1 "against" flip); Trepp October MF curing back below ~7.2%; PMMS ≤7.00 with the spread narrowing; FHA SA DQ falling a second quarter.
 
 ---
 
@@ -90,12 +84,11 @@
 
 | Date | Event | Threshold / Signal |
 |------|-------|---------------------|
-| **Tue 11/17 10:00** | NAHB HMI (Nov) | October cutters 43%; RED >45% uncrossed, HMI kill count 0/3 |
-| Tue 10/20 · 10/27 | NRC + PHSI (Sept) · New Home Sales (Sept) | do contracts confirm Redfin's −4%? |
-| Thu 10/22 | PMMS | 7.40 flat; prior 10/15 house spread ~221bp |
-| 10/22 · 10/28 · 10/29 | PHM Q3 · MTH Q3 · DHI FQ4 | CRL-23 trajectory; buydown size |
-| ~10/22–28 | ICE First Look (Sept) | C1 flip; 90+/FC vs RED 1M |
-| ~10/23–30 | Fannie + Freddie MF (Sept) · Case-Shiller Aug · FMHPI Sept | GSE divergence; index divergence |
-| **10/29** | PFSI Q3 (issuer event page) | servicing/advance-loss context; no new trigger |
-| **11/12 17:00** | UWM expected rights expiry (original announcement; verify final terms) | existing recap, not newly discovered rescue |
-| ~11/02 | Trepp Oct DQ | MF 8.04% — cure or hold |
+| Thu 10/29 | DHI FQ4 · PMMS · BEA Q3 GDP (residential investment) · Fannie MF · UDR–Apollo close | CRL-23; A2 weekly; RFI sign |
+| ~10/30 | FMHPI Sept | nominal +2.19% Aug |
+| ~11/02 · ~11/13 | Trepp Oct DQ · SS | MF 8.04% / SS 8.54% |
+| ~11/02–13 | ICE Mortgage Monitor (Nov) | all-loans cure YoY printed again? |
+| 11/12 | NAR EHS (Oct) | RED <4.0M |
+| **Tue 11/17 10:00** | NAHB HMI (Nov) | cutters 43% vs RED >45% |
+| **11/18 · 11/25** | Census NRC · New-home sales (Oct) | completions −14% YoY significant |
+| ~mid-Nov | MBA Q3 NDS | HOM-02 |

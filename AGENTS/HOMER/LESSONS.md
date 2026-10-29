@@ -110,7 +110,7 @@
 **Rule (adopted, mine to run too):** **before proposing evidence for a mechanism, state what result would REFUTE it.** If no available value of the proposed measure refutes it, the measure is not evidence. ⚠️ **For share-based tests specifically: a share moves when EITHER numerator or denominator moves, so a share can … → `LESSONS_COLD.md` §34
 
 **35. [Process] — I Honoured a Line Cap Perfectly For a Day While the File Grew 27%: the Cap Measured the Wrong Axis and Was a COMPRESSION INCENTIVE**
-**Rule:** **Size-govern a document on the axis a READER actually consumes — bytes — and make the control a RETENTION rule, not a compression target.** Adopted here: soft **150KB** / hard **170KB**, derived from a measured irreducible core (~127KB of dashboard + open items + catalysts) rather than invented; **one … → `LESSONS_COLD.md` §35
+**Rule:** **Size-govern a document on the axis a READER actually consumes — bytes — and make the control a RETENTION rule, not a compression target.** ⛔ *(the 150/170KB tier below is RETIRED 2026-09-29 — live tier = soft 22,785 B / hard 32,550 B, `CLAUDE.md` CLOSEOUT 1)* Adopted here: soft **150KB** / hard **170KB**, derived from a measured irreducible core (~127KB of dashboard + open items + catalysts) rather than invented; **one … → `LESSONS_COLD.md` §35
 
 **36. [Process] — An OPEN ITEMS List That Retains CLOSED Items Is a Changelog Wearing a Work Queue's Name**
 **Rule:** **A closed item leaves the live queue at the closeout that closes it** — `git mv` to `archive/` with a one-line pointer naming the item numbers. **Retain in archive, never delete**, because several will be cited elsewhere and must stay reachable. ⚠️ **Test to apply: "if a reader worked only the rows in this … → `LESSONS_COLD.md` §36
@@ -138,7 +138,7 @@
 
 ---
 
-**Index integrity:** §1–43 ↔ `LESSONS_COLD.md` (43) · §44–53 ↔ `LESSONS_COLD_2.md` (10). Counts must match.
+**Index integrity:** §1–43 ↔ `LESSONS_COLD.md` (43) · §44–54 ↔ `LESSONS_COLD_2.md` (11). Counts must match.
 
 **44. [Instrument] — A Shared Date Label Is Not a Shared As-Of (the spread pairing that manufactured a 15bps move)**
 **Rule:** For any spread pairing a **SURVEY** series against a **DAILY** series, match the daily leg to … → `LESSONS_COLD_2.md` §44

@@ -95,3 +95,32 @@ SIG-W-20261001-013	2026-10-02	noted-off-domain	electricity price = ENERGY/BLS; H
 2026-10-19T16:33:34.223316+00:00	SIG-W-20261019-004	ACTIONED	WALTER	October HMI already graded in reports/2026-10-19_morning-L725.md at2556731f0: HMI29/cutters43, A3 0/3. This receives the existing grade, not a repeat or extra print.
 2026-10-19T16:33:34.223316+00:00	SIG-W-20261019-007	INFO-LOGGED	WALTER	Office-task withdrawal agrees with HOMER earlier decline. COR-20261019-07 NO-OP receipt names prior owner commits2556731f0 and7413581cb. No office series or verified transaction claims adopted.
 2026-10-19T16:39:17.800615+00:00	SIG-W-20261019-009	ACTIONED	WALTER	Receives existing nine-item owner sweep at076910b8f. WALTER BOARD confirms reading/routing report with denominators/counter-evidence intact. No repeated study or additional independent observation. Three original sweep items plus this later routed digest =4 total integrated.
+2026-10-29T02:56:27Z	SIG-W-20261020-001	ACTIONED	WALTER	Integrated from NAR issuer: PHSI Sept 66.0 (PRICING row 2026-10-28). Record-low NOT adopted (NAR claims none; 69.0 trough not re-verified).
+2026-10-29T02:56:27Z	SIG-W-20261020-014	ACTIONED	WALTER	Integrated from Census CB26-162 PDF: starts 1,221K ns, completions −14.0% YoY significant, Aug revisions carried (PRICING row 2026-10-28).
+2026-10-29T02:56:27Z	SIG-W-20261020-028	ACTIONED	WALTER	Dispositioned in reports/2026-10-28_catchup-intake.md; context only, no workbook row (source limits retained).
+2026-10-29T02:56:27Z	SIG-W-20261022-029	ACTIONED	WALTER	PMMS 7.32% [10/22] re-read at issuer CSV; A2 0/4; RATES row + THESIS §9 2026-10-28.
+2026-10-29T02:56:27Z	SIG-W-20261022-033	INFO-LOGGED	WALTER	Dispositioned in reports/2026-10-28_catchup-intake.md; no HOMER row change.
+2026-10-29T02:56:27Z	SIG-W-20261022-042	INFO-LOGGED	WALTER	Dispositioned in reports/2026-10-28_catchup-intake.md; no HOMER row change.
+2026-10-29T02:56:27Z	SIG-W-20261025-012	ACTIONED	WALTER	KB-HOMER-039 (existing-loan exclusion and direct-loan scope attached); docket milestone row added.
+2026-10-29T02:56:27Z	SIG-W-20261027-007	ACTIONED	WALTER	Dispositioned in reports/2026-10-28_catchup-intake.md; context only, no workbook row (source limits retained).
+2026-10-29T02:56:27Z	SIG-W-20261027-020	INFO-LOGGED	WALTER	Dispositioned in reports/2026-10-28_catchup-intake.md; no HOMER row change.
+2026-10-29T02:56:27Z	SIG-W-20261027-022	ACTIONED	WALTER	Dispositioned in reports/2026-10-28_catchup-intake.md; context only, no workbook row (source limits retained).
+2026-10-29T02:56:27Z	SIG-W-20261027-026	INFO-LOGGED	WALTER	Dispositioned in reports/2026-10-28_catchup-intake.md; no HOMER row change.
+2026-10-29T02:56:27Z	SIG-W-20261027-031	ACTIONED	WALTER	Dispositioned in reports/2026-10-28_catchup-intake.md with a workbook row dated 2026-10-28 (source limits retained).
+2026-10-29T02:56:27Z	SIG-W-20261027-034	INFO-LOGGED	WALTER	Dispositioned in reports/2026-10-28_catchup-intake.md; no HOMER row change.
+2026-10-29T02:56:27Z	SIG-W-20261027-035	ACTIONED	WALTER	Dispositioned in reports/2026-10-28_catchup-intake.md with a workbook row dated 2026-10-28 (source limits retained).
+2026-10-29T02:56:27Z	SIG-W-20261027-036	INFO-LOGGED	WALTER	Dispositioned in reports/2026-10-28_catchup-intake.md; no HOMER row change.
+2026-10-29T02:56:27Z	SIG-W-20261027-037	INFO-LOGGED	WALTER	Dispositioned in reports/2026-10-28_catchup-intake.md; no HOMER row change.
+2026-10-29T02:56:27Z	SIG-W-20261027-042	ACTIONED	WALTER	Dispositioned in reports/2026-10-28_catchup-intake.md with a workbook row dated 2026-10-28 (source limits retained).
+2026-10-29T02:56:27Z	SIG-W-20261027-043	ACTIONED	WALTER	KB-HOMER-041 (Trepp underwriting correction; MF LTV 67.4% ex-seasoned pool).
+2026-10-29T02:56:27Z	SIG-W-20261027-044	ACTIONED	WALTER	Dispositioned in reports/2026-10-28_catchup-intake.md with a workbook row dated 2026-10-28 (source limits retained).
+2026-10-29T02:56:27Z	SIG-W-20261027-045	ACTIONED	WALTER	Dispositioned in reports/2026-10-28_catchup-intake.md with a workbook row dated 2026-10-28 (source limits retained).
+2026-10-29T02:56:27Z	SIG-W-20261027-046	ACTIONED	WALTER	Dispositioned in reports/2026-10-28_catchup-intake.md with a workbook row dated 2026-10-28 (source limits retained).
+2026-10-29T02:56:27Z	SIG-W-20261027-052	INFO-LOGGED	WALTER	Dispositioned in reports/2026-10-28_catchup-intake.md; no HOMER row change.
+2026-10-29T02:56:27Z	SIG-W-20261027-056	ACTIONED	WALTER	Dispositioned in reports/2026-10-28_catchup-intake.md with a workbook row dated 2026-10-28 (source limits retained).
+2026-10-29T02:56:27Z	SIG-W-20261027-059	ACTIONED	WALTER	Dispositioned in reports/2026-10-28_catchup-intake.md; context only, no workbook row (source limits retained).
+2026-10-29T02:56:27Z	SIG-W-20261027-062	ACTIONED	WALTER	KB-HOMER-040 (NPRM, statute effective 2027-01-07, ≥350 threshold, BTR exception); docket row added.
+2026-10-29T02:56:27Z	SIG-W-20261027-064	ACTIONED	WALTER	Dispositioned in reports/2026-10-28_catchup-intake.md with a workbook row dated 2026-10-28 (source limits retained).
+2026-10-29T02:56:27Z	SIG-W-20261027-065	ACTIONED	WALTER	Dispositioned in reports/2026-10-28_catchup-intake.md; context only, no workbook row (source limits retained).
+2026-10-29T02:56:27Z	SIG-W-20261027-069	INFO-LOGGED	WALTER	Dispositioned in reports/2026-10-28_catchup-intake.md; no HOMER row change.
+2026-10-29T02:56:27Z	SIG-W-20261027-071	ACTIONED	WALTER	Dispositioned in reports/2026-10-28_catchup-intake.md; context only, no workbook row (source limits retained).
