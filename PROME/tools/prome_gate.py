@@ -1063,9 +1063,12 @@ def check_aged_waits():
 HB_BLOCK_RE = re.compile(r"^(?:>\s*)?(?:#{1,6}\s*|\*\*)?AMENDMENT\s*#?\s*(\d+)\b(?!\s*chain)", re.M | re.I)
 # Accepted header declarations of the chain length:
 #   pre-35th  `**Amendments append … Chain: N`      35th base+  `**Amendment chain: N.**` (inside the Base line)
-HB_DECLARED_RE = re.compile(r"(?:^\*\*Amendments append.*?Chain:\s*(\d+))|(?:\*\*Amendment chain:\s*(\d+))", re.M)
+# Both declarations are HEADER LINES: every archived base 08-07 → 10-26 and the live file carry the figure on a
+# line that STARTS `**Amendments append` (pre-33rd) or `**Base:**` (33rd base on). Anchoring to those line starts is
+# what keeps a body quote of the declaration from standing in for the header (read 2 R5/R8, 2026-10-28).
+HB_DECLARED_RE = re.compile(r"(?:^\*\*Amendments append.*?Chain:\s*(\d+))|(?:^\*\*Base:\*\*.*?\*\*Amendment chain:\s*(\d+))", re.M)
 HB_FORMS = ("blocks: `> ## AMENDMENT #N` · `> **AMENDMENT #N` · `**Amendment N —`; "
-            "declaration: `**Amendments append … Chain: N` · `**Amendment chain: N.**`")
+            "declaration (a header LINE starting `**Amendments append` or `**Base:**`): `**Amendments append … Chain: N` · `**Base:** … **Amendment chain: N.**`")
 
 
 def heartbeat_chain_counts(text):

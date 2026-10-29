@@ -91,7 +91,7 @@ def test_a3_missing_declaration_fails_loud_and_names_the_forms(tmp_path):
     assert ok is False and detail.startswith("UNVERIFIABLE")
     assert "NOT a verdict" in detail
     for form in ("`> ## AMENDMENT #N`", "`> **AMENDMENT #N`", "`**Amendment N —`",
-                 "`**Amendments append … Chain: N`", "`**Amendment chain: N.**`"):
+                 "`**Amendments append … Chain: N`", "`**Base:** … **Amendment chain: N.**`"):
         assert form in detail                           # A8 self-describing
 
 
@@ -133,3 +133,33 @@ def test_a3_declaration_quoted_in_a_body_block_is_not_the_header(tmp_path):
     assert pg.heartbeat_chain_counts(QUOTED_IN_BODY) == (2, None)
     sev, name, ok, detail, _ = run_check(tmp_path, QUOTED_IN_BODY)
     assert ok is False and detail.startswith("UNVERIFIABLE")
+
+
+NO_BLOCKS_BODY_QUOTE = """**Base:** Monday night, THIRTY-SIXTH base, PROME. No chain figure here.
+
+Some body paragraph quoting the old header verbatim: **Amendment chain: 0.** as prose.
+"""
+
+MOVED_FORMAT_BODY_QUOTE = """**Base:** x, THIRTY-SIXTH base.
+
+> ### Amendment one — a style this check does not know. Body says **Amendment chain: 1.** in prose.
+"""
+
+
+def test_a3_no_blocks_and_a_body_quote_is_unverifiable(tmp_path):
+    # Independent read 2 R5/R8 (2026-10-28): with zero blocks the whole file was the "header".
+    assert pg.heartbeat_chain_counts(NO_BLOCKS_BODY_QUOTE) == (0, None)
+    sev, name, ok, detail, _ = run_check(tmp_path, NO_BLOCKS_BODY_QUOTE)
+    assert ok is False and detail.startswith("UNVERIFIABLE")
+
+
+def test_a3_moved_block_format_with_a_body_quote_is_unverifiable(tmp_path):
+    assert pg.heartbeat_chain_counts(MOVED_FORMAT_BODY_QUOTE) == (0, None)
+    sev, name, ok, detail, _ = run_check(tmp_path, MOVED_FORMAT_BODY_QUOTE)
+    assert ok is False and detail.startswith("UNVERIFIABLE")
+
+
+def test_a2_declaration_is_anchored_to_its_header_line():
+    assert pg.heartbeat_chain_counts("**Base:** x. **Amendment chain: 3.**\n")[1] == 3
+    assert pg.heartbeat_chain_counts("**Amendments append below. Chain: 4.**\n")[1] == 4
+    assert pg.heartbeat_chain_counts("A prose line. **Amendment chain: 3.**\n")[1] is None
