@@ -39,8 +39,8 @@
 ### IMMEDIATE (10/29–10/30)
 - **10/29 08:30 ET:** GDP advance plus September PIO; DOC-P10 resolution and broad-spending scope test. Separate real from nominal.
 - **10/29:** EART September 10-D plus SDART/BLAST September under WQ-151. At most qualifying month 1.
-- **10/30:** STUE ES-01/04/06 are undone (STUE has not booted since 10/01). **Flagged to Will 10/28**: decide spawn vs carry. No launch without that word.
-- **10/30:** AFT v. ED 10/28 status conference outcome UNREVIEWED (CourtListener 403). Also WQ228 fintech review (unperformed) and the two-state pilot falsifier follow-up.
+- ✅ **STUE resolved 10/28 (Will: STUE live, coordinate directly).** stue-b9 graded ES-01 NO VERDICT, ES-04 NOT GRADEABLE, ES-06 ACCESS GAP (KB-568). AFT conference was actually 10/14; next 11/23 11:00 ET; count UNAVAILABLE; collections still paused (KB-569). CARL affirmed STUE's ES-02 boundary reading (verdict, not placement). Final ES-02 grade ~11/13–11/16.
+- **10/30:** WQ228 fintech review (unperformed) and the two-state pilot falsifier follow-up.
 
 ### UPCOMING (this week)
 - **10/31:** Section 122 aftermath. **11/03:** EIA weekly. **11/04:** FOMC presser transcript leg and Russia diesel read.
@@ -57,10 +57,12 @@
 
 ---
 
-## OUTBOX (0 new this session; prior delivery state unchanged)
+## OUTBOX (2 cross-session messages; no file packets)
 | File | To | Summary |
 |---|---|---|
-| — | — | No new packets. Prior seven 10/26–10/27 packets: committed; recipient consumption still unverified except PROME's L786 read. |
+| SendMessage 10/28 | stue-b9 | Ask (ES grades, AFT, collections); answered by STUE packet + 7e082e108 (verified at the artifact) |
+| SendMessage 10/28 | stue-b9 | ES-02 boundary ruling (affirmed) + receipt; delivered to the session, consumption not confirmed |
+| — | — | Prior seven 10/26–10/27 packets: committed; consumption unverified except PROME's L786 read. |
 
 ## INBOX (5 generic live items; WALTER lane empty)
 | File | From | Disposition / next action |
@@ -83,7 +85,7 @@
 ---
 
 ## URGENT
-- STUE spawn-or-carry decision is Will's (10/30). No other new Will decision or capital authority.
+- None. The STUE decision is dissolved (STUE booted live; coordinated directly 10/28). No new Will decision or capital authority.
 
 ## CLOSEOUT RECEIPT
 | Obligation | Result |

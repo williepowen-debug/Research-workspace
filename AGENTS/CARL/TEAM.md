@@ -1,5 +1,7 @@
 # CARL Sub-Agent Team
 **Parent freshness audit observed2026-10-26:** no child data refresh or launch this session. The canonical scanner is now wired into boot.py; these are genuine inherited age flags, not new data. Live-ledger scanner flags23/52declared ledgers (11otherTSVs outside perimeter); DATA clocks unchanged. Dated child predictions/deferrals remain for owner gates; historical roster-state labels below retain their printed vintages.
+**STUE live 2026-10-28 (stue-b9, Will-started; coordinated directly by carl-6f):** FSA FY26-Q3 graded (ES-01 NO VERDICT / ES-04 NOT GRADEABLE / ES-06 ACCESS GAP), SV-STUE-2026-10-28-01, commit 7e082e108; inbox drained (9/10 + 9/24 packets processed). Supersedes the STUE roster row's Sep 5 "last real refresh". Next: ES-02 final grade ~11/13–11/16; AFT 11/23.
+
 
 
 **Parent audit September16:** No subagents launched or child ledgers refreshed. PHAN’s September10 WQ-209 delivery is completed (not still awaiting the September8 gate); next print gate is in the canonical docket. Other roster snapshots below retain their stated data dates. NFIB and housing evidence refreshed at parent STATUS only;16 child ledgers remain flagged by the staleness scan. Historical header archived.
