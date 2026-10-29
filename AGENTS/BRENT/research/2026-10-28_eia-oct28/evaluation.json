@@ -1,0 +1,52 @@
+{
+ "data_week": "2026-10-23",
+ "release": "2026-10-28",
+ "capture": "release-day ir.eia.gov current files, 2026-10-28T23:48-04:00",
+ "gasoline_basis": {
+  "file": "psw01.xls",
+  "sheet": "Data 2",
+  "column": 27,
+  "series": "WGFUPUS2",
+  "title": "Weekly U.S. Product Supplied of Finished Motor Gasoline  (Thousand Barrels per Day)"
+ },
+ "current_rows": {
+  "2026-10-23": "8358.0",
+  "2026-10-16": "8982.0",
+  "2026-10-09": "8408.0",
+  "2026-10-02": "8769.0"
+ },
+ "base_rows": {
+  "2025-10-24": "8924.0",
+  "2025-10-17": "8454.0",
+  "2025-10-10": "8455.0",
+  "2025-10-03": "8919.0"
+ },
+ "current_avg": "8629.25",
+ "base_avg": "8688.0",
+ "yoy_pct": "-0.6762200736648250460405156537753222836100",
+ "qualifying_volume_week": false,
+ "revisions_vs_prior_capture": {},
+ "price_basis": {
+  "file": "eia-retail.xls",
+  "sheet": "Data 3",
+  "column": 1,
+  "series": "EMM_EPMR_PTE_NUS_DPG",
+  "title": "Weekly U.S. Regular All Formulations Retail Gasoline Prices  (Dollars per Gallon)"
+ },
+ "price_current": {
+  "2026-10-26": "4.269"
+ },
+ "price_base": {
+  "2025-10-27": "3.035"
+ },
+ "price_yoy_pct": "40.65897858319604612850082372322899505770",
+ "price_below_20": false,
+ "latest_retail_date": "2026-10-26",
+ "sha256": {
+  "eia-retail.xls": "37c1bdbf3521dd8f8d86192a1ec098c456846c0edcc5caa608973ba45089dd12",
+  "psw01.xls": "5eb8765295e7279fc11c4353e4b81aa55c0989305447b8dce89e31f6ee79bfe3",
+  "summary.txt": "919e2afa6797f9948db0487ad6987e306fc94785f00ab6c427e88a431c36a092",
+  "table1.csv": "9c07d94ee29932c267d5c49e914554ebe14a9aa19cfa12f62077e35667f7359f",
+  "table9.csv": "bdca9efeae0b4f72e2e65acac3b892f111fc8494be246def609242c5715bf35b"
+ }
+}

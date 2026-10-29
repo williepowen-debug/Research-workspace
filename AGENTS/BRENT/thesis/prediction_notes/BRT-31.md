@@ -13,7 +13,7 @@
 
 **Caveats recorded at the ruling (WQ-346 row):** ~6 surviving episodes, ±15 pts · CARL's unconditional 25–30% view is defensible · the 15% ordinary-times noise floor. DOCKET L537 carries the rider.
 
-**Grading log:** first window week evaluated October20; overall row remains OPEN, not resolved.
+**Grading log:** window weeks one to three evaluated (October 20, 21 and 28); overall row remains OPEN, not resolved.
 
 ## October20 owner evaluation — data weekOctober9/releaseOctober15
 
@@ -22,3 +22,7 @@ First week NON-QUALIFYING: exact four-week WGFUPUS2 comparison−0.3959714211930
 ## October 21 owner evaluation — data week October 16 / release October 21
 
 Week two is NON-QUALIFYING. The exact four-week `WGFUPUS2` comparison is +1.461596692482385% (8,712.0 vs 8,586.5 kb/d; current 8982, 8408, 8769, 8689; base 8454, 8455, 8919, 8518). Qualifying streak 0. Price check 10/19 $4.284 vs 2025-10-20 $3.019 = +41.90%; below-20% counter 0 of 3. EIA weekly retail was used as the letter's same-survey fallback because FRED was unreachable at boot. This is a release-day capture of first-published values; prior-week inputs show no revisions against the 10/20 capture. Confidence 40% and overall OPEN unchanged; no terminal event. Both window prints so far are above −1.0%. Contamination screening was not re-run, since it can only refuse NOT MET; the 10/20 bounded-review caveat stands. [Report](../../research/2026-10-21_eia-oct21/REPORT.md) §5, [machine receipt](../../research/2026-10-21_eia-oct21/evaluation.json).
+
+## October 28 owner evaluation — data week October 23 / release October 28
+
+Week three is NON-QUALIFYING. The exact four-week `WGFUPUS2` comparison is −0.6762200736648250% (8,629.25 vs 8,688.0 kb/d; current 8358, 8982, 8408, 8769; base 2025-10-24 8924, 10-17 8454, 10-10 8455, 10-03 8919). Qualifying streak 0. Price check 10/26 $4.269 vs 2025-10-27 $3.035 = +40.66%; below-20% counter 0 of 3 (EIA weekly retail, the letter's same-survey fallback). Release-day capture of first-published values; no revisions against the 10/21 capture. The Wednesday routine's "−0.679%" divided EIA's rounded 4-week averages (8,629/8,688); the letter's unrounded basis is −0.6762%. All three window prints so far are above −1.0%. Confidence 40% and overall OPEN unchanged; no terminal event. Contamination screening not re-run (it can only refuse NOT MET); the 10/20 bounded-review caveat stands. [Report](../../research/2026-10-28_eia-oct28/REPORT.md), [machine receipt](../../research/2026-10-28_eia-oct28/evaluation.json).
