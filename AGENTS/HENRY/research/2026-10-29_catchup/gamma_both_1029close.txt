@@ -1,0 +1,23 @@
+===== SPX GAMMA FLIP  (asof 2026-10-29, <= 14d, 3,270 contracts, src=cboe) =====
+  SPX spot        7,714.90
+  Net GEX @ spot  -19.4 $B/1%   -> NEGATIVE (dealers AMPLIFY)
+  Zero-gamma FLIP ~7,739
+                  spot is -24 pts BELOW (neg-gamma) the flip
+  Call wall       7,750  (clean #1, +16% over #2)
+  Put wall       7,700  (clean #1, +27% over #2)
+  (FREE-TIER proxy: absolute $B assumes long-call/short-put dealer gamma; the FLIP + sign are the robust reads)
+
+===== SPX GAMMA FLIP  (asof 2026-10-29, <= 35d, 7,551 contracts, src=cboe) =====
+  SPX spot        7,714.90
+  Net GEX @ spot  -25.7 $B/1%   -> NEGATIVE (dealers AMPLIFY)
+  Zero-gamma FLIP ~7,741
+                  spot is -26 pts BELOW (neg-gamma) the flip
+  Call wall       8,000  ⚠️ NEAR-TIE (5% over #2) — report the BAND 7,800-8,000, not this strike
+  Put wall       7,700  (clean #1, +33% over #2)
+  (FREE-TIER proxy: absolute $B assumes long-call/short-put dealer gamma; the FLIP + sign are the robust reads)
+
+===== CROSS-HORIZON CHECK (audit E2) =====
+  Flip band       7,739-7,741  (14d ~7,739 · 35d ~7,741)
+  Regime          14d NEGATIVE · 35d NEGATIVE
+  Call  wall      ⛔ WITHHOLD: 14d 7,750 vs 35d 8,000 — horizons disagree
+  Put   wall      ✓ PUBLISH: 7,700 at both horizons (clean at both)

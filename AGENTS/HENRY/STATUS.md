@@ -1,8 +1,10 @@
 # HENRY STATUS
 
-**Last owner update:** 2026-10-29 09:00–09:1x ET, PROME-spawned Tier-1 wake (prome-90) for the DOCKET L774 grade (BEA 08:30 ET), a channel-5 post-print read and a 2-packet inbox drain (Claude Code, Opus 5.5, `claude-opus-5-5`). BEA pages and FRED pulled 09:02 ET; vendor tape 09:03–09:07 ET, before the cash open. Changed this session: header, VIEW last sentences, § DOCKET L774, the core PCE threshold row, the catalyst line; the rest is the 00:4x ET record. Pre-session copy: `research/2026-10-29_L774/STATUS-before.md`. Previous: 2026-10-29 00:1x–00:4x ET, PROME-spawned Tier-1 wake (prome-92) for DOCKET L773 (FOMC 10/28) and L774 (GDP + September PCE, 10/29 08:30 ET) plus a whole-inbox drain (Claude Code, Opus 5.5, model ID `claude-opus-5-5`; native session ID not exposed). Markets closed. Tape and gamma pulled 00:07–00:09 ET from the 10/28 close; Treasury par CSV 00:09 ET; FRED 00:10 ET; Cleveland Fed nowcast page 00:1x ET. Prior owner record (10/22 19:3x ET, L787) preserved verbatim at `research/2026-10-29_L773/STATUS-before.md`.
+**Last owner update:** 2026-10-29 14:51–16:3x ET, Will-launched boot + PROME catch-up assignment (prome-5c, Will 14:52 ET "get their files caught up") and WQ-545 equity leg (Claude Code, Opus 5.5, `claude-opus-5-5`). Tape and gamma `--both` pulled 16:06 ET after the close; Treasury par 10/29 CSV 16:07 ET; FRED through 10/28. Whole inbox drained (10 general + 6 WALTER). Changed: header, VIEW, new § OCTOBER 29 CLOSE, § GEX (regime reversed to NEGATIVE), § VOL, § CREDIT, threshold rows, catalyst stack. Pre-session copy: `research/2026-10-29_catchup/STATUS-before.md`. Previous: 2026-10-29 09:00–09:1x ET, PROME-spawned Tier-1 wake (prome-90) for the DOCKET L774 grade (BEA 08:30 ET), a channel-5 post-print read and a 2-packet inbox drain (Claude Code, Opus 5.5, `claude-opus-5-5`). BEA pages and FRED pulled 09:02 ET; vendor tape 09:03–09:07 ET, before the cash open. Changed this session: header, VIEW last sentences, § DOCKET L774, the core PCE threshold row, the catalyst line; the rest is the 00:4x ET record. Pre-session copy: `research/2026-10-29_L774/STATUS-before.md`. Previous: 2026-10-29 00:1x–00:4x ET, PROME-spawned Tier-1 wake (prome-92) for DOCKET L773 (FOMC 10/28) and L774 (GDP + September PCE, 10/29 08:30 ET) plus a whole-inbox drain (Claude Code, Opus 5.5, model ID `claude-opus-5-5`; native session ID not exposed). Markets closed. Tape and gamma pulled 00:07–00:09 ET from the 10/28 close; Treasury par CSV 00:09 ET; FRED 00:10 ET; Cleveland Fed nowcast page 00:1x ET. Prior owner record (10/22 19:3x ET, L787) preserved verbatim at `research/2026-10-29_L773/STATUS-before.md`.
 
 ## VIEW
+
+**10/29 close (supersedes the gamma and rate states in the 10/28 paragraph below): dealer gamma flipped NEGATIVE at both horizons and the 7,700 put wall was tested intraday and held on the close.** SPX low 7,690.94, close **7,720.39 (−0.30%)**, 20 points over the wall and 19–21 points under the flip band 7,739–7,741. The drop was Alphabet (GOOGL −12.64% after Q3 on an unchanged capex guide) and Amazon into its print (−4.25%); breadth was positive (RSP equal-weight +1.20%, KRE +1.04%), so this is a mega-cap rotation, not a broad selloff. **Rates rallied:** Treasury par 10/29 2Y 4.61% (−6bp), 10Y **4.98% (−7bp, back under the 5.0% red line ⇒ ORANGE)**, 30Y 5.32%. VIX 16.50, credit still easing (HY 314bp [FRED 10/28], 6bp under yellow). AMZN reports tonight; Apple's report is 11/02 per the vendor calendar (Apple IR not read). No probability, threshold, prediction or trade changed.
 
 **The October 28 FOMC (held 3.75–4.00%, 10–2, Cook and Hammack dissenting FOR a hike) moved the long end, not equities.** Treasury par 10/28 vs 10/27: 2Y 4.67% (−3bp), 10Y **5.05% (+6bp)**, 30Y 5.37% (+7bp), so 2s10s steepened 29 → 38bp and **the 10Y is back over its 5.0% red line** (ORANGE → RED). The vendor 10Y index rose about +2bp before 14:00 ET and about +2.5bp after, so the decision is at most half the day's move on that clock; attribution is BOND's. **Equities ignored the hawkish split:** SPX 7,738 at 13:55 ET → 7,743.98 close (+0.28% day), post-statement range 7,722–7,758; VIX fell to 16.91. **Dealer gamma is POSITIVE at both horizons again** (flip band 7,734–7,738, spot only 6–10 points above), after the put wall **broke on the 10/23 close** (SPX 7,623.68, 26 points under the 7,650 wall published 10/22; graded late tonight, no HENRY session that day). Credit answered the 10/22 selloff by widening (HY 327 → 340bp, CCC 1,307 → 1,356bp [10/22–10/23]) and has since retraced (HY 318bp, CCC 1,321bp [FRED 10/27]); **HY is under its 320 yellow line on one observation.** **L774 graded after the 08:30 ET print (10/29): core PCE September +0.3% m/m (unrounded +0.32%), 3.1% y/y ⇒ the >0.3% hot line did NOT fire, as frozen before the print.** Headline +0.5% / 3.6% on energy; Q3 real GDP +3.4% annualized, GDP price index +2.2%. First reaction: a small bond rally, no equity move. No probability, threshold, prediction or trade changed.
 
@@ -75,45 +77,51 @@
 
 ⚠️ **Correction to the frozen caveat above (09:0x ET, after the print; the rule and the expectation are unaffected):** "0.02pp under the rounding edge" is wrong arithmetic. The edge for a one-decimal 0.4 is 0.35, and the nowcast 0.28 sat **0.07pp** under it (0.02pp is its distance to 0.30, which is not a rounding edge). The same "0.02" figure was carried into DOCKET L774's state cell and the 00:4x memo; PROME told in the 10/29 memo.
 
-## GEX / GAMMA REGIME — POST-BREAK READ, OCTOBER 28 CLOSE (gamma `--both` 00:08 ET 10/29)
+## GEX / GAMMA REGIME — NEGATIVE BOTH, OCTOBER 29 CLOSE (gamma `--both` 16:06 ET 10/29)
 
-| Horizon / Cboe chain | Spot input | Flip | Net GEX per 1% | Put wall | Call wall |
+| Horizon / Cboe chain | Spot input (Cboe, delayed) | Flip | Net GEX per 1% | Put wall | Call wall |
 |---|---:|---:|---:|---:|---:|
-| 14d / 3,294 contracts | 7,743.98 | ~7,734 (spot +10) | +$6.2B | 7,750 near-tie (8%) → band 7,700–7,750 | 7,800 clean (+18%) |
-| 35d / 7,416 contracts | same | ~7,738 (spot +6) | +$4.7B | 7,700 clean (+12%) | 7,800 near-tie (1%) → band 7,800–8,000 |
+| 14d / 3,270 contracts | 7,714.90 | ~7,739 (spot −24) | **−$19.4B** | 7,700 clean (+27%) | 7,750 clean (+16%) |
+| 35d / 7,551 contracts | same | ~7,741 (spot −26) | **−$25.7B** | 7,700 clean (+33%) | 8,000 near-tie (5%) → band 7,800–8,000 |
 
-**Cross-horizon check:** POSITIVE both; put wall **WITHHELD** (14d 7,750 vs 35d 7,700); call wall **7,800 PUBLISHED** (35d band 7,800–8,000). Figures: `research/2026-10-29_L773/gamma_both_1028close.txt`. Free-tier estimates on assumed dealer positioning; dollar magnitudes are assumption-dependent; the sign and the flip are the robust reads, and a 6–10 point cushion is thin.
+**Cross-horizon check:** **NEGATIVE both** (regime reversed from POSITIVE at the 10/28 close); put wall **7,700 PUBLISHED** (clean at both); call wall **WITHHELD** (14d 7,750 vs 35d 8,000). Intraday 14:5x ET read was the same sign (−$28.9B / −$38.1B, spot 7,696). Figures: `research/2026-10-29_catchup/gamma_both_1029close.txt`. Free-tier estimates on assumed dealer positioning; dollar magnitudes are assumption-dependent; the sign and the flip are the robust reads. The Cboe spot input lags the vendor close (7,720.39) by ~5 points.
 
-**The break, graded late:** SPX closed **7,623.68 on 10/23** (vendor `^GSPC` bar; Cboe close field not read for that date), 26.32 under the 7,650 wall published 10/22 ⇒ **put wall BROKEN on the 10/23 close** (TERRY's L803 trigger, close < 7,650, was met on the same figure; TERRY graded its QQQ-card T1 FIRED 10/23). The 10/23 chain is not recoverable, so gamma on the break day is UNKNOWN. Path since: 7,676.77 · 7,722.60 · 7,743.98 (+1.58% off the break close in three sessions), back above the flip. **No WALTER signal sent tonight:** the break is six days old and already on the fleet record (HEARTBEAT ch. 5, TERRY), and the current state is a recovery. **Cascade proxy (own calc):** SPX above its 50-day average (7,698.1) ⇒ layer 2 proxy NOT met (it was met 10/22–10/23); layer 1 (VIX > 23–24) dormant at 16.91. 200-day 7,302.7. SPX −0.96% from the 7,818.93 close of 10/6.
+**Put wall grade, 10/29: TESTED, HELD ON THE CLOSE.** Low 7,690.94 (9 points through 7,700), close 7,720.39 (vendor `^GSPC`, last 1-minute bar 15:59 ET 7,721.02). Below the flip, dealers amplify moves in both directions; under 7,700 the downside feedback intensifies.
 
-## VOL REGIME / TAPE INPUTS — OCTOBER 28 CLOSE (vendor, pulled 00:07 ET 10/29)
+*(Superseded 10/28-close read, kept as record: POSITIVE both, flips ~7,734/~7,738, put wall withheld, call wall 7,800; `research/2026-10-29_L773/gamma_both_1028close.txt`.)*
 
-| SPX | VIX | VIX9D | VIX3M | VVIX | SKEW | 10Y (par) | KRE | USD/JPY |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 7,743.98 (+0.28%) | 16.91 (−3.48%) | 15.60 | 19.22 | 96.61 | 148.74 | 5.05% | $72.11 (−0.65%) | 157.99 (10/28 bar) |
+**The break, graded late:** SPX closed **7,623.68 on 10/23** (vendor `^GSPC` bar; Cboe close field not read for that date), 26.32 under the 7,650 wall published 10/22 ⇒ **put wall BROKEN on the 10/23 close** (TERRY's L803 trigger, close < 7,650, was met on the same figure; TERRY graded its QQQ-card T1 FIRED 10/23). The 10/23 chain is not recoverable, so gamma on the break day is UNKNOWN. Path since: 7,676.77 · 7,722.60 · 7,743.98 (+1.58% off the break close in three sessions), back above the flip. **No WALTER signal sent tonight:** the break is six days old and already on the fleet record (HEARTBEAT ch. 5, TERRY), and the current state is a recovery. **Cascade proxy (own calc, updated 10/29 close):** SPX 7,720.39 above its 50-day average (7,698.3) by 22 points ⇒ layer 2 proxy NOT met, but the intraday low 7,690.94 traded under it; layer 1 (VIX > 23–24) dormant at 16.50. 200-day 7,306.5. SPX −1.26% from the 7,818.93 close of 10/6.
 
-Vendor observations, **not Cboe-published closing certification**. VIOLET owns the vol broadcast. Daily closes 10/20–10/28: `research/2026-10-29_L773/closes.txt`.
+## VOL REGIME / TAPE INPUTS — OCTOBER 29 CLOSE (vendor, pulled 16:06–16:07 ET 10/29)
 
-## CREDIT EARLY-WARNING MONITOR — FRED OBS THROUGH 10/27 (pulled 00:10 ET 10/29)
+| SPX | VIX | VIX9D | VIX3M | VVIX | SKEW | MOVE | 10Y (par) | KRE | USD/JPY |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 7,720.39 (−0.30%) | 16.50 (−2.42%) | 14.65 | 18.96 | 95.54 | 148.74 [10/28; 10/29 not posted] | 93.46 | 4.98% | $72.86 (+1.04%) | 157.68 (16:0x ET last) |
 
-| Series | 10/21 | 10/22 | 10/23 | 10/26 | 10/27 |
-|---|---:|---:|---:|---:|---:|
-| HY OAS | 327bp | **340bp** | 338bp | 330bp | **318bp** |
-| BB OAS | 198bp | 210bp | 206bp | 198bp | 187bp |
-| CCC OAS | 1,307bp | 1,340bp | **1,356bp** | 1,345bp | 1,321bp |
-| CCC−BB | 1,109bp | 1,130bp | 1,150bp | 1,147bp | 1,134bp |
+Contango steepened (VIX9D 14.65 < VIX 16.50 < VIX3M 18.96): the vol market is not pricing the negative-gamma state as stress. OVX 56.63 (−3.35%) after +5.68% on 10/28. Vendor observations, **not Cboe-published closing certification**. VIOLET owns the vol broadcast. Daily closes 10/21–10/29: `research/2026-10-29_catchup/closes_1021_1029.txt`.
 
-**The open 10/22 question is answered: credit widened with the selloff** (HY +13bp on 10/22, CCC +49bp over two sessions) and retraced over 10/26–10/27 alongside the equity recovery; HY 318 is the first observation under 320 in the window pulled (from 10/14). CCC−BB +302bp over ~3 months (`credit_monitor.py`). REG-T-04 (>350 ×3, REGINALD's) did not fire; 340 was the closest. HYG/LQD 5-session −0.04%: no flag.
+## CREDIT EARLY-WARNING MONITOR — FRED OBS THROUGH 10/28 (pulled 14:51 ET 10/29)
+
+| Series | 10/21 | 10/22 | 10/23 | 10/26 | 10/27 | 10/28 |
+|---|---:|---:|---:|---:|---:|---:|
+| HY OAS | 327bp | **340bp** | 338bp | 330bp | 318bp | **314bp** |
+| BB OAS | 198bp | 210bp | 206bp | 198bp | 187bp | 184bp |
+| CCC OAS | 1,307bp | 1,340bp | **1,356bp** | 1,345bp | 1,321bp | 1,307bp |
+| CCC−BB | 1,109bp | 1,130bp | 1,150bp | 1,147bp | 1,134bp | 1,123bp |
+
+**10/28 add:** HY 314 is the second observation under 320; RED-FT-02/REG-T-03 exit (<300) is 14bp away (RED/REGINALD grade, WALTER SIG-W-20261029-017). CCC−BB +262bp over ~3 months (`credit_monitor.py` 14:51 ET). HYG $77.46 (−0.17%), HYG/LQD 5-session +0.66%: no flag.
+
+**[10/29 00:1x ET read, FRED through 10/27]** **The open 10/22 question is answered: credit widened with the selloff** (HY +13bp on 10/22, CCC +49bp over two sessions) and retraced over 10/26–10/27 alongside the equity recovery; HY 318 is the first observation under 320 in the window pulled (from 10/14). CCC−BB +302bp over ~3 months (`credit_monitor.py`). REG-T-04 (>350 ×3, REGINALD's) did not fire; 340 was the closest. HYG/LQD 5-session −0.04%: no flag.
 
 ## THESIS / INVALIDATION TRIAD
 
 | Axis | Current judgment |
 |---|---|
-| Cyclical | Inflation pressure persists (September CPI/PPI hot on energy; core firm). The FOMC held with two dissents for a hike; the 10Y is back at 5.05% par on a long-end move while the 2Y eased. |
-| AI-capex | HEN-36 mechanism RESOLVED-CONFIRMED; class-wide de-rate expression FALSIFIED. 10/22 tech selloff fully retraced in semis (SOXX 475.69 → 521.94, +9.7% 10/22–10/28). Meta $35B financing launched, Anthropic S-1 public (WALTER 1026-001/003; VULCAN/BROCK grade). |
-| Structural credit | Tail stress persists (CCC 1,321bp RED, CCC−BB 1,134bp), broad HY back under 320. Not AI-led on the rated CCC tier (DEWEY 10/23: 0% AI builders, ~16.5% cable/telecom/media). |
+| Cyclical | Inflation pressure persists (September CPI/PPI hot on energy; core firm). The FOMC held with two dissents for a hike; the 10Y went 5.05% [10/28] → 4.98% [10/29 par], back under red, as the whole curve rallied 5–7bp on 10/29. |
+| AI-capex | HEN-36 mechanism RESOLVED-CONFIRMED; class-wide de-rate expression FALSIFIED. 10/22 tech selloff fully retraced in semis (SOXX 475.69 → 521.94, +9.7% 10/22–10/28). Meta $35B financing launched, Anthropic S-1 public (WALTER 1026-001/003; VULCAN/BROCK grade). 10/29: GOOGL −12.64% on an unchanged $195–205B capex guide, AMZN −4.25% into its print, MSFT −0.16%, META +1.96%; NDX/QQQ −1.42% while RSP +1.20% (VULCAN owns the capex grade). |
+| Structural credit | Tail stress persists (CCC 1,307bp RED, CCC−BB 1,123bp [FRED 10/28]), broad HY 314bp, under 320 for two observations. Not AI-led on the rated CCC tier (DEWEY 10/23: 0% AI builders, ~16.5% cable/telecom/media). |
 
-**Standing Will rule (8/10):** VIX < 15 AND HY < 260 on the SAME session, five consecutive; non-latching. **Joint count 0** (HY 318 [10/27] > 260; VIX 16.91 [10/28] > 15).
+**Standing Will rule (8/10):** VIX < 15 AND HY < 260 on the SAME session, five consecutive; non-latching. **Joint count 0** (HY 314 [10/28] > 260; VIX 16.50 [10/29] > 15).
 
 ## ACTIVE THRESHOLDS — ALL STANDING LEVELS UNCHANGED
 
@@ -124,26 +132,26 @@ Vendor observations, **not Cboe-published closing certification**. VIOLET owns t
 | ISM manufacturing prices | 77.9 [ISM Sep] | >60 / >70 / >75 | RED observation |
 | PPI FD m/m | +1.3% [BLS Sep, 10/15] | >0.4 / >0.5 / >0.6 | RED observation |
 | Core PCE m/m | **+0.3% [BEA Sep, 10/29]** (unrounded +0.32%) | >0.3 hot | **NOT FIRED** (L774 graded; matched the frozen expectation) |
-| VIX | 16.91 [vendor 10/28] | >23 / >28 / >30 sustained | NOT FIRED (6.09 below 23) |
-| SPX | 7,743.98 [vendor 10/28] | <7,200 / <7,100 / <6,494 | NOT FIRED (544 above 7,200); gamma POSITIVE both; put wall withheld |
-| KRE | $72.11 [vendor 10/28] | <$65 / <$62 / <$60 | NOT FIRED |
-| 10Y | **5.05% [Treasury par 10/28]** | >4.5 / >4.8 / >5.0 | **RED** (5bp over; was ORANGE 4.99 on 10/27) |
-| 2Y / 30Y | **4.67% / 5.37% [Treasury par 10/28]** | >4.25 / >4.40 / >4.60 · >5.0 / >5.25 / >5.50 | 2Y RED (7bp over); 30Y ORANGE (13bp under red) |
-| HY OAS | 318bp [FRED 10/27] | >320 / >400 / >500 | **NOT FIRED** (2bp under yellow, one observation; 340 on 10/22) |
-| CCC OAS | 1,321bp [FRED 10/27] | >900 / >1000 / >1100 | RED |
-| USD/JPY | 157.99 [vendor 10/28 bar, +0.30%] | absolute daily change ≥2%, SAM's call | NOT FIRED |
-| SKEW | 148.74 [vendor 10/28] | >145 / >150 / >160 | YELLOW (was ORANGE 152.39 on 10/22); RED-FT-10 owner grade separate |
-| VIX kill leg | 16.91 [vendor 10/28] | <17 / <16 / <15 one session | YELLOW band (under 17, one session) |
-| HY kill observable | 318bp [FRED 10/27] | <290 / <270 / <260 ×5 | NOT FIRED |
+| VIX | 16.50 [vendor 10/29] | >23 / >28 / >30 sustained | NOT FIRED (6.50 below 23) |
+| SPX | 7,720.39 [vendor 10/29] | <7,200 / <7,100 / <6,494 | NOT FIRED (520 above 7,200); gamma **NEGATIVE both** (flip 7,739–7,741); put wall 7,700 tested intraday (low 7,690.94), held on close |
+| KRE | $72.86 [vendor 10/29] | <$65 / <$62 / <$60 | NOT FIRED |
+| 10Y | **4.98% [Treasury par 10/29]** | >4.5 / >4.8 / >5.0 | **ORANGE** (2bp under red; was RED 5.05 on 10/28) |
+| 2Y / 30Y | **4.61% / 5.32% [Treasury par 10/29]** | >4.25 / >4.40 / >4.60 · >5.0 / >5.25 / >5.50 | 2Y RED (1bp over); 30Y ORANGE (18bp under red) |
+| HY OAS | 314bp [FRED 10/28] | >320 / >400 / >500 | **NOT FIRED** (6bp under yellow, second observation; 340 on 10/22) |
+| CCC OAS | 1,307bp [FRED 10/28] | >900 / >1000 / >1100 | RED |
+| USD/JPY | 157.68 [vendor 10/29 16:0x ET, −0.2%] | absolute daily change ≥2%, SAM's call | NOT FIRED |
+| SKEW | 148.74 [vendor 10/28; 10/29 not posted at 16:07 ET] | >145 / >150 / >160 | YELLOW (was ORANGE 152.39 on 10/22); RED-FT-10 owner grade separate |
+| VIX kill leg | 16.50 [vendor 10/29] | <17 / <16 / <15 one session | YELLOW band (under 17, second session) |
+| HY kill observable | 314bp [FRED 10/28] | <290 / <270 / <260 ×5 | NOT FIRED |
 
 ## CROSS-DESK / CATALYST STACK / GAPS
 
-- **DOCKET L774 graded 10/29 09:0x ET: NOT FIRED** (core PCE +0.3%). No further registered HENRY wake today. Next: ECI 10/30 (LABOR), BOJ 10/30, Russian №1252 producer restriction expiry 10/31 (DOCKET L771), ISM manufacturing 11/2 (ISHM), NFP 11/6, CPI 11/10, PPI 11/13.
+- **DOCKET L774 graded 10/29 09:0x ET: NOT FIRED** (core PCE +0.3%). **Tonight: AMZN Q3 after the close** (VULCAN grades §4b; not pre-graded here). **AAPL is 11/02 after the close per the vendor calendar** (yfinance; Apple IR not read). Next: ECI 10/30 (LABOR), BOJ 10/30, Russian №1252 producer restriction expiry 10/31 (DOCKET L771), ISM manufacturing 11/2 (ISHM), NFP 11/6, CPI 11/10, PPI 11/13.
 - **AAL guide conflict (BRENT 10/23) resolved at the primary:** American's Q3 exhibit 99.1 (saved `research/2026-10-22_L769/src/aal-q3-ex99.htm`) lists **FY 2026E adjusted loss per diluted share ($1.60)–($1.00)** and Q4 ($1.10)–($0.50); BRENT's −$0.65 to +$0.65 is not in that exhibit and is the earlier guide per HENRY's 10/22 record. HEN-46's F4 disposition (not raised) stands. Packet to BRENT.
 - **F1 crack (BRENT 10/28):** December diesel crack on HENRY's window basis $93.96 [10/27] / $93.06 [10/28], below 95 (BRENT estimate, vendor one-minute bars). HEN-46 is RESOLVED, so nothing of HENRY's grades on it; held-VLO is TERRY's card.
 - **WQ-507 encoded:** charter trigger and threshold rows now point to ISHM (this session's commit). **WQ-508 (DAEDALUS):** lines already applied by DAEDALUS in 4da79f1ee, read and accepted, nothing contested.
 - **CYPHER boundary** confirmed as written (packet). **DGX (Quest) cyber 8-K:** no adverse equity reaction (+1.82% on 10/22, disclosure day, confounded by earnings; $245.62 on 10/28, +2.8% vs 10/21).
 - **Leads retained or rejected (WALTER 1025-006/022, 1027-018, 1023-043):** QQQ 55-event count retained with WALTER's reproduced definition (five sessions, ≥2 days ≤−2.5%, ≥2 days ≥+1%, ending on a ≤−2.5% day; overlapping, no forward return); Bespoke 10/22 breadth (337 up / 165 down) consistent with HENRY's RSP +0.73% read; short-ETF volume chart and the 6-month-shifted G10 liquidity chart rejected (no basis); UBS 0DTE countertrend-flow note a lead only (method gated); buyback figures uncited (Goldman's own Q2 figure ~+11%).
-- **Inbox:** whole-inbox drain this session, 17 general packets and 59 WALTER cards, logged in `board_log.tsv` and filed to `processed/`. Four corrections receipted NO-OP (COR-20261022-40, -48, COR-20261023-39, COR-20261025-02).
-- **Still open:** ISM services date (ismworld.org 503 on 10/21) — recheck before 11/4; the Operating Dashboard artifact was not refreshed this session.
-- **Runtime:** Claude Code (Opus 5.5), terminal + web + cross-session messaging. No pull and no push this session (BRENT, MIDAS, BROCK and PROME work uncommitted in the tree). No Will decision requested.
+- **Inbox (10/29 afternoon):** 10 general packets + 6 WALTER cards drained and logged (`board_log.tsv` 14:53–15:03 ET): TTF €100 L3 touched-not-held (HANS, ICE settle unread), WATT P1 RED re-fire 10/27 (HEN-36 power input unchanged), ZHAO ×3 FYI, CYPHER/PROME row 9. **Row 9 (CYPHER wave): HENRY carries the PANW price leg and the bank-stock leg, graded 11/18 from a live pull** (PROME 15:03 ET, superseding its 14:4x routing). ⚠️ The letter names no magnitude for "vector-vendor collapse"; raised to PROME, HENRY does not set it alone. **Earlier inbox (10/29 00:xx ET):** whole-inbox drain, 17 general packets and 59 WALTER cards, logged in `board_log.tsv` and filed to `processed/`. Four corrections receipted NO-OP (COR-20261022-40, -48, COR-20261023-39, COR-20261025-02).
+- **Still open:** ISM services date (ismworld.org 503 on 10/21) — recheck before 11/4; the Operating Dashboard artifact was not refreshed (last version 10/22). Co-owned clocks L435/L437 (11/10) and L322 NVDA (11/19) not due; no grade.
+- **Runtime:** Claude Code (Opus 5.5), terminal + web + cross-session messaging. Three MCP connectors failed to connect (Definite, MT Newswire, Prisma Local); none needed. No Will decision requested.

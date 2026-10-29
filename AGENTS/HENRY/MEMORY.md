@@ -50,18 +50,17 @@
 
 ## Session Notes
 
-### CHANGES SINCE — 2026-10-29 09:00–09:1x ET wake, DOCKET L774 grade (Claude Code, Opus 5.5, PROME prome-90)
+### CHANGES SINCE — 2026-10-29 14:51–16:3x ET, Will-launched boot + PROME catch-up (prome-5c) + WQ-545 equity leg (Claude Code, Opus 5.5)
 
-- **L774 GRADED NOT FIRED:** BEA core PCE Sep **+0.3%** m/m (PCEPILFE +0.3165% unrounded), 3.1% y/y; headline +0.5% / 3.6%. Matched the frozen +0.3% (nowcast +0.28% undershot ~0.04pp). Jul/Aug core revised up ~0.01pp; monthly path 0.14 → 0.26 → 0.32 (rising). Q3 GDP +3.4% SAAR, GDP price index +2.2% (FRED A191RI1Q225SBEA, not on the release page). KB ML-HEN-190. Commit 0070ba94d.
-- **Own error caught:** the frozen caveat said the nowcast sat "0.02pp from the rounding edge"; the edge for 0.4 is 0.35, so it was 0.07pp. Corrected beside the frozen text, not in it. **Distance-to-edge = edge minus value; name the edge.**
-- Pre-open reaction only (session closed before 09:30 at PROME's ask): ES flat across the print, vendor 10Y −1.5 to −2.5bp, VIX 17.02. Cash SPX reaction and 10/29 par NOT observed.
-- Inbox: BOND (VX-BND-07 one-session letter, noted), ZHAO (USTR ships FYI, info-only) → processed; census 0/0.
-- **PROME's steer:** do not hold a finished session on a timer for a later print; close out with the armed state.
+- **Gamma reversed to NEGATIVE both at the 10/29 close** (flips ~7,739/~7,741; −$19.4B/−$25.7B); put wall 7,700 PUBLISHED clean both, tested intraday (low 7,690.94), held on close 7,720.39. Signal to WALTER inbox. Call wall withheld.
+- Treasury par 10/29: 2Y 4.61 (RED by 1bp), 10Y 4.98 (back to ORANGE), 30Y 5.32. HY 314 [FRED 10/28]. KB ML-HEN-191; MARKET_DATA 10/29 row + refresh stamp.
+- Inbox drained (10 general + 6 WALTER). **Row 9 (CYPHER wave): HENRY carries the PANW price leg AND the bank-stock leg, grade 11/18 live pull** (PROME 15:03 ET final routing). The letter has no "collapse" magnitude: raised to PROME, not set.
+- VLO −9.24% 10/27 = refiner-sector move (MPC −7.36%, PSX −7.03%), gapped at the open, not earnings (10/22); cause unestablished at a primary (secondaries: margin outlook, Russian diesel, Iran).
+- **Own errors caught:** (1) `gamma_flip.py` writes `PUBLISHED.tsv` on every run, replacing same-date rows WITHOUT basis notes, even for a read you are not publishing; restored once. (2) my hand edit to PUBLISHED replaced EVERY row of each metric (history ledger, one row per metric per date): restored from git, re-applied keyed on date. **Key any ledger edit on (metric, date), never metric alone; `git diff --stat` before moving on.**
 
 ### NEXT SESSION
 
-1. Fill the 10/29 cash-session reaction and par (2Y/10Y) from the record at the next touch; MARKET_DATA 10/29 EOD row not written.
-2. At any wake: `gamma_flip.py --both` first. Pull FRED 10/28+ (HY 318 is one observation under 320).
-3. Operating Dashboard not refreshed since 10/22 (version 4); refresh at the next full session.
-4. ISM services date (11/4) still unverified at ismworld.org; recheck before 11/4.
-5. Catalysts: ECI + BOJ 10/30, Russian №1252 expiry 10/31, ISM mfg 11/2 (ISHM), NFP 11/6, CPI 11/10, PPI 11/13; next PCE 11/25.
+1. Grade the post-AMZN session (10/30) against the negative-gamma state: `gamma_flip.py --both` first; note it rewrites PUBLISHED.tsv.
+2. Row 9 on 11/18: PANW + bank-stock legs from a live pull; get the collapse magnitude settled with CYPHER/PROME BEFORE 11/18.
+3. Operating Dashboard not refreshed since 10/22 (version 4). ISM services date (11/4) still unverified.
+4. Catalysts: ECI + BOJ 10/30, Russian №1252 expiry 10/31, AAPL 11/02 (vendor date), ISM mfg 11/2 (ISHM), NFP 11/6, CPI 11/10 (L435/L437 co-owned), PPI 11/13, NVDA 11/19 (L322).
