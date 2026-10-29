@@ -1,6 +1,8 @@
 # TRADE IDEA — IEF January90/92 bull-call spread — limited-risk Treasury rebound
 **Setup ID:** `IDEA-IEF-OCT20`
-**Terry verdict:** CONDITIONAL — NOT-FIRED; unapproved proposal.
+**Terry verdict:** SHELVED — retired from daily checks (Will in the TERRY window 2026-10-29 11:50 ET: "You can retire them but I would want them to still exist where I can view previous ideas"); never approved, nothing armed; listed on `IDEA_SHELF.md` for look-back; revived only by Will's word, then re-priced from scratch.
+
+**Prior verdict (superseded 2026-10-29 11:50):** CONDITIONAL — NOT-FIRED; unapproved proposal.
 **Prepared:** 2026-10-20T11:59:53.683072-04:00. Commissionff9531ffc, Will'srecorded11:50ETword.
 **Thesis-owner evidence:** BOND October15: longTreasurieswereboughtonsafe-assetdemand; durationshortkillMET-REC/NO-ADD remains. This is a conditional opposite expression, not a newBONDlong recommendation.
 

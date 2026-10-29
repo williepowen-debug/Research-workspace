@@ -1,6 +1,8 @@
 # TRADE IDEA — OKTA Nov-20 220/230 call spread — the identity layer if the AI-agent security wave worsens
 **Setup ID:** `IDEA-OKTA-SECWAVE-OCT22`
-**Terry verdict:** PARKED — WQ-492 RULED B (Will in the TERRY window 2026-10-29 11:42 ET, verbatim "492 - B"): idea only, no order, nothing approved. Not re-graded at boot; re-opens only if a named vendor or bank files a cyber 8-K Item 1.05 before the 11/13 time stop, else dead then.
+**Terry verdict:** SHELVED — retired from daily checks (Will in the TERRY window 2026-10-29 11:50 ET: "You can retire them but I would want them to still exist where I can view previous ideas"); never approved, nothing armed; listed on `IDEA_SHELF.md` for look-back; revived only by Will's word, then re-priced from scratch.
+
+**Prior verdict (superseded 2026-10-29 11:50):** PARKED — WQ-492 RULED B (Will in the TERRY window 2026-10-29 11:42 ET, verbatim "492 - B"): idea only, no order, nothing approved. Not re-graded at boot; re-opens only if a named vendor or bank files a cyber 8-K Item 1.05 before the 11/13 time stop, else dead then.
 
 **Prior verdict (superseded 2026-10-29):** CONDITIONAL — **NOT-FIRED**; unapproved proposal. **Confidence in structure: LOW.** Nothing is approved in advance.
 **Prepared:** 2026-10-22 13:33 ET (clock read from `date`), TERRY (Claude Opus 5.5, Claude Code), PROME spawn on WQ-487 A plus PROME's 13:3x ET packet `2026-10-22_from-PROME_security-wave-basket-card-input.md`.

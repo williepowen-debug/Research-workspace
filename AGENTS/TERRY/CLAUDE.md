@@ -167,6 +167,7 @@ At closeout or after a trade review:
 | `charts/` | Saved chart notes/screenshots if generated. |
 | `setups/INDEX.md` | **Master card registry** — every card, status, trigger class, owner, file. Start here for "where is everything." |
 | `setups/` | Full trade-card markdown files (live/staged). Dead cards → `setups/_archive/`. |
+| `setups/IDEA_SHELF.md` | **Retired ideas kept for Will's look-back** (Will 2026-10-29). State `SHELVED` = terminal for boot: never checked or graded daily; revived only by Will's word, then re-priced from scratch. Add a row whenever Will retires an unapproved idea. |
 | `PAPER_BOOK_DESIGN.md` | Paper/shadow-book spec (Phase-1 build spec + fill/marking rules + guardrails). Authority for the fill rule. |
 | `PAPER_BOOK.tsv` | Phase-1 SHADOW BOOK — auto-filled would-fire cards, marked to close. **PAPER, card-quality, not an endorsed P&L; never a license to size up.** Survivorship: never delete a losing row. |
 | `scripts/paper_book_mark.py` | Marks OPEN paper rows at chain MID (options) or the timestamped regular-session LAST (share rows, since 2026-09-24) + flags STALE (>N business days). Logs+marks only; no scoring until N≥10 closed/lane. |

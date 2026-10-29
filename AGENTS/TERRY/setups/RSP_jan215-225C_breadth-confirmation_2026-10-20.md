@@ -1,6 +1,8 @@
 # TRADE IDEA — RSP January215/225 bull-call spread — broad participation rather than another short
 **Setup ID:** `IDEA-RSP-OCT20`
-**Terry verdict:** CONDITIONAL — NOT-FIRED; unapproved proposal.
+**Terry verdict:** SHELVED — retired from daily checks (Will in the TERRY window 2026-10-29 11:50 ET: "You can retire them but I would want them to still exist where I can view previous ideas"); never approved, nothing armed; listed on `IDEA_SHELF.md` for look-back; revived only by Will's word, then re-priced from scratch.
+
+**Prior verdict (superseded 2026-10-29 11:50):** CONDITIONAL — NOT-FIRED; unapproved proposal.
 **Prepared:** 2026-10-20T11:59:53.683072-04:00. Commissionff9531ffc, Will'srecorded11:50ETword.
 **Thesis-owner evidence:** HENRY October19: narrowMondayrebound, improvingequalweight/Nasdaqparticipation counterevidence, negativegamma/fragility. Not a confirmedbullregime; TERRY proposes a breadth-dependentconstruction, not a newHENRYforecast.
 

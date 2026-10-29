@@ -1,0 +1,16 @@
+# TERRY IDEA SHELF — retired ideas kept for look-back
+
+**What this is (Will, 2026-10-29 11:50 ET):** trade ideas retired from TERRY's daily checks but kept so Will can browse and reconsider them. ⛔ **Nothing here is checked at boot, graded, or approved.** To revive one, Will says so; TERRY then re-prices it from scratch (live chain, current trigger state). Prices on the cards are as of their write date. Cards are never deleted; each link below is the full card.
+
+**How a row gets here:** the idea is unapproved or declined, and Will chose to retire it rather than keep it on the daily list. State token on every ledger: `SHELVED` (terminal for boot).
+
+| Shelved | Idea | Structure · max loss | Why it was an idea | Why shelved | What would make it worth a second look | Card |
+|---|---|---|---|---|---|---|
+| 2026-10-29 | IDEA-VST-OCT20 · Vistra (power scarcity) | VST common ×2 ≤ $149.70 · max loss $300.40 | WATT's power-capacity stress read (10/15); own the generator without paying option volatility | Never approved; Will retired the 10/20 slate | A fresh WATT stress read, or VST pulling back toward its range lows | `VST_common_power-scarcity_2026-10-20.md` |
+| 2026-10-29 | IDEA-IEF-OCT20 · Treasury rebound | IEF Jan-15 90/92C ×3 ≤ $0.85 · max loss $258.90 | BOND (10/15): long Treasuries bought on safe-asset demand; limited-risk rebound bet | Trigger met 10/23 but the spread never priced under the $0.85 cap; Will retired the slate | A risk-off week with the 10-year falling, and the spread back under its cap. ⚠️ It partly offsets the TBT shares | `IEF_jan90-92C_safe-asset-rebound_2026-10-20.md` |
+| 2026-10-29 | IDEA-RSP-OCT20 · Equal-weight breadth | RSP Jan-15 215/225C ×1 ≤ $4.90 · max loss $491.30 | HENRY (10/19): broadening participation; a long that is not another short | Entry case spent 10/23 (debit $5.38 over the $4.90 cap); Will retired the slate | A fresh breadth confirmation (HENRY) after a pullback | `RSP_jan215-225C_breadth-confirmation_2026-10-20.md` |
+| 2026-10-29 | IDEA-FXY-OCT20 · Yen | FXY Jan-15 58/60C ×1 ≤ $0.90 · max loss $91.30 | Yen diversification; card itself called it the weakest case (SAM: no fresh carry unwind) | Trigger met 10/23 but the spread never priced under the cap; Will retired the slate | A SAM carry-unwind signal or a signalled BOJ hike | `FXY_jan58-60C_yen-confirmation_2026-10-20.md` |
+| 2026-10-29 | IDEA-OKTA-SECWAVE-OCT22 · Identity security | OKTA Nov-20 220/230C ×1 · max loss $341.30 | Will's premise (10/22): the AI-agent security wave gets worse | WQ-492 ruled B (hold as an idea, no order); shelved so it is not checked daily | A named vendor or bank files a cyber 8-K Item 1.05 (the card's own trigger); the Nov-20 expiry ends this structure | `OKTA_nov20-220-230C_agent-credential-security-wave_2026-10-22.md` |
+| 2026-10-29 | IDEA-USO-POSTELECTION-OCT22 · Oil after the midterms | USO Jan-15-2027 170/185C ×1 · max loss $461.30 | Tenor fix: a US strike on Iran was most likely after 11/3 and the held calls expired first (FALCON) | WQ-491 not taken; Will added USO exposure himself (state NO TRADE, kept here for look-back) | FALCON's US-strike row firing; note it is the same bet as the oil sleeve | `USO_jan15-170-185C_post-election-strike-window_2026-10-22.md` |
+
+Older retired and dead ideas: `INDEX.md` (every card, every state) and `_archive/`.
