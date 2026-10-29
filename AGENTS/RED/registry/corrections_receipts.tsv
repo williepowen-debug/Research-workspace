@@ -58,3 +58,11 @@ receipt_date	correction_id	action	note
 2026-10-22T15:35Z	COR-20261022-04	NO-OP	scope=RED cites no HENRY gamma read from SIG-W-20261021-022 or 20261022-004 and no RED weight rests on that gamma sign; 
 2026-10-22T15:35Z	COR-20261021-11	NO-OP	scope=RED never cited SIG-W-20261016-035 and its War re-derivation input counts losses not locations (logged not applied); 
 2026-10-22T15:35Z	COR-20261021-16	NO-OP	scope=RED never cited SIG-W-20261015-008 and its diesel ML rows are July history; 
+2026-10-29T01:03Z	COR-20261022-27	NO-OP	scope=RED cites none of the corrected figures on any live surface (grep STATUS SCRATCH CALENDAR NEXUS OUTBOX KB VX registry docket 2026-10-28); 
+2026-10-29T01:03Z	COR-20261022-40	NO-OP	scope=RED cites none of the corrected figures on any live surface (grep STATUS SCRATCH CALENDAR NEXUS OUTBOX KB VX registry docket 2026-10-28); 
+2026-10-29T01:03Z	COR-20261022-48	NO-OP	scope=RED cites none of the corrected figures on any live surface (grep STATUS SCRATCH CALENDAR NEXUS OUTBOX KB VX registry docket 2026-10-28); 
+2026-10-29T01:03Z	COR-20261023-31	NO-OP	scope=RED cites none of the corrected figures on any live surface (grep STATUS SCRATCH CALENDAR NEXUS OUTBOX KB VX registry docket 2026-10-28); 
+2026-10-29T01:03Z	COR-20261025-26	NO-OP	scope=RED cites none of the corrected figures on any live surface (grep STATUS SCRATCH CALENDAR NEXUS OUTBOX KB VX registry docket 2026-10-28); 
+2026-10-29T01:03Z	COR-20261027-01	NO-OP	scope=RED cites none of the corrected figures on any live surface (grep STATUS SCRATCH CALENDAR NEXUS OUTBOX KB VX registry docket 2026-10-28); 
+2026-10-29T01:03Z	COR-20261023-39	NO-OP	scope=RED never cited the 17pct-of-CCC figure - consumed as a re-derivation input S57 (CCC widening broad and cable-telecom led); 
+2026-10-29T01:03Z	COR-20261025-02	NO-OP	scope=RED never adopted the issuance-freeze inference - consumed as a re-derivation input S57 (freeze not established); 

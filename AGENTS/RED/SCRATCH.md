@@ -1,34 +1,38 @@
 # RED SCRATCH — canonical session handoff
-**S56 HANDOFF — Written 2026-10-22 11:35 ET (from `date`). Session S56: PROME-spawned Tier-1 WQ-184 due-row wake (WQ-481 A), bounded: DOCKET L35 (bank Q3 tree), whole-inbox drain, forum post. First ending of 10/22 (W1–W10). The S55 handoff and older addenda are in git history (`git log -p -- AGENTS/RED/SCRATCH.md`).**
+**S57 HANDOFF — written 2026-10-28 21:2x ET (from `date`). Session S57: Will-launched catch-up ("lets get you caught up on any owed tasks"), RED dark 10/23–10/27. First ending of 10/28 (W1–W10). The S56 handoff is in git history (`git log -p -- AGENTS/RED/SCRATCH.md`).**
 
-## CHANGES SINCE (S55-b 10/21 09:40 → S56 10/22 11:26)
-- EGBN Q3 printed 10/21 after the close (8-K acc 0001050441-26-000110), call 10/22 10:00 ET. OZK print/call graded by its owner (OZK-09 STUCK; Boston W9 failed sale, $37.3M c/o; conviction → LOW, WQ-483 A). WAL owner grade: not bear, $99M → 10-Q.
-- HY OAS 333 [10/20] · 327 [10/21]. SKEW 150.36 [10/21] at Cboe. VIX 19.30 intraday 10/22 (16.68 VIXCLS 10/21). Will opened FORUM/banks.
-- Book per FORGE ec5a7058b (Will 11:01 ET capture): KRE puts ×16, OZK 40P ×4, WAL 65P ×4 + 70P ×2, ZION 62.5P ×2; no EGBN line.
+## CHANGES SINCE (S56 10/22 11:35 → S57 10/28 20:58)
+- HY OAS 340 [10/22, post-fire high] → 318 [10/27]; CCC 1,356 [10/23] → 1,321; DFII10 2.64 [10/27] (2.88 [10/13]); 5y5y 2.19 [10/22] → 2.27 [10/28]; VIXCLS 17.52 [10/27]. SKEW 149.22 [10/27] at Cboe.
+- FOMC 10/28: hold 3.75–4.00, 10–2, both dissents for a hike (SIG-W-20261029-001). ORACLE reads a December hike at ~80%.
+- Banks rallied through prints: EGBN +15.6% close 10/22; KRE 72.58 [10/27]; FLG −9.3% 10/23 on Q3.
+- War: record October attacks (28); Iran targets the Sinokor fleet from 11/1; WSJ reports a post-midterm campaign; WH line "no attack before the midterms" (10/22). FALCON ladder HELD.
+- DAEDALUS applied WQ-508 lines to RED's charter (4da79f1ee). Eight WALTER corrections addressed RED.
 
-## WHAT I DID (S56)
-- **CHG-027 = DETERIORATION** on the letter (NCO 0.25%; NPAs $166,021K vs $113,090K; inflows $73.7M > reductions $18.8M). Composition recorded: one already-substandard $56.0M loan carries it; ex-loan = CLEARING. Row → EGBN Q4 (CATALYSTS 2027-01-28 est.).
-- **Acute +1 (pre-stated, DISCRETIONARY):** EGBN DET + OZK W9 → Acute 20 · Managed 23 → **HOLD 72 · net-bear 69**. Tree row-3 ambiguity disclosed (ML-303).
-- **CHG-054** lead STRONG → MODERATE (OZK leg MODERATE; WAL, KRE unchanged; re-review 11/09). **CHG-049** CRL-29 NO VERDICT → 11/15.
-- Canon: CHALLENGES ×3, ML-302/303, CATALYSTS (4 resolved, 2 added). Mirrors: STATUS, CALENDAR, NEXUS vS56 (vS55 rotated), OUTBOX -065, CHANGELOG S56. Report `reports/2026-10-22_S56_BANK_Q3_TREE_GRADE.md`.
-- Inbox: CARL packet → processed/; WALTER 013 → WALTER/processed/; board_log +3 rows (013, 022-011, CARL), rotated to 59.9%.
+## WHAT I DID (S57)
+- **Re-derivation (DISCRETIONARY, owed 10/23):** Stag 33 · Managed 25 · Acute 20 · War 15 · Soft 4 · Rescue 3 → **HOLD 72 · net-bear 68** (was 69). Report `reports/2026-10-28_S57_weight_rederivation.md`; ML-305.
+- **CHG-055 re-reviewed:** FT-11 windows through 10/20 FLOW; latest FUNDAMENTAL; two windows COLLIDED with v1.1 FLOW-alt (no precedence rule) → ML-304, registry state cell, packet to BOND (answer by 11/13).
+- **Exit clocks:** FT-02 0/3 · FT-06 0/5 (3/5 broken 10/27) · FT-10 0/4, outcome not met. Registry cells restamped; scan view regenerated.
+- **L739 (DOCKET, due 10/29):** gate payoff PAID on the letter, weak evidence (ML-306); packet to PROME.
+- Intake: 8 corrections receipted NO-OP; basis rehashed (4 diffs read); 16/16 inbox packets read and moved to processed/; 38 board_log rows (2 rotations).
+- Packets: BOND (FT-11), TERRY (EGBN outside #18), ISHM (answer: no joint freight/HY set), PROME (L739 + weights).
 
 ## NEXT SESSION (dated, ordered)
-1. 🟡 **Thu 10/22 after 16:00 ET (or next boot):** FT-10 10/22 Cboe bar — exit leg only (<140 strict ×4; 0 of 4). EGBN 10/22 close % (flag if ≥10%, TERRY #18 envelope).
-2. 🟠 **Fri 10/23, not before:** discretionary re-derivation on the logged inputs (STATUS § CURRENT ASSESSMENT) — must not reverse the FT-02 +3 or the S56 +1 on their recorded composition. FLG prints 10/23 ~06:00 (no RED line). CHG-055 re-review 10/23.
-3. 🟡 11/05–11/09 10-Qs → CHG-054 · 11/10 Oct CPI tree · 11/15 HHDC (CHG-045/049) · 12/21 EGBN $56.0M loan (L791) · ~1/28 EGBN Q4 (write any single-name clause BEFORE the print).
-4. 🟡 Self-sweep hygiene items (STATUS priority 4), each on Will's direction.
+1. 🟡 **Thu 10/29+:** 10/28 FRED cells (HY, VIXCLS) → FT-02 / FT-06 exit counts; claims 10/29 (FT-05); SKEW 10/28 bar (FT-10 exit).
+2. 🟢 **Sat 10/31:** RED-25 re-review: check whether DEWEY ran the permutation; re-date with reason if unrun.
+3. 🟡 **11/1–11/4:** Sinokor enforcement, midterms (War inputs only; FALCON owns).
+4. 🟡 **11/05–11/09:** 10-Qs → CHG-054 re-review 11/09 (read OZK's Chicago refi at the primary, SIG-W-20261027-041).
+5. 🔴 **11/10 Oct CPI** per the pre-written tree · **11/13** BOND on FT-11 · **11/15** HHDC (CHG-045/049).
+6. 🟡 Self-sweep hygiene items (STATUS priority 4), each on Will's direction.
 
 ## OPEN THREADS
-- The letter moved a point the composition does not support strongly; the market paid EGBN +10.9% intraday. This is a drafting lesson (ML-303), not grounds to un-apply the tree.
-- Tree (II) row 3 ambiguity: read as "STUCK = not evidence". If PROME/Will read it as a veto, the +1 reverses to net-bear 68 — say so, never silently.
-
-- **REGINALD EGBN Q4 maturity-wall report (5f59d0720, received via PROME 11:36 ET):** ~$525M matures 10/27–12/30; the $20.5M DC apartment loan's appraisal printed $24.5M (Q2) vs $13.5M (Q3) under the same 6/13/2026 date, still accruing. Bears on the Q4 re-review, not the Q3 grade; receipt on the CATALYSTS 2027-01-28 row.
+- FT-11 collision: the two collided windows stay COLLISION-NO-PRECEDENCE. Whatever BOND rules applies only to the next non-fired window, never retroactively.
+- War +1 rests partly on a single WSJ report; if FALCON grades it unconfirmed, say so at the next re-derivation (do not silently reverse).
+- VX.tsv staleness alert is lit by design (header pinned to VX-009's 6/02 review); review_debt: KB 4 past Stale_By, 3 terminal rows cited live (carried to the hygiene list).
 
 ## PENDING WILL-DECISIONS
-- None from RED. Dispositions on held lines are Will's; RED states none.
+- None from RED. The self-sweep hygiene items wait on Will's direction (STATUS priority 4).
 
 ## GIT STATE
-Tree carries other desks' dirty/untracked paths (DAEDALUS, PROME, WALTER caches, OZK archive) — untouched; no pull (0 behind origin at 11:29). S56 commits: see the closeout message.
+Clean and level with origin at boot (20:59); no pull needed. Packets to BOND/TERRY/ISHM/PROME committed under carve-out ①. S57 commits: see the closeout message.
 
 ---

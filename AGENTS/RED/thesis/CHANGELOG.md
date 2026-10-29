@@ -4,6 +4,13 @@
 
 ---
 
+## S57 — 2026-10-28 20:58 ET boot (from `date`; Will-launched catch-up, RED dark 10/23–10/27) — **DISCRETIONARY RE-DERIVATION (owed 10/23): HOLD 72 · net-bear 69 → 68. No registered-trigger STATE changed.**
+
+- **Weights:** Stag 35 → 33 · Managed 23 → 25 · Acute 20 = · War 14 → 15 · Soft 4 = · Rescue 4 → 3. Old view: "a narrow-mechanism bear: the price of money, credit at its lines, a physical-oil premium." New view: "the price of money eased (DFII10 2.88 → 2.64, 5y5y 2.19 [10/22]) and credit retraced (HY 340 → 318); the bear rests on levels still over their lines, a tail still bid, and a hotter war at sea. The Fed's hawkish split cuts Rescue and also caps how far Stag can fall." Stag −2 and Managed +2 sit inside the S54 pre-statement. War +1 and Rescue −1 depart from a pre-stated flat, each on post-10/15 facts. Acute is held: the HY retracement is FT-02's exit work. Report → `reports/2026-10-28_S57_weight_rederivation.md`.
+- **FT-11:** windows through 10/20 FLOW; 10/20 → 10/27 FUNDAMENTAL (front-end-led, d2Y −9). Two windows (10/15 → 10/22, 10/19 → 10/26) met FUNDAMENTAL and the v1.1 FLOW-alt butterfly leg at once. The letter claims disjointness and has no precedence rule → recorded COLLISION. Moves no weight. Old view on CHG-055: "FLOW does not discriminate haven from buyback." New view: "that stands; the classifier does separate a policy-path rally (FUNDAMENTAL); and its v1.1 branch set is not disjoint (ML-304)." Precedence proposal → BOND, re-review 11/13.
+- **Exit clocks:** FT-02 0 of 3 · FT-06 3 of 5 then broken 10/27 → 0 · FT-10 0 of 4, outcome test not met.
+- **L739:** gate payoff PAID on RED's pre-stated letter (apparatus share 45.2% → 2.6%); the after-window evidence is weak (ML-306).
+
 ## S56 — 2026-10-22 11:26 ET boot (from `date`; PROME-spawned Tier-1 due-row wake, WQ-481 A, D:L35) — **DISCRETIONARY (pre-stated) MOVE: Acute +1 / Managed −1. HOLD 72 · net-bear 68 → 69. Bank Q3 tree graded on the letter.**
 
 - **CHG-RED-027 (EGBN, 8/7 branches + S52 E1–E6):** NCO 0.25% (CLEARING leg met) but NPAs $166,021K vs $113,090K (rose) and EGBN's rollforward inflows $73.7M > reductions $18.8M → **DETERIORATION** (E3). Old view: "EGBN's Q2 spike may be clearing." New view: "on the letter the structural leg re-broadens; in composition one already-substandard $56.0M Prince George's loan carries the cell (ex-loan = CLEARING)." Row stays ACTIVE to the Q4 print.

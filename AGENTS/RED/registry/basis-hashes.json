@@ -1,9 +1,9 @@
 {
   "boot_step_range": "RED:0-9e",
-  "declared_on": "2026-10-21",
+  "declared_on": "2026-10-28",
   "desk": "RED",
   "hashes": {
-    "AGENTS/RED/CLAUDE.md": "5ae1dc5a18107e2c22434b9d745d914624eec6a86cc561c0cd1711c35610b7d8",
+    "AGENTS/RED/CLAUDE.md": "323d7c90b2af50b7fead67cefdf9f81033ee28f08219fb133332fa62ca36e701",
     "AGENTS/RED/scripts/base_rate_review.py": "c8d2f42f66c238830a5b7509816dae4074eac344904616e549e7adec5c5f027c",
     "AGENTS/RED/scripts/basis_check.py": "c22af3735180995842d0a4d11f79c7b2bbd345ebe8be0cf4105bb0d6a66ce7ad",
     "AGENTS/RED/scripts/boot.py": "91654fe01b7b01ee11486bbe8746bee34f89d72d52412c4ee5443c4b3f6ae1b0",
@@ -13,10 +13,10 @@
     "AGENTS/RED/scripts/schema_check.py": "1bd7da2a2eee7e7f6ede9bcdcfe86ca13743ded66902cdb4b39098f424bb6a71",
     "AGENTS/RED/scripts/status_mirrors.py": "cb58ccc4f4d87a6aa5159fda2f376e76e1a685d078ef5235e91cfbd82c2f79e8",
     "AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md": "5939cc0949a0266de5325d542808afb9524ae7e23ddf6bb293690cf62c6d1c99",
-    "CLAUDE.md": "b08689789d99bc2ef72a3706866848a58b20fb50fffa71d37128540ea589d577",
-    "FORGE/tools/market-data/fetch.py": "afb8838728c74d8584d46ec2aadb948efdffc6deddc275f9eb23dc9d05d76c6b",
+    "CLAUDE.md": "fd7db0825391fa5c6804e42d76e10deb81a94cc324e2cdc1680ed7feaeb5b778",
+    "FORGE/tools/market-data/fetch.py": "7d4298421a095eb78b190b34f2f89787d3090abc4a89307d6b048c17c9010b0b",
     "scripts/corrections_boot_check.py": "457c956964742dfb3866fc37b39ce703498ba5fc48037265b392abfed96109c0",
-    "scripts/ledger_staleness.py": "117789ab8fa4aa00241bf2a92f49550e363891b8d218aa788e109f187b79b93a"
+    "scripts/ledger_staleness.py": "97faf34c8a07c44287fdeaf76b7a7b16d2cab5e79e37804047337854e8410b76"
   },
   "history": [
     {
@@ -70,6 +70,16 @@
       "moved": [
         "CLAUDE.md",
         "scripts/corrections_boot_check.py"
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "note": "S57 2026-10-28: read all four diffs. RED CLAUDE.md (4da79f1ee DAEDALUS WQ-508 U-R2: subagent model line cites WQ-447, not contested). Root CLAUDE.md (3d0f802a0: carve-out 5 FORUM posts). fetch.py (4abc6112e: PSKY to SKYD alias). ledger_staleness.py (8b1012baf: single-word banner col cap 48 + self-flag form). No RED boot step, threshold or rule changes.",
+      "moved": [
+        "AGENTS/RED/CLAUDE.md",
+        "CLAUDE.md",
+        "FORGE/tools/market-data/fetch.py",
+        "scripts/ledger_staleness.py"
       ]
     }
   ],

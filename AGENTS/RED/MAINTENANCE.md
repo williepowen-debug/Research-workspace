@@ -4,6 +4,13 @@ Reverse-chronological log of **structural** changes to RED's docs, folders, sche
 
 ---
 
+## S57 — 2026-10-28 20:58 ET boot (from `date`; Will-launched catch-up)
+
+- **Trigger:** boot 9f BASIS drift (4 surfaces) · board_log 1.5 WARN · ML-RED-307 (Cboe redirect).
+- **What changed:** (1) BASIS rehashed after reading each diff. `AGENTS/RED/CLAUDE.md` (DAEDALUS 4da79f1ee, WQ-508 U-R2: subagent models now cite WQ-447, not contested); root `CLAUDE.md` (3d0f802a0, carve-out ⑤ FORUM posts); `FORGE/tools/market-data/fetch.py` (4abc6112e, PSKY→SKYD alias); `scripts/ledger_staleness.py` (8b1012baf, single-word banner column cap + self-flag form). None changes a RED boot step, threshold or rule. (2) board_log rotated twice to land the 38 S57 disposition rows under the gate → `archive/board_log_pre-2026-10-09.tsv`, `archive/board_log_pre-2026-10-14.tsv`. (3) No tool change. The Cboe SKEW publisher URL now 307-redirects to `cdn-api.cboe.com`; boot.py read the 10/27 bar fine, and a manual curl needs `-L` (recorded in the FT-10 state cell).
+- **Files:** `registry/basis-hashes.json`, `board_log.tsv`, two archive files.
+- **Boot-impact:** none.
+
 ## S54 — 2026-10-15 14:56 ET boot → (closeout stamp in SCRATCH; from `date`) — the closeout-hardening build (Will 14:46 ET: "do the build in a fresh window"; spec `research/2026-10-15_CLOSEOUT_CHECK_BUILD_SPEC.md`)
 
 **Trigger:** the S53 cold audit measured that every RED check was per-file and nothing graded whether STATUS, the TSVs, CALENDAR and NEXUS agreed; RED's own 10:33 addendum had skipped A2 and A4→W3 unnoticed. Will approved the build in principle at 14:46 ET for a fresh non-catalyst window.
