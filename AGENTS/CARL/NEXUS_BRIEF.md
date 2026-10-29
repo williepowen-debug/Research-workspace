@@ -4,7 +4,7 @@
 **Domain:** U.S. consumer financial stress and household transmission; ISHM owns manufacturing/freight, REGINALD bank credit.
 **Thesis version:** v2.6.6
 **Recent thesis pivot:** none on 10/28. Conference Board rebound (91.7) is counter-evidence on attitudes, but on its six-month average only under-35 and $100K+ groups are rising; the Fed held with hike dissents.
-**As of:** 2026-10-28 20:42 ET | STATUS commit: `5b86a24b9`
+**As of:** 2026-10-28 20:50 ET | STATUS commit: `a181d811b`
 **Position:** No capital authority. Seven paper rows CLOSED 10/28 at the 10/27 opening-print fallback (+$313.57 paper); scoring gates shut, no performance claim.
 
 ## CROSS-DOMAIN
@@ -30,8 +30,8 @@
 |---|---|---|---|---|
 | BEA | Q3 GDP advance and September income/outlays, including revisions | Thu 10/29 08:30 ET | Next broad-consumption observation | Separate real volume, real income and saving from prices; no cohort inference |
 | OTTO / SEC | EART September collection month (+ SDART/BLAST) | ~10/29 | Existing V2 deep tier | Apply existing tier/denominator rules; at most qualifying month 1 |
-| Will | STUE spawn-or-carry decision (STUE not booted since 10/01; ES grades due 10/28 undone) | 10/30 | Student-loan owner grades | No launch without Will's word |
-| Court docket | AFT v. ED 10/28 status conference outcome (CourtListener 403) | 10/30 retry | CRL-13 denominator | No backlog figure inferred |
+| STUE / court | AFT v. ED next conference (the 10/28 docket date was wrong; held 10/14) | Mon 11/23 11:00 ET | CRL-13 denominator | Backlog count UNAVAILABLE today; status reports cover IDR/PSLF, not SAVE non-selection |
+| STUE | ES-02 / CRL-28 final MOHELA complaint grade | ~11/13–11/16 | Student-loan servicing stress | Interim 24.8/day below band; NO VERDICT if boundary placements split bands |
 | Fed | 10/28 press-conference transcript | 11/04 | Remaining V12 leg | Apply unchanged un-fire conditions |
 | ALLY / RITM original filings | Comparable vintage loss evidence | 11/06 | CRL-21 STUCK | Recover registered input; no extension |
 | LABOR / BLS | October payrolls | Fri 11/06 | V16 print 1 of 2 | Apply unchanged instrument and count |
@@ -49,7 +49,7 @@
 - **Conviction:** concentrated strain direction MEDIUM-HIGH; broad-collapse timing/level LOW. The score is a registered-rule tally, not independent confirmations.
 - **Diverge from market by:** subprime ABS can worsen while prime cards improve. Neither prime issuer health nor deep-subprime stress measures the whole household population.
 - **Cross-agent tensions known to me:** BofA, PNC/Velera realized activity and now the Conference Board rebound challenge broad-collapse framing; ISHM freight-volume counterevidence is compatible with that limit.
-- **Uncertain about:** matched ALLY vintage losses; September real spending and saving composition; STUE's owner-assignment and boot gap (Will decision 10/30). No child refresh claimed.
+- **Uncertain about:** matched ALLY vintage losses; September real spending and saving composition; student-loan cure share (ES-04 not gradeable; STUE 10/28 grades: ES-01 NO VERDICT, KB-568). No child refresh claimed.
 - **Failure patterns to mind:** seasoning/denominator substitutions and season-crossing QoQ letters. Prediction contracts remain in thesis/PREDICTIONS.tsv; STUCK is unscored.
 - **RED counter-frame:** improving prime cards, realized spending and rebounding confidence challenge imminent broad collapse; keep cohort limits and registered falsifiers.
 
@@ -65,7 +65,8 @@
 |---|---|---|
 | 10/29 08:30 ET | Q3 GDP + September PCE | Saved GDP_PCE_OCT29_PREP.md; revisions, real income/saving and breadth |
 | ~10/29 | EART September | Existing V2 deep-tier read |
-| 10/30 | STUE decision; AFT docket retry; WQ228 review | Carried UNREVIEWED from 10/28 |
+| 10/30 | WQ228 fintech review; pilot falsifier follow-up | Carried from 10/28 |
+| 11/05 | Sweet v. McMahon hearing (STUE) | Context only |
 | 11/03–11/04 | EIA weekly; FOMC presser transcript | Fuel context; V12 remaining leg |
 | 11/06 | Payrolls; ALLY/RITM source checkpoint | V16; CRL-21 input recovery |
 | 11/10 08:30 ET | October CPI | CRL-10 level/path conditions unchanged |
