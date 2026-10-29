@@ -65,6 +65,32 @@ Source: Protect Borrowers release for *Trump's Student Loan Delinquency Crisis, 
 
 **Docket bonus:** **Doc 54 (Jul 17 2026) is FREE on the Internet Archive** (`gov.uscourts.dcd.272123`); STUE had it as PACER-only. It asks to continue the stay **60 days** and sets a **joint status report due Sep 15 2026**. **That report is not in the free archive, and the CourtListener docket page still 404s** ⇒ the case's status after 9/15 is an **access gap**, not "quiet".
 
+## 6. ED servicer-performance report (follow-up, Will-directed): the call figures VERIFIED, at a 2024 vintage
+
+**Question:** where do "~13 min wait / ~14% abandon" and "7× / 50× longer waits" come from, now that the AFT complaint turned out not to contain them?
+
+**Finding:** FSA's **Loan Servicer Performance** quarterly reports. Probing `studentaid.gov/sites/default/files/loan-servicer-performance-fy{2023..2026}q{1..4}.pdf`, only **FY2024 Q3** (LM 2025-01-15) and **FY2024 Q4** (LM 2025-04-16) exist; every later quarter 404s, consistent with reports that FSA stopped publishing and with GAO-26-108534 (FSA later discontinued the quarterly assessments).
+
+| Servicer | Speed to answer FY24 Q3 (Apr–Jun 2024) | Speed to answer FY24 Q4 (Jul–Sep 2024) | Abandon rate FY24 Q4 | Timeliness NPI FY24 Q4 |
+|---|---:|---:|---:|---:|
+| **MOHELA** | 2:55 | **13:28** | **14.12%** | 5.00% (max) |
+| Edfinancial | 1:35 | 1:57 | 4.72% | 5.00% |
+| Nelnet | 0:28 | 0:17 | 0.55% | 5.00% |
+| CRI | 0:15 | 0:16 | 1.06% | 0.72% |
+| Aidvantage | 0:21 | 0:13 | 1.33% | 2.03% |
+
+Method: Q3 speed-to-answer and Q4 abandon/NPI values were text in the PDF, matched to servicer labels **by page x/y position** (the text order alone does not map them). The Q4 speed-to-answer chart is a raster image; it was extracted and read directly (stored below). Q3 abandon rate is also a raster and was not read.
+
+**Ratios:** MOHELA 13:28 (808 s) vs Edfinancial 1:57 = **6.9×**; vs Nelnet 0:17 = **47.5×**; CRI 0:16 = **50.5×**; Aidvantage 0:13 = **62.2×** ⇒ the "7× Edfinancial, 50× Aidvantage/Nelnet" figure is **derivable from this report** (CFPB Ombudsman restatement plausible, not re-read).
+
+**What it changes:** the figures are real ED data and the "no peer exceeds ~5%" claim holds (max peer 4.72%). But they describe **Jul–Sep 2024** and are cited around STUE as if current. **No public servicer-performance figure exists after Sep 2024.** NPR's "2 hours 24 minutes" (internal FSA data) is secondary and undated here; not adopted.
+
+| File | sha256 |
+|---|---|
+| `FSA_LoanServicerPerformance_FY2024Q4_LM-2025-04-16.pdf` | `27bc98f1a3364d0447eb4e94616a666b4ded983fabbc11ea2fdef49a36603645` |
+| `FSA_LoanServicerPerformance_FY2024Q3_LM-2025-01-15.pdf` | `722e17f754885c29c8a5db43c98a873d908f9995e5a1e00a0d030bae483ec201` |
+| `FSA_LoanServicerPerformance_FY2024Q4_fig2_speed-to-answer.jpg` (embedded chart, extracted) | `cf511c646314c557cc23ec10a0bbd400b61ffaab752a61d0011378ae399888dd` |
+
 ## Source files (this directory)
 
 | File | sha256 |
