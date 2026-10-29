@@ -14,9 +14,9 @@ The named section must be read in full before its action. Authority and path gra
 5. **Pre-commit sanity check (mandatory):** `git status -- AGENTS/<YOUR_NAME>/` — no dangling deletions (bash-`mv` residue; use `git mv`), no unstaged new files you meant to include, nothing staged outside your dir.
 
 **Before pulling:**
-1. `git status` — check for uncommitted changes **OUTSIDE** your directory.
-2. If other agents' directories are modified: **STOP. Do not pull.** Either flag to Will and wait, or commit your work locally, defer the push, and note the pending push in your session notes.
-3. If clean outside your files: `git stash push -- AGENTS/<YOUR_NAME>/` → `git pull --rebase` → `git stash pop`.
+1. `git pull --rebase` — the only pull form. Never a plain `git pull` (merges; `pull.rebase=false`), never `--autostash` (session-end step 3 excepted).
+2. **The dirty-owner stop is Git's own refusal.** If it refuses on modified or staged files that are YOURS: commit them pathspec-scoped (preferred), or `git stash push -- AGENTS/<YOUR_NAME>/` → pull → `git stash pop` — and pop even if the pull was refused. If the blocking files are another agent's: STOP; do not stash, reset or commit them; continue on your current checkout, `git fetch origin` and read from `origin/master`; pull again after they commit. If Git aborts because an incoming commit adds a path you hold untracked: move yours aside, never delete, pull again.
+3. If the rebase stops on a conflict inside a commit you did not author (`git log -1 REBASE_HEAD`): `git rebase --abort` (fetched refs stay updated; pop any stash you made), flag to PROME. A conflict in your own commit is yours — step 5 governs the files.
 4. If stash pop fails: `git stash drop` is OK **only if YOUR files are already committed.** Never drop a stash containing other agents' work.
 5. Never resolve merge conflicts in another agent's files — flag to Prome.
 

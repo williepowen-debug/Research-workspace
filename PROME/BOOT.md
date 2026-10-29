@@ -61,7 +61,7 @@ This mode adds no spawn allowance, closes no assignment and changes no grade or 
    git fetch origin   # FETCH FIRST — ahead/behind reads the LOCAL tracking ref; a fetch-less 0/0 hides a machine-switch gap ([[finding_fetch_before_trusting_boot_sync]])
    git rev-list --left-right --count HEAD...origin/master
    ```
-   If clean/safe, `git pull --rebase`. If dirty/untracked/staged, do not pull; read local continuity first and ask/triage.
+   `git pull --rebase` (root Git Protocol: the one form). If Git refuses on modified or staged files, that is the rule working: do not stash or pull another way; continue on this checkout, fetch and read `origin/master`, name the deferred pull in the boot report. Untracked files block only on a same-path collision (move yours aside, pull again).
 
 1. **Read `PROME/HANDOFF.md` in full using the bounded reader.** The declared read mode is `whole`; the retention target does not limit read scope. Preserve any read-budget finding until the file is brought within its existing budget or a separately reviewed scoped read is adopted.
 2. **Read `PROME/SCRATCH.md`** — immediate handoff / what is hot **+ the operator card** (today's date, near-gates) — **then `PROME/state/CALENDAR.md`** (the generated DOCKET calendar view, moved out of SCRATCH 2026-10-20 on Will's word; the step-8 "catalysts within 24h" come from its OVERDUE line and today's/tomorrow's day groups).
