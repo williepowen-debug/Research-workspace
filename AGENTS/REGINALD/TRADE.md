@@ -41,6 +41,7 @@ At each print-cluster grade, this desk sends TERRY any candidate expression as a
 |---|---|---|---|
 | 2026-10-22 | EGBN (Eagle) Q4 maturity wall | **No candidate.** Put side: options untradeable (put OI ~2 contracts) and realistic loss only ~$0.3–0.6/share. Long side: plausible but not this desk's edge | `reports/2026-10-22_appraisal-discount_cohort_test.md` §5. A long would be a TERRY card if Will asks |
 | 2026-10-23 | FLG / AMTB / CUBI Q3 print cluster | **No candidate.** FLG: none of the desk's CRE 'weakens if' lines met, but the move (−9% intraday 10/23) is post-print and FLG is not on this book; AMTB and CUBI printed cleaner | `reports/2026-10-23_boot/REPORT.md` §2, §6 |
+| 2026-10-28 | SBCF Q3 (last FL-frame name) + HY window close | **No candidate.** SBCF's 8-K cell held (criticized+classified 2.90% vs ≥3.20%) and no FL cell transmits. HY tightened to 318 [10/27] without REG-T-04 firing, so the broad-credit window that WQ-509 targeted did not open; that card is TERRY's. The live driver is the 10-year, and its falsifier is already in §4 | `reports/2026-10-28_boot/REPORT.md` §1–§2 |
 
 ## 3. Triggers this desk grades (levels live in `STATUS.md` §THRESHOLD STATUS — never here)
 
