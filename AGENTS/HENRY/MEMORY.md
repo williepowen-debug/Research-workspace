@@ -58,9 +58,11 @@
 - VLO −9.24% 10/27 = refiner-sector move (MPC −7.36%, PSX −7.03%), gapped at the open, not earnings (10/22); cause unestablished at a primary (secondaries: margin outlook, Russian diesel, Iran).
 - **Own errors caught:** (1) `gamma_flip.py` writes `PUBLISHED.tsv` on every run, replacing same-date rows WITHOUT basis notes, even for a read you are not publishing; restored once. (2) my hand edit to PUBLISHED replaced EVERY row of each metric (history ledger, one row per metric per date): restored from git, re-applied keyed on date. **Key any ledger edit on (metric, date), never metric alone; `git diff --stat` before moving on.** (3) **VIX/VIX9D/VIX3M/VVIX settle at 16:15 ET, not 16:00:** I stamped a 16:06 ET pull (16.50) as the close; final was 17.20 and it flipped the VIX kill-leg row and a "VIX fell every session" claim (PROME/VIOLET caught it). Pull vol closes after 16:15 ET.
 
+- **Evening follow-on (Will: items 4+6+7+2):** QQQ/NDX gamma map (QQQ NEGATIVE, deepest near 690; NDX just positive) KB ML-HEN-192; `gamma_flip.py` now writes PUBLISHED.tsv ONLY with `--publish` (pass it on the read you publish), plus `--underlying`/`--spot`, and the put==call guard now withholds in `--both`; ISM services 11/4 rule-derived (ISM table behind SSO); **HEN-57/58/59 pre-registered** (letter `research/2026-10-29_catchup/PREREG_nov-releases.md`). Stamp drift n=3 today: typed 16:3x/17:0x/17:1x when the clock read 16:12/16:58. Take every stamp from `date`.
+
 ### NEXT SESSION
 
-1. Grade the post-AMZN session (10/30) against the negative-gamma state: `gamma_flip.py --both` first; note it rewrites PUBLISHED.tsv.
+1. Grade the post-AMZN session (10/30) against the negative-gamma state: `gamma_flip.py --both` (add `--publish --note` only for the read you publish); re-run QQQ with `--underlying QQQ`.
 2. Row 9 on 11/18: PANW + bank-stock legs from a live pull; get the collapse magnitude settled with CYPHER/PROME BEFORE 11/18.
 3. Operating Dashboard not refreshed since 10/22 (version 4). ISM services date (11/4) still unverified.
 4. Catalysts: ECI + BOJ 10/30, Russian №1252 expiry 10/31, AAPL 11/02 (vendor date), ISM mfg 11/2 (ISHM), NFP 11/6, CPI 11/10 (L435/L437 co-owned), PPI 11/13, NVDA 11/19 (L322).

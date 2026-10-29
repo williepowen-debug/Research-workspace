@@ -4,6 +4,22 @@
 
 ---
 
+### 2026-10-29 (~16:5x ET) — `gamma_flip.py`: `--underlying SPX|QQQ|NDX`, `--spot`, opt-in `--publish`; put==call guard wired into the cross-horizon check
+**Why (Will-directed in session, items 4 + 6):** (a) Will holds a QQQ put spread and the desk had only an SPX map, translated to QQQ by beta. (b) Every run of the script rewrote that day's `PUBLISHED.tsv` rows, including reads nobody published, and dropped the basis notes on hand-recorded rows. It did that twice on 10/29.
+**What changed:**
+- `UNDERLYINGS` config: Cboe chain, OCC root, dividend yield and grid step per underlying. SPX stays the default, so boot.py is unchanged.
+- `--spot` evaluates the chain at a given price, because Cboe's `current_price` includes after-hours trading.
+- `PUBLISHED.tsv` is written only under `--publish` (with an optional `--note`), and the output says which happened. QQQ and NDX rows use the `qqq_` / `ndx_` metric prefixes.
+- `cross_horizon_check` now WITHHOLDS the put wall when put == call at either horizon. Before this, the per-horizon print flagged "structurally impossible" while the cross-check still said PUBLISH; the first QQQ read hit exactly that (35d 720 == 720).
+**Tests (10/29):**
+- New vs old script on the same SPX chain: output byte-identical apart from the new PUBLISHED line.
+- PUBLISHED.tsv unchanged without `--publish`; 4 rows written with it, then restored.
+- Bad `--underlying` returns rc 2.
+- The boot import path still works.
+- Guard unit cases: the QQQ case WITHHOLDS, the SPX case is unchanged.
+**Tradeoff, stated:** opt-in recording means a forgotten `--publish` leaves the ledger lagging, so the consumer check misses a superseded value. The printed "NOT written" line is the only reminder. Accepted, because the old behaviour recorded values that were never published, and that manufactures false consumer-check candidates.
+**Limits of the new reads:** QQQ options are American-style and are only part of Nasdaq-100 dealer gamma (NDX options and NQ futures carry the rest), so read QQQ beside NDX. The naive dealer convention (long calls, short puts) is less certain on an ETF chain.
+
 ### 2026-07-29 (~22:40 ET) — GAP FOUND, NOT FIXED: `gamma_flip.py`'s near-tie guard doesn't cover CROSS-horizon wall disagreement
 - **Trigger:** post-FOMC gamma refresh for VIOLET's 7/30 exit. 14d gave call wall 7,500 / put wall 7,300 (looks resolved); 35d gave call wall = put wall = 7,000 (the exact same-horizon tie the 7/23/7/28 fixes target — caught correctly). **But the two horizons also disagree with EACH OTHER by 300-500pts on both walls**, and nothing in `_wall_margin()` or the NEAR_TIE constant checks agreement *between* `--days 14` and `--days 35` runs — each horizon is scored independently and looks "clean" or "near-tie" in isolation.
 - **Not fixed this session** — flagged in STATUS as "walls not cited tonight," flip band (which DID agree within 12pts across horizons) published instead. Future fix candidate: a cross-horizon consistency check that flags when two independently-clean-looking wall reads disagree by more than some threshold, analogous to the existing within-horizon near-tie guard.

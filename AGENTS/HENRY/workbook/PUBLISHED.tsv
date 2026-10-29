@@ -120,3 +120,7 @@ gamma_flip_35d	7741	2026-10-29	cboe 7551 contracts (gamma_flip.py --both 2026-10
 net_gex_35d_Bn	-25.7	2026-10-29	$B per 1% (gamma_flip.py --both 2026-10-29 16:06 ET; Cboe delayed chain at the 10/29 close, spot input 7714.90; NEGATIVE both; supersedes the 00:07 ET 10/28-close read)
 call_wall_14d	7800	2026-10-29	clean #1 (+18% over #2); gamma --both 00:08 ET 10/29 from the 10/28 close chain; 35d also 7800 but near-tie (1%) -> band 7800-8000; cross-horizon AGREE, published.
 put_wall_WITHHELD	14d 7750 (near-tie band 7700-7750) vs 35d 7700 (clean, +12%)	2026-10-29	cross-horizon DISAGREE -> withheld (audit E2). Post-break read: SPX closed 7623.68 on 10/23 (vendor ^GSPC bar), under the 10/22 published 7650 wall = BROKEN on that close (graded late 10/29; no HENRY session 10/23, the 10/23 chain is not recoverable).
+qqq_gamma_flip_14d	724.47	2026-10-29	cboe 1341 contracts (10/29 close 715.34 via --spot; Cboe chain after the close; feed price after hours; first QQQ read)
+qqq_net_gex_14d_Bn	-3.1	2026-10-29	$B per 1% (10/29 close 715.34 via --spot; Cboe chain after the close; feed price after hours; first QQQ read)
+qqq_gamma_flip_35d	725.52	2026-10-29	cboe 2430 contracts (10/29 close 715.34 via --spot; Cboe chain after the close; feed price after hours; first QQQ read)
+qqq_net_gex_35d_Bn	-4.4	2026-10-29	$B per 1% (10/29 close 715.34 via --spot; Cboe chain after the close; feed price after hours; first QQQ read)
