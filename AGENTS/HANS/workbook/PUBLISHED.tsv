@@ -143,3 +143,9 @@ EU_STORAGE_GAP_TO_5YR_NORM_PP	-14.64	2026-10-29	CURRENT — asof = pull date; fi
 UK_10Y_GILT_PCT	5.3064	2026-10-29	CURRENT — TE 10/29 (intraday, -4.5bp); post-Budget rally. ~19bp under T-06 >5.50, NOT-FIRED. BoE par 5.3046 [10/27]. Supersedes 5.34 [10/22].	VX-HANS-3.06
 UK_30Y_GILT_PCT	5.709	2026-10-29	CURRENT — TE 10/29; 29bp under T-13 >6.00, NOT-FIRED. Budget 10/28 did not reach the long end; DMO remit revision NOT read. Supersedes 5.73 [10/22].	VX-HANS-3.08
 TTF_FRONT_MONTH_CONTRACT	TTFZ26.NYM	2026-10-29	CURRENT — front month from 10/30 (TTFX26 last trades 10/29). Z26 expiry 2026-11-27 per boot.py TTF_CALENDAR, COMPUTED from the rule, owed #26 NOT re-verified at an exchange notice. The 10/28 L3 fire is graded on X26 (front that day) with Z26 confirming. Supersedes TTFV26.NYM [9/18] (the X26 interval was never written here).	
+GERMAN_10Y_BUND_PCT	3.358	2026-10-29	CURRENT — TE 10/29 (registered basis RESTORED); i-i 3.36. Supersedes 3.36 [i-i 10/29, earlier the same day].	VX-HANS-3.05
+ITALY_10Y_BTP_PCT	4.497	2026-10-29	CURRENT — TE 10/29; narrowed after Italy's 2027 budget approval. Supersedes 4.602 [10/22].	VX-HANS-3.09
+ITALY_GERMANY_10Y_SPREAD_BP	113.9	2026-10-29	CURRENT — TE-derived 4.497-3.358. Supersedes 127.2 [10/22].	VX-HANS-3.01
+UK_GILT_UST_10Y_SPREAD_BP	31.1	2026-10-29	CURRENT - UK 10Y 5.3064 [TE 10/29] minus US 10Y 4.995 [^TNX 10/29]. Supersedes 39.0 [10/22].	VX-HANS-3.04
+EURUSD	1.1172	2026-10-29	CURRENT — Yahoo 10/29. T-11 NOT-MET. Supersedes 1.1489 [9/18] (1.1227 [10/21] was carried in VX/KB but never published here).	VX-HANS-2.01
+FED_ECB_DEPOSIT_DIFFERENTIAL_BP	137.5	2026-10-29	CURRENT, RE-CONFIRMED 10/29 on two fresh decisions: Fed HELD 3.75-4.00 on 10/28 (10-2, two dissents for a hike; primary) and ECB HELD deposit 2.50 on 10/29 (primary). Same value, new vintage.	VX-HANS-4.01

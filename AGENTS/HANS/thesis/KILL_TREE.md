@@ -1,6 +1,17 @@
 # HANS — FALSIFICATION SURFACE / KILL TREE
-**Created:** 2026-08-28 (revival session). **Owner:** HANS. **Last re-graded:** 2026-10-21 (hans-1021, on the registry state refreshed that day; prior text verbatim → `thesis/KILL_TREE_ROTATED_2026-10-21.md`). Before that: 2026-09-10.
+**Created:** 2026-08-28 (revival session). **Owner:** HANS. **Last re-graded:** 2026-10-29 (hans-1029b — `T-07` changed state, L3 FIRED; the 10/21 summary is kept below as the prior grade). Before that: 2026-10-21 (prior text → `thesis/KILL_TREE_ROTATED_2026-10-21.md`), 2026-09-10.
 **Cadence (the one this desk actually keeps):** re-grade at any closeout where a registry row named in a kill column CHANGED STATE, and at every `PREDICTIONS` checkpoint. ⚠️ The old cadence, *"re-grade every session"*, was not kept: 9/10 → 10/21 with no re-grade, found from outside (DAEDALUS falsification #4, 10/8). A cadence nothing checks is a wish, not a cadence.
+
+## 🔴 RE-GRADE 2026-10-29 — SUMMARY (trigger: `T-07` L3 FIRED 10/28, `HANS-F-007`)
+
+| Claim | Verdict | Why, in one line |
+|---|---|---|
+| **C-1** long-end term premium | 🟠 **WEAKENED — unchanged** | Bund 3.358 [TE 10/29] is still the safe-haven leg. France eased (174.6 → 153.4bp) but is not tight. The euro is 1.1172. No kill row fired. |
+| **C-2** PMI → ISM | ✅ **HOLDS** | German Oct FLASH mfg 54.2 (above consensus 53.5); composite 52.8 and France 48.4 soften the breadth. The FINAL (~11/02) is the graded print. |
+| **C-3** storage clears 80% / shock is manageable | 🔴 **KILL ROW FIRED — claim killed pending the formal HNS-07 grade (11/02)** | The kill row **"TTF breaks L3 (€100) → I under-called it" FIRED** on the 10/28 close (X26 100.72 / Z26 100.34, vendor; ⚠️ the ICE settle is disputed at 98.50 by an ICE table via Investing). Its sister row `HNS-07` is effectively lost: 74.96% [gas day 10/27], needs ~1pp/d. **Germany 61.7%.** The "ECB stagflation trap" half of the row: the ECB's 10/29 statement names energy as an upside inflation AND downside growth risk, yet it HELD. That is the trap's language without its action. |
+| **C-4** bank channel quiet | 🟡 **HOLDS — first Q3 evidence supports it** | Deutsche PCL 41 vs 35bp, NII +9%; BNP CoR 39bp inside guide. `T-14` NOT-MET (swept 10/29). SX7E −2.7% since 10/21. CDS and funding legs still unmeasured; HNS-09 is ungradeable until 3 banks report. |
+
+**What C-3's death means:** the energy shock is NOT the "structural but contained" story I registered on 8/28. **It is now the live European stress, alongside France, and the two are linked through the cost of living.** The replacement claim is NOT registered here yet. A successor needs a falsifiable form, for example a German end-of-winter storage level or a TTF ladder rung with an exit rule (owed #30). Registering one is next-session work, not a rewrite of this row.
 
 ## 🔴 RE-GRADE 2026-10-21 — SUMMARY
 

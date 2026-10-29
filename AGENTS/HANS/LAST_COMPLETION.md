@@ -13,6 +13,17 @@
 - **Packets:** `T-07` L3 fire + settle-dispute addendum → BRENT, HENRY, LIQUID. `SIGNALS.md` row. ISHM lead-composition answer.
 - **Inbox:** drained 15 of 15, one file at a time, with `board_log.tsv` rows.
 
+**CHANGED — follow-on passes (Will 14:06 "start investigating", 14:18 "update workbook and core files"):**
+- **Winter read:** `research/2026-10-29_TTF_100_WINTER_READ.md` + KB-155–159. Germany storage 61.7% (AGSI+ primary); end-winter templates; Qatar FM to end-Dec; mild lean; no utility stress. Packet → BRENT/HENRY/LIQUID (`75068f215`).
+- **Workbook pass (hans-1029b):**
+  - VX 2.01 / 3.01 / 3.04 / 3.05 (TE basis restored, 3.358) / 3.09 / 4.02 / 5.01 / 8.04 (10.82×, now YELLOW). Notes only on 8.06 and 10.07.
+  - Registry T-05 / T-09 / T-11 / T-14.
+  - KB: 11 expired rows SUPERSEDED, +160–163 (FX, T-14 sweep, **FOMC 10/28 HOLD 10–2**, Italy).
+  - PUBLISHED +6. FLOW-3 / 4 / 6 / 8 notes.
+  - **KILL_TREE re-graded: C-3 KILLED, pending the formal HNS-07 grade** (its L3 kill row fired).
+  - STATUS board / owed #34–35.
+- **Charter:** 4 narrative passages moved verbatim to `CHARTER_PROVENANCE.md` (C6 cleared, 24,899 → 23,878 B; no rule removed). SESSION_LOG 9/18 quote dated.
+
 **RESULT:**
 - **Gas fired the €100 alarm.** TTF closed 100.72 (Nov X26) and 100.34 (Dec Z26) on 10/28 per my feed. ⚠️ An ICE table via Investing shows 98.50, and the ICE Endex settle is unread. The price was back under 100 on 10/29 (97.51).
 - **Storage:** 74.96% [gas day 10/27]. `HNS-07` (80% by 11/1) is effectively lost; it grades on the evening of 11/02.
@@ -26,7 +37,6 @@
 - Moody's own rationale not read.
 - DMO remit revision not read.
 - NL election result not read.
-- BTP not re-read since 10/22.
 - German PMIs are flash and secondary only.
 - BNP group NII is not published.
 - Deutsche Q2 guidance wording not verified (the Q2 PDF returned HTML).
@@ -34,11 +44,11 @@
 
 **WILL_NEEDS:** None. No ruling is owed. The L3 fire is a desk grade and needs no Will decision.
 
-**FOLLOW-UP (next session):**
+**FOLLOW-UP (next session):** 0. EA Q3 GDP flash 10/30; register a C-3 successor claim (#34).
 1. ICE settle for 10/28 if reachable, and register a `T-07` L3 exit rule (#30).
 2. Oct FINAL PMIs ~11/02 and ~11/04.
 3. Grade `HNS-07` on the evening of 11/02 ET.
 4. SocGen and the other banks into HNS09; BNP NII source; Deutsche guidance cell.
-5. DMO remit, NL election, BTP.
-6. 14 expired KB rows (boot §7).
-7. `C6`: charter at 77% of budget, rotate-tier.
+5. DMO remit, NL election.
+6. KB-077 (Saudi, owed #29) is the only expired KB row left; 11 were superseded 10/29.
+7. ⚠️ STATUS is at 22,772 B, **13 B under the 70% byte stop** (test_hans) — rotate before adding anything.

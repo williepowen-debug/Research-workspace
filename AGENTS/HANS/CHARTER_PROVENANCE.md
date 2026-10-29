@@ -133,3 +133,17 @@ Every parenthetical "(live: …)" was **stripped on 2026-09-05** because they ha
 | `STATUS.md` | Live state. **Primary memory.** Cap 250 lines **AND the 32,550 B read-cap budget — the BYTE budget binds first** (`scripts/read_cap_check.py --agent HANS`). |
 | **`DISPATCH_LOG.md`** | **LIVE cross-agent flag table, hot/cold-split out of STATUS 2026-09-05.** ⚠️ Not a dispatch record — the packet in the RECIPIENT's tree is; verify there. |
 | `inbox/` · `outbox/` | Inbound / outbound. ⚠️ **`outbox/delivered/` is a claim only the RECIPIENT'S tree can verify** — `find AGENTS/<RECIPIENT> -iname "*HANS*"`. `outbox/closed_undelivered/` = written then ruled undeliverable. |
+
+---
+
+## ROTATED FROM CLAUDE.md 2026-10-29 (hans-1029b) — narrative only, verbatim
+
+*Trigger: `doc_audit` C6 — charter at 24,899 B, past 75% of the read budget; DAEDALUS WQ-508 B44 (move incident narrative to the provenance home, keep every action). No rule, action, rc meaning, perimeter or exception was removed; each passage below is the WHY behind a line that stays in the charter.*
+
+1. ⚠️ **`AGENTS/HANS/archive/` EXISTS AGAIN as of 2026-09-18** (recreated by the retirement of `VX_HISTORY.tsv`; the 6/30 prune had deleted the tree). **Path corrected 2026-08-28** (PROME prune-scan 8/12, `FALSE_PRESERVATION`): the Apr-30 pre-revival state is **NOT** at `archive/STATUS_PRE_REVIVAL_2026-06-22.md` — the 6/30 prune (`1cb18fbc3`) deleted that tree and `AGENTS/HANS/archive/` does not exist. **Recoverable from git history only:** `git show 1cb18fbc3^:AGENTS/HANS/archive/STATUS_PRE_REVIVAL_2026-06-22.md`. The equivalent on-disk archive is `workbook/STATUS_archive_20260430.md`.
+
+2. *(Corrected 2026-08-28 on review: this line previously said Bund, EU storage and EGB spreads "cannot be reached." `fetch_eu.py` retrieves all three, and this was the FIRST thing a booting reader saw — a stale perimeter in the position of maximum influence.)*
+
+3. *(The old claim "no free daily source" was false: the CSV needs the `_iadb-` path prefix; the bare path 302s and the un-prefixed one returns **200 carrying the HTML landing page**, which reads as "no data" unless you inspect the body. Second time a row on the manual list turned out merely unfetched.)*
+
+4. *(Ported from ZHAO's boot.py, which exists because ZHAO found a 2.5-month drift on 7/4 and built the fix. HANS found a **6.5-month** drift on 8/28 — BoE carried at 4.50 when it was 3.75 — **by hand**, in a session Will had to spawn. This script is that lesson as a mechanism.)*
