@@ -129,6 +129,7 @@ def load_signals() -> OrderedDict:
             errors.append(f"{s['file']}: carries BOTH `erratum:` (additive) and `status: PARTIALLY-CORRECTED` "
                           f"(corrective) — FORMAT_SPEC v0.21 permits exactly one; decide which it is")
     apply_recategorizations(sigs, errors)
+    apply_erratum_suppressions(sigs, errors)
     return sigs, errors
 
 # CLUSTER_TAXONOMY § Re-categorization: re-filing "touches INDEX placement only, not signal-file
@@ -178,6 +179,39 @@ def apply_recategorizations(sigs, errors, path: str = RECAT, clusters: set[str] 
             errors.append(f"{where}: date `{date}` is not YYYY-MM-DD")
         else:
             s["cluster"], s["refiled"] = to, (date, frm)
+
+# WQ-503 B (Will, 2026-10-28): a leftover `erratum:` header line on a dispatched signal stays byte-for-byte;
+# this ledger suppresses only its INDEX marker. Fail-closed like RECAT: the row must quote the header value
+# exactly, so a later edit to the header re-exposes the marker and the stale row becomes a HARD error.
+ERRATUM_SUPP = os.path.join(ROOT, "AGENTS", "WALTER", "registry", "INDEX_ERRATUM_SUPPRESSIONS.tsv")
+ERRATUM_SUPP_COLS = ["signal_id", "erratum_value", "date", "authority", "reason"]
+
+def apply_erratum_suppressions(sigs, errors, path: str = ERRATUM_SUPP) -> None:
+    if not os.path.exists(path):
+        return
+    seen = set()
+    for n, line in enumerate(open(path, encoding="utf-8"), 1):
+        if line.startswith("#") or not line.strip():
+            continue
+        f = [x.strip() for x in line.rstrip("\n").split("\t")]
+        if f == ERRATUM_SUPP_COLS:
+            continue
+        where = f"{os.path.basename(path)}:{n}"
+        if len(f) != len(ERRATUM_SUPP_COLS) or not all(f):
+            errors.append(f"{where}: needs {len(ERRATUM_SUPP_COLS)} non-empty tab-separated fields {ERRATUM_SUPP_COLS}"); continue
+        sid, value, date = f[0], f[1], f[2]
+        s = sigs.get(sid)
+        if sid in seen:
+            errors.append(f"{where}: {sid} suppressed twice — one row per signal"); continue
+        seen.add(sid)
+        if s is None:
+            errors.append(f"{where}: {sid} has no BOARD file")
+        elif s["erratum"] != value:
+            errors.append(f"{where}: {sid} header erratum is `{s['erratum']}`, row says `{value}` — stale or wrong row")
+        elif not re.match(r"^\d{4}-\d{2}-\d{2}$", date):
+            errors.append(f"{where}: date `{date}` is not YYYY-MM-DD")
+        else:
+            s["erratum"] = ""
 
 def derive_markers(sigs: OrderedDict) -> dict[str, list[str]]:
     """Back-markers: inverted corrects: (from the correcting signal) + the signal's own status."""

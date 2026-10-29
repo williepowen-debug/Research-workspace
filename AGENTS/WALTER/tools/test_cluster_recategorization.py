@@ -71,5 +71,40 @@ class RecategorizationTests(unittest.TestCase):
         self.assertNotIn("LABOR_DOWN", index.taxonomy_clusters())
 
 
+
+
+class ErratumSuppressionTests(unittest.TestCase):
+    """INDEX_ERRATUM_SUPPRESSIONS.tsv hides only the INDEX marker, and refuses every stale or invalid row (WQ-503 B)."""
+
+    def run_rows(self, erratum, *rows):
+        s = sigs()
+        s["SIG-W-20261007-013"].update(erratum=erratum, corrects=[], corrects_direction="", status="", status_date="", status_ref="")
+        errors = []
+        with tempfile.TemporaryDirectory() as t:
+            p = os.path.join(t, "INDEX_ERRATUM_SUPPRESSIONS.tsv")
+            open(p, "w", encoding="utf-8").write("# comment\n" + "\t".join(index.ERRATUM_SUPP_COLS) + "\n" + "".join(r + "\n" for r in rows))
+            index.apply_erratum_suppressions(s, errors, path=p)
+        return s, errors
+
+    def test_matching_row_suppresses_marker(self):
+        s, errors = self.run_rows("SELF", "SIG-W-20261007-013\tSELF\t2026-10-28\tWill\tleftover")
+        self.assertEqual(errors, [])
+        self.assertEqual(index.derive_markers(s).get("SIG-W-20261007-013", []), [])
+
+    def test_unsuppressed_marker_still_renders(self):
+        s, errors = self.run_rows("SELF")
+        self.assertTrue(any("ADDITIVE ERRATUM" in m for m in index.derive_markers(s)["SIG-W-20261007-013"]))
+
+    def test_changed_header_refuses_and_keeps_marker(self):
+        s, errors = self.run_rows("2026-10-29 — new", "SIG-W-20261007-013\tSELF\t2026-10-28\tWill\tx")
+        self.assertTrue(any("stale or wrong row" in e for e in errors))
+        self.assertTrue(index.derive_markers(s)["SIG-W-20261007-013"])
+
+    def test_missing_signal_and_duplicate_refuse(self):
+        _, errors = self.run_rows("SELF", "SIG-W-20990101-001\tSELF\t2026-10-28\tWill\tx",
+                                  "SIG-W-20261007-013\tSELF\t2026-10-28\tWill\tx", "SIG-W-20261007-013\tSELF\t2026-10-28\tWill\tx")
+        self.assertTrue(any("no BOARD file" in e for e in errors))
+        self.assertTrue(any("suppressed twice" in e for e in errors))
+
 if __name__ == "__main__":
     unittest.main()

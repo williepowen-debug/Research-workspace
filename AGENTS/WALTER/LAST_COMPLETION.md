@@ -25,13 +25,12 @@ FOMC 10/28 held 3.75–4.00, 10–2, Cook and Hammack for a hike (no card for ~6
 
 ## WILL_NEEDS
 
-- WQ-503: remove or keep the `erratum: SELF` line on SIG-W-20260914-021. PROME recommends B (registry suppression, keep header). Open.
-- Whether WALTER should push its closeout commit, or leave it to the next shared push.
+- WQ-503 RULED B by Will in the WALTER session 2026-10-28 21:33 ET (verbatim "WQ-503 go with B, keep the header"). Executed: header kept byte-for-byte; INDEX marker suppressed via registry/INDEX_ERRATUM_SUPPRESSIONS.tsv (fail-closed in tools/gen_board_index.py, 4 new tests). PROME records the ruling in WILL_QUEUE.
 - Launcher: drop `--channels plugin:telegram@claude-plugins-official`.
 
 ## FOLLOW-UP
 
-1. Closeout commit publication: on Will's word and a clean tree, scripts/safe-push.sh; otherwise it rides the next shared push. Re-run closeout_check.py after.
+1. Publication: all session commits through 99ad6b3ed were on origin at 2026-10-28 21:33 ET (fresh fetch, 0 ahead / 0 behind; carried by other sessions' shared pushes). The WQ-503 commit after it is published by the next push.
 2. 10/29: GDP/PCE 08:30 ET, claims, ECB (HANS-T-04 one hike from firing), HTGC AMC; DEWEY 008R.
 3. 10/30: Brent boundary reference switches off BZZ26; DEWEY 003R from 10/30. 11/1: Sinokor date; 11/2: boundary #8 legs, DEWEY 005R, LIQUID October issuance read. 11/3: midterms; re-attestation. 11/5: Iran full sweep, MEMORY calendar check.
 4. Repairs: SIG-W-20261027-001 header normalise (WQ-515 graded by PROME 10/28; now unblocked); read WQ-515 result for routing lessons (DOCKET L846; note 20261026-012 source attribution); REGINALD coverage-basis conflict; correction 20261021-016 kill_strings; BRENT COR-20261021-16 receipt; 20261016-001 action line; six 2026-08-28 signals missing entities; OTTO consumed/unfiled LOWs.

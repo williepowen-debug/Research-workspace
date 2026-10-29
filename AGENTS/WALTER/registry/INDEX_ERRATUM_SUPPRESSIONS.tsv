@@ -1,0 +1,3 @@
+# INDEX erratum-marker suppression ledger — INDEX marker only; signal files are never edited. Read by tools/gen_board_index.py (fail-closed: erratum_value must equal the signal's `erratum:` header exactly). Will 2026-10-28 ruled WQ-503 B ("go with B, keep the header").
+signal_id	erratum_value	date	authority	reason
+SIG-W-20260914-021	SELF	2026-10-28	Will WQ-503 B, WALTER session 2026-10-28 21:33 ET	leftover `erratum: SELF` line on WALTER's 9/14 self-correction; rendered as a false ADDITIVE ERRATUM flag; the signal is itself the correction (signal_type correction), header kept as dispatched
