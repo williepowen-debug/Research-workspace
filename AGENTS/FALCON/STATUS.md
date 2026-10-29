@@ -25,6 +25,8 @@
 | Sinokor | Iran PGSA October 27: "legal action" against ALL Sinokor vessels from **November 1**; ≥7 already actioned. Reuters: ~40% of September Hormuz crude outflow (unnamed data firms). Hormuz flow already ~1 tanker/day (PortWatch 10/19–25: 23 total, 6 tankers) ⇒ band can't move; a named-hull detention from November 1 would be a shipping-vector event. Declaration, not seizure |
 | US maritime posture | NAVCENT/JMIC October 28: non-essential vessels stay well clear; extra time for "military blockade enforcement operations"; neutral vessels may face visit and search. Posture tightening, not kinetic |
 | Diplomacy | Conditional 4–5-day reopening offer and reported $1B Saudi→Houthi payment via Tehran: unconfirmed leads only. Vector stays 3 |
+| IRGC mine claim | IRGC 10/29: 3 tankers mined on 'unauthorized southern route' — no names/positions; CENTCOM 10/28 says primary routes cleared. Only UKMTO-confirmed 10/29 casualty is the dhow. CLAIM-ONLY (KB-358) |
+| LNG (Qatar) | Force majeure extended to END-DECEMBER (verified 10/29); exporting "very little" through Hormuz (KB-361) |
 | Sensors | **PortWatch repaired:** server-side HTTP-400 flake on ~half of identical requests → retry added. Transit newest 10/25 = 2 total / 1 tanker, DEEPENING unchanged. **Bypass gauge DEGRADED:** Sohar's whole daily history was dropped upstream by PortWatch (ID unchanged in its port directory, 0 daily rows; Fujairah/Sharjah 2,853 each). Gauge now prints Fujairah per-port and exits 2 (no combined verdict). Fujairah 14d to 10/23: 77,581 t/d = 90% of 60d base, HOLDING (KB-356) |
 
 ## Convergence Matrix
@@ -40,7 +42,7 @@ Scores retained; no vector crossed its threshold column at the October 29 review
 | Gulf production/bypass |5| No production-class loss established; bypass DEGRADED — Fujairah alone holding (90% of base, to 10/23) | Registered production rung needs IN-class facility/source | October 29 |
 | Diplomacy |3| Conditional reopening offers; Oman temporary outline blocked | Dated executed framework →2; actual breakdown event →4 | October 29 |
 | Shipping/insurance |5| Census 5 unchanged; all 5 insurance rows expired | At ceiling; no mine attribution inferred | October 29 |
-| Cyber/data |2| No verified new cable incident (not re-searched October 29) | Operator-confirmed in-theater incident | October 26 scoped search |
+| Cyber/data |2| No in-theater cable incident found for October (KB-363) | Operator-confirmed in-theater incident | October 29 scoped search |
 | Macro/credit |3| Owner context; CENTCOM cost ≥$47.1B mid-October (CBS) | HENRY/LIQUID owner input | October 29 |
 | Bab al-Mandeb |5| Gate reviewed; leg 2 NOT MET; no enforcement event | Apply gate letter, not secondary totals | October 29 |
 
@@ -53,7 +55,7 @@ Scores retained; no vector crossed its threshold column at the October 29 review
 - FIRMS heat/non-detection establishes neither hostile cause, damage, facility identity nor normal operations; run a population control before calling a spike (Ras Tanura flares daily).
 - Facility high-water advanced to **October 28** (STRIKES header); newest event row still September 10.
 - **Next:** November 1 Sinokor watch (named-hull detention/seizure, Sinokor/Korea response); November 4 weekly + gate review; November 5 FAL-06 dated search; January 2 FAL-07 failure search if unresolved. Ras Tanura operator statement / loadings. UKMTO 182/183/184+ originals (403 from this box). Recheck whether PortWatch restores Sohar's series.
-- Not done this session: CTP/ISW Iraq/PMF read (no quiet inference); cyber/cable re-search; UKMTO 182/183 follow-ups.
+- Afternoon pass 10/29 (KB-357..363): Iraq — CTP 10/27 militia drones surveilled US Embassy Baghdad, intercepted, no explosives; 10/28 nothing significant ⇒ PMF discriminator NOT FIRED. Cyber — no in-theater cable incident found for October. Al-Faw VI-0084 still unnamed/unknown after 3 days. LEONORA KOSAN = PROBABLE VI-0082 (UKMTO 181-26 LPG tanker, 7 NM NE Limah). All 10 VX rows re-verified and stamped 10/29 (ISR-01 dormant; GASLNG FM extended to end-December). Not done: day-by-day 10/27–29 gap sweep (topic searches only — LESSONS 2).
 - Carried builds remain: KB-168 Yanbu proxy, baseline hot/cold split, sub-$80 duration bar, archive-content guard, EXIT boot reader and full VX sweep; Bypass empty-series guard + DEGRADED mode DONE October 29; Sohar series dropped upstream (watch for restoration; no re-map possible).
 
 ## BOTTOM LINE

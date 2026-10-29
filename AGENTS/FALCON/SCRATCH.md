@@ -27,8 +27,8 @@ B 1 / C 14 / D 85 HELD; convergence 43/50 retained. FAL-06 OPEN at 70% (resolves
 
 ## OPEN THREADS / WATCHES
 - Consumer check 10/29 (census 5→6): 2 🔴 hits both dated snapshots (WALTER 10/25 boot notes; HAWK KB-415 9/28) — no packet; WALTER anchor already updated (5df0f0415); HAWK reads NEXUS_BRIEF (carries 6).
-- Still open from 10/26: VI-0084 Al-Faw fire cause/outcome; UKMTO 182/183 originals.
-- Not done 10/29: CTP/ISW Iraq/PMF read (no quiet inference), cyber/cable re-search, full VX stamp sweep.
+- Still open: VI-0084 Al-Faw cause/outcome; VI-0083 identity; UKMTO originals (403); IRGC 3-tanker claim (watch IMO/NAVAREA for named tankers); Ras Tanura operator statement (none as of 10/29 13:xx).
+- DONE 10/29 afternoon: CTP/ISW Iraq (KB-357), cyber (KB-363), full VX stamp sweep (10 rows), LESSONS.md read, IRGC mine claim (KB-358), LEONORA KOSAN → VI-0082 probable (KB-359), Al-Faw still unknown (KB-360), Qatar LNG FM to end-Dec (KB-361), Israel energy-strike request (KB-362). NOT done: day-by-day 10/27–29 gap sweep (LESSONS 2).
 - Insurance 5 rows EXPIRED, WQ-298 CANNOT-FIRE; do not re-argue access.
 - Carried builds: KB-168 Yanbu proxy (PROME WQ-533(a) recs abandoning BRENT's Yanbu shadow run — BRENT/PROME's call), baseline hot/cold split, sub-$80 duration bar, archive-content guard, EXIT boot reader, Sohar series restoration watch.
 
