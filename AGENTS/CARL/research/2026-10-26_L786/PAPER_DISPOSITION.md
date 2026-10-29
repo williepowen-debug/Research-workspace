@@ -25,3 +25,20 @@ October 27 completion rule: obtain the actual quote/time; LONG exit at bid, SHOR
 Both scoring gates remain shut: fewer than ten CLOSED rows and only two distinct antecedents, versus the sleeve's minimum three. The paired basket is one economic experiment, not four independent wins. No sleeve result justifies capital or new positions.
 
 The next-open step is carried explicitly in CARL's existing catalyst docket for 2026-10-27. It requires a future market observation, not Will's approval.
+
+## Execution record — completed 2026-10-28
+
+No historical bid/ask snapshot was obtainable, so the stated fallback applied: actual 2026-10-27 regular-session OPENING PRINT (yfinance daily Open, cross-checked against the 09:30 1-minute bar) with the 15bp penalty against execution. Retrieved 2026-10-28 ~20:37 ET, so every row carries a LATE-DETECTION flag (TERRY design, late-detection clause): the price is the contemporaneous open, not a later or mid price.
+
+| Row | Ticker | Side | Entry | 10/27 open | Fill | P&L $ | P&L % |
+|---|---|---|---:|---:|---:|---:|---:|
+| PS-0001 | XLY | SHORT cover | 109.25 | 114.85 | 115.02 | -158.44 | -5.28 |
+| PS-0002 | DG | LONG sell | 117.41 | 127.16 | 126.97 | 81.42 | 8.14 |
+| PS-0003 | DLTR | LONG sell | 120.63 | 123.69 | 123.50 | 23.79 | 2.38 |
+| PS-0004 | WMT | LONG sell | 109.63 | 119.66 | 119.48 | 89.85 | 8.98 |
+| PS-0005 | AZO | LONG sell | 2961.85 | 3180.79 | 3176.02 | 216.93 | 7.23 |
+| PS-0006 | SYF | SHORT cover | 75.68 | 75.47 | 75.58 | 3.96 | 0.13 |
+| PS-0007 | COF | SHORT cover | 208.70 | 204.49 | 204.80 | 56.06 | 1.87 |
+| **Total** | | | | | | **313.57** | on $15,000 notional |
+
+WMT: the 1-minute 09:30 bar opened at 119.76, versus the official daily open of 119.66; the official open is used. Seven rows are now CLOSED. Scoring stays blocked (7 < 10 closed; 2 < 3 distinct antecedents). CRL-20 and CRL-31 are not resolved by these closes. Paper only, with no capital meaning.
