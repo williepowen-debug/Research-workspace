@@ -209,3 +209,50 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-22T16:19:50Z	WALTER SIG-W-20261022-012 (INFO): owner answers to 005 -- REGINALD BANK-ABSENT ~0.6, BROCK NDFI growing no losses; CRE leg UNKNOWN pending CREED	acted	INBOX_WALTER	Context for the CRE leg; bank-side reads are REGINALD/BROCK-owned, cited not re-graded.
 2026-10-22T18:09:45Z	DEWEY 2026-10-22 REQ-DEWEY-20261022-007 (INFO, PARTIAL): data-center ABS/CMBS size, tenants, holders	noted	INBOX	Read at closeout. No ask. Carried: read AGENTS/DEWEY/output/2026-10-22_data-center-abs-cmbs-holders.md before any KB row; bears on KB-037 perimeter question ($17B vs ~$18B DC CMBS) and the unreconciled Elk Grove $356M vs DATA 2026-800D $375M relay.
 2026-10-22T18:09:45Z	DEWEY 2026-10-22 REQ-DEWEY-20261022-003 (INFO): rising bad loans with falling reserve coverage, base rate (CRE loss-severity record)	noted	INBOX	Read at closeout. No ask. Carried: read AGENTS/DEWEY/output/2026-10-22_reserve-coverage-decline-base-rate.md; candidate KB rows for CRE loss-severity base rates (FDIC WP 2015-06 C&D 53.3%, other CRE 38.5%) beside KB-041; T-03 leg (c) context.
+2026-10-29T02:52:18Z	DEWEY 2026-10-22 REQ-007 v2 COMPLETE packet (inbox/2026-10-22_from-DEWEY_data-center-abs-cmbs-holders-v2.md)	acted	INBOX	Canonical report read (Key Finding, v1->v2 table, Tables 1a/1b). -> KB-CREED-075. Elk Grove = DATA 2026-800D $375M (CREED figure holds). KB-037 perimeter: DC CMBS ~6% of SASB outstanding (Barclays) / 7.7% of 2026 YTD SASB (CREFC 10/16).
+2026-10-29T02:52:18Z	DEWEY 2026-10-22 REQ-003 reserve-coverage-decline base rate (carried from 10/22 closeout)	acted	INBOX	Canonical report read (Key Finding + method). -> KB-CREED-076: NPL-up-and-coverage-down pattern shows NO lift at 2-4Q ($10-100B band, 2 of 10 episodes vs 25% unconditional); modest lift at 8Q only, all pre-CECL. Bears on T-03 leg (c) interpretation; moves no band.
+2026-10-29T02:52:18Z	DAEDALUS 2026-10-23 WQ-508 harness-audit lines (inbox/2026-10-23_from-DAEDALUS_WQ508-harness-audit-lines.md)	acted	INBOX	git show d3488e641 -- AGENTS/CREED/ read: 2 CLAUDE.md lines (7b receipt wording; Current Rails S8a figure struck -> pointer to VX-7.01). Both accepted, none contested. No report-back owed.
+2026-10-29T02:52:18Z	COR-20261022-27 (BOARD SIG-W-20261022-027 correction to 024, DEWEY DC v2)	acted	BOARD	Receipted APPLIED -> KB-CREED-075. Main finding holds; CREED's $375M Elk Grove figure confirmed.
+2026-10-29T02:52:18Z	SIG-W-20261022-033	noted	WALTER	KILL: Unnamed-executive MF anecdote, conf 0.3, no property/lender named; HOMER-owned MF. No case, no KB row.
+2026-10-29T02:52:18Z	SIG-W-20261023-005	noted	WALTER	FLG Q3 provision $76M vs $18M, crit/class +$670M: REGINALD/FLG-owned. Bank-side context for T-03 (Q3 QBP ~late Nov). No CREED row.
+2026-10-29T02:52:18Z	SIG-W-20261023-012	noted	WALTER	First Citizens clean vs First Hawaiian $12.5M single-CRE-loan charge-off: REGINALD cohort. Mixed bank prints; no CREED row.
+2026-10-29T02:52:18Z	SIG-W-20261027-020	acted	WALTER	Trepp Q3 recap: delinquent balance $48.65B (+11.64% YTD, balance growth not a rate); SS transfers $24.38B vs resolutions $18.71B YTD Sep (gross flows). -> KB-CREED-077.
+2026-10-29T02:52:18Z	SIG-W-20261027-021	acted	WALTER	Wells Fargo Center South (LA) note sale -> CASE-CREED-155. $115M reported consideration vs $290M broker loan description: NOT a measured loss; seller unidentified.
+2026-10-29T02:52:18Z	SIG-W-20261027-022	acted	WALTER	Trepp seniors-housing cohort (HOMER action). Two named cases logged -> CASE-CREED-163 (Point at Rockridge) / 164 (Corinthians).
+2026-10-29T02:52:18Z	SIG-W-20261027-023	noted	WALTER	FL office trades (One Boca, 200 E Broward): CORAL action. Financing availability context folded into KB-CREED-080.
+2026-10-29T02:52:18Z	SIG-W-20261027-024	acted	WALTER	SF office AI leasing / availability 27.2% vs 33.6%: geographically limited counterevidence -> KB-CREED-079.
+2026-10-29T02:52:18Z	SIG-W-20261027-031	acted	WALTER	Blackjack portfolio missed 10/9 maturity, SS, $517.7M remaining -> CASE-CREED-162 (HOMER owns MF scoring).
+2026-10-29T02:52:18Z	SIG-W-20261027-032	acted	WALTER	Forge Atlanta $33.7M seller-financed land note: April default, May mod to 10/1, lender grace -> CASE-CREED-156.
+2026-10-29T02:52:18Z	SIG-W-20261027-034	acted	WALTER	Trepp QDR preview: $61.1B 2027 PL CMBS hard maturities ($22.2B office); 75% class-A office needs fresh equity; office DQ 12.33% CONFLICTS with Sep monthly 12.16 -> not substituted, no threshold grade; reconciliation helper run 10/28 -> KB-CREED-077.
+2026-10-29T02:52:18Z	SIG-W-20261027-035	acted	WALTER	Blackstone opportunistic -3.2% q/q vs core-plus +1.6%; MSCI distress sales $13.2B 9M +26.4% but share 2.4% -> KB-CREED-078.
+2026-10-29T02:52:18Z	SIG-W-20261027-036	acted	WALTER	Town Lane $1.9B Fund II final close (commitments, not deployment) -> KB-CREED-080.
+2026-10-29T02:52:18Z	SIG-W-20261027-037	noted	WALTER	Sunbeam FL self-funding: CORAL action; no distress event.
+2026-10-29T02:52:18Z	SIG-W-20261027-041	noted	WALTER	345 N Morgan reported DekaBank $79M refi of OZK $70M loan: OZK action; refinancing is not a distress case.
+2026-10-29T02:52:18Z	SIG-W-20261027-042	noted	WALTER	Rental concessions series (RealPage vs Apartment List): HOMER/CORAL action.
+2026-10-29T02:52:18Z	SIG-W-20261027-043	acted	WALTER	Trepp sample correction ex-$1.3B seasoned pool: LTV 63.2 vs 59.3; MF LTV 67.4 vs 61 -> KB-CREED-081.
+2026-10-29T02:52:18Z	SIG-W-20261027-044	noted	WALTER	Denver MF watchlist 13.6%, 98% current: HOMER action.
+2026-10-29T02:52:18Z	SIG-W-20261027-045	acted	WALTER	CRED iQ MF refi equity model (HOMER action); Park West Village (7 conduit deals, modified Nov-2025) logged -> CASE-CREED-165.
+2026-10-29T02:52:18Z	SIG-W-20261027-046	noted	WALTER	UDR-Apollo JV ~6% implied cap rate, close expected 10/29: HOMER action.
+2026-10-29T02:52:18Z	SIG-W-20261027-047	acted	WALTER	CBRE Q3 revenue bases (sales rev +28% global, not volume) -> KB-CREED-080.
+2026-10-29T02:52:18Z	SIG-W-20261027-048	acted	WALTER	Trepp Chicago office rollover $802M/48 leases; named Westbrook Corporate Center (foreclosure) and Continental Towers (90+) -> CASE-CREED-157/158.
+2026-10-29T02:52:18Z	SIG-W-20261027-049	acted	WALTER	Lodging composition: ex-4 casino loans median CF change -8.1% vs -1.7%; nonperf 6.87 vs 5.98 -> KB-CREED-082.
+2026-10-29T02:52:18Z	SIG-W-20261027-050	acted	WALTER	Natick refi: $400M 6.95% IO vs $430M outstanding, ~$37.2M sponsor cash-in; interest +47.8% vs ORIGINAL terms -> KB-CREED-084.
+2026-10-29T02:52:18Z	SIG-W-20261027-051	acted	WALTER	Commercial National Bank bldg (DC) lender-controlled sale $50.35M; DekaBank note; seller unclear -> CASE-CREED-159.
+2026-10-29T02:52:18Z	SIG-W-20261027-052	noted	WALTER	OZK $132.7M Culver City construction commitment: OZK action; not distress.
+2026-10-29T02:52:18Z	SIG-W-20261027-053	acted	WALTER	Manhattan Colliers Q3 availability 12.4% (-0.6pp), YTD leasing 32.86M sf -> KB-CREED-079.
+2026-10-29T02:52:18Z	SIG-W-20261027-054	acted	WALTER	CBRE call (secondary transcript): capital markets ~flat Q4 into H1-27 -> KB-CREED-080.
+2026-10-29T02:52:18Z	SIG-W-20261027-055	acted	WALTER	Illinois Center: Trepp $239.48M split ($92.1M/$92.1M/$55.28M), REO label premature -> CASE-CREED-153 notes updated; three debt bases kept separate.
+2026-10-29T02:52:18Z	SIG-W-20261027-056	noted	WALTER	S2 $1.2B MF workouts, 12 foreclosures terminated: HOMER action; no named property.
+2026-10-29T02:52:18Z	SIG-W-20261027-057	acted	WALTER	320 W 31st St (Manhattan) leasehold foreclosure complaint; Bank of China assigned loan 9/17 -> CASE-CREED-160.
+2026-10-29T02:52:18Z	SIG-W-20261027-058	acted	WALTER	700 Sixth St NW (DC) note purchase $79.5M + deed-in-lieu; $145.8M latest balance; Principal (insurer) lender -> CASE-CREED-161.
+2026-10-29T02:52:18Z	SIG-W-20261027-059	noted	WALTER	RAD Diversified Philadelphia home auction, outcome UNKNOWN: HOMER action; residential, not CRE.
+2026-10-29T02:52:18Z	SIG-W-20261027-060	noted	WALTER	True Food Kitchen Ch.11: CARL action; tenant event, not a CRE loan case.
+2026-10-29T02:52:18Z	SIG-W-20261027-064	noted	WALTER	RealPage Q3 MF supply/absorption: HOMER action.
+2026-10-29T02:52:18Z	SIG-W-20261027-065	noted	WALTER	Sun Belt starts -75% vs 2022 peak (historical): HOMER action.
+2026-10-29T02:52:18Z	SIG-W-20261027-066	acted	WALTER	MSCI insurer origination LTV 62.7% H1 (+2.5pp) vs 65.9% all lenders; mix caveat; 30% DC share UNVERIFIED -> KB-CREED-083.
+2026-10-29T02:52:18Z	SIG-W-20261027-067	acted	WALTER	IOS rents +32% since 2021 (national) vs >110% port markets; AI staging link not quantified -> KB-CREED-085.
+2026-10-29T02:52:18Z	SIG-W-20261027-068	noted	WALTER	Blackstone DC platform/pipeline bases: VULCAN action.
+2026-10-29T02:52:18Z	SIG-W-20261027-069	noted	WALTER	FL source roundup: CORAL action (Miami office series kept separate).
+2026-10-29T02:52:18Z	SIG-W-20261027-070	acted	WALTER	Castlelake ~$1.1B CRE CLO (26 loans), Rithm/Genesis $375M MF securitization (attributed) -> KB-CREED-080; CLO issuance/spreads are LIQUID's basis.
+2026-10-29T02:52:18Z	SIG-W-20261027-071	noted	WALTER	Lake Meadows investor-exit lawsuit: allegation, not a loan default; HOMER action.
+2026-10-29T02:52:18Z	SIG-W-20261027-072	acted	WALTER	Industrial leasing 202.6M sf Q3 (gross); Newmark 60% office occupiers expect headcount growth (intentions) -> KB-CREED-079/085.

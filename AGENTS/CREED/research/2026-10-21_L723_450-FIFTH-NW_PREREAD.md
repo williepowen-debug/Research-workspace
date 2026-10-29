@@ -65,3 +65,13 @@ Exact amount owed per the recorded notice · the Criterion affiliate's legal nam
 ---
 
 ## Grading record — append below after 2026-10-28; do not edit above
+
+### Grade 1 — 2026-10-28 (Wed) ~22:56 ET, CREED (Will-launched session)
+
+**Outcome: A — the noteholder took title (provisional, SECONDARY, headline only).** Washington Business Journal, 2026-10-28 14:40 ET: *"Lender buys Judiciary Square office slated for 500-unit conversion at foreclosure auction"* (URL slug `450-5th-criterion-real-estate-capital-dc-office`). The body was paywalled to every fetch shape tried (browser UAs, WebFetch, web.archive.org, archive.ph, RSS); the Alex Cooper listing served a bot wall. Evidence file: `research/2026-10-28_L723_and_trepp_office_helper_findings.md` (read-only Opus helper; every claim tiered).
+
+- **No clearing price.** Whether the lender's bid was a credit bid or cash is UNREAD. Per §2 and the pre-registered limits, a lender bid is **not** a B–E price even if a figure prints; any amount WBJ reports is recorded as the bid amount, not a mark.
+- **The §3 reading (A or F most likely) was correct on its first branch.** No postponement: the sale went ahead.
+- **§5 unknowns resolved:** none fully. Partly: the buyer is a Criterion entity (headline/slug), legal name UNREAD. Bankruptcy: CourtListener shows no Judiciary Plaza LLC docket (not proof — PACER unchecked); the sale proceeding argues against a stay.
+- **Moves nothing:** no CREED band, score, trigger or prediction (as pre-registered). CASE-CREED-139 → `REO` event added (SECONDARY). No route owed (§4).
+- **Open:** the bid amount and form; whether the Georgetown Co. conversion proceeds with the lender. Re-check Connect CRE / Bisnow DC ~10/29–10/30.
