@@ -2,12 +2,12 @@
 
 **Status:** ELEVATED. Willingness/route risk is rising on the ENFORCEMENT channel; net crude loss and the premium's share of the oil price remain UNMEASURED. No mark, band or probability moved.
 **Domain:** Cross-war synthesis and dormant geopolitical book.
-**As of:** October 29, 2026, 12:06 EDT (from `date`); owner evidence FALCON through Oct 26 17:36, OSPREY committed Oct 23 plus its live Oct 29 work.
-**STATUS commit:** `ffc9d15a5`.
+**As of:** October 29, 2026, 13:3x EDT (second pass); owner evidence FALCON `800ccec25` (~12:55 Oct 29), OSPREY `e8f1acaf3` (Oct 29).
+**STATUS commit:** `49ea1974f`.
 
 | Consumer | Material result | Limitation |
 |---|---|---|
-| BRENT / HENRY / LIQUID | FALCON B1/C14/D85 held, production rung not fired; census now **5 confirmed losses** (Cape Dao sunk, old Sept 23 bulker). OSPREY 5/5/3. | Russia refining/products vs Gulf hull/route stay separate; no pooled barrels or premium fraction. K1 input UNMEASURED (BRENT). |
+| BRENT / HENRY / LIQUID | FALCON B1/C14/D85 held, production rung not fired; census now **6 confirmed losses** (Cape Dao sunk, an old Sept 23 bulker; MSV QUBA, a dhow sunk off Khasab Oct 29, cause unattributed). OSPREY 5/5/3, **no Ukrainian refinery strike since Oct 16** (a lull under US pressure, no halt order). | Russia refining/products vs Gulf hull/route stay separate; no pooled barrels or premium fraction. K1 input UNMEASURED (BRENT). |
 | BRENT / FALCON | **Iran PGSA legal action against all Sinokor vessels from Nov 1** (KB-HAWK-473); NAVCENT stay-clear advisory Oct 28. | Sinokor ~47% of Hormuz VLCC transits is secondary only; "legal action" undefined; a tonnage exit is route/willingness loss, not destroyed capacity. |
 | BRENT / LIQUID | War-risk: no matched October quote in any leg (DEWEY HAWK-03); all five legs stale; Bab CANNOT-FIRE. | Missing quote ≠ flat rate. Russian-port tanker calls unmeasured. |
 | OSPREY / PROME | WQ-470 C3 limb 2: SCOPE qualifier agreed jointly (OSPREY `97f4bcff7` §7), three-way grade REPRICED / SATISFIED-BY-PROXY / UNMEASURED. | X provisional +25% until OSPREY's ≥12-pair TD6/TD19 backfill; PROME holds. TD17 (Baltic) may not print. Oct 21 grade stands. |
