@@ -50,19 +50,18 @@
 
 ## Session Notes
 
-### CHANGES SINCE — 2026-10-29 00:0x–00:4x ET wake, DOCKET L773 + L774 + whole-inbox drain (Claude Code, Opus 5.5, PROME prome-92)
+### CHANGES SINCE — 2026-10-29 09:00–09:1x ET wake, DOCKET L774 grade (Claude Code, Opus 5.5, PROME prome-90)
 
-- **L773 FOMC (held 3.75–4.00, 10–2, two dissents FOR a hike):** par 2Y 4.67 (−3bp), 10Y **5.05 (+6bp, ORANGE → RED)**, 30Y 5.37; SPX +0.28%, no post-statement break; VIX 16.91. Experiment A EXPECTED = none recorded (do not reconstruct). KB ML-HEN-189.
-- **L774 expectation FROZEN pre-print** (commit 80824f14d, before 08:30): core PCE Sep NOT FIRED at +0.3% rounded; Cleveland Fed nowcast +0.28% m/m / 3.05% y/y (updated 10/28). Rule: BEA one-decimal, 0.4+ = fired; unrounded `PCEPILFE` recorded beside, not graded. 0.02pp from the rounding edge.
-- **Put wall BROKE on the 10/23 close** (7,623.68 < 7,650; no HENRY session that day, graded late). 10/28 close: gamma POSITIVE both, flip band 7,734–7,738 (spot +6/+10), put wall WITHHELD (7,750 vs 7,700), call wall 7,800.
-- Credit answered the 10/22 selloff: HY 340 [10/22], CCC 1,356 [10/23] peak; retraced to HY **318** [10/27], under 320.
-- WQ-507 encoded (ISM <47 rows → ISHM pointers). AAL FY guide checked at primary: ($1.60)–($1.00); BRENT told. Inbox 17 + 59 drained to 0/0; four corrections NO-OP.
-- **Cleveland Fed nowcast page:** a WebFetch summary misplaced the September cells; the raw HTML (`curl`, then grep the row) shows blank CPI cells and PCE 0.47 / core PCE 0.28. Read the raw cells.
+- **L774 GRADED NOT FIRED:** BEA core PCE Sep **+0.3%** m/m (PCEPILFE +0.3165% unrounded), 3.1% y/y; headline +0.5% / 3.6%. Matched the frozen +0.3% (nowcast +0.28% undershot ~0.04pp). Jul/Aug core revised up ~0.01pp; monthly path 0.14 → 0.26 → 0.32 (rising). Q3 GDP +3.4% SAAR, GDP price index +2.2% (FRED A191RI1Q225SBEA, not on the release page). KB ML-HEN-190. Commit 0070ba94d.
+- **Own error caught:** the frozen caveat said the nowcast sat "0.02pp from the rounding edge"; the edge for 0.4 is 0.35, so it was 0.07pp. Corrected beside the frozen text, not in it. **Distance-to-edge = edge minus value; name the edge.**
+- Pre-open reaction only (session closed before 09:30 at PROME's ask): ES flat across the print, vendor 10Y −1.5 to −2.5bp, VIX 17.02. Cash SPX reaction and 10/29 par NOT observed.
+- Inbox: BOND (VX-BND-07 one-session letter, noted), ZHAO (USTR ships FYI, info-only) → processed; census 0/0.
+- **PROME's steer:** do not hold a finished session on a timer for a later print; close out with the armed state.
 
 ### NEXT SESSION
 
-1. **DOCKET L774 grade at/after 08:30 ET 10/29:** log actual / frozen expectation / prior / reaction; grade core PCE on BEA's one-decimal figure against the frozen rule; Experiment A is NOT required for L774 (it is FOMC-only, event 2 of 3).
+1. Fill the 10/29 cash-session reaction and par (2Y/10Y) from the record at the next touch; MARKET_DATA 10/29 EOD row not written.
 2. At any wake: `gamma_flip.py --both` first. Pull FRED 10/28+ (HY 318 is one observation under 320).
 3. Operating Dashboard not refreshed since 10/22 (version 4); refresh at the next full session.
-4. ISM services date (11/4) still unverified at ismworld.org; recheck before 11/4. PH 11/5 orders: compare on ISHM's rebased basis.
-5. Catalysts: ECI + BOJ 10/30, Russian №1252 expiry 10/31, ISM mfg 11/2 (ISHM), NFP 11/6, CPI 11/10, PPI 11/13.
+4. ISM services date (11/4) still unverified at ismworld.org; recheck before 11/4.
+5. Catalysts: ECI + BOJ 10/30, Russian №1252 expiry 10/31, ISM mfg 11/2 (ISHM), NFP 11/6, CPI 11/10, PPI 11/13; next PCE 11/25.

@@ -1,6 +1,6 @@
 # HENRY STATUS
 
-**Last owner update:** 2026-10-29 00:1x–00:4x ET, PROME-spawned Tier-1 wake (prome-92) for DOCKET L773 (FOMC 10/28) and L774 (GDP + September PCE, 10/29 08:30 ET) plus a whole-inbox drain (Claude Code, Opus 5.5, model ID `claude-opus-5-5`; native session ID not exposed). Markets closed. Tape and gamma pulled 00:07–00:09 ET from the 10/28 close; Treasury par CSV 00:09 ET; FRED 00:10 ET; Cleveland Fed nowcast page 00:1x ET. Prior owner record (10/22 19:3x ET, L787) preserved verbatim at `research/2026-10-29_L773/STATUS-before.md`.
+**Last owner update:** 2026-10-29 09:00–09:1x ET, PROME-spawned Tier-1 wake (prome-90) for the DOCKET L774 grade (BEA 08:30 ET), a channel-5 post-print read and a 2-packet inbox drain (Claude Code, Opus 5.5, `claude-opus-5-5`). BEA pages and FRED pulled 09:02 ET; vendor tape 09:03–09:07 ET, before the cash open. Changed this session: header, VIEW last sentences, § DOCKET L774, the core PCE threshold row, the catalyst line; the rest is the 00:4x ET record. Pre-session copy: `research/2026-10-29_L774/STATUS-before.md`. Previous: 2026-10-29 00:1x–00:4x ET, PROME-spawned Tier-1 wake (prome-92) for DOCKET L773 (FOMC 10/28) and L774 (GDP + September PCE, 10/29 08:30 ET) plus a whole-inbox drain (Claude Code, Opus 5.5, model ID `claude-opus-5-5`; native session ID not exposed). Markets closed. Tape and gamma pulled 00:07–00:09 ET from the 10/28 close; Treasury par CSV 00:09 ET; FRED 00:10 ET; Cleveland Fed nowcast page 00:1x ET. Prior owner record (10/22 19:3x ET, L787) preserved verbatim at `research/2026-10-29_L773/STATUS-before.md`.
 
 ## VIEW
 
@@ -49,7 +49,18 @@
 | Final sales to private domestic purchasers (SAAR) | 4.9% | Q2 4.6% | BEA 26-45 |
 | Revisions BEA names | July and August personal income (revised BLS payroll data) and personal interest income; July–August PCE price levels revised up (above) | — | BEA technical note |
 
-**First reaction, before the cash open (vendor 5-minute bars, `research/2026-10-29_L774/premarket_0830_bars.txt`):** ES December 7,755.25 (bar ending 08:30) → 7,751.00 (08:50), about −4 points; vendor 10Y index 5.026 → 5.001 (08:40) → 5.011 (08:50), about −1.5 to −2.5bp; 10-year note future +3/32. **A small bond rally and no equity move: the market read an in-line core.** Post-open read: § POST-PRINT READ below.
+**First reaction, before the cash open (vendor 5-minute bars, `research/2026-10-29_L774/premarket_0830_bars.txt`):** ES December 7,755.25 (bar ending 08:30) → 7,751.00 (08:50), about −4 points; vendor 10Y index 5.026 → 5.001 (08:40) → 5.011 (08:50), about −1.5 to −2.5bp; 10-year note future +3/32. **A small bond rally and no equity move: the market read an in-line core.** Channel 5 table below.
+
+**HEARTBEAT channel 5, post-print read (taken 09:07 ET 10/29, BEFORE the 09:30 cash open; vendor data):**
+
+| Item | Pre-print | Post-print, 09:07 ET | Note |
+|---|---:|---:|---|
+| Treasury par 2Y / 10Y | 4.67% / 5.05% [10/28] | 10/29 not yet published | Treasury posts the day's par after the close; the 10/28 row is the latest on the CSV at 09:07 |
+| 10Y, vendor ^TNX index (not par) | 5.026 (bar ending 08:30) | 5.01 | about −1.5 to −2.5bp; 2-year note future +0.07% |
+| S&P 500 futures, ES December | 7,755.25 (bar ending 08:30) | 7,755.25 | flat across the print; −0.36% vs the prior settle was overnight, before 08:30 |
+| SPX cash | 7,743.98 [10/28 close] | opens 09:30 | **not observed: the cash reaction lands after this session** |
+| VIX (Cboe overnight session, vendor) | 17.27 (08:00 bar) | 17.02 | 16.91 at the 10/28 close |
+| Gamma | POSITIVE both, flip 7,734–7,738 [10/28 chain] | not re-run | pre-open the chain is still the 10/28 close, already read at 00:08 ET; no new information |
 
 **Read (interpretation):** in line, not hot, so no HENRY line fires and no mark moves. Two things the one-decimal grade hides: the monthly core path has risen three months running (0.14 → 0.26 → 0.32 unrounded), so momentum into the fourth quarter is warmer than the quarter's 2.5% annualized average; and the headline +0.5% is the energy leg (headline minus core about 0.17pp). Core y/y ticked up 3.0 → 3.1. Growth is strong (3.4% real GDP, private domestic final sales 4.9%) while real disposable income fell 0.3% and the saving rate is 3.8%: spending is outrunning income. **Consensus: none recovered**, so the comparison is to the frozen nowcast only. Experiment A cells are not called for: the L833 trial's three events are ARCC, FOMC and HTGC.
 
