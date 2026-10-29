@@ -101,3 +101,16 @@ Same-load rate of hours ≥$200: 90–100 GW 4.3% vs 0.7%; 100–110 GW 5.1% vs 
 | Forced mean | 7.4 | 9.0 | 11.1 |
 
 **Correction of frame:** the autumn maintenance stack is normal and the same every year. "Outage-driven" names the trigger, not the worsening. The 2026 difference is higher demand (+6.1 GW mean) plus more unplanned breakdowns (+2.1 GW vs 2025): about 8 GW less average headroom, before any fleet-size change (not measured).
+
+## Addendum 14:1x ET — fleet size (Will: "go ahead if valuable")
+
+EIA-860M, PJM balancing authority, August of each year [KB-WATT-188]:
+
+| Net summer GW | 2024 | 2025 | 2026 |
+|---|---:|---:|---:|
+| Firm (gas, nuclear, coal, oil, hydro, other) | 181.4 | 181.0 | 181.4 |
+| Solar | 12.6 | 16.7 | 19.3 |
+| Wind | 11.3 | 11.5 | 12.0 |
+| Storage | 0.4 | 0.5 | 0.7 |
+
+**Reading:** no shrinking fleet, but no firm growth either. Since autumn 2025: firm flat, demand +6.1 GW mean, forced outages +2.1 GW, and solar +2.6 GW that contributes nothing at the late-October evening peak. ⚠️ EIA's perimeter is not PJM's accredited capacity; read the trend only. 860M is preliminary.
