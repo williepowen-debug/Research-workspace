@@ -1,4 +1,19 @@
-> # ⛔ 2026-10-29T10:08:18-04:00 — READ THIS BLOCK FIRST. PROME-spawned one-line erratum (prome-90): MSFT 424B2 time.
+> # ⛔ 2026-10-29T13:47:22-04:00 — READ THIS BLOCK FIRST. Will-launched boot, memory grade, core-file update, GEV/VRT read, closeout BEFORE Amazon printed (Claude Code, Opus 5.5).
+
+▶ START HERE: **Amazon reported after the 10/29 close and is NOT graded.** Next session (≤10/30): (1) grade §4b using the committed rule `reports/2026-10-29_cluster-4b_prestatement.md` (79045befb, 13:37 ET). It is three of four in: confirm legs 0, falsify legs 1 (META). AMZN raise rewarded ⇒ FALSIFIES; cut or pressure citation ⇒ CONFIRMS; else NO-VERDICT. (2) Rewrite EXIT_PROTOCOL and answer PROME's disinflationary-productivity falsifier (`inbox/processed/2026-08-19_from-PROME_FOMC-minutes...` Q3), or say in writing why the rail cannot carry it. (3) Fill the AMZN row with `python3 -I reports/2026-10-29_L800_amzn-update/recut.py <ocf_9m> <ttm_ocf> <capex_2026> <fl_9m> <fl_q3> 0 0`, then deliver DOCKET L800 (due 10/30). (4) Friday post-close: Mag7 slot 8 + GPU reading 8 + S2 row.
+
+RECONCILE c5514816ff5a91477fd5954c4f919e5acc1437eacd1220e1c5435ed9b3a60ab7 STATUS UPDATED: memory test graded AMBIGUOUS (S2 2) [KB-326]; cluster three of four, MSFT ~$170B confirmed calendar 2026 [KB-332]; L800 re-cut on DEWEY's own method (−$173.3B pre-AMZN, MSFT cash +$14.9B, GOOGL −$42.1B) [KB-331]; GEV/VRT power read, S3 stays 3 [KB-333]; clocks re-dated to 10/30; 15/25 unchanged.
+RECONCILE c5514816ff5a91477fd5954c4f919e5acc1437eacd1220e1c5435ed9b3a60ab7 THESIS UPDATED: S2 dated note (consumer-only demand loss sits in stage 1's buyer-cost leg; stage 3 NOT FIRED) and §4b three-of-four note with the funding-side read. No stage state, verdict or resolver changed.
+RECONCILE c5514816ff5a91477fd5954c4f919e5acc1437eacd1220e1c5435ed9b3a60ab7 EXIT UNCHANGED: §4b has not resolved (AMZN pending), so the dated rewrite trigger has not fired. It moves with the cluster row to 10/30, with the 11/15 backstop kept. No kill leg moved: GEV/VRT and the hynix/Samsung bit guides are supportive, not kill evidence; leg 3 is still 1 of 4 quarters; no new Mag7 sample. Newest entry is not refreshed (no rail change).
+
+- Boot: root CLAUDE/AGENTS/USER + desk CLAUDE read; boot.py rc2 = carried META 10-Q model FAIL only. Runtime Claude Code, Opus 5.5 (claude-opus-5-5), Will-launched. Local master 2 commits ahead (PROME/WALTER, not ours), 0 behind; foreign WALTER dirty paths, no pull needed.
+- Inbox 3 general + 3 WALTER → KB-326..330, board_log, processed. CYPHER answered (PANW = vector vendor; price leg outside charter, scope flagged to PROME) c24556e87.
+- Memory test graded on the 10/23 refinement. Near miss on the 10/15 wording recorded (KB-326, L-85). Transcripts are T2; hynix figures at the 6-K primary.
+- L800: DEWEY replay consumed; 09:08 report errata (method wording, GOOGL FL principal $1.11B derived, preferred-dividend tag). recut.py control replays DEWEY −186,456 exactly. LESSONS L-83/84/85.
+- STATUS at ~86% of the read cap: rotate older live-read "Prior" vintages next session. SCRATCH rotated (10/21–10/22 blocks → archive/SCRATCH_ARCHIVE_2026-10-29.md, crc in its header).
+- Push: safe-push at this closeout; receipt in the final report to Will.
+
+> # ⛔ 2026-10-29T10:08:18-04:00 — prior block. PROME-spawned one-line erratum (prome-90): MSFT 424B2 time.
 
 ▶ START HERE: unchanged from the 09:08 block below — L800 second leg (AMZN, Samsung, §4b cluster, EXIT rewrite) is OWED after tonight's prints; PROME re-spawns. This session only corrected the MSFT 424B2 time.
 
@@ -148,24 +163,3 @@ RECONCILE 5e83560d1945a49918250e8e1a48e6841501ed7851068a3101379f7694e9e146 EXIT 
 - TERRY holds two NOT-FIRED ideas (power tenant split, memory print binary); any card goes to Will. LIQUID got the DTCC CDS cross-section (tech/AI 11 of 12 wider) [KB-278]. CYPHER boundary confirmed.
 - Unverified, not carried: "Bernstein CRWV $51 / facilities $9B of $85B" (search summary only).
 - Runtime: Claude Code, Opus 5.5 (claude-opus-5-5), Will-launched (not spawned); sub-agents: three Opus research readers, finished. Other desks' dirty paths present at boot — no pull; push via safe-push at closeout.
-
-> # (prior block, demoted 2026-10-23) 2026-10-22T13:34:46-04:00 — L782 v2 PARTIAL + L0 drain (PROME spawn prome-25, WQ-487 A, Claude Code, Opus 5.5).
-
-▶ START HERE: L782 v2 is `reports/2026-10-22_L782_v2_weak-links.md` [KB-258..269]; DOCKET due 10/24. **Only LIQUID's cells remain** (CRWV 2030s CUSIP + current credit level, ORCL LIQ-069/CDS, DC CMBS spread, Meta CDS Markit 114.5 vs ICE ~119.3). Integrate on arrival; do not re-run the study.
-
-- Scores unchanged 15/25 (S5 4, n=2). Primaries read today: NextDC ASX release (power delay, A$8.7B liquidity, maturity 12/2029, FM considered; AGM 11/20 registered) and Meta Q3 10-Q (filed 10/22: $355.73B leases + $454.52B commitments, $121.41B due 2027) — the 10/23 META 10-Q row FIRED and was swept.
-- §4b: META leg stays RAISE and REWARDED on the after-hours letter; 10/22 regular −7.1% is a recorded disagreement for the 10/28 rewrite (L-65).
-- Inbox 10→0 (SIG-019 and DEWEY REQ-005 arrived 13:28–13:31 ET, read and integrated before commit); COR-20261022-01 APPLIED. TERRY sent a CRWV card delta (figures only, no expiry language — USER.md § No expiry nagging).
-- **ARMED for 10/23 POST-CLOSE (after 16:00 ET), PROME re-spawns at the print:** ① `.venv/bin/python AGENTS/VULCAN/tools/mag7.py` from root (slot 7 of 8; write DUPLICATE-VINTAGE if SSGA holdings unchanged; red needs ≥40% AND breadth ≤ −7.5pp) ② `tools/gpu_panel.py --reading-date 2026-10-23 --input <template filled AT the slot> --write` (reading 7; hand-read every URL at the slot, never carry prior levels; 4th gradeable on-demand/index value possible — still NO threshold without a stated base rate) ③ `semi_watch.py` S2 slot ④ P2 residuals: GOOGL cadence method + KB-096 issuance. GOOGL earnings window open since 10/21.
-- Runtime: Claude Code, Opus 5.5 (claude-opus-5-5); other desks' dirty paths present — no pull/stash; push via safe-push per spawn prompt.
-
-> # (prior block, demoted 2026-10-22) 2026-10-21T22:58:32-04:00 — L782 delivered (PROME spawn prome-56, Claude Code, Opus 5.5).
-
-▶ START HERE: Will commissioned L782 (10/21 22:46 ET). Ranked weak-link table is `reports/2026-10-21_L782_ai-infra-financing-weak-links.md` [KB-248..257]. Integrate LIQUID and BROCK answers into its PENDING cells when they arrive (packets 10/21 in their inboxes); do not re-run the study.
-
-- Scores unchanged: S1 3 / S2 2 / S3 3 / S4 3 / S5 4 = 15/25. WQ-464 RULED B 10/21: S5 stays 4, n=2. No new S5 event found; third-event candidates: NextDC withdrawing/deferring a raise or declaring force majeure, any CRWV new issue, ORCL chip-lease SPV pricing.
-- META Q3 read at SEC (sha256 039cac3b…c529ec): §4b cluster leg 1 = RAISE and REWARDED (AH +2.1%). Meta 10-Q ~10/23 re-homed in CATALYSTS (commitments footnote, Hyperion distribution $1.037B).
-- Open basis conflict: CRWV 2030s 91.3c (10/15) vs 83.10c (10/20) — held out until LIQUID matches CUSIP [L-63]. SoftBank "close" label correction sent to WALTER [L-62].
-- AFR pensions bookmark UNREACHABLE (afr.com blocked to this runtime + paywall). FRED fetch failed 10/21 22:5x ET; HY 332bp [10/20 secondary] carried.
-- Next clocks unchanged: 10/23 Mag7/S2/GPU slots + GOOGL method + KB-096 residuals; 10/27 ZHAO; 10/28–29 cluster.
-- Runtime: Claude Code, model Opus 5.5 (claude-opus-5-5), PROME-spawned; other desks' dirty paths present — no pull, no stash. Push via safe-push per spawn prompt (overrides charter step 6 "spawned ⇒ do not push").
