@@ -41,6 +41,7 @@ Checks:
   cluster_review_overdue  days since each large cluster's last coherence review (cadence prompt)
   registered_but_unrouted agent has a REGISTRY row but zero ROUTING_TABLE presence
   correction_target_declared  every `signal_type: correction` declares a resolvable `corrects:` (SIG-ID/SELF/EXTERNAL)
+  correction_kill_strings  corrections dispatched from 2026-10-29T16:00Z carry `kill_strings:` (FORMAT_SPEC v0.22); older misses counted
   batch_manifest_open    a declared Will-batch left OPEN with un-dispositioned items (the input-side blind spot)
   dispatch_frontmatter   recent BOARD action list and UTC dispatched header; body cannot satisfy
   action_line_rule       an agent on `info:` while the body carries ask-language naming it (§3.5.4, mechanized)

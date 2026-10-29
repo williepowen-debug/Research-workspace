@@ -1,0 +1,32 @@
+⚠️  uncommitted files outside AGENTS/WALTER/:
+     [not yours]    AGENTS/BOND/inbox/2026-10-29_from-CYPHER_treasury-nodes-integrated.md
+     [not yours]    AGENTS/CATO/runs/2026-10-26_2115_agent-launcher.md
+     [not yours]    AGENTS/CATO/runs/2026-10-29_launcher-opus-review/
+     [not yours]    AGENTS/CYPHER/board_log.tsv
+     [not yours]    AGENTS/CYPHER/docket/CATALYSTS.tsv
+     [not yours]    AGENTS/CYPHER/inbox/WALTER/processed/SIG-W-20261029-030.md
+     [not yours]    AGENTS/CYPHER/inbox/processed/2026-10-29_from-BOND_boundary-confirmed-one-amendment.md
+     [not yours]    AGENTS/CYPHER/inbox/processed/2026-10-29_from-HENRY_boundary-confirmed.md
+     [not yours]    AGENTS/CYPHER/inbox/processed/2026-10-29_from-SHADE_boundary-confirmed.md
+     [not yours]    AGENTS/CYPHER/research/2026-10-29_wave-recheck/
+     [not yours]    AGENTS/CYPHER/workbook/CHOKEPOINTS.tsv
+     [not yours]    AGENTS/CYPHER/workbook/ESCALATION_WATCH.tsv
+     [not yours]    AGENTS/CYPHER/workbook/INCIDENTS.tsv
+     [not yours]    AGENTS/CYPHER/workbook/KB.tsv
+     [not yours]    AGENTS/CYPHER/workbook/VX.tsv
+     [not yours]    AGENTS/FALCON/scripts/bypass_watch.py
+     [not yours]    AGENTS/FALCON/scripts/hormuz_transit_watch.py
+     [not yours]    AGENTS/FALCON/scripts/hormuz_transit_watch_state.json
+     [not yours]    AGENTS/HENRY/inbox/2026-10-29_from-CYPHER_palo-alto-active-exploitation.md
+     [not yours]    AGENTS/REGINALD/inbox/2026-10-29_from-CYPHER_wave-recheck-row8-cu-pause.md
+     [not yours]    AGENTS/VULCAN/inbox/2026-10-29_from-CYPHER_palo-alto-active-exploitation.md
+     [not yours]    KIMI_BOOT.md
+     [not yours]    scripts/AGENT_LAUNCHER.md
+     [not yours]    scripts/agents_gui.ps1
+     [not yours]    scripts/agents_gui.py
+     [not yours]    scripts/tests/fixtures/
+     [not yours]    scripts/tests/probe_agents_gui.py
+     [not yours]    scripts/tests/test_agents_launcher.py
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.

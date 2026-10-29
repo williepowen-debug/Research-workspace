@@ -1,13 +1,11 @@
 # WALTER STATUS
-**Updated:** 2026-10-29T15:35:05Z — midday session OPEN; LIGHT closeout written (full deferred). Resume/duties: LAST_COMPLETION.md.
+**Updated:** 2026-10-29T16:06:23Z — session CLOSED at Will request (reboot to follow); FULL closeout (WALTER only). Resume/duties: LAST_COMPLETION.md.
 
 ## BOTTOM LINE
 
-Midday boot (Will-launched 10:53 ET). Today's data had no BOARD card while WALTER was dark; owners were already graded through PROME's morning wave. Seven cards SIG-W-20261029-015–021: Q3 GDP +3.4% and September PCE 3.6% y/y (core 3.1%), claims 194,000; ECB held at 2.50% (HANS-T-04 not fired) and Lagarde will step down 2027-02-07; HY 314 [10/28] is 14 bp above RED/REGINALD's exit line (near-exit watch, not an exit); NCLH beat and raised; ARCC to buy MFIC at ~85% of NAV, close H1 2027; Carvana says the SEC closed its short-report probe (WAL action); three DEWEY returns recorded. Inbox 9/9 (BM-20261029-03). No new threshold fire in completed checks; Cboe SKEW blocked.
+Midday session 10/29 (Will launch 10:53 ET; close requested 12:05 ET), closed for a reboot. Cards SIG-W-20261029-015–034 (20): today's data-day hole filled (GDP +3.4%, September PCE 3.6% y/y and core 3.1%, claims 194,000, ECB held 2.50% with HANS-T-04 not fired, Lagarde to step down 2027-02-07, NCLH); HY 314 [10/28] near the RED/REGINALD exit (watch, not an exit); 64 X bookmarks read after token re-authorization (NAVCENT 10/28 Hormuz "remain well clear" advisory, TTF >€100 intraday 10/28 with settle unconfirmed for HANS, four named CRE cases to CREED, GOOGL −11.7% intraday after Q3); Cape Dao resolution carded (034) by the staleness sweep. No new threshold fire in completed checks.
 
-X bookmarks (token re-authorized at Will's request): 64 read, twelve cards 022–033 — NAVCENT told ships that need not transit Hormuz to stay well clear (10/28); TTF November traded above €100 intraday 10/28, settle unconfirmed (HANS grades T-07); four named CRE cases to CREED; Alphabet −11.7% intraday after Q3 (VULCAN: capex guide held); the Savannah River "nuclear incident" was a lab fire with no detectable contamination.
-
-Publication and delivery: LAST_COMPLETION.md receipt. Readiness UNKNOWN. Receipt: LAST_COMPLETION.md.
+Maintenance: CYBER is the 13th BOARD cluster (18 cards re-filed, Will sign-off 11:48 ET); kill_strings enforced at dispatch from 16:00Z; quoted correction types now inspected; entities check reports totals; repairs and housekeeping batch closed. Publication and delivery: LAST_COMPLETION.md receipt.
 
 ## DATED MARKET OBSERVATIONS
 
@@ -70,7 +68,7 @@ Signal/news routing and receiving-layer readiness. Domain agents own evidence, g
 
 ## NETWORK AWARENESS
 
-REGISTRY reviewed against owner STATUS lead headers at 2026-10-29T14:58:10Z: 30 rows advanced (Updated + Focus from the owner's own header; bands owner-set, unchanged). Most desks wrote on 10/28–10/29: PROME's prome-90 wave (09:00 ET) woke HENRY, LABOR, CRUISE, ZHAO, VULCAN and CARL; Will-launched catch-ups on 10/28 for REGINALD, WAL, OZK, FLG, CREED, RED, ORACLE, DAEDALUS; SAM, AEOLUS and BOND 10/29. Still behind: VIOLET (10/19 header), GIBBS (10/23), CYPHER (10/26), YURI (10/21). Observed: foreign dirty AGENTS/TERRY/PAPER_BOOK.tsv. Not a liveness census; full-fleet visibility UNKNOWN.
+REGISTRY reviewed against owner STATUS lead headers at 2026-10-29T14:58:10Z (30 rows advanced), TERRY at 15:50:38Z, and HAWK/OSPREY again at closeout (headers dated 10/29 midday). Bands owner-set, unchanged. Observed writing on 10/29: PROME (prome-90 wave woke HENRY, LABOR, CRUISE, ZHAO, VULCAN, CARL), TERRY, HAWK, OSPREY, CYPHER, CATO, DEWEY, SAM, AEOLUS, BOND. Still behind on their own headers: VIOLET (10/19), GIBBS (10/23), CYPHER (10/26), YURI (10/21). Not a liveness census; full-fleet visibility UNKNOWN. Consumption backlog >2d: 7 ACTION / 26 INFO across 5 desks (HANS 5 ACTION), owner/PROME side.
 
 ## Active LIAISON channels
 
