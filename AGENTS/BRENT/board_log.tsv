@@ -681,3 +681,19 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-26T13:41:44-04:00	2026-10-25_from-HAWK_K1-five-settle-input	noted	INBOX	Integrated in research/2026-10-26_energy-review/REPORT.md; K1 remains UNMEASURED; no inferred loss/current insurance ratio
 2026-10-26T13:41:44-04:00	2026-10-26_from-FALCON_saudi-pumping-airport-verification	acted	INBOX	Integrated in research/2026-10-26_energy-review/REPORT.md; K1 remains UNMEASURED; no inferred loss/current insurance ratio
 2026-10-26T17:45:18-04:00	2026-10-26_from-FALCON_evening-cape-dao-corridor-and-maritime	acted	INBOX	Committed owner report 261593822/53a12d75d integrated in THESIS and own corridor catalyst; old bulker loss, no tanker/cargo-loss inference; UKMTO relays qualified
+2026-10-28T23:50:24-04:00	SIG-W-20261027-013	noted	INBOX_WALTER	Conditional Iranian 4-5 day reopening timetable and Saudi-Houthi payment remain unconfirmed; no implemented reopening; FALCON owns theater read; recorded research/2026-10-28_catchup/REPORT.md
+2026-10-28T23:50:24-04:00	SIG-W-20261027-016	acted	INBOX_WALTER	Prospector 5 offshore Gabon retained as offshore-rig operational incident in REPORT.md; issuer 5 unaccounted vs Reuters 1 dead/4 missing kept separate; no production loss measured; not Hormuz; no INCIDENTS row
+2026-10-28T23:50:24-04:00	SIG-W-20261027-040	info-only	INBOX_WALTER	JetBlue Q3 fuel $3.91/gal +57% context; LIQUID/CARL/CORAL own
+2026-10-28T23:50:24-04:00	SIG-W-20261029-002	acted	INBOX_WALTER	Ras Tanura: Houthi claim only, no Saudi/Aramco statement in WALTER sweep; recorded REPORT.md; no INCIDENTS row (not primary-verified, LESSONS #1); FALCON adjudicates state
+2026-10-28T23:50:24-04:00	SIG-W-20261029-003	acted	INBOX_WALTER	PGSA legal action vs Sinokor fleet from Nov 1: VLCC availability/freight read in REPORT.md; 47% share is secondary; watch Nov 1
+2026-10-28T23:50:24-04:00	SIG-W-20261029-009	info-only	INBOX_WALTER	RCL names fuel as guide offset; CRUISE owns
+2026-10-28T23:50:24-04:00	SIG-W-20261029-010	acted	INBOX_WALTER	US Russian-diesel signal read against December diesel crack: source-3 C3 93.96 (10/27) / 93.06 (10/28), below 95 notice line; vlo-source3/calculations.json; no causal attribution (10/27 window preceded CNBC headline)
+2026-10-28T23:50:24-04:00	SIG-W-20261029-011	info-only	INBOX_WALTER	EU gas storage record low (secondary, GIE 10/12); HANS owns
+2026-10-28T23:50:24-04:00	SIG-W-20261029-012	info-only	INBOX_WALTER	DEWEY helium return; HAWK/VULCAN own; no oil consequence
+2026-10-28T23:50:24-04:00	SIG-W-20261029-013	info-only	INBOX_WALTER	DEWEY Taiwan LNG return; SAM/HAWK own
+2026-10-28T23:50:24-04:00	SIG-W-20261029-014	noted	INBOX_WALTER	DEWEY war-risk return already integrated 10/26 (energy-review REPORT); K1 remains UNMEASURED; no new matched October quote
+2026-10-28T23:50:24-04:00	2026-10-25_from-DEWEY_hawk-01-helium-semiconductor-deliveries	noted	INBOX	Deferred 10/26, consumed now: helium allocation at one fab, no oil-market consequence; HAWK owns
+2026-10-28T23:50:24-04:00	2026-10-25_from-DEWEY_hawk-02-taiwan-fuel-buffer-cargoes	noted	INBOX	Deferred 10/26, consumed now: no current Taiwan LNG inventory-days figure; SAM owns Japan/Asia LNG impact
+2026-10-28T23:50:24-04:00	2026-10-28_from-ORACLE_nov110-entry-and-alert-path	noted	INBOX	ORACLE Nov $110 WTI touch 52.5% thin book (lifetime vol $3.4K); crowd quote, not a barrel measurement; BRENT owns barrels; recorded REPORT.md
+2026-10-28T23:50:24-04:00	2026-10-28_from-PROME_WQ510-RULED-A-install-routine-preamble	acted	INBOX	WQ-510 A installed live in all four routines via RemoteTrigger 2026-10-29 03:45-03:46Z; receipt audits/2026-10-28_L526-preamble-install/REPORT.md
+2026-10-28T23:50:24-04:00	2026-10-28_from-PROME_scheduled-runs-relative-pointer	acted	INBOX	SCHEDULED_RUNS.md line 58 pointer now demand_destruction/data/monday_2026-08-03.md; resolves
