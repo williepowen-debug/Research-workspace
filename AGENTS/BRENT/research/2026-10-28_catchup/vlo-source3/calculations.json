@@ -1,0 +1,316 @@
+{
+ "rule": "WQ-420 source (3), native-tick normalized, ESTIMATE",
+ "contracts": {
+  "identity": {
+   "HOZ26.NYM": {
+    "symbol": "HOZ26.NYM",
+    "shortName": "Heating Oil Dec 26",
+    "longName": "Heating Oil Dec 26",
+    "exchange": "NYM",
+    "quoteType": "FUTURE",
+    "currency": "USD",
+    "expireDate": 1795996800,
+    "underlyingSymbol": "HO.NYM",
+    "exchangeTimezoneName": "America/New_York"
+   },
+   "CLZ26.NYM": {
+    "symbol": "CLZ26.NYM",
+    "shortName": "Crude Oil Dec 26",
+    "longName": "Crude Oil Dec 26",
+    "exchange": "NYM",
+    "quoteType": "FUTURE",
+    "currency": "USD",
+    "expireDate": 1795132800,
+    "underlyingSymbol": "CL.NYM",
+    "exchangeTimezoneName": "America/New_York"
+   },
+   "HOF27.NYM": {
+    "symbol": "HOF27.NYM",
+    "shortName": "Heating Oil Jan 27",
+    "longName": "Heating Oil Jan 27",
+    "exchange": "NYM",
+    "quoteType": "FUTURE",
+    "currency": "USD",
+    "expireDate": 1798675200,
+    "underlyingSymbol": "HO.NYM",
+    "exchangeTimezoneName": "America/New_York"
+   }
+  },
+  "expiry_utc": {
+   "HOZ26.NYM": "2026-11-30",
+   "CLZ26.NYM": "2026-11-20",
+   "HOF27.NYM": "2026-12-31"
+  }
+ },
+ "observations": [
+  {
+   "date": "2026-10-22",
+   "valid": true,
+   "defects": [],
+   "bar_convention_SPY": {
+    "count": 390,
+    "first": "09:30",
+    "last": "15:59"
+   },
+   "negative_control_HOF27_differs": true,
+   "c3": "99.61636043525084835307743888809867311479",
+   "below_95": false,
+   "below_9016": false,
+   "margin_vs_95": "4.61636043525084835307743888809867311479",
+   "margin_vs_9016": "9.45636043525084835307743888809867311479",
+   "within_015_of_9016": false,
+   "legs": {
+    "HOZ26.NYM": {
+     "rows": [
+      {
+       "label": "2026-10-22T14:28:00-04:00",
+       "transport": 4.740699768066406,
+       "native": "4.7407",
+       "volume": 1062
+      },
+      {
+       "label": "2026-10-22T14:29:00-04:00",
+       "transport": 4.740200042724609,
+       "native": "4.7402",
+       "volume": 678
+      }
+     ],
+     "vwap": "4.740505172413793103448275862068965517241"
+    },
+    "CLZ26.NYM": {
+     "rows": [
+      {
+       "label": "2026-10-22T14:28:00-04:00",
+       "transport": 99.52999877929688,
+       "native": "99.53",
+       "volume": 3697
+      },
+      {
+       "label": "2026-10-22T14:29:00-04:00",
+       "transport": 99.44999694824219,
+       "native": "99.45",
+       "volume": 4788
+      }
+     ],
+     "vwap": "99.48485680612846199175014731879787860931"
+    }
+   }
+  },
+  {
+   "date": "2026-10-23",
+   "valid": true,
+   "defects": [],
+   "bar_convention_SPY": {
+    "count": 390,
+    "first": "09:30",
+    "last": "15:59"
+   },
+   "negative_control_HOF27_differs": true,
+   "c3": "97.8134652438281218260363203011795295424",
+   "below_95": false,
+   "below_9016": false,
+   "margin_vs_95": "2.8134652438281218260363203011795295424",
+   "margin_vs_9016": "7.6534652438281218260363203011795295424",
+   "within_015_of_9016": false,
+   "legs": {
+    "HOZ26.NYM": {
+     "rows": [
+      {
+       "label": "2026-10-23T14:28:00-04:00",
+       "transport": 4.787199974060059,
+       "native": "4.7872",
+       "volume": 996
+      },
+      {
+       "label": "2026-10-23T14:29:00-04:00",
+       "transport": 4.786399841308594,
+       "native": "4.7864",
+       "volume": 922
+      }
+     ],
+     "vwap": "4.786815432742440041710114702815432742440"
+    },
+    "CLZ26.NYM": {
+     "rows": [
+      {
+       "label": "2026-10-23T14:28:00-04:00",
+       "transport": 103.29000091552734,
+       "native": "103.29",
+       "volume": 3666
+      },
+      {
+       "label": "2026-10-23T14:29:00-04:00",
+       "transport": 103.16999816894531,
+       "native": "103.17",
+       "volume": 3341
+      }
+     ],
+     "vwap": "103.2327829313543599257884972170686456401"
+    }
+   },
+   "positive_control_vs_CME_source1": {
+    "cme_c1": "97.7840",
+    "abs_diff": "0.0294652438281218260363203011795295424"
+   }
+  },
+  {
+   "date": "2026-10-26",
+   "valid": true,
+   "defects": [],
+   "bar_convention_SPY": {
+    "count": 390,
+    "first": "09:30",
+    "last": "15:59"
+   },
+   "negative_control_HOF27_differs": true,
+   "c3": "97.1222121535091414609486898643525149549",
+   "below_95": false,
+   "below_9016": false,
+   "margin_vs_95": "2.1222121535091414609486898643525149549",
+   "margin_vs_9016": "6.9622121535091414609486898643525149549",
+   "within_015_of_9016": false,
+   "legs": {
+    "HOZ26.NYM": {
+     "rows": [
+      {
+       "label": "2026-10-26T14:28:00-04:00",
+       "transport": 4.734300136566162,
+       "native": "4.7343",
+       "volume": 1550
+      },
+      {
+       "label": "2026-10-26T14:29:00-04:00",
+       "transport": 4.736100196838379,
+       "native": "4.7361",
+       "volume": 1438
+      }
+     ],
+     "vwap": "4.735166265060240963855421686746987951807"
+    },
+    "CLZ26.NYM": {
+     "rows": [
+      {
+       "label": "2026-10-26T14:28:00-04:00",
+       "transport": 101.75,
+       "native": "101.75",
+       "volume": 2991
+      },
+      {
+       "label": "2026-10-26T14:29:00-04:00",
+       "transport": 101.76000213623047,
+       "native": "101.76",
+       "volume": 2729
+      }
+     ],
+     "vwap": "101.7547709790209790209790209790209790210"
+    }
+   }
+  },
+  {
+   "date": "2026-10-27",
+   "valid": true,
+   "defects": [],
+   "bar_convention_SPY": {
+    "count": 390,
+    "first": "09:30",
+    "last": "15:59"
+   },
+   "negative_control_HOF27_differs": true,
+   "c3": "93.95885499589948467237120954989131125608",
+   "below_95": true,
+   "below_9016": false,
+   "margin_vs_95": "-1.04114500410051532762879045010868874392",
+   "margin_vs_9016": "3.79885499589948467237120954989131125608",
+   "within_015_of_9016": false,
+   "legs": {
+    "HOZ26.NYM": {
+     "rows": [
+      {
+       "label": "2026-10-27T14:28:00-04:00",
+       "transport": 4.613500118255615,
+       "native": "4.6135",
+       "volume": 1246
+      },
+      {
+       "label": "2026-10-27T14:29:00-04:00",
+       "transport": 4.616099834442139,
+       "native": "4.6161",
+       "volume": 1371
+      }
+     ],
+     "vwap": "4.614862094000764233855559801299197554452"
+    },
+    "CLZ26.NYM": {
+     "rows": [
+      {
+       "label": "2026-10-27T14:28:00-04:00",
+       "transport": 99.86000061035156,
+       "native": "99.86",
+       "volume": 2495
+      },
+      {
+       "label": "2026-10-27T14:29:00-04:00",
+       "transport": 99.87000274658203,
+       "native": "99.87",
+       "volume": 2874
+      }
+     ],
+     "vwap": "99.86535295213261314956230210467498603092"
+    }
+   }
+  },
+  {
+   "date": "2026-10-28",
+   "valid": true,
+   "defects": [],
+   "bar_convention_SPY": {
+    "count": 390,
+    "first": "09:30",
+    "last": "15:59"
+   },
+   "negative_control_HOF27_differs": true,
+   "c3": "93.0634350243991042217206297028913436896",
+   "below_95": true,
+   "below_9016": false,
+   "margin_vs_95": "-1.9365649756008957782793702971086563104",
+   "margin_vs_9016": "2.9034350243991042217206297028913436896",
+   "within_015_of_9016": false,
+   "legs": {
+    "HOZ26.NYM": {
+     "rows": [
+      {
+       "label": "2026-10-28T14:28:00-04:00",
+       "transport": 4.662600040435791,
+       "native": "4.6626",
+       "volume": 1169
+      },
+      {
+       "label": "2026-10-28T14:29:00-04:00",
+       "transport": 4.662099838256836,
+       "native": "4.6621",
+       "volume": 963
+      }
+     ],
+     "vwap": "4.662374155722326454033771106941838649156"
+    },
+    "CLZ26.NYM": {
+     "rows": [
+      {
+       "label": "2026-10-28T14:28:00-04:00",
+       "transport": 102.7699966430664,
+       "native": "102.77",
+       "volume": 3677
+      },
+      {
+       "label": "2026-10-28T14:29:00-04:00",
+       "transport": 102.73999786376953,
+       "native": "102.74",
+       "volume": 3099
+      }
+     ],
+     "vwap": "102.7562795159386068476977567886658795750"
+    }
+   }
+  }
+ ]
+}
