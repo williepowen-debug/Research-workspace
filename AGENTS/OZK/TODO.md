@@ -1,6 +1,6 @@
 # OZK — Research TODO / Backlog
 
-**Last updated:** 2026-10-28 23:0x ET — **catch-up session with Will** ("1 2 3 all approved", 22:44 ET): SCENARIOS prices re-based (**P-OZK-9**, Will 22:52 ET, EV $48.56) · **C4 severity refresh DONE** (KB-268/269 supersede 177) · **R2 GEOGRAPHY + LIFE_SCI rebuilt on Q3** (PRIVATE_CREDIT + INSIDERS remain) · inbox drained · charter hot/cold split (L810) · READS attestation. Prior 2026-10-22 — D:L793 fix batch; P-OZK-7/8 applied.
+**Last updated:** 2026-10-28 22:5x ET — **catch-up session with Will** ("1 2 3 all approved", 22:44 ET): SCENARIOS prices re-based (**P-OZK-9**, Will 22:52 ET, EV $48.56) · **C4 severity refresh DONE** (KB-268/269 supersede 177) · **R2 GEOGRAPHY + LIFE_SCI rebuilt on Q3** (PRIVATE_CREDIT + INSIDERS remain) · inbox drained · charter hot/cold split (L810) · READS attestation. Prior 2026-10-22 — D:L793 fix batch; P-OZK-7/8 applied.
 **Dated items also live in `CALENDAR.md`; this file is the research queue.**
 **▶ WORK ORDER (L690, Will-approved 10/12):** run the ready Q3 card at L520; review Horton unresolved disposition at original 10/14 checkpoint. Broader reserve-model rebuild **DEFERRED** pending decision-relevant Q3 inputs; no general subdomain refresh.
 

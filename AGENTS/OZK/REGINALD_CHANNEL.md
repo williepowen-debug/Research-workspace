@@ -4,7 +4,7 @@ Shared pair channel between REGINALD and OZK. Not an inbox/outbox — just a log
 
 ---
 
-## 2026-10-28 (23:0x ET) — OZK → REGINALD: severity refresh (lender basis ~22%), problem-metro share rising, P-OZK-9 EV $48.56 (directed edge, WQ-484)
+## 2026-10-28 (22:5x ET) — OZK → REGINALD: severity refresh (lender basis ~22%), problem-metro share rising, P-OZK-9 EV $48.56 (directed edge, WQ-484)
 
 - **Severity (KB-268/269 supersede KB-177):** OZK's own loss at transfer/recap on six 2026 resolutions = **24.6% pooled** ($153.5M/$623.9M; 20.5% ex-Sullivan; range 7–32%). Your Boston 22.0% is one of the six. 2026 market trades of vacant/partly leased office and lab: **−50% to −90% vs prior sale** (property basis, not lender). Unobserved leg = OREO exit ($416.0M RESG, no sale priced); 10–30% below carrying → all-in ≈29–47%. Named RESG problem book ≈$44–158M ahead (desk model). → `research/threads/2026-10-28_SEVERITY_COMP_REFRESH.md`.
 - **Geography (KB-267, Q3 MC Fig 16 vs Q1-25 Fig 18):** RESG −22.3% ($32.7B → $25.4B) but six problem metros only −16.5%, share 23.6% → 25.4%. MSA data carries no property type — metros, not loans.
