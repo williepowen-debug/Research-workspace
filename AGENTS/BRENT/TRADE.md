@@ -8,6 +8,8 @@
 
 **October 28 observations, dated October 22–28 (BRENT publishes; TERRY grades):** source (1) unavailable, CME IP-blocked this box (HTTP 403, terms of use). Source (2) vendor daily rows accepted within $0.15 of source (3): October 22 **99.4672**, October 26 **97.1142**, **October 27 94.0224 (below $95, NOTICE line)**. October 28: daily row is evening-session (rejected), so source (3) ESTIMATE **93.0634 (below $95)**. None below $90.16; none within ±$0.15 of it. Control: October 23 source (2) = CME FINAL 97.7840 exactly. [Calculations](research/2026-10-28_catchup/vlo-source3/source2_check.json); [TERRY packet](../TERRY/inbox/2026-10-28_from-BRENT_VLO-held-december-crack-below-95-notice-estimate.md). Notice text, if any, is TERRY's; no order or new authority.
 
+**October 29 intraday, NOT an observation (rule is settlement-only):** vendor one-minute HOZ26×42−CLZ26 low **88.6034 at 11:09 ET**, **91.1424 at 13:34 ET** (high 93.2782). The October 29 settlement-window reading (14:28–14:30 ET) is owed by BRENT to TERRY; within ±$0.15 of $90.16 on source (3) alone it is UNKNOWN, and under WQ-533 (b) BRENT may ask Will for the CME settle.
+
 **October26 source upgrade — observation dated October23:** CME FINAL bulletin205/section61/p1 gives HOZ26 $4.7870/gal and CLZ26 $103.27/bbl [CONF primary]. WQ-420 source(1), exact crack $97.7840/bbl: below neither $95 nor $90.16. [Immutable evidence and calculation](research/2026-10-26_energy-review/REPORT.md#3-existing-energy-triggers--official-prices-versus-vendor-indications). No vendor bars needed for this valid official pair. TERRY owns holding grades/B1–B3; original-share scope, outstanding exits and calibration caveat survive. No new order or position inference. Earlier vendor-only access limits below are dated history, superseded for this October23 source pair only.
 
 **Prior December source-(3) observations, dated October 15–21:** preserved with exact values, source limits, company context and $95-band question in [before-image](audits/2026-10-26_key-file-review/before/TRADE.md). The October 21 estimate was $95.0479/bbl, below neither threshold; TERRY owns any notice interpretation, HENRY’s F1 band is separate. These earlier dates are not updated by October 23 source(1). Valero’s scheduled October 22 earnings remain unreviewed here.
@@ -32,6 +34,18 @@ Thesis and calibration: [THESIS](thesis/THESIS.md). **WAIT; WQ-189/192 STAND DOW
 ### Dated expression comparison
 
 October14 research, not a current ticket: [verbatim archive](archive/TRADE_expression_2026-10-14.md), 2629 UTF-8 payload bytes, crc32 `797257ff`. Current stance, structural receipts, complete decision read paths and binding specs remain here.
+
+### TRADE IDEAS — NOT-FIRED (2026-10-29 13:4x ET, Will asked in-session)
+
+Ideas, not proposals: no size, strike, order or authority. TERRY constructs any card; Will decides each (root rule #5; USER.md 10/20 NOT-FIRED loosening). Sent to TERRY: [packet](../TERRY/inbox/2026-10-29_from-BRENT_trade-ideas-nov1-3-cluster.md). Tape: vendor intraday about 13:44 ET 10/29, not settlements [EST]: BZZ26 114.94 · BZF27 110.83 · BZH27 103.62 · BZZ27 88.16 (10/28 bar) · CLZ26 102.18 · NGZ26 2.94 · OVX 56.0.
+
+| # | Idea | Why | Kills it | Confidence |
+|---|---|---|---|---|
+| 1 | **Own the back of the oil curve, not the front** (E&P equity or deferred defined-risk; TERRY picks) | Dec26→Dec27 Brent backwardation about $26.8: the curve already prices Phase 2. Persistence (post-midterm US campaign per relayed WSJ; Sinokor 11/1) reprices deferred months; a deal hits the front hardest | Signed deal plus measured throughput recovery; Phase-2 demand evidence (BRT-31 OPEN, non-qualifying) | Moderate; best asymmetry |
+| 2 | **Crude tankers into Sinokor 11/1** (FRO / DHT / INSW spreads, short tenor) | PGSA action vs all Sinokor vessels (about half of Hormuz VLCC transits, Lloyd's List 10/26) removes tonnage | No enforcement or a deal; LESSONS #19 sign either way; tape already bid 10/29; OVX 56 = expensive options | Low-moderate; partly priced |
+| 3 | **US natural gas upside on a polar-vortex break** (NG Jan/Feb defined risk) | AEOLUS 10/29: all ECMWF members reverse 10 hPa winds by 11/09; US gas 2.94 vs TTF above €100 intraday 10/28 | Forecast only (+14.1 m/s observed 10/29); GEFS dissents; CPC DJF warm; no observed reversal by about 11/12 | Low; fire point = AEOLUS observed reversal |
+
+**Not suggested:** new refiner longs while the December diesel crack compresses; MPC Q3 11/3 (L689) is the reassessment point. STNG stays tracked, never owned. Caveats: relayed WSJ/Ras Tanura headlines; no Saudi-relief grader registered (WQ-533 a).
 
 ### FRAME-BREAKER STATE (letter: [BG-02](setups/SPECS_GATES.md#bg-02--frame-breaker-prospective-capacity-floor-and-constraints))
 
