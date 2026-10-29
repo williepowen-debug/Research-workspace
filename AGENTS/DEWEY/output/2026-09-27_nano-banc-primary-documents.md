@@ -341,7 +341,7 @@ Sources are court filings retrieved from **CourtListener RECAP** (`storage.court
 
 ### 4x. For WAL: O1–O3
 
-**O1: were Nano's four deeds of trust on WAL's collateral still Nano's at 9/25/2026?** (WAL `research/2026-09-27_nano-banc-receivership-stupin-recovery.md` §2, §6)
+**O1: were Nano's four deeds of trust on WAL's collateral still Nano's at 9/25/2026?** (WAL `AGENTS/WAL/research/2026-09-27_nano-banc-receivership-stupin-recovery.md` §2, §6)
 
 > ⚠️ **CORRECTED 2026-09-27 (same day, after delivery).** As first delivered, this section said Ontario and Chino were "STILL NANO", that WAL's state (a) was "contradicted", and that "State (b) holds … they pass to the receiver". **That extended dated observations into ownership at failure, which the evidence does not prove.** The rows below now state **only what each filing shows, on its date**. **O1 remains NOT PROVEN for all four DOTs.** Reviewer-flagged, with a CATO caution carried by PROME. The recipient correction is at `AGENTS/WAL/inbox/processed/2026-09-27b_from-DEWEY_CORRECTION-O1-lien-status-is-dated-observation-not-ownership-at-failure.md`.
 
@@ -535,8 +535,8 @@ Sources are court filings retrieved from **CourtListener RECAP** (`storage.court
 
 **Fleet files cited (not re-derived)**
 - PROME plan §1
-- REGINALD `reports/2026-09-27_nano-banc-failure-forensics.md` (Call Report anatomy, legal-expense split; uncommitted at read time)
-- WAL `research/2026-09-27_nano-banc-receivership-stupin-recovery.md`
+- REGINALD `AGENTS/REGINALD/reports/2026-09-27_nano-banc-failure-forensics.md` (Call Report anatomy, legal-expense split; uncommitted at read time)
+- WAL `AGENTS/WAL/research/2026-09-27_nano-banc-receivership-stupin-recovery.md`
 
 ## Process report
 

@@ -99,7 +99,7 @@ The outside reviewer's third ask was a random sample checked against the **full 
 ## 6. Addendum 2026-10-28 22:1x ET: WQ-515 batch-1 result consumed (Experiment B, DOCKET L846)
 **Source:** `PROME/reports/2026-10-28_wq515-batch1/REPORT.md` (commit 8bf6e7310; sha256 `dc72c6f4…e83d`), with `SOURCE_INVENTORY.md` (frozen 20:41:47 EDT before any destination read) and `provenance.tsv`. One independent Sonnet reader spawned by PROME, read 2026-10-28 20:40:59–20:44:37 EDT. PROME saved the reader's text verbatim.
 **Method version:** `output/2026-10-25_wq515-information-fidelity-method.md` as delivered at **9c97f5012**. The only later change, 5d202173e (10/25), is documentation: clock wording, moved reference paths and a receipt note. Formulas, eligibility, severity and grading are unchanged (DEWEY `git diff` 9c97f5012..HEAD, 10/28).
-**DEWEY's checks at the artifact (10/28):** all 23 distinct hashes in `provenance.tsv` appear in WALTER's `research/2026-10-26_WQ515/transfers.tsv` and vice versa. 18.5 / 20 = 92.5% and 20 / 42 = 47.6% recompute. DEWEY did not re-grade any field.
+**DEWEY's checks at the artifact (10/28):** all 23 distinct hashes in `provenance.tsv` appear in WALTER's `AGENTS/WALTER/research/2026-10-26_WQ515/transfers.tsv` and vice versa. 18.5 / 20 = 92.5% and 20 / 42 = 47.6% recompute. DEWEY did not re-grade any field.
 
 **Reader's original scores (primary metric; unchanged here):**
 

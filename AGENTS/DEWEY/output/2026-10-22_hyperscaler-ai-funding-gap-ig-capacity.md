@@ -5,6 +5,8 @@
 
 On company guidance, with operating cash flow (OCF) held flat at its trailing-twelve-month (TTM) level, all five companies run a 2026E funding gap after capex, finance-lease cash, dividends and buybacks. Amazon is the largest at **−$69.5B**. Microsoft is the smallest on a cash basis at **about −$5.8B**; its headline −$26.8B counts finance leases at signing. The five gaps add to **about −$186B, a mixed-basis sum**. 2027E stays negative for all five even if capex only holds at the 2026 guide.
 
+> **2026-10-29 erratum (method wording only; figures CONFIRMED).** VULCAN could not replay the MSFT and GOOGL 2026E cells from the inputs Table 1 shows (D:L800). DEWEY replayed all five from the 10/22 working script: every 2026E cell and the −$186.5B sum reproduce to the $M. The defect is the description. "OCF held flat at TTM" is wrong for 2026E. The 2026E OCF is filed year-to-date OCF plus the remaining quarters at TTM ÷ 4. Payouts and finance-lease principal are filed year-to-date plus the remaining quarters at the latest-quarter rate. MSFT's 2026E is **calendar 2026**, because the ~$175B guide is a calendar-2026 figure. The paragraph above is the 10/22 text, kept as written. Full replay: **§ 2026-10-29 replay** under Table 1.
+
 The gap is being filled mainly with new-money bonds: **about $237.5B of SEC-registered USD bonds since Sep 2025** from four issuers (Microsoft none found), plus non-USD bonds, equity (Alphabet, Oracle), Oracle's customer prepayments, and **about $1.20T of signed-but-not-commenced leases**, part of them inside joint-venture and backstop structures. Scheduled maturities through 2027 are only about $34B.
 
 The investment-grade (IG) market is absorbing the supply **at a rising price, not at a breaking point**. New-issue spreads widened deal on deal while the IG index stayed roughly flat, and the constraint that binds is long-duration buyers. October's widening is broad across the market and was led by lower ratings, not by the AA bucket where most hyperscaler bonds sit.
@@ -47,6 +49,38 @@ Sources: XBRL companyfacts and the filed cash-flow statements [PRIMARY]: MSFT FY
 - **(iii) OCF is held flat at TTM.** No consensus OCF was used (Quartr unentitled; search cap). OCF growth at MSFT, GOOGL or META would shrink their gaps. The H1-2026 trend is mixed: GOOGL Q2 OCF was $39.1B vs $45.8B in Q1.
 - **(iv) 2027E is a floor.** It holds capex at the 2026 guide midpoint. No company has given a 2027 dollar figure, and all five signal an increase. MSFT: FY27 "will grow year-over-year". META: "continue investing aggressively". ORCL: "upward trend to continue". GOOGL: "another meaningful step-up", wording UNVERIFIED, from a search summary only. AMZN: nothing found. A single-source MSFT FY27 figure of $255–260B is **[UNVERIFIED]** and not used.
 - **(v) ORCL's OCF is inflated by customer prepayments** "with a significant financing component": $11.4B in Q1 FY27, 49% of the quarter's OCF; $16.0B TTM. Excluding them, the TTM gap is **≈ −$50.6B**. The ~$40B FY27 gap matches management's plan to "raise nearly $40 billion through a combination of debt and equity" (2026-06-11) [NEWS: Outlook Business], of which $19.9B was done through the ATM in Q1 [PRIMARY: ORCL Q1 FY27 10-Q].
+
+#### 2026-10-29 replay (D:L800, REQ-DEWEY-20261022-005): the cells stand; the stated inputs were the wrong ones
+
+**Trigger:** VULCAN's packet of 2026-10-29 (`inbox/processed/2026-10-29_from-VULCAN_L800-base-arithmetic-does-not-replay.md`). VULCAN applied the method above to the TTM columns. That gives MSFT −19.8 cash and −44.4 headline, and GOOGL −42.0 before finance-lease principal. The table says −5.8, −26.8 and −34.4. VULCAN's arithmetic on the inputs as displayed is correct. The 2026E cells were not built from those inputs.
+
+**What the 2026E cells actually use** ($B). The 10/22 working script is recovered verbatim from the 10/22 session transcript; the 10/22 scratchpad died with that session. It is now saved as `AGENTS/DEWEY/research/2026-10-29_L800-replay/replay.py`.
+
+| Cell (10/22 figure, unchanged) | OCF used | Capex used | FL principal | Dividends + buybacks | VULCAN replay on TTM inputs | Difference, DEWEY − VULCAN |
+|---|---|---|---|---|---|---|
+| MSFT headline **−26.8** | **193.6**, calendar 2026 = 102.1 filed for Jan–Jun 2026 (Q3 FY26 46.68 + Q4 FY26 55.44) + 2 × 45.73 (TTM 182.94 ÷ 4) | 175.0. The CY2026 guide counts finance leases at signing (Hood, call 2026-07-29) | **0**. The guide already counts finance leases at signing, so principal is not subtracted again | **45.4** = 22.72 filed (div 13.51 + buybacks 9.21) + 2 × 11.34 (Q4 FY26 rate: div 6.76 + buybacks 4.58) | −44.4 | +17.6 = +10.7 OCF basis + 3.6 FL principal not double-counted + 3.3 payouts |
+| MSFT cash basis **−5.8** | 193.6 | **150.4** = 175.0 − 24.6 (FY26 finance-lease ROU additions held) | **3.6** = 1.76 filed (0.839 + 0.922) + 2 × 0.922 | 45.4 | −19.8 | +14.0 = +10.7 OCF basis + 3.3 payouts |
+| GOOGL **−34.4** | **177.7** = 84.86 filed H1-26 (45.79 + 39.07) + 2 × 46.42 (TTM 185.68 ÷ 4) | 200.0, the midpoint of the $195–205B guide (P&E basis) | **1.5** = 0.84 filed + 2 × 0.318 | **10.6** = 5.23 filed dividends + 2 × 2.69 (Q2 rate). Buybacks were zero in Q1–Q2 2026 | −42.0 (before FL principal) | +7.6 = −8.0 OCF basis − 1.5 FL principal + 17.1 payouts. VULCAN's TTM 27.7 includes $17.4B of H2-2025 buybacks, which stopped after Q4-25 |
+
+The same structure applies to the other three cells, which VULCAN did not dispute; all replay. AMZN −69.5 = 152.1 − 220.0 − 1.65 − 0. META −15.3 = 130.1 − 140.0 − 0 − 5.42 (Q4 at TTM ÷ 4; its guide includes FL principal). ORCL FY27 −40.5 = 58.3 − 92.5 − 0 − 6.26 (three remaining quarters at TTM ÷ 4). **Sum −186,456 $M, CONFIRMED** (−165,453 with MSFT on the cash basis). Replay output: `python3 -I AGENTS/DEWEY/research/2026-10-29_L800-replay/replay.py`.
+
+**Corrections to this report's wording (the 10/22 text above stays as written):**
+1. Key Finding and note (iii): "OCF held flat at TTM" applies to the **2027E floors only**. For 2026E, OCF = filed year-to-date + remaining quarters at TTM ÷ 4.
+2. Payouts and FL principal for 2026E = filed year-to-date + remaining quarters at the **latest-quarter** rate, not TTM. Table 1 never stated this.
+3. MSFT 2026E = **calendar 2026** (Jan–Dec 2026), not FY27. The TTM columns are FY26 (Jul-25 to Jun-26), so the row mixed two periods without saying so.
+4. The Table 1 header formula subtracts FL principal. That does **not** apply to MSFT's headline cell, because its guide counts finance leases at signing. It does apply to MSFT's cash-basis cell and to GOOGL and AMZN.
+
+**Downstream: no figure moves.** The five-company sum (−186.5), the MSFT cash-basis sum (−165.4) and the 2027E floors are unchanged. The Oracle weak-link framing (L782 extension; ORCL FY27 −40.5 and −50.6 TTM ex-prepayments) is unchanged; the ORCL cell was not disputed and replays. What changes is how the figures may be described: quote "2026 filed year-to-date plus the remaining quarters at run-rate", never "OCF flat at TTM".
+
+**Input verification, 2026-10-29 [PRIMARY]:**
+- **MSFT:** every input ties to the dollar against the saved SEC companyconcept responses in `AGENTS/DEWEY/research/edgar_xbrl/2026-10-28_0000789019_*`. The FY26 values come from the FY26 10-K (acc 0001193125-26-323660); the quarters are decumulated from its 6M/9M/FY facts.
+- **GOOGL:** OCF, P&E, FL principal and buybacks tie against new saved packets `AGENTS/DEWEY/research/edgar_xbrl/2026-10-29_0001652044_*` (Q2-26 10-Q acc 0001652044-26-000071, as of 2026-10-22). The H1-26 dividend figure is not in companyconcept under `PaymentsOfDividends`. It ties instead at the 10-Q face: "Dividend payments (4,977) (5,231)", Q2 allocation $2,689M (`goog-20260630.htm`).
+
+**Not changed, now flagged:**
+- **GOOGL preferred dividends.** GOOGL's mandatory convertible preferred pays 6.25% a year on $1,000 liquidation preference per share, quarterly from 2026-08-15. The company may pay in cash, shares or both [PRIMARY: same 10-Q]. The H2-2026 payout run-rate above leaves it out. If paid in cash, it widens GOOGL's 2026E gap; that amount is not computed here.
+- **Stale vintage.** All 2026E cells sit on the pre-Q3 vintage. MSFT Q1 FY27 and GOOGL Q3 have since been filed. VULCAN's re-cut (`AGENTS/VULCAN/reports/2026-10-29_L800_funding-gap-Q3-prints.md`) is the current figure owner. DEWEY does not re-cut here.
+
+**Process cause:** the shipped table showed the TTM inputs next to projected cells built from different inputs, and the script that held the real inputs lived only in a session scratchpad (DEWEY CLAUDE.md step 8d). A replay could therefore only fail.
 
 **Table 1a: positive TTM gaps at GOOGL and META exist only because buybacks stopped**
 
