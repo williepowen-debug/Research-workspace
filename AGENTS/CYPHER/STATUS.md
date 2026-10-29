@@ -1,6 +1,10 @@
 # CYPHER STATUS
 
-**Last Updated: 2026-10-29 12:09 ET** — the DOCKET L812 seven-day wave re-check is complete. All nine rows were re-dated: **1 FIRED (row 2), 8 NOT-FIRED**. No score changes: **22/40 raw, 16/40 adjusted**. Evidence: `research/2026-10-29_wave-recheck/RECORD.md`. The prior STATUS (10/26) was rotated verbatim to `archive/STATUS_ARCHIVE_2026-10-29.md` (cksum 3362934535).
+**Last Updated: 2026-10-29 13:54 EDT** — a full working day on 10/29:
+- **Wave re-check (DOCKET L812) done.** 1 FIRED (row 2), 8 NOT-FIRED, no score change (22/40 raw, 16/40 adjusted); DEWEY's rerun agrees.
+- **Boot check fixed** (legs 5/7/8/9; drills 33/33).
+- **Two news sweeps.** They added the bank-vendor thread (Jack Henry, N-central/NYDFS, Sharetec, Sefas, Citizens; `banking/`), a weekly bank-vendor cluster watch (Will 13:29 ET), the policy record (EO 14409, Bowman 9/29) and the US commissary freezer row (054).
+- **Evidence:** `research/2026-10-29_wave-recheck/` and `research/2026-10-29_news-sweep/`. Prior STATUS rotated verbatim to `archive/STATUS_ARCHIVE_2026-10-29.md` (cksum 3362934535).
 
 > ~~FIRST-LIVE-SESSION BANNER~~ — **SPENT 2026-10-22.** Normal boot.
 
@@ -20,8 +24,8 @@
 | Escalation rows, WAVE-2026-10 | **1 FIRED (row 2, KEV 10/26) · 8 NOT-FIRED**, all re-checked 2026-10-29 (row 2 terminal) | `workbook/ESCALATION_WATCH.tsv` |
 | Convergence composite | **22/40 raw · 16/40 shared-root-adjusted** (VX-02/03/06 PHP2Shell cluster counted once at max 4). VX-02 held at 3, VX-06 held at 4 ORANGE (RED needs mass compromise or a late-surfacing victim list) | `workbook/VX.tsv` |
 | Transmission map | 20 mechanisms: 7 CONFIRMED, 7 NOT-OBSERVED, 2 MODELED, 4 UNTESTED (unchanged since 10/26) | `workbook/FLOW.tsv` |
-| Incident ledger | 53 rows (051-053 N-central, NY bank closure, Citizens CA AG notice); earlier: 50 rows (046 credit-union precautionary pause; 047 Dream firewall chain; 048-050 from the 10/29 news sweep: Jack Henry 8/31, Central Bank of India, Sharetec). 027 Node2Shell → CONFIRMED (CISA KEV 10/27) | `workbook/INCIDENTS.tsv` |
-| Chokepoint map | 39 rows (CHK-38 N-able N-central, CHK-39 SitusAMC); earlier 37 rows (CHK-34/35 Treasury nodes for BOND; CHK-36 Sharetec, CHK-37 print/mail vendor class from the 10/29 sweep). CHK-03 Jack Henry now CONFIRMED-OFF-WAVE (8/31 incident, missed at build). **CHK-32 perimeter appliances: POSSIBLE → CONFIRMED wave touch** (Palo Alto's exploitation statement; no bank named) | `workbook/CHOKEPOINTS.tsv` |
+| Incident ledger | 54 rows. Today: 046 credit-union PHP pause; 047 Dream firewall chain; 048 Jack Henry; 049 Central Bank of India; 050 Sharetec; 051 N-central; 052 NY bank closure; 053 Citizens CA AG notice; 054 US commissary freezers. 027 Node2Shell -> CONFIRMED (KEV 10/27) | `workbook/INCIDENTS.tsv` |
+| Chokepoint map | 39 rows: CHK-34/35 Treasury nodes (BOND); CHK-36 Sharetec, CHK-37 print/mail vendors (Sefas), CHK-38 N-able N-central, CHK-39 SitusAMC. CHK-03 Jack Henry CONFIRMED-OFF-WAVE; CHK-32 perimeter appliances CONFIRMED wave touch | `workbook/CHOKEPOINTS.tsv` |
 | Predictions | CYP-01 30% · CYP-02 15% · CYP-03 15% · CYP-04 35%; all OPEN, none due (registered on Will's word 10/22–10/23) | `workbook/PREDICTIONS.tsv` |
 | R1 two-way flip | Toward MOVEit: row 1 or 3 FIRES on or before 2026-11-20 (a named organisation). Toward Log4Shell: rows 1, 3 and 4 all NOT-FIRED at 11/20, with re-checks dated 11/13–11/20 | `workbook/EXIT_PROTOCOL.md` |
 
@@ -109,4 +113,4 @@
 
 ## BOTTOM LINE
 
-The October PHP2Shell wave is open. One escalation row has fired: CISA's 10/26 listing confirming the flaw is being exploited. This week the evidence moved further: Palo Alto confirms attacks on its firewall management interface, and one security firm reports a successful break-in at an unnamed US government-affiliated network. No bank, credit union or banking vendor is a named victim, and the one US credit union that went offline did so as a 24-hour precaution with payments untouched. The most important unconfirmed lead is whether a named victim surfaces behind the firewall compromises (the MOVEit pattern), checked next on 11/04, with Finzly the strongest financial-supplier claim. The next wakes are DEWEY's rerun on 10/30, the 11/04 two-week check and the 11/20 flip test.
+The October PHP2Shell wave is open with one trigger fired (CISA confirming exploitation, 10/26). The evidence moved this week: Palo Alto confirms attacks on its firewall management interface, and one security firm reports an unnamed break-in. But no bank, credit union or banking vendor is a named victim, and DEWEY's rerun agrees the wave is still loud-but-small on outcomes. Separately, bank suppliers have a steady drip of incidents (about one a month in 2026, including Jack Henry in August and an IT-provider tool that NYDFS says hit regulated firms). That costs data and legal bills, not solvency; it is now its own thread in `banking/` with a weekly cluster watch. The most important unconfirmed lead is whether a named victim surfaces behind the firewall break-ins, checked 11/04. The next wakes are Palo Alto and GMO on 10/30, the 11/04 two-week check, the first weekly bank-vendor watch on 11/05, and the 11/20 flip test.

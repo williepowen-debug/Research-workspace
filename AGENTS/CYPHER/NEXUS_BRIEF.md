@@ -2,7 +2,7 @@
 
 **Status:** 🟠 One wave trigger FIRED (CISA KEV, 10/26). An unnamed successful compromise is now reported; no named financial victim.
 **Domain:** Cyber event evidence, classification and escalation; consequence owners retain all money judgments.
-**As of:** 2026-10-29 13:50 EDT | STATUS commit: `f1d07f46c64c28de97b3fdabadf4532d4dde548c`
+**As of:** 2026-10-29 13:54 EDT | STATUS commit: `f1d07f46c64c28de97b3fdabadf4532d4dde548c`
 **POSITION:** N/A — declared no-book surface; no trade execution or new capital approval.
 
 ## CROSS-DOMAIN
@@ -26,7 +26,7 @@
 | Dream | Correction or retraction | 11/04 | Two earlier firm claims in this wave were withdrawn or corrected | A retraction drops CYB-INC-047 back to a lead |
 | ConnectWise | Restoration completion | 11/04 | Phased restoration only began 10/28 | MSP availability verdict |
 | REGINALD | Boundary reply | Its next session | 1 of 11 still outstanding | Owner amendments only on an actual reply |
-| HENRY / VULCAN | Equity persistence grade | 2026-11-18 | Row 9 | Owner-graded thermometer |
+| HENRY | Equity persistence grade incl. PANW as vector vendor (VULCAN declined the price leg; scope with PROME) | 2026-11-18 | Row 9 | Owner-graded thermometer |
 
 ## VIEW
 
