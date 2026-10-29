@@ -11,6 +11,14 @@
 > ⚠️ **This file has no length cap and needs none — it is cold. But it must never acquire an instruction.** If you find yourself writing "always do X" here, X belongs in `CLAUDE.md` or `TRADE.md`.
 
 
+## R-2026-10-28-WQ-510 — L526 routine boot preamble installed (Will 20:46 ET 10/28, "510 A approve")
+
+Received by PROME packet `inbox/processed/2026-10-28_from-PROME_WQ510-RULED-A-install-routine-preamble.md` (Will's word relayed at the artifact; WILL_QUEUE row 510). **The binding letter lives in the four live prompts and their saved images** ([install report](audits/2026-10-28_L526-preamble-install/REPORT.md), registry [SCHEDULED_RUNS](SCHEDULED_RUNS.md)); this entry records why.
+- **Why:** DAEDALUS's L526 spec found routines could boot on a shallow or detached clone, with no pinned interpreter, and silently write against a diverged master. The preamble makes those cases fail loud, and puts a one-line receipt first in each output so a reader can see which boot path ran.
+- **Two departures from the spec, both approved with option A:** the receipt goes on line 1 of BOTH the output file and the run report; on a non-fast-forward stop the run report is the only output.
+- **Installed through RemoteTrigger,** the first BRENT session that had that tool. The PROME packet put the October 4 live-prompt reconciliation within that scope, so the October 4 saved correction went live in the same update. The pre-install read showed it had never reached the scheduler: October 4–28 runs executed the October 2 text.
+- **Not covered by this word:** crons (the November 1 DST re-set is a separate registered duty), connector removal (the API ignores it; a Will UI action), anything else in the routines.
+
 ## R-2026-10-09-B68 — boundary #6/#8 month basis (Will ~10:27–10:29 ET 10/9, in WALTER's session)
 
 Received by SendMessage from walter-50 and [SIG-W-20261009-008](inbox/WALTER/processed/SIG-W-20261009-008.md); WALTER's letter of record is `AGENTS/WALTER/ROUTING_OVERLAYS.md` v0.41. **The binding letter lives there; this entry records why.**
