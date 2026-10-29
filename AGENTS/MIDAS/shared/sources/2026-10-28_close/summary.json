@@ -1,0 +1,471 @@
+{
+  "as_of_requested": "2026-10-28",
+  "prices": {
+    "PPLT": {
+      "date": "2026-10-28",
+      "close": 13.989999771118164,
+      "previous_date": "2026-10-27",
+      "previous_close": 13.9399995803833,
+      "day_pct": 0.3586814364415325,
+      "basis": "MIRROR Yahoo raw completed unadjusted daily Close",
+      "timezone": "America/New_York",
+      "currency": "USD",
+      "n": 457,
+      "excluded_null_close_dates": [],
+      "last_volume": 1728400,
+      "previous_volume": 1560500,
+      "excluded_live_appended_rows": []
+    },
+    "PALL": {
+      "date": "2026-10-28",
+      "close": 18.530000686645508,
+      "previous_date": "2026-10-27",
+      "previous_close": 18.739999771118164,
+      "day_pct": -1.1205927803494609,
+      "basis": "MIRROR Yahoo raw completed unadjusted daily Close",
+      "timezone": "America/New_York",
+      "currency": "USD",
+      "n": 457,
+      "excluded_null_close_dates": [],
+      "last_volume": 1488400,
+      "previous_volume": 1018300,
+      "excluded_live_appended_rows": []
+    },
+    "SIZ26.CMX": {
+      "date": "2026-10-28",
+      "close": 53.66600036621094,
+      "previous_date": "2026-10-27",
+      "previous_close": 54.51300048828125,
+      "day_pct": -1.553758029247343,
+      "basis": "MIRROR Yahoo raw daily unadjusted Close; newest futures row diagnostic only",
+      "timezone": "America/New_York",
+      "currency": "USD",
+      "n": 458,
+      "excluded_null_close_dates": [
+        "2025-05-26",
+        "2025-06-19",
+        "2025-07-04"
+      ],
+      "last_volume": 39968,
+      "previous_volume": 39968,
+      "excluded_live_appended_rows": [
+        {
+          "date": "2026-10-28",
+          "close": 53.26499938964844,
+          "volume": 10604,
+          "timestamp": "2026-10-28T23:41:00-04:00"
+        }
+      ]
+    },
+    "SLV": {
+      "date": "2026-10-28",
+      "close": 49.060001373291016,
+      "previous_date": "2026-10-27",
+      "previous_close": 49.15999984741211,
+      "day_pct": -0.20341430925849835,
+      "basis": "MIRROR Yahoo raw completed unadjusted daily Close",
+      "timezone": "America/New_York",
+      "currency": "USD",
+      "n": 457,
+      "excluded_null_close_dates": [],
+      "last_volume": 18875600,
+      "previous_volume": 11044600,
+      "excluded_live_appended_rows": []
+    },
+    "GCZ26.CMX": {
+      "date": "2026-10-28",
+      "close": 4051.60009765625,
+      "previous_date": "2026-10-27",
+      "previous_close": 4074.60009765625,
+      "day_pct": -0.5644725727373845,
+      "basis": "MIRROR Yahoo raw daily unadjusted Close; newest futures row diagnostic only",
+      "timezone": "America/New_York",
+      "currency": "USD",
+      "n": 459,
+      "excluded_null_close_dates": [
+        "2025-05-26",
+        "2025-06-19"
+      ],
+      "last_volume": 139103,
+      "previous_volume": 139103,
+      "excluded_live_appended_rows": [
+        {
+          "date": "2026-10-28",
+          "close": 4053.89990234375,
+          "volume": 26134,
+          "timestamp": "2026-10-28T23:41:09-04:00"
+        }
+      ]
+    },
+    "DX-Y.NYB": {
+      "date": "2026-10-28",
+      "close": 102.19000244140625,
+      "previous_date": "2026-10-27",
+      "previous_close": 102.31999969482422,
+      "day_pct": -0.12704970074832733,
+      "basis": "MIRROR Yahoo raw completed unadjusted daily Close",
+      "timezone": "America/New_York",
+      "currency": "USD",
+      "n": 459,
+      "excluded_null_close_dates": [
+        "2025-01-05",
+        "2025-01-12",
+        "2025-01-19",
+        "2025-01-26",
+        "2025-02-02",
+        "2025-02-09",
+        "2025-02-16",
+        "2025-02-23",
+        "2025-03-02",
+        "2025-03-09",
+        "2025-03-16",
+        "2025-03-23",
+        "2025-03-30",
+        "2025-04-06",
+        "2025-04-13",
+        "2025-04-20",
+        "2025-04-27",
+        "2025-05-04",
+        "2025-05-11",
+        "2025-05-18",
+        "2025-05-25",
+        "2025-06-01",
+        "2025-06-08",
+        "2025-06-15",
+        "2025-06-19",
+        "2025-06-22",
+        "2025-06-29",
+        "2025-07-04",
+        "2025-07-06",
+        "2025-07-13",
+        "2025-07-20",
+        "2025-07-27",
+        "2025-08-03",
+        "2025-08-10",
+        "2025-08-17",
+        "2025-08-24",
+        "2025-08-31",
+        "2025-09-07",
+        "2025-09-14",
+        "2025-09-21",
+        "2025-09-28",
+        "2025-10-05",
+        "2025-10-12",
+        "2025-10-19",
+        "2025-10-26",
+        "2025-11-02",
+        "2025-11-09",
+        "2025-11-16",
+        "2025-11-23",
+        "2025-11-30",
+        "2025-12-07",
+        "2025-12-14",
+        "2025-12-21",
+        "2025-12-28",
+        "2026-01-04",
+        "2026-01-11",
+        "2026-01-18",
+        "2026-01-25",
+        "2026-02-01",
+        "2026-02-08",
+        "2026-02-15",
+        "2026-02-22",
+        "2026-03-01",
+        "2026-03-08",
+        "2026-03-15",
+        "2026-03-22",
+        "2026-03-29",
+        "2026-04-05",
+        "2026-04-12",
+        "2026-04-19",
+        "2026-04-26",
+        "2026-05-03",
+        "2026-05-10",
+        "2026-05-17",
+        "2026-05-24",
+        "2026-05-31",
+        "2026-06-07",
+        "2026-06-14",
+        "2026-06-21",
+        "2026-06-28",
+        "2026-07-05",
+        "2026-07-12",
+        "2026-07-19",
+        "2026-07-26",
+        "2026-08-02",
+        "2026-08-09",
+        "2026-08-16",
+        "2026-08-23",
+        "2026-08-30",
+        "2026-09-06",
+        "2026-09-13",
+        "2026-09-20",
+        "2026-09-27",
+        "2026-10-04",
+        "2026-10-11",
+        "2026-10-18",
+        "2026-10-25"
+      ],
+      "last_volume": 0,
+      "previous_volume": 0,
+      "excluded_live_appended_rows": [
+        {
+          "date": "2026-10-28",
+          "close": 102.16200256347656,
+          "volume": 0,
+          "timestamp": "2026-10-28T23:41:18-04:00"
+        }
+      ]
+    },
+    "CPER": {
+      "date": "2026-10-28",
+      "close": 40.33000183105469,
+      "previous_date": "2026-10-27",
+      "previous_close": 40.04999923706055,
+      "day_pct": 0.6991325825919992,
+      "basis": "MIRROR Yahoo raw completed unadjusted daily Close",
+      "timezone": "America/New_York",
+      "currency": "USD",
+      "n": 457,
+      "excluded_null_close_dates": [],
+      "last_volume": 318400,
+      "previous_volume": 416900,
+      "excluded_live_appended_rows": []
+    },
+    "PAZ26.NYM": {
+      "date": "2026-10-28",
+      "close": 1013.7999877929688,
+      "previous_date": "2026-10-27",
+      "previous_close": 1028.5,
+      "day_pct": -1.4292671081216568,
+      "basis": "MIRROR Yahoo raw daily unadjusted Close; newest futures row diagnostic only",
+      "timezone": "America/New_York",
+      "currency": "USD",
+      "n": 458,
+      "excluded_null_close_dates": [
+        "2025-05-26",
+        "2025-06-19",
+        "2025-07-04"
+      ],
+      "last_volume": 7374,
+      "previous_volume": 7374,
+      "excluded_live_appended_rows": [
+        {
+          "date": "2026-10-28",
+          "close": 1002.0,
+          "volume": 1259,
+          "timestamp": "2026-10-28T23:37:00-04:00"
+        }
+      ]
+    },
+    "GLD": {
+      "date": "2026-10-28",
+      "close": 373.510009765625,
+      "previous_date": "2026-10-27",
+      "previous_close": 372.2799987792969,
+      "day_pct": 0.330399427947059,
+      "basis": "MIRROR Yahoo raw completed unadjusted daily Close",
+      "timezone": "America/New_York",
+      "currency": "USD",
+      "n": 457,
+      "excluded_null_close_dates": [],
+      "last_volume": 8922700,
+      "previous_volume": 5335900,
+      "excluded_live_appended_rows": []
+    },
+    "^GSPC": {
+      "date": "2026-10-28",
+      "close": 7743.97998046875,
+      "previous_date": "2026-10-27",
+      "previous_close": 7722.60009765625,
+      "day_pct": 0.27684824466034375,
+      "basis": "MIRROR Yahoo raw completed unadjusted daily Close",
+      "timezone": "America/New_York",
+      "currency": "USD",
+      "n": 457,
+      "excluded_null_close_dates": [],
+      "last_volume": 3085116000,
+      "previous_volume": 5160120000,
+      "excluded_live_appended_rows": []
+    },
+    "HGZ26.CMX": {
+      "date": "2026-10-28",
+      "close": 6.671500205993652,
+      "previous_date": "2026-10-27",
+      "previous_close": 6.652500152587891,
+      "day_pct": 0.2856077109351318,
+      "basis": "MIRROR Yahoo raw daily unadjusted Close; newest futures row diagnostic only",
+      "timezone": "America/New_York",
+      "currency": "USD",
+      "n": 458,
+      "excluded_null_close_dates": [
+        "2025-05-26",
+        "2025-06-19",
+        "2025-07-04"
+      ],
+      "last_volume": 44245,
+      "previous_volume": 44245,
+      "excluded_live_appended_rows": [
+        {
+          "date": "2026-10-28",
+          "close": 6.647500038146973,
+          "volume": 3007,
+          "timestamp": "2026-10-28T23:40:42-04:00"
+        }
+      ]
+    },
+    "PLF27.NYM": {
+      "date": "2026-10-28",
+      "close": 1539.800048828125,
+      "previous_date": "2026-10-27",
+      "previous_close": 1537.199951171875,
+      "day_pct": 0.1691450519672344,
+      "basis": "MIRROR Yahoo raw daily unadjusted Close; newest futures row diagnostic only",
+      "timezone": "America/New_York",
+      "currency": "USD",
+      "n": 458,
+      "excluded_null_close_dates": [
+        "2025-05-26",
+        "2025-06-19",
+        "2025-07-04"
+      ],
+      "last_volume": 21021,
+      "previous_volume": 21021,
+      "excluded_live_appended_rows": [
+        {
+          "date": "2026-10-28",
+          "close": 1521.9000244140625,
+          "volume": 2687,
+          "timestamp": "2026-10-28T23:40:42-04:00"
+        }
+      ]
+    }
+  },
+  "bands": {
+    "PPLT": {
+      "date": "2026-10-28",
+      "sma200": 17.237259960174562,
+      "d200": -18.838610060757667,
+      "previous_d200": -19.29778880122197,
+      "T_level": 3,
+      "dd252": -44.53914941703941,
+      "C_level": 1,
+      "C_basis": "Previously decayed, carried after checking no new deeper crossing since prior close",
+      "S_level": 1,
+      "T_crossings": [],
+      "C_crossings": [],
+      "would_be_max": 3
+    },
+    "PALL": {
+      "date": "2026-10-28",
+      "sma200": 25.822320079803468,
+      "d200": -28.24037255607228,
+      "previous_d200": -27.64227440290542,
+      "T_level": 4,
+      "dd252": -50.164054967262885,
+      "C_level": 1,
+      "C_basis": "Previously decayed, carried after checking no new deeper crossing since prior close",
+      "S_level": 1,
+      "T_crossings": [],
+      "C_crossings": [],
+      "would_be_max": 4
+    },
+    "SLV": {
+      "date": "2026-10-28",
+      "sma200": 64.58830003738403,
+      "d200": -24.04196836749869,
+      "previous_d200": -24.05276477215078,
+      "T_level": 4,
+      "dd252": -53.54166469489683,
+      "C_level": 1,
+      "C_basis": "Previously decayed, carried after checking no new deeper crossing since prior close",
+      "S_level": 1,
+      "T_crossings": [],
+      "C_crossings": [],
+      "would_be_max": 4
+    }
+  },
+  "guard_qualified_futures": {
+    "GC=F": {
+      "contract": "GCZ26.CMX",
+      "date": "2026-10-27",
+      "price": 4074.60009765625,
+      "prev": 4038.39990234375,
+      "volume": 139103,
+      "change_pct": 0.8963994697873012
+    },
+    "SI=F": {
+      "contract": "SIZ26.CMX",
+      "date": "2026-10-27",
+      "price": 54.51300048828125,
+      "prev": 54.340999603271484,
+      "volume": 39968,
+      "change_pct": 0.3165213858145721
+    },
+    "HG=F": {
+      "contract": "HGZ26.CMX",
+      "date": "2026-10-27",
+      "price": 6.652500152587891,
+      "prev": 6.541999816894531,
+      "volume": 44245,
+      "change_pct": 1.689091085083727
+    },
+    "PL=F": {
+      "contract": "PLF27.NYM",
+      "date": "2026-10-27",
+      "price": 1537.199951171875,
+      "prev": 1545.4000244140625,
+      "volume": 21021,
+      "change_pct": -0.5306116935837712
+    },
+    "PA=F": {
+      "contract": "PAZ26.NYM",
+      "date": "2026-10-27",
+      "price": 1028.5,
+      "prev": 1052.5999755859375,
+      "volume": 7374,
+      "change_pct": -2.2895664207594257
+    }
+  },
+  "guard_qualified_gsr": 74.74547467869014,
+  "diagnostic_gsr": 75.49659132427557,
+  "issuer_GLD": {
+    "date": "2026-10-28",
+    "close": 373.51,
+    "tonnes": 1043.36,
+    "prior_date": "2026-10-27",
+    "prior_tonnes": 1041.65,
+    "change_tonnes": 1.709999999999809,
+    "matched_vendor_max_abs_price_difference": 1.464843751364242e-05
+  },
+  "primary_real_yield": {
+    "date": "2026-10-28",
+    "percent": 2.67,
+    "prior_date": "2026-10-27",
+    "prior_percent": 2.64,
+    "change_bp": 2.9999999999999805
+  },
+  "lme_copper": {
+    "date": "2026-10-28",
+    "tonnes": 271450,
+    "median_2yr_tonnes": 233500,
+    "n": 507,
+    "versus_median_pct": 16.2526766595289
+  },
+  "actual_scores": {
+    "M1": 4,
+    "M2": 1,
+    "I1": 1,
+    "I2": 2
+  },
+  "actual_composite": 8,
+  "counterfactual": {
+    "M1": 4,
+    "M2": 4,
+    "I1": 1,
+    "I2": 4
+  },
+  "counterfactual_total": 13,
+  "gold_certified_settlement_grade": "UNRESOLVED; no certified source, newest row excluded from scoring",
+  "shared_root": "Retained: SLV October14 and PALL October22 within15sessions; not independent"
+}

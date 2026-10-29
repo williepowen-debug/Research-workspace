@@ -1,5 +1,7 @@
 # Row 66 — DFII10 NO-VERDICT band: DESIGN DRAFT
 
+> **Current status (stamped 2026-10-28, audit #23): HISTORICAL — no live obligation.** MIDAS-06 was Will-ruled terminal (a) on 2026-08-21; row 66's NARROW 2.37–2.43 band is prospective-only for successor rows (`OPEN_ITEMS.md` § Calendars). The "held until MIDAS-06 grades" and re-present lines below are dated 8/28 history, superseded. Nothing here is to be applied.
+
 **Written:** 2026-08-28 (Fri), MIDAS orchestrated touch.
 **Status:** ⛔ **DRAFT. NOT APPLIED TO ANY LIVE ROW.** Row 66 is **HELD by Will** until MIDAS-06 grades, and is **PROSPECTIVE for successor rows only.**
 **For:** the **~8/29–8/31 re-present** to Will (owner PROME → Will; DOCKET row registered).

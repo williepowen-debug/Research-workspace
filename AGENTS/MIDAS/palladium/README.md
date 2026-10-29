@@ -60,3 +60,5 @@ Put inseparable multi-metal work in [shared](../shared/README.md), once, and lin
 - [October 26 recycling supply test](../shared/research/2026-10-26_recycling-supply-test.md) — source-model sensitivities and actual processor evidence; completed at Will's request.
 
 - [Valterra mine/refinery comparison](../shared/research/2026-10-26_SA-refinery-pipeline.md) — mine output, refinery timing, inventory draw and Q4 requirements versus Nornickel.
+
+- [October 28 catch-up](../shared/research/2026-10-28_catch-up.md) — October 27–28 prices, bands, Fed hold and news; no score change.

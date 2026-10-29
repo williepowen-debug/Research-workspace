@@ -78,3 +78,5 @@ Put inseparable multi-metal work in [shared](../shared/README.md), once, and lin
 - [Precious-metals research candidates](../shared/research/2026-10-26_precious-metals-research-gaps.md) — recycling supply and mine/refinery timing; original recommendations, now executed in the reports below.
 
 - [October 26 recycling supply test](../shared/research/2026-10-26_recycling-supply-test.md) — source-model sensitivities and actual processor evidence; completed at Will's request.
+
+- [October 28 catch-up](../shared/research/2026-10-28_catch-up.md) — October 27–28 prices, bands, Fed hold and news; no score change.

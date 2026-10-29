@@ -1,0 +1,20 @@
+[
+ {
+  "file": "icsg_2026-10-14_forecast.pdf",
+  "url": "https://icsg.org/download/2026-10-14-press-release-icsg-copper-market-forecast-2026-2027/?wpdmdl=9365&refresh=6ae2c3633d8511793246051",
+  "status": 200,
+  "ctype": "application/pdf",
+  "bytes": 253219,
+  "sha256": "94b3400bd73acee37f7700074013f52945ce309d8a3d5623d731fd432d20311b",
+  "utc": "2026-10-29T03:54:35.377038+00:00"
+ },
+ {
+  "file": "icsg_2026-10-23_monthly.pdf",
+  "url": "https://icsg.org/download/2026-10-23-monthly-press-release/?wpdmdl=9415&refresh=6ae2c3627ed971793246050",
+  "status": 200,
+  "ctype": "application/pdf",
+  "bytes": 258924,
+  "sha256": "e1e9e4011bace2c998f1c35cbef0a16d1e2dc789e66dfc149646f6e10a1df7bd",
+  "utc": "2026-10-29T03:54:39.412815+00:00"
+ }
+]

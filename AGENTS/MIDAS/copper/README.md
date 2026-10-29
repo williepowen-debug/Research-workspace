@@ -38,3 +38,7 @@ Put inseparable multi-metal work in [shared](../shared/README.md), once, and lin
 - [Sunday October 25 catch-up and assignment reconciliation](../shared/research/2026-10-25_sunday-catch-up.md) — dated prices, source limits, completed PRD3 correction and next owner work.
 
 - [October 26 close snapshot](../shared/research/2026-10-26_close-snapshot.md) — latest completed fund prices, provisional named futures and existing band levels; no new scoring rule.
+
+- [October 28 catch-up](../shared/research/2026-10-28_catch-up.md) — China import-demand signals and ICSG primary check.
+
+- [ICSG primary releases](sources/2026-10-28_ICSG-check/) — October 14 forecast (surplus ~104 kt 2026 / ~368 kt 2027) and October 23 Jan–Aug monthly, with hashes.
