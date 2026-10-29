@@ -11,6 +11,14 @@
 > ⚠️ **This file has no length cap and needs none — it is cold. But it must never acquire an instruction.** If you find yourself writing "always do X" here, X belongs in `CLAUDE.md` or `TRADE.md`.
 
 
+## R-2026-10-29-WQ-533 — four install side items (Will 13:33 ET 10/29, in this BRENT session, verbatim "ok then I approve your recs")
+
+Will's own word in a BRENT session, approving the recommendations BRENT gave him at 13:31 ET (PROME's WILL_QUEUE row 533 recommendations plus BRENT's two caveats). Record for PROME: `PROME/inbox/2026-10-29_from-BRENT_WQ533-ruled.md`.
+- **(a) ABANDON the Saudi-restart resolver as designed.** Why: the WQ-264 shadow run logged 3 of about 30 reads by October 24, too few to set its threshold. **Consequence that travels:** WQ-331 P4 made it the ONLY Saudi-relief grader, so no Saudi-relief grader is registered now; Yanbu reports stay record-only. BG-02 R1 (Aramco/MoE/SPA statement naming a quantity) and R4 (clean FAL-01) remain intact. A fresh, smaller design is a new proposal, not a revival.
+- **(b) ACCEPT WQ-420 sources (2)/(3) as the crack basis while CME blocks this box; no unblock attempt.** Exception: when the held-VLO December crack is within roughly $1–2 of $90.16, vendor-vintage spread may exceed the margin (LESSONS #5), so BRENT reports NOT MEASURABLE and may ask Will to read the CME settlement page from his own device.
+- **(c) APPROVE the `xlrd` pin** in `scripts/routine-requirements.txt`, tested 10/29 against FRED GASREGW (exact match, two weeks, with a differing-column control). Not covered: wiring the workbook into `thresholds.py`/routine prompts; that is separate work.
+- **(d) Thursday routine connectors:** Will's hands at claude.ai/code/routines, low urgency.
+
 ## R-2026-10-28-WQ-510 — L526 routine boot preamble installed (Will 20:46 ET 10/28, "510 A approve")
 
 Received by PROME packet `inbox/processed/2026-10-28_from-PROME_WQ510-RULED-A-install-routine-preamble.md` (Will's word relayed at the artifact; WILL_QUEUE row 510). **The binding letter lives in the four live prompts and their saved images** ([install report](audits/2026-10-28_L526-preamble-install/REPORT.md), registry [SCHEDULED_RUNS](SCHEDULED_RUNS.md)); this entry records why.

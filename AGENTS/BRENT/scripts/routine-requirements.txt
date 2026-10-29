@@ -8,3 +8,7 @@ numpy==2.4.4
 openpyxl==3.1.5
 requests==2.33.1
 PyYAML==6.0.3
+# Added 2026-10-29 (WQ-533 (c), Will 13:33 ET "I approve your recs"): legacy .xls reader so routines can parse EIA's key-free
+# retail-gasoline workbook (dnav/pet/xls/PET_PRI_GND_DCUS_NUS_W.xls). Tested 10/29: Regular 10/26 4.269 and 10/19 4.284 match
+# FRED GASREGW exactly; the All Grades column (4.405) differs, so column selection discriminates. supersedes: none.
+xlrd==2.0.1

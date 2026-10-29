@@ -1,5 +1,7 @@
 # Saudi restart resolver — a statement-independent instrument set (PROPOSAL, for Will; sits under WQ-234)
 
+> ⛔ **ABANDONED AS DESIGNED — Will 2026-10-29 13:33 ET (WQ-533 (a)).** The WQ-264 shadow run logged 3 of about 30 reads; the threshold cannot be set. Historical record only; registers and arms nothing. Why and consequences → [RULINGS](../RULINGS.md) § R-2026-10-29-WQ-533.
+
 **BRENT, 2026-09-18 ~14:0x ET.** Will's next-step item 6 ("build a Saudi restart resolver that does not depend on Aramco saying so"). **This is a PROPOSAL. It registers nothing, arms nothing, moves no level, and carries no capital authority.** Capital use of any leg here needs Will's word; the tracker leg additionally sits under his WQ-234 ruling (does an AIS-derived instrument belong on a capital gate at all).
 
 ## 0. The problem, stated once
