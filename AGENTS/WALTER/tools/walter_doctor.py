@@ -2404,6 +2404,7 @@ def check_action_line_rule():
 # ── 8/08 forum-carry builds (PROME packet, executed 2026-08-20, Will-directed) ──
 TERRY_TOKEN_ADOPTED = "2026-08-20"   # rows before this graded by the legacy TERRY-OVERRIDE
                                      # prefix — a ruling governs the NEXT write, not disk
+ENTITIES_ACK = WALTER / "registry" / "ENTITIES_MISSES_ACKNOWLEDGED.tsv"  # reviewed historical misses
 ENTITIES_ADOPTED = "2026-08-19"      # empirical full-coverage start (34/34 on 8/19);
                                      # mandate ratified FORMAT_SPEC v0.18, 2026-08-20
 S7_TOKEN_ADOPTED = "2026-08-20"      # consume:<AGENT> grammar ships (SPEC v0.19 §5.1)
@@ -2610,7 +2611,16 @@ def check_entities_at_dispatch():
     archive sweeps never do (the corrects: precedent) — so this scans ONLY signals dated
     on/after ENTITIES_ADOPTED and NEVER asks for retro-fill. Empirical baseline at
     adoption: 34/34 on 8/19, 4/4 on 8/20."""
-    out, missing, scanned = [], [], 0
+    # 2026-10-29: the old loop printed only missing[:6] with no total, which hid five
+    # 10/19 misses behind six 8/28 ones. Report the TOTAL; historical misses that were
+    # reviewed (dispatched signals are never retro-filled) live in ENTITIES_ACK and drop
+    # to one INFO count, so only a NEW miss raises LOW.
+    acked = set()
+    if ENTITIES_ACK.exists():
+        for line in ENTITIES_ACK.read_text(errors="replace").splitlines():
+            if line.startswith("SIG-W-"):
+                acked.add(line.split("\t", 1)[0])
+    out, missing, known, scanned = [], [], [], 0
     for p in sorted(BOARD.glob("SIG-W-*.md")):
         m = re.match(r"SIG-W-(\d{4})(\d{2})(\d{2})-", p.name)
         if not m:
@@ -2621,12 +2631,16 @@ def check_entities_at_dispatch():
         scanned += 1
         head = p.read_text(errors="replace")[:4000]
         if not re.search(r"^entities:", head, re.M):
-            missing.append(p.name[:40])
+            (known if p.name[:18] in acked else missing).append(p.name[:40])
     for name in missing[:6]:
         out.append((LOW, f"{name}...: no `entities:` header on a post-{ENTITIES_ADOPTED} "
                          f"signal — mandatory at dispatch per FORMAT_SPEC v0.18"))
-    if not out:
-        out.append((INFO, f"all {scanned} signal(s) since {ENTITIES_ADOPTED} declare `entities:`"))
+    if len(missing) > 6:
+        out.append((LOW, f"... and {len(missing) - 6} more unacknowledged signal(s) without `entities:` "
+                         f"({len(missing)} total)"))
+    if not missing:
+        out.append((INFO, f"all {scanned} signal(s) since {ENTITIES_ADOPTED} declare `entities:` "
+                          f"except {len(known)} reviewed historical miss(es) in {ENTITIES_ACK.name}"))
     return out
 
 

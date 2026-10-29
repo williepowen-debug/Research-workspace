@@ -1,0 +1,15 @@
+# Reviewed historical dispatch misses of the mandatory `entities:` header (FORMAT_SPEC v0.18). Read by tools/walter_doctor.py check_entities_at_dispatch.
+# Dispatched signals are never retro-filled (FORMAT_SPEC post-dispatch immutability; the check's own rule). Listing a signal here records that the miss was SEEN; it does not supply the entities.
+# Add a row only after reviewing the signal; a NEW miss should be fixed at dispatch, not acknowledged here.
+signal_id	reviewed	reason
+SIG-W-20260828-016	2026-10-29	method signal (BLS gate mechanics); no market entity; written in a methods batch without the header
+SIG-W-20260828-017	2026-10-29	method signal (recipe reproducibility); no market entity
+SIG-W-20260828-018	2026-10-29	method signal (truncating reads); no market entity
+SIG-W-20260828-019	2026-10-29	method signal (failure-mode ranking); no market entity
+SIG-W-20260828-020	2026-10-29	method signal (denominator test); no market entity
+SIG-W-20260828-021	2026-10-29	method correction; no market entity
+SIG-W-20261019-004	2026-10-29	10/19 batch dispatch miss (builder confidence); entities would have been NAHB/HMI
+SIG-W-20261019-005	2026-10-29	10/19 batch dispatch miss (JMIC 106 / Cape Dao); entities would have been JMIC, Cape-Dao
+SIG-W-20261019-006	2026-10-29	10/19 batch dispatch miss (OTTO Exeter funding); entities would have been Exeter
+SIG-W-20261019-007	2026-10-29	10/19 batch dispatch miss (1099 Meridian case correction); entities would have been 1099-Meridian
+SIG-W-20261019-008	2026-10-29	10/19 batch dispatch miss (OTTO September panel); no single named entity
