@@ -17,6 +17,7 @@ B 1 / C 14 / D 85 HELD; convergence 43/50 retained. FAL-06 OPEN at 70% (resolves
 - Processed 7 WALTER signals (board_log + git mv). KB-348..353. STRIKES mark → 10/28. FRESH_LEG_BASELINE 10/29 block. STATUS rewritten (prior archived verbatim). PROME gate packet.
 
 ## NEXT SESSION (dated, future-verifiable)
+0. FIRST (October 30): resolve VI-0085 Khasab fire (10/29 ~03:00Z) — hull name via IMO table + NAVAREA IX (Pakistan NHO), cause, sunk or not; match against IRGC 3-mine claim. Confirmed hostile tanker sinking = census 5→6, first class(iii-A) — grade then. git mv SIG-W-20261029-035 to processed once WALTER has committed it (already logged in board_log).
 1. November 1–2: Sinokor watch — any named Sinokor hull detained/seized/turned back; Sinokor or Korean government response. A detention = shipping-vector event (already at 5), record in VESSELS.
 2. Find Sohar's current PortWatch portid (Daily_Ports_Data; queries flake ~50% — retry) and re-map bypass_watch.py PRIMARY; until then bypass = BLIND, never HOLDING.
 3. November 4: weekly scenario + GATE-FALCON-001 review (current TankerMap vintage).

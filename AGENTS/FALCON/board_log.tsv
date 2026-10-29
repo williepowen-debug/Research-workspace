@@ -280,3 +280,4 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-29T12:14:16.534811-04:00	SIG-W-20261029-005	info-only	WALTER	CRUISE VX-CRU-04 G->Y on an August cancellation; not a theater event.
 2026-10-29T12:14:16.534811-04:00	SIG-W-20261029-014	noted	WALTER	DEWEY no matched October war-risk quotes; consistent with WARRISK all-5 EXPIRED; WQ-298 CANNOT-FIRE stands.
 2026-10-29T12:14:16.534811-04:00	SIG-W-20261029-022	acted	WALTER	NAVCENT/JMIC 28 Oct stay-clear + blockade-enforcement advisory integrated; FAL-07 not fired. KB-352.
+2026-10-29T12:16:50.622095-04:00	SIG-W-20261029-035	acted	WALTER	Khasab fire logged VI-0085/KB-354 as relayed, unnamed, cause unknown; IRGC mine claim not merged; census 5, no mark change. File untracked (WALTER uncommitted) - not moved; move after WALTER commits.
