@@ -59,7 +59,7 @@ Other gaps, including HANS T12's missing feed and owner-method decisions, remain
 
 ## OPEN DESIGN DECISIONS
 
-CYBER BOARD cluster remains MISC (WQ-501 approved the NETWORK_GROUP; WALTER taxonomy edit not made); VX-CYP tags, AI_INFRA_CAPEX re-cut, verdict-letter F1/F2, L730 re-scope, staleness-sweep P2, CRUISE miss option 2, lane dateline flag remain unresolved. Missed-data-day BOARD coverage (recurred 10/28 FOMC and 10/29 GDP/PCE/ECB) and unscanned boundary #8 fallback remain pending design findings. WQ-508 approved scope and all prior routing/checklist approvals (v0.48/v0.54) remain intact. No spec edit this session.
+CYBER BOARD cluster DONE 2026-10-29 (CLUSTER_TAXONOMY v0.8, Will sign-off 11:48 ET; 18 MISC cards re-filed; 3e9963b70). Still open: VX-CYP tags, AI_INFRA_CAPEX re-cut, verdict-letter F1/F2, L730 re-scope, staleness-sweep P2, CRUISE miss option 2, lane dateline flag remain unresolved. Missed-data-day BOARD coverage (recurred 10/28 FOMC and 10/29 GDP/PCE/ECB) and unscanned boundary #8 fallback remain pending design findings. WQ-508 approved scope and all prior routing/checklist approvals (v0.48/v0.54) remain intact. Spec edits this session: CLUSTER_TAXONOMY v0.8, SIGNAL_FORMAT_SPEC v0.28 (cluster enum reference), STATE.
 
 ## CLOSEOUT RECEIPT
 
