@@ -1,0 +1,106 @@
+# Small-bank borrowing — deep dive (Will-asked, 2026-10-28 22:44 ET)
+
+**Question:** what is the small-bank borrowing trend, and does it matter?
+**Data:** Fed H.8 weekly via FRED, latest week ending Wed 10/14 (released Fri 10/23), retrieved 2026-10-28 22:45 ET. Series: `H8B3094NSMA` borrowings SA, `H8B3094NSMD` NSA, `H8B3094NLGA` large-bank borrowings, `DPSSCBW027SBOG` deposits, `CASSCBW027SBOG` cash, `TLASCBW027SBOG` total assets, `LLBSCBW027SBOG` loans, and the loan-category series listed in §4. Discount window: `WLCFLPCL` (Wednesday level). Rates: `SOFR`, `IORB`, `DPCREDIT`. KRE/SPY are yfinance adjusted closes, with today excluded. Scripts, data and raw outputs: `domain/sources/2026-10-28_boot/h8_deepdive/`.
+**"Small" in H.8** means domestically chartered banks outside the 25 largest by assets. That covers most regional and community banks, not only tiny ones.
+
+## Bottom line
+
+Small banks have borrowed fast but from a low base, and the money mostly went into new loans rather than into cash. The aggregate borrowing level is still lower relative to assets than it was before COVID or through 2023–24. Deposits are rising, which is the opposite of the 2022 pattern that preceded SVB. My Q3 cohort names mostly cut borrowing, so the borrowers are banks I don't cover. A forward test since 2006 shows **no forward edge** for KRE. **Descriptive, not a signal: no threshold, no registration, no trade.** The decisive data is per-bank borrowed money in the 9/30 Call Reports (the scheduled 11/07 pull).
+
+## §1 Level vs speed
+
+| Measure | Now [w/e 10/14] | Context |
+|---|---|---|
+| Level | **$316.4B** SA | 2026 trough $278.4B [7/15]; 2024 peak $416.6B [1/31/24]; SVB week $666.1B [3/15/23] |
+| As % of small-bank assets | **4.55%** | **18th percentile since 2010** (median 6.38%); pre-COVID 6.23% [12/2019]; 6.51% [3/2024] |
+| 1-week change | +2.9% (+$9.0B) | 96th percentile of weeks since 2010 |
+| 3-week | +6.0% (+$17.9B) | 97th percentile |
+| **6-week** | **+11.8% (+$33.5B)** | **97.5th percentile since 2010; 18th largest of 876 weeks excluding the SVB weeks** |
+| 13-week | +13.7% (+$38.0B) | 94th percentile |
+
+**Read:** a fast move from a low base. The level is not stretched.
+
+## §2 What funded what
+
+| $B, SA | 9/2 → 10/14 (6 wks) | 7/15 → 10/14 (since trough) |
+|---|---|---|
+| Borrowings | **+33.5** | **+38.0** |
+| Deposits | **+39.4** | +33.2 |
+| Cash assets | +13.7 | +4.1 |
+| Loans and leases | **+47.6** (≈ +37.9 excluding the card step, §4) | **+71.3** |
+| Securities | −3.1 | −16.4 |
+| Large-bank borrowings (contrast) | +36.0 (+3.5%) | −17.8 (−1.6%) |
+
+**Read:** borrowing and deposit growth together funded loan growth of about 1% in six weeks, roughly 8–9% annualized. Cash rose far less than borrowing. Large banks borrowed a similar dollar amount over the six weeks, but at a third of the percentage pace, and they are lower than in July. In percentage terms, the run belongs to the smaller banks.
+
+## §3 Week-by-week (SA $B)
+
+| Week | Borrowings | Deposits | Cash | Loans |
+|---|---|---|---|---|
+| 9/02 | 282.9 | 5,656.0 | 480.5 | 4,725.0 |
+| 9/09 | 281.8 | 5,674.5 | 482.7 | 4,738.7 |
+| 9/16 | 286.4 | 5,668.8 | 472.9 | 4,749.0 |
+| 9/23 | 298.5 | 5,671.8 | 485.4 | 4,755.7 |
+| 9/30 | 314.8 | 5,674.6 | 500.4 | 4,754.8 |
+| 10/07 | 307.3 | 5,688.4 | 482.1 | 4,770.4 |
+| 10/14 | 316.4 | 5,695.4 | 494.2 | 4,772.6 |
+
+The 10/14 week's cash rise (+12.1) refilled cash spent the week before. In the 10/7 week, cash fell 18.3 while loans rose 15.6, including the card step.
+
+## §4 Which loans
+
+Six-week change 9/2 → 10/14, SA $B: commercial real estate (nonfarm nonresidential) **+9.7** · construction +1.6 · C&I **+7.2** · loans to nondepository financial institutions **+6.7** · residential +1.0 · HELOC +1.4 · autos +1.8 · **credit cards +9.4**.
+
+⚠️ **Credit cards: a one-week step of +$9.7B between 9/30 and 10/7** (93.8 → 103.5 SA; 94.0 → 102.9 NSA), with large banks flat that week. This is a portfolio purchase or transfer onto a small bank at the quarter turn, not organic lending. H.8 does not name the bank, and this desk does not know who it is. It may matter for the BaaS perimeter if it is a fintech card book moving onto a sponsor charter. That is UNKNOWN and not asserted.
+
+## §5 Discount window and the money-market explanation
+
+- Primary credit $9.169B [Wed 10/21], down from a peak of $11.04B [10/14]. **98th percentile since 2010 when COVID 2020 and 2023 are excluded.** It is small: about 3% of small-bank borrowings, and borrowers are not named (both large and small banks can use it).
+- The discount rate is 4.00%, only **5bp above SOFR** (3.95% [10/27]). Using the window costs little, which lowers the bar to use it.
+- **The money-market explanation does not fit the timing.** Repo was **below** the Fed's reserve rate (IORB) in every week of the surge (weekly average −0.8 to −4.2bp, 9/16–10/21). It turned positive only in the week of 10/28, after the surge. Since 2024, the 6-week change in SOFR−IORB and the 6-week change in borrowing have correlation −0.04: no relationship. The level of SOFR−IORB vs primary credit: correlation 0.47, moderate.
+
+## §6 My cohort's own Q3 borrowing (period-end 9/30 releases)
+
+| Bank | Q3 borrowing | Source |
+|---|---|---|
+| WAL | total borrowing **−9.99%** | `reports/2026-10-20_reported-bank-earnings-catchup.md` (WAL funding grade) |
+| ZION | short-term borrowing $1,219M → **$84M** | same report |
+| SBCF | FHLB + other average $915.0M → **$862.1M** | 8-K 10/27 (this session) |
+| AMTB | FHLB $715.0M, +1.8% | `reports/2026-10-23_boot/REPORT.md` |
+| CUBI | FHLB $2.137B, +3.8% | same |
+| CFG (a large bank, for contrast) | period-end FHLB $5,763M → $7,613M | 10/20 report |
+
+**Read:** among the cohort names that reported it, borrowing mostly fell or edged up. The ~$33B rise (9/9 → 9/30) is coming from banks I don't cover. Only the Call Reports name them.
+
+## §7 Does it predict anything? (base rate, release lag built in)
+
+Episodes are the first week of each cluster where the 6-week rise met the bar, clusters are at least 26 weeks apart, and the sample starts mid-2006. Entry is the first KRE close on or after the H.8 release (week end + 9 days). "Excess" is KRE return minus SPY return.
+
+| Bar | n (prior) | Episodes | KRE − SPY at 3 months |
+|---|---|---|---|
+| ≥ +11.8% (today's pace) | 2 | 2020-03 (COVID), 2022-06 | −1.8, +6.2 |
+| ≥ +8% | 5 | 2007-10, 2012-03, 2017-10, 2020-03, 2022-06 | −14.7, −4.4, +2.0, −10.2, +7.1 (median −4.4; 3 of 5 negative) |
+| Unconditional | 994 weekly samples | — | median −1.6; 58% negative |
+
+**No forward edge:** 3 of 5 (60%) against a base of 58%, on n = 5. This agrees with TERRY's 10/23 finding that the proposed alarms show no edge since 2006.
+
+**The two analogs worth knowing:**
+- **2007-10:** borrowing was 16% of assets, about 3.5× today. Not comparable on level.
+- **2022-06:** a low level like today (3.6%), but **deposits were flat to falling** (−0.4% over the next 13 weeks), and borrowing kept climbing (+23% over 13 weeks) to replace them. That cluster ran into SVB in March 2023. **Today deposits are rising (+0.7% in 6 weeks).** This is the main difference from the one analog that ended badly.
+
+## §8 Correction to my own earlier read (same evening)
+
+At boot I wrote that this was **"cash-building, not a run or a credit draw"**, based on one week (10/7 → 10/14). Over the whole run that is wrong. Cash rose +$13.7B against +$33.5B of borrowing, and the money went mainly into loans. The "not a run" half stands, because deposits are rising. Corrected on STATUS, the 10/28 boot report (appended), KB (ML-REG-256) and the NEXUS brief.
+
+## §9 What would change this read
+
+| Watch | Date | Which way it moves the read |
+|---|---|---|
+| **H.8 weekly deposits** | Fri 10/30, then weekly | **Deposits turning down while borrowing keeps rising = the 2022 pattern.** That would make this a funding-stress read, not a loan-funding read |
+| **Call Reports 9/30, per-bank borrowed money and FHLB advances** | filing ~10/30; this desk's planned pull 11/07 | Concentrated in a few banks = idiosyncratic (find the names); broad = system-level funding of loan growth |
+| FHLB Office of Finance Q3 Highlights | ~10/30 | FHLB share of the rise; REG-T-06's third quarter >$700B (grades 11/13 from the CFR) |
+| H.4.1 discount window | Thu 10/29 | Whether ~$9–11B persists now that repo has moved above IORB |
+| The card step | 10-Qs / 8-Ks | Which bank bought ~$9.7B of card loans and from whom (BaaS relevance) |
+
+No threshold, prediction or position consequence. LIQUID owns the structural funding read; this is the bank-side description.
