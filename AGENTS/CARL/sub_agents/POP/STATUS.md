@@ -232,6 +232,16 @@ Full detail: `state_vectors/SV-POP-2026-10-28-01.md`. Dashboard rows above stay 
 - **CARL rulings 10/28:** CRL-17 already closed 10/1 NO-VERDICT-BY-INSTRUMENT (POP's 8/15-packet picture was stale); CRL-15 35% vs P06 55% monotone, no change; P03 row alignment fixed (Date_Resolved=2026-10-28, Apr-17 note moved to Notes).
 - **Inbox:** 8/15 packet (74 days old) and 10/26 packet consumed, `git mv`'d to `inbox/processed/`. The "wrong flat path" is not a POP file defect: line 68 above names `AGENTS/POP` only as the path consumer_check.py wrongly resolves.
 
+## ADDENDUM 2026-10-28 late (Will-directed news catch-up; NOT a refresh)
+
+Full detail: `state_vectors/SV-POP-2026-10-28-02.md`. Secondary sourcing throughout; no prediction changes; ledgers stay FROZEN.
+
+- **Formation steady:** Census BFS September 534,947 SA (+0.5% MoM), high-propensity 147,331 (+1.3%) [Census, rel 10/14/26]. Annual revision lands 11/12.
+- **Franchise channel, first large realized case:** Meritage Hospitality (314 Wendy's units, ~8,850 staff) filed Ch.11 9/17/26. 33+ closed through 10/18, a further 20-60 by 11/13; Wendy's claims ~$146.9M owed [secondary, Oct 2026]. Also Applebee's operator NRP Florida (Ch.11 3/24), Popeyes franchisee Sailormen (Ch.11), Denny's franchisee M15 (Ch.7 expected). FL operators are flagged to CARL.
+- **Tariffs:** Sec-122 expired 7/24 and was replaced by Sec-301 at 10-12.5% on 60 partners (7/23), with CIT suits pending. Sec-232 derivatives are 25% on full value, and 14 more categories were proposed 8/6. IEEPA refunds: ~$35.5B paid, ~$30B stuck on appeal.
+- **Credit:** SLOOS July had small-firm standards ~unchanged (90.9%). ZION Q3 had a provision benefit (-$8M). HBAN NPA $1.72B vs $821M YoY is unattributed and is REGINALD's call, not SB evidence. No official SBA FY2026 default print yet (P06 open).
+- **Net:** level high, rate easing, plus one realized tail event. No V11 change proposed.
+
 ---
 
 *See workbook/ for vector registry (VX.tsv), master log (ML.tsv), flow cascades (FLOW.tsv), sector data (SECTOR.tsv), tariff tracking (TARIFF.tsv)*
